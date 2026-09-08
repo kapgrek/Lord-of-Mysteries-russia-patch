@@ -1,0 +1,222 @@
+﻿{
+  "title": "Каноничный глоссарий 22 Путей Божественности (Lord of the Mysteries / Повелитель Тайн)",
+  "source": "Официальный русскоязычный перевод новеллы (Ruvers / RanobeLib) и терминология игры",
+  "pathways": [
+    {
+      "name_ru": "Путь Шута",
+      "name_en": "Fool Pathway",
+      "name_cn": "愚者途径",
+      "group": "Группа Владыки Тайн (Lord of the Mysteries)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Провидец", "name_en": "Seer", "name_cn": "占卜家" },
+        { "seq": 8, "name_ru": "Клоун", "name_en": "Clown", "name_cn": "小丑" },
+        { "seq": 7, "name_ru": "Фокусник", "name_en": "Magician", "name_cn": "魔术师" },
+        { "seq": 6, "name_ru": "Безликий", "name_en": "Faceless", "name_cn": "无面人" },
+        { "seq": 5, "name_ru": "Марионеточник", "name_en": "Marionettist", "name_cn": "秘偶大师" },
+        { "seq": 4, "name_ru": "Колдун", "name_en": "Bizarro Sorcerer", "name_cn": "诡法师" },
+        { "seq": 3, "name_ru": "Наставник Прошлого", "name_en": "Scholar of Yore", "name_cn": "古代学者" },
+        { "seq": 2, "name_ru": "Мастер Чудес", "name_en": "Miracle Invoker", "name_cn": "奇迹师" },
+        { "seq": 1, "name_ru": "Служитель Тайн", "name_en": "Attendant of Mysteries", "name_cn": "诡秘侍者" },
+        { "seq": 0, "name_ru": "Шут", "name_en": "The Fool", "name_cn": "愚者" }
+      ]
+    },
+    {
+      "name_ru": "Путь Двери",
+      "name_en": "Door Pathway",
+      "name_cn": "门途径",
+      "group": "Группа Владыки Тайн (Lord of the Mysteries)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Ученик", "name_en": "Apprentice", "name_cn": "学徒" },
+        { "seq": 8, "name_ru": "Трикстер", "name_en": "Trickmaster", "name_cn": "戏法大师" },
+        { "seq": 7, "name_ru": "Астролог", "name_en": "Astrologer", "name_cn": "占星人" },
+        { "seq": 6, "name_ru": "Скриб (Писарь)", "name_en": "Scribe", "name_cn": "记录官" },
+        { "seq": 5, "name_ru": "Путешественник", "name_en": "Traveler", "name_cn": "旅行家" },
+        { "seq": 4, "name_ru": "Тайный Маг", "name_en": "Secrets Sorcerer", "name_cn": "秘法师" },
+        { "seq": 3, "name_ru": "Скиталец", "name_en": "Wanderer", "name_cn": "漫游者" },
+        { "seq": 2, "name_ru": "Мудрец Пространства", "name_en": "Soothsayer", "name_cn": "旅法师" },
+        { "seq": 1, "name_ru": "Ключ Звезд", "name_en": "Key of Stars", "name_cn": "星之匙" },
+        { "seq": 0, "name_ru": "Дверь", "name_en": "Door", "name_cn": "门" }
+      ]
+    },
+    {
+      "name_ru": "Путь Ошибки (Мародера)",
+      "name_en": "Error Pathway",
+      "name_cn": "错误途径",
+      "group": "Группа Владыки Тайн (Lord of the Mysteries)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Мародер", "name_en": "Marauder", "name_cn": "偷盗者" },
+        { "seq": 8, "name_ru": "Мошенник", "name_en": "Swindler", "name_cn": "诈骗师" },
+        { "seq": 7, "name_ru": "Криптолог", "name_en": "Cryptologist", "name_cn": "解密学者" },
+        { "seq": 6, "name_ru": "Вор Огня", "name_en": "Baron of Corruption", "name_cn": "盗火人" },
+        { "seq": 5, "name_ru": "Похититель Снов", "name_en": "Dream Stealer", "name_cn": "窃梦家" },
+        { "seq": 4, "name_ru": "Паразит", "name_en": "Parasite", "name_cn": "寄生者" },
+        { "seq": 3, "name_ru": "Наставник Обмана", "name_en": "Mentor of Deceit", "name_cn": "欺诈导师" },
+        { "seq": 2, "name_ru": "Троянский Конь Судьбы", "name_en": "Trojan Horse of Destiny", "name_cn": "命运木马" },
+        { "seq": 1, "name_ru": "Червь Времени", "name_en": "Worm of Time", "name_cn": "时之虫" },
+        { "seq": 0, "name_ru": "Ошибка", "name_en": "Error", "name_cn": "错误" }
+      ]
+    },
+    {
+      "name_ru": "Путь Зрителя",
+      "name_en": "Spectator Pathway",
+      "name_cn": "观众途径",
+      "group": "Группа Бога Всемогущего (God Almighty)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Зритель", "name_en": "Spectator", "name_cn": "观众" },
+        { "seq": 8, "name_ru": "Чтец Мыслей", "name_en": "Telepathist", "name_cn": "读心者" },
+        { "seq": 7, "name_ru": "Психотерапевт", "name_en": "Psychiatrist", "name_cn": "心理医生" },
+        { "seq": 6, "name_ru": "Гипнотизер", "name_en": "Hypnotist", "name_cn": "催眠师" },
+        { "seq": 5, "name_ru": "Сноходец", "name_en": "Dreamwalker", "name_cn": "梦境行者" },
+        { "seq": 4, "name_ru": "Манипулятор", "name_en": "Manipulator", "name_cn": "操纵者" },
+        { "seq": 3, "name_ru": "Ткач Снов", "name_en": "Dream Weaver", "name_cn": "织梦人" },
+        { "seq": 2, "name_ru": "Проницатель", "name_en": "Discerner", "name_cn": "洞察者" },
+        { "seq": 1, "name_ru": "Автор", "name_en": "Author", "name_cn": "作家" },
+        { "seq": 0, "name_ru": "Визионер", "name_en": "Visionary", "name_cn": "空想家" }
+      ]
+    },
+    {
+      "name_ru": "Путь Моряка (Тирана)",
+      "name_en": "Sailor Pathway",
+      "name_cn": "水手途径",
+      "group": "Группа Бога Всемогущего (God Almighty)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Моряк", "name_en": "Sailor", "name_cn": "水手" },
+        { "seq": 8, "name_ru": "Бунтарь (Гневный)", "name_en": "Folk of Rage", "name_cn": "暴怒之民" },
+        { "seq": 7, "name_ru": "Мореплаватель", "name_en": "Seafarer", "name_cn": "航海家" },
+        { "seq": 6, "name_ru": "Благословленный Ветром", "name_en": "Wind-blessed", "name_cn": "风暴守卫" },
+        { "seq": 5, "name_ru": "Певец Океана", "name_en": "Ocean Songster", "name_cn": "海洋歌者" },
+        { "seq": 4, "name_ru": "Вестник Катастроф", "name_en": "Cataclysmic Interred", "name_cn": "灾难使者" },
+        { "seq": 3, "name_ru": "Морской Царь", "name_en": "Sea King", "name_cn": "海王" },
+        { "seq": 2, "name_ru": "Повелитель Бедствий", "name_en": "Calamity Arbiter", "name_cn": "天灾领主" },
+        { "seq": 1, "name_ru": "Владыка Грома", "name_en": "Thunder God", "name_cn": "雷神" },
+        { "seq": 0, "name_ru": "Тиран", "name_en": "Tyrant", "name_cn": "暴君" }
+      ]
+    },
+    {
+      "name_ru": "Путь Солнца",
+      "name_en": "Sun Pathway",
+      "name_cn": "太阳途径",
+      "group": "Группа Бога Всемогущего (God Almighty)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Бард", "name_en": "Bard", "name_cn": "歌颂者" },
+        { "seq": 8, "name_ru": "Молящийся о Свете", "name_en": "Light Supplicant", "name_cn": "祈光人" },
+        { "seq": 7, "name_ru": "Солнечный Жрец", "name_en": "Solar High Priest", "name_cn": "太阳神官" },
+        { "seq": 6, "name_ru": "Нотариус", "name_en": "Notary", "name_cn": "公证人" },
+        { "seq": 5, "name_ru": "Жрец Света", "name_en": "Priest of Light", "name_cn": "光之祭司" },
+        { "seq": 4, "name_ru": "Лишенный Тени", "name_en": "Unshadowed", "name_cn": "无暗者" },
+        { "seq": 3, "name_ru": "Вестник Справедливости", "name_en": "Justice Mentor", "name_cn": "正义导师" },
+        { "seq": 2, "name_ru": "Светоносный Ангел", "name_en": "Light-bearing Angel", "name_cn": "逐光者" },
+        { "seq": 1, "name_ru": "Чистое Белое Сияние", "name_en": "Pure White Angel", "name_cn": "纯白天使" },
+        { "seq": 0, "name_ru": "Солнце", "name_en": "The Sun", "name_cn": "太阳" }
+      ]
+    },
+    {
+      "name_ru": "Путь Читателя (Белой Башни)",
+      "name_en": "Reader Pathway",
+      "name_cn": "阅读者途径",
+      "group": "Группа Бога Всемогущего (God Almighty)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Читатель", "name_en": "Reader", "name_cn": "阅读者" },
+        { "seq": 8, "name_ru": "Студент", "name_en": "Student of Ratiocination", "name_cn": "推理学员" },
+        { "seq": 7, "name_ru": "Детектив", "name_en": "Detective", "name_cn": "侦探" },
+        { "seq": 6, "name_ru": "Полимат", "name_en": "Polymath", "name_cn": "博学者" },
+        { "seq": 5, "name_ru": "Мистик", "name_en": "Mystic", "name_cn": "秘术导师" },
+        { "seq": 4, "name_ru": "Профессор Свитков", "name_en": "Alchemist", "name_cn": "卷轴教授" },
+        { "seq": 3, "name_ru": "Мастер Познания", "name_en": "Cognizer", "name_cn": "先知" },
+        { "seq": 2, "name_ru": "Мудрец Знаний", "name_en": "Knowledge Emperor", "name_cn": "智者" },
+        { "seq": 1, "name_ru": "Всеведущий", "name_en": "Omniscient Eye", "name_cn": "全知之眼" },
+        { "seq": 0, "name_ru": "Белая Башня", "name_en": "White Tower", "name_cn": "白塔" }
+      ]
+    },
+    {
+      "name_ru": "Путь Бессонного (Тьмы)",
+      "name_en": "Sleepless Pathway",
+      "name_cn": "不眠者途径",
+      "group": "Группа Вечной Тьмы (Eternal Darkness)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Бессонный", "name_en": "Sleepless", "name_cn": "不眠者" },
+        { "seq": 8, "name_ru": "Полуночный Поэт", "name_en": "Midnight Poet", "name_cn": "午夜诗人" },
+        { "seq": 7, "name_ru": "Кошмар", "name_en": "Nightmare", "name_cn": "梦魇" },
+        { "seq": 6, "name_ru": "Ловец Душ", "name_en": "Soul Assayer", "name_cn": "安魂师" },
+        { "seq": 5, "name_ru": "Страж Ночи", "name_en": "Spirit Guide", "name_cn": "守夜人" },
+        { "seq": 4, "name_ru": "Рыцарь Рассвета", "name_en": "Nightwatcher", "name_cn": "黎明骑士" },
+        { "seq": 3, "name_ru": "Безмолвный Монах", "name_en": "Silent Monk", "name_cn": "恐惧主教" },
+        { "seq": 2, "name_ru": "Слуга Безмолвия", "name_en": "Servant of Silence", "name_cn": "隐秘之仆" },
+        { "seq": 1, "name_ru": "Темный Ангел", "name_en": "Dark Angel", "name_cn": "厄难骑士" },
+        { "seq": 0, "name_ru": "Тьма", "name_en": "Darkness", "name_cn": "黑暗" }
+      ]
+    },
+    {
+      "name_ru": "Путь Смерти",
+      "name_en": "Death Pathway",
+      "name_cn": "死神途径",
+      "group": "Группа Вечной Тьмы (Eternal Darkness)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Сборщик Трупов", "name_en": "Corpse Collector", "name_cn": "收尸人" },
+        { "seq": 8, "name_ru": "Могильщик", "name_en": "Grave Digger", "name_cn": "掘墓人" },
+        { "seq": 7, "name_ru": "Спирит", "name_en": "Spirit Medium", "name_cn": "通灵者" },
+        { "seq": 6, "name_ru": "Шаман Духов", "name_en": "Spirit Warlock", "name_cn": "死灵导师" },
+        { "seq": 5, "name_ru": "Вратарь", "name_en": "Gatekeeper", "name_cn": "看门人" },
+        { "seq": 4, "name_ru": "Бессмертный", "name_en": "Undying", "name_cn": "不死者" },
+        { "seq": 3, "name_ru": "Паромщик", "name_en": "Ferryman", "name_cn": "摆渡人" },
+        { "seq": 2, "name_ru": "Консул Смерти", "name_en": "Death Consul", "name_cn": "死亡执政官" },
+        { "seq": 1, "name_ru": "Бледный Император", "name_en": "Pale Emperor", "name_cn": "苍白皇帝" },
+        { "seq": 0, "name_ru": "Смерть", "name_en": "Death", "name_cn": "死神" }
+      ]
+    },
+    {
+      "name_ru": "Путь Воина (Сумеречного Гиганта)",
+      "name_en": "Warrior Pathway",
+      "name_cn": "战士途径",
+      "group": "Группа Вечной Тьмы (Eternal Darkness)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Воин", "name_en": "Warrior", "name_cn": "战士" },
+        { "seq": 8, "name_ru": "Кулачный Боец", "name_en": "Pugilist", "name_cn": "格斗家" },
+        { "seq": 7, "name_ru": "Мастер Оружия", "name_en": "Weapon Master", "name_cn": "武器大师" },
+        { "seq": 6, "name_ru": "Рыцарь Рассвета", "name_en": "Dawn Knight", "name_cn": "黎明骑士" },
+        { "seq": 5, "name_ru": "Хранитель", "name_en": "Guardian", "name_cn": "守护者" },
+        { "seq": 4, "name_ru": "Охотник на Демонов", "name_en": "Demon Hunter", "name_cn": "猎魔者" },
+        { "seq": 3, "name_ru": "Серебряный Рыцарь", "name_en": "Silver Knight", "name_cn": "银骑士" },
+        { "seq": 2, "name_ru": "Меч Славы", "name_en": "Glory Sword", "name_cn": "荣耀者" },
+        { "seq": 1, "name_ru": "Рука Угасания", "name_en": "Hand of Decay", "name_cn": "神明之手" },
+        { "seq": 0, "name_ru": "Сумеречный Гигант", "name_en": "Twilight Giant", "name_cn": "黄昏巨人" }
+      ]
+    },
+    {
+      "name_ru": "Путь Охотника (Красного Жреца)",
+      "name_en": "Hunter Pathway",
+      "name_cn": "猎人途径",
+      "group": "Группа Бедствия Разрушения (Calamity of Destruction)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Охотник", "name_en": "Hunter", "name_cn": "猎人" },
+        { "seq": 8, "name_ru": "Провокатор", "name_en": "Provoker", "name_cn": "挑衅者" },
+        { "seq": 7, "name_ru": "Пиромант", "name_en": "Pyromaniac", "name_cn": "纵火家" },
+        { "seq": 6, "name_ru": "Заговорщик", "name_en": "Conspirador", "name_cn": "阴谋家" },
+        { "seq": 5, "name_ru": "Жнец", "name_en": "Reaper", "name_cn": "收割者" },
+        { "seq": 4, "name_ru": "Железнокровный Рыцарь", "name_en": "Iron-blooded Knight", "name_cn": "铁血骑士" },
+        { "seq": 3, "name_ru": "Шаман Войны", "name_en": "War Bishop", "name_cn": "战争主教" },
+        { "seq": 2, "name_ru": "Владыка Погоды", "name_en": "Weather Warlock", "name_cn": "天气之神" },
+        { "seq": 1, "name_ru": "Завоеватель", "name_en": "Conqueror", "name_cn": "征服者" },
+        { "seq": 0, "name_ru": "Красный Жрец", "name_en": "Red Priest", "name_cn": "红祭司" }
+      ]
+    },
+    {
+      "name_ru": "Путь Убийцы (Демоницы)",
+      "name_en": "Assassin Pathway",
+      "name_cn": "刺客途径",
+      "group": "Группа Бедствия Разрушения (Calamity of Destruction)",
+      "sequences": [
+        { "seq": 9, "name_ru": "Убийца", "name_en": "Assassin", "name_cn": "刺客" },
+        { "seq": 8, "name_ru": "Подстрекатель", "name_en": "Instigator", "name_cn": "教唆者" },
+        { "seq": 7, "name_ru": "Ведьма", "name_en": "Witch", "name_cn": "女巫" },
+        { "seq": 6, "name_ru": "Демоница Удовольствий", "name_en": "Pleasure Demoness", "name_cn": "欢愉女巫" },
+        { "seq": 5, "name_ru": "Демоница Страданий", "name_en": "Affliction Demoness", "name_cn": "痛苦魔女" },
+        { "seq": 4, "name_ru": "Демоница Отчаяния", "name_en": "Despair Demoness", "name_cn": "绝望魔女" },
+        { "seq": 3, "name_ru": "Демоница Разрушения", "name_en": "Catastrophe Demoness", "name_cn": "毁灭魔女" },
+        { "seq": 2, "name_ru": "Демоница Смерти", "name_en": "Death Demoness", "name_cn": "灾难魔女" },
+        { "seq": 1, "name_ru": "Демоница Апокалипсиса", "name_en": "Apocalypse Demoness", "name_cn": "末日魔女" },
+        { "seq": 0, "name_ru": "Демоница", "name_en": "Demoness", "name_cn": "魔女" }
+      ]
+    }
+  ]
+}

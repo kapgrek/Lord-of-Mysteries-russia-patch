@@ -1,0 +1,15 @@
+﻿# Temp & build artifacts
+*.tmp
+*.bak
+*.log
+*.patch_backup*
+*~
+
+# OS artifacts
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Scratch / working test files
+scratch/
+test_output/

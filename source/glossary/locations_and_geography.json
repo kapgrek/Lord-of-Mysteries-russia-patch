@@ -1,0 +1,24 @@
+﻿{
+  "kingdoms": [
+    { "ru": "Королевство Лоэн", "en": "Kingdom of Loen", "cn": "鲁恩王国" },
+    { "ru": "Республика Интис", "en": "Intis Republic", "cn": "因蒂斯共和国" },
+    { "ru": "Империя Фейсак", "en": "Feysac Empire", "cn": "弗萨克帝国" },
+    { "ru": "Королевство Рунбург", "en": "Lenburg", "cn": "伦堡" }
+  ],
+  "cities": [
+    { "ru": "Тинген", "en": "Tingen", "cn": "廷根", "note": "Город университетов и начала истории" },
+    { "ru": "Бэкланд", "en": "Backlund", "cn": "贝克兰德", "note": "Столица Лоэна, Город Надежды, Столица Пара" },
+    { "ru": "Байам", "en": "Bayam", "cn": "拜亚姆", "note": "Город Щедрости, Архипелаг Рорстед" },
+    { "ru": "Город Серебра", "en": "City of Silver", "cn": "白银之城", "note": "Забытые Богом земли" }
+  ],
+  "tingen_and_backlund_places": [
+    { "ru": "Улица Нарциссов", "en": "Daffodil Street", "cn": "水仙花街" },
+    { "ru": "Улица Железного Креста", "en": "Iron Cross Street", "cn": "铁十字街" },
+    { "ru": "Улица Блэкторн", "en": "Blackthorn Security Company", "cn": "黑荆棘安保公司" },
+    { "ru": "Собор Святой Селены", "en": "Saint Selena Cathedral", "cn": "圣赛琳娜教堂" },
+    { "ru": "Клуб Провидцев", "en": "Divination Club", "cn": "占卜俱乐部" },
+    { "ru": "Улица Минск", "en": "Minsk Street", "cn": "明斯克街" },
+    { "ru": "Район Черепицы", "en": "Borough of Tiles", "cn": "贝克兰德桥区" },
+    { "ru": "Замок над Серым Туманом", "en": "Castle Above the Gray Fog", "cn": "灰雾之上的古老宫殿" }
+  ]
+}

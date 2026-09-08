@@ -1,0 +1,29 @@
+﻿{
+  "magic_and_power": [
+    { "ru": "Потусторонний", "en": "Beyonder", "cn": "非凡者" },
+    { "ru": "Последовательность", "en": "Sequence", "cn": "序列" },
+    { "ru": "Зелье", "en": "Potion", "cn": "魔药" },
+    { "ru": "Потусторонняя Характеристика", "en": "Beyonder Characteristic", "cn": "非凡特性" },
+    { "ru": "Закон Неуничтожимости Характеристик", "en": "Law of Characteristic Indestructibility", "cn": "非凡特性不灭定律" },
+    { "ru": "Закон Схождения Характеристик", "en": "Law of Characteristic Convergence", "cn": "非凡特性聚合定律" },
+    { "ru": "Метод Действия", "en": "Acting Method", "cn": "扮演法" },
+    { "ru": "Потеря Контроля", "en": "Loss of Control", "cn": "失控" },
+    { "ru": "Истинное Зрение (Духовное)", "en": "Spirit Vision", "cn": "灵视" },
+    { "ru": "Духовность", "en": "Spirituality", "cn": "灵性" },
+    { "ru": "Мир Духов", "en": "Spirit World", "cn": "灵界" },
+    { "ru": "Астральный Мир", "en": "Astral World", "cn": "星界" },
+    { "ru": "Запечатанный Артефакт", "en": "Sealed Artifact", "cn": "封印物" },
+    { "ru": "Герметичный Духовный Барьер", "en": "Spirituality Barrier / Wall of Spirituality", "cn": "灵性之墙" },
+    { "ru": "Богохульные Карты", "en": "Blasphemy Cards", "cn": "亵渎之牌" },
+    { "ru": "Богохульные Сланцы", "en": "Blasphemy Slate", "cn": "亵渎石板" }
+  ],
+  "game_mechanics": [
+    { "ru": "Очки Здоровья (ОЗ)", "en": "Health / HP", "cn": "生命值" },
+    { "ru": "Рассудок (SAN)", "en": "Sanity / SAN", "cn": "理智 / SAN值" },
+    { "ru": "Откат Навыка", "en": "Cooldown", "cn": "冷却时间" },
+    { "ru": "Щит Поглощения", "en": "Absorption Shield", "cn": "吸收护盾" },
+    { "ru": "Счетчик Урона (DPS)", "en": "Combat Meter / DPS Meter", "cn": "伤害统计" },
+    { "ru": "Священный / Освященный", "en": "Consecrated / Holy", "cn": "神圣 / 祝福" },
+    { "ru": "Осквернение / Загрязнение", "en": "Corruption / Pollution", "cn": "污染 / 侵蚀" }
+  ]
+}

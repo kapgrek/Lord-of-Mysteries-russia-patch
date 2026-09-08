@@ -1,0 +1,39 @@
+﻿{
+  "tarot_club": [
+    { "ru": "Господин Шут (Клейн Моретти)", "en": "Mr. Fool (Klein Moretti)", "cn": "愚者先生 (克莱恩·莫雷蒂)", "card": "Шут (0)" },
+    { "ru": "Мисс Справедливость (Одри Холл)", "en": "Miss Justice (Audrey Hall)", "cn": "正义 (奥黛丽·霍尔)", "card": "Справедливость (XI)" },
+    { "ru": "Мистер Висельник (Элджер Уилсон)", "en": "The Hanged Man (Alger Wilson)", "cn": "倒吊人 (阿尔杰·威尔逊)", "card": "Висельник (XII)" },
+    { "ru": "Мистер Солнце (Деррик Берг)", "en": "The Sun (Derrick Berg)", "cn": "太阳 (戴里克·伯格)", "card": "Солнце (XIX)" },
+    { "ru": "Мистер Луна (Эмлин Уайт)", "en": "The Moon (Emlyn White)", "cn": "月亮 (埃姆林·怀特)", "card": "Луна (XVIII)" },
+    { "ru": "Мисс Маг (Форс Уолл)", "en": "The Magician (Fors Wall)", "cn": "魔术师 (佛尔思·沃尔)", "card": "Маг (I)" },
+    { "ru": "Мисс Отшельник (Каттлея)", "en": "The Hermit (Cattleya)", "cn": "隐者 (嘉德丽雅)", "card": "Отшельник (IX)" },
+    { "ru": "Мисс Суд (Сио Деррек)", "en": "Judgment (Xio Derecha)", "cn": "审判 (休·迪尔查)", "card": "Суд (XX)" },
+    { "ru": "Мистер Звезда (Леонард Митчелл)", "en": "The Star (Leonard Mitchell)", "cn": "星星 (伦纳德·米切尔)", "card": "Звезда (XVII)" }
+  ],
+  "major_characters": [
+    { "ru": "Дэн Смит", "en": "Dunn Smith", "cn": "邓恩·史密斯", "note": "Капитан отряда Ночных Ястребов в Тингене" },
+    { "ru": "Дайли Симона", "en": "Daly Simone", "cn": "戴莉·西蒙妮", "note": "Медиум Ночных Ястребов" },
+    { "ru": "Фрай", "en": "Frye", "cn": "弗莱", "note": "Сборщик трупов" },
+    { "ru": "Мелисса Моретти", "en": "Melissa Moretti", "cn": "梅丽莎·莫雷蒂", "note": "Младшая сестра Клейна" },
+    { "ru": "Бенсон Моретти", "en": "Benson Moretti", "cn": "班森·莫雷蒂", "note": "Старший брат Клейна" },
+    { "ru": "Амон", "en": "Amon", "cn": "阿蒙", "note": "Богохульник, Сын Создателя, Владыка Времени" },
+    { "ru": "Адам", "en": "Adam", "cn": "亚当", "note": "Лидер Ордена Сумеречных Отшельников" },
+    { "ru": "Азиз Эггерс", "en": "Azik Eggers", "cn": "阿兹克·艾格斯", "note": "Консул Смерти, учитель Клейна" },
+    { "ru": "Сьюзи", "en": "Susie", "cn": "苏茜", "note": "Золотистый ретривер, Чтец Мыслей Одри" }
+  ],
+  "churches_and_factions": [
+    { "ru": "Церковь Вечной Ночи", "en": "Church of the Evernight Goddess", "cn": "黑夜女神教会" },
+    { "ru": "Церковь Повелителя Бурь", "en": "Church of the Lord of Storms", "cn": "风暴之主教会" },
+    { "ru": "Церковь Бога Пара и Машин", "en": "Church of the God of Steam and Machinery", "cn": "蒸汽与机械之神教会" },
+    { "ru": "Церковь Вечного Палящего Солнца", "en": "Church of the Eternal Blazing Sun", "cn": "永恒烈阳教会" },
+    { "ru": "Церковь Земной Матери", "en": "Church of the Earth Mother", "cn": "大地母神教会" },
+    { "ru": "Церковь Бога Битв", "en": "Church of the God of Combat", "cn": "战神教会" },
+    { "ru": "Орден Авроры", "en": "Aurora Order", "cn": "极光会" },
+    { "ru": "Школа Мысли Розы", "en": "Rose School of Thought", "cn": "玫瑰学派" },
+    { "ru": "Орден Сумеречных Отшельников", "en": "Twilight Hermit Order", "cn": "黄昏隐士会" },
+    { "ru": "Тайный Орден", "en": "Secret Order", "cn": "密修会" },
+    { "ru": "Железнокровный Крест", "en": "Iron and Blood Cross", "cn": "铁血十字会" },
+    { "ru": "Семья Антигон", "en": "Antigonus Family", "cn": "安提哥努斯家族" },
+    { "ru": "Семья Зарату", "en": "Zaratul Family", "cn": "查拉图家族" }
+  ]
+}
