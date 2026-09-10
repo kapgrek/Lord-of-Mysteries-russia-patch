@@ -1,4 +1,4 @@
-﻿# Temp & build artifacts
+# Temp & build artifacts
 *.tmp
 *.bak
 *.log
@@ -10,6 +10,9 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Scratch / working test files
+# Scratch & temporary working files
+temp/*
+!temp/README.md
 scratch/
 test_output/
+source/translation_batches/temp_chunk.json

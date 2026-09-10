@@ -1,6 +1,6 @@
-﻿# VerifyPatch.ps1 — Комплексный валидатор русской локализации Lord of the Mysteries
+# VerifyPatch.ps1 — Комплексный валидатор русской локализации Lord of the Mysteries
 param(
-    [string]$Root = '..'
+    [string]$Root = (Join-Path $PSScriptRoot "..")
 )
 
 $ErrorActionPreference = 'Stop'
