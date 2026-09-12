@@ -60,7 +60,7 @@ return {
     ["Hooded Woman"] = "Женщина в капюшоне",
     ["%s curve resource path not configured in parameters"] = "Путь к ресурсу кривой не настроен в параметре %s.",
     ["Creak... take this gun in my arms, you'll need it..."] = "Хруст... Если ты подержишь этот пистолет в моих руках, ты воспользуешься им...",
-    ["Dunn injects the power of nightmares into the ground, condensing it into a nightmare that impacts the target enemy, dealing bulletdisc(*id) damage upon hit and leaving a Nightmare Mark on the target, which deals *d additional damage after 1.5 seconds."] = "Данн впрыскивает силу кошмара в землю, конденсирует ее в кошмар и атакует выбранного врага. После попадания в целевого врага он нанесет пулядиск(*id) очков урона и оставит на цели кошмарный след. Через 1,5 секунды это нанесет *d очков дополнительного урона.",
+    ["Dunn injects the power of nightmares into the ground, condensing it into a nightmare that impacts the target enemy, dealing bulletdisc(*id) damage upon hit and leaving a Nightmare Mark on the target, which deals *d additional damage after 1.5 seconds."] = "Данн впрыскивает силу кошмара в землю, конденсирует ее в кошмар и атакует выбранного врага. После попадания в целевого врага он наносит bulletdisc(*id) ед. урона и оставит на цели кошмарный след. Через 1,5 секунды это нанесет *d очков дополнительного урона.",
     ["Seven people? You also... before?"] = "Семь человек? У вас также...",
     ["5230081 Room of Memories Plane"] = "5230081 Самолет между воспоминаниями",
     ["Loneliness and Wine"] = "Одиночество и вино",

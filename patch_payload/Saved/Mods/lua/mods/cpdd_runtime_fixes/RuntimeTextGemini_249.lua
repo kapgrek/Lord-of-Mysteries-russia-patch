@@ -66,7 +66,7 @@ return {
     ["When I was at May Manor, I saw the butler disappear after chanting an incantation to the mirror—\"With the torrent of the era, knock open the kingdom in the mirror.\""] = "Когда я был в Мэй-Мэноре, я видел, как дворецкий читал заклинание на бронзовом зеркале, а затем исчез, используя поток времени, чтобы открыть королевство в зеркале.",
     ["<1 minute"] = "<1 минута",
     ["Do not stop; the path of glory is never smooth."] = "Не останавливайся, дорога к славе никогда не бывает гладкой.",
-    ["Summon an Iron Wall Knight to grant surrounding teammates buffdisc(*id) for 8 seconds."] = "Призывает Рыцаря Железной Стены, усиливающего диск (*id) вокруг товарищей по команде на 8 секунд.",
+    ["Summon an Iron Wall Knight to grant surrounding teammates buffdisc(*id) for 8 seconds."] = "Призывает Рыцаря Железной Стены, накладывая на окружающих союзников buffdisc(*id) на 8 секунд.",
     ["Could it be what Captain Dunn mentioned, the loss of control of a Beyonder? But why would he suddenly lose control?"] = "Может быть, капитан Данн упомянул Потерю Контроля над «Необычайным»? Но почему он вдруг потерял контроль?",
     ["Close letter"] = "Тесная переписка",
     ["However, do Sleepless even need to drink coffee?"] = "Но нужен ли кофе бессонным людям?",

@@ -196,7 +196,7 @@ return {
     ["The main staircase is damaged and impassable; explore the side door to the left of the staircase."] = "Главная лестница повреждена и не может быть перемещена вперед. Исследуйте боковую дверь на левой стороне лестницы.",
     ["Waiting for someone"] = "Ждем вакантную должность",
     ["Text"] = "Текст",
-    ["Deals spellfielddisc(*id) magic damage to the locked target and surrounding enemies, and <HyperLink stylename=\"M_Link\" u=\"2\">floats</> enemy monsters in the <HighLight>Plague</> state."] = "Наносит магический урон в виде магического урона (*id) заблокированной цели и окружающим врагам, а также <HyperLink stylename=\"M_Link\" u=\"2\">floating</>вражеским монстрам в состоянии <HighLight>plague</>.",
+    ["Deals spellfielddisc(*id) magic damage to the locked target and surrounding enemies, and <HyperLink stylename=\"M_Link\" u=\"2\">floats</> enemy monsters in the <HighLight>Plague</> state."] = "Наносит spellfielddisc(*id) ед. магического урона захваченной цели и окружающим врагам, а также <HyperLink stylename=\"M_Link\" u=\"2\">floating</>вражеским монстрам в состоянии <HighLight>plague</>.",
     ["Leonard's Onboarding Training"] = "Леонард Ориентация",
     ["Mrs. Bates... is she..."] = "Миссис Бейтс... она...",
     ["All right, we should set off."] = "Ладно, нам пора отправляться.",

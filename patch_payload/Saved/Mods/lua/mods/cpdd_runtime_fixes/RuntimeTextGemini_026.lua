@@ -218,7 +218,7 @@ return {
     ["Complete all sub-objectives of the current step; player transformation begins; player plays plot dialogue."] = "Выполните все подцели текущего шага. Начинается трансформация игрока. Игрок воспроизводит сюжетный диалог.",
     ["Pain!"] = "Это больно!",
     ["Feed 4 Air Wall Test 1"] = "Подача 4. Испытание воздушной стены 1.",
-    ["Melissa summons a gear mechanism above her head, firing a beam of fire forward, skilldisc(*id). If the target has a shield, it first deals *d damage to the shield."] = "Мелисса вызывает инструмент-шестеренку над головой, стреляет лучом пламени вперед, диск навыков (*id), и если у цели есть щит, это сначала наносит щиту *d единиц урона.",
+    ["Melissa summons a gear mechanism above her head, firing a beam of fire forward, skilldisc(*id). If the target has a shield, it first deals *d damage to the shield."] = "Мелисса вызывает инструмент-шестеренку над головой, стреляет лучом пламени вперед, skilldisc(*id), и если у цели есть щит, это сначала наносит щиту *d единиц урона.",
     ["Then we won't bother you anymore. Let's drink together when you have time!"] = "Тогда не будем вас беспокоить, выпьем вместе, когда будет время!",
     ["You can only claim the event rewards for either the Four-Way League or Phantom of the Opera each week. After claiming one, you cannot claim the other. Are you sure?"] = "Каждую неделю вы можете претендовать только на одну из наград четырехпартийной лиги и события «Призрак Оперы». После того, как вы забрали ее, вы не можете претендовать на другую награду события. Хотите подтвердить?",
     ["Nimble eyes"] = "Умные глаза",

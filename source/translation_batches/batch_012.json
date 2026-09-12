@@ -1593,7 +1593,7 @@
     "id": "055265",
     "source_cn": "黄金威能累计5层，可以对目标单体造成bulletdisc(*id)伤害。",
     "ref_en": "Accumulate 5 stacks of Golden Might to deal bulletdisc(*id) damage to a single target.",
-    "target_ru": "Золотая сила накапливается до 5 слоев и может нанести урон цели пулей (*id)."
+    "target_ru": "Золотая сила накапливается до 5 слоев и нанося bulletdisc(*id) ед. урона одной цели."
   },
   {
     "id": "055266",
@@ -23487,7 +23487,7 @@
     "id": "058914",
     "source_cn": "邓恩将梦魇的力量注入地面，凝聚成梦魇向目标敌方冲击，命中目标敌方后造成bulletdisc(*id)点伤害，并且给目标留下梦魇标记，1.5秒时间结束后造成*d点额外伤害。",
     "ref_en": "Dunn injects the power of nightmares into the ground, condensing it into a nightmare that impacts the target enemy, dealing bulletdisc(*id) damage upon hit and leaving a Nightmare Mark on the target, which deals *d additional damage after 1.5 seconds.",
-    "target_ru": "Данн впрыскивает силу кошмара в землю, конденсирует ее в кошмар и атакует выбранного врага. После попадания в целевого врага он нанесет пулядиск(*id) очков урона и оставит на цели кошмарный след. Через 1,5 секунды это нанесет *d очков дополнительного урона."
+    "target_ru": "Данн впрыскивает силу кошмара в землю, конденсирует ее в кошмар и атакует выбранного врага. После попадания в целевого врага он наносит bulletdisc(*id) ед. урона и оставит на цели кошмарный след. Через 1,5 секунды это нанесет *d очков дополнительного урона."
   },
   {
     "id": "058915",

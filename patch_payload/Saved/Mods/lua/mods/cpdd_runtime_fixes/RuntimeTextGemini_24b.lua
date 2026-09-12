@@ -231,7 +231,7 @@ return {
     ["Reach level 35 or complete Utopia Theater once (can be accessed via Menu - World Adventure - Dungeon - Utopia Theater)."] = "Достигните 35-го уровня или завершите Театр Утопии один раз (можно принять участие через Меню-Мир приключений-Подземелье-Театр Утопии).",
     ["Advanced Treasure Chest - Bard"] = "Продвинутый сундук с сокровищами — Бард",
     ["Strap"] = "Подтяжки",
-    ["Damage taken from the caster is increased."] = "Увеличен урон, получаемый от заклинателя.",
+    ["Damage taken from the caster is increased."] = "Увеличен урон, получаемый от заклинателя",
     ["【Tarot Club · Alienated Hound】Tier 7 increment (+30%) → cumulative 220%"] = "[Общество Таро · Отчужденная гончая] Увеличение уровня 7 (+30%) → Всего 220%",
     ["Scorching Sun Sparring: Start"] = "Палящее солнце начинает сражаться",
     ["Hoy University is full of polite young people."] = "В колледже Хой полно воспитанных молодых людей.",

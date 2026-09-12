@@ -53,7 +53,7 @@ return {
     ["Clues indicate that this person is likely the culprit of the {{Crime}} crime committed by {{Time}} in {{Place}}. Go talk to him."] = "Улики показывают, что этот человек, вероятно, является убийцей преступления {{Crime}}, которое произошло в {{Место}} в {{Время}}. Поговорите с ним.",
     ["The quantity to be created for each trap."] = "Каждая ловушка соответствует количеству, которое необходимо создать.",
     ["Give Dinner - Failure Prompt"] = "Ужин: советы на случай неудачи",
-    ["Summon Sylvia's spirit to possess you, lasting 30 seconds. During possession, buffdisc(*id) deals bulletdisc(*id) damage, which can be triggered once per second, up to 7 times."] = "Вызовите духовное тело Сильвии, которое будет владеть вами на 30 секунд. Во время владения buffdisc(*id) наносит урон Bulletdisc(*id), который может срабатывать один раз в секунду и до 7 раз.",
+    ["Summon Sylvia's spirit to possess you, lasting 30 seconds. During possession, buffdisc(*id) deals bulletdisc(*id) damage, which can be triggered once per second, up to 7 times."] = "Вызовите духовное тело Сильвии, которое будет владеть вами на 30 секунд. Во время владения buffdisc(*id) наносит урон bulletdisc(*id), который может срабатывать один раз в секунду и до 7 раз.",
     ["Defense +567, Skill Block +189"] = "Защита +567, сопротивление навыкам +189.",
     ["I'll keep you company"] = "Я буду сопровождать тебя",
     ["Healing transfer filtering ID."] = "Идентификатор скрининга перевода на лечение",

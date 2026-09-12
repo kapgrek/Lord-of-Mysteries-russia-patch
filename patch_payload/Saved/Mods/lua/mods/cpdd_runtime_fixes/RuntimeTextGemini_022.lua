@@ -178,7 +178,7 @@ return {
     ["Golden, rich pumpkin soup steaming hot, with milk and cinnamon intertwined. The taste is dense and sweet, and the warmth reaches straight to the heart."] = "Золотистый и насыщенный тыквенный суп дымится, в нем переплетаются ароматы молока и корицы. Он плотный и сладкий во рту, согревает прямо до глубины души.",
     ["Then tonight, you shall be the one who is properly looked at."] = "Тогда сегодня вечером ты должен быть просто тем, о ком хорошо заботятся.",
     ["Old gentleman, the wind and snow are very heavy here, why are you here alone?"] = "Старый сэр, здесь очень ветрено и снежно. Почему ты здесь один?",
-    ["Accumulate 5 stacks of Golden Might to deal bulletdisc(*id) damage to a single target."] = "Золотая сила накапливается до 5 слоев и может нанести урон цели пулей (*id).",
+    ["Accumulate 5 stacks of Golden Might to deal bulletdisc(*id) damage to a single target."] = "Золотая сила накапливается до 5 слоев и нанося bulletdisc(*id) ед. урона одной цели.",
     ["Wallis"] = "Уоллис",
     ["Complete Fate Revelation"] = "Завершите раскрытие судьбы",
     ["Because of that Antigonus family notebook, I was involved in an eerie event."] = "Из-за семейной записной книжки Антигона со мной произошел странный инцидент.",

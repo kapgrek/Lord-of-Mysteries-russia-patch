@@ -4839,7 +4839,7 @@
     "id": "070806",
     "source_cn": "向前跨步进行斩击，对目标和其周围小范围内的敌方造成spellfielddisc(*id)点物理伤害并<HyperLink stylename=\"M_Link\" u=\"21\">净化</>消散状态的敌方，获得1点<HighLight>太阳能量</>（<HighLight>烈阳</>状态下获得2点<HighLight>太阳能量</>）。\\n\\n<FaintYellow>太阳能量</>：最多持有5点，获取太阳能量以解锁与强化<HighLight>惩戒</>和<HighLight>无暗之枪</>。",
     "ref_en": "Steps forward to slash, dealing spellfielddisc(*id) physical damage to the target and enemies in a small area around it, and <HyperLink stylename=\"M_Link\" u=\"21\"> purifies </> enemies in a dissipated state. Gain 1 point of <HighLight> Solar Energy </> (gain 2 points of <HighLight> Solar Energy </> in the <HighLight> Blazing Sun </> state). \\n\\n<FaintYellow> Solar Energy </>: Hold up to 5 points. Obtain Solar Energy to unlock and strengthen <HighLight> Punishment </> and <HighLight> Unshadowed Spear </>.",
-    "target_ru": "Сделайте шаг вперед, чтобы нанести рубящий удар, нанося очки заклинаний (*id) физического урона цели и врагам в небольшом радиусе вокруг нее и <HyperLink stylename=\"M_Link\" u=\"21\"> очищая </> врагов в рассеянном состоянии, получая 1 очко <HighLight> солнечной энергии </> (2 очка <HighLight> солнечной энергии </> в состоянии <HighLight> пылающего солнца </>). \n\n<FaintYellow>Солнечная энергия</>: удерживайте до 5 очков, получите солнечную энергию, чтобы разблокировать и усилить <HighLight>Возмездие</> и <HighLight>Копье без тьмы</>."
+    "target_ru": "Сделайте шаг вперед, чтобы нанести рубящий удар, нанося spellfielddisc(*id) ед. физического урона цели и врагам в небольшом радиусе вокруг нее и <HyperLink stylename=\"M_Link\" u=\"21\"> очищая </> врагов в рассеянном состоянии, получая 1 очко <HighLight> солнечной энергии </> (2 очка <HighLight> солнечной энергии </> в состоянии <HighLight> пылающего солнца </>). \n\n<FaintYellow>Солнечная энергия</>: удерживайте до 5 очков, получите солнечную энергию, чтобы разблокировать и усилить <HighLight>Возмездие</> и <HighLight>Копье без тьмы</>."
   },
   {
     "id": "070807",
@@ -12621,7 +12621,7 @@
     "id": "072103",
     "source_cn": "引导童话魔法，使目标深陷王国幻境中无法自拔，持续处于僵直状态。在目标位置制造童话王国的幻境，对范围内的敌人造成skilldisc(*id)。引导期间自身获得霸体，可通过闪避提前打断。完整引导王国幻境后会引爆幻境skilldisc(*id)。",
     "ref_en": "Guide fairy tale magic to trap the target deep within the Kingdom Illusion, keeping them in a state of paralysis. Create an illusion of a fairy tale kingdom at the target's location, dealing skilldisc(*id) to enemies within range. During the channeling, you gain Super Armor, which can be interrupted early by dodging. Fully channeling the Kingdom Illusion will detonate the illusion skilldisc(*id).",
-    "target_ru": "Направляйте сказочную магию, чтобы цель оказалась в ловушке иллюзии королевства, неспособной выбраться из нее и оставаться в состоянии замерзания. Создает иллюзию сказочного королевства в выбранном месте, вызывая у врагов в радиусе действия диск навыков (*id). В период наведения вы обретете доминирование, которое можно заранее прервать, уклонившись. После полного управления иллюзией королевства диск навыков иллюзий (*id) будет взорван."
+    "target_ru": "Направляйте сказочную магию, чтобы цель оказалась в ловушке иллюзии королевства, неспособной выбраться из нее и оставаться в состоянии замерзания. Создает иллюзию сказочного королевства в выбранном месте, накладывая на врагов в области skilldisc(*id). В период наведения вы обретете доминирование, которое можно заранее прервать, уклонившись. После полного управления иллюзией королевства взрывая иллюзию skilldisc(*id)."
   },
   {
     "id": "072104",
@@ -25851,7 +25851,7 @@
     "id": "074308",
     "source_cn": "黄金威能累计5层，可以对目标单体造成bulletdisc(*id)伤害，并产生爆炸，对目标周围10米范围内的敌人造成spellfielddisc(*id)点伤害。",
     "ref_en": "Accumulate 5 stacks of Golden Might to deal bulletdisc(*id) damage to a single target and create an Explosion, dealing spellfielddisc(*id) damage to enemies within 10 meters of the target.",
-    "target_ru": "Золотая сила накапливается до 5 слоев, которые могут нанести урон в виде пули (*id) одной цели и вызвать взрыв, нанося очки урона в точках поля заклинаний (*id) врагам в радиусе 10 метров вокруг цели."
+    "target_ru": "Золотая сила накапливается до 5 слоев, которые могут нанося bulletdisc(*id) урона одной цели и вызывая взрыв, наносящий spellfielddisc(*id) ед. урона врагам в радиусе 10 метров вокруг цели."
   },
   {
     "id": "074309",

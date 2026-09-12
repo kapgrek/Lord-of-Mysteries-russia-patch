@@ -20,7 +20,7 @@ return {
     ["Hall Air Wall"] = "Невидимая стена зала",
     ["Notice at the Box Entrance"] = "Объявление у входа в ложу",
     ["Back then, I had just boarded the ship, didn't know anything, and only knew how to use my fists to speak."] = "В то время я только сел на корабль и ничего не знал. Я мог говорить только кулаками.",
-    ["Loviya blesses the caster with Flesh Shadow, dealing spellfielddisc(*id) damage to enemies within 5.5 seconds."] = "Ловия добавляет заклинателю тень из плоти и крови, нанося противнику очки урона в виде заклинаний (*id) в течение 5,5 секунд.",
+    ["Loviya blesses the caster with Flesh Shadow, dealing spellfielddisc(*id) damage to enemies within 5.5 seconds."] = "Ловия наделяет заклинателя тенью плоти, нанося противникам spellfielddisc(*id) ед. урона в течение 5.5 секунд.",
     ["[Secret]"] = "【Секрет】",
     ["Year 2 Season 3"] = "Год 2 Сезон 3",
     ["Rotate 90"] = "Спин 90",

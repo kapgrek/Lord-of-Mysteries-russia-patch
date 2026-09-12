@@ -1275,7 +1275,7 @@
     "id": "120212",
     "source_cn": "受到施法者的伤害提高",
     "ref_en": "Damage taken from the caster is increased.",
-    "target_ru": "Увеличен урон, получаемый от заклинателя."
+    "target_ru": "Увеличен урон, получаемый от заклинателя"
   },
   {
     "id": "120213",
@@ -18645,7 +18645,7 @@
     "id": "123107",
     "source_cn": "召唤子爵夫人攻击目标。\\n若目标为玩家：子爵夫人会对目标造成bulletdisc(*id)伤害并添加幽魂附身10秒，附身期间增加6%自身对目标的伤害。若10秒内该目标死亡，则幽魂会另外随机寻找15米内一个敌方玩家造成bulletdisc(*id)伤害并附身，最多额外附身1次。\\n若目标为怪物：则幽魂会对怪物造成bulletdisc(*id)伤害2次，并附身15秒，附身期间增加6%自身对该怪物的伤害。",
     "ref_en": "Summon the Viscountess to attack the target. \\nIf the target is a player: The Viscountess deals bulletdisc(*id) damage and applies Ghost Possession for 10 seconds, increasing your damage to the target by 6% during possession. If the target dies within 10 seconds, the ghost will randomly seek another enemy player within 15 meters to deal bulletdisc(*id) damage and possess them, up to 1 additional possession. \\nIf the target is a monster: The ghost deals bulletdisc(*id) damage to the monster twice and possesses it for 15 seconds, increasing your damage to the monster by 6% during possession.",
-    "target_ru": "Призывает виконтессу для атаки цели. \n Если целью является игрок: Виконтесса нанесет цели пулевый диск(*id) и добавит одержимость призраком на 10 секунд. Во время владения урон по цели будет увеличен на 6%. Если цель умирает в течение 10 секунд, призрак случайным образом найдет другого вражеского игрока в радиусе 15 метров, нанесет урон пулеметному диску (*id) и овладеет им еще 1 раз. \n Если цель — монстр: Призрак нанесет монстру урон в виде пули (*id) 2 раза и овладеет им в течение 15 секунд. В период одержимости призрак увеличит собственный урон по монстру на 6%."
+    "target_ru": "Призывает виконтессу для атаки цели. \n Если целью является игрок: Виконтесса нанесет цели bulletdisc(*id) и добавит одержимость призраком на 10 секунд. Во время владения урон по цели будет увеличен на 6%. Если цель умирает в течение 10 секунд, призрак случайным образом найдет другого вражеского игрока в радиусе 15 метров, нанесет bulletdisc(*id) урона и овладеет им еще 1 раз. \n Если цель — монстр: Призрак нанесет монстру 2 раза по bulletdisc(*id) урона и овладеет им в течение 15 секунд. В период одержимости призрак увеличит собственный урон по монстру на 6%."
   },
   {
     "id": "123108",
@@ -29139,7 +29139,7 @@
     "id": "124856",
     "source_cn": "取本技能公式计算结果:*d\\n取本技能CA有名参数:*.2f\\n取本技能CA无名参数:*f**\\n取本表其它技能配置:*s\\n取法术代理描述：spellagent(*id)\\n取技能名称:skillname(*id)\\n取技能描述:skilldisc(*id)\\n取Buff名称:buffname(*id)\\n取Buff描述:buffdisc(*id)\\n取法术场名称:spellfieldname(*id)\\n取法术场描述:spellfielddisc(*id)\\n取光环名称:auraname(*id)\\n取光环描述:auradisc(*id)\\n取被动名称:passivename(*id)\\n取被动描述:passivedisc(*id)\\n取陷阱名称:trapname(*id)\\n取陷阱描述:trapdisc(*id)",
     "ref_en": "Get this skill formula calculation result:*d\\n Get this skill CA named parameter:*.2f\\n Get this skill CA unnamed parameter:*f**\\n Get other skill configuration in this table:*s\\n Get spell agent description: spellagent(*id)\\n Get skill name: skillname(*id)\\n Get skill description: skilldisc(*id)\\n Get Buff name: buffname(*id)\\n Get Buff description: buffdisc(*id)\\n Get spell field name: spellfieldname(*id)\\n Get spell field description: spellfielddisc(*id)\\n Get aura name: auraname(*id)\\n Get aura description: auradisc(*id)\\n Get passive name: passivename(*id)\\n Get passive description: passivedisc(*id)\\n Get trap name: trapname(*id)\\n Get trap description: trapdisc(*id)",
-    "target_ru": "Получите результат вычисления формулы для этого навыка: *d\n Получите именованный параметр CA этого навыка: *.2f\n Получите неименованный параметр этого навыка CA: *f**\n Получите другие конфигурации навыка из этой таблицы: *s\n Получите описание агента заклинаний: spellagent(*id)\n Получите имя навыка: Skillname(*id)\nПолучите описание навыка:killdisc(*id)\nПолучите имя баффа: buffname(*id)\nПолучить описание баффа: buffdisc(*id)\nПолучить имя поля заклинания: Spellfieldname(*id)\n Получить описание поля заклинания: Spellfielddisc(*id)\n Получить имя ауры: auraname(*id)\n Получить описание ауры: auraradisc(*id)_ \nПолучить пассивное имя: пассивное имя(*id)\nПолучить пассивное описание: пассивныйдиск(*id)\nПолучить имя ловушки: ловушка(*id)\nПолучить описание ловушки: ловушка(*id)"
+    "target_ru": "Получить результат вычисления формулы навыка: *d\nПолучить именованный параметр CA навыка: *.2f\nПолучить неименованный параметр CA навыка: *f**\nПолучить прочие параметры навыка из таблицы: *s\nПолучить описание агента заклинаний: spellagent(*id)\nПолучить название навыка: skillname(*id)\nПолучить описание навыка: skilldisc(*id)\nПолучить название баффа: buffname(*id)\nПолучить описание баффа: buffdisc(*id)\nПолучить название поля заклинания: spellfieldname(*id)\nПолучить описание поля заклинания: spellfielddisc(*id)\nПолучить название ауры: auraname(*id)\nПолучить описание ауры: auradisc(*id)\nПолучить название пассивного навыка: passivename(*id)\nПолучить описание пассивного навыка: passivedisc(*id)\nПолучить название ловушки: trapname(*id)\nПолучить описание ловушки: trapdisc(*id)"
   },
   {
     "id": "124857",

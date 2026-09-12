@@ -107,7 +107,7 @@ return {
     ["Resident 6"] = "Резидент 6",
     ["Mimic Chest Unlocked"] = "Сундук с мимиками разблокирован",
     ["Then why are you selling these materials?"] = "Так почему вы продаете эту информацию?",
-    ["In this stance, your offensive attributes other than magic attack no longer provide healing bonuses, and healing amount is significantly reduced. \n In this stance, when you deal damage, you restore passivedisc(*id) Health to yourself."] = "В этой позе его атакующие атрибуты, кроме магической атаки, больше не дают бонуса к количеству исцеления, и количество исцеления значительно уменьшается. \nВ этой позе, когда вы наносите себе урон, вы восстанавливаете свои пассивные диски (*id) очков жизни.",
+    ["In this stance, your offensive attributes other than magic attack no longer provide healing bonuses, and healing amount is significantly reduced. \n In this stance, when you deal damage, you restore passivedisc(*id) Health to yourself."] = "В этой позе его атакующие атрибуты, кроме магической атаки, больше не дают бонуса к количеству исцеления, и количество исцеления значительно уменьшается. \nВ этой позе, когда вы наносите себе урон, восстанавливает вам passivedisc(*id) ед. здоровья.",
     ["Ring of Blood Thorn Oaths"] = "Кольцо клятвы Кровавого Шипа",
     ["Apprentice Ultimate Skill Range Circle"] = "Круг диапазона максимального хода ученика",
     ["Meggie"] = "Мэгги",

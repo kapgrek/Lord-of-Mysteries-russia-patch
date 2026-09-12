@@ -21,6 +21,10 @@ $specRegex = [System.Text.RegularExpressions.Regex]::new('%[-+0-9\.]*[sdfeEgGcxX
 $puzzleRegex = [System.Text.RegularExpressions.Regex]::new('#CanMove_[^#]+#', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $imgTagRegex = [System.Text.RegularExpressions.Regex]::new('<[iI]mg\s+[^>]*\/?>', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $cyrillicRegex = [System.Text.RegularExpressions.Regex]::new('[\p{IsCyrillic}]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$macroRegex = [System.Text.RegularExpressions.Regex]::new('(?:spellfielddisc|buffdisc|skilldisc|auradisc|passivedisc|trapdisc|bulletdisc|spellagent|spellfieldname|buffname|skillname|auraname|passivename|trapname)\s*\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$macroCapRegex = [System.Text.RegularExpressions.Regex]::new('(?:Spellfielddisc|Buffdisc|Skilldisc|Auradisc|Passivedisc|Trapdisc|Bulletdisc|Spellagent|Spellfieldname|Buffname|Skillname|Auraname|Passivename|Trapname)\s*\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$starRegex = [System.Text.RegularExpressions.Regex]::new('\{CheckStar\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$starBrokenRegex = [System.Text.RegularExpressions.Regex]::new('\{?\s*C(?:heckSta\s+r|heckS\s+tar|h\s+eckStar|heckStar\s*\(Type=\\"seal\)|heckStar\s*\(Type=\\"sealed\\"[^}]*?\s+[=,])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 
 # Regex to extract batch items
 $itemRegex = [System.Text.RegularExpressions.Regex]::new(
@@ -139,6 +143,29 @@ foreach ($file in $files) {
         }
         if ($refText -match '^\[UIFrame\s*:' -and $cyrillicRegex.IsMatch($ru)) {
             Write-Host "  [ERR $fileName ID:$id] Internal engine diagnostic log should not be translated!" -ForegroundColor Red
+            $fileErrors++
+        }
+
+        # 7. Check engine formula macros and CheckStar tokens
+        $refMacros = $macroRegex.Matches($refText).Count
+        $ruMacros = $macroRegex.Matches($ru).Count
+        if ($refMacros -ne $ruMacros) {
+            Write-Host "  [ERR $fileName ID:$id] Engine formula macro count mismatch (ref: $refMacros, ru: $ruMacros)!" -ForegroundColor Red
+            $fileErrors++
+        }
+        if ($macroCapRegex.IsMatch($ru)) {
+            Write-Host "  [ERR $fileName ID:$id] Capitalized engine formula macro found in Russian translation! Must be lowercase." -ForegroundColor Red
+            $fileErrors++
+        }
+
+        $refStars = $starRegex.Matches($refText).Count
+        $ruStars = $starRegex.Matches($ru).Count
+        if ($refStars -ne $ruStars) {
+            Write-Host "  [ERR $fileName ID:$id] CheckStar token count mismatch (ref: $refStars, ru: $ruStars)!" -ForegroundColor Red
+            $fileErrors++
+        }
+        if ($starBrokenRegex.IsMatch($ru)) {
+            Write-Host "  [ERR $fileName ID:$id] Broken CheckStar syntax found in Russian translation!" -ForegroundColor Red
             $fileErrors++
         }
     }

@@ -11871,7 +11871,7 @@
     "id": "031978",
     "source_cn": "展开圣光领域，解除自身控制效果并且获得霸体、buffdisc(*id)，一段时间或再次释放后，skilldisc(*id)",
     "ref_en": "Unfold the Holy Light domain, remove crowd control effects from yourself, and gain Super Armor and buffdisc(*id). After a period of time or upon re-releasing, skilldisc(*id).",
-    "target_ru": "Расширьте поле святого света, снимите с себя эффект контроля и получите гегемонию и buffdisc(*id). По истечении определенного периода времени или при повторном отпускании,killdisc(*id)"
+    "target_ru": "Расширьте поле святого света, снимите с себя эффект контроля и получите гегемонию и buffdisc(*id). По истечении определенного периода времени или при повторном отпускании skilldisc(*id)"
   },
   {
     "id": "031979",
@@ -29079,7 +29079,7 @@
     "id": "034846",
     "source_cn": "对身前圆形范围内敌方造成*d点魔法伤害，并附加*f秒mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">减疗</>。\\n拥有<HighLight>研习</>（施放战斗技能<HighLight>空间牢笼</>以进入<HighLight>研习</>状态）时获得<HighLight>强化</>，施法后召唤残影再次对范围内敌方进行攻击，造成spellfielddisc(*id)点魔法伤害并在命中后获得1点<HighLight>星空能量</>。",
     "ref_en": "Deal *d magic damage to enemies in a circular range in front, and apply *f seconds of mul(*d%,*d) <HyperLink stylename=\"M_Link\" u=\"20\">Healing Reduction</>. \\nWhen possessing <HighLight>Study</> (cast combat skill <HighLight>Space Cage</> to enter <HighLight>Study</> state), gain <HighLight>Strengthening</>. After casting, summon a remnant to attack enemies in range again, dealing spellfielddisc(*id) magic damage and gaining 1 point of <HighLight>Nebula Energy</> upon hit.",
-    "target_ru": "Наносит *d единиц магического урона врагам в радиусе круга перед вами и добавляет *f секунд mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">reduced исцеления</>. \n имеет <HighLight> исследование</> (примените боевой навык <HighLight> Space Cage </>, чтобы войти в <HighLight> исследование </> состояние) и получите <HighLight> улучшение </>. После применения заклинания он вызывает остаточное изображение, чтобы снова атаковать врага в радиусе действия, нанося магический урон заклинаниям fielddisc(*id) и получая 1 очко <HighLight>звездной энергии</> после удара."
+    "target_ru": "Наносит *d единиц магического урона врагам в радиусе круга перед вами и добавляет *f секунд mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">reduced исцеления</>. \n имеет <HighLight> исследование</> (примените боевой навык <HighLight> Space Cage </>, чтобы войти в <HighLight> исследование </> состояние) и получите <HighLight> улучшение </>. После применения заклинания он вызывает остаточное изображение, чтобы снова атаковать врага в радиусе действия, нанося spellfielddisc(*id) ед. магического урона и получая 1 очко <HighLight>звездной энергии</> после удара."
   },
   {
     "id": "034847",
@@ -29901,7 +29901,7 @@
     "id": "034983",
     "source_cn": "圣焰笼罩，施法时立刻触发净化后回复<HighLight>太阳能量</>的效果，对周身的敌方造成*d点物理伤害，<HyperLink stylename=\"M_Link\" u=\"21\">净化</>以自身为中心大范围内的消散状态敌方，并在净化时引发爆炸对敌方造成spellfielddisc(*id)点物理伤害。\\n\\n<FaintYellow>太阳能量</>：最多持有5点，获取太阳能量以解锁与强化<HighLight>惩戒</>和<HighLight>无暗之枪</>。",
     "ref_en": "Enveloped in Holy Flames, casting this immediately triggers Purification, then restores <HighLight> Spirituality </>. It deals *d physical damage to surrounding enemies, <HyperLink stylename=\"M_Link\" u=\"21\"> Purifies </> enemies in a dissipated state within a large radius centered on yourself, and triggers an explosion upon purification, dealing spellfielddisc(*id) physical damage to enemies. \\n \\n <FaintYellow> Spirituality </>: Hold up to 5 points. Obtain Spirituality to unlock and strengthen <HighLight> Punishment </> and <HighLight> Unshadowed Spear </>.",
-    "target_ru": "Окутанный священным пламенем, эффект очищения и восстановления <HighLight> солнечной энергии </> срабатывает сразу при применении, нанося *d единиц физического урона окружающим врагам. <HyperLink stylename=\"M_Link\" u=\"21\"> очищает </> врагов в рассеянном состоянии с центром вокруг себя в широком диапазоне и вызывает взрыв во время очищения, нанося противнику очки поля заклинания (*id) физического урона. \n\n<FaintYellow>Солнечная энергия</>: удерживайте до 5 очков, получите солнечную энергию, чтобы разблокировать и усилить <HighLight>Возмездие</> и <HighLight>Нет темного копья</>."
+    "target_ru": "Окутанный священным пламенем, эффект очищения и восстановления <HighLight> солнечной энергии </> срабатывает сразу при применении, нанося *d единиц физического урона окружающим врагам. <HyperLink stylename=\"M_Link\" u=\"21\"> очищает </> врагов в рассеянном состоянии с центром вокруг себя в широком диапазоне и вызывает взрыв во время очищения, нанося противникам spellfielddisc(*id) ед. физического урона. \n\n<FaintYellow>Солнечная энергия</>: удерживайте до 5 очков, получите солнечную энергию, чтобы разблокировать и усилить <HighLight>Возмездие</> и <HighLight>Нет темного копья</>."
   },
   {
     "id": "034984",

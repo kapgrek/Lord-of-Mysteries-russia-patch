@@ -193,6 +193,13 @@ public class FixCapitalization {
         // Ensure not preceded by %
         if (ruFirstLetterIdx > 0 && ru[ruFirstLetterIdx - 1] == '%') return ru;
 
+        // Guard: Do not capitalize engine formula macros or {CheckStar
+        string remainder = ru.Substring(ruFirstLetterIdx);
+        if (Regex.IsMatch(remainder, @"^(?:spellfielddisc|buffdisc|skilldisc|auradisc|passivedisc|trapdisc|bulletdisc|spellagent|spellfieldname|buffname|skillname|auraname|passivename|trapname|mul)\b", RegexOptions.IgnoreCase) ||
+            Regex.IsMatch(ru, @"\{CheckStar", RegexOptions.IgnoreCase)) {
+            return ru;
+        }
+
         if (char.IsLower(ru[ruFirstLetterIdx])) {
             char upperChar = char.ToUpper(ru[ruFirstLetterIdx]);
             return ru.Substring(0, ruFirstLetterIdx) + upperChar + ru.Substring(ruFirstLetterIdx + 1);

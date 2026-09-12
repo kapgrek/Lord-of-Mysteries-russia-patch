@@ -166,7 +166,7 @@ return {
     ["Club Glory · First Battle"] = "Клуб Славы · Первая битва",
     ["Pay fee"] = "Оплатить сбор",
     ["Enter Group Chat Name"] = "Введите название группового чата",
-    ["Let out a stunning Roar, dealing *d physical damage to surrounding enemies and applying, for *f seconds, the effect of buffdisc(*id). Then, summon a giant phantom shadow to Slam the ground, dealing spellfielddisc(*id) physical damage."] = "Издайте потрясающий рев, нанося *d единиц физического урона окружающим врагам и добавляя эффект усиливающего диска (*id) на *f секунд. Затем вызывает гигантского фантома, который врезается в землю, нанося единицу физического урона.",
+    ["Let out a stunning Roar, dealing *d physical damage to surrounding enemies and applying, for *f seconds, the effect of buffdisc(*id). Then, summon a giant phantom shadow to Slam the ground, dealing spellfielddisc(*id) physical damage."] = "Издайте потрясающий рев, нанося *d единиц физического урона окружающим врагам и накладывая на *f сек. эффект buffdisc(*id). Затем призывает призрачного гиганта, сотрясающего землю и наносящего spellfielddisc(*id) ед. физического урона.",
     ["The Arcane Ball will remove tools from your person!"] = "Секретный шар уничтожит все на вашем теле!",
     ["During Fatal Quad skill, Phantom 3 targets the unit carrying this buff"] = "Среди четырех навыков уверенного убийства Phantom 3 назовет отряд, несущий положительный эффект.",
     ["Split Treasure Chest 2"] = "Сундук с сокровищами 2",

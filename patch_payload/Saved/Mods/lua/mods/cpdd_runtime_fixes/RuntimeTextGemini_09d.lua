@@ -225,6 +225,6 @@ return {
     ["<P_Heart> (Smiles) </> Sun... warm light... it suits him very well."] = "<P_Heart> (Улыбается) </>Солнце... его теплый свет... ему очень идет.",
     ["This is one of the seven prayers of the Goddess—the 'Prayer of Slumber'."] = "Это одна из семи молитв богини – «Молитва во сне».",
     ["Not set up yet"] = "Еще не настроено",
-    ["Summon an Imaginary Minion near a single enemy within a 15-meter radius. After the Imaginary Minion levitates, it will continuously fire <HighLight>4</> tracking bullets at the target, each dealing bulletdisc(*id) damage."] = "Призывает фантастических мобов рядом с врагом в радиусе 15 метров. Фэнтезийные мобы взлетают в воздух и непрерывно выпускают в цель следящие пули <HighLight>4</>, каждая из которых наносит урон в виде пули (*id).",
+    ["Summon an Imaginary Minion near a single enemy within a 15-meter radius. After the Imaginary Minion levitates, it will continuously fire <HighLight>4</> tracking bullets at the target, each dealing bulletdisc(*id) damage."] = "Призывает фантастических мобов рядом с врагом в радиусе 15 метров. Фэнтезийные мобы взлетают в воздух и непрерывно выпускают в цель следящие пули <HighLight>4</>, каждая из которых наносит bulletdisc(*id) урона.",
     ["(Hero) Clown Research 2049 success buff added to clone"] = "(Герой) Clown Research 2049 успешно добавил усиление к клону.",
 }

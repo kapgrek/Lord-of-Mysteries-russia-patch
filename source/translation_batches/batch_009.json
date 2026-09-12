@@ -4365,7 +4365,7 @@
     "id": "040727",
     "source_cn": "进入<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>状态并buffdisc(*id)，持续治疗周身范围内友方，每秒回复spellfielddisc(*id)点生命，持续6.5秒。\\n技能施法期间可以移动，施法3秒后可以使用其它技能打断，被打断后治疗效果仍然生效。",
     "ref_en": "Enters <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </> state and buffdisc(*id), continuously healing allies within range for spellfielddisc(*id) Health per second for 6.5 seconds. \\n You can move while casting this skill; it can be interrupted by other skills after 3 seconds, and the healing effect will still persist after being interrupted.",
-    "target_ru": "Войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">Hegemony</> и buffdisc(*id), продолжайте лечить союзников в окружающей области и восстанавливайте очки жизни заклинанийfielddisc(*id) каждую секунду в течение 6,5 секунд. \nВы можете двигаться во время применения умения. Вы можете использовать другие навыки, чтобы прервать заклинание через 3 секунды после произнесения заклинания. Эффект лечения все равно вступит в силу после прерывания."
+    "target_ru": "Войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">Hegemony</> и buffdisc(*id), продолжайте лечить союзников в окружающей области и восстанавливая spellfielddisc(*id) ед. здоровья каждую секунду в течение 6,5 секунд. \nВы можете двигаться во время применения умения. Вы можете использовать другие навыки, чтобы прервать заклинание через 3 секунды после произнесения заклинания. Эффект лечения все равно вступит в силу после прерывания."
   },
   {
     "id": "040728",
@@ -11757,7 +11757,7 @@
     "id": "041959",
     "source_cn": "召唤剥面人，对范围内敌人发射弹射子弹，子弹会在附近的友方和敌方之间弹射，命中敌方时造成bulletdisc(*id)伤害，命中友方时buffdisc(*id)。",
     "ref_en": "Summon a Face-Ripper to fire ricocheting bullets at enemies in range. The bullets bounce between nearby friendly and enemy units, dealing bulletdisc(*id) damage when hitting enemies and applying buffdisc(*id) when hitting friendly units.",
-    "target_ru": "Призывает Человека в Маске и стреляет рикошетными пулями во врагов в радиусе действия. Пули рикошетят между ближайшими союзниками и врагами, нанося урон в виде пулевого диска (*id) при попадании во врага и усиливающего диска (*id) при попадании в друга."
+    "target_ru": "Призывает Человека в Маске и стреляет рикошетными пулями во врагов в радиусе действия. Пули рикошетят между ближайшими союзниками и врагами, нанося bulletdisc(*id) ед. урона при попадании во врага и давая buffdisc(*id) при попадании в союзника."
   },
   {
     "id": "041960",
@@ -20205,7 +20205,7 @@
     "id": "043367",
     "source_cn": "受到伤害时，如果生命值低于50%，则消耗1枚生命之种，为自己固定恢复<Yellow>{CheckStar(Type=\"sealed\",ID=2085006)=1?32%}{CheckStar(Type=\"sealed\",ID=2085006)=2?40%}{CheckStar(Type=\"sealed\",ID=2085006)=3?48%}</>上限的生命值。",
     "ref_en": "When taking damage, if health is below 50%, consume 1 Seed of Life to restore a fixed <Yellow>{CheckStar(Type=\"sealed\",ID=2085006)=1?32%}{CheckStar(Type=\"sealed\",ID=2085006)=2?40%}{CheckStar(Type=\"sealed\",ID=2085006)=3?48%}</> of max health.",
-    "target_ru": "При получении урона, если значение здоровья ниже 50%, израсходуйте 1 семя жизни, чтобы восстановить себя навсегда<Yellow>{CheckStar(Type=\"sealed\",ID=2085006)=1?32%}{CheckSt ar(Type=\"sealed\",ID=2085006)=2?40%}{CheckStar(Type=\"sealed\",ID=2085006)=3?48%}</>Верхний предел здоровья."
+    "target_ru": "При получении урона, если значение здоровья ниже 50%, израсходуйте 1 семя жизни, чтобы восстановить себя навсегда<Yellow>{CheckStar(Type=\"sealed\",ID=2085006)=1?32%}{CheckStar(Type=\"sealed\",ID=2085006)=2?40%}{CheckStar(Type=\"sealed\",ID=2085006)=3?48%}</>Верхний предел здоровья."
   },
   {
     "id": "043368",
@@ -22665,7 +22665,7 @@
     "id": "043777",
     "source_cn": "对范围内敌方造成spellfielddisc(*id)点魔法伤害，并附加*f秒<HighLight>易伤</>。\\n\\n<FaintYellow>易伤</>：buffdisc(*id)5%。",
     "ref_en": "Deals spellfielddisc(*id) magic damage to enemies within range and applies <HighLight> Vulnerability </> for *f seconds. \\n \\n <FaintYellow> Vulnerability </>: buffdisc(*id) 5%.",
-    "target_ru": "Наносит магический урон Spellfielddisc(*id) врагам в радиусе действия и дополнительные *f секунд<HighLight>vulnerable</>. \n\n<FaintYellow>Легко повредить</>: buffdisc(*id)5%."
+    "target_ru": "Наносит spellfielddisc(*id) ед. магического урона врагам в радиусе действия и накладывает на *f сек. <HighLight>Уязвимость</>. \n\n<FaintYellow>Уязвимость</>: buffdisc(*id)5%."
   },
   {
     "id": "043778",

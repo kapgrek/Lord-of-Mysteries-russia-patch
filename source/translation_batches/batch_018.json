@@ -1107,7 +1107,7 @@
     "id": "085184",
     "source_cn": "短暂进入现实和冥界的交接处，在无休止的尖啸刺激下，强化所有战斗技能和终结技，提升{CheckStar(Type=\"sealed\",ID=2085018)=1?36%}{CheckStar(Type=\"sealed\",ID=2085018)=2?45%}{CheckStar(Type=\"sealed\",ID=2085018)=3?54%}攻击速度，每秒返还{CheckStar(Type=\"sealed\",ID=2085018)=1?0.24}{CheckStar(Type=\"sealed\",ID=2085018)=2?0.28}{CheckStar(Type=\"sealed\",ID=2085018)=3?0.32}秒的冷却时间，持续20秒。\\n强化效果期间如果造成任意击杀或助攻，则延长状态时间5秒，延长效果最多触发2次。",
     "ref_en": "Briefly enter the intersection of reality and the underworld. Under the stimulation of endless screeching, strengthen all combat skills and finishers, increase attack speed by {CheckStar(Type=\"sealed\",ID=2085018)=1?36%}{CheckStar(Type=\"sealed\",ID=2085018)=2?45%}{CheckStar(Type=\"sealed\",ID=2085018)=3?54%}, and refund {CheckStar(Type=\"sealed\",ID=2085018)=1?0.24}{CheckStar(Type=\"sealed\",ID=2085018)=2?0.28}{CheckStar(Type=\"sealed\",ID=2085018)=3?0.32} seconds of cooldown every second for 20 seconds. \\n If any kill or assist is made during the strengthening effect, the state duration is extended by 5 seconds, up to 2 times.",
-    "target_ru": "Ненадолго войдите на стык реальности и подземного мира и под стимуляцию бесконечных криков усильте все боевые навыки и добивания, улучшите )=3?54%} скорость атаки, возврат {CheckStar(Type=\"sealed\",ID=2085018)=1?0.24}{CheckStar(Type=\"sealed\",ID=2085018)=2?0.28}{CheckStar(Type=\"sealed\",ID=2085018)=3?0.32} секунд времени охлаждения в секунду, длительностью 20 секунд. \n Если во время эффекта усиления было совершено какое-либо убийство или помощь, время статуса будет продлено на 5 секунд, а расширенный эффект сработает до 2 раз."
+    "target_ru": "Ненадолго войдите на стык реальности и подземного мира и под стимуляцию бесконечных криков усильте все боевые навыки и добивания, улучшите повышает скорость атаки на {CheckStar(Type=\"sealed\",ID=2085018)=1?36%}{CheckStar(Type=\"sealed\",ID=2085018)=2?45%}{CheckStar(Type=\"sealed\",ID=2085018)=3?54%}, каждую секунду сокращает время перезарядки на {CheckStar(Type=\"sealed\",ID=2085018)=1?0.24}{CheckStar(Type=\"sealed\",ID=2085018)=2?0.28}{CheckStar(Type=\"sealed\",ID=2085018)=3?0.32} сек. в течение 20 секунд. \n Если во время эффекта усиления было совершено какое-либо убийство или помощь, время статуса будет продлено на 5 секунд, а расширенный эффект сработает до 2 раз."
   },
   {
     "id": "085185",
@@ -1191,7 +1191,7 @@
     "id": "085198",
     "source_cn": "获得buffdisc(*id)，持续*f秒（此护盾受自身最大生命值加成）；当护盾被击破时，自身获得buffdisc(*id)秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，该效果有buffdisc(*id)秒内置冷却。施法时获得1枚<HighLight>黄昏印记</>。当正在释放其他技能时，点按本技能可直接获得护盾。\\n携带本技能时：passivedisc(*id)。\\n\\n<FaintYellow>黄昏印记</>\\n使<HighLight>终结技能</>和<HighLight>怒意猛击</>得到强化，最多持有6枚。",
     "ref_en": "Gain buffdisc(*id) for *f seconds (this shield is boosted by your maximum health); when the shield is broken, you gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for buffdisc(*id) seconds, with an internal cooldown of buffdisc(*id) seconds. Gain 1 <HighLight>Dusk Mark</> upon casting. When casting other skills, tap this skill to directly gain the shield. \\nWhen carrying this skill: passivedisc(*id). \\n\\n<FaintYellow>Dusk Mark</>\\nStrengthens <HighLight>Finisher Skill</> and <HighLight>Angry Slam</>, stacking up to 6 times.",
-    "target_ru": "Получите buffdisc(*id) на *f секунд (этот щит увеличивается на ваше максимальное здоровье); когда щит сломан, вы получаете buffdisc(*id) секунд<HyperLink stylename=\"M_Link\" u=\"11\">Hegemonic</>. Этот эффект имеет встроенное время восстановления buffdisc(*id) секунд. Получите 1 <HighLight>Twilight Mark</> при произнесении заклинания. Когда активируются другие навыки, коснитесь этого навыка, чтобы напрямую получить щит. \nПри ношении этого навыка: пассивный диск(*id). \n\n<FaintYellow>Сумеречная метка</>\n усиливает <HighLight> завершающие навыки </> и <HighLight>Яростный удар</>, вмещает до 6 частей."
+    "target_ru": "Получите buffdisc(*id) на *f секунд (этот щит увеличивается на ваше максимальное здоровье); когда щит сломан, вы получаете buffdisc(*id) секунд<HyperLink stylename=\"M_Link\" u=\"11\">Hegemonic</>. Этот эффект имеет встроенное время восстановления buffdisc(*id) секунд. Получите 1 <HighLight>Twilight Mark</> при произнесении заклинания. Когда активируются другие навыки, коснитесь этого навыка, чтобы напрямую получить щит. \nПри ношении этого навыка: passivedisc(*id). \n\n<FaintYellow>Сумеречная метка</>\n усиливает <HighLight> завершающие навыки </> и <HighLight>Яростный удар</>, вмещает до 6 частей."
   },
   {
     "id": "085199",
@@ -3387,7 +3387,7 @@
     "id": "085564",
     "source_cn": "梅丽莎在自身头顶召唤一个齿轮器械，向前方扫射一道火焰光束，skilldisc(*id)，并且若目标存在护盾，则先对护盾造成*d点伤害。",
     "ref_en": "Melissa summons a gear mechanism above her head, firing a beam of fire forward, skilldisc(*id). If the target has a shield, it first deals *d damage to the shield.",
-    "target_ru": "Мелисса вызывает инструмент-шестеренку над головой, стреляет лучом пламени вперед, диск навыков (*id), и если у цели есть щит, это сначала наносит щиту *d единиц урона."
+    "target_ru": "Мелисса вызывает инструмент-шестеренку над головой, стреляет лучом пламени вперед, skilldisc(*id), и если у цели есть щит, это сначала наносит щиту *d единиц урона."
   },
   {
     "id": "085565",
@@ -12093,7 +12093,7 @@
     "id": "087015",
     "source_cn": "本姿态下，自身除魔法攻击外的进攻属性不再提供治疗量加成且治疗量大幅降低。\\n本姿态下，自身造成伤害时会回复自身passivedisc(*id)点生命。",
     "ref_en": "In this stance, your offensive attributes other than magic attack no longer provide healing bonuses, and healing amount is significantly reduced. \\n In this stance, when you deal damage, you restore passivedisc(*id) Health to yourself.",
-    "target_ru": "В этой позе его атакующие атрибуты, кроме магической атаки, больше не дают бонуса к количеству исцеления, и количество исцеления значительно уменьшается. \nВ этой позе, когда вы наносите себе урон, вы восстанавливаете свои пассивные диски (*id) очков жизни."
+    "target_ru": "В этой позе его атакующие атрибуты, кроме магической атаки, больше не дают бонуса к количеству исцеления, и количество исцеления значительно уменьшается. \nВ этой позе, когда вы наносите себе урон, восстанавливает вам passivedisc(*id) ед. здоровья."
   },
   {
     "id": "087016",
