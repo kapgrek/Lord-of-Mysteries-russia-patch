@@ -1167,42 +1167,6 @@ runtimeFixes.lookupGeminiTextFuzzy = function(value)
 end
 
 runtimeFixes.reflowSingleLineToTwo = function(text, minChars)
-    minChars = minChars or 18
-    if type(text) ~= "string" or text:find("[\r\n]") then
-        return text
-    end
-    local plain = text:gsub("<[^>]+>", "")
-    if runtimeFixes.utf8Len(plain) < minChars then
-        return text
-    end
-
-    local mid = math.floor(#text / 2)
-    local bestPos = nil
-    local bestDist = 999999
-    local tagDepth = 0
-
-    for i = 1, #text do
-        local c = text:sub(i, i)
-        if c == "<" then
-            tagDepth = tagDepth + 1
-        elseif c == ">" then
-            tagDepth = math.max(0, tagDepth - 1)
-        elseif c == " " and tagDepth == 0 then
-            local dist = math.abs(i - mid)
-            if dist < bestDist then
-                bestDist = dist
-                bestPos = i
-            end
-        end
-    end
-
-    if bestPos and bestPos > 2 and bestPos < #text - 2 then
-        local p1 = text:sub(1, bestPos - 1)
-        local p2 = text:sub(bestPos + 1):match("^%s*(.-)$")
-        if p1 and p2 and #p1 > 0 and #p2 > 0 then
-            return p1 .. "\n" .. p2
-        end
-    end
     return text
 end
 
@@ -1905,7 +1869,7 @@ local function translateTextWidget(widget, discoveryContext)
     if current == nil or current == "" then
         pcall(function()
             local propVal = widget.Text
-            if propVal ~= nil and propVal ~= "" then
+            if type(propVal) == "string" and propVal ~= "" then
                 current = propVal
             end
         end)
@@ -1922,32 +1886,17 @@ local function translateTextWidget(widget, discoveryContext)
     local translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, currentText)
         or translateVisibleText(currentText)
 
-    -- Auto-wrap and reflow for Russian text length
-    local targetText = translated
-    if type(targetText) == "string" and runtimeFixes.hasCyrillic(targetText) then
-        targetText = runtimeFixes.reflowSingleLineToTwo(targetText, 18)
-    end
-
-    -- Enable auto wrap to prevent UI overflows on Russian text
-    pcall(function()
-        if widget.SetAutoWrapText ~= nil then
-            widget:SetAutoWrapText(true)
-        elseif widget.AutoWrapText ~= nil then
-            widget.AutoWrapText = true
-        end
-    end)
-
     local repairedCount = 0
-    if targetText ~= currentText then
+    if translated ~= currentText then
         local changed = pcall(function()
             if widget.SetText ~= nil then
-                widget:SetText(targetText)
+                widget:SetText(translated)
             end
         end)
         -- KGTextBlock / RichTextBlock can repaint its serialized Text property after a
         -- Blueprint state change. Keep the property and Slate value aligned.
         pcall(function()
-            widget.Text = targetText
+            widget.Text = translated
         end)
         pcall(function()
             if widget.SynchronizeProperties ~= nil then
@@ -7589,11 +7538,17 @@ local function installShortMenuLabels(value, environment)
             -- OnRefresh. Persist the compact value in both the widget property
             -- and the live Slate text so later menu refreshes cannot restore it.
             runtimeFixes.setNamedWidgetText(self.view, "Text_Name", label)
+            pcall(function()
+                local widget = getNamedWidget(self.view, "Text_Name")
+                if widget and widget.SetAutoWrapText ~= nil then
+                    widget:SetAutoWrapText(false)
+                end
+            end)
         end
         return unpack(results)
     end
     class.__cpddShortMenuLabels = true
-    report("installed compact English menu labels")
+    report("installed compact Russian menu labels")
     return true
 end
 
