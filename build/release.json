@@ -2,14 +2,14 @@
     "release_version":  "v2.6.1-RU",
     "format_version":  2,
     "patcher_asset":  {
-                          "sha256":  "68d7543f3291596c37547cf0bb00d063b3dc87c4db4964761f1abd0647dfb5d6",
+                          "sha256":  "a8516b3e4ef9edbc9ce83a6cf56d70bc63e558d9c42f2b197c6a015ece607588",
                           "name":  "Lord-of-Mysteries-Russian-Patch.exe",
                           "size":  37376
                       },
     "release_tag":  "v2.6.1-RU",
     "payload":  {
-                    "sha256":  "4e59ca6fa0ea8e78f6f807469d53ecb9a944250eb5b1bfbc3fda252926bfb89b",
+                    "sha256":  "16b894e7e4cc311a7bcf2253eb72af256b8d8c709fa9804143d2096f7a9cdb9e",
                     "name":  "lom-russian-patch-data.zip",
-                    "size":  69289607
+                    "size":  69289654
                 }
 }

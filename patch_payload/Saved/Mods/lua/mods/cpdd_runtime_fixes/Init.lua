@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.72"
+local VERSION = "0.9.73"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1910,19 +1910,28 @@ local function translateTextWidget(widget, discoveryContext)
         end)
         repairedCount = changed and 1 or 0
     end
-    if widgetName == "Text_Name" then
-        pcall(function()
-            if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
-            local font = widget.GetFont and widget:GetFont() or widget.Font
-            if font ~= nil and (font.LetterSpacing or 0) ~= 0 then
-                font.LetterSpacing = 0
-                widget.Font = font
-                if widget.SetFont ~= nil then widget:SetFont(font) end
-                if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
-                if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
-            end
-        end)
-    end
+    pcall(function()
+        local spacingReset = false
+        if widget.SetLetterSpacing ~= nil then
+            widget:SetLetterSpacing(0)
+            spacingReset = true
+        end
+        if widget.LetterSpacing ~= nil and widget.LetterSpacing ~= 0 then
+            widget.LetterSpacing = 0
+            spacingReset = true
+        end
+        local font = widget.GetFont and widget:GetFont() or widget.Font
+        if font ~= nil and (font.LetterSpacing or 0) ~= 0 then
+            font.LetterSpacing = 0
+            widget.Font = font
+            if widget.SetFont ~= nil then widget:SetFont(font) end
+            spacingReset = true
+        end
+        if spacingReset then
+            if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
+            if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
+        end
+    end)
     return repairedCount
 end
 
