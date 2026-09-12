@@ -344,190 +344,205 @@ end
 -- aggregate entry for 米 (which legitimately means "Rice" in chat/filter
 -- data) is not changed globally.
 local visibleTextExactOverrides = {
-    ["命运道标"] = "Bacon of Destiny",
-    ["Beacon of Destiny"] = "Bacon of Destiny",
+    ["命运道标"] = "Маяк Судьбы",
+    ["Beacon of Destiny"] = "Маяк Судьбы",
+    ["Bacon of Destiny"] = "Маяк Судьбы",
     ["“正义”和“倒吊人”开始默写记忆中的文字……"] =
-        "\"Justice\" and \"The Hanged Man\" begin writing down the words from memory...",
+        "«Справедливость» и «Висельник» начинают записывать по памяти текст...",
     ["两位先生离开了，不知何时才能看到这充满风采的照片……"] =
-        "The two gentlemen have left. Who knows when I'll get to see this splendid photograph...",
-    ["机动"] = "Mobility",
-    ["射程"] = "Range",
-    ["Win by Lying Down"] = "Easy Wins",
+        "Оба джентльмена ушли. Кто знает, когда мне доведется увидеть эту великолепную фотографию...",
+    ["机动"] = "Мобильность",
+    ["射程"] = "Дальность",
+    ["Win by Lying Down"] = "Легкая победа",
     ["在<h>【附近】/【世界】</>聊天栏中打字输入“<HyperLink stylename=\"h\">风暴比烈酒更烈</>”"] =
-        "Type \"<HyperLink stylename=\"h\">风暴比烈酒更烈</>\" in the <h>[Nearby]/[World]</> chat bar",
+        "Напишите в чате <h>[Рядом]/[Мир]</> фразу: «<HyperLink stylename=\"h\">Буря крепче крепкого эля</>»",
     ["所向披靡，无往不利！{{player.name}}在<Chat_Highlight>{{gameMode.name}}</>中获得<Chat_Highlight>{{eventMessageParams.curWinStreak}}连胜</>，战场之上，新的神话已在书写！"] =
-        "Invincible and unstoppable! {{player.name}} has achieved a <Chat_Highlight>{{eventMessageParams.curWinStreak}} win streak</> in <Chat_Highlight>{{gameMode.name}}</>! On the battlefield, a new legend is being written!",
+        "Непобедимый и неудержимый! {{player.name}} одерживает серию из <Chat_Highlight>{{eventMessageParams.curWinStreak}} побед</> в режиме <Chat_Highlight>{{gameMode.name}}</>! На поле боя пишется новая легенда!",
     ["Invincible and unstoppable! {{player.name}} has achieved a <Chat_Highlight>{{eventMessageParams.curWinStreak}} win streak in <Chat_Highlight>{{gameMode.name}}</>! On the battlefield, a new legend is being written!</>"] =
-        "Invincible and unstoppable! {{player.name}} has achieved a <Chat_Highlight>{{eventMessageParams.curWinStreak}} win streak</> in <Chat_Highlight>{{gameMode.name}}</>! On the battlefield, a new legend is being written!",
-    ["推理检定"] = "Deduction Check",
+        "Непобедимый и неудержимый! {{player.name}} одерживает серию из <Chat_Highlight>{{eventMessageParams.curWinStreak}} побед</> в режиме <Chat_Highlight>{{gameMode.name}}</>! На поле боя пишется новая легенда!",
+    ["推理检定"] = "Проверка дедукции",
     ["发现它变成了一份地图，还标注了奇迹降临的位置……"] =
-        "You discover it has become a map, marking the location where the miracle will occur...",
-    ["沙利亚特"] = "Sariat",
-    ["迪尼特"] = "Dinit",
-    ["罗、罗茜！你今天过得好吗？"] = "R-Rosie! How are you today?",
-    ["罗、罗茜！你今天过得好吗?"] = "R-Rosie! How are you today?",
+        "Вы обнаружили, что она превратилась в карту с отметкой места, где свершится чудо...",
+    ["沙利亚特"] = "Шариат",
+    ["迪尼特"] = "Динит",
+    ["罗、罗茜！你今天过得好吗？"] = "Р-Рози! Как твои дела сегодня?",
+    ["罗、罗茜！你今天过得好吗?"] = "Р-Рози! Как твои дела сегодня?",
     ["啊，弗雷泽！我很好，这束花是……"] =
-        "Oh, Frazier! I'm doing well. Is that bouquet...?",
+        "Ох, Фрейзер! Всё хорошо. Этот букет...",
     ["啊，弗雷泽！我很好，这束花是......"] =
-        "Oh, Frazier! I'm doing well. Is that bouquet...?",
+        "Ох, Фрейзер! Всё хорошо. Этот букет...",
     ["啊，弗雷泽！我很好，这束花是..."] =
-        "Oh, Frazier! I'm doing well. Is that bouquet...?",
+        "Ох, Фрейзер! Всё хорошо. Этот букет...",
     ["我想把它送给你，其实，我对你……"] =
-        "I wanted to give it to you. Actually, I...",
+        "Я хотел подарить его тебе. На самом деле, я к тебе...",
     ["我想把它送给你，其实，我对你......"] =
-        "I wanted to give it to you. Actually, I...",
+        "Я хотел подарить его тебе. На самом деле, я к тебе...",
     ["我想把它送给你，其实，我对你..."] =
-        "I wanted to give it to you. Actually, I...",
-    ["跳过"] = "Skip",
-    ["回顾"] = "Review",
-    ["截图"] = "Screenshot",
-    ["点击空白区域关闭"] = "Click blank area to close",
-    ["点击任意区域跳过"] = "Click anywhere to skip",
-    ["恭喜获得"] = "Congratulations",
-    ["转化"] = "Convert",
-    ["男子"] = "Man",
-    ["丑人"] = "Ugly Man",
-    ["愚者"] = "The Fool",
-    ["“愚者”"] = "\"The Fool\"",
-    ["塞巴斯蒂安"] = "Sebastian",
-    ["寒巴斯蒂安"] = "Sebastian",
-    ["非凡评分"] = "Beyonder Rating",
-    ["再战·一号信徒"] = "Rematch: Believer Number One",
-    ["推荐非凡评分"] = "Recommended Beyonder Rating",
-    ["奖励预览"] = "Reward Preview",
-    ["目标点数"] = "Target Score",
-    ["黎明降临"] = "Dawn Arrival",
-    ["仲裁烙印"] = "Arbitration Brand",
-    ["窥秘凝视"] = "Mystery Pry Gaze",
-    ["晨曦守护"] = "Morning Light Protection",
-    ["骑士誓约"] = "Knight's Oath",
-    ["蝶灵附身"] = "Butterfly Spirit Possession",
-    ["丧钟回响"] = "Death Knell Echo",
-    ["头狼连爪"] = "Alpha Wolf Claw Combo",
-    ["钻头守护"] = "Drill Protection",
-    ["未拥有"] = "Not Owned",
-    ["推荐方案"] = "Recommended Builds",
-    ["官方推荐方案"] = "Official Recommended Build",
-    ["我的方案"] = "My Builds",
-    ["我要变强"] = "Improve",
-    ["要变强"] = "Improve",
-    ["已领取"] = "Claimed",
-    ["今日已领取"] = "Claimed Today",
-    ["奖励已领取"] = "Reward Claimed",
-    ["已领取全部奖励"] = "All Rewards Claimed",
-    ["使用"] = "Use",
-    ["使用中"] = "In Use",
-    ["图鉴"] = "Codex",
-    ["跟随卡萝，来到了工厂区。"] = "Follow Carol to the Factory District.",
-    ["全部重置"] = "Reset All",
-    ["装备方案"] = "Equipment Builds",
-    ["自动分解"] = "Auto-Dismantle",
-    ["获得方式"] = "How to Obtain",
-    ["下一级效果"] = "Next-Level Effect",
+        "Я хотел подарить его тебе. На самом деле, я к тебе...",
+    ["跳过"] = "Пропустить",
+    ["回顾"] = "История",
+    ["截图"] = "Скриншот",
+    ["点击空白区域关闭"] = "Нажмите в любом месте, чтобы закрыть",
+    ["点击任意区域跳过"] = "Нажмите в любом месте, чтобы пропустить",
+    ["恭喜获得"] = "Поздравляем с получением",
+    ["转化"] = "Преобразовать",
+    ["男子"] = "Мужчина",
+    ["丑人"] = "Уродливый",
+    ["愚者"] = "Шут",
+    ["“愚者”"] = "«Шут»",
+    ["塞巴斯蒂安"] = "Себастьян",
+    ["寒巴斯蒂安"] = "Себастьян",
+    ["非凡评分"] = "Оценка Потустороннего",
+    ["再战·一号信徒"] = "Реванш: Верующий Номер Один",
+    ["推荐非凡评分"] = "Рекомендуемая оценка",
+    ["奖励预览"] = "Предпросмотр наград",
+    ["目标点数"] = "Целевые очки",
+    ["黎明降临"] = "Пришествие Рассвета",
+    ["Dawn Arrival"] = "Пришествие Рассвета",
+    ["仲裁烙印"] = "Клеймо Арбитража",
+    ["Arbitration Brand"] = "Клеймо Арбитража",
+    ["窥秘凝视"] = "Взор Подглядывающего",
+    ["Mystery Pry Gaze"] = "Взор Подглядывающего",
+    ["晨曦守护"] = "Защита Утреннего Света",
+    ["Morning Light Protection"] = "Защита Утреннего Света",
+    ["骑士誓约"] = "Клятва Рыцаря",
+    ["Knight's Oath"] = "Клятва Рыцаря",
+    ["蝶灵附身"] = "Одержимость Духа-Бабочки",
+    ["Butterfly Spirit Possession"] = "Одержимость Духа-Бабочки",
+    ["丧钟回响"] = "Эхо Похоронного Звона",
+    ["Death Knell Echo"] = "Эхо Похоронного Звона",
+    ["头狼连爪"] = "Серия Когтей Альфа-Волка",
+    ["Alpha Wolf Claw Combo"] = "Серия Когтей Альфа-Волка",
+    ["钻头守护"] = "Защитная Дрель",
+    ["Drill Protection"] = "Защитная Дрель",
+    ["未拥有"] = "Не получено",
+    ["推荐方案"] = "Рекомендуемые схемы",
+    ["Recommended Builds"] = "Рекомендуемые схемы",
+    ["官方推荐方案"] = "Официальная рекомендуемая схема",
+    ["Official Recommended Build"] = "Официальная рекомендуемая схема",
+    ["我的方案"] = "Мои схемы",
+    ["My Builds"] = "Мои схемы",
+    ["我要变强"] = "Усиление",
+    ["要变强"] = "Усиление",
+    ["已领取"] = "Получено",
+    ["今日已领取"] = "Получено сегодня",
+    ["奖励已领取"] = "Награда получена",
+    ["已领取全部奖励"] = "Все награды получены",
+    ["使用"] = "Использовать",
+    ["使用中"] = "Используется",
+    ["图鉴"] = "Энциклопедия",
+    ["跟随卡萝，来到了工厂区。"] = "Следуйте за Кэрол в Заводской район.",
+    ["全部重置"] = "Сбросить всё",
+    ["装备方案"] = "Схемы снаряжения",
+    ["Equipment Builds"] = "Схемы снаряжения",
+    ["自动分解"] = "Авторазбор",
+    ["获得方式"] = "Способ получения",
+    ["下一级效果"] = "Эффект следующего уровня",
     ["在目标位置召唤窥秘之眼，对目标造成持续伤害和减速。"] =
-        "Summon an Eye of Mystery at the target location, dealing continuous damage and slowing the target.",
+        "Призывает Око Тайны в указанной области, нанося цели периодический урон и замедляя ее.",
     ["感知灵界，观测星空，通过灵性物品启示的命运变化，解读其映射的现实空间异动、事态发展走向与潜在未知危险。"] =
-        "Sense the spirit world and observe the stars. Interpret the changes in fate revealed by spiritual items to discern the real-world disturbances they reflect, how events may unfold, and potential unknown dangers.",
+        "Ощущайте духовный мир, наблюдайте за звездами. Толкуйте изменения судьбы, открываемые духовными предметами, чтобы распознавать отраженные ими возмущения в реальном мире, развитие событий и скрытые неведомые опасности.",
     ["占星启示期间，周围的玩家可以获得临时技能来获取占星指引。"] =
-        "During Astrological Revelation, nearby players can gain a temporary skill to receive astrological guidance.",
+        "Во время Астрологического откровения окружающие игроки могут получить временный навык для получения астрологических указаний.",
     ["使自身获得武力加4，直觉加2。使用临时技能获取占星指引的玩家也可以获得武力加4，直觉加2。"] =
-        "Gain +4 Might and +2 Intuition. Players who use the temporary skill to receive astrological guidance also gain +4 Might and +2 Intuition.",
-    ["木桩训练"] = "Training Dummy",
-    ["一键辅助"] = "One-Click Assist",
-    ["家族任务"] = "Family Quests",
-    ["你尚未加入任何家族"] = "You haven't joined a Family.",
-    ["[队伍]"] = "[Team]",
-    ["【附身能力】"] = "[Possession Ability]",
-    ["请选择要使用【灵体之线】的对象"] = "Select a target for [Spirit Body Threads]",
-    ["附身剩余时间"] = "Possession Time Remaining",
-    ["秘偶属性生效总览"] = "Marionette Attribute Effects Overview",
-    ["本频道可用传音发言"] = "Broadcasts can be sent in this channel",
-    ["本频道无法发言"] = "You cannot speak in this channel",
-    ["但我们的数据——"] = "But our data—",
-    ["哼唧！哼唧……"] = "Oink! Oink...",
-    ["嗯……都行。"] = "Hmm... anything's fine.",
+        "Дает персонажу +4 к Силе и +2 к Интуиции. Игроки, использующие временный навык для получения астрологических указаний, также получают +4 к Силе и +2 к Интуиции.",
+    ["木桩训练"] = "Тренировочный манекен",
+    ["Training Dummy"] = "Тренировочный манекен",
+    ["一键辅助"] = "Автопомощь",
+    ["家族任务"] = "Задания семьи",
+    ["你尚未加入任何家族"] = "Вы еще не вступили ни в одну семью.",
+    ["[队伍]"] = "[Группа]",
+    ["【附身能力】"] = "【Способность вселения】",
+    ["请选择要使用【灵体之线】的对象"] = "Выберите цель для использования [Нитей духовного тела]",
+    ["附身剩余时间"] = "Оставшееся время вселения",
+    ["秘偶属性生效总览"] = "Обзор действующих атрибутов марионетки",
+    ["本频道可用传音发言"] = "В этом канале можно использовать голосовую передачу",
+    ["本频道无法发言"] = "В этом канале нельзя отправлять сообщения",
+    ["但我们的数据——"] = "Но наши данные...",
+    ["哼唧！哼唧……"] = "Хрю-хрю! Хрю...",
+    ["嗯……都行。"] = "Хм... пойдет.",
     ["坏了，我可能把<P_Yellow>生物催长剂</>当成椰蓉洒在蛋糕上了！"] =
-        "Oh no, I may have sprinkled the <P_Yellow>bio-growth stimulant</> on the cake instead of shredded coconut!",
-    ["培根……你真是救我于水火啊……"] = "Bacon... you really saved me...",
-    ["培根……培根怎么回事？？"] = "Bacon... what's wrong with Bacon??",
-    ["太好了！拿到数据了！"] = "Great! We got the data!",
-    ["好了。下次再来！"] = "There you go. Come again!",
-    ["情况有点失控了！跑啊！"] = "This is getting out of control! Run!",
-    ["第一次来吗？要什么口味？"] = "First time here? What flavor would you like?",
-    ["等下我就买一大堆小蛋糕给你！"] = "I'll buy you a whole bunch of cupcakes later!",
-    ["那就给你最经典的那种吧。"] = "Then I'll give you the classic one.",
-    ["霍伊大学赛艇队招新！"] = "Hoy University Rowing Team is recruiting!",
-    ["成员列表"] = "Member List",
-    ["俱乐部会长"] = "Club President",
-    ["正式成员"] = "Full Member",
-    ["候补成员"] = "Reserve Member",
-    ["可预存"] = "Can Pre-store",
-    ["已预存"] = "Pre-stored",
-    ["新手"] = "Beginner",
-    ["赛季剧情"] = "Season Story",
-    ["提交可获得猎杀进度"] = "Submit to earn Hunt Progress",
-    ["可获得猎杀进度"] = "Earn Hunt Progress",
-    ["当前进度："] = "Current Progress:",
-    ["当前进度:"] = "Current Progress:",
-    ["击杀"] = "Kills",
-    ["助攻"] = "Assists",
-    ["排行榜"] = "Leaderboard",
-    ["技能名称"] = "Skill Name",
-    ["次数"] = "Count",
-    ["伤害量"] = "Damage",
-    ["伤害来源"] = "Damage Source",
-    ["寄售"] = "Consignment",
-    ["终末猎杀"] = "Final Hunt",
-    ["主宰争锋"] = "Dominator's Clash",
-    ["主宰之战"] = "Dominator's Clash",
-    ["副本"] = "Dungeon",
-    ["秩序世界"] = "World of Order",
-    ["本周获取上限"] = "Weekly Limit",
-    ["城市暗面"] = "Dark City",
-    ["新"] = "New",
-    ["同家族/俱乐部队员达到3人及以上"] = "3+ Party Members From the Same Family/Club",
-    ["对比"] = "Compare",
-    ["进攻模式·PVP"] = "Offensive Mode · PvP",
-    ["随机获得2-4个词条"] = "Grants 2-4 Random Affixes",
-    ["神圣之杖"] = "Holy Staff",
-    ["线索"] = "Clue",
-    ["组队跟随中..."] = "Following Party...",
-    ["组队跟随中…"] = "Following Party...",
+        "Беда! Кажется, я насыпал на торт <P_Yellow>биостимулятор роста</> вместо кокосовой стружки!",
+    ["培根……你真是救我于水火啊……"] = "Бэкон... ты правда спас меня из беды...",
+    ["培根……培根怎么回事？？"] = "Бэкон... что с Бэконом?!",
+    ["太好了！拿到数据了！"] = "Отлично! Данные получены!",
+    ["好了。下次再来！"] = "Готово. Приходите еще!",
+    ["情况有点失控了！跑啊！"] = "Ситуация выходит из-под контроля! Бежим!",
+    ["第一次来吗？要什么口味？"] = "Впервые здесь? Какой вкус желаете?",
+    ["等下我就买一大堆小蛋糕给你！"] = "Скоро я куплю тебе кучу пирожных!",
+    ["那就给你最经典的那种吧。"] = "Тогда держи классический вариант.",
+    ["霍伊大学赛艇队招新！"] = "Набор в команду по гребле Университета Хоя!",
+    ["成员列表"] = "Список участников",
+    ["俱乐部会长"] = "Президент клуба",
+    ["正式成员"] = "Действительный член",
+    ["候补成员"] = "Кандидат",
+    ["可预存"] = "Доступно накопление",
+    ["已预存"] = "Накоплено",
+    ["新手"] = "Новичок",
+    ["赛季剧情"] = "Сюжет сезона",
+    ["提交可获得猎杀进度"] = "Сдайте для получения прогресса охоты",
+    ["可获得猎杀进度"] = "Можно получить прогресс охоты",
+    ["当前进度："] = "Текущий прогресс:",
+    ["当前进度:"] = "Текущий прогресс:",
+    ["击杀"] = "Убийства",
+    ["助攻"] = "Помощь",
+    ["排行榜"] = "Рейтинг",
+    ["技能名称"] = "Название навыка",
+    ["次数"] = "Количество",
+    ["伤害量"] = "Урон",
+    ["伤害来源"] = "Источник урона",
+    ["寄售"] = "Комиссионка",
+    ["终末猎杀"] = "Финальная охота",
+    ["主宰争锋"] = "Битва владык",
+    ["主宰之战"] = "Битва владык",
+    ["副本"] = "Подземелье",
+    ["秩序世界"] = "Мир Порядка",
+    ["本周获取上限"] = "Недельный лимит",
+    ["城市暗面"] = "Изнанка города",
+    ["新"] = "Новое",
+    ["同家族/俱乐部队员达到3人及以上"] = "3 и более участников из одной семьи/клуба",
+    ["对比"] = "Сравнить",
+    ["进攻模式·PVP"] = "Атакующий режим · PvP",
+    ["随机获得2-4个词条"] = "Случайно дает 2-4 свойства",
+    ["神圣之杖"] = "Священный посох",
+    ["线索"] = "Улика",
+    ["组队跟随中..."] = "Следование за группой...",
+    ["组队跟随中…"] = "Следование за группой...",
     ["你在廷根的集体意识中失去了形态，意识正在退回现实..."] =
-        "You lost form within Tingen's collective consciousness. Your consciousness is returning to reality...",
-    ["界面返回"] = "Back",
-    ["灵体之线玩法"] = "Spirit Body Threads",
-    ["廷根第一市民"] = "Tingen's First Citizen",
-    ["[封]"] = "[Sealed]",
-    ["狂袭式"] = "Frenzied Assault",
-    ["廷根守墓人"] = "Tingen Gravekeeper",
-    ["机器加工厂坊"] = "Machine Processing Workshop",
-    ["非凡材料每有1条词条格挡 +200"] = "Each Beyonder Material affix grants Block +200",
-    ["总探索度"] = "Total Exploration",
-    ["上限可累计至下周"] = "Unused Limit Carries Over to Next Week",
-    ["安迪哥努斯笔记"] = "Antigonus Notebook",
-    ["首通队伍"] = "First-Clear Team",
+        "Вы потеряли форму в коллективном сознании Тингена, сознание возвращается в реальность...",
+    ["界面返回"] = "Назад",
+    ["灵体之线玩法"] = "Нити духовного тела",
+    ["廷根第一市民"] = "Первый гражданин Тингена",
+    ["[封]"] = "[Запечатано]",
+    ["狂袭式"] = "Неистовый натиск",
+    ["廷根守墓人"] = "Могильщик Тингена",
+    ["机器加工厂坊"] = "Механический цех",
+    ["非凡材料每有1条词条格挡 +200"] = "Каждое свойство материала Потусторонних дает блок +200",
+    ["总探索度"] = "Общий прогресс исследования",
+    ["上限可累计至下周"] = "Остаток лимита переносится на след. неделю",
+    ["安迪哥努斯笔记"] = "Дневник Антигона",
+    ["首通队伍"] = "Команда первого прохождения",
     ["男子：（癫狂）万物的“母亲”，赐予我们新生！"] =
-        "Man: (Manically) \"Mother\" of all things, grant us rebirth!",
-    ["“愚者”：拿上这个。"] = "\"The Fool\": Take this.",
+        "Мужчина: (В безумии) «Мать» всего сущего, даруй нам новую жизнь!",
+    ["“愚者”：拿上这个。"] = "«Шут»: Возьми это.",
     ["丑人：（有效期十四年？为什么要签这么久的合同……）"] =
-        "Ugly Man: (Valid for fourteen years? Why would I need to sign such a long contract...)",
-    ["弗莱"] = "Frye",
-    ["伦纳德"] = "Leonard",
-    ["罗珊"] = "Rozanne",
+        "Уродливый: (Срок действия четырнадцать лет? Зачем подписывать контракт на такой долгий срок...)",
+    ["弗莱"] = "Фрай",
+    ["伦纳德"] = "Леонард",
+    ["罗珊"] = "Розанна",
     ["没有太大危险了，不用特别在意。"] =
-        "There's no real danger anymore, so you don't need to worry.",
+        "Опасности больше нет, не стоит переживать.",
     ["罗珊小姐，这个铃铛是用来做什么的？"] =
-        "Miss Rozanne, what is this bell for?",
-    ["三律之背反"] = "Antinomy of the Three Laws",
-    ["镜像之自我"] = "Mirrored Self",
-    ["技能增强提高<Mark>30</>。"] = "Skill Enhancement increased by <Mark>30</>.",
+        "Мисс Розанна, для чего этот колокольчик?",
+    ["三律之背反"] = "Антиномия трех законов",
+    ["镜像之自我"] = "Зеркальное я",
+    ["技能增强提高<Mark>30</>。"] = "Усиление навыков увеличено на <Mark>30</>.",
     ["技能增强提高<Mark>30</>。\n激活套装<Mark>灵与知回响</>时不生效。"] =
-        "Skill Enhancement increased by <Mark>30</>.\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active.",
+        "Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     ["<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>30</>。\n激活套装<Mark>灵与知回响</>时不生效。"] =
-        "<CostRed>{1,2,(Brand inactive)}</>Skill Enhancement increased by <Mark>30</>.\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active.",
+        "<CostRed>{1,2,(Клеймо неактивно)}</>Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     ["技能增强提高30。\n激活套装灵与知回响时不生效。"] =
-        "Skill Enhancement increased by 30.\nDoes not take effect while the Echo of Spirit and Knowledge set is active.",
+        "Усиление навыков увеличено на 30.\nНе действует, пока активен комплект Эхо Духа и Знания.",
 }
 
 -- Nearby NPC chat can prepend a channel and translated speaker name to the
@@ -535,14 +550,14 @@ local visibleTextExactOverrides = {
 -- and preserve that live prefix.
 visibleTextExactOverrides.__translateNearbyConfessionDialogue = function(value)
     for _, replacement in ipairs({
-        { "罗、罗茜！你今天过得好吗？", "R-Rosie! How are you today?" },
-        { "罗、罗茜！你今天过得好吗?", "R-Rosie! How are you today?" },
-        { "啊，弗雷泽！我很好，这束花是……", "Oh, Frazier! I'm doing well. Is that bouquet...?" },
-        { "啊，弗雷泽！我很好，这束花是......", "Oh, Frazier! I'm doing well. Is that bouquet...?" },
-        { "啊，弗雷泽！我很好，这束花是...", "Oh, Frazier! I'm doing well. Is that bouquet...?" },
-        { "我想把它送给你，其实，我对你……", "I wanted to give it to you. Actually, I..." },
-        { "我想把它送给你，其实，我对你......", "I wanted to give it to you. Actually, I..." },
-        { "我想把它送给你，其实，我对你...", "I wanted to give it to you. Actually, I..." },
+        { "罗、罗茜！你今天过得好吗？", "Р-Рози! Как твои дела сегодня?" },
+        { "罗、罗茜！你今天过得好吗?", "Р-Рози! Как твои дела сегодня?" },
+        { "啊，弗雷泽！我很好，这束花是……", "Ох, Фрейзер! Всё хорошо. Этот букет..." },
+        { "啊，弗雷泽！我很好，这束花是......", "Ох, Фрейзер! Всё хорошо. Этот букет..." },
+        { "啊，弗雷泽！我很好，这束花是...", "Ох, Фрейзер! Всё хорошо. Этот букет..." },
+        { "我想把它送给你，其实，我对你……", "Я хотел подарить его тебе. На самом деле, я к тебе..." },
+        { "我想把它送给你，其实，我对你......", "Я хотел подарить его тебе. На самом деле, я к тебе..." },
+        { "我想把它送给你，其实，我对你...", "Я хотел подарить его тебе. На самом деле, я к тебе..." },
     }) do
         local first, last = value:find(replacement[1], 1, true)
         if first ~= nil then
@@ -567,18 +582,18 @@ local function translateSeasonBroochDescription(value)
     if plain:find("铸造神话品质胸针（竞技倾向）的关键材料。", 1, true)
         and plain:find("灰雾晶砾", 1, true)
     then
-        return "Key material for forging a Mythical-quality brooch (<Highlight>Competitive</>).\n\n"
-            .. "Forging consumes <Highlight>15</> Gray Fog Crystal Grit to create an Item Level 64 Mythical-quality brooch (<Highlight>Competitive</>).\n\n"
-            .. "As the season progresses, item-level upgrades for Mythical brooches (Competitive) will unlock. Each upgrade consumes a certain amount of Gray Fog Crystal Grit.\n\n"
-            .. "Each week, you can obtain up to <Highlight>3</> Gray Fog Crystal Grit directly from Final Hunt, Four-Way League, Hunting City Battle/Highland Battle, and Sustain War with War Treasures. Any unearned amount carries over to the next week, up to a maximum of <Highlight>15</>."
+        return "Ключевой материал для создания броши мифического качества (<Highlight>Состязание</>).\n\n"
+            .. "Для создания требуется <Highlight>15</> шт. кристаллической крошки Серого Тумана. Создается брошь мифического качества 64 ур. предмета (<Highlight>Состязание</>).\n\n"
+            .. "По ходу сезона откроется повышение уровня предмета мифической броши (Состязание). Каждое улучшение требует определенное количество кристаллической крошки Серого Тумана.\n\n"
+            .. "Каждую неделю можно получить до <Highlight>3</> шт. кристаллической крошки Серого Тумана в «Финальной охоте», «Лиге четырех сторон», «Битве за Город охоты / Высокогорье» и «Военных трофеях». Неполученное количество переносится на следующую неделю, максимум до <Highlight>15</>."
     end
     if plain:find("铸造神话品质胸针（冒险倾向）的关键材料。", 1, true)
         and plain:find("灰雾尘埃", 1, true)
     then
-        return "Key material for forging a Mythical-quality brooch (<Highlight>Adventure</>).\n\n"
-            .. "Forging consumes <Highlight>15</> Gray Fog Dust to create an Item Level 64 Mythical-quality brooch (<Highlight>Adventure</>).\n\n"
-            .. "As the season progresses, item-level upgrades for Mythical brooches (Adventure) will unlock. Each upgrade consumes a certain amount of Gray Fog Dust.\n\n"
-            .. "Each week, you can obtain up to <Highlight>3</> Gray Fog Dust directly from Party Dungeons, Team Dungeons, and World Adventure Treasures. Any unearned amount carries over to the next week, up to a maximum of <Highlight>15</>."
+        return "Ключевой материал для создания броши мифического качества (<Highlight>Приключение</>).\n\n"
+            .. "Для создания требуется <Highlight>15</> шт. пыли Серого Тумана. Создается брошь мифического качества 64 ур. предмета (<Highlight>Приключение</>).\n\n"
+            .. "По ходу сезона откроется повышение уровня предмета мифической броши (Приключение). Каждое улучшение требует определенное количество пыли Серого Тумана.\n\n"
+            .. "Каждую неделю можно получить до <Highlight>3</> шт. пыли Серого Тумана в групповых подземельях, командных подземельях и трофеях приключений мира. Неполученное количество переносится на следующую неделю, максимум до <Highlight>15</>."
     end
     return value
 end
@@ -597,11 +612,11 @@ local function translateFamilyRecruitmentGuide(value)
     end
 
     local expiryDays = plain:find("发布3天后", 1, true) and "3" or "7"
-    return "1. <Highlight>Family Application:</> Any Beyonder who has not joined a family can publish a personal application to find a suitable family. The application is automatically withdrawn "
-        .. expiryDays .. " days after publication or after successfully joining a family.\n"
-        .. "2. <Highlight>Recruitment Response:</> Beyonders who have not joined a family may start a recruitment response or join one started by another Beyonder. The initiator becomes the <Highlight>Family Chief</> by default.\n"
-        .. "3. <Highlight>Create Family:</> During the recruitment-response phase, a family can be created once at least <Highlight>3 people</> have responded. During creation, the Chief can adjust the family name and member positions.\n"
-        .. "4. <Highlight>Join Family:</> When a family has fewer than <Highlight>14 members</>, the Chief can recruit. Other Beyonders may apply and join directly after the Chief approves their application."
+    return "1. <Highlight>Заявка в семью:</> Любой Потусторонний, не состоящий в семье, может подать заявку для поиска подходящей семьи. Заявка автоматически отзывается через "
+        .. expiryDays .. " дн. после публикации или после успешного вступления в семью.\n"
+        .. "2. <Highlight>Отклик на набор:</> Потусторонние без семьи могут начать набор или присоединиться к чужому набору. Инициатор по умолчанию становится <Highlight>Главой семьи</>.\n"
+        .. "3. <Highlight>Создание семьи:</> Семья может быть создана, как только откликнется не менее <Highlight>3 человек</>. При создании глава может изменить название семьи и должности участников.\n"
+        .. "4. <Highlight>Вступление в семью:</> Если в семье менее <Highlight>14 участников</>, глава может проводить набор. Другие игроки могут подать заявку и вступить после одобрения главой."
 end
 
 -- EquipmentUniqueData descriptions pass through a conditional rich-text
@@ -619,19 +634,19 @@ visibleTextExactOverrides.__translateEquipmentSpecialText = function(value)
 
     local prefix = ""
     if value:find("<CostRed>", 1, true) then
-        prefix = "<CostRed>{1,2,(Brand inactive)}</>"
+        prefix = "<CostRed>{1,2,(Клеймо неактивно)}</>"
     end
-    local inactive = "\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active."
+    local inactive = "\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>."
 
     if plain:find("技能增强提高30。", 1, true) then
-        return prefix .. "Skill Enhancement increased by <Mark>30</>." .. inactive
+        return prefix .. "Усиление навыков увеличено на <Mark>30</>." .. inactive
     end
     if plain:find("释放解控技能后，获得50点技能抵挡", 1, true)
         and plain:find("每30秒最多触发一次。", 1, true)
     then
         return prefix
-            .. "After using a Cleanse Skill, gain <Mark>50</> Skill Block for <Mark>10</> seconds. "
-            .. "Can trigger at most once every <Mark>30</> seconds."
+            .. "После применения навыка снятия контроля дает <Mark>50</> ед. блокирования навыков на <Mark>10</> сек. "
+            .. "Срабатывает не чаще одного раза в <Mark>30</> сек."
             .. inactive
     end
     if plain:find("破防提高80。", 1, true)
@@ -639,8 +654,8 @@ visibleTextExactOverrides.__translateEquipmentSpecialText = function(value)
         and plain:find("每10秒最多触发一次。", 1, true)
     then
         return prefix
-            .. "Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain "
-            .. "<Mark>60</> Defense for <Mark>5</> seconds. Can trigger at most once every <Mark>10</> seconds."
+            .. "Пробивание брони увеличено на <Mark>80</>. При получении урона есть шанс получить "
+            .. "<Mark>60</> ед. защиты на <Mark>5</> сек. Срабатывает не чаще одного раза в <Mark>10</> сек."
             .. inactive
     end
     return value
@@ -681,20 +696,20 @@ visibleTextExactOverrides.__translateLifeStaffDetails = function(value)
         return value
     end
 
-    local translated = "<Yellow>Life Energy</>: The bearer gains 1 Life Energy every <Yellow>"
-        .. interval .. " seconds</>, up to <Yellow>" .. energyLimit .. "</>. When the bearer's cumulative "
-        .. "effective healing to themself or an ally exceeds <Yellow>" .. healingThreshold
-        .. "%</> of the bearer's maximum HP, 1 Life Energy is consumed to apply <Yellow>"
-        .. growthStacks .. "</> stacks of <Yellow>Flourishing Growth</> to the target for <Yellow>"
-        .. growthDuration .. " seconds</>. The bearer also gains 1 <Yellow>Seed of Life</>, up to <Yellow>"
-        .. seedLimit .. "</>.\n\n<Yellow>Flourishing Growth</>: While HP is not full, consumes 1 stack "
-        .. "per second to restore <Yellow>" .. healingAmount .. "</> HP.\n<Yellow>Seed of Life</>: "
-        .. "When the bearer takes damage below <Yellow>" .. lowHealthThreshold
-        .. "%</> HP, automatically consumes 1 Seed of Life to restore <Yellow>"
-        .. seedRecovery .. "%</> of maximum HP."
+    local translated = "<Yellow>Энергия жизни</>: Владелец получает 1 ед. Энергии жизни каждые <Yellow>"
+        .. interval .. " сек.</>, вплоть до <Yellow>" .. energyLimit .. "</>. Когда суммарное "
+        .. "эффективное исцеление владельца себе или союзнику превышает <Yellow>" .. healingThreshold
+        .. "%</> от макс. ОЗ владельца, расходуется 1 ед. Энергии жизни, накладывая <Yellow>"
+        .. growthStacks .. "</> ур. эффекта <Yellow>Бурный рост</> на цель на <Yellow>"
+        .. growthDuration .. " сек.</>. Владелец также получает 1 <Yellow>Семя жизни</>, вплоть до <Yellow>"
+        .. seedLimit .. "</>.\n\n<Yellow>Бурный рост</>: Пока ОЗ не полные, расходует 1 уровень эффекта "
+        .. "в секунду для восстановления <Yellow>" .. healingAmount .. "</> ед. ОЗ.\n<Yellow>Семя жизни</>: "
+        .. "Когда ОЗ владельца опускается ниже <Yellow>" .. lowHealthThreshold
+        .. "%</>, автоматически расходует 1 Семя жизни для восстановления <Yellow>"
+        .. seedRecovery .. "%</> от максимального ОЗ."
     if plain:find("主宰争锋", 1, true) then
         translated = translated
-            .. "\nWhile in Dominator's Clash, Life Staff effects are reduced."
+            .. "\nВ «Битве владык» эффекты Жезла Жизни снижены."
     end
     return translated
 end
@@ -705,42 +720,42 @@ visibleTextExactOverrides.__translateBrassBookBounty = function(value)
     local plain = value:gsub("（", "("):gsub("）", ")"):gsub("　", " "):gsub(" ", " ")
     local current, target = plain:match("^获取城市暗面玩法悬赏值%s*([%d,]+)/([%d,]+)。%s*%(黄铜书挑战开启后计数%)%s*$")
     if current == nil then return value end
-    return "Earn " .. current .. "/" .. target
-        .. " bounty points in City of Shadows. (Counted after the Brass Book Challenge begins.)"
+    return "Получите " .. current .. "/" .. target
+        .. " очков награды на «Изнанке города». (Учитывается после начала испытания Латунной книги.)"
 end
 
 
 local visibleTextReplacements = {
     {
         "绯红月辉？难道是这张红月纸牌？用它试试。",
-        "Crimson moonlight? Could this Red Moon card be it? Let's try it.",
+        "Багряное сияние луны? Может, эта карта Красной Луны подойдет? Попробуем ее.",
     },
-    { "点击空白区域关闭", "Click blank area to close" },
-    { "跳过", "Skip" },
-    { "推荐非凡评分", "Recommended Beyonder Rating" },
-    { "非凡评分", "Beyonder Rating" },
-    { "塞巴斯蒂安", "Sebastian" },
-    { "寒巴斯蒂安", "Sebastian" },
-    { "男子：", "Man: " },
-    { "丑人：", "Ugly Man: " },
-    { "“愚者”：", "\"The Fool\": " },
-    { "愚者", "The Fool" },
-    { "（癫狂）", "(Manically) " },
-    { "万物的“母亲”", "\"Mother\" of all things" },
-    { "赐予我们新生", "grant us rebirth" },
-    { "拿上这个", "Take this" },
-    { "有效期十四年？为什么要签这么久的合同……", "Valid for fourteen years? Why would I need to sign such a long contract..." },
+    { "点击空白区域关闭", "Нажмите в любом месте, чтобы закрыть" },
+    { "跳过", "Пропустить" },
+    { "推荐非凡评分", "Рекомендуемая оценка" },
+    { "非凡评分", "Оценка Потустороннего" },
+    { "塞巴斯蒂安", "Себастьян" },
+    { "寒巴斯蒂安", "Себастьян" },
+    { "男子：", "Мужчина: " },
+    { "丑人：", "Уродливый: " },
+    { "“愚者”：", "«Шут»: " },
+    { "愚者", "Шут" },
+    { "（癫狂）", "(В безумии) " },
+    { "万物的“母亲”", "«Мать» всего сущего" },
+    { "赐予我们新生", "даруй нам новую жизнь" },
+    { "拿上这个", "Возьми это" },
+    { "有效期十四年？为什么要签这么久的合同……", "Срок действия четырнадцать лет? Зачем подписывать контракт на такой долгий срок..." },
     {
         "感知灵界，观测星空，通过灵性物品启示的命运变化，解读其映射的现实空间异动、事态发展走向与潜在未知危险。",
-        "Sense the spirit world and observe the stars. Interpret the changes in fate revealed by spiritual items to discern the real-world disturbances they reflect, how events may unfold, and potential unknown dangers.",
+        "Ощущайте духовный мир, наблюдайте за звездами. Толкуйте изменения судьбы, открываемые духовными предметами, чтобы распознавать отраженные ими возмущения в реальном мире, развитие событий и скрытые неведомые опасности.",
     },
     {
         "占星启示期间，周围的玩家可以获得临时技能来获取占星指引。",
-        "During Astrological Revelation, nearby players can gain a temporary skill to receive astrological guidance.",
+        "Во время Астрологического откровения окружающие игроки могут получить временный навык для получения астрологических указаний.",
     },
     {
         "使自身获得武力加4，直觉加2。使用临时技能获取占星指引的玩家也可以获得武力加4，直觉加2。",
-        "Gain +4 Might and +2 Intuition. Players who use the temporary skill to receive astrological guidance also gain +4 Might and +2 Intuition.",
+        "Дает персонажу +4 к Силе и +2 к Интуиции. Игроки, использующие временный навык для получения астрологических указаний, также получают +4 к Силе и +2 к Интуиции.",
     },
 }
 
@@ -1644,7 +1659,7 @@ local function translateVisibleText(value)
     local voiceChatCount = value:match("^<GreenVoice>(%d+)</>人连麦中%.%.%.$")
         or value:match("^<GreenVoice>(%d+)</>人连麦中……$")
     if voiceChatCount ~= nil then
-        local result = "<GreenVoice>" .. voiceChatCount .. "</> people in voice chat..."
+        local result = "<GreenVoice>" .. voiceChatCount .. "</> чел. в голосовом чате..."
         visibleTextCache[value] = result
         return result
     end
@@ -1652,7 +1667,7 @@ local function translateVisibleText(value)
     local obtainableQuantity = value:match("^可获得数量：(%d+)$")
         or value:match("^可获得数量:(%d+)$")
     if obtainableQuantity ~= nil then
-        local result = "Obtainable Quantity: " .. obtainableQuantity
+        local result = "Доступное количество: " .. obtainableQuantity
         visibleTextCache[value] = result
         return result
     end
@@ -1662,11 +1677,11 @@ local function translateVisibleText(value)
             .. "角色物理格挡：(<Mark>.-</>)%s*角色魔法格挡：(<Mark>.-</>)$"
     )
     if physicalBlock ~= nil then
-        local result = "Increases the chance to block physical or magical damage. "
-            .. "After blocking, the character takes only 30% damage, and the blocked hit "
-            .. "cannot critically strike (Block Rate cannot exceed 75%).\n\n"
-            .. "Physical Block: " .. physicalBlock .. "\n"
-            .. "Magical Block: " .. magicalBlock
+        local result = "Повышает шанс персонажа заблокировать физический или магический урон. "
+            .. "После блокирования персонаж получает только 30% урона, и этот удар "
+            .. "не может быть критическим (шанс блока не превышает 75%).\n\n"
+            .. "Физ. блок: " .. physicalBlock .. "\n"
+            .. "Маг. блок: " .. magicalBlock
         visibleTextCache[value] = result
         return result
     end
@@ -1675,7 +1690,7 @@ local function translateVisibleText(value)
         "^今日剩余共享开启次数：<Remaining>(%d+)/(%d+)次</>$"
     )
     if sharedOpenCurrent ~= nil then
-        local result = "Shared Openings Remaining Today: <Remaining>"
+        local result = "Осталось общих открытий на сегодня: <Remaining>"
             .. sharedOpenCurrent .. "/" .. sharedOpenMaximum .. "</>"
         visibleTextCache[value] = result
         return result
@@ -1683,22 +1698,22 @@ local function translateVisibleText(value)
 
     local newMessageCount = value:match("^新消息(%d+)条$")
     if newMessageCount ~= nil then
-        local result = newMessageCount .. " new messages"
+        local result = newMessageCount .. " новых сообщений"
         visibleTextCache[value] = result
         return result
     end
 
     local aggregateCount = value:match("^本次一键聚合累计聚合(%d+)次，共消耗$")
     if aggregateCount ~= nil then
-        local result = "This one-click aggregation performed " .. aggregateCount
-            .. " merges in total, consuming"
+        local result = "При этом быстром объединении выполнено " .. aggregateCount
+            .. " слияний, потрачено:"
         visibleTextCache[value] = result
         return result
     end
 
     local probabilityRate = value:match("^概率(<Rate>.-</>)$")
     if probabilityRate ~= nil then
-        local result = "Probability " .. probabilityRate
+        local result = "Вероятность " .. probabilityRate
         visibleTextCache[value] = result
         return result
     end
@@ -1706,7 +1721,7 @@ local function translateVisibleText(value)
     local fashionValue = value:match("^风尚值：(%d+)$")
         or value:match("^风尚值:(%d+)$")
     if fashionValue ~= nil then
-        local result = "Fashion Value: " .. fashionValue
+        local result = "Очки стиля: " .. fashionValue
         visibleTextCache[value] = result
         return result
     end
@@ -1720,35 +1735,35 @@ local function translateVisibleText(value)
 
     local shieldCurrent, shieldMaximum = value:match("^米尔贡根之盾%((%d+)/(%d+)%)$")
     if shieldCurrent ~= nil then
-        local result = "Milgongen's Shield (" .. shieldCurrent .. "/" .. shieldMaximum .. ")"
+        local result = "Щит Мильгонгена (" .. shieldCurrent .. "/" .. shieldMaximum .. ")"
         visibleTextCache[value] = result
         return result
     end
 
     local mergeCurrent, mergeMaximum = value:match("^选择需要聚合的非凡物质(%d+)/(%d+)$")
     if mergeCurrent ~= nil then
-        local result = "Select Beyonder Materials to Merge " .. mergeCurrent .. "/" .. mergeMaximum
+        local result = "Выберите материалы Потусторонних для слияния " .. mergeCurrent .. "/" .. mergeMaximum
         visibleTextCache[value] = result
         return result
     end
 
     local distributionTime = value:match("^分配中(<Time>.-</>)$")
     if distributionTime ~= nil then
-        local result = "Distributing " .. distributionTime
+        local result = "Распределение " .. distributionTime
         visibleTextCache[value] = result
         return result
     end
 
     local recollectionLevel = value:match("^回想(%d+)级$")
     if recollectionLevel ~= nil then
-        local result = "Recollection Lv. " .. recollectionLevel
+        local result = "Воспоминание ур. " .. recollectionLevel
         visibleTextCache[value] = result
         return result
     end
 
     local awakeningLevel = value:match("^觉醒等级Lv(%d+)$")
     if awakeningLevel ~= nil then
-        local result = "Awakening Lv. " .. awakeningLevel
+        local result = "Уровень пробуждения Lv. " .. awakeningLevel
         visibleTextCache[value] = result
         return result
     end
@@ -1757,22 +1772,22 @@ local function translateVisibleText(value)
         "^解冻剩余时间：(%d+)天(%d+)小时(%d+)分$"
     )
     if unlockDays ~= nil then
-        local result = "Time until unlocked: " .. unlockDays .. "d "
-            .. unlockHours .. "h " .. unlockMinutes .. "m"
+        local result = "До разморозки: " .. unlockDays .. " д. "
+            .. unlockHours .. " ч. " .. unlockMinutes .. " мин."
         visibleTextCache[value] = result
         return result
     end
 
     local dailyRefreshHour = value:match("^每日(%d+)点自动刷新$")
     if dailyRefreshHour ~= nil then
-        local result = "Refreshes daily at " .. dailyRefreshHour .. ":00"
+        local result = "Ежедневное обновление в " .. dailyRefreshHour .. ":00"
         visibleTextCache[value] = result
         return result
     end
 
     local noticeHours, noticeMinutes = value:match("^公示期(%d+)小时(%d+)分$")
     if noticeHours ~= nil then
-        local result = "Listing period: " .. noticeHours .. "h " .. noticeMinutes .. "m"
+        local result = "Срок показа: " .. noticeHours .. " ч. " .. noticeMinutes .. " мин."
         visibleTextCache[value] = result
         return result
     end
@@ -1781,22 +1796,22 @@ local function translateVisibleText(value)
         "^公示期倒计时：(%d+)小时(%d+)分钟$"
     )
     if countdownHours ~= nil then
-        local result = "Listing period remaining: " .. countdownHours
-            .. "h " .. countdownMinutes .. "m"
+        local result = "До окончания показа: " .. countdownHours
+            .. " ч. " .. countdownMinutes .. " мин."
         visibleTextCache[value] = result
         return result
     end
 
     local historyPoints = value:match("^达成奖励：获得历史研究积分%+(%d+)$")
     if historyPoints ~= nil then
-        local result = "Completion Reward: Historical Research Points +" .. historyPoints
+        local result = "Награда за выполнение: Очки исторических исследований +" .. historyPoints
         visibleTextCache[value] = result
         return result
     end
 
     local stackCount = value:match("^(%d+)层$")
     if stackCount ~= nil then
-        local result = "Stack " .. stackCount
+        local result = stackCount .. " ур."
         visibleTextCache[value] = result
         return result
     end
@@ -1805,19 +1820,19 @@ local function translateVisibleText(value)
         "^当前已选择%s*<Yellow>(%d+)</>/(%d+)$"
     )
     if selectedCount ~= nil then
-        local result = "Selected <Yellow>" .. selectedCount .. "</>/" .. selectedMaximum
+        local result = "Выбрано: <Yellow>" .. selectedCount .. "</>/" .. selectedMaximum
         visibleTextCache[value] = result
         return result
     end
 
     if value:find("【半神】", 1, true) == 1 and value:find("真神：序列0", 1, true) then
-        local result = "[Demigod]\n"
-            .. "Description: A collective term for Saints and Angels from Sequence 4 through Sequence 1. "
-            .. "Their life and spirit undergo a qualitative transformation, they gain 50% divinity, and their abilities transcend the human realm. "
-            .. "Demigods can continue advancing toward True Godhood. Demigods are further divided into Saints and Angels; Sequence 0, above Sequence 1, is known as a True God.\n"
-            .. "True God: Sequence 0, possessing a complete Mythical Creature form.\n"
-            .. "Location: Open Menu - Sequence to advance.\n"
-            .. "Related: Character Development - Improve"
+        local result = "【Полубог】\n"
+            .. "Описание: Общее обозначение для Святых и Ангелов с Последовательности 4 по Последовательность 1. "
+            .. "Их жизнь и дух претерпевают качественное перерождение, они обретают 50% божественности, а их способности выходят за пределы смертных. "
+            .. "Полубоги могут продолжить продвижение к Истинному Богу. Полубоги делятся на Святых и Ангелов; Последовательность 0, стоящая выше Последовательности 1, именуется Истинным Богом.\n"
+            .. "Истинный Бог: Последовательность 0, обладающая завершенной формой Мифического Существа.\n"
+            .. "Где найти: Меню -> Последовательность для продвижения.\n"
+            .. "Связано: Развитие персонажа -> Усиление"
         visibleTextCache[value] = result
         return result
     end
@@ -1826,10 +1841,10 @@ local function translateVisibleText(value)
         "^在目标位置召唤窥秘之眼链接目标，每([%d%.]+)秒对目标造成([%d%.]+)伤害并使目标减速([%d%.]+)%%。链接最多持续([%d%.]+)秒，目标远离窥秘之眼一定距离后链接会提前断开。$"
     )
     if interval ~= nil then
-        local result = "Summon an Eye of Mystery at the target location to link to the target, dealing "
-            .. damage .. " damage every " .. interval .. " seconds and slowing the target by "
-            .. slowPercent .. "%. The link lasts up to " .. duration
-            .. " seconds and breaks early if the target moves too far from the Eye of Mystery."
+        local result = "Призывает Око Тайны в указанной области, связывая его с целью, нанося "
+            .. damage .. " ед. урона каждые " .. interval .. " сек. и замедляя цель на "
+            .. slowPercent .. "%. Связь длится до " .. duration
+            .. " сек. и разрывается раньше, если цель отойдет слишком далеко от Ока Тайны."
         visibleTextCache[value] = result
         return result
     end
