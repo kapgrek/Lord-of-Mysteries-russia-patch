@@ -4,6 +4,8 @@
 *.log
 *.patch_backup*
 *~
+build/*.zip
+build/staging/
 
 # OS artifacts
 Thumbs.db

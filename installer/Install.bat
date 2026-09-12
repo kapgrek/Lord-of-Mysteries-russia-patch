@@ -1,15 +1,15 @@
 @echo off
 chcp 65001 >nul
-title Lord of the Mysteries - Русский патч (Установка)
-echo ============================================================
-echo   Lord of the Mysteries - Установка русского патча v2.6-RU
-echo ============================================================
-echo.
+cd /d "%~dp0"
+title Lord of the Mysteries - Russian Patch Installer
+
+if exist "Lord-of-Mysteries-Russian-Patch.exe" (
+    start "" "Lord-of-Mysteries-Russian-Patch.exe"
+    exit /b 0
+)
+if exist "..\Lord-of-Mysteries-Russian-Patch.exe" (
+    start "" "..\Lord-of-Mysteries-Russian-Patch.exe"
+    exit /b 0
+)
 
 powershell -NoProfile -ExecutionPolicy Bypass -File "%~dp0Lord-of-Mysteries-Russian-Patch.ps1"
-
-if %ERRORLEVEL% NEQ 0 (
-    echo.
-    echo Возникли ошибки при установке. Нажмите любую клавишу для выхода...
-    pause >nul
-)

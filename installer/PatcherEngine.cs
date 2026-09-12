@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using System.Web.Script.Serialization;
 
 public class PatcherEngine {
     public const int PAK_OFFSET = 427225161;
@@ -90,20 +92,16 @@ public class PatcherEngine {
         CopyDirectory(Path.Combine(payloadDir, "Binaries"), Path.Combine(gameDir, "Binaries"));
         CopyDirectory(Path.Combine(payloadDir, "Saved"), Path.Combine(gameDir, "Saved"));
 
-        Console.WriteLine("[4/4] Проверка запеченного текста и текстур UI (BakedText)...");
-        string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
-        string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
-        if (File.Exists(manifestPath) && File.Exists(blocksBinPath)) {
-            Console.WriteLine("  -> Манифест и бинарный склад блоков BakedText готовы к работе.");
-        }
+        Console.WriteLine("[4/4] Внедрение запеченного текста и текстур UI (BakedText)...");
+        PatchBakedText(gameDir, payloadDir);
 
         Console.WriteLine("\n============================================================");
         Console.WriteLine(" УСТАНОВКА УСПЕШНО ЗАВЕРШЕНА! Игра переведена на русский. ");
-        Console.WriteLine("============================================================");
+        Console.WriteLine("============================================================\n");
     }
 
     public static void Uninstall(string gameDir) {
-        Console.WriteLine("[1/3] Восстановление оригинального блока pakchunk0...");
+        Console.WriteLine("[1/4] Восстановление оригинального блока pakchunk0...");
         string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
         string backupFile = Path.Combine(gameDir, "Saved", "Mods", "Backup", "LaunchInstance.original.block");
 
@@ -116,14 +114,21 @@ public class PatcherEngine {
             Console.WriteLine("  -> Оригинальный стартовый блок успешно восстановлен.");
         }
 
-        Console.WriteLine("[2/3] Удаление моста CPDDTranslation.lua...");
+        Console.WriteLine("[2/4] Удаление моста CPDDTranslation.lua...");
         string bridgeLua = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
         if (File.Exists(bridgeLua)) {
             File.Delete(bridgeLua);
             Console.WriteLine("  -> Мост удален.");
         }
 
-        Console.WriteLine("[3/3] Очистка папки модов Saved/Mods...");
+        Console.WriteLine("[3/4] Восстановление запеченного текста и текстур UI (BakedText)...");
+        string payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "patch_payload");
+        if (!Directory.Exists(payloadDir)) {
+            payloadDir = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "patch_payload");
+        }
+        RestoreBakedText(gameDir, payloadDir);
+
+        Console.WriteLine("[4/4] Очистка папки модов Saved/Mods...");
         string modsDir = Path.Combine(gameDir, "Saved", "Mods");
         if (Directory.Exists(modsDir)) {
             try {
@@ -155,5 +160,146 @@ public class PatcherEngine {
             for (int i = 0; i < hash.Length; i++) sb.Append(hash[i].ToString("x2"));
             return sb.ToString();
         }
+    }
+
+    private static void PatchBakedText(string gameDir, string payloadDir) {
+        string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
+        string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
+        if (!File.Exists(manifestPath) || !File.Exists(blocksBinPath)) {
+            Console.WriteLine("  -> Файлы BakedText не найдены, пропуск.");
+            return;
+        }
+
+        Console.WriteLine("  -> Чтение манифеста BakedText...");
+        JavaScriptSerializer serializer = new JavaScriptSerializer();
+        serializer.MaxJsonLength = int.MaxValue;
+        ManifestData manifest = serializer.Deserialize<ManifestData>(File.ReadAllText(manifestPath, Encoding.UTF8));
+
+        Dictionary<string, List<BlockEntry>> byContainer = new Dictionary<string, List<BlockEntry>>();
+        foreach (BlockEntry b in manifest.blocks) {
+            if (!byContainer.ContainsKey(b.container)) {
+                byContainer[b.container] = new List<BlockEntry>();
+            }
+            byContainer[b.container].Add(b);
+        }
+
+        int totalPatched = 0;
+        int totalAlready = 0;
+        int totalErrors = 0;
+
+        using (FileStream binStream = new FileStream(blocksBinPath, FileMode.Open, FileAccess.Read, FileShare.Read)) {
+            foreach (var kvp in byContainer) {
+                string cPath = Path.Combine(gameDir, kvp.Key);
+                if (!File.Exists(cPath)) {
+                    continue;
+                }
+
+                using (FileStream cStream = new FileStream(cPath, FileMode.Open, FileAccess.ReadWrite, FileShare.Read)) {
+                    foreach (BlockEntry b in kvp.Value) {
+                        byte[] current = new byte[b.size];
+                        cStream.Position = b.offset;
+                        cStream.Read(current, 0, b.size);
+                        string currentHash = ComputeSha256(current);
+
+                        if (currentHash.Equals(b.replacement_sha256, StringComparison.OrdinalIgnoreCase)) {
+                            totalAlready++;
+                            continue;
+                        }
+
+                        if (!currentHash.Equals(b.original_sha256, StringComparison.OrdinalIgnoreCase)) {
+                            totalErrors++;
+                            continue;
+                        }
+
+                        byte[] repl = new byte[b.size];
+                        binStream.Position = b.replacement_offset;
+                        binStream.Read(repl, 0, b.size);
+
+                        cStream.Position = b.offset;
+                        cStream.Write(repl, 0, b.size);
+                        totalPatched++;
+                    }
+                }
+            }
+        }
+
+        Console.WriteLine("  -> BakedText: пропатчено {0} блоков, уже было пропатчено {1}, ошибок {2}.", totalPatched, totalAlready, totalErrors);
+    }
+
+    private static void RestoreBakedText(string gameDir, string payloadDir) {
+        string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
+        string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
+        if (!File.Exists(manifestPath) || !File.Exists(blocksBinPath)) {
+            return;
+        }
+
+        Console.WriteLine("  -> Чтение манифеста BakedText для отката...");
+        JavaScriptSerializer serializer = new JavaScriptSerializer();
+        serializer.MaxJsonLength = int.MaxValue;
+        ManifestData manifest = serializer.Deserialize<ManifestData>(File.ReadAllText(manifestPath, Encoding.UTF8));
+
+        Dictionary<string, List<BlockEntry>> byContainer = new Dictionary<string, List<BlockEntry>>();
+        foreach (BlockEntry b in manifest.blocks) {
+            if (!byContainer.ContainsKey(b.container)) {
+                byContainer[b.container] = new List<BlockEntry>();
+            }
+            byContainer[b.container].Add(b);
+        }
+
+        int totalRestored = 0;
+        int totalAlready = 0;
+        int totalErrors = 0;
+
+        using (FileStream binStream = new FileStream(blocksBinPath, FileMode.Open, FileAccess.Read, FileShare.Read)) {
+            foreach (var kvp in byContainer) {
+                string cPath = Path.Combine(gameDir, kvp.Key);
+                if (!File.Exists(cPath)) {
+                    continue;
+                }
+
+                using (FileStream cStream = new FileStream(cPath, FileMode.Open, FileAccess.ReadWrite, FileShare.Read)) {
+                    foreach (BlockEntry b in kvp.Value) {
+                        byte[] current = new byte[b.size];
+                        cStream.Position = b.offset;
+                        cStream.Read(current, 0, b.size);
+                        string currentHash = ComputeSha256(current);
+
+                        if (currentHash.Equals(b.original_sha256, StringComparison.OrdinalIgnoreCase)) {
+                            totalAlready++;
+                            continue;
+                        }
+
+                        if (!currentHash.Equals(b.replacement_sha256, StringComparison.OrdinalIgnoreCase)) {
+                            totalErrors++;
+                            continue;
+                        }
+
+                        byte[] orig = new byte[b.size];
+                        binStream.Position = b.original_offset;
+                        binStream.Read(orig, 0, b.size);
+
+                        cStream.Position = b.offset;
+                        cStream.Write(orig, 0, b.size);
+                        totalRestored++;
+                    }
+                }
+            }
+        }
+
+        Console.WriteLine("  -> BakedText: восстановлено {0} блоков, уже было оригиналом {1}, ошибок {2}.", totalRestored, totalAlready, totalErrors);
+    }
+
+    public class ManifestData {
+        public List<BlockEntry> blocks { get; set; }
+    }
+
+    public class BlockEntry {
+        public string container { get; set; }
+        public long offset { get; set; }
+        public int size { get; set; }
+        public long original_offset { get; set; }
+        public long replacement_offset { get; set; }
+        public string original_sha256 { get; set; }
+        public string replacement_sha256 { get; set; }
     }
 }
