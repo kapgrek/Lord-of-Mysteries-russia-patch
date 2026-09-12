@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.76"
+local VERSION = "0.9.77"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1957,10 +1957,11 @@ local function translateTextWidget(widget, discoveryContext)
             local wName = widgetName or ""
 
             local isBodyName = wName:find("Desc") or wName:find("Content") or wName:find("Detail")
-                or wName:find("Tips") or wName:find("Message") or wName:find("Server") or wName:find("Info")
-                or (type(textToCheck) == "string" and #textToCheck > 25)
+                or wName:find("Tips") or wName:find("Message") or wName:find("Info")
+                or (type(textToCheck) == "string" and #textToCheck > 40)
             local isTitleName = wName:find("Title") or wName:find("Btn") or wName:find("Tab")
                 or wName:find("Header") or wName:find("Name") or wName:find("Sub") or wName:find("Choice")
+                or wName:find("Server")
 
             if isBodyName and not isTitleName and font.FontObject ~= nil then
                 if runtimeFixes.StandardFontObject == nil then
@@ -1977,6 +1978,24 @@ local function translateTextWidget(widget, discoveryContext)
             end
 
             font.LetterSpacing = 0
+
+            local baseSize = tonumber(font.Size) or 18
+            if hasCyrillic and (isTitleName or baseSize >= 15) then
+                local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
+                if textLen > 14 and baseSize > 12 then
+                    font.Size = 12
+                elseif textLen > 10 and baseSize > 13 then
+                    font.Size = 13
+                elseif textLen > 6 and baseSize > 14 then
+                    font.Size = 14
+                end
+                if widget.SetAutoWrapText ~= nil then
+                    widget:SetAutoWrapText(false)
+                elseif widget.AutoWrapText ~= nil then
+                    widget.AutoWrapText = false
+                end
+            end
+
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end
@@ -2119,7 +2138,7 @@ local function translateViewTextWidgets(view, userWidget, discoveryContext, comp
 
     if runtimeFixes.StandardFontObject == nil then
         pcall(function()
-            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info", "Text_ServerName", "Server_Name_Text" }
+            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info" }
             for _, sName in ipairs(seedNames) do
                 local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
                 if w ~= nil then
@@ -6471,10 +6490,6 @@ local function promoteCreatorChoiceLabel(container, firstName, secondName, promo
         end
     end)
     if font ~= nil then
-        if runtimeFixes.StandardFontObject == nil and font.FontObject ~= nil then
-            runtimeFixes.StandardFontObject = font.FontObject
-            runtimeFixes.StandardTypefaceFontName = font.TypefaceFontName
-        end
         pcall(function() promoted.Font = font end)
         pcall(function()
             if promoted.SetFont ~= nil then promoted:SetFont(font) end
@@ -6810,27 +6825,54 @@ local exactWidgetRepairSpecs = {
         "LoginServerItem",
         { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
         function(self)
-            local view = self and self.view
-            local serverWidget = getNamedWidget(view, "Server_Name_Text") or getNamedWidget(view, "Server_Name_Text1")
-            if serverWidget ~= nil and runtimeFixes.StandardFontObject == nil then
-                local f = serverWidget.GetFont and serverWidget:GetFont() or serverWidget.Font
-                if f ~= nil and f.FontObject ~= nil then
-                    runtimeFixes.StandardFontObject = f.FontObject
-                    runtimeFixes.StandardTypefaceFontName = f.TypefaceFontName
-                end
+            local view = self and (self.view or self.WidgetTree or self.userWidget or self)
+            local function adaptServerWidget(w)
+                if w == nil then return end
+                translateTextWidget(w)
+                pcall(function()
+                    if w.SetLetterSpacing ~= nil then w:SetLetterSpacing(0) end
+                    if w.LetterSpacing ~= nil then w.LetterSpacing = 0 end
+                    local font = w.GetFont and w:GetFont() or w.Font
+                    if font ~= nil then
+                        font.LetterSpacing = 0
+                        local text = nil
+                        if w.GetText ~= nil then text = w:GetText() end
+                        if (text == nil or text == "") and w.Text ~= nil then text = w.Text end
+                        local textLen = (type(text) == "string") and runtimeFixes.utf8Len(text) or 0
+                        local baseSize = tonumber(font.Size) or 18
+                        if textLen > 14 then
+                            font.Size = math.min(baseSize, 12)
+                        elseif textLen > 10 then
+                            font.Size = math.min(baseSize, 13)
+                        elseif textLen > 6 then
+                            font.Size = math.min(baseSize, 14)
+                        else
+                            font.Size = math.min(baseSize, 15)
+                        end
+                        w.Font = font
+                        if w.SetFont ~= nil then w:SetFont(font) end
+                    end
+                    if w.SetAutoWrapText ~= nil then
+                        w:SetAutoWrapText(false)
+                    elseif w.AutoWrapText ~= nil then
+                        w.AutoWrapText = false
+                    end
+                    if w.SynchronizeProperties ~= nil then w:SynchronizeProperties() end
+                    if w.InvalidateLayoutAndVolatility ~= nil then w:InvalidateLayoutAndVolatility() end
+                end)
             end
-            translateTextWidget(getNamedWidget(view, "Server_Name_Text"))
-            translateTextWidget(getNamedWidget(view, "Server_Name_Text1"))
+            adaptServerWidget(getNamedWidget(view, "Server_Name_Text") or (self and getNamedWidget(self, "Server_Name_Text")))
+            adaptServerWidget(getNamedWidget(view, "Server_Name_Text1") or (self and getNamedWidget(self, "Server_Name_Text1")))
         end,
         true,
     },
     {
         "Gameplay.LogicSystem.Login.LoginServerSelect_Panel",
         "LoginServerSelect_Panel",
-        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI" },
+        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI", "OnInit" },
         function(self)
-            local view = self and self.view
-            local root = self and (self.userWidget or self.widget)
+            local view = self and (self.view or self.WidgetTree or self.userWidget or self)
+            local root = self and (self.userWidget or self.widget or self.WidgetTree)
             translateViewTextWidgets(view, root)
         end,
         true,
@@ -7812,6 +7854,7 @@ local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
     FashionStation_Details_Panel = true,
     GuildInside_Panel = true,
+    LoginServerSelect_Panel = true,
     NewbieGuide_MainPanel = true,
     Sealed_Fuse_Main_Panel = true,
     Sealed_Fuse_Select_Panel = true,
@@ -7823,6 +7866,7 @@ local dynamicPanelRescanUids = {
 local extendedPanelRepairDelays = {
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
+    LoginServerSelect_Panel = { 0.15, 0.50, 1.00 },
     NewbieGuide_MainPanel = { 0.25, 0.75, 1.50, 3.00 },
     Sealed_Fuse_Main_Panel = { 0.25, 0.75, 1.50, 3.00, 6.00, 10.00, 20.00 },
     Sealed_Fuse_Select_Panel = { 0.25, 0.75, 1.50 },
