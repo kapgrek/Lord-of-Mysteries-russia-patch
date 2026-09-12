@@ -4521,12 +4521,14 @@
     "id": "010753",
     "source_cn": "<P_Heart>（吹了声口哨）</> 都便宜了山姆这个小子！",
     "ref_en": "<P_Heart> (Whistles) </> It all went to that kid Sam!",
-    "target_ru": "<P_Heart>(Присвистнув)</> И все досталось этому паршивцу Сэму!010753,
+    "target_ru": "<P_Heart>(Присвистнув)</> И все досталось этому паршивцу Сэму!"
+  },
   {
     "id": "010754",
     "source_cn": "<P_Heart>（喃喃自语）</>弟弟，这是弟弟的礼物。有了脚踏车，就能送更多的报纸，我也可以下班去酒馆再打一份工……",
     "ref_en": "<P_Heart>(Muttering to himself)</> Brother, this is my brother's gift. With a bicycle, I can deliver more newspapers, and I can also go to the tavern to work another job after getting off work...",
-    "target_ru": "<P_Heart>(Бормочет про себя)</> Братец, это подарок от брата. С велосипедом я смогу развозить больше газет, а после смены еще и подрабатывать в таверне...010754,
+    "target_ru": "<P_Heart>(Бормочет про себя)</> Братец, это подарок от брата. С велосипедом я смогу развозить больше газет, а после смены еще и подрабатывать в таверне..."
+  },
   {
     "id": "010755",
     "source_cn": "<P_Heart>（尾巴竖起炸开）</>咕噜咕噜！",
@@ -5089,7 +5091,8 @@
     "id": "010848",
     "source_cn": "神恩降临！{{player.name}}在重塑{{equip.name}}时获得恩赐<Chat_Highlight>{{equip_word.name}}</>，令灵界产生了一丝波动！",
     "ref_en": "Divine grace has descended! {{player.name}} has received the blessing <Chat_Highlight>{{equip_word.name}}</> while reshaping {{equip.name}}, causing a ripple in the Spirit World!",
-    "target_ru": "Божественная благодать снизошла! {{player.name}} при перековке {{equip.name}} получает благословение <Chat_Highlight>{{equip_word.name}}</>, вызвавшее колебание в Мире Духов!010848,
+    "target_ru": "Божественная благодать снизошла! {{player.name}} при перековке {{equip.name}} получает благословение <Chat_Highlight>{{equip_word.name}}</>, вызвавшее колебание в Мире Духов!"
+  },
   {
     "id": "010849",
     "source_cn": "神秘石柱",
@@ -5340,7 +5343,8 @@
     "id": "010890",
     "source_cn": "<P_Heart>（平静地看着玩家）</>你说完了吗？",
     "ref_en": "<P_Heart>(Looking at the player calmly)</> Are you finished?",
-    "target_ru": "<P_Heart>(Спокойно смотрит на игрока)</> Ты закончил?010890,
+    "target_ru": "<P_Heart>(Спокойно смотрит на игрока)</> Ты закончил?"
+  },
   {
     "id": "010891",
     "source_cn": "Asider-近景",
@@ -6047,7 +6051,8 @@
     "id": "011008",
     "source_cn": "长期与灵界相通的古井水，带有未知风险。",
     "ref_en": "Ancient well water that has been connected to the Spirit World for a long time, carrying unknown risks.",
-    "target_ru": "Вода из древнего колодца, долгое время сообщавшегося с Миром Духов, таит неведомую опасность.011008,
+    "target_ru": "Вода из древнего колодца, долгое время сообщавшегося с Миром Духов, таит неведомую опасность."
+  },
   {
     "id": "011009",
     "source_cn": "闪袭天赋的学徒推荐携带星云咏叹、戏法演绎、放逐、空间牢笼进行战斗。",
@@ -6148,7 +6153,8 @@
     "id": "011025",
     "source_cn": "<P_Heart>（呼喊）</> 阿尔伯特！阿尔伯特？奇怪，他刚刚还在这里。",
     "ref_en": "<P_Heart> (Calling out) </> Albert! Albert? Strange, he was just here a moment ago.",
-    "target_ru": "<P_Heart>(Кричит)</> Альберт! Альберт? Странно, он только что был здесь.011025,
+    "target_ru": "<P_Heart>(Кричит)</> Альберт! Альберт? Странно, он только что был здесь."
+  },
   {
     "id": "011026",
     "source_cn": "<P_Heart>（气氛变得好凝重……）</>",
@@ -6957,12 +6963,14 @@
     "id": "011160",
     "source_cn": "<P_Heart>（小声）</>别这么不解风情，给他们点独处时间。",
     "ref_en": "<P_Heart>(Whispering)</> Don't be so dense; give them some time alone.",
-    "target_ru": "<P_Heart>(Шепотом)</> Не будь таким занудой, дай им побыть наедине.011160,
+    "target_ru": "<P_Heart>(Шепотом)</> Не будь таким занудой, дай им побыть наедине."
+  },
   {
     "id": "011161",
     "source_cn": "<P_Heart>（沉默）</>是的。但这或许是非凡者必须承受的代价，一个时刻对抗着危险和疯狂的可怜虫。",
     "ref_en": "<P_Heart> (Silence) </> Yes. But perhaps this is the price a Beyonder must pay, a poor wretch constantly fighting against danger and madness.",
-    "target_ru": "<P_Heart>(Молчит)</> Да. Но, возможно, это та цена, которую обязан платить Потусторонний — жалкий бедолага, ежесекундно борющийся с опасностью и безумием.011161,
+    "target_ru": "<P_Heart>(Молчит)</> Да. Но, возможно, это та цена, которую обязан платить Потусторонний — жалкий бедолага, ежесекундно борющийся с опасностью и безумием."
+  },
   {
     "id": "011162",
     "source_cn": "Cutscene编辑器Lua环境初始化失败",
@@ -9247,7 +9255,8 @@
     "id": "011542",
     "source_cn": "<P_Heart>（叹气）</>好吧好吧，现在我还要花钱去买遮雨布了。",
     "ref_en": "<P_Heart>(Sigh)</> Well, well, now I have to spend money to buy rain tarps.",
-    "target_ru": "<P_Heart>(Вздыхает)</> Ладно-ладно, теперь мне еще и брезент от дождя покупать придется.011542,
+    "target_ru": "<P_Heart>(Вздыхает)</> Ладно-ладно, теперь мне еще и брезент от дождя покупать придется."
+  },
   {
     "id": "011543",
     "source_cn": "<P_Heart>（吊牌上刻着一个名字“甜冰茶”）</>",
@@ -9450,7 +9459,8 @@
     "id": "011576",
     "source_cn": "失控射线激光",
     "ref_en": "Loss of Control Ray Laser",
-    "target_ru": "Лазерный луч Потери Контроля011576,
+    "target_ru": "Лазерный луч Потери Контроля"
+  },
   {
     "id": "011577",
     "source_cn": "奥黛丽·接任务",
@@ -10745,7 +10755,8 @@
     "id": "011792",
     "source_cn": "【预加载】怪物出现并失控",
     "ref_en": "[Preload] Monster appears and loses control",
-    "target_ru": "【Предзагрузка】Появление монстра и Потеря Контроля011792,
+    "target_ru": "【Предзагрузка】Появление монстра и Потеря Контроля"
+  },
   {
     "id": "011793",
     "source_cn": "【黑夜女神】对生命值低于25%的敌人造成伤害时，将其立即斩杀。",
@@ -15304,12 +15315,14 @@
     "id": "012552",
     "source_cn": "{{先生|女士}}, would you like to buy an umbrella?",
     "ref_en": "{{Sir|Madam}}, would you like to buy an umbrella?",
-    "target_ru": "{{Господин|госпожа}}, не желаете купить зонт?012552,
+    "target_ru": "{{Господин|госпожа}}, не желаете купить зонт?"
+  },
   {
     "id": "012553",
     "source_cn": "……情趣……海盗女王和贵族小姐……",
     "ref_en": "...Romantic interest... Pirate Queen and noble lady...",
-    "target_ru": "...Пикантно... королева пиратов и благородная леди...012553,
+    "target_ru": "...Пикантно... королева пиратов и благородная леди..."
+  },
   {
     "id": "012554",
     "source_cn": "　　所有真挚的付出，最终都会回到你身边。",
@@ -16022,7 +16035,8 @@
     "id": "012672",
     "source_cn": "{{先生|小姐}}! Master Monterey's \"The Count's Return\" is currently a hit at the Golden Sycamore Theater!",
     "ref_en": "{{Sir|Miss}}! Master Monterey's \"The Count's Return\" is currently a hit at the Golden Sycamore Theater!",
-    "target_ru": "{{Господин|госпожа}}! Пьеса маэстро Монтерея «Возвращение графа» сейчас с огромным успехом идет в театре «Золотой Утун»!012672,
+    "target_ru": "{{Господин|госпожа}}! Пьеса маэстро Монтерея «Возвращение графа» сейчас с огромным успехом идет в театре «Золотой Утун»!"
+  },
   {
     "id": "012673",
     "source_cn": "“当你老了，头发花白，睡意沉沉。”",
@@ -21157,7 +21171,8 @@
     "id": "013528",
     "source_cn": "温柔的封印物",
     "ref_en": "Gentle mystical item",
-    "target_ru": "Смирный Запечатанный Артефакт013528,
+    "target_ru": "Смирный Запечатанный Артефакт"
+  },
   {
     "id": "013529",
     "source_cn": "点击<Highlight>秩序世界</>按钮可查看世界中的游玩内容，提升完成度解锁探秘天赋。",
@@ -21690,7 +21705,8 @@
     "id": "013617",
     "source_cn": "失控值",
     "ref_en": "Loss of Control Value",
-    "target_ru": "Уровень Потери Контроля013617,
+    "target_ru": "Уровень Потери Контроля"
+  },
   {
     "id": "013618",
     "source_cn": "存在评分更高的非凡物质，是否确认选择？",
@@ -22187,7 +22203,8 @@
     "id": "013700",
     "source_cn": "    顺序\\r\\n必将失控",
     "ref_en": "    Sequence\\r\\nWill inevitably lead to loss of control",
-    "target_ru": "    Порядок\nНеминуемо приведет к Потере Контроля013700,
+    "target_ru": "    Порядок\nНеминуемо приведет к Потере Контроля"
+  },
   {
     "id": "013701",
     "source_cn": "%s 染色款",
@@ -23590,7 +23607,8 @@
     "id": "013934",
     "source_cn": "糟糕，真的失控——",
     "ref_en": "Oh no, I'm really losing control—",
-    "target_ru": "Плохо дело, настоящая Потеря Контроля...013934,
+    "target_ru": "Плохо дело, настоящая Потеря Контроля..."
+  },
   {
     "id": "013935",
     "source_cn": "组队模式参加副本<Highlight>五月庄园·城堡（普通）</>，完成阶段<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。",

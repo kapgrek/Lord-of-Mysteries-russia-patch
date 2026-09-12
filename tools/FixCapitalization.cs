@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 public class FixCapitalization {
     static readonly Regex ItemRegex = new Regex(
-        @"(\{\s*""id""\s*:\s*""(?<id>[^""]+)""\s*,\s*""source_cn""\s*:\s*""(?<cn>(?:\\.|[^""\\])*)""\s*,\s*""ref_en""\s*:\s*""(?<en>(?:\\.|[^""\\])*)""\s*,\s*""target_ru""\s*:\s*"")(?<ru>(?:\\.|[^""\\])*)(""\s*\})",
+        @"(?<prefix>\{\s*""id""\s*:\s*""(?<id>[^""]+)""\s*,\s*""source_cn""\s*:\s*""(?<cn>(?:\\.|[^""\\])*)""\s*,\s*""ref_en""\s*:\s*""(?<en>(?:\\.|[^""\\])*)""\s*,\s*""target_ru""\s*:\s*"")(?<ru>(?:\\.|[^""\\])*)(?<suffix>""\s*\})",
         RegexOptions.Compiled
     );
 
@@ -253,9 +253,9 @@ public class FixCapitalization {
 
             string newContent = ItemRegex.Replace(content, match => {
                 totalStrings++;
-                string prefix = match.Groups[1].Value;
+                string prefix = match.Groups["prefix"].Value;
                 string ru = match.Groups["ru"].Value;
-                string suffix = match.Groups[3].Value;
+                string suffix = match.Groups["suffix"].Value;
                 string en = match.Groups["en"].Value;
 
                 if (string.IsNullOrEmpty(ru)) return match.Value;
