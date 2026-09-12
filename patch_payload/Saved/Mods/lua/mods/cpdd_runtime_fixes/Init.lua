@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.75"
+local VERSION = "0.9.76"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1937,6 +1937,30 @@ local function translateTextWidget(widget, discoveryContext)
         if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
+            local textToCheck = translated or currentText or ""
+            local hasCyrillic = (type(textToCheck) == "string") and textToCheck:find("[\208-\209][\128-\191]") ~= nil
+            local wName = widgetName or ""
+
+            local isBodyName = wName:find("Desc") or wName:find("Content") or wName:find("Detail")
+                or wName:find("Tips") or wName:find("Message") or wName:find("Server") or wName:find("Info")
+                or (type(textToCheck) == "string" and #textToCheck > 25)
+            local isTitleName = wName:find("Title") or wName:find("Btn") or wName:find("Tab")
+                or wName:find("Header") or wName:find("Name") or wName:find("Sub") or wName:find("Choice")
+
+            if isBodyName and not isTitleName and font.FontObject ~= nil then
+                if runtimeFixes.StandardFontObject == nil then
+                    runtimeFixes.StandardFontObject = font.FontObject
+                    runtimeFixes.StandardTypefaceFontName = font.TypefaceFontName
+                end
+            end
+
+            if hasCyrillic and runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
+                font.FontObject = runtimeFixes.StandardFontObject
+                if runtimeFixes.StandardTypefaceFontName ~= nil then
+                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                end
+            end
+
             font.LetterSpacing = 0
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
@@ -2077,6 +2101,24 @@ runtimeFixes.VisibleWidgetNames = {
 local function translateViewTextWidgets(view, userWidget, discoveryContext, component, sharedVisited)
     local visited = sharedVisited or {}
     local repairedCount = 0
+
+    if runtimeFixes.StandardFontObject == nil then
+        pcall(function()
+            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info", "Text_ServerName", "Server_Name_Text" }
+            for _, sName in ipairs(seedNames) do
+                local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
+                if w ~= nil then
+                    local f = w.GetFont and w:GetFont() or w.Font
+                    if f ~= nil and f.FontObject ~= nil then
+                        runtimeFixes.StandardFontObject = f.FontObject
+                        runtimeFixes.StandardTypefaceFontName = f.TypefaceFontName
+                        break
+                    end
+                end
+            end
+        end)
+    end
+
     local function translateWidgetTree(owner)
         walkWidgetDescendants(owner, visited, function(widget)
             repairedCount = repairedCount + translateTextWidget(widget, discoveryContext)
@@ -6414,6 +6456,10 @@ local function promoteCreatorChoiceLabel(container, firstName, secondName, promo
         end
     end)
     if font ~= nil then
+        if runtimeFixes.StandardFontObject == nil and font.FontObject ~= nil then
+            runtimeFixes.StandardFontObject = font.FontObject
+            runtimeFixes.StandardTypefaceFontName = font.TypefaceFontName
+        end
         pcall(function() promoted.Font = font end)
         pcall(function()
             if promoted.SetFont ~= nil then promoted:SetFont(font) end
@@ -6750,6 +6796,14 @@ local exactWidgetRepairSpecs = {
         { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
         function(self)
             local view = self and self.view
+            local serverWidget = getNamedWidget(view, "Server_Name_Text") or getNamedWidget(view, "Server_Name_Text1")
+            if serverWidget ~= nil and runtimeFixes.StandardFontObject == nil then
+                local f = serverWidget.GetFont and serverWidget:GetFont() or serverWidget.Font
+                if f ~= nil and f.FontObject ~= nil then
+                    runtimeFixes.StandardFontObject = f.FontObject
+                    runtimeFixes.StandardTypefaceFontName = f.TypefaceFontName
+                end
+            end
             translateTextWidget(getNamedWidget(view, "Server_Name_Text"))
             translateTextWidget(getNamedWidget(view, "Server_Name_Text1"))
         end,
@@ -7619,6 +7673,12 @@ local function repairMenuBtnItem(self, params)
             font = widget.Font
         end
         if font ~= nil then
+            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
+                font.FontObject = runtimeFixes.StandardFontObject
+                if runtimeFixes.StandardTypefaceFontName ~= nil then
+                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                end
+            end
             font.LetterSpacing = 0
             local effectiveText = label
             if not effectiveText then
@@ -7736,6 +7796,7 @@ Loader.AfterLoad(
 local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
     FashionStation_Details_Panel = true,
+    GuildInside_Panel = true,
     NewbieGuide_MainPanel = true,
     Sealed_Fuse_Main_Panel = true,
     Sealed_Fuse_Select_Panel = true,
@@ -7746,6 +7807,7 @@ local dynamicPanelRescanUids = {
 
 local extendedPanelRepairDelays = {
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
+    GuildInside_Panel = { 0.25, 0.75 },
     NewbieGuide_MainPanel = { 0.25, 0.75, 1.50, 3.00 },
     Sealed_Fuse_Main_Panel = { 0.25, 0.75, 1.50, 3.00, 6.00, 10.00, 20.00 },
     Sealed_Fuse_Select_Panel = { 0.25, 0.75, 1.50 },
@@ -7758,7 +7820,6 @@ local extendedPanelRepairDelays = {
 -- revisiting 209-2162 widgets without changing a label. Their dynamic rows
 -- already have dedicated data/view hooks above.
 runtimeFixes.SinglePassPanelUids = {
-    GuildInside_Panel = true,
     Menu_Panel = true,
     Sealed_Equip_Panel = true,
     SequencePromotion_Panel = true,
