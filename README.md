@@ -18,6 +18,7 @@
   * `Saved/Mods/ExternalDpsMeter/` — Автономный счетчик урона (Combat Meter).
 * **`docs/`** — Полная документация проекта:
   * [`ARCHITECTURE.md`](./docs/ARCHITECTURE.md) — Исчерпывающий технический отчет об архитектуре внедрения и хуках Lua.
+  * [`DESIGN_NOTES.md`](./docs/DESIGN_NOTES.md) — Архитектурный бэклог, отложенные задачи и спецификации на будущее.
   * [`GLOSSARY.md`](./docs/GLOSSARY.md) — Каноничный глоссарий 22 Путей, Последовательностей, персонажей и фракций.
   * [`TRANSLATION_GUIDE.md`](./docs/TRANSLATION_GUIDE.md) — Инструкция для переводчиков по разметке, тегам и переменным.
   * [`AI_TRANSLATOR_PROMPT.md`](./docs/AI_TRANSLATOR_PROMPT.md) — Готовый оптимизированный системный промпт для ИИ-чатов.
