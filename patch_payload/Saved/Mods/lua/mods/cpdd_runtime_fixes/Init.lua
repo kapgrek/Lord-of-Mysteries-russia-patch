@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.73"
+local VERSION = "0.9.74"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -111,7 +111,7 @@ local aggregateOverrides = {
     [74905303409152] = "Исслед.",
     [466331174441472] = "Архив",
     [501378376016640] = "Стиль",
-    [514572247120128] = "Марионетки",
+    [514572247120128] = "Марион.",
     [527972545072640] = "Сюжет",
     [625210604657664] = "Связи",
     [712484608544768] = "Победы",
@@ -828,7 +828,7 @@ local shortMenuLabels = {
     Talent = "Таланты",
     Promotion = "Путь",
     Sealed = "Реликвии",
-    SecretPartner = "Марионетки",
+    SecretPartner = "Марион.",
     Fellow = "Союзники",
     Paotuan = "НРИ",
     Guild = "Клуб",
@@ -7606,12 +7606,10 @@ local function repairMenuBtnItem(self, params)
             end
             local textLen = (type(effectiveText) == "string") and runtimeFixes.utf8Len(effectiveText) or 0
             local baseSize = tonumber(font.Size) or 18
-            if textLen > 7 then
-                font.Size = math.min(baseSize, 13)
-            elseif textLen > 5 then
-                font.Size = math.min(baseSize, 14)
+            if textLen > 6 then
+                font.Size = math.min(baseSize, 12)
             else
-                font.Size = math.min(baseSize, 16)
+                font.Size = math.min(baseSize, 13)
             end
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
