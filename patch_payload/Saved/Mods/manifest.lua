@@ -2,6 +2,8 @@ return {
     Overrides = {},
     Load = {
         "mods.cpdd_runtime_fixes.Init",
+        "mods.cpdd_runtime_fixes.TextDiagnostics",
+        "mods.cpdd_runtime_fixes.TextureDumper",
         "mods.cpdd_runtime_fixes.EngineIniBridge",
         "mods.cpdd_runtime_fixes.ServerScheduleFix",
         "mods.cpdd_runtime_fixes.DpsMeter",

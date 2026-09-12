@@ -566,6 +566,46 @@ namespace LotmRussianPatcher
                     return Path.GetFullPath(c);
                 }
             }
+
+            // Поиск локального zip-архива с данными патча
+            string localZip = Path.Combine(baseDir, "lom-russian-patch-data.zip");
+            if (!File.Exists(localZip))
+            {
+                string[] zipCandidates = Directory.GetFiles(baseDir, "*russian-patch*.zip");
+                if (zipCandidates.Length > 0) localZip = zipCandidates[0];
+                else
+                {
+                    string buildZip = Path.Combine(baseDir, "build", "lom-russian-patch-data.zip");
+                    if (File.Exists(buildZip)) localZip = buildZip;
+                    else
+                    {
+                        string parentBuildZip = Path.Combine(baseDir, "..", "build", "lom-russian-patch-data.zip");
+                        if (File.Exists(parentBuildZip)) localZip = parentBuildZip;
+                    }
+                }
+            }
+
+            if (File.Exists(localZip))
+            {
+                try
+                {
+                    string extractDir = Path.Combine(Path.GetTempPath(), "lom_patch_payload_" + (new FileInfo(localZip).Length));
+                    if (Directory.Exists(extractDir) && Directory.Exists(Path.Combine(extractDir, "Saved")))
+                    {
+                        return extractDir;
+                    }
+
+                    if (Directory.Exists(extractDir)) Directory.Delete(extractDir, true);
+                    Directory.CreateDirectory(extractDir);
+                    ZipFile.ExtractToDirectory(localZip, extractDir);
+                    if (Directory.Exists(Path.Combine(extractDir, "Saved")))
+                    {
+                        return extractDir;
+                    }
+                }
+                catch { }
+            }
+
             return null;
         }
 
