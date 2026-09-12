@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.74"
+local VERSION = "0.9.75"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1852,6 +1852,22 @@ local function translateVisibleText(value)
     return result
 end
 
+runtimeFixes.collapseSpacedCharacters = function(text)
+    if type(text) ~= "string" or text == "" then return text end
+    local uchar = "([%z\1-\127\194-\244][\128-\191]*)"
+    if text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar)
+    then
+        local placeholder = "\31"
+        local preserved = text:gsub("(%S)%s%s+(%S)", "%1" .. placeholder .. "%2")
+        local collapsed = preserved:gsub("(%S)%s(%S)", "%1%2")
+        collapsed = collapsed:gsub("(%S)%s(%S)", "%1%2")
+        collapsed = collapsed:gsub(placeholder, " ")
+        return collapsed:match("^%s*(.-)%s*$") or text
+    end
+    return text
+end
+
 local function translateTextWidget(widget, discoveryContext)
     if widget == nil then
         return 0
@@ -1883,8 +1899,14 @@ local function translateTextWidget(widget, discoveryContext)
     pcall(function()
         widgetName = tostring(widget:GetName())
     end)
-    local translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, currentText)
-        or translateVisibleText(currentText)
+    local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
+    local translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, collapsedCurrent)
+        or translateVisibleText(collapsedCurrent)
+    if translated == collapsedCurrent and collapsedCurrent ~= currentText then
+        translated = collapsedCurrent
+    else
+        translated = runtimeFixes.collapseSpacedCharacters(translated)
+    end
 
     local repairedCount = 0
     if translated ~= currentText then
@@ -1911,26 +1933,16 @@ local function translateTextWidget(widget, discoveryContext)
         repairedCount = changed and 1 or 0
     end
     pcall(function()
-        local spacingReset = false
-        if widget.SetLetterSpacing ~= nil then
-            widget:SetLetterSpacing(0)
-            spacingReset = true
-        end
-        if widget.LetterSpacing ~= nil and widget.LetterSpacing ~= 0 then
-            widget.LetterSpacing = 0
-            spacingReset = true
-        end
+        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
+        if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
         local font = widget.GetFont and widget:GetFont() or widget.Font
-        if font ~= nil and (font.LetterSpacing or 0) ~= 0 then
+        if font ~= nil then
             font.LetterSpacing = 0
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
-            spacingReset = true
         end
-        if spacingReset then
-            if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
-            if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
-        end
+        if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
+        if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
     end)
     return repairedCount
 end
@@ -6735,7 +6747,7 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.Login.LoginServerItem",
         "LoginServerItem",
-        { "OnRefresh" },
+        { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
         function(self)
             local view = self and self.view
             translateTextWidget(getNamedWidget(view, "Server_Name_Text"))
@@ -6744,9 +6756,20 @@ local exactWidgetRepairSpecs = {
         true,
     },
     {
+        "Gameplay.LogicSystem.Login.LoginServerSelect_Panel",
+        "LoginServerSelect_Panel",
+        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI" },
+        function(self)
+            local view = self and self.view
+            local root = self and (self.userWidget or self.widget)
+            translateViewTextWidgets(view, root)
+        end,
+        true,
+    },
+    {
         "Gameplay.LogicSystem.Login.LoginPanel",
         "LoginPanel",
-        { "setServerInfoUI" },
+        { "setServerInfoUI", "OnRefresh", "Refresh", "InitUIView" },
         function(self)
             translateTextWidget(getNamedWidget(self and self.view, "Text_ServerName"))
         end,
