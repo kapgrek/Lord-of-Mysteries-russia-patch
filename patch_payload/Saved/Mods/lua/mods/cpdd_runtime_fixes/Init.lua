@@ -108,24 +108,24 @@ local aggregateOverrides = {
     [255431368780800] = "Magic Defense Break",
     -- Launch 1.1 Esc-menu compact labels. These are the confirmed four-row
     -- values from esc_menu_hotfix_v2 and must win over the external StringDB.
-    [74905303409152] = "Explore",
-    [466331174441472] = "Archive",
-    [501378376016640] = "Style",
-    [514572247120128] = "Puppets",
-    [527972545072640] = "Story",
-    [625210604657664] = "Contacts",
-    [712484608544768] = "Easy Wins",
-    [774126247610880] = "Gear",
-    [774126784481024] = "Artifacts",
-    [866415967995648] = "Warfront",
-    [866622663296512] = "Dark City",
-    [884214580905472] = "Advance",
-    [933074128867328] = "Arts",
-    [989630258218752] = "Talents",
-    [1020416583796224] = "Skip",
-    [1020416583796480] = "Review",
-    [936784443737600] = "Beyonder Rating",
-    [936990870604032] = "Reward Preview",
+    [74905303409152] = "Исслед.",
+    [466331174441472] = "Архив",
+    [501378376016640] = "Стиль",
+    [514572247120128] = "Марионетки",
+    [527972545072640] = "Сюжет",
+    [625210604657664] = "Связи",
+    [712484608544768] = "Победы",
+    [774126247610880] = "Снаряж.",
+    [774126784481024] = "Реликвии",
+    [866415967995648] = "Арена",
+    [866622663296512] = "Тень",
+    [884214580905472] = "Путь",
+    [933074128867328] = "Навыки",
+    [989630258218752] = "Таланты",
+    [1020416583796224] = "Пропуск",
+    [1020416583796480] = "Обзор",
+    [936784443737600] = "Оценка",
+    [936990870604032] = "Награды",
     [1271036247030528] = "Claimed",
     [620129389936640] = "Use",
     [1073124154021632] = "Auto-Dismantle Settings",
@@ -840,7 +840,7 @@ local shortMenuLabels = {
     Strategy = "Гайд",
     VideoCreation = "Творец",
     Friend = "Друзья",
-    ShadowCity = "Темный Город",
+    ShadowCity = "Тень",
     Character = "Профиль",
     HomePage = "Главная",
     Bag = "Сумка",
@@ -1713,7 +1713,7 @@ local function translateVisibleText(value)
 
     local ratingValue = value:match("^非凡评分%s*([%d].*)$")
     if ratingValue ~= nil then
-        local result = "Beyonder Rating " .. ratingValue
+        local result = "Оценка " .. ratingValue
         visibleTextCache[value] = result
         return result
     end
@@ -6771,14 +6771,14 @@ local exactWidgetRepairSpecs = {
                 or getNamedWidget(root, "C7TextBlock_100")
             if caption ~= nil then
                 -- This serialized C7TextBlock need not expose a readable GetText.
-                runtimeFixes.setNamedWidgetText({ caption = caption }, "caption", "Beyonder Rating")
+                runtimeFixes.setNamedWidgetText({ caption = caption }, "caption", "Оценка")
                 return
             end
             local function repairCaption(widget)
                 local name
                 pcall(function() name = tostring(widget:GetName()) end)
                 if name == "C7TextBlock_100" then
-                    runtimeFixes.setNamedWidgetText({ caption = widget }, "caption", "Beyonder Rating")
+                    runtimeFixes.setNamedWidgetText({ caption = widget }, "caption", "Оценка")
                 else
                     translateTextWidget(widget)
                 end
@@ -7528,11 +7528,22 @@ local function installShortMenuLabels(value, environment)
     end
 
     local originalRefresh = class.OnRefresh
-    class.OnRefresh = function(self, params)
-        local results = { originalRefresh(self, params) }
-        local menuId = self.MenuID
-        local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
-        local label = menuData and shortMenuLabels[menuData.ButtonEnum]
+    class.OnRefresh = function(self, params, ...)
+        local results = { originalRefresh(self, params, ...) }
+        local buttonEnum = self.ButtonEnum or self.buttonEnum
+            or (params and type(params) == "table" and (params.ButtonEnum or params.buttonEnum))
+            or (self.Data and (self.Data.ButtonEnum or self.Data.buttonEnum))
+            or (self.data and (self.data.ButtonEnum or self.data.buttonEnum))
+        if not buttonEnum then
+            local menuId = self.MenuID or self.menuId or self.MenuId or self.menuID
+                or (self.Data and (self.Data.MenuID or self.Data.menuId or self.Data.MenuId or self.Data.id or self.Data.Id))
+                or (self.data and (self.data.MenuID or self.data.menuId or self.data.MenuId or self.data.id or self.data.Id))
+                or (params and type(params) == "table" and (params.MenuID or params.menuId or params.MenuId or params.id or params.Id))
+                or (type(params) == "number" and params)
+            local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
+            buttonEnum = menuData and (menuData.ButtonEnum or menuData.buttonEnum)
+        end
+        local label = buttonEnum and shortMenuLabels[buttonEnum]
         if label and self.view then
             -- KGTextBlock can repaint its serialized long translation after
             -- OnRefresh. Persist the compact value in both the widget property
