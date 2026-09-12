@@ -227,7 +227,7 @@ return {
     ["Three 8s!"] = "3 восьмёрки!",
     ["Auto Chess Skill Effect - 85300544"] = "Эффект умения Auto Chess-85300544",
     ["They covered their mouths, holding their breath, waiting for <P_Yellow>someone</> to come looking?"] = "Они прикрыли рты и затаили дыхание, ожидая <P_Yellow>, кого </> искать?",
-    ["Within %.1f meters of self %s %s %s"] = "%s%s в пределах %.1f метров%s",
+    ["Within %.1f meters of self %s %s %s"] = "В радиусе %.1f м от себя %s%s %s",
     ["Atmosphere-Snowy night pursuit"] = "Атмосфера-Снежная ночная погоня",
     ["That is revenge!"] = "Это месть!",
     [" Name: "] = "Имя:",

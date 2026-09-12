@@ -12351,7 +12351,7 @@
     "id": "032058",
     "source_cn": "<Highlight_L>猎场捷报</>：我方猎手<HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</>已在<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[猎龙之城(%d,%d)]</>成功猎杀%s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>！敌方已经付出代价！<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【前往追击】</>",
     "ref_en": "<Highlight_L>Hunt Report</>: Our hunter <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> has successfully hunted %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> at <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[City of Dragon Hunting(%d,%d)]</>! The enemy has paid the price! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Go to Pursue】</>",
-    "target_ru": "<Highlight_L>Отчет об успехах на охотничьих угодьях</>: Наш охотник <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> успешно охотился на %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Город Охоты на Драконов (%d,%d)]</>! Враг заплатил цену! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Иди преследовать】</>"
+    "target_ru": "<Highlight_L>Отчет об успехах на охотничьих угодьях</>: Наш охотник <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Городе Охоты на Драконов (%d,%d)]</> успешно выследил и сразил %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>! Враг поплатился за это! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Отправиться в погоню】</>"
   },
   {
     "id": "032059",
@@ -24753,7 +24753,7 @@
     "id": "034125",
     "source_cn": "自身半径%.1f米内%s%s个敌方",
     "ref_en": "Within %.1f meters of self %s %s enemies",
-    "target_ru": "%s%s врагов в радиусе %.1f метров"
+    "target_ru": "В радиусе %.1f м от себя %s%s врагов"
   },
   {
     "id": "034126",

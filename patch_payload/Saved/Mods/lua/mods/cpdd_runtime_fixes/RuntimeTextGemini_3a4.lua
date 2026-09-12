@@ -80,7 +80,7 @@ return {
     ["Shh! Shh... keep it down, can you give it back to me first? The time I agreed with Ms. Fors is almost up..."] = "Тсс! Тсс... потише, можешь сначала вернуть мне это? Время, согласованное между мной и мисс Форс, скоро наступит...",
     ["Damage Reduction increased by 15%"] = "Снижение урона увеличено на 15%.",
     ["Slash of Glory"] = "Слава Слэш",
-    ["Within %.1f meters of self %s %s allies"] = "%s%s дружеские группы в радиусе %.1f метров от себя",
+    ["Within %.1f meters of self %s %s allies"] = "В радиусе %.1f м от себя %s%s союзников",
     ["Deep brown hair, large eyes, straight nose bridge"] = "Темно-каштановые волосы, большие глаза, прямой нос.",
     ["Spirituality is exhausted. Must wait for the green leaf gem to absorb spirituality!"] = "Духовность исчерпана, и мы должны дождаться, пока драгоценный камень зеленого листа поглотит духовность!",
     ["Quickly pick up the cake from the food cart!"] = "Быстро заберите торт из фургона с едой!",

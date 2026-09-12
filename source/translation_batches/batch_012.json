@@ -4083,7 +4083,7 @@
     "id": "055680",
     "source_cn": "<Highlight_L>宣战捷报</>：我方俱乐部成员<HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</>已在<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[霍纳奇斯山脉(%d,%d) 分线%s]</>成功击败<Reminder_Red>[%s]</>俱乐部的<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>并获得宣战积分%s分！点击前往追击！",
     "ref_en": "<Highlight_L> War Bulletin </>: Our club member <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> has successfully defeated <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> of the <Reminder_Red>[%s]</> club at <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Hornacis Mountain Range (%d, %d) Sub-channel %s]</> and gained %s war points! Click to pursue!",
-    "target_ru": "<Highlight_L> Успешное сообщение об объявлении войны</>: Члены нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> успешно победили <Reminder_Red>[%s]</> клуба <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> на <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\"> [ответвление гор Хонакис (%d, %d) %s]</> и получили %s очков за объявление войны! Нажмите, чтобы отправиться в погоню!"
+    "target_ru": "<Highlight_L>Вестник войны</>: Член нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Горный хребет Хорнакис (%d,%d), линия %s]</> успешно одолел игрока <Reminder_Red>[%s]</> клуба <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> и заработал %s очк. войны! Нажмите, чтобы начать погоню!"
   },
   {
     "id": "055681",

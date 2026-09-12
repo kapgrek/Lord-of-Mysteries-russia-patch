@@ -18921,7 +18921,7 @@
     "id": "063153",
     "source_cn": "<Highlight_L>猎场告急</>：我方猎手<HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</>在<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[猎龙之城(%d,%d)]</>惨遭%s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>猎杀！这是对我方猎手的公然挑衅！<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【前往驰援】</>",
     "ref_en": "<Highlight_L>Hunt Emergency</>: Our hunter <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> was tragically hunted by %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> at <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[City of Dragon Hunting(%d,%d)]</>! This is a blatant provocation against our hunters! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Go to Reinforce】</>",
-    "target_ru": "<Highlight_L>Чрезвычайная ситуация на охотничьем угодье</>: На нашего охотника <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> охотился %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Город Охоты на Драконов (%d,%d)]</>! Это явная провокация в адрес наших охотников! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Идти на помощь】</>"
+    "target_ru": "<Highlight_L>Охотничьи угодья в опасности</>: Наш охотник <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Городе Охоты на Драконов (%d,%d)]</> пал жертвой нападения %s<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>! Это открытая провокация против наших охотников! <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">【Прийти на помощь】</>"
   },
   {
     "id": "063154",

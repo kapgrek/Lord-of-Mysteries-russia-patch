@@ -233,7 +233,7 @@ return {
     ["Effect when player gains Gold Coins"] = "Специальные эффекты, когда игроки получают золотые монеты",
     ["Flower pot"] = "цветочный горшок",
     ["Little Viscount Protection"] = "маленькая приют для виконтов",
-    ["Currently in the impeachment process; the Chief position will transfer to %s in %d days, %d hours, and %d minutes."] = "В настоящее время в процессе импичмента шеф будет переведен в %s через %d дней%d часов%d минут.",
+    ["Currently in the impeachment process; the Chief position will transfer to %s in %d days, %d hours, and %d minutes."] = "В настоящее время идет процесс импичмента: через %d дн. %d ч. %d мин. статус Главного перейдет к %s",
     ["Gift · Winery"] = "Подарок·Винодельня",
     ["This gentleman... what are you doing?"] = "Сэр... что вы делаете?",
     ["Fluffy Dog Ears"] = "пушистые собачьи уши",

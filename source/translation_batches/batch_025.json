@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "120000",
     "source_cn": "同上\\n（是魔狼的特殊机制，要打开背包使用魔狼给的道具）",
@@ -21669,7 +21669,7 @@
     "id": "123611",
     "source_cn": "当前正处于弹劾流程中，%d天%d小时%d分后首席将转移给%s",
     "ref_en": "Currently in the impeachment process; the Chief position will transfer to %s in %d days, %d hours, and %d minutes.",
-    "target_ru": "В настоящее время в процессе импичмента шеф будет переведен в %s через %d дней%d часов%d минут."
+    "target_ru": "В настоящее время идет процесс импичмента: через %d дн. %d ч. %d мин. статус Главного перейдет к %s"
   },
   {
     "id": "123612",

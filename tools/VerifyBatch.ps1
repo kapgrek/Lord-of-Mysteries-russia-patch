@@ -75,14 +75,28 @@ foreach ($file in $files) {
         }
 
         # 2. Check format specifiers %s, %d, etc.
-        $refSpecs = $specRegex.Matches($refText) | ForEach-Object { $_.Value }
-        $ruSpecs = $specRegex.Matches($ru) | ForEach-Object { $_.Value }
+        $refSpecs = @($specRegex.Matches($refText) | Where-Object { $_.Value -ne '%%' } | ForEach-Object { $_.Value })
+        $ruSpecs = @($specRegex.Matches($ru) | Where-Object { $_.Value -ne '%%' } | ForEach-Object { $_.Value })
 
         if ($refSpecs.Count -ne $ruSpecs.Count) {
             Write-Host "  [ERR $fileName ID:$id] Format specifier count mismatch (ref: $($refSpecs.Count), ru: $($ruSpecs.Count))!" -ForegroundColor Red
             Write-Host "       Ref: $refText" -ForegroundColor Gray
             Write-Host "       RU:  $ru" -ForegroundColor Gray
             $fileErrors++
+        } else {
+            for ($sIdx = 0; $sIdx -lt $refSpecs.Count; $sIdx++) {
+                $refType = $refSpecs[$sIdx][-1]
+                $ruType = $ruSpecs[$sIdx][-1]
+                $isRefNum = $refType -match '[dfeEgGcxXiou]'
+                $isRuNum = $ruType -match '[dfeEgGcxXiou]'
+                if (($refType -eq 's' -and $isRuNum) -or ($isRefNum -and $ruType -eq 's')) {
+                    Write-Host "  [ERR $fileName ID:$id] Format specifier type mismatch at arg #$($sIdx + 1)! Expected '$($refSpecs[$sIdx])', found '$($ruSpecs[$sIdx])'. Swapped argument order causes Lua format crashes!" -ForegroundColor Red
+                    Write-Host "       Ref: $refText" -ForegroundColor Gray
+                    Write-Host "       RU:  $ru" -ForegroundColor Gray
+                    $fileErrors++
+                    break
+                }
+            }
         }
 
         # 3. Check puzzle tokens #CanMove_...#

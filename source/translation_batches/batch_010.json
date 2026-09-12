@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "045000",
     "source_cn": "途径转换",
@@ -26541,7 +26541,7 @@
     "id": "049423",
     "source_cn": "<Highlight_L>宣战告急</>：我方俱乐部成员<HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</>在<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[霍纳奇斯山脉(%d,%d) 分线%s]</>惨遭<Reminder_Red>[%s]</>俱乐部的<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>击败，这是对本俱乐部的公然挑衅！点击前往支援！",
     "ref_en": "<Highlight_L> War Emergency </>: Our club member <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> was defeated by <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> of the <Reminder_Red>[%s]</> club at <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Hornacis Mountain Range (%d, %d) Sub-channel %s]</>. This is an open provocation to our club! Click to provide support!",
-    "target_ru": "<Highlight_L> Объявление чрезвычайной ситуации </>: Члены нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> потерпели поражение от <Reminder_Red>[%s]</> клуба <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\"> [ответвление гор Хонакис (%d, %d) %s]</>. Это явная провокация в адрес нашего клуба! Нажмите, чтобы перейти в службу поддержки!"
+    "target_ru": "<Highlight_L>Тревога войны</>: Член нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> в <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Горный хребет Хорнакис (%d,%d), линия %s]</> потерпел поражение от игрока <Reminder_Red>[%s]</> клуба <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>! Это открытая провокация против нашего клуба! Нажмите, чтобы прийти на помощь!"
   },
   {
     "id": "049424",

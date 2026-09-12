@@ -258,7 +258,7 @@ return {
     ["Return to Board"] = "Вернуться к доске",
     ["Xinting"] = "Синьтин",
     ["A vase rumored to be able to restrain devils, yet it is empty inside at this moment."] = "Говорят, что вазу можно использовать для сдерживания дьявола, но на тот момент она была пуста.",
-    ["Burning like flame, enduring like stone, within the square inch of fingertips, the promise is eternal. %s gifted %s with %s×%d, engraving the vows of time, accompanying every dawn and dusk."] = "Горячее, как пламя, длинное, как камень, маленькое, как палец, обещание вечно. %s подарил %s×%d %s, на котором выгравирована клятва времени, сопровождающая каждое утро и вечер.",
+    ["Burning like flame, enduring like stone, within the square inch of fingertips, the promise is eternal. %s gifted %s with %s×%d, engraving the vows of time, accompanying every dawn and dusk."] = "Горячее, как пламя, нерушимое, как камень: на кончиках пальцев клятва звучит навек. %s дарит для %s подарок: %s × %d — клятва, выгравированная временем, будет хранить их каждое утро и вечер.",
     ["<h>Divinate if the surroundings are dangerous</>"] = "<h> Гадание, есть ли опасность вокруг </>",
     ["Achievement - Beyonder Trial"] = "Достижения - Необыкновенные испытания",
     ["In the Dawn"] = "в утреннем свете",

@@ -244,7 +244,7 @@ return {
     ["Mustard Octopus_2"] = "Васаби Осьминог_2",
     ["Return doll"] = "Верните марионеток.",
     ["5231199   Tingen in the Mirror   Solo Instance"] = "5231199 Тинген в зеркальной одинарной плоскости",
-    ["Are you sure you want to delist <Img tex2d=\"%s\"/>%d with the current exchange rate of %d Sol/Pound? \n You will not be able to delist other orders for 1 hour after delisting."] = "Вы уверены, что исключите из списка <Img tex2d=\"%s\"/>%d, текущий обменный курс которого составляет %d сулер/фунт золота? \n Никакие другие заказы нельзя будет разместить в течение 1 часа после его удаления.",
+    ["Are you sure you want to delist <Img tex2d=\"%s\"/>%d with the current exchange rate of %d Sol/Pound? \n You will not be able to delist other orders for 1 hour after delisting."] = "Вы уверены, что хотите снять лот по курсу %d сулей/золотой фунт на сумму <Img tex2d=\"%s\"/>%d?\nВ течение 1 часа после снятия нельзя будет отменять другие заказы.",
     ["I really need it! It's urgent!"] = "Я действительно этого хочу! Очень срочно!",
     ["The performance is about to start, please hurry up and change into the costume for the performance and go on stage."] = "Спектакль вот-вот начнется, пожалуйста, быстро надевайте костюмы и приходите.",
     ["Apprentice Trick Performance"] = "Ученик жонглирования",
