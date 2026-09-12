@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "000000",
     "source_cn": "%Y年%m月%d日 %H：%M",
@@ -831,20 +831,17 @@
     "id": "000138",
     "source_cn": "<P_Heart>（小声）</>给西里尔太太找的女仆不能太聪明，不然太难管束了。",
     "ref_en": "<P_Heart> (Whispering) </> The maid found for Mrs. Cyril can't be too smart, otherwise, she'll be too hard to manage.",
-    "target_ru": "<P_Heart>(тихо)</> Горничная для миссис Сирил не должна быть слишком сообразительной, иначе с ней будет не сладить."
-  },
+    "target_ru": "<P_Heart>(Тихо)</> Горничная для миссис Сирил не должна быть слишком сообразительной, иначе с ней будет не сладить.000138,
   {
     "id": "000139",
     "source_cn": "<P_Heart>（小声）</>血迹，消失了。",
     "ref_en": "<P_Heart> (Whispering) </> The bloodstains, they've disappeared.",
-    "target_ru": "<P_Heart>(тихо)</> Пятна крови... исчезли."
-  },
+    "target_ru": "<P_Heart>(Тихо)</> Пятна крови... исчезли.000139,
   {
     "id": "000140",
     "source_cn": "<P_Heart>（眼中泪光闪烁）</>谢谢你，哈基猿……你虽然长着獠牙和爪子，却比所有男人更像绅士。",
     "ref_en": "<P_Heart> (Tears shimmering in eyes) </> Thank you, Haki-ape... Although you have fangs and claws, you are more like a gentleman than any other man.",
-    "target_ru": "<P_Heart>(со слезами на глазах)</> Спасибо тебе, обезьяна Хаки... Пусть у тебя клыки и когти, но ты куда благороднее любого мужчины."
-  },
+    "target_ru": "<P_Heart>(Со слезами на глазах)</> Спасибо тебе, обезьяна Хаки... Пусть у тебя клыки и когти, но ты куда благороднее любого мужчины.000140,
   {
     "id": "000141",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>资金来源</>\\n俱乐部活跃津贴和俱乐部活动。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>资金说明</>\\n可用于俱乐部建筑升级，提升俱乐部实力、福利和规模。",
@@ -2313,8 +2310,7 @@
     "id": "000385",
     "source_cn": "<P_Heart>（轻声呢喃）</>你说…我们还有可能继续吗？我…还没准备好……",
     "ref_en": "<P_Heart> (Whispering softly) </> Tell me... is there still a chance for us? I... I'm not ready yet...",
-    "target_ru": "<P_Heart>(тихий шёпот)</> Скажи... есть ли у нас ещё шанс? Я... я пока не готова..."
-  },
+    "target_ru": "<P_Heart>(Тихий шёпот)</> Скажи... есть ли у нас ещё шанс? Я... я пока не готова...000385,
   {
     "id": "000386",
     "source_cn": "<h>丹尼斯</>离开",
@@ -3849,14 +3845,12 @@
     "id": "000641",
     "source_cn": "<P_Heart>（哼唱）</>除了“黑夜女神”，没有别的话语。",
     "ref_en": "<P_Heart>(Humming)</> Apart from the 'Evernight Goddess', there are no other words.",
-    "target_ru": "<P_Heart>(напевает)</> Кроме имени «Богиня Вечной Ночи», других слов нет."
-  },
+    "target_ru": "<P_Heart>(Напевает)</> Кроме имени «Богиня Вечной Ночи», других слов нет.000641,
   {
     "id": "000642",
     "source_cn": "<P_Heart>（羞愧）</>抱歉，我没有钱……",
     "ref_en": "<P_Heart> (Ashamed) </> I'm sorry, I don't have any money...",
-    "target_ru": "<P_Heart>(со стыдом)</> Простите, у меня нет денег..."
-  },
+    "target_ru": "<P_Heart>(Со стыдом)</> Простите, у меня нет денег...000642,
   {
     "id": "000643",
     "source_cn": "<P_Yellow>《美女与野兽》</>？看署名，这也是罗塞尔大帝的作品……",
@@ -4695,14 +4689,12 @@
     "id": "000782",
     "source_cn": "<P_Heart>（嘶吼）</>呜嗷——",
     "ref_en": "<P_Heart>(Roar)</> Woo-roar—",
-    "target_ru": "<P_Heart>(рык)</> У-у-а-а-аргх —"
-  },
+    "target_ru": "<P_Heart>(Рык)</> У-у-а-а-аргх —000782,
   {
     "id": "000783",
     "source_cn": "<P_Heart>（笑得更开心）</> 我…当然！乐意至极，画家先生。",
     "ref_en": "<P_Heart> (Smiling even more happily) </> I... of course! I would be delighted, Mr. Painter.",
-    "target_ru": "<P_Heart>(улыбаясь еще радостнее)</> Я... конечно же! С превеликим удовольствием, господин художник."
-  },
+    "target_ru": "<P_Heart>(Улыбаясь еще радостнее)</> Я... конечно же! С превеликим удовольствием, господин художник.000783,
   {
     "id": "000784",
     "source_cn": "GTA金狼狙击——狙击射击",
@@ -8451,8 +8443,7 @@
     "id": "001408",
     "source_cn": "{{先生|女士}}, do you need goat cheese? I guarantee this is the best goat cheese in Tingen!",
     "ref_en": "{{Sir|Madam}}, do you need goat cheese? I guarantee this is the best goat cheese in Tingen!",
-    "target_ru": "{{господин|госпожа}}, не желаете ли козьего сыра? Ручаюсь, это лучший козий сыр во всем Тингене!"
-  },
+    "target_ru": "{{Господин|госпожа}}, не желаете ли козьего сыра? Ручаюсь, это лучший козий сыр во всем Тингене!001408,
   {
     "id": "001409",
     "source_cn": "“愚者”先生的力量果然深不可测……您一定很感激他。",
@@ -11745,8 +11736,7 @@
     "id": "001957",
     "source_cn": "{{先生|女士}}, would you like a salted fish? Or perhaps a newly developed salted fish delicacy? Or maybe some concentrated salted fish flavored soup?",
     "ref_en": "{{Sir|Madam}}, would you like a salted fish? Or perhaps a newly developed salted fish delicacy? Or maybe some concentrated salted fish flavored soup?",
-    "target_ru": "{{господин|госпожа}}, не желаете ли соленой рыбки? Или, быть может, новое фирменное блюдо из соленой рыбы? А может, наваристый суп со вкусом соленой рыбы?"
-  },
+    "target_ru": "{{Господин|госпожа}}, не желаете ли соленой рыбки? Или, быть может, новое фирменное блюдо из соленой рыбы? А может, наваристый суп со вкусом соленой рыбы?001957,
   {
     "id": "001958",
     "source_cn": "“执掌好运的黄黑之王”",
@@ -16047,8 +16037,7 @@
     "id": "002674",
     "source_cn": "次",
     "ref_en": "Times",
-    "target_ru": "раз"
-  },
+    "target_ru": "Раз002674,
   {
     "id": "002675",
     "source_cn": "永恒的……金秋……结束了……",
@@ -19281,8 +19270,7 @@
     "id": "003213",
     "source_cn": "<P_Yellow>我主居于灵界之上，俯瞰着万物生长~</>",
     "ref_en": "<P_Yellow>My Lord resides above the spirit world, overlooking the growth of all things~</>",
-    "target_ru": "<P_Yellow>Мой Господь пребывает над миром духов, взирая на произрастание всего сущего~</>"
-  },
+    "target_ru": "<P_Yellow>Мой Господь пребывает над Миром Духов, взирая на произрастание всего сущего~</>003213,
   {
     "id": "003214",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>奖励次数累积规则：</>\\n通关任意日常副本，可以领取<Highlight>1</>次奖励。奖励次数每日增加<Highlight>1</>次，最多可累积到<Highlight>3</>次，不同副本每日增加的奖励次数<Highlight>共上限</>。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>当前副本剩余奖励次数：</>\\n当前日常副本：个人奖励<Highlight>%s</>次 公共奖励<Highlight>%s</>次\\n参与人机模式仅消耗个人奖励次数，参与组队模式同时消耗个人奖励次数和公共奖励次数。",
@@ -19929,8 +19917,7 @@
     "id": "003321",
     "source_cn": "{{先生|女士}}，您需要临时工吗？我上周失业了，可怜的小温蒂还饿着肚子在家等我……",
     "ref_en": "{{Mr.|Ms.}}, do you need a temporary worker? I lost my job last week, and poor little Wendy is still at home waiting for me, hungry...",
-    "target_ru": "{{господин|госпожа}}, вам не нужен подёнщик? На прошлой неделе я потерял работу, а бедная малютка Венди сидит голодная дома и ждёт меня..."
-  },
+    "target_ru": "{{Господин|госпожа}}, вам не нужен подёнщик? На прошлой неделе я потерял работу, а бедная малютка Венди сидит голодная дома и ждёт меня...003321,
   {
     "id": "003322",
     "source_cn": "·死亡时间：据法医推断，约为6月27日晚9点。\\n·死亡地点：廷根市<Tips id=\"#160\">春夜沙龙</>二楼的卧室内。\\n·死亡原因：初步断定为饮酒过度和连续纵欲导致的<Tips id=\"#160\">猝死</>。",
@@ -24645,8 +24632,7 @@
     "id": "004107",
     "source_cn": "亲爱的非凡者：\\n    我们留意到，关于两日体验的调研，您已通过您所持有的另一重身份给予了我们宝贵的建议。依照约定，本次的答谢礼将由灵界信使直接为您送至邮箱，请您查收。\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">灰雾测试调研问卷2</>\\n    若您希望以当前的身份再次留下您的意见，也可以继续通过邮件中的隐秘通道传递您的想法，我们始终欢迎您的建议。\\n    感谢您对这段旅程的见证，愿灵性为您指引前路。",
     "ref_en": "Dear Beyonder: \\n    We have noticed that regarding the two-day experience survey, you have already provided us with valuable suggestions through another identity you hold. According to the agreement, this thank-you gift will be sent directly to your mailbox by the Spirit World messenger; please check it. \\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Gray Fog Test Survey 2</>\\n    If you wish to leave your opinions again with your current identity, you can continue to convey your thoughts through the secret channel in the email; we always welcome your suggestions. \\n    Thank you for witnessing this journey, may your spirituality guide your path.",
-    "target_ru": "Дорогой Потусторонний:\n    Мы заметили, что вы уже оставили ценные отзывы об опросе по двухдневному тестированию под другой своей личностью. Как и было условлено, подарок с благодарностью доставлен прямо на вашу почту вестовым из мира духов, пожалуйста, заберите его.\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Опросник тестирования «Серый туман» 2</>\n    Если вы хотите вновь поделиться своим мнением в текущем обличье, вы можете передать свои мысли через тайный канал в письме — мы всегда рады вашим отзывам.\n    Благодарим за участие в этом путешествии. Пусть духовность освещает ваш путь."
-  },
+    "target_ru": "Дорогой Потусторонний:\n    Мы заметили, что вы уже оставили ценные отзывы об опросе по двухдневному тестированию под другой своей личностью. Как и было условлено, подарок с благодарностью доставлен прямо на вашу почту вестовым из Мира Духов, пожалуйста, заберите его.\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Опросник тестирования «Серый туман» 2</>\n    Если вы хотите вновь поделиться своим мнением в текущем обличье, вы можете передать свои мысли через тайный канал в письме — мы всегда рады вашим отзывам.\n    Благодарим за участие в этом путешествии. Пусть духовность освещает ваш путь.004107,
   {
     "id": "004108",
     "source_cn": "人脉话题-戴莉3关于死灵导师",
@@ -27495,8 +27481,7 @@
     "id": "004582",
     "source_cn": "“星之女王”嘉德丽雅的部下，“未来号“大副，称号”毒素专家“。尤其擅长培育具有特殊功能的蘑菇，他的发明既能解决食物短缺问题，也存在失控风险。",
     "ref_en": "Subordinate of the \"Queen of Stars\" Cattleya, First mate of the Future, title \"Toxin Expert\". Especially skilled in cultivating mushrooms with special functions; his inventions can solve food shortages but also carry the risk of loss of control.",
-    "target_ru": "Подчинённый «Королевы Звёзд» Каттлеи, старпом «Будущего», носящий прозвище «Эксперт по ядам». Невероятно искусен в выращивании грибов с особыми свойствами: его творения способны решить проблему голода, но несут в себе опасность потери контроля."
-  },
+    "target_ru": "Подчинённый «Королевы Звёзд» Каттлеи, старпом «Будущего», носящий прозвище «Эксперт по ядам». Невероятно искусен в выращивании грибов с особыми свойствами: его творения способны решить проблему голода, но несут в себе опасность Потери Контроля.004582,
   {
     "id": "004583",
     "source_cn": "【增强】暴击提供持续<HighLight>5</>秒的<HighLight>5%</>伤害加深，可叠加至多<HighLight>4</>次。",
@@ -27915,8 +27900,7 @@
     "id": "004652",
     "source_cn": "时任白银城首席的科林.伊利亚特在戴里克·伯格的帮助下举行祈祷仪式，俯视着灰雾俯视着灵界的那古老宫殿内，“愚者”回应了祈求，降下了恩赐。",
     "ref_en": "Colin Iliad, the then-Chief of the City of Silver, held a prayer ritual with the help of Derrick Berg. Inside that ancient palace overlooking the gray fog and the spirit world, 'The Fool' responded to the plea and bestowed a gift.",
-    "target_ru": "Колин Илиад, тогдашний Глава Города Серебра, при содействии Деррика Берга провёл молитвенный ритуал. В древнем дворце, возвышающемся над серым туманом и миром духов, «Шут» внял мольбе и ниспослал благословение."
-  },
+    "target_ru": "Колин Илиад, тогдашний Глава Города Серебра, при содействии Деррика Берга провёл молитвенный ритуал. В древнем дворце, возвышающемся над серым туманом и Миром Духов, «Шут» внял мольбе и ниспослал благословение.004652,
   {
     "id": "004653",
     "source_cn": "时空炸弹buff",
@@ -29091,8 +29075,7 @@
     "id": "004848",
     "source_cn": "This {{先生|女士}}, come and see the souvenirs of the Sculpture of Knowledge!",
     "ref_en": "This {{Sir|Madam}}, come and see the souvenirs of the Sculpture of Knowledge!",
-    "target_ru": "{{господин|госпожа}}, взгляните на сувениры у Скульптуры Знания!"
-  },
+    "target_ru": "{{Господин|госпожа}}, взгляните на сувениры у Скульптуры Знания!004848,
   {
     "id": "004849",
     "source_cn": "“圆脸蛋的爱人是我快乐的全部。”",

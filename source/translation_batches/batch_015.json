@@ -111,14 +111,12 @@
     "id": "070018",
     "source_cn": "拦路藤蔓碰撞",
     "ref_en": "Blocking Vine Collision",
-    "target_ru": "столкновение с виноградной лозой"
-  },
+    "target_ru": "Столкновение с виноградной лозой070018,
   {
     "id": "070019",
     "source_cn": "接收礼物",
     "ref_en": "Receive Gifts",
-    "target_ru": "получать подарки"
-  },
+    "target_ru": "Получать подарки070019,
   {
     "id": "070020",
     "source_cn": "描述描述",
@@ -327,8 +325,7 @@
     "id": "070054",
     "source_cn": "螺旋扭曲吸入",
     "ref_en": "Spiral distortion suction",
-    "target_ru": "спиральный скручивающий вдох"
-  },
+    "target_ru": "Спиральный скручивающий вдох070054,
   {
     "id": "070055",
     "source_cn": "裙子·上",
@@ -423,8 +420,7 @@
     "id": "070070",
     "source_cn": "魁梧的男人",
     "ref_en": "Burly Man",
-    "target_ru": "крепкий мужчина"
-  },
+    "target_ru": "Крепкий мужчина070070,
   {
     "id": "070071",
     "source_cn": "\\n\\n\\n\\n\\n\\n　　谢谢，我会还的。",
@@ -477,14 +473,12 @@
     "id": "070079",
     "source_cn": "<Highlight>【星灵奇装】</>\\n群星璀璨之时，星光加身一刻，美将再现于此。\\n\\n<Highlight>【召唤规则】</>\\n使用星币进行灵界召唤，概率获得珍贵的宝物奖励。\\n奖励分为<Highlight>神眷</>、<Highlight>灵幻</>、<Highlight>非凡</>三档。累计使用<Highlight>10</>个星币且未获得神眷奖励后，神眷概率逐渐增加，每使用<Highlight>40个</>星币必定获得<Highlight>神眷</>奖励，每使用<Highlight>10个</>星币必定获得<Highlight>灵幻</>奖励。\\n召唤获得的奖励均无法交易或赠送。\\n\\n<Highlight>【其它规则】</>\\n使用<Highlight>裁刀</>可以在星灵秘库商店兑换奖励，获得超过拥有上限的灵幻或神眷档次外观奖励时，将会被分解为特定数量的<Highlight>裁刀</>。\\n获得神眷品质奖励时，将<Highlight>优先获得未拥有</>的外观奖励（神眷发型与时装散件分开计算），可在外观收集进度中查看详情。\\n\\n<Highlight>【概率公示】</>\\n神眷奖励概率（含保底）：5.230%\\n<Highlight>神眷发型</>：0.596%\\n<Highlight>神眷时装散件</>：4.634%\\n\\n灵幻奖励概率（含保底）：12.222%\\n风暴之泪、玫瑰藤杖、栖蝶披风、蔷薇之缚、银蔷薇\\n\\n非凡奖励概率（含保底）：82.548%\\n聚合因子、泡沫染膏、珊瑚染料、爆爆烟花、彩带烟花、派对烟花、古怪的药剂、简易的火把、纯情鲁特琴、小象玩偶、冰冷的裹布、荣耀的传承、卷毛狒狒的毛发、幸运大转盘、贝壳项链、珍珠胸花",
     "ref_en": "<Highlight>【Star Spirit Exotic Attire】</>\\nWhen the stars shine bright and starlight descends, beauty shall reappear here.\\n\\n<Highlight>【Summoning Rules】</>\\nUse Star Coins to perform Spirit World summoning for a chance to obtain precious treasure rewards.\\nRewards are divided into three tiers: <Highlight>God's Favor</>, <Highlight>Spirit Illusion</>, and <Highlight>Beyonder</>. After using a total of <Highlight>10</> Star Coins without obtaining a God's Favor reward, the probability of obtaining one will gradually increase. Every <Highlight>40</> Star Coins used guarantees a <Highlight>God's Favor</> reward, and every <Highlight>10</> Star Coins used guarantees a <Highlight>Spirit Illusion</> reward.\\n Rewards obtained from summoning cannot be traded or gifted.\\n\\n<Highlight>【Other Rules】</>\\nUse <Highlight>Cutting Blades</> to exchange for rewards in the Star Spirit Secret Vault Shop. If you obtain a Spirit Illusion or God's Favor tier cosmetic reward that exceeds your ownership limit, it will be decomposed into a specific number of <Highlight>Cutting Blades</>.\\nWhen obtaining a God's Favor quality reward, you will <Highlight>prioritize obtaining unowned</> cosmetic rewards (God's Favor hairstyles and outfit pieces are calculated separately). You can view details in the Cosmetic Collection Progress.\\n\\n<Highlight>【Probability Disclosure】</>\\nGod's Favor reward probability (including pity): 5.230%\\n<Highlight>God's Favor Hairstyle</>: 0.596%\\n<Highlight>God's Favor Outfit Piece</>: 4.634%\\n\\nSpirit Illusion reward probability (including pity): 12.222%\\nStorm's Tear, Rose Vine Staff, Butterfly-Perching Cape, Rose Binding, Silver Rose\\n\\nBeyonder reward probability (including pity): 82.548%\\nAggregation Factor, Foam Dye, Coral Dye, Pop Fireworks, Ribbon Fireworks, Party Fireworks, Eccentric Potion, Simple Torch, Innocent Lute, Elephant Doll, Cold Shroud, Glorious Inheritance, Curly-Haired Baboon Hair, Lucky Big Wheel, Seashell Necklace, Pearl Corsage",
-    "target_ru": "<Highlight>[Странный костюм Синлинга]</>\nКогда ярко сияют звезды, красота снова появится здесь на мгновение, когда появится звездный свет. \n\n<Highlight>[Правила призыва]</>\nИспользуйте звездные монеты, чтобы вызвать мир духов, и есть вероятность получить драгоценные награды за сокровища. Награды \n разделены на три уровня: <Highlight> Божественный </>, <Highlight> Духовная фантазия </>, <Highlight> Необыкновенный </>. После того, как в общей сложности было использовано <Highlight>10</> звездных монет и не было получено никакой награды за божественное благоволение, вероятность божественного благоволения постепенно увеличивается. Каждый раз, когда используются <Highlight>40 </> звездные монеты, будет получена награда <Highlight> божественной благосклонности </>, а за каждые использованные <Highlight>10 </> звездные монеты будет получена награда <Highlight> духовной фантазии </>. \nНаграды, полученные посредством призыва, нельзя обменять или отдать. \n\n<Highlight> [Другие правила] </>\n Вы можете использовать <Highlight> нож </>, чтобы получить награды в Секретном магазине Звёздных духов. Когда вы получаете награду за духовный или божественный внешний вид, превышающую верхний предел, она будет разбита на определенное количество <Highlight> режущих ножей </>. Когда \n получит награду за качество «Божий любимец», <Highlight> получит приоритет для получения наград за внешний вид, не владеющих </> (прическа и модные аксессуары «Божий любимец» рассчитываются отдельно). Подробности можно проверить в ходе сбора данных о внешнем виде. \n\n<Highlight>【Объявление о вероятности】</>\nВероятность получения любимых наград Бога (включая гарантию): 5,230%\n<Highlight>Божья любимая прическа</>: 0,596%\n<Highlight>Божьи любимые модные детали</>: 4,634%\n\nВероятность фэнтезийных наград (включая гарантию): 12,222% \nСлезы бури, Розовая трость, Плащ-бабочка, Розовое переплетение, Серебряная роза\n\nВероятность экстраординарной награды (включая гарантию): 82,548%\nКоэффициент агрегации, пенный краситель, коралловый краситель, взрывчатка фейерверк, ленточный фейерверк, праздничный фейерверк, странное зелье, простой факел, невинная лютня, кукла-слоненок, холодное обертывание, славное наследство, вьющиеся волосы павиана, колесо удачи, ожерелье из ракушек, жемчужный корсаж"
-  },
+    "target_ru": "<Highlight>[Странный костюм Синлинга]</>\nКогда ярко сияют звезды, красота снова появится здесь на мгновение, когда появится звездный свет. \n\n<Highlight>[Правила призыва]</>\nИспользуйте звездные монеты, чтобы вызвать Мир Духов, и есть вероятность получить драгоценные награды за сокровища. Награды \n разделены на три уровня: <Highlight> Божественный </>, <Highlight> Духовная фантазия </>, <Highlight> Необыкновенный </>. После того, как в общей сложности было использовано <Highlight>10</> звездных монет и не было получено никакой награды за божественное благоволение, вероятность божественного благоволения постепенно увеличивается. Каждый раз, когда используются <Highlight>40 </> звездные монеты, будет получена награда <Highlight> божественной благосклонности </>, а за каждые использованные <Highlight>10 </> звездные монеты будет получена награда <Highlight> духовной фантазии </>. \nНаграды, полученные посредством призыва, нельзя обменять или отдать. \n\n<Highlight> [Другие правила] </>\n Вы можете использовать <Highlight> нож </>, чтобы получить награды в Секретном магазине Звёздных духов. Когда вы получаете награду за духовный или божественный внешний вид, превышающую верхний предел, она будет разбита на определенное количество <Highlight> режущих ножей </>. Когда \n получит награду за качество «Божий любимец», <Highlight> получит приоритет для получения наград за внешний вид, не владеющих </> (прическа и модные аксессуары «Божий любимец» рассчитываются отдельно). Подробности можно проверить в ходе сбора данных о внешнем виде. \n\n<Highlight>【Объявление о вероятности】</>\nВероятность получения любимых наград Бога (включая гарантию): 5,230%\n<Highlight>Божья любимая прическа</>: 0,596%\n<Highlight>Божьи любимые модные детали</>: 4,634%\n\nВероятность фэнтезийных наград (включая гарантию): 12,222% \nСлезы бури, Розовая трость, Плащ-бабочка, Розовое переплетение, Серебряная роза\n\nВероятность экстраординарной награды (включая гарантию): 82,548%\nКоэффициент агрегации, пенный краситель, коралловый краситель, взрывчатка фейерверк, ленточный фейерверк, праздничный фейерверк, странное зелье, простой факел, невинная лютня, кукла-слоненок, холодное обертывание, славное наследство, вьющиеся волосы павиана, колесо удачи, ожерелье из ракушек, жемчужный корсаж070079,
   {
     "id": "070080",
     "source_cn": "<P_Heart>（压低声音）</>不过聪明人都知道……真宝贝谁敢摆明面上？",
     "ref_en": "<P_Heart> (Lowering voice) </> But smart people know... who would dare to put real treasures out in the open?",
-    "target_ru": "<P_Heart> (низким голосом) </> Но умные люди знают... кто посмеет выставить напоказ настоящее сокровище?"
-  },
+    "target_ru": "<P_Heart> (Низким голосом) </> Но умные люди знают... кто посмеет выставить напоказ настоящее сокровище?070080,
   {
     "id": "070081",
     "source_cn": "Boss机制状态",
@@ -495,14 +489,12 @@
     "id": "070082",
     "source_cn": "[表情59]",
     "ref_en": "[Emoji 59]",
-    "target_ru": "[выражение 59]"
-  },
+    "target_ru": "[Выражение 59]070082,
   {
     "id": "070083",
     "source_cn": "iOS端暂不支持充值",
     "ref_en": "Recharge is not currently supported on iOS.",
-    "target_ru": "iOS в настоящее время не поддерживает пополнение счета"
-  },
+    "target_ru": "IOS в настоящее время не поддерживает пополнение счета070083,
   {
     "id": "070084",
     "source_cn": "……但愿吧。可我不希望她跟着我受苦，更不希望她被困在这里，像我们一样，永远看不到外面的世界。",
@@ -561,8 +553,7 @@
     "id": "070093",
     "source_cn": "中号行囊",
     "ref_en": "Medium Bag",
-    "target_ru": "багаж среднего размера"
-  },
+    "target_ru": "Багаж среднего размера070093,
   {
     "id": "070094",
     "source_cn": "丰饶之树_5200139_植物改造A_代理_2_随机方向蘑菇",
@@ -609,8 +600,7 @@
     "id": "070101",
     "source_cn": "偷跑服一区",
     "ref_en": "Early Access Server District 1",
-    "target_ru": "прокрасться в зону одежды для бега 1"
-  },
+    "target_ru": "Прокрасться в зону одежды для бега 1070101,
   {
     "id": "070102",
     "source_cn": "克莉丝汀",
@@ -741,8 +731,7 @@
     "id": "070123",
     "source_cn": "小队商店",
     "ref_en": "Squad shop",
-    "target_ru": "магазин отряда"
-  },
+    "target_ru": "Магазин отряда070123,
   {
     "id": "070124",
     "source_cn": "巨剑骑士-3星",
@@ -783,8 +772,7 @@
     "id": "070130",
     "source_cn": "弗莱的墨水",
     "ref_en": "Frye's ink",
-    "target_ru": "чернила Фрая"
-  },
+    "target_ru": "Чернила Фрая070130,
   {
     "id": "070131",
     "source_cn": "很抱歉，本次活动没有合适你的契约",
@@ -897,8 +885,7 @@
     "id": "070149",
     "source_cn": "最小攻击",
     "ref_en": "Minimum Attack",
-    "target_ru": "минимальная атака"
-  },
+    "target_ru": "Минимальная атака070149,
   {
     "id": "070150",
     "source_cn": "有不好的预感，还是算了。",
@@ -939,20 +926,17 @@
     "id": "070156",
     "source_cn": "毒液喷涌",
     "ref_en": "Venom Gush",
-    "target_ru": "ядовитый носик"
-  },
+    "target_ru": "Ядовитый носик070156,
   {
     "id": "070157",
     "source_cn": "毯子",
     "ref_en": "Blanket",
-    "target_ru": "одеяло"
-  },
+    "target_ru": "Одеяло070157,
   {
     "id": "070158",
     "source_cn": "水流弹",
     "ref_en": "Water Bullet",
-    "target_ru": "водяная бомба"
-  },
+    "target_ru": "Водяная бомба070158,
   {
     "id": "070159",
     "source_cn": "沁雪",
@@ -1023,8 +1007,7 @@
     "id": "070170",
     "source_cn": "玩家...",
     "ref_en": "Player...",
-    "target_ru": "игрок..."
-  },
+    "target_ru": "Игрок...070170,
   {
     "id": "070171",
     "source_cn": "瑞安·",
@@ -1059,8 +1042,7 @@
     "id": "070176",
     "source_cn": "空想姿态",
     "ref_en": "Imagination Stance",
-    "target_ru": "утопический жест"
-  },
+    "target_ru": "Утопический жест070176,
   {
     "id": "070177",
     "source_cn": "章鱼开始求饶",
@@ -1089,8 +1071,7 @@
     "id": "070181",
     "source_cn": "索尔特",
     "ref_en": "Salter",
-    "target_ru": "соль"
-  },
+    "target_ru": "Соль070181,
   {
     "id": "070182",
     "source_cn": "累计成功安魂%d/100位非凡者",
@@ -1119,8 +1100,7 @@
     "id": "070186",
     "source_cn": "胜点",
     "ref_en": "Victory Points",
-    "target_ru": "выигрышные очки"
-  },
+    "target_ru": "Выигрышные очки070186,
   {
     "id": "070187",
     "source_cn": "花瓶·粉蕊",
@@ -1155,8 +1135,7 @@
     "id": "070192",
     "source_cn": "获得成就",
     "ref_en": "Achievement Obtained",
-    "target_ru": "получать достижения"
-  },
+    "target_ru": "Получать достижения070192,
   {
     "id": "070193",
     "source_cn": "萨凡娜",
@@ -1167,20 +1146,17 @@
     "id": "070194",
     "source_cn": "虚弱中",
     "ref_en": "Weakened",
-    "target_ru": "в слабости"
-  },
+    "target_ru": "В слабости070194,
   {
     "id": "070195",
     "source_cn": "血迹",
     "ref_en": "Bloodstains",
-    "target_ru": "пятна крови"
-  },
+    "target_ru": "Пятна крови070195,
   {
     "id": "070196",
     "source_cn": "被诅咒的舞鞋",
     "ref_en": "Cursed Dancing Shoes",
-    "target_ru": "проклятые танцевальные туфли"
-  },
+    "target_ru": "Проклятые танцевальные туфли070196,
   {
     "id": "070197",
     "source_cn": "装在精致小瓶子里的花露，隐隐散发出清新凉爽的味道。",
@@ -1287,8 +1263,7 @@
     "id": "070214",
     "source_cn": "金币风暴",
     "ref_en": "Gold Coin Storm",
-    "target_ru": "буря золотых монет"
-  },
+    "target_ru": "Буря золотых монет070214,
   {
     "id": "070215",
     "source_cn": "金梧桐区，拉莫尔夫人",
@@ -1371,8 +1346,7 @@
     "id": "070228",
     "source_cn": "<h>服用</>魔药",
     "ref_en": "<h>Consume</> Potion",
-    "target_ru": "<h>примите</>волшебное зелье"
-  },
+    "target_ru": "<h>Примите</>волшебное зелье070228,
   {
     "id": "070229",
     "source_cn": "<h>离开教堂</>",
@@ -1419,8 +1393,7 @@
     "id": "070236",
     "source_cn": "一位……充满魅力的夫人。就连早年的罗塞尔大帝，也为她神魂颠倒。",
     "ref_en": "A... charming lady. Even Emperor Roselle in his early years was infatuated with her.",
-    "target_ru": "...очаровательная леди. Даже император Рассел в ранние годы был очарован ею."
-  },
+    "target_ru": "...Очаровательная леди. Даже император Рассел в ранние годы был очарован ею.070236,
   {
     "id": "070237",
     "source_cn": "三线谜题的线",
@@ -1455,8 +1428,7 @@
     "id": "070242",
     "source_cn": "乐队2",
     "ref_en": "Band 2",
-    "target_ru": "группа 2"
-  },
+    "target_ru": "Группа 2070242,
   {
     "id": "070243",
     "source_cn": "于廷根首次发布并售卖的蒸汽机械车，独具格调的外形设计使其受到绅士淑女们的青睐，它向人们证明，潮流与优雅总是集于一身。",
@@ -1551,8 +1523,7 @@
     "id": "070258",
     "source_cn": "冰柱",
     "ref_en": "Icicle",
-    "target_ru": "сосульки"
-  },
+    "target_ru": "Сосульки070258,
   {
     "id": "070259",
     "source_cn": "初次见面，容我自我介绍一下，我是本校学术诚信办公室的萨姆，正在调查一起性质恶劣的<P_Yellow>考试舞弊案</>。",
@@ -1593,8 +1564,7 @@
     "id": "070265",
     "source_cn": "去买票",
     "ref_en": "Go buy a ticket",
-    "target_ru": "пойти купить билеты"
-  },
+    "target_ru": "Пойти купить билеты070265,
   {
     "id": "070266",
     "source_cn": "号外！号外！",
@@ -1677,8 +1647,7 @@
     "id": "070279",
     "source_cn": "好友申请",
     "ref_en": "Friend Requests",
-    "target_ru": "запрос на добавление в друзья"
-  },
+    "target_ru": "Запрос на добавление в друзья070279,
   {
     "id": "070280",
     "source_cn": "如果需要我，就用力地吹响我。",
@@ -1797,8 +1766,7 @@
     "id": "070299",
     "source_cn": "战场背景",
     "ref_en": "Battlefield Background",
-    "target_ru": "фон поля боя"
-  },
+    "target_ru": "Фон поля боя070299,
   {
     "id": "070300",
     "source_cn": "战士-扮演技能-吸收残影",
@@ -1821,8 +1789,7 @@
     "id": "070303",
     "source_cn": "指针标记",
     "ref_en": "Pointer Mark",
-    "target_ru": "указатель знак"
-  },
+    "target_ru": "Указатель знак070303,
   {
     "id": "070304",
     "source_cn": "挑战“头狼”",
@@ -1881,8 +1848,7 @@
     "id": "070313",
     "source_cn": "汽车占位",
     "ref_en": "Car Placeholder",
-    "target_ru": "машиноместо"
-  },
+    "target_ru": "Машиноместо070313,
   {
     "id": "070314",
     "source_cn": "没有找到目标分线。",
@@ -1893,8 +1859,7 @@
     "id": "070315",
     "source_cn": "消息参数（布尔）",
     "ref_en": "Message Parameter (Boolean)",
-    "target_ru": "параметры сообщения (логическое значение)"
-  },
+    "target_ru": "Параметры сообщения (логическое значение)070315,
   {
     "id": "070316",
     "source_cn": "灰雾测试调研问卷1",
@@ -1905,8 +1870,7 @@
     "id": "070317",
     "source_cn": "玫瑰天堂场景",
     "ref_en": "Rose Paradise Scene",
-    "target_ru": "сцена розового рая"
-  },
+    "target_ru": "Сцена розового рая070317,
   {
     "id": "070318",
     "source_cn": "现在，该你上场了。为了廷根的未来，开始一场大清扫吧！",
@@ -2001,8 +1965,7 @@
     "id": "070333",
     "source_cn": "苍穹",
     "ref_en": "Firmament",
-    "target_ru": "небосвод"
-  },
+    "target_ru": "Небосвод070333,
   {
     "id": "070334",
     "source_cn": "若持有防御力增加效果将获得防罩效果，若持有防御力增加效果将获得防护罩效果，吸收相当于体力上<HighLight>20.0%</>的伤害持续<HighLight>15</>秒",
@@ -2043,8 +2006,7 @@
     "id": "070340",
     "source_cn": "请看看我",
     "ref_en": "Please Look at Me",
-    "target_ru": "пожалуйста, посмотри на меня"
-  },
+    "target_ru": "Пожалуйста, посмотри на меня070340,
   {
     "id": "070341",
     "source_cn": "谢谢你，我突然没有那么焦虑了。我做完下一台手术后，晚上就把演讲大纲赶出来！",
@@ -2067,14 +2029,12 @@
     "id": "070344",
     "source_cn": "跳舞左轨道",
     "ref_en": "Dance Left Track",
-    "target_ru": "танец левой дорожки"
-  },
+    "target_ru": "Танец левой дорожки070344,
   {
     "id": "070345",
     "source_cn": "转向点",
     "ref_en": "Turning point",
-    "target_ru": "поворотный момент"
-  },
+    "target_ru": "Поворотный момент070345,
   {
     "id": "070346",
     "source_cn": "这位{{先生|小姐}}，您看，我们的曼妮莎从今天下午溜出门开始，就一直这么着急忙慌的。",
@@ -2097,8 +2057,7 @@
     "id": "070349",
     "source_cn": "远程信徒",
     "ref_en": "Ranged Believer",
-    "target_ru": "отдаленный верующий"
-  },
+    "target_ru": "Отдаленный верующий070349,
   {
     "id": "070350",
     "source_cn": "追上小猫=出位面",
@@ -2157,14 +2116,12 @@
     "id": "070359",
     "source_cn": "高昂的物价",
     "ref_en": "High cost of living",
-    "target_ru": "высокие цены"
-  },
+    "target_ru": "Высокие цены070359,
   {
     "id": "070360",
     "source_cn": "魔鬼",
     "ref_en": "Devil",
-    "target_ru": "дьявол"
-  },
+    "target_ru": "Дьявол070360,
   {
     "id": "070361",
     "source_cn": "鲍尔斯",
@@ -2175,8 +2132,7 @@
     "id": "070362",
     "source_cn": "黑河",
     "ref_en": "Heihe",
-    "target_ru": "черная река"
-  },
+    "target_ru": "Черная река070362,
   {
     "id": "070363",
     "source_cn": "<Assistant_Title1>【今夜好眠】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>扮演故事</>\\n<Assistant_Title2>任务描述：</>深夜的街道上，年轻人马丁因目睹工厂锅炉爆炸事故而饱受失眠折磨。作为心理医生，你需要对他进行心理安抚。\\n<Assistant_Title2>领取方式：</>完成晋升任务，晋升至序列7，前往{Location:[廷根(1010,1309)]|1049;31418;-2608;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、世界冒险秘宝进度，冒险勋章，发票单据",
@@ -2187,14 +2143,12 @@
     "id": "070364",
     "source_cn": "<P_Heart>（微微一愣）</>不，拥有非凡力量必须要承受相应的代价……",
     "ref_en": "<P_Heart> (Slightly stunned) </> No, possessing Beyonder powers requires bearing the corresponding price...",
-    "target_ru": "<P_Heart> (слегка испуганно) </> Нет, за исключительную силу приходится платить соответствующую цену..."
-  },
+    "target_ru": "<P_Heart> (Слегка испуганно) </> Нет, за исключительную силу приходится платить соответствующую цену...070364,
   {
     "id": "070365",
     "source_cn": "<P_Heart>（瞪大眼睛）</>您，您要帮忙吗？真的吗？可是您在外面，该怎么……",
     "ref_en": "<P_Heart> (Eyes wide) </> You, you want to help? Really? But you're outside, how could you...",
-    "target_ru": "<P_Heart>(глаза расширились)</>Ты хочешь помочь? Действительно? Но ты снаружи, что тебе делать..."
-  },
+    "target_ru": "<P_Heart>(Глаза расширились)</>Ты хочешь помочь? Действительно? Но ты снаружи, что тебе делать...070365,
   {
     "id": "070366",
     "source_cn": "Noise扰动强度",
@@ -2313,8 +2267,7 @@
     "id": "070385",
     "source_cn": "偏移模式",
     "ref_en": "Offset mode",
-    "target_ru": "режим смещения"
-  },
+    "target_ru": "Режим смещения070385,
   {
     "id": "070386",
     "source_cn": "偷听了女职员讨论，获取了<Tips stylename=\"Letter_Highlight\" id=\"#160\">角色的线索</>：\\n<Hide stylename=\"Transparent\" id=\"#161\">传闻昨晚并非副队长，而是队长持枪出门，在解决掉路上接应凶手的混混后，他亲自击毙了开膛手。</>\\n与居民交流，获取了<Tips stylename=\"Letter_Highlight\" id=\"#160\">时间的线索</>：\\n<Hide stylename=\"Transparent\" id=\"#161\">半夜原本漆黑的夜晚，被刺眼光芒照耀得如同白昼。</>\\n与马车夫交流后，获取了<Tips stylename=\"Letter_Highlight\" id=\"#160\">地点的线索</>：\\n<Hide stylename=\"Transparent\" id=\"#161\">那名看似被怪物追杀而慌不择路的少女，实则是故意将凶手引向了警局总部。</>",
@@ -2343,8 +2296,7 @@
     "id": "070390",
     "source_cn": "击打",
     "ref_en": "Strike",
-    "target_ru": "ударить"
-  },
+    "target_ru": "Ударить070390,
   {
     "id": "070391",
     "source_cn": "初次见猎人进对话",
@@ -2355,8 +2307,7 @@
     "id": "070392",
     "source_cn": "剧组",
     "ref_en": "Crew",
-    "target_ru": "экипаж"
-  },
+    "target_ru": "Экипаж070392,
   {
     "id": "070393",
     "source_cn": "副本成功",
@@ -2457,8 +2408,7 @@
     "id": "070409",
     "source_cn": "守夜人",
     "ref_en": "Nightwatcher",
-    "target_ru": "ночной сторож"
-  },
+    "target_ru": "Ночной сторож070409,
   {
     "id": "070410",
     "source_cn": "安全屋？你刚刚让丹尼去廷根大剧院，那里是安全屋？你怎么知道的？",
@@ -2517,14 +2467,12 @@
     "id": "070419",
     "source_cn": "屋顶",
     "ref_en": "Roof",
-    "target_ru": "крыша"
-  },
+    "target_ru": "Крыша070419,
   {
     "id": "070420",
     "source_cn": "巨人怒火",
     "ref_en": "Giant's Fury",
-    "target_ru": "гигантский гнев"
-  },
+    "target_ru": "Гигантский гнев070420,
   {
     "id": "070421",
     "source_cn": "已就位",
@@ -2601,8 +2549,7 @@
     "id": "070433",
     "source_cn": "打牌客人",
     "ref_en": "Card-playing guest",
-    "target_ru": "гости, играющие в карты"
-  },
+    "target_ru": "Гости, играющие в карты070433,
   {
     "id": "070434",
     "source_cn": "把邀请函<h>带回家</>",
@@ -2673,8 +2620,7 @@
     "id": "070445",
     "source_cn": "汇集锚点",
     "ref_en": "Gathering Anchors",
-    "target_ru": "якорь для бассейна"
-  },
+    "target_ru": "Якорь для бассейна070445,
   {
     "id": "070446",
     "source_cn": "清空庄园",
@@ -2925,8 +2871,7 @@
     "id": "070487",
     "source_cn": "<P_Heart>（震惊）</>你是那个顾客？！那你怎么会被困在这个塔罗牌里……",
     "ref_en": "<P_Heart>(Shocked)</> You are that customer?! Then how could you be trapped in this Tarot card...",
-    "target_ru": "<P_Heart> (в шоке) </> Вы тот клиент? ! Так почему же вы застряли в этой колоде Таро..."
-  },
+    "target_ru": "<P_Heart> (В шоке) </> Вы тот клиент? ! Так почему же вы застряли в этой колоде Таро...070487,
   {
     "id": "070488",
     "source_cn": "Enum(职业形态)",
@@ -3003,14 +2948,12 @@
     "id": "070500",
     "source_cn": "价格说明",
     "ref_en": "Price Explanation",
-    "target_ru": "описание цены"
-  },
+    "target_ru": "Описание цены070500,
   {
     "id": "070501",
     "source_cn": "任命",
     "ref_en": "Appoint",
-    "target_ru": "назначать"
-  },
+    "target_ru": "Назначать070501,
   {
     "id": "070502",
     "source_cn": "伸出手！",
@@ -3117,8 +3060,7 @@
     "id": "070519",
     "source_cn": "周三",
     "ref_en": "Wednesday",
-    "target_ru": "среда"
-  },
+    "target_ru": "Среда070519,
   {
     "id": "070520",
     "source_cn": "呼……终于到这里了……",
@@ -3183,8 +3125,7 @@
     "id": "070530",
     "source_cn": "墙上的画",
     "ref_en": "Painting on the wall",
-    "target_ru": "картины на стене"
-  },
+    "target_ru": "Картины на стене070530,
   {
     "id": "070531",
     "source_cn": "大世界中水上滑板和水中游泳速度增加5%。",
@@ -3201,8 +3142,7 @@
     "id": "070533",
     "source_cn": "女士A",
     "ref_en": "Lady A",
-    "target_ru": "г-жа А"
-  },
+    "target_ru": "Г-жа А070533,
   {
     "id": "070534",
     "source_cn": "好，我们回去吧。",
@@ -3369,14 +3309,12 @@
     "id": "070561",
     "source_cn": "挂绳",
     "ref_en": "Lanyard",
-    "target_ru": "шнурок"
-  },
+    "target_ru": "Шнурок070561,
   {
     "id": "070562",
     "source_cn": "捡起书页",
     "ref_en": "Pick up the book page",
-    "target_ru": "брать страницы"
-  },
+    "target_ru": "Брать страницы070562,
   {
     "id": "070563",
     "source_cn": "播放Dialogue  延迟执行  对象同场景传送  ",
@@ -3411,8 +3349,7 @@
     "id": "070568",
     "source_cn": "昼",
     "ref_en": "Day",
-    "target_ru": "день"
-  },
+    "target_ru": "День070568,
   {
     "id": "070569",
     "source_cn": "普通状态",
@@ -3465,8 +3402,7 @@
     "id": "070577",
     "source_cn": "水晶石柱",
     "ref_en": "Crystal Pillar",
-    "target_ru": "хрустальный столб"
-  },
+    "target_ru": "Хрустальный столб070577,
   {
     "id": "070578",
     "source_cn": "波次1",
@@ -3495,8 +3431,7 @@
     "id": "070582",
     "source_cn": "湖之化身",
     "ref_en": "Avatar of the Lake",
-    "target_ru": "воплощение озера"
-  },
+    "target_ru": "Воплощение озера070582,
   {
     "id": "070583",
     "source_cn": "灰雾感知（废弃，改为光环）",
@@ -3567,8 +3502,7 @@
     "id": "070594",
     "source_cn": "红月牌",
     "ref_en": "Red Moon Card",
-    "target_ru": "бренд красной луны"
-  },
+    "target_ru": "Бренд красной луны070594,
   {
     "id": "070595",
     "source_cn": "结果呢，最后就给了我一张解雇通知书，连一句像样的解释都没有。",
@@ -3597,14 +3531,12 @@
     "id": "070599",
     "source_cn": "肉铺大妈",
     "ref_en": "Butcher Shop Lady",
-    "target_ru": "тетя мясного магазина"
-  },
+    "target_ru": "Тетя мясного магазина070599,
   {
     "id": "070600",
     "source_cn": "背包采集物",
     "ref_en": "Inventory Collectible",
-    "target_ru": "коллекция рюкзаков"
-  },
+    "target_ru": "Коллекция рюкзаков070600,
   {
     "id": "070601",
     "source_cn": "茜安2",
@@ -3627,14 +3559,12 @@
     "id": "070604",
     "source_cn": "街头画家画板",
     "ref_en": "Street Artist's Drawing Board",
-    "target_ru": "доска для рисования уличного художника"
-  },
+    "target_ru": "Доска для рисования уличного художника070604,
   {
     "id": "070605",
     "source_cn": "裙子·下",
     "ref_en": "Skirt - Bottom",
-    "target_ru": "юбка·нижняя"
-  },
+    "target_ru": "Юбка·нижняя070605,
   {
     "id": "070606",
     "source_cn": "要是不满意的话，那边也有新鲜的花卖！",
@@ -3789,8 +3719,7 @@
     "id": "070631",
     "source_cn": "<NewRow>文本</>块",
     "ref_en": "<NewRow> Text </> block",
-    "target_ru": "<NewRow> текст </> блок"
-  },
+    "target_ru": "<NewRow> Текст </> блок070631,
   {
     "id": "070632",
     "source_cn": "<P_Heart>（叹息）</>费内波特已经没有大地教会了……而且我早就……",
@@ -3801,8 +3730,7 @@
     "id": "070633",
     "source_cn": "<P_Heart>（脚踢了踢地上的非凡生物）</>失控的非凡动物，最近越来越多，一开始都在野外，最近开始往镇上跑了。",
     "ref_en": "<P_Heart>(Kicks the Beyonder creature on the ground)</> Beyonder creatures losing control—there have been more and more of them lately. At first, they were all in the wild, but recently they've started running into town.",
-    "target_ru": "<P_Heart> (пнул необычное существо по земле) </> В последнее время появляется все больше и больше вышедших из-под контроля необычных животных. Сначала они все были в дикой природе, но в последнее время начали прибегать к городу."
-  },
+    "target_ru": "<P_Heart> (Пнул необычное существо по земле) </> В последнее время появляется все больше и больше вышедших из-под контроля необычных животных. Сначала они все были в дикой природе, но в последнее время начали прибегать к городу.070633,
   {
     "id": "070634",
     "source_cn": "{{先生|女士}}, can you buy a pot of flowers? I... I need to save money for my brother's medical treatment.",
@@ -3885,8 +3813,7 @@
     "id": "070647",
     "source_cn": "信托公司报纸",
     "ref_en": "Trust Company Newspaper",
-    "target_ru": "газета трастовой компании"
-  },
+    "target_ru": "Газета трастовой компании070647,
   {
     "id": "070648",
     "source_cn": "先生，别拒绝我……",
@@ -3945,8 +3872,7 @@
     "id": "070657",
     "source_cn": "卖艺人",
     "ref_en": "Street Performer",
-    "target_ru": "уличный музыкант"
-  },
+    "target_ru": "Уличный музыкант070657,
   {
     "id": "070658",
     "source_cn": "占卜家-普攻三段",
@@ -4017,8 +3943,7 @@
     "id": "070669",
     "source_cn": "城堡中庭",
     "ref_en": "Castle Atrium",
-    "target_ru": "атриум замка"
-  },
+    "target_ru": "Атриум замка070669,
   {
     "id": "070670",
     "source_cn": "奖励说明",
@@ -4113,8 +4038,7 @@
     "id": "070685",
     "source_cn": "心灵读取",
     "ref_en": "Mind Reading",
-    "target_ru": "чтение мыслей"
-  },
+    "target_ru": "Чтение мыслей070685,
   {
     "id": "070686",
     "source_cn": "恩赐词条-护甲-2-2",
@@ -4245,8 +4169,7 @@
     "id": "070707",
     "source_cn": "棺材上的鲜花",
     "ref_en": "Flowers on the Coffin",
-    "target_ru": "цветы на гробу"
-  },
+    "target_ru": "Цветы на гробу070707,
   {
     "id": "070708",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，打开可随机获得一件<Highlight>62装等</>的橙色或金色品质装备，以及可在<Highlight>交易集市</>兑换<Highlight>可交易物装等</>的交易之契，<Highlight>可交易</>非凡橙色装备箱、灰雾尘埃匣、灰雾晶砾匣、金纺线、非凡物质、药品食物等。",
@@ -4257,8 +4180,7 @@
     "id": "070709",
     "source_cn": "泛黄的便笺",
     "ref_en": "Yellowed Note",
-    "target_ru": "пожелтевшая нота"
-  },
+    "target_ru": "Пожелтевшая нота070709,
   {
     "id": "070710",
     "source_cn": "混秩湖-混乱剑挂接开始特效",
@@ -4275,8 +4197,7 @@
     "id": "070712",
     "source_cn": "特效门",
     "ref_en": "Special Effect Gate",
-    "target_ru": "дверь со спецэффектами"
-  },
+    "target_ru": "Дверь со спецэффектами070712,
   {
     "id": "070713",
     "source_cn": "特邀嘉宾——{{PlayerName}}——请注意您的身份，您无权干预演出的正常进行。",
@@ -4371,8 +4292,7 @@
     "id": "070728",
     "source_cn": "能量涌动",
     "ref_en": "Energy Surge",
-    "target_ru": "всплеск энергии"
-  },
+    "target_ru": "Всплеск энергии070728,
   {
     "id": "070729",
     "source_cn": "自身周围范围伤害与击飞",
@@ -4539,8 +4459,7 @@
     "id": "070756",
     "source_cn": "高原战",
     "ref_en": "Highland Battle",
-    "target_ru": "война на плато"
-  },
+    "target_ru": "Война на плато070756,
   {
     "id": "070757",
     "source_cn": "魔女气泡",
@@ -4581,8 +4500,7 @@
     "id": "070763",
     "source_cn": "<P_Heart>（拿出一个粗糙的戒指）</>贝儿小姐，如果你愿意的话，就让我为你戴上这个戒指吧，这是我亲手做的。",
     "ref_en": "<P_Heart>(Taking out a crude ring)</> Miss Belle, if you are willing, let me put this ring on you. I made it myself.",
-    "target_ru": "<P_Heart> (достает грубое кольцо) </> Мисс Белль, если вы согласны, позвольте мне надеть это кольцо для вас. Я сделал это своими руками."
-  },
+    "target_ru": "<P_Heart> (Достает грубое кольцо) </> Мисс Белль, если вы согласны, позвольте мне надеть это кольцо для вас. Я сделал это своими руками.070763,
   {
     "id": "070764",
     "source_cn": "===== End 全平台全场景配置总览 =====",
@@ -4611,8 +4529,7 @@
     "id": "070768",
     "source_cn": "“那位”",
     "ref_en": "\"That One\"",
-    "target_ru": "\"тот самый\""
-  },
+    "target_ru": "\"Тот самый\"070768,
   {
     "id": "070769",
     "source_cn": "……我刚才在想，是不是因为我们想自己开店，想要摆脱原来的生活，才遭受了这些不幸。",
@@ -4653,8 +4570,7 @@
     "id": "070775",
     "source_cn": "乐队3",
     "ref_en": "Band 3",
-    "target_ru": "группа 3"
-  },
+    "target_ru": "Группа 3070775,
   {
     "id": "070776",
     "source_cn": "亲爱的……求求你，开门看我一眼吧。",
@@ -4665,8 +4581,7 @@
     "id": "070777",
     "source_cn": "人品",
     "ref_en": "Character",
-    "target_ru": "персонаж"
-  },
+    "target_ru": "Персонаж070777,
   {
     "id": "070778",
     "source_cn": "人生，乃至世界的所有可能性都蕴含在几个数字里！",
@@ -4785,8 +4700,7 @@
     "id": "070797",
     "source_cn": "到广场",
     "ref_en": "To the Plaza",
-    "target_ru": "на площадь"
-  },
+    "target_ru": "На площадь070797,
   {
     "id": "070798",
     "source_cn": "到底什么人会和他结婚啊！",
@@ -4809,14 +4723,12 @@
     "id": "070801",
     "source_cn": "动作播放",
     "ref_en": "Play Animation",
-    "target_ru": "экшн-игра"
-  },
+    "target_ru": "Экшн-игра070801,
   {
     "id": "070802",
     "source_cn": "十字深巷",
     "ref_en": "Cross Alley",
-    "target_ru": "перейти переулок"
-  },
+    "target_ru": "Перейти переулок070802,
   {
     "id": "070803",
     "source_cn": "原装备拥有稀有词条，替换后将被覆盖消失，是否仍确认用新的结果替换原有？",
@@ -4845,8 +4757,7 @@
     "id": "070807",
     "source_cn": "吠叫",
     "ref_en": "Bark",
-    "target_ru": "лаять"
-  },
+    "target_ru": "Лаять070807,
   {
     "id": "070808",
     "source_cn": "听说新出的面包很好吃，我一定要尝尝！",
@@ -4983,8 +4894,7 @@
     "id": "070830",
     "source_cn": "影杀",
     "ref_en": "Shadow Kill",
-    "target_ru": "теневое убийство"
-  },
+    "target_ru": "Теневое убийство070830,
   {
     "id": "070831",
     "source_cn": "循声5-小子爵",
@@ -5055,8 +4965,7 @@
     "id": "070842",
     "source_cn": "指引trigger01",
     "ref_en": "Guidance Trigger 01",
-    "target_ru": "направляющий триггер01"
-  },
+    "target_ru": "Направляющий триггер01070842,
   {
     "id": "070843",
     "source_cn": "捡起骨笛后",
@@ -5121,8 +5030,7 @@
     "id": "070853",
     "source_cn": "柔和的",
     "ref_en": "Gentle",
-    "target_ru": "мягкий"
-  },
+    "target_ru": "Мягкий070853,
   {
     "id": "070854",
     "source_cn": "树干上刻着深深浅浅的文字，旁边划了很多条\\n计数的竖纹，宛如未完成的仪式符文。\\n\\n<P_Yellow>“翻开笔记。”</>\\n\\n但是文字被反复划去。",
@@ -5145,8 +5053,7 @@
     "id": "070857",
     "source_cn": "污染区域",
     "ref_en": "Polluted Area",
-    "target_ru": "загрязненная территория"
-  },
+    "target_ru": "Загрязненная территория070857,
   {
     "id": "070858",
     "source_cn": "测试-扩散毒水",
@@ -5181,8 +5088,7 @@
     "id": "070863",
     "source_cn": "珠宝",
     "ref_en": "Jewelry",
-    "target_ru": "ювелирные изделия"
-  },
+    "target_ru": "Ювелирные изделия070863,
   {
     "id": "070864",
     "source_cn": "班森近4",
@@ -5235,8 +5141,7 @@
     "id": "070872",
     "source_cn": "粉",
     "ref_en": "Fan",
-    "target_ru": "порошок"
-  },
+    "target_ru": "Порошок070872,
   {
     "id": "070873",
     "source_cn": "精彩剧情更新",
@@ -5295,8 +5200,7 @@
     "id": "070882",
     "source_cn": "致命一击",
     "ref_en": "Critical Hit",
-    "target_ru": "смертельный удар"
-  },
+    "target_ru": "Смертельный удар070882,
   {
     "id": "070883",
     "source_cn": "艺术学派系统暂未解锁，达到40级后开放。",
@@ -5367,8 +5271,7 @@
     "id": "070894",
     "source_cn": "重新接取",
     "ref_en": "Re-accept",
-    "target_ru": "повторно принять"
-  },
+    "target_ru": "Повторно принять070894,
   {
     "id": "070895",
     "source_cn": "铁火工坊11级",
@@ -5409,8 +5312,7 @@
     "id": "070901",
     "source_cn": "魔法伤害",
     "ref_en": "Magic Damage",
-    "target_ru": "магический урон"
-  },
+    "target_ru": "Магический урон070901,
   {
     "id": "070902",
     "source_cn": "  我给它制作了一些饲料，混合了莓果、柑橘。它很满意，看来我的方向是正确的。吃完这些之后，我宣布了它的名字，吉米尼没有表示反对。这是我们羁绊加深的开始。",
@@ -5463,14 +5365,12 @@
     "id": "070910",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"22\">唤醒</>消散的小队或团队队友，使其在观众施法位置复苏并回复其50%生命。",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"22\"> Awaken </> dissipated squad or team members, causing them to revive at the Spectator's casting position and restore 50% of their Health.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"22\"> пробуждает </> рассеявшийся отряд или товарищей по команде, воскрешая их в позиции зрителя и восстанавливая 50% их здоровья."
-  },
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"22\"> Пробуждает </> рассеявшийся отряд или товарищей по команде, воскрешая их в позиции зрителя и восстанавливая 50% их здоровья.070910,
   {
     "id": "070911",
     "source_cn": "<P_Heart>（激动）</>我不是吸血鬼！",
     "ref_en": "<P_Heart>(Excitedly)</> I am not a vampire!",
-    "target_ru": "<P_Heart> (взволнованно) </>Я не вампир!"
-  },
+    "target_ru": "<P_Heart> (Взволнованно) </>Я не вампир!070911,
   {
     "id": "070912",
     "source_cn": "<P_Heart>（突然传来一阵异响）</>你……能听到我的声音？",
@@ -5541,8 +5441,7 @@
     "id": "070923",
     "source_cn": "亲爱的非凡者：\\n      我们留意到，关于调研问卷3，您已通过您所持有的另一重身份给予了我们宝贵的建议。依照约定，本次的答谢礼将由灵界信使直接为您送至邮箱，请您查收。\\n      若您希望以当前的身份再次留下您的意见，也可以继续通过邮件中的隐秘通道传递您的想法，我们始终欢迎您的建议。\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">公测调研问卷3</>\\n      感谢您对这段旅程的见证，愿灵性为您指引前路。",
     "ref_en": "Dear Beyonder:\\n      We have noticed that regarding Survey 3, you have already provided us with valuable suggestions through another identity you hold. According to the agreement, this thank-you gift will be sent directly to your mailbox by a Spirit World Messenger. Please check it. \\n      If you wish to leave your opinions again with your current identity, you can continue to convey your thoughts through the secret channel in the email. We always welcome your suggestions. \\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Public Beta Survey 3</>\\n      Thank you for witnessing this journey. May your spirituality guide your path.",
-    "target_ru": "Дорогой экстраординарный человек: \n Мы заметили, что относительно Анкеты 3 вы дали нам ценные предложения через другую личность, которой вы владеете. Согласно договоренности, этот подарок-благодарность будет отправлен прямо на ваш почтовый ящик посланником из мира духов, проверьте это. \n Если вы хотите снова оставлять свои комментарии в своем нынешнем качестве, вы также можете продолжать выражать свои мысли через частный канал в электронном письме. Мы всегда рады вашим предложениям. \n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Анкета публичного бета-опроса 3</>\n Благодарим вас за свидетельство об этом путешествии, и пусть духовность направляет вас на пути вперед."
-  },
+    "target_ru": "Дорогой экстраординарный человек: \n Мы заметили, что относительно Анкеты 3 вы дали нам ценные предложения через другую личность, которой вы владеете. Согласно договоренности, этот подарок-благодарность будет отправлен прямо на ваш почтовый ящик посланником из Мира Духов, проверьте это. \n Если вы хотите снова оставлять свои комментарии в своем нынешнем качестве, вы также можете продолжать выражать свои мысли через частный канал в электронном письме. Мы всегда рады вашим предложениям. \n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Анкета публичного бета-опроса 3</>\n Благодарим вас за свидетельство об этом путешествии, и пусть духовность направляет вас на пути вперед.070923,
   {
     "id": "070924",
     "source_cn": "他的智商还不如卷毛狒狒，却总能想出各种理由涨房租。",
@@ -5595,8 +5494,7 @@
     "id": "070932",
     "source_cn": "冰冷射线",
     "ref_en": "Chilling Ray",
-    "target_ru": "ледяной луч"
-  },
+    "target_ru": "Ледяной луч070932,
   {
     "id": "070933",
     "source_cn": "击杀困难难度瑞尔比伯",
@@ -5739,8 +5637,7 @@
     "id": "070956",
     "source_cn": "女乘客",
     "ref_en": "Female passenger",
-    "target_ru": "женщина-пассажир"
-  },
+    "target_ru": "Женщина-пассажир070956,
   {
     "id": "070957",
     "source_cn": "子璇",
@@ -5781,8 +5678,7 @@
     "id": "070963",
     "source_cn": "开会",
     "ref_en": "Meeting",
-    "target_ru": "встреча"
-  },
+    "target_ru": "Встреча070963,
   {
     "id": "070964",
     "source_cn": "引导销毁触发器",
@@ -5853,8 +5749,7 @@
     "id": "070975",
     "source_cn": "投资者",
     "ref_en": "Investor",
-    "target_ru": "инвестор"
-  },
+    "target_ru": "Инвестор070975,
   {
     "id": "070976",
     "source_cn": "拉娅·",
@@ -5901,8 +5796,7 @@
     "id": "070983",
     "source_cn": "旺斯",
     "ref_en": "Vance",
-    "target_ru": "ванс"
-  },
+    "target_ru": "Ванс070983,
   {
     "id": "070984",
     "source_cn": "星云咏叹伤害增加160%。",
@@ -5919,8 +5813,7 @@
     "id": "070986",
     "source_cn": "期待星座",
     "ref_en": "Constellation of Expectation",
-    "target_ru": "ожидать гороскоп"
-  },
+    "target_ru": "Ожидать гороскоп070986,
   {
     "id": "070987",
     "source_cn": "来跟我一起祈求，这样才能获得许可……",
@@ -5931,8 +5824,7 @@
     "id": "070988",
     "source_cn": "正常赛琳娜",
     "ref_en": "Normal Selena",
-    "target_ru": "нормальная Селена"
-  },
+    "target_ru": "Нормальная Селена070988,
   {
     "id": "070989",
     "source_cn": "残1",
@@ -5967,8 +5859,7 @@
     "id": "070994",
     "source_cn": "渐入ID",
     "ref_en": "Fade-in ID",
-    "target_ru": "идентификатор постепенного появления"
-  },
+    "target_ru": "Идентификатор постепенного появления070994,
   {
     "id": "070995",
     "source_cn": "班森：搬家真是太累了……",
@@ -6015,8 +5906,7 @@
     "id": "071002",
     "source_cn": "穿洋装的少女",
     "ref_en": "Young lady in a Western-style dress",
-    "target_ru": "девушка в платье"
-  },
+    "target_ru": "Девушка в платье071002,
   {
     "id": "071003",
     "source_cn": "第1节·回应梅丽莎",
@@ -6045,8 +5935,7 @@
     "id": "071007",
     "source_cn": "脆弱的禁忌",
     "ref_en": "Fragile Taboo",
-    "target_ru": "хрупкое табу"
-  },
+    "target_ru": "Хрупкое табу071007,
   {
     "id": "071008",
     "source_cn": "自定义方案2/3",
@@ -6081,8 +5970,7 @@
     "id": "071013",
     "source_cn": "蒸汽迸发",
     "ref_en": "Steam Burst",
-    "target_ru": "паровой удар"
-  },
+    "target_ru": "Паровой удар071013,
   {
     "id": "071014",
     "source_cn": "虽然是作为文职人员，但也有不错的薪水，令人心动……",
@@ -6267,8 +6155,7 @@
     "id": "071044",
     "source_cn": "<Synthesis>可合成</>",
     "ref_en": "<Synthesis>Synthesizable</>",
-    "target_ru": "<Synthesis> можно синтезировать в </>."
-  },
+    "target_ru": "<Synthesis> Можно синтезировать в </>.071044,
   {
     "id": "071045",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>玩法介绍</>\\n愚者棋局为组队竞技玩法，最多可组成8人队伍参与匹配。进入愚者棋局玩法后，所有非凡者<Highlight>挑选棋子出场战斗</>，并通过<Highlight>凑齐羁绊、提升棋子星级</>来提升强度，最终击败所有对手。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>获胜条件</>\\n进入玩法后，淘汰的非凡者可以继续留在场上<Highlight>旁观</>其他非凡者。非凡者需要通过棋子对战，击败其他所有非凡者的棋子阵容，才能取得对局胜利。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>组队规则</>\\n多人组队时，将按照<Highlight>队伍内最高段位非凡者</>的水平开始匹配。若组队人数大于等于6人，则非凡者无法获得胜点。",
@@ -6315,8 +6202,7 @@
     "id": "071052",
     "source_cn": "以及你。",
     "ref_en": "And you.",
-    "target_ru": "и ты."
-  },
+    "target_ru": "И ты.071052,
   {
     "id": "071053",
     "source_cn": "以手中之剑刺破世间之恶。",
@@ -6447,8 +6333,7 @@
     "id": "071074",
     "source_cn": "命中标记",
     "ref_en": "Hit Mark",
-    "target_ru": "метка попадания"
-  },
+    "target_ru": "Метка попадания071074,
   {
     "id": "071075",
     "source_cn": "咖啡都凉了……",
@@ -6465,8 +6350,7 @@
     "id": "071077",
     "source_cn": "固定模式",
     "ref_en": "Fixed Mode",
-    "target_ru": "фиксированный шаблон"
-  },
+    "target_ru": "Фиксированный шаблон071077,
   {
     "id": "071078",
     "source_cn": "在对应的SkillAgent的配置FollowAttachTargetYaw=false的时候，生效",
@@ -6477,14 +6361,12 @@
     "id": "071079",
     "source_cn": "天真烂漫",
     "ref_en": "Innocent and Naive",
-    "target_ru": "невинный"
-  },
+    "target_ru": "Невинный071079,
   {
     "id": "071080",
     "source_cn": "奇怪的桶",
     "ref_en": "Strange Barrel",
-    "target_ru": "странное ведро"
-  },
+    "target_ru": "Странное ведро071080,
   {
     "id": "071081",
     "source_cn": "好友关系变更",
@@ -6609,14 +6491,12 @@
     "id": "071101",
     "source_cn": "暴躁的声音",
     "ref_en": "Irritable voice",
-    "target_ru": "сварливый голос"
-  },
+    "target_ru": "Сварливый голос071101,
   {
     "id": "071102",
     "source_cn": "最后蜡烛1",
     "ref_en": "Last candle 1",
-    "target_ru": "последняя свеча 1"
-  },
+    "target_ru": "Последняя свеча 1071102,
   {
     "id": "071103",
     "source_cn": "来一颗",
@@ -6645,8 +6525,7 @@
     "id": "071107",
     "source_cn": "洗衣妇1",
     "ref_en": "Laundress 1",
-    "target_ru": "прачка 1"
-  },
+    "target_ru": "Прачка 1071107,
   {
     "id": "071108",
     "source_cn": "猫猫专属宝箱",
@@ -6663,8 +6542,7 @@
     "id": "071110",
     "source_cn": "现在",
     "ref_en": "Present",
-    "target_ru": "сейчас"
-  },
+    "target_ru": "Сейчас071110,
   {
     "id": "071111",
     "source_cn": "磐石6",
@@ -6687,8 +6565,7 @@
     "id": "071114",
     "source_cn": "突破",
     "ref_en": "Ascend",
-    "target_ru": "прорыв"
-  },
+    "target_ru": "Прорыв071114,
   {
     "id": "071115",
     "source_cn": "童语",
@@ -6699,14 +6576,12 @@
     "id": "071116",
     "source_cn": "等一下 has bid",
     "ref_en": "Wait a moment has bid",
-    "target_ru": "подождите, сделал ставку"
-  },
+    "target_ru": "Подождите, сделал ставку071116,
   {
     "id": "071117",
     "source_cn": "给我看看",
     "ref_en": "Let me see",
-    "target_ru": "покажи мне"
-  },
+    "target_ru": "Покажи мне071117,
   {
     "id": "071118",
     "source_cn": "罗塞尔Boss-3阶段-自清洁程序-数字怪buff",
@@ -6837,8 +6712,7 @@
     "id": "071139",
     "source_cn": "阿蒙路径点",
     "ref_en": "Amon Waypoint",
-    "target_ru": "амон путевая точка"
-  },
+    "target_ru": "Амон путевая точка071139,
   {
     "id": "071140",
     "source_cn": "随机灵质",
@@ -6891,14 +6765,12 @@
     "id": "071148",
     "source_cn": "<Assistant_Title1>【Beyonder Rating】</>\\n<Assistant_Title2>Rating Explanation: </>Click <Assistant_System>Menu - Character - Beyonder Rating</> to view your current character's Beyonder Rating. The Beyonder Rating is an indicator of your character's development and combat strength.\\n<Assistant_Title2>Rating Guide: </>After entering the Beyonder Rating system, you can view the <Assistant_Red>development percentage</> of each system. Modules with lower percentages are recommended for improvement (percentages only indicate recommended modules based on your current status; some content can still be improved after reaching 100%).\\n<Assistant_Title2>How to Improve: </>In the Beyonder Rating system, click the module you want to improve to see the required <Assistant_Red>development materials</> and <Assistant_Red>acquisition methods</>; click the \"Go\" button to navigate to the corresponding system; click the \"Strategy\" button to open the strategy site.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[途径评分]|503}, {SendAnswer:[装备评分]|504}, {SendAnswer:[封印物评分]|505}, {SendAnswer:[非凡人物评分]|506}, {SendAnswer:[推荐方案]|507}",
     "ref_en": "<Assistant_Title1>【Beyonder Rating】</>\\n<Assistant_Title2>Rating Explanation: </>Click <Assistant_System>Menu - Character - Beyonder Rating</> to view your current character's Beyonder Rating. The Beyonder Rating is an indicator of your character's development and combat strength.\\n<Assistant_Title2>Rating Guide: </>After entering the Beyonder Rating system, you can view the <Assistant_Red>development percentage</> of each system. Modules with lower percentages are recommended for improvement (percentages only indicate recommended modules based on your current status; some content can still be improved after reaching 100%).\\n<Assistant_Title2>How to Improve: </>In the Beyonder Rating system, click the module you want to improve to see the required <Assistant_Red>development materials</> and <Assistant_Red>acquisition methods</>; click the \"Go\" button to navigate to the corresponding system; click the \"Strategy\" button to open the strategy site.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Pathway Rating]|503}, {SendAnswer:[Equipment Rating]|504}, {SendAnswer:[Sealed Artifact Rating]|505}, {SendAnswer:[Beyonder Character Rating]|506}, {SendAnswer:[Recommended Builds]|507}",
-    "target_ru": "<Assistant_Title1>【Рейтинг Beyonder】</>\n<Assistant_Title2>Пояснение рейтинга: </>Нажмите <Assistant_System>Меню - Персонаж - Рейтинг Beyonder</>, чтобы просмотреть рейтинг Beyonder вашего текущего персонажа. Рейтинг Beyonder является показателем развития и боевой мощи вашего персонажа.\n<Assistant_Title2>Руководство по рейтингу: </>После входа в систему рейтинга Beyonder вы можете просмотреть <Assistant_Red>процент развития</> каждой системы. Модули с более низким процентом рекомендуются для улучшения (проценты указывают только рекомендуемые модули в зависимости от вашего текущего статуса; некоторый контент все еще можно улучшить после достижения 100%).\n<Assistant_Title2>Как улучшить: </>В системе рейтинга Beyonder щелкните модуль, который вы хотите улучшить, чтобы увидеть необходимые <Assistant_Red>материалы для разработки</> и <Assistant_Red>методы приобретения</>; нажмите кнопку «Перейти», чтобы перейти к соответствующей системе; нажмите кнопку «Стратегия», чтобы открыть сайт стратегии.\n<Assistant_Title3>Рекомендуемые поисковые запросы: </>{SendAnswer:[Рейтинг пути]|503}, {SendAnswer:[Рейтинг оборудования]|504}, {SendAnswer:[Рейтинг запечатанного артефакта]|505}, {SendAnswer:[Выдающийся человек] рейтинг]|506}, {SendAnswer:[Рекомендуемый план]|507}"
-  },
+    "target_ru": "<Assistant_Title1>【Рейтинг Beyonder】</>\n<Assistant_Title2>Пояснение рейтинга: </>Нажмите <Assistant_System>Меню - Персонаж - Рейтинг Beyonder</>, чтобы просмотреть рейтинг Beyonder вашего текущего персонажа. Рейтинг Beyonder является показателем развития и боевой мощи вашего персонажа.\n<Assistant_Title2>Руководство по рейтингу: </>После входа в систему рейтинга Beyonder вы можете просмотреть <Assistant_Red>процент развития</> каждой системы. Модули с более низким процентом рекомендуются для улучшения (проценты указывают только рекомендуемые модули в зависимости от вашего текущего статуса; некоторый контент все еще можно улучшить после достижения 100%).\n<Assistant_Title2>Как улучшить: </>В системе рейтинга Beyonder щелкните модуль, который вы хотите улучшить, чтобы увидеть необходимые <Assistant_Red>материалы для разработки</> и <Assistant_Red>методы приобретения</>; нажмите кнопку «Перейти», чтобы перейти к соответствующей системе; нажмите кнопку «Стратегия», чтобы открыть сайт стратегии.\n<Assistant_Title3>Рекомендуемые поисковые запросы: </>{SendAnswer:[Рейтинг пути]|503}, {SendAnswer:[Рейтинг оборудования]|504}, {SendAnswer:[Рейтинг Запечатанного Артефакта]|505}, {SendAnswer:[Выдающийся человек] рейтинг]|506}, {SendAnswer:[Рекомендуемый план]|507}071148,
   {
     "id": "071149",
     "source_cn": "<Assistant_Title1>【今夜好眠】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>扮演故事</>\\n<Assistant_Title2>任务描述：</>深夜的街道上，年轻人马丁因目睹工厂锅炉爆炸事故而饱受失眠折磨。作为心理医生，你需要对他进行心理安抚。\\n<Assistant_Title2>领取方式：</>晋升至序列7，前往{Location:[廷根(1010,1309)]|1049;31418;-2608;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、世界冒险秘宝进度，冒险勋章，发票单据",
     "ref_en": "<Assistant_Title1>[A Good Night's Sleep]</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Roleplay Story</>\\n<Assistant_Title2>Quest Description: </>On the streets late at night, a young man named Martin is suffering from insomnia after witnessing a factory boiler explosion. As a psychologist, you need to provide him with psychological pacification.\\n<Assistant_Title2>How to Accept: </>Advance to Sequence 7 and head to {Location:[Tingen(1010,1309)]|1049;31418;-2608;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, World Adventure Treasure Progress, Adventure Medal, Invoice Receipt",
-    "target_ru": "<Assistant_Title1>【Спать сегодня вечером】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Игра в историю</>\n<Assistant_Title2>Описание задания: </>Поздно ночью на улице юный Мартин страдал от бессонницы после того, как стал свидетелем взрыва заводского котла. Вы как психиатр должны обеспечить ему психологический комфорт. \n<Assistant_Title2> Как получить: </> Перейдите к последовательности 7, перейдите в {Местоположение:[Tinggen(1010,1309)]|1049;31418;-2608;2;5200002;0}, чтобы активировать задание \n<Assistant_Title2>Награды за задание</>: познавательный опыт, мир приключений, секретное сокровище, прогресс, приключение медали, счета"
-  },
+    "target_ru": "<Assistant_Title1>【Спать сегодня вечером】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Игра в историю</>\n<Assistant_Title2>Описание задания: </>Поздно ночью на улице юный Мартин страдал от бессонницы после того, как стал свидетелем взрыва заводского котла. Вы как психиатр должны обеспечить ему психологический комфорт. \n<Assistant_Title2> Как получить: </> Перейдите к Последовательности 7, перейдите в {Местоположение:[Tinggen(1010,1309)]|1049;31418;-2608;2;5200002;0}, чтобы активировать задание \n<Assistant_Title2>Награды за задание</>: познавательный опыт, мир приключений, секретное сокровище, прогресс, приключение медали, счета071149,
   {
     "id": "071150",
     "source_cn": "<Assistant_Title1>炼金学徒</>\\n<Assistant_Title2>成就分类：</>养成-装备\\n<Assistant_Title2>解锁条件：</>所有装备精炼度达到25%",
@@ -6927,8 +6799,7 @@
     "id": "071154",
     "source_cn": "<P_Heart>（心情低落）</>吼……",
     "ref_en": "<P_Heart>(Feeling down)</> Roar...",
-    "target_ru": "<P_Heart> (чувствуя себя подавленным) </> рев..."
-  },
+    "target_ru": "<P_Heart> (Чувствуя себя подавленным) </> рев...071154,
   {
     "id": "071155",
     "source_cn": "<P_Heart>（必须阻止他们。不过，最好先确认一下风险……）</>",
@@ -6945,14 +6816,12 @@
     "id": "071157",
     "source_cn": "<P_Heart>（打量你）</>你也是占卜师？看起来和俱乐部那些人不太一样。",
     "ref_en": "<P_Heart> (Sizes you up) </> Are you a diviner too? You look a bit different from the people in the club.",
-    "target_ru": "<P_Heart> (смотрит на тебя) </> Ты тоже гадалка? Они не похожи на тех, кто в клубе."
-  },
+    "target_ru": "<P_Heart> (Смотрит на тебя) </> Ты тоже гадалка? Они не похожи на тех, кто в клубе.071157,
   {
     "id": "071158",
     "source_cn": "trigger-到达南瓜摊",
     "ref_en": "Trigger: Arrive at Pumpkin Stall",
-    "target_ru": "триггер-прибытие на киоск с тыквами"
-  },
+    "target_ru": "Триггер-прибытие на киоск с тыквами071158,
   {
     "id": "071159",
     "source_cn": "{{先生|女士}}, your wallet!",
@@ -6987,8 +6856,7 @@
     "id": "071164",
     "source_cn": "为了美食",
     "ref_en": "For gourmet food",
-    "target_ru": "за вкусную еду"
-  },
+    "target_ru": "За вкусную еду071164,
   {
     "id": "071165",
     "source_cn": "五月庄园",
@@ -7119,14 +6987,12 @@
     "id": "071186",
     "source_cn": "场景",
     "ref_en": "Scene",
-    "target_ru": "сцена"
-  },
+    "target_ru": "Сцена071186,
   {
     "id": "071187",
     "source_cn": "坐骑",
     "ref_en": "Mount",
-    "target_ru": "монтировать"
-  },
+    "target_ru": "Монтировать071187,
   {
     "id": "071188",
     "source_cn": "大腿粗细",
@@ -7137,8 +7003,7 @@
     "id": "071189",
     "source_cn": "好好享受\\r\\n你的自由吧",
     "ref_en": "Enjoy\\r\\nyour freedom",
-    "target_ru": "наслаждаться\nВаша свобода"
-  },
+    "target_ru": "Наслаждаться\nВаша свобода071189,
   {
     "id": "071190",
     "source_cn": "妈妈，不要抛下安西娅——",
@@ -7179,8 +7044,7 @@
     "id": "071196",
     "source_cn": "小鸟",
     "ref_en": "Little Bird",
-    "target_ru": "птичка"
-  },
+    "target_ru": "Птичка071196,
   {
     "id": "071197",
     "source_cn": "就快到了……",
@@ -7203,14 +7067,12 @@
     "id": "071200",
     "source_cn": "幕布",
     "ref_en": "Curtain",
-    "target_ru": "занавес"
-  },
+    "target_ru": "Занавес071200,
   {
     "id": "071201",
     "source_cn": "幽灵猎杀",
     "ref_en": "Ghost Hunt",
-    "target_ru": "охота за привидениями"
-  },
+    "target_ru": "Охота за привидениями071201,
   {
     "id": "071202",
     "source_cn": "幽烛低语",
@@ -7275,14 +7137,12 @@
     "id": "071212",
     "source_cn": "我将拥有一切",
     "ref_en": "I will possess everything.",
-    "target_ru": "у меня будет все"
-  },
+    "target_ru": "У меня будет все071212,
   {
     "id": "071213",
     "source_cn": "我的货物",
     "ref_en": "My Cargo",
-    "target_ru": "мои товары"
-  },
+    "target_ru": "Мои товары071213,
   {
     "id": "071214",
     "source_cn": "所谓真相，只存在于你所想看到的视角。",
@@ -7311,8 +7171,7 @@
     "id": "071218",
     "source_cn": "拾取发光的东西",
     "ref_en": "Pick up glowing things",
-    "target_ru": "подбирайте блестящие вещи"
-  },
+    "target_ru": "Подбирайте блестящие вещи071218,
   {
     "id": "071219",
     "source_cn": "搞不明白你是怎么想的……",
@@ -7329,8 +7188,7 @@
     "id": "071221",
     "source_cn": "敬畏命运",
     "ref_en": "Awe of fate",
-    "target_ru": "уважать судьбу"
-  },
+    "target_ru": "Уважать судьбу071221,
   {
     "id": "071222",
     "source_cn": "文字版ZZ",
@@ -7341,8 +7199,7 @@
     "id": "071223",
     "source_cn": "无人能挡",
     "ref_en": "Unstoppable",
-    "target_ru": "неудержимый"
-  },
+    "target_ru": "Неудержимый071223,
   {
     "id": "071224",
     "source_cn": "是否开启改名功能",
@@ -7353,8 +7210,7 @@
     "id": "071225",
     "source_cn": "最后一个镜头",
     "ref_en": "Final shot",
-    "target_ru": "последний выстрел"
-  },
+    "target_ru": "Последний выстрел071225,
   {
     "id": "071226",
     "source_cn": "有些人，要么成名，要么消失……",
@@ -7377,8 +7233,7 @@
     "id": "071229",
     "source_cn": "母亲三8市民",
     "ref_en": "Mother Three 8 Citizen",
-    "target_ru": "мать трое 8 граждан"
-  },
+    "target_ru": "Мать трое 8 граждан071229,
   {
     "id": "071230",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>68装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
@@ -7395,8 +7250,7 @@
     "id": "071232",
     "source_cn": "求爱男青年",
     "ref_en": "Young man courting",
-    "target_ru": "ухаживание за молодыми людьми"
-  },
+    "target_ru": "Ухаживание за молодыми людьми071232,
   {
     "id": "071233",
     "source_cn": "激情竞技",
@@ -7407,8 +7261,7 @@
     "id": "071234",
     "source_cn": "灯光颜色",
     "ref_en": "Light Color",
-    "target_ru": "светлый цвет"
-  },
+    "target_ru": "Светлый цвет071234,
   {
     "id": "071235",
     "source_cn": "点亮最后一根火柴",
@@ -7437,8 +7290,7 @@
     "id": "071239",
     "source_cn": "现在，跟我来做些准备——带上封印物。",
     "ref_en": "Now, come with me to make some preparations—bring the Sealed Artifact.",
-    "target_ru": "А теперь пойдем со мной, чтобы сделать кое-какие приготовления — принеси запечатанный артефакт."
-  },
+    "target_ru": "А теперь пойдем со мной, чтобы сделать кое-какие приготовления — принеси Запечатанный Артефакт.071239,
   {
     "id": "071240",
     "source_cn": "琳达第二环、第四环",
@@ -7455,8 +7307,7 @@
     "id": "071242",
     "source_cn": "神志不清的工人",
     "ref_en": "Delirious worker",
-    "target_ru": "бредящий рабочий"
-  },
+    "target_ru": "Бредящий рабочий071242,
   {
     "id": "071243",
     "source_cn": "离开采集物",
@@ -7473,14 +7324,12 @@
     "id": "071245",
     "source_cn": "纯露",
     "ref_en": "Hydrosol",
-    "target_ru": "гидрозоль"
-  },
+    "target_ru": "Гидрозоль071245,
   {
     "id": "071246",
     "source_cn": "给它食物",
     "ref_en": "Give it food",
-    "target_ru": "дайте ему еды"
-  },
+    "target_ru": "Дайте ему еды071246,
   {
     "id": "071247",
     "source_cn": "耳朵整体",
@@ -7545,14 +7394,12 @@
     "id": "071257",
     "source_cn": "角落",
     "ref_en": "Corner",
-    "target_ru": "угол"
-  },
+    "target_ru": "Угол071257,
   {
     "id": "071258",
     "source_cn": "警察鼠",
     "ref_en": "Police Rat",
-    "target_ru": "полицейская крыса"
-  },
+    "target_ru": "Полицейская крыса071258,
   {
     "id": "071259",
     "source_cn": "认识？我们几个一起长大，一直吃不饱饭。",
@@ -7623,8 +7470,7 @@
     "id": "071270",
     "source_cn": "金属链",
     "ref_en": "Metal Chain",
-    "target_ru": "металлическая цепь"
-  },
+    "target_ru": "Металлическая цепь071270,
   {
     "id": "071271",
     "source_cn": "铁骑",
@@ -7653,14 +7499,12 @@
     "id": "071275",
     "source_cn": "隐藏门",
     "ref_en": "Hidden door",
-    "target_ru": "скрытая дверь"
-  },
+    "target_ru": "Скрытая дверь071275,
   {
     "id": "071276",
     "source_cn": "高原巨魔",
     "ref_en": "Highland Troll",
-    "target_ru": "плато тролль"
-  },
+    "target_ru": "Плато тролль071276,
   {
     "id": "071277",
     "source_cn": "鱿鱼带鱼比目鱼，生蚝牡蛎梭子蟹，应有尽有！",
@@ -7779,14 +7623,12 @@
     "id": "071296",
     "source_cn": "一本书",
     "ref_en": "A book",
-    "target_ru": "книга"
-  },
+    "target_ru": "Книга071296,
   {
     "id": "071297",
     "source_cn": "世界……",
     "ref_en": "The world...",
-    "target_ru": "мир..."
-  },
+    "target_ru": "Мир...071297,
   {
     "id": "071298",
     "source_cn": "东南安全区trigger",
@@ -7863,8 +7705,7 @@
     "id": "071310",
     "source_cn": "光盾",
     "ref_en": "Light Shield",
-    "target_ru": "легкий щит"
-  },
+    "target_ru": "Легкий щит071310,
   {
     "id": "071311",
     "source_cn": "克里斯蒂娜和梅高欧丝对话",
@@ -7935,8 +7776,7 @@
     "id": "071322",
     "source_cn": "嗨氏",
     "ref_en": "Haisi",
-    "target_ru": "привет"
-  },
+    "target_ru": "Привет071322,
   {
     "id": "071323",
     "source_cn": "因灵魂被分割，阿兹克·艾格斯陷入死亡与复活的轮回。",
@@ -8055,14 +7895,12 @@
     "id": "071342",
     "source_cn": "战士1",
     "ref_en": "Warrior 1",
-    "target_ru": "воин 1"
-  },
+    "target_ru": "Воин 1071342,
   {
     "id": "071343",
     "source_cn": "手纱",
     "ref_en": "Hand Veil",
-    "target_ru": "ручная пряжа"
-  },
+    "target_ru": "Ручная пряжа071343,
   {
     "id": "071344",
     "source_cn": "抱胸坐姿",
@@ -8079,8 +7917,7 @@
     "id": "071346",
     "source_cn": "指引trigger02",
     "ref_en": "Guidance trigger02",
-    "target_ru": "направляющий триггер02"
-  },
+    "target_ru": "Направляющий триггер02071346,
   {
     "id": "071347",
     "source_cn": "时间的沉淀，让平凡之物也能承载非凡。",
@@ -8127,8 +7964,7 @@
     "id": "071354",
     "source_cn": "残存意志1",
     "ref_en": "Residual Will 1",
-    "target_ru": "останется 1"
-  },
+    "target_ru": "Останется 1071354,
   {
     "id": "071355",
     "source_cn": "法术如无声低语，符号则是力量容器。",
@@ -8169,14 +8005,12 @@
     "id": "071361",
     "source_cn": "特写_叹气",
     "ref_en": "Close-up_sigh",
-    "target_ru": "крупный план_вздох"
-  },
+    "target_ru": "Крупный план_вздох071361,
   {
     "id": "071362",
     "source_cn": "环境光强度",
     "ref_en": "Ambient light intensity",
-    "target_ru": "интенсивность окружающего света"
-  },
+    "target_ru": "Интенсивность окружающего света071362,
   {
     "id": "071363",
     "source_cn": "班森近3",
@@ -8205,8 +8039,7 @@
     "id": "071367",
     "source_cn": "眼镜片",
     "ref_en": "Lens",
-    "target_ru": "очковые линзы"
-  },
+    "target_ru": "Очковые линзы071367,
   {
     "id": "071368",
     "source_cn": "知识……指引我……",
@@ -8247,8 +8080,7 @@
     "id": "071374",
     "source_cn": "等待到深夜",
     "ref_en": "Wait Until Late Night",
-    "target_ru": "подожди до поздней ночи"
-  },
+    "target_ru": "Подожди до поздней ночи071374,
   {
     "id": "071375",
     "source_cn": "结束特殊动画后进入的idle动画",
@@ -8403,8 +8235,7 @@
     "id": "071400",
     "source_cn": "<P_Heart>（微笑）</>我看得出来，你一定会全力以赴。而你的实力想必也足以佐证我的话语。",
     "ref_en": "<P_Heart> (Smiles) </> I can tell that you will definitely give it your all. And your strength must also be enough to substantiate my words.",
-    "target_ru": "<P_Heart> (улыбается) </> Я вижу, что ты приложишь все усилия. И твоей силы должно хватить, чтобы поддержать мои слова."
-  },
+    "target_ru": "<P_Heart> (Улыбается) </> Я вижу, что ты приложишь все усилия. И твоей силы должно хватить, чтобы поддержать мои слова.071400,
   {
     "id": "071401",
     "source_cn": "<P_Heart>（警察徽章……或许能帮我进入地下市场？找酒吧老板</><P_Yellow>斯维因</><P_Heart>，伪装警官？）</>",
@@ -8421,8 +8252,7 @@
     "id": "071403",
     "source_cn": "<h>阻止</>老妇人",
     "ref_en": "<h>Stop</> the old woman",
-    "target_ru": "<h>block</>старуха"
-  },
+    "target_ru": "<h>Block</>старуха071403,
   {
     "id": "071404",
     "source_cn": "Respected {{先生|小姐}}, since you arrived here, I have watched this castle gradually come to life; it is truly gratifying. Look at this rye beer, how fragrant it smells!",
@@ -8541,8 +8371,7 @@
     "id": "071423",
     "source_cn": "劝说吉尔达",
     "ref_en": "Persuade Gilda",
-    "target_ru": "убедить Гильду"
-  },
+    "target_ru": "Убедить Гильду071423,
   {
     "id": "071424",
     "source_cn": "升级·酒庄",
@@ -8565,8 +8394,7 @@
     "id": "071427",
     "source_cn": "去染色",
     "ref_en": "Go to Dye",
-    "target_ru": "запятнать"
-  },
+    "target_ru": "Запятнать071427,
   {
     "id": "071428",
     "source_cn": "参加舞会",
@@ -8709,8 +8537,7 @@
     "id": "071451",
     "source_cn": "恋人牌",
     "ref_en": "The Lovers",
-    "target_ru": "любовная карта"
-  },
+    "target_ru": "Любовная карта071451,
   {
     "id": "071452",
     "source_cn": "您身上的香水是哪瓶呢？",
@@ -8757,8 +8584,7 @@
     "id": "071459",
     "source_cn": "抓住月亮木偶",
     "ref_en": "Catch Moon Puppet",
-    "target_ru": "поймай лунную куклу"
-  },
+    "target_ru": "Поймай лунную куклу071459,
   {
     "id": "071460",
     "source_cn": "报名后，不可撤回上场投影",
@@ -8787,8 +8613,7 @@
     "id": "071464",
     "source_cn": "持续掉血buff",
     "ref_en": "Continuous HP Loss buff",
-    "target_ru": "усиление непрерывной кровопотери"
-  },
+    "target_ru": "Усиление непрерывной кровопотери071464,
   {
     "id": "071465",
     "source_cn": "持续时长为正数（最小0.05），填0代表采用《NewBuff》表里的默认时长",
@@ -8817,14 +8642,12 @@
     "id": "071469",
     "source_cn": "敲击声",
     "ref_en": "Knocking sound",
-    "target_ru": "стук"
-  },
+    "target_ru": "Стук071469,
   {
     "id": "071470",
     "source_cn": "文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本文本",
     "ref_en": "Text text text text text text text text text text text text text text text text text.",
-    "target_ru": "текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст"
-  },
+    "target_ru": "Текст текст текст текст текст текст текст текст текст текст текст текст текст текст текст071470,
   {
     "id": "071471",
     "source_cn": "方案%s",
@@ -8889,8 +8712,7 @@
     "id": "071481",
     "source_cn": "柜子台子",
     "ref_en": "Cabinet Counter",
-    "target_ru": "шкаф-стол"
-  },
+    "target_ru": "Шкаф-стол071481,
   {
     "id": "071482",
     "source_cn": "标准重塑材料",
@@ -8901,8 +8723,7 @@
     "id": "071483",
     "source_cn": "检测子弹",
     "ref_en": "Detect Bullet",
-    "target_ru": "обнаруживать пули"
-  },
+    "target_ru": "Обнаруживать пули071483,
   {
     "id": "071484",
     "source_cn": "欲望母神",
@@ -8931,8 +8752,7 @@
     "id": "071488",
     "source_cn": "流下羡慕的泪水",
     "ref_en": "Shedding tears of envy",
-    "target_ru": "лить слезы от зависти"
-  },
+    "target_ru": "Лить слезы от зависти071488,
   {
     "id": "071489",
     "source_cn": "海纳斯",
@@ -8973,8 +8793,7 @@
     "id": "071495",
     "source_cn": "炽烈之血",
     "ref_en": "Blazing Blood",
-    "target_ru": "пламенная кровь"
-  },
+    "target_ru": "Пламенная кровь071495,
   {
     "id": "071496",
     "source_cn": "熬制后封存数日，再加入各种南方蔬菜。",
@@ -9009,8 +8828,7 @@
     "id": "071501",
     "source_cn": "看日出",
     "ref_en": "Watch the sunrise",
-    "target_ru": "смотреть восход солнца"
-  },
+    "target_ru": "Смотреть восход солнца071501,
   {
     "id": "071502",
     "source_cn": "瞳孔中映照着扭曲的世界。",
@@ -9039,14 +8857,12 @@
     "id": "071506",
     "source_cn": "精炼",
     "ref_en": "Refine",
-    "target_ru": "усовершенствовать"
-  },
+    "target_ru": "Усовершенствовать071506,
   {
     "id": "071507",
     "source_cn": "红葡萄酒",
     "ref_en": "Red Wine",
-    "target_ru": "красное вино"
-  },
+    "target_ru": "Красное вино071507,
   {
     "id": "071508",
     "source_cn": "老尼尔走到坩埚前路线",
@@ -9087,8 +8903,7 @@
     "id": "071514",
     "source_cn": "蜘蛛点2",
     "ref_en": "Spider Dot 2",
-    "target_ru": "точка паука 2"
-  },
+    "target_ru": "Точка паука 2071514,
   {
     "id": "071515",
     "source_cn": "街道-西大道-红月亮街交叉",
@@ -9267,20 +9082,17 @@
     "id": "071544",
     "source_cn": "<P_Heart>（笑）</>对，而且拆了还能装回去，甚至装得更好。",
     "ref_en": "<P_Heart>(Laughs)</> Yes, and she could put it back together after taking it apart, and even make it work better.",
-    "target_ru": "<P_Heart> (смеется) </> Да, и после разборки его можно собрать обратно, а то и лучше."
-  },
+    "target_ru": "<P_Heart> (Смеется) </> Да, и после разборки его можно собрать обратно, а то и лучше.071544,
   {
     "id": "071545",
     "source_cn": "<P_Heart>（耸肩）</>猎龙需要钱。我们不偷不抢，难道指望政客慈善、富豪施舍、神明恩赐？",
     "ref_en": "<P_Heart> (Shrugs) </> Hunting dragons requires money. We don't steal or rob, so should we rely on politicians' charity, the wealthy's alms, or the gods' gifts?",
-    "target_ru": "<P_Heart> (пожимает плечами) </> Охота на драконов требует денег. Если мы не воруем и не грабим, как мы можем ожидать благотворительности от политиков, благотворительности от богатых людей или даров от богов?"
-  },
+    "target_ru": "<P_Heart> (Пожимает плечами) </> Охота на драконов требует денег. Если мы не воруем и не грабим, как мы можем ожидать благотворительности от политиков, благотворительности от богатых людей или даров от богов?071545,
   {
     "id": "071546",
     "source_cn": "<P_Heart>（醉醺醺）</>你刚才明明在那！怎么一眨眼跑这儿来了？ ",
     "ref_en": "<P_Heart>(Drunkenly)</> You were clearly right there just now! How did you run over here in the blink of an eye?",
-    "target_ru": "<P_Heart> (пьяный) </> Ты явно был там только что! Почему ты здесь в мгновение ока?"
-  },
+    "target_ru": "<P_Heart> (Пьяный) </> Ты явно был там только что! Почему ты здесь в мгновение ока?071546,
   {
     "id": "071547",
     "source_cn": "<P_Heart>（问得好！我也想知道答案……）</>",
@@ -9333,8 +9145,7 @@
     "id": "071555",
     "source_cn": "九重塔",
     "ref_en": "Nine-Story Pagoda",
-    "target_ru": "девятиэтажная пагода"
-  },
+    "target_ru": "Девятиэтажная пагода071555,
   {
     "id": "071556",
     "source_cn": "也发现了密室的真相。",
@@ -9423,8 +9234,7 @@
     "id": "071570",
     "source_cn": "剧情点",
     "ref_en": "Plot Point",
-    "target_ru": "сюжетная точка"
-  },
+    "target_ru": "Сюжетная точка071570,
   {
     "id": "071571",
     "source_cn": "区域_河边洋房",
@@ -9441,8 +9251,7 @@
     "id": "071573",
     "source_cn": "变量名",
     "ref_en": "Variable Name",
-    "target_ru": "имя переменной"
-  },
+    "target_ru": "Имя переменной071573,
   {
     "id": "071574",
     "source_cn": "只要你开口，哪怕脱掉全身的毛，变成一只下锅的鹌鹑，我也心甘情愿。",
@@ -9477,8 +9286,7 @@
     "id": "071579",
     "source_cn": "喵呜贼",
     "ref_en": "Meow Thief",
-    "target_ru": "мяу вор"
-  },
+    "target_ru": "Мяу вор071579,
   {
     "id": "071580",
     "source_cn": "塔拉·",
@@ -9501,8 +9309,7 @@
     "id": "071583",
     "source_cn": "奥秘学者",
     "ref_en": "Arcane Scholar",
-    "target_ru": "оккультист"
-  },
+    "target_ru": "Оккультист071583,
   {
     "id": "071584",
     "source_cn": "奥黛丽锁血10%",
@@ -9513,8 +9320,7 @@
     "id": "071585",
     "source_cn": "女士C",
     "ref_en": "Lady C",
-    "target_ru": "г-жа С"
-  },
+    "target_ru": "Г-жа С071585,
   {
     "id": "071586",
     "source_cn": "好了。我们走的时候，可以去那边看一眼，但……",
@@ -9609,8 +9415,7 @@
     "id": "071601",
     "source_cn": "戴利",
     "ref_en": "Daly",
-    "target_ru": "ежедневный"
-  },
+    "target_ru": "Ежедневный071601,
   {
     "id": "071602",
     "source_cn": "扔出去！狠狠地砸他们的屁股！",
@@ -9645,14 +9450,12 @@
     "id": "071607",
     "source_cn": "暴毙",
     "ref_en": "Sudden death",
-    "target_ru": "насильственная смерть"
-  },
+    "target_ru": "Насильственная смерть071607,
   {
     "id": "071608",
     "source_cn": "最后蜡烛2",
     "ref_en": "Last Candle 2",
-    "target_ru": "последняя свеча 2"
-  },
+    "target_ru": "Последняя свеча 2071608,
   {
     "id": "071609",
     "source_cn": "最大携带%d",
@@ -9675,8 +9478,7 @@
     "id": "071612",
     "source_cn": "枪击",
     "ref_en": "Gunshot",
-    "target_ru": "стрельба"
-  },
+    "target_ru": "Стрельба071612,
   {
     "id": "071613",
     "source_cn": "查看_攻击盒",
@@ -9705,8 +9507,7 @@
     "id": "071617",
     "source_cn": "洗衣妇2",
     "ref_en": "Laundress 2",
-    "target_ru": "прачка 2"
-  },
+    "target_ru": "Прачка 2071617,
   {
     "id": "071618",
     "source_cn": "海岸线尤里卡",
@@ -9741,8 +9542,7 @@
     "id": "071623",
     "source_cn": "熟练工匠",
     "ref_en": "Skilled Craftsman",
-    "target_ru": "опытный мастер"
-  },
+    "target_ru": "Опытный мастер071623,
   {
     "id": "071624",
     "source_cn": "爵士大人让那些穷人坚持工作，不会因为懒惰而更加贫穷。",
@@ -9771,8 +9571,7 @@
     "id": "071628",
     "source_cn": "男人",
     "ref_en": "Man",
-    "target_ru": "мужчина"
-  },
+    "target_ru": "Мужчина071628,
   {
     "id": "071629",
     "source_cn": "直接开启七日誓约的匹配阶段",
@@ -9783,8 +9582,7 @@
     "id": "071630",
     "source_cn": "看信封",
     "ref_en": "Look at the envelope",
-    "target_ru": "посмотри на конверт"
-  },
+    "target_ru": "Посмотри на конверт071630,
   {
     "id": "071631",
     "source_cn": "看来您说的是真的。呵呵，我们雪山的猎人，直觉一向准得可怕。",
@@ -9801,14 +9599,12 @@
     "id": "071633",
     "source_cn": "禁锢暗箱",
     "ref_en": "Imprisonment Box",
-    "target_ru": "камера заключения обскура"
-  },
+    "target_ru": "Камера заключения обскура071633,
   {
     "id": "071634",
     "source_cn": "窟窿光",
     "ref_en": "Hole Light",
-    "target_ru": "отверстие света"
-  },
+    "target_ru": "Отверстие света071634,
   {
     "id": "071635",
     "source_cn": "竞速组件-上升气流中等高度",
@@ -9819,8 +9615,7 @@
     "id": "071636",
     "source_cn": "等到晚上",
     "ref_en": "Wait until night",
-    "target_ru": "подожди до ночи"
-  },
+    "target_ru": "Подожди до ночи071636,
   {
     "id": "071637",
     "source_cn": "答案3-左",
@@ -9843,8 +9638,7 @@
     "id": "071640",
     "source_cn": "纷争漩涡",
     "ref_en": "Vortex of Strife",
-    "target_ru": "водоворот раздора"
-  },
+    "target_ru": "Водоворот раздора071640,
   {
     "id": "071641",
     "source_cn": "经太阳信仰仪式祝圣的器物，带有明确的光明、净化与秩序象征。",
@@ -9867,14 +9661,12 @@
     "id": "071644",
     "source_cn": "胜者组",
     "ref_en": "Winners' Bracket",
-    "target_ru": "группа победителей"
-  },
+    "target_ru": "Группа победителей071644,
   {
     "id": "071645",
     "source_cn": "舞台失败",
     "ref_en": "Stage Failure",
-    "target_ru": "провал этапа"
-  },
+    "target_ru": "Провал этапа071645,
   {
     "id": "071646",
     "source_cn": "英雄-乌龟-生命融合-召唤物不可选中",
@@ -9939,8 +9731,7 @@
     "id": "071656",
     "source_cn": "野餐垫",
     "ref_en": "Picnic Mat",
-    "target_ru": "коврик для пикника"
-  },
+    "target_ru": "Коврик для пикника071656,
   {
     "id": "071657",
     "source_cn": "鏖战激昂：攻击+15%，伤害增幅+8%。",
@@ -9975,8 +9766,7 @@
     "id": "071662",
     "source_cn": "黑兹",
     "ref_en": "Hayes",
-    "target_ru": "дымка"
-  },
+    "target_ru": "Дымка071662,
   {
     "id": "071663",
     "source_cn": "黛西",
@@ -10017,8 +9807,7 @@
     "id": "071669",
     "source_cn": "<Assistant_Title1>Favor of the Avatar of Calamity</>\\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Extraordinary material with the <天灾化身> trait",
     "ref_en": "<Assistant_Title1>Favor of the Avatar of Calamity</>\\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Extraordinary material with the <Avatar of Calamity> trait",
-    "target_ru": "<Assistant_Title1>Благосклонность Аватара Бедствия</>\n<Assistant_Title2>Категория достижения: </>Рост — запечатанный артефакт\n<Assistant_Title2>Условие разблокировки: </>Получить 1 необычный материал с чертой <天灾化身>"
-  },
+    "target_ru": "<Assistant_Title1>Благосклонность Аватара Бедствия</>\n<Assistant_Title2>Категория достижения: </>Рост — Запечатанный Артефакт\n<Assistant_Title2>Условие разблокировки: </>Получить 1 необычный материал с чертой <天灾化身>071669,
   {
     "id": "071670",
     "source_cn": "<Assistant_Title1>【Mystery Circle - Relationships】</>\\n<Assistant_Title2>Default Following: </>Mystery Circle follows NPCs by default.\\n<Assistant_Title2>One-Way Following: </>You can see updates posted by players you follow on the Following tab.\\n<Assistant_Title2>Mutual Following: </>When both parties follow each other, they become friends and are set to follow each other's Mystery Circle by default.\\n<Assistant_Title2>Unfollow: </>After unfollowing, you will no longer see updates posted by that player on the Following tab. Deleting a friend or blocking them will automatically cancel the mutual following.\\n<Assistant_Title2>Quick Operations: </>You can view your Mystery Circle following list and fan list on your <Assistant_System>Personal Homepage</>{JumpToUI:[【前往查看】]|1302302}, and perform quick operations like unfollowing or removing fans.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[诡秘圈]|1390}, {SendAnswer:[诡秘圈-动态]|1391}, {SendAnswer:[诡秘圈-页签]|1393}, {SendAnswer:[诡秘圈-话题]|1394}",
@@ -10137,8 +9926,7 @@
     "id": "071689",
     "source_cn": "亵渎之语",
     "ref_en": "Profane Words",
-    "target_ru": "ненормативная лексика"
-  },
+    "target_ru": "Ненормативная лексика071689,
   {
     "id": "071690",
     "source_cn": "人流控制器1",
@@ -10149,8 +9937,7 @@
     "id": "071691",
     "source_cn": "仔细看看",
     "ref_en": "Take a closer look",
-    "target_ru": "присмотрись поближе"
-  },
+    "target_ru": "Присмотрись поближе071691,
   {
     "id": "071692",
     "source_cn": "他俩还在打",
@@ -10185,8 +9972,7 @@
     "id": "071697",
     "source_cn": "全部放弃",
     "ref_en": "Pass All",
-    "target_ru": "бросить все"
-  },
+    "target_ru": "Бросить все071697,
   {
     "id": "071698",
     "source_cn": "公告栏-西北南边",
@@ -10221,8 +10007,7 @@
     "id": "071703",
     "source_cn": "历史之涌",
     "ref_en": "Surge of History",
-    "target_ru": "всплеск истории"
-  },
+    "target_ru": "Всплеск истории071703,
   {
     "id": "071704",
     "source_cn": "原始的杀戮欲望，凝固在角质里。",
@@ -10287,8 +10072,7 @@
     "id": "071714",
     "source_cn": "失控的枪手",
     "ref_en": "Out-of-Control Gunman",
-    "target_ru": "вышедший из-под контроля боевик"
-  },
+    "target_ru": "Вышедший из-под контроля боевик071714,
   {
     "id": "071715",
     "source_cn": "她说她很累，让我跟两个孩子说说话，她先休息一下，等我再看她的时候，她已经……已经停止了呼吸。",
@@ -10341,14 +10125,12 @@
     "id": "071723",
     "source_cn": "帐篷",
     "ref_en": "Tent",
-    "target_ru": "палатка"
-  },
+    "target_ru": "Палатка071723,
   {
     "id": "071724",
     "source_cn": "恩纳斯",
     "ref_en": "Ennas",
-    "target_ru": "энны"
-  },
+    "target_ru": "Энны071724,
   {
     "id": "071725",
     "source_cn": "您好，请问有古井里的水吗？",
@@ -10359,8 +10141,7 @@
     "id": "071726",
     "source_cn": "戏剧社员",
     "ref_en": "Drama Club Member",
-    "target_ru": "член драматического кружка"
-  },
+    "target_ru": "Член драматического кружка071726,
   {
     "id": "071727",
     "source_cn": "成就-秩序的回响",
@@ -10383,8 +10164,7 @@
     "id": "071730",
     "source_cn": "战功",
     "ref_en": "Battle Merit",
-    "target_ru": "военные подвиги"
-  },
+    "target_ru": "Военные подвиги071730,
   {
     "id": "071731",
     "source_cn": "战胜绑匪们",
@@ -10425,8 +10205,7 @@
     "id": "071737",
     "source_cn": "新事件",
     "ref_en": "New Event",
-    "target_ru": "новые события"
-  },
+    "target_ru": "Новые события071737,
   {
     "id": "071738",
     "source_cn": "无伤完成困难“头狼”、“剥面人”、“钻头”、“审判官”中任意挑战。",
@@ -10449,8 +10228,7 @@
     "id": "071741",
     "source_cn": "染色清单",
     "ref_en": "Dyeing List",
-    "target_ru": "список окрашивания"
-  },
+    "target_ru": "Список окрашивания071741,
   {
     "id": "071742",
     "source_cn": "格蕾塔",
@@ -10497,8 +10275,7 @@
     "id": "071749",
     "source_cn": "沉浸",
     "ref_en": "Immersion",
-    "target_ru": "погружаться"
-  },
+    "target_ru": "Погружаться071749,
   {
     "id": "071750",
     "source_cn": "泉水无情的嘲笑了你，但你隐隐感觉有什么事情不一样了。",
@@ -10569,8 +10346,7 @@
     "id": "071761",
     "source_cn": "触发器1",
     "ref_en": "Trigger 1",
-    "target_ru": "триггер 1"
-  },
+    "target_ru": "Триггер 1071761,
   {
     "id": "071762",
     "source_cn": "语琪",
@@ -10617,20 +10393,17 @@
     "id": "071769",
     "source_cn": "非凡生物",
     "ref_en": "Beyonder creature",
-    "target_ru": "необыкновенное существо"
-  },
+    "target_ru": "Необыкновенное существо071769,
   {
     "id": "071770",
     "source_cn": "音符效果",
     "ref_en": "Note Effect",
-    "target_ru": "эффект ноты"
-  },
+    "target_ru": "Эффект ноты071770,
   {
     "id": "071771",
     "source_cn": "额外赠送",
     "ref_en": "Bonus Gift",
-    "target_ru": "дополнительный подарок"
-  },
+    "target_ru": "Дополнительный подарок071771,
   {
     "id": "071772",
     "source_cn": "风尚值",
@@ -10641,8 +10414,7 @@
     "id": "071773",
     "source_cn": "馅饼",
     "ref_en": "Pie",
-    "target_ru": "пирог"
-  },
+    "target_ru": "Пирог071773,
   {
     "id": "071774",
     "source_cn": "首胜奖励机制",
@@ -10707,8 +10479,7 @@
     "id": "071784",
     "source_cn": "<P_Heart>（轻笑）</>靠实力，也靠运气和勇气。",
     "ref_en": "<P_Heart>(Chuckles)</> By strength, and also by luck and courage.",
-    "target_ru": "<P_Heart> (смеется) </> Это зависит от силы, удачи и смелости."
-  },
+    "target_ru": "<P_Heart> (Смеется) </> Это зависит от силы, удачи и смелости.071784,
   {
     "id": "071785",
     "source_cn": "GTA连环杀手自身标记buff",
@@ -10815,14 +10586,12 @@
     "id": "071802",
     "source_cn": "再试一次",
     "ref_en": "Try Again",
-    "target_ru": "попробуй еще раз"
-  },
+    "target_ru": "Попробуй еще раз071802,
   {
     "id": "071803",
     "source_cn": "冷静的",
     "ref_en": "Calm",
-    "target_ru": "спокойный"
-  },
+    "target_ru": "Спокойный071803,
   {
     "id": "071804",
     "source_cn": "净化成功概率：<Highlight>30%</>",
@@ -10833,8 +10602,7 @@
     "id": "071805",
     "source_cn": "分解",
     "ref_en": "Decompose",
-    "target_ru": "разлагать"
-  },
+    "target_ru": "Разлагать071805,
   {
     "id": "071806",
     "source_cn": "前往指定Trigger位置  玩家播放情绪音乐（仅自己可听）  延迟执行  对象播放指定对白内容  ",
@@ -10905,8 +10673,7 @@
     "id": "071817",
     "source_cn": "嘶哑的声音",
     "ref_en": "A hoarse voice",
-    "target_ru": "хриплый голос"
-  },
+    "target_ru": "Хриплый голос071817,
   {
     "id": "071818",
     "source_cn": "回应<h>梅丽莎</>",
@@ -10959,14 +10726,12 @@
     "id": "071826",
     "source_cn": "小丑抛球",
     "ref_en": "Clown juggling",
-    "target_ru": "клоун бросает мяч"
-  },
+    "target_ru": "Клоун бросает мяч071826,
   {
     "id": "071827",
     "source_cn": "小丑的纸条",
     "ref_en": "Clown's Note",
-    "target_ru": "записка клоуна"
-  },
+    "target_ru": "Записка клоуна071827,
   {
     "id": "071828",
     "source_cn": "岚心",
@@ -11079,8 +10844,7 @@
     "id": "071846",
     "source_cn": "指引trigger03",
     "ref_en": "Guidance trigger 03",
-    "target_ru": "направляющий триггер03"
-  },
+    "target_ru": "Направляющий триггер03071846,
   {
     "id": "071847",
     "source_cn": "推荐非凡评分：",
@@ -11109,8 +10873,7 @@
     "id": "071851",
     "source_cn": "教堂场景",
     "ref_en": "Church Scene",
-    "target_ru": "церковная сцена"
-  },
+    "target_ru": "Церковная сцена071851,
   {
     "id": "071852",
     "source_cn": "文字版2-2",
@@ -11157,14 +10920,12 @@
     "id": "071859",
     "source_cn": "条穗",
     "ref_en": "Tassel",
-    "target_ru": "полоски"
-  },
+    "target_ru": "Полоски071859,
   {
     "id": "071860",
     "source_cn": "枯朽",
     "ref_en": "Decay",
-    "target_ru": "распад"
-  },
+    "target_ru": "Распад071860,
   {
     "id": "071861",
     "source_cn": "残存意志2",
@@ -11211,8 +10972,7 @@
     "id": "071868",
     "source_cn": "玩家的火苗",
     "ref_en": "Player's Flame",
-    "target_ru": "пламя игрока"
-  },
+    "target_ru": "Пламя игрока071868,
   {
     "id": "071869",
     "source_cn": "班森近2",
@@ -11247,8 +11007,7 @@
     "id": "071874",
     "source_cn": "石棺里的种子",
     "ref_en": "Seed in the stone coffin",
-    "target_ru": "семена в саркофаге"
-  },
+    "target_ru": "Семена в саркофаге071874,
   {
     "id": "071875",
     "source_cn": "秋千晃晃荡荡，清风冰冰凉凉。",
@@ -11265,14 +11024,12 @@
     "id": "071877",
     "source_cn": "第一套",
     "ref_en": "First set",
-    "target_ru": "первый набор"
-  },
+    "target_ru": "Первый набор071877,
   {
     "id": "071878",
     "source_cn": "第二波浪潮",
     "ref_en": "The Second Wave",
-    "target_ru": "вторая волна"
-  },
+    "target_ru": "Вторая волна071878,
   {
     "id": "071879",
     "source_cn": "第二，艾琳娜的“刺杀”是假的，是男爵安排的表演。",
@@ -11319,8 +11076,7 @@
     "id": "071886",
     "source_cn": "蓝色方",
     "ref_en": "Blue Team",
-    "target_ru": "синий квадрат"
-  },
+    "target_ru": "Синий квадрат071886,
   {
     "id": "071887",
     "source_cn": "蜜雪儿",
@@ -11361,8 +11117,7 @@
     "id": "071893",
     "source_cn": "跑到婶婶身边",
     "ref_en": "Run to Aunt's side",
-    "target_ru": "побежал к тете"
-  },
+    "target_ru": "Побежал к тете071893,
   {
     "id": "071894",
     "source_cn": "过肩奥黛丽",
@@ -11499,8 +11254,7 @@
     "id": "071916",
     "source_cn": "【完成晋升任务，晋升至序列8后解锁，尝试扮演祈光人】\\n一座老宅夜夜传出异响，它的继承人站在门外，始终不敢推门。",
     "ref_en": "【Unlock after completing the Advancement Quest and advancing to Sequence 8, try acting as a Light Seeker】 \\n An old mansion emits strange noises every night, and its heir stands outside the door, never daring to push it open.",
-    "target_ru": "[Завершите миссию по продвижению, разблокируйте после повышения до последовательности 8 и попробуйте сыграть роль легкой молитвы] \n Каждую ночь старый дом издавал странные звуки, а его наследник стоял за дверью, никогда не осмеливаясь открыть дверь."
-  },
+    "target_ru": "[Завершите миссию по продвижению, разблокируйте после повышения до Последовательности 8 и попробуйте сыграть роль легкой молитвы] \n Каждую ночь старый дом издавал странные звуки, а его наследник стоял за дверью, никогда не осмеливаясь открыть дверь.071916,
   {
     "id": "071917",
     "source_cn": "【测试】一键养成64级小R",
@@ -11613,8 +11367,7 @@
     "id": "071935",
     "source_cn": "兔主人",
     "ref_en": "Rabbit Owner",
-    "target_ru": "хозяин кролика"
-  },
+    "target_ru": "Хозяин кролика071935,
   {
     "id": "071936",
     "source_cn": "养了灵体宠物，淘的古玩越来越多以后，我觉得我逐渐有了某种\"通灵\"能力。我这几天心脏扑通扑通跳，平时去镇外的工厂工作回家，都不敢走古堡那条路。今天看镇上的告示板说，一个低序列居民一家四口被杀了，我居然尤其联想到，会不会我就是下一个呢？我有种预感，今晚有大事发生。不过多亏了我淘的那些古玩，还有我可爱的灵蛇灵鼠们，我现在特别兴奋，就好像，有人会帮我解决这些事一样……我会把窗门好好关上，把“那个东西”放在床边，万一真的来了，我就……",
@@ -11697,8 +11450,7 @@
     "id": "071949",
     "source_cn": "地理名称",
     "ref_en": "Geographic Name",
-    "target_ru": "географическое название"
-  },
+    "target_ru": "Географическое название071949,
   {
     "id": "071950",
     "source_cn": "城市暗面-新手任务-鼠洞-1",
@@ -11733,14 +11485,12 @@
     "id": "071955",
     "source_cn": "实际自行车",
     "ref_en": "Actual Bicycle",
-    "target_ru": "настоящий велосипед"
-  },
+    "target_ru": "Настоящий велосипед071955,
   {
     "id": "071956",
     "source_cn": "对玩家伤害",
     "ref_en": "Damage to Players",
-    "target_ru": "урон игрокам"
-  },
+    "target_ru": "Урон игрокам071956,
   {
     "id": "071957",
     "source_cn": "希望检票能快些。",
@@ -11829,8 +11579,7 @@
     "id": "071971",
     "source_cn": "救赎蔷薇",
     "ref_en": "Rose Redemption",
-    "target_ru": "искупительная роза"
-  },
+    "target_ru": "Искупительная роза071971,
   {
     "id": "071972",
     "source_cn": "教皇牌",
@@ -11877,8 +11626,7 @@
     "id": "071979",
     "source_cn": "晨星天使",
     "ref_en": "Morning Star Angel",
-    "target_ru": "ангел утренней звезды"
-  },
+    "target_ru": "Ангел утренней звезды071979,
   {
     "id": "071980",
     "source_cn": "普通线路获得1次铁路大亨评价",
@@ -11907,8 +11655,7 @@
     "id": "071984",
     "source_cn": "木头4路径",
     "ref_en": "Wood 4 path",
-    "target_ru": "лес 4 дорожки"
-  },
+    "target_ru": "Лес 4 дорожки071984,
   {
     "id": "071985",
     "source_cn": "杰米·",
@@ -11919,8 +11666,7 @@
     "id": "071986",
     "source_cn": "标签标签",
     "ref_en": "Tag Tag",
-    "target_ru": "этикетка этикетка"
-  },
+    "target_ru": "Этикетка этикетка071986,
   {
     "id": "071987",
     "source_cn": "每次普攻立即恢复5法力",
@@ -11931,14 +11677,12 @@
     "id": "071988",
     "source_cn": "永恒\\r\\n大帝",
     "ref_en": "Eternal \\r\\nEmperor",
-    "target_ru": "вечность\nВеликий Император"
-  },
+    "target_ru": "Вечность\nВеликий Император071988,
   {
     "id": "071989",
     "source_cn": "治疗来源",
     "ref_en": "Healing Source",
-    "target_ru": "терапевтический источник"
-  },
+    "target_ru": "Терапевтический источник071989,
   {
     "id": "071990",
     "source_cn": "活动时间",
@@ -11949,8 +11693,7 @@
     "id": "071991",
     "source_cn": "深渊",
     "ref_en": "Abyss",
-    "target_ru": "пропасть"
-  },
+    "target_ru": "Пропасть071991,
   {
     "id": "071992",
     "source_cn": "清醒的味道，能驱散迷雾。",
@@ -11985,14 +11728,12 @@
     "id": "071997",
     "source_cn": "烟草商",
     "ref_en": "Tobacconist",
-    "target_ru": "табачный магазин"
-  },
+    "target_ru": "Табачный магазин071997,
   {
     "id": "071998",
     "source_cn": "玩具面包",
     "ref_en": "Toy Bread",
-    "target_ru": "игрушечный хлеб"
-  },
+    "target_ru": "Игрушечный хлеб071998,
   {
     "id": "071999",
     "source_cn": "玩法触发Trigger",
@@ -12021,8 +11762,7 @@
     "id": "072003",
     "source_cn": "礼包",
     "ref_en": "Gift Pack",
-    "target_ru": "подарочный пакет"
-  },
+    "target_ru": "Подарочный пакет072003,
   {
     "id": "072004",
     "source_cn": "神秘生物",
@@ -12045,8 +11785,7 @@
     "id": "072007",
     "source_cn": "终末恐惧",
     "ref_en": "Fear of the End",
-    "target_ru": "смертельный страх"
-  },
+    "target_ru": "Смертельный страх072007,
   {
     "id": "072008",
     "source_cn": "继续陪老先生上山",
@@ -12063,8 +11802,7 @@
     "id": "072010",
     "source_cn": "置于祭坛中……",
     "ref_en": "Placing on the altar...",
-    "target_ru": "положили на жертвенник…"
-  },
+    "target_ru": "Положили на жертвенник…072010,
   {
     "id": "072011",
     "source_cn": "翻墙小孩-西南",
@@ -12087,8 +11825,7 @@
     "id": "072014",
     "source_cn": "脚环",
     "ref_en": "Anklet",
-    "target_ru": "браслет на ногу"
-  },
+    "target_ru": "Браслет на ногу072014,
   {
     "id": "072015",
     "source_cn": "自动寻路",
@@ -12129,8 +11866,7 @@
     "id": "072021",
     "source_cn": "询问愤怒的观众",
     "ref_en": "Ask Angry Spectator",
-    "target_ru": "спросила разгневанная публика"
-  },
+    "target_ru": "Спросила разгневанная публика072021,
   {
     "id": "072022",
     "source_cn": "读取档案",
@@ -12327,8 +12063,7 @@
     "id": "072054",
     "source_cn": "上眼睑内侧",
     "ref_en": "Upper Eyelid Inner",
-    "target_ru": "внутренняя часть верхнего века"
-  },
+    "target_ru": "Внутренняя часть верхнего века072054,
   {
     "id": "072055",
     "source_cn": "不喜欢苹果的安德鲁不是好猎犬！",
@@ -12429,8 +12164,7 @@
     "id": "072071",
     "source_cn": "入梦",
     "ref_en": "Enter Dream",
-    "target_ru": "провалиться в сон"
-  },
+    "target_ru": "Провалиться в сон072071,
   {
     "id": "072072",
     "source_cn": "公示期结束后方可购买",
@@ -12459,8 +12193,7 @@
     "id": "072076",
     "source_cn": "初始表演动作",
     "ref_en": "Initial Performance Action",
-    "target_ru": "первоначальное исполнительное действие"
-  },
+    "target_ru": "Первоначальное исполнительное действие072076,
   {
     "id": "072077",
     "source_cn": "制衡中路一塔",
@@ -12531,8 +12264,7 @@
     "id": "072088",
     "source_cn": "堵路",
     "ref_en": "Blocking the road",
-    "target_ru": "перекрыть дорогу"
-  },
+    "target_ru": "Перекрыть дорогу072088,
   {
     "id": "072089",
     "source_cn": "大地之力药剂",
@@ -12549,8 +12281,7 @@
     "id": "072091",
     "source_cn": "女士B",
     "ref_en": "Lady B",
-    "target_ru": "г-жа Б"
-  },
+    "target_ru": "Г-жа Б072091,
   {
     "id": "072092",
     "source_cn": "奶油燕麦面包",
@@ -12585,8 +12316,7 @@
     "id": "072097",
     "source_cn": "封印物我带走了，你们不要再冒险进入小黛西的循环空间。否则你们会死，或者害死小黛西。",
     "ref_en": "I have taken the Sealed Artifact. Do not risk entering little Daisy's loop space again. Otherwise, you will die, or cause little Daisy's death.",
-    "target_ru": "Я забрал запечатанный артефакт, и вам не следует снова входить в пространство циркуляции Маленькой Дейзи. В противном случае ты умрешь или убьешь маленькую Дейзи."
-  },
+    "target_ru": "Я забрал Запечатанный Артефакт, и вам не следует снова входить в пространство циркуляции Маленькой Дейзи. В противном случае ты умрешь или убьешь маленькую Дейзи.072097,
   {
     "id": "072098",
     "source_cn": "尝试咒文",
@@ -12669,8 +12399,7 @@
     "id": "072111",
     "source_cn": "找到尖叫的人",
     "ref_en": "Find the person screaming",
-    "target_ru": "найди кричащего человека"
-  },
+    "target_ru": "Найди кричащего человека072111,
   {
     "id": "072112",
     "source_cn": "抵达大学门口判定点",
@@ -12717,14 +12446,12 @@
     "id": "072119",
     "source_cn": "放入仓库",
     "ref_en": "Put into Warehouse",
-    "target_ru": "положить на склад"
-  },
+    "target_ru": "Положить на склад072119,
   {
     "id": "072120",
     "source_cn": "放置包裹",
     "ref_en": "Place Package",
-    "target_ru": "разместить пакет"
-  },
+    "target_ru": "Разместить пакет072120,
   {
     "id": "072121",
     "source_cn": "星之匙魔药",
@@ -12735,8 +12462,7 @@
     "id": "072122",
     "source_cn": "最后蜡烛3",
     "ref_en": "Last Candle 3",
-    "target_ru": "последняя свеча 3"
-  },
+    "target_ru": "Последняя свеча 3072122,
   {
     "id": "072123",
     "source_cn": "查看壁炉",
@@ -12771,8 +12497,7 @@
     "id": "072128",
     "source_cn": "洗衣妇3",
     "ref_en": "Laundress 3",
-    "target_ru": "прачка 3"
-  },
+    "target_ru": "Прачка 3072128,
   {
     "id": "072129",
     "source_cn": "洞特效",
@@ -12789,8 +12514,7 @@
     "id": "072131",
     "source_cn": "清幽的",
     "ref_en": "Quiet and secluded",
-    "target_ru": "тихий"
-  },
+    "target_ru": "Тихий072131,
   {
     "id": "072132",
     "source_cn": "火焰瓶",
@@ -12927,8 +12651,7 @@
     "id": "072154",
     "source_cn": "过渡时间",
     "ref_en": "Transition time",
-    "target_ru": "время перехода"
-  },
+    "target_ru": "Время перехода072154,
   {
     "id": "072155",
     "source_cn": "还有警局门口，他被杀的地方。",
@@ -12993,8 +12716,7 @@
     "id": "072165",
     "source_cn": "黑板上的字迹",
     "ref_en": "Handwriting on the blackboard",
-    "target_ru": "писать на доске"
-  },
+    "target_ru": "Писать на доске072165,
   {
     "id": "072166",
     "source_cn": "1纪元激活特效",
@@ -13029,26 +12751,22 @@
     "id": "072171",
     "source_cn": "[表情50]",
     "ref_en": "[Emoji 50]",
-    "target_ru": "[выражение 50]"
-  },
+    "target_ru": "[Выражение 50]072171,
   {
     "id": "072172",
     "source_cn": "[表情53]",
     "ref_en": "[Emoji 53]",
-    "target_ru": "[выражение 53]"
-  },
+    "target_ru": "[Выражение 53]072172,
   {
     "id": "072173",
     "source_cn": "[表情54]",
     "ref_en": "[Emoji 54]",
-    "target_ru": "[выражение 54]"
-  },
+    "target_ru": "[Выражение 54]072173,
   {
     "id": "072174",
     "source_cn": "[表情58]",
     "ref_en": "[Emoji 58]",
-    "target_ru": "[выражение 58]"
-  },
+    "target_ru": "[Выражение 58]072174,
   {
     "id": "072175",
     "source_cn": "“我们做的事情看似简单，却实实在在影响着一个又一个孩子的人生，所以，我们得尽快开始，不能浪费时间。”",
@@ -13185,8 +12903,7 @@
     "id": "072197",
     "source_cn": "别管他们",
     "ref_en": "Ignore them",
-    "target_ru": "оставь их в покое"
-  },
+    "target_ru": "Оставь их в покое072197,
   {
     "id": "072198",
     "source_cn": "占卜：小吉",
@@ -13197,8 +12914,7 @@
     "id": "072199",
     "source_cn": "发现",
     "ref_en": "Discover",
-    "target_ru": "обнаружить"
-  },
+    "target_ru": "Обнаружить072199,
   {
     "id": "072200",
     "source_cn": "取下",
@@ -13239,8 +12955,7 @@
     "id": "072206",
     "source_cn": "大脑宕机",
     "ref_en": "Brain Crash",
-    "target_ru": "простой мозга"
-  },
+    "target_ru": "Простой мозга072206,
   {
     "id": "072207",
     "source_cn": "好的，您的红葡萄酒。另外，这是一位女士让我转交给您的。",
@@ -13263,8 +12978,7 @@
     "id": "072210",
     "source_cn": "宝箱触发器",
     "ref_en": "Treasure Chest Trigger",
-    "target_ru": "триггер сундука с сокровищами"
-  },
+    "target_ru": "Триггер сундука с сокровищами072210,
   {
     "id": "072211",
     "source_cn": "封印物生物毒素瓶：毒池减速",
@@ -13281,8 +12995,7 @@
     "id": "072213",
     "source_cn": "小腿粗细",
     "ref_en": "Calf thickness",
-    "target_ru": "толщина икры"
-  },
+    "target_ru": "Толщина икры072213,
   {
     "id": "072214",
     "source_cn": "工厂区\\n买肉的女佣抬头望向远处的黑烟囱：“这雨下起来没完。”\\n黑烟囱下，工人们抹了抹脸上的雨，继续劳作。\\n街上的行人纷纷打起了伞。",
@@ -13407,8 +13120,7 @@
     "id": "072234",
     "source_cn": "折射知识",
     "ref_en": "Refraction Knowledge",
-    "target_ru": "знание рефракции"
-  },
+    "target_ru": "Знание рефракции072234,
   {
     "id": "072235",
     "source_cn": "攻击方的攻击会根据双方的破甲-护甲对抗进行数值修正。\\n自身护甲超过伤害来源破甲的4倍时，每1点护甲降低伤害来源1点攻击。\\n自身护甲超过伤害来源破甲，但低于伤害来源破甲的4倍时，每3点护甲降低伤害来源2点攻击。\\n自身护甲低于伤害来源破甲时，每3点护甲降低伤害来源1点攻击。",
@@ -13431,8 +13143,7 @@
     "id": "072238",
     "source_cn": "无声行动",
     "ref_en": "Silent Movement",
-    "target_ru": "бесшумное действие"
-  },
+    "target_ru": "Бесшумное действие072238,
   {
     "id": "072239",
     "source_cn": "无法闪避和跳跃，并且体力值回复降低。",
@@ -13497,8 +13208,7 @@
     "id": "072249",
     "source_cn": "消失的伤口",
     "ref_en": "Disappearing wound",
-    "target_ru": "исчезающие раны"
-  },
+    "target_ru": "Исчезающие раны072249,
   {
     "id": "072250",
     "source_cn": "消耗物品",
@@ -13521,8 +13231,7 @@
     "id": "072253",
     "source_cn": "猎杀",
     "ref_en": "Hunt",
-    "target_ru": "охотиться"
-  },
+    "target_ru": "Охотиться072253,
   {
     "id": "072254",
     "source_cn": "现实线第二章·查看魔药配方后对话·女",
@@ -13677,8 +13386,7 @@
     "id": "072279",
     "source_cn": "金的水壶",
     "ref_en": "Golden Kettle",
-    "target_ru": "золотой чайник"
-  },
+    "target_ru": "Золотой чайник072279,
   {
     "id": "072280",
     "source_cn": "隐秘空间-失序之书-查看笔记",
@@ -13695,8 +13403,7 @@
     "id": "072282",
     "source_cn": "静止暗示",
     "ref_en": "Stay Still Prompt",
-    "target_ru": "сигнал тишины"
-  },
+    "target_ru": "Сигнал тишины072282,
   {
     "id": "072283",
     "source_cn": "鸣响铃铛，吸引4米范围内猩红犬魂的注意。",
@@ -13743,8 +13450,7 @@
     "id": "072290",
     "source_cn": "<P_Heart>（紧张）</>是……是我把鸟吓走了吗？对不起，我马上走——",
     "ref_en": "<P_Heart> (Nervous) </> Did... did I scare the birds away? I'm sorry, I'll leave right away—",
-    "target_ru": "<P_Heart> (нервно) </>Я... я спугнул птицу? Извините, я уйду прямо сейчас——"
-  },
+    "target_ru": "<P_Heart> (Нервно) </>Я... я спугнул птицу? Извините, я уйду прямо сейчас——072290,
   {
     "id": "072291",
     "source_cn": "　　请同学们自觉抵制“内部资料”，诚信参考。如有发现购买者，将按校规予以<Letter_Highlight>严格惩罚</>。",
@@ -13761,8 +13467,7 @@
     "id": "072293",
     "source_cn": "一位……充满魅力的夫人。就连罗塞尔大帝，也为她神魂颠倒。",
     "ref_en": "A... charming lady. Even Emperor Roselle was infatuated with her.",
-    "target_ru": "...очаровательная леди. Даже император Рассел был очарован ею."
-  },
+    "target_ru": "...Очаровательная леди. Даже император Рассел был очарован ею.072293,
   {
     "id": "072294",
     "source_cn": "不……我不能再沉沦下去了……",
@@ -13803,8 +13508,7 @@
     "id": "072300",
     "source_cn": "从地面中生长出来",
     "ref_en": "Grow out from the ground",
-    "target_ru": "расти из земли"
-  },
+    "target_ru": "Расти из земли072300,
   {
     "id": "072301",
     "source_cn": "伦纳德先生？",
@@ -13887,8 +13591,7 @@
     "id": "072314",
     "source_cn": "冰冷的尸体",
     "ref_en": "Cold corpse",
-    "target_ru": "холодный труп"
-  },
+    "target_ru": "Холодный труп072314,
   {
     "id": "072315",
     "source_cn": "凶手有什么行为特征?",
@@ -14103,8 +13806,7 @@
     "id": "072350",
     "source_cn": "我的苏勒",
     "ref_en": "My Sols",
-    "target_ru": "мой сулер"
-  },
+    "target_ru": "Мой сулер072350,
   {
     "id": "072351",
     "source_cn": "战争，永不终结！",
@@ -14115,14 +13817,12 @@
     "id": "072352",
     "source_cn": "手绳",
     "ref_en": "Hand Cord",
-    "target_ru": "ручная веревка"
-  },
+    "target_ru": "Ручная веревка072352,
   {
     "id": "072353",
     "source_cn": "打哈欠乘客",
     "ref_en": "Yawning Passenger",
-    "target_ru": "зевающий пассажир"
-  },
+    "target_ru": "Зевающий пассажир072353,
   {
     "id": "072354",
     "source_cn": "打团就是，学徒不用管，自己会进来送",
@@ -14139,8 +13839,7 @@
     "id": "072356",
     "source_cn": "报纸箱子",
     "ref_en": "Newspaper Box",
-    "target_ru": "газетная коробка"
-  },
+    "target_ru": "Газетная коробка072356,
   {
     "id": "072357",
     "source_cn": "拖动屏幕旋转玩偶",
@@ -14169,8 +13868,7 @@
     "id": "072361",
     "source_cn": "时段",
     "ref_en": "Time Period",
-    "target_ru": "период времени"
-  },
+    "target_ru": "Период времени072361,
   {
     "id": "072362",
     "source_cn": "明白什么……",
@@ -14241,8 +13939,7 @@
     "id": "072373",
     "source_cn": "沉稳的",
     "ref_en": "Steady",
-    "target_ru": "спокойный"
-  },
+    "target_ru": "Спокойный072373,
   {
     "id": "072374",
     "source_cn": "活尸汲取月冕能量，进入狂暴阶段。",
@@ -14283,8 +13980,7 @@
     "id": "072380",
     "source_cn": "盥洗室门",
     "ref_en": "Restroom door",
-    "target_ru": "дверь в ванную"
-  },
+    "target_ru": "Дверь в ванную072380,
   {
     "id": "072381",
     "source_cn": "目标家族已处于创建流程，无法取消响应",
@@ -14301,8 +13997,7 @@
     "id": "072383",
     "source_cn": "祈祷1",
     "ref_en": "Prayer 1",
-    "target_ru": "молитва 1"
-  },
+    "target_ru": "Молитва 1072383,
   {
     "id": "072384",
     "source_cn": "窗外2",
@@ -14331,8 +14026,7 @@
     "id": "072388",
     "source_cn": "等待一会儿",
     "ref_en": "Wait a moment",
-    "target_ru": "подожди немного"
-  },
+    "target_ru": "Подожди немного072388,
   {
     "id": "072389",
     "source_cn": "等待艾伯特开始演奏",
@@ -14355,8 +14049,7 @@
     "id": "072392",
     "source_cn": "绯红呓语",
     "ref_en": "Crimson Whispers",
-    "target_ru": "малиновый лепет"
-  },
+    "target_ru": "Малиновый лепет072392,
   {
     "id": "072393",
     "source_cn": "罗塞尔明信片",
@@ -14439,8 +14132,7 @@
     "id": "072406",
     "source_cn": "趋于完善",
     "ref_en": "Approaching Perfection",
-    "target_ru": "стремиться к совершенству"
-  },
+    "target_ru": "Стремиться к совершенству072406,
   {
     "id": "072407",
     "source_cn": "跑起来！",
@@ -14481,8 +14173,7 @@
     "id": "072413",
     "source_cn": "酒保",
     "ref_en": "Bartender",
-    "target_ru": "бармен"
-  },
+    "target_ru": "Бармен072413,
   {
     "id": "072414",
     "source_cn": "野餐食物J",
@@ -14493,8 +14184,7 @@
     "id": "072415",
     "source_cn": "门徒",
     "ref_en": "Disciple",
-    "target_ru": "ученик"
-  },
+    "target_ru": "Ученик072415,
   {
     "id": "072416",
     "source_cn": "防守异变物质·愚者",
@@ -14523,14 +14213,12 @@
     "id": "072420",
     "source_cn": "餐吧侍者",
     "ref_en": "Dining Bar Waiter",
-    "target_ru": "официант"
-  },
+    "target_ru": "Официант072420,
   {
     "id": "072421",
     "source_cn": "骑兵",
     "ref_en": "Cavalry",
-    "target_ru": "кавалерия"
-  },
+    "target_ru": "Кавалерия072421,
   {
     "id": "072422",
     "source_cn": "黑边太阳花粉末",
@@ -14601,8 +14289,7 @@
     "id": "072433",
     "source_cn": "一",
     "ref_en": "One",
-    "target_ru": "один"
-  },
+    "target_ru": "Один072433,
   {
     "id": "072434",
     "source_cn": "一切都完蛋了，车厢损坏成这样，按合同我要赔偿损坏的马车，可我即便坐牢也拿不出这么多钱。",
@@ -14661,8 +14348,7 @@
     "id": "072443",
     "source_cn": "什么都没发生",
     "ref_en": "Nothing happened",
-    "target_ru": "ничего не произошло"
-  },
+    "target_ru": "Ничего не произошло072443,
   {
     "id": "072444",
     "source_cn": "任务24-回退",
@@ -14787,8 +14473,7 @@
     "id": "072464",
     "source_cn": "奶奶对话",
     "ref_en": "Grandma dialogue",
-    "target_ru": "разговор с бабушкой"
-  },
+    "target_ru": "Разговор с бабушкой072464,
   {
     "id": "072465",
     "source_cn": "好吧，原来是扶老奶奶过马路的好心人。辛苦了。",
@@ -14799,8 +14484,7 @@
     "id": "072466",
     "source_cn": "安抚亡灵",
     "ref_en": "Pacify the dead",
-    "target_ru": "умилостивить мертвых"
-  },
+    "target_ru": "Умилостивить мертвых072466,
   {
     "id": "072467",
     "source_cn": "完全消化学徒魔药",
@@ -14823,8 +14507,7 @@
     "id": "072470",
     "source_cn": "左右",
     "ref_en": "Left/Right",
-    "target_ru": "влево и вправо"
-  },
+    "target_ru": "Влево и вправо072470,
   {
     "id": "072471",
     "source_cn": "帅气酷飒",
@@ -14859,8 +14542,7 @@
     "id": "072476",
     "source_cn": "快速转动",
     "ref_en": "Fast rotation",
-    "target_ru": "быстрый поворот"
-  },
+    "target_ru": "Быстрый поворот072476,
   {
     "id": "072477",
     "source_cn": "您终于来了，侦探{{先生|女士}}……",
@@ -14883,14 +14565,12 @@
     "id": "072480",
     "source_cn": "拳手_壁垒",
     "ref_en": "Fighter_Bulwark",
-    "target_ru": "boxer_barrier"
-  },
+    "target_ru": "Boxer_barrier072480,
   {
     "id": "072481",
     "source_cn": "捕鸟的篮子",
     "ref_en": "Bird-Catching Basket",
-    "target_ru": "корзина для птиц"
-  },
+    "target_ru": "Корзина для птиц072481,
   {
     "id": "072482",
     "source_cn": "推荐价格+%s%%",
@@ -14985,14 +14665,12 @@
     "id": "072497",
     "source_cn": "红色",
     "ref_en": "Red",
-    "target_ru": "красный"
-  },
+    "target_ru": "Красный072497,
   {
     "id": "072498",
     "source_cn": "终结技能",
     "ref_en": "Finisher Skill",
-    "target_ru": "навыки отделки"
-  },
+    "target_ru": "Навыки отделки072498,
   {
     "id": "072499",
     "source_cn": "老兄，下次“狗抓老鼠”比赛你一定要押豪斯，我听说它有着凛冬郡猎犬的血脉，肯定能抓到最多的老鼠！",
@@ -15021,14 +14699,12 @@
     "id": "072503",
     "source_cn": "败者补偿",
     "ref_en": "Loser's Compensation",
-    "target_ru": "компенсация проигравшему"
-  },
+    "target_ru": "Компенсация проигравшему072503,
   {
     "id": "072504",
     "source_cn": "跳舞",
     "ref_en": "Dance",
-    "target_ru": "танцевать"
-  },
+    "target_ru": "Танцевать072504,
   {
     "id": "072505",
     "source_cn": "这个不串",
@@ -15087,8 +14763,7 @@
     "id": "072514",
     "source_cn": "铁火工坊",
     "ref_en": "Iron Fire Workshop",
-    "target_ru": "железоогневая мастерская"
-  },
+    "target_ru": "Железоогневая мастерская072514,
   {
     "id": "072515",
     "source_cn": "预计校验剩余时间 %.0f 分钟",
@@ -15171,8 +14846,7 @@
     "id": "072528",
     "source_cn": "<P_Heart>（看向闪闪发光的垃圾们）</>嗯……别管这该死的好奇心了。",
     "ref_en": "<P_Heart> (Looking at the glittering trash) </> Hmm... forget this damn curiosity.",
-    "target_ru": "<P_Heart> (глядя на блестящий мусор) </> Ну... забудь об этом чертовом любопытстве."
-  },
+    "target_ru": "<P_Heart> (Глядя на блестящий мусор) </> Ну... забудь об этом чертовом любопытстве.072528,
   {
     "id": "072529",
     "source_cn": "Boss靠近召唤物后获得的状态",
@@ -15207,8 +14881,7 @@
     "id": "072534",
     "source_cn": "丰饶",
     "ref_en": "Abundance",
-    "target_ru": "изобилие"
-  },
+    "target_ru": "Изобилие072534,
   {
     "id": "072535",
     "source_cn": "也许漫长的时间已经让他产生了一些动摇。",
@@ -15255,8 +14928,7 @@
     "id": "072542",
     "source_cn": "侠义值",
     "ref_en": "Chivalry Points",
-    "target_ru": "рыцарская ценность"
-  },
+    "target_ru": "Рыцарская ценность072542,
   {
     "id": "072543",
     "source_cn": "充能激活",
@@ -15267,8 +14939,7 @@
     "id": "072544",
     "source_cn": "光蚀灯",
     "ref_en": "Light-Etching Lamp",
-    "target_ru": "лампа для фототравления"
-  },
+    "target_ru": "Лампа для фототравления072544,
   {
     "id": "072545",
     "source_cn": "其实我这趟旅程的目的，就是为了解开这个谜题。",
@@ -15309,8 +14980,7 @@
     "id": "072551",
     "source_cn": "切换地点",
     "ref_en": "Switch location",
-    "target_ru": "переключить местоположение"
-  },
+    "target_ru": "Переключить местоположение072551,
   {
     "id": "072552",
     "source_cn": "刚才……发生了什么？",
@@ -15351,8 +15021,7 @@
     "id": "072558",
     "source_cn": "即将失控",
     "ref_en": "About to lose control",
-    "target_ru": "О потере контроля"
-  },
+    "target_ru": "О Потере Контроля072558,
   {
     "id": "072559",
     "source_cn": "因为我已经对我的丈夫\\r\\n不抱指望。",
@@ -15399,8 +15068,7 @@
     "id": "072566",
     "source_cn": "学员",
     "ref_en": "Student",
-    "target_ru": "студент"
-  },
+    "target_ru": "Студент072566,
   {
     "id": "072567",
     "source_cn": "学院区域",
@@ -15417,8 +15085,7 @@
     "id": "072569",
     "source_cn": "屋顶猫",
     "ref_en": "Roof cat",
-    "target_ru": "крыша кот"
-  },
+    "target_ru": "Крыша кот072569,
   {
     "id": "072570",
     "source_cn": "巅峰之语",
@@ -15429,8 +15096,7 @@
     "id": "072571",
     "source_cn": "左键",
     "ref_en": "Left Click",
-    "target_ru": "щелкните левой кнопкой мыши"
-  },
+    "target_ru": "Щелкните левой кнопкой мыши072571,
   {
     "id": "072572",
     "source_cn": "平视开始",
@@ -15501,14 +15167,12 @@
     "id": "072583",
     "source_cn": "执事",
     "ref_en": "Deacon",
-    "target_ru": "дьякон"
-  },
+    "target_ru": "Дьякон072583,
   {
     "id": "072584",
     "source_cn": "映",
     "ref_en": "Ying",
-    "target_ru": "отражать"
-  },
+    "target_ru": "Отражать072584,
   {
     "id": "072585",
     "source_cn": "是否传送到城堡中庭建造区？",
@@ -15567,8 +15231,7 @@
     "id": "072594",
     "source_cn": "格子三",
     "ref_en": "Grid 3",
-    "target_ru": "сетка три"
-  },
+    "target_ru": "Сетка три072594,
   {
     "id": "072595",
     "source_cn": "梅丽莎和班森",
@@ -15609,8 +15272,7 @@
     "id": "072601",
     "source_cn": "污染外观",
     "ref_en": "Corruption appearance",
-    "target_ru": "появление пятна"
-  },
+    "target_ru": "Появление пятна072601,
   {
     "id": "072602",
     "source_cn": "洛耀：斗邪恶吗？二缺一。",
@@ -15639,8 +15301,7 @@
     "id": "072606",
     "source_cn": "渴望的回音",
     "ref_en": "Echo of Longing",
-    "target_ru": "эхо тоски"
-  },
+    "target_ru": "Эхо тоски072606,
   {
     "id": "072607",
     "source_cn": "琳达，振作起来！我们都会支持你的！",
@@ -15651,8 +15312,7 @@
     "id": "072608",
     "source_cn": "略",
     "ref_en": "Strat",
-    "target_ru": "слегка"
-  },
+    "target_ru": "Слегка072608,
   {
     "id": "072609",
     "source_cn": "皇室都在用的遮臭净味秘密香氛！",
@@ -15729,8 +15389,7 @@
     "id": "072621",
     "source_cn": "老先生1",
     "ref_en": "Old Gentleman 1",
-    "target_ru": "старый джентльмен 1"
-  },
+    "target_ru": "Старый джентльмен 1072621,
   {
     "id": "072622",
     "source_cn": "肯恩",
@@ -15759,8 +15418,7 @@
     "id": "072626",
     "source_cn": "表示好奇",
     "ref_en": "Show curiosity",
-    "target_ru": "выражать любопытство"
-  },
+    "target_ru": "Выражать любопытство072626,
   {
     "id": "072627",
     "source_cn": "观众梦境编织（肉鸽）",
@@ -15807,8 +15465,7 @@
     "id": "072634",
     "source_cn": "达文西",
     "ref_en": "Da Vinci",
-    "target_ru": "да Винчи"
-  },
+    "target_ru": "Да Винчи072634,
   {
     "id": "072635",
     "source_cn": "近景过肩Actor2",
@@ -15891,8 +15548,7 @@
     "id": "072648",
     "source_cn": "（叫卖）走过路过不要错过，丝瓜汤免费品尝咯！去火气又健康！",
     "ref_en": "(Hawking) Step right up, don't miss out, free loofah soup tasting! Reduces internal heat and is healthy!",
-    "target_ru": "(хокает) Не пропустите, если пройдете мимо, суп из люфы можно попробовать бесплатно! Избавьтесь от гнева и будьте здоровы!"
-  },
+    "target_ru": "(Хокает) Не пропустите, если пройдете мимо, суп из люфы можно попробовать бесплатно! Избавьтесь от гнева и будьте здоровы!072648,
   {
     "id": "072649",
     "source_cn": "3苏勒",
@@ -15915,8 +15571,7 @@
     "id": "072652",
     "source_cn": "<P_Heart>（嘶吼）</>嗷吼——",
     "ref_en": "<P_Heart>(Roar)</> Awoo-roar—",
-    "target_ru": "<P_Heart> (рев) </> Рев——"
-  },
+    "target_ru": "<P_Heart> (Рев) </> Рев——072652,
   {
     "id": "072653",
     "source_cn": "<P_Heart>（老尼尔提醒了我，占卜家的魔药消化比预期早了几周，后续的晋升计划，最好回家去灰雾上占卜一下。）</>",
@@ -16071,8 +15726,7 @@
     "id": "072678",
     "source_cn": "保守的描述",
     "ref_en": "Conservative description",
-    "target_ru": "консервативное описание"
-  },
+    "target_ru": "Консервативное описание072678,
   {
     "id": "072679",
     "source_cn": "俱乐部初始规模为80人，每升1级，则可提升一定数量的人数上限。",
@@ -16299,8 +15953,7 @@
     "id": "072716",
     "source_cn": "情绪值",
     "ref_en": "Emotion Value",
-    "target_ru": "эмоциональная ценность"
-  },
+    "target_ru": "Эмоциональная ценность072716,
   {
     "id": "072717",
     "source_cn": "愚者庇佑",
@@ -16377,8 +16030,7 @@
     "id": "072729",
     "source_cn": "摊开笔记",
     "ref_en": "Spread Notebook",
-    "target_ru": "разложить заметки"
-  },
+    "target_ru": "Разложить заметки072729,
   {
     "id": "072730",
     "source_cn": "日程表开信纸",
@@ -16389,8 +16041,7 @@
     "id": "072731",
     "source_cn": "时",
     "ref_en": "Hour",
-    "target_ru": "время"
-  },
+    "target_ru": "Время072731,
   {
     "id": "072732",
     "source_cn": "星火说唱前",
@@ -16401,8 +16052,7 @@
     "id": "072733",
     "source_cn": "星相书",
     "ref_en": "Astrology Book",
-    "target_ru": "книга по астрологии"
-  },
+    "target_ru": "Книга по астрологии072733,
   {
     "id": "072734",
     "source_cn": "是否辞任会长？会长将被移交给其他官员。您将被任命为会员。",
@@ -16443,8 +16093,7 @@
     "id": "072740",
     "source_cn": "有人叫醒了你",
     "ref_en": "Someone woke you up",
-    "target_ru": "кто-то тебя разбудил"
-  },
+    "target_ru": "Кто-то тебя разбудил072740,
   {
     "id": "072741",
     "source_cn": "检查Int型的黑板值（命中人数、筛选人数等）",
@@ -16473,8 +16122,7 @@
     "id": "072745",
     "source_cn": "沐浴圣光",
     "ref_en": "Bathe in Holy Light",
-    "target_ru": "купаться в святом свете"
-  },
+    "target_ru": "Купаться в святом свете072745,
   {
     "id": "072746",
     "source_cn": "没关系，慢慢来",
@@ -16503,14 +16151,12 @@
     "id": "072750",
     "source_cn": "灰鸟祖母的羽毛",
     "ref_en": "Feather of a Gray Bird Matriarch",
-    "target_ru": "серая птица бабушкины перья"
-  },
+    "target_ru": "Серая птица бабушкины перья072750,
   {
     "id": "072751",
     "source_cn": "烈日沙",
     "ref_en": "Sun-Drenched Sand",
-    "target_ru": "раскаленный песок"
-  },
+    "target_ru": "Раскаленный песок072751,
   {
     "id": "072752",
     "source_cn": "爸爸妈妈很忙，但他们给了我玩偶露米。有露米陪我等他们回家，就一点也不孤单了。",
@@ -16521,8 +16167,7 @@
     "id": "072753",
     "source_cn": "狒狒火焰",
     "ref_en": "Baboon Fire",
-    "target_ru": "пламя бабуина"
-  },
+    "target_ru": "Пламя бабуина072753,
   {
     "id": "072754",
     "source_cn": "猎犬……猎犬酒馆的老莱特告诉我，这里藏着能干事的人……什么……什么佣兵小队？",
@@ -16671,8 +16316,7 @@
     "id": "072778",
     "source_cn": "触发器3",
     "ref_en": "Trigger 3",
-    "target_ru": "триггер 3"
-  },
+    "target_ru": "Триггер 3072778,
   {
     "id": "072779",
     "source_cn": "记忆回溯-伯爵归来（40级）",
@@ -16749,8 +16393,7 @@
     "id": "072791",
     "source_cn": "踢出队伍",
     "ref_en": "Kick from Party",
-    "target_ru": "выгнал из команды"
-  },
+    "target_ru": "Выгнал из команды072791,
   {
     "id": "072792",
     "source_cn": "这东西要多少钱？",
@@ -16791,14 +16434,12 @@
     "id": "072798",
     "source_cn": "门途径",
     "ref_en": "Door Pathway",
-    "target_ru": "дверной проем"
-  },
+    "target_ru": "Дверной проем072798,
   {
     "id": "072799",
     "source_cn": "雕像坐姿",
     "ref_en": "Statue Sitting Pose",
-    "target_ru": "поза сидящей статуи"
-  },
+    "target_ru": "Поза сидящей статуи072799,
   {
     "id": "072800",
     "source_cn": "零元购凭证",
@@ -16851,14 +16492,12 @@
     "id": "072808",
     "source_cn": "<P_Heart>（笑）</>这枪管都锈穿了，拿回去当烧火棍？",
     "ref_en": "<P_Heart> (Laughs) </> The barrel is rusted through; are you taking it back to use as a fire poker?",
-    "target_ru": "<P_Heart> (смеется) </> Ствол этого пистолета насквозь проржавел, забрать его и использовать как огненную палку?"
-  },
+    "target_ru": "<P_Heart> (Смеется) </> Ствол этого пистолета насквозь проржавел, забрать его и использовать как огненную палку?072808,
   {
     "id": "072809",
     "source_cn": "<h>回撤</>！赶往安全屋！",
     "ref_en": "<h>Retreat</>! Rush to the safe house!",
-    "target_ru": "<h> ретрейсмент </>! Спешите в безопасный дом!"
-  },
+    "target_ru": "<h> Ретрейсмент </>! Спешите в безопасный дом!072809,
   {
     "id": "072810",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>【活动时间】</>\\n2026年8月27日8:00:00—2026年9月17日6:00:00\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>【鲁恩风尚】</>\\n活动期间，点击传送前往各打卡点，与打卡点互动并完成拍照即可成功打卡。累计完成指定数量的打卡任务，即可领取对应奖励。",
@@ -16911,8 +16550,7 @@
     "id": "072818",
     "source_cn": "一笔画",
     "ref_en": "One-stroke drawing",
-    "target_ru": "один удар"
-  },
+    "target_ru": "Один удар072818,
   {
     "id": "072819",
     "source_cn": "下载文件失败，错误码1018",
@@ -16971,8 +16609,7 @@
     "id": "072828",
     "source_cn": "共鸣等级",
     "ref_en": "Resonance Level",
-    "target_ru": "уровень резонанса"
-  },
+    "target_ru": "Уровень резонанса072828,
   {
     "id": "072829",
     "source_cn": "切换射击，击落发疯的剧本",
@@ -16989,8 +16626,7 @@
     "id": "072831",
     "source_cn": "劫掠者",
     "ref_en": "Raider",
-    "target_ru": "рейдер"
-  },
+    "target_ru": "Рейдер072831,
   {
     "id": "072832",
     "source_cn": "单份奖励预览",
@@ -17001,8 +16637,7 @@
     "id": "072833",
     "source_cn": "卡牌顺序标记",
     "ref_en": "Card Order Mark",
-    "target_ru": "знак заказа карты"
-  },
+    "target_ru": "Знак заказа карты072833,
   {
     "id": "072834",
     "source_cn": "厄水巨龟狂暴",
@@ -17043,8 +16678,7 @@
     "id": "072840",
     "source_cn": "啊！",
     "ref_en": "Ah!",
-    "target_ru": "ах!"
-  },
+    "target_ru": "Ах!072840,
   {
     "id": "072841",
     "source_cn": "在主宰争锋战场中总伤害(%d)或治疗(%d)达到50万。",
@@ -17133,8 +16767,7 @@
     "id": "072855",
     "source_cn": "小屋马车夫",
     "ref_en": "Cottage Carriage Driver",
-    "target_ru": "кучер"
-  },
+    "target_ru": "Кучер072855,
   {
     "id": "072856",
     "source_cn": "尽快摆脱困境！",
@@ -17211,14 +16844,12 @@
     "id": "072868",
     "source_cn": "戴莉的墓碑",
     "ref_en": "Daly's Tombstone",
-    "target_ru": "надгробие Дейли"
-  },
+    "target_ru": "Надгробие Дейли072868,
   {
     "id": "072869",
     "source_cn": "手机扬声器",
     "ref_en": "Phone Speaker",
-    "target_ru": "динамики сотового телефона"
-  },
+    "target_ru": "Динамики сотового телефона072869,
   {
     "id": "072870",
     "source_cn": "托尼，我是廷根最慷慨的房东，允许你们6人合租一间。",
@@ -17391,14 +17022,12 @@
     "id": "072898",
     "source_cn": "看看有些什么",
     "ref_en": "See what's available",
-    "target_ru": "посмотреть, что там"
-  },
+    "target_ru": "Посмотреть, что там072898,
   {
     "id": "072899",
     "source_cn": "破布mesh",
     "ref_en": "Rag mesh",
-    "target_ru": "тряпичная сетка"
-  },
+    "target_ru": "Тряпичная сетка072899,
   {
     "id": "072900",
     "source_cn": "砸地",
@@ -17421,8 +17050,7 @@
     "id": "072903",
     "source_cn": "福利发放员",
     "ref_en": "Welfare Distributor",
-    "target_ru": "сотрудник социального обеспечения"
-  },
+    "target_ru": "Сотрудник социального обеспечения072903,
   {
     "id": "072904",
     "source_cn": "等级提升受限中，需完成主线剧情《时代的浪潮》晋升至序列9，解锁等级限制。",
@@ -17451,8 +17079,7 @@
     "id": "072908",
     "source_cn": "苹果冲锋",
     "ref_en": "Apple Charge",
-    "target_ru": "яблочный заряд"
-  },
+    "target_ru": "Яблочный заряд072908,
   {
     "id": "072909",
     "source_cn": "获取200点凯旋徽章",
@@ -17529,8 +17156,7 @@
     "id": "072921",
     "source_cn": "谁在",
     "ref_en": "Who is",
-    "target_ru": "кто там"
-  },
+    "target_ru": "Кто там072921,
   {
     "id": "072922",
     "source_cn": "跑起来吧，让我看看你的渴望有多火热。",
@@ -17559,8 +17185,7 @@
     "id": "072926",
     "source_cn": "进入洞中",
     "ref_en": "Enter Hole",
-    "target_ru": "войти в пещеру"
-  },
+    "target_ru": "Войти в пещеру072926,
   {
     "id": "072927",
     "source_cn": "送葬之剑标记",
@@ -17697,8 +17322,7 @@
     "id": "072949",
     "source_cn": "七",
     "ref_en": "Seven",
-    "target_ru": "семь"
-  },
+    "target_ru": "Семь072949,
   {
     "id": "072950",
     "source_cn": "与艾登分别",
@@ -17811,8 +17435,7 @@
     "id": "072968",
     "source_cn": "原地踏步",
     "ref_en": "Treading water",
-    "target_ru": "оставайся на месте"
-  },
+    "target_ru": "Оставайся на месте072968,
   {
     "id": "072969",
     "source_cn": "参与1次「神座之争」玩法",
@@ -17943,8 +17566,7 @@
     "id": "072990",
     "source_cn": "开始复仇",
     "ref_en": "Start revenge",
-    "target_ru": "начать месть"
-  },
+    "target_ru": "Начать месть072990,
   {
     "id": "072991",
     "source_cn": "当前系统维护中，临时暂停匹配。",
@@ -17967,8 +17589,7 @@
     "id": "072994",
     "source_cn": "情人",
     "ref_en": "Lover",
-    "target_ru": "любовник"
-  },
+    "target_ru": "Любовник072994,
   {
     "id": "072995",
     "source_cn": "愚者先生，您介意多几次现在这样的“尝试”吗？",
@@ -18075,8 +17696,7 @@
     "id": "073012",
     "source_cn": "有礼猫",
     "ref_en": "Gift Cat",
-    "target_ru": "вежливый кот"
-  },
+    "target_ru": "Вежливый кот073012,
   {
     "id": "073013",
     "source_cn": "来自科恩黎的增益效果，那是关于守护与牺牲的歌谣。",
@@ -18135,8 +17755,7 @@
     "id": "073022",
     "source_cn": "男性猎手",
     "ref_en": "Male Hunter",
-    "target_ru": "мужчина-охотник"
-  },
+    "target_ru": "Мужчина-охотник073022,
   {
     "id": "073023",
     "source_cn": "瞄准，狙击！",
@@ -18153,8 +17772,7 @@
     "id": "073025",
     "source_cn": "社交赠礼",
     "ref_en": "Social gift",
-    "target_ru": "социальные подарки"
-  },
+    "target_ru": "Социальные подарки073025,
   {
     "id": "073026",
     "source_cn": "神弃之地雕像-3档33",
@@ -18339,8 +17957,7 @@
     "id": "073056",
     "source_cn": "钱镜头",
     "ref_en": "Money Camera",
-    "target_ru": "денежный выстрел"
-  },
+    "target_ru": "Денежный выстрел073056,
   {
     "id": "073057",
     "source_cn": "键位",
@@ -18429,8 +18046,7 @@
     "id": "073071",
     "source_cn": "<P_Heart>（兴奋）</>那是自然！以感官解构文字，正是我创造的一种全新的话语体系，别看这出戏剧叫做《夏夜之梦》，其实隐喻的是完全相反的内容！",
     "ref_en": "<P_Heart> (Excitedly) </> That's natural! Deconstructing text through the senses is a brand-new discourse system I created. Don't look at this play called 'A Midsummer Night's Dream'; it actually metaphors the exact opposite content!",
-    "target_ru": "<P_Heart> (взволнованно) </> Это естественно! Деконструкция слов с помощью чувств — это совершенно новая дискурсивная система, которую я создал. Хоть эта пьеса и называется «Сон в летнюю ночь», на самом деле она метафоризирует совершенно противоположное содержание!"
-  },
+    "target_ru": "<P_Heart> (Взволнованно) </> Это естественно! Деконструкция слов с помощью чувств — это совершенно новая дискурсивная система, которую я создал. Хоть эта пьеса и называется «Сон в летнюю ночь», на самом деле она метафоризирует совершенно противоположное содержание!073071,
   {
     "id": "073072",
     "source_cn": "<P_Heart>（大概……是一位在找雇主丢失的小猫的……私家侦探吧……）</>",
@@ -18441,8 +18057,7 @@
     "id": "073073",
     "source_cn": "<P_Heart>（表情僵硬）</>……谁告诉你的？",
     "ref_en": "<P_Heart>(Expression stiffens)</> ...Who told you that?",
-    "target_ru": "<P_Heart> (с жёстким выражением лица) </>...Кто тебе сказал?"
-  },
+    "target_ru": "<P_Heart> (С жёстким выражением лица) </>...Кто тебе сказал?073073,
   {
     "id": "073074",
     "source_cn": "Ah... {{先生|女士}}, how did you know I wanted to go so much?",
@@ -18477,8 +18092,7 @@
     "id": "073079",
     "source_cn": "三号舞台",
     "ref_en": "Stage Three",
-    "target_ru": "третий этап"
-  },
+    "target_ru": "Третий этап073079,
   {
     "id": "073080",
     "source_cn": "与指定门进行交互  玩家设置灵视状态  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）  ",
@@ -18501,14 +18115,12 @@
     "id": "073083",
     "source_cn": "交易邮件",
     "ref_en": "Trade Mail",
-    "target_ru": "транзакционная электронная почта"
-  },
+    "target_ru": "Транзакционная электронная почта073083,
   {
     "id": "073084",
     "source_cn": "仪式净化",
     "ref_en": "Ritual Purification",
-    "target_ru": "ритуальное очищение"
-  },
+    "target_ru": "Ритуальное очищение073084,
   {
     "id": "073085",
     "source_cn": "但最后还是把他们击沉了。那些海盗……<P_Heart>（停顿）</>要么被海流卷走，要么成了鲨鱼的猎物。",
@@ -18549,8 +18161,7 @@
     "id": "073091",
     "source_cn": "劳工锁链",
     "ref_en": "Laborer Chain",
-    "target_ru": "трудовые цепочки"
-  },
+    "target_ru": "Трудовые цепочки073091,
   {
     "id": "073092",
     "source_cn": "叙述占星解读",
@@ -18591,8 +18202,7 @@
     "id": "073098",
     "source_cn": "喝杯咖啡",
     "ref_en": "Drink a Cup of Coffee",
-    "target_ru": "выпить чашечку кофе"
-  },
+    "target_ru": "Выпить чашечку кофе073098,
   {
     "id": "073099",
     "source_cn": "圆形全向九宫格",
@@ -18615,20 +18225,17 @@
     "id": "073102",
     "source_cn": "塔罗学派",
     "ref_en": "Tarot Club.",
-    "target_ru": "школа Таро"
-  },
+    "target_ru": "Школа Таро073102,
   {
     "id": "073103",
     "source_cn": "复习书",
     "ref_en": "Review Book",
-    "target_ru": "обзорная книга"
-  },
+    "target_ru": "Обзорная книга073103,
   {
     "id": "073104",
     "source_cn": "大型摆设",
     "ref_en": "Large Decoration",
-    "target_ru": "большая мебель"
-  },
+    "target_ru": "Большая мебель073104,
   {
     "id": "073105",
     "source_cn": "天灾女王的金杯",
@@ -18645,8 +18252,7 @@
     "id": "073107",
     "source_cn": "女士D",
     "ref_en": "Lady D",
-    "target_ru": "г-жа Д."
-  },
+    "target_ru": "Г-жа Д.073107,
   {
     "id": "073108",
     "source_cn": "她行于绯红的月轮之下，将安眠赐予劳苦奔波的魂灵。",
@@ -18723,8 +18329,7 @@
     "id": "073120",
     "source_cn": "工厂的浓烟",
     "ref_en": "Factory Smoke",
-    "target_ru": "заводской дым"
-  },
+    "target_ru": "Заводской дым073120,
   {
     "id": "073121",
     "source_cn": "已有其他非凡者进行援助，感谢您的响应！",
@@ -18735,8 +18340,7 @@
     "id": "073122",
     "source_cn": "帮帮我！",
     "ref_en": "Help me!",
-    "target_ru": "помогите мне!"
-  },
+    "target_ru": "Помогите мне!073122,
   {
     "id": "073123",
     "source_cn": "并肩3羁绊",
@@ -18765,8 +18369,7 @@
     "id": "073127",
     "source_cn": "弄清真相",
     "ref_en": "Find out the truth",
-    "target_ru": "докопаться до сути вещей"
-  },
+    "target_ru": "Докопаться до сути вещей073127,
   {
     "id": "073128",
     "source_cn": "当前全局光照质量较低，暂时无法开启光追。“画质设置”/“全局光照质量”需要调整到“高”或更高的档位。",
@@ -18867,8 +18470,7 @@
     "id": "073144",
     "source_cn": "捆绑藤蔓",
     "ref_en": "Binding Vines",
-    "target_ru": "связывающие лозы"
-  },
+    "target_ru": "Связывающие лозы073144,
   {
     "id": "073145",
     "source_cn": "推荐词条",
@@ -18963,8 +18565,7 @@
     "id": "073160",
     "source_cn": "测试生成对象",
     "ref_en": "Test object generation",
-    "target_ru": "объект тестовой сборки"
-  },
+    "target_ru": "Объект тестовой сборки073160,
   {
     "id": "073161",
     "source_cn": "混乱区域2重生点",
@@ -18999,8 +18600,7 @@
     "id": "073166",
     "source_cn": "皇帝的新衣",
     "ref_en": "The Emperor's New Clothes",
-    "target_ru": "новая одежда императора"
-  },
+    "target_ru": "Новая одежда императора073166,
   {
     "id": "073167",
     "source_cn": "移动速度_百分比加成",
@@ -19011,8 +18611,7 @@
     "id": "073168",
     "source_cn": "空想天使",
     "ref_en": "Visionary Angel",
-    "target_ru": "фэнтезийный ангел"
-  },
+    "target_ru": "Фэнтезийный ангел073168,
   {
     "id": "073169",
     "source_cn": "站点限购/限售上限",
@@ -19023,8 +18622,7 @@
     "id": "073170",
     "source_cn": "竞速玩法",
     "ref_en": "Racing Gameplay",
-    "target_ru": "гоночный геймплей"
-  },
+    "target_ru": "Гоночный геймплей073170,
   {
     "id": "073171",
     "source_cn": "答案1-右",
@@ -19047,14 +18645,12 @@
     "id": "073174",
     "source_cn": "聊聊过去",
     "ref_en": "Talk about the past",
-    "target_ru": "болтать о прошлом"
-  },
+    "target_ru": "Болтать о прошлом073174,
   {
     "id": "073175",
     "source_cn": "舞力全开",
     "ref_en": "Dance All Out",
-    "target_ru": "просто танцуй"
-  },
+    "target_ru": "Просто танцуй073175,
   {
     "id": "073176",
     "source_cn": "艾莉·",
@@ -19161,14 +18757,12 @@
     "id": "073193",
     "source_cn": "<Chat_Locate>范围设置</>",
     "ref_en": "<Chat_Locate> Range Settings </>",
-    "target_ru": "<Chat_Locate> настройка диапазона </>"
-  },
+    "target_ru": "<Chat_Locate> Настройка диапазона </>073193,
   {
     "id": "073194",
     "source_cn": "<P_Heart>（小声）</>拜托，帮我逃走！我拖住他们，你去拿架子上的魔药！",
     "ref_en": "<P_Heart>(Whispering)</> Please, help me escape! I'll hold them off, you go get the potion on the shelf!",
-    "target_ru": "<P_Heart>(шепотом)</>Пожалуйста, помогите мне сбежать! Я задержу их, пока ты пойдешь за зельем на полку!"
-  },
+    "target_ru": "<P_Heart>(Шепотом)</>Пожалуйста, помогите мне сбежать! Я задержу их, пока ты пойдешь за зельем на полку!073194,
   {
     "id": "073195",
     "source_cn": "<P_Heart>（没时间纠缠了，得先把道奇救出来！）</>",
@@ -19179,8 +18773,7 @@
     "id": "073196",
     "source_cn": "<h>追上去</>看看",
     "ref_en": "<h>Chase after it</> and see",
-    "target_ru": "<h> догони </> и посмотри"
-  },
+    "target_ru": "<h> Догони </> и посмотри073196,
   {
     "id": "073197",
     "source_cn": "{\\n\"怪物\": \"1\",\\n\"NPC\": \"2\",\\n\"场景物件\": \"3\"\\n}",
@@ -19215,8 +18808,7 @@
     "id": "073202",
     "source_cn": "上衣下摆",
     "ref_en": "Top Hem",
-    "target_ru": "верхний подол"
-  },
+    "target_ru": "Верхний подол073202,
   {
     "id": "073203",
     "source_cn": "东北4",
@@ -19287,8 +18879,7 @@
     "id": "073214",
     "source_cn": "全屏伤害",
     "ref_en": "Full-screen damage.",
-    "target_ru": "повреждение полного экрана"
-  },
+    "target_ru": "Повреждение полного экрана073214,
   {
     "id": "073215",
     "source_cn": "全景03",
@@ -19341,8 +18932,7 @@
     "id": "073223",
     "source_cn": "参战",
     "ref_en": "Deploy",
-    "target_ru": "идти на войну"
-  },
+    "target_ru": "Идти на войну073223,
   {
     "id": "073224",
     "source_cn": "受伤加重",
@@ -19395,8 +18985,7 @@
     "id": "073232",
     "source_cn": "大于",
     "ref_en": "Greater than",
-    "target_ru": "больше, чем"
-  },
+    "target_ru": "Больше, чем073232,
   {
     "id": "073233",
     "source_cn": "契契别串了，等会被一脚踢死了",
@@ -19431,8 +19020,7 @@
     "id": "073238",
     "source_cn": "小说",
     "ref_en": "Novel",
-    "target_ru": "роман"
-  },
+    "target_ru": "Роман073238,
   {
     "id": "073239",
     "source_cn": "小鸟你好！小花你好！",
@@ -19455,8 +19043,7 @@
     "id": "073242",
     "source_cn": "帕金",
     "ref_en": "Parkin",
-    "target_ru": "парковаться"
-  },
+    "target_ru": "Парковаться073242,
   {
     "id": "073243",
     "source_cn": "序章流程版-石棺破碎",
@@ -19545,8 +19132,7 @@
     "id": "073257",
     "source_cn": "护身符",
     "ref_en": "Amulet",
-    "target_ru": "амулет"
-  },
+    "target_ru": "Амулет073257,
   {
     "id": "073258",
     "source_cn": "挑战礼盒·机械终结者",
@@ -19611,8 +19197,7 @@
     "id": "073268",
     "source_cn": "果实激活状态",
     "ref_en": "Fruit Activated State",
-    "target_ru": "состояние активации фруктов"
-  },
+    "target_ru": "Состояние активации фруктов073268,
   {
     "id": "073269",
     "source_cn": "标记_枪手",
@@ -19653,8 +19238,7 @@
     "id": "073275",
     "source_cn": "济贫院告示",
     "ref_en": "Poorhouse notice",
-    "target_ru": "уведомление о работном доме"
-  },
+    "target_ru": "Уведомление о работном доме073275,
   {
     "id": "073276",
     "source_cn": "消失的午餐 西蒙娜与达蒙 6202302-2",
@@ -19725,14 +19309,12 @@
     "id": "073287",
     "source_cn": "简单镜头",
     "ref_en": "Simple camera",
-    "target_ru": "простой выстрел"
-  },
+    "target_ru": "Простой выстрел073287,
   {
     "id": "073288",
     "source_cn": "结束询问",
     "ref_en": "End the questioning",
-    "target_ru": "завершить запрос"
-  },
+    "target_ru": "Завершить запрос073288,
   {
     "id": "073289",
     "source_cn": "绘制费内波特地图",
@@ -19743,8 +19325,7 @@
     "id": "073290",
     "source_cn": "维克罗尔先生",
     "ref_en": "Mr. Vickrol",
-    "target_ru": "г-н Викролл"
-  },
+    "target_ru": "Г-н Викролл073290,
   {
     "id": "073291",
     "source_cn": "罗珊迷上了泡咖啡，说想泡出和老尼尔一样的味道。",
@@ -19815,8 +19396,7 @@
     "id": "073302",
     "source_cn": "触发器2",
     "ref_en": "Trigger 2",
-    "target_ru": "триггер 2"
-  },
+    "target_ru": "Триггер 2073302,
   {
     "id": "073303",
     "source_cn": "警徽126",
@@ -19893,8 +19473,7 @@
     "id": "073315",
     "source_cn": "闪现",
     "ref_en": "Flash",
-    "target_ru": "вспышка"
-  },
+    "target_ru": "Вспышка073315,
   {
     "id": "073316",
     "source_cn": "队长？<P_Heart>（摇摇头）</>是罗珊给了我新人礼包，让我在廷根到处走走，熟悉环境。",
@@ -19953,8 +19532,7 @@
     "id": "073325",
     "source_cn": "音乐理念",
     "ref_en": "Music Concept",
-    "target_ru": "музыкальная концепция"
-  },
+    "target_ru": "Музыкальная концепция073325,
   {
     "id": "073326",
     "source_cn": "黑荆棘事件3-洛克·金-扇形点名-退化点任意敌人",
@@ -20073,8 +19651,7 @@
     "id": "073345",
     "source_cn": "使用后可晋升至序列八：小丑的魔药，蕴含着神秘的力量。",
     "ref_en": "After use, you can advance to Sequence 8: Clown potion, which contains mysterious power.",
-    "target_ru": "После использования вы можете перейти к последовательности 8: Зелье клоуна содержит таинственную силу."
-  },
+    "target_ru": "После использования вы можете перейти к Последовательности 8: Зелье клоуна содержит таинственную силу.073345,
   {
     "id": "073346",
     "source_cn": "使用后获得<Highlight>博物浪漫发饰</>",
@@ -20241,8 +19818,7 @@
     "id": "073373",
     "source_cn": "小提琴",
     "ref_en": "Violin",
-    "target_ru": "скрипка"
-  },
+    "target_ru": "Скрипка073373,
   {
     "id": "073374",
     "source_cn": "序章-原地头疼-重",
@@ -20253,8 +19829,7 @@
     "id": "073375",
     "source_cn": "引导模板",
     "ref_en": "Tutorial Template",
-    "target_ru": "шаблон начальной загрузки"
-  },
+    "target_ru": "Шаблон начальной загрузки073375,
   {
     "id": "073376",
     "source_cn": "当前无法进行此操作",
@@ -20385,8 +19960,7 @@
     "id": "073397",
     "source_cn": "欢喜",
     "ref_en": "Joy",
-    "target_ru": "радоваться"
-  },
+    "target_ru": "Радоваться073397,
   {
     "id": "073398",
     "source_cn": "死亡才是你的归宿！",
@@ -20427,8 +20001,7 @@
     "id": "073404",
     "source_cn": "渔夫",
     "ref_en": "Fisherman",
-    "target_ru": "рыбак"
-  },
+    "target_ru": "Рыбак073404,
   {
     "id": "073405",
     "source_cn": "演出为什么又停下了？！",
@@ -20475,8 +20048,7 @@
     "id": "073412",
     "source_cn": "空句子",
     "ref_en": "Empty Sentence",
-    "target_ru": "пустое предложение"
-  },
+    "target_ru": "Пустое предложение073412,
   {
     "id": "073413",
     "source_cn": "素净的",
@@ -20571,8 +20143,7 @@
     "id": "073428",
     "source_cn": "野餐食物D",
     "ref_en": "Picnic Food D",
-    "target_ru": "еда для пикникаD"
-  },
+    "target_ru": "Еда для пикникаD073428,
   {
     "id": "073429",
     "source_cn": "铁路大亨玩法中，商会认可的一种等价物，以票券的形式发放。",
@@ -20601,20 +20172,17 @@
     "id": "073433",
     "source_cn": "香蕉",
     "ref_en": "Banana",
-    "target_ru": "банан"
-  },
+    "target_ru": "Банан073433,
   {
     "id": "073434",
     "source_cn": "黄色音符标记buff",
     "ref_en": "Yellow note mark buff",
-    "target_ru": "желтый цвет ноты"
-  },
+    "target_ru": "Желтый цвет ноты073434,
   {
     "id": "073435",
     "source_cn": "黑荆棘车夫",
     "ref_en": "Blackthorn carriage driver",
-    "target_ru": "кучер терновника"
-  },
+    "target_ru": "Кучер терновника073435,
   {
     "id": "073436",
     "source_cn": "        这次，我又睡了多久？这股熟悉的气息……外面的世界发生了什么，吵闹到足以将我唤醒。",
@@ -20685,14 +20253,12 @@
     "id": "073447",
     "source_cn": "<P_Heart>（犹豫）</>……你怎么不跟别人一样，说是我的问题？说是我不懂事？",
     "ref_en": "<P_Heart> (Hesitating) </> ...Why aren't you like the others, saying it's my problem? Saying I'm being unreasonable?",
-    "target_ru": "<P_Heart> (колеблется) </>...Почему бы тебе просто не сказать, что это моя проблема, как и других? Ты хочешь сказать, что я невежественен?"
-  },
+    "target_ru": "<P_Heart> (Колеблется) </>...Почему бы тебе просто не сказать, что это моя проблема, как и других? Ты хочешь сказать, что я невежественен?073447,
   {
     "id": "073448",
     "source_cn": "monster费尔南",
     "ref_en": "Monster Fernand",
-    "target_ru": "монстр Фернан"
-  },
+    "target_ru": "Монстр Фернан073448,
   {
     "id": "073449",
     "source_cn": "【测试】一键养成52级中R",
@@ -20751,8 +20317,7 @@
     "id": "073458",
     "source_cn": "佩戴中",
     "ref_en": "Equipped",
-    "target_ru": "носить"
-  },
+    "target_ru": "Носить073458,
   {
     "id": "073459",
     "source_cn": "使用后获得<Highlight>第九军装鞋子</>",
@@ -20787,8 +20352,7 @@
     "id": "073464",
     "source_cn": "兔娘",
     "ref_en": "Bunny Girl",
-    "target_ru": "девочка-кролик"
-  },
+    "target_ru": "Девочка-кролик073464,
   {
     "id": "073465",
     "source_cn": "冠片",
@@ -20877,8 +20441,7 @@
     "id": "073479",
     "source_cn": "唇妆颜色",
     "ref_en": "Lip makeup color",
-    "target_ru": "цвет макияжа губ"
-  },
+    "target_ru": "Цвет макияжа губ073479,
   {
     "id": "073480",
     "source_cn": "喂，你真的想买内部资料？",
@@ -20979,8 +20542,7 @@
     "id": "073496",
     "source_cn": "恩风尚",
     "ref_en": "Loen Fashion",
-    "target_ru": "грация моды"
-  },
+    "target_ru": "Грация моды073496,
   {
     "id": "073497",
     "source_cn": "想要听一曲，来感受这美好的一天吗？",
@@ -21075,8 +20637,7 @@
     "id": "073512",
     "source_cn": "时装搭配",
     "ref_en": "Outfit Styling",
-    "target_ru": "соответствие моде"
-  },
+    "target_ru": "Соответствие моде073512,
   {
     "id": "073513",
     "source_cn": "星火普通人拳脚攻击",
@@ -21105,8 +20666,7 @@
     "id": "073517",
     "source_cn": "月亮纸人",
     "ref_en": "Moon Paper Figurine",
-    "target_ru": "лунный бумажный человечек"
-  },
+    "target_ru": "Лунный бумажный человечек073517,
   {
     "id": "073518",
     "source_cn": "有缘人“困于东侧摇篮的时光”？占卜师说话狗屁不通！",
@@ -21213,8 +20773,7 @@
     "id": "073535",
     "source_cn": "相框位置",
     "ref_en": "Picture frame position",
-    "target_ru": "положение фоторамки"
-  },
+    "target_ru": "Положение фоторамки073535,
   {
     "id": "073536",
     "source_cn": "真的吗……那太好了。<P_Heart>（略显歉疚）</>那片领地一直都缺少打理，也没有正式开始什么建设。您出1000苏勒，我想就已经很合适了。",
@@ -21321,8 +20880,7 @@
     "id": "073553",
     "source_cn": "诊所医生",
     "ref_en": "Clinic doctor",
-    "target_ru": "врач клиники"
-  },
+    "target_ru": "Врач клиники073553,
   {
     "id": "073554",
     "source_cn": "说话怪",
@@ -21393,8 +20951,7 @@
     "id": "073565",
     "source_cn": "预计",
     "ref_en": "Estimated",
-    "target_ru": "ожидается"
-  },
+    "target_ru": "Ожидается073565,
   {
     "id": "073566",
     "source_cn": "\\n主讲医师：康拉德医生\\n地点：廷根大学大礼堂\\n守护健康 保障安全 珍惜生命\\n让医疗之光普惠廷根\\n参与讲座可以在现场领取家用医疗包一份！\\n无需入场费 | 欢迎全市朋友听讲 | 不提供餐饮",
@@ -21567,8 +21124,7 @@
     "id": "073594",
     "source_cn": "加速",
     "ref_en": "Acceleration",
-    "target_ru": "ускориться"
-  },
+    "target_ru": "Ускориться073594,
   {
     "id": "073595",
     "source_cn": "区域5相机待定",
@@ -21609,8 +21165,7 @@
     "id": "073601",
     "source_cn": "后排输出",
     "ref_en": "Backline DPS",
-    "target_ru": "задний выход"
-  },
+    "target_ru": "Задний выход073601,
   {
     "id": "073602",
     "source_cn": "命中监听ex空间牢笼",
@@ -21663,8 +21218,7 @@
     "id": "073610",
     "source_cn": "太阳胸针",
     "ref_en": "Sun Brooch",
-    "target_ru": "брошь солнце"
-  },
+    "target_ru": "Брошь солнце073610,
   {
     "id": "073611",
     "source_cn": "奈拉小姐，我全要了——这整间店里的香水。",
@@ -21675,8 +21229,7 @@
     "id": "073612",
     "source_cn": "好脆感觉",
     "ref_en": "Feels so squishy.",
-    "target_ru": "такое хрустящее ощущение"
-  },
+    "target_ru": "Такое хрустящее ощущение073612,
   {
     "id": "073613",
     "source_cn": "安魂说明",
@@ -21717,8 +21270,7 @@
     "id": "073619",
     "source_cn": "帽子帮首领",
     "ref_en": "Hat Gang leader",
-    "target_ru": "лидер шляпной банды"
-  },
+    "target_ru": "Лидер шляпной банды073619,
   {
     "id": "073620",
     "source_cn": "幻化后无法行动和使用技能",
@@ -21759,8 +21311,7 @@
     "id": "073626",
     "source_cn": "忽视防御",
     "ref_en": "Ignore Defense",
-    "target_ru": "игнорировать защиту"
-  },
+    "target_ru": "Игнорировать защиту073626,
   {
     "id": "073627",
     "source_cn": "怠于职守、未完成周安魂次数者，直觉属性降低，直至重新履行周目标方可恢复。",
@@ -21831,8 +21382,7 @@
     "id": "073638",
     "source_cn": "拳击模式",
     "ref_en": "Punch mode.",
-    "target_ru": "режим бокса"
-  },
+    "target_ru": "Режим бокса073638,
   {
     "id": "073639",
     "source_cn": "持有攻击力增加效果，将自身体力恢复攻击力的<NumYellow>150.0%</>。若持有防御力增加效果将获得防护罩效果，吸收相当于体力上限20.0%的伤害，持续15秒。",
@@ -21861,14 +21411,12 @@
     "id": "073643",
     "source_cn": "方案图案",
     "ref_en": "Plan Pattern",
-    "target_ru": "схема шаблона"
-  },
+    "target_ru": "Схема шаблона073643,
   {
     "id": "073644",
     "source_cn": "旋转轴",
     "ref_en": "Rotation Axis",
-    "target_ru": "ось вращения"
-  },
+    "target_ru": "Ось вращения073644,
   {
     "id": "073645",
     "source_cn": "无面人印章",
@@ -21921,8 +21469,7 @@
     "id": "073653",
     "source_cn": "死亡爆炸",
     "ref_en": "Death Explosion",
-    "target_ru": "смертельный взрыв"
-  },
+    "target_ru": "Смертельный взрыв073653,
   {
     "id": "073654",
     "source_cn": "测试正文",
@@ -21939,8 +21486,7 @@
     "id": "073656",
     "source_cn": "演出场景",
     "ref_en": "Performance Scene",
-    "target_ru": "сцена выступления"
-  },
+    "target_ru": "Сцена выступления073656,
   {
     "id": "073657",
     "source_cn": "瑞尔比伯释放2-049，使周围玩家进入<Disable>滞涩状态10秒</>。",
@@ -21963,8 +21509,7 @@
     "id": "073660",
     "source_cn": "男",
     "ref_en": "Male",
-    "target_ru": "мужчина"
-  },
+    "target_ru": "Мужчина073660,
   {
     "id": "073661",
     "source_cn": "盾80",
@@ -22029,14 +21574,12 @@
     "id": "073671",
     "source_cn": "翰语",
     "ref_en": "Han Yu",
-    "target_ru": "китайский"
-  },
+    "target_ru": "Китайский073671,
   {
     "id": "073672",
     "source_cn": "触摸",
     "ref_en": "Touch",
-    "target_ru": "коснуться"
-  },
+    "target_ru": "Коснуться073672,
   {
     "id": "073673",
     "source_cn": "试着<h>往前</>走走",
@@ -22125,8 +21668,7 @@
     "id": "073687",
     "source_cn": "链珠",
     "ref_en": "Bead Chain",
-    "target_ru": "цепочка из бусин"
-  },
+    "target_ru": "Цепочка из бусин073687,
   {
     "id": "073688",
     "source_cn": "顺着这条路一直向北走，遇到路口往东。",
@@ -22137,8 +21679,7 @@
     "id": "073689",
     "source_cn": "食材炸弹",
     "ref_en": "Ingredient Bomb",
-    "target_ru": "пищевая бомба"
-  },
+    "target_ru": "Пищевая бомба073689,
   {
     "id": "073690",
     "source_cn": "魅力+9",
@@ -22263,8 +21804,7 @@
     "id": "073710",
     "source_cn": "交换身份",
     "ref_en": "Swap Identity",
-    "target_ru": "обмениваться личностями"
-  },
+    "target_ru": "Обмениваться личностями073710,
   {
     "id": "073711",
     "source_cn": "他给出了答案，让他们进入了“知识领域”，但进去的人，再也没有回来。",
@@ -22311,8 +21851,7 @@
     "id": "073718",
     "source_cn": "全景俯视",
     "ref_en": "Panorama Overhead View",
-    "target_ru": "панорамный вид"
-  },
+    "target_ru": "Панорамный вид073718,
   {
     "id": "073719",
     "source_cn": "共享灵力不足，强化灵界生物失败！",
@@ -22347,8 +21886,7 @@
     "id": "073724",
     "source_cn": "午夜焦点",
     "ref_en": "Midnight Focus",
-    "target_ru": "полуночный фокус"
-  },
+    "target_ru": "Полуночный фокус073724,
   {
     "id": "073725",
     "source_cn": "单位°。-1为不调整",
@@ -22359,8 +21897,7 @@
     "id": "073726",
     "source_cn": "原来的场景布置",
     "ref_en": "Original Scene Layout",
-    "target_ru": "оригинальный макет сцены"
-  },
+    "target_ru": "Оригинальный макет сцены073726,
   {
     "id": "073727",
     "source_cn": "去“狂野之心”喝一杯怎么样？今天我差点滑进钢炉里，再不放松一下，我都要疯了！",
@@ -22461,14 +21998,12 @@
     "id": "073743",
     "source_cn": "小圆框眼镜",
     "ref_en": "Small Round Glasses",
-    "target_ru": "маленькие круглые очки"
-  },
+    "target_ru": "Маленькие круглые очки073743,
   {
     "id": "073744",
     "source_cn": "小本杰明",
     "ref_en": "Little Benjamin",
-    "target_ru": "маленький Бенджамин"
-  },
+    "target_ru": "Маленький Бенджамин073744,
   {
     "id": "073745",
     "source_cn": "属性buff大R",
@@ -22479,8 +22014,7 @@
     "id": "073746",
     "source_cn": "巡逻怪物9",
     "ref_en": "Patrol monster 9",
-    "target_ru": "патрульный монстр 9"
-  },
+    "target_ru": "Патрульный монстр 9073746,
   {
     "id": "073747",
     "source_cn": "廷根赛区",
@@ -22539,8 +22073,7 @@
     "id": "073756",
     "source_cn": "挖开泥土",
     "ref_en": "Dig Up Soil",
-    "target_ru": "копать почву"
-  },
+    "target_ru": "Копать почву073756,
   {
     "id": "073757",
     "source_cn": "提及伊妮德",
@@ -22563,8 +22096,7 @@
     "id": "073760",
     "source_cn": "故障时间",
     "ref_en": "Glitch time",
-    "target_ru": "время простоя"
-  },
+    "target_ru": "Время простоя073760,
   {
     "id": "073761",
     "source_cn": "杰里米",
@@ -22599,8 +22131,7 @@
     "id": "073766",
     "source_cn": "深夜",
     "ref_en": "Late Night",
-    "target_ru": "поздно ночью"
-  },
+    "target_ru": "Поздно ночью073766,
   {
     "id": "073767",
     "source_cn": "激光倒计时：%s秒",
@@ -22719,8 +22250,7 @@
     "id": "073786",
     "source_cn": "米斯特",
     "ref_en": "Mister",
-    "target_ru": "мистер"
-  },
+    "target_ru": "Мистер073786,
   {
     "id": "073787",
     "source_cn": "结束指证",
@@ -22797,8 +22327,7 @@
     "id": "073799",
     "source_cn": "触发器5",
     "ref_en": "Trigger 5",
-    "target_ru": "триггер 5"
-  },
+    "target_ru": "Триггер 5073799,
   {
     "id": "073800",
     "source_cn": "记住每场宴会不同主人的禁忌。威尔逊家不能提海鲜，因为长子对贝类过敏；卡洛斯家忌讳谈天气，他们家族的商船曾在暴风雨中损失惨重。 ",
@@ -23007,8 +22536,7 @@
     "id": "073834",
     "source_cn": "下次",
     "ref_en": "Next time",
-    "target_ru": "в следующий раз"
-  },
+    "target_ru": "В следующий раз073834,
   {
     "id": "073835",
     "source_cn": "个人主页获赞次数",
@@ -23031,8 +22559,7 @@
     "id": "073838",
     "source_cn": "买一个",
     "ref_en": "Buy one",
-    "target_ru": "купить один"
-  },
+    "target_ru": "Купить один073838,
   {
     "id": "073839",
     "source_cn": "今晚是独属于你我的夜晚！！！",
@@ -23055,8 +22582,7 @@
     "id": "073842",
     "source_cn": "会拉扯",
     "ref_en": "Knows how to kite",
-    "target_ru": "потянет"
-  },
+    "target_ru": "Потянет073842,
   {
     "id": "073843",
     "source_cn": "你瞧，老东西，咱们的结婚戒指又丢了。算了，过几天再找。",
@@ -23097,8 +22623,7 @@
     "id": "073849",
     "source_cn": "击败黄名非凡者增加20点失控度",
     "ref_en": "Defeating yellow-named Beyonders increases loss of control by 20.",
-    "target_ru": "Победа над Экстраординарным с желтым именем увеличивает потерю контроля на 20 очков."
-  },
+    "target_ru": "Победа над Экстраординарным с желтым именем увеличивает Потерю Контроля на 20 очков.073849,
   {
     "id": "073850",
     "source_cn": "别担心，案件已经得到解决，相关人员都很安全。",
@@ -23223,8 +22748,7 @@
     "id": "073870",
     "source_cn": "增加倍率",
     "ref_en": "Increase Multiplier",
-    "target_ru": "увеличить увеличение"
-  },
+    "target_ru": "Увеличить увеличение073870,
   {
     "id": "073871",
     "source_cn": "如果下一站<LightHighlight>是【酒庄】</>,下一站物产购买价格<LightHighlight>-60%</>",
@@ -23235,8 +22759,7 @@
     "id": "073872",
     "source_cn": "安静发丝",
     "ref_en": "Quiet Hair Strand",
-    "target_ru": "тихие волосы"
-  },
+    "target_ru": "Тихие волосы073872,
   {
     "id": "073873",
     "source_cn": "安魂结果是……好像什么都没发生？",
@@ -23301,8 +22824,7 @@
     "id": "073883",
     "source_cn": "很有趣",
     "ref_en": "Very interesting",
-    "target_ru": "очень интересно"
-  },
+    "target_ru": "Очень интересно073883,
   {
     "id": "073884",
     "source_cn": "怎么了，陛下？爱情是不分性别的，昨晚您不是很享受吗？",
@@ -23361,8 +22883,7 @@
     "id": "073893",
     "source_cn": "手臂装饰",
     "ref_en": "Arm Decoration",
-    "target_ru": "украшение на руку"
-  },
+    "target_ru": "Украшение на руку073893,
   {
     "id": "073894",
     "source_cn": "执掌好运的幸运者",
@@ -23379,8 +22900,7 @@
     "id": "073896",
     "source_cn": "报童路径",
     "ref_en": "Paperboy path",
-    "target_ru": "путь газетчика"
-  },
+    "target_ru": "Путь газетчика073896,
   {
     "id": "073897",
     "source_cn": "提高防御110，获得护盾时，防御额外提高330，持续20秒。",
@@ -23445,8 +22965,7 @@
     "id": "073907",
     "source_cn": "条及以上",
     "ref_en": "Strips and above",
-    "target_ru": "полоски и выше"
-  },
+    "target_ru": "Полоски и выше073907,
   {
     "id": "073908",
     "source_cn": "梅迪奇破防表现buff",
@@ -23523,8 +23042,7 @@
     "id": "073920",
     "source_cn": "祭坛mesh",
     "ref_en": "Altar mesh",
-    "target_ru": "алтарная сетка"
-  },
+    "target_ru": "Алтарная сетка073920,
   {
     "id": "073921",
     "source_cn": "突然，浓雾四起，飞速将街道和视野遮掩。克莱恩在雾里有点慌张，开始四处观察：“这，也是非凡能力吗？”",
@@ -23535,8 +23053,7 @@
     "id": "073922",
     "source_cn": "窗外1",
     "ref_en": "Outside the window 1",
-    "target_ru": "за окном 1"
-  },
+    "target_ru": "За окном 1073922,
   {
     "id": "073923",
     "source_cn": "筛选顺序",
@@ -23559,8 +23076,7 @@
     "id": "073926",
     "source_cn": "红色玫瑰",
     "ref_en": "Red Rose",
-    "target_ru": "красная роза"
-  },
+    "target_ru": "Красная роза073926,
   {
     "id": "073927",
     "source_cn": "终末猎杀·跃升高处",
@@ -23601,8 +23117,7 @@
     "id": "073933",
     "source_cn": "花束",
     "ref_en": "Bouquet",
-    "target_ru": "букет"
-  },
+    "target_ru": "Букет073933,
   {
     "id": "073934",
     "source_cn": "获取服务器开服时间",
@@ -23715,14 +23230,12 @@
     "id": "073952",
     "source_cn": "雨中的<h>身影</>",
     "ref_en": "The <h>figure</> in the rain",
-    "target_ru": "<h> фигура под дождем</>"
-  },
+    "target_ru": "<h> Фигура под дождем</>073952,
   {
     "id": "073953",
     "source_cn": "非法集资",
     "ref_en": "Illegal Fundraising",
-    "target_ru": "незаконный сбор средств"
-  },
+    "target_ru": "Незаконный сбор средств073953,
   {
     "id": "073954",
     "source_cn": "高大的展示柜，收藏着无数关于神秘学的事物，但不应过于沉溺其中。",
@@ -23793,8 +23306,7 @@
     "id": "073965",
     "source_cn": "<P_Heart>（脸红）</>是一封告白信和铜镜。我、我是在十字街买的镜子，那个老板说是特价甩卖……我并不知道它和案件有关。",
     "ref_en": "<P_Heart>(Blushing)</> It's a confession letter and a copper mirror. I, I bought the mirror at Cross Street, the boss said it was a special clearance sale... I didn't know it was related to the case.",
-    "target_ru": "<P_Heart> (краснеет) </> — письмо-признание и бронзовое зеркало. Я, я купил зеркало на Кросс-стрит. Начальник сказал, что это распродажа... Я не знала, что это имеет отношение к делу."
-  },
+    "target_ru": "<P_Heart> (Краснеет) </> — письмо-признание и бронзовое зеркало. Я, я купил зеркало на Кросс-стрит. Начальник сказал, что это распродажа... Я не знала, что это имеет отношение к делу.073965,
   {
     "id": "073966",
     "source_cn": "<h>疯女人</>开始撞冰山",
@@ -23877,14 +23389,12 @@
     "id": "073979",
     "source_cn": "云朵",
     "ref_en": "Cloud",
-    "target_ru": "облака"
-  },
+    "target_ru": "Облака073979,
   {
     "id": "073980",
     "source_cn": "交易品商店",
     "ref_en": "Trading shop",
-    "target_ru": "магазин торговых товаров"
-  },
+    "target_ru": "Магазин торговых товаров073980,
   {
     "id": "073981",
     "source_cn": "但我似乎丢失了一些记忆，包括27号我做过什么、看到了什么，我甚至不记得我去过韦尔奇家！",
@@ -23925,8 +23435,7 @@
     "id": "073987",
     "source_cn": "免疫",
     "ref_en": "Immune",
-    "target_ru": "иммунитет"
-  },
+    "target_ru": "Иммунитет073987,
   {
     "id": "073988",
     "source_cn": "别跑！小偷！来抓小偷！",
@@ -23955,8 +23464,7 @@
     "id": "073992",
     "source_cn": "取出钱包",
     "ref_en": "Take out the wallet",
-    "target_ru": "достать кошелек"
-  },
+    "target_ru": "Достать кошелек073992,
   {
     "id": "073993",
     "source_cn": "同行段位排名进入全国前100名",
@@ -23985,26 +23493,22 @@
     "id": "073997",
     "source_cn": "地下交易市场",
     "ref_en": "Underground Market",
-    "target_ru": "подпольный торговый рынок"
-  },
+    "target_ru": "Подпольный торговый рынок073997,
   {
     "id": "073998",
     "source_cn": "塔罗会",
     "ref_en": "Tarot Club",
-    "target_ru": "общество Таро"
-  },
+    "target_ru": "Общество Таро073998,
   {
     "id": "073999",
     "source_cn": "外国旅客",
     "ref_en": "Foreign Traveler",
-    "target_ru": "иностранные туристы"
-  },
+    "target_ru": "Иностранные туристы073999,
   {
     "id": "074000",
     "source_cn": "失眠",
     "ref_en": "Insomnia",
-    "target_ru": "бессонница"
-  },
+    "target_ru": "Бессонница074000,
   {
     "id": "074001",
     "source_cn": "她的花一夜开到天明 但待到白昼睁开了眼睛……",
@@ -24033,14 +23537,12 @@
     "id": "074005",
     "source_cn": "小丑的转盘",
     "ref_en": "Clown's Wheel",
-    "target_ru": "проигрыватель клоуна"
-  },
+    "target_ru": "Проигрыватель клоуна074005,
   {
     "id": "074006",
     "source_cn": "小鸟布偶",
     "ref_en": "Bird doll",
-    "target_ru": "птица-марионетка"
-  },
+    "target_ru": "Птица-марионетка074006,
   {
     "id": "074007",
     "source_cn": "展台外观",
@@ -24057,8 +23559,7 @@
     "id": "074009",
     "source_cn": "幼龙",
     "ref_en": "Young Dragon",
-    "target_ru": "молодой дракон"
-  },
+    "target_ru": "Молодой дракон074009,
   {
     "id": "074010",
     "source_cn": "当前教团",
@@ -24105,8 +23606,7 @@
     "id": "074017",
     "source_cn": "情缘",
     "ref_en": "Affection",
-    "target_ru": "любовь"
-  },
+    "target_ru": "Любовь074017,
   {
     "id": "074018",
     "source_cn": "成就-工业革命",
@@ -24165,8 +23665,7 @@
     "id": "074027",
     "source_cn": "武力",
     "ref_en": "Might",
-    "target_ru": "сила"
-  },
+    "target_ru": "Сила074027,
   {
     "id": "074028",
     "source_cn": "每个站点每日刷新1个委托",
@@ -24177,8 +23676,7 @@
     "id": "074029",
     "source_cn": "每周",
     "ref_en": "Weekly",
-    "target_ru": "еженедельно"
-  },
+    "target_ru": "Еженедельно074029,
   {
     "id": "074030",
     "source_cn": "每天首次私聊",
@@ -24195,8 +23693,7 @@
     "id": "074032",
     "source_cn": "浪甲回旋",
     "ref_en": "Wave Armor Spin",
-    "target_ru": "волновой пируэт"
-  },
+    "target_ru": "Волновой пируэт074032,
   {
     "id": "074033",
     "source_cn": "海岸线餐厅--凯蒂",
@@ -24225,8 +23722,7 @@
     "id": "074037",
     "source_cn": "特殊解锁",
     "ref_en": "Special Unlock",
-    "target_ru": "специальная разблокировка"
-  },
+    "target_ru": "Специальная разблокировка074037,
   {
     "id": "074038",
     "source_cn": "猎城战怎么玩",
@@ -24261,8 +23757,7 @@
     "id": "074043",
     "source_cn": "皮带镜头",
     "ref_en": "Belt Shot",
-    "target_ru": "ремень линзы"
-  },
+    "target_ru": "Ремень линзы074043,
   {
     "id": "074044",
     "source_cn": "直接翻看会长的东西不太好……",
@@ -24285,8 +23780,7 @@
     "id": "074047",
     "source_cn": "睡眠命中",
     "ref_en": "Sleep Hit",
-    "target_ru": "сон ударил"
-  },
+    "target_ru": "Сон ударил074047,
   {
     "id": "074048",
     "source_cn": "神秘窥探",
@@ -24303,8 +23797,7 @@
     "id": "074050",
     "source_cn": "第二波后空气墙",
     "ref_en": "Invisible wall after second wave",
-    "target_ru": "воздушная стена после второй волны"
-  },
+    "target_ru": "Воздушная стена после второй волны074050,
   {
     "id": "074051",
     "source_cn": "米莉亚",
@@ -24321,8 +23814,7 @@
     "id": "074053",
     "source_cn": "航海家纹",
     "ref_en": "Navigator Emblem",
-    "target_ru": "шаблон навигатора"
-  },
+    "target_ru": "Шаблон навигатора074053,
   {
     "id": "074054",
     "source_cn": "获得2个基础装备自选箱。",
@@ -24333,8 +23825,7 @@
     "id": "074055",
     "source_cn": "蝴蝶妈妈",
     "ref_en": "Butterfly Mother",
-    "target_ru": "мама-бабочка"
-  },
+    "target_ru": "Мама-бабочка074055,
   {
     "id": "074056",
     "source_cn": "衰败增加吸血效果，吸血量和衰败每次造成的伤害量正相关。",
@@ -24621,8 +24112,7 @@
     "id": "074103",
     "source_cn": "名片",
     "ref_en": "Business Card",
-    "target_ru": "визитная карточка"
-  },
+    "target_ru": "Визитная карточка074103,
   {
     "id": "074104",
     "source_cn": "听……一位朋友提起过。",
@@ -24657,14 +24147,12 @@
     "id": "074109",
     "source_cn": "地下室空气墙",
     "ref_en": "Basement air wall",
-    "target_ru": "воздушная стена подвала"
-  },
+    "target_ru": "Воздушная стена подвала074109,
   {
     "id": "074110",
     "source_cn": "女性护卫",
     "ref_en": "Female Guard",
-    "target_ru": "женский эскорт"
-  },
+    "target_ru": "Женский эскорт074110,
   {
     "id": "074111",
     "source_cn": "如果您是一位年轻的学生或政府职员，每个周末还可以到这里借用安静的房间作为自习室。",
@@ -24699,8 +24187,7 @@
     "id": "074116",
     "source_cn": "审判日",
     "ref_en": "Judgment Day",
-    "target_ru": "судный день"
-  },
+    "target_ru": "Судный день074116,
   {
     "id": "074117",
     "source_cn": "家族系统未解锁",
@@ -24717,8 +24204,7 @@
     "id": "074119",
     "source_cn": "小丑转盘旋转",
     "ref_en": "Clown wheel rotation.",
-    "target_ru": "клоун вращение проигрывателя"
-  },
+    "target_ru": "Клоун вращение проигрывателя074119,
   {
     "id": "074120",
     "source_cn": "小花儿……我的宝贝们，今天过得好吗？",
@@ -24741,8 +24227,7 @@
     "id": "074123",
     "source_cn": "屋顶（三点）",
     "ref_en": "Roof (Three Points)",
-    "target_ru": "крыша (три точки)"
-  },
+    "target_ru": "Крыша (три точки)074123,
   {
     "id": "074124",
     "source_cn": "已臣服于你",
@@ -24813,8 +24298,7 @@
     "id": "074135",
     "source_cn": "教堂前",
     "ref_en": "In Front of the Church",
-    "target_ru": "перед церковью"
-  },
+    "target_ru": "Перед церковью074135,
   {
     "id": "074136",
     "source_cn": "新消息26条",
@@ -24825,8 +24309,7 @@
     "id": "074137",
     "source_cn": "春",
     "ref_en": "Chun",
-    "target_ru": "весна"
-  },
+    "target_ru": "Весна074137,
   {
     "id": "074138",
     "source_cn": "是否同一范围攻击无视cd",
@@ -24855,8 +24338,7 @@
     "id": "074142",
     "source_cn": "村庄区",
     "ref_en": "Village Area",
-    "target_ru": "деревенский район"
-  },
+    "target_ru": "Деревенский район074142,
   {
     "id": "074143",
     "source_cn": "歌颂者扮演漫游-告别",
@@ -24879,14 +24361,12 @@
     "id": "074146",
     "source_cn": "深红月冕",
     "ref_en": "Crimson Moon Crown",
-    "target_ru": "малиновая лунная корона"
-  },
+    "target_ru": "Малиновая лунная корона074146,
   {
     "id": "074147",
     "source_cn": "添加伙伴",
     "ref_en": "Add Partner",
-    "target_ru": "добавить партнера"
-  },
+    "target_ru": "Добавить партнера074147,
   {
     "id": "074148",
     "source_cn": "灵性长剑·神话",
@@ -24897,8 +24377,7 @@
     "id": "074149",
     "source_cn": "烈日沙·发型",
     "ref_en": "Blazing Sun Sand - Hairstyle",
-    "target_ru": "палящее солнце · прическа"
-  },
+    "target_ru": "Палящее солнце · прическа074149,
   {
     "id": "074150",
     "source_cn": "玫瑰怨魂",
@@ -24909,8 +24388,7 @@
     "id": "074151",
     "source_cn": "生活费",
     "ref_en": "Living Expenses",
-    "target_ru": "расходы на жизнь"
-  },
+    "target_ru": "Расходы на жизнь074151,
   {
     "id": "074152",
     "source_cn": "监听到了HP变化",
@@ -25023,8 +24501,7 @@
     "id": "074170",
     "source_cn": "连续飞弹",
     "ref_en": "Continuous Missiles",
-    "target_ru": "ракета непрерывного действия"
-  },
+    "target_ru": "Ракета непрерывного действия074170,
   {
     "id": "074171",
     "source_cn": "选择出售",
@@ -25065,14 +24542,12 @@
     "id": "074177",
     "source_cn": "银匕",
     "ref_en": "Silver Dagger",
-    "target_ru": "серебряный кинжал"
-  },
+    "target_ru": "Серебряный кинжал074177,
   {
     "id": "074178",
     "source_cn": "闪袭",
     "ref_en": "Flash Strike",
-    "target_ru": "блиц"
-  },
+    "target_ru": "Блиц074178,
   {
     "id": "074179",
     "source_cn": "阿蒙分身流转特效buff",
@@ -25191,8 +24666,7 @@
     "id": "074198",
     "source_cn": "<P_Heart>（擦眼泪）</>我们会走下去的。",
     "ref_en": "<P_Heart> (Wipes away tears) </> We will keep moving forward.",
-    "target_ru": "<P_Heart> (вытирая слезы) </> Мы продолжим."
-  },
+    "target_ru": "<P_Heart> (Вытирая слезы) </> Мы продолжим.074198,
   {
     "id": "074199",
     "source_cn": "<Title>标题</>\\r\\n正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文<Highlight2>高亮高亮高亮高亮高亮高亮高亮</>正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文<Highlight2>高亮高亮高亮高亮高亮高亮高亮</>\\r\\n<Title>标题</>\\r\\n正文正文正文正文正文正文正文正文正文正文正                                  ",
@@ -25359,14 +24833,12 @@
     "id": "074226",
     "source_cn": "卡牌大师",
     "ref_en": "Card Master",
-    "target_ru": "карточный мастер"
-  },
+    "target_ru": "Карточный мастер074226,
   {
     "id": "074227",
     "source_cn": "压制",
     "ref_en": "Suppression",
-    "target_ru": "подавлять"
-  },
+    "target_ru": "Подавлять074227,
   {
     "id": "074228",
     "source_cn": "原著 · 通灵者",
@@ -25515,8 +24987,7 @@
     "id": "074252",
     "source_cn": "时间差不多了",
     "ref_en": "It's about time",
-    "target_ru": "уже почти пора"
-  },
+    "target_ru": "Уже почти пора074252,
   {
     "id": "074253",
     "source_cn": "是否开启时装大赛",
@@ -25623,14 +25094,12 @@
     "id": "074270",
     "source_cn": "玩家名名名",
     "ref_en": "Player Name Name Name",
-    "target_ru": "имя игрока имя"
-  },
+    "target_ru": "Имя игрока имя074270,
   {
     "id": "074271",
     "source_cn": "玩意",
     "ref_en": "Thing",
-    "target_ru": "вещи"
-  },
+    "target_ru": "Вещи074271,
   {
     "id": "074272",
     "source_cn": "现实线第二章·介绍弗莱·男",
@@ -25659,14 +25128,12 @@
     "id": "074276",
     "source_cn": "真正的占卜师",
     "ref_en": "True Seer",
-    "target_ru": "настоящая гадалка"
-  },
+    "target_ru": "Настоящая гадалка074276,
   {
     "id": "074277",
     "source_cn": "神秘的聚会",
     "ref_en": "Mysterious gathering",
-    "target_ru": "таинственная вечеринка"
-  },
+    "target_ru": "Таинственная вечеринка074277,
   {
     "id": "074278",
     "source_cn": "禁令之权杖",
@@ -25701,8 +25168,7 @@
     "id": "074283",
     "source_cn": "背部裙片",
     "ref_en": "Back Skirt Panel",
-    "target_ru": "задняя панель юбки"
-  },
+    "target_ru": "Задняя панель юбки074283,
   {
     "id": "074284",
     "source_cn": "能当面交易吗？",
@@ -25731,8 +25197,7 @@
     "id": "074288",
     "source_cn": "触发器4",
     "ref_en": "Trigger 4",
-    "target_ru": "триггер 4"
-  },
+    "target_ru": "Триггер 4074288,
   {
     "id": "074289",
     "source_cn": "订购单",
@@ -25761,8 +25226,7 @@
     "id": "074293",
     "source_cn": "赏金猎人",
     "ref_en": "Bounty Hunter",
-    "target_ru": "охотник за головами"
-  },
+    "target_ru": "Охотник за головами074293,
   {
     "id": "074294",
     "source_cn": "赶快去公司",
@@ -25887,14 +25351,12 @@
     "id": "074314",
     "source_cn": "<Effect>已生效</>",
     "ref_en": "<Effect>Already in effect</>",
-    "target_ru": "<Effect> вступило в силу</>"
-  },
+    "target_ru": "<Effect> Вступило в силу</>074314,
   {
     "id": "074315",
     "source_cn": "<P_Heart>（羞涩）</>我只是觉得，姐姐买的酒，喝起来会比较甜。",
     "ref_en": "<P_Heart>(Shyly)</>I just think that the wine you buy tastes a bit sweeter.",
-    "target_ru": "<P_Heart> (застенчиво) </> Я просто думаю, что вино, которое купила моя сестра, будет слаще."
-  },
+    "target_ru": "<P_Heart> (Застенчиво) </> Я просто думаю, что вино, которое купила моя сестра, будет слаще.074315,
   {
     "id": "074316",
     "source_cn": "<h>收拾灶台</>",
@@ -25917,8 +25379,7 @@
     "id": "074319",
     "source_cn": "……先离开吧",
     "ref_en": "...Let's leave first",
-    "target_ru": "...уйди первым"
-  },
+    "target_ru": "...Уйди первым074319,
   {
     "id": "074320",
     "source_cn": "一切的一切，都要感谢慷慨的愚者先生。",
@@ -26025,8 +25486,7 @@
     "id": "074337",
     "source_cn": "光明",
     "ref_en": "Light",
-    "target_ru": "яркий"
-  },
+    "target_ru": "Яркий074337,
   {
     "id": "074338",
     "source_cn": "全俱乐部巡逻路径",
@@ -26079,8 +25539,7 @@
     "id": "074346",
     "source_cn": "右边口袋",
     "ref_en": "Right pocket",
-    "target_ru": "правый карман"
-  },
+    "target_ru": "Правый карман074346,
   {
     "id": "074347",
     "source_cn": "叶格尔",
@@ -26175,8 +25634,7 @@
     "id": "074362",
     "source_cn": "巨人守卫",
     "ref_en": "Giant Guard",
-    "target_ru": "гигантский стражник"
-  },
+    "target_ru": "Гигантский стражник074362,
   {
     "id": "074363",
     "source_cn": "已经有好几个教会的人来问我我的天使是谁了……他们为什么那么紧张？",
@@ -26277,14 +25735,12 @@
     "id": "074379",
     "source_cn": "旋转雕像",
     "ref_en": "Rotate Statue",
-    "target_ru": "вращающаяся статуя"
-  },
+    "target_ru": "Вращающаяся статуя074379,
   {
     "id": "074380",
     "source_cn": "无暗明烛",
     "ref_en": "Candle of No Darkness",
-    "target_ru": "нет темной свечи"
-  },
+    "target_ru": "Нет темной свечи074380,
   {
     "id": "074381",
     "source_cn": "时间\\n天气",
@@ -26301,8 +25757,7 @@
     "id": "074383",
     "source_cn": "本地追击怪",
     "ref_en": "Local Pursuit Monster",
-    "target_ru": "местный монстр-погонщик"
-  },
+    "target_ru": "Местный монстр-погонщик074383,
   {
     "id": "074384",
     "source_cn": "极大范围地吸附敌人，并且对自身附加<Disable>防御增益效果</>。",
@@ -26355,8 +25810,7 @@
     "id": "074392",
     "source_cn": "玩家名字名字",
     "ref_en": "Player Name Name",
-    "target_ru": "имя игрока имя"
-  },
+    "target_ru": "Имя игрока имя074392,
   {
     "id": "074393",
     "source_cn": "玩家需要在<Highlight>10秒内同时打败</>梅迪奇和乌洛琉斯。",
@@ -26445,14 +25899,12 @@
     "id": "074407",
     "source_cn": "致命的再会任务",
     "ref_en": "Deadly Reunion Quest",
-    "target_ru": "роковая прощальная миссия"
-  },
+    "target_ru": "Роковая прощальная миссия074407,
   {
     "id": "074408",
     "source_cn": "苹果",
     "ref_en": "Apple",
-    "target_ru": "яблоко"
-  },
+    "target_ru": "Яблоко074408,
   {
     "id": "074409",
     "source_cn": "见不到伯爵我不难过，我不——呜呜呜。",
@@ -26511,8 +25963,7 @@
     "id": "074418",
     "source_cn": "追踪角速度",
     "ref_en": "Tracking Angular Velocity",
-    "target_ru": "отслеживание угловой скорости"
-  },
+    "target_ru": "Отслеживание угловой скорости074418,
   {
     "id": "074419",
     "source_cn": "邪神子嗣的孕育",
@@ -26583,8 +26034,7 @@
     "id": "074430",
     "source_cn": "<P_Heart>（愣住）</>你是说，他不想当着我们……好。拜托你了。",
     "ref_en": "<P_Heart> (Stunned) </> You mean, he doesn't want to... in front of us? Alright. I'll leave it to you.",
-    "target_ru": "<P_Heart> (ошеломленно) </>Ты имеешь в виду, он не хочет быть перед нами... Ладно. Пожалуйста."
-  },
+    "target_ru": "<P_Heart> (Ошеломленно) </>Ты имеешь в виду, он не хочет быть перед нами... Ладно. Пожалуйста.074430,
   {
     "id": "074431",
     "source_cn": "<h>试试占卜</>",
@@ -26631,8 +26081,7 @@
     "id": "074438",
     "source_cn": "乐队成员",
     "ref_en": "Band Member",
-    "target_ru": "участники группы"
-  },
+    "target_ru": "Участники группы074438,
   {
     "id": "074439",
     "source_cn": "九阶金库",
@@ -26757,8 +26206,7 @@
     "id": "074459",
     "source_cn": "命运天使",
     "ref_en": "Angel of Fate",
-    "target_ru": "ангел судьбы"
-  },
+    "target_ru": "Ангел судьбы074459,
   {
     "id": "074460",
     "source_cn": "咪咪，喵喵……今天又没逮到老鼠？",
@@ -26781,8 +26229,7 @@
     "id": "074463",
     "source_cn": "四人",
     "ref_en": "Four people",
-    "target_ru": "четыре человека"
-  },
+    "target_ru": "Четыре человека074463,
   {
     "id": "074464",
     "source_cn": "场上剩余僵尸数量少于等于3个，成功通过机制",
@@ -26949,8 +26396,7 @@
     "id": "074491",
     "source_cn": "放她一马",
     "ref_en": "Let her off",
-    "target_ru": "дайте ей передохнуть"
-  },
+    "target_ru": "Дайте ей передохнуть074491,
   {
     "id": "074492",
     "source_cn": "敌方汇集锚点即将开启 %s秒",
@@ -27021,14 +26467,12 @@
     "id": "074503",
     "source_cn": "栗金夏尔马",
     "ref_en": "Chestnut Shire Horse",
-    "target_ru": "каштановая золотая шарма"
-  },
+    "target_ru": "Каштановая золотая шарма074503,
   {
     "id": "074504",
     "source_cn": "污秽",
     "ref_en": "Filth",
-    "target_ru": "грязный"
-  },
+    "target_ru": "Грязный074504,
   {
     "id": "074505",
     "source_cn": "没人和我打",
@@ -27069,8 +26513,7 @@
     "id": "074511",
     "source_cn": "物理暴击",
     "ref_en": "Physical Crit",
-    "target_ru": "физический критический удар"
-  },
+    "target_ru": "Физический критический удар074511,
   {
     "id": "074512",
     "source_cn": "犯罪事件-禁锢+头晕",
@@ -27093,8 +26536,7 @@
     "id": "074515",
     "source_cn": "社交增益效果",
     "ref_en": "Social Buff",
-    "target_ru": "эффект социальной выгоды"
-  },
+    "target_ru": "Эффект социальной выгоды074515,
   {
     "id": "074516",
     "source_cn": "祭坛处伊妮德",
@@ -27183,8 +26625,7 @@
     "id": "074530",
     "source_cn": "贫穷中年",
     "ref_en": "Poor middle-aged man",
-    "target_ru": "бедный средних лет"
-  },
+    "target_ru": "Бедный средних лет074530,
   {
     "id": "074531",
     "source_cn": "费内波特椅子2",
@@ -27255,8 +26696,7 @@
     "id": "074542",
     "source_cn": "黑边眼镜",
     "ref_en": "Black-Rimmed Glasses",
-    "target_ru": "очки в черной оправе"
-  },
+    "target_ru": "Очки в черной оправе074542,
   {
     "id": "074543",
     "source_cn": "%s玩法尚未开启",
@@ -27297,26 +26737,22 @@
     "id": "074549",
     "source_cn": "<P_Heart>（兴奋）</>她走了，就剩下我一个人！",
     "ref_en": "<P_Heart> (Excitedly) </> She's gone, now I'm the only one left!",
-    "target_ru": "<P_Heart>(взволнованно)</>Она ушла, и я остался один!"
-  },
+    "target_ru": "<P_Heart>(Взволнованно)</>Она ушла, и я остался один!074549,
   {
     "id": "074550",
     "source_cn": "<P_Heart>（摇头）</>你和海莉夫人说的完全不一样。",
     "ref_en": "<P_Heart> (Shakes head) </> What you said is completely different from Madam Haley.",
-    "target_ru": "<P_Heart> (качает головой) </> То, что вы сказали миссис Хейли, совершенно разные."
-  },
+    "target_ru": "<P_Heart> (Качает головой) </> То, что вы сказали миссис Хейли, совершенно разные.074550,
   {
     "id": "074551",
     "source_cn": "<P_Heart>（沉醉于喝酒，看上去已经微醺）</>",
     "ref_en": "<P_Heart>(Indulging in drinking, looks already tipsy)</>",
-    "target_ru": "<P_Heart> (выпивает, выглядит подвыпившим) </>"
-  },
+    "target_ru": "<P_Heart> (Выпивает, выглядит подвыпившим) </>074551,
   {
     "id": "074552",
     "source_cn": "<Pollute>污染词条</>可通过灰雾隔离净化为<Common>普通</>或者<Extraordinary>非凡</>词条",
     "ref_en": "<Pollute>Corruption entries</> can be isolated and purified via the gray fog into <Common>Common</> or <Extraordinary>Extraordinary</> entries",
-    "target_ru": "<Pollute> загрязненные записи </> могут быть очищены до <Common> обычных </> или <Extraordinary> необычных </> записей посредством изоляции серым туманом"
-  },
+    "target_ru": "<Pollute> Загрязненные записи </> могут быть очищены до <Common> обычных </> или <Extraordinary> необычных </> записей посредством изоляции серым туманом074552,
   {
     "id": "074553",
     "source_cn": "ALS走路降速20%",
@@ -27369,8 +26805,7 @@
     "id": "074561",
     "source_cn": "……打碎我！快打碎我！杀我！",
     "ref_en": "...Break me! Hurry, break me! Kill me!",
-    "target_ru": "... сломай меня! Сломай меня скорей! Убей меня!"
-  },
+    "target_ru": "... Сломай меня! Сломай меня скорей! Убей меня!074561,
   {
     "id": "074562",
     "source_cn": "……老子抗议！老子不写了！不！写！了！",
@@ -27417,8 +26852,7 @@
     "id": "074569",
     "source_cn": "个人宣言",
     "ref_en": "Personal Declaration",
-    "target_ru": "личное заявление"
-  },
+    "target_ru": "Личное заявление074569,
   {
     "id": "074570",
     "source_cn": "书里是这么写的，不信你自己看。",
@@ -27525,8 +26959,7 @@
     "id": "074587",
     "source_cn": "危命预备阶段",
     "ref_en": "Life-Threatening Preparation Stage",
-    "target_ru": "критический этап подготовки"
-  },
+    "target_ru": "Критический этап подготовки074587,
   {
     "id": "074588",
     "source_cn": "受到治疗增强_数值",
@@ -27555,8 +26988,7 @@
     "id": "074592",
     "source_cn": "命运的交换",
     "ref_en": "Exchange of Fate",
-    "target_ru": "обмен судьбами"
-  },
+    "target_ru": "Обмен судьбами074592,
   {
     "id": "074593",
     "source_cn": "哈密",
@@ -27603,8 +27035,7 @@
     "id": "074600",
     "source_cn": "对决",
     "ref_en": "Duel",
-    "target_ru": "дуэль"
-  },
+    "target_ru": "Дуэль074600,
   {
     "id": "074601",
     "source_cn": "寻找焚烧炉",
@@ -27627,8 +27058,7 @@
     "id": "074604",
     "source_cn": "工厂封锁线",
     "ref_en": "Factory cordon",
-    "target_ru": "блокада завода"
-  },
+    "target_ru": "Блокада завода074604,
   {
     "id": "074605",
     "source_cn": "工坊建造说明",
@@ -27663,8 +27093,7 @@
     "id": "074610",
     "source_cn": "开锁摄像机",
     "ref_en": "Lockpicking camera",
-    "target_ru": "разблокировать камеру"
-  },
+    "target_ru": "Разблокировать камеру074610,
   {
     "id": "074611",
     "source_cn": "异象事件-魔女滋味-不堪一击",
@@ -27741,14 +27170,12 @@
     "id": "074623",
     "source_cn": "接过物品",
     "ref_en": "Take the item",
-    "target_ru": "взял предмет"
-  },
+    "target_ru": "Взял предмет074623,
   {
     "id": "074624",
     "source_cn": "掷·终",
     "ref_en": "Throw: Ultimate",
-    "target_ru": "бросить · конец"
-  },
+    "target_ru": "Бросить · конец074624,
   {
     "id": "074625",
     "source_cn": "收藏品：bookConfig = nil, id = %s",
@@ -27783,8 +27210,7 @@
     "id": "074630",
     "source_cn": "暴走齿轮",
     "ref_en": "Berserk Gear",
-    "target_ru": "сбежавшая шестерня"
-  },
+    "target_ru": "Сбежавшая шестерня074630,
   {
     "id": "074631",
     "source_cn": "有人偏爱盛放的热烈，也有人钟情于花瓣落下时的温柔，你的搭配又会讲述怎样的故事？让我们来进行一场时尚品鉴吧！",
@@ -27837,14 +27263,12 @@
     "id": "074639",
     "source_cn": "火盆4",
     "ref_en": "Brazier 4",
-    "target_ru": "жаровня 4"
-  },
+    "target_ru": "Жаровня 4074639,
   {
     "id": "074640",
     "source_cn": "火盆白",
     "ref_en": "Brazier White",
-    "target_ru": "жаровня белая"
-  },
+    "target_ru": "Жаровня белая074640,
   {
     "id": "074641",
     "source_cn": "点击响应",
@@ -27909,8 +27333,7 @@
     "id": "074651",
     "source_cn": "禁锢之匙",
     "ref_en": "Imprisonment Key",
-    "target_ru": "ключ от тюрьмы"
-  },
+    "target_ru": "Ключ от тюрьмы074651,
   {
     "id": "074652",
     "source_cn": "福戈好像一直没有出来，再去看看吧。",
@@ -27969,8 +27392,7 @@
     "id": "074661",
     "source_cn": "获得蓝牌",
     "ref_en": "Receive Blue Card",
-    "target_ru": "получить синюю карту"
-  },
+    "target_ru": "Получить синюю карту074661,
   {
     "id": "074662",
     "source_cn": "行动报告、物资补充申请、财物报销单据、24小时巡逻安排……",
@@ -28083,8 +27505,7 @@
     "id": "074680",
     "source_cn": "非常感谢",
     "ref_en": "Thank you very much",
-    "target_ru": "большое спасибо"
-  },
+    "target_ru": "Большое спасибо074680,
   {
     "id": "074681",
     "source_cn": "<Assistant_Title1>【Organization Selection and Attribute Point Allocation】</>\\nWhen joining an organization, you will enter a process similar to TRPG character creation, mainly divided into three steps: <Assistant_Property1>Organization</>, <Assistant_Property1>Belief</>, <Assistant_Property1>Attributes</>.\\n\\n<Assistant_Title2>Rule Description:</>\\n1. After selecting an organization, its abilities and beliefs will be automatically determined.\\n2. Each organization has recommended attribute schemes, which you can use directly.\\n3. The base attribute value is at least 8 and at most 16, with a total of 44 attribute points.\\n\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[教团属性说明]|1275}, {SendAnswer:[如何加入教团]|1273}",
@@ -28095,8 +27516,7 @@
     "id": "074682",
     "source_cn": "<P_Heart>（小声）</>我来廷根出差几天，怎么能错过这么有趣的事？",
     "ref_en": "<P_Heart> (Whispering) </> I'm here in Tingen for a few days on business, how could I miss such an interesting thing?",
-    "target_ru": "<P_Heart> (тихо) </> Я приехал в Тинген на несколько дней по делам, как я мог пропустить такую интересную вещь?"
-  },
+    "target_ru": "<P_Heart> (Тихо) </> Я приехал в Тинген на несколько дней по делам, как я мог пропустить такую интересную вещь?074682,
   {
     "id": "074683",
     "source_cn": "Like {\"The Fool\",\"世界\"}, can match \"Fool and World\", but cannot match \"World and Fool\"",
@@ -28251,8 +27671,7 @@
     "id": "074708",
     "source_cn": "制作木雕",
     "ref_en": "Carve Wood",
-    "target_ru": "изготовление резьбы по дереву"
-  },
+    "target_ru": "Изготовление резьбы по дереву074708,
   {
     "id": "074709",
     "source_cn": "匹配中",
@@ -28275,8 +27694,7 @@
     "id": "074712",
     "source_cn": "取一瓶酒",
     "ref_en": "Take a bottle of alcohol",
-    "target_ru": "возьми бутылку вина"
-  },
+    "target_ru": "Возьми бутылку вина074712,
   {
     "id": "074713",
     "source_cn": "古堡里的家族继承了那位执政官的血脉，不知道他们会不会也总是弄丢自己的记忆……。",
@@ -28389,8 +27807,7 @@
     "id": "074731",
     "source_cn": "小怪",
     "ref_en": "Minion",
-    "target_ru": "мобы"
-  },
+    "target_ru": "Мобы074731,
   {
     "id": "074732",
     "source_cn": "就是这个，少爷喜欢的红茶。",
@@ -28575,8 +27992,7 @@
     "id": "074762",
     "source_cn": "氛围车",
     "ref_en": "Atmosphere carriage",
-    "target_ru": "атмосфера автомобиля"
-  },
+    "target_ru": "Атмосфера автомобиля074762,
   {
     "id": "074763",
     "source_cn": "清空聊天记录",
@@ -28689,8 +28105,7 @@
     "id": "074781",
     "source_cn": "行李男",
     "ref_en": "Luggage man",
-    "target_ru": "багажник"
-  },
+    "target_ru": "Багажник074781,
   {
     "id": "074782",
     "source_cn": "表现-瑞恩分肉点",
@@ -28701,14 +28116,12 @@
     "id": "074783",
     "source_cn": "袭击",
     "ref_en": "Assault",
-    "target_ru": "атаковать"
-  },
+    "target_ru": "Атаковать074783,
   {
     "id": "074784",
     "source_cn": "警察徽章",
     "ref_en": "Police Badge",
-    "target_ru": "полицейский значок"
-  },
+    "target_ru": "Полицейский значок074784,
   {
     "id": "074785",
     "source_cn": "设置当前序列的消化进度",
@@ -28785,8 +28198,7 @@
     "id": "074797",
     "source_cn": "铸造",
     "ref_en": "Casting",
-    "target_ru": "кастинг"
-  },
+    "target_ru": "Кастинг074797,
   {
     "id": "074798",
     "source_cn": "长矛散射标记buff",
@@ -28821,8 +28233,7 @@
     "id": "074803",
     "source_cn": "餐厅老板",
     "ref_en": "Restaurant owner",
-    "target_ru": "ресторатор"
-  },
+    "target_ru": "Ресторатор074803,
   {
     "id": "074804",
     "source_cn": "<DecH>工艺：</>蓝黑菱格・精工银链・童话礼服\\n即便是误入的来客，也请遵从着装的礼仪。换上蓝黑菱格的俏皮礼服，加入怪诞奇妙的茶会。",
@@ -29067,8 +28478,7 @@
     "id": "074844",
     "source_cn": "已跟随",
     "ref_en": "Following",
-    "target_ru": "подписан"
-  },
+    "target_ru": "Подписан074844,
   {
     "id": "074845",
     "source_cn": "异象事件-魔女滋味-花丛中的身影",
@@ -29199,8 +28609,7 @@
     "id": "074866",
     "source_cn": "水",
     "ref_en": "Water",
-    "target_ru": "вода"
-  },
+    "target_ru": "Вода074866,
   {
     "id": "074867",
     "source_cn": "水阀文字版",
@@ -29271,8 +28680,7 @@
     "id": "074878",
     "source_cn": "自旋转",
     "ref_en": "Self-rotation",
-    "target_ru": "самовращение"
-  },
+    "target_ru": "Самовращение074878,
   {
     "id": "074879",
     "source_cn": "血瞳之心仪",
@@ -29295,8 +28703,7 @@
     "id": "074882",
     "source_cn": "跳舞shape",
     "ref_en": "Dance Shape",
-    "target_ru": "танцевальная форма"
-  },
+    "target_ru": "Танцевальная форма074882,
   {
     "id": "074883",
     "source_cn": "迎战降临的“月之污染”",
@@ -29319,8 +28726,7 @@
     "id": "074886",
     "source_cn": "这很危险",
     "ref_en": "This is dangerous",
-    "target_ru": "это опасно"
-  },
+    "target_ru": "Это опасно074886,
   {
     "id": "074887",
     "source_cn": "进阶战令",
@@ -29439,8 +28845,7 @@
     "id": "074906",
     "source_cn": "<P_Heart>（涨红了脸）</>喂，不许说那么大声！",
     "ref_en": "<P_Heart>(Blushing deeply)</> Hey, don't speak so loudly!",
-    "target_ru": "<P_Heart> (краснея) </> Эй, не говори так громко!"
-  },
+    "target_ru": "<P_Heart> (Краснея) </> Эй, не говори так громко!074906,
   {
     "id": "074907",
     "source_cn": "Following 蛊惑",
@@ -29493,14 +28898,12 @@
     "id": "074915",
     "source_cn": "一步",
     "ref_en": "One step",
-    "target_ru": "один шаг"
-  },
+    "target_ru": "Один шаг074915,
   {
     "id": "074916",
     "source_cn": "万",
     "ref_en": "Ten Thousand",
-    "target_ru": "миллион"
-  },
+    "target_ru": "Миллион074916,
   {
     "id": "074917",
     "source_cn": "不仅如此，偶尔还有人说它会惨叫……大约只是传言罢了。",
@@ -29523,8 +28926,7 @@
     "id": "074920",
     "source_cn": "仆人",
     "ref_en": "Servant",
-    "target_ru": "слуга"
-  },
+    "target_ru": "Слуга074920,
   {
     "id": "074921",
     "source_cn": "以手为枪向前瞄准。这或许是一个玩笑，也可能不是。",
@@ -29535,8 +28937,7 @@
     "id": "074922",
     "source_cn": "仪式",
     "ref_en": "Ritual",
-    "target_ru": "церемония"
-  },
+    "target_ru": "Церемония074922,
   {
     "id": "074923",
     "source_cn": "任务跳转接取",
@@ -29571,8 +28972,7 @@
     "id": "074928",
     "source_cn": "前",
     "ref_en": "Previous",
-    "target_ru": "раньше"
-  },
+    "target_ru": "Раньше074928,
   {
     "id": "074929",
     "source_cn": "前往火车站",
@@ -29637,8 +29037,7 @@
     "id": "074939",
     "source_cn": "唇色",
     "ref_en": "Lip Color",
-    "target_ru": "цвет губ"
-  },
+    "target_ru": "Цвет губ074939,
   {
     "id": "074940",
     "source_cn": "啊，我明白了！",
@@ -29655,8 +29054,7 @@
     "id": "074942",
     "source_cn": "回收污染",
     "ref_en": "Recycle Pollution",
-    "target_ru": "переработка загрязнения"
-  },
+    "target_ru": "Переработка загрязнения074942,
   {
     "id": "074943",
     "source_cn": "因为承受不住力量而发狂，因为听见未知存在的呓语而堕落，因为精神崩溃而人格扭曲。",
@@ -29745,8 +29143,7 @@
     "id": "074957",
     "source_cn": "怪物_1_1",
     "ref_en": "Monster_1_1",
-    "target_ru": "монстр_1_1"
-  },
+    "target_ru": "Монстр_1_1074957,
   {
     "id": "074958",
     "source_cn": "恐惧主教",
@@ -29823,8 +29220,7 @@
     "id": "074970",
     "source_cn": "是个不错的选择。",
     "ref_en": "That's a good choice.",
-    "target_ru": "это хороший выбор."
-  },
+    "target_ru": "Это хороший выбор.074970,
   {
     "id": "074971",
     "source_cn": "是否开启俱乐部投影棋局战斗数据投影",
@@ -29853,8 +29249,7 @@
     "id": "074975",
     "source_cn": "桥前",
     "ref_en": "In front of the bridge",
-    "target_ru": "перед мостом"
-  },
+    "target_ru": "Перед мостом074975,
   {
     "id": "074976",
     "source_cn": "梦境中那股危险的气息，并不强大、但有些诡异。",
@@ -29901,8 +29296,7 @@
     "id": "074983",
     "source_cn": "睡眠闪避",
     "ref_en": "Sleep Dodge",
-    "target_ru": "уклонение от сна"
-  },
+    "target_ru": "Уклонение от сна074983,
   {
     "id": "074984",
     "source_cn": "祝你们好运，相信你们能摧毁魔镜，拯救大家。",
@@ -29943,8 +29337,7 @@
     "id": "074990",
     "source_cn": "结算皮肤",
     "ref_en": "Settlement Skin",
-    "target_ru": "скин поселения"
-  },
+    "target_ru": "Скин поселения074990,
   {
     "id": "074991",
     "source_cn": "罗塞尔Boss-3阶段-锋利的知识-悬浮齿轮",

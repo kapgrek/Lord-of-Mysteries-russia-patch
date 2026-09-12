@@ -1,10 +1,9 @@
-﻿[
+[
   {
     "id": "130000",
     "source_cn": "翻阅书籍",
     "ref_en": "Browse books",
-    "target_ru": "листать книги"
-  },
+    "target_ru": "Листать книги130000,
   {
     "id": "130001",
     "source_cn": "莫尔",
@@ -441,8 +440,7 @@
     "id": "130073",
     "source_cn": "告诉她",
     "ref_en": "Tell her",
-    "target_ru": "скажи ей"
-  },
+    "target_ru": "Скажи ей130073,
   {
     "id": "130074",
     "source_cn": "哀嚎黑市",
@@ -681,8 +679,7 @@
     "id": "130113",
     "source_cn": "本来就带",
     "ref_en": "I'm already bringing it.",
-    "target_ru": "я изначально принесла"
-  },
+    "target_ru": "Я изначально принесла130113,
   {
     "id": "130114",
     "source_cn": "机械专家",
@@ -741,8 +738,7 @@
     "id": "130123",
     "source_cn": "烂番茄个数",
     "ref_en": "Rotten Tomato Count",
-    "target_ru": "количество гнилых помидоров"
-  },
+    "target_ru": "Количество гнилых помидоров130123,
   {
     "id": "130124",
     "source_cn": "猎杀！血色加冕",
@@ -795,8 +791,7 @@
     "id": "130132",
     "source_cn": "茉莉",
     "ref_en": "Jasmine",
-    "target_ru": "жасмин"
-  },
+    "target_ru": "Жасмин130132,
   {
     "id": "130133",
     "source_cn": "药的关键不是挖掘，是扮演！今天，我打算",
@@ -813,14 +808,12 @@
     "id": "130135",
     "source_cn": "视频",
     "ref_en": "Video",
-    "target_ru": "видео"
-  },
+    "target_ru": "Видео130135,
   {
     "id": "130136",
     "source_cn": "诡秘的",
     "ref_en": "Mysterious",
-    "target_ru": "загадочный"
-  },
+    "target_ru": "Загадочный130136,
   {
     "id": "130137",
     "source_cn": "询问<h>书摊前的男子</>",
@@ -843,8 +836,7 @@
     "id": "130140",
     "source_cn": "起点",
     "ref_en": "Start Point",
-    "target_ru": "отправная точка"
-  },
+    "target_ru": "Отправная точка130140,
   {
     "id": "130141",
     "source_cn": "跟艾伯特走走",
@@ -873,8 +865,7 @@
     "id": "130145",
     "source_cn": "风的方向",
     "ref_en": "Direction of the Wind",
-    "target_ru": "направление ветра"
-  },
+    "target_ru": "Направление ветра130145,
   {
     "id": "130146",
     "source_cn": "风车转动时99002419",
@@ -891,8 +882,7 @@
     "id": "130148",
     "source_cn": "髋甲",
     "ref_en": "Hip Armor",
-    "target_ru": "набедренная броня"
-  },
+    "target_ru": "Набедренная броня130148,
   {
     "id": "130149",
     "source_cn": "        很久没有再写日记了，在这个黑暗的陵寝中，在疯狂与污染交织的缝隙里，清醒是困难的。\\\n        回首这一生，我从一个普通的穿越者，变成了改变世界的大帝。我发明了蒸汽机，建立了共和国，征服了海洋，书写了法律……但我也失去了太多——我的故乡，我的平凡，我的孩子们的爱，还有……我自己。\\\n        黄涛，你还记得吗？那个在地球上熬夜看小说、打游戏、抱怨工作的普通青年？那个想念妈妈做的红烧肉、想念和朋友撸串吹牛的普通人？有时候我觉得自己好像做了一个很长的梦，梦里我成为了无所不能的大帝，但醒来时，我只",
@@ -1035,8 +1025,7 @@
     "id": "130172",
     "source_cn": "俱乐部货运",
     "ref_en": "Club Cargo",
-    "target_ru": "клубные перевозки"
-  },
+    "target_ru": "Клубные перевозки130172,
   {
     "id": "130173",
     "source_cn": "凯恩",
@@ -1131,8 +1120,7 @@
     "id": "130188",
     "source_cn": "外观解锁",
     "ref_en": "Appearance Unlocked",
-    "target_ru": "разблокировка внешнего вида"
-  },
+    "target_ru": "Разблокировка внешнего вида130188,
   {
     "id": "130189",
     "source_cn": "女生",
@@ -1149,8 +1137,7 @@
     "id": "130191",
     "source_cn": "好看好看",
     "ref_en": "So good-looking",
-    "target_ru": "хорошо выглядит хорошо выглядит"
-  },
+    "target_ru": "Хорошо выглядит хорошо выглядит130191,
   {
     "id": "130192",
     "source_cn": "完成时代百态《机械迷局》",
@@ -1167,8 +1154,7 @@
     "id": "130194",
     "source_cn": "废弃护盾",
     "ref_en": "Discarded Shield",
-    "target_ru": "заброшенный щит"
-  },
+    "target_ru": "Заброшенный щит130194,
   {
     "id": "130195",
     "source_cn": "待复苏的精神体出现后，治疗玩家要<Highlight>优先治疗待复苏的精神体</>，其余玩家保持输出。",
@@ -1185,8 +1171,7 @@
     "id": "130197",
     "source_cn": "我发出的",
     "ref_en": "Sent by Me",
-    "target_ru": "я отправил"
-  },
+    "target_ru": "Я отправил130197,
   {
     "id": "130198",
     "source_cn": "我帮你抢回来！",
@@ -1239,8 +1224,7 @@
     "id": "130206",
     "source_cn": "战队",
     "ref_en": "Squad",
-    "target_ru": "команда"
-  },
+    "target_ru": "Команда130206,
   {
     "id": "130207",
     "source_cn": "打开后可以自选获得<Highlight>68装等</>的<Highlight>竞技倾向</>橙色烙印装备。",
@@ -1275,8 +1259,7 @@
     "id": "130212",
     "source_cn": "敌军",
     "ref_en": "Enemy forces",
-    "target_ru": "вражеские силы"
-  },
+    "target_ru": "Вражеские силы130212,
   {
     "id": "130213",
     "source_cn": "新·扫视墓园镜头",
@@ -1335,8 +1318,7 @@
     "id": "130222",
     "source_cn": "标记 buff",
     "ref_en": "Mark Buff",
-    "target_ru": "отметить усиление"
-  },
+    "target_ru": "Отметить усиление130222,
   {
     "id": "130223",
     "source_cn": "格拉西斯：\\\n　　擅长塔罗占卜，每次收费20便士。\\\n\\\n爱德华·斯蒂夫：\\\n　　擅长塔罗和扑克占卜，每次收费40便士。\\\n\\\n瑞安娜：\\\n　　新晋著名占卜师，擅长各种占卜方式，每次收费200便士。\\\n\\\n莫莉娜·弗里曼：\\\n　　新人占卜者，擅长塔罗占卜，每次收费15便士。\\\n\\\n　　后面夹着被撕下的两页，整齐地保存在图册中：",
@@ -1401,8 +1383,7 @@
     "id": "130233",
     "source_cn": "眉底",
     "ref_en": "Eyebrow base",
-    "target_ru": "основа для бровей"
-  },
+    "target_ru": "Основа для бровей130233,
   {
     "id": "130234",
     "source_cn": "看修车的路人",
@@ -1437,8 +1418,7 @@
     "id": "130239",
     "source_cn": "科尼先生",
     "ref_en": "Mr. Cony",
-    "target_ru": "г-н Кони"
-  },
+    "target_ru": "Г-н Кони130239,
   {
     "id": "130240",
     "source_cn": "窥秘人专防_数值",
@@ -1647,8 +1627,7 @@
     "id": "130274",
     "source_cn": "<P_Heart>（看向你）</>学得很好嘛！ {{小伙子|小姑娘}}！",
     "ref_en": "<P_Heart>(Looks at you)</>You've learned well! {{Young man|Young lady}}!",
-    "target_ru": "<P_Heart> (глядя на тебя) </> Ты хорошо учился! {{мальчик|маленькая девочка}}!"
-  },
+    "target_ru": "<P_Heart> (Глядя на тебя) </> Ты хорошо учился! {{мальчик|маленькая девочка}}!130274,
   {
     "id": "130275",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>对等原则</>\\\n阿罗德斯遵循一问一答的对等原则，阿罗德斯的问题可以被拒绝或者积攒，但一定要被解决。\\\n若拒绝回答问题、回答错误或者撒谎，将会受到阿罗德斯的惩罚。\\\n阿罗德斯回答完毕以及提出的问题被解决后，才能再次发起提问。\\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>NPC说明</>\\\n阿罗德斯NPC的认知范围限制于诡秘之主世界观，在与阿罗德斯交流跨越时代背景或者思维跳脱的话题，阿罗德斯可能无法进行回答，敬请谅解。\\\n阿罗德斯NPC的回答均由AI模型生成，回答结果可能会出现内容模糊和偏差，可以通过对话框的举报按钮，进行对应反馈，帮助我们丰富阿罗德斯的体验效果。\\\n若同时互动玩家人数过高，阿罗德斯可能会出现响应时间过长的现象，在短暂等待后即可恢复。",
@@ -1713,8 +1692,7 @@
     "id": "130285",
     "source_cn": "你是谁？你怎么知道？",
     "ref_en": "Who are you? How do you know that?",
-    "target_ru": "кто ты? Откуда вы знаете?"
-  },
+    "target_ru": "Кто ты? Откуда вы знаете?130285,
   {
     "id": "130286",
     "source_cn": "你这个疯子……为了廷根市其他人的安危，不管是作为值夜者，还是普通市民，我都要阻止你！",
@@ -1887,8 +1865,7 @@
     "id": "130314",
     "source_cn": "培养成功",
     "ref_en": "Cultivation successful.",
-    "target_ru": "культивировать успех"
-  },
+    "target_ru": "Культивировать успех130314,
   {
     "id": "130315",
     "source_cn": "如果每个人再减少一点工资，工厂成本就能再少一点……我就能早点环游世界了。",
@@ -2205,8 +2182,7 @@
     "id": "130367",
     "source_cn": "终点列表",
     "ref_en": "Destination List",
-    "target_ru": "список конечных точек"
-  },
+    "target_ru": "Список конечных точек130367,
   {
     "id": "130368",
     "source_cn": "绯月",
@@ -2235,8 +2211,7 @@
     "id": "130372",
     "source_cn": "药瓶",
     "ref_en": "Medicine bottle",
-    "target_ru": "бутылочка с лекарством"
-  },
+    "target_ru": "Бутылочка с лекарством130372,
   {
     "id": "130373",
     "source_cn": "表演围观小孩1",
@@ -2265,8 +2240,7 @@
     "id": "130377",
     "source_cn": "设计师",
     "ref_en": "Designer",
-    "target_ru": "дизайнер"
-  },
+    "target_ru": "Дизайнер130377,
   {
     "id": "130378",
     "source_cn": "调查<h>油漆桶</>",
@@ -2343,8 +2317,7 @@
     "id": "130390",
     "source_cn": "防护区",
     "ref_en": "Protection Area",
-    "target_ru": "защитная зона"
-  },
+    "target_ru": "Защитная зона130390,
   {
     "id": "130391",
     "source_cn": "阿蜜莉雅·富勒-3",
@@ -2403,8 +2376,7 @@
     "id": "130400",
     "source_cn": "Find the object of prophecy, glimpse the truth, and escape the nightmare—\\\n<P_Yellow>One object hidden, the sound of the lamb returning home no longer plays.</>\\\n<P_Yellow>One object stored, the seed of rebirth, buried beside the stone statue.</>\\\n<P_Yellow>One object concealed, crimson moonlight shines upon it.</>\\\n...\\\n...\\\nThe reborn one, reborn again.\\\nNineteenth time, {{他|她}} has died in the dream nineteen times.\\\nThis time is {{他|她}}'s twentieth nightmare.\\\n{{他|她}} opens the Antigonus Notebook, which should not have appeared here.\\\nThen, dies from the loss of control caused by the notebook's power.\\\nThe reborn one, reborn again.\\\nThis time is {{他|她}}'s twenty-first nightmare.\\\n...\\\nThe reborn one sees the Antigonus Notebook again.\\\n{{他|她}} does not open the notebook, but draws a ⬛⬛ card instead.\\\n...\\\nThe reborn one comes to the altar filled with flowers and decides to do something.\\\nA strong desire to understand the truth arises in the reborn one's heart.\\\n{{他|她}} observes the altar and obtains a piece of parchment containing the prophecy.\\\nThe reborn one will follow the revelation of the prophecy...",
     "ref_en": "Find the object of prophecy, glimpse the truth, and escape the nightmare—\\\n<P_Yellow>One object hidden, the sound of the lamb returning home no longer plays.</>\\\n<P_Yellow>One object stored, the seed of rebirth, buried beside the stone statue.</>\\\n<P_Yellow>One object concealed, crimson moonlight shines upon it.</>\\\n...\\\n...\\\nThe reborn one, reborn again.\\\nNineteenth time, {{he|she}} has died in the dream nineteen times.\\\nThis time is {{his|her}} twentieth nightmare.\\\n{{He|She}} opens the Antigonus Notebook, which should not have appeared here.\\\nThen, dies from the loss of control caused by the notebook's power.\\\nThe reborn one, reborn again.\\\nThis time is {{his|her}} twenty-first nightmare.\\\n...\\\nThe reborn one sees the Antigonus Notebook again.\\\n{{He|She}} does not open the notebook, but draws a ⬛⬛ card instead.\\\n...\\\nThe reborn one comes to the altar filled with flowers and decides to do something.\\\nA strong desire to understand the truth arises in the reborn one's heart.\\\n{{He|She}} observes the altar and obtains a piece of parchment containing the prophecy.\\\nThe reborn one will follow the revelation of the prophecy...",
-    "target_ru": "Найдите объект пророчества, узнайте правду и избавьтесь от кошмара — \n<P_Yellow>Один объект спрятан, звук возвращающегося домой ягненка больше не воспроизводится.</>\n<P_Yellow>Один объект хранится, семя возрождения, похоронено рядом с каменной статуей.</>\n<P_Yellow>Один объект спрятан, на него сияет малиновый лунный свет.</>\n...\n...\nThe возродившийся, возродившийся заново.\nДевятнадцатый раз, {{его|ее}} умирал во сне девятнадцать раз.\nНа этот раз это двадцатый кошмар {{его|ее}}.\n{{его|ее}} открывает Блокнот Антигона, который не должен был здесь появляться.\nЗатем умирает от потери контроля, вызванной силой блокнота.\nВозрожденный, возрождённый снова.\nНа этот раз это двадцать первый кошмар {{его|ее}}.\n...\nВозрожденный снова видит Блокнот Антигона.\n{{его|ее}} не открывает блокнот, а вместо этого тянет ⬛⬛ карту.\n...\nВозрожденный приходит к алтарю, наполненному цветами, и решает что-то сделать.\nСильный желание понять истину возникает в сердце возрожденного.\n{{его|она}} наблюдает за алтарем и получает кусок пергамента, содержащий пророчество.\nВозрожденный будет следовать за откровением пророчества..."
-  },
+    "target_ru": "Найдите объект пророчества, узнайте правду и избавьтесь от кошмара — \n<P_Yellow>Один объект спрятан, звук возвращающегося домой ягненка больше не воспроизводится.</>\n<P_Yellow>Один объект хранится, семя возрождения, похоронено рядом с каменной статуей.</>\n<P_Yellow>Один объект спрятан, на него сияет малиновый лунный свет.</>\n...\n...\nThe возродившийся, возродившийся заново.\nДевятнадцатый раз, {{его|ее}} умирал во сне девятнадцать раз.\nНа этот раз это двадцатый кошмар {{его|ее}}.\n{{его|ее}} открывает Блокнот Антигона, который не должен был здесь появляться.\nЗатем умирает от Потери Контроля, вызванной силой блокнота.\nВозрожденный, возрождённый снова.\nНа этот раз это двадцать первый кошмар {{его|ее}}.\n...\nВозрожденный снова видит Блокнот Антигона.\n{{его|ее}} не открывает блокнот, а вместо этого тянет ⬛⬛ карту.\n...\nВозрожденный приходит к алтарю, наполненному цветами, и решает что-то сделать.\nСильный желание понять истину возникает в сердце возрожденного.\n{{его|она}} наблюдает за алтарем и получает кусок пергамента, содержащий пророчество.\nВозрожденный будет следовать за откровением пророчества...130400,
   {
     "id": "130401",
     "source_cn": "RGB色散",
@@ -2487,8 +2459,7 @@
     "id": "130414",
     "source_cn": "休息室",
     "ref_en": "Lounge",
-    "target_ru": "гостиная"
-  },
+    "target_ru": "Гостиная130414,
   {
     "id": "130415",
     "source_cn": "伟大的智慧，绝妙的启蒙！",
@@ -2505,8 +2476,7 @@
     "id": "130417",
     "source_cn": "伤害叠层",
     "ref_en": "Damage Stacking",
-    "target_ru": "стеки урона"
-  },
+    "target_ru": "Стеки урона130417,
   {
     "id": "130418",
     "source_cn": "你之前忽然提到马戏表演的时候，我就应该想到的！只是…我当时光想着…",
@@ -2583,8 +2553,7 @@
     "id": "130430",
     "source_cn": "协会",
     "ref_en": "Association",
-    "target_ru": "ассоциация"
-  },
+    "target_ru": "Ассоциация130430,
   {
     "id": "130431",
     "source_cn": "原来量尺寸要这么久吗？",
@@ -2607,8 +2576,7 @@
     "id": "130434",
     "source_cn": "合上",
     "ref_en": "Close it",
-    "target_ru": "закрыть"
-  },
+    "target_ru": "Закрыть130434,
   {
     "id": "130435",
     "source_cn": "向马洛分享见闻",
@@ -2625,8 +2593,7 @@
     "id": "130437",
     "source_cn": "命运印记",
     "ref_en": "Fate Mark",
-    "target_ru": "знак судьбы"
-  },
+    "target_ru": "Знак судьбы130437,
   {
     "id": "130438",
     "source_cn": "哇——！恭喜你，美丽的小姐，相信它一定会给你意想不到的回报。",
@@ -2859,8 +2826,7 @@
     "id": "130476",
     "source_cn": "晒太阳老人",
     "ref_en": "Old Man Sunbathing",
-    "target_ru": "старик греется на солнце"
-  },
+    "target_ru": "Старик греется на солнце130476,
   {
     "id": "130477",
     "source_cn": "有人受伤了？",
@@ -2877,8 +2843,7 @@
     "id": "130479",
     "source_cn": "柴",
     "ref_en": "Chai",
-    "target_ru": "дрова"
-  },
+    "target_ru": "Дрова130479,
   {
     "id": "130480",
     "source_cn": "每层造成*f**减速效果，层数越高减速效果越强",
@@ -2919,8 +2884,7 @@
     "id": "130486",
     "source_cn": "熄灭火焰",
     "ref_en": "Extinguish the Flame",
-    "target_ru": "потушить пламя"
-  },
+    "target_ru": "Потушить пламя130486,
   {
     "id": "130487",
     "source_cn": "瑞尔·比伯狂暴，尽快击破护盾！",
@@ -3015,14 +2979,12 @@
     "id": "130502",
     "source_cn": "胸部",
     "ref_en": "Chest",
-    "target_ru": "грудь"
-  },
+    "target_ru": "Грудь130502,
   {
     "id": "130503",
     "source_cn": "腰平",
     "ref_en": "Waist-level",
-    "target_ru": "уровень талии"
-  },
+    "target_ru": "Уровень талии130503,
   {
     "id": "130504",
     "source_cn": "自动开启阅读界面",
