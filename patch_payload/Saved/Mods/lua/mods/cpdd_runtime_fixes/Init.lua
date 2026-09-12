@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.77"
+local VERSION = "0.9.78"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -344,6 +344,11 @@ end
 -- aggregate entry for 米 (which legitimately means "Rice" in chat/filter
 -- data) is not changed globally.
 local visibleTextExactOverrides = {
+    ["剧情总览"] = "Обзор сюжета",
+    ["Plot Overview"] = "Обзор сюжета",
+    ["Plot Overview "] = "Обзор сюжета",
+    ["PLOT OVERVIEW"] = "ОБЗОР СЮЖЕТА",
+    [" PLOT OVERVIEW "] = "ОБЗОР СЮЖЕТА",
     ["命运道标"] = "Маяк Судьбы",
     ["Beacon of Destiny"] = "Маяк Судьбы",
     ["Bacon of Destiny"] = "Маяк Судьбы",
@@ -921,6 +926,12 @@ local runtimeMetrics = {
     CaptureDataAssignmentsEnabled = false,
 }
 local runtimeFixes = {}
+
+function runtimeFixes.utf8Len(str)
+    if type(str) ~= "string" then return 0 end
+    local _, count = str:gsub("[^\128-\191]", "")
+    return count
+end
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from
 -- downloaded localization data are normally treated as non-authoritative, but
 -- these overrides may safely win when the live value still matches one of the
@@ -1980,7 +1991,7 @@ local function translateTextWidget(widget, discoveryContext)
             font.LetterSpacing = 0
 
             local baseSize = tonumber(font.Size) or 18
-            if hasCyrillic and (isTitleName or baseSize >= 15) then
+            if hasCyrillic and isTitleName then
                 local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
                 if textLen > 14 and baseSize > 12 then
                     font.Size = 12
@@ -1998,6 +2009,50 @@ local function translateTextWidget(widget, discoveryContext)
 
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
+        end
+
+        -- RichTextBlock / URichTextBlock / UKGCommonRichTextBlock support
+        local style = (widget.GetDefaultTextStyleOverride and widget:GetDefaultTextStyleOverride())
+            or widget.DefaultTextStyleOverride
+            or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
+            or widget.DefaultTextStyle
+        if style ~= nil and style.Font ~= nil then
+            local textToCheck = translated or currentText or ""
+            local hasCyrillic = (type(textToCheck) == "string") and textToCheck:find("[\208-\209][\128-\191]") ~= nil
+            local wName = widgetName or ""
+            local isBodyName = wName:find("Desc") or wName:find("Content") or wName:find("Detail")
+                or wName:find("Tips") or wName:find("Message") or wName:find("Info")
+                or (type(textToCheck) == "string" and #textToCheck > 40)
+            local isTitleName = wName:find("Title") or wName:find("Btn") or wName:find("Tab")
+                or wName:find("Header") or wName:find("Name") or wName:find("Sub") or wName:find("Choice")
+                or wName:find("Server")
+
+            if isBodyName and not isTitleName and style.Font.FontObject ~= nil then
+                if runtimeFixes.StandardFontObject == nil then
+                    runtimeFixes.StandardFontObject = style.Font.FontObject
+                    runtimeFixes.StandardTypefaceFontName = style.Font.TypefaceFontName
+                end
+            end
+
+            style.Font.LetterSpacing = 0
+            if hasCyrillic and runtimeFixes.StandardFontObject ~= nil and style.Font.FontObject ~= runtimeFixes.StandardFontObject then
+                style.Font.FontObject = runtimeFixes.StandardFontObject
+                if runtimeFixes.StandardTypefaceFontName ~= nil then
+                    style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                end
+            end
+            if widget.DefaultTextStyleOverride ~= nil then
+                widget.DefaultTextStyleOverride = style
+            end
+            if widget.SetDefaultTextStyleOverride ~= nil then
+                widget:SetDefaultTextStyleOverride(style)
+            end
+            if widget.DefaultTextStyle ~= nil then
+                widget.DefaultTextStyle = style
+            end
+            if widget.SetDefaultTextStyle ~= nil then
+                widget:SetDefaultTextStyle(style)
+            end
         end
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
@@ -2138,11 +2193,15 @@ local function translateViewTextWidgets(view, userWidget, discoveryContext, comp
 
     if runtimeFixes.StandardFontObject == nil then
         pcall(function()
-            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info" }
+            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info", "Text_TaskDesc1", "Text_TargetDesc", "Text_ChapterName" }
             for _, sName in ipairs(seedNames) do
                 local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
                 if w ~= nil then
                     local f = w.GetFont and w:GetFont() or w.Font
+                    if f == nil then
+                        local st = (w.GetDefaultTextStyleOverride and w:GetDefaultTextStyleOverride()) or w.DefaultTextStyleOverride or w.DefaultTextStyle
+                        if st ~= nil then f = st.Font end
+                    end
                     if f ~= nil and f.FontObject ~= nil then
                         runtimeFixes.StandardFontObject = f.FontObject
                         runtimeFixes.StandardTypefaceFontName = f.TypefaceFontName
@@ -3576,12 +3635,16 @@ local function needsTallEnglishSceneText(value)
         return false
     end
     local plain = value:gsub("<.->", "")
-    return plain:find("[A-Za-z]") ~= nil
-        and (#plain > SCENE_TEXT_PRIMARY_ROW_MAX or plain:find("[\r\n]") ~= nil)
+    local hasLetters = plain:find("[A-Za-z]") ~= nil or plain:find("[\208-\209]") ~= nil
+    local charLen = runtimeFixes.utf8Len(plain)
+    return hasLetters and (charLen > SCENE_TEXT_PRIMARY_ROW_MAX or plain:find("[\r\n]") ~= nil)
 end
 
 local function isPlainAsciiSceneTitle(value)
-    if type(value) ~= "string" or value == "" or #value > SCENE_TEXT_TITLE_MAX then
+    if type(value) ~= "string" or value == "" then
+        return false
+    end
+    if runtimeFixes.utf8Len(value) > SCENE_TEXT_TITLE_MAX then
         return false
     end
     if value:find("[\r\n]") or value:find("<", 1, true) or value:find(">", 1, true) then
@@ -3589,7 +3652,7 @@ local function isPlainAsciiSceneTitle(value)
     end
     for index = 1, #value do
         local byte = value:byte(index)
-        if byte < 32 or byte > 126 then
+        if byte < 32 then
             return false
         end
     end
@@ -3599,7 +3662,7 @@ end
 local function reflowEnglishSceneTitle(displayText, leonSubTitle)
     if not isPlainAsciiSceneTitle(displayText)
         or (leonSubTitle ~= nil and leonSubTitle ~= "")
-        or #displayText <= SCENE_TEXT_PRIMARY_ROW_MAX then
+        or runtimeFixes.utf8Len(displayText) <= SCENE_TEXT_PRIMARY_ROW_MAX then
         return displayText, leonSubTitle
     end
 
@@ -3616,8 +3679,8 @@ local function reflowEnglishSceneTitle(displayText, leonSubTitle)
     for index = 1, #words - 1 do
         local primary = table.concat(words, " ", 1, index)
         local continuation = table.concat(words, " ", index + 1)
-        local overflow = math.max(0, #primary - SCENE_TEXT_PRIMARY_ROW_MAX)
-        local score = overflow * 100 + math.abs(#primary - #continuation)
+        local overflow = math.max(0, runtimeFixes.utf8Len(primary) - SCENE_TEXT_PRIMARY_ROW_MAX)
+        local score = overflow * 100 + math.abs(runtimeFixes.utf8Len(primary) - runtimeFixes.utf8Len(continuation))
         if bestScore == nil or score < bestScore then
             bestIndex = index
             bestScore = score
@@ -3637,11 +3700,15 @@ local function longestPlainAsciiSceneLine(value)
         return nil
     end
     local longest
+    local longestLen = 0
     for line in value:gmatch("[^\r\n]+") do
         local plain = line:gsub("<.->", "")
-        if isPlainAsciiSceneTitle(plain)
-            and (longest == nil or #plain > #longest) then
-            longest = plain
+        if isPlainAsciiSceneTitle(plain) then
+            local lLen = runtimeFixes.utf8Len(plain)
+            if longest == nil or lLen > longestLen then
+                longest = plain
+                longestLen = lLen
+            end
         end
     end
     return longest
@@ -3732,36 +3799,37 @@ local function fitEnglishSceneTextFont(self)
     if type(displayText) ~= "string" or cppEntity == nil then
         return false
     end
+    local changed = false
+    if type(cppEntity.KAPI_Actor_UpdateFontLetterSpacing) == "function" then
+        changed = pcall(cppEntity.KAPI_Actor_UpdateFontLetterSpacing, cppEntity, 0) or changed
+    end
     local longestLine = longestPlainAsciiSceneLine(displayText)
     if longestLine == nil then
-        return false
+        return changed
     end
     local fontInfo = self.SceneConf and self.SceneConf.FontInfo
     local baseSize = fontInfo and tonumber(fontInfo.Size)
     if not baseSize or baseSize <= 0 then
-        return false
+        return changed
     end
+    local charCount = runtimeFixes.utf8Len(longestLine)
     local targetSize = baseSize
-    if #longestLine > SCENE_TEXT_PRIMARY_ROW_MAX then
+    if charCount > SCENE_TEXT_PRIMARY_ROW_MAX then
         targetSize = math.min(targetSize, SCENE_TEXT_MAX_ENGLISH_FONT_SIZE)
-        if #longestLine > SCENE_TEXT_MAIN_LINE_CHAR_BUDGET then
+        if charCount > SCENE_TEXT_MAIN_LINE_CHAR_BUDGET then
             targetSize = math.min(
                 targetSize,
                 math.max(
                     SCENE_TEXT_MIN_FONT_SIZE,
                     math.floor(
-                        baseSize * SCENE_TEXT_MAIN_LINE_CHAR_BUDGET / #longestLine + 0.5
+                        baseSize * SCENE_TEXT_MAIN_LINE_CHAR_BUDGET / charCount + 0.5
                     )
                 )
             )
         end
     end
-    local changed = false
     if type(cppEntity.KAPI_Actor_UpdateFontSize) == "function" then
         changed = pcall(cppEntity.KAPI_Actor_UpdateFontSize, cppEntity, targetSize) or changed
-    end
-    if type(cppEntity.KAPI_Actor_UpdateFontLetterSpacing) == "function" then
-        changed = pcall(cppEntity.KAPI_Actor_UpdateFontLetterSpacing, cppEntity, 0) or changed
     end
     return changed
 end
@@ -4907,6 +4975,11 @@ local function bindDialogueRows(self)
     elseif #missing == 0 and self.__cpddDialogueWidgetLookupReported ~= VERSION then
         self.__cpddDialogueWidgetLookupReported = VERSION
         report("dialogue third row bound from the live widget tree")
+    end
+    for _, w in ipairs(widgets) do
+        if w ~= nil then
+            translateTextWidget(w)
+        end
     end
     revealDialogueRows(self)
     return ok and hasThirdLine
@@ -6617,44 +6690,9 @@ local taskBoardWidgetNames = {
 local taskInfoRepairReports = setmetatable({}, { __mode = "k" })
 local function repairTaskInfoLabels(self)
     if self == nil then return 0 end
-    local view = nil
-    local readable = pcall(function() view = self.view end)
-    if not readable or type(view) ~= "table" then return 0 end
-
-    local repaired = 0
-    local visited = setmetatable({}, { __mode = "k" })
-    local function repair(widget)
-        local widgetType = type(widget)
-        if (widgetType ~= "table" and widgetType ~= "userdata")
-            or visited[widget]
-        then
-            return
-        end
-        visited[widget] = true
-        repaired = repaired + translateTextWidget(widget)
-    end
-    local function repairNamed(owner, name)
-        repair(getNamedWidget(owner, name))
-    end
-
-    for _, name in ipairs({
-        "Text_TaskDesc1", "Text_ChapterName",
-        "RichText_Hint01", "RichText_Hint02", "RichText_Path",
-    }) do
-        repairNamed(view, name)
-    end
-
-    local targetRoot = getNamedWidget(view, "WBP_TaskTargetItem")
-    repairNamed(targetRoot, "Text_TargetDesc")
-    pcall(function()
-        repairNamed(self.WBP_TaskTargetItemCom and self.WBP_TaskTargetItemCom.view,
-            "Text_TargetDesc")
-    end)
-
-    for _, tagName in ipairs({ "TaskTag1", "TaskTag2", "TaskTag3" }) do
-        repairNamed(getNamedWidget(view, tagName), "Text_Tag_lua")
-    end
-
+    local view = self.view
+    local root = self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self)
+    local repaired = translateViewTextWidgets(view, root)
     if taskInfoRepairReports[self] ~= true then
         taskInfoRepairReports[self] = true
         report("Task Info targeted repair active labels=" .. tostring(repaired))
@@ -6665,14 +6703,9 @@ end
 local taskListItemRepairReports = setmetatable({}, { __mode = "k" })
 local function repairTaskListItemLabels(self)
     if self == nil then return 0 end
-    local view = nil
-    local readable = pcall(function() view = self.view end)
-    if not readable or type(view) ~= "table" then return 0 end
-
-    local repaired = 0
-    for _, name in ipairs({ "Text_ChapterName", "Text_TaskLocation" }) do
-        repaired = repaired + translateTextWidget(getNamedWidget(view, name))
-    end
+    local view = self.view
+    local root = self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self)
+    local repaired = translateViewTextWidgets(view, root)
     if taskListItemRepairReports[self] ~= true then
         taskListItemRepairReports[self] = true
         report("Task list item targeted repair active labels=" .. tostring(repaired))
@@ -6711,6 +6744,7 @@ local function repairTaskBoardLabelsNow(self)
             return
         end
         repaired = repaired + translateDirectViewTextWidgets(view)
+        repaired = repaired + translateViewTextWidgets(view, root)
         for _, name in ipairs(taskBoardWidgetNames) do
             local widget = getNamedWidget(view, name) or getNamedWidget(root, name)
             if widget == nil and root ~= nil and type(findWidget) == "function" then
@@ -6889,29 +6923,55 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.NPC.Dialogue.DialogueScreenTextComp",
         "DialogueScreenTextComp",
-        { "OnSectionInit" },
+        { "OnSectionInit", "OnRefresh", "Refresh" },
         function(self)
-            translateTextWidget(getNamedWidget(self and self.usingScreenText, "RTB_Aside1_lua"))
+            local function doRepair()
+                local target = self and (self.usingScreenText or (self.view and self.view.usingScreenText))
+                local w = getNamedWidget(target, "RTB_Aside1_lua")
+                    or (self and self.view and getNamedWidget(self.view, "RTB_Aside1_lua"))
+                if w ~= nil then translateTextWidget(w) end
+            end
+            doRepair()
+            scheduleRepairAfter(self, 0.05, doRepair)
+            scheduleRepairAfter(self, 0.20, doRepair)
         end,
         true,
     },
     {
         "Gameplay.LogicSystem.NPC.Border_Panel",
         "Border_Panel",
-        { "SetBlackScreenText" },
+        { "SetBlackScreenText", "OnOpen", "OnRefresh", "Refresh", "InitUIView" },
         function(self)
-            local view = self and self.view
-            translateTextWidget(getNamedWidget(view and view.WidgetRoot, "RTB_Aside1_lua"))
+            local function doRepair()
+                local view = self and self.view
+                local root = self and (self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self))
+                local w = (view and (view.RTB_Aside1_lua or getNamedWidget(view, "RTB_Aside1_lua") or getNamedWidget(view.WidgetRoot, "RTB_Aside1_lua")))
+                    or (root and getNamedWidget(root, "RTB_Aside1_lua"))
+                if w ~= nil then translateTextWidget(w) end
+                translateViewTextWidgets(view, root)
+            end
+            doRepair()
+            scheduleRepairAfter(self, 0.05, doRepair)
+            scheduleRepairAfter(self, 0.20, doRepair)
         end,
         true,
     },
     {
         "Gameplay.LogicSystem.NPC.MimeWhite_Panel",
         "MimeWhite_Panel",
-        { "SetBlackScreenText" },
+        { "SetBlackScreenText", "OnOpen", "OnRefresh", "Refresh", "InitUIView" },
         function(self)
-            local view = self and self.view
-            translateTextWidget(getNamedWidget(view and view.WidgetRoot, "RTB_Aside1_lua"))
+            local function doRepair()
+                local view = self and self.view
+                local root = self and (self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self))
+                local w = (view and (view.RTB_Aside1_lua or getNamedWidget(view, "RTB_Aside1_lua") or getNamedWidget(view.WidgetRoot, "RTB_Aside1_lua")))
+                    or (root and getNamedWidget(root, "RTB_Aside1_lua"))
+                if w ~= nil then translateTextWidget(w) end
+                translateViewTextWidgets(view, root)
+            end
+            doRepair()
+            scheduleRepairAfter(self, 0.05, doRepair)
+            scheduleRepairAfter(self, 0.20, doRepair)
         end,
         true,
     },
@@ -7014,15 +7074,38 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.Task.New.Task_List_Item",
         "Task_List_Item",
-        { "OnRefresh" },
+        { "OnRefresh", "Refresh", "SetData", "setData" },
         repairTaskListItemLabels,
         true,
     },
     {
         "Gameplay.LogicSystem.Task.New.Task_Info",
         "Task_Info",
-        { "RefreshInfo" },
-        repairTaskInfoLabels,
+        { "RefreshInfo", "OnRefresh", "Refresh", "InitUIView", "OnOpen", "OnShow", "UpdateUI", "SetData" },
+        function(self)
+            local function doRepair()
+                repairTaskInfoLabels(self)
+            end
+            doRepair()
+            scheduleRepairAfter(self, 0.05, doRepair)
+            scheduleRepairAfter(self, 0.20, doRepair)
+        end,
+        true,
+    },
+    {
+        "Gameplay.LogicSystem.Task.New.TaskBoardPanel",
+        "TaskBoardPanel",
+        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI", "OnInit" },
+        function(self)
+            local function doRepair()
+                local view = self and self.view
+                local root = self and (self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self))
+                translateViewTextWidgets(view, root)
+            end
+            doRepair()
+            scheduleRepairAfter(self, 0.05, doRepair)
+            scheduleRepairAfter(self, 0.20, doRepair)
+        end,
         true,
     },
     {
@@ -7852,26 +7935,33 @@ Loader.AfterLoad(
 -- delayed pass coalesces bursts so this does not restore the global sweep.
 local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
+    Border_Panel = true,
     FashionStation_Details_Panel = true,
     GuildInside_Panel = true,
     LoginServerSelect_Panel = true,
+    MimeWhite_Panel = true,
     NewbieGuide_MainPanel = true,
     Sealed_Fuse_Main_Panel = true,
     Sealed_Fuse_Select_Panel = true,
     Shops_Panel = true,
     Sequence_Panel = true,
+    Task_Panel = true,
+    TaskBoardPanel = true,
     TrainTrade_Hud_Panel = true,
 }
 
 local extendedPanelRepairDelays = {
+    Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
     LoginServerSelect_Panel = { 0.15, 0.50, 1.00 },
+    MimeWhite_Panel = { 0.05, 0.20 },
     NewbieGuide_MainPanel = { 0.25, 0.75, 1.50, 3.00 },
     Sealed_Fuse_Main_Panel = { 0.25, 0.75, 1.50, 3.00, 6.00, 10.00, 20.00 },
     Sealed_Fuse_Select_Panel = { 0.25, 0.75, 1.50 },
     Sequence_Panel = { 0.50, 1.50, 3.00, 6.00, 10.00, 20.00 },
     Shops_Panel = { 0.25, 0.50, 1.00, 2.00 },
+    TaskBoardPanel = { 0.10, 0.35, 0.80 },
 }
 
 -- Current-session telemetry showed that these panels translated useful text
@@ -7889,7 +7979,6 @@ runtimeFixes.SinglePassPanelUids = {
 -- to 80 ms for item previews and 26 ms every 0.2 seconds for the task board.
 local targetedPanelRepairUids = {
     BagItemTips_Panel = true,
-    TaskBoardPanel = true,
 }
 
 local function isDynamicPanelRescan(component)
@@ -8016,10 +8105,6 @@ function panelTextRepair:ProcessOnce(component, reason)
         return 0
     end
     local uid = component.uid or component.UID or component.__cname
-    if tostring(uid) == "TaskBoardPanel" then
-        runtimeMetrics.TargetedPanelSkips = runtimeMetrics.TargetedPanelSkips + 1
-        return 0
-    end
     if uid ~= nil and targetedPanelRepairUids[tostring(uid)] then
         runtimeMetrics.TargetedPanelSkips = runtimeMetrics.TargetedPanelSkips + 1
         return 0
