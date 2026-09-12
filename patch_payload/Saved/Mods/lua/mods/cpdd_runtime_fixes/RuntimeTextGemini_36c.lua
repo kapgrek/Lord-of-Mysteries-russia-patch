@@ -241,7 +241,7 @@ return {
     ["（自用）preload范围调试"] = "(Частное использование) Отладка диапазона предварительной загрузки",
     ["Gift of the Guardian"] = "Подарок Стража",
     ["Fire Gun"] = "Выстрелить из пистолета",
-    ["Record: Card Rain"] = "Запись · Пайю",
+    ["Record: Card Rain"] = "Запись · Ливень карт",
     ["……Alright, I'll give it a try."] = "...Хорошо, дай мне попробовать.",
     ["Come and see the beautiful flowers, they still have dew on them!"] = "Приходите и посмотрите на прекрасные цветы, еще покрытые росой!",
     ["Air Monster spawn buff."] = "Усиление рождения воздушного монстра.",

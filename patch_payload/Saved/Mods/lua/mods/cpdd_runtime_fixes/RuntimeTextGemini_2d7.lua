@@ -88,7 +88,7 @@ return {
     ["After Eyes of Mystery Prying scans, it spreads three circles of Truth Wave outward, dealing area damage."] = "После того, как Глаз Тайн будет запущен, распространятся три волны истины, нанося урон по области.",
     ["Occupied ID segment 9030580-9030589_Blackthorn Incident Log 1_5200227"] = "Сегмент идентификатора учетной записи 9030580-9030589_Книга событий Blackthorn 1_5200227",
     ["No active set"] = "Пакет в настоящее время не активен",
-    ["Summon a marionette transformed from a Worm of Star to unleash a Sunset Hurricane, continuously striking enemies around the marionette to deal damage and apply Slow."] = "Марионетка, превратившаяся в вызванное звездное насекомое, выпускает ураган Хигураши, который непрерывно поражает врагов вокруг марионетки, нанося урон и замедляя ее.",
+    ["Summon a marionette transformed from a Worm of Star to unleash a Sunset Hurricane, continuously striking enemies around the marionette to deal damage and apply Slow."] = "Марионетка, созданная из Червя Звезд, обрушивает Закатный ураган, непрерывно нанося урон врагам вокруг себя и замедляя их.",
     ["Dawn Glimmer"] = "Сумерки",
     ["Square, Exchange, and Training Ground level limits increased to %s"] = "Максимальный уровень площади, обмена и тренировочной площадки увеличен до уровня %s.",
     ["Following the clues, you and Trevor tracked down a cathedral and found Trevor's superior, Phil, guarding the door, while his \"Master\" is completing the final advancement ritual..."] = "Следуя зацепкам расследования, вы с Тревором выследили церковь и обнаружили, что босс Тревора Фил охранял дверь, пока его «хозяин» завершал финальную церемонию повышения...",

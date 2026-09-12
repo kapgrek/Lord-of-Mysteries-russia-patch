@@ -243,7 +243,7 @@ return {
     ["This world... seems to have reached its end."] = "Этот мир... кажется, здесь закончился.",
     ["You all know that he is..."] = "Вы все знаете, что он...",
     ["Fors Teleport F"] = "Форси Телепорт F",
-    ["Record: Mystery Pry"] = "Записывайте и заглядывайте в секреты",
+    ["Record: Mystery Pry"] = "Запись · Тайноведение",
     ["Pink Right"] = "Розовый справа",
     ["Choose your major well, and Death will come early."] = "Если вы выберете главный колодец, смерть придет рано.",
     ["Praise the Fool! The Lord's gaze has fallen upon you, and supreme fortune is coming. Seize the opportunity and witness a miracle!"] = "Слава дураку! Очи Господа обращены на вас, и придет величайшая удача. Воспользуйтесь возможностью и станьте свидетелем чуда!",

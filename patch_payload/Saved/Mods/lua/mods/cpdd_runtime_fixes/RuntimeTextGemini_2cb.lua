@@ -79,7 +79,7 @@ return {
     ["Then, the whereabouts of 3-888... perhaps I have already found it."] = "Итак, местонахождение 3-888... возможно я его нашел.",
     ["Use the portal to head to the Hill where God's Blood was Spilled"] = "Пройдите через портал на Холм Пролитой Божественной Крови.",
     ["Compliment youth"] = "Хвалить молодежь",
-    ["Record: Hurricane"] = "Рекорд · ураган",
+    ["Record: Hurricane"] = "Запись · Ураган",
     ["Diary Note 2"] = "Дневниковая заметка 2",
     ["Blue line - Counter-clockwise carriage B3"] = "Синяя линия — каретка против часовой стрелки B3",
     ["Northeast 1"] = "Северо-восток 1",

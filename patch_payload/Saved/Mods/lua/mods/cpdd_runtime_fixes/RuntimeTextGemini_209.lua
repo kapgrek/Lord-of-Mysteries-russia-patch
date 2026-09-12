@@ -30,7 +30,7 @@ return {
     ["Spear of Time"] = "Копье Времени",
     ["Meat Stall Vendor"] = "Разносчик мясного ларька",
     ["Collection Finished Dialogue"] = "Коллекция завершает разговор",
-    ["Alien Hound Charge"] = "_\n\nЧужой заряд",
+    ["Alien Hound Charge"] = "Рывок гончей",
     ["Fallen Chaos"] = "Падший хаос",
     ["King of Space, Emperor of the Sea. Lord of Calamities, God of Storms!"] = "Царь неба, царь моря. Повелитель стихийных бедствий, Бог бурь!",
     ["Azik memory"] = "Воспоминания об Азике",
