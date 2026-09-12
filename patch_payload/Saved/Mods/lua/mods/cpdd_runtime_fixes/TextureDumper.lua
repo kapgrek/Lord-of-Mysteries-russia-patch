@@ -236,6 +236,24 @@ local function walkWidgetTree(owner, visited, panelName)
         end
     end
 
+    -- Check UUserWidget.WidgetTree
+    pcall(function()
+        local tree = owner.WidgetTree
+        if tree ~= nil then
+            if tree.RootWidget ~= nil then
+                walkWidgetTree(tree.RootWidget, visited, panelName)
+            end
+            if type(tree.GetAllWidgets) == "function" then
+                local widgets = {}
+                local ok, result = pcall(tree.GetAllWidgets, tree, widgets)
+                local arr = (ok and type(result) == "table" and result) or widgets
+                for _, w in pairs(arr) do
+                    walkWidgetTree(w, visited, panelName)
+                end
+            end
+        end
+    end)
+
     -- Direct Content slot
     pcall(function()
         if type(owner.GetContent) == "function" then
@@ -254,6 +272,19 @@ function Dumper:ScanPanel(component, reason)
 
     local visited = setmetatable({}, { __mode = "k" })
     walkWidgetTree(component, visited, uid)
+
+    pcall(function()
+        if type(component.view) == "table" then
+            for _, v in pairs(component.view) do
+                walkWidgetTree(v, visited, uid)
+            end
+        end
+        if type(component.view and component.view._widgetCache) == "table" then
+            for _, v in pairs(component.view._widgetCache) do
+                walkWidgetTree(v, visited, uid)
+            end
+        end
+    end)
 
     local root = nil
     pcall(function() root = component.userWidget or component.widget or component.panel end)

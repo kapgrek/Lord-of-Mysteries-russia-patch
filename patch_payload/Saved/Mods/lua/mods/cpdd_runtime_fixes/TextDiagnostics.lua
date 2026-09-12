@@ -217,6 +217,12 @@ end
 local function hookRuntimeFixes()
     raw_log("HOOK", "Setting up translation diagnostics hooks...")
 
+    -- Register global interception callback for Init.lua
+    _G.__LOM_OnTextIntercepted = function(context, orig, trans)
+        recordStringEncounter(context, orig, trans)
+    end
+    raw_log("HOOK", "Global __LOM_OnTextIntercepted registered.")
+
     -- 1. Check if Init module is loaded
     local runtimeMod = package.loaded["mods.cpdd_runtime_fixes.Init"]
     if runtimeMod then
@@ -292,24 +298,84 @@ if Loader and type(Loader.AfterLoad) == "function" then
                         local res = { orig(self, ...) }
                         pcall(function()
                             local name = tostring(self.uid or self.UID or self.__cname or "Panel")
-                            -- Inspect root widget texts
-                            local w = self.userWidget or self.widget or self.panel
-                            if w then
-                                local function scanWidget(item)
-                                    if item == nil then return end
+                            local visited = setmetatable({}, { __mode = "k" })
+
+                            local function scanWidget(item)
+                                if item == nil or visited[item] then return end
+                                visited[item] = true
+
+                                -- Extract text if widget has text
+                                pcall(function()
+                                    local txt = nil
                                     if type(item.GetText) == "function" then
-                                        local txt = item:GetText()
-                                        if txt ~= nil then
-                                            recordStringEncounter(name .. ":" .. tostring(item:GetName()), tostring(txt), nil)
+                                        txt = item:GetText()
+                                    elseif item.Text ~= nil and type(item.Text) == "string" then
+                                        txt = item.Text
+                                    end
+                                    if txt ~= nil and txt ~= "" then
+                                        local itemName = "Widget"
+                                        if type(item.GetName) == "function" then
+                                            itemName = tostring(item:GetName())
+                                        end
+                                        recordStringEncounter(name .. ":" .. itemName, tostring(txt), nil)
+                                    end
+                                end)
+
+                                -- Check UUserWidget.WidgetTree
+                                pcall(function()
+                                    local tree = item.WidgetTree
+                                    if tree ~= nil then
+                                        if tree.RootWidget ~= nil then
+                                            scanWidget(tree.RootWidget)
+                                        end
+                                        if type(tree.GetAllWidgets) == "function" then
+                                            local widgets = {}
+                                            local ok, result = pcall(tree.GetAllWidgets, tree, widgets)
+                                            local arr = (ok and type(result) == "table" and result) or widgets
+                                            for _, w in pairs(arr) do
+                                                scanWidget(w)
+                                            end
                                         end
                                     end
+                                end)
+
+                                -- Check panel children
+                                pcall(function()
                                     local cnt = tonumber(type(item.GetChildrenCount) == "function" and item:GetChildrenCount()) or 0
                                     for i = 0, cnt - 1 do
-                                        pcall(function() scanWidget(item:GetChildAt(i)) end)
+                                        local child = item:GetChildAt(i)
+                                        if child ~= nil then scanWidget(child) end
+                                    end
+                                end)
+
+                                -- Check Content slot (e.g. Button, Border)
+                                pcall(function()
+                                    if type(item.GetContent) == "function" then
+                                        local cnt = item:GetContent()
+                                        if cnt ~= nil then scanWidget(cnt) end
+                                    end
+                                end)
+                            end
+
+                            -- Inspect self.view and cache
+                            if type(self.view) == "table" then
+                                for _, w in pairs(self.view) do
+                                    if type(w) == "userdata" or type(w) == "table" then
+                                        scanWidget(w)
                                     end
                                 end
-                                scanWidget(w)
+                                if type(self.view._widgetCache) == "table" then
+                                    for _, w in pairs(self.view._widgetCache) do
+                                        if type(w) == "userdata" or type(w) == "table" then
+                                            scanWidget(w)
+                                        end
+                                    end
+                                end
                             end
+
+                            -- Inspect root userWidget
+                            local w = self.userWidget or self.widget or self.panel
+                            if w then scanWidget(w) end
                         end)
                         return unpack(res)
                     end

@@ -1,4 +1,4 @@
-﻿local Loader = assert(LOMModLoader, "LOMModLoader is required")
+local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
 local VERSION = "0.9.71"
 local CIRCUIT_BREAKER_TIPS_ID = 6427242
@@ -1513,6 +1513,16 @@ local function translateVisibleText(value)
         visibleTextCache[value] = questPasswordRestored
         return questPasswordRestored
     end
+    local gemini = lookupGeminiText(value)
+    if gemini ~= nil then
+        gemini = preserveMovableAnswerMarkup(value, gemini)
+        gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
+        visibleTextCache[value] = gemini
+        local onIntercept = rawget(_G, "__LOM_OnTextIntercepted")
+        if onIntercept then pcall(onIntercept, "visible", value, gemini) end
+        return gemini
+    end
+
     local reviewedExact = visibleTextExactOverrides[value]
     if reviewedExact ~= nil then
         visibleTextCache[value] = reviewedExact
@@ -2340,10 +2350,6 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     if normalized ~= value then
         return normalized
     end
-    if not hasCjk(value) then
-        return value
-    end
-
     -- Exact generated translations are authoritative for a complete source
     -- value. Consult them before either cache: an earlier fragment repair may
     -- have cached a mixed result such as "你在做What?", which must never mask
@@ -2352,9 +2358,18 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     if type(geminiExact) == "string" and geminiExact ~= ""
         and not hasCjk(geminiExact)
     then
-        return runtimeFixes.normalizeDefenseBreakTerminology(
+        local result = runtimeFixes.normalizeDefenseBreakTerminology(
             preserveMovableAnswerMarkup(value, geminiExact)
         )
+        local onIntercept = rawget(_G, "__LOM_OnTextIntercepted")
+        if onIntercept then pcall(onIntercept, tableName or "live", value, result) end
+        return result
+    end
+
+    if not hasCjk(value) then
+        local onIntercept = rawget(_G, "__LOM_OnTextIntercepted")
+        if onIntercept then pcall(onIntercept, tableName or "untranslated", value, value) end
+        return value
     end
 
     local cacheKey = tostring(tableName or "") .. "\0" .. tostring(fieldPath or "") .. "\0" .. value
@@ -2369,9 +2384,9 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     -- authored StringDB line. Resolve the authored tail independently while
     -- preserving user-created names verbatim.
     local speakerPrefix, spokenText = value:match("^([^:：]-[:：]%s*)(.+)$")
-    if speakerPrefix ~= nil and hasCjk(spokenText) then
-        local exactSpoken = visibleTextExactOverrides[spokenText]
-            or lookupGeminiText(spokenText)
+    if speakerPrefix ~= nil then
+        local exactSpoken = lookupGeminiText(spokenText)
+            or visibleTextExactOverrides[spokenText]
         if type(exactSpoken) == "string" and not hasCjk(exactSpoken) then
             local combined = translateVisibleText(speakerPrefix) .. exactSpoken
             if liveRepairCacheSize >= LIVE_REPAIR_CACHE_LIMIT then
@@ -2382,18 +2397,20 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
             liveRepairCacheSize = liveRepairCacheSize + 1
             return combined
         end
-        local spokenReference = sourceIndexLookup(sourceKey(spokenText))
-        if spokenReference ~= nil then
-            local spokenTranslation = lookupSourceTranslation(spokenReference, tableName, fieldPath)
-            if type(spokenTranslation) == "string" and not hasCjk(spokenTranslation) then
-                local combined = translateVisibleText(speakerPrefix) .. spokenTranslation
-                if liveRepairCacheSize >= LIVE_REPAIR_CACHE_LIMIT then
-                    liveRepairCache = {}
-                    liveRepairCacheSize = 0
+        if hasCjk(spokenText) then
+            local spokenReference = sourceIndexLookup(sourceKey(spokenText))
+            if spokenReference ~= nil then
+                local spokenTranslation = lookupSourceTranslation(spokenReference, tableName, fieldPath)
+                if type(spokenTranslation) == "string" and not hasCjk(spokenTranslation) then
+                    local combined = translateVisibleText(speakerPrefix) .. spokenTranslation
+                    if liveRepairCacheSize >= LIVE_REPAIR_CACHE_LIMIT then
+                        liveRepairCache = {}
+                        liveRepairCacheSize = 0
+                    end
+                    liveRepairCache[cacheKey] = combined
+                    liveRepairCacheSize = liveRepairCacheSize + 1
+                    return combined
                 end
-                liveRepairCache[cacheKey] = combined
-                liveRepairCacheSize = liveRepairCacheSize + 1
-                return combined
             end
         end
     end
@@ -7846,11 +7863,35 @@ Loader.On("after_main", function()
         .. " cache_misses=" .. tostring(runtimeMetrics.TranslationCacheMisses + runtimeMetrics.LiveRepairCacheMisses))
     end, 1500, "cpdd.runtime-fix.translation-layout")
 
+-- Guard against ChatModel string.format crashes on system messages
+pcall(function()
+    if type(Loader.AfterLoad) == "function" then
+        for _, chatModelName in ipairs({
+            "Gameplay.LogicSystem.Chat.Model.ChatModel",
+            "Gameplay.LogicSystem.Chat.ChatModel",
+        }) do
+            Loader.AfterLoad(chatModelName, function(model)
+                if type(model) == "table" and type(model.processSystemTextMessage) == "function" then
+                    local originalProcess = model.processSystemTextMessage
+                    model.processSystemTextMessage = function(...)
+                        local ok, res = pcall(originalProcess, ...)
+                        if ok then return res end
+                        return nil
+                    end
+                end
+                return model
+            end, 100, "cpdd.chat_model.format_guard")
+        end
+    end
+end)
+
 report("registered v" .. VERSION)
 return {
     Version = VERSION,
     PerformanceModeApplied = Loader.Telemetry.PerformanceModeApplied == true,
     RepairLiveText = repairLiveString,
+    TranslateVisibleText = translateVisibleText,
+    LookupGeminiText = lookupGeminiText,
     SetRuntimeRowRepair = setRuntimeRowRepair,
     IsRuntimeRowRepairEnabled = runtimeRowRepairEnabled,
     SetRuntimeUIRepair = setRuntimeUIRepair,
@@ -7860,4 +7901,4 @@ return {
     ResolveAuthoritativeAggregate = runtimeFixes.authoritativeAggregateLookup,
     PerformanceMetrics = runtimeMetrics,
     RepairPanel = function(component) return panelTextRepair:Repair(component, "manual") end,
-        }
+}

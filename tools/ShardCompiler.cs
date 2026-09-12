@@ -51,6 +51,7 @@ public class FastShardCompiler {
         Dictionary<string, Dictionary<string, string>> shardMap = new Dictionary<string, Dictionary<string, string>>();
         int totalLoaded = 0;
         int translatedCount = 0;
+        int enMappedCount = 0;
 
         Regex itemRegex = new Regex(@"""source_cn""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""ref_en""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""target_ru""\s*:\s*""((?:\\""|[^""])*)""", RegexOptions.Compiled);
 
@@ -65,18 +66,35 @@ public class FastShardCompiler {
                 string finalVal = !string.IsNullOrEmpty(ru) ? ru : en;
                 if (!string.IsNullOrEmpty(ru)) translatedCount++;
 
-                string key = ComputeSourceKey(cn);
-                string shard = GetShardPrefix(key);
+                if (!string.IsNullOrEmpty(cn)) {
+                    string keyCn = ComputeSourceKey(cn);
+                    string shardCn = GetShardPrefix(keyCn);
 
-                if (!shardMap.ContainsKey(shard)) {
-                    shardMap[shard] = new Dictionary<string, string>();
+                    if (!shardMap.ContainsKey(shardCn)) {
+                        shardMap[shardCn] = new Dictionary<string, string>();
+                    }
+                    shardMap[shardCn][cn] = finalVal;
+                    totalLoaded++;
                 }
-                shardMap[shard][cn] = finalVal;
-                totalLoaded++;
+
+                // Also map English reference to Russian translation so text rendered
+                // from CPDD English overlays or baked text gets translated to Russian
+                if (!string.IsNullOrEmpty(en) && en != cn && !string.IsNullOrEmpty(ru) && ru != en) {
+                    string keyEn = ComputeSourceKey(en);
+                    string shardEn = GetShardPrefix(keyEn);
+
+                    if (!shardMap.ContainsKey(shardEn)) {
+                        shardMap[shardEn] = new Dictionary<string, string>();
+                    }
+                    if (!shardMap[shardEn].ContainsKey(en)) {
+                        shardMap[shardEn][en] = ru;
+                        enMappedCount++;
+                    }
+                }
             }
         }
 
-        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ")");
+        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ")");
         Console.WriteLine("Запись в 1024 Lua-шарда...");
 
         UTF8Encoding utf8 = new UTF8Encoding(true);

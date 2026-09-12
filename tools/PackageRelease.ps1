@@ -35,7 +35,7 @@ Write-Host "  Size:   $([math]::Round($zipItem.Length / 1MB, 2)) MB ($($zipItem.
 Write-Host "  SHA256: $zipHash"
 
 # 4. Generate release.json
-Write-Host "`n[4/4] Generating release.json..." -ForegroundColor Cyan
+Write-Host "`n[4/5] Generating release.json..." -ForegroundColor Cyan
 $exePath = "$projectRoot\Lord-of-Mysteries-Russian-Patch.exe"
 $exeItem = Get-Item $exePath
 $exeHash = (Get-FileHash $exePath -Algorithm SHA256).Hash.ToLower()
@@ -58,6 +58,30 @@ $releaseInfo = @{
 
 $releaseJsonPath = "$buildDir\release.json"
 $releaseInfo | ConvertTo-Json -Depth 5 | Set-Content -Path $releaseJsonPath -Encoding UTF8
-
 Write-Host "Release manifest written to $releaseJsonPath" -ForegroundColor Green
+
+# 5. Create all-in-one bundle zip
+Write-Host "`n[5/5] Creating all-in-one zip bundle..." -ForegroundColor Cyan
+$bundleZip = "$buildDir\Lord-of-Mysteries-Russian-Patch-$Version.zip"
+if (Test-Path $bundleZip) { Remove-Item $bundleZip -Force }
+
+$tempBundleDir = "$projectRoot\temp\bundle_$Version"
+if (Test-Path $tempBundleDir) { Remove-Item $tempBundleDir -Recurse -Force }
+New-Item -ItemType Directory -Path $tempBundleDir -Force | Out-Null
+
+Copy-Item $exePath -Destination $tempBundleDir
+Copy-Item $zipPath -Destination $tempBundleDir
+if (Test-Path "$projectRoot\installer\Install.bat") {
+    Copy-Item "$projectRoot\installer\Install.bat" -Destination $tempBundleDir
+}
+if (Test-Path "$projectRoot\README.txt") {
+    Copy-Item "$projectRoot\README.txt" -Destination $tempBundleDir
+}
+
+[System.IO.Compression.ZipFile]::CreateFromDirectory($tempBundleDir, $bundleZip, [System.IO.Compression.CompressionLevel]::Optimal, $false)
+Remove-Item $tempBundleDir -Recurse -Force
+
+$bundleItem = Get-Item $bundleZip
+Write-Host "All-in-one bundle created: $bundleZip ($([math]::Round($bundleItem.Length / 1MB, 2)) MB)" -ForegroundColor Green
+
 Write-Host "`nRelease packaging completed successfully!" -ForegroundColor Green
