@@ -247,6 +247,22 @@ namespace LotmDiagnostics
             return "";
         }
 
+        public static byte[] GetEmbeddedFile(string resourceName)
+        {
+            try
+            {
+                var assembly = System.Reflection.Assembly.GetExecutingAssembly();
+                using (var stream = assembly.GetManifestResourceStream(resourceName))
+                {
+                    if (stream == null) return null;
+                    byte[] buffer = new byte[stream.Length];
+                    stream.Read(buffer, 0, buffer.Length);
+                    return buffer;
+                }
+            }
+            catch { return null; }
+        }
+
         public static bool DeployDiagnostics(string gameDir, Action<string> log)
         {
             log("=== Развертывание логгера и дампера текстур ===");
@@ -259,9 +275,27 @@ namespace LotmDiagnostics
             }
 
             string payloadDir = ResolvePayloadDir();
-            if (string.IsNullOrEmpty(payloadDir))
+            byte[] dumperBytes = null;
+            byte[] diagBytes = null;
+            byte[] userSettingsBytes = null;
+
+            if (!string.IsNullOrEmpty(payloadDir))
             {
-                log("ОШИБКА: Не найдена папка patch_payload с файлами мода!");
+                string dSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "TextureDumper.lua");
+                if (File.Exists(dSource)) dumperBytes = File.ReadAllBytes(dSource);
+                string dgSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "TextDiagnostics.lua");
+                if (File.Exists(dgSource)) diagBytes = File.ReadAllBytes(dgSource);
+                string usSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "cpdd_user_settings.lua");
+                if (File.Exists(usSource)) userSettingsBytes = File.ReadAllBytes(usSource);
+            }
+
+            if (dumperBytes == null) dumperBytes = GetEmbeddedFile("TextureDumper.lua");
+            if (diagBytes == null) diagBytes = GetEmbeddedFile("TextDiagnostics.lua");
+            if (userSettingsBytes == null) userSettingsBytes = GetEmbeddedFile("cpdd_user_settings.lua");
+
+            if (dumperBytes == null || diagBytes == null)
+            {
+                log("ОШИБКА: Не удалось получить файлы мода (ни с диска, ни из встроенных ресурсов)!");
                 return false;
             }
 
@@ -276,23 +310,15 @@ namespace LotmDiagnostics
                 Directory.CreateDirectory(targetLogsDir);
                 Directory.CreateDirectory(targetDumpDir);
 
-                // 1. Копируем TextureDumper.lua
-                string dumperSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "TextureDumper.lua");
+                // 1. Записываем TextureDumper.lua
                 string dumperDest = Path.Combine(targetFixesDir, "TextureDumper.lua");
-                if (File.Exists(dumperSource))
-                {
-                    File.Copy(dumperSource, dumperDest, true);
-                    log("[OK] TextureDumper.lua скопирован в: " + dumperDest);
-                }
+                File.WriteAllBytes(dumperDest, dumperBytes);
+                log("[OK] TextureDumper.lua установлен в: " + dumperDest);
 
-                // 2. Копируем TextDiagnostics.lua
-                string diagSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "TextDiagnostics.lua");
+                // 2. Записываем TextDiagnostics.lua
                 string diagDest = Path.Combine(targetFixesDir, "TextDiagnostics.lua");
-                if (File.Exists(diagSource))
-                {
-                    File.Copy(diagSource, diagDest, true);
-                    log("[OK] TextDiagnostics.lua скопирован в: " + diagDest);
-                }
+                File.WriteAllBytes(diagDest, diagBytes);
+                log("[OK] TextDiagnostics.lua установлен в: " + diagDest);
 
                 // 3. Создаем/обновляем cpdd_diagnostic_config.json
                 string configPath = Path.Combine(targetModsDir, "cpdd_diagnostic_config.json");
@@ -300,18 +326,23 @@ namespace LotmDiagnostics
                 File.WriteAllText(configPath, configJson, Encoding.UTF8);
                 log("[OK] cpdd_diagnostic_config.json настроен.");
 
-                // 4. Копируем/обновляем cpdd_user_settings.lua
-                string userSettingsSource = Path.Combine(payloadDir, "Saved", "Mods", "lua", "cpdd_user_settings.lua");
-                string userSettingsDest = Path.Combine(targetModsDir, "lua", "cpdd_user_settings.lua");
-                if (File.Exists(userSettingsSource))
+                // 4. Записываем cpdd_user_settings.lua
+                if (userSettingsBytes != null)
                 {
-                    File.Copy(userSettingsSource, userSettingsDest, true);
+                    string userSettingsDest = Path.Combine(targetModsDir, "lua", "cpdd_user_settings.lua");
+                    File.WriteAllBytes(userSettingsDest, userSettingsBytes);
                     log("[OK] cpdd_user_settings.lua активирован (DiagnosticsMode=true, PerformanceMode=false).");
                 }
 
                 // 5. Регистрируем модули в manifest.lua
                 string manifestPath = Path.Combine(targetModsDir, "manifest.lua");
-                if (File.Exists(manifestPath))
+                if (!File.Exists(manifestPath))
+                {
+                    string defManifest = "return {\n    Overrides = {},\n    Load = {\n        \"mods.cpdd_runtime_fixes.TextDiagnostics\",\n        \"mods.cpdd_runtime_fixes.TextureDumper\",\n    },\n}\n";
+                    File.WriteAllText(manifestPath, defManifest, Encoding.UTF8);
+                    log("[OK] manifest.lua создан.");
+                }
+                else
                 {
                     string content = File.ReadAllText(manifestPath, Encoding.UTF8);
                     bool changed = false;
@@ -319,6 +350,10 @@ namespace LotmDiagnostics
                     if (!content.Contains("mods.cpdd_runtime_fixes.TextDiagnostics"))
                     {
                         content = Regex.Replace(content, @"(""mods\.cpdd_runtime_fixes\.Init"",?)", "$1\n        \"mods.cpdd_runtime_fixes.TextDiagnostics\",");
+                        if (!content.Contains("mods.cpdd_runtime_fixes.TextDiagnostics"))
+                        {
+                            content = Regex.Replace(content, @"(Load\s*=\s*\{)", "$1\n        \"mods.cpdd_runtime_fixes.TextDiagnostics\",");
+                        }
                         changed = true;
                     }
                     if (!content.Contains("mods.cpdd_runtime_fixes.TextureDumper"))

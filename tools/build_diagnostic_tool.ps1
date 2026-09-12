@@ -25,12 +25,19 @@ $refs = "System.dll,System.Windows.Forms.dll,System.Drawing.dll,System.IO.Compre
 
 Write-Host "=== Compiling Lord-of-Mysteries-Diagnostic-Tool.exe ===" -ForegroundColor Cyan
 
+$resDumper = "$projectRoot\patch_payload\Saved\Mods\lua\mods\cpdd_runtime_fixes\TextureDumper.lua,TextureDumper.lua"
+$resDiag = "$projectRoot\patch_payload\Saved\Mods\lua\mods\cpdd_runtime_fixes\TextDiagnostics.lua,TextDiagnostics.lua"
+$resSettings = "$projectRoot\patch_payload\Saved\Mods\lua\cpdd_user_settings.lua,cpdd_user_settings.lua"
+
 $cmdArgs = @(
     "/target:winexe",
     "/optimize+",
     "/platform:anycpu",
     "/highentropyva+",
     "/r:$refs",
+    "/resource:`"$($projectRoot)\patch_payload\Saved\Mods\lua\mods\cpdd_runtime_fixes\TextureDumper.lua`",TextureDumper.lua",
+    "/resource:`"$($projectRoot)\patch_payload\Saved\Mods\lua\mods\cpdd_runtime_fixes\TextDiagnostics.lua`",TextDiagnostics.lua",
+    "/resource:`"$($projectRoot)\patch_payload\Saved\Mods\lua\cpdd_user_settings.lua`",cpdd_user_settings.lua",
     "/win32manifest:`"$manifest`"",
     "/win32icon:`"$icon`"",
     "/out:`"$outputExe`"",
