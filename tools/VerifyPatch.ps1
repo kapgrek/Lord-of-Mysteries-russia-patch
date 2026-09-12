@@ -66,6 +66,22 @@ if ($dbCount -ge 38) {
     Write-Warning "[WARN] Найдено только $dbCount модулей Excel баз данных!"
 }
 
+# 5. Проверка лимита локальных переменных в Init.lua (LUAI_MAXVARS <= 200)
+$initLua = Join-Path $payload "Saved\Mods\lua\mods\cpdd_runtime_fixes\Init.lua"
+if (Test-Path $initLua) {
+    $topLocals = (Get-Content $initLua | Select-String -Pattern '^local ').Count
+    $margin = 200 - $topLocals
+    if ($topLocals -le 190) {
+        Write-Host "[OK] Init.lua проверен: $topLocals локальных переменных верхнего уровня (лимит: 200, запас: $margin)." -ForegroundColor Green
+    } else {
+        Write-Error "[ERROR] Init.lua превышает безопасный лимит локальных переменных: $topLocals / 200!"
+        $errors++
+    }
+} else {
+    Write-Error "[ERROR] Init.lua не найден!"
+    $errors++
+}
+
 if ($errors -eq 0) {
     Write-Host "`nВсе ключевые компоненты русской локализации успешно проверены и готовы к установке!" -ForegroundColor Green
 } else {

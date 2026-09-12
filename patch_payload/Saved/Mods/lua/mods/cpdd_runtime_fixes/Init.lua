@@ -1,8 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
 local VERSION = "0.9.71"
-local CIRCUIT_BREAKER_TIPS_ID = 6427242
-local CIRCUIT_BREAKER_TEXT = "If the server is too crowded, it will enter a circuit-breaker state, temporarily preventing new accounts that have not created a character on the current server from queuing. Please choose another server that is not under a circuit-breaker to experience the game."
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -323,24 +321,21 @@ local stringConstOverrides = {
 
 -- This quest validates the literal Chinese chat input server-side. Keep only
 -- the password Chinese so the surrounding quest instructions remain English.
-local QUEST_CHAT_PASSWORD_EN = "The storm is stronger than spirits"
-local QUEST_CHAT_PASSWORD_ZH = "风暴比烈酒更烈"
-local ENTER_WORLD_LABEL_LONG = "Enter the Extraordinary World"
-local ENTER_WORLD_LABEL_SHORT = "Enter World"
-
 local function shortenEnterWorldLabel(value)
-    if value == ENTER_WORLD_LABEL_LONG then
-        return ENTER_WORLD_LABEL_SHORT
+    if value == "Enter the Extraordinary World" then
+        return "Enter World"
     end
     return value
 end
 
 local function restoreQuestChatPassword(value)
-    if type(value) ~= "string" or not value:find(QUEST_CHAT_PASSWORD_EN, 1, true) then
+    local pwEn = "The storm is stronger than spirits"
+    local pwZh = "风暴比烈酒更烈"
+    if type(value) ~= "string" or not value:find(pwEn, 1, true) then
         return value
     end
-    return value:gsub(QUEST_CHAT_PASSWORD_EN, function()
-        return QUEST_CHAT_PASSWORD_ZH
+    return value:gsub(pwEn, function()
+        return pwZh
     end)
 end
 
@@ -1109,17 +1104,17 @@ local function lookupGeminiText(value)
     return translated
 end
 
-local function hasCyrillic(str)
+runtimeFixes.hasCyrillic = function(str)
     return type(str) == "string" and str:find("[\208-\209][\128-\191]") ~= nil
 end
 
-local function utf8Len(s)
+runtimeFixes.utf8Len = function(s)
     if type(s) ~= "string" then return 0 end
     local _, count = s:gsub("[^\128-\191]", "")
     return count
 end
 
-local function lookupGeminiTextFuzzy(value)
+runtimeFixes.lookupGeminiTextFuzzy = function(value)
     if type(value) ~= "string" or value == "" then return nil end
     local direct = lookupGeminiText(value)
     if direct ~= nil then return direct end
@@ -1136,7 +1131,7 @@ local function lookupGeminiTextFuzzy(value)
     -- 2. Outer RichText tags: e.g. <Highlight>Text</>, <Text.Red>Text</>
     local openTag, tagInner, closeTag = value:match("^(<[^>]+>)(.-)(</>)$")
     if openTag and tagInner and tagInner ~= "" then
-        local t = lookupGeminiTextFuzzy(tagInner)
+        local t = runtimeFixes.lookupGeminiTextFuzzy(tagInner)
         if t ~= nil then
             return openTag .. t .. closeTag
         end
@@ -1145,7 +1140,7 @@ local function lookupGeminiTextFuzzy(value)
     -- 3. Trailing punctuation: colons (: / ：), dashes (- / —), question marks (?), dots (...)
     local stem, punct = value:match("^(.-)([:：%-%?%.]+)%s*$")
     if stem and stem ~= "" and stem ~= value then
-        local t = lookupGeminiTextFuzzy(stem)
+        local t = runtimeFixes.lookupGeminiTextFuzzy(stem)
         if t ~= nil then
             return t .. punct
         end
@@ -1154,7 +1149,7 @@ local function lookupGeminiTextFuzzy(value)
     -- 4. Bracketed text: [Text], (Text), {Text}, 【Text】
     local openBr, brInner, closeBr = value:match("^([%[%{%(【])(.-)([%]%}%)】])$")
     if openBr and brInner and brInner ~= "" then
-        local t = lookupGeminiTextFuzzy(brInner)
+        local t = runtimeFixes.lookupGeminiTextFuzzy(brInner)
         if t ~= nil then
             return openBr .. t .. closeBr
         end
@@ -1171,13 +1166,13 @@ local function lookupGeminiTextFuzzy(value)
     return nil
 end
 
-local function reflowSingleLineToTwo(text, minChars)
+runtimeFixes.reflowSingleLineToTwo = function(text, minChars)
     minChars = minChars or 18
     if type(text) ~= "string" or text:find("[\r\n]") then
         return text
     end
     local plain = text:gsub("<[^>]+>", "")
-    if utf8Len(plain) < minChars then
+    if runtimeFixes.utf8Len(plain) < minChars then
         return text
     end
 
@@ -1615,7 +1610,7 @@ local function translateVisibleText(value)
         visibleTextCache[value] = questPasswordRestored
         return questPasswordRestored
     end
-    local gemini = lookupGeminiTextFuzzy(value)
+    local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
         gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
@@ -1875,7 +1870,7 @@ local function translateVisibleText(value)
         return result
     end
 
-    local gemini = lookupGeminiTextFuzzy(value)
+    local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
         gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
@@ -1929,8 +1924,8 @@ local function translateTextWidget(widget, discoveryContext)
 
     -- Auto-wrap and reflow for Russian text length
     local targetText = translated
-    if type(targetText) == "string" and hasCyrillic(targetText) then
-        targetText = reflowSingleLineToTwo(targetText, 18)
+    if type(targetText) == "string" and runtimeFixes.hasCyrillic(targetText) then
+        targetText = runtimeFixes.reflowSingleLineToTwo(targetText, 18)
     end
 
     -- Enable auto wrap to prevent UI overflows on Russian text
@@ -2485,7 +2480,7 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     -- value. Consult them before either cache: an earlier fragment repair may
     -- have cached a mixed result such as "你在做What?", which must never mask
     -- the reviewed whole-string translation on KSBC rows.
-    local geminiExact = lookupGeminiTextFuzzy(value)
+    local geminiExact = runtimeFixes.lookupGeminiTextFuzzy(value)
     if type(geminiExact) == "string" and geminiExact ~= ""
         and not hasCjk(geminiExact)
     then
@@ -2516,7 +2511,7 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     -- preserving user-created names verbatim.
     local speakerPrefix, spokenText = value:match("^([^:：]-[:：]%s*)(.+)$")
     if speakerPrefix ~= nil then
-        local exactSpoken = lookupGeminiTextFuzzy(spokenText)
+        local exactSpoken = runtimeFixes.lookupGeminiTextFuzzy(spokenText)
             or visibleTextExactOverrides[spokenText]
         if type(exactSpoken) == "string" and not hasCjk(exactSpoken) then
             local combined = translateVisibleText(speakerPrefix) .. exactSpoken
@@ -3491,20 +3486,31 @@ Loader.On("after_main", function()
     )
 end, 1000001, "cpdd.runtime-fix.ksbc-equipment-rows-main")
 
-local SCENE_TEXT_PRIMARY_ROW_MAX = 12
-local SCENE_TEXT_TITLE_MAX = 80
-local SCENE_TEXT_HEIGHT_MULTIPLIER = 2
-local SCENE_TEXT_INNER_HEIGHT = 640
-local SCENE_TEXT_MAIN_LINE_CHAR_BUDGET = 15
-local SCENE_TEXT_MAX_ENGLISH_FONT_SIZE = 71
-local SCENE_TEXT_MIN_FONT_SIZE = 48
-local sceneTextSurfaceReports = 0
-local sceneTextSurfaceFailures = 0
-local sceneTextSurfaceApplied = setmetatable({}, { __mode = "k" })
-local sceneTextInnerReports = 0
-local sceneTextInnerApplied = setmetatable({}, { __mode = "k" })
-local sceneTextWidgetComponentClass
-local sceneTextImportedObjectActorManager
+local function sceneTextVector2D(x, y)
+    if type(FVector2D) == "function" then
+        local ok, value = pcall(FVector2D, x, y)
+        if ok then
+            return value
+        end
+    end
+    return { X = x, Y = y }
+end
+
+do
+    local SCENE_TEXT_PRIMARY_ROW_MAX = 12
+    local SCENE_TEXT_TITLE_MAX = 80
+    local SCENE_TEXT_HEIGHT_MULTIPLIER = 2
+    local SCENE_TEXT_INNER_HEIGHT = 640
+    local SCENE_TEXT_MAIN_LINE_CHAR_BUDGET = 15
+    local SCENE_TEXT_MAX_ENGLISH_FONT_SIZE = 71
+    local SCENE_TEXT_MIN_FONT_SIZE = 48
+    local sceneTextSurfaceReports = 0
+    local sceneTextSurfaceFailures = 0
+    local sceneTextSurfaceApplied = setmetatable({}, { __mode = "k" })
+    local sceneTextInnerReports = 0
+    local sceneTextInnerApplied = setmetatable({}, { __mode = "k" })
+    local sceneTextWidgetComponentClass
+    local sceneTextImportedObjectActorManager
 
 local function needsTallEnglishSceneText(value)
     if type(value) ~= "string" then
@@ -3638,15 +3644,6 @@ local function sceneTextObjectActorManager()
     return sceneTextImportedObjectActorManager
 end
 
-local function sceneTextVector2D(x, y)
-    if type(FVector2D) == "function" then
-        local ok, value = pcall(FVector2D, x, y)
-        if ok then
-            return value
-        end
-    end
-    return { X = x, Y = y }
-end
 
 local function liveSceneTextWidgetComponent(self)
     local cppEntity = self and self.CppEntity
@@ -3878,6 +3875,7 @@ Loader.AfterLoad(
     1000000,
     "cpdd.runtime-fix.scene-text"
 )
+end
 
 for _, moduleName in ipairs({
     "Gameplay.LogicSystem.SkillCustomizer.Main.Skill_Fight_Item",
@@ -4188,42 +4186,47 @@ Loader.AfterLoad("Gameplay.LogicSystem.Race.WorldWidget.RaceTrace_Widget", funct
     return value
 end, 1000000, "cpdd.runtime-fix.racetrace-meter")
 
-Loader.AfterLoad("Gameplay.LogicSystem.Tips.TipsSystem", function(value, environment)
-    local tipsSystem = getSymbol(value, environment, "TipsSystem")
-    if type(tipsSystem) ~= "table" or tipsSystem.__cpddRuntimeFixV1 then
-        return value
-    end
+do
+    local CIRCUIT_BREAKER_TIPS_ID = 6427242
+    local CIRCUIT_BREAKER_TEXT = "If the server is too crowded, it will enter a circuit-breaker state, temporarily preventing new accounts that have not created a character on the current server from queuing. Please choose another server that is not under a circuit-breaker to experience the game."
 
-    tipsSystem.__cpddRuntimeFixV1 = true
-    local originalParse = assert(tipsSystem._parseTipsDataSections)
-
-    function tipsSystem:_parseTipsDataSections(tipsId)
-        if tipsId == CIRCUIT_BREAKER_TIPS_ID then
-            return {
-                {
-                    Content = { CIRCUIT_BREAKER_TEXT },
-                },
-            }
+    Loader.AfterLoad("Gameplay.LogicSystem.Tips.TipsSystem", function(value, environment)
+        local tipsSystem = getSymbol(value, environment, "TipsSystem")
+        if type(tipsSystem) ~= "table" or tipsSystem.__cpddRuntimeFixV1 then
+            return value
         end
-        return originalParse(self, tipsId)
-    end
 
-    return value
-end, 1000000, "cpdd.runtime-fix.circuit-breaker-content")
+        tipsSystem.__cpddRuntimeFixV1 = true
+        local originalParse = assert(tipsSystem._parseTipsDataSections)
 
-Loader.AfterLoad("Gameplay.LogicSystem.Login.LoginServerSelect_Panel", function(value, environment)
-    local panel = getSymbol(value, environment, "LoginServerSelect_Panel")
-    if type(panel) ~= "table" or panel.__cpddRuntimeFixV1 then
+        function tipsSystem:_parseTipsDataSections(tipsId)
+            if tipsId == CIRCUIT_BREAKER_TIPS_ID then
+                return {
+                    {
+                        Content = { CIRCUIT_BREAKER_TEXT },
+                    },
+                }
+            end
+            return originalParse(self, tipsId)
+        end
+
         return value
-    end
+    end, 1000000, "cpdd.runtime-fix.circuit-breaker-content")
 
-    panel.__cpddRuntimeFixV1 = true
-    function panel:on_Btn_Info_Clicked()
-        Game.TipsSystem:ShowTips(CIRCUIT_BREAKER_TIPS_ID, self.view.Btn_Info:GetCachedGeometry())
-    end
+    Loader.AfterLoad("Gameplay.LogicSystem.Login.LoginServerSelect_Panel", function(value, environment)
+        local panel = getSymbol(value, environment, "LoginServerSelect_Panel")
+        if type(panel) ~= "table" or panel.__cpddRuntimeFixV1 then
+            return value
+        end
 
-    return value
-end, 1000000, "cpdd.runtime-fix.circuit-breaker-button")
+        panel.__cpddRuntimeFixV1 = true
+        function panel:on_Btn_Info_Clicked()
+            Game.TipsSystem:ShowTips(CIRCUIT_BREAKER_TIPS_ID, self.view.Btn_Info:GetCachedGeometry())
+        end
+
+        return value
+    end, 1000000, "cpdd.runtime-fix.circuit-breaker-button")
+end
 
 Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.SkillBuffDescUtils", function(value, environment)
     local utils = getSymbol(value, environment, "SkillBuffDescUtils")
@@ -7908,7 +7911,7 @@ Loader.AfterLoad(
     "cpdd.runtime-fix.event-driven-panels"
 )
 
-local function statisticsEverywhereEnabled()
+runtimeFixes.statisticsEverywhereEnabled = function()
     local loader = rawget(_G, "LOMModLoader")
     local features = loader and loader.Features
     if type(features) ~= "table" then
@@ -7917,44 +7920,7 @@ local function statisticsEverywhereEnabled()
     return features.StatisticsEverywhere ~= false
 end
 
-local function installStatisticsEverywhereTarget(target, label)
-    if type(target) ~= "table" then
-        return false
-    end
-    if rawget(target, "__cpddStatisticsEverywhereVersion") == VERSION then
-        return true
-    end
-
-    local original = rawget(target, "CheckSwitchMapStats")
-    if type(original) ~= "function" then
-        return false
-    end
-
-    target.CheckSwitchMapStats = function(...)
-        if statisticsEverywhereEnabled() then
-            return true
-        end
-        return original(...)
-    end
-    target.__cpddStatisticsEverywhereVersion = VERSION
-    report("installed Statistics button everywhere hook for " .. tostring(label))
-    return true
-end
-
-local function installStatisticsEverywhere(value, environment)
-    local installed = false
-    if type(value) == "table" then
-        installed = installStatisticsEverywhereTarget(value, "module") or installed
-        installed = installStatisticsEverywhereTarget(rawget(value, "HUDMiddleMenuCheck"), "module.HUDMiddleMenuCheck") or installed
-    end
-    if type(environment) == "table" and environment ~= value then
-        installed = installStatisticsEverywhereTarget(environment, "environment") or installed
-        installed = installStatisticsEverywhereTarget(rawget(environment, "HUDMiddleMenuCheck"), "environment.HUDMiddleMenuCheck") or installed
-    end
-    return value
-end
-
-local function setStatisticsEverywhere(enabled)
+runtimeFixes.setStatisticsEverywhere = function(enabled)
     local loader = rawget(_G, "LOMModLoader")
     if loader == nil then
         loader = { Features = {} }
@@ -7972,12 +7938,51 @@ local function setStatisticsEverywhere(enabled)
     return loader.Features.StatisticsEverywhere
 end
 
-Loader.AfterLoad(
-    "Gameplay.LogicSystem.HUD.HUD_MiddleBtnContent.HUDMiddleMenuCheck",
-    installStatisticsEverywhere,
-    1000000,
-    "cpdd.runtime-fix.statistics-everywhere"
-)
+do
+    local function installStatisticsEverywhereTarget(target, label)
+        if type(target) ~= "table" then
+            return false
+        end
+        if rawget(target, "__cpddStatisticsEverywhereVersion") == VERSION then
+            return true
+        end
+
+        local original = rawget(target, "CheckSwitchMapStats")
+        if type(original) ~= "function" then
+            return false
+        end
+
+        target.CheckSwitchMapStats = function(...)
+            if runtimeFixes.statisticsEverywhereEnabled() then
+                return true
+            end
+            return original(...)
+        end
+        target.__cpddStatisticsEverywhereVersion = VERSION
+        report("installed Statistics button everywhere hook for " .. tostring(label))
+        return true
+    end
+
+    local function installStatisticsEverywhere(value, environment)
+        local installed = false
+        if type(value) == "table" then
+            installed = installStatisticsEverywhereTarget(value, "module") or installed
+            installed = installStatisticsEverywhereTarget(rawget(value, "HUDMiddleMenuCheck"), "module.HUDMiddleMenuCheck") or installed
+        end
+        if type(environment) == "table" and environment ~= value then
+            installed = installStatisticsEverywhereTarget(environment, "environment") or installed
+            installed = installStatisticsEverywhereTarget(rawget(environment, "HUDMiddleMenuCheck"), "environment.HUDMiddleMenuCheck") or installed
+        end
+        return value
+    end
+
+    Loader.AfterLoad(
+        "Gameplay.LogicSystem.HUD.HUD_MiddleBtnContent.HUDMiddleMenuCheck",
+        installStatisticsEverywhere,
+        1000000,
+        "cpdd.runtime-fix.statistics-everywhere"
+    )
+end
 
 Loader.On("after_main", function()
     -- Hooks apply immediately to already-loaded modules and through the loader
@@ -8003,17 +8008,13 @@ pcall(function()
             "Gameplay.LogicSystem.Chat.ChatModel",
         }) do
             Loader.AfterLoad(chatModelName, function(model)
-                if type(model) == "table" then
-                    for name, fn in pairs(model) do
-                        if type(fn) == "function" and (name:find("process") or name:find("Message") or name:find("format") or name:find("Format") or name:find("System")) then
-                            local orig = fn
-                            model[name] = function(...)
-                                local ok, res = pcall(orig, ...)
-                                if ok then return res end
-                                report("protected ChatModel." .. name .. " from crash: " .. tostring(res))
-                                return nil
-                            end
-                        end
+                if type(model) == "table" and type(model.processSystemTextMessage) == "function" then
+                    local originalProcess = model.processSystemTextMessage
+                    model.processSystemTextMessage = function(...)
+                        local ok, res = pcall(originalProcess, ...)
+                        if ok then return res end
+                        report("protected ChatModel.processSystemTextMessage from crash: " .. tostring(res))
+                        return nil
                     end
                 end
                 return model
@@ -8033,8 +8034,8 @@ return {
     IsRuntimeRowRepairEnabled = runtimeRowRepairEnabled,
     SetRuntimeUIRepair = setRuntimeUIRepair,
     IsRuntimeUIRepairEnabled = runtimeUIRepairEnabled,
-    SetStatisticsEverywhere = setStatisticsEverywhere,
-    IsStatisticsEverywhereEnabled = statisticsEverywhereEnabled,
+    SetStatisticsEverywhere = runtimeFixes.setStatisticsEverywhere,
+    IsStatisticsEverywhereEnabled = runtimeFixes.statisticsEverywhereEnabled,
     ResolveAuthoritativeAggregate = runtimeFixes.authoritativeAggregateLookup,
     PerformanceMetrics = runtimeMetrics,
     RepairPanel = function(component) return panelTextRepair:Repair(component, "manual") end,
