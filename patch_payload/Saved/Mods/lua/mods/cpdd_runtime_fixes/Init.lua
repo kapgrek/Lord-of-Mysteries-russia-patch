@@ -1109,6 +1109,108 @@ local function lookupGeminiText(value)
     return translated
 end
 
+local function hasCyrillic(str)
+    return type(str) == "string" and str:find("[\208-\209][\128-\191]") ~= nil
+end
+
+local function utf8Len(s)
+    if type(s) ~= "string" then return 0 end
+    local _, count = s:gsub("[^\128-\191]", "")
+    return count
+end
+
+local function lookupGeminiTextFuzzy(value)
+    if type(value) ~= "string" or value == "" then return nil end
+    local direct = lookupGeminiText(value)
+    if direct ~= nil then return direct end
+
+    -- 1. Trim leading and trailing whitespace / newlines
+    local leading, trimmed, trailing = value:match("^(%s*)(.-)(%s*)$")
+    if trimmed ~= "" and trimmed ~= value then
+        local t = lookupGeminiText(trimmed)
+        if t ~= nil then
+            return leading .. t .. trailing
+        end
+    end
+
+    -- 2. Outer RichText tags: e.g. <Highlight>Text</>, <Text.Red>Text</>
+    local openTag, tagInner, closeTag = value:match("^(<[^>]+>)(.-)(</>)$")
+    if openTag and tagInner and tagInner ~= "" then
+        local t = lookupGeminiTextFuzzy(tagInner)
+        if t ~= nil then
+            return openTag .. t .. closeTag
+        end
+    end
+
+    -- 3. Trailing punctuation: colons (: / ：), dashes (- / —), question marks (?), dots (...)
+    local stem, punct = value:match("^(.-)([:：%-%?%.]+)%s*$")
+    if stem and stem ~= "" and stem ~= value then
+        local t = lookupGeminiTextFuzzy(stem)
+        if t ~= nil then
+            return t .. punct
+        end
+    end
+
+    -- 4. Bracketed text: [Text], (Text), {Text}, 【Text】
+    local openBr, brInner, closeBr = value:match("^([%[%{%(【])(.-)([%]%}%)】])$")
+    if openBr and brInner and brInner ~= "" then
+        local t = lookupGeminiTextFuzzy(brInner)
+        if t ~= nil then
+            return openBr .. t .. closeBr
+        end
+    end
+
+    -- 5. Level patterns: "Level 15" -> "Уровень 15", "Lv. 10" -> "Ур. 10", "Lv: 5" -> "Ур: 5"
+    local lvlNum = value:match("^[Ll]evel%s*(%d+)$")
+    if lvlNum then return "Уровень " .. lvlNum end
+    local lvNum = value:match("^[Ll]v%.?%s*(%d+)$")
+    if lvNum then return "Ур. " .. lvNum end
+    local lvColonNum = value:match("^[Ll]v%.?[:：]%s*(%d+)$")
+    if lvColonNum then return "Ур: " .. lvColonNum end
+
+    return nil
+end
+
+local function reflowSingleLineToTwo(text, minChars)
+    minChars = minChars or 18
+    if type(text) ~= "string" or text:find("[\r\n]") then
+        return text
+    end
+    local plain = text:gsub("<[^>]+>", "")
+    if utf8Len(plain) < minChars then
+        return text
+    end
+
+    local mid = math.floor(#text / 2)
+    local bestPos = nil
+    local bestDist = 999999
+    local tagDepth = 0
+
+    for i = 1, #text do
+        local c = text:sub(i, i)
+        if c == "<" then
+            tagDepth = tagDepth + 1
+        elseif c == ">" then
+            tagDepth = math.max(0, tagDepth - 1)
+        elseif c == " " and tagDepth == 0 then
+            local dist = math.abs(i - mid)
+            if dist < bestDist then
+                bestDist = dist
+                bestPos = i
+            end
+        end
+    end
+
+    if bestPos and bestPos > 2 and bestPos < #text - 2 then
+        local p1 = text:sub(1, bestPos - 1)
+        local p2 = text:sub(bestPos + 1):match("^%s*(.-)$")
+        if p1 and p2 and #p1 > 0 and #p2 > 0 then
+            return p1 .. "\n" .. p2
+        end
+    end
+    return text
+end
+
 -- TextControlSentenceData uses #CanMove...# as executable puzzle markup, not
 -- decoration. Translate the visible word inside each marker, but never let a
 -- reviewed whole-string translation remove the marker or make it disagree
@@ -1513,7 +1615,7 @@ local function translateVisibleText(value)
         visibleTextCache[value] = questPasswordRestored
         return questPasswordRestored
     end
-    local gemini = lookupGeminiText(value)
+    local gemini = lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
         gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
@@ -1773,7 +1875,7 @@ local function translateVisibleText(value)
         return result
     end
 
-    local gemini = lookupGeminiText(value)
+    local gemini = lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
         gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
@@ -1796,13 +1898,24 @@ local function translateTextWidget(widget, discoveryContext)
         return 0
     end
 
+    local current = nil
     local getText = nil
     local methodOk = pcall(function() getText = widget.GetText end)
-    if not methodOk or type(getText) ~= "function" then
-        return 0
+    if methodOk and type(getText) == "function" then
+        local ok, val = pcall(getText, widget)
+        if ok and val ~= nil and val ~= "" then
+            current = val
+        end
     end
-    local ok, current = pcall(getText, widget)
-    if not ok or current == nil then
+    if current == nil or current == "" then
+        pcall(function()
+            local propVal = widget.Text
+            if propVal ~= nil and propVal ~= "" then
+                current = propVal
+            end
+        end)
+    end
+    if current == nil or current == "" then
         return 0
     end
 
@@ -1813,15 +1926,33 @@ local function translateTextWidget(widget, discoveryContext)
     end)
     local translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, currentText)
         or translateVisibleText(currentText)
+
+    -- Auto-wrap and reflow for Russian text length
+    local targetText = translated
+    if type(targetText) == "string" and hasCyrillic(targetText) then
+        targetText = reflowSingleLineToTwo(targetText, 18)
+    end
+
+    -- Enable auto wrap to prevent UI overflows on Russian text
+    pcall(function()
+        if widget.SetAutoWrapText ~= nil then
+            widget:SetAutoWrapText(true)
+        elseif widget.AutoWrapText ~= nil then
+            widget.AutoWrapText = true
+        end
+    end)
+
     local repairedCount = 0
-    if translated ~= currentText then
+    if targetText ~= currentText then
         local changed = pcall(function()
-            widget:SetText(translated)
+            if widget.SetText ~= nil then
+                widget:SetText(targetText)
+            end
         end)
-        -- KGTextBlock can repaint its serialized Text property after a
+        -- KGTextBlock / RichTextBlock can repaint its serialized Text property after a
         -- Blueprint state change. Keep the property and Slate value aligned.
         pcall(function()
-            widget.Text = translated
+            widget.Text = targetText
         end)
         pcall(function()
             if widget.SynchronizeProperties ~= nil then
@@ -1835,7 +1966,7 @@ local function translateTextWidget(widget, discoveryContext)
         end)
         repairedCount = changed and 1 or 0
     end
-        return repairedCount
+    return repairedCount
 end
 
 -- The reference translation runtime generates a global list of text-like
@@ -2354,7 +2485,7 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     -- value. Consult them before either cache: an earlier fragment repair may
     -- have cached a mixed result such as "你在做What?", which must never mask
     -- the reviewed whole-string translation on KSBC rows.
-    local geminiExact = lookupGeminiText(value)
+    local geminiExact = lookupGeminiTextFuzzy(value)
     if type(geminiExact) == "string" and geminiExact ~= ""
         and not hasCjk(geminiExact)
     then
@@ -2385,7 +2516,7 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     -- preserving user-created names verbatim.
     local speakerPrefix, spokenText = value:match("^([^:：]-[:：]%s*)(.+)$")
     if speakerPrefix ~= nil then
-        local exactSpoken = lookupGeminiText(spokenText)
+        local exactSpoken = lookupGeminiTextFuzzy(spokenText)
             or visibleTextExactOverrides[spokenText]
         if type(exactSpoken) == "string" and not hasCjk(exactSpoken) then
             local combined = translateVisibleText(speakerPrefix) .. exactSpoken
@@ -7867,16 +7998,22 @@ Loader.On("after_main", function()
 pcall(function()
     if type(Loader.AfterLoad) == "function" then
         for _, chatModelName in ipairs({
+            "Gameplay.LogicSystem.Chat.System.ChatModel",
             "Gameplay.LogicSystem.Chat.Model.ChatModel",
             "Gameplay.LogicSystem.Chat.ChatModel",
         }) do
             Loader.AfterLoad(chatModelName, function(model)
-                if type(model) == "table" and type(model.processSystemTextMessage) == "function" then
-                    local originalProcess = model.processSystemTextMessage
-                    model.processSystemTextMessage = function(...)
-                        local ok, res = pcall(originalProcess, ...)
-                        if ok then return res end
-                        return nil
+                if type(model) == "table" then
+                    for name, fn in pairs(model) do
+                        if type(fn) == "function" and (name:find("process") or name:find("Message") or name:find("format") or name:find("Format") or name:find("System")) then
+                            local orig = fn
+                            model[name] = function(...)
+                                local ok, res = pcall(orig, ...)
+                                if ok then return res end
+                                report("protected ChatModel." .. name .. " from crash: " .. tostring(res))
+                                return nil
+                            end
+                        end
                     end
                 end
                 return model

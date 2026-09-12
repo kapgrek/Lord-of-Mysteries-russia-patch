@@ -188,25 +188,28 @@ local function recordStringEncounter(context, originalText, translatedText)
     if eng then
         Stats.EnglishCount = Stats.EnglishCount + 1
 
-        -- Record unique English string
-        if not Stats.UniqueEnglishSeen[originalText] then
-            Stats.UniqueEnglishSeen[originalText] = {
-                count = 1,
-                context = context or "Unknown",
-                sample = originalText:sub(1, 120),
-                translated = (translatedText ~= originalText) and tostring(translatedText):sub(1, 120) or nil
-            }
-            Stats.UniqueEnglishCount = Stats.UniqueEnglishCount + 1
-            if Stats.UniqueEnglishCount <= 200 then
-                table.insert(Stats.UniqueEnglishList, originalText)
-                raw_log("ENGLISH_RAW", string.format("[ctx=%s] %s%s",
-                    context or "UI",
-                    originalText:sub(1, 100),
-                    (#originalText > 100 and "..." or "")
-                ))
+        local isRepaired = (translatedText ~= nil and translatedText ~= originalText and hasCyrillic(tostring(translatedText)))
+        if not isRepaired then
+            -- Record unique English string
+            if not Stats.UniqueEnglishSeen[originalText] then
+                Stats.UniqueEnglishSeen[originalText] = {
+                    count = 1,
+                    context = context or "Unknown",
+                    sample = originalText:sub(1, 120),
+                    translated = (translatedText ~= originalText) and tostring(translatedText):sub(1, 120) or nil
+                }
+                Stats.UniqueEnglishCount = Stats.UniqueEnglishCount + 1
+                if Stats.UniqueEnglishCount <= 200 then
+                    table.insert(Stats.UniqueEnglishList, originalText)
+                    raw_log("ENGLISH_RAW", string.format("[ctx=%s] %s%s",
+                        context or "UI",
+                        originalText:sub(1, 100),
+                        (#originalText > 100 and "..." or "")
+                    ))
+                end
+            else
+                Stats.UniqueEnglishSeen[originalText].count = Stats.UniqueEnglishSeen[originalText].count + 1
             end
-        else
-            Stats.UniqueEnglishSeen[originalText].count = Stats.UniqueEnglishSeen[originalText].count + 1
         end
     end
 end
