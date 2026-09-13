@@ -92,7 +92,7 @@ return {
     ["Defend against the enemies destroying the evidence for a period of time!"] = "Защищайтесь от врагов, уничтожающих улики в течение определенного периода времени!",
     ["2110进入告解室"] = "2110. Вход на исповедь",
     ["8进4"] = "Четвертьфиналы",
-    ["<Assistant_Title1>【观众】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "\\u003cAssistant_Title1\\u003e【Зритель】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eБазовая наклейка с эмоцией для витрины\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eНажмите \\u003cAssistant_System\\u003eВнешний вид — Витрина\\u003c/\\u003e, чтобы просмотреть и применить ее.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eРазблокировано по умолчанию",
+    ["<Assistant_Title1>【观众】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "<Assistant_Title1>【Зритель】</>\n<Assistant_Title2>Описание: </>Базовая наклейка с эмоцией для витрины\n<Assistant_Title2>Использование: </>Нажмите <Assistant_System>Внешний вид — Витрина</>, чтобы просмотреть и применить ее.\n<Assistant_Title2>Получение: </>Разблокировано по умолчанию",
     ["<Default>风尚等级：</><Highlight>%d级</>"] = "<Default> Уровень моды: </> <Highlight> %d Уровень </>",
     ["<P_Heart>（他们在敲诈那个老人？去帮帮忙吧！）</>"] = "<P_Heart>(Они шантажируют этого старика? Пойдем на помощь!) </>",
     ["<P_Heart>（但……普通人还是不要卷入这种非凡事件比较好。）</>"] = "<P_Heart>(Но... обычным людям лучше не вмешиваться в эти инциденты с Потусторонним.) </>",

@@ -57,7 +57,7 @@ return {
     ["Over-the-shoulder Angie"] = "Энджи через плечо",
     ["Original Work - Antigonus Notebook."] = "Оригинальная работа - Блокнот Антигона.",
     ["I heard you went to the Divination Club? Was it accurate?"] = "Я слышал, ты ходил в Клуб гадания? Было ли это точно?",
-    ["Use to unlock the exclusive dice settlement skin <Highlight> [Royal Glory] </>. \n Inherit the fate of glory and bathe in the favor of good luck."] = "Используйте, чтобы открыть эксклюзивный облик экрана броска костей \\u003cHighlight\\u003e【Королевская слава】\\u003c/\\u003e.\nУнаследуйте славную судьбу и купайтесь в лучах благосклонной удачи.",
+    ["Use to unlock the exclusive dice settlement skin <Highlight> [Royal Glory] </>. \n Inherit the fate of glory and bathe in the favor of good luck."] = "Используйте, чтобы открыть эксклюзивный облик экрана броска костей <Highlight>【Королевская слава】</>.\nУнаследуйте славную судьбу и купайтесь в лучах благосклонной удачи.",
     ["Those gentlemen sitting in carriages? Their lives are much easier!"] = "Эти господа сидят в каретах? Их жизнь стала намного проще!",
     ["Mysterious Animal Feed: Truffle Flavor"] = "Загадочный корм для животных: вкус трюфеля",
     ["Indeed, it can't fill his stomach either... let's go take a look."] = "Действительно, желудок ему тоже не набить... пойдем посмотрим.",

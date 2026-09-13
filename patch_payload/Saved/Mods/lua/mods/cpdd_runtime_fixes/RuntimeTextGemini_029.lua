@@ -163,7 +163,7 @@ return {
     ["Dragon Hunter... Ray Bieber?! Is he also a member of the Dragon Hunter Gang?"] = "Охотник на драконов... Рэй Бибер?! Он тоже член банды охотников на драконов?",
     ["Yes, {{Sir|Madam}}. There are always people who, out of jealousy or something else, slander other competitors. It's very common."] = "Да, {{Sir|Madam}}. Всегда находятся люди, которые из зависти или еще чего-то клевещут на других конкурентов. Это очень распространено.",
     ["Use to obtain <Highlight>Afternoon Coffee Top</>"] = "Используйте, чтобы получить <Highlight>Послеобеденный кофе </>.",
-    ["Are you sure you want to clear the area and start importing the selected template? \n<BrickRedLight>Note: Once cleared with one click, this action cannot be undone or reverted. Please proceed with caution! </>"] = "Очистить область и начать импорт выбранного шаблона?\n\\u003cBrickRedLight\\u003eВнимание: после полной очистки действие нельзя отменить или вернуть назад. Действуйте с осторожностью!\\u003c/\\u003e",
+    ["Are you sure you want to clear the area and start importing the selected template? \n<BrickRedLight>Note: Once cleared with one click, this action cannot be undone or reverted. Please proceed with caution! </>"] = "Очистить область и начать импорт выбранного шаблона?\n<BrickRedLight>Внимание: после полной очистки действие нельзя отменить или вернуть назад. Действуйте с осторожностью!</>",
     ["Abigail "] = "Эбигейл",
     ["Create Dummy"] = "Создать манекен",
     ["Resident 31"] = "Резидент bb",

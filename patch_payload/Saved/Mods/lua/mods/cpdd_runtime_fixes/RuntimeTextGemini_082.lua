@@ -175,7 +175,7 @@ return {
     ["Because the Roselle Drama Festival has started its promotion and ticket sales!"] = "Потому что фестиваль драмы Розель начал свою акцию и продажу билетов!",
     ["I still need to think about the composition."] = "Мне еще нужно подумать о составе.",
     ["Family level 7"] = "Семейный уровень b",
-    ["<DecH> Craft: </> Friendly Spirit World creature, a Meow-Meow Thief enlightened by \"Orange Light\" \n (Wiggles actively) (Crawls brightly and moderately) (Advances generously) \n (Drifts with the wind) (Light-footed) (Bathed in sunlight)"] = "\\u003cDecH\\u003eОтделка: \\u003c/\\u003eДружелюбное существо мира духов — Мяу-Вор, озаренный «Оранжевым Светом»\n(энергично извивается) (светло и чинно ползет) (гордо шагает вперед)\n(парит по ветру) (летящая походка) (греется в лучах солнца) ",
+    ["<DecH> Craft: </> Friendly Spirit World creature, a Meow-Meow Thief enlightened by \"Orange Light\" \n (Wiggles actively) (Crawls brightly and moderately) (Advances generously) \n (Drifts with the wind) (Light-footed) (Bathed in sunlight)"] = "<DecH>Отделка: </>Дружелюбное существо мира духов — Мяу-Вор, озаренный «Оранжевым Светом»\n(энергично извивается) (светло и чинно ползет) (гордо шагает вперед)\n(парит по ветру) (летящая походка) (греется в лучах солнца) ",
     ["Little Robert"] = "Маленький Роберт",
     ["Sparring duel"] = "Спарринг-дуэль",
     ["The club dungeon is full."] = "Подземелье клуба заполнено.",

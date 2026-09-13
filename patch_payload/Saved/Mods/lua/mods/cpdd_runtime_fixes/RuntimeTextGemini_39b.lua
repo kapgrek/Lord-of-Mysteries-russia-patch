@@ -82,7 +82,7 @@ return {
     ["Street - Golden Indus Avenue - Iron Cross Street Right Street"] = "Улица – проспект Золотой Инд – улица Айрон-Кросс Правая улица",
     ["Transfigured"] = "Преображенный",
     ["Grace of the Brass Book"] = "Благодать медной книги",
-    ["Golden Indus Avenue\r\n<LeonSubTitle size=\"38\">Golden Indus Avenue</>"] = "Проспект Золотого Платана\r\n\\u003cLeonSubTitle size=\"38\"\\u003eGolden Indus Avenue\\u003c/\\u003e",
+    ["Golden Indus Avenue\r\n<LeonSubTitle size=\"38\">Golden Indus Avenue</>"] = "Проспект Золотого Платана\r\n<LeonSubTitle size=\"38\">Golden Indus Avenue</>",
     ["Bei opening gaze point"] = "Бэй открывает точку взгляда",
     ["Anthea"] = "Антея",
     ["After a fierce battle with the servants, the mastermind behind the scenes unveiled their face—it's it! It's it! The fallen servants hideously repeated the word \"Mother\"."] = "После ожесточенной схватки со слугами закулисный вдохновитель раскрыл свое лицо — вот оно! Вот оно! Павшие слуги отвратительно повторяли слово «Мать».",

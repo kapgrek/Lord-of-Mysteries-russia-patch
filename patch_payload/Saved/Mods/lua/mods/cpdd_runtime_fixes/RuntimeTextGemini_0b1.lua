@@ -209,7 +209,7 @@ return {
     ["Just around the corner up ahead..."] = "Прямо за углом, впереди...",
     ["Shh! You dare say that..."] = "Тсс! Ты посмеешь сказать это...",
     ["Confessional · Flowchart 198 · A Few Days Later"] = "Исповедь · Блок-схема 198 · ​​Несколько дней спустя",
-    ["<Highlight> Craft: </> Camel Hair Fine Wool · Slim Cut · Theater Formal Wear \n The audience is always behind the scenes, quietly watching the cheers of all dramas, discerning the direction of all characters."] = "\\u003cHighlight\\u003eОтделка: \\u003c/\\u003eВерблюжье сукно · Приталенный крой · Театральный наряд\nЗритель всегда остается за кулисами, наблюдая за рукоплесканиями театральных драм и прозревая судьбы всех действующих лиц.",
+    ["<Highlight> Craft: </> Camel Hair Fine Wool · Slim Cut · Theater Formal Wear \n The audience is always behind the scenes, quietly watching the cheers of all dramas, discerning the direction of all characters."] = "<Highlight>Отделка: </>Верблюжье сукно · Приталенный крой · Театральный наряд\nЗритель всегда остается за кулисами, наблюдая за рукоплесканиями театральных драм и прозревая судьбы всех действующих лиц.",
     ["Sutton"] = "Саттон",
     ["Attack Percentage: Gold"] = "Процент атаки: золото",
     ["Competition Combat Phase"] = "Фаза соревновательного боя",

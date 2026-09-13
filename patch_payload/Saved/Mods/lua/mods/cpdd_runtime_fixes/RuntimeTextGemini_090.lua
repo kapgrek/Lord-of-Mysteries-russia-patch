@@ -201,7 +201,7 @@ return {
     ["The Person Chasing the Snowstorm - Rock"] = "Человек, преследующий метель - Рок",
     ["NPC hit and smoking."] = "NPC ударил и курит.",
     ["Aaron cursed: \"Yeah! Crazy woman! What does that have to do with you!\""] = "Аарон выругался: «Да! Сумасшедшая женщина! Какое это имеет к тебе отношение!»",
-    ["<Highlight>Craft: </>Plain Cotton and Linen/Simple and Elegant\nUndyed natural fabric, symbolizing the initial purity of the soul."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eОднотонный лён и хлопок · Скромное изящество\\u003c/\\u003e\nНеокрашенное натуральное полотно, символизирующее первозданную чистоту души.",
+    ["<Highlight>Craft: </>Plain Cotton and Linen/Simple and Elegant\nUndyed natural fabric, symbolizing the initial purity of the soul."] = "<Highlight>Мастерство: </><Highlight>Однотонный лён и хлопок · Скромное изящество</>\nНеокрашенное натуральное полотно, символизирующее первозданную чистоту души.",
     ["Train Transaction"] = "Поездная сделка",
     ["Edge of life and death? You haven't even stepped off the balcony! Come back now, or I'll come over and push you down!"] = "Грань жизни и смерти? Ты даже с балкона не сошел! Возвращайся сейчас же, или я приду и столкну тебя!",
     ["Emblem of Stars 2"] = "Эмблема Звезд 2",

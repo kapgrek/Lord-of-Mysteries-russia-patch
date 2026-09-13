@@ -196,7 +196,7 @@ return {
     ["Should have received a reply"] = "Должен был получить ответ",
     ["Whole Wheat Bread"] = "Цельнозерновой хлеб",
     ["Explosive Moment"] = "Взрывной момент",
-    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Emperor of Conquest in the Battle for the Throne of God. Below are your title rewards.</>"] = "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eВы достигли ранга «Император-завоеватель» в Битве за Божественный Трон. Ниже представлены награды за ваш титул.\\u003c/\\u003e",
+    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Emperor of Conquest in the Battle for the Throne of God. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы достигли ранга «Император-завоеватель» в Битве за Божественный Трон. Ниже представлены награды за ваш титул.</>",
     ["Frontline Fist Lesson: maximum Health +180."] = "Урок передового кулака: максимальное здоровье +180.",
     ["The Astrolabe User summons meteorites; <Disable> each player </> will attract one, which deals Explosion damage upon landing."] = "Пользователь Астролябии вызывает метеориты; <Disable> каждый игрок </> привлечет одного, который нанесет урон от взрыва при приземлении.",
     ["Use item at specified location (Type 17)"] = "Использовать предмет в указанном месте (Тип 17)",

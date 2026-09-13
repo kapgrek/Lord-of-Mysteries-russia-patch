@@ -74,7 +74,7 @@ return {
     ["Member count is full."] = "Количество участников заполнено.",
     ["Sit down Klein"] = "Садись, Клейн.",
     ["Alchemy Room"] = "Алхимическая комната",
-    ["<DecH> Craft: </> Baboon Fur · Exquisite Sewing \n A small, soft silver bag. (Very suitable for storing bananas!)"] = "\\u003cDecH\\u003eОтделка: \\u003c/\\u003eШерсть бабуина · Изящный пошив\nСеребристая пушистая сумочка. (Идеально подходит для хранения бананов!)",
+    ["<DecH> Craft: </> Baboon Fur · Exquisite Sewing \n A small, soft silver bag. (Very suitable for storing bananas!)"] = "<DecH>Отделка: </>Шерсть бабуина · Изящный пошив\nСеребристая пушистая сумочка. (Идеально подходит для хранения бананов!)",
     ["Chat with <h>Robin</>"] = "Пообщайтесь с <h>Robin</>",
     ["I'm just stating facts, Grandma."] = "Я просто констатирую факты, бабушка.",
     ["Powder Scattering - Top Left"] = "Рассеяние порошка — вверху слева",

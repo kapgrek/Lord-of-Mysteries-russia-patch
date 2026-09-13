@@ -29,7 +29,7 @@ return {
     ["But I heard these are hard to find."] = "Но я слышал, что их трудно найти.",
     ["General - God Descent Dragon - Weather Change"] = "Генерал - Божественный дракон - Изменение погоды",
     ["Faction type that cannot be attacked"] = "Тип фракции, которую нельзя атаковать",
-    ["<DecH>Crafting: </>Deep Black Leather - Power-Charging Light Armor\nSoft whispers and passionate punches can both complete an irresistible long sleep."] = "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eИссиня-чёрная кожа · Заряженная лёгкая броня\nКак тихий шёпот, так и яростный удар способны погрузить в неотразимый вечный сон.",
+    ["<DecH>Crafting: </>Deep Black Leather - Power-Charging Light Armor\nSoft whispers and passionate punches can both complete an irresistible long sleep."] = "<DecH>Мастерство: </>Иссиня-чёрная кожа · Заряженная лёгкая броня\nКак тихий шёпот, так и яростный удар способны погрузить в неотразимый вечный сон.",
     ["Yilin"] = "Илинь",
     ["Mysterious Treasure Chest - Locked State"] = "Таинственный сундук с сокровищами — закрытое состояние",
     ["Even just a glimpse of your smile is enough for me to savor for the entire day."] = "Мне достаточно даже одного взгляда на твою улыбку, чтобы насладиться ею на весь день.",

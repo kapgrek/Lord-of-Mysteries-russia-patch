@@ -38,7 +38,7 @@ return {
     ["A long, long time passed..."] = "Прошло много-много времени...",
     ["Terrifying threats, crimson hopes! At least one thing is true: this life flies by. One thing is true, the rest is lies, the flower that once has bloomed forever dies..."] = "Ужасающие угрозы, багряные надежды! По крайней мере одно верно: эта жизнь пролетает незаметно. Одно правда, остальное ложь, цветок, однажды распустившийся, навсегда умирает...",
     ["Sanity Value"] = "Рассудок Value",
-    ["<Assistant_Title1>I Have an Announcement</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Speak in the World Channel for the first time"] = "\\u003cAssistant_Title1\\u003eМинуточку внимания\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eОбщение — Чат с друзьями\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВпервые отправьте сообщение в мировой чат",
+    ["<Assistant_Title1>I Have an Announcement</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Speak in the World Channel for the first time"] = "<Assistant_Title1>Минуточку внимания</>\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\n<Assistant_Title2>Условие открытия: </>Впервые отправьте сообщение в мировой чат",
     ["Everyone, stop what you are doing"] = "Все, прекратите то, что вы делаете",
     ["Key of Mockery"] = "Ключ насмешки",
     ["My older brother"] = "Мой старший брат",

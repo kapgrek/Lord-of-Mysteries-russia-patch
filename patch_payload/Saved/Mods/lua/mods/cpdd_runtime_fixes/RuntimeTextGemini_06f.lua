@@ -173,7 +173,7 @@ return {
     ["Invitation bar"] = "Пригласительный бар",
     ["Obtain divination result"] = "Получить результат гадания",
     ["Gain Super Armor"] = "Получите суперброню",
-    ["<Assistant_Title1>Poet of Light and Shadow</>\n<Assistant_Title2>Achievement Category: </>Leisure - Fun\n<Assistant_Title2>Unlock Condition: </>Take a total of 500 photos"] = "\\u003cAssistant_Title1\\u003eПоэт света и тени\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eДосуг — Забавы\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eСделать в общей сложности 500 снимков",
+    ["<Assistant_Title1>Poet of Light and Shadow</>\n<Assistant_Title2>Achievement Category: </>Leisure - Fun\n<Assistant_Title2>Unlock Condition: </>Take a total of 500 photos"] = "<Assistant_Title1>Поэт света и тени</>\n<Assistant_Title2>Категория достижения: </>Досуг — Забавы\n<Assistant_Title2>Условие открытия: </>Сделать в общей сложности 500 снимков",
     ["Open to receive <Highlight>900</> Aggregation Factors."] = "Откройте для получения коэффициентов агрегации <Highlight>900</>.",
     ["Of course! It was so exciting. I didn't expect the old rich man, who is rumored to only like money and beauties, to be so agile that he could escape the police!"] = "Конечно! Это было так захватывающе. Я не ожидал, что старый богач, который, по слухам, любит только деньги и красоты, окажется настолько проворным, что сможет уйти от полиции!",
     ["Audience Seats - Ask Frye What to Do Specifically (Others)"] = "Места для зрителей – спросите Фрая, что конкретно делать (другие)",

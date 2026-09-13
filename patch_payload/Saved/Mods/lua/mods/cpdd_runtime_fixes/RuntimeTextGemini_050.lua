@@ -201,7 +201,7 @@ return {
     ["You don't understand my charm at all!"] = "Вы совершенно не понимаете моего обаяния!",
     ["Group deleted."] = "Группа удалена.",
     ["What about Tuesday?"] = "А как насчет вторника?",
-    ["<DecH> Craft: </> Plain Cotton and Linen - Simple and Elegant - Basic Undergarment \n Natural fabric without any dye, symbolizing the initial purity of the soul."] = "\\u003cDecH\\u003eОтделка: \\u003c/\\u003eПростой лен и хлопок · Скромность и изящество · Простое исподнее\nНатуральная неокрашенная ткань — символ первозданной чистоты души.",
+    ["<DecH> Craft: </> Plain Cotton and Linen - Simple and Elegant - Basic Undergarment \n Natural fabric without any dye, symbolizing the initial purity of the soul."] = "<DecH>Отделка: </>Простой лен и хлопок · Скромность и изящество · Простое исподнее\nНатуральная неокрашенная ткань — символ первозданной чистоты души.",
     ["Record InSights File Locally"] = "Запись файла InSights локально",
     ["Observe the trading location"] = "Соблюдайте торговое место",
     ["I wonder if there are any Beyonder cases to handle recently. Let's go back to Blackthorn and see."] = "I wonder if there are any Потусторонний cases to handle recently. Let's go back to Blackthorn and see.",

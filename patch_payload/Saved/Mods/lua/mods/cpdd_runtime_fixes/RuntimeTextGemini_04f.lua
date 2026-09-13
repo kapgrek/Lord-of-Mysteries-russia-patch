@@ -143,7 +143,7 @@ return {
     ["Find Dragon"] = "Найти Дракона",
     ["Are you sure you want to set the Club Hero?"] = "Вы уверены, что хотите установить Клубного героя?",
     ["Stall Owner 1"] = "Владелец ларька b",
-    ["<DecH>Craftsmanship: </>Academy Uniform\nOn the walls of the academy, moss and soil grow alternately in the gaps of the square bricks, one grid of green, one grid of brown."] = "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eФорма академии\nНа стенах академии мох и земля чередуются в швах между каменными кирпичами: плитка зелени, плитка глины.",
+    ["<DecH>Craftsmanship: </>Academy Uniform\nOn the walls of the academy, moss and soil grow alternately in the gaps of the square bricks, one grid of green, one grid of brown."] = "<DecH>Мастерство: </>Форма академии\nНа стенах академии мох и земля чередуются в швах между каменными кирпичами: плитка зелени, плитка глины.",
     ["In which direction does the truth lie..."] = "В какой стороне правда...",
     ["Welcome!"] = "Добро пожаловать!",
     ["Move aside, kid! Watch out, or my knife might cut you!"] = "Отойди в сторону, малыш! Берегись, иначе мой нож может тебя порезать!",

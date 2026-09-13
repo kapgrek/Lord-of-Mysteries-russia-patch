@@ -61,7 +61,7 @@ return {
     ["For a successful person like yourself, sir, have you ever thought about leaving some security for your family?"] = "Сэр, вы когда-нибудь задумывались о таком успешном человеке, как вы, о том, чтобы оставить хоть какую-то безопасность для своей семьи?",
     ["The Seed of Sighs has resonated with the will of the ancient battlefield, causing a powerful Extraordinary monster to appear ahead; please hunt it. (Tide Attack count: 3/3)"] = "Семя Вздохов нашло отклик в воле древнего поля битвы, заставив впереди появиться могущественного Необыкновенного монстра; пожалуйста, охотьтесь на него. (Количество атак прилива: 3/3)",
     ["5200045   奥黛丽   副本"] = "5200045 Подземелье: Одри",
-    ["<Assistant_Title1>光影诗人</>\n<Assistant_Title2>成就分类：</>休闲-趣味\n<Assistant_Title2>解锁条件：</>累计拍照500次"] = "\\u003cAssistant_Title1\\u003eПоэт света и тени\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eДосуг — Забавы\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eСделать в общей сложности 500 снимков",
+    ["<Assistant_Title1>光影诗人</>\n<Assistant_Title2>成就分类：</>休闲-趣味\n<Assistant_Title2>解锁条件：</>累计拍照500次"] = "<Assistant_Title1>Поэт света и тени</>\n<Assistant_Title2>Категория достижения: </>Досуг — Забавы\n<Assistant_Title2>Условие открытия: </>Сделать в общей сложности 500 снимков",
     ["<P_Heart>（仔细检查）</>货真价实，没有问题。"] = "<P_Heart>(Тщательно проверяю)</> Действительно, никаких проблем.",
     ["<P_Heart>（有了！既然他这么喜欢躺地上……就让他躺个够。 ）</>"] = "<P_Heart> (Понял! Раз он так любит лежать на земле... пусть врет, сколько душе угодно.) </>",
     ["<P_Heart>（看来，这是佐伊的记忆……）</>"] = "<P_Heart>(Кажется, это воспоминания Зои...)</>",

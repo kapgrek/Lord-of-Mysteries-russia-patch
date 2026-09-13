@@ -66,7 +66,7 @@ return {
     ["Card game street scene trigger"] = "Триггер уличной сцены карточной игры",
     ["Ouroboros will simultaneously assign a random fate effect to all players, Medici, and Alista, which are <Disable>Success</> and <Disable>Failure</>. If players attack an enemy with the same fate as themselves, they will take massive <Disable>reflected damage</>."] = "Уроборос одновременно назначит случайный эффект судьбы всем игрокам, Медичи и Алисте, то есть <Disable>Success</> и <Disable>Failure</>. Если игроки атакуют врага с такой же судьбой, как и они сами, они получат огромный отраженный урон <Disable></>.",
     ["That's how bumpkins are."] = "Вот такие деревенщины.",
-    ["But looking at the direction, he should have gone home. His family runs a <P_Yellow> winemaking </> business in the market, just follow the <P_Yellow> river embankment </> and you'll be there."] = "Но судя по направлению, он пошел к дому. Его семья держит \\u003cP_Yellow\\u003eвинодельню\\u003c/P_Yellow\\u003e на рынке — ступайте вдоль \\u003cP_Yellow\\u003eнабережной\\u003c/P_Yellow\\u003e, и как раз туда придете.",
+    ["But looking at the direction, he should have gone home. His family runs a <P_Yellow> winemaking </> business in the market, just follow the <P_Yellow> river embankment </> and you'll be there."] = "Но судя по направлению, он пошел к дому. Его семья держит <P_Yellow>винодельню</P_Yellow> на рынке — ступайте вдоль <P_Yellow>набережной</P_Yellow>, и как раз туда придете.",
     ["Treasure Chest 03"] = "Сундук с сокровищами bb",
     ["Drag the arrow to control the wind direction"] = "Перетащите стрелку, чтобы контролировать направление ветра",
     ["Daily Rewards"] = "Ежедневные награды",

@@ -45,7 +45,7 @@ return {
     ["Seer - Basic Attack Phase 4"] = "Провидец — базовая атака, фаза b",
     ["Th-this, I'll pack it up right away..."] = "Э-это, я сейчас соберу это...",
     ["Reasonable"] = "Разумный",
-    ["Increases the character's chance to block physical or magical damage. After blocking, the character only takes 30% damage, and this damage will not trigger a critical hit (Block Rate cannot exceed 75%).\n\nCharacter Physical Block: <Mark>1481</>\nCharacter Magical Block: <Mark>1481</>"] = "Повышает вероятность блокировать физический или магический урон. При успешном блоке персонаж получает лишь 30% урона, а заблокированный удар не может быть критическим (шанс блока не превышает 75%).\n\nФизический блок: \\u003cMark\\u003e1481\\u003c/\\u003e\nМагический блок: \\u003cMark\\u003e1481\\u003c/\\u003e",
+    ["Increases the character's chance to block physical or magical damage. After blocking, the character only takes 30% damage, and this damage will not trigger a critical hit (Block Rate cannot exceed 75%).\n\nCharacter Physical Block: <Mark>1481</>\nCharacter Magical Block: <Mark>1481</>"] = "Повышает вероятность блокировать физический или магический урон. При успешном блоке персонаж получает лишь 30% урона, а заблокированный удар не может быть критическим (шанс блока не превышает 75%).\n\nФизический блок: <Mark>1481</>\nМагический блок: <Mark>1481</>",
     ["Even if I don't, I can help you hunt it down."] = "Даже если нет, я могу помочь тебе его найти.",
     ["Bow Knight"] = "Лук Рыцарь",
     ["Divine Descent collection reward"] = "Награда за коллекцию Divine Descent",

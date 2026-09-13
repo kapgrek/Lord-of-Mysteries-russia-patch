@@ -147,7 +147,7 @@ return {
     ["Follow the <h>kitten</> to the lawn"] = "Следуйте за <h>kitten</> на лужайку.",
     ["Holy Flame Talisman"] = "Талисман Священного Пламени",
     ["The ranges of the two attacks will definitely not be the same. <Highlight>Observe the initial attack range prompt</> and move to dodge."] = "Дальность двух атак определенно не будет одинаковой. <Highlight>Соблюдайте начальную дальность атаки, подсказку </>, и двигайтесь, чтобы уклониться.",
-    ["<Assistant_Title1> Good People, Good Cats, Good Everyone </>\n<Assistant_Title2> Achievement Category: </> Story - Roaming \n<Assistant_Title2> Unlock Condition: </> Complete the Roaming quest \"Encounter in the Rain\""] = "\\u003cAssistant_Title1\\u003eЛюдям радость, котикам сладость\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения:\\u003c/\\u003e Сюжет — Странствия\n\\u003cAssistant_Title2\\u003eУсловие открытия:\\u003c/\\u003e Завершить задание странствий «Встреча под дождем»",
+    ["<Assistant_Title1> Good People, Good Cats, Good Everyone </>\n<Assistant_Title2> Achievement Category: </> Story - Roaming \n<Assistant_Title2> Unlock Condition: </> Complete the Roaming quest \"Encounter in the Rain\""] = "<Assistant_Title1>Людям радость, котикам сладость</>\n<Assistant_Title2>Категория достижения:</> Сюжет — Странствия\n<Assistant_Title2>Условие открытия:</> Завершить задание странствий «Встреча под дождем»",
     ["Klein, congratulations on finding a job."] = "Клейн, поздравляю с трудоустройством.",
     ["Righteous Pupil of the Scale"] = "Праведный ученик весов",
     ["Bridge 2 Air Wall B"] = "Мост 2 Воздушная стена B",

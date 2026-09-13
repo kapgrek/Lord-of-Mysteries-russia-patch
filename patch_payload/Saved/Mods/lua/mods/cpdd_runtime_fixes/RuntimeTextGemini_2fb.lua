@@ -78,7 +78,7 @@ return {
     ["Claimed %s/%s"] = "Заявлен %s/%s",
     ["Click to use <Orange>Warning Shot</>."] = "Нажмите, чтобы использовать <Orange>Предупреждающий выстрел</>.",
     ["Mesh - Box the boss sits on"] = "Сетка — ящик, на котором сидит босс.",
-    ["<Highlight>Crafting:</> Explorer's Outfit\nThe tracks stretch into the distance, tools clatter, and a railway journey interwoven with the sounds of steam and engines begins here."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eЭкипировка исследователя\nРельсы убегают вдаль, звенят инструменты — так начинается путешествие по железной дороге под гул моторов и свист пара.",
+    ["<Highlight>Crafting:</> Explorer's Outfit\nThe tracks stretch into the distance, tools clatter, and a railway journey interwoven with the sounds of steam and engines begins here."] = "<Highlight>Мастерство: </>Экипировка исследователя\nРельсы убегают вдаль, звенят инструменты — так начинается путешествие по железной дороге под гул моторов и свист пара.",
     ["Ask about <h>Carol's</> status"] = "Спросите о статусе <h>Кэрол в </>",
     ["An issue of the Tingen Honest Newspaper, sent along with a letter from Captain Frye after the investigation concluded."] = "Выпуск газеты Тинген Honest, отправленный вместе с письмом капитана Фрая после завершения расследования.",
     ["What a vivid heartbeat... how noisy."] = "Какое живое сердцебиение... какое шумное.",

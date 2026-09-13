@@ -204,7 +204,7 @@ return {
     ["What was that sound? It couldn't be <P_Yellow> rats </>, could it!"] = "Что это был за звук? Это не могли быть крысы <P_Yellow>, </>, не так ли!",
     ["Thank you for the compliment"] = "Спасибо за комплимент",
     ["Use to obtain <Highlight>Group Seven Uniform Top</>"] = "Используйте для получения <Highlight>Group Seven Uniform Top</>.",
-    ["<Highlight> Craft: </> Scarlet Brocade · Thorn Surround · Night Gown \n The night and scarlet are thorns entwined around the eternal life of the Kindred; dangerous, beautiful, and piercingly painful."] = "\\u003cHighlight\\u003eОтделка: \\u003c/\\u003eАлая парча · Терновое сплетение · Темное вечернее платье\nНочь и багрянец — словно шипы, обвившие вечную жизнь Сородичей: опасные, пленительные и причиняющие жгучую боль.",
+    ["<Highlight> Craft: </> Scarlet Brocade · Thorn Surround · Night Gown \n The night and scarlet are thorns entwined around the eternal life of the Kindred; dangerous, beautiful, and piercingly painful."] = "<Highlight>Отделка: </>Алая парча · Терновое сплетение · Темное вечернее платье\nНочь и багрянец — словно шипы, обвившие вечную жизнь Сородичей: опасные, пленительные и причиняющие жгучую боль.",
     ["I want to invite Melissa back for my birthday party, but I don't know if she's free."] = "Я хочу пригласить Мелиссу на вечеринку по случаю моего дня рождения, но не знаю, свободна ли она.",
     ["Railway Tycoon weekly earnings ranking entered national top 100 and single-game final performance reached 100,000."] = "Рейтинг еженедельных доходов Railway Tycoon вошел в сотню лучших в стране, а итоговые результаты в одной игре достигли 100 000.",
     ["Share damage from perpetrator"] = "Разделите ущерб от преступника",

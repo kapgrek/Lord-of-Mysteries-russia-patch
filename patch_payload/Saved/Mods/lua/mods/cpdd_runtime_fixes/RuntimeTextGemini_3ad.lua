@@ -88,7 +88,7 @@ return {
     ["Roselle Returns"] = "Розель возвращается",
     ["Auto-chess: Get panel information"] = "Автошахматы: получение информации о панели",
     ["Little Daly, little Daly, can you hear me?"] = "Маленький Дейли, маленький Дейли, ты меня слышишь?",
-    ["<M_Default>Dear Beyonder:</>\n<M_Default>The gift money you sent was not fully claimed. The unclaimed portion has been returned to you according to the gift money rules. Please collect it from the attachments in time.</>"] = "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eОтправленные вами подарочные деньги не были получены полностью. Невостребованная часть возвращена вам согласно правилам подарков. Пожалуйста, вовремя заберите её из вложений.\\u003c/\\u003e",
+    ["<M_Default>Dear Beyonder:</>\n<M_Default>The gift money you sent was not fully claimed. The unclaimed portion has been returned to you according to the gift money rules. Please collect it from the attachments in time.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Отправленные вами подарочные деньги не были получены полностью. Невостребованная часть возвращена вам согласно правилам подарков. Пожалуйста, вовремя заберите её из вложений.</>",
     ["Using Flame Jump 3 times deals massive damage to enemies within range."] = "Использование Flame Jump 3 раза наносит огромный урон врагам в радиусе действия.",
     ["By the way, that box of matches... I originally wanted to give it all to Jenny..."] = "Кстати, этот коробок спичек... Я изначально хотел отдать его Дженни...",
     ["Yes, a hug"] = "Да, обнимаю",

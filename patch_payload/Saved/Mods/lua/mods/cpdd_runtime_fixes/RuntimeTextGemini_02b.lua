@@ -231,7 +231,7 @@ return {
     ["Chat with the Master"] = "Пообщайтесь с Мастером",
     ["This wine bottle... is it calling for its mother?"] = "Эта бутылка вина... она зовет свою мать?",
     ["Golden Indus Avenue Bus Stop Sign"] = "Знак автобусной остановки Golden Indus Avenub",
-    ["Use to obtain <Highlight> Lily and Knight Set </> \n Can also be exchanged for <Highlight> 2 </> Divine Favor Cards"] = "Используйте, чтобы получить \\u003cHighlight\\u003eкомплект «Ландыш и рыцарь»\\u003c/\\u003e\nТакже можно обменять на \\u003cHighlight\\u003e2\\u003c/\\u003e карты божественной благодати",
+    ["Use to obtain <Highlight> Lily and Knight Set </> \n Can also be exchanged for <Highlight> 2 </> Divine Favor Cards"] = "Используйте, чтобы получить <Highlight>комплект «Ландыш и рыцарь»</>\nТакже можно обменять на <Highlight>2</> карты божественной благодати",
     ["A heart that is still beating, captured from the corpse of a Dream Catcher. Its fascia is wrapped in countless condensed dream sediments, presenting an unnaturally gorgeous color."] = "Сердце, которое все еще бьется, извлечено из трупа Ловца снов. Его фасция покрыта бесчисленными сгустками сновидений, представляя неестественно великолепный цвет.",
     ["It's over... It's all over..."] = "Все кончено... Все кончено...",
     ["Haman"] = "Аман",

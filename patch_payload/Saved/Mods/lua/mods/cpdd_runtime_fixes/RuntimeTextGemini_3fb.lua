@@ -44,7 +44,7 @@ return {
     ["But that place is our entire life, our entire history."] = "Но это место – вся наша жизнь, вся наша история.",
     ["Three million pounds? Heh!"] = "Три миллиона фунтов? Хе!",
     ["Really? Isn't that a god you made up? Can the God of Rabbits really handle stealing food?!"] = "Действительно? Разве это не бог, которого ты выдумал? Сможет ли Бог Кроликов справиться с воровством еды?!",
-    ["<Highlight>Craft: </>Precision Forged White Iron · Handmade\nA heartless iron face, an irresistible fate. \nRepeated acquisition will automatically decompose into Bound Pounds ×100."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eКованое белое железо · Ручная работа\\u003c/\\u003e\nБессердечная железная маска, неотвратимая судьба.\nПри повторном получении автоматически разбирается на привязанные золотые фунты ×100.",
+    ["<Highlight>Craft: </>Precision Forged White Iron · Handmade\nA heartless iron face, an irresistible fate. \nRepeated acquisition will automatically decompose into Bound Pounds ×100."] = "<Highlight>Мастерство: </><Highlight>Кованое белое железо · Ручная работа</>\nБессердечная железная маска, неотвратимая судьба.\nПри повторном получении автоматически разбирается на привязанные золотые фунты ×100.",
     ["Enable Fog"] = "Включить туман",
     ["Friend, you figured it out so quickly."] = "Друг, ты так быстро все понял.",
     ["Justice Burn"] = "Правосудие Берн",

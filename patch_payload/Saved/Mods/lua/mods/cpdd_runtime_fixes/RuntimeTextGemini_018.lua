@@ -150,7 +150,7 @@ return {
     ["Do not come closer!"] = "Не подходи ближе!",
     ["Reaction 4 - Left - Invisible Monster"] = "Реакция 4 — Слева — Невидимый монстр",
     ["Gameplay Token"] = "Жетон игрового процесса",
-    ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote! \n"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n\\u003cMark id=\"#159_R\"\\u003eСамые низкие цены\\u003c/\\u003e во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
+    ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote! \n"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["Historical Epoch Dialogue"] = "Диалог исторических эпох",
     ["Invited back to Blackthorn for coffee, you hear that there was once a pale green spring in Old Neil's life."] = "Когда вас снова приглашают в Чёрный Чертополох на кофе, вы слышите, что когда-то в жизни Старины Нила была бледно-зеленая весна.",
     ["Edit Appearance"] = "Редактировать внешний вид",

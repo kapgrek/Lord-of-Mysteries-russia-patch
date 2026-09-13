@@ -127,7 +127,11 @@ public class FastShardCompiler {
                 .Replace(@"\\", @"\")
                 .Replace(@"\r", "\r")
                 .Replace(@"\n", "\n")
-                .Replace(@"\t", "\t");
+                .Replace(@"\t", "\t")
+                .Replace(@"\u003c", "<")
+                .Replace(@"\u003e", ">")
+                .Replace(@"\u0027", "'")
+                .Replace(@"\u0026", "&");
     }
 
     private static string EscapeLua(string s) {

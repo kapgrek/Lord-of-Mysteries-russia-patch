@@ -60,7 +60,7 @@ return {
     ["If you see him, please tell him I miss him very much."] = "Если вы его увидите, пожалуйста, скажите ему, что я очень по нему скучаю.",
     ["Reach level 70 in Acting"] = "Достигните 70-го уровня в актерском мастерстве.",
     ["Level 7"] = "Уровень 7",
-    ["<DecH> Craft: </> Fungal Network Back Ornament \n A mad existence upon the sea; strange and varied life forms are born under leather gloves, and every plant is his \"child,\" taking root in experiments."] = "\\u003cDecH\\u003eРемесло: \\u003c/\\u003e\\u003cAssistant_Property2\\u003eНаспинное украшение «Грибница»\\u003c/\\u003e\nБезумное создание из глубин океана: под кожаными перчатками рождаются причудливые формы жизни, и каждое растение — его «дитя», пускающее корни в ходе экспериментов.",
+    ["<DecH> Craft: </> Fungal Network Back Ornament \n A mad existence upon the sea; strange and varied life forms are born under leather gloves, and every plant is his \"child,\" taking root in experiments."] = "<DecH>Ремесло: </><Assistant_Property2>Наспинное украшение «Грибница»</>\nБезумное создание из глубин океана: под кожаными перчатками рождаются причудливые формы жизни, и каждое растение — его «дитя», пускающее корни в ходе экспериментов.",
     ["Encouraging"] = "Поощрение",
     ["Dispatch 4 orange marionettes"] = "Отправьте 4 оранжевые марионетки.",
     ["Stay calm and do not lose tactical judgment when angry."] = "Сохраняйте спокойствие и не теряйте тактического суждения, когда злитесь.",

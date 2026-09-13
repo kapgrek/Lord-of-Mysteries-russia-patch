@@ -29,7 +29,7 @@ return {
     ["What is that over by the clothes rack?"] = "Что это там, возле вешалки для одежды?",
     ["Play Dialogue: Player triggers the time-passing animation"] = "Воспроизведение диалога: игрок запускает анимацию течения времени.",
     ["Take the book from <h>Old Neil</>"] = "Возьмите книгу у <h>Старина Нил</>.",
-    ["Placeholder Text<Description>Placeholder Text</>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text<Description>Placeholder Text</>Placeholder Text Placeholder Text Placeholder Text"] = "Текст-плейсхолдер \\u003cDescription\\u003eТекст-плейсхолдер\\u003c/\\u003e Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер \\u003cDescription\\u003eТекст-плейсхолдер\\u003c/\\u003e Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер",
+    ["Placeholder Text<Description>Placeholder Text</>Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text Placeholder Text<Description>Placeholder Text</>Placeholder Text Placeholder Text Placeholder Text"] = "Текст-плейсхолдер <Description>Текст-плейсхолдер</> Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер <Description>Текст-плейсхолдер</> Текст-плейсхолдер Текст-плейсхолдер Текст-плейсхолдер",
     ["Don't hurt her, don't scare her. The Nightingale is a good bird, the Nightingale's song is beautiful!"] = "Не делайте ей больно, не пугайте ее. Соловей – добрая птица, песня соловья прекрасна!",
     ["Final Hunt · Reaching the Peak"] = "Последняя охота · Достижение вершины",
     ["Naraka: Bladepoint"] = "Нарака: Острие клинка",

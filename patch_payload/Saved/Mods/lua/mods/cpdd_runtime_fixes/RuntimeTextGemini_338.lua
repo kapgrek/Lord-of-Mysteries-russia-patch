@@ -79,7 +79,7 @@ return {
     ["Whether it's being a thug when you're out or a bodyguard to protect your home, they are all very reliable choices!"] = "Будь то бандит, когда вы находитесь вне дома, или телохранитель, защищающий ваш дом, все это очень надежный выбор!",
     ["Where did the fruits go? ...Wait, is someone screaming?"] = "Куда пропали фрукты?...Подождите, кто-то кричит?",
     ["How did you do it? There are six months left on the lease. Moving out early is a breach of contract. If we were taken to court, we'd have to pay a huge sum."] = "Как вы это сделали? До аренды осталось полгода. Досрочный выезд является нарушением договора. Если бы нас подали в суд, нам пришлось бы заплатить огромную сумму.",
-    ["<Assistant_Title1>Containment Legend</>\n<Assistant_Title2>Achievement Category: </>Growth - Equipment\n<Assistant_Title2>Unlock Condition: </>Equip 3 Imprinted items"] = "\\u003cAssistant_Title1\\u003eЛегенда сдерживания\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Снаряжение\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eЭкипируйте 3 предмета снаряжения с клеймом",
+    ["<Assistant_Title1>Containment Legend</>\n<Assistant_Title2>Achievement Category: </>Growth - Equipment\n<Assistant_Title2>Unlock Condition: </>Equip 3 Imprinted items"] = "<Assistant_Title1>Легенда сдерживания</>\n<Assistant_Title2>Категория достижения: </>Развитие — Снаряжение\n<Assistant_Title2>Условие получения: </>Экипируйте 3 предмета снаряжения с клеймом",
     ["Consume Vitality to dance and earn rewards."] = "Потребляйте жизненную силу, чтобы танцевать и получать награды.",
     ["Area 2"] = "Зона b",
     ["Why is it foggy? I can't even see the road clearly."] = "Почему туманно? Я даже дорогу ясно не вижу.",

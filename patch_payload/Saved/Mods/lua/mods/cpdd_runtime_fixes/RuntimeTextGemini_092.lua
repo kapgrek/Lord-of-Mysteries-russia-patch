@@ -156,7 +156,7 @@ return {
     ["During Spirit Shaping skill, the main body targets player 2 to apply this buff"] = "Во время использования навыка Spirit Shaping основное тело нацеливается на игрока 2, чтобы применить этот положительный эффект.",
     ["<P_Heart>(A bit tired... I'll go to the lounge and have something to drink.)</>"] = "<P_Heart>(Немного устал... Пойду в гостиную и выпью.)</>",
     ["Kinmen County"] = "Уезд Цзиньмэнь",
-    ["<Highlight>Craft: </>Wild Draping Satin · Golden Lion Emblem · Dance Drama Costume\nAria white blooms among the skirt hems, and recitative gold surges beneath the cloak; behind the curtain, they compose an endless epic."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eНиспадающий атлас · Эмблема золотого льва · Костюм для балета\nБелизна арии расцветает в подоле платья, золото речитатива вздымается под плащом; под сенью кулис они слагают нескончаемую великолепную оду.",
+    ["<Highlight>Craft: </>Wild Draping Satin · Golden Lion Emblem · Dance Drama Costume\nAria white blooms among the skirt hems, and recitative gold surges beneath the cloak; behind the curtain, they compose an endless epic."] = "<Highlight>Мастерство: </>Ниспадающий атлас · Эмблема золотого льва · Костюм для балета\nБелизна арии расцветает в подоле платья, золото речитатива вздымается под плащом; под сенью кулис они слагают нескончаемую великолепную оду.",
     ["Connection Chat Topic - Daly 2"] = "Тема чата подключения — Дейли b",
     ["Demon Invisibility"] = "Демон Невидимость",
     ["Flowchart start wipe interface quest monitoring"] = "Блок-схема запуска мониторинга квеста очистки интерфейса",

@@ -212,7 +212,7 @@ return {
     ["Damn, that thief wasn't lying this time? I can't believe it..."] = "Блин, этот вор на этот раз не лгал? Я не могу в это поверить...",
     ["Gift Giving"] = "Подарки",
     ["<P_Heart> (looking up) </> Let's sit for a while; it's rare for Tingen to have such good weather."] = "<P_Heart> (глядя вверх) </> Давай посидим немного; в Тингене редко бывает такая хорошая погода.",
-    ["Blackthorn Security Company\r\n<LeonSubTitle size=\"22\">Blackthorn Security Company</>"] = "Охранная компания «Черный терновник»\r\n\\u003cLeonSubTitle size=\"22\"\\u003eBlackthorn Security Company\\u003c/\\u003e",
+    ["Blackthorn Security Company\r\n<LeonSubTitle size=\"22\">Blackthorn Security Company</>"] = "Охранная компания «Черный терновник»\r\n<LeonSubTitle size=\"22\">Blackthorn Security Company</>",
     ["Irritable voice"] = "Раздражающий голос",
     ["Dance Partner Match Sub-Buff"] = "Дополнительное усиление «Танцевальный матч с партнером»",
     ["Only the Club President can respond to a declaration of war!"] = "На объявление войны может ответить только Президент Клуба!",

@@ -188,7 +188,7 @@ return {
     ["Seal negative effects"] = "Запечатывание негативных эффектов",
     ["[Balanced Book]"] = "[Сбалансированная книга]",
     ["Divination - Acting"] = "Гадание - Актерское мастерство",
-    ["<Assistant_Title1>Critical Strike</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Conquest\n<Assistant_Title2>Unlock Condition: </>Kill a Guard occupier in the Four-Way League"] = "\\u003cAssistant_Title1\\u003eРешающий удар\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eВойна питает войну — Завоевание\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eУбейте стража захвата в Битве четырёх сторон",
+    ["<Assistant_Title1>Critical Strike</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Conquest\n<Assistant_Title2>Unlock Condition: </>Kill a Guard occupier in the Four-Way League"] = "<Assistant_Title1>Решающий удар</>\n<Assistant_Title2>Категория достижения: </>Война питает войну — Завоевание\n<Assistant_Title2>Условие открытия: </>Убейте стража захвата в Битве четырёх сторон",
     ["Steam roars, mist surges. Walk into Tingen City and embark on your own extraordinary path."] = "Ревет пар, клубится туман. Отправляйтесь в Тинген-Сити и отправляйтесь на свой необыкновенный путь.",
     ["...Thank you for listening, break time is over, I have to continue playing."] = "...Спасибо, что выслушали, перерыв закончился, мне нужно продолжать играть.",
     ["Recruitment Filter"] = "Фильтр подбора персонала",

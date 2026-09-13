@@ -193,7 +193,7 @@ return {
     ["Holy Light Purification-AOE Damage"] = "Очищение священного света — урон по площади",
     ["5230176 Kitchen Plane"] = "5230176 Измерение: Кухня",
     ["Should I try—the 'Gou' trio first?"] = "Стоит ли мне попробовать сначала трио «Гоу»?",
-    ["The missing person may have entered the \"Mirror Realm\".\r\nReciting the incantation can also allow entry—\r\n<Red size=\"32\">With the torrent of the era, knock open the Mirror Realm</>"] = "Возможно, пропавшие попали в «Зазеркальное царство».\r\nТуда также можно войти, произнеся заклинание:\r\n\\u003cRed size=\"32\"\\u003eПотоком эпохи                 распахни царство в зеркале\\u003c/\\u003e",
+    ["The missing person may have entered the \"Mirror Realm\".\r\nReciting the incantation can also allow entry—\r\n<Red size=\"32\">With the torrent of the era, knock open the Mirror Realm</>"] = "Возможно, пропавшие попали в «Зазеркальное царство».\r\nТуда также можно войти, произнеся заклинание:\r\n<Red size=\"32\">Потоком эпохи                 распахни царство в зеркале</>",
     ["Consciousness Shock II"] = "Шок сознания II",
     ["Performance Area 2"] = "Область деятельности b",
     ["I would be very happy to."] = "Я был бы очень рад.",

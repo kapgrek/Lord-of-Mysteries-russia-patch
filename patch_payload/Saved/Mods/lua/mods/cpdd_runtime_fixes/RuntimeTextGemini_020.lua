@@ -185,7 +185,7 @@ return {
     ["But Bacon still hasn't gained much weight, has he?"] = "Но Бэкон все еще не сильно набрал вес, не так ли?",
     ["Spirit Body Worker"] = "Работник Духовного Тела",
     ["Misha"] = "Миша",
-    ["<Highlight>Craft: </>Plain White Linen/Tea-colored Pleated Skirt/Simple Bow Tie\nSupporting the sky of the Moretti family with young shoulders, maintaining decency and dignity amidst poverty."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eПростой белый лён · Коричневая плиссированная юбка · Лаконичный бант\nЮными плечами удерживая небо над семьёй Моретти, сохраняя благородство и достоинство среди бедноты.",
+    ["<Highlight>Craft: </>Plain White Linen/Tea-colored Pleated Skirt/Simple Bow Tie\nSupporting the sky of the Moretti family with young shoulders, maintaining decency and dignity amidst poverty."] = "<Highlight>Мастерство: </>Простой белый лён · Коричневая плиссированная юбка · Лаконичный бант\nЮными плечами удерживая небо над семьёй Моретти, сохраняя благородство и достоинство среди бедноты.",
     ["Lagdo Roaming Point"] = "Роуминг-пункт Лагдо",
     ["That was a gift he gave me, it's right at my door. How, how did you know?"] = "Это был подарок, который он мне сделал, он прямо у моей двери. Как, как ты узнал?",
     ["Code copied successfully!"] = "Код успешно скопирован!",

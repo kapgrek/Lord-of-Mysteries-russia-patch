@@ -169,7 +169,7 @@ return {
     ["Social: Look Around"] = "Социальное: оглянитесь вокруг",
     ["That's right, the gestation of the evil god's offspring has not stopped."] = "Правильно, вынашивание потомства злого бога не прекратилось.",
     ["Close notebook gathering"] = "Закрыть сбор блокнотов",
-    ["<DecH>Craft: </>Precision-Forged White Iron & Handcrafted\nA heartless iron mask, an inescapable fate."] = "\\u003cDecH\\u003eМастерство: \\u003c/\\u003e\\u003cDecH\\u003eКованое белое железо · Ручная работа\\u003c/\\u003e\nБессердечная железная маска, неотвратимая судьба.",
+    ["<DecH>Craft: </>Precision-Forged White Iron & Handcrafted\nA heartless iron mask, an inescapable fate."] = "<DecH>Мастерство: </><DecH>Кованое белое железо · Ручная работа</>\nБессердечная железная маска, неотвратимая судьба.",
     ["Teleport 4"] = "Телепорт b",
     ["The cover says... Special Personnel Observation Report?"] = "На обложке написано... Отчет о наблюдениях специального персонала?",
     ["Oh, I'm so glad to see a living person here. Do you know which direction the Golden Autumn Lake station is in?"] = "Ох, как я рада видеть здесь живого человека. Знаете ли вы, в каком направлении находится станция «Озеро Золотая Осень»?",

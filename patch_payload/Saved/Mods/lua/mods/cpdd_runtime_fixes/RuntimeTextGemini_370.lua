@@ -61,7 +61,7 @@ return {
     ["Restriction Type Enum"] = "Перечисление типов ограничений",
     ["Thank you so much, kind {{Mr.|Ms.}}, if you see it, please be sure to tell me."] = "Спасибо огромное, добрый {{Mr.|Ms.}}, если увидишь, обязательно скажи.",
     ["I also smelled bergamot and... rosemary?"] = "Еще я почувствовал запах бергамота и... розмарина?",
-    ["<Assistant_Title1>Gate of Mid-Sequence</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Advance to Sequence 7"] = "\\u003cAssistant_Title1\\u003eВрата средних Последовательностей\\u003c/Assistant_Title1\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/Assistant_Title2\\u003eРазвитие — Рост\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/Assistant_Title2\\u003eПродвиньтесь до Последовательности 7",
+    ["<Assistant_Title1>Gate of Mid-Sequence</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Advance to Sequence 7"] = "<Assistant_Title1>Врата средних Последовательностей</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Развитие — Рост\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Продвиньтесь до Последовательности 7",
     ["Shining Star"] = "Сияющая звезда",
     ["The six people saved by Mr. Azik were an accident in the murderer's plan."] = "Шесть человек, спасенных господином Азиком, были случайностью в плане убийцы.",
     [" \n \n The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "\n\n　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",

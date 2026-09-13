@@ -177,7 +177,7 @@ return {
     ["Zero"] = "Ноль",
     ["Follow Nara to the Golden Autumn Lake pumpkin patch"] = "Следуйте за Нарой к тыквенной грядке у озера Золотой Осени.",
     ["Set Up Ritual Magic"] = "Настройте ритуальную магию",
-    ["<Highlight>Craft: </>Platinum Inlay/Translucent Blue Gem\nClosing your eyes opens up a new vision. The truth illuminated by the blue pupils lies just ahead."] = "\\u003cHighlight\\u003eМастерство: \\u003c/Highlight\\u003eПлатиновая оправа · Полупрозрачный голубой драгоценный камень\nЗакрыв глаза, обретаешь новое видение. Истина, озаренная лазурным взором, уже совсем рядом.",
+    ["<Highlight>Craft: </>Platinum Inlay/Translucent Blue Gem\nClosing your eyes opens up a new vision. The truth illuminated by the blue pupils lies just ahead."] = "<Highlight>Мастерство: </Highlight>Платиновая оправа · Полупрозрачный голубой драгоценный камень\nЗакрыв глаза, обретаешь новое видение. Истина, озаренная лазурным взором, уже совсем рядом.",
     ["Ivor"] = "Айвор",
     ["Melee single-target damage."] = "Ближний урон по одиночной цели.",
     ["About May Manor..."] = "О Мэй Мэнор...",

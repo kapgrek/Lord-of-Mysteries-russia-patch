@@ -74,7 +74,7 @@ return {
     ["General connections available for mailing today: %s letters"] = "Общие соединения доступны для рассылки сегодня: письма %s",
     ["Join <h>Blackthorn Security Company</>"] = "Присоединяйтесь к <h>Охранная компания «Чёрный Чертополох»</>",
     ["Page of Swords"] = "Паж Мечей",
-    ["<Assistant_Title1>Marionette Dominator</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Clear Antigonus Notebook on Normal difficulty"] = "\\u003cAssistant_Title1\\u003eПовелитель нитей\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПройдите подземелье «Заметки семьи Антигон» на обычном уровне сложности",
+    ["<Assistant_Title1>Marionette Dominator</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Clear Antigonus Notebook on Normal difficulty"] = "<Assistant_Title1>Повелитель нитей</>\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\n<Assistant_Title2>Условие открытия: </>Пройдите подземелье «Заметки семьи Антигон» на обычном уровне сложности",
     ["Sleep Hit"] = "Усыпляющий хит",
     ["Silk Cotton Textile Mill Level 11"] = "Шелково-хлопчатобумажная фабрика, уровень 11",
     ["Replaceable"] = "Сменный",

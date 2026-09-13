@@ -77,7 +77,7 @@ return {
     ["Finally, I can take a break. Let me see... what else is written in the book..."] = "Наконец-то я могу сделать перерыв. Дай-ка посмотреть... что еще написано в книге...",
     ["Father Thomas is suspicious; he appeared too coincidentally throughout the whole event and was overly enthusiastic."] = "Отец Томас подозрителен; он появлялся слишком случайно на протяжении всего мероприятия и был слишком полон энтузиазма.",
     ["……He got up from the ground, the “Curse” can be considered lifted, right?"] = "……Он поднялся с земли, «Проклятие» можно считать снятым, верно?",
-    ["<M_Default>Dear Beyonder:</>\nYou participated in the matching phase of the Phantom of the Opera. Your final total score is %s, and the corresponding rewards have been automatically sent to your mailbox."] = "\\u003cM_Default\\u003eУважаемый Потусторонний:\\u003c/\\u003e\nВы приняли участие в этапе подбора образов события «Призрак оперы». Ваша итоговая оценка стиля: %s. Соответствующие награды автоматически отправлены на вашу игровую почту.",
+    ["<M_Default>Dear Beyonder:</>\nYou participated in the matching phase of the Phantom of the Opera. Your final total score is %s, and the corresponding rewards have been automatically sent to your mailbox."] = "<M_Default>Уважаемый Потусторонний:</>\nВы приняли участие в этапе подбора образов события «Призрак оперы». Ваша итоговая оценка стиля: %s. Соответствующие награды автоматически отправлены на вашу игровую почту.",
     ["Filter Target"] = "Фильтровать цель",
     ["My best friend always told me that too."] = "Мой лучший друг тоже всегда мне это говорил.",
     ["Poorhouse notice"] = "Уведомление о богадельне",

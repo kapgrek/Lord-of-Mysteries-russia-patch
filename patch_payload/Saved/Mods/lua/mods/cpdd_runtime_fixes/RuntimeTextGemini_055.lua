@@ -218,7 +218,7 @@ return {
     ["Clear_Player bots in this scene"] = "Боты Clear_Player в этой сцене",
     ["Placing..."] = "Размещение...",
     ["5231127 Tingen Single-Player Instance"] = "5231127 Одиночное измерение: Тинген",
-    ["Olsna Street\r\n<LeonSubTitle size=\"38\">Osna Street</>"] = "Улица Олсна\r\n\\u003cLeonSubTitle size=\"38\"\\u003eOsna Street\\u003c/\\u003e",
+    ["Olsna Street\r\n<LeonSubTitle size=\"38\">Osna Street</>"] = "Улица Олсна\r\n<LeonSubTitle size=\"38\">Osna Street</>",
     ["Bonnie: The mirror is broken. My power, my revenge, it's all over..."] = "Бонни: Зеркало разбито. Моя сила, моя месть, все кончено...",
     ["Tidy Upper Bunk"] = "аккуратная верхняя койка",
     ["Processing failed; please try again later."] = "Обработка не удалась; пожалуйста, попробуйте еще раз позже.",

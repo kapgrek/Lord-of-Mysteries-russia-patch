@@ -35,7 +35,7 @@ return {
     ["1 Stamina restored after <Highlight>%s</>, use items to restore stamina quickly"] = "1 выносливость восстанавливается после <Highlight>%s</>, используйте предметы для быстрого восстановления выносливости.",
     ["Flower Seller"] = "Продавец цветов",
     ["Force stop dialogue without camera focus"] = "Принудительно остановить диалог без фокусировки камеры",
-    ["Look around the clinic \n<h> a few unsent letters </>"] = "Осмотреться в клинике\n\\u003ch\\u003eНесколько неотправленных писем\\u003c/\\u003e",
+    ["Look around the clinic \n<h> a few unsent letters </>"] = "Осмотреться в клинике\n<h>Несколько неотправленных писем</>",
     ["A few strands of deep red hair, surprisingly warm in the palm of your hand."] = "Несколько прядей темно-рыжих волос, удивительно теплых на ладони.",
     ["This... this is nothing, being afraid of bugs is human nature..."] = "Это... это пустяки, бояться жуков - это человеческая природа...",
     ["One-click Dispatch"] = "Отправка в один клик",

@@ -168,7 +168,7 @@ return {
     ["Look right"] = "Посмотрите направо",
     ["Mom..."] = "Мама...",
     ["Physical Defense_Extra Bonus"] = "Физическая защита_Дополнительный бонус",
-    ["<M_Default>Dear Beyonder:</>\n<M_Default>Your inventory does not have enough space, or the items you are claiming exceed the maximum holding limit. We have temporarily stored some items that could not be claimed in your mailbox. Please clear your inventory before claiming them from the attachments.</>"] = "\\u003cM_Default\\u003eДорогой Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eВ вашей сумке недостаточно свободного места либо получаемые предметы превышают лимит владения. Непоместившиеся предметы были временно отправлены вам на почту. Пожалуйста, освободите место в сумке и заберите вложения из письма.\\u003c/\\u003e",
+    ["<M_Default>Dear Beyonder:</>\n<M_Default>Your inventory does not have enough space, or the items you are claiming exceed the maximum holding limit. We have temporarily stored some items that could not be claimed in your mailbox. Please clear your inventory before claiming them from the attachments.</>"] = "<M_Default>Дорогой Потусторонний!</>\n<M_Default>В вашей сумке недостаточно свободного места либо получаемые предметы превышают лимит владения. Непоместившиеся предметы были временно отправлены вам на почту. Пожалуйста, освободите место в сумке и заберите вложения из письма.</>",
     ["Worker 2"] = "Рабочий b",
     ["Yolande, please help me out..."] = "Иоланда, пожалуйста, помоги мне...",
     ["Okay, I will go to blockade the Central Plaza to prevent anyone else from approaching with a copper mirror."] = "Ладно, пойду блокировать Центральную площадь, чтобы не допустить, чтобы кто-нибудь еще приблизился с медным зеркалом.",

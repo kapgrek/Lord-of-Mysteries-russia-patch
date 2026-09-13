@@ -86,7 +86,7 @@ return {
     ["My Conquest Prestige"] = "Мой престиж завоеваний",
     ["This key only supports combination keys."] = "Эта клавиша поддерживает только комбинации клавиш.",
     ["I'm different; they're all idiots!"] = "Я другой; они все идиоты!",
-    ["<Assistant_Title1>【Darkness】</>\n<Assistant_Title2>Description: </>Default display stand scene\n<Assistant_Title2>Usage: </>You can click <Assistant_System>Appearance - Display Stand</> to view and use it.\n<Assistant_Title2>Acquisition: </>Unlocked by default."] = "\\u003cAssistant_Title1\\u003e【Тьма】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eБазовая сцена для витрины\n\\u003cAssistant_Title2\\u003eПрименение: \\u003c/\\u003eМожно просмотреть и применить в меню \\u003cAssistant_System\\u003eОблик — Витрина\\u003c/\\u003e.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eРазблокировано по умолчанию",
+    ["<Assistant_Title1>【Darkness】</>\n<Assistant_Title2>Description: </>Default display stand scene\n<Assistant_Title2>Usage: </>You can click <Assistant_System>Appearance - Display Stand</> to view and use it.\n<Assistant_Title2>Acquisition: </>Unlocked by default."] = "<Assistant_Title1>【Тьма】</>\n<Assistant_Title2>Описание: </>Базовая сцена для витрины\n<Assistant_Title2>Применение: </>Можно просмотреть и применить в меню <Assistant_System>Облик — Витрина</>.\n<Assistant_Title2>Получение: </>Разблокировано по умолчанию",
     ["I'm so sad... no, I'm so happy."] = "Мне так грустно... нет, я так счастлива.",
     ["Orange Amulet 75"] = "Оранжевый амулет bb",
     ["Use to obtain <Highlight>White Cliff Winter Night Hair Accessory</>"] = "Используйте, чтобы получить <Highlight>Аксессуар для волос White Cliff Winter Night</>",

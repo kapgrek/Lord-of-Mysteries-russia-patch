@@ -184,7 +184,7 @@ return {
     ["静态-花车"] = "Статический — плавающий",
     ["黄色的"] = "Желтый",
     ["Brazier - Blue Fire"] = "Жаровня - Синий огонь",
-    ["Affixes in the Imprisonment Box will not appear during reshaping \n. Additionally, each reshape <Highlight> consumes extra </><Img tex2d=\"%s\"/> <Highlight>x %d</>"] = "При перековке свойства из Тёмного ящика заточения не появятся.\nКроме того, каждая перековка \\u003cHighlight\\u003eдополнительно расходует\\u003c/\\u003e\\u003cImg tex2d=\"%s\"/\\u003e \\u003cHighlight\\u003e× %d\\u003c/\\u003e.",
+    ["Affixes in the Imprisonment Box will not appear during reshaping \n. Additionally, each reshape <Highlight> consumes extra </><Img tex2d=\"%s\"/> <Highlight>x %d</>"] = "При перековке свойства из Тёмного ящика заточения не появятся.\nКроме того, каждая перековка <Highlight>дополнительно расходует</><Img tex2d=\"%s\"/> <Highlight>× %d</>.",
     ["You must be hidden in the darkness to open the Eye Chest."] = "Вы должны спрятаться в темноте, чтобы открыть Сундук с Глазами.",
     ["Tarot - Axe Knight Unique"] = "Таро - Уникальный Рыцарь Топора",
     ["+2% Attack per stack, max 15 stacks"] = "+2% атаки за стак, максимум 15 стаков",

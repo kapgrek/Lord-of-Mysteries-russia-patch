@@ -238,7 +238,7 @@ return {
     ["Smart Visibility"] = "Умная видимость",
     ["Seraphina"] = "Серафина",
     [" Small fry, small fry~オチンチンがぽっきできでない small fry, small fry~ your body is so weak~"] = "Мелкая рыбешка, мелкая рыбешка~オチンチンがぽっきできでない мелкая рыбешка, мелкая рыбешка~ твое тело такое слабое~",
-    ["<Highlight>Craftsmanship: </>Gilded Weaving, Emerald Inlay, & Gold-threaded Attire\nThe brilliant golden light interweaves with the clear radiance of emeralds, light and shadow floating, chanting a silent hymn."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eЗолочёная нить · Россыпь изумрудов · Златотканое платье\nСверкающее золото переплетается с чистым изумрудным сиянием, и струящийся свет слагает безмолвный гимн.",
+    ["<Highlight>Craftsmanship: </>Gilded Weaving, Emerald Inlay, & Gold-threaded Attire\nThe brilliant golden light interweaves with the clear radiance of emeralds, light and shadow floating, chanting a silent hymn."] = "<Highlight>Мастерство: </>Золочёная нить · Россыпь изумрудов · Златотканое платье\nСверкающее золото переплетается с чистым изумрудным сиянием, и струящийся свет слагает безмолвный гимн.",
     ["Villager D"] = "Житель деревни Д",
     ["Among the Beyonder incidents handled by the Nighthawks and other similar judicial organizations every year, one-fourth are <P_Yellow>loss of control by Beyonders</>."] = "Среди инцидентов Потусторонний, ежегодно рассматриваемых «Ночными ястребами» и другими подобными судебными организациями, четверть приходится на <P_Yellow>потерю контроля со стороны Потусторонние</>.",
     ["2000 Gold Coins"] = "2000 золотых монет",

@@ -205,7 +205,7 @@ return {
     ["<P_Heart>(This guy...)</>"] = "<P_Heart>(Этот парень...)</>",
     ["Current Saved Routine"] = "Текущая сохраненная программа",
     ["[Sea of Flowers Variety] Mistake in the Flower Field"] = "[Море цветов] Ошибка на цветочном поле",
-    ["<Assistant_Title1>Safe Escort</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Successfully escort the carriage on Normal difficulty"] = "\\u003cAssistant_Title1\\u003eБезопасное сопровождение\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eУспешно сопроводите повозку на обычном уровне сложности",
+    ["<Assistant_Title1>Safe Escort</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Successfully escort the carriage on Normal difficulty"] = "<Assistant_Title1>Безопасное сопровождение</>\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\n<Assistant_Title2>Условие получения: </>Успешно сопроводите повозку на обычном уровне сложности",
     ["Linda"] = "Линда",
     ["6-12 Players"] = "6-12 игроков",
     ["A party member does not meet the level requirement."] = "Член партии не соответствует требованиям по уровню.",

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "120000",
     "source_cn": "同上\\n（是魔狼的特殊机制，要打开背包使用魔狼给的道具）",
@@ -3255,7 +3255,7 @@
     "id": "120542",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86021010\" color=\"#f4a067\">洞察</>伤害基础值提高40%，易伤持续时间降低为8秒，易伤效果提高5%。",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86021010\" color=\"#f4a067\"> Insight </> base damage increased by 40%, Vulnerability duration reduced to 8 seconds, and Vulnerability effect increased by 5%.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86021010\" color=\"#f4a067\"> Insight Базовый урон </> увеличен на 40%, длительность уязвимости уменьшена до 8 секунд, а эффект уязвимости увеличен на 5%."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86021010\" color=\"#f4a067\">Проницательность</>: базовый урон увеличен на 40%, длительность уязвимости уменьшена до 8 секунд, а эффект уязвимости увеличен на 5%."
   },
   {
     "id": "120543",

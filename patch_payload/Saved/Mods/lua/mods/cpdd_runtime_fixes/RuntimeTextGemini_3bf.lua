@@ -79,7 +79,7 @@ return {
     ["Laverty, a young girl who passed away in 1349 due to inhaling excessive dust at a lead factory."] = "Лаверти, молодая девушка, скончавшаяся в 1349 году из-за того, что надышалась пылью на свинцовом заводе.",
     ["Hammer Strike"] = "Удар молотом",
     ["The limit for rejected works has been reached; please process them before uploading more."] = "Достигнут лимит отклоненных работ; пожалуйста, обработайте их, прежде чем загружать больше.",
-    ["Are you sure you want to exit the Dominator's Clash? \n<BrickRedLight> Exiting the scene without being Dead will result in an exit penalty </>"] = "Вы действительно хотите покинуть «Битву Владык»?\n\\u003cBrickRedLight\\u003eВыход с арены живым повлечет за собой штраф\\u003c/\\u003e",
+    ["Are you sure you want to exit the Dominator's Clash? \n<BrickRedLight> Exiting the scene without being Dead will result in an exit penalty </>"] = "Вы действительно хотите покинуть «Битву Владык»?\n<BrickRedLight>Выход с арены живым повлечет за собой штраф</>",
     ["Leave Warehouse"] = "Покинуть склад",
     ["Praise Miracle"] = "Хвала чуду",
     ["This train came from Backlund, it's packed with stuff, surely we can dig up something interesting!"] = "Этот поезд прибыл из Баклунда, он набит вещами, наверняка мы сможем откопать что-нибудь интересное!",

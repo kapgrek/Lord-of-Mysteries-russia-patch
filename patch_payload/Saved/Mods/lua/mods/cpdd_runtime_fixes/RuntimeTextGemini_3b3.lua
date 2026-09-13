@@ -83,7 +83,7 @@ return {
     ["Can be changed in 7 days"] = "Можно поменять за 7 дней.",
     ["Background Story"] = "Предыстория",
     ["Activate level 7 Club shop items"] = "Активировать предметы Клубного магазина 7 уровня",
-    ["<Assistant_Title1> Orderly Citizen </>\n<Assistant_Title2> Achievement Category: </> Plot - Reality Main Story \n<Assistant_Title2> Unlock Condition: </> Wait in line to buy a ticket in the Chapter 5 Reality Main Story (Mutually exclusive with Let Me Go First)"] = "\\u003cAssistant_Title1\\u003eЗаконопослушный гражданин\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003e\nСюжет — Основной сюжет реальности\n\\u003cAssistant_Title2\\u003eУсловие разблокировки: \\u003c/\\u003e\nОтстоять очередь за билетом в главе 5 основного сюжета реальности (исключает достижение «Пропустите меня вперёд»)",
+    ["<Assistant_Title1> Orderly Citizen </>\n<Assistant_Title2> Achievement Category: </> Plot - Reality Main Story \n<Assistant_Title2> Unlock Condition: </> Wait in line to buy a ticket in the Chapter 5 Reality Main Story (Mutually exclusive with Let Me Go First)"] = "<Assistant_Title1>Законопослушный гражданин</>\n<Assistant_Title2>Категория достижения: </>\nСюжет — Основной сюжет реальности\n<Assistant_Title2>Условие разблокировки: </>\nОтстоять очередь за билетом в главе 5 основного сюжета реальности (исключает достижение «Пропустите меня вперёд»)",
     ["Equip Placeholder Text Placeholder"] = "[Заглушка]",
     ["It's this carriage, hurry and follow it!"] = "Это карета, поспешите за ней!",
     ["Achievement: Tingen Dance King"] = "Достижение: Король танца Тинген",

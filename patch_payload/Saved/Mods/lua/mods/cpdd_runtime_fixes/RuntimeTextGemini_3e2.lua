@@ -35,7 +35,7 @@ return {
     ["Althea "] = "Алтея",
     ["Sigh, I've been thinking lately that perhaps retiring early like Captain Swain and finding a stable job would be a better choice."] = "Эх, в последнее время я подумал, что, возможно, лучше уйти на пенсию раньше, чем капитан Суэйн, и найти стабильную работу.",
     ["The <PVPHighlight> Giant Dragon - Projection </> has collapsed! Our team worked together to repel it and successfully secured the final auction reward for this round <PVPHighlight> belonging to </>!"] = "Гигантский дракон <PVPHighlight> — проекция </> рухнула! Наша команда работала вместе, чтобы отразить его, и успешно получила финальную награду аукциона за этот раунд <PVPHighlight>, принадлежащую </>!",
-    ["Use to unlock the exclusive dice settlement skin <Highlight> [Touch of Good Luck] </>. \n The moment spirituality is touched, it always brings good luck; bet everything boldly."] = "При использовании открывает эксклюзивный облик броска костей \\u003cHighlight\\u003e【Прикосновение удачи】\\u003c/\\u003e.\nВ миг, когда откликается духовность, всегда приходит удача — смело ставьте на кон всё!",
+    ["Use to unlock the exclusive dice settlement skin <Highlight> [Touch of Good Luck] </>. \n The moment spirituality is touched, it always brings good luck; bet everything boldly."] = "При использовании открывает эксклюзивный облик броска костей <Highlight>【Прикосновение удачи】</>.\nВ миг, когда откликается духовность, всегда приходит удача — смело ставьте на кон всё!",
     ["Memory fragments collected:"] = "Собраны фрагменты воспоминаний:",
     ["Substitute Super Armor"] = "Заменить Суперброню",
     ["Sell it. I've already found a buyer, Welch."] = "Продайте это. Я уже нашел покупателя, Уэлч.",

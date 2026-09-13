@@ -76,7 +76,7 @@ return {
     ["Previous step"] = "Предыдущий шаг",
     ["Don't nag! I'm almost reaching it... just a little bit more!"] = "Не ворчите! Я почти достиг цели... еще немного!",
     ["\"Everyone will... including me.\" \n The moment you saw this sentence, you woke up from your dream with a start."] = "«Все умрут... включая меня».\nВ тот миг, когда эти слова предстали пред вами, вы в ужасе пробудились от сна.",
-    ["<Highlight> Craft: </> Tailored Fit \n A poem sung with heart does not necessarily need rhymes, and a short shirt tailored with heart does not necessarily possess ornate carvings."] = "\\u003cHighlight\\u003eОтделка: \\u003c/\\u003eИндивидуальный пошив\nСтих, спетый от самого сердца, не всегда нуждается в рифме, а рубаха, сшитая с душой, не обязана блистать пышной отделкой.",
+    ["<Highlight> Craft: </> Tailored Fit \n A poem sung with heart does not necessarily need rhymes, and a short shirt tailored with heart does not necessarily possess ornate carvings."] = "<Highlight>Отделка: </>Индивидуальный пошив\nСтих, спетый от самого сердца, не всегда нуждается в рифме, а рубаха, сшитая с душой, не обязана блистать пышной отделкой.",
     ["But you are not a good diviner."] = "Но ты плохой предсказатель.",
     ["Impact!"] = "Влияние!",
     ["Use specified item"] = "Использовать указанный элемент",

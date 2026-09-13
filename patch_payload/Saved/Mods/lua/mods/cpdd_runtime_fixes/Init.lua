@@ -5752,7 +5752,7 @@ end
 runtimeFixes.repairSkillUpgradeTipsLabels = function(self)
     local view = self and self.view
     local root = self and (self.userWidget or self.widget)
-    runtimeFixes.setPanelWidgetText(self, "Text_Title_2", "Next-Level Effect")
+    runtimeFixes.setPanelWidgetText(self, "Text_Title_2", "Эффект след. уровня")
     runtimeFixes.translateNamedContainers(view, root, {
         "VB_Content", "SizeBox_Content", "ScrollBox_Content",
     })

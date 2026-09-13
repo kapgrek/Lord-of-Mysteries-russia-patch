@@ -196,7 +196,7 @@ return {
     ["A Star of Stars that has recorded battle-breaking slash abilities."] = "Звезда Звезд, обладающая разрушительными рубящими способностями.",
     ["Rainy Night Stealth"] = "Дождливая ночь Стелс",
     ["Raid Dungeon Reward Explanation"] = "Объяснение наград в рейдовых подземельях",
-    ["Text text text text text <DarkHighlight>text text text</> text text text text text text text text text"] = "Текст текст текст текст текст \\u003cDarkHighlight\\u003eтекст текст\\u003c/\\u003e текст текст текст текст текст текст текст текст текст",
+    ["Text text text text text <DarkHighlight>text text text</> text text text text text text text text text"] = "Текст текст текст текст текст <DarkHighlight>текст текст</> текст текст текст текст текст текст текст текст текст",
     ["James"] = "Джеймс",
     ["How much new Bread did Mom tell me to buy?"] = "Сколько нового хлеба мама сказала мне купить?",
     ["<P_Heart> (Ah, that amulet is glowing!) </>"] = "<P_Heart> (Ах, этот амулет светится!) </>",

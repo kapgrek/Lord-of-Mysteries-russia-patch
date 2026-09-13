@@ -192,7 +192,7 @@ return {
     ["Nothing happened"] = "Ничего не произошло",
     ["This interface is about to be deleted. Do not use it! @zhaojunjie"] = "Этот интерфейс скоро будет удален. Не используйте его! @zhaojunjib",
     ["Family system not unlocked."] = "Семейная система не разблокирована.",
-    ["<Assistant_Title1>See You in Spring</>\n<Assistant_Title2>Achievement Category: </>Plot - Side Quest\n<Assistant_Title2>Unlock Condition: </>Complete the side quest \"The Piano Sounds Gentle Tonight\"."] = "\\u003cAssistant_Title1\\u003eДо встречи весной\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eСюжет — Побочные задания\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eЗавершите побочное задание «Сегодня ночью звуки пианино так нежны».",
+    ["<Assistant_Title1>See You in Spring</>\n<Assistant_Title2>Achievement Category: </>Plot - Side Quest\n<Assistant_Title2>Unlock Condition: </>Complete the side quest \"The Piano Sounds Gentle Tonight\"."] = "<Assistant_Title1>До встречи весной</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Побочные задания\n<Assistant_Title2>Условие открытия: </>Завершите побочное задание «Сегодня ночью звуки пианино так нежны».",
     ["Plumpness"] = "пухлость",
     ["This member has already left the club."] = "Этот участник уже покинул клуб.",
     ["After use, restore 1 point of caravan stamina in the Trade War gameplay."] = "После использования восстановите 1 очко выносливости каравана в игровом процессе Торговой войны.",

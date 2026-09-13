@@ -238,7 +238,7 @@ return {
     ["Hobson"] = "Хобсон",
     ["(Congratulations, Professor Miller, it seems you have found a better way.)"] = "(Поздравляю, профессор Миллер, кажется, вы нашли лучший способ.)",
     ["Arrive at the sewer pipe"] = "Доберитесь до канализационной трубы.",
-    ["[Turning Control] <Quality_3>Normal</>\n [Vehicle Speed] <Quality_3>Level 1</>\n<Dark> The initial masterpiece of the Tingen Manufacturing Bureau, symbolizing the starting point and establishment of this brand, capable of withstanding the test of all history—a true foundational work.</>"] = "【Управляемость в поворотах】\\u003cQuality_3\\u003eОбычная\\u003c/\\u003e\n【Скорость транспорта】\\u003cQuality_3\\u003e1-й ур.\\u003c/\\u003e\n\\u003cDark\\u003eПервый шедевр Тингенского мануфактурного бюро, ознаменовавший зарождение марки. С лёгкостью выдерживает испытание временем — истинная классика, заложившая основы бренда.\\u003c/\\u003e",
+    ["[Turning Control] <Quality_3>Normal</>\n [Vehicle Speed] <Quality_3>Level 1</>\n<Dark> The initial masterpiece of the Tingen Manufacturing Bureau, symbolizing the starting point and establishment of this brand, capable of withstanding the test of all history—a true foundational work.</>"] = "【Управляемость в поворотах】<Quality_3>Обычная</>\n【Скорость транспорта】<Quality_3>1-й ур.</>\n<Dark>Первый шедевр Тингенского мануфактурного бюро, ознаменовавший зарождение марки. С лёгкостью выдерживает испытание временем — истинная классика, заложившая основы бренда.</>",
     ["Good idea, count me in."] = "Хорошая идея, примите меня в расчет.",
     ["Not playing anymore."] = "Больше не играю.",
     ["I understand, thank you."] = "Я понимаю, спасибо.",

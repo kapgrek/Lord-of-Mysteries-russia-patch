@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "035000",
     "source_cn": "手指松开取消发送",
@@ -345,7 +345,7 @@
     "id": "035057",
     "source_cn": "《我最喜欢的事情》\\n我最喜欢在上课的时候闭上眼睛，因为很舒服。眼睛前面<Hide id=\"#157\">甲</>黑乎乎的，耳朵里面也黑乎乎的。\\n拉夫老师说，起来！上课不许睡觉。\\n原来我最喜欢的事情是上课<Hide id=\"#157\">睡</>垂觉。",
     "ref_en": "《My Favorite Thing》 \\n I like to close my eyes during class because it's comfortable. In front of my eyes <Hide id=\"#157\"> A </> it's pitch black, and inside my ears it's pitch black too. \\n Teacher Ralph says, \"Get up! No sleeping in class.\" \\n So my favorite thing is <Hide id=\"#157\"> sleep </> ing in class.",
-    "target_ru": "《Моё любимое занятие》\\nБольше всего я люблю закрывать глаза на уроках, потому что это очень приятно. Перед глазами \\u003cHide id=\"#157\"\\u003eА\\u003c/\\u003e темнота, и в ушах тоже темнота.\\nУчитель Ральф говорит: «Вставай! На уроках спать нельзя».\\nОказывается, моё самое любимое занятие — \\u003cHide id=\"#157\"\\u003eспать\\u003c/\\u003e на уроках."
+    "target_ru": "《Моё любимое занятие》\\nБольше всего я люблю закрывать глаза на уроках, потому что это очень приятно. Перед глазами <Hide id=\"#157\">А</> темнота, и в ушах тоже темнота.\\nУчитель Ральф говорит: «Вставай! На уроках спать нельзя».\\nОказывается, моё самое любимое занятие — <Hide id=\"#157\">спать</> на уроках."
   },
   {
     "id": "035058",
@@ -1107,19 +1107,19 @@
     "id": "035184",
     "source_cn": "<Assistant_Title1>【人脉好感】</>\\n<Assistant_Title2>玩法说明：</>各位非凡者可以通过消耗<Assistant_Red>【漫忆请柬】</>道具，邀请自己拥有的人脉完成漫步、邀约、共舞或者书信往来等4种互动并且获得对应人脉的好感度。每日首次与人脉互动不消耗邀请券（书信往来首次互动也需要消耗邀请券），所有人脉共享该免费次数。与同一人脉进行同一类型互动并邀请券后，当日内再次进行该类型互动将不再消耗邀请券，也不再获得好感度。\\n<Assistant_Title2>解锁方式：</>扮演等级达到<Assistant_Red>45级</>。\\n<Assistant_Title2>查看方式：</>按F11进入人脉界面，选中对应人脉后，点击右上角提升好感即可进入人脉好感度界面。\\n<Assistant_Title2>玩法奖励</>：记忆珍匣、发票收据、认知经验等",
     "ref_en": "<Assistant_Title1>【Connection Favorability】</>\\n<Assistant_Title2>Gameplay Instructions: </>Every Beyonder can consume <Assistant_Red>【Memory Invitation】</> items to invite their connections to complete 4 types of interactions: Strolling, Appointment, Dancing, or Correspondence, and gain corresponding favorability. The first interaction with a connection each day does not consume an invitation (Correspondence also requires an invitation for the first interaction); all connections share this free attempt. After interacting with the same connection in the same way and using an invitation, subsequent interactions of that type within the same day will not consume invitations nor grant favorability. \\n<Assistant_Title2>Unlock Method: </>Reach <Assistant_Red>Acting Level 45</>. \\n<Assistant_Title2>How to View: </>Press F11 to enter the Connections interface, select the corresponding connection, and click \"Increase Favorability\" in the top right corner to enter the Connection Favorability interface. \\n<Assistant_Title2>Gameplay Rewards</>: Memory Box, Invoice Receipt, Cognition EXP, etc.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Благосклонность связей】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eПравила: \\u003c/\\u003eКаждый Потусторонний может расходовать предметы \\u003cAssistant_Red\\u003e【Приглашение воспоминаний】\\u003c/\\u003e, чтобы пригласить своих знакомых к 4 видам взаимодействий: Прогулка, Свидание, Танец или Переписка, повышая благосклонность соответствующей связи. Первое взаимодействие со связью в день не расходует приглашений (для первого взаимодействия по переписке также требуется приглашение); эта бесплатная попытка общая для всех связей. После взаимодействия определённого типа с одной связью с расходом приглашения повторные взаимодействия этого типа в тот же день не будут расходовать приглашения и приносить благосклонность.\\n\\u003cAssistant_Title2\\u003eКак открыть: \\u003c/\\u003eДостигните \\u003cAssistant_Red\\u003e45-го уровня\\u003c/\\u003e лицедейства.\\n\\u003cAssistant_Title2\\u003eГде посмотреть: \\u003c/\\u003eНажмите F11, чтобы открыть меню Связей, выберите нужного персонажа и нажмите «Повысить благосклонность» в правом верхнем углу.\\n\\u003cAssistant_Title2\\u003eНаграды: \\u003c/\\u003eШкатулка воспоминаний, Счета-квитанции, Опыт познания и др."
+    "target_ru": "<Assistant_Title1>【Благосклонность связей】</>\\n<Assistant_Title2>Правила: </>Каждый Потусторонний может расходовать предметы <Assistant_Red>【Приглашение воспоминаний】</>, чтобы пригласить своих знакомых к 4 видам взаимодействий: Прогулка, Свидание, Танец или Переписка, повышая благосклонность соответствующей связи. Первое взаимодействие со связью в день не расходует приглашений (для первого взаимодействия по переписке также требуется приглашение); эта бесплатная попытка общая для всех связей. После взаимодействия определённого типа с одной связью с расходом приглашения повторные взаимодействия этого типа в тот же день не будут расходовать приглашения и приносить благосклонность.\\n<Assistant_Title2>Как открыть: </>Достигните <Assistant_Red>45-го уровня</> лицедейства.\\n<Assistant_Title2>Где посмотреть: </>Нажмите F11, чтобы открыть меню Связей, выберите нужного персонажа и нажмите «Повысить благосклонность» в правом верхнем углу.\\n<Assistant_Title2>Награды: </>Шкатулка воспоминаний, Счета-квитанции, Опыт познания и др."
   },
   {
     "id": "035185",
     "source_cn": "<Assistant_Title1>【排行榜】</>\\n<Assistant_Title2>系统说明：</>点击<Assistant_System>菜单-排行</>即可查看排行榜，在本服内查看的排行榜，均为本服内的数据。\\n<Assistant_Title2>刷新时间：</>除少数特殊情况外，排行榜<Assistant_Red>每1分钟</>刷新一次数据。\\n<Assistant_Title2>清榜时间：</>\\n    <Assistant_Property1>世界Boss分数：</>每周一8：00清榜\\n    <Assistant_Property1>铁路大亨赚取值：</>每周一8：01清榜\\n<Assistant_Title2>使用指南：</>进入排行榜系统后，左侧列表可以切换<Assistant_Red>排行榜类型</>，点击切换后，可以在排行榜上方点击切换该类型下具体的排行榜。右侧展示对应玩家的模型、外观。\\n<Assistant_Title2>排行筛选：</>在排行榜系统中，部分排行榜可以进行<Assistant_Red>筛选</>，如左下角的<Assistant_Red>全服/好友筛选</>、排行榜上方的<Assistant_Red>途径筛选</>。\\n<Assistant_Title2>排行奖励：</>部分排行榜会定期<Assistant_Red>结算、发奖</>，可以点击页面右上角<Assistant_Red>奖励预览</>来查看对应<Assistant_Red>排名奖励</>，排行榜最下方有文字显示结算、发奖的时间。\\n<Assistant_Title2>排行类型：</>\\n    <Assistant_Property1>个人：</>风尚度 等级 成就点 秩序世界\\n    <Assistant_Property1>俱乐部：</>俱乐部等级 俱乐部评分 歌剧魅影 俱乐部联赛\\n    <Assistant_Property1>竞技：</>主宰争锋 命运时刻 神座之争 终末猎杀\\n    <Assistant_Property1>副本：</>安提哥努斯笔记 乌托邦剧院·噩梦 五月庄园·花园等\\n    <Assistant_Property1>家族：</>家族非凡评分 家族风尚度\\n    <Assistant_Property1>城堡：</>铁路大亨\\n    <Assistant_Property1>躺赢：</>副本 同行 冒险 趣斗\\n    <Assistant_Property1>教团：</>春夜舞会",
     "ref_en": "<Assistant_Title1>【Leaderboard】</>\\n<Assistant_Title2>System Description: </>Click <Assistant_System>Menu - Ranking</> to view the leaderboard. The rankings viewed within the server are all data within the current server. \\n<Assistant_Title2>Refresh Time: </>Except for a few special cases, the leaderboard <Assistant_Red>refreshes data every 1 minute</>. \\n<Assistant_Title2>Ranking Reset Time: </>\\n    <Assistant_Property1>World Boss Score: </>Reset every Monday at 8:00\\n    <Assistant_Property1>Railway Tycoon Earnings: </>Reset every Monday at 8:01\\n<Assistant_Title2>Usage Guide: </>After entering the leaderboard system, the list on the left can switch <Assistant_Red>Leaderboard Types</>. After switching, you can click above the leaderboard to switch to specific rankings under that type. The right side displays the corresponding player's model and appearance. \\n<Assistant_Title2>Ranking Filter: </>In the leaderboard system, some rankings can be <Assistant_Red>filtered</>, such as the <Assistant_Red>Server-wide/Friends filter</> in the bottom left, and the <Assistant_Red>Pathway filter</> above the leaderboard. \\n<Assistant_Title2>Ranking Rewards: </>Some leaderboards will periodically <Assistant_Red>settle and distribute rewards</>. You can click <Assistant_Red>Reward Preview</> in the top right corner of the page to view the corresponding <Assistant_Red>ranking rewards</>. The bottom of the leaderboard displays the time for settlement and reward distribution. \\n<Assistant_Title2>Ranking Types: </>\\n    <Assistant_Property1>Personal: </>Fashion Level, Level, Achievement Points, Orderly World\\n    <Assistant_Property1>Club: </>Club Level, Club Rating, Phantom of the Opera, Club League\\n    <Assistant_Property1>Competition: </>Dominator's Clash, Moment of Fate, Battle for the Throne of God, Final Hunt\\n    <Assistant_Property1>Dungeon: </>Antigonus Notebook, Utopia Theater · Nightmare, May Manor · Garden, etc.\\n    <Assistant_Property1>Family: </>Family Extraordinary Rating, Family Fashion Level\\n    <Assistant_Property1>Castle: </>Railway Tycoon\\n    <Assistant_Property1>Easy Win: </>Dungeon, Ride Along, Adventure, Fun Fight\\n    <Assistant_Property1>Cult: </>Spring Night Ball",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Таблица лидеров】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание системы: \\u003c/\\u003eНажмите \\u003cAssistant_System\\u003eМеню — Рейтинг\\u003c/\\u003e, чтобы открыть таблицу лидеров. Все отображаемые рейтинги относятся к данным текущего сервера.\\n\\u003cAssistant_Title2\\u003eВремя обновления: \\u003c/\\u003eЗа редкими исключениями данные таблицы лидеров \\u003cAssistant_Red\\u003eобновляются каждую 1 минуту\\u003c/\\u003e.\\n\\u003cAssistant_Title2\\u003eВремя сброса: \\u003c/\\u003e\\n    \\u003cAssistant_Property1\\u003eОчки мирового босса: \\u003c/\\u003eсброс каждый понедельник в 8:00\\n    \\u003cAssistant_Property1\\u003eДоход Железнодорожного магната: \\u003c/\\u003eсброс каждый понедельник в 8:01\\n\\u003cAssistant_Title2\\u003eРуководство: \\u003c/\\u003eПосле входа в таблицу лидеров в списке слева можно переключать \\u003cAssistant_Red\\u003eтипы рейтинга\\u003c/\\u003e. Выбрав тип, вверху можно переключаться между конкретными рейтингами этой категории. Справа отображаются модель и облик соответствующего игрока.\\n\\u003cAssistant_Title2\\u003eФильтры: \\u003c/\\u003eНекоторые списки лидеров можно \\u003cAssistant_Red\\u003eфильтровать\\u003c/\\u003e, например, с помощью фильтра \\u003cAssistant_Red\\u003eВесь сервер / Друзья\\u003c/\\u003e в левом нижнем углу или фильтра \\u003cAssistant_Red\\u003eПути\\u003c/\\u003e над таблицей лидеров.\\n\\u003cAssistant_Title2\\u003eНаграды за рейтинг: \\u003c/\\u003eПо некоторым рейтингам периодически проводится \\u003cAssistant_Red\\u003eподведение итогов и выдача наград\\u003c/\\u003e. Нажмите \\u003cAssistant_Red\\u003eПредпросмотр наград\\u003c/\\u003e в правом верхнем углу, чтобы посмотреть соответствующие \\u003cAssistant_Red\\u003eнаграды за ранг\\u003c/\\u003e. В самом низу таблицы лидеров указано время подведения итогов и распределения наград.\\n\\u003cAssistant_Title2\\u003eКатегории рейтинга: \\u003c/\\u003e\\n    \\u003cAssistant_Property1\\u003eЛичные: \\u003c/\\u003eОчки стиля, Уровень, Очки достижений, Мир порядка\\n    \\u003cAssistant_Property1\\u003eКлуб: \\u003c/\\u003eУровень клуба, Рейтинг клуба, Призрак Оперы, Лига клубов\\n    \\u003cAssistant_Property1\\u003eСостязания: \\u003c/\\u003eБитва Владык, Момент судьбы, Битва за Божественный Престол, Последняя охота\\n    \\u003cAssistant_Property1\\u003eПодземелья: \\u003c/\\u003eЗаписки Антигона, Театр Утопия: Кошмар, Поместье Мэй: Сад и др.\\n    \\u003cAssistant_Property1\\u003eСемья: \\u003c/\\u003eПотусторонний рейтинг семьи, Очки стиля семьи\\n    \\u003cAssistant_Property1\\u003eЗамок: \\u003c/\\u003eЖелезнодорожный магнат\\n    \\u003cAssistant_Property1\\u003eЛёгкая победа: \\u003c/\\u003eПодземелье, Совместный путь, Приключение, Весёлая схватка\\n    \\u003cAssistant_Property1\\u003eКульт: \\u003c/\\u003eВесенний ночной бал"
+    "target_ru": "<Assistant_Title1>【Таблица лидеров】</>\\n<Assistant_Title2>Описание системы: </>Нажмите <Assistant_System>Меню — Рейтинг</>, чтобы открыть таблицу лидеров. Все отображаемые рейтинги относятся к данным текущего сервера.\\n<Assistant_Title2>Время обновления: </>За редкими исключениями данные таблицы лидеров <Assistant_Red>обновляются каждую 1 минуту</>.\\n<Assistant_Title2>Время сброса: </>\\n    <Assistant_Property1>Очки мирового босса: </>сброс каждый понедельник в 8:00\\n    <Assistant_Property1>Доход Железнодорожного магната: </>сброс каждый понедельник в 8:01\\n<Assistant_Title2>Руководство: </>После входа в таблицу лидеров в списке слева можно переключать <Assistant_Red>типы рейтинга</>. Выбрав тип, вверху можно переключаться между конкретными рейтингами этой категории. Справа отображаются модель и облик соответствующего игрока.\\n<Assistant_Title2>Фильтры: </>Некоторые списки лидеров можно <Assistant_Red>фильтровать</>, например, с помощью фильтра <Assistant_Red>Весь сервер / Друзья</> в левом нижнем углу или фильтра <Assistant_Red>Пути</> над таблицей лидеров.\\n<Assistant_Title2>Награды за рейтинг: </>По некоторым рейтингам периодически проводится <Assistant_Red>подведение итогов и выдача наград</>. Нажмите <Assistant_Red>Предпросмотр наград</> в правом верхнем углу, чтобы посмотреть соответствующие <Assistant_Red>награды за ранг</>. В самом низу таблицы лидеров указано время подведения итогов и распределения наград.\\n<Assistant_Title2>Категории рейтинга: </>\\n    <Assistant_Property1>Личные: </>Очки стиля, Уровень, Очки достижений, Мир порядка\\n    <Assistant_Property1>Клуб: </>Уровень клуба, Рейтинг клуба, Призрак Оперы, Лига клубов\\n    <Assistant_Property1>Состязания: </>Битва Владык, Момент судьбы, Битва за Божественный Престол, Последняя охота\\n    <Assistant_Property1>Подземелья: </>Записки Антигона, Театр Утопия: Кошмар, Поместье Мэй: Сад и др.\\n    <Assistant_Property1>Семья: </>Потусторонний рейтинг семьи, Очки стиля семьи\\n    <Assistant_Property1>Замок: </>Железнодорожный магнат\\n    <Assistant_Property1>Лёгкая победа: </>Подземелье, Совместный путь, Приключение, Весёлая схватка\\n    <Assistant_Property1>Культ: </>Весенний ночной бал"
   },
   {
     "id": "035186",
     "source_cn": "<Assistant_Title1>【飓风之斧】</>\\n<Assistant_Title2>说明：</>攻击类型封印物\\n<Assistant_Title2>描述：</>竞技倾向封印物，战斗中提升自身<Assistant_Red>移动速度</>与<Assistant_Red>普攻攻速</>，普攻命中时概率造成<Assistant_Red>滞涩</>并触发闪电伤害；对目标触发闪电时，有概率触发闪电击中自己。\\n<Assistant_Title2>获取：</>副本记忆的传承一获得。",
     "ref_en": "<Assistant_Title1> [Hurricane Axe] </> \\n <Assistant_Title2> Description: </> Attack-type Sealed Artifact \\n <Assistant_Title2> Details: </> Competitive-oriented Sealed Artifact. Increases your <Assistant_Red> Movement Speed </> and <Assistant_Red> Basic Attack Speed </> in combat. Basic attacks have a chance to cause <Assistant_Red> Stagnation </> and trigger lightning damage. When triggering lightning on a target, there is a chance to trigger lightning on yourself. \\n <Assistant_Title2> Acquisition: </> Obtained from the Inheritance of Memory I dungeon.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Топор урагана】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eТип: \\u003c/\\u003eЗапечатанный Артефакт атакующего типа\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eЗапечатанный Артефакт для PvP-состязаний. В бою повышает вашу \\u003cAssistant_Red\\u003eскорость передвижения\\u003c/\\u003e и \\u003cAssistant_Red\\u003eскорость базовой атаки\\u003c/\\u003e. При попадании базовой атакой есть шанс наложить \\u003cAssistant_Red\\u003eсковывание\\u003c/\\u003e и вызвать урон молнией; при вызове молнии на цель есть вероятность поражения молнией самого себя.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eМожно получить в подземелье «Наследие памяти I»."
+    "target_ru": "<Assistant_Title1>【Топор урагана】</>\\n<Assistant_Title2>Тип: </>Запечатанный Артефакт атакующего типа\\n<Assistant_Title2>Описание: </>Запечатанный Артефакт для PvP-состязаний. В бою повышает вашу <Assistant_Red>скорость передвижения</> и <Assistant_Red>скорость базовой атаки</>. При попадании базовой атакой есть шанс наложить <Assistant_Red>сковывание</> и вызвать урон молнией; при вызове молнии на цель есть вероятность поражения молнией самого себя.\\n<Assistant_Title2>Получение: </>Можно получить в подземелье «Наследие памяти I»."
   },
   {
     "id": "035187",
@@ -1131,7 +1131,7 @@
     "id": "035188",
     "source_cn": "<DecH>工艺：</>精鞣皮革・轻便裁剪・都市漫步装\\n身着雾霭和尘埃，在万都之都的角落寻找属于自己的晴天。",
     "ref_en": "<DecH>Crafting: </>Tanned Leather - Lightweight Cut - Urban Stroll Outfit\\nDressed in mist and dust, searching for one's own sunny day in the corners of the City of Cities.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eТонко выделанная кожа · Легкий крой · Наряд для городских прогулок\\nСквозь туман и пыль, в укромных уголках Города Городов ища свой собственный ясный день."
+    "target_ru": "<DecH>Мастерство: </>Тонко выделанная кожа · Легкий крой · Наряд для городских прогулок\\nСквозь туман и пыль, в укромных уголках Города Городов ища свой собственный ясный день."
   },
   {
     "id": "035189",
@@ -1431,7 +1431,7 @@
     "id": "035238",
     "source_cn": "将自身的<HighLight>卡牌能量</>补至5点，释放时每有1点<HighLight>卡牌能量</>降低本技能5秒冷却时间。\\n获得三张<HighLight>命运黄牌</>；若<HighLight>灵性蓝牌</>数量更多，则改为获得三张<HighLight>灵性蓝牌</>。\\n\\n<FaintYellow>命运黄牌</>/<FaintYellow>灵性蓝牌</>：获得三张<HighLight>命运黄牌</>/<HighLight>灵性蓝牌</>时消耗所有卡牌，使<HighLight>终结技能洗牌</>切换至<HighLight>命运愚弄</>/<HighLight>灵性爆发</>。\\n<FaintYellow>卡牌能量</>：最多持有5点，达到5点时<HighLight>终结技能</>切换并锁定为<HighLight>洗牌</>。",
     "ref_en": "Replenish your <HighLight>Card Energy</> to 5 points. Each point of <HighLight>Card Energy</> consumed upon release reduces this skill's cooldown by 5 seconds. \\nGain three <HighLight>Fooling of Fate Yellow Cards</>; if you have more <HighLight>Spirituality Blue Cards</>, gain three <HighLight>Spirituality Blue Cards</> instead. \\n\\n<FaintYellow>Fooling of Fate Yellow Card</>/<FaintYellow>Spirituality Blue Card</>: When three <HighLight>Fooling of Fate Yellow Cards</>/<HighLight>Spirituality Blue Cards</> are collected, consume all cards to switch the <HighLight>Finisher Skill Shuffle</> to <HighLight>Fooling of Fate</>/<HighLight>Spirituality Burst</>. \\n<FaintYellow>Card Energy</>: Can hold up to 5 points. When reaching 5 points, the <HighLight>Finisher Skill</> switches and locks to <HighLight>Shuffle Cards</>.",
-    "target_ru": "Восполняет собственную \\u003cHighLight\\u003eЭнергию карт\\u003c/\\u003e до 5 очков. При применении каждое очко \\u003cHighLight\\u003eЭнергии карт\\u003c/\\u003e сокращает время перезарядки этого навыка на 5 сек.\\nДарует три \\u003cHighLight\\u003eЖёлтые карты судьбы\\u003c/\\u003e; если количество \\u003cHighLight\\u003eСиних карт духовности\\u003c/\\u003e больше, вместо этого дарует три \\u003cHighLight\\u003eСиние карты духовности\\u003c/\\u003e.\\n\\n\\u003cFaintYellow\\u003eЖёлтая карта судьбы\\u003c/\\u003e/\\u003cFaintYellow\\u003eСиняя карта духовности\\u003c/\\u003e: при получении трёх \\u003cHighLight\\u003eЖёлтых карт судьбы\\u003c/\\u003e/\\u003cHighLight\\u003eСиних карт духовности\\u003c/\\u003e расходуются все карты, а \\u003cHighLight\\u003eзавершающий навык «Перетасовка»\\u003c/\\u003e сменяется на \\u003cHighLight\\u003e«Одурачивание судьбы»\\u003c/\\u003e/\\u003cHighLight\\u003e«Духовный взрыв»\\u003c/\\u003e.\\n\\u003cFaintYellow\\u003eЭнергия карт\\u003c/\\u003e: можно накопить до 5 очков. При достижении 5 очков \\u003cHighLight\\u003eзавершающий навык\\u003c/\\u003e сменяется и блокируется на навыке \\u003cHighLight\\u003e«Перетасовка»\\u003c/\\u003e."
+    "target_ru": "Восполняет собственную <HighLight>Энергию карт</> до 5 очков. При применении каждое очко <HighLight>Энергии карт</> сокращает время перезарядки этого навыка на 5 сек.\\nДарует три <HighLight>Жёлтые карты судьбы</>; если количество <HighLight>Синих карт духовности</> больше, вместо этого дарует три <HighLight>Синие карты духовности</>.\\n\\n<FaintYellow>Жёлтая карта судьбы</>/<FaintYellow>Синяя карта духовности</>: при получении трёх <HighLight>Жёлтых карт судьбы</>/<HighLight>Синих карт духовности</> расходуются все карты, а <HighLight>завершающий навык «Перетасовка»</> сменяется на <HighLight>«Одурачивание судьбы»</>/<HighLight>«Духовный взрыв»</>.\\n<FaintYellow>Энергия карт</>: можно накопить до 5 очков. При достижении 5 очков <HighLight>завершающий навык</> сменяется и блокируется на навыке <HighLight>«Перетасовка»</>."
   },
   {
     "id": "035239",
@@ -1941,13 +1941,13 @@
     "id": "035323",
     "source_cn": "<DecH>工艺：</>至尊甲胄\\n王至，时代为之开辟；王立，权与力为之俯首。",
     "ref_en": "<DecH>Crafting: </>Supreme Armor\\nWhen the King arrives, an era is forged; when the King stands, power and strength bow before him.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eВладычные латы\\nПриходит Король — и вершится эпоха; восстаёт Король — и власть, и сила склоняются перед ним."
+    "target_ru": "<DecH>Мастерство: </>Владычные латы\\nПриходит Король — и вершится эпоха; восстаёт Король — и власть, и сила склоняются перед ним."
   },
   {
     "id": "035324",
     "source_cn": "<Highlight>工艺：</>暗夜丝绸・蝶舞肩饰・魅力轻礼服\\n仲夏夜仙境中，划过天空的不仅有精灵的双翼，还有纷飞的诗心。",
     "ref_en": "<Highlight>Craft: </>Dark Night Silk・Butterfly Shoulder Ornament・Charming Light Gown\\nIn the Midsummer Night's fairyland, it is not just the wings of sprites that streak across the sky, but also the fluttering hearts of poets.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eШёлк тёмной ночи · Наплечник «Танец бабочки» · Очаровательное лёгкое платье\\nВ сказочной стране Ивановой ночи по небу скользят не только крылья эльфов, но и трепетные сердца поэтов."
+    "target_ru": "<Highlight>Мастерство: </>Шёлк тёмной ночи · Наплечник «Танец бабочки» · Очаровательное лёгкое платье\\nВ сказочной стране Ивановой ночи по небу скользят не только крылья эльфов, но и трепетные сердца поэтов."
   },
   {
     "id": "035325",
@@ -1959,13 +1959,13 @@
     "id": "035326",
     "source_cn": "<M_Default>亲爱的非凡者： </>\\n    四方联赛第二轮拍卖将于21:20开启，请留意开启时间。拍卖参与资格及拍卖分红将依据本轮联赛参与情况确定，详细规则信息见四方联赛玩法说明。",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n The second round of the Four-Way League auction will start at 21:20. Please pay attention to the start time. Auction participation eligibility and auction dividends will be determined based on participation in this round of the league. For detailed rules, see the Four-Way League gameplay instructions.",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний: \\u003c/\\u003e\\n    Второй раунд аукциона Лиги четырёх сторон начнётся в 21:20, пожалуйста, следите за временем открытия. Право на участие в аукционе и дивиденды с продаж определяются на основе участия в текущем раунде Лиги. Подробную информацию см. в правилах игрового процесса Лиги четырёх сторон."
+    "target_ru": "<M_Default>Уважаемый Потусторонний: </>\\n    Второй раунд аукциона Лиги четырёх сторон начнётся в 21:20, пожалуйста, следите за временем открытия. Право на участие в аукционе и дивиденды с продаж определяются на основе участия в текущем раунде Лиги. Подробную информацию см. в правилах игрового процесса Лиги четырёх сторон."
   },
   {
     "id": "035327",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>您在趣斗中达到征服皇帝段位，以下是您的称号奖励。</>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>You have reached the rank of Conqueror Emperor in Competition. The following is your title reward. </>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний:\\u003c/\\u003e\\n\\u003cM_Default\\u003eВы достигли ранга «Император-Завоеватель» в Весёлой схватке. Ниже приведена награда за титул.\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний:</>\\n<M_Default>Вы достигли ранга «Император-Завоеватель» в Весёлой схватке. Ниже приведена награда за титул.</>"
   },
   {
     "id": "035328",
@@ -2043,7 +2043,7 @@
     "id": "035340",
     "source_cn": "使用后获得<Highlight>时代的传奇发型</>\\n也可兑换为<Highlight>1</>张神眷牌",
     "ref_en": "Use to obtain <Highlight> Legend of the Era Hairstyle </> \\n Can also be exchanged for <Highlight> 1 </> Divine Favor Cards",
-    "target_ru": "При использовании дарует \\u003cHighlight\\u003eЛегендарную причёску эпохи\\u003c/\\u003e.\\nТакже можно обменять на \\u003cHighlight\\u003e1\\u003c/\\u003e Карту благословения богов."
+    "target_ru": "При использовании дарует <Highlight>Легендарную причёску эпохи</>.\\nТакже можно обменять на <Highlight>1</> Карту благословения богов."
   },
   {
     "id": "035341",
@@ -2655,7 +2655,7 @@
     "id": "035442",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">心理治疗</>产生的治疗量提升10%。当<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">心理治疗</>可用时，释放治疗性战斗技能将自动释放<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">心理治疗</>。;\\n<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">意识操纵</>产生的治疗量提升10%。",
     "ref_en": "Healing from <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Psychotherapy</> is increased by 10%. When <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Psychotherapy</> is available, casting a healing combat skill will automatically cast <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Psychotherapy</>; \\n<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Consciousness Manipulation</> healing is increased by 10%.",
-    "target_ru": "\\u003cHyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\"\\u003eПсихотерапия\\u003c/\\u003e повышает объём исцеления на 10%. Когда навык \\u003cHyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\"\\u003eПсихотерапия\\u003c/\\u003e доступен, применение исцеляющего боевого навыка автоматически вызывает \\u003cHyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\"\\u003eПсихотерапию\\u003c/\\u003e;\\nИсцеление от навыка \\u003cHyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\"\\u003eМанипуляция сознанием\\u003c/\\u003e повышается на 10%."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Психотерапия</> повышает объём исцеления на 10%. Когда навык <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Психотерапия</> доступен, применение исцеляющего боевого навыка автоматически вызывает <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Психотерапию</>;\\nИсцеление от навыка <HyperLink stylename=\"M_Link\" u=\"86023020\" color=\"#f4a067\">Манипуляция сознанием</> повышается на 10%."
   },
   {
     "id": "035443",
@@ -3531,7 +3531,7 @@
     "id": "035588",
     "source_cn": "<Assistant_Title1>特别时刻</>\\n<Assistant_Title2>成就分类：</>社交-好友聊天\\n<Assistant_Title2>解锁条件：</>与任意好友的好友度达到520",
     "ref_en": "<Assistant_Title1>Special Moment</>\\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\\n<Assistant_Title2>Unlock Condition: </>Reach 520 friendship points with any friend",
-    "target_ru": "\\u003cAssistant_Title1\\u003eОсобенный миг\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eОбщение — Чат с друзьями\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eДостигните 520 очков дружбы с любым другом"
+    "target_ru": "<Assistant_Title1>Особенный миг</>\\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\\n<Assistant_Title2>Условие открытия: </>Достигните 520 очков дружбы с любым другом"
   },
   {
     "id": "035589",
@@ -4731,7 +4731,7 @@
     "id": "035788",
     "source_cn": "烙印装备升级道具。\\n可将45装等金色品质烙印指环<Highlight>机械的核心</>提升至<Highlight>62装等橙色品质</>，提升时消耗<Highlight>1</>个时光沙砾。\\n需先拥有升级前的烙印装备，拥有后点击<Highlight>装等提升</>按钮进行升级。使用该道具可快捷跳转至升级前的烙印装备。",
     "ref_en": "Brand Equipment upgrade item.\\nCan upgrade the 45 Gear Level gold quality brand ring <Highlight>Core of the Machine</> to <Highlight>62 Gear Level orange quality</>, consuming <Highlight>1</> Time Sand upon upgrade.\\nYou must first possess the pre-upgrade brand equipment; once possessed, click the <Highlight>Gear Level Increase</> button to upgrade. Using this item allows for a quick jump to the pre-upgrade brand equipment.",
-    "target_ru": "Предмет улучшения снаряжения с клеймом.\\nПозволяет улучшить золотое кольцо с клеймом 45-го ур. снаряжения \\u003cHighlight\\u003eЯдро механизма\\u003c/\\u003e до \\u003cHighlight\\u003eоранжевого качества 62-го ур. снаряжения\\u003c/\\u003e; при улучшении расходуется \\u003cHighlight\\u003e1\\u003c/\\u003e Песчинка времени.\\nСначала необходимо иметь исходное снаряжение с клеймом; при его наличии нажмите кнопку \\u003cHighlight\\u003eПовышение уровня снаряжения\\u003c/\\u003e. Использование предмета позволяет быстро перейти к исходному снаряжению с клеймом."
+    "target_ru": "Предмет улучшения снаряжения с клеймом.\\nПозволяет улучшить золотое кольцо с клеймом 45-го ур. снаряжения <Highlight>Ядро механизма</> до <Highlight>оранжевого качества 62-го ур. снаряжения</>; при улучшении расходуется <Highlight>1</> Песчинка времени.\\nСначала необходимо иметь исходное снаряжение с клеймом; при его наличии нажмите кнопку <Highlight>Повышение уровня снаряжения</>. Использование предмета позволяет быстро перейти к исходному снаряжению с клеймом."
   },
   {
     "id": "035789",
@@ -4977,7 +4977,7 @@
     "id": "035829",
     "source_cn": "1. <Highlight>家族申请表：</>每位未加入家族的非凡者可填写发布个人申请表寻找适合自己的家族，申请表在发布<Highlight>3天后</>或成功加入家族后将会自动撤下。\\n2. <Highlight>响应招募：</>未加入家族的非凡者，可选择自行发起或加入其他非凡者的响应招募，发起响应的非凡者默认成为<Highlight>家族首席</>。\\n3. <Highlight>创建家族：</>在响应招募阶段中，家族的响应人数达到<Highlight>3人及以上</>，即可创建家族，创建过程中首席可以调整家族名称和成员位次。\\n4. <Highlight>加入家族：</>当家族成员不满<Highlight>14人</>时，首席可发起家族招募。其他非凡者发起申请，并通过首席审核后，可直接加入家族。",
     "ref_en": "1. <Highlight>Family Application Form:</> Every Beyonder who has not joined a Family can fill out and publish a personal application form to find a suitable Family. The application form will be automatically removed <Highlight>3 days</> after publication or once you have successfully joined a Family.\\n2. <Highlight>Respond to Recruitment:</> Beyonders who have not joined a Family can choose to initiate or join other Beyonders' recruitment responses. The Beyonder who initiates the response becomes the <Highlight>Family Chief</> by default.\\n3. <Highlight>Create a Family:</> During the recruitment response phase, once the number of respondents for the Family reaches <Highlight>3 or more</>, the Family can be created. During the creation process, the Chief can adjust the Family name and member positions.\\n4. <Highlight>Join a Family:</> When a Family has fewer than <Highlight>14 members</>, the Chief can initiate Family recruitment. Other Beyonders can submit applications, and after passing the Chief's review, they can join the Family directly.",
-    "target_ru": "1. \\u003cHighlight\\u003eАнкета заявки в семью:\\u003c/\\u003e Каждый Потусторонний, не состоящий в семье, может заполнить и опубликовать личную заявку для поиска подходящей семьи. Заявка автоматически удаляется через \\u003cHighlight\\u003e3 дня\\u003c/\\u003e после публикации либо после успешного вступления в семью.\\n2. \\u003cHighlight\\u003eОтклик на набор:\\u003c/\\u003e Потусторонние, не состоящие в семье, могут как сами открыть набор соратников, так и присоединиться к отклику других Потусторонних. Создатель набора по умолчанию становится \\u003cHighlight\\u003eГлавой семьи\\u003c/\\u003e.\\n3. \\u003cHighlight\\u003eСоздание семьи:\\u003c/\\u003e На этапе сбора откликов, когда число откликнувшихся достигает \\u003cHighlight\\u003e3 и более человек\\u003c/\\u003e, семья создаётся; во время создания Глава может изменить название семьи и распределить места участников.\\n4. \\u003cHighlight\\u003eВступление в семью:\\u003c/\\u003e Если в семье менее \\u003cHighlight\\u003e14 участников\\u003c/\\u003e, Глава может объявить набор. Другие Потусторонние могут подать заявку и вступить в семью сразу после одобрения Главой."
+    "target_ru": "1. <Highlight>Анкета заявки в семью:</> Каждый Потусторонний, не состоящий в семье, может заполнить и опубликовать личную заявку для поиска подходящей семьи. Заявка автоматически удаляется через <Highlight>3 дня</> после публикации либо после успешного вступления в семью.\\n2. <Highlight>Отклик на набор:</> Потусторонние, не состоящие в семье, могут как сами открыть набор соратников, так и присоединиться к отклику других Потусторонних. Создатель набора по умолчанию становится <Highlight>Главой семьи</>.\\n3. <Highlight>Создание семьи:</> На этапе сбора откликов, когда число откликнувшихся достигает <Highlight>3 и более человек</>, семья создаётся; во время создания Глава может изменить название семьи и распределить места участников.\\n4. <Highlight>Вступление в семью:</> Если в семье менее <Highlight>14 участников</>, Глава может объявить набор. Другие Потусторонние могут подать заявку и вступить в семью сразу после одобрения Главой."
   },
   {
     "id": "035830",
@@ -4995,7 +4995,7 @@
     "id": "035832",
     "source_cn": "<Assistant_Title1>我宣布个事</>\\n<Assistant_Title2>成就分类：</>社交-好友聊天\\n<Assistant_Title2>解锁条件：</>第一次在世界频道发言",
     "ref_en": "<Assistant_Title1>I Have an Announcement</>\\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\\n<Assistant_Title2>Unlock Condition: </>Speak in the World Channel for the first time",
-    "target_ru": "\\u003cAssistant_Title1\\u003eМинуточку внимания\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eОбщение — Чат с друзьями\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВпервые отправьте сообщение в мировой чат"
+    "target_ru": "<Assistant_Title1>Минуточку внимания</>\\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\\n<Assistant_Title2>Условие открытия: </>Впервые отправьте сообщение в мировой чат"
   },
   {
     "id": "035833",
@@ -5523,7 +5523,7 @@
     "id": "035920",
     "source_cn": "致%s：\\n      不必灰心，成长路上总是会出现像密修会小丑这样的强敌，只要没人因此牺牲，一切都还来得及。教会的档案中，对密修会有不少记载，或许能帮到你：<HyperLink stylename=\"M_Link\" u=\"jump=1302102\">密修会小丑的记载</>\\n      相信身边的队友，在充满疯狂的非凡道路上，他们是你足以信赖的后背，而你也要尽早成长起来，成为一名出色的值夜者。 不过也别那么有压力，我看得出，你有很多特别之处，就像是曾经的我，只是需要一些小小的方式激发出来。教会这里有一套非常适合你的方案，有助于实力的快速提升，我一并附在信末了，记得查阅。\\n      去吧，新时代的主角，我看好你。<HyperLink stylename=\"M_Link\" u=\"jump=1250207\">点此查阅</>",
     "ref_en": "To %s: \\n Do not be discouraged. Strong enemies like the Clown of the Rose School of Thought will always appear on the path of growth. As long as no one sacrifices themselves because of this, everything is still in time. There are many records of the Rose School of Thought in the Church's archives, which might help you: <HyperLink stylename=\"M_Link\" u=\"jump=1302102\">Records of the Clown of the Rose School of Thought</>\\n Trust your teammates. On the path of the Extraordinary filled with madness, they are the backs you can rely on, and you also need to grow up as soon as possible to become an outstanding Nighthawk. But don't be under so much pressure. I can see that you have many special qualities, just like the old me, you just need some small ways to stimulate them. The Church has a plan that is very suitable for you, which will help you improve your strength quickly. I have attached it to the end of the letter, remember to check it. \\n Go, protagonist of the new era, I believe in you. <HyperLink stylename=\"M_Link\" u=\"jump=1250207\">Click here to view</>",
-    "target_ru": "Дорогой %s:\\n      Не падай духом. На пути становления всегда будут встречаться могущественные враги вроде Клоуна из Тайного Ордена. Пока никто не погиб, ещё ничего не потеряно. В архивах Церкви хранится немало сведений о Тайном Ордене, возможно, они тебе пригодятся: \\u003cHyperLink stylename=\"M_Link\" u=\"jump=1302102\"\\u003eЗаписи о Клоуне Тайного Ордена\\u003c/\\u003e\\n      Верь товарищам по отряду: на стезе Потусторонних, полной безумия, они — твоя надёжная опора за спиной. Но и тебе нужно поскорее вырасти, чтобы стать выдающимся Ночным Ястребом. Впрочем, не переживай так сильно: я вижу, в тебе есть немало исключительных качеств — совсем как во мне когда-то, нужно лишь немного помочь им раскрыться. В Церкви найдётся подходящий план, который поможет быстро укрепить твои силы; я приложил его к письму, обязательно ознакомься.\\n      Вперёд, герой новой эпохи! Я верю в тебя. \\u003cHyperLink stylename=\"M_Link\" u=\"jump=1250207\"\\u003eНажмите здесь, чтобы ознакомиться\\u003c/\\u003e"
+    "target_ru": "Дорогой %s:\\n      Не падай духом. На пути становления всегда будут встречаться могущественные враги вроде Клоуна из Тайного Ордена. Пока никто не погиб, ещё ничего не потеряно. В архивах Церкви хранится немало сведений о Тайном Ордене, возможно, они тебе пригодятся: <HyperLink stylename=\"M_Link\" u=\"jump=1302102\">Записи о Клоуне Тайного Ордена</>\\n      Верь товарищам по отряду: на стезе Потусторонних, полной безумия, они — твоя надёжная опора за спиной. Но и тебе нужно поскорее вырасти, чтобы стать выдающимся Ночным Ястребом. Впрочем, не переживай так сильно: я вижу, в тебе есть немало исключительных качеств — совсем как во мне когда-то, нужно лишь немного помочь им раскрыться. В Церкви найдётся подходящий план, который поможет быстро укрепить твои силы; я приложил его к письму, обязательно ознакомься.\\n      Вперёд, герой новой эпохи! Я верю в тебя. <HyperLink stylename=\"M_Link\" u=\"jump=1250207\">Нажмите здесь, чтобы ознакомиться</>"
   },
   {
     "id": "035921",
@@ -5661,7 +5661,7 @@
     "id": "035943",
     "source_cn": "\\n尊敬的市民，为了您的安全，请勿擅自进入施工地带。\\n\\n\\n新增：\\n如果您有需要，请在不慎掉入坑内后高呼救命。\\n如果一刻钟内没人赶到，请保持情绪镇定与体力充足。\\n不必焦急，我们将在上班时间将您救出。\\n\\n<Note_Normal_HW>这玩意儿根本没用，这个月已经掉进去十几个人了。</>\\n<Note_Normal_HW>天知道把这些家伙捞出来多麻烦！还是派个人守着吧。</>",
     "ref_en": "\\nRespected citizens, for your safety, please do not enter the construction zone without authorization.\\n\\n\\nNew Addition:\\nIf you have a need, please shout for help after accidentally falling into the pit.\\nIf no one arrives within a quarter of an hour, please remain calm and conserve your energy.\\nDo not be anxious; we will rescue you during working hours.\\n\\n<Note_Normal_HW>This thing is completely useless; over a dozen people have already fallen in this month.</>\\n<Note_Normal_HW>Heaven knows how much trouble it is to fish these guys out! Better just send someone to guard it.</>",
-    "target_ru": "\\nУважаемые горожане! В целях вашей безопасности проход на территорию строительных работ строго воспрещён.\\n\\n\\nДополнение:\\nВ случае необходимости, если вы случайно упали в котлован, громко зовите на помощь.\\nЕсли в течение четверти часа никто не прибудет, сохраняйте спокойствие и берегите силы.\\nНе паникуйте — мы вытащим вас в часы работы нашей бригады.\\n\\n\\u003cNote_Normal_HW\\u003eЭта табличка до одного места, за этот месяц туда уже больше десятка человек свалилось.\\u003c/\\u003e\\n\\u003cNote_Normal_HW\\u003eОдному Богу известно, сколько мороки их оттуда выуживать! Поставьте уже кого-нибудь на дежурство.\\u003c/\\u003e"
+    "target_ru": "\\nУважаемые горожане! В целях вашей безопасности проход на территорию строительных работ строго воспрещён.\\n\\n\\nДополнение:\\nВ случае необходимости, если вы случайно упали в котлован, громко зовите на помощь.\\nЕсли в течение четверти часа никто не прибудет, сохраняйте спокойствие и берегите силы.\\nНе паникуйте — мы вытащим вас в часы работы нашей бригады.\\n\\n<Note_Normal_HW>Эта табличка до одного места, за этот месяц туда уже больше десятка человек свалилось.</>\\n<Note_Normal_HW>Одному Богу известно, сколько мороки их оттуда выуживать! Поставьте уже кого-нибудь на дежурство.</>"
   },
   {
     "id": "035944",
@@ -5691,13 +5691,13 @@
     "id": "035948",
     "source_cn": "<Assistant_Title1>Gift of the Fighter</>\\n<Assistant_Title2>Achievement Category: </>Cultivation-Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Beyonder material with the <格斗家> affix",
     "ref_en": "<Assistant_Title1>Gift of the Fighter</>\\n<Assistant_Title2>Achievement Category: </>Cultivation-Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Beyonder material with the <Fighter> affix",
-    "target_ru": "\\u003cAssistant_Title1\\u003eДар Бойца\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Запечатанный Артефакт\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПолучите 1 потусторонний материал со свойством \\u003c格斗家\\u003e"
+    "target_ru": "<Assistant_Title1>Дар Бойца</>\\n<Assistant_Title2>Категория достижения: </>Развитие — Запечатанный Артефакт\\n<Assistant_Title2>Условие открытия: </>Получите 1 потусторонний материал со свойством <格斗家>"
   },
   {
     "id": "035949",
     "source_cn": "<Assistant_Title1>体面撤退</>\\n<Assistant_Title2>成就分类：</>剧情-原著主线\\n<Assistant_Title2>解锁条件：</>在原著线第七章里，找理由中止了入会咨询",
     "ref_en": "<Assistant_Title1> A Decent Retreat </>\\n<Assistant_Title2> Achievement Category: </> Plot - Original Work Main Story \\n<Assistant_Title2> Unlock Condition: </> Find an excuse to terminate the membership consultation in Chapter 7 of the Original Work line",
-    "target_ru": "\\u003cAssistant_Title1\\u003eДостойное отступление\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eСюжет — Каноническая линия\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВ главе 7 канонической линии найти благовидный предлог прервать собеседование о вступлении"
+    "target_ru": "<Assistant_Title1>Достойное отступление</>\\n<Assistant_Title2>Категория достижения: </>Сюжет — Каноническая линия\\n<Assistant_Title2>Условие открытия: </>В главе 7 канонической линии найти благовидный предлог прервать собеседование о вступлении"
   },
   {
     "id": "035950",
@@ -6387,19 +6387,19 @@
     "id": "036064",
     "source_cn": "<Assistant_Title1>Favor of the Servant of Concealment</>\\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Extraordinary material with the <隐秘之仆> trait",
     "ref_en": "<Assistant_Title1>Favor of the Servant of Concealment</>\\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Extraordinary material with the <Servant of Concealment> trait",
-    "target_ru": "\\u003cAssistant_Title1\\u003eБлагосклонность Служителя Тайн\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Запечатанный Артефакт\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПолучите 1 потусторонний материал со свойством \\u003c隐秘之仆\\u003e"
+    "target_ru": "<Assistant_Title1>Благосклонность Служителя Тайн</>\\n<Assistant_Title2>Категория достижения: </>Развитие — Запечатанный Артефакт\\n<Assistant_Title2>Условие открытия: </>Получите 1 потусторонний материал со свойством <隐秘之仆>"
   },
   {
     "id": "036065",
     "source_cn": "<Highlight>工艺：</>湛蓝披风\\n清晨的第一缕阳光穿透薄雾，落在初绽的玫瑰与铃兰之上。",
     "ref_en": "<Highlight>Craft: </>Azure Cloak\\nThe first ray of morning sunlight pierces through the mist, landing on the newly bloomed roses and lilies of the valley.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eЛазурный плащ\\u003c/\\u003e\\nПервый утренний луч солнца пробивается сквозь дымку тумана, касаясь лепестков распустившихся роз и ландышей."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Лазурный плащ</>\\nПервый утренний луч солнца пробивается сквозь дымку тумана, касаясь лепестков распустившихся роз и ландышей."
   },
   {
     "id": "036066",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>方案</>\\n方案分为非凡方案与装备方案，非凡方案是角色技能、天赋、封印物组成的搭配，装备方案是角色装备、恩赐、套装效果组成的搭配。当前方案会随玩家的当前搭配实时变动。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>方案切换</>\\n通过技能-非凡方案或装备-装备方案，将特定的搭配保存为方案后，即可通过方案切换，一键更改当前的搭配。战斗状态下无法进行方案切换。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>成组切换</>\\n可将特定的非凡方案和装备方案打包为成组方案，切换成组方案时可以同时切换装备和非凡方案。可以为成组方案设置自动切换，前往特定场景时自动切为特定的成组方案。",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Schemes</>\\n Schemes are divided into Beyonder Schemes and Equipment Schemes. Beyonder Schemes consist of character skills, talents, and Sealed Artifacts, while Equipment Schemes consist of character equipment, gifts, and set effects. The current scheme updates in real-time based on the player's current setup.\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Scheme Switching</>\\n Through Skills-Beyonder Schemes or Equipment-Equipment Schemes, you can save specific setups as schemes and then switch them with one click. You cannot switch schemes while in combat.\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Group Switching</>\\n You can bundle specific Beyonder Schemes and Equipment Schemes into Group Schemes. When switching Group Schemes, you can change both equipment and Beyonder schemes simultaneously. You can set up automatic switching for Group Schemes to automatically change to a specific scheme when entering certain areas.",
-    "target_ru": "\\u003cimg id=\"Tips\" width=\"30\" height=\"46\"/\\u003e\\u003cTitle\\u003eКомплекты настроек\\u003c/\\u003e\\nКомплекты делятся на Потусторонние комплекты и Комплекты снаряжения. Потусторонний комплект включает сочетание навыков, талантов и Запечатанных Артефактов персонажа; Комплект снаряжения состоит из экипировки, даров и эффектов наборов. Текущий комплект меняется в реальном времени при изменении текущей экипировки.\\n\\u003cimg id=\"Tips\" width=\"30\" height=\"46\"/\\u003e\\u003cTitle\\u003eСмена комплекта\\u003c/\\u003e\\nСохранив определённую комбинацию в меню «Навыки — Комплект» или «Снаряжение — Комплект», вы сможете переключать всю сборку в одно нажатие. В состоянии боя переключение комплектов невозможно.\\n\\u003cimg id=\"Tips\" width=\"30\" height=\"46\"/\\u003e\\u003cTitle\\u003eГрупповое переключение\\u003c/\\u003e\\nВы можете объединить Потусторонний комплект и Комплект снаряжения в общий Групповой комплект, чтобы менять и экипировку, и способности одновременно. Для групповых комплектов можно настроить автоматическое переключение при входе в определённые локации."
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Комплекты настроек</>\\nКомплекты делятся на Потусторонние комплекты и Комплекты снаряжения. Потусторонний комплект включает сочетание навыков, талантов и Запечатанных Артефактов персонажа; Комплект снаряжения состоит из экипировки, даров и эффектов наборов. Текущий комплект меняется в реальном времени при изменении текущей экипировки.\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Смена комплекта</>\\nСохранив определённую комбинацию в меню «Навыки — Комплект» или «Снаряжение — Комплект», вы сможете переключать всю сборку в одно нажатие. В состоянии боя переключение комплектов невозможно.\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Групповое переключение</>\\nВы можете объединить Потусторонний комплект и Комплект снаряжения в общий Групповой комплект, чтобы менять и экипировку, и способности одновременно. Для групповых комплектов можно настроить автоматическое переключение при входе в определённые локации."
   },
   {
     "id": "036067",
@@ -6831,7 +6831,7 @@
     "id": "036138",
     "source_cn": "疯抢之夜的惊喜奖励，打开可随机获得一定数量的绑定苏勒，还有概率获得<Highlight>零元购凭证</>，凭证可<Highlight>免费兑换任意商城直售外观</>。\\n每周最多开启<Highlight>10</>次。",
     "ref_en": "A surprise reward from the Night of Frenzied Grabbing. Open to randomly receive a certain amount of Bound Soule, with a chance to obtain a <Highlight>Zero-Yuan Purchase Voucher</>, which can be used to <Highlight>redeem any direct-sale cosmetic from the shop for free</>. \\nCan be opened at most <Highlight>10</> times per week.",
-    "target_ru": "Особая награда «Ночи безумного шопинга». Открыв её, можно получить случайное количество привязанных солей, а также есть шанс получить \\u003cHighlight\\u003eКупон на бесплатную покупку\\u003c/\\u003e, который позволяет \\u003cHighlight\\u003eбесплатно получить любой образ из магазина\\u003c/\\u003e.\\nМожно открывать не более \\u003cHighlight\\u003e10\\u003c/\\u003e раз в неделю."
+    "target_ru": "Особая награда «Ночи безумного шопинга». Открыв её, можно получить случайное количество привязанных солей, а также есть шанс получить <Highlight>Купон на бесплатную покупку</>, который позволяет <Highlight>бесплатно получить любой образ из магазина</>.\\nМожно открывать не более <Highlight>10</> раз в неделю."
   },
   {
     "id": "036139",
@@ -6993,7 +6993,7 @@
     "id": "036165",
     "source_cn": "<Assistant_Title1>【窥秘人】</>\\n<Assistant_Title2>描述：</>默认展台表情贴纸\\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\\n<Assistant_Title2>获取：</>默认解锁",
     "ref_en": "<Assistant_Title1>【Mystery Pryer】</>\\n<Assistant_Title2>Description: </>Default display stand sticker\\n<Assistant_Title2>Usage: </>You can click <Assistant_System>Appearance - Display Stand</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Unlocked by default.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Жрец Тайн】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eБазовый стикер-эмоция для витрины\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eНажмите \\u003cAssistant_System\\u003eВнешний вид — Витрина\\u003c/\\u003e, чтобы просмотреть и применить.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eДоступно по умолчанию"
+    "target_ru": "<Assistant_Title1>【Жрец Тайн】</>\\n<Assistant_Title2>Описание: </>Базовый стикер-эмоция для витрины\\n<Assistant_Title2>Использование: </>Нажмите <Assistant_System>Внешний вид — Витрина</>, чтобы просмотреть и применить.\\n<Assistant_Title2>Получение: </>Доступно по умолчанию"
   },
   {
     "id": "036166",
@@ -7545,7 +7545,7 @@
     "id": "036257",
     "source_cn": "科、科尔沁，算了吧。<P_Heart>（小声）</>再闹下去，估计明天连这点儿也要没了……",
     "ref_en": "Ke, Kerqin, let it go. <P_Heart>(Whispering)</> If you keep making a scene, I doubt we'll even have this much left by tomorrow...",
-    "target_ru": "Ко... Корчин, брось ты это. \\u003cP_Heart\\u003e（шёпотом）\\u003c/\\u003eБудешь и дальше скандалить — к завтрашнему дню мы и этого лишимся..."
+    "target_ru": "Ко... Корчин, брось ты это. <P_Heart>（шёпотом）</>Будешь и дальше скандалить — к завтрашнему дню мы и этого лишимся..."
   },
   {
     "id": "036258",
@@ -7809,7 +7809,7 @@
     "id": "036301",
     "source_cn": "使用后获得<Highlight>先祖铠甲套装</>\\n男性角色外观，可在【百货-外观转换商店】中与对应女性角色外观<Highlight>子爵夫人</>互相兑换\\n若已拥有此外观，则可选择分解获得10万绑定苏勒",
     "ref_en": "Use to obtain <Highlight> Ancestor Armor Set </> \\n Male character appearance, can be exchanged with the corresponding female character appearance <Highlight> Viscountess </> in the [Department Store - Appearance Conversion Shop] \\n If you already own this appearance, you can choose to decompose it to obtain 100,000 bound Soles",
-    "target_ru": "При использовании дарует \\u003cHighlight\\u003eКомплект доспехов предков\\u003c/\\u003e.\\nОблик для мужских персонажей; его можно обменять в меню 【Универмаг — Магазин обмена образов】 на соответствующий женский облик \\u003cHighlight\\u003eВиконтесса\\u003c/\\u003e.\\nЕсли данный облик уже открыт, его можно распылить на 100 000 Привязанных солей."
+    "target_ru": "При использовании дарует <Highlight>Комплект доспехов предков</>.\\nОблик для мужских персонажей; его можно обменять в меню 【Универмаг — Магазин обмена образов】 на соответствующий женский облик <Highlight>Виконтесса</>.\\nЕсли данный облик уже открыт, его можно распылить на 100 000 Привязанных солей."
   },
   {
     "id": "036302",
@@ -8421,7 +8421,7 @@
     "id": "036403",
     "source_cn": "\\n《廷根酒徒威廉与血腥奇遇记：身为醉酒无赖的他发现廷根的吸血鬼巢穴，他的房东还有城中的工厂大王与银行家实际上是吸血鬼；讲述他如何独力以木桩刺穿吸血鬼的贪利之心，由此成为鲁恩最负盛名的吸血鬼猎人的故事》\\n\\n作者：克利夫·威廉\\n\\n<Letter_Highlight_HW>能火！！！</>\\n\\n该死的巴兹尔，到处说我坏话，你只能活两个章节！\\n<Hide stylename=\"Transparent\" id=\"#161\">这一段内容是编的这一段内容是编的这一段</>\\n<Delete id=\"#158\">猫不会说话。</>\\n<Delete id=\"#158\">鸽子也是。</>",
     "ref_en": "\\n\"Tingen Drunkard William and the Bloody Adventure: As a drunken rogue, he discovers a vampire nest in Tingen; his landlord and the city's factory tycoon and banker are actually vampires; telling the story of how he single-handedly pierces the vampires' greed with a wooden stake, thus becoming Loen's most renowned vampire hunter\"\\n\\nAuthor: Cliff William\\n\\n<Letter_Highlight_HW>It will be a hit!!!</>\\n\\nDamn Basil, talking bad about me everywhere, you can only live for two chapters!\\n<Hide stylename=\"Transparent\" id=\"#161\">This part of the content is made up this part of the content is made up this</>\\n<Delete id=\"#158\">Cats cannot talk.</>\\n<Delete id=\"#158\">Neither can pigeons.</>",
-    "target_ru": "\\n«Тингенский пьянчуга Уильям и кровавое приключение: как горький пропойца раскрыл вампирское логово в Тингене; как его домовладелец, а заодно фабричный магнат и главный банкир города оказались вампирами; и как он в одиночку пронзил осиновым колом их алчные сердца, сделавшись самым прославленным охотником на вампиров во всём Лоэне»\\n\\nАвтор: Клифф Уильям\\n\\n\\u003cLetter_Highlight_HW\\u003eЭто будет шедевр!!!\\u003c/\\u003e\\n\\nПроклятый Бэзил, распускаешь про меня грязные сплетни на каждом углу — проживёшь от силы две главы!\\n\\u003cHide stylename=\"Transparent\" id=\"#161\"\\u003eЭтот кусок полностью выдуман этот кусок полностью выдуман этот\\u003c/\\u003e\\n\\u003cDelete id=\"#158\"\\u003eКошки не разговаривают.\\u003c/\\u003e\\n\\u003cDelete id=\"#158\"\\u003eГолуби тоже.\\u003c/\\u003e"
+    "target_ru": "\\n«Тингенский пьянчуга Уильям и кровавое приключение: как горький пропойца раскрыл вампирское логово в Тингене; как его домовладелец, а заодно фабричный магнат и главный банкир города оказались вампирами; и как он в одиночку пронзил осиновым колом их алчные сердца, сделавшись самым прославленным охотником на вампиров во всём Лоэне»\\n\\nАвтор: Клифф Уильям\\n\\n<Letter_Highlight_HW>Это будет шедевр!!!</>\\n\\nПроклятый Бэзил, распускаешь про меня грязные сплетни на каждом углу — проживёшь от силы две главы!\\n<Hide stylename=\"Transparent\" id=\"#161\">Этот кусок полностью выдуман этот кусок полностью выдуман этот</>\\n<Delete id=\"#158\">Кошки не разговаривают.</>\\n<Delete id=\"#158\">Голуби тоже.</>"
   },
   {
     "id": "036404",
@@ -8541,7 +8541,7 @@
     "id": "036423",
     "source_cn": "不是掌握，是消化。\\n不是发掘，是<Tips stylename=\"Letter_Highlight_HW\" id=\"#160\" u=\"1\">扮演</>。\\n魔药的名称不只是象征，还是意象，更是消化的钥匙。",
     "ref_en": "It is not mastery, it is digestion.\\nIt is not excavation, it is <Tips stylename=\"Letter_Highlight_HW\" id=\"#160\" u=\"1\">acting</>.\\nThe name of the potion is not just a symbol, but an imagery, and even more so, the key to digestion.",
-    "target_ru": "Не подчинение, а усвоение.\\nНе исследование, а \\u003cTips stylename=\"Letter_Highlight_HW\" id=\"#160\" u=\"1\"\\u003eлицедейство\\u003c/\\u003e.\\nНазвание зелья — не просто символ или образ, но прежде всего ключ к усвоению."
+    "target_ru": "Не подчинение, а усвоение.\\nНе исследование, а <Tips stylename=\"Letter_Highlight_HW\" id=\"#160\" u=\"1\">лицедейство</>.\\nНазвание зелья — не просто символ или образ, но прежде всего ключ к усвоению."
   },
   {
     "id": "036424",
@@ -9165,7 +9165,7 @@
     "id": "036527",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>您在神座之争中达到星辰之主段位，称号奖励已解锁，可前往称号界面使用。</>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>You have reached the rank of Lord of Stars in the Battle for the Throne of God. The title reward has been unlocked and can be used in the title interface.</>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний:\\u003c/\\u003e\\n\\u003cM_Default\\u003eВы достигли ранга «Владыка Звёзд» в Битве за Божественный Престол. Награда за титул разблокирована — вы можете применить её в меню титулов.\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний:</>\\n<M_Default>Вы достигли ранга «Владыка Звёзд» в Битве за Божественный Престол. Награда за титул разблокирована — вы можете применить её в меню титулов.</>"
   },
   {
     "id": "036528",
@@ -9201,7 +9201,7 @@
     "id": "036533",
     "source_cn": "　　漫山的雪。也许是第二天？也许是第三天？\\n　　尼尔不见了。营地也不见了。\\n　　东西都没了。还好身上还剩……\\n<Delete id=\"#158\">面勹</>面包<Delete id=\"#158\">一个</>三分之一份\\n糖3颗\\n水<Delete id=\"#158\">1</>半瓶",
     "ref_en": "　　Snow all over the mountains. Maybe it's the second day? Maybe the third day?\\n　　Neil is gone. The camp is also gone.\\n　　Everything is gone. Fortunately, I still have...\\n<Delete id=\"#158\">Bre-ad</>Bread<Delete id=\"#158\">One</>one-third portion\\nSugar: 3 pieces\\nWater<Delete id=\"#158\">1</>half a bottle",
-    "target_ru": "　　Кругом снег. Может быть, пошёл второй день? А может, третий?\\n　　Нил пропал. Лагерь тоже исчез.\\n　　Все вещи пропали. Хорошо, что при мне ещё осталось...\\n\\u003cDelete id=\"#158\"\\u003eХле-\\u003c/\\u003eХлеб, \\u003cDelete id=\"#158\"\\u003eодин\\u003c/\\u003eтреть порции\\nСахар: 3 кусочка\\nВода: \\u003cDelete id=\"#158\"\\u003e1\\u003c/\\u003eполбутылки"
+    "target_ru": "　　Кругом снег. Может быть, пошёл второй день? А может, третий?\\n　　Нил пропал. Лагерь тоже исчез.\\n　　Все вещи пропали. Хорошо, что при мне ещё осталось...\\n<Delete id=\"#158\">Хле-</>Хлеб, <Delete id=\"#158\">один</>треть порции\\nСахар: 3 кусочка\\nВода: <Delete id=\"#158\">1</>полбутылки"
   },
   {
     "id": "036534",
@@ -9651,7 +9651,7 @@
     "id": "036608",
     "source_cn": "是否清空区域并开始导入选中模版？\\n<BrickRedLight>注意：一键清空后无法回退和撤销，请谨慎操作！</>",
     "ref_en": "Are you sure you want to clear the area and start importing the selected template? \\n<BrickRedLight>Note: Once cleared with one click, this action cannot be undone or reverted. Please proceed with caution! </>",
-    "target_ru": "Очистить область и начать импорт выбранного шаблона?\\n\\u003cBrickRedLight\\u003eВнимание: после полной очистки действие нельзя отменить или вернуть назад. Действуйте с осторожностью!\\u003c/\\u003e"
+    "target_ru": "Очистить область и начать импорт выбранного шаблона?\\n<BrickRedLight>Внимание: после полной очистки действие нельзя отменить или вернуть назад. Действуйте с осторожностью!</>"
   },
   {
     "id": "036609",
@@ -9993,13 +9993,13 @@
     "id": "036665",
     "source_cn": "<Assistant_Title1>【人脉好感-快速互动】</>\\n<Assistant_Title2>快速互动说明：</>各位非凡者可以通过同时消耗<Assistant_Red>【漫忆请柬】</>道具与<Assistant_Red>书信往来次数</>，直接增加与选中的人脉角色对应的好感度。\\n<Assistant_Title2>快速互动入口说明：</>各位非凡者可以在对应的人脉好感度界面，点击<Assistant_Red>邀约函集</>按钮，开启对应人脉的快速互动功能。\\n<Assistant_Title2>快速互动次数说明：</>快速互动分为角色专属互动次数与月卡权益互动次数，两者独立分开计算。进行快速互动时，优先消耗角色专属快速互动次数，再消耗月卡权益互动次数。\\n<Assistant_Title2>角色专属快速互动次数：</>非凡者与对应人脉好感度等级达到2级后，每日可获得<Assistant_Red>2次</>与该人脉的专属快速互动次数。每日获得的快速互动次数会随着人脉好感度等级提升而提升，每级提升2次互动次数，最高每日可获得<Assistant_Red>10次</>。\\n<Assistant_Title2>快速互动月卡权益说明：</>各位非凡者每日还可获得5次全人脉共享的快速互动次数，最高可累计15次，但是全人脉共享快速互动次数只有在月卡有效期可以使用。",
     "ref_en": "<Assistant_Title1>[Connection Favorability-Quick Interaction]</>\\n<Assistant_Title2>Quick Interaction Explanation: </>Beyonders can directly increase favorability with selected connection characters by consuming <Assistant_Red>[Memory Invitation]</> items and <Assistant_Red>letter exchange attempts</>.\\n<Assistant_Title2>Quick Interaction Entry Explanation: </>Beyonders can click the <Assistant_Red>Invitation Collection</> button on the corresponding connection favorability interface to open the quick interaction function for that connection.\\n<Assistant_Title2>Quick Interaction Attempts Explanation: </>Quick interactions are divided into character-exclusive interaction attempts and monthly card benefit interaction attempts, which are calculated separately. When performing a quick interaction, character-exclusive attempts are consumed first, followed by monthly card benefit attempts.\\n<Assistant_Title2>Character-Exclusive Quick Interaction Attempts: </>After a Beyonder reaches favorability level 2 with a corresponding connection, they can obtain <Assistant_Red>2</> exclusive quick interaction attempts with that connection daily. The number of quick interaction attempts obtained daily will increase as the connection favorability level increases, with 2 attempts added per level, up to a maximum of <Assistant_Red>10</> attempts daily.\\n<Assistant_Title2>Quick Interaction Monthly Card Benefit Explanation: </>Beyonders can also obtain 5 quick interaction attempts shared across all connections daily, which can be accumulated up to 15 times, but these shared attempts can only be used while the monthly card is valid.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Связи — Быстрое взаимодействие】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание быстрого взаимодействия: \\u003c/\\u003e\\u003cAssistant_Red\\u003e【Приглашение воспоминаний】\\u003c/\\u003e и попытки переписки можно одновременно расходовать для мгновенного повышения благосклонности выбранного персонажа связи.\\n\\u003cAssistant_Title2\\u003eГде открыть: \\u003c/\\u003eВ меню благосклонности нужного персонажа связи нажмите кнопку \\u003cAssistant_Red\\u003eСборник приглашений\\u003c/\\u003e, чтобы открыть функцию быстрого взаимодействия.\\n\\u003cAssistant_Title2\\u003eПопытки быстрого взаимодействия: \\u003c/\\u003eПопытки делятся на персональные попытки персонажа и попытки по привилегии месячной карты, обе категории учитываются отдельно. При быстром взаимодействии в первую очередь тратятся персональные попытки персонажа, а затем — попытки месячной карты.\\n\\u003cAssistant_Title2\\u003eПерсональные попытки: \\u003c/\\u003eПосле достижения 2-го уровня благосклонности с персонажем вы ежедневно получаете \\u003cAssistant_Red\\u003e2 персональные попытки\\u003c/\\u003e быстрого взаимодействия с ним. Ежедневное число попыток растёт с уровнем благосклонности (по +2 попытки за уровень) вплоть до максимума в \\u003cAssistant_Red\\u003e10 раз в день\\u003c/\\u003e.\\n\\u003cAssistant_Title2\\u003eПривилегия месячной карты: \\u003c/\\u003eПотусторонние также ежедневно получают 5 попыток быстрого взаимодействия, общих для всех связей (суммируются до 15 попыток). Эти общие попытки действуют исключительно во время активности месячной карты."
+    "target_ru": "<Assistant_Title1>【Связи — Быстрое взаимодействие】</>\\n<Assistant_Title2>Описание быстрого взаимодействия: </><Assistant_Red>【Приглашение воспоминаний】</> и попытки переписки можно одновременно расходовать для мгновенного повышения благосклонности выбранного персонажа связи.\\n<Assistant_Title2>Где открыть: </>В меню благосклонности нужного персонажа связи нажмите кнопку <Assistant_Red>Сборник приглашений</>, чтобы открыть функцию быстрого взаимодействия.\\n<Assistant_Title2>Попытки быстрого взаимодействия: </>Попытки делятся на персональные попытки персонажа и попытки по привилегии месячной карты, обе категории учитываются отдельно. При быстром взаимодействии в первую очередь тратятся персональные попытки персонажа, а затем — попытки месячной карты.\\n<Assistant_Title2>Персональные попытки: </>После достижения 2-го уровня благосклонности с персонажем вы ежедневно получаете <Assistant_Red>2 персональные попытки</> быстрого взаимодействия с ним. Ежедневное число попыток растёт с уровнем благосклонности (по +2 попытки за уровень) вплоть до максимума в <Assistant_Red>10 раз в день</>.\\n<Assistant_Title2>Привилегия месячной карты: </>Потусторонние также ежедневно получают 5 попыток быстрого взаимодействия, общих для всех связей (суммируются до 15 попыток). Эти общие попытки действуют исключительно во время активности месячной карты."
   },
   {
     "id": "036666",
     "source_cn": "<Assistant_Title1>【魔女的滋味】</>\\n<Assistant_Title2>描述：</>城市暗面玩法奖励时装\\n<Assistant_Title2>使用：</>使用后获得魔女的滋味套装，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>城市暗面悬赏值解锁",
     "ref_en": "<Assistant_Title1>【Taste of the Witch】</>\\n<Assistant_Title2>Description: </>Outfit rewarded for City of Shadows gameplay\\n<Assistant_Title2>Usage: </>After use, you will obtain the Taste of the Witch set. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Unlock via City of Shadows Bounty Value.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Вкус Ведьмы】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eНаряд за участие в событии «Тёмная сторона города»\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует комплект «Вкус Ведьмы». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и надеть его.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eОткрывается за очки розыска на Тёмной стороне города"
+    "target_ru": "<Assistant_Title1>【Вкус Ведьмы】</>\\n<Assistant_Title2>Описание: </>Наряд за участие в событии «Тёмная сторона города»\\n<Assistant_Title2>Использование: </>При использовании дарует комплект «Вкус Ведьмы». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\\n<Assistant_Title2>Получение: </>Открывается за очки розыска на Тёмной стороне города"
   },
   {
     "id": "036667",
@@ -10011,13 +10011,13 @@
     "id": "036668",
     "source_cn": "<Highlight>工艺：</>黯色织缎・柔语曳地裙\\n轻柔的细语与激情的轰拳，都可以完成一场难以抵抗的长眠。",
     "ref_en": "<Highlight>Craft: </>Dark Satin・Soft-Whisper Floor-Length Dress\\nBoth soft whispers and passionate punches can complete an irresistible long slumber.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eТёмный атлас · Волочащееся платье «Нежный шёпот»\\u003c/\\u003e\\nИ нежный шёпот, и яростный сокрушительный удар способны погрузить в неодолимый вечный сон."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Тёмный атлас · Волочащееся платье «Нежный шёпот»</>\\nИ нежный шёпот, и яростный сокрушительный удар способны погрузить в неодолимый вечный сон."
   },
   {
     "id": "036669",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n“歌剧魅影”第三场搭配现已开放，剧院静候您的前来。\\n周五20:00，演出将准时开启。请您务必留意，在周五19:30前加入一家具有参赛资格的俱乐部，并成为<M_Orange>正式成员</>，完成外观搭配。参与搭配，即可收获馈赠。俱乐部搭配评分<M_Orange>前五名</>将获得登台资格。\\n愿您在舞台上如星辰般闪耀，稍后再见！",
     "ref_en": "<M_Default>Dear Beyonder: </>\\nThe third \"Phantom of the Opera\" outfit coordination is now open. The theater awaits your arrival. \\nThe performance will start promptly on Friday at 20:00. Please be sure to join a club with participation eligibility before 19:30 on Friday, become an <M_Orange>official member</>, and complete your outfit coordination. Participate in the coordination to receive gifts. The top <M_Orange>five</> clubs in coordination scores will earn the qualification to perform on stage. \\nMay you shine like a star on stage, see you later!",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний:\\u003c/\\u003e\\nТретий этап модного смотра «Призрак Оперы» уже открыт, театр с нетерпением ждёт вас.\\nПредставление начнётся в пятницу ровно в 20:00. Пожалуйста, обратите внимание: вступить в допущенный к участию клуб и стать его \\u003cM_Orange\\u003eполноправным участником\\u003c/\\u003e, а также завершить подбор наряда необходимо до 19:30 пятницы. За участие в смотре вы получите подарки. \\u003cM_Orange\\u003eПять лучших\\u003c/\\u003e клубов по набранным очкам стиля получат право выйти на сцену.\\nСияйте на сцене, словно яркие звёзды! До скорой встречи!"
+    "target_ru": "<M_Default>Уважаемый Потусторонний:</>\\nТретий этап модного смотра «Призрак Оперы» уже открыт, театр с нетерпением ждёт вас.\\nПредставление начнётся в пятницу ровно в 20:00. Пожалуйста, обратите внимание: вступить в допущенный к участию клуб и стать его <M_Orange>полноправным участником</>, а также завершить подбор наряда необходимо до 19:30 пятницы. За участие в смотре вы получите подарки. <M_Orange>Пять лучших</> клубов по набранным очкам стиля получат право выйти на сцену.\\nСияйте на сцене, словно яркие звёзды! До скорой встречи!"
   },
   {
     "id": "036670",
@@ -10743,7 +10743,7 @@
     "id": "036790",
     "source_cn": " \\n                是谁造成了这一切？\\n    <Letter_Highlight_HW>管家、医生、男爵夫人、仆人，</>            \\n                凶手是他们中的哪个？",
     "ref_en": " \\n                Who caused all of this? \\n    <Letter_Highlight_HW>Butler, doctor, viscountess, servant, </>            \\n                Which one of them is the murderer?",
-    "target_ru": " \\n                Кто повинен во всём случившемся?\\n    \\u003cLetter_Highlight_HW\\u003eДворецкий, доктор, баронесса, слуга...\\u003c/\\u003e            \\n                Кто же из них убийца?"
+    "target_ru": " \\n                Кто повинен во всём случившемся?\\n    <Letter_Highlight_HW>Дворецкий, доктор, баронесса, слуга...</>            \\n                Кто же из них убийца?"
   },
   {
     "id": "036791",
@@ -11169,7 +11169,7 @@
     "id": "036861",
     "source_cn": "施展巫术对小范围内敌方进行三段式攻击，分别造成spellfielddisc(*id)/spellfielddisc(*id)/bulletdisc(*id)点魔法伤害并将敌方怪物<HyperLink stylename=\"M_Link\" u=\"2\">打断</>，命中时获得<HighLight>6</>/<HighLight>5</>/<HighLight>13</>点<HighLight>神秘知识</>。自身拥有<HighLight>知识灌注</>时，本技能获得<HighLight>强化</>。\\n\\n<FaintYellow>强化</>：凝聚三柄朗基努斯之枪掷向指定区域，对小范围内敌方造成spellfielddisc(*id)+spellfielddisc(*id)+spellfielddisc(*id)点魔法伤害，并附加持续*f秒的mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">减疗</>，有<HighLight>50%</>基础概率造成持续<HighLight>3</>秒的<HighLight>50%</>减速效果。同时获得20点<HighLight>神秘知识</>。\\n<FaintYellow>神秘知识</>：最多拥有100点。达到100点时解锁<HighLight>终结技能信息洪流</>。",
     "ref_en": "Perform Witchcraft to execute a three-stage attack on enemies in a small area, dealing spellfielddisc(*id)/spellfielddisc(*id)/bulletdisc(*id) Magic Damage respectively and <HyperLink stylename=\"M_Link\" u=\"2\">Interrupting</> enemy monsters. Gain <HighLight>6</>/<HighLight>5</>/<HighLight>13</> points of <HighLight>Mystic Knowledge</> upon hit. When you possess <HighLight>Knowledge Infusion</>, this skill is <HighLight>Strengthened</>. \\n\\n<FaintYellow>Strengthening</>: Condense three Spears of Longinus and throw them at the designated area, dealing spellfielddisc(*id)+spellfielddisc(*id)+spellfielddisc(*id) Magic Damage to enemies in a small area, applying a mul(*d**,*d) <HyperLink stylename=\"M_Link\" u=\"20\">Healing Reduction</> effect lasting *f seconds, with a <HighLight>50%</> base chance to cause a <HighLight>50%</> Slow effect for <HighLight>3</> seconds. Simultaneously gain 20 points of <HighLight>Mystic Knowledge</>. \\n<FaintYellow>Mystic Knowledge</>: Maximum capacity is 100 points. Reaching 100 points unlocks the <HighLight>Finisher Skill Torrent of Information</>.",
-    "target_ru": "Использует колдовство, проводя трёхэтапную атаку по врагам в небольшой области, нанося соответственно spellfielddisc(*id)/spellfielddisc(*id)/bulletdisc(*id) ед. магического урона и \\u003cHyperLink stylename=\"M_Link\" u=\"2\"\\u003eпрерывая\\u003c/\\u003e действия вражеских монстров; при попадании дарует \\u003cHighLight\\u003e6\\u003c/\\u003e/\\u003cHighLight\\u003e5\\u003c/\\u003e/\\u003cHighLight\\u003e13\\u003c/\\u003e ед. \\u003cHighLight\\u003eМистических знаний\\u003c/\\u003e. При наличии эффекта \\u003cHighLight\\u003eВливание знаний\\u003c/\\u003e навык получает \\u003cHighLight\\u003eУсиление\\u003c/\\u003e.\\n\\n\\u003cFaintYellow\\u003eУсиление\\u003c/\\u003e: материализует три Копья Лонгина и обрушивает их в указанную область, нанося spellfielddisc(*id)+spellfielddisc(*id)+spellfielddisc(*id) ед. магического урона врагам в небольшой области и накладывая mul(*d%,*d) \\u003cHyperLink stylename=\"M_Link\" u=\"20\"\\u003eснижение исцеления\\u003c/\\u003e на *f сек., а также с базовой вероятностью \\u003cHighLight\\u003e50%\\u003c/\\u003e накладывает \\u003cHighLight\\u003e50%\\u003c/\\u003e замедление на \\u003cHighLight\\u003e3\\u003c/\\u003e сек. Одновременно дарует 20 ед. \\u003cHighLight\\u003eМистических знаний\\u003c/\\u003e.\\n\\u003cFaintYellow\\u003eМистические знания\\u003c/\\u003e: можно накопить до 100 ед. При достижении 100 ед. открывается \\u003cHighLight\\u003eзавершающий навык «Информационный поток»\\u003c/\\u003e."
+    "target_ru": "Использует колдовство, проводя трёхэтапную атаку по врагам в небольшой области, нанося соответственно spellfielddisc(*id)/spellfielddisc(*id)/bulletdisc(*id) ед. магического урона и <HyperLink stylename=\"M_Link\" u=\"2\">прерывая</> действия вражеских монстров; при попадании дарует <HighLight>6</>/<HighLight>5</>/<HighLight>13</> ед. <HighLight>Мистических знаний</>. При наличии эффекта <HighLight>Вливание знаний</> навык получает <HighLight>Усиление</>.\\n\\n<FaintYellow>Усиление</>: материализует три Копья Лонгина и обрушивает их в указанную область, нанося spellfielddisc(*id)+spellfielddisc(*id)+spellfielddisc(*id) ед. магического урона врагам в небольшой области и накладывая mul(*d%,*d) <HyperLink stylename=\"M_Link\" u=\"20\">снижение исцеления</> на *f сек., а также с базовой вероятностью <HighLight>50%</> накладывает <HighLight>50%</> замедление на <HighLight>3</> сек. Одновременно дарует 20 ед. <HighLight>Мистических знаний</>.\\n<FaintYellow>Мистические знания</>: можно накопить до 100 ед. При достижении 100 ед. открывается <HighLight>завершающий навык «Информационный поток»</>."
   },
   {
     "id": "036862",
@@ -11595,7 +11595,7 @@
     "id": "036932",
     "source_cn": " <Highlight>工艺：</>刺绣锦缎・花簇繁饰\\n没人能断言绽放需要多长的等待，但绽放至半的美好已足以让人珍惜。",
     "ref_en": " <Highlight>Craft: </>Embroidered Brocade/Flower Cluster Ornament\\nNo one can assert how long the wait for blooming will take, but the beauty of a half-bloom is enough to be cherished.",
-    "target_ru": " \\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eВышитая парча · Цветочное соцветие\\u003c/\\u003e\\nНикто не знает, сколько придётся ждать полного цветения, но и полураскрывшийся бутон уже достоин восхищения."
+    "target_ru": " <Highlight>Мастерство: </><Highlight>Вышитая парча · Цветочное соцветие</>\\nНикто не знает, сколько придётся ждать полного цветения, но и полураскрывшийся бутон уже достоин восхищения."
   },
   {
     "id": "036933",
@@ -11619,19 +11619,19 @@
     "id": "036936",
     "source_cn": "<Assistant_Title1>【晨雾仙踪】</>\\n<Assistant_Title2>描述：</>商城直售时装\\n<Assistant_Title2>使用：</>商城购买后获得晨雾仙踪套装，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>商城</>获取",
     "ref_en": "<Assistant_Title1>【Morning Mist Fairy Trail】</>\\n<Assistant_Title2>Description: </>Shop Direct-Purchase Outfit\\n<Assistant_Title2>Usage: </>Purchase in the shop to obtain the Morning Mist Fairy Trail outfit. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Shop</>",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Сказка утреннего тумана】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eНаряд прямой покупки в магазине\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eКупив в магазине, вы получите комплект «Сказка утреннего тумана». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и надеть его.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eПриобретается в \\u003cAssistant_System\\u003eМагазине\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Сказка утреннего тумана】</>\\n<Assistant_Title2>Описание: </>Наряд прямой покупки в магазине\\n<Assistant_Title2>Использование: </>Купив в магазине, вы получите комплект «Сказка утреннего тумана». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\\n<Assistant_Title2>Получение: </>Приобретается в <Assistant_System>Магазине</>"
   },
   {
     "id": "036937",
     "source_cn": "<Assistant_Title1>困难·异化猎犬</>\\n<Assistant_Title2>成就分类：</>冒险-团队副本\\n<Assistant_Title2>解锁条件：</>击杀困难难度异化猎犬",
     "ref_en": "<Assistant_Title1>Hard · Alienated Hound</>\\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\\n<Assistant_Title2>Unlock Condition: </>Defeat Alienated Hound on Hard difficulty",
-    "target_ru": "\\u003cAssistant_Title1\\u003eСложно: Мутировавшая гончая\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eОдолейте Мутировавшую гончую на высоком уровне сложности"
+    "target_ru": "<Assistant_Title1>Сложно: Мутировавшая гончая</>\\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\\n<Assistant_Title2>Условие открытия: </>Одолейте Мутировавшую гончую на высоком уровне сложности"
   },
   {
     "id": "036938",
     "source_cn": "<Assistant_Title1>机械终结者</>\\n<Assistant_Title2>成就分类：</>跑团-城市暗面\\n<Assistant_Title2>解锁条件：</>在罪恶廷根完成一次：挑战“钻头”。",
     "ref_en": "<Assistant_Title1>Mechanical Terminator</>\\n<Assistant_Title2>Achievement Category: </>TRPG-Dark Side of the City\\n<Assistant_Title2>Unlock Condition: </>Complete once in Sinful Tingen: Challenge Drill.",
-    "target_ru": "\\u003cAssistant_Title1\\u003eМеханический Терминатор\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eМодули TRPG — Тёмная сторона города\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВыполните в Грешном Тингене: Испытание «Сверло» (1 раз)"
+    "target_ru": "<Assistant_Title1>Механический Терминатор</>\\n<Assistant_Title2>Категория достижения: </>Модули TRPG — Тёмная сторона города\\n<Assistant_Title2>Условие открытия: </>Выполните в Грешном Тингене: Испытание «Сверло» (1 раз)"
   },
   {
     "id": "036939",
@@ -11679,7 +11679,7 @@
     "id": "036946",
     "source_cn": "　　第一轮：黛丝不是前来占卜的顾客，<InvHighlight>是一位占卜师</>。\\n　　第二轮：黛丝并非死于割伤，而<InvHighlight>是死于法阵</>。 \\n　　第三轮：黛丝的死和邪恶仪式无关，<InvHighlight>和她的占卜有关</>。\\n　　第四轮：黛丝的死与反锁的占卜室无关，而<InvHighlight>与占卜的结果、前来占卜的顾客有关</>。\\n\\n　　桌面的线索：一本《仪式魔法：向神明祈求之术》，有两页被折了角，分别是《假死与复生》和《命运的交换》，分别记载着<InvHighlight>不同的仪式魔法内容</>。",
     "ref_en": "Round 1: Daisy was not a customer who came for divination, <InvHighlight> but a diviner. </> \\n Round 2: Daisy did not die from the cut, but <InvHighlight> died from the magic circle. </> \\n Round 3: Daisy's death has nothing to do with an evil ritual, <InvHighlight> but with her divination. </> \\n Round 4: Daisy's death has nothing to do with the locked divination room, but <InvHighlight> with the result of the divination and the customer who came for it. </> \\n \\n Clues on the table: A book \"Ritual Magic: The Art of Praying to Gods,\" with two pages dog-eared, namely \"Feigned Death and Resurrection\" and \"Exchange of Fate,\" which record <InvHighlight> different ritual magic contents. </>",
-    "target_ru": "　　Раунд 1: Дейзи была не клиенткой, пришедшей на гадание, а \\u003cInvHighlight\\u003eсамой предсказательницей\\u003c/\\u003e.\\n　　Раунд 2: Дейзи погибла не от порезов, а \\u003cInvHighlight\\u003eот магического круга\\u003c/\\u003e.\\n　　Раунд 3: Смерть Дейзи не связана со зловещим ритуалом — \\u003cInvHighlight\\u003eона связана с её предсказанием\\u003c/\\u003e.\\n　　Раунд 4: Смерть Дейзи не связана с запертой комнатой гаданий — \\u003cInvHighlight\\u003eона связана с исходом гадания и клиентом, пришедшим к ней\\u003c/\\u003e.\\n\\n　　Улики на столе: книга «Ритуальная магия: искусство мольбы к богам» с двумя загнутыми страницами — «Мнимая смерть и воскрешение» и «Обмен судьбами», описывающими \\u003cInvHighlight\\u003eразличные ритуальные таинства\\u003c/\\u003e."
+    "target_ru": "　　Раунд 1: Дейзи была не клиенткой, пришедшей на гадание, а <InvHighlight>самой предсказательницей</>.\\n　　Раунд 2: Дейзи погибла не от порезов, а <InvHighlight>от магического круга</>.\\n　　Раунд 3: Смерть Дейзи не связана со зловещим ритуалом — <InvHighlight>она связана с её предсказанием</>.\\n　　Раунд 4: Смерть Дейзи не связана с запертой комнатой гаданий — <InvHighlight>она связана с исходом гадания и клиентом, пришедшим к ней</>.\\n\\n　　Улики на столе: книга «Ритуальная магия: искусство мольбы к богам» с двумя загнутыми страницами — «Мнимая смерть и воскрешение» и «Обмен судьбами», описывающими <InvHighlight>различные ритуальные таинства</>."
   },
   {
     "id": "036947",
@@ -12345,19 +12345,19 @@
     "id": "037057",
     "source_cn": "%s，好久不见：\\n      我听说了你最近与西尔维娅艰辛的交战。辛苦了，你一直都很努力。我和苏茜搜集了一些有关西尔维娅的情报，希望能有所帮助：<HyperLink stylename=\"M_Link\" u=\"jump=1302111\">西尔维娅的记载</>\\n      你所承受的命运写满了未知与危险，连我们也无法勘破你身上的迷雾和谜团。未来或许还有更多的险境、更大的危机在等待着我们。我们都需要变得更强，才能保护好自己和珍视的事物。但当你疲惫的时候，欢迎随时来命运咖啡厅坐坐，我这里有不错的红茶和糕点，或许你会喜欢。闲暇的时候，可以来陪我和苏茜聊聊天，让心态平和下来，一切都会好起来的。\\n      不用担心，我和其他人都会尽力帮助你，随信附上一些提升实力的建议。<HyperLink stylename=\"M_Link\" u=\"jump=1250207\">点此查看</>",
     "ref_en": "%s, long time no see: \\n      I heard about your recent arduous battle with Sylvia. You've worked hard; you have always been very diligent. Susie and I have gathered some intelligence regarding Sylvia, and I hope it proves helpful: <HyperLink stylename=\"M_Link\" u=\"jump=1302111\">Records of Sylvia</>\\n      The fate you bear is filled with unknowns and dangers; even we cannot pierce through the mist and mysteries surrounding you. Perhaps more perilous situations and greater crises await us in the future. We all need to become stronger to protect ourselves and the things we cherish. But when you are exhausted, you are always welcome to come to the Fate Café for a seat. I have some excellent black tea and pastries here that you might enjoy. In your spare time, feel free to come chat with Susie and me to calm your mind; everything will be alright. \\n      Do not worry; I and the others will do our best to help you. Attached to this letter are some suggestions for improving your strength. <HyperLink stylename=\"M_Link\" u=\"jump=1250207\">Click here to view</>",
-    "target_ru": "Дорогой %s, давно не виделись!\\n      Я слышала о твоей недавней тяжёлой битве с Сильвией. Ты проделал огромную работу и всегда так усердно стараешься. Мы со Сьюзи собрали кое-какие сведения о Сильвии, надеемся, они тебе пригодятся: \\u003cHyperLink stylename=\"M_Link\" u=\"jump=1302111\"\\u003eЗаписи о Сильвии\\u003c/\\u003e\\n      Судьба, выпавшая на твою долю, полна неизвестности и опасностей; даже нам не под силу рассеять туман и тайны вокруг тебя. Быть может, впереди нас ждут ещё более суровые испытания и глубокие кризисы. Всем нам нужно стать сильнее, чтобы защитить себя и то, что нам дорого. Но когда ты почувствуешь усталость, двери кафе «Судьба» всегда открыты для тебя: у меня найдётся отличный чёрный чай и сладости, уверена, они придутся тебе по вкусу. В свободную минутку заглядывай поболтать со мной и Сьюзи — отвлекись и успокойся, всё непременно наладится.\\n      Не тревожься: я и остальные сделаем всё возможное, чтобы помочь тебе. В приложении к письму я передаю советы по укреплению сил: \\u003cHyperLink stylename=\"M_Link\" u=\"jump=1250207\"\\u003eНажмите здесь для просмотра\\u003c/\\u003e"
+    "target_ru": "Дорогой %s, давно не виделись!\\n      Я слышала о твоей недавней тяжёлой битве с Сильвией. Ты проделал огромную работу и всегда так усердно стараешься. Мы со Сьюзи собрали кое-какие сведения о Сильвии, надеемся, они тебе пригодятся: <HyperLink stylename=\"M_Link\" u=\"jump=1302111\">Записи о Сильвии</>\\n      Судьба, выпавшая на твою долю, полна неизвестности и опасностей; даже нам не под силу рассеять туман и тайны вокруг тебя. Быть может, впереди нас ждут ещё более суровые испытания и глубокие кризисы. Всем нам нужно стать сильнее, чтобы защитить себя и то, что нам дорого. Но когда ты почувствуешь усталость, двери кафе «Судьба» всегда открыты для тебя: у меня найдётся отличный чёрный чай и сладости, уверена, они придутся тебе по вкусу. В свободную минутку заглядывай поболтать со мной и Сьюзи — отвлекись и успокойся, всё непременно наладится.\\n      Не тревожься: я и остальные сделаем всё возможное, чтобы помочь тебе. В приложении к письму я передаю советы по укреплению сил: <HyperLink stylename=\"M_Link\" u=\"jump=1250207\">Нажмите здесь для просмотра</>"
   },
   {
     "id": "037058",
     "source_cn": "<Assistant_Title1>【铁路大亨-交易技巧】</>\\n<Assistant_Title2>核心目标：</>在站点低价买入货物，在后续会收购该货物的站点高价卖出，赚取差价。\\n<Assistant_Title2>判断价格：</>看到明显低于基础价的商品，可考虑买入；看到明显高于基础价的订购单，可优先卖出。每站可购买和可出售数量有限，受站点、货物倍率、区域倍率与协议加成影响。\\n<Assistant_Title2>进阶建议：</>高难度路线更长，有时需要保留一定票券应对后续高价值机会。临近终点前，尽量把货物在高点卖出获取最大收益或确保折算价值足够冲评级。",
     "ref_en": "<Assistant_Title1>【Railway Tycoon-Trading Tips】</>\\n<Assistant_Title2>Core Objective: </>Buy goods at a low price at a station and sell them at a high price at a subsequent station that acquires those goods to earn the price difference. \\n<Assistant_Title2>Judging Prices: </>When you see goods significantly lower than the base price, consider buying; when you see purchase orders significantly higher than the base price, prioritize selling. The quantity that can be bought and sold at each station is limited, influenced by the station, goods multiplier, regional multiplier, and agreement bonuses. \\n<Assistant_Title2>Advanced Advice: </>High-difficulty routes are longer, and sometimes you need to reserve a certain amount of tickets to deal with subsequent high-value opportunities. Before reaching the destination, try to sell goods at a high point to obtain maximum profit or ensure the converted value is sufficient to reach the rating.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Железнодорожный магнат — Секреты торговли】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eГлавная цель: \\u003c/\\u003eПокупать товары по низкой цене на одной станции и продавать их по высокой цене на станциях скупщика, зарабатывая на разнице курсов.\\n\\u003cAssistant_Title2\\u003eОценка цен: \\u003c/\\u003eЕсли цена товара значительно ниже базовой — покупайте; если в заказе цена значительно выше базовой — продавайте в первую очередь. Количество покупок и продаж на каждой станции ограничено и зависит от станции, множителей товара и региона, а также бонусов контрактов.\\n\\u003cAssistant_Title2\\u003eСоветы мастерам: \\u003c/\\u003eМаршруты повышенной сложности длиннее, поэтому порой стоит приберечь билеты для последующих выгодных сделок. Ближе к конечной станции старайтесь сбыть товары на пике цен, чтобы получить максимальную прибыль или набрать достаточную общую стоимость для наивысшего рейтинга."
+    "target_ru": "<Assistant_Title1>【Железнодорожный магнат — Секреты торговли】</>\\n<Assistant_Title2>Главная цель: </>Покупать товары по низкой цене на одной станции и продавать их по высокой цене на станциях скупщика, зарабатывая на разнице курсов.\\n<Assistant_Title2>Оценка цен: </>Если цена товара значительно ниже базовой — покупайте; если в заказе цена значительно выше базовой — продавайте в первую очередь. Количество покупок и продаж на каждой станции ограничено и зависит от станции, множителей товара и региона, а также бонусов контрактов.\\n<Assistant_Title2>Советы мастерам: </>Маршруты повышенной сложности длиннее, поэтому порой стоит приберечь билеты для последующих выгодных сделок. Ближе к конечной станции старайтесь сбыть товары на пике цен, чтобы получить максимальную прибыль или набрать достаточную общую стоимость для наивысшего рейтинга."
   },
   {
     "id": "037059",
     "source_cn": "<DecH>工艺：</>圣白薄纱・金丝刺绣・仪典礼服\\n烈阳的光辉洒落，祈光者在晨祷中接受神圣的加冕。",
     "ref_en": "<DecH> Craft: </> Holy White Gauze · Gold Thread Embroidery · Ceremonial Gown \\n The radiance of the Blazing Sun falls, and the Prayer-seeker receives a sacred coronation during morning prayer.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eСвященный белый газ · Вышивка золотой нитью · Церемониальное облачение\\u003c/\\u003e\\nСияние Пылающего Солнца струится с небес, и Проситель Света принимает священное венчание на утренней молитве."
+    "target_ru": "<DecH>Мастерство: </><Highlight>Священный белый газ · Вышивка золотой нитью · Церемониальное облачение</>\\nСияние Пылающего Солнца струится с небес, и Проситель Света принимает священное венчание на утренней молитве."
   },
   {
     "id": "037060",
@@ -12789,7 +12789,7 @@
     "id": "037131",
     "source_cn": "烙印装备升级道具。\\n可将<Highlight>弄臣之谑</>提升至<Highlight>62装等橙色品质</>，提升时消耗<Highlight>3</>个非凡烙印。",
     "ref_en": "Imprint equipment upgrade item. \\nCan upgrade <Highlight>Jester's Jest</> to <Highlight>Level 62 orange quality</>. Consumes <Highlight>3</> Beyonder Imprints when upgrading.",
-    "target_ru": "Предмет улучшения снаряжения с клеймом.\\nПозволяет улучшить \\u003cHighlight\\u003eШутовскую проделку\\u003c/\\u003e до \\u003cHighlight\\u003eоранжевого качества 62-го ур. снаряжения\\u003c/\\u003e; при улучшении расходуется \\u003cHighlight\\u003e3\\u003c/\\u003e потусторонних клейма."
+    "target_ru": "Предмет улучшения снаряжения с клеймом.\\nПозволяет улучшить <Highlight>Шутовскую проделку</> до <Highlight>оранжевого качества 62-го ур. снаряжения</>; при улучшении расходуется <Highlight>3</> потусторонних клейма."
   },
   {
     "id": "037132",
@@ -13047,13 +13047,13 @@
     "id": "037174",
     "source_cn": "<Assistant_Title1>安全了！</>\\n<Assistant_Title2>成就分类：</>剧情-现实主线\\n<Assistant_Title2>解锁条件：</>在第四章主线中，击退异变的狼人，成功进入安全屋。",
     "ref_en": "<Assistant_Title1>Safe!</>\\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Story\\n<Assistant_Title2>Unlock Condition: </>In the fourth chapter main story, repel the mutated Werewolf and successfully enter the Safe House.",
-    "target_ru": "\\u003cAssistant_Title1\\u003eВ безопасности!\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eСюжет — Линия реальности\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВ главе 4 основного сюжета отбейте нападение мутировавшего Оборотня и благополучно доберитесь до убежища"
+    "target_ru": "<Assistant_Title1>В безопасности!</>\\n<Assistant_Title2>Категория достижения: </>Сюжет — Линия реальности\\n<Assistant_Title2>Условие открытия: </>В главе 4 основного сюжета отбейте нападение мутировавшего Оборотня и благополучно доберитесь до убежища"
   },
   {
     "id": "037175",
     "source_cn": "<Highlight>工艺：</>素色棉麻・简约淡雅\\n毫无染饰的天然面料，象征灵魂初始之洁。",
     "ref_en": "<Highlight>Craft: </>Plain Cotton and Linen/Simple and Elegant\\nUndyed natural fabric, symbolizing the initial purity of the soul.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eОднотонный лён и хлопок · Скромное изящество\\u003c/\\u003e\\nНеокрашенное натуральное полотно, символизирующее первозданную чистоту души."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Однотонный лён и хлопок · Скромное изящество</>\\nНеокрашенное натуральное полотно, символизирующее первозданную чистоту души."
   },
   {
     "id": "037176",
@@ -13863,19 +13863,19 @@
     "id": "037310",
     "source_cn": "<Assistant_Title1>人形圣水</>\\n<Assistant_Title2>成就分类：</>跑团-教团\\n<Assistant_Title2>解锁条件：</>为非凡者恢复san值时累计成功20次",
     "ref_en": "<Assistant_Title1>Human Holy Water</>\\n<Assistant_Title2>Achievement Category: </>TRPG-Organization\\n<Assistant_Title2>Unlock Condition: </>Successfully restore sanity to Beyonders 20 times in total",
-    "target_ru": "\\u003cAssistant_Title1\\u003eЖивая святая вода\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eМодули TRPG — Культ\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eУспешно восстановите рассудок (SAN) Потусторонним 20 раз суммарно"
+    "target_ru": "<Assistant_Title1>Живая святая вода</>\\n<Assistant_Title2>Категория достижения: </>Модули TRPG — Культ\\n<Assistant_Title2>Условие открытия: </>Успешно восстановите рассудок (SAN) Потусторонним 20 раз суммарно"
   },
   {
     "id": "037311",
     "source_cn": "<Assistant_Title1>守护者的馈赠</>\\n<Assistant_Title2>成就分类：</>养成-封印物\\n<Assistant_Title2>解锁条件：</>获得1个带有<守护者>词条的非凡物质",
     "ref_en": "<Assistant_Title1>Gift of the Guardian</>\\n<Assistant_Title2>Achievement Category:</>Cultivation - Sealed Artifact\\n<Assistant_Title2>Unlock Condition:</>Obtain 1 Extraordinary material with the <Guardian> entry.",
-    "target_ru": "\\u003cAssistant_Title1\\u003eДар Хранителя\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Запечатанный Артефакт\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПолучите 1 потустороннее вещество со свойством \\u003c守护者\\u003e"
+    "target_ru": "<Assistant_Title1>Дар Хранителя</>\\n<Assistant_Title2>Категория достижения: </>Развитие — Запечатанный Артефакт\\n<Assistant_Title2>Условие открытия: </>Получите 1 потустороннее вещество со свойством <守护者>"
   },
   {
     "id": "037312",
     "source_cn": "<Assistant_Title1>安魂邀约</>\\n<Assistant_Title2>成就分类：</>跑团-教团\\n<Assistant_Title2>解锁条件：</>加入教团【安魂诗社】",
     "ref_en": "<Assistant_Title1>Requiem Invitation</>\\n<Assistant_Title2>Achievement Category: </>TRPG-Organization\\n<Assistant_Title2>Unlock Condition: </>Join the organization [Requiem Poetry Society]",
-    "target_ru": "\\u003cAssistant_Title1\\u003eПриглашение на реквием\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eМодули TRPG — Культ\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВступите в культ 【Поэтический кружок Реквиема】"
+    "target_ru": "<Assistant_Title1>Приглашение на реквием</>\\n<Assistant_Title2>Категория достижения: </>Модули TRPG — Культ\\n<Assistant_Title2>Условие открытия: </>Вступите в культ 【Поэтический кружок Реквиема】"
   },
   {
     "id": "037313",
@@ -14739,7 +14739,7 @@
     "id": "037456",
     "source_cn": "1.主宰争锋玩法为<Highlight>公平3v3模式</>，双方队伍均已进行<Highlight>属性平衡</>。\\n2.进入主宰争锋场景后，双方队伍出生在地图两边的准备区域中。玩法开启后，双方队伍可进入到战斗区域内进行战斗。\\n3.在主宰争锋玩法里死亡后<Highlight>不可复活</>，死亡玩家以隐身状态观看其他玩家进行战斗。",
     "ref_en": "1. The Dominator's Clash mode is a <Highlight> fair 3v3 mode </>, where both teams have undergone <Highlight> attribute balancing </>. \\n 2. After entering the Dominator's Clash scene, both teams spawn in the preparation areas on either side of the map. Once the mode begins, both teams can enter the Combat Area to engage in battle. \\n 3. In the Dominator's Clash mode, players <Highlight> cannot be resurrected </> after death; dead players watch other players fight in an invisible state.",
-    "target_ru": "1. Режим «Битва Владык» представляет собой \\u003cHighlight\\u003eчестный бой 3 на 3\\u003c/\\u003e, где характеристики обеих команд \\u003cHighlight\\u003eуравновешены\\u003c/\\u003e.\\n2. После загрузки на поле боя обе команды появляются в подготовительных зонах по разные стороны карты. После начала раунда команды выходят на боевую арену для сражения.\\n3. В режиме «Битва Владык» после гибели \\u003cHighlight\\u003eнельзя воскреснуть\\u003c/\\u003e; павшие игроки переходят в состояние невидимости и наблюдают за боем остальных."
+    "target_ru": "1. Режим «Битва Владык» представляет собой <Highlight>честный бой 3 на 3</>, где характеристики обеих команд <Highlight>уравновешены</>.\\n2. После загрузки на поле боя обе команды появляются в подготовительных зонах по разные стороны карты. После начала раунда команды выходят на боевую арену для сражения.\\n3. В режиме «Битва Владык» после гибели <Highlight>нельзя воскреснуть</>; павшие игроки переходят в состояние невидимости и наблюдают за боем остальных."
   },
   {
     "id": "037457",
@@ -14757,7 +14757,7 @@
     "id": "037459",
     "source_cn": "<Assistant_Title1>【冰雪之链】</>\\n<Assistant_Title2>描述：</>序列晋升奖励饰品\\n<Assistant_Title2>使用：</>使用后获得冰雪之链，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>序列晋升</>获取",
     "ref_en": "<Assistant_Title1>【Chain of Ice and Snow】</>\\n<Assistant_Title2>Description: </>Accessory rewarded for Sequence advancement\\n<Assistant_Title2>Usage: </>After use, you will obtain the Chain of Ice and Snow. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Obtain through <Assistant_System>Sequence advancement</>.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Цепь льда и снега】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eУкрашение в награду за повышение Последовательности\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует украшение «Цепь льда и снега». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и надеть его.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eНаграда за \\u003cAssistant_System\\u003eповышение Последовательности\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Цепь льда и снега】</>\\n<Assistant_Title2>Описание: </>Украшение в награду за повышение Последовательности\\n<Assistant_Title2>Использование: </>При использовании дарует украшение «Цепь льда и снега». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\\n<Assistant_Title2>Получение: </>Награда за <Assistant_System>повышение Последовательности</>"
   },
   {
     "id": "037460",
@@ -15441,7 +15441,7 @@
     "id": "037573",
     "source_cn": "选择风格——选择不同风格，生成的建筑群外形、高度、外观也会完全不同。\\n\\n如何解锁风格——<Highlight>解锁风格下所有家具</>后，自动解锁该风格。\\n\\n自定义风格——选择自定义风格，可以定制自己想要的建筑形制。\\n",
     "ref_en": "Select Style — Choosing different styles will result in completely different shapes, heights, and appearances for the generated building complex. \\n \\n How to unlock styles — <Highlight> After unlocking all furniture under a style </>, that style is automatically unlocked. \\n \\n Custom Style — Select custom style to customize the building form you want. \\n",
-    "target_ru": "Выбор стиля: при выборе различных стилей форма, высота и внешний вид возводимого архитектурного ансамбля будут полностью отличаться.\\n\\nКак открыть стиль: стиль становится доступен автоматически после того, как вы \\u003cHighlight\\u003eоткроете всю мебель этого стиля\\u003c/\\u003e.\\n\\nПользовательский стиль: позволяет гибко настроить желаемые архитектурные формы.\\n"
+    "target_ru": "Выбор стиля: при выборе различных стилей форма, высота и внешний вид возводимого архитектурного ансамбля будут полностью отличаться.\\n\\nКак открыть стиль: стиль становится доступен автоматически после того, как вы <Highlight>откроете всю мебель этого стиля</>.\\n\\nПользовательский стиль: позволяет гибко настроить желаемые архитектурные формы.\\n"
   },
   {
     "id": "037574",
@@ -15501,13 +15501,13 @@
     "id": "037583",
     "source_cn": "<Assistant_Title1>【战士】</>\\n<Assistant_Title2>描述：</>默认展台表情贴纸\\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\\n<Assistant_Title2>获取：</>默认解锁",
     "ref_en": "<Assistant_Title1>【Warrior】</>\\n<Assistant_Title2>Description: </>Default display stand sticker\\n<Assistant_Title2>Usage: </>You can click <Assistant_System>Appearance - Display Stand</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Unlocked by default.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Воин】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eБазовый стикер-эмоция для витрины\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eНажмите \\u003cAssistant_System\\u003eВнешний вид — Витрина\\u003c/\\u003e, чтобы просмотреть и применить.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eДоступно по умолчанию"
+    "target_ru": "<Assistant_Title1>【Воин】</>\\n<Assistant_Title2>Описание: </>Базовый стикер-эмоция для витрины\\n<Assistant_Title2>Использование: </>Нажмите <Assistant_System>Внешний вид — Витрина</>, чтобы просмотреть и применить.\\n<Assistant_Title2>Получение: </>Доступно по умолчанию"
   },
   {
     "id": "037584",
     "source_cn": "<Highlight>工艺：</>纤白纱裙・鲜红宝饰・舞剧演出服\\n咏叹之白在裙裾间盛放，宣叙之金在大氅下翻涌，帷幕之下，他们谱写永不停歇的华章。",
     "ref_en": "<Highlight> Craft: </> Slim White Gauze · Bright Red Jewelry · Dance Drama Costume \\n The white of the aria blooms in the skirt, the gold of the recitative surges under the cloak; beneath the curtain, they compose an endless masterpiece.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eБелоснежный фатин · Алые самоцветы · Балетный сценический костюм\\u003c/\\u003e\\nБелизна арии расцветает в подоле, золото речитатива вздымается под плащом — под сенью кулис они слагают нескончаемый гимн искусству."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Белоснежный фатин · Алые самоцветы · Балетный сценический костюм</>\\nБелизна арии расцветает в подоле, золото речитатива вздымается под плащом — под сенью кулис они слагают нескончаемый гимн искусству."
   },
   {
     "id": "037585",
@@ -15645,7 +15645,7 @@
     "id": "037607",
     "source_cn": "佐特兰街\\r\\n<LeonSubTitle size=\"38\">Zouteland Street</>",
     "ref_en": "Zoutland Street\\n<LeonSubTitle size=\"38\">Zoutland Street</>",
-    "target_ru": "Улица Зотлэнд\\r\\n\\u003cLeonSubTitle size=\"38\"\\u003eZouteland Street\\u003c/\\u003e"
+    "target_ru": "Улица Зотлэнд\\r\\n<LeonSubTitle size=\"38\">Zouteland Street</>"
   },
   {
     "id": "037608",
@@ -16179,13 +16179,13 @@
     "id": "037696",
     "source_cn": "<Assistant_Title1>庆祝大丰收</>\\n<Assistant_Title2>成就分类：</>冒险-队伍副本\\n<Assistant_Title2>解锁条件：</>通关丰饶之树困难难度",
     "ref_en": "<Assistant_Title1>Celebrate Great Harvest</>\\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\\n<Assistant_Title2>Unlock Condition: </>Clear Tree of Abundance on Hard difficulty",
-    "target_ru": "\\u003cAssistant_Title1\\u003eПраздник богатого урожая\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПройдите подземелье «Древо Изобилия» на высоком уровне сложности"
+    "target_ru": "<Assistant_Title1>Праздник богатого урожая</>\\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\\n<Assistant_Title2>Условие открытия: </>Пройдите подземелье «Древо Изобилия» на высоком уровне сложности"
   },
   {
     "id": "037697",
     "source_cn": "<DecH>工艺：</>云纱堆叠・晨露缀饰・芬芳纱裙\\n清晨雾霭之中，有精灵留下踪迹。",
     "ref_en": "<DecH> Craft: </> Cloud Gauze Stacking - Morning Dew Ornament - Fragrant Gauze Skirt \\n In the morning mist, spirits have left their traces.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eМногослойный тюль · Бусины утренней росы · Благоухающее платье\\u003c/\\u003e\\nВ рассветном тумане эльфы оставили свои следы."
+    "target_ru": "<DecH>Мастерство: </><Highlight>Многослойный тюль · Бусины утренней росы · Благоухающее платье</>\\nВ рассветном тумане эльфы оставили свои следы."
   },
   {
     "id": "037698",
@@ -16545,7 +16545,7 @@
     "id": "037757",
     "source_cn": "战争巨龙锁定 <Disable>3 名非凡者</>喷吐火球，火球落地后发生爆炸，并在地面留下<Disable>持续燃烧</>的烈焰区域。",
     "ref_en": "The War Dragon locks onto <Disable>3 Beyonders</> and spits fireballs. After the fireballs land, they explode and leave <Disable>continuously burning</> flame zones on the ground.",
-    "target_ru": "Дракон Войны выбирает целью \\u003cDisable\\u003e3 Потусторонних\\u003c/\\u003e и извергает огненные шары, которые взрываются при падении и оставляют на земле \\u003cDisable\\u003eнепрерывно горящие\\u003c/\\u003e огненные зоны."
+    "target_ru": "Дракон Войны выбирает целью <Disable>3 Потусторонних</> и извергает огненные шары, которые взрываются при падении и оставляют на земле <Disable>непрерывно горящие</> огненные зоны."
   },
   {
     "id": "037758",
@@ -16809,7 +16809,7 @@
     "id": "037801",
     "source_cn": "选择组件——指定自己喜欢的组件（地板、墙等），确认后生成的建筑群<Highlight>只会使用指定的组件</>。\\n\\n生成规则——如果同一个类型（地板、墙等）下指定了多种组件，那么生成的每个建筑都会随机应用其中一种。\\n\\n查看生成效果——点击生成按钮后，会先生成建筑群预览效果，如果不满意可以点击按钮刷新。\\n\\n小贴士：想要生成一个大建筑群，可以分成多次、每次圈选一小块区域生成，这样最终效果会更加可控。",
     "ref_en": "Select Components—Specify your preferred components (floors, walls, etc.). After you Confirm, the generated building complex <Highlight> will only use the specified components </>. \\n\\nGeneration Rules—If multiple components are specified for the same type (floors, walls, etc.), each generated building will randomly apply one of them. \\n\\nView Generation Results—After clicking the Generate button, a preview of the building complex will be generated first. If you are not satisfied, you can click the button to refresh it. \\n\\nTips: If you want to generate a large building complex, you can do it in multiple stages by selecting a small area each time. This will make the final result more controllable.",
-    "target_ru": "Выбор деталей: укажите желаемые элементы (полы, стены и т. д.), и после подтверждения архитектурный комплекс \\u003cHighlight\\u003eбудет использовать исключительно выбранные детали\\u003c/\\u003e.\\n\\nПравило генерации: если для одного типа (пол, стены и т. д.) выбрано несколько вариантов, каждое созданное здание случайным образом использует один из них.\\n\\nПредпросмотр: после нажатия кнопки создания сначала отобразится предварительный вид постройки. Если результат вас не устроит, нажмите кнопку обновления.\\n\\nСовет: если вы хотите возвести масштабный комплекс, разбивайте процесс на этапы, каждый раз выбирая небольшую область — так итоговый результат будет гораздо лучше поддаваться контролю."
+    "target_ru": "Выбор деталей: укажите желаемые элементы (полы, стены и т. д.), и после подтверждения архитектурный комплекс <Highlight>будет использовать исключительно выбранные детали</>.\\n\\nПравило генерации: если для одного типа (пол, стены и т. д.) выбрано несколько вариантов, каждое созданное здание случайным образом использует один из них.\\n\\nПредпросмотр: после нажатия кнопки создания сначала отобразится предварительный вид постройки. Если результат вас не устроит, нажмите кнопку обновления.\\n\\nСовет: если вы хотите возвести масштабный комплекс, разбивайте процесс на этапы, каждый раз выбирая небольшую область — так итоговый результат будет гораздо лучше поддаваться контролю."
   },
   {
     "id": "037802",
@@ -16893,13 +16893,13 @@
     "id": "037815",
     "source_cn": "<Assistant_Title1>困难·一号信徒</>\\n<Assistant_Title2>成就分类：</>冒险-团队副本\\n<Assistant_Title2>解锁条件：</>击杀困难难度一号信徒",
     "ref_en": "<Assistant_Title1>Hard · Believer Number One</>\\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\\n<Assistant_Title2>Unlock Condition: </>Defeat Believer Number One on Hard difficulty",
-    "target_ru": "\\u003cAssistant_Title1\\u003eСложно: Верующий №1\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eОдолейте Верующего №1 на высоком уровне сложности"
+    "target_ru": "<Assistant_Title1>Сложно: Верующий №1</>\\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\\n<Assistant_Title2>Условие открытия: </>Одолейте Верующего №1 на высоком уровне сложности"
   },
   {
     "id": "037816",
     "source_cn": "<Default_L>剩余时间</>\\r\\n<Brown_L>00</>小时<Brown_L>00</>分钟",
     "ref_en": "<Default_L>Remaining Time</>\\r\\n<Brown_L>00</> hours <Brown_L>00</> minutes",
-    "target_ru": "\\u003cDefault_L\\u003eОсталось времени\\u003c/\\u003e\\r\\n\\u003cBrown_L\\u003e00\\u003c/\\u003e ч. \\u003cBrown_L\\u003e00\\u003c/\\u003e мин."
+    "target_ru": "<Default_L>Осталось времени</>\\r\\n<Brown_L>00</> ч. <Brown_L>00</> мин."
   },
   {
     "id": "037817",
@@ -16911,7 +16911,7 @@
     "id": "037818",
     "source_cn": "<Highlight>工艺：</>蓝白蕾丝・童话礼服\\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白菱格的俏皮礼服，加入怪诞奇妙的茶会。",
     "ref_en": "<Highlight>Craftsmanship: </>Blue-White Lace & Fairytale Gown\\nEven if you are an accidental guest, please follow the etiquette of dress. Put on the playful blue-and-white diamond-patterned gown and join the whimsical tea party.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eСине-белое кружево · Сказочное платье\\u003c/\\u003e\\nДаже случайный гость обязан соблюдать правила этикета: облачитесь в игривый наряд в сине-белый ромбик и присоединяйтесь к причудливому чаепитию."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Сине-белое кружево · Сказочное платье</>\\nДаже случайный гость обязан соблюдать правила этикета: облачитесь в игривый наряд в сине-белый ромбик и присоединяйтесь к причудливому чаепитию."
   },
   {
     "id": "037819",
@@ -17295,7 +17295,7 @@
     "id": "037882",
     "source_cn": "忽视目标的魔法格挡，在基础穿刺率<Highlight>75%</>的基础上，提高魔法伤害穿刺（未被格挡）的概率。\\n穿刺率存在<Highlight>100%</>的上限和<Highlight>25%</>的下限，提升的穿刺超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>魔法格挡</>属性的对抗结算。",
     "ref_en": "Ignores the target's Magic Block. Based on the base Pierce rate of <Highlight> 75% </>, it increases the probability of magic damage piercing (not being blocked). \\n The Pierce rate has an upper limit of <Highlight> 100% </> and a lower limit of <Highlight> 25% </>; if the increased Pierce exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage boosting capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Magic Block </> attribute.",
-    "target_ru": "Игнорирует магический блок цели и повышает вероятность пробивания магического урона (без блокирования) сверх базового показателя пробивания в \\u003cHighlight\\u003e75%\\u003c/\\u003e.\\nПоказатель пробивания ограничен верхним пределом в \\u003cHighlight\\u003e100%\\u003c/\\u003e и нижним пределом в \\u003cHighlight\\u003e25%\\u003c/\\u003e; повышение пробивания выше верхнего предела не даёт дополнительного прироста урона.\\nФактический эффект и пороги зависят от соотношения \\u003cHighlight\\u003eуровней\\u003c/\\u003e атакующего и защищающегося, а также от расчёта противостояния показателю \\u003cHighlight\\u003eмагического блока\\u003c/\\u003e цели."
+    "target_ru": "Игнорирует магический блок цели и повышает вероятность пробивания магического урона (без блокирования) сверх базового показателя пробивания в <Highlight>75%</>.\\nПоказатель пробивания ограничен верхним пределом в <Highlight>100%</> и нижним пределом в <Highlight>25%</>; повышение пробивания выше верхнего предела не даёт дополнительного прироста урона.\\nФактический эффект и пороги зависят от соотношения <Highlight>уровней</> атакующего и защищающегося, а также от расчёта противостояния показателю <Highlight>магического блока</> цели."
   },
   {
     "id": "037883",
@@ -17667,13 +17667,13 @@
     "id": "037944",
     "source_cn": "<Assistant_Title1>【战士时装】</>\\n<Assistant_Title2>描述：</>序列晋升奖励时装\\n<Assistant_Title2>使用：</>使用后获得战士时装套装，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过签到获取限时时装，后可通过<Assistant_System>序列晋升</>获取永久时装",
     "ref_en": "<Assistant_Title1>【Warrior Outfit】</>\\n<Assistant_Title2>Description: </>Sequence Advancement Reward Outfit\\n<Assistant_Title2>Usage: </>After use, you will obtain the Warrior Outfit set. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it. \\n<Assistant_Title2>Acquisition: </>Obtain limited-time outfit via check-in, then obtain permanent outfit via <Assistant_System>Sequence advancement</>",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Костюм Воина】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eНаряд в награду за повышение Последовательности\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует комплект наряда Воина. Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и надеть его.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eВременный наряд выдаётся за вход в игру; постоянный наряд открывается через \\u003cAssistant_System\\u003eповышение Последовательности\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Костюм Воина】</>\\n<Assistant_Title2>Описание: </>Наряд в награду за повышение Последовательности\\n<Assistant_Title2>Использование: </>При использовании дарует комплект наряда Воина. Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\\n<Assistant_Title2>Получение: </>Временный наряд выдаётся за вход в игру; постоянный наряд открывается через <Assistant_System>повышение Последовательности</>"
   },
   {
     "id": "037945",
     "source_cn": "<Highlight>工艺：</>不灭力量熔铸\\n不灭之力如活化血肉般滚烫。",
     "ref_en": "<Highlight>Craft: </>Forged with Undying Power\\nUndying Power is as scalding as living flesh.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003e\\u003cHighlight\\u003eВыплавлено нерушимой мощью\\u003c/\\u003e\\nНерушимая сила пышет жаром, словно ожившая плоть."
+    "target_ru": "<Highlight>Мастерство: </><Highlight>Выплавлено нерушимой мощью</>\\nНерушимая сила пышет жаром, словно ожившая плоть."
   },
   {
     "id": "037946",
@@ -18309,7 +18309,7 @@
     "id": "038051",
     "source_cn": "\\n龙啸将至。\\n我将不<Hide id=\"#157\">畏高、不惧火、不后退。我将不恋温床，不贪安逸，</>不向恐惧低头。\\n我这平庸的人生，注定<Hide id=\"#157\">光辉万丈</>。\\n我要将旗帜，<Hide id=\"#157\">插在最高</>的地方。\\n我是刺向龙<Hide id=\"#157\">心的长矛，龙焰中的坚盾，风暴里的号角，黑暗之中的光芒。</>\\n为猎龙献上生命与心脏！\\n\\n猎龙人：凯文·斯托克   <Hide id=\"#157\">瑞尔·比</>伯",
     "ref_en": "\\nDragon's roar is coming.\\nI will not <Hide id=\"#157\">fear heights, fear fire, or retreat. I will not cling to a warm bed, or covet comfort,</> or bow to horror.\\nThis mediocre life of mine is destined to be <Hide id=\"#157\">glorious</>.\\nI will plant the flag <Hide id=\"#157\">at the highest</> place.\\nI am the spear piercing the dragon's <Hide id=\"#157\">heart, the shield in the dragon's fire, the horn in the storm, the light in the darkness.</>\\nOffer my life and heart for dragon hunting!\\n\\nDragon Hunter: Kevin Stock   <Hide id=\"#157\">Ray Bieber</>",
-    "target_ru": "\\nБлизится рёв дракона.\\nЯ не \\u003cHide id=\"#157\"\\u003eубоюсь высоты, не убоюсь пламени, не отступлю назад. Я отрину мягкую постель, отрину праздный покой\\u003c/\\u003e и не склонюсь перед страхом.\\nМоей заурядной жизни суждено \\u003cHide id=\"#157\"\\u003eозариться великой славой\\u003c/\\u003e.\\nЯ водружу знамя \\u003cHide id=\"#157\"\\u003eна высочайшей\\u003c/\\u003e вершине.\\nЯ — копьё, разящее драконье \\u003cHide id=\"#157\"\\u003eсердце, щит посреди драконьего пламени, боевой рог в буре, свет во тьме.\\u003c/\\u003e\\nОтдадим же жизнь и сердце охоте на драконов!\\n\\nОхотник на драконов: Кевин Сток   \\u003cHide id=\"#157\"\\u003eРэй Би\\u003c/\\u003eбер"
+    "target_ru": "\\nБлизится рёв дракона.\\nЯ не <Hide id=\"#157\">убоюсь высоты, не убоюсь пламени, не отступлю назад. Я отрину мягкую постель, отрину праздный покой</> и не склонюсь перед страхом.\\nМоей заурядной жизни суждено <Hide id=\"#157\">озариться великой славой</>.\\nЯ водружу знамя <Hide id=\"#157\">на высочайшей</> вершине.\\nЯ — копьё, разящее драконье <Hide id=\"#157\">сердце, щит посреди драконьего пламени, боевой рог в буре, свет во тьме.</>\\nОтдадим же жизнь и сердце охоте на драконов!\\n\\nОхотник на драконов: Кевин Сток   <Hide id=\"#157\">Рэй Би</>бер"
   },
   {
     "id": "038052",
@@ -18357,7 +18357,7 @@
     "id": "038059",
     "source_cn": "<Red>尖啸虚弱</>：携带者脱离尖啸刺激时，若依然身处战斗之中，则会陷入虚弱，降低5%的攻击、15%移动速度。直至离开战斗，或者再次戴上面具，才能摆脱虚弱。\\n<Red>排异</>：战斗中每隔30秒，随机一条非凡物质词条属性失效。",
     "ref_en": "<Red>Screech Weakness</>: When the wearer leaves Screech Stimulation, if they are still in combat, they will fall into Weakness, reducing Attack by 5% and movement speed by 15%. This persists until leaving combat or putting the mask back on. \\n<Red>Rejection</>: Every 30 seconds during combat, one random Beyonder material entry attribute becomes ineffective.",
-    "target_ru": "\\u003cRed\\u003eСлабость от вопля\\u003c/\\u003e: когда носитель выходит из состояния «Стимуляция воплем», оставаясь в бою, он впадает в слабость: его атака снижается на 5%, а скорость передвижения — на 15%. Эффект спадает только после выхода из боя или повторного надевания маски.\\n\\u003cRed\\u003eОтторжение\\u003c/\\u003e: каждые 30 сек. в бою случайное свойство потустороннего вещества перестаёт действовать."
+    "target_ru": "<Red>Слабость от вопля</>: когда носитель выходит из состояния «Стимуляция воплем», оставаясь в бою, он впадает в слабость: его атака снижается на 5%, а скорость передвижения — на 15%. Эффект спадает только после выхода из боя или повторного надевания маски.\\n<Red>Отторжение</>: каждые 30 сек. в бою случайное свойство потустороннего вещества перестаёт действовать."
   },
   {
     "id": "038060",
@@ -18981,7 +18981,7 @@
     "id": "038163",
     "source_cn": "<Assistant_Title1>【穹星】</>\\n<Assistant_Title2>描述：</>神眷翅膀\\n<Assistant_Title2>使用：</>使用后获得穹星，可点击<Assistant_System>外观-换装-翅膀</>查看并使用。\\n<Assistant_Title2>获取：</><Assistant_System>召唤-灵界焕容-美神馈赠商店</>中使用<Assistant_Red>2</>张神眷牌兑换",
     "ref_en": "<Assistant_Title1>【Dome Star】</>\\n<Assistant_Title2>Description: </>God-favored Wings\\n<Assistant_Title2>Usage: </>After use, you will obtain the Dome Star. You can click <Assistant_System>Appearance - Change Outfit - Wings</> to view and use it. \\n<Assistant_Title2>Acquisition: </>Exchange using <Assistant_Red>2</> God-favored Cards in the <Assistant_System>Summon - Spirit World Transformation - Goddess's Gift Shop</>",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Небосводная звезда】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eБлагословенные богами крылья\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует крылья «Небосводная звезда». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб — Крылья\\u003c/\\u003e, чтобы просмотреть и надеть их.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eОбменивается на \\u003cAssistant_Red\\u003e2\\u003c/\\u003e Карты благословения богов в меню \\u003cAssistant_System\\u003eПризыв — Облик мира духов — Лавка даров Богини красоты\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Небосводная звезда】</>\\n<Assistant_Title2>Описание: </>Благословенные богами крылья\\n<Assistant_Title2>Использование: </>При использовании дарует крылья «Небосводная звезда». Нажмите <Assistant_System>Внешний вид — Гардероб — Крылья</>, чтобы просмотреть и надеть их.\\n<Assistant_Title2>Получение: </>Обменивается на <Assistant_Red>2</> Карты благословения богов в меню <Assistant_System>Призыв — Облик мира духов — Лавка даров Богини красоты</>"
   },
   {
     "id": "038164",
@@ -19101,7 +19101,7 @@
     "id": "038183",
     "source_cn": "使用后解锁专属投骰结算皮肤<Highlight>【好运之触】</>。\\n灵性触动的一瞬间，总是带来好运，大胆地赌上一切吧。",
     "ref_en": "Use to unlock the exclusive dice settlement skin <Highlight> [Touch of Good Luck] </>. \\n The moment spirituality is touched, it always brings good luck; bet everything boldly.",
-    "target_ru": "При использовании открывает эксклюзивный облик броска костей \\u003cHighlight\\u003e【Прикосновение удачи】\\u003c/\\u003e.\\nВ миг, когда откликается духовность, всегда приходит удача — смело ставьте на кон всё!"
+    "target_ru": "При использовании открывает эксклюзивный облик броска костей <Highlight>【Прикосновение удачи】</>.\\nВ миг, когда откликается духовность, всегда приходит удача — смело ставьте на кон всё!"
   },
   {
     "id": "038184",
@@ -19671,7 +19671,7 @@
     "id": "038278",
     "source_cn": "<Red>灌注灵性</>：佩戴者扣下扳机时，消耗自身20点体力值作为代价，若体力不足20点，则清空体力，并在接下来的2秒内无法恢复体力。\\n<Red>弱点反噬</>：佩戴者使用丧钟后的2秒内，无法继续揭露弱点。期间减伤降低*f**。\\n<Red>排异</>：战斗中每隔30秒，随机一条非凡物质词条属性失效。",
     "ref_en": "<Red>Infusing Spirituality</>: When the wearer pulls the trigger, they consume 20 points of their own Stamina as a cost. If Stamina is less than 20, all Stamina is cleared, and they cannot recover Stamina for the next 2 seconds. \\n<Red>Weakness Backlash</>: Within 2 seconds after the wearer uses Death Knell, they cannot continue to expose weaknesses. During this time, Damage Reduction is lowered by *f**. \\n<Red>Rejection</>: Every 30 seconds during combat, one random Beyonder material attribute becomes ineffective.",
-    "target_ru": "\\u003cRed\\u003eВливание духовности\\u003c/\\u003e: спуская курок, владелец тратит 20 очков выносливости в качестве платы; если выносливости меньше 20 очков, она полностью обнуляется и не восстанавливается в течение следующих 2 сек.\\n\\u003cRed\\u003eОтдача слабости\\u003c/\\u003e: в течение 2 сек. после выстрела из «Погребального Звона» владелец не может выявлять уязвимости, а снижение получаемого урона уменьшается на *f**.\\n\\u003cRed\\u003eОтторжение\\u003c/\\u003e: каждые 30 сек. в бою случайное свойство потустороннего вещества перестаёт действовать."
+    "target_ru": "<Red>Вливание духовности</>: спуская курок, владелец тратит 20 очков выносливости в качестве платы; если выносливости меньше 20 очков, она полностью обнуляется и не восстанавливается в течение следующих 2 сек.\\n<Red>Отдача слабости</>: в течение 2 сек. после выстрела из «Погребального Звона» владелец не может выявлять уязвимости, а снижение получаемого урона уменьшается на *f**.\\n<Red>Отторжение</>: каждые 30 сек. в бою случайное свойство потустороннего вещества перестаёт действовать."
   },
   {
     "id": "038279",
@@ -20565,19 +20565,19 @@
     "id": "038427",
     "source_cn": "<Assistant_Title1>【展台·坐姿】</>\\n<Assistant_Title2>描述：</>世界冒险玩法奖励展台动作\\n<Assistant_Title2>使用：</>使用后获得展台·坐姿，可点击<Assistant_System>外观-展台</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>商城-百货-冒险商店</>使用冒险勋章兑换",
     "ref_en": "<Assistant_Title1>【Display Stand - Sitting】</>\\n<Assistant_Title2>Description: </>World Adventure gameplay reward display action.\\n<Assistant_Title2>Usage: </>Use to obtain the Display Stand - Sitting. You can view and use it by clicking <Assistant_System>Appearance - Display Stand</>.\\n<Assistant_Title2>Acquisition: </>Exchange using Adventure Medals in <Assistant_System>Shop - General Goods - Adventure Shop</>.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Витрина: Сидячая поза】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eПоза для витрины в награду за мировые приключения\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует позу «Витрина: Сидячая поза». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Витрина\\u003c/\\u003e, чтобы просмотреть и применить.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eОбменивается на Медали приключений в меню \\u003cAssistant_System\\u003eМагазин — Универмаг — Лавка приключений\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Витрина: Сидячая поза】</>\\n<Assistant_Title2>Описание: </>Поза для витрины в награду за мировые приключения\\n<Assistant_Title2>Использование: </>При использовании дарует позу «Витрина: Сидячая поза». Нажмите <Assistant_System>Внешний вид — Витрина</>, чтобы просмотреть и применить.\\n<Assistant_Title2>Получение: </>Обменивается на Медали приключений в меню <Assistant_System>Магазин — Универмаг — Лавка приключений</>"
   },
   {
     "id": "038428",
     "source_cn": "<Assistant_Title1>【幽灵船舵】</>\\n<Assistant_Title2>描述：</>神眷池饰品\\n<Assistant_Title2>使用：</>使用后获得幽灵船舵，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>召唤-灵界焕容</>获得",
     "ref_en": "<Assistant_Title1>【Ghost Ship Helm】</>\\n<Assistant_Title2>Description:</>God-Favored Pool Accessory\\n<Assistant_Title2>Use:</>After use, obtain the Ghost Ship Helm; you can click <Assistant_System>Appearance-Change Outfit</> to view and use it.\\n<Assistant_Title2>Acquisition:</>Obtained via <Assistant_System>Summon-Spirit World Renewal</>",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Штурвал корабля-призрака】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eУкрашение из пула благословения богов\\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании дарует украшение «Штурвал корабля-призрака». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и надеть его.\\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eМожно получить в меню \\u003cAssistant_System\\u003eПризыв — Облик мира духов\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Штурвал корабля-призрака】</>\\n<Assistant_Title2>Описание: </>Украшение из пула благословения богов\\n<Assistant_Title2>Использование: </>При использовании дарует украшение «Штурвал корабля-призрака». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\\n<Assistant_Title2>Получение: </>Можно получить в меню <Assistant_System>Призыв — Облик мира духов</>"
   },
   {
     "id": "038429",
     "source_cn": "<Assistant_Title1>【意外的访客】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>诡异的自杀，意外的穿越，陌生又熟悉的世界。此时有人敲响了房门，外面是朋友还是敌人？\\n<Assistant_Title2>领取方式：</>第一赛季第二天解锁。完成原著剧情《灰雾之上》，且扮演等级达到<Assistant_Red>41级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯、装备",
     "ref_en": "<Assistant_Title1>【Unexpected Visitor】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story </>\\n<Assistant_Title2>Quest Description: </>A bizarre suicide, an accidental transmigration, a world both strange and familiar. At this moment, someone knocks on the door. Is it a friend or an enemy outside? \\n<Assistant_Title2>How to Accept: </>Unlocked on the second day of the first season. Automatically accepted after completing the original story \"Above the Gray Fog\" and reaching <Assistant_Red>Acting Level 41</>. \\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soule, Bound Gold Pound, Historical Beacon, Equipment",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Нежданный гость】\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eТип задания: \\u003c/\\u003e\\u003cAssistant_Property2\\u003eКанонический сюжет\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eОписание задания: \\u003c/\\u003eЗагадочное самоубийство, внезапное перемещение души, чужой и в то же время знакомый мир. И тут в дверь раздаётся стук: друг или враг за порогом?\\n\\u003cAssistant_Title2\\u003eКак получить: \\u003c/\\u003eОткрывается на 2-й день первого сезона. Выдаётся автоматически после прохождения канонической главы «Над серым туманом» по достижении \\u003cAssistant_Red\\u003e41-го уровня\\u003c/\\u003e лицедейства.\\n\\u003cAssistant_Title2\\u003eНаграды за задание\\u003c/\\u003e: Опыт познания, Привязанные соли, Привязанные золотые фунты, Светоч истории, Снаряжение"
+    "target_ru": "<Assistant_Title1>【Нежданный гость】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Канонический сюжет</>\\n<Assistant_Title2>Описание задания: </>Загадочное самоубийство, внезапное перемещение души, чужой и в то же время знакомый мир. И тут в дверь раздаётся стук: друг или враг за порогом?\\n<Assistant_Title2>Как получить: </>Открывается на 2-й день первого сезона. Выдаётся автоматически после прохождения канонической главы «Над серым туманом» по достижении <Assistant_Red>41-го уровня</> лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, Привязанные соли, Привязанные золотые фунты, Светоч истории, Снаряжение"
   },
   {
     "id": "038430",
@@ -20589,7 +20589,7 @@
     "id": "038431",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>本周俱乐部积分已结算，您的俱乐部排名为%s，可获得%s个俱乐部英雄名额！<HyperLink stylename=\"M_Link\" u=\"jump=1302513\">点击前往设置俱乐部英雄！</></>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>The club points for this week have been settled. Your club's ranking is %s, and you can receive %s club hero slots! <HyperLink stylename=\"M_Link\" u=\"jump=1302513\">Click to go and set your club heroes! </></>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний:\\u003c/\\u003e\\n\\u003cM_Default\\u003eОчки клубов за эту неделю подсчитаны: ваш клуб занял %s-е место в рейтинге и получает %s мест(а) для героев клуба! \\u003cHyperLink stylename=\"M_Link\" u=\"jump=1302513\"\\u003eНажмите, чтобы назначить героев клуба!\\u003c/\\u003e\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний:</>\\n<M_Default>Очки клубов за эту неделю подсчитаны: ваш клуб занял %s-е место в рейтинге и получает %s мест(а) для героев клуба! <HyperLink stylename=\"M_Link\" u=\"jump=1302513\">Нажмите, чтобы назначить героев клуба!</></>"
   },
   {
     "id": "038432",
@@ -20637,7 +20637,7 @@
     "id": "038439",
     "source_cn": "一个和水手有仇的<P_Yellow>贵族青年</>和他联手，作为担保人，把这封信交给了检察官，并重金贿赂了<P_Yellow>检察官</>，让他越过法庭，直接给无辜的水手定罪。",
     "ref_en": "A <P_Yellow>young nobleman</> who held a grudge against the sailor joined forces with him, acting as a guarantor to deliver the letter to the prosecutor, and heavily bribed the <P_Yellow>prosecutor</> to bypass the court and convict the innocent sailor directly.",
-    "target_ru": "Затаивший злобу на моряка \\u003ccP_Yellow\\u003eмолодой дворянин\\u003c/\\u003e вступил с ним в сговор и, выступив поручителем, передал письмо прокурору, щедро подкупив \\u003ccP_Yellow\\u003eпрокурора\\u003c/\\u003e, чтобы тот в обход суда самолично вынес приговор невинному моряку."
+    "target_ru": "Затаивший злобу на моряка <cP_Yellow>молодой дворянин</> вступил с ним в сговор и, выступив поручителем, передал письмо прокурору, щедро подкупив <cP_Yellow>прокурора</>, чтобы тот в обход суда самолично вынес приговор невинному моряку."
   },
   {
     "id": "038440",
@@ -21333,7 +21333,7 @@
     "id": "038555",
     "source_cn": "<Assistant_Title1>密修会的小丑</>\\n<Assistant_Title2>成就分类：</>冒险-队伍副本\\n<Assistant_Title2>解锁条件：</>击杀普通难度小丑",
     "ref_en": "<Assistant_Title1>Clown of the Secret Order</>\\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\\n<Assistant_Title2>Unlock Condition: </>Defeat Clown on Normal difficulty",
-    "target_ru": "\\u003cAssistant_Title1\\u003eКлоун Тайного Ордена\\u003c/\\u003e\\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eОдолейте Клоуна на обычном уровне сложности"
+    "target_ru": "<Assistant_Title1>Клоун Тайного Ордена</>\\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\\n<Assistant_Title2>Условие открытия: </>Одолейте Клоуна на обычном уровне сложности"
   },
   {
     "id": "038556",
@@ -22083,7 +22083,7 @@
     "id": "038680",
     "source_cn": "<P_Yellow>封印物·知识皇冠</>\\n\\n<P_Yellow>等级</>\\n0级\\n<P_Yellow>途径</>\\n窥秘人\\n<P_Yellow>来源</>\\n罗塞尔大帝在白枫宫被刺杀后，体内未排除的知识皇帝特性与其皇冠结合形成的遗物，蕴含▇▇母神的污染。 \\n\\n<P_Yellow>正面效果</>\\n知识具象化，可将实物瓦解为知识洪流。\\n通晓大部分知识，并直接解读隐秘信息（包括神灵的隐秘）。\\n理解超越序列的宇宙真理与神秘本质。\\n能对低位格者下达精神控制与认知重塑的指令。 \\n\\n<P_Yellow>负面效果</>\\n皇冠会持续灌输无法承受的海量真理与禁忌知识，解读知识会随机失去一部分理智或人格。\\n摘下皇冠会触发知识洪流反噬，导致持有者灵魂被瞬间冲散，成为无知无识的空壳。\\n\\n<P_Yellow>封印物·绝望魔镜</>\\n\\n<P_Yellow>等级</>\\n不明，未定级\\n<P_Yellow>途径</>\\n刺客\\n<P_Yellow>来源</>\\n绝望魔女赫尔嘉晋升序列3时失败而失控，为避免其彻底化为怪物，子爵夫人亲手终结其生命，其遗留的非凡特性与一枚镜子结合并异化。赫尔嘉生前与子爵夫人相识，二人情谊深厚。其死后残存意志与特性结合，形成此封印物。\\n\\n<P_Yellow>正面效果</>\\n可构建独立的镜中空间。\\n具备意识封印能力，可将强大的精神体或神性意志分割封印。\\n\\n<P_Yellow>负面效果</>\\n具有强烈的自毁意识与厌世倾向，会诱导周边生物摧毁魔镜，镜面破碎会爆发强烈的灵性反噬。\\n无差别地吸收周围生命的希望与情感，将其转化为维持镜中世界的养分，范围内的生物会逐渐感到空虚、麻木，最终主动走向自我毁灭。",
     "ref_en": "<P_Yellow>Sealed Artifact · Knowledge Crown</>\\n\\n<P_Yellow>Level</>\\nLevel 0\\n<P_Yellow>Pathway</>\\nMystery Pryer\\n<P_Yellow>Origin</>\\nA relic formed after Emperor Roselle was assassinated at White Maple Palace, combining the unexpelled Knowledge Emperor characteristic within his body with his crown. It contains the corruption of the ▇▇ Mother Goddess. \\n\\n<P_Yellow>Positive Effects</>\\nMaterializes knowledge, capable of disintegrating physical objects into a Torrent of Knowledge.\\nGrants knowledge of most subjects and allows for the direct interpretation of hidden information (including the secrets of deities).\\nProvides understanding of cosmic truths and mystical essences that transcend Sequences.\\nCan issue commands for Mind Control and cognitive restructuring to those of a lower Sequence. \\n\\n<P_Yellow>Negative Effects</>\\nThe crown continuously instills an unbearable amount of truth and Forbidden Knowledge; interpreting this knowledge results in a random loss of sanity or personality.\\nRemoving the crown triggers a backlash of the Torrent of Knowledge, instantly shattering the holder's soul and leaving them an ignorant, empty shell.\\n\\n<P_Yellow>Sealed Artifact · Magic Mirror of Despair</>\\n\\n<P_Yellow>Level</>\\nUnknown, Unrated\\n<P_Yellow>Pathway</>\\nAssassin\\n<P_Yellow>Origin</>\\nFormed when the Despair Witch Helga failed her advancement to Sequence 3 and lost control. To prevent her from fully transforming into a monster, the Viscountess ended her life personally. The remaining Beyonder characteristic combined with a mirror and mutated. Helga and the Viscountess were close friends during Helga's lifetime. Her residual will combined with the characteristic to form this Sealed Artifact.\\n\\n<P_Yellow>Positive Effects</>\\nCapable of constructing an independent mirror world.\\nPossesses consciousness-sealing abilities, capable of segmenting and sealing powerful spirits or divine wills.\\n\\n<P_Yellow>Negative Effects</>\\nPossesses a strong self-destructive consciousness and misanthropic tendencies; it will induce nearby creatures to destroy the magic mirror. If the mirror surface shatters, it triggers a violent spiritual backlash.\\nIndiscriminately absorbs the hope and emotions of surrounding life forms, converting them into nutrients to sustain the mirror world. Creatures within range will gradually feel empty and numb, eventually walking toward self-destruction.",
-    "target_ru": "\\u003ccP_Yellow\\u003eЗапечатанный Артефакт: Венец Знания\\u003c/\\u003e\\n\\n\\u003ccP_Yellow\\u003eКласс\\u003c/\\u003e\\nКласс 0\\n\\u003ccP_Yellow\\u003eПуть\\u003c/\\u003e\\nЖрец Тайн\\n\\u003ccP_Yellow\\u003eПроисхождение\\u003c/\\u003e\\nРеликвия, образовавшаяся после убийства Императора Розеля в Белокленовом дворце в результате слияния оставшейся в его теле потусторонней черты Императора Знаний с его короной. Содержит осквернение ▇▇ Богини-Матери.\\n\\n\\u003ccP_Yellow\\u003eПоложительные эффекты\\u003c/\\u003e\\nМатериализация знаний: способна расщеплять материальные объекты в информационный поток.\\nДарует знание большинства вещей и позволяет напрямую считывать тайные сведения (включая сокровенные тайны божеств).\\nОткрывает постижение космических истин и мистической природы мира, превосходящих рамки Последовательностей.\\nПозволяет подчинять разум и перекраивать восприятие существ более низкого статуса.\\n\\n\\u003ccP_Yellow\\u003eОтрицательные эффекты\\u003c/\\u003e\\nВенец непрерывно наполняет сознание невыносимым объёмом истин и запретных знаний; постижение каждого фрагмента ведёт к утрате части рассудка или личности.\\nПопытка снять венец вызывает яростную отдачу информационного потока, мгновенно стирая душу владельца и превращая его в пустую бездушную оболочку.\\n\\n\\u003ccP_Yellow\\u003eЗапечатанный Артефакт: Зеркало Отчаяния\\u003c/\\u003e\\n\\n\\u003ccP_Yellow\\u003eКласс\\u003c/\\u003e\\nНеизвестно, класс не присвоен\\n\\u003ccP_Yellow\\u003eПуть\\u003c/\\u003e\\nАссасин\\n\\u003ccP_Yellow\\u003eПроисхождение\\u003c/\\u003e\\nСоздано, когда Ведьма Отчаяния Хельга потерпела неудачу при переходе на Последовательность 3 и потеряла контроль. Чтобы предотвратить её окончательное превращение в чудовище, Виконтесса собственноручно лишила её жизни. Оставшаяся потусторонняя черта соединилась с зеркалом и мутировала. При жизни Хельгу и Виконтессу связывала глубокая дружба. Уцелевшая после смерти воля Хельги слилась с потусторонней чертой, образовав данный Запечатанный Артефакт.\\n\\n\\u003ccP_Yellow\\u003eПоложительные эффекты\\u003c/\\u003e\\nПозволяет создавать автономное зазеркальное пространство.\\nОбладает способностью запечатывать сознание, дробя и изолируя могущественные духовные тела или божественную волю.\\n\\n\\u003ccP_Yellow\\u003eОтрицательные эффекты\\u003c/\\u003e\\nОбладает мощным стремлением к саморазрушению и мизантропией: подталкивает окружающих существ разбить зеркало, а при разрушении зеркальной глади порождает разрушительную духовную отдачу.\\nБез разбора поглощает надежду и эмоции живых существ поблизости, превращая их в пищу для поддержания зазеркального мира. Оказавшиеся рядом существа постепенно погружаются в пустоту и оцепенение, в конечном итоге добровольно стремясь к самоуничтожению."
+    "target_ru": "<cP_Yellow>Запечатанный Артефакт: Венец Знания</>\\n\\n<cP_Yellow>Класс</>\\nКласс 0\\n<cP_Yellow>Путь</>\\nЖрец Тайн\\n<cP_Yellow>Происхождение</>\\nРеликвия, образовавшаяся после убийства Императора Розеля в Белокленовом дворце в результате слияния оставшейся в его теле потусторонней черты Императора Знаний с его короной. Содержит осквернение ▇▇ Богини-Матери.\\n\\n<cP_Yellow>Положительные эффекты</>\\nМатериализация знаний: способна расщеплять материальные объекты в информационный поток.\\nДарует знание большинства вещей и позволяет напрямую считывать тайные сведения (включая сокровенные тайны божеств).\\nОткрывает постижение космических истин и мистической природы мира, превосходящих рамки Последовательностей.\\nПозволяет подчинять разум и перекраивать восприятие существ более низкого статуса.\\n\\n<cP_Yellow>Отрицательные эффекты</>\\nВенец непрерывно наполняет сознание невыносимым объёмом истин и запретных знаний; постижение каждого фрагмента ведёт к утрате части рассудка или личности.\\nПопытка снять венец вызывает яростную отдачу информационного потока, мгновенно стирая душу владельца и превращая его в пустую бездушную оболочку.\\n\\n<cP_Yellow>Запечатанный Артефакт: Зеркало Отчаяния</>\\n\\n<cP_Yellow>Класс</>\\nНеизвестно, класс не присвоен\\n<cP_Yellow>Путь</>\\nАссасин\\n<cP_Yellow>Происхождение</>\\nСоздано, когда Ведьма Отчаяния Хельга потерпела неудачу при переходе на Последовательность 3 и потеряла контроль. Чтобы предотвратить её окончательное превращение в чудовище, Виконтесса собственноручно лишила её жизни. Оставшаяся потусторонняя черта соединилась с зеркалом и мутировала. При жизни Хельгу и Виконтессу связывала глубокая дружба. Уцелевшая после смерти воля Хельги слилась с потусторонней чертой, образовав данный Запечатанный Артефакт.\\n\\n<cP_Yellow>Положительные эффекты</>\\nПозволяет создавать автономное зазеркальное пространство.\\nОбладает способностью запечатывать сознание, дробя и изолируя могущественные духовные тела или божественную волю.\\n\\n<cP_Yellow>Отрицательные эффекты</>\\nОбладает мощным стремлением к саморазрушению и мизантропией: подталкивает окружающих существ разбить зеркало, а при разрушении зеркальной глади порождает разрушительную духовную отдачу.\\nБез разбора поглощает надежду и эмоции живых существ поблизости, превращая их в пищу для поддержания зазеркального мира. Оказавшиеся рядом существа постепенно погружаются в пустоту и оцепенение, в конечном итоге добровольно стремясь к самоуничтожению."
   },
   {
     "id": "038681",
@@ -22785,7 +22785,7 @@
     "id": "038797",
     "source_cn": "<Assistant_Title1>予众灵以安宁</>\\n<Assistant_Title2>成就分类：</>跑团-教团\\n<Assistant_Title2>解锁条件：</>完成安魂诗社系列成就【安魂十律】【净万灵】【收容专家】",
     "ref_en": "<Assistant_Title1>Granting Peace to All Spirits</>\\n<Assistant_Title2>Achievement Category:</>TRPG-Covenant\\n<Assistant_Title2>Unlock Condition:</>Complete the Requiem Poetry Society series achievements [Ten Laws of Requiem], [Purify All Spirits], [Containment Expert]",
-    "target_ru": "\\u003cAssistant_Title1\\u003eДаровать покой всем духам\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eTRPG-Орден\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВыполнить достижения серии Поэтического общества упокоения: 【Десять законов упокоения】, 【Очищение духов】, 【Эксперт по изоляции】"
+    "target_ru": "<Assistant_Title1>Даровать покой всем духам</>\n<Assistant_Title2>Категория достижения: </>TRPG-Орден\n<Assistant_Title2>Условие открытия: </>Выполнить достижения серии Поэтического общества упокоения: 【Десять законов упокоения】, 【Очищение духов】, 【Эксперт по изоляции】"
   },
   {
     "id": "038798",
@@ -22797,13 +22797,13 @@
     "id": "038799",
     "source_cn": "<DecH>工艺：</>轻柔网纱・白羽缀饰\\n羽翼于辉光舒展，金属于暗影凝结，互为倒影，各自完整。",
     "ref_en": "<DecH> Craft: </> Soft Mesh - White Feather Ornament \\n Wings stretch in the brilliance, metal condenses in the shadows, reflecting each other, each complete.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eНежный тюль · Отделка белыми перьями\nКрылья расправляются в сиянии, металл застывает в тени; они отражают друг друга, оставаясь совершенными."
+    "target_ru": "<DecH>Мастерство: </>Нежный тюль · Отделка белыми перьями\nКрылья расправляются в сиянии, металл застывает в тени; они отражают друг друга, оставаясь совершенными."
   },
   {
     "id": "038800",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>您完成了轻松躺赢任务未领取每日奖励，补发奖励已自动发放到您邮箱内。</>",
     "ref_en": "<M_Default>Dear Beyonder:</>\\n<M_Default>You completed the Easy Lay-Back quest but did not claim the daily rewards. The reissued rewards have been automatically sent to your mailbox.</>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eВы выполнили задание «Лёгкая победа», но не забрали ежедневную награду. Неполученная награда была автоматически отправлена вам на почту.\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы выполнили задание «Лёгкая победа», но не забрали ежедневную награду. Неполученная награда была автоматически отправлена вам на почту.</>"
   },
   {
     "id": "038801",
@@ -24381,25 +24381,25 @@
     "id": "039063",
     "source_cn": "<Assistant_Title1>【一号信徒】</>\\n<Assistant_Title2>描述：</>副本掉落发型\\n<Assistant_Title2>使用：</>使用后获得一号信徒，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>副本-五月庄园·城堡</>获取",
     "ref_en": "<Assistant_Title1>【Believer Number One】</>\\n<Assistant_Title2>Description: </>Dungeon Drop Hairstyle\\n<Assistant_Title2>Usage: </>After use, you will obtain the Believer Number One. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it. \\n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Dungeon - May Manor · Castle</>",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Верующий номер один】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eПричёска, выпадающая в подземелье\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании даёт причёску «Верующий номер один». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и применить.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eМожно получить в \\u003cAssistant_System\\u003eПодземелье — Поместье Мэй · Замок\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Верующий номер один】</>\n<Assistant_Title2>Описание: </>Причёска, выпадающая в подземелье\n<Assistant_Title2>Использование: </>При использовании даёт причёску «Верующий номер один». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и применить.\n<Assistant_Title2>Получение: </>Можно получить в <Assistant_System>Подземелье — Поместье Мэй · Замок</>"
   },
   {
     "id": "039064",
     "source_cn": "<Assistant_Title1>【加入黑荆棘】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>在明亮的咖啡厅醒来，眼前是一位贵族少女，和一只……金毛大狗？\\n<Assistant_Title2>领取方式：</>第一赛季第一天解锁。完成序章《一切的起始》，且扮演等级达到<Assistant_Red>9级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、值夜典袍、脚踏车·胡桃、社交·下班休息、无名胸针、无名之足、无名残甲、秘晶·归来、初级生命纯露",
     "ref_en": "<Assistant_Title1>【Join Blackthorn】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Main Story (Reality)</>\\n<Assistant_Title2>Quest Description: </>Waking up in a bright cafe, before your eyes is a noble young lady and a... golden retriever?\\n<Assistant_Title2>How to Accept: </>Unlocked on the first day of the first season. Automatically accepted after completing the prologue \"The Beginning of Everything\" and reaching Acting Level <Assistant_Red>9</>.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sol, Bound Gold Pounds, Nighthawk Robe, Bicycle·Walnut, Social·Get off work, Nameless Brooch, Nameless Feet, Nameless Remnant Armor, Secret Crystal·Return, Beginner Health Pure Dew",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Вступить в «Блэкторн»】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eТип задания: \\u003c/\\u003e\\u003cAssistant_Property2\\u003eОсновной сюжет (Реальность)\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание задания: \\u003c/\\u003eОчнувшись в залитом светом кафе, вы видите перед собой юную аристократку и... огромного золотистого ретривера?\n\\u003cAssistant_Title2\\u003eУсловия получения: \\u003c/\\u003eОткрывается в первый день первого сезона. Выдаётся автоматически после завершения пролога «Начало всего» и достижения \\u003cAssistant_Red\\u003e9-го уровня отыгрыша\\u003c/\\u003e.\n\\u003cAssistant_Title2\\u003eНаграды за задание\\u003c/\\u003e: опыт познания, привязанные сули, привязанные золотые фунты, мантия Ночного Ястреба, велосипед «Орех», эмоция «Конец смены», безымянная брошь, безымянные сапоги, безымянные латы, тайный кристалл: Возвращение, малый гидролат жизни"
+    "target_ru": "<Assistant_Title1>【Вступить в «Блэкторн»】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет (Реальность)</>\n<Assistant_Title2>Описание задания: </>Очнувшись в залитом светом кафе, вы видите перед собой юную аристократку и... огромного золотистого ретривера?\n<Assistant_Title2>Условия получения: </>Открывается в первый день первого сезона. Выдаётся автоматически после завершения пролога «Начало всего» и достижения <Assistant_Red>9-го уровня отыгрыша</>.\n<Assistant_Title2>Награды за задание</>: опыт познания, привязанные сули, привязанные золотые фунты, мантия Ночного Ястреба, велосипед «Орех», эмоция «Конец смены», безымянная брошь, безымянные сапоги, безымянные латы, тайный кристалл: Возвращение, малый гидролат жизни"
   },
   {
     "id": "039065",
     "source_cn": "<Assistant_Title1>你很有品</>\\n<Assistant_Title2>成就分类：</>社交-主页名片\\n<Assistant_Title2>解锁条件：</>自己的主页第一次获得点赞",
     "ref_en": "<Assistant_Title1>You Have Great Taste</>\\n<Assistant_Title2>Achievement Category: </>Social-Profile Card\\n<Assistant_Title2>Unlock Condition: </>Receive a like on your profile for the first time",
-    "target_ru": "\\u003cAssistant_Title1\\u003eУ вас отличный вкус\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eОбщение — Визитка профиля\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВпервые получить лайк в своём профиле"
+    "target_ru": "<Assistant_Title1>У вас отличный вкус</>\n<Assistant_Title2>Категория достижения: </>Общение — Визитка профиля\n<Assistant_Title2>Условие открытия: </>Впервые получить лайк в своём профиле"
   },
   {
     "id": "039066",
     "source_cn": "<Highlight>占位文本</>占位文本",
     "ref_en": "<Highlight>Placeholder text</> placeholder text",
-    "target_ru": "\\u003cHighlight\\u003eТекст-заполнитель\\u003c/\\u003eТекст-заполнитель"
+    "target_ru": "<Highlight>Текст-заполнитель</>Текст-заполнитель"
   },
   {
     "id": "039067",
@@ -25455,7 +25455,7 @@
     "id": "039242",
     "source_cn": "摘要：\\n今晨九时接获报案，一位名叫黛西·埃尔顿的青年女性陷入了异常<Mark id=\"#159\">昏迷</>状态。该名女性现居于<Letter_Highlight>廷根市北郊的别墅</>，由家中的管家和仆役看顾……\\n\\n标注：\\n疑似<Mark id=\"#159\">非凡事件</>。",
     "ref_en": "Summary: \\n Received a report at nine this morning that a young woman named Daisy Elton has fallen into an abnormal <Mark id=\"#159\">coma</> state. The woman currently lives in a <Letter_Highlight>villa in the northern suburbs of Tingen City</>, and is being looked after by the butler and servants in the house... \\n\\n Note: \\nSuspected<Mark id=\"#159\"> Extraordinary event</>.",
-    "target_ru": "Сводка:\nСегодня в девять утра поступило сообщение о том, что молодая женщина по имени Дейзи Элтон впала в аномальное состояние \\u003cMark id=\"#159\"\\u003eкомы\\u003c/\\u003e. В настоящее время она находится на \\u003cLetter_Highlight\\u003eвилле в северном пригороде Тингена\\u003c/\\u003e под присмотром дворецкого и слуг...\n\nПримечание:\nПредположительно, \\u003cMark id=\"#159\"\\u003eмистический инцидент\\u003c/\\u003e."
+    "target_ru": "Сводка:\nСегодня в девять утра поступило сообщение о том, что молодая женщина по имени Дейзи Элтон впала в аномальное состояние <Mark id=\"#159\">комы</>. В настоящее время она находится на <Letter_Highlight>вилле в северном пригороде Тингена</> под присмотром дворецкого и слуг...\n\nПримечание:\nПредположительно, <Mark id=\"#159\">мистический инцидент</>."
   },
   {
     "id": "039243",
@@ -25833,19 +25833,19 @@
     "id": "039305",
     "source_cn": "<Assistant_Title1>【安魂肩羽】</>\\n<Assistant_Title2>描述：</>序列晋升奖励饰品\\n<Assistant_Title2>使用：</>使用后获得安魂肩羽，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>序列晋升</>获取",
     "ref_en": "<Assistant_Title1>【Requiem Shoulder Feathers】</>\\n<Assistant_Title2>Description: </>Accessory rewarded for Sequence advancement\\n<Assistant_Title2>Usage: </>After use, you will obtain the Requiem Shoulder Feathers. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\\n<Assistant_Title2>Acquisition: </>Obtain through <Assistant_System>Sequence advancement</>.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Наплечные перья упокоения】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eУкрашение в награду за повышение Последовательности\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании даёт наплечные перья упокоения. Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и применить.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eДаётся за \\u003cAssistant_System\\u003eповышение Последовательности\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Наплечные перья упокоения】</>\n<Assistant_Title2>Описание: </>Украшение в награду за повышение Последовательности\n<Assistant_Title2>Использование: </>При использовании даёт наплечные перья упокоения. Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и применить.\n<Assistant_Title2>Получение: </>Даётся за <Assistant_System>повышение Последовательности</>"
   },
   {
     "id": "039306",
     "source_cn": "<Assistant_Title1>【绒绒兔耳朵】</>\\n<Assistant_Title2>描述：</>组队玩法奖励饰品\\n<Assistant_Title2>使用：</>使用后获得绒绒兔耳朵，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>通过<Assistant_System>商城-百货-同行商店</>使用同行纹章兑换",
     "ref_en": "<Assistant_Title1>【Fluffy Rabbit Ears】</>\\n<Assistant_Title2>Description: </>Team gameplay reward accessory.\\n<Assistant_Title2>Usage: </>Use to obtain the Fluffy Rabbit Ears. You can view and equip them by clicking <Assistant_System>Appearance - Outfits</>.\\n<Assistant_Title2>Acquisition: </>Exchange using Companion Emblems in <Assistant_System>Shop - General Goods - Companion Shop</>.",
-    "target_ru": "\\u003cAssistant_Title1\\u003e【Пушистые кроличьи ушки】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eУкрашение в награду за командную игру\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eПри использовании даёт украшение «Пушистые кроличьи ушки». Нажмите \\u003cAssistant_System\\u003eВнешний вид — Гардероб\\u003c/\\u003e, чтобы просмотреть и применить.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eМожно обменять на Эмблемы спутников в разделе \\u003cAssistant_System\\u003eМагазин — Универмаг — Магазин спутников\\u003c/\\u003e"
+    "target_ru": "<Assistant_Title1>【Пушистые кроличьи ушки】</>\n<Assistant_Title2>Описание: </>Украшение в награду за командную игру\n<Assistant_Title2>Использование: </>При использовании даёт украшение «Пушистые кроличьи ушки». Нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и применить.\n<Assistant_Title2>Получение: </>Можно обменять на Эмблемы спутников в разделе <Assistant_System>Магазин — Универмаг — Магазин спутников</>"
   },
   {
     "id": "039307",
     "source_cn": "<Assistant_Title1>也是个官</>\\n<Assistant_Title2>成就分类：</>社交-俱乐部\\n<Assistant_Title2>解锁条件：</>第一次担任俱乐部管理（会长、副会长、理事、俱乐部之星）",
     "ref_en": "<Assistant_Title1>Also an Official</>\\n<Assistant_Title2>Achievement Category: </>Social-Club\\n<Assistant_Title2>Unlock Condition: </>Serve as Club management (President, Vice President, Director, Club Star) for the first time",
-    "target_ru": "\\u003cAssistant_Title1\\u003eТоже начальство\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eОбщение — Клуб\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eВпервые занять руководящую должность в клубе (президент, вице-президент, директор, звезда клуба)"
+    "target_ru": "<Assistant_Title1>Тоже начальство</>\n<Assistant_Title2>Категория достижения: </>Общение — Клуб\n<Assistant_Title2>Условие открытия: </>Впервые занять руководящую должность в клубе (президент, вице-президент, директор, звезда клуба)"
   },
   {
     "id": "039308",
@@ -25881,7 +25881,7 @@
     "id": "039313",
     "source_cn": "　　老师死了，工坊也倒闭了。\\n　　我做不好蜡烛，也救不回老师。\\n　　糖厂的工作不适合我，糖是甜的，但糖厂是发苦的。\\n　　我什么都做不好，谁也救不回。\\n　　“永暗的蜡烛，不毁的身躯”，<Letter_RedBig>请带走我这个无用之人吧。</>",
     "ref_en": "　　The teacher is dead, and the workshop has closed down. \\n　　I can't make candles well, and I can't save the teacher. \\n　　The job at the sugar factory doesn't suit me; sugar is sweet, but the sugar factory is bitter. \\n　　I can't do anything right, and I can't save anyone. \\n　　\"Candle of Eternal Darkness, Indestructible Body,\" <Letter_RedBig> please take away this useless person. </>",
-    "target_ru": "　　Учитель умер, а мастерская разорилась.\n　　Я не умею толком делать свечи и не смог спасти учителя.\n　　Работа на сахарном заводе мне не подходит: сахар сладок, но на заводе царит одна лишь горечь.\n　　У меня ничего не получается, я никого не могу спасти.\n　　«Свеча вечной тьмы, несокрушимая плоть», \\u003cLetter_RedBig\\u003eзаберите же меня, ни на что не годного человека.\\u003c/\\u003e"
+    "target_ru": "　　Учитель умер, а мастерская разорилась.\n　　Я не умею толком делать свечи и не смог спасти учителя.\n　　Работа на сахарном заводе мне не подходит: сахар сладок, но на заводе царит одна лишь горечь.\n　　У меня ничего не получается, я никого не могу спасти.\n　　«Свеча вечной тьмы, несокрушимая плоть», <Letter_RedBig>заберите же меня, ни на что не годного человека.</>"
   },
   {
     "id": "039314",
@@ -26739,7 +26739,7 @@
     "id": "039456",
     "source_cn": "俱乐部图书馆中积累的每一本典籍，都是前辈非凡者以生命换来的经验结晶；而那些在命运转折处伸出援手的同道，则是比任何魔药都更可靠的依靠。 知识与同伴，是诡秘世界中最稳固的庇护。\\n<Talent>在秩序世界地图探索时，体力上限增加10%</>。\\n<Talent>投骰时，获得俱乐部成员协助重投的概率增加10%</>。",
     "ref_en": "Every classic book accumulated in the club library is the crystallization of experience exchanged for the lives of predecessor Beyonders; and those fellow travelers who lend a helping hand at the turning points of fate are more reliable than any potion. Knowledge and companions are the most stable shelter in the mysterious world. \\n<Talent>When exploring the Order World map, Stamina cap increases by 10%</>. \\n<Talent>When rolling dice, the probability of obtaining assistance from club members for a reroll increases by 10%</>.",
-    "target_ru": "Каждая старинная книга в библиотеке клуба — это крупица опыта, оплаченная жизнями прежних Потусторонних, а верные соратники, готовые протянуть руку в поворотные моменты судьбы, надёжнее любого зелья. Знания и соратники — самая прочная опора в мистическом мире.\n\\u003cTalent\\u003eПри исследовании карты Мира порядка максимальный запас выносливости увеличивается на 10%\\u003c/\\u003e.\n\\u003cTalent\\u003eПри броске костей вероятность получить помощь соратников по клубу для переброса увеличивается на 10%\\u003c/\\u003e."
+    "target_ru": "Каждая старинная книга в библиотеке клуба — это крупица опыта, оплаченная жизнями прежних Потусторонних, а верные соратники, готовые протянуть руку в поворотные моменты судьбы, надёжнее любого зелья. Знания и соратники — самая прочная опора в мистическом мире.\n<Talent>При исследовании карты Мира порядка максимальный запас выносливости увеличивается на 10%</>.\n<Talent>При броске костей вероятность получить помощь соратников по клубу для переброса увеличивается на 10%</>."
   },
   {
     "id": "039457",
@@ -28185,7 +28185,7 @@
     "id": "039697",
     "source_cn": "<Highlight>工艺：</>素色棉麻・简约淡雅・基础单衣\\n毫无染饰的天然面料，象征灵魂初始之洁。",
     "ref_en": "<Highlight> Craft: </> Plain Cotton and Linen · Simple and Elegant · Basic Single Garment \\n Natural fabric without any dyeing, symbolizing the initial purity of the soul.",
-    "target_ru": "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eНатуральный лён и хлопок · Простота и изящество · Базовое исподнее\nНеокрашенная природная ткань, символизирующая первозданную чистоту души."
+    "target_ru": "<Highlight>Мастерство: </>Натуральный лён и хлопок · Простота и изящество · Базовое исподнее\nНеокрашенная природная ткань, символизирующая первозданную чистоту души."
   },
   {
     "id": "039698",
@@ -28317,7 +28317,7 @@
     "id": "039719",
     "source_cn": "使用后获得<Highlight>穹星翅膀</>\\n也可兑换为<Highlight>2</>张神眷牌",
     "ref_en": "Use to obtain <Highlight> Dome Star Wings </> \\n Can also be exchanged for <Highlight> 2 </> Divine Favor Cards",
-    "target_ru": "При использовании даёт крылья \\u003cHighlight\\u003e«Звёздный купол»\\u003c/\\u003e\nЛибо можно обменять на \\u003cHighlight\\u003e2\\u003c/\\u003e карты божественной благодати"
+    "target_ru": "При использовании даёт крылья <Highlight>«Звёздный купол»</>\nЛибо можно обменять на <Highlight>2</> карты божественной благодати"
   },
   {
     "id": "039720",
@@ -29073,13 +29073,13 @@
     "id": "039845",
     "source_cn": "<DecH>工艺：</>蓝白蕾丝・俏皮兔耳\\n即便是误入的来客，也请遵从着装的礼仪。换上蓝白菱格的俏皮礼服，加入怪诞奇妙的茶会。",
     "ref_en": "<DecH> Craft: </> Blue-White Lace · Playful Bunny Ears \\n Even if you are an accidental visitor, please follow the etiquette of dress. Put on the blue-white diamond-patterned playful dress and join the bizarre and wonderful tea party.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eСине-белое кружево · Игривые заячьи ушки\nДаже если вы попали сюда случайно, соблюдайте правила приличия. Наденьте игривый сине-белый наряд в ромбик и присоединяйтесь к причудливому безумному чаепитию."
+    "target_ru": "<DecH>Мастерство: </>Сине-белое кружево · Игривые заячьи ушки\nДаже если вы попали сюда случайно, соблюдайте правила приличия. Наденьте игривый сине-белый наряд в ромбик и присоединяйтесь к причудливому безумному чаепитию."
   },
   {
     "id": "039846",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>您在同行中达到血色亲王段位，以下是您的称号奖励。</>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>You have reached the rank of Crimson Prince in the Journey. Below are your title rewards.</>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eВы достигли ранга «Алый принц» в совместных странствиях. Ниже представлена ваша награда за титул.\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы достигли ранга «Алый принц» в совместных странствиях. Ниже представлена ваша награда за титул.</>"
   },
   {
     "id": "039847",
@@ -29889,19 +29889,19 @@
     "id": "039981",
     "source_cn": "<DecH>工艺：</>香槟金属・手工镶嵌\\n由鲁恩顶级珠宝商推出的化装舞会面饰，据说灵感来自于佛尔思·沃尔女士那篇患者面部开花的恐怖小说。当然，他们做了不少美化。",
     "ref_en": "<DecH>Craft: </>Champagne Metal & Hand-Inlaid\\nA masquerade mask launched by a top Loen jeweler, said to be inspired by Ms. Fors Wall's horror novel about a patient whose face blooms with flowers. Of course, they made quite a few aesthetic adjustments.",
-    "target_ru": "\\u003cDecH\\u003eМастерство: \\u003c/\\u003eМеталл цвета шампанского · Ручная инкрустация\nМаскарадное украшение от ведущих ювелиров Лоэна. Говорят, на его создание вдохновил роман ужасов госпожи Форс Уолл о пациенте, на чьём лице распускались цветы. Разумеется, ювелиры изрядно облагородили этот образ."
+    "target_ru": "<DecH>Мастерство: </>Металл цвета шампанского · Ручная инкрустация\nМаскарадное украшение от ведущих ювелиров Лоэна. Говорят, на его создание вдохновил роман ужасов госпожи Форс Уолл о пациенте, на чьём лице распускались цветы. Разумеется, ювелиры изрядно облагородили этот образ."
   },
   {
     "id": "039982",
     "source_cn": "<HighLight>卡牌能量</>达到5点时才可释放。消耗5点<HighLight>卡牌能量</>，在2.7秒内持续向锁定目标发射卡牌，对目标及其小范围内敌方造成12次spellfielddisc(*id)点物理伤害，并<HyperLink stylename=\"M_Link\" u=\"2\">打断</>敌方怪物，施法过程中可以释放其他技能和移动。\\n只要本技能处于可释放状态，<HighLight>终结技能</>就不会切换至<HighLight>命运愚弄</>或<HighLight>灵性爆发</>，但它们依然可通过收集<HighLight>命运黄牌</>或<HighLight>灵性蓝牌</>解锁，并在本技能释放后立刻进入可用状态。",
     "ref_en": "Can only be released when <HighLight>Card Energy</> reaches 5 points. Consume 5 points of <HighLight>Card Energy</> to continuously fire cards at the locked target for 2.7 seconds, dealing spellfielddisc(*id) physical damage 12 times to the target and enemies in a small area, and <HyperLink stylename=\"M_Link\" u=\"2\">interrupting</> enemy monsters. You can release other skills and move while casting. \\nAs long as this skill is available, the <HighLight>Finisher Skill</> will not switch to <HighLight>Fooling of Fate</> or <HighLight>Spirituality Burst</>, but they can still be unlocked by collecting <HighLight>Fooling of Fate Yellow Cards</> or <HighLight>Spirituality Blue Cards</> and will become available immediately after this skill is cast.",
-    "target_ru": "Активируется только при накоплении 5 ед. \\u003cHighLight\\u003eэнергии карт\\u003c/\\u003e. Расходует 5 ед. \\u003cHighLight\\u003eэнергии карт\\u003c/\\u003e и в течение 2,7 сек. непрерывно выпускает карты в захваченную цель, нанося 12 раз по spellfielddisc(*id) ед. физического урона цели и окружающим врагам в небольшой области, а также \\u003cHyperLink stylename=\"M_Link\" u=\"2\"\\u003eпрерывая\\u003c/\\u003e действия вражеских монстров. Во время применения можно использовать другие навыки и передвигаться.\nПока данный навык готов к применению, \\u003cHighLight\\u003eзавершающий навык\\u003c/\\u003e не переключится на \\u003cHighLight\\u003e«Одурачивание судьбы»\\u003c/\\u003e или \\u003cHighLight\\u003e«Всплеск духовности»\\u003c/\\u003e, однако их по-прежнему можно открыть сбором \\u003cHighLight\\u003eжёлтых карт судьбы\\u003c/\\u003e или \\u003cHighLight\\u003eсиних карт духовности\\u003c/\\u003e, и они станут доступны сразу после применения данного навыка."
+    "target_ru": "Активируется только при накоплении 5 ед. <HighLight>энергии карт</>. Расходует 5 ед. <HighLight>энергии карт</> и в течение 2,7 сек. непрерывно выпускает карты в захваченную цель, нанося 12 раз по spellfielddisc(*id) ед. физического урона цели и окружающим врагам в небольшой области, а также <HyperLink stylename=\"M_Link\" u=\"2\">прерывая</> действия вражеских монстров. Во время применения можно использовать другие навыки и передвигаться.\nПока данный навык готов к применению, <HighLight>завершающий навык</> не переключится на <HighLight>«Одурачивание судьбы»</> или <HighLight>«Всплеск духовности»</>, однако их по-прежнему можно открыть сбором <HighLight>жёлтых карт судьбы</> или <HighLight>синих карт духовности</>, и они станут доступны сразу после применения данного навыка."
   },
   {
     "id": "039983",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>战令活动已结束，未领取的奖励已通过邮件发放，请及时查收。</>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>The Battle Pass event has ended. Unclaimed rewards have been sent via mail; please check them in time.</>",
-    "target_ru": "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eСобытие боевого пропуска подошло к концу. Неполученные награды отправлены вам по почте; пожалуйста, проверьте входящие письма.\\u003c/\\u003e"
+    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Событие боевого пропуска подошло к концу. Неполученные награды отправлены вам по почте; пожалуйста, проверьте входящие письма.</>"
   },
   {
     "id": "039984",
@@ -29925,7 +29925,7 @@
     "id": "039987",
     "source_cn": "<Red>后怕</>：嫁祸效果结束后的10秒内，减伤降低10%。连续触发危险直觉之后的冷却期内，控制命中、控制抗性降低。\\n<Red>排异</>：战斗中每隔30秒，随机一条非凡物质词条属性失效。",
     "ref_en": "<Red>Lingering Fear</>: Within 10 seconds after the Frame effect ends, Damage Reduction is lowered by 10%. During the Cooldown period after continuously triggering Danger Intuition, control hit and control resistance are reduced. \\n<Red>Rejection</>: Every 30 seconds during combat, one random Beyonder material attribute becomes ineffective.",
-    "target_ru": "\\u003cRed\\u003eЗапоздалый страх\\u003c/\\u003e: в течение 10 сек. после окончания эффекта «Подстава» снижение урона уменьшается на 10%. Во время перезарядки после серии срабатываний «Интуиции опасности» меткость контроля и сопротивление контролю снижаются.\n\\u003cRed\\u003eОтторжение\\u003c/\\u003e: каждые 30 сек. боя случайное свойство потусторонней субстанции перестаёт действовать."
+    "target_ru": "<Red>Запоздалый страх</>: в течение 10 сек. после окончания эффекта «Подстава» снижение урона уменьшается на 10%. Во время перезарядки после серии срабатываний «Интуиции опасности» меткость контроля и сопротивление контролю снижаются.\n<Red>Отторжение</>: каждые 30 сек. боя случайное свойство потусторонней субстанции перестаёт действовать."
   },
   {
     "id": "039988",

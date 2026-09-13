@@ -182,7 +182,7 @@ return {
     ["Use to obtain <Highlight>Light and Dark Twin Hairstyle</>"] = "Используйте, чтобы получить прическу <Highlight>LLight и Dark Twin </>.",
     ["Complete %s"] = "Полный %s",
     ["Total Received:"] = "Всего получено:",
-    ["<M_Default>Dear Beyonder:</>\n<M_Default>: You have obtained a duplicate mount %s, which has now been converted into the following items. Please check them."] = "\\u003cM_Default\\u003eУважаемый Потусторонний!\\u003c/\\u003e\n\\u003cM_Default\\u003eВы повторно получили ездовое животное (%s); оно было конвертировано в указанные ниже предметы. Пожалуйста, проверьте вложения.",
+    ["<M_Default>Dear Beyonder:</>\n<M_Default>: You have obtained a duplicate mount %s, which has now been converted into the following items. Please check them."] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы повторно получили ездовое животное (%s); оно было конвертировано в указанные ниже предметы. Пожалуйста, проверьте вложения.",
     ["Complete all advancement quests"] = "Выполните все квесты продвижения",
     ["Full-spec Core"] = "Полнофункциональное ядро",
     ["Obtain the treasure chest"] = "Получите сундук с сокровищами",

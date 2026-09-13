@@ -192,7 +192,7 @@ return {
     ["Sorry, are we bothering you?"] = "Простите, мы вам мешаем?",
     ["Black market investigation... what is this? Let's go take a look."] = "Расследование черного рынка... что это? Пойдем посмотрим.",
     ["Test State 11"] = "Тестовое состояние bb",
-    ["<Highlight> Craft: </> Lacquered Leather · Tough Armor · Military Uniform \n The deep blue lacquer swallows all blade light, reflecting a cold, stern color only in the moment of turning, like a verdict, like an oath."] = "\\u003cHighlight\\u003eОтделка: \\u003c/\\u003eЛакированная кожа · Прочный доспех · Воинское облачение\nТемно-синий лак поглощает блеск клинков, лишь в миг разворота отражая холодную сталь — словно приговор, словно клятва.",
+    ["<Highlight> Craft: </> Lacquered Leather · Tough Armor · Military Uniform \n The deep blue lacquer swallows all blade light, reflecting a cold, stern color only in the moment of turning, like a verdict, like an oath."] = "<Highlight>Отделка: </>Лакированная кожа · Прочный доспех · Воинское облачение\nТемно-синий лак поглощает блеск клинков, лишь в миг разворота отражая холодную сталь — словно приговор, словно клятва.",
     ["Enter plane (internal server use)"] = "Войти в самолет (использование внутреннего сервера)",
     ["This Week's Reward Box · 2"] = "Коробка с наградами этой недели · b",
     ["Street - Red Moon Street - West Avenue Intersection"] = "Улица — улица Красной Луны — пересечение Вест-авеню.",

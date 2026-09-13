@@ -97,7 +97,7 @@ return {
     ["Klein: (It looks like he's going to return the wallet...)"] = "Клейн: (Похоже, он собирается вернуть бумажник...)",
     ["2025年8月17日"] = "2025/08/17",
     ["5230057   廷根   位面"] = "5230057 Измерение: Тинген",
-    ["<Assistant_Title1>【歌颂者】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "\\u003cAssistant_Title1\\u003e【Певец Прославления】\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/\\u003eСтандартный стикер для витрины\n\\u003cAssistant_Title2\\u003eИспользование: \\u003c/\\u003eНажмите \\u003cAssistant_System\\u003eВнешний вид — Витрина\\u003c/\\u003e, чтобы просмотреть и применить.\n\\u003cAssistant_Title2\\u003eПолучение: \\u003c/\\u003eРазблокировано по умолчанию",
+    ["<Assistant_Title1>【歌颂者】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "<Assistant_Title1>【Певец Прославления】</>\n<Assistant_Title2>Описание: </>Стандартный стикер для витрины\n<Assistant_Title2>Использование: </>Нажмите <Assistant_System>Внешний вид — Витрина</>, чтобы просмотреть и применить.\n<Assistant_Title2>Получение: </>Разблокировано по умолчанию",
     ["<P_Heart>（叹气）</>是么，请带我去见他们吧。"] = "<P_Heart>(Вздыхает)</>Это так? Пожалуйста, отвезите меня посмотреть на них.",
     ["Attack <Highlight>Mutated Material</> with the affix <Highlight><天灾化身></>: \"All Skill levels +1, Critical Hit increased.\""] = "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Avatar of Disaster></>: «Все уровни навыков +1, критический удар увеличен».",
     ["Enum(攻击中心)"] = "Энум (Центр атаки).",
