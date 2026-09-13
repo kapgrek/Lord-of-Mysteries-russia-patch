@@ -1999,7 +1999,7 @@ local function translateTextWidget(widget, discoveryContext)
         widgetName = tostring(widget:GetName())
     end)
     local wName = widgetName:lower()
-    if wName:find("talkcontent") then
+    if wName:find("talkcontent") or widget.__cpddEscMenuLocked or wName:find("menubtn") then
         return 0
     end
 
@@ -7839,48 +7839,134 @@ Loader.AfterLoad("Gameplay.LogicSystem.NPC.Dialogue.Dialogue_NPCBtnSkip", functi
     return value
 end, 1000000, "cpdd.runtime-fix.dialogue-skip-controls")
 
+-- ============================================================================
+-- [FROZEN / LOCKED COMPONENT]: ESC MENU (MenuBtn_Item / Menu_Panel)
+-- USER DIRECTIVE: DO NOT TOUCH, REVERT, OR MODIFY THIS ESC MENU LOGIC UNLESS
+-- EXPLICITLY DIRECTED BY THE USER IN A DEDICATED PROMPT!
+-- ============================================================================
+local ESC_MENU_LOCKED = true
+
+local function repairMenuBtnItem(self, params)
+    if self == nil then return end
+    self.__cpddEscMenuLocked = true
+    local view = self.view
+    if view ~= nil and type(view) == "table" then
+        view.__cpddEscMenuLocked = true
+    end
+
+    local widget = (view and getNamedWidget(view, "Text_Name"))
+        or (view and view.Text_Name)
+        or getNamedWidget(self.userWidget or self.widget, "Text_Name")
+    if widget == nil then return end
+    pcall(function() widget.__cpddEscMenuLocked = true end)
+
+    local buttonEnum = self.ButtonEnum or self.buttonEnum
+        or (params and type(params) == "table" and (params.ButtonEnum or params.buttonEnum))
+        or (self.Data and (self.Data.ButtonEnum or self.Data.buttonEnum))
+        or (self.data and (self.data.ButtonEnum or self.data.buttonEnum))
+    if not buttonEnum then
+        local menuId = self.MenuID or self.menuId or self.MenuId or self.menuID
+            or (self.Data and (self.Data.MenuID or self.Data.menuId or self.Data.MenuId or self.Data.id or self.Data.Id))
+            or (self.data and (self.data.MenuID or self.data.menuId or self.data.MenuId or self.data.id or self.data.Id))
+            or (params and type(params) == "table" and (params.MenuID or params.menuId or params.MenuId or params.id or params.Id))
+            or (type(params) == "number" and params)
+        local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
+        buttonEnum = menuData and (menuData.ButtonEnum or menuData.buttonEnum)
+    end
+    local label = buttonEnum and shortMenuLabels[buttonEnum]
+
+    if not label then
+        local current = nil
+        pcall(function()
+            if widget.GetText ~= nil then current = widget:GetText() end
+            if (current == nil or current == "") and widget.Text ~= nil then current = widget.Text end
+        end)
+        if type(current) == "string" and current ~= "" then
+            label = runtimeFixes.collapseSpacedCharacters(current)
+        end
+    end
+
+    if label then
+        runtimeFixes.setNamedWidgetText(view or self, "Text_Name", label)
+    end
+
+    -- Strict zero letter-spacing: eliminates "С т и л ь" wide tracking in Esc menu grid
+    pcall(function()
+        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
+        if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
+    end)
+
+    pcall(function()
+        local font = nil
+        if widget.GetFont ~= nil then
+            font = widget:GetFont()
+        elseif widget.Font ~= nil then
+            font = widget.Font
+        end
+        if font ~= nil then
+            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
+                font.FontObject = runtimeFixes.StandardFontObject
+                if runtimeFixes.StandardTypefaceFontName ~= nil then
+                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                end
+            elseif font.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(font.FontObject) then
+                runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, "MenuBtnItem")
+            end
+            font.LetterSpacing = 0
+            local effectiveText = label
+            if not effectiveText then
+                if widget.GetText ~= nil then effectiveText = widget:GetText() end
+                if (effectiveText == nil or effectiveText == "") and widget.Text ~= nil then
+                    effectiveText = widget.Text
+                end
+            end
+            local textLen = (type(effectiveText) == "string") and runtimeFixes.utf8Len(effectiveText) or 0
+            local baseSize = tonumber(font.Size) or 18
+            if textLen > 6 then
+                font.Size = math.min(baseSize, 14)
+            else
+                font.Size = math.min(baseSize, 15)
+            end
+            widget.Font = font
+            if widget.SetFont ~= nil then widget:SetFont(font) end
+        end
+    end)
+
+    pcall(function()
+        if widget.SetAutoWrapText ~= nil then
+            widget:SetAutoWrapText(false)
+        elseif widget.AutoWrapText ~= nil then
+            widget.AutoWrapText = false
+        end
+    end)
+
+    pcall(function()
+        if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
+        if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
+    end)
+end
+
 local function installShortMenuLabels(value, environment)
     local class = getSymbol(value, environment, "MenuBtn_Item")
-    if type(class) ~= "table" or type(class.OnRefresh) ~= "function" then
+    if type(class) ~= "table" then
         return false
     end
     if class.__cpddShortMenuLabels == VERSION then
         return true
     end
 
-    local originalRefresh = class.OnRefresh
-    class.OnRefresh = function(self, params, ...)
-        local results = { originalRefresh(self, params, ...) }
-        local buttonEnum = self.ButtonEnum or self.buttonEnum
-            or (params and type(params) == "table" and (params.ButtonEnum or params.buttonEnum))
-            or (self.Data and (self.Data.ButtonEnum or self.Data.buttonEnum))
-            or (self.data and (self.data.ButtonEnum or self.data.buttonEnum))
-        if not buttonEnum then
-            local menuId = self.MenuID or self.menuId or self.MenuId or self.menuID
-                or (self.Data and (self.Data.MenuID or self.Data.menuId or self.Data.MenuId or self.Data.id or self.Data.Id))
-                or (self.data and (self.data.MenuID or self.data.menuId or self.data.MenuId or self.data.id or self.data.Id))
-                or (params and type(params) == "table" and (params.MenuID or params.menuId or params.MenuId or params.id or params.Id))
-                or (type(params) == "number" and params)
-            local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
-            buttonEnum = menuData and (menuData.ButtonEnum or menuData.buttonEnum)
+    for _, methodName in ipairs({ "OnRefresh", "Refresh", "SetData", "OnOpen" }) do
+        local original = class[methodName]
+        if type(original) == "function" then
+            class[methodName] = function(self, params, ...)
+                local results = { original(self, params, ...) }
+                pcall(repairMenuBtnItem, self, params)
+                return unpack(results)
+            end
         end
-        local label = buttonEnum and shortMenuLabels[buttonEnum]
-        if label and self.view then
-            -- KGTextBlock can repaint its serialized long translation after
-            -- OnRefresh. Persist the compact value in both the widget property
-            -- and the live Slate text so later menu refreshes cannot restore it.
-            runtimeFixes.setNamedWidgetText(self.view, "Text_Name", label)
-            pcall(function()
-                local widget = getNamedWidget(self.view, "Text_Name")
-                if widget and widget.SetAutoWrapText ~= nil then
-                    widget:SetAutoWrapText(false)
-                end
-            end)
-        end
-        return unpack(results)
     end
     class.__cpddShortMenuLabels = VERSION
-    report("installed compact Russian menu labels")
+    report("installed compact Russian menu labels with zero letter-spacing (LOCKED)")
     return true
 end
 
@@ -7892,6 +7978,50 @@ Loader.AfterLoad(
     end,
     1000000,
     "cpdd.runtime-fix.short-menu-labels"
+)
+
+local function installMenuPanelRepair(value, environment)
+    local class = getSymbol(value, environment, "Menu_Panel")
+    if type(class) ~= "table" then
+        return false
+    end
+    if class.__cpddMenuPanelFix == VERSION then
+        return true
+    end
+
+    local function repairPanelButtons(self)
+        if not self then return end
+        self.__cpddEscMenuLocked = true
+        if type(self._childComponents) == "table" then
+            for _, child in pairs(self._childComponents) do
+                pcall(repairMenuBtnItem, child)
+            end
+        end
+    end
+
+    for _, methodName in ipairs({ "OnOpen", "OnRefresh", "Refresh" }) do
+        local original = class[methodName]
+        if type(original) == "function" then
+            class[methodName] = function(self, ...)
+                local results = { original(self, ...) }
+                pcall(repairPanelButtons, self)
+                return unpack(results)
+            end
+        end
+    end
+    class.__cpddMenuPanelFix = VERSION
+    report("installed Menu_Panel layout repair (LOCKED)")
+    return true
+end
+
+Loader.AfterLoad(
+    "Gameplay.LogicSystem.Menu.Menu_Panel",
+    function(value, environment)
+        installMenuPanelRepair(value, environment)
+        return value
+    end,
+    1000000,
+    "cpdd.runtime-fix.menu-panel-repair"
 )
 
 -- Item tooltips are reused for subsequent hovered items without closing their
@@ -7990,6 +8120,9 @@ function panelTextRepair:Repair(component, reason)
     local function repairComponent(current)
         if current == nil or current.isDestroyed or visitedComponents[current] then return end
         visitedComponents[current] = true
+        if current.__cpddEscMenuLocked or (tostring(current.uid or current.__cname) == "Menu_Panel" or tostring(current.uid or current.__cname) == "MenuBtn_Item") then
+            return
+        end
         local rootWidget = current.userWidget or current.widget
         local discoveryContext = nil
                 repaired = repaired + (translateViewTextWidgets(
