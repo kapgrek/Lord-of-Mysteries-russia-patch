@@ -41,6 +41,28 @@ if ($proc.ExitCode -ne 0) {
 
 Write-Host "Compilation SUCCESS: $outputExe ($((Get-Item $outputExe).Length) bytes)" -ForegroundColor Green
 
+# Authenticode Code Signing (Защита от ложных срабатываний SmartScreen / Defender)
+Write-Host "Applying Authenticode digital signature..." -ForegroundColor Cyan
+try {
+    $certSubject = "CN=Lord of Mysteries Russian Localization Project"
+    $cert = Get-ChildItem Cert:\CurrentUser\My | Where-Object { $_.Subject -eq $certSubject } | Select-Object -First 1
+    if (-not $cert) {
+        Write-Host "Creating code-signing certificate for project..." -ForegroundColor Cyan
+        $cert = New-SelfSignedCertificate -Type CodeSigningCert -Subject $certSubject -CertStoreLocation "Cert:\CurrentUser\My" -NotAfter (Get-Date).AddYears(5)
+    }
+    if ($cert) {
+        $sig = Set-AuthenticodeSignature -FilePath $outputExe -Certificate $cert -TimestampServer "http://timestamp.digicert.com" -HashAlgorithm SHA256 -ErrorAction SilentlyContinue
+        if (-not $sig -or $sig.Status -eq "UnknownError") {
+            $sig = Set-AuthenticodeSignature -FilePath $outputExe -Certificate $cert -TimestampServer "http://timestamp.sectigo.com" -HashAlgorithm SHA256 -ErrorAction SilentlyContinue
+        }
+        if ($sig) {
+            Write-Host "Authenticode signature: $($sig.Status) ($($cert.Subject))" -ForegroundColor Green
+        }
+    }
+} catch {
+    Write-Warning "Code signing warning: $_"
+}
+
 # Copy to root
 $rootExe = "$projectRoot\Lord-of-Mysteries-Russian-Patch.exe"
 Copy-Item $outputExe $rootExe -Force
@@ -56,8 +78,10 @@ try {
 }
 
 $v = (Get-Item $outputExe).VersionInfo
+$sigInfo = Get-AuthenticodeSignature $outputExe
 Write-Host "`nBinary info:" -ForegroundColor Yellow
 Write-Host "  Product:     $($v.ProductName) ($($v.ProductVersion))"
 Write-Host "  Description: $($v.FileDescription)"
 Write-Host "  Company:     $($v.CompanyName)"
+Write-Host "  Signature:   $($sigInfo.Status)"
 Write-Host "  SHA256:      $((Get-FileHash $outputExe -Algorithm SHA256).Hash.ToLower())"

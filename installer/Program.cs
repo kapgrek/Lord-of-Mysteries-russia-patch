@@ -4,12 +4,15 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.IO.Compression;
+using System.Net;
+using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Web.Script.Serialization;
 using System.Windows.Forms;
-using System.Runtime.InteropServices;
 using Microsoft.Win32;
 
 namespace LotmRussianPatcher
@@ -20,9 +23,22 @@ namespace LotmRussianPatcher
         private static extern bool AttachConsole(int dwProcessId);
         private const int ATTACH_PARENT_PROCESS = -1;
 
+        public const string VERSION = "2.6.2-RU";
+        public const string DEFAULT_REPO = "kapgrek/lotm-russian-patch-test";
+
         [STAThread]
         public static int Main(string[] args)
         {
+            // Настройка современных сетевых протоколов TLS для связи с GitHub
+            try
+            {
+                ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072 /*Tls12*/
+                    | (SecurityProtocolType)768 /*Tls11*/
+                    | SecurityProtocolType.Tls;
+                ServicePointManager.Expect100Continue = true;
+            }
+            catch { }
+
             if (args != null && args.Length > 0)
             {
                 try
@@ -51,31 +67,56 @@ namespace LotmRussianPatcher
             string cmd = args[0].ToLowerInvariant();
             if (cmd == "--help" || cmd == "-h" || cmd == "/?")
             {
-                Console.WriteLine("Lord of the Mysteries Russian Patch v2.6-RU CLI");
+                Console.WriteLine("Lord of the Mysteries Russian Patch " + VERSION + " CLI");
                 Console.WriteLine("Использование:");
                 Console.WriteLine("  --smoke-ui                  Проверка готовности графического интерфейса");
-                Console.WriteLine("  --verify-bundle             Проверка файлов локализации в payload");
+                Console.WriteLine("  --verify-bundle             Проверка локальных файлов локализации");
                 Console.WriteLine("  --diagnose <путь_к_игре>    Диагностика директории игры");
                 Console.WriteLine("  --install <путь_к_игре>     Установка патча в тихом режиме");
                 Console.WriteLine("  --uninstall <путь_к_игре>   Удаление патча и откат к оригиналу");
+                Console.WriteLine("  --toggle <путь_к_игре>      Переключение языка (Русский <-> English)");
+                Console.WriteLine("  --download-payload          Скачивание актуального архива патча с GitHub");
                 return 0;
             }
 
             if (cmd == "--smoke-ui")
             {
-                Console.WriteLine("UI_SMOKE_OK native=csharp winforms size=700x560 theme=dark-lotm");
+                Console.WriteLine("UI_SMOKE_OK native=csharp winforms size=720x600 theme=dark-lotm version=" + VERSION);
                 return 0;
             }
 
             if (cmd == "--verify-bundle")
             {
-                string payloadDir = PatcherBackend.ResolvePayloadDir();
+                string payloadDir = PatcherBackend.ResolvePayloadDir(false, null, null, CancellationToken.None).Result;
                 if (payloadDir != null && Directory.Exists(payloadDir))
                 {
-                    Console.WriteLine("BUNDLE_OK payload=" + payloadDir);
-                    return 0;
+                    bool valid = PatcherBackend.ValidatePayloadContents(payloadDir, Console.WriteLine);
+                    if (valid)
+                    {
+                        Console.WriteLine("BUNDLE_OK payload=" + payloadDir);
+                        return 0;
+                    }
+                    Console.WriteLine("BUNDLE_INVALID payload is incomplete: " + payloadDir);
+                    return 1;
                 }
                 Console.WriteLine("BUNDLE_ERROR payload directory not found");
+                return 1;
+            }
+
+            if (cmd == "--download-payload")
+            {
+                Console.WriteLine("Загрузка актуальной версии патча с GitHub...");
+                string targetDir = PatcherBackend.GetAppDataPayloadDir();
+                bool ok = PatcherBackend.DownloadAndExtractPayloadAsync(Console.WriteLine, (p, s) => {
+                    Console.Write("\rПрогресс: " + p + "% (" + s + ")   ");
+                }, CancellationToken.None).Result;
+                Console.WriteLine();
+                if (ok)
+                {
+                    Console.WriteLine("УСПЕХ: Патч загружен и распакован в: " + targetDir);
+                    return 0;
+                }
+                Console.WriteLine("ОШИБКА: Не удалось загрузить файлы патча.");
                 return 1;
             }
 
@@ -97,6 +138,12 @@ namespace LotmRussianPatcher
                 return PatcherBackend.RunCliUninstall(path) ? 0 : 1;
             }
 
+            if (cmd == "--toggle")
+            {
+                string path = args.Length > 1 ? args[1] : "";
+                return PatcherBackend.RunCliToggle(path) ? 0 : 1;
+            }
+
             // По умолчанию - считаем аргумент путем к игре для установки
             return PatcherBackend.RunCliInstall(args[0]) ? 0 : 1;
         }
@@ -110,24 +157,28 @@ namespace LotmRussianPatcher
         private Button btnInstall;
         private Button btnToggleLang;
         private Button btnRestore;
+        private Button btnCancel;
         private Label lblStatus;
+        private Label lblDownloadInfo;
         private ProgressBar progressBar;
         private RichTextBox rtbLog;
         private LinkLabel lnkGitHub;
 
-        private const string GITHUB_REPO = "kapgrek/lotm-russian-patch-test";
+        private CancellationTokenSource currentCts;
+        private bool isOperationRunning = false;
 
         public MainForm()
         {
             InitializeComponent();
             AutoDetectGamePath();
             CheckCurrentStatus();
+            CheckOnlineUpdateInfoAsync();
         }
 
         private void InitializeComponent()
         {
-            this.Text = "Lord of the Mysteries — Установщик русской локализации v2.6-RU";
-            this.Size = new Size(720, 580);
+            this.Text = "Lord of the Mysteries — Установщик русской локализации " + Program.VERSION;
+            this.Size = new Size(740, 620);
             this.StartPosition = FormStartPosition.CenterScreen;
             this.FormBorderStyle = FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -135,7 +186,6 @@ namespace LotmRussianPatcher
             this.ForeColor = Color.FromArgb(220, 225, 235);
             this.Font = new Font("Segoe UI", 9.5f, FontStyle.Regular);
 
-            // Попытка установить иконку
             try
             {
                 string iconPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "app.ico");
@@ -150,7 +200,7 @@ namespace LotmRussianPatcher
             Panel pnlHeader = new Panel
             {
                 Location = new Point(0, 0),
-                Size = new Size(720, 75),
+                Size = new Size(740, 78),
                 BackColor = Color.FromArgb(28, 33, 42)
             };
 
@@ -158,17 +208,17 @@ namespace LotmRussianPatcher
             {
                 Text = "Повелитель Тайн — Русская Локализация",
                 Font = new Font("Segoe UI", 14f, FontStyle.Bold),
-                ForeColor = Color.FromArgb(212, 175, 55), // Благородное золото
+                ForeColor = Color.FromArgb(212, 175, 55),
                 Location = new Point(20, 12),
                 AutoSize = true
             };
 
             Label lblSub = new Label
             {
-                Text = "Версия 2.6-RU • Шардированный рантайм-перевод и патчер текстур IoStore",
+                Text = "Версия " + Program.VERSION + " • Автономный установщик • Шардированный рантайм-перевод",
                 Font = new Font("Segoe UI", 8.5f, FontStyle.Regular),
                 ForeColor = Color.FromArgb(160, 170, 185),
-                Location = new Point(22, 42),
+                Location = new Point(22, 44),
                 AutoSize = true
             };
 
@@ -176,19 +226,19 @@ namespace LotmRussianPatcher
             pnlHeader.Controls.Add(lblSub);
             this.Controls.Add(pnlHeader);
 
-            // Выбор папки
+            // Выбор папки игры
             Label lblPathTitle = new Label
             {
                 Text = "Папка с игрой (директория Game\\C7 или корневая папка Lord of Mysteries):",
-                Location = new Point(20, 90),
+                Location = new Point(20, 92),
                 AutoSize = true
             };
             this.Controls.Add(lblPathTitle);
 
             txtGamePath = new TextBox
             {
-                Location = new Point(20, 115),
-                Size = new Size(470, 26),
+                Location = new Point(20, 117),
+                Size = new Size(490, 26),
                 BackColor = Color.FromArgb(32, 38, 48),
                 ForeColor = Color.White,
                 BorderStyle = BorderStyle.FixedSingle
@@ -199,7 +249,7 @@ namespace LotmRussianPatcher
             btnBrowse = new Button
             {
                 Text = "Обзор...",
-                Location = new Point(500, 114),
+                Location = new Point(520, 116),
                 Size = new Size(90, 28),
                 BackColor = Color.FromArgb(45, 52, 65),
                 ForeColor = Color.White,
@@ -212,7 +262,7 @@ namespace LotmRussianPatcher
             btnAutoDetect = new Button
             {
                 Text = "Автопоиск",
-                Location = new Point(598, 114),
+                Location = new Point(618, 116),
                 Size = new Size(95, 28),
                 BackColor = Color.FromArgb(45, 52, 65),
                 ForeColor = Color.FromArgb(212, 175, 55),
@@ -222,32 +272,59 @@ namespace LotmRussianPatcher
             btnAutoDetect.Click += (s, e) => AutoDetectGamePath();
             this.Controls.Add(btnAutoDetect);
 
-            // Статус
+            // Статус установки
             lblStatus = new Label
             {
-                Text = "Статус: Поиск директории игры...",
+                Text = "Статус: Определение директории игры...",
                 Location = new Point(20, 155),
-                Size = new Size(675, 22),
+                Size = new Size(695, 22),
                 Font = new Font("Segoe UI", 9.5f, FontStyle.Bold),
                 ForeColor = Color.FromArgb(212, 175, 55)
             };
             this.Controls.Add(lblStatus);
 
+            // Дополнительная строка прогресса загрузки
+            lblDownloadInfo = new Label
+            {
+                Text = "",
+                Location = new Point(20, 178),
+                Size = new Size(695, 18),
+                Font = new Font("Segoe UI", 8.5f, FontStyle.Regular),
+                ForeColor = Color.FromArgb(170, 185, 205),
+                Visible = false
+            };
+            this.Controls.Add(lblDownloadInfo);
+
             // Прогресс бар
             progressBar = new ProgressBar
             {
-                Location = new Point(20, 180),
-                Size = new Size(675, 8),
+                Location = new Point(20, 200),
+                Size = new Size(610, 12),
                 Visible = false
             };
             this.Controls.Add(progressBar);
+
+            btnCancel = new Button
+            {
+                Text = "Отмена",
+                Location = new Point(638, 196),
+                Size = new Size(75, 22),
+                BackColor = Color.FromArgb(60, 30, 30),
+                ForeColor = Color.LightPink,
+                FlatStyle = FlatStyle.Flat,
+                Font = new Font("Segoe UI", 8f),
+                Visible = false
+            };
+            btnCancel.FlatAppearance.BorderSize = 0;
+            btnCancel.Click += (s, e) => { if (currentCts != null) currentCts.Cancel(); };
+            this.Controls.Add(btnCancel);
 
             // Кнопки действий
             btnInstall = new Button
             {
                 Text = "✔ Установить / Обновить",
-                Location = new Point(20, 198),
-                Size = new Size(215, 40),
+                Location = new Point(20, 222),
+                Size = new Size(220, 42),
                 BackColor = Color.FromArgb(34, 139, 34),
                 ForeColor = Color.White,
                 Font = new Font("Segoe UI", 10f, FontStyle.Bold),
@@ -260,8 +337,8 @@ namespace LotmRussianPatcher
             btnToggleLang = new Button
             {
                 Text = "🔄 Переключить язык",
-                Location = new Point(245, 198),
-                Size = new Size(210, 40),
+                Location = new Point(250, 222),
+                Size = new Size(215, 42),
                 BackColor = Color.FromArgb(45, 52, 65),
                 ForeColor = Color.White,
                 Font = new Font("Segoe UI", 9.5f, FontStyle.Regular),
@@ -274,8 +351,8 @@ namespace LotmRussianPatcher
             btnRestore = new Button
             {
                 Text = "↩ Исходный (Откат)",
-                Location = new Point(465, 198),
-                Size = new Size(230, 40),
+                Location = new Point(475, 222),
+                Size = new Size(240, 42),
                 BackColor = Color.FromArgb(45, 52, 65),
                 ForeColor = Color.White,
                 Font = new Font("Segoe UI", 9.5f, FontStyle.Regular),
@@ -288,8 +365,8 @@ namespace LotmRussianPatcher
             // Окно лога
             rtbLog = new RichTextBox
             {
-                Location = new Point(20, 252),
-                Size = new Size(675, 235),
+                Location = new Point(20, 278),
+                Size = new Size(695, 260),
                 BackColor = Color.FromArgb(14, 17, 22),
                 ForeColor = Color.FromArgb(180, 190, 205),
                 ReadOnly = true,
@@ -301,20 +378,20 @@ namespace LotmRussianPatcher
             // Ссылка на репозиторий
             lnkGitHub = new LinkLabel
             {
-                Text = "Репозиторий проекта на GitHub: github.com/" + GITHUB_REPO,
-                Location = new Point(20, 505),
+                Text = "Официальный репозиторий проекта: github.com/" + Program.DEFAULT_REPO,
+                Location = new Point(20, 550),
                 AutoSize = true,
                 LinkColor = Color.FromArgb(212, 175, 55),
                 ActiveLinkColor = Color.White
             };
             lnkGitHub.LinkClicked += (s, e) =>
             {
-                try { Process.Start(new ProcessStartInfo("https://github.com/" + GITHUB_REPO) { UseShellExecute = true }); } catch { }
+                try { Process.Start(new ProcessStartInfo("https://github.com/" + Program.DEFAULT_REPO) { UseShellExecute = true }); } catch { }
             };
             this.Controls.Add(lnkGitHub);
 
-            Log("Добро пожаловать в установщик русской локализации Lord of the Mysteries!");
-            Log("Архитектура v2.6-RU: 1024 шардов рантайма, нативный мост Oodle и IoStore BakedText.");
+            Log("Установщик русской локализации Lord of the Mysteries " + Program.VERSION + " готов к работе.");
+            Log("Архитектура: безопасный No-Injection моддинг, 1024 шардов рантайма, блочный патчер IoStore.");
         }
 
         private void Log(string msg)
@@ -329,22 +406,55 @@ namespace LotmRussianPatcher
             rtbLog.ScrollToCaret();
         }
 
+        private void UpdateProgressUI(int percent, string text)
+        {
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new Action<int, string>(UpdateProgressUI), percent, text);
+                return;
+            }
+
+            if (percent < 0)
+            {
+                progressBar.Style = ProgressBarStyle.Marquee;
+                progressBar.Visible = true;
+            }
+            else
+            {
+                progressBar.Style = ProgressBarStyle.Continuous;
+                progressBar.Value = Math.Max(0, Math.Min(100, percent));
+                progressBar.Visible = true;
+            }
+
+            if (!string.IsNullOrEmpty(text))
+            {
+                lblDownloadInfo.Text = text;
+                lblDownloadInfo.Visible = true;
+            }
+            else
+            {
+                lblDownloadInfo.Visible = false;
+            }
+        }
+
         private void AutoDetectGamePath()
         {
             string found = PatcherBackend.FindGameFolder();
             if (!string.IsNullOrEmpty(found))
             {
                 txtGamePath.Text = found;
-                Log("Автоматически обнаружена директория игры: " + found);
+                Log("Автоматически обнаружена игра: " + found);
             }
             else
             {
-                Log("Автопоиск не смог обнаружить стандартную папку игры. Укажите её через кнопку 'Обзор'.");
+                Log("Игра не найдена в стандартных путях. Выберите папку через кнопку 'Обзор...'.");
             }
         }
 
         private void CheckCurrentStatus()
         {
+            if (isOperationRunning) return;
+
             string path = txtGamePath.Text.Trim();
             string normalized = PatcherBackend.NormalizeGameDir(path);
             if (!string.IsNullOrEmpty(normalized) && normalized != path)
@@ -355,7 +465,7 @@ namespace LotmRussianPatcher
 
             if (!PatcherBackend.IsValidGameFolder(path))
             {
-                lblStatus.Text = "Статус: Укажите корректную директорию игры (Game\\C7)";
+                lblStatus.Text = "Статус: Укажите корректную папку игры (Game\\C7 или корень игры)";
                 lblStatus.ForeColor = Color.OrangeRed;
                 btnInstall.Enabled = false;
                 btnToggleLang.Enabled = false;
@@ -364,39 +474,54 @@ namespace LotmRussianPatcher
             }
 
             btnInstall.Enabled = true;
-            string ruFile = Path.Combine(path, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "RussianLocalization.lua");
-            if (File.Exists(ruFile))
+
+            var status = PatcherBackend.InspectGameStatus(path);
+            if (status == GamePatchStatus.InstalledActive)
             {
-                string text = File.ReadAllText(ruFile, Encoding.UTF8);
-                if (text.Contains("Russian.Enabled = true") || text.Contains("Enabled = true"))
-                {
-                    lblStatus.Text = "Статус: Русификатор УСТАНОВЛЕН и АКТИВЕН (Русский)";
-                    lblStatus.ForeColor = Color.LightGreen;
-                    btnToggleLang.Text = "🔄 Переключить на English";
-                }
-                else
-                {
-                    lblStatus.Text = "Статус: Русификатор установлен, но ВЫКЛЮЧЕН (English)";
-                    lblStatus.ForeColor = Color.Gold;
-                    btnToggleLang.Text = "🔄 Переключить на Русский";
-                }
+                lblStatus.Text = "Статус: Русификатор УСТАНОВЛЕН и АКТИВЕН (Русский язык)";
+                lblStatus.ForeColor = Color.LightGreen;
+                btnToggleLang.Text = "🔄 Переключить на English";
+                btnToggleLang.Enabled = true;
+                btnRestore.Enabled = true;
+            }
+            else if (status == GamePatchStatus.InstalledDisabled)
+            {
+                lblStatus.Text = "Статус: Русификатор установлен, но ОТКЛЮЧЕН (English)";
+                lblStatus.ForeColor = Color.Gold;
+                btnToggleLang.Text = "🔄 Включить Русский язык";
                 btnToggleLang.Enabled = true;
                 btnRestore.Enabled = true;
             }
             else
             {
-                lblStatus.Text = "Статус: Игра обнаружена, готова к установке";
+                lblStatus.Text = "Статус: Игра обнаружена, готова к установке русской локализации";
                 lblStatus.ForeColor = Color.White;
                 btnToggleLang.Enabled = false;
                 btnRestore.Enabled = false;
             }
         }
 
+        private async void CheckOnlineUpdateInfoAsync()
+        {
+            try
+            {
+                var manifest = await Task.Run(() => GitHubReleaseClient.FetchLatestReleaseInfo(null));
+                if (manifest != null && !string.IsNullOrEmpty(manifest.Version))
+                {
+                    this.Invoke(new Action(() =>
+                    {
+                        Log("Проверка обновлений: доступна версия " + manifest.Version + " (" + (manifest.PayloadSize / 1024 / 1024) + " МБ на GitHub)");
+                    }));
+                }
+            }
+            catch { }
+        }
+
         private void BtnBrowse_Click(object sender, EventArgs e)
         {
             using (FolderBrowserDialog fbd = new FolderBrowserDialog())
             {
-                fbd.Description = "Выберите папку с игрой Lord of Mysteries (Game\\C7 или корень):";
+                fbd.Description = "Выберите папку с установленной игрой Lord of Mysteries (директория Game\\C7):";
                 fbd.ShowNewFolderButton = false;
                 if (!string.IsNullOrEmpty(txtGamePath.Text) && Directory.Exists(txtGamePath.Text))
                 {
@@ -414,81 +539,102 @@ namespace LotmRussianPatcher
             string gamePath = txtGamePath.Text.Trim();
             if (!PatcherBackend.IsValidGameFolder(gamePath))
             {
-                MessageBox.Show("Укажите правильную папку с игрой!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Укажите корректную папку с игрой перед установкой!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            var procs = Process.GetProcessesByName("Lord of Mysteries");
-            if (procs.Length == 0) procs = Process.GetProcessesByName("C7-Win64-Shipping");
-            if (procs.Length > 0)
+            if (PatcherBackend.IsGameRunning())
             {
-                MessageBox.Show("Игра сейчас запущена! Пожалуйста, закройте игру перед установкой или обновлением.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Игра или лаунчер сейчас запущены!\n\nПожалуйста, полностью закройте игру перед установкой или обновлением.",
+                    "Внимание: Игра запущена", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Блокировка UI
+            isOperationRunning = true;
+            btnInstall.Enabled = false;
+            btnToggleLang.Enabled = false;
+            btnRestore.Enabled = false;
+            btnBrowse.Enabled = false;
+            btnAutoDetect.Enabled = false;
+            btnCancel.Visible = true;
+            progressBar.Visible = true;
+            lblDownloadInfo.Visible = true;
+
+            currentCts = new CancellationTokenSource();
+            CancellationToken token = currentCts.Token;
+
+            Log("=== Запуск процесса установки русской локализации ===");
+
+            bool success = false;
+            string failReason = "";
+
+            try
+            {
+                success = await Task.Run(() =>
+                {
+                    return PatcherBackend.InstallWithAutoPayload(gamePath, Log, UpdateProgressUI, token, out failReason);
+                });
+            }
+            catch (OperationCanceledException)
+            {
+                failReason = "Операция отменена пользователем.";
+                Log("Установка отменена пользователем.");
+            }
+            catch (Exception ex)
+            {
+                failReason = ex.Message;
+                Log("КРИТИЧЕСКИЙ СБОЙ: " + ex.Message);
+            }
+            finally
+            {
+                isOperationRunning = false;
+                btnCancel.Visible = false;
+                progressBar.Visible = false;
+                lblDownloadInfo.Visible = false;
+                btnBrowse.Enabled = true;
+                btnAutoDetect.Enabled = true;
+                btnInstall.Enabled = true;
+                CheckCurrentStatus();
+            }
+
+            if (success)
+            {
+                MessageBox.Show("Русская локализация Lord of the Mysteries успешно установлена и проверена!\n\nВсе компоненты активны. Приятной игры!",
+                    "Установка завершена", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Установка не была завершена из-за ошибки:\n\n" + failReason + "\n\nПодробности смотрите в окне лога ниже.",
+                    "Ошибка установки", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private async void BtnToggleLang_Click(object sender, EventArgs e)
+        {
+            string gamePath = txtGamePath.Text.Trim();
+            if (!PatcherBackend.IsValidGameFolder(gamePath)) return;
+
+            if (PatcherBackend.IsGameRunning())
+            {
+                MessageBox.Show("Закройте игру перед переключением языка!", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
             btnInstall.Enabled = false;
             btnToggleLang.Enabled = false;
             btnRestore.Enabled = false;
-            progressBar.Visible = true;
-            progressBar.Style = ProgressBarStyle.Marquee;
 
-            Log("Начало процесса установки русской локализации...");
+            bool ok = await Task.Run(() => PatcherBackend.ToggleLanguage(gamePath, Log));
 
-            bool success = false;
-            await Task.Run(() =>
-            {
-                try
-                {
-                    success = PatcherBackend.Install(gamePath, Log);
-                }
-                catch (Exception ex)
-                {
-                    Log("КРИТИЧЕСКАЯ ОШИБКА: " + ex.Message);
-                }
-            });
-
-            progressBar.Visible = false;
             btnInstall.Enabled = true;
             CheckCurrentStatus();
 
-            if (success)
+            if (ok)
             {
-                MessageBox.Show("Русская локализация Lord of the Mysteries v2.6-RU успешно установлена!", "Успешно", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-            {
-                MessageBox.Show("При установке возникли ошибки. Подробности смотрите в окне логов.", "Ошибка установки", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void BtnToggleLang_Click(object sender, EventArgs e)
-        {
-            string gamePath = txtGamePath.Text.Trim();
-            string ruFile = Path.Combine(gamePath, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "RussianLocalization.lua");
-            if (!File.Exists(ruFile)) return;
-
-            try
-            {
-                string text = File.ReadAllText(ruFile, Encoding.UTF8);
-                if (text.Contains("Russian.Enabled = true") || text.Contains("Enabled = true"))
-                {
-                    text = text.Replace("Russian.Enabled = true", "Russian.Enabled = false");
-                    text = text.Replace("Enabled = true", "Enabled = false");
-                    File.WriteAllText(ruFile, text, Encoding.UTF8);
-                    Log("Язык переключен на АНГЛИЙСКИЙ (English)");
-                }
-                else
-                {
-                    text = text.Replace("Russian.Enabled = false", "Russian.Enabled = true");
-                    text = text.Replace("Enabled = false", "Enabled = true");
-                    File.WriteAllText(ruFile, text, Encoding.UTF8);
-                    Log("Язык переключен на РУССКИЙ (Russian)");
-                }
-                CheckCurrentStatus();
-            }
-            catch (Exception ex)
-            {
-                Log("Ошибка переключения: " + ex.Message);
+                var status = PatcherBackend.InspectGameStatus(gamePath);
+                string currentLang = (status == GamePatchStatus.InstalledActive) ? "РУССКИЙ" : "АНГЛИЙСКИЙ (English)";
+                MessageBox.Show("Язык игры успешно переключен на: " + currentLang, "Переключение языка", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -497,48 +643,63 @@ namespace LotmRussianPatcher
             string gamePath = txtGamePath.Text.Trim();
             if (!PatcherBackend.IsValidGameFolder(gamePath)) return;
 
+            if (PatcherBackend.IsGameRunning())
+            {
+                MessageBox.Show("Закройте игру перед удалением русификатора!", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             DialogResult confirm = MessageBox.Show(
-                "Вы действительно хотите удалить русификатор и вернуть игру к оригинальному состоянию?",
+                "Вы действительно хотите полностью удалить русификатор и вернуть игру к исходному состоянию?\n\nОригинальный блок pakchunk0 будет восстановлен из резервной копии.",
                 "Подтверждение отката",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
 
             if (confirm != DialogResult.Yes) return;
 
+            isOperationRunning = true;
             btnInstall.Enabled = false;
             btnToggleLang.Enabled = false;
             btnRestore.Enabled = false;
             progressBar.Visible = true;
             progressBar.Style = ProgressBarStyle.Marquee;
 
-            Log("Откат изменений и восстановление оригинальной игры...");
+            Log("=== Откат изменений и восстановление оригинальной игры ===");
 
             bool success = false;
-            await Task.Run(() =>
+            try
             {
-                try
-                {
-                    success = PatcherBackend.Uninstall(gamePath, Log);
-                }
-                catch (Exception ex)
-                {
-                    Log("ОШИБКА ОТКАТА: " + ex.Message);
-                }
-            });
-
-            progressBar.Visible = false;
-            btnInstall.Enabled = true;
-            CheckCurrentStatus();
+                success = await Task.Run(() => PatcherBackend.Uninstall(gamePath, Log));
+            }
+            catch (Exception ex)
+            {
+                Log("ОШИБКА ОТКАТА: " + ex.Message);
+            }
+            finally
+            {
+                isOperationRunning = false;
+                progressBar.Visible = false;
+                btnInstall.Enabled = true;
+                CheckCurrentStatus();
+            }
 
             if (success)
             {
-                MessageBox.Show("Откат завершен! Игра возвращена в исходное состояние.", "Готово", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Откат успешно завершен! Игра возвращена в оригинальное состояние.", "Готово", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                MessageBox.Show("Во время отката возникли ошибки. Проверьте лог.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Во время отката возникли предупреждения. Проверьте лог.", "Предупреждение", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
+    }
+
+    public enum GamePatchStatus
+    {
+        InvalidPath,
+        NotInstalled,
+        InstalledActive,
+        InstalledDisabled
     }
 
     public static class PatcherBackend
@@ -548,65 +709,94 @@ namespace LotmRussianPatcher
         public const string ORIGINAL_PAK_SHA256 = "566e72d677fc974ab172eb71a34cdc6623f1e0dd19d978de812a76a1820b7fc7";
         public const string PATCHED_PAK_SHA256 = "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9";
 
-        public static string ResolvePayloadDir()
+        public static string GetAppDataPayloadDir()
         {
-            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
-            string[] candidates = new string[]
-            {
-                Path.Combine(baseDir, "patch_payload"),
-                Path.Combine(baseDir, "..", "patch_payload"),
-                Path.Combine(baseDir, "data"),
-                Path.Combine(baseDir, "..", "data")
-            };
+            string localApp = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            return Path.Combine(localApp, "LotmRussianPatch", "payload");
+        }
 
-            foreach (var c in candidates)
-            {
-                if (Directory.Exists(c) && Directory.Exists(Path.Combine(c, "Saved")))
-                {
-                    return Path.GetFullPath(c);
-                }
-            }
+        public static string GetAppDataCacheDir()
+        {
+            string localApp = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            return Path.Combine(localApp, "LotmRussianPatch", "cache");
+        }
 
-            // Поиск локального zip-архива с данными патча
-            string localZip = Path.Combine(baseDir, "lom-russian-patch-data.zip");
-            if (!File.Exists(localZip))
-            {
-                string[] zipCandidates = Directory.GetFiles(baseDir, "*russian-patch*.zip");
-                if (zipCandidates.Length > 0) localZip = zipCandidates[0];
-                else
-                {
-                    string buildZip = Path.Combine(baseDir, "build", "lom-russian-patch-data.zip");
-                    if (File.Exists(buildZip)) localZip = buildZip;
-                    else
-                    {
-                        string parentBuildZip = Path.Combine(baseDir, "..", "build", "lom-russian-patch-data.zip");
-                        if (File.Exists(parentBuildZip)) localZip = parentBuildZip;
-                    }
-                }
-            }
-
-            if (File.Exists(localZip))
+        public static bool IsGameRunning()
+        {
+            string[] procNames = new string[] { "Lord of Mysteries", "C7-Win64-Shipping", "GMZZLauncher", "C7" };
+            foreach (var name in procNames)
             {
                 try
                 {
-                    string extractDir = Path.Combine(Path.GetTempPath(), "lom_patch_payload_" + (new FileInfo(localZip).Length));
-                    if (Directory.Exists(extractDir) && Directory.Exists(Path.Combine(extractDir, "Saved")))
-                    {
-                        return extractDir;
-                    }
+                    if (Process.GetProcessesByName(name).Length > 0) return true;
+                }
+                catch { }
+            }
+            return false;
+        }
 
-                    if (Directory.Exists(extractDir)) Directory.Delete(extractDir, true);
-                    Directory.CreateDirectory(extractDir);
-                    ZipFile.ExtractToDirectory(localZip, extractDir);
-                    if (Directory.Exists(Path.Combine(extractDir, "Saved")))
+        public static GamePatchStatus InspectGameStatus(string gameDir)
+        {
+            if (!IsValidGameFolder(gameDir)) return GamePatchStatus.InvalidPath;
+
+            bool pakPatched = IsPakPatched(gameDir);
+            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
+            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
+            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
+
+            bool modsPresent = (File.Exists(bridge) || File.Exists(bridgeDisabled)) && File.Exists(bootstrap);
+
+            if (!pakPatched && !modsPresent)
+            {
+                return GamePatchStatus.NotInstalled;
+            }
+
+            // Проверка выключения русификатора
+            if (File.Exists(bridgeDisabled) && !File.Exists(bridge))
+            {
+                return GamePatchStatus.InstalledDisabled;
+            }
+
+            if (File.Exists(bootstrap))
+            {
+                try
+                {
+                    string content = File.ReadAllText(bootstrap, Encoding.UTF8);
+                    if (content.Contains("RussianLocalization = false"))
                     {
-                        return extractDir;
+                        return GamePatchStatus.InstalledDisabled;
                     }
                 }
                 catch { }
             }
 
-            return null;
+            if (pakPatched && File.Exists(bridge))
+            {
+                return GamePatchStatus.InstalledActive;
+            }
+
+            return GamePatchStatus.NotInstalled;
+        }
+
+        public static bool IsPakPatched(string gameDir)
+        {
+            string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
+            if (!File.Exists(pakPath)) return false;
+
+            try
+            {
+                using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+                {
+                    if (fs.Length < PAK_OFFSET + PAK_BLOCK_SIZE) return false;
+                    fs.Position = PAK_OFFSET;
+                    byte[] block = new byte[PAK_BLOCK_SIZE];
+                    int read = fs.Read(block, 0, PAK_BLOCK_SIZE);
+                    if (read != PAK_BLOCK_SIZE) return false;
+                    string hash = ComputeSha256(block);
+                    return hash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase);
+                }
+            }
+            catch { return false; }
         }
 
         public static string NormalizeGameDir(string path)
@@ -616,17 +806,11 @@ namespace LotmRussianPatcher
 
             if (IsValidGameFolder(path)) return path;
 
-            if (Directory.Exists(Path.Combine(path, "Game", "C7")))
-            {
-                string sub = Path.Combine(path, "Game", "C7");
-                if (IsValidGameFolder(sub)) return sub;
-            }
+            string sub1 = Path.Combine(path, "Game", "C7");
+            if (IsValidGameFolder(sub1)) return sub1;
 
-            if (Directory.Exists(Path.Combine(path, "C7")))
-            {
-                string sub = Path.Combine(path, "C7");
-                if (IsValidGameFolder(sub)) return sub;
-            }
+            string sub2 = Path.Combine(path, "C7");
+            if (IsValidGameFolder(sub2)) return sub2;
 
             return path;
         }
@@ -662,7 +846,6 @@ namespace LotmRussianPatcher
                 if (IsValidGameFolder(p)) return p;
             }
 
-            // Поиск в реестре
             try
             {
                 string[] regRoots = new string[]
@@ -704,51 +887,314 @@ namespace LotmRussianPatcher
             return null;
         }
 
-        public static bool Install(string gameDir, Action<string> log)
+        public static bool ValidatePayloadContents(string payloadDir, Action<string> log)
         {
-            log("[1/4] Проверка папки игры: " + gameDir);
+            if (string.IsNullOrEmpty(payloadDir) || !Directory.Exists(payloadDir))
+            {
+                if (log != null) log("Папка payload не найдена: " + payloadDir);
+                return false;
+            }
+
+            string bridgeFile = Path.Combine(payloadDir, "bridge", "LaunchInstance.native-bridge.padded.oodle");
+            if (!File.Exists(bridgeFile) || new FileInfo(bridgeFile).Length != PAK_BLOCK_SIZE)
+            {
+                if (log != null) log("Файл моста oodle отсутствует или имеет неверный размер: " + bridgeFile);
+                return false;
+            }
+
+            string bootstrap = Path.Combine(payloadDir, "Saved", "Mods", "bootstrap.lua");
+            if (!File.Exists(bootstrap) || new FileInfo(bootstrap).Length == 0)
+            {
+                if (log != null) log("Файл bootstrap.lua отсутствует или пуст.");
+                return false;
+            }
+
+            string initLua = Path.Combine(payloadDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "Init.lua");
+            if (!File.Exists(initLua) || new FileInfo(initLua).Length == 0)
+            {
+                if (log != null) log("Файл Init.lua отсутствует или пуст.");
+                return false;
+            }
+
+            return true;
+        }
+
+        public static async Task<string> ResolvePayloadDir(bool allowDownload, Action<string> log, Action<int, string> progress, CancellationToken token)
+        {
+            string baseDir = AppDomain.CurrentDomain.BaseDirectory;
+
+            // 1. Локальная папка patch_payload (режим разработчика)
+            string[] candidates = new string[]
+            {
+                Path.Combine(baseDir, "patch_payload"),
+                Path.Combine(baseDir, "..", "patch_payload"),
+                Path.Combine(baseDir, "data"),
+                Path.Combine(baseDir, "..", "data")
+            };
+
+            foreach (var c in candidates)
+            {
+                if (Directory.Exists(c) && ValidatePayloadContents(c, null))
+                {
+                    return Path.GetFullPath(c);
+                }
+            }
+
+            // 2. Локальный zip-архив рядом с экзешником
+            string localZip = Path.Combine(baseDir, "lom-russian-patch-data.zip");
+            if (!File.Exists(localZip))
+            {
+                string[] zipCandidates = Directory.GetFiles(baseDir, "*russian-patch*.zip");
+                if (zipCandidates.Length > 0) localZip = zipCandidates[0];
+            }
+
+            if (File.Exists(localZip))
+            {
+                try
+                {
+                    string targetExtract = Path.Combine(Path.GetTempPath(), "lom_patch_payload_" + (new FileInfo(localZip).Length));
+                    if (ValidatePayloadContents(targetExtract, null)) return targetExtract;
+
+                    if (log != null) log("Распаковка локального архива данных: " + Path.GetFileName(localZip));
+                    if (Directory.Exists(targetExtract)) Directory.Delete(targetExtract, true);
+                    Directory.CreateDirectory(targetExtract);
+                    ZipFile.ExtractToDirectory(localZip, targetExtract);
+                    if (ValidatePayloadContents(targetExtract, log)) return targetExtract;
+                }
+                catch { }
+            }
+
+            // 3. Кеш в AppData
+            string appDataPayload = GetAppDataPayloadDir();
+            if (ValidatePayloadContents(appDataPayload, null))
+            {
+                return appDataPayload;
+            }
+
+            // 4. Онлайн-загрузка, если разрешена
+            if (allowDownload)
+            {
+                if (log != null) log("Файлы патча не найдены локально. Запуск онлайн-загрузки с GitHub...");
+                bool ok = await DownloadAndExtractPayloadAsync(log, progress, token);
+                if (ok && ValidatePayloadContents(appDataPayload, log))
+                {
+                    return appDataPayload;
+                }
+            }
+
+            return null;
+        }
+
+        public static async Task<bool> DownloadAndExtractPayloadAsync(Action<string> log, Action<int, string> progress, CancellationToken token)
+        {
+            string cacheDir = GetAppDataCacheDir();
+            string payloadDir = GetAppDataPayloadDir();
+            Directory.CreateDirectory(cacheDir);
+
+            if (log != null) log("Подключение к серверу обновлений GitHub...");
+            if (progress != null) progress(-1, "Получение сведений об актуальной версии...");
+
+            ReleaseManifest manifest = await Task.Run(() => GitHubReleaseClient.FetchLatestReleaseInfo(log));
+            string downloadUrl = (manifest != null && !string.IsNullOrEmpty(manifest.PayloadDownloadUrl))
+                ? manifest.PayloadDownloadUrl
+                : "https://github.com/" + Program.DEFAULT_REPO + "/releases/latest/download/lom-russian-patch-data.zip";
+
+            long expectedSize = (manifest != null) ? manifest.PayloadSize : 0;
+            string expectedSha256 = (manifest != null) ? manifest.PayloadSha256 : null;
+
+            string tempZip = Path.Combine(cacheDir, "lom-russian-patch-data.download.zip");
+            string targetZip = Path.Combine(cacheDir, "lom-russian-patch-data.zip");
+
+            if (File.Exists(tempZip))
+            {
+                try { File.Delete(tempZip); } catch { }
+            }
+
+            // Проверка существующего кеша
+            if (File.Exists(targetZip))
+            {
+                if (!string.IsNullOrEmpty(expectedSha256))
+                {
+                    string currentHash = ComputeFileSha256(targetZip);
+                    if (currentHash.Equals(expectedSha256, StringComparison.OrdinalIgnoreCase))
+                    {
+                        if (log != null) log("В локальном кеше обнаружена актуальная версия архива (SHA256 проверен).");
+                        return ExtractArchiveSafe(targetZip, payloadDir, log, progress);
+                    }
+                }
+                else if (expectedSize > 0 && new FileInfo(targetZip).Length == expectedSize)
+                {
+                    return ExtractArchiveSafe(targetZip, payloadDir, log, progress);
+                }
+            }
+
+            if (log != null) log("Скачивание актуального пакета локализации (" + downloadUrl + ")...");
+
+            bool downloaded = await GitHubReleaseClient.DownloadFileWithProgressAsync(
+                downloadUrl,
+                tempZip,
+                expectedSize,
+                (bytes, total, speed) =>
+                {
+                    int pct = total > 0 ? (int)((bytes * 100) / total) : -1;
+                    string mbStr = string.Format("{0:0.0} / {1:0.0} МБ", bytes / 1048576.0, total / 1048576.0);
+                    string speedStr = string.Format("{0:0.0} МБ/с", speed / 1048576.0);
+                    string status = string.Format("Загрузка: {0} ({1})", mbStr, speedStr);
+                    if (progress != null) progress(pct, status);
+                },
+                token,
+                log
+            );
+
+            if (!downloaded)
+            {
+                if (log != null) log("ОШИБКА: Загрузка файлов не была завершена.");
+                return false;
+            }
+
+            // Верификация скачанного файла
+            if (!string.IsNullOrEmpty(expectedSha256))
+            {
+                if (log != null) log("Верификация целостности загруженного архива (SHA256)...");
+                string downloadedHash = ComputeFileSha256(tempZip);
+                if (!downloadedHash.Equals(expectedSha256, StringComparison.OrdinalIgnoreCase))
+                {
+                    if (log != null) log("ОШИБКА: Хеш загруженного архива не совпадает с манифестом релиза!");
+                    try { File.Delete(tempZip); } catch { }
+                    return false;
+                }
+                if (log != null) log("✔ Целостность архива подтверждена.");
+            }
+
+            try
+            {
+                if (File.Exists(targetZip)) File.Delete(targetZip);
+                File.Move(tempZip, targetZip);
+            }
+            catch (Exception ex)
+            {
+                if (log != null) log("Предупреждение кеширования: " + ex.Message);
+            }
+
+            string zipToExtract = File.Exists(targetZip) ? targetZip : tempZip;
+            return ExtractArchiveSafe(zipToExtract, payloadDir, log, progress);
+        }
+
+        private static bool ExtractArchiveSafe(string zipPath, string targetDir, Action<string> log, Action<int, string> progress)
+        {
+            try
+            {
+                if (log != null) log("Распаковка файлов локализации во временную директорию...");
+                if (progress != null) progress(-1, "Распаковка архива данных...");
+
+                if (Directory.Exists(targetDir))
+                {
+                    try { Directory.Delete(targetDir, true); } catch { }
+                }
+                Directory.CreateDirectory(targetDir);
+
+                ZipFile.ExtractToDirectory(zipPath, targetDir);
+
+                bool valid = ValidatePayloadContents(targetDir, log);
+                if (valid)
+                {
+                    if (log != null) log("✔ Все компоненты патча успешно распакованы и готовы.");
+                    return true;
+                }
+                else
+                {
+                    if (log != null) log("ОШИБКА: Распакованный архив не содержит всех необходимых компонентов.");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                if (log != null) log("ОШИБКА распаковки: " + ex.Message);
+                return false;
+            }
+        }
+
+        public static bool InstallWithAutoPayload(string gameDir, Action<string> log, Action<int, string> progress, CancellationToken token, out string failReason)
+        {
+            failReason = "";
+
+            if (!IsValidGameFolder(gameDir))
+            {
+                failReason = "Указанная папка игры недействительна.";
+                return false;
+            }
+
+            if (IsGameRunning())
+            {
+                failReason = "Игра или лаунчер запущены. Закройте их перед установкой.";
+                return false;
+            }
+
+            // 1. Проверка прав на запись
             string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
             if (!File.Exists(pakPath))
             {
-                log("ОШИБКА: pakchunk0-Windows.pak не найден в " + pakPath);
+                failReason = "Файл pakchunk0-Windows.pak не найден в: " + pakPath;
+                if (log != null) log("ОШИБКА: " + failReason);
                 return false;
             }
 
-            string payloadDir = ResolvePayloadDir();
-            if (payloadDir == null)
+            try
             {
-                log("ОШИБКА: Не найдена папка полезной нагрузки patch_payload!");
+                using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+                {
+                    // Проверка возможности чтения и записи
+                }
+            }
+            catch (Exception ex)
+            {
+                failReason = "Нет доступа к записи в pakchunk0-Windows.pak (" + ex.Message + "). Требуются права администратора или снятие блокировки.";
+                if (log != null) log("ОШИБКА ДОСТУПА: " + failReason);
                 return false;
             }
-            log("  -> Использование файлов патча из: " + payloadDir);
+
+            // 2. Получение файлов полезной нагрузки (с автоскачиванием при необходимости)
+            if (log != null) log("[1/5] Проверка наличия пакета русификатора...");
+            string payloadDir = ResolvePayloadDir(true, log, progress, token).Result;
+            if (payloadDir == null || !ValidatePayloadContents(payloadDir, log))
+            {
+                failReason = "Не удалось получить полные файлы русификатора (ошибка загрузки или поврежденный архив).";
+                return false;
+            }
+
+            // 3. Выполнение установки
+            if (progress != null) progress(-1, "Внедрение моста и шардов локализации...");
+            return InstallCore(gameDir, payloadDir, log, out failReason);
+        }
+
+        private static bool InstallCore(string gameDir, string payloadDir, Action<string> log, out string failReason)
+        {
+            failReason = "";
+
+            string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
+            string bridgeFile = Path.Combine(payloadDir, "bridge", "LaunchInstance.native-bridge.padded.oodle");
+            byte[] bridgeBytes = File.ReadAllBytes(bridgeFile);
+
+            if (bridgeBytes.Length != PAK_BLOCK_SIZE)
+            {
+                failReason = "Неверный размер блока моста: " + bridgeBytes.Length + " (ожидалось " + PAK_BLOCK_SIZE + ")";
+                return false;
+            }
 
             // 1. Патчинг pakchunk0
-            log("[2/4] Безопасная модификация pakchunk0 (No-Injection Bootstrap)...");
-            string bridgeFile = Path.Combine(payloadDir, "bridge", "LaunchInstance.native-bridge.padded.oodle");
-            byte[] bridgeBytes = null;
-            if (File.Exists(bridgeFile))
-            {
-                bridgeBytes = File.ReadAllBytes(bridgeFile);
-            }
-
-            if (bridgeBytes == null || bridgeBytes.Length != PAK_BLOCK_SIZE)
-            {
-                log("ОШИБКА: Файл моста LaunchInstance.native-bridge.padded.oodle поврежден или отсутствует!");
-                return false;
-            }
-
+            log("[2/5] Модификация pakchunk0-Windows.pak (No-Injection Bootstrap)...");
             using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
             {
                 if (fs.Length < PAK_OFFSET + PAK_BLOCK_SIZE)
                 {
-                    log("ОШИБКА: Размер pak-файла меньше требуемого смещения!");
+                    failReason = "Размер файла pakchunk0 меньше необходимого смещения (" + fs.Length + " < " + (PAK_OFFSET + PAK_BLOCK_SIZE) + ")";
                     return false;
                 }
 
                 fs.Position = PAK_OFFSET;
-                byte[] cur = new byte[PAK_BLOCK_SIZE];
-                fs.Read(cur, 0, PAK_BLOCK_SIZE);
-                string curHash = ComputeSha256(cur);
+                byte[] current = new byte[PAK_BLOCK_SIZE];
+                fs.Read(current, 0, PAK_BLOCK_SIZE);
+                string curHash = ComputeSha256(current);
 
                 if (curHash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase))
                 {
@@ -761,44 +1207,188 @@ namespace LotmRussianPatcher
                     string backupFile = Path.Combine(backupDir, "LaunchInstance.original.block");
                     if (!File.Exists(backupFile))
                     {
-                        File.WriteAllBytes(backupFile, cur);
-                        log("  -> Резервная копия оригинального блока сохранена в Backup.");
+                        File.WriteAllBytes(backupFile, current);
+                        log("  -> Резервная копия оригинального блока сохранена в Saved/Mods/Backup.");
                     }
 
                     fs.Position = PAK_OFFSET;
                     fs.Write(bridgeBytes, 0, PAK_BLOCK_SIZE);
-                    log("  -> Нативный блок моста успешно внедрён!");
+                    fs.Flush();
+
+                    // Строгая верификация записи: перепроверяем записанный блок
+                    fs.Position = PAK_OFFSET;
+                    byte[] verifyBytes = new byte[PAK_BLOCK_SIZE];
+                    fs.Read(verifyBytes, 0, PAK_BLOCK_SIZE);
+                    string verifyHash = ComputeSha256(verifyBytes);
+
+                    if (!verifyHash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase))
+                    {
+                        failReason = "Критическая ошибка: записанный в pakchunk0 блок не прошел сверку хеша!";
+                        return false;
+                    }
+                    log("  -> Нативный блок моста успешно внедрен и верифицирован.");
                 }
             }
 
             // 2. Копирование файлов мода
-            log("[3/4] Развёртывание модулей локализации и 1024 шардов...");
+            log("[3/5] Развертывание 1024 шардов рантайма, таблиц БД и моста инициализации...");
             string binSrc = Path.Combine(payloadDir, "Binaries");
             string savedSrc = Path.Combine(payloadDir, "Saved");
 
             if (Directory.Exists(binSrc))
             {
                 CopyDirectory(binSrc, Path.Combine(gameDir, "Binaries"));
-                log("  -> Файлы Binaries скопированы.");
+                log("  -> Мост Binaries/Win64 скопирован.");
             }
 
             if (Directory.Exists(savedSrc))
             {
                 CopyDirectory(savedSrc, Path.Combine(gameDir, "Saved"));
-                log("  -> Файлы Saved/Mods (шарды, Excel DB, Init.lua) скопированы.");
+                log("  -> Файлы Saved/Mods (шарды, таблицы, Init.lua, bootstrap.lua) скопированы.");
+            }
+
+            // Убеждаемся, что мост включен (удаляем .disabled, если был)
+            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
+            if (File.Exists(bridgeDisabled))
+            {
+                try { File.Delete(bridgeDisabled); } catch { }
+            }
+
+            // Проверяем наличие ключевых файлов на диске
+            string targetBridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
+            string targetBootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
+            string targetInit = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "Init.lua");
+
+            if (!File.Exists(targetBridge) || !File.Exists(targetBootstrap) || !File.Exists(targetInit))
+            {
+                failReason = "Не все ключевые файлы мода были скопированы на диск игры.";
+                return false;
             }
 
             // 3. Патчинг BakedText
-            log("[4/4] Внедрение запечённого текста и текстур UI (IoStore BakedText)...");
-            PatchBakedText(gameDir, payloadDir, log);
+            log("[4/5] Внедрение запеченного текста и текстур UI (IoStore BakedText)...");
+            bool bakedOk = PatchBakedText(gameDir, payloadDir, log);
+            if (!bakedOk)
+            {
+                log("  -> Предупреждение: некоторые блоки BakedText пропущены или не совпали с версией контейнера.");
+            }
 
-            log("✔ УСТАНОВКА УСПЕШНО ЗАВЕРШЕНА! Игра переведена на русский.");
+            // 4. Финальная сквозная верификация установленного патча
+            log("[5/5] Финальная проверка установленного патча...");
+            bool verified = VerifyInstallation(gameDir, log);
+            if (!verified)
+            {
+                failReason = "Финальная верификация состояния установленного патча не прошла проверку!";
+                return false;
+            }
+
+            log("✔ УСТАНОВКА УСПЕШНО ЗАВЕРШЕНА! Игра полностью готова на русском языке.");
             return true;
+        }
+
+        public static bool VerifyInstallation(string gameDir, Action<string> log)
+        {
+            if (!IsPakPatched(gameDir))
+            {
+                if (log != null) log("Верификация: pakchunk0-Windows.pak не содержит активный хеш моста!");
+                return false;
+            }
+
+            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
+            if (!File.Exists(bridge) || new FileInfo(bridge).Length == 0)
+            {
+                if (log != null) log("Верификация: файл моста CPDDTranslation.lua не найден.");
+                return false;
+            }
+
+            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
+            if (!File.Exists(bootstrap) || new FileInfo(bootstrap).Length == 0)
+            {
+                if (log != null) log("Верификация: файл bootstrap.lua не найден.");
+                return false;
+            }
+
+            string initLua = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "Init.lua");
+            if (!File.Exists(initLua) || new FileInfo(initLua).Length == 0)
+            {
+                if (log != null) log("Верификация: файл Init.lua не найден.");
+                return false;
+            }
+
+            // Проверяем наличие шардов
+            string shardDir = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes");
+            string[] shards = Directory.GetFiles(shardDir, "RuntimeTextGemini_*.lua");
+            if (shards.Length < 100)
+            {
+                if (log != null) log("Верификация: обнаружено слишком мало файлов шардов (" + shards.Length + ").");
+                return false;
+            }
+
+            if (log != null) log("  -> Проверено: мост pakchunk0 OK, CPDDTranslation OK, bootstrap OK, шардов: " + shards.Length);
+            return true;
+        }
+
+        public static bool ToggleLanguage(string gameDir, Action<string> log)
+        {
+            var status = InspectGameStatus(gameDir);
+            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
+            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
+            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
+
+            try
+            {
+                if (status == GamePatchStatus.InstalledActive)
+                {
+                    // Отключаем
+                    if (File.Exists(bridge))
+                    {
+                        if (File.Exists(bridgeDisabled)) File.Delete(bridgeDisabled);
+                        File.Move(bridge, bridgeDisabled);
+                    }
+                    if (File.Exists(bootstrap))
+                    {
+                        string content = File.ReadAllText(bootstrap, Encoding.UTF8);
+                        content = content.Replace("RussianLocalization = true", "RussianLocalization = false");
+                        content = content.Replace("Language = \"ru\"", "Language = \"en\"");
+                        File.WriteAllText(bootstrap, content, Encoding.UTF8);
+                    }
+                    log("✔ Русификатор ОТКЛЮЧЕН. Игра запустится в оригинальном режиме (English).");
+                    return true;
+                }
+                else if (status == GamePatchStatus.InstalledDisabled)
+                {
+                    // Включаем
+                    if (File.Exists(bridgeDisabled))
+                    {
+                        if (File.Exists(bridge)) File.Delete(bridge);
+                        File.Move(bridgeDisabled, bridge);
+                    }
+                    if (File.Exists(bootstrap))
+                    {
+                        string content = File.ReadAllText(bootstrap, Encoding.UTF8);
+                        content = content.Replace("RussianLocalization = false", "RussianLocalization = true");
+                        content = content.Replace("Language = \"en\"", "Language = \"ru\"");
+                        File.WriteAllText(bootstrap, content, Encoding.UTF8);
+                    }
+                    log("✔ Русификатор ВКЛЮЧЕН. Игра запустится на русском языке.");
+                    return true;
+                }
+                else
+                {
+                    log("Невозможно переключить язык: русификатор не установлен в этой папке.");
+                    return false;
+                }
+            }
+            catch (Exception ex)
+            {
+                log("ОШИБКА переключения языка: " + ex.Message);
+                return false;
+            }
         }
 
         public static bool Uninstall(string gameDir, Action<string> log)
         {
-            log("[1/4] Восстановление оригинального блока pakchunk0...");
+            log("[1/4] Восстановление оригинального блока pakchunk0-Windows.pak...");
             string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
             string backupFile = Path.Combine(gameDir, "Saved", "Mods", "Backup", "LaunchInstance.original.block");
 
@@ -811,30 +1401,30 @@ namespace LotmRussianPatcher
                     {
                         fs.Position = PAK_OFFSET;
                         fs.Write(orig, 0, PAK_BLOCK_SIZE);
+                        fs.Flush();
                     }
                     log("  -> Оригинальный блок pakchunk0 успешно восстановлен.");
                 }
             }
             else
             {
-                log("  -> Файл резервной копии блока не найден, пропуск.");
+                log("  -> Резервная копия блока не найдена, пропуск.");
             }
 
-            log("[2/4] Удаление моста CPDDTranslation.lua...");
-            string bridgeLua = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            if (File.Exists(bridgeLua))
-            {
-                try { File.Delete(bridgeLua); log("  -> CPDDTranslation.lua удален."); } catch { }
-            }
+            log("[2/4] Удаление файлов моста инициализации...");
+            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
+            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
+            try { if (File.Exists(bridge)) File.Delete(bridge); } catch { }
+            try { if (File.Exists(bridgeDisabled)) File.Delete(bridgeDisabled); } catch { }
 
-            log("[3/4] Восстановление запеченного текста IoStore (BakedText)...");
-            string payloadDir = ResolvePayloadDir();
+            log("[3/4] Восстановление запеченного текста (BakedText)...");
+            string payloadDir = ResolvePayloadDir(false, null, null, CancellationToken.None).Result;
             if (payloadDir != null)
             {
                 RestoreBakedText(gameDir, payloadDir, log);
             }
 
-            log("[4/4] Очистка папки Saved/Mods...");
+            log("[4/4] Удаление папки Saved/Mods...");
             string modsDir = Path.Combine(gameDir, "Saved", "Mods");
             if (Directory.Exists(modsDir))
             {
@@ -845,22 +1435,22 @@ namespace LotmRussianPatcher
                 }
                 catch (Exception ex)
                 {
-                    log("  -> Не удалось полностью удалить папку Mods: " + ex.Message);
+                    log("  -> Не удалось удалить некоторые файлы из Saved/Mods: " + ex.Message);
                 }
             }
 
-            log("✔ ОТКАТ ЗАВЕРШЕН! Игра возвращена в исходное состояние.");
+            log("✔ ОТКАТ ЗАВЕРШЕН! Игра возвращена в оригинальное состояние.");
             return true;
         }
 
-        private static void PatchBakedText(string gameDir, string payloadDir, Action<string> log)
+        private static bool PatchBakedText(string gameDir, string payloadDir, Action<string> log)
         {
             string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
             string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
             if (!File.Exists(manifestPath) || !File.Exists(blocksBinPath))
             {
                 log("  -> Файлы BakedText не обнаружены, пропуск.");
-                return;
+                return true;
             }
 
             try
@@ -918,11 +1508,13 @@ namespace LotmRussianPatcher
                         }
                     }
                 }
-                log(string.Format("  -> BakedText: внедрено {0} блоков, уже было {1}, пропущено несоответствий {2}.", totalPatched, totalAlready, totalErrors));
+                log(string.Format("  -> BakedText: внедрено {0} блоков, уже было {1}, пропущено несовпадений {2}.", totalPatched, totalAlready, totalErrors));
+                return totalErrors == 0;
             }
             catch (Exception ex)
             {
                 log("  -> Ошибка при обработке BakedText: " + ex.Message);
+                return false;
             }
         }
 
@@ -1022,6 +1614,18 @@ namespace LotmRussianPatcher
             }
         }
 
+        public static string ComputeFileSha256(string filePath)
+        {
+            using (SHA256 sha = SHA256.Create())
+            using (FileStream stream = File.OpenRead(filePath))
+            {
+                byte[] hash = sha.ComputeHash(stream);
+                StringBuilder sb = new StringBuilder();
+                foreach (byte b in hash) sb.Append(b.ToString("x2"));
+                return sb.ToString();
+            }
+        }
+
         public static bool DiagnosePath(string path)
         {
             string norm = NormalizeGameDir(path);
@@ -1034,6 +1638,8 @@ namespace LotmRussianPatcher
             Console.WriteLine("СТАТУС: Директория валидна.");
             string pak = Path.Combine(norm, "Content", "Paks", "pakchunk0-Windows.pak");
             Console.WriteLine("pakchunk0: " + (File.Exists(pak) ? "OK (" + new FileInfo(pak).Length + " байт)" : "НЕТ"));
+            var status = InspectGameStatus(norm);
+            Console.WriteLine("Статус патча: " + status);
             return true;
         }
 
@@ -1045,7 +1651,10 @@ namespace LotmRussianPatcher
                 Console.WriteLine("ОШИБКА: Неверная папка игры: " + path);
                 return false;
             }
-            return Install(norm, Console.WriteLine);
+            string failReason;
+            bool ok = InstallWithAutoPayload(norm, Console.WriteLine, null, CancellationToken.None, out failReason);
+            if (!ok) Console.WriteLine("ОШИБКА УСТАНОВКИ: " + failReason);
+            return ok;
         }
 
         public static bool RunCliUninstall(string path)
@@ -1057,6 +1666,17 @@ namespace LotmRussianPatcher
                 return false;
             }
             return Uninstall(norm, Console.WriteLine);
+        }
+
+        public static bool RunCliToggle(string path)
+        {
+            string norm = NormalizeGameDir(path);
+            if (!IsValidGameFolder(norm))
+            {
+                Console.WriteLine("ОШИБКА: Неверная папка игры: " + path);
+                return false;
+            }
+            return ToggleLanguage(norm, Console.WriteLine);
         }
 
         public class ManifestData
@@ -1073,6 +1693,180 @@ namespace LotmRussianPatcher
             public long replacement_offset { get; set; }
             public string original_sha256 { get; set; }
             public string replacement_sha256 { get; set; }
+        }
+    }
+
+    public class ReleaseManifest
+    {
+        public string Version { get; set; }
+        public string PayloadDownloadUrl { get; set; }
+        public long PayloadSize { get; set; }
+        public string PayloadSha256 { get; set; }
+    }
+
+    public static class GitHubReleaseClient
+    {
+        public static ReleaseManifest FetchLatestReleaseInfo(Action<string> log)
+        {
+            string repo = Environment.GetEnvironmentVariable("LOTM_PATCH_REPO");
+            if (string.IsNullOrEmpty(repo)) repo = Program.DEFAULT_REPO;
+
+            string token = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+
+            // 1. Попытка скачать release.json по прямому адресу релиза
+            string directManifestUrl = "https://github.com/" + repo + "/releases/latest/download/release.json";
+            try
+            {
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(directManifestUrl);
+                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                req.Timeout = 8000;
+                if (!string.IsNullOrEmpty(token)) req.Headers.Add("Authorization", "Bearer " + token);
+
+                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+                using (StreamReader reader = new StreamReader(resp.GetResponseStream(), Encoding.UTF8))
+                {
+                    string json = reader.ReadToEnd();
+                    var serializer = new JavaScriptSerializer();
+                    var dict = serializer.Deserialize<Dictionary<string, object>>(json);
+                    if (dict != null)
+                    {
+                        var res = new ReleaseManifest();
+                        if (dict.ContainsKey("release_version")) res.Version = Convert.ToString(dict["release_version"]);
+                        if (dict.ContainsKey("payload") && dict["payload"] is Dictionary<string, object>)
+                        {
+                            var p = (Dictionary<string, object>)dict["payload"];
+                            if (p.ContainsKey("size")) res.PayloadSize = Convert.ToInt64(p["size"]);
+                            if (p.ContainsKey("sha256")) res.PayloadSha256 = Convert.ToString(p["sha256"]);
+                        }
+                        res.PayloadDownloadUrl = "https://github.com/" + repo + "/releases/latest/download/lom-russian-patch-data.zip";
+                        return res;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (log != null) log("Прямой манифест release.json недоступен (" + ex.Message + "), опрос GitHub API...");
+            }
+
+            // 2. Фоллбек на GitHub API
+            try
+            {
+                string apiUrl = "https://api.github.com/repos/" + repo + "/releases/latest";
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(apiUrl);
+                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                req.Timeout = 10000;
+                if (!string.IsNullOrEmpty(token)) req.Headers.Add("Authorization", "Bearer " + token);
+
+                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+                using (StreamReader reader = new StreamReader(resp.GetResponseStream(), Encoding.UTF8))
+                {
+                    string json = reader.ReadToEnd();
+                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+                    var dict = serializer.Deserialize<Dictionary<string, object>>(json);
+                    if (dict != null)
+                    {
+                        var res = new ReleaseManifest();
+                        if (dict.ContainsKey("tag_name")) res.Version = Convert.ToString(dict["tag_name"]);
+
+                        if (dict.ContainsKey("assets") && dict["assets"] is System.Collections.ArrayList)
+                        {
+                            var list = (System.Collections.ArrayList)dict["assets"];
+                            foreach (Dictionary<string, object> asset in list)
+                            {
+                                string name = Convert.ToString(asset["name"]);
+                                if (name == "lom-russian-patch-data.zip")
+                                {
+                                    if (asset.ContainsKey("browser_download_url"))
+                                        res.PayloadDownloadUrl = Convert.ToString(asset["browser_download_url"]);
+                                    if (asset.ContainsKey("size"))
+                                        res.PayloadSize = Convert.ToInt64(asset["size"]);
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (string.IsNullOrEmpty(res.PayloadDownloadUrl))
+                        {
+                            res.PayloadDownloadUrl = "https://github.com/" + repo + "/releases/latest/download/lom-russian-patch-data.zip";
+                        }
+                        return res;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (log != null) log("GitHub API: " + ex.Message);
+            }
+
+            return null;
+        }
+
+        public static async Task<bool> DownloadFileWithProgressAsync(
+            string url,
+            string destinationPath,
+            long expectedTotalBytes,
+            Action<long, long, double> progress,
+            CancellationToken token,
+            Action<string> log)
+        {
+            string tokenAuth = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+
+            return await Task.Run(() =>
+            {
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                req.Timeout = 30000;
+                req.ReadWriteTimeout = 60000;
+                if (!string.IsNullOrEmpty(tokenAuth)) req.Headers.Add("Authorization", "Bearer " + tokenAuth);
+
+                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+                using (Stream inStream = resp.GetResponseStream())
+                using (FileStream outStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                {
+                    long totalBytes = resp.ContentLength > 0 ? resp.ContentLength : expectedTotalBytes;
+                    byte[] buffer = new byte[65536];
+                    long bytesReceived = 0;
+                    Stopwatch sw = Stopwatch.StartNew();
+                    Stopwatch speedSw = Stopwatch.StartNew();
+                    long lastBytes = 0;
+                    double currentSpeed = 0;
+
+                    int read;
+                    while ((read = inStream.Read(buffer, 0, buffer.Length)) > 0)
+                    {
+                        if (token.IsCancellationRequested)
+                        {
+                            outStream.Close();
+                            try { File.Delete(destinationPath); } catch { }
+                            return false;
+                        }
+
+                        outStream.Write(buffer, 0, read);
+                        bytesReceived += read;
+
+                        if (speedSw.ElapsedMilliseconds >= 500)
+                        {
+                            double elapsedSec = speedSw.ElapsedMilliseconds / 1000.0;
+                            long delta = bytesReceived - lastBytes;
+                            currentSpeed = delta / elapsedSec;
+                            lastBytes = bytesReceived;
+                            speedSw.Restart();
+
+                            if (progress != null)
+                            {
+                                progress(bytesReceived, totalBytes, currentSpeed);
+                            }
+                        }
+                    }
+
+                    if (progress != null)
+                    {
+                        progress(bytesReceived, totalBytes, currentSpeed);
+                    }
+                }
+
+                return true;
+            });
         }
     }
 }
