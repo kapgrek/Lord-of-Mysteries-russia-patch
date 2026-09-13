@@ -978,13 +978,15 @@ namespace LotmRussianPatcher
                 Path.Combine(baseDir, "patch_payload"),
                 Path.Combine(baseDir, "..", "patch_payload"),
                 Path.Combine(baseDir, "data"),
-                Path.Combine(baseDir, "..", "data")
+                Path.Combine(baseDir, "..", "data"),
+                @"D:\gameDev\AbsoluteRU\patch_payload"
             };
 
             foreach (var c in candidates)
             {
                 if (Directory.Exists(c) && ValidatePayloadContents(c, null))
                 {
+                    if (log != null) log("✔ Обнаружены исходные файлы патча: " + Path.GetFullPath(c));
                     return Path.GetFullPath(c);
                 }
             }
@@ -1049,23 +1051,24 @@ namespace LotmRussianPatcher
                 }
             }
 
-            // 3. Кеш в AppData
+            // 3. Онлайн-загрузка, если разрешена (проверяет актуальность релиза на GitHub)
             string appDataPayload = GetAppDataPayloadDir();
-            if (ValidatePayloadContents(appDataPayload, null))
-            {
-                return appDataPayload;
-            }
-
-            // 4. Онлайн-загрузка, если разрешена
             if (allowDownload)
             {
-                if (log != null) log("Файлы патча не найдены локально. Запуск онлайн-загрузки с GitHub...");
+                if (log != null) log("Поиск актуального пакета локализации...");
                 bool ok = await DownloadAndExtractPayloadAsync(log, progress, token);
                 if (ok)
                 {
                     string valid = FindPayloadInDirectory(appDataPayload);
                     if (valid != null) return valid;
                 }
+            }
+
+            // 4. Кеш в AppData (фоллбек, если нет интернета или автономный режим)
+            if (ValidatePayloadContents(appDataPayload, null))
+            {
+                if (log != null) log("Используются файлы локализации из локального кеша AppData.");
+                return appDataPayload;
             }
 
             return null;
