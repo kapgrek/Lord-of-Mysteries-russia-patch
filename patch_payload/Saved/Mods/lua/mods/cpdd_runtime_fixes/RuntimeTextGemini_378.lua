@@ -94,7 +94,7 @@ return {
     ["You, you..."] = "Ты, ты...",
     ["Xiao Hang test quest."] = "Тестовый квест Сяо Хана.",
     ["Miranda"] = "Миранда",
-    ["Use to obtain <Highlight> Eternal Night Thorn Set </> \n Can also be exchanged for <Highlight> 2 </> Divine Favor Cards"] = "После использования вы получите <Highlight>Набор Шипов Вечной Ночи</>\n, который также можно обменять на <Highlight>2</> карты божественной семьи.",
+    ["Use to obtain <Highlight> Eternal Night Thorn Set </> \n Can also be exchanged for <Highlight> 2 </> Divine Favor Cards"] = "При использовании даёт комплект \\u003cHighlight\\u003e«Тернии Вечной Ночи»\\u003c/\\u003e\nТакже можно обменять на \\u003cHighlight\\u003e2\\u003c/\\u003e богоизбранные карты",
     ["Layered Corrosion Stacking"] = "Многослойная коррозия",
     ["Morgan "] = "Морган",
     ["Fool Pathway"] = "Путь Шута",

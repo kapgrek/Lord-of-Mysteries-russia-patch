@@ -55,7 +55,7 @@ return {
     ["Covers a large area of enemies with multi-stage ground slams."] = "Покрывает большую территорию врагов многоступенчатыми ударами по земле.",
     ["Past"] = "Прошлое",
     ["Gold Pound"] = "золотых фунтов",
-    ["<Assistant_Title1>Sylvia</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Defeat Sylvia on Normal difficulty"] = "<Assistant_Title1>Сильвия</>\n<Assistant_Title2>Категория достижения: </>Копия команды приключений\n<Assistant_Title2>Условия разблокировки: </>Убить Сильвию на обычном уровне сложности",
+    ["<Assistant_Title1>Sylvia</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Defeat Sylvia on Normal difficulty"] = "\\u003cAssistant_Title1\\u003eСильвия\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eПриключения — Групповое подземелье\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eОдолеть Сильвию на обычной сложности",
     ["Level 0"] = "Уровень 0",
     ["Thank you for your generosity."] = "Спасибо за вашу щедрость.",
     ["When is the Phantom of the Opera competition"] = "Когда конкурс Призрак Оперы",

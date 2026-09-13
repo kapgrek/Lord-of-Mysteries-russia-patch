@@ -142,7 +142,7 @@ return {
     ["Yu Han"] = "Письмо дождя",
     ["Can be obtained by participating in various world adventure gameplay modes and used in the Adventure Shop."] = "Его можно получить, участвуя в различных мировых приключениях, а также использовать в магазине приключений.",
     ["New Server"] = "Новый сервер",
-    ["Lock value instead of locking percentage? \n (Need to lock at 1 HP)."] = "Значение блокировки, а не процент блокировки? \n (нужно заблокировать 1 кровь)",
+    ["Lock value instead of locking percentage? \n (Need to lock at 1 HP)."] = "Фиксированное значение, а не процент?\n(Нужно зафиксировать на 1 ед. здоровья)",
     ["Alright, let's put it together. <P_Yellow> 'A green dress rolling like jade waves; a soft heart; singing of... that flowing fragrance!' </> Phew, that's not bad at all."] = "Хорошо, давайте соберем это вместе. <P_Yellow> 'Зеленое платье, катящееся, как нефритовые волны; мягкое сердце; пение... этого струящегося аромата! </> Уф, это совсем неплохо.",
     ["Ahem... I feel like there's a lot of dust in the air..."] = "Кхм... Такое ощущение, что в воздухе много пыли...",
     ["May Manor · Castle · Hard"] = "Мэйское поместье · Замок · Хард",

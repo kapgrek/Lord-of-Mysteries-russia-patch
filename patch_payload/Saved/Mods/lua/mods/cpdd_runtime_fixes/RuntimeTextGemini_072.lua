@@ -187,7 +187,7 @@ return {
     ["License Plate"] = "Номерной знак",
     ["Arbiter Expertise_Value"] = "Экспертиза арбитра_Значение",
     ["Who knows! Such a big man, saying ants are terrifying, how ridiculous."] = "Кто знает! Такой большой человек говорит, что муравьи ужасны, как смешно.",
-    ["The workshop is unveiled, the market is open. \nThe meticulously brewed wine will be a bestseller, make the final decision by watching the fluctuating market prices!"] = "Была открыта мастерская и открыт рынок. \n Тщательно сваренное изысканное вино станет бестселлером, а окончательное решение будет приниматься на основе колебаний рыночной цены!",
+    ["The workshop is unveiled, the market is open. \nThe meticulously brewed wine will be a bestseller, make the final decision by watching the fluctuating market prices!"] = "Мастерская открывает двери, рынок распахивает ворота!\nИзысканное выдержанное вино разлетится как горячие пирожки — следите за колебаниями цен и заключите самую выгодную сделку!",
     ["Cage knowledge"] = "Знание клетки",
     ["Redemption Offering Count"] = "Количество предложений выкупа",
     ["Tell Cook that two people cooking is indeed faster and more stable than one, and the taste really wasn't affected."] = "Скажите Куку, что приготовление пищи вдвоём действительно происходит быстрее и стабильнее, чем в одном, и на вкус это не влияет.",

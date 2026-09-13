@@ -190,7 +190,7 @@ return {
     ["Stall"] = "Ларек",
     ["Test HideMeshRange"] = "Тест HideMeshRange",
     ["Follow this road north, and turn east at the intersection."] = "Следуйте по этой дороге на север и на перекрестке поверните на восток.",
-    ["<Assistant_Title1>Combat Novice · II</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Any Skill reaches Level 10"] = "<Assistant_Title1> Новичок в бою · Два</>\n<Assistant_Title2>Категория достижения: </>Воспитание-рост\n<Assistant_Title2>Условия разблокировки: </>Любой навык достигает уровня 10",
+    ["<Assistant_Title1>Combat Novice · II</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Any Skill reaches Level 10"] = "\\u003cAssistant_Title1\\u003eНовичок в бою II\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Рост\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eПовысьте любой навык до 10-го уровня",
     ["[Placeholder] This is a beautiful animation"] = "[Заполнитель] Это красивая анимация",
     ["I feel much better, thank you, Frye."] = "Я чувствую себя намного лучше, спасибо, Фрай.",
     ["Black screen subtitle transition + ending teleport"] = "Переход субтитров на черный экран + завершение телепорта",

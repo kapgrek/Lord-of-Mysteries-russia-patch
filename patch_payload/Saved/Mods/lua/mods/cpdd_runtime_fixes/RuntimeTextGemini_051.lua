@@ -213,7 +213,7 @@ return {
     ["<P_Heart> (Blushing) </> I almost ate it all... He really made it quite well, except he used too many expensive seasonings..."] = "<P_Heart> (краснея) </> Я почти все съел... Он действительно приготовил очень хорошо, вот только использовал слишком много дорогих приправ...",
     ["Building Area"] = "Площадь здания",
     ["Death Outpost West"] = "Застава Смерти Запад",
-    ["<Highlight> Craft: </> Dark Silver Gauze · Frost Embroidery · Pale Gown \n By the banks of the River of Death, death and eternity dance together. She came draped in frost-colored bone gauze."] = "<Highlight> Мастерство: </> Темно-серебряная пряжа, вышивка морозного цвета, бледное платье \n На берегу Стикса смерть и вечность танцуют вместе. Она пришла в костяной повязке морозного цвета.",
+    ["<Highlight> Craft: </> Dark Silver Gauze · Frost Embroidery · Pale Gown \n By the banks of the River of Death, death and eternity dance together. She came draped in frost-colored bone gauze."] = "\\u003cHighlight\\u003eОтделка:\\u003c/\\u003e Темно-серебристый газ · Морозная вышивка · Бледное платье\nНа берегах реки Смерти кружатся в танце смерть и вечность. Она шествует, окутанная морозной костяной вуалью.",
     ["Irin, you're amazing, but I always feel that things aren't that simple."] = "Ирин, ты потрясающая, но мне всегда кажется, что все не так просто.",
     ["Life Teaching Healing"] = "Обучение жизни Исцеление",
     ["Narrate the astrological interpretation"] = "Расскажите астрологическую интерпретацию",

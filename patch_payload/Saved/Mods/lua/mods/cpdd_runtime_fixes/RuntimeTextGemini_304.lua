@@ -33,7 +33,7 @@ return {
     ["Spirit Vision ends"] = "Духовное видение заканчивается",
     ["Collectible: Fool's Gold Coin"] = "Коллекционный предмет: Золотая монета дурака.",
     ["Light Orb Camera"] = "Световая сферическая камера",
-    ["Dear Beyonder: \n The Beyonder %s with whom you formed a Covenant has deleted their character, and the Covenant relationship between you has been dissolved as a result. \n May you meet someone worthy of your trust again on your future Journey."] = "Дорогой Экстраординарный: \n Экстраординарный %s, принесший вам клятву, отменил свою роль, и отношения по присяге между вами были прекращены. \n Надеюсь, в следующем путешествии ты снова встретишь кого-нибудь, достойного твоих обетов.",
+    ["Dear Beyonder: \n The Beyonder %s with whom you formed a Covenant has deleted their character, and the Covenant relationship between you has been dissolved as a result. \n May you meet someone worthy of your trust again on your future Journey."] = "Уважаемый Потусторонний!\nПотусторонний %s, с которым вы заключили клятвенный союз, удалил своего персонажа, в связи с чем ваши клятвенные узы были расторгнуты.\nПусть в дальнейшем странствии вы вновь встретите того, кому сможете доверить свои клятвы.",
     ["Open other component level caps from 2->3"] = "Откройте ограничения уровня других компонентов со 2 по 3.",
     ["Face Customization Build"] = "Настройка лица",
     ["<P_Heart>(Liana?! She and Dr. Jonar know each other?)</>"] = "<P_Heart>(Лиана?! Она и доктор Джонар знают друг друга?)</>",

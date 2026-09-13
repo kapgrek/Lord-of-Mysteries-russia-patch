@@ -91,7 +91,7 @@ return {
     ["Just kidding. I just don't know how to thank you. If I still had the strength, I might steal something from you and hide it, only to give you a big surprise when you finally find it."] = "Просто шучу. Я просто не знаю, как тебя отблагодарить. Если бы у меня еще были силы, я мог бы украсть что-нибудь у тебя и спрятать, только чтобы преподнести тебе большой сюрприз, когда ты наконец это найдешь.",
     ["Super Armor Damage Reflection"] = "Отражение урона от суперброни",
     ["<h>Cleaning finished</>"] = "<h>Очистка завершена</>",
-    ["<Assistant_Title1>Bystander Citizen</>\n<Assistant_Title2>Achievement Category: </>Progression-Growth\n<Assistant_Title2>Unlock Condition: </>Unlock 1 relationship between Connections"] = "<Assistant_Title1>Гражданин, питающийся дынями</>\n<Assistant_Title2>Категория достижения: </>Воспитание-рост\n<Assistant_Title2>Условия разблокировки: </>Разблокировать отношения между 1 сетью",
+    ["<Assistant_Title1>Bystander Citizen</>\n<Assistant_Title2>Achievement Category: </>Progression-Growth\n<Assistant_Title2>Unlock Condition: </>Unlock 1 relationship between Connections"] = "\\u003cAssistant_Title1\\u003eПраздный наблюдатель\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Рост\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eОткройте 1 связь между контактами",
     ["Distortion · II"] = "Искажение · II",
     ["Insufficient level. Sealed Artifact system not yet unlocked."] = "Недостаточный уровень. Система запечатанных артефактов еще не разблокирована.",
     ["Toms"] = "Томс",

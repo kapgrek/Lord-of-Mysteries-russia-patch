@@ -23,7 +23,7 @@ return {
     ["Performance not achieved"] = "Производительность не достигнута",
     ["<Gift>%s</>: Sent <Gift>%s</> a <Gift> Star Twilight Gift + </><Gift>%s points </>!"] = "<Gift>%s</>: отправлен <Gift>%s</> подарок <Gift> «Звездные сумерки» + </><Gift>%s очков </>!",
     ["[Task NPC] Sophia Fake 2"] = "[Задание NPC] София Фейк b",
-    ["\nMidnight Club, relieving your midnight sorrows\n\nOffers: Song and dance, chess and cards, billiards, mellow wine\n\nReservations for the evening are accepted starting at 2:00 PM; member private rooms require advance booking."] = "\nПолуночный клуб, чтобы облегчить ваши полуночные заботы\n\nВключает: пение и танцы, шахматы и карты, бильярд и хорошее вино\n\nБронирование на ночь будет приниматься с 14:00, а отдельные комнаты для участников необходимо бронировать заранее.",
+    ["\nMidnight Club, relieving your midnight sorrows\n\nOffers: Song and dance, chess and cards, billiards, mellow wine\n\nReservations for the evening are accepted starting at 2:00 PM; member private rooms require advance booking."] = "\nКлуб «Полночь» развеет вашу полуночную грусть!\n\nК вашим услугам: живая музыка и танцы, шахматы и карты, бильярд, изысканные выдержанные вина.\n\nБронирование на вечер принимается с двух часов пополудни; клубные ложи требуют предварительной записи.",
     ["Collector's Edition"] = "Коллекционное издание",
     ["Policewoman"] = "Женщина-полицейский",
     ["After use, obtain the title: <Highlight>In the Name of Brilliance</>"] = "После использования получите титул: <Highlight>Во имя Brilliance</>.",

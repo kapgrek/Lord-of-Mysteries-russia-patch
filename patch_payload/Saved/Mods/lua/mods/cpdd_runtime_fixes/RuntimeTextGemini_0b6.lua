@@ -167,7 +167,7 @@ return {
     ["Black hair, deep blue eyes, a porcelain false tooth on the left side of his mouth, and wearing a <P_Yellow>sapphire ring</> on his right hand."] = "Черные волосы, темно-голубые глаза, фарфоровый вставной зуб на левой стороне рта и сапфировое кольцо <P_Yellow></> на правой руке.",
     ["Gibberish"] = "тарабарщина",
     ["Your connections have changed... (+1 Public Opinion Favor, +1 Military Resentment)"] = "Ваши связи изменились... (+1 Благосклонность общественного мнения, +1 Недовольство военных)",
-    ["<Assistant_Title1>【Pale Aftertaste】</>\n<Assistant_Title2>Description: </>Dungeon + F236 + F249"] = "<Assistant_Title1>【Бледное послевкусие】</>\n<Assistant_Title2>Описание: </>Копия+F236+F249",
+    ["<Assistant_Title1>【Pale Aftertaste】</>\n<Assistant_Title2>Description: </>Dungeon + F236 + F249"] = "\\u003cAssistant_Title1\\u003e【Бледное эхо】\\u003c/Assistant_Title1\\u003e\n\\u003cAssistant_Title2\\u003eОписание: \\u003c/Assistant_Title2\\u003eПодземелье + F236 + F249",
     ["Boen"] = "Боэн",
     ["All marionettes Tier 2"] = "Все марионетки 2 уровня",
     ["Once this limit is reached, no more will be created."] = "Как только этот предел будет достигнут, больше создаваться не будет.",

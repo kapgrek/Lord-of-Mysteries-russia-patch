@@ -221,7 +221,7 @@ return {
     ["Spirit Body Commoner Young Man"] = "Дух Тело Простолюдин Молодой человек",
     ["Framed? Okay... then leave it to me! I guarantee it will be delivered on time."] = "В рамке? Хорошо... тогда оставь это мне! Я гарантирую, что он будет доставлен вовремя.",
     ["Cocoon of the Fool"] = "Кокон дурака",
-    ["· Click/long press the rotation button to rotate the camera \n · Slide the scroll bar to change the camera focal length \n · Find the target constellation!"] = "·Нажмите/удерживайте поворотную кнопку, чтобы повернуть объектив\n·Двигайте полосу прокрутки, чтобы изменить фокусное расстояние объектива\n·Найдите целевое созвездие!",
+    ["· Click/long press the rotation button to rotate the camera \n · Slide the scroll bar to change the camera focal length \n · Find the target constellation!"] = "· Нажмите или удерживайте кнопку поворота для вращения камеры\n· Передвигайте ползунок для изменения фокусного расстояния\n· Отыщите нужное созвездие!",
     ["Expense reimbursement form, for purchasing materials. Claimant... Neil again?"] = "Форма возмещения расходов на приобретение материалов. Истец... Опять Нил?",
     ["Serial Killer"] = "Серийный Убийца",
     ["If it's reversed—the meaning of the reversed Tower is 'rebuilding after destruction'."] = "Если оно перевернуто, то значение перевернутой Башни — «восстановление после разрушения».",

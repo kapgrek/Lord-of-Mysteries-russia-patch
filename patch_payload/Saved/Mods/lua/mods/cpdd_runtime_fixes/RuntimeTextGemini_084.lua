@@ -220,7 +220,7 @@ return {
     ["Corn Chips"] = "Кукурузные чипсы",
     ["Let me take another look at your emerald-like pupils under the cloak, and listen to your gentle and pleasant voice as you whisper!"] = "Позвольте мне еще раз взглянуть на ваши изумрудные зрачки под плащом и послушать ваш нежный и приятный голос, когда вы шепчете!",
     ["Reception Progress 2/3"] = "Ход приема 2/b",
-    ["A figure in a black robe walked out from the shadows \nThe villagers immediately surrounded him excitedly"] = "Фигура в черной мантии вышла из тени\nЖители деревни сразу же взволнованно окружили его.",
+    ["A figure in a black robe walked out from the shadows \nThe villagers immediately surrounded him excitedly"] = "Фигура в чёрном одеянии выступила из тени.\nЖители деревни тут же взволнованно обступили её.",
     ["Final Rift"] = "Последний разлом",
     ["Fire Jump Simplification"] = "Упрощение огненного прыжка",
     ["Shh! Dad, say less... It's not easy to get a customer! You take your medicine first!"] = "Тсс! Папа, меньше говори... Нелегко найти клиента! Сначала ты прими лекарство!",

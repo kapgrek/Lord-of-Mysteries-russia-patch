@@ -75,7 +75,7 @@ return {
     ["The exorcism is over. You can bury him, or would you prefer cremation?"] = "Экзорцизм окончен. Вы можете похоронить его или предпочитаете кремацию?",
     ["Goodbye, warm {{Mr.|Ms.}}!"] = "До свидания, теплый {{мистер|мисс}}!",
     ["Sound tracking"] = "Звуковое сопровождение",
-    ["He died, and then he came back to life. Why? He does not know. \n This body is stronger than before, so strong that even he finds it strange. \n Although his beliefs have blurred, they will not change. \n \"...Protect... who... forgot... but... must... guard...\""] = "Он умер и вернулся к жизни. Почему, он не знал. \nЭто тело сильнее, чем раньше, настолько сильное, что даже он сам чувствует себя странно. \n Хотя убеждение и размыто, оно не изменится. \n \"...защищать...кто...забыл...но...должен...защищать...\"",
+    ["He died, and then he came back to life. Why? He does not know. \n This body is stronger than before, so strong that even he finds it strange. \n Although his beliefs have blurred, they will not change. \n \"...Protect... who... forgot... but... must... guard...\""] = "Он умер, а затем вернулся к жизни. Почему — он и сам не знал.\nЭто тело стало сильнее прежнего — настолько, что казалось ему чужим.\nИ пусть вера его затуманилась, она осталась неизменной.\n«...Защитить... кого... забыл... но... нужно... оберегать...»",
     ["New Old Neil Close-up"] = "Новый Старина Нил крупным планом",
     ["New recipe unlockable: Court Tea Set Recipe"] = "Новый рецепт, который можно разблокировать: Рецепт придворного чайного сервиза.",
     ["Ground Trail Before Pushing Food Cart"] = "Земляная тропа перед толканием тележки с едой",

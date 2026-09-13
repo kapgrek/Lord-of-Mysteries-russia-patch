@@ -196,7 +196,7 @@ return {
     ["I have a strange feeling, though my intuition is rarely accurate."] = "У меня странное ощущение, хотя моя интуиция редко бывает точной.",
     ["Use to obtain <Highlight>Absurd Circus Top</>"] = "Используйте, чтобы получить <Highlight>Absurd Circus Top</>.",
     ["Can cancel selection"] = "Можно отменить выбор",
-    ["The deer fell to the ground again. At the same time—\n the wound on your arm disappeared?!"] = "Олень снова упал на землю. В то же время——\nРана на твоей руке тоже исчезла? !",
+    ["The deer fell to the ground again. At the same time—\n the wound on your arm disappeared?!"] = "Олень снова рухнул на землю. И в то же мгновение...\nРана на вашей руке тоже исчезла?!",
     ["Attack increased by *d"] = "Атака увеличена на *d",
     ["And specialized diseases related to the appearance and scent of ladies and gentlemen..."] = "И специализированные заболевания, связанные с внешним видом и запахом дам и господ...",
     ["The runaway Fula has finally returned to where it belongs."] = "Сбежавшая Фула наконец-то вернулась туда, где ей место.",

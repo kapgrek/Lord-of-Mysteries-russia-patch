@@ -62,7 +62,7 @@ return {
     ["Point of interest 1"] = "Достопримечательность b",
     ["Homestead Railroad Tycoon for testing"] = "Homestead Railroad Tycoon для тестирования",
     ["They were all living people, and like you, they had their own families and friends... such an ending is always a tragedy for them."] = "Все они были живыми людьми и, как и вы, имели свои семьи и друзей... такой финал для них всегда трагедия.",
-    ["A true guardian; the most trustworthy companion; our captain forever.\n\nDunn Smith"] = "Настоящий хранитель; самый надежный товарищ; вечный капитан. \n\nДанн Смит",
+    ["A true guardian; the most trustworthy companion; our captain forever.\n\nDunn Smith"] = "Истинный защитник; самый надежный соратник; наш капитан навеки.\n\nДанн Смит",
     ["Four Characters"] = "Четыре персонажа",
     ["Confession Time - Open world pavilion hide"] = "Время исповеди — скрыть павильон с открытым миром",
     ["That's right! Massimo mentioned that the meat should be passed through ice several times before it's fully cooked."] = "Это верно! Массимо отметил, что мясо следует несколько раз пропустить через лед, прежде чем оно полностью приготовится.",

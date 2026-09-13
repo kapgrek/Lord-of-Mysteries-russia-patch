@@ -159,7 +159,7 @@ return {
     ["Creak, creak..."] = "Скрип, скрип...",
     ["Luper, the Alpha Wolf"] = "Лупер, Альфа-Волк",
     ["Construction Worker 2"] = "Строитель b",
-    ["True: Listen to Passive Skills; \nFalse: Do not listen to Passive Skills"] = "Верно: следите за пассивными навыками; \nFalse: не отслеживать пассивные навыки",
+    ["True: Listen to Passive Skills; \nFalse: Do not listen to Passive Skills"] = "True: Отслеживать пассивные навыки;\nFalse: Не отслеживать пассивные навыки",
     ["Promoted to Wizard"] = "Повышен до мастера",
     ["Welcome."] = "Добро пожаловать.",
     ["Applying to join Family <Chat_Highlight>【%s】</>, please grant permission, Chief. I will take pride in the Family, swear by my blood, and pledge by my name to forge a covenant that transcends blood ties."] = "Подавая заявку на вступление в семью <Chat_Highlight>【%s】</>, пожалуйста, дайте разрешение, шеф. Я буду гордиться Семьей, поклянусь своей кровью и поклянусь своим именем заключить завет, выходящий за рамки кровных уз.",

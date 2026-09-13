@@ -160,7 +160,7 @@ return {
     ["Enoch"] = "Енох",
     ["Check-in content is empty. Please edit first."] = "Содержимое регистрации пусто. Пожалуйста, отредактируйте сначала.",
     ["Beacon Buff"] = "Усиление маяка",
-    ["\nWhy\n\n?"] = "\n — это \n, что \n или \n?",
+    ["\nWhy\n\n?"] = "\nПо\nче\nму\n?",
     ["Follow for Rewards"] = "Следуйте за наградами",
     ["I found this paint bucket nearby."] = "Я нашел это ведро с краской неподалеку.",
     ["The same costumes from the famous play 'Great Adventurer' are on hot sale!"] = "Те самые костюмы из знаменитого спектакля «Великий авантюрист» в горячей продаже!",

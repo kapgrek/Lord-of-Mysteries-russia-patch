@@ -212,7 +212,7 @@ return {
     ["Please let Cook go... take him away from the Coastline Restaurant, don't let others find out..."] = "Пожалуйста, отпустите Кука... заберите его из ресторана \"Берег\", не позволяйте другим узнать...",
     ["Ambrose"] = "Амвросий",
     ["Life Cane"] = "Жизненная трость",
-    ["Getting closer, one can smell a faint calcareous scent, mixed with a trace of warmth peculiar to poultry eggs\n, slightly fishy."] = "Подойдя ближе, вы почувствуете очень слабый запах извести, смешанный с оттенком уникального, слегка рыбного тепла птичьих яиц\n.",
+    ["Getting closer, one can smell a faint calcareous scent, mixed with a trace of warmth peculiar to poultry eggs\n, slightly fishy."] = "Подойдя ближе, можно уловить слабый запах известняка, смешанный с еле заметным теплом,\nсвойственным птичьим яйцам, с легким сыроватым душком. ",
     ["Monster Marionette - Imaginary Butterfly/Flower Demon"] = "Монстр-марионетка — воображаемая бабочка/цветочный демон",
     ["Use to obtain Weapon Appearance: <Highlight> Court Silverware </>"] = "Используйте, чтобы получить внешний вид оружия: <Highlight> Придворное серебро </>.",
     ["Pre-release Server"] = "Предварительная версия сервера",

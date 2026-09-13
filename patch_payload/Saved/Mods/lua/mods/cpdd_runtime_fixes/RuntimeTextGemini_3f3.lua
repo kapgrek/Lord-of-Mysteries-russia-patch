@@ -73,7 +73,7 @@ return {
     ["What legend"] = "Какая легенда",
     ["I defeated the Lord of Trash in the sewers, witnessed the Patriotic Health Campaign, and obtained the precious golden toilet!"] = "Я победил Повелителя мусора в канализации, стал свидетелем Патриотической кампании за здоровье и получил драгоценный золотой унитаз!",
     ["Gold Pound (Bound) Exchange"] = "Обмен золотого фунта (связанного)",
-    ["<Assistant_Title1> Gift of the Brawler </>\n<Assistant_Title2> Achievement Category: </> Cultivation-Sealed Artifact \n<Assistant_Title2> Unlock Condition: </> Obtain 1 Extraordinary material with the < Brawler > entry"] = "<Assistant_Title1>Дар бойца</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </>Получить 1 необычное вещество с записью <格斗家>",
+    ["<Assistant_Title1> Gift of the Brawler </>\n<Assistant_Title2> Achievement Category: </> Cultivation-Sealed Artifact \n<Assistant_Title2> Unlock Condition: </> Obtain 1 Extraordinary material with the < Brawler > entry"] = "\\u003cAssistant_Title1\\u003eДар Борца\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Запечатанные Артефакты\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eПолучите 1 Потусторонний материал со свойством \\u003c格斗家\\u003e",
     ["Haha, then why not have a cup of coffee?"] = "Хаха, тогда почему бы не выпить чашечку кофе?",
     ["Probationary member automatically becomes official"] = "Участник с испытательным сроком автоматически становится официальным",
     ["Physical Attack"] = "Физическая атака",

@@ -224,7 +224,7 @@ return {
     ["<P_Heart> (When I was helpless, Aiden gave me strength. Now, how should I comfort Aiden...) </>"] = "<P_Heart> (Когда я был беспомощен, Эйден дал мне силы. Теперь, как мне утешить Эйдена...) </>",
     ["GTA settlement"] = "поселение GTA",
     ["Still as perfect as ever! And it has the special flavor bestowed by the model! Steam above, I—"] = "Все так же идеально, как никогда! И он имеет особый колорит, который дарит модель! Пар выше, я...",
-    ["The dead deer suddenly resurrected and lunged at you, biting your arm. \n You struggled desperately and finally managed to shake it off."] = "Мертвый олень внезапно оживает и кусает вас за руку. \n Вы отчаянно боролись и наконец избавились от этого.",
+    ["The dead deer suddenly resurrected and lunged at you, biting your arm. \n You struggled desperately and finally managed to shake it off."] = "Мёртвый олень внезапно ожил, бросился на вас и вцепился зубами в руку.\nВы отчаянно забились и с огромным трудом смогли стряхнуть его.",
     ["Blackthorn Incident Book 4 - Level 2 - Flame Strip"] = "Книга происшествий в Блэкторне. 4. Уровень 2. Пламенная полоса.",
     ["Let me explain to you, Cat is its name, I hope it can help me catch those mice that steal the fried meat!"] = "Позвольте мне объяснить вам, его зовут Кот, я надеюсь, что он поможет мне поймать тех мышей, которые крадут жареное мясо!",
     ["<HyperLink stylename=\"Chat_Name\" u=\"role=%s\"> [%s] </> succeeded <HyperLink stylename=\"Chat_Name\" u=\"role=%s\"> [%s] </> and became the new %s of the club."] = "<HyperLink stylename=\"Chat_Name\" u=\"role=%s\"> [%s] </> сменил <HyperLink stylename=\"Chat_Name\" u=\"role=%s\"> [%s] </> и стал новым %s клуба.",

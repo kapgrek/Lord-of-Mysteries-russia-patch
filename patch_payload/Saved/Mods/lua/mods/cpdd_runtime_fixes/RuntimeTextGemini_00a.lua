@@ -172,7 +172,7 @@ return {
     ["Shiao"] = "Шиао",
     ["But... just don't drink it!"] = "Но... только не пейте!",
     ["Helen "] = "Хелен",
-    ["Light orbs containing the abilities of other Pathways. \n Touch them to use Beyonder abilities of different Pathways and find hidden treasures."] = "Световой шар содержит способности других способов. После того, как \n прикоснется к нему, вы сможете использовать необычайные способности разных способов найти спрятанные сокровища.",
+    ["Light orbs containing the abilities of other Pathways. \n Touch them to use Beyonder abilities of different Pathways and find hidden treasures."] = "Сферы света, заключающие в себе силы иных Путей.\nКоснитесь их, чтобы воспользоваться потусторонними способностями других Путей и отыскать сокрытые сокровища.",
     ["You! I..."] = "Ты! Я...",
     ["Friend Pop-up"] = "Всплывающее окно с друзьями",
     ["You were just deceived"] = "Вас просто обманули",

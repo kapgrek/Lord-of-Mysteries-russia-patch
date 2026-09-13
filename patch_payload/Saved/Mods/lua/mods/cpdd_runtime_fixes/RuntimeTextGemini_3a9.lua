@@ -33,7 +33,7 @@ return {
     ["Click again to perform <Orange>Attack</>."] = "Нажмите еще раз, чтобы выполнить <Orange>Attack</>.",
     ["Start Cooking Light Point"] = "Начать готовить Лайт Пойнт",
     ["Old Wade's Subordinate Position 4"] = "Подчиненная позиция старого Уэйда b",
-    ["Celeste is\r\na faithless lover"] = "Саллисетт\nЛюбовник, который нарушает свое обещание",
+    ["Celeste is\r\na faithless lover"] = "Селеста —\r\nвероломная возлюбленная",
     ["...Then how much is it worth?"] = "...Тогда сколько это стоит?",
     ["On the <h>desk</>"] = "На столе <h></>",
     ["Two swords can be brought into the village together... we succeeded once before... the method is hidden on the roof of my house..."] = "В деревню можно принести два меча вместе... однажды нам это удалось... метод спрятан на крыше моего дома...",

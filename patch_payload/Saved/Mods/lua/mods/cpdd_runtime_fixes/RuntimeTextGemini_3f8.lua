@@ -63,7 +63,7 @@ return {
     ["Come here... come a little closer..."] = "Иди сюда... подойди немного ближе...",
     ["Beyonder Rating:"] = "Рейтинг Потусторонний:",
     ["[Rumor] After Nightmare Impact hits the main target, it detonates shadow energy, causing area damage."] = "[Rumor] After Кошмар Impact hits the main target, it detonates shadow energy, causing area damage.",
-    ["Very painful, but must, fight. \n Failed, pain, failed to protect. \n ——Pain, is it dissipating? \n Time, to rest. Goodbye, Master."] = "Больно, но нужно бороться. \n потерпел неудачу, пострадал, не смог удержаться. \n——Боль утихает? \n Пришло время отдохнуть. До свидания, хозяин.",
+    ["Very painful, but must, fight. \n Failed, pain, failed to protect. \n ——Pain, is it dissipating? \n Time, to rest. Goodbye, Master."] = "Очень больно... но надо... сражаться...\nПоражение... больно... не смог защитить...\n— Боль... утихает?..\nПора... отдохнуть... Прощайте... Хозяин...",
     ["Bard Strengthening Basic Attack"] = "Бард усиливает базовую атаку",
     ["A passing guest helped me name it 'Looking Up at the Stars' before. However, I changed it to 'Looking Up at the Crimson Moon,' which fits my faith better, haha."] = "Проходящий гость помог мне раньше назвать это «Глядя на звезды». Однако я изменил его на «Взгляд на Багровую Луну», что больше соответствует моей вере, ха-ха.",
     ["Achievement - True Railroad Tycoon"] = "Достижение: Настоящий железнодорожный магнат",

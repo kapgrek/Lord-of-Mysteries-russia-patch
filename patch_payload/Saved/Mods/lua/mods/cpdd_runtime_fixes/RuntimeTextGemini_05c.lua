@@ -180,7 +180,7 @@ return {
     ["【@Ling Xi】Hahahaha"] = "【@Лин Си】Хахахаха",
     ["Cannot teleport while in combat."] = "Невозможно телепортироваться во время боя.",
     ["I seem to have... forgotten many things. I remember wanting a piece of land... for my comrades... but I forgot their names..."] = "Кажется, я... забыл многое. Помню, я хотел кусок земли... для своих товарищей... но забыл их имена...",
-    ["Approach it, and your vision will be temporarily stripped from the surface of reality. \n Before your eyes, the most glorious past of this land will reappear."] = "Приблизьтесь к нему, и ваше видение будет временно отделено от видимости реальности. \nПеред вашими глазами снова предстает самое славное прошлое этой земли.",
+    ["Approach it, and your vision will be temporarily stripped from the surface of reality. \n Before your eyes, the most glorious past of this land will reappear."] = "Подойдите ближе, и ваш взор на мгновение отрешится от покрова зримой реальности.\nПрямо перед вами оживут картины самого славного и величественного прошлого этих земель.",
     ["When the Astrolabe User releases Meteor Missile, an additional missile is added for all players on the field."] = "Когда пользователь Астролябии выпускает Метеорную ракету, для всех игроков на поле добавляется дополнительная ракета.",
     ["The same style as player name seven characters"] = "Тот же стиль, что и имя игрока, семь символов.",
     ["My child... don't be afraid, Mommy will always be by your side..."] = "Дитя мое... не бойся, мама всегда будет рядом с тобой...",

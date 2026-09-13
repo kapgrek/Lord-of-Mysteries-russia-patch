@@ -168,7 +168,7 @@ return {
     ["Live Support"] = "Живая поддержка",
     ["This looks so much like the handwriting in my notes! But, I... I don't quite understand what it means anymore."] = "Это так похоже на почерк в моих заметках! Но я... я уже не совсем понимаю, что это значит.",
     ["No, this... is a memento of my fiancé."] = "Нет, это... память о моем женихе.",
-    ["<Highlight>Craft: </>Dark Night Silk・Butterfly Shoulder Ornament・Charming Light Gown\nIn the Midsummer Night's fairyland, it is not just the wings of sprites that streak across the sky, but also the fluttering hearts of poets."] = "<Highlight> Мастерство: </> Темный ночной шелк, лямки-бабочки, очаровательное легкое платье \n В стране чудес Летней Ночи по небу летают не только крылья эльфов, но и танцующие сердца поэзии.",
+    ["<Highlight>Craft: </>Dark Night Silk・Butterfly Shoulder Ornament・Charming Light Gown\nIn the Midsummer Night's fairyland, it is not just the wings of sprites that streak across the sky, but also the fluttering hearts of poets."] = "\\u003cHighlight\\u003eМастерство: \\u003c/\\u003eШёлк тёмной ночи · Наплечник «Танец бабочки» · Очаровательное лёгкое платье\nВ сказочной стране Ивановой ночи по небу скользят не только крылья эльфов, но и трепетные сердца поэтов.",
     ["Test State 8"] = "Тестовое состояние b",
     ["Go to <h>Valerie's house</>"] = "Идите в дом <h>Валери</>",
     ["Yes, we are always fighting against unknown dangers..."] = "Да, мы всегда боремся с неведомыми опасностями...",

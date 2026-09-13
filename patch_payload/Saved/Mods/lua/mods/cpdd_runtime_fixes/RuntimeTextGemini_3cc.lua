@@ -49,7 +49,7 @@ return {
     ["Derrick, do it."] = "Деррик, сделай это.",
     ["Please prioritize downloading higher-priority resources."] = "Пожалуйста, отдавайте приоритет загрузке ресурсов с более высоким приоритетом.",
     ["Entering planes is temporarily unavailable while cross-server."] = "Ввод самолетов временно недоступен при кросс-серверном режиме.",
-    ["<Assistant_Title1>Guarding Fate Side by Side</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Obtain 20 victories in Moment of Fate while in a team"] = "<Assistant_Title1>Сохраняя судьбу бок о бок</>\n<Assistant_Title2>Категория достижения: </>Война — соревнование\n<Assistant_Title2>Условия разблокировки: </>Выиграйте 20 моментов судьбы в команде",
+    ["<Assistant_Title1>Guarding Fate Side by Side</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Obtain 20 victories in Moment of Fate while in a team"] = "\\u003cAssistant_Title1\\u003eПлечом к плечу на страже судьбы\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eВоенный промысел — Состязание\n\\u003cAssistant_Title2\\u003eУсловие получения: \\u003c/\\u003eОдержать 20 побед в «Моменте Судьбы», находясь в группе",
     ["The director approached the stage designer,"] = "Режиссер подошел к художнику-постановщику:",
     ["The ground is full of venom... and there are venom flowers spraying poison. You must time it right; you can't make a single mistake."] = "Земля полна яда... и ядовитые цветы распыляют яд. Вы должны правильно рассчитать время; ты не можешь сделать ни единой ошибки.",
     ["Survival from Desperation"] = "Выживание от отчаяния",

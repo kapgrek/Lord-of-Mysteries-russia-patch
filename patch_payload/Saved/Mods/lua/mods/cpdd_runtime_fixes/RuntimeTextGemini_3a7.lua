@@ -39,7 +39,7 @@ return {
     ["Blood Emperor Respawn Point 1"] = "Точка возрождения Кровавого Императора b",
     ["1/0: Yes/No."] = "1/0: Да/Нет.",
     ["Message name"] = "Имя сообщения",
-    ["Delete sub-entity \n Delete aim buff"] = "Удалить дочернюю сущность \n Удалить усиление таргетинга",
+    ["Delete sub-entity \n Delete aim buff"] = "Удалить дочернюю сущность\nУдалить бафф прицеливания",
     ["Megose - 1 Star"] = "Мегосе — 1 звезда",
     ["【62】 Handsome and dashing"] = "【62】 Красивый и лихой",
     ["Little girl, do you need water or food?"] = "Маленькая девочка, тебе нужна вода или еда?",

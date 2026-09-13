@@ -189,7 +189,7 @@ return {
     ["Knight rank insufficient; cannot participate in the duel!"] = "Рыцарский ранг недостаточен; не может участвовать в дуэли!",
     ["【@Haino】? Selling club members again"] = "【@Хайно】? Снова продажа членов клуба",
     ["Floral Dew Set Ornament 4"] = "Цветочный орнамент росы b",
-    ["His arms were spread wide, feet above, and his head hung down like a pendant. \n Dunn: Do not look directly at God!"] = "Его руки раскинуты, ноги сверху, а голова свисает вниз, как кулон. \n Данн: Не смотри прямо на Бога!",
+    ["His arms were spread wide, feet above, and his head hung down like a pendant. \n Dunn: Do not look directly at God!"] = "Его руки раскинуты, ноги вверху, а голова свисает вниз, словно кулон.\nДанн: Не смотри прямо на Бога!",
     ["Little Daly, how have you all been these years? Is Tingen alright?"] = "Маленький Дэйли, как ты себя чувствовал все эти годы? С Тингеном все в порядке?",
     ["End-of-Days Hunt Auction Dividends"] = "Дивиденды на аукционе «Охота в конце дня»",
     ["Partner usage restricted"] = "Партнерское использование ограничено",

@@ -86,7 +86,7 @@ return {
     ["Whirlwind Triple Strike"] = "Тройной удар вихря",
     ["He is still your brother"] = "Он все еще твой брат",
     ["...Fine. I came here just because I didn't want to go back to polish the porcelain, and—"] = "...Отлично. Я пришел сюда только потому, что не хотел возвращаться полировать фарфор, и...",
-    ["Just like this,\r\nI decided to forget my marriage first..."] = "Вот так,\nСначала я решила забыть о своем браке...",
+    ["Just like this,\r\nI decided to forget my marriage first..."] = "И вот так,\r\nя решила пока забыть о своем замужестве...",
     ["Drag screen to rotate signature"] = "Перетащите экран, чтобы повернуть подпись",
     ["Evenly Matched"] = "Равномерное совпадение",
     ["Open to obtain 10 Polymerization Factors."] = "Откройте, чтобы получить 10 факторов полимеризации.",

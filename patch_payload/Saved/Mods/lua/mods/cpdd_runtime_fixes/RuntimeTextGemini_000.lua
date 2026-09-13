@@ -226,7 +226,7 @@ return {
     ["Default entry point"] = "Точка входа по умолчанию",
     ["Why aren't you dancing?"] = "Почему ты не танцуешь?",
     ["Glory Weaving · Set"] = "Слава Ткачества · Набор",
-    ["Wave the cane to deal damage to enemies in the sector area in front. \n\n A simple silver cane, the first gift of a new job, heavy and hard, suitable for swinging."] = "Размахивайте тростью, чтобы нанести урон врагам в веерообразной области впереди. \n\nПростой серебряный посох, первый подарок новой работы, тяжелый и твердый, пригодный для размахивания.",
+    ["Wave the cane to deal damage to enemies in the sector area in front. \n\n A simple silver cane, the first gift of a new job, heavy and hard, suitable for swinging."] = "Взмахните тростью, нанося урон врагам в конусе перед собой.\n\nПростая трость с серебряным набалдашником — первый подарок на новой работе; тяжёлая, прочная и удобная для удара.",
     ["Warrior - Twilight Combo Slash"] = "Воин — Сумеречный комбо-удар",
     ["Family Display Stand Edit Permissions"] = "Разрешения на редактирование семейного стенда",
     ["Palik, he is <P_Yellow>scribbling</> on the books he borrowed!"] = "Палик, он <P_Yellow> чертит </> на взятых взаймы книгах!",

@@ -185,7 +185,7 @@ return {
     ["Approach <h>Skana</>"] = "Подход <h>Skana</>",
     ["Frye path point"] = "Точка пути Фрая",
     ["Who could say otherwise?"] = "Кто мог сказать иначе?",
-    ["Current club participants: %s Proportion: %s \n Clubs receive corresponding funds and activity based on the proportion of club participants to the total number of people."] = "Текущее количество участников клуба: %s Пропорция: %s \n Согласно доле участников клуба к общему количеству участников, клуб получает соответствующие средства и активность.",
+    ["Current club participants: %s Proportion: %s \n Clubs receive corresponding funds and activity based on the proportion of club participants to the total number of people."] = "Текущее число участников клуба: %s Доля: %s \nВ зависимости от доли участников клуба в общем числе игроков клуб получает соответствующие средства и очки активности.",
     ["Have to wait until next month to continue..."] = "Чтобы продолжить, придется подождать до следующего месяца...",
     ["(Reads carefully) What are these characters? (Panic) Why don't I recognize a single one? (Rage) Why am I so stupid! I went to night school, and I still don't recognize a single word!"] = "(Читает внимательно) Что это за персонажи? (Паника) Почему я не узнаю ни одного? (Ярость) Почему я такой глупый! Я пошел в вечернюю школу и до сих пор не узнаю ни одного слова!",
     ["That's better... Ms. Fula, let's go!"] = "Так лучше... Мисс Фула, поехали!",

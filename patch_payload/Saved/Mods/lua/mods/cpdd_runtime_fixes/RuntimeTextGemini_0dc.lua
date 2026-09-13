@@ -210,7 +210,7 @@ return {
     ["Current Speaking Mode: %s"] = "Текущий режим разговора: %s",
     ["Purified item"] = "Очищенный предмет",
     ["Gaze Expression buff"] = "Усиление выражения взгляда",
-    ["<Assistant_Title1>Healer of Eternal Protection</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Reach a cumulative 1,000,000 healing in Moment of Fate"] = "<Assistant_Title1>Вечно защищенный целитель</>\n<Assistant_Title2>Категория достижения: </>Борьба за битву – соревнование\n<Assistant_Title2>Условия разблокировки: </>Совокупная сумма исцеления в «Моменте судьбы» достигает 1 миллиона",
+    ["<Assistant_Title1>Healer of Eternal Protection</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Reach a cumulative 1,000,000 healing in Moment of Fate"] = "\\u003cAssistant_Title1\\u003eЦелитель вечной защиты\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eВоенное ремесло — Состязание\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eНакопите суммарно 1 000 000 ед. исцеления в режиме «Миг судьбы»",
     ["Go pour it out already!"] = "Иди выливай уже!",
     ["I used Xiao Ai to scan it."] = "Я использовал Сяо Ай, чтобы отсканировать его.",
     ["Yusi"] = "Юси",

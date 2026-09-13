@@ -152,7 +152,7 @@ return {
     ["Total club emails sent today:"] = "Всего клубных писем, отправленных сегодня:",
     ["Are you a noble?"] = "Ты дворянин?",
     ["Northwest 23"] = "Северо-Запад bb",
-    ["<Assistant_Title1>Gift of the Guardian</>\n<Assistant_Title2>Achievement Category:</>Cultivation - Sealed Artifact\n<Assistant_Title2>Unlock Condition:</>Obtain 1 Extraordinary material with the <Guardian> entry."] = "<Assistant_Title1>Дар Хранителя</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект развития\n<Assistant_Title2>Условия разблокировки: </>Получить 1 необычное вещество с записью <守护者>",
+    ["<Assistant_Title1>Gift of the Guardian</>\n<Assistant_Title2>Achievement Category:</>Cultivation - Sealed Artifact\n<Assistant_Title2>Unlock Condition:</>Obtain 1 Extraordinary material with the <Guardian> entry."] = "\\u003cAssistant_Title1\\u003eДар Хранителя\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eРазвитие — Запечатанный Артефакт\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eПолучите 1 потустороннее вещество со свойством \\u003c守护者\\u003e",
     ["Peak of the Gods · Conquest"] = "Пик Богов · Завоевание",
     ["Congratulatory Letter"] = "Поздравительное письмо",
     ["Cauldron - Automatically unload ingredients from self after 2-second countdown - Rotten Tomato"] = "Котел — автоматически выгружать ингредиенты из себя после 2-секундного обратного отсчета — тухлый помидор",

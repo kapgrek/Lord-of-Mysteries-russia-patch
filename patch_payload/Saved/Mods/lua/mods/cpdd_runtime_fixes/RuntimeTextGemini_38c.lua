@@ -45,7 +45,7 @@ return {
     ["Long Table: Oval"] = "Длинный стол: овальный",
     ["%s has become the new team captain."] = "%s стал новым капитаном команды.",
     ["Obtain 1 Extraordinary Material with a <Chaos Walker> affix"] = "Получите 1 необычный материал с аффиксом <Chaos Walker>.",
-    ["<Assistant_Title1> Railway Tycoon </> \n <Assistant_Title2> Achievement Category: </> Leisure - Castle \n <Assistant_Title2> Unlock Condition: </> Reach \"Railway Tycoon - Tier 1\" in a single match of Railway Tycoon - Risk Gamble"] = "<Assistant_Title1>Railway Tycoon</>\n<Assistant_Title2>Категория достижения: </>Casual-Castle\n<Assistant_Title2>Условия разблокировки: </>Достичь «Железнодорожный магнат-уровень 1» за один раунд в игре Railroad Tycoon-Risk Game",
+    ["<Assistant_Title1> Railway Tycoon </> \n <Assistant_Title2> Achievement Category: </> Leisure - Castle \n <Assistant_Title2> Unlock Condition: </> Reach \"Railway Tycoon - Tier 1\" in a single match of Railway Tycoon - Risk Gamble"] = "\\u003cAssistant_Title1\\u003eЖелезнодорожный магнат\\u003c/\\u003e\n\\u003cAssistant_Title2\\u003eКатегория достижения: \\u003c/\\u003eДосуг — Замок\n\\u003cAssistant_Title2\\u003eУсловие открытия: \\u003c/\\u003eДостичь ранга «Железнодорожный магнат — ранг 1» за одну игру в режиме «Железнодорожный магнат: игра с риском»",
     ["Church Bulletin Board 2"] = "Церковная доска объявлений b",
     ["I must take out the security first!"] = "Сначала я должен уничтожить охрану!",
     ["A Berserk potion concocted by an Apothecary, igniting potential in a short time to increase Attack."] = "Зелье берсерка, приготовленное аптекарем, которое за короткое время воспламеняет потенциал для увеличения атаки.",

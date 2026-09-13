@@ -182,7 +182,7 @@ return {
     ["#CanMoveMoney#"] = "#CanMoveДеньги#",
     ["An unexpected harvest, let's offer it to the 'Mother' together."] = "Неожиданный урожай, давайте вместе поднесем его «Матери».",
     ["Jing"] = "Цзин",
-    ["Butterfly-shaped decoration shimmering with a faint light, symbolizing the beauty of impermanence and those stays destined to be brief. \n Duplicate acquisition will be automatically decomposed into Bound Soule x10000."] = "Мерцающее украшение в форме бабочки символизирует красоту непостоянства и тех, кому суждено остаться ненадолго. \n Повторные приобретения будут автоматически разложены на связанные suler × 10000.",
+    ["Butterfly-shaped decoration shimmering with a faint light, symbolizing the beauty of impermanence and those stays destined to be brief. \n Duplicate acquisition will be automatically decomposed into Bound Soule x10000."] = "Мерцающее мягким светом украшение в виде бабочки символизирует мимолётную красоту и краткие мгновения покоя.\nПри повторном получении автоматически распыляется на Привязанные соли ×10 000.",
     ["The City of Cities promises: You will experience the most elegant voyage in all of Loen. Have a pleasant Journey."] = "Город городов обещает: вас ждет самое элегантное путешествие во всем Лоене. Приятного путешествия.",
     ["The most proud work of a mechanical expert, faithfully executing the master's orders, preparing for the advancement ritual."] = "Самая гордая работа мастера-механика, добросовестно выполняющего приказы мастера, готовящегося к ритуалу повышения.",
     ["Benifor"] = "Бенифор",

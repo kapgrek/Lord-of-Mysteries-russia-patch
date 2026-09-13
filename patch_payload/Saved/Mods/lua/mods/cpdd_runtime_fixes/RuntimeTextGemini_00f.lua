@@ -215,7 +215,7 @@ return {
     ["Spirit Female Worker"] = "Дух-женщина-работница",
     ["Interact at the specified location."] = "Взаимодействуйте в указанном месте.",
     ["Don't... hurt her!!!"] = "Не... делай ей больно!!!",
-    ["Reorganize the space in the long-silent castle, letting the order of life gradually take shape. \nPerhaps, you could also try a small miracle?"] = "Перепланируйте пространство в давно бездействующем замке и пусть порядок жизни постепенно обретает форму. \nМожет, сотворим маленькое чудо?",
+    ["Reorganize the space in the long-silent castle, letting the order of life gradually take shape. \nPerhaps, you could also try a small miracle?"] = "Заново обустройте залы в старинном безмолвном замке, возвращая в него тепло и привычный уклад жизни.\nА может, сотворить и крошечное чудо?",
     ["Time Surge Stealth Monster Connection"] = "Связь с монстрами в режиме «Стелс»",
     ["These grapes look great!"] = "Этот виноград выглядит великолепно!",
     ["Mystery Pryer Set"] = "Набор «Таинственный Прайер»",

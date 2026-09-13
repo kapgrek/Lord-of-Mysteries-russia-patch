@@ -196,7 +196,7 @@ return {
     ["Peek into the secrets of fate, increasing the damage of yourself and nearby allies for a period of time."] = "Приоткрывает тайны судьбы, на некоторое время увеличивая урон себе и окружающим соратникам.",
     ["Large Table"] = "Большой стол",
     ["Collection - Wake up little Elliot"] = "Коллекция - Просыпайся, маленький Эллиот",
-    [" <DecH>Craftsmanship: </>Flowing Light Silk · Scale Powder Staining\nAlthough the butterfly has left at dusk, the phantom of the butterfly wings still lingers on the cape."] = "<DecH> Мастерство: </> Струящийся шелк, чешуйчатое крашение розовыми точками \n Хотя бабочка улетела в сумерках, призрак ее крыльев все еще покоится на плаще.",
+    [" <DecH>Craftsmanship: </>Flowing Light Silk · Scale Powder Staining\nAlthough the butterfly has left at dusk, the phantom of the butterfly wings still lingers on the cape."] = "\\u003cDecH\\u003eРемесло: \\u003c/\\u003e\\u003cAssistant_Property2\\u003eСтруящийся шелк · Роспись чешуйчатой пыльцой\\u003c/\\u003e\nХотя бабочка вспорхнула и скрылась в сумерках, призрачный оттиск ее крыльев все еще покоится на ткани плаща.",
     ["Hyacinth summons a monster"] = "Гиацинт вызывает монстра",
     ["Those who fight here shall be punished."] = "Сражающиеся здесь да будут покараны.",
     ["Remaining stops in this area:"] = "Остальные остановки в этом районе:",

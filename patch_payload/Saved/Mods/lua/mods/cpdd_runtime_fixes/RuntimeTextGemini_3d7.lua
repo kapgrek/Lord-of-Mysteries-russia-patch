@@ -57,7 +57,7 @@ return {
     ["Chaos"] = "Хаос",
     ["Both kittens are so cute..."] = "Оба котенка такие милые...",
     ["Enter and leave"] = "Войди и выйди",
-    ["Do you want to monopolize\nmy beauty?"] = "Хотите монополизировать\nМоя красавица?",
+    ["Do you want to monopolize\nmy beauty?"] = "Хочешь единолично\r\nлюбоваться моей красотой?",
     ["Teleport successful."] = "Телепортация прошла успешно.",
     ["Path of the Extraordinary"] = "Путь необыкновенного",
     ["Oh, my dear children! I have an excellent job opportunity here, you only need to work 12 hours a day, and you can earn... um, 5 pennies!"] = "О, мои дорогие дети! У меня здесь отличная возможность трудоустройства, вам нужно работать всего 12 часов в день, и вы можете заработать... хм, 5 копеек!",

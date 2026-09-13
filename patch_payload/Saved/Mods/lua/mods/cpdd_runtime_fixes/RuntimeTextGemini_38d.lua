@@ -27,7 +27,7 @@ return {
     ["BOSS4-Southwest Cavalry Minion"] = "BOSS4-Юго-западный кавалерийский миньон",
     ["Stele of Conquest - Lower"] = "Стела завоеваний - Нижняя",
     ["I've wanted to share this discovery with someone for a long time! Do you know about the War of the Roses?"] = "Давно хотела с кем-нибудь поделиться этим открытием! Знаете ли вы о Войне роз?",
-    ["Celeste is\r\na coward who fears spring"] = "Саллисетт\nТрус, который боится весны",
+    ["Celeste is\r\na coward who fears spring"] = "Селеста —\r\nтрусиха, боящаяся весны",
     ["5231126 Dragon Bar Single-Player Instance"] = "5231126 Одиночное измерение: бар «Злой Дракон»",
     ["<Highlight>%s</> key settings are empty. Please confirm if you need to reset them!"] = "Настройки ключа <Highlight>%s</> пусты. Пожалуйста, подтвердите, если вам нужно их сбросить!",
     ["<P_Heart> (This mother fell into a long silence, seemingly pondering how to say something that the whole world could understand and agree with.) </>"] = "<P_Heart> (Эта мать долго молчала, по-видимому, обдумывая, как сказать что-то, что весь мир мог бы понять и с чем согласился бы.) </>",

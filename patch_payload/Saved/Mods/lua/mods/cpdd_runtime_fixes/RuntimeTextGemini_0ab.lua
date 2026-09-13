@@ -194,7 +194,7 @@ return {
     ["Current rank has reached <PVPHighlight>Blood Prince</>, cannot <PVPHighlight>obtain rank points </> from hunt progress anymore."] = "Текущий ранг достиг <PVPHighlight>Blood Prince</>, <PVPHighlight> больше не может получать очки ранга </> в результате прогресса охоты.",
     ["Ashley"] = "Эшли",
     ["In the past, I only thought of this as a puzzle game invented by my father. Now it seems more like a miniature tabletop war. A very charming game, isn't it? <P_Heart> (Smiles) </>"] = "Раньше я думал об этом только как об игре-головоломке, изобретенной моим отцом. Теперь это больше похоже на миниатюрную настольную войну. Очень очаровательная игра, не правда ли? <P_Heart> (Улыбается) </>",
-    ["Enid ran to her brother Pete, clapped her hands gently, and chanted a ballad—\n 'Pain pain fly away, the little bear scares the pain away, brother sleeps beautifully...'"] = "Энид подбежала к своему брату Питу, нежно хлопнула в ладоши и спела песенку - \n \"Больно летать, больно летать, медвежонок боль отпугивает, а мой братик спокойно спит...\"",
+    ["Enid ran to her brother Pete, clapped her hands gently, and chanted a ballad—\n 'Pain pain fly away, the little bear scares the pain away, brother sleeps beautifully...'"] = "Энид подбежала к брату Питу, ласково захлопала в ладоши и запела детскую песенку:\n«Улетай, боль, улетай скорей! Мишка прогонит хвори прочь, сладко уснет братишка в ночь...»",
     ["(This looks like Mr. Azik...)"] = "(Это похоже на господина Азика...)",
     ["Phantom: Flower for Beauty"] = "Фантом: Цветок красоты",
     ["Sword Formation range: Circular area with a radius of 6 meters"] = "Зона строя мечей: круговая область радиусом 6 м",

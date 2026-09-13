@@ -157,7 +157,7 @@ return {
     ["Where are your parents?"] = "Где твои родители?",
     ["What's next?"] = "Что дальше?",
     ["You have joined the gathering"] = "Вы присоединились к собранию",
-    ["Switch Lumian's consciousness\r\nApproach the memory fragment"] = "Переключить сознание Люми\nБлизко к фрагменту памяти",
+    ["Switch Lumian's consciousness\r\nApproach the memory fragment"] = "Переключить сознание Люмиана\r\nПриблизиться к осколку памяти",
     ["Yingxing"] = "Инсин",
     ["Teleport (Unit: Meters)"] = "Телепорт (Единица измерения: метры)",
     ["[Emoji 16]"] = "[Эмодзи 16]",

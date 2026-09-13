@@ -109,7 +109,7 @@ return {
     ["Help requested"] = "Запрошена помощь",
     ["Take a Break"] = "Сделайте перерыв",
     ["<P_Heart>(Shy)</> This { { handsome gentleman | elegant lady } }, please forgive me, I... haven't figured that question out yet."] = "<P_Heart>(Shy)</> Это { { handsome gentleman | elegant lady } }, пожалуйста, простите меня, я... еще не разобрался с этим вопросом.",
-    ["To Beyonder \n Light is the meaning of everything! \n Squid Who Loves to Dive"] = "To Extraordinary \n Свет – смысл всего! \n Кальмар, который любит нырять",
+    ["To Beyonder \n Light is the meaning of everything! \n Squid Who Loves to Dive"] = "Потустороннему:\n    Свет — вот истинный смысл всего!\n                 Любящий нырять кальмар (Cuttlefish That Loves Diving)",
     ["For the traitors, execute annihilation!"] = "Предателям устроить уничтожение!",
     ["Put down money"] = "Отложи деньги",
     ["49 回忆之间夜"] = "49 Комната воспоминаний Ночь",

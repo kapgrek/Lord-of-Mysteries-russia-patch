@@ -67,7 +67,7 @@ return {
     ["Help Lily get out of trouble"] = "Помогите Лили выбраться из неприятностей",
     ["Forward Update"] = "Переслать обновление",
     ["Beyonder creature"] = "Потустороннее существо",
-    ["After obtaining this mystical item, you will gain the Acting Skill of the Magician Sequence. \n A humanoid figure folded from a slender strip of paper, with vortex symbols drawn in ink on the eyes."] = "Получив этот волшебный предмет, вы приобретете навыки актерского мастерства мага. \n Тонкий лист бумаги, сложенный в форме человека, с закрученными символами, нарисованными чернилами на глазах.",
+    ["After obtaining this mystical item, you will gain the Acting Skill of the Magician Sequence. \n A humanoid figure folded from a slender strip of paper, with vortex symbols drawn in ink on the eyes."] = "Получив этот мистический предмет, вы откроете навык отыгрыша Последовательности Фокусника.\nЧеловеческая фигурка, сложенная из тонкой полоски бумаги, с нарисованными чернилами символами водоворота вместо глаз.",
     ["He has been asking the same lady out all week. I heard she has quite deep pockets too. Sigh, it's really nice to be rich."] = "Он всю неделю приглашал на свидание одну и ту же даму. Я слышал, что у нее тоже довольно глубокие карманы. Эх, очень приятно быть богатым.",
     ["Cavalry"] = "Кавалерия",
     ["One step"] = "Один шаг",

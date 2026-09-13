@@ -217,7 +217,7 @@ return {
     ["Old Neil Secret Bond"] = "Старина Нил Секретный Бонд",
     ["Gear Wax Seal · Adventure"] = "Сургучная печать шестерни · Приключение",
     ["This is it!"] = "Вот оно!",
-    ["Is it still useful? \n (Used by Amon boss)."] = "Это все еще полезно \n (используется боссом Eamon)",
+    ["Is it still useful? \n (Used by Amon boss)."] = "Используется ли ещё?\n(Применяется боссом Амоном)",
     ["Pendulum Divination 1"] = "Гадание на маятнике b",
     ["450 Stone Carving"] = "450 Резьба по камню",
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Hard)</> and complete the <Highlight>Escort Carriage</> stage for a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Hard)</> и завершите этап <Highlight>Escort Carriage</>, чтобы получить шанс получить следующие предметы.",
