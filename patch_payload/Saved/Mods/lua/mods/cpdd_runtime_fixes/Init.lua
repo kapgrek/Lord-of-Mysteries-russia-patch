@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.80"
+local VERSION = "0.9.81"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1999,6 +1999,9 @@ local function translateTextWidget(widget, discoveryContext)
         widgetName = tostring(widget:GetName())
     end)
     local wName = widgetName:lower()
+    if wName:find("talkcontent") or wName:find("dialogue") then
+        return 0
+    end
 
     local repairedCount = 0
     local translated = nil
@@ -2107,7 +2110,10 @@ local function translateTextWidget(widget, discoveryContext)
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end
 
-        -- RichTextBlock / URichTextBlock / UKGCommonRichTextBlock support
+        -- RichTextBlock candidate harvesting only.
+        -- NEVER override DefaultTextStyleOverride or swap FontObject on RichTextBlock:
+        -- RichTextBlock is driven by its authored TextStyleSet (DataTable). Overriding it
+        -- corrupts Slate font materials and triggers UE5 fallback magenta/purple rendering.
         local style = (widget.GetDefaultTextStyleOverride and widget:GetDefaultTextStyleOverride())
             or widget.DefaultTextStyleOverride
             or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
@@ -2121,32 +2127,6 @@ local function translateTextWidget(widget, discoveryContext)
                 elseif isBodyName and not isTitleName then
                     runtimeFixes.registerFontCandidate(style.Font.FontObject, style.Font.TypefaceFontName, wName)
                 end
-            end
-
-            style.Font.LetterSpacing = 0
-            if runtimeFixes.StandardFontObject ~= nil and style.Font.FontObject ~= runtimeFixes.StandardFontObject then
-                if style.Font.FontObject == runtimeFixes.CinematicFontObject
-                    or isCinematicName
-                    or runtimeFixes.isCinematicFontObject(style.Font.FontObject)
-                    or (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
-                    or not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
-                    style.Font.FontObject = runtimeFixes.StandardFontObject
-                    if runtimeFixes.StandardTypefaceFontName ~= nil then
-                        style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                    end
-                end
-            end
-            if widget.DefaultTextStyleOverride ~= nil then
-                widget.DefaultTextStyleOverride = style
-            end
-            if widget.SetDefaultTextStyleOverride ~= nil then
-                widget:SetDefaultTextStyleOverride(style)
-            end
-            if widget.DefaultTextStyle ~= nil then
-                widget.DefaultTextStyle = style
-            end
-            if widget.SetDefaultTextStyle ~= nil then
-                widget:SetDefaultTextStyle(style)
             end
         end
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
@@ -5075,11 +5055,6 @@ local function bindDialogueRows(self)
         self.__cpddDialogueWidgetLookupReported = VERSION
         report("dialogue third row bound from the live widget tree")
     end
-    for _, w in ipairs(widgets) do
-        if w ~= nil then
-            translateTextWidget(w)
-        end
-    end
     revealDialogueRows(self)
     return ok and hasThirdLine
 end
@@ -7864,125 +7839,48 @@ Loader.AfterLoad("Gameplay.LogicSystem.NPC.Dialogue.Dialogue_NPCBtnSkip", functi
     return value
 end, 1000000, "cpdd.runtime-fix.dialogue-skip-controls")
 
-local function repairMenuBtnItem(self, params)
-    if self == nil then return end
-    local view = self.view
-    local widget = getNamedWidget(view, "Text_Name")
-        or (view and view.Text_Name)
-        or getNamedWidget(self.userWidget or self.widget, "Text_Name")
-    if widget == nil then return end
-
-    local buttonEnum = self.ButtonEnum or self.buttonEnum
-        or (params and type(params) == "table" and (params.ButtonEnum or params.buttonEnum))
-        or (self.Data and (self.Data.ButtonEnum or self.Data.buttonEnum))
-        or (self.data and (self.data.ButtonEnum or self.data.buttonEnum))
-    if not buttonEnum then
-        local menuId = self.MenuID or self.menuId or self.MenuId or self.menuID
-            or (self.Data and (self.Data.MenuID or self.Data.menuId or self.Data.MenuId or self.Data.id or self.Data.Id))
-            or (self.data and (self.data.MenuID or self.data.menuId or self.data.MenuId or self.data.id or self.data.Id))
-            or (params and type(params) == "table" and (params.MenuID or params.menuId or params.MenuId or params.id or params.Id))
-            or (type(params) == "number" and params)
-        local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
-        buttonEnum = menuData and (menuData.ButtonEnum or menuData.buttonEnum)
-    end
-    local label = buttonEnum and shortMenuLabels[buttonEnum]
-
-    if not label then
-        local current = nil
-        pcall(function()
-            if widget.GetText ~= nil then current = widget:GetText() end
-            if (current == nil or current == "") and widget.Text ~= nil then current = widget.Text end
-        end)
-        if type(current) == "string" and current ~= "" then
-            local uchar = "([%z\1-\127\194-\244][\128-\191]*)"
-            if current:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar) then
-                local collapsed = current:gsub("(%S)%s+(%S)", "%1%2")
-                collapsed = collapsed:gsub("(%S)%s+(%S)", "%1%2")
-                label = collapsed:match("^%s*(.-)%s*$")
-            end
-        end
-    end
-
-    if label then
-        runtimeFixes.setNamedWidgetText(view or self, "Text_Name", label)
-    end
-
-    pcall(function()
-        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
-        if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
-    end)
-
-    pcall(function()
-        local font = nil
-        if widget.GetFont ~= nil then
-            font = widget:GetFont()
-        elseif widget.Font ~= nil then
-            font = widget.Font
-        end
-        if font ~= nil then
-            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                font.FontObject = runtimeFixes.StandardFontObject
-                if runtimeFixes.StandardTypefaceFontName ~= nil then
-                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                end
-            elseif font.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(font.FontObject) then
-                runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, "MenuBtnItem")
-            end
-            font.LetterSpacing = 0
-            local effectiveText = label
-            if not effectiveText then
-                if widget.GetText ~= nil then effectiveText = widget:GetText() end
-                if (effectiveText == nil or effectiveText == "") and widget.Text ~= nil then
-                    effectiveText = widget.Text
-                end
-            end
-            local textLen = (type(effectiveText) == "string") and runtimeFixes.utf8Len(effectiveText) or 0
-            local baseSize = tonumber(font.Size) or 18
-            if textLen > 6 then
-                font.Size = math.min(baseSize, 14)
-            else
-                font.Size = math.min(baseSize, 15)
-            end
-            widget.Font = font
-            if widget.SetFont ~= nil then widget:SetFont(font) end
-        end
-    end)
-
-    pcall(function()
-        if widget.SetAutoWrapText ~= nil then
-            widget:SetAutoWrapText(false)
-        elseif widget.AutoWrapText ~= nil then
-            widget.AutoWrapText = false
-        end
-    end)
-
-    pcall(function()
-        if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
-        if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
-    end)
-end
-
 local function installShortMenuLabels(value, environment)
     local class = getSymbol(value, environment, "MenuBtn_Item")
-    if type(class) ~= "table" then
+    if type(class) ~= "table" or type(class.OnRefresh) ~= "function" then
         return false
     end
     if class.__cpddShortMenuLabels == VERSION then
         return true
     end
 
-    for _, methodName in ipairs({ "OnRefresh", "Refresh", "SetData", "OnOpen" }) do
-        local original = class[methodName]
-        if type(original) == "function" then
-            class[methodName] = function(self, params, ...)
-                local results = { original(self, params, ...) }
-                pcall(repairMenuBtnItem, self, params)
-                return unpack(results)
-            end
+    local originalRefresh = class.OnRefresh
+    class.OnRefresh = function(self, params, ...)
+        local results = { originalRefresh(self, params, ...) }
+        local buttonEnum = self.ButtonEnum or self.buttonEnum
+            or (params and type(params) == "table" and (params.ButtonEnum or params.buttonEnum))
+            or (self.Data and (self.Data.ButtonEnum or self.Data.buttonEnum))
+            or (self.data and (self.data.ButtonEnum or self.data.buttonEnum))
+        if not buttonEnum then
+            local menuId = self.MenuID or self.menuId or self.MenuId or self.menuID
+                or (self.Data and (self.Data.MenuID or self.Data.menuId or self.Data.MenuId or self.Data.id or self.Data.Id))
+                or (self.data and (self.data.MenuID or self.data.menuId or self.data.MenuId or self.data.id or self.data.Id))
+                or (params and type(params) == "table" and (params.MenuID or params.menuId or params.MenuId or params.id or params.Id))
+                or (type(params) == "number" and params)
+            local menuData = menuId and Game and Game.TableData and Game.TableData.GetMenuDataRow(menuId)
+            buttonEnum = menuData and (menuData.ButtonEnum or menuData.buttonEnum)
         end
+        local label = buttonEnum and shortMenuLabels[buttonEnum]
+        if label and self.view then
+            -- KGTextBlock can repaint its serialized long translation after
+            -- OnRefresh. Persist the compact value in both the widget property
+            -- and the live Slate text so later menu refreshes cannot restore it.
+            runtimeFixes.setNamedWidgetText(self.view, "Text_Name", label)
+            pcall(function()
+                local widget = getNamedWidget(self.view, "Text_Name")
+                if widget and widget.SetAutoWrapText ~= nil then
+                    widget:SetAutoWrapText(false)
+                end
+            end)
+        end
+        return unpack(results)
     end
     class.__cpddShortMenuLabels = VERSION
-    report("installed compact Russian menu labels with zero letter-spacing")
+    report("installed compact Russian menu labels")
     return true
 end
 
@@ -7994,49 +7892,6 @@ Loader.AfterLoad(
     end,
     1000000,
     "cpdd.runtime-fix.short-menu-labels"
-)
-
-local function installMenuPanelRepair(value, environment)
-    local class = getSymbol(value, environment, "Menu_Panel")
-    if type(class) ~= "table" then
-        return false
-    end
-    if class.__cpddMenuPanelFix == VERSION then
-        return true
-    end
-
-    local function repairPanelButtons(self)
-        if not self then return end
-        if type(self._childComponents) == "table" then
-            for _, child in pairs(self._childComponents) do
-                pcall(repairMenuBtnItem, child)
-            end
-        end
-    end
-
-    for _, methodName in ipairs({ "OnOpen", "OnRefresh", "Refresh" }) do
-        local original = class[methodName]
-        if type(original) == "function" then
-            class[methodName] = function(self, ...)
-                local results = { original(self, ...) }
-                pcall(repairPanelButtons, self)
-                return unpack(results)
-            end
-        end
-    end
-    class.__cpddMenuPanelFix = VERSION
-    report("installed Menu_Panel layout repair")
-    return true
-end
-
-Loader.AfterLoad(
-    "Gameplay.LogicSystem.Menu.Menu_Panel",
-    function(value, environment)
-        installMenuPanelRepair(value, environment)
-        return value
-    end,
-    1000000,
-    "cpdd.runtime-fix.menu-panel-repair"
 )
 
 -- Item tooltips are reused for subsequent hovered items without closing their
@@ -8329,37 +8184,6 @@ local function installEventDrivenPanelRepair(value, environment)
                 return original(self, ...)
             end
         end
-    end
-    local function installGlobalTextBlockHooks()
-        local textClasses = {
-            "TextBlock",
-            "RichTextBlock",
-            "KGTextBlock",
-            "C7TextBlock",
-            "CommonTextBlock",
-            "UKGCommonRichTextBlock",
-            "KGCommonRichTextBlock",
-        }
-        for _, clsName in ipairs(textClasses) do
-            pcall(function()
-                local cls = import(clsName)
-                if cls ~= nil and type(cls) == "table" and not cls.__cpddHooked then
-                    cls.__cpddHooked = true
-                    local originalSetText = cls.SetText
-                    if type(originalSetText) == "function" then
-                        cls.SetText = function(self, inText)
-                            local res = originalSetText(self, inText)
-                            pcall(translateTextWidget, self)
-                            return res
-                        end
-                    end
-                end
-            end)
-        end
-    end
-    runtimeFixes.installGlobalTextBlockHooks = installGlobalTextBlockHooks
-    installGlobalTextBlockHooks()
-
     class.__cpddEventTextRepair = VERSION
     report("installed event-driven panel text repair")
     return true
@@ -8454,9 +8278,6 @@ Loader.On("after_main", function()
     -- modules during the launch-critical after_main phase.
     if type(Loader.ReapplyAll) == "function" then
         Loader.ReapplyAll()
-    end
-    if type(runtimeFixes.installGlobalTextBlockHooks) == "function" then
-        runtimeFixes.installGlobalTextBlockHooks()
     end
     report("startup metrics gemini_loads=" .. tostring(runtimeMetrics.GeminiLoads)
         .. " source_shards=" .. tostring(runtimeMetrics.SourceShardLoads)
