@@ -391,6 +391,7 @@ namespace LotmRussianPatcher
             this.Controls.Add(lnkGitHub);
 
             Log("Установщик русской локализации Lord of the Mysteries " + Program.VERSION + " готов к работе.");
+            Log("Права доступа: " + (PatcherBackend.IsAdministrator() ? "Администратор (полный доступ к диску C:\\ и защищенным папкам)" : "Обычный пользователь"));
             Log("Архитектура: безопасный No-Injection моддинг, 1024 шардов рантайма, блочный патчер IoStore.");
         }
 
@@ -540,6 +541,13 @@ namespace LotmRussianPatcher
             if (!PatcherBackend.IsValidGameFolder(gamePath))
             {
                 MessageBox.Show("Укажите корректную папку с игрой перед установкой!", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!PatcherBackend.IsAdministrator() && (gamePath.StartsWith("C:\\", StringComparison.OrdinalIgnoreCase) || gamePath.StartsWith("C:/", StringComparison.OrdinalIgnoreCase)))
+            {
+                MessageBox.Show("Игра установлена на системном диске C:\\. Для записи файлов русификатора в эту папку требуются права Администратора.\n\nПожалуйста, запустите установщик от имени администратора.",
+                    "Требуются права администратора", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -708,6 +716,19 @@ namespace LotmRussianPatcher
         public const int PAK_BLOCK_SIZE = 4660;
         public const string ORIGINAL_PAK_SHA256 = "566e72d677fc974ab172eb71a34cdc6623f1e0dd19d978de812a76a1820b7fc7";
         public const string PATCHED_PAK_SHA256 = "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9";
+
+        public static bool IsAdministrator()
+        {
+            try
+            {
+                using (var identity = System.Security.Principal.WindowsIdentity.GetCurrent())
+                {
+                    var principal = new System.Security.Principal.WindowsPrincipal(identity);
+                    return principal.IsInRole(System.Security.Principal.WindowsBuiltInRole.Administrator);
+                }
+            }
+            catch { return false; }
+        }
 
         public static string GetAppDataPayloadDir()
         {
