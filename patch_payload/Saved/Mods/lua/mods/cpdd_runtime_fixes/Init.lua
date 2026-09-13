@@ -1975,7 +1975,7 @@ runtimeFixes.collapseSpacedCharacters = function(text)
 end
 
 local function translateTextWidget(widget, discoveryContext)
-    if widget == nil then
+    if widget == nil or (type(widget) ~= "userdata" and type(widget) ~= "table") then
         return 0
     end
 
@@ -2003,7 +2003,9 @@ local function translateTextWidget(widget, discoveryContext)
         widgetName = tostring(widget:GetName())
     end)
     local wName = widgetName:lower()
-    if wName:find("talkcontent") or widget.__cpddEscMenuLocked or wName:find("menubtn") then
+    local isEscLocked = false
+    pcall(function() isEscLocked = (widget.__cpddEscMenuLocked == true) end)
+    if wName:find("talkcontent") or isEscLocked or (ESC_MENU_LOCKED and wName:find("menubtn")) then
         return 0
     end
 
@@ -2066,6 +2068,9 @@ local function translateTextWidget(widget, discoveryContext)
                 if isCinematicName or runtimeFixes.isCinematicFontObject(font.FontObject) then
                     if runtimeFixes.CinematicFontObject == nil then
                         runtimeFixes.CinematicFontObject = font.FontObject
+                        local fPath = ""
+                        pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()) end end)
+                        report("identified CinematicFontObject from " .. tostring(wName) .. " path=" .. fPath)
                     end
                 elseif isBodyName and not isTitleName then
                     runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, wName)
