@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.83"
+local VERSION = "0.9.84"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1171,63 +1171,48 @@ local function sourceKey(value)
     return tostring(#value) .. ":" .. bit.tohex(hash)
 end
 
+local SHARD_PREFIXES = {}
+for i = 0, 1023 do
+    SHARD_PREFIXES[i] = string.format("%03x", i)
+end
+
+local function getShardPrefix(value)
+    local hash = bit.tobit(2166136261)
+    local len = #value
+    for index = 1, len do
+        hash = bit.bxor(hash, value:byte(index))
+        hash = bit.tobit(
+            hash
+            + bit.lshift(hash, 1)
+            + bit.lshift(hash, 4)
+            + bit.lshift(hash, 7)
+            + bit.lshift(hash, 8)
+            + bit.lshift(hash, 24)
+        )
+    end
+    return SHARD_PREFIXES[bit.band(bit.rshift(hash, 22), 0x3ff)]
+end
+
 local geminiTextCache = {
     Shards = {},
-    Order = {},
     Missing = {},
-    Seen = {},
     Lookups = {},
-    LookupOrder = {},
-    LookupWriteIndex = 1,
-    LookupCount = 0,
-    ShardLimit = 1024,
-    LookupLimit = 65536,
 }
 
-local function touchGeminiShard(prefix)
-    for index = #geminiTextCache.Order, 1, -1 do
-        if geminiTextCache.Order[index] == prefix then
-            table.remove(geminiTextCache.Order, index)
-            break
-        end
-    end
-    geminiTextCache.Order[#geminiTextCache.Order + 1] = prefix
-    if #geminiTextCache.Order <= geminiTextCache.ShardLimit then return end
-    local evicted = table.remove(geminiTextCache.Order, 1)
-    geminiTextCache.Shards[evicted] = nil
-    package.loaded["mods.cpdd_runtime_fixes.RuntimeTextGemini_" .. evicted] = nil
-    runtimeMetrics.GeminiShardEvictions = runtimeMetrics.GeminiShardEvictions + 1
-end
-
-local function cacheGeminiLookup(value, translated)
-    if geminiTextCache.LookupCount >= geminiTextCache.LookupLimit then
-        local evicted = geminiTextCache.LookupOrder[geminiTextCache.LookupWriteIndex]
-        if evicted ~= nil then geminiTextCache.Lookups[evicted] = nil end
-        runtimeMetrics.GeminiLookupCacheEvictions =
-            runtimeMetrics.GeminiLookupCacheEvictions + 1
-    else
-        geminiTextCache.LookupCount = geminiTextCache.LookupCount + 1
-    end
-    geminiTextCache.Lookups[value] = translated ~= nil and translated or false
-    geminiTextCache.LookupOrder[geminiTextCache.LookupWriteIndex] = value
-    geminiTextCache.LookupWriteIndex =
-        geminiTextCache.LookupWriteIndex % geminiTextCache.LookupLimit + 1
-end
-
 local function lookupGeminiText(value)
-    if type(value) ~= "string" then return nil end
+    if type(value) ~= "string" or value == "" then return nil end
     local cached = geminiTextCache.Lookups[value]
     if cached ~= nil then
         runtimeMetrics.GeminiLookupCacheHits = runtimeMetrics.GeminiLookupCacheHits + 1
         return cached ~= false and cached or nil
     end
     runtimeMetrics.GeminiLookupCacheMisses = runtimeMetrics.GeminiLookupCacheMisses + 1
-    local key = sourceKey(value)
-    local hashPrefix = key:match(":([0-9a-f][0-9a-f][0-9a-f])")
-    local prefix = hashPrefix
-        and string.format("%03x", math.floor(tonumber(hashPrefix, 16) / 4))
-        or nil
-    if prefix == nil or geminiTextCache.Missing[prefix] then return nil end
+
+    local prefix = getShardPrefix(value)
+    if prefix == nil or geminiTextCache.Missing[prefix] then
+        geminiTextCache.Lookups[value] = false
+        return nil
+    end
 
     local shard = geminiTextCache.Shards[prefix]
     if shard == nil then
@@ -1239,25 +1224,17 @@ local function lookupGeminiText(value)
             + elapsed
         if not ok or type(loaded) ~= "table" then
             geminiTextCache.Missing[prefix] = true
+            geminiTextCache.Lookups[value] = false
             report("Gemini runtime text shard unavailable " .. prefix .. ": " .. tostring(loaded))
             return nil
         end
         shard = loaded
-        if geminiTextCache.Seen[prefix] then
-            runtimeMetrics.GeminiShardReloads = runtimeMetrics.GeminiShardReloads + 1
-        else
-            geminiTextCache.Seen[prefix] = true
-        end
-        if elapsed >= 50 and Loader.Features.DiagnosticsMode then
-            report("slow Gemini text shard " .. prefix .. " loaded in "
-                .. string.format("%.2f", elapsed) .. " ms")
-        end
         geminiTextCache.Shards[prefix] = shard
         runtimeMetrics.GeminiLoads = runtimeMetrics.GeminiLoads + 1
     end
-    touchGeminiShard(prefix)
+
     local translated = shard[value]
-    cacheGeminiLookup(value, translated)
+    geminiTextCache.Lookups[value] = translated ~= nil and translated or false
     return translated
 end
 
@@ -8763,16 +8740,12 @@ Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
         or (type(cnValue) == "string" and visibleTextExactOverrides[cnValue])
     if exact ~= nil then return exact end
 
-    -- 6. Fuzzy lookup
-    local fuzzy = runtimeFixes.lookupGeminiTextFuzzy(enValue)
-    if fuzzy ~= nil then return fuzzy end
-
     return nil
 end
 
 pcall(function()
     if type(Loader.ReapplyOverlays) == "function" then
-        local count = Loader.ReapplyOverlays(true)
+        local count = Loader.ReapplyOverlays()
         local logger = Log or LaunchLog
         if logger and logger.Info then
             logger.Info("[LOMModLoader] Database Russian overlay applied to " .. tostring(count or 0) .. " modules")

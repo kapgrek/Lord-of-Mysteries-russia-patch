@@ -511,9 +511,9 @@ end
 table.insert(package.loaders, 1, external_searcher)
 Loader.Searcher = external_searcher
 Loader.ReapplyOverlays()
-Loader.On("after_prepare", function() Loader.ReapplyOverlays(true) end, -1000000, "loader.translation_overlays.prepare")
+Loader.On("after_prepare", function() Loader.ReapplyOverlays() end, -1000000, "loader.translation_overlays.prepare")
 Loader.On("after_main", function()
-    Loader.ReapplyOverlays(true)
+    Loader.ReapplyOverlays()
     local moduleCount, entryCount = 0, 0
     for _, count in pairs(Loader.OverlayApplied) do
         moduleCount = moduleCount + 1
