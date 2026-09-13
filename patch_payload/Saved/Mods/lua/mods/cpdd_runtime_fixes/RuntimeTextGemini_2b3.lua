@@ -48,7 +48,7 @@ return {
     ["Loen Style Photo Spot"] = "Фотозона в стиле Лоен",
     ["Shatter the war fire fragments to collect Conquest energy; once full, interact with the runes to begin praying."] = "Разбивайте фрагменты боевого огня, чтобы собрать энергию завоевания; как только он заполнится, взаимодействуйте с рунами, чтобы начать молиться.",
     ["Challenge the impossible, even if the result is ultimately false."] = "Бросить вызов невозможному, даже если результат в итоге окажется иллюзией.",
-    ["CHAT_DETAIL(\"Praise the Fool\") >=1"] = "CHAT_DETAIL(\"Похвалите дурака\") >=b",
+    ["CHAT_DETAIL(\"Praise the Fool\") >=1"] = "CHAT_DETAIL(\"Похвалите Шута\") >=b",
     ["You are... {{PlayerName}} {{Sir|Madam}}, am I right? I saw your file in the police station archives; it labels you as an expert in investigating special cases."] = "Вы... {{PlayerName}} {{Sir|Madam}}, я прав? Я видел ваше дело в архивах полицейского участка; это называет вас экспертом в расследовании особых случаев.",
     ["They say trolls have three virtues: light and soft, easy to push over, can cry, can fuss, can act spoiled, and call out 'Big Boss, don't'."] = "Говорят, что у троллей есть три достоинства: легкие и мягкие, их легко толкнуть, они могут плакать, могут суетиться, могут вести себя избалованными и кричать: «Большой Босс, не надо».",
     ["Clown Debut"] = "Клоунский дебют",

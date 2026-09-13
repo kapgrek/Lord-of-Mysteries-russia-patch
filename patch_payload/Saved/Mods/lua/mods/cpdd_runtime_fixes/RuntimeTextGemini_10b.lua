@@ -235,7 +235,7 @@ return {
     ["Pressure plate 39"] = "Нажимная пластина bb",
     ["Monster 8"] = "Монстр 8",
     ["Spectator Insight: 5% increase to Damage Talent 9 Vulnerability"] = "Зрительское понимание: увеличение уязвимости таланта 9 на 5%.",
-    ["Look at the Fool statue."] = "Посмотрите на статую дурака.",
+    ["Look at the Fool statue."] = "Посмотрите на Стату Шута.",
     ["Start Alerod dialogue"] = "Начать диалог с Алеродом",
     ["Then what kind of personality do you like?"] = "Тогда какая личность тебе нравится?",
     ["I heard from the valet that a repairman came this morning. Did he diagnose the reason for the malfunction?"] = "Я услышал от камердинера, что сегодня утром приходил ремонтник. Выяснил ли он причину неисправности?",

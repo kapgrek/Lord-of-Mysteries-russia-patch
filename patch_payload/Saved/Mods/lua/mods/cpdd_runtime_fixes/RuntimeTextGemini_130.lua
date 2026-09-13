@@ -199,7 +199,7 @@ return {
     ["Achievement - I Still Miss Him"] = "Достижение - Я все еще скучаю по нему",
     ["I hope the Goddess blesses me, that I can have a good night's Slumber..."] = "Я надеюсь, что Богиня благословит меня, и я смогу хорошо выспаться...",
     ["Lightning Head"] = "Молниеносная голова",
-    ["Pray to Mr. \"The Fool.\" He will guide your path forward."] = "Помолитесь господину «Дураку». Он укажет вам путь вперед.",
+    ["Pray to Mr. \"The Fool.\" He will guide your path forward."] = "Помолитесь господину «Шуту». Он укажет вам путь вперед.",
     ["Stealth Cover - Circle Radius 3"] = "Стелс-укрытие — радиус круга b",
     ["If, if it is possible, I also hope my parents can be resurrected."] = "Если, если это возможно, я также надеюсь, что мои родители смогут воскреснуть.",
     ["Cecil"] = "Сесил",

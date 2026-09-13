@@ -251,7 +251,7 @@ return {
     ["Come on, put something bad in one of the cups, but don't tell me."] = "Давай, положи что-нибудь плохое в одну из чашек, но не говори мне.",
     ["[May Manor-Simple] Hound - Tail Shot - Farthest 1 Target | Priority Output"] = "[May Manor-Simple] Hound — Выстрел в хвост — Самая дальняя 1 цель | Приоритетный выход",
     ["Portal Invincibility - Damage Immunity"] = "Неуязвимость портала - Иммунитет к урону",
-    ["Appearance Conversion"] = "Преобразование внешнего вида",
+    ["Appearance Conversion"] = "Смена облика",
     ["Open constellation puzzle"] = "Открытая головоломка созвездия",
     ["Contract: Shop failed, next station is not [Shop]"] = "Контракт: Магазин не удался, следующей станции нет [Магазин]",
     ["Check on Brandon's condition"] = "Проверить состояние Брэндона",

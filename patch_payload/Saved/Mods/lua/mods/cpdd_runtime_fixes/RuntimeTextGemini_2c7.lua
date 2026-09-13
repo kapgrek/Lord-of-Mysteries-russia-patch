@@ -73,7 +73,7 @@ return {
     ["Things at work have been making you feel quite uncomfortable, haven't they?"] = "Дела на работе заставляют тебя чувствовать себя довольно некомфортно, не так ли?",
     ["An Apprentice can open all doors, but not all doors are allowed to be entered."] = "Ученик может открыть все двери, но не во все двери можно войти.",
     ["Insufficient disk space. After clearing local resources, click Confirm to retry. (Error Code 1093)"] = "Недостаточно места на диске. После очистки локальных ресурсов нажмите «Подтвердить», чтобы повторить попытку. (Код ошибки 1093)",
-    ["Mr. \"Fool\" is a benevolent god, and Tingen is his starting point."] = "Мистер «Дурак» — доброжелательный бог, а Тинген — его отправная точка.",
+    ["Mr. \"Fool\" is a benevolent god, and Tingen is his starting point."] = "Мистер «Шут» — доброжелательный бог, а Тинген — его отправная точка.",
     ["Don't push me! I'm looking at the constellation Ellie belongs to, if you shake me any more, I won't be able to see clearly!"] = "Не дави на меня! Я смотрю на созвездие, к которому принадлежит Элли, если ты меня еще потрясешь, я не смогу ясно видеть!",
     ["How did I leave my notes here again..."] = "Как я снова оставил здесь свои записи...",
     ["Little one, is there anything else?"] = "Малыш, есть что-нибудь еще?",

@@ -210,7 +210,7 @@ return {
     ["When you lock onto a contradiction, you must confront your target with irrefutable \"evidence\"."] = "Когда вы зацикливаетесь на противоречии, вы должны предъявить своей цели неопровержимые «доказательства».",
     ["If it's Mr. Moon, he might get very angry when he hears you say vampire, and then tell you he is very angry, but he probably won't do anything else."] = "Если это мистер Мун, он может очень разозлиться, услышав, как вы говорите «вампир», а затем сказать вам, что он очень зол, но, вероятно, больше ничего не сделает.",
     ["That unlucky candle! It was distributed by the church for <P_Yellow> poverty relief </>. I specifically grabbed two extra, but they wouldn't light at all."] = "Эта несчастная свеча! Он был распространен церковью для помощи бедным <P_Yellow> </>. Я специально взял два дополнительных, но они вообще не горели.",
-    ["Praise the Fool! <P_Heart>(Why again...)</>"] = "Слава дураку! <P_Heart>(Почему опять...)</>",
+    ["Praise the Fool! <P_Heart>(Why again...)</>"] = "Слава Шуту! <P_Heart>(Почему опять...)</>",
     ["Secret Realm: Part I"] = "Тайное царство: Часть I",
     ["You are currently in a voice chat; cannot initiate a voice call."] = "Вы находитесь в голосовом чате; не может инициировать голосовой вызов.",
     ["Destroy the Heart of Steam!"] = "Уничтожьте Сердце Steam!",

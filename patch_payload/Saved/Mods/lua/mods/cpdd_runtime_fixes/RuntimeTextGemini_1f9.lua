@@ -57,7 +57,7 @@ return {
     ["Teleport Trap buff"] = "Усиление телепортационной ловушки",
     ["Modify current scene time"] = "Изменить текущее время сцены",
     ["Use to obtain <Highlight> Avatar: Golden Branch Forest Shadow </>"] = "Используйте для получения <Highlight> Avatar: Golden Branch Forest Shadow </>.",
-    ["Fool's Gambit"] = "Гамбит дурака",
+    ["Fool's Gambit"] = "Гамбит Шута",
     ["The Mirror Tingen is fraught with crises, and the mission to save Tingen continues. The subsequent main storyline will be available when the public beta begins; please look forward to it."] = "Зеркало Тинген чревато кризисами, и миссия по спасению Тингена продолжается. Последующая основная сюжетная линия будет доступна, когда начнется публичное бета-тестирование; пожалуйста, с нетерпением ждите этого.",
     ["Club Roaming Collection"] = "Клубный роуминг",
     ["Mysticism Clue B"] = "Подсказка мистицизма B",

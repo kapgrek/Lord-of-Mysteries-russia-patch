@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "115000",
     "source_cn": "心跳的声音，被封存在香气里。",
@@ -1191,7 +1191,7 @@
     "id": "115198",
     "source_cn": "<P_Heart>（微笑）</>我们得到了“愚者”先生的启示，知道你得到了神话织茧。",
     "ref_en": "<P_Heart> (Smiling) </> We received the revelation from Mr. \"The Fool\" and knew you had obtained the Mythical Cocoon.",
-    "target_ru": "<P_Heart> (Улыбаясь) </> Мы получили откровение от мистера «Дурака» и знали, что вы получили Мифический кокон."
+    "target_ru": "<P_Heart> (Улыбаясь) </> Мы получили откровение от мистера «Шута» и знали, что вы получили Мифический кокон."
   },
   {
     "id": "115199",
@@ -2823,7 +2823,7 @@
     "id": "115470",
     "source_cn": "“愚者”",
     "ref_en": "“The Fool”",
-    "target_ru": "«Дурак»"
+    "target_ru": "«Шут»"
   },
   {
     "id": "115471",
@@ -6003,7 +6003,7 @@
     "id": "116000",
     "source_cn": "“愚者”先生赐予的铁质卷烟盒，可以清除知识的污染……",
     "ref_en": "The iron cigarette case bestowed by Mr. Fool can clear the corruption of knowledge...",
-    "target_ru": "Железный портсигар, подаренный мистером Дураком, может очистить порчу знаний..."
+    "target_ru": "Железный портсигар, подаренный Мистеромом, может очистить порчу знаний..."
   },
   {
     "id": "116001",
@@ -8631,7 +8631,7 @@
     "id": "116438",
     "source_cn": "愚者……<P_Heart>（从未听说过的名号，但似乎隐含着可怕的隐秘与力量……不能再试探了，这太危险！）</>",
     "ref_en": "The Fool... <P_Heart>(A title I've never heard of, but it seems to imply terrifying secrets and power... I can't probe any further, it's too dangerous!)</>",
-    "target_ru": "Дурак... <P_Heart>(Название, о котором я никогда не слышал, но, кажется, оно подразумевает ужасающие секреты и силу... Я не могу исследовать дальше, это слишком опасно!) </>"
+    "target_ru": "Шут... <P_Heart>(Название, о котором я никогда не слышал, но, кажется, оно подразумевает ужасающие секреты и силу... Я не могу исследовать дальше, это слишком опасно!) </>"
   },
   {
     "id": "116439",
@@ -10371,7 +10371,7 @@
     "id": "116728",
     "source_cn": "赞美愚者！主的目光投向了你，至高的幸运将来临。紧握机遇，见证奇迹！",
     "ref_en": "Praise the Fool! The Lord's gaze has fallen upon you, and supreme fortune is coming. Seize the opportunity and witness a miracle!",
-    "target_ru": "Слава дураку! Взгляд Господа упал на вас, и приближается высшая удача. Воспользуйтесь возможностью и станьте свидетелем чуда!"
+    "target_ru": "Слава Шуту! Взгляд Господа упал на вас, и приближается высшая удача. Воспользуйтесь возможностью и станьте свидетелем чуда!"
   },
   {
     "id": "116729",
@@ -10773,7 +10773,7 @@
     "id": "116795",
     "source_cn": "愚者之梦-失控窥秘人-清除无用书架",
     "ref_en": "Fool's Dream-Out-of-control Seer-Clear Useless Bookshelf",
-    "target_ru": "Мечта дурака. Вышедшая из-под контроля Прозрачная бесполезная книжная полка."
+    "target_ru": "Мечта Шута. Вышедшая из-под контроля Прозрачная бесполезная книжная полка."
   },
   {
     "id": "116796",
@@ -12003,7 +12003,7 @@
     "id": "117000",
     "source_cn": "<Assistant_Title1>狗屎！</>\\n<Assistant_Title2>成就分类：</>剧情-时代百态\\n<Assistant_Title2>解锁条件：</>完成百态《愚者福音》。",
     "ref_en": "<Assistant_Title1>Holy Shit!</>\\n<Assistant_Title2>Achievement Category: </>Plot - Life in the Era\\n<Assistant_Title2>Unlock Condition: </>Complete the Life in the Era quest \"Gospel of the Fool\".",
-    "target_ru": "<Assistant_Title1>Черт! </>\n<Assistant_Title2>Категория достижения: </>Сюжет — разные времена \n<Assistant_Title2>Условия разблокировки: </>Завершить «Евангелие дураков» в различных формах."
+    "target_ru": "<Assistant_Title1>Черт! </>\n<Assistant_Title2>Категория достижения: </>Сюжет — разные времена \n<Assistant_Title2>Условия разблокировки: </>Завершить «Евангели Шута» в различных формах."
   },
   {
     "id": "117001",
@@ -19527,7 +19527,7 @@
     "id": "118254",
     "source_cn": "成就-愚者庇护",
     "ref_en": "Achievement: The Fool's Shelter",
-    "target_ru": "Достижение: Приют для дураков"
+    "target_ru": "Достижение: Приют Шута"
   },
   {
     "id": "118255",
@@ -19989,7 +19989,7 @@
     "id": "118331",
     "source_cn": "“愚者”先生为你嫁接的力量中，还包含常用的非凡能力。",
     "ref_en": "The power grafted for you by Mr. Fool also includes some commonly used Beyonder abilities.",
-    "target_ru": "Сила, переданная вам Мистером Дураком, также включает в себя некоторые часто используемые способности Потустороннего."
+    "target_ru": "Сила, переданная вам Мистеромом, также включает в себя некоторые часто используемые способности Потустороннего."
   },
   {
     "id": "118332",
@@ -20031,7 +20031,7 @@
     "id": "118338",
     "source_cn": "你看起来对基金会很感兴趣，它曾是愚者先生创立的，位于贝克兰德北区，佩斯菲尔街22号，有机会你也可以去那里看一看。",
     "ref_en": "You seem very interested in the Foundation. It was founded by Mr. Fool and is located at 22 Phelps Street in the North Borough of Backlund. If you have the chance, you should go take a look.",
-    "target_ru": "Похоже, вы очень заинтересованы в Фонде. Он был основан мистером Дураком и расположен по адресу Фелпс-стрит, 22 в северном районе Бэкланд. Если у вас есть возможность, вам стоит сходить и посмотреть."
+    "target_ru": "Похоже, вы очень заинтересованы в Фонде. Он был основан Мистеромом и расположен по адресу Фелпс-стрит, 22 в северном районе Бэкланд. Если у вас есть возможность, вам стоит сходить и посмотреть."
   },
   {
     "id": "118339",
@@ -24825,7 +24825,7 @@
     "id": "119137",
     "source_cn": "愚者眷顾",
     "ref_en": "Fool's Favor",
-    "target_ru": "Благосклонность дурака"
+    "target_ru": "Благосклонность Шута"
   },
   {
     "id": "119138",
@@ -26877,7 +26877,7 @@
     "id": "119479",
     "source_cn": "非凡知识",
     "ref_en": "Beyonder Knowledge",
-    "target_ru": "Потусторонние знания"
+    "target_ru": "Знания"
   },
   {
     "id": "119480",

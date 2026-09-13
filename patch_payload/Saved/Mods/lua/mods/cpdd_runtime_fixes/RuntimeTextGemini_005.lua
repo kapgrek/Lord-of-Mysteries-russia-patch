@@ -218,7 +218,7 @@ return {
     ["They all come with their own troubles and desires, and leave with groundless hopes and doubts."] = "Все они приходят со своими бедами и желаниями, а уходят с беспочвенными надеждами и сомнениями.",
     ["Rose Castle"] = "Замок Роуз",
     ["Tree of Abundance_5200138/5200139_Druid_Rectangular AOE*4"] = "Дерево изобилия_5200138/5200139_Druid_Rectangular AOE*b",
-    ["About Mr. Fool"] = "О мистере дураке",
+    ["About Mr. Fool"] = "О Мистерее",
     ["Easter Egg - Piano"] = "Пасхальное яйцо - Фортепиано",
     ["Night Emperor Flag 6"] = "Флаг Императора Ночи b",
     ["Skirt Pattern"] = "Выкройка юбки",

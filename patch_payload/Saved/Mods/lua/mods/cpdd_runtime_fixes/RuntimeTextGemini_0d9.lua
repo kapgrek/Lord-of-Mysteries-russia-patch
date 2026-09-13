@@ -225,7 +225,7 @@ return {
     ["For those who are not members of the gathering, you must not disclose the secrets of this place without my permission."] = "Тем, кто не является членом собрания, вы не должны раскрывать тайны этого места без моего разрешения.",
     ["Spectator Ultimate Phase 2 Spell Proxy (Discarded)"] = "Прокси заклинания Зритель Ultimate фазы 2 (выброшено)",
     ["'Inquisitor' Blake Speed Challenge"] = "«Инквизитор» Блейк Спид Челлендж",
-    ["Reimbursement Shop"] = "Возвратный магазин",
+    ["Reimbursement Shop"] = "Возвратный",
     ["Player Fixed Point After Eerie Transformation"] = "Фиксированная точка игрока после жуткой трансформации",
     ["A fragment of reality solidified in the long river of history, containing part of the essence of the Sealed Artifact itself. Using it will make the projection infinitely close to reality, at the cost of danger also descending along with it."] = "Фрагмент реальности, затвердевший в длинной реке истории, содержащий часть сущности самого Запечатанного Артефакта. Его использование сделает проекцию бесконечно близкой к реальности, ценой опасности, спускающейся вместе с ней.",
     ["Epic - Melissa Grade 3"] = "Эпично - Мелисса, 3 класс",

@@ -2133,7 +2133,7 @@
     "id": "040355",
     "source_cn": "“愚者”先生，您不觉得这种“聚会”很有意思吗？",
     "ref_en": "Mr. \"Fool\", don't you think this kind of \"gathering\" is very interesting?",
-    "target_ru": "Господин «Дурак», вам не кажется, что подобные «сборки» очень интересны?"
+    "target_ru": "Господин «Шут», вам не кажется, что подобные «сборки» очень интересны?"
   },
   {
     "id": "040356",
@@ -2823,7 +2823,7 @@
     "id": "040470",
     "source_cn": "获取秘偶",
     "ref_en": "Obtain marionette",
-    "target_ru": "Получить марионетку"
+    "target_ru": "Приручить"
   },
   {
     "id": "040471",
@@ -2991,7 +2991,7 @@
     "id": "040498",
     "source_cn": "<P_Heart>（赞美愚者！）</>",
     "ref_en": "<P_Heart>(Praise the Fool!)</>",
-    "target_ru": "<P_Heart>(Хвала дураку!)</>"
+    "target_ru": "<P_Heart>(Хвала Шуту!)</>"
   },
   {
     "id": "040499",
@@ -3147,7 +3147,7 @@
     "id": "040524",
     "source_cn": "发送信息“赞美愚者”",
     "ref_en": "Send message \"Praise the Fool\"",
-    "target_ru": "Отправить сообщение «Похвалите дурака»"
+    "target_ru": "Отправить сообщение «Похвалите Шута»"
   },
   {
     "id": "040525",
@@ -5655,7 +5655,7 @@
     "id": "040942",
     "source_cn": "此时退出愚者棋局，可能因为消极比赛而受到惩罚，是否继续？",
     "ref_en": "Exiting the Fool's Gambit now may result in a penalty for passive play. Do you want to continue?",
-    "target_ru": "Выход из «Гамбита дурака» теперь может привести к штрафу за пассивную игру. Хотите продолжить?"
+    "target_ru": "Выход из «Гамбита Шута» теперь может привести к штрафу за пассивную игру. Хотите продолжить?"
   },
   {
     "id": "040943",
@@ -7755,7 +7755,7 @@
     "id": "041292",
     "source_cn": "愚者福音未激活",
     "ref_en": "The Fool's Gospel is not activated.",
-    "target_ru": "Евангелие дураков не активировано."
+    "target_ru": "Евангели Шута не активировано."
   },
   {
     "id": "041293",
@@ -8481,7 +8481,7 @@
     "id": "041413",
     "source_cn": "对了，你说你是愚者的信徒，既然也来了……",
     "ref_en": "By the way, you said you are a believer of The Fool, and since you've come as well...",
-    "target_ru": "Кстати, ты сказал, что веришь в Дурака, и раз уж ты тоже пришел..."
+    "target_ru": "Кстати, ты сказал, что веришь в Шута, и раз уж ты тоже пришел..."
   },
   {
     "id": "041414",
@@ -9537,7 +9537,7 @@
     "id": "041589",
     "source_cn": "未来的旅途中，“愚者“先生会继续降下庇佑。赞美愚者！",
     "ref_en": "In your future journeys, Mr. Fool will continue to bestow His protection. Praise the Fool!",
-    "target_ru": "В ваших будущих путешествиях Мистер Шут продолжит защищать вас. Слава дураку!"
+    "target_ru": "В ваших будущих путешествиях Мистер продолжит защищать вас. Слава Шуту!"
   },
   {
     "id": "041590",
@@ -14769,7 +14769,7 @@
     "id": "042461",
     "source_cn": "“愚者”先生！你怎么会在这里？",
     "ref_en": "Mr. \"Fool\"! How are you here?",
-    "target_ru": "Господин «Дурак»! Как ты здесь?"
+    "target_ru": "Господин «Шут»! Как ты здесь?"
   },
   {
     "id": "042462",
@@ -18585,7 +18585,7 @@
     "id": "043097",
     "source_cn": "你在命运咖啡厅被“正义”小姐唤醒，看到窗外城市的生活图景，获知“愚者”先生的尊名后，踏入现实中的廷根市，苏茜将“正义”小姐馈赠的零花钱送给你。你通过汤姆购买报纸，了解时事，在“魔术师”女士帮助下开启旅行尖碑，但在追踪梦中男子时，遭遇邪神信徒围攻。幸好“星星”先生及时救场，并将一枚源于“愚者”先生的金币送给你。你们回到黑荆棘安保公司，在罗珊协助下，你签署合同成为正式员工，获赠入职大礼包，并拥有一辆脚踏车。",
     "ref_en": "You are awakened by Miss \"Justice\" at the Fate Café, see the life scenes of the city outside the window, and after learning the honorific name of Mr. Fool, you step into the real Tingen City, where Xio sends you the pocket money gifted by Miss \"Justice.\" You buy a newspaper through Tom to learn about current events, and with the help of Miss \"Magician,\" you open the travel stele, but while tracking the man from your dream, you are besieged by followers of the evil god. Fortunately, Mr. \"Star\" saves the day and gives you a gold coin originating from Mr. Fool. You return to Blackthorn Security Company, and with Rozanne's assistance, you sign a contract to become a formal employee, receive an onboarding gift package, and get a bicycle.",
-    "target_ru": "Вас будит Мисс «Справедливость» в кафе «Судьба», вы видите сцены из жизни города за окном и, узнав почетное имя мистера Дурак, вы попадаете в настоящий Тинген-Сити, где Ксио посылает вам карманные деньги, подаренные Мисс «Справедливость». осаждены последователями злого бога. К счастью, мистер «Звезда» спасает положение и дает вам золотую монету, принадлежащую мистеру Дураку. Вы возвращаетесь в охранную компанию Чёрный Чертополох и с помощью Розанны подписываете контракт, чтобы стать официальным сотрудником, получаете подарочный пакет и велосипед."
+    "target_ru": "Вас будит Мисс «Справедливость» в кафе «Судьба», вы видите сцены из жизни города за окном и, узнав почетное имя  Шута, вы попадаете в настоящий Тинген-Сити, где Ксио посылает вам карманные деньги, подаренные Мисс «Справедливость». осаждены последователями злого бога. К счастью, мистер «Звезда» спасает положение и дает вам золотую монету, принадлежащую Мистеруу. Вы возвращаетесь в охранную компанию Чёрный Чертополох и с помощью Розанны подписываете контракт, чтобы стать официальным сотрудником, получаете подарочный пакет и велосипед."
   },
   {
     "id": "043098",
@@ -19785,7 +19785,7 @@
     "id": "043297",
     "source_cn": "现在，它是你的了，“愚者”先生亲自为这件服饰赋予了神降的奇迹，好好珍藏它。",
     "ref_en": "Now, it is yours. Mr. Fool personally bestowed the miracle of divine descent upon this garment. Treasure it well.",
-    "target_ru": "Теперь оно ваше. Господин Дурак лично даровал этому одеянию чудо божественного происхождения. Берегите это хорошо."
+    "target_ru": "Теперь оно ваше. Господин Шут лично даровал этому одеянию чудо божественного происхождения. Берегите это хорошо."
   },
   {
     "id": "043298",
@@ -26997,7 +26997,7 @@
     "id": "044499",
     "source_cn": "citywalk-愚者祈祷（女厕所）",
     "ref_en": "Citywalk - Pray to The Fool (Women's Restroom)",
-    "target_ru": "Citywalk - Помолись дураку (женский туалет)"
+    "target_ru": "Citywalk - Помолись Шуту (женский туалет)"
   },
   {
     "id": "044500",

@@ -213,7 +213,7 @@ return {
     ["New recipe unlockable: Small Oil Painting Recipe"] = "Новый открываемый рецепт: Маленький рецепт масляной живописи.",
     ["You have quite a variety of vegetables here."] = "У вас здесь довольно разнообразные овощи.",
     ["Buy loofahs and get a recipe, here you go!"] = "Купите люфу и получите рецепт, вот и все!",
-    ["Take out The Fool card"] = "Достаньте карту дурака",
+    ["Take out The Fool card"] = "Достаньте карту Шута",
     ["I understand. This is the meaning of me being here tonight—to witness all of this."] = "Я понимаю. В этом смысл моего присутствия здесь сегодня вечером – чтобы стать свидетелем всего этого.",
     ["Clear_Player bots in this scene"] = "Боты Clear_Player в этой сцене",
     ["Placing..."] = "Размещение...",

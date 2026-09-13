@@ -77,7 +77,7 @@ return {
     ["Is the person who fired the shot the retired officer who was arguing with Shirley outside the door just now?"] = "Является ли тот, кто произвел выстрел, тем самым отставным офицером, который только что спорил с Ширли за дверью?",
     ["Night Emperor Point 1"] = "Император Ночи, точка b",
     ["Sniper NEW Pack"] = "Снайпер НОВЫЙ пакет",
-    ["Fool's Gospel Monthly Grace Flyer"] = "Ежемесячный флаер о благодати «Евангелия для дураков»",
+    ["Fool's Gospel Monthly Grace Flyer"] = "Ежемесячный флаер о благодати «Евангели Шута»",
     ["I admire your kindness. However, I must say—nothing is strange here, so you must be careful."] = "Я восхищаюсь вашей добротой. Однако должен сказать — здесь нет ничего странного, так что надо быть осторожным.",
     ["What is a general maid?"] = "Что такое обычная горничная?",
     ["Wrap-around designs always highlight a woman's grace. The human form is to clothing what a building's frame is to a structure."] = "Модели с запахом всегда подчеркивают грацию женщины. Человеческая форма для одежды — то же самое, что каркас здания для конструкции.",

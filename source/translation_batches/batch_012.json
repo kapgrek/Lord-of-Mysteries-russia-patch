@@ -1233,7 +1233,7 @@
     "id": "055205",
     "source_cn": "接下来，我会遵循“愚者”先生的启示，指引你喝下序列9魔药。",
     "ref_en": "Next, I will follow the revelation of Mr. Fool and guide you to drink the Sequence 9 potion.",
-    "target_ru": "Далее я последую откровению Мистера Дурака и помогу вам выпить зелье Последовательности 9."
+    "target_ru": "Далее я последую откровению Мистераа и помогу вам выпить зелье Последовательности 9."
   },
   {
     "id": "055206",
@@ -2301,7 +2301,7 @@
     "id": "055383",
     "source_cn": "<Assistant_Title1>获取秘偶</>\\n<Assistant_Title2>玩法说明：</>\\n“愚者”先生赐予的封印物<Assistant_Property1>乌托邦剧院</>，可以帮助非凡者获取并操控秘偶。\\n1、通过<Assistant_System>菜单-秘偶-获取秘偶</>可以进入<Assistant_Property1>乌托邦剧院</>，抽选<Assistant_Property2>秘偶</>，解锁对应秘偶技能。\\n2、乌托邦剧院戏台每次<Assistant_Property1>刷新</>会上架<Assistant_Red>3个</>秘偶，可供抽选。若抽选后戏台上只剩<Assistant_Red>紫色</>品质秘偶，戏台会自动刷新。\\n序幕抽选：消耗<Assistant_Property1>金纺线</>*3，从台上3个秘偶中随机获得1个。\\n中幕抽选：消耗<Assistant_Property1>金纺线</>*6，从台上剩余2个秘偶中随机获得1个。\\n落幕抽选：消耗<Assistant_Property1>金纺线</>*12，必定获得台上剩余的1个秘偶。\\n3、序幕抽选后，也可以主动<Assistant_Property1>放弃</>剩余秘偶，进行刷新。\\n4、进行<Assistant_Property1>秘偶许愿</>，选择特定的秘偶，可以提升该秘偶出现的概率。\\n5、重复获取的秘偶会转化为秘偶碎片，可用来进行<Assistant_Property1>秘偶培养</>，提升角色属性和增强秘偶技能。\\n6、秘偶培养达到上限后，溢出的<Assistant_Property1>秘偶碎片</>会转化为<Assistant_Property1>人偶发条</>，可以到<Assistant_Property1>秘偶商店</>兑换为其他道具。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[秘偶培养]|537}，{SendAnswer:[人偶发条]|543}，{SendAnswer:[秘偶商店]|545}",
     "ref_en": "<Assistant_Title1>Obtain Marionette</>\\n<Assistant_Title2>Gameplay Instructions: </>\\nThe Sealed Artifact <Assistant_Property1>Utopia Theater</> bestowed by Mr. Fool can help Beyonders obtain and control marionettes.\\n1. You can enter the <Assistant_System>Utopia Theater</> via <Assistant_Property1>Menu - Marionette - Obtain Marionette</> to draw <Assistant_Property2>marionettes</> and unlock corresponding Marionette Skills.\\n2. The Utopia Theater stage will <Assistant_Property1>refresh</> and list <Assistant_Red>3</> marionettes available for selection each time. If only <Assistant_Red>Purple</> quality marionettes remain on the stage after drawing, the stage will automatically refresh.\\nPrologue Draw: Consumes <Assistant_Property1>Gold Thread</>*3 to randomly obtain 1 of the 3 marionettes on stage.\\nInterlude Draw: Consumes <Assistant_Property1>Gold Thread</>*6 to randomly obtain 1 of the 2 remaining marionettes on stage.\\nCurtain Call Draw: Consumes <Assistant_Property1>Gold Thread</>*12 to guarantee obtaining the 1 remaining marionette on stage.\\n3. After the Prologue Draw, you can also choose to <Assistant_Property1>give up</> on the remaining marionettes and refresh.\\n4. Perform <Assistant_Property1>Marionette Wish</> and select a specific marionette to increase the probability of that marionette appearing.\\n5. Duplicate marionettes obtained will be converted into Marionette Shards, which can be used for <Assistant_Property1>Marionette Cultivation</> to increase character attributes and enhance Marionette Skills.\\n6. After Marionette Cultivation reaches the limit, excess <Assistant_Property1>Marionette Shards</> will be converted into <Assistant_Property1>Marionette Clockwork</>, which can be exchanged for other items in the <Assistant_Property1>Marionette Shop</>.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Marionette Cultivation]|537}, {SendAnswer:[Marionette Clockwork]|543}, {SendAnswer:[Marionette Shop]|545}",
-    "target_ru": "<Assistant_Title1>Получение марионетки</>\n<Assistant_Title2>Как играть: </>\nЗапечатанный предмет, данный мистером «Дураком»<Assistant_Property1>Театр Утопии</>, может помочь необыкновенным людям получить марионетку и управлять ею. \n1. Через меню <Assistant_System> - Секретная марионетка - Получить секретную марионетку </> вы можете войти в <Assistant_Property1> Театр Утопии </>, нарисовать <Assistant_Property2> Секретную марионетку </> и разблокировать соответствующие навыки Секретной марионетки. \n2. Каждый раз, когда <Assistant_Property1> обновляет </> сцену Театра Утопия, марионетки <Assistant_Red>3 </> будут доступны для рисования. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \n Лотерея пролога: используйте <Assistant_Property1>Золотую прядильную нить</>*3, чтобы случайным образом получить 1 марионетку из 3 марионеток на сцене. \n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \n3. После рисования пролога вы также можете активно <Assistant_Property1> отказаться от </> оставшихся марионеток и обновить их. \n4. Выполните <Assistant_Property1> «Секретные пожелания марионетки» </> и выберите определенную секретную марионетку, чтобы увеличить вероятность появления этой секретной марионетки. \n5. Марионетки, полученные повторно, будут преобразованы в фрагменты марионеток, которые можно будет использовать для <Assistant_Property1> тренировки марионеток</>, улучшения характеристик персонажей и улучшения навыков марионеток. \n6. После того, как обучение марионеток достигнет верхнего предела, переполненные <Assistant_Property1> фрагменты марионеток </> будут преобразованы в <Assistant_Property1> часовой механизм марионеток </>, который можно будет обменять на другие реквизиты в магазине марионеток <Assistant_Property1> </>. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Секретная тренировка кукол]|537}, {SendAnswer:[Кукольный механизм]|543}, {SendAnswer:[Секретный магазин кукол]|545}"
+    "target_ru": "<Assistant_Title1>Получение марионетки</>\n<Assistant_Title2>Как играть: </>\nЗапечатанный предмет, данный мистером «Шутом»<Assistant_Property1>Театр Утопии</>, может помочь необыкновенным людям получить марионетку и управлять ею. \n1. Через меню <Assistant_System> - Секретная марионетка - Получить секретную марионетку </> вы можете войти в <Assistant_Property1> Театр Утопии </>, нарисовать <Assistant_Property2> Секретную марионетку </> и разблокировать соответствующие навыки Секретной марионетки. \n2. Каждый раз, когда <Assistant_Property1> обновляет </> сцену Театра Утопия, марионетки <Assistant_Red>3 </> будут доступны для рисования. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \n Лотерея пролога: используйте <Assistant_Property1>Золотую прядильную нить</>*3, чтобы случайным образом получить 1 марионетку из 3 марионеток на сцене. \n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \n3. После рисования пролога вы также можете активно <Assistant_Property1> отказаться от </> оставшихся марионеток и обновить их. \n4. Выполните <Assistant_Property1> «Секретные пожелания марионетки» </> и выберите определенную секретную марионетку, чтобы увеличить вероятность появления этой секретной марионетки. \n5. Марионетки, полученные повторно, будут преобразованы в фрагменты марионеток, которые можно будет использовать для <Assistant_Property1> тренировки марионеток</>, улучшения характеристик персонажей и улучшения навыков марионеток. \n6. После того, как обучение марионеток достигнет верхнего предела, переполненные <Assistant_Property1> фрагменты марионеток </> будут преобразованы в <Assistant_Property1> часовой механизм марионеток </>, который можно будет обменять на другие реквизиты в магазине марионеток <Assistant_Property1> </>. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Секретная тренировка кукол]|537}, {SendAnswer:[Кукольный механизм]|543}, {SendAnswer:[Секретный магазин кукол]|545}"
   },
   {
     "id": "055384",
@@ -2373,7 +2373,7 @@
     "id": "055395",
     "source_cn": "“愚者”先生，您介意多几次现在这样的“尝试”吗？",
     "ref_en": "Mr. \"Fool\", do you mind having a few more \"attempts\" like this?",
-    "target_ru": "Господин «Дурак», вы не возражаете против еще нескольких подобных «попыток»?"
+    "target_ru": "Господин «Шут», вы не возражаете против еще нескольких подобных «попыток»?"
   },
   {
     "id": "055396",
@@ -3117,7 +3117,7 @@
     "id": "055519",
     "source_cn": "防御封印物",
     "ref_en": "Defense Sealed Artifact",
-    "target_ru": "Запечатанный Защитным Артефакт"
+    "target_ru": "Защитный"
   },
   {
     "id": "055520",
@@ -3999,7 +3999,7 @@
     "id": "055666",
     "source_cn": "这起初也有愚者的帮助。后来发现……<P_Heart>（眼神温和）</>这是保持人性最好的锚点之一。",
     "ref_en": "This initially had the help of The Fool as well. Later, I discovered... <P_Heart>(Eyes gentle)</> this is one of the best anchors to maintain humanity.",
-    "target_ru": "Первоначально в этом также помог Дурак. Позже я обнаружил... <P_Heart>(Нежные глаза)</> это один из лучших якорей для поддержания человечества."
+    "target_ru": "Первоначально в этом также помог Шут. Позже я обнаружил... <P_Heart>(Нежные глаза)</> это один из лучших якорей для поддержания человечества."
   },
   {
     "id": "055667",
@@ -10647,7 +10647,7 @@
     "id": "056774",
     "source_cn": "在教堂广场，用“神降”仪式向“愚者”先生祈求。当神灵降恩，奇迹诞生，你的愿望将会被实现。",
     "ref_en": "In the church square, use the 'divine descent' ritual to pray to Mr. Fool. When the God descends with grace and a miracle is born, your wish will be fulfilled.",
-    "target_ru": "На церковной площади используйте ритуал «божественного происхождения», чтобы помолиться мистеру Дураку. Когда Бог сойдет с благодатью и родится чудо, ваше желание исполнится."
+    "target_ru": "На церковной площади используйте ритуал «божественного происхождения», чтобы помолиться Мистеруу. Когда Бог сойдет с благодатью и родится чудо, ваше желание исполнится."
   },
   {
     "id": "056775",
@@ -10767,7 +10767,7 @@
     "id": "056794",
     "source_cn": "愚者资源（卡牌能量）",
     "ref_en": "Fool Resource (Card Energy)",
-    "target_ru": "Ресурс дурака (энергия карты)"
+    "target_ru": "Ресурс Шута (энергия карты)"
   },
   {
     "id": "056795",
@@ -13281,7 +13281,7 @@
     "id": "057213",
     "source_cn": "空气子弹释放时会召唤一个愚者礼帽，最多存在3个，存在8秒，礼帽持续发射子弹攻击附近的敌人。",
     "ref_en": "Casting Air Bullet summons a Fool's Top Hat (up to 3 can exist, lasting 8 seconds), which continuously fires bullets at nearby enemies.",
-    "target_ru": "Применение «Воздушной пули» вызывает цилиндр дурака (их может быть до 3, длительностью 8 секунд), который непрерывно стреляет пулями в ближайших врагов."
+    "target_ru": "Применение «Воздушной пули» вызывает цилиндр Шута (их может быть до 3, длительностью 8 секунд), который непрерывно стреляет пулями в ближайших врагов."
   },
   {
     "id": "057214",
@@ -16599,7 +16599,7 @@
     "id": "057766",
     "source_cn": "光明在愚者雕像周围缓缓旋转，最多十道，实时流转。",
     "ref_en": "The light rotates slowly around the Fool statue, with up to ten rays flowing in real-time.",
-    "target_ru": "Свет медленно вращается вокруг статуи Дурака, излучая до десяти лучей в реальном времени."
+    "target_ru": "Свет медленно вращается вокруг Стату Шута, излучая до десяти лучей в реальном времени."
   },
   {
     "id": "057767",
@@ -22767,7 +22767,7 @@
     "id": "058794",
     "source_cn": "724序章-愚者尊名替代",
     "ref_en": "724 Prologue-The Fool's Honorific Name Replacement",
-    "target_ru": "724 Пролог. Замена почетного имени дурака."
+    "target_ru": "724 Пролог. Замена почетного имени Шута."
   },
   {
     "id": "058795",
@@ -22809,7 +22809,7 @@
     "id": "058801",
     "source_cn": "“愚者”派其眷者格尔曼·斯帕罗，行于神弃之地，传播主的光辉，带来光明与温暖。",
     "ref_en": "“Fool” sends his Blessed, Gehrman Sparrow, to walk in the Forsaken Land of the Gods, spreading the Lord's radiance and bringing light and warmth.",
-    "target_ru": "«Дурак» отправляет своего Блаженного, Германа Воробья, гулять по Забытой Земле Богов, распространяя сияние Господа и принося свет и тепло."
+    "target_ru": "«Шут» отправляет своего Блаженного, Германа Воробья, гулять по Забытой Земле Богов, распространяя сияние Господа и принося свет и тепло."
   },
   {
     "id": "058802",
@@ -29247,7 +29247,7 @@
     "id": "059874",
     "source_cn": "愚者福音（月卡）",
     "ref_en": "Fool's Gospel (Monthly Card).",
-    "target_ru": "Евангелие для дураков (ежемесячная карта)."
+    "target_ru": "Евангели Шута (ежемесячная карта)."
   },
   {
     "id": "059875",
@@ -29859,7 +29859,7 @@
     "id": "059976",
     "source_cn": "基础",
     "ref_en": "Basic",
-    "target_ru": "Базовый"
+    "target_ru": "Список"
   },
   {
     "id": "059977",

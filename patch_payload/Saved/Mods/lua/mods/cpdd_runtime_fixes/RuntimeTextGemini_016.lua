@@ -157,7 +157,7 @@ return {
     ["Xinxiang"] = "Синьсян",
     ["Clean the Toilet"] = "Вынести туалет",
     ["[Emoji 145]"] = "[Выражение 145]",
-    ["Fool's Dream - Mystery Pryer Projection - Forward Sight"] = "Мечта дурака - Проекция тайного наблюдателя - Взгляд вперед",
+    ["Fool's Dream - Mystery Pryer Projection - Forward Sight"] = "Мечта Шута - Проекция тайного наблюдателя - Взгляд вперед",
     ["Pick up notebook"] = "_\n\nсобирать заметки",
     ["Based on your current Sequence, randomly receive a Potion Material Reward Box or a certain amount of Bound Soule. (There is a shared weekly limit for tradable potion materials obtained from Dungeons, Competition, and Travel.)"] = "В зависимости от текущей последовательности вы случайным образом получите коробку с материалами для зелий или определенное количество связанных сулеров. (Общее количество продаваемых материалов для зелий, полученных в подземельях, соревнованиях и путешествиях, ограничено.)",
     ["Strange, at this hour, who is still in the archives?"] = "Странно, в этот час кто еще находится в архивах?",

@@ -31,7 +31,7 @@ return {
     ["Life Steal (Auto-Chess)"] = "Кража жизни (авто-шахматы)",
     ["Moretti's Pot"] = "Горшок Моретти",
     ["Beyonder Creature 10-Person Upgrade Damage Reduction"] = "Уменьшение урона при улучшении Потусторонний Creature для 10 человек",
-    ["A gift from The Fool"] = "Подарок от дурака",
+    ["A gift from The Fool"] = "Подарок от Шута",
     ["%s War Zone"] = "Зона боевых действий %s",
     ["Take <h>Hailey</> to find <h>Irene</>"] = "Возьмите <h>Hailey</>, чтобы найти <h>Irene</>.",
     ["Belin "] = "Белин",

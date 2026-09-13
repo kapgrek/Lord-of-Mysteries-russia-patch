@@ -230,7 +230,7 @@ return {
     ["Health recovery increased by 100%"] = "Восстановление здоровья увеличено на 100%.",
     ["Tonight, you drink and dance with the witch, spending a wonderful evening..."] = "Сегодня вечером ты выпьешь и потанцуешь с ведьмой, проведя чудесный вечер...",
     ["NPC_Air 1"] = "NPC_Воздух 1",
-    ["...So, you used the Gospel of the Fool to exchange for others to complete your thesis?"] = "...Значит, вы использовали Евангелие от дурака, чтобы обменять его на других, чтобы завершить свою диссертацию?",
+    ["...So, you used the Gospel of the Fool to exchange for others to complete your thesis?"] = "...Значит, вы использовали Евангели Шута, чтобы обменять его на других, чтобы завершить свою диссертацию?",
     ["Is anyone there? Someone here needs help—"] = "Есть кто-нибудь здесь? Кому-то здесь нужна помощь…",
     ["Which day, what happened?"] = "В какой день, что произошло?",
     ["Birthday party... it's nice to relax occasionally."] = "День рождения... приятно иногда расслабиться.",

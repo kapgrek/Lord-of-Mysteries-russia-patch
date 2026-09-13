@@ -180,7 +180,7 @@ return {
     ["Golden Legend"] = "Золотая легенда",
     ["Can be used for the cultivation of the marionette Star Worm · Slash."] = "Можно использовать для выращивания марионетки Звездный червь · Слэш.",
     ["Gray Fog test recharge refund rules"] = "Правила возврата пополнения счета за тест Серый Туман",
-    ["Quest: Gospel of the Fool"] = "Квест: Евангелие от дурака",
+    ["Quest: Gospel of the Fool"] = "Квест: Евангели Шута",
     ["Leon's Letter"] = "Письмо Леона",
     ["It is said to be a wine loved by elves, brewed from the sweet wood sap unique to the area around the Golden Spring."] = "Говорят, что это любимое эльфами вино, сваренное из сладкого древесного сока, уникального для региона Золотого источника.",
     ["If you become a government employee handling specific affairs, how much will our family income increase?"] = "Если вы станете государственным служащим, занимающимся конкретными делами, насколько увеличится доход нашей семьи?",

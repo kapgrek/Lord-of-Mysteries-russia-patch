@@ -70,7 +70,7 @@ return {
     ["Good night, Klein Moretti."] = "Спокойной ночи, Клейн Моретти.",
     ["Rare products manufactured by the Castle Workshop, which can be used for: Castle market acquisitions, Railroad Tycoon."] = "Редкие продукты, производимые Замковой Мастерской, которые можно использовать для: Приобретений на рынке Замка, Железнодорожного магната.",
     ["Holy Light Protection"] = "Покровительство Священного Света",
-    ["So it seems that you all respect Mr. Fool very much now?"] = "Итак, кажется, вы все теперь очень уважаете господина Дурака?",
+    ["So it seems that you all respect Mr. Fool very much now?"] = "Итак, кажется, вы все теперь очень уважаете господина Шута?",
     ["The game is over. For the glory of the Sanguine, come back with me. We need your talent."] = "Игра окончена. Во славу Сангвиника, вернись со мной. Нам нужен ваш талант.",
     ["0: Follow state end, 1: Follow skill end, 2: Do not end."] = "0: Следовать за завершением состояния, 1: Следовать за завершением навыка, 2: Не завершать.",
     ["Jenny has disappeared..."] = "Дженни исчезла...",

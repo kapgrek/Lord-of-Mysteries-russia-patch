@@ -211,7 +211,7 @@ return {
     ["A rare match..."] = "Редкое совпадение...",
     ["Use skill: <Highlight>Praise the Sun</> %s/%s times"] = "Используйте навык: <Highlight>Похвалите Солнце</> %s/%s раз.",
     ["Initially gain 3 Charm points"] = "Первоначально получите 3 очка обаяния.",
-    ["I think you should know that the Forsaken Land of the Gods was able to end its millennium-long suffering under the protection of the \"Fool\"."] = "Я думаю, вам следует знать, что Заброшенная Земля Богов смогла положить конец своим тысячелетним страданиям под защитой «Дурака».",
+    ["I think you should know that the Forsaken Land of the Gods was able to end its millennium-long suffering under the protection of the \"Fool\"."] = "Я думаю, вам следует знать, что Заброшенная Земля Богов смогла положить конец своим тысячелетним страданиям под защитой «Шута».",
     ["Performance - Model Hidden"] = "Производительность – модель скрыта",
     ["Go find <h>Old Neil</>"] = "Найдите <h>Старина Нил</>.",
     ["Quest Atmosphere Function"] = "Функция атмосферы квеста",

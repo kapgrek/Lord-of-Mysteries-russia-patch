@@ -214,7 +214,7 @@ return {
     ["That opportunity probably doesn't exist. She is very afraid of contact with the outside world, even though she is such a lonely person..."] = "Такой возможности, вероятно, не существует. Она очень боится контакта с внешним миром, хотя она такой одинокий человек...",
     ["Warrior - Hurricane of Light (Offense) - Detonate Debuff Damage"] = "Воин — Ураган Света (Атака) — Урон от детонационного ослабления",
     ["Effect_Entrance Door"] = "Effect_Входная дверь",
-    ["Mr. Fool is a true god recognized by all churches, and the successful construction of the Tarot Academy was also thanks to his help."] = "Господин Дурак – истинный бог, признанный всеми церквями, и успешное строительство Академии Таро также произошло благодаря его помощи.",
+    ["Mr. Fool is a true god recognized by all churches, and the successful construction of the Tarot Academy was also thanks to his help."] = "Господин Шут – истинный бог, признанный всеми церквями, и успешное строительство Академии Таро также произошло благодаря его помощи.",
     ["Wandering Maid"] = "Странствующая горничная",
     ["...I was fired."] = "...Меня уволили.",
     ["Sequence 2"] = "Последовательность 2",

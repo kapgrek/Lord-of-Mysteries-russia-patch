@@ -250,7 +250,7 @@ return {
     ["The Witch and the Beast - Act 2: Setting Up the Hospital Scene"] = "Ведьма и чудовище. Акт 2: Оформление сцены в больнице",
     ["Mist Line"] = "Линия тумана",
     ["Yes, this {{Sir|Madam}}. I am about to return to Backlund with the young master..."] = "Да, это {{Sir|Madam}}. Я собираюсь вернуться в Бэкланд с молодым мастером...",
-    ["My Lord calls himself \"The Fool\". In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who holds good luck, and the beacon for every living being pursuing eternity."] = "Милорд называет себя «Дураком». В прошлом, настоящем и будущем он — великий правитель, господствующий в мире духов, Король Желтого и Черного, несущий удачу, и маяк для каждого живого существа, стремящегося к вечности.",
+    ["My Lord calls himself \"The Fool\". In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who holds good luck, and the beacon for every living being pursuing eternity."] = "Милорд называет себя «Шутом». В прошлом, настоящем и будущем он — великий правитель, господствующий в мире духов, Король Желтого и Черного, несущий удачу, и маяк для каждого живого существа, стремящегося к вечности.",
     ["I suppose so, he helped me, perhaps..."] = "Наверное, да, он мне помог, возможно...",
     ["I will take you to some familiar places; perhaps that will help you remember something."] = "Я отвезу тебя в знакомые места; возможно, это поможет вам что-то вспомнить.",
     ["She kept all these in her heart, thinking: One day, I will touch the sun."] = "Она хранила все это в своем сердце, думая: «Однажды я прикоснусь к солнцу».",

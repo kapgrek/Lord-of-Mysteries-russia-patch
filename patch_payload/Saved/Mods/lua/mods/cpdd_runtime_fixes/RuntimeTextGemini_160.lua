@@ -210,7 +210,7 @@ return {
     ["Oh no, can't let them catch up!"] = "О нет, нельзя позволить им догнать!",
     ["That is how I became who I am today, {{Mr.|Ms.}}."] = "Так я стал тем, кем являюсь сегодня, {{Mr.|Ms.}}.",
     ["Spectator Healing Basic Attack"] = "Базовая атака исцеления зрителя",
-    ["Of course, this is a quest assigned to me by Bishop Derrick, to write a new chapter for the \"Book of the Fool\"."] = "Конечно, епископ Деррик поручил мне написать новую главу «Книги дурака».",
+    ["Of course, this is a quest assigned to me by Bishop Derrick, to write a new chapter for the \"Book of the Fool\"."] = "Конечно, епископ Деррик поручил мне написать новую главу «Книги Шута».",
     ["Brazier 4"] = "Мангал b",
     ["Vicious Dog"] = "Злой пес",
     ["So fast? You aren't lying, are you?"] = "Так быстро? Ты не лжешь, да?",

@@ -176,7 +176,7 @@ return {
     ["Poor wretches."] = "Бедняги.",
     ["Industry x2"] = "Промышленность x2",
     ["Deep Valley of Dreams"] = "Глубокая долина снов",
-    ["Gospel of the Fool"] = "Евангелие от дурака",
+    ["Gospel of the Fool"] = "Евангели Шута",
     ["【40】 Into the pocket"] = "【40】 В карман",
     ["Stage challenge successful."] = "Этапное испытание успешно выполнено.",
     ["While Flesh Shadow is active, taking damage inflicts an Attack reduction effect on the attacker for 2 seconds. This effect can only trigger once per second on the same target."] = "Пока действует «Тень плоти», получение урона накладывает на атакующего эффект снижения атаки на 2 секунды. Этот эффект может срабатывать только один раз в секунду на одной и той же цели.",

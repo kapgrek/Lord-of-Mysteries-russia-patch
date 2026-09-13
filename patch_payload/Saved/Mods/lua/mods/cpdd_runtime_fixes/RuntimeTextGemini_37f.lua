@@ -75,7 +75,7 @@ return {
     ["The monster dissipates"] = "Монстр рассеивается",
     ["Can see through disguises or create illusions."] = "Может видеть сквозь маскировку или создавать иллюзии.",
     ["Once this week's salary comes in, I'm going to buy a glass of Southwell beer!"] = "Как только придет зарплата на этой неделе, я куплю стакан пива Southwell!",
-    ["Special"] = "Особенный",
+    ["Special"] = "Особенные",
     ["You look very angry"] = "Ты выглядишь очень злым",
     ["Slow Block_Value"] = "Медленный блок_значение",
     ["No Double"] = "Нет двойного номера",

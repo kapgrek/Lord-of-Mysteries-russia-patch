@@ -206,7 +206,7 @@ return {
     ["Cave Entrance"] = "Вход в пещеру",
     ["Luckiest:"] = "Самый удачливый:",
     ["Priest of Light Potion"] = "Жрец легкого зелья",
-    ["Title: The Fool's Fellow Countryman"] = "Название: Земляк дурака",
+    ["Title: The Fool's Fellow Countryman"] = "Название: Земляк Шута",
     ["Judgment Chamber"] = "Судебная палата",
     ["Player Follow"] = "Следовать за игроком",
     ["Trigger - Enter house in dream"] = "Триггер – Войти в дом во сне",

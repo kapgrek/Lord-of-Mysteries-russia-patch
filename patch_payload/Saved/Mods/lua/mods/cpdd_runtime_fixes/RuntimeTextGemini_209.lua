@@ -215,7 +215,7 @@ return {
     ["Ah! My beloved sun—your radiance shines..."] = "Ах! Мое любимое солнышко, сияет твое сияние...",
     ["Goddess... is there really such a thing? Was their wealth just a facade?"] = "Богиня... неужели такое существует? Было ли их богатство всего лишь фасадом?",
     ["Hot Potato · Hard"] = "Горячий картофель · Твёрдый",
-    ["Sit at the Fool's seat to perform divination."] = "Сядьте на место дурака и выполните гадание.",
+    ["Sit at the Fool's seat to perform divination."] = "Сядьте на место Шута и выполните гадание.",
     ["Hey {{sir|madam}}, need a ride? If not, do you need anything delivered?"] = "Эй, {{sir|madam}}, тебе нужно подвезти? Если нет, нужно ли вам что-нибудь доставить?",
     ["You struggle to wake up and find yourself in a strange space, \n and not far away is a familiar figure—Mr. Fool."] = "Изо всех сил вы пытаетесь прийти в себя и обнаруживаете, что находитесь в диковинном пространстве,\nа неподалеку виднеется знакомый силуэт — господин Шут.",
     ["Waz"] = "Ваз",

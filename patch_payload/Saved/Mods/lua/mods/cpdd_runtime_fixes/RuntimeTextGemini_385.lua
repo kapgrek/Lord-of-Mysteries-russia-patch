@@ -38,7 +38,7 @@ return {
     ["City Quest: The Best of Times"] = "Городской квест: Лучшие времена",
     ["Log in for a total of 5 days"] = "Войти в общей сложности 5 дней",
     ["Group name set successfully."] = "Имя группы успешно установлено.",
-    ["That is exactly what we were hoping for. Mr. Fool, may I ask what the corresponding incantation is?"] = "Это именно то, на что мы надеялись. Господин Дурак, могу ли я спросить, что это за заклинание?",
+    ["That is exactly what we were hoping for. Mr. Fool, may I ask what the corresponding incantation is?"] = "Это именно то, на что мы надеялись. Господин Шут, могу ли я спросить, что это за заклинание?",
     ["The murderer?"] = "Убийца?",
     ["Then... buy a genuine copy of \"The Great Adventurer\" and read it again. I can't keep misleading myself with a pirated book."] = "Тогда... купите подлинный экземпляр «Великого искателя приключений» и прочитайте его еще раз. Я не могу продолжать вводить себя в заблуждение пиратской книгой.",
     ["Insight is not a gift; it is the accumulation of countless moments of Silence."] = "Проницательность – это не дар; это накопление бесчисленных мгновений Тишины.",

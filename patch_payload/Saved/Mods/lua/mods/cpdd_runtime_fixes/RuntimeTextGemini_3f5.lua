@@ -96,7 +96,7 @@ return {
     ["They were all left behind by the people before."] = "Все они раньше были оставлены людьми.",
     ["But how could there be no grave? I buried David with my own hands, and I carved the epitaph myself..."] = "Но как могло не быть могилы? Я похоронил Давида своими руками и сам вырезал эпитафию...",
     ["But, I remember you like watching the circus the most?"] = "Но я помню, тебе больше всего нравится смотреть цирк?",
-    ["Actually, this is also the revelation of Mr. Fool; He is always so thoughtful. Maybe... because I have never lacked money, I always forget how important money is to a new Beyonder."] = "Собственно, это тоже откровение господина Дурака; Он всегда такой задумчивый. Возможно... потому что у меня никогда не было недостатка в деньгах, я всегда забываю, насколько важны деньги для нового Потустороннего.",
+    ["Actually, this is also the revelation of Mr. Fool; He is always so thoughtful. Maybe... because I have never lacked money, I always forget how important money is to a new Beyonder."] = "Собственно, это тоже откровение господина Шута; Он всегда такой задумчивый. Возможно... потому что у меня никогда не было недостатка в деньгах, я всегда забываю, насколько важны деньги для нового Потустороннего.",
     ["Give up for now"] = "Сдавайся пока",
     ["First Aid Master"] = "Мастер первой помощи",
     ["Generate 1 video using the Art School"] = "Создайте 1 видео с помощью Художественной школы.",

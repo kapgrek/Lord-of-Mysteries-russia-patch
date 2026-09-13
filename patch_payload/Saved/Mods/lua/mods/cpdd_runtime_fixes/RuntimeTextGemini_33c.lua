@@ -87,7 +87,7 @@ return {
     ["Anthea is about to fall into fear; pay attention to healing and protection!"] = "Антея вот-вот впадет в страх; обратите внимание на исцеление и защиту!",
     ["Resident 1"] = "Резидент b",
     ["Break the link!"] = "Разорви ссылку!",
-    ["I know, I also believe in Mr. Fool, I am his believer."] = "Я знаю, я тоже верю в господина дурака, я его верующий.",
+    ["I know, I also believe in Mr. Fool, I am his believer."] = "Я знаю, я тоже верю в господина Шута, я его верующий.",
     ["Knowing too much is not wisdom; discard parts of the truth when necessary."] = "Знать слишком много — это не мудрость; отбрасывайте части истины, когда это необходимо.",
     ["Magda"] = "Магда",
     ["Release Condition"] = "Условия выпуска",

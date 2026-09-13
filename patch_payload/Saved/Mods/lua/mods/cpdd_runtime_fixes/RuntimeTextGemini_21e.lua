@@ -204,7 +204,7 @@ return {
     ["Only %s seconds left to escape through the window"] = "Осталось всего %s секунд, чтобы сбежать через окно.",
     ["The stars have shifted, and the Spirit World has sprinkled a faint light for the lucky ones. {{player.name}} has obtained the divine descent material—{{item.name}}—among the thousands of stars!"] = "Звезды сместились, и Мир Духов озарил счастливчиков слабым светом. {{player.name}} получил материал божественного происхождения — {{item.name}} — среди тысяч звезд!",
     ["Did Daisy fake her death?"] = "Дейзи инсценировала свою смерть?",
-    ["As a secret organization, our titles should be consistent, and Mr. Fool's name comes from the Tarot cards... It's decided!"] = "Как секретная организация, наши титулы должны совпадать, а имя Мистера Дурак происходит от карт Таро... Решено!",
+    ["As a secret organization, our titles should be consistent, and Mr. Fool's name comes from the Tarot cards... It's decided!"] = "Как секретная организация, наши титулы должны совпадать, а имя  Шута происходит от карт Таро... Решено!",
     ["Torrential Dispersion"] = "Бурное рассеивание",
     ["Blackthorn Casebook 4 - Level 1 - Beyonder ability seal"] = "Книга дел Блэкторна 4 — Уровень 1 — Печать способности Потусторонний",
     ["Id (Target Filter)"] = "Идентификатор (целевой фильтр)",

@@ -3219,7 +3219,7 @@
     "id": "095536",
     "source_cn": "特殊",
     "ref_en": "Special",
-    "target_ru": "Особенный"
+    "target_ru": "Особенные"
   },
   {
     "id": "095537",
@@ -3453,7 +3453,7 @@
     "id": "095575",
     "source_cn": "<P_Heart>（“愚者”先生？！罗珊的婚事居然要过问一位真神？！）</>",
     "ref_en": "<P_Heart> (Mr. 'Fool'?! Rozanne's marriage actually needs to be consulted by a True God?!) </>",
-    "target_ru": "<P_Heart> (Мистер «Дурак»?! Истинный Бог действительно должен посоветоваться с браком Розанны?!) </>"
+    "target_ru": "<P_Heart> (Мистер «Шут»?! Истинный Бог действительно должен посоветоваться с браком Розанны?!) </>"
   },
   {
     "id": "095576",
@@ -11571,7 +11571,7 @@
     "id": "096928",
     "source_cn": "愚者祝福特效",
     "ref_en": "Fool's Blessing effect",
-    "target_ru": "Эффект «Благословение дурака»"
+    "target_ru": "Эффект «Благословени Шута»"
   },
   {
     "id": "096929",
@@ -13017,7 +13017,7 @@
     "id": "097169",
     "source_cn": "向愚者祈祷",
     "ref_en": "Pray to the Fool",
-    "target_ru": "Молитесь дураку"
+    "target_ru": "Молитесь Шуту"
   },
   {
     "id": "097170",
@@ -13161,7 +13161,7 @@
     "id": "097193",
     "source_cn": "愚者。",
     "ref_en": "The Fool.",
-    "target_ru": "Дурак."
+    "target_ru": "Шут."
   },
   {
     "id": "097194",
@@ -13221,7 +13221,7 @@
     "id": "097203",
     "source_cn": "按下 <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/> <Orange>愚者祝福</>、<img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>空气子弹</>、<img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>塔罗牌阵</>、<img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>奇迹牌雨</>、<img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>灵性爆发</> 完成连招",
     "ref_en": "Press <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/> to complete the combo: <Orange>Fool's Blessing</>, <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Air Bullet</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>Tarot Array</>, <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>Miracle Card Rain</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Spirituality Burst</>.",
-    "target_ru": "Нажмите <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/>, чтобы завершить комбо: <Orange>Благословение дурака</>, <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Воздушная пуля</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>TArray</>, <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>Чудо-карта Rain</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Всплеск духовности</>."
+    "target_ru": "Нажмите <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/>, чтобы завершить комбо: <Orange>Благословени Шута</>, <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Воздушная пуля</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>TArray</>, <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>Чудо-карта Rain</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Всплеск духовности</>."
   },
   {
     "id": "097204",
@@ -14661,7 +14661,7 @@
     "id": "097443",
     "source_cn": "您好！能占用一下您的时间吗！我想给您讲一讲我们的道标和救主！愚者先……愚者喵先生！",
     "ref_en": "Hello! Can I take a moment of your time? I want to tell you about our beacon and savior! The Fool fir... Mr. Fool Meow!",
-    "target_ru": "Привет! Могу я занять минутку вашего времени? Я хочу рассказать вам о нашем маяке и спасителе! Дурак... Мистер Шут Мяу!"
+    "target_ru": "Привет! Могу я занять минутку вашего времени? Я хочу рассказать вам о нашем маяке и спасителе! Шут... Мистер Мяу!"
   },
   {
     "id": "097444",
@@ -20655,7 +20655,7 @@
     "id": "098442",
     "source_cn": "塔罗学派中被“愚者”用灰雾封印的“屏障碎片”，蕴藏着“原初”造物主残留的力量——即九种不同领域的非凡力量。\\n\\n塔罗学派成员可以通过“密契仪式”，调整自己身心灵的状态，提升与“屏障碎片”中不同领域能力的契合程度，形成自己的“密契非凡觉醒”，增强自身各项非凡能力。\\n\\n但这种方式也蕴含着污染和风险。除了与自身非凡途径原本就契合的一个“密契领域”之外，每位非凡者还最多可以额外密契另一个领域。选择发展不同的“密契非凡天赋”，对相应领域能力的掌握也会有所不同。",
     "ref_en": "The \"Barrier Fragments\" sealed by \"The Fool\" with the gray fog in the Tarot Club contain the residual power of the \"Original\" Creator—that is, Beyonder powers from nine different domains. \\n\\n Tarot Club members can use the \"Mystic Rite\" to adjust their body, mind, and spirit, increasing their compatibility with the different domain powers in the \"Barrier Fragments\" to form their own \"Mystic Beyonder Awakening\" and enhance their various Beyonder abilities. \\n\\n However, this method also carries corruption and risks. In addition to the one \"Mystic Domain\" that is naturally compatible with their own Beyonder pathway, each Beyonder can additionally mysticize at most one other domain. Choosing to develop different \"Mystic Beyonder Talents\" will result in different levels of mastery over the corresponding domain's abilities.",
-    "target_ru": "В Школе Таро «осколки барьера», запечатанные «Дураком» серым туманом, содержат в себе оставшуюся силу «изначального» Творца – то есть необыкновенную силу девяти различных полей. \n\n Члены Школы Таро могут корректировать свой физический, ментальный и духовный статус посредством «Церемонии Тайного Контракта», улучшать совместимость со способностями в различных областях в «Фрагментах Барьера», формировать свой собственный «Тайный Контракт Чрезвычайного Пробуждения» и усиливать свои различные экстраординарные способности. \n\nНо этот метод также содержит загрязнения и риски. В дополнение к «секретному домену», который уже соответствует его или ее собственному необычному пути, каждый необычный человек может также иметь до одного дополнительного секретного домена. Выбор развития различных «тайных экстраординарных талантов» приведет к различному овладению способностями в соответствующих областях."
+    "target_ru": "В Школе Таро «осколки барьера», запечатанные «Шутом» серым туманом, содержат в себе оставшуюся силу «изначального» Творца – то есть необыкновенную силу девяти различных полей. \n\n Члены Школы Таро могут корректировать свой физический, ментальный и духовный статус посредством «Церемонии Тайного Контракта», улучшать совместимость со способностями в различных областях в «Фрагментах Барьера», формировать свой собственный «Тайный Контракт Чрезвычайного Пробуждения» и усиливать свои различные экстраординарные способности. \n\nНо этот метод также содержит загрязнения и риски. В дополнение к «секретному домену», который уже соответствует его или ее собственному необычному пути, каждый необычный человек может также иметь до одного дополнительного секретного домена. Выбор развития различных «тайных экстраординарных талантов» приведет к различному овладению способностями в соответствующих областях."
   },
   {
     "id": "098443",
@@ -21711,7 +21711,7 @@
     "id": "098618",
     "source_cn": "这么久的时间，您一定和“愚者”先生经历过许多不同寻常的事。",
     "ref_en": "Over such a long time, you must have experienced many extraordinary things with Mr. Fool.",
-    "target_ru": "За такое долгое время вы, должно быть, пережили много необычных вещей с мистером Дураком."
+    "target_ru": "За такое долгое время вы, должно быть, пережили много необычных вещей с Мистеромом."
   },
   {
     "id": "098619",
@@ -21975,7 +21975,7 @@
     "id": "098662",
     "source_cn": "向愚者雕像请求",
     "ref_en": "Pray to the Fool Statue",
-    "target_ru": "Помолитесь статуе дурака"
+    "target_ru": "Помолитесь Стату Шута"
   },
   {
     "id": "098663",
@@ -22125,7 +22125,7 @@
     "id": "098687",
     "source_cn": "愚者牌",
     "ref_en": "Fool Card",
-    "target_ru": "Карта дурака"
+    "target_ru": "Карта Шута"
   },
   {
     "id": "098688",
@@ -23565,7 +23565,7 @@
     "id": "098927",
     "source_cn": "对面端坐优雅的贵族少女奥黛丽，身旁趴一只金毛大狗。\\n少女手旁桌上，静静放一张愚者牌。",
     "ref_en": "Opposite you sits the elegant noble lady Audrey, with a large golden retriever lying beside her. \\n On the table next to the girl, a Fool card rests quietly.",
-    "target_ru": "Одри, элегантная аристократическая девушка, сидела напротив, а рядом с ней лежала большая собака золотистого ретривера. \n На столе рядом с девочкой незаметно лежала карта Дурака."
+    "target_ru": "Одри, элегантная аристократическая девушка, сидела напротив, а рядом с ней лежала большая собака золотистого ретривера. \n На столе рядом с девочкой незаметно лежала карта Шута."
   },
   {
     "id": "098928",
@@ -23643,7 +23643,7 @@
     "id": "098940",
     "source_cn": "愚者之梦·第1天",
     "ref_en": "Fool's Dream - Day 1",
-    "target_ru": "Мечта дурака - день b"
+    "target_ru": "Мечта Шута - день b"
   },
   {
     "id": "098941",
@@ -25377,7 +25377,7 @@
     "id": "099229",
     "source_cn": "这位{{先生|女士}}，能占用一下您的时间吗？我想给您讲一讲我主，“愚者”先生。",
     "ref_en": "This {{Mr.|Ms.}}, could I take a moment of your time? I'd like to tell you about my Lord, Mr. \"Fool\".",
-    "target_ru": "Этот {{Mr.|Ms.}}, могу я отнять у вас минутку? Я хотел бы рассказать вам о моем господине, господине «Дураке»."
+    "target_ru": "Этот {{Mr.|Ms.}}, могу я отнять у вас минутку? Я хотел бы рассказать вам о моем господине, господине «Шуте»."
   },
   {
     "id": "099230",
@@ -26577,7 +26577,7 @@
     "id": "099429",
     "source_cn": "使用愚者祝福时会释放彩带，造成范围伤害，并且降低命中的敌人攻击力的25%。",
     "ref_en": "Using Fool's Blessing releases ribbons, dealing area damage and reducing the Attack of hit enemies by 25%.",
-    "target_ru": "При использовании «Благословения дурака» высвобождаются ленты, наносящие урон по области и снижающие атаку пораженных врагов на 25%."
+    "target_ru": "При использовании «Благословени Шута» высвобождаются ленты, наносящие урон по области и снижающие атаку пораженных врагов на 25%."
   },
   {
     "id": "099430",
@@ -29907,7 +29907,7 @@
     "id": "099984",
     "source_cn": "使用后获得称号:<Highlight>愚者的眷者</>",
     "ref_en": "After use, obtain the title: <Highlight>Blessed of the Fool</>",
-    "target_ru": "После использования получите титул: <Highlight>Благословенный дурака</>."
+    "target_ru": "После использования получите титул: <Highlight>Благословенный Шута</>."
   },
   {
     "id": "099985",

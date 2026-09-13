@@ -92,7 +92,7 @@ return {
     ["Random Buff ID list"] = "Список случайных идентификаторов усилений",
     ["Chat with NPC, teleport back to the main world scene"] = "Пообщайтесь с NPC, телепортируйтесь обратно на главную мировую сцену.",
     ["But... there's no bait on the hook?"] = "Но... на крючке нет наживки?",
-    ["May the 'Fool' forgive my sins. As a church pastor, I have failed to properly spread His faith..."] = "Пусть «Дурак» простит мои грехи. Как церковный пастор, я не смог должным образом распространять Его веру...",
+    ["May the 'Fool' forgive my sins. As a church pastor, I have failed to properly spread His faith..."] = "Пусть «Шут» простит мои грехи. Как церковный пастор, я не смог должным образом распространять Его веру...",
     ["The current attribute point has reached its minimum value."] = "Текущая точка атрибута достигла минимального значения.",
     ["Trigger area near the battlefield"] = "Триггерная зона рядом с полем боя",
     ["Collect item with specified TemplateID: Object teleports within same scene."] = "Собрать предмет с указанным TemplateID: объект телепортируется в пределах одной сцены.",

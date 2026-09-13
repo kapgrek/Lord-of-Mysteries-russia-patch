@@ -191,7 +191,7 @@ return {
     ["Old Neil's route to the crucible"] = "Путь старого Нила к тигелю",
     ["Disable Skill - Except Spirit Vision"] = "Отключить навык - кроме Духовного видения",
     ["Marshall "] = "Маршалл",
-    ["<P_Heart> (Pious) </> Mr. \"The Fool,\" I have come for the Mythical Cocoon."] = "<P_Heart> (Благочестивый) </> Господин «Дурак», я пришел за Мифическим Коконом.",
+    ["<P_Heart> (Pious) </> Mr. \"The Fool,\" I have come for the Mythical Cocoon."] = "<P_Heart> (Благочестивый) </> Господин «Шут», я пришел за Мифическим Коконом.",
     ["<P_Heart>I should make more luffa soup now.</>"] = "<P_Heart>I, мне нужно сейчас приготовить больше супа из люффы. </>",
     ["Professor"] = "Профессор",
     ["Provoker"] = "Провокатор",

@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "110000",
     "source_cn": "沾满汁液的纸条",
@@ -489,7 +489,7 @@
     "id": "110081",
     "source_cn": "利用由“愚者”先生赐予的封印物：“乌托邦剧院”，从处于历史迷雾之中的秘偶小镇处邀请秘偶出演，使用他们的力量。秘偶技能最多装配一个。",
     "ref_en": "Utilize the Sealed Artifact bestowed by Mr. Fool: \"Utopia Theater\" to invite marionettes from the marionette small town in the mist of history to perform and use their powers. You can equip at most one marionette skill.",
-    "target_ru": "Используйте Запечатанный Артефакт, подаренный мистером Дураком: «Театр Утопии», чтобы пригласить марионеток из маленького марионеточного городка в тумане истории проявить и использовать свои силы. Вы можете использовать не более одного навыка марионетки."
+    "target_ru": "Используйте Запечатанный Артефакт, подаренный Мистеромом: «Театр Утопии», чтобы пригласить марионеток из маленького марионеточного городка в тумане истории проявить и использовать свои силы. Вы можете использовать не более одного навыка марионетки."
   },
   {
     "id": "110082",
@@ -3243,7 +3243,7 @@
     "id": "110540",
     "source_cn": "称号·愚者的老乡",
     "ref_en": "Title: The Fool's Fellow Countryman",
-    "target_ru": "Название: Земляк дурака"
+    "target_ru": "Название: Земляк Шута"
   },
   {
     "id": "110541",
@@ -4629,7 +4629,7 @@
     "id": "110771",
     "source_cn": "神战的余烬未熄，那位被驱逐者的执念仍缠绕着愚者的圣像。",
     "ref_en": "The embers of the War of the Gods have not yet extinguished; the obsession of the Exiled One still clings to the holy image of the Fool.",
-    "target_ru": "Угли Войны Богов еще не погасли; одержимость Изгнанника все еще цепляется за святой образ Дурака."
+    "target_ru": "Угли Войны Богов еще не погасли; одержимость Изгнанника все еще цепляется за святой образ Шута."
   },
   {
     "id": "110772",
@@ -6405,7 +6405,7 @@
     "id": "111067",
     "source_cn": "[赞美愚者]",
     "ref_en": "[Praise the Fool]",
-    "target_ru": "[Хвала дураку]"
+    "target_ru": "[Хвала Шуту]"
   },
   {
     "id": "111068",
@@ -9585,7 +9585,7 @@
     "id": "111597",
     "source_cn": "使用愚者祝福时，获得自身最大生命15%的护盾，持续10秒。",
     "ref_en": "Using Fool's Blessing grants a Shield equal to 15% of your Max Health, lasting 10 seconds.",
-    "target_ru": "Использование «Благословения дурака» дает щит, равный 15% от вашего максимального здоровья, длительностью 10 секунд."
+    "target_ru": "Использование «Благословени Шута» дает щит, равный 15% от вашего максимального здоровья, длительностью 10 секунд."
   },
   {
     "id": "111598",
@@ -12171,7 +12171,7 @@
     "id": "112028",
     "source_cn": "诡秘晚会于每晚7:30-7:45开启，在俱乐部场景内活动可获取晚会奖励。\\n向场景里的“愚者”先生祈福，可获得随机晚会奖励加成，有机会获得愚者的稀有祝福。首次祈福免费，此后每次需花费一定货币。",
     "ref_en": "The Mystery Party is held every night from 7:30 to 7:45. Participating in activities within the Club scene grants party rewards. \\nPraying to Mr. Fool in the scene grants a random party reward bonus, with a chance to obtain the Fool's rare blessing. The first prayer is free; subsequent prayers require a certain amount of currency.",
-    "target_ru": "Секретная вечеринка начинается каждый вечер в 7:30-7:45, и вы можете получить партийные награды, участвуя в клубной сцене. \n Помолитесь мистеру «Дураку» в этой сцене, чтобы получить случайную бонусную награду группы и шанс получить редкое благословение Дурака. Первая молитва бесплатна, и каждый раз в дальнейшем будет расходоваться определенная сумма валюты."
+    "target_ru": "Секретная вечеринка начинается каждый вечер в 7:30-7:45, и вы можете получить партийные награды, участвуя в клубной сцене. \n Помолитесь мистеру «Шуту» в этой сцене, чтобы получить случайную бонусную награду группы и шанс получить редкое Благословени Шута. Первая молитва бесплатна, и каждый раз в дальнейшем будет расходоваться определенная сумма валюты."
   },
   {
     "id": "112029",
@@ -13179,7 +13179,7 @@
     "id": "112196",
     "source_cn": "为了“愚者”先生……我决定接下这份委托。那么，我要去哪里拍？",
     "ref_en": "For Mr. Fool... I have decided to accept this commission. So, where should I go to take photos?",
-    "target_ru": "Для господина дурака... Я решил принять это поручение. Итак, куда мне пойти, чтобы сфотографироваться?"
+    "target_ru": "Для господина Шута... Я решил принять это поручение. Итак, куда мне пойти, чтобы сфотографироваться?"
   },
   {
     "id": "112197",
@@ -13839,7 +13839,7 @@
     "id": "112306",
     "source_cn": "购买后可获得以下道具：发型·<Highlight>自然柔顺</>、饰品·<Highlight>神秘硬皮笔记</>、待机动作·<Highlight>赞美愚者</>和<Highlight>活力方糖</>1个。",
     "ref_en": "Purchase to receive the following items: Hairstyle: <Highlight>Natural Softness</>, Accessory: <Highlight>Mysterious Hardcover Notebook</>, Idle Animation: <Highlight>Praise the Fool</>, and 1 <Highlight>Vitality Sugar Cube</>.",
-    "target_ru": "Совершите покупку, чтобы получить следующие предметы: Прическа: <Highlight>Натуральная мягкость</>, Аксессуар: <Highlight>Загадочный блокнот в твердом переплете</>, Анимация простоя: <Highlight>Похвалите дурака</> и 1 <Highlight>Vitality Sugar Cube</>."
+    "target_ru": "Совершите покупку, чтобы получить следующие предметы: Прическа: <Highlight>Натуральная мягкость</>, Аксессуар: <Highlight>Загадочный блокнот в твердом переплете</>, Анимация простоя: <Highlight>Похвалите Шута</> и 1 <Highlight>Vitality Sugar Cube</>."
   },
   {
     "id": "112307",
@@ -18057,7 +18057,7 @@
     "id": "113009",
     "source_cn": "愚者馈赠前定点",
     "ref_en": "Fixed Point Before Fool's Gift",
-    "target_ru": "Фиксированная точка перед подарком дурака"
+    "target_ru": "Фиксированная точка перед подар Шута"
   },
   {
     "id": "113010",
@@ -20385,7 +20385,7 @@
     "id": "113397",
     "source_cn": "愚者之礼-飞升计时",
     "ref_en": "Fool's Gift - Ascension Timer",
-    "target_ru": "Подарок дурака - Таймер вознесения"
+    "target_ru": "подар Шута - Таймер вознесения"
   },
   {
     "id": "113398",
@@ -21135,7 +21135,7 @@
     "id": "113522",
     "source_cn": "我主自称“愚者”，在过去，在现在，也在未来，他是支配灵界的伟大主宰，也是执掌好运的黄黑之王，更是每个生灵追求永恒的道标。",
     "ref_en": "My Lord calls himself \"The Fool\". In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who holds good luck, and the beacon for every living being pursuing eternity.",
-    "target_ru": "Милорд называет себя «Дураком». В прошлом, настоящем и будущем он — великий правитель, господствующий в мире духов, Король Желтого и Черного, несущий удачу, и маяк для каждого живого существа, стремящегося к вечности."
+    "target_ru": "Милорд называет себя «Шутом». В прошлом, настоящем и будущем он — великий правитель, господствующий в мире духов, Король Желтого и Черного, несущий удачу, и маяк для каждого живого существа, стремящегося к вечности."
   },
   {
     "id": "113523",
@@ -26697,7 +26697,7 @@
     "id": "114449",
     "source_cn": "伴随红月而来的疯狂呓语，小说家颂念了愚者的尊名，此时她尚且不知，这将是一场跨越家族和历史的旅行。",
     "ref_en": "Accompanied by the mad whispers that arrived with the red moon, the novelist recited the honorific name of The Fool. At this moment, she did not yet know that this would be a journey spanning across families and history.",
-    "target_ru": "Под безумный шепот, пришедший с красной луной, писатель произнес почетное имя Дурак. В этот момент она еще не знала, что это будет путешествие, охватывающее семьи и историю."
+    "target_ru": "Под безумный шепот, пришедший с красной луной, писатель произнес почетное имя Шут. В этот момент она еще не знала, что это будет путешествие, охватывающее семьи и историю."
   },
   {
     "id": "114450",

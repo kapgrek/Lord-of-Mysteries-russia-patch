@@ -55,7 +55,7 @@ return {
     ["Automatically cast Dawn Armor when Health drops below 50%, CD 120 seconds."] = "Автоматически применяет Dawn Armor, когда здоровье падает ниже 50%, время восстановления 120 секунд.",
     ["The War Dragon locks onto <Disable>1 Beyonder</> and spits a fireball. After the fireball lands, it explodes and leaves a <Disable>briefly burning</> flame zone on the ground."] = "Боевой Дракон захватывает <Disable>1 Beyonder</> и выплевывает огненный шар. После приземления огненный шар взрывается и оставляет на земле зону пламени <Disable>, кратковременно горящую </>.",
     ["Dungeon Pack"] = "Пакет подземелий",
-    ["The light rotates slowly around the Fool statue, with up to ten rays flowing in real-time."] = "Свет медленно вращается вокруг статуи Дурака, излучая до десяти лучей в реальном времени.",
+    ["The light rotates slowly around the Fool statue, with up to ten rays flowing in real-time."] = "Свет медленно вращается вокруг Стату Шута, излучая до десяти лучей в реальном времени.",
     ["Maximum Ripple Height"] = "Максимальная высота пульсации",
     ["Go to specified Trigger location. Object plays specified dialogue."] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанный диалог.",
     ["I was swindled out of money by him again today... I was just driving the carriage, and he threw himself under the wheels."] = "Сегодня он снова выманил у меня деньги... Я как раз вел карету, а он бросился под колеса.",

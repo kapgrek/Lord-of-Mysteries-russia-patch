@@ -177,7 +177,7 @@ return {
     ["Analyze the Situation with Irene"] = "Проанализируйте ситуацию с Ирен",
     ["Stage 2-Quality Collection"] = "Этап 2-Качественный сбор",
     ["<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Knowledge Pursuit</> obtains an additional 10 points of <HighLight>Secret Peeking</>."] = "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Knowledge Pursuit</> получает дополнительные 10 баллов <HighLight>Secret Peeking</>.",
-    ["The Fool's Scripture"] = "Писание дурака",
+    ["The Fool's Scripture"] = "Писание Шута",
     ["Second point, regarding the butler's contradiction."] = "Второй момент, касающийся противоречия дворецкого.",
     ["Martin's Vegetable Stall - Inquire for Information"] = "Овощной ларек Мартина – запросить информацию",
     ["Want to run? Are you planning to \"Open Door\" or \"Teleport\"?"] = "Хотите бежать? Планируете ли вы «Открыть дверь» или «Телепортироваться»?",

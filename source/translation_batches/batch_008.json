@@ -1503,7 +1503,7 @@
     "id": "035250",
     "source_cn": "拿到愚者牌",
     "ref_en": "Obtain The Fool card",
-    "target_ru": "Получите карту дурака"
+    "target_ru": "Получите карту Шута"
   },
   {
     "id": "035251",
@@ -2565,7 +2565,7 @@
     "id": "035427",
     "source_cn": "这正是我们希望的。“愚者”先生，请问对应的咒文是什么？",
     "ref_en": "That is exactly what we were hoping for. Mr. Fool, may I ask what the corresponding incantation is?",
-    "target_ru": "Это именно то, на что мы надеялись. Господин Дурак, могу ли я спросить, что это за заклинание?"
+    "target_ru": "Это именно то, на что мы надеялись. Господин Шут, могу ли я спросить, что это за заклинание?"
   },
   {
     "id": "035428",
@@ -4209,7 +4209,7 @@
     "id": "035701",
     "source_cn": "“愚者”的馈赠",
     "ref_en": "Gift of The Fool",
-    "target_ru": "Дар дурака"
+    "target_ru": "дар Шута"
   },
   {
     "id": "035702",
@@ -5001,7 +5001,7 @@
     "id": "035833",
     "source_cn": "<P_Heart>不知不觉地默念</>不属于这个时代的愚者，灰雾之上的神秘主宰，执掌好运的黄黑之王……",
     "ref_en": "<P_Heart>Unconsciously chanting</> The Fool that doesn't belong to this era, the mysterious ruler above the gray fog, the King of Yellow and Black who wields good luck...",
-    "target_ru": "<P_Heart>Неосознанное пение</> Дурак, не принадлежащий этой эпохе, таинственный правитель над серым туманом, Король Желтого и Черного, приносящий удачу..."
+    "target_ru": "<P_Heart>Неосознанное пение</> Шут, не принадлежащий этой эпохе, таинственный правитель над серым туманом, Король Желтого и Черного, приносящий удачу..."
   },
   {
     "id": "035834",
@@ -5631,7 +5631,7 @@
     "id": "035938",
     "source_cn": "通过对应“愚者”途径序列3“古代学者”的封印物“历史回廊”，进入历史孔隙，从中寻找曾经散落在历史中的人物投影，与他们结识，向过去的他们借取力量。人脉技能最多装配一个。",
     "ref_en": "Use the Sealed Artifact \"Historical Void\" corresponding to Sequence 3 \"Scholar of Yore\" of the \"Fool\" pathway to enter the historical void, find projections of figures once scattered in history, get to know them, and borrow power from them in the past. A maximum of one Connection Skill can be equipped.",
-    "target_ru": "Используйте запечатанный артефакт «Историческая пустота», соответствующий последовательности 3 «Ученый прошлого» пути «Дурака», чтобы войти в историческую пустоту, найти проекции фигур, когда-то разбросанных по истории, узнать их и позаимствовать у них силу в прошлом. Можно использовать максимум один навык соединения."
+    "target_ru": "Используйте запечатанный артефакт «Историческая пустота», соответствующий последовательности 3 «Ученый прошлого» пути «Шута», чтобы войти в историческую пустоту, найти проекции фигур, когда-то разбросанных по истории, узнать их и позаимствовать у них силу в прошлом. Можно использовать максимум один навык соединения."
   },
   {
     "id": "035939",
@@ -6717,7 +6717,7 @@
     "id": "036119",
     "source_cn": "感应愚者金币",
     "ref_en": "Sense Fool's Gold Coin",
-    "target_ru": "Золотая монета чувства дурака"
+    "target_ru": "Золотая монета чувства Шута"
   },
   {
     "id": "036120",
@@ -9255,7 +9255,7 @@
     "id": "036542",
     "source_cn": "不属于这个时代的愚者啊……",
     "ref_en": "The Fool that doesn't belong to this era...",
-    "target_ru": "Дурак, который не принадлежит этой эпохе..."
+    "target_ru": "Шут, не принадлежащий этой эпохе"
   },
   {
     "id": "036543",
@@ -12909,7 +12909,7 @@
     "id": "037151",
     "source_cn": "赞美愚者！{{player.name}}在非凡聚合中，从{{item.name}}里唤醒了沉眠于历史的<Chat_Highlight>{{relic_word.name}}</>词条。这是不属于这个时代的馈赠，亦是命运长河中偶然翻涌的奇迹！",
     "ref_en": "Praise the Fool! {{player.name}} has awakened the <Chat_Highlight>{{relic_word.name}}</> entry, which had been sleeping in history, from {{item.name}} during a Beyonder convergence. This is a gift that does not belong to this era, and a miracle that has surged in the river of fate!",
-    "target_ru": "Слава дураку! {{player.name}} пробудил запись <Chat_Highlight>{{relic_word.name}}</>, которая спала в истории, от {{item.name}} во время конвергенции Потусторонний. Это подарок, не принадлежащий этой эпохе, и чудо, нахлынувшее в реке судьбы!"
+    "target_ru": "Слава Шуту! {{player.name}} пробудил запись <Chat_Highlight>{{relic_word.name}}</>, которая спала в истории, от {{item.name}} во время конвергенции Потусторонний. Это подарок, не принадлежащий этой эпохе, и чудо, нахлынувшее в реке судьбы!"
   },
   {
     "id": "037152",
@@ -16791,7 +16791,7 @@
     "id": "037798",
     "source_cn": "赞美愚者！<P_Heart>（咦，我怎么也……）</>",
     "ref_en": "Praise the Fool! <P_Heart>(Wait, why am I also...)</>",
-    "target_ru": "Слава дураку! <P_Heart>(Подожди, а почему я тоже...)</>"
+    "target_ru": "Слава Шуту! <P_Heart>(Подожди, а почему я тоже...)</>"
   },
   {
     "id": "037799",
@@ -16905,7 +16905,7 @@
     "id": "037817",
     "source_cn": "<Highlight>克莱恩·莫雷蒂</>，本名周明瑞，1349年穿越成为克莱恩·莫雷蒂，穿越后卷入神秘学事件，并因此加入廷根值夜者小队，成为“占卜家”途径非凡者。机缘巧合下创立了塔罗会，代号“愚者”。在穿越后一直以“回家”为初心，但在卷入阴谋死而复生后，克莱恩义无反顾地走上复仇之路。",
     "ref_en": "<Highlight>Klein Moretti</>, originally named Zhou Mingrui, transmigrated to become Klein Moretti in 1349. After transmigrating, he became involved in occult events and thus joined the Tingen Nighthawks squad, becoming a Beyonder of the Seer pathway. By chance, he founded the Tarot Club with the codename \"The Fool\". After transmigrating, his original intention was always to \"go home\", but after being involved in a conspiracy and dying only to be resurrected, Klein embarked on a path of revenge without hesitation.",
-    "target_ru": "<Highlight>Клейн Моретти</>, первоначально звавшийся Чжоу Минжуй, переселился и стал Клейном Моретти в 1349 году. После переселения он стал участвовать в оккультных событиях и таким образом присоединился к отряду Тингенских Ночных Ястребов, став Потусторонним Путем Провидца. Случайно он основал Клуб Таро под кодовым названием «Дурак». После переселения его первоначальным намерением всегда было «пойти домой», но после того, как он был вовлечен в заговор и умер только для того, чтобы воскреснуть, Клейн без колебаний встал на путь мести."
+    "target_ru": "<Highlight>Клейн Моретти</>, первоначально звавшийся Чжоу Минжуй, переселился и стал Клейном Моретти в 1349 году. После переселения он стал участвовать в оккультных событиях и таким образом присоединился к отряду Тингенских Ночных Ястребов, став Потусторонним Путем Провидца. Случайно он основал Клуб Таро под кодовым названием «Шут». После переселения его первоначальным намерением всегда было «пойти домой», но после того, как он был вовлечен в заговор и умер только для того, чтобы воскреснуть, Клейн без колебаний встал на путь мести."
   },
   {
     "id": "037818",
@@ -18177,7 +18177,7 @@
     "id": "038029",
     "source_cn": "而现在，你需要确定你的代号。愚者、正义、倒吊人除外。",
     "ref_en": "And now, you need to determine your codename. Except for The Fool, Justice, and The Hanged Man.",
-    "target_ru": "И теперь вам нужно определить свое кодовое имя. За исключением «Дурака», «Справедливости» и «Повешенного»."
+    "target_ru": "И теперь вам нужно определить свое кодовое имя. За исключением «Шута», «Справедливости» и «Повешенного»."
   },
   {
     "id": "038030",
@@ -19611,7 +19611,7 @@
     "id": "038268",
     "source_cn": "重在参与……我准备问问阿罗德斯大人，希望“愚者”先生庇佑。",
     "ref_en": "Participation is what matters... I'm prepared to ask Lord Arrodes, hoping for the protection of Mr. Fool.",
-    "target_ru": "Участие – вот что важно… Я готов обратиться к лорду Арродесу, надеясь на защиту мистера Дурака."
+    "target_ru": "Участие – вот что важно… Я готов обратиться к лорду Арродесу, надеясь на защиту Мистераа."
   },
   {
     "id": "038269",

@@ -24,7 +24,7 @@ return {
     ["Cragg's Oil"] = "Масло Крагга",
     ["All the urgent orders in my shop, she always manages to deliver them ahead of time!"] = "Все срочные заказы из моей лавки она неизменно доставляет раньше срока!",
     ["<P_Heart> (I have to say, a life like this is still quite blissful...) </>"] = "<P_Heart>(Надо признать, такая жизнь поистине полна счастья...)</>",
-    ["Fool's Crown"] = "Корона дурака",
+    ["Fool's Crown"] = "Корона Шута",
     ["{{PlayerName}}, thank you for your help."] = "{{PlayerName}}, спасибо за помощь.",
     ["Leave abandoned house - Collect"] = "Выход из заброшенного дома · Сбор",
     ["Condense the Spear of Longinus to descend from the sky, performing three stabs on enemies in a small area, gaining mysterious knowledge (used to unlock finisher skills) and applying healing reduction."] = "Копье Конденсированного Лонгина падает с неба, наносит удар противнику в три этапа на небольшой площади, получает таинственные знания (используется для разблокировки завершающих навыков) и имеет эффект уменьшения лечения.",

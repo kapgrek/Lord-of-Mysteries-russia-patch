@@ -225,7 +225,7 @@ return {
     ["Support successful!"] = "Поддержка успешна!",
     ["Completed \"Fierce Battle with Bonnie\" event in Sinful Tingen with an \"Excellent\" rating"] = "Завершено событие «Жестокая битва с Бонни» в Грешном Тингене с оценкой «Отлично».",
     ["Little Irene doesn't want to leave when she sees ice cream, but at home now..."] = "Маленькая Ирэн не хочет уходить, когда видит мороженое, но теперь дома...",
-    ["\"The Fool that doesn't belong to this era\"... Feels good, safe enough."] = "«Дурак, который не принадлежит этой эпохе»… Чувствует себя хорошо, достаточно безопасно.",
+    ["\"The Fool that doesn't belong to this era\"... Feels good, safe enough."] = "«Шут, не принадлежащий этой эпохе»… Чувствует себя хорошо, достаточно безопасно.",
     ["Go to specified Trigger location: Player sends quest item, Player stops playing emotional music."] = "Перейти в указанное место триггера: игрок отправляет квестовый предмет, игрок перестает играть эмоциональную музыку.",
     ["[Golden Autumn Lake-Hard]-Druid-Death Sentence Mark-Mark T"] = "[Золотое Осеннее Озеро-Хард]-Друид-Марка Смертного Приговора-Марк T",
     ["Those romance novels are all lies; vampires will hurt people!"] = "Все эти любовные романы — ложь; вампиры причинят вред людям!",

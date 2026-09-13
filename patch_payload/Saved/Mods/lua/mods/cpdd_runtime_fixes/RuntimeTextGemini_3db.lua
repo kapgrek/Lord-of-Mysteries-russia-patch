@@ -44,7 +44,7 @@ return {
     ["Go to Hall of Fame"] = "Перейти в Зал славы",
     ["Players Near Cauldron Can Drop Ingredients - Fully Automatic Version"] = "Игроки возле котла могут бросать ингредиенты — полностью автоматическая версия",
     ["Yu Xuan"] = "Ю Сюань",
-    ["Praise the Fool! {{player.name}} has awakened the <Chat_Highlight>{{relic_word.name}}</> entry, which had been sleeping in history, from {{item.name}} during a Beyonder convergence. This is a gift that does not belong to this era, and a miracle that has surged in the river of fate!"] = "Слава дураку! {{player.name}} пробудил запись <Chat_Highlight>{{relic_word.name}}</>, которая спала в истории, от {{item.name}} во время конвергенции Потусторонний. Это подарок, не принадлежащий этой эпохе, и чудо, нахлынувшее в реке судьбы!",
+    ["Praise the Fool! {{player.name}} has awakened the <Chat_Highlight>{{relic_word.name}}</> entry, which had been sleeping in history, from {{item.name}} during a Beyonder convergence. This is a gift that does not belong to this era, and a miracle that has surged in the river of fate!"] = "Слава Шуту! {{player.name}} пробудил запись <Chat_Highlight>{{relic_word.name}}</>, которая спала в истории, от {{item.name}} во время конвергенции Потусторонний. Это подарок, не принадлежащий этой эпохе, и чудо, нахлынувшее в реке судьбы!",
     ["【Dungeon】May Manor · Castle · Normal, 1250309"] = "【Подземелье】Майское поместье · Замок · Обычный, 1250309",
     ["Camera - See Alice"] = "Камера - Увидеть Алису",
     ["Insulated Shield"] = "Изолированный экран",

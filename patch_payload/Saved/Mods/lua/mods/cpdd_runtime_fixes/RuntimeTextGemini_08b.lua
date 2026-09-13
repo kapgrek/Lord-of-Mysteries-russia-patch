@@ -189,7 +189,7 @@ return {
     ["Maximum total damage: <HighLight>480%</> attack"] = "Максимальный общий урон: атака <HighLight>480%</>.",
     ["Neijiang"] = "Нэйцзян",
     ["Gary - Actor fan"] = "Гэри - фанат актера",
-    ["724 Prologue-The Fool's Honorific Name Replacement"] = "724 Пролог. Замена почетного имени дурака.",
+    ["724 Prologue-The Fool's Honorific Name Replacement"] = "724 Пролог. Замена почетного имени Шута.",
     ["02 Honorific Name"] = "02 Почетное имя",
     ["Tycoon Ranking"] = "Рейтинг магнатов",
     ["Protection of Gems"] = "Защита драгоценных камней",

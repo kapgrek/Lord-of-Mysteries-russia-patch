@@ -218,7 +218,7 @@ return {
     ["Collected all materials for the Demon Hunter potion"] = "Собраны все материалы для зелья охотника на демонов.",
     ["Not only that, it even sounds pleasant when it farts, otherwise why would it be called 'Fart Beauty'? What a magical pig..."] = "Мало того, он даже звучит приятно, когда пукает, иначе почему бы его называли «Пердежная красавица»? Какая волшебная свинья...",
     ["Carrying Sealed Artifacts provides powerful characteristics in combat, but using them also requires bearing the corresponding curse. Additionally, Sealed Artifacts can be modified to provide more elemental attributes."] = "Ношение запечатанных артефактов дает мощные характеристики в бою, но их использование также требует наличия соответствующего проклятия. Кроме того, запечатанные артефакты можно модифицировать, чтобы предоставить им больше элементарных атрибутов.",
-    ["As expected of Mr. Fool, He truly cares about the lives of the common people. Praise the Fool! If I have the chance, I must visit the foundation in person."] = "Как и ожидалось от мистера Шута, Он действительно заботится о жизни простых людей. Слава дураку! Если у меня будет возможность, я должен посетить фонд лично.",
+    ["As expected of Mr. Fool, He truly cares about the lives of the common people. Praise the Fool! If I have the chance, I must visit the foundation in person."] = "Как и ожидалось от Мистераа, Он действительно заботится о жизни простых людей. Слава Шуту! Если у меня будет возможность, я должен посетить фонд лично.",
     ["Old Neil teleport to spirit vision positioning"] = "Старина Нил телепортируется в позиционирование духовного видения.",
     ["Blue Mountain Crystal"] = "Синий горный кристалл",
     ["Flesh Shield"] = "Щит из плоти",

@@ -57,7 +57,7 @@ return {
     ["Trigger Vampire's Love"] = "Вызов любви вампира",
     ["Send me to the top lane"] = "Отправьте меня на верхнюю полосу",
     ["Fatal Reunion - Zoom in"] = "Роковое воссоединение – Увеличить",
-    ["Defense Sealed Artifact"] = "Запечатанный Защитным Артефакт",
+    ["Defense Sealed Artifact"] = "Защитный",
     ["Param 1: Board index (1-8), Param 2: Is host position (1 for yes, other values for no)."] = "Парам 1: Индекс платы (1–8), Парам 2: Позиция хоста (1 — да, другие значения — нет).",
     ["My Lord, thank you for bringing hope and a tomorrow to this land."] = "Мой Господь, спасибо, что принес на эту землю надежду и будущее.",
     ["Immune to specified damage types (remove immunity after Action ends)"] = "Иммунитет к указанным типам урона (снимает иммунитет после окончания действия)",

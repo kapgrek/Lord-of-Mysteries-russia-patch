@@ -167,7 +167,7 @@ return {
     ["Light Visibility"] = "Легкая видимость",
     ["That person over there is..."] = "Тот человек там...",
     ["After the hostess left, someone entered the room and refilled the Baron's tea. This person is likely the culprit who created the locked-room mystery."] = "После того, как хозяйка ушла, кто-то вошел в комнату и налил барону чай. Этот человек, вероятно, является виновником тайны запертой комнаты.",
-    ["Your item is not an ordinary object, so naturally, the ritual must have a corresponding level. Moreover, I vaguely feel that it might help Mr. Fool wake up from His slumber sooner."] = "Ваш предмет не является обычным предметом, поэтому естественно, что ритуал должен иметь соответствующий уровень. Более того, я смутно чувствую, что это могло бы помочь мистеру Дураку скорее проснуться от сна.",
+    ["Your item is not an ordinary object, so naturally, the ritual must have a corresponding level. Moreover, I vaguely feel that it might help Mr. Fool wake up from His slumber sooner."] = "Ваш предмет не является обычным предметом, поэтому естественно, что ритуал должен иметь соответствующий уровень. Более того, я смутно чувствую, что это могло бы помочь Мистеруу скорее проснуться от сна.",
     ["Hulunbuir"] = "Хулунбуир",
     ["Westin "] = "Вестин",
     ["Recruiting"] = "Рекрутинг",

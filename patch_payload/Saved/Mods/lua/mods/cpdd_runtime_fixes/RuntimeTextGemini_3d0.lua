@@ -80,7 +80,7 @@ return {
     ["This player is already in the party."] = "Этот игрок уже в группе.",
     ["Move Member"] = "Переместить участника",
     ["Listen for the reading interface to close. Player plays a single line of black screen subtitles."] = "Дождитесь закрытия интерфейса чтения. Плеер воспроизводит одну строку субтитров на черном экране.",
-    ["Trading Bazaar"] = "Торговый базар",
+    ["Trading Bazaar"] = "Базар",
     ["Gain 20% Damage Reduction, lasts 4 seconds"] = "Получите 20% Снижение урона, длится 4 секунды.",
     ["Humans always think that healing is one-way—doctors heal patients, the strong help the weak. But Audrey taught me: true relationships are about seeing each other."] = "Люди всегда думают, что исцеление одностороннее: врачи лечат пациентов, сильные помогают слабым. Но Одри научила меня: настоящие отношения – это видеть друг друга.",
     ["After consuming the maximum layers of Debt, gain the \"Debt Repaid, Burden Relieved\" effect, increasing Monster Specialization for 10 seconds."] = "Израсходовав максимальное количество слоев долга, вы получите эффект «Долг погашен, бремя облегчено», увеличивая специализацию монстров на 10 секунд.",

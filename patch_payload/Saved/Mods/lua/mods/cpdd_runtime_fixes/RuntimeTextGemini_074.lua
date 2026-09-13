@@ -216,7 +216,7 @@ return {
     ["Fill light"] = "Заполняющий свет",
     ["Self-centered circular damage and shield."] = "Круговой урон вокруг себя с наложением щита.",
     ["I have an urgent matter regarding my daughter that needs divination!"] = "У меня срочное дело относительно моей дочери, требующее гадания!",
-    ["Praise the Fool! Praise %s!"] = "Слава дураку! Слава %s!",
+    ["Praise the Fool! Praise %s!"] = "Слава Шуту! Слава %s!",
     ["(Grade A Animation Placeholder) Klein, there's no need for us to pretend with each other."] = "(Заполнитель для анимации класса А) Клейн, нам не нужно притворяться друг с другом.",
     ["A Newspaper"] = "Газета",
     ["Manifesto contains sensitive words. Please enter a different one."] = "Манифест содержит деликатные слова. Пожалуйста, введите другой.",

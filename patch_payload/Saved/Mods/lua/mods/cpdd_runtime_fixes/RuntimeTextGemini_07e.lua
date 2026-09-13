@@ -166,7 +166,7 @@ return {
     ["Chapter 2: Trigger: Find Arnold 2"] = "Глава 2: Триггер: найти Арнольда b",
     ["Currently, the interface does not support speed multipliers. Within this time window, the character's movement speed is how many times the normal movement speed; default 1.0 means no speed reduction. This movement speed multiplier is multiplied by the speed increase/decrease caused by attributes."] = "В настоящее время интерфейс не поддерживает множители скорости. В этом временном окне скорость движения персонажа во сколько раз превышает нормальную скорость движения; значение по умолчанию 1.0 означает отсутствие снижения скорости. Этот множитель скорости движения умножается на увеличение/уменьшение скорости, вызванное атрибутами.",
     ["I am happy to answer any questions you may have."] = "Я рад ответить на любые ваши вопросы.",
-    ["By the way, you said you are a believer of The Fool, and since you've come as well..."] = "Кстати, ты сказал, что веришь в Дурака, и раз уж ты тоже пришел...",
+    ["By the way, you said you are a believer of The Fool, and since you've come as well..."] = "Кстати, ты сказал, что веришь в Шута, и раз уж ты тоже пришел...",
     ["The latest volume of \"The Great Adventurer\" sold out last night? Didn't it just arrive the day before yesterday?"] = "Последний том \"Великого авантюриста\" распродан вчера вечером? Разве оно не пришло позавчера?",
     ["How to trade trains more profitably"] = "Как торговать поездами выгоднее",
     ["After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Beyonder Affix Gifts</>"] = "After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Потусторонний Affix Gifts</>",

@@ -211,7 +211,7 @@ return {
     ["Rank experience limit for uploading custom emojis, 0 = no limit"] = "Ограничение опыта для загрузки собственных смайлов, 0 = без ограничений.",
     ["After Waking Arnold"] = "После пробуждения Арнольда",
     ["Goddess, if you can hear my call, let little Irene return to my side."] = "Богиня, если ты слышишь мой зов, пусть маленькая Ирен вернется ко мне.",
-    ["It is my honor to be able to cheer you up and continue to spread the teachings of Mr. Fool."] = "Для меня большая честь иметь возможность подбодрить вас и продолжить распространять учение мистера Дурака.",
+    ["It is my honor to be able to cheer you up and continue to spread the teachings of Mr. Fool."] = "Для меня большая честь иметь возможность подбодрить вас и продолжить распространять учение Мистераа.",
     ["Use to obtain <Highlight> Crown of the Genie Head Accessory </>"] = "Используйте, чтобы получить <Highlight> Головной аксессуар «Корона джинна» </>.",
     ["Enslave Laborers"] = "Порабощение рабочих",
     ["Confront <h>Goodman</>"] = "Противостоять <h>Goodman</>",

@@ -242,7 +242,7 @@ return {
     ["Ten minutes to get up, Tingen's know-it-all!"] = "Десять минут, чтобы встать, всезнайка Тинген!",
     ["I... I regret not listening to you, I ran into him the first time..."] = "Я... я жалею, что не послушалась тебя, я столкнулась с ним в первый раз...",
     ["Tell Zoe what happened"] = "Расскажи Зои, что случилось",
-    ["Pray to the Fool Statue"] = "Помолитесь статуе дурака",
+    ["Pray to the Fool Statue"] = "Помолитесь Стату Шута",
     ["You've started struggling"] = "Вы начали бороться",
     ["Sasrir Falling Fire"] = "Сасрир Падающий огонь",
     ["Covenant broken"] = "Завет нарушен",

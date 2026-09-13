@@ -241,7 +241,7 @@ return {
     ["Decorative Pattern"] = "Декоративный узор",
     ["Radial Blur"] = "Радиальное размытие",
     ["Submit item (set submission ID); player plays plot dialogue."] = "Отправить элемент (установить идентификатор отправки); игрок воспроизводит сюжетный диалог.",
-    ["Seer - Fool's Blessing"] = "Провидец – Благословение дурака",
+    ["Seer - Fool's Blessing"] = "Провидец – Благословени Шута",
     ["Nightmare Stance"] = "Стойка Кошмара",
     ["Preparing to run..."] = "Подготовка к запуску...",
     ["Lost Covenant"] = "Потерянный завет",

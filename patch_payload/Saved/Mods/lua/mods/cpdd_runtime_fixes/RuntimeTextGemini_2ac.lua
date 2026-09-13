@@ -24,7 +24,7 @@ return {
     ["Rose Remnant"] = "Остаток розы",
     ["How could I have the money to join you guys? I'll just watch."] = "Откуда у меня были деньги, чтобы присоединиться к вам, ребята? Я просто посмотрю.",
     ["Less than 1 minute"] = "Менее 1 минуты",
-    ["Hall of the Fool"] = "Зал дурака",
+    ["Hall of the Fool"] = "Зал Шута",
     ["But first, have a cup of coffee and relax."] = "Но сначала выпейте чашечку кофе и расслабьтесь.",
     ["Do you know where I've seen the most poor people in my life?"] = "Знаешь, где я видел самых бедных людей в своей жизни?",
     ["<P_Heart>(It seems Miss Magician is already immersed in her creation, better not disturb her for now.)</>"] = "<P_Heart>(Кажется, Мисс Волшебница уже погружена в свое творение, лучше ее пока не беспокоить.)</>",

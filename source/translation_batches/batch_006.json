@@ -3111,7 +3111,7 @@
     "id": "025518",
     "source_cn": "介绍愚者-男",
     "ref_en": "Introducing The Fool - Male",
-    "target_ru": "Представляем дурака - мужчину"
+    "target_ru": "Представляем Шута - мужчину"
   },
   {
     "id": "025519",
@@ -3705,7 +3705,7 @@
     "id": "025617",
     "source_cn": "触碰愚者馈赠",
     "ref_en": "Touch Fool's Gift",
-    "target_ru": "Прикоснитесь к подарку дурака"
+    "target_ru": "Прикоснитесь к подар Шута"
   },
   {
     "id": "025618",
@@ -7311,7 +7311,7 @@
     "id": "026218",
     "source_cn": "<Assistant_Title1>死而复生就是奇迹</>\\n<Assistant_Title2>成就分类：</>教团-安魂诗社\\n<Assistant_Title2>解锁条件：</>本账号因<Assistant_Property1>理智值（SAN）</>归零而被删除后，被<Assistant_Property2>「愚者」</>拯救复活。\\n<Assistant_Title2>成就奖励：</><Assistant_Red>100</>成就积分、{SendAnswer:[我回来了]|1363}",
     "ref_en": "<Assistant_Title1>Resurrection is a miracle</>\\n<Assistant_Title2>Achievement Category: </>Organization - Requiem Poetry Society\\n<Assistant_Title2>Unlock Condition: </>After this account was deleted due to <Assistant_Property1>Sanity (SAN) </>reaching zero, it was saved and resurrected by <Assistant_Property2>\"The Fool\"</>.\\n<Assistant_Title2>Achievement Reward: </><Assistant_Red>100</>Achievement Points, {SendAnswer:[I'm Back]|1363}",
-    "target_ru": "<Assistant_Title1>Воскресение из мертвых - это чудо</>\n<Assistant_Title2>Классификация достижений: </>Орден-Реквием Поэма Общества\n<Assistant_Title2>Условия разблокировки: </>После того, как эта учетная запись была удалена, поскольку <Assistant_Property1>значение здравомыслия (SAN) </> вернулось к нулю, она была сохранена и воскрешена <Assistant_Property2>\" Дурак\"</>. \n<Assistant_Title2>Награды за достижения: </><Assistant_Red>100</>Очки достижений, {SendAnswer:[Я вернулся]|1363}"
+    "target_ru": "<Assistant_Title1>Воскресение из мертвых - это чудо</>\n<Assistant_Title2>Классификация достижений: </>Орден-Реквием Поэма Общества\n<Assistant_Title2>Условия разблокировки: </>После того, как эта учетная запись была удалена, поскольку <Assistant_Property1>значение здравомыслия (SAN) </> вернулось к нулю, она была сохранена и воскрешена <Assistant_Property2>\" Шут\"</>. \n<Assistant_Title2>Награды за достижения: </><Assistant_Red>100</>Очки достижений, {SendAnswer:[Я вернулся]|1363}"
   },
   {
     "id": "026219",
@@ -8763,7 +8763,7 @@
     "id": "026460",
     "source_cn": "一切的一切，都要感谢慷慨的“愚者”先生。",
     "ref_en": "Everything, everything, must thank the generous Mr. Fool.",
-    "target_ru": "Все, все должно быть благодарно великодушному господину Дураку."
+    "target_ru": "Все, все должно быть благодарно великодушному господину Шуту."
   },
   {
     "id": "026461",
@@ -9849,7 +9849,7 @@
     "id": "026641",
     "source_cn": "愚者金币",
     "ref_en": "Fool Gold Coin",
-    "target_ru": "Золотая монета дурака"
+    "target_ru": "Золотая монета Шута"
   },
   {
     "id": "026642",
@@ -10551,7 +10551,7 @@
     "id": "026758",
     "source_cn": "受你召唤的愚者牌，以正位之姿显现。你是结束，也是开始……抱歉，我看不到更多了。",
     "ref_en": "The Fool card you summoned appears upright. You are the end, and also the beginning... Sorry, I cannot see more.",
-    "target_ru": "Карта Дурака, которую вы призвали, появляется в вертикальном положении. Ты — конец, а также начало... Извините, я не могу видеть большего."
+    "target_ru": "Карта Шута, которую вы призвали, появляется в вертикальном положении. Ты — конец, а также начало... Извините, я не могу видеть большего."
   },
   {
     "id": "026759",
@@ -11655,7 +11655,7 @@
     "id": "026942",
     "source_cn": "来自愚者的祝福，非战斗状态下持续恢复生命值。",
     "ref_en": "A blessing from The Fool; continuously recovers Health when out of combat.",
-    "target_ru": "Благословение от Дурака; непрерывно восстанавливает здоровье вне боя."
+    "target_ru": "Благословение Шута; непрерывно восстанавливает здоровье вне боя."
   },
   {
     "id": "026943",
@@ -11859,7 +11859,7 @@
     "id": "026976",
     "source_cn": "转运商店",
     "ref_en": "Fortune Shop",
-    "target_ru": "Магазин Фортуны"
+    "target_ru": "Фортуна"
   },
   {
     "id": "026977",
@@ -12723,7 +12723,7 @@
     "id": "027120",
     "source_cn": "<Assistant_Title1>【愚者福音】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>愚者教会的福音宣传……为什么会出现在大学城？\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>60级</>后，前往{Location:[廷根(1568,976)]|56840;-2330;-1360;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒",
     "ref_en": "<Assistant_Title1>[Gospel of the Fool]</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>Gospel propaganda from the Church of the Fool... why would it appear in the University District?\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>60</>, head to {Location:[Tingen(1568,976)]|56840;-2330;-1360;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sols",
-    "target_ru": "<Assistant_Title1>【Евангелие от дурака】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Различные времена</>\n<Assistant_Title2>Описание задания: </>Евангельская пропаганда церкви дурака... Почему оно появляется в университетском городке? \n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>уровня 60</>, перейдите в {Location:[Tinggen(1568,976)]|56840;-2330;-1360;2;5200002;0}, чтобы запустить задание \n<Assistant_Title2>Task награда</>: познавательный опыт, связывающий Сулера"
+    "target_ru": "<Assistant_Title1>【Евангели Шута】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Различные времена</>\n<Assistant_Title2>Описание задания: </>Евангельская пропаганда Церк Шута... Почему оно появляется в университетском городке? \n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>уровня 60</>, перейдите в {Location:[Tinggen(1568,976)]|56840;-2330;-1360;2;5200002;0}, чтобы запустить задание \n<Assistant_Title2>Task награда</>: познавательный опыт, связывающий Сулера"
   },
   {
     "id": "027121",
@@ -13881,7 +13881,7 @@
     "id": "027313",
     "source_cn": "本层已完成，和奥黛丽对话深入愚者梦境",
     "ref_en": "This layer is complete; talk to Audrey to go deeper into the Fool's dream",
-    "target_ru": "Этот слой завершен; поговорите с Одри, чтобы глубже погрузиться в сон дурака"
+    "target_ru": "Этот слой завершен; поговорите с Одри, чтобы глубже погрузиться в сон Шута"
   },
   {
     "id": "027314",
@@ -22737,7 +22737,7 @@
     "id": "028789",
     "source_cn": "来自愚者的祝福，非战斗状态下每2秒恢复10%生命值。",
     "ref_en": "Blessing from The Fool; restores 10% of Health every 2 seconds when out of combat.",
-    "target_ru": "Благословение дурака; Восстанавливает 10% здоровья каждые 2 сек. вне боя."
+    "target_ru": "Благословени Шута; Восстанавливает 10% здоровья каждые 2 сек. вне боя."
   },
   {
     "id": "028790",
@@ -24729,7 +24729,7 @@
     "id": "029121",
     "source_cn": "你的物品并非凡物，自然仪式也要有相应的位格。而且，我隐约感觉，它也许能帮助“愚者”先生早日从沉眠中醒来。",
     "ref_en": "Your item is not an ordinary object, so naturally, the ritual must have a corresponding level. Moreover, I vaguely feel that it might help Mr. Fool wake up from His slumber sooner.",
-    "target_ru": "Ваш предмет не является обычным предметом, поэтому естественно, что ритуал должен иметь соответствующий уровень. Более того, я смутно чувствую, что это могло бы помочь мистеру Дураку скорее проснуться от сна."
+    "target_ru": "Ваш предмет не является обычным предметом, поэтому естественно, что ритуал должен иметь соответствующий уровень. Более того, я смутно чувствую, что это могло бы помочь Мистеруу скорее проснуться от сна."
   },
   {
     "id": "029122",
@@ -25743,7 +25743,7 @@
     "id": "029290",
     "source_cn": "愚者的叹息",
     "ref_en": "The Fool's Sigh",
-    "target_ru": "Вздох дурака"
+    "target_ru": "Вздох Шута"
   },
   {
     "id": "029291",

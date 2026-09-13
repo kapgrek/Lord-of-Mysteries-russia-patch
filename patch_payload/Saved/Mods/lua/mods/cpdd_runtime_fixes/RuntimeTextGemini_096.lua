@@ -184,7 +184,7 @@ return {
     ["Connection Chat Topic - Daly 5"] = "Тема чата подключения — Дейли b",
     ["What was picked up is..."] = "То, что было подобрано, это...",
     ["A household soup pot forged from black iron; the heavy material is suitable for slow-simmering winter soups."] = "Бытовая суповая кастрюля, выкованная из черного железа; тяжелый материал подходит для медленно кипящих зимних супов.",
-    ["Tell him the honorific name of The Fool"] = "Назови ему почетное имя Дурак.",
+    ["Tell him the honorific name of The Fool"] = "Назови ему почетное имя Шут.",
     ["Level 61 6-Player Dungeon Boss Hard"] = "Босс подземелья 61-го уровня для 6 игроков, сложный уровень",
     ["Sing!"] = "Петь!",
     ["Talk to Carol"] = "Поговорите с Кэрол",

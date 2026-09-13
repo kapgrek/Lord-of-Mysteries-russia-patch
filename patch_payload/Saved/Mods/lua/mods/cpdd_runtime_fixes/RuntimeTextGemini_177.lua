@@ -264,7 +264,7 @@ return {
     ["I can't tell the difference at all... Could this be the \"Lucky Egg\"? Let me check the others..."] = "Я вообще не вижу разницы... Может ли это быть «Счастливое яйцо»? Давайте я проверю остальных...",
     ["Cafeteria chef"] = "Шеф-повар кафетерия",
     ["Blonde woman in apron"] = "Блондинка в фартуке",
-    ["Fool's Dream - Maze Escape - Detect Nearby Players"] = "Мечта дурака - Побег из лабиринта - Обнаружение ближайших игроков",
+    ["Fool's Dream - Maze Escape - Detect Nearby Players"] = "Мечта Шута - Побег из лабиринта - Обнаружение ближайших игроков",
     ["Barrier Fragment"] = "Фрагмент Барьера",
     ["Fatima "] = "Фатима",
     ["5231074 Text Game Single-Player Instance"] = "5231074 Одиночное измерение: Текстовая игра",

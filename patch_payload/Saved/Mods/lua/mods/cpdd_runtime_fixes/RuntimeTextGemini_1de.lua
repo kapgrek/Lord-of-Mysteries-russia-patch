@@ -235,7 +235,7 @@ return {
     ["Attack Speed increased by 20%"] = "Скорость атаки увеличена на 20%.",
     ["Hm? Is that... the student from just now?"] = "Хм? Это... тот студент, который только что был?",
     ["The right half, paired with the left curtain, forms a loose night sky when closed."] = "Правая половина в сочетании с левой занавеской в ​​закрытом состоянии образует рыхлое ночное небо.",
-    ["Fool's Dream-Out-of-control Seer-Clear Useless Bookshelf"] = "Мечта дурака. Вышедшая из-под контроля Прозрачная бесполезная книжная полка.",
+    ["Fool's Dream-Out-of-control Seer-Clear Useless Bookshelf"] = "Мечта Шута. Вышедшая из-под контроля Прозрачная бесполезная книжная полка.",
     ["Achievement Reward"] = "Награда за достижение",
     ["<P_Heart> (There is nothing left... nothing left... not even a direction to take one step forward...) </>"] = "<P_Heart> (Ничего не осталось... ничего не осталось... даже нет направления сделать шаг вперед...) </>",
     ["Moment of Fate City Ranking Title Rewards"] = "Награды за рейтинговые титулы в городе Момент Судьбы",

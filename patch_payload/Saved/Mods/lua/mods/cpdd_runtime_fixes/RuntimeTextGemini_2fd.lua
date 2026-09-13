@@ -27,7 +27,7 @@ return {
     ["League Defense Tower - Reduction Aura"] = "Башня защиты Лиги - Аура уменьшения",
     ["Pretend for a moment."] = "Притворитесь на мгновение.",
     ["What happened later?"] = "Что произошло позже?",
-    ["While Fool's Blessing is active, using Air Bullet can summon an additional Fool's Top Hat; the limit for Fool's Top Hats is increased to 6."] = "Пока активно «Благословение дурака», использование «Воздушной пули» может вызвать дополнительный цилиндр дурака; лимит на дурацкие цилиндры увеличен до 6.",
+    ["While Fool's Blessing is active, using Air Bullet can summon an additional Fool's Top Hat; the limit for Fool's Top Hats is increased to 6."] = "Пока активно «Благословени Шута», использование «Воздушной пули» может вызвать дополнительный цилиндр Шута; лимит на дурацкие цилиндры увеличен до 6.",
     ["That kind of life must have been very lonely."] = "Такая жизнь, должно быть, была очень одинокой.",
     ["Surveying..."] = "Геодезия...",
     ["Refuse to beg for mercy"] = "Отказывайтесь просить о пощаде",

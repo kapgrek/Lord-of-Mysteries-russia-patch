@@ -198,7 +198,7 @@ return {
     ["Cleo "] = "Клео",
     ["What to do next"] = "Что делать дальше",
     ["A single match..."] = "Один матч...",
-    ["Mr. \"Fool\", do you mind having a few more \"attempts\" like this?"] = "Господин «Дурак», вы не возражаете против еще нескольких подобных «попыток»?",
+    ["Mr. \"Fool\", do you mind having a few more \"attempts\" like this?"] = "Господин «Шут», вы не возражаете против еще нескольких подобных «попыток»?",
     ["Not a commander player; no usage permission."] = "Не командирский игрок; нет разрешения на использование.",
     ["Gain a Shield equal to <HighLight>{CheckStar(Type=\"sealed\",ID=2085019)=1?21%}{CheckStar(Type=\"sealed\",ID=2085019)=2?30%}{CheckStar(Type=\"sealed\",ID=2085019)=3?39%}</> of your Max Health, lasting for *f seconds. When the shield is broken, you gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for buffdisc(*id) seconds. This effect has an internal Cooldown of buffdisc(*id) seconds."] = "Получите щит, равный <HighLight>{CheckStar(Type=\"sealed\",ID=2085019)=1?21%}{CheckStar(Type=\"sealed\",ID=2085019)=2?30%}{CheckStar(Type=\"sealed\",ID=2085019)=3?39%}</> от вашего максимального здоровья, длительностью *f сек.. Когда щит сломан, вы получаете <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> на buffdisc(*id) сек.. Этот эффект имеет внутреннее время восстановления buffdisc(*id) сек..",
     ["Looking to rent a place?"] = "Хотите арендовать место?",

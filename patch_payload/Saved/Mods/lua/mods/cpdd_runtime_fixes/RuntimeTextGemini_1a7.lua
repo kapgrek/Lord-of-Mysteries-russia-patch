@@ -192,7 +192,7 @@ return {
     ["Check Level/Scene FlowChart"] = "Блок-схема проверки уровня/сцены",
     ["Dynamic Carriage 1"] = "Динамическая каретка b",
     ["Eye of Taboo"] = "Глаз табу",
-    ["For Mr. Fool... I have decided to accept this commission. So, where should I go to take photos?"] = "Для господина дурака... Я решил принять это поручение. Итак, куда мне пойти, чтобы сфотографироваться?",
+    ["For Mr. Fool... I have decided to accept this commission. So, where should I go to take photos?"] = "Для господина Шута... Я решил принять это поручение. Итак, куда мне пойти, чтобы сфотографироваться?",
     ["Spawn 3 Track 1 Right"] = "Спаун 3. Трек 1. Правый.",
     ["\"Spark\""] = "\"Искра\"",
     ["Ruoyao"] = "Руояо",

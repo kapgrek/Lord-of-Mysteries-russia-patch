@@ -207,7 +207,7 @@ return {
     ["I am a bit afraid of heights, but I appreciate it."] = "Я немного боюсь высоты, но ценю это.",
     ["Taste the dishes"] = "Попробуйте блюда",
     ["Orianna - Cleaning"] = "Орианна - Уборка",
-    ["Fool Resource (Card Energy)"] = "Ресурс дурака (энергия карты)",
+    ["Fool Resource (Card Energy)"] = "Ресурс Шута (энергия карты)",
     ["Pain... my head hurts so much... wuwuwu... the sound, the sound is back..."] = "Боль... у меня так болит голова... ууууу... звук, звук вернулся...",
     ["Club Level"] = "Клубный уровень",
     ["Interpret notes"] = "Интерпретация примечаний",

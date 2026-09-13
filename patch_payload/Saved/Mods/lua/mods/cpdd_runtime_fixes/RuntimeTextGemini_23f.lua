@@ -241,7 +241,7 @@ return {
     ["Just don't drink too much, the dreams might become too 'real'."] = "Только не пей слишком много, сны могут стать слишком «реальными».",
     ["Torrent of Information"] = "Информационный поток",
     ["Level 5 - Control"] = "Уровень 5 – Контроль",
-    ["The apocalypse is near, and you are still some distance from high Sequences. Mr. \"The Fool\" borrowed the mythical form of a deity from history and projected it into the cocoon, thereby forging power for you that transcends your own."] = "Апокалипсис уже близко, а вы все еще находитесь на некотором расстоянии от высоких Последовательностей. Мистер «Дурак» позаимствовал мифическую форму божества из истории и спроецировал ее в кокон, тем самым создав для вас силу, превосходящую вашу собственную.",
+    ["The apocalypse is near, and you are still some distance from high Sequences. Mr. \"The Fool\" borrowed the mythical form of a deity from history and projected it into the cocoon, thereby forging power for you that transcends your own."] = "Апокалипсис уже близко, а вы все еще находитесь на некотором расстоянии от высоких Последовательностей. Мистер «Шут» позаимствовал мифическую форму божества из истории и спроецировал ее в кокон, тем самым создав для вас силу, превосходящую вашу собственную.",
     ["Go to the crime scene, Mr. Welch's residence. The \"expert\" is waiting for us there."] = "Отправляйтесь на место преступления, в резиденцию мистера Уэлча. Там нас ждет «эксперт».",
     ["Today's Popular"] = "Сегодняшние популярные",
     ["Appearance Interface Preview"] = "Внешний вид Предварительный просмотр интерфейса",

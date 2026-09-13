@@ -227,7 +227,7 @@ return {
     ["Participation Condition"] = "Условия участия",
     ["Oh... hello, I really wish my butt could have arrived with me..."] = "Ох... привет, мне бы очень хотелось, чтобы моя задница приехала со мной...",
     ["Partner Klein Skill - Fortune-Turning Ritual"] = "Навык партнера Клейна – Ритуал удачи",
-    ["Companion Shop"] = "Сопутствующий магазин",
+    ["Companion Shop"] = "Сопутствующий",
     ["Acting Trigger Point - Spectator"] = "Триггерная точка актерского мастерства — зритель",
     ["Echo of Companionship"] = "Эхо дружбы",
     ["Can be left blank for full-screen filtering; if greater than 0, destroy creatures within the radius."] = "Можно оставить пустым для полноэкранной фильтрации; если больше 0, уничтожайте существ в радиусе.",

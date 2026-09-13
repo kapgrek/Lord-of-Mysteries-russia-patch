@@ -219,7 +219,7 @@ return {
     ["Play Display - Go to Plane 1"] = "Воспроизвести дисплей — перейти к плоскости b",
     ["I understand, Morian... Tomorrow, let's go to the statues and see those brave people."] = "Я понимаю, Мориан... Завтра пойдем к статуям и посмотрим на этих храбрых людей.",
     ["<P_Heart>(Wife? He? What's going on... David, a male name?)</>"] = "<P_Heart>(Жена? Он? Что происходит... Дэвид, мужское имя?)</>",
-    ["The Fool."] = "Дурак.",
+    ["The Fool."] = "Шут.",
     ["The monster's residual spirituality headed into the alley. The leader shouldn't be far."] = "Остаточная духовность монстра направилась в переулок. Лидер не должен быть далеко.",
     ["Talk to the butler."] = "Поговорите с дворецким.",
     ["Is this some kind of ritual or mysticism of the giants?"] = "Это какой-то ритуал или мистика великанов?",

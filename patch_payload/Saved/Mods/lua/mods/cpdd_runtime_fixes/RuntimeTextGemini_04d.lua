@@ -145,7 +145,7 @@ return {
     ["Restores *d Health every 1.5 seconds to friendly units within the magic circle."] = "Восстанавливает *d очков здоровья дружественным группам внутри круга каждые 1,5 секунды.",
     ["5230233 Homestead Exterior Plane"] = "5230233 Самолет для домашней сцены на открытом воздухе",
     ["%s used %s, increasing club funds by %d points."] = "%s использовал %s, добавив клубу %d баллов.",
-    ["The school is a very special place. To some extent, you can consider this a corner of Mr. Fool's divine kingdom."] = "Школа – это особенное место. В определенной степени вы можете думать об этом как об уголке королевства господина дурака.",
+    ["The school is a very special place. To some extent, you can consider this a corner of Mr. Fool's divine kingdom."] = "Школа – это особенное место. В определенной степени вы можете думать об этом как об уголке королевства господина Шута.",
     ["Church of the Lord of Storms"] = "Церковь Повелителя Бурь",
     ["Drunken Man"] = "Пьяный мужчина",
     ["Roasted Lamb Leg"] = "Жареная баранья нога",

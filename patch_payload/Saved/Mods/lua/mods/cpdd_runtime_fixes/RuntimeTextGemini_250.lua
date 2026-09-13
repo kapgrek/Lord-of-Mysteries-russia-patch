@@ -57,7 +57,7 @@ return {
     ["Fate's Gambling Table"] = "Игровой стол судьбы",
     ["Who turned you into a monster?"] = "Кто превратил тебя в монстра?",
     ["This sounds... not like something an ordinary person should touch."] = "Это звучит... не похоже на то, к чему должен прикасаться обычный человек.",
-    ["Fool's Dream - On-site Rescue - Find Player Position when pressing Z"] = "Мечта дурака — Спасение на месте — Найдите позицию игрока, нажав Z",
+    ["Fool's Dream - On-site Rescue - Find Player Position when pressing Z"] = "Мечта Шута — Спасение на месте — Найдите позицию игрока, нажав Z",
     ["Fate"] = "Судьба",
     ["Understand the situation from the master of the mansion"] = "Разберитесь в ситуации от хозяина особняка",
     ["Southern Continent table and chairs"] = "Стол и стулья Южного континента",

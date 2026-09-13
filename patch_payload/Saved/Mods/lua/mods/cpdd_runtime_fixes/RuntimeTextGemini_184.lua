@@ -198,7 +198,7 @@ return {
     ["Extraordinary events are like this; danger and madness are hidden behind daily life."] = "Вот такие чрезвычайные события; опасность и безумие скрываются за повседневной жизнью.",
     ["Solo Circle Dance"] = "Соло Хоровод",
     ["Quest custom event: Player creates public object based on InstanceID list (does not take effect in open world), teleport to specified scene coordinates."] = "Пользовательское событие квеста: игрок создает общедоступный объект на основе списка InstanceID (не действует в открытом мире), телепортируется к указанным координатам сцены.",
-    ["The knowledge infusion of the Hidden Sage... No, this will tear my brain apart. I need the help of Mr. Fool!"] = "Вливание знаний Скрытого Мудреца... Нет, это разорвет мой мозг на части. Мне нужна помощь мистера Дурак!",
+    ["The knowledge infusion of the Hidden Sage... No, this will tear my brain apart. I need the help of Mr. Fool!"] = "Вливание знаний Скрытого Мудреца... Нет, это разорвет мой мозг на части. Мне нужна помощь  Шута!",
     ["In the end... that child Klein turned into his appearance and danced the last dance with me."] = "В конце концов... этот ребенок Клейн превратился в свой облик и станцевал со мной последний танец.",
     ["Frill is sick and cannot go out?"] = "Фрил заболел и не может выйти на улицу?",
     ["Look, here, even the stall owners don't have to stare at their stalls all the time, which was unimaginable before."] = "Посмотрите, здесь даже владельцам ларьков не приходится все время пялиться на свои ларьки, что раньше было невообразимо.",

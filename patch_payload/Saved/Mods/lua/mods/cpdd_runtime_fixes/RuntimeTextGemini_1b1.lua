@@ -213,7 +213,7 @@ return {
     ["Year 2 Season 3 Part II"] = "2-й год, 3-й сезон, часть b",
     ["Are you afraid?"] = "Вы боитесь?",
     ["Open to randomly obtain one piece of <Highlight>item level 62</> orange or gold quality Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable item level</> at the <Highlight>Trading Bazaar</>. <Highlight>Tradable</> items include Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder materials, medicine, food, and more."] = "Откройте для случайного получения одной части оборудования <Highlight> уровня 62</> оранжевого или золотого качества, а также торгового контракта, который можно обменять на предмет <Highlight> уровня </> для торговли на торговой базе <Highlight>T</>. Предметы <Highlight>Tradable</> включают оранжевые сундуки со снаряжением Потусторонний, пылесборники серого тумана, ящики с кристаллами серого тумана, золотую нить, материалы Потусторонний, лекарства, еду и многое другое.",
-    ["Mr. “Fool” used fragments of the Barrier as a cornerstone to open up a safe space in the Spirit World, establishing the Tarot Club here."] = "Господин «Дурак» использовал фрагменты Барьера как краеугольный камень, чтобы открыть безопасное пространство в Мире Духов, основав здесь Клуб Таро.",
+    ["Mr. “Fool” used fragments of the Barrier as a cornerstone to open up a safe space in the Spirit World, establishing the Tarot Club here."] = "Господин «Шут» использовал фрагменты Барьера как краеугольный камень, чтобы открыть безопасное пространство в Мире Духов, основав здесь Клуб Таро.",
     ["Party Time"] = "Время вечеринки",
     ["I pray to you—"] = "Я молюсь тебе —",
     ["Easter Egg - Bell"] = "Пасхальное яйцо - колокольчик",

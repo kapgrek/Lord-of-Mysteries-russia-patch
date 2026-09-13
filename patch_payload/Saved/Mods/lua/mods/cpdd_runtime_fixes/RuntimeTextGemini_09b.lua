@@ -191,7 +191,7 @@ return {
     ["Rilin "] = "Рилин",
     ["Lily and Knight"] = "Лили и рыцарь",
     ["Wake up all the stone statues and come back to find me."] = "Разбуди все каменные статуи и возвращайся, чтобы найти меня.",
-    ["Praise the Fool! <P_Heart>(Wait, why am I also...)</>"] = "Слава дураку! <P_Heart>(Подожди, а почему я тоже...)</>",
+    ["Praise the Fool! <P_Heart>(Wait, why am I also...)</>"] = "Слава Шуту! <P_Heart>(Подожди, а почему я тоже...)</>",
     ["Hard - Offspring Protection"] = "Hard - Защита потомства",
     ["Confirm Overwrite"] = "Подтвердить перезапись",
     ["Cliff that guy got away again!"] = "Клифф, этот парень снова сбежал!",

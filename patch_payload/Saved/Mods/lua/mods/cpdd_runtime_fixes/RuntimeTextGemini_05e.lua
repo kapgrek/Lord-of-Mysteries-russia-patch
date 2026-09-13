@@ -238,7 +238,7 @@ return {
     ["Oh, uh, no... you heard wrong."] = "Ох, нет... ты ослышался.",
     ["Reach 800 completion in the Tingen Order World"] = "Достигните 800 уровня в мире Ордена Тинген.",
     ["Crafting luxury wings"] = "Изготовление роскошных крыльев",
-    ["You seem very interested in the Foundation. It was founded by Mr. Fool and is located at 22 Phelps Street in the North Borough of Backlund. If you have the chance, you should go take a look."] = "Похоже, вы очень заинтересованы в Фонде. Он был основан мистером Дураком и расположен по адресу Фелпс-стрит, 22 в северном районе Бэкланд. Если у вас есть возможность, вам стоит сходить и посмотреть.",
+    ["You seem very interested in the Foundation. It was founded by Mr. Fool and is located at 22 Phelps Street in the North Borough of Backlund. If you have the chance, you should go take a look."] = "Похоже, вы очень заинтересованы в Фонде. Он был основан Мистеромом и расположен по адресу Фелпс-стрит, 22 в северном районе Бэкланд. Если у вас есть возможность, вам стоит сходить и посмотреть.",
     ["Sleepless Echo"] = "Бессонное эхо",
     ["Chat with <h>Jiriel</>"] = "Пообщайтесь с <h>Jiriel</>",
     ["Retire yourself."] = "Уйди на пенсию.",

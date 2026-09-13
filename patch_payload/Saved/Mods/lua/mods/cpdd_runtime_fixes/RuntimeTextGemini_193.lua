@@ -186,7 +186,7 @@ return {
     ["My comrades... they did it for the Heywood Family, for Loen."] = "Мои товарищи... они сделали это ради семьи Хейвуд, ради Лоэн.",
     ["Turn into a harmless creature and immediately enter a state of feigned death."] = "Превращается в безобидное существо и мгновенно входит в состояние притворной смерти.",
     ["<P_Heart>(A farm? I think Rozanne mentioned something strange happening at the farm by Golden Autumn Lake.)</>"] = "<P_Heart>(Ферма? Кажется, Розанна упомянула что-то странное, происходящее на ферме у озера Золотой Осени.) </>",
-    ["Wear"] = "Носить",
+    ["Wear"] = "Надето",
     ["Cannot dismantle; blocked by: %s"] = "Невозможно демонтировать; заблокирован: %s",
     ["There's a place that's haunted. Should we go check it out?"] = "Есть место, где обитают привидения. Должны ли мы пойти проверить это?",
     ["Actually, the purpose of my journey is to solve this mystery."] = "Собственно, цель моего путешествия — разгадать эту тайну.",

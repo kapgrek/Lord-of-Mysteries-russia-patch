@@ -231,7 +231,7 @@ return {
     ["Daddy! It's shining over there, is the Goddess watching us?"] = "Папочка! Там светится, Богиня наблюдает за нами?",
     ["View - Rogue Black Emperor"] = "Вид - Разбойник Черный Император",
     ["Audrey applies the <FaintYellow>Scrutiny</> effect to the target ally, recording damage for a certain period and restoring Health based on a percentage after the time ends."] = "Одри накладывает эффект <FaintYellow>Пристальный взгляд</> на выбранного союзника, фиксируя полученный урон в течение определённого времени, по истечении которого восстанавливает здоровье в процентном соотношении.",
-    ["He spends his time out completing quests assigned by Mr. Fool, seemingly searching for something at sea, and only occasionally returns to the school."] = "Он проводит время, выполняя квесты, заданные Мистером Дураком, по-видимому, ища что-то в море, и лишь изредка возвращается в школу.",
+    ["He spends his time out completing quests assigned by Mr. Fool, seemingly searching for something at sea, and only occasionally returns to the school."] = "Он проводит время, выполняя квесты, заданные Мистеромом, по-видимому, ища что-то в море, и лишь изредка возвращается в школу.",
     ["Give the \"Medal\" to Tonio"] = "Отдайте «Медаль» Тонио.",
     ["It looks like part of the owner's diary, recording an intense obsession to bring 'it' to life."] = "Это похоже на часть дневника владельца, в котором записана сильная навязчивая идея воплотить «это» в жизнь.",
     ["The crowd ahead is dense; you can use the bicycle bell."] = "Толпа впереди плотная; Вы можете использовать велосипедный звонок.",

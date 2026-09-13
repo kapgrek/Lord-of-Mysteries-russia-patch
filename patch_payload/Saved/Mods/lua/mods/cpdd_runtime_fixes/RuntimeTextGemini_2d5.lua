@@ -27,7 +27,7 @@ return {
     ["Update Later"] = "Обновить позже",
     ["Dungeon is unlocked; you can now participate in dungeon gameplay."] = "Подземелье разблокировано; теперь вы можете участвовать в игровом процессе подземелий.",
     ["Left shelf"] = "Левая полка",
-    ["Touch Fool's Gift"] = "Прикоснитесь к подарку дурака",
+    ["Touch Fool's Gift"] = "Прикоснитесь к подар Шута",
     ["Reveal Card 4"] = "Раскройте карту b",
     ["You have been focusing on the murderer the whole time, but you didn't see me."] = "Ты все время был сосредоточен на убийце, но не видел меня.",
     ["Use an amulet to perform divination<h></>"] = "Используйте амулет для гадания<h></>",

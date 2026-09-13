@@ -52,7 +52,7 @@ return {
     ["Random Heavy Stiffness (Knockback)"] = "Случайная тяжелая жесткость (отбрасывание)",
     ["Provide Shield and Healing to targets"] = "Обеспечить щит и исцеление целям",
     ["Lambert Noose - 2 Star"] = "Ламберт Петля - 2 звезды",
-    ["Basic"] = "Базовый",
+    ["Basic"] = "Список",
     ["Area 3-1"] = "Зона 3-b",
     ["I can handle many jobs. I should have been a good worker..."] = "Я могу справиться со многими работами. Я должен был быть хорошим работником...",
     ["Play main quest end display interface (Card)"] = "Интерфейс отображения завершения основного квеста (карта)",

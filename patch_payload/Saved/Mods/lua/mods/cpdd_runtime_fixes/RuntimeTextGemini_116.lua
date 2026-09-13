@@ -222,7 +222,7 @@ return {
     ["Unmanned Vegetable Stall"] = "Беспилотный овощной ларек",
     ["Record Voice"] = "Запись голоса",
     ["Thank you for the compliment."] = "Спасибо за комплимент.",
-    ["Fool's Shelter"] = "Приют для дураков",
+    ["Fool's Shelter"] = "Приют Шута",
     ["In the mirror... your face..."] = "В зеркале... твое лицо...",
     ["[Right Stick Mode 3] Deals effects to a fan-shaped area in front with self as the center. Can release combo skills; enters cooldown after the combo is finished."] = "[Right Stick Mode 3] Deals effects to a fan-shaped area in front with self as the center. Can release combo skills; enters Перезарядка after the combo is finished.",
     ["[Collection] Taste Unknown Plant"] = "[Коллекция] Вкус неизвестного растения",

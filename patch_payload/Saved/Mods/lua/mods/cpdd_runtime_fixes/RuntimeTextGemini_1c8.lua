@@ -41,7 +41,7 @@ return {
     ["Come, return to the essence of death and embrace eternal tranquility."] = "Приди, вернись к сути смерти и прими вечное спокойствие.",
     ["Attack reduced by *d"] = "Атака уменьшена на *d",
     ["Seer - Card Master"] = "Провидец – Мастер карт",
-    ["Sense Fool's Gold Coin"] = "Золотая монета чувства дурака",
+    ["Sense Fool's Gold Coin"] = "Золотая монета чувства Шута",
     ["Appearance: Offspring Protection"] = "Внешний вид: Защита потомства",
     ["Own 20 Orange marionettes"] = "Иметь 20 оранжевых марионеток.",
     ["[Emoji 133]"] = "[Эмодзи 133]",

@@ -43,7 +43,7 @@ return {
     ["Immediately obtain Blue Mountain Crystal ×8 and increase Vitality by 100, which can accumulate beyond the cap."] = "Немедленно получите Кристалл Синей Горы ×8 и увеличьте Живучесть на 100, которая может накапливаться за пределами лимита.",
     ["The mother of all spiritual powers..."] = "Мать всех духовных сил...",
     ["Very pretty"] = "Очень хорошенькая",
-    ["Obtain The Fool card"] = "Получите карту дурака",
+    ["Obtain The Fool card"] = "Получите карту Шута",
     ["Only the strongest man is qualified to possess Miss Belle."] = "Только самый сильный человек способен овладеть Мисс Белль.",
     ["Bullshit! Wh-what Intis lady!"] = "Чушь собачья! Ч-что за леди Интис!",
     ["Retinue"] = "Свита",

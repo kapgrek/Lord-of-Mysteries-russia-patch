@@ -222,7 +222,7 @@ return {
     ["Linda Second Ring"] = "Линда Второе Кольцо",
     ["Clear Utopia Theater on Hard difficulty"] = "Пройти Театр Утопии на высоком уровне сложности.",
     ["I think you mean lemon cake. All the children like this kind of cake."] = "Я думаю, вы имеете в виду лимонный пирог. Всем детям нравится такой торт.",
-    ["This {{Mr.|Ms.}}, could I take a moment of your time? I'd like to tell you about my Lord, Mr. \"Fool\"."] = "Этот {{Mr.|Ms.}}, могу я отнять у вас минутку? Я хотел бы рассказать вам о моем господине, господине «Дураке».",
+    ["This {{Mr.|Ms.}}, could I take a moment of your time? I'd like to tell you about my Lord, Mr. \"Fool\"."] = "Этот {{Mr.|Ms.}}, могу я отнять у вас минутку? Я хотел бы рассказать вам о моем господине, господине «Шуте».",
     ["...This is...!"] = "...Это...!",
     ["Unrivaled"] = "Непревзойденный",
     ["Joe Food"] = "Джо Фуд",

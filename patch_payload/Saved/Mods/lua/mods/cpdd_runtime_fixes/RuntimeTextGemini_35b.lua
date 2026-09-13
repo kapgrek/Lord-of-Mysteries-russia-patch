@@ -264,7 +264,7 @@ return {
     ["Target switch successful; pick up the scattered rotten tomatoes and throw them into the pot!"] = "Переключение цели выполнено успешно; соберите разбросанные гнилые помидоры и бросьте их в кастрюлю!",
     ["The sound of a heartbeat is sealed in the fragrance."] = "Звук сердцебиения запечатлен в аромате.",
     ["But {{he|she}} is right. My grandmother has been gone for ten years, but I always feel she is—sun-drying quilts in good weather, and when the wind blows, it's like she's stroking my head."] = "Но {{he|she}} прав. Бабушки нет уже десять лет, но я всегда ощущаю ее присутствие: в хорошую погоду сохнут одеяла, а когда дует ветер, она словно гладит меня по голове.",
-    ["The Fool... <P_Heart>(A title I've never heard of, but it seems to imply terrifying secrets and power... I can't probe any further, it's too dangerous!)</>"] = "Дурак... <P_Heart>(Название, о котором я никогда не слышал, но, кажется, оно подразумевает ужасающие секреты и силу... Я не могу исследовать дальше, это слишком опасно!) </>",
+    ["The Fool... <P_Heart>(A title I've never heard of, but it seems to imply terrifying secrets and power... I can't probe any further, it's too dangerous!)</>"] = "Шут... <P_Heart>(Название, о котором я никогда не слышал, но, кажется, оно подразумевает ужасающие секреты и силу... Я не могу исследовать дальше, это слишком опасно!) </>",
     ["Camp captured successfully; continue forward to fight for the War Stele!"] = "Лагерь успешно захвачен; продолжайте сражаться за Военную Стелу!",
     ["Small follower gameplay"] = "Маленький последовательный геймплей",
     ["Was there anything unusual about him before he died?"] = "Было ли в нем что-нибудь необычное перед смертью?",

@@ -58,7 +58,7 @@ return {
     ["And I, who facilitated all this, was high and mighty, arrogant, and cold. Sometimes I wonder, was the me of the imperial era really me?"] = "А я, содействовавший всему этому, был высок и могуч, высокомерен и холоден. Иногда я задаюсь вопросом, действительно ли я имперской эпохи был мной?",
     ["Prioritize the collection of Starlight. Try to <Highlight>attack both</> the Astrolabe User and the Starlight Guard simultaneously, and ensure the Starlight transport is completed."] = "Отдайте приоритет сбору звездного света. Попробуйте <Highlight> атаковать </> пользователя астролябии и стража звездного света одновременно и убедиться, что транспортировка звездного света завершена.",
     ["Fairy Tale - Filter Locked Throw-Skill Player"] = "Fairy Tale - Фильтр заблокирован для игрока с навыками броска",
-    ["<P_Heart> (As expected of Mr. Fool, I have completely understood the meaning of \"Acting.\") </>"] = "<P_Heart> (Как и ожидалось от господина дурака, я полностью понял значение слова «Исполняющее обязанности»). </>",
+    ["<P_Heart> (As expected of Mr. Fool, I have completely understood the meaning of \"Acting.\") </>"] = "<P_Heart> (Как и ожидалось от господина Шута, я полностью понял значение слова «Исполняющее обязанности»). </>",
     ["Your aura appears dark, strange {{Mr.|Ms.}}, what are you sad about?"] = "Твоя аура кажется темной, странной, {{Mr.|Ms.}}, о чем ты грустишь?",
     ["Sun Chaser Attack/Health Reduction (Roguelike)"] = "Атака Sun Chaser/Уменьшение здоровья (рогалик)",
     ["Dodged 12 attacks, agile movement!"] = "Уклонился от 12 атак, ловкое движение!",

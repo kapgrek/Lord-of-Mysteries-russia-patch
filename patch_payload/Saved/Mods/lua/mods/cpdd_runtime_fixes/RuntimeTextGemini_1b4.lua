@@ -215,7 +215,7 @@ return {
     ["(Solo) Clown Clone mark buff for Clown"] = "(Соло) Клоун Усиление метки клона для Клоуна",
     ["Wedding Plan"] = "План свадьбы",
     ["Forced Club Merger"] = "Принудительное слияние клубов",
-    ["Speaking of which, Mr. 'Fool' was also once a member of Blackthorn."] = "Кстати говоря, мистер «Дурак» тоже когда-то был членом Чёрный Чертополох.",
+    ["Speaking of which, Mr. 'Fool' was also once a member of Blackthorn."] = "Кстати говоря, мистер «Шут» тоже когда-то был членом Чёрный Чертополох.",
     ["\"Oh, Supreme Lord of Crimson, Great Empress of Calamity and Horror...\" \n \"I pray for your favor, favor your lost lamb—Selina!\""] = "«О Верховная Владычица Багрянца, великая Императрица Бедствий и Ужаса...»\n«Молю, ниспошли Свое благоволение Твоей заблудшей овечке — Селене!»",
     ["Enter the scene"] = "Выйдите на сцену",
     ["Group Damage Support"] = "Поддержка группового урона",

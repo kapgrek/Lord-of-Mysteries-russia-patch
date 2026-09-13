@@ -246,7 +246,7 @@ return {
     ["Hmm! Lily guards the citizens, and we will guard \"Lightning Lily\"!"] = "Хм! Лилия охраняет горожан, а мы будем охранять «Молниевую Лилию»!",
     ["Clean up with <h>Rozanne</>"] = "Очистка с помощью <h>Розанна</>",
     ["Each participation in a kill increases the wearer's Attack and Defense by <HighLight>10</>, stacking up to <HighLight>5</> times."] = "Каждое участие в убийстве увеличивает атаку и защиту владельца на <HighLight>10</>, суммируясь до <HighLight>5</> раз.",
-    ["Achievement: The Fool's Shelter"] = "Достижение: Приют для дураков",
+    ["Achievement: The Fool's Shelter"] = "Достижение: Приют Шута",
     ["Unlocks at level %s."] = "Разблокируется на уровне %s.",
     ["Captain Cara, if you want to talk to Dunn, I can try some methods. For example... letting him perceive your consciousness?"] = "Капитан Кара, если вы хотите поговорить с Данном, я могу попробовать некоторые методы. Например... позволить ему воспринимать твое сознание?",
     ["We are going to Backlund to spend the New Year with our children. We will be back after the New Year. Wishing everyone a Happy New Year in advance! \n \n \n Closed Dates \n December 20, 1349 ~ January 5, 1350"] = "Едем в Баклунд встречать Новый год с детьми. Мы вернемся после Нового года. Заранее поздравляю всех с Новым годом! \n\n\nДата закрытия\n20 декабря 1349 г. ~ 5 января 1350 г.",

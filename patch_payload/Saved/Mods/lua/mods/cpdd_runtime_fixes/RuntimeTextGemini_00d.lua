@@ -151,7 +151,7 @@ return {
     ["Enter <h>Sinful Tingen</>"] = "Войти в <h>Грешный Тинген</>",
     ["Prologue walkthrough version - Pick up dagger"] = "Версия пролога — возьмите кинжал.",
     ["Tiara"] = "Тиара",
-    ["Gift of the Fool"] = "Подарок дурака",
+    ["Gift of the Fool"] = "подар Шута",
     ["Delete Template"] = "Удалить шаблон",
     ["Butler: My master said, 30 pounds is the reward that an honest person deserves."] = "Стюард: Мой хозяин сказал, что тридцать фунтов — это награда, которую заслуживает честный человек.",
     ["Kelvin"] = "Кельвин",

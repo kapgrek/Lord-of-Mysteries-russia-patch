@@ -215,7 +215,7 @@ return {
     ["I have a portrait of Young Master Elliot, and the Storm Amulet he often wears, is that okay?"] = "У меня есть портрет Молодого Мастера Эллиота и Амулет Шторма, который он часто носит. Хорошо?",
     ["Their names will appear on next week's death list."] = "Их имена появятся в списке смертников на следующей неделе.",
     ["Stitch marks"] = "Следы стежков",
-    ["Unlock hidden identity \"The Fool's Believer\""] = "Разблокируйте скрытую личность «Верующий в дураков»",
+    ["Unlock hidden identity \"The Fool's Believer\""] = "Разблокируйте скрытую личность «Верующий в Шута»",
     ["1: Remove restriction, other: Restore"] = "1: снять ограничение, другое: восстановить",
     ["In other plans."] = "В других планах.",
     ["Treedis"] = "Тридис",

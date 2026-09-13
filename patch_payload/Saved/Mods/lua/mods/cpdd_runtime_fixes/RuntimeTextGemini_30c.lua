@@ -71,7 +71,7 @@ return {
     ["Submit item (set submission ID); player sends quest item; teleport back to the open world scene."] = "Отправить элемент (установить идентификатор отправки); игрок отправляет квестовый предмет; телепортируйтесь обратно в открытый мир.",
     ["Afternoon Tea"] = "Послеобеденный чай",
     ["Little Daisy picked a bunch of daisies, brought them to me, and invited me to smell their fragrance."] = "Маленькая Дейзи сорвала букет ромашек, принесла их мне и предложила понюхать их аромат.",
-    ["I am prepared to face everything. Ah, praise the Fool!"] = "Я готов встретиться со всем. Ах, хвала Дураку!",
+    ["I am prepared to face everything. Ah, praise the Fool!"] = "Я готов встретиться со всем. Ах, хвала Шуту!",
     ["Then she kneaded the light into many, many small balls and gave them to other people who were afraid of the cold, lost, or sad."] = "Затем она смешала свет во множество маленьких шариков и раздала их другим людям, которые боялись холода, потеряли или грустили.",
     ["If you want to go up there, you've asked the wrong person. I'm not in charge of guiding or making introductions."] = "Если вы хотите подняться туда, вы обратились не к тому человеку. Я не отвечаю за руководство или знакомство.",
     ["You seem to have a lot of research on food."] = "Кажется, вы много исследуете еду.",

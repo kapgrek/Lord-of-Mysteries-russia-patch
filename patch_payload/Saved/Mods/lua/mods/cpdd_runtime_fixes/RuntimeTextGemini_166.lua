@@ -42,7 +42,7 @@ return {
     ["<DecH>Craft: </>Champagne Metal & Hand-Inlaid\nA masquerade mask launched by a top Loen jeweler, said to be inspired by Ms. Fors Wall's horror novel about a patient whose face blooms with flowers. Of course, they made quite a few aesthetic adjustments."] = "<DecH>Мастерство: </>Металл цвета шампанского · Ручная инкрустация\nМаскарадное украшение от ведущих ювелиров Лоэна. Говорят, на его создание вдохновил роман ужасов госпожи Форс Уолл о пациенте, на чьём лице распускались цветы. Разумеется, ювелиры изрядно облагородили этот образ.",
     ["Override Owner Yaw (Local Coordinate Offset [-180, 180])"] = "Переопределить отклонение владельца (смещение локальных координат [-180, 180])",
     ["Diner in the Corner"] = "Закусочная в углу",
-    ["Now, it is yours. Mr. Fool personally bestowed the miracle of divine descent upon this garment. Treasure it well."] = "Теперь оно ваше. Господин Дурак лично даровал этому одеянию чудо божественного происхождения. Берегите это хорошо.",
+    ["Now, it is yours. Mr. Fool personally bestowed the miracle of divine descent upon this garment. Treasure it well."] = "Теперь оно ваше. Господин Шут лично даровал этому одеянию чудо божественного происхождения. Берегите это хорошо.",
     ["+25 Dual Attack"] = "+25 Двойная атака",
     ["2天"] = "2 дня",
     ["39世界BOSS普通10%生命"] = "Мировой босс 39 уровня, нормальный, 10% здоровья.",

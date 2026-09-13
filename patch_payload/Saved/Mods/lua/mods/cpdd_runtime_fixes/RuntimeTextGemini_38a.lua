@@ -52,7 +52,7 @@ return {
     ["Sealing Pillar"] = "Уплотнительный столб",
     ["What should I eat for dinner..."] = "Что мне съесть на ужин...",
     ["He doesn't care about Melanie's happiness at all!"] = "Его совершенно не волнует счастье Мелани!",
-    ["Next, I will follow the revelation of Mr. Fool and guide you to drink the Sequence 9 potion."] = "Далее я последую откровению Мистера Дурака и помогу вам выпить зелье Последовательности 9.",
+    ["Next, I will follow the revelation of Mr. Fool and guide you to drink the Sequence 9 potion."] = "Далее я последую откровению Мистераа и помогу вам выпить зелье Последовательности 9.",
     ["The gates of Heywood Manor are open for you, the crystal chandelier reflects gorgeous light, and the figures on the dance floor are dancing gracefully..."] = "Ворота поместья Хейвуд открыты для вас, хрустальная люстра отражает великолепный свет, а фигуры на танцполе изящно танцуют...",
     ["Use to obtain <Highlight> Name Card Theme: Path Under the Night </>"] = "Используйте для получения темы визитной карточки <Highlight>: «Путь под ночью» </>.",
     ["Vitality Recovery Potion"] = "Зелье восстановления жизненной силы",

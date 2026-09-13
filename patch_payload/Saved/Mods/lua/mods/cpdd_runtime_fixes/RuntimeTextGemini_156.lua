@@ -186,7 +186,7 @@ return {
     ["Use to open the equipment selection interface and choose 1 Unique Equipment."] = "Используйте, чтобы открыть интерфейс выбора оборудования и выберите 1 уникальное оборудование.",
     ["No... this should be the result of not soaking the meat in ice water at all, he shouldn't make such a mistake..."] = "Нет... это должно быть результатом того, что мясо вообще не замачивали в ледяной воде, он не должен допускать такой ошибки...",
     ["After use, you can advance to Sequence 8: Prayer-Seeker potion, which contains mysterious power."] = "После использования вы можете перейти к последовательности 8: зелье «Искатель молитв», которое содержит таинственную силу.",
-    ["Medicine Department Store"] = "Медицинский универмаг",
+    ["Medicine Department Store"] = "Медикаменты",
     ["Stage fill light"] = "Заполняющий свет сцены",
     ["Tree trunk"] = "Ствол дерева",
     ["Flaming Stealth Monster"] = "Пылающий невидимый монстр",

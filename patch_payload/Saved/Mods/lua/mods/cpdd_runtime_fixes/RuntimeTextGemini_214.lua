@@ -49,7 +49,7 @@ return {
     ["Hey! Don't think about running!"] = "Привет! Не думай о беге!",
     ["Klein: (I was as fast as I could... usually, with a newspaper, I could squat for a while longer...)"] = "Клейн: (Я ехал так быстро, как только мог... обычно с газетой я мог приседать еще какое-то время...)",
     ["Follow Joyce"] = "Следуйте за Джойс",
-    ["Mr. \"Fool\"! How are you here?"] = "Господин «Дурак»! Как ты здесь?",
+    ["Mr. \"Fool\"! How are you here?"] = "Господин «Шут»! Как ты здесь?",
     ["Passenger's Lost Property"] = "Потерянное имущество пассажира",
     ["Celeste is\r\nan incompetent daughter"] = "Селеста —\r\nнепутёвая дочь",
     ["A perfect performance surpassing 99%% of Beyonders. The gods look on; this name is a legend."] = "Идеальная производительность, превосходящая 99%% Потусторонние. Боги смотрят; это имя - легенда.",

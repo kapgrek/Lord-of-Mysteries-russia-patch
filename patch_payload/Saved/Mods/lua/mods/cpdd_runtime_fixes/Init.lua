@@ -116,7 +116,7 @@ local aggregateOverrides = {
     [625210604657664] = "Связи",
     [712484608544768] = "Победы",
     [774126247610880] = "Снаряж.",
-    [774126784481024] = "Реликвии",
+    [774126784481024] = "Релик.",
     [866415967995648] = "Арена",
     [866622663296512] = "Тень",
     [884214580905472] = "Путь",
@@ -344,6 +344,79 @@ end
 -- aggregate entry for 米 (which legitimately means "Rice" in chat/filter
 -- data) is not changed globally.
 local visibleTextExactOverrides = {
+    -- Relics tab labels
+    ["Common"] = "Обычные",
+    ["Special"] = "Особенные",
+    ["特殊"] = "Особенные",
+    ["Особенный"] = "Особенные",
+    ["Attack Sealed Artifact"] = "Атакующий",
+    ["攻击封印物"] = "Атакующий",
+    ["Атаковать запечатанный объект"] = "Атакующий",
+    ["Defense Sealed Artifact"] = "Защитный",
+    ["防御封印物"] = "Защитный",
+    ["Запечатанный Защитным Артефакт"] = "Защитный",
+    ["Specialized Sealed Artifact"] = "Специальный",
+    ["特化封印物"] = "Специальный",
+    ["Специализированный запечатанный артефакт"] = "Специальный",
+    ["Beyonder Knowledge"] = "Знания",
+    ["非凡知识"] = "Знания",
+    ["Потусторонние знания"] = "Знания",
+
+    -- Marionettes tab labels
+    ["上阵"] = "Установить",
+    ["Deploy"] = "Установить",
+    ["Развертывать"] = "Установить",
+    ["Развёртывать"] = "Установить",
+    ["基础"] = "Список",
+    ["Basic"] = "Список",
+    ["Базовый"] = "Список",
+    ["旅行"] = "Путешествие",
+    ["游历"] = "Путешествие",
+    ["Путешествовать"] = "Путешествие",
+    ["获取秘偶"] = "Приручить",
+    ["获得秘偶"] = "Приручить",
+    ["Obtain marionette"] = "Приручить",
+    ["Obtain Marionette"] = "Приручить",
+    ["Получить марионетку"] = "Приручить",
+    ["Приручить марионетку"] = "Приручить",
+
+    -- Equipment
+    ["穿戴"] = "Надето",
+    ["Wear"] = "Надето",
+    ["Носить"] = "Надето",
+
+    -- Shop category tabs
+    ["百货"] = "Универсальный",
+    ["General Store"] = "Универсальный",
+    ["Универсальный магазин"] = "Универсальный",
+    ["凯旋商店"] = "Триумф",
+    ["Triumph Shop"] = "Триумф",
+    ["Магазин Триумф"] = "Триумф",
+    ["交易集市"] = "Базар",
+    ["Trading Bazaar"] = "Базар",
+    ["Торговый базар"] = "Базар",
+    ["报销商店"] = "Возвратный",
+    ["Reimbursement Shop"] = "Возвратный",
+    ["Возвратный магазин"] = "Возвратный",
+    ["同行商店"] = "Сопутствующий",
+    ["Companion Shop"] = "Сопутствующий",
+    ["Сопутствующий магазин"] = "Сопутствующий",
+    ["冒险商店"] = "Приключения",
+    ["Adventure Shop"] = "Приключения",
+    ["Магазин приключений"] = "Приключения",
+    ["药品百货"] = "Медикаменты",
+    ["Medicine Department Store"] = "Медикаменты",
+    ["Медицинский универмаг"] = "Медикаменты",
+    ["转运商店"] = "Фортуна",
+    ["Fortune Shop"] = "Фортуна",
+    ["Магазин Фортуны"] = "Фортуна",
+    ["往事陈列馆"] = "Зал воспоминаний",
+    ["Past Exhibition Hall"] = "Зал воспоминаний",
+    ["Прошлый выставочный зал"] = "Зал воспоминаний",
+    ["外观转换"] = "Смена облика",
+    ["Appearance Conversion"] = "Смена облика",
+    ["Преобразование внешнего вида"] = "Смена облика",
+
     ["Exclusive Sequence Quest"] = "Особое задание Последовательности",
     ["Exclusive Sequence Quest "] = "Особое задание Последовательности",
     ["Quest description quest description quest description"] = "Описание задания...",
@@ -852,9 +925,9 @@ local shortMenuLabels = {
     Skill = "Навыки",
     Talent = "Таланты",
     Promotion = "Путь",
-    Sealed = "Реликвии",
+    Sealed = "Релик.",
     SecretPartner = "Марион.",
-    Fellow = "Союзники",
+    Fellow = "Связи",
     Paotuan = "НРИ",
     Guild = "Клуб",
     Home = "Замок",
@@ -1773,6 +1846,46 @@ function runtimeFixes.translateDigestionTask(value)
     return nil
 end
 
+function runtimeFixes.normalizeShopLotLimit(value)
+    if type(value) ~= "string" or value == "" then return value end
+    local prefix, cur, max = value:match("^(.-)%s*(%d+)/(%d+)$")
+    if prefix and cur and max then
+        local clean = prefix:gsub("%s+", "")
+        local prefixMap = {
+            ["ПодземельеНеделя"] = "В неделю ",
+            ["DungeonWeek"] = "В неделю ",
+            ["副本周"] = "В неделю ",
+            ["Неделя"] = "В неделю ",
+            ["Week"] = "В неделю ",
+            ["周"] = "В неделю ",
+            ["ПодземельеДень"] = "В день ",
+            ["DungeonDay"] = "В день ",
+            ["副本天"] = "В день ",
+            ["День"] = "В день ",
+            ["Day"] = "В день ",
+            ["日"] = "В день ",
+            ["天"] = "В день ",
+            ["ПодземельеСезон"] = "В сезон ",
+            ["DungeonSeason"] = "В сезон ",
+            ["副本赛季"] = "В сезон ",
+            ["Сезон"] = "В сезон ",
+            ["Season"] = "В сезон ",
+            ["赛季"] = "В сезон ",
+        }
+        local mapped = prefixMap[clean]
+        if mapped then
+            return mapped .. cur .. "/" .. max
+        end
+    end
+    if value:find("Подземелье%s*Неделя") or value:find("Dungeon%s*Week") or value:find("副本%s*周") then
+        local replaced = value:gsub("Подземелье%s*Неделя%s*(%d+)/(%d+)", "В неделю %1/%2")
+        replaced = replaced:gsub("Dungeon%s*Week%s*(%d+)/(%d+)", "В неделю %1/%2")
+        replaced = replaced:gsub("副本%s*周%s*(%d+)/(%d+)", "В неделю %1/%2")
+        if replaced ~= value then return replaced end
+    end
+    return value
+end
+
 local function translateVisibleText(value)
     if type(value) ~= "string" then
         return value
@@ -1805,6 +1918,16 @@ local function translateVisibleText(value)
         visibleTextCache[value] = questPasswordRestored
         return questPasswordRestored
     end
+    local shopLimit = runtimeFixes.normalizeShopLotLimit(value)
+    if shopLimit ~= value then
+        visibleTextCache[value] = shopLimit
+        return shopLimit
+    end
+    local reviewedExact = visibleTextExactOverrides[value]
+    if reviewedExact ~= nil then
+        visibleTextCache[value] = reviewedExact
+        return reviewedExact
+    end
     local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
@@ -1813,12 +1936,6 @@ local function translateVisibleText(value)
         local onIntercept = rawget(_G, "__LOM_OnTextIntercepted")
         if onIntercept then pcall(onIntercept, "visible", value, gemini) end
         return gemini
-    end
-
-    local reviewedExact = visibleTextExactOverrides[value]
-    if reviewedExact ~= nil then
-        visibleTextCache[value] = reviewedExact
-        return reviewedExact
     end
     local normalizedLargeNumber = runtimeFixes.normalizeLocalizedLargeNumbers(value)
     if normalizedLargeNumber ~= value
@@ -2902,6 +3019,10 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     local questPasswordRestored = restoreQuestChatPassword(value)
     if questPasswordRestored ~= value then
         return questPasswordRestored
+    end
+    local shopLimit = runtimeFixes.normalizeShopLotLimit(value)
+    if shopLimit ~= value then
+        return shopLimit
     end
     local reviewedExact = visibleTextExactOverrides[value]
     if reviewedExact ~= nil then

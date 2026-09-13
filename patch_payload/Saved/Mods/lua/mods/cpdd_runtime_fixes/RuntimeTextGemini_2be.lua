@@ -70,7 +70,7 @@ return {
     ["Fanatic A"] = "Фанатик А",
     ["How can I do business like this?"] = "Как я могу вести такой бизнес?",
     ["Long-Long-Short-Long"] = "Длинный-длинный-короткий-длинный",
-    ["The Fool from another world"] = "Дурак из другого мира",
+    ["The Fool from another world"] = "Шут из другого мира",
     ["Maintain queue for 10 minutes after disconnection"] = "Поддерживать очередь в течение 10 минут после отключения",
     ["Follow them and see."] = "Следуйте за ними и увидите.",
     ["<P_Heart> (Forehead palm) </> This lamp, I'll go ask again..."] = "<P_Heart> (Лобная ладонь) </> Эта лампа, пойду спрошу еще раз...",

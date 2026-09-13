@@ -104,7 +104,7 @@ return {
     ["Captain Frye, how does one act as a Corpse Collector? Do you really have to deal with corpses?"] = "Капитан Фрай, как действовать в роли сборщика трупов? Вам действительно приходится иметь дело с трупами?",
     ["Text board N"] = "Текстовая доска N",
     ["<Assistant_Title1>Embryo of Myth</>\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Extraordinary material with 6 traits"] = "<Assistant_Title1>Прототип мифа</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </> Получить 1 необычное вещество с 6 записями",
-    ["After receiving the guidance of the Gospel, the nightmares have never appeared again. Praise the Fool!"] = "После получения руководства Евангелия кошмары больше никогда не появлялись. Слава дураку!",
+    ["After receiving the guidance of the Gospel, the nightmares have never appeared again. Praise the Fool!"] = "После получения руководства Евангелия кошмары больше никогда не появлялись. Слава Шуту!",
     ["NPC_Archive Management Spirit"] = "NPC_Дух управления архивом",
     ["Defense Battle Energy Ball Group 3: Frontal Gathering Type"] = "Защитная битва Энергетический шар Группа 3: Тип фронтального сбора",
     ["Betting · Winery effective, obtain 100% of own [Rare Mist Champagne]"] = "Ставки · Винодельня эффективна, получите 100% собственного [Редкого шампанского тумана]",

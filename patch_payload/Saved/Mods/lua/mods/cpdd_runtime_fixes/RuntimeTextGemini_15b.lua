@@ -167,7 +167,7 @@ return {
     ["Interact with Bread Mirror"] = "Взаимодействовать с Хлебным зеркалом",
     ["The captain is on duty at the Chanis Gate today and cannot leave"] = "Капитан сегодня дежурит у Врат Чаниса и не может уйти.",
     ["City Quest 18 - When the windmill turns"] = "Городской квест 18 - Когда вращается ветряная мельница",
-    ["As expected of Mr. Fool, He is truly caring about the lives of the people at the bottom. Praise the Fool! If I have the chance, I must visit the foundation in person."] = "Как и ожидалось от мистера Дурака, Он действительно заботится о жизни людей внизу. Слава дураку! Если у меня будет возможность, я должен посетить фонд лично.",
+    ["As expected of Mr. Fool, He is truly caring about the lives of the people at the bottom. Praise the Fool! If I have the chance, I must visit the foundation in person."] = "Как и ожидалось от Мистераа, Он действительно заботится о жизни людей внизу. Слава Шуту! Если у меня будет возможность, я должен посетить фонд лично.",
     ["Dark leaves grown in elf settlements, possessing shielding, concealment, and mental Pacify properties."] = "Темные листья, выращенные в эльфийских поселениях, обладают защитными, сокрывающими и ментальными свойствами умиротворения.",
     ["Spectator Resistance"] = "Зрительское сопротивление",
     ["I can still remember the sly smile Sally wore when she placed it in a prominent spot \n."] = "Я до сих пор помню лукавую улыбку Салли,\nкогда она поставила это на самое видное место.",

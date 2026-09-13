@@ -200,7 +200,7 @@ return {
     ["Server Ranking"] = "Рейтинг серверов",
     ["Mutation Entry - Heart-Piercing Curse"] = "Запись мутации - Пронзающее сердце проклятие",
     ["Current Season Ranking: %s"] = "Рейтинг текущего сезона: %s",
-    ["Actually, this was also a revelation from Mr. Fool; He is always so thoughtful."] = "Собственно, это тоже было откровением от господина Дурака; Он всегда такой задумчивый.",
+    ["Actually, this was also a revelation from Mr. Fool; He is always so thoughtful."] = "Собственно, это тоже было откровением от господина Шута; Он всегда такой задумчивый.",
     ["I think I have a bit of an understanding of the mystery of this room..."] = "Кажется, я немного понимаю тайну этой комнаты...",
     ["Life Steal"] = "Вампиризм",
     ["Oh! This river is truly magical; you can fish out many brand-new items from it!"] = "Ой! Эта река поистине волшебна; из него можно выудить множество совершенно новых предметов!",

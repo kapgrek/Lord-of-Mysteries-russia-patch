@@ -16,7 +16,7 @@ return {
     ["Use to obtain <Highlight>Dressage Bottoms</>"] = "После использования вы получите <Highlight>Выездковые штаны</>.",
     ["What to do if the workshop cannot produce"] = "Что делать, если мастерская не может производить?",
     ["Resets every Monday"] = "Сброс каждый понедельник",
-    ["It is our honor, Mr. Fool."] = "Мы с удовольствием, господин дурак.",
+    ["It is our honor, Mr. Fool."] = "Мы с удовольствием, господин Шут.",
     ["The number of follows has reached the limit."] = "Количество подписчиков достигло верхнего предела",
     ["The two students walk further and further away, disappearing at the end of the street..."] = "Двое студентов шли все дальше и дальше и исчезли в конце улицы...",
     ["%s rejected your Ride Along invitation."] = "%s отклонил ваше приглашение покататься вместе",

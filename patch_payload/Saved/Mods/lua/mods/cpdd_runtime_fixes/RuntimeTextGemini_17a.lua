@@ -238,7 +238,7 @@ return {
     ["Fight Gang Members"] = "Борьба с членами банды",
     ["There is blood on the bookshelf. It's not human; it smells like the sea."] = "На книжной полке кровь. Это не человек; пахнет морем.",
     ["Prima "] = "Прима",
-    ["Fool's Gospel Instructions"] = "Инструкции по Евангелию для дураков",
+    ["Fool's Gospel Instructions"] = "Инструкции по Евангелию для Шута",
     ["Put down the pocket watch"] = "Положи карманные часы",
     ["The alleys in the Old City are blocked everywhere by trash, with nowhere to set foot.\nOnly by becoming 【】 can one move about freely!"] = "Переулки в старом городе повсюду забиты мусором, из-за чего невозможно находиться.\nТолько став【】вы сможете путешествовать свободно!",
     ["MidActor1"] = "МидАкторb",

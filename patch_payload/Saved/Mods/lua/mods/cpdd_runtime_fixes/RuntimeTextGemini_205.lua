@@ -244,5 +244,5 @@ return {
     ["The fourth chapter of the fairy tale written by Xiga Teang, based on Dunn and Daly."] = "Четвертая глава сказки Сиги Танг по мотивам Данна и Дейли.",
     ["Ritual Magic initiated, light all candles, praise the Fool."] = "Ритуальная Магия начата, зажгите все свечи, похвалите Шута.",
     ["Resurrection is a miracle"] = "Воскресение – это чудо",
-    ["The Fool that doesn't belong to this era."] = "Дурак, который не принадлежит этой эпохе.",
+    ["The Fool that doesn't belong to this era."] = "Шут, не принадлежащий этой эпохе",
 }

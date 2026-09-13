@@ -236,7 +236,7 @@ return {
     ["Warm flesh and blood, so sweet..."] = "Теплая плоть и кровь, такая сладкая...",
     ["Lucky One"] = "Счастливчик",
     ["Yeah, it's not safe here, go home quickly."] = "Да, здесь небезопасно, иди скорее домой.",
-    ["[Praise the Fool]"] = "[Хвала дураку]",
+    ["[Praise the Fool]"] = "[Хвала Шуту]",
     ["Top 1"] = "Топ b",
     ["<Assistant_Title1>【Slightly Skilled in Martial Arts】</>\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Acting Story</>\n<Assistant_Title2>Quest Description: </>On the streets of Tingen, an old man is slowly sweeping the floor. Two thugs walk toward him, seemingly looking for trouble...\n<Assistant_Title2>How to Accept: </>Complete the Advancement Quest, then advance to Sequence 8, head to {Location:[Tingen(684,1204)]|-31529;20429;-2274;2;5200002;0} to trigger the quest.\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, invoices, Adventure Medals, World Adventure Treasure progress"] = "<Assistant_Title1>【Знать немного о боксе】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Игровая история</>\n<Assistant_Title2>Описание задания: </>На улице Тингена старик медленно подметал пол. К нему подошли два гангстера, похоже, доставляя ему неприятности... \n<Assistant_Title2> Как получить: </> Завершите миссию повышения и получите повышение до эпизода 8. Перейдите в {Location:[Tinggen(684,1204)]|-31529;20429;-2274;2;5200002;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за выполнение заданий</>: познавательный опыт, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений.",
     ["Wow... I really am a hide-and-seek genius!"] = "Ух ты... Я действительно гений пряток!",

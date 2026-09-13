@@ -209,7 +209,7 @@ return {
     ["I was able to get the 'heart', I have to thank your scribbles and milk..."] = "Мне удалось получить «сердце», спасибо вашим каракулям и молоку...",
     ["Small Mouse 24"] = "Маленькая Мышка bb",
     ["Clue 1 obtained: Can get Lily drunk"] = "Подсказка 1 получена: можно напоить Лили.",
-    ["May the Blessing of the Fool be upon you!"] = "Да пребудет с тобой Благословение дурака!",
+    ["May the Blessing of the Fool be upon you!"] = "Да пребудет с тобой Благословени Шута!",
     ["Return to the <h>University</> to take a look"] = "Вернитесь в <h>University</>, чтобы посмотреть.",
     ["<Highlight>Assassinate Xilings</>: Commissioned by Alger, Audrey joined forces with Fors and Xio to investigate the 'Admiral of Hurricane' Xilings. Later, Audrey saw through his disguise at a ball and successfully prevented his plan to assassinate Duke Negan. Eventually, Xilings was intercepted and killed by Azik while fleeing, and the Beyonder item he held, 'Creeping Hunger', was gifted to Klein."] = "<Highlight>Убить Силинга </>: По поручению Алджера Одри объединила усилия с Форсом и Ксио, чтобы расследовать действия «Адмирала урагана» Силинга. Позже Одри разглядела его маскировку на балу и успешно предотвратила его план убийства герцога Нигана. В конце концов, Силингс был перехвачен и убит Азиком во время бегства, а предмет Потустороннего, который он держал, «Ползучий голод», был подарен Клейну.",
     ["This flower shop sells fresh flowers, and it also sells piety."] = "В этом цветочном магазине продаются свежие цветы, а также продается благочестие.",

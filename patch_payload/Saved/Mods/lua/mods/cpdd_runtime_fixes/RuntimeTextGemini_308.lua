@@ -279,7 +279,7 @@ return {
     ["Visit <h>Welch's House</>"] = "Посетите <h>Дом Уэлча</>",
     ["Here you can open the training ground potion trial interface."] = "Здесь вы можете открыть интерфейс пробного зелья тренировочной площадки.",
     ["Advance to <HighLight>Sequence 7 Witch</>"] = "Переход к <HighLight>Sequence 7 Ведьма</>",
-    ["Fool Potion"] = "Зелье дурака",
+    ["Fool Potion"] = "Зель Шута",
     ["Mayer"] = "Майер",
     ["Sorry, I didn't notice anyone there."] = "Извините, я никого там не заметил.",
 }

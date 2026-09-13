@@ -42,7 +42,7 @@ return {
     ["Can be left blank; defaults to destroying all."] = "Можно оставить пустым; по умолчанию уничтожает все.",
     ["[Dungeon Test] Level 86 Stats"] = "[Испытание в подземелье] Статистика 86 уровня",
     ["Ziteng"] = "Зитенг",
-    ["It's that familiar voice... is it Mr. \"Fool\"?"] = "Это знакомый голос... это мистер \"Дурак\"?",
+    ["It's that familiar voice... is it Mr. \"Fool\"?"] = "Это знакомый голос... это мистер \"Шут\"?",
     ["Investigate the scene and look for clues"] = "Исследуйте место происшествия и ищите подсказки.",
     ["Luciano "] = "Лучано",
     ["It's Chinese."] = "Это китайский.",

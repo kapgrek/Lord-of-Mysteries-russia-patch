@@ -197,7 +197,7 @@ return {
     ["Funding Requirement"] = "Требование к финансированию",
     ["Local Vehicle (Player Driven)"] = "Местный транспорт (управляемый игроком)",
     ["Boundary - dark"] = "Граница - темная",
-    ["<P_Heart> (Dowsing rod divination? This is one of the abilities Mr. Fool grafted onto me.) </>"] = "<P_Heart> (Гадание с помощью лозоходной лозы? Это одна из способностей, которую мне привил мистер Дурак.) </>",
+    ["<P_Heart> (Dowsing rod divination? This is one of the abilities Mr. Fool grafted onto me.) </>"] = "<P_Heart> (Гадание с помощью лозоходной лозы? Это одна из способностей, которую мне привил Мистер.) </>",
     ["Because team member %s has gone offline, %s matching has been automatically canceled."] = "Поскольку участник команды %s отключился от сети, сопоставление %s было автоматически отменено.",
     ["[Marionette Skill] Druid Spirit Body - 2nd Stage LV3"] = "[Марионетка Skill] Druid Духовное тело - 2nd Stage LV3",
     ["Looks like candles in the box?"] = "Похоже на свечи в коробке?",

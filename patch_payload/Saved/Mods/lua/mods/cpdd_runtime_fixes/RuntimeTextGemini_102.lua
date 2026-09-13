@@ -173,7 +173,7 @@ return {
     ["David "] = "Дэйвид",
     ["Northeast 14"] = "Северо-восток bb",
     ["Why are you so noob"] = "Почему ты такой нуб",
-    ["The foundation's philosophy is truly excellent. It must have helped many poor children pursue their education. Praise Mr. Fool."] = "Философия фонда поистине превосходна. Должно быть, это помогло многим бедным детям продолжить образование. Слава господину дураку.",
+    ["The foundation's philosophy is truly excellent. It must have helped many poor children pursue their education. Praise Mr. Fool."] = "Философия фонда поистине превосходна. Должно быть, это помогло многим бедным детям продолжить образование. Слава господину Шуту.",
     ["Can be used after reaching divinity Level 20. Increases all five attributes by 8 points for 1800 seconds (a maximum of two attribute potions can be active simultaneously)."] = "Можно использовать после достижения 20-го уровня божественности. Увеличивает все пять атрибутов на 8 пунктов на 1800 секунд (одновременно могут быть активны максимум два зелья атрибутов).",
     ["Female Worker B"] = "Работница Б",
     ["Interact with the specified Door; player sets spirit vision state."] = "Взаимодействуйте с указанной Дверью; игрок устанавливает состояние духовного видения.",

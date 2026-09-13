@@ -18,7 +18,7 @@ return {
     ["Dominator's Clash Professional Ranking Title Rewards"] = "Награды за звание в карьерном рейтинге Domination Clash",
     ["A true miracle! I didn't expect such a high-level object to be placed in the most conspicuous place."] = "Настоящее чудо! Я не ожидал, что столь высокоуровневая вещь будет размещена на самом видном месте.",
     ["Admired Lady"] = "Восхищенная дама",
-    ["It's okay, no matter when, I am willing to introduce my Lord, the great Mr. Fool, to you."] = "Неважно, я готов представить вас моему Лорду, великому Мистеру Дураку, в любое время.",
+    ["It's okay, no matter when, I am willing to introduce my Lord, the great Mr. Fool, to you."] = "Неважно, я готов представить вас моему Лорду, великому Мистеруу, в любое время.",
     ["Someone appears from the dream"] = "Кто-то появляется из сна",
     ["Fire Wall Interactable, Delete Self"] = "С брандмауэром можно взаимодействовать и удалять себя",
     ["I accept"] = "Я принимаю",

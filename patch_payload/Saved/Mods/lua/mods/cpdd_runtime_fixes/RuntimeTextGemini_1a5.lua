@@ -23,7 +23,7 @@ return {
     ["Second Layer Post-Effect Intensity"] = "Степень действия постобработки второго слоя",
     ["How to clear Final Hunt"] = "Как проходить «Финальную охоту»",
     ["Mr. Franky's mailbox..."] = "Почтовый ящик мистера Френча...",
-    ["Fool's Gambit Hint 7 (Placeholder)"] = "Совет 7 по игре в шахматы для дураков (места, которые нужно заполнить)",
+    ["Fool's Gambit Hint 7 (Placeholder)"] = "Совет 7 по игре в Шахмат Шута (места, которые нужно заполнить)",
     ["Switch Floor"] = "Переключить этаж",
     ["1% damage reduction per level above 31"] = "Снижение урона на 1% за уровень выше 31.",
     ["Ordinary coal, the source of life in the factory district."] = "Рядовой уголь, источник жизни в заводском районе.",

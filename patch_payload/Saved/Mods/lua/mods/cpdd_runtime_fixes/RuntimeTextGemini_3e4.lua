@@ -26,7 +26,7 @@ return {
     ["Let me think... everything should start from that night..."] = "Дай мне подумать... все должно начаться с той ночи...",
     ["Total Items: "] = "Всего реквизита:",
     ["Referencing resources other than /Game and /Engine is not allowed %s"] = "Ссылки на ресурсы, отличные от /Game и /Engine, не допускаются %s",
-    ["The Fool, the zero card of the Tarot?"] = "Дурак, нулевая карта Таро?",
+    ["The Fool, the zero card of the Tarot?"] = "Шут, нулевая карта Таро?",
     ["Covenant Instructions"] = "Присяга",
     ["Dialogue on the last page"] = "Разговор на последней странице",
     ["<P_Heart>(This meadow is lovely, let's have a picnic here.)</>"] = "<P_Heart> (Этот луг действительно хорош, давайте устроим здесь пикник.) </>",

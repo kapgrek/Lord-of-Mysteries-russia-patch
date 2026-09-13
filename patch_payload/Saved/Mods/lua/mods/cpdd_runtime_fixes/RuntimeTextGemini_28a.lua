@@ -39,7 +39,7 @@ return {
     ["Weekly Dividend"] = "Еженедельные дивиденды",
     ["Collect Spirituality Blue Cards to unlock the skill. Release the user's spiritual power, dealing massive damage to enemies within range and applying Vulnerability. Using it grants one point of Card Energy."] = "Собирайте Синие карты духовности для открытия навыка. Высвобождает силу духовности, нанося огромный урон врагам в области действия и накладывая Уязвимость. Применение дает 1 очко энергии карт.",
     ["I'm tired..."] = "Я устал...",
-    ["In your future journeys, Mr. Fool will continue to bestow His protection. Praise the Fool!"] = "В ваших будущих путешествиях Мистер Шут продолжит защищать вас. Слава дураку!",
+    ["In your future journeys, Mr. Fool will continue to bestow His protection. Praise the Fool!"] = "В ваших будущих путешествиях Мистер продолжит защищать вас. Слава Шуту!",
     ["Encoding successful. When sharing from the editor to the character customization system, some content may be lost. Please generate the share code based on the customized character."] = "Кодирование успешно. При отправке из редактора в систему настройки персонажа некоторый контент может быть утерян. Пожалуйста, сгенерируйте общий код на основе индивидуального персонажа.",
     ["River Street, please."] = "Ривер-стрит, пожалуйста.",
     ["This portrait depicts a frank and firm Light Chaser."] = "На этом портрете изображен откровенный и твердый Охотник за Светом.",

@@ -28,7 +28,7 @@ return {
     ["Move to the corner"] = "Переместиться в угол",
     ["Name contains sensitive words. Please enter a different one."] = "Имя содержит деликатные слова. Пожалуйста, введите другой.",
     ["In competitive mode, <Highlight>kill </> %s/%s Warriors"] = "В соревновательном режиме <Highlight>kill </> %s/%s Warriors",
-    ["Blessing from The Fool; restores 10% of Health every 2 seconds when out of combat."] = "Благословение дурака; Восстанавливает 10% здоровья каждые 2 сек. вне боя.",
+    ["Blessing from The Fool; restores 10% of Health every 2 seconds when out of combat."] = "Благословени Шута; Восстанавливает 10% здоровья каждые 2 сек. вне боя.",
     ["A camera is ultimately just a reproduction"] = "Камера — это, в конечном счете, просто репродукция.",
     ["Duel with Boss Fashion"] = "Дуэль с Боссом Моды",
     ["The polluted Golden Autumn Lake has experienced a harvest crisis and animal mutations."] = "Загрязненное озеро Золотая Осень пережило кризис урожая и мутации животных.",

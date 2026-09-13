@@ -242,7 +242,7 @@ return {
     ["Too many... you picked all the fruits?"] = "Слишком много... ты собрал все фрукты?",
     ["Close-up a2 special"] = "Крупный план a2 специальный",
     ["Observe the doll"] = "Наблюдайте за куклой",
-    ["Fool's Crown - 40 Attack +450 Health"] = "Корона дурака — 40 атаки + 450 здоровья.",
+    ["Fool's Crown - 40 Attack +450 Health"] = "Корона Шута — 40 атаки + 450 здоровья.",
     ["Use to obtain <Highlight>Bounty Hunter Face Accessory</>"] = "Используйте, чтобы получить <Highlight>Аксессуар для лица охотника за головами</>.",
     ["Filter 2 random players"] = "Фильтровать 2 случайных игроков",
     ["Stun Missile"] = "Оглушающая ракета",

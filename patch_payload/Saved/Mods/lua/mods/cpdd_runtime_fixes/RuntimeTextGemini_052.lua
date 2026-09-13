@@ -181,7 +181,7 @@ return {
     ["Ask Dunn"] = "Спросите Данна",
     ["Sequin color"] = "Цвет блесток",
     ["Let's end this with a beautiful piece of magic!"] = "Давайте закончим это прекрасным волшебством!",
-    ["Praise the Fool! Praise the gifts of the Fool!"] = "Слава дураку! Хвалите дары шута!",
+    ["Praise the Fool! Praise the gifts of the Fool!"] = "Слава Шуту! Хвалите дары шута!",
     ["Use to obtain Settlement Animation: <Highlight> Monarch: Abyss </>"] = "Используйте для получения анимации поселения: <Highlight> Монарх: Бездна </>.",
     ["Treasure chest 1"] = "Сундук с сокровищами b",
     ["A cup of hot tea; someone was just here doing a divination."] = "A cup of hot tea; someone was just here doing a Гадание.",

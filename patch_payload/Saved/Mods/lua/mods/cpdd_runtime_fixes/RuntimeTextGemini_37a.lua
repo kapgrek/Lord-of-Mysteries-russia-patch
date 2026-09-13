@@ -262,7 +262,7 @@ return {
     ["Golden Phoenix - Notify Store Closure 3"] = "Золотой Феникс - Уведомить о закрытии магазина b",
     ["Take me over there, I'm going to give him a kiss."] = "Отведи меня туда, я его поцелую.",
     ["Go to Try-on"] = "Перейти к примерке",
-    ["Very good, you did it. Praise the Fool."] = "Очень хорошо, ты это сделал. Похвалите дурака.",
+    ["Very good, you did it. Praise the Fool."] = "Очень хорошо, ты это сделал. Похвалите Шута.",
     ["Tarot Club Boss 3"] = "Босс Клуба Таро b",
     ["Effect_Trissy_Exit"] = "Эффект_Выход_Трис",
     ["Hitting the lock like this... should do the trick..."] = "Если ударить по замку вот так... должно помочь...",

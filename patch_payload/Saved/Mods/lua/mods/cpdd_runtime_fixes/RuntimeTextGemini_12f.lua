@@ -224,7 +224,7 @@ return {
     ["Antigonus Notebook · Normal"] = "Блокнот Антигона · Обычный",
     ["Mark 2"] = "Марк 2",
     ["Genius of Film"] = "Гений кино",
-    ["Utilize the Sealed Artifact bestowed by Mr. Fool: \"Utopia Theater\" to invite marionettes from the marionette small town in the mist of history to perform and use their powers. You can equip at most one marionette skill."] = "Используйте Запечатанный Артефакт, подаренный мистером Дураком: «Театр Утопии», чтобы пригласить марионеток из маленького марионеточного городка в тумане истории проявить и использовать свои силы. Вы можете использовать не более одного навыка марионетки.",
+    ["Utilize the Sealed Artifact bestowed by Mr. Fool: \"Utopia Theater\" to invite marionettes from the marionette small town in the mist of history to perform and use their powers. You can equip at most one marionette skill."] = "Используйте Запечатанный Артефакт, подаренный Мистеромом: «Театр Утопии», чтобы пригласить марионеток из маленького марионеточного городка в тумане истории проявить и использовать свои силы. Вы можете использовать не более одного навыка марионетки.",
     ["The blind orphan girl hands an apple to her sick playmate: Don't be afraid, the next game is about to begin."] = "Слепая девочка-сирота протягивает больному товарищу по играм яблоко: «Не бойся, следующая игра вот-вот начнется».",
     ["The Mourner by the Lake"] = "Скорбящий у озера",
     ["Test item usage; enter itemUid itemId itemCount."] = "Использование тестового предмета; введите itemUid itemId itemCount.",

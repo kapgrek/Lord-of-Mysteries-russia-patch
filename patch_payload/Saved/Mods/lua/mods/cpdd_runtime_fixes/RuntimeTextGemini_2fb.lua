@@ -241,7 +241,7 @@ return {
     ["Spectator Dream Rebirth"] = "Зрительская мечта: возрождение",
     ["Number of each station is the same"] = "Количество каждой станции одинаковое",
     ["Saw Irene"] = "Видел Ирен",
-    ["Oh, right! And there's Disi pie. Mr. Fool once liked Disi pie with sweet iced tea; you can try that too."] = "О, верно! И есть пирог Дизи. Мистеру Дураку когда-то нравился пирог Дизи со сладким чаем со льдом; ты тоже можешь это попробовать.",
+    ["Oh, right! And there's Disi pie. Mr. Fool once liked Disi pie with sweet iced tea; you can try that too."] = "О, верно! И есть пирог Дизи. Мистеруу когда-то нравился пирог Дизи со сладким чаем со льдом; ты тоже можешь это попробовать.",
     ["Brell"] = "Брелл",
     ["1. Magic circle skill"] = "1. Навык магического круга",
     ["We are all prisoners of the era, but there is always someone trying to dance within the cage."] = "Мы все пленники эпохи, но в клетке всегда кто-то пытается потанцевать.",

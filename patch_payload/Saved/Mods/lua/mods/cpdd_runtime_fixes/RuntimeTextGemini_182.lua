@@ -33,7 +33,7 @@ return {
     ["Find the <h>stall owner</> to buy matches"] = "Купите спички у <h>торговца</>",
     ["I am Monterey. I was just about to head back to the theater; let's go together."] = "Я и есть Монтерей. Как раз возвращаюсь в театр, пойдемте вместе.",
     ["The Tarot Club is undoubtedly a miracle, and our students always show a keen interest in exploring its origins."] = "Школа Таро, вне всяких сомнений, настоящее чудо, и наши ученики неизменно проявляют живейший интерес к ее истокам.",
-    ["Before Mr. Fool fell into a deep slumber, he released many souls from the ancient days like you."] = "Прежде чем мистер Дурак заснул, он освободил множество таких старых душ, как ты.",
+    ["Before Mr. Fool fell into a deep slumber, he released many souls from the ancient days like you."] = "Прежде чем Мистер заснул, он освободил множество таких старых душ, как ты.",
     ["It's not a thief!"] = "Не вор!",
     ["When the <Highlight>Werewolf is stunned</>, approaching it allows you to <Highlight>transfer the injuries</>."] = "Когда <Highlight> оборотень оглушен </>, приближение к оборотню может <Highlight> отвести урон </>.",
     ["The familiar wood-carved piano"] = "Знакомое резное деревянное пианино.",

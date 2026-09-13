@@ -38,7 +38,7 @@ return {
     ["Apologize"] = "Извиняться",
     ["In the alley not far from Saint Selena Cathedral, wisteria blooms all year round."] = "В аллее недалеко от собора Святой Селены круглый год цветет глициния.",
     ["Where is the Spring Night Ball"] = "Где весенний бал?",
-    ["Citywalk - Pray to The Fool (Women's Restroom)"] = "Citywalk - Помолись дураку (женский туалет)",
+    ["Citywalk - Pray to The Fool (Women's Restroom)"] = "Citywalk - Помолись Шуту (женский туалет)",
     ["Set up the <h>ritual</>"] = "Настройте <h>ritual</>.",
     ["Default value is 0. Do not configure this item if used in a buff"] = "Значение по умолчанию — 0. Не настраивайте этот элемент, если он используется в усилении.",
     ["Amon Avatar"] = "Амон Аватар",

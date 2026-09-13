@@ -79,7 +79,7 @@ return {
     ["Doesn't feel as good as Euphemia."] = "Чувствует себя не так хорошо, как Юфимия.",
     ["Open catalog lighting"] = "Открыть каталог освещения",
     ["Scene Fog 2"] = "Сцена в тумане b",
-    ["It's been almost two years, and it's finally a success. The miracle promised by Mr. Fool has finally been realized!"] = "Прошло почти два года, и наконец-то успех. Чудо, обещанное господином дураком, наконец-то свершилось!",
+    ["It's been almost two years, and it's finally a success. The miracle promised by Mr. Fool has finally been realized!"] = "Прошло почти два года, и наконец-то успех. Чудо, обещанное господином Шутом, наконец-то свершилось!",
     ["Mother (Head Nurse)"] = "Мать (старшая медсестра)",
     ["You talk too much... don't you get the reward just by sealing you?"] = "Ты слишком много говоришь... разве ты не получаешь награду, просто запечатав себя?",
     ["But you will also face the symbol of corruption in the nightmare directly until you completely defeat it."] = "Но вы также столкнетесь с символом порчи в кошмаре напрямую, пока не победите его полностью.",

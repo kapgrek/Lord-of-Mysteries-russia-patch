@@ -33,7 +33,7 @@ return {
     ["Calm down, ma'am. I know witnessing all this has left you quite panicked, but could you at least take five minutes to tell me what happened?"] = "Успокойтесь, мэм. Я знаю, что то, что ты стал свидетелем всего этого, вызвало у тебя настоящую панику, но не мог бы ты выделить хотя бы пять минут, чтобы рассказать мне, что произошло?",
     ["I can do it! In the future, I want to be like you, Grandpa, and go to the Sunday free school to teach everyone."] = "Я могу сделать это! В будущем я хочу быть таким, как ты, дедушка, и пойти в воскресную бесплатную школу, чтобы всех учить.",
     ["Deborah "] = "Дебора",
-    ["But fortunately, salvation has arrived. Please believe that we will surely step into an era without darkness under the leadership of Mr. Fool."] = "Но, к счастью, спасение пришло. Пожалуйста, поверьте, что мы обязательно вступим в эпоху без тьмы под руководством господина Дурак.",
+    ["But fortunately, salvation has arrived. Please believe that we will surely step into an era without darkness under the leadership of Mr. Fool."] = "Но, к счастью, спасение пришло. Пожалуйста, поверьте, что мы обязательно вступим в эпоху без тьмы под руководством  Шута.",
     ["The price of two tickets isn't small. How many days have you not rested well?"] = "Цена двух билетов не маленькая. Сколько дней вы плохо отдыхали?",
     ["5200259 Doll Shop Multiplayer Scene"] = "5200259 Многопользовательская сцена в магазине кукол",
     ["Corona of the Unsetting Sun"] = "Корона незаходящего солнца",

@@ -148,7 +148,7 @@ return {
     ["Recommended Reading List"] = "Рекомендуемый список книг",
     ["Let's go outside to talk. This matter is very sensitive; try not to affect my family."] = "Давай поговорим снаружи. Этот вопрос очень особенный, постарайтесь не затрагивать семью.",
     ["Recite with me, the prayer is—The Fool that doesn't belong to this era..."] = "Произнесите за мной молитву - Глупцы, не принадлежащие к этому веку...",
-    ["The Fool card you summoned appears upright. You are the end, and also the beginning... Sorry, I cannot see more."] = "Карта Дурака, которую вы призвали, появляется в вертикальном положении. Ты — конец, а также начало... Извините, я не могу видеть большего.",
+    ["The Fool card you summoned appears upright. You are the end, and also the beginning... Sorry, I cannot see more."] = "Карта Шута, которую вы призвали, появляется в вертикальном положении. Ты — конец, а также начало... Извините, я не могу видеть большего.",
     ["City Dark Side - Newbie Quest - Commission - 2"] = "Темная сторона города - Квест для новичков - Комиссия - b",
     ["Worker Waypoint 2"] = "Рабочая точка b",
     ["Listen to the \"Announcer\" make an announcement."] = "Послушайте, как «Диктор» делает объявление.",

@@ -217,7 +217,7 @@ return {
     ["Normal difficulty monster spawn state"] = "Состояние появления монстров нормальной сложности.",
     ["Rosa"] = "Роза",
     ["Second Day Gift Pack"] = "Подарочный набор на второй день",
-    ["\"The Fool that doesn't belong to this era\"... Not precise enough, need to add a sentence."] = "\"Дурак, который не принадлежит этой эпохе\"... Недостаточно точно, надо добавить предложение.",
+    ["\"The Fool that doesn't belong to this era\"... Not precise enough, need to add a sentence."] = "\"Шут, не принадлежащий этой эпохе\"... Недостаточно точно, надо добавить предложение.",
     ["At the magic mirror on the second floor, you can try on the feast host's gorgeous outfits."] = "У волшебного зеркала на втором этаже можно примерить роскошные наряды ведущей праздника.",
     ["Then, let's talk about the <P_Yellow>factory owner withholding the workers' wages</>."] = "Затем давайте поговорим о владельце фабрики <P_Yellow>, удерживающем заработную плату работникам </>.",
     ["Go to the specified Trigger location, set the collectible to an interactable state, and have the player play dialogue text visible only to themselves."] = "Перейдите в указанное место триггера, установите предмет коллекционирования в интерактивное состояние и позвольте игроку воспроизвести текст диалога, видимый только ему самому.",

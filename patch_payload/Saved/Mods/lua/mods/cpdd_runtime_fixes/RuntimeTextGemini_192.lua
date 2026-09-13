@@ -34,7 +34,7 @@ return {
     ["View Box"] = "Посмотреть окно",
     ["Critical Hit increased <Yellow>*d</>, Defense reduced <Yellow>*d</>."] = "Критический удар увеличен <Yellow>*d</>, защита уменьшена <Yellow>*d</>.",
     ["King of Hoarding! Tribute pinecones for shiny things!"] = "Король накопительства! Дань сосновым шишкам за блестящие вещи!",
-    ["Mr. \"Fool\", don't you think this kind of \"gathering\" is very interesting?"] = "Господин «Дурак», вам не кажется, что подобные «сборки» очень интересны?",
+    ["Mr. \"Fool\", don't you think this kind of \"gathering\" is very interesting?"] = "Господин «Шут», вам не кажется, что подобные «сборки» очень интересны?",
     ["5231238   Hornacis Sea of Flowers - Storm Pursuit - Vehicle   Solo Instance"] = "5231238 Одиночное измерение: Хорнакис Море цветов - Storm Pursuit - Vehicle",
     ["{{Sir|Madam}}, do you need me to carry your luggage? Just 2 pennies."] = "{{Sir|Madam}}, мне нужно, чтобы я понес твой багаж? Всего 2 копейки.",
     ["Stray Bookworm"] = "Бродячий книжный червь",

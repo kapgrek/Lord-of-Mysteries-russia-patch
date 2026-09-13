@@ -145,7 +145,7 @@ return {
     ["（这个乐谱的旋律，似乎跟回荡的琴声有些相似……）"] = "(Мелодия этих нот чем-то похожа на гулкий звук гармошки...)",
     ["Dawn Knight Potion"] = "Зелье Рыцаря Рассвета",
     ["Explain Honestly"] = "Объясните честно",
-    ["The Fool's Gospel is not activated."] = "Евангелие дураков не активировано.",
+    ["The Fool's Gospel is not activated."] = "Евангели Шута не активировано.",
     ["Immunity Buff"] = "Усиление иммунитета",
     ["Candlestick Collection"] = "Коллекция подсвечников",
     ["Rotate the turntable to make the flowers bloom!"] = "Вращайте проигрыватель, чтобы цветы расцвели!",

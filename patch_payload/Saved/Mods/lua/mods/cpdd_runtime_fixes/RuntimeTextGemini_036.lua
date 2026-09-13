@@ -143,7 +143,7 @@ return {
     ["Across the Four Seas"] = "Покоритель морей",
     ["Positive"] = "Плюс",
     ["Mesh-Pumpkin Stall"] = "Mesh-Тыквенная лавка",
-    ["Until I recited that honorific name—the honorific name of Mr. Fool."] = "Пока я не зачитал это благородное имя — г-н. Почетное имя дурака.",
+    ["Until I recited that honorific name—the honorific name of Mr. Fool."] = "Пока я не зачитал это благородное имя — г-н. Почетное имя Шута.",
     ["The meaning of this card is... finish, failure, the worst possible ending."] = "Эта карта означает... конец, неудачу, худший возможный исход.",
     ["Unlocked at Castle Level 4"] = "Уровень замка 4 разблокирован.",
     ["Coordinates 3,4"] = "Координаты 3,b",

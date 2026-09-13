@@ -238,7 +238,7 @@ return {
     ["Select 3B"] = "Выберите 3Б",
     ["Quest 13 - Rollback - Complete puzzle"] = "Квест 13 — Откат — Полная головоломка",
     ["Divine the mirror shards."] = "Божественные осколки зеркала.",
-    ["Fool Statue"] = "Статуя дурака",
+    ["Fool Statue"] = "Стату Шута",
     ["A clean floor is pleasing..."] = "Чистый пол радует.",
     ["You truly are a young lady with a discerning eye."] = "Вы действительно молодая леди с проницательным взглядом.",
 }

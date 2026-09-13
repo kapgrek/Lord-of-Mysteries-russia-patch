@@ -233,7 +233,7 @@ return {
     ["Janie"] = "Джени",
     ["A poor orphan girl."] = "Бедная девочка-сирота.",
     ["Charles "] = "Чарльз",
-    ["“The Fool”"] = "«Дурак»",
+    ["“The Fool”"] = "«Шут»",
     ["Original Work Quest"] = "Оригинальный рабочий квест",
     ["With it as the center, a ten-meter radius will be filled with pure and warm power. Normal people cannot perceive it, but undead monsters will be continuously damaged. They will \"evaporate\" rapidly like a pool under a scorching fireball, even Wraiths and Shadows, though they will last a bit longer."] = "С его центром десятиметровый радиус наполнится чистой и теплой силой. Обычные люди не могут этого воспринять, но монстрам-нежити будет постоянно наноситься урон. Они будут «испаряться» быстро, как лужа под палящим огненным шаром, даже Призраки и Тени, хотя и продержатся немного дольше.",
     ["Section 1 - First Tarot Gathering"] = "Раздел 1 – Первое собрание Таро",

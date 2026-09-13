@@ -399,7 +399,7 @@
     "id": "045066",
     "source_cn": "愚者牌……您的称呼就来源于这张塔罗牌吗？",
     "ref_en": "The Fool card... is your title derived from this Tarot card?",
-    "target_ru": "Карта «Дурак»… ваш титул происходит от этой карты Таро?"
+    "target_ru": "Карта «Шут»… ваш титул происходит от этой карты Таро?"
   },
   {
     "id": "045067",
@@ -2907,7 +2907,7 @@
     "id": "045484",
     "source_cn": "旅行",
     "ref_en": "Travel",
-    "target_ru": "Путешествовать"
+    "target_ru": "Путешествие"
   },
   {
     "id": "045485",
@@ -7077,7 +7077,7 @@
     "id": "046179",
     "source_cn": "上阵",
     "ref_en": "Deploy",
-    "target_ru": "Развертывать"
+    "target_ru": "Установить"
   },
   {
     "id": "046180",
@@ -11415,7 +11415,7 @@
     "id": "046902",
     "source_cn": "其实这也是“愚者”先生的启示，祂总是考虑得如此周到。",
     "ref_en": "Actually, this was also a revelation from Mr. Fool; He is always so thoughtful.",
-    "target_ru": "Собственно, это тоже было откровением от господина Дурака; Он всегда такой задумчивый."
+    "target_ru": "Собственно, это тоже было откровением от господина Шута; Он всегда такой задумчивый."
   },
   {
     "id": "046903",
@@ -15213,7 +15213,7 @@
     "id": "047535",
     "source_cn": "<Assistant_Title1>秘偶</>\\n<Assistant_Title2>玩法说明：</>\\n“愚者”先生赐予的封印物<Assistant_Property1>乌托邦剧院</>，可以帮助非凡者获取并操控秘偶。\\n1、通过<Assistant_System>菜单-秘偶-获取秘偶</>可以进入<Assistant_Property1>乌托邦剧院</>，抽选<Assistant_Property2>秘偶</>，解锁对应秘偶技能。\\n2、重复获取的秘偶会转化为秘偶碎片，可用来进行<Assistant_Property1>秘偶培养</>，提升角色属性和增强秘偶技能。\\n3、可以选择秘偶<Assistant_Property1>上阵</>，上阵后秘偶的属性会获得额外加成。\\n4、可以派遣秘偶前往<Assistant_Property1>游历</>，可以大幅提升游历的奖励。\\n5、可以派遣秘偶前往<Assistant_Property1>城堡</>参与工作，提升<Assistant_Property2>工坊</>生产效率。\\n6、<Assistant_Property1>星之虫</>类型的秘偶可以<Assistant_Property2>幻形</>为其他非凡者的样子，幻形后可以自由更换秘偶的外观。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[获取秘偶]|536}，{SendAnswer:[秘偶培养]|537}，{SendAnswer:[秘偶上阵]|538}，{SendAnswer:[秘偶游历]|539}，{SendAnswer:[秘偶幻形]|540}",
     "ref_en": "<Assistant_Title1>Marionette</>\\n<Assistant_Title2> Gameplay Instructions: </>\\nThe Sealed Artifact bestowed by Mr. Fool, <Assistant_Property1>Utopia Theater</>, can help Beyonders obtain and control marionettes. \\n 1. You can enter <Assistant_System>Menu-Marionette-Obtain Marionette</> to access <Assistant_Property1>Utopia Theater</>, draw <Assistant_Property2>marionettes</>, and unlock corresponding marionette skills. \\n 2. Duplicate marionettes obtained will be converted into Marionette Shards, which can be used for <Assistant_Property1>Marionette Cultivation</> to improve character attributes and enhance marionette skills. \\n 3. You can choose to <Assistant_Property1>Deploy</> a marionette; after deployment, the marionette's attributes will receive additional bonuses. \\n 4. You can dispatch marionettes to <Assistant_Property1>Travel</>, which can significantly increase travel rewards. \\n 5. You can dispatch marionettes to the <Assistant_Property1>Castle</> to work, increasing <Assistant_Property2>Workshop</> production efficiency. \\n 6. <Assistant_Property1>Star Worm</>-type marionettes can <Assistant_Property2>Transform</> into the appearance of other Beyonders; after transformation, you can freely change the marionette's appearance. \\n<Assistant_Title3> Recommended Searches: </>{SendAnswer:[Obtain Marionette]|536}, {SendAnswer:[Marionette Cultivation]|537}, {SendAnswer:[Deploy Marionette]|538}, {SendAnswer:[Marionette Travel]|539}, {SendAnswer:[Marionette Transformation]|540}",
-    "target_ru": "<Assistant_Title1>Морская марионетка</>\n<Assistant_Title2>Как играть: </>\nЗапечатанный предмет, подаренный мистером «Дураком»<Assistant_Property1>Театр Утопии</>, может помочь необыкновенным людям получить марионетку и управлять ею. \n1. Через меню <Assistant_System> - Секретная марионетка - Получить секретную марионетку </> вы можете войти в <Assistant_Property1> Театр Утопии </>, нарисовать <Assistant_Property2> Секретную марионетку </> и разблокировать соответствующие навыки Секретной марионетки. \n2. Марионетки, полученные повторно, будут преобразованы в фрагменты марионеток, которые можно будет использовать для <Assistant_Property1> тренировки марионеток</>, улучшения характеристик персонажей и улучшения навыков марионеток. \n3. Вы можете выбрать марионетку <Assistant_Property1>, чтобы отправиться в бой </>. После выхода в бой атрибуты марионетки получат дополнительные бонусы. \n4. Секретных марионеток можно отправить в <Assistant_Property1> для путешествия по </>, что может значительно увеличить вознаграждение за путешествие. \n5. Секретных марионеток можно отправить в <Assistant_Property1> замок </> для участия в работе и повышения эффективности производства <Assistant_Property2> мастерской </>. \n6, <Assistant_Property1>Звездное насекомое</> типы марионеток могут <Assistant_Property2>трансформировать</> в внешний вид других необычных существ и могут свободно менять внешний вид марионетки после трансфигурации. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Получить секретную марионетку]|536}, {SendAnswer:[Секретное обучение марионетки]|537}, {SendAnswer:[Секретная марионетка]|538}, {SendAnswer:[Путешествие секретной марионетки]|539}, {SendAnswer:[Секрет Трансформация Марионетки]|540}"
+    "target_ru": "<Assistant_Title1>Морская марионетка</>\n<Assistant_Title2>Как играть: </>\nЗапечатанный предмет, подаренный мистером «Шутом»<Assistant_Property1>Театр Утопии</>, может помочь необыкновенным людям получить марионетку и управлять ею. \n1. Через меню <Assistant_System> - Секретная марионетка - Получить секретную марионетку </> вы можете войти в <Assistant_Property1> Театр Утопии </>, нарисовать <Assistant_Property2> Секретную марионетку </> и разблокировать соответствующие навыки Секретной марионетки. \n2. Марионетки, полученные повторно, будут преобразованы в фрагменты марионеток, которые можно будет использовать для <Assistant_Property1> тренировки марионеток</>, улучшения характеристик персонажей и улучшения навыков марионеток. \n3. Вы можете выбрать марионетку <Assistant_Property1>, чтобы отправиться в бой </>. После выхода в бой атрибуты марионетки получат дополнительные бонусы. \n4. Секретных марионеток можно отправить в <Assistant_Property1> для путешествия по </>, что может значительно увеличить вознаграждение за путешествие. \n5. Секретных марионеток можно отправить в <Assistant_Property1> замок </> для участия в работе и повышения эффективности производства <Assistant_Property2> мастерской </>. \n6, <Assistant_Property1>Звездное насекомое</> типы марионеток могут <Assistant_Property2>трансформировать</> в внешний вид других необычных существ и могут свободно менять внешний вид марионетки после трансфигурации. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Получить секретную марионетку]|536}, {SendAnswer:[Секретное обучение марионетки]|537}, {SendAnswer:[Секретная марионетка]|538}, {SendAnswer:[Путешествие секретной марионетки]|539}, {SendAnswer:[Секрет Трансформация Марионетки]|540}"
   },
   {
     "id": "047536",
@@ -17025,7 +17025,7 @@
     "id": "047837",
     "source_cn": "哪有像你这样的神使，而且还在这里写……《愚者圣典》？",
     "ref_en": "Where is there a divine messenger like you, and you're even writing... the \"Book of the Fool\" here?",
-    "target_ru": "Где есть такой божественный посланник, как ты, да еще ты пишешь здесь... «Книгу дураков»?"
+    "target_ru": "Где есть такой божественный посланник, как ты, да еще ты пишешь здесь... «Книгу Шута»?"
   },
   {
     "id": "047838",
@@ -23463,7 +23463,7 @@
     "id": "048910",
     "source_cn": "CHAT_DETAIL(\"赞美愚者\")>=1",
     "ref_en": "CHAT_DETAIL(\"Praise the Fool\") >=1",
-    "target_ru": "CHAT_DETAIL(\"Похвалите дурака\") >=b"
+    "target_ru": "CHAT_DETAIL(\"Похвалите Шута\") >=b"
   },
   {
     "id": "048911",
@@ -25071,7 +25071,7 @@
     "id": "049178",
     "source_cn": "“不属于这个时代的愚者”",
     "ref_en": "The Fool that doesn't belong to this era",
-    "target_ru": "Дурак, который не принадлежит этой эпохе"
+    "target_ru": "Шут, не принадлежащий этой эпохе"
   },
   {
     "id": "049179",
@@ -25605,7 +25605,7 @@
     "id": "049267",
     "source_cn": "百货",
     "ref_en": "General Store",
-    "target_ru": "Универсальный магазин"
+    "target_ru": "Универсальный"
   },
   {
     "id": "049268",
@@ -28023,7 +28023,7 @@
     "id": "049670",
     "source_cn": "你是被“愚者”先生选中的人，一定没问题的！",
     "ref_en": "You are the person chosen by Mr. 'Fool', you'll definitely be fine!",
-    "target_ru": "Ты тот человек, которого выбрал мистер «Дурак», с тобой обязательно все будет хорошо!"
+    "target_ru": "Ты тот человек, которого выбрал мистер «Шут», с тобой обязательно все будет хорошо!"
   },
   {
     "id": "049671",

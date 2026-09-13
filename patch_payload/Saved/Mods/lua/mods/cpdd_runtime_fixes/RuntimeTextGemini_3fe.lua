@@ -104,7 +104,7 @@ return {
     ["Connection Topic - Benson 3: About Frank"] = "Тема подключения - Бенсон 3: О Фрэнке",
     ["Flowers? They look good, but what are they for? A penny for flowers is a lot of money! How much could it cost? Twenty pence at most, right?"] = "Цветы? Выглядят хорошо, но для чего они нужны? Копейка на цветы – это большие деньги! Сколько это может стоить? Самое большее двадцать пенсов, верно?",
     ["Dominator's Clash fairness mechanism, all Beyonders receive attribute balancing."] = "Dominator's Clash fairness mechanism, all Потустороннийs receive attribute balancing.",
-    ["The Fool Trigger Area 1"] = "Зона дурака b",
+    ["The Fool Trigger Area 1"] = "Зона Шута b",
     ["Special characters cannot be at the beginning of the name."] = "Специальные символы не могут быть в начале имени.",
     ["Bill running for performance"] = "Билл баллотируется на выступление",
     ["You only need to spend a little money, and I can help you investigate what you want to know."] = "Вам нужно всего лишь потратить немного денег, и я могу помочь вам выяснить то, что вы хотите знать.",

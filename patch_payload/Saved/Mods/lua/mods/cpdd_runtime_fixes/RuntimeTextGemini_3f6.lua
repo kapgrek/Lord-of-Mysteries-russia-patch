@@ -95,7 +95,7 @@ return {
     ["HUD Always Visible Bottom-Right"] = "HUD всегда виден внизу справа",
     ["Watching the people coming and going here, the mood becomes much more cheerful!"] = "Наблюдая за тем, как сюда приходят и уходят люди, настроение становится намного веселее!",
     ["Gellert"] = "Геллерт",
-    ["I fully trust Mr. Fool's fairness and power. I will go look for the Ghost Shark blood."] = "Я полностью доверяю справедливости и силе мистера Дурак. Я пойду искать кровь Призрачной Акулы.",
+    ["I fully trust Mr. Fool's fairness and power. I will go look for the Ghost Shark blood."] = "Я полностью доверяю справедливости и силе  Шута. Я пойду искать кровь Призрачной Акулы.",
     ["Item Binding Type"] = "Тип привязки элемента",
     ["Stage curtain normal state"] = "Занавес сцены в нормальном состоянии",
     ["Dragon's Legacy"] = "Наследие Дракона",

@@ -141,7 +141,7 @@ return {
     ["Cat-Painting Man"] = "Мужчина-Кошка-Рисунок",
     ["Can guide the direction of its owner based on the divination tool."] = "Может указывать направление своему владельцу на основе инструмента для гадания.",
     ["　　If you have heard the call of peace, please go to Raphael Cemetery and look for the Night Watchman <Letter_Highlight_HW>Cyrus Morning</>.\n　　He will reveal the truth to you.\n　　May the Goddess protect you."] = "　　Коль услышишь ты зов упокоения, ступай на кладбище Рафаэля и разыщи могильщика <Letter_Highlight_HW>Сайруса Морнинга</>.\n　　Он приоткроет тебе завесу истины.\n　　Да хранит тебя Богиня Вечной Ночи.",
-    ["The Fool's Approval"] = "Одобрение дурака",
+    ["The Fool's Approval"] = "Одобрение Шута",
     ["Area 1-9"] = "Зона 1-b",
     ["That's right, I already have the strength of a Sequence 3. However, for powerful Spirit World creatures like this, without the corresponding guidance, even if you try thousands and thousands of times, you will fail."] = "Правильно, у меня уже есть сила Последовательности 3. Однако для таких могущественных существ Духовного Мира, как это, без соответствующего руководства, даже если вы попытаетесь тысячи и тысячи раз, вы потерпите неудачу.",
     ["Rare Snow Shell Slices"] = "Кусочки редкого снежного панциря",

@@ -29,7 +29,7 @@ return {
     ["Seer pathway urgently needs buffs"] = "Путь Провидца срочно нуждается в усилениях",
     ["Return to the <h>place just now</>"] = "Вернитесь на <h>place прямо сейчас</>",
     ["Heart-Eroding Black Flame"] = "Разъедающее сердце черное пламя",
-    ["<Assistant_Title1>God's Gift of the Fool</>\n<Assistant_Title2>Achievement Category: </>Cultivation - Sealed Artifact\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Beyonder material with the {Fool} entry"] = "<Assistant_Title1>Дар дурака</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </> Получите 1 необычное вещество, используя запись {Дурак}",
+    ["<Assistant_Title1>God's Gift of the Fool</>\n<Assistant_Title2>Achievement Category: </>Cultivation - Sealed Artifact\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Beyonder material with the {Fool} entry"] = "<Assistant_Title1>дар Шута</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </> Получите 1 необычное вещество, используя запись {Шут}",
     ["Gentle Piano Music Tonight - A Regrettable Proposal"] = "Нежная фортепианная музыка сегодня вечером — достойное сожаления предложение",
     ["Upgrade Melissa to 2 stars"] = "Повысьте уровень Мелиссы до 2 звезд.",
     ["The player left Iron Cross Street. Behind her, Hayley sat under the plane tree, surrounded by wild cats, with a gray rat squatting on the table. She flipped over a card and smiled at the new guest in front of her."] = "Игрок покинул Айрон-Кросс-стрит. Позади нее Хейли сидела под платаном в окружении диких кошек, а на столе сидела на корточках серая крыса. Она перевернула карточку и улыбнулась новому гостю перед ней.",

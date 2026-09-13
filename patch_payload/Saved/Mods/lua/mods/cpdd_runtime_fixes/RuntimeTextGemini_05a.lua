@@ -168,7 +168,7 @@ return {
     ["Bulletin Board Passerby 4 - Prerequisite"] = "Прохожий на доске объявлений 4 — необходимое условие",
     ["Set Cultivatable Skills"] = "Установите развиваемые навыки",
     ["Banish-Slow"] = "Изгнание — замедление",
-    ["How many copies of Fool's Gospel are refunded"] = "Сколько экземпляров «Евангелия для дураков» будет возвращено",
+    ["How many copies of Fool's Gospel are refunded"] = "Сколько экземпляров «Евангели Шута» будет возвращено",
     ["Challenge failed. Are you sure you want to return to the starting point?"] = "Вызов не удался. Вы уверены, что хотите вернуться к исходной точке?",
     ["The room is quite cozy and tidy, but this clipping feels out of place; it is filled with reports about supernatural phenomena."] = "Комната довольно уютная и опрятная, но эта вырезка кажется неуместной; он наполнен сообщениями о сверхъестественных явлениях.",
     ["<P_Yellow>Clown</>: Don't be nervous, I'm just a 'Clown' obsessed with gambling who lost himself."] = "<P_Yellow>Клоун</>: Не нервничай, я всего лишь «клоун», одержимый азартными играми и потерявший себя.",

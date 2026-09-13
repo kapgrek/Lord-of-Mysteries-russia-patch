@@ -28,7 +28,7 @@ return {
     ["Painter"] = "Художник",
     ["Bramant"] = "Браман",
     ["Direction"] = "Направление",
-    ["<P_Heart>(The Fool? The zero card of Tarot?)</>"] = "<P_Heart> (Дурак? Ноль карты Таро?) </>",
+    ["<P_Heart>(The Fool? The zero card of Tarot?)</>"] = "<P_Heart> (Шут? Ноль карты Таро?) </>",
     ["But the daisies in the valley are truly beautiful..."] = "Но ромашки в долине действительно прекрасны...",
     ["After the season year update, Equipment Strengthening has been reset, <Highlight> all strengthening progress has been reset to 0 </>, and it has been automatically switched to the new season year's Strengthening materials."] = "После обновления года сезона усиление оборудования было сброшено, весь прогресс укрепления <Highlight> был сброшен до 0 </>, и он был автоматически переключен на материалы усиления нового сезона.",
     ["New Medium Shot"] = "Новый средний план",

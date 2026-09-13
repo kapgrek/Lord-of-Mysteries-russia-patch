@@ -31,7 +31,7 @@ return {
     ["The midnight ointment I prepared last time is still missing mandrake, and no one has taken my commission yet."] = "В полуночной мази, которую я приготовил в прошлый раз, все еще не хватает мандрагоры, и никто еще не взял мое поручение.",
     ["Daily refresh limit reached."] = "Достигнут лимит ежедневного обновления.",
     ["Spirit Vision ends"] = "Духовное видение заканчивается",
-    ["Collectible: Fool's Gold Coin"] = "Коллекционный предмет: Золотая монета дурака.",
+    ["Collectible: Fool's Gold Coin"] = "Коллекционный предмет: Золотая монета Шута.",
     ["Light Orb Camera"] = "Световая сферическая камера",
     ["Dear Beyonder: \n The Beyonder %s with whom you formed a Covenant has deleted their character, and the Covenant relationship between you has been dissolved as a result. \n May you meet someone worthy of your trust again on your future Journey."] = "Уважаемый Потусторонний!\nПотусторонний %s, с которым вы заключили клятвенный союз, удалил своего персонажа, в связи с чем ваши клятвенные узы были расторгнуты.\nПусть в дальнейшем странствии вы вновь встретите того, кому сможете доверить свои клятвы.",
     ["Open other component level caps from 2->3"] = "Откройте ограничения уровня других компонентов со 2 по 3.",

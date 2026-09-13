@@ -135,7 +135,7 @@ return {
     ["Ah, no... I'm just a clerk at Hoey University. Jevon is the lecturer."] = "Ах, нет... Я всего лишь клерк в Университете Хоуи. Джевон — лектор.",
     ["100% HP Deduction"] = "100% снижение здоровья",
     ["Observe the rhythm of the water flow; be careful to dodge when it erupts!"] = "Соблюдайте ритм течения воды; будьте осторожны и уклоняйтесь, когда он извергается!",
-    ["<P_Heart> (Melissa's words... are very much in the style of Mr. Fool.) </>"] = "<P_Heart> (Слова Мелиссы... очень в стиле мистера Дурак.) </>",
+    ["<P_Heart> (Melissa's words... are very much in the style of Mr. Fool.) </>"] = "<P_Heart> (Слова Мелиссы... очень в стиле  Шута.) </>",
     ["Function_Trigger Skill"] = "Функция_ТриггерНавыка",
     ["One-to-one stage"] = "Этап один на один",
     ["Click here to save and use."] = "Нажмите здесь, чтобы сохранить и использовать.",

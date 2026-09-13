@@ -24,7 +24,7 @@ return {
     ["Miles "] = "Майерс",
     ["β plus ___ equals 10, what should be filled in the second blank?"] = "β плюс ___ равно 10. Заполните второй пропуск?",
     ["Engraving of the Blood Key"] = "Гравировка кровавого ключа",
-    ["The great Mr. \"Fool\" also lived here once."] = "Здесь также жил великий мистер Дурак.",
+    ["The great Mr. \"Fool\" also lived here once."] = "Здесь также жил великий Мистер.",
     ["Obtained skill <Highlight>Push Food Cart</>"] = "Получен навык <Highlight>Толкать тележку с едой</>",
     ["Open to receive a Competition-oriented <Highlight>Item Level 68 orange quality weapon</> corresponding to your own Pathway."] = "Откройте, чтобы получить ориентированное на соревнования <Highlight>Предмет оранжевого оружия 68-го уровня </>, соответствующее вашему собственному Пути.",
     ["Are you saying I'm already dead? Did I die right here?"] = "Ты хочешь сказать, что я уже мертв? Я умер прямо здесь?",

@@ -129,7 +129,7 @@ return {
     ["Aiden, is that you?"] = "Эйден, ты ли это?",
     ["Albert: Thank you... thank you both."] = "Альберт: Спасибо... спасибо вам обоим.",
     ["Go and tell Shirley about the situation first."] = "Сначала пойди и расскажи Ширли о ситуации.",
-    ["After use, obtain the title: <Highlight>Blessed of the Fool</>"] = "После использования получите титул: <Highlight>Благословенный дурака</>.",
+    ["After use, obtain the title: <Highlight>Blessed of the Fool</>"] = "После использования получите титул: <Highlight>Благословенный Шута</>.",
     ["Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour cooldown period after leaving a Family."] = "Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour Перезарядка period after leaving a Family.",
     ["Hidden Record"] = "Скрытая запись",
     ["Irritable Man"] = "Раздражительный человек",

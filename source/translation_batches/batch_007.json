@@ -1623,7 +1623,7 @@
     "id": "030270",
     "source_cn": "<P_Heart>（梅丽莎这话……很有“愚者”先生的风范。）</>",
     "ref_en": "<P_Heart> (Melissa's words... are very much in the style of Mr. Fool.) </>",
-    "target_ru": "<P_Heart> (Слова Мелиссы... очень в стиле мистера Дурак.) </>"
+    "target_ru": "<P_Heart> (Слова Мелиссы... очень в стиле  Шута.) </>"
   },
   {
     "id": "030271",
@@ -3273,7 +3273,7 @@
     "id": "030545",
     "source_cn": "“愚者”先生，我觉得这是一个很好的提议，只要“聚会”变成定期，有的事情如果您不方便出面，完全可以转交给我们。",
     "ref_en": "Mr. \"Fool\", I think this is a very good proposal. As long as the \"gathering\" becomes regular, if there are things you find inconvenient to handle, you can completely hand them over to us.",
-    "target_ru": "Господин «Дурак», я считаю, что это очень хорошее предложение. Пока «сборки» становятся регулярными, если есть вещи, с которыми вам неудобно справиться, вы можете полностью передать их нам."
+    "target_ru": "Господин «Шут», я считаю, что это очень хорошее предложение. Пока «сборки» становятся регулярными, если есть вещи, с которыми вам неудобно справиться, вы можете полностью передать их нам."
   },
   {
     "id": "030546",
@@ -3579,7 +3579,7 @@
     "id": "030596",
     "source_cn": "愚者祝福持续期间内，使用空气子弹可以额外召唤一个愚者礼帽，愚者礼帽的数量限制上升为6个。",
     "ref_en": "While Fool's Blessing is active, using Air Bullet can summon an additional Fool's Top Hat; the limit for Fool's Top Hats is increased to 6.",
-    "target_ru": "Пока активно «Благословение дурака», использование «Воздушной пули» может вызвать дополнительный цилиндр дурака; лимит на дурацкие цилиндры увеличен до 6."
+    "target_ru": "Пока активно «Благословени Шута», использование «Воздушной пули» может вызвать дополнительный цилиндр Шута; лимит на дурацкие цилиндры увеличен до 6."
   },
   {
     "id": "030597",
@@ -4275,13 +4275,13 @@
     "id": "030712",
     "source_cn": "愚者的恩赐",
     "ref_en": "The Fool's Gift",
-    "target_ru": "Подарок дурака"
+    "target_ru": "подар Шута"
   },
   {
     "id": "030713",
     "source_cn": "愚者的赞许",
     "ref_en": "The Fool's Approval",
-    "target_ru": "Одобрение дурака"
+    "target_ru": "Одобрение Шута"
   },
   {
     "id": "030714",
@@ -4731,7 +4731,7 @@
     "id": "030788",
     "source_cn": "不过好在救赎已至，请坚信，我们必将在“愚者”先生的带领下步入无暗的时代。",
     "ref_en": "But fortunately, salvation has arrived. Please believe that we will surely step into an era without darkness under the leadership of Mr. Fool.",
-    "target_ru": "Но, к счастью, спасение пришло. Пожалуйста, поверьте, что мы обязательно вступим в эпоху без тьмы под руководством господина Дурак."
+    "target_ru": "Но, к счастью, спасение пришло. Пожалуйста, поверьте, что мы обязательно вступим в эпоху без тьмы под руководством  Шута."
   },
   {
     "id": "030789",
@@ -8265,7 +8265,7 @@
     "id": "031377",
     "source_cn": "愚者大厅",
     "ref_en": "Fool's Hall",
-    "target_ru": "Зал дураков"
+    "target_ru": "Зал Шута"
   },
   {
     "id": "031378",
@@ -9045,7 +9045,7 @@
     "id": "031507",
     "source_cn": "愚者福音返还几份",
     "ref_en": "How many copies of Fool's Gospel are refunded",
-    "target_ru": "Сколько экземпляров «Евангелия для дураков» будет возвращено"
+    "target_ru": "Сколько экземпляров «Евангели Шута» будет возвращено"
   },
   {
     "id": "031508",
@@ -14199,7 +14199,7 @@
     "id": "032366",
     "source_cn": "愚者之梦-窥秘人单点远程激光",
     "ref_en": "Fool's Dream - Mystery Pryer Single Point Ranged Laser",
-    "target_ru": "Мечта дурака — одноточечный лазер дальнего боя Тайноведец"
+    "target_ru": "Мечта Шута — одноточечный лазер дальнего боя Тайноведец"
   },
   {
     "id": "032367",
@@ -14277,7 +14277,7 @@
     "id": "032379",
     "source_cn": "来自愚者的馈赠",
     "ref_en": "A gift from The Fool",
-    "target_ru": "Подарок от дурака"
+    "target_ru": "Подарок от Шута"
   },
   {
     "id": "032380",
@@ -14895,7 +14895,7 @@
     "id": "032482",
     "source_cn": "是那个熟悉的声音……是“愚者”先生？",
     "ref_en": "It's that familiar voice... is it Mr. \"Fool\"?",
-    "target_ru": "Это знакомый голос... это мистер \"Дурак\"?"
+    "target_ru": "Это знакомый голос... это мистер \"Шут\"?"
   },
   {
     "id": "032483",
@@ -15759,7 +15759,7 @@
     "id": "032626",
     "source_cn": "空气子弹每击增加愚者祝福持续时间2秒，持续时间最多不超过30秒，愚者祝福额外获得15%增伤，穿刺数值提高50%。",
     "ref_en": "Each hit of Air Bullet increases the duration of Fool's Blessing by 2 seconds, up to a maximum of 30 seconds. Fool's Blessing gains an additional 15% Damage Boost, and Pierce is increased by 50%.",
-    "target_ru": "Каждое попадание «Воздушной пули» увеличивает продолжительность «Благословения дурака» на 2 секунды, максимум до 30 секунд. «Благословение дурака» дополнительно увеличивает урон на 15%, а «Пронзание» увеличивается на 50%."
+    "target_ru": "Каждое попадание «Воздушной пули» увеличивает продолжительность «Благословени Шута» на 2 секунды, максимум до 30 секунд. «Благословени Шута» дополнительно увеличивает урон на 15%, а «Пронзание» увеличивается на 50%."
   },
   {
     "id": "032627",
@@ -16737,7 +16737,7 @@
     "id": "032789",
     "source_cn": "<Assistant_Title1>愚者的神赐</>\\n<Assistant_Title2>成就分类：</>养成-封印物\\n<Assistant_Title2>解锁条件：</>获得1个带有{愚者}词条的非凡物质",
     "ref_en": "<Assistant_Title1>God's Gift of the Fool</>\\n<Assistant_Title2>Achievement Category: </>Cultivation - Sealed Artifact\\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Beyonder material with the {Fool} entry",
-    "target_ru": "<Assistant_Title1>Дар дурака</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </> Получите 1 необычное вещество, используя запись {Дурак}"
+    "target_ru": "<Assistant_Title1>дар Шута</>\n<Assistant_Title2>Категория достижения: </>Запечатанный объект разработки\n<Assistant_Title2>Условия разблокировки: </> Получите 1 необычное вещество, используя запись {Шут}"
   },
   {
     "id": "032790",
@@ -18465,7 +18465,7 @@
     "id": "033077",
     "source_cn": "愚者殿",
     "ref_en": "Hall of the Fool",
-    "target_ru": "Зал дурака"
+    "target_ru": "Зал Шута"
   },
   {
     "id": "033078",
@@ -22179,7 +22179,7 @@
     "id": "033696",
     "source_cn": "愚者，太棒了……我的意思是，或许我们也该给自己取个代号，方便称呼？",
     "ref_en": "The Fool, that's great... I mean, perhaps we should also give ourselves codenames for convenience?",
-    "target_ru": "Дурак, это здорово... В смысле, может, нам тоже для удобства кодовые имена дать?"
+    "target_ru": "Шут, это здорово... В смысле, может, нам тоже для удобства кодовые имена дать?"
   },
   {
     "id": "033697",
@@ -22839,7 +22839,7 @@
     "id": "033806",
     "source_cn": "愚者的注视",
     "ref_en": "The Fool's Gaze",
-    "target_ru": "Взгляд дурака"
+    "target_ru": "Взгляд Шута"
   },
   {
     "id": "033807",
@@ -27873,7 +27873,7 @@
     "id": "034645",
     "source_cn": "采集物·愚者金币",
     "ref_en": "Collectible: Fool's Gold Coin",
-    "target_ru": "Коллекционный предмет: Золотая монета дурака."
+    "target_ru": "Коллекционный предмет: Золотая монета Шута."
   },
   {
     "id": "034646",
@@ -29271,7 +29271,7 @@
     "id": "034878",
     "source_cn": "某日在大学校园，意外发现了一张愚者福音宣传单……",
     "ref_en": "One day on the university campus, I accidentally discovered a Fool's Gospel flyer...",
-    "target_ru": "Однажды в университетском кампусе я случайно обнаружил листовку с Евангелием для дураков..."
+    "target_ru": "Однажды в университетском кампусе я случайно обнаружил листовку с Евангели Шута..."
   },
   {
     "id": "034879",

@@ -43,7 +43,7 @@ return {
     ["You go up first, I can also use the diary to go up!"] = "Ты поднимись первым, я также могу использовать дневник, чтобы подняться наверх!",
     ["5200074 Ferlanqi Apartments Instance"] = "5200074 Экземпляр апартаментов Ferlanqi",
     ["Hunt Camp South bus stop sign"] = "Знак автобусной остановки Hunt Camp South",
-    ["The Fool card... is your title derived from this Tarot card?"] = "Карта «Дурак»… ваш титул происходит от этой карты Таро?",
+    ["The Fool card... is your title derived from this Tarot card?"] = "Карта «Шут»… ваш титул происходит от этой карты Таро?",
     ["That's good."] = "Это хорошо.",
     ["Dusty Notebook"] = "Пыльный блокнот",
     ["Thank you very much, {{Sir|Madam}}. These are our birthdays. We are all very eager to know our recent fortunes."] = "Большое спасибо, {{Sir|Madam}}. Это наши дни рождения. Нам всем очень хочется узнать нашу недавнюю судьбу.",

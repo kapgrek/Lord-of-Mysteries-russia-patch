@@ -26,7 +26,7 @@ return {
     ["Siblings dissipate"] = "Братья и сестры рассеиваются",
     ["Hips"] = "Бедра",
     ["This one on the left? Or this one on the right?"] = "Этот слева? Или этот справа?",
-    ["Mr. \"Fool\", I think this is a very good proposal. As long as the \"gathering\" becomes regular, if there are things you find inconvenient to handle, you can completely hand them over to us."] = "Господин «Дурак», я считаю, что это очень хорошее предложение. Пока «сборки» становятся регулярными, если есть вещи, с которыми вам неудобно справиться, вы можете полностью передать их нам.",
+    ["Mr. \"Fool\", I think this is a very good proposal. As long as the \"gathering\" becomes regular, if there are things you find inconvenient to handle, you can completely hand them over to us."] = "Господин «Шут», я считаю, что это очень хорошее предложение. Пока «сборки» становятся регулярными, если есть вещи, с которыми вам неудобно справиться, вы можете полностью передать их нам.",
     ["Circular with 2-meter radius"] = "Круг радиусом 2 метра",
     ["In front of dragon bone"] = "Перед драконьей костью",
     ["The Emperor - Upright"] = "Император - Вертикальный",
