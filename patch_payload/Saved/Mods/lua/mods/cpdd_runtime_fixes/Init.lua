@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.82"
+local VERSION = "0.9.83"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -344,6 +344,11 @@ end
 -- aggregate entry for 米 (which legitimately means "Rice" in chat/filter
 -- data) is not changed globally.
 local visibleTextExactOverrides = {
+    ["Exclusive Sequence Quest"] = "Особое задание Последовательности",
+    ["Exclusive Sequence Quest "] = "Особое задание Последовательности",
+    ["Quest description quest description quest description"] = "Описание задания...",
+    ["Go to"] = "Перейти",
+    ["Completed"] = "Завершено",
     ["剧情总览"] = "Обзор сюжета",
     ["Plot Overview"] = "Обзор сюжета",
     ["Plot Overview "] = "Обзор сюжета",
@@ -945,6 +950,12 @@ function runtimeFixes.isCinematicWidgetName(name)
         or lower:find("blackscreen") ~= nil
         or lower:find("mimewhite") ~= nil
         or lower:find("border_panel") ~= nil
+        or lower:find("contenten") ~= nil
+        or lower:find("mistery") ~= nil
+        or lower:find("mystery") ~= nil
+        or lower:find("ecclesia") ~= nil
+        or lower:find("hermes") ~= nil
+        or lower:find("theleon") ~= nil
 end
 
 function runtimeFixes.isCinematicFontObject(fontObj)
@@ -961,7 +972,9 @@ function runtimeFixes.isCinematicFontObject(fontObj)
     local full = name .. " " .. path
     if full:find("song") or full:find("serif") or full:find("cinema") or full:find("book")
         or full:find("chapter") or full:find("aside") or full:find("baosong") or full:find("fzb")
-        or full:find("simsun") or full:find("kaishu") or full:find("hwzs") or full:find("stsong") then
+        or full:find("simsun") or full:find("kaishu") or full:find("hwzs") or full:find("stsong")
+        or full:find("mistery") or full:find("mystery") or full:find("theleon")
+        or full:find("hermes") or full:find("runic") then
         return true
     end
     return false
@@ -982,9 +995,13 @@ function runtimeFixes.isStandardFontObject(fontObj)
         if fontObj.GetPathName ~= nil then path = tostring(fontObj:GetPathName()):lower() end
     end)
     local full = name .. " " .. path
+    if full:find("mistery") or full:find("mystery") or full:find("theleon") or full:find("hermes") or full:find("runic") then
+        return false
+    end
     if full:find("sans") or full:find("default") or full:find("common") or full:find("roboto")
         or full:find("noto") or full:find("yahei") or full:find("lan_ting") or full:find("lanting")
-        or full:find("simhei") or full:find("regular") or full:find("ui") or full:find("body") then
+        or full:find("simhei") or full:find("regular") or full:find("ui") or full:find("body")
+        or full:find("aleo") then
         return true
     end
     return false
@@ -993,19 +1010,53 @@ end
 function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetName)
     if fontObj == nil then return end
     local fontPath = ""
+    local fontName = ""
     pcall(function()
+        if fontObj.GetName ~= nil then fontName = tostring(fontObj:GetName()):lower() end
         if fontObj.GetPathName ~= nil then fontPath = tostring(fontObj:GetPathName()) end
     end)
+    local full = (fontName .. " " .. fontPath):lower()
+
+    -- 1. Explicitly protect against stylized/runic Hermes fonts (Font_Mistery, etc.)
+    if full:find("mistery") or full:find("mystery") or full:find("theleon") or full:find("hermes") or full:find("runic") then
+        if runtimeFixes.CinematicFontObject == nil then
+            runtimeFixes.CinematicFontObject = fontObj
+            pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
+            report("identified CinematicFontObject (stylized Hermes) from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+        end
+        return
+    end
+
     if runtimeFixes.isCinematicWidgetName(sourceWidgetName) or runtimeFixes.isCinematicFontObject(fontObj) then
         if runtimeFixes.CinematicFontObject == nil then
             runtimeFixes.CinematicFontObject = fontObj
+            pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
             report("identified CinematicFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
         end
         return
     end
 
-    if runtimeFixes.StandardFontObject == nil or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
+    -- 2. Only allow fonts that actually qualify as standard fonts (Aleo, Sans, Noto, etc.)
+    local isStandard = runtimeFixes.isStandardFontObject(fontObj) or full:find("aleo") ~= nil
+
+    -- 3. Check if current StandardFontObject is alive and valid
+    local currentValid = false
+    if runtimeFixes.StandardFontObject ~= nil then
+        pcall(function()
+            if runtimeFixes.StandardFontObject.GetName ~= nil and runtimeFixes.StandardFontObject:GetName() ~= nil then
+                currentValid = true
+            end
+        end)
+    end
+
+    if (not currentValid or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject)) and isStandard then
         runtimeFixes.StandardFontObject = fontObj
+        -- CRITICAL: Prevent Unreal Engine GC from garbage-collecting StandardFontObject during level transitions!
+        pcall(function()
+            if fontObj.AddToRoot ~= nil then
+                fontObj:AddToRoot()
+            end
+        end)
         if typefaceName ~= nil then
             runtimeFixes.StandardTypefaceFontName = typefaceName
         end
@@ -1648,6 +1699,103 @@ runtimeFixes.normalizeLocalizedLargeNumbers = function(value)
     return result
 end
 
+function runtimeFixes.translateDigestionTask(value)
+    if type(value) ~= "string" or value == "" then return nil end
+
+    -- 1. Complete acting story: <Name>(x/y)
+    local storyName, progress = value:match("^[Cc]omplete acting story:%s*(.-)%s*%((%d+/%d+)%)$")
+    if storyName and progress then
+        local storyRu = lookupGeminiText(storyName) or storyName
+        return "Завершите историю отыгрыша: " .. storyRu .. " (" .. progress .. ")"
+    end
+
+    -- 2. Defeat/Complete <Diff> difficulty <Target>, pick up <Item>(x/y)
+    local act, diff, target, item, p2 = value:match("^([CcDd][a-z]+)%s+([NnHh][a-z]+)%s+difficulty%s+(.-),%s*pick up%s+(.-)%s*%((%d+/%d+)%)$")
+    if act and diff and target and item and p2 then
+        local diffRu = (diff:lower() == "normal") and "обычн. сл." or "высок. сл."
+        local targetLower = target:lower()
+        local targetRu = target
+        if targetLower == "clown" then targetRu = "Клоуна"
+        elseif targetLower == "riel bieber" then targetRu = "Риэля Бибера"
+        elseif targetLower == "viscountess" then targetRu = "Виконтессу"
+        elseif targetLower == "alienated hound" then targetRu = "Отчужденного пса"
+        elseif targetLower == "ancestor armor" then targetRu = "Доспехи предка"
+        elseif targetLower == "believer number one" then targetRu = "Верующего номер один"
+        elseif targetLower == "sylvia" then targetRu = "Сильвию"
+        elseif targetLower == "astrolabe user" then targetRu = "Пользователя астролябии"
+        elseif targetLower == "offspring protection" then targetRu = "Защиту потомства"
+        elseif targetLower == "escort carriage" then targetRu = "Эскорт экипажа"
+        elseif targetLower == "misfortune water giant turtle" then targetRu = "Водную гигантскую черепаху несчастий"
+        elseif targetLower == "dancing king baboon brother" then targetRu = "Брата Бабуина — Короля танцев"
+        else targetRu = lookupGeminiText(target) or target end
+
+        local itemLower = item:lower()
+        local itemRu = item
+        if itemLower == "loose note pages" or itemLower == "loose notes" then itemRu = "страницы дневника"
+        elseif itemLower == "hound's claw" then itemRu = "коготь пса"
+        elseif itemLower == "residual spirituality fragments" then itemRu = "осколки остаточной духовности"
+        elseif itemLower == "corrupted beyonder characteristic" then itemRu = "загрязненную Потустороннюю характеристику"
+        elseif itemLower == "a bookmark" then itemRu = "закладку"
+        elseif itemLower == "broken weapon" then itemRu = "сломанное оружие"
+        elseif itemLower == "fairy tale book" then itemRu = "книгу сказок"
+        elseif itemLower == "tattered diary" then itemRu = "ветхий дневник"
+        elseif itemLower == "old notebook" then itemRu = "старый блокнот"
+        elseif itemLower == "damaged spirituality traces" then itemRu = "поврежденные следы духовности"
+        elseif itemLower == "beyonder characteristic fragment" then itemRu = "осколок Потусторонней характеристики"
+        else itemRu = lookupGeminiText(item) or item end
+
+        local actRu = (act:lower():find("defeat") or act:lower():find("побед")) and "Победите" or "Пройдите"
+        return actRu .. " " .. targetRu .. " (" .. diffRu .. "), соберите " .. itemRu .. " (" .. p2 .. ")"
+    end
+
+    -- 3. In competitive mode, kill/assist in killing x/y <Target>
+    local killAction, p3, compTarget = value:match("^[Ii]n competitive mode,%s*(.-)%s+(%d+/%d+)%s+(.+)$")
+    if killAction and p3 and compTarget then
+        local isAssist = killAction:lower():find("assist") ~= nil
+        local actPrefix = isAssist and "В соревновательном режиме помогите победить " or "В соревновательном режиме победите "
+        local lowerTarget = compTarget:lower()
+        local targetRu = compTarget
+        if lowerTarget == "seers" then targetRu = "Провидцев"
+        elseif lowerTarget == "clowns" then targetRu = "Клоунов"
+        elseif lowerTarget == "magicians" then targetRu = "Магов"
+        elseif lowerTarget == "warriors" then targetRu = "Воинов"
+        elseif lowerTarget == "spectators" then targetRu = "Зрителей"
+        elseif lowerTarget == "mind readers" then targetRu = "Чтецов мыслей"
+        elseif lowerTarget == "psychologists" then targetRu = "Психологов"
+        elseif lowerTarget == "apprentices" then targetRu = "Учеников"
+        elseif lowerTarget == "bards" then targetRu = "Бардов"
+        elseif lowerTarget == "astrologers" then targetRu = "Астрологов"
+        elseif lowerTarget == "witches" then targetRu = "Ведьм"
+        elseif lowerTarget == "mystery pryers" then targetRu = "Жрецов тайн"
+        elseif lowerTarget == "pugilists" then targetRu = "Бойцов"
+        elseif lowerTarget == "sun priests" then targetRu = "Жрецов Солнца"
+        elseif lowerTarget == "weapon masters" then targetRu = "Мастеров оружия"
+        elseif lowerTarget == "scholars of forethought" then targetRu = "Учёных предвидения"
+        else targetRu = lookupGeminiText(compTarget) or compTarget end
+        return actPrefix .. p3 .. " " .. targetRu
+    end
+
+    -- 4. Complete x/y explorations: <Exploration>
+    local expProgress, expTarget = value:match("^[Cc]omplete%s+(%d+/%d+)%s+explorations?:%s*(.+)$")
+    if expProgress and expTarget then
+        local targetRu = lookupGeminiText(expTarget) or expTarget
+        if expTarget:lower() == "spirit body threads" then targetRu = "Нити духовного тела" end
+        return "Пройдите исследование " .. expProgress .. ": " .. targetRu
+    end
+
+    -- 5. Visit other Beyonders' Castle x/y times
+    local castleTimes = value:match("^[Vv]isit other [Bb]eyonders'%s+[Cc]astle%s+(%d+/%d+)%s+times$")
+    if castleTimes then
+        return "Посетите замок других Потусторонних " .. castleTimes .. " раз"
+    end
+    local castleTimesSingle = value:match("^[Vv]isit other [Bb]eyonders'%s+[Cc]astle%s+(%d+)%s+times$")
+    if castleTimesSingle then
+        return "Посетите замок других Потусторонних " .. castleTimesSingle .. " раз"
+    end
+
+    return nil
+end
+
 local function translateVisibleText(value)
     if type(value) ~= "string" then
         return value
@@ -1706,6 +1854,13 @@ local function translateVisibleText(value)
         end
         return normalizedLargeNumber
     end
+
+    local digestionTask = runtimeFixes.translateDigestionTask(value)
+    if digestionTask ~= nil and digestionTask ~= value then
+        visibleTextCache[value] = digestionTask
+        return digestionTask
+    end
+
     if hasCjk and not hasCjk(value) then
         visibleTextCache[value] = value
         return value
@@ -2111,14 +2266,18 @@ local function translateTextWidget(widget, discoveryContext)
             -- STRICT UNIVERSAL RULE: Replace font object with StandardFontObject whenever known!
             -- Strictly eliminates Cinematic font across all UI widgets, scene text, task boards, and subtitles.
             if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                if font.FontObject == runtimeFixes.CinematicFontObject
-                    or isCinematicName
-                    or runtimeFixes.isCinematicFontObject(font.FontObject)
-                    or (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
-                    or not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
-                    font.FontObject = runtimeFixes.StandardFontObject
-                    if runtimeFixes.StandardTypefaceFontName ~= nil then
-                        font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                local widgetIsCinematic = isCinematicName or runtimeFixes.isCinematicFontObject(font.FontObject)
+                local hasCyrillicText = (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
+                if hasCyrillicText or widgetIsCinematic then
+                    local fPath = ""
+                    pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()):lower() end end)
+                    local isRunic = fPath:find("mistery") or fPath:find("mystery") or fPath:find("theleon") or fPath:find("hermes")
+                    -- If widget has a stylized/runic font and NO Cyrillic text, preserve its decorative font!
+                    if not (isRunic and not hasCyrillicText) then
+                        font.FontObject = runtimeFixes.StandardFontObject
+                        if runtimeFixes.StandardTypefaceFontName ~= nil then
+                            font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                        end
                     end
                 end
             end

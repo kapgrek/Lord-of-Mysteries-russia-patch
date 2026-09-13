@@ -17,4 +17,5 @@ temp/*
 !temp/README.md
 scratch/
 test_output/
+Logs/
 source/translation_batches/temp_chunk.json
