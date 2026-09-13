@@ -992,10 +992,14 @@ end
 
 function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetName)
     if fontObj == nil then return end
+    local fontPath = ""
+    pcall(function()
+        if fontObj.GetPathName ~= nil then fontPath = tostring(fontObj:GetPathName()) end
+    end)
     if runtimeFixes.isCinematicWidgetName(sourceWidgetName) or runtimeFixes.isCinematicFontObject(fontObj) then
         if runtimeFixes.CinematicFontObject == nil then
             runtimeFixes.CinematicFontObject = fontObj
-            report("identified CinematicFontObject from " .. tostring(sourceWidgetName))
+            report("identified CinematicFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
         end
         return
     end
@@ -1005,7 +1009,7 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         if typefaceName ~= nil then
             runtimeFixes.StandardTypefaceFontName = typefaceName
         end
-        report("registered StandardFontObject from " .. tostring(sourceWidgetName))
+        report("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
     end
 end
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from

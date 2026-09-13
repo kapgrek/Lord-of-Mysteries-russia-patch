@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Security.Cryptography;
@@ -88,9 +88,12 @@ public class PatcherEngine {
             }
         }
 
-        Console.WriteLine("[3/4] Копирование локализованных файлов (Saved/Mods, Binaries)...");
+        Console.WriteLine("[3/4] Копирование локализованных файлов (Saved/Mods, Binaries, Content)...");
         CopyDirectory(Path.Combine(payloadDir, "Binaries"), Path.Combine(gameDir, "Binaries"));
         CopyDirectory(Path.Combine(payloadDir, "Saved"), Path.Combine(gameDir, "Saved"));
+        if (Directory.Exists(Path.Combine(payloadDir, "Content"))) {
+            CopyDirectory(Path.Combine(payloadDir, "Content"), Path.Combine(gameDir, "Content"));
+        }
 
         Console.WriteLine("[4/4] Внедрение запеченного текста и текстур UI (BakedText)...");
         PatchBakedText(gameDir, payloadDir);
@@ -128,7 +131,7 @@ public class PatcherEngine {
         }
         RestoreBakedText(gameDir, payloadDir);
 
-        Console.WriteLine("[4/4] Очистка папки модов Saved/Mods...");
+        Console.WriteLine("[4/4] Очистка папки модов Saved/Mods и Content/Paks/~mods...");
         string modsDir = Path.Combine(gameDir, "Saved", "Mods");
         if (Directory.Exists(modsDir)) {
             try {
@@ -136,6 +139,16 @@ public class PatcherEngine {
                 Console.WriteLine("  -> Папка модов удалена.");
             } catch (Exception ex) {
                 Console.WriteLine("  -> Не удалось полностью удалить папку: " + ex.Message);
+            }
+        }
+
+        string paksModDir = Path.Combine(gameDir, "Content", "Paks", "~mods");
+        if (Directory.Exists(paksModDir)) {
+            try {
+                Directory.Delete(paksModDir, true);
+                Console.WriteLine("  -> Папка Content/Paks/~mods удалена.");
+            } catch (Exception ex) {
+                Console.WriteLine("  -> Не удалось удалить ~mods: " + ex.Message);
             }
         }
 
