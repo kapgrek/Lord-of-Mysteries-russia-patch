@@ -579,10 +579,9 @@ namespace LotmRussianPatcher
 
             try
             {
-                success = await Task.Run(() =>
-                {
-                    return PatcherBackend.InstallWithAutoPayload(gamePath, Log, UpdateProgressUI, token, out failReason);
-                });
+                var result = await PatcherBackend.InstallWithAutoPayloadAsync(gamePath, Log, UpdateProgressUI, token);
+                success = result.Success;
+                failReason = result.FailReason;
             }
             catch (OperationCanceledException)
             {
@@ -591,8 +590,10 @@ namespace LotmRussianPatcher
             }
             catch (Exception ex)
             {
-                failReason = ex.Message;
-                Log("КРИТИЧЕСКИЙ СБОЙ: " + ex.Message);
+                Exception inner = ex;
+                while (inner.InnerException != null) inner = inner.InnerException;
+                failReason = inner.Message;
+                Log("КРИТИЧЕСКИЙ СБОЙ: " + inner.Message);
             }
             finally
             {
@@ -908,6 +909,33 @@ namespace LotmRussianPatcher
             return null;
         }
 
+        public static string FindPayloadInDirectory(string rootDir)
+        {
+            if (string.IsNullOrEmpty(rootDir) || !Directory.Exists(rootDir)) return null;
+
+            if (ValidatePayloadContents(rootDir, null)) return rootDir;
+
+            try
+            {
+                // Поиск подпапки patch_payload
+                string[] patchPayloads = Directory.GetDirectories(rootDir, "patch_payload", SearchOption.AllDirectories);
+                foreach (var dir in patchPayloads)
+                {
+                    if (ValidatePayloadContents(dir, null)) return dir;
+                }
+
+                // Поиск любой подпапки с валидным содержимым
+                string[] allDirs = Directory.GetDirectories(rootDir, "*", SearchOption.AllDirectories);
+                foreach (var dir in allDirs)
+                {
+                    if (ValidatePayloadContents(dir, null)) return dir;
+                }
+            }
+            catch { }
+
+            return null;
+        }
+
         public static bool ValidatePayloadContents(string payloadDir, Action<string> log)
         {
             if (string.IsNullOrEmpty(payloadDir) || !Directory.Exists(payloadDir))
@@ -961,28 +989,64 @@ namespace LotmRussianPatcher
                 }
             }
 
-            // 2. Локальный zip-архив рядом с экзешником
-            string localZip = Path.Combine(baseDir, "lom-russian-patch-data.zip");
-            if (!File.Exists(localZip))
+            // 2. Локальный zip-архив рядом с экзешником или в Загрузках
+            List<string> zipCandidates = new List<string>();
+            string defaultZip = Path.Combine(baseDir, "lom-russian-patch-data.zip");
+            if (File.Exists(defaultZip)) zipCandidates.Add(defaultZip);
+
+            foreach (var pat in new string[] { "*patch*.zip", "*russian*.zip", "*lotm*.zip", "*lom*.zip" })
             {
-                string[] zipCandidates = Directory.GetFiles(baseDir, "*russian-patch*.zip");
-                if (zipCandidates.Length > 0) localZip = zipCandidates[0];
+                try
+                {
+                    foreach (var f in Directory.GetFiles(baseDir, pat))
+                    {
+                        if (!zipCandidates.Contains(f)) zipCandidates.Add(f);
+                    }
+                }
+                catch { }
             }
 
-            if (File.Exists(localZip))
+            // Дополнительно проверяем папку Downloads пользователя
+            try
+            {
+                string downloadsDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads");
+                if (Directory.Exists(downloadsDir) && !downloadsDir.Equals(baseDir, StringComparison.OrdinalIgnoreCase))
+                {
+                    foreach (var pat in new string[] { "lom-russian-patch-data*.zip", "Lord-of-Mysteries-Russian-Patch*.zip", "lotm-russian-patch-test*.zip" })
+                    {
+                        foreach (var f in Directory.GetFiles(downloadsDir, pat))
+                        {
+                            if (!zipCandidates.Contains(f)) zipCandidates.Add(f);
+                        }
+                    }
+                }
+            }
+            catch { }
+
+            foreach (var localZip in zipCandidates)
             {
                 try
                 {
                     string targetExtract = Path.Combine(Path.GetTempPath(), "lom_patch_payload_" + (new FileInfo(localZip).Length));
-                    if (ValidatePayloadContents(targetExtract, null)) return targetExtract;
+                    string existingValid = FindPayloadInDirectory(targetExtract);
+                    if (existingValid != null) return existingValid;
 
                     if (log != null) log("Распаковка локального архива данных: " + Path.GetFileName(localZip));
                     if (Directory.Exists(targetExtract)) Directory.Delete(targetExtract, true);
                     Directory.CreateDirectory(targetExtract);
                     ZipFile.ExtractToDirectory(localZip, targetExtract);
-                    if (ValidatePayloadContents(targetExtract, log)) return targetExtract;
+
+                    string foundPayload = FindPayloadInDirectory(targetExtract);
+                    if (foundPayload != null)
+                    {
+                        if (log != null) log("✔ Локальные файлы патча найдены в архиве " + Path.GetFileName(localZip));
+                        return foundPayload;
+                    }
                 }
-                catch { }
+                catch (Exception ex)
+                {
+                    if (log != null) log("Предупреждение при распаковке архива " + Path.GetFileName(localZip) + ": " + ex.Message);
+                }
             }
 
             // 3. Кеш в AppData
@@ -997,9 +1061,10 @@ namespace LotmRussianPatcher
             {
                 if (log != null) log("Файлы патча не найдены локально. Запуск онлайн-загрузки с GitHub...");
                 bool ok = await DownloadAndExtractPayloadAsync(log, progress, token);
-                if (ok && ValidatePayloadContents(appDataPayload, log))
+                if (ok)
                 {
-                    return appDataPayload;
+                    string valid = FindPayloadInDirectory(appDataPayload);
+                    if (valid != null) return valid;
                 }
             }
 
@@ -1016,9 +1081,24 @@ namespace LotmRussianPatcher
             if (progress != null) progress(-1, "Получение сведений об актуальной версии...");
 
             ReleaseManifest manifest = await Task.Run(() => GitHubReleaseClient.FetchLatestReleaseInfo(log));
-            string downloadUrl = (manifest != null && !string.IsNullOrEmpty(manifest.PayloadDownloadUrl))
-                ? manifest.PayloadDownloadUrl
-                : "https://github.com/" + Program.DEFAULT_REPO + "/releases/latest/download/lom-russian-patch-data.zip";
+            string downloadUrl = null;
+
+            if (manifest != null)
+            {
+                if (!string.IsNullOrEmpty(manifest.PayloadApiUrl) && !string.IsNullOrEmpty(GitHubReleaseClient.TryGetGitHubToken()))
+                {
+                    downloadUrl = manifest.PayloadApiUrl;
+                }
+                else if (!string.IsNullOrEmpty(manifest.PayloadDownloadUrl))
+                {
+                    downloadUrl = manifest.PayloadDownloadUrl;
+                }
+            }
+
+            if (string.IsNullOrEmpty(downloadUrl))
+            {
+                downloadUrl = "https://github.com/" + Program.DEFAULT_REPO + "/releases/latest/download/lom-russian-patch-data.zip";
+            }
 
             long expectedSize = (manifest != null) ? manifest.PayloadSize : 0;
             string expectedSha256 = (manifest != null) ? manifest.PayloadSha256 : null;
@@ -1116,9 +1196,13 @@ namespace LotmRussianPatcher
 
                 ZipFile.ExtractToDirectory(zipPath, targetDir);
 
-                bool valid = ValidatePayloadContents(targetDir, log);
-                if (valid)
+                string validPayload = FindPayloadInDirectory(targetDir);
+                if (validPayload != null)
                 {
+                    if (!validPayload.Equals(targetDir, StringComparison.OrdinalIgnoreCase))
+                    {
+                        CopyDirectory(validPayload, targetDir);
+                    }
                     if (log != null) log("✔ Все компоненты патча успешно распакованы и готовы.");
                     return true;
                 }
@@ -1135,29 +1219,31 @@ namespace LotmRussianPatcher
             }
         }
 
-        public static bool InstallWithAutoPayload(string gameDir, Action<string> log, Action<int, string> progress, CancellationToken token, out string failReason)
+        public class InstallResult
         {
-            failReason = "";
+            public bool Success { get; set; }
+            public string FailReason { get; set; }
+        }
 
+        public static async Task<InstallResult> InstallWithAutoPayloadAsync(string gameDir, Action<string> log, Action<int, string> progress, CancellationToken token)
+        {
             if (!IsValidGameFolder(gameDir))
             {
-                failReason = "Указанная папка игры недействительна.";
-                return false;
+                return new InstallResult { Success = false, FailReason = "Указанная папка игры недействительна." };
             }
 
             if (IsGameRunning())
             {
-                failReason = "Игра или лаунчер запущены. Закройте их перед установкой.";
-                return false;
+                return new InstallResult { Success = false, FailReason = "Игра или лаунчер запущены. Закройте их перед установкой." };
             }
 
             // 1. Проверка прав на запись
             string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
             if (!File.Exists(pakPath))
             {
-                failReason = "Файл pakchunk0-Windows.pak не найден в: " + pakPath;
-                if (log != null) log("ОШИБКА: " + failReason);
-                return false;
+                string reason = "Файл pakchunk0-Windows.pak не найден в: " + pakPath;
+                if (log != null) log("ОШИБКА: " + reason);
+                return new InstallResult { Success = false, FailReason = reason };
             }
 
             try
@@ -1169,23 +1255,45 @@ namespace LotmRussianPatcher
             }
             catch (Exception ex)
             {
-                failReason = "Нет доступа к записи в pakchunk0-Windows.pak (" + ex.Message + "). Требуются права администратора или снятие блокировки.";
-                if (log != null) log("ОШИБКА ДОСТУПА: " + failReason);
-                return false;
+                string reason = "Нет доступа к записи в pakchunk0-Windows.pak (" + ex.Message + "). Требуются права администратора или снятие блокировки.";
+                if (log != null) log("ОШИБКА ДОСТУПА: " + reason);
+                return new InstallResult { Success = false, FailReason = reason };
             }
 
             // 2. Получение файлов полезной нагрузки (с автоскачиванием при необходимости)
             if (log != null) log("[1/5] Проверка наличия пакета русификатора...");
-            string payloadDir = ResolvePayloadDir(true, log, progress, token).Result;
+            string payloadDir = await ResolvePayloadDir(true, log, progress, token);
             if (payloadDir == null || !ValidatePayloadContents(payloadDir, log))
             {
-                failReason = "Не удалось получить полные файлы русификатора (ошибка загрузки или поврежденный архив).";
-                return false;
+                return new InstallResult
+                {
+                    Success = false,
+                    FailReason = "Не удалось получить полные файлы русификатора (ошибка загрузки или поврежденный архив). Проверьте интернет или скопируйте архив lom-russian-patch-data.zip в папку установщика."
+                };
             }
 
             // 3. Выполнение установки
             if (progress != null) progress(-1, "Внедрение моста и шардов локализации...");
-            return InstallCore(gameDir, payloadDir, log, out failReason);
+            string failReason = "";
+            bool ok = InstallCore(gameDir, payloadDir, log, out failReason);
+            return new InstallResult { Success = ok, FailReason = failReason };
+        }
+
+        public static bool InstallWithAutoPayload(string gameDir, Action<string> log, Action<int, string> progress, CancellationToken token, out string failReason)
+        {
+            try
+            {
+                var res = InstallWithAutoPayloadAsync(gameDir, log, progress, token).GetAwaiter().GetResult();
+                failReason = res.FailReason;
+                return res.Success;
+            }
+            catch (Exception ex)
+            {
+                Exception inner = ex;
+                while (inner.InnerException != null) inner = inner.InnerException;
+                failReason = inner.Message;
+                return false;
+            }
         }
 
         private static bool InstallCore(string gameDir, string payloadDir, Action<string> log, out string failReason)
@@ -1439,7 +1547,7 @@ namespace LotmRussianPatcher
             try { if (File.Exists(bridgeDisabled)) File.Delete(bridgeDisabled); } catch { }
 
             log("[3/4] Восстановление запеченного текста (BakedText)...");
-            string payloadDir = ResolvePayloadDir(false, null, null, CancellationToken.None).Result;
+            string payloadDir = ResolvePayloadDir(false, null, null, CancellationToken.None).GetAwaiter().GetResult();
             if (payloadDir != null)
             {
                 RestoreBakedText(gameDir, payloadDir, log);
@@ -1721,20 +1829,148 @@ namespace LotmRussianPatcher
     {
         public string Version { get; set; }
         public string PayloadDownloadUrl { get; set; }
+        public string PayloadApiUrl { get; set; }
         public long PayloadSize { get; set; }
         public string PayloadSha256 { get; set; }
     }
 
     public static class GitHubReleaseClient
     {
+        public static string TryGetGitHubToken()
+        {
+            string token = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+            if (!string.IsNullOrEmpty(token)) return token.Trim();
+
+            token = Environment.GetEnvironmentVariable("GH_TOKEN");
+            if (!string.IsNullOrEmpty(token)) return token.Trim();
+
+            try
+            {
+                ProcessStartInfo psi = new ProcessStartInfo("gh", "auth token")
+                {
+                    UseShellExecute = false,
+                    RedirectStandardOutput = true,
+                    RedirectStandardError = true,
+                    CreateNoWindow = true
+                };
+                using (Process p = Process.Start(psi))
+                {
+                    if (p != null)
+                    {
+                        string output = p.StandardOutput.ReadToEnd();
+                        if (p.WaitForExit(2000) && p.ExitCode == 0 && !string.IsNullOrEmpty(output))
+                        {
+                            string t = output.Trim();
+                            if (!string.IsNullOrEmpty(t) && !t.Contains(" ")) return t;
+                        }
+                    }
+                }
+            }
+            catch { }
+
+            return null;
+        }
+
         public static ReleaseManifest FetchLatestReleaseInfo(Action<string> log)
         {
             string repo = Environment.GetEnvironmentVariable("LOTM_PATCH_REPO");
             if (string.IsNullOrEmpty(repo)) repo = Program.DEFAULT_REPO;
 
-            string token = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+            string token = TryGetGitHubToken();
 
-            // 1. Попытка скачать release.json по прямому адресу релиза
+            // 1. Запрос через официальный GitHub API
+            try
+            {
+                string apiUrl = "https://api.github.com/repos/" + repo + "/releases/latest";
+                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(apiUrl);
+                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                req.Timeout = 10000;
+                if (!string.IsNullOrEmpty(token))
+                {
+                    req.Headers.Add("Authorization", "Bearer " + token);
+                }
+
+                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+                using (StreamReader reader = new StreamReader(resp.GetResponseStream(), Encoding.UTF8))
+                {
+                    string json = reader.ReadToEnd();
+                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
+                    var dict = serializer.Deserialize<Dictionary<string, object>>(json);
+                    if (dict != null)
+                    {
+                        var res = new ReleaseManifest();
+                        if (dict.ContainsKey("tag_name")) res.Version = Convert.ToString(dict["tag_name"]);
+
+                        string releaseJsonApiUrl = null;
+
+                        if (dict.ContainsKey("assets") && dict["assets"] is System.Collections.ArrayList)
+                        {
+                            var list = (System.Collections.ArrayList)dict["assets"];
+                            foreach (Dictionary<string, object> asset in list)
+                            {
+                                string name = Convert.ToString(asset["name"]);
+                                if (name == "lom-russian-patch-data.zip")
+                                {
+                                    if (asset.ContainsKey("browser_download_url"))
+                                        res.PayloadDownloadUrl = Convert.ToString(asset["browser_download_url"]);
+                                    if (asset.ContainsKey("url"))
+                                        res.PayloadApiUrl = Convert.ToString(asset["url"]);
+                                    if (asset.ContainsKey("size"))
+                                        res.PayloadSize = Convert.ToInt64(asset["size"]);
+                                }
+                                else if (name == "release.json")
+                                {
+                                    if (asset.ContainsKey("url"))
+                                        releaseJsonApiUrl = Convert.ToString(asset["url"]);
+                                }
+                            }
+                        }
+
+                        // Если найден release.json, читаем его метаданные
+                        if (!string.IsNullOrEmpty(releaseJsonApiUrl) && !string.IsNullOrEmpty(token))
+                        {
+                            try
+                            {
+                                string relJsonText = DownloadStringWithRedirect(releaseJsonApiUrl, token);
+                                if (!string.IsNullOrEmpty(relJsonText))
+                                {
+                                    var relDict = serializer.Deserialize<Dictionary<string, object>>(relJsonText);
+                                    if (relDict != null && relDict.ContainsKey("payload") && relDict["payload"] is Dictionary<string, object>)
+                                    {
+                                        var p = (Dictionary<string, object>)relDict["payload"];
+                                        if (p.ContainsKey("sha256")) res.PayloadSha256 = Convert.ToString(p["sha256"]);
+                                    }
+                                }
+                            }
+                            catch { }
+                        }
+
+                        if (string.IsNullOrEmpty(res.PayloadDownloadUrl))
+                        {
+                            res.PayloadDownloadUrl = "https://github.com/" + repo + "/releases/latest/download/lom-russian-patch-data.zip";
+                        }
+                        return res;
+                    }
+                }
+            }
+            catch (WebException wex)
+            {
+                var hResp = wex.Response as HttpWebResponse;
+                if (hResp != null && hResp.StatusCode == HttpStatusCode.NotFound)
+                {
+                    if (log != null) log("GitHub API: Репозиторий " + repo + " вернул 404 (Не найден). Возможно, репозиторий является приватным.");
+                }
+                else
+                {
+                    if (log != null) log("GitHub API: " + wex.Message);
+                }
+            }
+            catch (Exception ex)
+            {
+                if (log != null) log("GitHub API: " + ex.Message);
+            }
+
+            // 2. Фоллбек: прямой адрес release.json (для публичных репозиториев)
             string directManifestUrl = "https://github.com/" + repo + "/releases/latest/download/release.json";
             try
             {
@@ -1764,62 +2000,46 @@ namespace LotmRussianPatcher
                     }
                 }
             }
-            catch (Exception ex)
-            {
-                if (log != null) log("Прямой манифест release.json недоступен (" + ex.Message + "), опрос GitHub API...");
-            }
-
-            // 2. Фоллбек на GitHub API
-            try
-            {
-                string apiUrl = "https://api.github.com/repos/" + repo + "/releases/latest";
-                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(apiUrl);
-                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
-                req.Timeout = 10000;
-                if (!string.IsNullOrEmpty(token)) req.Headers.Add("Authorization", "Bearer " + token);
-
-                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
-                using (StreamReader reader = new StreamReader(resp.GetResponseStream(), Encoding.UTF8))
-                {
-                    string json = reader.ReadToEnd();
-                    var serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                    var dict = serializer.Deserialize<Dictionary<string, object>>(json);
-                    if (dict != null)
-                    {
-                        var res = new ReleaseManifest();
-                        if (dict.ContainsKey("tag_name")) res.Version = Convert.ToString(dict["tag_name"]);
-
-                        if (dict.ContainsKey("assets") && dict["assets"] is System.Collections.ArrayList)
-                        {
-                            var list = (System.Collections.ArrayList)dict["assets"];
-                            foreach (Dictionary<string, object> asset in list)
-                            {
-                                string name = Convert.ToString(asset["name"]);
-                                if (name == "lom-russian-patch-data.zip")
-                                {
-                                    if (asset.ContainsKey("browser_download_url"))
-                                        res.PayloadDownloadUrl = Convert.ToString(asset["browser_download_url"]);
-                                    if (asset.ContainsKey("size"))
-                                        res.PayloadSize = Convert.ToInt64(asset["size"]);
-                                    break;
-                                }
-                            }
-                        }
-
-                        if (string.IsNullOrEmpty(res.PayloadDownloadUrl))
-                        {
-                            res.PayloadDownloadUrl = "https://github.com/" + repo + "/releases/latest/download/lom-russian-patch-data.zip";
-                        }
-                        return res;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                if (log != null) log("GitHub API: " + ex.Message);
-            }
+            catch { }
 
             return null;
+        }
+
+        private static string DownloadStringWithRedirect(string url, string token)
+        {
+            HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
+            req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+            req.Timeout = 10000;
+            req.AllowAutoRedirect = false;
+            if (!string.IsNullOrEmpty(token))
+            {
+                req.Headers.Add("Authorization", "Bearer " + token);
+                req.Accept = "application/octet-stream";
+            }
+
+            using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
+            {
+                if ((int)resp.StatusCode >= 300 && (int)resp.StatusCode < 400)
+                {
+                    string location = resp.Headers["Location"];
+                    if (!string.IsNullOrEmpty(location))
+                    {
+                        HttpWebRequest redir = (HttpWebRequest)WebRequest.Create(location);
+                        redir.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                        redir.Timeout = 10000;
+                        using (HttpWebResponse rResp = (HttpWebResponse)redir.GetResponse())
+                        using (StreamReader sr = new StreamReader(rResp.GetResponseStream(), Encoding.UTF8))
+                        {
+                            return sr.ReadToEnd();
+                        }
+                    }
+                }
+
+                using (StreamReader sr = new StreamReader(resp.GetResponseStream(), Encoding.UTF8))
+                {
+                    return sr.ReadToEnd();
+                }
+            }
         }
 
         public static async Task<bool> DownloadFileWithProgressAsync(
@@ -1830,63 +2050,133 @@ namespace LotmRussianPatcher
             CancellationToken token,
             Action<string> log)
         {
-            string tokenAuth = Environment.GetEnvironmentVariable("GITHUB_TOKEN");
+            string tokenAuth = TryGetGitHubToken();
 
             return await Task.Run(() =>
             {
-                HttpWebRequest req = (HttpWebRequest)WebRequest.Create(url);
-                req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
-                req.Timeout = 30000;
-                req.ReadWriteTimeout = 60000;
-                if (!string.IsNullOrEmpty(tokenAuth)) req.Headers.Add("Authorization", "Bearer " + tokenAuth);
-
-                using (HttpWebResponse resp = (HttpWebResponse)req.GetResponse())
-                using (Stream inStream = resp.GetResponseStream())
-                using (FileStream outStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                try
                 {
-                    long totalBytes = resp.ContentLength > 0 ? resp.ContentLength : expectedTotalBytes;
-                    byte[] buffer = new byte[65536];
-                    long bytesReceived = 0;
-                    Stopwatch sw = Stopwatch.StartNew();
-                    Stopwatch speedSw = Stopwatch.StartNew();
-                    long lastBytes = 0;
-                    double currentSpeed = 0;
+                    string targetUrl = url;
+                    bool needAuthHeader = false;
 
-                    int read;
-                    while ((read = inStream.Read(buffer, 0, buffer.Length)) > 0)
+                    if (targetUrl.Contains("api.github.com"))
                     {
-                        if (token.IsCancellationRequested)
+                        needAuthHeader = !string.IsNullOrEmpty(tokenAuth);
+                    }
+
+                    HttpWebRequest req = (HttpWebRequest)WebRequest.Create(targetUrl);
+                    req.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                    req.Timeout = 30000;
+                    req.ReadWriteTimeout = 60000;
+                    req.AllowAutoRedirect = false; // Редиректы обрабатываем вручную для AWS S3
+
+                    if (needAuthHeader)
+                    {
+                        req.Headers.Add("Authorization", "Bearer " + tokenAuth);
+                        req.Accept = "application/octet-stream";
+                    }
+
+                    HttpWebResponse resp;
+                    try
+                    {
+                        resp = (HttpWebResponse)req.GetResponse();
+                    }
+                    catch (WebException wex)
+                    {
+                        var hResp = wex.Response as HttpWebResponse;
+                        if (hResp != null && ((int)hResp.StatusCode >= 300 && (int)hResp.StatusCode < 400))
                         {
-                            outStream.Close();
-                            try { File.Delete(destinationPath); } catch { }
+                            resp = hResp;
+                        }
+                        else
+                        {
+                            if (hResp != null && hResp.StatusCode == HttpStatusCode.NotFound)
+                            {
+                                if (log != null) log("ОШИБКА: Сервер вернул 404 (Не найден). Если репозиторий GitHub приватный, сделайте его публичным либо поместите архив рядом с программой.");
+                            }
+                            else
+                            {
+                                if (log != null) log("Ошибка сетевого подключения: " + wex.Message);
+                            }
+                            return false;
+                        }
+                    }
+
+                    // Проверяем редирект (302/301/307) от GitHub API на хранилище AWS S3 / Azure CDN
+                    if ((int)resp.StatusCode >= 300 && (int)resp.StatusCode < 400)
+                    {
+                        string location = resp.Headers["Location"];
+                        resp.Close();
+
+                        if (string.IsNullOrEmpty(location))
+                        {
+                            if (log != null) log("ОШИБКА: Сервер вернул пустой адрес перенаправления.");
                             return false;
                         }
 
-                        outStream.Write(buffer, 0, read);
-                        bytesReceived += read;
+                        // Скачиваем из хранилища (Location) БЕЗ Authorization заголовка
+                        HttpWebRequest redirReq = (HttpWebRequest)WebRequest.Create(location);
+                        redirReq.UserAgent = "LotmRussianPatcher/" + Program.VERSION + " (Windows)";
+                        redirReq.Timeout = 30000;
+                        redirReq.ReadWriteTimeout = 60000;
+                        redirReq.AllowAutoRedirect = true;
+                        resp = (HttpWebResponse)redirReq.GetResponse();
+                    }
 
-                        if (speedSw.ElapsedMilliseconds >= 500)
+                    using (resp)
+                    using (Stream inStream = resp.GetResponseStream())
+                    using (FileStream outStream = new FileStream(destinationPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                    {
+                        long totalBytes = resp.ContentLength > 0 ? resp.ContentLength : expectedTotalBytes;
+                        byte[] buffer = new byte[65536];
+                        long bytesReceived = 0;
+                        Stopwatch speedSw = Stopwatch.StartNew();
+                        long lastBytes = 0;
+                        double currentSpeed = 0;
+
+                        int read;
+                        while ((read = inStream.Read(buffer, 0, buffer.Length)) > 0)
                         {
-                            double elapsedSec = speedSw.ElapsedMilliseconds / 1000.0;
-                            long delta = bytesReceived - lastBytes;
-                            currentSpeed = delta / elapsedSec;
-                            lastBytes = bytesReceived;
-                            speedSw.Restart();
-
-                            if (progress != null)
+                            if (token.IsCancellationRequested)
                             {
-                                progress(bytesReceived, totalBytes, currentSpeed);
+                                outStream.Close();
+                                try { File.Delete(destinationPath); } catch { }
+                                return false;
                             }
+
+                            outStream.Write(buffer, 0, read);
+                            bytesReceived += read;
+
+                            if (speedSw.ElapsedMilliseconds >= 500)
+                            {
+                                double elapsedSec = speedSw.ElapsedMilliseconds / 1000.0;
+                                long delta = bytesReceived - lastBytes;
+                                currentSpeed = elapsedSec > 0 ? delta / elapsedSec : 0;
+                                lastBytes = bytesReceived;
+                                speedSw.Restart();
+
+                                if (progress != null)
+                                {
+                                    progress(bytesReceived, totalBytes, currentSpeed);
+                                }
+                            }
+                        }
+
+                        if (progress != null)
+                        {
+                            progress(bytesReceived, totalBytes, currentSpeed);
                         }
                     }
 
-                    if (progress != null)
-                    {
-                        progress(bytesReceived, totalBytes, currentSpeed);
-                    }
+                    return true;
                 }
-
-                return true;
+                catch (Exception ex)
+                {
+                    Exception inner = ex;
+                    while (inner.InnerException != null) inner = inner.InnerException;
+                    if (log != null) log("Ошибка при скачивании файла: " + inner.Message);
+                    return false;
+                }
             });
         }
     }
