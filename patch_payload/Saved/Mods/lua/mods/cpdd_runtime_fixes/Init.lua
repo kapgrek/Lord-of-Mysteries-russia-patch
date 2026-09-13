@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.79"
+local VERSION = "0.9.80"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -931,6 +931,82 @@ function runtimeFixes.utf8Len(str)
     if type(str) ~= "string" then return 0 end
     local _, count = str:gsub("[^\128-\191]", "")
     return count
+end
+
+function runtimeFixes.isCinematicWidgetName(name)
+    if type(name) ~= "string" then return false end
+    local lower = name:lower()
+    return lower:find("aside") ~= nil
+        or lower:find("chapter") ~= nil
+        or lower:find("taskdesc") ~= nil
+        or lower:find("targetdesc") ~= nil
+        or lower:find("cinematic") ~= nil
+        or lower:find("subtitle") ~= nil
+        or lower:find("blackscreen") ~= nil
+        or lower:find("mimewhite") ~= nil
+        or lower:find("border_panel") ~= nil
+end
+
+function runtimeFixes.isCinematicFontObject(fontObj)
+    if fontObj == nil then return false end
+    if runtimeFixes.CinematicFontObject ~= nil and fontObj == runtimeFixes.CinematicFontObject then
+        return true
+    end
+    local name = ""
+    local path = ""
+    pcall(function()
+        if fontObj.GetName ~= nil then name = tostring(fontObj:GetName()):lower() end
+        if fontObj.GetPathName ~= nil then path = tostring(fontObj:GetPathName()):lower() end
+    end)
+    local full = name .. " " .. path
+    if full:find("song") or full:find("serif") or full:find("cinema") or full:find("book")
+        or full:find("chapter") or full:find("aside") or full:find("baosong") or full:find("fzb")
+        or full:find("simsun") or full:find("kaishu") or full:find("hwzs") or full:find("stsong") then
+        return true
+    end
+    return false
+end
+
+function runtimeFixes.isStandardFontObject(fontObj)
+    if fontObj == nil then return false end
+    if runtimeFixes.StandardFontObject ~= nil and fontObj == runtimeFixes.StandardFontObject then
+        return true
+    end
+    if runtimeFixes.isCinematicFontObject(fontObj) then
+        return false
+    end
+    local name = ""
+    local path = ""
+    pcall(function()
+        if fontObj.GetName ~= nil then name = tostring(fontObj:GetName()):lower() end
+        if fontObj.GetPathName ~= nil then path = tostring(fontObj:GetPathName()):lower() end
+    end)
+    local full = name .. " " .. path
+    if full:find("sans") or full:find("default") or full:find("common") or full:find("roboto")
+        or full:find("noto") or full:find("yahei") or full:find("lan_ting") or full:find("lanting")
+        or full:find("simhei") or full:find("regular") or full:find("ui") or full:find("body") then
+        return true
+    end
+    return false
+end
+
+function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetName)
+    if fontObj == nil then return end
+    if runtimeFixes.isCinematicWidgetName(sourceWidgetName) or runtimeFixes.isCinematicFontObject(fontObj) then
+        if runtimeFixes.CinematicFontObject == nil then
+            runtimeFixes.CinematicFontObject = fontObj
+            report("identified CinematicFontObject from " .. tostring(sourceWidgetName))
+        end
+        return
+    end
+
+    if runtimeFixes.StandardFontObject == nil or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
+        runtimeFixes.StandardFontObject = fontObj
+        if typefaceName ~= nil then
+            runtimeFixes.StandardTypefaceFontName = typefaceName
+        end
+        report("registered StandardFontObject from " .. tostring(sourceWidgetName))
+    end
 end
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from
 -- downloaded localization data are normally treated as non-authoritative, but
@@ -1969,51 +2045,62 @@ local function translateTextWidget(widget, discoveryContext)
         if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
 
         local textToCheck = translated or currentText or ""
-        local isBodyName = wName:find("desc") or wName:find("content") or wName:find("detail")
+        local isCinematicName = runtimeFixes.isCinematicWidgetName(wName)
+        local isBodyName = not isCinematicName and (wName:find("desc") or wName:find("content") or wName:find("detail")
             or wName:find("tips") or wName:find("message") or wName:find("info")
-            or (type(textToCheck) == "string" and #textToCheck > 40)
-        local isTitleName = wName:find("title") or wName:find("btn") or wName:find("tab")
+            or (type(textToCheck) == "string" and #textToCheck > 40))
+        local isTitleName = not isCinematicName and (wName:find("title") or wName:find("btn") or wName:find("tab")
             or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
-            or wName:find("server") or wName:find("chapter") or wName:find("rank")
+            or wName:find("server") or wName:find("chapter") or wName:find("rank"))
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
-            if isBodyName and not isTitleName and font.FontObject ~= nil then
-                if runtimeFixes.StandardFontObject == nil then
-                    runtimeFixes.StandardFontObject = font.FontObject
-                    runtimeFixes.StandardTypefaceFontName = font.TypefaceFontName
+            if font.FontObject ~= nil then
+                if isCinematicName or runtimeFixes.isCinematicFontObject(font.FontObject) then
+                    if runtimeFixes.CinematicFontObject == nil then
+                        runtimeFixes.CinematicFontObject = font.FontObject
+                    end
+                elseif isBodyName and not isTitleName then
+                    runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, wName)
                 end
             end
 
-            -- Replace font object unconditionally whenever StandardFontObject is known
+            -- STRICT UNIVERSAL RULE: Replace font object with StandardFontObject whenever known!
+            -- Strictly eliminates Cinematic font across all UI widgets, scene text, task boards, and subtitles.
             if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                font.FontObject = runtimeFixes.StandardFontObject
-                if runtimeFixes.StandardTypefaceFontName ~= nil then
-                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                if font.FontObject == runtimeFixes.CinematicFontObject
+                    or isCinematicName
+                    or runtimeFixes.isCinematicFontObject(font.FontObject)
+                    or (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
+                    or not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
+                    font.FontObject = runtimeFixes.StandardFontObject
+                    if runtimeFixes.StandardTypefaceFontName ~= nil then
+                        font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                    end
                 end
             end
 
             font.LetterSpacing = 0
 
             local baseSize = tonumber(font.Size) or 18
-            if isTitleName or baseSize > 16 then
+            if isTitleName then
                 local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
                 if textLen > 14 then
-                    font.Size = math.min(baseSize, 12)
-                elseif textLen > 10 then
-                    font.Size = math.min(baseSize, 13)
-                elseif textLen > 6 then
                     font.Size = math.min(baseSize, 14)
-                elseif baseSize > 20 then
-                    font.Size = 16
+                elseif textLen > 10 then
+                    font.Size = math.min(baseSize, 15)
+                elseif textLen > 6 then
+                    font.Size = math.min(baseSize, 16)
+                elseif baseSize > 22 then
+                    font.Size = 18
                 end
-                if isTitleName then
-                    if widget.SetAutoWrapText ~= nil then
-                        widget:SetAutoWrapText(false)
-                    elseif widget.AutoWrapText ~= nil then
-                        widget.AutoWrapText = false
-                    end
+                if widget.SetAutoWrapText ~= nil then
+                    widget:SetAutoWrapText(false)
+                elseif widget.AutoWrapText ~= nil then
+                    widget.AutoWrapText = false
                 end
+            elseif baseSize > 24 then
+                font.Size = 20
             end
 
             widget.Font = font
@@ -2026,18 +2113,27 @@ local function translateTextWidget(widget, discoveryContext)
             or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
             or widget.DefaultTextStyle
         if style ~= nil and style.Font ~= nil then
-            if isBodyName and not isTitleName and style.Font.FontObject ~= nil then
-                if runtimeFixes.StandardFontObject == nil then
-                    runtimeFixes.StandardFontObject = style.Font.FontObject
-                    runtimeFixes.StandardTypefaceFontName = style.Font.TypefaceFontName
+            if style.Font.FontObject ~= nil then
+                if isCinematicName or runtimeFixes.isCinematicFontObject(style.Font.FontObject) then
+                    if runtimeFixes.CinematicFontObject == nil then
+                        runtimeFixes.CinematicFontObject = style.Font.FontObject
+                    end
+                elseif isBodyName and not isTitleName then
+                    runtimeFixes.registerFontCandidate(style.Font.FontObject, style.Font.TypefaceFontName, wName)
                 end
             end
 
             style.Font.LetterSpacing = 0
             if runtimeFixes.StandardFontObject ~= nil and style.Font.FontObject ~= runtimeFixes.StandardFontObject then
-                style.Font.FontObject = runtimeFixes.StandardFontObject
-                if runtimeFixes.StandardTypefaceFontName ~= nil then
-                    style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                if style.Font.FontObject == runtimeFixes.CinematicFontObject
+                    or isCinematicName
+                    or runtimeFixes.isCinematicFontObject(style.Font.FontObject)
+                    or (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
+                    or not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
+                    style.Font.FontObject = runtimeFixes.StandardFontObject
+                    if runtimeFixes.StandardTypefaceFontName ~= nil then
+                        style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                    end
                 end
             end
             if widget.DefaultTextStyleOverride ~= nil then
@@ -2190,21 +2286,24 @@ local function translateViewTextWidgets(view, userWidget, discoveryContext, comp
     local visited = sharedVisited or {}
     local repairedCount = 0
 
-    if runtimeFixes.StandardFontObject == nil then
+    if runtimeFixes.StandardFontObject == nil or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
         pcall(function()
-            local seedNames = { "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Description", "Text_Info", "Text_TaskDesc1", "Text_TargetDesc", "Text_ChapterName" }
+            local seedNames = { "Server_Name_Text", "Server_Name_Text1", "Text_ServerName", "Text_BtnName", "Text_Name", "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Info" }
             for _, sName in ipairs(seedNames) do
-                local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
-                if w ~= nil then
-                    local f = w.GetFont and w:GetFont() or w.Font
-                    if f == nil then
-                        local st = (w.GetDefaultTextStyleOverride and w:GetDefaultTextStyleOverride()) or w.DefaultTextStyleOverride or w.DefaultTextStyle
-                        if st ~= nil then f = st.Font end
-                    end
-                    if f ~= nil and f.FontObject ~= nil then
-                        runtimeFixes.StandardFontObject = f.FontObject
-                        runtimeFixes.StandardTypefaceFontName = f.TypefaceFontName
-                        break
+                if not runtimeFixes.isCinematicWidgetName(sName) then
+                    local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
+                    if w ~= nil then
+                        local f = w.GetFont and w:GetFont() or w.Font
+                        if f == nil then
+                            local st = (w.GetDefaultTextStyleOverride and w:GetDefaultTextStyleOverride()) or w.DefaultTextStyleOverride or w.DefaultTextStyle
+                            if st ~= nil then f = st.Font end
+                        end
+                        if f ~= nil and f.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(f.FontObject) then
+                            runtimeFixes.registerFontCandidate(f.FontObject, f.TypefaceFontName, sName)
+                            if runtimeFixes.StandardFontObject ~= nil and not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
+                                break
+                            end
+                        end
                     end
                 end
             end
@@ -3864,6 +3963,7 @@ local function repairEnglishSceneTextInnerLayout(self, phase)
         end)
     end
     if textDetail ~= nil then
+        pcall(translateTextWidget, textDetail)
         pcall(function()
             local slot = textDetail.Slot
             if slot ~= nil and slot.SetAutoSize ~= nil then
@@ -6859,6 +6959,14 @@ local exactWidgetRepairSpecs = {
         { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
         function(self)
             local view = self and (self.view or self.WidgetTree or self.userWidget or self)
+            local serverWidget = getNamedWidget(view, "Server_Name_Text") or (self and getNamedWidget(self, "Server_Name_Text"))
+                or getNamedWidget(view, "Server_Name_Text1") or (self and getNamedWidget(self, "Server_Name_Text1"))
+            if serverWidget ~= nil then
+                local f = serverWidget.GetFont and serverWidget:GetFont() or serverWidget.Font
+                if f ~= nil and f.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(f.FontObject) then
+                    runtimeFixes.registerFontCandidate(f.FontObject, f.TypefaceFontName, "LoginServerItem")
+                end
+            end
             local function adaptServerWidget(w)
                 if w == nil then return end
                 translateTextWidget(w)
@@ -6874,13 +6982,13 @@ local exactWidgetRepairSpecs = {
                         local textLen = (type(text) == "string") and runtimeFixes.utf8Len(text) or 0
                         local baseSize = tonumber(font.Size) or 18
                         if textLen > 14 then
-                            font.Size = math.min(baseSize, 12)
-                        elseif textLen > 10 then
-                            font.Size = math.min(baseSize, 13)
-                        elseif textLen > 6 then
                             font.Size = math.min(baseSize, 14)
-                        else
+                        elseif textLen > 10 then
                             font.Size = math.min(baseSize, 15)
+                        elseif textLen > 6 then
+                            font.Size = math.min(baseSize, 16)
+                        else
+                            font.Size = math.min(baseSize, 17)
                         end
                         w.Font = font
                         if w.SetFont ~= nil then w:SetFont(font) end
@@ -7817,6 +7925,8 @@ local function repairMenuBtnItem(self, params)
                 if runtimeFixes.StandardTypefaceFontName ~= nil then
                     font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
                 end
+            elseif font.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(font.FontObject) then
+                runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, "MenuBtnItem")
             end
             font.LetterSpacing = 0
             local effectiveText = label
@@ -7829,9 +7939,9 @@ local function repairMenuBtnItem(self, params)
             local textLen = (type(effectiveText) == "string") and runtimeFixes.utf8Len(effectiveText) or 0
             local baseSize = tonumber(font.Size) or 18
             if textLen > 6 then
-                font.Size = math.min(baseSize, 12)
+                font.Size = math.min(baseSize, 14)
             else
-                font.Size = math.min(baseSize, 13)
+                font.Size = math.min(baseSize, 15)
             end
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
@@ -8221,35 +8331,33 @@ local function installEventDrivenPanelRepair(value, environment)
         end
     end
     local function installGlobalTextBlockHooks()
-        pcall(function()
-            local TextBlock = import("TextBlock")
-            if TextBlock ~= nil and type(TextBlock) == "table" and not TextBlock.__cpddHooked then
-                TextBlock.__cpddHooked = true
-                local originalSetText = TextBlock.SetText
-                if type(originalSetText) == "function" then
-                    TextBlock.SetText = function(self, inText)
-                        local res = originalSetText(self, inText)
-                        pcall(translateTextWidget, self)
-                        return res
+        local textClasses = {
+            "TextBlock",
+            "RichTextBlock",
+            "KGTextBlock",
+            "C7TextBlock",
+            "CommonTextBlock",
+            "UKGCommonRichTextBlock",
+            "KGCommonRichTextBlock",
+        }
+        for _, clsName in ipairs(textClasses) do
+            pcall(function()
+                local cls = import(clsName)
+                if cls ~= nil and type(cls) == "table" and not cls.__cpddHooked then
+                    cls.__cpddHooked = true
+                    local originalSetText = cls.SetText
+                    if type(originalSetText) == "function" then
+                        cls.SetText = function(self, inText)
+                            local res = originalSetText(self, inText)
+                            pcall(translateTextWidget, self)
+                            return res
+                        end
                     end
                 end
-            end
-        end)
-        pcall(function()
-            local RichTextBlock = import("RichTextBlock")
-            if RichTextBlock ~= nil and type(RichTextBlock) == "table" and not RichTextBlock.__cpddHooked then
-                RichTextBlock.__cpddHooked = true
-                local originalSetText = RichTextBlock.SetText
-                if type(originalSetText) == "function" then
-                    RichTextBlock.SetText = function(self, inText)
-                        local res = originalSetText(self, inText)
-                        pcall(translateTextWidget, self)
-                        return res
-                    end
-                end
-            end
-        end)
+            end)
+        end
     end
+    runtimeFixes.installGlobalTextBlockHooks = installGlobalTextBlockHooks
     installGlobalTextBlockHooks()
 
     class.__cpddEventTextRepair = VERSION
@@ -8346,6 +8454,9 @@ Loader.On("after_main", function()
     -- modules during the launch-critical after_main phase.
     if type(Loader.ReapplyAll) == "function" then
         Loader.ReapplyAll()
+    end
+    if type(runtimeFixes.installGlobalTextBlockHooks) == "function" then
+        runtimeFixes.installGlobalTextBlockHooks()
     end
     report("startup metrics gemini_loads=" .. tostring(runtimeMetrics.GeminiLoads)
         .. " source_shards=" .. tostring(runtimeMetrics.SourceShardLoads)
