@@ -312,6 +312,13 @@ if ($Action -eq 'Import') {
 
     [System.IO.File]::WriteAllText($batchFile, $batchText, [System.Text.Encoding]::UTF8)
     Write-Host "[OK] Successfully updated $updated strings in $batchFile!" -ForegroundColor Green
+
+    # Automatically recompile runtime shards so updated translations immediately optimize into the database layer!
+    $shardCompiler = Join-Path $PSScriptRoot "ShardCompiler.exe"
+    if (Test-Path $shardCompiler) {
+        Write-Host "Recompiling translation shards for instant database-layer optimization..." -ForegroundColor Cyan
+        & $shardCompiler
+    }
     exit 0
 }
 

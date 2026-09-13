@@ -1,4 +1,4 @@
-﻿local File = import("LuaFunctionLibrary")
+local File = import("LuaFunctionLibrary")
 local Paths = import("BlueprintPathsLibrary")
 local root = File.GetFilePath(Paths.ProjectSavedDir()) .. "/Mods/"
 
@@ -401,9 +401,18 @@ local function merge_overlay(name, originalValue, environment, translatedChunk, 
     if external then Loader.ExternalLoaded[external] = translatedValue end
 
     local count = 0
-    for key, value in pairs(translatedData) do
-        originalData[key] = value
-        count = count + 1
+    local translator = Loader.TranslateDatabaseString
+    if type(translator) == "function" then
+        for key, value in pairs(translatedData) do
+            local ru = translator(value, originalData[key], key, name)
+            originalData[key] = ru ~= nil and ru or value
+            count = count + 1
+        end
+    else
+        for key, value in pairs(translatedData) do
+            originalData[key] = value
+            count = count + 1
+        end
     end
     Loader.OverlayTargets[name] = originalData
     Loader.OverlayApplied[name] = count
@@ -502,9 +511,9 @@ end
 table.insert(package.loaders, 1, external_searcher)
 Loader.Searcher = external_searcher
 Loader.ReapplyOverlays()
-Loader.On("after_prepare", function() Loader.ReapplyOverlays() end, -1000000, "loader.translation_overlays.prepare")
+Loader.On("after_prepare", function() Loader.ReapplyOverlays(true) end, -1000000, "loader.translation_overlays.prepare")
 Loader.On("after_main", function()
-    Loader.ReapplyOverlays()
+    Loader.ReapplyOverlays(true)
     local moduleCount, entryCount = 0, 0
     for _, count in pairs(Loader.OverlayApplied) do
         moduleCount = moduleCount + 1

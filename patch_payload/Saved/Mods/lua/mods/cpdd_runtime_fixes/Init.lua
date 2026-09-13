@@ -1197,7 +1197,7 @@ local function lookupGeminiText(value)
         else
             geminiTextCache.Seen[prefix] = true
         end
-        if elapsed >= 8 then
+        if elapsed >= 50 and Loader.Features.DiagnosticsMode then
             report("slow Gemini text shard " .. prefix .. " loaded in "
                 .. string.format("%.2f", elapsed) .. " ms")
         end
@@ -8566,6 +8566,57 @@ pcall(function()
                 end
                 return model
             end, 100, "cpdd.chat_model.format_guard")
+        end
+    end
+end)
+
+-- Register database translation hook for bootstrap.lua merge_overlay
+-- This translates the Excel StringDB database in memory at load time (0ms runtime latency).
+Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
+    if type(enValue) ~= "string" or enValue == "" then
+        return nil
+    end
+
+    -- 1. Explicit row ID overrides
+    local explicit = aggregateOverrides[rowId]
+    if explicit ~= nil then return explicit end
+
+    -- 2. Tag-specific split overrides
+    if type(moduleName) == "string" then
+        local tag = moduleName:match("StringDB_CN_Data_([A-Za-z0-9_]+)$")
+        if tag and splitOverrides[tag] and splitOverrides[tag][rowId] then
+            return splitOverrides[tag][rowId]
+        end
+    end
+
+    -- 3. Exact direct shard lookup for English string
+    local ru = lookupGeminiText(enValue)
+    if ru ~= nil then return ru end
+
+    -- 4. Exact direct shard lookup for Chinese original string
+    if type(cnValue) == "string" and cnValue ~= "" and cnValue ~= enValue then
+        local ruCn = lookupGeminiText(cnValue)
+        if ruCn ~= nil then return ruCn end
+    end
+
+    -- 5. Exact review overrides
+    local exact = visibleTextExactOverrides[enValue]
+        or (type(cnValue) == "string" and visibleTextExactOverrides[cnValue])
+    if exact ~= nil then return exact end
+
+    -- 6. Fuzzy lookup
+    local fuzzy = runtimeFixes.lookupGeminiTextFuzzy(enValue)
+    if fuzzy ~= nil then return fuzzy end
+
+    return nil
+end
+
+pcall(function()
+    if type(Loader.ReapplyOverlays) == "function" then
+        local count = Loader.ReapplyOverlays(true)
+        local logger = Log or LaunchLog
+        if logger and logger.Info then
+            logger.Info("[LOMModLoader] Database Russian overlay applied to " .. tostring(count or 0) .. " modules")
         end
     end
 end)
