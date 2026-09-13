@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.78"
+local VERSION = "0.9.79"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1916,64 +1916,68 @@ local function translateTextWidget(widget, discoveryContext)
             end
         end)
     end
-    if current == nil or current == "" then
-        return 0
-    end
 
-    local currentText = type(current) == "string" and current or tostring(current)
+    local currentText = (type(current) == "string" and current ~= "") and current or nil
     local widgetName = "Text"
     pcall(function()
         widgetName = tostring(widget:GetName())
     end)
-    local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
-    local translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, collapsedCurrent)
-        or translateVisibleText(collapsedCurrent)
-    if translated == collapsedCurrent and collapsedCurrent ~= currentText then
-        translated = collapsedCurrent
-    else
-        translated = runtimeFixes.collapseSpacedCharacters(translated)
-    end
+    local wName = widgetName:lower()
 
     local repairedCount = 0
-    if translated ~= currentText then
-        local changed = pcall(function()
-            if widget.SetText ~= nil then
-                widget:SetText(translated)
-            end
-        end)
-        -- KGTextBlock / RichTextBlock can repaint its serialized Text property after a
-        -- Blueprint state change. Keep the property and Slate value aligned.
-        pcall(function()
-            widget.Text = translated
-        end)
-        pcall(function()
-            if widget.SynchronizeProperties ~= nil then
-                widget:SynchronizeProperties()
-            end
-        end)
-        pcall(function()
-            if widget.InvalidateLayoutAndVolatility ~= nil then
-                widget:InvalidateLayoutAndVolatility()
-            end
-        end)
-        repairedCount = changed and 1 or 0
+    local translated = nil
+
+    if currentText ~= nil then
+        local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
+        translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, collapsedCurrent)
+            or translateVisibleText(collapsedCurrent)
+        if translated == collapsedCurrent and collapsedCurrent ~= currentText then
+            translated = collapsedCurrent
+        else
+            translated = runtimeFixes.collapseSpacedCharacters(translated)
+        end
+
+        if translated ~= currentText then
+            local changed = pcall(function()
+                if widget.SetText ~= nil then
+                    widget:SetText(translated)
+                end
+            end)
+            -- KGTextBlock / RichTextBlock can repaint its serialized Text property after a
+            -- Blueprint state change. Keep the property and Slate value aligned.
+            pcall(function()
+                widget.Text = translated
+            end)
+            pcall(function()
+                if widget.SynchronizeProperties ~= nil then
+                    widget:SynchronizeProperties()
+                end
+            end)
+            pcall(function()
+                if widget.InvalidateLayoutAndVolatility ~= nil then
+                    widget:InvalidateLayoutAndVolatility()
+                end
+            end)
+            repairedCount = changed and 1 or 0
+        end
     end
+
+    -- STRICT UNIVERSAL RULE: Enforce 0 letter spacing and standard font on ALL widgets,
+    -- even if currently empty, to ensure subsequent C++/Blueprint updates inherit proper styling.
     pcall(function()
         if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
         if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
+
+        local textToCheck = translated or currentText or ""
+        local isBodyName = wName:find("desc") or wName:find("content") or wName:find("detail")
+            or wName:find("tips") or wName:find("message") or wName:find("info")
+            or (type(textToCheck) == "string" and #textToCheck > 40)
+        local isTitleName = wName:find("title") or wName:find("btn") or wName:find("tab")
+            or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
+            or wName:find("server") or wName:find("chapter") or wName:find("rank")
+
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
-            local textToCheck = translated or currentText or ""
-            local hasCyrillic = (type(textToCheck) == "string") and textToCheck:find("[\208-\209][\128-\191]") ~= nil
-            local wName = widgetName or ""
-
-            local isBodyName = wName:find("Desc") or wName:find("Content") or wName:find("Detail")
-                or wName:find("Tips") or wName:find("Message") or wName:find("Info")
-                or (type(textToCheck) == "string" and #textToCheck > 40)
-            local isTitleName = wName:find("Title") or wName:find("Btn") or wName:find("Tab")
-                or wName:find("Header") or wName:find("Name") or wName:find("Sub") or wName:find("Choice")
-                or wName:find("Server")
-
             if isBodyName and not isTitleName and font.FontObject ~= nil then
                 if runtimeFixes.StandardFontObject == nil then
                     runtimeFixes.StandardFontObject = font.FontObject
@@ -1981,7 +1985,8 @@ local function translateTextWidget(widget, discoveryContext)
                 end
             end
 
-            if hasCyrillic and runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
+            -- Replace font object unconditionally whenever StandardFontObject is known
+            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
                 font.FontObject = runtimeFixes.StandardFontObject
                 if runtimeFixes.StandardTypefaceFontName ~= nil then
                     font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
@@ -1991,19 +1996,23 @@ local function translateTextWidget(widget, discoveryContext)
             font.LetterSpacing = 0
 
             local baseSize = tonumber(font.Size) or 18
-            if hasCyrillic and isTitleName then
+            if isTitleName or baseSize > 16 then
                 local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
-                if textLen > 14 and baseSize > 12 then
-                    font.Size = 12
-                elseif textLen > 10 and baseSize > 13 then
-                    font.Size = 13
-                elseif textLen > 6 and baseSize > 14 then
-                    font.Size = 14
+                if textLen > 14 then
+                    font.Size = math.min(baseSize, 12)
+                elseif textLen > 10 then
+                    font.Size = math.min(baseSize, 13)
+                elseif textLen > 6 then
+                    font.Size = math.min(baseSize, 14)
+                elseif baseSize > 20 then
+                    font.Size = 16
                 end
-                if widget.SetAutoWrapText ~= nil then
-                    widget:SetAutoWrapText(false)
-                elseif widget.AutoWrapText ~= nil then
-                    widget.AutoWrapText = false
+                if isTitleName then
+                    if widget.SetAutoWrapText ~= nil then
+                        widget:SetAutoWrapText(false)
+                    elseif widget.AutoWrapText ~= nil then
+                        widget.AutoWrapText = false
+                    end
                 end
             end
 
@@ -2017,16 +2026,6 @@ local function translateTextWidget(widget, discoveryContext)
             or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
             or widget.DefaultTextStyle
         if style ~= nil and style.Font ~= nil then
-            local textToCheck = translated or currentText or ""
-            local hasCyrillic = (type(textToCheck) == "string") and textToCheck:find("[\208-\209][\128-\191]") ~= nil
-            local wName = widgetName or ""
-            local isBodyName = wName:find("Desc") or wName:find("Content") or wName:find("Detail")
-                or wName:find("Tips") or wName:find("Message") or wName:find("Info")
-                or (type(textToCheck) == "string" and #textToCheck > 40)
-            local isTitleName = wName:find("Title") or wName:find("Btn") or wName:find("Tab")
-                or wName:find("Header") or wName:find("Name") or wName:find("Sub") or wName:find("Choice")
-                or wName:find("Server")
-
             if isBodyName and not isTitleName and style.Font.FontObject ~= nil then
                 if runtimeFixes.StandardFontObject == nil then
                     runtimeFixes.StandardFontObject = style.Font.FontObject
@@ -2035,7 +2034,7 @@ local function translateTextWidget(widget, discoveryContext)
             end
 
             style.Font.LetterSpacing = 0
-            if hasCyrillic and runtimeFixes.StandardFontObject ~= nil and style.Font.FontObject ~= runtimeFixes.StandardFontObject then
+            if runtimeFixes.StandardFontObject ~= nil and style.Font.FontObject ~= runtimeFixes.StandardFontObject then
                 style.Font.FontObject = runtimeFixes.StandardFontObject
                 if runtimeFixes.StandardTypefaceFontName ~= nil then
                     style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
@@ -8117,9 +8116,6 @@ function panelTextRepair:ProcessOnce(component, reason)
         self.States[key] = state
     end
     local alreadyScanned = state.Scanned == true
-    if alreadyScanned and not repeatable then
-        return 0
-    end
     state.Scanned = true
     if alreadyScanned then
         self:Queue(component, true)
@@ -8224,6 +8220,38 @@ local function installEventDrivenPanelRepair(value, environment)
             end
         end
     end
+    local function installGlobalTextBlockHooks()
+        pcall(function()
+            local TextBlock = import("TextBlock")
+            if TextBlock ~= nil and type(TextBlock) == "table" and not TextBlock.__cpddHooked then
+                TextBlock.__cpddHooked = true
+                local originalSetText = TextBlock.SetText
+                if type(originalSetText) == "function" then
+                    TextBlock.SetText = function(self, inText)
+                        local res = originalSetText(self, inText)
+                        pcall(translateTextWidget, self)
+                        return res
+                    end
+                end
+            end
+        end)
+        pcall(function()
+            local RichTextBlock = import("RichTextBlock")
+            if RichTextBlock ~= nil and type(RichTextBlock) == "table" and not RichTextBlock.__cpddHooked then
+                RichTextBlock.__cpddHooked = true
+                local originalSetText = RichTextBlock.SetText
+                if type(originalSetText) == "function" then
+                    RichTextBlock.SetText = function(self, inText)
+                        local res = originalSetText(self, inText)
+                        pcall(translateTextWidget, self)
+                        return res
+                    end
+                end
+            end
+        end)
+    end
+    installGlobalTextBlockHooks()
+
     class.__cpddEventTextRepair = VERSION
     report("installed event-driven panel text repair")
     return true
