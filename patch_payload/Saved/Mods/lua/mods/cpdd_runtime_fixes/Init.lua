@@ -97,15 +97,15 @@ local aggregateOverrides = {
     -- Equipment reform paints these season-lock messages into a narrow banner.
     -- Override the already-English StringDB rows themselves so the explicit
     -- line break survives even when no Chinese runtime-map lookup occurs.
-    [413898750559745] = "Affix inheritance is available.\nRemolding unlocks in %s days.",
-    [413898750560769] = "Affix inheritance is available.\nRemolding is currently unavailable.",
+    [413898750559745] = "Наследование аффиксов доступно.\nПерековка откроется через %s дн.",
+    [413898750560769] = "Наследование аффиксов доступно.\nПерековка в данный момент недоступна.",
     -- Player Details exposes two distinct mechanics that the old catalog
     -- translated identically. The standalone ShieldBreak property is Armor
     -- Break; the lower DefReduce group and its children are Defense Break.
-    [255431368783360] = "Armor Break",
-    [141494476346368] = "Defense Break",
-    [255431368777472] = "Physical Defense Break",
-    [255431368780800] = "Magic Defense Break",
+    [255431368783360] = "Пробивание брони",
+    [141494476346368] = "Снижение защиты",
+    [255431368777472] = "Снижение физ. защиты",
+    [255431368780800] = "Снижение маг. защиты",
     -- Launch 1.1 Esc-menu compact labels. These are the confirmed four-row
     -- values from esc_menu_hotfix_v2 and must win over the external StringDB.
     [74905303409152] = "Исслед.",
@@ -126,197 +126,197 @@ local aggregateOverrides = {
     [1020416583796480] = "Обзор",
     [936784443737600] = "Оценка",
     [936990870604032] = "Награды",
-    [1271036247030528] = "Claimed",
-    [620129389936640] = "Use",
-    [1073124154021632] = "Auto-Dismantle Settings",
-    [1073124154089984] = "In Use",
-    [1073124154205952] = "My Builds",
-    [1073124154228480] = "Auto-Dismantle Confirmation",
-    [1073124154229760] = "Official Recommended Build",
-    [1271036247052800] = "Recommended Builds",
-    [1068726107902976] = "Codex",
-    [1271036247021824] = "Click blank area to close",
-    [1240251532142337] = [=[1. <Highlight>Family Application:</> Any Beyonder who has not joined a family can publish a personal application to find a suitable family. The application is automatically withdrawn <Highlight>3 days</> after publication or after successfully joining a family.
-2. <Highlight>Recruitment Response:</> Beyonders who have not joined a family may start a recruitment response or join one started by another Beyonder. The initiator becomes the <Highlight>Family Chief</> by default.
-3. <Highlight>Create Family:</> During the recruitment-response phase, a family can be created once at least <Highlight>3 people</> have responded. During creation, the Chief can adjust the family name and member positions.
-4. <Highlight>Join Family:</> When a family has fewer than <Highlight>14 members</>, the Chief can recruit. Other Beyonders may apply and join directly after the Chief approves their application.]=],
-    [1271036247235584] = "Equipment Builds",
-    [312331095508480] = "Comments",
-    [1068726108208384] = "%d0%% Price",
+    [1271036247030528] = "Получено",
+    [620129389936640] = "Использовать",
+    [1073124154021632] = "Настройки авторазбора",
+    [1073124154089984] = "Используется",
+    [1073124154205952] = "Мои схемы",
+    [1073124154228480] = "Подтверждение авторазбора",
+    [1073124154229760] = "Официальная схема",
+    [1271036247052800] = "Рекомендуемые схемы",
+    [1068726107902976] = "Энциклопедия",
+    [1271036247021824] = "Нажмите в любом месте, чтобы закрыть",
+    [1240251532142337] = [=[1. <Highlight>Заявка в семью:</> Любой Потусторонний, не состоящий в семье, может подать личную заявку для поиска подходящей семьи. Заявка автоматически отзывается через <Highlight>3 дня</> после публикации или после успешного вступления в семью.
+2. <Highlight>Отклик на набор:</> Потусторонние без семьи могут начать набор или присоединиться к чужому набору. Инициатор по умолчанию становится <Highlight>Главой семьи</>.
+3. <Highlight>Создание семьи:</> Во время отклика на набор семья может быть создана, как только откликнется не менее <Highlight>3 человек</>. При создании глава может настроить название семьи и должности участников.
+4. <Highlight>Вступление в семью:</> Если в семье менее <Highlight>14 участников</>, глава может проводить набор. Другие Потусторонние могут подать заявку и вступить после одобрения главой.]=],
+    [1271036247235584] = "Схемы снаряжения",
+    [312331095508480] = "Комментарии",
+    [1068726108208384] = "Цена: %d0%%",
     -- Manor upgrade UI splits these records on commas. Preserve the data
     -- contract instead of using the prose-style colon from the old patch.
-    [677369761236481] = "New Feature Unlocked,Visit Friends' Castles",
-    [677369761236737] = "New Feature Unlocked,Workshop",
+    [677369761236481] = "Новая функция открыта,Посетить замок друга",
+    [677369761236737] = "Новая функция открыта,Мастерская",
     -- Launch 1.2 EquipmentUniqueData rows 6801-6803. These values are cached
     -- while the data module loads, so translate the authoritative StringDB IDs
     -- in addition to repairing ItemTipsEquipSpecial:SetData below.
-    [409365949475072] = "<CostRed>{1,2,(Brand inactive)}</>Skill Enhancement increased by <Mark>30</>.\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    [409365949475328] = "<CostRed>{1,2,(Brand inactive)}</>After using a Cleanse Skill, gain <Mark>50</> Skill Block for <Mark>10</> seconds. Can trigger at most once every <Mark>30</> seconds.\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    [409365949475584] = "<CostRed>{1,2,(Brand inactive)}</>Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain <Mark>60</> Defense for <Mark>5</> seconds. Can trigger at most once every <Mark>10</> seconds.\nDoes not take effect while the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    [211107843337216] = "The sealing chains of the \"Door\" domain coil around your heart to ward off fatal damage. A single hit cannot reduce your HP by more than 25% of Max HP.",
-    [211107843655936] = [=[When a class combat skill enters cooldown, the cooldown is immediately refunded. If it is a charged skill, all charge counts are refunded. Each individual skill can trigger this refund at most once. {CheckStar(Type="sealed",ID=2085021)=1?The refunded skill deals <Yellow>*f**</> less damage and healing.}{CheckStar(Type="sealed",ID=2085021)=3?The refunded skill additionally gains <Yellow>*f**</> damage and healing.}]=],
-    [211107844315392] = "Miss Justice witnessed your fall and watched you rise again. A will that has been seen will not be easily extinguished. Damage taken is reduced by 30%, and damage dealt is increased by 40%.",
-    [286012073289984] = "\"The pure-white one sleeping within the crimson cocoon, the divine child who governs rebirth and corruption, the final possibility at the end of days.\"",
-    [286012610526208] = "\"Woof, woof!\"",
-    [1240251532052225] = "Mr. Fool has grafted onto you a destiny from the future, allowing you to wield the power of higher Sequences. As your strength grows, the variety and power of the skills you learn will continue to increase. Skills are divided into three categories: Combat Skills, Special Skills, and Acting Skills. You can equip up to four Combat Skills or Acting Skills at the same time. Special Skills do not need to be equipped and include Basic Attack, Crowd-Control Break, and Finisher Skills.",
+    [409365949475072] = "<CostRed>{1,2,(Клеймо неактивно)}</>Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
+    [409365949475328] = "<CostRed>{1,2,(Клеймо неактивно)}</>После применения навыка снятия контроля дает <Mark>50</> ед. блокирования навыков на <Mark>10</> секунд. Срабатывает не чаще одного раза в <Mark>30</> секунд.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
+    [409365949475584] = "<CostRed>{1,2,(Клеймо неактивно)}</>Пробивание брони увеличено на <Mark>80</>. При получении урона есть шанс получить <Mark>60</> ед. защиты на <Mark>5</> секунд. Срабатывает не чаще одного раза в <Mark>10</> секунд.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
+    [211107843337216] = "Запечатывающие цепи домена «Двери» обвивают ваше сердце, защищая от смертельного урона. Одиночный удар не может снизить здоровье более чем на 25% от макс. HP.",
+    [211107843655936] = [=[Когда боевой навык класса уходит на перезарядку, она мгновенно сбрасывается. Если это заряжаемый навык, восполняются все заряды. Каждый отдельный навык может вызвать этот сброс не чаще одного раза. {CheckStar(Type="sealed",ID=2085021)=1?Сброшенный навык наносит на <Yellow>*f**</> меньше урона и исцеления.}{CheckStar(Type="sealed",ID=2085021)=3?Сброшенный навык дополнительно получает <Yellow>*f**</> к урону и исцелению.}]=],
+    [211107844315392] = "Мисс Справедливость стала свидетелем вашего падения и увидела, как вы поднялись вновь. Волю, которую узрели, не так-то просто угасить. Получаемый урон снижен на 30%, а наносимый урон увеличен на 40%.",
+    [286012073289984] = "«Чистейшая белизна, спящая в багряном коконе, божественное дитя, правящее перерождением и порчей, последний шанс на исходе времен».",
+    [286012610526208] = "«Гав, гав!»",
+    [1240251532052225] = "Господин Шут привил вам судьбу из будущего, позволив использовать силу высших Последовательностей. По мере роста вашего могущества разнообразие и мощь изучаемых навыков будут расти. Навыки делятся на три категории: Боевые, Особые и Навыки действия. Вы можете экипировать до четырех Боевых навыков или Навыков действия одновременно. Особые навыки не требуют экипировки и включают Базовую атаку, Снятие контроля и Добивающие навыки.",
 }
 
 local splitOverrides = {
     buffappear = {
-        [1253512780450048] = "Fear",
+        [1253512780450048] = "Страх",
     },
     buffdata = {
-        [1253512780450048] = "Fear",
+        [1253512780450048] = "Страх",
     },
     debug = {
-        [1169950433818880] = "Enter the Dream",
+        [1169950433818880] = "Войти в Сон",
     },
     monsterskill = {
-        [1271036247082752] = "Projection",
+        [1271036247082752] = "Проекция",
     },
     skill = {
-        [1240389776443904] = "Purifying Slash",
+        [1240389776443904] = "Очищающий взмах",
     },
     skill1 = {
-        [1240389776521984] = "Star Strike",
+        [1240389776521984] = "Звездный удар",
     },
     skill2 = {
-        [611398258279936] = "Beacon of History",
+        [611398258279936] = "Маяк истории",
     },
     skill3 = {
-        [998771022409216] = "Nebula Slash",
+        [998771022409216] = "Взмах туманности",
     },
     spellfield = {
-        [1068726107518720] = "Tip",
+        [1068726107518720] = "Подсказка",
     },
 }
 
 local stringConstOverrides = {
-    BAG_AUTO_AUTO_RESOLVE_TITLE = "Auto-Dismantle Confirmation",
-    BAG_AUTO_DECOMPOSE_TITLE = "Auto-Dismantle Settings",
-    COMMENT_PANEL_TITLE = "Comments",
-    DIALOGUE_SKIP = "Skip",
-    EQUIPMENT_PLAN_APPLY_CURRENT_PLAN = "Apply Build",
-    FASHION_APPEARANCE = "Appearance",
-    FASHION_DYE_MY_PLAN = "My Builds",
-    GUILD_CARGO_HUB_REWARD_COMPLETE = "Claimed",
-    GVG_HONOR_CLAIMED_TEXT = "Claimed",
-    ITEM_GOT = "Claimed",
-    MONTH_CARD_MAIN_PAGE_TODAY_RECEIVED_LABEL = "(Claimed Today)",
-    FAMILY_INVITE_SHARE_TEAM = "Party Channel",
-    FAMILY_INVITE_SHARE_WORLD = "World Channel",
-    FAMILY_MEMBER_COUNT_FMT = "Current Family Members: %s/14",
-    FAMILY_MEMBER_FMT = "Family Members (%d/%d)",
-    ONE_CLICK_IN_USE = "In Use",
-    ONE_CLICK_RECOMMEND_PLAN = "Official Recommended Build",
-    ONE_CLICK_SHARE_RECOMMEND_PLAN = "Recommended Builds",
-    ONE_CLICK_TITLE = "One-Click Assist",
-    ONE_CLICK_USE = "Use",
-    TRAINTRADE_ITEM_DISCOUNT_CHINESE = "%d0%% Price",
-    MAP_PVP_LAST_HUNT_DRAGON_BOSS_BELONG_FORMAT = "<Green>%s</> Team Affiliation",
-    MAP_PVP_LAST_HUNT_DRAGON_BOSS_NAME = "Dragon Projection",
-    MAP_PVP_LAST_HUNT_DRAGON_BOSS_NOT_BELONG_FORMAT = "<Red>%s</> Team Affiliation",
-    PVP_LAST_HUNT_ACTIVE_TIME_FORMAT = "Activating %M:%S",
-    PVP_LAST_HUNT_ACTIVITY_NOT_OPEN_TEXT = "Use <Highlight>Seed of Sighs</> to activate Power of Sighs, start the Sighs Quest, and complete it to receive rich rewards.",
-    PVP_LAST_HUNT_ACTIVITY_OPEN_FORMAT = "Starts in %H hours %M minutes",
-    PVP_LAST_HUNT_ACTIVITY_OPEN_TEXT = "Event Start Time",
-    PVP_LAST_HUNT_ACTIVITY_REWARD_PREVIEW_FORMAT = "Quest Rewards",
-    PVP_LAST_HUNT_BOSS_BUTTON_DESC = "Go",
-    PVP_LAST_HUNT_BOSS_CONTENT_DESC = "Royal City Dragon Description Placeholder",
-    PVP_LAST_HUNT_BOSS_DETAIL_CONDITION_TITLE = "Refresh Status",
-    PVP_LAST_HUNT_BOSS_DETAIL_CONTENT = "Defeat elite monsters to earn abundant rewards",
-    PVP_LAST_HUNT_BOSS_DETAIL_NOT_SPAWNED = "Target has not appeared yet",
-    PVP_LAST_HUNT_BOSS_DETAIL_SPAWNED = "Target has appeared",
-    PVP_LAST_HUNT_BOSS_DETAIL_TITLE = "Hunt Target",
-    PVP_LAST_HUNT_BOSS_DRAGON_FORMAT = "Dragon appears in %M:%S",
-    PVP_LAST_HUNT_BOSS_SECOND_TITLE = "Defeat the Royal City Dragon",
-    PVP_LAST_HUNT_BOSS_TAG_NAME = "Royal City Guardian",
-    PVP_LAST_HUNT_BOSS_TITLE = "Slay the Dragon",
-    PVP_LAST_HUNT_CAMP_SUBMIT_FORMAT = "%s Submission Point",
-    PVP_LAST_HUNT_CHAT_BUTTON_TEXT = "Go",
-    PVP_LAST_HUNT_CHAT_TITLE = "Horn",
-    PVP_LAST_HUNT_CROSS_SERVER_SCORE_TITLE = "Military Merit",
-    PVP_LAST_HUNT_DETAIL_MY_DATA_TAB = "My Data",
-    PVP_LAST_HUNT_DETAIL_RANK_TAB = "Ranking",
-    PVP_LAST_HUNT_FIGHT_ASSISTANT_FORMAT = "%s was defeated by %s at %s. Support needed!",
-    PVP_LAST_HUNT_FIGHT_KILL_RESULT_FORMAT = "%s successfully hunted %s at %s!",
-    PVP_LAST_HUNT_GUILD_ACTIVITY_DESC_TIPS = "Final Hunt Dragon Raid <Highlight>[Team Auction]</>: %d/%d (this Friday) at 19:10",
-    PVP_LAST_HUNT_GUILD_NAME_FORMAT = "<Enemy_Name>%s</> Club",
-    PVP_LAST_HUNT_HIGHER_DETAIL_CONTENT = "Advanced quest area containing many out-of-control monsters",
-    PVP_LAST_HUNT_HIGHER_DETAIL_NOT_OPENED_TITLE = "Currently Closed",
-    PVP_LAST_HUNT_HIGHER_DETAIL_OPENED_TIME = "Open daily: 19:00-21:00\nAdditional hours: Saturday and Sunday, 14:00-16:00",
-    PVP_LAST_HUNT_HIGHER_DETAIL_TITLE_NAME = "Advanced · Tide",
+    BAG_AUTO_AUTO_RESOLVE_TITLE = "Подтверждение авторазбора",
+    BAG_AUTO_DECOMPOSE_TITLE = "Настройки авторазбора",
+    COMMENT_PANEL_TITLE = "Комментарии",
+    DIALOGUE_SKIP = "Пропустить",
+    EQUIPMENT_PLAN_APPLY_CURRENT_PLAN = "Применить схему",
+    FASHION_APPEARANCE = "Внешний вид",
+    FASHION_DYE_MY_PLAN = "Мои схемы",
+    GUILD_CARGO_HUB_REWARD_COMPLETE = "Получено",
+    GVG_HONOR_CLAIMED_TEXT = "Получено",
+    ITEM_GOT = "Получено",
+    MONTH_CARD_MAIN_PAGE_TODAY_RECEIVED_LABEL = "(Получено сегодня)",
+    FAMILY_INVITE_SHARE_TEAM = "Канал группы",
+    FAMILY_INVITE_SHARE_WORLD = "Мировой канал",
+    FAMILY_MEMBER_COUNT_FMT = "Текущие члены семьи: %s/14",
+    FAMILY_MEMBER_FMT = "Члены семьи (%d/%d)",
+    ONE_CLICK_IN_USE = "Используется",
+    ONE_CLICK_RECOMMEND_PLAN = "Официальная схема",
+    ONE_CLICK_SHARE_RECOMMEND_PLAN = "Рекомендуемые схемы",
+    ONE_CLICK_TITLE = "Автопомощь",
+    ONE_CLICK_USE = "Использовать",
+    TRAINTRADE_ITEM_DISCOUNT_CHINESE = "Цена: %d0%%",
+    MAP_PVP_LAST_HUNT_DRAGON_BOSS_BELONG_FORMAT = "Принадлежность: <Green>%s</>",
+    MAP_PVP_LAST_HUNT_DRAGON_BOSS_NAME = "Проекция дракона",
+    MAP_PVP_LAST_HUNT_DRAGON_BOSS_NOT_BELONG_FORMAT = "Принадлежность: <Red>%s</>",
+    PVP_LAST_HUNT_ACTIVE_TIME_FORMAT = "Активация через %M:%S",
+    PVP_LAST_HUNT_ACTIVITY_NOT_OPEN_TEXT = "Используйте <Highlight>Семя вздохов</>, чтобы активировать Силу вздохов, начать задание вздохов и получить щедрые награды за его выполнение.",
+    PVP_LAST_HUNT_ACTIVITY_OPEN_FORMAT = "Начнется через %H ч. %M мин.",
+    PVP_LAST_HUNT_ACTIVITY_OPEN_TEXT = "Время начала события",
+    PVP_LAST_HUNT_ACTIVITY_REWARD_PREVIEW_FORMAT = "Награды за задание",
+    PVP_LAST_HUNT_BOSS_BUTTON_DESC = "Перейти",
+    PVP_LAST_HUNT_BOSS_CONTENT_DESC = "Дракон Королевского Города (описание)",
+    PVP_LAST_HUNT_BOSS_DETAIL_CONDITION_TITLE = "Статус обновления",
+    PVP_LAST_HUNT_BOSS_DETAIL_CONTENT = "Побеждайте элитных монстров, чтобы заработать ценные награды",
+    PVP_LAST_HUNT_BOSS_DETAIL_NOT_SPAWNED = "Цель еще не появилась",
+    PVP_LAST_HUNT_BOSS_DETAIL_SPAWNED = "Цель появилась",
+    PVP_LAST_HUNT_BOSS_DETAIL_TITLE = "Цель охоты",
+    PVP_LAST_HUNT_BOSS_DRAGON_FORMAT = "Дракон появится через %M:%S",
+    PVP_LAST_HUNT_BOSS_SECOND_TITLE = "Победите Дракона Королевского Города",
+    PVP_LAST_HUNT_BOSS_TAG_NAME = "Страж Королевского Города",
+    PVP_LAST_HUNT_BOSS_TITLE = "Убить дракона",
+    PVP_LAST_HUNT_CAMP_SUBMIT_FORMAT = "Точка сдачи лагеря %s",
+    PVP_LAST_HUNT_CHAT_BUTTON_TEXT = "Перейти",
+    PVP_LAST_HUNT_CHAT_TITLE = "Горн",
+    PVP_LAST_HUNT_CROSS_SERVER_SCORE_TITLE = "Военные заслуги",
+    PVP_LAST_HUNT_DETAIL_MY_DATA_TAB = "Мои данные",
+    PVP_LAST_HUNT_DETAIL_RANK_TAB = "Рейтинг",
+    PVP_LAST_HUNT_FIGHT_ASSISTANT_FORMAT = "%s повержен игроком %s в %s. Требуется помощь!",
+    PVP_LAST_HUNT_FIGHT_KILL_RESULT_FORMAT = "%s успешно выследил %s в %s!",
+    PVP_LAST_HUNT_GUILD_ACTIVITY_DESC_TIPS = "Рейд на дракона в Финальной охоте <Highlight>[Аукцион команды]</>: %d/%d (в эту пятницу) в 19:10",
+    PVP_LAST_HUNT_GUILD_NAME_FORMAT = "Клуб <Enemy_Name>%s</>",
+    PVP_LAST_HUNT_HIGHER_DETAIL_CONTENT = "Зона повышенной сложности с множеством вышедших из-под контроля монстров",
+    PVP_LAST_HUNT_HIGHER_DETAIL_NOT_OPENED_TITLE = "Сейчас закрыто",
+    PVP_LAST_HUNT_HIGHER_DETAIL_OPENED_TIME = "Открыто ежедневно: 19:00-21:00\nДополнительно: сб и вс, 14:00-16:00",
+    PVP_LAST_HUNT_HIGHER_DETAIL_TITLE_NAME = "Продвинутый · Прилив",
     PVP_LAST_HUNT_HUD_PROGRESS_CURRENCY_FORMAT = "<Highlight>%s</>/%s",
     PVP_LAST_HUNT_HUD_PROGRESS_FORMAT = "<Highlight>%d</>/%d",
-    PVP_LAST_HUNT_ITEM_CAN_NOT_USE = "Insufficient Quantity",
-    PVP_LAST_HUNT_LACK_USE_ITEM_PROP_COUNT_FORMAT = "Attempts Remaining: %s",
-    PVP_LAST_HUNT_MAIN_PROGRESS_TITLE = "Reward Preview",
-    PVP_LAST_HUNT_MAP_DETAIL_DESC = "Faction-area teleport entrance",
-    PVP_LAST_HUNT_MAP_ITEM_NAME = "Seed of Sighs · Monster Tide Area",
-    PVP_LAST_HUNT_MEMBER_COUNT_FORMAT = "(Party Members: %d/%d)",
-    PVP_LAST_HUNT_MONSTER_CANCEL_BUTTON_NAME = "Cancel",
-    PVP_LAST_HUNT_MONSTER_DROP_REWARD_TEXT = "Chance to drop from defeated <HyperLink stylename=\"Clickable\" u=\"\">minor monsters</>",
-    PVP_LAST_HUNT_MONSTER_DROP_REWARD_UNDERLINE_TEXT = "Chance to drop from defeated <HyperLink stylename=\"Underline\" u=\"\">minor monsters</>",
-    PVP_LAST_HUNT_MONSTER_RECOMMEND_GROUP = "Group Recommended",
-    PVP_LAST_HUNT_MONSTER_RECOMMEND_TEAM = "Party Recommended",
-    PVP_LAST_HUNT_MONSTER_SUMMON_BUTTON_NAME = "Go to Summon",
-    PVP_LAST_HUNT_MONSTER_SUMMON_LEFT_COUNT_FORMAT = "Summons remaining this week: %d",
-    PVP_LAST_HUNT_NOT_OPENED_BUTTON_TEXT = "Available when the event begins",
-    PVP_LAST_HUNT_RANK_TAB_GUILD_NAME = "Club",
-    PVP_LAST_HUNT_RANK_TAB_PERSONAL_NAME = "Personal",
-    PVP_LAST_HUNT_RESURGENCE_TIPS = "Select a respawn point, then click Go",
-    PVP_LAST_HUNT_RESURGENCE_TITLE = "Select Respawn Point",
-    PVP_LAST_HUNT_REVIVE_BUTTON_NAME = "Go to Respawn",
-    PVP_LAST_HUNT_REWARD_PREVIEW_TITLE = "Quest Reward Preview",
-    PVP_LAST_HUNT_SCORE_TITLE = "Rank Points",
-    PVP_LAST_HUNT_SEND_BUTTON_TITLE = "Send Horn",
-    PVP_LAST_HUNT_SEND_CHAT_DEFAULT_TEXT = "Brothers, come help me",
-    PVP_LAST_HUNT_SEND_DEFAULT_TIP_TEXT = "Summon up to %d players",
-    PVP_LAST_HUNT_SEND_PANEL_TIPS = "Summon up to 14 players",
-    PVP_LAST_HUNT_SEND_PANEL_TITLE = "Send Horn",
-    PVP_LAST_HUNT_SETTLE_MENT_ASSIST_NUM_TITLE = "Assists",
-    PVP_LAST_HUNT_SETTLE_MENT_CANCEL = "Cancel",
-    PVP_LAST_HUNT_SETTLE_MENT_KILL_NUM_TITLE = "Kills",
-    PVP_LAST_HUNT_SETTLE_MENT_LEAVE = "Teleport Away",
-    PVP_LAST_HUNT_SETTLE_MENT_PROGRESS_NUM_TITLE = "Hunt Settlement",
-    PVP_LAST_HUNT_SETTLE_MENT_SCORE_NUM_TITLE = "Rank Points",
-    PVP_LAST_HUNT_SETTLE_MENT_TITLE = "Hunt Settlement",
-    PVP_LAST_HUNT_SUBMIT_CONTENT = "Submit Scarlet Relic materials in exchange for Hunt Vouchers",
-    PVP_LAST_HUNT_SUBMIT_REFRESH_DESC = "The Hunting Butler changes position on the map every 30 minutes. More Butlers appear when combat is intense.",
-    PVP_LAST_HUNT_SUBMIT_REFRESH_TITLE = "Refresh Rules",
-    PVP_LAST_HUNT_SUBMIT_TITLE = "Hunting Butler",
-    PVP_LAST_HUNT_SUMMON_AUTHOER_FORMAT = "(Summoned by: %s)",
-    PVP_LAST_HUNT_SUMMON_MONSTER_GET_NUM = "Attempts Obtained",
-    PVP_LAST_HUNT_SUMMON_MONSTER_LACK_NUM = "No attempts remain this week. Earn Hunt Vouchers to obtain more.",
-    PVP_LAST_HUNT_TASK_BUFF_NAME = "Power of Sighs",
-    PVP_LAST_HUNT_TASK_COMMIT_TEXT = "Go to Submit",
-    PVP_LAST_HUNT_TASK_FINISH_TITLE_TEXT = "Ended",
-    PVP_LAST_HUNT_TASK_FRAGMENT_NAME = "Prey Fragment",
-    PVP_LAST_HUNT_TASK_NOT_ACTIVE_CONTENT_TEXT = "Use a Seed of Sighs, defeat monsters or plunder players to obtain Prey Fragments, then submit them to the Earl of Order for rewards.",
-    PVP_LAST_HUNT_TASK_NOT_ACTIVE_FINISH_TEXT = "The quest has ended. Find the Earl of Order to submit your fragments for rewards.",
-    PVP_LAST_HUNT_TASK_NOT_ACTIVE_TEXT = "Inactive",
-    PVP_LAST_HUNT_TASK_PROGRESS_TEXT = "Hunt Progress",
-    PVP_LAST_HUNT_TASK_PROP_TEXT = "Seed of Sighs",
-    PVP_LAST_HUNT_TASK_QUICK_TEAM = "Quick Party",
-    PVP_LAST_HUNT_TASK_TITLE_NAME = "Final Hunt",
-    PVP_LAST_HUNT_TITLE_DETAIL_NAME = "Details",
-    PVP_LAST_HUNT_TITLE_FOLD_NAME = "Collapse",
-    PVP_LAST_HUNT_USE_ITEM_NOT_ACTIVITY_OPEN_FORMAT = "Cannot be used outside event hours. Event time: <highlight>%s-%s</>",
-    PVP_LAST_HUNT_USE_ITEM_PROP_DESC = "Using Seed of Sighs...",
-    PVP_LAST_HUNT_USE_TASK_TEXT_NAME = "Go to Accept Quest",
-    RED_PACKET_ALREADY_RECEIVED = "Claimed",
-    SECRET_PARTNER_BTN_ALREADY_CHANGE_ACTOR_NAME = "Shifting",
-    SECRET_PARTNER_BTN_CHANGE_ACTOR_NAME = "Shift",
-    SECRET_PARTNER_CANCEL_CHANGE_ACTOR = "Cancel Shift",
-    SECRET_PARTNER_CHANGE_ACTOR_TITLE = "Shift Target",
-    SECRET_PARTNER_SKILL_TEXT = "Marionette Skill",
-    SECRET_PARTNER_STAR_UP_TEXT_FORMAT = "Sequence %d",
-    SKILL_PRESET_TAB_1 = "Recommended Builds",
-    TASK_TRACE_DISTANCE = "m",
-    TRINITY_ALL_TREASURE_HAVE_CLAIMED = "All Rewards Claimed",
-    TEAM_INVITE_SECRET_PARTNER_TITLE = "Illusion Application",
-    UIAPPEARANCE_USE = "Use",
-    UIAPPEARANCE_USING = "In Use",
+    PVP_LAST_HUNT_ITEM_CAN_NOT_USE = "Недостаточно предметов",
+    PVP_LAST_HUNT_LACK_USE_ITEM_PROP_COUNT_FORMAT = "Осталось попыток: %s",
+    PVP_LAST_HUNT_MAIN_PROGRESS_TITLE = "Предпросмотр наград",
+    PVP_LAST_HUNT_MAP_DETAIL_DESC = "Вход в телепорт зоны фракции",
+    PVP_LAST_HUNT_MAP_ITEM_NAME = "Семя вздохов · Зона прилива монстров",
+    PVP_LAST_HUNT_MEMBER_COUNT_FORMAT = "(Члены группы: %d/%d)",
+    PVP_LAST_HUNT_MONSTER_CANCEL_BUTTON_NAME = "Отмена",
+    PVP_LAST_HUNT_MONSTER_DROP_REWARD_TEXT = "Шанс выпадения с побежденных <HyperLink stylename=\"Clickable\" u=\"\">обычных монстров</>",
+    PVP_LAST_HUNT_MONSTER_DROP_REWARD_UNDERLINE_TEXT = "Шанс выпадения с побежденных <HyperLink stylename=\"Underline\" u=\"\">обычных монстров</>",
+    PVP_LAST_HUNT_MONSTER_RECOMMEND_GROUP = "Рекомендуется рейд",
+    PVP_LAST_HUNT_MONSTER_RECOMMEND_TEAM = "Рекомендуется группа",
+    PVP_LAST_HUNT_MONSTER_SUMMON_BUTTON_NAME = "Призвать",
+    PVP_LAST_HUNT_MONSTER_SUMMON_LEFT_COUNT_FORMAT = "Осталось призывов на этой неделе: %d",
+    PVP_LAST_HUNT_NOT_OPENED_BUTTON_TEXT = "Доступно после начала события",
+    PVP_LAST_HUNT_RANK_TAB_GUILD_NAME = "Клуб",
+    PVP_LAST_HUNT_RANK_TAB_PERSONAL_NAME = "Личный",
+    PVP_LAST_HUNT_RESURGENCE_TIPS = "Выберите точку возрождения и нажмите «Перейти»",
+    PVP_LAST_HUNT_RESURGENCE_TITLE = "Выбор точки возрождения",
+    PVP_LAST_HUNT_REVIVE_BUTTON_NAME = "Возродиться",
+    PVP_LAST_HUNT_REWARD_PREVIEW_TITLE = "Награды за задание",
+    PVP_LAST_HUNT_SCORE_TITLE = "Очки рейтинга",
+    PVP_LAST_HUNT_SEND_BUTTON_TITLE = "Отправить горн",
+    PVP_LAST_HUNT_SEND_CHAT_DEFAULT_TEXT = "Братья, на помощь!",
+    PVP_LAST_HUNT_SEND_DEFAULT_TIP_TEXT = "Призвать до %d игроков",
+    PVP_LAST_HUNT_SEND_PANEL_TIPS = "Призвать до 14 игроков",
+    PVP_LAST_HUNT_SEND_PANEL_TITLE = "Отправить горн",
+    PVP_LAST_HUNT_SETTLE_MENT_ASSIST_NUM_TITLE = "Помощь",
+    PVP_LAST_HUNT_SETTLE_MENT_CANCEL = "Отмена",
+    PVP_LAST_HUNT_SETTLE_MENT_KILL_NUM_TITLE = "Убийства",
+    PVP_LAST_HUNT_SETTLE_MENT_LEAVE = "Покинуть",
+    PVP_LAST_HUNT_SETTLE_MENT_PROGRESS_NUM_TITLE = "Итоги охоты",
+    PVP_LAST_HUNT_SETTLE_MENT_SCORE_NUM_TITLE = "Очки рейтинга",
+    PVP_LAST_HUNT_SETTLE_MENT_TITLE = "Итоги охоты",
+    PVP_LAST_HUNT_SUBMIT_CONTENT = "Сдайте материалы Алых реликвий в обмен на купоны охоты",
+    PVP_LAST_HUNT_SUBMIT_REFRESH_DESC = "Дворецкий охоты меняет положение на карте каждые 30 минут. При ожесточенных боях появляется больше дворецких.",
+    PVP_LAST_HUNT_SUBMIT_REFRESH_TITLE = "Правила обновления",
+    PVP_LAST_HUNT_SUBMIT_TITLE = "Дворецкий охоты",
+    PVP_LAST_HUNT_SUMMON_AUTHOER_FORMAT = "(Призвал: %s)",
+    PVP_LAST_HUNT_SUMMON_MONSTER_GET_NUM = "Получено попыток",
+    PVP_LAST_HUNT_SUMMON_MONSTER_LACK_NUM = "Попыток на этой неделе не осталось. Зарабатывайте купоны охоты, чтобы получить больше.",
+    PVP_LAST_HUNT_TASK_BUFF_NAME = "Сила вздохов",
+    PVP_LAST_HUNT_TASK_COMMIT_TEXT = "Сдать",
+    PVP_LAST_HUNT_TASK_FINISH_TITLE_TEXT = "Завершено",
+    PVP_LAST_HUNT_TASK_FRAGMENT_NAME = "Осколок добычи",
+    PVP_LAST_HUNT_TASK_NOT_ACTIVE_CONTENT_TEXT = "Используйте Семя вздохов, побеждайте монстров или грабьте игроков, чтобы добыть осколки добычи, затем сдайте их Графу Порядка за награду.",
+    PVP_LAST_HUNT_TASK_NOT_ACTIVE_FINISH_TEXT = "Задание завершено. Найдите Графа Порядка, чтобы сдать осколки и получить награду.",
+    PVP_LAST_HUNT_TASK_NOT_ACTIVE_TEXT = "Неактивно",
+    PVP_LAST_HUNT_TASK_PROGRESS_TEXT = "Прогресс охоты",
+    PVP_LAST_HUNT_TASK_PROP_TEXT = "Семя вздохов",
+    PVP_LAST_HUNT_TASK_QUICK_TEAM = "Быстрая группа",
+    PVP_LAST_HUNT_TASK_TITLE_NAME = "Финальная охота",
+    PVP_LAST_HUNT_TITLE_DETAIL_NAME = "Подробнее",
+    PVP_LAST_HUNT_TITLE_FOLD_NAME = "Свернуть",
+    PVP_LAST_HUNT_USE_ITEM_NOT_ACTIVITY_OPEN_FORMAT = "Нельзя использовать вне времени события. Время события: <highlight>%s-%s</>",
+    PVP_LAST_HUNT_USE_ITEM_PROP_DESC = "Использование Семени вздохов...",
+    PVP_LAST_HUNT_USE_TASK_TEXT_NAME = "Взять задание",
+    RED_PACKET_ALREADY_RECEIVED = "Получено",
+    SECRET_PARTNER_BTN_ALREADY_CHANGE_ACTOR_NAME = "Смена...",
+    SECRET_PARTNER_BTN_CHANGE_ACTOR_NAME = "Сменить",
+    SECRET_PARTNER_CANCEL_CHANGE_ACTOR = "Отменить смену",
+    SECRET_PARTNER_CHANGE_ACTOR_TITLE = "Цель смены",
+    SECRET_PARTNER_SKILL_TEXT = "Навык марионетки",
+    SECRET_PARTNER_STAR_UP_TEXT_FORMAT = "Последовательность %d",
+    SKILL_PRESET_TAB_1 = "Рекомендуемые схемы",
+    TASK_TRACE_DISTANCE = "м",
+    TRINITY_ALL_TREASURE_HAVE_CLAIMED = "Все награды получены",
+    TEAM_INVITE_SECRET_PARTNER_TITLE = "Заявка иллюзии",
+    UIAPPEARANCE_USE = "Использовать",
+    UIAPPEARANCE_USING = "Используется",
 }
 
 -- This quest validates the literal Chinese chat input server-side. Keep only
@@ -1009,7 +1009,7 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         if typefaceName ~= nil then
             runtimeFixes.StandardTypefaceFontName = typefaceName
         end
-        report("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+        report("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath .. " typeface=" .. tostring(typefaceName))
     end
 end
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from
@@ -1129,8 +1129,8 @@ local geminiTextCache = {
     LookupOrder = {},
     LookupWriteIndex = 1,
     LookupCount = 0,
-    ShardLimit = 128,
-    LookupLimit = 8192,
+    ShardLimit = 1024,
+    LookupLimit = 65536,
 }
 
 local function touchGeminiShard(prefix)
@@ -1974,6 +1974,31 @@ runtimeFixes.collapseSpacedCharacters = function(text)
     return text
 end
 
+runtimeFixes.widgetOriginalFontSizes = {}
+runtimeFixes.getAdjustedFontSize = function(widget, currentSize, wName, isEscLocked)
+    if isEscLocked or (ESC_MENU_LOCKED and wName and (wName:find("menubtn") or wName:find("escape") or wName:find("menu_panel"))) then
+        return tonumber(currentSize) or 18
+    end
+    local key = nil
+    pcall(function()
+        if widget.GetPathName ~= nil then
+            key = tostring(widget:GetPathName())
+        end
+    end)
+    if key == nil or key == "" then
+        key = tostring(widget)
+    end
+    local orig = runtimeFixes.widgetOriginalFontSizes[key]
+    if orig == nil then
+        orig = tonumber(currentSize) or 18
+        if orig > 36 then
+            orig = 18
+        end
+        runtimeFixes.widgetOriginalFontSizes[key] = orig
+    end
+    return orig + 2
+end
+
 local function translateTextWidget(widget, discoveryContext)
     if widget == nil or (type(widget) ~= "userdata" and type(widget) ~= "table") then
         return 0
@@ -2050,9 +2075,6 @@ local function translateTextWidget(widget, discoveryContext)
     -- STRICT UNIVERSAL RULE: Enforce 0 letter spacing and standard font on ALL widgets,
     -- even if currently empty, to ensure subsequent C++/Blueprint updates inherit proper styling.
     pcall(function()
-        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
-        if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
-
         local textToCheck = translated or currentText or ""
         local isCinematicName = runtimeFixes.isCinematicWidgetName(wName)
         local isBodyName = not isCinematicName and (wName:find("desc") or wName:find("content") or wName:find("detail")
@@ -2061,6 +2083,15 @@ local function translateTextWidget(widget, discoveryContext)
         local isTitleName = not isCinematicName and (wName:find("title") or wName:find("btn") or wName:find("tab")
             or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
             or wName:find("server") or wName:find("chapter") or wName:find("rank"))
+
+        local hasCyrillic = (type(textToCheck) == "string") and (textToCheck:find("[\208\209]") ~= nil)
+        local targetLs = 0
+        if hasCyrillic then
+            targetLs = isTitleName and -120 or -60
+        end
+
+        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(targetLs) end
+        if widget.LetterSpacing ~= nil then widget.LetterSpacing = targetLs end
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
@@ -2092,9 +2123,9 @@ local function translateTextWidget(widget, discoveryContext)
                 end
             end
 
-            font.LetterSpacing = 0
+            font.LetterSpacing = targetLs
 
-            local baseSize = tonumber(font.Size) or 18
+            local baseSize = runtimeFixes.getAdjustedFontSize(widget, font.Size, wName, isEscLocked)
             if isTitleName then
                 local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
                 if textLen > 14 then
@@ -2103,16 +2134,20 @@ local function translateTextWidget(widget, discoveryContext)
                     font.Size = math.min(baseSize, 15)
                 elseif textLen > 6 then
                     font.Size = math.min(baseSize, 16)
-                elseif baseSize > 22 then
+                elseif baseSize > 20 then
                     font.Size = 18
+                else
+                    font.Size = baseSize
                 end
                 if widget.SetAutoWrapText ~= nil then
                     widget:SetAutoWrapText(false)
                 elseif widget.AutoWrapText ~= nil then
                     widget.AutoWrapText = false
                 end
-            elseif baseSize > 24 then
+            elseif baseSize > 22 then
                 font.Size = 20
+            else
+                font.Size = baseSize
             end
 
             widget.Font = font
@@ -2127,7 +2162,74 @@ local function translateTextWidget(widget, discoveryContext)
             or widget.DefaultTextStyleOverride
             or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
             or widget.DefaultTextStyle
+
+        -- [DIAGNOSTIC FONT LOGGER]
+        if wName:find("task") or wName:find("desc") or wName:find("chapter") or wName:find("info") or wName:find("rich") or wName:find("target") then
+            pcall(function()
+                local cls = (widget.GetClass and widget:GetClass():GetName()) or "unknown"
+                local fPath, stylePath, tsPath = "", "", ""
+                local f = widget.GetFont and widget:GetFont() or widget.Font
+                if f and f.FontObject and f.FontObject.GetPathName then
+                    fPath = tostring(f.FontObject:GetPathName())
+                end
+                if style and style.Font and style.Font.FontObject and style.Font.FontObject.GetPathName then
+                    stylePath = tostring(style.Font.FontObject:GetPathName())
+                end
+                local ts = widget.TextStyleSet or (widget.GetTextStyleSet and widget:GetTextStyleSet()) or widget.TextStyle
+                if ts and ts.GetPathName then
+                    tsPath = tostring(ts:GetPathName())
+                end
+                report(">>> FONT_INSPECT: widget=" .. tostring(wName) .. " class=" .. tostring(cls) .. " font=" .. fPath .. " styleFont=" .. stylePath .. " textStyleSet=" .. tsPath)
+
+                -- If it's a RichTextBlock, inspect its DataTable or members once
+                if ts and not runtimeFixes.__cpddInspectedDT then
+                    runtimeFixes.__cpddInspectedDT = true
+                    local dtLib = nil
+                    pcall(function() dtLib = import("KismetDataTableLibrary") end)
+                    report(">>> DT_INSPECT: path=" .. tostring(ts:GetPathName()) .. " has_dtLib=" .. tostring(dtLib ~= nil))
+                    if ts.GetRowNames then
+                        local okNames, rNames = pcall(function() return ts:GetRowNames() end)
+                        if okNames and rNames then
+                            local rList = {}
+                            for i = 1, #rNames do table.insert(rList, tostring(rNames[i])) end
+                            report(">>> DT_ROWS: " .. table.concat(rList, ", "))
+                        end
+                    end
+                end
+
+                if wName == "text_taskdesc1" and not runtimeFixes.__cpddInspectedTaskDesc then
+                    runtimeFixes.__cpddInspectedTaskDesc = true
+                    local keys = {}
+                    for k, _ in pairs(widget) do table.insert(keys, tostring(k)) end
+                    report(">>> TASKDESC_KEYS: " .. table.concat(keys, ", "))
+                end
+            end)
+        end
         if style ~= nil and style.Font ~= nil then
+            local oldLs = style.Font.LetterSpacing
+            pcall(function()
+                if runtimeFixes.StandardFontObject ~= nil then
+                    style.Font.FontObject = runtimeFixes.StandardFontObject
+                    if runtimeFixes.StandardTypefaceFontName ~= nil then
+                        style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
+                    end
+                end
+                style.Font.LetterSpacing = 0
+                local sSize = runtimeFixes.getAdjustedFontSize(widget, style.Font.Size, wName, isEscLocked)
+                style.Font.Size = sSize
+                if widget.bOverrideDefaultStyle ~= nil then
+                    widget.bOverrideDefaultStyle = true
+                end
+                if widget.SetDefaultTextStyleOverride ~= nil then
+                    widget:SetDefaultTextStyleOverride(style)
+                else
+                    widget.DefaultTextStyleOverride = style
+                end
+                if wName:find("task") or wName:find("desc") or wName:find("target") then
+                    local fName = style.Font.FontObject and tostring(style.Font.FontObject:GetPathName()) or "nil"
+                    report(">>> APPLIED_STANDARD_TO_RICHTEXT: widget=" .. tostring(wName) .. " font=" .. fName .. " size=" .. tostring(style.Font.Size))
+                end
+            end)
             if style.Font.FontObject ~= nil then
                 if isCinematicName or runtimeFixes.isCinematicFontObject(style.Font.FontObject) then
                     if runtimeFixes.CinematicFontObject == nil then
@@ -2512,7 +2614,7 @@ hasCjk = function(value)
     return type(value) == "string" and value:find("[\228-\233][\128-\191][\128-\191]") ~= nil
 end
 
-local SOURCE_SHARD_CACHE_LIMIT = 128
+local SOURCE_SHARD_CACHE_LIMIT = 256
 local sourceShardCache = {}
 local sourceShardOrder = {}
 local missingSourceShards = {}
@@ -5357,7 +5459,7 @@ runtimeFixes.fitSequencePromotionConditionText = function(widget)
     if font ~= nil then
         pcall(function()
             local currentSize = tonumber(font.Size) or 18
-            font.Size = math.min(currentSize, 18)
+            font.Size = math.min(currentSize + 2, 20)
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end)
@@ -5451,7 +5553,7 @@ runtimeFixes.repairSequencePromotionPanelButtons = function(self)
     end
     local changed = pcall(function()
         local currentSize = tonumber(font.Size) or 18
-        font.Size = math.min(currentSize, 18)
+        font.Size = math.min(currentSize + 2, 20)
         widget.Font = font
         if widget.SetFont ~= nil then widget:SetFont(font) end
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
@@ -6779,6 +6881,20 @@ local function repairTaskInfoLabels(self)
     if taskInfoRepairReports[self] ~= true then
         taskInfoRepairReports[self] = true
         report("Task Info targeted repair active labels=" .. tostring(repaired))
+        pcall(function()
+            if type(view) == "table" then
+                for k, v in pairs(view) do
+                    if type(v) == "userdata" then
+                        local cls = (v.GetClass and v:GetClass():GetName()) or "unknown"
+                        local fPath, tsPath = "", ""
+                        local f = v.GetFont and v:GetFont() or v.Font
+                        if f and f.FontObject and f.FontObject.GetPathName then fPath = tostring(f.FontObject:GetPathName()) end
+                        if v.TextStyleSet and v.TextStyleSet.GetPathName then tsPath = tostring(v.TextStyleSet:GetPathName()) end
+                        report(">>> TASK_INFO_MEMBER: name=" .. tostring(k) .. " class=" .. tostring(cls) .. " font=" .. fPath .. " ts=" .. tsPath)
+                    end
+                end
+            end
+        end)
     end
     return repaired
 end
@@ -6964,15 +7080,15 @@ local exactWidgetRepairSpecs = {
                         if w.GetText ~= nil then text = w:GetText() end
                         if (text == nil or text == "") and w.Text ~= nil then text = w.Text end
                         local textLen = (type(text) == "string") and runtimeFixes.utf8Len(text) or 0
-                        local baseSize = tonumber(font.Size) or 18
+                        local baseSize = runtimeFixes.getAdjustedFontSize(w, font.Size, "Server_Name_Text", false)
                         if textLen > 14 then
-                            font.Size = math.min(baseSize, 14)
-                        elseif textLen > 10 then
-                            font.Size = math.min(baseSize, 15)
-                        elseif textLen > 6 then
                             font.Size = math.min(baseSize, 16)
-                        else
+                        elseif textLen > 10 then
                             font.Size = math.min(baseSize, 17)
+                        elseif textLen > 6 then
+                            font.Size = math.min(baseSize, 18)
+                        else
+                            font.Size = math.min(baseSize, 19)
                         end
                         w.Font = font
                         if w.SetFont ~= nil then w:SetFont(font) end
