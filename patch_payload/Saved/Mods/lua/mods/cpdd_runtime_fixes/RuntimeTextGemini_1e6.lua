@@ -212,7 +212,7 @@ return {
     ["Test title"] = "Название теста",
     ["Leonard close-up 2"] = "Леонард крупным планом 2",
     ["We tried hard, but we couldn't save her, nor could we bear to destroy her. Go and see her off on her final journey; she deserves to find slumber in the Kingdom of the Night."] = "Мы очень старались, но не смогли ее спасти и не смогли уничтожить. Иди и проводи ее в последний путь; она заслуживает того, чтобы найти сон в Царстве Ночи.",
-    ["<HyperLink stylename=\"M_Link\" u=\"86021070\" color=\"#f4a067\"> Dream Weaving </> damage against targets in the <HighLight> Plague </> state increased by 30%. \n <HyperLink stylename=\"M_Link\" u=\"86021050\" color=\"#f4a067\"> Deterrence </> applies 4 seconds of Stagnation upon hitting an enemy."] = "【Мастер Марионеток】",
+    ["<HyperLink stylename=\"M_Link\" u=\"86021070\" color=\"#f4a067\"> Dream Weaving </> damage against targets in the <HighLight> Plague </> state increased by 30%. \n <HyperLink stylename=\"M_Link\" u=\"86021050\" color=\"#f4a067\"> Deterrence </> applies 4 seconds of Stagnation upon hitting an enemy."] = "<HyperLink stylename=\"M_Link\" u=\"86021070\" color=\"#f4a067\">Плетение грёз</> наносит на 30% больше урона целям в состоянии <HighLight>Чума</>.\n<HyperLink stylename=\"M_Link\" u=\"86021050\" color=\"#f4a067\">Устрашение</> при попадании накладывает замедление на 4 сек.",
     ["Successfully defeated \"Alpha Wolf\" Luper"] = "Успешно победил «Альфа-Волка» Лупера.",
     ["Stuns surrounding enemies."] = "Оглушает окружающих врагов.",
     ["Use to obtain <Highlight>Afternoon Coffee Socks</>"] = "Используйте, чтобы получить <Highlight>Носки для послеобеденного кофе</>.",
