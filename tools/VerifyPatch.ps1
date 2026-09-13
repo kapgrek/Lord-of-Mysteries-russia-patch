@@ -77,6 +77,28 @@ if (Test-Path $initLua) {
         Write-Error "[ERROR] Init.lua превышает безопасный лимит локальных переменных: $topLocals / 200!"
         $errors++
     }
+
+    $rawContent = Get-Content $initLua -Raw
+    $codeOnly = [regex]::Replace($rawContent, '--[^\r\n]*', '')
+    $codeOnly = [regex]::Replace($codeOnly, '"([^"\\]|\\.)*"', '""')
+    $codeOnly = [regex]::Replace($codeOnly, "'([^'\\]|\\.)*'", "''")
+    $codeOnly = [regex]::Replace($codeOnly, '\belseif\b[^\r\n]*?\bthen\b', ' ')
+    $codeLines = $codeOnly -split "`r?`n"
+    $rBlock = [regex]'\b(function|then|do|end)\b'
+    $unclosed = 0
+    for ($i = 0; $i -lt $codeLines.Count; $i++) {
+        $matches = $rBlock.Matches($codeLines[$i])
+        foreach ($m in $matches) {
+            if ($m.Value -in 'function','then','do') { $unclosed++ }
+            elseif ($m.Value -eq 'end') { $unclosed-- }
+        }
+    }
+    if ($unclosed -eq 0) {
+        Write-Host "[OK] Init.lua синтаксис блоков проверен: все блоки закрыты корректно (баланс = 0)." -ForegroundColor Green
+    } else {
+        Write-Error "[ERROR] Init.lua синтаксическая ошибка: нарушен баланс блоков (незакрытых блоков: $unclosed)!"
+        $errors++
+    }
 } else {
     Write-Error "[ERROR] Init.lua не найден!"
     $errors++

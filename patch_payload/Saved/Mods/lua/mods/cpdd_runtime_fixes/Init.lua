@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.81"
+local VERSION = "0.9.82"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1999,7 +1999,7 @@ local function translateTextWidget(widget, discoveryContext)
         widgetName = tostring(widget:GetName())
     end)
     local wName = widgetName:lower()
-    if wName:find("talkcontent") or wName:find("dialogue") then
+    if wName:find("talkcontent") then
         return 0
     end
 
@@ -8184,6 +8184,7 @@ local function installEventDrivenPanelRepair(value, environment)
                 return original(self, ...)
             end
         end
+    end
     class.__cpddEventTextRepair = VERSION
     report("installed event-driven panel text repair")
     return true
