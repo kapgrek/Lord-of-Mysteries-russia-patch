@@ -24,7 +24,7 @@ namespace LotmRussianPatcher
         private const int ATTACH_PARENT_PROCESS = -1;
 
         public const string VERSION = "2.7.1-RU";
-        public const string DEFAULT_REPO = "kapgrek/lotm-russian-patch-test";
+        public const string DEFAULT_REPO = "kapgrek/Lord-of-Mysteries-russia-patch";
 
         [STAThread]
         public static int Main(string[] args)
@@ -1014,7 +1014,7 @@ namespace LotmRussianPatcher
                 string downloadsDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "Downloads");
                 if (Directory.Exists(downloadsDir) && !downloadsDir.Equals(baseDir, StringComparison.OrdinalIgnoreCase))
                 {
-                    foreach (var pat in new string[] { "lom-russian-patch-data*.zip", "Lord-of-Mysteries-Russian-Patch*.zip", "lotm-russian-patch-test*.zip" })
+                    foreach (var pat in new string[] { "lom-russian-patch-data*.zip", "Lord-of-Mysteries-Russian-Patch*.zip", "Lord-of-Mysteries-russia-patch*.zip", "lotm-russian-patch-test*.zip" })
                     {
                         foreach (var f in Directory.GetFiles(downloadsDir, pat))
                         {
