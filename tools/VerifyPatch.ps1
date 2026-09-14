@@ -4,7 +4,7 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.7-RU ===" -ForegroundColor Cyan
+Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.7.1-RU ===" -ForegroundColor Cyan
 
 $payload = Join-Path $Root "patch_payload"
 $errors = 0
