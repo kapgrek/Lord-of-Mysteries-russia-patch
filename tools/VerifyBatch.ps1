@@ -18,7 +18,8 @@ $files = if ($Batch -gt 0) {
 $tagRegex = [System.Text.RegularExpressions.Regex]::new('<(?!\/)([A-Za-z0-9_]+)[^>]*>', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $closeTagRegex = [System.Text.RegularExpressions.Regex]::new('<\/>', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $specRegex = [System.Text.RegularExpressions.Regex]::new('%[-+0-9\.]*[sdfeEgGcxX]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
-$puzzleRegex = [System.Text.RegularExpressions.Regex]::new('#CanMove_[^#]+#', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$puzzleRegex = [System.Text.RegularExpressions.Regex]::new('#CanMove[^#]+#', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$spaceRegex = [System.Text.RegularExpressions.Regex]::new('#Space\d+#', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $imgTagRegex = [System.Text.RegularExpressions.Regex]::new('<[iI]mg\s+[^>]*\/?>', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $cyrillicRegex = [System.Text.RegularExpressions.Regex]::new('[\p{IsCyrillic}]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $macroRegex = [System.Text.RegularExpressions.Regex]::new('(?:spellfielddisc|buffdisc|skilldisc|auradisc|passivedisc|trapdisc|bulletdisc|spellagent|spellfieldname|buffname|skillname|auraname|passivename|trapname)\s*\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
@@ -103,12 +104,26 @@ foreach ($file in $files) {
             }
         }
 
-        # 3. Check puzzle tokens #CanMove_...#
+        # 3. Check puzzle tokens #CanMove...# and #Space<N>#
         $refPuzzles = $puzzleRegex.Matches($refText) | ForEach-Object { $_.Value }
         $ruPuzzles = $puzzleRegex.Matches($ru) | ForEach-Object { $_.Value }
         if ($refPuzzles.Count -ne $ruPuzzles.Count) {
-            Write-Host "  [ERR $fileName ID:$id] Broken puzzle marker #CanMove#!" -ForegroundColor Red
+            Write-Host "  [ERR $fileName ID:$id] Broken puzzle marker #CanMove# (ref: $($refPuzzles.Count), ru: $($ruPuzzles.Count))!" -ForegroundColor Red
             $fileErrors++
+        }
+
+        $refSpaces = $spaceRegex.Matches($refText) | ForEach-Object { $_.Value }
+        $ruSpaces = $spaceRegex.Matches($ru) | ForEach-Object { $_.Value }
+        if ($refSpaces.Count -ne $ruSpaces.Count) {
+            Write-Host "  [ERR $fileName ID:$id] Missing or broken puzzle slot #Space# (ref: $($refSpaces.Count), ru: $($ruSpaces.Count))!" -ForegroundColor Red
+            $fileErrors++
+        } else {
+            for ($sIdx = 0; $sIdx -lt $refSpaces.Count; $sIdx++) {
+                if ($refSpaces[$sIdx] -ne $ruSpaces[$sIdx]) {
+                    Write-Host "  [ERR $fileName ID:$id] Mismatched puzzle slot! Expected '$($refSpaces[$sIdx])', found '$($ruSpaces[$sIdx])'." -ForegroundColor Red
+                    $fileErrors++
+                }
+            }
         }
 
         # 4. Check inline image tags <img .../> and <Img .../>

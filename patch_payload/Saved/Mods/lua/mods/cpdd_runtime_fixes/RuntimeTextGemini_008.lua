@@ -230,7 +230,7 @@ return {
     ["Lake of Chaos - Chaos Sword Attachment"] = "Озеро Хаоса – украшение для меча Хаоса",
     ["Black Thorn Incident Book 4-Level 2-Skill Carrier Stealth Monster Marker buff"] = "Книга происшествий «Черный Шип» 4 уровня, 2 навыка, усиление маркера скрытности монстра-носителя",
     ["Fool 3 over-the-shoulder shot"] = "Шут 3, удар через плечо",
-    ["This cat starts #Space3#"] = "Этот кот начинает #Пробел3#",
+    ["This cat starts #Space3#"] = "Этот кот начинает #Space3#",
     ["Front Row"] = "Первый ряд",
     ["Melissa 3"] = "Мелисса b",
     ["Save Phyllis? By burning her to death?"] = "Спасти Филлис? Сжечь ее заживо?",

@@ -102,7 +102,7 @@ return {
     ["Floor Tile 2-2"] = "Напольная плитка 2-b",
     ["Let's go home first, try to relax..."] = "Сначала пойдём домой, постараемся расслабиться...",
     ["Is the Bishop here?"] = "Епископ здесь?",
-    ["Outbreak"] = "Вспышка",
+    ["Outbreak"] = "#CanMoveВспышка#",
     ["Betting · Trading Firm effective, obtain 100% of own [Sparkling Sweet Wine]"] = "Ставки · Торговая фирма эффективна, получите 100% собственного [Игристого сладкого вина]",
     ["I see."] = "Я понимаю.",
     ["Sequence 8 Mystery Pryer Kill Chest"] = "Эпизод 8. Тайный сундук с убийством Прайера",

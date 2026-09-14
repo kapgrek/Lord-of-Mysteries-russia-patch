@@ -20517,7 +20517,7 @@
     "id": "123419",
     "source_cn": "苹果#Space2#苹果树",
     "ref_en": "Apple #Space2# apple tree",
-    "target_ru": "Яблоня #Space2#"
+    "target_ru": "Яблоко #Space2# яблоня"
   },
   {
     "id": "123420",
@@ -21279,7 +21279,7 @@
     "id": "123546",
     "source_cn": "蒸汽机的发明，\\n#Space2#了一个新时代。",
     "ref_en": "The invention of the steam engine,\\n#Space2# a new era.",
-    "target_ru": "Изобретение парового двигателя открыло новую эру."
+    "target_ru": "Изобретение парового двигателя,\n#Space2# новую эру."
   },
   {
     "id": "123547",

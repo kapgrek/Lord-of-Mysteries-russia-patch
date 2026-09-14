@@ -9303,7 +9303,7 @@
     "id": "051550",
     "source_cn": "小男孩向我挥手时说的字符含义为#Space2#",
     "ref_en": "The meaning of the characters the little boy said when he waved at me is #Space2#",
-    "target_ru": "Значение иероглифов, которые сказал маленький мальчик, когда он помахал мне рукой, — #Пробел2#."
+    "target_ru": "Значение иероглифов, которые сказал маленький мальчик, когда он помахал мне рукой, — #Space2#."
   },
   {
     "id": "051551",
@@ -12405,7 +12405,7 @@
     "id": "052067",
     "source_cn": "#CanMove打开#",
     "ref_en": "Open",
-    "target_ru": "Открыть"
+    "target_ru": "#CanMoveОткрыть#"
   },
   {
     "id": "052068",
@@ -13935,7 +13935,7 @@
     "id": "052322",
     "source_cn": "#CanMove富豪#",
     "ref_en": "Rich Man",
-    "target_ru": "Богатый человек"
+    "target_ru": "#CanMoveБогач#"
   },
   {
     "id": "052323",
@@ -20685,7 +20685,7 @@
     "id": "053447",
     "source_cn": "#CanMove旋转的#赫密斯文？",
     "ref_en": "Rotating Hermes script?",
-    "target_ru": "Вращающийся сценарий Гермеса?"
+    "target_ru": "#CanMoveВращающийся# герметический текст?"
   },
   {
     "id": "053448",
@@ -29169,7 +29169,7 @@
     "id": "054861",
     "source_cn": "#CanMove击溃#",
     "ref_en": "Defeat",
-    "target_ru": "Поражение"
+    "target_ru": "#CanMoveСокрушить#"
   },
   {
     "id": "054862",

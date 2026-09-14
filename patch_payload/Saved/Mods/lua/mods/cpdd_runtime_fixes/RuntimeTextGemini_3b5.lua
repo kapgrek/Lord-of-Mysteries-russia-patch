@@ -244,7 +244,7 @@ return {
     ["<Assistant_Title1>【Display Stand - Greeting】</>\n<Assistant_Title2>Description: </>Team gameplay reward display action.\n<Assistant_Title2>Usage: </>Use to obtain the Display Stand - Greeting. You can view and use it by clicking <Assistant_System>Appearance - Display Stand</>.\n<Assistant_Title2>Acquisition: </>Exchange using Companion Emblems in <Assistant_System>Shop - General Goods - Companion Shop</>."] = "<Assistant_Title1>[Будка·Приветствие]</>\n<Assistant_Title2>Описание: </>Командная игра награждает действия стенда\n<Assistant_Title2>Использование: </>После использования вы получите Бут·Приветствие. Вы можете нажать <Assistant_System>Appearance-Booth</>, чтобы просмотреть и использовать его. \n<Assistant_Title2> Получите: </> Через <Assistant_System> Торговый центр – Универмаг – Одноранговый магазин </> Используйте герб партнера для обмена",
     ["Prologue - Dizziness QTE Count Mark 3"] = "Пролог - Головокружение QTE Count Mark 3",
     ["Singing..."] = "Пение...",
-    ["Apple #Space2# apple tree"] = "Яблоня #Space2#",
+    ["Apple #Space2# apple tree"] = "Яблоко #Space2# яблоня",
     ["Send Channel"] = "Отправить канал",
     ["Enter inner circle aura, instant kill"] = "Войдите в ауру внутреннего круга, мгновенное убийство",
 }

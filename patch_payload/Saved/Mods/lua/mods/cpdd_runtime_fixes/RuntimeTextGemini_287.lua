@@ -47,7 +47,7 @@ return {
     ["I saw his tombstone at Raphael Cemetery with his photo on it. March 1327 - September 1349, the best brother; the best younger brother; the best colleague."] = "Я видел его надгробие на кладбище Рафаэля с его фотографией. март 1327 г. — сентябрь 1349 г., лучший брат; лучший младший брат; лучший коллега.",
     ["Scavenge roll"] = "Бросок мусора",
     ["Kill Alienated Hound on Normal difficulty"] = "Убейте Чужую гончую на обычном уровне сложности.",
-    ["Rotating Hermes script?"] = "Вращающийся сценарий Гермеса?",
+    ["Rotating Hermes script?"] = "#CanMoveВращающийся# герметический текст?",
     ["Of course, of course, this is the most exquisite and formidable weapon in our shop, helping you solve those inelegant problems in the most elegant way."] = "Конечно, конечно, это самое изысканное и грозное оружие в нашем магазине, помогающее решить эти неизящные задачи самым элегантным способом.",
     ["Side-by-Side 11 Bond"] = "Бок о бок 11 Бонд",
     ["Shh, wait until we finish praising the Evernight Goddess, who is more sublime than the starry sky and more eternal than eternity itself."] = "Тсс, подожди, пока мы не закончим восхвалять Богиню Вечной Ночи, которая более возвышенна, чем звездное небо, и более вечна, чем сама вечность.",

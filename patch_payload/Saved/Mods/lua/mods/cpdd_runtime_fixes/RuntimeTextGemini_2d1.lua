@@ -80,7 +80,7 @@ return {
     ["<Assistant_Title1>Beyonder Best Friend</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Reach \"Secret Ally\" friendship level with any friend"] = "<Assistant_Title1>Потусторонний закадычный друг</>\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\n<Assistant_Title2>Условие получения: </>Достигните уровня дружбы «Тайный союзник» с любым другом",
     ["He sent messengers to light the way for us."] = "Он послал посланников, чтобы они освещали нам путь.",
     ["Oh, it turns out a spectator was waving enthusiastically at Linda. Hey, supporting your idol is fine, but don't disrupt the match."] = "Ой, оказывается, зритель восторженно махал Линде. Эй, поддерживать своего кумира — это нормально, но не мешай матчу.",
-    ["#CanMove利剑#"] = "Острый меч",
+    ["#CanMove利剑#"] = "#CanMoveОстрый меч#",
     ["18%最大生命护盾和8%伤害减免，持续3秒"] = "18% максимального здоровья щита и 8% уменьшения урона, длится 3 секунды.",
     ["21套时装，37+配饰均可免费获取！"] = "21 наряд и более 37 аксессуаров можно получить бесплатно!",
     ["4金镑，用来换……一个在廷根的住所。"] = "4 золотых фунтов, которые можно было обменять на... жилье в Тингене.",

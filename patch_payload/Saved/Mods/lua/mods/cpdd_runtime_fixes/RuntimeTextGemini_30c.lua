@@ -86,7 +86,7 @@ return {
     ["Social platform"] = "Социальная платформа",
     ["You were trapped in a dangerous dream, and that dream contained corruption from an evil god. Through psychological treatment, you successfully controlled the corruption."] = "Вы попали в опасный сон, и этот сон содержал порчу злого бога. С помощью психологического лечения вы успешно справились с Искажением.",
     ["Max Health 12%"] = "Максимальное здоровье 12%",
-    ["#CanMove故乡#"] = "Родной город",
+    ["#CanMove故乡#"] = "#CanMoveРодина#",
     ["%d月%d日 %02d:%02d"] = "Месяц %d День %d %02d:%02d",
     ["%s占领中"] = "%s Оккупация",
     ["%s将%s标记为"] = "%s отметил %s как",

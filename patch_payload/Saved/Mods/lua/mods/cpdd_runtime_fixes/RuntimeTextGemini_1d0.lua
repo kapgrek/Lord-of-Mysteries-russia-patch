@@ -51,7 +51,7 @@ return {
     ["Bugs! Get out! Of my! House!"] = "Баги! Убирайся! Из моего! Дом!",
     ["I really can't bear to let Isabelle miss out on such a great opportunity at your school."] = "Я действительно не могу позволить Изабель упустить такую ​​прекрасную возможность в вашей школе.",
     ["citywalk bicycle"] = "городской велосипед",
-    ["Wisdom"] = "Мудрость",
+    ["Wisdom"] = "#CanMoveМудрость#",
     ["There's such an ability? No wonder it seems like no one noticed us."] = "Есть такая способность? Неудивительно, что нас, кажется, никто не заметил.",
     ["After use, obtain the title: <Highlight>Black Iron Piston (7 Days)</>"] = "После использования получите титул: <Highlight>Black Iron Piston (7 дней)</>.",
     ["Participate in the dungeon <Highlight>Tree of Abundance (Normal)</> in party mode. You can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "Участвуйте в подземелье <Highlight>Древо Изобилия (Normal)</> в режиме вечеринки. Вы можете участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие проявления.",

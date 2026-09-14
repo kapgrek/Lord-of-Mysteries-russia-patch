@@ -199,7 +199,7 @@ return {
     ["Oh no... I can't even see the words clearly. Who brought a pen?"] = "О нет... Я даже не могу ясно разглядеть слова. Кто принес ручку?",
     ["Only the Family Chief can change this part of the effect."] = "Только глава семьи может изменить эту часть эффекта.",
     ["Storage Limit:"] = "Лимит хранения:",
-    ["Charles"] = "Чарльз",
+    ["Charles"] = "#CanMoveШарль#",
     ["Top"] = "Вершина",
     ["Death!"] = "Смерть!",
     ["Bravery Lucky Bag"] = "Счастливая сумка храбрости",

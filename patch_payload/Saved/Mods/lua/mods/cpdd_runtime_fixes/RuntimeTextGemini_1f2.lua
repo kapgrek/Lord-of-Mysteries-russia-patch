@@ -269,7 +269,7 @@ return {
     ["Team members are not in view; start failed."] = "Члены команды не на виду; запуск не удался.",
     ["Use the Protective Shield to reflect Bonnie's threads!"] = "Используйте Защитный щит, чтобы отразить нити Бонни!",
     ["Shoeshiner"] = "чистильщик обуви",
-    ["The invention of the steam engine,\n#Space2# a new era."] = "Изобретение парового двигателя открыло новую эру.",
+    ["The invention of the steam engine,\n#Space2# a new era."] = "Изобретение парового двигателя,\n#Space2# новую эру.",
     ["{{Sir|Madam}}, come and see the latest masterpiece of the Church of the God of Steam and Machinery—'Walker'!"] = "{{Sir|Madam}}, приходите посмотреть на последний шедевр Церкви Бога пара и машин — «Уокер»!",
     ["Reach 1200 progress in Utopia Theater once"] = "Достигните 1200 прогресса в Театре Утопия один раз.",
     ["But if I die without seeing my parents one more time, what a pity that would be. So I have been trying hard to survive."] = "Но если я умру, так и не увидев своих родителей, как будет жаль. Поэтому я изо всех сил старался выжить.",

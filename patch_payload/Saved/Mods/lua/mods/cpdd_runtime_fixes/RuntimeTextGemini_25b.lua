@@ -19,7 +19,7 @@ return {
     ["Camera Platform Generation"] = "Создание платформы камеры",
     ["You have completed 5 assistance Quests. Completing 6 Quests will earn higher rewards. Submit the Quest directly?"] = "На данный момент выполнены 5 задач по взаимопомощи. Выполнение 6 заданий позволит получить более высокие награды. Хотите отправить задачу напрямую?",
     ["Miss Audrey goes to the Fate Café for afternoon tea every so often; if you go there now, you might run into her."] = "Мисс Одри время от времени ходила в кафе «Дестини» на послеобеденный чай. Теперь, если она пойдет в кафе, она может случайно встретить ее.",
-    ["This is a #CanMove huge # stone"] = "Это огромный камень #CanMove",
+    ["This is a #CanMove huge # stone"] = "Это #CanMoveогромный# камень",
     ["After checking this, your outfit preset will automatically switch when you Teleport into the corresponding scene."] = "После проверки предустановка вашей экипировки будет автоматически переключаться, когда вы телепортируетесь в соответствующую сцену.",
     ["Defense Form 5 People With Talent"] = "Форма защиты: 5 талантливых людей",
     ["Extremely accurate! Come closer, I'll only tell you..."] = "Чрезвычайно точно! Подойди ближе, я тебе только скажу...",

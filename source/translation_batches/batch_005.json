@@ -25869,7 +25869,7 @@
     "id": "024311",
     "source_cn": "小男孩指着自己时说的字符含义为#Space2#",
     "ref_en": "The meaning of the characters the little boy said when he pointed at himself is #Space2#",
-    "target_ru": "Символы, которые сказал маленький мальчик, указывая на себя, означали #Пробел2#."
+    "target_ru": "Символы, которые сказал маленький мальчик, указывая на себя, означали #Space2#."
   },
   {
     "id": "024312",
@@ -29955,7 +29955,7 @@
     "id": "024992",
     "source_cn": "这是一块#CanMove巨大的#石头",
     "ref_en": "This is a #CanMove huge # stone",
-    "target_ru": "Это огромный камень #CanMove"
+    "target_ru": "Это #CanMoveогромный# камень"
   },
   {
     "id": "024993",

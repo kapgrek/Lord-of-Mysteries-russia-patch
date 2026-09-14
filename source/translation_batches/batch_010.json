@@ -4845,7 +4845,7 @@
     "id": "045807",
     "source_cn": "#CanMove智慧#",
     "ref_en": "Wisdom",
-    "target_ru": "Мудрость"
+    "target_ru": "#CanMoveМудрость#"
   },
   {
     "id": "045808",
@@ -11187,7 +11187,7 @@
     "id": "046864",
     "source_cn": "#CanMove小男孩#",
     "ref_en": "Little Boy",
-    "target_ru": "Маленький мальчик"
+    "target_ru": "#CanMoveМаленький мальчик#"
   },
   {
     "id": "046865",
@@ -15813,7 +15813,7 @@
     "id": "047635",
     "source_cn": "适量润滑剂对蒸汽机有#CanMove保护#作用。",
     "ref_en": "An appropriate amount of lubricant has a #CanMove protective # effect on the steam engine.",
-    "target_ru": "Соответствующее количество смазки оказывает защитное # действие #CanMove на паровой двигатель."
+    "target_ru": "Умеренное количество смазки оказывает #CanMoveзащитное# действие на паровой двигатель."
   },
   {
     "id": "047636",
@@ -22725,7 +22725,7 @@
     "id": "048787",
     "source_cn": "#CanMove守护者#",
     "ref_en": "Guardian",
-    "target_ru": "Страж"
+    "target_ru": "#CanMoveСтраж#"
   },
   {
     "id": "048788",

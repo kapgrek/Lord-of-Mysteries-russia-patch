@@ -220,7 +220,7 @@ return {
     ["Put away that attitude, come back with me now, Professor John is already waiting for us at home!"] = "Оставьте такое отношение, возвращайтесь со мной сейчас же, профессор Джон уже ждет нас дома!",
     ["Hidden Crisis"] = "Скрытый кризис",
     ["Anthony 1"] = "Энтони b",
-    ["Sharp Sword"] = "Острый меч",
+    ["Sharp Sword"] = "#CanMoveОстрый меч#",
     ["Teleport Location After Buying Candlestick"] = "Местоположение телепорта после покупки подсвечника",
     ["Observe Massimo's reaction"] = "Наблюдайте за реакцией Массимо",
     ["Secret Realm 3: Monster Group"] = "Секретное царство 3: Группа монстров",

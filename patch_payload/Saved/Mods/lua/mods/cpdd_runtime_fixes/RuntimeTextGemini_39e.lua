@@ -62,7 +62,7 @@ return {
     ["You're here."] = "Ты здесь.",
     ["Unlock all systems, add buffs, adjust skills, reach level 39 of CBT2."] = "Разблокируйте все системы, добавьте баффы, настройте навыки, достигните 39 уровня ЗБТ2.",
     ["David..."] = "Дэйвид...",
-    ["Huge"] = "Огромный",
+    ["Huge"] = "#CanMoveОгромный#",
     ["Old Tuller? He seems quite famous."] = "Старый Туллер? Кажется, он довольно знаменит.",
     ["Anjela "] = "Анжела",
     ["You won't find the master's trail!"] = "Следа хозяина ты не найдёшь!",

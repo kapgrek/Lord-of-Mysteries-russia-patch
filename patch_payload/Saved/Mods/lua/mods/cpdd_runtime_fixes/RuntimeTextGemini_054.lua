@@ -159,7 +159,7 @@ return {
     ["Aoqing"] = "Аоцин",
     ["Max out partners."] = "Максимизируйте партнеров.",
     ["Zombie Surroundings - 2m Instant Death"] = "Зомби-окружение - Мгновенная смерть на 2 метра",
-    ["An appropriate amount of lubricant has a #CanMove protective # effect on the steam engine."] = "Соответствующее количество смазки оказывает защитное # действие #CanMove на паровой двигатель.",
+    ["An appropriate amount of lubricant has a #CanMove protective # effect on the steam engine."] = "Умеренное количество смазки оказывает #CanMoveзащитное# действие на паровой двигатель.",
     ["Good heavens... the remains of spirit-body and physical pets are mixed together... No one has been here for a long time."] = "Боже мой... останки духовно-телесных и физических питомцев смешались воедино... Давно здесь никого не было.",
     ["Throw multiple cards forward, dealing <Highlight>3844</> physical damage over three hits. If the skill is not used again within a short time, it enters cooldown. The third hit knocks enemies back and applies a <Highlight>Fooling Mark</>. You gain one <Highlight>Fate Card</>."] = "Бросьте несколько карт вперед, нанося <Highlight>3844</> физического урона за три удара. Если умение не используется повторно в течение короткого времени, оно переходит в период восстановления. Третий удар отбрасывает врагов назад и применяет <Highlight>Fooling Mark</>. Вы получаете одну карту судьбы <Highlight></>.",
     ["To be honest... I don't even know where they are hiding."] = "Честно говоря... Я даже не знаю, где они прячутся.",

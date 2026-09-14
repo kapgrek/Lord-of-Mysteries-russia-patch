@@ -13731,7 +13731,7 @@
     "id": "082288",
     "source_cn": "#CanMove火车#",
     "ref_en": "Train",
-    "target_ru": "Тренироваться"
+    "target_ru": "#CanMoveПоезд#"
   },
   {
     "id": "082289",
@@ -20595,7 +20595,7 @@
     "id": "083432",
     "source_cn": "#CanMove宝箱#",
     "ref_en": "Treasure Chest",
-    "target_ru": "Сундук с сокровищами"
+    "target_ru": "#CanMoveСундук с сокровищами#"
   },
   {
     "id": "083433",

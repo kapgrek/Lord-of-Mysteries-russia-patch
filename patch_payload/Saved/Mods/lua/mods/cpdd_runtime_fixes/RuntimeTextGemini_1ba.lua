@@ -48,7 +48,7 @@ return {
     ["Conquest Prestige"] = "Престиж завоевания",
     ["1. The Battle for the Throne of God mode is a daily <Highlight> 6v6 mode </>. \n 2. After entering the Battle for the Throne of God scene, both teams spawn in the preparation areas on either side of the map. Once the mode begins, both teams can enter the Combat Area to engage in battle. \n 3. In the Battle for the Throne of God mode, each team has <Highlight> 2 opportunities to resurrect </> fallen teammates."] = "1. Битва за Божественный Трон представляет собой ежедневный режим <Highlight>6 на 6</>.\n2. После входа в локацию Битвы за Божественный Трон обе команды появляются в зонах подготовки по краям карты. С началом боя участники выходят на арену.\n3. В режиме Битвы за Божественный Трон у каждой команды есть <Highlight>2 попытки воскресить</> павших союзников.",
     ["◆ Fate Special Blend"] = "◆ Особая смесь судьбы",
-    ["#CanMove三个字#"] = "#Могу двигатьсяТри слова#",
+    ["#CanMove三个字#"] = "#CanMoveТри слова#",
     ["03好运"] = "03 Удачи",
     ["1.矩形持续AOE伤害，每次50%HP"] = "1. Прямоугольный непрерывный урон по площади, 50% HP каждый раз.",
     ["60装等竞技烙印装备自选箱"] = "Коробка выбора снаряжения конкурентной марки 60-го уровня",

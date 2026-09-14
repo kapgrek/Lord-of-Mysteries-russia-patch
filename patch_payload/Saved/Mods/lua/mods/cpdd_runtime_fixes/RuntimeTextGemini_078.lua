@@ -208,7 +208,7 @@ return {
     ["Stop loader"] = "Остановить загрузчик",
     ["Homestead scene update"] = "Обновление сцены усадьбы",
     ["Trigger - Arrive at Factory District"] = "Триггер — Прибытие в Фабричный район.",
-    ["Train"] = "Тренироваться",
+    ["Train"] = "#CanMoveПоезд#",
     ["Book of War Merits: Dominator's Clash"] = "Книга военных заслуг: Битва Доминаторов",
     ["Moran"] = "Моран",
     ["Is it because she plays well?"] = "Это потому, что она хорошо играет?",

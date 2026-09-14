@@ -7587,7 +7587,7 @@
     "id": "106264",
     "source_cn": "压力#Space5#于此。",
     "ref_en": "Pressure #Space5# here.",
-    "target_ru": "Давление #Пробел5# здесь."
+    "target_ru": "Давление #Space5# здесь."
   },
   {
     "id": "106265",
@@ -14877,7 +14877,7 @@
     "id": "107479",
     "source_cn": "#CanMove玛蒂尔达#",
     "ref_en": "Matilda",
-    "target_ru": "Матильда"
+    "target_ru": "#CanMoveМатильда#"
   },
   {
     "id": "107480",

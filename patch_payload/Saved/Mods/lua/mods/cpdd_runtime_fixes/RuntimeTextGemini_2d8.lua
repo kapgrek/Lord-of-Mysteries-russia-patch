@@ -79,7 +79,7 @@ return {
     ["This fragment is incompatible with the %s fragment you hold and cannot be selected"] = "Этот фрагмент несовместим с имеющимся у вас фрагментом %s, и его нельзя выбрать.",
     ["Beggar"] = "Нищий",
     ["Hidden Path Component Start"] = "Начало компонента скрытого пути",
-    ["#CanMove爆发#"] = "Вспышка",
+    ["#CanMove爆发#"] = "#CanMoveВспышка#",
     ["%s后解锁"] = "Разблокировано после %s",
     ["<Assistant_Title1>初现格调</>\n<Assistant_Title2>成就分类：</>休闲-城堡\n<Assistant_Title2>解锁条件：</>累计获得100个家具"] = "<Assistant_Title1>Первый признак вкуса</>\n<Assistant_Title2>Категория достижения: </>Отдых — Замок\n<Assistant_Title2>Условие разблокировки: </>Собрать суммарно 100 предметов мебели",
     ["<Assistant_Title1>妙手回春啊大师</>\n<Assistant_Title2>成就分类：</>跑团-教团\n<Assistant_Title2>解锁条件：</>成功为至少100位处于失控或失控边缘的非凡者恢复理智"] = "<Assistant_Title1>Истинный целитель</>\n<Assistant_Title2>Категория достижения: </>НРИ — Ковенант\n<Assistant_Title2>Условие разблокировки: </>Успешно вернуть рассудок не менее чем 100 Потусторонним, потерявшим контроль или находящимся на грани потери контроля",

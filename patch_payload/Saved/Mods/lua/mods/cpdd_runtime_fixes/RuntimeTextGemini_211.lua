@@ -202,7 +202,7 @@ return {
     ["Who? Dares to interfere with the Dragon Hunter Gang's business!"] = "ВОЗ? Осмелится вмешаться в дела банды охотников на драконов!",
     ["Best Weapon"] = "Лучшее оружие",
     ["The third stage of <HyperLink stylename=\"M_Link\" u=\"86031010\" color=\"#f4a067\">Card Flying Dagger</> applies <HighLight>Bleed</> to the target for 6 seconds, causing the target to lose 2% of the caster's maximum health per second (not exceeding 60% of the caster's attack)."] = "Третий этап <HyperLink stylename=\"M_Link\" u=\"86031010\" color=\"#f4a067\">Card Flying Dagger</> применяет <HighLight>Bleed</> к цели на 6 секунд, в результате чего цель теряет 2% от максимального здоровья заклинателя в секунду (не более 60% от атаки заклинателя).",
-    ["Pressure #Space5# here."] = "Давление #Пробел5# здесь.",
+    ["Pressure #Space5# here."] = "Давление #Space5# здесь.",
     ["【01】Two Women"] = "【01】Две женщины",
     ["Not work... Haha! Have you seen my colleague Walk? You haven't!"] = "Не работает... Хаха! Вы видели моего коллегу Уока? Вы этого не сделали!",
     ["Included in Style Value limit 150/150"] = "Включено в лимит значений стиля 150/150.",

@@ -41,7 +41,7 @@ return {
     ["Bathing ten times a day isn't enough, I must use perfume, lots of perfume!"] = "Купаться десять раз в день недостаточно, надо пользоваться духами, много духами!",
     ["Such a piece is suitable for thinking alone, helping to sort out chaotic thoughts."] = "Такое произведение подойдет для самостоятельного размышления, помогая разобраться в хаотичных мыслях.",
     ["Eternal Companionship"] = "Вечное общение",
-    ["Little Boy"] = "Маленький мальчик",
+    ["Little Boy"] = "#CanMoveМаленький мальчик#",
     ["Light Control"] = "Управление светом",
     ["Please head back for now, everyone; the issue with the boxed lunches will be resolved immediately."] = "Пожалуйста, возвращайтесь сейчас всем; Вопрос с ланчами будет решен немедленно.",
     ["Marquis \n Tier 5"] = "Маркиз\nРанг 5",

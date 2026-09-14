@@ -253,7 +253,7 @@ return {
     ["Use to obtain <Highlight>Bunny Barney Back Accessory</>\nIf you already own this appearance, you can choose to dismantle it to obtain 30,000 Bound Soules"] = "После использования вы получите <Highlight> Украшение на спину кролика Барни </>\n Если у вас уже есть этот внешний вид, вы можете разложить его, чтобы получить 30 000 связанных сулеров.",
     ["Sub-entity type: \n1: Trap \n3: Spell Field \n6: Bullet"] = "Тип дочернего объекта: \n1: Ловушка \n3: Поле заклинания \n6: Пуля",
     ["Purchase and Dye"] = "Купите и покрасьте",
-    ["Hot air rises."] = "Горячий воздух поднимается вверх.",
+    ["Hot air rises."] = "#CanMoveТеплый# воздух поднимается вверх.",
     ["Perform 1 connection upgrade"] = "Выполнить 1 обновление соединения",
     ["Red roses... too ostentatious."] = "Красные розы... слишком показное.",
     ["Listen Carefully"] = "Слушайте внимательно",

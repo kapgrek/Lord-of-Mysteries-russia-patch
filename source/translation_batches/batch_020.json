@@ -24519,7 +24519,7 @@
     "id": "099086",
     "source_cn": "此猫开始#Space3#",
     "ref_en": "This cat starts #Space3#",
-    "target_ru": "Этот кот начинает #Пробел3#"
+    "target_ru": "Этот кот начинает #Space3#"
   },
   {
     "id": "099087",
@@ -28905,7 +28905,7 @@
     "id": "099817",
     "source_cn": "#CanMove故乡#",
     "ref_en": "Hometown",
-    "target_ru": "Родной город"
+    "target_ru": "#CanMoveРодина#"
   },
   {
     "id": "099818",

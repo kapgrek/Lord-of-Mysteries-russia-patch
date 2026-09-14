@@ -43,7 +43,7 @@ return {
     ["There were some minor episodes, but that is my private business. For the future of the Wandering Kingdom, as the Minister of Foreign Affairs, I will go with you to negotiate with them."] = "Были небольшие эпизоды, но это мое личное дело. Ради будущего Странствующего Королевства, как министр иностранных дел, я пойду с вами вести с ними переговоры.",
     ["Kill the endless stream of Mystery Pupa"] = "Убейте бесконечный поток Mystery Pupa.",
     ["Tisna! My dear friend!"] = "Тисна! Мой дорогой друг!",
-    ["#CanMove旋转的#赫密斯文？"] = "Вращающийся сценарий Гермеса?",
+    ["#CanMove旋转的#赫密斯文？"] = "#CanMoveВращающийся# герметический текст?",
     ["%s还处于公示期，是否继续下架"] = "%s все еще находится на стадии публичного уведомления. Продолжить исключение из списка?",
     ["2113【我忏悔……】"] = "2113 [Каюсь...]",
     ["3C移动"] = "Механизм 3C",

@@ -39,7 +39,7 @@ return {
     ["This... is... a... form... of... cultivation..."] = "Это... это... форма... культивирования...",
     ["Complete all sub-objectives of the current step; player sends quest item; player removes quest item (delete all)."] = "Выполните все подцели текущего шага; игрок отправляет квестовый предмет; игрок удаляет квестовый предмет (удалить все).",
     ["However, even the sun has a time of ending. If the person holding the scepter is clear-minded, they should realize that the supreme will is the only divine miracle."] = "Однако даже у Солнца есть время конца. Если человек, держащий скипетр, обладает ясным умом, он должен осознать, что высшая воля — единственное божественное чудо.",
-    ["#CanMove小男孩#"] = "Маленький мальчик",
+    ["#CanMove小男孩#"] = "#CanMoveМаленький мальчик#",
     ["%d折"] = "Скидка %d%",
     ["%s已在好友列表中。"] = "%s уже в вашем списке друзей.",
     ["3.选择内容"] = "3. Выберите контент.",

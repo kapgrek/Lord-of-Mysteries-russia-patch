@@ -5721,7 +5721,7 @@
     "id": "100953",
     "source_cn": "#CanMove热#空气上浮。",
     "ref_en": "Hot air rises.",
-    "target_ru": "Горячий воздух поднимается вверх."
+    "target_ru": "#CanMoveТеплый# воздух поднимается вверх."
   },
   {
     "id": "100954",
@@ -14955,7 +14955,7 @@
     "id": "102492",
     "source_cn": "小男孩指向我时说的字符含义为#Space2#",
     "ref_en": "The meaning of the characters the little boy said when he pointed at me is #Space2#",
-    "target_ru": "Значение символов, которые сказал маленький мальчик, указывая на меня, — #Пробел2#."
+    "target_ru": "Значение символов, которые сказал маленький мальчик, указывая на меня, — #Space2#."
   },
   {
     "id": "102493",

@@ -90,7 +90,7 @@ return {
     ["<P_Heart>(Although there is no immediate danger, it's not as simple as a prank.)</>"] = "<P_Heart>(Хотя непосредственной опасности нет, это не так просто, как розыгрыш.)</>",
     ["Just at this moment, everything she sees before her shatters abruptly, like a hallucination. She stands within an altar, the glass windows broken, and the sky reveals a red moon. \nTrissy's pupils constrict: I've been dragged into a dream?!"] = "В этот момент то, что она увидела, внезапно разбилось, словно иллюзия. Она стояла в алтаре с разбитыми стеклами и красной луной в небе. \nЗрачки Трисс сузились: Меня втянули в сон? !",
     ["Do you know the Tingen Grand Theater? Do you know the Backlund Bakery? The two have joined forces to launch the 'Great Adventurer' series of merchandise; buy desserts and receive plush gifts!"] = "Вы знаете Большой театр Тинген? Вы знаете пекарню Бэкланд? Они объединили усилия, чтобы запустить серию товаров «Великий авантюрист»; покупайте десерты и получайте плюшевые подарки!",
-    ["#CanMove热#空气上浮。"] = "Горячий воздух поднимается вверх.",
+    ["#CanMove热#空气上浮。"] = "#CanMoveТеплый# воздух поднимается вверх.",
     ["%s秒后结束录制"] = "Запись закончится через %s секунд",
     ["1408上路二塔"] = "1408 Вторая башня Верхней дороги",
     ["24小时前"] = "24 часа назад",

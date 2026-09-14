@@ -70,7 +70,7 @@ return {
     ["Discuss the location"] = "Обсудить место",
     ["Stage lingering charm acquisition efficiency: <Highlight>%sx</>"] = "Эффективность приобретения затяжного очарования сцены: <Highlight>%sx</>",
     ["The butler had the opportunity"] = "У дворецкого была возможность",
-    ["I"] = "я",
+    ["I"] = "#CanMoveЯ#",
     ["Shush"] = "Шуш",
     ["I am your psychologist; you may call me Ms. Justice. Congratulations, this therapy session was a success."] = "Я ваш психолог; вы можете называть меня мисс Джастис. Поздравляем, сеанс терапии удался.",
     ["So this is the source of the Web of Order's power. Cutting it off might allow me to retrieve the great sword."] = "Так вот в чем источник силы Паутины Порядка. Отрезав его, я смогу вернуть великий меч.",

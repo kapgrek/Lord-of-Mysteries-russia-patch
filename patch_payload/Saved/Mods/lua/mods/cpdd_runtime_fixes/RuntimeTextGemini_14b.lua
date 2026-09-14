@@ -235,7 +235,7 @@ return {
     ["Female Treant"] = "Женский Энт",
     ["An elder of the City of Silver's Council of Six, who dedicated his life to the future of the City of Silver."] = "Старейшина Совета Шести Серебряного Города, посвятивший свою жизнь будущему Серебряного Города.",
     ["At the end of the day, he's just a criminal who kills at will. If you ask me, it's not a good thing that Lady Antigonus was taken away by him. Who knows, maybe a year from now, Miss Kena will have a little sister."] = "В конце концов, он просто преступник, который убивает по своему желанию. Если вы спросите меня, то нехорошо, что он забрал леди Антигона. Кто знает, может быть, через год у мисс Кены появится младшая сестра.",
-    ["We are Beyonders,\nWe are wretches,\nWe are also #Space3#."] = "Мы необыкновенные, \n мы несчастные, \n мы ещё и #Космос3#.",
+    ["We are Beyonders,\nWe are wretches,\nWe are also #Space3#."] = "Мы Потусторонние,\nмы несчастные,\nмы ещё и #Space3#.",
     ["Become a part of me, fill my final void. Let me be complete."] = "Стань частью меня, заполни мою последнюю пустоту. Позвольте мне быть полным.",
     ["Insufficient components; unable to sell."] = "Недостаточное количество компонентов; не могу продать.",
     ["Want to drink something special"] = "Хочется выпить чего-то особенного",

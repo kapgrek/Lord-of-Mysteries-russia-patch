@@ -113,7 +113,7 @@ return {
     ["It's actually a mushroom... \n Continue participating to receive gifts from certain mysterious existences."] = "На самом деле это гриб... \n Если вы продолжите участвовать, то получите подарки от загадочных существ.",
     ["This is a sixpence. We'll come back to collect it after we've walked around for a bit."] = "Это шестипенсовик. Мы вернемся, чтобы забрать его, после того, как немного погуляем.",
     ["Unlocked via Sealed Artifact \"Light Chaser\" after completing the main quest \"Tarot Club\"."] = "Разблокируется с помощью запечатанного артефакта «Охотник за светом» после завершения основного квеста «Клуб Таро».",
-    ["#CanMove玛蒂尔达#"] = "Матильда",
+    ["#CanMove玛蒂尔达#"] = "#CanMoveМатильда#",
     ["1号门特效"] = "Эффект двери b",
     ["1年前"] = "1 год назад",
     ["2049狂暴连线"] = "2049 Связь с Берсерком",

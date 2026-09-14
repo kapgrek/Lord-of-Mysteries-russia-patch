@@ -86,7 +86,7 @@ return {
     ["Professor: Great Mother, I want to offer the entire Tingen to you, please grant me rebirth!\n A huge mirror appears in the open space, and the professor's figure fades into the mirror and disappears."] = "Профессор: Великая Матерь, я приношу Тебе в жертву весь Тинген, молю, даруй мне новую жизнь!\nНа поляне появляется огромное зеркало, силуэт профессора растворяется в зеркале и исчезает.",
     ["If it's the former, you can try it with confidence. Even if there are some small Accidents, I should be able to save it."] = "Если первое, вы можете попробовать с уверенностью. Даже если произойдут небольшие несчастные случаи, я смогу их спасти.",
     ["Find the classmate from the Department of Steam and Machinery <h></>"] = "Найдите однокурсника с кафедры пара и машин <h></>",
-    ["Treasure Chest"] = "Сундук с сокровищами",
+    ["Treasure Chest"] = "#CanMoveСундук с сокровищами#",
     ["Devotion"] = "Преданность",
     ["Passerby Returning to Normal"] = "Прохожий возвращается к нормальной жизни",
     ["Atmospheric Woman 1"] = "Атмосферная женщина b",

@@ -18,7 +18,7 @@ return {
     ["Template Skill 6"] = "Шаблонный навык 6",
     ["{{Mr.|Ms.}}, buy me a drink, just one!"] = "{{Сэр | Мадам}}, дайте мне выпить, хотя бы одну!",
     ["Peach Blossoms"] = "Тао Чжи Яо Яо",
-    ["The meaning of the characters the little boy said when he pointed at himself is #Space2#"] = "Символы, которые сказал маленький мальчик, указывая на себя, означали #Пробел2#.",
+    ["The meaning of the characters the little boy said when he pointed at himself is #Space2#"] = "Символы, которые сказал маленький мальчик, указывая на себя, означали #Space2#.",
     ["When bOverrideDefenderSlomoTime is true, the defender's SlomoTime must be configured and greater than 1e-4, current value: %s"] = "Когда bOverrideDefenderSlomoTime имеет значение true, SlomoTime жертвы должно быть настроено и быть больше 1e-4, текущее значение: %s",
     ["In any case, {{sir|madam}}, how much are you willing to pay for this music box?"] = "В любом случае, {{Г-н|Мисс.}}, сколько вы готовы заплатить за эту музыкальную шкатулку?",
     ["Taiwan Province"] = "Провинция Тайвань",

@@ -59,7 +59,7 @@ return {
     ["Creates a field and instantly restores *d Health to allies within range; the field lasts for 6 seconds, and allies within it restore *d Health per second and receive buffdisc(*id)."] = "Создает область и мгновенно восстанавливает союзникам в радиусе действия *d ед. здоровья; область существует 6 сек., союзники внутри нее ежесекундно восстанавливают *d ед. здоровья и получают buffdisc(*id).",
     ["<P_Heart>(Benson, I'll leave it to you.)</>"] = "<P_Heart>(Бенсон, я оставлю это тебе.)</>",
     [" Chapter名: "] = "Название главы:",
-    ["#CanMove夏尔#"] = "Чарльз",
+    ["#CanMove夏尔#"] = "#CanMoveШарль#",
     ["%s发出的%s"] = "%s отправлено %s",
     ["5230038   郊区别墅   位面"] = "5230038 Измерение: Загородная вилла",
     ["<Assistant_Title1>以疯狂谢幕</>\n<Assistant_Title2>成就分类：</>剧情-原著主线\n<Assistant_Title2>解锁条件：</>在原著剧情中，从瑞尔比伯身上回收安提哥努斯笔记。"] = "<Assistant_Title1>Безумный финал</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Сюжет — Оригинальный сюжет\n<Assistant_Title2>Условие открытия: </Assistant_Title2>В ходе оригинального сюжета верните дневник семьи Антигон, забрав его у Рэя Бибера",

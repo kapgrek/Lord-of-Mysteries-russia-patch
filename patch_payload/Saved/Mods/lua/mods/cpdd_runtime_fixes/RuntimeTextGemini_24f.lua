@@ -230,7 +230,7 @@ return {
     ["Perform 1 Requiem or Charm gameplay"] = "Выполните 1 игровой процесс «Реквием» или «Очарование».",
     ["With this machine, we can spin more yarn."] = "С помощью этой машины мы можем прясть больше пряжи.",
     ["Enter the portal and continue deeper"] = "Войдите в портал и продолжайте идти глубже.",
-    ["The meaning of the characters the little boy said when he pointed at something on the tree is #Space2#"] = "Значение иероглифов, которые сказал маленький мальчик, указывая на что-то на дереве, — #Пробел2#.",
+    ["The meaning of the characters the little boy said when he pointed at something on the tree is #Space2#"] = "Значение иероглифов, которые сказал маленький мальчик, указывая на что-то на дереве, — #Space2#.",
     ["Physical Block_Percentage Bonus"] = "Физический блок_процентный бонус",
     ["Emperor Roselle would never miss out on any beautiful woman, I must go and seek her trail."] = "Император Розель никогда не пропустит ни одну красивую женщину, я должен пойти и найти ее след.",
     ["Object of Phenomenon - Day 2 Level 40 - Official Exploration Component"] = "Объект феномена — день 2, уровень 40 — официальный компонент исследования",

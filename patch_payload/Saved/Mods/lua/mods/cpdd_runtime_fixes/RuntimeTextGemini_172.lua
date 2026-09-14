@@ -238,7 +238,7 @@ return {
     ["Tarot Club gathering"] = "Встреча Клуба Таро",
     ["[38] Marquis Black Tea"] = "[38] Черный чай маркиз",
     ["Path to Archive Room"] = "Путь в комнату архива",
-    ["The meaning of the characters the little boy said when he pointed at me is #Space2#"] = "Значение символов, которые сказал маленький мальчик, указывая на меня, — #Пробел2#.",
+    ["The meaning of the characters the little boy said when he pointed at me is #Space2#"] = "Значение символов, которые сказал маленький мальчик, указывая на меня, — #Space2#.",
     ["Spectator Potion"] = "Зелье наблюдателя",
     ["I'm back."] = "Я вернулся.",
     ["{\n\"Racing Gameplay\": \"0\"}"] = "{\n «Гоночный геймплей»: «0»}",
