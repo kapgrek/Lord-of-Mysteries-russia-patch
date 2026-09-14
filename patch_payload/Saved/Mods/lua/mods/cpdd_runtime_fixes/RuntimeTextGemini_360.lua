@@ -56,7 +56,7 @@ return {
     ["Rozanne turns"] = "Розанна поворачивается",
     ["No definite word, the neighbors say soon, but they didn't say which day."] = "Точного слова нет, скоро говорят соседи, но в какой день не сказали.",
     ["Dual-Track Prophecy"] = "Двойное пророчество",
-    ["Use to obtain the <Highlight>corresponding display-stand sticker</>.\nDuplicates are automatically dismantled into 10000 Bound Soule."] = "При использовании дает <Highlight>соответствующую наклейку для подиума</Highlight>.\nПовторные экземпляры автоматически распыляются на персональные соли ×10 000.",
+    ["Use to obtain the <Highlight>corresponding display-stand sticker</>.\nDuplicates are automatically dismantled into 10000 Bound Soule."] = "При использовании дает <Highlight>соответствующую наклейку для подиума</>.\nПовторные экземпляры автоматически распыляются на персональные соли ×10 000.",
     ["False: Do not follow \n True: Follow"] = "False: Не следовать\nTrue: Следовать",
     ["Stay vigilant."] = "Будьте бдительны.",
     ["Skill: %s"] = "Навык: %s",

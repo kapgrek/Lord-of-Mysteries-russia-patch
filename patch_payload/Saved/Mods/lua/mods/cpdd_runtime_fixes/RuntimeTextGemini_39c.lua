@@ -50,7 +50,7 @@ return {
     ["Was this a vegetable garden before?"] = "Раньше здесь был огород?",
     ["Ask Angelica"] = "Спроси Анжелику",
     ["“Fool” sends his Blessed, Gehrman Sparrow, to walk in the Forsaken Land of the Gods, spreading the Lord's radiance and bringing light and warmth."] = "«Шут» отправляет своего Блаженного, Германа Воробья, гулять по Забытой Земле Богов, распространяя сияние Господа и принося свет и тепло.",
-    ["Use to obtain <Highlight> Deacon's Ringing Bell Waist Accessory </> \n If you already own this appearance, you can choose to decompose it to obtain 30,000 bound Soles"] = "При использовании разблокирует <Highlight>напоясное украшение «Колокольчик дьякона»</Highlight>.\nЕсли этот облик уже открыт, предмет можно распылить на 30 000 персональных солей.",
+    ["Use to obtain <Highlight> Deacon's Ringing Bell Waist Accessory </> \n If you already own this appearance, you can choose to decompose it to obtain 30,000 bound Soles"] = "При использовании разблокирует <Highlight>напоясное украшение «Колокольчик дьякона»</>.\nЕсли этот облик уже открыт, предмет можно распылить на 30 000 персональных солей.",
     ["Where did the police come from? And... Ed!"] = "Откуда взялась полиция? И... Эд!",
     ["{\"Buff Tag%i\"}"] = "{\"Тег баффа %i\"}",
     ["Whether a tavern is profitable and whether it can establish itself in the city are two completely different things!"] = "Прибылен ли кабак и сможет ли он обосноваться в городе – это две совершенно разные вещи!",

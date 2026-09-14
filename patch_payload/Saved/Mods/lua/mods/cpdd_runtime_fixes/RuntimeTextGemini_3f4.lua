@@ -88,7 +88,7 @@ return {
     ["\"When you were little, you said you wanted a clock that chimes, but I couldn't bear to buy it. I regret it now.\""] = "«Когда ты был маленьким, ты говорил, что тебе нужны часы, которые звенят, но я не смог их купить. Сейчас я сожалею об этом».",
     ["Spell Formation: End"] = "Формирование заклинания: Конец",
     ["Melissa: Okay..."] = "Мелисса: Хорошо...",
-    ["Imprint equipment upgrade item. \nCan upgrade <Highlight>Ring of Stagnation</> to <Highlight>Level 62 orange quality</>. Consumes <Highlight>3</> Spirituality Resonance Stones when upgrading."] = "Предмет для улучшения снаряжения с клеймом.\nПозволяет улучшить <Highlight>«Кольцо скованности»</Highlight> до <Highlight>оранжевого качества 62-го уровня экипировки</Highlight>. Для улучшения требуется <Highlight>3</Highlight> камня духовного эха.",
+    ["Imprint equipment upgrade item. \nCan upgrade <Highlight>Ring of Stagnation</> to <Highlight>Level 62 orange quality</>. Consumes <Highlight>3</> Spirituality Resonance Stones when upgrading."] = "Предмет для улучшения снаряжения с клеймом.\nПозволяет улучшить <Highlight>«Кольцо скованности»</> до <Highlight>оранжевого качества 62-го уровня экипировки</>. Для улучшения требуется <Highlight>3</> камня духовного эха.",
     ["Witch Labyrinth-Whispers in Ear"] = "Ведьмин лабиринт-шепот на ухо",
     ["Klein, what do you think?"] = "Клейн, что ты думаешь?",
     ["Rock 2"] = "Рок 2",

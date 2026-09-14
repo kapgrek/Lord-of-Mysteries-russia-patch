@@ -62,7 +62,7 @@ return {
     ["General QTE"] = "Общее QTE",
     ["Finnegan "] = "Финнеган",
     ["Strange Person - Third Encounter"] = "Странный человек – Третья встреча",
-    ["Use to unlock the exclusive dice settlement skin <Highlight> [Eternal Night Peace] </>. \n No matter the result, it cannot break the eternal peace of fate."] = "Используйте, чтобы разблокировать особый облик броска костей <Highlight>【Покой Вечной Ночи】</Highlight>.\nКаков бы ни был исход, ничто не в силах нарушить незыблемое спокойствие предначертанного.",
+    ["Use to unlock the exclusive dice settlement skin <Highlight> [Eternal Night Peace] </>. \n No matter the result, it cannot break the eternal peace of fate."] = "Используйте, чтобы разблокировать особый облик броска костей <Highlight>【Покой Вечной Ночи】</>.\nКаков бы ни был исход, ничто не в силах нарушить незыблемое спокойствие предначертанного.",
     ["Any marionette cultivation level reached 10"] = "Уровень развития любой марионетки достиг 10.",
     ["Platform 4-2"] = "Платформа 4-b",
     ["Idealist"] = "Идеалист",

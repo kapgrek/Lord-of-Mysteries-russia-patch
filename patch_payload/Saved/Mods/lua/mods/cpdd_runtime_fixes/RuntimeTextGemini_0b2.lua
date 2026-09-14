@@ -199,7 +199,7 @@ return {
     ["'Leap of Faith'?"] = "«Прыжок веры»?",
     ["Tradeable Purple Equipment"] = "Продаваемое фиолетовое снаряжение",
     ["Worth it! How could it not be? That one look she gave me is warmer than what my wife has given me in a year."] = "Стоило того! Как это могло быть не так? Тот единственный взгляд, который она бросила на меня, теплее, чем тот, который моя жена смотрела на меня за год.",
-    ["<DecH>Craft: </>Holy White Linen & Gold Embroidery\nThe sound of prayer pierces the dome, transforming into a halo; piety echoes endlessly between the stone pillars of the sanctuary."] = "<DecH>Мастерство: </DecH>Священный белый лен · Золотая вышивка\nЗвуки молитвы пронзают купол храма, обращаясь в сияющий ореол, и благоговейный трепет вечно отдается эхом меж каменных колонн святилища.",
+    ["<DecH>Craft: </>Holy White Linen & Gold Embroidery\nThe sound of prayer pierces the dome, transforming into a halo; piety echoes endlessly between the stone pillars of the sanctuary."] = "<DecH>Мастерство: </>Священный белый лен · Золотая вышивка\nЗвуки молитвы пронзают купол храма, обращаясь в сияющий ореол, и благоговейный трепет вечно отдается эхом меж каменных колонн святилища.",
     ["Jolyne Cujoh, Jotaro Kujo, Avdol, and 66 others>>"] = "Джолин Куджо, Джотаро Куджо, Абдол и еще 66>>",
     ["The current appearance belongs to another gender and cannot be used."] = "Текущий внешний вид принадлежит другому полу и не может быть использован.",
     ["Command Resources: "] = "Командные ресурсы:",

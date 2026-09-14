@@ -49,7 +49,7 @@ return {
     ["How many times has this been now? Could this little one have taken a liking to me too?"] = "Сколько раз это было сейчас? Мог ли этот малыш мне тоже понравиться?",
     ["Police... Emperor Roselle said that everyone is responsible for the rise and fall of the country. If it weren't for failing the physical fitness test, we would be colleagues."] = "Полиция... Император Розель сказал, что каждый несет ответственность за взлет и падение страны. Если бы не провал теста по физической подготовке, мы были бы коллегами.",
     ["Just"] = "Только",
-    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Lord of Stars in the Adventure. The title reward has been unlocked and can be used in the title interface.</>"] = "<M_Default>Уважаемый Потусторонний! </M_Default>\n<M_Default>Вы достигли ранга Повелителя Звезд в Приключениях! Наградной титул разблокирован — активируйте его в разделе титулов.</M_Default>",
+    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Lord of Stars in the Adventure. The title reward has been unlocked and can be used in the title interface.</>"] = "<M_Default>Уважаемый Потусторонний! </>\n<M_Default>Вы достигли ранга Повелителя Звезд в Приключениях! Наградной титул разблокирован — активируйте его в разделе титулов.</>",
     ["Outside forces? You mean... <P_Heart>(Subconsciously looks up)</>"] = "Внешние силы? Ты имеешь в виду... <P_Heart> (подсознательно смотрит вверх) </>",
     ["Being hit by the sound wave will cause a brief stun."] = "Удар звуковой волны вызовет кратковременное оглушение.",
     ["Monterey Mechanic 1"] = "Монтерей Механик b",

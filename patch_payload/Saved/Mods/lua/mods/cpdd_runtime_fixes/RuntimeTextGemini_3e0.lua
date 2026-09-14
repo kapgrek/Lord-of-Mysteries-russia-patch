@@ -50,7 +50,7 @@ return {
     ["Flash Strike Strengthening"] = "Усиление мгновенного удара",
     ["Witch Battle - Player Mood Material - Anger Red"] = "Битва ведьм — Материал настроения игрока — Красный гнев",
     ["Not needed for now"] = "Не нужен пока",
-    ["<Assistant_Title1>Charming the Strong is Terrifying</>\n<Assistant_Title2>Achievement Category:</>TRPG-Covenant\n<Assistant_Title2>Unlock Condition:</>Successfully Charm at least 100 players whose duel score exceeds 200,000"] = "<Assistant_Title1>Очаровать сильного — истинный ужас</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Настольная игра — Общины\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Успешно очаруйте не менее 100 игроков, чей дуэльный счет превышает 200 000 очков",
+    ["<Assistant_Title1>Charming the Strong is Terrifying</>\n<Assistant_Title2>Achievement Category:</>TRPG-Covenant\n<Assistant_Title2>Unlock Condition:</>Successfully Charm at least 100 players whose duel score exceeds 200,000"] = "<Assistant_Title1>Очаровать сильного — истинный ужас</>\n<Assistant_Title2>Категория достижения: </>Настольная игра — Общины\n<Assistant_Title2>Условие открытия: </>Успешно очаруйте не менее 100 игроков, чей дуэльный счет превышает 200 000 очков",
     ["Meow meow, owooo..."] = "Мяу-мяу, оууу...",
     ["Achievement - Triumph on the Plateau"] = "Достижение - Триумф на Плато",
     ["Golden Indus Avenue Carriage Station Bicycle (Blue)"] = "Велосипед Golden Indus Avenue Carriage Station (синий)",

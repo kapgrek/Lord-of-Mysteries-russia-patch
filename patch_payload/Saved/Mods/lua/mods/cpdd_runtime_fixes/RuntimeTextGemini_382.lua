@@ -54,7 +54,7 @@ return {
     ["Pressure Plate B"] = "Нажимная пластина B",
     ["Run away and wait for explosion"] = "Убегайте и ждите взрыва",
     ["Function_Take axe before dissipating"] = "Функция_Возьмите топор, прежде чем рассеять",
-    ["Brand equipment upgrade item. \n can upgrade <Highlight> Crimson Ember </> to <Highlight> Level 62 Orange Quality </>, consuming <Highlight> 1 </> Memory Crystal upon upgrade."] = "Предмет улучшения клейменого снаряжения.\nПозволяет повысить <Highlight>«Алые угли»</Highlight> до <Highlight>оранжевого качества 62-го уровня снаряжения</Highlight>. При улучшении расходуется <Highlight>1</Highlight> кристалл памяти.",
+    ["Brand equipment upgrade item. \n can upgrade <Highlight> Crimson Ember </> to <Highlight> Level 62 Orange Quality </>, consuming <Highlight> 1 </> Memory Crystal upon upgrade."] = "Предмет улучшения клейменого снаряжения.\nПозволяет повысить <Highlight>«Алые угли»</> до <Highlight>оранжевого качества 62-го уровня снаряжения</>. При улучшении расходуется <Highlight>1</> кристалл памяти.",
     ["Hello, did a scream just come from this direction?"] = "Здравствуйте, крик только что раздался с этой стороны?",
     ["Squad Member (10/<TarotGreyTitle>12</>)"] = "Член отряда (10/<TarotGreyTitle>12</>)",
     ["Current Preferences: %s"] = "Текущие настройки: %s",

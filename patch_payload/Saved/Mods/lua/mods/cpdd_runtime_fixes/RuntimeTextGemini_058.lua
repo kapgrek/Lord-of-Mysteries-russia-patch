@@ -204,7 +204,7 @@ return {
     ["Poor Person 2"] = "Бедный человек b",
     ["Are you asking about my old man? He went out for a house call. Don't worry, my eldest son is on duty, you can trust him."] = "Ты спрашиваешь о моем старике? Он вышел на дом. Не волнуйтесь, мой старший сын на дежурстве, ему можно доверять.",
     ["The source of all disasters"] = "Источник всех бедствий",
-    ["<Highlight> Craft: </> Silver-Scaled Silk · Slim Fit · Theater Gown \n The Spectator is always behind the scenes, quietly observing the cheers of every drama and discerning the direction of every character."] = "<Highlight>Мастерство: </Highlight>Шелк серебряной чешуи · Приталенный крой · Театральный наряд\nЗритель всегда остается за кулисами, безмолвно внимая аплодисментам спектакля и постигая судьбу каждого героя.",
+    ["<Highlight> Craft: </> Silver-Scaled Silk · Slim Fit · Theater Gown \n The Spectator is always behind the scenes, quietly observing the cheers of every drama and discerning the direction of every character."] = "<Highlight>Мастерство: </>Шелк серебряной чешуи · Приталенный крой · Театральный наряд\nЗритель всегда остается за кулисами, безмолвно внимая аплодисментам спектакля и постигая судьбу каждого героя.",
     ["They are all living people in the real world. Everything that happens here is just your dream."] = "Все они живые люди в реальном мире. Все, что здесь происходит – это всего лишь твой сон.",
     ["Respawn Point_Believer Number One"] = "Точка возрождения_Верующий номер один",
     ["Slacking Clerk"] = "Бездельничающий клерк",

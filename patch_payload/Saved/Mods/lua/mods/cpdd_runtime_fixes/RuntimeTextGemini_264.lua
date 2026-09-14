@@ -66,7 +66,7 @@ return {
     ["Really not coming for a round? Fine... whenever you feel like a brawl, remember to come find me!"] = "Неужели не придешь на обход? Ладно... когда тебе захочется подраться, не забудь прийти и найти меня!",
     ["Reduces the probability of being hit by drag control, up to a maximum of halving the base hit rate, and offsets the drag hit rate of the control source."] = "Уменьшает вероятность попадания в результате управления перетаскиванием, вплоть до максимального уменьшения вдвое базовой скорости попадания, и компенсирует скорость попадания при перетаскивании источника управления.",
     ["Klein's carefully crafted hand-drip coffee."] = "Тщательно приготовленный кофе Клейн, приготовленный вручную.",
-    ["<Chat_PlayerName>Miss Audrey Hall:</> Placeholder text placeholder text placeholder text placeholder text<HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_PlayerName>Мисс Одри Холл: </Chat_PlayerName>Текст-заглушка Текст-заглушка Текст-заглушка Текст-заглушка<HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</HyperLink>",
+    ["<Chat_PlayerName>Miss Audrey Hall:</> Placeholder text placeholder text placeholder text placeholder text<HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_PlayerName>Мисс Одри Холл: </>Текст-заглушка Текст-заглушка Текст-заглушка Текст-заглушка<HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
     ["Player Near Death"] = "Игрок при смерти",
     ["Book Stall Owner"] = "Владелец книжного ларька",
     ["Guide Assistant"] = "Помощник гида",

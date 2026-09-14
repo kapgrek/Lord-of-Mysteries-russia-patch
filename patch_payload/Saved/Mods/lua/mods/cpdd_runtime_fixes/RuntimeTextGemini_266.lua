@@ -58,7 +58,7 @@ return {
     ["Moretti, you found another job?"] = "Моретти, ты нашел другую работу?",
     ["There are 68 more sets to shoot today, I don't know if I can finish..."] = "Сегодня предстоит снять еще 68 комплектов, не знаю, смогу ли закончить...",
     ["%s Purchase"] = "Покупка %s",
-    ["<Assistant_Title1>The Essence of Acting</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Complete 5 Extraordinary Roleplay gameplay sessions"] = "<Assistant_Title1>Истинная суть Лицедейства</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Настольная игра — Упорядоченный мир\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Завершите 5 сессий мистического Лицедейства",
+    ["<Assistant_Title1>The Essence of Acting</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Complete 5 Extraordinary Roleplay gameplay sessions"] = "<Assistant_Title1>Истинная суть Лицедейства</>\n<Assistant_Title2>Категория достижения: </>Настольная игра — Упорядоченный мир\n<Assistant_Title2>Условие открытия: </>Завершите 5 сессий мистического Лицедейства",
     ["No one has managed it for a long time. It's a ruin, {{sir|madam}}! There are no magistrates and no police. Only a guide like me can guarantee your safety—I grew up here and have explored every inch of it more times than I can count."] = "Это давно никому не удавалось. Это руины, {{sir|madam}}! Здесь нет ни судей, ни полиции. Только такой гид, как я, может гарантировать вашу безопасность — я вырос здесь и исследовал каждый дюйм его больше раз, чем могу сосчитать.",
     ["Stay here - trigger"] = "Оставайся здесь - триггер",
     ["Spell Formation: Start"] = "Формирование заклинания: Начало",

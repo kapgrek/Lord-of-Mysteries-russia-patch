@@ -199,7 +199,7 @@ return {
     ["Their cooing is very unique."] = "Их воркование очень уникально.",
     ["Enlightenment of the Star Chart"] = "Просвещение звездной карты",
     ["5200270   Church of the Night   Multiplayer Scene"] = "5200270 Многопользовательская сцена «Церковь ночи»",
-    ["College Avenue\r\n<LeonSubTitle size=\"38\">Academy Avenue</>"] = "Академическая авеню\r\n<LeonSubTitle size=\"38\">Academy Avenue</LeonSubTitle>",
+    ["College Avenue\r\n<LeonSubTitle size=\"38\">Academy Avenue</>"] = "Академическая авеню\r\n<LeonSubTitle size=\"38\">Academy Avenue</>",
     ["You have already done well enough."] = "Вы уже достаточно хорошо справились.",
     ["10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Cooldown."] = "10% шанс увеличить вашу собственную силу на 20 очков после нанесения урона, длится 2 секунды, суммируется до 3 раз, без перезарядки.",
     ["Male Treant"] = "Мужчина Энт",

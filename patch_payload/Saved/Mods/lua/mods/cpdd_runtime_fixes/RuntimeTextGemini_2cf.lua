@@ -69,7 +69,7 @@ return {
     ["<P_Heart>(There are residual chaotic Beyonder powers; let me use my Spirit Vision to check for traces left at the scene.)</>"] = "<P_Heart>(Есть остаточные хаотические силы Потустороннего; позвольте мне использовать свое духовное зрение, чтобы проверить следы, оставленные на месте происшествия.)</>",
     ["Let's Dance! You won't be cold once you start moving!"] = "Давайте танцевать! Вам не будет холодно, как только вы начнете двигаться!",
     ["Requires a team; fill with system bot battle."] = "Требуется команда; наполните систему битвой ботов.",
-    ["<DecH> Craft: </> Old Spirit Wood · Hand-made Flower Ornament \n Beneath the fragrance, flowers and thorns are two sides of fate."] = "<DecH>Мастерство: </DecH>Древесина древнего духа · Цветочный декор ручной работы\nПод чарующим благоуханием цветы и шипы сплетаются в две неразделимые грани судьбы.",
+    ["<DecH> Craft: </> Old Spirit Wood · Hand-made Flower Ornament \n Beneath the fragrance, flowers and thorns are two sides of fate."] = "<DecH>Мастерство: </>Древесина древнего духа · Цветочный декор ручной работы\nПод чарующим благоуханием цветы и шипы сплетаются в две неразделимые грани судьбы.",
     ["Thank you, Martha. I hope he can be as strong as you!"] = "Спасибо, Марта. Я надеюсь, что он сможет быть таким же сильным, как ты!",
     ["It's okay, I don't think that's important. Why don't you let me hear your song, how about that?"] = "Ничего страшного, я не думаю, что это важно. Почему бы тебе не дать мне послушать твою песню, как насчет этого?",
     ["5231269 Sea of Subconsciousness Test Single-Player Instance"] = "5231269 Одиночное измерение: Sea of Subconsciousness Test",

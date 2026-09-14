@@ -194,7 +194,7 @@ return {
     ["Ask about the death process"] = "Спросите о процессе смерти",
     ["Batch delete items; enter items counts isBind."] = "Пакетное удаление элементов; введите количество элементов isBind.",
     ["These vegetables were all grown by me; they taste great. Would you like some?"] = "Все эти овощи были выращены мной; они имеют прекрасный вкус. Хотите немного?",
-    ["Buyable Stations: <LightHighlight> Food Shop </> \n Sellable Stations: <LightHighlight> Trading Firm </> \n Item Type: <LightHighlight> Food </>"] = "Станция покупки: <LightHighlight>Продуктовая лавка</LightHighlight>\nСтанция продажи: <LightHighlight>Торговая гильдия</LightHighlight>\nТип товара: <LightHighlight>Продукты</LightHighlight>",
+    ["Buyable Stations: <LightHighlight> Food Shop </> \n Sellable Stations: <LightHighlight> Trading Firm </> \n Item Type: <LightHighlight> Food </>"] = "Станция покупки: <LightHighlight>Продуктовая лавка</>\nСтанция продажи: <LightHighlight>Торговая гильдия</>\nТип товара: <LightHighlight>Продукты</>",
     ["After enabling one-tap support, long-press the normal attack button during combat to automatically cast skills."] = "После включения поддержки одним касанием нажмите и удерживайте кнопку обычной атаки во время боя, чтобы автоматически применить навыки.",
     ["The glory of the ancestors will be revived through me!"] = "Через меня возродится слава предков!",
     ["Northeast 18"] = "Северо-восток bb",

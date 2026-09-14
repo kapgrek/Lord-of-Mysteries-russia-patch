@@ -193,7 +193,7 @@ return {
     ["Slot 1"] = "Слот b",
     ["Registration closed, you have registered"] = "Регистрация закрыта, вы зарегистрировались",
     ["<P_Heart> (The time for this scene is...) </>"] = "<P_Heart> (Время для этой сцены...) </>",
-    ["<Highlight>Craft: </>Baboon Fur · Exquisite Stitching\nA soft silver pouch. (Perfect for storing bananas!)"] = "<Highlight>Мастерство: </Highlight>Шерсть павиана · Изящный шов\nМягкая серебристая сумочка. (Идеально подходит для хранения бананов!)",
+    ["<Highlight>Craft: </>Baboon Fur · Exquisite Stitching\nA soft silver pouch. (Perfect for storing bananas!)"] = "<Highlight>Мастерство: </>Шерсть павиана · Изящный шов\nМягкая серебристая сумочка. (Идеально подходит для хранения бананов!)",
     ["<P_Heart> (But just standing here chatting? It's a bit low-class... A mysterious gathering like this should be in an ancient, magnificent temple, right.) </>"] = "<P_Heart> (Но просто стоять здесь и болтать? Это немного низкопробно... Такое таинственное собрание должно происходить в древнем великолепном храме, верно.) </>",
     ["Pentagram"] = "Пентаграмма",
     ["Successfully restore sanity to Beyonders who are falling into madness or worse"] = "Успешно верните рассудок Потусторонним, впавшим в безумие или еще хуже.",

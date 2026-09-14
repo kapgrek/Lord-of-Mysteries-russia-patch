@@ -183,7 +183,7 @@ return {
     ["Locked Non-Interactable"] = "Заблокировано",
     ["Magic Armor Break_Value"] = "Магическое пробитие брони_Значение",
     ["Witch?!"] = "Ведьма?!",
-    ["<Assistant_Title1>Dangerous</>\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Grade 2 Sealed Artifact"] = "<Assistant_Title1>Опасность</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Развитие — Запечатанные Артефакты\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Получите 1 Запечатанный Артефакт 2-го класса",
+    ["<Assistant_Title1>Dangerous</>\n<Assistant_Title2>Achievement Category: </>Growth - Sealed Artifact\n<Assistant_Title2>Unlock Condition: </>Obtain 1 Grade 2 Sealed Artifact"] = "<Assistant_Title1>Опасность</>\n<Assistant_Title2>Категория достижения: </>Развитие — Запечатанные Артефакты\n<Assistant_Title2>Условие открытия: </>Получите 1 Запечатанный Артефакт 2-го класса",
     ["Atmosphere Group"] = "Атмосфера Групп",
     ["I'm going to follow Danitz, that famous pirate!"] = "Я собираюсь последовать за Даницем, этим знаменитым пиратом!",
     ["Cannot distribute gift money in a cross-server party."] = "Невозможно распределить подарочные деньги в межсерверной группе.",

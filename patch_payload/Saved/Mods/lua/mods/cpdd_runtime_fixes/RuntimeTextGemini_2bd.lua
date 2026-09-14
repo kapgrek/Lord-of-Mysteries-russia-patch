@@ -44,7 +44,7 @@ return {
     ["The undercover agent's ancestral home. He occasionally hid some goods there."] = "Родовой дом агента под прикрытием. Иногда он прятал там какие-то товары.",
     ["Survived a \"Life Alchemy\" experiment and became a human with a long lifespan."] = "Пережил эксперимент «Алхимия жизни» и стал человеком с долгой продолжительностью жизни.",
     ["Player Cart Camera"] = "Камера тележки игрока",
-    ["<Assistant_Title1>First Echo of Fate</>\n<Assistant_Title2>Achievement Category: </>Leisure - Fun\n<Assistant_Title2>Unlock Condition: </>Reach Favorability Level 3 with any contact"] = "<Assistant_Title1>Первый отклик судьбы</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Досуг — Забавы\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Достигните 3-го уровня благосклонности с любым знакомым",
+    ["<Assistant_Title1>First Echo of Fate</>\n<Assistant_Title2>Achievement Category: </>Leisure - Fun\n<Assistant_Title2>Unlock Condition: </>Reach Favorability Level 3 with any contact"] = "<Assistant_Title1>Первый отклик судьбы</>\n<Assistant_Title2>Категория достижения: </>Досуг — Забавы\n<Assistant_Title2>Условие открытия: </>Достигните 3-го уровня благосклонности с любым знакомым",
     ["A villa."] = "Вилла.",
     ["Catch up with Fula three times - near the fish basket"] = "Догнать Фулу три раза — возле корзины с рыбой.",
     ["LuaList(LuaTuple(IdGroup(Skill), Float()))."] = "LuaList(LuaTuple(IdGroup(Навык), Float())).",

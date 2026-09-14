@@ -71,7 +71,7 @@ return {
     ["AI Feedback"] = "Обратная связь с искусственным интеллектом",
     ["Second Floor Security 2"] = "Охрана второго этажа b",
     ["Initiated a keyboard duel with you"] = "Начал с тобой клавиатурную дуэль",
-    ["According to the prophecy on the parchment, place the<P_Yellow> object of prophecy</> on the altar.\n \"One object stored, the seed of new life, buried beside the stone statue.\""] = "Следуя пророчеству на пергаменте, возложите на алтарь <P_Yellow>предмет из пророчества</P_Yellow>.\n«Схоронен предмет, семя новой жизни, погребено подле каменного изваяния».",
+    ["According to the prophecy on the parchment, place the<P_Yellow> object of prophecy</> on the altar.\n \"One object stored, the seed of new life, buried beside the stone statue.\""] = "Следуя пророчеству на пергаменте, возложите на алтарь <P_Yellow>предмет из пророчества</>.\n«Схоронен предмет, семя новой жизни, погребено подле каменного изваяния».",
     ["Philip gradually regains his sanity..."] = "Филип постепенно приходит в себя...",
     ["Participate in 1 Club Brawl session"] = "Принять участие в 1 сеансе Club Brawl.",
     ["Random Item Reward"] = "Награда за случайный предмет",

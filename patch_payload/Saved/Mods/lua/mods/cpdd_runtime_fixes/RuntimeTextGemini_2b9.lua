@@ -65,7 +65,7 @@ return {
     ["Keeping the stove clean is the chef's duty; I must ask him about it."] = "Поддерживать плиту в чистоте — обязанность повара; Я должен спросить его об этом.",
     ["Use Channeling Item"] = "Использовать направляющий предмет",
     ["%s profession"] = "Профессия %s",
-    ["Use to obtain <Highlight> Believer Number One Hairstyle </> \n If you already own this appearance, you can choose to decompose it to obtain 100,000 bound Soles"] = "Используйте, чтобы получить прическу <Highlight>«Верующий Номер Один»</Highlight>.\nЕсли данный облик уже открыт, предмет можно распылить на 100 000 персональных солей.",
+    ["Use to obtain <Highlight> Believer Number One Hairstyle </> \n If you already own this appearance, you can choose to decompose it to obtain 100,000 bound Soles"] = "Используйте, чтобы получить прическу <Highlight>«Верующий Номер Один»</>.\nЕсли данный облик уже открыт, предмет можно распылить на 100 000 персональных солей.",
     ["Need to fight this guard thing."] = "Нужно сразиться с этим охранником.",
     ["Team UI Element ID"] = "Идентификатор элемента пользовательского интерфейса команды",
     ["Seer - Paper Figurine Substitute"] = "Провидец — заменитель бумажной фигурки",

@@ -67,7 +67,7 @@ return {
     ["miHoYo"] = "миХоЙо",
     ["Candles symbolize the light of spirituality and guidance. The choice of offerings must align with the purpose of the ritual and the potential preferences or symbolic meanings of the entity being petitioned. For breaking a seal, these basic elements are sufficient."] = "Свечи символизируют свет духовности и руководства. Выбор подношений должен соответствовать цели ритуала и потенциальным предпочтениям или символическому значению сущности, к которой обращаются. Для взлома пломбы этих основных элементов достаточно.",
     ["Pressure plate 1"] = "Нажимная пластина b",
-    ["West Avenue\r\n<LeonSubTitle size=\"38\">West Avenue</>"] = "Западная авеню\r\n<LeonSubTitle size=\"38\">West Avenue</LeonSubTitle>",
+    ["West Avenue\r\n<LeonSubTitle size=\"38\">West Avenue</>"] = "Западная авеню\r\n<LeonSubTitle size=\"38\">West Avenue</>",
     ["I was immersed in the air of the Southern Continent and found myself drowning, gradually losing all my strength."] = "Я погрузился в воздух Южного континента и тону, постепенно теряя все силы.",
     ["Use to obtain <Highlight>Eternal Night Residue Veil Face Accessory</>\nIf you already own this appearance, you can choose to dismantle it to obtain 30,000 Bound Soules"] = "Используйте, чтобы получить <Highlight>украшение для лица «Вуаль Вечной Ночи»</>\nЕсли эта внешность уже открыта, ее можно распылить на 30 000 персональных солей.",
     ["[Temporary] 3 Blue Lines"] = "[Временно] 3 синие линии",

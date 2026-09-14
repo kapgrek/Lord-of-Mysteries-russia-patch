@@ -62,7 +62,7 @@ return {
     ["The dense velvet surface is woven with complex patterns, circle after circle; gaze at it until your thoughts are deeply immersed in it."] = "Плотная бархатная поверхность выткана сложными узорами круг за кругом; смотрите на него до тех пор, пока ваши мысли не погрузятся в него глубоко.",
     ["iOS Review Server"] = "Сервер обзора iOS",
     ["Irritable"] = "раздражительный",
-    ["<Highlight>Craft: </>Night Blue Velvet · Stardust Cape · Magic Uniform\nSome mysteries are hidden in star charts, hidden in the light that refuses to dissipate at the end of the long night."] = "<Highlight>Мастерство: </Highlight>Полночно-синий бархат · Плащ звездной пыли · Магическая форма\nНекоторые тайны сокрыты в картах звездного неба, спрятаны в свете, что отказывается угасать на исходе долгой ночи.",
+    ["<Highlight>Craft: </>Night Blue Velvet · Stardust Cape · Magic Uniform\nSome mysteries are hidden in star charts, hidden in the light that refuses to dissipate at the end of the long night."] = "<Highlight>Мастерство: </>Полночно-синий бархат · Плащ звездной пыли · Магическая форма\nНекоторые тайны сокрыты в картах звездного неба, спрятаны в свете, что отказывается угасать на исходе долгой ночи.",
     ["Godot (Start)"] = "Годо (Начало)",
     ["Achievement: Cat Blessed"] = "Достижение: Благословение кота",
     ["Recharge Rebate"] = "Скидка на пополнение счета",

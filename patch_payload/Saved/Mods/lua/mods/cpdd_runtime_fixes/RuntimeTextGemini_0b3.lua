@@ -202,7 +202,7 @@ return {
     ["Buff mapping: Map Buff with ID 'A' to Buff with ID 'B' (continuous)."] = "Сопоставление усилений: сопоставьте усиление с идентификатором «A» с усилением с идентификатором «B» (непрерывно).",
     ["Achievement - Journey of Ten Battles"] = "Достижение - Путешествие десяти битв",
     ["Eyeshadow"] = "Тени для век",
-    ["<Highlight> Craft: </> Linen Cotton · Wheat Ear Embroidery · Pastoral Casual Wear \n In the golden wheat waves of the small town of Morse, pick up a piece of gentle time from the past."] = "<Highlight>Мастерство: </Highlight>Лен и хлопок · Вышивка пшеничных колосьев · Сельская повседневная одежда\nСреди золотых волн пшеницы в городке Морс прикоснитесь к частичке былого безмятежного времени.",
+    ["<Highlight> Craft: </> Linen Cotton · Wheat Ear Embroidery · Pastoral Casual Wear \n In the golden wheat waves of the small town of Morse, pick up a piece of gentle time from the past."] = "<Highlight>Мастерство: </>Лен и хлопок · Вышивка пшеничных колосьев · Сельская повседневная одежда\nСреди золотых волн пшеницы в городке Морс прикоснитесь к частичке былого безмятежного времени.",
     ["Target map: %s configuration does not exist"] = "Целевая карта: конфигурация %s не существует.",
     ["Wait for the side effects to subside"] = "Подождите, пока побочные эффекты исчезнут",
     ["Giving You a Sevia Daisy - Rozanne"] = "Дарю тебе севию ромашку - Розанна",

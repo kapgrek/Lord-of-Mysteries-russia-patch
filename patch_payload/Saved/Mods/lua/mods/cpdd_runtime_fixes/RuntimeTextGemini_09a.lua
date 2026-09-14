@@ -196,7 +196,7 @@ return {
     ["He told me that after he died, he would be buried here, melting away like snow."] = "Он сказал мне, что после смерти его похоронят здесь, он растает, как снег.",
     ["The range and damage of Jump Smash are increased."] = "Дальность и урон Jump Smash увеличены.",
     ["Mysterious Atmosphere"] = "Таинственная атмосфера",
-    ["<Assistant_Title1>Friend Collector I</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Have 3 friends from different Pathways"] = "<Assistant_Title1>Коллекционер друзей I</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Общение — Чат с друзьями\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Заведите 3 друзей с различных Путей",
+    ["<Assistant_Title1>Friend Collector I</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Have 3 friends from different Pathways"] = "<Assistant_Title1>Коллекционер друзей I</>\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\n<Assistant_Title2>Условие открытия: </>Заведите 3 друзей с различных Путей",
     ["Use to obtain <Highlight>Midsummer Night Ear Accessory</>"] = "Используйте, чтобы получить <Highlight>Аксессуар для ушей в летнюю ночь</>.",
     ["The young lady in the Western-style dress flees in panic, while the cruel Ripper stalks her like a shadow."] = "Девушка в платье в западном стиле в панике убегает, а жестокий Потрошитель преследует ее, как тень.",
     ["Enhanced Burst"] = "Улучшенный взрыв",

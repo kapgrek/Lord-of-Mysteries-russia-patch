@@ -49,7 +49,7 @@ return {
     ["Accept Seed of Sighs - Monster Hunt quest."] = "Примите квест «Семя вздохов — Охота на монстров».",
     ["Target small-area basic attack."] = "Базовая атака по малой области вокруг цели.",
     ["The damage of <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> is increased by 50%, an additional 10 points of <HighLight>Secret Peeking</> are obtained, and the piercing reduction value is increased."] = "Урон <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> увеличен на 50%, получены дополнительные 10 очков <HighLight>Secret Peeking</>, а также увеличено значение снижения пробивания.",
-    ["<DecH>Crafting: </>Dark Satin - Soft-Whisper Floor-Length Dress\nSoft whispers and passionate punches can both complete an irresistible long sleep."] = "<DecH>Мастерство: </DecH>Темный атлас · Струящееся платье шепота\nЛасковый шепот и яростные сокрушительные удары — оба способны погрузить в неотвратимый вечный сон.",
+    ["<DecH>Crafting: </>Dark Satin - Soft-Whisper Floor-Length Dress\nSoft whispers and passionate punches can both complete an irresistible long sleep."] = "<DecH>Мастерство: </>Темный атлас · Струящееся платье шепота\nЛасковый шепот и яростные сокрушительные удары — оба способны погрузить в неотвратимый вечный сон.",
     ["It must be the Goddess Protection that keeps this place safe."] = "Должно быть, это защита Богини обеспечивает безопасность этого места.",
     ["Use to obtain <Highlight> Display Stand Action: Model Hands on Hips </>"] = "Используйте для получения стенда <Highlight> Действие: Модель «Руки на бедрах» </>",
     ["You may call me \"Poirot\"."] = "Вы можете называть меня «Пуаро».",

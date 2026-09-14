@@ -197,7 +197,7 @@ return {
     ["Damn it... just you wait!"] = "Черт побери... подожди!",
     ["This is my passionate love for you, please come out and meet me!"] = "Это моя страстная любовь к тебе, пожалуйста, выйди и познакомься со мной!",
     ["Daily Fortune"] = "Ежедневная удача",
-    ["Accumulated 110 connections, granting an additional <Highlight>Wish</> attempt. \n There is currently no wish target. Would you like to go and make a wish?"] = "Накоплено 110 знакомств, получена дополнительная попытка <Highlight>Желания</Highlight>.\nВ данный момент цель для желания не выбрана. Перейти к загадыванию желания?",
+    ["Accumulated 110 connections, granting an additional <Highlight>Wish</> attempt. \n There is currently no wish target. Would you like to go and make a wish?"] = "Накоплено 110 знакомств, получена дополнительная попытка <Highlight>Желания</>.\nВ данный момент цель для желания не выбрана. Перейти к загадыванию желания?",
     ["Number: 4621215465"] = "Номер: 4621215465",
     ["Wait, no... I can't write it like this, it's too bland, it lacks dramatic tension!"] = "Подожди, нет... Я не могу так писать, это слишком пресно, в этом нет драматического напряжения!",
     ["Next station selling price +30%"] = "Цена продажи следующей станции +30%",

@@ -57,7 +57,7 @@ return {
     ["Nantong"] = "Наньтун",
     ["Steam Heat Well"] = "Паровой тепловой колодец",
     ["Star Strike"] = "Звездный Удар",
-    ["<Assistant_Title1>Snowy Range Explorer</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Reach 100% completion in the Hornacis Mountain Range Order World"] = "<Assistant_Title1>Исследователь заснеженных вершин</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>TRPG — Мир Порядка\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Достигните 100% исследования хребта Хорнакис в Мире Порядка",
+    ["<Assistant_Title1>Snowy Range Explorer</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Reach 100% completion in the Hornacis Mountain Range Order World"] = "<Assistant_Title1>Исследователь заснеженных вершин</>\n<Assistant_Title2>Категория достижения: </>TRPG — Мир Порядка\n<Assistant_Title2>Условие открытия: </>Достигните 100% исследования хребта Хорнакис в Мире Порядка",
     ["The price? The price will of course be a little more expensive than at the ticket office. But I guarantee, I'm the best deal here."] = "Цена? Цена, конечно, будет немного дороже, чем в кассе. Но я гарантирую, я здесь лучшее предложение.",
     ["Someone's Diary 3"] = "Чей-то дневник 3",
     ["But the True Creator is an evil god after all, aren't you worried about being corrupted?"] = "Но Истинный Создатель, в конце концов, злой бог, не беспокоишься ли ты, что развратишься?",

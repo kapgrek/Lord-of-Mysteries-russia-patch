@@ -62,7 +62,7 @@ return {
     ["Lorota has three major hobbies: coffee, desserts, and maids. She says she must have these three things to accelerate her recovery."] = "У Лороты три главных хобби: кофе, десерты и горничные. Она говорит, что ей необходимы эти три вещи, чтобы ускорить выздоровление.",
     ["Scam NPC"] = "Мошенничество NPC",
     ["Hmm... learned some new things, I can't wait to try them out."] = "Хм... узнал кое-что новое, не могу дождаться, чтобы опробовать это.",
-    ["<DecH> Craft: </> Gold Thread Embroidery \n The radiance of the Blazing Sun falls, and the Prayer-seeker receives a sacred coronation during morning prayer."] = "<DecH>Мастерство: </DecH>Вышивка золотой нитью\nЛучи Палящего Солнца озаряют мир, и Молящийся о Свете принимает священный венец во время утренней молитвы.",
+    ["<DecH> Craft: </> Gold Thread Embroidery \n The radiance of the Blazing Sun falls, and the Prayer-seeker receives a sacred coronation during morning prayer."] = "<DecH>Мастерство: </>Вышивка золотой нитью\nЛучи Палящего Солнца озаряют мир, и Молящийся о Свете принимает священный венец во время утренней молитвы.",
     ["Shadow Assassination - Safe Zone Tag After Being Slashed Once"] = "Shadow Assassination — метка безопасной зоны после одного удара",
     ["Follow those students trigger"] = "Следуйте за этими студентами",
     ["Vlad Street"] = "Влада улица",

@@ -74,7 +74,7 @@ return {
     ["Provide feedback on the test drive to Officer Mike"] = "Оставьте отзыв о тест-драйве офицеру Майку.",
     ["No need to thank me, this is just a daily performance for a street magician."] = "No need to thank me, this is just a daily performance for a street Фокусник.",
     ["Diary note 1"] = "Дневник, заметка 1",
-    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of King of Angels in the Dominator's Clash. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</M_Default>\n<M_Default>Вы достигли ранга «Король Ангелов» в испытании «Битва Владык». Ниже прилагается ваша награда в виде титула.</M_Default>",
+    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of King of Angels in the Dominator's Clash. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы достигли ранга «Король Ангелов» в испытании «Битва Владык». Ниже прилагается ваша награда в виде титула.</>",
     ["I... understand!"] = "Я понимаю!",
     ["First set"] = "Первый набор",
     ["Mysterious Creature"] = "Таинственное существо",

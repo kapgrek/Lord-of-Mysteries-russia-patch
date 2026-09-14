@@ -156,7 +156,7 @@ return {
     ["Jesse untied the empathy bracelet and brought the witch back to Blackthorn Security Company..."] = "Джесси развязал браслет эмпатии и вернул ведьму в охранную компанию Чёрный Чертополох...",
     ["I still have three cream hard candies in my schoolbag! They're all for you! Actually, the time my sister broke the vase... it was me! And the puppy Honey, it didn't steal the potatoes..."] = "У меня в школьной сумке до сих пор лежат три леденца с кремом! Они все для тебя! На самом деле, когда моя сестра разбила вазу... это был я! А щенок Милый, он картошку не крал...",
     ["Newspaper on the dining table"] = "Газета на обеденном столе",
-    ["<DecH>Craftsmanship: </>Lace Gauze\nA certain emperor once left an unfinished remark in his diary; tasting it now truly has a unique flavor."] = "<DecH>Мастерство: </DecH>Кружевной флер\nНекий император однажды оставил в дневнике недосказанный вздох восторга — и сегодня его вкус раскрывается во всем великолепии.",
+    ["<DecH>Craftsmanship: </>Lace Gauze\nA certain emperor once left an unfinished remark in his diary; tasting it now truly has a unique flavor."] = "<DecH>Мастерство: </>Кружевной флер\nНекий император однажды оставил в дневнике недосказанный вздох восторга — и сегодня его вкус раскрывается во всем великолепии.",
     ["Breakthrough Quest"] = "Прорывной квест",
     ["Not Fiction"] = "Не фантастика",
     ["Talim acts absurdly"] = "Талим действует абсурдно",

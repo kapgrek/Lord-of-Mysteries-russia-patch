@@ -52,7 +52,7 @@ return {
     ["Mine"] = "Мой",
     ["Buttress"] = "Контрфорс",
     ["<P_Heart> (Looks at you) </> You've learned very well! {{Young man|Young lady}}!"] = "<P_Heart> (Смотрит на тебя) </> Ты очень хорошо учился! {{Young man|Young lady}}!",
-    ["<DecH> Craft: </> Night Woolen · Poetic Tailoring \n Guided by the night, the Nighthawks walk in secrecy. The one guarding this night is the brightest star among them."] = "<DecH>Мастерство: </DecH>Сукно темной ночи · Поэтичный крой\nВедомые ночью, Красные Перчатки ступают сквозь тайну. И хранит эту ночь самая яркая звезда среди них.",
+    ["<DecH> Craft: </> Night Woolen · Poetic Tailoring \n Guided by the night, the Nighthawks walk in secrecy. The one guarding this night is the brightest star among them."] = "<DecH>Мастерство: </>Сукно темной ночи · Поэтичный крой\nВедомые ночью, Красные Перчатки ступают сквозь тайну. И хранит эту ночь самая яркая звезда среди них.",
     ["<ChatTag_Server>[Strategy Server]</>"] = "<ChatTag_Server>[Сервер стратегий]</>",
     ["I must find a way to catch up to her... I'll try a Leap of Spirituality."] = "Я должен найти способ догнать ее... Я попробую Прыжок Духовности.",
     ["Stay away from her!"] = "Держись от нее подальше!",

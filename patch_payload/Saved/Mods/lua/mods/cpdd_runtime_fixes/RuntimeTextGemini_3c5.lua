@@ -71,7 +71,7 @@ return {
     ["The lady in the team seems to want to ask you for something, go find out."] = "Девушка из команды, кажется, хочет тебя о чем-то попросить, иди узнай.",
     ["Introduce Hynas's Dream"] = "Познакомьтесь с мечтой Хинаса",
     ["Attack Spirit 2-3"] = "Дух атаки 2-3",
-    ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Hunting Time Event Time</>\nRegular period: Terminal Hunt is open all day;\n<Highlight>High-multiplier period: 19:00 – 20:00 daily; Extra period: 14:00 – 15:00 every Saturday and Sunday.</>"] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Время события «Час охоты»</Title>\nОбычный режим: «Окончательная охота» доступна круглосуточно;\n<Highlight>Часы повышенных наград: ежедневно 19:00 – 20:00; дополнительные часы: сб и вс 14:00 – 15:00.</Highlight>",
+    ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Hunting Time Event Time</>\nRegular period: Terminal Hunt is open all day;\n<Highlight>High-multiplier period: 19:00 – 20:00 daily; Extra period: 14:00 – 15:00 every Saturday and Sunday.</>"] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Время события «Час охоты»</>\nОбычный режим: «Окончательная охота» доступна круглосуточно;\n<Highlight>Часы повышенных наград: ежедневно 19:00 – 20:00; дополнительные часы: сб и вс 14:00 – 15:00.</>",
     ["Quest trigger"] = "Триггер квеста",
     ["<h>Leave the church</>"] = "<h>Покинуть церковь</>",
     ["A lady related to Roselle... irresistible charm... could it be..."] = "Дама, родственница Розеллы... непреодолимое обаяние... неужели...",

@@ -44,7 +44,7 @@ return {
     ["Sealed Artifact Connection"] = "Запечатанное соединение с артефактом",
     ["This knowledge can indeed help many people. And look, you're clearly very good at explaining these things."] = "Эти знания действительно могут помочь многим людям. И слушай, ты явно очень хорошо объясняешь эти вещи.",
     ["Disdaining explanation and having no intention of obeying, the rebel will arrive on time at midnight. The moment of thrill is right now."] = "Пренебрегая объяснениями и не собираясь подчиняться, повстанец прибудет вовремя, в полночь. Момент острых ощущений настал прямо сейчас.",
-    ["<DecH>Craftsmanship: </>Crimson Satin · Pale Silver Dark Patterns\nSincerity is like a new moon blooming; silent oaths are hotter than fresh blood."] = "<DecH>Мастерство: </DecH>Багровый атлас · Теневой серебряный узор\nИскренность подобна рождению молодой луны; безмолвные клятвы горячее свежей крови.",
+    ["<DecH>Craftsmanship: </>Crimson Satin · Pale Silver Dark Patterns\nSincerity is like a new moon blooming; silent oaths are hotter than fresh blood."] = "<DecH>Мастерство: </>Багровый атлас · Теневой серебряный узор\nИскренность подобна рождению молодой луны; безмолвные клятвы горячее свежей крови.",
     ["So, you are a Beyonder? That's awesome!"] = "Итак, ты Потусторонний? Это потрясающе!",
     ["Praying that the merciful Goddess will respond to my request."] = "Молюсь, чтобы милосердная Богиня ответила на мою просьбу.",
     ["Baboon's Pace"] = "Шаг бабуина",

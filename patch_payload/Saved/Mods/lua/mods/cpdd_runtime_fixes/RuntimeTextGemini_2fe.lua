@@ -67,7 +67,7 @@ return {
     ["Ice Wall Knockback_Internal_02"] = "Отбрасывание ледяной стены_Internal_02",
     ["Player Marionette - Punishment"] = "Игрок-марионетка - наказание",
     ["My thoughts have not changed, and I have no intention of continuing to advance in Sequence."] = "Мои мысли не изменились, и я не собираюсь продолжать продвигаться в Последовательности.",
-    ["Confirm removing this email from bookmarks? \n<BrickRedLight> Emails not in the inbox will be directly deleted after un-bookmarking! </>"] = "Удалить это письмо из избранного?\n<BrickRedLight>Письма, отсутствующие во входящих, после снятия отметки «Избранное» будут безвозвратно удалены!</BrickRedLight>",
+    ["Confirm removing this email from bookmarks? \n<BrickRedLight> Emails not in the inbox will be directly deleted after un-bookmarking! </>"] = "Удалить это письмо из избранного?\n<BrickRedLight>Письма, отсутствующие во входящих, после снятия отметки «Избранное» будут безвозвратно удалены!</>",
     ["New potion at the apothecary? Give me a newspaper."] = "Новое зелье в аптеке? Дайте мне газету.",
     ["Timed out after %s"] = "Время ожидания истекло через %s",
     ["+200 Health +10 Attack, stack Attack when hit"] = "+200 здоровья +10 атаки, суммируется атака при ударе",

@@ -178,7 +178,7 @@ return {
     ["At forty, I have a happy family and a rising career, and I only did this one thing!"] = "В сорок лет у меня счастливая семья и восходящая карьера, а я сделал только одно!",
     ["<Assistant_Title1>Hard · Sylvia</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Defeat Sylvia on Hard difficulty"] = "<Assistant_Title1>Сильвия (сложно)</>\n<Assistant_Title2>Категория достижения: </>Приключения — Групповое подземелье\n<Assistant_Title2>Условие получения: </>Одолеть Сильвию на высокой сложности",
     ["Line of Sight Point Exit"] = "Точка прямой видимости Выход",
-    ["<Highlight>Craft: </>Wool Blend・Outdoor Short Outfit\nThe sun greeted you as you rose, and a sunny day begins now."] = "<Highlight>Мастерство: </Highlight>Полушерсть · Походный укороченный наряд\nСолнце приветствует вас с самого рассвета, открывая погожий ясный день.",
+    ["<Highlight>Craft: </>Wool Blend・Outdoor Short Outfit\nThe sun greeted you as you rose, and a sunny day begins now."] = "<Highlight>Мастерство: </>Полушерсть · Походный укороченный наряд\nСолнце приветствует вас с самого рассвета, открывая погожий ясный день.",
     ["Don't worry, this is the first step toward the truth—"] = "Не волнуйтесь, это первый шаг к истине…",
     ["cambridge leave"] = "Кембриджский отпуск",
     ["Data table missing"] = "Таблица данных отсутствует",

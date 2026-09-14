@@ -58,7 +58,7 @@ return {
     ["Yes, we have the sweetest tomatoes here! Would you like to try some?"] = "Да, у нас здесь самые сладкие помидоры! Хотите попробовать?",
     ["Open strong interaction chair switch"] = "Открытый переключатель кресла с сильным взаимодействием",
     ["Very different, praise the two skill sets for PvP and PvE."] = "Очень разные, похвалите два набора навыков для PvP и PvE.",
-    ["Text text text text <Dungeon_Highlight>text text text text</> text text text text text text text text text"] = "Текст текст текст <Dungeon_Highlight>текст текст текст текст</Dungeon_Highlight> текст текст текст текст текст текст текст текст",
+    ["Text text text text <Dungeon_Highlight>text text text text</> text text text text text text text text text"] = "Текст текст текст <Dungeon_Highlight>текст текст текст текст</> текст текст текст текст текст текст текст текст",
     ["One of the twenty-two divine pathways\nSequence 9: Mystery Pryer, Sequence 8: Melee Scholar, Sequence 7: Warlock, Sequence 6: Scrolls Professor, Sequence 5: Constellations Master, Sequence 4: Mysticologist, Sequence 3: Clairvoyant, Sequence 2: Sage, Sequence 1: Knowledge Emperor, Sequence 0: Hermit"] = "Один из двадцати двух Путей к божественности:\nПоследовательность 9: Жрец Тайн, Последовательность 8: Знаток Ближнего Боя, Последовательность 7: Колдун, Последовательность 6: Профессор Свитков, Последовательность 5: Астролог, Последовательность 4: Мистицист, Последовательность 3: Ясновидец, Последовательность 2: Мудрец, Последовательность 1: Знающий Император, Последовательность 0: Сокрытый Мудрец",
     ["Defense increased *d"] = "Защита увеличена *d",
     ["Beyonder incident?"] = "Потусторонний инцидент?",

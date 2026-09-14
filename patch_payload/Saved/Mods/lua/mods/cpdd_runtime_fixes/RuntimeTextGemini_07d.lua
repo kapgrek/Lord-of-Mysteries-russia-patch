@@ -205,7 +205,7 @@ return {
     ["Succeed in the check to share opinions with Polo"] = "Пройдите проверку, чтобы поделиться мнением с Поло.",
     ["…It's called \"Gulu,\" it's my messenger, no, my friend."] = "…Его зовут «Гулу», это мой посланник, нет, мой друг.",
     ["1 pathfinding divination"] = "1 гадание по поиску пути",
-    ["<Highlight> Craft: </> Hand-Distressed \n Whether in an underground tavern or at the docks of the Southern Continent, bounty hunters earn people's full respect. After all, no one wants to be the prey, right?"] = "<Highlight>Мастерство: </Highlight>Ручное состаривание\nГде бы то ни было — в подпольном трактире или в портовых доках Южного континента — охотники за головами всегда пользуются неподдельным уважением. Никому ведь не хочется стать добычей, верно?",
+    ["<Highlight> Craft: </> Hand-Distressed \n Whether in an underground tavern or at the docks of the Southern Continent, bounty hunters earn people's full respect. After all, no one wants to be the prey, right?"] = "<Highlight>Мастерство: </>Ручное состаривание\nГде бы то ни было — в подпольном трактире или в портовых доках Южного континента — охотники за головами всегда пользуются неподдельным уважением. Никому ведь не хочется стать добычей, верно?",
     ["Enlightenment"] = "Просвещение",
     ["Whether to include kills"] = "Включать ли убийства",
     ["Lamud Town"] = "Ламуд Таун",

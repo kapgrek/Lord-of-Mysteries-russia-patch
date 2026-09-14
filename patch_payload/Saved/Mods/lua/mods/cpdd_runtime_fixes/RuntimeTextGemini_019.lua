@@ -171,7 +171,7 @@ return {
     ["Waiting..."] = "Ожидающий...",
     ["Next time"] = "В следующий раз",
     ["Use to obtain <Highlight>Light and Dark Twin Bottoms</>"] = "Используйте для получения <Highlight>LLight и Dark Twin Bottoms</>.",
-    ["<Highlight> Craft: </> Starlight Brocade · Journey Measurement \n The starry sky is vast, and all Doors can be reached. Wearing this, may the starlight of your journey guide you so you never get lost."] = "<Highlight>Мастерство: </Highlight>Звездная парча · Крой странствий\nЗвездное небо необъятно, и все Врата открыты. Пусть сияние звезд ведет вас в пути, не давая сбиться с дороги.",
+    ["<Highlight> Craft: </> Starlight Brocade · Journey Measurement \n The starry sky is vast, and all Doors can be reached. Wearing this, may the starlight of your journey guide you so you never get lost."] = "<Highlight>Мастерство: </>Звездная парча · Крой странствий\nЗвездное небо необъятно, и все Врата открыты. Пусть сияние звезд ведет вас в пути, не давая сбиться с дороги.",
     ["But there are still so many letters here that haven't been delivered..."] = "Но здесь еще так много писем, которые не доставлены...",
     ["Citywalk - Pray at the Church of the River and Sea"] = "Citywalk - Молитесь в церкви Реки и Моря",
     ["<P_Heart> (I'll do as he says for now, ambush there in advance, and then catch him red-handed!) </>"] = "<P_Heart> (Я пока сделаю, как он говорит, заранее там устрою засаду, а потом поймаю его с поличным!) </>",

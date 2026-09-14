@@ -182,7 +182,7 @@ return {
     ["Final Hunt Auction"] = "Финальный охотничий аукцион",
     ["When Fooling Mark detonates, it grants you one stack of fate; fate: increases your Fooling Mark damage by 50%, stacking up to 4 times. If Fooling Explosion is selected, it will also affect the area damage of Fooling Explosion."] = "Когда Fooling Mark взрывается, он дает вам один заряд судьбы; Судьба: увеличивает урон от Fooling Mark на 50%, суммируется до 4 раз. Если выбран «Дурацкий взрыв», это также повлияет на урон по площади от «Дурацкого взрыва».",
     ["Enter the \"cave\""] = "Войдите в «пещеру»",
-    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of King of Angels in the Journey. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</M_Default>\n<M_Default>Вы достигли ранга «Король Ангелов» в совместном режиме «Соратники». Ниже прилагается ваша награда в виде титула.</M_Default>",
+    ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of King of Angels in the Journey. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Вы достигли ранга «Король Ангелов» в совместном режиме «Соратники». Ниже прилагается ваша награда в виде титула.</>",
     ["Cecie-Outdoor"] = "Сеси-на открытом воздухе",
     ["[Auto-Chess] - \"Drill\" - Lightning Ray"] = "[Авто-шахматы] — «Дрель» — Луч молнии",
     ["Gift Entry - Weapon - 3-2"] = "Подарочный вход - Оружие - 3-b",

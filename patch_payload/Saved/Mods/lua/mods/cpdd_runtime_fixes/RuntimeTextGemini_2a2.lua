@@ -51,7 +51,7 @@ return {
     ["The front page isn't a news event, but rather the final chapter of the serialized novel, 'Orphans of the Fog City'."] = "На первой странице — не новостное событие, а скорее последняя глава сериализованного романа «Сироты туманного города».",
     ["5230092 Tingen Plane"] = "5230092 Измерение: Тинген",
     ["Apprentice Acting 3 Camera"] = "Ученик актерского мастерства 3 камеры",
-    ["It is said that only <P_Yellow> those who are invited </> can see the entrance. But I don't know which specific door it is; you'll have to find it yourself."] = "Говорят, лишь <P_Yellow>приглашенные</P_Yellow> способны увидеть вход. Но какая именно это дверь, мне неведомо — придется искать самому.",
+    ["It is said that only <P_Yellow> those who are invited </> can see the entrance. But I don't know which specific door it is; you'll have to find it yourself."] = "Говорят, лишь <P_Yellow>приглашенные</> способны увидеть вход. Но какая именно это дверь, мне неведомо — придется искать самому.",
     ["Combat Keybinds"] = "Боевые сочетания клавиш",
     ["Small apprentice at a tailor shop"] = "Маленький ученик в ателье",
     ["The refreshing fruity aroma blends perfectly with the black tea."] = "Освежающий фруктовый аромат прекрасно сочетается с черным чаем.",

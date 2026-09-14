@@ -56,7 +56,7 @@ return {
     ["Destroy summoned monster upon death"] = "Уничтожить призванного монстра после смерти",
     ["Rare: Enamel Letter Opener"] = "Редкая: эмалированный нож для писем",
     ["Concluded on May 20, 2025"] = "Заключено 20 мая 2025 г.",
-    ["<Assistant_Title1>Also a Guardian</>\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Story\n<Assistant_Title2>Unlock Condition: </>In the fourth chapter main story, solve the final puzzle with Rozanne."] = "<Assistant_Title1>Тоже хранитель</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Сюжет — Реальность (основной)\n<Assistant_Title2>Условие открытия: </Assistant_Title2>В четвертой главе основного сюжета решите последнюю загадку вместе с Розанной.",
+    ["<Assistant_Title1>Also a Guardian</>\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Story\n<Assistant_Title2>Unlock Condition: </>In the fourth chapter main story, solve the final puzzle with Rozanne."] = "<Assistant_Title1>Тоже хранитель</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Реальность (основной)\n<Assistant_Title2>Условие открытия: </>В четвертой главе основного сюжета решите последнюю загадку вместе с Розанной.",
     ["Boil... add 150ml of whole milk... stir..."] = "Вскипятить... добавить 150мл цельного молока... перемешать...",
     ["(It seems he cannot wake up for the time being; there might be a puzzle of knowledge around here.)"] = "(Похоже, он пока не может проснуться; здесь может быть загадка знаний.)",
     ["Ross"] = "Росс",

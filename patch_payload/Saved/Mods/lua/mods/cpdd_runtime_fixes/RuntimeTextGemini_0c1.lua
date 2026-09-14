@@ -185,7 +185,7 @@ return {
     ["Bedtime Story-30.1.1 [Dialogue] Feynapot-Listen to Skana's Inner Thoughts"] = "Сказка на ночь-30.1.1 [Диалог] Фейнапот-Послушайте внутренние мысли Сканы",
     ["Go to Dyeing Publishing"] = "Перейти к издательству Dyeing Publishing",
     ["Lake of Chaos and Order-Canal-Interaction Object B Area"] = "Озеро Хаоса и область объекта B взаимодействия с каналом порядка",
-    ["<DecH> Craft: </> Precision Silk \n The overture plays, and the opening dance lifts the curtain on the feast. The first wisp of evening breeze brushes the hem, and the night is breathing softly."] = "<DecH>Мастерство: </DecH>Изысканный шелк\nЗвучит увертюра, и первый танец поднимает занавес торжества. Легкое дыхание вечернего бриза касается подола платья, и ночь нежно вздыхает.",
+    ["<DecH> Craft: </> Precision Silk \n The overture plays, and the opening dance lifts the curtain on the feast. The first wisp of evening breeze brushes the hem, and the night is breathing softly."] = "<DecH>Мастерство: </>Изысканный шелк\nЗвучит увертюра, и первый танец поднимает занавес торжества. Легкое дыхание вечернего бриза касается подола платья, и ночь нежно вздыхает.",
     ["Player Tarot Club Name: 123456789"] = "Имя Клуба Таро Игрока: 123456789",
     ["Insufficient remaining declarations of war."] = "Недостаточно оставшихся объявлений войны.",
     ["Send a gift to increase your friendship level with them?"] = "Отправить им подарок, чтобы повысить уровень дружбы с ними?",

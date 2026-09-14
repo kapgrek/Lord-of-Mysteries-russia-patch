@@ -55,7 +55,7 @@ return {
     ["Regretful Volley"] = "Сожалеющий залп",
     ["Find <h>Kodak</>"] = "Найдите <h>Kodak</>",
     ["Trade internal information"] = "Торговая внутренняя информация",
-    ["<Red>Light Dissipation</>: When Cage of Light reflects damage, it extends the Cooldown of Proof of Glory by 0.5 seconds, triggering up to 10 times. \n<Red>Rejection</>: Every 30 seconds during combat, one random Beyonder material attribute becomes ineffective."] = "<Red>Рассеивание света</Red>: Когда «Световая клетка» отражает урон, время перезарядки «Свидетельства славы» увеличивается на 0,5 сек. (срабатывает до 10 раз).\n<Red>Отторжение</Red>: Каждые 30 секунд боя одно случайное свойство мистической материи утрачивает силу.",
+    ["<Red>Light Dissipation</>: When Cage of Light reflects damage, it extends the Cooldown of Proof of Glory by 0.5 seconds, triggering up to 10 times. \n<Red>Rejection</>: Every 30 seconds during combat, one random Beyonder material attribute becomes ineffective."] = "<Red>Рассеивание света</>: Когда «Световая клетка» отражает урон, время перезарядки «Свидетельства славы» увеличивается на 0,5 сек. (срабатывает до 10 раз).\n<Red>Отторжение</>: Каждые 30 секунд боя одно случайное свойство мистической материи утрачивает силу.",
     ["[Emoji 107]"] = "[Эмодзи 107]",
     ["[Emoji 104]"] = "[Эмодзи 104]",
     ["A scoundrel in the village makes a living by staging accidents to extort money. The villagers are too afraid to speak up, but this time..."] = "Деревенский негодяй зарабатывает на жизнь инсценировкой несчастных случаев с целью вымогательства денег. Жители деревни слишком боятся говорить об этом, но на этот раз...",

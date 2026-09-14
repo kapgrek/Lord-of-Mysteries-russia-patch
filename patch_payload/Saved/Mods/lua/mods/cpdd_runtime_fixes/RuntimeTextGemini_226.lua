@@ -55,7 +55,7 @@ return {
     ["[Placeholder] The monster suddenly flew into a rage and lunged at Klein. \n At this moment, Dunn suddenly appeared, raised his gun to repel the monster, and began to chant."] = "[Временный плейсхолдер] Монстр внезапно пришёл в ярость и бросился на Клейна.\nВ этот миг внезапно появился Данн, выстрелом отбросил чудовище и начал песнопение.",
     ["Pressure Plate - Golden Autumn Lake_Treasure Location"] = "Нажимная пластина — Озеро Золотой Осени_Местоположение сокровищ",
     ["Video review failed"] = "Видеообзор не удался",
-    ["<Assistant_Title1>Friend Collector II</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Have 6 friends from different Pathways"] = "<Assistant_Title1>Коллекционер друзей II</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Общение — Чат с друзьями\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Заведите 6 друзей из разных Путей",
+    ["<Assistant_Title1>Friend Collector II</>\n<Assistant_Title2>Achievement Category: </>Social-Friend Chat\n<Assistant_Title2>Unlock Condition: </>Have 6 friends from different Pathways"] = "<Assistant_Title1>Коллекционер друзей II</>\n<Assistant_Title2>Категория достижения: </>Общение — Чат с друзьями\n<Assistant_Title2>Условие открытия: </>Заведите 6 друзей из разных Путей",
     ["Team: %d/%d"] = "Команда: %d/%d",
     ["Frazier"] = "Фрейзер",
     ["By the way, three years ago, a newly appointed archbishop disappeared with a Grade 0 Sealed Artifact."] = "Кстати, три года назад новоназначенный архиепископ исчез с запечатанным артефактом нулевого уровня.",

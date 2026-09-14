@@ -61,7 +61,7 @@ return {
     ["Restriction Type Enum"] = "Перечисление типов ограничений",
     ["Thank you so much, kind {{Mr.|Ms.}}, if you see it, please be sure to tell me."] = "Спасибо огромное, добрый {{Mr.|Ms.}}, если увидишь, обязательно скажи.",
     ["I also smelled bergamot and... rosemary?"] = "Еще я почувствовал запах бергамота и... розмарина?",
-    ["<Assistant_Title1>Gate of Mid-Sequence</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Advance to Sequence 7"] = "<Assistant_Title1>Врата средних Последовательностей</Assistant_Title1>\n<Assistant_Title2>Категория достижения: </Assistant_Title2>Развитие — Рост\n<Assistant_Title2>Условие открытия: </Assistant_Title2>Продвиньтесь до Последовательности 7",
+    ["<Assistant_Title1>Gate of Mid-Sequence</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Advance to Sequence 7"] = "<Assistant_Title1>Врата средних Последовательностей</>\n<Assistant_Title2>Категория достижения: </>Развитие — Рост\n<Assistant_Title2>Условие открытия: </>Продвиньтесь до Последовательности 7",
     ["Shining Star"] = "Сияющая звезда",
     ["The six people saved by Mr. Azik were an accident in the murderer's plan."] = "Шесть человек, спасенных господином Азиком, были случайностью в плане убийцы.",
     [" \n \n The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "\n\n　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",

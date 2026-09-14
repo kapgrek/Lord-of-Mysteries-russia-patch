@@ -51,7 +51,7 @@ return {
     ["Night Blessing"] = "Ночное благословение",
     ["Did it just say advancement? It seems there really is a Beyonder behind this causing trouble."] = "Там только что говорилось о продвижении? Кажется, за этим действительно стоит Потусторонний, создающий проблемы.",
     ["All %d comments"] = "Все комментарии %d",
-    ["Confirm leaving the current team? \n<BrickRedLight> If the team only has a leader, leaving the team will directly disband it </>"] = "Вы уверены, что хотите покинуть команду?\n<BrickRedLight>Если в команде остался только капитан, при его выходе команда будет сразу расформирована</BrickRedLight>",
+    ["Confirm leaving the current team? \n<BrickRedLight> If the team only has a leader, leaving the team will directly disband it </>"] = "Вы уверены, что хотите покинуть команду?\n<BrickRedLight>Если в команде остался только капитан, при его выходе команда будет сразу расформирована</>",
     ["Knockout Stage Round 4"] = "Этап плей-офф, 4-й раунд",
     ["Reach level 45 \n, complete the story event 【Act IV · Homicide】 \n, and complete the challenge event 【Hard · Alpha Wolf】"] = "Достигните 45-го уровня\nЗавершите сюжетное событие 【Акт IV: Убийство】\nЗавершите испытание 【Сложно: Вожак волков】",
     ["Brennan"] = "Бреннан",

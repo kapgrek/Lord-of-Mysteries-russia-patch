@@ -195,7 +195,7 @@ return {
     ["A dignified hairstyle is the first lesson upon arriving at a new home. Love and faith shine upon the children, making their souls pious and pure."] = "Достойная прическа – первый урок по приезду в новый дом. Любовь и вера сияют на детях, делая их души благочестивыми и чистыми.",
     ["Test for progress-bar item used on a specified target"] = "Проверка элемента индикатора выполнения, используемого для указанной цели",
     ["Magic Top Hat"] = "Волшебный цилиндр",
-    ["<Highlight>Craft: </>Battle Flag Brocade · Battle-Hardened Shoulder Armor\nThe battle-hardened warrior returns, and glory glimmers upon the cape."] = "<Highlight>Мастерство: </Highlight>Парча боевого знамени · Закаленные в боях наплечники\nВоин сотен битв возвращается домой, и слава сияет на его плаще.",
+    ["<Highlight>Craft: </>Battle Flag Brocade · Battle-Hardened Shoulder Armor\nThe battle-hardened warrior returns, and glory glimmers upon the cape."] = "<Highlight>Мастерство: </>Парча боевого знамени · Закаленные в боях наплечники\nВоин сотен битв возвращается домой, и слава сияет на его плаще.",
     ["Ask the Baroness for details of the case"] = "Расспросите баронессу о деталях дела.",
     ["Corrupted Dark Flames"] = "Испорченное темное пламя",
     ["Execute turn / rotation towards facing."] = "Выполните поворот/вращение лицом к лицу.",

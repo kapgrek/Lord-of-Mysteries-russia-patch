@@ -67,7 +67,7 @@ return {
     ["Sword Dance"] = "Танец с мечом",
     ["Chen Te"] = "Чен Тэ",
     ["Trade War Ranking"] = "Рейтинг торговой войны",
-    ["<DecH> Craft: </> Lacquered Leather \n The deep blue lacquer swallows all blade light, reflecting a cold, stern color only in the moment of turning, like a judgment, like an oath."] = "<DecH>Мастерство: </DecH>Лакированная кожа\nГлубокий синий глянец поглощает всякий отблеск клинка, лишь в миг разворота бросая холодный суровый отсвет — словно приговор, будто нерушимая клятва.",
+    ["<DecH> Craft: </> Lacquered Leather \n The deep blue lacquer swallows all blade light, reflecting a cold, stern color only in the moment of turning, like a judgment, like an oath."] = "<DecH>Мастерство: </>Лакированная кожа\nГлубокий синий глянец поглощает всякий отблеск клинка, лишь в миг разворота бросая холодный суровый отсвет — словно приговор, будто нерушимая клятва.",
     ["Delicate silver-stamping craftsmanship, elegant and noble, the perfect carrier for letters."] = "Изящное мастерство тиснения серебром, элегантное и благородное, идеальный носитель для писем.",
     ["Of course, life is hard, so one should look forward to good things."] = "Конечно, жизнь трудна, поэтому следует надеяться на хорошее.",
     ["Historical void"] = "Историческая пустота",

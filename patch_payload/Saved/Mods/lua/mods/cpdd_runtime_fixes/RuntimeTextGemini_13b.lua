@@ -206,7 +206,7 @@ return {
     ["You have so many different kinds of hats here, and they're all the same style as Gehrman's...?"] = "У вас здесь так много разных шляп, и все они одного стиля, как у Германа...?",
     ["Don't worry, we are just beggars, not vegetarians."] = "Не волнуйтесь, мы просто нищие, а не вегетарианцы.",
     ["Lester"] = "Лестер",
-    ["Use to obtain <Highlight> Serenade Hairstyle </> \n Can also be exchanged for <Highlight> 1 </> Divine Favor Cards"] = "Используйте, чтобы получить прическу <Highlight>«Серенада»</Highlight>.\nТакже можно обменять на <Highlight>1</Highlight> карту Божественной милости.",
+    ["Use to obtain <Highlight> Serenade Hairstyle </> \n Can also be exchanged for <Highlight> 1 </> Divine Favor Cards"] = "Используйте, чтобы получить прическу <Highlight>«Серенада»</>.\nТакже можно обменять на <Highlight>1</> карту Божественной милости.",
     ["Admired by Everyone"] = "Все восхищаются",
     ["The reinforcements from Backlund have arrived. The Captain told me to meet him in front of Chanis Gate."] = "Прибыло подкрепление из Баклунда. Капитан сказал мне встретиться с ним перед воротами Чанис.",
     ["Picnic Mat"] = "Коврик для пикника",

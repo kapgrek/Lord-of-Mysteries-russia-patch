@@ -187,7 +187,7 @@ return {
     ["Left side fire-breathing stealth monster"] = "Левосторонний огнедышащий стелс-монстр",
     ["Customer Buying Clothes"] = "Клиент покупает одежду",
     ["Area 6 Waypoint 1"] = "Зона 6. Маршрутная точка 1.",
-    ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Fashion Rating Cap</>\nAmong vehicles modified from the same vehicle template, only the vehicles with the top <Highlight>20</> Fashion Ratings will be counted towards the total appearance Fashion Rating."] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Лимит чувства стиля</Title>`nСреди автомобилей, модифицированных по одному шаблону, в общий зачет стиля внешнего вида идут лишь <Highlight>20</Highlight> лучших машин с наивысшим чувством стиля.",
+    ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Fashion Rating Cap</>\nAmong vehicles modified from the same vehicle template, only the vehicles with the top <Highlight>20</> Fashion Ratings will be counted towards the total appearance Fashion Rating."] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Лимит чувства стиля</>`nСреди автомобилей, модифицированных по одному шаблону, в общий зачет стиля внешнего вида идут лишь <Highlight>20</> лучших машин с наивысшим чувством стиля.",
     ["Luna's clothes slipped off, half-exposing her fragrant shoulders. The sheer curtains fluttered in the wind, obscuring the figure on the bed."] = "Одежда Луны соскользнула, полуобнажив ее благоухающие плечи. Полупрозрачные шторы развевались на ветру, скрывая фигуру на кровати.",
     ["Rift of the Lake of Chaos"] = "Разлом озера Хаоса",
     ["Shh—quiet, resistance is futile."] = "Тсс, тихо, сопротивление бесполезно.",
