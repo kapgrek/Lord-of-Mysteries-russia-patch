@@ -1136,6 +1136,15 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         report("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath .. " typeface=" .. tostring(typefaceName))
     end
 end
+
+pcall(function()
+    if slua and type(slua.loadObject) == "function" then
+        local aleoObj = slua.loadObject("/Game/Arts/UI_2/Resource/Font/Font_Aleo.Font_Aleo")
+        if aleoObj ~= nil then
+            runtimeFixes.registerFontCandidate(aleoObj, "Font_Aleo", "Slua_Preload")
+        end
+    end
+end)
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from
 -- downloaded localization data are normally treated as non-authoritative, but
 -- these overrides may safely win when the live value still matches one of the
@@ -2360,18 +2369,16 @@ local function translateTextWidget(widget, discoveryContext)
             -- STRICT UNIVERSAL RULE: Replace font object with StandardFontObject whenever known!
             -- Strictly eliminates Cinematic font across all UI widgets, scene text, task boards, and subtitles.
             if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                local widgetIsCinematic = isCinematicName or runtimeFixes.isCinematicFontObject(font.FontObject)
+                local fPath = ""
+                pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()):lower() end end)
+                local isRunic = fPath:find("mistery") or fPath:find("mystery") or fPath:find("theleon") or fPath:find("hermes")
                 local hasCyrillicText = (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
-                if hasCyrillicText or widgetIsCinematic then
-                    local fPath = ""
-                    pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()):lower() end end)
-                    local isRunic = fPath:find("mistery") or fPath:find("mystery") or fPath:find("theleon") or fPath:find("hermes")
-                    -- If widget has a stylized/runic font and NO Cyrillic text, preserve its decorative font!
-                    if not (isRunic and not hasCyrillicText) then
-                        font.FontObject = runtimeFixes.StandardFontObject
-                        if runtimeFixes.StandardTypefaceFontName ~= nil then
-                            font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                        end
+                -- Only preserve decorative/runic Hermes fonts if the widget strictly has non-Cyrillic text.
+                -- All other UI widgets receive StandardFontObject immediately so the old font does not return.
+                if not (isRunic and not hasCyrillicText) then
+                    font.FontObject = runtimeFixes.StandardFontObject
+                    if runtimeFixes.StandardTypefaceFontName ~= nil then
+                        font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
                     end
                 end
             end
@@ -2459,30 +2466,6 @@ local function translateTextWidget(widget, discoveryContext)
             end)
         end
         if style ~= nil and style.Font ~= nil then
-            local oldLs = style.Font.LetterSpacing
-            pcall(function()
-                if runtimeFixes.StandardFontObject ~= nil then
-                    style.Font.FontObject = runtimeFixes.StandardFontObject
-                    if runtimeFixes.StandardTypefaceFontName ~= nil then
-                        style.Font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                    end
-                end
-                style.Font.LetterSpacing = 0
-                local sSize = runtimeFixes.getAdjustedFontSize(widget, style.Font.Size, wName, isEscLocked)
-                style.Font.Size = sSize
-                if widget.bOverrideDefaultStyle ~= nil then
-                    widget.bOverrideDefaultStyle = true
-                end
-                if widget.SetDefaultTextStyleOverride ~= nil then
-                    widget:SetDefaultTextStyleOverride(style)
-                else
-                    widget.DefaultTextStyleOverride = style
-                end
-                if wName:find("task") or wName:find("desc") or wName:find("target") then
-                    local fName = style.Font.FontObject and tostring(style.Font.FontObject:GetPathName()) or "nil"
-                    report(">>> APPLIED_STANDARD_TO_RICHTEXT: widget=" .. tostring(wName) .. " font=" .. fName .. " size=" .. tostring(style.Font.Size))
-                end
-            end)
             if style.Font.FontObject ~= nil then
                 if isCinematicName or runtimeFixes.isCinematicFontObject(style.Font.FontObject) then
                     if runtimeFixes.CinematicFontObject == nil then
