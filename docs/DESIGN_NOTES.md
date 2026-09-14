@@ -63,43 +63,71 @@
 
 ### 4. Технические нюансы и вызовы реализации
 
-1. **Идентификация внутренних путей шрифтов в UE5**:
-   * В ресурсах игры (архивы `pakchunk0` / IoStore-контейнеры `.ucas`/`.utoc`) шрифты хранятся по строгим виртуальным путям (например: `/Game/UI/Fonts/F_Book_Song.uasset` или `/Game/Slate/Fonts/CinematicSerif.uasset`).
-   * Необходим дамп списка ассетов шрифтов игры через FModel, UnrealPak или ZenTools для выявления точного имени ассета и его виртуального пути монтирования.
-2. **Специфика ассетов шрифтов Unreal Engine 5 (`CompositeFont`)**:
-   * В UE5 шрифт интерфейса — это не голый `.ttf`/`.otf` файл, а сериализованный объект `UFont`, содержащий `CompositeFont`:
-     * Главный шрифт (Typeface / Fallback).
+1. **Главная техническая загвоздка (.ttf vs .uasset)**:
+   * В Unreal Engine 5 нельзя просто взять сырой файл шрифта (`font.ttf` или `font.otf`), упаковать его в архив и переименовать в `.pak`.
+   * Движок принимает **только скомпилированные бинарные ассеты `.uasset`** (`CompositeFont`).
+   * Внутри `.uasset` зашиты: бинарная таблица сериализации UE5, указатели на движковые классы (Reflection / UClass), таблица импорта/экспорта (Package Summary) и кэш глифов под конкретную версию движка.
+   * Сгенерировать валидный бинарник `.uasset` без установленного Unreal Engine 5 технически невозможно — это эквивалентно попытке скомпилировать исполняемый файл `.exe` без компилятора.
+2. **Точные виртуальные пути ассетов в игре**:
+   * В ресурсах игры (архивы `pakchunk0` / IoStore) сюжетные и стилизованные шрифты расположены по путям:
+     * `/Game/Arts/UI_2/Resource/Font/Font_Mistery`
+     * `/Game/Arts/UI_2/Resource/Font/Font_Aleo`
+3. **Структура ассета `CompositeFont` в Unreal Engine 5**:
+   * В UE5 шрифт интерфейса — это составной композит (`CompositeFont`):
+     * Главный шрифт (Typeface / Fallback для CJK).
      * Суб-шрифты (Sub-Typefaces) с распределением по диапазонам Unicode: Basic Latin (`0020-007F`), Cyrillic (`0400-04FF`), CJK Unified Ideographs (`4E00-9FFF`).
      * Параметры масштабирования (Scaling), интерлиньяжа и базовой линии.
-   * Для корректной сборки такого ассета требуется создание минимального проекта в Unreal Editor соответствующей версии UE (ориентировочно UE 5.1–5.3), настройка Composite Font с кириллическим шрифтом и последующий Cook для Windows.
-3. **Приоритет монтирования в Unreal Engine (PAK Patching / `_P`)**:
-   * Для переопределения оригинального ассета модовый PAK должен иметь более высокий приоритет монтирования (суффикс `_P` в имени файла, либо размещение в подпапке `Content/Paks/~mods/`).
-4. **Устойчивость к патчам разработчиков**:
-   * Если разработчики игры меняют структуру контейнеров IoStore или заменяют ссылки на ассеты в UMG, PAK-мод может потребовать синхронизации смещений или пересборки.
+4. **Приоритет монтирования в Unreal Engine (PAK Patching / `_P`)**:
+   * Для гарантированного переопределения оригинального ассета модовый архив именуется с суффиксом патча: **`pakchunk99-RussianFonts_P.pak`** и помещается в поддиректорию модов движка: `Content/Paks/~mods/`.
 
 ---
 
-### 5. Пошаговый план реализации (Action Plan)
+### 5. Пошаговый пайплайн сборки PAK-мода (Workflow)
 
-1. **Исследование ассетов (Asset Extraction & Inspection)**:
-   * [ ] Сдампить список всех ассетов типа `Font` и `CompositeFont` из `pakchunk0` / IoStore с помощью утилиты FModel.
-   * [ ] Определить, какой конкретно ассет назначен виджетам `RTB_Aside1_lua`, `Border_Panel`, `Text_ChapterName`, `Text_TaskDesc1`.
-   * [ ] Экспортировать оригинальный JSON/свойства ассета для анализа структуры sub-typefaces.
-2. **Выбор и подготовка гарнитуры (Typeface Selection & Licensing)**:
-   * [ ] Подобрать шрифт с открытой лицензией (OFL / Apache 2.0), гармонирующий с оригинальным стилем игры (кандидаты: *Spectral*, *PT Serif*, *Cormorant Garamond*).
-   * [ ] Проверить полный состав знаков: расширенная кириллица, знаки препинания, кавычки-«елочки», тире, апострофы.
-3. **Сборка Composite Font в Unreal Editor**:
-   * [ ] Создать ассет `CompositeFont` с идентичным внутренним именем и путем.
-   * [ ] Настроить Fallback на оригинальный CJK для китайских иероглифов, а для диапазона `0400-04FF` (Cyrillic) и `0020-007F` (Latin) назначить подготовленный литературный шрифт.
-   * [ ] Скомпилировать (Cook Content for Windows) ассет.
-4. **Упаковка PAK-файла**:
-   * [ ] Собрать `.pak` с правильной относительной структурой каталогов (`Engine/Binaries/Win64/UnrealPak.exe`).
-   * [ ] Проверить монтирование через директорию `Content/Paks/~mods/`.
-5. **Интеграция с установщиком и CI**:
-   * [ ] Добавить `.pak` в `patch_payload/Paks/~mods/`.
-   * [ ] Добавить в `installer/Lord-of-Mysteries-Russian-Patch.ps1` и `installer/PatcherEngine.cs` копирование модового PAK при установке и корректное удаление при деинсталляции/откате.
-   * [ ] Обновить скрипт сборки релиза `PackageRelease.ps1`.
-   * [ ] Провести регрессионное тестирование на всех сюжетных экранах и синематиках.
+Для создания рабочего PAK-мода сборка ассета выполняется один раз на рабочей станции с установленным **Unreal Engine 5 (версии 5.1–5.3)**:
+
+```
+[Шрифт TTF/OTF (Spectral / PT Serif)]
+                 │
+                 ▼ (Импорт в Unreal Editor 5.1-5.3)
+[Настройка CompositeFont] ──> Пути: /Game/Arts/UI_2/Resource/Font/Font_Mistery
+                 │                   /Game/Arts/UI_2/Resource/Font/Font_Aleo
+                 ▼ (File -> Cook Content for Windows)
+[Скомпилированные .uasset / .ubulk]
+                 │
+                 ▼ (Упаковка через UnrealPak.exe)
+[pakchunk99-RussianFonts_P.pak] (~2-4 МБ)
+                 │
+                 ▼ (Коммит в git-репозиторий проекта)
+[patch_payload/Paks/~mods/pakchunk99-RussianFonts_P.pak]
+```
+
+#### Детальные шаги сборки:
+1. **Подготовка проекта в UE Editor**:
+   * Создать чистый пустой проект (Blank C++ или Blueprint) в Unreal Engine 5 соответствующей версии.
+   * Воссоздать точную структуру каталогов в `Content`: `Arts/UI_2/Resource/Font/`.
+2. **Импорт и настройка CompositeFont**:
+   * Импортировать открытый литературный шрифт с засечками (например, **PT Serif** или **Spectral**).
+   * Создать ассеты типа `Font` (CompositeFont) с точными именами: `Font_Mistery` и `Font_Aleo`.
+   * В настройках CompositeFont связать диапазон `0400-04FF` (Cyrillic) и `0020-007F` (Latin) с импортированным шрифтом, а для CJK оставить корректный fallback.
+3. **Кукинг (Cook)**:
+   * В редакторе выполнить: `File` $\rightarrow$ `Cook Content for Windows` (или запустить `RunUAT.bat BuildCookRun`).
+   * Забрать скомпилированные файлы из папки проекта `Saved/Cooked/Windows/<ProjectName>/Content/Arts/UI_2/Resource/Font/`.
+4. **Упаковка через UnrealPak**:
+   * Подготовить список файлов `response_file.txt`, сопоставляющий локальные пути с виртуальными путями в PAK:
+     ```text
+     "...\Content\Arts\UI_2\Resource\Font\Font_Mistery.uasset" "../../../<ProjectName>/Content/Arts/UI_2/Resource/Font/Font_Mistery.uasset"
+     "...\Content\Arts\UI_2\Resource\Font\Font_Aleo.uasset" "../../../<ProjectName>/Content/Arts/UI_2/Resource/Font/Font_Aleo.uasset"
+     ```
+   * Собрать архив утилитой движка:
+     ```cmd
+     UnrealPak.exe pakchunk99-RussianFonts_P.pak -create=response_file.txt
+     ```
+5. **Интеграция в репозиторий и установщик**:
+   * Поместить готовый `pakchunk99-RussianFonts_P.pak` в репозиторий по пути:
+     `patch_payload/Paks/~mods/pakchunk99-RussianFonts_P.pak`.
+   * Добавить в `installer/Lord-of-Mysteries-Russian-Patch.ps1` и `installer/PatcherEngine.cs` копирование папки `Paks/~mods/` в игровую директорию при установке и очистку при удалении.
+   * Обновить проверочный скрипт `tools/VerifyPatch.ps1` и упаковщик релиза `PackageRelease.ps1`.
 
 ---
 
