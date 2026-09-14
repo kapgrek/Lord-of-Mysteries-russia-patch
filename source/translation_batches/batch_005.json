@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "020000",
     "source_cn": "聊天+1功能最低角色等级，0=不限制",
@@ -1131,7 +1131,7 @@
     "id": "020188",
     "source_cn": "在这里，#CanMove工作#永无止境。",
     "ref_en": "Here, #CanMove work # is never-ending.",
-    "target_ru": "Здесь работа #CanMove# никогда не заканчивается."
+    "target_ru": "Здесь #CanMoveработа# никогда не заканчивается."
   },
   {
     "id": "020189",
@@ -21909,7 +21909,7 @@
     "id": "023651",
     "source_cn": "吊灯在#CanMove旋转#",
     "ref_en": "The chandelier is #CanMove rotating #",
-    "target_ru": "Люстра вращается в #CanMove#"
+    "target_ru": "Люстра #CanMoveвращается#"
   },
   {
     "id": "023652",

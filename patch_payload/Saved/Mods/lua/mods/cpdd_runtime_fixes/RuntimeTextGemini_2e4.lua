@@ -64,7 +64,6 @@ return {
     ["Fund cap increased to %d"] = "Ограничение фонда увеличено до %d",
     ["Take a look with spirit vision"] = "Взгляните духовным зрением",
     ["Defeat Sylvia"] = "Победить Сильвию",
-    ["[UIFrame : NewUIManager] Request to close interface"] = "[UIFrame : NewUIManager] Запрос на закрытие интерфейса",
     ["Spatial Rift Effect"] = "Эффект пространственного разлома",
     ["The Moon - Upright"] = "Луна – Вертикальная",
     ["Now... it's time to make a choice."] = "Теперь... пришло время сделать выбор.",

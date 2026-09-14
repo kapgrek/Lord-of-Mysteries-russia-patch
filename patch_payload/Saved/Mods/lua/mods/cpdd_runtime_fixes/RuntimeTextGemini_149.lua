@@ -211,7 +211,7 @@ return {
     ["Turn back to the confessional"] = "Вернитесь в исповедальню",
     ["Don't know where I am"] = "Не знаю, где я",
     ["Text information text information text information text information text information text information text information"] = "Текстовая информация Текстовая информация Текстовая информация Текстовая информация Текстовая информация Текстовая информация Текстовая информация",
-    ["<Assistant_Title1>Hard · Viscountess</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Defeat Viscountess on Hard difficulty"] = "【Мастер Марионеток】",
+    ["<Assistant_Title1>Hard · Viscountess</>\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\n<Assistant_Title2>Unlock Condition: </>Defeat Viscountess on Hard difficulty"] = "<Assistant_Title1>Сложно · Виконтесса</>\n<Assistant_Title2>Категория достижения: </>Приключение — Групповое подземелье\n<Assistant_Title2>Условие открытия: </>Победите Виконтессу на высоком уровне сложности",
     ["Patricia"] = "Патрисия",
     ["Daily manual refresh limit reached."] = "Достигнут предел ежедневного обновления вручную.",
     ["Honor·Blade of Guard"] = "Честь·Клинок стража",

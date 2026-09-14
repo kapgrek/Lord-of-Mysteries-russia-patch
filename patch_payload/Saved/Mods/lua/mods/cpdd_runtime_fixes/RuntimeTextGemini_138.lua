@@ -234,7 +234,7 @@ return {
     ["After use, you can advance to Sequence 8: Clown potion, which contains mysterious power."] = "После использования вы можете перейти к Последовательности 8: Клоунское зелье, содержащее таинственную силу.",
     ["This land was stolen—"] = "Эту землю украли…",
     ["Want to try something new? Dixi Dew, Sonia Style, or Taro Boba?"] = "Хотите попробовать что-то новое? Дикси Дью, Соня Стайл или Таро Боба?",
-    ["<DecH>Craftsmanship: </>Gilded Embellishments · Hymn Ceremonial Dress\nThe hem of the morning prayer's robe is stained with dew and light; every step taken on the tail end of the hymn chants the tranquility of the sanctuary into a walking poem."] = "【Мастер Марионеток】",
+    ["<DecH>Craftsmanship: </>Gilded Embellishments · Hymn Ceremonial Dress\nThe hem of the morning prayer's robe is stained with dew and light; every step taken on the tail end of the hymn chants the tranquility of the sanctuary into a walking poem."] = "<DecH>Мастерство: </>Позолоченные украшения · Торжественное облачение гимна\nПодол мантии утреннего молитвенника окроплен росой и светом; каждый шаг в такт затихающему гимну воспевает безмятежность святилища, обращая ее в живую поэму.",
     ["Drink it"] = "Выпей это",
     ["Chenglin"] = "Чэнлинь",
     ["Warrior Level 45 Orange Equipment Stats (Stable Attack)"] = "Характеристики оранжевого снаряжения воина 45-го уровня (стабильная атака)",

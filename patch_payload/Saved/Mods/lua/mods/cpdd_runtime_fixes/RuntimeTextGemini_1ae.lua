@@ -204,7 +204,7 @@ return {
     ["Scheme %s"] = "Схема %s",
     ["Bamboo's NPC Vision Template - 2 Meters"] = "Шаблон видения NPC Бамбука — 2 метра",
     ["No, no, no, this kind of thing shouldn't be sold anymore, it should be poured down the toilet!"] = "Нет-нет-нет, такие вещи больше нельзя продавать, их надо в унитаз выливать!",
-    ["<DecH>Craftsmanship: </>Azure Cape\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "Хотя он уже увял, в нем все еще сохраняются слабые свойства глубокого сна, однако его необходимо использовать до того, как он окончательно засохнет.",
+    ["<DecH>Craftsmanship: </>Azure Cape\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "<DecH>Мастерство: </>Лазурный плащ\nПервый утренний луч солнца пробивается сквозь туман, падая на распустившиеся розы и ландыши.",
     ["Which pathway should I choose?"] = "Какой путь мне выбрать?",
     ["She... she said Blackthorn always reminds her of her brother, so she didn't come in."] = "Она... она сказала, что Чёрный Чертополох всегда напоминает ей о брате, поэтому не вошла.",
     ["Then I guess I'll just have to wait..."] = "Тогда, думаю, мне придется подождать...",

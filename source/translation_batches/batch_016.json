@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "075000",
     "source_cn": "这片土地是被偷走的——",
@@ -4719,7 +4719,7 @@
     "id": "075786",
     "source_cn": "打开可随机获得一件<Highlight>55装等</>的金色和紫色品质装备，以及可在<Highlight>交易集市</>兑换<Highlight>可交易物装等</>的交易之契，<Highlight>可交易</>金纺线、非凡物质、药品食物等。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Open to randomly receive one piece of gold or purple quality Equipment with <Highlight>Item Level 55</>, as well as a Trading Contract that can be exchanged in the <Highlight>Trading Market</> for <Highlight>tradable items of the corresponding Item Level</>, <Highlight>tradable</> Gold Thread, Beyonder materials, medicine, food, etc. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "Ведьма"
+    "target_ru": "Откройте, чтобы случайным образом получить один предмет золотого или фиолетового снаряжения с <Highlight>55-м уровнем экипировки</>, а также Торговый договор, который можно обменять на <Highlight>Рынке</> на <Highlight>торгуемые предметы соответствующего уровня экипировки</>, <Highlight>торгуемые</> золотые нити, потусторонние материалы, лекарства, еду и т. д.\\n\\n<Highlight>Лимит преобразования</>: можно преобразовать максимум в <Highlight>10</> сокровищ; при превышении лимита они будут <Highlight>сохраняться автоматически</>, а после открытия сокровищ нового уровня экипировки <Highlight>преобразуются в новые сокровища</>."
   },
   {
     "id": "075787",
@@ -5121,13 +5121,13 @@
     "id": "075853",
     "source_cn": "<Assistant_Title1>繁花诗人</>\\n<Assistant_Title2>成就分类：</>跑团-秩序世界\\n<Assistant_Title2>解锁条件：</>霍纳奇斯花海秩序世界完成度到达100%",
     "ref_en": "<Assistant_Title1>Flower Poet</>\\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\\n<Assistant_Title2>Unlock Condition: </>Reach 100% completion in the Hornacis Sea of Flowers Order World",
-    "target_ru": "Путь 【Ведьмы】"
+    "target_ru": "<Assistant_Title1>Цветочный поэт</>\\n<Assistant_Title2>Категория достижения: </>НРИ-Мир Порядка\\n<Assistant_Title2>Условие открытия: </>Достигнуть 100% прохождения в Мире Порядка Моря Цветов Хорнакис"
   },
   {
     "id": "075854",
     "source_cn": "<DecH>工艺：</>鎏金缀饰・圣咏礼装\\n晨祷者的衣角沾着露水和光线，每一步踏在颂歌的尾音上，将圣殿的宁静吟诵成行走的诗篇。",
     "ref_en": "<DecH>Craftsmanship: </>Gilded Embellishments · Hymn Ceremonial Dress\\nThe hem of the morning prayer's robe is stained with dew and light; every step taken on the tail end of the hymn chants the tranquility of the sanctuary into a walking poem.",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "<DecH>Мастерство: </>Позолоченные украшения · Торжественное облачение гимна\\nПодол мантии утреннего молитвенника окроплен росой и светом; каждый шаг в такт затихающему гимну воспевает безмятежность святилища, обращая ее в живую поэму."
   },
   {
     "id": "075855",
@@ -5157,7 +5157,7 @@
     "id": "075859",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>高原竞逐战场时间</>\\n非势力战周：周三、周六晚19:00 – 20:30开启报名，20:45 – 21:15开启战场；\\n<Highlight>势力战当周：周三晚19:00 – 20:30开启报名，20:45 – 21:15开启战场；</>",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Highland Competition Battleground Schedule</>\\nNon-Faction War Weeks: Registration opens Wednesday and Saturday from 19:00 – 20:30; the battleground opens from 20:45 – 21:15.\\n<Highlight>Faction War Weeks: Registration opens Wednesday from 19:00 – 20:30; the battleground opens from 20:45 – 21:15.</>",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расписание поля боя «Битва нагорья»</>\\nНедели без войны фракций: регистрация открыта в среду и субботу с 19:00 до 20:30; поле боя открыто с 20:45 до 21:15.\\n<Highlight>Недели войны фракций: регистрация открыта в среду с 19:00 до 20:30; поле боя открыто с 20:45 до 21:15.</>"
   },
   {
     "id": "075860",
@@ -5829,13 +5829,13 @@
     "id": "075971",
     "source_cn": "<Assistant_Title1>【奴役之瓶】</>\\n<Assistant_Title2>描述：</>战令奖励饰品\\n<Assistant_Title2>使用：</>使用后获得奴役之瓶，可点击<Assistant_System>外观-换装</>查看并使用。\\n<Assistant_Title2>获取：</>战令解锁",
     "ref_en": "<Assistant_Title1>【Bottle of Enslavement】</>\\n<Assistant_Title2>Description: </>Battle Pass reward accessory\\n<Assistant_Title2>Use: </>Use to obtain Bottle of Enslavement. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\\n<Assistant_Title2>Acquisition: </>Unlocked via Battle Pass",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "<Assistant_Title1>【Бутыль порабощения】</>\\n<Assistant_Title2>Описание: </>Украшение в награду за боевой пропуск\\n<Assistant_Title2>Использование: </>Используйте, чтобы получить «Бутыль порабощения». Можно просмотреть и надеть в меню <Assistant_System>Облик — Гардероб</>.\\n<Assistant_Title2>Получение: </>Открывается в боевом пропуске"
   },
   {
     "id": "075972",
     "source_cn": "<Assistant_Title1>困难·子爵夫人</>\\n<Assistant_Title2>成就分类：</>冒险-团队副本\\n<Assistant_Title2>解锁条件：</>击杀困难难度子爵夫人",
     "ref_en": "<Assistant_Title1>Hard · Viscountess</>\\n<Assistant_Title2>Achievement Category: </>Adventure - Team Dungeon\\n<Assistant_Title2>Unlock Condition: </>Defeat Viscountess on Hard difficulty",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "<Assistant_Title1>Сложно · Виконтесса</>\\n<Assistant_Title2>Категория достижения: </>Приключение — Групповое подземелье\\n<Assistant_Title2>Условие открытия: </>Победите Виконтессу на высоком уровне сложности"
   },
   {
     "id": "075973",
@@ -5847,7 +5847,7 @@
     "id": "075974",
     "source_cn": "<DecH>工艺：</>网纱衬里・灵质链饰\\n“我会回忆起那些我们携手探寻过的梦境，回忆起曾困扰我们的每一个非凡案件或封印物，回忆起风吹的方向，还有月亮的形状和颜色。”",
     "ref_en": "<DecH> Craft: </> Mesh Lining · Spirit-quality Chain Ornament \\n \"I will recall those dreams we explored together, recall every Beyonder case or Sealed Artifact that once troubled us, recall the direction of the wind, and the shape and color of the moon.\"",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "<DecH>Мастерство: </>Сетчатая подкладка · Украшение из духовных цепей\\n«Я вспомню те сны, что мы исследовали вместе, вспомню каждое дело Потусторонних или Запечатанный артефакт, тревоживший нас, вспомню направление ветра, а также форму и цвет луны»."
   },
   {
     "id": "075975",
@@ -7233,13 +7233,13 @@
     "id": "076205",
     "source_cn": "<DecH>工艺：</>湛蓝披风\\n清晨的第一缕阳光穿透薄雾，落在初绽的玫瑰与铃兰之上。",
     "ref_en": "<DecH>Craftsmanship: </>Azure Cape\\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley.",
-    "target_ru": "Хотя он уже увял, в нем все еще сохраняются слабые свойства глубокого сна, однако его необходимо использовать до того, как он окончательно засохнет."
+    "target_ru": "<DecH>Мастерство: </>Лазурный плащ\\nПервый утренний луч солнца пробивается сквозь туман, падая на распустившиеся розы и ландыши."
   },
   {
     "id": "076206",
     "source_cn": "<DecH>工艺：</>猩红织锦・荆棘骨刺\\n黑夜与猩红是缠绕在血族恒长生命上的荆棘，危险、 美丽，并使人刺痛不已。",
     "ref_en": "<DecH>Craft: </>Scarlet Brocade & Thorn Bone Spikes\\nNight and scarlet are the thorns entwined around the eternal life of the vampires—dangerous, beautiful, and painfully piercing.",
-    "target_ru": "Эти лепестки источают умиротворяющий и успокаивающий аромат. За долгое время они лишились влаги и приобрели темно-фиолетовый оттенок."
+    "target_ru": "<DecH>Мастерство: </>Алая парча · Шипы из кости терновника\\nНочь и алый цвет — это тернии, обвивающие вечную жизнь вампиров: опасные, прекрасные и причиняющие пронзительную боль."
   },
   {
     "id": "076207",

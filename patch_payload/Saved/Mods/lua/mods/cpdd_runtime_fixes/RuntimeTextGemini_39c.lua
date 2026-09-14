@@ -61,7 +61,7 @@ return {
     ["Pathway Skill 1"] = "Навык пути b",
     ["I, I understand, ma'am... I'm willing to do anything!"] = "Я, я понимаю, мэм... Я готов на все!",
     ["Sinful Backlund"] = "Грешный Бэкланд",
-    ["<DecH> Craft: </> Mesh Lining · Spirit-quality Chain Ornament \n \"I will recall those dreams we explored together, recall every Beyonder case or Sealed Artifact that once troubled us, recall the direction of the wind, and the shape and color of the moon.\""] = "【Мастер Марионеток】",
+    ["<DecH> Craft: </> Mesh Lining · Spirit-quality Chain Ornament \n \"I will recall those dreams we explored together, recall every Beyonder case or Sealed Artifact that once troubled us, recall the direction of the wind, and the shape and color of the moon.\""] = "<DecH>Мастерство: </>Сетчатая подкладка · Украшение из духовных цепей\n«Я вспомню те сны, что мы исследовали вместе, вспомню каждое дело Потусторонних или Запечатанный артефакт, тревоживший нас, вспомню направление ветра, а также форму и цвет луны».",
     ["You're not bad yourself."] = "Ты сам не плохой.",
     ["Manor Hound"] = "Поместная гончая",
     ["Animation State ID"] = "Идентификатор состояния анимации",

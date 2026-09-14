@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "055000",
     "source_cn": "<P_Heart>印象里应该是这么做没错......要多加味精才够鲜......</>",
@@ -4083,7 +4083,7 @@
     "id": "055680",
     "source_cn": "<Highlight_L>宣战捷报</>：我方俱乐部成员<HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</>已在<HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[霍纳奇斯山脉(%d,%d) 分线%s]</>成功击败<Reminder_Red>[%s]</>俱乐部的<HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</>并获得宣战积分%s分！点击前往追击！",
     "ref_en": "<Highlight_L> War Bulletin </>: Our club member <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> has successfully defeated <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</> of the <Reminder_Red>[%s]</> club at <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Hornacis Mountain Range (%d, %d) Sub-channel %s]</> and gained %s war points! Click to pursue!",
-    "target_ru": "<Highlight_L>Сводка войны</Highlight_L>: Член нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</HyperLink> успешно одолел участника <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</HyperLink> клуба <Reminder_Red>[%s]</Reminder_Red> в локации <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Хребет Хорнакис (%d,%d), ветка %s]</HyperLink> и принес очков войны: %s! Нажмите для погони!"
+    "target_ru": "<Highlight_L>Сводка войны</Highlight_L>: Член нашего клуба <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</HyperLink> в локации <HyperLink stylename=\"Chat_Hyperlink\" u=\"pvlhpos=%s,%s,%s,%s\">[Хребет Хорнакис (%d,%d), ветка %s]</HyperLink> успешно одолел участника из клуба <Reminder_Red>[%s]</Reminder_Red> — <HyperLink stylename=\"Enemy_Name\" u=\"role=%s\">[%s]</HyperLink> — и заработал очков войны: %s! Нажмите для погони!"
   },
   {
     "id": "055681",
@@ -14253,7 +14253,7 @@
     "id": "057375",
     "source_cn": "[UIFrame : NewUIManager] 请求关闭界面",
     "ref_en": "[UIFrame : NewUIManager] Request to close interface",
-    "target_ru": "[UIFrame : NewUIManager] Запрос на закрытие интерфейса"
+    "target_ru": "[UIFrame : NewUIManager] Request to close interface"
   },
   {
     "id": "057376",

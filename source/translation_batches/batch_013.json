@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "060000",
     "source_cn": "打开后可获得<Highlight>240</>个聚合因子。",
@@ -10797,7 +10797,7 @@
     "id": "061799",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n在本次势力战中，决胜战场的<M_Orange>%s</>代表的<M_Orange>%s</>势力获得了完胜，给本战区所有该势力的参与玩家发放如下奖励，请查收",
     "ref_en": "<M_Default>Dear Beyonder:</>\\nIn this faction war, the <M_Orange>%s</> faction represented by <M_Orange>%s</> on the decisive battlefield has achieved a complete victory. The following rewards are issued to all participating players of this faction in this war zone. Please check them.",
-    "target_ru": "Уважаемый Потусторонний!\nВ завершившейся битве фракция <M_Orange>%s</M_Orange>, представляемая <M_Orange>%s</M_Orange> на решающем поле боя, одержала безоговорочную победу! Всем бойцам этой фракции в нашей боевой зоне полагается заслуженная награда — заберите свои трофеи."
+    "target_ru": "<M_Default>Уважаемый Потусторонний:</>\\nВ этой войне фракций представитель <M_Orange>%s</> и его фракция <M_Orange>%s</> одержали полную победу на решающем поле боя. Всем участвовавшим игрокам этой фракции в данной военной зоне высланы следующие награды, пожалуйста, заберите их."
   },
   {
     "id": "061800",

@@ -180,7 +180,7 @@ return {
     ["Check failed"] = "Проверка не удалась",
     ["Liked %d/30 contestants in Phantom of the Opera."] = "Понравились участники %d/30 в «Призраке оперы».",
     ["Jenkinson"] = "Дженкинсон",
-    ["<Assistant_Title1>【Bottle of Enslavement】</>\n<Assistant_Title2>Description: </>Battle Pass reward accessory\n<Assistant_Title2>Use: </>Use to obtain Bottle of Enslavement. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\n<Assistant_Title2>Acquisition: </>Unlocked via Battle Pass"] = "【Мастер Марионеток】",
+    ["<Assistant_Title1>【Bottle of Enslavement】</>\n<Assistant_Title2>Description: </>Battle Pass reward accessory\n<Assistant_Title2>Use: </>Use to obtain Bottle of Enslavement. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\n<Assistant_Title2>Acquisition: </>Unlocked via Battle Pass"] = "<Assistant_Title1>【Бутыль порабощения】</>\n<Assistant_Title2>Описание: </>Украшение в награду за боевой пропуск\n<Assistant_Title2>Использование: </>Используйте, чтобы получить «Бутыль порабощения». Можно просмотреть и надеть в меню <Assistant_System>Облик — Гардероб</>.\n<Assistant_Title2>Получение: </>Открывается в боевом пропуске",
     ["Wall Cabinet · Kitchen 1"] = "Навесной шкаф · Кухня 1",
     ["Unlock all systems, add buffs, adjust skills, reach level 57 of CBT2."] = "Разблокируйте все системы, добавьте бафы, настройте навыки, достигните 57 уровня ЗБТ2.",
     ["[Final Hunt] - Dragon - Projection - Left/Right Sweep 1"] = "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо b",

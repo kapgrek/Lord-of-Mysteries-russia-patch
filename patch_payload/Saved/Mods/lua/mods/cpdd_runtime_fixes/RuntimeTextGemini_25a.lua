@@ -29,7 +29,7 @@ return {
     ["Internal Information - Final Monologue"] = "Внутренние материалы — Последний монолог",
     ["First meeting with Rozanne"] = "Первая встреча с Розанной",
     ["Angel "] = "Анджел ",
-    ["Here, #CanMove work # is never-ending."] = "Здесь работа #CanMove# никогда не заканчивается.",
+    ["Here, #CanMove work # is never-ending."] = "Здесь #CanMoveработа# никогда не заканчивается.",
     ["Gain 1 Dusk Mark every 2 seconds."] = "Получает 1 сумеречную метку каждые 2 секунды.",
     ["Glory belongs to all the brave!"] = "Слава принадлежит всем храбрецам!",
     ["Passerby 4"] = "Прохожий b",

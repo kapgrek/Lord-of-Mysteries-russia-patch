@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "070000",
     "source_cn": "干得漂亮！核心污染已被清除，这个空间稳定了。",
@@ -6867,7 +6867,7 @@
     "id": "071144",
     "source_cn": "\\n为确保游客的人身安全，采摘期间，请务必遵守以下规则。\\n1.苹果是一种圆形的红色水果，表皮光滑，口感甜脆。请不要采摘苹果之外的东西。\\n2.如果你看见苹果上长出稻谷，请立即远离，并寻找看守人员。\\n<Delete id=\"#158\">3.长出小麦是正常的，请放心品尝。</>\\n4.请注意，苹果不会长出任何人体组织。\\n5.如果你服用了长出稻谷或器官的苹果，不要尝试呕吐，请立即寻找看守人员。\\n6.本告示共有五条。\\n0.欢迎大家前来湖心岛果园品尝苹果！",
     "ref_en": "\\nTo ensure the personal safety of tourists, please strictly follow the rules below during picking.\\n1. An apple is a round red fruit with smooth skin and a sweet and crisp taste. Please do not pick anything other than apples.\\n2. If you see rice growing on an apple, please stay away immediately and find the security personnel.\\n<Delete id=\"#158\">3. It is normal for wheat to grow, please feel free to taste it.</>\\n4. Please note that apples will not grow any human tissue.\\n5. If you have consumed an apple with rice or organs growing on it, do not try to vomit, please find the security personnel immediately.\\n6. This notice has five items.\\n0. Welcome everyone to come to the Lake Island Orchard to taste apples!",
-    "target_ru": "\\nВ целях обеспечения личной безопасности посетителей во время сбора урожая просим строго соблюдать следующие правила:\\n1. Яблоко — круглый плод красного цвета с гладкой кожицей и сладким хрустящим вкусом. Пожалуйста, не собирайте ничего, кроме яблок.\\n2. Если вы заметите, что на яблоке растут рисовые колосья, немедленно отойдите подальше и позовите смотрителя.\\n<Delete id=\\"
+    "target_ru": "\\nВ целях обеспечения личной безопасности посетителей во время сбора урожая просим строго соблюдать следующие правила:\\n1. Яблоко — круглый плод красного цвета с гладкой кожицей и сладким хрустящим вкусом. Пожалуйста, не собирайте ничего, кроме яблок.\\n2. Если вы заметите, что на яблоке растут рисовые колосья, немедленно отойдите подальше и найдите смотрителя.\\n<Delete id=\"#158\">3. Прорастание пшеницы — это нормально, можете спокойно пробовать на вкус.</>\\n4. Обратите внимание: на яблоках ни в коем случае не растут человеческие ткани.\\n5. Если вы съели яблоко, на котором росли рисовые колосья или органы, не пытайтесь вызвать рвоту, немедленно найдите смотрителя.\\n6. В этом объявлении всего пять пунктов.\\n0. Приглашаем всех в сад на Озёрном острове отведать яблок!"
   },
   {
     "id": "071145",
@@ -7731,7 +7731,7 @@
     "id": "071288",
     "source_cn": "<M_Red>「完整填写问卷，将获得200绑定金镑！」</>\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">公测调研问卷1</>\\n亲爱的非凡者：\\n      欢迎您来到这片交织隐秘与启示的世界，愿灵性为您指引前路。\\n      尽管这是初次步入此间，但您或许已经对眼前徐徐展开的世界有了独特的感知与构想。我们始终以敬畏之心观察并记录着一切——您在此间每一瞬的所见、所思与所感，在我们看来皆是珍贵的启示。在此，我们诚邀您通过信件中的隐秘通道，向我们传达您的想法。\\n      感谢您为这世界带来的改变。祝愿您早日消化魔药，掌控非凡。",
     "ref_en": "<M_Red>「Complete the questionnaire and receive 200 Bound Pounds!」</>\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Public Beta Survey 1</>\\nDear Beyonder:\\n      Welcome to this world intertwined with secrets and revelations. May your spirituality guide your path. \\n      Although this is your first time stepping into this place, you may already have unique perceptions and ideas about the world unfolding before you. We always observe and record everything with awe—every moment of what you see, think, and feel here is a precious revelation to us. Here, we sincerely invite you to convey your thoughts to us through the secret channel in the letter. \\n      Thank you for the changes you have brought to this world. May you digest your potion and master your Extraordinary powers soon.",
-    "target_ru": "«Заполните анкету полностью и получите 200 персональных золотых фунтов!»\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Опрос открытого бета-тестирования 1</>\\nУважаемый Потусторонний:\\n      Добро пожаловать в мир, где переплетаются тайны и откровения. Да укажет вам духовность верный путь.\\n      Пусть вы только делаете первые шаги, у вас наверняка уже сложилось собственное видение открывающегося перед вами мира. Мы с трепетом наблюдаем за вашим путем: каждая секунда того, что вы видите, думаете и чувствуете здесь — бесценное откровение для нас. Мы искренне приглашаем вас поделиться своими мыслями через тайный канал в этом письме.\\n      Благодарим вас за то, что преображаете этот мир. Желаем вам скорее усвоить зелье и подчинить себе потусторонние силы."
+    "target_ru": "<M_Red>«Заполните анкету полностью и получите 200 персональных золотых фунтов!»</>\\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Опрос открытого бета-тестирования 1</>\\nУважаемый Потусторонний:\\n      Добро пожаловать в мир, где переплетаются тайны и откровения. Да укажет вам духовность верный путь.\\n      Пусть вы только делаете первые шаги, у вас наверняка уже сложилось собственное видение открывающегося перед вами мира. Мы с трепетом наблюдаем за вашим путем: каждая секунда того, что вы видите, думаете и чувствуете здесь — бесценное откровение для нас. Мы искренне приглашаем вас поделиться своими мыслями через тайный канал в этом письме.\\n      Благодарим вас за то, что преображаете этот мир. Желаем вам скорее усвоить зелье и подчинить себе потусторонние силы."
   },
   {
     "id": "071289",
@@ -20007,7 +20007,7 @@
     "id": "073334",
     "source_cn": "[UIFrame : NewUIManager]面板 %s 打开成功",
     "ref_en": "[UIFrame : NewUIManager] Panel %s opened successfully",
-    "target_ru": "[UIFrame : NewUIManager] Панель %s успешно открыта"
+    "target_ru": "[UIFrame : NewUIManager] Panel %s opened successfully"
   },
   {
     "id": "073335",

@@ -60,7 +60,7 @@ return {
     ["I am willing to give everything I have in exchange, I beg you to exempt me from the final punishment."] = "Я готов отдать взамен все, что имею, прошу вас освободить меня от окончательного наказания.",
     ["All members of your faction gain 50% Building Suppression, lasting 20 seconds"] = "Все члены вашей фракции получают 50% подавления зданий на 20 секунд.",
     ["Please comply with national laws and regulations when uploading; you shall bear the consequences of any violations yourself."] = "При загрузке соблюдайте национальные законы и правила; последствия любых нарушений вы несете самостоятельно.",
-    ["That's right. Also, the <P_Yellow>internal organization</> mentioned by Haines is most likely a secret organization."] = "Верно. Кроме того, <cP_Yellow>внутренняя организация</>, о которой упоминал Хейнес, с высокой вероятностью является тайной организацией.",
+    ["That's right. Also, the <P_Yellow>internal organization</> mentioned by Haines is most likely a secret organization."] = "Верно. Кроме того, <P_Yellow>внутренняя организация</>, о которой упоминал Хейнес, с высокой вероятностью является тайной организацией.",
     ["……Like this?"] = "……Так?",
     ["Anti-Baldness Raw Material"] = "Сырье против облысения",
     ["GTA-Mechanical Creation-Head-Return to Torso Explosion"] = "GTA-МехСоздание-Голова-ВзрывТорса",

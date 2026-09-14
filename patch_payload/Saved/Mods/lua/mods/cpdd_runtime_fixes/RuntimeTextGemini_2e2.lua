@@ -72,7 +72,7 @@ return {
     ["What are the behavioral characteristics of the murderer?"] = "Каковы поведенческие особенности убийцы?",
     ["After use, you can make a connection with Audrey Hall."] = "После использования вы сможете установить связь с Одри Холл.",
     ["<P_Heart>(His complexion looks so terrible.)</>"] = "<P_Heart>(У него такой ужасный цвет лица.)</>",
-    ["<DecH>Craft: </>Scarlet Brocade & Thorn Bone Spikes\nNight and scarlet are the thorns entwined around the eternal life of the vampires—dangerous, beautiful, and painfully piercing."] = "Эти лепестки источают умиротворяющий и успокаивающий аромат. За долгое время они лишились влаги и приобрели темно-фиолетовый оттенок.",
+    ["<DecH>Craft: </>Scarlet Brocade & Thorn Bone Spikes\nNight and scarlet are the thorns entwined around the eternal life of the vampires—dangerous, beautiful, and painfully piercing."] = "<DecH>Мастерство: </>Алая парча · Шипы из кости терновника\nНочь и алый цвет — это тернии, обвивающие вечную жизнь вампиров: опасные, прекрасные и причиняющие пронзительную боль.",
     ["Take Ella's hat"] = "Возьмите шляпу Эллы",
     ["Movement Path - Female Customer"] = "Путь движения – покупательница",
     ["Some Spectators lose their seat in the endless observation, forget themselves, and lose their qualification as a witness."] = "Некоторые Зрители теряют свое место в бесконечном наблюдении, забываются и теряют свою квалификацию свидетеля.",
