@@ -259,4 +259,5 @@ return {
     ["On the Stone Bridge"] = "На Каменном мосту",
     ["Hall Sweeping Maid 2"] = "Подметающая горничная в зале b",
     ["The other party is currently inviting someone else; they are too busy to attend to you."] = "Другая сторона в настоящее время приглашает кого-то еще; они слишком заняты, чтобы заботиться о вас.",
+    ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>60 to open "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть ",
 }

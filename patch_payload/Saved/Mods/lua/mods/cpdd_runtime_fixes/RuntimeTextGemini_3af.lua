@@ -252,4 +252,5 @@ return {
     ["The sunlight greeted us at dawn; a sunny day begins now."] = "Солнечный свет приветствовал нас на рассвете; солнечный день начинается сейчас.",
     ["<P_Heart> (spirituality fluctuated... over there?) </>"] = "<P_Heart> (духовность колебалась... там?) </>",
     ["Time remaining until event start:"] = "Оставшееся время до начала мероприятия:",
+    ["看看酒单"] = "Взглянуть на барную карту",
 }

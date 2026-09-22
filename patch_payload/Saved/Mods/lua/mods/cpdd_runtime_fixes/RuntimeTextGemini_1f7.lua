@@ -258,4 +258,6 @@ return {
     ["Staggered Frame Animation"] = "Анимация ступенчатого кадра",
     ["Side Quest: Dreams Come True, Chapter 2, Paragraph 3"] = "Побочный квест: Мечты сбываются, глава 2, абзац b",
     ["Text content..."] = "Текстовое содержимое...",
+    ["Roselle's War projection"] = "Военная проекция Розеля",
+    ["The gray fog Blessing provides additional Attack power."] = "Благословение серого тумана дополнительно увеличивает силу атаки.",
 }

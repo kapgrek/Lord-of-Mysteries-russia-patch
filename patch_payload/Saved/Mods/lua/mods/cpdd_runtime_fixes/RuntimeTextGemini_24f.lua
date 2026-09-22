@@ -235,4 +235,5 @@ return {
     ["Emperor Roselle would never miss out on any beautiful woman, I must go and seek her trail."] = "Император Розель никогда не пропустит ни одну красивую женщину, я должен пойти и найти ее след.",
     ["Object of Phenomenon - Day 2 Level 40 - Official Exploration Component"] = "Объект феномена — день 2, уровень 40 — официальный компонент исследования",
     ["Looking for Tank"] = "В поисках танка",
+    ["An area within 8 meters of oneself"] = "Область в радиусе 8 м вокруг себя",
 }

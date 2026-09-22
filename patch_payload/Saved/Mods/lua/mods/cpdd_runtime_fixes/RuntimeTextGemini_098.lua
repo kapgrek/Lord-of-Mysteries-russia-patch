@@ -279,4 +279,6 @@ return {
     ["Like a dream... what exactly is that gray fog world?"] = "Как сон... что это за мир серого тумана?",
     ["Achievement reward: Historical Research Points +10"] = "Награда за достижение: очки исторических исследований +10.",
     ["Target limit reached."] = "Целевой предел достигнут.",
+    ["钢铁黎明"] = "Стальной рассвет",
+    ["During the gray fog Blessing, every time you use a Skill or Basic Attack, you gain a small amount of Shield (based on max Health). Can only be triggered once every 2 seconds."] = "Во время благословения серого тумана каждое применение навыка или базовой атаки даёт небольшой щит (зависит от максимального здоровья). Срабатывает не чаще одного раза в 2 сек.",
 }

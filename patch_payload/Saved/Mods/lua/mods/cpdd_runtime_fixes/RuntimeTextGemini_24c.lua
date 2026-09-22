@@ -248,4 +248,5 @@ return {
     ["Reach Baron rank in dungeon or adventure"] = "Достигните ранга Барона в подземельях или приключениях.",
     ["Achievement: Covenant of Time"] = "Достижение: Завет Времени",
     ["Neo"] = "Нео",
+    ["<Highlight>Craftsmanship:</> Precision-forged white iron, handcrafted.\nA ruthless iron face, an irresistible fate."] = "<Highlight>Мастерство:</> кованое белое железо, ручная работа\nБезжалостный железный лик, непреодолимая судьба.",
 }

@@ -244,4 +244,5 @@ return {
     ["To be safe, let's use <P_Yellow> spirit vision </> to confirm first! If he isn't a Beyonder, we should be able to subdue him quickly; if he is..."] = "На всякий случай давайте сначала воспользуемся духовным зрением <P_Yellow> </> для подтверждения! Если он не Потусторонний, мы сможем быстро его подчинить; если он...",
     ["Chaos 3 Effect 1"] = "Хаос 3 Эффект b",
     ["Must equip a vehicle; cannot unequip!"] = "Необходимо оборудовать транспортное средство; не могу снять экипировку!",
+    ["Use to obtain <Highlight>Red and Black Dress</>."] = "Используйте, чтобы получить <Highlight>платье «Красное и чёрное»</>",
 }

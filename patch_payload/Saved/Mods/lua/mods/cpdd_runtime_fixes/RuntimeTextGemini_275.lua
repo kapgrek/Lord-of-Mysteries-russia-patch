@@ -241,4 +241,5 @@ return {
     ["Deep-fried tofu."] = "Тофу, обжаренный во фритюре.",
     ["   Clapping Dance"] = "Хлопающий танец",
     ["mesh tent"] = "сетчатая палатка",
+    ["Forgive my presumption, pardon my Cowardice, please grant me your kiss; it shall give me the courage not to retreat."] = "Прости мою дерзость, прости мою трусость; подари мне свой поцелуй — он дарует мне смелость не отступать.",
 }

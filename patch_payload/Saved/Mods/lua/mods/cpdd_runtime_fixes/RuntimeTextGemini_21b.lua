@@ -265,5 +265,4 @@ return {
     ["When the Windmill Turns 99002416"] = "Когда перевернётся ветряная мельница e5521abb",
     ["Brewing potion"] = "Варим зелье",
     ["Time is the gentlest recorder; it has never let any promise fall through."] = "Время — самый бережный регистратор; он никогда не позволял ни одному обещанию сбыться.",
-    ["...What a lousy play, really boring. \\\n The male lead speaks even more long-windedly and boringly than my landlady, Mrs. Connie! \\\n Every second I sit here, I regret not choosing to watch the circus performance. \\\n Fortunately, I brought paper and pen, so I can write and draw to pass the time. \\\n \\\n \\\n What should I draw? How about a little turtle..."] = "...Какое плохое шоу, оно действительно скучное. \n　Главный герой-мужчина еще более многословен и скучен, чем моя хозяйка, миссис Конни! \n　Каждую секунду, когда я сижу здесь, я сожалею, что не решил пойти в цирк. \n К счастью, я взял с собой ручку и бумагу, чтобы писать и рисовать, чтобы убить время. \n\n\nЧто нарисовать? А как насчет маленькой черепахи…",
 }

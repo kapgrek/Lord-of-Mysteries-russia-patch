@@ -264,4 +264,5 @@ return {
     ["So noisy! Hasn't this song been sung for forty years! Haven't had a good night's sleep in a single day!"] = "Так шумно! Разве эту песню не поют уже сорок лет! Ни дня не спала спокойно!",
     ["Gatherable - Notice"] = "Сборный - уведомление",
     ["<P_Heart>(In such a secret gathering, I can't use my real name... Right.)</>"] = "<P_Heart>(На таком секретном собрании я не могу использовать свое настоящее имя... Верно.)</>",
+    ["展开心灵灯塔持续4秒，周身8米范围内的至多6名友方成员免疫<HyperLink stylename=\"M_Link\" u=\"21\">净化</>(优先小队成员)。"] = "Разворачивает Маяк разума на 4 сек.: до 6 союзников в радиусе 8 м вокруг получают невосприимчивость к <HyperLink stylename=\"M_Link\" u=\"21\">Очищению</> (в приоритете члены отряда).",
 }

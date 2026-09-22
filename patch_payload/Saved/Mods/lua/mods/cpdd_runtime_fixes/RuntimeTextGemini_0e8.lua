@@ -264,4 +264,5 @@ return {
     ["This {{sir|madam}}, come and see the souvenirs of the Sculpture of Knowledge!"] = "Это {{sir|madam}}, приходите посмотреть сувениры Скульптуры Знаний!",
     ["Ask the people over there"] = "Спроси у людей там",
     ["Sit on rocking chair"] = "Сидеть на кресле-качалке",
+    ["使用后获得<Highlight>红与黑连衣裙</>"] = "Используйте, чтобы получить <Highlight>платье «Красное и чёрное»</>",
 }

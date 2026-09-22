@@ -244,4 +244,5 @@ return {
     ["Reach the rank of Viscount Tier 1 in Final Hunt."] = "Достигните ранга виконта 1-го уровня в «Последней охоте».",
     ["Admiral of Stars"] = "Адмирал Звезд",
     ["Performance Spectator Child 1"] = "Зритель представления, ребенок b",
+    ["Summon an Axe Knight at the target location to perform a cleave, dealing spellfielddisc(*id) damage to enemies in the area, and with a 70% base probability, inflicting 1 second of <Highlight>Stun</> on enemies in the center area."] = "Призывает в указанную точку рыцаря с тяжёлым топором, который совершает рубящий удар: наносит врагам в области spellfielddisc(*id) ед. урона и с базовой вероятностью 70% накладывает на врагов в эпицентре <Highlight>оглушение</> на 1 сек.",
 }

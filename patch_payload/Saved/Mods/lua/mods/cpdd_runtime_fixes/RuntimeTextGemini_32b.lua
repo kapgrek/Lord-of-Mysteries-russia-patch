@@ -226,4 +226,6 @@ return {
     ["Desktop Cup 1"] = "Настольный Кубок b",
     ["Penghu County"] = "Уезд Пэнху",
     ["Balancer"] = "Балансир",
+    ["Even if the end of the countdown is endless darkness and madness, he still stepped onto the throne of a dictator."] = "Даже если в конце обратного отсчёта лежат лишь бесконечная тьма и безумие, он всё равно воссел на трон диктатора.",
+    ["Level 64 Orange Beyonder Equipment Chest"] = "Сундук потустороннего оранжевого снаряжения (64 ур.)",
 }

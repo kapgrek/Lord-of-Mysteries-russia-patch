@@ -256,4 +256,5 @@ return {
     ["Turn around 2"] = "Повернись b",
     ["Whether to disable all skills."] = "Отключить ли все навыки.",
     ["Automatically open reading interface"] = "Автоматически открывать интерфейс чтения",
+    ["Find three objects of prophecy, glimpse the truth, and escape the nightmare. \n \n One object is lost, and the sound of returning home no longer plays."] = "　　Отыщи три предмета пророчества, узри истину и спасись от кошмара.\n\n　　Один предмет сбился с пути: звук возвращения домой более не звучит.",
 }

@@ -269,4 +269,5 @@ return {
     ["Run specified beginner guide (client)"] = "Запустите указанное руководство для начинающих (клиент)",
     ["Drink!"] = "Напиток!",
     ["Mu Chen"] = "Му Чен",
+    ["You may use this voucher to deduct 50% of the unit price when settling <Highlight>direct-sale cosmetic items in the Mall</>. A maximum of 1 voucher can be used per item. Valid for 30 days after acquisition."] = "С помощью этого купона можно снизить на 50% цену <Highlight>товаров внешнего вида прямой продажи в магазине</>. На один товар можно применить не более 1 купона. Срок действия — 30 дней с момента получения.",
 }

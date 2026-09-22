@@ -99,6 +99,7 @@ return {
     ["Try On: Deep Gray"] = "Примерка: темно-серый",
     ["Elevator 8 Path"] = "Лифт 8 Путь",
     ["Appearance · Emperor Roselle"] = "Внешность · Император Розель",
+    ["Description Description Desc<Highlight>ription Description Description</> Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description Description\\"] = "Описание описание описа<Highlight>ние описание описание</> описание описание описание описание описание описание описание описание описание",
     ["I can understand... but have you considered those students who study hard every day?"] = "Я могу понять... но учитывали ли вы тех студентов, которые усердно учатся каждый день?",
     ["Unregistered teams"] = "Незарегистрированные команды",
     ["Heavy Hammer of Destruction"] = "Тяжелый молот разрушения",

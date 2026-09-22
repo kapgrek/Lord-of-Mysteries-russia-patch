@@ -233,4 +233,5 @@ return {
     ["GTA - Mechanical Creation - Execution Performance Animation"] = "GTA - Создание механики - Анимация исполнения",
     ["Let's sit by the fountain and rest for a while."] = "Давай посидим у фонтана и немного отдохнем.",
     ["A Heart-Stirring Future - Rozanne Reads the Letter"] = "Душераздирающее будущее - Розанна читает письмо",
+    ["流转着微光的蝶形装饰，象征着无常的美丽，与那些注定短暂的停驻。"] = "Мерцающее тусклым светом украшение в виде бабочки, символизирующее красоту непостоянства и мимолётность кратких мгновений.",
 }

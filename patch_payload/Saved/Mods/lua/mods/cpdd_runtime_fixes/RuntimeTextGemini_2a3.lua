@@ -244,4 +244,5 @@ return {
     ["The Beyonder realm is strictly confidential to ordinary people. Is your police badge still with you?"] = "Царство Потусторонний строго конфиденциально для обычных людей. Ваш полицейский значок еще с вами?",
     ["Kind {{sir|madam}}, thank you for listening to my rambling. Knowing that there is still someone in this world who remembers Jenny is enough to comfort me."] = "Добрый {{sir|madam}}, спасибо, что выслушали мою бессвязность. Сознания, что в этом мире еще есть кто-то, кто помнит Дженни, достаточно, чтобы утешить меня.",
     ["Reprimand Monterey"] = "Выговор Монтерею",
+    ["Divine Gift Hotline: corruption"] = "Горячая линия божественного дара: Осквернение",
 }

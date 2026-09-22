@@ -245,4 +245,5 @@ return {
     ["Woman Warming by the Fire"] = "Женщина, греющаяся у огня",
     ["Talk to the <h> young man </>"] = "Поговорите с молодым человеком <h> </>.",
     ["Preload 3"] = "Предварительная загрузка b",
+    ["Complete the easy carry Quest to obtain progress for the corresponding type of treasure. Every <Highlight>20 progress</> grants 1 cultivation resource box."] = "Выполняйте задания легкой победы, чтобы получать очки прогресса сокровищ соответствующего типа; за каждые <Highlight>20 очков прогресса</> даётся 1 сундук ресурсов развития.",
 }

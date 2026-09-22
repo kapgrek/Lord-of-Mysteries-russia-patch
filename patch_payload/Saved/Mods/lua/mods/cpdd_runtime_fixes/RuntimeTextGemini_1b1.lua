@@ -234,4 +234,5 @@ return {
     ["Drink medicine"] = "Пить лекарство",
     ["I believe your workshop will definitely produce more high-quality goods and be a bestseller in the market."] = "Я верю, что ваша мастерская обязательно будет производить больше качественной продукции и станет бестселлером на рынке.",
     ["Execution boundary"] = "Граница выполнения",
+    ["Using the origin of the Twilight Giant bloodline, gather power and stomp the ground to trigger a shockwave, kicking up surrounding dust to create a brief visual obstruction.\nIncreases your Strength by 1."] = "Обращаясь к истокам родословной Сумеречного Гиганта, сконцентрируйте силу и сокрушительно топните по земле, вызывая ударную волну и поднимая клубы пыли, ненадолго скрывающие обзор.\nПовышает собственную Силу на 1.",
 }

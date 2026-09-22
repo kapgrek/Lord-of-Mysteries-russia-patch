@@ -273,4 +273,5 @@ return {
     ["This Season's Excellent Projection Awards"] = "Награды за лучшую проекцию этого сезона",
     ["Physical lesson"] = "Физический урок",
     ["Other Party"] = "Другая сторона",
+    ["Attack increases the damage dealt by the character. The extent of the increase depends on the Skill multiplier and, based on the damage type, is affected by the target's physical Defense or magic Defense.\n\nCharacter Physical Attack: <Mark>4619</>-<Mark>5256</>\nCharacter Magic Attack: <Mark>4619</>-<Mark>5256</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4619</>-<Mark>5256</>\nМаг. атака персонажа: <Mark>4619</>-<Mark>5256</>",
 }

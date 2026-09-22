@@ -251,4 +251,5 @@ return {
     ["I cannot resist the urge for blood, and can't help but bite duck necks everywhere."] = "Я не могу сопротивляться жажде крови и не могу не кусать утиные шеи повсюду.",
     ["Gamble"] = "Азартная игра",
     ["Flame burns silently in the quiet night; though it is fire, its coldness penetrates deep into the soul. It writes its own unique manifesto with silence and speed."] = "Пламя горит тихо в тихой ночи; хоть это и огонь, но его холодность глубоко проникает в душу. Он пишет свой собственный уникальный манифест молча и быстро.",
+    ["Attack power increased by 100% granted by the gray fog Blessing"] = "Бонус к силе атаки от благословения серого тумана повышается на 100%",
 }

@@ -251,4 +251,5 @@ return {
     ["Confession Time - Open world pavilion display"] = "Время исповеди - экспозиция павильона с открытым миром",
     ["<P_Heart>(Looks at you)</>You've learned well! {{Young man|Young lady}}!"] = "<P_Heart>(Смотрит на тебя)</>Ты хорошо учился! {{Young man|Young lady}}!",
     ["Is this carriage stable? Make it cheaper!"] = "Эта карета устойчива? Сделайте дешевле!",
+    ["使用后获得环身特效:<Highlight>红与黑·头部</>"] = "Используйте, чтобы получить ауру тела: <Highlight>«Красное и чёрное: голова»</>",
 }

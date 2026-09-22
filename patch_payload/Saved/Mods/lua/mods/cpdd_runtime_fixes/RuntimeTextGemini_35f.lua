@@ -244,4 +244,5 @@ return {
     ["Summon a rabbit doll in front of you to slam its head into the ground, dealing *d damage to enemies in a fan-shaped area in front, with a 50% base chance to knock them down. It also carries an aftershock, dealing *d damage to surrounding enemies."] = "Призовите куклу-кролика перед собой, чтобы она ударила ее головой об землю, нанеся *d урон врагам в веерообразной области впереди с базовым шансом 50% сбить их с ног. Он также вызывает толчок, нанося *d урон окружающим врагам.",
     ["This week"] = "На этой неделе",
     ["Acting Level reached 20"] = "Уровень актерского мастерства достиг 20.",
+    ["Combine mystical powers to read the target's inner thoughts and impose suggestions without being detected."] = "Соединяя мистические силы, считывайте сокровенные мысли цели и незаметно внушайте ей нужные идеи.",
 }

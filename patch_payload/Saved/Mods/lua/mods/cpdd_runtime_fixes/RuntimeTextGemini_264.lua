@@ -249,7 +249,6 @@ return {
     ["Enable new large-world weather calculation?"] = "Включить новый расчет погоды в большом мире?",
     ["<P_Heart>(Decided. Use the other party's current psychological state and grasp my own greatest advantage!)</>"] = "<P_Heart>(Принято решение. Использовать текущее психологическое состояние противника и воспользоваться своим величайшим преимуществом!) </>",
     ["Not at all, I'm just looking at the scenery of Tingen."] = "Вовсе нет, я просто смотрю на пейзажи Тингена.",
-    ["Then, {{PlayerName}}, did you smell the faint scent of daisies back then?\n<P_Yellow> (Note: Different choices will lead the story to different endings.)</>"] = "Тогда, {{PlayerName}}, ты тогда почувствовал слабый аромат ромашки?\n<P_Yellow> (Примечание: разные варианты приведут историю к разным концам.)</>",
     ["The Three of the Gou Family"] = "Трое из семьи Гоу",
     ["Use to obtain Body Effect: <Highlight> Golden Branch Forest Shadow: Hand </>"] = "Используйте, чтобы получить Эффект тела: <Highlight> Золотая ветвь Лесная тень: Рука </>",
     ["Follow the text to the confessional"] = "Следуйте по тексту на исповедь",

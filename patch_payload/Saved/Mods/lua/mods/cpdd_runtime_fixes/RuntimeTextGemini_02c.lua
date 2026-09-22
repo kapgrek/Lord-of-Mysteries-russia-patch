@@ -254,4 +254,5 @@ return {
     ["Why are you using the theories of those lunatics from the Psychology Alchemists?"] = "Почему вы используете теории этих сумасшедших из «Психологии-алхимиков»?",
     ["Spirituality retrograde swing! The Astral World is warning, there must be strong resistance to this matter!"] = "Ретроградные качели духовности! Астральный Мир предупреждает, этому делу должно быть сильное сопротивление!",
     ["Congratulations, you have achieved victory!!!"] = "Поздравляем, вы добились победы!!!",
+    ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>40开启 "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть ",
 }

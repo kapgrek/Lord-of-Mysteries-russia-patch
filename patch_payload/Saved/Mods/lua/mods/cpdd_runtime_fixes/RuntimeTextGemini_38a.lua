@@ -256,4 +256,6 @@ return {
     ["Priest Wade"] = "Священник Уэйд",
     ["Click to replace. Each plan can be replaced up to <Highlight> 1 </> time."] = "Нажмите, чтобы заменить. Каждый план можно заменить до <Highlight> 1 </> раз.",
     ["Switch Water Movement Mode"] = "Переключить режим движения воды",
+    ["Use to obtain <Highlight>Red and Black Hairstyle</>."] = "Используйте, чтобы получить <Highlight>причёску «Красное и чёрное»</>",
+    ["Makes friendly members immune to Purification."] = "Дарует союзникам невосприимчивость к Очищению.",
 }

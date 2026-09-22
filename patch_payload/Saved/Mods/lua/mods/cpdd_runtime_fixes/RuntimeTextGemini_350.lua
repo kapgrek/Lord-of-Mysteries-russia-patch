@@ -264,4 +264,5 @@ return {
     ["Second, Seven-Night Encounter—the Seven-Night Encounter each month is a gift of acquaintance bestowed by fate. Within seven days, a stranger will become a travel companion, and perhaps even more."] = "Во-вторых, Встреча на семь ночей. Встреча на семь ночей каждый месяц — это дар знакомства, дарованный судьбой. В течение семи дней незнакомец станет попутчиком, а возможно, и больше.",
     ["Not really"] = "Не совсем",
     ["Avoid damage! Be careful, 5 stacks of overload will trigger an explosion!"] = "Избегайте повреждений! Будьте осторожны, 5 стаков перегрузки вызовут взрыв!",
+    ["A ring soaked in the flames of war and lamentations, engraving the final journey of a hero after returning home."] = "Кольцо, овеянное пламенем войны и стонами павших; на нём запечатлён последний путь героя, вернувшегося на родину.",
 }

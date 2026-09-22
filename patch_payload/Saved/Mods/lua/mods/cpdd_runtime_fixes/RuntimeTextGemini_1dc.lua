@@ -268,7 +268,6 @@ return {
     ["Red Note"] = "Красная нота",
     ["In-game custom preference settings."] = "Пользовательские настройки внутриигровых предпочтений.",
     ["【@Ling Sen】Talk about this too"] = "【@Линг Сен】Поговори об этом тоже",
-    ["Nothing... I searched everywhere, there are no Beyonder items in this room.\n<P_Yellow>（Obtained clue: No Beyonder items found）</>"] = "Ничего... Я искал везде, в этой комнате нет предметов Потусторонний.\n<P_Yellow> (получена подсказка: предметы Потусторонний не найдены) </>",
     ["A newly opened shop, and they haven't made any preparations at all..."] = "Недавно открывшийся магазин, а они вообще ничего не подготовили...",
     ["Lizt"] = "Лист",
 }

@@ -267,4 +267,5 @@ return {
     ["Then help me wipe the stall clean."] = "Тогда помоги мне вытереть прилавок.",
     ["<M_Default> Dear Beyonder: </>\n<M_Default> Congratulations on ranking in the top 100 nationwide in the Dominator's Clash. You have been awarded an honorary title. You can go to </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Menu - Character - Title Interface] </><M_Default> to use it. </>"] = "<M_Default> Дорогой Необыкновенный: </>\n<M_Default> Поздравляем вас с попаданием в число 100 лучших в стране по игровому процессу Domination Clash. Вы получите особое почетное звание, которое можно использовать, перейдя в </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Интерфейс Меню-Символ-Титул] </><M_Default>. </>",
     ["Seer - Card Flying Dagger Phase 1"] = "Провидец — Карта Летающего Кинжала, Фаза b",
+    ["<Highlight>工艺：</>精雕铂金・珍珠垂饰\n以纯净的铂金编织的精美的额饰，繁复花纹似乎能吸引神明的庇佑。"] = "<Highlight>Мастерство:</> гравированная платина, жемчужные подвески\nИзысканное налобное украшение, сплетённое из чистой платины; его затейливые узоры словно притягивают благословение божества.",
 }

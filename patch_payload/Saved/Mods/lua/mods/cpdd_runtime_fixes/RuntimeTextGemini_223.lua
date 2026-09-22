@@ -292,4 +292,5 @@ return {
     ["You place the chess piece in it. <P_Heart>(Lost item—Chess piece)</>"] = "Вы кладете в него шахматную фигуру. <P_Heart>(Потерянный предмет — шахматная фигура)</>",
     ["[Evernight Goddess] executes enemy targets with Health below <HighLight>25%</>."] = "[Вечная Богиня] казнит вражеские цели, у которых здоровье ниже <HighLight>25%</>.",
     ["Damage dealt by Lightning increased by 100%."] = "Урон, наносимый молнией, увеличен на 100%.",
+    ["Fluffy Cat ear decorations that bring a sense of liveliness and playfulness, causing others to lower their guard."] = "Пушистые кошачьи ушки, чья живость и игривость заставляют любого ослабить бдительность.",
 }

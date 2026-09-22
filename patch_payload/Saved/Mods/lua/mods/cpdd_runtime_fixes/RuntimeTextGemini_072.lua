@@ -243,4 +243,6 @@ return {
     ["Partner Old Neil Skill - Debt Repayment Explosion Tiers 4-5 Damage 1"] = "Навык партнера Старина Нил - Взрыв погашения долга Уровни 4-5, Урон 1",
     ["I'm so looking forward to today's mysterious animal performance!"] = "Я так жду сегодняшнего представления загадочных животных!",
     ["Condition description item<Highlight>description condition item condition description</>description condition description condition description condition description condition item"] = "Элемент описания состояния<Highlight>описание элемент состояния описание состояния</>описание описание состояния описание состояния описание состояния элемент состояния",
+    ["可以凭本券在<Highlight>商城直售外观商品</>结算时抵扣50%单价，单件商品最多使用1张，获得后有效期为30天。"] = "С помощью этого купона можно снизить на 50% цену <Highlight>товаров внешнего вида прямой продажи в магазине</>. На один товар можно применить не более 1 купона. Срок действия — 30 дней с момента получения.",
+    ["黄铜书挑战·冒险产出的进度积分道具"] = "Предмет очков прогресса, полученный в испытаниях Латунной книги: Приключения.",
 }

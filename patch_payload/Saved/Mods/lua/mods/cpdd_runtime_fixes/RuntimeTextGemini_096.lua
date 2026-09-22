@@ -261,4 +261,5 @@ return {
     ["Fairy Tale Magic Waypoint"] = "Сказочная волшебная путевая точка",
     ["Step 2 <h></> Modified coordinate position & radius"] = "Шаг 2. <h></> Изменение координат и радиуса.",
     ["One in a Hundred Eggs - Divination Process"] = "Одно из ста яиц – процесс гадания",
+    ["Perceive the Spirit World and space, then open a Portal; an Apprentice can travel through this Portal.\nCan only be used in Tingen.\nGrants yourself Intuition +1."] = "Ощущая духовный мир и пространство, открывает портал, через который может перемещаться Ученик.\nМожно использовать только в Тингене.\nПовышает собственную Интуицию на 1.",
 }

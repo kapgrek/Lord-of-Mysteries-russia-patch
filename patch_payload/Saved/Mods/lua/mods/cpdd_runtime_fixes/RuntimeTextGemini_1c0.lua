@@ -249,4 +249,5 @@ return {
     ["Hurricane Axe - Damage"] = "Ураганный топор - Урон",
     ["Mr. Moretti, there is an <P_Yellow>invitation letter</> addressed to you."] = "Господин Моретти, вам адресовано письмо-приглашение <P_Yellow></>.",
     ["Teleport after defeating Knowledge"] = "Телепортируйтесь после победы над Знанием.",
+    ["Praise the great Eternal Blazing Sun, the God of the Sun, the bestower of light and life."] = "Восславь великое Вечное Палящее Солнце — Бога Солнца, дарителя света и жизни.",
 }

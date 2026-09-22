@@ -282,4 +282,5 @@ return {
     ["Fool Potion"] = "Зель Шута",
     ["Mayer"] = "Майер",
     ["Sorry, I didn't notice anyone there."] = "Извините, я никого там не заметил.",
+    ["Use a special prop box to present a magnificent Trick Performance to fool the viewers, and record this moment."] = "Покажите эффектное представление с помощью особого реквизита, мороча зрителей, и запечатлейте этот миг на снимке.",
 }

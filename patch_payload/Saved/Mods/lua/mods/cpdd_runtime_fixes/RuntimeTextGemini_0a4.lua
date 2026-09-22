@@ -238,4 +238,5 @@ return {
     ["Moss Shadow Larva - 1 Star"] = "Личинка Моховой Тени — 1 звезда",
     ["Career Switch"] = "Смена карьеры",
     ["Phantom of the Opera Score Reward"] = "Награда за очки «Призрак оперы»",
+    ["<Assistant_Title1>【Covenant Tenets and Exclusive Gameplay】</>\nEach Covenant has its own rules; please follow them and complete weekly quests, otherwise, you will be penalized.\n\n<Assistant_Title2>Exclusive Gameplay:</>\nDifferent Covenants have different exclusive gameplay and abilities. Beyonders can try different Covenant gameplay by switching Covenants.\n\n<Assistant_Title3>Recommended Searches:</>{SendAnswer:[Covenant Action Points and Weekly Cap]|1276}"] = "<Assistant_Title1>【Заповеди Завета и особый игровой процесс】</>\nУ каждого Завета свои правила. Пожалуйста, соблюдайте их и выполняйте еженедельные задания, иначе вы понесёте наказание.\n\n<Assistant_Title2>Особый игровой процесс:</>\nУ разных Заветов свои уникальные режимы и способности. Потусторонние могут опробовать их, сменяя Завет.\n\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Очки действий Завета и недельный лимит]|1276}",
 }

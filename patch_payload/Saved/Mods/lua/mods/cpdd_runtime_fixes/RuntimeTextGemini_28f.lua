@@ -239,5 +239,4 @@ return {
     ["Do you also want to practice numerology divination?"] = "Хотите тоже попрактиковаться в нумерологическом гадании?",
     ["Liu"] = "Лю",
     ["General without Pupils: Evil Spirit hit stun"] = "Генерал без учеников: Злой дух оглушает",
-    ["Grassis: \\\n Skilled in Tarot divination, 20 pence per session. \\\n \\\n Edward Stiff: \\\n Skilled in Tarot and poker divination, 40 pence per session. \\\n \\\n Riana: \\\n A newly famous diviner, skilled in various divination methods, 200 pence per session. \\\n \\\n Molina Freeman: \\\n A novice diviner, skilled in Tarot divination, 15 pence per session. \\\n \\\n Behind it are two torn-out pages, neatly preserved in the album:"] = "Гласис:\n　　Мастер гадания на Таро, 20 пенсов за сеанс.\n\nЭдвард Стифф:\n　　Мастер гадания на Таро и игральных картах, 40 пенсов за сеанс.\n\nРиана:\n　　Новая знаменитая прорицательница, владеет различными методами гадания, 200 пенсов за сеанс.\n\nМолина Фримен:\n　　Начинающая прорицательница, гадает на Таро, 15 пенсов за сеанс.\n\n　　Сзади аккуратно вложены две вырванные страницы:",
 }

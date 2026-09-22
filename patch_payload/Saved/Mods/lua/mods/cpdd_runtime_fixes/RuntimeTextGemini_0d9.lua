@@ -268,4 +268,5 @@ return {
     ["He is the niche poet I admire most. His works are plain and moving, but unfortunately, too few people can appreciate them... this restless world!"] = "Он нишевый поэт, которым я восхищаюсь больше всего. Его работы просты и трогательны, но, к сожалению, их мало кто может оценить... в этом беспокойном мире!",
     ["Reminder to be deleted."] = "Напоминание о необходимости удалить.",
     ["Truth Chess Game"] = "Правда в шахматы",
+    ["Fight to the Death"] = "Борьба не на жизнь, а на смерть",
 }

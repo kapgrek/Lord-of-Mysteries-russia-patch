@@ -265,4 +265,5 @@ return {
     ["On the Hillside"] = "На склоне холма",
     ["Order selection recommendation"] = "Рекомендации по выбору заказа",
     ["Shooting Club Activity Notice"] = "Уведомление о деятельности стрелкового клуба",
+    ["Crafting unlocks in %d days"] = "Ковка откроется через %d дн.",
 }

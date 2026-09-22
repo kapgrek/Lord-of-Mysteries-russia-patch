@@ -249,5 +249,4 @@ return {
     ["Domain of Light"] = "Домен Света",
     ["I'm really a bit tight on cash, Bonnie was just fired from the factory, now it's hard to even scrape together tuition for the kids."] = "У меня действительно туго с деньгами, Бонни только что уволили с фабрики, теперь трудно даже собрать деньги на обучение для детей.",
     ["【Decoration】Canned Food Stall"] = "【Украшение】киоск с консервами",
-    ["<Assistant_Title1>Shoulder to Shoulder Above the Sequence</>\\\n<Assistant_Title2>Achievement Category: </>Battle for Growth - Conquest\\\n<Assistant_Title2>Unlock Condition: </>Obtain the Runner-up honorary title after participating in Peak of the Gods"] = "<Assistant_Title1>Выше уровня конкуренции</>\n<Assistant_Title2>Классификация достижений: </>Борьба за поддержку войны - завоевание\n<Assistant_Title2>Условия разблокировки: </>Получил почетное звание занявшего второе место после участия в игре «Вершина богов»",
 }

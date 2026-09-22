@@ -259,4 +259,5 @@ return {
     ["The most needed pathway ability is..."] = "Самая необходимая способность пути - это...",
     ["<P_Heart> (Tears shimmering in eyes) </> Likewise in my eyes, although you have fangs and claws, you are more like a gentleman than any other man."] = "<P_Heart> (Слёзы мерцают в глазах) </> Точно так же, в моих глазах, хотя у тебя есть клыки и когти, ты больше похож на джентльмена, чем на любого другого мужчину.",
     ["Qiao Fengying"] = "Цяо Фэнин",
+    ["<Assistant_Title1>Shoulder to Shoulder Above the Sequence</>\n<Assistant_Title2>Achievement Category: </>Battle for Growth - Conquest\n<Assistant_Title2>Unlock Condition: </>Obtain the Runner-up honorary title after participating in Peak of the Gods"] = "<Assistant_Title1>Плечом к плечу с теми, кто Выше Последовательностей</>\n<Assistant_Title2>Категория достижения: </>Война войной — Завоевание\n<Assistant_Title2>Условие получения: </>Займите второе место в режиме «Пик Богов» и получите почётный титул",
 }

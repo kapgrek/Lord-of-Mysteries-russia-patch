@@ -255,4 +255,5 @@ return {
     ["[Placeholder] Klein made up his mind and decisively drank the potion in one gulp. \n Soon, he began to twitch uncontrollably, and his vision rapidly blurred."] = "[Временная космическая оккупация] Кляйн решился и выпил зелье залпом. \nВскоре он начал непроизвольно дергаться, и его зрение быстро стало размытым.",
     ["This scent... how could I forget it? How many more times must I forget?"] = "Этот аромат... как я мог его забыть? Сколько еще раз я должен забыть?",
     ["The answer to the question"] = "Ответ на вопрос",
+    ["以窥秘之眼，探寻周围环境信息，将无形的知识以文字形式拓印于纸面之上。"] = "С помощью Ока Тайноведа исследуйте окружение и запечатлейте незримые знания на бумаге в виде текста.",
 }

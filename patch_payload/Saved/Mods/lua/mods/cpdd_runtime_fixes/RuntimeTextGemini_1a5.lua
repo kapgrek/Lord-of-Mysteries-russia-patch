@@ -254,4 +254,5 @@ return {
     ["Ultimate Skill completion notification state for flowchart"] = "Состояние уведомления о завершении Ultimate Skill для блок-схемы",
     ["Oh, Storms above, quickly send down divine punishment and drive away this madman!"] = "О, Бури небесные, ниспошли скорее божественную кару и прогони этого безумца!",
     ["Benson 2"] = "Бенсон b",
+    ["Steel Dawn"] = "Стальной рассвет",
 }

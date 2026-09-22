@@ -262,4 +262,5 @@ return {
     ["May, happy birthday!"] = "Мэй, с днем ​​рождения!",
     ["Use to obtain <Highlight>Dressage Suit</>"] = "Используйте, чтобы получить <Highlight>Выездной костюм</>.",
     ["Score %s"] = "Оценка %s",
+    ["无镜测试"] = "Тест без зеркала",
 }

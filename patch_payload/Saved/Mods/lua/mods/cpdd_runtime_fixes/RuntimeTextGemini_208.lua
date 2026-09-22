@@ -252,4 +252,5 @@ return {
     ["Guard against each other, gold pound scams are everywhere!!!"] = "Остерегайтесь друг друга, мошенничество с золотом повсюду!!!",
     ["John Mystery-1"] = "Джон Мистери-1",
     ["Trade War - Malt Liquor"] = "Торговая война – солодовый ликер",
+    ["Use to obtain <Highlight>Platinum Gold Chain</>.\nDuplicate acquisitions will automatically be dismantled into Bound Gold Pound ×100."] = "Используйте, чтобы получить налобную цепочку <Highlight>«Платиновое золото»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
 }

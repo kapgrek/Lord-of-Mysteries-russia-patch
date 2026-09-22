@@ -237,4 +237,5 @@ return {
     ["Injured Mandated Punisher B"] = "Раненый Назначенный Каратель Б.",
     ["Yes, he was a great guide. He taught us a lot."] = "Да, он был отличным гидом. Он многому нас научил.",
     ["The data for clothing is very complex. Even with the same pattern, the effect will be completely different depending on the body shape."] = "Данные по одежде очень сложны. Даже при одном и том же рисунке эффект будет совершенно разным в зависимости от формы тела.",
+    ["Use to obtain <Highlight>Fearless of Mushroom Poison</>.\nDuplicate acquisitions will automatically be dismantled into Bound Gold Pound ×100."] = "Используйте, чтобы получить <Highlight>«Иммунитет к грибному яду»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
 }

@@ -227,4 +227,5 @@ return {
     ["Eyeliner color"] = "Цвет подводки для глаз",
     ["Klein dizzily prepares to go home..."] = "Клейн с головокружением готовится отправиться домой...",
     ["How did I end up here..."] = "Как я здесь оказался...",
+    ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>20 to open "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>20, чтобы открыть ",
 }

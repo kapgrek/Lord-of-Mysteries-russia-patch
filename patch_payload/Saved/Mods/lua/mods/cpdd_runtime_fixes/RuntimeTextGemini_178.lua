@@ -227,4 +227,5 @@ return {
     ["Slot 7"] = "Слот b",
     ["<P_Heart> (shocked) </> How do you know? Are you stalking me, trying to steal my business?"] = "<P_Heart> (в шоке) </> Откуда ты знаешь? Вы преследуете меня, пытаетесь украсть мой бизнес?",
     ["Castle template saved successfully!"] = "Шаблон замка успешно сохранен!",
+    ["<DecH>Craftsmanship: </>Mist Blue Gauze · Lily of the Valley Embroidery · Lady's Long Dress\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "<DecH>Мастерство: </>туманно-голубой газ, вышивка ландышами, дамское длинное платье\nПервый луч утреннего солнца пробивается сквозь дымку, озаряя распустившиеся розы и ландыши.",
 }

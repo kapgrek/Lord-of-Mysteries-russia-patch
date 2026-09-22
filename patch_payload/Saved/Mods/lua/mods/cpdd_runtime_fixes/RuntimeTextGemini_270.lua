@@ -216,4 +216,5 @@ return {
     ["Do you know about the serial killer who shocked the entire city of Tingen sixteen years ago?"] = "Знаете ли вы о серийном убийце, потрясшем весь город Тинген шестнадцать лет назад?",
     ["Dance Point"] = "Танцевальная точка",
     ["Configuration Application"] = "Приложение конфигурации",
+    ["Open to randomly obtain a <Highlight>60 item level</> orange or gold quality piece of Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Gold Thread, Beyonder material, medicine, food, etc."] = "При открытии случайным образом дарует предмет экипировки оранжевого или золотого качества <Highlight>60-го ур. снаряжения</>, а также Торговый контракт для обмена на <Highlight>передаваемые предметы</> на <Highlight>торговом рынке</>: <Highlight>передаваемые</> золотые нити, потусторонние материалы, зелья, еду и т. д.",
 }

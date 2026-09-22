@@ -256,4 +256,5 @@ return {
     ["Quietly strange—"] = "Тихо странно —",
     ["You spent a happy day"] = "Вы провели счастливый день",
     ["Question 8"] = "Вопрос b",
+    ["剩余时间<Date>1Day10Hour</>"] = "Оставшееся время: <Date>1Day10Hour</>",
 }

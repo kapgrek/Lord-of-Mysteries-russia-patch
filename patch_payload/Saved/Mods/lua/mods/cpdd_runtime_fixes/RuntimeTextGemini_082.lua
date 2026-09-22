@@ -210,6 +210,6 @@ return {
     ["Uppercut!"] = "Апперкот!",
     ["Raids the enemy with the lowest health, dealing a total of <HighLight>400%</> attack damage over three hits; leaves behind Black Flame, dealing a total of <HighLight>200%</> attack damage over three hits."] = "Совершает набег на врага с наименьшим количеством здоровья, нанося в общей сложности <HighLight>400%</> урона от атаки за три удара; оставляет позади Черное Пламя, нанося в общей сложности <HighLight>200%</> урона от атаки за три удара.",
     ["Purification Brooch"] = "Брошь Очищение",
-    ["\\\n\\	That damn Pinoia deceived me!\\\n\\\n\\	He took 3 pounds from me, but didn't help me pass the exam!\\\n\\\n\\	Damn rat! Thief! I will never let him go!"] = "\n	Этот проклятый Пинойя обманул меня!\n\n	Он забрал у меня целых 3 золотых фунта, но так и не помог мне сдать экзамен!\n\n	Проклятая крыса! Вор! Я этого так не оставлю!",
     ["Sinful Tingen"] = "Грешный Тинген",
+    ["The four steps of the Fortune-Turning Ritual will be completed automatically within a certain period, and the Defense boost effect gained from each completed step is further increased."] = "Четыре шага против часовой стрелки в Ритуале Поворота Удачи совершаются автоматически за определённое время, а бонус к защите с каждым пройденным шагом возрастает ещё сильнее.",
 }

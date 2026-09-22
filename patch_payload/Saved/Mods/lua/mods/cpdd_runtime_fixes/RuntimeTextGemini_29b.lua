@@ -258,4 +258,5 @@ return {
     ["Fate Reenactment · Initial"] = "Реконструкция судьбы · Начальная",
     ["Taste this!"] = "Попробуй это!",
     ["Ranged Plant Flower"] = "Растение дальнего боя Цветок",
+    ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17420</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17420</>",
 }

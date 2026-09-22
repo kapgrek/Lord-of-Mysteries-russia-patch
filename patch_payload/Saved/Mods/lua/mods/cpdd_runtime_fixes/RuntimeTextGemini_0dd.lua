@@ -286,4 +286,5 @@ return {
     ["α multiplied by ___ equals 12, what should be filled in the second blank?"] = "α, умноженное на ___, равно 12, что следует заполнить во втором пропуске?",
     ["Good morning, Mrs. Orianna, you are as beautiful as ever every day."] = "Доброе утро, миссис Орианна, вы каждый день прекрасны, как всегда.",
     ["Fight Side by Side: Activate 12 Bonds, entire team Attack +18%, Damage +9%"] = "Сражайтесь бок о бок: активируйте 12 связей, атака всей команды +18%, урон +9%.",
+    ["Ejection"] = "Катапультирование",
 }

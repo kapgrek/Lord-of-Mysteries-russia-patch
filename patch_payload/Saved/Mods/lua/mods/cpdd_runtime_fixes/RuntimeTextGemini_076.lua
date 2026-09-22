@@ -276,4 +276,5 @@ return {
     ["Different Sealed Artifacts have different effects. For example, concealing an area, or making the target fall into the hallucination of a foggy maze."] = "Different Запечатанный артефактs have different effects. For example, concealing an area, or making the target fall into the hallucination of a foggy maze.",
     ["Go to the specified Trigger location. Player plays a single-sentence black screen subtitle. Object teleports within the same scene. Delayed execution."] = "Перейдите в указанное местоположение триггера. Плеер воспроизводит субтитры на черном экране, состоящие из одного предложения. Объект телепортируется в пределах одной сцены. Отложенное исполнение.",
     ["Seraphina "] = "Серафина",
+    ["Observe the mental emotions reflected in the target's behavior and condense a colored light particle around them. This reflects the target's primary surface mood for the day.\nGrants the target +1 Charm."] = "Наблюдая за эмоциями в поведении цели, формирует вокруг неё светящуюся цветную точку, отражающую её преобладающее поверхностное настроение на сегодня.\nПовышает Обаяние цели на 1.",
 }

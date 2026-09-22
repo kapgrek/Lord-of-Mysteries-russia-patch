@@ -237,5 +237,4 @@ return {
     ["Investigation Report"] = "Отчет о расследовании",
     ["Just for the flowers of one night's ball? Goddess... can they sleep at night?"] = "Только ради цветов одного ночного бала? Богиня... они могут спать по ночам?",
     ["<P_Yellow>Clown</>: Hehe~"] = "<P_Yellow>Клоун</>: Хе-хе~",
-    ["<DecH>Craftsmanship: </>Mist Blue Gauze · Lily of the Valley Embroidery · Lady's Long Dress\\\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "<DecH> Мастерство: </> Туманно-голубой тюль, вышивка ландышей, длинная женская юбка \n Первый утренний солнечный луч проникает сквозь туман и падает на первые цветущие розы и ландыши.",
 }

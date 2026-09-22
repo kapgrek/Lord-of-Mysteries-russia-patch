@@ -280,4 +280,5 @@ return {
     ["You have gained some Black Flame control from the Witch pathway, Sequence 7, Witch; Damage Boost increased by 30%. The scorching heat and frost of the abyss entwine with your weapon, incinerating all obstacles."] = "Вы получили некоторый контроль над Черным Пламенем на пути Ведьмы, Последовательность 7, Ведьма; Увеличение урона увеличено на 30%. Палящий зной и мороз бездны обвивают ваше оружие, испепеляя все препятствия.",
     ["The new name must be different from the old name. Please enter it again."] = "Новое имя должно отличаться от старого имени. Пожалуйста, введите его еще раз.",
     ["Recommended Products"] = "Рекомендуемые продукты",
+    ["补领凭券"] = "Купон компенсации",
 }

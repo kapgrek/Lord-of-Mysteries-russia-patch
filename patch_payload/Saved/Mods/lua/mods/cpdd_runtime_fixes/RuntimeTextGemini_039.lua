@@ -292,4 +292,5 @@ return {
     ["Female voice in the confessional"] = "Женский голос на исповеди",
     ["Delaney"] = "Делани",
     ["Enemy forces"] = "Вражеские силы",
+    ["Pitch-Black Rule"] = "Непреложный закон тьмы",
 }

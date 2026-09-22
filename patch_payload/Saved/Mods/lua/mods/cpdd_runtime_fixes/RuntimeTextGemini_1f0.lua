@@ -272,4 +272,5 @@ return {
     ["It's okay"] = "Все нормально",
     ["Check Carpet"] = "Проверить ковер",
     ["Select this Pathway"] = "Выберите этот путь",
+    ["Mobilize the perception of knowledge to dismantle and fuse the combat techniques one has studied, gaining a deep understanding of the essence of martial arts by experiencing the opening moves. When attacking again, a combat afterimage derived from knowledge will be left behind.\nAfter Absorb Afterimage, you gain +3 Strength and +1 Intuition."] = "Задействуйте восприятие знаний, чтобы разобрать и объединить изученные боевые приёмы, глубоко прочувствовав суть боевых искусств через начальные стойки. При следующей атаке вы оставите после себя боевой остаточный образ знаний.\nПоглотив остаточный образ, можно повысить Силу на 3 и Интуицию на 1.",
 }

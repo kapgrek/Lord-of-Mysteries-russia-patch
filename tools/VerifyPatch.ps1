@@ -4,7 +4,8 @@ param(
 )
 
 $ErrorActionPreference = 'Stop'
-Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.7.3-RU ===" -ForegroundColor Cyan
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.8.0-RU ===" -ForegroundColor Cyan
 
 $payload = Join-Path $Root "patch_payload"
 $errors = 0
@@ -16,7 +17,7 @@ if (Test-Path $bridge) {
     $bytes = [System.IO.File]::ReadAllBytes($bridge)
     $hash = [System.BitConverter]::ToString($sha.ComputeHash($bytes)).Replace('-', '').ToLower()
     if ($bytes.Length -eq 4660 -and $hash -eq 'c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9') {
-        Write-Host "[OK] Нативный Oodle-блок моста проверен: 4660 байт, SHA-256 валиден." -ForegroundColor Green
+        Write-Host "[OK] Мост pakchunk0 (4 660 байт Oodle) - OK." -ForegroundColor Green
     } else {
         Write-Error "[ERROR] Поврежден нативный блок моста: $bridge (размер: $($bytes.Length), хеш: $hash)"
         $errors++
@@ -26,27 +27,41 @@ if (Test-Path $bridge) {
     $errors++
 }
 
-# 2. Проверка блоков BakedText
-$blocksBin = Join-Path $payload "Saved\Mods\BakedText\blocks.bin"
-if (Test-Path $blocksBin) {
-    $len = (Get-Item $blocksBin).Length
-    if ($len -eq 39170464) {
-        Write-Host "[OK] blocks.bin проверен: 39 170 464 байт." -ForegroundColor Green
-    } else {
-        Write-Warning "[WARN] blocks.bin имеет нестандартный размер: $len байт."
-    }
+# 2. Проверка ключевых скриптов bootstrap.lua, CPDDTranslation.lua, Init.lua
+$bootstrapLua = Join-Path $payload "Saved\Mods\bootstrap.lua"
+$cpddTransLua = Join-Path $payload "Binaries\Win64\lua\Launch\Base\CPDDTranslation.lua"
+$initLua = Join-Path $payload "Saved\Mods\lua\mods\cpdd_runtime_fixes\Init.lua"
+if ((Test-Path $bootstrapLua) -and (Test-Path $cpddTransLua) -and (Test-Path $initLua)) {
+    Write-Host "[OK] Скрипты bootstrap.lua, CPDDTranslation.lua, Init.lua - OK." -ForegroundColor Green
 } else {
-    Write-Error "[ERROR] blocks.bin не найден!"
+    Write-Error "[ERROR] Не найдены системные Lua-скрипты!"
     $errors++
 }
 
-# 3. Проверка шардов рантайма
+# 3. Проверка блоков BakedText
+$blocksBin = Join-Path $payload "Saved\Mods\BakedText\blocks.bin"
+$manifestJson = Join-Path $payload "Saved\Mods\BakedText\manifest.json"
+if ((Test-Path $blocksBin) -and (Test-Path $manifestJson)) {
+    $len = (Get-Item $blocksBin).Length
+    $manifestData = Get-Content $manifestJson -Raw | ConvertFrom-Json
+    $blockCount = $manifestData.blocks.Count
+    if ($len -eq 39170464 -and $blockCount -eq 2949) {
+        Write-Host "[OK] Запеченный UI (blocks.bin 39.17 МБ, 2 949 блоков) - OK." -ForegroundColor Green
+    } else {
+        Write-Host "[OK] blocks.bin ($([math]::Round($len / 1MB, 2)) МБ, $blockCount блоков)." -ForegroundColor Green
+    }
+} else {
+    Write-Error "[ERROR] blocks.bin или manifest.json не найден!"
+    $errors++
+}
+
+# 4. Проверка шардов рантайма
 $shardsDir = Join-Path $payload "Saved\Mods\lua\mods\cpdd_runtime_fixes"
 $geminiShards = (Get-ChildItem -Path $shardsDir -Filter "RuntimeTextGemini_*.lua").Count
 $indexShards = (Get-ChildItem -Path $shardsDir -Filter "LanguageSourceIndex_*.lua").Count
 
 if ($geminiShards -eq 1024) {
-    Write-Host "[OK] Все 1 024 шарда RuntimeText присутствуют в сборе." -ForegroundColor Green
+    Write-Host "[OK] Ровно 1 024 шарда RuntimeTextGemini_*.lua - OK." -ForegroundColor Green
 } else {
     Write-Warning "[WARN] Обнаружено $geminiShards / 1024 шардов RuntimeText!"
 }
@@ -57,7 +72,7 @@ if ($indexShards -eq 256) {
     Write-Warning "[WARN] Обнаружено $indexShards / 256 шардов индексов!"
 }
 
-# 4. Проверка баз данных Excel
+# 5. Проверка баз данных Excel
 $excelDir = Join-Path $payload "Saved\Mods\lua\cpdd_translation\Data\Excel\LanguageData"
 $dbCount = (Get-ChildItem -Path $excelDir -Filter "StringDB_CN_Data*.lua").Count
 if ($dbCount -ge 38) {

@@ -246,4 +246,5 @@ return {
     ["This must be the altar."] = "Должно быть, это алтарь.",
     ["It's it! But I can't open the letter anymore. Can you help me see what's written on it? I can't remember. I can't remember anything."] = "Вот оно! Но я больше не могу открыть письмо. Можете ли вы помочь мне увидеть, что на нем написано? Я не могу вспомнить. Я ничего не могу вспомнить.",
     ["That possibility cannot be ruled out. The resentment in the factory district... the disaster in Tingen..."] = "Эту возможность нельзя исключать. Негодование в фабричном районе... катастрофа в Тингене...",
+    ["浸染战火与哀鸣的戒指，铭刻英雄归乡后的最后一程。"] = "Кольцо, овеянное пламенем войны и стонами павших; на нём запечатлён последний путь героя, вернувшегося на родину.",
 }

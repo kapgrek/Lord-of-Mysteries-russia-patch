@@ -63,7 +63,6 @@ return {
     ["Daisies make me think of many things. For example, innocence, purity, carefreeness, and eternal happiness."] = "Ромашки заставляют меня думать о многом. Например, невинность, чистота, беззаботность и вечное счастье.",
     ["Your pieces restore 5% of their Max Health every 4 seconds."] = "Ваши фигуры восстанавливают 5% от максимального здоровья каждые 4 секунды.",
     ["Mentor Path"] = "Путь наставника",
-    ["The competition starts at 14:00 on the last Sunday of each month, with registration opening at 8:00 on the Monday of that week. Players need to form a 6-person team to compete through multiple rounds to advance to the knockout stage, and finally impact the championship!\nParticipate to receive generous rewards, and the championship team will have an exclusive custom statue at Selena Church!"] = "Соревнования начинаются в 14:00 в последнее воскресенье каждого месяца, регистрация открывается в 8:00 в понедельник той же недели. Игрокам необходимо сформировать команду из 6 человек, чтобы пройти несколько раундов, чтобы выйти в плей-офф и, наконец, повлиять на чемпионство!\nУчаствуйте, чтобы получить щедрые награды, а команда чемпионата получит эксклюзивную статую в церкви Селены!",
     ["Click to view"] = "Нажмите, чтобы просмотреть",
     ["Connection level increased"] = "Уровень подключения повышен",
     ["Bet: Trading House activated, received 100% of own [Cellar-Aged Lafite Red Wine]"] = "Ставка: Торговый дом активирован, получил 100% собственного [Лафитового красного вина, выдержанного в погребе]",

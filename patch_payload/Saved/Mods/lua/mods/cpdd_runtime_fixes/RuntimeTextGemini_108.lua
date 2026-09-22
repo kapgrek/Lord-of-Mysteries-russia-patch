@@ -248,4 +248,5 @@ return {
     ["Spirit body threads wall passable grid visible state"] = "Духовное тело, нити, стена, проходимость, сетка, видимое состояние",
     ["Situation Report"] = "Отчет о ситуации",
     ["Snow Mountain Secret Realm NPC 1"] = "NPC Тайного Царства Снежной Горы b",
+    ["Progress point item produced from the Brass Book Challenge/Adventure."] = "Предмет очков прогресса, полученный в испытаниях Латунной книги: Приключения.",
 }

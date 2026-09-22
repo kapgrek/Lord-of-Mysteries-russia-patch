@@ -253,4 +253,5 @@ return {
     ["<M_Default>Dear Beyonder:</>\n<M_Default>Your Covenant partner:%s has dissolved the Covenant with %s. \nThe past contract has become an old page, but the page with you is still being written. </>"] = "<M_Default>Дорогой Чрезвычайный: </>\n<M_Default>Ваш партнер по клятве: %s нарушил клятву с %s. \nПрошлый контракт стал старой страницей, а страница с тобой еще пишется. </>",
     ["Herodotus Position 2"] = "Геродот Позиция b",
     ["Check player's current profession form"] = "Проверьте текущую форму профессии игрока",
+    ["Obtained by purchasing at the General Store - Reimbursement Shop"] = "Можно приобрести в разделе «Универмаг — Магазин компенсаций»",
 }

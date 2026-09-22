@@ -292,4 +292,5 @@ return {
     ["Performance Spectator Child 3"] = "Зритель представлений, ребенок b",
     ["Yarrow"] = "Тысячелистник",
     ["Component not unlocked."] = "Компонент не разблокирован.",
+    ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>20开启 "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>20, чтобы открыть ",
 }

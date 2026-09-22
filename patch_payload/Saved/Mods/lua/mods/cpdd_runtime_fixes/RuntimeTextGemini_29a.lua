@@ -248,4 +248,6 @@ return {
     ["HP Lock 70%"] = "Блокировка ОЗ 70%",
     ["A giant skeleton loomed over the town, draining the life force of everyone; flesh grew upon the bones, and the dead crawled out of their graves."] = "Гигантский скелет навис над городом, истощая жизненную силу каждого; плоть нарастала на костях, и мертвецы вылезали из могил.",
     ["Tri2_Black-faced Grass"] = "Tri2_Чернолицая трава",
+    ["Summon a giant turtle in the target area to spin in place and splash waves around it, dealing three instances of *d damage, followed by a ground slam dealing *d damage. Enemies hit by the splashes will be continuously afflicted with Weakness and Stagnation for 2 seconds."] = "Призывает в указанную область исполинскую черепаху, которая вращается на месте и разбрызгивает волны, нанося урон *d ед. трижды, после чего сотрясает землю с нанесением *d ед. урона. Враги, задетые брызгами, непрерывно подвергаются эффектам слабости и скованности на 2 сек.",
+    ["攻击提高角色造成的伤害，提升幅度取决于技能倍率，且基于伤害类型，受到目标物理防御或魔法防御影响。\n\n角色物理攻击：<Mark>4619</>-<Mark>5256</>\n角色魔法攻击：<Mark>4619</>-<Mark>5256</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4619</>-<Mark>5256</>\nМаг. атака персонажа: <Mark>4619</>-<Mark>5256</>",
 }

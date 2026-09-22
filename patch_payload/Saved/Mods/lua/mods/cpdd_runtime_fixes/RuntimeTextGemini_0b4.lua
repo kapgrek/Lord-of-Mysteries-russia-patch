@@ -257,4 +257,5 @@ return {
     ["It's me..."] = "Это я...",
     ["Harvest %d/500 high-quality textile mill products."] = "Собирайте высококачественную текстильную продукцию %d/500.",
     ["Jump to dodge the Shockwave!"] = "Прыгайте, чтобы увернуться от ударной волны!",
+    ["Relying on your own spirituality and using a pendulum containing natural spirituality as a medium, perceive the revelations of fate.\nIncreases your Intuition by 1."] = "Опираясь на собственную духовность и используя маятник с природной духовностью в качестве проводника, считывайте откровения судьбы.\nПовышает собственную Интуицию на 1.",
 }

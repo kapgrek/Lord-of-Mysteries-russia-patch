@@ -258,4 +258,5 @@ return {
     ["Pick up the note"] = "Возьмите записку",
     ["Golden Treetop District cafe atmosphere performance"] = "Представление атмосферы кафе Golden Treetop District",
     ["Sigh, who are you?"] = "Вздох, кто ты?",
+    ["<CostRed>{1,2, (Brand has expired)}</> Block increased by <Mark>120</>.\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Блок повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
 }

@@ -245,4 +245,5 @@ return {
     ["Not every day. It's just... every penny has its use. The money saved can buy a reference book or let my brother work one less overtime shift."] = "Не каждый день. Просто... каждая копейка имеет свое применение. На сэкономленные деньги можно купить справочник или позволить моему брату работать на одну сверхурочную смену меньше.",
     ["Southeast 21"] = "Юго-восток bb",
     ["This is also what Aiden most hopes to see."] = "Это также то, что Эйден больше всего надеется увидеть.",
+    ["Use to obtain <Highlight>Red and Black Outfit</>.\nCan also be exchanged for <Highlight>2</> God-Favored Cards."] = "Используйте, чтобы получить <Highlight>костюм «Красное и чёрное»</>\nТакже можно обменять на <Highlight>2</> карты божественной благодати",
 }

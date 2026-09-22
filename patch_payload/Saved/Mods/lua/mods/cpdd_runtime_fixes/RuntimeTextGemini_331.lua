@@ -247,4 +247,5 @@ return {
     ["Top-up"] = "Пополнение",
     ["Fist Lesson 120"] = "Кулачный урок 120",
     ["In front of Saint Selena Cathedral"] = "Перед собором Святой Селены",
+    ["Redemption Voucher"] = "Купон компенсации",
 }

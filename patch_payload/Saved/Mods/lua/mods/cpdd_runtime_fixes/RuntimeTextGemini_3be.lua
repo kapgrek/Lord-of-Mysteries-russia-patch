@@ -263,4 +263,5 @@ return {
     ["I understand everything now"] = "теперь я все понимаю",
     ["I am a baboon"] = "я бабуин",
     ["Taller than the Feysacians! The first time the fishermen saw that group of people from New Silver City, they were so shocked they almost swallowed a shark!"] = "Выше, чем фейсакианцы! Когда рыбаки впервые увидели эту группу людей из Нью-Сильвер-Сити, они были так потрясены, что чуть не проглотили акулу!",
+    ["唐子晰"] = "Тан Цзыси",
 }

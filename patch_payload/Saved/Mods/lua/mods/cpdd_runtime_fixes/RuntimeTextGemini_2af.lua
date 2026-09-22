@@ -259,4 +259,5 @@ return {
     ["Eyeball of a Gray Bird Matriarch"] = "Глазное яблоко матриарха серой птицы",
     ["A little to the right, look at the lens!"] = "Чуть правее, посмотрите на линзу!",
     ["Rating 3659<Score>(+607)</>"] = "Рейтинг 3659<Score>(+607)</>",
+    ["This Saturday 20:00"] = "В эту субботу, 20:00",
 }

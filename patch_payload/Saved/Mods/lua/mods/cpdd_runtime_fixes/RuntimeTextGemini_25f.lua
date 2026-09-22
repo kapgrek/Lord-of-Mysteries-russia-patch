@@ -253,4 +253,5 @@ return {
     ["Comforting Leon"] = "Утешающий Леон",
     ["Distinguish the portal, board the platform, kill the clones, and release the safe zone!"] = "Обнаружьте портал, взберитесь на платформу, убейте клонов и освободите безопасную зону!",
     ["Keep an eye on those people!"] = "Следите за этими людьми!",
+    ["Strategic Skill (No equipment required)"] = "Стратегический навык (не требует экипировки)",
 }

@@ -233,4 +233,5 @@ return {
     ["They tell you to be obedient, to submit. But they didn't tell you who you should really listen to."] = "Они говорят вам быть послушными, подчиняться. Но они не сказали вам, кого вам действительно следует слушать.",
     ["The weather is really nice today. Are you here to relax too?"] = "Погода сегодня действительно хорошая. Ты тоже здесь, чтобы расслабиться?",
     ["Mist line Tingen spawn point"] = "Линия тумана, точка появления Тингена",
+    ["During a Club declaration of war, the <Highlight>President, Diplomat, or Director</> may use this item in the Hornacis Mountain Range to initiate a rally for <Highlight>members of this Club within the map</>. Upon use, this item will enter a <Highlight>360</> second Cooldown for the entire Club."] = "Во время войны клубов <Highlight>глава, дипломат или советник</> могут использовать этот предмет в горах Хорнацис, чтобы объявить сбор <Highlight>членов своего клуба на карте</>. После использования предмет уходит на общую перезарядку для всего клуба длительностью <Highlight>360</> сек.",
 }

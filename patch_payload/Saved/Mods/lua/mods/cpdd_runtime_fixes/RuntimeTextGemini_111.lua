@@ -246,4 +246,5 @@ return {
     ["Question mark Jenny"] = "Вопросительный знак Дженни",
     ["There is no major danger anymore; no need to pay special attention to it."] = "Серьезной опасности больше нет; не нужно обращать на это особое внимание.",
     ["<Assistant_Title1> Your Name </>\n<Assistant_Title2> Achievement Category: </> Story - Era Vistas \n<Assistant_Title2> Unlock Condition: </> Complete the era anecdote \"Reflection by the Lake\""] = "<Assistant_Title1>Ваше имя</>\n<Assistant_Title2>Категория достижения: </>Сюжет-Разнообразие времен\n<Assistant_Title2>Условия разблокировки: </>Завершить анекдот времен «Отражение на берегу озера»",
+    ["向着世界下令，我们将长驱直入，戴上胜利者的冠冕，走进辉煌的都城。"] = "Приказывая миру, мы беспрепятственно ворвёмся вперёд, увенчаем себя венцом победителя и вступим в сияющую столицу.",
 }

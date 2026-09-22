@@ -281,4 +281,6 @@ return {
     ["Listen to them chat"] = "Слушайте, как они болтают",
     ["Explore the Mechanical Hut and collect clues"] = "Исследуйте Механическую хижину и соберите подсказки.",
     ["Avatar monster spawn visual buff"] = "Визуальный усилитель появления монстров Аватара",
+    ["Exchange voucher produced from the Brass Book Challenge/Adventure."] = "Купон обмена, полученный в испытаниях Латунной книги: Приключения.",
+    ["心灵灯塔"] = "Маяк разума",
 }

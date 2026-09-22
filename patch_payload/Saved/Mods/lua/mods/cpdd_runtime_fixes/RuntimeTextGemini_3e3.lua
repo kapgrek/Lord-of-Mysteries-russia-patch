@@ -279,4 +279,5 @@ return {
     ["Was it me who activated the evil ritual? I thought that if I found all three items, I could escape."] = "Неужели это я активировал злой ритуал? Я думал, что если найду все три предмета, то смогу сбежать.",
     ["Thank you all for your help. But why did the evil god corrupt me? Why are you helping me?"] = "Спасибо всем за вашу помощь. Но почему злой бог развратил меня? Почему ты мне помогаешь?",
     ["<Highlight>Ba Wang Cha Ji franchise:</> Don't play cards, let me go"] = "<Highlight>Ба Ван Ча Джи, франшиза: </> Не играй в карты, отпусти меня.",
+    ["已签到<Date>21</>天（<Date>1Day10Hour</>后重置）"] = "Отмечено дней: <Date>21</> (сброс через <Date>1Day10Hour</>)",
 }

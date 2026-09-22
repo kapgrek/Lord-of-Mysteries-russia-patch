@@ -256,4 +256,5 @@ return {
     ["<Highlight>Craftsmanship: </>Blue-White Lace, Playful Rabbit Ears, & Fairytale Gown\nEven if you are an accidental guest, please follow the etiquette of dress. Put on the playful blue-and-white diamond-patterned gown and join the whimsical tea party."] = "<Highlight> Мастерство исполнения: </> Сине-белое кружево, игривые кроличьи ушки, сказочное платье \n Даже если вы оказались посетителем по ошибке, пожалуйста, соблюдайте правила одевания. Переоденьтесь в игривое сине-белое платье с бриллиантами и присоединяйтесь к странному и чудесному чаепитию.",
     ["<h>Check the newspaper</>"] = "<h>Проверьте газету</>",
     ["Ticket Hall Small Battle"] = "Билетный зал «Малая битва»",
+    ["使用后，有<Highlight>极小概率获得零元购凭证</>或神降材料：<Highlight>神之契约、灵界星尘、天使之羽、风灵之息、神话织茧、织茧游丝</>。"] = "После использования есть <Highlight>крайне малая вероятность получить ваучер с нулевой стоимостью</> или материалы снисхождения божества: <Highlight>Божий контракт, Звёздная пыль духовного мира, Перо ангела, Дыхание духа ветра, Мифический кокон, Шелковая нить кокона</>.",
 }

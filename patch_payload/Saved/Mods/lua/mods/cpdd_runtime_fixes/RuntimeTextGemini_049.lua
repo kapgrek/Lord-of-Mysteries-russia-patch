@@ -219,4 +219,5 @@ return {
     ["Communicate in a friendly manner with the kitten"] = "Дружелюбно общайтесь с котенком",
     ["Black Onyx Miss Cerve. If you go to her, you don't need to bring wine, just a decent topic is enough."] = "Черный оникс Мисс Серве. Если вы пойдете к ней, то вино приносить не обязательно, достаточно просто приличной темы.",
     ["The above are card draw buffs"] = "Вышеупомянутые баффы для вытягивания карт.",
+    ["<Highlight>Craftsmanship:</> Black and red light armor, sharp-thorn ring ornament, strife hunter's robe.\nPower and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and Darkness, you are both a hunter chasing decay and a sharp sword stirring up the winds."] = "<Highlight>Мастерство:</> чёрно-красный лёгкий доспех, шипастый браслет, охотничье одеяние раздора\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
 }

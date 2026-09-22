@@ -47,7 +47,6 @@ return {
     ["Refreshes every %s at %s:00"] = "Обновляет каждый %s в %s:00.",
     ["Corner cafe maid"] = "Горничная в угловом кафе",
     ["Scan QR code to create character and grab ID"] = "Отсканируйте QR-код, чтобы создать персонажа и получить идентификатор.",
-    ["It seems the previous owner of this room had an important obsession. What... exactly is \"it\"? \n<P_Yellow>(Obtained clue: Handwriting on the blackboard)</>"] = "Кажется, у предыдущего владельца этой комнаты была важная навязчивая идея. Что... именно «это»? \n<P_Yellow> (Подсказка: почерк на доске) </>",
     ["But the only thing that worries me is... she is too sensible... taking on a lot of things she shouldn't have to at her age..."] = "Но единственное, что меня беспокоит, это... она слишком благоразумна... берет на себя много вещей, которые ей не следовало бы делать в ее возрасте...",
     ["Subtitle-First Meeting with Rozanne"] = "Подзаголовок: Первая встреча с Розанной",
     ["Attach Model 7"] = "Прикрепите модель b",

@@ -246,4 +246,5 @@ return {
     ["I want to keep him company, but I don't know what words of comfort to say..."] = "Я хочу составить ему компанию, но не знаю, какие слова утешения сказать...",
     ["The \"bloodstain\" has dried, but the color is still very bright red. If it were blood, the color should be duller."] = "«Пятно крови» высохло, но цвет по-прежнему ярко-красный. Если бы это была кровь, цвет должен был бы быть более тусклым.",
     ["Swift Revelation - Mythical"] = "Быстрое откровение - мифическое",
+    ["结合神秘学力量，读取到目标的内心想法，在不被察觉的情况下施加暗示。"] = "Соединяя мистические силы, считывайте сокровенные мысли цели и незаметно внушайте ей нужные идеи.",
 }

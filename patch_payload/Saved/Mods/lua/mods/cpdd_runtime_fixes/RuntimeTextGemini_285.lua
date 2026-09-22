@@ -255,4 +255,5 @@ return {
     ["[Temporary Placeholder] Suddenly, you see a pair of cold, lashless eyes. \n They are right behind Old Neil!"] = "[Временная космическая оккупация] Внезапно вы видите пару холодных глаз без длинных ресниц. \nЭто прямо за Старым Нилом!",
     ["Big news, exclusive report from the 'Tingen Morning Post', come and take a look."] = "Большие новости, эксклюзивный репортаж из «Тинген Утренняя почта», приходите и посмотрите.",
     ["Generate Note"] = "Создать заметку",
+    ["A virtue of the Wessel Family, a Brand Equipment effect. The weapon <Yellow>Land of Knowledge</> will provide additional Attack based on the <Yellow>Virtue</> possessed by squad members."] = "Добродетель семьи Вайзер, эффект клейма снаряжения. Оружие <Yellow>Обитель знаний</> дополнительно повышает атаку в зависимости от <Yellow>Добродетелей</>, которыми обладают члены отряда.",
 }

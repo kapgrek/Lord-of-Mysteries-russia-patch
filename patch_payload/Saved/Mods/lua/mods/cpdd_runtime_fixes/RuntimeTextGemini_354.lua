@@ -249,4 +249,5 @@ return {
     ["You have a deep understanding of architecture; are you in this industry? Or a student in this major?"] = "У вас глубокое понимание архитектуры; вы в этой отрасли? Или студент этой специальности?",
     ["Record: Banishment"] = "Запись: Изгнание",
     ["Mouse Wake"] = "Мышь пробуждается",
+    ["Perceive the Spirit World and space, then open a Portal; an Apprentice can travel through this Portal."] = "Ощущая духовный мир и пространство, открывает портал, через который может перемещаться Ученик.",
 }

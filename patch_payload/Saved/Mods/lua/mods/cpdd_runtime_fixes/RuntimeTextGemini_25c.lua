@@ -227,4 +227,6 @@ return {
     ["+30 Armor"] = "+30 брони",
     ["Cannot gift to players who already possess the item, are offline, or have conflicting statuses."] = "Невозможно сделать подарок игрокам, у которых уже есть предмет, которые не в сети или имеют конфликтующие статусы.",
     ["Obtained Bell"] = "Получен колокол",
+    ["With a thirst for knowledge, mobilize your entire perception to deeply experience combat techniques, and Leave Afterimage when performing an Attack."] = "С жаждой познания задействуйте всё своё восприятие, глубоко постигая боевые приёмы и оставляя остаточный образ при атаке.",
+    ["使用后获得<Highlight>红与黑帽子</>"] = "Используйте, чтобы получить <Highlight>шляпу «Красное и чёрное»</>",
 }

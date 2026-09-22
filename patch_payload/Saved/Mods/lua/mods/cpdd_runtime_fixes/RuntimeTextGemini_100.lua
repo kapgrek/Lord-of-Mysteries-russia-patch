@@ -253,4 +253,5 @@ return {
     ["Blessed be the Celestial Venerable of Heaven and Earth..."] = "Благословен Небесный Почтенный Неба и Земли...",
     ["Go to the bar and sit down"] = "Иди в бар и сядь",
     ["Bond Emblem Selection Box"] = "Коробка выбора эмблемы Бонда",
+    ["Why didn't my famous blade trigger?"] = "Почему не сработал мой клинок?",
 }

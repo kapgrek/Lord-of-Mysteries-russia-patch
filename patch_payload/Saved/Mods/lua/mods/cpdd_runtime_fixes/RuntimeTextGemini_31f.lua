@@ -223,4 +223,5 @@ return {
     ["Gentlemen and ladies who just disembarked! Lords and ladies preparing to board! Don't miss out as you pass by!"] = "Господа и дамы, которые только что сошли! Лорды и леди готовятся к посадке! Не пропустите, проходя мимо!",
     ["Then I recommend this Mr. Moretti."] = "Тогда я рекомендую этого мистера Моретти.",
     ["They say when she starved to death on the street, she was clutching an empty matchbox tightly in her hand..."] = "Говорят, когда она умерла от голода на улице, она крепко сжимала в руке пустой спичечный коробок...",
+    ["After use, there is a <Highlight>very small probability of obtaining a Zero-Yuan Purchase Voucher</> or divine descent materials: <Highlight>God's Contract, Spirit World Stardust, Angel's Feather, Wind Spirit's Breath, Mythical Cocoon, Cocoon Silk</>."] = "После использования есть <Highlight>крайне малая вероятность получить ваучер с нулевой стоимостью</> или материалы снисхождения божества: <Highlight>Божий контракт, Звёздная пыль духовного мира, Перо ангела, Дыхание духа ветра, Мифический кокон, Шелковая нить кокона</>.",
 }

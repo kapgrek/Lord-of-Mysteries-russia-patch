@@ -154,7 +154,6 @@ return {
     ["Young people these days, they believe whatever they hear..."] = "Современные молодые люди верят всему, что слышат...",
     ["Outfit Photography"] = "Фотография Наряда",
     ["<Name>#What can an Apprentice do besides delivering food?</> On a warm afternoon"] = "<Name>#What can an Ученик do besides delivering food?</> On a warm afternoon",
-    ["I shared my Beyonder scheme %s! Click <HyperLink stylename=\\\",\n    ["] = "Я делюсь своей потусторонней сборкой %s! Нажмите <HyperLink stylename=\\\"",
     ["Not enough funds, let's <h>go home</> first"] = "Недостаточно средств, сначала <h> пойдем домой</>",
     ["Thanks, we don't need anything."] = "Спасибо, нам ничего не нужно.",
     ["Weapon Mastery"] = "Владение оружием",

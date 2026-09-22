@@ -245,4 +245,6 @@ return {
     ["Wisdom_Value"] = "Мудрость_Значение",
     ["Hiding child"] = "Прячущийся ребенок",
     ["Summon Point 43"] = "Точка призыва bb",
+    ["通过特质道具盒呈现华丽的戏法表演愚弄观看者，并拍摄记录此刻。"] = "Покажите эффектное представление с помощью особого реквизита, мороча зрителей, и запечатлейте этот миг на снимке.",
+    ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17377</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17377</>",
 }

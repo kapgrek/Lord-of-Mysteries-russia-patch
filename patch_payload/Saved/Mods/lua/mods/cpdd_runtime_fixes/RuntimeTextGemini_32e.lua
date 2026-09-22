@@ -242,4 +242,5 @@ return {
     ["Buddy, you're too enthusiastic about work. I'm scared. Isn't it just helping her sort materials?"] = "Приятель, ты слишком увлечен работой. Я боюсь. Разве это не просто помощь ей ​​в сортировке материалов?",
     ["Flick"] = "Флик",
     ["Old Neil's Tombstone"] = "Надгробие старого Нила",
+    ["Day of Conquest"] = "День завоевания",
 }

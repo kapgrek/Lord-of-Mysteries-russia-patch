@@ -1,12 +1,12 @@
 {
   "formatVersion": 4,
   "sourceKind": "bundled-certified-release-assets",
-  "translationReleaseId": "c7-en-20260821-residual-repair2",
-  "installerReleaseId": "c7-en-public-v2.0",
-  "signedDataReleaseId": "c7-en-public-v2.0",
-  "signedDataReleaseVersion": "embedded",
-  "signedDataSequence": 0,
-  "displayVersion": "2.6 bootstrapper, translation fixes and DPS Preview 7",
+  "translationReleaseId": "c7-ru-20260923-live",
+  "installerReleaseId": "c7-ru-public-v2.6.3",
+  "signedDataReleaseId": "c7-ru-release-v2.6.3",
+  "signedDataReleaseVersion": "2.6.3",
+  "signedDataSequence": 2006001003,
+  "displayVersion": "2.6.3 Russian localization update (AbsoluteRU)",
   "target": "C7/Saved/Mods",
   "aliases": 7,
   "overlays": 38,
@@ -14,8 +14,8 @@
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
       "mappingKind": "overlay",
-      "sha256": "41f8acf06108f472c08ab1eee06897444ee1af74098358216ecb90d8340be970",
-      "size": 4376597
+      "sha256": "4d2af92f023b20b138e4b77a8265afb17a74328b26becf35048305f6fe9d4d91",
+      "size": 4917931
     },
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
@@ -306,8 +306,8 @@
     },
     {
       "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
-      "sha256": "41f8acf06108f472c08ab1eee06897444ee1af74098358216ecb90d8340be970",
-      "size": 4376597
+      "sha256": "4d2af92f023b20b138e4b77a8265afb17a74328b26becf35048305f6fe9d4d91",
+      "size": 4917931
     },
     {
       "relativePath": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",

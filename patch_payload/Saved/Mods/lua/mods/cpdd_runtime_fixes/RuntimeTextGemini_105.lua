@@ -235,4 +235,5 @@ return {
     ["Exit the current plane first, then return to the area where the captain is located via the <Highlight_L> World Calamity </> button next to the mini-map."] = "Сначала выйдите из текущего самолета, затем вернитесь в область, где находится капитан, с помощью кнопки <Highlight_L> World Calamity </> рядом с мини-картой.",
     ["Quest already accepted, cannot accept repeatedly."] = "Квест уже принят, повторно принять нельзя.",
     ["Special 2"] = "Специальный b",
+    ["漆黑铁则"] = "Непреложный закон тьмы",
 }

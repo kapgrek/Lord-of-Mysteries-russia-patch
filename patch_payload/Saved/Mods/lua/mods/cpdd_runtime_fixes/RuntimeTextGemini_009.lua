@@ -229,5 +229,5 @@ return {
     ["Spirituality Warning"] = "Предупреждение о духовности",
     ["%s's Team"] = "Команда %s",
     ["Bonnie Berserk"] = "Бонни Берсерк",
-    ["<Highlight> Craft: </> Thorn Surround \\\n The night and scarlet are thorns entwined around the eternal life of the Kindred; dangerous, beautiful, and piercingly painful."] = "<Highlight>Мастерство:</> Шипастое окружение\nНочь и алый цвет — это шипы, обвивающие бесконечную жизнь вампиров: опасные, прекрасные и причиняющие невыносимую боль.",
+    ["Beacon of the Mind"] = "Маяк разума",
 }

@@ -251,4 +251,5 @@ return {
     ["Respawn Point_3"] = "Точка возрождения_b",
     ["Ancient Castle Static Carriage - Grass Bundle"] = "Статическая повозка древнего замка — пучок травы",
     ["He has too many concerns. I've wanted to see him for years, but he always refuses."] = "У него слишком много забот. Я хотел увидеть его много лет, но он всегда отказывался.",
+    ["Use to obtain <Highlight>Red and Black Face Accessory</>."] = "Используйте, чтобы получить лицевое украшение <Highlight>«Красное и чёрное»</>",
 }

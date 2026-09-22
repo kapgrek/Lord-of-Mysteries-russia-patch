@@ -247,4 +247,5 @@ return {
     ["The notebook has already been sold..."] = "Ноутбук уже продан...",
     ["Shield equal to *f** of Maximum Health."] = "Щит равен *f** максимального здоровья.",
     ["When player speaks"] = "Когда игрок говорит",
+    ["Using the origin of the Twilight Giant bloodline, gather power and stomp the ground to trigger a shockwave, kicking up surrounding dust to create a brief visual obstruction."] = "Обращаясь к истокам родословной Сумеречного Гиганта, сконцентрируйте силу и сокрушительно топните по земле, вызывая ударную волну и поднимая клубы пыли, ненадолго скрывающие обзор.",
 }

@@ -250,4 +250,5 @@ return {
     ["Converse with NPC, object plays specified dialogue content"] = "Разговаривайте с NPC, объект воспроизводит указанный контент диалога.",
     ["The practitioner of order should be protected."] = "Блюститель Порядка пребудет под защитой.",
     ["Ayla"] = "Айла",
+    ["Signed in for <Date>21</> days (resets in <Date>1Day10Hour</>)"] = "Отмечено дней: <Date>21</> (сброс через <Date>1Day10Hour</>)",
 }

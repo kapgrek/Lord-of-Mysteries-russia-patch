@@ -26,6 +26,7 @@ return {
     ["An ordinary round table with flowers carved on the base; set with tea and snacks, it is the appearance of daily life."] = "Обычный круглый стол с вырезанными на основании цветами; набор с чаем и закусками, это внешний вид повседневной жизни.",
     ["Grab my light, and I will send you out."] = "Возьми мой свет, и я отправлю тебя.",
     ["Hum the melody softly"] = "Тихо напевайте мелодию",
+    ["I shared my Beyonder scheme %s! Click <HyperLink stylename=\\"] = "Я делюсь своей потусторонней сборкой %s! Нажмите <HyperLink stylename=\\\"",
     ["The bank manager is a generous man, don't take it to heart."] = "Управляющий банком — щедрый человек, не принимайте это близко к сердцу.",
     ["Total Rank: <YellowStage>2</>/3"] = "Общий рейтинг: <YellowStage>2</>/b",
     ["Hornacis?"] = "Хорнацис?",
@@ -276,4 +277,5 @@ return {
     ["Roselle Boss - Phase 1&2 - Gear Dash Damage"] = "Босс Розеллы — фазы 1 и 2 — урон от Gear Dash",
     ["Old Sailor Bone"] = "Старый Сейлор Кость",
     ["Switch simple 3C."] = "Переключите простой 3C.",
+    ["Earned through various World Adventure activities and usable in the Adventure Shop.\nThe weekly Adventure Medal limit is 2000 and can accumulate for up to 2 weeks. The earning limit resets every Monday at eight in the morning."] = "Можно получить за участие в различных активностях Мирового приключения; используется в магазине приключений.\nНедельный лимит медалей приключения — 2000, могут накапливаться до 2 недель. Лимит сбрасывается каждый понедельник в 8:00 утра.",
 }

@@ -255,4 +255,5 @@ return {
     ["Modify Club Manifesto"] = "Изменить манифест клуба",
     ["Phantom shadow wearing a monocle"] = "Призрачная тень в монокле",
     ["You, how could you know? This has been my best joke for the last ten years... Could it be that you are the King of Jokes?"] = "Ты, откуда ты мог знать? Это была моя лучшая шутка за последние десять лет... Может быть, вы Король шуток?",
+    ["Steel forges the dawn, but after the dawn, there is still endless competition."] = "Сталь куёт рассвет, но и после рассвета продолжается бесконечная борьба.",
 }

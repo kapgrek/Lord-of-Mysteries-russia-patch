@@ -269,4 +269,5 @@ return {
     ["I don't know how those overly enthusiastic students found my home address..."] = "Я не знаю, как эти чрезмерно восторженные студенты нашли мой домашний адрес...",
     ["Sports rehabilitation method"] = "Метод спортивной реабилитации",
     ["Auction in progress %M:%S"] = "Аукцион в процессе %M:%S",
+    ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启 "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть ",
 }

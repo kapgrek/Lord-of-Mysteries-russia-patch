@@ -244,4 +244,5 @@ return {
     ["Unlocked at Level %s"] = "Разблокируется на уровне %s",
     ["Alright. Aside from that nightmare, I still can't remember anything. Who am I, and why am I here..."] = "Хорошо. Кроме того кошмара, я до сих пор ничего не помню. Кто я и почему я здесь...",
     ["It's too difficult... unless you can find a girl with extremely lush hair and perfect hair quality, then I could perform a hair transplant surgery for you."] = "Это слишком сложно... если только ты не найдешь девушку с чрезвычайно пышными волосами и идеальным качеством волос, тогда я смогу сделать тебе операцию по пересадке волос.",
+    ["Deploy a Beacon of the Mind for 4 seconds. Up to 6 friendly members within an 8-meter radius around you will be immune to <HyperLink stylename=\"M_Link\" u=\"21\">Purification</> (prioritizing squad members)."] = "Разворачивает Маяк разума на 4 сек.: до 6 союзников в радиусе 8 м вокруг получают невосприимчивость к <HyperLink stylename=\"M_Link\" u=\"21\">Очищению</> (в приоритете члены отряда).",
 }

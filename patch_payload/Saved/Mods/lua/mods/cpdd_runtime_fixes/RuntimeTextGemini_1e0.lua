@@ -256,4 +256,5 @@ return {
     ["The Story Must Go On - Memory Recall 2"] = "История должна продолжаться - Воспоминание b",
     ["War Zone Declaration Details"] = "Детали декларации о зоне боевых действий",
     ["Night Emperor to Underworld Emperor"] = "Император Ночи Императору подземного мира",
+    ["使用后获得环身特效:<Highlight>红与黑·手部</>"] = "Используйте, чтобы получить ауру тела: <Highlight>«Красное и чёрное: кисти»</>",
 }

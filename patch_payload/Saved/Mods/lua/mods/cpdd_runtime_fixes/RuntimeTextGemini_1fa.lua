@@ -275,4 +275,5 @@ return {
     ["Collectable Caesar the Great"] = "Коллекционный Цезарь Великий",
     ["How to switch cults"] = "Как сменить культ",
     ["Enable Follow"] = "Включить подписку",
+    ["She died once and came back to life. She thought she was no longer afraid of anything. \n But she is afraid. There is only one thing left that she fears—losing it again. \n So she holds the scythe, holds the darkness, holds everything she can hold, just to protect that little bit of light, even if that light has turned into a shape she cannot understand, she refuses to let go. \n People in the darkness often know better than anyone what light looks like."] = "Она однажды умерла и вернулась к жизни. Она думала, что больше ничего не боится.\nНо она боялась. Осталось лишь одно, что внушало ей страх: потерять всё снова.\nПоэтому она сжимает косу, сжимает тьму, держится за всё, за что только можно ухватиться, лишь бы защитить эту крохотную искру света. Даже если этот свет принял форму, которой она не понимает, она ни за что не отпустит его.\nВедь те, кто скитается во тьме, лучше кого бы то ни было знают, как выглядит свет.",
 }

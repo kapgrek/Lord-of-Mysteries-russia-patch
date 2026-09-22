@@ -254,5 +254,5 @@ return {
     ["She smiled as she accurately found the hiding children in every corner of the park."] = "Она улыбнулась, точно найдя прячущихся детей в каждом уголке парка.",
     ["Air Wall (Billy - Left)"] = "Воздушная стена (Билли — слева)",
     ["Everyone's souls..."] = "Души каждого...",
-    ["<InvHighlight>May 9th, Sunny</>\\\n　　Finally arrived at Water Lily Town. Outside the window is a lake view, with many water lilies planted. Heard the story of the <Mark id=\"#159\">Water Lily Fairy</> from the innkeeper, interesting...\\\n　　Hope to have a wonderful week.\\\n\\\n<InvHighlight>May 10th, Sunny</>\\\n　　Discovered the magical aspect of this place—there is no night, it is always daytime. Maybe the latitude is too high...\\\n　　The small town is built around the Church of the Night, with a classical style..."] = "<InvHighlight>9 мая, солнечно</>\nНаконец прибыл в Город Кувшинок. За окном был вид на озеро, где было посажено множество кувшинок. Я слышала, как владелец отеля рассказал историю о <Mark id=\"#159\"> фее водяных лилий</>, и это было интересно... \n Надеюсь, у меня будет замечательная неделя. \n\n<InvHighlight>10 мая, солнечно</>\n Я открыл для себя волшебство этого места - здесь нет ночи, всегда день, возможно, широта слишком высока... \n Город построен вокруг Ночной церкви в классическом стиле...",
+    ["弹射"] = "Катапультирование",
 }

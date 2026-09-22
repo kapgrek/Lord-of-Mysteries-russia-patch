@@ -236,4 +236,5 @@ return {
     ["鲜挤羊奶"] = "Свежедоенное козье молоко",
     ["黑板"] = "доска",
     ["Sealed Artifact Main Attribute"] = "Основной атрибут запечатанного артефакта",
+    ["<CostRed>{1,2, (Brand has expired)}</> Armor Break increased by <Mark>110</>. Using a Skill or Basic Attack will attract the Gaze of 2-049. After the gaze stacks three times, it deals additional damage, triggering at most once every <Mark>4</> seconds.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Пробивание защиты повышается на <Mark>110</>. Применение навыков и базовых атак привлекает Взор 2-049. При накоплении 3 уровней Взора наносит дополнительный урон; срабатывает не чаще одного раза в <Mark>4</> сек.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
 }

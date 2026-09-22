@@ -262,4 +262,5 @@ return {
     ["Being able to continue living is a good thing, isn't it?"] = "Возможность продолжать жить – это хорошо, не так ли?",
     ["[Auto-Chess] - Doll Rabbit - Guaranteed Hit Attack"] = "[Авто-шахматы] - Кукла Кролик - Гарантированная ударная атака",
     ["Tell me, what are you looking at?"] = "Скажи мне, что ты смотришь?",
+    ["Use to obtain body aura effect: <Highlight>Red and Black · Hands</>."] = "Используйте, чтобы получить ауру тела: <Highlight>«Красное и чёрное: кисти»</>",
 }

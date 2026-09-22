@@ -263,4 +263,5 @@ return {
     ["Mark_Thug"] = "Марк_Thug",
     ["Do Not Use Instigator for Faction and Attribute Calculation"] = "Не используйте Instigator для расчета фракций и атрибутов.",
     ["What are you doing lying on the ground?"] = "Что ты делаешь, лежа на земле?",
+    ["Use Eyes of Mystery Prying to explore information in the surrounding environment and imprint invisible knowledge onto paper in the form of text."] = "С помощью Ока Тайноведа исследуйте окружение и запечатлейте незримые знания на бумаге в виде текста.",
 }

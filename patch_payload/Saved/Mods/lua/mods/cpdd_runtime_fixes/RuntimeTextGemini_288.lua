@@ -256,4 +256,5 @@ return {
     ["Head to Golden Indus Theater."] = "Отправляйтесь в театр Золотой Инд.",
     ["Defaults to False, meaning forced execution. Setting to True means a series of condition checks (prerequisites, state conflicts, post-swing, etc.) will be performed, and it also supports Combo skills."] = "По умолчанию установлено значение False, что означает принудительное выполнение. Установка значения True означает, что будет выполнена серия проверок условий (предварительные условия, конфликты состояний, пост-качели и т. д.), а также поддерживаются комбо-навыки.",
     ["Heart of Remorse·I"] = "Сердце раскаяния·I",
+    ["64装等非凡橙色装备箱"] = "Сундук потустороннего оранжевого снаряжения (64 ур.)",
 }

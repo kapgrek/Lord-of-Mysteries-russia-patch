@@ -260,5 +260,4 @@ return {
     ["Sweeping Woman"] = "Подметающая женщина",
     ["Wait, what brooch?"] = "Подожди, что за брошь?",
     ["Inner Skirt Layer"] = "Внутренний слой юбки",
-    ["Find three objects of prophecy, glimpse the truth, and escape the nightmare. \\\n \\\n One object is lost, and the sound of returning home no longer plays."] = "　　Найдите три предмета пророчества, узрите истину и вырвитесь из кошмара.\n\n　　Один предмет утрачен, и звуки возвращения домой больше не зазвучат.",
 }

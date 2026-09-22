@@ -253,4 +253,6 @@ return {
     ["Phew—this is amazing, and then... may I ask what I should do to become a Beyonder, just like you?"] = "Уф, это потрясающе, и потом... могу ли я спросить, что мне следует сделать, чтобы стать Потусторонним, как ты?",
     ["He is my colleague, the one who will protect you."] = "Он мой коллега, тот, кто защитит тебя.",
     ["Spectator Suppression"] = "Подавление зрителей",
+    ["Chant a short prayer related to the Sun to bless a companion, drawing down holy radiance to form a Continuous hovering beam of light, granting them Shelter."] = "Прочтите краткую молитву Солнцу для благословения соратника, призывая священное сияние в виде парящего луча света, дарующего защиту.",
+    ["观众-心灵灯塔"] = "Зритель — Маяк разума",
 }

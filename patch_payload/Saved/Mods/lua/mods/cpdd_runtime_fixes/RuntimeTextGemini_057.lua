@@ -240,4 +240,5 @@ return {
     ["Peak of the Gods Group Stage Round Reward"] = "Награда за раунд группового этапа Peak of the Gods",
     ["Duel Leap"] = "Дуэльный прыжок",
     ["Achievement: Sigh of the Death Archon"] = "Достижение: Вздох Архонта Смерти.",
+    ["使用后获得<Highlight>红与黑套装</>\n也可兑换为<Highlight>2</>张神眷牌"] = "Используйте, чтобы получить <Highlight>костюм «Красное и чёрное»</>\nТакже можно обменять на <Highlight>2</> карты божественной благодати",
 }

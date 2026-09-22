@@ -271,5 +271,4 @@ return {
     ["I am responsible for investigating the Charlie disappearance case, I'm not checking for contraband trading today."] = "Я отвечаю за расследование дела об исчезновении Чарли, я не проверяю сегодня контрабанду.",
     ["If it does not exist, it will not perish."] = "То, чего нет, не погибнет.",
     ["Pat Arrodes"] = "Пэт Арродес",
-    ["占卜家以熟练的技巧收集<HighLight>命运黄牌</>、<HighLight>灵性蓝牌</>和<HighLight>卡牌能量</>，将<HighLight>终结技能</>在<HighLight>命运愚弄</>、<HighLight>灵性爆发</>和<HighLight>洗牌</>间切换，并可通过技能为敌方附加持续*f秒的<HighLight>愚弄标记</>。\\\n\\\n<FaintYellow>愚弄标记</>：叠加3层后引爆并移除愚弄标记，受到施加者造成的mul(*d,3)点物理伤害。"] = "Провидец с высоким мастерством собирает <HighLight>Желтые карты Одурачивания судьбы</>, <HighLight>Синие карты Духовности</> и <HighLight>Энергию карт</>, переключая <HighLight>Финальный навык</> между <HighLight>Одурачиванием судьбы</>, <HighLight>Всплеском духовности</> и <HighLight>Тасовкой колоды</>, а также накладывает на врагов с помощью навыков <HighLight>Метку Одурачивания</> на *f сек.\n\n<FaintYellow>Метка Одурачивания</>: при накоплении 3 уровней детонирует и снимается, нанося цели mul(*d,3) ед. физического урона от заклинателя.",
 }

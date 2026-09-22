@@ -264,4 +264,5 @@ return {
     ["It is recommended to prioritize obtaining them by participating in multiplayer gameplay as a team, and exchange them as needed."] = "Рекомендуется в первую очередь получать их, участвуя в многопользовательском игровом процессе в команде, и обменивать их по мере необходимости.",
     ["Reach the rank of King of Angels in Moment of Fate."] = "Достигните ранга Короля Ангелов в «Моменте Судьбы».",
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Normal)</> and defeat <Highlight>Clown</> for a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Normal)</> и победите <Highlight>Клоун</>, чтобы получить шанс получить следующие предметы.",
+    ["自身8米范围内的区域"] = "Область в радиусе 8 м вокруг себя",
 }

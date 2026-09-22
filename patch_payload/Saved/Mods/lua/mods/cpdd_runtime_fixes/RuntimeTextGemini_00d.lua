@@ -263,4 +263,5 @@ return {
     ["The master is researching new weird teas again, meow."] = "Мастер снова исследует новые странные чаи, мяу.",
     ["Leonard finished standing"] = "Леонард закончил стоять",
     ["Atmosphere - Welfare Dessert"] = "Атмосфера - Десерт благосостояния",
+    ["神赐热线"] = "Горячая линия божественного дара",
 }

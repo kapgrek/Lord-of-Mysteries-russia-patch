@@ -219,4 +219,5 @@ return {
     ["Outfit Only"] = "Только наряд",
     ["Unlocked at Acting level 48 or higher and after completing the prerequisite quest \"Unexpected Visitor\"."] = "Разблокируется на уровне актерского мастерства 48 или выше и после выполнения предварительного квеста «Неожиданный гость».",
     ["The club leader has already been started."] = "Лидер клуба уже запущен.",
+    ["<CostRed>{1,2,(Brand has expired)}</>Monster Specialization increased by <Mark>220</>, Pierce reduced by <Mark>20</>.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Специализация по монстрам повышается на <Mark>220</>, пробивание снижается на <Mark>20</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
 }

@@ -248,4 +248,5 @@ return {
     ["Warrior - Greatsword Basic Attack Phase 2"] = "Воин — базовая атака двуручным мечом, фаза b",
     ["<P_Heart>(What a hunger-inducing topic, my mouth is watering.)</>"] = "<P_Heart>(Какая тема, вызывающая голод, у меня текут слюнки.)</>",
     ["Complete activity quests to earn rewards"] = "Выполняйте задания активности, чтобы получить награды.",
+    ["Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and Darkness, you are a hunter chasing decay, and a sharp blade stirring up the winds."] = "Жажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
 }

@@ -246,4 +246,5 @@ return {
     ["Accumulate %d/5 successful Requiems on Beyonders who are lost or on the edge of loss of control"] = "Накопите %d/5 успешных реквиемов по Потусторонним, которые потерялись или находятся на грани потери контроля.",
     ["Anchor gathering will begin in %s seconds."] = "Сбор якоря начнется через %s секунд.",
     ["Old Neil making coffee"] = "Старина Нил готовит кофе",
+    ["Glory, it is time to bow before me."] = "Слава, пришло время склониться передо мной.",
 }

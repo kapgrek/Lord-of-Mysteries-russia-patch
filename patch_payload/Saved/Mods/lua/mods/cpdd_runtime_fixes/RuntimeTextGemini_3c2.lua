@@ -262,5 +262,5 @@ return {
     ["Need to increase employment!"] = "Нужно повышать занятость!",
     ["Angry Slam grants Monster Special Defense"] = "Angry Slam дает монстру особую защиту",
     ["Eileen"] = "Эйлин",
-    ["<Assistant_Title1>【Covenant Tenets and Exclusive Gameplay】</>\\\nEach Covenant has its own rules; please follow them and complete weekly quests, otherwise, you will be penalized.\\\n\\\n<Assistant_Title2>Exclusive Gameplay:</>\\\nDifferent Covenants have different exclusive gameplay and abilities. Beyonders can try different Covenant gameplay by switching Covenants.\\\n\\\n<Assistant_Title3>Recommended Searches:</>{SendAnswer:[Covenant Action Points and Weekly Cap]|1276}"] = "<Assistant_Title1>【Принципы Ковенанта и эксклюзивный игровой процесс】</>\nКаждый Ковенант имеет свои собственные правила; пожалуйста, следуйте им и выполняйте еженедельные задания, иначе вы будете наказаны.\n\n<Assistant_Title2>Эксклюзивный игровой процесс:</>\nРазличные ковенанты имеют разные эксклюзивные игровые процессы и способности. Потусторонние могут попробовать другой игровой процесс Ковенанта, переключая Ковенанты.\n\n<Assistant_Title3>Рекомендуемые поисковые запросы:</>{SendAnswer:[Ценность действий Ковенанта и недельный лимит]|1276}",
+    ["誓死斗争"] = "Борьба не на жизнь, а на смерть",
 }

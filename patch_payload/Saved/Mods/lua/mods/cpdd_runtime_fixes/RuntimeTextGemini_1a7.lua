@@ -209,4 +209,5 @@ return {
     ["Alien! Anyone who likes eating Balam cilantro is a monster."] = "Чужак! Любой, кто любит есть кинзу Балам, — монстр.",
     ["Possess Marionette Essence:"] = "Обладать эссенцией марионетки:",
     ["The more you fight, the more it proves I'm right."] = "Чем больше ты ссоришься, тем больше это доказывает, что я прав.",
+    ["Through the Psychiatrist's pacification, randomly convert the target's negative or neutral emotions into positive ones. The new emotion will be displayed in a corresponding color and persist for a period of time."] = "Успокоением Психотерапевта случайным образом преобразует негативные или нейтральные эмоции цели в позитивные; новая эмоция отображается цветной точкой соответствующего цвета в течение некоторого времени.",
 }

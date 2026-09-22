@@ -236,4 +236,5 @@ return {
     ["Tarot Card 3"] = "Карта Таро 3",
     ["<Assistant_Title1>Hunter's Harvest</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Obtain 200 Victory Points in Final Hunt rank"] = "<Assistant_Title1>Hunter’s Harvest</>\n<Assistant_Title2>Категория достижения: </>Борьба за битву — соревнование\n<Assistant_Title2>Условия разблокировки: </>Наберите 200 победных очков финального ранга охоты",
     ["Attack the arrogant prince fiercely!"] = "Обрушьте яростный шквал ударов на высокомерного принца!",
+    ["Draw upon the bloodline of the Twilight Giant as power, use the Weapon Master talent as a skill, condense Beyonder power, and summon the corresponding physical forms of greatswords and dual swords.\nIncreases your Intuition by 4 and Might by 2."] = "Черпая мощь из родословной Сумеречного Гиганта и мастерство из таланта Мастера Оружия, сгущает потустороннюю силу и материализует физические формы двуручного меча и парных клинков.\nПовышает собственную Интуицию на 4 и Силу на 2.",
 }

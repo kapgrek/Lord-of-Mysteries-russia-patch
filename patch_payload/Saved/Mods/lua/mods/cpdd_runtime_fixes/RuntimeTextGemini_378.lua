@@ -259,4 +259,5 @@ return {
     ["Something magical happened"] = "Произошло что-то волшебное",
     ["Hello, sir. I would like to try challenging Champion Abi."] = "Здравствуйте, сэр. Я хотел бы попробовать бросить вызов чемпиону Аби.",
     ["Poison Burst (6 Fan Shapes)"] = "Ядовитый взрыв (6 форм веера)",
+    ["Strategic Server Event Entrance"] = "Вход на события стратегического сервера",
 }

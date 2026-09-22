@@ -243,4 +243,5 @@ return {
     ["Combat Channel"] = "Боевой канал",
     ["The waiter is here, let's leave time for the food first."] = "Официант здесь, давайте сначала оставим время на еду.",
     ["Sub-package download failed. Please check your network connection."] = "Загрузка дополнительного пакета не удалась. Пожалуйста, проверьте ваше сетевое соединение.",
+    ["Utilizing the physical coordination brought by Sequence abilities, control your behavior and demeanor to present an exaggerated and comical performance that exceeds the capabilities of an ordinary person.\nGrants +3 Charisma and +1 Knowledge."] = "Благодаря улучшенной координации движений от способностей Последовательности, контролируйте свои повадки и мимику, чтобы устроить гротескное комическое представление, выходящее за рамки человеческих возможностей.\nПовышает собственное Обаяние на 3 и Знание на 1.",
 }

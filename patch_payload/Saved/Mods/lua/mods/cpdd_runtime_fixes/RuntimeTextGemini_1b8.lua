@@ -272,4 +272,5 @@ return {
     ["And you, just use your existing Beyonder abilities to try and defeat me."] = "А ты, просто используй свои существующие способности Потустороннего, чтобы попытаться победить меня.",
     ["This Ball has concluded successfully!"] = "Этот Бал завершился успешно!",
     ["Please wait for me, I'm going to get the book."] = "Пожалуйста, подождите меня, я принесу книгу.",
+    ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть ",
 }

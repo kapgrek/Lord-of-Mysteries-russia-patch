@@ -249,4 +249,5 @@ return {
     ["Blue Line: Clockwise Carriage A9"] = "Синяя линия: каретка по часовой стрелке Ab",
     ["Attack power increased"] = "Сила атаки увеличена",
     ["Surfing Water Splash"] = "Всплеск воды для серфинга",
+    ["Open to randomly obtain a <Highlight>62 item level</> orange or gold quality piece of Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Orange Beyonder Equipment Chest, Gray Fog Dust Box, Gray Fog Crystal Box, Gold Thread, Beyonder material, medicine, food, etc."] = "При открытии случайным образом дарует предмет экипировки оранжевого или золотого качества <Highlight>62-го ур. снаряжения</>, а также Торговый контракт для обмена на <Highlight>передаваемые предметы</> на <Highlight>торговом рынке</>: <Highlight>передаваемые</> сундуки потустороннего оранжевого снаряжения, ларцы пыли Серого Тумана, ларцы кристаллов Серого Тумана, золотые нити, потусторонние материалы, зелья, еду и т. д.",
 }

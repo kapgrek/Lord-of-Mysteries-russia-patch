@@ -245,4 +245,5 @@ return {
     ["The Hornacis Mountain Range once hid some kind of out-of-control mythical creature form."] = "Горный хребет Хорнацис когда-то скрывал какую-то вышедшую из-под контроля форму мифического существа.",
     ["Obtain 72 hours of travel rewards."] = "Получите награды за 72 часа путешествия.",
     ["Now, go to the ritual altar and set up the Ritual Magic."] = "Теперь идите к ритуальному алтарю и настройте Ритуальную Магию.",
+    ["征服之日"] = "День завоевания",
 }

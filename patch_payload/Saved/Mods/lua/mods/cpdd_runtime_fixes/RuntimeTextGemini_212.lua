@@ -234,4 +234,5 @@ return {
     ["The Emperor said to \"open your eyes and look at the world.\" That phrase is so cool!"] = "Император сказал: «Открой глаза и посмотри на мир». Эта фраза такая крутая!",
     ["The layout here is very similar to the Frankie Apartment."] = "Планировка здесь очень похожа на квартиру Фрэнки.",
     ["Opportunity will not treat anyone who is prepared unfairly; the moment the government employee examination opens is the best chance for ordinary people."] = "Opportunity не будет относиться несправедливо к тем, кто к этому готов; момент открытия экзамена для госслужащих – лучший шанс для простых людей.",
+    ["权欲汇于时代激流，野心点燃社会暗面。行于欲望与黑暗之间，你是追猎腐朽的捕手，也是搅弄风云的利剑。"] = "Жажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
 }
