@@ -265,4 +265,5 @@ return {
     ["Knowledge accumulated during your trials that allows you to better control your Beyonder powers."] = "Знания, накопленные во время ваших испытаний, которые позволяют вам лучше контролировать свои силы Потустороннего.",
     ["Gain effect that almost ignores Desolation Descent damage"] = "Получите эффект, который почти игнорирует урон от Desolation Descent.",
     ["Summon Point 21"] = "Точка призыва bb",
+    ["Activated Resonance: 3"] = "Активировано резонанса: 3",
 }

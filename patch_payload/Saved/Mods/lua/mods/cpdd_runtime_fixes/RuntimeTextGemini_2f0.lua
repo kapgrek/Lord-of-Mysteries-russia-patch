@@ -263,4 +263,5 @@ return {
     ["Participate in the event to share gift money"] = "Участвуйте в мероприятии и делитесь подарочными деньгами",
     ["Club Contribution Wall"] = "Стена вкладов клуба",
     ["Your presence is such that one dares not reach for it, yet cannot help but feel admiration."] = "Ваше присутствие таково, что к нему не смеешь дотянуться, но нельзя не испытывать восхищения.",
+    ["装配后获得【施法者】羁绊"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
 }

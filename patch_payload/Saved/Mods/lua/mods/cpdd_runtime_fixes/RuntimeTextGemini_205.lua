@@ -245,4 +245,6 @@ return {
     ["Ritual Magic initiated, light all candles, praise the Fool."] = "Ритуальная Магия начата, зажгите все свечи, похвалите Шута.",
     ["Resurrection is a miracle"] = "Воскресение – это чудо",
     ["The Fool that doesn't belong to this era."] = "Шут, не принадлежащий этой эпохе",
+    ["Equip to gain the [Aurora Order] resonance"] = "Экипируйте, чтобы получить резонанс [Орден Авроры]",
+    ["Equip to gain the [Planter] resonance"] = "Экипируйте, чтобы получить резонанс [Плантатор]",
 }

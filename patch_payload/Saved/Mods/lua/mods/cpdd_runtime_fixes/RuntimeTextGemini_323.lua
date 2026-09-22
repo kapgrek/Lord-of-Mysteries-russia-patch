@@ -244,4 +244,5 @@ return {
     ["This Sealed Artifact must be used by a Beyonder of Sequence 7 or higher to resist the hallucinations it produces."] = "Этот Запечатанный Артефакт должен использоваться Потусторонним из Последовательности 7 или выше, чтобы противостоять вызываемым им галлюцинациям.",
     ["It seems you're quite satisfied."] = "Кажется, ты вполне доволен.",
     ["Go to the <h>Billiards Room</>"] = "Идите в <h>Бильярдный зал</>.",
+    ["[Planter]"] = "[Плантатор]",
 }

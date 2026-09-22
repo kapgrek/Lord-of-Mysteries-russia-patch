@@ -227,4 +227,5 @@ return {
     ["0: Override \n 1: Additive"] = "0: Наложение\n1: Наложение",
     ["Welcome! Welcome! Although you missed the last match of Champion Abi—oh, poor Billy got his teeth kicked in—the next one is starting soon!"] = "Добро пожаловать! Добро пожаловать! Хоть ты и пропустил последний матч Чемпиона Аби — ох, бедному Билли зубы вышибли, — скоро начнется следующий!",
     ["Guest C"] = "Гость С",
+    ["所有友军获得<HighLight>10%</>攻击力。[Spellcasting]每次施法后叠加攻击力。"] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
 }

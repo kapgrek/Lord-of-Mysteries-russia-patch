@@ -240,4 +240,5 @@ return {
     ["Fenton"] = "Фентон",
     ["This is too wrong! I actually wrote an article for a restaurant with serious hygiene problems! The boss must give me an answer! Wait, still not right... How could Cook make the kitchen like this? What did he go through..."] = "Это слишком неправильно! На самом деле я написал статью для ресторана с серьезными проблемами гигиены! Босс должен дать мне ответ! Подождите, все еще не так... Как Кук мог сделать кухню такой? Через что он прошел...",
     ["I just want him to look at reality properly, instead of staring at the stars all day."] = "Я просто хочу, чтобы он правильно смотрел на реальность, а не целыми днями смотрел на звезды.",
+    ["Equip to gain the [Lawyer] bond"] = "Экипируйте, чтобы получить резонанс [Юрист]",
 }

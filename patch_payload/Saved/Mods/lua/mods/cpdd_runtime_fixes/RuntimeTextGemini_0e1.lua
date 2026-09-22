@@ -271,4 +271,7 @@ return {
     ["Mornings have been much quieter since Mother gave up finding me a marriage match."] = "Утро стало намного спокойнее с тех пор, как мама перестала искать мне пару для брака.",
     ["Use to obtain Settlement Animation: <Highlight> Bedtime Story </>"] = "Используйте, чтобы получить анимацию поселения: <Highlight> Сказка на ночь </>.",
     ["Relying on the paper figurines and Sequence spirituality prepared in advance by the Magician, when the preset trigger conditions are met, the target transforms into a Paper Figurine Substitute and gradually dissipates, achieving a traceless exit. Its essence is a pre-planned \"Curtain Call,\" fitting the core principle that \"a Magician never performs without preparation,\" used to avoid danger or complete an Acting loop."] = "Опираясь на бумажных человечков и духовность Последовательности, заготовленные Фокусником заранее, при выполнении заданных условий обращает цель в Бумажного Заменителя, который постепенно рассеивается, позволяя бесследно исчезнуть. По сути это заранее спланированный «идеальный занавес», отвечающий ключевому правилу «фокусник никогда не выступает неподготовленным», и служит для ухода от опасности или завершения цикла отыгрыша.",
+    ["Activated Resonance: 11"] = "Активировано резонансов: 11",
+    ["激活羁绊：16"] = "Активировано резонансов: 16",
+    ["Equip to gain the [Spellcraft] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
 }

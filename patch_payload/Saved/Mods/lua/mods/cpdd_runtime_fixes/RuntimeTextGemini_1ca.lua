@@ -250,4 +250,5 @@ return {
     ["You can consign up to %d Gold Pounds at a time. Gold Pounds not sold within %d hours after consignment will be returned to the inventory."] = "Вы можете отправить до %d золотых фунтов за раз. Золотые фунты, не проданные в течение %d часов после партии, будут возвращены на склад.",
     ["Life-or-Death Battle_End"] = "Битва не на жизнь, а на смерть_Конец",
     ["Invited <Highlight> %s </>"] = "Приглашен <Highlight> %s </>",
+    ["Equip to gain the [Aurora Order] bond."] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
 }

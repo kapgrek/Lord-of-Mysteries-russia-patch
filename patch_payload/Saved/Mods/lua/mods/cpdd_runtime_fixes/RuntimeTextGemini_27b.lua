@@ -264,4 +264,5 @@ return {
     ["For a living"] = "Для жизни",
     ["Open the scope and shoot at the only weak point, the [Red Hat]!"] = "Откройте прицел и стреляйте в единственное слабое место — «Красную шляпу»!",
     ["Let's try again!"] = "Давайте попробуем еще раз!",
+    ["Equip to gain the [Hunter] resonance"] = "Экипируйте, чтобы получить резонанс [Охотник]",
 }

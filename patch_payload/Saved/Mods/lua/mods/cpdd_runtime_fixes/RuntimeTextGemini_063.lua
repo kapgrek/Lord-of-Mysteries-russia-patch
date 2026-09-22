@@ -254,4 +254,5 @@ return {
     ["Look at the <h> event flyer </>"] = "Посмотрите флаер мероприятия <h> </>",
     ["(...At this moment, as a historical projection from his Tingen period, he doesn't yet know the truth that his home has long been buried. Better not to expose it.)"] = "(...В этот момент, как историческая проекция периода Тингена, он еще не знает правды о том, что его дом давно похоронен. Лучше не раскрывать ее.)",
     ["How much longer do I have to wait in line?"] = "Сколько мне еще придется ждать в очереди?",
+    ["【猎人】"] = "[Охотник]",
 }

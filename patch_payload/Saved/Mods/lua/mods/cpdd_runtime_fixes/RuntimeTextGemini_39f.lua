@@ -252,4 +252,5 @@ return {
     ["Little kid? {{Mr.|Ms.}}, this form of address is belittling to me."] = "Маленький ребенок? {{Mr.|Ms.}}, такая форма обращения меня унижает.",
     ["May the Goddess protect our family's peace..."] = "Пусть Богиня сохранит мир нашей семьи...",
     ["Misfortune Devours Master"] = "Несчастье пожирает мастера",
+    ["Equip to gain the [Bard] bond"] = "Экипируйте, чтобы получить резонанс [Певец]",
 }

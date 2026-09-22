@@ -261,4 +261,5 @@ return {
     ["Silver Star Chain"] = "Серебряная Звездная Цепочка",
     ["Knox"] = "Нокс",
     ["Moving is just so tiring..."] = "Переезды так утомительны...",
+    ["Equip to gain the [Forsaken Land of the Gods] resonance."] = "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов].",
 }

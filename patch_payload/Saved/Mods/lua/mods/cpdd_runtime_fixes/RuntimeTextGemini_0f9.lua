@@ -225,4 +225,6 @@ return {
     ["The base damage of <HyperLink stylename=\"M_Link\" u=\"86031020\" color=\"#f4a067\">Tarot Array</> is increased by 10%, and it has an 85% probability to <HighLight>Slow</> the main target by 50% for 2.5 seconds."] = "Базовый урон <HyperLink stylename=\"M_Link\" u=\"86031020\" color=\"#f4a067\">Taro Array</> увеличен на 10%, а вероятность <HighLight>Slow</> поразить основную цель на 50% в течение 2,5 секунд составляет 85%.",
     ["Wandering travelers will find a home, and sincere hearts will accompany each other."] = "Странствующие путники найдут дом, а искренние сердца будут сопровождать друг друга.",
     ["Well done! Tal."] = "Отличная работа! Таль.",
+    ["激活羁绊：10"] = "Активировано резонансов: 10",
+    ["Equip to gain the [Reader] bond"] = "Экипируйте, чтобы получить резонанс [Чтец]",
 }

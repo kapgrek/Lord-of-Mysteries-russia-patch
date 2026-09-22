@@ -254,4 +254,5 @@ return {
     ["Witch and Beast - Restroom and Collar"] = "Ведьма и чудовище — Туалет и ошейник",
     ["Cat Playing on the Street"] = "Кот играет на улице",
     ["5230026 Plane"] = "5230026 Самолет",
+    ["Equip to gain the [Nighthawk] resonance."] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
 }

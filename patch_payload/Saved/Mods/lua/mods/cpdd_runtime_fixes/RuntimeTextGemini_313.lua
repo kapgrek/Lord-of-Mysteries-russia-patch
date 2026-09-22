@@ -273,4 +273,6 @@ return {
     ["Control resistance increase (1s)"] = "Увеличение сопротивления управления (1 с)",
     ["I've decided, I'm willing to join Blackthorn Security Company."] = "Я решил, что хочу присоединиться к компании Охранная компания «Чёрный Чертополох».",
     ["Klein: Deal!"] = "Клейн: Договорились!",
+    ["Equip to gain the [Giant Dragon Inheritance] bond."] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона].",
+    ["Equip to gain the [Hermit] bond"] = "Экипируйте, чтобы получить резонанс [Школа Тайн]",
 }

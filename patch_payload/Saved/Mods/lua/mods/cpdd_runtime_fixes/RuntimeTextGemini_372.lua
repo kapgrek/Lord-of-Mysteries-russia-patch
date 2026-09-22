@@ -242,4 +242,5 @@ return {
     ["Teleport to entrance"] = "Телепортироваться ко входу",
     ["RGB Dispersion"] = "RGB-дисперсия",
     ["Old Man Sunbathing"] = "Старик загорает",
+    ["[Spellcasting]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
 }

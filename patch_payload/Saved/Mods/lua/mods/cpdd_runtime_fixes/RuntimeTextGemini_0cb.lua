@@ -235,4 +235,5 @@ return {
     ["Friends, listen to me for a moment!"] = "Друзья, послушайте меня на минутку!",
     ["I'm fine, just a little dizzy. Worried? Ah... many people have said that. My teacher, my landlady, even the farm woman who sells me eggs, this is just how I get along with them."] = "Я в порядке, просто немного кружится голова. Волновался? Ах... многие люди это говорили. Моя учительница, моя хозяйка, даже женщина с фермы, которая продает мне яйца, — именно так я с ними лажу.",
     ["Baron Hawkes's abnormality began with the purchase of an antique. That is likely a Beyonder item. Could it be the start of this murder case?"] = "Ненормальность барона Хоукса началась с покупки антиквариата. Вероятно, это предмет Потусторонний. Может ли это стать началом дела об убийстве?",
+    ["装配后获得【观众】羁绊"] = "Экипируйте, чтобы получить резонанс [Зритель]",
 }

@@ -277,4 +277,5 @@ return {
     ["Evening"] = "Вечер",
     ["Does not refresh after reaching purchase limit"] = "Не обновляется после достижения лимита покупок",
     ["Sound source 1 girl"] = "Источник звука 1 девушка",
+    ["[Spellcraft]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
 }

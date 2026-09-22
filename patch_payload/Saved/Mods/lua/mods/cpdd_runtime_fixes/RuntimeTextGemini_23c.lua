@@ -232,4 +232,5 @@ return {
     ["Hidden Space - Lake of Chaos and Order - Bridge ep1"] = "Скрытое пространство - Озеро хаоса и порядка - Мост, эпизод b",
     ["Clean up the bloodstains"] = "Очистите пятна крови",
     ["Gemstone"] = "драгоценный камень",
+    ["Equip to gain the [Navigator] resonance."] = "Экипируйте, чтобы получить резонанс [Мореплаватель].",
 }

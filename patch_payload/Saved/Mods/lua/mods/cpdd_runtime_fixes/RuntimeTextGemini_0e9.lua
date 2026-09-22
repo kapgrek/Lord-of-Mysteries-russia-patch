@@ -269,4 +269,6 @@ return {
     ["Golden Rain"] = "Золотой дождь",
     ["Water Movement"] = "Движение воды",
     ["I, Klein Moretti, am now an official Nighthawk. I have too much to understand and learn."] = "Я, Клейн Моретти, теперь официальный Ночной Ястреб. Мне нужно слишком многое понять и изучить.",
+    ["Activated Resonance: 13"] = "Активировано резонансов: 13",
+    ["激活羁绊：14"] = "Активировано резонансов: 14",
 }

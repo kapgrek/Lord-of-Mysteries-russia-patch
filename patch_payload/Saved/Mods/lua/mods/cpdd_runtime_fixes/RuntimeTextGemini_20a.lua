@@ -265,4 +265,6 @@ return {
     ["Tuesday, Month/Day"] = "Вторник, месяц/день",
     ["After pressure plate interaction"] = "После взаимодействия нажимной пластины",
     ["Garden: Shrub Wall"] = "Сад: Стена из кустарников",
+    ["* 激活羁绊"] = "* Активировать резонанс",
+    ["Equip to gain the [Berserker] bond"] = "Экипируйте, чтобы получить резонанс [Берсерк]",
 }

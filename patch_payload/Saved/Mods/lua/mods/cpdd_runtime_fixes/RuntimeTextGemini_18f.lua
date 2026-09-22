@@ -252,4 +252,5 @@ return {
     ["Then... go and bring her spirit out, consider it evening training."] = "Тогда... иди и выведи ее дух, считай это вечерней тренировкой.",
     ["Shouldn't we give ourselves titles, then? After all, we can't communicate using our real names."] = "Разве мы не должны дать себе титулы? В конце концов, мы не можем общаться, используя наши настоящие имена.",
     ["He represents the dark side of the Ancient Sun God, filled with malice, resentment, and corruption."] = "Он представляет темную сторону Древнего Бога Солнца, наполненную злобой, негодованием и Искажением.",
+    ["装配后获得【战士】羁绊"] = "Экипируйте, чтобы получить резонанс [Воин]",
 }

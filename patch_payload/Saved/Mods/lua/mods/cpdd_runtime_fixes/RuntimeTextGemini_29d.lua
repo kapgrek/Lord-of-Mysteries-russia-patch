@@ -235,4 +235,6 @@ return {
     ["You've come in three times in total, so I don't think I guessed wrong."] = "Всего вы заходили три раза, так что не думаю, что я ошибся.",
     ["I'm already bringing it."] = "Я уже приношу это.",
     ["Execution successful: Review rejected. Player gbId: %d, Item uuid: %s"] = "Выполнение успешно: проверка отклонена. gbId игрока: %d, UUID предмета: %s",
+    ["Activated Resonance: 20"] = "Активировано резонансов: 20",
+    ["【值夜者】"] = "[Ночной Ястреб]",
 }

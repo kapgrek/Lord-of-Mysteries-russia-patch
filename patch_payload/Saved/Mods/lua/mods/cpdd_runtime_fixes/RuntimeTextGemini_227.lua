@@ -263,4 +263,5 @@ return {
     ["Backlund Circus Kiosk."] = "Киоск цирка Баклунда.",
     ["I am truly grateful! Please, you must secure an examination spot for us."] = "Я искренне благодарен! Пожалуйста, вы должны обеспечить нам место для осмотра.",
     ["Bria "] = "Бриа",
+    ["Equip to gain the [Sleepless] resonance"] = "Экипируйте, чтобы получить резонанс [Бессонный]",
 }

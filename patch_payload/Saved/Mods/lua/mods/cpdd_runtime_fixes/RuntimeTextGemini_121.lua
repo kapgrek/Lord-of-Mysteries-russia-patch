@@ -250,4 +250,5 @@ return {
     ["Bard Great Hammer"] = "Бард Большой Молот",
     ["I would like to know the name of the owner of this beautiful garden."] = "Я хотел бы знать имя владельца этого прекрасного сада.",
     ["Through wholehearted, devout prayer, invoke the gaze of the God and pray to receive a Holy Light that envelops you, purifying the corruption tainted within your spirituality and repairing the mental exhaustion caused by combat."] = "Искренней и благоговейной молитвой обратите на себя взор божества, моля об окутывающем священном свете, очищающем духовность от скверны и восстанавливающем душевные силы после битвы.",
+    ["Equip to gain the [Death Sect] resonance."] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
 }

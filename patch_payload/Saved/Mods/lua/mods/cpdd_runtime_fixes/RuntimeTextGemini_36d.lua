@@ -237,4 +237,5 @@ return {
     ["Finch"] = "Финч",
     ["Attack increases the damage dealt by the character. The extent of the increase depends on the skill multiplier and, based on the damage type, is affected by the target's physical Defense or magical Defense.\n\nCharacter Physical Attack: <Mark>4615</>-<Mark>5252</>\nCharacter Magical Attack: <Mark>4615</>-<Mark>5252</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4615</>-<Mark>5252</>\nМаг. атака персонажа: <Mark>4615</>-<Mark>5252</>",
     ["百货-报销商店购买获得"] = "Можно приобрести в разделе «Универмаг — Магазин компенсаций»",
+    ["Equip to gain the [Savant] resonance."] = "Экипируйте, чтобы получить резонанс [Знаток].",
 }

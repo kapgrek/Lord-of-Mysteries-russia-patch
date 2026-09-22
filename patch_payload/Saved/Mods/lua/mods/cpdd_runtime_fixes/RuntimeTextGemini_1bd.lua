@@ -234,4 +234,5 @@ return {
     ["Heh, it seems you cannot comprehend the mysteries of knowledge!"] = "Хех, кажется, ты не можешь постичь тайны познания!",
     ["Text description"] = "Текстовое описание",
     ["The clues have been gathered. Next, we must be more cautious."] = "Улики собраны. Далее, мы должны быть более осторожными.",
+    ["[Navigator]"] = "[Мореплаватель]",
 }

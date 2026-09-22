@@ -226,4 +226,5 @@ return {
     ["A historical projection of Audrey Hall, recreating the original's form and partial abilities."] = "Историческая проекция Одри Холл, воссоздающая форму и частичные способности оригинала.",
     ["The Forbidden Knowledge on both sides of the hour hand is balanced; the hour hand will remain stationary"] = "Запретные знания по обеим сторонам часовой стрелки сбалансированы; часовая стрелка останется неподвижной",
     ["Duncan "] = "Дункан",
+    ["Equip to gain the [Lucky One] resonance"] = "Экипируйте, чтобы получить резонанс [Счастливчик]",
 }

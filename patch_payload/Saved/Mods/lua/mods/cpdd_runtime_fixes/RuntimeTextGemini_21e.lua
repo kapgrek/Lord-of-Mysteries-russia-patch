@@ -252,4 +252,5 @@ return {
     ["Go Mad"] = "Сходить с ума",
     ["5231136 Backlund Single-Player Instance"] = "5231136 Бэкланд Single-Player Instance",
     ["Because you are a Loen soldier and she is a Feysacian? Or is it because you don't want her to see your cowardice?"] = "Потому что ты солдат Лоен, а она фейсацианка? Или ты не хочешь, чтобы она увидела твою трусость?",
+    ["[Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
 }

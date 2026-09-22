@@ -261,4 +261,5 @@ return {
     ["Follow to the Death"] = "Следуй до смерти",
     ["Jiangmen"] = "Цзянмэнь",
     ["Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip?"] = "Есть сплетни? Есть сплетни? Есть сплетни? Расскажите что-нибудь новенькое!",
+    ["Equip to gain the [Bard] resonance"] = "Экипируйте, чтобы получить резонанс [Певец]",
 }

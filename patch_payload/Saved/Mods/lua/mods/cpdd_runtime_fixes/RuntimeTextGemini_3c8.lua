@@ -245,4 +245,5 @@ return {
     ["Under the Dome"] = "Под куполом",
     ["Footprint Reappearance (based on stacks) can reduce the cooldown of Escape Trick by 1 second."] = "Повторное появление следа (в зависимости от количества стаков) может сократить время восстановления трюка с побегом на 1 секунду.",
     ["Why is it a sweet dream?"] = "Почему это сладкий сон?",
+    ["装配后获得【阅读者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Чтец].",
 }

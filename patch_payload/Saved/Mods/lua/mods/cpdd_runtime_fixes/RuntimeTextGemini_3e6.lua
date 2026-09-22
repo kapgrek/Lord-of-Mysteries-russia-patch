@@ -237,4 +237,5 @@ return {
     ["Hello, {{Mr.|Ms.}}, it is a pleasure to see you. What would you like to eat?"] = "Здравствуйте, {{мистер|мисс}}, рад вас видеть. Что бы вы хотели съесть?",
     ["I, I want to be able to, to speak, speak smoothly first."] = "Я, я хочу сначала уметь говорить, говорить гладко.",
     ["荣耀加身"] = "Венценосная слава",
+    ["Equip to gain the [Hunter] resonance."] = "Экипируйте, чтобы получить резонанс [Охотник].",
 }

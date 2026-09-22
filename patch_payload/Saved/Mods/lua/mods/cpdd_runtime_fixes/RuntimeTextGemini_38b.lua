@@ -265,4 +265,5 @@ return {
     ["Collider initialization"] = "Инициализация коллайдера",
     ["In addition to the grand prize on the left, the following are other rewards in the current appearance prize pool"] = "Помимо главного приза слева, ниже приведены другие награды в текущем призовом фонде выступления.",
     ["以灵性感受环境，以巫师之姿探究神秘。"] = "Ощущайте мир духовностью и исследуйте тайны в обличье чернокнижника.",
+    ["[Demoness Sect]"] = "[Секта Демоницы]",
 }

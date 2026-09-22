@@ -235,4 +235,5 @@ return {
     ["Constitution_Percentage Bonus"] = "Конституция_Процентный бонус",
     ["There are remaining attribute points that have not been used."] = "Остались очки атрибутов, которые не были использованы.",
     ["Warrior - Demon Hunter Instant Slash - Ground Smash"] = "Воин - Охотник на демонов Мгновенный удар - Удар по земле",
+    ["Equip to gain the [Night] resonance."] = "Экипируйте, чтобы получить резонанс [Ночь].",
 }

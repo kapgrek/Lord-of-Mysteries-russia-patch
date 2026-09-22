@@ -271,4 +271,5 @@ return {
     ["I am responsible for investigating the Charlie disappearance case, I'm not checking for contraband trading today."] = "Я отвечаю за расследование дела об исчезновении Чарли, я не проверяю сегодня контрабанду.",
     ["If it does not exist, it will not perish."] = "То, чего нет, не погибнет.",
     ["Pat Arrodes"] = "Пэт Арродес",
+    ["装配后获得【歌者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Певец].",
 }

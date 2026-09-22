@@ -253,4 +253,5 @@ return {
     ["The target sub-channel is full; please try again later."] = "Целевой подканал заполнен; пожалуйста, попробуйте еще раз позже.",
     ["Industrial Torrent"] = "Индустриальный Торрент",
     ["Whether to enable Mythical Equipment forging"] = "Включить ли ковку мифического снаряжения",
+    ["装配后获得【不眠者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Бессонный].",
 }

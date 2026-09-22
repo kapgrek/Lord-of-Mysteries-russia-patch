@@ -235,4 +235,5 @@ return {
     ["A set of Intis-style tableware, always ready on the dining table for guests."] = "Набор посуды в стиле Интис, всегда готовый на обеденном столе для гостей.",
     ["This loofah soup is so delicious, why was I so agitated just now..."] = "Суп из люфы такой вкусный, почему я сейчас так взволновалась...",
     ["使用后获得<Highlight>红与黑发型</>"] = "Используйте, чтобы получить <Highlight>причёску «Красное и чёрное»</>",
+    ["AutoChess"] = "Автошахматы",
 }

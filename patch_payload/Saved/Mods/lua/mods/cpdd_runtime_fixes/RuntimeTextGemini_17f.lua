@@ -241,4 +241,5 @@ return {
     ["Reach a total damage (%d) or healing (%d) of 2.5 million in the Battle for the Throne of God battlefield."] = "Достигните общего урона (%d) или исцеления (%d) 2,5 миллиона на поле битвы за Трон Бога.",
     ["5231267 Golden Indus Theater Single-Player Instance"] = "5231267 Одиночное измерение: Театр Золотого Платана",
     ["I, I'm Miles, he's Kalan, we're students from nearby..."] = "Я, я Майлз, он Калан, мы студенты из близлежащих районов...",
+    ["[Beyonder Creature]"] = "[Сверхъестественное существо]",
 }

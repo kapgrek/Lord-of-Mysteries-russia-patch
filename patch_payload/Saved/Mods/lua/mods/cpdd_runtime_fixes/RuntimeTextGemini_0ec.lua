@@ -250,4 +250,5 @@ return {
     ["<P_Heart>(Electrical crackling)</> Hello... can you... hear... wake... that is... trap..."] = "<P_Heart>(Электрический треск)</> Привет... ты... слышишь... пробуждение... это... ловушка...",
     ["Father!"] = "Отец!",
     ["GTA - Audrey healing - Coffee cup"] = "GTA - Исцеление Одри - Кофейная чашка",
+    ["All allies gain <HighLight>10%</> Attack. [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
 }

@@ -266,4 +266,5 @@ return {
     ["Red Gloves don't have a fixed jurisdiction. Leonard always likes to come back here, and I drop by occasionally too."] = "У «Красных перчаток» нет фиксированной юрисдикции. Леонарду всегда нравится сюда возвращаться, и я тоже иногда захожу.",
     ["<P_Heart> (Looking at how he's giggling while walking, it's no wonder he bumped into a roadside flowerpot.) </>"] = "<P_Heart> (Глядя на то, как он хихикает во время прогулки, неудивительно, что он наткнулся на придорожный цветочный горшок.) </>",
     ["City Sprint"] = "Городской спринт",
+    ["装配后获得【死亡教派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
 }

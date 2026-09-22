@@ -266,4 +266,5 @@ return {
     ["Go to Q's Puzzle"] = "Перейти к головоломке Q",
     ["Webb"] = "Уэбб",
     ["It really is better to go home for a birthday!"] = "На день рождения действительно лучше поехать домой!",
+    ["Equip to gain the [Berserker] bond."] = "Экипируйте, чтобы получить резонанс [Берсерк].",
 }

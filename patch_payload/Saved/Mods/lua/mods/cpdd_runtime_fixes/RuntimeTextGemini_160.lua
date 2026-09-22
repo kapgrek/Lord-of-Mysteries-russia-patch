@@ -264,4 +264,5 @@ return {
     ["I want Fors's autograph... autograph! Autograph!"] = "Я хочу автограф Форса... автограф! Автограф!",
     ["Trevor's Shadow"] = "Тень Тревора",
     ["General Without Pupils: Filter targets with Enemy"] = "Генерал без учеников: фильтруйте цели с помощью Enemy",
+    ["2 [Spellcraft] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
 }

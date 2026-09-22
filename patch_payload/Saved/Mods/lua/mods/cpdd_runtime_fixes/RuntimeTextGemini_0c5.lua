@@ -220,4 +220,5 @@ return {
     ["I don't know which homeless person's bedding it is, and it emits a foul smell along with the surroundings."] = "Я не знаю, что это за постель бездомного, и она источает неприятный запах вместе с окружающей средой.",
     ["Look back calmly"] = "Оглянись назад спокойно",
     ["Back Kick Damage"] = "Урон от удара ногой назад",
+    ["Activated Resonance: 18"] = "Активировано резонансов: 18",
 }

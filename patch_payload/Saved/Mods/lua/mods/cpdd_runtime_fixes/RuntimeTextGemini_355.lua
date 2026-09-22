@@ -263,4 +263,5 @@ return {
     ["Like a familiar figure slowly emerging in the morning mist, bringing back those shimmering exclusive memories for all travelers."] = "Как знакомая фигура, медленно появляющаяся в утреннем тумане, возвращая всем путешественникам эти мерцающие эксклюзивные воспоминания.",
     ["Defeat the Apple Knight"] = "Победить Яблочного рыцаря",
     ["角色生命为零时会陷入消散状态，\n需要自己或他人协助复苏才能重新返回正常状态。\n\n角色最大生命：<Mark>17402</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17402</>",
+    ["[Spellcraft] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
 }

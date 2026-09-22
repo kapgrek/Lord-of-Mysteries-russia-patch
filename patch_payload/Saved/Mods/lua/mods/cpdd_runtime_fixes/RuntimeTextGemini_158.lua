@@ -241,4 +241,5 @@ return {
     ["Summon Believer Number One, Anthea, to remove control from the target and restore Health."] = "Призывает Последователя № 1 Антею, снимающую контроль с цели и восстанавливающую здоровье.",
     ["Cannot save the outfit collection because you do not own some of the appearances."] = "Невозможно сохранить коллекцию нарядов, поскольку некоторые из них вам не принадлежат.",
     ["They look at you, walk toward you, and hug you..."] = "Они смотрят на тебя, идут к тебе и обнимают...",
+    ["【水手】"] = "[Моряк]",
 }

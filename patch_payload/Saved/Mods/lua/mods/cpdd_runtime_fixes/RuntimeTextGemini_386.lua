@@ -266,4 +266,5 @@ return {
     ["Those two gentlemen over there... seem to be debating quite intensely?"] = "Эти два джентльмена... кажется, очень интенсивно спорят?",
     ["I can't draw a conclusion yet. Let's investigate and collect evidence first, starting with questioning that lady."] = "Я пока не могу сделать вывод. Давайте сначала расследуем и соберем доказательства, начав с допроса этой дамы.",
     ["Member Permissions"] = "Права участников",
+    ["【囚犯】"] = "[Узник]",
 }

@@ -246,4 +246,5 @@ return {
     ["Besides, we seem to have ruined Dunn's birthday. I still have a little strength left..."] = "Кроме того, похоже, мы испортили Данну день рождения. У меня еще осталось немного сил...",
     ["Quest 5 - Rollback - Wait to watch the camera"] = "Квест 5 — Откат — Подождите, чтобы посмотреть камеру.",
     ["Acting Character Name"] = "Имя действующего персонажа",
+    ["【战士】"] = "[Воин]",
 }

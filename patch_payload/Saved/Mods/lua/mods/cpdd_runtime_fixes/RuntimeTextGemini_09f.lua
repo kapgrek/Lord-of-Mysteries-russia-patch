@@ -263,4 +263,5 @@ return {
     ["Complete acting story: <Highlight>Direction of Love</>(%s/%s)"] = "Полная актерская история: <Highlight>Направление любви</>(%s/%s)",
     ["The meat looks really fresh today."] = "Мясо сегодня выглядит очень свежим.",
     ["The atmosphere in this area is indeed a bit different."] = "Атмосфера в этом районе действительно немного другая.",
+    ["2 [Spellcasting]额外获得15%攻击力，且每次施法：自身获得1%攻击力。"] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
 }

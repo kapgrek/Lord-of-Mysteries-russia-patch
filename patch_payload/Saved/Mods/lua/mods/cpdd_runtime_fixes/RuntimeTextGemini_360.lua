@@ -235,4 +235,5 @@ return {
     ["Complete quest: Tingen Guardian"] = "Завершить квест: Страж Тингена",
     ["Good day, {{Mr.| Ms.}}. I am Jacob, a city guide certified by the City Hall. I can plan the most efficient tour route for you and answer most of your questions about this city."] = "Добрый день, {{Mr.| Ms.}}. Я Джейкоб, гид по городу, сертифицированный мэрией. Я могу спланировать для вас наиболее эффективный маршрут экскурсии и ответить на большинство ваших вопросов об этом городе.",
     ["A Rose"] = "Роза",
+    ["装配后获得【通识者】羁绊"] = "Экипируйте, чтобы получить резонанс [Знаток]",
 }

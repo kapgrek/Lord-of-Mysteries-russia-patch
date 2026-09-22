@@ -282,4 +282,5 @@ return {
     ["Prepare to start the ritual."] = "Приготовьтесь начать ритуал.",
     ["Last month's prophecy lollipops sold very well! Everyone who licks one can see their future—although most people see 'I have to work tomorrow,' that is indeed the future!"] = "Леденцы-пророчества прошлого месяца продавались очень хорошо! Каждый, кто облизывает человека, может увидеть свое будущее — хотя большинство людей видят «мне завтра нужно работать», это действительно будущее!",
     ["Every single deed is worth remembering."] = "Каждое дело стоит запомнить.",
+    ["装配后获得【不眠者】羁绊"] = "Экипируйте, чтобы получить резонанс [Бессонный]",
 }

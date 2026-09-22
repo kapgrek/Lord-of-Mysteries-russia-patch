@@ -275,4 +275,5 @@ return {
     ["Contradiction between testimony and evidence"] = "Противоречие между показаниями и доказательствами",
     ["Escape Prompt Camera"] = "Камера с подсказкой о побеге",
     ["Summon Tia's spirit"] = "Призвать дух Тии",
+    ["Equip to gain the [Sleepless] resonance."] = "Экипируйте, чтобы получить резонанс [Бессонный].",
 }

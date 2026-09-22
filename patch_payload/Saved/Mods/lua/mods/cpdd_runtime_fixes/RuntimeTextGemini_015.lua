@@ -233,4 +233,6 @@ return {
     ["Corrupt Blood Fly"] = "Порочная кровавая муха",
     ["Under the snow that never melts, hidden stories lie buried."] = "Под никогда не тающим снегом погребены скрытые истории.",
     ["<P_Heart> (Something's not right, let's understand Hope's thoughts more.) </>"] = "<P_Heart> (Что-то не так, давайте лучше поймем мысли Хоуп.) </>",
+    ["Equip to gain the [Corpse Collector] resonance."] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов].",
+    ["4 [Spellcraft]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。"] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
 }

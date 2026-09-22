@@ -280,4 +280,5 @@ return {
     ["Porter 1"] = "Портер b",
     ["This era is changing—steam engines, printing presses, new machines appearing every day. Those who can learn new things will not be left behind by the era."] = "Эта эпоха меняется: каждый день появляются паровые машины, печатные станки, новые машины. Тех, кто умеет узнавать новое, эпоха не оставит позади.",
     ["Tarot Divination - Collectible"] = "Гадание на Таро - Коллекционное",
+    ["装配后获得【施法】羁绊"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
 }

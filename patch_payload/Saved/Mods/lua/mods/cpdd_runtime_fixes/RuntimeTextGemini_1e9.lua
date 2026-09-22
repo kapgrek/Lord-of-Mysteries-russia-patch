@@ -282,4 +282,5 @@ return {
     ["5200172 Star Highland Multiplayer Scene"] = "5200172 Сцена многопользовательской игры Star Highland",
     ["Hall of Fame function is temporarily closed."] = "Функция Зала славы временно закрыта.",
     ["Being Summoned by an Unexpected World..."] = "Быть призванным неожиданным миром...",
+    ["激活羁绊：%d"] = "Активировано резонансов: %d",
 }

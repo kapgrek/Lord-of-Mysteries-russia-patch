@@ -231,4 +231,5 @@ return {
     ["Signing the contract"] = "Подписание контракта",
     ["Seer Costume"] = "Провидец Costume",
     [" <DecH>Craftsmanship: </>Embroidered Brocade · Flower Cluster Embellishments\nNo one can assert how long the wait for blooming takes, but the beauty of half-blooming is enough to be cherished."] = "<DecH> Мастерство: </> Вышитая парча и цветочные гроздья \n Никто не может сказать, сколько времени нужно ждать цветения, но красоты полураспускания достаточно, чтобы люди могли ею дорожить.",
+    ["装配后获得【黑夜女神】羁绊。"] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи].",
 }

@@ -250,4 +250,7 @@ return {
     ["Thought of My Little Irene AI"] = "Мысль о моей маленькой Ирен AI",
     ["Sherin"] = "Шерин",
     ["Green Portal 1"] = "Зеленый Портал 1",
+    ["[Mystery Pryer]"] = "[Подглядывающий за Тайнами]",
+    ["Equip to gain the [Mystery Pryer] resonance."] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
+    ["【耕种者】"] = "[Плантатор]",
 }

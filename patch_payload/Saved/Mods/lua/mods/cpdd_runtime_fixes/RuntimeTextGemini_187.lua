@@ -255,4 +255,5 @@ return {
     ["Leonard Mitchell"] = "Леонард Митчелл",
     ["Ask About the Gift Box"] = "Спросите о подарочной коробке",
     ["Can feel the pulse of wildness when touched."] = "Может чувствовать пульс дикости при прикосновении.",
+    ["Equip to gain the [Bard] bond."] = "Экипируйте, чтобы получить резонанс [Певец].",
 }

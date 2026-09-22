@@ -223,4 +223,6 @@ return {
     ["Sonic Impact"] = "Звуковой удар",
     ["I am just a dog—this sentence is the truth, not an excuse."] = "Я всего лишь собака — это предложение — правда, а не оправдание.",
     ["Oh dear, I'm so sorry, great detective, I can't help you with divination right now, all my little props were just stolen."] = "О боже, мне очень жаль, великий сыщик, я не могу сейчас помочь тебе с гаданием, весь мой реквизит только что украли.",
+    ["Equip to gain the [Spectator] bond"] = "Экипируйте, чтобы получить резонанс [Зритель]",
+    ["[Spellcraft]额外获得55%攻击力，且每次施法：自身获得2%攻击力。"] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
 }

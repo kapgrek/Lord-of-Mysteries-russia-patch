@@ -268,4 +268,6 @@ return {
     ["Audrey - 3 Star"] = "Одри - 3 звезды",
     ["For some mystical items with very serious negative effects, the school will seal them to prevent them from causing catastrophic consequences."] = "Некоторые мистические предметы с очень серьезными негативными последствиями школа запечатывает, чтобы они не вызвали катастрофических последствий.",
     ["Meow! Meow!"] = "Мяу! Мяу!",
+    ["装配后获得【铁卫】羁绊"] = "Экипируйте, чтобы получить резонанс [Железная стена]",
+    ["Equip to gain the [Iron Wall] resonance."] = "Экипируйте, чтобы получить резонанс [Железная стена].",
 }

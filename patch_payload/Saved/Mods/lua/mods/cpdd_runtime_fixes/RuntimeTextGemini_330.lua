@@ -248,4 +248,5 @@ return {
     ["Switch [%s] does not exist"] = "Переключатель [%s] не существует",
     ["Old Kohler: Still too expensive and too big. I can only buy one with someone else and saw it into several pieces... This will be enough for me to eat during the New Year holiday."] = "Старый Колер: Все еще слишком дорогой и слишком большой. Я могу только купить у кого-нибудь одну и распилить ее на несколько частей... Этого мне будет достаточно, чтобы поесть во время новогодних праздников.",
     ["<DecH>Craftsmanship: </>Soft Light Silk · Lace Gauze · Slim-fit Nightgown\nA certain emperor once left an unfinished remark in his diary; tasting it now truly has a unique flavor."] = "<DecH> Мастерство: </> Мягкий мягкий шелк, кружевная марля, тонкая ночная рубашка \n Однажды император оставил в своем дневнике незавершенную эмоцию, и теперь вкус действительно уникален.",
+    ["装配后获得【占卜家】羁绊。"] = "Экипируйте, чтобы получить резонанс [Провидец].",
 }

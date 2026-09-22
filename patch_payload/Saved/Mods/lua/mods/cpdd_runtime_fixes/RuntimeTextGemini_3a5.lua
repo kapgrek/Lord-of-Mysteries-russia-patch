@@ -256,4 +256,5 @@ return {
     ["A dead person has escaped. Damn it, it's Old Trelle, a bastard who can't even rest in peace after death."] = "Мертвец сбежал. Черт побери, это Старый Трелль, ублюдок, который даже после смерти не может упокоиться с миром.",
     ["May the Goddess favor you, {{sir|madam}}. I am Mrs. Sammer, a witness to the Covenant. If you find the person you wish to spend your life with, I can preside over the Covenant ritual for you."] = "Пусть Богиня благоволит тебе, {{sir|madam}}. Я миссис Сэммер, свидетель Завета. Если ты найдешь человека, с которым захочешь провести свою жизнь, я смогу провести для тебя ритуал Завета.",
     ["Ore formed by long-term exposure to strong light environments, containing faint but stable radiant spirituality inside."] = "Руда, образовавшаяся в результате длительного воздействия яркого света, содержит внутри слабую, но стабильную сияющую духовность.",
+    ["Equip to gain the [Planter] resonance."] = "Экипируйте, чтобы получить резонанс [Плантатор].",
 }

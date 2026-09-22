@@ -244,4 +244,5 @@ return {
     ["Understand <h> Henry's </> thoughts"] = "Понять <h> мысли Генри о </>",
     ["Join the cult [Spring Night Ball]."] = "Присоединяйтесь к культу [Весенний ночной бал].",
     ["A butterfly-shaped ornament shimmering with a faint light, symbolizing the beauty of impermanence and those destined, fleeting stays."] = "Мерцающее тусклым светом украшение в виде бабочки, символизирующее красоту непостоянства и мимолётность кратких мгновений.",
+    ["[Tarot Club]"] = "[Клуб Таро]",
 }

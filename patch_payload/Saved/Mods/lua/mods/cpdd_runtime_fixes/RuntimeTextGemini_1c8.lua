@@ -263,4 +263,5 @@ return {
     ["Laser ray."] = "Лазерный луч.",
     ["Meat-tank plus kiting is unsolvable."] = "Мясотанк плюс кайтинг неразрешима.",
     ["Through specific behavioral expressions, demonstrate influence over others, pacify the target's frenzied and unstable mental state, keep them away from madness, and grant them inner tranquility and peace.\nGrants the target +4 Knowledge and +2 Charisma."] = "Особым поведением проявите влияние на окружающих, успокаивая безумное и нестабильное душевное состояние цели, уберегая её от безумия и даруя душевный покой и умиротворение.\nПовышает Знание цели на 4 и Обаяние на 2.",
+    ["激活的羁绊"] = "Активированный резонанс",
 }

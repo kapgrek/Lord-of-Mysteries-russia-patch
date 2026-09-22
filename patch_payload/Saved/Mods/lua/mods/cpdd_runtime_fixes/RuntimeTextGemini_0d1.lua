@@ -254,4 +254,5 @@ return {
     ["Overwrite existing loadout with current outfit?"] = "Заменить существующую экипировку текущей экипировкой?",
     ["Teleport to Basement"] = "Телепортироваться в подвал",
     ["Wave Riding - Stealth Monster Skill"] = "Верховая езда на волнах — навык скрытного монстра",
+    ["Activated Resonance: 15"] = "Активировано резонансов: 15",
 }

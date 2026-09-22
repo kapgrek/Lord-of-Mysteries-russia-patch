@@ -281,4 +281,5 @@ return {
     ["Carefully explore the surroundings"] = "Внимательно исследуйте окрестности",
     ["Achievement: First Victory of the Divine Throne"] = "Достижение: Первая победа Божественного Трона.",
     ["New Cemetery Scanning Shot"] = "Новый снимок кладбища",
+    ["All allies gain <HighLight>10%</> Attack, [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка.",
 }

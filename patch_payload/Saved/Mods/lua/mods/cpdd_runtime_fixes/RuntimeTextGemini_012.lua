@@ -244,4 +244,5 @@ return {
     ["Perform 5 marionette transformations in total"] = "Выполните в общей сложности 5 трансформаций марионеток.",
     ["King's Treasury"] = "Королевская казна",
     ["<Highlight>Craftsmanship:</> Sharp-thorn ring ornament.\nPower and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and Darkness, you are both a hunter chasing decay and a sharp sword stirring up the winds."] = "<Highlight>Мастерство:</> шипастый браслет\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
+    ["Equip to gain the [Mystery Pryer] resonance"] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами]",
 }

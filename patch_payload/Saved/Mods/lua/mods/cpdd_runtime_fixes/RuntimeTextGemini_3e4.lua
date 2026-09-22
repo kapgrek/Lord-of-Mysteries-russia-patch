@@ -273,4 +273,5 @@ return {
     ["Player is offline."] = "Игрок не в сети.",
     ["Manage Groups"] = "Управление группами",
     ["I'll go from the right in a moment; you and Wool distract him."] = "Я сейчас пойду справа; вы с Вулом отвлекаете его.",
+    ["Equip to gain the [Hunter] bond."] = "Экипируйте, чтобы получить резонанс [Охотник].",
 }

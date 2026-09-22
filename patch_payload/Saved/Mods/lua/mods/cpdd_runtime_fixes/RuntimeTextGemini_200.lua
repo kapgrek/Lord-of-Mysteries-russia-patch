@@ -240,4 +240,5 @@ return {
     ["The other party is currently performing a divination..."] = "Другая сторона в настоящее время проводит гадание...",
     ["Create/join 1 Club"] = "Создать/вступить в 1 клуб",
     ["Return to the <h>table</> to open the package"] = "Вернитесь в таблицу <h>table</>, чтобы открыть пакет.",
+    ["Equip to gain the [Spellcasting] bond."] = "Экипируйте, чтобы получить резонанс [Колдовство].",
 }

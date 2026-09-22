@@ -250,4 +250,5 @@ return {
     ["Leave Skana's hideout."] = "Покиньте убежище Сканы.",
     ["I'm dead, go find my colleague."] = "Я мертв, иди найди моего коллегу.",
     ["Thank you for your help, {{Sir|Madam}}. You aren't hurt, are you?"] = "Спасибо за помощь, {{Sir|Madam}}. Ты не ранен, не так ли?",
+    ["[Rock]"] = "[Скала]",
 }

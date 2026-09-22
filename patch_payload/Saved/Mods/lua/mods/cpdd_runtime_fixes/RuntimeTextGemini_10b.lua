@@ -277,4 +277,6 @@ return {
     ["Triumph Badge acquisition efficiency increase buff"] = "Увеличение эффективности получения Триумфального значка",
     ["The Astrolabe User imprisons two players via <Disable> Knowledge Restriction </>. If the restriction is not <Disable> broken </> within the time limit, the players will <Disable> die </>."] = "Пользователь Астролябии заключает в тюрьму двух игроков с помощью ограничения знаний <Disable> </>. Если ограничение <Disable> не будет нарушено </> в течение срока, игроки <Disable> умрут </>.",
     ["*Hic*... I, I can still eat!"] = "*Ик*... Я, я все еще могу есть!",
+    ["激活羁绊：4"] = "Активировано резонанса: 4",
+    ["Equip to gain the [Giant Dragon Inheritance] resonance."] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона].",
 }

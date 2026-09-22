@@ -257,4 +257,5 @@ return {
     ["Allow resource pack download via mobile data"] = "Разрешить загрузку пакета ресурсов через мобильные данные",
     ["Birth Ritual"] = "Ритуал рождения",
     ["Attack increases the damage dealt by the character. The extent of the increase depends on the skill multiplier and, based on the damage type, is affected by the target's physical Defense or magical Defense.\n\nCharacter Physical Attack: <Mark>4609</>-<Mark>5246</>\nCharacter Magical Attack: <Mark>4609</>-<Mark>5246</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4609</>-<Mark>5246</>\nМаг. атака персонажа: <Mark>4609</>-<Mark>5246</>",
+    ["[Aurora Order]"] = "[Орден Авроры]",
 }

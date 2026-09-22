@@ -242,5 +242,7 @@ return {
     ["Ms. Massimo! Long time no see, didn't you go to Limon?"] = "Мисс Массимо! Давно не виделись, ты не был в Лимоне?",
     ["The lights go out, the performance stops again, and the lyrics appear below the stage."] = "Свет гаснет, представление снова останавливается, и под сценой появляются слова песни.",
     ["View the Intis Territory Map, needs to be replaced with a custom event"] = "Просмотр карты территории Интиса, необходимо заменить пользовательским событием.",
-    ["Life School of Thought"] = "Жизненная школа мысли",
+    ["Activated Resonance: 9"] = "Активировано резонансов: 9",
+    ["Life School of Thought"] = "Школа Мысли Жизни",
+    ["Equip to gain the [Secrets Suppliant] bond"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
 }

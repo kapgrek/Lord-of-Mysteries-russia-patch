@@ -245,4 +245,5 @@ return {
     ["Makayla "] = "Макайла",
     ["A Tripwire has appeared at the Night Emperor's Judgment Plaza <HyperLink stylename=\"Chat_Hyperlink\" u=\"loc=16201,-9392,4157,2,5200148,0\"> [Star Plateau (261,6)] </>. Pick it up to use the Tripwire skill on knights!"] = "На площади Суда Ночного Императора <HyperLink stylename=\"Chat_Hyperlink\" u=\"loc=16201,-9392,4157,2,5200148,0\"> [Звездное плато (261,6)] </> появился растяжитель. Поднимите его, чтобы использовать навык Tripwire на рыцарях!",
     ["Silent Position"] = "Безмолвная позиция",
+    ["装配后获得【航海家】羁绊。"] = "Экипируйте, чтобы получить резонанс [Мореплаватель].",
 }

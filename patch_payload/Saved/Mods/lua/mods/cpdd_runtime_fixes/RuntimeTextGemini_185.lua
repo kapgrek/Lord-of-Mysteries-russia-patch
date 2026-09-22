@@ -258,4 +258,5 @@ return {
     ["Ritual materials needed to complete the quest \"[God's Descent] Glory Weaving · Wings\"."] = "Ритуальные материалы, необходимые для выполнения квеста «[Сошествие Бога] Плетение Славы · Крылья».",
     ["Cognition Experience, used to increase Acting level and divinity level."] = "Опыт познания, используемый для повышения уровня актерского мастерства и уровня божественности.",
     ["Pick Up Cake"] = "Забрать торт",
+    ["Equip to gain the [Life School of Thought] resonance"] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]",
 }

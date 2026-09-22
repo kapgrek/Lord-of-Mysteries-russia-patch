@@ -246,4 +246,5 @@ return {
     ["Sweet Baboon Cuteness"] = "Милая милашка павиана",
     ["Field Mark"] = "Полевая отметка",
     ["Area Name Popup_Hall"] = "Название области Popup_Hall",
+    ["Equip to gain the [Sleepless] bond."] = "Экипируйте, чтобы получить резонанс [Бессонный].",
 }

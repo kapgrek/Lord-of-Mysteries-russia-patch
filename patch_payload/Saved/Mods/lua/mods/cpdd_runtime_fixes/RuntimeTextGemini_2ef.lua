@@ -266,4 +266,5 @@ return {
     ["The Fashion Association is recently preparing to hold an exchange meeting limited to internal members. I hadn't planned on inviting any newcomers, until I saw your outfit, which made me change my mind slightly. However, if you want to get an invitation, you must pass my test first."] = "Ассоциация моды недавно готовится провести встречу по обмену, ограниченную внутренними членами. Я не планировала приглашать новичков, пока не увидела ваш наряд, и немного изменила свое мнение. Однако, если вы хотите получить приглашение, сначала вам необходимо пройти мой тест.",
     ["Default is yes; other fields for conventional backswing are not effective."] = "По умолчанию — да; другие поля для обычного обратного замаха не эффективны.",
     ["Each stack causes a *f** Slow effect; the higher the stacks, the stronger the Slow"] = "Каждый стек вызывает эффект *f** Slow; чем выше стеки, тем сильнее Медленный",
+    ["Activated Resonance: 7"] = "Активировано резонансов: 7",
 }

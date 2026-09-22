@@ -241,4 +241,5 @@ return {
     ["Fragment Receiver 3_3"] = "Приёмник фрагментов 3_b",
     ["Player chair"] = "Стул игрока",
     ["Select an <Highlight>Employee</>; employees can increase the workshop's production speed."] = "Выберите <Highlight>Employee</>; сотрудники могут увеличить скорость производства в цехе.",
+    ["Equip to gain the [Navigator] bond"] = "Экипируйте, чтобы получить резонанс [Мореплаватель]",
 }

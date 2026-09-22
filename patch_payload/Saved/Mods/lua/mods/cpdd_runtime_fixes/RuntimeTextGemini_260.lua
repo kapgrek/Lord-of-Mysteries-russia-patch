@@ -263,4 +263,5 @@ return {
     ["Player perspective"] = "Точка зрения игрока",
     ["Tea, teacher..."] = "Чай, учитель...",
     ["Melon Stall Customer"] = "Клиент киоска «Дыня»",
+    ["Equip to gain the [Prisoner] bond"] = "Экипируйте, чтобы получить резонанс [Узник]",
 }

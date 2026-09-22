@@ -247,4 +247,5 @@ return {
     ["Appearance Interface Preview"] = "Внешний вид Предварительный просмотр интерфейса",
     ["Calculate Collision Radius"] = "Вычислить радиус столкновения",
     ["When you gaze into mystery, mystery is also gazing into you."] = "Когда вы смотрите на тайну, тайна тоже смотрит на вас.",
+    ["[Spectator]"] = "[Зритель]",
 }

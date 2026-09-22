@@ -286,4 +286,5 @@ return {
     ["Transfer schools?"] = "Перевести школы?",
     ["<P_Heart> (The invention notes he just mentioned, could they be related to the factory?) </>"] = "<P_Heart> (Примечания к изобретению, которые он только что упомянул, могут ли они иметь отношение к фабрике?) </>",
     ["But, sir, you must take your medicine. Otherwise, your illness will never get better..."] = "Но, сэр, вы должны принять лекарство. Иначе ваша болезнь никогда не поправится...",
+    ["装配后获得【窥秘人】羁绊。"] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
 }

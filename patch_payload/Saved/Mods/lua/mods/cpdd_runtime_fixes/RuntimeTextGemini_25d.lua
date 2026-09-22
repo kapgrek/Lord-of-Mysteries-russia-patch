@@ -253,4 +253,5 @@ return {
     ["Open beginner guide"] = "Открыть руководство для начинающих",
     ["Viscountess phase change invincibility"] = "Непобедимость изменения фазы виконтессы",
     ["Material Shop"] = "Магазин материалов",
+    ["【黑夜】"] = "[Ночь]",
 }

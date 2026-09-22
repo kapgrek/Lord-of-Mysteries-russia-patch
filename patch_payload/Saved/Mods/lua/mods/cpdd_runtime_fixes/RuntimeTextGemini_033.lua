@@ -263,4 +263,5 @@ return {
     ["Beyonder Gift"] = "Потусторонний дар",
     ["Leading the City of Silver toward the light, even if it means sacrificing everything... this is the meaning of this title that the Chief taught me."] = "Вести Город Серебра к свету, даже если это означает пожертвовать всем... вот значение этого титула, которому научил меня Вождь.",
     ["<P_Heart>(Reading carefully)</> What are these characters? <P_Heart>(Panic)</> Why don't I recognize a single one? <P_Heart>(Rage)</> Why am I so stupid! Even after going to night school, I don't recognize a single character!"] = "<P_Heart> (внимательно читаем) </> Что это за символы? <P_Heart>(Паника)</> Почему я не узнаю ни одного? <P_Heart>(Ярость)</> Почему я такой глупый! Даже пойдя в вечернюю школу, я не узнаю ни одного персонажа!",
+    ["[Nighthawk]"] = "[Ночной Ястреб]",
 }

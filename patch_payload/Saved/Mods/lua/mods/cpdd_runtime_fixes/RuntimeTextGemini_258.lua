@@ -271,4 +271,5 @@ return {
     ["Sculpture"] = "Скульптура",
     ["Soul-soothing failed, the situation has become more serious, {Player1}'s Sanity -{N}"] = "Душу успокоить не удалось, ситуация стала серьезнее, здравомыслие {Player1} -{N}",
     ["What's happening to me..."] = "Что со мной происходит...",
+    ["Equip to gain the [Life School of Thought] resonance."] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни].",
 }

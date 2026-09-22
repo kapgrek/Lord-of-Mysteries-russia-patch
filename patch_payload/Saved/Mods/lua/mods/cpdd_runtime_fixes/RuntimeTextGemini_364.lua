@@ -257,4 +257,5 @@ return {
     ["In map combat instances, players cannot attack teammates in their squad or team, nor members of the same club; other players are considered hostile."] = "В боях на карте игроки не могут атаковать товарищей по команде в своем отряде или команде, а также членов одного и того же клуба; другие игроки считаются враждебными.",
     ["Who is she? Why do you think she is taking revenge on you?"] = "Кто она? Как ты думаешь, почему она тебе мстит?",
     ["Doctor, your clothes..."] = "Доктор, ваша одежда...",
+    ["Auto-Chess"] = "Автошахматы",
 }

@@ -234,4 +234,5 @@ return {
     ["Observe the source of the sound"] = "Обратите внимание на источник звука",
     ["???: Sell it. I've already found a buyer, Welch."] = "???: Продать. Я уже нашел покупателя, Уэлч.",
     ["Test log performance"] = "Тестирование производительности журнала",
+    ["[Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
 }

@@ -232,4 +232,5 @@ return {
     ["Using Shuffle Cards restores 25% of your Max Health."] = "Использование перетасованных карт восстанавливает 25% вашего максимального здоровья.",
     ["I heard about that too. Plus, there was a rain of gold pounds in the central square, and many ordinary people who came into contact with the golden rain have developed problems."] = "Я тоже об этом слышал. Плюс на центральной площади прошел дождь из золотых фунтов, и у многих простых людей, соприкоснувшихся с золотым дождем, возникли проблемы.",
     ["Direction of the Wind"] = "Направление ветра",
+    ["【罪犯】"] = "[Преступник]",
 }

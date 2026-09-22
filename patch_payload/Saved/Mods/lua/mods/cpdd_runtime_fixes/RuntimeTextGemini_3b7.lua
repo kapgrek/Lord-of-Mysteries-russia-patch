@@ -251,4 +251,6 @@ return {
     ["Homestead Visit"] = "Посещение усадьбы",
     ["The number of participants for our %s profession has reached the limit; cannot enter."] = "Количество участников нашей профессии %s достигло предела; не могу войти.",
     ["Troublesome? What do you mean? Why would I jump off a cliff?"] = "Проблемно? Что ты имеешь в виду? Зачем мне прыгать со скалы?",
+    ["装配后获得【执法者】羁绊"] = "Экипируйте, чтобы получить резонанс [Юрист]",
+    ["Equip to gain the [Giant Dragon Inheritance] resonance"] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]",
 }

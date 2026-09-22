@@ -241,4 +241,5 @@ return {
     ["【Effect】In Flames"] = "【Эффект】В огне",
     ["Miss Kimberly, you are like the most beautiful star in the night sky."] = "Мисс Кимберли, вы как самая красивая звезда на ночном небе.",
     ["Association"] = "Ассоциация",
+    ["Equip to gain the [Reader] resonance."] = "Экипируйте, чтобы получить резонанс [Чтец].",
 }

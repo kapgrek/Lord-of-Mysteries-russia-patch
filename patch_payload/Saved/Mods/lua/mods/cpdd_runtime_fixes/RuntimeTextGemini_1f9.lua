@@ -277,4 +277,5 @@ return {
     ["Little Linda"] = "Маленькая Линда",
     ["Malicious Dive"] = "Вредоносное погружение",
     ["(How should I get Carmen down from the wall?)"] = "(Как мне спустить Кармен со стены?)",
+    ["Equip to gain the [Hermit] resonance."] = "Экипируйте, чтобы получить резонанс [Школа Тайн].",
 }

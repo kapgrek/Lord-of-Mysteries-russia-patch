@@ -226,4 +226,5 @@ return {
     ["At first, I was wary of it. It would strip away the user's sanity, causing them to lose their corresponding emotional capabilities; in severe cases, they could even be corrupted or die."] = "At first, I was wary of it. It would strip away the user's Рассудок, causing them to lose their corresponding emotional capabilities; in severe cases, they could even be corrupted or die.",
     ["are that new possibility."] = "это новая возможность.",
     ["Linda, you did your best, it's okay, there's still the next match!"] = "Линда, ты сделала все возможное, ничего страшного, впереди еще следующий матч!",
+    ["[Evernight Goddess]"] = "[Богиня Вечной Ночи]",
 }

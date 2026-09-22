@@ -236,4 +236,6 @@ return {
     ["We can help a big shot like you?"] = "Мы можем помочь такой важной персоне, как ты?",
     ["A summoning mechanism has been activated at the Blood Emperor's Conquest Plaza <HyperLink stylename=\"Chat_Hyperlink\" u=\"loc=-5325,-7697,3844,2,5200148,0\"> [Star Plateau (46,23)] </>. Complete the mechanism to trigger a team summon!"] = "На площади завоеваний Кровавого Императора <HyperLink stylename=\"Chat_Hyperlink\" u=\"loc=-5325,-7697,3844,2,5200148,0\"> [Звездное плато (46,23)] </> активирован механизм призыва. Завершите механизм вызова команды!",
     ["Rare: White Fox Fur Blanket"] = "Редко: Одеяло из меха белой лисы",
+    ["【施法者】"] = "[Колдовство]",
+    ["Equip to gain the [Sailor] bond"] = "Экипируйте, чтобы получить резонанс [Моряк]",
 }

@@ -259,4 +259,5 @@ return {
     ["Me? Oh... my story isn't very interesting; I'll probably spend my boring life here."] = "Мне? Ох... моя история не очень интересна; Наверное, я проведу здесь свою скучную жизнь.",
     ["Perfect Dodge Listener"] = "Идеальный слушатель Dodge",
     ["Imprisonment Dodge_Percentage Bonus"] = "Бонус уклонения от тюремного заключения_Процент",
+    ["Equip to gain the [Spellcraft] resonance."] = "Экипируйте, чтобы получить резонанс [Колдовство].",
 }

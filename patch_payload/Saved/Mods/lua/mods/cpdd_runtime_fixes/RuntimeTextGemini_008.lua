@@ -254,4 +254,5 @@ return {
     ["I am waiting for a certain pianist to arrive."] = "Я жду приезда некоего пианиста.",
     ["Collection progress"] = "Ход сбора",
     ["Well... first of all, regarding accommodation—if you are not staying long-term, a regular room in a hotel for 2 soli a night is enough."] = "Ну... во-первых, что касается проживания — если вы не останавливаетесь на длительный срок, вполне достаточно обычного номера в отеле за 2 суле в сутки.",
+    ["Equip to gain the [Sleepless] bond"] = "Экипируйте, чтобы получить резонанс [Бессонный]",
 }

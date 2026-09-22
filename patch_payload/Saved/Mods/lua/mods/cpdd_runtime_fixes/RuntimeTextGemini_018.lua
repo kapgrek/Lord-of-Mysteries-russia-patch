@@ -231,4 +231,5 @@ return {
     ["Poison mushroom mark buff - search for units in AI and delete"] = "Бафф метки ядовитого гриба - поиск юнитов в ИИ и удаление",
     ["The Story Must Go On - Find Speer"] = "История должна продолжаться – Найдите Шпеера",
     ["Ask for the reason for working"] = "Спросите причину работы",
+    ["施法"] = "Колдовство",
 }

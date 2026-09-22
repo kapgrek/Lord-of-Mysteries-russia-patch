@@ -272,4 +272,5 @@ return {
     ["<h>Summon Spirit Medium</>"] = "<h>Средний дух призыва</>",
     ["Attack increases the damage dealt by the character. The extent of the increase depends on the Skill multiplier and, based on the damage type, is affected by the target's physical Defense or magic Defense.\n\nCharacter Physical Attack: <Mark>4617</>-<Mark>5254</>\nCharacter Magic Attack: <Mark>4617</>-<Mark>5254</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4617</>-<Mark>5254</>\nМаг. атака персонажа: <Mark>4617</>-<Mark>5254</>",
     ["Tang Zixi"] = "Тан Цзыси",
+    ["【通识者】"] = "[Знаток]",
 }

@@ -251,4 +251,6 @@ return {
     ["Awaken Roselle's will"] = "Пробудить волю Розеллы",
     ["Wow! What are you doing?"] = "Ух ты! Что ты делаешь?",
     ["Anomaly Event - The Taste of a Witch - Reporting to Frye"] = "Аномальное событие — Вкус ведьмы — Отчет Фраю",
+    ["装配后获得【水手】羁绊。"] = "Экипируйте, чтобы получить резонанс [Моряк].",
+    ["All allies gain 10% Attack. [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
 }

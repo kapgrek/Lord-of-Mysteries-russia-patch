@@ -250,4 +250,5 @@ return {
     ["It's quite red."] = "Он совсем красный.",
     ["Something like this shouldn't just be left on the table."] = "Подобные вещи нельзя просто так оставлять на столе.",
     ["Permanent 0/10"] = "Постоянно 0/10",
+    ["Equip to gain the [Secrets Suppliant] bond."] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах].",
 }

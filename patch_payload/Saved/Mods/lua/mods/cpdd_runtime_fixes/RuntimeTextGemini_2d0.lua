@@ -243,4 +243,5 @@ return {
     ["The Candle of Eternal Darkness was originally created by Azik, but was later exploited by others to become a tool for manipulating villagers into sacrificing their lives."] = "Свеча Вечной Тьмы была первоначально создана Азиком, но позже была использована другими, чтобы стать инструментом для манипулирования сельскими жителями, заставляя их жертвовать своими жизнями.",
     ["Participate in Phantom of the Opera gameplay"] = "Примите участие в игровом процессе Phantom of the Opera.",
     ["Get some good <h>rest</>"] = "Получите хороший <h>rest</>",
+    ["2 [Spellcraft]额外获得15%攻击力，且每次施法：自身获得1%攻击力。"] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
 }

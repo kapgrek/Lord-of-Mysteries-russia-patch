@@ -218,5 +218,6 @@ return {
     ["Peak of the Gods Team Interface Click Avatar"] = "Интерфейс команды Peak of the Gods Нажмите Аватар",
     ["A sweetheart? That's right, it is the age of youth and romance..."] = "Милая? Правильно, это возраст молодости и романтики...",
     ["Mail (0/000)"] = "Почта (0/000)",
+    ["装配后获得【磐石】羁绊"] = "Экипируйте, чтобы получить резонанс [Скала]",
     ["[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
 }

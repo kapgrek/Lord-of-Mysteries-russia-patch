@@ -257,4 +257,5 @@ return {
     ["Arbiter Defense Expertise"] = "Экспертиза защиты арбитра",
     ["Skill Enhancement increased by <Mark>15</>."] = "Улучшение навыков увеличено на <Mark>15</>.",
     ["Equip 1 piece of equipment with a Beyonder affix"] = "Оснастите 1 предмет снаряжения аффиксом Потусторонний.",
+    ["Equip to gain the [Spellcasting] bond"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
 }

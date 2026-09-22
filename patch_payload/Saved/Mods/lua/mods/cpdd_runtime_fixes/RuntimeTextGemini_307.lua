@@ -265,4 +265,6 @@ return {
     ["<P_Heart> (Ms. \"Justice\" looks young, but is highly respected, like a big shot...) </>"] = "<P_Heart> (Г-жа «Справедливость» выглядит молодо, но пользуется большим уважением, как большая шишка...) </>",
     ["May Manor Boss 2"] = "Босс Мэйского поместья b",
     ["Hornacis Mountain Range Order World completion reached 100%."] = "Завершение заказа горного хребта Хорнацис достигло 100%.",
+    ["Activated Resonance: 1"] = "Активирован резонанс: 1",
+    ["[Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
 }

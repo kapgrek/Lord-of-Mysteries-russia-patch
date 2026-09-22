@@ -254,4 +254,5 @@ return {
     ["Herodotus Position 2"] = "Геродот Позиция b",
     ["Check player's current profession form"] = "Проверьте текущую форму профессии игрока",
     ["Obtained by purchasing at the General Store - Reimbursement Shop"] = "Можно приобрести в разделе «Универмаг — Магазин компенсаций»",
+    ["6 [Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
 }

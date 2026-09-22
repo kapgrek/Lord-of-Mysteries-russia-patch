@@ -259,4 +259,5 @@ return {
     ["Spectator - Acting Skill - Mental Comfort"] = "Зритель – Актерское мастерство – Душевный комфорт",
     ["Custom expression added successfully."] = "Пользовательское выражение успешно добавлено.",
     ["Looking forward to your lecture!"] = "С нетерпением жду вашей лекции!",
+    ["装配后获得【极光会】羁绊。"] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
 }

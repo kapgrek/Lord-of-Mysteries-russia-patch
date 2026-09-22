@@ -242,4 +242,5 @@ return {
     ["Riel Bieber selects the <Disable>closest</> player as a target and grabs them to devour."] = "Райэль Бибер выбирает ближайшего игрока <Disable></> в качестве цели и хватает его, чтобы сожрать.",
     ["Not sure, it looks like it can hold a lot of people."] = "Не уверен, похоже, он может вместить много людей.",
     ["2 Fake 2 Real"] = "2 фейк 2 настоящий",
+    ["Activated Resonance: {0}"] = "Активировано резонансов: {0}",
 }

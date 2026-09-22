@@ -245,4 +245,5 @@ return {
     ["May the Goddess protect you!"] = "Да хранит тебя Богиня!",
     ["Knock on Door - Selena's Bedroom"] = "Постучите в дверь - Спальня Селены",
     ["Dark shadows are the masters of the day"] = "Темные тени — хозяева дня",
+    ["Equip to gain the [Lawyer] bond."] = "Экипируйте, чтобы получить резонанс [Юрист].",
 }

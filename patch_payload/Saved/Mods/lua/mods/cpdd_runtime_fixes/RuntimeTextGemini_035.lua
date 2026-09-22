@@ -241,4 +241,5 @@ return {
     ["Bingham"] = "Бингем",
     ["Arcane Missile"] = "Чародейская стрела",
     ["If you are interested in all three of the above, then I refuse to forge weapons for you."] = "Если вас интересуют все три вышеперечисленных, то я отказываюсь ковать для вас оружие.",
+    ["【执法者】"] = "[Юрист]",
 }

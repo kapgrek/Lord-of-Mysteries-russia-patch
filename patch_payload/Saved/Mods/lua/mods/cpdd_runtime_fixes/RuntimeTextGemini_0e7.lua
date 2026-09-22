@@ -257,4 +257,5 @@ return {
     ["Scavenger Granny"] = "Бабушка-мусорщица",
     ["Password attempt limit reached"] = "Достигнут лимит попыток ввода пароля",
     ["B Protection 1038"] = "Б Защита 1abb",
+    ["[Spellcasting]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
 }

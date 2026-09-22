@@ -252,4 +252,5 @@ return {
     ["Spirit Body Wealthy Young Woman"] = "Духовное тело богатой молодой женщины",
     ["Now look! Jude has dropped the mask and is demanding debt from him, and he still thinks the guy is a good person!"] = "Теперь смотри! Джуд сбросил маску и требует от него долга, а он все еще считает этого парня хорошим человеком!",
     ["Observe the stationary <h> crowd </>"] = "Наблюдайте за неподвижной толпой <h> </>.",
+    ["装配后获得【极光会】羁绊"] = "Экипируйте, чтобы получить резонанс [Орден Авроры]",
 }

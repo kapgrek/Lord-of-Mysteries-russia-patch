@@ -238,4 +238,5 @@ return {
     ["Examine <h>Ground</>"] = "Осмотрите <h>Ground</>.",
     ["And you must experience it during the Red Moon!"] = "И вы должны испытать это во время Красной Луны!",
     ["What can I do for you now?"] = "Что я могу сделать для тебя сейчас?",
+    ["装配后获得【水手】羁绊"] = "Экипируйте, чтобы получить резонанс [Моряк]",
 }

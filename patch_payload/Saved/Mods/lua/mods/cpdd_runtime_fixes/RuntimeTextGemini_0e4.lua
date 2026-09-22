@@ -258,4 +258,5 @@ return {
     ["Good day, {{ Mr.| Ms.}}, welcome to the Club."] = "Добрый день, {{ Mr.| Ms.}}, добро пожаловать в Клуб.",
     ["Achievement: Traces of the Dead"] = "Достижение: Следы мертвых",
     ["We are creating a miracle! Surely no one in the School of Art has ever performed on a Snowy Mountain before."] = "Мы творим чудо! Наверняка никто в Школе искусств еще никогда не выступал на Снежной горе.",
+    ["【仲裁人】"] = "[Арбитр]",
 }

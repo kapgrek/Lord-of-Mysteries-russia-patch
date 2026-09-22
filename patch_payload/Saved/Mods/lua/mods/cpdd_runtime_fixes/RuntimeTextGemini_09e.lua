@@ -293,4 +293,5 @@ return {
     ["Ask <h> Martha </> about the legend"] = "Спросите <h> Марту </> о легенде.",
     ["Fewer and fewer people are buying books. If Consuna hadn't gone missing, she would definitely know what to do."] = "Все меньше и меньше людей покупают книги. Если бы Консуна не пропала, она бы точно знала, что делать.",
     ["King of Good Luck Luck"] = "Король удачи Удача",
+    ["[Monster]"] = "[Монстр]",
 }

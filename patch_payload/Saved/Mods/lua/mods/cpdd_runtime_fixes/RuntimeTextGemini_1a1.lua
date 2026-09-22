@@ -242,4 +242,5 @@ return {
     ["<Assistant_Title1>Hymn of Steam</>\n<Assistant_Title2>Achievement Category: </>Leisure - May Manor · Castle\n<Assistant_Title2>Unlock Condition: </>Workshops have produced a total of 5000 items"] = "<Assistant_Title1>Steam Hymn</>\n<Assistant_Title2>Категория достижения: </>Замок для отдыха\n<Assistant_Title2>Условия разблокировки: </>Всего в мастерской произведено 5000 изделий",
     ["New in this version"] = "Новое в этой версии",
     ["Succeed in the check to help Polo resolve doubts"] = "Успешно пройдите проверку, чтобы помочь Поло разрешить сомнения.",
+    ["Equip to gain the [Evernight Goddess] bond."] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи].",
 }

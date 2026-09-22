@@ -265,4 +265,5 @@ return {
     ["Continue deeper into the sewage pool"] = "Продолжайте идти глубже в бассейн сточных вод.",
     ["Use to obtain <Highlight>Midsummer Night Top</>"] = "Используйте, чтобы получить <Highlight>Топ в летнюю ночь</>.",
     ["The crowd begins to recede, night shrouds the market, and in the lightless places, evil lurks.\nThe girl in the long dress flees in panic, the Ripper follows closely like a shadow.\nWho, and at what time, is willing to step forward to save her life?"] = "Толпа начала отступать, и тьма окутала рынок. Там, где не было света, таился грех. \nДевушка в длинной юбке в панике убежала, а Потрошитель следовал за ней, словно тень. \nКто и когда захочет выйти вперед и спасти ей жизнь?",
+    ["[Apothecary]"] = "[Аптекарь]",
 }

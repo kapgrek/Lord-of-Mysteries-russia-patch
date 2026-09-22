@@ -239,4 +239,5 @@ return {
     ["724 Prologue-Strange Ritual Replacement"] = "724 Пролог-Странная Ритуальная Замена",
     ["In the dark pulp, poison and darkness are deposited together."] = "В темной мякоти откладываются вместе яд и тьма.",
     ["Edge obstacle 2"] = "Краевое препятствие b",
+    ["装配后获得【刺客】羁绊"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
 }

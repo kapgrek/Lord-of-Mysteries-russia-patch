@@ -238,4 +238,6 @@ return {
     ["Insufficient Aggregation Factors to increase the bound Soule consumption cap."] = "Недостаточно коэффициентов агрегирования для увеличения ограничения потребления связанного соула.",
     ["Summon Point 32"] = "Точка призыва bb",
     ["Wow—! Congratulations, beautiful lady. I believe it will definitely bring you unexpected returns."] = "Ух ты-! Поздравляю, прекрасная леди. Я верю, что это обязательно принесет вам неожиданную прибыль.",
+    ["激活羁绊：0"] = "Активировано резонансов: 0",
+    ["[Night]"] = "[Ночь]",
 }

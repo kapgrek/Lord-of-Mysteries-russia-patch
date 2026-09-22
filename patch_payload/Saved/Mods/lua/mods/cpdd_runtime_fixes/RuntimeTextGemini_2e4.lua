@@ -268,4 +268,5 @@ return {
     ["Remove specified character effect from specified object"] = "Удалить указанный эффект персонажа из указанного объекта",
     ["Dedication Monument 1"] = "Памятник посвящения b",
     ["We set off from Backlund and specifically chose an inland route. But the other party was very clear about our route and personnel configuration, and they set an ambush along the way."] = "Мы отправились из Баклунда и специально выбрали внутренний маршрут. Но противнику было очень ясно известно о нашем маршруте и составе личного состава, и они устроили засаду по пути.",
+    ["[Savant]"] = "[Знаток]",
 }

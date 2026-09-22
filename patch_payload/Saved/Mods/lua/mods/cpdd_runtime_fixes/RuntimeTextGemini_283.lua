@@ -269,4 +269,5 @@ return {
     ["Go to specified coordinates to interact and enter instance  Player creates public objects based on InstanceID list (does not take effect in open world)  Object plays specified dialogue content  "] = "Перейдите к указанным координатам для взаимодействия и входа в экземпляр. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект воспроизводит указанное содержимое диалога.",
     ["I can only contact them."] = "Я могу только связаться с ними.",
     ["After thousands of years, what are they still guarding?"] = "Что они все еще охраняют спустя тысячи лет?",
+    ["Equip to gain the [Evernight Goddess] resonance."] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи].",
 }

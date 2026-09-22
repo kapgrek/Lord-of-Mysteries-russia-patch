@@ -269,4 +269,6 @@ return {
     ["A potion is not an energy drink, nor is it a collection of beautiful poems."] = "Зелье – это не энергетический напиток и не сборник красивых стихов.",
     ["Yeah, it's always sunny here, unlike Backlund, which is always covered in rain and thick fog."] = "Да, здесь всегда солнечно, в отличие от Баклунда, который всегда покрыт дождем и густым туманом.",
     ["【Dungeon】Blackthorn Incident Book, 1300014"] = "【Подземелье】Книга происшествий в Блэкторне, 1300014",
+    ["装配后获得【磐石】羁绊。"] = "Экипируйте, чтобы получить резонанс [Скала].",
+    ["装配后获得【值夜者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
 }

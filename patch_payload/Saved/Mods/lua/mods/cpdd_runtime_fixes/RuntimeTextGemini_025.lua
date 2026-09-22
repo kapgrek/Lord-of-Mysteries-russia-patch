@@ -249,4 +249,5 @@ return {
     ["Movement speed reduced - Walking"] = "Скорость передвижения снижена - Ходьба",
     ["Neil always shows me the amber he just acquired, and he says there is a bug inside it. I saw it too. The bug is curled up, just like a newborn baby.\nLucky Neil, I hope his good fortune lasts until it reaches our entire Green City."] = "Нил всегда показывал мне свой новый янтарь и говорил, что в нем была ошибка, и я тоже ее видел. Жук свернулся калачиком, как новорожденный ребенок. \n Какой удачливый Нил, я надеюсь, что его удача продолжится и во всем нашем Зеленом городе.",
     ["In competitive mode, <Highlight>kill </> %s/%s Witches"] = "В соревновательном режиме <Highlight>kill </> %s/%s Ведьм.",
+    ["装配后获得【生命教派】羁绊"] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]",
 }

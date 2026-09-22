@@ -277,4 +277,5 @@ return {
     ["The twentieth time, starting over..."] = "В двадцатый раз, начиная сначала...",
     ["Woman Whose Bread Was Stolen"] = "Женщина, у которой украли хлеб",
     ["Delve into the Extraordinary World, explore the backstories of characters caught in the tides of the era, and feel the intertwining of fate and mystery."] = "Погрузитесь в необыкновенный мир, изучите предыстории персонажей, попавших в приливы эпохи, и почувствуйте переплетение судьбы и тайны.",
+    ["Equip to gain the [Iron Wall] resonance"] = "Экипируйте, чтобы получить резонанс [Железная стена]",
 }

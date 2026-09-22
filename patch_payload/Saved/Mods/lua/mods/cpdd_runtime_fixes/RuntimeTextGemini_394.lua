@@ -251,4 +251,5 @@ return {
     ["Complete the May Manor · Garden Brass Book challenge [Twin Fruit Core · Normal]"] = "Завершите испытание May Manor · Garden Brass Book [Двойное фруктовое ядро ​​· Обычное]",
     ["Increases Magic Armor Break by {*d,Ini,mDefReduce_N} points, and Magic Pathways additionally increase Skill Enhancement by {*d,Ini,SkillPlus_N} points. \n Magic Pathways include: Apprentice, Spectator, Mystery Pryer."] = "Увеличивает количество очков прорыва магической защиты {*d,Ini,mDefReduce_N}, а магические каналы дополнительно увеличивают очки улучшения навыков {*d,Ini,SkillPlus_N}. \n Магические пути включают в себя: ученик, наблюдатель и вуайерист.",
     ["A dazzling light flashes, and you see Mr. Fool standing before you, waiting for you to wake up..."] = "Вспыхивает ослепительный свет, и вы видите, как перед вами стоит Мистер Шут и ждет, пока вы проснетесь...",
+    ["装配后获得【怪物】羁绊。"] = "Экипируйте, чтобы получить резонанс [Монстр].",
 }

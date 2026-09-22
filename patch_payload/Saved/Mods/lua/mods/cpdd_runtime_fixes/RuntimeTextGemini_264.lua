@@ -278,4 +278,6 @@ return {
     ["    Your kindness is as always, your behavior confuses me. \n    Are you really just pitying me? Is this your true intention? \n    Can you at least speak to me face-to-face once? \n    ...I suppose this letter won't receive a reply from you either, but I will always be here, waiting for your appearance. \n    I have never seen spring; in my world, only you have arrived."] = "Ваша доброта так же хороша, как и всегда, но ваше поведение меня смущает. \n　Ты правда меня жалеешь? Это то, что вы имеете в виду? \n　Можете ли вы поговорить со мной лицом к лицу хотя бы один раз? \n　…Возможно, я не получу от тебя ответа на это письмо, но я всегда буду здесь, ожидая твоего появления. \n Я никогда не видел весны. В моем мире ты здесь единственный.",
     ["<P_Heart>(Indescribable music...)</>"] = "<P_Heart>(Неописуемая музыка...)</>",
     ["Did you find the clues you needed?"] = "Вы нашли нужные подсказки?",
+    ["Equip to gain the [Navigator] resonance"] = "Экипируйте, чтобы получить резонанс [Мореплаватель]",
+    ["装配后获得【收尸人】羁绊"] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов]",
 }

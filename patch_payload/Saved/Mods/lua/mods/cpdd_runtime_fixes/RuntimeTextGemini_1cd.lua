@@ -265,4 +265,6 @@ return {
     ["Player Marionette - Sunset Hurricane"] = "Игровая Марионетка - Закатный ураган",
     ["You are truly amazing! I just felt little Lily calling me in my heart... I'll go find her right away!"] = "Вы действительно потрясающие! Я просто почувствовала, как маленькая Лили зовёт меня в своём сердце... Я немедленно пойду её искать!",
     ["About Pete..."] = "О Пите...",
+    ["Equip to gain the [Hunter] bond"] = "Экипируйте, чтобы получить резонанс [Охотник]",
+    ["Equip to gain the [Nighthawk] bond."] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
 }

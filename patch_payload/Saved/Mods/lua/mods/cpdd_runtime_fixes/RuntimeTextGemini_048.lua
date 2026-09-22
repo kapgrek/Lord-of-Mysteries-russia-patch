@@ -277,4 +277,5 @@ return {
     ["Track and head to"] = "Отслеживайте и отправляйтесь в",
     ["Glory Inheritance"] = "Наследство славы",
     ["Open to randomly obtain a <Highlight>62 item level</> or <Highlight>64 item level</> orange or gold quality piece of Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Orange Beyonder Equipment Chest, Gray Fog Dust Box, Gray Fog Crystal Box, Gold Thread, Beyonder material, medicine, food, etc."] = "При открытии случайным образом дарует предмет экипировки оранжевого или золотого качества <Highlight>62-го ур. снаряжения</> или <Highlight>64-го ур. снаряжения</>, а также Торговый контракт для обмена на <Highlight>передаваемые предметы</> на <Highlight>торговом рынке</>: <Highlight>передаваемые</> сундуки потустороннего оранжевого снаряжения, ларцы пыли Серого Тумана, ларцы кристаллов Серого Тумана, золотые нити, потусторонние материалы, зелья, еду и т. д.",
+    ["Equip to gain the [Spectator] resonance."] = "Экипируйте, чтобы получить резонанс [Зритель].",
 }

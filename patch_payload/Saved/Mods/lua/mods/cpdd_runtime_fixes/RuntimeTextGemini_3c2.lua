@@ -263,4 +263,5 @@ return {
     ["Angry Slam grants Monster Special Defense"] = "Angry Slam дает монстру особую защиту",
     ["Eileen"] = "Эйлин",
     ["誓死斗争"] = "Борьба не на жизнь, а на смерть",
+    ["Equip to gain the [Planter] bond."] = "Экипируйте, чтобы получить резонанс [Плантатор].",
 }

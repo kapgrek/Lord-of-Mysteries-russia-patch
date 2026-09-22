@@ -252,4 +252,5 @@ return {
     ["Analyze the altar location"] = "Проанализируйте расположение алтаря",
     ["Wang Xiaojian"] = "Ван Сяоцзянь",
     ["Amelia Fuller-3"] = "Амелия Фуллер-3",
+    ["Equip to gain the [Berserker] resonance"] = "Экипируйте, чтобы получить резонанс [Берсерк]",
 }

@@ -255,4 +255,5 @@ return {
     ["Resentment Suppression"] = "Подавление обиды",
     ["Team squad exchange successful."] = "Обмен составами команд прошел успешно.",
     ["Did something fall off the Golden Wolf?"] = "Что-то упало с Золотого Волка?",
+    ["Secrets Suppliant"] = "Молящийся о Секретах",
 }

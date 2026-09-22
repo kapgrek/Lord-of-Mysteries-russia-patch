@@ -278,4 +278,5 @@ return {
     ["Mysterious Shop urgently needs essential oil"] = "Таинственному магазину срочно нужны эфирные масла",
     ["[Exit Conversation] I'm not getting involved"] = "[Завершение разговора] Я не буду вмешиваться",
     ["The current gear level Secret Treasure can convert at most<Highlight>%s</> Secret Treasures. The conversion limit has been reached; excess progress will be automatically stored, and new Secret Treasures will be converted after the new gear level is unlocked."] = "Текущий уровень снаряжения Secret Treasure может конвертировать не более <Highlight>%s</> Secret Treasures. Достигнут лимит конвертации; избыточный прогресс будет автоматически сохранен, а новые секретные сокровища будут конвертированы после разблокировки нового уровня снаряжения.",
+    ["装配后获得【魔女教派】羁绊"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы]",
 }

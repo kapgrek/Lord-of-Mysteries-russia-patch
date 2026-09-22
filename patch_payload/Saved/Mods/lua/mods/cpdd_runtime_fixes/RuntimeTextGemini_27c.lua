@@ -236,4 +236,6 @@ return {
     ["Recently, it has been circulating at sea that there is a milky-white mushroom popular among pirates. If you slice the skin, snow-white milk will flow out, and it tastes like tender fish meat."] = "В последнее время на море ходят слухи, что среди пиратов есть популярный молочно-белый гриб. Если разрезать шкурку, вытечет белоснежное молоко, по вкусу напоминающее нежное рыбное мясо.",
     ["Parick, it's too embarrassing, stop your rhythm!"] = "Парик, это слишком неловко, прекрати ритм!",
     ["That's right! This {{ Mr. | Ms. }}, you must also want to board the magnificent and mysterious \"Golden Dream\"!"] = "Это верно! На этом {{ Mr. | Ms. }} вы тоже наверняка захотите подняться на борт великолепной и загадочной «Золотой мечты»!",
+    ["装配后获得【隐秘学派】羁绊"] = "Экипируйте, чтобы получить резонанс [Школа Тайн]",
+    ["所有友军获得<HighLight>10%</>攻击力，[Spellcasting]每次施法后叠加攻击力。"] = "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка.",
 }

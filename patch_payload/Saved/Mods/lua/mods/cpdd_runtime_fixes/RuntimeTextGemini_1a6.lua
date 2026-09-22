@@ -278,4 +278,6 @@ return {
     ["Increase Attack and Defense."] = "Увеличение атаки и защиты.",
     ["[Ripper Theater] Deduction Gameplay - Hide and Seek"] = "[Театр Риппера] Геймплей Deduction — прятки",
     ["Mechanism 2 - Correct Player Count Buff"] = "Механизм 2 — усиление правильного количества игроков",
+    ["Equip to gain the [Lawyer] resonance"] = "Экипируйте, чтобы получить резонанс [Юрист]",
+    ["Equip to gain the [Apothecary] resonance."] = "Экипируйте, чтобы получить резонанс [Аптекарь].",
 }

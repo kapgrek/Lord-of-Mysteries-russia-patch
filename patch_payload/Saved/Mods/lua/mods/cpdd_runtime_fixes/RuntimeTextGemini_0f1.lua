@@ -246,4 +246,5 @@ return {
     ["And then you invited me to dinner, oh, I must have been drunk when I accepted your confession!"] = "А потом вы пригласили меня на ужин, ох, я, должно быть, был пьян, когда принял ваше признание!",
     ["Uppercut! Straight punch! Ha!"] = "Апперкот! Прямо удар! Ха!",
     ["Pairing failed! The other party already has a dance partner."] = "Сопряжение не удалось! У другой стороны уже есть партнер по танцам.",
+    ["激活羁绊：12"] = "Активировано резонансов: 12",
 }

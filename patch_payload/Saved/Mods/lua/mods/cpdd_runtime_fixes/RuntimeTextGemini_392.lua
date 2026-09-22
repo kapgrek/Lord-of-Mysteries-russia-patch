@@ -253,4 +253,5 @@ return {
     ["Connection Subject Type"] = "Тип субъекта подключения",
     ["Damn it... Grandpa Thomas, I'm sorry."] = "Черт побери... Дедушка Томас, прости.",
     ["\n	If a guest wishes to purchase items at this store, please strictly follow the rules below. Violators will bear the consequences.\n1. Our business hours are from 3:00 to 5:00 every day.\n2. Staff working hours are at 10:00 every day.\n3. Please do not trust the words of the staff.\n4. After purchasing three items, please leave the store immediately."] = "\n　Если клиенты хотят приобрести товары в нашем магазине, пожалуйста, строго соблюдайте следующие правила. Тот, кто нарушит это правило, будет нести ответственность за последствия. \n1. Наш магазин открыт с 3:00 до 5:00 каждый день. \n2. Рабочее время клерка – 10 часов каждый день. \n3. Пожалуйста, не верьте словам клерка. \n4. После трехкратной покупки товара, пожалуйста, немедленно покиньте магазин.",
+    ["6 [Spellcasting]额外获得55%攻击力，且每次施法：自身获得2%攻击力。"] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
 }

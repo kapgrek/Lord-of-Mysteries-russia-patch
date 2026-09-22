@@ -274,4 +274,5 @@ return {
     ["Listen to their troubles and guide them to overcome negative mental states."] = "Выслушайте их проблемы и помогите им преодолеть негативные психические состояния.",
     ["Transform into Starlight, gain *f** Damage Reduction"] = "Превратитесь в звездный свет и получите Снижение урона *f**.",
     ["Insufficient Chamber of Commerce tickets."] = "Недостаточное количество билетов Торгово-промышленной палаты.",
+    ["Equip to gain the [Corpse Collector] resonance"] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов]",
 }

@@ -251,4 +251,6 @@ return {
     ["A series of performances after spirit vision"] = "Серия перформансов после духовного видения",
     ["Back Room"] = "Задняя комната",
     ["(Selena is most likely praying to an evil existence. If this continues, she will become an evil spirit, and everyone present will be in danger... it's best to perform an interrupted ritual immediately.)"] = "(Селена, скорее всего, молится злому существованию. Если так будет продолжаться, она станет злым духом, и все присутствующие окажутся в опасности... лучше немедленно провести прерванный ритуал.)",
+    ["装配后获得【阅读者】羁绊"] = "Экипируйте, чтобы получить резонанс [Чтец]",
+    ["所有友军获得<HighLight>10%</>攻击力。[Spellcraft]每次施法后叠加攻击力。"] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
 }

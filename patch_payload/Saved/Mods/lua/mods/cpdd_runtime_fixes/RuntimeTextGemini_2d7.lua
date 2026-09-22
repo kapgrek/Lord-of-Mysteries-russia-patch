@@ -257,4 +257,5 @@ return {
     ["There is an unexpected person at home—Benson. Seeing Klein, he greets him with a smile."] = "Дома появился неожиданный человек — Бенсон. Увидев Клейн, он приветствует его с улыбкой.",
     ["Water... give me water..."] = "Вода... дай мне воды...",
     ["Fashion Duel \"Moonlight Lady\" Failure"] = "Модная дуэль «Лунная леди» Провал",
+    ["Equip to gain the [Spellcasting] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
 }

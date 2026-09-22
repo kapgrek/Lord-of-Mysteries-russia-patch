@@ -269,4 +269,5 @@ return {
     ["Blooming Flowers of the Other Shore"] = "Цветущие цветы того берега",
     ["If a skill is on cooldown, clicking the skill will perform a Basic Attack instead."] = "Если навык находится на перезарядке, при нажатии на него вместо этого будет выполнена базовая атака.",
     ["Submit item (set submission ID); object teleports within the same scene."] = "Отправить элемент (установить идентификатор отправки); объект телепортируется в пределах одной сцены.",
+    ["Equip to gain the [Death Sect] bond"] = "Экипируйте, чтобы получить резонанс [Секта Смерти]",
 }

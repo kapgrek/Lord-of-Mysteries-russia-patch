@@ -268,4 +268,5 @@ return {
     ["This quest step will automatically end after waiting 10s (this is rollback step 1)"] = "Этот этап квеста автоматически завершится после ожидания 10 секунд (это шаг отката 1).",
     ["At least you have completely eliminated the danger, and no one else will be harmed because of this, right?"] = "По крайней мере, вы полностью устранили опасность, и больше никто из-за этого не пострадает, верно?",
     ["No Mirror Test"] = "Тест без зеркала",
+    ["Equip to gain the [Forsaken Land of the Gods] resonance"] = "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]",
 }

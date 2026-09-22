@@ -243,4 +243,5 @@ return {
     ["Cat-Teasing Girl"] = "Девушка-дразнящая кошку",
     ["I would like to tell you about our university's signature event, rowing..."] = "Хочу рассказать вам о знаковом мероприятии нашего университета – гребле...",
     ["The candlelight flickers in the wind until the last bit of light is extinguished."] = "Огонь свечи мерцает на ветру, пока не погаснет последний кусочек света.",
+    ["[Berserker]"] = "[Берсерк]",
 }

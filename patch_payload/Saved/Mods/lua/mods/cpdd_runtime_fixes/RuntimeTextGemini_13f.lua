@@ -234,4 +234,5 @@ return {
     ["Sequence 4 Xio"] = "Последовательность 4, Сио",
     ["I can see that this is your inner desire. I am willing to give some discounts to those who are eager to learn. For just five pence, I will take you on a tour of the whole of Tingen."] = "Я вижу, что это ваше внутреннее желание. Я готов дать некоторые скидки тем, кто хочет учиться. Всего за пять пенсов я проведу вам экскурсию по всему Тингену.",
     ["Respawn point-Process 0"] = "Точка возрождения-Процесс b",
+    ["激活羁绊：9"] = "Активировано резонансов: 9",
 }

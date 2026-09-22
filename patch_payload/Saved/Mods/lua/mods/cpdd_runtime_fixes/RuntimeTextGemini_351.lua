@@ -240,4 +240,5 @@ return {
     ["Look at the ground"] = "Посмотрите на землю",
     ["Camera zoom out"] = "Уменьшить масштаб камеры",
     ["Kind young master, I announce that you have also passed the investigation!"] = "Добрый молодой господин, сообщаю, что вы тоже прошли расследование!",
+    ["【药师】"] = "[Аптекарь]",
 }

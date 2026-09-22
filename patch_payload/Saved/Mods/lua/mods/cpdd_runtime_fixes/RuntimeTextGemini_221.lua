@@ -270,4 +270,5 @@ return {
     ["<P_Heart>(Are these... Ramsay's paintings? He was the royal court painter, and his paintings hung in Emperor Roselle's bedroom...)</>"] = "<P_Heart>(Это... картины Рамзи? Он был придворным художником, и его картины висели в спальне императора Розеллы...)</>",
     ["The wind that misses you has finally reached the Tarot Club"] = "Ветер, скучающий по тебе, наконец-то добрался до Клуба Таро.",
     ["毛绒绒的猫耳装饰，带来令人卸下心防的活泼与俏皮。"] = "Пушистые кошачьи ушки, чья живость и игривость заставляют любого ослабить бдительность.",
+    ["Equip to gain the [Criminal] bond."] = "Экипируйте, чтобы получить резонанс [Преступник].",
 }

@@ -278,4 +278,5 @@ return {
     ["You!!! Delicious!!!"] = "Ты!!! Вкусный!!!",
     ["When attacking a Mystery Pryer Pathway Beyonder, Damage Increased by {*.1f**,F1690001,MysteryPryerHurtMulti}."] = "При атаке Mystery Pryer Pathway Потусторонний урон увеличивается на {*.1f**,F1690001,MysteryPryerHurtMulti}.",
     ["Yi Ao"] = "Йи Ао",
+    ["装配后获得【观众】羁绊。"] = "Экипируйте, чтобы получить резонанс [Зритель].",
 }

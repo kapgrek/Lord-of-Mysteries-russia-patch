@@ -253,4 +253,5 @@ return {
     ["Sigh, you don't need to take responsibility for Arnold or Cara... This awkward personality of yours, when exactly are you going to change it?"] = "Эх, тебе не нужно брать на себя ответственность за Арнольда или Кару... Эту твою неловкую личность, когда именно ты собираешься ее изменить?",
     ["Green Portal 2"] = "Зеленый Портал 2",
     ["Focus fire on him for the last bit, ignore that guard."] = "В последнюю очередь сосредоточьте на нем огонь, не обращайте внимания на этого охранника.",
+    ["4 [Spellcasting]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。"] = "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
 }

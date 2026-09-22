@@ -244,4 +244,5 @@ return {
     ["Vivian Granger"] = "Вивиан Грейнджер",
     ["Always full? Sounds like the boss is a very diligent person."] = "Всегда полный? Судя по всему, начальник очень старательный человек.",
     ["Extortion"] = "Вымогательство",
+    ["[Sailor]"] = "[Моряк]",
 }

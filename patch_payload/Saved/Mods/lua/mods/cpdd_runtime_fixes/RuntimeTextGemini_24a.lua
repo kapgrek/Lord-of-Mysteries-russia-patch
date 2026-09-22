@@ -233,4 +233,5 @@ return {
     ["World Calamity"] = "Мировое бедствие",
     ["This time it's very simple, please go to the chair in front and sit down... Oh, please be careful!"] = "На этот раз все очень просто: подойдите к стулу впереди и сядьте... О, пожалуйста, будьте осторожны!",
     ["Use Eyes of Mystery Prying to capture invisible knowledge in the surrounding environment, condensing it into a mysterious piece of paper containing information. Once unfolded, a small amount of information will appear on the paper. After you read it, the paper will dissipate along with your spirituality. While peeking at mysteries, remember to keep secrets.\nGrants yourself +1 Knowledge."] = "С помощью Ока Тайноведа уловите незримые знания в окружающем мире, материализовав таинственный лист с посланием. При разворачивании на нём проступит крупица сведений. Когда вы прочтёте его, бумага рассеется вместе с духовностью. Проникая в тайны, помните о необходимости хранить их в секрете.\nПовышает собственное Знание на 1.",
+    ["Equip to gain the [Bard] resonance."] = "Экипируйте, чтобы получить резонанс [Певец].",
 }

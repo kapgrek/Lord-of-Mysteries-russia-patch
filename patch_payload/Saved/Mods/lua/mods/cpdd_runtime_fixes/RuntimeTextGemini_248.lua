@@ -227,4 +227,5 @@ return {
     ["Soule Banknote"] = "Банкнота Соула",
     ["Warenly "] = "Варенли",
     ["After switching, the action points of the previous Order will be retained. There is a 7×24 hour cooldown period after switching Orders once any Order reaches level 4."] = "После переключения очки действия предыдущего Приказа сохранятся. Период восстановления составляет 7×24 часа после переключения Приказов, как только любой Приказ достигает уровня 4.",
+    ["Equip to gain the [Savant] bond."] = "Экипируйте, чтобы получить резонанс [Знаток].",
 }

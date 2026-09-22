@@ -247,4 +247,5 @@ return {
     ["Yes, there is such a place. However, the \"revelations\" they give are sometimes more puzzling than the fare. Speaking of fare, driver, how do we calculate this trip?"] = "Да, есть такое место. Однако «откровения», которые они дают, иногда более загадочны, чем стоимость проезда. Говоря о стоимости проезда, водитель, как нам рассчитать эту поездку?",
     ["Consuna's Notes (3)"] = "Записки Консуны (3)",
     ["<CostRed>{1,2,(Brand has expired)}</>Monster Specialization increased by <Mark>180</>.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Специализация по монстрам повышается на <Mark>180</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
+    ["装配后获得【超凡生物】羁绊。"] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо].",
 }

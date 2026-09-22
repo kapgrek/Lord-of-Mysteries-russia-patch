@@ -262,4 +262,5 @@ return {
     ["Purchase a total of 48 EXP"] = "Купите в общей сложности 48 опыта.",
     ["Scar"] = "Шрам",
     ["Charity funds donated to the Saint Selena Cathedral? That's great, are you interested, Ando?"] = "Благотворительные средства пожертвованы собору Святой Селены? Это здорово, тебе интересно, Андо?",
+    ["装配后获得【航海家】羁绊"] = "Экипируйте, чтобы получить резонанс [Мореплаватель]",
 }

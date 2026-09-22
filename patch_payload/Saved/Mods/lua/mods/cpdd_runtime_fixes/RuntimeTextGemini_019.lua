@@ -231,4 +231,5 @@ return {
     ["Insufficient inventory."] = "Недостаточный инвентарь.",
     ["Goodbye, I hope you like this Club."] = "До свидания, надеюсь, вам понравится этот клуб.",
     ["Browse books"] = "Просмотр книг",
+    ["Equip to gain the [Iron Wall] bond"] = "Экипируйте, чтобы получить резонанс [Железная стена]",
 }

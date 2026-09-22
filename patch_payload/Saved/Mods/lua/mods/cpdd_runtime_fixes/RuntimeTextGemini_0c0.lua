@@ -269,4 +269,6 @@ return {
     ["If the next station <LightHighlight> is [Winery] </>, next station purchase price <LightHighlight> -40% </>"] = "Если следующая станция <LightHighlight> — [Винодельня] </>, цена покупки следующей станции <LightHighlight> -40% </>.",
     ["End-of-Days Hunt Professional Ranking Title Rewards"] = "Награды за титул профессионального рейтинга End-of-Day Hunt",
     ["Mechanical Expert"] = "Эксперт-механик",
+    ["Equip to gain the [Rock] bond"] = "Экипируйте, чтобы получить резонанс [Скала]",
+    ["装配后获得【囚犯】羁绊"] = "Экипируйте, чтобы получить резонанс [Узник]",
 }

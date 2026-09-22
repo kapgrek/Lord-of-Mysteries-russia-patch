@@ -252,4 +252,5 @@ return {
     ["<P_Heart>(Unexpectedly cheerful and easy to talk to...) </> Easy, easy... My name is {{Name}}, what should I call you, sir?"] = "<P_Heart>(Неожиданно веселый и легкий в общении...) </> Легко, легко... Меня зовут {{Name}}, как мне вас звать, сэр?",
     ["Castle Workshop - Craft Brewery."] = "Замковая мастерская – крафтовая пивоварня.",
     ["Through devout prayer, gain the gaze of the God, pray for and receive a Holy Light that envelops you, purifying the corruption tainted within your own spirituality and repairing the mental exhaustion caused by combat.\nGrants yourself +4 Knowledge and +2 Charisma."] = "Искренней молитвой обратите на себя взор божества, моля об окутывающем священном свете, очищающем духовность от скверны и восстанавливающем душевные силы после битвы.\nПовышает собственное Знание на 4 и Обаяние на 2.",
+    ["[Warrior]"] = "[Воин]",
 }

@@ -239,4 +239,5 @@ return {
     ["08_Coffee House (Under Renovation)"] = "08_Кофейня (на ремонте)",
     ["Get close to the <h> crowd </>"] = "Подойдите ближе к толпе <h> </>",
     ["Hello, I'm from the Intis Military Academy. I'm doing field research."] = "Здравствуйте, я из Военной академии Интис. Я провожу полевые исследования.",
+    ["Equip to gain the [Assassin] resonance"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
 }

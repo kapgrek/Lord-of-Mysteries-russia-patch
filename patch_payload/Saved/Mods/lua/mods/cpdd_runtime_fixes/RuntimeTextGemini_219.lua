@@ -261,4 +261,5 @@ return {
     ["Bunny Barney"] = "Банни Барни",
     ["Root out the black shadow"] = "Искорените черную тень",
     ["Lante"] = "Ланте",
+    ["Planter"] = "Плантатор",
 }

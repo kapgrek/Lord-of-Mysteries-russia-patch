@@ -259,4 +259,5 @@ return {
     ["Miss Daisy, I am Officer {{PlayerName}}. A lot has happened while you were in a coma."] = "Мисс Дейзи, я офицер {{PlayerName}}. Многое произошло, пока ты был в коме.",
     ["Tingen... Tingen is just a university city, with no hope and no love."] = "Тинген... Тинген — всего лишь университетский город, без надежды и без любви.",
     ["She and he, he and she, she and she, he and he—lingering and poignant love stories, all at the Tingen Grand Theater!"] = "Она и он, он и она, она и она, он и он — долгие и острые любовные истории, и все это в Большом театре Тинген!",
+    ["4 [Spellcasting]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。"] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
 }

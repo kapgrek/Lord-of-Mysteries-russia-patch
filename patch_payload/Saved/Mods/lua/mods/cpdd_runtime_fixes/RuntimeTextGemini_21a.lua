@@ -258,4 +258,5 @@ return {
     ["Go find Frye"] = "Иди найди Фрая",
     ["...In broad daylight, is this something that can be said directly!"] = "...Средь бела дня об этом можно сказать прямо!",
     ["View Commission"] = "Посмотреть комиссию",
+    ["[Death Sect]"] = "[Секта Смерти]",
 }

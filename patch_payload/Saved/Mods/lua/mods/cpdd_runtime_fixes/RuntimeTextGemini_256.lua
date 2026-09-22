@@ -239,4 +239,6 @@ return {
     ["Equipment plan name modified successfully."] = "Название плана оборудования успешно изменено.",
     ["Boxing Championship"] = "Чемпионат по боксу",
     ["Upper Garment Top"] = "Верх верхней одежды",
+    ["装配后获得【狂战士】羁绊。"] = "Экипируйте, чтобы получить резонанс [Берсерк].",
+    ["Equip to gain the [Nighthawk] bond"] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб]",
 }

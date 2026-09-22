@@ -232,4 +232,5 @@ return {
     ["200 more to obtain"] = "еще 200, чтобы получить",
     ["Miss Daisy?!"] = "Мисс Дейзи?!",
     ["Fog Forest Sprout"] = "Туманный Лесной Росток",
+    ["Equip to gain the [Prisoner] resonance."] = "Экипируйте, чтобы получить резонанс [Узник].",
 }

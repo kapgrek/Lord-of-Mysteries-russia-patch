@@ -261,4 +261,5 @@ return {
     ["{{Mr.|Ms.}}, take a look at this? Dividing estates, drawing up wills, writing petitions—I can do it all."] = "{{Mr.|Ms.}}, взгляни на это? Разделить имения, составить завещания, написать прошения — все это я умею.",
     ["Where did they run off to?"] = "Куда они убежали?",
     ["Listen for image wiping completion"] = "Прослушивание завершения очистки изображения",
+    ["激活羁绊：2"] = "Активировано резонанса: 2",
 }

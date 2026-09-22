@@ -254,4 +254,5 @@ return {
     ["Consvis"] = "Консвис",
     ["By consuming potions to become a Beyonder or advancing in sequence, one can elevate their level of life."] = "Принимая зелья, чтобы стать Потусторонним, или последовательно продвигаясь вперед, можно повысить свой уровень жизни.",
     ["Potion room"] = "Комната зелий",
+    ["Equip to gain the [Beyonder Creature] resonance"] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]",
 }

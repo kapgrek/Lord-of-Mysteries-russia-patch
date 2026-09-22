@@ -246,4 +246,5 @@ return {
     ["Eternal Moon-Light · [Appearance Name]"] = "Вечный лунный свет · [Имя появления]",
     ["5200027 Sefirah Castle Open World"] = "5200027 Замок Сефира Открытый мир",
     ["Activate Resonance"] = "Активировать резонанс",
+    ["【收尸人】"] = "[Сборщик Трупов]",
 }

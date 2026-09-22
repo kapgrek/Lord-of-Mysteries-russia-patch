@@ -245,4 +245,5 @@ return {
     ["Kind {{sir|madam}}, thank you for listening to my rambling. Knowing that there is still someone in this world who remembers Jenny is enough to comfort me."] = "Добрый {{sir|madam}}, спасибо, что выслушали мою бессвязность. Сознания, что в этом мире еще есть кто-то, кто помнит Дженни, достаточно, чтобы утешить меня.",
     ["Reprimand Monterey"] = "Выговор Монтерею",
     ["Divine Gift Hotline: corruption"] = "Горячая линия божественного дара: Осквернение",
+    ["装配后获得【药师】羁绊"] = "Экипируйте, чтобы получить резонанс [Аптекарь]",
 }

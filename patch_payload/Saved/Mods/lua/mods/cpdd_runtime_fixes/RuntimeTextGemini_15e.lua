@@ -269,4 +269,5 @@ return {
     ["Check the source of the gunshot"] = "Проверьте источник выстрела",
     ["Blurred Vision"] = "Затуманенное зрение",
     ["Pass through all tiles without repeating to reach the prayer altar and chant the incantation"] = "Пройдите через все плитки, не повторяя, чтобы добраться до молитвенного алтаря и произнести заклинание.",
+    ["Equip to gain the [Savant] bond"] = "Экипируйте, чтобы получить резонанс [Знаток]",
 }

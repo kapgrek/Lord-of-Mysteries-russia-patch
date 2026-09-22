@@ -212,4 +212,5 @@ return {
     ["Dowsing Rod Navigation Performance: Position"] = "Характеристики навигации лозоискательного стержня: положение",
     ["If the next stop <LightHighlight> is the [Food Shop] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%."] = "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканная масляная живопись] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%.",
     ["Kill Ancestor Armor on Hard difficulty"] = "Убить Доспех предков на высоком уровне сложности.",
+    ["Equip to gain the [Lawyer] resonance."] = "Экипируйте, чтобы получить резонанс [Юрист].",
 }

@@ -233,4 +233,6 @@ return {
     ["Obtained <Highlight>Chaos Greatsword</>"] = "Получен <Highlight>Двуручный меч Хаоса</>.",
     ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Sylvia</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Sylvia</>.",
     ["Go to the barn"] = "Иди в сарай",
+    ["[Life School of Thought]"] = "[Школа Мысли Жизни]",
+    ["装配后获得【隐秘学派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Школа Тайн].",
 }

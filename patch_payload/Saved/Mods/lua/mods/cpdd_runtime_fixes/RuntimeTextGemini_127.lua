@@ -252,4 +252,5 @@ return {
     ["Family members are full."] = "Члены семьи сыты.",
     ["Appearance: Ancestor Armor"] = "Внешний вид: Доспехи предков",
     ["A once-in-a-lifetime proposal, family members gathered for a rare occasion, important moments in life—they all need a piano to bear witness."] = "Предложение, которое выпадает раз в жизни: члены семьи собрались по редкому случаю, важным моментам в жизни — им всем нужно пианино, чтобы засвидетельствовать это.",
+    ["激活羁绊：3"] = "Активировано резонанса: 3",
 }

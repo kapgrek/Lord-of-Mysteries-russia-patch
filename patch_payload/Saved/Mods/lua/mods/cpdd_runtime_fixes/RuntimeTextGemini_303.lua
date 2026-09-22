@@ -234,4 +234,6 @@ return {
     ["These people have different postures, but the corners of their mouths are slightly raised, their expressions frozen \n in a near-satisfied arc. \n\n But they have all stopped breathing and have been dead for a long time."] = "У этих людей разные позы, но уголки рта слегка приподняты, а выражение лица застыло в почти удовлетворенной дуге. \n\nНо они уже не дышат и давно мертвы.",
     ["This isn't the first time I've encountered this kind of thing..."] = "Я уже не первый раз сталкиваюсь с подобным...",
     ["Backline Fire Gambling II: Lose 20% current Health at the start of combat, Damage Increase +30%."] = "Backline Fire Gambling II: потеря 20% текущего здоровья в начале боя, увеличение урона +30%.",
+    ["Activated Resonance: 0"] = "Активировано резонансов: 0",
+    ["Equip to gain the [Beyonder Creature] bond"] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]",
 }

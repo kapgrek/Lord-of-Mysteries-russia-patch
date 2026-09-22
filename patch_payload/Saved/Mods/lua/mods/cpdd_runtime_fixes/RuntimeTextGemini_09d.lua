@@ -227,4 +227,5 @@ return {
     ["Not set up yet"] = "Еще не настроено",
     ["Summon an Imaginary Minion near a single enemy within a 15-meter radius. After the Imaginary Minion levitates, it will continuously fire <HighLight>4</> tracking bullets at the target, each dealing bulletdisc(*id) damage."] = "Призывает Фантазийного миньона рядом с одиночным врагом в радиусе 15 метров. Взмыв в воздух, Фантазийный миньон выпускает в цель <HighLight>4</> самонаводящихся снаряда, каждый из которых наносит bulletdisc(*id) ед. урона.",
     ["(Hero) Clown Research 2049 success buff added to clone"] = "(Герой) В клон добавлен положительный эффект успеха Клоун Research 2049.",
+    ["Equip to gain the [Criminal] resonance."] = "Экипируйте, чтобы получить резонанс [Преступник].",
 }

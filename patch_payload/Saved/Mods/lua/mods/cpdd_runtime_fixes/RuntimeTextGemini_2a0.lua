@@ -253,4 +253,5 @@ return {
     ["Carry Limit: 1000"] = "Лимит переноса: 1000",
     ["Emotion fragments have appeared. <Dungeon_Highlight> Attack them </>, don't let Luna absorb them!"] = "Появились фрагменты эмоций. <Dungeon_Highlight> Атакуйте их, </>, не позволяйте Луне поглотить их!",
     ["Battle support message has expired."] = "Срок действия сообщения боевой поддержки истек.",
+    ["All allies gain <HighLight>10%</> Attack. [Spellcasting] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
 }

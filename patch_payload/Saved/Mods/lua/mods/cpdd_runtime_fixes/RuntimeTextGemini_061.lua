@@ -270,4 +270,5 @@ return {
     ["St. Samuel Cathedral Atmosphere - Giving flowers to the bride"] = "Атмосфера собора Святого Самуила - Дарение цветов невесте",
     ["Pretend to consider"] = "Притворись, что обдумываешь",
     ["Backlund pet biscuit healing increased by 10%."] = "Эффективность лечения печеньем для питомцев Баклунда увеличена на 10%.",
+    ["Equip to gain the [Rock] resonance"] = "Экипируйте, чтобы получить резонанс [Скала]",
 }

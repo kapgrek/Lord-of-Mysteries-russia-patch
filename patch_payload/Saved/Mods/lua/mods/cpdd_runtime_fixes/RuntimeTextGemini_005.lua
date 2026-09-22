@@ -239,4 +239,5 @@ return {
     ["Chat with Rebecca"] = "Пообщаться с Ребеккой",
     ["It can keep you refreshed all night, and you definitely won't fall asleep in the archives. The effect is, um, probably ten times that of coffee."] = "Он сможет держать вас бодрым всю ночь, и в архивах вы точно не заснете. Эффект, наверное, в десять раз сильнее, чем от кофе.",
     ["Corruption Skill - Mark"] = "Навык Искажения - Марк",
+    ["Equip to gain the [Criminal] resonance"] = "Экипируйте, чтобы получить резонанс [Преступник]",
 }

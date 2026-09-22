@@ -262,4 +262,6 @@ return {
     ["【Unlocked after becoming Sequence 9, try acting as a Diviner】\n In the Hornacis Sea of Flowers, a lady stands under the wishing tree, looking around anxiously..."] = "[Открывается после прохождения 9-й серии, попробуйте сыграть в гадалку] \n В море цветов Хорнакиса женщина стояла под деревом желаний и с тревогой оглядывалась вокруг...",
     ["There is indeed a spirit present."] = "Дух действительно присутствует.",
     ["After opening, you can choose to receive a piece of <Highlight>Level 68</> <Highlight>Competition-oriented</> orange Brand Equipment."] = "После открытия вы можете выбрать предмет оранжевого Запечатленного снаряжения <Highlight>68-го уровня</> с <Highlight>боевой направленностью</>.",
+    ["装配后获得【魔女教派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы].",
+    ["[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
 }

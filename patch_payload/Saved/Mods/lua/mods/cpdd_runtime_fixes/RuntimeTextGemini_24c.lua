@@ -249,4 +249,5 @@ return {
     ["Achievement: Covenant of Time"] = "Достижение: Завет Времени",
     ["Neo"] = "Нео",
     ["<Highlight>Craftsmanship:</> Precision-forged white iron, handcrafted.\nA ruthless iron face, an irresistible fate."] = "<Highlight>Мастерство:</> кованое белое железо, ручная работа\nБезжалостный железный лик, непреодолимая судьба.",
+    ["Equip to gain the [Spellcraft] bond."] = "Экипируйте, чтобы получить резонанс [Колдовство].",
 }

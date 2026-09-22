@@ -244,4 +244,5 @@ return {
     ["This dance is incredibly stupid."] = "Этот танец невероятно глуп.",
     ["I'll Blow Up With You!!"] = "Я взорвусь вместе с тобой!!",
     ["View replaceable affixes."] = "Просмотр сменных аффиксов.",
+    ["【不眠者】"] = "[Бессонный]",
 }

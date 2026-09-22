@@ -255,4 +255,5 @@ return {
     ["Leave Response"] = "Оставить ответ",
     ["We agreed to play 'Fight the Evil,' with the loser drinking. As a result, the two of them teamed up to cheat, got me drunk, and forced me to sign an unreasonable contract!"] = "Мы договорились сыграть в «Борьбу со злом», где проигравший будет пить. В результате они объединились, чтобы обмануть меня, напоили и заставили подписать необоснованный контракт!",
     ["Consume Gold Coins to use <Orange>Throw</> to deal massive damage to normal monsters."] = "Потребляйте золотые монеты, чтобы использовать <Orange>Throw</>, чтобы нанести огромный урон обычным монстрам.",
+    ["Equip to gain the [Secrets Suppliant] resonance"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
 }

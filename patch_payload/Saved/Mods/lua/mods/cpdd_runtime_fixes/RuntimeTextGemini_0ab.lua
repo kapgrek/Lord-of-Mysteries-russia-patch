@@ -260,4 +260,5 @@ return {
     ["Use to obtain <Highlight> Tingen Time Dress </>"] = "Используйте, чтобы получить <Highlight> Платье времени Тингена </>.",
     ["Note with Honorific Name"] = "Записка с почетным именем",
     ["Long time no see, Captain Carol."] = "Давно не виделись, капитан Кэрол.",
+    ["装配后获得【罪犯】羁绊。"] = "Экипируйте, чтобы получить резонанс [Преступник].",
 }

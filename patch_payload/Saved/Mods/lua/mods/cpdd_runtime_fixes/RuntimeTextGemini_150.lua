@@ -252,4 +252,5 @@ return {
     ["Mass message sent successfully!"] = "Массовое сообщение успешно отправлено!",
     ["Finally got it. Now, it's time to get down to business..."] = "Наконец получил это. Теперь пора заняться делом...",
     ["Restores <HighLight>1</> mana when taking damage."] = "Восстанавливает ману <HighLight>1</> при получении урона.",
+    ["装配后获得【战士】羁绊。"] = "Экипируйте, чтобы получить резонанс [Воин].",
 }

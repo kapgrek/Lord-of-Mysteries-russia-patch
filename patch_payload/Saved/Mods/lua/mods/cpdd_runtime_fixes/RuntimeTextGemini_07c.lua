@@ -239,4 +239,5 @@ return {
     ["Knock four times"] = "Стукните четыре раза",
     ["<P_Heart> (Muttering to oneself) </> {{He|She}} knowing I am Watchtower and still asking if I'm a Beyonder, there must be some deep meaning behind it."] = "<P_Heart> (Бормочет про себя) </> {{He|She}} зная, что я Сторожевая Башня, и все еще спрашивая, не Потусторонний ли я, за этим должен быть какой-то глубокий смысл.",
     ["Idle Standby Performance"] = "Анимация ожидания",
+    ["Equip to gain the [Mystery Pryer] bond."] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
 }

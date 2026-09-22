@@ -248,4 +248,5 @@ return {
     ["Hidden Space - No laser effect (415)"] = "Скрытое пространство - Без лазерного эффекта (415)",
     ["Finish: Circle with a radius of 9 meters"] = "Добивание: круг радиусом 9 м",
     ["Time will change everything; stone will decay, sculptures will deteriorate and be covered in moss."] = "Время все изменит; камень истлеет, скульптуры испортятся и покроются мхом.",
+    ["[Corpse Collector]"] = "[Сборщик Трупов]",
 }

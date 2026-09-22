@@ -251,4 +251,5 @@ return {
     ["Side Drape"] = "Боковая драпировка",
     ["Get More Information from Blake"] = "Получите дополнительную информацию от Блейка",
     ["We also play hide-and-seek, and marbles... these games are quite fun too."] = "Еще мы играем в прятки и шарики... эти игры тоже очень веселые.",
+    ["[Criminal]"] = "[Преступник]",
 }

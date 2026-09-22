@@ -235,4 +235,6 @@ return {
     ["Kill Royal City Dragon"] = "Убить королевского городского дракона",
     ["Share what you've seen with Marlow"] = "Поделитесь с Марлоу тем, что вы видели",
     ["黄铜书挑战·冒险产出的兑换凭证"] = "Купон обмена, полученный в испытаниях Латунной книги: Приключения.",
+    ["【魔女教派】"] = "[Секта Демоницы]",
+    ["[Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
 }

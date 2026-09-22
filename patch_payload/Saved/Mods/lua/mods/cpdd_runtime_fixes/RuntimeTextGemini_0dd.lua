@@ -287,4 +287,6 @@ return {
     ["Good morning, Mrs. Orianna, you are as beautiful as ever every day."] = "Доброе утро, миссис Орианна, вы каждый день прекрасны, как всегда.",
     ["Fight Side by Side: Activate 12 Bonds, entire team Attack +18%, Damage +9%"] = "Сражайтесь бок о бок: активируйте 12 связей, атака всей команды +18%, урон +9%.",
     ["Ejection"] = "Катапультирование",
+    ["Activated Resonance: 16"] = "Активировано резонансов: 16",
+    ["激活羁绊：17"] = "Активировано резонансов: 17",
 }

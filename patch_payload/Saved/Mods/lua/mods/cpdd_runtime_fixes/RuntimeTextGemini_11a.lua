@@ -244,4 +244,5 @@ return {
     ["Alice!"] = "Алиса!",
     ["<M_Default>Dear Beyonder:</>\n<M_Default>%s in your family has initiated an impeachment process against the Chief %s. After the impeachment process countdown ends, if the Chief still has not logged in to handle it, %s will become the new Family Chief.</>"] = "<M_Default> Дорогой Чрезвычайный человек: </>\n<M_Default> %s в вашей семье инициировал процесс импичмента шефу %s. После завершения обратного отсчета до процесса импичмента, если вождь еще не был обработан онлайн, %s станет новым главой семьи. </>",
     ["Spear Like a Dragon"] = "Копье как дракон",
+    ["歌者"] = "Певец",
 }

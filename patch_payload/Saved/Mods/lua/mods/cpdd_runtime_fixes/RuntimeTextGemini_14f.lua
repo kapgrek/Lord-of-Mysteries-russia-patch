@@ -242,4 +242,5 @@ return {
     ["Never stop walking, tracing the past and looking toward tomorrow in the museum. Perhaps we are just silhouettes in the gaps of history."] = "Никогда не переставайте ходить, прослеживая прошлое и глядя в будущее в музее. Возможно, мы всего лишь силуэты в пробелах истории.",
     ["Hello, little {{PlayerName}}."] = "Привет, маленький {{PlayerName}}.",
     ["Complete acting story: <Highlight>The Best Weapon</>(%s/%s)"] = "Полная актерская история: <Highlight>Лучшее оружие</>(%s/%s)",
+    ["[Bard]"] = "[Певец]",
 }

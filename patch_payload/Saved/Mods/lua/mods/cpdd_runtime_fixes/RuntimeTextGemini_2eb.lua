@@ -270,4 +270,6 @@ return {
     ["Use to obtain <Highlight> Marionette Bear Backpack Back Accessory (7-day limit) </>"] = "Используйте, чтобы получить <Highlight> Аксессуар для рюкзака «Медведь-марионетка» (ограничение в 7 дней) </>",
     ["\"The initial choice was still too rash. Now it seems that whether it's an Apprentice, a Seer, or a Marauder, they would all be better.\""] = "«Первоначальный выбор все еще был слишком опрометчивым. Теперь кажется, что будь то Ученик, Провидец или Мародёр, все они будут лучше.»",
     ["<P_Heart> (Silence) </> So you changed the way you perform divination."] = "<P_Heart> (Молчание) </> Итак, вы изменили способ гадания.",
+    ["Activated Resonance: 6"] = "Активировано резонансов: 6",
+    ["2 [Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
 }

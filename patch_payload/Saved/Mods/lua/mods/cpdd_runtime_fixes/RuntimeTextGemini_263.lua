@@ -262,4 +262,5 @@ return {
     ["Select Beyonder Materials to Merge 2/2"] = "Выберите материалы Потусторонний для объединения 2/b",
     ["Achievement: Marionettist - III"] = "Достижение: Марионеттист - III",
     ["Delete mark"] = "Удалить отметку",
+    ["Equip to gain the [Iron Wall] bond."] = "Экипируйте, чтобы получить резонанс [Железная стена].",
 }

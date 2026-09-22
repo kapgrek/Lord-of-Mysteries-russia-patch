@@ -243,4 +243,5 @@ return {
     ["Quest custom event; player sends quest item; set collection item to interactive state; set collection item to interactive state."] = "Пользовательское событие квеста; игрок отправляет квестовый предмет; перевести элемент коллекции в интерактивное состояние; установить элемент коллекции в интерактивное состояние.",
     ["Already in single-player mode."] = "Уже в одиночном режиме.",
     ["Bullet?"] = "Пуля?",
+    ["Equip to gain the [Warrior] resonance"] = "Экипируйте, чтобы получить резонанс [Воин]",
 }

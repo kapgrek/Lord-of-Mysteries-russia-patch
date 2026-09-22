@@ -257,4 +257,5 @@ return {
     ["Help the lady queue"] = "Помогите женщине в очереди",
     ["Mastery of knowledge"] = "Владение знаниями",
     ["You can actively ask questions to the Strategy Assistant here."] = "Здесь вы можете активно задавать вопросы Помощнику по стратегии.",
+    ["Equip to gain the [Monster] resonance."] = "Экипируйте, чтобы получить резонанс [Монстр].",
 }

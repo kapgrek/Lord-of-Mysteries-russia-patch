@@ -286,4 +286,5 @@ return {
     ["Projection Leonard Lv4"] = "Проекция Леонарда 4 ур.",
     ["About this topic..."] = "Об этой теме...",
     ["Performance Buff"] = "Повышение производительности",
+    ["Equip to gain the [Beyonder Creature] resonance."] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо].",
 }

@@ -220,4 +220,6 @@ return {
     ["Increase 16% Pathway Suppression and Resistance"] = "Увеличение подавления и сопротивления путей на 16%.",
     ["Just like how Ray and I always make up after we argue!"] = "Точно так же, как мы с Рэем всегда миримся после ссор!",
     ["This set is good, very suitable for security company staff. How much?"] = "Этот набор хороший, очень подойдет для сотрудников охранного предприятия. Сколько?",
+    ["Equip to gain the [Seer] resonance"] = "Экипируйте, чтобы получить резонанс [Провидец]",
+    ["Equip to gain the [Seer] resonance."] = "Экипируйте, чтобы получить резонанс [Провидец].",
 }

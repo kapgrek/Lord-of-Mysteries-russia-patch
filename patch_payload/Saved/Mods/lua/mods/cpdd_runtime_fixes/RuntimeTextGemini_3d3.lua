@@ -241,4 +241,5 @@ return {
     ["Audience 11"] = "Аудитория bb",
     ["Sigh, I'll go check on Rodin's place later. The children's final exams cannot end so sloppily."] = "Эх, я пойду проверю дом Родена позже. Выпускные экзамены детей не могут заканчиваться так небрежно.",
     ["Martial Arts Study"] = "Изучение боевых искусств",
+    ["Equip to gain the [Demoness Sect] bond."] = "Экипируйте, чтобы получить резонанс [Секта Демоницы].",
 }

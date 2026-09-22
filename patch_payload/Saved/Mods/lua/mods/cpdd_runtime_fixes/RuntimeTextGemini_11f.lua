@@ -255,4 +255,5 @@ return {
     ["Astronomer"] = "Астроном",
     ["Market Items for Sale"] = "Товары на рынке для продажи",
     ["A hearty, large portion of nutritious bread, baked through a special ritual to provide you with surging vitality!"] = "Сытная, большая порция питательного хлеба, испеченного по особому ритуалу, который обеспечит вам прилив жизненных сил!",
+    ["激活羁绊：1"] = "Активирован резонанс: 1",
 }

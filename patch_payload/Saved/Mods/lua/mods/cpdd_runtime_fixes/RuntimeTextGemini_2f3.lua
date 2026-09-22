@@ -254,4 +254,5 @@ return {
     ["Chest Accessories"] = "Аксессуары для груди",
     ["Guigang"] = "Гуйган",
     ["Black screen loading, black screen without fade-in"] = "Черный экран загрузки, черный экран без затухания",
+    ["Activated Resonance: 4"] = "Активировано резонанса: 4",
 }

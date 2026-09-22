@@ -242,4 +242,5 @@ return {
     ["1 Sol"] = "1 Сол",
     ["Exceeded the quota for this identity; please note the number indicator above."] = "Превышена квота для этого удостоверения; обратите внимание на числовой индикатор выше.",
     ["<Highlight>Craft: </>Precision Cotton・Intellectual Floral Ornament・Naturalist Outfit\nWalking without stopping, tracing the past and looking toward tomorrow in the museum. Perhaps we are just silhouettes in the gaps of history."] = "<Highlight> Мастерство: </> Хлопковое прядение Seiko, интеллектуальное цветочное оформление, униформа натуралиста \n Продолжайте идти, прослеживая прошлое в музее и глядя в будущее. Возможно, мы всего лишь силуэты в порах истории.",
+    ["Equip to gain the [Monster] bond."] = "Экипируйте, чтобы получить резонанс [Монстр].",
 }

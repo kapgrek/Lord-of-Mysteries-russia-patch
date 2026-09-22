@@ -256,4 +256,5 @@ return {
     ["Skip cutscene"] = "Пропустить кат-сцену",
     ["Ella's Residence"] = "Резиденция Эллы",
     ["Lovia's spirit assists the player, providing a burst of movement speed."] = "Дух Ловии помогает игроку, даруя кратковременный мощный прирост к скорости бега.",
+    ["施法者"] = "Колдовство",
 }

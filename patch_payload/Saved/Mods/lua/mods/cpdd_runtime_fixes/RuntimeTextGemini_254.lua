@@ -284,4 +284,5 @@ return {
     ["At the moment of eternal slumber, we hope that a Beyonder will discover the disaster here, and the two worlds will be reborn because of you."] = "Мы надеемся, что в момент вечного сна Потусторонний обнаружит здешнюю катастрофу, и два мира возродятся благодаря вам.",
     ["Susie secret bond reward."] = "Награда за секретную связь Сьюзи.",
     ["Spectator - Beacon of the Mind"] = "Зритель — Маяк разума",
+    ["Equip to gain the [Aurora Order] bond"] = "Экипируйте, чтобы получить резонанс [Орден Авроры]",
 }

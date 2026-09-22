@@ -233,4 +233,6 @@ return {
     ["Trigger·See Carriage"] = "Триггер · См. каретку",
     ["Invite to Dance"] = "Пригласить на танец",
     ["The previous worker fell to his death."] = "Предыдущий рабочий упал насмерть.",
+    ["Equip to gain the [Lucky One] resonance."] = "Экипируйте, чтобы получить резонанс [Счастливчик].",
+    ["Equip to gain the [Spectator] resonance"] = "Экипируйте, чтобы получить резонанс [Зритель]",
 }

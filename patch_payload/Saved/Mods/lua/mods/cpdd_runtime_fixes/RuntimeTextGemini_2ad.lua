@@ -290,4 +290,5 @@ return {
     ["I will further investigate the missing persons cases and keep an eye on whether they are related to the Crown of Knowledge."] = "Я буду и дальше расследовать дела о пропавших без вести людях и следить за тем, имеют ли они отношение к Короне Знаний.",
     ["Whether to enable the trade war commission function"] = "Включить ли функцию комиссии по торговой войне",
     ["Royal Court Spear Soul"] = "Душа копья королевского двора",
+    ["Equip to gain the [Death Sect] bond."] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
 }

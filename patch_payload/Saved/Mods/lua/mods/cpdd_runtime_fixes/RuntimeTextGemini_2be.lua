@@ -264,4 +264,5 @@ return {
     ["Next %s"] = "Следующий %s",
     ["Upgrading the Treasury can increase the Club fund cap; the initial fund cap is 100,000."] = "Обновление Казначейства может увеличить лимит фонда Клуба; первоначальный лимит фонда составляет 100 000.",
     ["City's Dark Side · Inter-factory Racing top 200"] = "Темная сторона города · Топ-200 межзаводских гонок",
+    ["[Secrets Suppliant]"] = "[Молящийся о Секретах]",
 }

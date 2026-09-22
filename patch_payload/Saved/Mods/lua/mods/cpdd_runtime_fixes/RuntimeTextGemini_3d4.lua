@@ -236,4 +236,5 @@ return {
     ["Basic text description, plus Damage Increased, Beyonder base damage increased, etc. Basic text description, plus Damage Increased, Beyonder base damage increased, etc. Basic text description, plus Damage Increased, Beyonder base damage increased, etc."] = "Базовое текстовое описание, плюс увеличение урона, увеличение базового урона Потусторонний и т. д. Базовое текстовое описание, плюс увеличение урона, увеличение базового урона Потусторонний и т. д. Базовое текстовое описание, плюс увеличение урона, увеличение базового урона Потусторонний и т. д.",
     ["Patiently wait for <h>Daisy</> to wake up"] = "Терпеливо дождитесь пробуждения <h>Daisy</>.",
     ["Let me think about it."] = "Дай мне подумать об этом.",
+    ["Activated Resonance: %d"] = "Активировано резонансов: %d",
 }

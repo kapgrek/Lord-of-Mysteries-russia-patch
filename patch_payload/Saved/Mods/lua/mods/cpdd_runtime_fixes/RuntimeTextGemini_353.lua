@@ -246,4 +246,6 @@ return {
     ["Escape Book"] = "Книга побега",
     ["Publicity period countdown: %H hours %M minutes"] = "Обратный отсчет периода рекламы: %H часов %M минут",
     ["Character does not exist"] = "Персонаж не существует",
+    ["Equip to gain the [Arbiter] resonance."] = "Экипируйте, чтобы получить резонанс [Арбитр].",
+    ["【歌者】"] = "[Певец]",
 }

@@ -258,4 +258,5 @@ return {
     ["Switch Water Movement Mode"] = "Переключить режим движения воды",
     ["Use to obtain <Highlight>Red and Black Hairstyle</>."] = "Используйте, чтобы получить <Highlight>причёску «Красное и чёрное»</>",
     ["Makes friendly members immune to Purification."] = "Дарует союзникам невосприимчивость к Очищению.",
+    ["[Reader]"] = "[Чтец]",
 }

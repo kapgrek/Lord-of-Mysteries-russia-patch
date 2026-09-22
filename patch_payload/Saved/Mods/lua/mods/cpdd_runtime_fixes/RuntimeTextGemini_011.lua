@@ -265,4 +265,5 @@ return {
     ["Scavenge"] = "Собирать мусор",
     ["Your club has reached the weekly limit for assemblies!"] = "Ваш клуб достиг недельного лимита собраний!",
     ["Give the book to <h>Oros</>"] = "Отдайте книгу <h>Oros</>.",
+    ["Equip to gain the [Demoness Sect] resonance"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы]",
 }

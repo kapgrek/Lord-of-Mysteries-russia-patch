@@ -246,4 +246,5 @@ return {
     ["Empty alley"] = "Пустой переулок",
     ["The great adventurer Gehrman! Yes! That's the Gehrman!"] = "Великий искатель приключений Герман! Да! Это Герман!",
     ["Prologue Draw"] = "Жеребьевка пролога",
+    ["Equip to gain the [Monster] bond"] = "Экипируйте, чтобы получить резонанс [Монстр]",
 }

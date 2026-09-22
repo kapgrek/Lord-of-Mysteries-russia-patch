@@ -263,4 +263,5 @@ return {
     ["Wooden Horse Knight?"] = "Деревянный конь-рыцарь?",
     ["Meteorite will further trigger elemental resonance, dealing additional wind elemental area damage and continuously pulling in nearby monsters."] = "Метеорит дополнительно вызовет резонанс стихий, нанося дополнительный урон по области от стихии ветра и постоянно притягивая ближайших монстров.",
     ["Login failed: %s."] = "Не удалось войти: %s.",
+    ["【隐秘学派】"] = "[Школа Тайн]",
 }

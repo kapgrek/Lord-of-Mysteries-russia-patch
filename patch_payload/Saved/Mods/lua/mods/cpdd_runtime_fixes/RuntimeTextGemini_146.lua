@@ -277,4 +277,5 @@ return {
     ["Defeat the enemy president more than 10 times on the battlefield. The twilight of others is brought by you personally."] = "Победите вражеского президента более 10 раз на поле боя. Сумерки других привносите лично вы.",
     ["Teleport to Study"] = "Телепортироваться на учебу",
     ["Please select the holy ointment and the entry to be anointed first."] = "Пожалуйста, выберите святую мазь и запись, которую нужно помазать в первую очередь.",
+    ["[Hunter]"] = "[Охотник]",
 }

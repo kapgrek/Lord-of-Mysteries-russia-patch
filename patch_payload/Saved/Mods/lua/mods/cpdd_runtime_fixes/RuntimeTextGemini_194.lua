@@ -265,4 +265,5 @@ return {
     ["You cannot perform this action on a player with higher permissions."] = "Вы не можете выполнить это действие на игроке с более высокими разрешениями.",
     ["It seems this cat is also a Beyonder creature, about to fall into a deep sleep."] = "Кажется, этот кот тоже существо из Потустороннего, собирающееся погрузиться в глубокий сон.",
     ["Roselle Boss - Stage 1&2 - Sharp Knowledge - Gear mechanism permanent buff"] = "Босс Розеллы — этапы 1 и 2 — Острые знания — постоянный усиление механизма шестерни",
+    ["Equip to gain the [Aurora Order] resonance."] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
 }

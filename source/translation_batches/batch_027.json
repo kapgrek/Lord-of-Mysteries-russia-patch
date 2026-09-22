@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "130000",
     "source_cn": "翻阅书籍",
@@ -4000,5 +4000,1763 @@
     "source_cn": "召唤子爵夫人攻击目标，对目标造成一次伤害并添加幽魂附身，期间自身对目标伤害提升。\\n若目标为玩家：若一段时间内该目标死亡则幽魂会寻找附近另外一个敌方玩家附身。\\n若目标为怪物：幽魂会对怪物额外造成伤害并延长附身时间。",
     "ref_en": "Summon the Viscountess to attack the target, dealing damage and applying Ghost possession, during which your Damage Increase against the target is boosted.\\nIf the target is a player: If the target dies within a certain period, the Ghost will seek another nearby enemy player to possess.\\nIf the target is a monster: The Ghost will deal additional damage to the monster and extend the possession duration.",
     "target_ru": "Призывает виконтессу для атаки цели: наносит урон и накладывает вселение призрака, во время которого наносимый вами урон по цели повышается.\nЕсли цель — игрок: если цель погибает в течение некоторого времени, призрак вселяется в другого находящегося поблизости вражеского игрока.\nЕсли цель — монстр: призрак наносит монстру дополнительный урон и продлевает время вселения."
+  }  ,
+  {
+    "id": "130667",
+    "source_cn": "激活羁绊",
+    "ref_en": "Activate Resonance",
+    "target_ru": "Активировать резонанс"
+  }  ,
+  {
+    "id": "130668",
+    "source_cn": "* 激活羁绊",
+    "ref_en": "* Activate Resonance",
+    "target_ru": "* Активировать резонанс"
+  }  ,
+  {
+    "id": "130669",
+    "source_cn": "激活的羁绊",
+    "ref_en": "Activated Resonance",
+    "target_ru": "Активированный резонанс"
+  }  ,
+  {
+    "id": "130670",
+    "source_cn": "激活羁绊：%d",
+    "ref_en": "Activated Resonance: %d",
+    "target_ru": "Активировано резонансов: %d"
+  }  ,
+  {
+    "id": "130671",
+    "source_cn": "激活羁绊：{0}",
+    "ref_en": "Activated Resonance: {0}",
+    "target_ru": "Активировано резонансов: {0}"
+  }  ,
+  {
+    "id": "130672",
+    "source_cn": "自走棋",
+    "ref_en": "Auto-Chess",
+    "target_ru": "Автошахматы"
+  }  ,
+  {
+    "id": "130673",
+    "source_cn": "自走棋",
+    "ref_en": "AutoChess",
+    "target_ru": "Автошахматы"
+  }  ,
+  {
+    "id": "130674",
+    "source_cn": "自走棋",
+    "ref_en": "Auto Chess",
+    "target_ru": "Автошахматы"
+  }  ,
+  {
+    "id": "130675",
+    "source_cn": "激活羁绊：0",
+    "ref_en": "Activated Resonance: 0",
+    "target_ru": "Активировано резонансов: 0"
+  }  ,
+  {
+    "id": "130676",
+    "source_cn": "激活羁绊：1",
+    "ref_en": "Activated Resonance: 1",
+    "target_ru": "Активирован резонанс: 1"
+  }  ,
+  {
+    "id": "130677",
+    "source_cn": "激活羁绊：2",
+    "ref_en": "Activated Resonance: 2",
+    "target_ru": "Активировано резонанса: 2"
+  }  ,
+  {
+    "id": "130678",
+    "source_cn": "激活羁绊：3",
+    "ref_en": "Activated Resonance: 3",
+    "target_ru": "Активировано резонанса: 3"
+  }  ,
+  {
+    "id": "130679",
+    "source_cn": "激活羁绊：4",
+    "ref_en": "Activated Resonance: 4",
+    "target_ru": "Активировано резонанса: 4"
+  }  ,
+  {
+    "id": "130680",
+    "source_cn": "激活羁绊：5",
+    "ref_en": "Activated Resonance: 5",
+    "target_ru": "Активировано резонансов: 5"
+  }  ,
+  {
+    "id": "130681",
+    "source_cn": "激活羁绊：6",
+    "ref_en": "Activated Resonance: 6",
+    "target_ru": "Активировано резонансов: 6"
+  }  ,
+  {
+    "id": "130682",
+    "source_cn": "激活羁绊：7",
+    "ref_en": "Activated Resonance: 7",
+    "target_ru": "Активировано резонансов: 7"
+  }  ,
+  {
+    "id": "130683",
+    "source_cn": "激活羁绊：8",
+    "ref_en": "Activated Resonance: 8",
+    "target_ru": "Активировано резонансов: 8"
+  }  ,
+  {
+    "id": "130684",
+    "source_cn": "激活羁绊：9",
+    "ref_en": "Activated Resonance: 9",
+    "target_ru": "Активировано резонансов: 9"
+  }  ,
+  {
+    "id": "130685",
+    "source_cn": "激活羁绊：10",
+    "ref_en": "Activated Resonance: 10",
+    "target_ru": "Активировано резонансов: 10"
+  }  ,
+  {
+    "id": "130686",
+    "source_cn": "激活羁绊：11",
+    "ref_en": "Activated Resonance: 11",
+    "target_ru": "Активировано резонансов: 11"
+  }  ,
+  {
+    "id": "130687",
+    "source_cn": "激活羁绊：12",
+    "ref_en": "Activated Resonance: 12",
+    "target_ru": "Активировано резонансов: 12"
+  }  ,
+  {
+    "id": "130688",
+    "source_cn": "激活羁绊：13",
+    "ref_en": "Activated Resonance: 13",
+    "target_ru": "Активировано резонансов: 13"
+  }  ,
+  {
+    "id": "130689",
+    "source_cn": "激活羁绊：14",
+    "ref_en": "Activated Resonance: 14",
+    "target_ru": "Активировано резонансов: 14"
+  }  ,
+  {
+    "id": "130690",
+    "source_cn": "激活羁绊：15",
+    "ref_en": "Activated Resonance: 15",
+    "target_ru": "Активировано резонансов: 15"
+  }  ,
+  {
+    "id": "130691",
+    "source_cn": "激活羁绊：16",
+    "ref_en": "Activated Resonance: 16",
+    "target_ru": "Активировано резонансов: 16"
+  }  ,
+  {
+    "id": "130692",
+    "source_cn": "激活羁绊：17",
+    "ref_en": "Activated Resonance: 17",
+    "target_ru": "Активировано резонансов: 17"
+  }  ,
+  {
+    "id": "130693",
+    "source_cn": "激活羁绊：18",
+    "ref_en": "Activated Resonance: 18",
+    "target_ru": "Активировано резонансов: 18"
+  }  ,
+  {
+    "id": "130694",
+    "source_cn": "激活羁绊：19",
+    "ref_en": "Activated Resonance: 19",
+    "target_ru": "Активировано резонансов: 19"
+  }  ,
+  {
+    "id": "130695",
+    "source_cn": "激活羁绊：20",
+    "ref_en": "Activated Resonance: 20",
+    "target_ru": "Активировано резонансов: 20"
+  }  ,
+  {
+    "id": "130696",
+    "source_cn": "施法者",
+    "ref_en": "Spellcraft",
+    "target_ru": "Колдовство"
+  }  ,
+  {
+    "id": "130697",
+    "source_cn": "【施法者】",
+    "ref_en": "[Spellcraft]",
+    "target_ru": "[Колдовство]"
+  }  ,
+  {
+    "id": "130698",
+    "source_cn": "装配后获得【施法者】羁绊",
+    "ref_en": "Equip to gain the [Spellcraft] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]"
+  }  ,
+  {
+    "id": "130699",
+    "source_cn": "装配后获得【施法者】羁绊。",
+    "ref_en": "Equip to gain the [Spellcraft] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]."
+  }  ,
+  {
+    "id": "130700",
+    "source_cn": "装配后获得【施法者】羁绊",
+    "ref_en": "Equip to gain the [Spellcraft] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]"
+  }  ,
+  {
+    "id": "130701",
+    "source_cn": "装配后获得【施法者】羁绊。",
+    "ref_en": "Equip to gain the [Spellcraft] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]."
+  }  ,
+  {
+    "id": "130702",
+    "source_cn": "施法",
+    "ref_en": "Spellcasting",
+    "target_ru": "Колдовство"
+  }  ,
+  {
+    "id": "130703",
+    "source_cn": "【施法】",
+    "ref_en": "[Spellcasting]",
+    "target_ru": "[Колдовство]"
+  }  ,
+  {
+    "id": "130704",
+    "source_cn": "装配后获得【施法】羁绊",
+    "ref_en": "Equip to gain the [Spellcasting] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]"
+  }  ,
+  {
+    "id": "130705",
+    "source_cn": "装配后获得【施法】羁绊。",
+    "ref_en": "Equip to gain the [Spellcasting] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]."
+  }  ,
+  {
+    "id": "130706",
+    "source_cn": "装配后获得【施法】羁绊",
+    "ref_en": "Equip to gain the [Spellcasting] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]"
+  }  ,
+  {
+    "id": "130707",
+    "source_cn": "装配后获得【施法】羁绊。",
+    "ref_en": "Equip to gain the [Spellcasting] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Колдовство]."
+  }  ,
+  {
+    "id": "130708",
+    "source_cn": "执法者",
+    "ref_en": "Lawyer",
+    "target_ru": "Юрист"
+  }  ,
+  {
+    "id": "130709",
+    "source_cn": "【执法者】",
+    "ref_en": "[Lawyer]",
+    "target_ru": "[Юрист]"
+  }  ,
+  {
+    "id": "130710",
+    "source_cn": "装配后获得【执法者】羁绊",
+    "ref_en": "Equip to gain the [Lawyer] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Юрист]"
+  }  ,
+  {
+    "id": "130711",
+    "source_cn": "装配后获得【执法者】羁绊。",
+    "ref_en": "Equip to gain the [Lawyer] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Юрист]."
+  }  ,
+  {
+    "id": "130712",
+    "source_cn": "装配后获得【执法者】羁绊",
+    "ref_en": "Equip to gain the [Lawyer] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Юрист]"
+  }  ,
+  {
+    "id": "130713",
+    "source_cn": "装配后获得【执法者】羁绊。",
+    "ref_en": "Equip to gain the [Lawyer] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Юрист]."
+  }  ,
+  {
+    "id": "130714",
+    "source_cn": "幸运儿",
+    "ref_en": "Lucky One",
+    "target_ru": "Счастливчик"
+  }  ,
+  {
+    "id": "130715",
+    "source_cn": "【幸运儿】",
+    "ref_en": "[Lucky One]",
+    "target_ru": "[Счастливчик]"
+  }  ,
+  {
+    "id": "130716",
+    "source_cn": "装配后获得【幸运儿】羁绊",
+    "ref_en": "Equip to gain the [Lucky One] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Счастливчик]"
+  }  ,
+  {
+    "id": "130717",
+    "source_cn": "装配后获得【幸运儿】羁绊。",
+    "ref_en": "Equip to gain the [Lucky One] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Счастливчик]."
+  }  ,
+  {
+    "id": "130718",
+    "source_cn": "装配后获得【幸运儿】羁绊",
+    "ref_en": "Equip to gain the [Lucky One] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Счастливчик]"
+  }  ,
+  {
+    "id": "130719",
+    "source_cn": "装配后获得【幸运儿】羁绊。",
+    "ref_en": "Equip to gain the [Lucky One] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Счастливчик]."
+  }  ,
+  {
+    "id": "130720",
+    "source_cn": "塔罗会",
+    "ref_en": "Tarot Club",
+    "target_ru": "Клуб Таро"
+  }  ,
+  {
+    "id": "130721",
+    "source_cn": "【塔罗会】",
+    "ref_en": "[Tarot Club]",
+    "target_ru": "[Клуб Таро]"
+  }  ,
+  {
+    "id": "130722",
+    "source_cn": "装配后获得【塔罗会】羁绊",
+    "ref_en": "Equip to gain the [Tarot Club] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Клуб Таро]"
+  }  ,
+  {
+    "id": "130723",
+    "source_cn": "装配后获得【塔罗会】羁绊。",
+    "ref_en": "Equip to gain the [Tarot Club] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Клуб Таро]."
+  }  ,
+  {
+    "id": "130724",
+    "source_cn": "装配后获得【塔罗会】羁绊",
+    "ref_en": "Equip to gain the [Tarot Club] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Клуб Таро]"
+  }  ,
+  {
+    "id": "130725",
+    "source_cn": "装配后获得【塔罗会】羁绊。",
+    "ref_en": "Equip to gain the [Tarot Club] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Клуб Таро]."
+  }  ,
+  {
+    "id": "130726",
+    "source_cn": "猎人",
+    "ref_en": "Hunter",
+    "target_ru": "Охотник"
+  }  ,
+  {
+    "id": "130727",
+    "source_cn": "【猎人】",
+    "ref_en": "[Hunter]",
+    "target_ru": "[Охотник]"
+  }  ,
+  {
+    "id": "130728",
+    "source_cn": "装配后获得【猎人】羁绊",
+    "ref_en": "Equip to gain the [Hunter] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Охотник]"
+  }  ,
+  {
+    "id": "130729",
+    "source_cn": "装配后获得【猎人】羁绊。",
+    "ref_en": "Equip to gain the [Hunter] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Охотник]."
+  }  ,
+  {
+    "id": "130730",
+    "source_cn": "装配后获得【猎人】羁绊",
+    "ref_en": "Equip to gain the [Hunter] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Охотник]"
+  }  ,
+  {
+    "id": "130731",
+    "source_cn": "装配后获得【猎人】羁绊。",
+    "ref_en": "Equip to gain the [Hunter] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Охотник]."
+  }  ,
+  {
+    "id": "130732",
+    "source_cn": "巨龙传承",
+    "ref_en": "Giant Dragon Inheritance",
+    "target_ru": "Наследие Гигантского Дракона"
+  }  ,
+  {
+    "id": "130733",
+    "source_cn": "【巨龙传承】",
+    "ref_en": "[Giant Dragon Inheritance]",
+    "target_ru": "[Наследие Гигантского Дракона]"
+  }  ,
+  {
+    "id": "130734",
+    "source_cn": "装配后获得【巨龙传承】羁绊",
+    "ref_en": "Equip to gain the [Giant Dragon Inheritance] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]"
+  }  ,
+  {
+    "id": "130735",
+    "source_cn": "装配后获得【巨龙传承】羁绊。",
+    "ref_en": "Equip to gain the [Giant Dragon Inheritance] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]."
+  }  ,
+  {
+    "id": "130736",
+    "source_cn": "装配后获得【巨龙传承】羁绊",
+    "ref_en": "Equip to gain the [Giant Dragon Inheritance] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]"
+  }  ,
+  {
+    "id": "130737",
+    "source_cn": "装配后获得【巨龙传承】羁绊。",
+    "ref_en": "Equip to gain the [Giant Dragon Inheritance] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]."
+  }  ,
+  {
+    "id": "130738",
+    "source_cn": "生命教派",
+    "ref_en": "Life School of Thought",
+    "target_ru": "Школа Мысли Жизни"
+  }  ,
+  {
+    "id": "130739",
+    "source_cn": "【生命教派】",
+    "ref_en": "[Life School of Thought]",
+    "target_ru": "[Школа Мысли Жизни]"
+  }  ,
+  {
+    "id": "130740",
+    "source_cn": "装配后获得【生命教派】羁绊",
+    "ref_en": "Equip to gain the [Life School of Thought] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]"
+  }  ,
+  {
+    "id": "130741",
+    "source_cn": "装配后获得【生命教派】羁绊。",
+    "ref_en": "Equip to gain the [Life School of Thought] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]."
+  }  ,
+  {
+    "id": "130742",
+    "source_cn": "装配后获得【生命教派】羁绊",
+    "ref_en": "Equip to gain the [Life School of Thought] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]"
+  }  ,
+  {
+    "id": "130743",
+    "source_cn": "装配后获得【生命教派】羁绊。",
+    "ref_en": "Equip to gain the [Life School of Thought] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]."
+  }  ,
+  {
+    "id": "130744",
+    "source_cn": "铁卫",
+    "ref_en": "Iron Wall",
+    "target_ru": "Железная стена"
+  }  ,
+  {
+    "id": "130745",
+    "source_cn": "【铁卫】",
+    "ref_en": "[Iron Wall]",
+    "target_ru": "[Железная стена]"
+  }  ,
+  {
+    "id": "130746",
+    "source_cn": "装配后获得【铁卫】羁绊",
+    "ref_en": "Equip to gain the [Iron Wall] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Железная стена]"
+  }  ,
+  {
+    "id": "130747",
+    "source_cn": "装配后获得【铁卫】羁绊。",
+    "ref_en": "Equip to gain the [Iron Wall] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Железная стена]."
+  }  ,
+  {
+    "id": "130748",
+    "source_cn": "装配后获得【铁卫】羁绊",
+    "ref_en": "Equip to gain the [Iron Wall] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Железная стена]"
+  }  ,
+  {
+    "id": "130749",
+    "source_cn": "装配后获得【铁卫】羁绊。",
+    "ref_en": "Equip to gain the [Iron Wall] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Железная стена]."
+  }  ,
+  {
+    "id": "130750",
+    "source_cn": "黑夜女神",
+    "ref_en": "Evernight Goddess",
+    "target_ru": "Богиня Вечной Ночи"
+  }  ,
+  {
+    "id": "130751",
+    "source_cn": "【黑夜女神】",
+    "ref_en": "[Evernight Goddess]",
+    "target_ru": "[Богиня Вечной Ночи]"
+  }  ,
+  {
+    "id": "130752",
+    "source_cn": "装配后获得【黑夜女神】羁绊",
+    "ref_en": "Equip to gain the [Evernight Goddess] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]"
+  }  ,
+  {
+    "id": "130753",
+    "source_cn": "装配后获得【黑夜女神】羁绊。",
+    "ref_en": "Equip to gain the [Evernight Goddess] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]."
+  }  ,
+  {
+    "id": "130754",
+    "source_cn": "装配后获得【黑夜女神】羁绊",
+    "ref_en": "Equip to gain the [Evernight Goddess] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]"
+  }  ,
+  {
+    "id": "130755",
+    "source_cn": "装配后获得【黑夜女神】羁绊。",
+    "ref_en": "Equip to gain the [Evernight Goddess] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]."
+  }  ,
+  {
+    "id": "130756",
+    "source_cn": "神弃之地",
+    "ref_en": "Forsaken Land of the Gods",
+    "target_ru": "Заброшенная Земля Богов"
+  }  ,
+  {
+    "id": "130757",
+    "source_cn": "【神弃之地】",
+    "ref_en": "[Forsaken Land of the Gods]",
+    "target_ru": "[Заброшенная Земля Богов]"
+  }  ,
+  {
+    "id": "130758",
+    "source_cn": "装配后获得【神弃之地】羁绊",
+    "ref_en": "Equip to gain the [Forsaken Land of the Gods] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]"
+  }  ,
+  {
+    "id": "130759",
+    "source_cn": "装配后获得【神弃之地】羁绊。",
+    "ref_en": "Equip to gain the [Forsaken Land of the Gods] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]."
+  }  ,
+  {
+    "id": "130760",
+    "source_cn": "装配后获得【神弃之地】羁绊",
+    "ref_en": "Equip to gain the [Forsaken Land of the Gods] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]"
+  }  ,
+  {
+    "id": "130761",
+    "source_cn": "装配后获得【神弃之地】羁绊。",
+    "ref_en": "Equip to gain the [Forsaken Land of the Gods] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]."
+  }  ,
+  {
+    "id": "130762",
+    "source_cn": "极光会",
+    "ref_en": "Aurora Order",
+    "target_ru": "Орден Авроры"
+  }  ,
+  {
+    "id": "130763",
+    "source_cn": "【极光会】",
+    "ref_en": "[Aurora Order]",
+    "target_ru": "[Орден Авроры]"
+  }  ,
+  {
+    "id": "130764",
+    "source_cn": "装配后获得【极光会】羁绊",
+    "ref_en": "Equip to gain the [Aurora Order] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Орден Авроры]"
+  }  ,
+  {
+    "id": "130765",
+    "source_cn": "装配后获得【极光会】羁绊。",
+    "ref_en": "Equip to gain the [Aurora Order] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Орден Авроры]."
+  }  ,
+  {
+    "id": "130766",
+    "source_cn": "装配后获得【极光会】羁绊",
+    "ref_en": "Equip to gain the [Aurora Order] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Орден Авроры]"
+  }  ,
+  {
+    "id": "130767",
+    "source_cn": "装配后获得【极光会】羁绊。",
+    "ref_en": "Equip to gain the [Aurora Order] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Орден Авроры]."
+  }  ,
+  {
+    "id": "130768",
+    "source_cn": "占卜家",
+    "ref_en": "Seer",
+    "target_ru": "Провидец"
+  }  ,
+  {
+    "id": "130769",
+    "source_cn": "【占卜家】",
+    "ref_en": "[Seer]",
+    "target_ru": "[Провидец]"
+  }  ,
+  {
+    "id": "130770",
+    "source_cn": "装配后获得【占卜家】羁绊",
+    "ref_en": "Equip to gain the [Seer] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Провидец]"
+  }  ,
+  {
+    "id": "130771",
+    "source_cn": "装配后获得【占卜家】羁绊。",
+    "ref_en": "Equip to gain the [Seer] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Провидец]."
+  }  ,
+  {
+    "id": "130772",
+    "source_cn": "装配后获得【占卜家】羁绊",
+    "ref_en": "Equip to gain the [Seer] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Провидец]"
+  }  ,
+  {
+    "id": "130773",
+    "source_cn": "装配后获得【占卜家】羁绊。",
+    "ref_en": "Equip to gain the [Seer] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Провидец]."
+  }  ,
+  {
+    "id": "130774",
+    "source_cn": "磐石",
+    "ref_en": "Rock",
+    "target_ru": "Скала"
+  }  ,
+  {
+    "id": "130775",
+    "source_cn": "【磐石】",
+    "ref_en": "[Rock]",
+    "target_ru": "[Скала]"
+  }  ,
+  {
+    "id": "130776",
+    "source_cn": "装配后获得【磐石】羁绊",
+    "ref_en": "Equip to gain the [Rock] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Скала]"
+  }  ,
+  {
+    "id": "130777",
+    "source_cn": "装配后获得【磐石】羁绊。",
+    "ref_en": "Equip to gain the [Rock] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Скала]."
+  }  ,
+  {
+    "id": "130778",
+    "source_cn": "装配后获得【磐石】羁绊",
+    "ref_en": "Equip to gain the [Rock] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Скала]"
+  }  ,
+  {
+    "id": "130779",
+    "source_cn": "装配后获得【磐石】羁绊。",
+    "ref_en": "Equip to gain the [Rock] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Скала]."
+  }  ,
+  {
+    "id": "130780",
+    "source_cn": "怪物",
+    "ref_en": "Monster",
+    "target_ru": "Монстр"
+  }  ,
+  {
+    "id": "130781",
+    "source_cn": "【怪物】",
+    "ref_en": "[Monster]",
+    "target_ru": "[Монстр]"
+  }  ,
+  {
+    "id": "130782",
+    "source_cn": "装配后获得【怪物】羁绊",
+    "ref_en": "Equip to gain the [Monster] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Монстр]"
+  }  ,
+  {
+    "id": "130783",
+    "source_cn": "装配后获得【怪物】羁绊。",
+    "ref_en": "Equip to gain the [Monster] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Монстр]."
+  }  ,
+  {
+    "id": "130784",
+    "source_cn": "装配后获得【怪物】羁绊",
+    "ref_en": "Equip to gain the [Monster] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Монстр]"
+  }  ,
+  {
+    "id": "130785",
+    "source_cn": "装配后获得【怪物】羁绊。",
+    "ref_en": "Equip to gain the [Monster] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Монстр]."
+  }  ,
+  {
+    "id": "130786",
+    "source_cn": "超凡生物",
+    "ref_en": "Beyonder Creature",
+    "target_ru": "Сверхъестественное существо"
+  }  ,
+  {
+    "id": "130787",
+    "source_cn": "【超凡生物】",
+    "ref_en": "[Beyonder Creature]",
+    "target_ru": "[Сверхъестественное существо]"
+  }  ,
+  {
+    "id": "130788",
+    "source_cn": "装配后获得【超凡生物】羁绊",
+    "ref_en": "Equip to gain the [Beyonder Creature] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]"
+  }  ,
+  {
+    "id": "130789",
+    "source_cn": "装配后获得【超凡生物】羁绊。",
+    "ref_en": "Equip to gain the [Beyonder Creature] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]."
+  }  ,
+  {
+    "id": "130790",
+    "source_cn": "装配后获得【超凡生物】羁绊",
+    "ref_en": "Equip to gain the [Beyonder Creature] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]"
+  }  ,
+  {
+    "id": "130791",
+    "source_cn": "装配后获得【超凡生物】羁绊。",
+    "ref_en": "Equip to gain the [Beyonder Creature] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]."
+  }  ,
+  {
+    "id": "130792",
+    "source_cn": "航海家",
+    "ref_en": "Navigator",
+    "target_ru": "Мореплаватель"
+  }  ,
+  {
+    "id": "130793",
+    "source_cn": "【航海家】",
+    "ref_en": "[Navigator]",
+    "target_ru": "[Мореплаватель]"
+  }  ,
+  {
+    "id": "130794",
+    "source_cn": "装配后获得【航海家】羁绊",
+    "ref_en": "Equip to gain the [Navigator] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Мореплаватель]"
+  }  ,
+  {
+    "id": "130795",
+    "source_cn": "装配后获得【航海家】羁绊。",
+    "ref_en": "Equip to gain the [Navigator] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Мореплаватель]."
+  }  ,
+  {
+    "id": "130796",
+    "source_cn": "装配后获得【航海家】羁绊",
+    "ref_en": "Equip to gain the [Navigator] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Мореплаватель]"
+  }  ,
+  {
+    "id": "130797",
+    "source_cn": "装配后获得【航海家】羁绊。",
+    "ref_en": "Equip to gain the [Navigator] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Мореплаватель]."
+  }  ,
+  {
+    "id": "130798",
+    "source_cn": "隐秘学派",
+    "ref_en": "Hermit",
+    "target_ru": "Школа Тайн"
+  }  ,
+  {
+    "id": "130799",
+    "source_cn": "【隐秘学派】",
+    "ref_en": "[Hermit]",
+    "target_ru": "[Школа Тайн]"
+  }  ,
+  {
+    "id": "130800",
+    "source_cn": "装配后获得【隐秘学派】羁绊",
+    "ref_en": "Equip to gain the [Hermit] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Тайн]"
+  }  ,
+  {
+    "id": "130801",
+    "source_cn": "装配后获得【隐秘学派】羁绊。",
+    "ref_en": "Equip to gain the [Hermit] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Тайн]."
+  }  ,
+  {
+    "id": "130802",
+    "source_cn": "装配后获得【隐秘学派】羁绊",
+    "ref_en": "Equip to gain the [Hermit] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Тайн]"
+  }  ,
+  {
+    "id": "130803",
+    "source_cn": "装配后获得【隐秘学派】羁绊。",
+    "ref_en": "Equip to gain the [Hermit] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Школа Тайн]."
+  }  ,
+  {
+    "id": "130804",
+    "source_cn": "狂战士",
+    "ref_en": "Berserker",
+    "target_ru": "Берсерк"
+  }  ,
+  {
+    "id": "130805",
+    "source_cn": "【狂战士】",
+    "ref_en": "[Berserker]",
+    "target_ru": "[Берсерк]"
+  }  ,
+  {
+    "id": "130806",
+    "source_cn": "装配后获得【狂战士】羁绊",
+    "ref_en": "Equip to gain the [Berserker] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Берсерк]"
+  }  ,
+  {
+    "id": "130807",
+    "source_cn": "装配后获得【狂战士】羁绊。",
+    "ref_en": "Equip to gain the [Berserker] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Берсерк]."
+  }  ,
+  {
+    "id": "130808",
+    "source_cn": "装配后获得【狂战士】羁绊",
+    "ref_en": "Equip to gain the [Berserker] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Берсерк]"
+  }  ,
+  {
+    "id": "130809",
+    "source_cn": "装配后获得【狂战士】羁绊。",
+    "ref_en": "Equip to gain the [Berserker] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Берсерк]."
+  }  ,
+  {
+    "id": "130810",
+    "source_cn": "死亡教派",
+    "ref_en": "Death Sect",
+    "target_ru": "Секта Смерти"
+  }  ,
+  {
+    "id": "130811",
+    "source_cn": "【死亡教派】",
+    "ref_en": "[Death Sect]",
+    "target_ru": "[Секта Смерти]"
+  }  ,
+  {
+    "id": "130812",
+    "source_cn": "装配后获得【死亡教派】羁绊",
+    "ref_en": "Equip to gain the [Death Sect] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Смерти]"
+  }  ,
+  {
+    "id": "130813",
+    "source_cn": "装配后获得【死亡教派】羁绊。",
+    "ref_en": "Equip to gain the [Death Sect] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Смерти]."
+  }  ,
+  {
+    "id": "130814",
+    "source_cn": "装配后获得【死亡教派】羁绊",
+    "ref_en": "Equip to gain the [Death Sect] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Смерти]"
+  }  ,
+  {
+    "id": "130815",
+    "source_cn": "装配后获得【死亡教派】羁绊。",
+    "ref_en": "Equip to gain the [Death Sect] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Смерти]."
+  }  ,
+  {
+    "id": "130816",
+    "source_cn": "魔女教派",
+    "ref_en": "Demoness Sect",
+    "target_ru": "Секта Демоницы"
+  }  ,
+  {
+    "id": "130817",
+    "source_cn": "【魔女教派】",
+    "ref_en": "[Demoness Sect]",
+    "target_ru": "[Секта Демоницы]"
+  }  ,
+  {
+    "id": "130818",
+    "source_cn": "装配后获得【魔女教派】羁绊",
+    "ref_en": "Equip to gain the [Demoness Sect] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Демоницы]"
+  }  ,
+  {
+    "id": "130819",
+    "source_cn": "装配后获得【魔女教派】羁绊。",
+    "ref_en": "Equip to gain the [Demoness Sect] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Демоницы]."
+  }  ,
+  {
+    "id": "130820",
+    "source_cn": "装配后获得【魔女教派】羁绊",
+    "ref_en": "Equip to gain the [Demoness Sect] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Демоницы]"
+  }  ,
+  {
+    "id": "130821",
+    "source_cn": "装配后获得【魔女教派】羁绊。",
+    "ref_en": "Equip to gain the [Demoness Sect] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Секта Демоницы]."
+  }  ,
+  {
+    "id": "130822",
+    "source_cn": "值夜者",
+    "ref_en": "Nighthawk",
+    "target_ru": "Ночной Ястреб"
+  }  ,
+  {
+    "id": "130823",
+    "source_cn": "【值夜者】",
+    "ref_en": "[Nighthawk]",
+    "target_ru": "[Ночной Ястреб]"
+  }  ,
+  {
+    "id": "130824",
+    "source_cn": "装配后获得【值夜者】羁绊",
+    "ref_en": "Equip to gain the [Nighthawk] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночной Ястреб]"
+  }  ,
+  {
+    "id": "130825",
+    "source_cn": "装配后获得【值夜者】羁绊。",
+    "ref_en": "Equip to gain the [Nighthawk] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночной Ястреб]."
+  }  ,
+  {
+    "id": "130826",
+    "source_cn": "装配后获得【值夜者】羁绊",
+    "ref_en": "Equip to gain the [Nighthawk] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночной Ястреб]"
+  }  ,
+  {
+    "id": "130827",
+    "source_cn": "装配后获得【值夜者】羁绊。",
+    "ref_en": "Equip to gain the [Nighthawk] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночной Ястреб]."
+  }  ,
+  {
+    "id": "130828",
+    "source_cn": "黑夜",
+    "ref_en": "Night",
+    "target_ru": "Ночь"
+  }  ,
+  {
+    "id": "130829",
+    "source_cn": "【黑夜】",
+    "ref_en": "[Night]",
+    "target_ru": "[Ночь]"
+  }  ,
+  {
+    "id": "130830",
+    "source_cn": "装配后获得【黑夜】羁绊",
+    "ref_en": "Equip to gain the [Night] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночь]"
+  }  ,
+  {
+    "id": "130831",
+    "source_cn": "装配后获得【黑夜】羁绊。",
+    "ref_en": "Equip to gain the [Night] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночь]."
+  }  ,
+  {
+    "id": "130832",
+    "source_cn": "装配后获得【黑夜】羁绊",
+    "ref_en": "Equip to gain the [Night] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночь]"
+  }  ,
+  {
+    "id": "130833",
+    "source_cn": "装配后获得【黑夜】羁绊。",
+    "ref_en": "Equip to gain the [Night] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ночь]."
+  }  ,
+  {
+    "id": "130834",
+    "source_cn": "观众",
+    "ref_en": "Spectator",
+    "target_ru": "Зритель"
+  }  ,
+  {
+    "id": "130835",
+    "source_cn": "【观众】",
+    "ref_en": "[Spectator]",
+    "target_ru": "[Зритель]"
+  }  ,
+  {
+    "id": "130836",
+    "source_cn": "装配后获得【观众】羁绊",
+    "ref_en": "Equip to gain the [Spectator] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Зритель]"
+  }  ,
+  {
+    "id": "130837",
+    "source_cn": "装配后获得【观众】羁绊。",
+    "ref_en": "Equip to gain the [Spectator] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Зритель]."
+  }  ,
+  {
+    "id": "130838",
+    "source_cn": "装配后获得【观众】羁绊",
+    "ref_en": "Equip to gain the [Spectator] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Зритель]"
+  }  ,
+  {
+    "id": "130839",
+    "source_cn": "装配后获得【观众】羁绊。",
+    "ref_en": "Equip to gain the [Spectator] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Зритель]."
+  }  ,
+  {
+    "id": "130840",
+    "source_cn": "阅读者",
+    "ref_en": "Reader",
+    "target_ru": "Чтец"
+  }  ,
+  {
+    "id": "130841",
+    "source_cn": "【阅读者】",
+    "ref_en": "[Reader]",
+    "target_ru": "[Чтец]"
+  }  ,
+  {
+    "id": "130842",
+    "source_cn": "装配后获得【阅读者】羁绊",
+    "ref_en": "Equip to gain the [Reader] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Чтец]"
+  }  ,
+  {
+    "id": "130843",
+    "source_cn": "装配后获得【阅读者】羁绊。",
+    "ref_en": "Equip to gain the [Reader] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Чтец]."
+  }  ,
+  {
+    "id": "130844",
+    "source_cn": "装配后获得【阅读者】羁绊",
+    "ref_en": "Equip to gain the [Reader] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Чтец]"
+  }  ,
+  {
+    "id": "130845",
+    "source_cn": "装配后获得【阅读者】羁绊。",
+    "ref_en": "Equip to gain the [Reader] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Чтец]."
+  }  ,
+  {
+    "id": "130846",
+    "source_cn": "秘祈人",
+    "ref_en": "Secrets Suppliant",
+    "target_ru": "Молящийся о Секретах"
+  }  ,
+  {
+    "id": "130847",
+    "source_cn": "【秘祈人】",
+    "ref_en": "[Secrets Suppliant]",
+    "target_ru": "[Молящийся о Секретах]"
+  }  ,
+  {
+    "id": "130848",
+    "source_cn": "装配后获得【秘祈人】羁绊",
+    "ref_en": "Equip to gain the [Secrets Suppliant] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]"
+  }  ,
+  {
+    "id": "130849",
+    "source_cn": "装配后获得【秘祈人】羁绊。",
+    "ref_en": "Equip to gain the [Secrets Suppliant] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]."
+  }  ,
+  {
+    "id": "130850",
+    "source_cn": "装配后获得【秘祈人】羁绊",
+    "ref_en": "Equip to gain the [Secrets Suppliant] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]"
+  }  ,
+  {
+    "id": "130851",
+    "source_cn": "装配后获得【秘祈人】羁绊。",
+    "ref_en": "Equip to gain the [Secrets Suppliant] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]."
+  }  ,
+  {
+    "id": "130852",
+    "source_cn": "药师",
+    "ref_en": "Apothecary",
+    "target_ru": "Аптекарь"
+  }  ,
+  {
+    "id": "130853",
+    "source_cn": "【药师】",
+    "ref_en": "[Apothecary]",
+    "target_ru": "[Аптекарь]"
+  }  ,
+  {
+    "id": "130854",
+    "source_cn": "装配后获得【药师】羁绊",
+    "ref_en": "Equip to gain the [Apothecary] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Аптекарь]"
+  }  ,
+  {
+    "id": "130855",
+    "source_cn": "装配后获得【药师】羁绊。",
+    "ref_en": "Equip to gain the [Apothecary] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Аптекарь]."
+  }  ,
+  {
+    "id": "130856",
+    "source_cn": "装配后获得【药师】羁绊",
+    "ref_en": "Equip to gain the [Apothecary] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Аптекарь]"
+  }  ,
+  {
+    "id": "130857",
+    "source_cn": "装配后获得【药师】羁绊。",
+    "ref_en": "Equip to gain the [Apothecary] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Аптекарь]."
+  }  ,
+  {
+    "id": "130858",
+    "source_cn": "仲裁人",
+    "ref_en": "Arbiter",
+    "target_ru": "Арбитр"
+  }  ,
+  {
+    "id": "130859",
+    "source_cn": "【仲裁人】",
+    "ref_en": "[Arbiter]",
+    "target_ru": "[Арбитр]"
+  }  ,
+  {
+    "id": "130860",
+    "source_cn": "装配后获得【仲裁人】羁绊",
+    "ref_en": "Equip to gain the [Arbiter] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Арбитр]"
+  }  ,
+  {
+    "id": "130861",
+    "source_cn": "装配后获得【仲裁人】羁绊。",
+    "ref_en": "Equip to gain the [Arbiter] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Арбитр]."
+  }  ,
+  {
+    "id": "130862",
+    "source_cn": "装配后获得【仲裁人】羁绊",
+    "ref_en": "Equip to gain the [Arbiter] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Арбитр]"
+  }  ,
+  {
+    "id": "130863",
+    "source_cn": "装配后获得【仲裁人】羁绊。",
+    "ref_en": "Equip to gain the [Arbiter] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Арбитр]."
+  }  ,
+  {
+    "id": "130864",
+    "source_cn": "歌者",
+    "ref_en": "Bard",
+    "target_ru": "Певец"
+  }  ,
+  {
+    "id": "130865",
+    "source_cn": "【歌者】",
+    "ref_en": "[Bard]",
+    "target_ru": "[Певец]"
+  }  ,
+  {
+    "id": "130866",
+    "source_cn": "装配后获得【歌者】羁绊",
+    "ref_en": "Equip to gain the [Bard] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Певец]"
+  }  ,
+  {
+    "id": "130867",
+    "source_cn": "装配后获得【歌者】羁绊。",
+    "ref_en": "Equip to gain the [Bard] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Певец]."
+  }  ,
+  {
+    "id": "130868",
+    "source_cn": "装配后获得【歌者】羁绊",
+    "ref_en": "Equip to gain the [Bard] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Певец]"
+  }  ,
+  {
+    "id": "130869",
+    "source_cn": "装配后获得【歌者】羁绊。",
+    "ref_en": "Equip to gain the [Bard] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Певец]."
+  }  ,
+  {
+    "id": "130870",
+    "source_cn": "水手",
+    "ref_en": "Sailor",
+    "target_ru": "Моряк"
+  }  ,
+  {
+    "id": "130871",
+    "source_cn": "【水手】",
+    "ref_en": "[Sailor]",
+    "target_ru": "[Моряк]"
+  }  ,
+  {
+    "id": "130872",
+    "source_cn": "装配后获得【水手】羁绊",
+    "ref_en": "Equip to gain the [Sailor] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Моряк]"
+  }  ,
+  {
+    "id": "130873",
+    "source_cn": "装配后获得【水手】羁绊。",
+    "ref_en": "Equip to gain the [Sailor] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Моряк]."
+  }  ,
+  {
+    "id": "130874",
+    "source_cn": "装配后获得【水手】羁绊",
+    "ref_en": "Equip to gain the [Sailor] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Моряк]"
+  }  ,
+  {
+    "id": "130875",
+    "source_cn": "装配后获得【水手】羁绊。",
+    "ref_en": "Equip to gain the [Sailor] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Моряк]."
+  }  ,
+  {
+    "id": "130876",
+    "source_cn": "战士",
+    "ref_en": "Warrior",
+    "target_ru": "Воин"
+  }  ,
+  {
+    "id": "130877",
+    "source_cn": "【战士】",
+    "ref_en": "[Warrior]",
+    "target_ru": "[Воин]"
+  }  ,
+  {
+    "id": "130878",
+    "source_cn": "装配后获得【战士】羁绊",
+    "ref_en": "Equip to gain the [Warrior] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Воин]"
+  }  ,
+  {
+    "id": "130879",
+    "source_cn": "装配后获得【战士】羁绊。",
+    "ref_en": "Equip to gain the [Warrior] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Воин]."
+  }  ,
+  {
+    "id": "130880",
+    "source_cn": "装配后获得【战士】羁绊",
+    "ref_en": "Equip to gain the [Warrior] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Воин]"
+  }  ,
+  {
+    "id": "130881",
+    "source_cn": "装配后获得【战士】羁绊。",
+    "ref_en": "Equip to gain the [Warrior] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Воин]."
+  }  ,
+  {
+    "id": "130882",
+    "source_cn": "不眠者",
+    "ref_en": "Sleepless",
+    "target_ru": "Бессонный"
+  }  ,
+  {
+    "id": "130883",
+    "source_cn": "【不眠者】",
+    "ref_en": "[Sleepless]",
+    "target_ru": "[Бессонный]"
+  }  ,
+  {
+    "id": "130884",
+    "source_cn": "装配后获得【不眠者】羁绊",
+    "ref_en": "Equip to gain the [Sleepless] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Бессонный]"
+  }  ,
+  {
+    "id": "130885",
+    "source_cn": "装配后获得【不眠者】羁绊。",
+    "ref_en": "Equip to gain the [Sleepless] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Бессонный]."
+  }  ,
+  {
+    "id": "130886",
+    "source_cn": "装配后获得【不眠者】羁绊",
+    "ref_en": "Equip to gain the [Sleepless] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Бессонный]"
+  }  ,
+  {
+    "id": "130887",
+    "source_cn": "装配后获得【不眠者】羁绊。",
+    "ref_en": "Equip to gain the [Sleepless] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Бессонный]."
+  }  ,
+  {
+    "id": "130888",
+    "source_cn": "收尸人",
+    "ref_en": "Corpse Collector",
+    "target_ru": "Сборщик Трупов"
+  }  ,
+  {
+    "id": "130889",
+    "source_cn": "【收尸人】",
+    "ref_en": "[Corpse Collector]",
+    "target_ru": "[Сборщик Трупов]"
+  }  ,
+  {
+    "id": "130890",
+    "source_cn": "装配后获得【收尸人】羁绊",
+    "ref_en": "Equip to gain the [Corpse Collector] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сборщик Трупов]"
+  }  ,
+  {
+    "id": "130891",
+    "source_cn": "装配后获得【收尸人】羁绊。",
+    "ref_en": "Equip to gain the [Corpse Collector] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сборщик Трупов]."
+  }  ,
+  {
+    "id": "130892",
+    "source_cn": "装配后获得【收尸人】羁绊",
+    "ref_en": "Equip to gain the [Corpse Collector] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сборщик Трупов]"
+  }  ,
+  {
+    "id": "130893",
+    "source_cn": "装配后获得【收尸人】羁绊。",
+    "ref_en": "Equip to gain the [Corpse Collector] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Сборщик Трупов]."
+  }  ,
+  {
+    "id": "130894",
+    "source_cn": "窥秘人",
+    "ref_en": "Mystery Pryer",
+    "target_ru": "Подглядывающий за Тайнами"
+  }  ,
+  {
+    "id": "130895",
+    "source_cn": "【窥秘人】",
+    "ref_en": "[Mystery Pryer]",
+    "target_ru": "[Подглядывающий за Тайнами]"
+  }  ,
+  {
+    "id": "130896",
+    "source_cn": "装配后获得【窥秘人】羁绊",
+    "ref_en": "Equip to gain the [Mystery Pryer] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами]"
+  }  ,
+  {
+    "id": "130897",
+    "source_cn": "装配后获得【窥秘人】羁绊。",
+    "ref_en": "Equip to gain the [Mystery Pryer] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами]."
+  }  ,
+  {
+    "id": "130898",
+    "source_cn": "装配后获得【窥秘人】羁绊",
+    "ref_en": "Equip to gain the [Mystery Pryer] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами]"
+  }  ,
+  {
+    "id": "130899",
+    "source_cn": "装配后获得【窥秘人】羁绊。",
+    "ref_en": "Equip to gain the [Mystery Pryer] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами]."
+  }  ,
+  {
+    "id": "130900",
+    "source_cn": "刺客",
+    "ref_en": "Assassin",
+    "target_ru": "Ассасин"
+  }  ,
+  {
+    "id": "130901",
+    "source_cn": "【刺客】",
+    "ref_en": "[Assassin]",
+    "target_ru": "[Ассасин]"
+  }  ,
+  {
+    "id": "130902",
+    "source_cn": "装配后获得【刺客】羁绊",
+    "ref_en": "Equip to gain the [Assassin] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ассасин]"
+  }  ,
+  {
+    "id": "130903",
+    "source_cn": "装配后获得【刺客】羁绊。",
+    "ref_en": "Equip to gain the [Assassin] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ассасин]."
+  }  ,
+  {
+    "id": "130904",
+    "source_cn": "装配后获得【刺客】羁绊",
+    "ref_en": "Equip to gain the [Assassin] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ассасин]"
+  }  ,
+  {
+    "id": "130905",
+    "source_cn": "装配后获得【刺客】羁绊。",
+    "ref_en": "Equip to gain the [Assassin] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Ассасин]."
+  }  ,
+  {
+    "id": "130906",
+    "source_cn": "罪犯",
+    "ref_en": "Criminal",
+    "target_ru": "Преступник"
+  }  ,
+  {
+    "id": "130907",
+    "source_cn": "【罪犯】",
+    "ref_en": "[Criminal]",
+    "target_ru": "[Преступник]"
+  }  ,
+  {
+    "id": "130908",
+    "source_cn": "装配后获得【罪犯】羁绊",
+    "ref_en": "Equip to gain the [Criminal] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Преступник]"
+  }  ,
+  {
+    "id": "130909",
+    "source_cn": "装配后获得【罪犯】羁绊。",
+    "ref_en": "Equip to gain the [Criminal] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Преступник]."
+  }  ,
+  {
+    "id": "130910",
+    "source_cn": "装配后获得【罪犯】羁绊",
+    "ref_en": "Equip to gain the [Criminal] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Преступник]"
+  }  ,
+  {
+    "id": "130911",
+    "source_cn": "装配后获得【罪犯】羁绊。",
+    "ref_en": "Equip to gain the [Criminal] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Преступник]."
+  }  ,
+  {
+    "id": "130912",
+    "source_cn": "囚犯",
+    "ref_en": "Prisoner",
+    "target_ru": "Узник"
+  }  ,
+  {
+    "id": "130913",
+    "source_cn": "【囚犯】",
+    "ref_en": "[Prisoner]",
+    "target_ru": "[Узник]"
+  }  ,
+  {
+    "id": "130914",
+    "source_cn": "装配后获得【囚犯】羁绊",
+    "ref_en": "Equip to gain the [Prisoner] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Узник]"
+  }  ,
+  {
+    "id": "130915",
+    "source_cn": "装配后获得【囚犯】羁绊。",
+    "ref_en": "Equip to gain the [Prisoner] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Узник]."
+  }  ,
+  {
+    "id": "130916",
+    "source_cn": "装配后获得【囚犯】羁绊",
+    "ref_en": "Equip to gain the [Prisoner] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Узник]"
+  }  ,
+  {
+    "id": "130917",
+    "source_cn": "装配后获得【囚犯】羁绊。",
+    "ref_en": "Equip to gain the [Prisoner] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Узник]."
+  }  ,
+  {
+    "id": "130918",
+    "source_cn": "耕种者",
+    "ref_en": "Planter",
+    "target_ru": "Плантатор"
+  }  ,
+  {
+    "id": "130919",
+    "source_cn": "【耕种者】",
+    "ref_en": "[Planter]",
+    "target_ru": "[Плантатор]"
+  }  ,
+  {
+    "id": "130920",
+    "source_cn": "装配后获得【耕种者】羁绊",
+    "ref_en": "Equip to gain the [Planter] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Плантатор]"
+  }  ,
+  {
+    "id": "130921",
+    "source_cn": "装配后获得【耕种者】羁绊。",
+    "ref_en": "Equip to gain the [Planter] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Плантатор]."
+  }  ,
+  {
+    "id": "130922",
+    "source_cn": "装配后获得【耕种者】羁绊",
+    "ref_en": "Equip to gain the [Planter] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Плантатор]"
+  }  ,
+  {
+    "id": "130923",
+    "source_cn": "装配后获得【耕种者】羁绊。",
+    "ref_en": "Equip to gain the [Planter] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Плантатор]."
+  }  ,
+  {
+    "id": "130924",
+    "source_cn": "通识者",
+    "ref_en": "Savant",
+    "target_ru": "Знаток"
+  }  ,
+  {
+    "id": "130925",
+    "source_cn": "【通识者】",
+    "ref_en": "[Savant]",
+    "target_ru": "[Знаток]"
+  }  ,
+  {
+    "id": "130926",
+    "source_cn": "装配后获得【通识者】羁绊",
+    "ref_en": "Equip to gain the [Savant] bond",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Знаток]"
+  }  ,
+  {
+    "id": "130927",
+    "source_cn": "装配后获得【通识者】羁绊。",
+    "ref_en": "Equip to gain the [Savant] bond.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Знаток]."
+  }  ,
+  {
+    "id": "130928",
+    "source_cn": "装配后获得【通识者】羁绊",
+    "ref_en": "Equip to gain the [Savant] resonance",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Знаток]"
+  }  ,
+  {
+    "id": "130929",
+    "source_cn": "装配后获得【通识者】羁绊。",
+    "ref_en": "Equip to gain the [Savant] resonance.",
+    "target_ru": "Экипируйте, чтобы получить резонанс [Знаток]."
+  }  ,
+  {
+    "id": "130930",
+    "source_cn": "所有友军获得10%攻击力。[Spellcasting]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130931",
+    "source_cn": "所有友军获得<HighLight>10%</>攻击力。[Spellcasting]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain <HighLight>10%</> Attack. [Spellcasting] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130932",
+    "source_cn": "所有友军获得<HighLight>10%</>攻击力，[Spellcasting]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain <HighLight>10%</> Attack, [Spellcasting] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130933",
+    "source_cn": "[Spellcasting]额外获得15%攻击力，且每次施法：自身获得1%攻击力。",
+    "ref_en": "[Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки."
+  }  ,
+  {
+    "id": "130934",
+    "source_cn": "[Spellcasting]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。",
+    "ref_en": "[Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки."
+  }  ,
+  {
+    "id": "130935",
+    "source_cn": "2 [Spellcasting]额外获得15%攻击力，且每次施法：自身获得1%攻击力。",
+    "ref_en": "2 [Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.",
+    "target_ru": "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки."
+  }  ,
+  {
+    "id": "130936",
+    "source_cn": "2 [Spellcasting]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。",
+    "ref_en": "2 [Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack.",
+    "target_ru": "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки."
+  }  ,
+  {
+    "id": "130937",
+    "source_cn": "[Spellcasting]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。",
+    "ref_en": "[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки."
+  }  ,
+  {
+    "id": "130938",
+    "source_cn": "[Spellcasting]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。",
+    "ref_en": "[Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки."
+  }  ,
+  {
+    "id": "130939",
+    "source_cn": "4 [Spellcasting]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。",
+    "ref_en": "4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.",
+    "target_ru": "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки."
+  }  ,
+  {
+    "id": "130940",
+    "source_cn": "4 [Spellcasting]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。",
+    "ref_en": "4 [Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack.",
+    "target_ru": "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки."
+  }  ,
+  {
+    "id": "130941",
+    "source_cn": "[Spellcasting]额外获得55%攻击力，且每次施法：自身获得2%攻击力。",
+    "ref_en": "[Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки."
+  }  ,
+  {
+    "id": "130942",
+    "source_cn": "[Spellcasting]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。",
+    "ref_en": "[Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки."
+  }  ,
+  {
+    "id": "130943",
+    "source_cn": "6 [Spellcasting]额外获得55%攻击力，且每次施法：自身获得2%攻击力。",
+    "ref_en": "6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.",
+    "target_ru": "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки."
+  }  ,
+  {
+    "id": "130944",
+    "source_cn": "6 [Spellcasting]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。",
+    "ref_en": "6 [Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack.",
+    "target_ru": "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки."
+  }  ,
+  {
+    "id": "130945",
+    "source_cn": "所有友军获得10%攻击力。[Spellcraft]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain 10% Attack. [Spellcraft] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130946",
+    "source_cn": "所有友军获得<HighLight>10%</>攻击力。[Spellcraft]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain <HighLight>10%</> Attack. [Spellcraft] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130947",
+    "source_cn": "所有友军获得<HighLight>10%</>攻击力，[Spellcraft]每次施法后叠加攻击力。",
+    "ref_en": "All allies gain <HighLight>10%</> Attack, [Spellcraft] stacks Attack after each skill cast.",
+    "target_ru": "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка."
+  }  ,
+  {
+    "id": "130948",
+    "source_cn": "[Spellcraft]额外获得15%攻击力，且每次施法：自身获得1%攻击力。",
+    "ref_en": "[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки."
+  }  ,
+  {
+    "id": "130949",
+    "source_cn": "[Spellcraft]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。",
+    "ref_en": "[Spellcraft] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки."
+  }  ,
+  {
+    "id": "130950",
+    "source_cn": "2 [Spellcraft]额外获得15%攻击力，且每次施法：自身获得1%攻击力。",
+    "ref_en": "2 [Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.",
+    "target_ru": "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки."
+  }  ,
+  {
+    "id": "130951",
+    "source_cn": "2 [Spellcraft]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。",
+    "ref_en": "2 [Spellcraft] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack.",
+    "target_ru": "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки."
+  }  ,
+  {
+    "id": "130952",
+    "source_cn": "[Spellcraft]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。",
+    "ref_en": "[Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки."
+  }  ,
+  {
+    "id": "130953",
+    "source_cn": "[Spellcraft]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。",
+    "ref_en": "[Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки."
+  }  ,
+  {
+    "id": "130954",
+    "source_cn": "4 [Spellcraft]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。",
+    "ref_en": "4 [Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.",
+    "target_ru": "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки."
+  }  ,
+  {
+    "id": "130955",
+    "source_cn": "4 [Spellcraft]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。",
+    "ref_en": "4 [Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack.",
+    "target_ru": "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки."
+  }  ,
+  {
+    "id": "130956",
+    "source_cn": "[Spellcraft]额外获得55%攻击力，且每次施法：自身获得2%攻击力。",
+    "ref_en": "[Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.",
+    "target_ru": "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки."
+  }  ,
+  {
+    "id": "130957",
+    "source_cn": "[Spellcraft]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。",
+    "ref_en": "[Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack.",
+    "target_ru": "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки."
+  }  ,
+  {
+    "id": "130958",
+    "source_cn": "6 [Spellcraft]额外获得55%攻击力，且每次施法：自身获得2%攻击力。",
+    "ref_en": "6 [Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.",
+    "target_ru": "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки."
+  }  ,
+  {
+    "id": "130959",
+    "source_cn": "6 [Spellcraft]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。",
+    "ref_en": "6 [Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack.",
+    "target_ru": "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки."
   }
 ]

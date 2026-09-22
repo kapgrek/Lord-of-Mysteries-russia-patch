@@ -243,4 +243,5 @@ return {
     ["Remaining supplies:\nBread: 4.5 portions\nDried meat and sausages: 3 portions\nSugar: 1 jar\nButter: 3 blocks\nWine: 2 bottles\nWater: 5 bottles (Found a water source on the way and replenished)"] = "Оставшиеся припасы: \n 4 с половиной порции хлеба \n 3 порции сушеного мяса и колбас \n 1 банка сахара \n 3 кусочка сливочного масла \n 2 бутылки вина \n 5 бутылок воды По дороге мы нашли источники воды и пополнили их.",
     ["(Stares blankly without speaking) ..."] = "(Смотрит тупо, не говоря ни слова)...",
     ["Captain Frye, you're here?"] = "Капитан Фрай, вы здесь?",
+    ["装配后获得【执法者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Юрист].",
 }

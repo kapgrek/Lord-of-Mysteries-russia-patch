@@ -283,4 +283,5 @@ return {
     ["Summon point 22"] = "Пункт призыва 22.",
     ["Cup without Coffee"] = "Чашка без кофе",
     ["Now it's ring-finding time; please join my plan."] = "Теперь пришло время поиска кольца; пожалуйста, присоединяйтесь к моему плану.",
+    ["Equip to gain the [Life School of Thought] bond"] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]",
 }

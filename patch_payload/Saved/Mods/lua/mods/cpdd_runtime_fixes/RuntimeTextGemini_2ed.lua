@@ -249,4 +249,5 @@ return {
     ["00001/each"] = "00001/каждый",
     ["Attempt to end Homestead Railroad Tycoon"] = "Попытка покончить с Homestead Railroad Tycoon",
     ["Spark 1.4 - Li Zixuan"] = "Искра 1.4 - Ли Цзысюань",
+    ["Equip to gain the [Prisoner] bond."] = "Экипируйте, чтобы получить резонанс [Узник].",
 }

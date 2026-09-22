@@ -245,4 +245,5 @@ return {
     ["Really, {{big brother|big sister}}, I've been here for a long time, you are the first person willing to say that to me."] = "Правда, {{big brother|big sister}}, я здесь уже давно, ты первый, кто готов мне это сказать.",
     ["Manor Money Printer"] = "Принтер для денег поместья",
     ["Club Objectives"] = "Цели клуба",
+    ["Equip to gain the [Assassin] bond."] = "Экипируйте, чтобы получить резонанс [Ассасин].",
 }

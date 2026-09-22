@@ -256,4 +256,5 @@ return {
     ["Drive Escape Interaction"] = "Взаимодействие с побегом",
     ["Free Perspective"] = "Бесплатная перспектива",
     ["We're almost there. There's a beautiful statue ahead."] = "Мы почти у цели. Впереди красивая статуя.",
+    ["Equip to gain the [Prisoner] resonance"] = "Экипируйте, чтобы получить резонанс [Узник]",
 }
