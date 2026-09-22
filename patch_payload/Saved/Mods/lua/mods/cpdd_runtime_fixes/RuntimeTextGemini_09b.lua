@@ -272,4 +272,5 @@ return {
     ["Heal upon exiting combat"] = "Лечение при выходе из боя",
     ["Go ask Mrs. Meg."] = "Иди спроси миссис Мэг.",
     ["Inner Hem - Bottom"] = "Внутренний край – низ",
+    ["4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
 }

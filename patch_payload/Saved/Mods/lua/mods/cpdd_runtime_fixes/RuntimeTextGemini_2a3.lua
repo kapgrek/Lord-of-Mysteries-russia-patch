@@ -221,7 +221,7 @@ return {
     ["I'll pay for him"] = "я заплачу за него",
     ["Julian, don't just stand there watching the fun, are you coming in the next round?"] = "Джулиан, не стой там и смотришь на веселье, ты придешь в следующий раунд?",
     ["Mitton - Prerequisite"] = "Миттон — необходимое условие",
-    ["All Bonds"] = "Все облигации",
+    ["All Bonds"] = "Все резонансы",
     ["The convergence anchor has been opened; please head there to activate it"] = "Якорь конвергенции открыт; пожалуйста, зайдите туда, чтобы активировать его",
     ["Go to the quiet alley behind the perfume shop and look for the contact, <h>Lise Evans</>"] = "Идите в тихий переулок за парфюмерным магазином и найдите контакт, <h>Лиз Эванс</>.",
     ["Kiana "] = "Киана",

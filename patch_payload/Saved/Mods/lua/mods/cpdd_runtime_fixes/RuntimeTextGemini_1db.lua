@@ -244,7 +244,7 @@ return {
     ["<Assistant_Title1>Bulwark of the Plateau</>\n<Assistant_Title2>Achievement Category: </>War-Driven Growth - Faction\n<Assistant_Title2>Unlock Condition: </>Sustain a total of 300,000 player damage in Plateau War"] = "<Assistant_Title1>Барьер на плато</>\n<Assistant_Title2>Категория достижения: </>Борьба с военной фракцией\n<Assistant_Title2>Условия разблокировки: </>Нанесённый в общей сложности 300 000 игроков урон во время войны на плато",
     ["It records the flow of time, and every second is equally precious."] = "Он фиксирует течение времени, и каждая секунда одинаково драгоценна.",
     ["Hey, little Stride, how much have you learned?"] = "Эй, маленький Страйд, как многому ты научился?",
-    ["Activate Bond"] = "Активировать облигацию",
+    ["Activate Bond"] = "Активировать резонанс",
     ["Xuanxin"] = "Сюаньсинь",
     ["A former member of the Tingen Nighthawks squad and the most famous Spirit Medium in Awwa County. Because she summarized the Acting Method herself, her advancement was extremely fast, which drew the attention of the Holy Cathedral. She was later transferred to Backlund. Her relationship with Captain Dunn seems to be quite unusual."] = "Бывший член отряда Тинген Найтхокс и самый известный духовный медиум в округе Авва. Поскольку она сама обобщила актерский метод, ее продвижение было чрезвычайно быстрым, что привлекло внимание Святого Собора. Позже ее перевели в Бэкланд. Ее отношения с капитаном Данном кажутся весьма необычными.",
     ["Random position, W represents the weight in the array."] = "Случайная позиция, W представляет вес в массиве.",
@@ -252,4 +252,5 @@ return {
     ["Gamble"] = "Азартная игра",
     ["Flame burns silently in the quiet night; though it is fire, its coldness penetrates deep into the soul. It writes its own unique manifesto with silence and speed."] = "Пламя горит тихо в тихой ночи; хоть это и огонь, но его холодность глубоко проникает в душу. Он пишет свой собственный уникальный манифест молча и быстро.",
     ["Attack power increased by 100% granted by the gray fog Blessing"] = "Бонус к силе атаки от благословения серого тумана повышается на 100%",
+    ["[Spellcasting]"] = "[Колдовство]",
 }

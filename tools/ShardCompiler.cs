@@ -94,6 +94,48 @@ public class FastShardCompiler {
             }
         }
 
+        // Explicit UI & AutoChess aliases
+        var explicitAliases = new Dictionary<string, string> {
+            { "Activate Resonance", "Активировать резонанс" },
+            { "* Activate Resonance", "* Активировать резонанс" },
+            { "Activated Resonance", "Активированный резонанс" },
+            { "Spellcraft", "Колдовство" },
+            { "Spellcasting", "Колдовство" },
+            { "[Spellcasting]", "[Колдовство]" },
+            { "All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast.", "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка." },
+            { "[Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.", "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки." },
+            { "[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.", "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки." },
+            { "[Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.", "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки." },
+            { "2 [Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.", "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки." },
+            { "4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.", "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки." },
+            { "6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.", "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки." },
+            { "Lawyer", "Юрист" },
+            { "Lucky One", "Счастливчик" },
+            { "Tarot Club", "Клуб Таро" },
+            { "Hunter", "Охотник" },
+            { "Giant Dragon Inheritance", "Наследие Дракона" },
+            { "Life School of Thought", "Жизненная школа мысли" },
+            { "Iron Wall", "Железная стена" },
+            { "Evernight Goddess", "Вечная Богиня" },
+            { "Forsaken Land of the Gods", "Заброшенная земля богов" },
+            { "Aurora Order", "Орден Авроры" },
+            { "Seer", "Провидец" },
+            { "Rock", "Камень" },
+            { "Monster", "Монстр" }
+        };
+
+        foreach (var kvp in explicitAliases) {
+            string keyEn = ComputeSourceKey(kvp.Key);
+            string shardEn = GetShardPrefix(keyEn);
+            if (!shardMap.ContainsKey(shardEn)) {
+                shardMap[shardEn] = new Dictionary<string, string>();
+            }
+            if (!shardMap[shardEn].ContainsKey(kvp.Key)) {
+                shardMap[shardEn][kvp.Key] = kvp.Value;
+                enMappedCount++;
+            }
+        }
+
         Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ")");
         Console.WriteLine("Запись в 1024 Lua-шарда...");
 

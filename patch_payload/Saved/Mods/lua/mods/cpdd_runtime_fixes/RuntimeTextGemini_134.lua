@@ -252,4 +252,5 @@ return {
     ["[Marionette Skill] Pufferfish Bullet - Damage"] = "[Марионетка Skill] Pufferfish Bullet - Damage",
     ["bilibili Player Exclusive Title"] = "bilibili Эксклюзивный титул игрока",
     ["Bar Exploration 3 - Messenger"] = "Исследование бара 3 — Посыльный",
+    ["Spellcasting"] = "Колдовство",
 }

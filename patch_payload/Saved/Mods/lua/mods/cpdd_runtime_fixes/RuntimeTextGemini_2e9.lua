@@ -86,7 +86,7 @@ return {
     ["The postman is coming to collect the mail today. I should fill out the mailing form."] = "Сегодня почтальон придет забрать почту. Мне нужно заполнить форму для отправки.",
     ["90% Discount"] = "Скидка 90%",
     ["Our job is to capture wonderful images for all the members, especially for a man of the hour like you."] = "Наша работа — сделать замечательные снимки для всех участников, особенно для такого человека, как вы.",
-    ["Activated Bonds: <HighLight>%d</>"] = "Активированные облигации: <HighLight>%d</>",
+    ["Activated Bonds: <HighLight>%d</>"] = "Активированный резонанс: <HighLight>%d</>",
     ["I... didn't know that."] = "Я... не знал этого.",
     ["Increases Skill Enhancement by 60. When a skill hits an enemy, Skill Enhancement is further increased by 50 for 10 seconds. Can be triggered at most once every 15 seconds."] = "Увеличивает улучшение навыка на 60. Когда навык поражает врага, улучшение навыка дополнительно увеличивается на 50 на 10 секунд. Может срабатывать не чаще одного раза в 15 секунд.",
     ["[Emoji 39]"] = "[Эмодзи 39]",

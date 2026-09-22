@@ -190,7 +190,7 @@ return {
     ["Start gambling"] = "Начни играть",
     ["Enter Next State"] = "Введите следующее состояние",
     ["I hope Mr. Leiner won't blame me... this is all for the investigation."] = "Надеюсь, мистер Лейнер не будет меня винить... это все для расследования.",
-    ["Bonds Activated: <HighLight>3</>"] = "Облигации активированы: <HighLight>3</>",
+    ["Bonds Activated: <HighLight>3</>"] = "Активировано резонансов: <HighLight>3</>",
     ["Permanently +5% Damage Reduction, 5% Attack"] = "Постоянно +5% уменьшения урона, 5% атаки.",
     ["Complete 1 group stage match of Peak of the Gods"] = "Завершите 1 матч группового этапа Пика Богов.",
     ["Cao"] = "Цао",

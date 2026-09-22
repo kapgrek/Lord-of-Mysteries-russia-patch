@@ -626,6 +626,41 @@ local visibleTextExactOverrides = {
         "<CostRed>{1,2,(Клеймо неактивно)}</>Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     ["技能增强提高30。\n激活套装灵与知回响时不生效。"] =
         "Усиление навыков увеличено на 30.\nНе действует, пока активен комплект Эхо Духа и Знания.",
+
+    -- [AUTOCHESS / RESONANCE / SYNERGY OVERRIDES]
+    ["Activate Resonance"] = "Активировать резонанс",
+    ["* Activate Resonance"] = "* Активировать резонанс",
+    ["Activated Resonance"] = "Активированный резонанс",
+    ["Spellcraft"] = "Колдовство",
+    ["Spellcasting"] = "Колдовство",
+    ["[Spellcasting]"] = "[Колдовство]",
+    ["All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast."] =
+        "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["[Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["[Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["2 [Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["Lawyer"] = "Юрист",
+    ["Lucky One"] = "Счастливчик",
+    ["Tarot Club"] = "Клуб Таро",
+    ["Hunter"] = "Охотник",
+    ["Giant Dragon Inheritance"] = "Наследие Дракона",
+    ["Life School of Thought"] = "Жизненная школа мысли",
+    ["Iron Wall"] = "Железная стена",
+    ["Evernight Goddess"] = "Вечная Богиня",
+    ["Forsaken Land of the Gods"] = "Заброшенная земля богов",
+    ["Aurora Order"] = "Орден Авроры",
+    ["Seer"] = "Провидец",
+    ["Rock"] = "Камень",
+    ["Monster"] = "Монстр",
 }
 
 -- Nearby NPC chat can prepend a channel and translated speaker name to the
@@ -1929,6 +1964,37 @@ local function translateVisibleText(value)
             return result
         end
     end
+
+    -- Preserve leading asterisk prefix (e.g. "* Activate Resonance", "* Получить талант")
+    local starPrefix, starBody = value:match("^(%*%s*)(.+)$")
+    if starPrefix ~= nil and starBody ~= nil then
+        local translatedStar = translateVisibleText(starBody)
+        if translatedStar ~= starBody then
+            local result = starPrefix .. translatedStar
+            visibleTextCache[value] = result
+            return result
+        end
+    end
+
+    -- AutoChess dynamic resonance count (e.g. "Activated Resonance: 1")
+    local actResCount = value:match("^Activated%s+Resonance:%s*(%d+)$") or value:match("^Activate%s+Resonance:%s*(%d+)$")
+    if actResCount ~= nil then
+        local result = "Активированный резонанс: " .. actResCount
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess numbered synergy tier prefix (e.g. "2 [Spellcasting]...")
+    local tierPrefix, tierBody = value:match("^(%d+)%s+(%[.+)$")
+    if tierPrefix ~= nil and tierBody ~= nil then
+        local translatedTier = translateVisibleText(tierBody)
+        if translatedTier ~= tierBody then
+            local result = tierPrefix .. " " .. translatedTier
+            visibleTextCache[value] = result
+            return result
+        end
+    end
+
     local enterWorldShortened = shortenEnterWorldLabel(value)
     if enterWorldShortened ~= value then
         visibleTextCache[value] = enterWorldShortened

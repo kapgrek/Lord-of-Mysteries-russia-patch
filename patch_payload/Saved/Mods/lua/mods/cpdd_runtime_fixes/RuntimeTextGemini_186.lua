@@ -231,4 +231,5 @@ return {
     ["Everyone must <Highlight>move flexibly</> to dodge while assigning specific players to <Highlight>block the line</>. The remaining players must promptly <Highlight>switch targets to attack</> and destroy the statue that has lost its invincibility to force Milgongen into an Armor Break state."] = "Каждый должен <Highlight> гибко перемещаться</>, чтобы уклоняться, назначая определенных игроков <Highlight>блокировать линию</>. Остальные игроки должны быстро сменить цель <Highlight>, чтобы атаковать </> и уничтожить статую, потерявшую неуязвимость, чтобы заставить Милгонгена перейти в состояние пробития брони.",
     ["Some time later, you wanted to know the outcome, so you came to Hoy University again..."] = "Некоторое время спустя вам захотелось узнать результат, и вы снова пришли в Университет Хой...",
     ["Weapon animation."] = "Анимация оружия.",
+    ["6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
 }

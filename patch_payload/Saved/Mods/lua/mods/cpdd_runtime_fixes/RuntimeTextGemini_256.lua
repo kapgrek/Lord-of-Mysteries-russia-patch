@@ -51,7 +51,7 @@ return {
     ["Eye glint"] = "Блеск глаз",
     ["Get mount accessory by ID"] = "Получить аксессуар для крепления по идентификатору",
     ["Hand it to Enid"] = "Отдай это Энид",
-    ["Bond Composition"] = "Состав облигаций",
+    ["Bond Composition"] = "Состав резонансов",
     ["Filthy Barrier of the Iron-Blood Cross"] = "Грязный барьер Железно-Кровавого Креста",
     ["Jump to loading after fragments, jump to Chapter 1, Section 1 of the Mystery line"] = "Перейти к загрузке после фрагментов, перейти к Главе 1, Разделу 1 Тайной ветки.",
     ["Obtained 1 Railway Tycoon rating on the Steady Progression Route."] = "Получен 1 рейтинг «Железнодорожный магнат» на пути устойчивого развития.",
