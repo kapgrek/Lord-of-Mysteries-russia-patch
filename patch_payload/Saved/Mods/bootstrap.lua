@@ -389,6 +389,14 @@ local function merge_overlay(name, originalValue, environment, translatedChunk, 
     end
     if Loader.OverlayTargets[name] == originalData and not force then return originalValue end
 
+    Loader.OverlayOriginals = Loader.OverlayOriginals or {}
+    local originals = Loader.OverlayOriginals[name]
+    if not originals then
+        originals = {}
+        for k, v in pairs(originalData) do originals[k] = v end
+        Loader.OverlayOriginals[name] = originals
+    end
+
     setfenv(translatedChunk, environment or _G)
     Loader.Telemetry.OverlayExecutes = Loader.Telemetry.OverlayExecutes + 1
     local ok, translatedValue = xpcall(function() return translatedChunk(name) end, debug.traceback)
@@ -404,7 +412,8 @@ local function merge_overlay(name, originalValue, environment, translatedChunk, 
     local translator = Loader.TranslateDatabaseString
     if type(translator) == "function" then
         for key, value in pairs(translatedData) do
-            local ru = translator(value, originalData[key], key, name)
+            local origCn = originals[key]
+            local ru = translator(value, origCn, key, name)
             originalData[key] = ru ~= nil and ru or value
             count = count + 1
         end

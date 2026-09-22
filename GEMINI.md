@@ -35,3 +35,20 @@
   - **Обязательное правило**: После ЛЮБЫХ правок в батчах перевода (`source/translation_batches/batch_*.json`) агент **ОБЯЗАН СРАЗУ ЖЕ** запустить перекомпиляцию шардов через `tools/ShardCompiler.exe` (или `dotnet run --project tools/` / `powershell tools/ShardCompiler.ps1`).
   - При использовании `tools/BatchHelper.ps1 -Action Import` перекомпиляция вызывается автоматически.
   - Это гарантирует, что обновлённые строки немедленно попадут в шарды и оптимизируются в слой базы данных (0 мс задержки в игре).
+
+## 6. Навигация по репозиторию и правила эффективного поиска
+- **Полная карта проекта**: подробное дерево файлов и таблица задач находятся в `docs/PROJECT_MAP.md`.
+- **Шпаргалка ключевых файлов (переходить напрямую, не сканируя корень)**:
+  - **Хуки UI, адаптивная верстка, перехват строк**: `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua`.
+  - **Мод-лоадер и подмена библиотек**: `patch_payload/Saved/Mods/bootstrap.lua`.
+  - **Таблицы баз данных игры (Excel)**: `patch_payload/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/`.
+  - **Батчи перевода (Source of Truth)**: `source/translation_batches/batch_*.json`.
+  - **Глоссарий терминов и имен**: `source/glossary/*.json` и `docs/GLOSSARY.md`.
+  - **Инструменты (компилятор шардов, хелпер, валидатор)**: `tools/ShardCompiler.cs`, `tools/BatchHelper.ps1`, `tools/VerifyBatch.ps1`.
+  - **Установщик (GUI и движок)**: `installer/Program.cs`, `installer/PatcherEngine.cs`.
+- **Защита от «шардового потопа» (Shard Flooding)**:
+  - Папка `patch_payload/.../cpdd_runtime_fixes/` содержит более 1 200 генерируемых файлов (`RuntimeTextGemini_*.lua` и `LanguageSourceIndex_*.lua`).
+  - **СТРОГО ЗАПРЕЩЕНО** выполнять глобальный поиск (`find_by_name`, `grep_search`) по всему репозиторию без исключения сгенерированных шардов и бинарников!
+  - При любом поиске **ВСЕГДА** задавать `SearchDirectory` / `SearchPath` конкретной целевой папки (`tools/`, `installer/`, `docs/`, `source/`) либо передавать в `Excludes`:
+    `["**/RuntimeTextGemini_*", "**/LanguageSourceIndex_*", "**/BakedText/**", "temp/**", ".git/**"]`.
+

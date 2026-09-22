@@ -1335,6 +1335,18 @@ runtimeFixes.lookupGeminiTextFuzzy = function(value)
     local direct = lookupGeminiText(value)
     if direct ~= nil then return direct end
 
+    -- Normalize CRLF to LF for multi-line text (dialogs, descriptions, hints)
+    if value:find("\r", 1, true) then
+        local normalized = value:gsub("\r\n", "\n"):gsub("\r", "\n")
+        local normDirect = lookupGeminiText(normalized)
+        if normDirect ~= nil then return normDirect end
+        local normLeading, normTrimmed, normTrailing = normalized:match("^(%s*)(.-)(%s*)$")
+        if normTrimmed ~= "" and normTrimmed ~= normalized then
+            local t = lookupGeminiText(normTrimmed)
+            if t ~= nil then return normLeading .. t .. normTrailing end
+        end
+    end
+
     -- 1. Trim leading and trailing whitespace / newlines
     local leading, trimmed, trailing = value:match("^(%s*)(.-)(%s*)$")
     if trimmed ~= "" and trimmed ~= value then
@@ -2267,15 +2279,21 @@ local function translateTextWidget(widget, discoveryContext)
     local methodOk = pcall(function() getText = widget.GetText end)
     if methodOk and type(getText) == "function" then
         local ok, val = pcall(getText, widget)
-        if ok and val ~= nil and val ~= "" then
-            current = val
+        if ok and val ~= nil then
+            local sVal = tostring(val)
+            if sVal ~= "" then
+                current = sVal
+            end
         end
     end
     if current == nil or current == "" then
         pcall(function()
             local propVal = widget.Text
-            if type(propVal) == "string" and propVal ~= "" then
-                current = propVal
+            if propVal ~= nil then
+                local sVal = tostring(propVal)
+                if sVal ~= "" then
+                    current = sVal
+                end
             end
         end)
     end
@@ -8813,43 +8831,52 @@ end)
 -- Register database translation hook for bootstrap.lua merge_overlay
 -- This translates the Excel StringDB database in memory at load time (0ms runtime latency).
 Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
-    if type(enValue) ~= "string" or enValue == "" then
+    local hasEn = type(enValue) == "string" and enValue ~= ""
+    local hasCn = type(cnValue) == "string" and cnValue ~= ""
+    if not hasEn and not hasCn then
         return nil
     end
 
     -- 1. Explicit row ID overrides
-    local explicit = aggregateOverrides[rowId]
-    if explicit ~= nil then return explicit end
+    if rowId ~= nil then
+        local explicit = aggregateOverrides[rowId]
+        if explicit ~= nil then return explicit end
+    end
 
     -- 2. Tag-specific split overrides
-    if type(moduleName) == "string" then
+    if type(moduleName) == "string" and rowId ~= nil then
         local tag = moduleName:match("StringDB_CN_Data_([A-Za-z0-9_]+)$")
         if tag and splitOverrides[tag] and splitOverrides[tag][rowId] then
             return splitOverrides[tag][rowId]
         end
     end
 
-    -- 3. Exact direct shard lookup for English string
-    local ru = lookupGeminiText(enValue)
-    if ru ~= nil then return ru end
-
-    -- 4. Exact direct shard lookup for Chinese original string
-    if type(cnValue) == "string" and cnValue ~= "" and cnValue ~= enValue then
-        local ruCn = lookupGeminiText(cnValue)
+    -- 3. Exact direct shard lookup for Chinese original string (primary canonical source in shards)
+    if hasCn then
+        local ruCn = lookupGeminiText(cnValue) or runtimeFixes.lookupGeminiTextFuzzy(cnValue)
         if ruCn ~= nil then return ruCn end
     end
 
+    -- 4. Direct shard lookup for English reference string
+    if hasEn then
+        local ruEn = lookupGeminiText(enValue) or runtimeFixes.lookupGeminiTextFuzzy(enValue)
+        if ruEn ~= nil then return ruEn end
+    end
+
     -- 5. Exact review overrides
-    local exact = visibleTextExactOverrides[enValue]
-        or (type(cnValue) == "string" and visibleTextExactOverrides[cnValue])
-    if exact ~= nil then return exact end
+    if hasCn and visibleTextExactOverrides[cnValue] then
+        return visibleTextExactOverrides[cnValue]
+    end
+    if hasEn and visibleTextExactOverrides[enValue] then
+        return visibleTextExactOverrides[enValue]
+    end
 
     return nil
 end
 
 pcall(function()
     if type(Loader.ReapplyOverlays) == "function" then
-        local count = Loader.ReapplyOverlays()
+        local count = Loader.ReapplyOverlays(true)
         local logger = Log or LaunchLog
         if logger and logger.Info then
             logger.Info("[LOMModLoader] Database Russian overlay applied to " .. tostring(count or 0) .. " modules")
