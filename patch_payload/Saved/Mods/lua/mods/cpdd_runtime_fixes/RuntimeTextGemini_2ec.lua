@@ -261,4 +261,5 @@ return {
     ["Nighthawk, someone is trying to commit suicide. Come with me."] = "Ночной Ястреб, кто-то пытается покончить жизнь самоубийством. Пойдем со мной.",
     ["【窥秘人】"] = "[Подглядывающий за Тайнами]",
     ["装配后获得【罪犯】羁绊"] = "Экипируйте, чтобы получить резонанс [Преступник]",
+    ["At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

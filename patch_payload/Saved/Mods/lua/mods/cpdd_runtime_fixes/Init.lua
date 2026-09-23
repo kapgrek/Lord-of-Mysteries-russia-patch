@@ -2198,10 +2198,17 @@ local function translateVisibleText(value)
         return result
     end
 
-    -- AutoChess numbered synergy tier prefix (e.g. "2 [Spellcasting]...", "2 Each unique 3-star piece...")
-    local tierPrefix, tierBody = value:match("^(%d+)%s+(.+)$")
+    -- AutoChess numbered synergy tier prefix (e.g. "2 [Spellcasting]...", "2 Each unique 3-star piece...", multiline tiers)
+    local tierPrefix, tierBody = value:match("^(%d+)%s+([%s%S]+)$")
     if tierPrefix ~= nil and tierBody ~= nil then
         local translatedTier = translateVisibleText(tierBody)
+        if translatedTier == tierBody and tierBody:find("\r", 1, true) then
+            local normalizedBody = tierBody:gsub("\r\n", "\n")
+            local normTrans = translateVisibleText(normalizedBody)
+            if normTrans ~= normalizedBody then
+                translatedTier = normTrans
+            end
+        end
         if translatedTier ~= tierBody then
             local result = tierPrefix .. " " .. translatedTier
             visibleTextCache[value] = result

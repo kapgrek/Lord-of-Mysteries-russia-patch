@@ -171,7 +171,37 @@ public class FastShardCompiler {
             { "Highest Losing Streak:", "Макс. серия поражений:" },
             { "Highest Losing Streak", "Макс. серия поражений" },
             { "Current Win Streak", "Текущая серия побед" },
-            { "Current Losing Streak", "Текущая серия поражений" }
+            { "Current Losing Streak", "Текущая серия поражений" },
+
+            // AutoChess piece roles
+            { "Ranged Marksman", "Стрелок дальнего боя" },
+            { "Melee Support", "Поддержка ближнего боя" },
+            { "Ranged Mage", "Маг дальнего боя" },
+            { "Melee Warrior", "Воин ближнего боя" },
+            { "Frontline Tank", "Передовой танк" },
+            { "Melee Tank", "Танк ближнего боя" },
+            { "Melee Assassin", "Убийца ближнего боя" },
+            { "Ranged Assassin", "Убийца дальнего боя" },
+            { "Ranged Support", "Поддержка дальнего боя" },
+            { "Frontline Warrior", "Передовой воин" },
+
+            // AutoChess Extraordinary World synergy & tiers
+            { "Starts [Extraordinary Quests]. Complete quests to accumulate [Quest Points] and claim fate gifts upon reaching thresholds.", "Начинает [Потусторонние задания]. Выполняйте задания, чтобы накапливать [Очки заданий] и получать дары судьбы по достижении пороговых значений." },
+            { "[Extraordinary Quests]", "[Потусторонние задания]" },
+            { "[Quest Points]", "[Очки заданий]" },
+            { "Start [Extraordinary Quests].", "Начинает [Потусторонние задания]." },
+            { "At the start of player combat: Restore 2 Health to the player.", "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку." },
+            { "At the start of player combat:\nRestore 2 Health to the player.", "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку." },
+            { "At the start of player combat:\r\nRestore 2 Health to the player.", "В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку." },
+            { "At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+            { "At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+            { "At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+            { "5 At the start of player combat: Restore 2 Health to the player.", "5 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку." },
+            { "5 At the start of player combat:\nRestore 2 Health to the player.", "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку." },
+            { "5 At the start of player combat:\r\nRestore 2 Health to the player.", "5 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку." },
+            { "7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+            { "7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+            { "7 At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." }
         };
 
         foreach (var kvp in explicitAliases) {
@@ -183,6 +213,8 @@ public class FastShardCompiler {
             if (!shardMap[shardEn].ContainsKey(kvp.Key)) {
                 shardMap[shardEn][kvp.Key] = kvp.Value;
                 enMappedCount++;
+            } else {
+                shardMap[shardEn][kvp.Key] = kvp.Value;
             }
         }
 

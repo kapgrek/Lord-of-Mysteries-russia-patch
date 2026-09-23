@@ -215,4 +215,5 @@ return {
     ["Complete 3 \"Cat-Finding Adventures\""] = "Завершите 3 приключения в поисках кошек.",
     ["...I have a diamond necklace, I'd like to trade it with you."] = "...У меня есть бриллиантовое колье, я бы хотел обменять его с тобой.",
     ["Bard - Cleanse Skill Proxy"] = "Бард - Прокси навыка очистки",
+    ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

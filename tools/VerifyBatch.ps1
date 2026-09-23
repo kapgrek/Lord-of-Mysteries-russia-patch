@@ -10,7 +10,7 @@ $resolvedDir = Resolve-Path (Join-Path $PSScriptRoot $BatchesDir)
 Write-Host "=== Translation Batch Validator (Lord of the Mysteries v2.6-RU) ===" -ForegroundColor Cyan
 
 $files = if ($Batch -gt 0) {
-    @((Join-Path $resolvedDir ("batch_{0:D3}.json" -f $Batch)))
+    @(Get-ChildItem -Path $resolvedDir -Filter ("batch_{0:D3}*.json" -f $Batch) | ForEach-Object { $_.FullName })
 } else {
     Get-ChildItem -Path $resolvedDir -Filter "batch_*.json" | Sort-Object Name | ForEach-Object { $_.FullName }
 }

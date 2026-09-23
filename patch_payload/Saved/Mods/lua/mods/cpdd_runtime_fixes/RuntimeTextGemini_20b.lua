@@ -22,7 +22,7 @@ return {
     ["PVP Assist"] = "PVP-ассисты",
     ["I... I understand children's temperaments; perhaps I can help."] = "Я... я знаю детские нравы, может, смогу помочь.",
     ["Appendix"] = "Приложение",
-    ["Total Money:"] = "Всего денег:",
+    ["Total Money:"] = "Всего монет:",
     ["'Scan the graphic on the right to obtain all information about the tomb owner...' The square pattern on the right is composed of small black squares, and no shape can be discerned."] = "«Сканируйте изображение справа, чтобы получить всю информацию о владельце гробницы…» Квадратный узор справа состоит из маленьких черных квадратов, и никакой формы различить невозможно.",
     ["You are very talented, but after every excessive practice or use of spirit vision, you need to recover your spirituality through sleep. You can go home and rest."] = "Вы очень талантливы, но после каждой чрезмерной практики или использования духовного видения вам необходимо восстанавливать свою духовность посредством сна. Можешь пойти домой и отдохнуть.",
     ["Sir, has anyone ever thrown trash into the toilet?"] = "Сэр, кто-нибудь когда-нибудь выбрасывал мусор в унитаз?",

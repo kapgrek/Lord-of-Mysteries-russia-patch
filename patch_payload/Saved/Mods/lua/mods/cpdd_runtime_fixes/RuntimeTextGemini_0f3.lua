@@ -264,4 +264,5 @@ return {
     ["Currently on cooldown, remaining"] = "Currently on Перезарядка, remaining",
     ["I've decided, first talk about the weather, then talk about the last concert, and then slowly introduce..."] = "Я решила, сначала расскажу о погоде, потом о прошедшем концерте, а потом потихоньку представлю...",
     ["Oh, I think I've heard of those two designers... Design inspiration gathering? That sounds like a really interesting job."] = "О, кажется, я слышал об этих двух дизайнерах... Собираетесь дизайнерское вдохновение? Это звучит как действительно интересная работа.",
+    ["Ranged Marksman"] = "Стрелок дальнего боя",
 }

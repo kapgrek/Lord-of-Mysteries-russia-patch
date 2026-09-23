@@ -261,5 +261,5 @@ return {
     ["Woman by the Lake"] = "Женщина у озера",
     ["Dalton "] = "Далтон",
     ["Pick up the <h> paper </>"] = "Возьмите бумагу <h> </>.",
-    ["Pieces"] = "Список фигур",
+    ["Pieces"] = "Фигуры",
 }

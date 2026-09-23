@@ -273,4 +273,5 @@ return {
     ["What cooking the books? I'm just taking a little more of what I deserve!"] = "Что готовят книги? Я просто беру немного больше того, что заслуживаю!",
     ["Ask Frye for specific instructions (Other)"] = "Спросите у Фрая конкретные инструкции (Другое)",
     ["Is this potion really effective? Perhaps I need to go prepare some bird feed to bridge the distance first..."] = "Действительно ли это зелье эффективно? Возможно, мне нужно сначала приготовить корм для птиц, чтобы преодолеть расстояние...",
+    ["Melee Tank"] = "Танк ближнего боя",
 }

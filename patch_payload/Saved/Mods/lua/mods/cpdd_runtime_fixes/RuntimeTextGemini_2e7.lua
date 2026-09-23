@@ -243,6 +243,6 @@ return {
     ["The lights go out, the performance stops again, and the lyrics appear below the stage."] = "Свет гаснет, представление снова останавливается, и под сценой появляются слова песни.",
     ["View the Intis Territory Map, needs to be replaced with a custom event"] = "Просмотр карты территории Интиса, необходимо заменить пользовательским событием.",
     ["Activated Resonance: 9"] = "Активировано резонансов: 9",
-    ["Life School of Thought"] = "Школа Мысли Жизни",
+    ["Life School of Thought"] = "Жизненная школа мысли",
     ["Equip to gain the [Secrets Suppliant] bond"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
 }

@@ -185,7 +185,7 @@ return {
     ["Dungeon Function Test - Lovia"] = "Функциональный тест подземелья — Ловия",
     ["Grand Theater Dialogue Preload"] = "Предварительная загрузка диалога Большого театра",
     ["Default value is 0. Do not fill this in when using in a buff"] = "Значение по умолчанию — 0. Не заполняйте это поле при использовании баффа.",
-    ["Ranking"] = "Рейтинг",
+    ["Ranking"] = "Место",
     ["Occult enthusiast"] = "Оккультный энтузиаст",
     ["<h>Ask</> about information on these Sequences"] = "<h>Ask</> about information on these Последовательностьs",
     ["Blessing of the Goshawk"] = "Благословение тетеревятника",

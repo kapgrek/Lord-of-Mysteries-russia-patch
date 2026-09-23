@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 06d/3ff.
 return {
     ["Beach Mountbatten"] = "Бич Маунтбеттен",
-    ["Lawyer"] = "Адвокат",
+    ["Lawyer"] = "Юрист",
     ["<P_Yellow> May Manor, High-Paying Short-Term Job </>\n\n<P_Yellow> Job Responsibilities </> After simple training at May Manor, prune apple trees. \n\n<P_Yellow> Basic Requirements </>\n No age limit, hardworking, responsible, must accept night shifts. \n<P_Yellow> Working Hours </>\n Working hours no less than 14 hours per day, for a period of two weeks. \n<P_Yellow> Salary and Benefits </>\n Food, accommodation, and work clothes provided, weekly salary of four pounds, can be paid in advance."] = "<P_Yellow>Поместье Мэй, высокооплачиваемая временная работа</>\n\n<P_Yellow>Обязанности</> После короткого обучения в поместье Мэй — обрезка яблонь.\n\n<P_Yellow>Требования</>\nБез ограничений по возрасту, трудолюбие, ответственность, готовность к ночным сменам.\n<P_Yellow>График работы</>\nНе менее 14 часов в день, срок — две недели.\n<P_Yellow>Оплата и условия</>\nПитание, проживание и рабочая одежда предоставляются. Оплата — четыре фунта в неделю, возможен аванс.",
     ["Physique has been greatly enhanced, with significant resistance to diseases and harsh environments."] = "Телосложение значительно окрепло, появилась высокая сопротивляемость болезням и суровым условиям окружающей среды.",
     ["<P_Heart>(Radio static)</>Alright... it's a good thing you're okay. Let's get down to business."] = "<P_Heart>(Шорох рации)</> Ладно... хорошо, что ты в порядке. Давай займемся делом.",

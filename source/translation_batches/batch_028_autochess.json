@@ -682,5 +682,113 @@
     "source_cn": "弈子列表",
     "ref_en": "Pieces",
     "target_ru": "Список фигур"
+  },
+  {
+    "id": "131125",
+    "source_cn": "Ranged Marksman",
+    "ref_en": "Ranged Marksman",
+    "target_ru": "Стрелок дальнего боя"
+  },
+  {
+    "id": "131126",
+    "source_cn": "Melee Support",
+    "ref_en": "Melee Support",
+    "target_ru": "Поддержка ближнего боя"
+  },
+  {
+    "id": "131127",
+    "source_cn": "Ranged Mage",
+    "ref_en": "Ranged Mage",
+    "target_ru": "Маг дальнего боя"
+  },
+  {
+    "id": "131128",
+    "source_cn": "Melee Warrior",
+    "ref_en": "Melee Warrior",
+    "target_ru": "Воин ближнего боя"
+  },
+  {
+    "id": "131129",
+    "source_cn": "Frontline Tank",
+    "ref_en": "Frontline Tank",
+    "target_ru": "Передовой танк"
+  },
+  {
+    "id": "131130",
+    "source_cn": "Melee Tank",
+    "ref_en": "Melee Tank",
+    "target_ru": "Танк ближнего боя"
+  },
+  {
+    "id": "131131",
+    "source_cn": "Melee Assassin",
+    "ref_en": "Melee Assassin",
+    "target_ru": "Убийца ближнего боя"
+  },
+  {
+    "id": "131132",
+    "source_cn": "Ranged Assassin",
+    "ref_en": "Ranged Assassin",
+    "target_ru": "Убийца дальнего боя"
+  },
+  {
+    "id": "131133",
+    "source_cn": "Ranged Support",
+    "ref_en": "Ranged Support",
+    "target_ru": "Поддержка дальнего боя"
+  },
+  {
+    "id": "131134",
+    "source_cn": "Frontline Warrior",
+    "ref_en": "Frontline Warrior",
+    "target_ru": "Передовой воин"
+  },
+  {
+    "id": "131135",
+    "source_cn": "Starts [Extraordinary Quests]. Complete quests to accumulate [Quest Points] and claim fate gifts upon reaching thresholds.",
+    "ref_en": "Starts [Extraordinary Quests]. Complete quests to accumulate [Quest Points] and claim fate gifts upon reaching thresholds.",
+    "target_ru": "Начинает [Потусторонние задания]. Выполняйте задания, чтобы накапливать [Очки заданий] и получать дары судьбы по достижении пороговых значений."
+  },
+  {
+    "id": "131136",
+    "source_cn": "[Extraordinary Quests]",
+    "ref_en": "[Extraordinary Quests]",
+    "target_ru": "[Потусторонние задания]"
+  },
+  {
+    "id": "131137",
+    "source_cn": "[Quest Points]",
+    "ref_en": "[Quest Points]",
+    "target_ru": "[Очки заданий]"
+  },
+  {
+    "id": "131138",
+    "source_cn": "Start [Extraordinary Quests].",
+    "ref_en": "Start [Extraordinary Quests].",
+    "target_ru": "Начинает [Потусторонние задания]."
+  },
+  {
+    "id": "131139",
+    "source_cn": "At the start of player combat: Restore 2 Health to the player.",
+    "ref_en": "At the start of player combat: Restore 2 Health to the player.",
+    "target_ru": "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку."
+  },
+  {
+    "id": "131140",
+    "source_cn": "At the start of player combat:\nRestore 2 Health to the player.",
+    "ref_en": "At the start of player combat:\nRestore 2 Health to the player.",
+    "target_ru": "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку."
+  },
+  {
+    "id": "131141",
+    "source_cn": "At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
+    "ref_en": "At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
+    "target_ru": "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе."
+  },
+  {
+    "id": "131142",
+    "source_cn": "At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
+    "ref_en": "At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
+    "target_ru": "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе."
   }
 ]

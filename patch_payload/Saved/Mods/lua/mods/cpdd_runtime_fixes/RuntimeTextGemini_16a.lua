@@ -288,4 +288,5 @@ return {
     ["But, sir, you must take your medicine. Otherwise, your illness will never get better..."] = "Но, сэр, вы должны принять лекарство. Иначе ваша болезнь никогда не поправится...",
     ["装配后获得【窥秘人】羁绊。"] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
     ["昔蘭尼加"] = "Киренаика",
+    ["5 At the start of player combat: Restore 2 Health to the player."] = "5 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку.",
 }

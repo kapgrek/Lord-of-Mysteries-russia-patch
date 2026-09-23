@@ -270,4 +270,5 @@ return {
     ["Close-up camera before execution"] = "Камера крупным планом перед казнью",
     ["Eh, you know what they look like? But you should have never met, right?"] = "Э, ты знаешь, как они выглядят? Но вам не следовало встречаться, верно?",
     ["Skill type list"] = "Список типов навыков",
+    ["Melee Support"] = "Поддержка ближнего боя",
 }

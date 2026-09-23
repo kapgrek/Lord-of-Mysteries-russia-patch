@@ -201,7 +201,7 @@ return {
     ["Tide of Knowledge"] = "Прилив знаний",
     ["If you can make it to that day, your lungs will be healthy too—"] = "Если вы доживете до этого дня, ваши легкие тоже будут здоровы…",
     ["What is the name of the diviner you're talking about? Where does she set up her stall?"] = "Как зовут прорицателя, о котором вы говорите? Где она ставит свой ларек?",
-    ["Highlight Data"] = "Выделить данные",
+    ["Highlight Data"] = "Ключевые данные",
     ["Follow the shadow forward"] = "Следуй за тенью вперед",
     ["Viscountess - Sound Tracking Test 2"] = "Виконтесса - тест на слежение за звуком b",
     ["Cut open the doll with the dagger"] = "Разрежьте куклу кинжалом.",

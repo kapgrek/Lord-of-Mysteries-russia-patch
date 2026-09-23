@@ -5,7 +5,7 @@ return {
     ["Allow Player Lookup?"] = "Разрешить поиск игрока?",
     ["Quest:\n"] = "Задание:\n",
     ["Select Honor"] = "Выбрать честь",
-    ["Piece"] = "Кусочек",
+    ["Piece"] = "Фигура",
     ["Amon has reversed space-time; quickly go to the non-shadow area to kill the History Vortex!"] = "Амон обратил вспять пространство и время! Скорее отправляйтесь в освещённую зону и уничтожьте вихрь истории!",
     ["Deep Snow Flower Ceremony"] = "Церемония снежного цветения",
     ["Meow..."] = "Мяу...",

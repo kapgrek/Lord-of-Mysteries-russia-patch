@@ -260,4 +260,5 @@ return {
     ["Use Wave Riding to deal damage to surrounding enemies."] = "Используйте «Волновую езду», чтобы наносить урон окружающим врагам.",
     ["Trait inclusion"] = "Включение признака",
     ["Where... is this..."] = "Где... это...",
+    ["Ranged Support"] = "Поддержка дальнего боя",
 }

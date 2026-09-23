@@ -256,5 +256,6 @@ return {
     ["Phantom shadow wearing a monocle"] = "Призрачная тень в монокле",
     ["You, how could you know? This has been my best joke for the last ten years... Could it be that you are the King of Jokes?"] = "Ты, откуда ты мог знать? Это была моя лучшая шутка за последние десять лет... Может быть, вы Король шуток?",
     ["Steel forges the dawn, but after the dawn, there is still endless competition."] = "Сталь куёт рассвет, но и после рассвета продолжается бесконечная борьба.",
+    ["At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
     ["Highest Win Streak:"] = "Макс. серия побед:",
 }

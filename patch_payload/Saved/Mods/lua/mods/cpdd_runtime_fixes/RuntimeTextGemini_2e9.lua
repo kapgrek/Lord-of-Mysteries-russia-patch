@@ -17,7 +17,7 @@ return {
     ["Would you like to try giving him a chance?"] = "Может, попробуем дать ему шанс?",
     ["Because no lawyer is willing to take such a case with little certainty, where the fee can only be paid if the case is won."] = "Потому что ни один стряпчий не возьмется за безнадежное дело, гонорар за которое заплатят только в случае выигрыша.",
     ["Increases Skill Enhancement by 80. When a skill hits an enemy, Skill Enhancement is additionally increased by 110 for 10 seconds, and an instance of additional damage is dealt at the target's location. Can be triggered at most once every 20 seconds."] = "Повышает усиление навыков на 80. При попадании навыком по врагу усиление навыков дополнительно увеличивается на 110 на 10 сек., а в точке нахождения цели наносится дополнительный урон (срабатывает не чаще одного раза в 20 сек.).",
-    ["Rock"] = "Монолит",
+    ["Rock"] = "Скала",
     ["Appropriate form of address"] = "Подходящее обращение",
     ["Fresh pumpkins, fresh vegetables!"] = "Свежие тыквы, свежие овощи!",
     ["The torrent of the era... is destined to be filled with my achievements!"] = "Поток времени... суждено наполниться моими достижениями!",

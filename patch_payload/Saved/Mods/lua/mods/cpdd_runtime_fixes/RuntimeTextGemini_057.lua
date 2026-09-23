@@ -242,4 +242,5 @@ return {
     ["Achievement: Sigh of the Death Archon"] = "Достижение: Вздох Архонта Смерти.",
     ["使用后获得<Highlight>红与黑套装</>\n也可兑换为<Highlight>2</>张神眷牌"] = "Используйте, чтобы получить <Highlight>костюм «Красное и чёрное»</>\nТакже можно обменять на <Highlight>2</> карты божественной благодати",
     ["[Prisoner]"] = "[Узник]",
+    ["At the start of player combat:\nRestore 2 Health to the player."] = "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

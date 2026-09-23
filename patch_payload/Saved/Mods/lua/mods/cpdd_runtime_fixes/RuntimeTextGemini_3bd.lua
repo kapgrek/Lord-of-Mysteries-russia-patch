@@ -247,4 +247,5 @@ return {
     ["Over-the-shoulder view of player"] = "Вид игрока через плечо",
     ["Valid Range of Point"] = "Действительный диапазон точек",
     ["Congratulations, lucky one. To be favored by Him is both an honor and a beginning. May you have a pleasant journey under The Fool's Gaze and protection."] = "Поздравляю, счастливчик. Быть Его благосклонностью — это и честь, и начало. Желаю вам приятного путешествия под присмотром и защитой Шута.",
+    ["[Quest Points]"] = "[Очки заданий]",
 }

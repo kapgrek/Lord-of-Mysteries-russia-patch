@@ -6,7 +6,7 @@ return {
     ["Mistress of the Manor"] = "Хозяйка поместья",
     ["Achievement - Rivalry! Crimson Coronation"] = "Достижение — Состязание! Кровавая коронация",
     ["Bedtime Story-24 [Reach Location] Approach Skana"] = "Сказка на ночь-24【Прибытие на место】Подойдите к Скане",
-    ["Hunter"] = "Хантер",
+    ["Hunter"] = "Охотник",
     ["Go to the north of the Law Camp"] = "Отправляйтесь к северу от лагеря Закона",
     ["Your Dance Partner has left. Exit the mode?"] = "Ваш партнер по танцу ушел. Покинуть режим?",
     ["\n (Large areas of gnawed marks) \n \n <Mark id=\"#157\"> May 19, 1155 </>, the eldest daughter of the <InvHighlight> Intis Republic </> was born... Roselle named his beloved daughter <Mark id=\"#157\"> Bernadette Gustav </> ... \n \n ... \n \n (Large areas of gnawed marks)"] = "\n　　(Обширные следы обгрызенных краев)\n\n　　<Mark id=\"#157\">19 мая 1155 года</>, родилась <InvHighlight>старшая дочь</> Интисской Республики... Розель нарек любимую дочь именем <Mark id=\"#157\">Бернадетт Густав...</>\n\n　　...\n\n　　(Обширные следы обгрызенных краев)",

@@ -240,4 +240,5 @@ return {
     ["Dance in Memory"] = "Танец в памяти",
     ["Vanessa"] = "Ванесса",
     ["The future of the castle is bright!"] = "Будущее замка светлое!",
+    ["At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

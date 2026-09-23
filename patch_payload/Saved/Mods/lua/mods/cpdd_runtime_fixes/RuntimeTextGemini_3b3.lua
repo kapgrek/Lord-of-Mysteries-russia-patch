@@ -230,4 +230,5 @@ return {
     ["Audience 19"] = "Аудитория bb",
     ["What, don't like what you see?"] = "Что, не нравится то, что видишь?",
     ["Close it"] = "Закрой это",
+    ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

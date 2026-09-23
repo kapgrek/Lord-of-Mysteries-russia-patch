@@ -247,4 +247,5 @@ return {
     ["The great adventurer Gehrman! Yes! That's the Gehrman!"] = "Великий искатель приключений Герман! Да! Это Герман!",
     ["Prologue Draw"] = "Жеребьевка пролога",
     ["Equip to gain the [Monster] bond"] = "Экипируйте, чтобы получить резонанс [Монстр]",
+    ["At the start of player combat: Restore 2 Health to the player."] = "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку.",
 }
