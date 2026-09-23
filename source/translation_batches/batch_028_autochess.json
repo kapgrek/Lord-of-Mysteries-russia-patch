@@ -1,0 +1,686 @@
+[
+  {
+    "id": "131011",
+    "source_cn": "(23)",
+    "ref_en": "(23)",
+    "target_ru": ""
+  },
+  {
+    "id": "131012",
+    "source_cn": "<Inequacy>00万</>/00亿",
+    "ref_en": "<Inequacy>00万</>/00亿",
+    "target_ru": ""
+  },
+  {
+    "id": "131013",
+    "source_cn": "先祖荣耀",
+    "ref_en": "Ancestor's Glory",
+    "target_ru": ""
+  },
+  {
+    "id": "131014",
+    "source_cn": "战斗法师",
+    "ref_en": "Battle-Mage",
+    "target_ru": ""
+  },
+  {
+    "id": "131015",
+    "source_cn": "Brands the target with a Necrotic Mark, dealing <Yellow>214</> attack damage.",
+    "ref_en": "Brands the target with a Necrotic Mark, dealing <Yellow>214</> attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131016",
+    "source_cn": "Cause blood roses to bloom around you, dealing <Yellow>71</> Attack damage to nearby enemies.",
+    "ref_en": "Cause blood roses to bloom around you, dealing <Yellow>71</> Attack damage to nearby enemies.",
+    "target_ru": ""
+  },
+  {
+    "id": "131017",
+    "source_cn": "弈棋试炼",
+    "ref_en": "Chess Trial",
+    "target_ru": ""
+  },
+  {
+    "id": "131018",
+    "source_cn": "并肩",
+    "ref_en": "Companionship",
+    "target_ru": ""
+  },
+  {
+    "id": "131019",
+    "source_cn": "Continuously spit flames forward; nine attacks deal a total of <Yellow>194</> Attack damage. Hits apply a <HighLight>4</>-second Burn, causing enemies to lose <Yellow>7</> Health per second.",
+    "ref_en": "Continuously spit flames forward; nine attacks deal a total of <Yellow>194</> Attack damage. Hits apply a <HighLight>4</>-second Burn, causing enemies to lose <Yellow>7</> Health per second.",
+    "target_ru": ""
+  },
+  {
+    "id": "131020",
+    "source_cn": "绯红信徒",
+    "ref_en": "Crimson Believer",
+    "target_ru": ""
+  },
+  {
+    "id": "131021",
+    "source_cn": "Dance and sweep surrounding enemies with blood flames, dealing <Yellow>156</> Attack damage, and increase your own Attack Speed by <HighLight>30%</> for <HighLight>4</> seconds.",
+    "ref_en": "Dance and sweep surrounding enemies with blood flames, dealing <Yellow>156</> Attack damage, and increase your own Attack Speed by <HighLight>30%</> for <HighLight>4</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131022",
+    "source_cn": "Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage.",
+    "ref_en": "Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131023",
+    "source_cn": "Enter Super Armor for <HighLight>4</> seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of <Yellow>146</> Attack damage.",
+    "ref_en": "Enter Super Armor for <HighLight>4</> seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of <Yellow>146</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131024",
+    "source_cn": "非凡世界",
+    "ref_en": "Extraordinary World",
+    "target_ru": ""
+  },
+  {
+    "id": "131025",
+    "source_cn": "Fire a gear beam, dealing <Yellow>259</> Attack damage to targets within <HighLight>3</> grids.",
+    "ref_en": "Fire a gear beam, dealing <Yellow>259</> Attack damage to targets within <HighLight>3</> grids.",
+    "target_ru": ""
+  },
+  {
+    "id": "131026",
+    "source_cn": "Fire five phantom energy projectiles in succession to pursue the target, dealing a total of <Yellow>422</> Attack damage.",
+    "ref_en": "Fire five phantom energy projectiles in succession to pursue the target, dealing a total of <Yellow>422</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131027",
+    "source_cn": "Fire two Air Cannons forward in succession, each hit dealing <Yellow>140</> Attack damage.",
+    "ref_en": "Fire two Air Cannons forward in succession, each hit dealing <Yellow>140</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131028",
+    "source_cn": "瞬息之猎",
+    "ref_en": "Instant Hunt",
+    "target_ru": ""
+  },
+  {
+    "id": "131029",
+    "source_cn": "铁血",
+    "ref_en": "Iron-Blood",
+    "target_ru": ""
+  },
+  {
+    "id": "131030",
+    "source_cn": "Issue an arrest warrant for the furthest enemy, dealing <Yellow>563</> Attack damage and pulling them in front of you.",
+    "ref_en": "Issue an arrest warrant for the furthest enemy, dealing <Yellow>563</> Attack damage and pulling them in front of you.",
+    "target_ru": ""
+  },
+  {
+    "id": "131031",
+    "source_cn": "Jump and Ground Fracture, dealing <Yellow>112</> Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds.",
+    "ref_en": "Jump and Ground Fracture, dealing <Yellow>112</> Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131032",
+    "source_cn": "Launch three consecutive slashes forward, dealing a total of <Yellow>288</> Attack damage.",
+    "ref_en": "Launch three consecutive slashes forward, dealing a total of <Yellow>288</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131033",
+    "source_cn": "Launch three waves of Spirit World Bombardment, dealing a total of <Yellow>281</> Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>.",
+    "ref_en": "Launch three waves of Spirit World Bombardment, dealing a total of <Yellow>281</> Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>.",
+    "target_ru": ""
+  },
+  {
+    "id": "131034",
+    "source_cn": "阵容",
+    "ref_en": "Lineup",
+    "target_ru": ""
+  },
+  {
+    "id": "131035",
+    "source_cn": "梅林·赫尔墨斯",
+    "ref_en": "Merlin Hermes",
+    "target_ru": ""
+  },
+  {
+    "id": "131036",
+    "source_cn": "Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds.",
+    "ref_en": "Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131037",
+    "source_cn": "Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of <Yellow>197</> Attack damage.",
+    "ref_en": "Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of <Yellow>197</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131038",
+    "source_cn": "Pounce on the enemy with the lowest health, dealing <Yellow>315</> Attack damage. When the target's health is no higher than <HighLight>35%</>, the damage increases to <Yellow>441</>, and you restore <Yellow>59</> of your own Health.",
+    "ref_en": "Pounce on the enemy with the lowest health, dealing <Yellow>315</> Attack damage. When the target's health is no higher than <HighLight>35%</>, the damage increases to <Yellow>441</>, and you restore <Yellow>59</> of your own Health.",
+    "target_ru": ""
+  },
+  {
+    "id": "131039",
+    "source_cn": "Rain down Miracle Cards, dealing <Yellow>231</> Attack damage to enemies in the target area.",
+    "ref_en": "Rain down Miracle Cards, dealing <Yellow>231</> Attack damage to enemies in the target area.",
+    "target_ru": ""
+  },
+  {
+    "id": "131040",
+    "source_cn": "Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage.",
+    "ref_en": "Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage.",
+    "target_ru": ""
+  },
+  {
+    "id": "131041",
+    "source_cn": "Release a Fear Ripple, dealing <Yellow>118</> Attack damage to surrounding enemies; this increases to <Yellow>178</> when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds.",
+    "ref_en": "Release a Fear Ripple, dealing <Yellow>118</> Attack damage to surrounding enemies; this increases to <Yellow>178</> when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131042",
+    "source_cn": "Restores <Yellow>24</> health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain <Yellow>60</> Shield and <HighLight>8</> defense; or restore <Yellow>36</> health and <HighLight>8</> energy, and gain <Yellow>24</> Shield.",
+    "ref_en": "Restores <Yellow>24</> health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain <Yellow>60</> Shield and <HighLight>8</> defense; or restore <Yellow>36</> health and <HighLight>8</> energy, and gain <Yellow>24</> Shield.",
+    "target_ru": ""
+  },
+  {
+    "id": "131043",
+    "source_cn": "旧日复苏",
+    "ref_en": "Revival of the Great Old One",
+    "target_ru": ""
+  },
+  {
+    "id": "131044",
+    "source_cn": "Spin jump and shock surrounding enemies, dealing <Yellow>58</> Attack damage, and gain <Yellow>175</> Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds.",
+    "ref_en": "Spin jump and shock surrounding enemies, dealing <Yellow>58</> Attack damage, and gain <Yellow>175</> Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131045",
+    "source_cn": "蒸汽时代",
+    "ref_en": "Steam Age",
+    "target_ru": ""
+  },
+  {
+    "id": "131046",
+    "source_cn": "Stomp the front with the power of civilization, dealing <Yellow>140</> Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds.",
+    "ref_en": "Stomp the front with the power of civilization, dealing <Yellow>140</> Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131047",
+    "source_cn": "Strike surrounding enemies with a three-hit Torrent, dealing a total of <Yellow>60</> Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain <Yellow>210</> Shield for <HighLight>4</> seconds.",
+    "ref_en": "Strike surrounding enemies with a three-hit Torrent, dealing a total of <Yellow>60</> Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain <Yellow>210</> Shield for <HighLight>4</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131048",
+    "source_cn": "Summon Holy Light to gain <Yellow>126</> Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing <Yellow>57</> Attack damage and restoring <Yellow>42</> Health for nearby allies.",
+    "ref_en": "Summon Holy Light to gain <Yellow>126</> Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing <Yellow>57</> Attack damage and restoring <Yellow>42</> Health for nearby allies.",
+    "target_ru": ""
+  },
+  {
+    "id": "131049",
+    "source_cn": "Summons a Cookie Rain, dealing <Yellow>81</> attack damage to enemies in the target area and restoring <Yellow>96</> health to the <HighLight>1</> ally with the lowest health.",
+    "ref_en": "Summons a Cookie Rain, dealing <Yellow>81</> attack damage to enemies in the target area and restoring <Yellow>96</> health to the <HighLight>1</> ally with the lowest health.",
+    "target_ru": ""
+  },
+  {
+    "id": "131050",
+    "source_cn": "Swing the Black Scythe to sweep the front, dealing <Yellow>97</> Attack damage. When the enemy's health is no higher than <HighLight>35%</>, the damage increases to <Yellow>146</>.",
+    "ref_en": "Swing the Black Scythe to sweep the front, dealing <Yellow>97</> Attack damage. When the enemy's health is no higher than <HighLight>35%</>, the damage increases to <Yellow>146</>.",
+    "target_ru": ""
+  },
+  {
+    "id": "131051",
+    "source_cn": "Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times.",
+    "ref_en": "Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times.",
+    "target_ru": ""
+  },
+  {
+    "id": "131052",
+    "source_cn": "死者之娱",
+    "ref_en": "The Dead's Entertainment",
+    "target_ru": ""
+  },
+  {
+    "id": "131053",
+    "source_cn": "Throw two doom cards to strike the target continuously, dealing a total of <Yellow>361</> Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds.",
+    "ref_en": "Throw two doom cards to strike the target continuously, dealing a total of <Yellow>361</> Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131054",
+    "source_cn": "魔女诅咒",
+    "ref_en": "Witch's Curse",
+    "target_ru": ""
+  },
+  {
+    "id": "131055",
+    "source_cn": "rucurhauyu",
+    "ref_en": "rucurhauyu",
+    "target_ru": ""
+  },
+  {
+    "id": "131056",
+    "source_cn": "以巨龙威压横扫前方，造成<Yellow>98</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。三星时：以巨龙威压横扫前方，造成<Yellow>225</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。",
+    "ref_en": "以巨龙威压横扫前方，造成<Yellow>98</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。三星时：以巨龙威压横扫前方，造成<Yellow>225</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。",
+    "target_ru": ""
+  },
+  {
+    "id": "131057",
+    "source_cn": "以知识辉耀对敌方全体造成<Yellow>208</>点攻击伤害。随后随机获得<HighLight>25%</>攻击，持续<HighLight>6</>秒，或立即恢复<HighLight>45</>点法力。",
+    "ref_en": "以知识辉耀对敌方全体造成<Yellow>208</>点攻击伤害。随后随机获得<HighLight>25%</>攻击，持续<HighLight>6</>秒，或立即恢复<HighLight>45</>点法力。",
+    "target_ru": ""
+  },
+  {
+    "id": "131058",
+    "source_cn": "以蛛肢绞杀前方敌人，造成<Yellow>92</>点攻击伤害。施法时恢复自身<HighLight>20%</>最大生命，防御提高<HighLight>30</>点，持续<HighLight>4</>秒。",
+    "ref_en": "以蛛肢绞杀前方敌人，造成<Yellow>92</>点攻击伤害。施法时恢复自身<HighLight>20%</>最大生命，防御提高<HighLight>30</>点，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131059",
+    "source_cn": "以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成<Yellow>540</>点攻击伤害。三星时：以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成<Yellow>1110</>点攻击伤害。",
+    "ref_en": "以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成<Yellow>540</>点攻击伤害。三星时：以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成<Yellow>1110</>点攻击伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131060",
+    "source_cn": "先轰击前方较小的矩形区域，造成<Yellow>134</>点攻击伤害。随后对目标及其周围<HighLight>1</>格内的敌人造成<Yellow>64</>点攻击伤害，并使其眩晕<HighLight>1</>秒。最后轰击前方更大的矩形区域，造成<Yellow>134</>点攻击伤害。",
+    "ref_en": "先轰击前方较小的矩形区域，造成<Yellow>134</>点攻击伤害。随后对目标及其周围<HighLight>1</>格内的敌人造成<Yellow>64</>点攻击伤害，并使其眩晕<HighLight>1</>秒。最后轰击前方更大的矩形区域，造成<Yellow>134</>点攻击伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131061",
+    "source_cn": "发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>76</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>207</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。",
+    "ref_en": "发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>76</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>207</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131062",
+    "source_cn": "发出四次狼嚎冲击前方，共造成<Yellow>133</>点攻击伤害。自身每损失<HighLight>10%</>最大生命，获得<HighLight>3%</>攻速和吸血，至多<HighLight>30%</>，生命恢复时重新计算。",
+    "ref_en": "发出四次狼嚎冲击前方，共造成<Yellow>133</>点攻击伤害。自身每损失<HighLight>10%</>最大生命，获得<HighLight>3%</>攻速和吸血，至多<HighLight>30%</>，生命恢复时重新计算。",
+    "target_ru": ""
+  },
+  {
+    "id": "131063",
+    "source_cn": "向前方释放两次音波冲击，共造成<Yellow>156</>点攻击伤害，自身及附近<HighLight>2</>格内友军获得<Yellow>73</>点护盾，持续<HighLight>4</>秒。三星时：向前方释放两次音波冲击，共造成<Yellow>359</>点攻击伤害，自身及附近<HighLight>2</>格内友军获得<Yellow>73</>点护盾，持续<HighLight>4</>秒。",
+    "ref_en": "向前方释放两次音波冲击，共造成<Yellow>156</>点攻击伤害，自身及附近<HighLight>2</>格内友军获得<Yellow>73</>点护盾，持续<HighLight>4</>秒。三星时：向前方释放两次音波冲击，共造成<Yellow>359</>点攻击伤害，自身及附近<HighLight>2</>格内友军获得<Yellow>73</>点护盾，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131064",
+    "source_cn": "向目标区域释放三重怨念，共造成<Yellow>331</>点攻击伤害。三星时：向目标区域释放三重怨念，共造成<Yellow>691</>点攻击伤害。",
+    "ref_en": "向目标区域释放三重怨念，共造成<Yellow>331</>点攻击伤害。三星时：向目标区域释放三重怨念，共造成<Yellow>691</>点攻击伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131065",
+    "source_cn": "吟诵午夜诗篇，对周围敌人造成<Yellow>83</>点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。三星时：吟诵午夜诗篇，对周围敌人造成<Yellow>232</>点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。",
+    "ref_en": "吟诵午夜诗篇，对周围敌人造成<Yellow>83</>点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。三星时：吟诵午夜诗篇，对周围敌人造成<Yellow>232</>点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131066",
+    "source_cn": "在敌人密集处接连绽放三圈藤棘，共造成<Yellow>200</>点攻击伤害，并使敌人攻击降低<HighLight>5%</>，持续<HighLight>4</>秒。",
+    "ref_en": "在敌人密集处接连绽放三圈藤棘，共造成<Yellow>200</>点攻击伤害，并使敌人攻击降低<HighLight>5%</>，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131067",
+    "source_cn": "在敌人密集处由外向内引爆三环蔓袭，三环全中共造成<Yellow>120</>点攻击伤害，内圈使命中的敌人眩晕<HighLight>1</>秒。",
+    "ref_en": "在敌人密集处由外向内引爆三环蔓袭，三环全中共造成<Yellow>120</>点攻击伤害，内圈使命中的敌人眩晕<HighLight>1</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131068",
+    "source_cn": "对周围敌人造成<Yellow>40</>点攻击伤害，并随机获得<HighLight>20%</>最大生命护盾或<HighLight>30%</>伤害减免，持续<HighLight>5</>秒。",
+    "ref_en": "对周围敌人造成<Yellow>40</>点攻击伤害，并随机获得<HighLight>20%</>最大生命护盾或<HighLight>30%</>伤害减免，持续<HighLight>5</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131069",
+    "source_cn": "对自身周围<HighLight>2</>格内的敌人造成<Yellow>139</>点攻击伤害。自身获得<HighLight>20%</>伤害减免，持续<HighLight>4</>秒。",
+    "ref_en": "对自身周围<HighLight>2</>格内的敌人造成<Yellow>139</>点攻击伤害。自身获得<HighLight>20%</>伤害减免，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131070",
+    "source_cn": "射出星辉贯穿箭，对直线上的敌人造成<Yellow>168</>点攻击伤害，并在目标位置引爆，造成<Yellow>56</>点范围伤害。",
+    "ref_en": "射出星辉贯穿箭，对直线上的敌人造成<Yellow>168</>点攻击伤害，并在目标位置引爆，造成<Yellow>56</>点范围伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131071",
+    "source_cn": "挥出断岳重斧，对前方敌人造成<Yellow>266</>点攻击伤害。获得<HighLight>20%</>最大生命护盾，持续<HighLight>7.5</>秒。",
+    "ref_en": "挥出断岳重斧，对前方敌人造成<Yellow>266</>点攻击伤害。获得<HighLight>20%</>最大生命护盾，持续<HighLight>7.5</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131072",
+    "source_cn": "攻击目标，造成<Yellow>225</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>300</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。三星时：攻击目标，造成<Yellow>525</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>750</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。",
+    "ref_en": "攻击目标，造成<Yellow>225</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>300</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。三星时：攻击目标，造成<Yellow>525</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>750</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131073",
+    "source_cn": "昔蘭尼加",
+    "ref_en": "Cyrenaica",
+    "target_ru": ""
+  },
+  {
+    "id": "131074",
+    "source_cn": "突袭最远的敌人，连斩目标周围并留下黑焰，全部命中共造成<Yellow>297</>点攻击伤害。自身击杀本次技能选中的目标后，恢复<HighLight>30</>点法力值。",
+    "ref_en": "突袭最远的敌人，连斩目标周围并留下黑焰，全部命中共造成<Yellow>297</>点攻击伤害。自身击杀本次技能选中的目标后，恢复<HighLight>30</>点法力值。",
+    "target_ru": ""
+  },
+  {
+    "id": "131075",
+    "source_cn": "舞王狒哥旋身震荡周围，对自身<HighLight>2</>格圆形范围内的敌人造成<Yellow>80</>点攻击伤害，并恢复自身<HighLight>30%</>最大生命。",
+    "ref_en": "舞王狒哥旋身震荡周围，对自身<HighLight>2</>格圆形范围内的敌人造成<Yellow>80</>点攻击伤害，并恢复自身<HighLight>30%</>最大生命。",
+    "target_ru": ""
+  },
+  {
+    "id": "131076",
+    "source_cn": "连发三枚星辉弹，共造成<Yellow>252</>点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。",
+    "ref_en": "连发三枚星辉弹，共造成<Yellow>252</>点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。",
+    "target_ru": ""
+  },
+  {
+    "id": "131077",
+    "source_cn": "连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。",
+    "ref_en": "连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131078",
+    "source_cn": "释放两次星界洪流，横扫前方扇形区域，共造成<Yellow>123</>点攻击伤害。",
+    "ref_en": "释放两次星界洪流，横扫前方扇形区域，共造成<Yellow>123</>点攻击伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131079",
+    "source_cn": "释放恐惧回声，对周围敌人造成<Yellow>341</>点攻击伤害。三星时：释放恐惧回声，对周围敌人造成<Yellow>787</>点攻击伤害。",
+    "ref_en": "释放恐惧回声，对周围敌人造成<Yellow>341</>点攻击伤害。三星时：释放恐惧回声，对周围敌人造成<Yellow>787</>点攻击伤害。",
+    "target_ru": ""
+  },
+  {
+    "id": "131080",
+    "source_cn": "释放恶意冲击，对前方敌人造成<Yellow>327</>点攻击伤害，自身攻击提高<HighLight>25%</>、防御提高<HighLight>30</>点，持续<HighLight>4</>秒。三星时：释放恶意冲击，对前方敌人造成<Yellow>705</>点攻击伤害，自身攻击提高<HighLight>25%</>、防御提高<HighLight>30</>点，持续<HighLight>4</>秒。",
+    "ref_en": "释放恶意冲击，对前方敌人造成<Yellow>327</>点攻击伤害，自身攻击提高<HighLight>25%</>、防御提高<HighLight>30</>点，持续<HighLight>4</>秒。三星时：释放恶意冲击，对前方敌人造成<Yellow>705</>点攻击伤害，自身攻击提高<HighLight>25%</>、防御提高<HighLight>30</>点，持续<HighLight>4</>秒。",
+    "target_ru": ""
+  },
+  {
+    "id": "131081",
+    "source_cn": "血火重炮",
+    "ref_en": "Blood Fire Heavy Cannon",
+    "target_ru": ""
+  },
+  {
+    "id": "131082",
+    "source_cn": "【血火重炮】",
+    "ref_en": "[Blood Fire Heavy Cannon]",
+    "target_ru": ""
+  },
+  {
+    "id": "131083",
+    "source_cn": "在己方后两排开始战斗的弈子获得25%伤害增幅，并在战斗开始时损失20%当前生命值。",
+    "ref_en": "Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification.",
+    "target_ru": ""
+  },
+  {
+    "id": "131084",
+    "source_cn": "夜巡封印",
+    "ref_en": "Night Watch Seal",
+    "target_ru": ""
+  },
+  {
+    "id": "131085",
+    "source_cn": "【夜巡封印】",
+    "ref_en": "[Night Watch Seal]",
+    "target_ru": ""
+  },
+  {
+    "id": "131086",
+    "source_cn": "在战斗开始时，与友军相邻的弈子获得200点护盾，持续8秒。",
+    "ref_en": "At the start of combat, chess pieces adjacent to allies gain 200 Shield, lasting for 8 seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131087",
+    "source_cn": "双向自愈",
+    "ref_en": "Double-Sided Healing",
+    "target_ru": ""
+  },
+  {
+    "id": "131088",
+    "source_cn": "【双向自愈】",
+    "ref_en": "[Double-Sided Healing]",
+    "target_ru": ""
+  },
+  {
+    "id": "131089",
+    "source_cn": "你的弈子每5秒恢复4%最大生命值。",
+    "ref_en": "Your pieces restore 4% of their maximum Health every 5 seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131090",
+    "source_cn": "贪婪工坊",
+    "ref_en": "Greed Factory",
+    "target_ru": ""
+  },
+  {
+    "id": "131091",
+    "source_cn": "【贪婪工坊】",
+    "ref_en": "[Greed Factory]",
+    "target_ru": ""
+  },
+  {
+    "id": "131092",
+    "source_cn": "立即获得10金币，之后每回合开始时额外获得9金币。",
+    "ref_en": "Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round.",
+    "target_ru": ""
+  },
+  {
+    "id": "131093",
+    "source_cn": "绝对护盾",
+    "ref_en": "Absolute Shield",
+    "target_ru": ""
+  },
+  {
+    "id": "131094",
+    "source_cn": "【绝对护盾】",
+    "ref_en": "[Absolute Shield]",
+    "target_ru": ""
+  },
+  {
+    "id": "131095",
+    "source_cn": "生命值低于40%时获得最大生命值护盾，并获得伤害减免，持续10秒。",
+    "ref_en": "[Absolute Shield] Gains a Max Health shield when Health is below 40%, and gains Damage Reduction for 10 seconds.",
+    "target_ru": ""
+  },
+  {
+    "id": "131096",
+    "source_cn": "噬血",
+    "ref_en": "Blood-Thirst",
+    "target_ru": ""
+  },
+  {
+    "id": "131097",
+    "source_cn": "【噬血】",
+    "ref_en": "[Blood-Thirst]",
+    "target_ru": ""
+  },
+  {
+    "id": "131098",
+    "source_cn": "【 噬血 】获得30%吸血。造成伤害时追加伤害，目标生命值低于50%时翻倍。",
+    "ref_en": "[Blood-Thirst] Grants 30% Lifesteal. Deals additional damage when dealing damage, doubled if target health is below 50%.",
+    "target_ru": ""
+  },
+  {
+    "id": "131099",
+    "source_cn": "绯红信仰",
+    "ref_en": "Crimson Belief",
+    "target_ru": ""
+  },
+  {
+    "id": "131100",
+    "source_cn": "【绯红信仰】",
+    "ref_en": "[Crimson Belief]",
+    "target_ru": ""
+  },
+  {
+    "id": "131101",
+    "source_cn": "战斗开始8秒后，【红月光华】对所有敌人造成真实伤害并提升所有友军攻速。",
+    "ref_en": "8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed.",
+    "target_ru": ""
+  },
+  {
+    "id": "131102",
+    "source_cn": "迅猎",
+    "ref_en": "Swift-Hunt",
+    "target_ru": ""
+  },
+  {
+    "id": "131103",
+    "source_cn": "【迅猎】",
+    "ref_en": "[Swift-Hunt]",
+    "target_ru": ""
+  },
+  {
+    "id": "131104",
+    "source_cn": "所有友军获得10%攻速。【迅猎】每次攻击叠加攻速，至多10层。高阶获得伤害减免。",
+    "ref_en": "All allies gain 10% Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to 10 stacks. High tiers gain Damage Reduction.",
+    "target_ru": ""
+  },
+  {
+    "id": "131105",
+    "source_cn": "召唤【月之污染】协助战斗；星级随阶位提升。",
+    "ref_en": "Summons [Moon Corruption] to assist in combat; star level increases with tier.",
+    "target_ru": ""
+  },
+  {
+    "id": "131106",
+    "source_cn": "每次与玩家战斗后获得1个随机荒野魔物弈子。",
+    "ref_en": "Gain 1 random wild monster piece after each player combat.",
+    "target_ru": ""
+  },
+  {
+    "id": "131107",
+    "source_cn": "【月之污染】",
+    "ref_en": "[Moon Corruption]",
+    "target_ru": ""
+  },
+  {
+    "id": "131108",
+    "source_cn": "红月光华",
+    "ref_en": "Radiance of the Crimson Moon",
+    "target_ru": ""
+  },
+  {
+    "id": "131109",
+    "source_cn": "【红月光华】",
+    "ref_en": "[Radiance of the Crimson Moon]",
+    "target_ru": ""
+  },
+  {
+    "id": "131110",
+    "source_cn": "【精工壁垒】",
+    "ref_en": "[Crafted Bulwark]",
+    "target_ru": ""
+  },
+  {
+    "id": "131111",
+    "source_cn": "【暴击增幅】",
+    "ref_en": "[Critical Hit Amplification]",
+    "target_ru": ""
+  },
+  {
+    "id": "131112",
+    "source_cn": "获得10点经验值。",
+    "ref_en": "Gain 10 Experience Points.",
+    "target_ru": ""
+  },
+  {
+    "id": "131113",
+    "source_cn": "【先祖荣耀】",
+    "ref_en": "[Ancestor's Glory]",
+    "target_ru": ""
+  },
+  {
+    "id": "131114",
+    "source_cn": "【战斗法师】",
+    "ref_en": "[Battle-Mage]",
+    "target_ru": ""
+  },
+  {
+    "id": "131115",
+    "source_cn": "【并肩】",
+    "ref_en": "[Companionship]",
+    "target_ru": ""
+  },
+  {
+    "id": "131116",
+    "source_cn": "【绯红信徒】",
+    "ref_en": "[Crimson Believer]",
+    "target_ru": ""
+  },
+  {
+    "id": "131117",
+    "source_cn": "【非凡世界】",
+    "ref_en": "[Extraordinary World]",
+    "target_ru": ""
+  },
+  {
+    "id": "131118",
+    "source_cn": "【瞬息之猎】",
+    "ref_en": "[Instant Hunt]",
+    "target_ru": ""
+  },
+  {
+    "id": "131119",
+    "source_cn": "【铁血】",
+    "ref_en": "[Iron-Blood]",
+    "target_ru": ""
+  },
+  {
+    "id": "131120",
+    "source_cn": "【旧日复苏】",
+    "ref_en": "[Revival of the Great Old One]",
+    "target_ru": ""
+  },
+  {
+    "id": "131121",
+    "source_cn": "【蒸汽时代】",
+    "ref_en": "[Steam Age]",
+    "target_ru": ""
+  },
+  {
+    "id": "131122",
+    "source_cn": "【死者之娱】",
+    "ref_en": "[The Dead's Entertainment]",
+    "target_ru": ""
+  },
+  {
+    "id": "131123",
+    "source_cn": "【魔女诅咒】",
+    "ref_en": "[Witch's Curse]",
+    "target_ru": ""
+  },
+  {
+    "id": "131124",
+    "source_cn": "弈子列表",
+    "ref_en": "Pieces",
+    "target_ru": ""
+  }
+]

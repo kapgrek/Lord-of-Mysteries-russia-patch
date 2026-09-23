@@ -264,4 +264,5 @@ return {
     ["Release"] = "Выпускать",
     ["Single Poker Card"] = "Одиночная покерная карта",
     ["God, why are there so many choices for perfume here?"] = "Боже, почему здесь так много выбора духов?",
+    ["rucurhauyu"] = "rucurhauyu",
 }

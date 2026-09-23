@@ -247,4 +247,5 @@ return {
     ["Amon Single Boss_Crow Attack Spell Proxy Target Filter"] = "Амон Single Boss_Crow Атака Заклинание Целевой фильтр",
     ["Less than 1 hour"] = "Менее 1 часа",
     ["Each step taken during the Fortune-Turning Ritual grants a 5-second Defense boost."] = "Каждый шаг во время Ритуала Поворота Удачи повышает защиту на 5 сек.",
+    ["战斗法师"] = "Battle-Mage",
 }

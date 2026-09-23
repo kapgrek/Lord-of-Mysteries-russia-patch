@@ -230,4 +230,5 @@ return {
     ["%s's Team"] = "Команда %s",
     ["Bonnie Berserk"] = "Бонни Берсерк",
     ["Beacon of the Mind"] = "Маяк разума",
+    ["弈棋试炼"] = "Chess Trial",
 }

@@ -266,4 +266,5 @@ return {
     ["Manipulation"] = "Манипуляция",
     ["The Beyonder who took the most damage from enemies."] = "Потусторонний, получивший больше всего урона от врагов.",
     ["Pendulum Divination for Hailey's Whereabouts"] = "Гадание на маятнике о местонахождении Хейли",
+    ["在敌人密集处由外向内引爆三环蔓袭，三环全中共造成<Yellow>120</>点攻击伤害，内圈使命中的敌人眩晕<HighLight>1</>秒。"] = "在敌人密集处由外向内引爆三环蔓袭，三环全中共造成<Yellow>120</>点攻击伤害，内圈使命中的敌人眩晕<HighLight>1</>秒。",
 }

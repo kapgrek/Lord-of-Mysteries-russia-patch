@@ -241,4 +241,5 @@ return {
     ["Apparently, a certain spotlight was too blinding."] = "Видимо, определенный прожектор был слишком ослепляющим.",
     ["<Assistant_Title1>A New Sealed Artifact?</>\n<Assistant_Title2>Achievement Category: </>Growth - Equipment\n<Assistant_Title2>Unlock Condition: </>Obtain equipment containing 4 Extraordinary traits"] = "<Assistant_Title1>Новый Запечатанный Артефакт? </>\n<Assistant_Title2>Категория достижения: </> Разработка-Оборудование \n<Assistant_Title2> Условия разблокировки: </> Получите оборудование, содержащее 4 необычных записи",
     ["Looking for someone here? Looking for those killed by you Feysacians?"] = "Ищете кого-то здесь? Ищете убитых вами, фейсакианцами?",
+    ["红月光华"] = "Radiance of the Crimson Moon",
 }

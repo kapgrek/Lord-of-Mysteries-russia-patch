@@ -278,4 +278,5 @@ return {
     ["Teleport to Study"] = "Телепортироваться на учебу",
     ["Please select the holy ointment and the entry to be anointed first."] = "Пожалуйста, выберите святую мазь и запись, которую нужно помазать в первую очередь.",
     ["[Hunter]"] = "[Охотник]",
+    ["【蒸汽时代】"] = "[Steam Age]",
 }

@@ -267,4 +267,5 @@ return {
     ["Reset Currency Consignment Listing Data"] = "Сброс данных списка накладных валют",
     ["The crystal at the top of the staff becomes increasingly transparent, one step closer to the unfinished formula."] = "Кристалл на вершине посоха становится все более прозрачным, на шаг ближе к незавершенной формуле.",
     ["This copper mirror is too easy to be overlooked."] = "Это медное зеркало слишком легко не заметить.",
+    ["Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage."] = "Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage.",
 }

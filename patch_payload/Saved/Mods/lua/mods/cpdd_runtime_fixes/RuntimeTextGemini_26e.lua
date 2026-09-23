@@ -247,4 +247,5 @@ return {
     ["Act 3 Answer and Act 4 Opening"] = "Ответ на Акт 3 и Начало Акта 4.",
     ["It is our hometown"] = "Это наш родной город",
     ["No group chats yet"] = "Групповых чатов пока нет",
+    ["Fire a gear beam, dealing <Yellow>259</> Attack damage to targets within <HighLight>3</> grids."] = "Fire a gear beam, dealing <Yellow>259</> Attack damage to targets within <HighLight>3</> grids.",
 }

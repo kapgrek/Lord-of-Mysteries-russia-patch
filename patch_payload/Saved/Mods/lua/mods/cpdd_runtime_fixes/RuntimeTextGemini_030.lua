@@ -280,4 +280,5 @@ return {
     ["Holding a high position while being benevolent and enlightened, praise my Lord!"] = "Занимая высокое положение, будучи доброжелательным и просвещенным, хвала моему Господу!",
     ["Control Enhancement"] = "Улучшение управления",
     ["In the poor district, it's 2 lots of ten thousand linar per person. Choose any plot you like—just don't bury them by the roadside."] = "В бедном районе это 2 лота по десять тысяч линар на человека. Выбирайте любой понравившийся участок, только не закапывайте его на обочине.",
+    ["阵容"] = "Lineup",
 }

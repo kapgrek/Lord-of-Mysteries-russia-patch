@@ -255,4 +255,5 @@ return {
     ["Afflicted III"] = "Пострадавший III",
     ["Orianna's foot judgment area"] = "Область суждения стопы Орианны",
     ["Homestead Coins obtained this week: %s/%s"] = "Монеты усадьбы, полученные на этой неделе: %s/%s.",
+    ["【噬血】"] = "[Blood-Thirst]",
 }

@@ -261,4 +261,5 @@ return {
     ["You're great, I'll reward you by writing poetry with me."] = "Ты молодец, я вознагражу тебя тем, что напишешь со мной стихи.",
     ["A complete ritual of prayer. Whether it was heard belongs to the realm of the unknowable."] = "Полный ритуал молитвы. Было ли оно услышано, относится к области непознаваемого.",
     ["阵容思路"] = "Тактика состава",
+    ["发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>76</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>207</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。"] = "发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>76</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成<Yellow>207</>点攻击伤害，自身获得<Yellow>629</>点护盾，持续<HighLight>5</>秒。",
 }

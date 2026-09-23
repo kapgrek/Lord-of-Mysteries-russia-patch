@@ -245,4 +245,5 @@ return {
     ["I'll Blow Up With You!!"] = "Я взорвусь вместе с тобой!!",
     ["View replaceable affixes."] = "Просмотр сменных аффиксов.",
     ["【不眠者】"] = "[Бессонный]",
+    ["以蛛肢绞杀前方敌人，造成<Yellow>92</>点攻击伤害。施法时恢复自身<HighLight>20%</>最大生命，防御提高<HighLight>30</>点，持续<HighLight>4</>秒。"] = "以蛛肢绞杀前方敌人，造成<Yellow>92</>点攻击伤害。施法时恢复自身<HighLight>20%</>最大生命，防御提高<HighLight>30</>点，持续<HighLight>4</>秒。",
 }

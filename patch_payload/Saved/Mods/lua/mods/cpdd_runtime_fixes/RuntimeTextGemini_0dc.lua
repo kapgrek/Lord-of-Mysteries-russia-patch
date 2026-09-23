@@ -256,4 +256,5 @@ return {
     ["Select two clues to synthesize one clue"] = "Выберите две подсказки, чтобы синтезировать одну подсказку.",
     ["Don't misunderstand, it's not that she thinks I don't clean well, my wife is a Storm believer."] = "Не поймите неправильно, дело не в том, что она думает, что я плохо убираюсь, моя жена верит в Шторм.",
     ["Could it be...?"] = "Может быть...?",
+    ["Launch three consecutive slashes forward, dealing a total of <Yellow>288</> Attack damage."] = "Launch three consecutive slashes forward, dealing a total of <Yellow>288</> Attack damage.",
 }

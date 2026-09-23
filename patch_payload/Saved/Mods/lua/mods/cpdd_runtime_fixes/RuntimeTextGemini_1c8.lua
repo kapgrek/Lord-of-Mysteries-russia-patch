@@ -264,4 +264,5 @@ return {
     ["Meat-tank plus kiting is unsolvable."] = "Мясотанк плюс кайтинг неразрешима.",
     ["Through specific behavioral expressions, demonstrate influence over others, pacify the target's frenzied and unstable mental state, keep them away from madness, and grant them inner tranquility and peace.\nGrants the target +4 Knowledge and +2 Charisma."] = "Особым поведением проявите влияние на окружающих, успокаивая безумное и нестабильное душевное состояние цели, уберегая её от безумия и даруя душевный покой и умиротворение.\nПовышает Знание цели на 4 и Обаяние на 2.",
     ["激活的羁绊"] = "Активированный резонанс",
+    ["攻击目标，造成<Yellow>225</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>300</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。三星时：攻击目标，造成<Yellow>525</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>750</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。"] = "攻击目标，造成<Yellow>225</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>300</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。三星时：攻击目标，造成<Yellow>525</>点攻击伤害。目标生命不高于<HighLight>35%</>时，改为<Yellow>750</>点攻击伤害。自身吸血提高<HighLight>30%</>，持续<HighLight>3</>秒。",
 }

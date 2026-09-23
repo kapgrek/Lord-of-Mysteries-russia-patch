@@ -235,4 +235,5 @@ return {
     ["Text description"] = "Текстовое описание",
     ["The clues have been gathered. Next, we must be more cautious."] = "Улики собраны. Далее, мы должны быть более осторожными.",
     ["[Navigator]"] = "[Мореплаватель]",
+    ["【精工壁垒】"] = "[Crafted Bulwark]",
 }

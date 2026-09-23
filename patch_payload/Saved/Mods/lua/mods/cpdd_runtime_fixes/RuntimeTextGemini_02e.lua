@@ -253,4 +253,5 @@ return {
     ["The lady said that those who seized the opportunity moved to wealthier places, the North Borough, or Backlund, and those who didn't... sorry, the lady didn't say that."] = "Дама сказала, что те, кто воспользовался этой возможностью, перебрались в более богатые места, в Северный район или Бэкланд, а те, кто не воспользовался этой возможностью... извините, дама этого не сказала.",
     ["Golden Autumn Lake Loss of Control Beyonder - Initial Test"] = "Озеро Золотой Осени. Потеря контроля. Потусторонний - Начальное испытание",
     ["Daily open: 19:00-20:00 \n Extra periods: Sat, Sun 14:00-15:00."] = "Открыто ежедневно: 19:00–20:00\nДополнительные часы: суббота и воскресенье 14:00–15:00.",
+    ["【先祖荣耀】"] = "[Ancestor's Glory]",
 }

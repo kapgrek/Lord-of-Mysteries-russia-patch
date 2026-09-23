@@ -267,4 +267,5 @@ return {
     ["Guard Tower"] = "Сторожевая башня",
     ["Binding Effect"] = "Связывающий эффект",
     ["[Spellcasting]额外获得55%攻击力，且每次施法：自身获得2%攻击力。"] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["Restores <Yellow>24</> health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain <Yellow>60</> Shield and <HighLight>8</> defense; or restore <Yellow>36</> health and <HighLight>8</> energy, and gain <Yellow>24</> Shield."] = "Restores <Yellow>24</> health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain <Yellow>60</> Shield and <HighLight>8</> defense; or restore <Yellow>36</> health and <HighLight>8</> energy, and gain <Yellow>24</> Shield.",
 }

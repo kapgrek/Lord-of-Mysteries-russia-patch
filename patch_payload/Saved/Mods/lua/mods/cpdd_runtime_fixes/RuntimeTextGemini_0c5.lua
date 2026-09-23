@@ -221,4 +221,6 @@ return {
     ["Look back calmly"] = "Оглянись назад спокойно",
     ["Back Kick Damage"] = "Урон от удара ногой назад",
     ["Activated Resonance: 18"] = "Активировано резонансов: 18",
+    ["Release a Fear Ripple, dealing <Yellow>118</> Attack damage to surrounding enemies; this increases to <Yellow>178</> when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds."] = "Release a Fear Ripple, dealing <Yellow>118</> Attack damage to surrounding enemies; this increases to <Yellow>178</> when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds.",
+    ["连发三枚星辉弹，共造成<Yellow>252</>点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。"] = "连发三枚星辉弹，共造成<Yellow>252</>点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。",
 }

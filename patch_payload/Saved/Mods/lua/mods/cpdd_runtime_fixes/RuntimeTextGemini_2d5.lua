@@ -261,4 +261,5 @@ return {
     ["They are waiting for the young Godot, not me thirty years later."] = "Они ждут молодого Годо, а не меня тридцать лет спустя.",
     ["Are you sure you want to remove <Highlight>%s</> from the squad?"] = "Вы уверены, что хотите удалить <Highlight>%s</> из состава?",
     ["Consecutive check-ins: <Date>666</> days"] = "Последовательные регистрации: <Date>666</> дней.",
+    ["Rain down Miracle Cards, dealing <Yellow>231</> Attack damage to enemies in the target area."] = "Rain down Miracle Cards, dealing <Yellow>231</> Attack damage to enemies in the target area.",
 }

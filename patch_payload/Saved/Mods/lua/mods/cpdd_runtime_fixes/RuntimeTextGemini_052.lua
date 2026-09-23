@@ -218,5 +218,6 @@ return {
     ["Bankrupt merchant"] = "Обанкротившийся торговец",
     ["Then we have to... hurry. If we're late, there will be nothing left..."] = "Тогда нам нужно... поторопиться. Если мы опоздаем, ничего не останется...",
     ["Of course! This is the cornerstone of the Tarot Club's founding. I have sufficient reason to suspect that Mr. Fool and the President are uncle and nephew..."] = "Конечно! Это краеугольный камень основания Клуба Таро. У меня есть достаточно оснований подозревать, что Мистер Шут и Президент — дядя и племянник...",
+    ["Jump and Ground Fracture, dealing <Yellow>112</> Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds."] = "Jump and Ground Fracture, dealing <Yellow>112</> Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds.",
     ["Highest Losing Streak:"] = "Макс. серия поражений:",
 }

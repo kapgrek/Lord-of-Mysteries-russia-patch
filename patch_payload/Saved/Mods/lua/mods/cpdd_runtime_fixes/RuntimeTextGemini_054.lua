@@ -249,4 +249,5 @@ return {
     ["Then what will all this bring to those gazes?"] = "Тогда что же все это принесет этим взглядам?",
     ["Flowing Light Treading Snow"] = "Текущий свет, ступающий по снегу",
     ["This is both an examination of Beyonder abilities and a test of wisdom and courage."] = "Это одновременно проверка способностей Потустороннего и проверка мудрости и смелости.",
+    ["【瞬息之猎】"] = "[Instant Hunt]",
 }

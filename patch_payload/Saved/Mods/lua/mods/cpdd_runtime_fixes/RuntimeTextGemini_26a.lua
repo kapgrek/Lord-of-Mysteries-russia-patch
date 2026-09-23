@@ -267,4 +267,5 @@ return {
     ["Starting Camera"] = "Запуск камеры",
     ["Ms. Luna treats materials containing spirituality as food. We only need to take a tiny bit of powder, and we will know if the transaction is honest."] = "Г-жа Луна относится к материалам, содержащим духовность, как к еде. Нам достаточно взять совсем немного порошка, и мы узнаем, честна ли сделка.",
     ["Achievement: Viscountess"] = "Достижение: Виконтесса",
+    ["Dance and sweep surrounding enemies with blood flames, dealing <Yellow>156</> Attack damage, and increase your own Attack Speed by <HighLight>30%</> for <HighLight>4</> seconds."] = "Dance and sweep surrounding enemies with blood flames, dealing <Yellow>156</> Attack damage, and increase your own Attack Speed by <HighLight>30%</> for <HighLight>4</> seconds.",
 }

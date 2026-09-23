@@ -256,4 +256,5 @@ return {
     ["Obtained by purchasing at the General Store - Reimbursement Shop"] = "Можно приобрести в разделе «Универмаг — Магазин компенсаций»",
     ["6 [Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
     ["当前连败"] = "Текущая серия поражений",
+    ["Summons a Cookie Rain, dealing <Yellow>81</> attack damage to enemies in the target area and restoring <Yellow>96</> health to the <HighLight>1</> ally with the lowest health."] = "Summons a Cookie Rain, dealing <Yellow>81</> attack damage to enemies in the target area and restoring <Yellow>96</> health to the <HighLight>1</> ally with the lowest health.",
 }

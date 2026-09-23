@@ -219,4 +219,5 @@ return {
     ["Use specified item; player removes quest item (delete all); player plays speech text visible only to themselves; delayed execution; player plays speech text visible only to themselves; delayed execution."] = "Использовать указанный предмет; игрок удаляет квестовый предмет (удалить все); игрок воспроизводит речевой текст, видимый только ему самому; отложенное исполнение; игрок воспроизводит речевой текст, видимый только ему самому; отложенное исполнение.",
     ["Me? I'd rather be a can of wolf fish."] = "Мне? Я бы предпочел быть банкой с рыбой-волком.",
     ["[The Great Master]"] = "[Великий Мастер]",
+    ["Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage."] = "Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage.",
 }

@@ -250,4 +250,5 @@ return {
     ["Neo"] = "Нео",
     ["<Highlight>Craftsmanship:</> Precision-forged white iron, handcrafted.\nA ruthless iron face, an irresistible fate."] = "<Highlight>Мастерство:</> кованое белое железо, ручная работа\nБезжалостный железный лик, непреодолимая судьба.",
     ["Equip to gain the [Spellcraft] bond."] = "Экипируйте, чтобы получить резонанс [Колдовство].",
+    ["以巨龙威压横扫前方，造成<Yellow>98</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。三星时：以巨龙威压横扫前方，造成<Yellow>225</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。"] = "以巨龙威压横扫前方，造成<Yellow>98</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。三星时：以巨龙威压横扫前方，造成<Yellow>225</>点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失<Yellow>10</>点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复<Yellow>104</>点生命。",
 }

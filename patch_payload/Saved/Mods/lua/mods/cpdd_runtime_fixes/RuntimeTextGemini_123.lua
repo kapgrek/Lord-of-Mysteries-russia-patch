@@ -262,4 +262,5 @@ return {
     ["Where did they run off to?"] = "Куда они убежали?",
     ["Listen for image wiping completion"] = "Прослушивание завершения очистки изображения",
     ["激活羁绊：2"] = "Активировано резонанса: 2",
+    ["蒸汽时代"] = "Steam Age",
 }

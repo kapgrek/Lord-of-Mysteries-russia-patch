@@ -261,4 +261,5 @@ return {
     ["NPC Name"] = "Имя НПС",
     ["Moretti Former Residence\r\n<LeonSubTitle size=\"10\">Moretti former Residence</>"] = "Бывшая резиденция Моретти\n<LeonSubTitle size=\"10\">Бывшая резиденция Моретти</>",
     ["Return to <h>Tarot Club</>"] = "Вернуться в <h>Клуб Таро</>",
+    ["【迅猎】"] = "[Swift-Hunt]",
 }

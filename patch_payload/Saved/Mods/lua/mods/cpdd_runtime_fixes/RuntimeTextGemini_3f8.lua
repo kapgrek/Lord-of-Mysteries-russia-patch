@@ -225,4 +225,5 @@ return {
     ["黑荆棘安保公司众人：干杯！"] = "Члены охранной компании Чёрный Чертополох: Здравствуйте!",
     ["Gain 35% Damage Reduction for 5 seconds when casting Nebula Aria."] = "Получите 35% Снижение урона на 5 секунд при использовании Nebula Aria.",
     ["Equip to gain the [Sailor] bond."] = "Экипируйте, чтобы получить резонанс [Моряк].",
+    ["在己方后两排开始战斗的弈子获得25%伤害增幅，并在战斗开始时损失20%当前生命值。"] = "Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification.",
 }

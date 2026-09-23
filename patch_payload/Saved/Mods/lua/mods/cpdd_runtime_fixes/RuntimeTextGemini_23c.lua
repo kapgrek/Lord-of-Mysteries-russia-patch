@@ -233,4 +233,5 @@ return {
     ["Clean up the bloodstains"] = "Очистите пятна крови",
     ["Gemstone"] = "драгоценный камень",
     ["Equip to gain the [Navigator] resonance."] = "Экипируйте, чтобы получить резонанс [Мореплаватель].",
+    ["舞王狒哥旋身震荡周围，对自身<HighLight>2</>格圆形范围内的敌人造成<Yellow>80</>点攻击伤害，并恢复自身<HighLight>30%</>最大生命。"] = "舞王狒哥旋身震荡周围，对自身<HighLight>2</>格圆形范围内的敌人造成<Yellow>80</>点攻击伤害，并恢复自身<HighLight>30%</>最大生命。",
 }

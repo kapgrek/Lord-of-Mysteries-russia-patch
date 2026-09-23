@@ -231,4 +231,5 @@ return {
     ["Advancement - Hypnotist"] = "Продвижение - Гипнотизер",
     ["The one on the right is almost there."] = "Тот, что справа, почти готов.",
     ["Day 2"] = "День b",
+    ["生命值低于40%时获得最大生命值护盾，并获得伤害减免，持续10秒。"] = "[Absolute Shield] Gains a Max Health shield when Health is below 40%, and gains Damage Reduction for 10 seconds.",
 }

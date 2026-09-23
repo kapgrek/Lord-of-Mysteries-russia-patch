@@ -250,4 +250,5 @@ return {
     ["I'm really a bit tight on cash, Bonnie was just fired from the factory, now it's hard to even scrape together tuition for the kids."] = "У меня действительно туго с деньгами, Бонни только что уволили с фабрики, теперь трудно даже собрать деньги на обучение для детей.",
     ["【Decoration】Canned Food Stall"] = "【Украшение】киоск с консервами",
     ["最高连败"] = "Макс. серия поражений",
+    ["弈子列表"] = "Pieces",
 }

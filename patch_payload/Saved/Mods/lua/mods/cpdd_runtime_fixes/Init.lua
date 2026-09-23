@@ -756,10 +756,26 @@ local visibleTextExactOverrides = {
     ["Gain 10 Experience Points."] = "Получите 10 очков опыта.",
     ["Blood Fire Heavy Cannon"] = "Тяжелое орудие кровавого пламени",
     ["[Blood Fire Heavy Cannon]"] = "[Тяжелое орудие кровавого пламени]",
+    ["血火重炮"] = "Тяжелое орудие кровавого пламени",
+    ["【血火重炮】"] = "【Тяжелое орудие кровавого пламени】",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 17% Damage Amplification ."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +17% к увеличению урона.",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 17% Damage Amplification."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +17% к увеличению урона.",
+    ["在己方后两排开始战斗的弈子获得17%伤害增幅，并在战斗开始时损失20%当前生命值。"] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +17% к увеличению урона.",
     ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification ."] =
         "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
     ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification."] =
         "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
+    ["在己方后两排开始战斗的弈子获得25%伤害增幅，并在战斗开始时损失20%当前生命值。"] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 30% Damage Amplification ."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +30% к увеличению урона.",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 30% Damage Amplification."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +30% к увеличению урона.",
+    ["在己方后两排开始战斗的弈子获得30%伤害增幅，并在战斗开始时损失20%当前生命值。"] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +30% к увеличению урона.",
     ["Night Watch Seal"] = "Печать Ночного Стража",
     ["[Night Watch Seal]"] = "[Печать Ночного Стража]",
     ["At the start of combat, chess pieces adjacent to allies gain 200 Shield , lasting for 8 seconds ."] =
@@ -2200,29 +2216,47 @@ local function translateVisibleText(value)
         return result
     end
 
-    -- AutoChess rank formatting repair: "РыцарьУровень b" -> "Рыцарь | Уровень 2", "ВиконтУровень b 1180..." -> "Виконт | Уровень 2 | 1180..."
-    local rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*Уровень%s*(%w+)%s*(.*)$")
-    if not rankTitle then
-        rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*Level%s*(%w+)%s*(.*)$")
-    end
-    if rankTitle ~= nil and rankNum ~= nil then
-        if rankTitle == "Viscount" then rankTitle = "Виконт"
-        elseif rankTitle == "Knight" then rankTitle = "Рыцарь"
-        elseif rankTitle == "Baron" then rankTitle = "Барон"
-        elseif rankTitle == "Earl" then rankTitle = "Граф"
-        elseif rankTitle == "Marquis" then rankTitle = "Маркиз"
-        elseif rankTitle == "Duke" then rankTitle = "Герцог"
-        end
-        if rankNum == "b" then rankNum = "2" end
-        local result = rankTitle .. " | Уровень " .. rankNum
-        if rankRest ~= nil and rankRest ~= "" then
-            rankRest = rankRest:match("^%s*|?%s*(.-)%s*$")
-            if rankRest ~= "" then
-                result = result .. " | " .. rankRest
-            end
-        end
+    -- AutoChess: Blood Fire Heavy Cannon talent description (English & Chinese dynamic regex with tag tolerance)
+    local bfHp, bfDmg = value:match("Chess pieces in the back two rows start combat with.-(%d+)%%.-of their current Health and gain.-(%d+)%%.-Damage Amplification")
+    if bfHp and bfDmg then
+        local result = "Фигуры в двух задних рядах начинают бой с <HighLight>" .. bfHp .. "%</> от текущего здоровья и получают <HighLight>+" .. bfDmg .. "%</> к увеличению урона."
         visibleTextCache[value] = result
         return result
+    end
+    local cnBfDmg, cnBfLoss = value:match("在己方后两排开始战斗的弈子获得.-(%d+)%%.-伤害增幅.-损失.-(%d+)%%.-当前生命值")
+    if cnBfDmg and cnBfLoss then
+        local result = "Фигуры в двух задних рядах получают <HighLight>+" .. cnBfDmg .. "%</> к увеличению урона и теряют <HighLight>" .. cnBfLoss .. "%</> здоровья в начале боя."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess rank formatting repair: STRICT matching for explicit rank titles only
+    local rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*[Уу]ровень%s*(%w+)%s*(.*)$")
+    if not rankTitle then
+        rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*[Ll]evel%s*(%w+)%s*(.*)$")
+    end
+    if rankTitle ~= nil and rankNum ~= nil then
+        local validRanks = {
+            ["Viscount"] = "Виконт", ["Knight"] = "Рыцарь", ["Baron"] = "Барон",
+            ["Earl"] = "Граф", ["Marquis"] = "Маркиз", ["Duke"] = "Герцог",
+            ["Виконт"] = "Виконт", ["Рыцарь"] = "Рыцарь", ["Барон"] = "Барон",
+            ["Граф"] = "Граф", ["Маркиз"] = "Маркиз", ["Герцог"] = "Герцог",
+            ["子爵"] = "Виконт", ["骑士"] = "Рыцарь", ["男爵"] = "Барон",
+            ["伯爵"] = "Граф", ["侯爵"] = "Маркиз", ["公爵"] = "Герцог",
+        }
+        local canonicalRank = validRanks[rankTitle]
+        if canonicalRank then
+            if rankNum == "b" then rankNum = "2" end
+            local result = canonicalRank .. " | Уровень " .. rankNum
+            if rankRest ~= nil and rankRest ~= "" then
+                rankRest = rankRest:match("^%s*|?%s*(.-)%s*$")
+                if rankRest ~= "" then
+                    result = result .. " | " .. rankRest
+                end
+            end
+            visibleTextCache[value] = result
+            return result
+        end
     end
 
     -- Win / Loss streak formatting repair to prevent widget text overlap
@@ -2549,13 +2583,21 @@ end
 runtimeFixes.collapseSpacedCharacters = function(text)
     if type(text) ~= "string" or text == "" then return text end
     local uchar = "([%z\1-\127\194-\244][\128-\191]*)"
-    if text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s*$")
+    local cyr = "([\208\209][\128-\191])"
+    local isSpaced = text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s*$")
         or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar)
-    then
+        or text:match(cyr .. "%s+" .. cyr .. "%s+" .. cyr)
+    if isSpaced then
         local placeholder = "\31"
         local preserved = text:gsub("(%S)%s%s+(%S)", "%1" .. placeholder .. "%2")
-        local collapsed = preserved:gsub("(%S)%s(%S)", "%1%2")
-        collapsed = collapsed:gsub("(%S)%s(%S)", "%1%2")
+        local collapsed = preserved
+        local prev = nil
+        local iterations = 0
+        while prev ~= collapsed and iterations < 50 do
+            prev = collapsed
+            collapsed = collapsed:gsub("(%S)%s(%S)", "%1%2")
+            iterations = iterations + 1
+        end
         collapsed = collapsed:gsub(placeholder, " ")
         return collapsed:match("^%s*(.-)%s*$") or text
     end
@@ -8830,6 +8872,7 @@ Loader.AfterLoad(
 -- delayed pass coalesces bursts so this does not restore the global sweep.
 local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
+    AutoChess_CardDescription_Panel = true,
     AutoChess_GameDetail_Panel = true,
     Border_Panel = true,
     FashionStation_Details_Panel = true,
@@ -8847,6 +8890,7 @@ local dynamicPanelRescanUids = {
 }
 
 local extendedPanelRepairDelays = {
+    AutoChess_CardDescription_Panel = { 0.05, 0.15, 0.35, 0.80 },
     AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50, 3.00 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
@@ -9098,13 +9142,15 @@ local function installEventDrivenPanelRepair(value, environment)
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
-                if uid == "AutoChess_GameDetail_Panel" and not self.__cpddAutoChessHooked then
+                if (uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel") and not self.__cpddAutoChessHooked then
                     self.__cpddAutoChessHooked = true
                     for _, method in ipairs({
                         "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
                         "SetData", "InitData", "UpdateCards", "RefreshCards", "UpdateMatchInfo",
                         "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail", "SetGameDetail",
-                        "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails"
+                        "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails", "ShowCardDetail",
+                        "SetCardData", "UpdateCardInfo", "InitView", "OnOpen", "SetCard",
+                        "ShowCard", "UpdateCard", "Show"
                     }) do
                         local origMethod = self[method]
                         if type(origMethod) == "function" then
@@ -9164,11 +9210,17 @@ do
         "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailPanel",
         "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail",
         "Gameplay.LogicSystem.AutoChess.GameDetail_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChessCardDescriptionPanel",
+        "Gameplay.LogicSystem.AutoChess.CardDescription_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription",
     }
     for _, modName in ipairs(autoChessModuleCandidates) do
         Loader.AfterLoad(modName, function(value, environment)
             local panelClass = getSymbol(value, environment, "AutoChess_GameDetail_Panel")
                 or getSymbol(value, environment, "GameDetail_Panel")
+                or getSymbol(value, environment, "AutoChess_CardDescription_Panel")
+                or getSymbol(value, environment, "CardDescription_Panel")
                 or value
             if type(panelClass) == "table" and panelClass.__cpddAutoChessPanelHooked ~= VERSION then
                 panelClass.__cpddAutoChessPanelHooked = VERSION
@@ -9176,7 +9228,9 @@ do
                     "Open", "Refresh", "Update", "UpdateData", "UpdateView", "UpdateList",
                     "RefreshList", "SetData", "InitData", "UpdateCards", "RefreshCards",
                     "UpdateMatchInfo", "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail",
-                    "SetGameDetail", "ShowDetail", "RefreshUI"
+                    "SetGameDetail", "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails",
+                    "ShowCardDetail", "SetCardData", "UpdateCardInfo", "InitView", "OnOpen",
+                    "SetCard", "ShowCard", "UpdateCard", "Show"
                 }) do
                     local origM = panelClass[m]
                     if type(origM) == "function" then
@@ -9190,10 +9244,10 @@ do
                         end
                     end
                 end
-                report("installed AutoChess_GameDetail_Panel lifecycle hooks on " .. modName)
+                report("installed AutoChess lifecycle hooks on " .. modName)
             end
             return value
-        end, 1000000, "cpdd.runtime-fix.autochess-gamedetail-panel")
+        end, 1000000, "cpdd.runtime-fix.autochess-panels")
     end
 end
 

@@ -241,4 +241,5 @@ return {
     ["Fool Statue"] = "Стату Шута",
     ["A clean floor is pleasing..."] = "Чистый пол радует.",
     ["You truly are a young lady with a discerning eye."] = "Вы действительно молодая леди с проницательным взглядом.",
+    ["血火重炮"] = "Blood Fire Heavy Cannon",
 }

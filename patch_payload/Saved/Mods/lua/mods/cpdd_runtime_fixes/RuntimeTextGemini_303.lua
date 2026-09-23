@@ -236,4 +236,5 @@ return {
     ["Backline Fire Gambling II: Lose 20% current Health at the start of combat, Damage Increase +30%."] = "Backline Fire Gambling II: потеря 20% текущего здоровья в начале боя, увеличение урона +30%.",
     ["Activated Resonance: 0"] = "Активировано резонансов: 0",
     ["Equip to gain the [Beyonder Creature] bond"] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо]",
+    ["【战斗法师】"] = "[Battle-Mage]",
 }

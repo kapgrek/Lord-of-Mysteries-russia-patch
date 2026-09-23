@@ -234,4 +234,5 @@ return {
     ["Player waypoint"] = "Путевая точка игрока",
     ["Hmm, are the potion formula and materials ready?"] = "Хм, а формула зелья и материалы готовы?",
     ["Might as well try divination with a dowsing rod."] = "Might as well try Гадание with a dowsing rod.",
+    ["以知识辉耀对敌方全体造成<Yellow>208</>点攻击伤害。随后随机获得<HighLight>25%</>攻击，持续<HighLight>6</>秒，或立即恢复<HighLight>45</>点法力。"] = "以知识辉耀对敌方全体造成<Yellow>208</>点攻击伤害。随后随机获得<HighLight>25%</>攻击，持续<HighLight>6</>秒，或立即恢复<HighLight>45</>点法力。",
 }

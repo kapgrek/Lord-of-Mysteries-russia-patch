@@ -258,4 +258,5 @@ return {
     ["I'm not sure"] = "Я не уверен",
     ["Why do you ask? Did something happen?"] = "Почему ты спрашиваешь? Что-то случилось?",
     ["Withered and dead, fragrance returns"] = "Увядший и мертвый, аромат возвращается",
+    ["Launch three waves of Spirit World Bombardment, dealing a total of <Yellow>281</> Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>."] = "Launch three waves of Spirit World Bombardment, dealing a total of <Yellow>281</> Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>.",
 }

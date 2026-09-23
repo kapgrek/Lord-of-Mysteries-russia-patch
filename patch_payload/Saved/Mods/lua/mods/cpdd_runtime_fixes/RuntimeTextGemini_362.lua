@@ -266,4 +266,5 @@ return {
     ["Southeast Point"] = "Юго-восточная точка",
     ["Mr. Dunn!"] = "Мистер Данн!",
     ["The anthem of iron and blood will be written by our own hands!"] = "Гимн железа и крови будет написан нашими собственными руками!",
+    ["【 噬血 】获得30%吸血。造成伤害时追加伤害，目标生命值低于50%时翻倍。"] = "[Blood-Thirst] Grants 30% Lifesteal. Deals additional damage when dealing damage, doubled if target health is below 50%.",
 }

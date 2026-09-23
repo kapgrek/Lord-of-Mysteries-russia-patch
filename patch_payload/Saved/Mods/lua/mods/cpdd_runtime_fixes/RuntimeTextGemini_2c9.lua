@@ -263,4 +263,5 @@ return {
     ["Trissy Story Battle_Embrace of Dark Ember A2"] = "История Трисси: Битва_Объятия Темного Эмбера Ab",
     ["Examine the corrupted person."] = "Осмотрите испорченного человека.",
     ["Freshly baked lemon cake tastes the best; you can buy a small piece to try first."] = "Свежеиспеченный лимонный пирог вкуснее всего; вы можете купить небольшой кусочек, чтобы попробовать сначала.",
+    ["Strike surrounding enemies with a three-hit Torrent, dealing a total of <Yellow>60</> Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain <Yellow>210</> Shield for <HighLight>4</> seconds."] = "Strike surrounding enemies with a three-hit Torrent, dealing a total of <Yellow>60</> Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain <Yellow>210</> Shield for <HighLight>4</> seconds.",
 }

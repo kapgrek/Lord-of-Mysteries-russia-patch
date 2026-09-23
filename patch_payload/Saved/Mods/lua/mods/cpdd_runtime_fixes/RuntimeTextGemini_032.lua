@@ -261,4 +261,5 @@ return {
     ["No. 4"] = "№ 4",
     ["Death can also nurture new life!"] = "Смерть также может дать начало новой жизни!",
     ["The Primordial Moon is immune to damage while under the protection of moonlight."] = "Изначальная Луна невосприимчива к урону, пока находится под защитой лунного света.",
+    ["绯红信仰"] = "Crimson Belief",
 }

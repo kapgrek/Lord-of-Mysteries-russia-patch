@@ -231,4 +231,5 @@ return {
     ["Massimo said that the taste was indeed not affected by two people cooking. But she hopes you remember what you once said: 'People should at least be honest in front of food'."] = "Массимо сказал, что на вкус действительно не повлияло приготовление вдвоем. Но она надеется, что вы помните, что однажды сказали: «Люди должны быть честными, по крайней мере, в отношении еды».",
     ["Deploy a phantom with a close relationship to yourself once"] = "Разверните фантом, близкий к вам один раз.",
     ["4 [奥秘] 全体友军每秒恢复能量。[奥秘] 恢复更多。"] = "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["释放两次星界洪流，横扫前方扇形区域，共造成<Yellow>123</>点攻击伤害。"] = "释放两次星界洪流，横扫前方扇形区域，共造成<Yellow>123</>点攻击伤害。",
 }
