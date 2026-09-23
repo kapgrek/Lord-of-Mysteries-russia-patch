@@ -2666,7 +2666,6 @@ end
 
 runtimeFixes.AutoChessDump = {}
 runtimeFixes.AutoChessDumpSet = {}
-runtimeFixes.AutoChessDumpLoaded = false
 runtimeFixes.AutoChessDumpDirty = false
 runtimeFixes.LastAutoChessDumpTime = 0
 
@@ -2678,35 +2677,16 @@ function runtimeFixes.dumpAutoChessString(str, context)
     -- Skip if already translated to Russian (contains Cyrillic)
     if trimmed:find("[\208\209][\128-\191]") then return end
 
+    -- Extra safety: if translateVisibleText can find a Russian translation, do not dump
+    if type(translateVisibleText) == "function" then
+        local check = translateVisibleText(trimmed)
+        if type(check) == "string" and check:find("[\208\209][\128-\191]") then
+            return
+        end
+    end
+
     if runtimeFixes.AutoChessDumpSet[trimmed] then return end
     runtimeFixes.AutoChessDumpSet[trimmed] = true
-
-    if not runtimeFixes.AutoChessDumpLoaded then
-        runtimeFixes.AutoChessDumpLoaded = true
-        pcall(function()
-            local paths = {
-                "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
-                "temp/autochess_dump.json",
-            }
-            local q = string.char(34)
-            local bs = string.char(92)
-            for _, p in ipairs(paths) do
-                local f = io.open(p, "r")
-                if f then
-                    local content = f:read("*a")
-                    f:close()
-                    for item in content:gmatch("%b" .. q .. q) do
-                        local inner = item:sub(2, -2)
-                        if inner ~= "" then
-                            local unesc = inner:gsub(bs .. q, q):gsub(bs .. "n", "\n"):gsub(bs .. "r", "\r"):gsub(bs .. bs, bs)
-                            runtimeFixes.AutoChessDumpSet[unesc] = true
-                        end
-                    end
-                    break
-                end
-            end
-        end)
-    end
 
     table.insert(runtimeFixes.AutoChessDump, {
         text = trimmed,
@@ -8907,6 +8887,7 @@ local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
     AutoChess_CardDescription_Panel = true,
     AutoChess_GameDetail_Panel = true,
+    AutoChess_OutSideMain_Panel = true,
     Border_Panel = true,
     FashionStation_Details_Panel = true,
     GuildInside_Panel = true,
@@ -8925,6 +8906,7 @@ local dynamicPanelRescanUids = {
 local extendedPanelRepairDelays = {
     AutoChess_CardDescription_Panel = { 0.05, 0.15, 0.35, 0.80 },
     AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50, 3.00 },
+    AutoChess_OutSideMain_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
@@ -9175,7 +9157,7 @@ local function installEventDrivenPanelRepair(value, environment)
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
-                if (uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel") and not self.__cpddAutoChessHooked then
+                if (uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel") and not self.__cpddAutoChessHooked then
                     self.__cpddAutoChessHooked = true
                     for _, method in ipairs({
                         "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
@@ -9247,6 +9229,9 @@ do
         "Gameplay.LogicSystem.AutoChess.AutoChessCardDescriptionPanel",
         "Gameplay.LogicSystem.AutoChess.CardDescription_Panel",
         "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChessOutSideMainPanel",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain",
     }
     for _, modName in ipairs(autoChessModuleCandidates) do
         Loader.AfterLoad(modName, function(value, environment)
@@ -9254,6 +9239,8 @@ do
                 or getSymbol(value, environment, "GameDetail_Panel")
                 or getSymbol(value, environment, "AutoChess_CardDescription_Panel")
                 or getSymbol(value, environment, "CardDescription_Panel")
+                or getSymbol(value, environment, "AutoChess_OutSideMain_Panel")
+                or getSymbol(value, environment, "AutoChessOutSideMainPanel")
                 or value
             if type(panelClass) == "table" and panelClass.__cpddAutoChessPanelHooked ~= VERSION then
                 panelClass.__cpddAutoChessPanelHooked = VERSION

@@ -1,6 +1,6 @@
-# Manifest (Lord of the Mysteries v2.8.3-RU)
+# Manifest (Lord of the Mysteries v2.8.4-RU)
 
-Total strings: **131124** (translated: **131124**, **100%**)
+Total strings: **131142** (translated: **131142**, **100%**)
 Batch size: **5000**
 Batch count: **28**
 
@@ -33,4 +33,4 @@ Batch count: **28**
 | Батч 025 | `batch_025.json` | 120001 - 125000 | Готов |
 | Батч 026 | `batch_026.json` | 125001 - 130000 | Готов |
 | Батч 027 | `batch_027.json` | 130001 - 131010 | Готов |
-| Батч 028 | `batch_028_autochess.json` | 131011 - 131124 | Готов |
+| Батч 028 | `batch_028_autochess.json` | 131011 - 131142 | Готов |
