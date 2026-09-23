@@ -2582,11 +2582,39 @@ end
 
 runtimeFixes.collapseSpacedCharacters = function(text)
     if type(text) ~= "string" or text == "" then return text end
-    local uchar = "([%z\1-\127\194-\244][\128-\191]*)"
-    local cyr = "([\208\209][\128-\191])"
+    if #text >= 60 then return text end
+
+    -- Strict check: no punctuation or markup tags
+    if text:find("[%p<>«»—–\r\n\t]") then return text end
+
+    -- String length must be < 20 characters
+    local _, charCount = text:gsub("[^\128-\191]", "")
+    if charCount >= 20 then return text end
+
+    -- If any word has more than 1 character, the string is definitely not spaced text
+    local tokenCount = 0
+    for word in text:gmatch("%S+") do
+        local _, wLen = word:gsub("[^\128-\191]", "")
+        if wLen > 1 then
+            return text
+        end
+        tokenCount = tokenCount + 1
+    end
+    if tokenCount < 2 then
+        return text
+    end
+
+    local uchar = "[%z\1-\127\194-\244][\128-\191]*"
     local isSpaced = text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s*$")
-        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar)
-        or text:match(cyr .. "%s+" .. cyr .. "%s+" .. cyr)
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s+" .. uchar .. "%s*$")
+        or text:match("^%s*%S%s+%S%s*$")
+        or text:match("^%s*%S%s+%S%s+%S%s*$")
+        or text:match("^%s*%S%s+%S%s+%S%s+%S%s*$")
+
     if isSpaced then
         local placeholder = "\31"
         local preserved = text:gsub("(%S)%s%s+(%S)", "%1" .. placeholder .. "%2")
@@ -2764,8 +2792,6 @@ local function translateTextWidget(widget, discoveryContext)
             or translateVisibleText(collapsedCurrent)
         if translated == collapsedCurrent and collapsedCurrent ~= currentText then
             translated = collapsedCurrent
-        else
-            translated = runtimeFixes.collapseSpacedCharacters(translated)
         end
 
         -- AutoChess silent dump trap for untranslated strings
