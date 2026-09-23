@@ -254,5 +254,5 @@ return {
     ["Blackboard"] = "доска",
     ["5200208 Capital Endgame Dungeon"] = "5200208 Столичное подземелье финала",
     ["When a match round is lost, gain 2 Experience . If on a losing streak , gain an additional 1 Experience ."] = "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта.",
-    ["非凡世界"] = "Extraordinary World",
+    ["非凡世界"] = "Потусторонний мир",
 }

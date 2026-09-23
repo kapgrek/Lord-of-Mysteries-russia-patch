@@ -248,4 +248,5 @@ return {
     ["Character does not exist"] = "Персонаж не существует",
     ["Equip to gain the [Arbiter] resonance."] = "Экипируйте, чтобы получить резонанс [Арбитр].",
     ["【歌者】"] = "[Певец]",
+    ["Crimson Belief"] = "Багряная вера",
 }

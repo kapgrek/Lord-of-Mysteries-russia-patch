@@ -276,5 +276,5 @@ return {
     ["When she was a child, other children liked playing with dolls, but she was busy taking apart the grandfather clock in the room."] = "Когда она была ребенком, другие дети любили играть в куклы, а она была занята разборкой напольных часов в комнате.",
     ["Faction B Secret Path First Tower Portal"] = "Секретный путь фракции B. Портал в первую башню.",
     ["Moment of Fate: Lord of Stars"] = "Момент судьбы: Повелитель звезд",
-    ["Spin jump and shock surrounding enemies, dealing <Yellow>58</> Attack damage, and gain <Yellow>175</> Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds."] = "Spin jump and shock surrounding enemies, dealing <Yellow>58</> Attack damage, and gain <Yellow>175</> Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds.",
+    ["Spin jump and shock surrounding enemies, dealing <Yellow>58</> Attack damage, and gain <Yellow>175</> Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds."] = "Прыгает с вращением и сотрясает окружающих врагов, нанося <Yellow>58</> ед. урона от атаки, а также получает щит прочностью <Yellow>175</> ед. и <HighLight>12%</> снижения урона на <HighLight>3</> сек.",
 }

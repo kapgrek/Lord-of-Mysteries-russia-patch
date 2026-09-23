@@ -233,5 +233,5 @@ return {
     ["Cannot close the Family group chat during the creation process; it has been switched to floating window mode for you."] = "Невозможно закрыть групповой чат «Семья» во время процесса создания; для вас он был переключен в режим плавающего окна.",
     ["Audience 2 Female"] = "Аудитория 2 Женская",
     ["每个独特的3星棋子：全体友军+3%攻击力和5点防御。"] = "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты.",
-    ["战斗开始8秒后，【红月光华】对所有敌人造成真实伤害并提升所有友军攻速。"] = "8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed.",
+    ["战斗开始8秒后，【红月光华】对所有敌人造成真实伤害并提升所有友军攻速。"] = "Через 8 сек. после начала боя [Сияние Багряной Луны] наносит чистый урон всем врагам и повышает скорость атаки всех союзников.",
 }

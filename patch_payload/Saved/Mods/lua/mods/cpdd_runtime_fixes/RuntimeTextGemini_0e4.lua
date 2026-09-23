@@ -260,6 +260,6 @@ return {
     ["We are creating a miracle! Surely no one in the School of Art has ever performed on a Snowy Mountain before."] = "Мы творим чудо! Наверняка никто в Школе искусств еще никогда не выступал на Снежной горе.",
     ["【仲裁人】"] = "[Арбитр]",
     ["奥秘"] = "Тайное знание",
-    ["Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times."] = "Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times.",
-    ["【并肩】"] = "[Companionship]",
+    ["Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times."] = "Взмахивает молотом ярости, сотрясая окружающих врагов и нанося <Yellow>93</> ед. урона от атаки. Затем в течение <HighLight>5</> сек. при каждом получении удара увеличивает скорость атаки на <HighLight>6%</> (суммируется до <HighLight>4</> раз).",
+    ["【并肩】"] = "【Плечом к плечу】",
 }

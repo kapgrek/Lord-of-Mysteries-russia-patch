@@ -246,4 +246,5 @@ return {
     ["Knock on Door - Selena's Bedroom"] = "Постучите в дверь - Спальня Селены",
     ["Dark shadows are the masters of the day"] = "Темные тени — хозяева дня",
     ["Equip to gain the [Lawyer] bond."] = "Экипируйте, чтобы получить резонанс [Юрист].",
+    ["All allies gain 10% Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to 10 stacks. High tiers gain Damage Reduction."] = "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
 }

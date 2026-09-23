@@ -245,4 +245,5 @@ return {
     ["Destroy Door"] = "Уничтожить дверь",
     ["Character Creation Naming"] = "Создание персонажа",
     ["Take Arnold by carriage back to Blackthorn"] = "Отвезите Арнольда на карете обратно в Чёрный Чертополох.",
+    ["[Critical Hit Amplification]"] = "【Увеличение крит. урона】",
 }

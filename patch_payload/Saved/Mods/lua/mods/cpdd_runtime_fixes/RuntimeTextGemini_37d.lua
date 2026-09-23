@@ -242,4 +242,5 @@ return {
     ["Fish - Vibration Blade Test - Screen Shatter buff"] = "Рыба — тест на вибрацию лезвия — усиление разрушения экрана",
     ["Direction of love"] = "Направление любви",
     ["After I go back this time, I don't know when I'll be coming to Tingen next."] = "После того, как я вернусь на этот раз, я не знаю, когда я приеду в Тинген в следующий раз.",
+    ["Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round."] = "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
 }

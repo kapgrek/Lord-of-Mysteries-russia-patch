@@ -249,5 +249,5 @@ return {
     ["Why are you so interested in bicycles?"] = "Почему вас так интересуют велосипеды?",
     ["<P_Heart>(No... I'm not!)</>"] = "<P_Heart>(Нет... Я не!) </>",
     ["Desi Bay Cod | Feynapotter Potatoes"] = "Дези Бэй Треска | Картофель Фейнапоттер",
-    ["【双向自愈】"] = "[Double-Sided Healing]",
+    ["【双向自愈】"] = "【Двустороннее исцеление】",
 }

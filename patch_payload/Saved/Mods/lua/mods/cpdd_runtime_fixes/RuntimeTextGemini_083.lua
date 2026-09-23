@@ -267,4 +267,5 @@ return {
     ["<P_Heart> (Looking at how he's giggling while walking, it's no wonder he bumped into a roadside flowerpot.) </>"] = "<P_Heart> (Глядя на то, как он хихикает во время прогулки, неудивительно, что он наткнулся на придорожный цветочный горшок.) </>",
     ["City Sprint"] = "Городской спринт",
     ["装配后获得【死亡教派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification."] = "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
 }

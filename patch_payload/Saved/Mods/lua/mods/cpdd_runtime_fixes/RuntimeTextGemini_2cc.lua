@@ -246,5 +246,5 @@ return {
     ["Then let me see again the \"courage\" and \"sacrifice\" he protects."] = "Тогда позвольте мне еще раз увидеть «мужество» и «жертвенность», которые он защищает.",
     ["<P_Heart> (Puts down the newspaper) </> What?"] = "<P_Heart> (откладывает газету) </> Что?",
     ["Storage has reached the limit (%d/%d), you can choose to replace with newly obtained affixes"] = "Хранилище достигло предела (%d/%d), вы можете заменить его новыми полученными аффиксами.",
-    ["【旧日复苏】"] = "[Revival of the Great Old One]",
+    ["【旧日复苏】"] = "【Возрождение Древнего】",
 }

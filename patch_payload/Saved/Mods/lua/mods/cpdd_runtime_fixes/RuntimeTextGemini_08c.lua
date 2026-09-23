@@ -230,5 +230,5 @@ return {
     ["Lomas"] = "Ломас",
     ["Passerby Watching Car Repair"] = "Прохожий наблюдает за ремонтом автомобиля",
     ["Pink peonies... she used to like this kind of flower."] = "Розовые пионы... раньше ей нравились такие цветы.",
-    ["迅猎"] = "Swift-Hunt",
+    ["迅猎"] = "Быстрая охота",
 }

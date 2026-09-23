@@ -251,4 +251,5 @@ return {
     ["Life-or-Death Battle_End"] = "Битва не на жизнь, а на смерть_Конец",
     ["Invited <Highlight> %s </>"] = "Приглашен <Highlight> %s </>",
     ["Equip to gain the [Aurora Order] bond."] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
+    ["Summons [Moon Corruption] to assist in combat; star level increases with tier."] = "Призывает [Лунное осквернение] на помощь в бою; звездный уровень растет с рангом.",
 }

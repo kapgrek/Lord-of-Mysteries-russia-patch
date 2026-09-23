@@ -269,4 +269,5 @@ return {
     ["You are already very close to the target."] = "Вы уже очень близки к цели.",
     ["Receive flowchart message (bottom dialogue)."] = "Получите сообщение блок-схемы (нижний диалог).",
     ["Each stack grants 0.8% attack power increase, up to 100 stacks."] = "Каждый стак дает увеличение силы атаки на 0,8%, до 100 стаков.",
+    ["[Crimson Believer]"] = "【Багряный верующий】",
 }

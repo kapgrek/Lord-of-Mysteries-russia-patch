@@ -281,5 +281,5 @@ return {
     ["Equip to gain the [Lawyer] resonance"] = "Экипируйте, чтобы получить резонанс [Юрист]",
     ["Equip to gain the [Apothecary] resonance."] = "Экипируйте, чтобы получить резонанс [Аптекарь].",
     ["Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat."] = "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
-    ["【铁血】"] = "[Iron-Blood]",
+    ["【铁血】"] = "【Железо и кровь】",
 }

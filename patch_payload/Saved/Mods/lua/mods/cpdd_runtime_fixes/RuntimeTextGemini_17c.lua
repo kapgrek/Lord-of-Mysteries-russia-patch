@@ -235,4 +235,5 @@ return {
     ["Contains all appearance resources in the game"] = "Содержит все ресурсы внешнего вида в игре.",
     ["Oh, I really don't know how long these people have been in the bar, they're drunk."] = "О, я правда не знаю, как долго эти люди пробыли в баре, они пьяны.",
     ["These yellow-hearted potatoes are quite fresh; they're just right for my wife to make oxtail soup. Thank you."] = "Этот картофель с желтой сердцевиной совершенно свежий; они как раз подходят для того, чтобы моя жена приготовила суп из бычьих хвостов. Спасибо.",
+    ["Instant Hunt"] = "Мгновенная охота",
 }

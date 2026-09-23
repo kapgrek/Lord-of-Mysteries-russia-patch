@@ -230,4 +230,5 @@ return {
     ["Count_Move Resource"] = "Ресурс Count_Move",
     ["Oh, but the hunting rifle is really beautiful too..."] = "Ох, но охотничье ружье тоже очень красивое...",
     ["[Sleepless]"] = "[Бессонный]",
+    ["[Iron-Blood]"] = "【Железо и кровь】",
 }

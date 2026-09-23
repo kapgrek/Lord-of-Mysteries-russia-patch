@@ -258,4 +258,5 @@ return {
     ["Water... give me water..."] = "Вода... дай мне воды...",
     ["Fashion Duel \"Moonlight Lady\" Failure"] = "Модная дуэль «Лунная леди» Провал",
     ["Equip to gain the [Spellcasting] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
+    ["At the start of combat, chess pieces adjacent to allies gain 200 Shield, lasting for 8 seconds."] = "В начале боя фигуры, находящиеся рядом с союзниками, получают щит прочностью 200 на 8 сек.",
 }

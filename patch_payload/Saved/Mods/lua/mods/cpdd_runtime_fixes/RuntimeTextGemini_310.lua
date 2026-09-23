@@ -246,4 +246,5 @@ return {
     ["Barrier"] = "Барьер",
     ["Ginny"] = "Джинни",
     ["How do I enter a dungeon"] = "Как мне войти в подземелье",
+    ["Cyrenaica"] = "Киренаика",
 }

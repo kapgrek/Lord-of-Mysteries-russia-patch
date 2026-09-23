@@ -255,5 +255,5 @@ return {
     ["Keep an eye on those people!"] = "Следите за этими людьми!",
     ["Strategic Skill (No equipment required)"] = "Стратегический навык (не требует экипировки)",
     ["4 [Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
-    ["梅林·赫尔墨斯"] = "Merlin Hermes",
+    ["梅林·赫尔墨斯"] = "Мерлин Гермес",
 }

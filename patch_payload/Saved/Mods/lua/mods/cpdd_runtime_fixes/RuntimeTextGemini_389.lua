@@ -242,5 +242,5 @@ return {
     ["I will be loyal to you, respect you, and accompany you for a lifetime."] = "Я буду верен тебе, уважать тебя и сопровождать тебя всю жизнь.",
     ["Can be obtained through various gameplay modes"] = "Можно получить в различных режимах игры.",
     ["Equip to gain the [Warrior] bond"] = "Экипируйте, чтобы получить резонанс [Воин]",
-    ["绯红信徒"] = "Crimson Believer",
+    ["绯红信徒"] = "Багряный верующий",
 }

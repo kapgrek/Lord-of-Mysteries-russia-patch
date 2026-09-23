@@ -263,4 +263,5 @@ return {
     ["【Purify】 the Chaos Greatsword into the Order Greatsword (Hint: Activate the Purification Platform)"] = "【Очистить】 Большой меч Хаоса в Большой меч Порядка (подсказка: активируйте платформу очищения)",
     ["Every time Tarot Array deals damage, it additionally triggers a ribbon explosion, dealing area damage."] = "Каждый раз, когда «Массив Таро» наносит урон, он дополнительно вызывает взрыв ленты, наносящий урон по области.",
     ["Noble Lady 2"] = "Благородная леди b",
+    ["[Swift-Hunt]"] = "【Быстрая охота】",
 }

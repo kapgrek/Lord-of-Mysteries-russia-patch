@@ -227,4 +227,5 @@ return {
     ["The Forbidden Knowledge on both sides of the hour hand is balanced; the hour hand will remain stationary"] = "Запретные знания по обеим сторонам часовой стрелки сбалансированы; часовая стрелка останется неподвижной",
     ["Duncan "] = "Дункан",
     ["Equip to gain the [Lucky One] resonance"] = "Экипируйте, чтобы получить резонанс [Счастливчик]",
+    ["[Ancestor's Glory]"] = "【Слава предков】",
 }

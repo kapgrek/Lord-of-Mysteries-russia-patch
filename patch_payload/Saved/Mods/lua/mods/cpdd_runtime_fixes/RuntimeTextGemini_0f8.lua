@@ -282,5 +282,5 @@ return {
     ["Achievement: First Victory of the Divine Throne"] = "Достижение: Первая победа Божественного Трона.",
     ["New Cemetery Scanning Shot"] = "Новый снимок кладбища",
     ["All allies gain <HighLight>10%</> Attack, [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка.",
-    ["获得10点经验值。"] = "Gain 10 Experience Points.",
+    ["获得10点经验值。"] = "Получите 10 очков опыта.",
 }

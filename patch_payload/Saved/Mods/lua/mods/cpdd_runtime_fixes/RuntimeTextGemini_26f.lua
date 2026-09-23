@@ -256,4 +256,5 @@ return {
     ["In a single \"Normal\" difficulty dungeon, complete the individual Brass Book challenge for all bosses."] = "В одном подземелье уровня сложности «Нормальный» выполните индивидуальное задание «Медная книга» для всех боссов.",
     ["Roselle Boss - Phase 1&2 - Calculation Mark 2"] = "Босс Розеллы — фазы 1 и 2 — знак расчета 2",
     ["装配后获得【黑夜女神】羁绊"] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]",
+    ["Companionship"] = "Плечом к плечу",
 }

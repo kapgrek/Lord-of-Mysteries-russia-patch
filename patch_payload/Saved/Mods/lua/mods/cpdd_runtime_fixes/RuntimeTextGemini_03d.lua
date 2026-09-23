@@ -266,4 +266,5 @@ return {
     ["Crisis averted! Thank you! You really are a reasonable adult!"] = "Кризис предотвращен! Спасибо! Вы действительно разумный взрослый человек!",
     ["True protection is letting people in the light never know of the existence of darkness."] = "Истинная защита – это позволить людям, находящимся во свете, никогда не узнать о существовании тьмы.",
     ["装配后获得【死亡教派】羁绊"] = "Экипируйте, чтобы получить резонанс [Секта Смерти]",
+    ["Witch's Curse"] = "Проклятие Демоницы",
 }

@@ -263,4 +263,5 @@ return {
     ["This guy owes me a huge sum of money. Look at these paintings at the door, they were all ruined by him!"] = "Этот парень должен мне огромную сумму денег. Посмотрите на эти картины у двери, они все испорчены им!",
     ["When Offspring Protection locks onto a player via <Disable> purple spirituality vision </>, it uses a greatsword to launch a charged Slash, dealing <Disable> rectangular area </> damage."] = "Когда Защита потомства захватывает игрока с помощью фиолетового духовного видения <Disable> </>, он использует большой меч для запуска заряженного удара, нанося <Disable> урон по прямоугольной области </>.",
     ["Bird?"] = "Птица?",
+    ["Blood Fire Heavy Cannon"] = "Тяжелое орудие кровавого пламени",
 }

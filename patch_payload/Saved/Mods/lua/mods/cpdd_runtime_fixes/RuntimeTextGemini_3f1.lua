@@ -240,4 +240,5 @@ return {
     ["黛西小姐？！"] = "Мисс Дейзи?!",
     ["Main Story Chapter 2, Chapter 3 (New): First Meeting with Seeka Tron"] = "Основная история Глава 2, Глава 3 (новая): Первая встреча с Сикой Трон",
     ["Yodora - Impact Bone Flute - Laser - 9s - Left"] = "Йодора — ударная костяная флейта — лазер — 9 с — слева",
+    ["Radiance of the Crimson Moon"] = "Сияние Багряной Луны",
 }

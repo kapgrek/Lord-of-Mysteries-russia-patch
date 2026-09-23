@@ -237,5 +237,5 @@ return {
     ["Endless youthful enthusiasm has given birth to countless soaring stories."] = "Бесконечный юношеский энтузиазм породил бесчисленное множество ярких историй.",
     ["Offer               "] = "Предложение",
     ["Hmm... I'd better come back later."] = "Хм... Мне лучше вернуться позже.",
-    ["绝对护盾"] = "Absolute Shield",
+    ["绝对护盾"] = "Абсолютный щит",
 }

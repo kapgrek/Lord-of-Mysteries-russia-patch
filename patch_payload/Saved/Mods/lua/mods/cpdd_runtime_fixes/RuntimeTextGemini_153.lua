@@ -253,6 +253,6 @@ return {
     ["Lawrence (Deprecated)"] = "Лоуренс (устарело)",
     ["Explore the mysterious with spirituality and sense the invisible flow of information in the surroundings. Use your mind and knowledge to analyze, research, and learn, unfolding a magic circle in the manner of a Warlock to deeply engage in Acting for your Sequence abilities and accelerate the digestion of your potion.\nWhile the Skill is active, surrounding players can obtain a temporary Skill, which they can use to acquire a piece of paper containing secret knowledge.\nYou gain +4 Intuition and +2 Knowledge. Players using the temporary Skill also gain +4 Intuition and +2 Knowledge simultaneously."] = "Исследуйте тайны с помощью духовности, ощущая окружающий незримый поток информации. Задействуя разум и знания для анализа, исследований и учения, разверните магический круг в обличье чернокнижника для глубокого отыгрыша способностей Последовательности, ускоряя усвоение зелья.\nВо время действия навыка окружающие игроки получают временный навык, позволяющий получить лист с тайными знаниями.\nДарует вам +4 к Интуиции и +2 к Знанию. Игроки, использовавшие временный навык, также получают +4 к Интуиции и +2 к Знанию.",
     ["Activated Resonance"] = "Активированный резонанс",
-    ["【红月光华】"] = "[Radiance of the Crimson Moon]",
-    ["【暴击增幅】"] = "[Critical Hit Amplification]",
+    ["【红月光华】"] = "【Сияние Багряной Луны】",
+    ["【暴击增幅】"] = "【Увеличение крит. урона】",
 }

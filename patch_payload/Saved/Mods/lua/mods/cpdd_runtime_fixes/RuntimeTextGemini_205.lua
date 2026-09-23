@@ -247,4 +247,6 @@ return {
     ["The Fool that doesn't belong to this era."] = "Шут, не принадлежащий этой эпохе",
     ["Equip to gain the [Aurora Order] resonance"] = "Экипируйте, чтобы получить резонанс [Орден Авроры]",
     ["Equip to gain the [Planter] resonance"] = "Экипируйте, чтобы получить резонанс [Плантатор]",
+    ["Gain 10 Experience Points."] = "Получите 10 очков опыта.",
+    ["[Extraordinary World]"] = "【Потусторонний мир】",
 }

@@ -265,5 +265,5 @@ return {
     ["Warrior - Roleplay Skill - Sword Master"] = "Воин – Навык ролевой игры – Мастер меча",
     ["Today I'm going to try every divination method! Where are the diviners?"] = "Today I'm going to try every Гадание method! Where are the diviners?",
     ["装配后获得【施法者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Колдовство].",
-    ["【死者之娱】"] = "[The Dead's Entertainment]",
+    ["【死者之娱】"] = "【Развлечение мертвецов】",
 }

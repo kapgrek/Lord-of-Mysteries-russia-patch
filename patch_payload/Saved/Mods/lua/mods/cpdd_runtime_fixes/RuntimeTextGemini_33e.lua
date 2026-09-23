@@ -267,5 +267,5 @@ return {
     ["Xiga Departure Path"] = "Путь отправления Сига",
     ["By the way, there are traces of Beyonder combat here, as well as residual corruption."] = "Кстати, здесь есть следы боя с Потусторонними, а также остаточная Искажение.",
     ["装配后获得【秘祈人】羁绊。"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах].",
-    ["Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of <Yellow>197</> Attack damage."] = "Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of <Yellow>197</> Attack damage.",
+    ["Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of <Yellow>197</> Attack damage."] = "Исполняет трио спиритизма, трижды подряд поражая окружающих врагов и нанося в сумме <Yellow>197</> ед. урона от атаки.",
 }

@@ -239,5 +239,5 @@ return {
     ["Brochure 2"] = "Брошюра b",
     ["Evaluate datacenter data volume"] = "Оцените объем данных центра обработки данных",
     ["Minimap Street - Right Street"] = "Миникарта Улица — Правая улица",
-    ["Throw two doom cards to strike the target continuously, dealing a total of <Yellow>361</> Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds."] = "Throw two doom cards to strike the target continuously, dealing a total of <Yellow>361</> Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds.",
+    ["Throw two doom cards to strike the target continuously, dealing a total of <Yellow>361</> Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds."] = "Бросает две карты рока, непрерывно поражающие цель и наносящие в сумме <Yellow>361</> ед. урона от атаки. Затем случайно увеличивает скорость атаки на <HighLight>20%</> или атаку на <HighLight>10%</> на <HighLight>4</> сек.",
 }

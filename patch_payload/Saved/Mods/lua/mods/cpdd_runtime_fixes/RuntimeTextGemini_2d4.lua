@@ -255,5 +255,5 @@ return {
     ["Spectator 1"] = "Зритель b",
     ["Do you need me to provide you with some help, ma'am?"] = "Вам нужна моя помощь, мэм?",
     ["[Auto-Chess] - Yodora - Sonic Impact"] = "[Авто-шахматы] - Йодора - Sonic Impact",
-    ["Fire two Air Cannons forward in succession, each hit dealing <Yellow>140</> Attack damage."] = "Fire two Air Cannons forward in succession, each hit dealing <Yellow>140</> Attack damage.",
+    ["Fire two Air Cannons forward in succession, each hit dealing <Yellow>140</> Attack damage."] = "Выпускает две Воздушные пушки вперед подряд, каждое попадание наносит <Yellow>140</> ед. урона от атаки.",
 }

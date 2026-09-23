@@ -240,5 +240,5 @@ return {
     ["Medicine bottle"] = "Бутылочка с лекарством",
     ["Great wisdom, wonderful enlightenment!"] = "Великая мудрость, чудесное просветление!",
     ["精制壁垒"] = "Искусный оплот",
-    ["<Inequacy>00万</>/00亿"] = "<Inequacy>00万</>/00亿",
+    ["<Inequacy>00万</>/00亿"] = "<Inequacy>00 тыс.</>/00 млн",
 }

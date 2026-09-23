@@ -287,5 +287,5 @@ return {
     ["About this topic..."] = "Об этой теме...",
     ["Performance Buff"] = "Повышение производительности",
     ["Equip to gain the [Beyonder Creature] resonance."] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо].",
-    ["所有友军获得10%攻速。【迅猎】每次攻击叠加攻速，至多10层。高阶获得伤害减免。"] = "All allies gain 10% Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to 10 stacks. High tiers gain Damage Reduction.",
+    ["所有友军获得10%攻速。【迅猎】每次攻击叠加攻速，至多10层。高阶获得伤害减免。"] = "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
 }

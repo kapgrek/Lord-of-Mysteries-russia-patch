@@ -279,5 +279,5 @@ return {
     ["He kept talking about work, a bit dull, but he must be an ambitious person to still be trying to live after suffering so many setbacks."] = "Он продолжал говорить о работе, немного скучно, но, должно быть, он амбициозный человек, раз все еще пытается жить после стольких неудач.",
     ["Go closer to take a look"] = "Подойдите ближе, чтобы посмотреть",
     ["Chiayi City"] = "Цзяи город",
-    ["瞬息之猎"] = "Instant Hunt",
+    ["瞬息之猎"] = "Мгновенная охота",
 }

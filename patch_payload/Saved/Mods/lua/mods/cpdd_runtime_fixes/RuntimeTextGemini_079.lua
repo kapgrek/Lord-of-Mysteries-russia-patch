@@ -257,5 +257,5 @@ return {
     ["Consume Gold Coins to use <Orange>Throw</> to deal massive damage to normal monsters."] = "Потребляйте золотые монеты, чтобы использовать <Orange>Throw</>, чтобы нанести огромный урон обычным монстрам.",
     ["Equip to gain the [Secrets Suppliant] resonance"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
     ["连败"] = "серия поражений",
-    ["Stomp the front with the power of civilization, dealing <Yellow>140</> Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds."] = "Stomp the front with the power of civilization, dealing <Yellow>140</> Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds.",
+    ["Stomp the front with the power of civilization, dealing <Yellow>140</> Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds."] = "Обрушивает топот силы цивилизации вперед, нанося <Yellow>140</> ед. урона от атаки и отбрасывая врагов назад, при этом получает <HighLight>40%</> снижения урона на <HighLight>6</> сек.",
 }

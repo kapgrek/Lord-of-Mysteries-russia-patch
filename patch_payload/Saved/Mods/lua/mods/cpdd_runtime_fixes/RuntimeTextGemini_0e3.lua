@@ -296,4 +296,5 @@ return {
     ["Hmm... you look like you've finally found your state of mind."] = "Хм... ты выглядишь так, будто наконец-то нашел свое душевное состояние.",
     ["Accumulate %d/20 successful Requiems on Beyonders"] = "Соберите %d/20 успешных реквиемов по Потусторонние.",
     ["This Saturday 20:45"] = "В эту субботу, 20:45",
+    ["Battle-Mage"] = "Боевой маг",
 }

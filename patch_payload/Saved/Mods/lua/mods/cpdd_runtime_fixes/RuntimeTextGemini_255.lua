@@ -255,5 +255,6 @@ return {
     ["Enum (Gender)"] = "Перечисление (Пол)",
     ["That police car blocked the main road completely last night, yet you managed to overtake it at the five consecutive hairpins!"] = "Вчера вечером полицейская машина полностью перекрыла главную дорогу, но вам удалось обогнать ее на пяти крутых поворотах подряд!",
     ["Specialized Sealed Artifact"] = "Специальный",
-    ["Summon Holy Light to gain <Yellow>126</> Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing <Yellow>57</> Attack damage and restoring <Yellow>42</> Health for nearby allies."] = "Summon Holy Light to gain <Yellow>126</> Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing <Yellow>57</> Attack damage and restoring <Yellow>42</> Health for nearby allies.",
+    ["Summon Holy Light to gain <Yellow>126</> Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing <Yellow>57</> Attack damage and restoring <Yellow>42</> Health for nearby allies."] = "Призывает Святой Свет, получая щит прочностью <Yellow>126</> ед. на <HighLight>5</> сек. Спустя <HighLight>1.2</> сек. сотрясает окружающих врагов, нанося <Yellow>57</> ед. урона от атаки и восстанавливая <Yellow>42</> ед. здоровья ближайшим союзникам.",
+    ["[Revival of the Great Old One]"] = "【Возрождение Древнего】",
 }

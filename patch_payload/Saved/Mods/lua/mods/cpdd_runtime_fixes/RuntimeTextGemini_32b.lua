@@ -229,5 +229,5 @@ return {
     ["Even if the end of the countdown is endless darkness and madness, he still stepped onto the throne of a dictator."] = "Даже если в конце обратного отсчёта лежат лишь бесконечная тьма и безумие, он всё равно воссел на трон диктатора.",
     ["Level 64 Orange Beyonder Equipment Chest"] = "Сундук потустороннего оранжевого снаряжения (64 ур.)",
     ["Equip to gain the [Forsaken Land of the Gods] bond"] = "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]",
-    ["旧日复苏"] = "Revival of the Great Old One",
+    ["旧日复苏"] = "Возрождение Древнего",
 }

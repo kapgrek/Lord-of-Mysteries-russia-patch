@@ -262,4 +262,5 @@ return {
     ["Target is too low"] = "Цель слишком низкая",
     ["[Long-Shot]"] = "[Дальний выстрел]",
     ["[Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] = "[Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
+    ["Your pieces restore 4% of their maximum Health every 5 seconds."] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
 }

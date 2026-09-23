@@ -249,4 +249,5 @@ return {
     ["Adventure national professional ranking title."] = "Звание национального профессионального рейтинга приключений.",
     ["Unselectable + Invisibility"] = "Невыбираемый + невидимость",
     ["Shasha"] = "Шаша",
+    ["Ancestor's Glory"] = "Слава предков",
 }

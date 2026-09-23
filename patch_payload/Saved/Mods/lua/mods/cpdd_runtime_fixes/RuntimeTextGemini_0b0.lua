@@ -241,5 +241,5 @@ return {
     ["I was just a new recruit back then, and I encountered an enemy soldier on the battlefield. We stood in a standoff for a long time."] = "Тогда я был всего лишь новобранцем и встретил на поле боя вражеского солдата. Мы долго стояли в противостоянии.",
     ["[Collectible] Order Letter"] = "[Коллекционный] Письмо-приказ",
     ["Equip to gain the [Assassin] bond"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
-    ["你的弈子每5秒恢复4%最大生命值。"] = "Your pieces restore 4% of their maximum Health every 5 seconds.",
+    ["你的弈子每5秒恢复4%最大生命值。"] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
 }

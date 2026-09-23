@@ -229,5 +229,5 @@ return {
     ["After switching, the action points of the previous Order will be retained. There is a 7×24 hour cooldown period after switching Orders once any Order reaches level 4."] = "После переключения очки действия предыдущего Приказа сохранятся. Период восстановления составляет 7×24 часа после переключения Приказов, как только любой Приказ достигает уровня 4.",
     ["Equip to gain the [Savant] bond."] = "Экипируйте, чтобы получить резонанс [Знаток].",
     ["[长射]"] = "[Дальний выстрел]",
-    ["连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。"] = "连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。",
+    ["连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。"] = "Обрушивает на цель <HighLight>4</> мощных удара подряд, нанося в сумме <Yellow>177</> ед. урона от атаки; последний удар оглушает цель на <HighLight>1</> сек. При применении навыка получает <HighLight>60%</> снижения урона на <HighLight>5</> сек.",
 }

@@ -257,5 +257,5 @@ return {
     ["Monthly Recommendation"] = "Ежемесячная рекомендация",
     ["Assistant 1"] = "Ассистент b",
     ["Spiked Beer"] = "Пиво с шипами",
-    ["【夜巡封印】"] = "[Night Watch Seal]",
+    ["【夜巡封印】"] = "【Печать Ночного Стража】",
 }

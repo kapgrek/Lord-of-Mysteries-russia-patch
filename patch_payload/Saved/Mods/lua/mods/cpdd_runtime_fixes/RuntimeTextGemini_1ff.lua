@@ -255,5 +255,5 @@ return {
     ["Midsummer Grass"] = "Летняя трава",
     ["After dealing damage, there is a 40% chance to release 3 Dragon Breaths; this effect can trigger at most once every 10 seconds."] = "После нанесения урона есть 40% шанс выпустить 3 Дыхания Дракона; этот эффект может срабатывать не чаще одного раза в 10 сек..",
     ["Mastering more Beyonder knowledge is the only way to better utilize the power of a Sealed Artifact."] = "Овладение дополнительными знаниями Потустороннего — единственный способ лучше использовать силу Запечатанного Артефакта.",
-    ["贪婪工坊"] = "Greed Factory",
+    ["贪婪工坊"] = "Фабрика жадности",
 }

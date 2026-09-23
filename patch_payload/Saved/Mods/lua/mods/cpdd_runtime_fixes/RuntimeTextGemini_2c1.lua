@@ -219,4 +219,5 @@ return {
     ["Is there an emergency case?"] = "Есть ли экстренный случай?",
     ["During this test, one account can only be bound to 1 device. Clicking bind will bind this device. If you wish to change, please click decline."] = "Во время этого теста одна учетная запись может быть привязана только к 1 устройству. Нажатие кнопки «Привязать» привяжет это устройство. Если вы хотите изменить, нажмите «Отклонить».",
     ["Lounge"] = "Бездельничать",
+    ["Crimson Believer"] = "Багряный верующий",
 }

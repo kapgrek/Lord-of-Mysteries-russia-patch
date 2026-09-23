@@ -264,4 +264,5 @@ return {
     ["Air Wall - Section 3 Stairs"] = "Воздушная стена - Лестница секции b",
     ["Second Year"] = "Второй год",
     ["激活羁绊：5"] = "Активировано резонансов: 5",
+    ["8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed."] = "Через 8 сек. после начала боя [Сияние Багряной Луны] наносит чистый урон всем врагам и повышает скорость атаки всех союзников.",
 }

@@ -261,5 +261,5 @@ return {
     ["City Hall Exam Training Class Promotion"] = "Акция на подготовку к экзамену в мэрию",
     ["I believe you wouldn't want to miss this great opportunity to make money. Champion Abi versus the next unlucky guy, the odds are one to thirty!"] = "Я верю, что вы не захотите упустить эту прекрасную возможность заработать деньги. Чемпион Аби против следующего неудачника, шансы один к тридцати!",
     ["Mark_Mushroom"] = "Марк_Гриб",
-    ["对自身周围<HighLight>2</>格内的敌人造成<Yellow>139</>点攻击伤害。自身获得<HighLight>20%</>伤害减免，持续<HighLight>4</>秒。"] = "对自身周围<HighLight>2</>格内的敌人造成<Yellow>139</>点攻击伤害。自身获得<HighLight>20%</>伤害减免，持续<HighLight>4</>秒。",
+    ["对自身周围<HighLight>2</>格内的敌人造成<Yellow>139</>点攻击伤害。自身获得<HighLight>20%</>伤害减免，持续<HighLight>4</>秒。"] = "Наносит врагам в пределах <HighLight>2</> клеток вокруг себя <Yellow>139</> ед. урона от атаки. Заклинатель получает <HighLight>20%</> снижения урона на <HighLight>4</> сек.",
 }

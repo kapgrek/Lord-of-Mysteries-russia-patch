@@ -250,5 +250,5 @@ return {
     ["Is there a limit to the number of emojis, is it shady?"] = "Есть ли ограничение на количество смайлов, это сомнительно?",
     ["So\nGreedy"] = "Правда\n жадный\nсердце",
     ["Spices, dried goods, various spices from the Southern Continent."] = "Специи, сушеные продукты, различные специи с Южного континента.",
-    ["Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds."] = "Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds.",
+    ["Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds."] = "Выносит приговор самому дальнему врагу, нанося <Yellow>293</> ед. урона от атаки и оглушая его на <HighLight>1</> сек., а также снижая регенерацию его маны на <HighLight>8</> ед. на <HighLight>3</> сек.",
 }

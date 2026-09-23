@@ -253,4 +253,5 @@ return {
     ["<P_Heart> (spirituality fluctuated... over there?) </>"] = "<P_Heart> (духовность колебалась... там?) </>",
     ["Time remaining until event start:"] = "Оставшееся время до начала мероприятия:",
     ["看看酒单"] = "Взглянуть на барную карту",
+    ["[The Dead's Entertainment]"] = "【Развлечение мертвецов】",
 }

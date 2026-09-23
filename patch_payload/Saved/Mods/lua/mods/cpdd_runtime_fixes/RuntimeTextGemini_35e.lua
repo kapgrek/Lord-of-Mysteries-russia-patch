@@ -276,4 +276,5 @@ return {
     ["Oh, why, even though you are just one in a crowd, I am deeply attracted to you."] = "О, почему, хотя ты всего лишь один в толпе, ты меня глубоко привлекаешь.",
     ["Main Story 1-3: Supplementary Dialogue with Rozanne"] = "Основная история 1-3: Дополнительный диалог с Розанной",
     ["Equip to gain the [Evernight Goddess] resonance"] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи]",
+    ["[Absolute Shield]"] = "【Абсолютный щит】",
 }

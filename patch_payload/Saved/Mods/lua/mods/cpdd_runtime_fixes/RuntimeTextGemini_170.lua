@@ -264,5 +264,5 @@ return {
     ["What is the most special watch you have ever repaired?"] = "Какие часы вы когда-либо ремонтировали самые особенные?",
     ["If only Leonard could come by more often. I heard from little Rozanne that his card skills are quite good."] = "Если бы только Леонард мог приходить почаще. Я слышал от маленькой Розанны, что его карточные навыки весьма хороши.",
     ["Air Wall at Cafe Corner"] = "Воздушная стена в кафе Corner",
-    ["Brands the target with a Necrotic Mark, dealing <Yellow>214</> attack damage."] = "Brands the target with a Necrotic Mark, dealing <Yellow>214</> attack damage.",
+    ["Brands the target with a Necrotic Mark, dealing <Yellow>214</> attack damage."] = "Клеймит цель Меткой некроза, нанося <Yellow>214</> ед. урона от атаки.",
 }

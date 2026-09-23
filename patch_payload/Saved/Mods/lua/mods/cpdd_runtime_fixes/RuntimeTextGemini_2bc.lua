@@ -247,4 +247,5 @@ return {
     ["This is also what Aiden most hopes to see."] = "Это также то, что Эйден больше всего надеется увидеть.",
     ["Use to obtain <Highlight>Red and Black Outfit</>.\nCan also be exchanged for <Highlight>2</> God-Favored Cards."] = "Используйте, чтобы получить <Highlight>костюм «Красное и чёрное»</>\nТакже можно обменять на <Highlight>2</> карты божественной благодати",
     ["[Lucky One]"] = "[Счастливчик]",
+    ["[Instant Hunt]"] = "【Мгновенная охота】",
 }

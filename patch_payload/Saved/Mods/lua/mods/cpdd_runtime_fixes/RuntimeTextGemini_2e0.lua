@@ -280,5 +280,5 @@ return {
     ["Find the suspect with the opportunity to commit the crime."] = "Найдите подозреваемого, имеющего возможность совершить преступление.",
     ["Pressure plate - Activated state"] = "Нажимная пластина – активированное состояние",
     ["The club is currently in its initial stage and the flight function has not been unlocked. Everyone, please work hard to develop the club to level 2!"] = "В настоящее время клуб находится на начальной стадии и функция полета еще не разблокирована. Всем, пожалуйста, усердно работайте над развитием клуба до 2 уровня!",
-    ["立即获得10金币，之后每回合开始时额外获得9金币。"] = "Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round.",
+    ["立即获得10金币，之后每回合开始时额外获得9金币。"] = "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
 }

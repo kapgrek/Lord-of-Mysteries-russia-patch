@@ -259,5 +259,5 @@ return {
     ["Split the Wooden Chest Again"] = "Снова расколоть деревянный сундук",
     ["Good evening, sir. Would you like to start with a glass of wine, or would you like to get familiar with the place first?"] = "Добрый вечер, сэр. Хотите начать с бокала вина или сначала хотите познакомиться с местом?",
     ["Just now in the club, a retired officer named Philip seemed to have a mental breakdown after hearing the gunshot and dropped this pocket watch."] = "Только что в клубе у отставного офицера по имени Филип, похоже, случился психический срыв после того, как он услышал выстрел, и уронил эти карманные часы.",
-    ["Fire five phantom energy projectiles in succession to pursue the target, dealing a total of <Yellow>422</> Attack damage."] = "Fire five phantom energy projectiles in succession to pursue the target, dealing a total of <Yellow>422</> Attack damage.",
+    ["Fire five phantom energy projectiles in succession to pursue the target, dealing a total of <Yellow>422</> Attack damage."] = "Выпускает пять призрачных энергетических снарядов подряд, преследующих цель и наносящих в сумме <Yellow>422</> ед. урона от атаки.",
 }

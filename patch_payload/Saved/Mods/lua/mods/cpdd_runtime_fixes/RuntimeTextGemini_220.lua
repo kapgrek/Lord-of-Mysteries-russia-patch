@@ -244,4 +244,5 @@ return {
     ["The number of custom markers on the current map has reached the limit."] = "Количество пользовательских маркеров на текущей карте достигло предела.",
     ["Introduction: Leonard Mitchell"] = "Введение: Леонард Митчелл",
     ["This {{Sir|Madam}}!"] = "Это {{Sir|Madam}}!",
+    ["Greed Factory"] = "Фабрика жадности",
 }

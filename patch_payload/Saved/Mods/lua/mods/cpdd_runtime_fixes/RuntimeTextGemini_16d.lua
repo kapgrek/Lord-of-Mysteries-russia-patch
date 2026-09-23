@@ -250,5 +250,5 @@ return {
     ["Exchanged at the Ethereal Altar"] = "Обменивается у Эфирного Алтаря",
     ["Transition 1"] = "Переход b",
     ["Video"] = "Видео",
-    ["【贪婪工坊】"] = "[Greed Factory]",
+    ["【贪婪工坊】"] = "【Фабрика жадности】",
 }

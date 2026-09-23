@@ -238,4 +238,5 @@ return {
     ["Klein walks forward"] = "Клейн идет вперед",
     ["Use skill: <Highlight>Smiling Clown</> %s/%s times"] = "Используйте навык: <Highlight>Улыбающийся клоун</> %s/%s раз.",
     ["Mobilize spirit vision to observe the etheric body and heart body manifestations beneath the target's behavior and demeanor. Combine this with analysis to read the target's shallow-level thoughts and apply suggestions through reasonable means.\nGrants the target +3 Intuition and +1 Knowledge."] = "Активируя Духовное Зрение, наблюдайте за проявлениями эфирного тела и тела разума под внешним поведением цели; анализируя их, считывайте поверхностные мысли и ненавязчиво внушайте нужные идеи.\nПовышает Интуицию цели на 3 и Знание на 1.",
+    ["[Witch's Curse]"] = "【Проклятие Демоницы】",
 }

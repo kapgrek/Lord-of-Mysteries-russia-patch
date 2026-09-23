@@ -298,4 +298,5 @@ return {
     ["Breath of Wind Spirit"] = "Дыхание духа ветра",
     ["Upper Garment Bottom"] = "Верхний низ одежды",
     ["Jasmine"] = "Жасмин",
+    ["[Companionship]"] = "【Плечом к плечу】",
 }

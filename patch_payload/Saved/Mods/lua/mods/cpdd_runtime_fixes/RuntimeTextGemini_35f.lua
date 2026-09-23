@@ -245,5 +245,5 @@ return {
     ["This week"] = "На этой неделе",
     ["Acting Level reached 20"] = "Уровень актерского мастерства достиг 20.",
     ["Combine mystical powers to read the target's inner thoughts and impose suggestions without being detected."] = "Соединяя мистические силы, считывайте сокровенные мысли цели и незаметно внушайте ей нужные идеи.",
-    ["夜巡封印"] = "Night Watch Seal",
+    ["夜巡封印"] = "Печать Ночного Стража",
 }

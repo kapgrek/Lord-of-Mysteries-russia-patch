@@ -262,4 +262,5 @@ return {
     ["Root out the black shadow"] = "Искорените черную тень",
     ["Lante"] = "Ланте",
     ["Planter"] = "Плантатор",
+    ["Night Watch Seal"] = "Печать Ночного Стража",
 }

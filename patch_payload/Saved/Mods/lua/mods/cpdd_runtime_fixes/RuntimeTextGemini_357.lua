@@ -248,5 +248,5 @@ return {
     ["Shoot Stars"] = "Стреляй по звездам",
     ["Narration ID"] = "Идентификатор повествования",
     ["Roselle Boss - Phase 3 - Final Loss of Control - Interaction Count Mark Buff"] = "Босс Розеллы — Фаза 3 — Окончательная потеря контроля — Усиление метки счетчика взаимодействия",
-    ["召唤【月之污染】协助战斗；星级随阶位提升。"] = "Summons [Moon Corruption] to assist in combat; star level increases with tier.",
+    ["召唤【月之污染】协助战斗；星级随阶位提升。"] = "Призывает [Лунное осквернение] на помощь в бою; звездный уровень растет с рангом.",
 }

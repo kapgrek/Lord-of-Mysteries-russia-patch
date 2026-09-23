@@ -264,4 +264,5 @@ return {
     ["After opening, you can choose to receive a piece of <Highlight>Level 68</> <Highlight>Competition-oriented</> orange Brand Equipment."] = "После открытия вы можете выбрать предмет оранжевого Запечатленного снаряжения <Highlight>68-го уровня</> с <Highlight>боевой направленностью</>.",
     ["装配后获得【魔女教派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы].",
     ["[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["Swift-Hunt"] = "Быстрая охота",
 }

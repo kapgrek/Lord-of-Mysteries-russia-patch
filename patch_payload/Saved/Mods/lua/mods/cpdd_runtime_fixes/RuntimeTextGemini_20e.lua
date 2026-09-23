@@ -215,4 +215,5 @@ return {
     ["Obtain 1 Grade 1 Sealed Artifact"] = "Получите 1 запечатанный артефакт 1-го ранга.",
     ["Selina, your complexion seems a bit pale, are you okay?"] = "Селина, твой цвет лица кажется немного бледным, с тобой все в порядке?",
     ["On cooldown; cannot use for now."] = "По перезарядке; пока не могу использовать.",
+    ["[Double-Sided Healing]"] = "【Двустороннее исцеление】",
 }

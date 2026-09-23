@@ -242,5 +242,5 @@ return {
     ["Are you still researching Magic Mirror divination?! Storm above, you should know how dangerous that is."] = "Вы все еще изучаете гадание по волшебному зеркалу?! Шторм наверху, ты должен знать, насколько это опасно.",
     ["Cufflinks made of high-quality sapphires, the deep blue light resembling the stars in the night sky."] = "Запонки из высококачественных сапфиров, светящиеся глубоким синим цветом, напоминающие звезды на ночном небе.",
     ["Helena... you're here..."] = "Хелена, ты здесь...",
-    ["噬血"] = "Blood-Thirst",
+    ["噬血"] = "Кровожадность",
 }
