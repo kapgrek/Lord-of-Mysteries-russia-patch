@@ -752,15 +752,101 @@ local visibleTextExactOverrides = {
     ["Total Money: "] = "Всего монет: ",
     ["对战总数据"] = "Общая статистика боя",
     ["阵容思路"] = "Тактика состава",
+    ["Gain 10 Experience Points ."] = "Получите 10 очков опыта.",
+    ["Gain 10 Experience Points."] = "Получите 10 очков опыта.",
+    ["Blood Fire Heavy Cannon"] = "Тяжелое орудие кровавого пламени",
+    ["[Blood Fire Heavy Cannon]"] = "[Тяжелое орудие кровавого пламени]",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification ."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
+    ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification."] =
+        "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
+    ["Night Watch Seal"] = "Печать Ночного Стража",
+    ["[Night Watch Seal]"] = "[Печать Ночного Стража]",
+    ["At the start of combat, chess pieces adjacent to allies gain 200 Shield , lasting for 8 seconds ."] =
+        "В начале боя фигуры, находящиеся рядом с союзниками, получают щит прочностью 200 на 8 сек.",
+    ["At the start of combat, chess pieces adjacent to allies gain 200 Shield, lasting for 8 seconds."] =
+        "В начале боя фигуры, находящиеся рядом с союзниками, получают щит прочностью 200 на 8 сек.",
+    ["Double-Sided Healing"] = "Двустороннее исцеление",
+    ["[Double-Sided Healing]"] = "[Двустороннее исцеление]",
+    ["Your pieces restore 4% of their maximum Health every 5 seconds."] =
+        "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
+    ["Your pieces restore 4% of their maximum Health every 5 seconds ."] =
+        "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
+    ["Greed Factory"] = "Фабрика жадности",
+    ["[Greed Factory]"] = "[Фабрика жадности]",
+    ["Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round."] =
+        "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
+    ["Immediately gain 10 Gold Coins , and thereafter gain 9 more Gold Coins at the start of each round ."] =
+        "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
+    ["Absolute Shield"] = "Абсолютный щит",
+    ["[Absolute Shield]"] = "[Абсолютный щит]",
+    ["[Absolute Shield] Gains a Max Health shield when Health is below 40%, and gains Damage Reduction for 10 seconds."] =
+        "[Абсолютный щит] Получает щит от макс. здоровья при снижении здоровья ниже 40% и снижает получаемый урон на 10 сек.",
+    ["Absolute Shield Gains a Max Health shield when Health is below 40%, and gains Damage Reduction for 10 seconds."] =
+        "Абсолютный щит Получает щит от макс. здоровья при снижении здоровья ниже 40% и снижает получаемый урон на 10 сек.",
+    ["Blood-Thirst"] = "Кровожадность",
+    ["[Blood-Thirst]"] = "[Кровожадность]",
+    ["Blood Thirst"] = "Кровожадность",
+    ["[Blood Thirst]"] = "[Кровожадность]",
+    ["噬血"] = "Кровожадность",
+    ["【噬血】"] = "【Кровожадность】",
+    ["【 噬血 】"] = "【 Кровожадность 】",
+    ["【 噬血 】获得30%吸血。造成伤害时追加伤害，目标生命值低于50%时翻倍。"] =
+        "【 Кровожадность 】 Дает 30% вампиризма. Наносит дополнительный урон при атаках; если здоровье цели ниже 50%, дополнительный урон удваивается.",
+    ["【噬血】获得30%吸血。造成伤害时追加伤害，目标生命值低于50%时翻倍。"] =
+        "【 Кровожадность 】 Дает 30% вампиризма. Наносит дополнительный урон при атаках; если здоровье цели ниже 50%, дополнительный урон удваивается.",
+    ["Crimson Belie..."] = "Багряная вера",
+    ["Crimson Belief"] = "Багряная вера",
+    ["[Crimson Belief]"] = "[Багряная вера]",
+    ["绯红信仰"] = "Багряная вера",
+    ["【绯红信仰】"] = "【Багряная вера】",
+    ["【 绯红信仰 】"] = "【 Багряная вера 】",
+    ["8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed."] =
+        "Через 8 сек. после начала боя [Сияние Багряной Луны] наносит чистый урон всем врагам и повышает скорость атаки всех союзников.",
+    ["Swift-Hunt"] = "Быстрая охота",
+    ["[Swift-Hunt]"] = "[Быстрая охота]",
+    ["Swift Hunt"] = "Быстрая охота",
+    ["[Swift Hunt]"] = "[Быстрая охота]",
+    ["迅猎"] = "Быстрая охота",
+    ["【迅猎】"] = "【Быстрая охота】",
+    ["【 迅猎 】"] = "【 Быстрая охота 】",
+    ["All allies gain 10% Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to 10 stacks. High tiers gain Damage Reduction."] =
+        "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
+    ["Summons [Moon Corruption] to assist in combat; star level increases with tier."] =
+        "Призывает [Лунное осквернение] на помощь в бою; звездный уровень растет с рангом.",
+    ["Each unique 3-star piece strengthens all allies. At high tiers, gain 1 random wild monster piece after each player combat."] =
+        "Каждая уникальная 3-звездочная фигура усиливает всех союзников. На высоких рангах дает 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Each unique 3-star piece: All allies +3% Attack and 5 Defense."] =
+        "Каждая уникальная 3-звездочная фигура: все союзники +3% к атаке и 5 к защите.",
+    ["Gain 1 random wild monster piece after each player combat."] =
+        "Получите 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Wilderness Monster"] = "Дикий монстр",
+    ["[Wilderness Monster]"] = "[Дикий монстр]",
+    ["The Great Master"] = "Великий Мастер",
+    ["[The Great Master]"] = "[Великий Мастер]",
+    ["Moon Corruption"] = "Лунное осквернение",
+    ["[Moon Corruption]"] = "[Лунное осквернение]",
+    ["Radiance of the Crimson Moon"] = "Сияние Багряной Луны",
+    ["[Radiance of the Crimson Moon]"] = "[Сияние Багряной Луны]",
     ["Highest Win Streak: "] = "Макс. серия побед: ",
     ["Highest Win Streak:"] = "Макс. серия побед:",
     ["Highest Win Streak"] = "Макс. серия побед",
     ["Highest Losing Streak: "] = "Макс. серия поражений: ",
     ["Highest Losing Streak:"] = "Макс. серия поражений:",
     ["Highest Losing Streak"] = "Макс. серия поражений",
+    ["Highest Lose Streak: "] = "Макс. серия поражений: ",
+    ["Highest Lose Streak:"] = "Макс. серия поражений:",
+    ["Highest Lose Streak"] = "Макс. серия поражений",
     ["Самая высокая серия побед: "] = "Макс. серия побед: ",
     ["Самая высокая серия побед:"] = "Макс. серия побед:",
     ["Самая высокая серия побед"] = "Макс. серия побед",
+    ["Самая высокая серия поражений: "] = "Макс. серия поражений: ",
+    ["Самая высокая серия поражений:"] = "Макс. серия поражений:",
+    ["Самая высокая серия поражений"] = "Макс. серия поражений",
+    ["最高连胜："] = "Макс. серия побед:",
+    ["最高连胜"] = "Макс. серия побед",
+    ["最高连败："] = "Макс. серия поражений:",
+    ["最高连败"] = "Макс. серия поражений",
     ["Current Win Streak"] = "Текущая серия побед",
     ["Current Losing Streak"] = "Текущая серия поражений",
     ["Обзор боевых записей"] = "Записи боев",
@@ -2114,11 +2200,49 @@ local function translateVisibleText(value)
         return result
     end
 
-    -- AutoChess rank formatting repair: "РыцарьУровень b" -> "Рыцарь | Уровень 2"
-    local rankTitle, rankNum = value:match("^([%a-zA-Z\128-\255]+)Уровень%s*(%w+)%s*$")
+    -- AutoChess rank formatting repair: "РыцарьУровень b" -> "Рыцарь | Уровень 2", "ВиконтУровень b 1180..." -> "Виконт | Уровень 2 | 1180..."
+    local rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*Уровень%s*(%w+)%s*(.*)$")
+    if not rankTitle then
+        rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*Level%s*(%w+)%s*(.*)$")
+    end
     if rankTitle ~= nil and rankNum ~= nil then
+        if rankTitle == "Viscount" then rankTitle = "Виконт"
+        elseif rankTitle == "Knight" then rankTitle = "Рыцарь"
+        elseif rankTitle == "Baron" then rankTitle = "Барон"
+        elseif rankTitle == "Earl" then rankTitle = "Граф"
+        elseif rankTitle == "Marquis" then rankTitle = "Маркиз"
+        elseif rankTitle == "Duke" then rankTitle = "Герцог"
+        end
         if rankNum == "b" then rankNum = "2" end
         local result = rankTitle .. " | Уровень " .. rankNum
+        if rankRest ~= nil and rankRest ~= "" then
+            rankRest = rankRest:match("^%s*|?%s*(.-)%s*$")
+            if rankRest ~= "" then
+                result = result .. " | " .. rankRest
+            end
+        end
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- Win / Loss streak formatting repair to prevent widget text overlap
+    local hiWin = value:match("^Самая высокая серия побед:%s*(.*)$")
+        or value:match("^Highest Win Streak:%s*(.*)$")
+        or value:match("^最高连胜[：:]%s*(.*)$")
+    if hiWin ~= nil then
+        hiWin = hiWin:match("^%s*(.-)%s*$")
+        local result = hiWin ~= "" and ("Макс. серия побед: " .. hiWin) or "Макс. серия побед:"
+        visibleTextCache[value] = result
+        return result
+    end
+
+    local hiLose = value:match("^Самая высокая серия поражений:%s*(.*)$")
+        or value:match("^Highest Losing Streak:%s*(.*)$")
+        or value:match("^Highest Lose Streak:%s*(.*)$")
+        or value:match("^最高连败[：:]%s*(.*)$")
+    if hiLose ~= nil then
+        hiLose = hiLose:match("^%s*(.-)%s*$")
+        local result = hiLose ~= "" and ("Макс. серия поражений: " .. hiLose) or "Макс. серия поражений:"
         visibleTextCache[value] = result
         return result
     end
@@ -2463,6 +2587,91 @@ runtimeFixes.getAdjustedFontSize = function(widget, currentSize, wName, isEscLoc
     return orig + 2
 end
 
+runtimeFixes.AutoChessDump = {}
+runtimeFixes.AutoChessDumpSet = {}
+runtimeFixes.AutoChessDumpLoaded = false
+runtimeFixes.AutoChessDumpDirty = false
+runtimeFixes.LastAutoChessDumpTime = 0
+
+function runtimeFixes.dumpAutoChessString(str, context)
+    if type(str) ~= "string" or str == "" then return end
+    local trimmed = str:match("^%s*(.-)%s*$")
+    if not trimmed or #trimmed < 2 then return end
+    if trimmed:match("^[%d%.:%%+%-/%$#@!,%s]+$") then return end
+    -- Skip if already translated to Russian (contains Cyrillic)
+    if trimmed:find("[\208\209][\128-\191]") then return end
+
+    if runtimeFixes.AutoChessDumpSet[trimmed] then return end
+    runtimeFixes.AutoChessDumpSet[trimmed] = true
+
+    if not runtimeFixes.AutoChessDumpLoaded then
+        runtimeFixes.AutoChessDumpLoaded = true
+        pcall(function()
+            local paths = {
+                "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
+                "temp/autochess_dump.json",
+            }
+            local q = string.char(34)
+            local bs = string.char(92)
+            for _, p in ipairs(paths) do
+                local f = io.open(p, "r")
+                if f then
+                    local content = f:read("*a")
+                    f:close()
+                    for item in content:gmatch("%b" .. q .. q) do
+                        local inner = item:sub(2, -2)
+                        if inner ~= "" then
+                            local unesc = inner:gsub(bs .. q, q):gsub(bs .. "n", "\n"):gsub(bs .. "r", "\r"):gsub(bs .. bs, bs)
+                            runtimeFixes.AutoChessDumpSet[unesc] = true
+                        end
+                    end
+                    break
+                end
+            end
+        end)
+    end
+
+    table.insert(runtimeFixes.AutoChessDump, {
+        text = trimmed,
+        context = context or "AutoChess",
+    })
+    runtimeFixes.AutoChessDumpDirty = true
+
+    local now = os and os.clock and os.clock() or 0
+    if now - runtimeFixes.LastAutoChessDumpTime >= 2.0 then
+        runtimeFixes.flushAutoChessDump()
+    end
+end
+
+function runtimeFixes.flushAutoChessDump()
+    if not runtimeFixes.AutoChessDumpDirty then return end
+    runtimeFixes.AutoChessDumpDirty = false
+    runtimeFixes.LastAutoChessDumpTime = os and os.clock and os.clock() or 0
+    pcall(function()
+        local q = string.char(34)
+        local bs = string.char(92)
+        local list = {}
+        for s in pairs(runtimeFixes.AutoChessDumpSet) do
+            local clean = s:gsub(bs, bs .. bs):gsub(q, bs .. q):gsub("\r", bs .. "r"):gsub("\n", bs .. "n")
+            table.insert(list, "  " .. q .. clean .. q)
+        end
+        table.sort(list)
+        local json = "[\n" .. table.concat(list, ",\n") .. "\n]\n"
+        local paths = {
+            "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
+            "temp/autochess_dump.json",
+        }
+        for _, p in ipairs(paths) do
+            local f = io.open(p, "w")
+            if f then
+                f:write(json)
+                f:close()
+                break
+            end
+        end
+    end)
+end
+
 local function translateTextWidget(widget, discoveryContext)
     if widget == nil or (type(widget) ~= "userdata" and type(widget) ~= "table") then
         return 0
@@ -2515,6 +2724,21 @@ local function translateTextWidget(widget, discoveryContext)
             translated = collapsedCurrent
         else
             translated = runtimeFixes.collapseSpacedCharacters(translated)
+        end
+
+        -- AutoChess silent dump trap for untranslated strings
+        local isAutoChessContext = (discoveryContext ~= nil and tostring(discoveryContext):find("AutoChess") ~= nil)
+            or wName:find("autochess") ~= nil
+            or wName:find("chess") ~= nil
+        if isAutoChessContext then
+            local isUntranslated = (translated == nil or translated == collapsedCurrent or translated == currentText)
+                or (type(translated) == "string" and not translated:find("[\208\209][\128-\191]"))
+            if isUntranslated then
+                runtimeFixes.dumpAutoChessString(currentText, discoveryContext or wName)
+                if collapsedCurrent ~= currentText then
+                    runtimeFixes.dumpAutoChessString(collapsedCurrent, discoveryContext or wName)
+                end
+            end
         end
 
         if translated ~= currentText then
@@ -8606,6 +8830,7 @@ Loader.AfterLoad(
 -- delayed pass coalesces bursts so this does not restore the global sweep.
 local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
+    AutoChess_GameDetail_Panel = true,
     Border_Panel = true,
     FashionStation_Details_Panel = true,
     GuildInside_Panel = true,
@@ -8622,6 +8847,7 @@ local dynamicPanelRescanUids = {
 }
 
 local extendedPanelRepairDelays = {
+    AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50, 3.00 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
@@ -8701,7 +8927,7 @@ function panelTextRepair:Repair(component, reason)
             return
         end
         local rootWidget = current.userWidget or current.widget
-        local discoveryContext = nil
+        local discoveryContext = (tostring(componentUid):find("AutoChess") ~= nil) and "AutoChess" or nil
                 repaired = repaired + (translateViewTextWidgets(
             current.view,
             rootWidget,
@@ -8871,6 +9097,28 @@ local function installEventDrivenPanelRepair(value, environment)
                     repairErrorReported = true
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
+                local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
+                if uid == "AutoChess_GameDetail_Panel" and not self.__cpddAutoChessHooked then
+                    self.__cpddAutoChessHooked = true
+                    for _, method in ipairs({
+                        "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
+                        "SetData", "InitData", "UpdateCards", "RefreshCards", "UpdateMatchInfo",
+                        "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail", "SetGameDetail",
+                        "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails"
+                    }) do
+                        local origMethod = self[method]
+                        if type(origMethod) == "function" then
+                            self[method] = function(comp, ...)
+                                local ret = { origMethod(comp, ...) }
+                                pcall(function()
+                                    panelTextRepair:Repair(comp, "autochess-" .. method)
+                                    panelTextRepair:Queue(comp, true)
+                                end)
+                                return unpack(ret)
+                            end
+                        end
+                    end
+                end
                 return unpack(results)
             end
         end
@@ -8909,6 +9157,45 @@ Loader.AfterLoad(
     1000000,
     "cpdd.runtime-fix.event-driven-panels"
 )
+
+do
+    local autoChessModuleCandidates = {
+        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailPanel",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail",
+        "Gameplay.LogicSystem.AutoChess.GameDetail_Panel",
+    }
+    for _, modName in ipairs(autoChessModuleCandidates) do
+        Loader.AfterLoad(modName, function(value, environment)
+            local panelClass = getSymbol(value, environment, "AutoChess_GameDetail_Panel")
+                or getSymbol(value, environment, "GameDetail_Panel")
+                or value
+            if type(panelClass) == "table" and panelClass.__cpddAutoChessPanelHooked ~= VERSION then
+                panelClass.__cpddAutoChessPanelHooked = VERSION
+                for _, m in ipairs({
+                    "Open", "Refresh", "Update", "UpdateData", "UpdateView", "UpdateList",
+                    "RefreshList", "SetData", "InitData", "UpdateCards", "RefreshCards",
+                    "UpdateMatchInfo", "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail",
+                    "SetGameDetail", "ShowDetail", "RefreshUI"
+                }) do
+                    local origM = panelClass[m]
+                    if type(origM) == "function" then
+                        panelClass[m] = function(s, ...)
+                            local res = { origM(s, ...) }
+                            pcall(function()
+                                panelTextRepair:Repair(s, "autochess-module-" .. m)
+                                panelTextRepair:Queue(s, true)
+                            end)
+                            return unpack(res)
+                        end
+                    end
+                end
+                report("installed AutoChess_GameDetail_Panel lifecycle hooks on " .. modName)
+            end
+            return value
+        end, 1000000, "cpdd.runtime-fix.autochess-gamedetail-panel")
+    end
+end
 
 runtimeFixes.statisticsEverywhereEnabled = function()
     local loader = rawget(_G, "LOMModLoader")

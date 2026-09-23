@@ -187,7 +187,7 @@ return {
     ["A magnificent trick can not only deceive the audience but also save your own life in a crisis."] = "Великолепный трюк способен не только обмануть зрителей, но и спасти собственную жизнь в кризисной ситуации.",
     ["Dark Fragrance Dancer"] = "Танцовщица темного аромата",
     ["Level 2 Sealed Artifacts can have a maximum of 5 active entries."] = "Запечатанные артефакты уровня 2 могут иметь максимум 5 активных записей.",
-    ["Highest Lose Streak: 4"] = "Самая высокая серия поражений: 4",
+    ["Highest Lose Streak: 4"] = "Макс. серия поражений: 4",
     ["Waist circumference"] = "Обхват талии",
     ["<P_Heart> (Looking at the glittering trash) </> Hmm... forget this damn curiosity."] = "<P_Heart> (глядя на сверкающий мусор) </> Хм... забудь об этом чертовом любопытстве.",
     ["These are all my titles, okay? Okay."] = "Это все мои титулы, ясно? Хорошо.",

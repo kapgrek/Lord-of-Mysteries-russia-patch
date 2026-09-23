@@ -252,7 +252,7 @@ return {
     ["Apprentice Strengthened Basic Attack - Afterimage Attack 2"] = "Усиленная базовая атака ученика — Атака остаточного изображения b",
     ["Sell Local Specialties"] = "Продавать местные деликатесы",
     ["The fool has fallen for it! Now you are also a member of this zombie ball!"] = "Шут попался на это! Теперь и ты тоже участник этого зомби-клуба!",
-    ["Highest Win Streak: 18"] = "Самая высокая серия побед: bb",
+    ["Highest Win Streak: 18"] = "Макс. серия побед: 18",
     ["Arm Stretch"] = "Растяжка рук",
     ["【First Road North Side Road Block】 Float 2"] = "【Квартал Северной стороны Первой дороги】 Плавающий элемент b",
     ["Only summoned by the special Ancestor Armor kinship; does not participate in kinship statistics."] = "Призывается только особым родством с Броней Предков; не участвует в статистике родства.",

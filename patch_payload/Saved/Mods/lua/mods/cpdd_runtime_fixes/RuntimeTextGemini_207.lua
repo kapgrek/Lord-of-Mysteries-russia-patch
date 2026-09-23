@@ -198,7 +198,7 @@ return {
     ["Turn angle"] = "Угол поворота",
     ["Carefully check the harmonica"] = "Внимательно проверьте гармошку",
     ["This ranking is based on the highest Equipment Rating of each Beyonder"] = "Этот рейтинг основан на самом высоком рейтинге снаряжения каждого Потустороннего.",
-    ["Highest Win Streak: %s"] = "Самая высокая серия побед: %s",
+    ["Highest Win Streak: %s"] = "Макс. серия побед: %s",
     ["Target scene not unlocked."] = "Целевая сцена не разблокирована.",
     ["Want to buy some meat? Fresh pork, local short-haired pig with curled ears."] = "Хотите купить мяса? Свежая свинина, местная короткошерстная свинья с завитыми ушами.",
     ["Emperor's Diary"] = "Дневник Императора",
