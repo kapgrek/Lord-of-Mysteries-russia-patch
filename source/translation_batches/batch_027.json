@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "id": "130000",
     "source_cn": "翻阅书籍",
@@ -5758,5 +5758,305 @@
     "source_cn": "6 [Spellcraft]额外获得<HighLight>55%</>攻击力，且每次施法：自身获得<HighLight>2%</>攻击力。",
     "ref_en": "6 [Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack.",
     "target_ru": "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки."
+  }  ,
+  {
+    "id": "130960",
+    "source_cn": "大宗师",
+    "ref_en": "The Great Master",
+    "target_ru": "Великий Мастер"
+  }  ,
+  {
+    "id": "130961",
+    "source_cn": "[大宗师]",
+    "ref_en": "[The Great Master]",
+    "target_ru": "[Великий Мастер]"
+  }  ,
+  {
+    "id": "130962",
+    "source_cn": "每激活1个羁绊，全体获得额外攻击力加成，最多计算10个羁绊。",
+    "ref_en": "For every 1 Resonance activated, all allies gain additional Attack, up to 10 Resonances.",
+    "target_ru": "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов."
+  }  ,
+  {
+    "id": "130963",
+    "source_cn": "荒野怪物",
+    "ref_en": "Wilderness Monster",
+    "target_ru": "Монстр пустошей"
+  }  ,
+  {
+    "id": "130964",
+    "source_cn": "[荒野怪物]",
+    "ref_en": "[Wilderness Monster]",
+    "target_ru": "[Монстр пустошей]"
+  }  ,
+  {
+    "id": "130965",
+    "source_cn": "每个独特的3星棋子强化全体友军。高阶时，每次玩家战斗后获得1个随机荒野怪物棋子。",
+    "ref_en": "Each unique 3-star piece strengthens all allies. At high tiers, gain 1 random wild monster piece after each player combat.",
+    "target_ru": "Каждая уникальная 3-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт 1 случайную фигуру дикого монстра после каждого боя с игроком."
+  }  ,
+  {
+    "id": "130966",
+    "source_cn": "每个独特的3星棋子：全体友军+3%攻击力和5点防御。",
+    "ref_en": "Each unique 3-star piece: All allies +3% Attack and 5 Defense.",
+    "target_ru": "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты."
+  }  ,
+  {
+    "id": "130967",
+    "source_cn": "2 每个独特的3星棋子：全体友军+3%攻击力和5点防御。",
+    "ref_en": "2 Each unique 3-star piece: All allies +3% Attack and 5 Defense.",
+    "target_ru": "2 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты."
+  }  ,
+  {
+    "id": "130968",
+    "source_cn": "每个独特的3星棋子：全体友军+3%攻击力和5点防御。每次玩家战斗后获得1个随机荒野怪物棋子。",
+    "ref_en": "Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat.",
+    "target_ru": "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком."
+  }  ,
+  {
+    "id": "130969",
+    "source_cn": "3 每个独特的3星棋子：全体友军+3%攻击力和5点防御。每次玩家战斗后获得1个随机荒野怪物棋子。",
+    "ref_en": "3 Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat.",
+    "target_ru": "3 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком."
+  }  ,
+  {
+    "id": "130970",
+    "source_cn": "每上阵1名成员，全体获得其席位属性：\\n佛尔思：💧+1点\\n戴里克：🌿+2% | 休·迪尔查：🔥+7%\\n阿尔杰：⚡+8% | 奥黛丽：🥊+5%\\n伦纳德：❤️+5% | 克莱恩：📣+10%",
+    "ref_en": "For each member deployed, all gain seat attributes:\\nFors: 💧+1 pt\\nDerrick: 🌿+2% | Hugh Dilcha: 🔥+7%\\nAlger: ⚡+8% | Audrey: 🥊+5%\\nLeonard: ❤️+5% | Klein: 📣+10%",
+    "target_ru": "За каждого выставленного участника все получают свойства его места:\\nФорс: 💧+1 оч.\\nДеррик: 🌿+2% | Хью Дилча: 🔥+7%\\nЭлджер: ⚡+8% | Одри: 🥊+5%\\nЛеонард: ❤️+5% | Клейн: 📣+10%"
+  }  ,
+  {
+    "id": "130971",
+    "source_cn": "长射",
+    "ref_en": "Long-Shot",
+    "target_ru": "Дальний выстрел"
+  }  ,
+  {
+    "id": "130972",
+    "source_cn": "[长射]",
+    "ref_en": "[Long-Shot]",
+    "target_ru": "[Дальний выстрел]"
+  }  ,
+  {
+    "id": "130973",
+    "source_cn": "远程打击",
+    "ref_en": "Long-Range Strike",
+    "target_ru": "Дальнобойный удар"
+  }  ,
+  {
+    "id": "130974",
+    "source_cn": "[远程打击]",
+    "ref_en": "[Long-Range Strike]",
+    "target_ru": "[Дальнобойный удар]"
+  }  ,
+  {
+    "id": "130975",
+    "source_cn": "[远程打击] 造成伤害时获得额外伤害加成。距离目标越远，额外伤害越高。",
+    "ref_en": "[Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage.",
+    "target_ru": "[Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон."
+  }  ,
+  {
+    "id": "130976",
+    "source_cn": "2 [长射] [远程打击] 造成伤害时获得额外伤害加成。距离目标越远，额外伤害越高。",
+    "ref_en": "2 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage.",
+    "target_ru": "2 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон."
+  }  ,
+  {
+    "id": "130977",
+    "source_cn": "4 [长射] [远程打击] 造成伤害时获得额外伤害加成。距离目标越远，额外伤害越高。",
+    "ref_en": "4 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage.",
+    "target_ru": "4 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон."
+  }  ,
+  {
+    "id": "130978",
+    "source_cn": "奥秘",
+    "ref_en": "Arcane",
+    "target_ru": "Тайное знание"
+  }  ,
+  {
+    "id": "130979",
+    "source_cn": "[奥秘]",
+    "ref_en": "[Arcane]",
+    "target_ru": "[Тайное знание]"
+  }  ,
+  {
+    "id": "130980",
+    "source_cn": "全体友军每秒恢复能量。[奥秘] 恢复更多。",
+    "ref_en": "All allies recover Mana per second. [Arcane] recovers more.",
+    "target_ru": "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше."
+  }  ,
+  {
+    "id": "130981",
+    "source_cn": "2 [奥秘] 全体友军每秒恢复能量。[奥秘] 恢复更多。",
+    "ref_en": "2 [Arcane] All allies recover Mana per second. [Arcane] recovers more.",
+    "target_ru": "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше."
+  }  ,
+  {
+    "id": "130982",
+    "source_cn": "4 [奥秘] 全体友军每秒恢复能量。[奥秘] 恢复更多。",
+    "ref_en": "4 [Arcane] All allies recover Mana per second. [Arcane] recovers more.",
+    "target_ru": "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше."
+  }  ,
+  {
+    "id": "130983",
+    "source_cn": "精制壁垒",
+    "ref_en": "Crafted Bulwark",
+    "target_ru": "Искусный оплот"
+  }  ,
+  {
+    "id": "130984",
+    "source_cn": "随机获得2件防御性良品装备。",
+    "ref_en": "Randomly gain 2 pieces of Defensive Fine Equipment.",
+    "target_ru": "Случайным образом даёт 2 предмета добротного защитного снаряжения."
+  }  ,
+  {
+    "id": "130985",
+    "source_cn": "暴击增幅",
+    "ref_en": "Critical Hit Amplification",
+    "target_ru": "Усиление критического удара"
+  }  ,
+  {
+    "id": "130986",
+    "source_cn": "你的棋子获得15%暴击率和25%暴击伤害。",
+    "ref_en": "Your pieces gain 15% Critical Hit Rate and 25% Critical Damage.",
+    "target_ru": "Ваши фигуры получают +15% к шансу крит. удара и +25% к крит. урону."
+  }  ,
+  {
+    "id": "130987",
+    "source_cn": "战斗回合失败时获得2点经验。若处于连败状态，额外获得1点经验。",
+    "ref_en": "When a match round is lost, gain 2 Experience . If on a losing streak , gain an additional 1 Experience .",
+    "target_ru": "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта."
+  }  ,
+  {
+    "id": "130988",
+    "source_cn": "战斗回合失败时获得2点经验。若处于连败状态，额外获得1点经验。",
+    "ref_en": "When a match round is lost, gain 2 Experience. If on a losing streak, gain an additional 1 Experience.",
+    "target_ru": "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта."
+  }  ,
+  {
+    "id": "130989",
+    "source_cn": "连败",
+    "ref_en": "losing streak",
+    "target_ru": "серия поражений"
+  }  ,
+  {
+    "id": "130990",
+    "source_cn": "胜利笔记",
+    "ref_en": "Notes on Victory",
+    "target_ru": "Заметки о победах"
+  }  ,
+  {
+    "id": "130991",
+    "source_cn": "排名",
+    "ref_en": "Ranking",
+    "target_ru": "Место"
+  }  ,
+  {
+    "id": "130992",
+    "source_cn": "玩家",
+    "ref_en": "Player",
+    "target_ru": "Игрок"
+  }  ,
+  {
+    "id": "130993",
+    "source_cn": "高光数据",
+    "ref_en": "Highlight Data",
+    "target_ru": "Ключевые данные"
+  }  ,
+  {
+    "id": "130994",
+    "source_cn": "总金币",
+    "ref_en": "Total Money",
+    "target_ru": "Всего монет"
+  }  ,
+  {
+    "id": "130995",
+    "source_cn": "总金币：",
+    "ref_en": "Total Money:",
+    "target_ru": "Всего монет:"
+  }  ,
+  {
+    "id": "130996",
+    "source_cn": "总金币: ",
+    "ref_en": "Total Money: ",
+    "target_ru": "Всего монет: "
+  }  ,
+  {
+    "id": "130997",
+    "source_cn": "对战总数据",
+    "ref_en": "Total Battle Data",
+    "target_ru": "Общая статистика боя"
+  }  ,
+  {
+    "id": "130998",
+    "source_cn": "阵容思路",
+    "ref_en": "Lineup Strategy",
+    "target_ru": "Тактика состава"
+  }  ,
+  {
+    "id": "130999",
+    "source_cn": "最高连胜：",
+    "ref_en": "Highest Win Streak: ",
+    "target_ru": "Макс. серия побед: "
+  }  ,
+  {
+    "id": "131000",
+    "source_cn": "最高连胜",
+    "ref_en": "Highest Win Streak",
+    "target_ru": "Макс. серия побед"
+  }  ,
+  {
+    "id": "131001",
+    "source_cn": "最高连败：",
+    "ref_en": "Highest Losing Streak: ",
+    "target_ru": "Макс. серия поражений: "
+  }  ,
+  {
+    "id": "131002",
+    "source_cn": "最高连败",
+    "ref_en": "Highest Losing Streak",
+    "target_ru": "Макс. серия поражений"
+  }  ,
+  {
+    "id": "131003",
+    "source_cn": "当前连胜",
+    "ref_en": "Current Win Streak",
+    "target_ru": "Текущая серия побед"
+  }  ,
+  {
+    "id": "131004",
+    "source_cn": "当前连败",
+    "ref_en": "Current Losing Streak",
+    "target_ru": "Текущая серия поражений"
+  }  ,
+  {
+    "id": "131005",
+    "source_cn": "[AutoChessGridMesh]: 缺失TAG，%s | %s | %s",
+    "ref_en": "[AutoChessGridMesh]: Missing TAG, %s | %s | %s",
+    "target_ru": "[AutoChessGridMesh]: отсутствует TAG, %s | %s | %s"
+  }  ,
+  {
+    "id": "131006",
+    "source_cn": "WBP_AutoChess_Tips_Distance",
+    "ref_en": "AutoChess Tips – Distance",
+    "target_ru": "Подсказка AutoChess – Дистанция"
+  }  ,
+  {
+    "id": "131007",
+    "source_cn": "WBP_AutoChess_Tips_LifeSchedule",
+    "ref_en": "AutoChess Tips – Life Schedule",
+    "target_ru": "Подсказка AutoChess – Жизненный график"
+  }  ,
+  {
+    "id": "131008",
+    "source_cn": "WBP_AutoChess_Tips_Position",
+    "ref_en": "AutoChess Tips – Position",
+    "target_ru": "Подсказка AutoChess – Позиция"
+  }  ,
+  {
+    "id": "131009",
+    "source_cn": "WBP_AutoChess_Tips_VitalitySchedule",
+    "ref_en": "AutoChess Tips – Vitality Schedule",
+    "target_ru": "Подсказка AutoChess – График выносливости"
   }
 ]

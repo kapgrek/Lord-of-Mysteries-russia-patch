@@ -626,6 +626,145 @@ local visibleTextExactOverrides = {
         "<CostRed>{1,2,(Клеймо неактивно)}</>Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     ["技能增强提高30。\n激活套装灵与知回响时不生效。"] =
         "Усиление навыков увеличено на 30.\nНе действует, пока активен комплект Эхо Духа и Знания.",
+
+    -- [AUTOCHESS / RESONANCE / SYNERGY OVERRIDES]
+    ["Activate Resonance"] = "Активировать резонанс",
+    ["* Activate Resonance"] = "* Активировать резонанс",
+    ["Activated Resonance"] = "Активированный резонанс",
+    ["Spellcraft"] = "Колдовство",
+    ["Spellcasting"] = "Колдовство",
+    ["[Spellcraft]"] = "[Колдовство]",
+    ["[Spellcasting]"] = "[Колдовство]",
+    ["All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast."] =
+        "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["[Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["[Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["2 [Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["All allies gain 10% Attack. [Spellcraft] stacks Attack after each skill cast."] =
+        "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["[Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["[Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["2 [Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
+        "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["4 [Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] =
+        "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["6 [Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
+        "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["The Great Master"] = "Великий Мастер",
+    ["[The Great Master]"] = "[Великий Мастер]",
+    ["For every 1 Resonance activated, all allies gain additional Attack, up to 10 Resonances."] =
+        "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов.",
+    ["Wilderness Monster"] = "Монстр пустошей",
+    ["[Wilderness Monster]"] = "[Монстр пустошей]",
+    ["Each unique 3-star piece strengthens all allies. At high tiers, gain 1 random wild monster piece after each player combat."] =
+        "Каждая уникальная 3-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Each unique 3-star piece: All allies +3% Attack and 5 Defense."] =
+        "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты.",
+    ["2 Each unique 3-star piece: All allies +3% Attack and 5 Defense."] =
+        "2 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты.",
+    ["Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat."] =
+        "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["3 Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat."] =
+        "3 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Long-Shot"] = "Дальний выстрел",
+    ["[Long-Shot]"] = "[Дальний выстрел]",
+    ["Long-Range Strike"] = "Дальнобойный удар",
+    ["[Long-Range Strike]"] = "[Дальнобойный удар]",
+    ["[Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] =
+        "[Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
+    ["2 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] =
+        "2 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
+    ["4 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] =
+        "4 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
+    ["Arcane"] = "Тайное знание",
+    ["[Arcane]"] = "[Тайное знание]",
+    ["All allies recover Mana per second. [Arcane] recovers more."] =
+        "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["2 [Arcane] All allies recover Mana per second. [Arcane] recovers more."] =
+        "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["4 [Arcane] All allies recover Mana per second. [Arcane] recovers more."] =
+        "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["Lawyer"] = "Юрист",
+    ["[Lawyer]"] = "[Юрист]",
+    ["Lucky One"] = "Счастливчик",
+    ["[Lucky One]"] = "[Счастливчик]",
+    ["Tarot Club"] = "Клуб Таро",
+    ["[Tarot Club]"] = "[Клуб Таро]",
+    ["К л у б   Т а р о"] = "К л у б   Т а р о",
+    ["К л у б   Т а р..."] = "К л у б   Т а р...",
+    ["К л у б  Т а р..."] = "К л у б  Т а р...",
+    ["Hunter"] = "Охотник",
+    ["[Hunter]"] = "[Охотник]",
+    ["Giant Dragon Inheritance"] = "Наследие Дракона",
+    ["[Giant Dragon Inheritance]"] = "[Наследие Дракона]",
+    ["Life School of Thought"] = "Школа мысли Жизни",
+    ["[Life School of Thought]"] = "[Школа мысли Жизни]",
+    ["Iron Wall"] = "Железная стена",
+    ["[Iron Wall]"] = "[Железная стена]",
+    ["Evernight Goddess"] = "Богиня Вечной Ночи",
+    ["[Evernight Goddess]"] = "[Богиня Вечной Ночи]",
+    ["Forsaken Land of the Gods"] = "Заброшенная земля богов",
+    ["[Forsaken Land of the Gods]"] = "[Заброшенная земля богов]",
+    ["Aurora Order"] = "Орден Авроры",
+    ["[Aurora Order]"] = "[Орден Авроры]",
+    ["Seer"] = "Провидец",
+    ["[Seer]"] = "[Провидец]",
+    ["Rock"] = "Скала",
+    ["[Rock]"] = "[Скала]",
+    ["Monster"] = "Монстр",
+    ["[Monster]"] = "[Монстр]",
+    ["Crafted Bulwark"] = "Искусный оплот",
+    ["Randomly gain 2 pieces of Defensive Fine Equipment."] =
+        "Случайным образом даёт 2 предмета добротного защитного снаряжения.",
+    ["Critical Hit Amplification"] = "Усиление критического удара",
+    ["Your pieces gain 15% Critical Hit Rate and 25% Critical Damage."] =
+        "Ваши фигуры получают +15% к шансу крит. удара и +25% к крит. урону.",
+    ["When a match round is lost, gain 2 Experience . If on a losing streak , gain an additional 1 Experience ."] =
+        "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта.",
+    ["When a match round is lost, gain 2 Experience. If on a losing streak, gain an additional 1 Experience."] =
+        "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта.",
+    ["losing streak"] = "серия поражений",
+    ["Notes on Victory"] = "Заметки о победах",
+    ["Ranking"] = "Место",
+    ["Player"] = "Игрок",
+    ["Piece"] = "Фигура",
+    ["Pieces"] = "Фигуры",
+    ["piece"] = "фигура",
+    ["pieces"] = "фигуры",
+    ["К у с о к"] = "Ф и г у р а",
+    ["Кусок"] = "Фигура",
+    ["Highlight Data"] = "Ключевые данные",
+    ["Total Money"] = "Всего монет",
+    ["Total Money:"] = "Всего монет:",
+    ["Total Money: "] = "Всего монет: ",
+    ["对战总数据"] = "Общая статистика боя",
+    ["阵容思路"] = "Тактика состава",
+    ["Highest Win Streak: "] = "Макс. серия побед: ",
+    ["Highest Win Streak:"] = "Макс. серия побед:",
+    ["Highest Win Streak"] = "Макс. серия побед",
+    ["Highest Losing Streak: "] = "Макс. серия поражений: ",
+    ["Highest Losing Streak:"] = "Макс. серия поражений:",
+    ["Highest Losing Streak"] = "Макс. серия поражений",
+    ["Самая высокая серия побед: "] = "Макс. серия побед: ",
+    ["Самая высокая серия побед:"] = "Макс. серия побед:",
+    ["Самая высокая серия побед"] = "Макс. серия побед",
+    ["Current Win Streak"] = "Текущая серия побед",
+    ["Current Losing Streak"] = "Текущая серия поражений",
+    ["Обзор боевых записей"] = "Записи боев",
+    ["Данные о матче"] = "Данные матча",
 }
 
 -- Nearby NPC chat can prepend a channel and translated speaker name to the
@@ -1949,8 +2088,16 @@ local function translateVisibleText(value)
         return result
     end
 
-    -- AutoChess numbered synergy tier prefix (e.g. "2 [Spellcasting]...")
-    local tierPrefix, tierBody = value:match("^(%d+)%s+(%[.+)$")
+    -- AutoChess dynamic "For every X Resonance activated..."
+    local everyCount, maxRes = value:match("^For every (%d+) Resonance activated, all allies gain additional Attack, up to (%d+) Resonances%.$")
+    if everyCount ~= nil and maxRes ~= nil then
+        local result = "За каждый " .. everyCount .. " активированный резонанс все союзники получают дополнительную атаку, максимум до " .. maxRes .. " резонансов."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess numbered synergy tier prefix (e.g. "2 [Spellcasting]...", "2 Each unique 3-star piece...")
+    local tierPrefix, tierBody = value:match("^(%d+)%s+(.+)$")
     if tierPrefix ~= nil and tierBody ~= nil then
         local translatedTier = translateVisibleText(tierBody)
         if translatedTier ~= tierBody then
@@ -1958,6 +2105,22 @@ local function translateVisibleText(value)
             visibleTextCache[value] = result
             return result
         end
+    end
+
+    -- AutoChess Tarot Club seat bonus description in Chinese
+    if value:find("每上阵1名成员", 1, true) then
+        local result = "За каждого выставленного участника все получают свойства его места:\nФорс: 💧+1 оч.\nДеррик: 🌿+2% | Хью Дилча: 🔥+7%\nЭлджер: ⚡+8% | Одри: 🥊+5%\nЛеонард: ❤️+5% | Клейн: 📣+10%"
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess rank formatting repair: "РыцарьУровень b" -> "Рыцарь | Уровень 2"
+    local rankTitle, rankNum = value:match("^([%a-zA-Z\128-\255]+)Уровень%s*(%w+)%s*$")
+    if rankTitle ~= nil and rankNum ~= nil then
+        if rankNum == "b" then rankNum = "2" end
+        local result = rankTitle .. " | Уровень " .. rankNum
+        visibleTextCache[value] = result
+        return result
     end
 
     local enterWorldShortened = shortenEnterWorldLabel(value)

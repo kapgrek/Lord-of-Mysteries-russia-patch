@@ -1,6 +1,6 @@
 ﻿# Manifest (Lord of the Mysteries v2.6-RU)
 
-Total strings: **130667** (translated: **130667**, **100%**)
+Total strings: **131010** (translated: **131010**, **100%**)
 Batch size: **5000**
 Batch count: **27**
 
@@ -32,4 +32,4 @@ Batch count: **27**
 | Батч 024 | `batch_024.json` | 115001 - 120000 | Готов |
 | Батч 025 | `batch_025.json` | 120001 - 125000 | Готов |
 | Батч 026 | `batch_026.json` | 125001 - 130000 | Готов |
-| Батч 027 | `batch_027.json` | 130001 - 130667 | Готов |
+| Батч 027 | `batch_027.json` | 130001 - 131010 | Готов |

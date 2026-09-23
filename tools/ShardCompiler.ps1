@@ -1,9 +1,9 @@
-﻿# ShardCompiler.ps1 — Компилятор и распределитель строк по 1024 шардам RuntimeText
+# ShardCompiler.ps1 — Компилятор и распределитель строк по 1024 шардов RuntimeText
 # Полный эквивалент алгоритма хеширования FNV-1a из Init.lua игры Lord of the Mysteries
 
 param(
     [string]$InputJson = '',
-    [string]$PayloadDir = '..\patch_payload\Saved\Mods\lua\mods\cpdd_runtime_fixes',
+    [string]$PayloadDir = '..\\patch_payload\\Saved\\Mods\\lua\\mods\\cpdd_runtime_fixes',
     [switch]$RebuildAll
 )
 
@@ -44,9 +44,9 @@ Write-Host "=== Lord of the Mysteries: Shard Compiler v2.6-RU ===" -ForegroundCo
 Write-Host "Алгоритм хеширования: FNV-1a 32-bit (LuaJIT / Init.lua parity)"
 
 if ([string]::IsNullOrEmpty($InputJson)) {
-    Write-Host "Использование: .\ShardCompiler.ps1 -InputJson <путь_к_файлу_перевода.json>"
+    Write-Host "Использование: .\\ShardCompiler.ps1 -InputJson <путь_к_файлу_перевода.json>"
     Write-Host "Пример тестового вычисления ключа:"
-    $sample = "<Assistant_Title1>战斗新手·三</>"
+    $sample = "<Assistant_Title1>战斗新手·三</Assistant_Title1>"
     $key = [LomHash]::ComputeSourceKey($sample)
     $shard = [LomHash]::GetShardPrefix($key)
     Write-Host "  Строка: $sample"
