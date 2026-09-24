@@ -230,6 +230,6 @@ return {
     ["%s's Team"] = "Команда %s",
     ["Bonnie Berserk"] = "Бонни Берсерк",
     ["Beacon of the Mind"] = "Маяк разума",
-    ["弈棋试炼"] = "Шахматное испытание",
+    ["弈棋试炼"] = "Шахматные испытания",
     ["Gain 22/30 Gold Coins<HighLight></>, and the interest cap is increased to 10 Gold Coins<HighLight></>."] = "Даёт 22/30 золотых монет<HighLight></>, а лимит процентов увеличивается до 10 золотых монет<HighLight></>.",
 }

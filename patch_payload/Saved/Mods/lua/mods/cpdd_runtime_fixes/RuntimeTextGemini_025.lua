@@ -251,6 +251,7 @@ return {
     ["In competitive mode, <Highlight>kill </> %s/%s Witches"] = "В соревновательном режиме <Highlight>kill </> %s/%s Ведьм.",
     ["装配后获得【生命教派】羁绊"] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]",
     ["Blood-Thirst"] = "Кровожадность",
-    ["All allies gain <HighLight>10%</> Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to <HighLight>10</> stacks. High tiers gain Damage Reduction."] = "Все союзники получают <HighLight>10%</> скорости атаки. [Стремительная охота] накапливает скорость атаки при каждой атаке, максимум <HighLight>10</> уровней. На высоких ступенях даёт снижение урона.",
+    ["All allies gain <HighLight>10%</> Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to <HighLight>10</> stacks. High tiers gain Damage Reduction."] = "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
     ["No One Watching"] = "Никто не смотрит",
+    ["Add Lineup"] = "Добавить состав",
 }

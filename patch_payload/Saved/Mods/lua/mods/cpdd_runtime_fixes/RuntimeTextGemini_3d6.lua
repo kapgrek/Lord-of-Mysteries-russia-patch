@@ -251,4 +251,5 @@ return {
     ["Newcomer"] = "Новичок",
     ["Unlock Monument of Devotion_Night"] = "Разблокировать Памятник Преданности_Ночь",
     ["Last wave of flow monsters - Mystery Mage"] = "Последняя волна монстров потока - Mystery Magb",
+    ["弈棋试炼："] = "Шахматные испытания:",
 }

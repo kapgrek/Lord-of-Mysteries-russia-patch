@@ -266,4 +266,5 @@ return {
     ["Confirm Highest Price"] = "Подтвердите самую высокую цену",
     ["Bathtub: Luxury"] = "Ванна: Роскошная",
     ["We probably won't see each other again."] = "Вероятно, мы больше не увидимся.",
+    ["All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

@@ -258,4 +258,5 @@ return {
     ["Cup 2"] = "Кубок b",
     ["I will obey your instructions."] = "Я буду подчиняться вашим указаниям.",
     ["Spirit Medium?"] = "Духовная среда?",
+    ["4 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

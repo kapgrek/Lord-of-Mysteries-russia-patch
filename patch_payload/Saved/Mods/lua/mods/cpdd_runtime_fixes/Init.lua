@@ -727,6 +727,30 @@ local visibleTextExactOverrides = {
         "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] =
         "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["All allies gain <HighLight>10%</> Attack. [Spellcasting] stacks Attack after each skill cast."] =
+        "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["[Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] =
+        "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["[Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] =
+        "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["[Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] =
+        "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["2 [Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] =
+        "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["4 [Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] =
+        "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["6 [Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] =
+        "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["All allies gain <HighLight>10%</> Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to <HighLight>10</> stacks. High tiers gain Damage Reduction."] =
+        "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
+    ["All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] =
+        "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["2 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] =
+        "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["4 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] =
+        "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["For every <HighLight>1</> Resonance activated, all allies gain additional Attack, up to <HighLight>10</> Resonances."] =
+        "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов.",
     ["All allies gain 10% Attack. [Spellcraft] stacks Attack after each skill cast."] =
         "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
     ["[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] =
@@ -852,7 +876,21 @@ local visibleTextExactOverrides = {
     ["Total Money:"] = "Всего монет:",
     ["Total Money: "] = "Всего монет: ",
     ["对战总数据"] = "Общая статистика боя",
-    ["阵容思路"] = "Тактика состава",
+    ["阵容思路"] = "Тактика отряда",
+    ["阵容思路："] = "Тактика отряда:",
+    ["添加阵容"] = "Добавить состав",
+    ["添加阵容："] = "Добавить состав:",
+    ["弈棋试炼"] = "Шахматные испытания",
+    ["弈棋试炼："] = "Шахматные испытания:",
+    ["弈子列表"] = "Список фигур",
+    ["弈子列表："] = "Список фигур:",
+    ["Add Lineup"] = "Добавить состав",
+    ["Lineup Strategy"] = "Тактика отряда",
+    ["Chess Trials"] = "Шахматные испытания",
+    ["Chess Trial"] = "Шахматные испытания",
+    ["Piece List"] = "Список фигур",
+    ["Pieces List"] = "Список фигур",
+    ["Chess Piece List"] = "Список фигур",
     ["Gain 10 Experience Points ."] = "Получите 10 очков опыта.",
     ["Gain 10 Experience Points."] = "Получите 10 очков опыта.",
     ["Blood Fire Heavy Cannon"] = "Тяжелое орудие кровавого пламени",
@@ -2259,6 +2297,153 @@ function runtimeFixes.normalizeShopLotLimit(value)
     return value
 end
 
+runtimeFixes.AutoChessSkillTemplates = {
+    -- [131015]
+    ["Brands the target with a Necrotic Mark, dealing {0} attack damage."] = "Клеймит цель Меткой некроза, нанося {0} ед. урона от атаки.",
+    -- [131016]
+    ["Cause blood roses to bloom around you, dealing {0} Attack damage to nearby enemies."] = "Заставляет кровавые розы расцвести вокруг себя, нанося {0} ед. урона от атаки ближайшим врагам.",
+    -- [131019]
+    ["Continuously spit flames forward; nine attacks deal a total of {0} Attack damage. Hits apply a {1}-second Burn, causing enemies to lose {2} Health per second."] = "Непрерывно извергает пламя вперед; девять ударов наносят в сумме {0} ед. урона от атаки. Попадания накладывают Горение на {1} сек., заставляя врагов терять {2} ед. здоровья в секунду.",
+    -- [131021]
+    ["Dance and sweep surrounding enemies with blood flames, dealing {0} Attack damage, and increase your own Attack Speed by {1} for {2} seconds."] = "Кружится в танце и сметает окружающих врагов кровавым пламенем, нанося {0} ед. урона от атаки и повышая собственную скорость атаки на {1} на {2} сек.",
+    -- [131022]
+    ["Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of {0} Attack damage."] = "Сбрасывает темные грибы, трижды подрывая их в целевой области и нанося в сумме {0} ед. урона от атаки.",
+    -- [131023]
+    ["Enter Super Armor for {0} seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of {1} Attack damage."] = "Получает Неудержимость на {0} сек. и шесть раз подряд рассекает окружающих врагов Бурей клинков, нанося в сумме {1} ед. урона от атаки.",
+    -- [131025]
+    ["Fire a gear beam, dealing {0} Attack damage to targets within {1} grids."] = "Выпускает луч из шестеренок, нанося {0} ед. урона от атаки целям в пределах {1} клеток.",
+    -- [131026]
+    ["Fire five phantom energy projectiles in succession to pursue the target, dealing a total of {0} Attack damage."] = "Выпускает пять призрачных энергетических снарядов подряд, преследующих цель и наносящих в сумме {0} ед. урона от атаки.",
+    -- [131027]
+    ["Fire two Air Cannons forward in succession, each hit dealing {0} Attack damage."] = "Выпускает две Воздушные пушки вперед подряд, каждое попадание наносит {0} ед. урона от атаки.",
+    -- [131030]
+    ["Issue an arrest warrant for the furthest enemy, dealing {0} Attack damage and pulling them in front of you."] = "Выписывает ордер на арест самого дальнего врага, нанося {0} ед. урона от атаки и притягивая его к себе.",
+    -- [131031]
+    ["Jump and Ground Fracture, dealing {0} Attack damage to surrounding enemies and stunning them for {1} seconds."] = "Прыгает и раскалывает землю, нанося {0} ед. урона от атаки окружающим врагам и оглушая их на {1} сек.",
+    -- [131032]
+    ["Launch three consecutive slashes forward, dealing a total of {0} Attack damage."] = "Совершает три последовательных рассекающих удара вперед, нанося в сумме {0} ед. урона от атаки.",
+    -- [131033]
+    ["Launch three waves of Spirit World Bombardment, dealing a total of {0} Attack damage. The second wave applies a {1}-second Grievous Injury Burn, causing enemies to lose {2} of their maximum health per second, and reducing incoming healing effects by {3}."] = "Вызывает три волны Бомбардировки Мира Духов, нанося в сумме {0} ед. урона от атаки. Вторая волна накладывает Тяжелое горение на {1} сек., заставляя врагов терять {2} от максимального здоровья в секунду и снижая получаемое исцеление на {3}.",
+    -- [131036]
+    ["Pass judgment on the furthest enemy, dealing {0} Attack damage and stunning them for {1} seconds, while reducing their mana regeneration by {2} points for {3} seconds."] = "Выносит приговор самому дальнему врагу, нанося {0} ед. урона от атаки и оглушая его на {1} сек., а также снижая регенерацию его маны на {2} ед. на {3} сек.",
+    -- [131037]
+    ["Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of {0} Attack damage."] = "Исполняет трио спиритизма, трижды подряд поражая окружающих врагов и нанося в сумме {0} ед. урона от атаки.",
+    -- [131038]
+    ["Pounce on the enemy with the lowest health, dealing {0} Attack damage. When the target's health is no higher than {1}, the damage increases to {2}, and you restore {3} of your own Health."] = "Бросается на врага с наименьшим здоровьем, нанося {0} ед. урона от атаки. Если здоровье цели не превышает {1}, урон увеличивается до {2}, а вы восстанавливаете себе {3} ед. здоровья.",
+    -- [131039]
+    ["Rain down Miracle Cards, dealing {0} Attack damage to enemies in the target area."] = "Обрушивает дождь Карт чудес, нанося {0} ед. урона от атаки врагам в целевой области.",
+    -- [131040]
+    ["Raise a wall of waves to sweep the front, dealing {0} Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional {1} Attack damage."] = "Поднимает стену волн, сметающую врагов впереди, нанося {0} ед. урона от атаки и отбрасывая их назад. Затем Удар молнии поражает ту же область, нанося дополнительно {1} ед. урона от атаки.",
+    -- [131041]
+    ["Release a Fear Ripple, dealing {0} Attack damage to surrounding enemies; this increases to {1} when enemy health is no higher than {2}. Upon hitting, reduce their Defense by {3} for {4} seconds."] = "Выпускает Волну страха, нанося {0} ед. урона от атаки окружающим врагам; урон возрастает до {1}, если здоровье врага не превышает {2}. При попадании снижает защиту врагов на {3} на {4} сек.",
+    -- [131042]
+    ["Restores {0} health to self and allies within {1} tiles, and increases defense by {2} for {3} seconds. Self randomly gains one of the following effects for {4} seconds: Attack and Attack Speed increased by {5}; or gain {6} Shield and {7} defense; or restore {8} health and {9} energy, and gain {10} Shield."] = "Восстанавливает {0} ед. здоровья себе и союзникам в пределах {1} клетки и повышает защиту на {2} ед. на {3} сек. Сам заклинатель случайно получает один из следующих эффектов на {4} сек.: атака и скорость атаки увеличены на {5}; либо получает щит прочностью {6} ед. и {7} ед. защиты; либо восстанавливает {8} ед. здоровья и {9} ед. энергии, а также получает щит прочностью {10} ед.",
+    -- [131044]
+    ["Spin jump and shock surrounding enemies, dealing {0} Attack damage, and gain {1} Shield and {2} Damage Reduction for {3} seconds."] = "Прыгает с вращением и сотрясает окружающих врагов, нанося {0} ед. урона от атаки, а также получает щит прочностью {1} ед. и {2} снижения урона на {3} сек.",
+    -- [131046]
+    ["Stomp the front with the power of civilization, dealing {0} Attack damage and knocking back enemies, while gaining {1} Damage Reduction for {2} seconds."] = "Обрушивает топот силы цивилизации вперед, нанося {0} ед. урона от атаки и отбрасывая врагов назад, при этом получает {1} снижения урона на {2} сек.",
+    -- [131047]
+    ["Strike surrounding enemies with a three-hit Torrent, dealing a total of {0} Attack damage. The final hit knocks up enemies for {1} seconds, and you gain {2} Shield for {3} seconds."] = "Поражает окружающих врагов трехударным Потоком, нанося в сумме {0} ед. урона от атаки. Последний удар подбрасывает врагов в воздух на {1} сек., а вы получаете щит прочностью {2} ед. на {3} сек.",
+    -- [131048]
+    ["Summon Holy Light to gain {0} Shield for {1} seconds. After {2} seconds, shock surrounding enemies, dealing {3} Attack damage and restoring {4} Health for nearby allies."] = "Призывает Святой Свет, получая щит прочностью {0} ед. на {1} сек. Спустя {2} сек. сотрясает окружающих врагов, нанося {3} ед. урона от атаки и восстанавливая {4} ед. здоровья ближайшим союзникам.",
+    -- [131049]
+    ["Summons a Cookie Rain, dealing {0} attack damage to enemies in the target area and restoring {1} health to the {2} ally with the lowest health."] = "Призывает Дождь из печенья, нанося {0} ед. урона от атаки врагам в целевой области и восстанавливая {1} ед. здоровья {2} союзнику с наименьшим здоровьем.",
+    -- [131050]
+    ["Swing the Black Scythe to sweep the front, dealing {0} Attack damage. When the enemy's health is no higher than {1}, the damage increases to {2}."] = "Взмахивает Черной косой, рассекая пространство перед собой и нанося {0} ед. урона от атаки. Если здоровье врага не превышает {1}, урон возрастает до {2}.",
+    -- [131051]
+    ["Swing the rage hammer to shock surrounding enemies, dealing {0} Attack damage. Then, within {1} seconds, each time you are hit, gain {2} Attack Speed, stacking up to {3} times."] = "Взмахивает молотом ярости, сотрясая окружающих врагов и нанося {0} ед. урона от атаки. Затем в течение {1} сек. при каждом получении удара увеличивает скорость атаки на {2} (суммируется до {3} раз).",
+    -- [131053]
+    ["Throw two doom cards to strike the target continuously, dealing a total of {0} Attack damage. Then randomly increase Attack Speed by {1} or Attack by {2} for {3} seconds."] = "Бросает две карты рока, непрерывно поражающие цель и наносящие в сумме {0} ед. урона от атаки. Затем случайно увеличивает скорость атаки на {1} или атаку на {2} на {3} сек.",
+    -- [131056]
+    ["以巨龙威压横扫前方，造成{0}点攻击伤害，并施加{1}秒重伤灼烧：每秒损失{2}点生命，受治疗效果降低{3}。同时为生命最低的{4}名友军各恢复{5}点生命。三星时：以巨龙威压横扫前方，造成{6}点攻击伤害，并施加{7}秒重伤灼烧：每秒损失{8}点生命，受治疗效果降低{9}。同时为生命最低的{10}名友军各恢复{11}点生命。"] = "Сметает врагов впереди сокрушительным давлением дракона, нанося {0} ед. урона от атаки и накладывая Тяжелое горение на {1} сек.: теряется {2} ед. здоровья в секунду, получаемое исцеление снижается на {3}. Одновременно восстанавливает {4} ед. здоровья {5} союзникам с наименьшим здоровьем. На 3 звездах: сметает врагов впереди сокрушительным давлением дракона, нанося {6} ед. урона от атаки и накладывая Тяжелое горение на {7} сек.: теряется {8} ед. здоровья в секунду, получаемое исцеление снижается на {9}. Одновременно восстанавливает {10} ед. здоровья {11} союзникам с наименьшим здоровьем.",
+    -- [131057]
+    ["以知识辉耀对敌方全体造成{0}点攻击伤害。随后随机获得{1}攻击，持续{2}秒，或立即恢复{3}点法力。"] = "Озаряет поле Сиянием знаний, нанося {0} ед. урона от атаки всем врагам. Затем случайно получает +{1} к атаке на {2} сек. или мгновенно восстанавливает {3} ед. маны.",
+    -- [131058]
+    ["以蛛肢绞杀前方敌人，造成{0}点攻击伤害。施法时恢复自身{1}最大生命，防御提高{2}点，持续{3}秒。"] = "Сдавливает паучьими лапами врагов впереди, нанося {0} ед. урона от атаки. При применении восстанавливает себе {1} от максимального здоровья и повышает защиту на {2} ед. на {3} сек.",
+    -- [131059]
+    ["以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成{0}点攻击伤害。三星时：以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成{1}点攻击伤害。"] = "Пронизывает врагов впереди непрерывными лучами молний и взрывает их в целевой области, нанося при полном попадании в сумме {0} ед. урона от атаки. На 3 звездах: пронизывает врагов впереди непрерывными лучами молний и взрывает их в целевой области, нанося при полном попадании в сумме {1} ед. урона от атаки.",
+    -- [131060]
+    ["先轰击前方较小的矩形区域，造成{0}点攻击伤害。随后对目标及其周围{1}格内的敌人造成{2}点攻击伤害，并使其眩晕{3}秒。最后轰击前方更大的矩形区域，造成{4}点攻击伤害。"] = "Сначала обстреливает небольшую прямоугольную область перед собой, нанося {0} ед. урона от атаки. Затем наносит цели и окружающим врагам в пределах {1} клетки {2} ед. урона от атаки, оглушая их на {3} сек. Напоследок обстреливает большую прямоугольную область впереди, нанося {4} ед. урона от атаки.",
+    -- [131061]
+    ["发出三次死灵怒嚎，震击周围敌人，共造成{0}点攻击伤害，自身获得{1}点护盾，持续{2}秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成{3}点攻击伤害，自身获得{4}点护盾，持续{5}秒。"] = "Издает три яростных вопля нежити, сотрясая окружающих врагов и нанося в сумме {0} ед. урона от атаки, а также получает щит прочностью {1} ед. на {2} сек. На 3 звездах: издает три яростных вопля нежити, сотрясая окружающих врагов и нанося в сумме {3} ед. урона от атаки, а также получает щит прочностью {4} ед. на {5} сек.",
+    -- [131062]
+    ["发出四次狼嚎冲击前方，共造成{0}点攻击伤害。自身每损失{1}最大生命，获得{2}攻速和吸血，至多{3}，生命恢复时重新计算。"] = "Издает четыре волчьих воя, обрушивая ударную волну вперед и нанося в сумме {0} ед. урона от атаки. За каждые потерянные {1} максимального здоровья получает {2} к скорости атаки и вампиризму (до {3}), значение пересчитывается при восстановлении здоровья.",
+    -- [131063]
+    ["向前方释放两次音波冲击，共造成{0}点攻击伤害，自身及附近{1}格内友军获得{2}点护盾，持续{3}秒。三星时：向前方释放两次音波冲击，共造成{4}点攻击伤害，自身及附近{5}格内友军获得{6}点护盾，持续{7}秒。"] = "Выпускает вперед две звуковые волны, нанося в сумме {0} ед. урона от атаки; заклинатель и союзники в пределах {1} клеток получают щит прочностью {2} ед. на {3} сек. На 3 звездах: выпускает вперед две звуковые волны, нанося в сумме {4} ед. урона от атаки; заклинатель и союзники в пределах {5} клеток получают щит прочностью {6} ед. на {7} сек.",
+    -- [131064]
+    ["向目标区域释放三重怨念，共造成{0}点攻击伤害。三星时：向目标区域释放三重怨念，共造成{1}点攻击伤害。"] = "Обрушивает на целевую область тройную злобу призраков, нанося в сумме {0} ед. урона от атаки. На 3 звездах: обрушивает на целевую область тройную злобу призраков, нанося в сумме {1} ед. урона от атаки.",
+    -- [131065]
+    ["吟诵午夜诗篇，对周围敌人造成{0}点攻击伤害并使其安眠{1}秒，自身攻速提高{2}，持续{3}秒。三星时：吟诵午夜诗篇，对周围敌人造成{4}点攻击伤害并使其安眠{5}秒，自身攻速提高{6}，持续{7}秒。"] = "Декламирует Полуночную поэму, нанося окружающим врагам {0} ед. урона от атаки и погружая их в сон на {1} сек., при этом собственная скорость атаки повышается на {2} на {3} сек. На 3 звездах: декламирует Полуночную поэму, нанося окружающим врагам {4} ед. урона от атаки и погружая их в сон на {5} сек., при этом собственная скорость атаки повышается на {6} на {7} сек.",
+    -- [131066]
+    ["在敌人密集处接连绽放三圈藤棘，共造成{0}点攻击伤害，并使敌人攻击降低{1}，持续{2}秒。"] = "В месте скопления врагов последовательно распускает три кольца шипастых лоз, нанося в сумме {0} ед. урона от атаки и снижая атаку врагов на {1} на {2} сек.",
+    -- [131067]
+    ["在敌人密集处由外向内引爆三环蔓袭，三环全中共造成{0}点攻击伤害，内圈使命中的敌人眩晕{1}秒。"] = "В месте скопления врагов подрывает снаружи внутрь три кольца стелющихся лоз, нанося при попадании всеми тремя кольцами в сумме {0} ед. урона от атаки; внутреннее кольцо оглушает пораженных врагов на {1} сек.",
+    -- [131068]
+    ["对周围敌人造成{0}点攻击伤害，并随机获得{1}最大生命护盾或{2}伤害减免，持续{3}秒。"] = "Наносит окружающим врагам {0} ед. урона от атаки и случайно получает щит прочностью {1} от максимального здоровья либо {2} снижения урона на {3} сек.",
+    -- [131069]
+    ["对自身周围{0}格内的敌人造成{1}点攻击伤害。自身获得{2}伤害减免，持续{3}秒。"] = "Наносит врагам в пределах {0} клеток вокруг себя {1} ед. урона от атаки. Заклинатель получает {2} снижения урона на {3} сек.",
+    -- [131070]
+    ["射出星辉贯穿箭，对直线上的敌人造成{0}点攻击伤害，并在目标位置引爆，造成{1}点范围伤害。"] = "Выпускает стрелу звездного света, пронзающую врагов на прямой линии и наносящую {0} ед. урона от атаки, а затем взрывающуюся в точке попадания с нанесением {1} ед. урона по площади.",
+    -- [131071]
+    ["挥出断岳重斧，对前方敌人造成{0}点攻击伤害。获得{1}最大生命护盾，持续{2}秒。"] = "Обрушивает тяжелый сокрушающий горы топор, нанося врагам впереди {0} ед. урона от атаки. Получает щит прочностью {1} от максимального здоровья на {2} сек.",
+    -- [131072]
+    ["攻击目标，造成{0}点攻击伤害。目标生命不高于{1}时，改为{2}点攻击伤害。自身吸血提高{3}，持续{4}秒。三星时：攻击目标，造成{5}点攻击伤害。目标生命不高于{6}时，改为{7}点攻击伤害。自身吸血提高{8}，持续{9}秒。"] = "Атакует цель, нанося {0} ед. урона от атаки. Если здоровье цели не превышает {1}, урон возрастает до {2}. Собственный вампиризм повышается на {3} на {4} сек. На 3 звездах: атакует цель, нанося {5} ед. урона от атаки. Если здоровье цели не превышает {6}, урон возрастает до {7}. Собственный вампиризм повышается на {8} на {9} сек.",
+    -- [131074]
+    ["突袭最远的敌人，连斩目标周围并留下黑焰，全部命中共造成{0}点攻击伤害。自身击杀本次技能选中的目标后，恢复{1}点法力值。"] = "Внезапно атакует самого дальнего врага, совершая серию ударов вокруг цели и оставляя черное пламя; при попадании всех ударов наносит в сумме {0} ед. урона от атаки. Если заклинатель убивает выбранную данным навыком цель, он восстанавливает {1} ед. маны.",
+    -- [131075]
+    ["舞王狒哥旋身震荡周围，对自身{0}格圆形范围内的敌人造成{1}点攻击伤害，并恢复自身{2}最大生命。"] = "Король танцев Павиан кружится, сотрясая пространство вокруг и нанося врагам в пределах {0} клеток {1} ед. урона от атаки, а также восстанавливает себе {2} от максимального здоровья.",
+    -- [131076]
+    ["连发三枚星辉弹，共造成{0}点攻击伤害。命中后为生命比例最低的友军恢复{1}最大生命。"] = "Выпускает три снаряда звездного света подряд, нанося в сумме {0} ед. урона от атаки. При попадании восстанавливает союзнику с наименьшей долей здоровья {1} от максимального здоровья.",
+    -- [131077]
+    ["连续重击目标{0}次，共造成{1}点攻击伤害，最后一击使其眩晕{2}秒。施法时获得{3}伤害减免，持续{4}秒。"] = "Обрушивает на цель {0} мощных удара подряд, нанося в сумме {1} ед. урона от атаки; последний удар оглушает цель на {2} сек. При применении навыка получает {3} снижения урона на {4} сек.",
+    -- [131078]
+    ["释放两次星界洪流，横扫前方扇形区域，共造成{0}点攻击伤害。"] = "Дважды выпускает астральный поток, сметающий конусную область впереди и наносящий в сумме {0} ед. урона от атаки.",
+    -- [131079]
+    ["释放恐惧回声，对周围敌人造成{0}点攻击伤害。三星时：释放恐惧回声，对周围敌人造成{1}点攻击伤害。"] = "Выпускает Эхо страха, нанося окружающим врагам {0} ед. урона от атаки. На 3 звездах: выпускает Эхо страха, нанося окружающим врагам {1} ед. урона от атаки.",
+    -- [131080]
+    ["释放恶意冲击，对前方敌人造成{0}点攻击伤害，自身攻击提高{1}、防御提高{2}点，持续{3}秒。三星时：释放恶意冲击，对前方敌人造成{4}点攻击伤害，自身攻击提高{5}、防御提高{6}点，持续{7}秒。"] = "Выпускает Злобный импульс, нанося врагам впереди {0} ед. урона от атаки, а также повышает собственную атаку на {1} и защиту на {2} ед. на {3} сек. На 3 звездах: выпускает Злобный импульс, нанося врагам впереди {4} ед. урона от атаки, а также повышает собственную атаку на {5} и защиту на {6} ед. на {7} сек.",
+}
+
+runtimeFixes.translateAutoChessSkill = function(value)
+    if type(value) ~= "string" or (value:find("<Yellow>", 1, true) == nil and value:find("<yellow>", 1, true) == nil) then
+        return nil
+    end
+
+    local tokens = {}
+    local templated = value:gsub("<([%a_]+)>([^<]+)</>", function(tag, content)
+        local lTag = tag:lower()
+        if lTag == "yellow" or lTag == "highlight" then
+            table.insert(tokens, "<" .. tag .. ">" .. content .. "</>")
+            return "{" .. (#tokens - 1) .. "}"
+        else
+            return "<" .. tag .. ">" .. content .. "</>"
+        end
+    end)
+
+    local templates = runtimeFixes.AutoChessSkillTemplates
+    local ruTemplate = templates[templated]
+    if ruTemplate == nil and templated:find("\r", 1, true) then
+        local norm = templated:gsub("\r\n", "\n"):gsub("\r", "\n")
+        ruTemplate = templates[norm]
+    end
+    if ruTemplate == nil then
+        local trimmed = templated:match("^%s*(.-)%s*$")
+        ruTemplate = templates[trimmed]
+    end
+
+    if ruTemplate ~= nil then
+        local result = ruTemplate:gsub("{(%d+)}", function(idxStr)
+            local idx = tonumber(idxStr)
+            if idx ~= nil and tokens[idx + 1] ~= nil then
+                return tokens[idx + 1]
+            end
+            return "{" .. idxStr .. "}"
+        end)
+        return result
+    end
+    return nil
+end
+
 local function translateVisibleText(value)
     if type(value) ~= "string" then
         return value
@@ -2302,7 +2487,7 @@ local function translateVisibleText(value)
     end
 
     -- AutoChess dynamic "For every X Resonance activated..."
-    local everyCount, maxRes = value:match("^For every (%d+) Resonance activated, all allies gain additional Attack, up to (%d+) Resonances%.$")
+    local everyCount, maxRes = value:match("For every.-(%d+).-Resonance activated, all allies gain additional Attack, up to.-(%d+).-Resonances")
     if everyCount ~= nil and maxRes ~= nil then
         local result = "За каждый " .. everyCount .. " активированный резонанс все союзники получают дополнительную атаку, максимум до " .. maxRes .. " резонансов."
         visibleTextCache[value] = result
@@ -2327,11 +2512,22 @@ local function translateVisibleText(value)
         end
     end
 
-    -- AutoChess Tarot Club seat bonus description in Chinese
-    if value:find("每上阵1名成员", 1, true) then
+    -- AutoChess Tarot Club seat bonus description in Chinese (supports <HighLight> tags and plain text)
+    if value:find("每上阵1名成员", 1, true)
+        or value:find("每上阵<HighLight>1</>名成员", 1, true)
+        or value:find("每上阵<highlight>1</>名成员", 1, true)
+        or (value:find("每上阵", 1, true) and value:find("名成员", 1, true))
+    then
         local result = "За каждого выставленного участника все получают свойства его места:\nФорс: 💧+1 оч.\nДеррик: 🌿+2% | Хью Дилча: 🔥+7%\nЭлджер: ⚡+8% | Одри: 🥊+5%\nЛеонард: ❤️+5% | Клейн: 📣+10%"
         visibleTextCache[value] = result
         return result
+    end
+
+    -- AutoChess: piece skill template matcher with dynamic numbers
+    local skillResult = runtimeFixes.translateAutoChessSkill(value)
+    if skillResult ~= nil then
+        visibleTextCache[value] = skillResult
+        return skillResult
     end
 
     -- AutoChess: Blood Fire Heavy Cannon talent description (English & Chinese dynamic regex with tag tolerance)
@@ -2515,6 +2711,21 @@ local function translateVisibleText(value)
     if reviewedExact ~= nil then
         visibleTextCache[value] = reviewedExact
         return reviewedExact
+    end
+
+    -- AutoChess synergy & exact text normalization for <HighLight> tags
+    if value:find("<[Hh]igh[Ll]ight>") or value:find("<[Hh]ighlight>") then
+        local plain = value:gsub("</?[Hh]igh[Ll]ight>", ""):gsub("</?[Hh]ighlight>", ""):gsub("</>", "")
+        local plainOverride = visibleTextExactOverrides[plain]
+        if plainOverride ~= nil then
+            visibleTextCache[value] = plainOverride
+            return plainOverride
+        end
+        local plainGemini = runtimeFixes.lookupGeminiTextFuzzy(plain)
+        if plainGemini ~= nil then
+            visibleTextCache[value] = plainGemini
+            return plainGemini
+        end
     end
     local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
     if gemini ~= nil then
@@ -9656,13 +9867,6 @@ local function installEventDrivenPanelRepair(value, environment)
         local original = rawget(class, methodName)
         if type(original) == "function" then
             class[methodName] = function(self, ...)
-                local results = { original(self, ...) }
-                local ok, err = pcall(panelTextRepair.ProcessOnce,
-                    panelTextRepair, self, methodName)
-                if not ok and not repairErrorReported then
-                    repairErrorReported = true
-                    report("event-driven panel repair failed safely: " .. tostring(err))
-                end
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
                 if (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
                     or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel")
@@ -9686,6 +9890,13 @@ local function installEventDrivenPanelRepair(value, environment)
                             self[method] = runtimeFixes.hookAutoChessMethod(origMethod)
                         end
                     end
+                end
+                local results = { original(self, ...) }
+                local ok, err = pcall(panelTextRepair.ProcessOnce,
+                    panelTextRepair, self, methodName)
+                if not ok and not repairErrorReported then
+                    repairErrorReported = true
+                    report("event-driven panel repair failed safely: " .. tostring(err))
                 end
                 return unpack(results)
             end

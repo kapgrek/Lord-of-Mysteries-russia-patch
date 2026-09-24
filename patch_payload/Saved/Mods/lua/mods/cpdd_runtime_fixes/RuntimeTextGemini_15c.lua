@@ -236,4 +236,5 @@ return {
     ["Three, two, one—"] = "Три, два, один —",
     ["<h>Leave</> the clinic"] = "<h>Покинуть</> клинику",
     ["Rare · Life Crystal Pendant"] = "Редкий · Кулон кристалла жизни",
+    ["2 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

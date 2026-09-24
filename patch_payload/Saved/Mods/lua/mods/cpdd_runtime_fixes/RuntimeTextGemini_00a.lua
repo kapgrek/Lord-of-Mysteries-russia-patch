@@ -236,6 +236,6 @@ return {
     ["Share what you've seen with Marlow"] = "Поделитесь с Марлоу тем, что вы видели",
     ["黄铜书挑战·冒险产出的兑换凭证"] = "Купон обмена, полученный в испытаниях Латунной книги: Приключения.",
     ["【魔女教派】"] = "[Секта Демоницы]",
-    ["[Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
+    ["[Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
     ["When a match round is lost, gain <HighLight> 2 Experience </>. If on a <HighLight> losing streak </>, gain an additional <HighLight> 1 Experience </>."] = "При поражении в раунде поединка даёт <HighLight> 2 очка опыта </>. При <HighLight> серии поражений </> даёт дополнительно <HighLight> 1 очко опыта </>.",
 }

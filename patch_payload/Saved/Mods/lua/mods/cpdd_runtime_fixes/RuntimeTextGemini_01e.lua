@@ -276,5 +276,5 @@ return {
     ["Mommy... I'm not afraid... as long as I'm with you..."] = "Мамочка... я не боюсь... пока я с тобой...",
     ["Arm Guard Visibility"] = "Видимость защиты рук",
     ["Didn't Mr. Morian come here after reading that article too?"] = "Разве мистер Мориан не пришел сюда после прочтения этой статьи?",
-    ["6 [Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
+    ["6 [Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
 }
