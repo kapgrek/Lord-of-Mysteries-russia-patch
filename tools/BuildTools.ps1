@@ -13,13 +13,20 @@ if (-not (Test-Path $csc)) {
     throw "csc.exe not found!"
 }
 
-$tools = @('ShardCompiler', 'FixCapitalization', 'MergeOldTranslation', 'MergeTranslated', 'StringExtractor')
+$tools = @('ShardCompiler', 'FixCapitalization', 'MergeOldTranslation', 'MergeTranslated', 'StringExtractor', 'InstallerCoreTests')
 if ($Only.Count -gt 0) { $tools = $tools | Where-Object { $Only -contains $_ } }
 
+# Extra sources compiled into a tool (paths relative to the repository root)
+$extraSources = @{
+    'InstallerCoreTests' = @('installer\InstallerCore.cs')
+}
+
+$root = Split-Path $PSScriptRoot -Parent
 $refs = "/r:System.Web.Extensions.dll", "/r:System.IO.Compression.dll", "/r:System.IO.Compression.FileSystem.dll"
 
 foreach ($name in $tools) {
-    $src = Join-Path $PSScriptRoot "$name.cs"
+    $src = @(Join-Path $PSScriptRoot "$name.cs")
+    if ($extraSources.ContainsKey($name)) { $src += $extraSources[$name] | ForEach-Object { Join-Path $root $_ } }
     $out = Join-Path $PSScriptRoot "$name.exe"
     Write-Host "Compiling $name.exe..." -ForegroundColor Cyan
     & $csc /nologo /optimize+ $refs "/out:$out" $src

@@ -659,7 +659,7 @@ namespace LotmRussianPatcher
             }
 
             DialogResult confirm = MessageBox.Show(
-                "Вы действительно хотите полностью удалить русификатор и вернуть игру к исходному состоянию?\n\nОригинальный блок pakchunk0 будет восстановлен из резервной копии.",
+                "Вы действительно хотите удалить русификатор и вернуть игру к исходному состоянию?\n\nБудут удалены только файлы русификатора, а оригинальный блок pakchunk0 восстановлен из резервной копии. Настройки DPS-метра и чата (cpdd_*settings.lua) и другие моды не затрагиваются.",
                 "Подтверждение отката",
                 MessageBoxButtons.YesNo,
                 MessageBoxIcon.Question);
@@ -703,21 +703,8 @@ namespace LotmRussianPatcher
         }
     }
 
-    public enum GamePatchStatus
-    {
-        InvalidPath,
-        NotInstalled,
-        InstalledActive,
-        InstalledDisabled
-    }
-
     public static class PatcherBackend
     {
-        public const long PAK_OFFSET = 427225161L;
-        public const int PAK_BLOCK_SIZE = 4660;
-        public const string ORIGINAL_PAK_SHA256 = "566e72d677fc974ab172eb71a34cdc6623f1e0dd19d978de812a76a1820b7fc7";
-        public const string PATCHED_PAK_SHA256 = "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9";
-
         public static bool IsAdministrator()
         {
             try
@@ -760,65 +747,8 @@ namespace LotmRussianPatcher
         public static GamePatchStatus InspectGameStatus(string gameDir)
         {
             if (!IsValidGameFolder(gameDir)) return GamePatchStatus.InvalidPath;
-
-            bool pakPatched = IsPakPatched(gameDir);
-            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
-            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
-
-            bool modsPresent = (File.Exists(bridge) || File.Exists(bridgeDisabled)) && File.Exists(bootstrap);
-
-            if (!pakPatched && !modsPresent)
-            {
-                return GamePatchStatus.NotInstalled;
-            }
-
-            // Проверка выключения русификатора
-            if (File.Exists(bridgeDisabled) && !File.Exists(bridge))
-            {
-                return GamePatchStatus.InstalledDisabled;
-            }
-
-            if (File.Exists(bootstrap))
-            {
-                try
-                {
-                    string content = File.ReadAllText(bootstrap, Encoding.UTF8);
-                    if (content.Contains("RussianLocalization = false"))
-                    {
-                        return GamePatchStatus.InstalledDisabled;
-                    }
-                }
-                catch { }
-            }
-
-            if (pakPatched && File.Exists(bridge))
-            {
-                return GamePatchStatus.InstalledActive;
-            }
-
-            return GamePatchStatus.NotInstalled;
-        }
-
-        public static bool IsPakPatched(string gameDir)
-        {
-            string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
-            if (!File.Exists(pakPath)) return false;
-
-            try
-            {
-                using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
-                {
-                    if (fs.Length < PAK_OFFSET + PAK_BLOCK_SIZE) return false;
-                    fs.Position = PAK_OFFSET;
-                    byte[] block = new byte[PAK_BLOCK_SIZE];
-                    int read = fs.Read(block, 0, PAK_BLOCK_SIZE);
-                    if (read != PAK_BLOCK_SIZE) return false;
-                    string hash = ComputeSha256(block);
-                    return hash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase);
-                }
-            }
-            catch { return false; }
+            InstallerCore core = CoreForInstalledGame(gameDir, null, null);
+            return core == null ? GamePatchStatus.NotInstalled : core.InspectStatus();
         }
 
         public static string NormalizeGameDir(string path)
@@ -945,7 +875,7 @@ namespace LotmRussianPatcher
             }
 
             string bridgeFile = Path.Combine(payloadDir, "bridge", "LaunchInstance.native-bridge.padded.oodle");
-            if (!File.Exists(bridgeFile) || new FileInfo(bridgeFile).Length != PAK_BLOCK_SIZE)
+            if (!File.Exists(bridgeFile) || new FileInfo(bridgeFile).Length == 0)
             {
                 if (log != null) log("Файл моста oodle отсутствует или имеет неверный размер: " + bridgeFile);
                 return false;
@@ -1264,7 +1194,7 @@ namespace LotmRussianPatcher
             }
 
             // 2. Получение файлов полезной нагрузки (с автоскачиванием при необходимости)
-            if (log != null) log("[1/5] Проверка наличия пакета русификатора...");
+            if (log != null) log("Поиск пакета русификатора...");
             string payloadDir = await ResolvePayloadDir(true, log, progress, token);
             if (payloadDir == null || !ValidatePayloadContents(payloadDir, log))
             {
@@ -1275,10 +1205,22 @@ namespace LotmRussianPatcher
                 };
             }
 
-            // 3. Выполнение установки
-            if (progress != null) progress(-1, "Внедрение моста и шардов локализации...");
+            // 3. Установка: версия игры проверяется по supported_game.json из пакета (или встроенному в установщик)
+            SupportedGame game = LoadSupportedGame(payloadDir, log);
+            if (game == null)
+            {
+                return new InstallResult { Success = false, FailReason = "Нет сведений о поддерживаемой версии игры (supported_game.json)." };
+            }
+            if (progress != null) progress(-1, "Проверка версии игры и установка...");
+            var core = new InstallerCore(gameDir, game, log);
             string failReason = "";
-            bool ok = InstallCore(gameDir, payloadDir, log, out failReason);
+            bool ok = await Task.Run(() =>
+            {
+                string reason;
+                bool result = core.Install(payloadDir, out reason);
+                failReason = reason;
+                return result;
+            });
             return new InstallResult { Success = ok, FailReason = failReason };
         }
 
@@ -1299,217 +1241,38 @@ namespace LotmRussianPatcher
             }
         }
 
-        private static bool InstallCore(string gameDir, string payloadDir, Action<string> log, out string failReason)
+        public static SupportedGame LoadSupportedGame(string dir, Action<string> log)
         {
-            failReason = "";
-
-            string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
-            string bridgeFile = Path.Combine(payloadDir, "bridge", "LaunchInstance.native-bridge.padded.oodle");
-            byte[] bridgeBytes = File.ReadAllBytes(bridgeFile);
-
-            if (bridgeBytes.Length != PAK_BLOCK_SIZE)
+            try
             {
-                failReason = "Неверный размер блока моста: " + bridgeBytes.Length + " (ожидалось " + PAK_BLOCK_SIZE + ")";
-                return false;
+                return SupportedGame.Load(dir);
             }
-
-            // 1. Патчинг pakchunk0
-            log("[2/5] Модификация pakchunk0-Windows.pak (No-Injection Bootstrap)...");
-            using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+            catch (Exception ex)
             {
-                if (fs.Length < PAK_OFFSET + PAK_BLOCK_SIZE)
-                {
-                    failReason = "Размер файла pakchunk0 меньше необходимого смещения (" + fs.Length + " < " + (PAK_OFFSET + PAK_BLOCK_SIZE) + ")";
-                    return false;
-                }
-
-                fs.Position = PAK_OFFSET;
-                byte[] current = new byte[PAK_BLOCK_SIZE];
-                fs.Read(current, 0, PAK_BLOCK_SIZE);
-                string curHash = ComputeSha256(current);
-
-                if (curHash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase))
-                {
-                    log("  -> Блок запуска уже пропатчен.");
-                }
-                else
-                {
-                    string backupDir = Path.Combine(gameDir, "Saved", "Mods", "Backup");
-                    Directory.CreateDirectory(backupDir);
-                    string backupFile = Path.Combine(backupDir, "LaunchInstance.original.block");
-                    if (!File.Exists(backupFile))
-                    {
-                        File.WriteAllBytes(backupFile, current);
-                        log("  -> Резервная копия оригинального блока сохранена в Saved/Mods/Backup.");
-                    }
-
-                    fs.Position = PAK_OFFSET;
-                    fs.Write(bridgeBytes, 0, PAK_BLOCK_SIZE);
-                    fs.Flush();
-
-                    // Строгая верификация записи: перепроверяем записанный блок
-                    fs.Position = PAK_OFFSET;
-                    byte[] verifyBytes = new byte[PAK_BLOCK_SIZE];
-                    fs.Read(verifyBytes, 0, PAK_BLOCK_SIZE);
-                    string verifyHash = ComputeSha256(verifyBytes);
-
-                    if (!verifyHash.Equals(PATCHED_PAK_SHA256, StringComparison.OrdinalIgnoreCase))
-                    {
-                        failReason = "Критическая ошибка: записанный в pakchunk0 блок не прошел сверку хеша!";
-                        return false;
-                    }
-                    log("  -> Нативный блок моста успешно внедрен и верифицирован.");
-                }
+                if (log != null) log("ОШИБКА: supported_game.json: " + ex.Message);
+                return null;
             }
-
-            // 2. Копирование файлов мода
-            log("[3/5] Развертывание 1024 шардов рантайма, таблиц БД и моста инициализации...");
-            string binSrc = Path.Combine(payloadDir, "Binaries");
-            string savedSrc = Path.Combine(payloadDir, "Saved");
-
-            if (Directory.Exists(binSrc))
-            {
-                CopyDirectory(binSrc, Path.Combine(gameDir, "Binaries"));
-                log("  -> Мост Binaries/Win64 скопирован.");
-            }
-
-            if (Directory.Exists(savedSrc))
-            {
-                CopyDirectory(savedSrc, Path.Combine(gameDir, "Saved"));
-                log("  -> Файлы Saved/Mods (шарды, таблицы, Init.lua, bootstrap.lua) скопированы.");
-            }
-
-            // Убеждаемся, что мост включен (удаляем .disabled, если был)
-            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
-            if (File.Exists(bridgeDisabled))
-            {
-                try { File.Delete(bridgeDisabled); } catch { }
-            }
-
-            // Проверяем наличие ключевых файлов на диске
-            string targetBridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            string targetBootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
-            string targetInit = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "Init.lua");
-
-            if (!File.Exists(targetBridge) || !File.Exists(targetBootstrap) || !File.Exists(targetInit))
-            {
-                failReason = "Не все ключевые файлы мода были скопированы на диск игры.";
-                return false;
-            }
-
-            // 3. Патчинг BakedText
-            log("[4/5] Внедрение запеченного текста и текстур UI (IoStore BakedText)...");
-            bool bakedOk = PatchBakedText(gameDir, payloadDir, log);
-            if (!bakedOk)
-            {
-                log("  -> Предупреждение: некоторые блоки BakedText пропущены или не совпали с версией контейнера.");
-            }
-
-            // 4. Финальная сквозная верификация установленного патча
-            log("[5/5] Финальная проверка установленного патча...");
-            bool verified = VerifyInstallation(gameDir, log);
-            if (!verified)
-            {
-                failReason = "Финальная верификация состояния установленного патча не прошла проверку!";
-                return false;
-            }
-
-            log("✔ УСТАНОВКА УСПЕШНО ЗАВЕРШЕНА! Игра полностью готова на русском языке.");
-            return true;
         }
 
-        public static bool VerifyInstallation(string gameDir, Action<string> log)
+        // Hashes the game was installed with (Saved/RussianPatchBackups), otherwise the ones built into the installer.
+        private static InstallerCore CoreForInstalledGame(string gameDir, string payloadDir, Action<string> log)
         {
-            if (!IsPakPatched(gameDir))
+            string backupDir = Path.Combine(gameDir, InstallerCore.BackupDirRel);
+            SupportedGame game = LoadSupportedGame(File.Exists(Path.Combine(backupDir, SupportedGame.FileName)) ? backupDir : payloadDir, log);
+            if (game == null)
             {
-                if (log != null) log("Верификация: pakchunk0-Windows.pak не содержит активный хеш моста!");
-                return false;
+                if (log != null) log("ОШИБКА: нет сведений о поддерживаемой версии игры (supported_game.json).");
+                return null;
             }
-
-            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            if (!File.Exists(bridge) || new FileInfo(bridge).Length == 0)
-            {
-                if (log != null) log("Верификация: файл моста CPDDTranslation.lua не найден.");
-                return false;
-            }
-
-            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
-            if (!File.Exists(bootstrap) || new FileInfo(bootstrap).Length == 0)
-            {
-                if (log != null) log("Верификация: файл bootstrap.lua не найден.");
-                return false;
-            }
-
-            string initLua = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes", "Init.lua");
-            if (!File.Exists(initLua) || new FileInfo(initLua).Length == 0)
-            {
-                if (log != null) log("Верификация: файл Init.lua не найден.");
-                return false;
-            }
-
-            // Проверяем наличие шардов
-            string shardDir = Path.Combine(gameDir, "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes");
-            string[] shards = Directory.GetFiles(shardDir, "RuntimeTextGemini_*.lua");
-            if (shards.Length < 100)
-            {
-                if (log != null) log("Верификация: обнаружено слишком мало файлов шардов (" + shards.Length + ").");
-                return false;
-            }
-
-            if (log != null) log("  -> Проверено: мост pakchunk0 OK, CPDDTranslation OK, bootstrap OK, шардов: " + shards.Length);
-            return true;
+            return new InstallerCore(gameDir, game, log);
         }
 
         public static bool ToggleLanguage(string gameDir, Action<string> log)
         {
-            var status = InspectGameStatus(gameDir);
-            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
-            string bootstrap = Path.Combine(gameDir, "Saved", "Mods", "bootstrap.lua");
-
             try
             {
-                if (status == GamePatchStatus.InstalledActive)
-                {
-                    // Отключаем
-                    if (File.Exists(bridge))
-                    {
-                        if (File.Exists(bridgeDisabled)) File.Delete(bridgeDisabled);
-                        File.Move(bridge, bridgeDisabled);
-                    }
-                    if (File.Exists(bootstrap))
-                    {
-                        string content = File.ReadAllText(bootstrap, Encoding.UTF8);
-                        content = content.Replace("RussianLocalization = true", "RussianLocalization = false");
-                        content = content.Replace("Language = \"ru\"", "Language = \"en\"");
-                        File.WriteAllText(bootstrap, content, Encoding.UTF8);
-                    }
-                    log("✔ Русификатор ОТКЛЮЧЕН. Игра запустится в оригинальном режиме (English).");
-                    return true;
-                }
-                else if (status == GamePatchStatus.InstalledDisabled)
-                {
-                    // Включаем
-                    if (File.Exists(bridgeDisabled))
-                    {
-                        if (File.Exists(bridge)) File.Delete(bridge);
-                        File.Move(bridgeDisabled, bridge);
-                    }
-                    if (File.Exists(bootstrap))
-                    {
-                        string content = File.ReadAllText(bootstrap, Encoding.UTF8);
-                        content = content.Replace("RussianLocalization = false", "RussianLocalization = true");
-                        content = content.Replace("Language = \"en\"", "Language = \"ru\"");
-                        File.WriteAllText(bootstrap, content, Encoding.UTF8);
-                    }
-                    log("✔ Русификатор ВКЛЮЧЕН. Игра запустится на русском языке.");
-                    return true;
-                }
-                else
-                {
-                    log("Невозможно переключить язык: русификатор не установлен в этой папке.");
-                    return false;
-                }
+                InstallerCore core = CoreForInstalledGame(gameDir, null, log);
+                return core != null && core.ToggleLanguage();
             }
             catch (Exception ex)
             {
@@ -1518,197 +1281,20 @@ namespace LotmRussianPatcher
             }
         }
 
+        // Removes only the patch's own files (installed_files.json); cpdd_*settings.lua, DPS history and other mods stay.
         public static bool Uninstall(string gameDir, Action<string> log)
         {
-            log("[1/4] Восстановление оригинального блока pakchunk0-Windows.pak...");
-            string pakPath = Path.Combine(gameDir, "Content", "Paks", "pakchunk0-Windows.pak");
-            string backupFile = Path.Combine(gameDir, "Saved", "Mods", "Backup", "LaunchInstance.original.block");
-
-            if (File.Exists(pakPath) && File.Exists(backupFile))
-            {
-                byte[] orig = File.ReadAllBytes(backupFile);
-                if (orig.Length == PAK_BLOCK_SIZE)
-                {
-                    using (FileStream fs = new FileStream(pakPath, FileMode.Open, FileAccess.Write, FileShare.ReadWrite))
-                    {
-                        fs.Position = PAK_OFFSET;
-                        fs.Write(orig, 0, PAK_BLOCK_SIZE);
-                        fs.Flush();
-                    }
-                    log("  -> Оригинальный блок pakchunk0 успешно восстановлен.");
-                }
-            }
-            else
-            {
-                log("  -> Резервная копия блока не найдена, пропуск.");
-            }
-
-            log("[2/4] Удаление файлов моста инициализации...");
-            string bridge = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua");
-            string bridgeDisabled = Path.Combine(gameDir, "Binaries", "Win64", "lua", "Launch", "Base", "CPDDTranslation.lua.disabled");
-            try { if (File.Exists(bridge)) File.Delete(bridge); } catch { }
-            try { if (File.Exists(bridgeDisabled)) File.Delete(bridgeDisabled); } catch { }
-
-            log("[3/4] Восстановление запеченного текста (BakedText)...");
             string payloadDir = ResolvePayloadDir(false, null, null, CancellationToken.None).GetAwaiter().GetResult();
-            if (payloadDir != null)
-            {
-                RestoreBakedText(gameDir, payloadDir, log);
-            }
-
-            log("[4/4] Удаление папки Saved/Mods...");
-            string modsDir = Path.Combine(gameDir, "Saved", "Mods");
-            if (Directory.Exists(modsDir))
-            {
-                try
-                {
-                    Directory.Delete(modsDir, true);
-                    log("  -> Папка Saved/Mods успешно удалена.");
-                }
-                catch (Exception ex)
-                {
-                    log("  -> Не удалось удалить некоторые файлы из Saved/Mods: " + ex.Message);
-                }
-            }
-
-            log("✔ ОТКАТ ЗАВЕРШЕН! Игра возвращена в оригинальное состояние.");
-            return true;
-        }
-
-        private static bool PatchBakedText(string gameDir, string payloadDir, Action<string> log)
-        {
-            string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
-            string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
-            if (!File.Exists(manifestPath) || !File.Exists(blocksBinPath))
-            {
-                log("  -> Файлы BakedText не обнаружены, пропуск.");
-                return true;
-            }
-
+            InstallerCore core = CoreForInstalledGame(gameDir, payloadDir, log);
+            if (core == null) return false;
             try
             {
-                JavaScriptSerializer serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                ManifestData manifest = serializer.Deserialize<ManifestData>(File.ReadAllText(manifestPath, Encoding.UTF8));
-
-                Dictionary<string, List<BlockEntry>> byContainer = new Dictionary<string, List<BlockEntry>>();
-                foreach (var b in manifest.blocks)
-                {
-                    if (!byContainer.ContainsKey(b.container)) byContainer[b.container] = new List<BlockEntry>();
-                    byContainer[b.container].Add(b);
-                }
-
-                int totalPatched = 0;
-                int totalAlready = 0;
-                int totalErrors = 0;
-
-                using (FileStream binStream = new FileStream(blocksBinPath, FileMode.Open, FileAccess.Read, FileShare.Read))
-                {
-                    foreach (var kvp in byContainer)
-                    {
-                        string cPath = Path.Combine(gameDir, kvp.Key);
-                        if (!File.Exists(cPath)) continue;
-
-                        using (FileStream cStream = new FileStream(cPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
-                        {
-                            foreach (var b in kvp.Value)
-                            {
-                                byte[] current = new byte[b.size];
-                                cStream.Position = b.offset;
-                                cStream.Read(current, 0, b.size);
-                                string currentHash = ComputeSha256(current);
-
-                                if (currentHash.Equals(b.replacement_sha256, StringComparison.OrdinalIgnoreCase))
-                                {
-                                    totalAlready++;
-                                    continue;
-                                }
-
-                                if (!currentHash.Equals(b.original_sha256, StringComparison.OrdinalIgnoreCase))
-                                {
-                                    totalErrors++;
-                                    continue;
-                                }
-
-                                byte[] repl = new byte[b.size];
-                                binStream.Position = b.replacement_offset;
-                                binStream.Read(repl, 0, b.size);
-
-                                cStream.Position = b.offset;
-                                cStream.Write(repl, 0, b.size);
-                                totalPatched++;
-                            }
-                        }
-                    }
-                }
-                log(string.Format("  -> BakedText: внедрено {0} блоков, уже было {1}, пропущено несовпадений {2}.", totalPatched, totalAlready, totalErrors));
-                return totalErrors == 0;
+                return core.Uninstall(payloadDir);
             }
             catch (Exception ex)
             {
-                log("  -> Ошибка при обработке BakedText: " + ex.Message);
+                log("ОШИБКА удаления: " + ex.Message);
                 return false;
-            }
-        }
-
-        private static void RestoreBakedText(string gameDir, string payloadDir, Action<string> log)
-        {
-            string manifestPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "manifest.json");
-            string blocksBinPath = Path.Combine(payloadDir, "Saved", "Mods", "BakedText", "blocks.bin");
-            if (!File.Exists(manifestPath) || !File.Exists(blocksBinPath)) return;
-
-            try
-            {
-                JavaScriptSerializer serializer = new JavaScriptSerializer { MaxJsonLength = int.MaxValue };
-                ManifestData manifest = serializer.Deserialize<ManifestData>(File.ReadAllText(manifestPath, Encoding.UTF8));
-
-                Dictionary<string, List<BlockEntry>> byContainer = new Dictionary<string, List<BlockEntry>>();
-                foreach (var b in manifest.blocks)
-                {
-                    if (!byContainer.ContainsKey(b.container)) byContainer[b.container] = new List<BlockEntry>();
-                    byContainer[b.container].Add(b);
-                }
-
-                int totalRestored = 0;
-                using (FileStream binStream = new FileStream(blocksBinPath, FileMode.Open, FileAccess.Read, FileShare.Read))
-                {
-                    foreach (var kvp in byContainer)
-                    {
-                        string cPath = Path.Combine(gameDir, kvp.Key);
-                        if (!File.Exists(cPath)) continue;
-
-                        using (FileStream cStream = new FileStream(cPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
-                        {
-                            foreach (var b in kvp.Value)
-                            {
-                                byte[] current = new byte[b.size];
-                                cStream.Position = b.offset;
-                                cStream.Read(current, 0, b.size);
-                                string currentHash = ComputeSha256(current);
-
-                                if (currentHash.Equals(b.original_sha256, StringComparison.OrdinalIgnoreCase))
-                                {
-                                    continue;
-                                }
-
-                                if (currentHash.Equals(b.replacement_sha256, StringComparison.OrdinalIgnoreCase))
-                                {
-                                    byte[] orig = new byte[b.size];
-                                    binStream.Position = b.original_offset;
-                                    binStream.Read(orig, 0, b.size);
-
-                                    cStream.Position = b.offset;
-                                    cStream.Write(orig, 0, b.size);
-                                    totalRestored++;
-                                }
-                            }
-                        }
-                    }
-                }
-                log(string.Format("  -> BakedText: возвращено к оригиналу {0} блоков.", totalRestored));
-            }
-            catch (Exception ex)
-            {
-                log("  -> Ошибка отката BakedText: " + ex.Message);
             }
         }
 
@@ -1735,27 +1321,9 @@ namespace LotmRussianPatcher
             }
         }
 
-        public static string ComputeSha256(byte[] data)
-        {
-            using (SHA256 sha = SHA256.Create())
-            {
-                byte[] hash = sha.ComputeHash(data);
-                StringBuilder sb = new StringBuilder();
-                foreach (byte b in hash) sb.Append(b.ToString("x2"));
-                return sb.ToString();
-            }
-        }
-
         public static string ComputeFileSha256(string filePath)
         {
-            using (SHA256 sha = SHA256.Create())
-            using (FileStream stream = File.OpenRead(filePath))
-            {
-                byte[] hash = sha.ComputeHash(stream);
-                StringBuilder sb = new StringBuilder();
-                foreach (byte b in hash) sb.Append(b.ToString("x2"));
-                return sb.ToString();
-            }
+            return InstallerCore.FileSha256(filePath);
         }
 
         public static bool DiagnosePath(string path)
@@ -1770,8 +1338,12 @@ namespace LotmRussianPatcher
             Console.WriteLine("СТАТУС: Директория валидна.");
             string pak = Path.Combine(norm, "Content", "Paks", "pakchunk0-Windows.pak");
             Console.WriteLine("pakchunk0: " + (File.Exists(pak) ? "OK (" + new FileInfo(pak).Length + " байт)" : "НЕТ"));
-            var status = InspectGameStatus(norm);
-            Console.WriteLine("Статус патча: " + status);
+            InstallerCore core = CoreForInstalledGame(norm, null, Console.WriteLine);
+            if (core != null)
+            {
+                Console.WriteLine("Состояние pakchunk0: " + core.InspectPak() + " (CleanSupported / Installed / Unknown)");
+                Console.WriteLine("Статус патча: " + core.InspectStatus());
+            }
             return true;
         }
 
@@ -1809,22 +1381,6 @@ namespace LotmRussianPatcher
                 return false;
             }
             return ToggleLanguage(norm, Console.WriteLine);
-        }
-
-        public class ManifestData
-        {
-            public List<BlockEntry> blocks { get; set; }
-        }
-
-        public class BlockEntry
-        {
-            public string container { get; set; }
-            public long offset { get; set; }
-            public int size { get; set; }
-            public long original_offset { get; set; }
-            public long replacement_offset { get; set; }
-            public string original_sha256 { get; set; }
-            public string replacement_sha256 { get; set; }
         }
     }
 

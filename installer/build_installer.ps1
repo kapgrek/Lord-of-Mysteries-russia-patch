@@ -30,7 +30,10 @@ $cmdArgs = @(
     "/win32manifest:`"$manifest`"",
     "/win32icon:`"$icon`"",
     "/out:`"$outputExe`"",
+    # Fallback supported game state when the data zip has no supported_game.json
+    "/resource:`"$PSScriptRoot\supported_game.json`",LotmRussianPatcher.supported_game.json",
     "`"$PSScriptRoot\Program.cs`"",
+    "`"$PSScriptRoot\InstallerCore.cs`"",
     "`"$PSScriptRoot\AssemblyInfo.cs`""
 )
 
