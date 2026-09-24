@@ -22,6 +22,7 @@
 | **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore` на поддельных pak из случайных байт в `temp/installer-tests/`; `--check-payload <dir>` проверяет распакованный zip данных |
 | **Синхронизация с CPDD** | `tools/SyncCpdd.ps1`<br>`vendor/cpdd/` | Скачать релиз CPDD → сравнить с базой (`vendor/cpdd/BASE.json`) и `patch_payload/` → отчёт `reference/cpdd/<tag>/SYNC_REPORT.md` → `-Apply` выбранных компонентов (verbatim, 3-way merge `Init.lua`/`bootstrap.lua`, `state.json`, новые строки шардов в батч, `supported_game.json`) |
 | **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `supported_base_paks`, `launch_block`, `owned_files`) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish` всё загружается как assets GitHub Release |
+| **Диагностика для разработки** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruDiagnostics.lua`<br>`tools/CollectDiagLogs.ps1`<br>`docs/DIAGNOSTICS.md` | Модуль сбора (хуки, непереведённое, переполнение, шрифты, текстуры); включается только файлом `Saved/Mods/lua/absoluteru_dev.lua` в игре. `CollectDiagLogs` копирует логи ИЗ игры в `reference/logs/<дата>/` и строит отчёты в `report/` |
 | **Дополнительные моды (DPS Meter, Чат)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua`<br>`patch_payload/Saved/Mods/ExternalDpsMeter/` | Мод чата для ПК и автономный счетчик урона |
 | **Правила и защита ИИ-агента** | `AGENTS.md`<br>`.claude/settings.json`<br>`.claude/hooks/` | Регламент; permissions; хук-сторож папки игры и Stop-хук перекомпиляции шардов |
 | **Задачи и уроки** | `docs/tasks/TASK-xxx.md`<br>`docs/LESSONS.md` | Планы из аналитического чата; разбор прошлых инцидентов |
@@ -48,6 +49,7 @@ AbsoluteRU/
 ├── docs/                      # Документация проекта
 │   ├── PROJECT_MAP.md         # [ЭТОТ ФАЙЛ] Полная карта репозитория и правила поиска
 │   ├── LESSONS.md             # Уроки прошлых инцидентов (ложные фиксы, хуки классов, кэши, CRLF)
+│   ├── DIAGNOSTICS.md         # Диагностика для разработки: файл флагов, что собирается, форматы, чек-лист
 │   ├── tasks/                 # TASK-xxx.md из аналитических чатов (шаблон в tasks/README.md)
 │   ├── ARCHITECTURE.md        # Архитектурный отчет: мост, хуки package.loaders, LRU-кэш
 │   ├── GLOSSARY.md            # Каноничный глоссарий терминов, Путей и Последовательностей
@@ -86,6 +88,7 @@ AbsoluteRU/
 │           └── mods/
 │               └── cpdd_runtime_fixes/      # Рантайм-мод локализации
 │                   ├── Init.lua             # Ядро перехвата строк и UI Repair
+│                   ├── AbsruDiagnostics.lua # Диагностика для разработки (только при Saved/Mods/lua/absoluteru_dev.lua)
 │                   ├── DesktopChat.lua      # Адаптация окна чата для ПК
 │                   ├── DpsMeter.lua         # Встроенный счетчик урона
 │                   ├── DpsTelemetry.lua     # Телеметрия боя
@@ -100,7 +103,8 @@ AbsoluteRU/
 │   ├── BatchHelper.ps1        # Экспорт чанков в temp/, импорт переводов, статистика
 │   ├── ShardCompiler.cs/.ps1  # Компилятор батчей в 1024 шарда RuntimeText
 │   ├── VerifyBatch.ps1        # Валидатор плейсхолдеров и тегов в батчах
-│   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча
+│   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (Init.lua + AbsruDiagnostics.lua)
+│   ├── CollectDiagLogs.ps1    # Логи диагностики ИЗ игры -> reference/logs/<дата>/, отчёты в report/
 │   ├── StringExtractor.cs/.ps1 # Извлечение строк из оригинальных дампов
 │   ├── BakedTextManager.ps1   # Управление блоками BakedText для IoStore
 │   ├── AutoTranslate.ps1      # Машинный перевод батчей (Google Translate / DeepL Free API)
@@ -124,6 +128,7 @@ AbsoluteRU/
 ├── reference/                 # [не в git, не очищается] Внешние материалы
 │   ├── cpdd/<tag>/            # Релизы CPDD для SyncCpdd (release.json, zip, unpacked/, SYNC_REPORT.md)
 │   ├── cpdd-english/          # Английский патч CPDD 2.6.1 (exe и распакованный eng_stable/)
+│   ├── logs/<yyyy-MM-dd_HHmm>/ # Копии логов диагностики из игры (CollectDiagLogs) + report/; logs/aggregate/ — сводный отчёт
 │   └── tools/                 # Разовые утилиты для работы с reference (DumpEnglishStrings)
 └── temp/                      # [не в git] Временная папка (Scratch). Безопасна для очистки!
 ```

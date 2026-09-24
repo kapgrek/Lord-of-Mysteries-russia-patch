@@ -1,6 +1,7 @@
 # TASK-005: диагностическая сборка для разработки (счётчики хуков, непереведённое, переполнение, шрифты, картинки)
 
-Статус: **анализ завершён** 2026-09-25, ждёт исполнения. TASK-004 зарезервирован под опции DPS/Chat/Visual Clarity в новом установщике.
+Статус: **исполнено** 2026-09-25 (`28706e1` модуль + Init.lua + VerifyPatch, `ada659f` CollectDiagLogs, затем документы), **ждёт проверки в игре** по чек-листу §7 / [DIAGNOSTICS.md](../DIAGNOSTICS.md). Релиз v2.9.1-RU не опубликован. TASK-004 зарезервирован под опции DPS/Chat/Visual Clarity в новом установщике.
+Отличия исполнения от плана: `D.Leave(prev, labels, widgets)` (время меряет сам модуль); `D.DeclareSpec(kind, spec)` и `D.Bind(fn)` как обёртки над `Declare` и `CurrentScope`/`RunInScope`; JSON в ASCII (`\uXXXX`); `report()` при `Loader.DevFlags` пишет через `LuaCLogger.Warning`; `.ps1` с кириллицей — UTF-8 с BOM (AGENTS.md §5).
 Номера строк даны по `HEAD c7c3dc3`. Перед правкой их нужно сверить: при вставке строки сдвигаются.
 
 ## Цель
