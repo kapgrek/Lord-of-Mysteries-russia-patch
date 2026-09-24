@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 392/3ff.
 return {
     ["Lumian's figure transformed into a door leading to the distance."] = "Силуэт Люми обратился дверью, ведущей вдаль.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 322/3ff.
 return {
     ["Use to obtain <Highlight>Witch's Lingering Taste Socks</>"] = "При использовании вы получите <Highlight>чулки «Послевкусие ведьмы»</>",

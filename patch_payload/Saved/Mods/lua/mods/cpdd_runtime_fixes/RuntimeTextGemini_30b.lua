@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 30b/3ff.
 return {
     ["Heh, a Spectator? Then watch closely—lies are the real claws and fangs."] = "Хех, Зритель? Тогда смотри внимательно: настоящие когти и клыки — это ложь.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 283/3ff.
 return {
     ["Defense Form 6 People With Talent"] = "Оборонительная стойка: 6 чел. с талантом",

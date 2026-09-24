@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 203/3ff.
 return {
     ["I don't even want to think back; it's all the fault of those damn Feysacs!"] = "Мне даже вспоминать об этом тошно, во всем виноваты эти чертовы фейсакцы!",

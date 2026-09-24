@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 149/3ff.
 return {
     ["In the deepest part of the manor, the Viscountess, holding a terrifying black scythe, is presiding over a grand rebirth... \n Seeing the long-awaited guests, she reveals a satisfied smile: The final sacrifice is finally in place!"] = "В самой глубине поместья виконтесса с жуткой чёрной косой в руках вершит таинство великого перерождения...\nУвидев долгожданных гостей, она расплывается в довольной улыбке: последняя жертва наконец-то на месте!",

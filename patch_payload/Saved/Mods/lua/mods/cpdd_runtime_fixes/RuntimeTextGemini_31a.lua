@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 31a/3ff.
 return {
     ["Enable currency consignment system intervention (system sell/buy)?"] = "Включить вмешательство системы в аукцион валюты (системная покупка и продажа)?",

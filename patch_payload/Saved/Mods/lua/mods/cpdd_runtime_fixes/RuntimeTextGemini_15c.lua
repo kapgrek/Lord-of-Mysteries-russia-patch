@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 15c/3ff.
 return {
     ["Deals <color=red>90% attack damage to the current target within 1 grid</color>."] = "Наносит текущей цели в пределах 1 клетки <color=red>урон в размере 90% от силы атаки</color>.",

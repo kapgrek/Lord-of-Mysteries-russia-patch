@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ff/3ff.
 return {
     ["Because I don't want them to lose their inheritance. These skills are the foundation of the knights' livelihood. I don't know if these skills are lost, whether the chivalry we adhere to will also disappear. People abandoned by the era."] = "Потому что я не хочу, чтобы прервалось наследие. Эти навыки — основа, на которой держалась жизнь рыцарей. Если они будут утеряны, боюсь, исчезнет и рыцарский кодекс, которому мы следуем. Мы лишь люди, брошенные своей эпохой.",

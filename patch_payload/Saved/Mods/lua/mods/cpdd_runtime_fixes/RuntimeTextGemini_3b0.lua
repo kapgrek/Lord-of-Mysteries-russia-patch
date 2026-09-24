@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3b0/3ff.
 return {
     ["My Goddess of Wishes has a name, and her name is Sarah."] = "У моей богини желаний есть имя, и ее имя — Сара.",

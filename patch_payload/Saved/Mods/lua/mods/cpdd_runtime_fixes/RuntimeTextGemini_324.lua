@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 324/3ff.
 return {
     ["Elizabeth, let me ask you a question first. If something happened to your friend, would you want to save her?"] = "Элизабет, позволь сперва задать тебе вопрос. Если бы с твоей подругой случилась беда, ты бы захотела спасти её?",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 04d/3ff.
 return {
     ["For example, you there, come and recite a poem."] = "К примеру, эй, как тебя там, прочти-ка стихотворение.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0f2/3ff.
 return {
     ["Damage reduction for allies within the <HyperLink stylename=\"M_Link\" u=\"86021030\" color=\"#f4a067\">Dream Analysis</> area is increased by 5%. If fewer than 4 targets are healed, 1 second of cooldown is refunded."] = "Снижение урона для союзников в области действия навыка <HyperLink stylename=\"M_Link\" u=\"86021030\" color=\"#f4a067\">Анализ сновидений</> увеличивается на 5%. Если при каждом исцелении поражено менее 4 целей, возвращается 1 сек. времени восстановления.",

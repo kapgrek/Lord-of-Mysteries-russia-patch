@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 045/3ff.
 return {
     ["<Highlight> Craft: </> Pearl White Soft Satin · Tailored Fit · Exquisite Short Shirt \n A poem sung with heart does not necessarily need rhymes, and a short shirt tailored with heart does not necessarily possess ornate carvings."] = "<Highlight>Мастерство: </>Жемчужно-белый нежный атлас · Индивидуальный крой · Изысканная сорочка\nПесня, спетая от чистого сердца, не обязательно нуждается в рифме, а сорочка, сшитая с душой, не обязательно должна иметь вычурные украшения.",

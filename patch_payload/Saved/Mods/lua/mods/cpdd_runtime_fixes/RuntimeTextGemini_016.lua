@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 016/3ff.
 return {
     ["It seems like someone is there. Let's hide and see."] = "Кажется, там кто-то есть. Спрячемся и понаблюдаем.",

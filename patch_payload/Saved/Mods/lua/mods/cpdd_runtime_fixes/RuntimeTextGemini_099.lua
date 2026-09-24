@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 099/3ff.
 return {
     ["[UIFrame : NewUIManager]InstanceWidget Error uid %s Please confirm if the loaded path is missing _C %s"] = "[UIFrame : NewUIManager]InstanceWidget Error uid %s Please confirm if the loaded path is missing _C %s",

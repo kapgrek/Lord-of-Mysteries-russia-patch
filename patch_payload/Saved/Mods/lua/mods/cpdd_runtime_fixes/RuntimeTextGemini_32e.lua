@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 32e/3ff.
 return {
     ["<HyperLink stylename=\"M_Link\" u=\"86011080\" color=\"#f4a067\">Unshadowed Spear</> gains the <HighLight>God's Punishment</> effect: Deals physical damage to enemy players based on the percentage of lost health (of the target or yourself) and your own physical attack. The lower the health, the higher the damage, up to a maximum of 100% of your physical attack as base physical damage. <HighLight>Unshadowed</> takes effect on enemy players with health below 40%."] = "<HyperLink stylename=\"M_Link\" u=\"86011080\" color=\"#f4a067\">Копьё Лишённого Тени</> получает эффект <HighLight>Божья кара</>: наносит физический урон вражеским игрокам в зависимости от процента потерянного здоровья (цели или собственного) и собственной физ. атаки. Чем ниже здоровье, тем выше урон, вплоть до 100% от базового значения физ. атаки. Эффект <HighLight>Без тени</> срабатывает против вражеских игроков с уровнем здоровья ниже 40%.",

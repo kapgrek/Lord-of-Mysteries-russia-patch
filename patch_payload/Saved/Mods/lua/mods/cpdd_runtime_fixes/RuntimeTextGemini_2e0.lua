@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2e0/3ff.
 return {
     ["You have not selected a wish marionette. Are you sure you want to continue the selection?"] = "Вы еще не выбрали желаемую марионетку. Продолжить призыв?",

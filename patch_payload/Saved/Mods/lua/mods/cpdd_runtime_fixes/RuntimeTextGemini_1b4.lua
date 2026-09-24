@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1b4/3ff.
 return {
     ["Haji-ape medium shot, full face"] = "Хаки-обезьяна: средний план спереди",

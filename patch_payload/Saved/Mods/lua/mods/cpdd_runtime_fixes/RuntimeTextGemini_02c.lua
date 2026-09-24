@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 02c/3ff.
 return {
     ["Sorry, sorry, I'm really sorry!"] = "Простите, простите, мне правда очень жаль!",

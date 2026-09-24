@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3c0/3ff.
 return {
     ["Text text text text text text text text text text text"] = "Текст текст текст текст текст текст текст текст текст текст",

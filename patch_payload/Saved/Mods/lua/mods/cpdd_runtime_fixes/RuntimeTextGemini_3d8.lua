@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3d8/3ff.
 return {
     ["A tributary of fate, like solidified sunset glow, or like a dawn that never fades in some parallel world."] = "Приток судьбы, подобный застывшему вечернему закату или рассвету, что никогда не угаснет в одном из параллельных миров.",

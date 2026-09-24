@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 02b/3ff.
 return {
     ["1: Show, 0: Hide; x1, y1 top-left coordinates; x2, y2 bottom-right; e.g., 1, 100, 100, 1024, 1024."] = "1 — показать, 0 — скрыть; x1, y1 — координаты левого верхнего угла; x2, y2 — правого нижнего; например: 1, 100, 100, 1024, 1024.",

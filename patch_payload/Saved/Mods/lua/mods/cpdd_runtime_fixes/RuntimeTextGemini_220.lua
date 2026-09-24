@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 220/3ff.
 return {
     ["Drip the moonflower essential oil into the candle"] = "Капните в свечу эфирное масло лунного цветка",

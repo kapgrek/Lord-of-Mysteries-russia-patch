@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 108/3ff.
 return {
     ["<P_Heart> (Whispering) </> The bloodstains, they've disappeared."] = "<P_Heart>(Тихо)</> Пятна крови... исчезли.",

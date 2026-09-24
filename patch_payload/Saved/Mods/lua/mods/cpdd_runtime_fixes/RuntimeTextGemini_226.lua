@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 226/3ff.
 return {
     ["Wipe interface flow initiates, flowchart receives"] = "Инициация процесса протирания интерфейса, получение блок-схемой",

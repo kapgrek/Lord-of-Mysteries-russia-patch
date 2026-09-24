@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 38d/3ff.
 return {
     ["<P_Heart>Perhaps I should introduce some womenswear... or menswear that ladies would like.</>"] = "<P_Heart>Возможно, стоит выпустить женскую одежду... или мужскую, которая придется по вкусу дамам.</>",

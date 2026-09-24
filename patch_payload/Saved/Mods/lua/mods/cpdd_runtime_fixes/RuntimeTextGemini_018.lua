@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 018/3ff.
 return {
     ["Open the real treasure chest"] = "Открыть настоящий сундук с сокровищами",

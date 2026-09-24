@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2d0/3ff.
 return {
     ["Forsaken Land of the Gods Statue - Tier 5-35"] = "Статуя Забытых Богом Земель — ранг 5-35",

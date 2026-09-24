@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 16b/3ff.
 return {
     ["\n　　I have some urgent business to attend to, I'll be back in a moment.\n\n　　You can look around the Cafe. There is a stone tablet called the <Mark id=\"#159\">\"Travel Obelisk\"</> in the <Letter_Highlight_HW>Central Plaza</> nearby. It was created by Miss \"Magician\" and the Artisan. Once activated, you can travel between various travel points across the land.\n\n　　It's a good item, much faster than walking.\n\n　　Note: Don't wander too far.\n"] = "\n　　Появились срочные дела, скоро вернусь.\n\n　　Можешь пока осмотреться вокруг кафе. Рядом на <Letter_Highlight_HW>Центральной площади</> стоит каменная стела — <Mark id=\"#159\">«Обелиск странствий»</>. Её создали мисс Маг и Ремесленник. Активировав её, ты сможешь перемещаться между путевыми точками в разных краях.\n\n　　Отличная вещь, куда быстрее, чем пешком.\n\n　　Примечание: не уходи слишком далеко.\n",

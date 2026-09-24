@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 010/3ff.
 return {
     ["Room name cannot be empty."] = "Название комнаты не может быть пустым.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1e0/3ff.
 return {
     ["5231074 ??? Single-Player Instance"] = "5231074   ???   Одиночный план",

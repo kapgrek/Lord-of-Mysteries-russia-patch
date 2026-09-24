@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 08e/3ff.
 return {
     ["I seem to have forgotten something... I suppose I'm getting old."] = "Кажется, я что-то забыл... Возраст все-таки дает о себе знать.",

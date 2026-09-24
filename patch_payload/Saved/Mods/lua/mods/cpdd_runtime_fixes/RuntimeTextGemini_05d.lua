@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 05d/3ff.
 return {
     ["I'm responsible for cleaning the river around the village, but new household waste piles up in the river every day. I work until midnight every day, but the river never gets clean."] = "Я отвечаю за очистку реки вокруг деревни, но каждый день в ней скапливается новый бытовой мусор. Я работаю до полуночи каждый день, а река так и не становится чище.",

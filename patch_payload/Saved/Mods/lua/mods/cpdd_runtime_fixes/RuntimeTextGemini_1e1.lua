@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1e1/3ff.
 return {
     ["Obtain 1 Extraordinary material with the {Horror Bishop} entry."] = "Получите 1 Потусторонний материал со свойством {Епископ Страха}",

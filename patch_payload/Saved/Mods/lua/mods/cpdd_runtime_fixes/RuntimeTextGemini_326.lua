@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 326/3ff.
 return {
     ["The cane stands straight on the ground"] = "Трость стоит прямо на земле",

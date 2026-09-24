@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 39f/3ff.
 return {
     ["My father, who was in the military, would also be proud of my association with the members..."] = "Мой отец, служивший в армии, тоже гордился бы моим общением с членами клуба...",

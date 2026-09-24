@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0f9/3ff.
 return {
     ["Treasure Chest (Final Version)"] = "Сундук с сокровищами (финальная версия)",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 273/3ff.
 return {
     ["Hmph... but that kid's good luck is about to run out."] = "Хм... но удаче этого мальчишки скоро придет конец.",

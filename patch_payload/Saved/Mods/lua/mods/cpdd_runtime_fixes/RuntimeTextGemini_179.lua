@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 179/3ff.
 return {
     ["The employee is busy elsewhere. Do you still want to deploy them?"] = "Сотрудник занят в другом месте. Всё равно отправить его в бой?",

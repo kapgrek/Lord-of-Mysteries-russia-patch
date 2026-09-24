@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 389/3ff.
 return {
     ["Upgrade · Trading Firm activated, all [Blue Items] upgraded to [Fine Oil Painting]."] = "Действует «Улучшение: Торговая палата»: все [Синие предметы] улучшаются до [Изящного этюда маслом]",

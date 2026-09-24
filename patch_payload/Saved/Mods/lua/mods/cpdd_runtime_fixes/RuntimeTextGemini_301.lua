@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 301/3ff.
 return {
     ["Record and view runes that have appeared."] = "Записывайте и просматривайте появлявшиеся руны.",

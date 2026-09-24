@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 24c/3ff.
 return {
     ["Mechanism 2 - Screen Shatter"] = "Механика 2 — Раскол экрана",

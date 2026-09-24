@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 275/3ff.
 return {
     ["Casting the first stage of <HyperLink stylename=\"M_Link\" u=\"86031070\" color=\"#f4a067\"> Flame Jump </> increases movement speed by 50% for 4 seconds. \n Gain a <HighLight> Shield </> effect lasting 8 seconds and a 50% Acceleration effect lasting 4 seconds before taking damage; this effect has a 20-second cooldown."] = "При применении первой фазы навыка <HyperLink stylename=\"M_Link\" u=\"86031070\" color=\"#f4a067\">Прыжок через пламя</> скорость передвижения повышается на 50% на 4 сек.\nПеред каждым получением урона накладывает эффект <HighLight>Щита</> на 8 сек. и эффект 50% ускорения на 4 сек. Время восстановления эффекта: 20 сек.",

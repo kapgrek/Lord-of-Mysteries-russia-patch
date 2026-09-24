@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 35b/3ff.
 return {
     ["None-Actor3-Close-up"] = "None-Actor3-Крупный план",

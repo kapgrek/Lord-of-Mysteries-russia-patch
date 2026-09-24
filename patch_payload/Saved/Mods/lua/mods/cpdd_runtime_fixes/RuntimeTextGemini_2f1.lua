@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2f1/3ff.
 return {
     ["He is fine, but I wonder how the other children are doing?"] = "С ним всё в порядке, но как там остальные дети?",

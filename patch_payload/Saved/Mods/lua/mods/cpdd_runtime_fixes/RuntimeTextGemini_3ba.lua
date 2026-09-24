@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ba/3ff.
 return {
     ["Subtracts 100 points from the current performer."] = "Отнять 100 очков у текущего исполнителя",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3fa/3ff.
 return {
     ["Yes, young man, I think so too. When I was young, I was always asked to give up everything good to my younger brother, and later to my son."] = "Да, юноша, я тоже так думаю. В молодости от меня всегда требовали уступать всё самое лучшее младшему брату, а позже — сыну.",

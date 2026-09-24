@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 27c/3ff.
 return {
     ["Only in this way will those students who don't listen in class learn a little bit of historical knowledge from the 'insider materials' in order to cope with the exams."] = "Только так те студенты, что не слушают на лекциях, ради сдачи экзамена усвоят хоть крупицу исторических знаний из этих «внутренних материалов».",

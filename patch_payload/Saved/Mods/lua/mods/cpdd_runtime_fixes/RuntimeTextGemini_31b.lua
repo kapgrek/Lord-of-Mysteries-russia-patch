@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 31b/3ff.
 return {
     ["Can you imagine what Intis was like without a sanitation system back then?! It was simply unbearable to look at! There was disgusting excrement everywhere!"] = "Вы вообще представляете, каким был Интис до появления канализации?! На это же страшно было смотреть! Повсюду были отвратительные нечистоты!",

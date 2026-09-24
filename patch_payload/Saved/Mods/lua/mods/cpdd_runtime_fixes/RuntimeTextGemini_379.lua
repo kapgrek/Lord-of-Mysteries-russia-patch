@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 379/3ff.
 return {
     ["<Assistant_Title1>【Alien Sun Holy Emblem】</>\n<Assistant_Title2>Description: </>Battle Pass reward accessory\n<Assistant_Title2>Use: </>Use to obtain Alien Sun Holy Emblem. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\n<Assistant_Title2>Acquisition: </>Unlocked via Battle Pass"] = "<Assistant_Title1>【Священная эмблема Чужого Солнца】</>\n<Assistant_Title2>Описание: </>Награда боевого пропуска: аксессуар\n<Assistant_Title2>Применение: </>Используйте, чтобы получить Священную эмблему Чужого Солнца. Нажмите <Assistant_System>Облик — Гардероб</>, чтобы просмотреть и надеть её.\n<Assistant_Title2>Получение: </>Разблокируется в боевом пропуске",

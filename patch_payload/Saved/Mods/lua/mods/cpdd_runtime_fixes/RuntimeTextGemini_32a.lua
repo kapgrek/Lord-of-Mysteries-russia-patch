@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 32a/3ff.
 return {
     ["<P_Heart> (How could this be the least reliable one!) </>"] = "<P_Heart>（Как ни крути, это самый ненадежный вариант!）</>",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 14f/3ff.
 return {
     ["Cannot perform unstuck operations during limited-time gameplay; please abandon the quest, reset the gameplay, or exit the scene."] = "Во время испытаний на время функция освобождения от застревания недоступна. Пожалуйста, сбросьте испытание или покиньте локацию.",

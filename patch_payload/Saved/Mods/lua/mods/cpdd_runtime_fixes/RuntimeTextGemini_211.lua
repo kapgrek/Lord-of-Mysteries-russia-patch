@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 211/3ff.
 return {
     ["Create a new character. You can choose from three professions: Sun, Visionary, or Fool."] = "Создайте нового персонажа. На выбор доступны три пути: Солнце, Визионер или Шут.",

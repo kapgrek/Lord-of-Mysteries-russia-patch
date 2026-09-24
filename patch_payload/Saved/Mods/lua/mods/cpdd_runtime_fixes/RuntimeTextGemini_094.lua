@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 094/3ff.
 return {
     ["After use, you can obtain the <Highlight>Warrior Outfit</>. If you already own the corresponding limited-time outfit, the time limit will be removed."] = "При использовании даёт <Highlight>костюм Воина</>. Если у вас уже есть соответствующий временный наряд, ограничение по времени снимается.",

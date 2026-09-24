@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 069/3ff.
 return {
     ["What a pity, you didn't fall for it. Then I'll tell you where the real treasure chest is."] = "Какая жалость, ты не попался на удочку! Что ж, тогда я покажу тебе, где настоящий сундук с сокровищами.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2fa/3ff.
 return {
     ["<P_Heart>(Humming)</> Apart from the 'Evernight Goddess', there are no other words."] = "<P_Heart>(Напевает)</> Кроме имени «Богиня Вечной Ночи», других слов нет.",

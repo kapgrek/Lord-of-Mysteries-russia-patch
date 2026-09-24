@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1ed/3ff.
 return {
     ["Let me see... 'Gehrman's only fear—the wolf fish canned food from the dock vendors...'"] = "Дай взглянуть... «Единственное, чего боится Герман, — консервированная зубатка у портовых торговцев...»",

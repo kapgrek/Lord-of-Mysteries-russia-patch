@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 225/3ff.
 return {
     ["Don't blame me. We are the same, two fools in love."] = "Не вини меня. Мы одинаковы — два влюблённых глупца.",

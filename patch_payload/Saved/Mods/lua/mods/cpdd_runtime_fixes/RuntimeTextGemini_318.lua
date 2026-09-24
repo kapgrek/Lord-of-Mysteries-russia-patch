@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 318/3ff.
 return {
     ["Burp, I'm full. Preparing for the next hunt. Moon City... they are still waiting for me."] = "Ик, наелся, пора готовиться к следующей охоте. Город Луны... они всё ещё ждут меня.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 256/3ff.
 return {
     ["The selected team size cannot be smaller than the actual number of members."] = "Выбранный размер отряда не может быть меньше фактического числа участников.",

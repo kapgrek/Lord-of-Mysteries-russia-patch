@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 348/3ff.
 return {
     ["Those senile councilors are desperately trying to stop the bill from passing."] = "Эти выжившие из ума члены парламента всеми силами пытаются помешать принятию законопроекта.",

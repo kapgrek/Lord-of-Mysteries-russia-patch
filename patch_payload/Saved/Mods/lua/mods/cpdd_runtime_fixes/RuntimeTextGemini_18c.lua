@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 18c/3ff.
 return {
     ["There are players who have not confirmed matchmaking, you will be prioritized for matchmaking."] = "Один из игроков не подтвердил подбор, ваш поиск переведен в приоритетный режим.",

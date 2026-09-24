@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 19f/3ff.
 return {
     ["Can't I come to Tingen without a quest? Although the coffee here isn't as good as in Backlund, the maids... ahem, are still quite nice."] = "Разве я не могу приехать в Тинген без поручения? Хоть местный кофе и уступает бэкландскому, но горничные... кхм-кхм, очень даже ничего.",

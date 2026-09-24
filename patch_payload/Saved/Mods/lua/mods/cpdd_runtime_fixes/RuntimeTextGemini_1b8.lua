@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1b8/3ff.
 return {
     ["No, I cannot remember. I must forget. Next month, I will start from the foot of the mountain again..."] = "Нет, мне нельзя вспоминать... Я должен забыть. В следующем месяце я снова отправлюсь в путь от подножия горы...",

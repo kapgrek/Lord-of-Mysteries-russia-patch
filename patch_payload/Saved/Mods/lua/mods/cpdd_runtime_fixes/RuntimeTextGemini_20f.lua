@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 20f/3ff.
 return {
     ["Buying materials to make holy water to purify the stains left by cultists—isn't that reason enough?"] = "Покупка материалов для создания святой воды, чтобы очистить осквернение, оставленное сектантами — разве этой причины недостаточно?",

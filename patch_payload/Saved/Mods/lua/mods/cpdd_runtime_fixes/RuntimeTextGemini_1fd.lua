@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1fd/3ff.
 return {
     ["You need to <Highlight>transfer the injury</> in time; healer players <Highlight>pay attention to teammates' health</>."] = "Необходимо своевременно <Highlight>переносить раны</>, а целителям — <Highlight>следить за уровнем ОЗ союзников</>.",

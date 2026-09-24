@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 250/3ff.
 return {
     ["%s's position has been changed from %s to %s."] = "Должность игрока %s изменена с «%s» на «%s».",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 106/3ff.
 return {
     ["What a noisy spirit... I mean, a powerful, unusual aura?"] = "Какой шумный дух... То есть, я хотел сказать, какая мощная, необычная аура?",

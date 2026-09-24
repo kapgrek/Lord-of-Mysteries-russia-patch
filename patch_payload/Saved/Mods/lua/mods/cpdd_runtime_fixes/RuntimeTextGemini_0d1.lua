@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0d1/3ff.
 return {
     ["<P_Heart> (Whispering softly) </> Tell me... is there still a chance for us? I... I'm not ready yet..."] = "<P_Heart>(Тихий шёпот)</> Скажи... есть ли у нас ещё шанс? Я... я пока не готова...",

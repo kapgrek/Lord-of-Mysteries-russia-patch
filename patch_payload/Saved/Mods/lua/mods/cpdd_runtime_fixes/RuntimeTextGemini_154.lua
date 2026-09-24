@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 154/3ff.
 return {
     ["Spectator 3 Wealthy Fat Woman"] = "Зритель 3: богатая полная женщина",

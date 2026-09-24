@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 054/3ff.
 return {
     ["She wants me to know not to keep looking back, as the path ahead is even more beautiful."] = "Она хочет, чтобы я понял: не нужно всё время оглядываться назад, ведь путь впереди куда прекраснее.",

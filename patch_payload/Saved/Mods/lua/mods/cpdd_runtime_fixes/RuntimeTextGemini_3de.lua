@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3de/3ff.
 return {
     ["Prisoner Pathway | Sequence 8 \"Madman\""] = "Путь Узника | Последовательность 8 «Безумец»",

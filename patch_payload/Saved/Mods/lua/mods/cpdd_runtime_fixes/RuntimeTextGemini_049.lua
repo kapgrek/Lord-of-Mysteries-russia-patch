@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 049/3ff.
 return {
     ["Get the situation from <h>Frye</>"] = "Расспросить <h>Фрая</> об обстановке",

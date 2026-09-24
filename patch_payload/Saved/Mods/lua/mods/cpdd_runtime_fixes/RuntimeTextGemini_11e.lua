@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 11e/3ff.
 return {
     ["This is my first time in a place like this since I woke up... Let's see which area has the best view."] = "С тех пор как я очнулся, я впервые оказался в таком месте... Пойду посмотрю, где здесь лучший обзор.",

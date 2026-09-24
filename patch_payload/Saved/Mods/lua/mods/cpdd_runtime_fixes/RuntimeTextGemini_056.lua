@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 056/3ff.
 return {
     ["<DecH> Craft: </> Ochre Red Dark Pattern \n The erosion of corruption, the whispers of evil... but the spirit of the knight must not be defiled."] = "<DecH>Ремесло: </>Охристо-красный узор\nРазъедающая порча, зловещий бред... но дух рыцаря не запятнать.",

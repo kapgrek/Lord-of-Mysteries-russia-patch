@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3aa/3ff.
 return {
     ["War declaration opens every Saturday from 12:00 to 19:30. Countdown to this period's war declaration: <Tips>%s</>"] = "Объявление войны доступно каждую субботу с 12:00 до 19:30. До окончания текущего периода объявления войны: <Tips>%s</>",

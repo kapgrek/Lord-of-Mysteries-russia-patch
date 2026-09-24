@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 02e/3ff.
 return {
     ["The Hidden Sage's knowledge infusion... No, this will tear my brain apart. I need Mr. Fool's help!"] = "Насильственное вливание знаний Сокрытого Мудреца... Нет, это разорвет мой мозг на части, мне нужна помощь Господина Шута!",

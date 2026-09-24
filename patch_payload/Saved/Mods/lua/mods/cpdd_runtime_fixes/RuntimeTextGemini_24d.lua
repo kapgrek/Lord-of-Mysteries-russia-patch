@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 24d/3ff.
 return {
     ["Healing Received Increase*f**"] = "Получаемое исцеление увеличено на *f**",

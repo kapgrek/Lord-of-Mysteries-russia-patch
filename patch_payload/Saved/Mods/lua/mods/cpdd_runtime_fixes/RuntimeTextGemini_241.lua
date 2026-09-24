@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 241/3ff.
 return {
     ["That's how the poor are; they can never tell where there is profit to be made and where the traps are!"] = "Таковы бедняки: они никогда не могут разобрать, где выгода, а где ловушка!",

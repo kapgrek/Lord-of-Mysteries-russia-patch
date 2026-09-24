@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e1/3ff.
 return {
     ["When receiving fatal damage, become invincible for 6 seconds and reduce damage taken by 30%. A marionette appears beside you, which self-destructs after 6 seconds, killing allies. If the marionette is killed early, it restores 70% of your Health. This effect only triggers once."] = "При получении смертельного урона дает неуязвимость на 6 сек., снижает входящий урон на 30%, а рядом с вами появляется марионетка, которая через 6 сек. взрывается и убивает союзников. Если уничтожить марионетку раньше времени, она восстановит вам 70% ОЗ. Срабатывает только 1 раз.",

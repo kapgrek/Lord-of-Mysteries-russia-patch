@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 35e/3ff.
 return {
     ["First, the name and identity of the previous owner, I think these two things explain it clearly enough..."] = "Во-первых, имя и личность прежнего владельца дома... Думаю, эти две вещи объясняют все достаточно ясно...",

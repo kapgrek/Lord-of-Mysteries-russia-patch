@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 036/3ff.
 return {
     ["Clear \"Legacy of Memory: Fire Dragon\" on Normal difficulty"] = "Пройдите испытание «Наследие памяти: Огненный дракон» на обычном уровне сложности",

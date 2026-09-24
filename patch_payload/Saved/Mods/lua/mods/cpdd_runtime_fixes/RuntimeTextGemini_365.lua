@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 365/3ff.
 return {
     ["You're right, I know a pretty good spot, follow me!"] = "Ты прав, я знаю отличное местечко, идём со мной!",

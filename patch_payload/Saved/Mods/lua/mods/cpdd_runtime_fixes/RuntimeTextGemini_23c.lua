@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 23c/3ff.
 return {
     ["This hat was made by my mother herself. Our family's food, laughter, and those good days were all conjured from this hat."] = "Эту шляпу сшила своими руками моя мама. Вся еда, весь смех и все счастливые дни нашей семьи были сотворены словно фокус из этой самой шляпы.",

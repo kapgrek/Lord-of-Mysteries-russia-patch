@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 387/3ff.
 return {
     ["Carmen, this is the third time. Can't you come out on your own yet?"] = "Кармен, это уже в третий раз. Ты до сих пор не можешь выбраться самостоятельно?",

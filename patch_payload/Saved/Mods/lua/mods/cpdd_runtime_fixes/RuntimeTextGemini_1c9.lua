@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1c9/3ff.
 return {
     ["The best companion for dreams, giving sleep a gorgeous texture."] = "Лучший спутник сновидений, дарующий сну ощущение подлинной роскоши.",

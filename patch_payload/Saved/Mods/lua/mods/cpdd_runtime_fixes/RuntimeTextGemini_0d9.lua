@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0d9/3ff.
 return {
     ["This book... does it have a good ending?"] = "У этой книги... хороший конец?",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e4/3ff.
 return {
     ["Alright, alright, Melissa. I've already grasped your excellent mathematical talent."] = "Ладно, ладно, Мелисса, я уже оценил твой выдающийся математический талант.",

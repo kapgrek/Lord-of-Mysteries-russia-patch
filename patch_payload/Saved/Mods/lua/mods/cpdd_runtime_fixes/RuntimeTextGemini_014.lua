@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 014/3ff.
 return {
     ["South District Avenue Fountain Square Bicycle (Blue)"] = "Авеню Южного района, сквер с фонтаном, велосипед (синий)",

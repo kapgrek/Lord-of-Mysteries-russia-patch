@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 39d/3ff.
 return {
     ["Redeemable at Family level 8"] = "Доступно для обмена на 8-м уровне семьи",

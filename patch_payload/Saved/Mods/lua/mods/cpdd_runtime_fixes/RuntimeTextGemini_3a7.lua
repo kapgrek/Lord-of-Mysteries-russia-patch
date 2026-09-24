@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3a7/3ff.
 return {
     ["Hello there, {{young sir|young madam}}. The aroma of bread is always pleasant; it's truly wonderful."] = "Здравствуйте, {{молодой господин|молодая госпожа}}, аромат свежего хлеба всегда так приятен. Чудесно.",

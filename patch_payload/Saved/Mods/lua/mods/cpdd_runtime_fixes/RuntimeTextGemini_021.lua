@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 021/3ff.
 return {
     ["GTA - Shooting Replay - Interaction Triggers Gameplay"] = "GTA — повтор стрельбы — интерактивный запуск",

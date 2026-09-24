@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 06c/3ff.
 return {
     ["Golden Autumn Lake is a peaceful pastoral paradise, permanently in a pleasant harvest season."] = "Озеро Золотой Осени — безмятежный идиллический край, где круглый год царит пора благодатного сбора урожая.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2b3/3ff.
 return {
     ["How is it? Are you happy?"] = "Ну как? Здорово ведь, правда?",

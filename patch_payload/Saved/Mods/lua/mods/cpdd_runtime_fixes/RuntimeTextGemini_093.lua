@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 093/3ff.
 return {
     ["Straight kick damage increase effect doubled."] = "Эффект увеличения урона от прямого удара ногой удваивается.",

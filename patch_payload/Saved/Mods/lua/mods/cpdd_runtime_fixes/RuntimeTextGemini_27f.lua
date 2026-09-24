@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 27f/3ff.
 return {
     ["Pen! Write your homework yourself!"] = "Перо, ну же! Напиши домашнее задание само!",

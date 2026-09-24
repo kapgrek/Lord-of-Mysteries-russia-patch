@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0d2/3ff.
 return {
     ["Spare me that, why don't we compare yesterday's turnover!"] = "Брось эти россказни! Давай лучше сравним вчерашнюю выручку!",

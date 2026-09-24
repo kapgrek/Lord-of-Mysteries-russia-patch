@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 10a/3ff.
 return {
     ["So you know what she's doing."] = "Так ты знаешь, чем она занимается.",

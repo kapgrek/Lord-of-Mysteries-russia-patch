@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0d7/3ff.
 return {
     ["Leave it to me. I have a way to find the tracks of the owner of this dwelling."] = "Предоставьте это мне. У меня есть способ выследить хозяина этого жилища.",

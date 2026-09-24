@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 373/3ff.
 return {
     ["So you're selling paintings... No thanks."] = "Так вы продаёте картины... Нет, спасибо.",

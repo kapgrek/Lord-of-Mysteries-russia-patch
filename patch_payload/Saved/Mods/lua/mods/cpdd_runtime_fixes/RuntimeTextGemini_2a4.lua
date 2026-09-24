@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2a4/3ff.
 return {
     ["All things... shall never perish!"] = "Всё сущее... никогда не погибнет!",

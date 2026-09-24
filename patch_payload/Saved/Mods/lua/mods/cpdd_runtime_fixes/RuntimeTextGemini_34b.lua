@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 34b/3ff.
 return {
     ["It's not like I'm attending a Ball, something plain is more appropriate."] = "Мы же не на бал собрались, так что лучше одеться поскромнее.",

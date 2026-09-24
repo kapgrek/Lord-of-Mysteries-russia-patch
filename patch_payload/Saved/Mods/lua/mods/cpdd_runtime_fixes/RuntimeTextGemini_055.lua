@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 055/3ff.
 return {
     ["Kalapon: As the price, let me make your death more painful."] = "Калапон: В качестве расплаты я сделаю твою смерть более мучительной.",

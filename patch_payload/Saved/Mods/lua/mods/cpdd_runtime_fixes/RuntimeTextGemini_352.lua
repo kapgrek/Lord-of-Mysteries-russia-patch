@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 352/3ff.
 return {
     ["The missing persons might have carried the bronze mirror, passed through the three entrance locations, and after their tracks were hidden, they were disintegrated and disappeared by the Crown of Knowledge."] = "Пропавший мог иметь при себе бронзовое зеркало. Миновав три входа, его следы скрылись, после чего Корона Знаний расщепила его, и он бесследно исчез.",

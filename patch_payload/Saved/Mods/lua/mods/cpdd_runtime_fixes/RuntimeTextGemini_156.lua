@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 156/3ff.
 return {
     ["Really? This is our honor. I will register your membership information."] = "Правда? Для нас это большая честь. Сейчас я оформлю ваше членство.",

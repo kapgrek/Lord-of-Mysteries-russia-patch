@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 030/3ff.
 return {
     ["Tailored like a swallow, with a lightly fluttering back hem that hides an unstarted feast."] = "Скроенный подобно ласточке, с легко колышущимися фалдами, он таит в себе еще не начавшийся пир.",

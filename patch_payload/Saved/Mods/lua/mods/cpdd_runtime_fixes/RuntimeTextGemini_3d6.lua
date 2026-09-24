@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3d6/3ff.
 return {
     ["<Highlight>A Corner of Mysteries: Opens on Monday</> \n <Highlight> Wailing Black Market: Opens on Tuesday/Friday </> \n <Highlight> Sin of Gold: Opens on Wednesday/Saturday </> \n <Highlight> Traces of the Dead: Opens on Thursday/Sunday </>"] = "<Highlight>Уголок Тайн: доступен в понедельник</>\n<Highlight>Стонущий черный рынок: доступен во вторник и пятницу</>\n<Highlight>Золотой грех: доступен в среду и субботу</>\n<Highlight>Следы мертвеца: доступны в четверг и воскресенье</>",

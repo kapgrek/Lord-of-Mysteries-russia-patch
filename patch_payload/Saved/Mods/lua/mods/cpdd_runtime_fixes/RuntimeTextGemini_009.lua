@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 009/3ff.
 return {
     ["I'm especially great to my friends!"] = "Особенно к друзьям — к ним я отношусь просто замечательно!",

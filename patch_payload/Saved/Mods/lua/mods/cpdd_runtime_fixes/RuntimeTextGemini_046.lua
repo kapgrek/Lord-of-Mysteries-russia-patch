@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 046/3ff.
 return {
     ["Didn't you ever suspect that there was something wrong with the book?"] = "И ты ни разу не заподозрил, что дело в самой книге?",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2e3/3ff.
 return {
     ["The holy radiance belonging to the sun, purifying all gloom."] = "Священное сияние Солнца, очищающее от любого мрака.",

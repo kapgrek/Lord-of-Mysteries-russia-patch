@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 36a/3ff.
 return {
     ["<P_Heart>(Laughs)</> But in the end, I passed. Although I wasn't at the top of the list, it was enough for me to enter the Ministry of Finance to work..."] = "<P_Heart>（Смеется）</> Но в итоге я сдал. Пусть и не был в числе первых, но этого хватило, чтобы попасть на работу в министерство финансов...",

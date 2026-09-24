@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 145/3ff.
 return {
     ["<P_Heart>(Someone gave the bishop a candle during the war... could there be other forces behind this?)</>"] = "<P_Heart>(Кто-то дал епископу свечу во время войны... Неужели за этим стоят другие силы?)</>",

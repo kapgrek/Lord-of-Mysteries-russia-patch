@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 11c/3ff.
 return {
     ["Of course, this is also because our scale is sufficiently streamlined, and we have strict requirements for members who join. After all, every member enters the school under the gaze of Mr. Fool."] = "Разумеется, ведь нас не так много, а к новым членам мы предъявляем строгие требования. В конце концов, каждый вступает в школу под пристальным взором самого Господина Шута.",

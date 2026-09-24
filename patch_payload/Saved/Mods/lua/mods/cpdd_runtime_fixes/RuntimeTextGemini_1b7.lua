@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1b7/3ff.
 return {
     ["Hehe, it's just that you have to be careful about tripping over something in the snow later... hehe..."] = "Хе-хе, вот только гляди в оба, как бы не споткнуться о что-нибудь в сугробах... хе-хе...",

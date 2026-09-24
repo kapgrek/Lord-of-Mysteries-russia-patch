@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2df/3ff.
 return {
     ["The Soil Knows the Answer - Go to the Lakeside and Take a Look"] = "Земля знает ответ — осмотреться у озера",

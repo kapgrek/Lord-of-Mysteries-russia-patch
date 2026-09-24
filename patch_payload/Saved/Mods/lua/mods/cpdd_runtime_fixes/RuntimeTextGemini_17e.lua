@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 17e/3ff.
 return {
     ["SAN is down to 10, what do I do?"] = "SAN упал до 10, что делать?",

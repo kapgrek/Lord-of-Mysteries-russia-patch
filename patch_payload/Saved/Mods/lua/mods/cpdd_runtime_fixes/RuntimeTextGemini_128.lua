@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 128/3ff.
 return {
     ["<M_Default> Dear Beyonder: </>\n<M_Default> Congratulations on winning the championship in the Peak of the Gods tournament. You have been awarded a champion's honorary title. You can go to </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Menu - Character - Title Interface] </><M_Default> to use it. </>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Поздравляем с победой в состязании «Вершина Богов»! В награду вам вручен почетный чемпионский титул, который можно применить в разделе </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\">【Меню — Персонаж — Титулы】</><M_Default>.</>",

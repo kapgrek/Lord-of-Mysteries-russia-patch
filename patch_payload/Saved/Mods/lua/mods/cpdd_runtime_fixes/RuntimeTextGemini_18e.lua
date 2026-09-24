@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 18e/3ff.
 return {
     ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Funding Sources </>\n Club activity stipends and club events. \n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Funding Explanation </>\n Can be used for club building upgrades to improve club strength, benefits, and scale."] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Источники средств</>\nПособия за активность в клубе и клубные события.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>О фондах</>\nИспользуются для улучшения зданий клуба, повышения его мощи, бонусов и масштаба.",

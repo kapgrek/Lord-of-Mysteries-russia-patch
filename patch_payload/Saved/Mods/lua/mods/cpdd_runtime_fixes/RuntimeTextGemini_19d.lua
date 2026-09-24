@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 19d/3ff.
 return {
     ["If this could be combined with other things, things should become clear... \n<P_Yellow>(Obtained a clue and placed it in the Inventory: Mystical Item Order Letter)</>"] = "Если сопоставить это с другими уликами, всё должно проясниться...\n<P_Yellow>(Получена улика и помещена в инвентарь: Письмо с заказом магического предмета)</>",

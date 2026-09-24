@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 347/3ff.
 return {
     ["5230252 City Wonder Plane"] = "5230252   Городское чудо   План",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 269/3ff.
 return {
     ["Lucky One Emblem +1 Mana Recovery"] = "Эмблема счастливчика: +1 к восстановлению маны",

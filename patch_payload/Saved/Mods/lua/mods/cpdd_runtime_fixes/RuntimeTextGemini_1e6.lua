@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1e6/3ff.
 return {
     ["Family name must be seven characters"] = "Название семьи должно состоять из 7 символов",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 113/3ff.
 return {
     ["Heh, the trouble isn't over yet!"] = "Ха, неприятности ещё не закончились!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 042/3ff.
 return {
     ["Level up to 70, adjust skill levels to 10, unlock all partners, set strength star rating to 20."] = "Повысить уровень до 70, установить уровень навыков на 10, разблокировать всех спутников, установить звёздный ранг силы на 20.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 393/3ff.
 return {
     ["Valid when SpawnInterval is greater than 0."] = "Действует, если SpawnInterval больше 0",

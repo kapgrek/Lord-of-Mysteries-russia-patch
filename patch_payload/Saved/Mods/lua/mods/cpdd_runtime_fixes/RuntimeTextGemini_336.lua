@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 336/3ff.
 return {
     ["Use 3-888 on Little Daisy"] = "Применить 3-888 на малышку Дэйзи",

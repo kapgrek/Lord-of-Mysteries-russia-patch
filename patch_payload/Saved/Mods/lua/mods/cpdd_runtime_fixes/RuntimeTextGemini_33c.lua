@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 33c/3ff.
 return {
     ["Death's Requiem Part 2 - The Bishop Appears"] = "Реквием смерти, акт II: Появление епископа",

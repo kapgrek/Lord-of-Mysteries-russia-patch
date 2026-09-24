@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 024/3ff.
 return {
     ["Deep Sea Squid Resource Protection Association"] = "Общество охраны ресурсов глубоководных кальмаров",

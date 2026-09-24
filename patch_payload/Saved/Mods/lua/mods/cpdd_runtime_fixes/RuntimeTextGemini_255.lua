@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 255/3ff.
 return {
     ["We pray for your favor, we pray for you to shelter your loyal believers."] = "Мы молим о Вашем благоволении, молим о защите Ваших верных последователей.",

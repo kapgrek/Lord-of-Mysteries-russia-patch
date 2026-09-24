@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 355/3ff.
 return {
     ["<P_Heart>(Before the danger in Tingen arrives, I need to focus on digesting my potion and increasing my strength.)</>"] = "<P_Heart>(Прежде чем опасность настигнет Тинген, мне нужно как можно скорее усвоить зелье и стать сильнее.)</>",

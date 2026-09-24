@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 026/3ff.
 return {
     ["Then I'll wait for your good news."] = "Тогда буду ждать от вас добрых вестей.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2d2/3ff.
 return {
     ["Pistol Aiming Shot - Non-Headshot Resolution - Klein"] = "Прицельный выстрел из пистолета — не в голову — Клейн",

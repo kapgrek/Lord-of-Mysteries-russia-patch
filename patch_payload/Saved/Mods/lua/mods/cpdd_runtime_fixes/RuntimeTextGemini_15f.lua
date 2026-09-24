@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 15f/3ff.
 return {
     ["Is this a new student? Would you like to join our \"New World Travel Association\"?"] = "Вы новенький? Не хотите вступить в нашу «Ассоциацию путешествий в Новый Свет»?",

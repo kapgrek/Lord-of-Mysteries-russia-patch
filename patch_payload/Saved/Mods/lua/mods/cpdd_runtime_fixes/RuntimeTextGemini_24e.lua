@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 24e/3ff.
 return {
     ["After following Susie down the long staircase, you arrived at the trial grounds..."] = "Спустившись вслед за Сьюзи по длинной лестнице, вы вышли к арене испытаний...",

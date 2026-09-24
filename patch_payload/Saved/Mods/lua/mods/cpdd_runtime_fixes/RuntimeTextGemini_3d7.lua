@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3d7/3ff.
 return {
     ["When participating in the Moment of Fate, winning, and obtaining a title, it is automatically consumed to <Highlight> obtain extra victory points </>."] = "При участии в «Моменте судьбы», одержав победу и получив титул, автоматически расходуется и дает <Highlight>дополнительные очки победы</>",

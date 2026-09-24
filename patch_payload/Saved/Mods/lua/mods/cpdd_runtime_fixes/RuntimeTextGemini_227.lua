@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 227/3ff.
 return {
     ["Fill 1 to get the earliest sub-entity of a certain type; fill 0 to get the latest sub-entity of a certain type. \n More specifically: 1, 2, 3; 4... are the earliest, 2nd earliest, 3rd earliest created entities; earliest created... \n 0, -1, -2; -3... are the latest, 2nd latest, 3rd latest created entities; latest created..."] = "Укажите 1, чтобы получить самую раннюю дочернюю сущность определенного типа; укажите 0, чтобы получить самую позднюю дочернюю сущность определенного типа.\nПодробнее: 1, 2, 3, 4... — соответственно самая ранняя, вторая по ранности, третья по ранности созданная сущность...\n0, -1, -2, -3... — соответственно самая поздняя, вторая по поздности, третья по поздности созданная сущность…",

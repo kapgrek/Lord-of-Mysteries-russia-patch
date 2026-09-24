@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 240/3ff.
 return {
     ["Mesh-Pumpkin Atmosphere"] = "Mesh — Атмосфера тыкв",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0ff/3ff.
 return {
     ["Advance to <HighLight>Sequence 8 Pugilist</>"] = "Продвижение до <HighLight>Последовательности 8: Кулачный Боец</>",

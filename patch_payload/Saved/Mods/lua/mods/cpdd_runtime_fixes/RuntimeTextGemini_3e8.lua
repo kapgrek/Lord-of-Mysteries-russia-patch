@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e8/3ff.
 return {
     ["Achievement: Gate of Mid-Sequence"] = "Достижение: Врата Средней Последовательности",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3db/3ff.
 return {
     ["Disorder Camp West Interactive Object"] = "Интерактивный объект к западу от лагеря Беспорядка",

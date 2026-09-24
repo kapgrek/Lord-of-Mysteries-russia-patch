@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1ff/3ff.
 return {
     ["Guild League altar not activated"] = "Алтарь гильдейской лиги не активирован",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 197/3ff.
 return {
     ["[UIFrame : UIComponent]:SetImage Failed to set material texture. Texture resource path cannot be empty %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set material texture. Texture resource path cannot be empty %s %s",

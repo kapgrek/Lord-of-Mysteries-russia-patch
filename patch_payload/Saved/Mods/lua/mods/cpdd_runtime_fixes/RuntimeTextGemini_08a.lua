@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 08a/3ff.
 return {
     ["Easy Win: Today's rewards reached <Time>%d</>/1 point."] = "Лёгкая победа: сегодняшняя награда достигла <Time>%d</>/1 очк.",

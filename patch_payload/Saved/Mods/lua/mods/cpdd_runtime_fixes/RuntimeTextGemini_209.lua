@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 209/3ff.
 return {
     ["Thank you for your help, {{Sir|Madam}}. This is a small token of appreciation. I look forward to our next meeting."] = "Благодарю вас за помощь, {{господин|госпожа}}. Примите этот скромный знак признательности. С нетерпением жду нашей следующей встречи.",

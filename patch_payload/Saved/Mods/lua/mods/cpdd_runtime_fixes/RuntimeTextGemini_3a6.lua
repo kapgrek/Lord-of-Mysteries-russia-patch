@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3a6/3ff.
 return {
     ["It is my honor that Miss Hedy can come."] = "Для меня большая честь, что мисс Хеди смогла прийти.",

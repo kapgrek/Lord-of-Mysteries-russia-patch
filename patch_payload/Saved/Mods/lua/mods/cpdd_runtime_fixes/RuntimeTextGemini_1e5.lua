@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1e5/3ff.
 return {
     ["Personal usage count has reached the limit."] = "Достигнут лимит личного использования",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 327/3ff.
 return {
     ["<P_Heart> That just now... shouldn't have been a coincidence. </>"] = "<P_Heart>Только что... это вряд ли было совпадением.</>",

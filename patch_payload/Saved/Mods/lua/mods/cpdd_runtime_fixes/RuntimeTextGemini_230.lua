@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 230/3ff.
 return {
     ["I have five classmates named Selena, and their families are all believers of the Goddess!"] = "У меня пять одноклассниц по имени Селена, и все их семьи истово веруют в Богиню!",

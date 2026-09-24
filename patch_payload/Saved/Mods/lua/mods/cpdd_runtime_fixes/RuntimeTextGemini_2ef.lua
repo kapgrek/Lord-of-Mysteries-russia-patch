@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2ef/3ff.
 return {
     ["In Mr. Fool's revelation, it will have an even more important use in the future."] = "Согласно откровению Господина Шута, в будущем этому найдется куда более важное применение.",

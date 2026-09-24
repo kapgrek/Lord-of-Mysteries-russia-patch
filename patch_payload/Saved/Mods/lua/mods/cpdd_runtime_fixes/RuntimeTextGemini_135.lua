@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 135/3ff.
 return {
     ["Spices will bring more flavor to life. Welcome back next time, Mr./Ms. {{|}}."] = "Пряности придают жизни больше вкуса. Заходите к нам ещё, {{господин|госпожа}}.",

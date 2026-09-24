@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 159/3ff.
 return {
     ["【Mystery Main Story】 Chapter 4 Opening Waypoint"] = "【Основной сюжет】 Глава 4: начальная путевая точка",

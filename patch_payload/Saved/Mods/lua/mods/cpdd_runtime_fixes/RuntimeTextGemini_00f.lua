@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 00f/3ff.
 return {
     ["End-Times Hunt Club Total Kill Count"] = "Общее количество убийств клуба в «Охоте Конца Времен»",

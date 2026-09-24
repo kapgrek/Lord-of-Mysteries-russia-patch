@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2f2/3ff.
 return {
     ["In the corner of the pool, bricks and stones block the flow of water."] = "В углу водоема камни и кирпичи преграждают поток воды.",

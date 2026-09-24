@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 354/3ff.
 return {
     ["Cellar Door Left Open State"] = "Дверь погреба (левая створка открыта)",

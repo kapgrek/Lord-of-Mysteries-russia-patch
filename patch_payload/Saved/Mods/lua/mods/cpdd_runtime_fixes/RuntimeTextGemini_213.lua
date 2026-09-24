@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 213/3ff.
 return {
     ["Mr. Benson, what is the Moretti family usually like?"] = "Мистер Бенсон, а как обычно живут в семье Моретти?",

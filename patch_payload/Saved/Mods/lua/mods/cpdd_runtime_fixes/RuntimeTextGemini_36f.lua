@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 36f/3ff.
 return {
     ["Peak of the Gods · Fierce Battle"] = "Вершина Богов: Ожесточенная битва",

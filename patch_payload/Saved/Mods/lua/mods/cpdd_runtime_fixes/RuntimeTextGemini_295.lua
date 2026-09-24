@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 295/3ff.
 return {
     ["Hmm... interesting. Constructing order based on what one considers \"correctness\"—is that also a form of disorder? Thank you for your answer."] = "Хм... Любопытно. Выстраивать порядок на основе собственной «правильности» — это тоже форма беспорядка? Благодарю за ответ.",

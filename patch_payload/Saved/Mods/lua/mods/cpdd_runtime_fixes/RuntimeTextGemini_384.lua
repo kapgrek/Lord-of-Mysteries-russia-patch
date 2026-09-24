@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 384/3ff.
 return {
     ["*d seconds of Super Armor, movement speed increased by *f**"] = "*d сек. невосприимчивости к контролю, скорость передвижения повышается на *f**",

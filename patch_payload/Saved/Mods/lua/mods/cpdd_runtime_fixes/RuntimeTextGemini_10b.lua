@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 10b/3ff.
 return {
     ["He cares for every living soul; even if you do not believe in \"The Fool,\" you can still enjoy everything the Tarot Academy has to offer."] = "Он проявляет заботу о каждом живом существе, и даже если вы не верите в «Шута», вы все равно можете пользоваться всем, что предлагает Академия Таро.",

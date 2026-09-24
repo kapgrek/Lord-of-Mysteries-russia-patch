@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 25c/3ff.
 return {
     ["Original Work Arc · Chapter 7 · Angelica Introduction"] = "Каноничный сюжет — Глава 7 — Знакомство с Анжеликой",

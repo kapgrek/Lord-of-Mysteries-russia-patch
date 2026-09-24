@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 13f/3ff.
 return {
     ["【Unlock after completing the Advancement Quest and advancing to Sequence 8, try acting as a Fighter】 \n On the streets of Tingen, an old man is sweeping the floor slowly. Two thugs walk toward him, seemingly looking for trouble..."] = "【Открывается после выполнения задания на повышение и перехода на Последовательность 8. Попробуйте сыграть роль Кулачного Бойца】\nНа улице Тингена старик неторопливо подметает мостовую. К нему направляются двое головорезов, явно замышляя недоброе...",

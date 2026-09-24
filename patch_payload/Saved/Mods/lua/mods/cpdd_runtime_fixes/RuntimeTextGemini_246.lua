@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 246/3ff.
 return {
     ["Player Play Main Quest Start Display Interface"] = "Отобразить вступительный экран основного задания игрока",

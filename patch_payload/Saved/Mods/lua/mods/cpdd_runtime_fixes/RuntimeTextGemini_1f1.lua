@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1f1/3ff.
 return {
     ["Another round? Or go back to look after the kids?"] = "Сыграем еще партию? Или пойдешь нянчиться с детьми?",

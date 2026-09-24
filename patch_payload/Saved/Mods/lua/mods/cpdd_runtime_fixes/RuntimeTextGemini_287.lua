@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 287/3ff.
 return {
     ["Let's go. We need to speed up."] = "Пойдём, нам нужно поторопиться.",

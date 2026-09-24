@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2bf/3ff.
 return {
     ["Jingle-ling— (sound of wind chimes grows louder)"] = "Динь-динь-динь... (звон колокольчиков ветра становится громче)",

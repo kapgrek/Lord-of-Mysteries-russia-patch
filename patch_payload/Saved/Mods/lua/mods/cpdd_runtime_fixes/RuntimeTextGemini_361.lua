@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 361/3ff.
 return {
     ["There are, but compared to a few years ago, it's much safer now."] = "Бывают, но по сравнению с тем, что было несколько лет назад, стало гораздо безопаснее.",

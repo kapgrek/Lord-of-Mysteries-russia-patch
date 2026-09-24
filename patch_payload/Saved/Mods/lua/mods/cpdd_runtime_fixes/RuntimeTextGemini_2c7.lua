@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2c7/3ff.
 return {
     ["<RedStage>%s</>/%s pieces of equipment refined to Tier %d %d%% Perfect"] = "<RedStage>%s</>/%s предм. экипировки закалено до %d-го ранга (%d%% совершенства)",

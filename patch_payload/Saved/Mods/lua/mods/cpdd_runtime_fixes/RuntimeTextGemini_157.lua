@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 157/3ff.
 return {
     ["Get out now! Take your dirty luggage and get out!"] = "Немедленно выходи! Забирай свои грязные пожитки и убирайся вон!",

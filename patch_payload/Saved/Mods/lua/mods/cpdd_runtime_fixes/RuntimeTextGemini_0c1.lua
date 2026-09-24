@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0c1/3ff.
 return {
     ["Ground from ox-tooth-shaped rhizomes, used to enhance physical endurance or pain tolerance."] = "Порошок из измельченных корневищ в форме бычьих зубов. Используется для повышения физической выносливости или болевого порога.",

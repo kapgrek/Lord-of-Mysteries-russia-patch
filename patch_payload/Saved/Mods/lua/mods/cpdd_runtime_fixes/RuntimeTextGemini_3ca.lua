@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ca/3ff.
 return {
     ["Open to receive a Competition-oriented <Highlight>Item Level 64 orange quality weapon</> corresponding to your own Pathway."] = "Откройте, чтобы получить состязательное <Highlight>оранжевое оружие 64-го ур. экипировки</> для своего пути.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0e9/3ff.
 return {
     ["Swing the axe to deal <HighLight>160%</> Attack damage, reduce enemy Defense by <HighLight>15</> points for <HighLight>5</> seconds; self Attack Speed Increased by <HighLight>20%</> for 4 seconds."] = "Взмах топором наносит <HighLight>160%</> урона от атаки, снижает защиту врага на <HighLight>15</> ед. на <HighLight>5</> сек. и повышает собственную скорость атаки на <HighLight>20%</> на 4 сек.",

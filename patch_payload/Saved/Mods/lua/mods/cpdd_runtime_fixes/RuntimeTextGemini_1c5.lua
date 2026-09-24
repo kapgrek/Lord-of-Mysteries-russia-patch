@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1c5/3ff.
 return {
     ["Without Mr. Barney, the game won't end!"] = "Без мистера Барни игра тоже не закончится!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1f4/3ff.
 return {
     ["Dual Blades of Legislation"] = "Обоюдоострый клинок закона",

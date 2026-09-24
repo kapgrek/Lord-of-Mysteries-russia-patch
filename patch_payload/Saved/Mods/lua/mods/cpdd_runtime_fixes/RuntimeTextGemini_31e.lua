@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 31e/3ff.
 return {
     ["Chapter 2: Mrs. Brown"] = "Глава 2: Миссис Браун",

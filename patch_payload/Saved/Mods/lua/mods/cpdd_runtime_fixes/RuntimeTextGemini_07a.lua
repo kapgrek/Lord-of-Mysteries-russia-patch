@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 07a/3ff.
 return {
     ["<P_Heart>(Opens the door helplessly)</>...Alright, it's me."] = "<P_Heart>(Беспомощно открывает дверь)</>... Ладно, это я.",

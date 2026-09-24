@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0cf/3ff.
 return {
     ["No problem. Can you allow me to look at your bicycle?"] = "Без проблем. Разрешите взглянуть на ваш велосипед?",

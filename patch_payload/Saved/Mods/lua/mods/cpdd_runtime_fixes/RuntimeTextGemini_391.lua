@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 391/3ff.
 return {
     ["Can you record this moment for me?"] = "Не могли бы вы запечатлеть для меня этот момент?",

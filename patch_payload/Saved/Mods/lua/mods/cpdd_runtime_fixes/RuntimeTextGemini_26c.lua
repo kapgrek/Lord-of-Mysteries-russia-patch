@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 26c/3ff.
 return {
     ["A man in a hood brought the dancing shoes back."] = "Человек в капюшоне принес обратно танцевальные туфли.",

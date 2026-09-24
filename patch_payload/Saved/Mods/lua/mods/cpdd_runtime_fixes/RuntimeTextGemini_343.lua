@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 343/3ff.
 return {
     ["Achievement - Life is Truly Meow Meow and Mi Mi"] = "Достижение — Жизнь полна «мяу» и «мур»",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 315/3ff.
 return {
     ["Anthea and Mr. Barney are too close; their damage has increased!"] = "Антея и мистер Барни находятся слишком близко друг к другу — их урон увеличился!",

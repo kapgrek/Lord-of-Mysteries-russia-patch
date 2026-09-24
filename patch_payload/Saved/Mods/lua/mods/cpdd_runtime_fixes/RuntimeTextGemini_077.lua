@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 077/3ff.
 return {
     ["Spawn Point - Mrs. Slin's Bakery"] = "Точка возрождения · Булочная миссис Слин",

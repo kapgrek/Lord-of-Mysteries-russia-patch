@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3f1/3ff.
 return {
     ["Number of personal recruitment displays per batch"] = "Количество личных наборов за партию",

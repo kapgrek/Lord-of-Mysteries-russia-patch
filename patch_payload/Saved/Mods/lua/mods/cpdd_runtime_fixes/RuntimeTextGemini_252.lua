@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 252/3ff.
 return {
     ["Movement speed reduced by *f**, stamina recovery speed reduced by *f**."] = "Скорость передвижения снижена на *f**, скорость восстановления выносливости снижена на *f**.",

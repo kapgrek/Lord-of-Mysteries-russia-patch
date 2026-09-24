@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2da/3ff.
 return {
     ["Experience various gameplay modes such as dungeons, competition, and exploration to obtain equipment."] = "Проходите подземелья, участвуйте в PvP и исследуйте мир, чтобы добыть снаряжение.",

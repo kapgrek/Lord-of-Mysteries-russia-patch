@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 224/3ff.
 return {
     ["You can bet on which dog is the best 'hunter', or even bet on how many they can catch!"] = "Вы можете сделать ставку на то, какой пес окажется лучшим «охотником», и даже на то, сколько именно они поймают!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0f7/3ff.
 return {
     ["Book of June  —  Lv 62 | Spectator | 3 m | Inspect"] = "Книга Июня — 62 ур. | Зритель | 3 м | Осмотреть",

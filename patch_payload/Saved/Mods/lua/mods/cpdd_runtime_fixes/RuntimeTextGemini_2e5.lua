@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2e5/3ff.
 return {
     ["But also remain vigilant at all times; some students love pranks, so be Cautious when dealing with potions you consume."] = "Но всегда оставайтесь настороже: некоторые ученики обожают шутить, так что будьте предельно осторожны с зельями, которые принимаете внутрь.",

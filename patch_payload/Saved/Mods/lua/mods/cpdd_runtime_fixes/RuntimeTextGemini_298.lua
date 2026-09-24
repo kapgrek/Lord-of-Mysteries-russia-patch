@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 298/3ff.
 return {
     ["Their family has reunited... it must be so..."] = "Их семья воссоединилась... Должно быть, так и есть...",

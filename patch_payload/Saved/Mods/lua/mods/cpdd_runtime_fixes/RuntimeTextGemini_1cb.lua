@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1cb/3ff.
 return {
     ["5230413 Cafe - Copy"] = "5230413   Кафе   Текстовая копия",

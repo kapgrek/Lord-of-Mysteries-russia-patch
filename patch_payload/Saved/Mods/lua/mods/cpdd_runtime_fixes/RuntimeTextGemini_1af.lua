@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1af/3ff.
 return {
     ["Engage in melee containment and release a Lightning Ray."] = "Сдерживает противника в ближнем бою и испускает молниевый луч.",

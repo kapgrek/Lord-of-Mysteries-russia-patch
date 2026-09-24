@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 22d/3ff.
 return {
     ["Dispel \"Demon Wolf Invisibility\" buff when added, cannot be added with \"Demon Wolf Invisibility\" buff during the duration"] = "При наложении рассеивает бафф «Невидимость демонического волка»; во время действия невозможно получить бафф «Невидимость демонического волка».",

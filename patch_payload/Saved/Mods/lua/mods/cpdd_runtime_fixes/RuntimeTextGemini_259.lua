@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 259/3ff.
 return {
     ["Item to unlock motion capture action slots."] = "Предмет для открытия ячеек мокап-анимаций",

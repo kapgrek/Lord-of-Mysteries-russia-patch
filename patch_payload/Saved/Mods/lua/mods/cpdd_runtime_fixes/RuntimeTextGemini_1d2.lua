@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1d2/3ff.
 return {
     ["Whether to enable Faction War Auction"] = "Открыть аукцион битвы фракций?",

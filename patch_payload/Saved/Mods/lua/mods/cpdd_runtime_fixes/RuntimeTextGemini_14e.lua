@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 14e/3ff.
 return {
     ["Warrior - Stance Switch - Activate Passive"] = "Воин — Смена стойки — Активация пассивного эффекта",

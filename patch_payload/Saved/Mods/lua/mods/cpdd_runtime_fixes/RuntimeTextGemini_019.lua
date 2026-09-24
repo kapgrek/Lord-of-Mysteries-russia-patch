@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 019/3ff.
 return {
     ["Parameter 1: position index (1-8)."] = "Параметр 1: номер позиции (1-8)",

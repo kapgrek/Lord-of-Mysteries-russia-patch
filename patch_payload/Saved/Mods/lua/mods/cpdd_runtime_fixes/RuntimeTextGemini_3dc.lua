@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3dc/3ff.
 return {
     ["Club Brawl Runner-up"] = "Второе место в потасовке клубов",

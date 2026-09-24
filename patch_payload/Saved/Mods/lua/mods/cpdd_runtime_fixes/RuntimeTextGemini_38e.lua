@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 38e/3ff.
 return {
     ["When Luck is full, you can obtain a gold six-star marionette."] = "При максимальной Удаче можно получить золотую шестизвёздочную марионетку.",

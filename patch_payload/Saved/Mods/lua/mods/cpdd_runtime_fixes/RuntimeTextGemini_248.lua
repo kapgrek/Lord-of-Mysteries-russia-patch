@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 248/3ff.
 return {
     ["<Assistant_Title1>【Enlightenment of the Star Chart】</>\n<Assistant_Title2>Description: </>Coven level reward outfit\n<Assistant_Title2>Use: </>Use to obtain the Enlightenment of the Star Chart set. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\n<Assistant_Title2>Acquisition: </>Coven level unlock"] = "<Assistant_Title1>【Озарение звездной карты】</>\n<Assistant_Title2>Описание: </>Наряд за уровень культа\n<Assistant_Title2>Использование: </>Используйте, чтобы получить комплект «Озарение звездной карты». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить его.\n<Assistant_Title2>Получение: </>Открывается с повышением уровня культа",

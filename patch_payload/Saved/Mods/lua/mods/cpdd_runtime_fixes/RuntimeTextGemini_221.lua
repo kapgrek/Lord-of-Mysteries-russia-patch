@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 221/3ff.
 return {
     ["Go to Tingen (This will automatically clear all non-bound Scarlet Relics you are carrying)"] = "Отправиться в Тинген (все имеющиеся у вас непривязанные алые реликвии будут удалены)",

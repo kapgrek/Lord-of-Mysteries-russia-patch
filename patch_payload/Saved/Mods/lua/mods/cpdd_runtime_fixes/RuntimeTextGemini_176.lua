@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 176/3ff.
 return {
     ["Obtain <PVPHighlight> %s </> <img id=\"2000502\"/> by assisting Beyonders <PVPHighlight> %s </> of the same team in killing monsters they summoned."] = "Помогая Потустороннему из своей команды <PVPHighlight>%s</> убивать призванных им монстров, вы получите <PVPHighlight>%s</><img id=\"2000502\"/>.",

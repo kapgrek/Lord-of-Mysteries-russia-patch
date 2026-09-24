@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 058/3ff.
 return {
     ["false: Defaults to querying the holder's \n true: Queries the ActionTarget's."] = "false: по умолчанию проверяет владельца\ntrue: проверяет ActionTarget",

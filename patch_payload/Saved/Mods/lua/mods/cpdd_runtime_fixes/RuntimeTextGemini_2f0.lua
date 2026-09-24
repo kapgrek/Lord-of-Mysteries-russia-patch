@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2f0/3ff.
 return {
     ["Succeed in the check to gain a 5% total score bonus in the appearance duel"] = "Успешная проверка дает +5% к общему счету в дуэли обликов.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1db/3ff.
 return {
     ["Golden Autumn Lake/Tingen interaction Sanity loss - 1"] = "Озеро Золотой Осени / Тинген: потеря Рассудка (SAN) при взаимодействии - 1",

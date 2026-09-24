@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 08d/3ff.
 return {
     ["Connection Topic - Audrey 3: About the Foundation"] = "Тема связи — Одри 3: О Фонде",

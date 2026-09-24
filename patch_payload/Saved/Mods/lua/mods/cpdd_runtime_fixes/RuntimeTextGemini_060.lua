@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 060/3ff.
 return {
     ["...<P_Heart> (Sighs in relief) </> I used to think that breathing and heartbeat were symbols of life, but I have had many doubts recently."] = "...<P_Heart>（Вздыхает с облегчением）</> Раньше я думал, что дыхание и сердцебиение — это признаки жизни, но в последнее время у меня появилось много сомнений.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0d4/3ff.
 return {
     ["The <Dungeon_Disable> Guardian Statue </> is about to release a laser blessing exclusive to Milgongen; be sure to intercept it as soon as possible!!"] = "<Dungeon_Disable>Статуя-хранитель</> вот-вот выпустит благословляющий лазер для Мильгонгена, обязательно перехватите его как можно скорее!!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 23e/3ff.
 return {
     ["You have gained some sword art insights of the Warrior Pathway Sequence 6, Dawn Knight, Attack increased by 30%. Every swing of yours is as sharp as the dawn of daybreak, capable of tearing through the veil of darkness."] = "Вы постигли некоторые секреты фехтования Последовательности 6 пути Воина, «Рыцаря Рассвета»: сила атаки увеличена на 30%. Каждый ваш взмах клинка столь же остер, как первый луч утренней зари, и способен рассечь саму завесу тьмы.",

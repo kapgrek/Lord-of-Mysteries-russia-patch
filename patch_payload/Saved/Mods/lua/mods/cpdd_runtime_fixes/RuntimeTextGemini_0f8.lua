@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0f8/3ff.
 return {
     ["…The state just now was very strange; perhaps its mental influence hasn't dissipated yet. I must thank you again for your reminder."] = "…Только что было очень странное состояние, возможно, его ментальное влияние еще не рассеялось. Должен еще раз поблагодарить тебя за предупреждение.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 012/3ff.
 return {
     ["Hey you brat over there, be quiet when playing with the dog! I can't lose anymore!"] = "Эй, сопляк, потише там со своей собакой! Мне больше нельзя проигрывать!",

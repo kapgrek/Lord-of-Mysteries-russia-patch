@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e2/3ff.
 return {
     ["Instantly transform into a Hound and dash a long distance forward, dealing damage to enemies in your path."] = "Мгновенно превратитесь в гончую и совершите длинный рывок вперёд, нанося урон врагам на своём пути.",

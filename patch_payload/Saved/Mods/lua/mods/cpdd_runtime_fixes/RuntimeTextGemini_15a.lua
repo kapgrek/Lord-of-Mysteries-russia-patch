@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 15a/3ff.
 return {
     ["Newspaper, newspaper, 'Tingen Honest Daily', 'Tingen Morning Post', 'Tussock Times'."] = "Свежие газеты! «Тингенский честный человек», «Утренний вестник Тингена», «Вестник Тассок»!",

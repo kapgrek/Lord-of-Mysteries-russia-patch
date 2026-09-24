@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 103/3ff.
 return {
     ["Don't be shy, {{young man|young lady}}, come and join us!"] = "Не стесняйся, {{парень|девушка}}, присоединяйся к нам!",

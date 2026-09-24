@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 172/3ff.
 return {
     ["<CostRed>{ 1, 2, (Brand has expired) }</>Crit rate increased by <Mark>190</>. After entering combat, crit rate is further increased; every <Mark>5</> seconds, crit rate increases by <Mark>10</>, with a maximum additional increase of <Mark>80</>. \nDoes not take effect when the set <Mark>Covenant of Iron and Blood</> is activated."] = "<CostRed>{1,2,(клеймо утратило силу)}</>Критический удар увеличивается на <Mark>190</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. увеличивается на <Mark>10</>, максимум на <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",

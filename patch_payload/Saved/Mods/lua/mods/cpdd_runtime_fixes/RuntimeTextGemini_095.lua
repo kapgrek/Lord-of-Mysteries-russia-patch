@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 095/3ff.
 return {
     ["Black Emperor arrow 3"] = "Стрелка Черного Императора 3",

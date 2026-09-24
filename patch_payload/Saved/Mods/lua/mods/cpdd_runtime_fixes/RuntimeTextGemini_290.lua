@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 290/3ff.
 return {
     ["After thanking you, the girl turns and walks away quietly."] = "Поблагодарив вас, девушка тихо развернулась и ушла.",

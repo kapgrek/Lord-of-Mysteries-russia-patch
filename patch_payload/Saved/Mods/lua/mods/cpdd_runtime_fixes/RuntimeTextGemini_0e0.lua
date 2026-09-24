@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0e0/3ff.
 return {
     ["Swap positions with a detached skill created by self."] = "Поменяться местами с созданной автономной способностью",

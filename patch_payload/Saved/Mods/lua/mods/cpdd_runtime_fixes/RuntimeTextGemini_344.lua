@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 344/3ff.
 return {
     ["If the next stop <LightHighlight> is 【Food Shop】 </>, the quantity of Golden items currently held increases by <LightHighlight> 60% </>"] = "Если следующая остановка <LightHighlight>— 【Лавка снеди】</>, количество имеющихся золотых предметов увеличится на <LightHighlight>60%</>",

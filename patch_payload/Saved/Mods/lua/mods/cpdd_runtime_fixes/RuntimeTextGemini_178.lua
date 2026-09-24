@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 178/3ff.
 return {
     ["If I become their lady, I won't have to wash clothes for others anymore. I wouldn't have to save up for three months just to come here..."] = "Стань я их госпожой, мне бы больше не пришлось стирать чужое белье. И чтобы прийти сюда, не нужно было бы копить деньги три месяца...",

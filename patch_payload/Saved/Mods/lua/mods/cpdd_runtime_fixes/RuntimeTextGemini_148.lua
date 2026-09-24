@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 148/3ff.
 return {
     ["Sorry... for bothering you. I just... just can't quite adapt to my current life."] = "Простите... что потревожил вас. Я просто... просто еще не совсем привык к нынешней жизни.",

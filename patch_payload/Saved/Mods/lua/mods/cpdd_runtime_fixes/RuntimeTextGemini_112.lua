@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 112/3ff.
 return {
     ["When true, Damage Reflection damage will not trigger this event"] = "Если true, урон от отражения не вызывает это событие",

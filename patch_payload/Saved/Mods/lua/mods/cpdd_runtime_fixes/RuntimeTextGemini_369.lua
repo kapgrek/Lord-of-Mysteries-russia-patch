@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 369/3ff.
 return {
     ["After use, you can advance to Sequence 7: Weapon Master potion, which contains mysterious power."] = "Зелье, позволяющее после употребления перейти на Последовательность 7: Мастер Оружия; таит в себе таинственную силу.",

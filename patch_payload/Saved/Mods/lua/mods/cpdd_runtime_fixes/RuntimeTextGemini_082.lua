@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 082/3ff.
 return {
     ["Steel mill female ghost 1"] = "Призрак женщины на сталелитейном заводе 1",

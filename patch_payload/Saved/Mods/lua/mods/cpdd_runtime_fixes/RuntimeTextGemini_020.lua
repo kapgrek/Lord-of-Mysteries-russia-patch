@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 020/3ff.
 return {
     ["The total Beyonder rating bonus provided by the Sealed Artifact system consists of the sum of Beyonder ratings provided by individual Sealed Artifacts and the sum of Beyonder ratings provided by domain activation effects. \nThe Beyonder rating provided by Sealed Artifacts consists of their inherent Beyonder rating, Beyonder rating increases from upgrades, and Beyonder rating increases from breakthroughs. \nThe Beyonder rating provided by the domain is provided by the Beyonder rating of various bonuses unlocked stage-by-stage through core resonance."] = "Общий бонус Потустороннего рейтинга от системы Запечатанных Артефактов складывается из суммы оценок отдельных Запечатанных Артефактов и эффектов активации домена.\nПотусторонний рейтинг Запечатанного Артефакта состоит из его базовой оценки, прибавки от улучшения и прибавки от прорыва.\nПотусторонний рейтинг домена формируется за счет бонусов, поэтапно открываемых через ключевой резонанс.",

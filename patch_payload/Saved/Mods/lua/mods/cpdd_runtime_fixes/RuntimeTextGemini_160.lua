@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 160/3ff.
 return {
     ["1. Different Castles have different <Highlight> products purchased at high prices </> each week; you can visit friends' Castles to sell products. \n 2. Add more friends to <Highlight> make it easier to find and sell high-priced products </>. \n 3. When <Highlight> selling products at the Castle </>, the selling price can also be <Highlight> increased in the following ways </>: increasing intimacy between friends, increasing the total Castle rating, increasing the Fashion Value, etc."] = "1. В разных замках каждую неделю действуют разные <Highlight>высокие цены выкупа товаров</>; вы можете отправиться в замок друга, чтобы продать товары.\n2. Добавляйте больше друзей, чтобы было <Highlight>проще находить и продавать товары по выгодной цене</>.\n3. При <Highlight>продаже товаров в замке</> цену можно дополнительно <Highlight>повысить следующими способами</>: повышая уровень близости с друзьями, повышая общий рейтинг замка, повышая показатель стиля и т. д.",

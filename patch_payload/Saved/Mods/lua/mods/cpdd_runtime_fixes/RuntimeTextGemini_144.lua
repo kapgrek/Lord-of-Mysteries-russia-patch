@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 144/3ff.
 return {
     ["Dunn Acting - Leonard"] = "Отыгрыш Данна — Леонард",

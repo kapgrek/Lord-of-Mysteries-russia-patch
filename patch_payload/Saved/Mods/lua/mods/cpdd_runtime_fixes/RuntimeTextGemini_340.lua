@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 340/3ff.
 return {
     ["Haha, The Honest Man has always had this style; it's our favorite bathroom reading material as commoners!"] = "Ха-ха, газета «Честный человек» всегда выдержана в таком стиле, это излюбленное чтиво для уборной среди нас, простолюдинов!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2fb/3ff.
 return {
     ["Area 4 Place Sword Purification Sequence TBD, might only use effects"] = "Зона 4: сиквенс очищения возложением меча (TBD, возможно, только спецэффекты)",

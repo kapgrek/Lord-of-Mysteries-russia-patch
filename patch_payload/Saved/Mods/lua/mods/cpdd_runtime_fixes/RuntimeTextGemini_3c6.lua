@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3c6/3ff.
 return {
     ["Maximum of 60 official members, 15 reserve members."] = "Лимит основных участников — 60, запасных участников — 15.",

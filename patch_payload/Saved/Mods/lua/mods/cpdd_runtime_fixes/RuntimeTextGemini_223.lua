@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 223/3ff.
 return {
     ["And the duty of a Corpse Collector is to escort them through their final journey with dignity."] = "А обязанность Сборщика Трупов — с достоинством проводить их в последний путь.",

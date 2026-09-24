@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1bd/3ff.
 return {
     ["Each pathway has 10 sequences, from Sequence 9 to Sequence 0. Under normal circumstances, there can only be one Sequence 0 or three Sequence 1s in the same pathway. The number of Sequence 2s varies by pathway; for example, when the quota for Sequence 1 is full, there can only be six Sequence 2s."] = "Каждый Путь включает 10 Последовательностей — от Последовательности 9 до Последовательности 0. В обычных условиях на одном Пути может существовать лишь один представитель Последовательности 0 или трое представителей Последовательности 1. Допустимое число представителей Последовательности 2 различается в зависимости от Пути: например, если все места Последовательности 1 заняты, представителей Последовательности 2 может быть не более шести.",

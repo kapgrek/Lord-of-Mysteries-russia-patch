@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 27b/3ff.
 return {
     ["Boxing Champion Henry"] = "Чемпион по боксу Генри",

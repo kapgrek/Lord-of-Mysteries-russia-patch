@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3df/3ff.
 return {
     ["The Fourth Epoch is also known as the Epoch of the Gods, an era when deities walked the earth. In that epoch, there were four great empires: the Solomon Empire, the Tudor Dynasty, the Trunsoest Empire, and the Balam Empire."] = "Четвёртая Эпоха также известна как Эпоха Богов — время, когда божества ступали по земле. В ту эпоху существовали четыре великие империи: Империя Соломона, Династия Тюдор, Империя Тренсоэст и Империя Балам.",

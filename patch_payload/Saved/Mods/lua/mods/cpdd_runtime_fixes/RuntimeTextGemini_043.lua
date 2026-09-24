@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 043/3ff.
 return {
     ["Go to Star Plateau"] = "Отправляйтесь на Звёздное плато",

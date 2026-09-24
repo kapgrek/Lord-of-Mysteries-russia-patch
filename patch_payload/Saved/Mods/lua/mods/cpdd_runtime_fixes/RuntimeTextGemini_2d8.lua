@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2d8/3ff.
 return {
     ["Listen to the flowing water, wash away the whispers in your ears."] = "Прислушайся к журчанию воды, смой шепотки в ушах",

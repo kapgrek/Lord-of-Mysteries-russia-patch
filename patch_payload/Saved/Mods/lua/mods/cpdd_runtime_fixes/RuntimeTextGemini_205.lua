@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 205/3ff.
 return {
     ["<Highlight> Current hunting quest completed </>, the echo of sighs still lingers, you can continue to <Highlight> hunt other enemies and seize more rank points </>. \n \n Or, present the seized <Highlight> Hunting Progress </> and <Highlight> Scarlet Relics </> to the pale figure who calls himself the <Highlight> Hunting Butler </> to exchange for <Highlight> that Beyonder gift belonging to you </>."] = "<Highlight>Текущее задание охоты выполнено</>, но эхо вздохов все еще разносится вокруг. Вы можете продолжить <Highlight>охоту на других врагов, чтобы заработать больше рейтинговых очков</>.\n\nИли же отдайте добытый <Highlight>прогресс охоты</> и <Highlight>Алые реликвии</> бледному силуэту, называющему себя <Highlight>Дворецким охоты</>, чтобы получить <Highlight>причитающийся вам Потусторонний дар</>.",

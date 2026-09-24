@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3a1/3ff.
 return {
     ["Why be a kidnapper? Can't you just happily be a civilized person?"] = "Зачем становиться похитителем? Неужели нельзя просто радоваться жизни и быть цивилизованным человеком?",

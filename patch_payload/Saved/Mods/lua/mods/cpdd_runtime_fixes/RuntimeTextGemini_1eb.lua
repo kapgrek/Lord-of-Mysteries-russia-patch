@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1eb/3ff.
 return {
     ["Restores *d Health every 2 seconds to friendly units within the 4-meter radius magic circle."] = "Каждые 2 сек. восстанавливает *d ед. ОЗ союзникам в магическом круге радиусом 4 м",

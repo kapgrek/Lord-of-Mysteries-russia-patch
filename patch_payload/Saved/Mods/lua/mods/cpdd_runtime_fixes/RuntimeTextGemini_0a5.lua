@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0a5/3ff.
 return {
     ["The sharp cliffs point straight to the sky, like a silent questioning."] = "Остроконечные утесы устремлены прямо в небеса, словно безмолвный укор.",

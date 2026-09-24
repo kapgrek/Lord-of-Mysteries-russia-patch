@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 187/3ff.
 return {
     ["Carrying out the will of my Lord, drive away the Demon Wolf!"] = "Следуя воле моего Господа, изгоните Демонического Волка!",

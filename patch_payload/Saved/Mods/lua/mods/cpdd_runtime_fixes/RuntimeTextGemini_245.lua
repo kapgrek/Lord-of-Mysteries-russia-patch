@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 245/3ff.
 return {
     ["This... next time, next time for sure! I have things to do and must leave first!"] = "Э-э... в следующий, в следующий раз обязательно! У меня дела, так что я побегу!",

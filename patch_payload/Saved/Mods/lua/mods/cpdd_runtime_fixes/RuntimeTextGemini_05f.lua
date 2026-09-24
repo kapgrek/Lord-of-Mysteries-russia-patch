@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 05f/3ff.
 return {
     ["Before Mr. Fool fell into a deep sleep, he discovered a special cocoon of light. To strive for more Hope to fight against the apocalypse……"] = "Перед тем как погрузиться в глубокий сон, Господин Шут обнаружил особый кокон света. Чтобы обрести больше надежды в грядущей битве с Апокалипсисом...",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 015/3ff.
 return {
     ["5231242 Destiny Cafe Single-Player Instance"] = "5231242   Кафе «Судьба»   Одиночное измерение",

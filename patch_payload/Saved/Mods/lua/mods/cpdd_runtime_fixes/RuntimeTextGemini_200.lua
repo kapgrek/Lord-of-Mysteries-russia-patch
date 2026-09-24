@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 200/3ff.
 return {
     ["Everything is fine, we successfully completed that mission and saved many people... you were the only sacrifice."] = "Все в порядке. Мы успешно выполнили то задание и спасли многих... Ты был единственным, кто погиб.",

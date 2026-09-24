@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 13c/3ff.
 return {
     ["The dancing shoes! Tia committed suicide by jumping into the incinerator wearing those shoes! At night, the dancing shoes appeared in the textile factory again!"] = "Туфельки! Тия надела эти туфельки и бросилась в мусоросжигатель! А ночью они снова появились на текстильной фабрике!",

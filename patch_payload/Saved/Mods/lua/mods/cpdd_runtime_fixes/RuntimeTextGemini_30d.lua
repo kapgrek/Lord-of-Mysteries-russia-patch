@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 30d/3ff.
 return {
     ["Candlestick model - Low"] = "Модель подсвечника (низкая)",

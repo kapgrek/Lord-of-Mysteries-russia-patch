@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1c1/3ff.
 return {
     ["My spirituality hasn't fully recovered; I'll have to leave the rest to you! Please, you must persuade my mother!"] = "Моя духовность еще не полностью восстановилась, так что дальше придется действовать тебе! Пожалуйста, непременно убеди мою мать!",

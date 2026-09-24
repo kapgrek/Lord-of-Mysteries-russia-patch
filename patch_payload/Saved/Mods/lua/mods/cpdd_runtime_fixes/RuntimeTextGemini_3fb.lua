@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3fb/3ff.
 return {
     ["Obtain 1 Beyonder material with the {Deception Mentor} entry"] = "Получите 1 Потусторонний материал со свойством {Наставник обмана}",

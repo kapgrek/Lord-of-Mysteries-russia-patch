@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1da/3ff.
 return {
     ["<Assistant_Title1>【Display Stand·Crossed Arms】</>\n<Assistant_Title2>Description: </>Rank Reward Display Stand Action\n<Assistant_Title2>Usage: </>After use, you will obtain Display Stand·Crossed Arms. You can click <Assistant_System>Appearance-Display Stand</> to view and use it.\n<Assistant_Title2>Acquisition: </><Assistant_System>Easy Win-Ranked Ladder</>Obtained upon reaching a certain rank"] = "<Assistant_Title1>【Стенд: Скрещенные руки】</>\n<Assistant_Title2>Описание: </>поза для стенда в награду за ранг\n<Assistant_Title2>Применение: </>после использования дает «Стенд: Скрещенные руки». Можно просмотреть и применить в меню <Assistant_System>Внешний вид — Стенд</>.\n<Assistant_Title2>Получение: </><Assistant_System>Легкая победа — Рейтинговая лестница</>, дается по достижении определенного ранга",

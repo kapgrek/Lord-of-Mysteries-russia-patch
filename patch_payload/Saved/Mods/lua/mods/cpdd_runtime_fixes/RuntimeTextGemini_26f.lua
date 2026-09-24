@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 26f/3ff.
 return {
     ["[May Manor] Hound - Tail Shot - Random 3 Targets | Priority Output"] = "【Поместье Мэй】Гончая — Выстрел из хвоста — Случайные 3 цели | Приоритет урона",

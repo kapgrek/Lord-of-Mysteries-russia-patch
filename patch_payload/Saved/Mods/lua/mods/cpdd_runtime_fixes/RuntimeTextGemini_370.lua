@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 370/3ff.
 return {
     ["<P_Heart> (Whispering) </> The maid found for Mrs. Cyril can't be too smart, otherwise, she'll be too hard to manage."] = "<P_Heart>(Тихо)</> Горничная для миссис Сирил не должна быть слишком сообразительной, иначе с ней будет не сладить.",

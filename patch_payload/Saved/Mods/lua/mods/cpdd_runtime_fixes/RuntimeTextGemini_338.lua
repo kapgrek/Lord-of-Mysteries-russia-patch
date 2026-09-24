@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 338/3ff.
 return {
     ["Participate in the dungeon <Highlight>May Manor Castle (Normal)</>, after completing the stage <Highlight>Viscountess</>, there is a chance to obtain the following items."] = "Пройдите подземелье <Highlight>Замок поместья Мэй (обычный)</>: после завершения этапа <Highlight>Виконтесса</> есть вероятность получить следующие предметы.",

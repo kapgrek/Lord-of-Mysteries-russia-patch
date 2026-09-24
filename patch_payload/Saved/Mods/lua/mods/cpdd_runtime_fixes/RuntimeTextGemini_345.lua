@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 345/3ff.
 return {
     ["The Pale Disaster reappears on the Star Plateau. The ancient battlefield that once stagnated in the Fourth Epoch has been reactivated."] = "Бледная Катастрофа вновь охватила Звездное плато. Древнее поле битвы, застывшее в Четвертой Эпохе, пробудилось вновь.",

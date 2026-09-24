@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0b6/3ff.
 return {
     ["The clues provided by Rebecca are very timely. This small copper mirror is the breakthrough point, Rozanne should have one too."] = "Зацепка Ребекки оказалась очень своевременной. Это маленькое медное зеркальце — наш ключ к разгадке. У Розанны тоже должно быть такое.",

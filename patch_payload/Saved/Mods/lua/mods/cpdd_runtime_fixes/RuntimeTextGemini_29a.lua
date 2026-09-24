@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 29a/3ff.
 return {
     ["Zhou Haitao-Hidden Path Component Start"] = "Чжоу Хайтао — начало компонента скрытого пути",

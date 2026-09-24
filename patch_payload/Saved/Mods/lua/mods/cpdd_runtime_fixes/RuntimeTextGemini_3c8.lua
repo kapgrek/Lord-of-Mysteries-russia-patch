@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3c8/3ff.
 return {
     ["I am very grateful. He gave me a chance to survive and let me meet other members... The Hanged Man, Justice, The Sun."] = "Я бесконечно благодарен. Он дал мне шанс выжить и познакомил с другими членами... Висельником, Справедливостью, Солнцем.",

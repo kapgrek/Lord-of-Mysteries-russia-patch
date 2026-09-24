@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2a7/3ff.
 return {
     ["Gao Yang-Hidden Path Component Impassable Grid"] = "Гао Ян — непроходимая клетка компонента скрытого пути",

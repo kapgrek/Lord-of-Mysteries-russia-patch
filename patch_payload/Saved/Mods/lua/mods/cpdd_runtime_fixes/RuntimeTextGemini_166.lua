@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 166/3ff.
 return {
     ["Hey, don't touch our trash."] = "Эй, не трогай наш мусор!",

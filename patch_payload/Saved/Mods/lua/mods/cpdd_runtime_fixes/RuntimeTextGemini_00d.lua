@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 00d/3ff.
 return {
     ["The objective human physical shell itself"] = "Материальная телесная оболочка человека",

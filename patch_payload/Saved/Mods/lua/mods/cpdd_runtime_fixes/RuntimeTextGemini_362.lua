@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 362/3ff.
 return {
     ["<Assistant_Title1>Combat Novice · III</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Any Skill reaches Level 15"] = "<Assistant_Title1>Боевой новичок · III</>\n<Assistant_Title2>Категория достижения: </>Развитие — Рост\n<Assistant_Title2>Условие разблокировки: </>Повысить любой навык до 15-го уровня",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 175/3ff.
 return {
     ["This gun might be able to be used with Demon Hunter Bullets... let it continue to guard the citizens of Tingen."] = "Этот револьвер, возможно, подойдёт для охотничьих пуль на демонов... пусть он и дальше защищает жителей Тингена.",

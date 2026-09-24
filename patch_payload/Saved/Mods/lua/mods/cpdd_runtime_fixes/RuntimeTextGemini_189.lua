@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 189/3ff.
 return {
     ["Need to check if this step can be saved"] = "Нужно проверить, сохраняется ли этот шаг",

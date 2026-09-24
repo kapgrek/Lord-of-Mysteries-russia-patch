@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3c1/3ff.
 return {
     ["Participating in the dungeon <Highlight>May Manor · Garden (Hard)</> gives a chance to obtain the following appearances."] = "Участвуя в подземелье <Highlight>Поместье Мэй: Сад (сложно)</>, можно с некоторой вероятностью получить следующие элементы облика.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 349/3ff.
 return {
     ["You have not reached the %s level requirement for the %s item."] = "Вы еще не достигли нужного для предмета %s уровня: %s.",

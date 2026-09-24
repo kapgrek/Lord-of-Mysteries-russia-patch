@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1de/3ff.
 return {
     ["Unlocked when Iron Fire Workshop reaches Level 2"] = "Открывается по достижении мастерской «Железо и пламя» 2-го уровня",

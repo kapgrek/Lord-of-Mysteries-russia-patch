@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 133/3ff.
 return {
     ["You should be able to tell that I can maintain my balance on a wooden barrel placed horizontally."] = "Ты, должно быть, и сам видишь: я могу удерживать равновесие на лежащей бочке.",

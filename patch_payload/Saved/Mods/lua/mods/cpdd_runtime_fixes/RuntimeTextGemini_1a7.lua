@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1a7/3ff.
 return {
     ["Of course, seeing is believing. If you like what you see, go chat for a bit, no need to be restrained. There aren't that many rules here."] = "Конечно, лучше один раз увидеть, чем сто раз услышать. Если кто-то приглянется — подойдите и поболтайте, не стесняйтесь. Строгих правил здесь нет.",

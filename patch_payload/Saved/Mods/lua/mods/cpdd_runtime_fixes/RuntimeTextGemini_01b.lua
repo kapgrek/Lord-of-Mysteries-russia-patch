@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 01b/3ff.
 return {
     ["Effective after joining the cult [Spring Night Ball], you can initiate charm against players."] = "Действует после вступления в культ «Бал весенней ночи». Позволяет очаровывать других игроков.",

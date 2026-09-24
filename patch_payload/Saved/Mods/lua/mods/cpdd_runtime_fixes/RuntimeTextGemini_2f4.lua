@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2f4/3ff.
 return {
     ["[Auto-Chess] Derrick - Basic Attack"] = "【Автошахматы】Деррик — Простая атака",

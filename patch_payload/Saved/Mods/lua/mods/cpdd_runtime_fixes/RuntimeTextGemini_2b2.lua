@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2b2/3ff.
 return {
     ["A fountain that can talk and strike people? Let's go take a look."] = "Бассейн, который умеет говорить и ещё и молниями разит? Пойдём взглянем.",

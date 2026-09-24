@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1cf/3ff.
 return {
     ["Light bug position 2 drive forward"] = "Световой жук — позиция 2: движение вперёд",

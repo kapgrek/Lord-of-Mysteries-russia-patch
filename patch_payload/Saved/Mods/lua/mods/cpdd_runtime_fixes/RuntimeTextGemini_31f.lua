@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 31f/3ff.
 return {
     ["The drunkard leaves the rooftop with you."] = "Пьяница уходит с крыши вместе с вами.",

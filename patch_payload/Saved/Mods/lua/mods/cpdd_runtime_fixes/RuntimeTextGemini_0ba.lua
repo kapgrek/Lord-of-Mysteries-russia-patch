@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0ba/3ff.
 return {
     ["boss Step on Trap Slow"] = "Замедление босса при попадании в ловушку",

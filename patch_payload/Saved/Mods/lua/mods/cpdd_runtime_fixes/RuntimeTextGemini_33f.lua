@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 33f/3ff.
 return {
     ["An excellent emperor often balances the power between his ministers. In the past, you were stabbed in the back by your ministers. This time, what do you intend to do?"] = "Мудрый император всегда умеет балансировать между силами своих подданных. В прошлом приближенные вонзили тебе нож в спину. Что же ты намерен делать на этот раз?",

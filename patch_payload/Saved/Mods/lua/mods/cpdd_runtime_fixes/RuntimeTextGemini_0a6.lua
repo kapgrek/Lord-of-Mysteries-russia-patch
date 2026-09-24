@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0a6/3ff.
 return {
     ["Partner - Derrick Berg - Holy Light Protection"] = "Спутник — Деррик Берг — Защита Святого Света",

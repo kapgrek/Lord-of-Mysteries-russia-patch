@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3cb/3ff.
 return {
     ["<Assistant_Title1>【Sunshine】</>\n<Assistant_Title2>Description: </>Rank Reward Accessory\n<Assistant_Title2>Usage: </>After use, you will obtain Sunshine. You can click <Assistant_System>Appearance-Outfit</> to view and use it.\n<Assistant_Title2>Acquisition: </><Assistant_System>Easy Win-Ranked Ladder</>Obtained upon reaching a certain rank"] = "<Assistant_Title1>【Сияние солнца】</>\n<Assistant_Title2>Описание: </>Наградное украшение за ранг\n<Assistant_Title2>Использование: </>После использования вы получите «Сияние солнца». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить его.\n<Assistant_Title2>Получение: </><Assistant_System>Легкая победа — Рейтинговая лестница</>, дается за достижение определенного ранга",

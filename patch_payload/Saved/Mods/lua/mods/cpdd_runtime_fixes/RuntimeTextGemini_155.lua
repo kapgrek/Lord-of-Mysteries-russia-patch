@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 155/3ff.
 return {
     ["If you have time, you can go in and help Mr. Scharf."] = "Если у вас есть время, можете зайти и помочь господину Шарфу.",

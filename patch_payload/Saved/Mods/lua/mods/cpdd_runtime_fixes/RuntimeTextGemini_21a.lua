@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 21a/3ff.
 return {
     ["<DecH>Craftsmanship: </>Blue-White Lace\nEven if you are an unexpected guest, please observe the etiquette of dress. Put on the playful blue-white lace dress and join the whimsical tea party."] = "<DecH>Мастерство: </>Сине-белое кружево\nДаже если вы незваный гость, соблюдайте правила приличия в одежде. Наденьте кокетливое платье из сине-белого кружева и присоединяйтесь к причудливому чаепитию.",

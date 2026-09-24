@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1f7/3ff.
 return {
     ["It is ready at any time to impose a new ruling."] = "Оно готово в любой момент скрепить печатью новый вердикт.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 081/3ff.
 return {
     ["Soil contaminated by Spirit World creatures"] = "Земля, осквернённая существами из Мира Духов",

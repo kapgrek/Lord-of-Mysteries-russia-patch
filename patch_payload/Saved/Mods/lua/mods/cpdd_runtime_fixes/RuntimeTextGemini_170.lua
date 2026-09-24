@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 170/3ff.
 return {
     ["This melody is not my creation. I accidentally heard a sweet young girl named Trissy hum it in Backlund many years ago."] = "Эта мелодия написана не мной. Много лет назад в Бэкланде я случайно услышал, как её напевала одна милая девушка по имени Трисси.",

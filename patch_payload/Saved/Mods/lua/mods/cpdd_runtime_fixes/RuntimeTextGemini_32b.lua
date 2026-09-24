@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 32b/3ff.
 return {
     ["When participating in the Dominator's Clash and winning, it is automatically consumed to double the <Highlight> victory points </> obtained this time."] = "При победе в «Битве Владык» автоматически расходуется и <Highlight>удваивает полученные очки победы</>.",

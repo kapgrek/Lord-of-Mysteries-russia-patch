@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e0/3ff.
 return {
     ["No one wants to see news of casualties in the papers."] = "Никому не хочется видеть в газетах списки погибших и раненых.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1f2/3ff.
 return {
     ["Buff applied by the previous target to the next target; mainly used for playing VFX"] = "Бафф, накладываемый предыдущей целью на следующую цель; в основном используется для воспроизведения визуальных эффектов",

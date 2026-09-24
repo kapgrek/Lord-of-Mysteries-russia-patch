@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 242/3ff.
 return {
     ["Succeed in the check to plant the Eternal Flower"] = "В случае успеха проверки можно посадить Цветок бессмертия",

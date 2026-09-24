@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1b3/3ff.
 return {
     ["Side Quest: Dreams Come True, Chapter 2, Paragraph 28"] = "Побочное задание · Мечты сбываются · Глава 2, часть 28",

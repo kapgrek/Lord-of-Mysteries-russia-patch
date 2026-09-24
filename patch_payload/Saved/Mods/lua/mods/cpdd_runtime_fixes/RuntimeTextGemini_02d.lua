@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 02d/3ff.
 return {
     ["Give me a little more time, it will be successful soon!"] = "Дай мне еще немного времени, еще чуть-чуть, и все получится!",

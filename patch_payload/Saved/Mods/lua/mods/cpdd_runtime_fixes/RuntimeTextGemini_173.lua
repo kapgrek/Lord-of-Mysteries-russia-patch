@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 173/3ff.
 return {
     ["Come and accept the gift of the Harvest."] = "Приди и прими благодать Урожая.",

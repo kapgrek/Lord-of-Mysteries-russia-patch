@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 22f/3ff.
 return {
     ["The things I have here are all supplied by the municipality. They all come from the same supplier."] = "Весь товар у меня — исключительно муниципальный спецзаказ. И все идет от одного поставщика.",

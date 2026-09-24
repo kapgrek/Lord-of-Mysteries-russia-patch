@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2b1/3ff.
 return {
     ["This voice? It's familiar, but I can't quite place it..."] = "Этот голос? Знакомый, но никак не могу вспомнить...",

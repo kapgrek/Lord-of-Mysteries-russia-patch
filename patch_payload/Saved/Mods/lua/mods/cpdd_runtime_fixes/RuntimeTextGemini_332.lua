@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 332/3ff.
 return {
     ["<DecH>Craftsmanship: </>White Feather Woven Gauze · Gilded Embellishments · Hymn Ceremonial Dress\nThe hem of the morning prayer's robe is stained with dew and light; every step taken on the tail end of the hymn chants the tranquility of the sanctuary into a walking poem."] = "<DecH>Работа: </>Ткань из белых перьев · Позолоченная отделка · Литургическое облачение псалмопевца\nПодол мантии молящегося на утренней службе окроплен росой и пронизан лучами света; каждый его шаг ложится на затихающие отзвуки гимна, обращая святилищный покой в живую поэзию.",

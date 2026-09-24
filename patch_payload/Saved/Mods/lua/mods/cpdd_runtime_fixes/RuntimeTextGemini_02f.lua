@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 02f/3ff.
 return {
     ["Buying a ticket, {{Mr.|Ms.}}? I have some, no need to queue."] = "Билетик не нужен, {{господин|госпожа}}? У меня есть, без всякой очереди.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 21b/3ff.
 return {
     ["What is it? That child Albert, sigh."] = "У вас какое-то дело? Этот мальчишка Альберт... эх.",

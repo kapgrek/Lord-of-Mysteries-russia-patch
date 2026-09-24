@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 097/3ff.
 return {
     ["Reverse Close-up 02 Actor 2"] = "Обратный крупный план 02 Актёр 2",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 04f/3ff.
 return {
     ["Stevens Street\n<LeonSubTitle size=\"38\">Stevens Street</>"] = "Улица Стивенса\n<LeonSubTitle size=\"38\">Stevens Street</>",

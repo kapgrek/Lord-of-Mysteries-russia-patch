@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 34e/3ff.
 return {
     ["Everything is gone... Has one cycle ended?"] = "Всё исчезло... Неужели один цикл завершился?",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ec/3ff.
 return {
     ["Your \r\n per\r\nfor\r\nman\r\nce \r\nnext\r\n"] = "Тво\nи\nдаль\nней\nшие\nус\nпе\nхи",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 037/3ff.
 return {
     ["Are you sure you want to delist the consignment order with a Sol/Gold Pound exchange rate of %d for <Img tex2d=\"%s\"/>%d?\nYou cannot delist another order for 3 minutes."] = "Вы действительно хотите снять заказ на продажу с курсом обмена Соли к Золотому Фунту %d на сумму <Img tex2d=\"%s\"/>%d?\nПосле снятия вы не сможете снимать другие заказы в течение 3 минут.",

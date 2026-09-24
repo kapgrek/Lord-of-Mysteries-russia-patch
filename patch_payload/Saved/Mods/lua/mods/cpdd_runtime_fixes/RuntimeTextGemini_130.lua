@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 130/3ff.
 return {
     ["Excuse me, the two of you. Our shop has an event; if you pass all of it, you can have the cost of this meal waived."] = "Прошу прощения, господа. В нашем заведении проходит особое испытание: если пройдете все этапы, счет за обед будет полностью аннулирован.",

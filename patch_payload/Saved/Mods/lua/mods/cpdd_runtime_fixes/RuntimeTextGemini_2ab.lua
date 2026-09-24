@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2ab/3ff.
 return {
     ["Okay, before the incident happened, I had just walked out of the factory recruitment office with Big John..."] = "Хорошо. Перед тем как все случилось, мы с Большим Джоном как раз выходили из заводского бюро найма...",

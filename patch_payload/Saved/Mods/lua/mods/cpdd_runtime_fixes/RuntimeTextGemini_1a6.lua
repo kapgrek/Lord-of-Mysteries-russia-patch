@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1a6/3ff.
 return {
     ["Bet: Winery failed, this station is not [Winery], product selling price -40%"] = "Ставка на винодельню проиграна: эта станция не является «Винодельней», цена продажи товаров -40%",

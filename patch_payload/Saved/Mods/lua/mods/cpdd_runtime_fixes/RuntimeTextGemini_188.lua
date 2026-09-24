@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 188/3ff.
 return {
     ["Supplies:\nBread: 8 remaining 6\nMeat products: 6 remaining 5\nSugar: 1 jar, approx. 1 lb\nButter: 4 remaining 4\nWine: 3 remaining 2\nWater: 5 bottles (Keep an eye out for water sources tomorrow!!)"] = "Припасы:\nХлеб: из 8 осталось 6\nМясные продукты: из 6 осталось 5\nСахар: 1 банка, около 1 фунта\nМасло: из 4 осталось 4\nАлкоголь: из 3 осталось 2\nВода: 5 бутылок. Завтра нужно обязательно найти источник воды!!",

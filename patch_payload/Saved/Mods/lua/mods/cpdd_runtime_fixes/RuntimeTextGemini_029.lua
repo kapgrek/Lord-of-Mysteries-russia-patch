@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 029/3ff.
 return {
     ["Like thin honey mixed with blood, it tastes sweet and smooth, but it is very easy to get drunk."] = "Словно жидкий мед, смешанный с кровью: на вкус напиток сладкий и мягкий, но от него очень легко опьянеть.",

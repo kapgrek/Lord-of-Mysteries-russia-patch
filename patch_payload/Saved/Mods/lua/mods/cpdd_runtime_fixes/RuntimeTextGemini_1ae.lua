@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1ae/3ff.
 return {
     ["Some more traditional nobles don't like this piece, thinking its arrangement is a bit frivolous. But more people think it sounds mysterious and elegant, just right for use as accompaniment for private conversations in social settings."] = "Некоторым консервативным аристократам эта мелодия не по душе — они считают её аранжировку легкомысленной. Однако большинству она кажется загадочной и изысканной, идеально подходящей для тихого личного разговора на светском приеме.",

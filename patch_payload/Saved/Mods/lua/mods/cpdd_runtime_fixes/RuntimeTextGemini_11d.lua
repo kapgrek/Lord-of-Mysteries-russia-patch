@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 11d/3ff.
 return {
     ["In the office, Frye stands tall and straight in front of the desk."] = "В кабинете перед столом с безупречной выправкой стоял Фрай.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 285/3ff.
 return {
     ["This... what kind of power is this? In an instant..."] = "Это... Что это за сила? Всего за мгновение...",

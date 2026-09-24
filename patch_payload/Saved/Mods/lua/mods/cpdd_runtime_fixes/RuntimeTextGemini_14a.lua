@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 14a/3ff.
 return {
     ["The sweetest hemlock, the most bone-eroding honey. Will you just take a sip, or are you unable to stop?"] = "Сладчайшее отравленное вино, разъедающий кости мёд. Ограничитесь ли вы лишь каплей или уже не сможете остановиться?",

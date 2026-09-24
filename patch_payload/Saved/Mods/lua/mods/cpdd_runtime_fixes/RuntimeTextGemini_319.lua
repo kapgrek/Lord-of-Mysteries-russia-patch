@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 319/3ff.
 return {
     ["Keep the chairs on both sides of the scale symmetrical to maintain the seal!"] = "Расположите стулья по обе стороны весов симметрично, чтобы удержать печать!",

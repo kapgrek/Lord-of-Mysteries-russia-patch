@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3f6/3ff.
 return {
     ["I suddenly remembered! My obsession is to see everyone achieve true happiness, for example, you and Dunn happily together."] = "Я вдруг вспомнила! Мое главное стремление — видеть, как каждый обретает истинное счастье... Например, чтобы вы с Дэном были счастливы вместе.",

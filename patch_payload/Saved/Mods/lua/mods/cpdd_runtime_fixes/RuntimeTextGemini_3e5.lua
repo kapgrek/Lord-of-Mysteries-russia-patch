@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3e5/3ff.
 return {
     ["Am I seeing things? Is an octopus cooking?"] = "Мне не мерещится? Осьминог готовит еду?",

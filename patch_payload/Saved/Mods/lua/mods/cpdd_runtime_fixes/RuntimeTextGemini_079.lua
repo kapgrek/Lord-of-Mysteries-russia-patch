@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 079/3ff.
 return {
     ["Use specified item; object teleports within the same scene; player sends quest item."] = "Использовать указанный предмет  Объект телепортируется в той же сцене  Игрок отправляет предмет задания  ",

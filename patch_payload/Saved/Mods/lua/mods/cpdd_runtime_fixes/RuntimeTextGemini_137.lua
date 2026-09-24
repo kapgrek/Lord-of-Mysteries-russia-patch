@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 137/3ff.
 return {
     ["<P_Heart> (The moment I finished the map, what swept over me was not satisfaction...) </>"] = "<P_Heart>(В тот миг, когда карта была завершена, меня охватило вовсе не удовлетворение...)</>",

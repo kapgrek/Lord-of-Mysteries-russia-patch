@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 219/3ff.
 return {
     ["We promised the Captain that we would take care of you, just like our own mother!"] = "Мы обещали Капитану, что позаботимся о вас, как о собственной матери!",

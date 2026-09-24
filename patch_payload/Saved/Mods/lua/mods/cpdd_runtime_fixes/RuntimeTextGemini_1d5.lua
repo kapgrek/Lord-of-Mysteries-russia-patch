@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1d5/3ff.
 return {
     ["\"Face-Peeler\" Johnny - 3 Star"] = "«Сдиратель лиц» Джонни — 3 звезды",

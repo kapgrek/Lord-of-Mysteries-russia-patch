@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 141/3ff.
 return {
     ["Enough Angela, don't say any more. I don't want to have that kind of experience ever again in my life!"] = "Хватит, Анжела, замолчи! Я больше никогда в жизни не хочу пережить подобное!",

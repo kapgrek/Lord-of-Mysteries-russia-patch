@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2b7/3ff.
 return {
     ["Perhaps we can divine the people or events it once reflected through the mirror?"] = "Быть может, через зеркало удастся узнать о людях или событиях, которые в нем когда-то отражались?",

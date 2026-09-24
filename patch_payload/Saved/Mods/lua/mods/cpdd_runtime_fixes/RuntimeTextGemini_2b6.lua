@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2b6/3ff.
 return {
     ["<Assistant_Title1>Elegant Invitation</>\n<Assistant_Title2>Achievement Category: </>Social-Social Actions\n<Assistant_Title2>Unlock Condition: </>Invite someone to perform 1 two-player action"] = "<Assistant_Title1>Изящное приглашение</>\n<Assistant_Title2>Категория достижения: </>Общение — парные действия\n<Assistant_Title2>Условие получения: </>Пригласите другого игрока совершить парное действие 1 раз",

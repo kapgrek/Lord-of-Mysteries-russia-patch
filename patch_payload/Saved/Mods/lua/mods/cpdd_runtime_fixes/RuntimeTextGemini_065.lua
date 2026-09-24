@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 065/3ff.
 return {
     ["Feathered scoundrels! Winged rats! I swear in the name of the Goddess, I will drive your entire family out!"] = "Пернатые мерзавцы! Крылатые крысы! Клянусь именем Богини, я изгоню весь ваш род!",

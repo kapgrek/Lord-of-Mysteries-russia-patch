@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 17a/3ff.
 return {
     ["After switching channels, the original channel's party points will be cleared. Switch?"] = "При переходе на другой канал очки группы на текущем канале будут сброшены. Переключить?",

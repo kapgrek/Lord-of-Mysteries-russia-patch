@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ea/3ff.
 return {
     ["A weathered stone statue; in the dark, you have an urge to <P_Yellow> pay respects </> to it."] = "Потрепанная временем каменная статуя. В глубине души у вас возникает непреодолимое желание <P_Yellow>поклониться</> ей.",

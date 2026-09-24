@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 017/3ff.
 return {
     ["Examine the pumpkins - eavesdropping disabled"] = "Осмотр тыквы — прослушивание отключено",

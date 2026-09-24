@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3cf/3ff.
 return {
     ["Damage taken reduced by *f**, movement speed increased by *f**."] = "Получаемый урон снижен на *f**, скорость передвижения повышена на *f**.",

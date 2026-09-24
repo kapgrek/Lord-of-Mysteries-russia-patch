@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 038/3ff.
 return {
     ["【Death Sect】(7) Entire team +35% Attack Power +10% Life Steal"] = "【Секта Смерти】(7) Вся команда: +35% к силе атаки, +10% к вампиризму",

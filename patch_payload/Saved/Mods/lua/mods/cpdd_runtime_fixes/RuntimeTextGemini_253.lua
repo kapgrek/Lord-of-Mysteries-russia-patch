@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 253/3ff.
 return {
     ["QA Intranet Stress Test"] = "Нагрузочный тест внутренней сети QA",

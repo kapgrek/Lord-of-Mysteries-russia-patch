@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 33d/3ff.
 return {
     ["Great, the Dream Catcher caught its heart!"] = "Отлично, Ловец Снов поймал его сердце!",

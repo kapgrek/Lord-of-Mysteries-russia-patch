@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 11f/3ff.
 return {
     ["…Do pianos have strings too?"] = "…У пианино тоже есть струны?",

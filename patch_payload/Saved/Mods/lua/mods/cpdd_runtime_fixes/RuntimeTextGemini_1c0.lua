@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1c0/3ff.
 return {
     ["Reflection in Mirror - Wipe Painting Exit"] = "Отражение в зеркале — Выход после протирания рисунка",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 022/3ff.
 return {
     ["Due to the side effects of an antique, Baron Hawkes became mentally tense and suspicious."] = "Из-за негативного эффекта антикварного предмета барон Хоукс стал крайне нервным и подозрительным.",

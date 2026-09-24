@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 04b/3ff.
 return {
     ["Hurry and find the source of the gibberish!"] = "Скорее найдите источник этого бреда!",

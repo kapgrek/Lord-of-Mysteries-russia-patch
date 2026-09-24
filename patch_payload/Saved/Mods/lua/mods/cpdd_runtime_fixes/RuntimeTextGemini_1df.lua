@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1df/3ff.
 return {
     ["<DecH>Crafting: </>Waterproof Leather - Lacquered Lapel - Rainy Night Outing Wear\nWalking the street corners in a raincoat, letting the dense water droplets slide off your side, you are a warm lamp in the night."] = "<DecH>Ремесло: </>Водоотталкивающая кожа · лакированные лацканы · наряд для дождливой ночи\nИдя по переулкам в непромокаемом плаще и позволяя густым каплям стекать по полам одежды, вы кажетесь тёплым фонарём в ночи.",

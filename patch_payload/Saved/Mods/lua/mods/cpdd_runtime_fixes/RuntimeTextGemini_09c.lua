@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 09c/3ff.
 return {
     ["Who is trespassing on the bridge head? With me here, none of you are getting past!"] = "Кто посмел вторгнуться на мост? Пока я здесь, ни один из вас не пройдет!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 396/3ff.
 return {
     ["This fusion will not generate grayed-out volatile entries. This fusion will not generate grayed-out volatile entries. This fusion will not generate grayed-out volatile ent"] = "При этом слиянии не появятся неактивные нестабильные свойства. При этом слиянии не появятся неактивные нестабильные свойства. При этом слиянии не появятся неактивные нестабиль",

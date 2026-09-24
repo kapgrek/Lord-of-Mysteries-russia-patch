@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2e2/3ff.
 return {
     ["Battle Area - Believer Number One"] = "Боевая зона: Верующий №1",

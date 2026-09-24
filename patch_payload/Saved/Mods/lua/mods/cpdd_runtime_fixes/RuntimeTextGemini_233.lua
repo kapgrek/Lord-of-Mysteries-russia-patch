@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 233/3ff.
 return {
     ["Sometimes it feels like joining Blackthorn was just yesterday, yet in the blink of an eye, so many years have passed..."] = "Порой кажется, будто я только вчера переступил порог «Черного Терновника», а ведь пролетело уже столько лет...",

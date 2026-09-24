@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 316/3ff.
 return {
     ["Atmosphere: Tingen Factory District - Drunkard"] = "Атмосфера: Заводской район Тингена — пьяница",

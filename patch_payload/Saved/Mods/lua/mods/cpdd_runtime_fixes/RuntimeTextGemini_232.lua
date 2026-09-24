@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 232/3ff.
 return {
     ["As clever as you are, you'll always find a way, right?"] = "Вы ведь такой умный, вы обязательно что-нибудь придумаете, верно?",

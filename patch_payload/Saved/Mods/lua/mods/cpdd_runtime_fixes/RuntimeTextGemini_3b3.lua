@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3b3/3ff.
 return {
     ["After the season update, the <Highlight> Equipment Strengthening cap has been increased by </>, and it has been automatically switched to the new season's Strengthening materials."] = "С обновлением сезона <Highlight>максимальный уровень усиления снаряжения повышен</>, а материалы для усиления автоматически заменены на материалы нового сезона.",

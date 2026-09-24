@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 152/3ff.
 return {
     ["Before I disappear, I will do my best to protect Lola and this neighborhood."] = "Пока я не исчез, я сделаю все возможное, чтобы защитить Лолу и этот квартал.",

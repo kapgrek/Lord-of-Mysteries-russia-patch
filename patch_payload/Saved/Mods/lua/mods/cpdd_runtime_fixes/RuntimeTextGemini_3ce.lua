@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ce/3ff.
 return {
     ["He pushed open the door to the kingdom of the dead and saw his sister there, brewing dandelion tea, with honey pancakes for two always set on the table..."] = "Он распахнул врата царства смерти и увидел там свою сестру: она заваривала чай из одуванчиков, а на столе всегда стояли медовые оладьи на двоих...",

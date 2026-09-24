@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0b9/3ff.
 return {
     ["After so many years, I can barely feel their power anymore. Go and help me wake them up. As a reward, I will give you the gift left behind by the earth."] = "Столько лет прошло, что старуха уже едва ощущает их силу. Пойди и помоги мне пробудить их. В награду я отдам тебе дар, оставленный землёй.",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 216/3ff.
 return {
     ["I... I really don't know what I can do."] = "Я... я правда не знаю, что могу сделать.",

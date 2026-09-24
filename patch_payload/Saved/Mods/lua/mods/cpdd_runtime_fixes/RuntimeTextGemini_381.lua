@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 381/3ff.
 return {
     ["1. Fast/slow semicircle AOE; 2. Orientation-following rectangular AOE*2"] = "1. Быстрый/медленный полукруглый AOE; 2. Прямоугольный AOE, следующий за направлением *2",

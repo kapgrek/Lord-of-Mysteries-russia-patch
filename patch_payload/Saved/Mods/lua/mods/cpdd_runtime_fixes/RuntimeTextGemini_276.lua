@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 276/3ff.
 return {
     ["Strengthens the effects of Nebula Aria, Trick Performance, and Exile when cast."] = "Усиливает эффекты при применении «Арии туманности», «Фокуса» и «Изгнания».",

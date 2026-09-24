@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 22c/3ff.
 return {
     ["Partner Skill Frye Cooldown Reduction (Necrotic Mark)"] = "Навык спутника: сокращение отката Фрая (Метка нежити)",

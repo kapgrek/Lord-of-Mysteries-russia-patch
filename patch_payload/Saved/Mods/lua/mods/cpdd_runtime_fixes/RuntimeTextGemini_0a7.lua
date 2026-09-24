@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0a7/3ff.
 return {
     ["Cannot perform this operation on the club president."] = "Это действие недоступно для главы клуба",

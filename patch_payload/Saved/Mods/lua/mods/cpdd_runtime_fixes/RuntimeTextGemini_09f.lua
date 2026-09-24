@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 09f/3ff.
 return {
     ["Clear the <h>Terrifying Monster</>"] = "Уничтожьте <h>ужасающее чудовище</>",

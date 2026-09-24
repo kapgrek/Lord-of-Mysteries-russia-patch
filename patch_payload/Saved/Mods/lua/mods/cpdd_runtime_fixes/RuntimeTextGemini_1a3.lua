@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1a3/3ff.
 return {
     ["Feel the power and traverse"] = "Почувствовать силу и совершить переход",

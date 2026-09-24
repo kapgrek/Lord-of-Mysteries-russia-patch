@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 377/3ff.
 return {
     ["Not included in the standard chess piece positioning system."] = "Не учитывается в стандартной системе позиционирования фигур.",

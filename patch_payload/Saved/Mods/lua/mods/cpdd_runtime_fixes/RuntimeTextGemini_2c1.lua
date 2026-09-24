@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2c1/3ff.
 return {
     ["<Assistant_Title1>【Clear Mind】</>\n<Assistant_Title2>Description: </>Character creation hairstyle.\n<Assistant_Title2>Usage: </>Obtain Clear Mind after character creation. You can view and equip it by clicking <Assistant_System>Appearance - Outfits</>.\n<Assistant_Title2>Acquisition: </>Choose one hairstyle during character creation; remaining hairstyles can be obtained later via <Assistant_System>Shop</>."] = "<Assistant_Title1>【Ясный разум】</>\n<Assistant_Title2>Описание: </>Причёска при создании персонажа.\n<Assistant_Title2>Применение: </>Выдаётся после создания персонажа. Нажмите <Assistant_System>Облик — Гардероб</>, чтобы просмотреть и выбрать её.\n<Assistant_Title2>Получение: </>Одну причёску можно выбрать при создании персонажа; остальные причёски позже станут доступны в <Assistant_System>Магазине</>.",

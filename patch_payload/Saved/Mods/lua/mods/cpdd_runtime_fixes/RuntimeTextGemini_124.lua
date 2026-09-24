@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 124/3ff.
 return {
     ["I'm not in the same line of work as you. Are you here to attend the celebration?"] = "Мы с вами не коллеги. Вы пришли на праздник?",

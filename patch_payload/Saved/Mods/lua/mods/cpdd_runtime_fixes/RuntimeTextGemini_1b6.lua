@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1b6/3ff.
 return {
     ["The sound of humming and gears turning... Listen closely, it seems to be coming from here..."] = "Гул и скрежет вращающихся шестеренок... Если прислушаться, кажется, будто звук доносится отсюда...",

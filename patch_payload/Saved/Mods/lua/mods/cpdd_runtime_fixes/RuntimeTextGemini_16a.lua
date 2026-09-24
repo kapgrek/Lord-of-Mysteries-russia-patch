@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 16a/3ff.
 return {
     ["Goddess, one day I will move to a clean place in the North Borough, and hire ten... no, at least twenty servants from Daffodil Street to clean and patrol from morning till night, and I will absolutely not allow any oyster to invade my life!"] = "Богиня, клянусь, настанет день, когда я перееду в чистый Северный район и найму десятерых... нет, как минимум двадцатерых слуг с улицы Нарциссов, чтобы они с утра до ночи убирали и патрулировали дом, и ни одной устрице не позволю вторгнуться в мою жизнь!",

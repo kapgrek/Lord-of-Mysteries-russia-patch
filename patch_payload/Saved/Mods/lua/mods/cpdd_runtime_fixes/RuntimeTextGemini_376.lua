@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 376/3ff.
 return {
     ["If you are interested, go ask Dunn."] = "Если тебе интересно, спроси у Данна.",

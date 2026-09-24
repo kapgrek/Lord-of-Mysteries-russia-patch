@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 339/3ff.
 return {
     ["Come to think of it, what are you doing here?"] = "Кстати, а что ты здесь делаешь?",

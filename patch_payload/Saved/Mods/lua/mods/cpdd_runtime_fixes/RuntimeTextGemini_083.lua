@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 083/3ff.
 return {
     ["You want to know this? As long as you find my sister, anything is fine. Otherwise, I won't say anything, I won't say a word!"] = "Вы хотите знать это? Если найдёте мою сестру, я сделаю что угодно. А не найдёте — я ни слова не скажу, вообще ничего не скажу!",

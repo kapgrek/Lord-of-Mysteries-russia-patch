@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 19e/3ff.
 return {
     ["Both stone tablets captured, you can attack the city gate"] = "Обе стелы захвачены, можно атаковать городские ворота",

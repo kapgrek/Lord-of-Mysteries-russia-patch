@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 37e/3ff.
 return {
     ["A projection summoned by yourself takes first place in a single match."] = "Призванная вами проекция занимает 1-е место в матче",

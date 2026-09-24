@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 22a/3ff.
 return {
     ["Press <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> to complete the combo: <Orange>Insight</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Mind Fire</>, <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>Dream Weaving</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>Frenzy</>."] = "Нажмите <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Проницательность</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Огонь разума</>, <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>Плетение снов</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>Безумие</>, чтобы выполнить комбинацию",

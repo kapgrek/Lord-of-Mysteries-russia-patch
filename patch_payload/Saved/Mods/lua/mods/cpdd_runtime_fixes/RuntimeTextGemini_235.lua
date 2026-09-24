@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 235/3ff.
 return {
     ["This is a masterpiece that can... ugh... shake the moon!"] = "Это шедевр, способный... кхм... сотрясти саму луну!",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 218/3ff.
 return {
     ["<P_Heart> (Tears in her eyes) </> There is nothing more important in the world than Melanie! We've decided, we're going to run a flower shop together, and business will definitely be better than it is now."] = "<P_Heart>（со слезами на глазах）</> В этом мире нет ничего важнее Мелани! Мы договорились: в будущем мы вместе откроем цветочную лавку, и дела пойдут куда лучше, чем сейчас.",

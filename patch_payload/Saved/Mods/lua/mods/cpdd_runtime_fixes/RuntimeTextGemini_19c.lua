@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 19c/3ff.
 return {
     ["Execute the Action of the configured skill table on the bounced target."] = "Выполняет действие из таблицы навыков skill для срикошетившей цели",

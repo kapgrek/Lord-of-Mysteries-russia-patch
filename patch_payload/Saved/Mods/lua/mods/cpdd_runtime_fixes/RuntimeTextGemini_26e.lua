@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 26e/3ff.
 return {
     ["City's Dark Side · \"Hard · Inquisitor\" challenge speedrun ranking top 3 professional"] = "Теневая сторона города: топ-3 среди классов в скоростном испытании «Сложно: Инквизитор»",

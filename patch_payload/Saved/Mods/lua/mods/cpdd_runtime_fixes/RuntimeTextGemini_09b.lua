@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 09b/3ff.
 return {
     ["On the desk sits a silver tray and a matching teapot; they should be a set with the teacup on the floor."] = "На письменном столе стоит серебряный поднос с чайником; судя по всему, они составляют единый сервиз с чашкой на полу.",

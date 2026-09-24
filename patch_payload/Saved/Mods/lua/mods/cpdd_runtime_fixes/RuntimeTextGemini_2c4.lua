@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2c4/3ff.
 return {
     ["Use to obtain <Highlight>Pious Echo Top</>"] = "При использовании вы получите <Highlight>верхнюю одежду «Благочестивое эхо»</>",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 132/3ff.
 return {
     ["1 to enable; 0 to disable; after setting, you must switch scenes and reload the character; use X to switch stances."] = "1 — включить; 0 — выключить; после изменения настройки необходимо сменить сцену и перезагрузить персонажа; нажмите X, чтобы переключить стойку.",

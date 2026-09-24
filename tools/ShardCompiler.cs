@@ -33,12 +33,21 @@ public class FastShardCompiler {
 
     public static void Main(string[] args) {
         Console.OutputEncoding = Encoding.UTF8;
-        string root = @"d:\gameDev\AbsoluteRU";
-        string batchesDir = Path.Combine(root, "source", "translation_batches");
+        // Repository root: -Root <path>, otherwise the parent of the exe folder (tools/).
+        string root = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ".."));
+        string batchesArg = null;
+        for (int i = 0; i < args.Length; i++) {
+            if (string.Equals(args[i], "-Root", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) {
+                root = Path.GetFullPath(args[++i]);
+            } else if (batchesArg == null && Directory.Exists(args[i])) {
+                batchesArg = args[i];  // legacy positional argument: batches folder
+            }
+        }
+        string batchesDir = batchesArg ?? Path.Combine(root, "source", "translation_batches");
         string shardsDir = Path.Combine(root, "patch_payload", "Saved", "Mods", "lua", "mods", "cpdd_runtime_fixes");
-
-        if (args.Length > 0 && Directory.Exists(args[0])) {
-            batchesDir = args[0];
+        if (!Directory.Exists(shardsDir)) {
+            Console.Error.WriteLine("Папка шардов не найдена: " + shardsDir + " (укажите -Root <путь_к_репозиторию>)");
+            Environment.Exit(1);
         }
 
         Console.WriteLine("=== Lord of the Mysteries: Shard Compiler v2.6-RU ===");
@@ -347,24 +356,25 @@ public class FastShardCompiler {
         Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ")");
         Console.WriteLine("Запись в 1024 Lua-шарда...");
 
-        UTF8Encoding utf8 = new UTF8Encoding(true);
+        // UTF-8 without BOM, LF line endings (AGENTS.md §5)
+        UTF8Encoding utf8 = new UTF8Encoding(false);
         for (int s = 0; s < 1024; s++) {
             string shardName = s.ToString("x3");
             string fileName = "RuntimeTextGemini_" + shardName + ".lua";
             string filePath = Path.Combine(shardsDir, fileName);
 
             StringBuilder sb = new StringBuilder();
-            sb.AppendLine("-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)");
-            sb.AppendLine("-- Lazy exact-text shard " + shardName + "/3ff.");
-            sb.AppendLine("return {");
+            sb.Append("-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)\n");
+            sb.Append("-- Lazy exact-text shard " + shardName + "/3ff.\n");
+            sb.Append("return {\n");
 
             if (shardMap.ContainsKey(shardName)) {
                 foreach (KeyValuePair<string, string> kvp in shardMap[shardName]) {
-                    sb.AppendLine("    [\"" + EscapeLua(kvp.Key) + "\"] = \"" + EscapeLua(kvp.Value) + "\",");
+                    sb.Append("    [\"" + EscapeLua(kvp.Key) + "\"] = \"" + EscapeLua(kvp.Value) + "\",\n");
                 }
             }
 
-            sb.AppendLine("}");
+            sb.Append("}\n");
             File.WriteAllText(filePath, sb.ToString(), utf8);
         }
 

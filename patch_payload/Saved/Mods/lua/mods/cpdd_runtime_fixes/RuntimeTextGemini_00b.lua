@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 00b/3ff.
 return {
     ["*货源来自斯林面包房。"] = "*Поставки из пекарни Слин.",

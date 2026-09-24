@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 337/3ff.
 return {
     ["Curly-Haired Baboons cannot speak, but they seem to have accepted you."] = "Кудрявые бабуины не умеют говорить, но они, похоже, признали тебя.",

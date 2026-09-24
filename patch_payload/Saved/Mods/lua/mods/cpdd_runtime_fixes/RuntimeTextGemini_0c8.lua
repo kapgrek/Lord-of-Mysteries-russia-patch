@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0c8/3ff.
 return {
     ["I feel like I'm watching my child grow up. We must celebrate tonight! Let me show off my skills; I learned some new dishes on this business trip..."] = "Такое чувство, словно на моих глазах вырос ребенок. Сегодня непременно нужно это отпраздновать! Позвольте мне блеснуть кулинарными талантами — в этой командировке я научился нескольким новым блюдам...",

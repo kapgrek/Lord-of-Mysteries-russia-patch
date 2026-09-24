@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 28d/3ff.
 return {
     ["If we deal with him, everything will return to peace, right?"] = "Если покончить с ним, всё снова вернется в мирное русло, верно?",

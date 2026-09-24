@@ -50,7 +50,7 @@ public class FastStringExtractor {
 
         int batchSize = 5000;
         int batchCount = (items.Count + batchSize - 1) / batchSize;
-        UTF8Encoding utf8 = new UTF8Encoding(true);
+        UTF8Encoding utf8 = new UTF8Encoding(false);
 
         for (int b = 0; b < batchCount; b++) {
             int start = b * batchSize;

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 01f/3ff.
 return {
     ["This author's account data has been deleted."] = "Данные учетной записи автора удалены",

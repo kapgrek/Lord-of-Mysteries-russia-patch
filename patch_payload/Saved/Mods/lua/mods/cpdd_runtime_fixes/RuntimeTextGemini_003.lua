@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 003/3ff.
 return {
     ["[Philip gestures for the guests to leave. The player exits, and Philip closes the door.]"] = "【Филипп делает жест, провожая гостя. Игрок уходит, и Филипп закрывает дверь.】",

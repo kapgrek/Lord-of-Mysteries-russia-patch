@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0e3/3ff.
 return {
     ["<P_Heart> (Tears shimmering in eyes) </> Thank you, Haki-ape... Although you have fangs and claws, you are more like a gentleman than any other man."] = "<P_Heart>(Со слезами на глазах)</> Спасибо тебе, обезьяна Хаки... Пусть у тебя клыки и когти, но ты куда благороднее любого мужчины.",

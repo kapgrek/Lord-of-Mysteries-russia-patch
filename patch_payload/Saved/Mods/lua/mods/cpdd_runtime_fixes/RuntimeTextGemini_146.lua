@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 146/3ff.
 return {
     ["Sorry, {sir|madam}. My daughter... she can't see."] = "Прошу прощения, {{господин|госпожа}}. Моя дочь... она ничего не видит.",

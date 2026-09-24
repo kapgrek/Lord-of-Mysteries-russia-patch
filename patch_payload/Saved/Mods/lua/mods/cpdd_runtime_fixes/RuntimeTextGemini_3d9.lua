@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3d9/3ff.
 return {
     ["“A Study of Private Historical Materials of Sivellas County, Author: Azik Eggers”…… Amazing!"] = "«Исследование частных исторических свидетельств графства Сивеллас», автор: Азик Эггерс... Впечатляет!",

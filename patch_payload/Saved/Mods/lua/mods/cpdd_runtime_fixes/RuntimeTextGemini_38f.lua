@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 38f/3ff.
 return {
     ["Suit orderer Andis... orderer Andis... orderer... why is it all this Andis?"] = "Заказчик костюма — Андис... заказчик — Андис... заказчик... почему везде этот Андис?",

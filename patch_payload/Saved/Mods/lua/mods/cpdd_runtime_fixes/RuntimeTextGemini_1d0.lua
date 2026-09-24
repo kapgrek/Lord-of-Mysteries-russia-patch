@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1d0/3ff.
 return {
     ["But Mom is sick now too, I have to..."] = "Но мама сейчас тоже больна, и мне приходится...",

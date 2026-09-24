@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 032/3ff.
 return {
     ["Madam, you look very anxious?"] = "Госпожа, вы кажетесь очень взволнованной?",

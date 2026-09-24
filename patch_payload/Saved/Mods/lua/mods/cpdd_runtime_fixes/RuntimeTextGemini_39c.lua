@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 39c/3ff.
 return {
     ["Hello, how should I address you? What would you like to commission?"] = "Здравствуйте, как к вам обращаться? Какое поручение вы хотите дать?",

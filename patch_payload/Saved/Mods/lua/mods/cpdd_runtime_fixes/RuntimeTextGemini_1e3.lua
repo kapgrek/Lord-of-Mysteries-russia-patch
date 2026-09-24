@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1e3/3ff.
 return {
     ["You're badly chilled. Come to the camp first; there's a fire there."] = "Вы совсем замерзли. Идемте сначала в лагерь, там горит костер.",

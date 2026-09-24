@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1cc/3ff.
 return {
     ["Please leave first and let him calm down. I'll stay here, and if anything happens, I'll call you immediately. Besides... <P_Heart> (Whispering) </> some things might not be convenient to say in front of parents."] = "Вам лучше пока уйти и дать ему успокоиться. Я останусь здесь и пригляжу за ним, а если что-то случится, сразу же позову вас. К тому же... <P_Heart>（шепотом）</> кое-что, возможно, не стоит говорить при родителях.",

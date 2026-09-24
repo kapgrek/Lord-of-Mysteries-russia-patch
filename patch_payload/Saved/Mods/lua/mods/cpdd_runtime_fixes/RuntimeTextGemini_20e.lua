@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 20e/3ff.
 return {
     ["Use skill: <Highlight>War Soul Afterimage</> %s/%s times"] = "Примените навык <Highlight>«Остаточный образ боевого духа»</>: %s/%s раз",

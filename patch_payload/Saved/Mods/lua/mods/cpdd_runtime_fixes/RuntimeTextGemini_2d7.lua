@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2d7/3ff.
 return {
     ["That's a pity. Laura just graduated from the best etiquette school in Backlund, and her dining etiquette is better than some nouveau riche from the Southern Continent."] = "Какая жалость. Лора ведь только что окончила лучшую школу этикета в Бэкланде, и её манеры за столом куда лучше, чем у иных нуворишей с Южного континента.",

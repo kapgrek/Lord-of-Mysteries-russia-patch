@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 371/3ff.
 return {
     ["%s surpassed %d%% of Beyonders. Firepower suppression, controlling the overall situation."] = "%s превосходит %d%% Потусторонних: подавление огневой мощью, полный контроль над ситуацией.",

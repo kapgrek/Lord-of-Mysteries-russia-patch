@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 35c/3ff.
 return {
     ["I, I can do something, right? Should I move them to a more secluded place..."] = "М-могу я чем-нибудь помочь? Может, перенести их в более укромное место?..",

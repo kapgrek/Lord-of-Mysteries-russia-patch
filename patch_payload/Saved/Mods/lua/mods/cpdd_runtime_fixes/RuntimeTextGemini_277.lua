@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 277/3ff.
 return {
     ["The Moretti family's recent living expenses, the total amount is not much..."] = "Общая сумма недавних расходов семьи Моретти на жизнь не так уж велика...",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 397/3ff.
 return {
     ["Taste the mustard octopus"] = "Попробовать осьминога с горчицей",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 086/3ff.
 return {
     ["A large, soft, and very comfortable bed"] = "Большая, мягкая и очень удобная кровать",

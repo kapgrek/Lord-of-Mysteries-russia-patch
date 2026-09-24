@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 0ce/3ff.
 return {
     ["GTA: Mechanical Creation: Pursuit Bullet"] = "GTA — Механическое творение: пуля преследования",

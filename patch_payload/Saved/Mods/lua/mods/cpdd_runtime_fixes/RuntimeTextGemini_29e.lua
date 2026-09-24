@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 29e/3ff.
 return {
     ["Of course. If you don't work hard, you have to be punished; that's only fair to the others."] = "Конечно. Кто не старается, должен понести наказание — только так будет справедливо по отношению к остальным.",

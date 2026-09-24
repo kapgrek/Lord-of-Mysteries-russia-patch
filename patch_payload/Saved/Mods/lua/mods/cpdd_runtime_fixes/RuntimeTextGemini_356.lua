@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 356/3ff.
 return {
     ["Many years later, the <P_Yellow>three villains</> who framed him had all become prominent figures—"] = "Спустя много лет <P_Yellow>трое злодеев</>, подставивших его, стали видными фигурами —",

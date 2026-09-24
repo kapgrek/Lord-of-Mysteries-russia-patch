@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 302/3ff.
 return {
     ["Have not yet obtained bound equipment with this type of affix."] = "Вы ещё не получали персональное снаряжение с данным свойством",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3ab/3ff.
 return {
     ["Learn about the Third Epoch with Skana"] = "Узнать о Третьей Эпохе вместе со Сканой",

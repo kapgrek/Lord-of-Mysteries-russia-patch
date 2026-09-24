@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 20b/3ff.
 return {
     ["Use to obtain <Highlight>Blood Moon Slaughter Top</>"] = "При использовании вы получите <Highlight>верхнюю одежду «Резня под Кровавой Луной»</>",

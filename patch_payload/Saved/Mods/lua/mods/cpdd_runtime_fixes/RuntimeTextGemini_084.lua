@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 084/3ff.
 return {
     ["Dancing Baboon-Church of the River and Sea"] = "Танцующий павиан — Церковь Реки и Моря",

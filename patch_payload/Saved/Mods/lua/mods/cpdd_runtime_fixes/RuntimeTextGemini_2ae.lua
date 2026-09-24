@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2ae/3ff.
 return {
     ["O-okay, is it that formal?"] = "Х-хорошо... К чему такая торжественность?",

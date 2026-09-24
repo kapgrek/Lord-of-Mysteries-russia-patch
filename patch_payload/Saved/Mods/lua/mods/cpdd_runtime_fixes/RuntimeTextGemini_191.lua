@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 191/3ff.
 return {
     ["【Unlock after advancing to Sequence 8, try acting as a Clown】 \n There is a little girl in the children's ward who hasn't smiled in a long time. Her greatest wish is to see a clown performance."] = "【Открывается после перехода на Последовательность 8. Попробуйте сыграть роль Клоуна】\nВ детской палате лежит маленькая девочка, которая уже очень давно не улыбалась. Ее заветная мечта — увидеть выступление клоуна.",

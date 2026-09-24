@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 000/3ff.
 return {
     ["%Y年%m月%d日 %H：%M"] = "%d.%m.%Y %H:%M",

@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2af/3ff.
 return {
     ["Unlocks <Highlight>Emote: Smile</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "При использовании открывает <Highlight>эмоцию «Улыбка»</>; при повторном получении автоматически распыляется на привязанные сули.",

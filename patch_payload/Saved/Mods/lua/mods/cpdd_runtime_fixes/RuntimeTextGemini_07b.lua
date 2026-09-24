@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 07b/3ff.
 return {
     ["Set off to return to the Tarot Club..."] = "Отправиться обратно в Школу Таро...",

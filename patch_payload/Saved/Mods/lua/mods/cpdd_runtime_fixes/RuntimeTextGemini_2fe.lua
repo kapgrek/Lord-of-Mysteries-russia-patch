@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2fe/3ff.
 return {
     ["Yuyang Custom - Exit Pistol Aiming State"] = "Юйян Custom: Выход из режима прицеливания пистолета",

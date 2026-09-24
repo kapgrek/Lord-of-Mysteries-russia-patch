@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 051/3ff.
 return {
     ["[Placeholder] Klein tries again—this time, he attempts to outline an intercontinental missile in his mind, but fails."] = "【Временная заглушка】 Клейн пробует снова — на этот раз он пытается представить в уме межконтинентальную ракету, но безуспешно.",

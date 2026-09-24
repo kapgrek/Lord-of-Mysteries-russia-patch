@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 127/3ff.
 return {
     ["Bedtime Story-22 [Dialogue] Talk to Young Skana"] = "Сказка на ночь — 22 【Диалог】 Поговорить с юным Сканой",

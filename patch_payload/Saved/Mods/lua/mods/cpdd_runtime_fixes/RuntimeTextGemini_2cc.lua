@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2cc/3ff.
 return {
     ["Let's find clues first, don't alert the people here."] = "Сначала поищем улики, не привлекая внимания местных жителей.",

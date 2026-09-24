@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 310/3ff.
 return {
     ["You can open [Menu] - [TRPG] - [Fun Gameplay] to review the tutorial"] = "Вы можете перейти в 【Меню】 — 【НРИ】 — 【Занимательный геймплей】, чтобы пересмотреть обучение",

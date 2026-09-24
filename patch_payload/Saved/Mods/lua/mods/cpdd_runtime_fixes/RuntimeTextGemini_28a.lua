@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 28a/3ff.
 return {
     ["Master Astrology, Card Master Astrology, Card Master Astrology, Card"] = "Овладение астрологией, карты Овладение астрологией, карты Овладение астрологией, карты",

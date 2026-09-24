@@ -1,4 +1,4 @@
-﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
+-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 3f0/3ff.
 return {
     ["skilldisc(*id), then transform into an afterimage, quickly dealing six instances of *d damage, during which buffdisc(*id) is active. After *f seconds, cause the Law Judgment to explode, dealing spellfielddisc(*id)."] = "skilldisc(*id), после чего обращается в остаточную тень и быстро наносит шесть ударов по *d ед. урона, активируя на это время buffdisc(*id). Спустя *f сек. провоцирует взрыв Закона: spellfielddisc(*id).",
