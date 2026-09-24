@@ -25,6 +25,13 @@
 ## CRLF и hash mismatch
 - При `core.autocrlf=true` в рабочей копии `.lua`/`.json` оказывались с CRLF, а payload собирается из рабочей копии, поэтому хеши расходились. Теперь `.gitattributes` принудительно ставит `eol=lf` для `.lua`/`.json`.
 - Исключение: `patch_payload/Saved/Mods/lua/cpdd_translation/**` — это байткод LuaJIT (заголовок `1B 4C 4A`) с расширением `.lua`, и он помечен как `binary`. Конвертация концов строк испортила бы его.
+- Правило в `.gitattributes` не переписывает файлы, которые уже лежат в рабочей копии: после его добавления `Init.lua` и `BakedText/manifest.json` оставались с CRLF (`git ls-files --eol` → `i/lf w/crlf`) и ушли так в v2.9.0. Такие файлы нужно пересоздать (`Remove-Item` + `git checkout -- <file>`). У CPDD `BakedText/manifest.json` с CRLF, поэтому он помечен `-text` и хранится байт-в-байт.
+
+## Блок в pak: писать только на известную базу (TASK-003, 2026-09-25)
+- Старый установщик писал 4660 байт моста в `pakchunk0` при любом содержимом блока. После обновления игры смещение указало бы на другие данные, и pak был бы испорчен.
+- Теперь `installer/InstallerCore.cs` сначала считает sha256 всего pak и пишет блок, только если pak совпадает с `supported_base_paks` из `installer/supported_game.json` (как `release.json` у CPDD). На неизвестном pak установщик отказывает и ничего не меняет. При удалении блок восстанавливается, только если текущий блок = `installed_sha256`, а бэкап = `clean_sha256`.
+- Удаление стирает только файлы из `Saved/RussianPatchBackups/installed_files.json`, а не весь `Saved/Mods`: там лежат настройки CPDD (`cpdd_*settings.lua`), история DPS-метра и чужие моды.
+- Логику установщика проверяет `tools/InstallerCoreTests.exe` на поддельных pak в `temp/`. Сам установщик агент не запускает (AGENTS.md §1).
 
 ## Переписывание истории стирает рабочие файлы
 - `git filter-branch` / `filter-repo` делают checkout нового HEAD и удаляют с диска файлы, которые убраны из истории, даже если они уже в `.gitignore`. Перед чисткой нужна копия (`git clone --mirror`), а после чистки файлы восстанавливаются через `git archive` из этой копии.

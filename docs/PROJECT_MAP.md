@@ -18,8 +18,10 @@
 | **Валидация тегов и плейсхолдеров** | `tools/VerifyBatch.ps1`<br>`tools/VerifyPatch.ps1` | Проверка целостности тегов `<Highlight>`, `%s`, `%d`, `{0}` и синтаксиса Lua |
 | **Базы данных Excel (диалоги, квесты)** | `patch_payload/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/` | 38 таблиц строк **в байткоде LuaJIT** (`1B 4C 4A`), несмотря на расширение `.lua`. В `.gitattributes` помечены как `binary` |
 | **Текстуры и виджеты IoStore** | `patch_payload/Saved/Mods/BakedText/blocks.bin`<br>`patch_payload/Saved/Mods/BakedText/manifest.json`<br>`tools/BakedTextManager.ps1` | 39 МБ пропатченных блоков для `.ucas` файлов контейнеров UE5 |
-| **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/PatcherEngine.cs`<br>`installer/Lord-of-Mysteries-Russian-Patch.ps1` | Windows Forms UI установщика (данные качает из GitHub Releases, `Program.cs:1103`), блочный патчер Oodle/IoStore, бэкапы |
-| **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip`, `release.json` и bundle в `build/`. С `-Publish` всё загружается как assets GitHub Release |
+| **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/InstallerCore.cs`<br>`installer/supported_game.json` | `Program.cs`: окно Windows Forms, загрузка данных из GitHub Releases, CLI. `InstallerCore.cs`: проверка версии игры (sha256 всего `pakchunk0`), блок моста, бэкап в `Saved/RussianPatchBackups/`, установка и удаление только своих файлов (`installed_files.json`), BakedText, переключение RU↔EN |
+| **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore` на поддельных pak из случайных байт в `temp/installer-tests/`; `--check-payload <dir>` проверяет распакованный zip данных |
+| **Синхронизация с CPDD** | `tools/SyncCpdd.ps1`<br>`vendor/cpdd/` | Скачать релиз CPDD → сравнить с базой (`vendor/cpdd/BASE.json`) и `patch_payload/` → отчёт `reference/cpdd/<tag>/SYNC_REPORT.md` → `-Apply` выбранных компонентов (verbatim, 3-way merge `Init.lua`/`bootstrap.lua`, `state.json`, новые строки шардов в батч, `supported_game.json`) |
+| **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `supported_base_paks`, `launch_block`, `owned_files`) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish` всё загружается как assets GitHub Release |
 | **Дополнительные моды (DPS Meter, Чат)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua`<br>`patch_payload/Saved/Mods/ExternalDpsMeter/` | Мод чата для ПК и автономный счетчик урона |
 | **Правила и защита ИИ-агента** | `AGENTS.md`<br>`.claude/settings.json`<br>`.claude/hooks/` | Регламент; permissions; хук-сторож папки игры и Stop-хук перекомпиляции шардов |
 | **Задачи и уроки** | `docs/tasks/TASK-xxx.md`<br>`docs/LESSONS.md` | Планы из аналитического чата; разбор прошлых инцидентов |
@@ -105,18 +107,22 @@ AbsoluteRU/
 │   ├── FixCapitalization.cs/.ps1 # Исправление регистра первой буквы
 │   ├── MergeOldTranslation.cs/.ps1 # Слияние старых переводов
 │   ├── MergeTranslated.cs     # Слияние переведенных чанков
-│   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release)
+│   ├── SyncCpdd.ps1           # Сверка с релизом CPDD: отчёт и применение компонентов
+│   ├── InstallerCoreTests.cs  # Тесты InstallerCore на поддельных папках игры в temp/
+│   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release, -DataOnly)
 │
 ├── installer/                 # Исходный код автономного установщика (*.exe не в git)
 │   ├── Program.cs             # GUI на Windows Forms (выбор пути, прогресс-бар, лог)
-│   ├── PatcherEngine.cs       # Высокоскоростной блочный движок модификации .pak/.ucas
-│   ├── Lord-of-Mysteries-Russian-Patch.ps1 # PowerShell-версия установщика
-│   ├── build_installer.ps1    # Сборка Program.cs в EXE (по умолчанию в build/)
-│   ├── Install.bat            # Однокликовый батник запуска
+│   ├── InstallerCore.cs       # Установка/обновление/удаление/переключение языка для папки игры
+│   ├── supported_game.json    # Поддерживаемая сборка игры (генерирует SyncCpdd, встраивается в exe и кладётся в zip)
+│   ├── build_installer.ps1    # Сборка Program.cs + InstallerCore.cs в EXE (по умолчанию в build/)
 │   └── AssemblyInfo.cs, app.ico, app.manifest
+│
+├── vendor/cpdd/               # Нетронутая база CPDD для 3-way merge (BASE.json, <tag>/Init.lua, bootstrap.lua, state.json, release.json)
 │
 ├── build/                     # [не в git] Результаты PackageRelease: exe, payload zip, release.json, bundle
 ├── reference/                 # [не в git, не очищается] Внешние материалы
+│   ├── cpdd/<tag>/            # Релизы CPDD для SyncCpdd (release.json, zip, unpacked/, SYNC_REPORT.md)
 │   ├── cpdd-english/          # Английский патч CPDD 2.6.1 (exe и распакованный eng_stable/)
 │   └── tools/                 # Разовые утилиты для работы с reference (DumpEnglishStrings)
 └── temp/                      # [не в git] Временная папка (Scratch). Безопасна для очистки!

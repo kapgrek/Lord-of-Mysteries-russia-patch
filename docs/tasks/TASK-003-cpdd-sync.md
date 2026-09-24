@@ -1,6 +1,9 @@
 # TASK-003: сверка с CPDD (v2.6.3 → v2.6.4), SyncCpdd.ps1, проверка состояния игры
 
-Статус: **анализ завершён** 2026-09-24. Код патча не менялся.
+Статус: **выполнено** 2026-09-25, ждёт проверки пользователем в игре. Анализ 2026-09-24.
+Решения пользователя: (a) `vendor/cpdd/` в git; (b) установщик отказывает на неизвестном pak; (c) `PatcherEngine.cs`, `Lord-of-Mysteries-Russian-Patch.ps1`, `Install.bat` удалены; (d) опции DPS/Chat/Visual Clarity вынесены в TASK-004.
+Поправки при исполнении: логика установки вынесена в `installer/InstallerCore.cs` (тесты `tools/InstallerCoreTests.cs`), бэкап блока в `Saved/RussianPatchBackups/`, установка и удаление по списку своих файлов (`installed_files.json`, `owned_files.json`).
+Результат: коммиты `564242d` (гигиена), `eb02c4b` (SyncCpdd + база), `9c5edb6` (данные v2.6.4, batch_029), `48d4f17` (установщик).
 
 ## Исходные данные
 - Релизы CPDD: `gh release list -R Lani27/lord-of-mysteries-english-patch`. Последний `v2.6.4` вышел 2026-09-24. С `v2.6.2` установщик не менялся (`Lord-of-Mysteries-English-Patch-2.6.1.exe`), в релизах обновляются только данные.

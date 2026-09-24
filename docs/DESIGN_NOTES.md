@@ -129,7 +129,7 @@
 5. **Интеграция в патч**:
    * Поместить готовый `.pak` (размером в пару мегабайт) в репозиторий по пути:
      `patch_payload/Paks/~mods/pakchunk99-RussianFonts_P.pak`.
-   * Добавить поддержку папки `Paks/~mods/` в инсталлятор `installer/Lord-of-Mysteries-Russian-Patch.ps1` и `installer/PatcherEngine.cs` (автоматическая установка и чистый откат).
+   * Добавить поддержку папки `Paks/~mods/` в `installer/InstallerCore.cs` (сейчас ставятся только `Binaries/` и `Saved/`; нужны установка, учёт в `installed_files.json` и чистый откат).
    * Обновить `tools/VerifyPatch.ps1` и `PackageRelease.ps1`.
 
 ---
