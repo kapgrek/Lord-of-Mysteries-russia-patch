@@ -10022,6 +10022,191 @@ do
         return true
     end
 
+    -- AutoChess components fill their text in their own class methods
+    -- (Refresh/OnRefresh on the class table), which override UIComponent's
+    -- and are never seen by the base hook. Wrap them on the class table and
+    -- translate only the widgets of the component that was just drawn.
+    local function isAutoChessName(value)
+        if type(value) ~= "string" then return false end
+        return value:sub(1, 9) == "AutoChess" or value:sub(1, 17) == "ActivityAutoChess"
+    end
+    runtimeFixes.isAutoChessName = isAutoChessName
+
+    -- Components whose wrapped method is running. Nested wrapped calls on the
+    -- same component skip translation; the outermost call translates once.
+    local activeAutoChessComponents = setmetatable({}, { __mode = "k" })
+    runtimeFixes.AutoChessClassReports = {}
+
+    local function packResults(...)
+        return { n = select("#", ...), ... }
+    end
+
+    local function translateAutoChessComponent(comp, methodName, walkChildren)
+        if type(comp) ~= "table" or comp.isDestroyed then return 0 end
+        local started = nowMilliseconds()
+        local visited = {}
+        local labels = translateViewTextWidgets(comp.view, comp.userWidget or comp.widget, nil, comp, visited) or 0
+        if walkChildren then
+            local seen = { [comp] = true }
+            local function walk(owner, depth)
+                local children = owner._childComponents
+                if type(children) ~= "table" or depth > 4 then return end
+                for _, child in pairs(children) do
+                    if type(child) == "table" and not seen[child] and not child.isDestroyed then
+                        seen[child] = true
+                        labels = labels + (translateViewTextWidgets(child.view,
+                            child.userWidget or child.widget, nil, child, visited) or 0)
+                        walk(child, depth + 1)
+                    end
+                end
+            end
+            walk(comp, 1)
+        end
+        local elapsed = nowMilliseconds() - started
+        local className = tostring(comp.__cname or comp.uid or "AutoChess")
+        local summary = runtimeFixes.AutoChessClassReports[className]
+        if summary == nil then
+            summary = { Calls = 0, Labels = 0, Millis = 0, Slow = 0, NextReport = 1 }
+            runtimeFixes.AutoChessClassReports[className] = summary
+        end
+        summary.Calls = summary.Calls + 1
+        summary.Labels = summary.Labels + labels
+        summary.Millis = summary.Millis + elapsed
+        if elapsed > 8 then
+            summary.Slow = summary.Slow + 1
+            if summary.Slow <= 5 or summary.Slow % 50 == 0 then
+                report("slow AutoChess class repair " .. className .. "." .. tostring(methodName)
+                    .. " elapsed_ms=" .. string.format("%.2f", elapsed)
+                    .. " labels=" .. tostring(labels)
+                    .. " children=" .. tostring(walkChildren == true)
+                    .. " slow_total=" .. tostring(summary.Slow))
+            end
+        end
+        -- Aggregated: log on calls 1, 2, 4, 8, ... per class.
+        local calls = summary.Calls
+        if calls >= summary.NextReport then
+            summary.NextReport = summary.NextReport * 2
+            report("AutoChess class repair " .. className
+                .. " calls=" .. tostring(calls)
+                .. " labels_total=" .. tostring(summary.Labels)
+                .. " last=" .. tostring(methodName) .. ":" .. tostring(labels)
+                .. " avg_ms=" .. string.format("%.2f", summary.Millis / calls))
+        end
+        return labels
+    end
+    runtimeFixes.translateAutoChessComponent = translateAutoChessComponent
+
+    -- Calls original with all arguments and returns all its results. Only the
+    -- outermost wrapped call per component translates afterwards.
+    -- While a page method runs with walkChildren, its descendants are covered
+    -- by that walk and skip their own pass.
+    local currentWalkRoot = nil
+    local function isDescendantOf(comp, root)
+        local current, depth = comp.parentComponent, 0
+        while type(current) == "table" and depth < 16 do
+            if current == root then return true end
+            current = current.parentComponent
+            depth = depth + 1
+        end
+        return false
+    end
+
+    local function callAutoChessGuarded(comp, original, methodName, walkChildren, afterTranslate, ...)
+        if type(comp) ~= "table" or activeAutoChessComponents[comp]
+            or (currentWalkRoot ~= nil and isDescendantOf(comp, currentWalkRoot))
+        then
+            return original(comp, ...)
+        end
+        activeAutoChessComponents[comp] = true
+        local ownsWalkRoot = walkChildren and currentWalkRoot == nil
+        if ownsWalkRoot then currentWalkRoot = comp end
+        local results = packResults(pcall(original, comp, ...))
+        activeAutoChessComponents[comp] = nil
+        if ownsWalkRoot then currentWalkRoot = nil end
+        if not results[1] then
+            error(results[2], 0)
+        end
+        local ok, err = pcall(translateAutoChessComponent, comp, methodName, walkChildren)
+        if not ok and not runtimeFixes.AutoChessClassRepairErrorReported then
+            runtimeFixes.AutoChessClassRepairErrorReported = true
+            report("AutoChess class repair failed safely: " .. tostring(err))
+        end
+        if afterTranslate ~= nil then pcall(afterTranslate, comp) end
+        return unpack(results, 2, results.n)
+    end
+
+    local autoChessClassMethods = {
+        Refresh = false, OnRefresh = false,
+        RefreshTalentResult = true, RefreshEquipResult = true, RefreshChessList = true,
+        OnShowSubPanel = true, OpenDetailTips = true,
+        OpenReviewTalentTips = true, OpenReviewFetterTips = true,
+    }
+    local function autoChessClassMethodMode(name)
+        local mode = autoChessClassMethods[name]
+        if mode ~= nil then return mode end
+        if name:sub(1, 3) == "on_" and (name:find("_ItemSelected$") or name:find("_ItemClicked$")) then
+            return true
+        end
+        if name:find("^on_.+_SearchResult$") then return true end
+        return nil
+    end
+
+    runtimeFixes.AutoChessClassWrappers = setmetatable({}, { __mode = "k" })
+    local function hookAutoChessClassTable(classTable)
+        local className = tostring(rawget(classTable, "__cname"))
+        local names = {}
+        for name, value in pairs(classTable) do
+            if type(name) == "string" and type(value) == "function"
+                and not runtimeFixes.AutoChessClassWrappers[value]
+                and autoChessClassMethodMode(name) ~= nil
+            then
+                names[#names + 1] = name
+            end
+        end
+        table.sort(names)
+        local installed = {}
+        for _, name in ipairs(names) do
+            local original = rawget(classTable, name)
+            local walkChildren = autoChessClassMethodMode(name)
+            local wrapper = function(self, ...)
+                return callAutoChessGuarded(self, original, name, walkChildren, nil, ...)
+            end
+            runtimeFixes.AutoChessClassWrappers[wrapper] = true
+            if pcall(rawset, classTable, name, wrapper) then
+                installed[#installed + 1] = name
+            end
+        end
+        rawset(classTable, "__cpddAutoChessClassHook", VERSION)
+        report("installed AutoChess class hook " .. className .. ": "
+            .. (#installed > 0 and table.concat(installed, ",") or "<none>"))
+    end
+
+    -- Walk instance -> class -> base classes; hook only AutoChess class
+    -- tables, never UIComponent / UIListItem / UIListView / UIPanel.
+    function runtimeFixes.installAutoChessClassHooks(comp)
+        if type(comp) ~= "table" then return end
+        if not (isAutoChessName(comp.__cname) or isAutoChessName(comp.uid) or isAutoChessName(comp.UID)) then
+            return
+        end
+        local mtOk, mt = pcall(getmetatable, comp)
+        local current = mtOk and type(mt) == "table" and rawget(mt, "__index") or nil
+        local depth = 0
+        while type(current) == "table" and depth < 8 do
+            if not isAutoChessName(rawget(current, "__cname")) then break end
+            if rawget(current, "__cpddAutoChessClassHook") ~= VERSION then
+                local ok, err = pcall(hookAutoChessClassTable, current)
+                if not ok then
+                    rawset(current, "__cpddAutoChessClassHook", VERSION)
+                    report("AutoChess class hook failed safely for "
+                        .. tostring(rawget(current, "__cname")) .. ": " .. tostring(err))
+                end
+            end
+            local okParent, parentMt = pcall(getmetatable, current)
+            current = okParent and type(parentMt) == "table" and rawget(parentMt, "__index") or nil
+            depth = depth + 1
+        end
+    end
+
     runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
     function runtimeFixes.hookAutoChessMethod(origMethod, methodName)
         if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
@@ -10092,16 +10277,9 @@ do
                     if comp.m_FetterData ~= nil then safeTranslateAutoChessData(comp.m_FetterData, seen) end
                 end)
             end
-            local results = { origMethod(comp, unpack(args, 1, argCount)) }
-            pcall(function()
-                translateDirectViewTextWidgets(comp and comp.view)
-                if comp then
-                    local root = comp.userWidget or comp.widget
-                    translateViewTextWidgets(comp.view, root)
-                    runtimeFixes.repairAutoChessHudAttributes(comp)
-                end
-            end)
-            return unpack(results)
+            -- Shares the class-hook guard: one translation per outermost call.
+            return callAutoChessGuarded(comp, origMethod, methodName, false,
+                runtimeFixes.repairAutoChessHudAttributes, unpack(args, 1, argCount))
         end
         runtimeFixes.AutoChessHookedWrappers[wrapper] = true
         return wrapper
@@ -10113,11 +10291,12 @@ end
 -- the real module keys, component classes, method names and view widget names,
 -- so the next fix can target them. It only observes: it never changes text
 -- or widgets. Output goes to Warning level (PerformanceMode keeps it) and to
--- Saved/Mods/cpdd-autochess-diag.log. Disable with AutoChessDiagnostics=false.
+-- Saved/Mods/cpdd-autochess-diag.log. Off by default; enable with
+-- AutoChessDiagnostics=true.
 do
     local diag = {
-        Enabled = not (type(Loader.Features) == "table"
-            and Loader.Features.AutoChessDiagnostics == false),
+        Enabled = type(Loader.Features) == "table"
+            and Loader.Features.AutoChessDiagnostics == true,
         FileName = "cpdd-autochess-diag.log",
         Lines = {},
         MaxLines = 20000,
@@ -10573,6 +10752,15 @@ local function installEventDrivenPanelRepair(value, environment)
                 local isAutoChess = (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
                     or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel"
                     or uid:find("AutoChess", 1, true) ~= nil or uid:find("autochess", 1, true) ~= nil)
+                if isAutoChess then
+                    -- Class-level Refresh/OnRefresh/selection hooks; once per
+                    -- class table and VERSION.
+                    local hookOk, hookErr = pcall(runtimeFixes.installAutoChessClassHooks, self)
+                    if not hookOk and not repairErrorReported then
+                        repairErrorReported = true
+                        report("AutoChess class hook install failed safely: " .. tostring(hookErr))
+                    end
+                end
                 if isAutoChess and not self.__cpddAutoChessHooked then
                     self.__cpddAutoChessHooked = true
                     for _, method in ipairs({
@@ -10643,85 +10831,6 @@ Loader.AfterLoad(
     1000000,
     "cpdd.runtime-fix.event-driven-panels"
 )
-
-do
-    local autoChessModuleCandidates = {
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Hud_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChessHudPanel",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Hud",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailPanel",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail",
-        "Gameplay.LogicSystem.AutoChess.GameDetail_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChessCardDescriptionPanel",
-        "Gameplay.LogicSystem.AutoChess.CardDescription_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain_Panel",
-        "Gameplay.LogicSystem.AutoChess.AutoChessOutSideMainPanel",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Card_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_CardItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChessCardItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Card",
-        "Gameplay.LogicSystem.AutoChess.AutoChessCard",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Piece_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_PieceItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChessPieceItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_ListItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChessListItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_Fetter_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_FetterItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChessFetterItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSide_Card_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChessOutSideCardItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail_Card_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailCardItem",
-        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription_Item",
-        "Gameplay.LogicSystem.AutoChess.AutoChessCardDescriptionItem",
-    }
-    for _, modName in ipairs(autoChessModuleCandidates) do
-        Loader.AfterLoad(modName, function(value, environment)
-            local panelClass = getSymbol(value, environment, "AutoChess_Hud_Panel")
-                or getSymbol(value, environment, "AutoChessHudPanel")
-                or getSymbol(value, environment, "AutoChess_Hud")
-                or getSymbol(value, environment, "AutoChess_GameDetail_Panel")
-                or getSymbol(value, environment, "GameDetail_Panel")
-                or getSymbol(value, environment, "AutoChess_CardDescription_Panel")
-                or getSymbol(value, environment, "CardDescription_Panel")
-                or getSymbol(value, environment, "AutoChess_OutSideMain_Panel")
-                or getSymbol(value, environment, "AutoChessOutSideMainPanel")
-                or value
-            if type(panelClass) == "table" and panelClass.__cpddAutoChessPanelHooked ~= VERSION then
-                panelClass.__cpddAutoChessPanelHooked = VERSION
-                for _, m in ipairs({
-                    "OnListItemObjectSet", "SetData", "InitView",
-                    "Open", "Refresh", "Update", "UpdateData", "UpdateView", "UpdateList",
-                    "RefreshList", "InitData", "UpdateCards", "RefreshCards",
-                    "UpdateMatchInfo", "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail",
-                    "SetGameDetail", "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails",
-                    "ShowCardDetail", "SetCardData", "UpdateCardInfo", "OnOpen",
-                    "SetCard", "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
-                    "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
-                    "UpdateSynergy", "UpdateSynergies", "RefreshSynergy",
-                    "SelectCard", "OnSelectCard", "SelectPiece", "OnSelectPiece",
-                    "ShowTips", "UpdateTips", "SetTips"
-                }) do
-                    local origM = panelClass[m]
-                    if type(origM) == "function" then
-                        panelClass[m] = runtimeFixes.hookAutoChessMethod(origM, m)
-                    end
-                end
-                report("installed AutoChess lifecycle hooks on " .. modName)
-            end
-            local diag = runtimeFixes.autoChessDiag
-            if diag ~= nil then
-                pcall(diag.OnModuleLoaded, modName, value, panelClass)
-            end
-            return value
-        end, 1000000, "cpdd.runtime-fix.autochess-panels")
-    end
-end
 
 runtimeFixes.statisticsEverywhereEnabled = function()
     local loader = rawget(_G, "LOMModLoader")
