@@ -10023,7 +10023,7 @@ do
     end
 
     runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
-    function runtimeFixes.hookAutoChessMethod(origMethod)
+    function runtimeFixes.hookAutoChessMethod(origMethod, methodName)
         if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
             return origMethod
         end
@@ -10033,12 +10033,16 @@ do
             for _, m in ipairs({ "OnListItemObjectSet", "SetData", "InitView", "InitData", "UpdateView", "SetCardData", "UpdateCard" }) do
                 local orig = item[m]
                 if type(orig) == "function" then
-                    item[m] = runtimeFixes.hookAutoChessMethod(orig)
+                    item[m] = runtimeFixes.hookAutoChessMethod(orig, m)
                 end
             end
         end
 
         local function wrapper(comp, ...)
+            local diag = runtimeFixes.autoChessDiag
+            if diag ~= nil then
+                pcall(diag.OnMethodCall, comp, methodName, "translate-hook", ...)
+            end
             local argCount = select("#", ...)
             local args = { ... }
             local seen = {}
@@ -10104,6 +10108,456 @@ do
     end
 end
 
+-- AutoChess diagnostics. The AutoChess module list above is guessed, and the
+-- encyclopedia's nested components are never matched by it. This pass records
+-- the real module keys, component classes, method names and view widget names,
+-- so the next fix can target them. It only observes: it never changes text
+-- or widgets. Output goes to Warning level (PerformanceMode keeps it) and to
+-- Saved/Mods/cpdd-autochess-diag.log. Disable with AutoChessDiagnostics=false.
+do
+    local diag = {
+        Enabled = not (type(Loader.Features) == "table"
+            and Loader.Features.AutoChessDiagnostics == false),
+        FileName = "cpdd-autochess-diag.log",
+        Lines = {},
+        MaxLines = 20000,
+        Truncated = false,
+        Dirty = false,
+        SeenModuleKeys = {},
+        SeenClassNames = {},
+        DumpedLevels = setmetatable({}, { __mode = "k" }),
+        DumpedComponents = {},
+        ViewDumpsPerClass = {},
+        WrappedClasses = setmetatable({}, { __mode = "k" }),
+        EventCounts = {},
+        CallCounts = {},
+        MaxEventsPerKey = 60,
+        MaxCallsPerKey = 30,
+    }
+
+    local function isChessName(value)
+        return type(value) == "string" and value:lower():find("chess", 1, true) ~= nil
+    end
+
+    local function timestamp()
+        if type(os) == "table" and type(os.date) == "function" then
+            local ok, value = pcall(os.date, "%H:%M:%S")
+            if ok then return tostring(value) .. " " end
+        end
+        return ""
+    end
+
+    function diag.Log(message)
+        if not diag.Enabled then return end
+        local line = "[CPDDAutoChessDiag] " .. tostring(message)
+        local nativeLogger = LuaCLogger
+        if nativeLogger ~= nil and type(nativeLogger.Warning) == "function" then
+            pcall(nativeLogger.Warning, line)
+        else
+            local logger = Log or LaunchLog
+            if logger and logger.Warning then
+                pcall(logger.Warning, line)
+            elseif logger and logger.Info then
+                pcall(logger.Info, line)
+            end
+        end
+        if #diag.Lines < diag.MaxLines then
+            diag.Lines[#diag.Lines + 1] = timestamp() .. line
+            diag.Dirty = true
+        elseif not diag.Truncated then
+            diag.Truncated = true
+            diag.Lines[#diag.Lines + 1] = "[CPDDAutoChessDiag] file line limit reached; see game log"
+            diag.Dirty = true
+        end
+    end
+
+    local fileLibrary = nil
+    function diag.Flush()
+        if not diag.Dirty then return end
+        diag.Dirty = false
+        local root = tostring(Loader.Root or ""):gsub("\\", "/"):gsub("/+$", "")
+        if root == "" then return end
+        if fileLibrary == nil then
+            local ok, library = pcall(import, "LuaFunctionLibrary")
+            fileLibrary = (ok and library) or false
+        end
+        if not fileLibrary or type(fileLibrary.SaveStringContentToFile) ~= "function" then return end
+        pcall(fileLibrary.SaveStringContentToFile,
+            table.concat(diag.Lines, "\n") .. "\n", root .. "/" .. diag.FileName)
+    end
+
+    local function logList(prefix, names)
+        if #names == 0 then
+            diag.Log(prefix .. " <none>")
+            return
+        end
+        local chunk = {}
+        for i, name in ipairs(names) do
+            chunk[#chunk + 1] = tostring(name)
+            if #chunk == 40 or i == #names then
+                diag.Log(prefix .. " [" .. tostring(i - #chunk + 1) .. "-" .. tostring(i)
+                    .. "/" .. tostring(#names) .. "] " .. table.concat(chunk, ", "))
+                chunk = {}
+            end
+        end
+    end
+
+    local function componentKey(comp)
+        return tostring(comp.__cname) .. "|" .. tostring(comp.uid or comp.UID)
+    end
+
+    local function parentChain(comp)
+        local parts = {}
+        local current = comp.parentComponent
+        while type(current) == "table" and #parts < 8 do
+            parts[#parts + 1] = componentKey(current)
+            current = current.parentComponent
+        end
+        return parts
+    end
+
+    local function isRelevant(comp)
+        local current, depth = comp, 0
+        while type(current) == "table" and depth < 9 do
+            if isChessName(current.__cname) or isChessName(current.uid) or isChessName(current.UID) then
+                return true
+            end
+            current = current.parentComponent
+            depth = depth + 1
+        end
+        return false
+    end
+
+    local function describeArg(value)
+        local valueType = type(value)
+        if valueType == "string" then
+            local text = value:gsub("[\r\n]", "\\n")
+            if #text > 80 then text = text:sub(1, 80) .. "..." end
+            return '"' .. text .. '"'
+        elseif valueType == "number" or valueType == "boolean" or valueType == "nil" then
+            return tostring(value)
+        elseif valueType == "table" then
+            local keys, count = {}, 0
+            for k in pairs(value) do
+                count = count + 1
+                if #keys < 12 then keys[#keys + 1] = tostring(k) end
+            end
+            local cname = value.__cname
+            return "table{" .. (cname ~= nil and ("cname=" .. tostring(cname) .. " ") or "")
+                .. "n=" .. tostring(count) .. " " .. table.concat(keys, ",") .. "}"
+        end
+        return valueType
+    end
+
+    -- Instance, then metatable/__index/super chain. Each class level is listed
+    -- once per session; later components only reference it.
+    local function classLevels(comp)
+        local levels, visited = {}, {}
+        local function push(t, how)
+            if type(t) == "table" and not visited[t] and #levels < 16 then
+                visited[t] = true
+                levels[#levels + 1] = { Table = t, How = how }
+            end
+        end
+        push(comp, "instance")
+        local i = 1
+        while i <= #levels do
+            local t = levels[i].Table
+            local mtOk, mt = pcall(getmetatable, t)
+            if mtOk and type(mt) == "table" then
+                push(rawget(mt, "__index"), "__index")
+                push(mt, "metatable")
+            end
+            push(rawget(t, "super"), "super")
+            push(rawget(t, "__super"), "__super")
+            push(rawget(t, "class"), "class")
+            i = i + 1
+        end
+        return levels
+    end
+
+    local function dumpView(indent, view)
+        if type(view) ~= "table" then
+            diag.Log(indent .. "view type=" .. type(view))
+            return
+        end
+        local names, nested = {}, {}
+        for k, v in pairs(view) do
+            if type(k) == "string" then
+                local desc = k
+                if type(v) == "userdata" then
+                    local ok, className = pcall(function() return v:GetClass():GetName() end)
+                    if ok and className ~= nil then desc = k .. ":" .. tostring(className) end
+                elseif type(v) == "table" then
+                    desc = k .. ":table"
+                    nested[#nested + 1] = k
+                end
+                names[#names + 1] = desc
+            end
+        end
+        table.sort(names)
+        logList(indent .. "view widgets", names)
+        table.sort(nested)
+        for _, k in ipairs(nested) do
+            local sub = {}
+            for subKey in pairs(view[k]) do
+                if type(subKey) == "string" and #sub < 80 then sub[#sub + 1] = subKey end
+            end
+            table.sort(sub)
+            logList(indent .. "view." .. k .. " keys", sub)
+        end
+    end
+
+    function diag.DumpComponent(comp, indent)
+        local cname = tostring(comp.__cname)
+        diag.Log(indent .. "component " .. componentKey(comp)
+            .. " parents=[" .. table.concat(parentChain(comp), " < ") .. "]")
+        -- Generic classes (UIComponent, list items) share methods but not
+        -- widgets, so views are dumped per instance, capped per class.
+        local viewDumps = (diag.ViewDumpsPerClass[cname] or 0) + 1
+        diag.ViewDumpsPerClass[cname] = viewDumps
+        if viewDumps <= 5 then
+            pcall(function()
+                local widget = comp.userWidget or comp.widget
+                if widget ~= nil and widget.GetName then
+                    diag.Log(indent .. "  userWidget=" .. tostring(widget:GetName()))
+                end
+            end)
+            dumpView(indent .. "  ", comp.view)
+        elseif viewDumps == 6 then
+            diag.Log(indent .. "  (further views of class " .. cname .. " omitted)")
+        end
+        if diag.SeenClassNames[cname] then
+            return
+        end
+        diag.SeenClassNames[cname] = true
+        for i, level in ipairs(classLevels(comp)) do
+            local t = level.Table
+            local levelName = tostring(rawget(t, "__cname") or "?")
+            local prefix = indent .. "  level" .. tostring(i) .. " " .. levelName .. " (" .. level.How .. ")"
+            if diag.DumpedLevels[t] then
+                diag.Log(prefix .. " already listed")
+            else
+                diag.DumpedLevels[t] = true
+                local methods, fields = {}, {}
+                for k, v in pairs(t) do
+                    if type(k) == "string" then
+                        if type(v) == "function" then
+                            methods[#methods + 1] = k
+                        elseif i == 1 then
+                            fields[#fields + 1] = k .. ":" .. type(v)
+                        end
+                    end
+                end
+                table.sort(methods)
+                logList(prefix .. " methods", methods)
+                if i == 1 then
+                    table.sort(fields)
+                    logList(prefix .. " fields", fields)
+                end
+            end
+        end
+    end
+
+    local function dumpChildren(comp, indent, depth, visited)
+        local children = comp._childComponents
+        if type(children) ~= "table" or depth > 5 then return end
+        local labels = {}
+        for k, child in pairs(children) do
+            if type(child) == "table" then
+                labels[#labels + 1] = tostring(k) .. "=" .. componentKey(child)
+            end
+        end
+        table.sort(labels)
+        if #labels > 0 then
+            logList(indent .. "children of " .. componentKey(comp), labels)
+        end
+        for _, child in pairs(children) do
+            if type(child) == "table" and not visited[child] then
+                visited[child] = true
+                local key = componentKey(child)
+                if not diag.DumpedComponents[key] then
+                    diag.DumpedComponents[key] = true
+                    diag.DumpComponent(child, indent .. "  ")
+                end
+                dumpChildren(child, indent .. "  ", depth + 1, visited)
+            end
+        end
+    end
+
+    -- Observe-only wrappers on real AutoChess classes found by the module scan.
+    -- UIComponent.Open/Refresh misses subclasses that override them without
+    -- calling super. Click handlers are left alone because listeners may be
+    -- removed by function identity.
+    local diagWrapNames = {
+        "Open", "Refresh", "OnOpen", "OnRefresh", "OnShow", "OnCreate", "OnInit",
+        "InitView", "InitData", "OnListItemObjectSet", "SetData", "UpdateView",
+        "RefreshView", "RefreshUI", "UpdateData",
+    }
+    local function wrapClassForDiag(classTable, label)
+        if type(classTable) ~= "table" or diag.WrappedClasses[classTable] then return 0 end
+        diag.WrappedClasses[classTable] = true
+        local wrapped = {}
+        for _, name in ipairs(diagWrapNames) do
+            local original = rawget(classTable, name)
+            if type(original) == "function" then
+                local assigned = pcall(function()
+                    classTable[name] = function(self, ...)
+                        pcall(diag.OnMethodCall, self, name, "class:" .. label, ...)
+                        return original(self, ...)
+                    end
+                end)
+                if assigned then wrapped[#wrapped + 1] = name end
+            end
+        end
+        if #wrapped > 0 then
+            diag.Log("  observe-wrapped " .. tostring(rawget(classTable, "__cname"))
+                .. " from " .. label .. ": " .. table.concat(wrapped, ","))
+        end
+        return #wrapped
+    end
+
+    local function collectClasses(value, out)
+        if type(value) ~= "table" then return end
+        if rawget(value, "__cname") ~= nil then
+            out[#out + 1] = value
+            return
+        end
+        local scanned = 0
+        for _, v in pairs(value) do
+            scanned = scanned + 1
+            if scanned > 500 then break end
+            if type(v) == "table" and rawget(v, "__cname") ~= nil then
+                out[#out + 1] = v
+            end
+        end
+    end
+
+    local function scanTable(label, source)
+        if type(source) ~= "table" then
+            diag.Log("scan " .. label .. ": unavailable (" .. type(source) .. ")")
+            return
+        end
+        local fresh, total = {}, 0
+        for k in pairs(source) do
+            if isChessName(k) then
+                total = total + 1
+                local seenKey = label .. "|" .. k
+                if not diag.SeenModuleKeys[seenKey] then
+                    diag.SeenModuleKeys[seenKey] = true
+                    fresh[#fresh + 1] = k
+                end
+            end
+        end
+        table.sort(fresh)
+        diag.Log("scan " .. label .. ": chess keys total=" .. tostring(total) .. " new=" .. tostring(#fresh))
+        for _, k in ipairs(fresh) do
+            local value = source[k]
+            local classes, cnames = {}, {}
+            collectClasses(value, classes)
+            for _, cls in ipairs(classes) do
+                cnames[#cnames + 1] = tostring(rawget(cls, "__cname"))
+            end
+            diag.Log("  " .. label .. "[" .. k .. "] type=" .. type(value)
+                .. " classes=" .. table.concat(cnames, ","))
+            for _, cls in ipairs(classes) do
+                wrapClassForDiag(cls, k)
+            end
+        end
+    end
+
+    function diag.ScanModules(stage)
+        if not diag.Enabled then return end
+        diag.Log("module scan stage=" .. tostring(stage))
+        scanTable("package.loaded", type(package) == "table" and package.loaded or nil)
+        local gameOk, gameLoaded = pcall(function() return Game and Game.loaded end)
+        scanTable("Game.loaded", gameOk and gameLoaded or nil)
+        scanTable("_G", _G)
+        -- kg_require keeps its own module cache; find it through upvalues.
+        local privateRequire = rawget(_G, "kg_require")
+        if type(privateRequire) == "function" and type(debug) == "table"
+            and type(debug.getupvalue) == "function" then
+            for i = 1, 60 do
+                local ok, name, value = pcall(debug.getupvalue, privateRequire, i)
+                if not ok or name == nil then break end
+                if type(value) == "table" then
+                    local hasChess = false
+                    for k in pairs(value) do
+                        if isChessName(k) then hasChess = true break end
+                    end
+                    if hasChess then
+                        scanTable("kg_require.upvalue[" .. tostring(name) .. "]", value)
+                    end
+                end
+            end
+        else
+            diag.Log("scan kg_require: unavailable")
+        end
+        diag.Flush()
+    end
+
+    function diag.OnComponentEvent(comp, event, source)
+        if not diag.Enabled or type(comp) ~= "table" or not isRelevant(comp) then return end
+        local key = componentKey(comp)
+        local cname = tostring(comp.__cname)
+        if not diag.SeenClassNames[cname] then
+            diag.ScanModules("new component " .. key)
+        end
+        local count = (diag.EventCounts[key] or 0) + 1
+        diag.EventCounts[key] = count
+        if count <= diag.MaxEventsPerKey then
+            diag.Log("event " .. key .. "." .. tostring(event) .. " via " .. tostring(source)
+                .. " #" .. tostring(count)
+                .. " parents=[" .. table.concat(parentChain(comp), " < ") .. "]")
+        end
+        if not diag.DumpedComponents[key] then
+            diag.DumpedComponents[key] = true
+            diag.DumpComponent(comp, "  ")
+        end
+        if count <= diag.MaxEventsPerKey then
+            dumpChildren(comp, "  ", 1, {})
+        end
+        diag.Flush()
+    end
+
+    function diag.OnMethodCall(comp, methodName, source, ...)
+        if not diag.Enabled or type(comp) ~= "table" then return end
+        local key = componentKey(comp) .. "." .. tostring(methodName or "?")
+        local count = (diag.CallCounts[key] or 0) + 1
+        diag.CallCounts[key] = count
+        if count > diag.MaxCallsPerKey then return end
+        local args = {}
+        for i = 1, math.min(select("#", ...), 6) do
+            args[#args + 1] = describeArg((select(i, ...)))
+        end
+        diag.Log("call " .. key .. " via " .. tostring(source) .. " #" .. tostring(count)
+            .. " args=(" .. table.concat(args, "; ") .. ")")
+        if count == 1 and not diag.DumpedComponents[componentKey(comp)] then
+            diag.DumpedComponents[componentKey(comp)] = true
+            diag.DumpComponent(comp, "  ")
+        end
+        diag.Flush()
+    end
+
+    function diag.OnModuleLoaded(modName, value, panelClass)
+        diag.Log("AfterLoad " .. tostring(modName) .. " value=" .. type(value)
+            .. " class=" .. tostring(type(panelClass) == "table" and panelClass.__cname or nil))
+        diag.Flush()
+    end
+
+    if diag.Enabled then
+        runtimeFixes.autoChessDiag = diag
+        diag.Log("AutoChess diagnostics enabled v" .. VERSION .. " file=Saved/Mods/" .. diag.FileName)
+        local scanOk, scanErr = pcall(diag.ScanModules, "module-load")
+        if not scanOk then diag.Log("module-load scan failed: " .. tostring(scanErr)) end
+        if type(Loader.On) == "function" then
+            Loader.On("after_main", function()
+                pcall(diag.ScanModules, "after_main")
+            end, 1000000, "cpdd.runtime-fix.autochess-diagnostics")
+        end
+    end
+end
+
 local function installEventDrivenPanelRepair(value, environment)
     local class = getSymbol(value, environment, "UIComponent")
     if type(class) ~= "table" or rawget(class, "__cpddEventTextRepair") == VERSION then
@@ -10136,11 +10590,15 @@ local function installEventDrivenPanelRepair(value, environment)
                     }) do
                         local origMethod = self[method]
                         if type(origMethod) == "function" then
-                            self[method] = runtimeFixes.hookAutoChessMethod(origMethod)
+                            self[method] = runtimeFixes.hookAutoChessMethod(origMethod, method)
                         end
                     end
                 end
                 local results = { original(self, ...) }
+                local diag = runtimeFixes.autoChessDiag
+                if diag ~= nil then
+                    pcall(diag.OnComponentEvent, self, methodName, "UIComponent")
+                end
                 local ok, err = pcall(panelTextRepair.ProcessOnce,
                     panelTextRepair, self, methodName)
                 if not ok and not repairErrorReported then
@@ -10251,10 +10709,14 @@ do
                 }) do
                     local origM = panelClass[m]
                     if type(origM) == "function" then
-                        panelClass[m] = runtimeFixes.hookAutoChessMethod(origM)
+                        panelClass[m] = runtimeFixes.hookAutoChessMethod(origM, m)
                     end
                 end
                 report("installed AutoChess lifecycle hooks on " .. modName)
+            end
+            local diag = runtimeFixes.autoChessDiag
+            if diag ~= nil then
+                pcall(diag.OnModuleLoaded, modName, value, panelClass)
             end
             return value
         end, 1000000, "cpdd.runtime-fix.autochess-panels")
