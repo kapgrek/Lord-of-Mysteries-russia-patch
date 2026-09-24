@@ -9137,6 +9137,9 @@ function panelTextRepair:Repair(component, reason)
                 rootWidget
             )
         end
+        if tostring(componentUid):find("AutoChess") ~= nil then
+            runtimeFixes.repairAutoChessHudAttributes(current)
+        end
 
         -- Child UIComponents and cached subviews own independent UWidgetTrees.
         -- Walking them is the important coverage difference from the old panel
@@ -9275,96 +9278,371 @@ function panelTextRepair:QueueExtended(component)
     end
 end
 
-local function deepTranslateAutoChessData(target, seen, depth)
-    if target == nil then return target end
-    local tType = type(target)
-    if tType ~= "table" and tType ~= "userdata" then
-        return target
-    end
-    depth = depth or 0
-    if depth > 20 then return target end
-    seen = seen or {}
-    if seen[target] then return target end
-    seen[target] = true
+do
+    local autoChessExcludedKeyNames = {
+        Attr = true, attr = true, Attrs = true, attrs = true,
+        Stats = true, stats = true, Stat = true, stat = true,
+        PropertyMap = true, propertyMap = true, Properties = true, properties = true, Property = true, property = true,
+        BaseAttr = true, baseAttr = true, FightAttr = true, fightAttr = true,
+        CombatStats = true, combatStats = true, CombatData = true, combatData = true,
+        Actor = true, actor = true, ActorData = true, actorData = true, ActorState = true, actorState = true,
+        Component = true, component = true, Components = true, components = true,
+        Buff = true, buff = true, Buffs = true, buffs = true, BuffMap = true, buffMap = true,
+        SkillMap = true, skillMap = true, SkillId = true, skillId = true,
+        Numeric = true, numeric = true, Values = true, values = true,
+        Hp = true, hp = true, MaxHp = true, maxHp = true,
+        Mp = true, mp = true, MaxMp = true, maxMp = true,
+        Attack = true, attack = true, Def = true, def = true, Defense = true, defense = true,
+        Speed = true, speed = true, AtkSpeed = true, atkSpeed = true, AttackSpeed = true, attackSpeed = true,
+        Crit = true, crit = true, Critical = true, critical = true,
+        Range = true, range = true, AttackRange = true, attackRange = true,
+        Level = true, level = true, Star = true, star = true, Cost = true, cost = true, Price = true, price = true,
+        Id = true, id = true, ID = true, CardId = true, cardId = true, PieceId = true, pieceId = true,
+        Guid = true, guid = true, UID = true, uid = true, EntityId = true, entityId = true,
+    }
 
-    pcall(function()
-        if type(target.Num) == "function" and type(target.Get) == "function" then
-            local count = target:Num()
-            if type(count) == "number" and count > 0 and count <= 500 then
-                for idx = 0, count - 1 do
-                    local item = target:Get(idx)
-                    if type(item) == "table" or type(item) == "userdata" then
-                        deepTranslateAutoChessData(item, seen, depth + 1)
+    local autoChessSafeTextFieldNames = {
+        Name = true, name = true, CardName = true, cardName = true, PieceName = true, pieceName = true,
+        Title = true, title = true, SubTitle = true, subTitle = true,
+        Desc = true, desc = true, Description = true, description = true, CardDesc = true, cardDesc = true,
+        Detail = true, detail = true, Info = true, info = true, Content = true, content = true,
+        Tip = true, tip = true, Tips = true, tips = true,
+        Effect = true, effect = true, SkillDesc = true, skillDesc = true, SkillName = true, skillName = true,
+        FetterName = true, fetterName = true, FetterDesc = true, fetterDesc = true,
+        SynergyName = true, synergyName = true, SynergyDesc = true, synergyDesc = true,
+        BondName = true, bondName = true, BondDesc = true, bondDesc = true,
+        Role = true, role = true, RoleName = true, roleName = true,
+        Race = true, race = true, RaceName = true, raceName = true,
+        Profession = true, profession = true, ProfessionName = true, professionName = true,
+        Header = true, header = true, Summary = true, summary = true,
+        Text = true, text = true, Label = true, label = true,
+        Msg = true, msg = true, Message = true, message = true,
+        Str = true, str = true, String = true, string = true,
+        Story = true, story = true, Lore = true, lore = true,
+    }
+
+    local function isAutoChessExcluded(k)
+        if k == nil then return false end
+        if autoChessExcludedKeyNames[k] then return true end
+        if type(k) == "string" then
+            local l = k:lower()
+            if l:find("attr") or l:find("stat") or l:find("propertymap") or l:find("actor") or l:find("combat") then
+                return true
+            end
+        end
+        return false
+    end
+
+    local function isAutoChessSafeText(k)
+        if k == nil then return false end
+        if autoChessSafeTextFieldNames[k] then return true end
+        if type(k) == "string" then
+            local l = k:lower()
+            if l:find("desc") or l:find("name") or l:find("title") or l:find("tips") or l:find("synergy") or l:find("fetter") or l:find("role") or l:find("bond") then
+                return true
+            end
+        end
+        return false
+    end
+
+    local function safeTranslateAutoChessData(target, seen, depth)
+        if target == nil then return target end
+        local tType = type(target)
+        if tType ~= "table" and tType ~= "userdata" then
+            return target
+        end
+        depth = depth or 0
+        if depth > 15 then return target end
+        seen = seen or {}
+        if seen[target] then return target end
+        seen[target] = true
+
+        pcall(function()
+            if type(target.Num) == "function" and type(target.Get) == "function" then
+                local count = target:Num()
+                if type(count) == "number" and count > 0 and count <= 500 then
+                    for idx = 0, count - 1 do
+                        local item = target:Get(idx)
+                        if type(item) == "table" or type(item) == "userdata" then
+                            safeTranslateAutoChessData(item, seen, depth + 1)
+                        end
+                    end
+                end
+            end
+        end)
+
+        if tType == "table" then
+            for k, v in pairs(target) do
+                if not isAutoChessExcluded(k) then
+                    local vType = type(v)
+                    if vType == "string" then
+                        if isAutoChessSafeText(k) or type(k) == "number" then
+                            local t = translateVisibleText(v)
+                            if t ~= nil and t ~= v then
+                                target[k] = t
+                            end
+                        end
+                    elseif vType == "table" or vType == "userdata" then
+                        safeTranslateAutoChessData(v, seen, depth + 1)
                     end
                 end
             end
         end
-    end)
+        return target
+    end
 
-    if tType == "table" then
-        for k, v in pairs(target) do
-            local vType = type(v)
-            if vType == "string" then
-                local t = translateVisibleText(v)
-                if t ~= nil and t ~= v then
-                    target[k] = t
+    runtimeFixes.repairAutoChessHudAttributes = function(comp)
+        if comp == nil then return false end
+        local root = comp.userWidget or comp.widget
+        local view = comp.view
+        if root == nil and view == nil then return false end
+
+        local lifeWidget = getNamedWidget(view, "WBP_AutoChess_Tips_LifeSchedule")
+            or getNamedWidget(root, "WBP_AutoChess_Tips_LifeSchedule")
+        local vitalityWidget = getNamedWidget(view, "WBP_AutoChess_Tips_VitalitySchedule")
+            or getNamedWidget(root, "WBP_AutoChess_Tips_VitalitySchedule")
+        local distanceWidget = getNamedWidget(view, "WBP_AutoChess_Tips_Distance")
+            or getNamedWidget(root, "WBP_AutoChess_Tips_Distance")
+        local positionWidget = getNamedWidget(view, "WBP_AutoChess_Tips_Position")
+            or getNamedWidget(root, "WBP_AutoChess_Tips_Position")
+
+        if lifeWidget == nil and root ~= nil then
+            local idx = getWidgetNameIndex(root)
+            if idx then
+                lifeWidget = idx["WBP_AutoChess_Tips_LifeSchedule"]
+                vitalityWidget = idx["WBP_AutoChess_Tips_VitalitySchedule"]
+                distanceWidget = distanceWidget or idx["WBP_AutoChess_Tips_Distance"]
+                positionWidget = positionWidget or idx["WBP_AutoChess_Tips_Position"]
+                if lifeWidget == nil then
+                    for name, w in pairs(idx) do
+                        if name:find("Tips_LifeSchedule") then
+                            lifeWidget = w
+                        elseif name:find("Tips_VitalitySchedule") then
+                            vitalityWidget = w
+                        elseif name:find("Tips_Distance") then
+                            distanceWidget = distanceWidget or w
+                        elseif name:find("Tips_Position") then
+                            positionWidget = positionWidget or w
+                        end
+                    end
                 end
-            elseif vType == "table" or vType == "userdata" then
-                deepTranslateAutoChessData(v, seen, depth + 1)
             end
         end
-    end
-    return target
-end
 
-runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
-function runtimeFixes.hookAutoChessMethod(origMethod)
-    if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
-        return origMethod
-    end
-    local function wrapper(comp, ...)
-        local argCount = select("#", ...)
-        local args = { ... }
-        local seen = {}
-        for i = 1, argCount do
-            local arg = args[i]
-            if type(arg) == "table" or type(arg) == "userdata" then
-                pcall(deepTranslateAutoChessData, arg, seen)
-            elseif type(arg) == "string" then
-                pcall(function()
-                    args[i] = translateVisibleText(arg)
-                end)
-            end
+        if lifeWidget == nil and vitalityWidget == nil then
+            return false
         end
-        if type(comp) == "table" then
+
+        local function getWidgetParent(w)
+            if w == nil then return nil end
+            local p = nil
             pcall(function()
-                if comp.data ~= nil then deepTranslateAutoChessData(comp.data, seen) end
-                if comp.Data ~= nil then deepTranslateAutoChessData(comp.Data, seen) end
-                if comp.m_Data ~= nil then deepTranslateAutoChessData(comp.m_Data, seen) end
-                if comp.Cards ~= nil then deepTranslateAutoChessData(comp.Cards, seen) end
-                if comp.CardList ~= nil then deepTranslateAutoChessData(comp.CardList, seen) end
-                if comp.m_Cards ~= nil then deepTranslateAutoChessData(comp.m_Cards, seen) end
-                if comp.m_CardList ~= nil then deepTranslateAutoChessData(comp.m_CardList, seen) end
-                if comp.Fetters ~= nil then deepTranslateAutoChessData(comp.Fetters, seen) end
-                if comp.FetterList ~= nil then deepTranslateAutoChessData(comp.FetterList, seen) end
-                if comp.m_Fetters ~= nil then deepTranslateAutoChessData(comp.m_Fetters, seen) end
-                if comp.m_FetterList ~= nil then deepTranslateAutoChessData(comp.m_FetterList, seen) end
-                if comp.FetterData ~= nil then deepTranslateAutoChessData(comp.FetterData, seen) end
-                if comp.m_FetterData ~= nil then deepTranslateAutoChessData(comp.m_FetterData, seen) end
+                if w.GetParent ~= nil then p = w:GetParent() end
+            end)
+            if p ~= nil then return p end
+            pcall(function() p = w.Parent end)
+            return p
+        end
+
+        local parent = getWidgetParent(lifeWidget) or getWidgetParent(vitalityWidget)
+        local grandParent = getWidgetParent(parent)
+        local greatGrandParent = getWidgetParent(grandParent)
+
+        local function unclip(w)
+            if w == nil then return end
+            pcall(function() w.bClipToBounds = false end)
+            pcall(function()
+                if w.SetClipping ~= nil then
+                    w:SetClipping(0)
+                end
+            end)
+            pcall(function()
+                if w.SetClipToBounds ~= nil then
+                    w:SetClipToBounds(false)
+                end
             end)
         end
-        local results = { origMethod(comp, unpack(args, 1, argCount)) }
+
+        unclip(lifeWidget)
+        unclip(vitalityWidget)
+        unclip(distanceWidget)
+        unclip(positionWidget)
+        unclip(parent)
+        unclip(grandParent)
+        unclip(greatGrandParent)
+
+        local function fixOffsetsAndPadding(w)
+            if w == nil then return end
+            pcall(function()
+                local slot = w.Slot
+                if slot ~= nil then
+                    if slot.SetPosition ~= nil and slot.GetPosition ~= nil then
+                        local pos = slot:GetPosition()
+                        if pos ~= nil and (pos.Y or 0) < 0 then
+                            pos.Y = 0
+                            slot:SetPosition(pos)
+                        end
+                    end
+                    if slot.SetOffsets ~= nil and slot.GetOffsets ~= nil then
+                        local off = slot:GetOffsets()
+                        if off ~= nil and (off.Top or 0) < 0 then
+                            off.Top = 0
+                            slot:SetOffsets(off)
+                        end
+                    end
+                    if slot.SetPadding ~= nil and slot.GetPadding ~= nil then
+                        local pad = slot:GetPadding()
+                        if pad ~= nil and (pad.Top or 0) < 0 then
+                            slot:SetPadding(FMargin(pad.Left or 0, 0, pad.Right or 0, pad.Bottom or 0))
+                        end
+                    end
+                    if slot.SetAutoSize ~= nil then
+                        slot:SetAutoSize(true)
+                    end
+                end
+            end)
+            pcall(function()
+                if w.SetRenderTranslation ~= nil then
+                    w:SetRenderTranslation(sceneTextVector2D(0, 0))
+                end
+            end)
+        end
+
+        fixOffsetsAndPadding(parent)
+        fixOffsetsAndPadding(grandParent)
+        fixOffsetsAndPadding(lifeWidget)
+        fixOffsetsAndPadding(vitalityWidget)
+
+        local ATTR_VISIBLE = 4
+        do
+            local ok, vis = pcall(function()
+                return rawget(_G, "ESlateVisibility") or import("ESlateVisibility")
+            end)
+            if ok and vis ~= nil then
+                ATTR_VISIBLE = vis.SelfHitTestInvisible or vis.Visible or 4
+            end
+        end
+
+        local function makeVisible(w)
+            if w == nil then return end
+            pcall(function()
+                if w.SetVisibility ~= nil then
+                    w:SetVisibility(ATTR_VISIBLE)
+                elseif w.Visibility ~= nil then
+                    w.Visibility = ATTR_VISIBLE
+                end
+            end)
+            pcall(function()
+                if w.SetRenderOpacity ~= nil then
+                    w:SetRenderOpacity(1)
+                end
+            end)
+        end
+
+        makeVisible(parent)
+        makeVisible(grandParent)
+        makeVisible(lifeWidget)
+        makeVisible(vitalityWidget)
+        makeVisible(distanceWidget)
+        makeVisible(positionWidget)
+
+        if parent ~= nil then
+            pcall(function()
+                if parent.GetChildrenCount ~= nil then
+                    local count = tonumber(parent:GetChildrenCount()) or 0
+                    for i = 0, count - 1 do
+                        local child = parent:GetChildAt(i)
+                        if child ~= nil then
+                            makeVisible(child)
+                            unclip(child)
+                            if child.GetChildrenCount ~= nil then
+                                local subCount = tonumber(child:GetChildrenCount()) or 0
+                                for j = 0, subCount - 1 do
+                                    local subChild = child:GetChildAt(j)
+                                    makeVisible(subChild)
+                                    unclip(subChild)
+                                end
+                            end
+                        end
+                    end
+                end
+            end)
+        end
+
+        for _, attrName in ipairs({
+            "Text_Hp", "Text_HP", "Text_Life", "Text_Attack", "Text_Atk",
+            "Text_Defense", "Text_Def", "Text_Speed", "Text_AtkSpeed", "Text_AttackSpeed",
+            "Text_Distance", "Text_Position", "Canvas_Attr", "Attr_Panel", "Attr_Box",
+            "Canvas_Tips", "Canv_Tips", "CanvasTips", "WBP_AutoChess_Tips_LifeSchedule",
+            "WBP_AutoChess_Tips_VitalitySchedule"
+        }) do
+            local w = getNamedWidget(view, attrName) or getNamedWidget(root, attrName)
+            if w ~= nil then
+                makeVisible(w)
+                unclip(w)
+            end
+        end
+
         pcall(function()
-            translateDirectViewTextWidgets(comp and comp.view)
-            if comp then
-                local root = comp.userWidget or comp.widget
-                translateViewTextWidgets(comp.view, root)
+            if parent ~= nil then
+                if parent.SynchronizeProperties ~= nil then parent:SynchronizeProperties() end
+                if parent.InvalidateLayoutAndVolatility ~= nil then parent:InvalidateLayoutAndVolatility() end
             end
         end)
-        return unpack(results)
+
+        return true
     end
-    runtimeFixes.AutoChessHookedWrappers[wrapper] = true
-    return wrapper
+
+    runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
+    function runtimeFixes.hookAutoChessMethod(origMethod)
+        if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
+            return origMethod
+        end
+        local function wrapper(comp, ...)
+            local argCount = select("#", ...)
+            local args = { ... }
+            local seen = {}
+            for i = 1, argCount do
+                local arg = args[i]
+                if type(arg) == "table" or type(arg) == "userdata" then
+                    pcall(safeTranslateAutoChessData, arg, seen)
+                elseif type(arg) == "string" then
+                    pcall(function()
+                        args[i] = translateVisibleText(arg)
+                    end)
+                end
+            end
+            if type(comp) == "table" then
+                pcall(function()
+                    if comp.data ~= nil then safeTranslateAutoChessData(comp.data, seen) end
+                    if comp.Data ~= nil then safeTranslateAutoChessData(comp.Data, seen) end
+                    if comp.m_Data ~= nil then safeTranslateAutoChessData(comp.m_Data, seen) end
+                    if comp.Cards ~= nil then safeTranslateAutoChessData(comp.Cards, seen) end
+                    if comp.CardList ~= nil then safeTranslateAutoChessData(comp.CardList, seen) end
+                    if comp.m_Cards ~= nil then safeTranslateAutoChessData(comp.m_Cards, seen) end
+                    if comp.m_CardList ~= nil then safeTranslateAutoChessData(comp.m_CardList, seen) end
+                    if comp.Fetters ~= nil then safeTranslateAutoChessData(comp.Fetters, seen) end
+                    if comp.FetterList ~= nil then safeTranslateAutoChessData(comp.FetterList, seen) end
+                    if comp.m_Fetters ~= nil then safeTranslateAutoChessData(comp.m_Fetters, seen) end
+                    if comp.m_FetterList ~= nil then safeTranslateAutoChessData(comp.m_FetterList, seen) end
+                    if comp.FetterData ~= nil then safeTranslateAutoChessData(comp.FetterData, seen) end
+                    if comp.m_FetterData ~= nil then safeTranslateAutoChessData(comp.m_FetterData, seen) end
+                end)
+            end
+            local results = { origMethod(comp, unpack(args, 1, argCount)) }
+            pcall(function()
+                translateDirectViewTextWidgets(comp and comp.view)
+                if comp then
+                    local root = comp.userWidget or comp.widget
+                    translateViewTextWidgets(comp.view, root)
+                    runtimeFixes.repairAutoChessHudAttributes(comp)
+                end
+            end)
+            return unpack(results)
+        end
+        runtimeFixes.AutoChessHookedWrappers[wrapper] = true
+        return wrapper
+    end
 end
 
 local function installEventDrivenPanelRepair(value, environment)
@@ -9399,7 +9677,9 @@ local function installEventDrivenPanelRepair(value, environment)
                         "SetCardData", "UpdateCardInfo", "InitView", "OnOpen", "SetCard",
                         "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
                         "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
-                        "UpdateSynergy", "UpdateSynergies", "RefreshSynergy"
+                        "UpdateSynergy", "UpdateSynergies", "RefreshSynergy",
+                        "SelectCard", "OnSelectCard", "SelectPiece", "OnSelectPiece",
+                        "ShowTips", "UpdateTips", "SetTips"
                     }) do
                         local origMethod = self[method]
                         if type(origMethod) == "function" then
@@ -9485,7 +9765,9 @@ do
                     "ShowCardDetail", "SetCardData", "UpdateCardInfo", "InitView", "OnOpen",
                     "SetCard", "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
                     "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
-                    "UpdateSynergy", "UpdateSynergies", "RefreshSynergy"
+                    "UpdateSynergy", "UpdateSynergies", "RefreshSynergy",
+                    "SelectCard", "OnSelectCard", "SelectPiece", "OnSelectPiece",
+                    "ShowTips", "UpdateTips", "SetTips"
                 }) do
                     local origM = panelClass[m]
                     if type(origM) == "function" then
