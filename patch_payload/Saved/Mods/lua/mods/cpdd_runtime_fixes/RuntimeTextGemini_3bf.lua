@@ -276,4 +276,5 @@ return {
     ["Investigate surroundings"] = "Исследуйте окрестности",
     ["...So you suspect that the \"friend\" with Arnold—Yodora—is the culprit behind the child abduction case?"] = "...Значит, вы подозреваете, что «друг» Арнольда — Йодора — является виновником дела о похищении ребенка?",
     ["[24] Pouring Out Feelings"] = "[24] Излияние чувств",
+    ["<InvDefault>全新时装</><InvHighlight>【荒野脉络】</><InvDefault>将上架商城， 商城直售</><InvHighlight>原价【2580金镑】</><InvDefault>，</>"] = "<InvDefault>Новый наряд </><InvHighlight>【Жилы Пустоши】</><InvDefault> появится в магазине, прямая продажа по </><InvHighlight>обычной цене 【2580 золотых фунтов】</><InvDefault>,</>",
 }

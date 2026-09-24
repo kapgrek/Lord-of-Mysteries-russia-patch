@@ -281,4 +281,5 @@ return {
     ["[Forsaken Land of the Gods]"] = "[Заброшенная земля богов]",
     ["Gain 8/12 Gold Coins<HighLight></> and 1/3 Experience Points<HighLight></>."] = "Даёт 8/12 золотых монет<HighLight></> и 1/3 очков опыта<HighLight></>.",
     ["Guard in Peril"] = "Защита в опасности",
+    ["<InvHighlight>The female outfit</><InvDefault>is a</><InvHighlight>forest-style elven gown</><InvDefault>,</>"] = "<InvHighlight>Женский наряд</><InvDefault> — это </><InvHighlight>лесное платье в эльфийском стиле</><InvDefault>,</>",
 }

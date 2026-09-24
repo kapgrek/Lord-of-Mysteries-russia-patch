@@ -232,4 +232,5 @@ return {
     ["Rare: Upright Piano"] = "Редко: Пианино.",
     ["When performing the \"God Descent\" ritual, you can gather the power of those around you who are also believers of The Fool. Through the ritual, transmit the power of this faith to Mr. Fool to help Him stabilize His anchor."] = "Выполняя ритуал «Нисхождение Бога», вы можете собрать силу тех, кто вокруг вас также верит в Шута. Через ритуал передайте силу этой веры мистеру Шуту, чтобы помочь Ему стабилизировать Свой якорь.",
     ["All allies gain <HighLight>10%</> Attack, [Spellcasting] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["<InvHighlight>9月24日（星期四）</>"] = "<InvHighlight>24 сентября (четверг)</>",
 }

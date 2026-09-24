@@ -250,4 +250,5 @@ return {
     ["Advance GVG theater timeline"] = "Предварительный график театра GVG",
     ["Refreshes on the 1st of every month at %s:00"] = "Обновляется 1 числа каждого месяца в %s:00.",
     ["Factory Battle Obstacle"] = "Заводское боевое препятствие",
+    ["<InvHighlight>男款时装</><InvDefault>以</><InvHighlight>褐色拖尾礼服</><InvDefault>为基底，</><InvHighlight>鎏金轻纱披风</><InvDefault>状似蝉翼。</>"] = "<InvHighlight>Мужской наряд</><InvDefault> построен на </><InvHighlight>коричневом фраке со шлейфом</><InvDefault>, а </><InvHighlight>позолоченная накидка из лёгкой вуали</><InvDefault> напоминает крылья цикады.</>",
 }

@@ -263,4 +263,5 @@ return {
     ["Swing the rage hammer to shock surrounding enemies, dealing <Yellow>93</> Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times."] = "Взмахивает молотом ярости, сотрясая окружающих врагов и нанося <Yellow>93</> ед. урона от атаки. Затем в течение <HighLight>5</> сек. при каждом получении удара увеличивает скорость атаки на <HighLight>6%</> (суммируется до <HighLight>4</> раз).",
     ["【并肩】"] = "【Плечом к плечу】",
     ["At the end of the round, if the bench is empty<HighLight></>, gain 3 Experience Points<HighLight></>."] = "В конце раунда, если скамья запасных пуста<HighLight></>, даёт 3 очка опыта<HighLight></>.",
+    ["<InvDefault>Outfit 【Wilderness Veins】</>"] = "<InvDefault>Наряд 【Жилы Пустоши】</>",
 }

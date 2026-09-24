@@ -263,4 +263,5 @@ return {
     ["Lante"] = "Ланте",
     ["Planter"] = "Плантатор",
     ["Night Watch Seal"] = "Печать Ночного Стража",
+    ["<InvDefault>The all-new outfit</><InvHighlight>【Wilderness Veins】</><InvDefault> will be available in the store, sold directly for</><InvHighlight>an original price of 【2580 Pounds】</><InvDefault>,</>"] = "<InvDefault>Новый наряд </><InvHighlight>【Жилы Пустоши】</><InvDefault> появится в магазине, прямая продажа по </><InvHighlight>обычной цене 【2580 золотых фунтов】</><InvDefault>,</>",
 }

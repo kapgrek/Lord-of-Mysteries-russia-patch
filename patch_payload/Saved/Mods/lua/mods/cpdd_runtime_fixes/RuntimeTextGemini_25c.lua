@@ -230,4 +230,5 @@ return {
     ["With a thirst for knowledge, mobilize your entire perception to deeply experience combat techniques, and Leave Afterimage when performing an Attack."] = "С жаждой познания задействуйте всё своё восприятие, глубоко постигая боевые приёмы и оставляя остаточный образ при атаке.",
     ["使用后获得<Highlight>红与黑帽子</>"] = "Используйте, чтобы получить <Highlight>шляпу «Красное и чёрное»</>",
     ["Equip to gain the [Apothecary] resonance"] = "Экипируйте, чтобы получить резонанс [Аптекарь]",
+    ["Lord of Mysteries Y1S1.2 Update Announcement"] = "«Повелитель Тайн»: объявление об обновлении Y1S1.2",
 }

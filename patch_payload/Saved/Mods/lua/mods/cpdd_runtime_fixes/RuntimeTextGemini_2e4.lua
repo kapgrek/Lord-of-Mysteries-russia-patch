@@ -271,5 +271,6 @@ return {
     ["We set off from Backlund and specifically chose an inland route. But the other party was very clear about our route and personnel configuration, and they set an ambush along the way."] = "Мы отправились из Баклунда и специально выбрали внутренний маршрут. Но противнику было очень ясно известно о нашем маршруте и составе личного состава, и они устроили засаду по пути.",
     ["[Savant]"] = "[Знаток]",
     ["Obtain <HighLight>1 Hyacinth</>. In each battle, after the first 2 casts by a Spell piece<HighLight></>, it gains <HighLight>10% Attack Speed</> and <HighLight>8% damage amplification</>, lasting for <HighLight>4 seconds</>."] = "Даёт <HighLight>1 Гиацинт</>. В каждом бою после первых 2 применений навыка фигурой Заклятия<HighLight></> она получает <HighLight>10% скорости атаки</> и <HighLight>8% увеличения урона</> на <HighLight>4 секунды</>.",
+    ["<InvHighlight>限时折扣【2080金镑】</><InvDefault>（折扣截止至</><InvHighlight>10月8日8:00</><InvDefault>），还可叠加半价券或代金券进行购买。</>"] = "<InvHighlight>временная скидка 【2080 золотых фунтов】</><InvDefault> (скидка действует до </><InvHighlight>8 октября, 8:00</><InvDefault>), при покупке можно дополнительно использовать купон на полцены или ваучер.</>",
     ["Chess Piece List"] = "Список фигур",
 }

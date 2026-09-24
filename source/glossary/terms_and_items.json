@@ -25,5 +25,19 @@
     { "ru": "Счетчик Урона (DPS)", "en": "Combat Meter / DPS Meter", "cn": "伤害统计" },
     { "ru": "Священный / Освященный", "en": "Consecrated / Holy", "cn": "神圣 / 祝福" },
     { "ru": "Осквернение / Загрязнение", "en": "Corruption / Pollution", "cn": "污染 / 侵蚀" }
+  ],
+  "shop_and_events": [
+    { "ru": "Гамбит Шута", "en": "Fool's Gambit", "cn": "愚者棋局" },
+    { "ru": "золотые фунты", "en": "Gold Pounds", "cn": "金镑" },
+    { "ru": "Божья милость", "en": "God's Favor / Divine Favor", "cn": "神眷" },
+    { "ru": "карта Божьей милости", "en": "God's Favor Card", "cn": "神眷牌" },
+    { "ru": "Магазин даров Богини Красоты", "en": "Goddess of Beauty's Gift Shop", "cn": "美神馈赠商店" },
+    { "ru": "Призыв Мира Духов", "en": "Spirit World Summon", "cn": "灵界召唤" },
+    { "ru": "Магазин облика", "en": "Appearance Shop", "cn": "外观商城" },
+    { "ru": "Мировой аукцион", "en": "World Auction", "cn": "世界拍卖" },
+    { "ru": "сервер «Над Серым Туманом»", "en": "Above the Gray Fog (server)", "cn": "【灰雾之上】" },
+    { "ru": "сервер «Шут»", "en": "The Fool (server)", "cn": "【愚者】" },
+    { "ru": "наряд «Жилы Пустоши»", "en": "Wilderness Veins (outfit)", "cn": "荒野脉络" },
+    { "ru": "причёска «Дикая роза»", "en": "Wild Rose (hairstyle)", "cn": "野玫瑰" }
   ]
 }

@@ -223,4 +223,5 @@ return {
     ["Stacked Mark Modifier"] = "Модификатор сложенной метки",
     ["Achievement - Share My Life"] = "Достижение — Поделись моей жизнью",
     ["Phyllis used to be a <P_Yellow>psychologist</> in Tingen; she is our pride!"] = "Филлис раньше работала психологом <P_Yellow></> в Тингене; она наша гордость!",
+    ["<InvHighlight>【Wilderness Veins】</><InvDefault>Exclusive Divine Favor Hairstyle</><InvHighlight>【Wild Rose】</><InvDefault>will also be available in the Goddess of Beauty's Gift Shop,</>"] = "<InvHighlight>【Жилы Пустоши】</><InvDefault>: эксклюзивная причёска Божьей милости </><InvHighlight>【Дикая роза】</><InvDefault> также появится в Магазине даров Богини Красоты,</>",
 }

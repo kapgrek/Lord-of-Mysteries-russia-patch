@@ -1,12 +1,12 @@
 {
   "formatVersion": 4,
   "sourceKind": "bundled-certified-release-assets",
-  "translationReleaseId": "c7-ru-20260923-live",
-  "installerReleaseId": "c7-ru-public-v2.6.3",
-  "signedDataReleaseId": "c7-ru-release-v2.6.3",
-  "signedDataReleaseVersion": "2.6.3",
-  "signedDataSequence": 2006001003,
-  "displayVersion": "2.6.3 Russian localization update (AbsoluteRU)",
+  "translationReleaseId": "c7-ru-20260924-d7d0e2ba",
+  "installerReleaseId": "c7-ru-public-v2.0",
+  "signedDataReleaseId": "c7-ru-release-v2.6.4",
+  "signedDataReleaseVersion": "2.6.4",
+  "signedDataSequence": 2006001004,
+  "displayVersion": "2.6.4 Russian localization update (AbsoluteRU)",
   "target": "C7/Saved/Mods",
   "aliases": 7,
   "overlays": 38,
@@ -14,8 +14,8 @@
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
       "mappingKind": "overlay",
-      "sha256": "4d2af92f023b20b138e4b77a8265afb17a74328b26becf35048305f6fe9d4d91",
-      "size": 4917931
+      "sha256": "d7d0e2ba2e23c5d0f73bcfe0b13509702059f422e3935e6ba77cfcbf6849c28e",
+      "size": 4935370
     },
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",

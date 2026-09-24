@@ -363,7 +363,7 @@ if ($Apply) {
     if ($Components -contains 'shards' -and $shardNew.Count -gt 0) {
         if (-not $BatchName) {
             $last = Get-ChildItem $batchesDir -Filter 'batch_*.json' | ForEach-Object { if ($_.Name -match '^batch_(\d+)') { [int]$Matches[1] } } | Measure-Object -Maximum
-            $BatchName = 'batch_{0:D3}_cpdd_{1}.json' -f ($last.Maximum + 1), ($Tag.TrimStart('v') -replace '\.', '')
+            $BatchName = 'batch_{0:D3}_cpdd_{1}.json' -f ([int]$last.Maximum + 1), ($Tag.TrimStart('v') -replace '\.', '')
         }
         $batchPath = Join-Path $batchesDir $BatchName
         $items = New-Object System.Collections.Generic.List[object]

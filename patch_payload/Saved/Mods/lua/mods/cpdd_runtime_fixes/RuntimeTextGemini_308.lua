@@ -283,4 +283,5 @@ return {
     ["Mayer"] = "Майер",
     ["Sorry, I didn't notice anyone there."] = "Извините, я никого там не заметил.",
     ["Use a special prop box to present a magnificent Trick Performance to fool the viewers, and record this moment."] = "Покажите эффектное представление с помощью особого реквизита, мороча зрителей, и запечатлейте этот миг на снимке.",
+    ["愚者棋局平衡性优化公告"] = "Объявление об изменениях баланса в «Гамбите Шута»",
 }

@@ -221,5 +221,6 @@ return {
     ["If everyone's wages were reduced a little more, the factory's costs could be lower... and I could travel the world sooner."] = "Если бы зарплаты всех сократили еще немного, затраты фабрики могли бы быть ниже... и я мог бы быстрее путешествовать по миру.",
     ["Pavlov shared the remaining dried fish with the cats, and the cats finished them contentedly and left."] = "Оставшуюся сушеную рыбу Павлов поделил с кошками, и кошки с удовольствием ее доели и ушли.",
     ["Steam Era Badge"] = "Эмблема Эпохи пара",
+    ["<InvDefault>【Exclusive Avatar】</>"] = "<InvDefault>【Эксклюзивный аватар】</>",
     ["阵容思路："] = "Тактика отряда:",
 }

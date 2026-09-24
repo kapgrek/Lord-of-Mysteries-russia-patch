@@ -242,4 +242,5 @@ return {
     ["Yodora - Impact Bone Flute - Laser - 9s - Left"] = "Йодора — ударная костяная флейта — лазер — 9 с — слева",
     ["Radiance of the Crimson Moon"] = "Сияние Багряной Луны",
     ["Gain the [Arcane] Resonance. Other allies within <HighLight>1</> tile gain <HighLight>1</> Mana regeneration."] = "Даёт резонанс [Тайная магия]. Другие союзники в пределах <HighLight>1</> клетки получают <HighLight>1</> ед. регенерации маны.",
+    ["<InvDefault>获取时装后，各位非凡者还将同步解锁专属头像。</>"] = "<InvDefault>Вместе с нарядом Потусторонние получат и эксклюзивный аватар.</>",
 }

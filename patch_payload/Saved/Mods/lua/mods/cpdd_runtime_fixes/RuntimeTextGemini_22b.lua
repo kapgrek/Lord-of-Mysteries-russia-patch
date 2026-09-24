@@ -284,4 +284,5 @@ return {
     ["Use <img id=\"KeyPrompt_Tab\" width=\"51\" height=\"38\"/> to lock onto enemies!"] = "Используйте <img id=\"KeyPrompt_Tab\" width=\"51\" height=\"38\"/>, чтобы захватывать врагов!",
     ["Dynamic Kitten"] = "Динамичный котенок",
     ["Remember to update the map after iteration"] = "Не забудьте обновить карту после итерации.",
+    ["<InvHighlight>September 24 (Thursday)</>"] = "<InvHighlight>24 сентября (четверг)</>",
 }

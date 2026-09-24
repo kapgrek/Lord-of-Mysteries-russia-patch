@@ -240,4 +240,5 @@ return {
     ["Mid 01 Actor 1"] = "Середина 01, актер b",
     ["Cauldron_S"] = "Котел_S",
     ["获得【绝盾】共鸣。生命值低于<HighLight>30%</>时，获得相当于最大生命值<HighLight>15%</>的护盾，持续<HighLight>4</>秒，冷却时间为<HighLight>15</>秒。"] = "Получает резонанс 【Абсолютный щит】. Когда здоровье падает ниже <HighLight>30%</>, даёт щит в размере <HighLight>15%</> от макс. здоровья на <HighLight>4</> сек. Перезарядка: <HighLight>15</> сек.",
+    ["<InvHighlight>女款时装</><InvDefault>为</><InvHighlight>森系精灵风礼裙</><InvDefault>，</>"] = "<InvHighlight>Женский наряд</><InvDefault> — это </><InvHighlight>лесное платье в эльфийском стиле</><InvDefault>,</>",
 }

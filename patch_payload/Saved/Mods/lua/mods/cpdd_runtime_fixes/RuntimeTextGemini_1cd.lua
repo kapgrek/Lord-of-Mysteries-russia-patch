@@ -267,4 +267,5 @@ return {
     ["About Pete..."] = "О Пите...",
     ["Equip to gain the [Hunter] bond"] = "Экипируйте, чтобы получить резонанс [Охотник]",
     ["Equip to gain the [Nighthawk] bond."] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
+    ["Announcement regarding balance adjustments for Fool's Gambit"] = "Объявление об изменениях баланса в «Гамбите Шута»",
 }

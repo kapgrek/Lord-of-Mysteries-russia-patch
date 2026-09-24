@@ -258,4 +258,5 @@ return {
     ["Viscountess · May Manor (Normal)"] = "Виконтесса · Мэй-Мэнор (обычный)",
     ["No colliders are enabled in the continuous collision detection parameters."] = "В параметрах непрерывного обнаружения столкновений коллайдеры не включены.",
     ["4 [Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["灵界召唤上新"] = "Новинки Призыва Мира Духов",
 }

@@ -256,4 +256,5 @@ return {
     ["Orianna's foot judgment area"] = "Область суждения стопы Орианны",
     ["Homestead Coins obtained this week: %s/%s"] = "Монеты усадьбы, полученные на этой неделе: %s/%s.",
     ["【噬血】"] = "【Кровожадность】",
+    ["Red and black enter the game, secret outfits arrive together! Four new appearances make their debut"] = "Красное и чёрное вступают в игру, тайные наряды уже здесь! Дебют четырёх новых обликов",
 }

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "131645",
+    "source_cn": "《诡秘之主》Y1S1.2在线修正问题公告",
+    "ref_en": "Lord of Mysteries Y1S1.2 Online Hotfix Announcement",
+    "target_ru": "«Повелитель Тайн»: объявление об онлайн-исправлениях Y1S1.2"
+  },
+  {
+    "id": "131646",
+    "source_cn": "《诡秘之主》Y1S1.2更新公告",
+    "ref_en": "Lord of Mysteries Y1S1.2 Update Announcement",
+    "target_ru": "«Повелитель Тайн»: объявление об обновлении Y1S1.2"
+  },
+  {
+    "id": "131647",
+    "source_cn": "【灰雾之上】、【愚者】服务器世界拍卖重新开启预告",
+    "ref_en": "Notice Regarding the Reopening of the World Auction for the 【Above the Gray Fog】 and 【The Fool】 Servers",
+    "target_ru": "Анонс: мировой аукцион на серверах 【Над Серым Туманом】 и 【Шут】 снова откроется"
+  },
+  {
+    "id": "131648",
+    "source_cn": "<InvDefault>【专属头像】</>",
+    "ref_en": "<InvDefault>【Exclusive Avatar】</>",
+    "target_ru": "<InvDefault>【Эксклюзивный аватар】</>"
+  },
+  {
+    "id": "131649",
+    "source_cn": "<InvDefault>兑换发型后，同步解锁稀有发色头像【野玫瑰】。</>",
+    "ref_en": "<InvDefault>After redeeming the hairstyle, you will simultaneously unlock the rare hair color avatar 【Wild Rose】.</>",
+    "target_ru": "<InvDefault>После обмена на причёску также открывается аватар с редким цветом волос 【Дикая роза】.</>"
+  },
+  {
+    "id": "131650",
+    "source_cn": "<InvDefault>全新时装</><InvHighlight>【荒野脉络】</><InvDefault>将上架商城， 商城直售</><InvHighlight>原价【2580金镑】</><InvDefault>，</>",
+    "ref_en": "<InvDefault>The all-new outfit</><InvHighlight>【Wilderness Veins】</><InvDefault> will be available in the store, sold directly for</><InvHighlight>an original price of 【2580 Pounds】</><InvDefault>,</>",
+    "target_ru": "<InvDefault>Новый наряд </><InvHighlight>【Жилы Пустоши】</><InvDefault> появится в магазине, прямая продажа по </><InvHighlight>обычной цене 【2580 золотых фунтов】</><InvDefault>,</>"
+  },
+  {
+    "id": "131651",
+    "source_cn": "<InvDefault>内搭</><InvHighlight>金色马甲</><InvDefault>，</><InvHighlight>珠宝</><InvDefault>、</><InvHighlight>流苏与草木暗纹</><InvDefault>点缀其间，兼具绅士风度与自然气息。</>",
+    "ref_en": "<InvDefault>Featuring a</><InvHighlight>golden vest</><InvDefault> inner layer, adorned with</><InvHighlight>jewelry</><InvDefault>,</><InvHighlight>tassels, and botanical patterns</><InvDefault>, combining gentlemanly elegance with a natural aura.</>",
+    "target_ru": "<InvDefault>Под ним </><InvHighlight>золотой жилет</><InvDefault>, а </><InvHighlight>украшения</><InvDefault>, </><InvHighlight>кисти и растительный узор</><InvDefault> соединяют джентльменскую элегантность с дыханием природы.</>"
+  },
+  {
+    "id": "131652",
+    "source_cn": "<InvDefault>发型【野玫瑰】</>",
+    "ref_en": "<InvDefault>Hairstyle 【Wild Rose】</>",
+    "target_ru": "<InvDefault>Причёска 【Дикая роза】</>"
+  },
+  {
+    "id": "131653",
+    "source_cn": "<InvDefault>可使用</><InvHighlight>1张神眷牌</><InvDefault>进行兑换。</>",
+    "ref_en": "<InvDefault>Can be redeemed using</><InvHighlight>1 God's Favor Card</><InvDefault>.</>",
+    "target_ru": "<InvDefault>Можно обменять на </><InvHighlight>1 карту Божьей милости</><InvDefault>.</>"
+  },
+  {
+    "id": "131654",
+    "source_cn": "<InvDefault>时装【荒野脉络】</>",
+    "ref_en": "<InvDefault>Outfit 【Wilderness Veins】</>",
+    "target_ru": "<InvDefault>Наряд 【Жилы Пустоши】</>"
+  },
+  {
+    "id": "131655",
+    "source_cn": "<InvDefault>获取时装后，各位非凡者还将同步解锁专属头像。</>",
+    "ref_en": "<InvDefault>Upon obtaining the outfit, Beyonders will also simultaneously unlock an exclusive avatar.</>",
+    "target_ru": "<InvDefault>Вместе с нарядом Потусторонние получат и эксклюзивный аватар.</>"
+  },
+  {
+    "id": "131656",
+    "source_cn": "<InvDefault>裙摆轻盈，足踏</><InvHighlight>枝干纹路</><InvDefault>，温柔而有生机。</>",
+    "ref_en": "<InvDefault>The skirt hem is light and airy, with</><InvHighlight>branch patterns</><InvDefault> on the footwear, gentle and full of Vitality.</>",
+    "target_ru": "<InvDefault>Лёгкий подол юбки, на обуви </><InvHighlight>узор из ветвей</><InvDefault> — нежный и полный жизни образ.</>"
+  },
+  {
+    "id": "131657",
+    "source_cn": "<InvHighlight>【荒野脉络】</><InvDefault>专属神眷发型</><InvHighlight>【野玫瑰】</><InvDefault>也将上线美神馈赠商店，</>",
+    "ref_en": "<InvHighlight>【Wilderness Veins】</><InvDefault>Exclusive Divine Favor Hairstyle</><InvHighlight>【Wild Rose】</><InvDefault>will also be available in the Goddess of Beauty's Gift Shop,</>",
+    "target_ru": "<InvHighlight>【Жилы Пустоши】</><InvDefault>: эксклюзивная причёска Божьей милости </><InvHighlight>【Дикая роза】</><InvDefault> также появится в Магазине даров Богини Красоты,</>"
+  },
+  {
+    "id": "131658",
+    "source_cn": "<InvHighlight>9月24日（星期四）</>",
+    "ref_en": "<InvHighlight>September 24 (Thursday)</>",
+    "target_ru": "<InvHighlight>24 сентября (четверг)</>"
+  },
+  {
+    "id": "131659",
+    "source_cn": "<InvHighlight>9月24日（星期四）8:00</>",
+    "ref_en": "<InvHighlight>September 24 (Thursday) 8:00</>",
+    "target_ru": "<InvHighlight>24 сентября (четверг), 8:00</>"
+  },
+  {
+    "id": "131660",
+    "source_cn": "<InvHighlight>叶片、花瓣与珠串</><InvDefault>层层点缀，将</><InvHighlight>草木的脉络</><InvDefault>自然融入织物之中 。</>",
+    "ref_en": "<InvHighlight>Leaves, petals, and beaded strings</><InvDefault>are layered as embellishments, naturally weaving the</><InvHighlight>veins of plants and trees</><InvDefault>into the fabric.</>",
+    "target_ru": "<InvHighlight>Листья, лепестки и нити бусин</><InvDefault> слой за слоем украшают наряд, естественно вплетая </><InvHighlight>прожилки трав и деревьев</><InvDefault> в ткань.</>"
+  },
+  {
+    "id": "131661",
+    "source_cn": "<InvHighlight>女款时装</><InvDefault>为</><InvHighlight>森系精灵风礼裙</><InvDefault>，</>",
+    "ref_en": "<InvHighlight>The female outfit</><InvDefault>is a</><InvHighlight>forest-style elven gown</><InvDefault>,</>",
+    "target_ru": "<InvHighlight>Женский наряд</><InvDefault> — это </><InvHighlight>лесное платье в эльфийском стиле</><InvDefault>,</>"
+  },
+  {
+    "id": "131662",
+    "source_cn": "<InvHighlight>男款时装</><InvDefault>以</><InvHighlight>褐色拖尾礼服</><InvDefault>为基底，</><InvHighlight>鎏金轻纱披风</><InvDefault>状似蝉翼。</>",
+    "ref_en": "<InvHighlight>The male outfit</><InvDefault>is based on a</><InvHighlight>brown tailcoat</><InvDefault>, with a</><InvHighlight>gilded sheer cape</><InvDefault>resembling cicada wings.</>",
+    "target_ru": "<InvHighlight>Мужской наряд</><InvDefault> построен на </><InvHighlight>коричневом фраке со шлейфом</><InvDefault>, а </><InvHighlight>позолоченная накидка из лёгкой вуали</><InvDefault> напоминает крылья цикады.</>"
+  },
+  {
+    "id": "131663",
+    "source_cn": "<InvHighlight>限时折扣【2080金镑】</><InvDefault>（折扣截止至</><InvHighlight>10月8日8:00</><InvDefault>），还可叠加半价券或代金券进行购买。</>",
+    "ref_en": "<InvHighlight>Limited-time discount【2080 Gold Pounds】</><InvDefault>(discount ends on</><InvHighlight>October 8, 8:00</><InvDefault>), and can be purchased using half-price coupons or vouchers.</>",
+    "target_ru": "<InvHighlight>временная скидка 【2080 золотых фунтов】</><InvDefault> (скидка действует до </><InvHighlight>8 октября, 8:00</><InvDefault>), при покупке можно дополнительно использовать купон на полцены или ваучер.</>"
+  },
+  {
+    "id": "131664",
+    "source_cn": "外观上新！荒野之上，谱一曲丰饶颂歌",
+    "ref_en": "New Cosmetics! Above the Wilderness, Compose a Hymn of Abundance",
+    "target_ru": "Новые облики! Над пустошью звучит гимн изобилию"
+  },
+  {
+    "id": "131665",
+    "source_cn": "外观商城上新",
+    "ref_en": "New arrivals in the Appearance Shop",
+    "target_ru": "Новинки в Магазине облика"
+  },
+  {
+    "id": "131666",
+    "source_cn": "愚者棋局平衡性优化公告",
+    "ref_en": "Announcement regarding balance adjustments for Fool's Gambit",
+    "target_ru": "Объявление об изменениях баланса в «Гамбите Шута»"
+  },
+  {
+    "id": "131667",
+    "source_cn": "灵界召唤上新",
+    "ref_en": "New arrivals for Spirit World Summon",
+    "target_ru": "Новинки Призыва Мира Духов"
+  },
+  {
+    "id": "131668",
+    "source_cn": "红黑入局，秘装齐至！四款外观焕新亮相",
+    "ref_en": "Red and black enter the game, secret outfits arrive together! Four new appearances make their debut",
+    "target_ru": "Красное и чёрное вступают в игру, тайные наряды уже здесь! Дебют четырёх новых обликов"
+  }
+]

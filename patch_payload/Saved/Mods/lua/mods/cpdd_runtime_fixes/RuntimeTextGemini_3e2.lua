@@ -227,4 +227,5 @@ return {
     ["16 Gold Coins"] = "16 золотых монет",
     ["Correct Answer"] = "Правильный ответ",
     ["Attack as Defense"] = "Атака как защита",
+    ["<InvDefault>时装【荒野脉络】</>"] = "<InvDefault>Наряд 【Жилы Пустоши】</>",
 }

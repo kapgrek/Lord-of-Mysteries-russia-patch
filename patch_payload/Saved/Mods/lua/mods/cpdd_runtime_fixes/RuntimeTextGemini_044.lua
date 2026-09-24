@@ -244,4 +244,5 @@ return {
     ["ID structure error [Configuration error]."] = "Ошибка структуры идентификатора [Ошибка конфигурации].",
     ["The yellow crystal pendant stops there, motionless. \n... The divination has been affected, and no result can be obtained..."] = "Цитриновый кулон стоял неподвижно. \n…На гадание влияет и результаты не могут быть получены…",
     ["<Highlight>Craftsmanship:</> Finely carved platinum, pearl pendant.\nAn exquisite forehead ornament woven from pure platinum; its intricate patterns seem capable of attracting the blessings of God."] = "<Highlight>Мастерство:</> гравированная платина, жемчужные подвески\nИзысканное налобное украшение, сплетённое из чистой платины; его затейливые узоры словно притягивают благословение божества.",
+    ["New Cosmetics! Above the Wilderness, Compose a Hymn of Abundance"] = "Новые облики! Над пустошью звучит гимн изобилию",
 }

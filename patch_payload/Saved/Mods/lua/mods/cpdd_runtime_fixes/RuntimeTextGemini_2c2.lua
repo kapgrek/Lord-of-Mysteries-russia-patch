@@ -260,4 +260,5 @@ return {
     ["5230281 Sewer Plane"] = "5230281 Измерение: Канализация",
     ["That guy over there is drunk, need to keep an eye on him, can't let him cause a scene."] = "Этот парень там пьян, за ним надо присматривать, нельзя допустить, чтобы он учинил сцену.",
     ["When Ancestor Armor enters the field, summon <HighLight>2</> Ancestor Armor minions of the same star level and provide short-term Shelter to allies."] = "Когда «Доспехи предков» выходят на поле боя, призывайте миньонов «Доспехи предков» <HighLight>2</> того же звездного уровня и предоставляйте союзникам кратковременное убежище.",
+    ["<InvHighlight>September 24 (Thursday) 8:00</>"] = "<InvHighlight>24 сентября (четверг), 8:00</>",
 }

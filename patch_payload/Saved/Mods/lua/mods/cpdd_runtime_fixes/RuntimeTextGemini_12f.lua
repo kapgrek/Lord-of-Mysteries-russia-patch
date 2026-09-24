@@ -250,4 +250,5 @@ return {
     ["...What a lousy play, really boring. \n The male lead speaks even more long-windedly and boringly than my landlady, Mrs. Connie! \n Every second I sit here, I regret not choosing to watch the circus performance. \n Fortunately, I brought paper and pen, so I can write and draw to pass the time. \n \n \n What should I draw? How about a little turtle..."] = "　　...Что за бездарная пьеса, тоска смертная.\n　　Главный герой трещит даже длиннее и зануднее, чем моя домовладелица, миссис Конни!\n　　Каждую секунду, что я здесь сижу, я жалею, что не пошёл в цирк.\n　　Благо я захватил бумагу и перо — можно почиркать что-нибудь, чтобы убить время.\n\n\nЧто бы нарисовать? Как насчёт маленькой черепашки...",
     ["在战斗开始时，与友军相邻的弈子获得200点护盾，持续8秒。"] = "В начале боя фигуры, находящиеся рядом с союзниками, получают щит прочностью 200 на 8 сек.",
     ["Rare · Hidden Cloak"] = "Редкое · Маскировочный плащ",
+    ["红黑入局，秘装齐至！四款外观焕新亮相"] = "Красное и чёрное вступают в игру, тайные наряды уже здесь! Дебют четырёх новых обликов",
 }

@@ -253,4 +253,5 @@ return {
     ["Wang Xiaojian"] = "Ван Сяоцзянь",
     ["Amelia Fuller-3"] = "Амелия Фуллер-3",
     ["Equip to gain the [Berserker] resonance"] = "Экипируйте, чтобы получить резонанс [Берсерк]",
+    ["<InvHighlight>Leaves, petals, and beaded strings</><InvDefault>are layered as embellishments, naturally weaving the</><InvHighlight>veins of plants and trees</><InvDefault>into the fabric.</>"] = "<InvHighlight>Листья, лепестки и нити бусин</><InvDefault> слой за слоем украшают наряд, естественно вплетая </><InvHighlight>прожилки трав и деревьев</><InvDefault> в ткань.</>",
 }

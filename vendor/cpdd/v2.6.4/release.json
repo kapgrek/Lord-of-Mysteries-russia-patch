@@ -1,11 +1,12 @@
 {
   "bootstrap_protocol": 1,
   "changelog": [
-    "Adds English translations for newly captured in-game text.",
+    "Translates 386 new or changed localization records and 24 captured announcement strings.",
+    "Corrects shifted Utopia Theater descriptions, including Giant's Physique and Afflicted I.",
     "Compatible with the existing 2.6.1 patcher."
   ],
-  "data_fingerprint": "98a1c0a931883e55923a6c6908b150ff36c52ae9c0b62cb27f865335378d22b9",
-  "display_version": "2.6.3 English data update",
+  "data_fingerprint": "b68ab822b036c8d7d5395988b40ee0bf847aed8062b3d44a37b2ff17eec628e0",
+  "display_version": "2.6.4 English data update",
   "external_bridge": {
     "alias_count": 7,
     "combat_meter": {
@@ -67,8 +68,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
         "relative_path": "Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
-        "sha256": "4d2af92f023b20b138e4b77a8265afb17a74328b26becf35048305f6fe9d4d91",
-        "size": 4917931
+        "sha256": "d7d0e2ba2e23c5d0f73bcfe0b13509702059f422e3935e6ba77cfcbf6849c28e",
+        "size": 4935370
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",
@@ -739,8 +740,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_03e.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_03e.lua",
-        "sha256": "74ec5e179c01203e03805addf6177d6208bf3f39925cb3359ad447addf845eca",
-        "size": 18748
+        "sha256": "87f62f9260dc546626e53e631773aeeaac8ee04850e7979953eac24eca641c93",
+        "size": 18816
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_03f.lua",
@@ -961,8 +962,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_063.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_063.lua",
-        "sha256": "bf51b4fa15862d165e7af4e1f68700f65a9a5f64042fb681cb08dfdc4b7006c9",
-        "size": 13944
+        "sha256": "472d4a9b83b07cc5928b1c895de28c568ad5354f8e2ffb4090f1c7227e94cc86",
+        "size": 14039
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_064.lua",
@@ -2095,8 +2096,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_120.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_120.lua",
-        "sha256": "801ad41e8c8ccbe4ce2b9f27b3fb580f972bdd71b88a5beefd1c1e61e0b95743",
-        "size": 21035
+        "sha256": "7d1106c7bed26704784400b65069c0be07a50cd2cfc2ef111eb456fab5c77fd9",
+        "size": 21221
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_121.lua",
@@ -2185,8 +2186,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_12f.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_12f.lua",
-        "sha256": "c3123032aac073d8eb2320fd82f2d07256e3ab70166abebaa3d9e1869f1fcfb4",
-        "size": 13990
+        "sha256": "89cd1728dc80d9e74d040ccb7181ffc5bd5984394c5801d8f7c14eda0ce71a94",
+        "size": 14158
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_130.lua",
@@ -2251,8 +2252,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_13a.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_13a.lua",
-        "sha256": "f710bfaf82523714c18b97a987b183952b292579a7eaecc813dfccedf57e9698",
-        "size": 22354
+        "sha256": "98ad7548d3e48e87e6195ccbfa315c837fd835080a0fd097b873e34227bc3902",
+        "size": 22710
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_13b.lua",
@@ -2629,8 +2630,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_179.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_179.lua",
-        "sha256": "cc33ba36de5c58e627a75b57bf8cf015901c36a4bb58f529254f81c4f84a8421",
-        "size": 17285
+        "sha256": "eb65a69b1f805992afc0db007d6572cacfe6865151d963b5a5ddd10045e69c6d",
+        "size": 17354
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_17a.lua",
@@ -2695,8 +2696,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_184.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_184.lua",
-        "sha256": "e41da4287cf25e7a2f658d0aa9b36e54939846333e50926cf1fd38159a5c02aa",
-        "size": 16854
+        "sha256": "cd6082443b8b99ec62cca277108356250d0baf070c75b55443090f8233304cf1",
+        "size": 17118
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_185.lua",
@@ -3145,8 +3146,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1cf.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1cf.lua",
-        "sha256": "313566db629e1d95f5f55d6d4e0881cfcad60d256aac2af30e1cf276024fd68b",
-        "size": 13770
+        "sha256": "899c446ef618c41b440cff981bf2205dd9776f44e1ff55e6243ef9515c982da3",
+        "size": 13968
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1d0.lua",
@@ -3241,8 +3242,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1df.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1df.lua",
-        "sha256": "578ba09dde41bce97a519f4b6ffa12779095b4e5d4e008d3478a42a8629a6852",
-        "size": 17501
+        "sha256": "823bbc5a871021af00b47558558cc47bf0dcfd41d61da4a35272c264eb0d1de4",
+        "size": 17980
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1e0.lua",
@@ -3379,8 +3380,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f6.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f6.lua",
-        "sha256": "bebad11c3895e6e1a15e90ad82027796fc9f964f2ac970ed8870ea458179e913",
-        "size": 11228
+        "sha256": "95a7efd6874b6c7fcf745ae5eae2d353dd63b2f75dd42454fe4c6fbd6e578597",
+        "size": 11455
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f7.lua",
@@ -3391,8 +3392,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f8.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f8.lua",
-        "sha256": "87dfba3fb3cde241a474e8f521d333aa08d9c79a642e984e1902624c1da70dd5",
-        "size": 15682
+        "sha256": "c8505f45a5a510f6f72a454389e6bc9a811ef61898dc7195c0c4d2bf56d61630",
+        "size": 15812
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_1f9.lua",
@@ -3763,8 +3764,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_236.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_236.lua",
-        "sha256": "620468a8d0b5eb874fa9d0f6ed30f42f0930b44843cc5e9ec6a91c5d4ef22063",
-        "size": 15578
+        "sha256": "9d5932f92661764cbc7a254725f52cada9cff5df6c3485fc4b99c330c7dc100b",
+        "size": 15674
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_237.lua",
@@ -4807,8 +4808,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_2e4.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_2e4.lua",
-        "sha256": "16757e08a2d3cf3a5bd38d7347a930075c37b9b7cf9750533cc25ad3a136ecb8",
-        "size": 16265
+        "sha256": "f20f26d58c1dd52df0d98daf8e7f14358391af7a443e15c55a75eaac6b42b569",
+        "size": 16657
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_2e5.lua",
@@ -5023,8 +5024,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_308.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_308.lua",
-        "sha256": "1284aae505a9217838a33dc220aa3554e6af6e3fda35cd7372d1337452163437",
-        "size": 15773
+        "sha256": "ad2efc9f7446f9dbd0d02f71095247643cb4d91831384a9f71501b6f1df13bc0",
+        "size": 15881
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_309.lua",
@@ -5311,8 +5312,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_338.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_338.lua",
-        "sha256": "5fbd8092cfb4dcaf3c7bd1b35a88d8639a211fa011cbccbf7d9acc9c43a34645",
-        "size": 15928
+        "sha256": "f018a890385dc4b1de9c01ef833280ddc76d5d3ce696dc90afc907e830e293ed",
+        "size": 16019
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_339.lua",
@@ -5497,8 +5498,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_357.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_357.lua",
-        "sha256": "6f7cff57202223813bfa089e554d956b7c517fa2d0df74535b1eb545e420e505",
-        "size": 18643
+        "sha256": "e075bdca07748a57487648c6e6301a1af8f5a317db6f53e1a898e2948d335503",
+        "size": 18998
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_358.lua",
@@ -5899,8 +5900,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_39a.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_39a.lua",
-        "sha256": "cf31f084701580329b3d4c3ec2e49a37b5cfe6c00fdb610ce43b7207ab3046b5",
-        "size": 12731
+        "sha256": "0f8e370245c984725d424b67e00c40e8ee62b2e33c41a2ca549c43921563fecc",
+        "size": 13107
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_39b.lua",
@@ -5953,8 +5954,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3a3.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3a3.lua",
-        "sha256": "70ab1af952c7fbbb91377456af9ecf585e4002f72de93ff155b0f15db4ac848e",
-        "size": 15881
+        "sha256": "870c8cec49ec962b9e2f220fe67d29161d4a5099a4940a884393492b332cc40a",
+        "size": 16097
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3a4.lua",
@@ -6121,8 +6122,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3bf.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3bf.lua",
-        "sha256": "51f9f556027ff1a4a8276253632c1a2e4fcac648f94008972cd4305ce8503368",
-        "size": 20798
+        "sha256": "462774aa1f519f7ca4de1e4a0139fd129ed3bb829e5c4097647b1e9cffc42835",
+        "size": 21186
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3c0.lua",
@@ -6331,8 +6332,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e2.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e2.lua",
-        "sha256": "6394dda0de77b85e86526fa7f6b4decbf91223202f7e364519861cf330e30e6d",
-        "size": 14256
+        "sha256": "1ca8ee7762e43cc408e3cb27e8a8e7e1a7564f1a29f47f9b8ae3d38ca41668be",
+        "size": 14354
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e3.lua",
@@ -6343,8 +6344,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e4.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e4.lua",
-        "sha256": "62fa9d8cdd51377f55af73d6071439579c488ec45554427a2e8c1ff2de0dec56",
-        "size": 13665
+        "sha256": "ee01df5a0708156a0f670d67b69add4f7108fe56acd91294db30467af52b3557",
+        "size": 13779
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e5.lua",
@@ -6373,8 +6374,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e9.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3e9.lua",
-        "sha256": "a97060aa2d0f39e134c42b193998b1380eab02bb74f53414854eb8d27a287de5",
-        "size": 12270
+        "sha256": "f7bf27689bae845839d93d3f47e8bb978f42987f96d1c74f585d645370c1b8da",
+        "size": 12375
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3ea.lua",
@@ -6421,8 +6422,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f1.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f1.lua",
-        "sha256": "c8b76df751ac65f1719bffe9d09fa66cb80b2084827b78ae1f988178c6e37853",
-        "size": 18624
+        "sha256": "e4458ebe297154103088437bb31791bf627fda4ab3c59a7aa84cba008bad7668",
+        "size": 18824
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f2.lua",
@@ -6457,8 +6458,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f7.lua",
         "relative_path": "Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f7.lua",
-        "sha256": "55d5280451494588f3263906b143c5983cf96e0c5abb96c9ec15d4b1a2fcf846",
-        "size": 20100
+        "sha256": "8d5b62d3cbb2f746976903a783147d33df94674f4c2eba9d117d3bf63002fb4d",
+        "size": 20185
       },
       {
         "payload": "payload/bridge/game/Saved/Mods/lua/mods/cpdd_runtime_fixes/RuntimeTextGemini_3f8.lua",
@@ -8095,8 +8096,8 @@
       {
         "payload": "payload/bridge/game/Saved/Mods/translation-overrides.state.json",
         "relative_path": "Saved/Mods/translation-overrides.state.json",
-        "sha256": "d8a42299f1c5351d555061c0d1c787c43a2f95795039619132d35b6c75c951b0",
-        "size": 291100
+        "sha256": "99c28c74f7be4bc71689fb645497a3fbe3a1278249679faedf21ed890ed8bf34",
+        "size": 291095
       }
     ],
     "launch_block": {
@@ -8114,13 +8115,13 @@
     "loader_version": "0.4.5",
     "overlay_count": 38,
     "payload_count": 46,
-    "runtime_text_entries": 130668,
+    "runtime_text_entries": 130692,
     "runtime_text_shards": 1024,
     "runtime_version": "0.9.71",
     "source_index_entries": 98373,
     "source_index_shards": 256,
     "translation_delivery": "official-cn-modules-with-reviewed-id-overlays",
-    "translation_release_id": "c7-en-20260921-live-bf86e90a"
+    "translation_release_id": "c7-en-20260924-d7d0e2ba"
   },
   "format_version": 2,
   "install_ready": true,
@@ -8134,16 +8135,16 @@
   },
   "patcher_update_url": "https://github.com/Lani27/lord-of-mysteries-english-patch/releases/download/v2.6.1/Lord-of-Mysteries-English-Patch-2.6.1.exe",
   "payload": {
-    "sha256": "38b3d1f03983351d7dca1c79244b6faf9659c896daec11cbe891af911ca733c3",
-    "size": 57999962,
-    "url": "https://github.com/Lani27/lord-of-mysteries-english-patch/releases/download/v2.6.3/lom-english-patch-data.zip"
+    "sha256": "008c79f4ef3da1076c3af87ba2b6244467e5f83af2041ee0bec649ce0d08f6a7",
+    "size": 58012780,
+    "url": "https://github.com/Lani27/lord-of-mysteries-english-patch/releases/download/v2.6.4/lom-english-patch-data.zip"
   },
   "recommended_patcher_version": "2.6.1",
   "release_blocker": "",
-  "release_id": "c7-en-release-v2.6.3",
-  "release_tag": "v2.6.3",
-  "release_version": "2.6.3",
-  "sequence": 2006001003,
+  "release_id": "c7-en-release-v2.6.4",
+  "release_tag": "v2.6.4",
+  "release_version": "2.6.4",
+  "sequence": 2006001004,
   "supported_base_paks": [
     {
       "name": "BiliBili C7 1.2018737.2044036",
@@ -8154,7 +8155,7 @@
   "touches_game_cache": false,
   "touches_iostore": true,
   "translated_pak_entries": 0,
-  "translation_release_id": "c7-en-20260921-live-bf86e90a",
+  "translation_release_id": "c7-en-20260924-d7d0e2ba",
   "translation_storage": "C7/Saved/Mods",
   "uses_memory_injection": false
 }

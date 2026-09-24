@@ -1,12 +1,12 @@
 {
   "formatVersion": 4,
   "sourceKind": "bundled-certified-release-assets",
-  "translationReleaseId": "c7-en-20260921-live-bf86e90a",
+  "translationReleaseId": "c7-en-20260924-d7d0e2ba",
   "installerReleaseId": "c7-en-public-v2.0",
-  "signedDataReleaseId": "c7-en-release-v2.6.3",
-  "signedDataReleaseVersion": "2.6.3",
-  "signedDataSequence": 2006001003,
-  "displayVersion": "2.6.3 English data update",
+  "signedDataReleaseId": "c7-en-release-v2.6.4",
+  "signedDataReleaseVersion": "2.6.4",
+  "signedDataSequence": 2006001004,
+  "displayVersion": "2.6.4 English data update",
   "target": "C7/Saved/Mods",
   "aliases": 7,
   "overlays": 38,
@@ -14,8 +14,8 @@
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data.lua",
       "mappingKind": "overlay",
-      "sha256": "4d2af92f023b20b138e4b77a8265afb17a74328b26becf35048305f6fe9d4d91",
-      "size": 4917931
+      "sha256": "d7d0e2ba2e23c5d0f73bcfe0b13509702059f422e3935e6ba77cfcbf6849c28e",
+      "size": 4935370
     },
     {
       "relativePath": "lua/cpdd_translation/Data/Excel/LanguageData/StringDB_CN_Data_achievement.lua",

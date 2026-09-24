@@ -249,4 +249,5 @@ return {
     ["Start Construction"] = "Начать строительство",
     ["Heavy blow"] = "Тяжёлый удар",
     ["Gain <HighLight> one Sealed Equipment Casket </>."] = "Даёт <HighLight> один запечатанный ларец снаряжения </>.",
+    ["外观商城上新"] = "Новинки в Магазине облика",
 }

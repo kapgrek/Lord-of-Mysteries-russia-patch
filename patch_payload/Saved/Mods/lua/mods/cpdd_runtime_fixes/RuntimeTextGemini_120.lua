@@ -238,4 +238,5 @@ return {
     ["Please extend your hand and let your intuition guide you to choose that card."] = "Пожалуйста, протяните руку и позвольте своей интуиции помочь вам выбрать эту карту.",
     ["My spirituality is telling me that this choice is more valuable."] = "Моя духовность говорит мне, что этот выбор более ценен.",
     ["Cult Coupon"] = "Культовый купон",
+    ["<InvDefault>可使用</><InvHighlight>1张神眷牌</><InvDefault>进行兑换。</>"] = "<InvDefault>Можно обменять на </><InvHighlight>1 карту Божьей милости</><InvDefault>.</>",
 }

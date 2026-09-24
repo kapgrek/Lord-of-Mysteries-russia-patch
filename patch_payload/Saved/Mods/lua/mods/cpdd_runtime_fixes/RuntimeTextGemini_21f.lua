@@ -237,4 +237,5 @@ return {
     ["There are remaining attribute points that have not been used."] = "Остались очки атрибутов, которые не были использованы.",
     ["Warrior - Demon Hunter Instant Slash - Ground Smash"] = "Воин - Охотник на демонов Мгновенный удар - Удар по земле",
     ["Equip to gain the [Night] resonance."] = "Экипируйте, чтобы получить резонанс [Ночь].",
+    ["<InvDefault>After redeeming the hairstyle, you will simultaneously unlock the rare hair color avatar 【Wild Rose】.</>"] = "<InvDefault>После обмена на причёску также открывается аватар с редким цветом волос 【Дикая роза】.</>",
 }

@@ -251,4 +251,5 @@ return {
     ["Confirm leaving the current Family? You can join a new Family immediately after leaving. The Dungeon buff effects provided by the new Family will take effect 24 hours after leaving the current Family."] = "Подтвердить выход из текущей семьи? Вы можете присоединиться к новой Семье сразу после выхода. Эффекты усиления подземелий, предоставляемые новой семьей, вступят в силу через 24 часа после выхода из текущей семьи.",
     ["[Battle-Mage]"] = "【Боевой маг】",
     ["Fate Rotation"] = "Вращение судьбы",
+    ["<InvDefault>发型【野玫瑰】</>"] = "<InvDefault>Причёска 【Дикая роза】</>",
 }

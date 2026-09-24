@@ -228,4 +228,5 @@ return {
     ["Exit Chat"] = "Выйти из чата",
     ["Equip to gain the [Sailor] resonance"] = "Экипируйте, чтобы получить резонанс [Моряк]",
     ["2 [Spellcraft]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。"] = "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
+    ["<InvDefault>The skirt hem is light and airy, with</><InvHighlight>branch patterns</><InvDefault> on the footwear, gentle and full of Vitality.</>"] = "<InvDefault>Лёгкий подол юбки, на обуви </><InvHighlight>узор из ветвей</><InvDefault> — нежный и полный жизни образ.</>",
 }

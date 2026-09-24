@@ -257,4 +257,5 @@ return {
     ["Right foot special effect."] = "Специальный эффект правой ноги.",
     ["Examine the <h>hand-drawn star chart</>"] = "Изучите нарисованную от руки звездную карту <h></>.",
     ["Rock King - 2 Star"] = "Рок Кинг - 2 звезды",
+    ["<InvHighlight>【荒野脉络】</><InvDefault>专属神眷发型</><InvHighlight>【野玫瑰】</><InvDefault>也将上线美神馈赠商店，</>"] = "<InvHighlight>【Жилы Пустоши】</><InvDefault>: эксклюзивная причёска Божьей милости </><InvHighlight>【Дикая роза】</><InvDefault> также появится в Магазине даров Богини Красоты,</>",
 }

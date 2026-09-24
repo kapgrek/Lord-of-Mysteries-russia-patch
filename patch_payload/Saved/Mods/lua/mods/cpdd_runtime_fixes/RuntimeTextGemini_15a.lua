@@ -220,5 +220,6 @@ return {
     ["Mail (0/000)"] = "Почта (0/000)",
     ["装配后获得【磐石】羁绊"] = "Экипируйте, чтобы получить резонанс [Скала]",
     ["[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["Lord of Mysteries Y1S1.2 Online Hotfix Announcement"] = "«Повелитель Тайн»: объявление об онлайн-исправлениях Y1S1.2",
     ["Pieces List"] = "Список фигур",
 }

@@ -263,4 +263,5 @@ return {
     ["Crystal Sugar Cube"] = "Кристаллический сахарный кубик",
     ["If you don't become a True God, you will end up as ashes!"] = "Если ты не станешь Истинным Богом, ты превратишься в пепел!",
     ["Standard Sealed Artifact Pool"] = "Стандартный Запечатанный Бассейн Артефактов",
+    ["New arrivals for Spirit World Summon"] = "Новинки Призыва Мира Духов",
 }

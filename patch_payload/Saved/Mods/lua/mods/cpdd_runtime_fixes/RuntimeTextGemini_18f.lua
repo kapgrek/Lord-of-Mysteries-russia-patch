@@ -255,4 +255,5 @@ return {
     ["装配后获得【战士】羁绊"] = "Экипируйте, чтобы получить резонанс [Воин]",
     ["幻山浪"] = "Волна Призрачной Горы",
     ["每名敌方阵亡：+<HighLight>5</>点最大生命值。"] = "За каждого погибшего врага: +<HighLight>5</> ед. к максимальному здоровью.",
+    ["<InvHighlight>Limited-time discount【2080 Gold Pounds】</><InvDefault>(discount ends on</><InvHighlight>October 8, 8:00</><InvDefault>), and can be purchased using half-price coupons or vouchers.</>"] = "<InvHighlight>временная скидка 【2080 золотых фунтов】</><InvDefault> (скидка действует до </><InvHighlight>8 октября, 8:00</><InvDefault>), при покупке можно дополнительно использовать купон на полцены или ваучер.</>",
 }

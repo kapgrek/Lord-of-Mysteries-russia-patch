@@ -272,4 +272,5 @@ return {
     ["Preload 4"] = "Предварительная загрузка b",
     ["When the Windmill Turns 99002419"] = "Когда перевернётся ветряная мельница e5521abb",
     ["Each time you level up<HighLight></>, restore 2 Player Health<HighLight></>, and gain 1 free refresh<HighLight></> and Gold Coins equal to your Player level<HighLight></>."] = "При каждом повышении уровня<HighLight></> восстанавливает 2 ед. здоровья игрока<HighLight></>, даёт 1 бесплатное обновление<HighLight></> и золотые монеты в количестве, равном уровню игрока<HighLight></>.",
+    ["<InvDefault>内搭</><InvHighlight>金色马甲</><InvDefault>，</><InvHighlight>珠宝</><InvDefault>、</><InvHighlight>流苏与草木暗纹</><InvDefault>点缀其间，兼具绅士风度与自然气息。</>"] = "<InvDefault>Под ним </><InvHighlight>золотой жилет</><InvDefault>, а </><InvHighlight>украшения</><InvDefault>, </><InvHighlight>кисти и растительный узор</><InvDefault> соединяют джентльменскую элегантность с дыханием природы.</>",
 }
