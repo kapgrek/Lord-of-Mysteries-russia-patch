@@ -2821,117 +2821,6 @@ runtimeFixes.getAdjustedFontSize = function(widget, currentSize, wName, isEscLoc
     return orig + 2
 end
 
-runtimeFixes.AutoChessDump = {}
-runtimeFixes.AutoChessDumpSet = {}
-runtimeFixes.AutoChessDumpDirty = false
-runtimeFixes.LastAutoChessDumpTime = 0
-
--- Pre-load existing accumulated strings from disk on startup so we never wipe previous discoveries
-pcall(function()
-    local paths = {
-        "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
-        "temp/autochess_dump.json",
-    }
-    for _, p in ipairs(paths) do
-        local f = io.open(p, "r")
-        if f then
-            local content = f:read("*a")
-            f:close()
-            if content and content ~= "" then
-                for str in content:gmatch('"%s*(.-)%s*"') do
-                    if str and str ~= "" and str ~= "[" and str ~= "]" and str ~= "{" and str ~= "}"
-                        and not str:find('^total_') and not str:find('^version') and not str:find('^strings')
-                    then
-                        local unesc = str:gsub('\\"', '"'):gsub('\\\\', '\\'):gsub('\\n', '\n'):gsub('\\r', '\r')
-                        runtimeFixes.AutoChessDumpSet[unesc] = true
-                    end
-                end
-                break
-            end
-        end
-    end
-end)
-
-function runtimeFixes.dumpAutoChessString(str, context)
-    if type(str) ~= "string" or str == "" then return end
-    local trimmed = str:match("^%s*(.-)%s*$")
-    if not trimmed or #trimmed < 2 then return end
-    if trimmed:match("^[%d%.:%%+%-/%$#@!,%s]+$") then return end
-    -- Skip if already translated to Russian (contains Cyrillic)
-    if trimmed:find("[\208\209][\128-\191]") then return end
-
-    -- Extra safety: if translateVisibleText can find a Russian translation, do not dump
-    if type(translateVisibleText) == "function" then
-        local check = translateVisibleText(trimmed)
-        if type(check) == "string" and check:find("[\208\209][\128-\191]") then
-            return
-        end
-    end
-
-    if runtimeFixes.AutoChessDumpSet[trimmed] then return end
-    runtimeFixes.AutoChessDumpSet[trimmed] = true
-
-    table.insert(runtimeFixes.AutoChessDump, {
-        text = trimmed,
-        context = context or "AutoChess",
-    })
-    runtimeFixes.AutoChessDumpDirty = true
-
-    local now = os and os.clock and os.clock() or 0
-    if now - runtimeFixes.LastAutoChessDumpTime >= 1.5 then
-        runtimeFixes.flushAutoChessDump()
-    end
-end
-
-function runtimeFixes.flushAutoChessDump()
-    if not runtimeFixes.AutoChessDumpDirty then return end
-    runtimeFixes.AutoChessDumpDirty = false
-    runtimeFixes.LastAutoChessDumpTime = os and os.clock and os.clock() or 0
-    pcall(function()
-        local q = string.char(34)
-        local bs = string.char(92)
-        local list = {}
-        for s in pairs(runtimeFixes.AutoChessDumpSet) do
-            local clean = s:gsub(bs, bs .. bs):gsub(q, bs .. q):gsub("\r", bs .. "r"):gsub("\n", bs .. "n")
-            table.insert(list, "  " .. q .. clean .. q)
-        end
-        table.sort(list)
-        local json = "[\n" .. table.concat(list, ",\n") .. "\n]\n"
-        local paths = {
-            "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
-            "temp/autochess_dump.json",
-        }
-        for _, p in ipairs(paths) do
-            local f = io.open(p, "w")
-            if f then
-                f:write(json)
-                f:close()
-                break
-            end
-        end
-
-        local fullPaths = {
-            "d:/gameDev/AbsoluteRU/temp/autochess_full_dump.json",
-            "temp/autochess_full_dump.json",
-        }
-        local fullLines = {}
-        table.insert(fullLines, "{")
-        table.insert(fullLines, '  "version": "1.0",')
-        table.insert(fullLines, '  "total_unique_strings": ' .. #list .. ',')
-        table.insert(fullLines, '  "strings": [\n' .. table.concat(list, ",\n") .. '\n  ]')
-        table.insert(fullLines, "}")
-        local fullJson = table.concat(fullLines, "\n")
-        for _, p in ipairs(fullPaths) do
-            local f = io.open(p, "w")
-            if f then
-                f:write(fullJson)
-                f:close()
-                break
-            end
-        end
-    end)
-end
-
 local function translateTextWidget(widget, discoveryContext)
     if widget == nil or (type(widget) ~= "userdata" and type(widget) ~= "table") then
         return 0
@@ -2992,21 +2881,6 @@ local function translateTextWidget(widget, discoveryContext)
         end
         if translated == collapsedCurrent and collapsedCurrent ~= currentText then
             translated = collapsedCurrent
-        end
-
-        -- AutoChess silent dump trap for untranslated strings
-        local isAutoChessContext = (discoveryContext ~= nil and tostring(discoveryContext):find("AutoChess") ~= nil)
-            or wName:find("autochess") ~= nil
-            or wName:find("chess") ~= nil
-        if isAutoChessContext then
-            local isUntranslated = (translated == nil or translated == collapsedCurrent or translated == currentText)
-                or (type(translated) == "string" and not translated:find("[\208\209][\128-\191]"))
-            if isUntranslated then
-                runtimeFixes.dumpAutoChessString(currentText, discoveryContext or wName)
-                if collapsedCurrent ~= currentText then
-                    runtimeFixes.dumpAutoChessString(collapsedCurrent, discoveryContext or wName)
-                end
-            end
         end
 
         if translated ~= currentText then
@@ -3127,48 +3001,6 @@ local function translateTextWidget(widget, discoveryContext)
             or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
             or widget.DefaultTextStyle
 
-        -- [DIAGNOSTIC FONT LOGGER]
-        if wName:find("task") or wName:find("desc") or wName:find("chapter") or wName:find("info") or wName:find("rich") or wName:find("target") then
-            pcall(function()
-                local cls = (widget.GetClass and widget:GetClass():GetName()) or "unknown"
-                local fPath, stylePath, tsPath = "", "", ""
-                local f = widget.GetFont and widget:GetFont() or widget.Font
-                if f and f.FontObject and f.FontObject.GetPathName then
-                    fPath = tostring(f.FontObject:GetPathName())
-                end
-                if style and style.Font and style.Font.FontObject and style.Font.FontObject.GetPathName then
-                    stylePath = tostring(style.Font.FontObject:GetPathName())
-                end
-                local ts = widget.TextStyleSet or (widget.GetTextStyleSet and widget:GetTextStyleSet()) or widget.TextStyle
-                if ts and ts.GetPathName then
-                    tsPath = tostring(ts:GetPathName())
-                end
-                report(">>> FONT_INSPECT: widget=" .. tostring(wName) .. " class=" .. tostring(cls) .. " font=" .. fPath .. " styleFont=" .. stylePath .. " textStyleSet=" .. tsPath)
-
-                -- If it's a RichTextBlock, inspect its DataTable or members once
-                if ts and not runtimeFixes.__cpddInspectedDT then
-                    runtimeFixes.__cpddInspectedDT = true
-                    local dtLib = nil
-                    pcall(function() dtLib = import("KismetDataTableLibrary") end)
-                    report(">>> DT_INSPECT: path=" .. tostring(ts:GetPathName()) .. " has_dtLib=" .. tostring(dtLib ~= nil))
-                    if ts.GetRowNames then
-                        local okNames, rNames = pcall(function() return ts:GetRowNames() end)
-                        if okNames and rNames then
-                            local rList = {}
-                            for i = 1, #rNames do table.insert(rList, tostring(rNames[i])) end
-                            report(">>> DT_ROWS: " .. table.concat(rList, ", "))
-                        end
-                    end
-                end
-
-                if wName == "text_taskdesc1" and not runtimeFixes.__cpddInspectedTaskDesc then
-                    runtimeFixes.__cpddInspectedTaskDesc = true
-                    local keys = {}
-                    for k, _ in pairs(widget) do table.insert(keys, tostring(k)) end
-                    report(">>> TASKDESC_KEYS: " .. table.concat(keys, ", "))
-                end
-            end)
-        end
         if style ~= nil and style.Font ~= nil then
             if style.Font.FontObject ~= nil then
                 if isCinematicName or runtimeFixes.isCinematicFontObject(style.Font.FontObject) then
@@ -9117,9 +8949,9 @@ local dynamicPanelRescanUids = {
 }
 
 local extendedPanelRepairDelays = {
-    AutoChess_CardDescription_Panel = { 0.05, 0.15, 0.35, 0.80 },
-    AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50, 3.00 },
-    AutoChess_OutSideMain_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChess_CardDescription_Panel = { 0.05, 0.15 },
+    AutoChess_GameDetail_Panel = { 0.05, 0.15 },
+    AutoChess_OutSideMain_Panel = { 0.05, 0.15 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
@@ -9199,8 +9031,8 @@ function panelTextRepair:Repair(component, reason)
             return
         end
         local rootWidget = current.userWidget or current.widget
-        local discoveryContext = (tostring(componentUid):find("AutoChess") ~= nil) and "AutoChess" or nil
-                repaired = repaired + (translateViewTextWidgets(
+        local discoveryContext = nil
+        repaired = repaired + (translateViewTextWidgets(
             current.view,
             rootWidget,
             discoveryContext,
@@ -9351,6 +9183,34 @@ function panelTextRepair:QueueExtended(component)
     end
 end
 
+runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
+function runtimeFixes.hookAutoChessMethod(origMethod)
+    if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
+        return origMethod
+    end
+    local function wrapper(comp, ...)
+        local argCount = select("#", ...)
+        local args = { ... }
+        for i = 1, argCount do
+            local arg = args[i]
+            if type(arg) == "table" then
+                pcall(translateTableStrings, arg)
+            elseif type(arg) == "string" then
+                pcall(function()
+                    args[i] = translateVisibleText(arg)
+                end)
+            end
+        end
+        local results = { origMethod(comp, unpack(args, 1, argCount)) }
+        pcall(function()
+            translateDirectViewTextWidgets(comp and comp.view)
+        end)
+        return unpack(results)
+    end
+    runtimeFixes.AutoChessHookedWrappers[wrapper] = true
+    return wrapper
+end
+
 local function installEventDrivenPanelRepair(value, environment)
     local class = getSymbol(value, environment, "UIComponent")
     if type(class) ~= "table" or rawget(class, "__cpddEventTextRepair") == VERSION then
@@ -9382,14 +9242,7 @@ local function installEventDrivenPanelRepair(value, environment)
                     }) do
                         local origMethod = self[method]
                         if type(origMethod) == "function" then
-                            self[method] = function(comp, ...)
-                                local ret = { origMethod(comp, ...) }
-                                pcall(function()
-                                    panelTextRepair:Repair(comp, "autochess-" .. method)
-                                    panelTextRepair:Queue(comp, true)
-                                end)
-                                return unpack(ret)
-                            end
+                            self[method] = runtimeFixes.hookAutoChessMethod(origMethod)
                         end
                     end
                 end
@@ -9467,14 +9320,7 @@ do
                 }) do
                     local origM = panelClass[m]
                     if type(origM) == "function" then
-                        panelClass[m] = function(s, ...)
-                            local res = { origM(s, ...) }
-                            pcall(function()
-                                panelTextRepair:Repair(s, "autochess-module-" .. m)
-                                panelTextRepair:Queue(s, true)
-                            end)
-                            return unpack(res)
-                        end
+                        panelClass[m] = runtimeFixes.hookAutoChessMethod(origM)
                     end
                 end
                 report("installed AutoChess lifecycle hooks on " .. modName)
