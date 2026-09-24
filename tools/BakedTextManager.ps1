@@ -234,9 +234,20 @@ if ($Action -eq 'update') {
     $fs.Flush()
     $fs.Close()
 
-    # Обновляем manifest.json
-    $b.replacement_sha256 = $newHash
-    $manifest | ConvertTo-Json -Depth 10 | Set-Content -Path $manifestPath -Encoding UTF8
+    # Обновляем manifest.json точечной правкой текста: ConvertTo-Json переформатировал бы
+    # весь файл (CPDD хранит его с CRLF и отступом 2), и sha манифеста разошёлся бы с CPDD.
+    $shaRx = [regex]'"replacement_sha256":\s*"([0-9a-fA-F]{64})"'
+    $shaMatches = $shaRx.Matches($manifestJson)
+    if ($shaMatches.Count -ne $manifest.blocks.Count) {
+        Write-Error ("В манифесте {0} полей replacement_sha256 при {1} блоках, точечная правка невозможна" -f $shaMatches.Count, $manifest.blocks.Count)
+        exit 1
+    }
+    $valueGroup = $shaMatches[$BlockIndex].Groups[1]
+    $manifestJson = $manifestJson.Substring(0, $valueGroup.Index) + $newHash + $manifestJson.Substring($valueGroup.Index + $valueGroup.Length)
+    # data_sha256 описывает весь blocks.bin
+    $dataHash = (Get-FileHash -LiteralPath $blocksPath -Algorithm SHA256).Hash.ToLower()
+    $manifestJson = ([regex]'("data_sha256":\s*")[0-9a-fA-F]{64}(")').Replace($manifestJson, "`${1}$dataHash`${2}", 1)
+    [System.IO.File]::WriteAllText($manifestPath, $manifestJson, (New-Object System.Text.UTF8Encoding $false))
 
     Write-Host ("Блок {0} успешно обновлен в blocks.bin и manifest.json!" -f $BlockIndex) -ForegroundColor Green
 }
