@@ -5,6 +5,8 @@
 
 # CPDD ships this manifest with CRLF; keep it byte-for-byte so its sha256 matches CPDD release.json
 patch_payload/Saved/Mods/BakedText/manifest.json -text
+# Pristine CPDD base for tools/SyncCpdd.ps1 (release.json is CRLF upstream)
+vendor/cpdd/** -text
 
 # LuaJIT bytecode with a .lua extension (header 1B 4C 4A): must never be eol-converted
 patch_payload/Saved/Mods/lua/cpdd_translation/** binary

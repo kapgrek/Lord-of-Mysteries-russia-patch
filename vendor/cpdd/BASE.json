@@ -1,0 +1,5 @@
+{
+  "tag": "v2.6.3",
+  "release_json_sha256": "9378bdbaea52c5833da0cffeca03cf043819c8951df1483964c547c5a0cc7ffb",
+  "note": "CPDD release that patch_payload is based on. Updated by tools/SyncCpdd.ps1 -Apply."
+}
