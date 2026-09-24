@@ -1,4 +1,4 @@
-param (
+﻿param (
     [string]$OutDir = (Join-Path (Split-Path $PSScriptRoot -Parent) "build")
 )
 

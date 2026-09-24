@@ -1,4 +1,4 @@
-# ShardCompiler.ps1 — Компилятор и распределитель строк по 1024 шардов RuntimeText
+﻿# ShardCompiler.ps1 — Компилятор и распределитель строк по 1024 шардов RuntimeText
 # Полный эквивалент алгоритма хеширования FNV-1a из Init.lua игры Lord of the Mysteries
 
 param(
