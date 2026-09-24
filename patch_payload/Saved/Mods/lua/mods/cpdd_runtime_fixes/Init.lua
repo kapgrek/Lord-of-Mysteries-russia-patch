@@ -1,6 +1,16 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
+-- Developer flags: Saved/Mods/lua/absoluteru_dev.lua (not shipped, see docs/DIAGNOSTICS.md).
+do
+    local ok, flags = pcall(Loader.LoadExternal, "absoluteru_dev")
+    if ok and type(flags) == "table" and flags.Enabled == true then
+        Loader.DevFlags = flags
+        if flags.VerboseLog ~= false and type(Loader.Features) == "table" then
+            Loader.Features.DiagnosticsMode = true
+        end
+    end
+end
 
-local VERSION = "2.9.0-RU"
+local VERSION = "2.9.1-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1339,7 +1349,11 @@ local directTables = {}
 local MISSING_DIRECT_TABLE = {}
 local function report(message)
     local logger = Log or LaunchLog
-    if logger and logger.Info then
+    -- PerformanceMode lowers the game log to Warning; with developer flags
+    -- (absoluteru_dev.lua) keep report/reportVerbose lines visible in C7.log.
+    if Loader.DevFlags ~= nil and LuaCLogger ~= nil and type(LuaCLogger.Warning) == "function" then
+        pcall(LuaCLogger.Warning, "[CPDDRuntimeFix] " .. tostring(message))
+    elseif logger and logger.Info then
         logger.Info("[CPDDRuntimeFix] " .. tostring(message))
     end
 end
@@ -1390,6 +1404,20 @@ local runtimeMetrics = {
     HooksInstalled = 0,
 }
 local runtimeFixes = {}
+-- Development diagnostics (docs/DIAGNOSTICS.md): identity wrapper unless
+-- Saved/Mods/lua/absoluteru_dev.lua enabled AbsruDiagnostics.
+runtimeFixes.diagWrap = function(_, _, fn) return fn end
+if Loader.DevFlags then
+    local ok, diag = pcall(require, "mods.cpdd_runtime_fixes.AbsruDiagnostics")
+    local started, err = false, diag
+    if ok and type(diag) == "table" then started, err = pcall(diag.Start, Loader, runtimeFixes, VERSION) end
+    if started and err == true then
+        runtimeFixes.Diag = diag
+        runtimeFixes.diagWrap = diag.Wrap
+    else
+        report("diagnostics unavailable: " .. tostring(err))
+    end
+end
 
 -- Release logs keep failures and one startup summary. Routine install,
 -- timing and counter messages are written only with DiagnosticsMode=true.
@@ -2132,6 +2160,7 @@ local function walkWidgetDescendants(owner, visited, visitor)
         walkWidgetDescendants(widget, visited, visitor)
     end
 end
+if runtimeFixes.Diag then runtimeFixes.Diag.Attach({ getWidgetList = getWidgetList, runtimeMetrics = runtimeMetrics }) end
 
 runtimeFixes.normalizeLocalizedLargeNumbers = function(value)
     if type(value) ~= "string" then
@@ -3355,6 +3384,7 @@ local function translateTextWidget(widget, discoveryContext)
 
     local repairedCount = 0
     local translated = nil
+    local d = runtimeFixes.Diag
 
     if currentText ~= nil then
         local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
@@ -3396,9 +3426,11 @@ local function translateTextWidget(widget, discoveryContext)
                 end
             end)
             repairedCount = changed and 1 or 0
+            if changed and d then d.NoteTextChange(widget, currentText, translated) end
         end
     end
 
+    local pre = d and d.FontSnapshot(widget)
     -- STRICT UNIVERSAL RULE: Enforce 0 letter spacing and standard font on ALL widgets,
     -- even if currently empty, to ensure subsequent C++/Blueprint updates inherit proper styling.
     pcall(function()
@@ -3532,6 +3564,7 @@ local function translateTextWidget(widget, discoveryContext)
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
     end)
+    if d then d.OnTextWidget(widget, translated or currentText, widgetName, pre) end
     return repairedCount
 end
 
@@ -4216,7 +4249,7 @@ local function installPostHotfixTranslationRestore(value, environment)
         return value
     end
 
-    utils.PostHotfix = function(...)
+    utils.PostHotfix = runtimeFixes.diagWrap("fix:HotfixUtils.PostHotfix", "fix", function(...)
         local results = { originalPostHotfix(...) }
         local ok, count = pcall(Loader.ReapplyOverlays, true)
         if ok then
@@ -4228,7 +4261,7 @@ local function installPostHotfixTranslationRestore(value, environment)
             report("post-hotfix translation restore failed: " .. tostring(count))
         end
         return unpack(results)
-    end
+    end)
 
     utils.__cpddTranslationRestore = VERSION
     reportInstalled("installed post-hotfix translation restore")
@@ -5051,7 +5084,7 @@ local function installKsbcManagerRowRepair(value, environment)
 
     local originalInit = managerClass.Init
     if type(originalInit) == "function" then
-        managerClass.Init = function(self, ...)
+        managerClass.Init = runtimeFixes.diagWrap("fix:KsbcMgr.Init", "fix", function(self, ...)
             local manager = Game and Game.TableDataManager
             if type(manager) == "table"
                 and runtimeFixes.KsbcFallbackMethods[manager] == nil
@@ -5069,7 +5102,7 @@ local function installKsbcManagerRowRepair(value, environment)
                 "KsbcMgr.Init"
             )
             return unpack(results)
-        end
+        end)
     end
 
     managerClass.__cpddRuntimeManagerRowRepair = VERSION
@@ -5446,7 +5479,7 @@ Loader.AfterLoad(
         if type(originalSetDisplayText) ~= "function" then
             return value
         end
-        class.SetDisplayText = function(self, displayText, leonSubTitle)
+        class.SetDisplayText = runtimeFixes.diagWrap("fix:SceneTextBoardComponent.SetDisplayText", "fix", function(self, displayText, leonSubTitle)
             if runtimeUIRepairEnabled() then
                 displayText = repairLiveString(source, "SetDisplayText", "DisplayText", displayText)
                 leonSubTitle = repairLiveString(source, "SetDisplayText", "LeonSubTitle", leonSubTitle)
@@ -5460,10 +5493,10 @@ Loader.AfterLoad(
                 end
             end
             return originalSetDisplayText(self, displayText, leonSubTitle)
-        end
+        end)
         local originalRefreshContent = class.RefreshContent
         if type(originalRefreshContent) == "function" then
-            class.RefreshContent = function(self, ...)
+            class.RefreshContent = runtimeFixes.diagWrap("fix:SceneTextBoardComponent.RefreshContent", "fix", function(self, ...)
                 if runtimeUIRepairEnabled() then
                     enlargeEnglishSceneTextSurface(self, "RefreshContent")
                 end
@@ -5473,11 +5506,11 @@ Loader.AfterLoad(
                     repairEnglishSceneTextInnerLayout(self, "RefreshContent")
                 end
                 return result
-            end
+            end)
         end
         local originalInnerTextBlockReady = class.InnerTextBlockReady
         if type(originalInnerTextBlockReady) == "function" then
-            class.InnerTextBlockReady = function(self, ...)
+            class.InnerTextBlockReady = runtimeFixes.diagWrap("fix:SceneTextBoardComponent.InnerTextBlockReady", "fix", function(self, ...)
                 local result = originalInnerTextBlockReady(self, ...)
                 if runtimeUIRepairEnabled() then
                     fitEnglishSceneTextFont(self)
@@ -5485,7 +5518,7 @@ Loader.AfterLoad(
                     enlargeEnglishSceneTextSurface(self, "InnerTextBlockReady")
                 end
                 return result
-            end
+            end)
         end
         class.__cpddSceneTextRepair = VERSION
         reportInstalled("installed scene text translation and complete inner/outer layout repair")
@@ -5515,7 +5548,7 @@ Loader.AfterLoad("Gameplay.Const.StringConst.StringConst", function(value, envir
     stringConst.__cpddRuntimeFixV1 = true
     local originalGet = assert(stringConst.Get)
 
-    stringConst.Get = function(key, ...)
+    stringConst.Get = runtimeFixes.diagWrap("fix:StringConst.Get", "fix", function(key, ...)
         local replacement = stringConstOverrides[key]
         if replacement ~= nil then
             if select("#", ...) > 0 then
@@ -5533,7 +5566,7 @@ Loader.AfterLoad("Gameplay.Const.StringConst.StringConst", function(value, envir
             return tostring(key or "")
         end
         return repairLiveString("StringConst", key, key, result)
-    end
+    end, { light = true })
 
     return value
 end, 1000000, "cpdd.runtime-fix.string-const")
@@ -5644,13 +5677,13 @@ Loader.AfterLoad("Gameplay.LogicSystem.Family.FamilySystem", function(value, env
         [13] = "Тринадцатое место",
         [14] = "Четырнадцатое место",
     }
-    familySystem.GetSeatName = function(self, index)
+    familySystem.GetSeatName = runtimeFixes.diagWrap("fix:FamilySystem.GetSeatName", "fix", function(self, index)
         local replacement = familySeatNames[index]
         if replacement ~= nil then
             return replacement
         end
         return originalGetSeatName(self, index)
-    end
+    end)
     familySystem.__cpddEnglishFamilySeatName = VERSION
     reportInstalled("installed English family-seat ordinal names")
     return value
@@ -5705,12 +5738,12 @@ Loader.AfterLoad(
             return value
         end
 
-        fashionDetail.RefreshStyle = function(self, ...)
+        fashionDetail.RefreshStyle = runtimeFixes.diagWrap("fix:Fashion_DetailExpand.RefreshStyle", "fix", function(self, ...)
             local results = { originalRefreshStyle(self, ...) }
             reflowStyleDetails(self)
             scheduleRepairBurst(self, reflowStyleDetails, 0.50)
             return unpack(results)
-        end
+        end)
         fashionDetail.__cpddEnglishStyleLayout = VERSION
         reportInstalled("installed English Style detail horizontal reflow")
         return value
@@ -5798,6 +5831,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.Race.WorldWidget.RaceTrace_Widget", funct
             self.__cpddDistanceWidget = distanceWidget
             self.__cpddLastDistanceMeter = distMeter
             distanceWidget:SetText(tostring(distMeter) .. "m")
+            if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("race-distance") end
         end
     end
 
@@ -5914,7 +5948,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
         return value
     end
 
-    helper.GenerateTipsDesc = function(tipsString, markTag)
+    helper.GenerateTipsDesc = runtimeFixes.diagWrap("fix:DescFormulaHelper.GenerateTipsDesc", "fix", function(tipsString, markTag)
         local original = originalGenerateTipsDesc(tipsString, markTag)
         if type(original) ~= "string" then
             return original
@@ -5928,7 +5962,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
             "TipsDescription", original, translated
         )
         return translated
-    end
+    end)
     helper.__cpddGeneratedTipsRepair = VERSION
     reportInstalled("installed shared generated equipment-tip translation")
     return value
@@ -5948,20 +5982,20 @@ local function installSkillDescriptionRepair(value, environment)
     }) do
         local original = skillSystem[methodName]
         if type(original) == "function" then
-            skillSystem[methodName] = function(self, ...)
+            skillSystem[methodName] = runtimeFixes.diagWrap("fix:SkillCustomSystem." .. methodName, "fix", function(self, ...)
                 local results = { original(self, ...) }
                 if type(results[1]) == "string" then
                     results[1] = repairLiveString("SkillCustomSystem", select(1, ...), methodName, results[1])
                 end
                 return unpack(results)
-            end
+            end)
             wrapped = wrapped + 1
         end
     end
 
     local originalTalents = skillSystem.GetCurrentSkillRelatedTalentIDs
     if type(originalTalents) == "function" then
-        skillSystem.GetCurrentSkillRelatedTalentIDs = function(self, skillId)
+        skillSystem.GetCurrentSkillRelatedTalentIDs = runtimeFixes.diagWrap("fix:SkillCustomSystem.GetCurrentSkillRelatedTalentIDs", "fix", function(self, skillId)
             -- This method builds fresh rows from SkillIDTalentNodeMap, which
             -- bypasses GetRow. Translate before consumers strip rich-text tags.
             local rows = originalTalents(self, skillId)
@@ -5974,7 +6008,7 @@ local function installSkillDescriptionRepair(value, environment)
                 end
             end
             return rows
-        end
+        end)
         wrapped = wrapped + 1
     end
 
@@ -6010,7 +6044,7 @@ local function installViewMethodRepair(value, environment, symbolName, methodNam
     for _, methodName in ipairs(methodNames) do
         local original = class[methodName]
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("view:" .. symbolName .. "." .. methodName, "view", function(self, ...)
                 local results = { original(self, ...) }
                 if runtimeUIRepairEnabled() then
                     -- Refresh methods can repaint serialized Blueprint text or
@@ -6036,7 +6070,7 @@ local function installViewMethodRepair(value, environment, symbolName, methodNam
                     end
                 end
                 return unpack(results)
-            end
+            end, { module = source })
             wrapped = wrapped + 1
         end
     end
@@ -6063,7 +6097,7 @@ local function installDataMethodRepair(value, environment, symbolName, methodNam
     for _, methodName in ipairs(methodNames) do
         local original = class[methodName]
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("data:" .. symbolName .. "." .. methodName, "data", function(self, ...)
                 if not runtimeUIRepairEnabled() then
                     return original(self, ...)
                 end
@@ -6111,7 +6145,7 @@ local function installDataMethodRepair(value, environment, symbolName, methodNam
                         .. " labels=" .. tostring(repaired or 0))
                 end
                 return unpack(results)
-            end
+            end, { module = source })
             wrapped = wrapped + 1
         end
     end
@@ -6136,7 +6170,7 @@ runtimeMetrics.InstallEquipmentSpecialTextRepair = function(value, environment)
         return false
     end
 
-    class.SetData = function(self, suitName, suitBrief, suitDesc, story, uniqueData, index)
+    class.SetData = runtimeFixes.diagWrap("fix:ItemTipsEquipSpecial.SetData", "fix", function(self, suitName, suitBrief, suitDesc, story, uniqueData, index)
         if not runtimeUIRepairEnabled() then
             return originalSetData(self, suitName, suitBrief, suitDesc, story, uniqueData, index)
         end
@@ -6166,7 +6200,7 @@ runtimeMetrics.InstallEquipmentSpecialTextRepair = function(value, environment)
             translateTextWidget(view.Text_Story, context)
         end
         return unpack(results)
-    end
+    end, { module = source })
     class.__cpddEquipmentSpecialTextRepair = VERSION
     reportInstalled("installed authoritative ItemTipsEquipSpecial:SetData translation")
     return true
@@ -6185,7 +6219,7 @@ runtimeMetrics.InstallSealedSkillDescRepair = function(value, environment)
         return false
     end
 
-    class.GetSealedSkillDescText = function(self, skillList, sealedId, sealedGrade, knowledgeLevel)
+    class.GetSealedSkillDescText = runtimeFixes.diagWrap("fix:SealedSystem.GetSealedSkillDescText", "fix", function(self, skillList, sealedId, sealedGrade, knowledgeLevel)
         local original = originalGetDesc(self, skillList, sealedId, sealedGrade, knowledgeLevel)
         if not runtimeUIRepairEnabled() or type(original) ~= "string" then
             return original
@@ -6202,7 +6236,7 @@ runtimeMetrics.InstallSealedSkillDescRepair = function(value, environment)
             self, source, className, "SkillDescription", original, translated
         )
         return translated
-    end
+    end, { module = source })
     class.__cpddSealedSkillDescRepair = VERSION
     reportInstalled("installed authoritative SealedSystem skill-description translation")
     return true
@@ -6218,13 +6252,13 @@ local function installGuildRoleRepair(value, environment)
     for _, methodName in ipairs({ "RoleIDToRoleName", "GetOccupationText" }) do
         local original = guildSystem[methodName]
         if type(original) == "function" then
-            guildSystem[methodName] = function(self, ...)
+            guildSystem[methodName] = runtimeFixes.diagWrap("fix:GuildSystem." .. methodName, "fix", function(self, ...)
                 local results = { original(self, ...) }
                 if type(results[1]) == "string" then
                     results[1] = repairLiveString("GuildSystem", select(1, ...), methodName, results[1])
                 end
                 return unpack(results)
-            end
+            end)
             wrapped = wrapped + 1
         end
     end
@@ -6258,8 +6292,9 @@ local function scheduleRepairAfter(self, delay, repair)
     if not ok or type(addTimer) ~= "function" then
         return false
     end
+    local run = runtimeFixes.Diag and runtimeFixes.Diag.Bind(repair) or repair
     return pcall(addTimer, self, delay, 1, function()
-        pcall(repair, self)
+        pcall(run, self)
     end)
 end
 
@@ -6283,6 +6318,7 @@ local function scheduleRepairBurst(self, repair, finalDelay)
         return false
     end
     pending[repair] = true
+    local run = runtimeFixes.Diag and runtimeFixes.Diag.Bind(repair) or repair
 
     local function clearPending()
         pending[repair] = nil
@@ -6292,9 +6328,9 @@ local function scheduleRepairBurst(self, repair, finalDelay)
     end
 
     local scheduledOk, scheduled = pcall(addTimer, self, 0.01, 1, function()
-        pcall(repair, self)
+        pcall(run, self)
         local finalOk, finalScheduled = pcall(addTimer, self, finalDelay or 0.50, 1, function()
-            pcall(repair, self)
+            pcall(run, self)
             clearPending()
         end)
         if not finalOk or finalScheduled == false then
@@ -6499,7 +6535,7 @@ local function installDialogueTalkRepair(value, environment)
         return false
     end
 
-    dialogueTalk.InitUIData = function(self, ...)
+    dialogueTalk.InitUIData = runtimeFixes.diagWrap("fix:DialogueTalk.InitUIData", "fix", function(self, ...)
         local results = { originalInitUIData(self, ...) }
         if runtimeUIRepairEnabled() then
             -- InitUIData may replace the native printer or widget tree on a
@@ -6510,9 +6546,9 @@ local function installDialogueTalkRepair(value, environment)
             bindDialogueRows(self)
         end
         return unpack(results)
-    end
+    end)
 
-    dialogueTalk.ShowContent = function(self, content, ...)
+    dialogueTalk.ShowContent = runtimeFixes.diagWrap("fix:DialogueTalk.ShowContent", "fix", function(self, content, ...)
         if not runtimeUIRepairEnabled() then
             return originalShowContent(self, content, ...)
         end
@@ -6535,7 +6571,7 @@ local function installDialogueTalkRepair(value, environment)
             self.__cpddDialogueVisibleTextRepaired = VERSION
         end
         return unpack(results)
-    end
+    end)
 
     dialogueTalk.__cpddEnglishLayoutRepair = VERSION
     reportInstalled("installed dynamic multi-row English dialogue layout")
@@ -6550,6 +6586,7 @@ local function setLayeredDialogueLabel(owner, text)
     local changed = false
     local ok = pcall(function()
         owner:SetText(text)
+        if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("dialogue-layered-owner") end
     end)
     changed = changed or ok
 
@@ -6558,6 +6595,7 @@ local function setLayeredDialogueLabel(owner, text)
             local widget = owner[fieldName]
             if widget ~= nil then
                 widget:SetText(text)
+                if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("dialogue-layered-field") end
                 changed = true
             end
         end)
@@ -6584,6 +6622,7 @@ runtimeFixes.setNamedWidgetText = function(owner, widgetName, text)
     local changed = false
     local setOk = pcall(function()
         widget:SetText(text)
+        if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("named-widget") end
     end)
     changed = changed or setOk
 
@@ -6614,6 +6653,7 @@ runtimeFixes.setPanelWidgetText = function(self, widgetName, text)
         if widget ~= nil then
             changed = pcall(function()
                 widget:SetText(text)
+                if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("panel-widget") end
             end) or changed
         end
     end
@@ -6662,6 +6702,7 @@ runtimeFixes.repairGuildEventPreviewTextWidget = function(widget)
     end
 
     pcall(function() widget:SetText(display) end)
+    if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("guild-event-preview") end
     pcall(function()
         -- The cooked list row is tall enough for two compact lines but not for
         -- the original full-size English sentence. Keep wrapping deterministic
@@ -6744,6 +6785,7 @@ runtimeFixes.fitSequencePromotionConditionText = function(widget)
     )
     if display ~= current then
         pcall(function() widget:SetText(display) end)
+        if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("sequence-promotion-condition") end
         pcall(function() widget.Text = display end)
     end
 
@@ -7256,9 +7298,9 @@ runtimeFixes.installLastHuntScoreFormatting = function(value, environment)
         return false
     end
 
-    class.FormatScoreTip = function(_, number)
+    class.FormatScoreTip = runtimeFixes.diagWrap("fix:PVPLastHunt_Details_MyData.FormatScoreTip", "fix", function(_, number)
         return runtimeFixes.formatGroupedInteger(number)
-    end
+    end)
     class.__cpddFullScoreFormatting = VERSION
     reportInstalled("installed full-number Last Hunt score formatting")
     return true
@@ -7332,9 +7374,9 @@ runtimeFixes.installExchangeStallPriceFormatting = function(value, environment)
 
     -- Stall cards route every regular, market-instance, and lowest-price label
     -- through this method, making it the narrowest reliable display fix.
-    class.formatPrice = function(_, number)
+    class.formatPrice = runtimeFixes.diagWrap("fix:Shops_StallContent_Item.formatPrice", "fix", function(_, number)
         return runtimeFixes.formatGameMoney(number)
-    end
+    end, { light = true })
     class.__cpddFullExchangePriceFormatting = VERSION
     reportInstalled("installed full-number Shops Exchange stall price formatting")
     return true
@@ -7350,7 +7392,7 @@ runtimeFixes.installExchangeAuctionPriceFormatting = function(value, environment
         return false
     end
 
-    class.refreshAuctionItemInfo = function(self, ...)
+    class.refreshAuctionItemInfo = runtimeFixes.diagWrap("fix:Shops_AuctionContent_Item.refreshAuctionItemInfo", "fix", function(self, ...)
         local result = originalRefresh(self, ...)
         -- Repaint from the raw bid price after the native method. This protects
         -- auction cards even when their cached CurrencyUtils reference cannot
@@ -7361,10 +7403,11 @@ runtimeFixes.installExchangeAuctionPriceFormatting = function(value, environment
             local label = self and self.view and self.view.Text_MoneyOne
             if type(price) == "number" and label ~= nil then
                 label:SetText(runtimeFixes.formatGameMoney(price))
+                if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("auction-price") end
             end
         end)
         return result
-    end
+    end)
     class.__cpddFullExchangePriceFormatting = VERSION
     reportInstalled("installed full-number Shops Exchange auction price formatting")
     return true
@@ -7382,7 +7425,7 @@ runtimeFixes.installExchangeFashionPriceFormatting = function(
         return false
     end
 
-    class.OnRefresh = function(self, data, ...)
+    class.OnRefresh = runtimeFixes.diagWrap("fix:" .. tostring(symbolName) .. ".OnRefresh", "fix", function(self, data, ...)
         local result = originalRefresh(self, data, ...)
         -- Fashion/display cards bypass the standard stall formatter. Repaint
         -- their exact price label from the unformatted exchange row.
@@ -7391,10 +7434,11 @@ runtimeFixes.installExchangeFashionPriceFormatting = function(
             local label = self and self.view and self.view[labelName]
             if type(price) == "number" and label ~= nil then
                 label:SetText(runtimeFixes.formatGameMoney(price))
+                if runtimeFixes.Diag then runtimeFixes.Diag.NoteTextWrite("exchange-price") end
             end
         end)
         return result
-    end
+    end)
     class.__cpddFullExchangePriceFormatting = VERSION
     reportInstalled("installed full-number Shops Exchange " .. reportName .. " price formatting")
     return true
@@ -7471,10 +7515,10 @@ runtimeFixes.installBattleStatisticsFormatting = function(value, environment)
     -- implementation appends localized TEN_THOUSAND/AHUNDREDMILLION suffixes,
     -- which renders as literal English words after localization. Preserve its
     -- round-up behavior but always display the complete grouped value.
-    class.GetFormatNumberString = function(_, number)
+    class.GetFormatNumberString = runtimeFixes.diagWrap("fix:DungeonBattleStatisticsSystem.GetFormatNumberString", "fix", function(_, number)
         number = tonumber(number) or 0
         return runtimeFixes.formatGroupedInteger(math.ceil(number))
-    end
+    end, { light = true })
     class.__cpddFullBattleStatisticsFormatting = VERSION
     reportInstalled("installed full-number DPS/statistics formatting")
     return true
@@ -7556,7 +7600,7 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
     end
 
     if type(originalSetAs6V6) == "function" then
-        class.SetAs6V6 = function(self, data)
+        class.SetAs6V6 = runtimeFixes.diagWrap("fix:PVP_Stats_Item.SetAs6V6", "fix", function(self, data)
             local result = originalSetAs6V6(self, data)
             reportApplied(
                 "6v6",
@@ -7565,12 +7609,12 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
                 )
             )
             return result
-        end
+        end)
         installedMethods = installedMethods + 1
     end
 
     if type(originalSetAs12V12) == "function" then
-        class.SetAs12V12 = function(self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats)
+        class.SetAs12V12 = runtimeFixes.diagWrap("fix:PVP_Stats_Item.SetAs12V12", "fix", function(self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats)
             local result = originalSetAs12V12(
                 self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats
             )
@@ -7581,12 +7625,12 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
                 refreshStatisticCells(self, data, maxData, gameMode, false)
             )
             return result
-        end
+        end)
         installedMethods = installedMethods + 1
     end
 
     if type(originalSetAsChampion) == "function" then
-        class.SetAsChampion = function(self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats)
+        class.SetAsChampion = runtimeFixes.diagWrap("fix:PVP_Stats_Item.SetAsChampion", "fix", function(self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats)
             local result = originalSetAsChampion(
                 self, data, index, maxData, maxIndex, bOtherSide, bEndGameStats
             )
@@ -7598,7 +7642,7 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
                 )
             )
             return result
-        end
+        end)
         installedMethods = installedMethods + 1
     end
 
@@ -7650,14 +7694,14 @@ local function installDialogueControlRepair(value, environment, symbolName, meth
     for _, methodName in ipairs(methodNames) do
         local original = class[methodName]
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("dlg:" .. symbolName .. "." .. methodName, "dlg", function(self, ...)
                 local results = { original(self, ...) }
                 if runtimeUIRepairEnabled() then
                     repair(self)
                     scheduleRepairBurst(self, repair, 0.10)
                 end
                 return unpack(results)
-            end
+            end, { module = source })
             wrapped = wrapped + 1
         end
     end
@@ -7690,7 +7734,7 @@ local function installExactWidgetRepair(value, environment, symbolName, methodNa
             -- after callbacks that can repaint an already-repaired widget.
             local repeatAfterMethod = repeatRepair == true
                 or (type(repeatRepair) == "table" and repeatRepair[methodName] == true)
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("exact:" .. symbolName .. "." .. methodName, "exact", function(self, ...)
                 local results = { original(self, ...) }
                 if runtimeUIRepairEnabled() and (repeatAfterMethod or not repairedInstances[self]) then
                     if not repeatAfterMethod then
@@ -7704,7 +7748,7 @@ local function installExactWidgetRepair(value, environment, symbolName, methodNa
                     end
                 end
                 return unpack(results)
-            end
+            end, { module = source })
             wrapped = wrapped + 1
         end
     end
@@ -7909,7 +7953,7 @@ function runtimeFixes.installPlayerDetailRowRepair(value, environment, symbolNam
     if type(original) ~= "function" then
         return false
     end
-    class.OnRefresh = function(self, data, ...)
+    class.OnRefresh = runtimeFixes.diagWrap("fix:" .. tostring(symbolName) .. ".OnRefresh", "fix", function(self, data, ...)
         runtimeFixes.repairPlayerDetailRowData(data)
         local results = { original(self, data, ...) }
         -- The aggregate caption is painted by the expandable row and can retain
@@ -7922,7 +7966,7 @@ function runtimeFixes.installPlayerDetailRowRepair(value, environment, symbolNam
             runtimeFixes.setNamedWidgetText(self and self.view, "Text_Title", "Defense Break")
         end
         return unpack(results)
-    end
+    end, { module = source })
     class.__cpddPlayerDetailLabels = VERSION
     reportInstalled("installed exact player-detail attribute labels for " .. source)
     return true
@@ -7985,7 +8029,7 @@ function runtimeFixes.installPlayerDetailPanelRepair(value, environment, source)
     if type(original) ~= "function" then
         return false
     end
-    class.RefreshProperties = function(self, ...)
+    class.RefreshProperties = runtimeFixes.diagWrap("fix:PlayerDetails_List_Panel.RefreshProperties", "fix", function(self, ...)
         runtimeFixes.repairLivePlayerDetailTables()
         local results = { original(self, ...) }
         if runtimeFixes.repairPlayerDetailGroupData(self and self.GroupData) then
@@ -7995,7 +8039,7 @@ function runtimeFixes.installPlayerDetailPanelRepair(value, environment, source)
             end
         end
         return unpack(results)
-    end
+    end, { module = source })
     class.__cpddPlayerDetailPanelLabels = VERSION
     reportInstalled("installed complete player-detail attribute repair for " .. source)
     return true
@@ -8155,11 +8199,11 @@ local function installSettingsPresetLayoutRepair(value, environment)
         return false
     end
 
-    class.Refresh = function(self, ...)
+    class.Refresh = runtimeFixes.diagWrap("fix:Settings_Option_Item.Refresh", "fix", function(self, ...)
         local results = { originalRefresh(self, ...) }
         compactOverallGraphicsChoices(self)
         return unpack(results)
-    end
+    end)
     class.__cpddCompactGraphicsPresets = VERSION
     reportInstalled("installed compact overall graphics preset row")
     return true
@@ -9046,12 +9090,15 @@ end
 
 for _, spec in ipairs(viewRepairSpecs) do
     registerViewRepair(spec)
+    if runtimeFixes.Diag then runtimeFixes.Diag.DeclareSpec("view", spec) end
 end
 for _, spec in ipairs(dataRepairSpecs) do
     registerDataRepair(spec)
+    if runtimeFixes.Diag then runtimeFixes.Diag.DeclareSpec("data", spec) end
 end
 for _, spec in ipairs(exactWidgetRepairSpecs) do
     registerExactWidgetRepair(spec)
+    if runtimeFixes.Diag then runtimeFixes.Diag.DeclareSpec("exact", spec) end
 end
 
 function runtimeFixes.registerPlayerDetailLabelRepairs()
@@ -9385,11 +9432,11 @@ local function installShortMenuLabels(value, environment)
     for _, methodName in ipairs({ "OnRefresh", "Refresh", "SetData", "OnOpen" }) do
         local original = class[methodName]
         if type(original) == "function" then
-            class[methodName] = function(self, params, ...)
+            class[methodName] = runtimeFixes.diagWrap("fix:MenuBtn_Item." .. methodName, "fix", function(self, params, ...)
                 local results = { original(self, params, ...) }
                 pcall(repairMenuBtnItem, self, params)
                 return unpack(results)
-            end
+            end)
         end
     end
     class.__cpddShortMenuLabels = VERSION
@@ -9429,11 +9476,11 @@ local function installMenuPanelRepair(value, environment)
     for _, methodName in ipairs({ "OnOpen", "OnRefresh", "Refresh" }) do
         local original = class[methodName]
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("fix:Menu_Panel." .. methodName, "fix", function(self, ...)
                 local results = { original(self, ...) }
                 pcall(repairPanelButtons, self)
                 return unpack(results)
-            end
+            end)
         end
     end
     class.__cpddMenuPanelFix = VERSION
@@ -9553,14 +9600,18 @@ function panelTextRepair:Repair(component, reason)
     local sourceReloadsBefore = runtimeMetrics.SourceShardReloads
     local repaired = 0
     local componentUid = component.uid or component.UID or component.__cname
+    local d = runtimeFixes.Diag
+    local diagPrev = d and d.Enter("panel:" .. tostring(componentUid) .. ":" .. tostring(reason), "panel")
     local visitedWidgets = {}
     if tostring(componentUid) == "Shops_Panel" then
         -- The shop can restore its live formatter after after_main. Reassert it
         -- immediately before scanning cards populated by the list view.
+        local branchPrev = d and d.Enter("branch:shops-currency", "branch")
         runtimeFixes.installCurrencyFormatting(
             { CurrencyUtils = Game and Game.CurrencyUtils },
             nil
         )
+        if d then d.Leave(branchPrev) end
     end
     local visitedComponents = {}
     local function repairComponent(current)
@@ -9579,13 +9630,17 @@ function panelTextRepair:Repair(component, reason)
             visitedWidgets
         ) or 0)
         if tostring(componentUid) == "GuildInside_Panel" then
+            local branchPrev = d and d.Enter("branch:guild-event-preview", "branch")
             repaired = repaired + runtimeFixes.repairGuildEventPreviewTree(
                 current.view,
                 rootWidget
             )
+            if d then d.Leave(branchPrev) end
         end
         if tostring(componentUid):find("AutoChess") ~= nil then
+            local branchPrev = d and d.Enter("branch:autochess-hud-attributes", "branch")
             runtimeFixes.repairAutoChessHudAttributes(current)
+            if d then d.Leave(branchPrev) end
         end
 
         -- Child UIComponents and cached subviews own independent UWidgetTrees.
@@ -9628,6 +9683,7 @@ function panelTextRepair:Repair(component, reason)
                 runtimeMetrics.PanelRepairReportsSuppressed + 1
         end
     end
+    if d then d.Leave(diagPrev, repaired, runtimeMetrics.WidgetsVisited - visitedBefore) end
     return repaired
 end
 
@@ -10270,9 +10326,9 @@ do
         for _, name in ipairs(names) do
             local original = rawget(classTable, name)
             local walkChildren = autoChessClassMethodMode(name, className)
-            local wrapper = function(self, ...)
+            local wrapper = runtimeFixes.diagWrap("ac-class:" .. className .. "." .. name, "ac-class", function(self, ...)
                 return callAutoChessGuarded(self, original, name, walkChildren, nil, ...)
-            end
+            end)
             runtimeFixes.AutoChessClassWrappers[wrapper] = true
             if pcall(rawset, classTable, name, wrapper) then
                 installed[#installed + 1] = name
@@ -10379,6 +10435,7 @@ do
             return callAutoChessGuarded(comp, origMethod, methodName, false,
                 runtimeFixes.repairAutoChessHudAttributes, unpack(args, 1, argCount))
         end
+        wrapper = runtimeFixes.diagWrap("ac-method:" .. tostring(methodName), "ac-method", wrapper)
         runtimeFixes.AutoChessHookedWrappers[wrapper] = true
         return wrapper
     end
@@ -10394,7 +10451,7 @@ local function installEventDrivenPanelRepair(value, environment)
     for _, methodName in ipairs({ "Open", "Refresh" }) do
         local original = rawget(class, methodName)
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("ui:UIComponent." .. methodName, "ui", function(self, ...)
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
                 local isAutoChess = (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
                     or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel"
@@ -10436,8 +10493,9 @@ local function installEventDrivenPanelRepair(value, environment)
                     repairErrorReported = true
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
+                if methodName == "Open" and runtimeFixes.Diag then runtimeFixes.Diag.OnPanelOpen(self) end
                 return unpack(results)
-            end
+            end, { module = "Framework.KGFramework.KGUI.Core.UIComponent" })
         end
     end
     local function clearComponentCaches(self)
@@ -10454,10 +10512,10 @@ local function installEventDrivenPanelRepair(value, environment)
     for _, methodName in ipairs({ "Close", "Destroy", "OnDestroy", "Dispose" }) do
         local original = rawget(class, methodName)
         if type(original) == "function" then
-            class[methodName] = function(self, ...)
+            class[methodName] = runtimeFixes.diagWrap("ui:UIComponent." .. methodName, "ui", function(self, ...)
                 clearComponentCaches(self)
                 return original(self, ...)
-            end
+            end, { module = "Framework.KGFramework.KGUI.Core.UIComponent", light = true })
         end
     end
     class.__cpddEventTextRepair = VERSION
@@ -10516,12 +10574,12 @@ do
             return false
         end
 
-        target.CheckSwitchMapStats = function(...)
+        target.CheckSwitchMapStats = runtimeFixes.diagWrap("fix:HUDMiddleMenuCheck.CheckSwitchMapStats", "fix", function(...)
             if runtimeFixes.statisticsEverywhereEnabled() then
                 return true
             end
             return original(...)
-        end
+        end, { module = "Gameplay.LogicSystem.HUD.HUD_MiddleBtnContent.HUDMiddleMenuCheck" })
         target.__cpddStatisticsEverywhereVersion = VERSION
         reportInstalled("installed Statistics button everywhere hook for " .. tostring(label))
         return true
@@ -10577,12 +10635,12 @@ pcall(function()
             Loader.AfterLoad(chatModelName, function(model)
                 if type(model) == "table" and type(model.processSystemTextMessage) == "function" then
                     local originalProcess = model.processSystemTextMessage
-                    model.processSystemTextMessage = function(...)
+                    model.processSystemTextMessage = runtimeFixes.diagWrap("fix:ChatModel.processSystemTextMessage", "fix", function(...)
                         local ok, res = pcall(originalProcess, ...)
                         if ok then return res end
                         report("protected ChatModel.processSystemTextMessage from crash: " .. tostring(res))
                         return nil
-                    end
+                    end, { module = chatModelName })
                 end
                 return model
             end, 100, "cpdd.chat_model.format_guard")
@@ -10633,6 +10691,7 @@ Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
         return visibleTextExactOverrides[enValue]
     end
 
+    if runtimeFixes.Diag then runtimeFixes.Diag.OnDbMiss(moduleName, rowId, enValue, cnValue) end
     return nil
 end
 

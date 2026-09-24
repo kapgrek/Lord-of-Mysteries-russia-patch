@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.9.0-RU ===" -ForegroundColor Cyan
+Write-Host "=== Валидатор целостности патча Lord of the Mysteries v2.9.1-RU ===" -ForegroundColor Cyan
 
 $payload = Join-Path $Root "patch_payload"
 $errors = 0
@@ -81,19 +81,24 @@ if ($dbCount -ge 38) {
     Write-Warning "[WARN] Найдено только $dbCount модулей Excel баз данных!"
 }
 
-# 5. Проверка лимита локальных переменных в Init.lua (LUAI_MAXVARS <= 200)
-$initLua = Join-Path $payload "Saved\Mods\lua\mods\cpdd_runtime_fixes\Init.lua"
-if (Test-Path $initLua) {
-    $topLocals = (Get-Content $initLua | Select-String -Pattern '^local ').Count
+# 6. Лимит локальных переменных (LUAI_MAXVARS <= 200) и баланс блоков: Init.lua и AbsruDiagnostics.lua
+function Test-LuaModule([string]$path, [int]$maxLocals) {
+    $name = Split-Path $path -Leaf
+    if (-not (Test-Path $path)) {
+        Write-Error "[ERROR] $name не найден!"
+        return 1
+    }
+    $failed = 0
+    $topLocals = (Get-Content $path | Select-String -Pattern '^local ').Count
     $margin = 200 - $topLocals
-    if ($topLocals -le 190) {
-        Write-Host "[OK] Init.lua проверен: $topLocals локальных переменных верхнего уровня (лимит: 200, запас: $margin)." -ForegroundColor Green
+    if ($topLocals -le $maxLocals) {
+        Write-Host "[OK] $name проверен: $topLocals локальных переменных верхнего уровня (порог: $maxLocals, лимит: 200, запас: $margin)." -ForegroundColor Green
     } else {
-        Write-Error "[ERROR] Init.lua превышает безопасный лимит локальных переменных: $topLocals / 200!"
-        $errors++
+        Write-Error "[ERROR] $name превышает безопасный лимит локальных переменных: $topLocals / $maxLocals!"
+        $failed++
     }
 
-    $rawContent = Get-Content $initLua -Raw
+    $rawContent = Get-Content $path -Raw
     $codeOnly = [regex]::Replace($rawContent, '--[^\r\n]*', '')
     $codeOnly = [regex]::Replace($codeOnly, '"([^"\\]|\\.)*"', '""')
     $codeOnly = [regex]::Replace($codeOnly, "'([^'\\]|\\.)*'", "''")
@@ -109,15 +114,17 @@ if (Test-Path $initLua) {
         }
     }
     if ($unclosed -eq 0) {
-        Write-Host "[OK] Init.lua синтаксис блоков проверен: все блоки закрыты корректно (баланс = 0)." -ForegroundColor Green
+        Write-Host "[OK] $name синтаксис блоков проверен: все блоки закрыты корректно (баланс = 0)." -ForegroundColor Green
     } else {
-        Write-Error "[ERROR] Init.lua синтаксическая ошибка: нарушен баланс блоков (незакрытых блоков: $unclosed)!"
-        $errors++
+        Write-Error "[ERROR] $name синтаксическая ошибка: нарушен баланс блоков (незакрытых блоков: $unclosed)!"
+        $failed++
     }
-} else {
-    Write-Error "[ERROR] Init.lua не найден!"
-    $errors++
+    return $failed
 }
+
+$errors += Test-LuaModule (Join-Path $shardsDir "Init.lua") 190
+# Модуль диагностики (TASK-005) - отдельный чанк; держим его компактным.
+$errors += Test-LuaModule (Join-Path $shardsDir "AbsruDiagnostics.lua") 150
 
 if ($errors -eq 0) {
     Write-Host "`nВсе ключевые компоненты русской локализации успешно проверены и готовы к установке!" -ForegroundColor Green
