@@ -2826,6 +2826,32 @@ runtimeFixes.AutoChessDumpSet = {}
 runtimeFixes.AutoChessDumpDirty = false
 runtimeFixes.LastAutoChessDumpTime = 0
 
+-- Pre-load existing accumulated strings from disk on startup so we never wipe previous discoveries
+pcall(function()
+    local paths = {
+        "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
+        "temp/autochess_dump.json",
+    }
+    for _, p in ipairs(paths) do
+        local f = io.open(p, "r")
+        if f then
+            local content = f:read("*a")
+            f:close()
+            if content and content ~= "" then
+                for str in content:gmatch('"%s*(.-)%s*"') do
+                    if str and str ~= "" and str ~= "[" and str ~= "]" and str ~= "{" and str ~= "}"
+                        and not str:find('^total_') and not str:find('^version') and not str:find('^strings')
+                    then
+                        local unesc = str:gsub('\\"', '"'):gsub('\\\\', '\\'):gsub('\\n', '\n'):gsub('\\r', '\r')
+                        runtimeFixes.AutoChessDumpSet[unesc] = true
+                    end
+                end
+                break
+            end
+        end
+    end
+end)
+
 function runtimeFixes.dumpAutoChessString(str, context)
     if type(str) ~= "string" or str == "" then return end
     local trimmed = str:match("^%s*(.-)%s*$")
@@ -2852,7 +2878,7 @@ function runtimeFixes.dumpAutoChessString(str, context)
     runtimeFixes.AutoChessDumpDirty = true
 
     local now = os and os.clock and os.clock() or 0
-    if now - runtimeFixes.LastAutoChessDumpTime >= 2.0 then
+    if now - runtimeFixes.LastAutoChessDumpTime >= 1.5 then
         runtimeFixes.flushAutoChessDump()
     end
 end
@@ -2879,6 +2905,26 @@ function runtimeFixes.flushAutoChessDump()
             local f = io.open(p, "w")
             if f then
                 f:write(json)
+                f:close()
+                break
+            end
+        end
+
+        local fullPaths = {
+            "d:/gameDev/AbsoluteRU/temp/autochess_full_dump.json",
+            "temp/autochess_full_dump.json",
+        }
+        local fullLines = {}
+        table.insert(fullLines, "{")
+        table.insert(fullLines, '  "version": "1.0",')
+        table.insert(fullLines, '  "total_unique_strings": ' .. #list .. ',')
+        table.insert(fullLines, '  "strings": [\n' .. table.concat(list, ",\n") .. '\n  ]')
+        table.insert(fullLines, "}")
+        local fullJson = table.concat(fullLines, "\n")
+        for _, p in ipairs(fullPaths) do
+            local f = io.open(p, "w")
+            if f then
+                f:write(fullJson)
                 f:close()
                 break
             end
