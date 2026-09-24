@@ -51,6 +51,24 @@
             "statusMessage": "Checking command against the game-folder guard"
           }
         ]
+      },
+      {
+        "matcher": "Edit|Write|NotebookEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": [
+              "-NoProfile",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-Command",
+              "& (Join-Path $(if ($env:CLAUDE_PROJECT_DIR) { $env:CLAUDE_PROJECT_DIR } else { '.' }) '.claude\\hooks\\guard-game-edit.ps1')"
+            ],
+            "timeout": 30,
+            "statusMessage": "Checking file path against the game-folder guard"
+          }
+        ]
       }
     ],
     "Stop": [
