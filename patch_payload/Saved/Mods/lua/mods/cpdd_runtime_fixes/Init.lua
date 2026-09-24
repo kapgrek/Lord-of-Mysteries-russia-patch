@@ -473,6 +473,9 @@ local visibleTextExactOverrides = {
     ["Mysticism Page"] = "Страница мистицизма",
     ["Rare · Life Crystal Pendant"] = "Редкий · Кулон кристалла жизни",
     ["Traction Spirit Pendant"] = "Кулон притяжения духов",
+    ["Star Lotus Seal"] = "Печать Звездного Лотоса",
+    ["Star Lotus Holy Seal"] = "Священная печать Звездного Лотоса",
+    ["Star Lotus"] = "Звездный Лотос",
     ["12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>."] =
         "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>.",
     ["Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana."] =
@@ -494,6 +497,8 @@ local visibleTextExactOverrides = {
         "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду.",
     ["获得【铁血】共鸣。每隔<HighLight>2</>秒，对<HighLight>1</>格内至多<HighLight>3</>名敌人造成相当于自身生命值<HighLight>1%</>的伤害。"] =
         "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья.",
+    ["获得【铁血】共鸣。每隔2秒，对1格内至多3名敌人造成相当于自身生命值1%的伤害。"] =
+        "Получает резонанс 【Железо и Кровь】. Каждые 2 сек. наносит до 3 врагам в пределах 1 клетки урон, равный 1% от собственного здоровья.",
 
     ["Exclusive Sequence Quest"] = "Особое задание Последовательности",
     ["Exclusive Sequence Quest "] = "Особое задание Последовательности",
@@ -2405,6 +2410,54 @@ runtimeFixes.AutoChessSkillTemplates = {
     -- [131267, 131268]
     ["Deals an additional {0} Attack damage."] = "Наносит дополнительно {0} ед. урона от атаки.",
     ["造成额外{0}攻击伤害。"] = "Наносит дополнительно {0} ед. урона от атаки.",
+    -- AutoChess equipment & augments (batch 28: 131153-131219)
+    -- [131153]
+    ["{0} seconds after the battle starts, your pieces gain {1} Damage Deepening."] = "Через {0} сек. после начала боя ваши фигуры получают {1} к увеличению урона.",
+    -- [131154]
+    ["Each Basic Attack restores {0} Mana; when dealing a Critical Hit, restore an additional {1} Mana."] = "Каждая базовая атака восстанавливает {0} ед. маны; при критическом ударе восстанавливает дополнительно {1} ед. маны.",
+    -- [131156]
+    ["If there are exactly {0} ally pieces in the first row, both gain {1} Health and {2} Defense."] = "Если в первом ряду ровно {0} союзные фигуры, обе получают {1} ед. здоровья и {2} ед. защиты.",
+    -- [131163]
+    ["施法后的{0}秒内，下一次普攻额外造成相当于{1}攻击的伤害，冷却时间为{2}秒。"] = "В течение {0} сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере {1} от атаки, время перезарядки — {2} сек.",
+    ["Within {0} seconds after casting, next basic attack deals additional damage equal to {1} Attack, cooldown {2} seconds."] = "В течение {0} сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере {1} от атаки, время перезарядки — {2} сек.",
+    -- [131164]
+    ["每秒恢复{0}最大生命值。"] = "Восстанавливает {0} от максимального запаса здоровья в секунду.",
+    ["Restores {0} max health per second."] = "Восстанавливает {0} от максимального запаса здоровья в секунду.",
+    -- [131165]
+    ["获得【铁血】共鸣。每隔{0}秒，对{1}格内至多{2}名敌人造成相当于自身生命值{3}的伤害。"] = "Получает резонанс 【Железо и Кровь】. Каждые {0} сек. наносит до {2} врагам в пределах {1} клетки урон, равный {3} от собственного здоровья.",
+    ["Gain [Iron-Blood] resonance. Every {0} seconds, deals damage equal to {1} max health to up to {2} enemies within {3} tile."] = "Получает резонанс 【Железо и Кровь】. Каждые {0} сек. наносит до {2} врагам в пределах {3} клетки урон, равный {1} от собственного здоровья.",
+    ["Gain [Iron-Blood] resonance. Every {0} seconds, deals damage equal to {1} max health to up to {2} enemies within {3} tiles."] = "Получает резонанс 【Железо и Кровь】. Каждые {0} сек. наносит до {2} врагам в пределах {3} клеток урон, равный {1} от собственного здоровья.",
+    -- [131177, 131178]
+    ["+{0} Attack Speed per stack."] = "+{0} к скорости атаки за уровень.",
+    -- [131179, 131180]
+    ["{0} seconds after the battle starts, your pieces restore {1} of their lost Health."] = "Через {0} сек. после начала боя ваши фигуры восстанавливают {1} от потерянного здоровья.",
+    -- [131191]
+    ["Lose {0} Player Health, and after {1} combat rounds, gain {2} Gold Coins."] = "Теряет {0} ед. здоровья игрока, а через {1} боевых раундов получает {2} золотые монеты.",
+    -- [131192]
+    ["Maximum units on board +{0}, and randomly gain one {1}-cost chess piece."] = "Лимит фигур на доске +{0}, и случайным образом даёт одну фигуру за {1} золотых.",
+    -- [131193]
+    ["Maximum units on board +{0}, your chess pieces gain {1} Damage Reduction, but the player's maximum Health is reduced by {2} points."] = "Лимит фигур на доске +{0}, ваши фигуры получают {1} снижения урона, но макс. здоровье игрока снижается на {2} ед.",
+    -- [131194, 131195, 131196]
+    ["{0} Max Health Shield, {1} Damage Reduction."] = "Щит в размере {0} от макс. здоровья, {1} снижения урона.",
+    -- [131201]
+    ["After {0} seconds of combat, your chess pieces gain {1} Damage Amplification."] = "Через {0} секунд боя ваши фигуры получают {1} увеличения урона.",
+    -- [131204, 131205]
+    ["After dealing a Critical Hit, Critical Damage increases by {0} for {1} seconds."] = "После нанесения критического удара крит. урон увеличивается на {0} на {1} сек.",
+    -- [131206, 131207]
+    ["After dealing a Critical Hit, damage increases by {0} for {1} seconds, stacking up to {2} times."] = "После нанесения критического удара урон увеличивается на {0} на {1} сек., максимум {2} ур.",
+    -- [131208, 131209]
+    ["After dealing damage, reduce the target's Defense by {0} for {1} seconds."] = "После нанесения урона снижает защиту цели на {0} на {1} сек.",
+    ["After dealing damage, the target's Defense is reduced by {0} for {1} seconds."] = "После нанесения урона защита цели снижается на {0} на {1} сек.",
+    -- [131210, 131211]
+    ["After each Basic Attack, Attack Speed increases by {0}, stacking up to {1} times."] = "После каждой базовой атаки скорость атаки увеличивается на {0}, максимум {1} ур.",
+    ["After each Basic Attack, gain {0} Attack Speed, stacking up to {1} times."] = "После каждой базовой атаки даёт {0} скорости атаки, максимум {1} ур.",
+    -- [131212, 131213]
+    ["After each Basic Attack, restore {0} Mana."] = "После каждой базовой атаки восстанавливает {0} ед. маны.",
+    -- [131215, 131216]
+    ["After receiving damage, deal {0} damage to enemies within {1} tile(s), with a Cooldown of {2} seconds."] = "При получении урона наносит {0} ед. урона врагам в пределах {1} клетки. Перезарядка: {2} сек.",
+    ["After receiving damage, deal {0} damage to enemies within {1} tile; Cooldown is {2} seconds."] = "При получении урона наносит {0} ед. урона врагам в пределах {1} клетки. Перезарядка: {2} сек.",
+    -- [131218, 131219]
+    ["After the first skill cast in each battle, Mana recovery increases by {0} for {1} seconds."] = "После первого применения навыка в каждом бою восстановление маны увеличивается на {0} ед. на {1} сек.",
 }
 
 runtimeFixes.translateAutoChessSkill = function(value)
@@ -2631,50 +2684,94 @@ local function translateVisibleText(value)
         end
     end
 
+    local hasHighlight = value:find("<", 1, true) ~= nil
+    local cleanEquipText = value:gsub("<.->", "")
+
     -- AutoChess: dynamic battle starts damage augment
-    local dSec, dPct = value:match("(%d+)%s*seconds after the battle starts.-(%d+%%)%s*Damage Deepening")
+    local dSec, dPct = cleanEquipText:match("(%d+)%s*seconds after the battle starts.-(%d+%%)%s*Damage Deepening")
     if dSec and dPct then
-        local result = "Через " .. dSec .. " сек. после начала боя<HighLight></> ваши фигуры получают " .. dPct .. " к увеличению урона<HighLight></>."
+        local result
+        if hasHighlight then
+            result = "Через " .. dSec .. " сек. после начала боя<HighLight></> ваши фигуры получают " .. dPct .. " к увеличению урона<HighLight></>."
+        else
+            result = "Через " .. dSec .. " сек. после начала боя ваши фигуры получают " .. dPct .. " к увеличению урона."
+        end
         visibleTextCache[value] = result
         return result
     end
 
     -- AutoChess: basic attack mana restore augment
-    local bAtkMana, critMana = value:match("Each Basic Attack restores.-<HighLight>(%d+)</>.-Mana.-when dealing a Critical Hit.-<HighLight>(%d+)</>.-Mana")
+    local bAtkMana, critMana = cleanEquipText:match("Each Basic Attack restores.-(%d+).-Mana.-when dealing a Critical Hit.-(%d+).-Mana")
     if bAtkMana and critMana then
-        local result = "Каждая базовая атака восстанавливает <HighLight>" .. bAtkMana .. "</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>" .. critMana .. "</> ед. маны."
+        local result
+        if hasHighlight then
+            result = "Каждая базовая атака восстанавливает <HighLight>" .. bAtkMana .. "</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>" .. critMana .. "</> ед. маны."
+        else
+            result = "Каждая базовая атака восстанавливает " .. bAtkMana .. " ед. маны; при критическом ударе восстанавливает дополнительно " .. critMana .. " ед. маны."
+        end
         visibleTextCache[value] = result
         return result
     end
 
     -- AutoChess: first row pieces bonus augment
-    local rowCount, rowHp, rowDef = value:match("If there are exactly%s*(%d+)%s*ally pieces in the first row.-(%d+)%s*Health.-(%d+)%s*Defense")
+    local rowCount, rowHp, rowDef = cleanEquipText:match("If there are exactly%s*(%d+)%s*ally pieces in the first row.-(%d+)%s*Health.-(%d+)%s*Defense")
     if rowCount and rowHp and rowDef then
-        local result = "Если в первом ряду ровно " .. rowCount .. " союзные фигуры<HighLight></>, обе получают " .. rowHp .. " ед. здоровья<HighLight></> и " .. rowDef .. " ед. защиты<HighLight></>."
+        local result
+        if hasHighlight then
+            result = "Если в первом ряду ровно " .. rowCount .. " союзные фигуры<HighLight></>, обе получают " .. rowHp .. " ед. здоровья<HighLight></> и " .. rowDef .. " ед. защиты<HighLight></>."
+        else
+            result = "Если в первом ряду ровно " .. rowCount .. " союзные фигуры, обе получают " .. rowHp .. " ед. здоровья и " .. rowDef .. " ед. защиты."
+        end
         visibleTextCache[value] = result
         return result
     end
 
     -- AutoChess: Chinese after cast extra attack skill
-    local cSec, cDmg, cCd = value:match("施法后的<HighLight>(%d+)</>秒内.-<HighLight>(%d+%%)</>攻击的伤害.-<HighLight>(%d+)</>秒")
+    local cSec, cDmg, cCd = cleanEquipText:match("施法后的%s*(%d+)%s*秒内.-(%d+%%)%s*攻击的伤害.-(%d+)%s*秒")
     if cSec and cDmg and cCd then
-        local result = "В течение <HighLight>" .. cSec .. "</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>" .. cDmg .. "</> от атаки, время перезарядки — <HighLight>" .. cCd .. "</> сек."
+        local result
+        if hasHighlight then
+            result = "В течение <HighLight>" .. cSec .. "</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>" .. cDmg .. "</> от атаки, время перезарядки — <HighLight>" .. cCd .. "</> сек."
+        else
+            result = "В течение " .. cSec .. " сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере " .. cDmg .. " от атаки, время перезарядки — " .. cCd .. " сек."
+        end
         visibleTextCache[value] = result
         return result
     end
 
     -- AutoChess: Chinese hp regen per second
-    local hpRegen = value:match("每秒恢复<HighLight>(%d+%%)</>最大生命值")
+    local hpRegen = cleanEquipText:match("每秒恢复%s*(%d+%%)%s*最大生命值")
     if hpRegen then
-        local result = "Восстанавливает <HighLight>" .. hpRegen .. "</> от максимального запаса здоровья в секунду."
+        local result
+        if hasHighlight then
+            result = "Восстанавливает <HighLight>" .. hpRegen .. "</> от максимального запаса здоровья в секунду."
+        else
+            result = "Восстанавливает " .. hpRegen .. " от максимального запаса здоровья в секунду."
+        end
         visibleTextCache[value] = result
         return result
     end
 
-    -- AutoChess: Chinese iron-blood resonance skill
-    local ibSec, ibRad, ibTargets, ibDmg = value:match("获得【铁血】共鸣.-每隔<HighLight>(%d+)</>秒.-对<HighLight>(%d+)</>格内至多<HighLight>(%d+)</>名敌人造成相当于自身生命值<HighLight>(%d+%%)</>的伤害")
+    -- AutoChess: Chinese/English iron-blood resonance skill
+    local ibSec, ibRad, ibTargets, ibDmg = cleanEquipText:match("获得【铁血】共鸣.-每隔%s*(%d+)%s*秒.-对%s*(%d+)%s*格内至多%s*(%d+)%s*名敌人造成相当于自身生命值%s*(%d+%%?)%s*的伤害")
     if ibSec and ibRad and ibTargets and ibDmg then
-        local result = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>" .. ibSec .. "</> сек. наносит до <HighLight>" .. ibTargets .. "</> врагам в пределах <HighLight>" .. ibRad .. "</> клетки урон, равный <HighLight>" .. ibDmg .. "</> от собственного здоровья."
+        local result
+        if hasHighlight then
+            result = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>" .. ibSec .. "</> сек. наносит до <HighLight>" .. ibTargets .. "</> врагам в пределах <HighLight>" .. ibRad .. "</> клетки урон, равный <HighLight>" .. ibDmg .. "</> от собственного здоровья."
+        else
+            result = "Получает резонанс 【Железо и Кровь】. Каждые " .. ibSec .. " сек. наносит до " .. ibTargets .. " врагам в пределах " .. ibRad .. " клетки урон, равный " .. ibDmg .. " от собственного здоровья."
+        end
+        visibleTextCache[value] = result
+        return result
+    end
+    local ibSecEn, ibDmgEn, ibTargetsEn, ibRadEn = cleanEquipText:match("Gain %[Iron%-Blood%] resonance.-Every%s*(%d+)%s*seconds?.-deals damage equal to%s*(%d+%%?)%s*max health to up to%s*(%d+)%s*enemies within%s*(%d+)%s*tile")
+    if ibSecEn and ibDmgEn and ibTargetsEn and ibRadEn then
+        local result
+        if hasHighlight then
+            result = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>" .. ibSecEn .. "</> сек. наносит до <HighLight>" .. ibTargetsEn .. "</> врагам в пределах <HighLight>" .. ibRadEn .. "</> клетки урон, равный <HighLight>" .. ibDmgEn .. "</> от собственного здоровья."
+        else
+            result = "Получает резонанс 【Железо и Кровь】. Каждые " .. ibSecEn .. " сек. наносит до " .. ibTargetsEn .. " врагам в пределах " .. ibRadEn .. " клетки урон, равный " .. ibDmgEn .. " от собственного здоровья."
+        end
         visibleTextCache[value] = result
         return result
     end
@@ -2806,6 +2903,51 @@ local function translateVisibleText(value)
         if runtimeFixes.hasCyrillic(value) then
             visibleTextCache[value] = value
             return value
+        end
+
+        -- AutoChess: piece/seal bonus dynamic handler (supports "Your chess pieces gain" and "Your pieces gain", extra spaces, trailing punctuation)
+        local bonusClean = value:gsub("<.->", "")
+        local bonusVal, bonusStat = bonusClean:match("^[Yy]our%s+chess%s+pieces%s+gain%s+(%d+%%?)%s+(.-)%s*%.?$")
+        if not bonusVal then
+            bonusVal, bonusStat = bonusClean:match("^[Yy]our%s+pieces%s+gain%s+(%d+%%?)%s+(.-)%s*%.?$")
+        end
+        if bonusVal and bonusStat then
+            bonusStat = bonusStat:gsub("%s+", " "):match("^%s*(.-)%s*$")
+            local statLower = bonusStat:lower()
+            local bonusResult = nil
+            if statLower == "critical hit rate" or statLower == "critical strike chance" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к шансу крит. удара."
+            elseif statLower == "damage amplification" or statLower == "damage increase" or statLower == "damage deepening" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к увеличению урона."
+            elseif statLower == "damage reduction" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к снижению урона."
+            elseif statLower == "defense" then
+                if bonusVal:find("%%") then
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к защите."
+                else
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " ед. защиты."
+                end
+            elseif statLower == "health" or statLower == "max health" then
+                if bonusVal:find("%%") then
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к максимальному здоровью."
+                else
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " ед. здоровья."
+                end
+            elseif statLower == "life steal" or statLower == "lifesteal" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к вампиризму."
+            elseif statLower == "attack speed" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к скорости атаки."
+            elseif statLower == "attack" then
+                if bonusVal:find("%%") then
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к атаке."
+                else
+                    bonusResult = "Ваши фигуры получают +" .. bonusVal .. " ед. атаки."
+                end
+            end
+            if bonusResult then
+                visibleTextCache[value] = bonusResult
+                return bonusResult
+            end
         end
 
         -- For English strings (especially in AutoChess context):
