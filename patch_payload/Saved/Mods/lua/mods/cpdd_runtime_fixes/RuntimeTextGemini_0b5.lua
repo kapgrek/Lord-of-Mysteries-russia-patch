@@ -254,4 +254,5 @@ return {
     ["Different from Suicide"] = "Отличие от самоубийства",
     ["Chai"] = "Чай",
     ["Equip to gain the [Sailor] resonance."] = "Экипируйте, чтобы получить резонанс [Моряк].",
+    ["Backline Assassin"] = "Убийца заднего ряда",
 }

@@ -248,4 +248,5 @@ return {
     ["Valid Range of Point"] = "Действительный диапазон точек",
     ["Congratulations, lucky one. To be favored by Him is both an honor and a beginning. May you have a pleasant journey under The Fool's Gaze and protection."] = "Поздравляю, счастливчик. Быть Его благосклонностью — это и честь, и начало. Желаю вам приятного путешествия под присмотром и защитой Шута.",
     ["[Quest Points]"] = "[Очки заданий]",
+    ["Restores <HighLight>4%</> max health per second."] = "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду.",
 }

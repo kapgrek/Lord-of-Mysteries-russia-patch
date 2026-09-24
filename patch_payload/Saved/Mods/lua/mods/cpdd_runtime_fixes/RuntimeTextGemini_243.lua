@@ -227,4 +227,5 @@ return {
     ["Covenant level 5"] = "Ковенант 5 уровня",
     ["Perhaps because you have sealed corruption on you, the familiar aura made the Crown of Knowledge treat you as \"one of its own.\""] = "Возможно, из-за того, что вы наложили на себя порчу, знакомая аура заставила Корону Знаний относиться к вам как к «своему».",
     ["Equip to gain the [Tarot Club] bond"] = "Экипируйте, чтобы получить резонанс [Клуб Таро]",
+    ["Mid-row Support"] = "Поддержка среднего ряда",
 }

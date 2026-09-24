@@ -241,4 +241,5 @@ return {
     ["Mrs. Miriam"] = "миссис Мириам",
     ["<Assistant_Title1> Offer a Heart to the Dragon Hunter </>\n<Assistant_Title2> Achievement Category: </> Plot - Era Life \n<Assistant_Title2> Unlock Condition: </> Complete the Era Life story \"Dragon Hunter Tale\""] = "<Assistant_Title1>Посвятите свое сердце охоте на драконов</>\n<Assistant_Title2>Классификация достижений: </>Сюжет — все формы времен\n<Assistant_Title2>Условия разблокировки: </>Завершить «Историю охоты на драконов» во всех формах времен",
     ["Soothing Cookie Rain"] = "Успокаивающий дождь из печенья",
+    ["Frontline Support"] = "Передовая поддержка",
 }

@@ -184,8 +184,22 @@ public class FastShardCompiler {
             { "Ranged Assassin", "Убийца дальнего боя" },
             { "Ranged Support", "Поддержка дальнего боя" },
             { "Frontline Warrior", "Передовой воин" },
+            { "Mid-row Support", "Поддержка среднего ряда" },
+            { "Frontline Support", "Передовая поддержка" },
+            { "Frontline Assassin", "Убийца передовой" },
+            { "Backline Marksman", "Стрелок заднего ряда" },
+            { "Backline Mage", "Маг заднего ряда" },
+            { "Backline Support", "Поддержка заднего ряда" },
+            { "Backline Assassin", "Убийца заднего ряда" },
+            { "Mid-row Mage", "Маг среднего ряда" },
+            { "Mid-row Warrior", "Воин среднего ряда" },
+            { "Mid-row Marksman", "Стрелок среднего ряда" },
+            { "Mid-row Tank", "Танк среднего ряда" },
+            { "Mid-row Assassin", "Убийца среднего ряда" },
 
             // AutoChess Extraordinary World synergy & tiers
+            { "Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]", "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]" },
+            { "3 Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]", "3 Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]" },
             { "Starts [Extraordinary Quests]. Complete quests to accumulate [Quest Points] and claim fate gifts upon reaching thresholds.", "Начинает [Потусторонние задания]. Выполняйте задания, чтобы накапливать [Очки заданий] и получать дары судьбы по достижении пороговых значений." },
             { "[Extraordinary Quests]", "[Потусторонние задания]" },
             { "[Quest Points]", "[Очки заданий]" },
@@ -201,7 +215,29 @@ public class FastShardCompiler {
             { "5 At the start of player combat:\r\nRestore 2 Health to the player.", "5 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку." },
             { "7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
             { "7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
-            { "7 At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." }
+            { "7 At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.", "7 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе." },
+
+            // AutoChess augments, items & UI
+            { "Divinity Spread", "Распространение божественности" },
+            { "Economy", "Экономика" },
+            { "Iron and Blood Badge", "Знак Железа и Крови" },
+            { "Mutual Guard", "Взаимная защита" },
+            { "Mysticism Page", "Страница мистицизма" },
+            { "Rare · Life Crystal Pendant", "Редкий · Кулон кристалла жизни" },
+            { "Traction Spirit Pendant", "Кулон притяжения духов" },
+            { "12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>.", "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>." },
+            { "Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana.", "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны." },
+            { "Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>.", "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>." },
+            { "If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>.", "Если в первом ряду ровно 2 союзные фигуры<HighLight></>, обе получают 150 ед. здоровья<HighLight></> и 20 ед. защиты<HighLight></>." },
+            { "Randomly gain <HighLight> one basic equipment </>, and gain <HighLight> one Fine Equipment Casket </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>.", "Случайным образом получите <HighLight> одно базовое снаряжение </>, а также <HighLight> один ларец с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>." },
+            { "保存阵容", "Сохранить состав" },
+            { "未编辑保存阵容", "Состав не сохранен" },
+            { "编辑阵容", "Изменить состав" },
+            { "槽位未解锁", "Ячейка заблокирована" },
+            { "卡牌名字七个字", "Имя карты семь букв" },
+            { "施法后的<HighLight>5</>秒内，下一次普攻额外造成相当于<HighLight>120%</>攻击的伤害，冷却时间为<HighLight>4</>秒。", "В течение <HighLight>5</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>120%</> от атаки, время перезарядки — <HighLight>4</> сек." },
+            { "每秒恢复<HighLight>4%</>最大生命值。", "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду." },
+            { "获得【铁血】共鸣。每隔<HighLight>2</>秒，对<HighLight>1</>格内至多<HighLight>3</>名敌人造成相当于自身生命值<HighLight>1%</>的伤害。", "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья." }
         };
 
         foreach (var kvp in explicitAliases) {

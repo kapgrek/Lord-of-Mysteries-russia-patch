@@ -222,4 +222,5 @@ return {
     ["This set is good, very suitable for security company staff. How much?"] = "Этот набор хороший, очень подойдет для сотрудников охранного предприятия. Сколько?",
     ["Equip to gain the [Seer] resonance"] = "Экипируйте, чтобы получить резонанс [Провидец]",
     ["Equip to gain the [Seer] resonance."] = "Экипируйте, чтобы получить резонанс [Провидец].",
+    ["Gain [Iron-Blood] resonance. Every <HighLight>2</> seconds, deals damage equal to <HighLight>1%</> max health to up to <HighLight>3</> enemies within <HighLight>1</> tile."] = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья.",
 }

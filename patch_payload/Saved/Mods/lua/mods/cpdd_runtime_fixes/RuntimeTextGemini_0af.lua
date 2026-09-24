@@ -235,4 +235,5 @@ return {
     ["Carriage lock health-40%"] = "Здоровье замка каретки-40%",
     ["A copper chest that no one dislikes. Using it grants equipment suitable for an Apprentice, capable of handling somewhat difficult situations."] = "Медный сундук, который никому не нравится. Его использование дает Ученику снаряжение, способное справиться с довольно трудными ситуациями.",
     ["Perceive the Spirit World, observe the starry sky, and interpret the anomalies in real space, the development of events, and potential unknown dangers mapped by the changes in fate revealed by spiritual items."] = "Воспринимайте мир духов, наблюдайте за звездным небом и интерпретируйте аномалии в реальном пространстве, развитие событий и потенциальные неизвестные опасности, нанесенные на карту изменениями судьбы, раскрываемыми духовными предметами.",
+    ["Mid-row Mage"] = "Маг среднего ряда",
 }

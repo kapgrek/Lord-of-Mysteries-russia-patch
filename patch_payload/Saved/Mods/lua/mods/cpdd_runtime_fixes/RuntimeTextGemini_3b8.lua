@@ -238,4 +238,5 @@ return {
     ["Star-Ray Cloak"] = "Плащ звездного луча",
     ["What happened!"] = "Что случилось!",
     ["Spider Silk"] = "Паучий шелк",
+    ["Slot Locked"] = "Ячейка заблокирована",
 }

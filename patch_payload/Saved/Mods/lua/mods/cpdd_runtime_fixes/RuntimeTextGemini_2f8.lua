@@ -79,7 +79,7 @@ return {
     ["Explain your decision to <h>them</>"] = "Объясните свое решение <h>them</>.",
     ["Starlight Chain"] = "Звездная цепь",
     ["Farewell"] = "Прощание",
-    ["Frontline Assassin"] = "Передовой убийца",
+    ["Frontline Assassin"] = "Убийца передовой",
     ["<P_Heart> (Cannot lead the lurker to the apartment; this would drag Melissa and the others into danger!) </>"] = "<P_Heart> (Невозможно привести скрытня в квартиру; это подвергнет Мелиссу и остальных опасности!) </>",
     ["+100血+12防"] = "+100 HP, +12 Защита",
     ["62级12人本Boss困难"] = "Босс подземелья 62-го уровня на 12 игроков, сложный уровень",

@@ -251,4 +251,5 @@ return {
     ["<Highlight>Craftsmanship: </>Industrial Fondant & Heart-shaped Mold\nA product of the Steam Church's fondant experiments. Unfortunately, as food, it seems a bit too hard."] = "<Highlight> Процесс: </>Промышленная помадка и любовная форма \n Продукт эксперимента с паровой церковной помадкой. К сожалению, как еда, это кажется слишком твердым.",
     ["How about I give you a gift as compensation? How about a sweet dream... I wish you sweet dreams come true..."] = "Как насчет того, чтобы я подарил тебе подарок в качестве компенсации? А как насчет сладкого сна... Желаю тебе, чтобы сладкие сны сбылись...",
     ["4 [Arcane] All allies recover Mana per second. [Arcane] recovers more."] = "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["未编辑保存阵容"] = "Состав не сохранен",
 }

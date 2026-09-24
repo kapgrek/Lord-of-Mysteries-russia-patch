@@ -227,4 +227,5 @@ return {
     ["Beyonders... Beyonder incidents... rituals... loss of control... corruption..."] = "Потусторонние... Инциденты Потусторонних... ритуалы... потеря контроля... Искажение...",
     ["In the folds of the cloak is an entire universe available for roaming."] = "В складках плаща – целая вселенная, доступная для странствий.",
     ["……After all, some people leave nothing behind."] = "……В конце концов, некоторые люди ничего не оставляют после себя.",
+    ["Traction Spirit Pendant"] = "Кулон притяжения духов",
 }

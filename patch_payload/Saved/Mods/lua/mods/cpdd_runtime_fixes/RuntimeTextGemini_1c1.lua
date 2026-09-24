@@ -266,4 +266,5 @@ return {
     ["Reduces the probability of being hit by stun control, up to a maximum of halving the base hit rate, and offsets the stun hit rate of the control source."] = "Уменьшает вероятность получения удара от оглушения, вплоть до максимального уменьшения вдвое базовой скорости попадания, и компенсирует скорость оглушения источника контроля.",
     ["Take out the thing from the toilet - obtain the receipt"] = "Достаньте вещь из унитаза – получите квитанцию",
     ["[Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
+    ["Card Name Seven Words"] = "Имя карты семь букв",
 }

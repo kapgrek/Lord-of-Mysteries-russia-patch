@@ -417,6 +417,66 @@ local visibleTextExactOverrides = {
     ["Appearance Conversion"] = "Смена облика",
     ["Преобразование внешнего вида"] = "Смена облика",
 
+    -- AutoChess roles, synergies, augments, items & UI
+    ["Ranged Marksman"] = "Стрелок дальнего боя",
+    ["Mid-row Support"] = "Поддержка среднего ряда",
+    ["Melee Support"] = "Поддержка ближнего боя",
+    ["Ranged Mage"] = "Маг дальнего боя",
+    ["Melee Warrior"] = "Воин ближнего боя",
+    ["Frontline Tank"] = "Передовой танк",
+    ["Melee Tank"] = "Танк ближнего боя",
+    ["Melee Assassin"] = "Убийца ближнего боя",
+    ["Ranged Assassin"] = "Убийца дальнего боя",
+    ["Ranged Support"] = "Поддержка дальнего боя",
+    ["Frontline Warrior"] = "Передовой воин",
+    ["Frontline Support"] = "Передовая поддержка",
+    ["Frontline Assassin"] = "Убийца передовой",
+    ["Backline Marksman"] = "Стрелок заднего ряда",
+    ["Backline Mage"] = "Маг заднего ряда",
+    ["Backline Support"] = "Поддержка заднего ряда",
+    ["Backline Assassin"] = "Убийца заднего ряда",
+    ["Mid-row Mage"] = "Маг среднего ряда",
+    ["Mid-row Warrior"] = "Воин среднего ряда",
+    ["Mid-row Marksman"] = "Стрелок среднего ряда",
+    ["Mid-row Tank"] = "Танк среднего ряда",
+    ["Mid-row Assassin"] = "Убийца среднего ряда",
+    ["Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]"] =
+        "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]",
+    ["3 Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]"] =
+        "3 Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]",
+    ["5 At the start of player combat: Restore 2 Health to the player."] =
+        "5 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку.",
+    ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] =
+        "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
+    ["Divinity Spread"] = "Распространение божественности",
+    ["Economy"] = "Экономика",
+    ["Iron and Blood Badge"] = "Знак Железа и Крови",
+    ["Mutual Guard"] = "Взаимная защита",
+    ["Mysticism Page"] = "Страница мистицизма",
+    ["Rare · Life Crystal Pendant"] = "Редкий · Кулон кристалла жизни",
+    ["Traction Spirit Pendant"] = "Кулон притяжения духов",
+    ["12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>."] =
+        "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>.",
+    ["Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana."] =
+        "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны.",
+    ["Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>."] =
+        "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>.",
+    ["If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>."] =
+        "Если в первом ряду ровно 2 союзные фигуры<HighLight></>, обе получают 150 ед. здоровья<HighLight></> и 20 ед. защиты<HighLight></>.",
+    ["Randomly gain <HighLight> one basic equipment </>, and gain <HighLight> one Fine Equipment Casket </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>."] =
+        "Случайным образом получите <HighLight> одно базовое снаряжение </>, а также <HighLight> один ларец с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>.",
+    ["保存阵容"] = "Сохранить состав",
+    ["未编辑保存阵容"] = "Состав не сохранен",
+    ["编辑阵容"] = "Изменить состав",
+    ["槽位未解锁"] = "Ячейка заблокирована",
+    ["卡牌名字七个字"] = "Имя карты семь букв",
+    ["施法后的<HighLight>5</>秒内，下一次普攻额外造成相当于<HighLight>120%</>攻击的伤害，冷却时间为<HighLight>4</>秒。"] =
+        "В течение <HighLight>5</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>120%</> от атаки, время перезарядки — <HighLight>4</> сек.",
+    ["每秒恢复<HighLight>4%</>最大生命值。"] =
+        "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду.",
+    ["获得【铁血】共鸣。每隔<HighLight>2</>秒，对<HighLight>1</>格内至多<HighLight>3</>名敌人造成相当于自身生命值<HighLight>1%</>的伤害。"] =
+        "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья.",
+
     ["Exclusive Sequence Quest"] = "Особое задание Последовательности",
     ["Exclusive Sequence Quest "] = "Особое задание Последовательности",
     ["Quest description quest description quest description"] = "Описание задания...",
@@ -2237,6 +2297,103 @@ local function translateVisibleText(value)
         return result
     end
 
+    -- AutoChess dynamic piece roles (e.g. "Ranged Marksman", "Mid-row Support", "Frontline Tank", etc.)
+    local rolePos, roleClass = value:match("^([A-Za-z%-]+)%s+([A-Za-z]+)$")
+    if rolePos ~= nil and roleClass ~= nil then
+        local posMap = {
+            ["Frontline"] = "Передовой",
+            ["Melee"] = "Ближнего боя",
+            ["Mid-row"] = "Среднего ряда",
+            ["Mid-line"] = "Среднего ряда",
+            ["Middle"] = "Среднего ряда",
+            ["Backline"] = "Заднего ряда",
+            ["Ranged"] = "Дальнего боя",
+        }
+        local classMap = {
+            ["Marksman"] = "Стрелок",
+            ["Mage"] = "Маг",
+            ["Warrior"] = "Воин",
+            ["Tank"] = "Танк",
+            ["Assassin"] = "Убийца",
+            ["Support"] = "Поддержка",
+            ["Defense"] = "Танк",
+            ["DPS"] = "Боец",
+        }
+        local p = posMap[rolePos]
+        local c = classMap[roleClass]
+        if p and c then
+            local res
+            if rolePos == "Frontline" then
+                if roleClass == "Support" then
+                    res = "Передовая поддержка"
+                else
+                    res = p .. " " .. c:lower()
+                end
+            elseif rolePos == "Melee" or rolePos == "Ranged" or rolePos == "Mid-row" or rolePos == "Mid-line" or rolePos == "Middle" or rolePos == "Backline" then
+                res = c .. " " .. p:lower()
+            else
+                res = c .. " " .. p
+            end
+            visibleTextCache[value] = res
+            return res
+        end
+    end
+
+    -- AutoChess: dynamic battle starts damage augment
+    local dSec, dPct = value:match("(%d+)%s*seconds after the battle starts.-(%d+%%)%s*Damage Deepening")
+    if dSec and dPct then
+        local result = "Через " .. dSec .. " сек. после начала боя<HighLight></> ваши фигуры получают " .. dPct .. " к увеличению урона<HighLight></>."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: basic attack mana restore augment
+    local bAtkMana, critMana = value:match("Each Basic Attack restores.-<HighLight>(%d+)</>.-Mana.-when dealing a Critical Hit.-<HighLight>(%d+)</>.-Mana")
+    if bAtkMana and critMana then
+        local result = "Каждая базовая атака восстанавливает <HighLight>" .. bAtkMana .. "</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>" .. critMana .. "</> ед. маны."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: first row pieces bonus augment
+    local rowCount, rowHp, rowDef = value:match("If there are exactly%s*(%d+)%s*ally pieces in the first row.-(%d+)%s*Health.-(%d+)%s*Defense")
+    if rowCount and rowHp and rowDef then
+        local result = "Если в первом ряду ровно " .. rowCount .. " союзные фигуры<HighLight></>, обе получают " .. rowHp .. " ед. здоровья<HighLight></> и " .. rowDef .. " ед. защиты<HighLight></>."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: Chinese after cast extra attack skill
+    local cSec, cDmg, cCd = value:match("施法后的<HighLight>(%d+)</>秒内.-<HighLight>(%d+%%)</>攻击的伤害.-<HighLight>(%d+)</>秒")
+    if cSec and cDmg and cCd then
+        local result = "В течение <HighLight>" .. cSec .. "</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>" .. cDmg .. "</> от атаки, время перезарядки — <HighLight>" .. cCd .. "</> сек."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: Chinese hp regen per second
+    local hpRegen = value:match("每秒恢复<HighLight>(%d+%%)</>最大生命值")
+    if hpRegen then
+        local result = "Восстанавливает <HighLight>" .. hpRegen .. "</> от максимального запаса здоровья в секунду."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: Chinese iron-blood resonance skill
+    local ibSec, ibRad, ibTargets, ibDmg = value:match("获得【铁血】共鸣.-每隔<HighLight>(%d+)</>秒.-对<HighLight>(%d+)</>格内至多<HighLight>(%d+)</>名敌人造成相当于自身生命值<HighLight>(%d+%%)</>的伤害")
+    if ibSec and ibRad and ibTargets and ibDmg then
+        local result = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>" .. ibSec .. "</> сек. наносит до <HighLight>" .. ibTargets .. "</> врагам в пределах <HighLight>" .. ibRad .. "</> клетки урон, равный <HighLight>" .. ibDmg .. "</> от собственного здоровья."
+        visibleTextCache[value] = result
+        return result
+    end
+
+    -- AutoChess: Extraordinary World synergy tier 3 description
+    if value:find("Starts [Extraordinary Quests]", 1, true) and value:find("probability of Extraordinary Quests", 1, true) then
+        local result = "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]"
+        visibleTextCache[value] = result
+        return result
+    end
+
     -- AutoChess rank formatting repair: STRICT matching for explicit rank titles only
     local rankTitle, rankNum, rankRest = value:match("^([%a-zA-Z\128-\255]+)%s*[Уу]ровень%s*(%w+)%s*(.*)$")
     if not rankTitle then
@@ -2775,8 +2932,18 @@ local function translateTextWidget(widget, discoveryContext)
 
     if currentText ~= nil then
         local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
-        translated = repairLiveString and repairLiveString("WidgetText", widgetName, widgetName, collapsedCurrent)
-            or translateVisibleText(collapsedCurrent)
+        local candidate = translateVisibleText(collapsedCurrent)
+        if candidate ~= nil and candidate ~= collapsedCurrent and (runtimeFixes.hasCyrillic(candidate) or candidate ~= currentText) then
+            translated = candidate
+        elseif repairLiveString then
+            local repaired = repairLiveString("WidgetText", widgetName, widgetName, collapsedCurrent)
+            if repaired ~= nil and repaired ~= collapsedCurrent and (runtimeFixes.hasCyrillic(repaired) or repaired ~= currentText) then
+                translated = repaired
+            end
+        end
+        if translated == nil then
+            translated = (candidate ~= nil and candidate ~= collapsedCurrent) and candidate or collapsedCurrent
+        end
         if translated == collapsedCurrent and collapsedCurrent ~= currentText then
             translated = collapsedCurrent
         end

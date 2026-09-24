@@ -232,4 +232,5 @@ return {
     ["I will help you resolve this farce and fix the piano. In return, please go back and tell my mother that you are not interested in me."] = "Я помогу тебе разрешить этот фарс и починить пианино. Взамен, пожалуйста, вернись и скажи моей матери, что я тебе не интересен.",
     ["【观众】"] = "[Зритель]",
     ["Equip to gain the [Corpse Collector] bond"] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов]",
+    ["Mutual Guard"] = "Взаимная защита",
 }

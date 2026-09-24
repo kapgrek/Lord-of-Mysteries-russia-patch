@@ -269,4 +269,5 @@ return {
     ["<P_Heart>Why does my head suddenly hurt a bit?</>"] = "<P_Heart>Почему у меня внезапно болит голова?</>",
     ["Section 2: After getting off the carriage"] = "Раздел 2: После выхода из вагона",
     ["Gathering Open Small Bag"] = "Собираем открытую маленькую сумку",
+    ["Backline Mage"] = "Маг заднего ряда",
 }

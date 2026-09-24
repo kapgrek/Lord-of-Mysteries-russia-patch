@@ -252,4 +252,6 @@ return {
     ["That's impressive."] = "Это впечатляет.",
     ["Dungeon - Traces of the Dead"] = "Подземелье - Следы мертвых",
     ["Circle 45 Degrees Left"] = "Круг на 45 градусов влево",
+    ["3 Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]"] = "3 Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]",
+    ["每秒恢复<HighLight>4%</>最大生命值。"] = "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду.",
 }

@@ -239,4 +239,5 @@ return {
     ["Disciplined"] = "Дисциплинированный",
     ["Cancel travel"] = "Отменить поездку",
     ["Miss Daisy is in poor health and has been recuperating at a villa in the suburbs for a long time. The address is..."] = "У мисс Дейзи слабое здоровье, и она долгое время лечится на вилле в пригороде. Адрес...",
+    ["保存阵容"] = "Сохранить состав",
 }

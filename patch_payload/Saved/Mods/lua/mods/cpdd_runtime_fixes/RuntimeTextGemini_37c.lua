@@ -241,4 +241,5 @@ return {
     ["Passive behavior detected during the match. You are currently suspended. You can resume matchmaking in %s seconds."] = "Пассивное поведение обнаружено во время матча. В настоящее время вы заблокированы. Вы можете возобновить подбор игроков через %s секунд.",
     ["2B Answer"] = "2Б Ответ",
     ["Please set a target first."] = "Пожалуйста, сначала установите цель.",
+    ["Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana."] = "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны.",
 }

@@ -252,4 +252,6 @@ return {
     ["Manipulate fate and spirituality, manifesting them in the form of cards to fool enemies. Collect Fate Yellow Cards and Spirituality Blue Cards to unlock the finisher skills Fooling of Fate and Spirituality Burst, and collect card energy to unlock the finisher skill Shuffle Cards."] = "Манипулирует судьбой и духовностью, воплощая их в виде карт для одурачивания врагов. Собирайте Желтые карты судьбы и Синие карты духовности, чтобы открыть завершающие навыки «Одурачивание судьбы» и «Всплеск духовности», а также накапливайте энергию карт для открытия завершающего навыка «Перетасовка карт».",
     ["Complete the Roaming quest 'The Diner in the Corner'."] = "Завершите квест «Закусочная в углу».",
     ["Tell her"] = "Скажи ей",
+    ["Economy"] = "Экономика",
+    ["Save Lineup"] = "Сохранить состав",
 }

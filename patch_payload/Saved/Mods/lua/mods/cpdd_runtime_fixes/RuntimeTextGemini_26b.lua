@@ -250,4 +250,5 @@ return {
     ["I used the Beyonder characteristic of a Sequence 4 'Undying' to create the Candle of Eternal Darkness; as long as the candle is not lit, its owner will never be Dead."] = "Я использовал характеристику Потусторонний из 4-й последовательности «Бессмертие», чтобы создать Свечу Вечной Тьмы; пока свеча не зажжена, ее владелец никогда не умрет.",
     ["【航海家】"] = "[Мореплаватель]",
     ["装配后获得【黑夜】羁绊。"] = "Экипируйте, чтобы получить резонанс [Ночь].",
+    ["Mid-row Assassin"] = "Убийца среднего ряда",
 }

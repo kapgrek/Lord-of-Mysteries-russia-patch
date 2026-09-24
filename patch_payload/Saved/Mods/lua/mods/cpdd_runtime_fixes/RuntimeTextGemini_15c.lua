@@ -235,4 +235,5 @@ return {
     ["Automatically opens upon acquisition. <Highlight>Has a very small chance to obtain a <Highlight>Zero-Cost Purchase Voucher</> or</> God-Descending materials: <Highlight>God's Contract, Spirit World Stardust, Mythical Cocoon, Cocoon Silk</>."] = "Автоматически открывается при получении. <Highlight>Имеет очень небольшой шанс получить <Highlight>Ваучер на покупку с нулевой стоимостью</> или </> Материалы для нисхождения Бога: <Highlight>Божий контракт, Звездная пыль духовного мира, Мифический кокон, Шелковый кокон</>.",
     ["Three, two, one—"] = "Три, два, один —",
     ["<h>Leave</> the clinic"] = "<h>Покинуть</> клинику",
+    ["Rare · Life Crystal Pendant"] = "Редкий · Кулон кристалла жизни",
 }

@@ -269,4 +269,5 @@ return {
     ["Ah, she lives on Howes Street in the North Borough, right next to that coffee shop at the intersection."] = "А, она живет на Хоуз-стрит в Северном районе, прямо рядом с кофейней на перекрестке.",
     ["My name is Second. Have a wonderful day!"] = "Меня зовут Второй. Хорошего дня!",
     ["Start Point"] = "Начальная точка",
+    ["卡牌名字七个字"] = "Имя карты семь букв",
 }

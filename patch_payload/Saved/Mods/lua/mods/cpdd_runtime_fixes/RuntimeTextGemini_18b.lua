@@ -231,4 +231,5 @@ return {
     ["Not here..."] = "Не здесь...",
     ["Participating in the dungeon <Highlight>May Manor · Castle (Hard)</> and defeating <Highlight>Believer Number One</> gives a chance to obtain the following equipment."] = "Участие в подземелье <Highlight>Поместье Мэй · Castle (Hard)</> и победа над <Highlight>Верующий номер один</> дает шанс получить следующее снаряжение.",
     ["Mushroom soup pot"] = "Кастрюля для грибного супа",
+    ["Edit Lineup"] = "Изменить состав",
 }

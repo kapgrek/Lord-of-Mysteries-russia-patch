@@ -259,4 +259,5 @@ return {
     ["Fashion Duel \"Moonlight Lady\" Failure"] = "Модная дуэль «Лунная леди» Провал",
     ["Equip to gain the [Spellcasting] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
     ["At the start of combat, chess pieces adjacent to allies gain 200 Shield, lasting for 8 seconds."] = "В начале боя фигуры, находящиеся рядом с союзниками, получают щит прочностью 200 на 8 сек.",
+    ["Randomly gain <HighLight> one basic equipment </>, and gain <HighLight> one Fine Equipment Casket </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>."] = "Случайным образом получите <HighLight> одно базовое снаряжение </>, а также <HighLight> один ларец с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>.",
 }

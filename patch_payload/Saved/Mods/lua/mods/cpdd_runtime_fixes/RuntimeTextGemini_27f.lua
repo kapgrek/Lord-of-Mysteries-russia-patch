@@ -229,4 +229,5 @@ return {
     ["Acting - Seer - Correct"] = "Действуя - Провидец - Правильный",
     ["<P_Heart> (Elegant) </> I am glad you remember the contribution the Lady has made for this."] = "<P_Heart> (Элегантный) </> Я рад, что вы помните, какой вклад внесла в это Леди.",
     ["But how can a ghost make sound?"] = "Но как призрак может издавать звук?",
+    ["Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]"] = "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]",
 }

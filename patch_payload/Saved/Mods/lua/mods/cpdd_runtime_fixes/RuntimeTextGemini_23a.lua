@@ -231,4 +231,5 @@ return {
     ["Hello, are you Mr. Lawis? Do you have a daughter named Jenny?"] = "Здравствуйте, вы мистер Ловис? У вас есть дочь по имени Дженни?",
     ["Um... thanks."] = "Хм... спасибо.",
     ["Obtain the text [Rat]"] = "Получите текст [Крыса]",
+    ["Iron and Blood Badge"] = "Знак Железа и Крови",
 }

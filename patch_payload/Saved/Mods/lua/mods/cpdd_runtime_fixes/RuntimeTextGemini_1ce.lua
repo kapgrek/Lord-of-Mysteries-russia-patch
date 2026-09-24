@@ -257,4 +257,5 @@ return {
     ["You received an invitation? Actually, I even forgot about it myself; it was Old Neil and the others..."] = "Вы получили приглашение? Собственно, я даже сам об этом забыл; это был Старина Нил и остальные...",
     ["I am just a murderer."] = "Я просто убийца.",
     ["Oh yes, it was right over there."] = "О да, это было прямо там.",
+    ["12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>."] = "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>.",
 }

@@ -266,4 +266,5 @@ return {
     ["I used to come here almost every day."] = "Раньше я приходил сюда почти каждый день.",
     ["Do you like to play something different?"] = "Вам нравится играть во что-то другое?",
     ["Hip Armor"] = "Бедренная броня",
+    ["Mid-row Tank"] = "Танк среднего ряда",
 }

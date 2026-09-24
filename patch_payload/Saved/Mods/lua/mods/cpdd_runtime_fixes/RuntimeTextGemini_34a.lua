@@ -255,4 +255,5 @@ return {
     ["Number of a certain station <DarkHighlight> = %d</>"] = "Номер определенной станции <DarkHighlight> = %d</>",
     ["Rotate Hit Orientation"] = "Поворот ориентации удара",
     ["Navigator"] = "Мореплаватель",
+    ["Mid-row Marksman"] = "Стрелок среднего ряда",
 }

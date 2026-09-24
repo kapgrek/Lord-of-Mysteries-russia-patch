@@ -292,4 +292,6 @@ return {
     ["5231116 Tingen Lake Single-Player Instance"] = "5231116 Одиночное измерение: Тинген Озеро",
     ["Sleep Block_Percentage Bonus"] = "Блокировка сна_Процентный бонус",
     ["Fragile paper, yet it can carry a chance to escape fatal damage—only once, but that is enough."] = "Хрупкая бумага, но она может дать шанс избежать смертельного повреждения — только один раз, но и этого достаточно.",
+    ["Unsaved Lineup"] = "Состав не сохранен",
+    ["槽位未解锁"] = "Ячейка заблокирована",
 }

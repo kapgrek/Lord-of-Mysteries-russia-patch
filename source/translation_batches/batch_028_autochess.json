@@ -790,5 +790,209 @@
     "source_cn": "At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
     "ref_en": "At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory.",
     "target_ru": "В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе."
+  },
+  {
+    "id": "131143",
+    "source_cn": "Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]",
+    "ref_en": "Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]",
+    "target_ru": "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]"
+  },
+  {
+    "id": "131144",
+    "source_cn": "3 Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]",
+    "ref_en": "3 Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]",
+    "target_ru": "3 Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]"
+  },
+  {
+    "id": "131145",
+    "source_cn": "Mid-row Support",
+    "ref_en": "Mid-row Support",
+    "target_ru": "Поддержка среднего ряда"
+  },
+  {
+    "id": "131146",
+    "source_cn": "Divinity Spread",
+    "ref_en": "Divinity Spread",
+    "target_ru": "Распространение божественности"
+  },
+  {
+    "id": "131147",
+    "source_cn": "Economy",
+    "ref_en": "Economy",
+    "target_ru": "Экономика"
+  },
+  {
+    "id": "131148",
+    "source_cn": "Iron and Blood Badge",
+    "ref_en": "Iron and Blood Badge",
+    "target_ru": "Знак Железа и Крови"
+  },
+  {
+    "id": "131149",
+    "source_cn": "Mutual Guard",
+    "ref_en": "Mutual Guard",
+    "target_ru": "Взаимная защита"
+  },
+  {
+    "id": "131150",
+    "source_cn": "Mysticism Page",
+    "ref_en": "Mysticism Page",
+    "target_ru": "Страница мистицизма"
+  },
+  {
+    "id": "131151",
+    "source_cn": "Rare · Life Crystal Pendant",
+    "ref_en": "Rare · Life Crystal Pendant",
+    "target_ru": "Редкий · Кулон кристалла жизни"
+  },
+  {
+    "id": "131152",
+    "source_cn": "Traction Spirit Pendant",
+    "ref_en": "Traction Spirit Pendant",
+    "target_ru": "Кулон притяжения духов"
+  },
+  {
+    "id": "131153",
+    "source_cn": "12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>.",
+    "ref_en": "12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>.",
+    "target_ru": "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>."
+  },
+  {
+    "id": "131154",
+    "source_cn": "Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana.",
+    "ref_en": "Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana.",
+    "target_ru": "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны."
+  },
+  {
+    "id": "131155",
+    "source_cn": "Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>.",
+    "ref_en": "Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>.",
+    "target_ru": "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>."
+  },
+  {
+    "id": "131156",
+    "source_cn": "If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>.",
+    "ref_en": "If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>.",
+    "target_ru": "Если в первом ряду ровно 2 союзные фигуры<HighLight></>, обе получают 150 ед. здоровья<HighLight></> и 20 ед. защиты<HighLight></>."
+  },
+  {
+    "id": "131157",
+    "source_cn": "Randomly gain <HighLight> one basic equipment </>, and gain <HighLight> one Fine Equipment Casket </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>.",
+    "ref_en": "Randomly gain <HighLight> one basic equipment </>, and gain <HighLight> one Fine Equipment Casket </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>.",
+    "target_ru": "Случайным образом получите <HighLight> одно базовое снаряжение </>, а также <HighLight> один ларец с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>."
+  },
+  {
+    "id": "131158",
+    "source_cn": "保存阵容",
+    "ref_en": "Save Lineup",
+    "target_ru": "Сохранить состав"
+  },
+  {
+    "id": "131159",
+    "source_cn": "未编辑保存阵容",
+    "ref_en": "Unsaved Lineup",
+    "target_ru": "Состав не сохранен"
+  },
+  {
+    "id": "131160",
+    "source_cn": "编辑阵容",
+    "ref_en": "Edit Lineup",
+    "target_ru": "Изменить состав"
+  },
+  {
+    "id": "131161",
+    "source_cn": "槽位未解锁",
+    "ref_en": "Slot Locked",
+    "target_ru": "Ячейка заблокирована"
+  },
+  {
+    "id": "131162",
+    "source_cn": "卡牌名字七个字",
+    "ref_en": "Card Name Seven Words",
+    "target_ru": "Имя карты семь букв"
+  },
+  {
+    "id": "131163",
+    "source_cn": "施法后的<HighLight>5</>秒内，下一次普攻额外造成相当于<HighLight>120%</>攻击的伤害，冷却时间为<HighLight>4</>秒。",
+    "ref_en": "Within <HighLight>5</> seconds after casting, next basic attack deals additional damage equal to <HighLight>120%</> Attack, cooldown <HighLight>4</> seconds.",
+    "target_ru": "В течение <HighLight>5</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>120%</> от атаки, время перезарядки — <HighLight>4</> сек."
+  },
+  {
+    "id": "131164",
+    "source_cn": "每秒恢复<HighLight>4%</>最大生命值。",
+    "ref_en": "Restores <HighLight>4%</> max health per second.",
+    "target_ru": "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду."
+  },
+  {
+    "id": "131165",
+    "source_cn": "获得【铁血】共鸣。每隔<HighLight>2</>秒，对<HighLight>1</>格内至多<HighLight>3</>名敌人造成相当于自身生命值<HighLight>1%</>的伤害。",
+    "ref_en": "Gain [Iron-Blood] resonance. Every <HighLight>2</> seconds, deals damage equal to <HighLight>1%</> max health to up to <HighLight>3</> enemies within <HighLight>1</> tile.",
+    "target_ru": "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья."
+  },
+  {
+    "id": "131166",
+    "source_cn": "Frontline Support",
+    "ref_en": "Frontline Support",
+    "target_ru": "Передовая поддержка"
+  },
+  {
+    "id": "131167",
+    "source_cn": "Frontline Assassin",
+    "ref_en": "Frontline Assassin",
+    "target_ru": "Убийца передовой"
+  },
+  {
+    "id": "131168",
+    "source_cn": "Backline Marksman",
+    "ref_en": "Backline Marksman",
+    "target_ru": "Стрелок заднего ряда"
+  },
+  {
+    "id": "131169",
+    "source_cn": "Backline Mage",
+    "ref_en": "Backline Mage",
+    "target_ru": "Маг заднего ряда"
+  },
+  {
+    "id": "131170",
+    "source_cn": "Backline Support",
+    "ref_en": "Backline Support",
+    "target_ru": "Поддержка заднего ряда"
+  },
+  {
+    "id": "131171",
+    "source_cn": "Backline Assassin",
+    "ref_en": "Backline Assassin",
+    "target_ru": "Убийца заднего ряда"
+  },
+  {
+    "id": "131172",
+    "source_cn": "Mid-row Mage",
+    "ref_en": "Mid-row Mage",
+    "target_ru": "Маг среднего ряда"
+  },
+  {
+    "id": "131173",
+    "source_cn": "Mid-row Warrior",
+    "ref_en": "Mid-row Warrior",
+    "target_ru": "Воин среднего ряда"
+  },
+  {
+    "id": "131174",
+    "source_cn": "Mid-row Marksman",
+    "ref_en": "Mid-row Marksman",
+    "target_ru": "Стрелок среднего ряда"
+  },
+  {
+    "id": "131175",
+    "source_cn": "Mid-row Tank",
+    "ref_en": "Mid-row Tank",
+    "target_ru": "Танк среднего ряда"
+  },
+  {
+    "id": "131176",
+    "source_cn": "Mid-row Assassin",
+    "ref_en": "Mid-row Assassin",
+    "target_ru": "Убийца среднего ряда"
   }
 ]

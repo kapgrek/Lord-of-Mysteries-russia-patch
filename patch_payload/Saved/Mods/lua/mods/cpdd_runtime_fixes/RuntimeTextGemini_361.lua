@@ -243,6 +243,6 @@ return {
     ["Divination Master"] = "Мастер гадания",
     ["The gold-rimmed glasses favored by psychologists, using sharp eyes to gain insight into everything hidden."] = "Очки в золотой оправе, любимые психологами, позволяют острым глазам проникнуть во все скрытое.",
     ["Select the features to display (<Highlight>%s</>/%s)"] = "Выберите объекты для отображения (<Highlight>%s</>/%s)",
-    ["Backline Support"] = "Справочная поддержка",
+    ["Backline Support"] = "Поддержка заднего ряда",
     ["Mr. Cony"] = "г-н Кони",
 }
