@@ -257,6 +257,6 @@ return {
     ["High inspiration isn't a good thing."] = "Высокое вдохновение – это нехорошо.",
     ["Anshun"] = "Аньшунь",
     ["Ashton"] = "Эштон",
-    ["【塔罗会】"] = "[Клуб Таро]",
+    ["【塔罗会】"] = "【Клуб Таро】",
     ["4 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] = "4 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
 }

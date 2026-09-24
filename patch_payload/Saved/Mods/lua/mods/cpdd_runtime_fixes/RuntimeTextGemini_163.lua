@@ -232,6 +232,7 @@ return {
     ["Believe me, you'll come to ask sooner or later."] = "Поверьте, рано или поздно вы придете спрашивать.",
     ["Spring Night Ball Guide Trigger"] = "Весенняя ночь - Руководство по мячу Триггер",
     ["Gluttonous Pig-University District"] = "Прожорливая свинья-Университетский округ",
+    ["[UIFrame : NewUIManager] Failed to close interface %s %s %s"] = "[UIFrame : NewUIManager] Failed to close interface %s %s %s",
     ["Interrupt: Circular area within 4.5m of self"] = "Прерывание: Круглая область в пределах 4,5 м от себя.",
     ["Starving Wraith"] = "Голодный призрак",
     ["<P_Heart>(Help me divine the future weather...)</>"] = "<P_Heart>(Помогите мне предугадать будущую погоду...)</>",

@@ -220,6 +220,7 @@ return {
     ["Critical"] = "Критический",
     ["“Knowledge is Power” — this is not a symbolic statement."] = "«Знание — сила» — это не символическое утверждение.",
     ["Title: I Am Back"] = "Название: Я вернулся",
+    ["[UIFrame : NewUIManager] Request to open panel"] = "[UIFrame : NewUIManager] Request to open panel",
     ["Paper Figurine Protection (8s Effect)"] = "Защита бумажной фигурки (эффект 8с)",
     ["Atmosphere - Arguing Couple - Milly"] = "Атмосфера - Спорящая пара - Милли",
     ["In the prayers that no God listens to, kneel!"] = "В молитвах, которые не слышит ни один Бог, преклоните колени!",

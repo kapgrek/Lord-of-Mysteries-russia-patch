@@ -180,6 +180,7 @@ return {
     ["Street Hunt - Retrace Interaction Object"] = "Street Hunt — отслеживание объекта взаимодействия",
     ["A space dominated by the residual power of the Blood Emperor. All who come here crave the baptism of iron and blood."] = "Пространство, в котором доминируют остатки силы Кровавого Императора. Все приезжающие сюда жаждут крещения железом и кровью.",
     ["Player name seven characters"] = "Имя игрока семь символов",
+    ["[UIFrame : UICompRenderTarget]: OnLoadEntityFinish Pos parameter type error %s"] = "[UIFrame : UICompRenderTarget]: OnLoadEntityFinish Pos parameter type error %s",
     ["A simple wooden low round table; the open book adds a touch of life."] = "Простой деревянный невысокий круглый стол; открытая книга добавляет нотку жизни.",
     ["Faction ID"] = "Идентификатор фракции",
     ["Let's go to the cafe. The black tea and snacks Mrs. Lula brought today are truly wonderful..."] = "Пойдем в кафе. Черный чай и закуски, которые сегодня принесла госпожа Лула, просто чудесны...",

@@ -31,7 +31,7 @@ return {
     ["Window: Manor I"] = "Окно: Усадьба I",
     ["Charm Dance"] = "Очаровательный танец",
     ["Alright, then I'll go verify the missing persons information first, and investigate the siblings' matter when there are more clues."] = "Хорошо, тогда я сначала проверю информацию о пропавших без вести людях и расследую дело братьев и сестер, когда появятся новые улики.",
-    ["Evernight Goddess"] = "Вечная Богиня",
+    ["Evernight Goddess"] = "Богиня Вечной Ночи",
     ["Black Lens"] = "Черная линза",
     ["Use to obtain <Highlight>Sanctuary Gospel Suit</>"] = "Используйте, чтобы получить <Highlight>Святилищный евангельский костюм</>.",
     ["Warriors have two forms, output and defense, that can be switched."] = "У воинов есть две формы: мощность и защита, которые можно переключать.",

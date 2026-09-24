@@ -4,6 +4,7 @@ return {
     ["Let {{him|her}} in."] = "Впусти {{его|её}}.",
     ["Explain the situation to Rozanne"] = "Объяснить ситуацию Розанне",
     ["Winnifred "] = "Уиннифред ",
+    ["[UIFrame : WorldWidgetCellBase2]: BindWorldWidgetEvent, %s:%s event is not registered"] = "[UIFrame : WorldWidgetCellBase2]: BindWorldWidgetEvent, %s:%s event is not registered",
     ["Reduces magic damage received {*.1f**,F1690001,mHurtReduce}, negating the magic Damage Boost of the damage source."] = "Получаемый магический урон снижается на {*.1f**,F1690001,mHurtReduce}, нейтрализуя увеличение магического урона атакующего.",
     ["[Roguelike] Escape Trick"] = "【Roguelike】Фокус с побегом",
     ["Coffee shop owner"] = "Владелец кофейни",

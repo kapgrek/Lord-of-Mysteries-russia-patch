@@ -278,7 +278,7 @@ return {
     ["Old Sailor Bone"] = "Старый Сейлор Кость",
     ["Switch simple 3C."] = "Переключите простой 3C.",
     ["Earned through various World Adventure activities and usable in the Adventure Shop.\nThe weekly Adventure Medal limit is 2000 and can accumulate for up to 2 weeks. The earning limit resets every Monday at eight in the morning."] = "Можно получить за участие в различных активностях Мирового приключения; используется в магазине приключений.\nНедельный лимит медалей приключения — 2000, могут накапливаться до 2 недель. Лимит сбрасывается каждый понедельник в 8:00 утра.",
-    ["[Forsaken Land of the Gods]"] = "[Заброшенная Земля Богов]",
+    ["[Forsaken Land of the Gods]"] = "[Заброшенная земля богов]",
     ["Gain 8/12 Gold Coins<HighLight></> and 1/3 Experience Points<HighLight></>."] = "Даёт 8/12 золотых монет<HighLight></> и 1/3 очков опыта<HighLight></>.",
     ["Guard in Peril"] = "Защита в опасности",
 }

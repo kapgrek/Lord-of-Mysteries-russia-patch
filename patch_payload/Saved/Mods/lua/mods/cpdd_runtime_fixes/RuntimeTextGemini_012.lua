@@ -180,7 +180,7 @@ return {
     ["Clover"] = "Клевер",
     ["Regina "] = "Регина",
     ["Play dialogue without camera focus at NPC position"] = "Воспроизвести диалог без фокусировки камеры на позиции NPC.",
-    ["The \"Divine Descent\" ritual held in Tingen Square is requesting the gaze of the Evernight Goddess. Go assist and contribute your power of faith; perhaps you'll reap good fortune."] = "Ритуал «Божественного нисхождения», проводимый на площади Тинген, требует взгляда Вечной Богини. Идите, помогите и поделитесь своей силой веры; возможно, вы пожнете удачу.",
+    ["The \"Divine Descent\" ritual held in Tingen Square is requesting the gaze of the Evernight Goddess. Go assist and contribute your power of faith; perhaps you'll reap good fortune."] = "Ритуал «Божественного нисхождения», проводимый на площади Тинген, требует взгляда Богини Вечной Ночи. Идите, помогите и поделитесь своей силой веры; возможно, вы пожнете удачу.",
     ["Gerda 1"] = "Герда b",
     ["Approach <h>Skana</>"] = "Подход <h>Skana</>",
     ["Frye path point"] = "Точка пути Фрая",

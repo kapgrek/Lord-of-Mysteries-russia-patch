@@ -255,6 +255,6 @@ return {
     ["[Position] Windmill - Jirel sets up a Wall of Spirituality"] = "[Position] Windmill - Jirel sets up a Wall of Духовность",
     ["Murray"] = "Мюррей",
     ["[Spellcraft]"] = "[Колдовство]",
-    ["【神弃之地】"] = "[Заброшенная Земля Богов]",
+    ["【神弃之地】"] = "【Заброшенная земля богов】",
     ["Gain an additional <HighLight>40%</> Max Health."] = "Даёт дополнительно <HighLight>40%</> к максимальному здоровью.",
 }

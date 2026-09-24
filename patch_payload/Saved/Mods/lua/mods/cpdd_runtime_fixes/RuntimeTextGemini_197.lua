@@ -1,6 +1,7 @@
 ﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 197/3ff.
 return {
+    ["[UIFrame : UIComponent]:SetImage Failed to set material texture. Texture resource path cannot be empty %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set material texture. Texture resource path cannot be empty %s %s",
     ["Spawn buff_invincibility + permanently untargetable by enemies"] = "Бафф появления: неуязвимость + постоянная недосягаемость для врагов",
     ["5230041 Tingen Plane"] = "5230041   Тинген   Фаза",
     ["Sealed Artifact ID."] = "ID Запечатанного Артефакта",

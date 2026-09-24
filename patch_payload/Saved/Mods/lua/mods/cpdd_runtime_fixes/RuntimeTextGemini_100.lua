@@ -233,6 +233,7 @@ return {
     ["Save Limit Reached"] = "Достигнут предел сохранения",
     ["Open to receive <Highlight>500</> Aggregation Factors."] = "Откройте для получения коэффициентов агрегации <Highlight>500</>.",
     ["Obtained through Summon-Star Spirit Costume, used to exchange for rewards in the Star Spirit Secret Vault Shop."] = "Получается через костюм Призыва Звездного Духа и используется для обмена на награды в секретном магазине Звездного Духа.",
+    ["[UIFrame : UIComponent].PauseAnimation: pause animation failed, widgetAnimation = nil %s"] = "[UIFrame : UIComponent].PauseAnimation: pause animation failed, widgetAnimation = nil %s",
     ["Alright, let's go with dark blue."] = "Хорошо, давайте возьмем темно-синий.",
     ["Content of the peer shop"] = "Содержание однорангового магазина",
     ["2 Daffodil Street\r\nMoretti Residence"] = "улица Даффодил № 2\nДом Моретти",

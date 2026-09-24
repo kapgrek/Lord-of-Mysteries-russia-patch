@@ -344,6 +344,24 @@ end
 -- aggregate entry for 米 (which legitimately means "Rice" in chat/filter
 -- data) is not changed globally.
 local visibleTextExactOverrides = {
+    -- Canonical faction & synergy aliases
+    ["Bulwark"] = "Оплот",
+    ["[Bulwark]"] = "[Оплот]",
+    ["坚阵"] = "Оплот",
+    ["【坚阵】"] = "【Оплот】",
+    ["Crafted Bulwark"] = "Искусный оплот",
+    ["[Crafted Bulwark]"] = "[Искусный оплот]",
+    ["精工壁垒"] = "Искусный оплот",
+    ["【精工壁垒】"] = "【Искусный оплот】",
+    ["Evernight Goddess Church"] = "Церковь Богини Вечной Ночи",
+    ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
+    ["黑夜女神教会"] = "Церковь Богини Вечной Ночи",
+    ["【黑夜女神教会】"] = "【Церковь Богини Вечной Ночи】",
+    ["Evernight Goddess"] = "Богиня Вечной Ночи",
+    ["[Evernight Goddess]"] = "[Богиня Вечной Ночи]",
+    ["黑夜女神"] = "Богиня Вечной Ночи",
+    ["【黑夜女神】"] = "【Богиня Вечной Ночи】",
+
     -- Relics tab labels
     ["Common"] = "Обычные",
     ["Special"] = "Особенные",
@@ -776,17 +794,40 @@ local visibleTextExactOverrides = {
     ["[Iron Wall]"] = "[Железная стена]",
     ["Evernight Goddess"] = "Богиня Вечной Ночи",
     ["[Evernight Goddess]"] = "[Богиня Вечной Ночи]",
+    ["黑夜女神"] = "Богиня Вечной Ночи",
+    ["【黑夜女神】"] = "【Богиня Вечной Ночи】",
+    ["Evernight Goddess Church"] = "Церковь Богини Вечной Ночи",
+    ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
+    ["黑夜女神教会"] = "Церковь Богини Вечной Ночи",
+    ["【黑夜女神教会】"] = "【Церковь Богини Вечной Ночи】",
     ["Forsaken Land of the Gods"] = "Заброшенная земля богов",
     ["[Forsaken Land of the Gods]"] = "[Заброшенная земля богов]",
+    ["神弃之地"] = "Заброшенная земля богов",
+    ["【神弃之地】"] = "【Заброшенная земля богов】",
     ["Aurora Order"] = "Орден Авроры",
     ["[Aurora Order]"] = "[Орден Авроры]",
+    ["极光会"] = "Орден Авроры",
+    ["【极光会】"] = "【Орден Авроры】",
     ["Seer"] = "Провидец",
     ["[Seer]"] = "[Провидец]",
+    ["占卜家"] = "Провидец",
+    ["【占卜家】"] = "【Провидец】",
     ["Rock"] = "Скала",
     ["[Rock]"] = "[Скала]",
+    ["岩石"] = "Скала",
+    ["【岩石】"] = "【Скала】",
     ["Monster"] = "Монстр",
     ["[Monster]"] = "[Монстр]",
+    ["怪物"] = "Монстр",
+    ["【怪物】"] = "【Монстр】",
+    ["Bulwark"] = "Оплот",
+    ["[Bulwark]"] = "[Оплот]",
+    ["坚阵"] = "Оплот",
+    ["【坚阵】"] = "【Оплот】",
     ["Crafted Bulwark"] = "Искусный оплот",
+    ["[Crafted Bulwark]"] = "[Искусный оплот]",
+    ["精工壁垒"] = "Искусный оплот",
+    ["【精工壁垒】"] = "【Искусный оплот】",
     ["Randomly gain 2 pieces of Defensive Fine Equipment."] =
         "Случайным образом даёт 2 предмета добротного защитного снаряжения.",
     ["Critical Hit Amplification"] = "Усиление критического удара",
@@ -1305,6 +1346,16 @@ local runtimeMetrics = {
     CaptureDataAssignmentsEnabled = false,
 }
 local runtimeFixes = {}
+
+local function sceneTextVector2D(x, y)
+    if type(FVector2D) == "function" then
+        local ok, value = pcall(FVector2D, x, y)
+        if ok and value ~= nil then
+            return value
+        end
+    end
+    return { X = x, Y = y }
+end
 
 function runtimeFixes.utf8Len(str)
     if type(str) ~= "string" then return 0 end
@@ -2913,21 +2964,33 @@ local function translateTextWidget(widget, discoveryContext)
     pcall(function()
         local textToCheck = translated or currentText or ""
         local isCinematicName = runtimeFixes.isCinematicWidgetName(wName)
-        local isBodyName = not isCinematicName and (wName:find("desc") or wName:find("content") or wName:find("detail")
+        local isSynergyWidget = (wName:find("fetter") ~= nil or wName:find("bond") ~= nil or wName:find("synergy") ~= nil
+            or widgetName == "Text_FetterName" or widgetName == "WBP_Title_Fetter" or widgetName == "Text_Bond")
+        local isBodyName = not isCinematicName and not isSynergyWidget and (wName:find("desc") or wName:find("content") or wName:find("detail")
             or wName:find("tips") or wName:find("message") or wName:find("info")
             or (type(textToCheck) == "string" and #textToCheck > 40))
-        local isTitleName = not isCinematicName and (wName:find("title") or wName:find("btn") or wName:find("tab")
+        local isTitleName = not isCinematicName and not isSynergyWidget and (wName:find("title") or wName:find("btn") or wName:find("tab")
             or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
             or wName:find("server") or wName:find("chapter") or wName:find("rank"))
 
         local hasCyrillic = (type(textToCheck) == "string") and (textToCheck:find("[\208\209]") ~= nil)
         local targetLs = 0
-        if hasCyrillic then
+        if isSynergyWidget then
+            targetLs = 0
+        elseif hasCyrillic then
             targetLs = isTitleName and -120 or -60
         end
 
         if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(targetLs) end
         if widget.LetterSpacing ~= nil then widget.LetterSpacing = targetLs end
+
+        if isSynergyWidget and (wName:find("title_fetter") or wName:find("wbp_title_fetter") or widgetName == "WBP_Title_Fetter") then
+            pcall(function()
+                if widget.SetRenderScale ~= nil then
+                    widget:SetRenderScale(sceneTextVector2D(0.7, 0.7))
+                end
+            end)
+        end
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
@@ -2964,7 +3027,21 @@ local function translateTextWidget(widget, discoveryContext)
             font.LetterSpacing = targetLs
 
             local baseSize = runtimeFixes.getAdjustedFontSize(widget, font.Size, wName, isEscLocked)
-            if isTitleName then
+            if isSynergyWidget then
+                local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
+                if textLen > 14 then
+                    font.Size = 10.5
+                elseif textLen > 8 then
+                    font.Size = 12
+                else
+                    font.Size = math.min(baseSize, 14)
+                end
+                if widget.SetAutoWrapText ~= nil then
+                    widget:SetAutoWrapText(false)
+                elseif widget.AutoWrapText ~= nil then
+                    widget.AutoWrapText = false
+                end
+            elseif isTitleName then
                 local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
                 if textLen > 14 then
                     font.Size = math.min(baseSize, 14)
@@ -3175,6 +3252,15 @@ local function translateViewTextWidgets(view, userWidget, discoveryContext, comp
 
     local function translateWidgetTree(owner)
         walkWidgetDescendants(owner, visited, function(widget)
+            local wName = ""
+            pcall(function() wName = tostring(widget:GetName()):lower() end)
+            if wName:find("wbp_title_fetter") or wName:find("title_fetter") then
+                pcall(function()
+                    if widget.SetRenderScale ~= nil then
+                        widget:SetRenderScale(sceneTextVector2D(0.7, 0.7))
+                    end
+                end)
+            end
             repairedCount = repairedCount + translateTextWidget(widget, discoveryContext)
         end)
     end
@@ -8930,6 +9016,9 @@ Loader.AfterLoad(
 -- delayed pass coalesces bursts so this does not restore the global sweep.
 local dynamicPanelRescanUids = {
     ActivityMain_Panel = true,
+    AutoChess_Hud_Panel = true,
+    AutoChessHudPanel = true,
+    AutoChess_Hud = true,
     AutoChess_CardDescription_Panel = true,
     AutoChess_GameDetail_Panel = true,
     AutoChess_OutSideMain_Panel = true,
@@ -8949,6 +9038,9 @@ local dynamicPanelRescanUids = {
 }
 
 local extendedPanelRepairDelays = {
+    AutoChess_Hud_Panel = { 0.05, 0.15 },
+    AutoChessHudPanel = { 0.05, 0.15 },
+    AutoChess_Hud = { 0.05, 0.15 },
     AutoChess_CardDescription_Panel = { 0.05, 0.15 },
     AutoChess_GameDetail_Panel = { 0.05, 0.15 },
     AutoChess_OutSideMain_Panel = { 0.05, 0.15 },
@@ -9183,6 +9275,48 @@ function panelTextRepair:QueueExtended(component)
     end
 end
 
+local function deepTranslateAutoChessData(target, seen, depth)
+    if target == nil then return target end
+    local tType = type(target)
+    if tType ~= "table" and tType ~= "userdata" then
+        return target
+    end
+    depth = depth or 0
+    if depth > 20 then return target end
+    seen = seen or {}
+    if seen[target] then return target end
+    seen[target] = true
+
+    pcall(function()
+        if type(target.Num) == "function" and type(target.Get) == "function" then
+            local count = target:Num()
+            if type(count) == "number" and count > 0 and count <= 500 then
+                for idx = 0, count - 1 do
+                    local item = target:Get(idx)
+                    if type(item) == "table" or type(item) == "userdata" then
+                        deepTranslateAutoChessData(item, seen, depth + 1)
+                    end
+                end
+            end
+        end
+    end)
+
+    if tType == "table" then
+        for k, v in pairs(target) do
+            local vType = type(v)
+            if vType == "string" then
+                local t = translateVisibleText(v)
+                if t ~= nil and t ~= v then
+                    target[k] = t
+                end
+            elseif vType == "table" or vType == "userdata" then
+                deepTranslateAutoChessData(v, seen, depth + 1)
+            end
+        end
+    end
+    return target
+end
+
 runtimeFixes.AutoChessHookedWrappers = setmetatable({}, { __mode = "k" })
 function runtimeFixes.hookAutoChessMethod(origMethod)
     if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
@@ -9191,19 +9325,41 @@ function runtimeFixes.hookAutoChessMethod(origMethod)
     local function wrapper(comp, ...)
         local argCount = select("#", ...)
         local args = { ... }
+        local seen = {}
         for i = 1, argCount do
             local arg = args[i]
-            if type(arg) == "table" then
-                pcall(translateTableStrings, arg)
+            if type(arg) == "table" or type(arg) == "userdata" then
+                pcall(deepTranslateAutoChessData, arg, seen)
             elseif type(arg) == "string" then
                 pcall(function()
                     args[i] = translateVisibleText(arg)
                 end)
             end
         end
+        if type(comp) == "table" then
+            pcall(function()
+                if comp.data ~= nil then deepTranslateAutoChessData(comp.data, seen) end
+                if comp.Data ~= nil then deepTranslateAutoChessData(comp.Data, seen) end
+                if comp.m_Data ~= nil then deepTranslateAutoChessData(comp.m_Data, seen) end
+                if comp.Cards ~= nil then deepTranslateAutoChessData(comp.Cards, seen) end
+                if comp.CardList ~= nil then deepTranslateAutoChessData(comp.CardList, seen) end
+                if comp.m_Cards ~= nil then deepTranslateAutoChessData(comp.m_Cards, seen) end
+                if comp.m_CardList ~= nil then deepTranslateAutoChessData(comp.m_CardList, seen) end
+                if comp.Fetters ~= nil then deepTranslateAutoChessData(comp.Fetters, seen) end
+                if comp.FetterList ~= nil then deepTranslateAutoChessData(comp.FetterList, seen) end
+                if comp.m_Fetters ~= nil then deepTranslateAutoChessData(comp.m_Fetters, seen) end
+                if comp.m_FetterList ~= nil then deepTranslateAutoChessData(comp.m_FetterList, seen) end
+                if comp.FetterData ~= nil then deepTranslateAutoChessData(comp.FetterData, seen) end
+                if comp.m_FetterData ~= nil then deepTranslateAutoChessData(comp.m_FetterData, seen) end
+            end)
+        end
         local results = { origMethod(comp, unpack(args, 1, argCount)) }
         pcall(function()
             translateDirectViewTextWidgets(comp and comp.view)
+            if comp then
+                local root = comp.userWidget or comp.widget
+                translateViewTextWidgets(comp.view, root)
+            end
         end)
         return unpack(results)
     end
@@ -9230,7 +9386,10 @@ local function installEventDrivenPanelRepair(value, environment)
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
-                if (uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel") and not self.__cpddAutoChessHooked then
+                if (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
+                    or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel")
+                    and not self.__cpddAutoChessHooked
+                then
                     self.__cpddAutoChessHooked = true
                     for _, method in ipairs({
                         "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
@@ -9238,7 +9397,9 @@ local function installEventDrivenPanelRepair(value, environment)
                         "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail", "SetGameDetail",
                         "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails", "ShowCardDetail",
                         "SetCardData", "UpdateCardInfo", "InitView", "OnOpen", "SetCard",
-                        "ShowCard", "UpdateCard", "Show"
+                        "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
+                        "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
+                        "UpdateSynergy", "UpdateSynergies", "RefreshSynergy"
                     }) do
                         local origMethod = self[method]
                         if type(origMethod) == "function" then
@@ -9287,6 +9448,9 @@ Loader.AfterLoad(
 
 do
     local autoChessModuleCandidates = {
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Hud_Panel",
+        "Gameplay.LogicSystem.AutoChess.AutoChessHudPanel",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Hud",
         "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail_Panel",
         "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailPanel",
         "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail",
@@ -9301,7 +9465,10 @@ do
     }
     for _, modName in ipairs(autoChessModuleCandidates) do
         Loader.AfterLoad(modName, function(value, environment)
-            local panelClass = getSymbol(value, environment, "AutoChess_GameDetail_Panel")
+            local panelClass = getSymbol(value, environment, "AutoChess_Hud_Panel")
+                or getSymbol(value, environment, "AutoChessHudPanel")
+                or getSymbol(value, environment, "AutoChess_Hud")
+                or getSymbol(value, environment, "AutoChess_GameDetail_Panel")
                 or getSymbol(value, environment, "GameDetail_Panel")
                 or getSymbol(value, environment, "AutoChess_CardDescription_Panel")
                 or getSymbol(value, environment, "CardDescription_Panel")
@@ -9316,7 +9483,9 @@ do
                     "UpdateMatchInfo", "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail",
                     "SetGameDetail", "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails",
                     "ShowCardDetail", "SetCardData", "UpdateCardInfo", "InitView", "OnOpen",
-                    "SetCard", "ShowCard", "UpdateCard", "Show"
+                    "SetCard", "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
+                    "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
+                    "UpdateSynergy", "UpdateSynergies", "RefreshSynergy"
                 }) do
                     local origM = panelClass[m]
                     if type(origM) == "function" then

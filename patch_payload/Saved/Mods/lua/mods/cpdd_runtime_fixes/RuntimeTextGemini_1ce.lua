@@ -218,6 +218,7 @@ return {
     ["We are very sorry, the function is temporarily closed, and relevant personnel are handling it."] = "Нам очень жаль, функция временно закрыта, ею занимаются соответствующие сотрудники.",
     ["Klein: I don't know what might happen next, and paying 50 pounds all at once would reduce my ability to withstand risks."] = "Клейн: Я не знаю, что может случиться дальше, и оплата всех 50 фунтов сразу снизит мою способность противостоять риску.",
     ["Estimated Cost"] = "Ориентировочная стоимость",
+    ["%s/%s"] = "%s/%s",
     ["The club does not exist."] = "Клуба не существует.",
     ["I think your makeup and complexion are no different from theirs."] = "Я думаю, твой макияж и цвет лица ничем не отличаются от их.",
     ["Thank you, Benjamin Cloud, thank you for trying so hard to protect everyone."] = "Спасибо, Бенджамин Клауд, спасибо за то, что ты так стараешься защитить всех.",

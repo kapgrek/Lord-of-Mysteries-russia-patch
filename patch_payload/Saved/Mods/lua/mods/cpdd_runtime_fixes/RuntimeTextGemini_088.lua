@@ -250,6 +250,7 @@ return {
     ["Klein: Why don't you make a simpler one, for example, one with only two wheels, that can only carry one person, and without a shell?"] = "Клейн: Почему бы вам не сделать более простой вариант, например, с двумя колесами, который может перевозить только одного человека, и без снаряда?",
     ["Thief"] = "Вор",
     ["Arrive at the flower stall"] = "Прийти к цветочному ларьку",
+    ["%s %s %s"] = "%s %s %s",
     ["What got back here?"] = "Что сюда вернулось?",
     ["I will offer my soul, and I will use blood to please you."] = "Я предложу свою душу и кровью, чтобы доставить тебе удовольствие.",
     ["Alright, I'll pick a few more."] = "Хорошо, я выберу еще несколько.",

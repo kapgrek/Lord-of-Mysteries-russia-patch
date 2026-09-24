@@ -85,6 +85,7 @@ return {
     ["One-hit kill specified target (TemplateID)"] = "Уничтожить указанную цель одним ударом (TemplateID)",
     ["The poor district has such a small space, yet it buries most of the people of Tingen; burying them haphazardly has naturally become the norm!"] = "Бедный район имеет такую ​​маленькую площадь, но в нем похоронена большая часть жителей Тингена; закапывать их беспорядочно, естественно, стало нормой!",
     ["Pious prayers turn into feathers; divine grace shall descend upon those with firm faith."] = "Благочестивые молитвы обращаются перьями; божественная милость непременно снизойдет на тех, чья вера неколебима.",
+    ["[UIFrame : UIComponent]:AddUIEvent %s Duplicate binding of event function %s %s"] = "[UIFrame : UIComponent]:AddUIEvent %s Duplicate binding of event function %s %s",
     ["Roselle Returns"] = "Розель возвращается",
     ["Auto-chess: Get panel information"] = "Автошахматы: получение информации о панели",
     ["Little Daly, little Daly, can you hear me?"] = "Маленький Дейли, маленький Дейли, ты меня слышишь?",

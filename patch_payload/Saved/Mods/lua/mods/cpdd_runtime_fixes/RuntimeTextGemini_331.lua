@@ -104,6 +104,7 @@ return {
     ["Complete all beginner guides"] = "Завершите все руководства для начинающих.",
     ["Parick? He's sleeping very soundly..."] = "Парик? Он очень крепко спит...",
     ["Careful, his will has been completely distorted by corruption and obsession!"] = "Осторожно, его воля полностью искажена Искажением и одержимостью!",
+    ["[UIFrame : UIComponent].StopAnimation: stop animation failed, widgetAnimation = nil %s"] = "[UIFrame : UIComponent].StopAnimation: stop animation failed, widgetAnimation = nil %s",
     ["Ask the <h>two</> why they are arguing"] = "Спросите <h>two</>, почему они ссорятся.",
     ["Melee Humanoid Monster"] = "Гуманоидный монстр ближнего боя",
     ["Iron Wall Knight"] = "Рыцарь Железной Стены",

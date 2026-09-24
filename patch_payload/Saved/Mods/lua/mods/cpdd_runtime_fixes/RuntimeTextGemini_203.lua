@@ -200,6 +200,7 @@ return {
     ["Anyone looking to switch jobs?"] = "Кто-нибудь хочет сменить работу?",
     ["Beyonder Material - Attack"] = "Материал Потусторонний — Атака",
     ["Everything is spinning..."] = "Все крутится...",
+    ["[UIFrame : NewUIManager].CreateScrip failed to create %s :%s, %s %s"] = "[UIFrame : NewUIManager].CreateScrip failed to create %s :%s, %s %s",
     ["Small muffin"] = "Маленький маффин",
     ["The residents of City of Silver have been isolated here for generations, suffering from a brutal curse, struggling to explore for over two thousand years."] = "Жители Серебряного Города были изолированы здесь на протяжении нескольких поколений, страдая от жестокого проклятия и пытаясь исследовать мир на протяжении более двух тысяч лет.",
     ["Witch lounge chair hug (FF)"] = "Объятие шезлонга Ведьма (FF)",

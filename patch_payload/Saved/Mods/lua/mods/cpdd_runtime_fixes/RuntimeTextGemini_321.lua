@@ -234,6 +234,7 @@ return {
     ["Archive description not yet obtained"] = "Описание архива пока не получено",
     ["Education Plan"] = "План обучения",
     ["Who is the character that ends the Ripper?"] = "Кто тот персонаж, который заканчивает Потрошителя?",
+    ["[UIFrame : NewUIManager].RequireUIClass %s failed, reason: no non-local UI Class named %s in the file"] = "[UIFrame : NewUIManager].RequireUIClass %s failed, reason: no non-local UI Class named %s in the file",
     ["Wait for shoeshine boy"] = "Подожди, мальчик-чистильщик обуви.",
     ["Enable Audio Playback Recording"] = "Включить запись воспроизведения звука",
     ["Pah! What kind of fight was that!"] = "Тьфу! Что это была за драка!",

@@ -1,6 +1,7 @@
 ﻿-- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 099/3ff.
 return {
+    ["[UIFrame : NewUIManager]InstanceWidget Error uid %s Please confirm if the loaded path is missing _C %s"] = "[UIFrame : NewUIManager]InstanceWidget Error uid %s Please confirm if the loaded path is missing _C %s",
     ["Conquer the \n Emperor"] = "Император-\nЗавоеватель",
     ["Tonight I'm going back to make tender pea and lamb stew to celebrate little Georgia passing the government employee exam."] = "Сегодня вечером я приготовлю тушеную ягнятину с нежным горошком, чтобы отпраздновать сдачу экзамена на госслужбу маленькой Джорджией.",
     ["Irene Photo Frame"] = "Фоторамка Айрин",

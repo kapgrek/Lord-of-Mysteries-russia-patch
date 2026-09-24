@@ -151,6 +151,7 @@ return {
     ["<Yellow> You have shouldered a cursed fate; upon death, your bones will animate the surrounding land </>"] = "<Yellow>Вы взвалили на себя проклятую судьбу: после вашей гибели кости оживят окружающую землю</>",
     ["Compensate"] = "Компенсация",
     ["Since we've had a good chat, are you willing to come with me and take a look? You're someone who knows quality, I can tell at a glance!"] = "Раз уж мы так славно поладили, не согласитесь ли пройтись со мной и взглянуть? Вы человек знающий толк, я сразу это вижу!",
+    ["[UIFrame : UIComponent].AsyncLoadComponent script is closed, but the asynchronous loading callback has not terminated class:%s, cellId:%s %s"] = "[UIFrame : UIComponent].AsyncLoadComponent script is closed, but the asynchronous loading callback has not terminated class:%s, cellId:%s %s",
     ["Rozanne: That's Frye, don't look at him like that, he's actually a pretty good guy, I'll introduce you later."] = "Розанна: Это Фрай. Не смотри, что он такой угрюмый, на самом деле он отличный парень. Позже познакомлю вас.",
     ["Qujing"] = "Цюйцзин",
     ["It really does have a mature, trustworthy feel."] = "И правда появилось ощущение зрелости и надежности.",

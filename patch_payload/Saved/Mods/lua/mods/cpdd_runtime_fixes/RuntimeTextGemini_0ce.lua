@@ -219,4 +219,5 @@ return {
     ["Pull Her Away"] = "вытащить ее прочь",
     ["Ruby Rosa, arguably our best dancer. Once she stands on stage, the audience goes quiet."] = "Руби Роза, возможно, наша лучшая танцовщица. Как только она выходит на сцену, публика замолкает.",
     ["The number of motion capture slots has reached the limit; cannot unlock more."] = "Количество слотов для захвата движения достигло предела; не могу разблокировать больше.",
+    ["【法术】"] = "【Колдовство】",
 }

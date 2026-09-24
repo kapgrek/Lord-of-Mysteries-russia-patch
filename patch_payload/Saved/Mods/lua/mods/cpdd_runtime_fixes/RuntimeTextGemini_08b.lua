@@ -222,6 +222,7 @@ return {
     ["450 Stone Carving"] = "450 Резьба по камню",
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Hard)</> and complete the <Highlight>Escort Carriage</> stage for a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Hard)</> и завершите этап <Highlight>Escort Carriage</>, чтобы получить шанс получить следующие предметы.",
     ["Vehicle Skill"] = "Навыки транспортных средств",
+    ["[UIFrame : UIComponent]:CreateComponent Blueprint: %s has no script bound to it, and UICellConfig is not configured for %s"] = "[UIFrame : UIComponent]:CreateComponent Blueprint: %s has no script bound to it, and UICellConfig is not configured for %s",
     ["God-abandoned 5 reserve damage"] = "Заброшенный богом 5 резервного урона",
     ["AnimBlur (SDF fonts only)"] = "AnimBlur (только шрифты SDF)",
     ["Chapter 8"] = "Глава b",

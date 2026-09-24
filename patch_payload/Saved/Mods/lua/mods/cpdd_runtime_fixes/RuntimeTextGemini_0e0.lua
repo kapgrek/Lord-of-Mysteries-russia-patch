@@ -267,6 +267,7 @@ return {
     ["The broad leaves stretch out in the window light, adding a touch of jungle ease to the living room."] = "Широкие листья простираются в свете окон, добавляя гостиной нотку непринужденности джунглей.",
     ["Edwin Return 3"] = "Эдвин Возвращение b",
     ["Spectator Acting\r\n(Psychological Suggestion)"] = "Ролевая игра с аудиторией\n (психологическое внушение)",
+    ["%d:%d"] = "%d:%d",
     ["Achievement: Blessed of the God of Craftsmanship"] = "Достижение: Благословение Бога Мастерства.",
     ["In the morning mist, there are traces left by elves."] = "В утреннем тумане есть следы, оставленные эльфами.",
     ["Why not take a look at the houses I have on hand? No deposit, formal contract, I guarantee you'll be satisfied!"] = "Почему бы не взглянуть на дома, которые у меня есть? Без залога, официальный договор, гарантирую, вы останетесь довольны!",

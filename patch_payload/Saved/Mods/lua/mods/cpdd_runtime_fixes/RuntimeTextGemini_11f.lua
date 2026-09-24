@@ -242,6 +242,7 @@ return {
     ["I heard you've lost quite a bit of money playing cards?"] = "Я слышал, ты проиграл немало денег, играя в карты?",
     ["The answers to the two questions were once on the chair of the divination table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of divination</>?"] = "The answers to the two questions were once on the chair of the Гадание table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of Гадание</>?",
     ["Auto-cremate Corpse"] = "Автосжигание трупов",
+    ["2025/10/23 16:17"] = "2025/10/23 16:17",
     ["Stronghold healing reduction"] = "Уменьшение исцеления в Крепости",
     ["East District Atmosphere - Anna Joyce Walking Point"] = "Атмосфера восточного округа – пешеходная площадка Анны Джойс",
     ["Convert <LightHighlight> Alcohol and Food </> Gold Items into 125% of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Plated Court Tea Set] </>."] = "Превратите золотые предметы <LightHighlight> в алкоголь и продукты питания </> в <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Посеребренный придворный чайный сервиз] </>.",

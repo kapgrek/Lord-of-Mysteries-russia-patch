@@ -194,7 +194,7 @@ return {
     ["Rotating Statue 1 State"] = "Вращающаяся статуя 1 состояние",
     ["Farewell, cage!"] = "Прощай, клетка!",
     ["My god, you're so bad."] = "Боже мой, ты такой плохой.",
-    ["Evernight Goddess Church choir is recruiting. Praise the Goddess and find peace. Those interested can go to..."] = "Хор церкви Вечной Богини набирает набор. Славьте Богиню и обретите покой. Желающие могут посетить...",
+    ["Evernight Goddess Church choir is recruiting. Praise the Goddess and find peace. Those interested can go to..."] = "Хор церкви Богини Вечной Ночи набирает набор. Славьте Богиню и обретите покой. Желающие могут посетить...",
     ["Pool front"] = "Передняя часть бассейна",
     ["Club Member"] = "Член клуба",
     ["That's enough. Prepare to start the ritual."] = "Этого достаточно. Приготовьтесь начать ритуал.",

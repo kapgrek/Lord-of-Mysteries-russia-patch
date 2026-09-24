@@ -6,6 +6,7 @@ return {
     ["Related features are under development; please ignore."] = "Функция находится в разработке, пожалуйста, проигнорируйте.",
     ["Third Divination"] = "Третье гадание",
     ["For every 1 level increase in Club level, the Exchange level cap increases by 4 levels."] = "За каждый 1 уровень клуба максимальный уровень биржи повышается на 4 уровня.",
+    ["Project Mugen"] = "Project Mugen",
     ["A claw? There is some residual corruption; it looks like it needs to be purified."] = "Коготь? Есть остаточное загрязнение, похоже, потребуется очищение.",
     ["1.10 Pretend to leave"] = "1.10 Сделать вид, что уходишь",
     ["Oh Goddess! Don't reach out! Be careful not to fall!"] = "Богиня праведная! Не тянись руками! Упадешь ведь!",

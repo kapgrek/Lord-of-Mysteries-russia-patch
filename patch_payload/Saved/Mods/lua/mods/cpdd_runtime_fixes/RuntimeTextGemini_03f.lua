@@ -249,4 +249,5 @@ return {
     ["Advancement - Sequence 6 - Dawn Knight"] = "Продвижение – Эпизод 6 – Рыцарь Рассвета",
     ["Time Wheel Astrolabe"] = "Астролябия колеса времени",
     ["Witch Badge"] = "Эмблема Ведьмы",
+    ["[Bulwark]"] = "[Оплот]",
 }

@@ -41,6 +41,7 @@ return {
     ["Golden axe"] = "Золотой топор",
     ["[Golden Autumn Lake-Hard]-Druid-Flower Placement Mark-Secondary Mark DPS"] = "[Озеро Золотой Осени-Хард]-Друид-Знак размещения цветка-Вторичный знак ДПС",
     ["Family name has been changed to %s."] = "Фамилия изменена на %s.",
+    ["[UIFrame : UICompRenderTarget]:OnLoadEntityFinish Rotation parameter type error %s"] = "[UIFrame : UICompRenderTarget]:OnLoadEntityFinish Rotation parameter type error %s",
     ["Face Preset"] = "Предварительные настройки лица",
     ["Years of Watching the Game"] = "Годы наблюдения за игрой",
     ["Strange Tingen, strange police; I'll see what he wants from me tomorrow."] = "Странный Тинген, странная полиция; Завтра посмотрю, чего он от меня хочет.",

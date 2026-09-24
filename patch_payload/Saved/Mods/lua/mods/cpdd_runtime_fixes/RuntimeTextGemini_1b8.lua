@@ -12,6 +12,7 @@ return {
     ["Hem"] = "Подол",
     ["Then where did the title \"Toxin Expert\" come from?"] = "Тогда откуда взялось прозвище «Знаток ядов»?",
     ["Summon an Ouroboros Shadow to unleash a Black Turbulence shockwave forward, followed by the ability to manually trigger a second Black Turbulence shockwave within 6 seconds. \nBlack Turbulence: Only effective against enemies, knocking them back while applying Continuous Damage; if an enemy dies during this period, an Explosion occurs on the spot. \nWhite Turbulence: Only effective against friendly units, instantly restoring a certain amount of Health and increasing movement speed and damage reduction for the next 8 seconds."] = "Призывает остаточный образ Уробороса, который выпускает вперед черный бурный поток, после чего в течение 6 секунд можно вручную выпустить второй, белый бурный поток.\nЧерный поток: действует только на врагов, отбрасывая их и нанося периодический урон; если враг погибает во время действия эффекта, на его месте происходит взрыв с нанесением урона.\nБелый поток: действует только на союзников, мгновенно восстанавливая определенное количество здоровья и повышая скорость передвижения и снижение урона на следующие 8 секунд.",
+    ["[UIFrame : UIComponent]:Destroy resource has been destroyed, Lua component leaked %s %s"] = "[UIFrame : UIComponent]:Destroy resource has been destroyed, Lua component leaked %s %s",
     ["Perry"] = "Перри",
     ["Blackboard Note 1"] = "Заметка на доске 1",
     ["Download failed"] = "Ошибка загрузки",

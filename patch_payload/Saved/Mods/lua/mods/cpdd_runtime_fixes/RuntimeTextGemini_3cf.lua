@@ -50,6 +50,7 @@ return {
     ["Item information text item information text this item information text item item information text item information text item information text item item information text"] = "Текст с информацией об элементе Текст с информацией об элементе Текст с информацией об этом элементе Текст с информацией об элементе Текст с информацией об элементе Текст с информацией об элементе Текст с информацией об элементе Текст с информацией об элементе",
     ["The money is placed, where are the insider materials?"] = "Деньги размещены, а где инсайдерские материалы?",
     ["Attack and Defense increased by 15%"] = "Атака и защита увеличены на 15%.",
+    ["[UIFrame : UIComponent]:CreateComponent Non-UserWidget must pass in the Lua class to be created"] = "[UIFrame : UIComponent]:CreateComponent Non-UserWidget must pass in the Lua class to be created",
     ["5230314 Test - Copy"] = "5230314 Копия: Test",
     ["You understand, right? Weirdos always have some strange quirks, like a fanatical obsession with dolls or something..."] = "Вы понимаете, да? У чудаков всегда есть какие-нибудь странные причуды, например, фанатичная одержимость куклами или что-то в этом роде...",
     ["Automatically cast Dawn Armor when Health drops below 50%, CD 120 seconds."] = "Автоматически применяет Dawn Armor, когда здоровье падает ниже 50%, время восстановления 120 секунд.",

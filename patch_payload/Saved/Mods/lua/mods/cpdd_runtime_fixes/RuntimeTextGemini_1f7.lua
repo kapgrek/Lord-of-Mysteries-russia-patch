@@ -217,6 +217,7 @@ return {
     ["60 Gold Pound Voucher"] = "Ваучер на 60 золотых фунтов",
     ["Piercing increased by <Mark>105</>. While in combat, increases the entire team's Critical Hit by <Mark>30</> and reduces Defense by <Mark>15</>."] = "Прокалывание увеличено на <Mark>105</>. В бою увеличивает критический удар всей команды на <Mark>30</> и снижает защиту на <Mark>15</>.",
     ["The Chariot"] = "Колесница",
+    ["[UIFrame : NewUIManager].CreateScript failed to create lua Script is Nil %s"] = "[UIFrame : NewUIManager].CreateScript failed to create lua Script is Nil %s",
     ["If anyone could actually get Lily <P_Yellow>drunk</>, that guy would really be in for a treat, heh heh..."] = "Если бы кто-нибудь действительно мог получить Лили <P_Yellow>drunk</>, этот парень был бы в восторге, хе-хе...",
     ["Communicate kindly with the old couple"] = "Пообщайтесь любезно со пожилой парой",
     ["Terrace Courtship Atmosphere NPC 2"] = "Атмосфера ухаживания на террасе NPC b",

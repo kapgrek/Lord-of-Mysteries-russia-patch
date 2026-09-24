@@ -21,6 +21,7 @@ return {
     ["<P_Heart>(Surprised) </>Really? Can you let me touch the light?"] = "<P_Heart>*(С восторгом)*</> Правда? Ты можешь дать мне дотронуться до света?",
     ["Acting (Bard) - Day 3 Level 47"] = "Отыгрыш (Песнопевец) — День 3, ур. 47",
     ["<Assistant_Title1>This Batch of Projections is No Good</>\n<Assistant_Title2>Achievement Category:</>Leisure-Fun\n<Assistant_Title2>Unlock Condition:</>In a round where more than 5 projections are deployed, none of the projections enter the top 5"] = "<Assistant_Title1>Никудышные проекции</>\n<Assistant_Title2>Категория достижения: </>Досуг — Забавы\n<Assistant_Title2>Условие получения: </>в раунде с участием более 5 проекций ни одна проекция не вошла в топ-5",
+    ["Score_Total"] = "Score_Total",
     ["Dante "] = "Данте·",
     ["Past · Golden Autumn Lake"] = "Прошлое · Озеро Золотой Осени",
     ["Target channel cannot be entered; please switch channels."] = "Невозможно войти в целевую ветку, переключите ветку.",
@@ -251,4 +252,5 @@ return {
     ["使用后获得<Highlight>不怕菇毒</>\n重复获取将自动分解为绑定金镑×100"] = "Используйте, чтобы получить <Highlight>«Иммунитет к грибному яду»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
     ["Spellcraft"] = "Колдовство",
     ["每隔<HighLight>5</>秒，攻击提高<HighLight>15%</>，最多叠加<HighLight>5</>层。"] = "Каждые <HighLight>5</> сек. атака увеличивается на <HighLight>15%</>, максимум <HighLight>5</> уровней.",
+    ["【坚阵】"] = "【Оплот】",
 }

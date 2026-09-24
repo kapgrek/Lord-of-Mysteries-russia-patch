@@ -221,6 +221,7 @@ return {
     ["<P_Heart>(Wife? He? What's going on... David, a male name?)</>"] = "<P_Heart>(Жена? Он? Что происходит... Дэвид, мужское имя?)</>",
     ["The Fool."] = "Шут.",
     ["The monster's residual spirituality headed into the alley. The leader shouldn't be far."] = "Остаточная духовность монстра направилась в переулок. Лидер не должен быть далеко.",
+    ["[UIFrame : NewUIManager] Cannot close this interface while it is opening. uid = %s %s"] = "[UIFrame : NewUIManager] Cannot close this interface while it is opening. uid = %s %s",
     ["Talk to the butler."] = "Поговорите с дворецким.",
     ["Is this some kind of ritual or mysticism of the giants?"] = "Это какой-то ритуал или мистика великанов?",
     ["Detective coming for divination"] = "Детектив приезжает на гадание",

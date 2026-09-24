@@ -275,4 +275,5 @@ return {
     ["【通识者】"] = "[Знаток]",
     ["并肩"] = "Плечом к плечу",
     ["Immediately gain <HighLight> 2 Gold Coins </>. Each time you level up, gain <HighLight> (Player Level + 1) free refreshes </>."] = "Немедленно даёт <HighLight> 2 золотые монеты </>. При каждом повышении уровня даёт <HighLight> (уровень игрока + 1) бесплатных обновлений </>.",
+    ["【远射】"] = "【Дальний выстрел】",
 }

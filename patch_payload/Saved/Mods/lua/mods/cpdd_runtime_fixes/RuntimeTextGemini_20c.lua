@@ -253,4 +253,5 @@ return {
     ["Super strength, super physique, super agility. As long as it is a weapon, once in hand, it can be used at a master level."] = "Супер сила, супер телосложение, супер ловкость. Пока это оружие, попав в руки, его можно использовать на уровне мастера.",
     ["The brooch with a worn-away name remains as warm as ever."] = "Брошь с затертым именем остается такой же теплой, как и прежде.",
     ["Complete 1 match of Plateau Battle"] = "Завершите 1 матч в битве на плато.",
+    ["秘术"] = "Тайное знание",
 }

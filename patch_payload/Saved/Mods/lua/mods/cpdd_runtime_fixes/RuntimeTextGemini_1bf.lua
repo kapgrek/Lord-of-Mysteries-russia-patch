@@ -238,6 +238,7 @@ return {
     ["Blood Moon Descent"] = "Сошествие Кровавой Луны",
     ["Brilliant glory, reflecting all phenomena."] = "Блестящая слава, отражающая все явления.",
     ["There are so many ways to do things?"] = "Есть так много способов сделать что-то?",
+    ["2025/08/17 12:00"] = "2025/08/17 12:00",
     ["Feeling very depressed, don't want to do anything | Feeling manic, unable to control oneself"] = "Чувствую себя очень подавленно, ничего не хочу делать | Ощущение маниакального состояния, неспособности контролировать себя.",
     ["Ade Sailor 1"] = "Аде Сейлор b",
     ["Gather the specified TemplateID collection item; delayed execution; object plays specified dialogue content; object plays action (has state record)."] = "Соберите указанный элемент коллекции TemplateID; отложенное исполнение; объект воспроизводит указанное содержимое диалога; объект выполняет действие (имеет запись состояния).",

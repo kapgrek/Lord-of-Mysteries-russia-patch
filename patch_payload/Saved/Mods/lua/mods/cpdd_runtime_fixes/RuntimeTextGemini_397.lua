@@ -249,4 +249,5 @@ return {
     ["[Seer]"] = "[Провидец]",
     ["[Arcane]"] = "[Тайное знание]",
     ["Gain <HighLight> two random Resonance Badges </>, one Equipment Reforger, and 2 Gold Coins."] = "Даёт <HighLight> две случайные эмблемы резонанса </>, один перековщик снаряжения и 2 золотые монеты.",
+    ["【秘术】"] = "【Тайное знание】",
 }

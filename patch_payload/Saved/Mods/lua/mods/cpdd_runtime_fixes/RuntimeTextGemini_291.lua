@@ -250,4 +250,5 @@ return {
     ["Give me a bunch"] = "Дай мне кучу",
     ["Butler Albert"] = "Батлер Альберт",
     ["I'll help you grab it back!"] = "Я помогу тебе вернуть его!",
+    ["岩石"] = "Скала",
 }

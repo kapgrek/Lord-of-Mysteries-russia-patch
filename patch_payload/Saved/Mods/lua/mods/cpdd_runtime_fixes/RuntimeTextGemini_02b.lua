@@ -215,7 +215,7 @@ return {
     ["It's just due to some accidents and coincidences; I needed to gain the ability to protect myself as soon as possible."] = "Это просто из-за каких-то случайностей и совпадений; Мне нужно было как можно скорее обрести способность защитить себя.",
     ["Want to hear my professional judgment? This coat of yours, the shoulders are too wide. Come to my shop later, and I'll alter it for you."] = "Хотите услышать мое профессиональное суждение? У этого твоего пальто плечи слишком широкие. Приходите ко мне позже, и я переделаю его для вас.",
     ["Complete %s/%s explorations: <Highlight>Bard Note Challenge</>, watch the bard perform"] = "Завершите исследования %s/%s: <Highlight>Bard Note Challenge</>, посмотрите выступление барда",
-    ["Bulwark"] = "оплот",
+    ["Bulwark"] = "Оплот",
     ["Talk to <h>Mr. Azik</>"] = "Поговорите с <h>Mr. Азик</>",
     ["Hotfix process complete"] = "Процесс исправления завершен",
     ["Obtain 10 <Highlight>Triumph Badges</>."] = "Получите 10 значков триумфа <Highlight>T</>.",

@@ -14,6 +14,7 @@ return {
     ["Chapter Two "] = "Глава 2 ",
     ["Maze Trap · Normal"] = "Ловушка лабиринта — Обычная",
     ["Organize Thoughts Trigger"] = "Триггер упорядочивания мыслей",
+    ["NetEase"] = "NetEase",
     ["Reset successful!"] = "Сброс выполнен успешно!",
     ["Template Elite - Shadow (Deprecated)"] = "Элитный монстр-шаблон: Тень (устарело)",
     ["Investigate the ruins"] = "Осмотреть руины",

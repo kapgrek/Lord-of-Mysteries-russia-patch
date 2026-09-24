@@ -220,6 +220,7 @@ return {
     ["Klein: Murder!"] = "Клейн: Убийство!",
     ["Test State 17"] = "Тестовое состояние bb",
     ["Requires selecting target NPC first."] = "Сначала необходимо выбрать целевого NPC.",
+    ["[UIFrame : NewUIManager] Panel % secondary open failed, Reason: %s %s"] = "[UIFrame : NewUIManager] Panel % secondary open failed, Reason: %s %s",
     ["Knockup Hit_Percentage Bonus"] = "Бонус за подбрасывание_процента",
     ["Gift to a friend to increase friendship by 100 points."] = "Подарок другу для повышения дружбы на 100 очков.",
     ["Lone Peak"] = "Лоун Пик",

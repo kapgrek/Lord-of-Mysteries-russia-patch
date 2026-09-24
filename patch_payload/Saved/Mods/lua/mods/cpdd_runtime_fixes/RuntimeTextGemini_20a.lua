@@ -56,7 +56,7 @@ return {
     ["If too much energy is injected, the steam engine will #CanMove overload #."] = "Если впрыснуть слишком много энергии, паровой двигатель #CanMove перегрузится #.",
     ["Buy flowers and get a guide, only for those destined!"] = "Купите цветы и получите путеводитель, только для тех, кому суждено!",
     ["You are investigating Yodora? That poor little thing..."] = "Вы расследуете Йодору? Бедняжка эта...",
-    ["Evernight Goddess Church"] = "Церковь Вечной Богини",
+    ["Evernight Goddess Church"] = "Церковь Богини Вечной Ночи",
     ["Eternal Darkness Conversion"] = "Преобразование Вечной Тьмы",
     ["Sound-tracking - Gameplay success range"] = "Звуковое сопровождение — диапазон успеха игрового процесса",
     ["Damaged Group Photo"] = "Поврежденная групповая фотография",

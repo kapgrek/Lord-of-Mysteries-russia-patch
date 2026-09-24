@@ -233,7 +233,7 @@ return {
     ["Obtained <Highlight>Chaos Greatsword</>"] = "Получен <Highlight>Двуручный меч Хаоса</>.",
     ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Sylvia</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Sylvia</>.",
     ["Go to the barn"] = "Иди в сарай",
-    ["[Life School of Thought]"] = "[Школа Мысли Жизни]",
+    ["[Life School of Thought]"] = "[Школа мысли Жизни]",
     ["装配后获得【隐秘学派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Школа Тайн].",
     ["3 每个独特的3星棋子：全体友军+3%攻击力和5点防御。每次玩家战斗后获得1个随机荒野怪物棋子。"] = "3 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
     ["Each time you refresh the shop, there is a 45% probability<HighLight></> to gain 1 free refresh<HighLight></>."] = "При каждом обновлении магазина есть 45% шанс<HighLight></> получить 1 бесплатное обновление<HighLight></>.",

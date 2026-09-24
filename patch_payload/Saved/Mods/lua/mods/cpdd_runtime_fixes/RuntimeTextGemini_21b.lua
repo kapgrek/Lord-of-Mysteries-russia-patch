@@ -266,4 +266,5 @@ return {
     ["Brewing potion"] = "Варим зелье",
     ["Time is the gentlest recorder; it has never let any promise fall through."] = "Время — самый бережный регистратор; он никогда не позволял ни одному обещанию сбыться.",
     ["At the start of combat, for <HighLight> every ally chess piece in the first row </>, the entire team gains <HighLight> 50 Health </>."] = "В начале боя за <HighLight> каждую союзную фигуру в первом ряду </> вся команда получает <HighLight> 50 ед. здоровья </>.",
+    ["【律师】"] = "【Юрист】",
 }

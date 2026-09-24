@@ -2,6 +2,7 @@
 -- Lazy exact-text shard 29e/3ff.
 return {
     ["Of course. If you don't work hard, you have to be punished; that's only fair to the others."] = "Конечно. Кто не старается, должен понести наказание — только так будет справедливо по отношению к остальным.",
+    ["%sx"] = "%sx",
     ["Local Monster Chase Performance"] = "Сцена погони монстра",
     ["Pete Footprints - New"] = "Следы Пита (новые)",
     ["Are you sure you want to increase the danger level of the Sealed Artifact <Highlight>%s</>?"] = "Вы уверены, что хотите повысить класс опасности Запечатанного Артефакта <Highlight>%s</>?",

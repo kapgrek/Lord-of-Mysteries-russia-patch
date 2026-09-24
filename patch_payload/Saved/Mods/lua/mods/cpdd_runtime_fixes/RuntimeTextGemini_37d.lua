@@ -89,6 +89,7 @@ return {
     ["Memory flashback: Two beers and a pudding clinking together."] = "Воспоминание: два пива и пудинг звенят вместе.",
     ["Frame Generation"] = "Генерация кадров",
     ["Can't you see the damage-dealing healer?"] = "Разве ты не видишь целителя, наносящего урон?",
+    ["[UIFrame : UIComponent]:SetImage Set image %s failed. Image control needs to be UKGImage %s %s"] = "[UIFrame : UIComponent]:SetImage Set image %s failed. Image control needs to be UKGImage %s %s",
     ["Shout angrily"] = "Кричать сердито",
     ["Failed to serialize Display Stand Scene configuration string"] = "Не удалось сериализовать строку конфигурации сцены витрины.",
     ["My Spirit Mediumship Diary"] = "Мой дневник духовного медиумизма",
@@ -243,4 +244,5 @@ return {
     ["Direction of love"] = "Направление любви",
     ["After I go back this time, I don't know when I'll be coming to Tingen next."] = "После того, как я вернусь на этот раз, я не знаю, когда я приеду в Тинген в следующий раз.",
     ["Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round."] = "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
+    ["【黑夜女神教会】"] = "【Церковь Богини Вечной Ночи】",
 }

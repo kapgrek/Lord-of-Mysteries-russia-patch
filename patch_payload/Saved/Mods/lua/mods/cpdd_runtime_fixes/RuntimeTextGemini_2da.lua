@@ -273,5 +273,5 @@ return {
     ["Clear any Blackthorn Incident File once"] = "Очистите любой файл инцидента Чёрный Чертополох один раз.",
     ["Parker "] = "Паркер",
     ["<P_Heart>(The Captain doesn't seem to have a very good memory...)</>"] = "<P_Heart>(Похоже, у капитана не очень хорошая память...)</>",
-    ["【施法】"] = "[Колдовство]",
+    ["【施法】"] = "【Колдовство】",
 }

@@ -193,6 +193,7 @@ return {
     ["Captain of the Tingen Mandated Punishers"] = "Капитан Назначенных Карателей Тингена",
     ["Go talk to <h> Jacob </>"] = "Поговорите с <h> Джейкобом </>.",
     ["Sebastian? ...Could the club you mentioned be..."] = "Себастьян?...Может ли клуб, о котором вы упомянули...",
+    ["[UIFrame : WorldWidgetCellBase2]: BindWorldWidgetEvent, %s duplicate binding event %s %s"] = "[UIFrame : WorldWidgetCellBase2]: BindWorldWidgetEvent, %s duplicate binding event %s %s",
     ["Piano Performance"] = "Фортепианное исполнение",
     ["Klein Shoot Combo Count Mark"] = "Отсчетная отметка комбо-броска Клейна",
     ["But that's because she didn't have any relatives left. I took care of her for a long time, and she wanted to pass on her precious Beyonder characteristic to me after she died, along with that bracelet..."] = "Но это потому, что у нее не осталось родственников. Я заботился о ней долгое время, и после смерти она хотела передать мне свои драгоценные черты Потустороннего вместе с этим браслетом...",

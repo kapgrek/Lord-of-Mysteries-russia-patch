@@ -199,6 +199,7 @@ return {
     ["I clearly have her favorite fairy tale picture book at home, and sweet little cookies too..."] = "У меня дома наверняка есть ее любимая книжка со сказками и милое печенье...",
     ["Don't Stop the Story - Retrace"] = "Не останавливайте историю – вернитесь назад",
     ["This might also be the reason why you weren't at the scene but committed suicide at home."] = "Это также может быть причиной того, что вы не были на месте происшествия, а покончили жизнь самоубийством дома.",
+    ["12:18:09"] = "12:18:09",
     ["GTA - Audrey Healing - Sit Down"] = "GTA - Одри Хилинг - Садись",
     ["Take this chance to escape!"] = "Воспользуйтесь этим шансом, чтобы сбежать!",
     ["This silly kid has no guard up at all. Let's be quick, bag him, and take all the money on him..."] = "Этот глупый ребенок вообще не имеет охраны. Давайте побыстрее, поймаем его и возьмем на себя все деньги...",

@@ -212,6 +212,7 @@ return {
     ["Summoning Circle"] = "Круг призыва",
     ["Walk aside with Rozanne"] = "Уйти в сторону с Розанной",
     ["The Witch and the Beast - Act 1 Auction House Prop Setup"] = "Ведьма и чудовище - Акт 1. Установка реквизита аукционного дома",
+    ["[UIFrame : UIComponent]: InvokeComponent function does not exist: %s %s"] = "[UIFrame : UIComponent]: InvokeComponent function does not exist: %s %s",
     ["Place Crimson Moon card"] = "Поместите карту Багровой Луны",
     ["Participate in a villa party to borrow the villa owner's outfit for free and participate in party interactions to claim rewards."] = "Участвуйте в вечеринке на вилле, чтобы бесплатно одолжить одежду владельца виллы, и участвуйте во взаимодействиях с вечеринкой, чтобы получить награды.",
     ["The spirits around here... are noisy and chaotic. A lot has happened here."] = "Духи здесь... шумные и хаотичные. Здесь многое произошло.",

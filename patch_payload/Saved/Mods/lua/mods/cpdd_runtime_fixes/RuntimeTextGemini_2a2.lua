@@ -231,6 +231,7 @@ return {
     ["Ria"] = "Риа",
     ["Studio Club"] = "Студия Клуб",
     ["Hiss... thank you."] = "Хисс... спасибо.",
+    ["[UIFrame : UIComponent].AsyncLoadComponent script has been destroyed, but the asynchronous loading callback has not terminated class:%s, cellId:%s %s"] = "[UIFrame : UIComponent].AsyncLoadComponent script has been destroyed, but the asynchronous loading callback has not terminated class:%s, cellId:%s %s",
     ["Message parameter (integer)."] = "Параметр сообщения (целое число).",
     ["Target radius ratio"] = "Коэффициент радиуса цели",
     ["Find Danny's Coffin"] = "Найдите гроб Дэнни",

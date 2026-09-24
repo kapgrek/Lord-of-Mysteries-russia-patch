@@ -230,6 +230,7 @@ return {
     ["[Auto Chess] - Druid - Vine Stab 1 (re)"] = "[Авто-шахматы] - Друид - Удар лозы 1 (повторно)",
     ["Gold Spun Thread 330"] = "Золотая нить abb",
     ["Right Ctrl"] = "Правый Ctrl",
+    ["[UIFrame : NewUIManager].RequireUIClass %s failed, reason %s"] = "[UIFrame : NewUIManager].RequireUIClass %s failed, reason %s",
     ["Accumulated 18 Points"] = "Набрано 18 очков",
     ["Text board lookat"] = "Обзор текстовой доски",
     ["Total likes on personal profile"] = "Всего лайков в личном профиле",

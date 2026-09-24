@@ -56,6 +56,7 @@ public class FastShardCompiler {
         Regex itemRegex = new Regex(@"""source_cn""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""ref_en""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""target_ru""\s*:\s*""((?:\\""|[^""])*)""", RegexOptions.Compiled);
 
         foreach (string bFile in batchFiles) {
+            bool isBatch28 = bFile.IndexOf("batch_028", StringComparison.OrdinalIgnoreCase) >= 0;
             string content = File.ReadAllText(bFile, Encoding.UTF8);
             MatchCollection matches = itemRegex.Matches(content);
             foreach (Match m in matches) {
@@ -79,14 +80,14 @@ public class FastShardCompiler {
 
                 // Also map English reference to Russian translation so text rendered
                 // from CPDD English overlays or baked text gets translated to Russian
-                if (!string.IsNullOrEmpty(en) && en != cn && !string.IsNullOrEmpty(ru) && ru != en) {
+                if (!string.IsNullOrEmpty(en) && !string.IsNullOrEmpty(ru)) {
                     string keyEn = ComputeSourceKey(en);
                     string shardEn = GetShardPrefix(keyEn);
 
                     if (!shardMap.ContainsKey(shardEn)) {
                         shardMap[shardEn] = new Dictionary<string, string>();
                     }
-                    if (!shardMap[shardEn].ContainsKey(en)) {
+                    if (isBatch28 || !shardMap[shardEn].ContainsKey(en)) {
                         shardMap[shardEn][en] = ru;
                         enMappedCount++;
                     }
@@ -100,8 +101,13 @@ public class FastShardCompiler {
             { "* Activate Resonance", "* Активировать резонанс" },
             { "Activated Resonance", "Активированный резонанс" },
             { "Spellcraft", "Колдовство" },
+            { "[Spellcraft]", "[Колдовство]" },
             { "Spellcasting", "Колдовство" },
             { "[Spellcasting]", "[Колдовство]" },
+            { "施法", "Колдовство" },
+            { "【施法】", "【Колдовство】" },
+            { "法术", "Колдовство" },
+            { "【法术】", "【Колдовство】" },
             { "All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast.", "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка." },
             { "[Spellcasting] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack.", "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки." },
             { "[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.", "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки." },
@@ -110,23 +116,78 @@ public class FastShardCompiler {
             { "4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack.", "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки." },
             { "6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack.", "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки." },
             { "Lawyer", "Юрист" },
+            { "[Lawyer]", "[Юрист]" },
+            { "律师", "Юрист" },
+            { "【律师】", "【Юрист】" },
             { "Lucky One", "Счастливчик" },
+            { "[Lucky One]", "[Счастливчик]" },
+            { "幸运儿", "Счастливчик" },
+            { "【幸运儿】", "【Счастливчик】" },
             { "Tarot Club", "Клуб Таро" },
+            { "[Tarot Club]", "[Клуб Таро]" },
+            { "塔罗会", "Клуб Таро" },
+            { "【塔罗会】", "【Клуб Таро】" },
             { "Hunter", "Охотник" },
+            { "[Hunter]", "[Охотник]" },
+            { "猎人", "Охотник" },
+            { "【猎人】", "【Охотник】" },
             { "Giant Dragon Inheritance", "Наследие Дракона" },
-            { "Life School of Thought", "Жизненная школа мысли" },
+            { "[Giant Dragon Inheritance]", "[Наследие Дракона]" },
+            { "巨龙后裔", "Наследие Дракона" },
+            { "【巨龙后裔】", "【Наследие Дракона】" },
+            { "Life School of Thought", "Школа мысли Жизни" },
+            { "[Life School of Thought]", "[Школа мысли Жизни]" },
+            { "生命学派", "Школа мысли Жизни" },
+            { "【生命学派】", "【Школа мысли Жизни】" },
             { "Iron Wall", "Железная стена" },
-            { "Evernight Goddess", "Вечная Богиня" },
+            { "[Iron Wall]", "[Железная стена]" },
+            { "铁壁", "Железная стена" },
+            { "【铁壁】", "【Железная стена】" },
+            { "Evernight Goddess", "Богиня Вечной Ночи" },
+            { "[Evernight Goddess]", "[Богиня Вечной Ночи]" },
+            { "黑夜女神", "Богиня Вечной Ночи" },
+            { "【黑夜女神】", "【Богиня Вечной Ночи】" },
+            { "Evernight Goddess Church", "Церковь Богини Вечной Ночи" },
+            { "[Evernight Goddess Church]", "[Церковь Богини Вечной Ночи]" },
+            { "黑夜女神教会", "Церковь Богини Вечной Ночи" },
+            { "【黑夜女神教会】", "【Церковь Богини Вечной Ночи】" },
             { "Forsaken Land of the Gods", "Заброшенная земля богов" },
+            { "[Forsaken Land of the Gods]", "[Заброшенная земля богов]" },
+            { "神弃之地", "Заброшенная земля богов" },
+            { "【神弃之地】", "【Заброшенная земля богов】" },
             { "Aurora Order", "Орден Авроры" },
+            { "[Aurora Order]", "[Орден Авроры]" },
+            { "极光会", "Орден Авроры" },
+            { "【极光会】", "【Орден Авроры】" },
             { "Seer", "Провидец" },
+            { "[Seer]", "[Провидец]" },
+            { "占卜家", "Провидец" },
+            { "【占卜家】", "【Провидец】" },
             { "Rock", "Скала" },
+            { "[Rock]", "[Скала]" },
+            { "岩石", "Скала" },
+            { "【岩石】", "【Скала】" },
             { "Monster", "Монстр" },
+            { "[Monster]", "[Монстр]" },
+            { "怪物", "Монстр" },
+            { "【怪物】", "【Монстр】" },
+            { "Bulwark", "Оплот" },
+            { "[Bulwark]", "[Оплот]" },
+            { "坚阵", "Оплот" },
+            { "【坚阵】", "【Оплот】" },
+            { "Crafted Bulwark", "Искусный оплот" },
+            { "[Crafted Bulwark]", "[Искусный оплот]" },
+            { "精工壁垒", "Искусный оплот" },
+            { "【精工壁垒】", "【Искусный оплот】" },
             { "The Great Master", "Великий Мастер" },
             { "[The Great Master]", "[Великий Мастер]" },
+            { "大宗师", "Великий Мастер" },
+            { "【大宗师】", "【Великий Мастер】" },
             { "For every 1 Resonance activated, all allies gain additional Attack, up to 10 Resonances.", "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов." },
             { "Wilderness Monster", "Монстр пустошей" },
             { "[Wilderness Monster]", "[Монстр пустошей]" },
+            { "荒野魔物", "Монстр пустошей" },
+            { "【荒野魔物】", "【Монстр пустошей】" },
             { "Each unique 3-star piece strengthens all allies. At high tiers, gain 1 random wild monster piece after each player combat.", "Каждая уникальная 3-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт 1 случайную фигуру дикого монстра после каждого боя с игроком." },
             { "Each unique 3-star piece: All allies +3% Attack and 5 Defense.", "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты." },
             { "2 Each unique 3-star piece: All allies +3% Attack and 5 Defense.", "2 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты." },
@@ -134,6 +195,8 @@ public class FastShardCompiler {
             { "3 Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat.", "3 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком." },
             { "Long-Shot", "Дальний выстрел" },
             { "[Long-Shot]", "[Дальний выстрел]" },
+            { "远射", "Дальний выстрел" },
+            { "【远射】", "【Дальний выстрел】" },
             { "Long-Range Strike", "Дальнобойный удар" },
             { "[Long-Range Strike]", "[Дальнобойный удар]" },
             { "[Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage.", "[Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон." },
@@ -141,10 +204,11 @@ public class FastShardCompiler {
             { "4 [Long-Shot] [Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage.", "4 [Дальний выстрел] [Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон." },
             { "Arcane", "Тайное знание" },
             { "[Arcane]", "[Тайное знание]" },
+            { "秘术", "Тайное знание" },
+            { "【秘术】", "【Тайное знание】" },
             { "All allies recover Mana per second. [Arcane] recovers more.", "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше." },
             { "2 [Arcane] All allies recover Mana per second. [Arcane] recovers more.", "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше." },
             { "4 [Arcane] All allies recover Mana per second. [Arcane] recovers more.", "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше." },
-            { "Crafted Bulwark", "Искусный оплот" },
             { "Randomly gain 2 pieces of Defensive Fine Equipment.", "Случайным образом даёт 2 предмета добротного защитного снаряжения." },
             { "Critical Hit Amplification", "Усиление критического удара" },
             { "Your pieces gain 15% Critical Hit Rate and 25% Critical Damage.", "Ваши фигуры получают +15% к шансу крит. удара и +25% к крит. урону." },

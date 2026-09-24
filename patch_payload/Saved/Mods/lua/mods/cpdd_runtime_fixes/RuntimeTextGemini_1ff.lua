@@ -39,6 +39,7 @@ return {
     ["And he... he is a lonely person. I can feel the loneliness that permeates from his bones."] = "И он... он одинокий человек. Я чувствую одиночество, которое исходит из его костей.",
     ["Total damage: <HighLight>210%</> attack; Mana: <HighLight>6</>"] = "Общий урон: атака <HighLight>210%</>; Мана: <HighLight>6</>",
     ["Pull the BOSS, what are we waiting for?"] = "Дерни БОССА, чего мы ждём?",
+    ["[UIFrame : UIComponent].PlayAnimation: Failed to play animation, widgetAnimation = nil %s %s"] = "[UIFrame : UIComponent].PlayAnimation: Failed to play animation, widgetAnimation = nil %s %s",
     ["Advance to Sequence 7"] = "Переходим к последовательности 7",
     ["Your poems are better than many people's out there. Would you be willing to write somewhere else?"] = "Ваши стихи лучше, чем у многих людей. Хотели бы вы написать куда-нибудь еще?",
     ["Give her food"] = "Дай ей еды",

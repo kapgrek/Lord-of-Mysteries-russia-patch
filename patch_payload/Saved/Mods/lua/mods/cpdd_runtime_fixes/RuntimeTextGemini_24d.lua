@@ -40,6 +40,7 @@ return {
     ["Cleanse Skill Prompt"] = "Подсказка навыка очистки",
     ["Police Badge"] = "Полицейский значок",
     ["Mr. Leonard, where is this?"] = "Мистер Леонард, где это?",
+    ["[UIFrame : NewUIManager] Panel %s failed to open"] = "[UIFrame : NewUIManager] Panel %s failed to open",
     ["Trial Grounds"] = "Испытательные площадки",
     ["Face bones"] = "Кости лица",
     ["Select Teammate 2"] = "Выберите товарища по команде b",

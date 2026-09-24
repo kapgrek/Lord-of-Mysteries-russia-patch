@@ -88,6 +88,7 @@ return {
     ["Final Damage Block"] = "Последний блок урона",
     ["Golden Autumn Lake - Hide and Seek Encounter 1"] = "Озеро Золотой Осени - Встреча в прятки b",
     ["The two drunks are arguing more and more intensely..."] = "Двое пьяных ссорятся все ожесточеннее...",
+    ["2.4x"] = "2.4x",
     ["After adding, assembly checks will be skipped."] = "После добавления проверки сборки будут пропущены.",
     ["Mysterious Gentleman"] = "Таинственный джентльмен",
     ["Summon fewer, just make more trips."] = "Призывайте меньше, просто совершайте больше поездок.",

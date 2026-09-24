@@ -226,6 +226,7 @@ return {
     ["Area 1-10"] = "Зона 1-bb",
     ["It's said that the secrets are hidden in the forest on the other side of the lake. Do you want to go take a look?"] = "Говорят, что тайны спрятаны в лесу на другом берегу озера. Хочешь пойти посмотреть?",
     ["Lower face height"] = "Нижняя высота лица",
+    ["[UIFrame : UIComponent] Component %s Open failed, reason: %s %s"] = "[UIFrame : UIComponent] Component %s Open failed, reason: %s %s",
     ["%s new messages"] = "Новые сообщения %s",
     ["Blue Baboon"] = "Синий Бабуин",
     ["Bonus Type"] = "Тип бонуса",

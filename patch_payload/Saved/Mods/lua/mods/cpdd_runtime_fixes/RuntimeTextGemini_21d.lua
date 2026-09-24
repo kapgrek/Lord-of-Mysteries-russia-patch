@@ -65,6 +65,7 @@ return {
     ["Partner Old Neil Skill - Debt Repayment Explosion Tier 1 Damage 3"] = "Партнер Старина Нил Навык - Возврат долга Взрыв Уровень 1 Урон 3",
     ["Leonard: 'Too shy to hide from the gaze'"] = "Леонард: «Слишком застенчив, чтобы скрыться от взглядов»",
     ["Stay alert."] = "Будьте начеку.",
+    ["[UIFrame : UIComponent]:SetImage Failed to set image %s. Image control needs to be UKGImage or UKGGPUTurboImage %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set image %s. Image control needs to be UKGImage or UKGGPUTurboImage %s %s",
     ["That's really nice"] = "Это действительно приятно",
     ["Fully digested Magician potion"] = "Полностью переваренное зелье мага",
     ["Hehe... Honored guest, you have another \"special\" ticket."] = "Хе-хе... Уважаемый гость, у вас есть еще один «особый» билет.",
@@ -259,4 +260,5 @@ return {
     ["Ten thousand stars"] = "Десять тысяч звезд",
     ["Fate's Favorite: Skill Enhancement increased by <UpgradeNum>70</>, Skill Block increased by <UpgradeNum>70</>."] = "Любимец судьбы: улучшение навыков увеличено на <UpgradeNum>70</>, блокирование навыков увеличено на <UpgradeNum>70</>.",
     ["Compared to your 15% monthly interest, I'm afraid I'd rather trust the bank."] = "По сравнению с вашими 15% ежемесячных процентов, боюсь, я бы предпочел довериться банку.",
+    ["巨龙后裔"] = "Наследие Дракона",
 }

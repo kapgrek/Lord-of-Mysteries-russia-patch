@@ -201,7 +201,7 @@ return {
     ["Mother! I want Mother!"] = "Мать! Я хочу маму!",
     ["Skill Details"] = "Подробности о навыках",
     ["Connection"] = "Связь",
-    ["The Evernight Church stands quietly, while gold coins and carriage wheels roll endlessly in the bustling North Borough."] = "Церковь Вечной ночи стоит тихо, в то время как золотые монеты и колеса кареты бесконечно катятся по шумному Северному району.",
+    ["The Evernight Church stands quietly, while gold coins and carriage wheels roll endlessly in the bustling North Borough."] = "Церковь Богини Вечной Ночи стоит тихо, в то время как золотые монеты и колеса кареты бесконечно катятся по шумному Северному району.",
     ["<P_Heart>(Pious)</> Mr. Fool, I have come for the Mythical Cocoon."] = "<P_Heart>(Благочестивый)</> Мистер Шут, я пришел за Мифическим Коконом.",
     ["spirit vision Disabled"] = "духовное зрение отключено",
     ["Host Party"] = "Принимающая сторона",

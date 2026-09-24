@@ -248,6 +248,7 @@ return {
     ["5230115 Tingen Plane"] = "5230115 Измерение: Тинген",
     ["Walk Four Steps Counter-Clockwise"] = "Пройдите четыре шага против часовой стрелки",
     ["Wealthy"] = "Богатый",
+    ["2x"] = "2x",
     ["Event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description"] = "Описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события",
     ["Use <Highlight>Catch-up Vouchers</> in the Catch-up Shop to purchase catch-up gift boxes for missed gameplay and obtain partial rewards.\nCatch-up Vouchers are obtained simultaneously when receiving invoices. You can store up to 50,000 Catch-up Vouchers."] = "Используйте <Highlight>купоны компенсации</> в магазине компенсаций, чтобы приобретать наборы за пропущенные активности и получать часть их наград.\nКупоны компенсации выдаются одновременно с квитанциями; максимум можно накопить до 50 000 купонов.",
 }

@@ -27,6 +27,7 @@ return {
     ["If I were rich, I'd ride the most expensive public carriage every day!"] = "Если бы я был богат, я бы каждый день ездил в самом дорогом общественном транспорте!",
     ["Cairns"] = "Пирамиды из камней",
     ["Black Thorn Case File new dungeon Wailing Black Market opened"] = "Открывается новый экземпляр Книги происшествий в Блэкторне, «Вопящий черный рынок».",
+    ["#CanMoveWindmill#"] = "#CanMoveWindmill#",
     ["It seems a <h>client</> has arrived"] = "Кажется, в гости пришел <h> клиент </>.",
     ["Wish of Seeking - Sub-buff B"] = "Ищем желание - саббаффB",
     ["Isla "] = "Исла",

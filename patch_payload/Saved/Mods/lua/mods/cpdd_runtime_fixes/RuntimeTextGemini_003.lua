@@ -181,6 +181,7 @@ return {
     ["Spirit Body Ball-Attending Woman"] = "Духовное тело, женщина, посещающая балы",
     ["Window: Wooden III"] = "Окно: Деревянное III",
     ["Welcome to the Tarot Academy. This is a sanctuary established by Mr. Fool for new Beyonders."] = "Добро пожаловать в Академию Таро. Это убежище, созданное мистером Шутом для новых Потусторонних.",
+    ["[UIFrame : UIComponent]:SetImage Failed to set image. Image resource path cannot be empty %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set image. Image resource path cannot be empty %s %s",
     ["Although the Royal Court has been forgotten, it still belongs to the Giants—to our King!"] = "Хотя о королевском дворе забыли, он по-прежнему принадлежит великанам — нашему королю!",
     ["Please lead the way"] = "Пожалуйста, проложите путь",
     ["Battle for the Throne of God · Veteran"] = "Битва за Трон Божий · Ветеран",
