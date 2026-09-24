@@ -4637,6 +4637,404 @@ local function installRuntimeManagerRowRepair(manager, source)
     return true
 end
 
+-- =========================================================================
+-- Active Full Database Dumper for AutoChess / KSBC
+-- =========================================================================
+runtimeFixes.ChessDumpTotalStrings = 0
+runtimeFixes.LastChessDumpTime = 0
+
+function runtimeFixes.dumpAllChessTables(sourceTag, explicitKsbcMgr)
+    local ok, dumpErr = pcall(function()
+        local now = (os and type(os.clock) == "function") and os.clock() or 0
+        if runtimeFixes.LastChessDumpTime > 0 and (now - runtimeFixes.LastChessDumpTime < 2.0) then
+            return
+        end
+        runtimeFixes.LastChessDumpTime = now
+
+        local ksbcMgr = explicitKsbcMgr or (Game and Game.KsbcMgr) or rawget(_G, "KsbcMgr")
+        local tableMgr = (Game and Game.TableDataManager) or rawget(_G, "TableDataManager")
+
+        if not ksbcMgr and type(package) == "table" and type(package.loaded) == "table" then
+            local m = package.loaded["Framework.Ksbc.KsbcMgr"]
+            if type(m) == "table" then
+                ksbcMgr = m.KsbcMgr or m
+            end
+        end
+        if not tableMgr and type(package) == "table" and type(package.loaded) == "table" then
+            local m = package.loaded["Framework.Utils.LuaCommon.Managers.TableDataManager"]
+            if type(m) == "table" then
+                tableMgr = m.TableDataManager or m
+            end
+        end
+
+        local function safeIterate(obj)
+            if obj == nil then
+                return function() return nil end
+            end
+            local t = type(obj)
+            if t ~= "table" and t ~= "userdata" then
+                return function() return nil end
+            end
+            local iter = t == "userdata" and (rawget(_G, "ksbcpairs") or pairs) or pairs
+            local okIter, nextFn, state, firstKey = pcall(iter, obj)
+            if okIter and type(nextFn) == "function" then
+                return nextFn, state, firstKey
+            end
+            if t == "userdata" then
+                local ok2, n2, s2, f2 = pcall(pairs, obj)
+                if ok2 and type(n2) == "function" then
+                    return n2, s2, f2
+                end
+            end
+            return function() return nil end
+        end
+
+        local function isEligibleString(str)
+            if type(str) ~= "string" or str == "" then return false end
+            local trimmed = str:match("^%s*(.-)%s*$")
+            if not trimmed or #trimmed < 1 then return false end
+
+            if trimmed:match("^[%d%.:%%+%-/%$#@!,%s]+$") then return false end
+            if trimmed == "true" or trimmed == "false" or trimmed == "nil" then return false end
+
+            if trimmed:sub(1, 1) == "/" or trimmed:sub(1, 1) == "\\" then return false end
+            if trimmed:find("%.uasset") or trimmed:find("%.png") or trimmed:find("%.jpg") or trimmed:find("%.ogg") or trimmed:find("%.wav") then return false end
+            if trimmed:find("^PaperSprite'") or trimmed:find("^Texture2D'") or trimmed:find("^WidgetBlueprint'") or trimmed:find("^Blueprint'") or trimmed:find("^Class'") or trimmed:find("^Material'") or trimmed:find("^Sound'") or trimmed:find("^Font'") or trimmed:find("^DataTable'") then return false end
+            if trimmed:find("^/Game/") or trimmed:find("^/Engine/") or trimmed:find("^/WBP_") or trimmed:find("^/BP_") then return false end
+
+            if trimmed:match("^[A-Z][A-Z0-9]*_[A-Za-z0-9_]+$") then return false end
+            if trimmed:match("^[mbs]_[a-zA-Z0-9_]+$") then return false end
+            if trimmed:match("^[a-zA-Z0-9_]+::[a-zA-Z0-9_]+$") then return false end
+            if trimmed:match("^__") then return false end
+
+            local hasChinese = trimmed:find("[\228-\233][\128-\191][\128-\191]") ~= nil
+            if hasChinese then
+                return true
+            end
+
+            local hasLetters = trimmed:find("[a-zA-Z]") ~= nil
+            local hasMarkup = trimmed:find("<[%a%._]+>") ~= nil or trimmed:find("</>") ~= nil or trimmed:find("【") ~= nil or trimmed:find("%[") ~= nil
+            if hasLetters or hasMarkup then
+                if trimmed:find("[\208\209][\128-\191]") then
+                    return false
+                end
+                return true
+            end
+
+            return false
+        end
+
+        local uniqueStrings = {}
+        local records = {}
+        local seenObjects = setmetatable({}, { __mode = "k" })
+
+        local function collectStringValue(val, tName, rKey, fPath)
+            if isEligibleString(val) then
+                local trimmed = val:match("^%s*(.-)%s*$")
+                if trimmed and trimmed ~= "" then
+                    if not uniqueStrings[trimmed] then
+                        uniqueStrings[trimmed] = true
+                    end
+                    table.insert(records, {
+                        table = tostring(tName or ""),
+                        id = tostring(rKey or ""),
+                        field = tostring(fPath or ""),
+                        text = trimmed,
+                    })
+                end
+            end
+        end
+
+        local function collectStrings(obj, tName, rKey, fPath, depth)
+            if depth > 5 or obj == nil then return end
+            local valType = type(obj)
+            if valType == "string" then
+                collectStringValue(obj, tName, rKey, fPath)
+                return
+            end
+            if valType ~= "table" and valType ~= "userdata" then
+                return
+            end
+            if seenObjects[obj] then
+                return
+            end
+            seenObjects[obj] = true
+
+            if valType == "userdata" and tableMgr and type(tableMgr.isSpecialUEType) == "function" then
+                local okSpec, special = pcall(tableMgr.isSpecialUEType, tableMgr, obj)
+                if okSpec and special then
+                    return
+                end
+            end
+
+            for k, v in safeIterate(obj) do
+                local kStr = tostring(k)
+                if not kStr:find("^__") and kStr ~= "Super" and kStr ~= "_G" then
+                    local nextPath = fPath == "" and kStr or (fPath .. "." .. kStr)
+                    collectStrings(v, tName, rKey, nextPath, depth + 1)
+                end
+            end
+
+            if valType == "userdata" then
+                local candidateFields = {
+                    "Name", "Desc", "Description", "Detail", "DetailDesc", "SkillDesc",
+                    "BuffDesc", "Title", "SubTitle", "Tips", "RuleDesc", "ConditionDesc",
+                    "EffectDesc", "ResonanceDesc", "SynergyDesc", "Content", "Text", "Intro"
+                }
+                for _, fName in ipairs(candidateFields) do
+                    local okVal, val = pcall(function() return obj[fName] end)
+                    if okVal and type(val) == "string" and val ~= "" then
+                        collectStringValue(val, tName, rKey, fName)
+                    end
+                end
+            end
+        end
+
+        local function scanTable(tName, tObj)
+            if tObj == nil then return end
+            local tt = type(tObj)
+            if tt ~= "table" and tt ~= "userdata" then return end
+
+            for rKey, rVal in safeIterate(tObj) do
+                collectStrings(rVal, tName, rKey, "", 0)
+            end
+
+            pcall(function()
+                if type(tObj.Rows) == "table" or type(tObj.Rows) == "userdata" then
+                    for rKey, rVal in safeIterate(tObj.Rows) do
+                        collectStrings(rVal, tName, rKey, "", 0)
+                    end
+                end
+            end)
+
+            pcall(function()
+                if type(tObj.Data) == "table" or type(tObj.Data) == "userdata" then
+                    for rKey, rVal in safeIterate(tObj.Data) do
+                        collectStrings(rVal, tName, rKey, "", 0)
+                    end
+                end
+            end)
+        end
+
+        local knownChessTables = {
+            "KsbcCardData", "KsbcCard", "KsbcCardLevelData", "KsbcCardQualityData",
+            "KsbcSkillData", "KsbcSkill", "KsbcBuffData", "KsbcBuff",
+            "KsbcTalentData", "KsbcTalent", "KsbcSynergyData", "KsbcSynergy",
+            "KsbcResonanceData", "KsbcResonance", "KsbcFettersData", "KsbcFetters",
+            "KsbcEquipData", "KsbcEquipmentData", "KsbcEquipmentSuitData", "KsbcItemData", "KsbcItem",
+            "KsbcRoundData", "KsbcStageData", "KsbcMonsterData", "KsbcEnemyData",
+            "KsbcHeroData", "KsbcPieceData", "KsbcChessData", "KsbcPveData",
+            "KsbcShopData", "KsbcConfigData", "KsbcConstData", "KsbcRuleData",
+            "KsbcDropData", "KsbcPlayerLevelData", "KsbcRankData", "KsbcBondData",
+            "KsbcTagData", "KsbcJobData", "KsbcRaceData", "KsbcCampData",
+            "KsbcGlobalData", "KsbcScoreData", "KsbcRewardData", "KsbcSeasonData",
+            "KsbcAchievementData", "KsbcAIFilterData", "KsbcAIData", "KsbcDialogueData",
+            "KsbcGuideData", "KsbcIllustrationData", "KsbcAvatarData", "KsbcIgnore",
+            "AutoChessCardData", "AutoChessCard", "AutoChessSkillData", "AutoChessSkill",
+            "AutoChessBuffData", "AutoChessBuff", "AutoChessTalentData", "AutoChessTalent",
+            "AutoChessResonanceData", "AutoChessResonance", "AutoChessSynergyData", "AutoChessSynergy",
+            "AutoChessFettersData", "AutoChessFetters", "AutoChessEquipData", "AutoChessEquipmentData",
+            "AutoChessItemData", "AutoChessItem", "AutoChessPieceData", "AutoChessPiece",
+            "AutoChessHeroData", "AutoChessConfigData", "AutoChessConstData", "AutoChessRuleData",
+            "AutoChessDropData", "AutoChessRoundData", "AutoChessStageData", "AutoChessShopData",
+            "AutoChessGameDetail", "AutoChessRewardData", "AutoChessAchievementData", "AutoChessScoreData",
+            "AutoChessRankData", "AutoChessSeasonData", "AutoChessJobData", "AutoChessRaceData",
+            "AutoChessCampData", "AutoChessBondData", "AutoChessTagData", "AutoChessMonsterData", "AutoChessEnemyData",
+            "CardData", "ChessCardData", "ChessSkillData", "ChessBuffData", "ChessTalentData",
+            "ChessSynergyData", "ChessResonanceData", "ChessFettersData", "ChessEquipData",
+            "ChessItemData", "ChessPieceData", "ChessRuleData", "ChessConfigData"
+        }
+
+        local discoveredTables = {}
+        local allTableNames = {}
+
+        local entry = ksbcMgr and ksbcMgr.entry
+        if entry ~= nil then
+            for k, v in safeIterate(entry) do
+                if type(k) == "string" and not discoveredTables[k] then
+                    discoveredTables[k] = true
+                    table.insert(allTableNames, k)
+                    scanTable("entry." .. k, v)
+                end
+            end
+        end
+
+        if ksbcMgr ~= nil then
+            for k, v in safeIterate(ksbcMgr) do
+                local kStr = tostring(k)
+                if kStr ~= "entry" and (type(v) == "table" or type(v) == "userdata") then
+                    scanTable("KsbcMgr." .. kStr, v)
+                end
+            end
+        end
+
+        if tableMgr ~= nil then
+            for k, v in safeIterate(tableMgr) do
+                if type(k) == "string" then
+                    local lk = k:lower()
+                    if (lk:find("ksbc") or lk:find("autochess") or lk:find("chess")) and not discoveredTables[k] then
+                        discoveredTables[k] = true
+                        table.insert(allTableNames, k)
+                    end
+                end
+            end
+        end
+
+        for _, name in ipairs(knownChessTables) do
+            if not discoveredTables[name] then
+                discoveredTables[name] = true
+                table.insert(allTableNames, name)
+            end
+        end
+
+        local scannedCount = 0
+        for _, tName in ipairs(allTableNames) do
+            local foundData = false
+            if entry ~= nil then
+                local okE, valE = pcall(function() return entry[tName] end)
+                if okE and valE ~= nil then
+                    scanTable("entry." .. tName, valE)
+                    foundData = true
+                end
+            end
+            if tableMgr ~= nil and type(tableMgr.GetData) == "function" then
+                local okD, valD = pcall(tableMgr.GetData, tableMgr, tName)
+                if okD and valD ~= nil then
+                    scanTable("TableData." .. tName, valD)
+                    foundData = true
+                else
+                    local okEx, valEx = pcall(tableMgr.GetData, tableMgr, "Data.Excel." .. tName)
+                    if okEx and valEx ~= nil then
+                        scanTable("TableData.Data.Excel." .. tName, valEx)
+                        foundData = true
+                    end
+                end
+            end
+            if foundData then
+                scannedCount = scannedCount + 1
+            end
+        end
+
+        if type(package) == "table" and type(package.loaded) == "table" then
+            for modName, modVal in pairs(package.loaded) do
+                local mn = tostring(modName):lower()
+                if (mn:find("ksbc") or mn:find("autochess")) and (type(modVal) == "table" or type(modVal) == "userdata") then
+                    scanTable("package." .. tostring(modName), modVal)
+                end
+            end
+        end
+
+        -- Also incorporate strings collected by UI hook
+        if type(runtimeFixes.AutoChessDumpSet) == "table" then
+            for liveStr in pairs(runtimeFixes.AutoChessDumpSet) do
+                collectStringValue(liveStr, "LiveUI", "0", "UI")
+            end
+        end
+
+        local sortedStrings = {}
+        for s in pairs(uniqueStrings) do
+            table.insert(sortedStrings, s)
+        end
+        table.sort(sortedStrings)
+
+        if #sortedStrings == 0 then
+            report(string.format("[AutoChessDumper] No strings collected from %s (scanned %d tables)", tostring(sourceTag or "unknown"), scannedCount))
+            return
+        end
+
+        if #sortedStrings <= runtimeFixes.ChessDumpTotalStrings and (now - runtimeFixes.LastChessDumpTime < 5.0) then
+            return
+        end
+        runtimeFixes.ChessDumpTotalStrings = #sortedStrings
+
+        local bs = string.char(92)
+        local q = string.char(34)
+        local function escapeJson(s)
+            return s:gsub(bs, bs .. bs):gsub(q, bs .. q):gsub("\r", bs .. "r"):gsub("\n", bs .. "n"):gsub("\t", bs .. "t")
+        end
+
+        local fullLines = {}
+        table.insert(fullLines, "{")
+        table.insert(fullLines, '  "version": "1.0",')
+        table.insert(fullLines, '  "source": "' .. escapeJson(tostring(sourceTag or "dumpAllChessTables")) .. '",')
+        table.insert(fullLines, '  "total_unique_strings": ' .. #sortedStrings .. ',')
+        table.insert(fullLines, '  "total_records": ' .. #records .. ',')
+        table.insert(fullLines, '  "strings": [')
+        for i, s in ipairs(sortedStrings) do
+            local comma = (i == #sortedStrings) and "" or ","
+            table.insert(fullLines, '    "' .. escapeJson(s) .. '"' .. comma)
+        end
+        table.insert(fullLines, '  ],')
+        table.insert(fullLines, '  "records": [')
+        for i, r in ipairs(records) do
+            local comma = (i == #records) and "" or ","
+            table.insert(fullLines, string.format(
+                '    {"table": "%s", "id": "%s", "field": "%s", "text": "%s"}%s',
+                escapeJson(r.table),
+                escapeJson(r.id),
+                escapeJson(r.field),
+                escapeJson(r.text),
+                comma
+            ))
+        end
+        table.insert(fullLines, '  ]')
+        table.insert(fullLines, "}")
+        local fullJson = table.concat(fullLines, "\n")
+
+        local simpleLines = { "[" }
+        for i, s in ipairs(sortedStrings) do
+            local comma = (i == #sortedStrings) and "" or ","
+            table.insert(simpleLines, '  "' .. escapeJson(s) .. '"' .. comma)
+        end
+        table.insert(simpleLines, "]")
+        local simpleJson = table.concat(simpleLines, "\n")
+
+        local fullPaths = {
+            "d:/gameDev/AbsoluteRU/temp/autochess_full_dump.json",
+            "temp/autochess_full_dump.json",
+            "Saved/Mods/autochess_full_dump.json",
+            "Mods/autochess_full_dump.json",
+        }
+        local fullWritten = nil
+        for _, p in ipairs(fullPaths) do
+            local f = io.open(p, "w")
+            if f then
+                f:write(fullJson)
+                f:close()
+                if not fullWritten then fullWritten = p end
+            end
+        end
+
+        local simplePaths = {
+            "d:/gameDev/AbsoluteRU/temp/autochess_dump.json",
+            "temp/autochess_dump.json",
+            "Saved/Mods/autochess_dump.json",
+            "Mods/autochess_dump.json",
+        }
+        for _, p in ipairs(simplePaths) do
+            local f = io.open(p, "w")
+            if f then
+                f:write(simpleJson)
+                f:close()
+            end
+        end
+
+        report(string.format(
+            "[AutoChessDumper] Successfully dumped %d unique strings (%d records, %d tables) from %s to %s",
+            #sortedStrings,
+            #records,
+            scannedCount,
+            tostring(sourceTag or "unknown"),
+            tostring(fullWritten or "all paths")
+        ))
+    end)
+    if not ok then
+        report("[AutoChessDumper] Error during dump: " .. tostring(dumpErr))
+    end
+end
+
+_G.dumpAllChessTables = runtimeFixes.dumpAllChessTables
+
 local function installKsbcManagerRowRepair(value, environment)
     local managerClass = getSymbol(value, environment, "KsbcMgr")
     if type(managerClass) ~= "table"
@@ -4664,6 +5062,9 @@ local function installKsbcManagerRowRepair(value, environment)
                 manager,
                 "KsbcMgr.Init"
             )
+            if type(runtimeFixes.dumpAllChessTables) == "function" then
+                pcall(runtimeFixes.dumpAllChessTables, "KsbcMgr.Init", self)
+            end
             return unpack(results)
         end
     end
@@ -9326,6 +9727,17 @@ local function installEventDrivenPanelRepair(value, environment)
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
                 if (uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel") and not self.__cpddAutoChessHooked then
                     self.__cpddAutoChessHooked = true
+                    if uid == "AutoChess_OutSideMain_Panel" and type(runtimeFixes.dumpAllChessTables) == "function" then
+                        pcall(runtimeFixes.dumpAllChessTables, "UIComponent.AutoChess_OutSideMain_Panel")
+                        if type(self.AddTimerWithFunction) == "function" then
+                            self:AddTimerWithFunction(0.5, function()
+                                pcall(runtimeFixes.dumpAllChessTables, "UIComponent.AutoChess_OutSideMain_Panel.delayed0.5")
+                            end)
+                            self:AddTimerWithFunction(1.5, function()
+                                pcall(runtimeFixes.dumpAllChessTables, "UIComponent.AutoChess_OutSideMain_Panel.delayed1.5")
+                            end)
+                        end
+                    end
                     for _, method in ipairs({
                         "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
                         "SetData", "InitData", "UpdateCards", "RefreshCards", "UpdateMatchInfo",
@@ -9341,6 +9753,11 @@ local function installEventDrivenPanelRepair(value, environment)
                                 pcall(function()
                                     panelTextRepair:Repair(comp, "autochess-" .. method)
                                     panelTextRepair:Queue(comp, true)
+                                    if uid == "AutoChess_OutSideMain_Panel" and (method == "InitView" or method == "OnOpen" or method == "OnShow" or method == "Show") then
+                                        if type(runtimeFixes.dumpAllChessTables) == "function" then
+                                            runtimeFixes.dumpAllChessTables("AutoChess_OutSideMain_Panel." .. method)
+                                        end
+                                    end
                                 end)
                                 return unpack(ret)
                             end
@@ -9426,6 +9843,23 @@ do
                             pcall(function()
                                 panelTextRepair:Repair(s, "autochess-module-" .. m)
                                 panelTextRepair:Queue(s, true)
+                                if m == "Open" or m == "OnOpen" or m == "InitView" or m == "OnShow" or m == "Show" then
+                                    if type(runtimeFixes.dumpAllChessTables) == "function" then
+                                        runtimeFixes.dumpAllChessTables("autoChessModuleCandidates." .. m)
+                                    end
+                                    if type(s) == "table" and type(s.AddTimerWithFunction) == "function" then
+                                        s:AddTimerWithFunction(0.5, function()
+                                            if type(runtimeFixes.dumpAllChessTables) == "function" then
+                                                runtimeFixes.dumpAllChessTables("autoChessModuleCandidates." .. m .. ".delayed0.5")
+                                            end
+                                        end)
+                                        s:AddTimerWithFunction(1.5, function()
+                                            if type(runtimeFixes.dumpAllChessTables) == "function" then
+                                                runtimeFixes.dumpAllChessTables("autoChessModuleCandidates." .. m .. ".delayed1.5")
+                                            end
+                                        end)
+                                    end
+                                end
                             end)
                             return unpack(res)
                         end
