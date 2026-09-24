@@ -4,8 +4,12 @@
 *.log
 *.patch_backup*
 *~
-build/*.zip
-build/staging/
+build/
+
+# Compiled binaries: built from .cs by tools/BuildTools.ps1 and installer/build_installer.ps1,
+# published only as GitHub Release assets
+*.exe
+!patch_payload/Saved/Mods/ExternalDpsMeter/*.exe
 
 # OS artifacts
 Thumbs.db
@@ -19,3 +23,9 @@ scratch/
 test_output/
 Logs/
 source/translation_batches/temp_chunk.json
+
+# External reference materials (English CPDD patch, game dumps) - kept locally, never cleaned
+reference/
+
+# Claude Code local settings
+.claude/settings.local.json

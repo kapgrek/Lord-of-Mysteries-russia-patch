@@ -99,10 +99,10 @@
 
 Для перевода через сторонние модели (Claude, ChatGPT, Gemini, DeepSeek):
 1. Скопируйте готовый системный промпт из [`AI_TRANSLATOR_PROMPT.md`](./AI_TRANSLATOR_PROMPT.md) в первое сообщение чата.
-2. Следуйте [Регламенту работы чатов-переводчиков](./AI_CHAT_WORKFLOW.md):
+2. Работайте чанками:
    * Не скармливайте батч целиком (5 000 строк перегрузят ИИ).
-   * Используйте `tools/BatchHelper.ps1 -Action Export -Count 100` для выгрузки чанков прямо в буфер обмена.
+   * Используйте `tools/BatchHelper.ps1 -Action Export -Batch N -Count 100` для выгрузки чанка в `temp/temp_chunk.json`.
    * Получайте от ИИ только компактный словарь `{"id": "перевод"}` (экономит 75% токенов).
-   * Внедряйте перевод обратно одной командой `tools/BatchHelper.ps1 -Action Import -FromClipboard`.
-   * Перед компиляцией шардов проверяйте батчи валидатором `tools/VerifyBatch.ps1`.
+   * Сохраните ответ в `temp/temp_chunk.json` (или другой файл) и внедрите его командой `tools/BatchHelper.ps1 -Action Import -Batch N [-InputFile <файл>]`. Шарды перекомпилируются автоматически.
+   * Проверяйте батчи валидатором `tools/VerifyBatch.ps1`.
 

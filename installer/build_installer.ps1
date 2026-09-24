@@ -1,10 +1,10 @@
 param (
-    [string]$OutDir = "$PSScriptRoot"
+    [string]$OutDir = (Join-Path (Split-Path $PSScriptRoot -Parent) "build")
 )
 
 $ErrorActionPreference = "Stop"
 
-$projectRoot = Split-Path $PSScriptRoot -Parent
+if (-not (Test-Path $OutDir)) { New-Item -ItemType Directory -Path $OutDir -Force | Out-Null }
 $csc = "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"
 if (-not (Test-Path $csc)) {
     $csc = "C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"
@@ -62,11 +62,6 @@ try {
 } catch {
     Write-Warning "Code signing warning: $_"
 }
-
-# Copy to root
-$rootExe = "$projectRoot\Lord-of-Mysteries-Russian-Patch.exe"
-Copy-Item $outputExe $rootExe -Force
-Write-Host "Copied to root: $rootExe" -ForegroundColor Green
 
 # Scan with Windows Defender
 Write-Host "Scanning with Windows Defender..." -ForegroundColor Cyan

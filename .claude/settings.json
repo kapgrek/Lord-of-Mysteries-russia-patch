@@ -1,0 +1,76 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(git status*)",
+      "PowerShell(git diff*)",
+      "PowerShell(git log*)",
+      "PowerShell(git show*)",
+      "PowerShell(git add*)",
+      "PowerShell(git commit*)",
+      "PowerShell(git push*)",
+      "PowerShell(dotnet build*)",
+      "PowerShell(& C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe*)",
+      "PowerShell(& \"C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\csc.exe\"*)",
+      "PowerShell(& .\\tools\\BuildTools.ps1*)",
+      "PowerShell(.\\tools\\BuildTools.ps1*)",
+      "PowerShell(& .\\installer\\build_installer.ps1*)",
+      "PowerShell(& .\\tools\\Verify*.ps1*)",
+      "PowerShell(.\\tools\\Verify*.ps1*)",
+      "PowerShell(powershell -ExecutionPolicy Bypass -File tools\\Verify*.ps1*)",
+      "PowerShell(powershell -NoProfile -ExecutionPolicy Bypass -File tools\\Verify*.ps1*)",
+      "PowerShell(& .\\tools\\ShardCompiler.exe*)",
+      "PowerShell(.\\tools\\ShardCompiler.exe*)",
+      "PowerShell(tools\\ShardCompiler.exe*)"
+    ],
+    "deny": [
+      "Edit(//d/Games/**)",
+      "Edit(//d/Game/**)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git push -f*)",
+      "PowerShell(git push * --force*)",
+      "PowerShell(git push * -f*)",
+      "PowerShell(git push --mirror*)"
+    ]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "PowerShell",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": [
+              "-NoProfile",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-Command",
+              "& (Join-Path $(if ($env:CLAUDE_PROJECT_DIR) { $env:CLAUDE_PROJECT_DIR } else { '.' }) '.claude\\hooks\\guard-game.ps1')"
+            ],
+            "timeout": 30,
+            "statusMessage": "Checking command against the game-folder guard"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell.exe",
+            "args": [
+              "-NoProfile",
+              "-ExecutionPolicy",
+              "Bypass",
+              "-Command",
+              "& (Join-Path $(if ($env:CLAUDE_PROJECT_DIR) { $env:CLAUDE_PROJECT_DIR } else { '.' }) '.claude\\hooks\\recompile-shards.ps1')"
+            ],
+            "timeout": 600,
+            "statusMessage": "Recompiling shards and verifying changed batches"
+          }
+        ]
+      }
+    ]
+  }
+}

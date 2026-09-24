@@ -1,16 +1,13 @@
-# BatchHelper.ps1 - Slice chunks for AI translators, manage parallel workers, and track progress
+# BatchHelper.ps1 - Slice chunks for AI translators, import results, and track progress
 param(
-    [ValidateSet('Export', 'Import', 'Stats', 'Dashboard', 'SetupWorkers')]
+    [ValidateSet('Export', 'Import', 'Stats', 'Dashboard')]
     [string]$Action = 'Dashboard',
     [int]$Batch = 0,               # 0 = All batches (Dashboard), or 1..27
     [int]$Count = 100,             # Chunk size (strings per chunk)
-    [int]$Skip = 0,                # Number of untranslated strings to skip (for parallel workers)
+    [int]$Skip = 0,                # Number of untranslated strings to skip
     [string]$InputFile = '',       # Custom path to translated JSON
     [string]$OutputFile = '',      # Custom path for exported chunk
-    [switch]$FromClipboard,        # Read translation delta from clipboard
-    [switch]$ToClipboard,          # Force copy to clipboard
-    [switch]$IncludePrompt,        # Include AI translation prompt & rules in export
-    [int]$WorkerCount = 3          # For SetupWorkers: number of parallel worker folders
+    [switch]$IncludePrompt         # Include AI translation prompt & rules in export
 )
 
 $ErrorActionPreference = 'Stop'
@@ -222,11 +219,6 @@ if ($Action -eq 'Export') {
     [System.IO.File]::WriteAllText($targetFile, $finalExportText, [System.Text.Encoding]::UTF8)
     Write-Host "Exported $($chunk.Count) strings to $targetFile" -ForegroundColor Green
 
-    try {
-        Set-Clipboard -Value $finalExportText -ErrorAction SilentlyContinue
-        Write-Host "[OK] Data also copied to clipboard!" -ForegroundColor Cyan
-    } catch {}
-
     exit 0
 }
 
@@ -246,14 +238,7 @@ if ($Action -eq 'Import') {
     Write-Host "=== Importing translations into batch $batchNumStr ===" -ForegroundColor Cyan
     $content = ""
 
-    if ($FromClipboard) {
-        try {
-            $content = Get-Clipboard -Raw
-        } catch {
-            Write-Error "Could not read clipboard!"
-            exit 1
-        }
-    } elseif (-not [string]::IsNullOrEmpty($InputFile) -and (Test-Path $InputFile)) {
+    if (-not [string]::IsNullOrEmpty($InputFile) -and (Test-Path $InputFile)) {
         $content = [System.IO.File]::ReadAllText($InputFile, [System.Text.Encoding]::UTF8)
     } else {
         $tempFile = Join-Path $tempDir "temp_chunk.json"
@@ -264,7 +249,7 @@ if ($Action -eq 'Import') {
         if (Test-Path $tempFile) {
             $content = [System.IO.File]::ReadAllText($tempFile, [System.Text.Encoding]::UTF8)
         } else {
-            Write-Error "Specify -InputFile or -FromClipboard, or provide temp_chunk.json in temp/!"
+            Write-Error "Specify -InputFile or provide temp_chunk.json in temp/!"
             exit 1
         }
     }
@@ -315,119 +300,11 @@ if ($Action -eq 'Import') {
 
     # Automatically recompile runtime shards so updated translations immediately optimize into the database layer!
     $shardCompiler = Join-Path $PSScriptRoot "ShardCompiler.exe"
-    if (Test-Path $shardCompiler) {
-        Write-Host "Recompiling translation shards for instant database-layer optimization..." -ForegroundColor Cyan
-        & $shardCompiler
+    if (-not (Test-Path $shardCompiler)) {
+        & (Join-Path $PSScriptRoot "BuildTools.ps1") -Only ShardCompiler
     }
-    exit 0
-}
-
-# 4. ACTION: SETUP PARALLEL WORKERS
-if ($Action -eq 'SetupWorkers') {
-    $targetBatch = if ($Batch -gt 0) { $Batch } else { 1 }
-    $batchNumStr = $targetBatch.ToString("D3")
-    $workersRoot = Join-Path $tempDir "workers"
-    
-    Write-Host "=== Setting up $WorkerCount parallel worker packages for Batch $batchNumStr ===" -ForegroundColor Cyan
-    Write-Host "Chunk size per worker: $Count strings"
-
-    if (-not (Test-Path $workersRoot)) {
-        New-Item -ItemType Directory -Path $workersRoot -Force | Out-Null
-    }
-
-    $batchFile = Join-Path $batchesDir "batch_$batchNumStr.json"
-    $text = [System.IO.File]::ReadAllText($batchFile, [System.Text.Encoding]::UTF8)
-    $itemRegex = [System.Text.RegularExpressions.Regex]::new(
-        '\{\s*"id"\s*:\s*"(?<id>[^"]+)"\s*,\s*"source_cn"\s*:\s*"(?<cn>(?:\\.|[^"\\])*)"\s*,\s*"ref_en"\s*:\s*"(?<en>(?:\\.|[^"\\])*)"\s*,\s*"target_ru"\s*:\s*"(?<ru>(?:\\.|[^"\\])*)"\s*\}',
-        [System.Text.RegularExpressions.RegexOptions]::Compiled
-    )
-
-    $allUntranslated = [System.Collections.Generic.List[object]]::new()
-    foreach ($m in $itemRegex.Matches($text)) {
-        if ([string]::IsNullOrWhiteSpace($m.Groups['ru'].Value)) {
-            $rawCn = $m.Groups['cn'].Value
-            $rawEn = $m.Groups['en'].Value
-            $cnClean = $rawCn.Replace('\\n', "`n").Replace('\\r', "`r").Replace('\\t', "`t").Replace('\"', '"').Replace('\\', '\')
-            $enClean = $rawEn.Replace('\\n', "`n").Replace('\\r', "`r").Replace('\\t', "`t").Replace('\"', '"').Replace('\\', '\')
-            $ctx = Get-StringContext -cn $cnClean -en $enClean
-            $allUntranslated.Add([PSCustomObject]@{
-                id = $m.Groups['id'].Value
-                ctx = $ctx
-                cn = $cnClean
-                en = $enClean
-            })
-        }
-    }
-
-    if ($allUntranslated.Count -eq 0) {
-        Write-Host "All strings in Batch $batchNumStr are already translated!" -ForegroundColor Green
-        exit 0
-    }
-
-    for ($w = 0; $w -lt $WorkerCount; $w++) {
-        $workerIndex = $w + 1
-        $wDirName = ("batch_{0:D3}_worker_{1:D2}" -f $targetBatch, $workerIndex)
-        $wDir = Join-Path $workersRoot $wDirName
-        if (-not (Test-Path $wDir)) { New-Item -ItemType Directory -Path $wDir -Force | Out-Null }
-
-        $startIdx = $w * $Count
-        if ($startIdx -ge $allUntranslated.Count) {
-            Write-Host "Worker $workerIndex skipped (not enough remaining untranslated strings)." -ForegroundColor Yellow
-            continue
-        }
-        $takeCount = [Math]::Min($Count, $allUntranslated.Count - $startIdx)
-        $workerChunk = $allUntranslated.GetRange($startIdx, $takeCount)
-
-        $chunkJson = ($workerChunk | ConvertTo-Json -Depth 3) `
-            -replace '\\u003c', '<' `
-            -replace '\\u003e', '>' `
-            -replace '\\u0026', '&' `
-            -replace '\\u0027', "'"
-
-        $promptText = (Get-TaskPrompt -batchNum $targetBatch -count $takeCount -skip $startIdx) + "`n" + $chunkJson
-
-        [System.IO.File]::WriteAllText((Join-Path $wDir "TASK_PROMPT.txt"), $promptText, [System.Text.Encoding]::UTF8)
-        [System.IO.File]::WriteAllText((Join-Path $wDir "chunk.json"), $chunkJson, [System.Text.Encoding]::UTF8)
-        [System.IO.File]::WriteAllText((Join-Path $wDir "result.json"), "{}`n", [System.Text.Encoding]::UTF8)
-
-        $importBat = @"
-@echo off
-chcp 65001 >nul
-echo Importing result.json into Batch $batchNumStr...
-powershell -ExecutionPolicy Bypass -File "%~dp0..\..\..\tools\BatchHelper.ps1" -Action Import -Batch $targetBatch -InputFile "%~dp0result.json"
-echo Running Batch Validator...
-powershell -ExecutionPolicy Bypass -File "%~dp0..\..\..\tools\VerifyBatch.ps1" -Batch $targetBatch
-pause
-"@
-
-        $importClipBat = @"
-@echo off
-chcp 65001 >nul
-echo Importing from Clipboard into Batch $batchNumStr...
-powershell -ExecutionPolicy Bypass -File "%~dp0..\..\..\tools\BatchHelper.ps1" -Action Import -Batch $targetBatch -FromClipboard
-echo Running Batch Validator...
-powershell -ExecutionPolicy Bypass -File "%~dp0..\..\..\tools\VerifyBatch.ps1" -Batch $targetBatch
-pause
-"@
-
-        $readmeText = @"
-INSTRUCTIONS FOR TRANSLATION WORKER ($wDirName):
-1. Open TASK_PROMPT.txt and paste everything into your AI chat (Claude / ChatGPT / Gemini / DeepSeek).
-2. Save the response JSON to result.json OR copy it to clipboard.
-3. Run:
-   - import.bat (to import from result.json)
-   OR
-   - import_clipboard.bat (to import from clipboard)
-4. The script automatically updates batch_$batchNumStr.json and verifies it with VerifyBatch.ps1!
-"@
-
-        [System.IO.File]::WriteAllText((Join-Path $wDir "import.bat"), $importBat, [System.Text.Encoding]::ASCII)
-        [System.IO.File]::WriteAllText((Join-Path $wDir "import_clipboard.bat"), $importClipBat, [System.Text.Encoding]::ASCII)
-        [System.IO.File]::WriteAllText((Join-Path $wDir "README.txt"), $readmeText, [System.Text.Encoding]::UTF8)
-
-        Write-Host " [OK] Created package: temp/workers/$wDirName ($takeCount strings, offset: $startIdx)" -ForegroundColor Green
-    }
-
-    Write-Host "`nParallel worker packages ready in: $workersRoot" -ForegroundColor Cyan
+    Write-Host "Recompiling translation shards for instant database-layer optimization..." -ForegroundColor Cyan
+    Push-Location $PSScriptRoot
+    try { & $shardCompiler } finally { Pop-Location }
     exit 0
 }
