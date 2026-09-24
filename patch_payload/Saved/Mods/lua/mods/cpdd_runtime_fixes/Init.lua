@@ -2402,45 +2402,90 @@ runtimeFixes.AutoChessSkillTemplates = {
     ["释放恐惧回声，对周围敌人造成{0}点攻击伤害。三星时：释放恐惧回声，对周围敌人造成{1}点攻击伤害。"] = "Выпускает Эхо страха, нанося окружающим врагам {0} ед. урона от атаки. На 3 звездах: выпускает Эхо страха, нанося окружающим врагам {1} ед. урона от атаки.",
     -- [131080]
     ["释放恶意冲击，对前方敌人造成{0}点攻击伤害，自身攻击提高{1}、防御提高{2}点，持续{3}秒。三星时：释放恶意冲击，对前方敌人造成{4}点攻击伤害，自身攻击提高{5}、防御提高{6}点，持续{7}秒。"] = "Выпускает Злобный импульс, нанося врагам впереди {0} ед. урона от атаки, а также повышает собственную атаку на {1} и защиту на {2} ед. на {3} сек. На 3 звездах: выпускает Злобный импульс, нанося врагам впереди {4} ед. урона от атаки, а также повышает собственную атаку на {5} и защиту на {6} ед. на {7} сек.",
+    -- [131267, 131268]
+    ["Deals an additional {0} Attack damage."] = "Наносит дополнительно {0} ед. урона от атаки.",
+    ["造成额外{0}攻击伤害。"] = "Наносит дополнительно {0} ед. урона от атаки.",
 }
 
 runtimeFixes.translateAutoChessSkill = function(value)
-    if type(value) ~= "string" or (value:find("<Yellow>", 1, true) == nil and value:find("<yellow>", 1, true) == nil) then
+    if type(value) ~= "string" or value == "" then
+        return nil
+    end
+    -- If string already contains Cyrillic, it is already translated
+    if value:find("[\208\209][\128-\191]") then
+        return nil
+    end
+    -- Must have at least a markup tag or a digit to match a dynamic skill template
+    if value:find("<", 1, true) == nil and value:find("%d") == nil then
         return nil
     end
 
-    local tokens = {}
-    local templated = value:gsub("<([%a_]+)>([^<]+)</>", function(tag, content)
-        local lTag = tag:lower()
-        if lTag == "yellow" or lTag == "highlight" then
-            table.insert(tokens, "<" .. tag .. ">" .. content .. "</>")
-            return "{" .. (#tokens - 1) .. "}"
-        else
-            return "<" .. tag .. ">" .. content .. "</>"
+    local templates = runtimeFixes.AutoChessSkillTemplates
+    if not templates then
+        return nil
+    end
+
+    local function matchTemplate(templated, tokens)
+        local ruTemplate = templates[templated]
+        if ruTemplate == nil and templated:find("\r", 1, true) then
+            local norm = templated:gsub("\r\n", "\n"):gsub("\r", "\n")
+            ruTemplate = templates[norm]
         end
+        if ruTemplate == nil then
+            local trimmed = templated:match("^%s*(.-)%s*$")
+            if trimmed ~= nil and trimmed ~= templated then
+                ruTemplate = templates[trimmed]
+            end
+        end
+
+        if ruTemplate ~= nil then
+            local result = ruTemplate:gsub("{(%d+)}", function(idxStr)
+                local idx = tonumber(idxStr)
+                if idx ~= nil and tokens[idx + 1] ~= nil then
+                    return tokens[idx + 1]
+                end
+                return "{" .. idxStr .. "}"
+            end)
+            return result
+        end
+        return nil
+    end
+
+    -- Pass 1: Universal UMG tag extraction (supports <Yellow>, <HighLight>, <Text.Red>, etc.)
+    -- Strip empty tags like <HighLight></> so they do not pollute token sequence
+    local cleanValue = value:gsub("<[^/>][^>]*>%s*</>", "")
+
+    local tokens = {}
+    local templated = cleanValue:gsub("<([^/>][^>]*)>([^<]+)</>", function(tag, content)
+        table.insert(tokens, "<" .. tag .. ">" .. content .. "</>")
+        return "{" .. (#tokens - 1) .. "}"
     end)
 
-    local templates = runtimeFixes.AutoChessSkillTemplates
-    local ruTemplate = templates[templated]
-    if ruTemplate == nil and templated:find("\r", 1, true) then
-        local norm = templated:gsub("\r\n", "\n"):gsub("\r", "\n")
-        ruTemplate = templates[norm]
-    end
-    if ruTemplate == nil then
-        local trimmed = templated:match("^%s*(.-)%s*$")
-        ruTemplate = templates[trimmed]
+    if #tokens > 0 then
+        local res = matchTemplate(templated, tokens)
+        if res ~= nil then
+            return res
+        end
     end
 
-    if ruTemplate ~= nil then
-        local result = ruTemplate:gsub("{(%d+)}", function(idxStr)
-            local idx = tonumber(idxStr)
-            if idx ~= nil and tokens[idx + 1] ~= nil then
-                return tokens[idx + 1]
-            end
-            return "{" .. idxStr .. "}"
-        end)
-        return result
+    -- Pass 2: Tag + raw dynamic numbers and percentages (for untagged or mixed formatting)
+    local tokens2 = {}
+    local intermediate = cleanValue:gsub("<([^/>][^>]*)>([^<]+)</>", function(tag, content)
+        table.insert(tokens2, "<" .. tag .. ">" .. content .. "</>")
+        return "{" .. (#tokens2 - 1) .. "}"
+    end)
+    local templated2 = intermediate:gsub("(%d+%.?%d*%%?)", function(num)
+        table.insert(tokens2, num)
+        return "{" .. (#tokens2 - 1) .. "}"
+    end)
+
+    if #tokens2 > 0 then
+        local res2 = matchTemplate(templated2, tokens2)
+        if res2 ~= nil then
+            return res2
+        end
     end
+
     return nil
 end
 
@@ -2713,18 +2758,20 @@ local function translateVisibleText(value)
         return reviewedExact
     end
 
-    -- AutoChess synergy & exact text normalization for <HighLight> tags
-    if value:find("<[Hh]igh[Ll]ight>") or value:find("<[Hh]ighlight>") then
-        local plain = value:gsub("</?[Hh]igh[Ll]ight>", ""):gsub("</?[Hh]ighlight>", ""):gsub("</>", "")
-        local plainOverride = visibleTextExactOverrides[plain]
-        if plainOverride ~= nil then
-            visibleTextCache[value] = plainOverride
-            return plainOverride
-        end
-        local plainGemini = runtimeFixes.lookupGeminiTextFuzzy(plain)
-        if plainGemini ~= nil then
-            visibleTextCache[value] = plainGemini
-            return plainGemini
+    -- AutoChess synergy & exact text normalization for UMG tags (<HighLight>, <Yellow>, <Text.Red>, etc.)
+    if value:find("<", 1, true) then
+        local plain = value:gsub("<[^>]+>", "")
+        if plain ~= value and plain ~= "" then
+            local plainOverride = visibleTextExactOverrides[plain]
+            if plainOverride ~= nil then
+                visibleTextCache[value] = plainOverride
+                return plainOverride
+            end
+            local plainGemini = runtimeFixes.lookupGeminiTextFuzzy(plain)
+            if plainGemini ~= nil then
+                visibleTextCache[value] = plainGemini
+                return plainGemini
+            end
         end
     end
     local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
@@ -2755,7 +2802,33 @@ local function translateVisibleText(value)
     end
 
     if hasCjk and not hasCjk(value) then
-        visibleTextCache[value] = value
+        -- If already localized (contains Cyrillic), safe to cache
+        if runtimeFixes.hasCyrillic(value) then
+            visibleTextCache[value] = value
+            return value
+        end
+
+        -- For English strings (especially in AutoChess context):
+        -- Attempt dynamic skill template matching and normalized shard lookup before returning raw text
+        local skillFallback = runtimeFixes.translateAutoChessSkill(value)
+        if skillFallback ~= nil then
+            visibleTextCache[value] = skillFallback
+            return skillFallback
+        end
+
+        if value:find("\r", 1, true) or value:find("^%s+") or value:find("%s+$") then
+            local normText = value:gsub("\r\n", "\n"):gsub("\r", "\n"):match("^%s*(.-)%s*$")
+            if normText and normText ~= "" and normText ~= value then
+                local normGemini = runtimeFixes.lookupGeminiTextFuzzy(normText)
+                if normGemini ~= nil then
+                    visibleTextCache[value] = normGemini
+                    return normGemini
+                end
+            end
+        end
+
+        -- CRITICAL: DO NOT cache untranslated English strings into visibleTextCache!
+        -- Caching raw English freezes missing translations for the entire session.
         return value
     end
 
@@ -9249,12 +9322,15 @@ local dynamicPanelRescanUids = {
 }
 
 local extendedPanelRepairDelays = {
-    AutoChess_Hud_Panel = { 0.05, 0.15 },
-    AutoChessHudPanel = { 0.05, 0.15 },
-    AutoChess_Hud = { 0.05, 0.15 },
-    AutoChess_CardDescription_Panel = { 0.05, 0.15 },
-    AutoChess_GameDetail_Panel = { 0.05, 0.15 },
-    AutoChess_OutSideMain_Panel = { 0.05, 0.15 },
+    AutoChess_Hud_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChessHudPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChess_Hud = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChess_CardDescription_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChessCardDescriptionPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChessGameDetailPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChess_OutSideMain_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
+    AutoChessOutSideMainPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
@@ -9809,6 +9885,17 @@ do
         if type(origMethod) ~= "function" or runtimeFixes.AutoChessHookedWrappers[origMethod] then
             return origMethod
         end
+        local function hookChildCardItem(item)
+            if type(item) ~= "table" or item.__cpddCardItemHooked then return end
+            item.__cpddCardItemHooked = true
+            for _, m in ipairs({ "OnListItemObjectSet", "SetData", "InitView", "InitData", "UpdateView", "SetCardData", "UpdateCard" }) do
+                local orig = item[m]
+                if type(orig) == "function" then
+                    item[m] = runtimeFixes.hookAutoChessMethod(orig)
+                end
+            end
+        end
+
         local function wrapper(comp, ...)
             local argCount = select("#", ...)
             local args = { ... }
@@ -9816,6 +9903,7 @@ do
             for i = 1, argCount do
                 local arg = args[i]
                 if type(arg) == "table" or type(arg) == "userdata" then
+                    hookChildCardItem(arg)
                     pcall(safeTranslateAutoChessData, arg, seen)
                 elseif type(arg) == "string" then
                     pcall(function()
@@ -9824,6 +9912,24 @@ do
                 end
             end
             if type(comp) == "table" then
+                hookChildCardItem(comp)
+                pcall(function()
+                    if comp.GetDisplayedEntryWidgets then
+                        local entries = comp:GetDisplayedEntryWidgets()
+                        if type(entries) == "table" then
+                            for _, entry in pairs(entries) do hookChildCardItem(entry) end
+                        end
+                    end
+                    if comp.m_ItemList and type(comp.m_ItemList) == "table" then
+                        for _, item in pairs(comp.m_ItemList) do hookChildCardItem(item) end
+                    end
+                    if comp.ItemList and type(comp.ItemList) == "table" then
+                        for _, item in pairs(comp.ItemList) do hookChildCardItem(item) end
+                    end
+                    if comp.CardItems and type(comp.CardItems) == "table" then
+                        for _, item in pairs(comp.CardItems) do hookChildCardItem(item) end
+                    end
+                end)
                 pcall(function()
                     if comp.data ~= nil then safeTranslateAutoChessData(comp.data, seen) end
                     if comp.Data ~= nil then safeTranslateAutoChessData(comp.Data, seen) end
@@ -9868,17 +9974,18 @@ local function installEventDrivenPanelRepair(value, environment)
         if type(original) == "function" then
             class[methodName] = function(self, ...)
                 local uid = tostring(self and (self.uid or self.UID or self.__cname) or "")
-                if (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
-                    or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel")
-                    and not self.__cpddAutoChessHooked
-                then
+                local isAutoChess = (uid == "AutoChess_Hud_Panel" or uid == "AutoChessHudPanel" or uid == "AutoChess_Hud"
+                    or uid == "AutoChess_GameDetail_Panel" or uid == "AutoChess_CardDescription_Panel" or uid == "AutoChess_OutSideMain_Panel"
+                    or uid:find("AutoChess", 1, true) ~= nil or uid:find("autochess", 1, true) ~= nil)
+                if isAutoChess and not self.__cpddAutoChessHooked then
                     self.__cpddAutoChessHooked = true
                     for _, method in ipairs({
+                        "OnListItemObjectSet", "SetData", "InitView",
                         "Update", "UpdateData", "UpdateView", "UpdateList", "RefreshList",
-                        "SetData", "InitData", "UpdateCards", "RefreshCards", "UpdateMatchInfo",
+                        "InitData", "UpdateCards", "RefreshCards", "UpdateMatchInfo",
                         "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail", "SetGameDetail",
                         "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails", "ShowCardDetail",
-                        "SetCardData", "UpdateCardInfo", "InitView", "OnOpen", "SetCard",
+                        "SetCardData", "UpdateCardInfo", "OnOpen", "SetCard",
                         "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
                         "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
                         "UpdateSynergy", "UpdateSynergies", "RefreshSynergy",
@@ -9953,6 +10060,25 @@ do
         "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain_Panel",
         "Gameplay.LogicSystem.AutoChess.AutoChessOutSideMainPanel",
         "Gameplay.LogicSystem.AutoChess.AutoChess_OutSideMain",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Card_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_CardItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChessCardItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Card",
+        "Gameplay.LogicSystem.AutoChess.AutoChessCard",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Piece_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_PieceItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChessPieceItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_ListItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChessListItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_Fetter_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_FetterItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChessFetterItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_OutSide_Card_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChessOutSideCardItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_GameDetail_Card_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChessGameDetailCardItem",
+        "Gameplay.LogicSystem.AutoChess.AutoChess_CardDescription_Item",
+        "Gameplay.LogicSystem.AutoChess.AutoChessCardDescriptionItem",
     }
     for _, modName in ipairs(autoChessModuleCandidates) do
         Loader.AfterLoad(modName, function(value, environment)
@@ -9969,11 +10095,12 @@ do
             if type(panelClass) == "table" and panelClass.__cpddAutoChessPanelHooked ~= VERSION then
                 panelClass.__cpddAutoChessPanelHooked = VERSION
                 for _, m in ipairs({
+                    "OnListItemObjectSet", "SetData", "InitView",
                     "Open", "Refresh", "Update", "UpdateData", "UpdateView", "UpdateList",
-                    "RefreshList", "SetData", "InitData", "UpdateCards", "RefreshCards",
+                    "RefreshList", "InitData", "UpdateCards", "RefreshCards",
                     "UpdateMatchInfo", "UpdatePlayerCards", "UpdateContent", "UpdateGameDetail",
                     "SetGameDetail", "ShowDetail", "RefreshUI", "OnShow", "UpdateDetails",
-                    "ShowCardDetail", "SetCardData", "UpdateCardInfo", "InitView", "OnOpen",
+                    "ShowCardDetail", "SetCardData", "UpdateCardInfo", "OnOpen",
                     "SetCard", "ShowCard", "UpdateCard", "Show", "UpdateFetter", "UpdateFetters",
                     "UpdateBond", "UpdateBonds", "RefreshFetters", "SetFetterData",
                     "UpdateSynergy", "UpdateSynergies", "RefreshSynergy",
