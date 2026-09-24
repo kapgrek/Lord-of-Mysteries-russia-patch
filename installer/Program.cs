@@ -23,7 +23,7 @@ namespace LotmRussianPatcher
         private static extern bool AttachConsole(int dwProcessId);
         private const int ATTACH_PARENT_PROCESS = -1;
 
-        public const string VERSION = "2.8.4-RU";
+        public const string VERSION = "2.9.0-RU";
         public const string DEFAULT_REPO = "kapgrek/Lord-of-Mysteries-russia-patch";
 
         [STAThread]

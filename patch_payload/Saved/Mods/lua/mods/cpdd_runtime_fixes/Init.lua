@@ -1,6 +1,6 @@
 local Loader = assert(LOMModLoader, "LOMModLoader is required")
 
-local VERSION = "0.9.84"
+local VERSION = "2.9.0-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1387,8 +1387,22 @@ local runtimeMetrics = {
     UnresolvedCjkWrites = 0,
     UnresolvedCjkWriteFailures = 0,
     CaptureDataAssignmentsEnabled = false,
+    HooksInstalled = 0,
 }
 local runtimeFixes = {}
+
+-- Release logs keep failures and one startup summary. Routine install,
+-- timing and counter messages are written only with DiagnosticsMode=true.
+local function reportVerbose(message)
+    if type(Loader.Features) == "table" and Loader.Features.DiagnosticsMode == true then
+        report(message)
+    end
+end
+
+local function reportInstalled(message)
+    runtimeMetrics.HooksInstalled = runtimeMetrics.HooksInstalled + 1
+    reportVerbose(message)
+end
 
 local function sceneTextVector2D(x, y)
     if type(FVector2D) == "function" then
@@ -1490,7 +1504,7 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         if runtimeFixes.CinematicFontObject == nil then
             runtimeFixes.CinematicFontObject = fontObj
             pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
-            report("identified CinematicFontObject (stylized Hermes) from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+            reportVerbose("identified CinematicFontObject (stylized Hermes) from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
         end
         return
     end
@@ -1499,7 +1513,7 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         if runtimeFixes.CinematicFontObject == nil then
             runtimeFixes.CinematicFontObject = fontObj
             pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
-            report("identified CinematicFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+            reportVerbose("identified CinematicFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
         end
         return
     end
@@ -1528,7 +1542,7 @@ function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetN
         if typefaceName ~= nil then
             runtimeFixes.StandardTypefaceFontName = typefaceName
         end
-        report("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath .. " typeface=" .. tostring(typefaceName))
+        reportVerbose("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath .. " typeface=" .. tostring(typefaceName))
     end
 end
 
@@ -2887,7 +2901,7 @@ local function translateVisibleText(value)
         visibleTextCache[value] = normalizedLargeNumber
         if runtimeFixes.ExchangeLargeNumberRepairReported ~= true then
             runtimeFixes.ExchangeLargeNumberRepairReported = true
-            report("normalized rendered localized large number=" .. normalizedLargeNumber)
+            reportVerbose("normalized rendered localized large number=" .. normalizedLargeNumber)
         end
         return normalizedLargeNumber
     end
@@ -3426,7 +3440,7 @@ local function translateTextWidget(widget, discoveryContext)
                         runtimeFixes.CinematicFontObject = font.FontObject
                         local fPath = ""
                         pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()) end end)
-                        report("identified CinematicFontObject from " .. tostring(wName) .. " path=" .. fPath)
+                        reportVerbose("identified CinematicFontObject from " .. tostring(wName) .. " path=" .. fPath)
                     end
                 elseif isBodyName and not isTitleName then
                     runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, wName)
@@ -3879,7 +3893,7 @@ local function getDirectTable(tag)
             local data = module.data or module
             if type(data) == "table" then
                 directTables[cacheKey] = data
-                report("using direct localization table " .. moduleName)
+                reportVerbose("using direct localization table " .. moduleName)
                 return data
             end
         end
@@ -3955,7 +3969,7 @@ local function sourceIndexLookup(key)
     local elapsed = nowMilliseconds() - started
     runtimeMetrics.SourceShardLoadMillis = runtimeMetrics.SourceShardLoadMillis + elapsed
     if elapsed >= 8 then
-        report("slow language source shard " .. prefix .. " loaded in "
+        reportVerbose("slow language source shard " .. prefix .. " loaded in "
             .. string.format("%.2f", elapsed) .. " ms")
     end
     return loaded[key]
@@ -4063,7 +4077,7 @@ repairLiveString = function(tableName, rowKey, fieldPath, value)
     if normalizedLargeNumber ~= value then
         if runtimeFixes.ExchangeLargeNumberRepairReported ~= true then
             runtimeFixes.ExchangeLargeNumberRepairReported = true
-            report("normalized rendered localized large number=" .. normalizedLargeNumber)
+            reportVerbose("normalized rendered localized large number=" .. normalizedLargeNumber)
         end
         return normalizedLargeNumber
     end
@@ -4206,7 +4220,7 @@ local function installPostHotfixTranslationRestore(value, environment)
         local results = { originalPostHotfix(...) }
         local ok, count = pcall(Loader.ReapplyOverlays, true)
         if ok then
-            report(
+            reportVerbose(
                 "restored translated overlays after server hotfix modules="
                 .. tostring(count or 0)
             )
@@ -4217,7 +4231,7 @@ local function installPostHotfixTranslationRestore(value, environment)
     end
 
     utils.__cpddTranslationRestore = VERSION
-    report("installed post-hotfix translation restore")
+    reportInstalled("installed post-hotfix translation restore")
     return value
 end
 
@@ -4264,7 +4278,7 @@ local function repairWidgetBlueprintTextData(value, environment, source)
         end
     end
     if repairedCount > 0 then
-        report("repaired " .. repairedCount .. " cached Blueprint text entries from " .. tostring(source))
+        reportVerbose("repaired " .. repairedCount .. " cached Blueprint text entries from " .. tostring(source))
     end
     return value
 end
@@ -4397,7 +4411,7 @@ local function repairPickObjectSayTexts(value, environment)
     end
 
     if sayActions > 0 then
-        report(
+        reportVerbose(
             "processed PickObjectData Say actions=" .. tostring(sayActions)
             .. " repaired=" .. tostring(repairedActions)
         )
@@ -4723,7 +4737,7 @@ Loader.AfterLoad("Framework.Utils.LuaCommon.Managers.TableDataManager", function
         end
     end
 
-    report("installed translated localization lookup")
+    reportInstalled("installed translated localization lookup")
     return value
 end, 1000000, "cpdd.runtime-fix.localization")
 
@@ -4836,7 +4850,7 @@ local function installTableDataRowRepair(tableData, source)
     tableData.__cpddRuntimeFixGeneratedRowWrappers = wrappers
     tableData.__cpddRuntimeFixRows = VERSION
     if wrapped > 0 then
-        report(
+        reportInstalled(
             "installed generated TableData row repair on " .. tostring(source)
             .. " helpers=" .. tostring(wrapped)
         )
@@ -4850,7 +4864,7 @@ local function ensureGameTableDataRowRepair(source)
     local installed = installTableDataRowRepair(tableData, source)
     if not tableDataProbesLogged[source] then
         tableDataProbesLogged[source] = true
-        report(
+        reportVerbose(
             "probed Game.TableData from " .. tostring(source)
             .. " type=" .. type(tableData)
             .. " installed=" .. tostring(installed)
@@ -4943,7 +4957,7 @@ function runtimeFixes.installKsbcMissingTableFallback(manager, source)
         local key = tostring(methodName) .. ":" .. tostring(tableName)
         if not runtimeFixes.KsbcFallbackReports[key] then
             runtimeFixes.KsbcFallbackReports[key] = true
-            report("KSBC " .. tostring(methodName) .. " used normal table fallback for "
+            reportVerbose("KSBC " .. tostring(methodName) .. " used normal table fallback for "
                 .. tostring(tableName))
         end
     end
@@ -4979,7 +4993,7 @@ function runtimeFixes.installKsbcMissingTableFallback(manager, source)
         GetData = dataWrapper,
         GetAttr = attrWrapper,
     }
-    report("installed safe KSBC missing-table fallback from " .. tostring(source))
+    reportInstalled("installed safe KSBC missing-table fallback from " .. tostring(source))
     return true
 end
 
@@ -5023,7 +5037,7 @@ local function installRuntimeManagerRowRepair(manager, source)
         Wrapper = wrapper,
         Original = originalGetRow,
     }
-    report("installed live KSBC equipment-row repair from " .. tostring(source))
+    reportInstalled("installed live KSBC equipment-row repair from " .. tostring(source))
     return true
 end
 
@@ -5362,7 +5376,7 @@ local function repairEnglishSceneTextInnerLayout(self, phase)
     sceneTextInnerApplied[self] = true
     if sceneTextInnerReports < 5 then
         sceneTextInnerReports = sceneTextInnerReports + 1
-        report(string.format(
+        reportVerbose(string.format(
             "repaired inner scene text layout phase=%s sizebox=%s text=%s height=%s",
             tostring(phase),
             tostring(sizeBox ~= nil),
@@ -5407,7 +5421,7 @@ local function enlargeEnglishSceneTextSurface(self, phase)
     sceneTextSurfaceApplied[self] = true
     if sceneTextSurfaceReports < 5 then
         sceneTextSurfaceReports = sceneTextSurfaceReports + 1
-        report(string.format(
+        reportVerbose(string.format(
             "enlarged live scene text surface phase=%s size=%sx%s->%sx%s text=%q",
             tostring(phase),
             tostring(width),
@@ -5474,7 +5488,7 @@ Loader.AfterLoad(
             end
         end
         class.__cpddSceneTextRepair = VERSION
-        report("installed scene text translation and complete inner/outer layout repair")
+        reportInstalled("installed scene text translation and complete inner/outer layout repair")
         return value
     end,
     1000000,
@@ -5594,7 +5608,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.Utils.HUDUtils", function(value, environm
 
     hudUtils.__cpddRuntimeFixV1 = true
     hudUtils.NumberToChinese = englishNumber
-    report("installed English HUD number formatter")
+    reportInstalled("installed English HUD number formatter")
     return value
 end, 1000000, "cpdd.runtime-fix.hud-number-format")
 
@@ -5638,7 +5652,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.Family.FamilySystem", function(value, env
         return originalGetSeatName(self, index)
     end
     familySystem.__cpddEnglishFamilySeatName = VERSION
-    report("installed English family-seat ordinal names")
+    reportInstalled("installed English family-seat ordinal names")
     return value
 end, 1000000, "cpdd.runtime-fix.family-seat-names")
 
@@ -5698,7 +5712,7 @@ Loader.AfterLoad(
             return unpack(results)
         end
         fashionDetail.__cpddEnglishStyleLayout = VERSION
-        report("installed English Style detail horizontal reflow")
+        reportInstalled("installed English Style detail horizontal reflow")
         return value
     end,
     1000000,
@@ -5722,7 +5736,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.Reminder.PlayerInfo.PowerItemSpecial", fu
         return unpack(results)
     end
 
-    report("installed Beyonder Rating reminder label fix")
+    reportInstalled("installed Beyonder Rating reminder label fix")
     return value
 end, 1000000, "cpdd.runtime-fix.power-rating-label")
 
@@ -5745,7 +5759,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.NewHeadInfo.HeadInfoUI.HeadInfoName", fun
         return originalOnHeadNameChanged(self, translateVisibleText(name))
     end
 
-    report("installed translated overhead NPC names")
+    reportInstalled("installed translated overhead NPC names")
     return value
 end, 1000000, "cpdd.runtime-fix.head-info-name")
 
@@ -5787,7 +5801,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.Race.WorldWidget.RaceTrace_Widget", funct
         end
     end
 
-    report("installed RaceTrace meter fix")
+    reportInstalled("installed RaceTrace meter fix")
     return value
 end, 1000000, "cpdd.runtime-fix.racetrace-meter")
 
@@ -5886,7 +5900,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.SkillBuffDescUtils", func
         return translated
     end
 
-    report("installed shared generated skill/buff-description translation")
+    reportInstalled("installed shared generated skill/buff-description translation")
     return value
 end, 1000000, "cpdd.runtime-fix.star-sand-description")
 
@@ -5916,7 +5930,7 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
         return translated
     end
     helper.__cpddGeneratedTipsRepair = VERSION
-    report("installed shared generated equipment-tip translation")
+    reportInstalled("installed shared generated equipment-tip translation")
     return value
 end, 1000000, "cpdd.runtime-fix.generated-equipment-tip-description")
 
@@ -5966,7 +5980,7 @@ local function installSkillDescriptionRepair(value, environment)
 
     skillSystem.__cpddGeneratedTextRepair = VERSION
     if wrapped > 0 then
-        report("installed generated skill-description repair")
+        reportInstalled("installed generated skill-description repair")
     end
     return wrapped > 0
 end
@@ -6014,7 +6028,7 @@ local function installViewMethodRepair(value, environment, symbolName, methodNam
                     if elapsed >= 8 then
                         runtimeMetrics.SlowTargetedRepairs =
                             runtimeMetrics.SlowTargetedRepairs + 1
-                        report("slow targeted view repair source=" .. tostring(source)
+                        reportVerbose("slow targeted view repair source=" .. tostring(source)
                             .. " method=" .. tostring(methodName)
                             .. " elapsed_ms=" .. string.format("%.2f", elapsed)
                             .. " labels=" .. tostring(repaired or 0)
@@ -6029,7 +6043,7 @@ local function installViewMethodRepair(value, environment, symbolName, methodNam
 
     class[marker] = true
     if wrapped > 0 then
-        report("installed post-refresh widget repair for " .. source)
+        reportInstalled("installed post-refresh widget repair for " .. source)
     end
     return wrapped > 0
 end
@@ -6089,7 +6103,7 @@ local function installDataMethodRepair(value, environment, symbolName, methodNam
                 if elapsed >= 8 then
                     runtimeMetrics.SlowTargetedRepairs =
                         runtimeMetrics.SlowTargetedRepairs + 1
-                    report("slow targeted data repair source=" .. tostring(source)
+                    reportVerbose("slow targeted data repair source=" .. tostring(source)
                         .. " method=" .. tostring(methodName)
                         .. " elapsed_ms=" .. string.format("%.2f", elapsed)
                         .. " argument_ms=" .. string.format("%.2f", translateElapsed)
@@ -6104,7 +6118,7 @@ local function installDataMethodRepair(value, environment, symbolName, methodNam
 
     class[marker] = true
     if wrapped > 0 then
-        report("installed rendered data repair for " .. source)
+        reportInstalled("installed rendered data repair for " .. source)
     end
     return wrapped > 0
 end
@@ -6154,7 +6168,7 @@ runtimeMetrics.InstallEquipmentSpecialTextRepair = function(value, environment)
         return unpack(results)
     end
     class.__cpddEquipmentSpecialTextRepair = VERSION
-    report("installed authoritative ItemTipsEquipSpecial:SetData translation")
+    reportInstalled("installed authoritative ItemTipsEquipSpecial:SetData translation")
     return true
 end
 
@@ -6190,7 +6204,7 @@ runtimeMetrics.InstallSealedSkillDescRepair = function(value, environment)
         return translated
     end
     class.__cpddSealedSkillDescRepair = VERSION
-    report("installed authoritative SealedSystem skill-description translation")
+    reportInstalled("installed authoritative SealedSystem skill-description translation")
     return true
 end
 
@@ -6217,7 +6231,7 @@ local function installGuildRoleRepair(value, environment)
 
     guildSystem.__cpddRoleTextRepair = VERSION
     if wrapped > 0 then
-        report("installed translated club-role names")
+        reportInstalled("installed translated club-role names")
     end
     return wrapped > 0
 end
@@ -6406,7 +6420,7 @@ local function reportDialogueThirdRowState(self)
             end
         end)
     end
-    report("dialogue third-row live state " .. table.concat(states, ","))
+    reportVerbose("dialogue third-row live state " .. table.concat(states, ","))
 end
 
 local function bindDialogueRows(self)
@@ -6449,10 +6463,10 @@ local function bindDialogueRows(self)
     self.__cpddDialogueRowsBound = ok and VERSION or nil
     if #missing > 0 and self.__cpddDialogueWidgetLookupReported ~= VERSION then
         self.__cpddDialogueWidgetLookupReported = VERSION
-        report("dialogue widget lookup missing " .. table.concat(missing, ","))
+        reportVerbose("dialogue widget lookup missing " .. table.concat(missing, ","))
     elseif #missing == 0 and self.__cpddDialogueWidgetLookupReported ~= VERSION then
         self.__cpddDialogueWidgetLookupReported = VERSION
-        report("dialogue third row bound from the live widget tree")
+        reportVerbose("dialogue third row bound from the live widget tree")
     end
     revealDialogueRows(self)
     return ok and hasThirdLine
@@ -6524,7 +6538,7 @@ local function installDialogueTalkRepair(value, environment)
     end
 
     dialogueTalk.__cpddEnglishLayoutRepair = VERSION
-    report("installed dynamic multi-row English dialogue layout")
+    reportInstalled("installed dynamic multi-row English dialogue layout")
     return true
 end
 
@@ -6693,7 +6707,7 @@ runtimeFixes.repairGuildEventPreviewTree = function(view, root)
     walkWidgetDescendants(root, visited, inspect)
     if repaired > 0 and not runtimeFixes.GuildEventPreviewFallbackReported then
         runtimeFixes.GuildEventPreviewFallbackReported = true
-        report("repaired Guild Event Preview through displayed-widget fallback")
+        reportVerbose("repaired Guild Event Preview through displayed-widget fallback")
     end
     return repaired
 end
@@ -6925,7 +6939,7 @@ runtimeFixes.reportSkillImproveRepair = function(self)
             value = tostring(widget:GetText())
         end)
     end
-    report("Improve caption verification found=" .. tostring(widget ~= nil) .. " value=" .. tostring(value))
+    reportVerbose("Improve caption verification found=" .. tostring(widget ~= nil) .. " value=" .. tostring(value))
 end
 
 runtimeFixes.repairSkillHeaderLabels = function(self)
@@ -7125,7 +7139,7 @@ runtimeFixes.repairWorldBossClaimedLabel = function(self)
     ) or 0)
     if self.claimed == true and self.__cpddClaimedBadgeReport ~= VERSION then
         self.__cpddClaimedBadgeReport = VERSION
-        report("World Boss claimed badge repair labels=" .. tostring(repaired))
+        reportVerbose("World Boss claimed badge repair labels=" .. tostring(repaired))
     end
 end
 
@@ -7210,7 +7224,7 @@ runtimeFixes.repairLastHuntMyDataLabels = function(self)
         end
         if englishCount == 5 then
             runtimeFixes.lastHuntLabelVerificationLogged = true
-            report("Last Hunt painted-caption verification english=5 unresolvedChinese=" .. tostring(unresolved))
+            reportVerbose("Last Hunt painted-caption verification english=5 unresolvedChinese=" .. tostring(unresolved))
         end
     end
 end
@@ -7246,7 +7260,7 @@ runtimeFixes.installLastHuntScoreFormatting = function(value, environment)
         return runtimeFixes.formatGroupedInteger(number)
     end
     class.__cpddFullScoreFormatting = VERSION
-    report("installed full-number Last Hunt score formatting")
+    reportInstalled("installed full-number Last Hunt score formatting")
     return true
 end
 
@@ -7284,7 +7298,7 @@ runtimeFixes.installCurrencyFormatting = function(value, environment)
     end
 
     if moduleInstalled or liveInstalled then
-        report("installed full-number shared currency formatting"
+        reportInstalled("installed full-number shared currency formatting"
             .. " module=" .. tostring(moduleInstalled)
             .. " live=" .. tostring(liveInstalled))
     end
@@ -7302,7 +7316,7 @@ runtimeFixes.formatGameMoney = function(number)
         local formatted = runtimeFixes.formatGroupedInteger(number)
         if runtimeFixes.CurrencyFormattingVerificationReported ~= true then
             runtimeFixes.CurrencyFormattingVerificationReported = true
-            report("shared currency formatting verification output=" .. formatted)
+            reportVerbose("shared currency formatting verification output=" .. formatted)
         end
         return formatted
 end
@@ -7322,7 +7336,7 @@ runtimeFixes.installExchangeStallPriceFormatting = function(value, environment)
         return runtimeFixes.formatGameMoney(number)
     end
     class.__cpddFullExchangePriceFormatting = VERSION
-    report("installed full-number Shops Exchange stall price formatting")
+    reportInstalled("installed full-number Shops Exchange stall price formatting")
     return true
 end
 
@@ -7352,7 +7366,7 @@ runtimeFixes.installExchangeAuctionPriceFormatting = function(value, environment
         return result
     end
     class.__cpddFullExchangePriceFormatting = VERSION
-    report("installed full-number Shops Exchange auction price formatting")
+    reportInstalled("installed full-number Shops Exchange auction price formatting")
     return true
 end
 
@@ -7382,7 +7396,7 @@ runtimeFixes.installExchangeFashionPriceFormatting = function(
         return result
     end
     class.__cpddFullExchangePriceFormatting = VERSION
-    report("installed full-number Shops Exchange " .. reportName .. " price formatting")
+    reportInstalled("installed full-number Shops Exchange " .. reportName .. " price formatting")
     return true
 end
 
@@ -7440,7 +7454,7 @@ runtimeFixes.installCachedExchangePriceFormatting = function()
             installed = installed + 1
         end
     end
-    report("recovered cached Shops Exchange formatters=" .. tostring(installed))
+    reportVerbose("recovered cached Shops Exchange formatters=" .. tostring(installed))
     return installed
 end
 
@@ -7462,7 +7476,7 @@ runtimeFixes.installBattleStatisticsFormatting = function(value, environment)
         return runtimeFixes.formatGroupedInteger(math.ceil(number))
     end
     class.__cpddFullBattleStatisticsFormatting = VERSION
-    report("installed full-number DPS/statistics formatting")
+    reportInstalled("installed full-number DPS/statistics formatting")
     return true
 end
 
@@ -7537,7 +7551,7 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
     local function reportApplied(path, applied)
         if applied and not verifiedPaths[path] then
             verifiedPaths[path] = true
-            report("PVP scoreboard number formatting applied path=" .. path)
+            reportVerbose("PVP scoreboard number formatting applied path=" .. path)
         end
     end
 
@@ -7589,7 +7603,7 @@ runtimeMetrics.InstallPvpStatisticsFormatting = function(value, environment)
     end
 
     class.__cpddFullPvpStatisticsFormatting = VERSION
-    report(
+    reportInstalled(
         "installed full-number PVP scoreboard formatting methods="
         .. tostring(installedMethods)
     )
@@ -7650,7 +7664,7 @@ local function installDialogueControlRepair(value, environment, symbolName, meth
 
     class[marker] = true
     if wrapped > 0 then
-        report("installed exact English dialogue controls for " .. source)
+        reportInstalled("installed exact English dialogue controls for " .. source)
     end
     return wrapped > 0
 end
@@ -7697,7 +7711,7 @@ local function installExactWidgetRepair(value, environment, symbolName, methodNa
 
     class[marker] = true
     if wrapped > 0 then
-        report("installed exact English widget labels for " .. source)
+        reportInstalled("installed exact English widget labels for " .. source)
     end
     return wrapped > 0
 end
@@ -7910,7 +7924,7 @@ function runtimeFixes.installPlayerDetailRowRepair(value, environment, symbolNam
         return unpack(results)
     end
     class.__cpddPlayerDetailLabels = VERSION
-    report("installed exact player-detail attribute labels for " .. source)
+    reportInstalled("installed exact player-detail attribute labels for " .. source)
     return true
 end
 
@@ -7983,7 +7997,7 @@ function runtimeFixes.installPlayerDetailPanelRepair(value, environment, source)
         return unpack(results)
     end
     class.__cpddPlayerDetailPanelLabels = VERSION
-    report("installed complete player-detail attribute repair for " .. source)
+    reportInstalled("installed complete player-detail attribute repair for " .. source)
     return true
 end
 
@@ -8147,7 +8161,7 @@ local function installSettingsPresetLayoutRepair(value, environment)
         return unpack(results)
     end
     class.__cpddCompactGraphicsPresets = VERSION
-    report("installed compact overall graphics preset row")
+    reportInstalled("installed compact overall graphics preset row")
     return true
 end
 
@@ -8168,7 +8182,7 @@ local function repairTaskInfoLabels(self)
     local repaired = translateViewTextWidgets(view, root)
     if taskInfoRepairReports[self] ~= true then
         taskInfoRepairReports[self] = true
-        report("Task Info targeted repair active labels=" .. tostring(repaired))
+        reportVerbose("Task Info targeted repair active labels=" .. tostring(repaired))
         pcall(function()
             if type(view) == "table" then
                 for k, v in pairs(view) do
@@ -8178,7 +8192,7 @@ local function repairTaskInfoLabels(self)
                         local f = v.GetFont and v:GetFont() or v.Font
                         if f and f.FontObject and f.FontObject.GetPathName then fPath = tostring(f.FontObject:GetPathName()) end
                         if v.TextStyleSet and v.TextStyleSet.GetPathName then tsPath = tostring(v.TextStyleSet:GetPathName()) end
-                        report(">>> TASK_INFO_MEMBER: name=" .. tostring(k) .. " class=" .. tostring(cls) .. " font=" .. fPath .. " ts=" .. tsPath)
+                        reportVerbose(">>> TASK_INFO_MEMBER: name=" .. tostring(k) .. " class=" .. tostring(cls) .. " font=" .. fPath .. " ts=" .. tsPath)
                     end
                 end
             end
@@ -8195,7 +8209,7 @@ local function repairTaskListItemLabels(self)
     local repaired = translateViewTextWidgets(view, root)
     if taskListItemRepairReports[self] ~= true then
         taskListItemRepairReports[self] = true
-        report("Task list item targeted repair active labels=" .. tostring(repaired))
+        reportVerbose("Task list item targeted repair active labels=" .. tostring(repaired))
     end
     return repaired
 end
@@ -8277,7 +8291,7 @@ local function reportTaskBoardRepair(self)
     local state = taskBoardRepairStates[self]
     if state ~= nil and state.Reported ~= true then
         state.Reported = true
-        report("Task Board targeted repair runs=" .. tostring(state.Runs)
+        reportVerbose("Task Board targeted repair runs=" .. tostring(state.Runs)
             .. " child_components=" .. tostring(state.Components)
             .. " widgets_found=" .. tostring(state.Found)
             .. " labels_repaired=" .. tostring(state.Repaired))
@@ -8299,7 +8313,7 @@ local function repairTaskBoardLabels(self)
     local elapsed = nowMilliseconds() - started
     if elapsed >= 8 then
         runtimeMetrics.SlowTargetedRepairs = runtimeMetrics.SlowTargetedRepairs + 1
-        report("slow targeted Task Board repair elapsed_ms="
+        reportVerbose("slow targeted Task Board repair elapsed_ms="
             .. string.format("%.2f", elapsed)
             .. " labels=" .. tostring(repaired))
     end
@@ -9379,7 +9393,7 @@ local function installShortMenuLabels(value, environment)
         end
     end
     class.__cpddShortMenuLabels = VERSION
-    report("installed compact Russian menu labels with zero letter-spacing (LOCKED)")
+    reportInstalled("installed compact Russian menu labels with zero letter-spacing (LOCKED)")
     return true
 end
 
@@ -9423,7 +9437,7 @@ local function installMenuPanelRepair(value, environment)
         end
     end
     class.__cpddMenuPanelFix = VERSION
-    report("installed Menu_Panel layout repair (LOCKED)")
+    reportInstalled("installed Menu_Panel layout repair (LOCKED)")
     return true
 end
 
@@ -9446,8 +9460,6 @@ local dynamicPanelRescanUids = {
     AutoChessHudPanel = true,
     AutoChess_Hud = true,
     AutoChess_CardDescription_Panel = true,
-    AutoChess_GameDetail_Panel = true,
-    AutoChess_OutSideMain_Panel = true,
     Border_Panel = true,
     FashionStation_Details_Panel = true,
     GuildInside_Panel = true,
@@ -9469,10 +9481,6 @@ local extendedPanelRepairDelays = {
     AutoChess_Hud = { 0.05, 0.15, 0.35, 0.80, 1.50 },
     AutoChess_CardDescription_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
     AutoChessCardDescriptionPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
-    AutoChess_GameDetail_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
-    AutoChessGameDetailPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
-    AutoChess_OutSideMain_Panel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
-    AutoChessOutSideMainPanel = { 0.05, 0.15, 0.35, 0.80, 1.50 },
     Border_Panel = { 0.05, 0.20 },
     FashionStation_Details_Panel = { 0.25, 0.75, 1.50 },
     GuildInside_Panel = { 0.25, 0.75 },
@@ -9494,6 +9502,16 @@ runtimeFixes.SinglePassPanelUids = {
     Menu_Panel = true,
     Sealed_Equip_Panel = true,
     SequencePromotion_Panel = true,
+}
+
+-- AutoChess panels whose text is translated by the class-level Refresh /
+-- OnRefresh / selection hooks. In the v2.8.x session every delayed, refresh
+-- and extended pass here changed 0 labels while costing 27-49 ms (main menu)
+-- and 170-206 ms over up to 9035 widgets (match results). Keep only the
+-- Open pass.
+runtimeFixes.ClassHookedPanelUids = {
+    AutoChess_GameDetail_Panel = true,
+    AutoChess_OutSideMain_Panel = true,
 }
 
 -- These high-frequency panels have dedicated data/view hooks above. A generic
@@ -9584,7 +9602,7 @@ function panelTextRepair:Repair(component, reason)
     runtimeMetrics.PanelLabelsRepaired = runtimeMetrics.PanelLabelsRepaired + repaired
     if elapsed >= 8 then
         runtimeMetrics.SlowPanelRepairs = runtimeMetrics.SlowPanelRepairs + 1
-        report("slow panel repair uid=" .. tostring(componentUid or "unknown")
+        reportVerbose("slow panel repair uid=" .. tostring(componentUid or "unknown")
             .. " reason=" .. tostring(reason or "unknown")
             .. " elapsed_ms=" .. string.format("%.2f", elapsed)
             .. " widgets=" .. tostring(runtimeMetrics.WidgetsVisited - visitedBefore)
@@ -9601,7 +9619,7 @@ function panelTextRepair:Repair(component, reason)
         local summary = self.Reports[label]
         if summary == nil then
             self.Reports[label] = { Events = 1, Labels = repaired }
-            report("event-driven panel repair active for " .. label
+            reportVerbose("event-driven panel repair active for " .. label
                 .. "; later instances are aggregated")
         else
             summary.Events = summary.Events + 1
@@ -9644,14 +9662,17 @@ function panelTextRepair:ProcessOnce(component, reason)
         state = {}
         self.States[key] = state
     end
+    local classHooked = uid ~= nil and runtimeFixes.ClassHookedPanelUids[tostring(uid)] == true
     local alreadyScanned = state.Scanned == true
     state.Scanned = true
     if alreadyScanned then
-        self:Queue(component, true)
+        if not classHooked then
+            self:Queue(component, true)
+        end
         return 0
     end
     local repaired = self:Repair(component, reason)
-    if uid ~= nil and runtimeFixes.SinglePassPanelUids[tostring(uid)] then
+    if classHooked or (uid ~= nil and runtimeFixes.SinglePassPanelUids[tostring(uid)]) then
         runtimeMetrics.SinglePassPanelSkips = runtimeMetrics.SinglePassPanelSkips + 1
         return repaired
     end
@@ -10075,7 +10096,7 @@ do
         if elapsed > 8 then
             summary.Slow = summary.Slow + 1
             if summary.Slow <= 5 or summary.Slow % 50 == 0 then
-                report("slow AutoChess class repair " .. className .. "." .. tostring(methodName)
+                reportVerbose("slow AutoChess class repair " .. className .. "." .. tostring(methodName)
                     .. " elapsed_ms=" .. string.format("%.2f", elapsed)
                     .. " labels=" .. tostring(labels)
                     .. " children=" .. tostring(walkChildren == true)
@@ -10086,7 +10107,7 @@ do
         local calls = summary.Calls
         if calls >= summary.NextReport then
             summary.NextReport = summary.NextReport * 2
-            report("AutoChess class repair " .. className
+            reportVerbose("AutoChess class repair " .. className
                 .. " calls=" .. tostring(calls)
                 .. " labels_total=" .. tostring(summary.Labels)
                 .. " last=" .. tostring(methodName) .. ":" .. tostring(labels)
@@ -10111,22 +10132,88 @@ do
         return false
     end
 
+    -- Catalog pages: selecting or searching an entry redraws the detail
+    -- component. List entries translate themselves through their own
+    -- OnOpen/Show/OnRefresh hooks, so a walk over every child of the page
+    -- (91 ms per selection on the equipment page) only repeats their work.
+    local function collectAutoChessDetails(page)
+        local found, seen = {}, { [page] = true }
+        local function walk(owner, depth)
+            local children = owner._childComponents
+            if type(children) ~= "table" or depth > 4 then return end
+            for _, child in pairs(children) do
+                if type(child) == "table" and not seen[child] and not child.isDestroyed then
+                    seen[child] = true
+                    local cname = child.__cname
+                    if type(cname) == "string" and cname:find("^AutoChess_Catalog_.+_Detail$") then
+                        found[#found + 1] = child
+                    else
+                        walk(child, depth + 1)
+                    end
+                end
+            end
+        end
+        walk(page, 1)
+        return found
+    end
+
+    -- Detail components of the running detail-mode call; they and their
+    -- descendants skip their own pass and are translated once afterwards.
+    local currentDetailRoots = nil
+    local function isInDetailRoots(comp)
+        if currentDetailRoots[comp] then return true end
+        for root in pairs(currentDetailRoots) do
+            if isDescendantOf(comp, root) then return true end
+        end
+        return false
+    end
+
+    local function translateAutoChessDetails(page, methodName)
+        local details = collectAutoChessDetails(page)
+        if #details == 0 then
+            -- Unknown page layout: keep the full page walk.
+            return translateAutoChessComponent(page, methodName, true)
+        end
+        local labels = 0
+        for _, detail in ipairs(details) do
+            labels = labels + (translateAutoChessComponent(detail, methodName, true) or 0)
+        end
+        return labels
+    end
+
     local function callAutoChessGuarded(comp, original, methodName, walkChildren, afterTranslate, ...)
         if type(comp) ~= "table" or activeAutoChessComponents[comp]
             or (currentWalkRoot ~= nil and isDescendantOf(comp, currentWalkRoot))
+            or (currentDetailRoots ~= nil and isInDetailRoots(comp))
         then
             return original(comp, ...)
         end
         activeAutoChessComponents[comp] = true
-        local ownsWalkRoot = walkChildren and currentWalkRoot == nil
+        local detailMode = walkChildren == "detail"
+        local ownsWalkRoot = walkChildren == true and currentWalkRoot == nil
         if ownsWalkRoot then currentWalkRoot = comp end
+        local ownsDetailRoots = false
+        if detailMode and currentDetailRoots == nil then
+            local roots = {}
+            for _, detail in ipairs(collectAutoChessDetails(comp)) do roots[detail] = true end
+            if next(roots) ~= nil then
+                currentDetailRoots = roots
+                ownsDetailRoots = true
+            end
+        end
         local results = packResults(pcall(original, comp, ...))
         activeAutoChessComponents[comp] = nil
         if ownsWalkRoot then currentWalkRoot = nil end
+        if ownsDetailRoots then currentDetailRoots = nil end
         if not results[1] then
             error(results[2], 0)
         end
-        local ok, err = pcall(translateAutoChessComponent, comp, methodName, walkChildren)
+        local ok, err
+        if detailMode then
+            ok, err = pcall(translateAutoChessDetails, comp, methodName)
+        else
+            ok, err = pcall(translateAutoChessComponent, comp, methodName, walkChildren)
+        end
         if not ok and not runtimeFixes.AutoChessClassRepairErrorReported then
             runtimeFixes.AutoChessClassRepairErrorReported = true
             report("AutoChess class repair failed safely: " .. tostring(err))
@@ -10141,14 +10228,29 @@ do
         OnShowSubPanel = true, OpenDetailTips = true,
         OpenReviewTalentTips = true, OpenReviewFetterTips = true,
     }
-    local function autoChessClassMethodMode(name)
+    local function isAutoChessDetailMethod(name)
+        return name == "RefreshTalentResult" or name == "RefreshEquipResult"
+            or name:find("^on_TileView_.+_ItemSelected$") ~= nil
+            or name:find("^on_.+_SearchResult$") ~= nil
+    end
+
+    -- false: the component only; true: the component and all children;
+    -- "detail": only the catalog detail components of a Page class.
+    local function autoChessClassMethodMode(name, className)
         local mode = autoChessClassMethods[name]
-        if mode ~= nil then return mode end
-        if name:sub(1, 3) == "on_" and (name:find("_ItemSelected$") or name:find("_ItemClicked$")) then
-            return true
+        if mode == nil then
+            if name:sub(1, 3) == "on_" and (name:find("_ItemSelected$") or name:find("_ItemClicked$")) then
+                mode = true
+            elseif name:find("^on_.+_SearchResult$") then
+                mode = true
+            end
         end
-        if name:find("^on_.+_SearchResult$") then return true end
-        return nil
+        if mode == true and type(className) == "string" and className:find("Page$")
+            and isAutoChessDetailMethod(name)
+        then
+            return "detail"
+        end
+        return mode
     end
 
     runtimeFixes.AutoChessClassWrappers = setmetatable({}, { __mode = "k" })
@@ -10167,7 +10269,7 @@ do
         local installed = {}
         for _, name in ipairs(names) do
             local original = rawget(classTable, name)
-            local walkChildren = autoChessClassMethodMode(name)
+            local walkChildren = autoChessClassMethodMode(name, className)
             local wrapper = function(self, ...)
                 return callAutoChessGuarded(self, original, name, walkChildren, nil, ...)
             end
@@ -10177,7 +10279,7 @@ do
             end
         end
         rawset(classTable, "__cpddAutoChessClassHook", VERSION)
-        report("installed AutoChess class hook " .. className .. ": "
+        reportInstalled("installed AutoChess class hook " .. className .. ": "
             .. (#installed > 0 and table.concat(installed, ",") or "<none>"))
     end
 
@@ -10224,10 +10326,6 @@ do
         end
 
         local function wrapper(comp, ...)
-            local diag = runtimeFixes.autoChessDiag
-            if diag ~= nil then
-                pcall(diag.OnMethodCall, comp, methodName, "translate-hook", ...)
-            end
             local argCount = select("#", ...)
             local args = { ... }
             local seen = {}
@@ -10286,457 +10384,6 @@ do
     end
 end
 
--- AutoChess diagnostics. The AutoChess module list above is guessed, and the
--- encyclopedia's nested components are never matched by it. This pass records
--- the real module keys, component classes, method names and view widget names,
--- so the next fix can target them. It only observes: it never changes text
--- or widgets. Output goes to Warning level (PerformanceMode keeps it) and to
--- Saved/Mods/cpdd-autochess-diag.log. Off by default; enable with
--- AutoChessDiagnostics=true.
-do
-    local diag = {
-        Enabled = type(Loader.Features) == "table"
-            and Loader.Features.AutoChessDiagnostics == true,
-        FileName = "cpdd-autochess-diag.log",
-        Lines = {},
-        MaxLines = 20000,
-        Truncated = false,
-        Dirty = false,
-        SeenModuleKeys = {},
-        SeenClassNames = {},
-        DumpedLevels = setmetatable({}, { __mode = "k" }),
-        DumpedComponents = {},
-        ViewDumpsPerClass = {},
-        WrappedClasses = setmetatable({}, { __mode = "k" }),
-        EventCounts = {},
-        CallCounts = {},
-        MaxEventsPerKey = 60,
-        MaxCallsPerKey = 30,
-    }
-
-    local function isChessName(value)
-        return type(value) == "string" and value:lower():find("chess", 1, true) ~= nil
-    end
-
-    local function timestamp()
-        if type(os) == "table" and type(os.date) == "function" then
-            local ok, value = pcall(os.date, "%H:%M:%S")
-            if ok then return tostring(value) .. " " end
-        end
-        return ""
-    end
-
-    function diag.Log(message)
-        if not diag.Enabled then return end
-        local line = "[CPDDAutoChessDiag] " .. tostring(message)
-        local nativeLogger = LuaCLogger
-        if nativeLogger ~= nil and type(nativeLogger.Warning) == "function" then
-            pcall(nativeLogger.Warning, line)
-        else
-            local logger = Log or LaunchLog
-            if logger and logger.Warning then
-                pcall(logger.Warning, line)
-            elseif logger and logger.Info then
-                pcall(logger.Info, line)
-            end
-        end
-        if #diag.Lines < diag.MaxLines then
-            diag.Lines[#diag.Lines + 1] = timestamp() .. line
-            diag.Dirty = true
-        elseif not diag.Truncated then
-            diag.Truncated = true
-            diag.Lines[#diag.Lines + 1] = "[CPDDAutoChessDiag] file line limit reached; see game log"
-            diag.Dirty = true
-        end
-    end
-
-    local fileLibrary = nil
-    function diag.Flush()
-        if not diag.Dirty then return end
-        diag.Dirty = false
-        local root = tostring(Loader.Root or ""):gsub("\\", "/"):gsub("/+$", "")
-        if root == "" then return end
-        if fileLibrary == nil then
-            local ok, library = pcall(import, "LuaFunctionLibrary")
-            fileLibrary = (ok and library) or false
-        end
-        if not fileLibrary or type(fileLibrary.SaveStringContentToFile) ~= "function" then return end
-        pcall(fileLibrary.SaveStringContentToFile,
-            table.concat(diag.Lines, "\n") .. "\n", root .. "/" .. diag.FileName)
-    end
-
-    local function logList(prefix, names)
-        if #names == 0 then
-            diag.Log(prefix .. " <none>")
-            return
-        end
-        local chunk = {}
-        for i, name in ipairs(names) do
-            chunk[#chunk + 1] = tostring(name)
-            if #chunk == 40 or i == #names then
-                diag.Log(prefix .. " [" .. tostring(i - #chunk + 1) .. "-" .. tostring(i)
-                    .. "/" .. tostring(#names) .. "] " .. table.concat(chunk, ", "))
-                chunk = {}
-            end
-        end
-    end
-
-    local function componentKey(comp)
-        return tostring(comp.__cname) .. "|" .. tostring(comp.uid or comp.UID)
-    end
-
-    local function parentChain(comp)
-        local parts = {}
-        local current = comp.parentComponent
-        while type(current) == "table" and #parts < 8 do
-            parts[#parts + 1] = componentKey(current)
-            current = current.parentComponent
-        end
-        return parts
-    end
-
-    local function isRelevant(comp)
-        local current, depth = comp, 0
-        while type(current) == "table" and depth < 9 do
-            if isChessName(current.__cname) or isChessName(current.uid) or isChessName(current.UID) then
-                return true
-            end
-            current = current.parentComponent
-            depth = depth + 1
-        end
-        return false
-    end
-
-    local function describeArg(value)
-        local valueType = type(value)
-        if valueType == "string" then
-            local text = value:gsub("[\r\n]", "\\n")
-            if #text > 80 then text = text:sub(1, 80) .. "..." end
-            return '"' .. text .. '"'
-        elseif valueType == "number" or valueType == "boolean" or valueType == "nil" then
-            return tostring(value)
-        elseif valueType == "table" then
-            local keys, count = {}, 0
-            for k in pairs(value) do
-                count = count + 1
-                if #keys < 12 then keys[#keys + 1] = tostring(k) end
-            end
-            local cname = value.__cname
-            return "table{" .. (cname ~= nil and ("cname=" .. tostring(cname) .. " ") or "")
-                .. "n=" .. tostring(count) .. " " .. table.concat(keys, ",") .. "}"
-        end
-        return valueType
-    end
-
-    -- Instance, then metatable/__index/super chain. Each class level is listed
-    -- once per session; later components only reference it.
-    local function classLevels(comp)
-        local levels, visited = {}, {}
-        local function push(t, how)
-            if type(t) == "table" and not visited[t] and #levels < 16 then
-                visited[t] = true
-                levels[#levels + 1] = { Table = t, How = how }
-            end
-        end
-        push(comp, "instance")
-        local i = 1
-        while i <= #levels do
-            local t = levels[i].Table
-            local mtOk, mt = pcall(getmetatable, t)
-            if mtOk and type(mt) == "table" then
-                push(rawget(mt, "__index"), "__index")
-                push(mt, "metatable")
-            end
-            push(rawget(t, "super"), "super")
-            push(rawget(t, "__super"), "__super")
-            push(rawget(t, "class"), "class")
-            i = i + 1
-        end
-        return levels
-    end
-
-    local function dumpView(indent, view)
-        if type(view) ~= "table" then
-            diag.Log(indent .. "view type=" .. type(view))
-            return
-        end
-        local names, nested = {}, {}
-        for k, v in pairs(view) do
-            if type(k) == "string" then
-                local desc = k
-                if type(v) == "userdata" then
-                    local ok, className = pcall(function() return v:GetClass():GetName() end)
-                    if ok and className ~= nil then desc = k .. ":" .. tostring(className) end
-                elseif type(v) == "table" then
-                    desc = k .. ":table"
-                    nested[#nested + 1] = k
-                end
-                names[#names + 1] = desc
-            end
-        end
-        table.sort(names)
-        logList(indent .. "view widgets", names)
-        table.sort(nested)
-        for _, k in ipairs(nested) do
-            local sub = {}
-            for subKey in pairs(view[k]) do
-                if type(subKey) == "string" and #sub < 80 then sub[#sub + 1] = subKey end
-            end
-            table.sort(sub)
-            logList(indent .. "view." .. k .. " keys", sub)
-        end
-    end
-
-    function diag.DumpComponent(comp, indent)
-        local cname = tostring(comp.__cname)
-        diag.Log(indent .. "component " .. componentKey(comp)
-            .. " parents=[" .. table.concat(parentChain(comp), " < ") .. "]")
-        -- Generic classes (UIComponent, list items) share methods but not
-        -- widgets, so views are dumped per instance, capped per class.
-        local viewDumps = (diag.ViewDumpsPerClass[cname] or 0) + 1
-        diag.ViewDumpsPerClass[cname] = viewDumps
-        if viewDumps <= 5 then
-            pcall(function()
-                local widget = comp.userWidget or comp.widget
-                if widget ~= nil and widget.GetName then
-                    diag.Log(indent .. "  userWidget=" .. tostring(widget:GetName()))
-                end
-            end)
-            dumpView(indent .. "  ", comp.view)
-        elseif viewDumps == 6 then
-            diag.Log(indent .. "  (further views of class " .. cname .. " omitted)")
-        end
-        if diag.SeenClassNames[cname] then
-            return
-        end
-        diag.SeenClassNames[cname] = true
-        for i, level in ipairs(classLevels(comp)) do
-            local t = level.Table
-            local levelName = tostring(rawget(t, "__cname") or "?")
-            local prefix = indent .. "  level" .. tostring(i) .. " " .. levelName .. " (" .. level.How .. ")"
-            if diag.DumpedLevels[t] then
-                diag.Log(prefix .. " already listed")
-            else
-                diag.DumpedLevels[t] = true
-                local methods, fields = {}, {}
-                for k, v in pairs(t) do
-                    if type(k) == "string" then
-                        if type(v) == "function" then
-                            methods[#methods + 1] = k
-                        elseif i == 1 then
-                            fields[#fields + 1] = k .. ":" .. type(v)
-                        end
-                    end
-                end
-                table.sort(methods)
-                logList(prefix .. " methods", methods)
-                if i == 1 then
-                    table.sort(fields)
-                    logList(prefix .. " fields", fields)
-                end
-            end
-        end
-    end
-
-    local function dumpChildren(comp, indent, depth, visited)
-        local children = comp._childComponents
-        if type(children) ~= "table" or depth > 5 then return end
-        local labels = {}
-        for k, child in pairs(children) do
-            if type(child) == "table" then
-                labels[#labels + 1] = tostring(k) .. "=" .. componentKey(child)
-            end
-        end
-        table.sort(labels)
-        if #labels > 0 then
-            logList(indent .. "children of " .. componentKey(comp), labels)
-        end
-        for _, child in pairs(children) do
-            if type(child) == "table" and not visited[child] then
-                visited[child] = true
-                local key = componentKey(child)
-                if not diag.DumpedComponents[key] then
-                    diag.DumpedComponents[key] = true
-                    diag.DumpComponent(child, indent .. "  ")
-                end
-                dumpChildren(child, indent .. "  ", depth + 1, visited)
-            end
-        end
-    end
-
-    -- Observe-only wrappers on real AutoChess classes found by the module scan.
-    -- UIComponent.Open/Refresh misses subclasses that override them without
-    -- calling super. Click handlers are left alone because listeners may be
-    -- removed by function identity.
-    local diagWrapNames = {
-        "Open", "Refresh", "OnOpen", "OnRefresh", "OnShow", "OnCreate", "OnInit",
-        "InitView", "InitData", "OnListItemObjectSet", "SetData", "UpdateView",
-        "RefreshView", "RefreshUI", "UpdateData",
-    }
-    local function wrapClassForDiag(classTable, label)
-        if type(classTable) ~= "table" or diag.WrappedClasses[classTable] then return 0 end
-        diag.WrappedClasses[classTable] = true
-        local wrapped = {}
-        for _, name in ipairs(diagWrapNames) do
-            local original = rawget(classTable, name)
-            if type(original) == "function" then
-                local assigned = pcall(function()
-                    classTable[name] = function(self, ...)
-                        pcall(diag.OnMethodCall, self, name, "class:" .. label, ...)
-                        return original(self, ...)
-                    end
-                end)
-                if assigned then wrapped[#wrapped + 1] = name end
-            end
-        end
-        if #wrapped > 0 then
-            diag.Log("  observe-wrapped " .. tostring(rawget(classTable, "__cname"))
-                .. " from " .. label .. ": " .. table.concat(wrapped, ","))
-        end
-        return #wrapped
-    end
-
-    local function collectClasses(value, out)
-        if type(value) ~= "table" then return end
-        if rawget(value, "__cname") ~= nil then
-            out[#out + 1] = value
-            return
-        end
-        local scanned = 0
-        for _, v in pairs(value) do
-            scanned = scanned + 1
-            if scanned > 500 then break end
-            if type(v) == "table" and rawget(v, "__cname") ~= nil then
-                out[#out + 1] = v
-            end
-        end
-    end
-
-    local function scanTable(label, source)
-        if type(source) ~= "table" then
-            diag.Log("scan " .. label .. ": unavailable (" .. type(source) .. ")")
-            return
-        end
-        local fresh, total = {}, 0
-        for k in pairs(source) do
-            if isChessName(k) then
-                total = total + 1
-                local seenKey = label .. "|" .. k
-                if not diag.SeenModuleKeys[seenKey] then
-                    diag.SeenModuleKeys[seenKey] = true
-                    fresh[#fresh + 1] = k
-                end
-            end
-        end
-        table.sort(fresh)
-        diag.Log("scan " .. label .. ": chess keys total=" .. tostring(total) .. " new=" .. tostring(#fresh))
-        for _, k in ipairs(fresh) do
-            local value = source[k]
-            local classes, cnames = {}, {}
-            collectClasses(value, classes)
-            for _, cls in ipairs(classes) do
-                cnames[#cnames + 1] = tostring(rawget(cls, "__cname"))
-            end
-            diag.Log("  " .. label .. "[" .. k .. "] type=" .. type(value)
-                .. " classes=" .. table.concat(cnames, ","))
-            for _, cls in ipairs(classes) do
-                wrapClassForDiag(cls, k)
-            end
-        end
-    end
-
-    function diag.ScanModules(stage)
-        if not diag.Enabled then return end
-        diag.Log("module scan stage=" .. tostring(stage))
-        scanTable("package.loaded", type(package) == "table" and package.loaded or nil)
-        local gameOk, gameLoaded = pcall(function() return Game and Game.loaded end)
-        scanTable("Game.loaded", gameOk and gameLoaded or nil)
-        scanTable("_G", _G)
-        -- kg_require keeps its own module cache; find it through upvalues.
-        local privateRequire = rawget(_G, "kg_require")
-        if type(privateRequire) == "function" and type(debug) == "table"
-            and type(debug.getupvalue) == "function" then
-            for i = 1, 60 do
-                local ok, name, value = pcall(debug.getupvalue, privateRequire, i)
-                if not ok or name == nil then break end
-                if type(value) == "table" then
-                    local hasChess = false
-                    for k in pairs(value) do
-                        if isChessName(k) then hasChess = true break end
-                    end
-                    if hasChess then
-                        scanTable("kg_require.upvalue[" .. tostring(name) .. "]", value)
-                    end
-                end
-            end
-        else
-            diag.Log("scan kg_require: unavailable")
-        end
-        diag.Flush()
-    end
-
-    function diag.OnComponentEvent(comp, event, source)
-        if not diag.Enabled or type(comp) ~= "table" or not isRelevant(comp) then return end
-        local key = componentKey(comp)
-        local cname = tostring(comp.__cname)
-        if not diag.SeenClassNames[cname] then
-            diag.ScanModules("new component " .. key)
-        end
-        local count = (diag.EventCounts[key] or 0) + 1
-        diag.EventCounts[key] = count
-        if count <= diag.MaxEventsPerKey then
-            diag.Log("event " .. key .. "." .. tostring(event) .. " via " .. tostring(source)
-                .. " #" .. tostring(count)
-                .. " parents=[" .. table.concat(parentChain(comp), " < ") .. "]")
-        end
-        if not diag.DumpedComponents[key] then
-            diag.DumpedComponents[key] = true
-            diag.DumpComponent(comp, "  ")
-        end
-        if count <= diag.MaxEventsPerKey then
-            dumpChildren(comp, "  ", 1, {})
-        end
-        diag.Flush()
-    end
-
-    function diag.OnMethodCall(comp, methodName, source, ...)
-        if not diag.Enabled or type(comp) ~= "table" then return end
-        local key = componentKey(comp) .. "." .. tostring(methodName or "?")
-        local count = (diag.CallCounts[key] or 0) + 1
-        diag.CallCounts[key] = count
-        if count > diag.MaxCallsPerKey then return end
-        local args = {}
-        for i = 1, math.min(select("#", ...), 6) do
-            args[#args + 1] = describeArg((select(i, ...)))
-        end
-        diag.Log("call " .. key .. " via " .. tostring(source) .. " #" .. tostring(count)
-            .. " args=(" .. table.concat(args, "; ") .. ")")
-        if count == 1 and not diag.DumpedComponents[componentKey(comp)] then
-            diag.DumpedComponents[componentKey(comp)] = true
-            diag.DumpComponent(comp, "  ")
-        end
-        diag.Flush()
-    end
-
-    function diag.OnModuleLoaded(modName, value, panelClass)
-        diag.Log("AfterLoad " .. tostring(modName) .. " value=" .. type(value)
-            .. " class=" .. tostring(type(panelClass) == "table" and panelClass.__cname or nil))
-        diag.Flush()
-    end
-
-    if diag.Enabled then
-        runtimeFixes.autoChessDiag = diag
-        diag.Log("AutoChess diagnostics enabled v" .. VERSION .. " file=Saved/Mods/" .. diag.FileName)
-        local scanOk, scanErr = pcall(diag.ScanModules, "module-load")
-        if not scanOk then diag.Log("module-load scan failed: " .. tostring(scanErr)) end
-        if type(Loader.On) == "function" then
-            Loader.On("after_main", function()
-                pcall(diag.ScanModules, "after_main")
-            end, 1000000, "cpdd.runtime-fix.autochess-diagnostics")
-        end
-    end
-end
-
 local function installEventDrivenPanelRepair(value, environment)
     local class = getSymbol(value, environment, "UIComponent")
     if type(class) ~= "table" or rawget(class, "__cpddEventTextRepair") == VERSION then
@@ -10783,10 +10430,6 @@ local function installEventDrivenPanelRepair(value, environment)
                     end
                 end
                 local results = { original(self, ...) }
-                local diag = runtimeFixes.autoChessDiag
-                if diag ~= nil then
-                    pcall(diag.OnComponentEvent, self, methodName, "UIComponent")
-                end
                 local ok, err = pcall(panelTextRepair.ProcessOnce,
                     panelTextRepair, self, methodName)
                 if not ok and not repairErrorReported then
@@ -10818,7 +10461,7 @@ local function installEventDrivenPanelRepair(value, environment)
         end
     end
     class.__cpddEventTextRepair = VERSION
-    report("installed event-driven panel text repair")
+    reportInstalled("installed event-driven panel text repair")
     return true
 end
 
@@ -10880,7 +10523,7 @@ do
             return original(...)
         end
         target.__cpddStatisticsEverywhereVersion = VERSION
-        report("installed Statistics button everywhere hook for " .. tostring(label))
+        reportInstalled("installed Statistics button everywhere hook for " .. tostring(label))
         return true
     end
 
@@ -10912,12 +10555,15 @@ Loader.On("after_main", function()
     if type(Loader.ReapplyAll) == "function" then
         Loader.ReapplyAll()
     end
-    report("startup metrics gemini_loads=" .. tostring(runtimeMetrics.GeminiLoads)
+    reportVerbose("startup metrics gemini_loads=" .. tostring(runtimeMetrics.GeminiLoads)
         .. " source_shards=" .. tostring(runtimeMetrics.SourceShardLoads)
         .. " widget_indexes=" .. tostring(runtimeMetrics.WidgetIndexesBuilt)
         .. " get_all_widgets=" .. tostring(runtimeMetrics.GetAllWidgetsCalls)
         .. " cache_hits=" .. tostring(runtimeMetrics.TranslationCacheHits + runtimeMetrics.LiveRepairCacheHits)
         .. " cache_misses=" .. tostring(runtimeMetrics.TranslationCacheMisses + runtimeMetrics.LiveRepairCacheMisses))
+    -- The only routine release-log line: later hooks install lazily with
+    -- their modules and are listed only in DiagnosticsMode.
+    report("v" .. VERSION .. " active hooks_installed=" .. tostring(runtimeMetrics.HooksInstalled))
     end, 1500, "cpdd.runtime-fix.translation-layout")
 
 -- Guard against ChatModel string.format crashes on system messages
@@ -10993,14 +10639,11 @@ end
 pcall(function()
     if type(Loader.ReapplyOverlays) == "function" then
         local count = Loader.ReapplyOverlays(true)
-        local logger = Log or LaunchLog
-        if logger and logger.Info then
-            logger.Info("[LOMModLoader] Database Russian overlay applied to " .. tostring(count or 0) .. " modules")
-        end
+        reportVerbose("database Russian overlay applied to " .. tostring(count or 0) .. " modules")
     end
 end)
 
-report("registered v" .. VERSION)
+reportVerbose("registered v" .. VERSION)
 return {
     Version = VERSION,
     PerformanceModeApplied = Loader.Telemetry.PerformanceModeApplied == true,
