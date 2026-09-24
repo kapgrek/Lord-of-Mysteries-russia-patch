@@ -257,4 +257,5 @@ return {
     ["Free Perspective"] = "Бесплатная перспектива",
     ["We're almost there. There's a beautiful statue ahead."] = "Мы почти у цели. Впереди красивая статуя.",
     ["Equip to gain the [Prisoner] resonance"] = "Экипируйте, чтобы получить резонанс [Узник]",
+    ["[Infamy] +<HighLight>5%</> Attack Speed and <HighLight>5%</> Life Steal per stack."] = "[Дурная слава] +<HighLight>5%</> к скорости атаки и <HighLight>5%</> вампиризма за уровень.",
 }

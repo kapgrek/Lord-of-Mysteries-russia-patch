@@ -257,4 +257,6 @@ return {
     ["What do you plan to do? What's written here looks like an agreement between you and them."] = "Что вы планируете делать? То, что здесь написано, похоже на соглашение между вами и ими.",
     ["Resonance Unlock"] = "Разблокировка резонанса",
     ["It's okay, come here, put on Mommy's clothes..."] = "Ничего, иди сюда, одень мамину одежду...",
+    ["Cannot gain interest<HighLight></>. Immediately gain 16 Gold Coins<HighLight></>, and thereafter gain 4 Experience Points at the start of each round<HighLight></><HighLight></>."] = "Нельзя получать проценты<HighLight></>. Немедленно даёт 16 золотых монет<HighLight></>, после чего даёт 4 очка опыта в начале каждого раунда<HighLight></><HighLight></>.",
+    ["Steam Era · Residual Heat Cloak"] = "Эпоха пара · Плащ остаточного тепла",
 }

@@ -263,4 +263,5 @@ return {
     ["Achievement: Marionettist - III"] = "Достижение: Марионеттист - III",
     ["Delete mark"] = "Удалить отметку",
     ["Equip to gain the [Iron Wall] bond."] = "Экипируйте, чтобы получить резонанс [Железная стена].",
+    ["Knowledge Infusion"] = "Вливание знаний",
 }

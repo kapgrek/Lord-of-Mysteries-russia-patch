@@ -237,4 +237,6 @@ return {
     ["Baron Rupert is infertile, his sons, daughters, and illegitimate children are none of them his own!"] = "Барон Руперт бесплоден, его сыновья, дочери и внебрачные дети не принадлежат ему!",
     ["Police station reminder: Good deeds should be done with caution, remember to guard against fraud."] = "Памятка полицейского участка: Добрые дела следует совершать с осторожностью, не забывайте остерегаться мошенничества.",
     ["Advanced Berserk Potion."] = "Улучшенное зелье берсерка.",
+    ["Iron Guard Support"] = "Поддержка железной стражи",
+    ["Rare · Battle Intent Staff"] = "Редкое · Посох боевого духа",
 }

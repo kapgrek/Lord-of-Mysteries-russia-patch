@@ -264,4 +264,5 @@ return {
     ["Parick catches up"] = "Парик догоняет",
     ["<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\"> Holy Light Purification </> additionally increases Crit and Pierce, and damage boost effect increased by 5%. \n <HyperLink stylename=\"M_Link\" u=\"86011040\" color=\"#f4a067\"> Sun Chaser </> damage increased by 15%."] = "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Очищение святым светом</> дополнительно увеличивает критический удар и проникающую способность, а эффект увеличения урона увеличивается на 5%. ;\n<HyperLink stylename=\"M_Link\" u=\"86011040\" color=\"#f4a067\">Daily</> увеличивает урон на 15%.",
     ["Looks like an old man... May he rest in peace."] = "Похож на старика... Пусть упокоится с миром.",
+    ["After each Basic Attack, Attack Speed increases by <HighLight>10%</>, stacking up to <HighLight>10</> times."] = "После каждой базовой атаки скорость атаки увеличивается на <HighLight>10%</>, максимум <HighLight>10</> ур.",
 }

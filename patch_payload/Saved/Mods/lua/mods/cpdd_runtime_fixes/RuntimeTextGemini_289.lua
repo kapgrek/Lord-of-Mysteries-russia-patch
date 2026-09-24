@@ -268,4 +268,6 @@ return {
     ["Show the fishing line"] = "Покажи леску",
     ["Vertical Camera Sensitivity"] = "Чувствительность вертикальной камеры",
     ["Observe the Scene"] = "Наблюдайте за сценой",
+    ["Rare · Twilight City Iron Armor"] = "Редкое · Железный доспех Сумеречного города",
+    ["【新手推荐】秘法塔罗95"] = "【Совет новичкам】Тайная магия Таро 95",
 }

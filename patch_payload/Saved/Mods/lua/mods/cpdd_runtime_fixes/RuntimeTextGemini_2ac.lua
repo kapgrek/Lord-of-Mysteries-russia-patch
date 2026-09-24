@@ -266,4 +266,5 @@ return {
     ["Today I'm going to try every divination method! Where are the diviners?"] = "Today I'm going to try every Гадание method! Where are the diviners?",
     ["装配后获得【施法者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Колдовство].",
     ["【死者之娱】"] = "【Развлечение мертвецов】",
+    ["Gain an additional <HighLight>80</> Defense, increased by another <HighLight>30%</> for the first <HighLight>10</> seconds."] = "Даёт дополнительно <HighLight>80</> ед. защиты, увеличиваясь ещё на <HighLight>30%</> в первые <HighLight>10</> секунд.",
 }

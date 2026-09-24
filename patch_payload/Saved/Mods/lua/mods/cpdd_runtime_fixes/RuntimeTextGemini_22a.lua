@@ -249,4 +249,5 @@ return {
     ["Attribute value, expressions can be configured"] = "Значение атрибута, выражения можно настроить",
     ["What are you guys talking about?"] = "О чем вы, ребята, говорите?",
     ["David"] = "Дэйвид",
+    ["<HighLight> Maximum units on board +2 </>, your chess pieces gain <HighLight> 10% Damage Reduction </>, but the player's <HighLight> maximum Health is reduced by 50 points </>."] = "<HighLight> Лимит фигур на доске +2 </>, ваши фигуры получают <HighLight> 10% снижения урона </>, но <HighLight> макс. здоровье игрока снижается на 50 ед. </>",
 }

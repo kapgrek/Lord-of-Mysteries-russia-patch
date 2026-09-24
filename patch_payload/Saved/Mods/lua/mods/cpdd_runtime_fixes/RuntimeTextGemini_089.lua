@@ -245,4 +245,5 @@ return {
     ["Golden Autumn Lake Boss 2"] = "Босс озера Золотой Осени b",
     ["Elena's Expression"] = "Выражение лица Елены",
     ["Master is a potion genius! It's truly a blessing to work for her!"] = "Мастер — гений зелий! Это настоящее счастье работать у нее!",
+    ["Guard of the Lone Walker"] = "Защита одинокого путника",
 }

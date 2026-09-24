@@ -255,4 +255,6 @@ return {
     ["Cat Playing on the Street"] = "Кот играет на улице",
     ["5230026 Plane"] = "5230026 Самолет",
     ["Equip to gain the [Nighthawk] resonance."] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
+    ["Gain 2/6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>."] = "Даёт 2/6 золотых монет<HighLight></>. Даёт 1 бесплатное обновление каждый раунд<HighLight></><HighLight></>.",
+    ["Restore <HighLight>4</> Mana with each basic attack; restore an additional <HighLight>6</> Mana when landing a critical hit."] = "Восстанавливает <HighLight>4</> ед. маны при каждой базовой атаке; при критическом ударе восстанавливает дополнительно <HighLight>6</> ед. маны.",
 }

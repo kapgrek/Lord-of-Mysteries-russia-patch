@@ -220,4 +220,5 @@ return {
     ["A bouquet of pure, beautiful daisies."] = "Букет чистых, красивых ромашек.",
     ["Stocks are so obedient and lovely in their hands."] = "Акции так послушны и милы в их руках.",
     ["Was that... a gunshot?"] = "Это был... выстрел?",
+    ["Gain the [Bulwark] Resonance. At the start of combat, gain an additional <HighLight>25</> Defense, lasting for <HighLight>8</> seconds."] = "Даёт резонанс [Оплот]. В начале боя даёт дополнительно <HighLight>25</> ед. защиты на <HighLight>8</> сек.",
 }

@@ -266,4 +266,6 @@ return {
     ["It seems this cat is also a Beyonder creature, about to fall into a deep sleep."] = "Кажется, этот кот тоже существо из Потустороннего, собирающееся погрузиться в глубокий сон.",
     ["Roselle Boss - Stage 1&2 - Sharp Knowledge - Gear mechanism permanent buff"] = "Босс Розеллы — этапы 1 и 2 — Острые знания — постоянный усиление механизма шестерни",
     ["Equip to gain the [Aurora Order] resonance."] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
+    ["Bulwark Badge"] = "Эмблема Оплота",
+    ["Glow of Health"] = "Сияние здоровья",
 }

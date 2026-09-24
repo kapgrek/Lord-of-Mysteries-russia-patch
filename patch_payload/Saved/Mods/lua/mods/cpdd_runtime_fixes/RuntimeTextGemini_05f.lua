@@ -271,4 +271,5 @@ return {
     ["Auction in progress %M:%S"] = "Аукцион в процессе %M:%S",
     ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启 "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть ",
     ["[Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
+    ["Greatsword Glory"] = "Слава двуручного меча",
 }

@@ -284,4 +284,6 @@ return {
     ["Test Lily briefly"] = "Коротко протестируйте Лили",
     ["Spirit of Defense"] = "Дух защиты",
     ["I—a great artist, sitting on this wall, am here to feel the breeze of art and welcome the romantic dew."] = "Я — великий художник, сижу на этой стене, чтобы почувствовать ветерок искусства и поприветствовать романтическую росу.",
+    ["+<HighLight>13%</> Attack Speed per stack."] = "+<HighLight>13%</> к скорости атаки за уровень.",
+    ["施法后，自身及<HighLight>1</>格内生命值百分比最低的<HighLight>1</>名友军获得相当于各自最大生命值<HighLight>8%</>的护盾，持续<HighLight>4</>秒。"] = "После применения навыка сам персонаж и <HighLight>1</> союзник с наименьшим % здоровья в пределах <HighLight>1</> клетки получают щит в размере <HighLight>8%</> от макс. здоровья на <HighLight>4</> сек.",
 }

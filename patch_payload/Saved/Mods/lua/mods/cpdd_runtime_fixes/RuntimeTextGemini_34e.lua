@@ -258,4 +258,5 @@ return {
     ["以窥秘之眼，探寻周围环境信息，将无形的知识以文字形式拓印于纸面之上。"] = "С помощью Ока Тайноведа исследуйте окружение и запечатлейте незримые знания на бумаге в виде текста.",
     ["装配后获得【巨龙传承】羁绊"] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]",
     ["WBP_AutoChess_Tips_VitalitySchedule"] = "Подсказка AutoChess – График выносливости",
+    ["Gain 4 Gold Coins<HighLight></>. For the next 2 rounds<HighLight></>, gain 2 Gold Coins for every 1 enemy piece killed<HighLight></><HighLight></>."] = "Даёт 4 золотые монеты<HighLight></>. В течение следующих 2 раундов<HighLight></> даёт 2 золотые монеты за каждую уничтоженную вражескую фигуру<HighLight></><HighLight></>.",
 }

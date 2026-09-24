@@ -258,4 +258,5 @@ return {
     ["默里"] = "Мюррей",
     ["（……这时候，身为廷根时期历史投影的他，还不知道故乡早已被埋葬的真相，还是不要揭穿吧。）"] = "(...В этот момент, как историческая проекция периода Тингена, он еще не знает правды о том, что его дом давно похоронен. Лучше не раскрывать ее.)",
     ["Continuously spit flames forward; nine attacks deal a total of <Yellow>194</> Attack damage. Hits apply a <HighLight>4</>-second Burn, causing enemies to lose <Yellow>7</> Health per second."] = "Непрерывно извергает пламя вперед; девять ударов наносят в сумме <Yellow>194</> ед. урона от атаки. Попадания накладывают Горение на <HighLight>4</> сек., заставляя врагов терять <Yellow>7</> ед. здоровья в секунду.",
+    ["Immediately gain 6/10 Gold Coins<HighLight></>, and thereafter gain 6 Gold Coins at the start of each stage<HighLight></><HighLight></>."] = "Немедленно даёт 6/10 золотых монет<HighLight></>, а затем по 6 золотых монет в начале каждого этапа<HighLight></><HighLight></>.",
 }

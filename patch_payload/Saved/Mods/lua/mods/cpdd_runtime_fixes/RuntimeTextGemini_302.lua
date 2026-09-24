@@ -244,4 +244,5 @@ return {
     ["Modify Information"] = "Изменить информацию",
     ["<P_Heart>(He got it all right...)</>"] = "<P_Heart>(У него все получилось...)</>",
     ["Hold down the mouse to adjust the camera angle:"] = "Удерживайте мышь, чтобы отрегулировать угол камеры:",
+    ["Immediately gain <HighLight> 8 Experience </>. Thereafter, <HighLight> each round </>, gain an additional <HighLight> 1 Experience </>."] = "Немедленно даёт <HighLight> 8 очков опыта </>. В дальнейшем <HighLight> каждый раунд </> даёт дополнительно <HighLight> 1 очко опыта </>.",
 }

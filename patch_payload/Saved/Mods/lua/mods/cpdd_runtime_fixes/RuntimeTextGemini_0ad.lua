@@ -265,4 +265,5 @@ return {
     ["Social relationship change notification"] = "Уведомление об изменении социальных отношений",
     ["Maximum level reached, cannot continue upgrading."] = "Достигнут максимальный уровень, продолжить обновление невозможно.",
     ["Side-by-Side 19 Bond"] = "Бок о бок 19 Бонд",
+    ["Rare · Sage's Spirit Ring"] = "Редкое · Духовное кольцо Мудреца",
 }

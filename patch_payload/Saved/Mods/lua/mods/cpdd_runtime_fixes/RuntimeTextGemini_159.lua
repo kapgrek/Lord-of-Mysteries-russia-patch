@@ -257,4 +257,5 @@ return {
     ["Seer Talent - Magic Performance passive"] = "Талант Провидца — пассивное умение Magic Performanbb",
     ["It's okay, I can wait a bit longer. Travel, after all, isn't something to rush."] = "Все в порядке, я могу еще немного подождать. В конце концов, путешествие – это не то, к чему нужно спешить.",
     ["GTA Fallen Priest Armor Break"] = "GTA Падший Священник Пробитие брони",
+    ["Upon reaching <HighLight> level 9 </>, gain <HighLight> 26 Gold Coins </>."] = "При достижении <HighLight> 9-го уровня </> даёт <HighLight> 26 золотых монет </>.",
 }

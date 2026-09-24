@@ -260,4 +260,6 @@ return {
     ["Hello, sir. I would like to try challenging Champion Abi."] = "Здравствуйте, сэр. Я хотел бы попробовать бросить вызов чемпиону Аби.",
     ["Poison Burst (6 Fan Shapes)"] = "Ядовитый взрыв (6 форм веера)",
     ["Strategic Server Event Entrance"] = "Вход на события стратегического сервера",
+    ["Advanced Record Reproduction"] = "Улучшенное воспроизведение записи",
+    ["额外造成<HighLight>20%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。"] = "Дополнительно наносит <HighLight>20%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>.",
 }

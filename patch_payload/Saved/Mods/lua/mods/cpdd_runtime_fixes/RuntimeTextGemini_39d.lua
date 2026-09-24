@@ -238,4 +238,5 @@ return {
     ["Workshop level cap increased, 7, 8"] = "Максимальный уровень мастерской увеличен с 7 до 8.",
     ["Original Work · Advice from an Old Hand"] = "Оригинальная работа · Совет старого друга",
     ["Saint Selena Cathedral, please."] = "Собор Святой Селены, пожалуйста.",
+    ["Gain 2 1-star Astrolabe Users<HighLight></>. Skill Strengthening: Pull enemies in a dense area, dealing area damage and applying Stun<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>."] = "Даёт 2 1-звёздочных Астрологов<HighLight></>. Усиление навыка: притягивает скопление врагов, нанося урон по площади и оглушая их<HighLight></>. Через 5 раундов поединка<HighLight></> даёт 2 Регистратора фигур низкого уровня<HighLight></>.",
 }

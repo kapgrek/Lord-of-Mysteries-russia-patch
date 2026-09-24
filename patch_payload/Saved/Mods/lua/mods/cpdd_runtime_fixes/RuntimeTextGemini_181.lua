@@ -266,4 +266,6 @@ return {
     ["Distribution Agreement"] = "Дистрибьюторское соглашение",
     ["Second round, please choose a question"] = "Второй тур, пожалуйста, выберите вопрос",
     ["Long-Range Strike"] = "Дальнобойный удар",
+    ["Forsaken Land of the Gods Badge"] = "Эмблема Земель, отвергнутых Богами",
+    ["Iron Helmet"] = "Железный шлем",
 }

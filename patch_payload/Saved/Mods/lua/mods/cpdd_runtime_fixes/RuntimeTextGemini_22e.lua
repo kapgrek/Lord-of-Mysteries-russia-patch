@@ -230,4 +230,5 @@ return {
     ["Corruption aftereffect - Whispering"] = "Последствия Искажения - Шепотом",
     ["Defeat Amon"] = "Победить Амона",
     ["Jennings"] = "Дженнингс",
+    ["New Era Departure"] = "Отправление в новую эпоху",
 }

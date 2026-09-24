@@ -229,5 +229,6 @@ return {
     ["The fog sea surges, the four directions tremble, <HyperLink stylename=\"Chat_Name\" u=\"role=%s\">[%s]</> has consecutive kills of over <Chat_Highlight>%s</> opponents in the Four-Way League, a new legend is being crowned!"] = "Море тумана вздымается, все четыре направления дрожат, <HyperLink stylename=\"Chat_Name\" u=\"role=%s\">[%s]</> последовательно убивает более <Chat_Highlight>%s</> противников в Лиге четырех сторон, коронуется новая легенда!",
     ["Demon Bar-Give Up"] = "Демон Бар-Сдавайся",
     ["Apprentice: Astral Divination Aura"] = "Ученик: Аура астрального предсказания",
+    ["Rare · Spirit Blessing Crystal Pendant"] = "Редкое · Хрустальный кулон благословения духа",
     ["7 At the start of player combat:\r\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

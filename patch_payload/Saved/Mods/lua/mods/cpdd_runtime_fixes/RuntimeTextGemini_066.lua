@@ -272,4 +272,5 @@ return {
     ["Logic Server 10001 Local Private Server"] = "Логический сервер 10001 Локальный частный сервер",
     ["Keanu Reeves"] = "Киану Ривз",
     ["Butler - Untargetable"] = "Батлер — невозможно выбрать цель",
+    ["Rare · Blood-Colored Ring"] = "Редкое · Кольцо цвета крови",
 }

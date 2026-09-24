@@ -281,4 +281,6 @@ return {
     ["Control Enhancement"] = "Улучшение управления",
     ["In the poor district, it's 2 lots of ten thousand linar per person. Choose any plot you like—just don't bury them by the roadside."] = "В бедном районе это 2 лота по десять тысяч линар на человека. Выбирайте любой понравившийся участок, только не закапывайте его на обочине.",
     ["阵容"] = "Состав",
+    ["Gain the [Bloodthirst] Resonance. When Health first drops below <HighLight>40%</>, Attack Speed is increased by <HighLight>15%</> for this round."] = "Даёт резонанс [Кровожадность]. Когда здоровье впервые падает ниже <HighLight>40%</>, скорость атаки увеличивается на <HighLight>15%</> до конца раунда.",
+    ["Resonance Echo"] = "Эхо резонанса",
 }

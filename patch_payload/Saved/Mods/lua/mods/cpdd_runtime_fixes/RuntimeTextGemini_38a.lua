@@ -259,4 +259,5 @@ return {
     ["Use to obtain <Highlight>Red and Black Hairstyle</>."] = "Используйте, чтобы получить <Highlight>причёску «Красное и чёрное»</>",
     ["Makes friendly members immune to Purification."] = "Дарует союзникам невосприимчивость к Очищению.",
     ["[Reader]"] = "[Чтец]",
+    ["Gain an additional <HighLight>30</> Defense, increased by another <HighLight>10%</> for the first <HighLight>10</> seconds."] = "Даёт дополнительно <HighLight>30</> ед. защиты, увеличиваясь ещё на <HighLight>10%</> в первые <HighLight>10</> секунд.",
 }

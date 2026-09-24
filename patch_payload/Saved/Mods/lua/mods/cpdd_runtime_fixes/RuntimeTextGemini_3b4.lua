@@ -259,4 +259,5 @@ return {
     ["Coastline Restaurant is located in the Golden Indus District, specializing in southern-style dishes, and is a well-known restaurant that often appears in newspapers."] = "Ресторан Coastline расположен в районе Золотого Инда и специализируется на блюдах южной кухни. Это известный ресторан, о котором часто пишут в газетах.",
     ["Experience after conversion"] = "Опыт после конвертации",
     ["You have logged out."] = "Вы вышли из системы.",
+    ["Gain 2 1-star Great Sword Knights. Skill Strengthening: Continuous Attack, during which they are immune to control and gain Damage Reduction, restoring Health upon completion<HighLight></>. After 5 duel rounds, gain 2 Low-Level Piece Recorders."] = "Даёт 2 1-звёздочных Рыцарей с двуручным мечом. Усиление: непрерывная атака с невосприимчивостью к контролю, снижением урона и исцелением при завершении<HighLight></>. Через 5 раундов поединка даёт 2 Регистратора фигур низкого уровня.",
 }

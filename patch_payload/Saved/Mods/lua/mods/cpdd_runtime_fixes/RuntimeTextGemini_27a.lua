@@ -246,4 +246,5 @@ return {
     ["Audition spot 7"] = "Место для прослушивания b",
     ["Bonnie: Do you know now, {{PlayerName}}?"] = "Бонни: Теперь ты знаешь, {{PlayerName}}?",
     ["I am going to be rich!"] = "Я стану богатым!",
+    ["When the battle starts, each adjacent ally<HighLight></> provides 9 Defense to the piece<HighLight></>."] = "В начале боя каждый смежный союзник<HighLight></> даёт фигуре 9 ед. защиты<HighLight></>.",
 }

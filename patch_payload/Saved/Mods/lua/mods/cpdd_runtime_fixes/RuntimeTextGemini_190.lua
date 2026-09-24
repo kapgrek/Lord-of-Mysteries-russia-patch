@@ -257,4 +257,5 @@ return {
     ["Who is it?! Doesn't look simple..."] = "Кто это?! Выглядит не просто...",
     ["I know one more thing!"] = "Я знаю еще одну вещь!",
     ["Go with Rebecca to see the president."] = "Отправляйтесь с Ребеккой к президенту.",
+    ["Gain the [Demoness Sect] Resonance."] = "Даёт резонанс [Секта Демониц].",
 }

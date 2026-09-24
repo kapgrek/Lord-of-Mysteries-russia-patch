@@ -234,4 +234,5 @@ return {
     ["Should I invite her..."] = "Стоит ли мне пригласить ее...",
     ["Trigger - Exploration Team"] = "Триггер — Исследовательская группа",
     ["[May Manor] - [Believer Number One] - Phase 1 Damage Reduction Buff Removal Break"] = "[May Manor] - [Believer Number One] - Phase 1 Снижение урона Buff Removal Break",
+    ["Spirituality Flower Pendant"] = "Цветочный кулон духовности",
 }

@@ -238,4 +238,5 @@ return {
     ["I, I want to be able to, to speak, speak smoothly first."] = "Я, я хочу сначала уметь говорить, говорить гладко.",
     ["荣耀加身"] = "Венценосная слава",
     ["Equip to gain the [Hunter] resonance."] = "Экипируйте, чтобы получить резонанс [Охотник].",
+    ["At the start of combat, all enemies gain [Stigma of Abundance]: Attack reduced by <HighLight>1%</>. When an enemy with the Stigma dies, all allies gain [Gift of Abundance]: Damage Increase +<HighLight>1%</> for <HighLight>5</> seconds."] = "В начале боя все враги получают [Клеймо Изобилия]: атака снижается на <HighLight>1%</>. Когда враг с клеймом погибает, все союзники получают [Дар Изобилия]: увеличение урона +<HighLight>1%</> на <HighLight>5</> сек.",
 }

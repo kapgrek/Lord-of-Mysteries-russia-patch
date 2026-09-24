@@ -250,4 +250,5 @@ return {
     ["Audrey lowers her head"] = "Одри опускает голову",
     ["Production Line"] = "Производственная линия",
     ["<P_Heart> (How leisurely. If only I could slack off like this every day.) </>"] = "<P_Heart> (Как неторопливо. Если бы я мог так расслабляться каждый день.) </>",
+    ["Immediately gain 16 free refreshes<HighLight></>, and thereafter gain 3 free refreshes each round<HighLight></><HighLight></>."] = "Немедленно даёт 16 бесплатных обновлений<HighLight></>, а затем по 3 бесплатных обновления каждый раунд<HighLight></><HighLight></>.",
 }

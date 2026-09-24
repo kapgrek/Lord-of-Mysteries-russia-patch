@@ -255,4 +255,5 @@ return {
     ["5200212 RogueDemo Floor 3 Dungeon"] = "5200212 Подземелье RogueDemo, 3-й этаж",
     ["Target Family is full."] = "Целевая семья заполнена.",
     ["Use to obtain <Highlight> Morse Small Town Shoes </>"] = "Используйте, чтобы получить <Highlight> Обувь для маленького города Морса </>.",
+    ["At the start of battle, gain a Shield equivalent to <HighLight>15%</> of maximum Health for <HighLight>8</> seconds."] = "В начале боя даёт щит в размере <HighLight>15%</> от максимального здоровья на <HighLight>8</> сек.",
 }

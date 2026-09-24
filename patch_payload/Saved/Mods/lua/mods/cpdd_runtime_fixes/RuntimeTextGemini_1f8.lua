@@ -244,4 +244,6 @@ return {
     ["(Stares blankly without speaking) ..."] = "(Смотрит тупо, не говоря ни слова)...",
     ["Captain Frye, you're here?"] = "Капитан Фрай, вы здесь?",
     ["装配后获得【执法者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Юрист].",
+    ["Sell all pieces<HighLight></>, randomly gain 2 Resonance Badges<HighLight></>, and gain 15 free refreshes<HighLight></>."] = "Продаёт все фигуры<HighLight></>, давая 2 случайные эмблемы резонанса<HighLight></> и 15 бесплатных обновлений<HighLight></>.",
+    ["普攻额外造成相当于自身生命值<HighLight>2%</>的伤害；每损失<HighLight>10%</>生命值，攻速提高<HighLight>5%</>，最多叠加<HighLight>5</>层。"] = "Базовые атаки дополнительно наносят урон, равный <HighLight>2%</> от собственного здоровья; за каждые потерянные <HighLight>10%</> здоровья скорость атаки повышается на <HighLight>5%</>, максимум <HighLight>5</> уровней.",
 }

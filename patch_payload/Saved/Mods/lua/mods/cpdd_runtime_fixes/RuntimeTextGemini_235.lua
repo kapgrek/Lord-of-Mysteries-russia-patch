@@ -225,4 +225,5 @@ return {
     ["\"Land of Night\" was established by the descendants of ancient gods and has now been destroyed."] = "«Земля Ночи» была основана потомками древних богов и сейчас уничтожена.",
     ["Rogue Old Man AI"] = "Разбойник старик ИИ",
     ["The driven will has departed, the majestic bark still echoes. \n The loyal eyes are still watching, are this year's apples fragrant?"] = "Движимая воля ушла, но величественный лай все еще звучит эхом. \n Преданные глаза все еще следят, ароматны ли яблоки в этом году?",
+    ["Rare · Time-Wheel Star Instrument"] = "Редкое · Звездный инструмент колеса времени",
 }

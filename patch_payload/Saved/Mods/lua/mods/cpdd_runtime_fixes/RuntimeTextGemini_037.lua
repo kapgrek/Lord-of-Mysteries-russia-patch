@@ -231,4 +231,6 @@ return {
     ["Let's go visit little Arnold; it's been a long time since I checked on him."] = "Пойдем навестить маленького Арнольда; прошло много времени с тех пор, как я его проверял.",
     ["After the spirit bodies waiting to be revived appear, healing players must <Highlight>prioritize healing the spirit bodies waiting to be revived</>, while the other players maintain their output."] = "После появления духовных тел, ожидающих возрождения, исцеляющие игроки должны <Highlight> уделять приоритетное внимание исцелению духовных тел, ожидающих возрождения</>, в то время как другие игроки сохраняют свою производительность.",
     ["Equip to gain the [Demoness Sect] bond"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы]",
+    ["101.4W"] = "101.4W",
+    ["101.8W"] = "101.8W",
 }

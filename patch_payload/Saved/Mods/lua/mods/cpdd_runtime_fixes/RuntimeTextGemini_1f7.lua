@@ -260,4 +260,5 @@ return {
     ["Text content..."] = "Текстовое содержимое...",
     ["Roselle's War projection"] = "Военная проекция Розеля",
     ["The gray fog Blessing provides additional Attack power."] = "Благословение серого тумана дополнительно увеличивает силу атаки.",
+    ["Sun Pattern Amulet"] = "Амулет с солнечным узором",
 }

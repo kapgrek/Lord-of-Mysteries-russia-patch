@@ -277,4 +277,5 @@ return {
     ["Go to the specified Trigger location. Player plays a single-sentence black screen subtitle. Object teleports within the same scene. Delayed execution."] = "Перейдите в указанное местоположение триггера. Плеер воспроизводит субтитры на черном экране, состоящие из одного предложения. Объект телепортируется в пределах одной сцены. Отложенное исполнение.",
     ["Seraphina "] = "Серафина",
     ["Observe the mental emotions reflected in the target's behavior and condense a colored light particle around them. This reflects the target's primary surface mood for the day.\nGrants the target +1 Charm."] = "Наблюдая за эмоциями в поведении цели, формирует вокруг неё светящуюся цветную точку, отражающую её преобладающее поверхностное настроение на сегодня.\nПовышает Обаяние цели на 1.",
+    ["After <HighLight> 12 seconds </> of combat, your chess pieces gain <HighLight> 20% Damage Amplification </>."] = "Через <HighLight> 12 секунд </> боя ваши фигуры получают <HighLight> 20% увеличения урона </>.",
 }

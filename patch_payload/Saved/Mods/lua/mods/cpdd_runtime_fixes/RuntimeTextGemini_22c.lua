@@ -247,4 +247,7 @@ return {
     ["Sequence 8: Clown"] = "Эпизод 8: Клоун",
     ["Carriage driver"] = "Водитель кареты",
     ["Luxury Exit"] = "Роскошный выход",
+    ["Each unique <HighLight>3</>-star piece strengthens all allies. At high tiers, gain <HighLight>1</> random wild monster piece after each player combat."] = "Каждая уникальная <HighLight>3</>-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Reduce the Defense of enemies within <HighLight>2</> tiles by <HighLight>35%</>."] = "Снижает защиту врагов в пределах <HighLight>2</> клеток на <HighLight>35%</>.",
+    ["Wise Man's Spirit Ring"] = "Духовное кольцо Мудреца",
 }

@@ -292,4 +292,6 @@ return {
     ["Standing at the crossroads of fate, no one knows if the choices they make are correct."] = "Стоя на распутье судьбы, никто не знает, правильный ли сделанный выбор.",
     ["View Creation"] = "Посмотреть создание",
     ["Use Spirituality Blue Card to enhance the Seer's ability to deal damage via Finisher Skills"] = "Используйте синюю карту духовности, чтобы улучшить способность Провидца наносить урон с помощью завершающих навыков.",
+    ["Fervent Heart Key"] = "Ключ пылкого сердца",
+    ["【噬血】获得<HighLight>30%</>吸血。造成伤害时追加伤害，目标生命值低于<HighLight>50%</>时翻倍。"] = "【Кровожадность】Даёт <HighLight>30%</> вампиризма. При нанесении урона наносит дополнительный урон; если здоровье цели ниже <HighLight>50%</>, доп. урон удваивается.",
 }

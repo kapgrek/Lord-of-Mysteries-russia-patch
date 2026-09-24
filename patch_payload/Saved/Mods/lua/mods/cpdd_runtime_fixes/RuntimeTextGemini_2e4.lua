@@ -269,4 +269,5 @@ return {
     ["Dedication Monument 1"] = "Памятник посвящения b",
     ["We set off from Backlund and specifically chose an inland route. But the other party was very clear about our route and personnel configuration, and they set an ambush along the way."] = "Мы отправились из Баклунда и специально выбрали внутренний маршрут. Но противнику было очень ясно известно о нашем маршруте и составе личного состава, и они устроили засаду по пути.",
     ["[Savant]"] = "[Знаток]",
+    ["Obtain <HighLight>1 Hyacinth</>. In each battle, after the first 2 casts by a Spell piece<HighLight></>, it gains <HighLight>10% Attack Speed</> and <HighLight>8% damage amplification</>, lasting for <HighLight>4 seconds</>."] = "Даёт <HighLight>1 Гиацинт</>. В каждом бою после первых 2 применений навыка фигурой Заклятия<HighLight></> она получает <HighLight>10% скорости атаки</> и <HighLight>8% увеличения урона</> на <HighLight>4 секунды</>.",
 }

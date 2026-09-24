@@ -242,4 +242,5 @@ return {
     ["[Marionette Skill] Baboon Blessing - Random Item Throw - Temporarily Unused"] = "[Марионетка Skill] Baboon Blessing - Random Item Throw - Temporarily Unused",
     ["When the Windmill Turns 99002418"] = "Когда ветряная мельница перевернётся e5521abb",
     ["Golden Autumn Lake/Tingen interaction Sanity loss - 3"] = "Взаимодействие Озеро Золотой Осени и Тингена Потеря здравомыслия — b",
+    ["Rare · Armor-Eroding Device"] = "Редкое · Бронеразъедающее устройство",
 }

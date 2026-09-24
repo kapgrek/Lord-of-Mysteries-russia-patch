@@ -235,4 +235,5 @@ return {
     ["I can see that this is your inner desire. I am willing to give some discounts to those who are eager to learn. For just five pence, I will take you on a tour of the whole of Tingen."] = "Я вижу, что это ваше внутреннее желание. Я готов дать некоторые скидки тем, кто хочет учиться. Всего за пять пенсов я проведу вам экскурсию по всему Тингену.",
     ["Respawn point-Process 0"] = "Точка возрождения-Процесс b",
     ["激活羁绊：9"] = "Активировано резонансов: 9",
+    ["Gain <HighLight> one Advanced Chess Piece Recorder </>, and after <HighLight> 5 match rounds </>, gain another <HighLight> one </>."] = "Даёт <HighLight> один продвинутый регистратор фигур </>, а через <HighLight> 5 раундов поединка </> даёт ещё <HighLight> один </>.",
 }

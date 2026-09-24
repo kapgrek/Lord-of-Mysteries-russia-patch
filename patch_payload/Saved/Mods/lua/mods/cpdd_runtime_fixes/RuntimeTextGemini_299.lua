@@ -257,4 +257,5 @@ return {
     ["You have been discovered"] = "Вы были обнаружены",
     ["Hard Forsaken-Ouroboros-Randomly distribute buffs-Remaining people without Buff"] = "Hard Forsaken-Уроборос-Случайное распределение баффов-Оставшиеся люди без баффа",
     ["The red moon illuminates the earth, the puppet gains new life"] = "Красная луна освещает землю, марионетка обретает новую жизнь",
+    ["Gain 1 Iron and Blood Badge<HighLight></>. After activating Iron and Blood, when each Iron and Blood piece's Health first drops below 50%<HighLight></>, gain a shield equal to 15% of maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>."] = "Даёт 1 эмблему Железа и Крови<HighLight></>. После активации Железа и Крови, когда здоровье фигуры впервые падает ниже 50%<HighLight></>, даёт щит в 15% от макс. здоровья<HighLight></> на 5 сек.<HighLight></>",
 }

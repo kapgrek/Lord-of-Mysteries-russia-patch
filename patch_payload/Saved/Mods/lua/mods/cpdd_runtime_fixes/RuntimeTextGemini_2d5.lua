@@ -262,4 +262,5 @@ return {
     ["Are you sure you want to remove <Highlight>%s</> from the squad?"] = "Вы уверены, что хотите удалить <Highlight>%s</> из состава?",
     ["Consecutive check-ins: <Date>666</> days"] = "Последовательные регистрации: <Date>666</> дней.",
     ["Rain down Miracle Cards, dealing <Yellow>231</> Attack damage to enemies in the target area."] = "Обрушивает дождь Карт чудес, нанося <Yellow>231</> ед. урона от атаки врагам в целевой области.",
+    ["When an enemy dies, the nearest ally piece<HighLight></> restores 200 Health<HighLight></>."] = "Когда погибает враг, ближайшая союзная фигура<HighLight></> восстанавливает 200 ед. здоровья<HighLight></>.",
 }

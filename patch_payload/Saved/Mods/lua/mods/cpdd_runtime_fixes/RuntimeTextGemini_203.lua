@@ -228,4 +228,6 @@ return {
     ["Calamity Remnant Collection"] = "Коллекция остатков бедствия",
     ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Crimson Prince in the Dominator's Clash. Below are your title rewards.</>"] = "<M_Default>Дорогой Бейондер: </>\n<M_Default>Вы достигли ранга Кровавого Принца в Битве Доминирования. Ниже приводится награда за ваш титул. </>",
     ["Deals high damage to enemies in front using a black scythe."] = "Наносит большой урон врагам впереди, используя черную косу.",
+    ["Sinful Tingen Badge"] = "Эмблема Грешного Тингена",
+    ["阿兹克·艾格斯的三波灵界轰击命中时，使目标防御降低<HighLight>40%</>，持续<HighLight>4</>秒。"] = "При попадании трех волн духовной бомбардировки Азика Эггерса снижает защиту цели на <HighLight>40%</> на <HighLight>4</> сек.",
 }

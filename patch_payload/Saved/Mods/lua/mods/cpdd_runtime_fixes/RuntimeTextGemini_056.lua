@@ -260,4 +260,5 @@ return {
     ["Look at the handwritten sheet music"] = "Посмотрите на рукописные ноты.",
     ["Queen of Wands"] = "Королева Жезлов",
     ["And she even bought a frog... This is bad, I need to quickly find records about frogs!"] = "И даже лягушку купила... Это плохо, мне нужно быстро найти записи о лягушках!",
+    ["After dealing a Critical Hit, damage increases by <HighLight>8%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times."] = "После нанесения критического удара урон увеличивается на <HighLight>8%</> на <HighLight>5</> сек., максимум <HighLight>4</> ур.",
 }

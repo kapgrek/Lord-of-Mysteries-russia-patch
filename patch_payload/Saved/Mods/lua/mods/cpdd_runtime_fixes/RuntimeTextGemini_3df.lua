@@ -265,4 +265,5 @@ return {
     ["Approving audience"] = "Одобряющая аудитория",
     ["Audience 14"] = "Аудитория bb",
     ["Complete the Era Vignette 'Mechanical Mystery'."] = "Завершите виньетку эпохи «Механическая тайна».",
+    ["Initial Divinity"] = "Первозданная божественность",
 }

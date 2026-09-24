@@ -259,4 +259,5 @@ return {
     ["Xiangqi"] = "Сянци",
     ["This selection %d points"] = "Этот выбор очков %d",
     ["【Gather】Washroom"] = "【Сбор】Уборная",
+    ["+<HighLight>8%</> Attack Speed per stack."] = "+<HighLight>8%</> к скорости атаки за уровень.",
 }

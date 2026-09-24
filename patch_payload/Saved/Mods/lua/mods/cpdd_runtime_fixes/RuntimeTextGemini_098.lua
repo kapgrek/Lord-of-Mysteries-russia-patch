@@ -282,4 +282,5 @@ return {
     ["钢铁黎明"] = "Стальной рассвет",
     ["During the gray fog Blessing, every time you use a Skill or Basic Attack, you gain a small amount of Shield (based on max Health). Can only be triggered once every 2 seconds."] = "Во время благословения серого тумана каждое применение навыка или базовой атаки даёт небольшой щит (зависит от максимального здоровья). Срабатывает не чаще одного раза в 2 сек.",
     ["Highest Win Streak"] = "Макс. серия побед",
+    ["Immediately gain 1 of each 1-cost piece<HighLight></>."] = "Немедленно даёт по 1 штуке каждой фигуры за 1 золотой<HighLight></>.",
 }

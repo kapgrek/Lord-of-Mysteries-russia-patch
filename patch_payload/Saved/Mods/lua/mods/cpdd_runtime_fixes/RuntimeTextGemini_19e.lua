@@ -262,4 +262,5 @@ return {
     ["Combat Data"] = "Боевые данные",
     ["Renee "] = "Рене",
     ["Eyebrow base"] = "База для бровей",
+    ["Your pieces gain 20% Damage Deepening<HighLight></>. 15 seconds<HighLight> after the battle starts</>, they gain an additional 20% Damage Deepening<HighLight></>."] = "Ваши фигуры получают 20% увеличения урона<HighLight></>. Через 15 сек.<HighLight> после начала боя</> они получают дополнительно 20% увеличения урона<HighLight></>.",
 }

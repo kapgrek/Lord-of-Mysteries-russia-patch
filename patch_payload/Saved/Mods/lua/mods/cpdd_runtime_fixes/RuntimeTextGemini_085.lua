@@ -270,4 +270,6 @@ return {
     ["No Mirror Test"] = "Тест без зеркала",
     ["Equip to gain the [Forsaken Land of the Gods] resonance"] = "Экипируйте, чтобы получить резонанс [Заброшенная Земля Богов]",
     ["[Greed Factory]"] = "【Фабрика жадности】",
+    ["Randomly gain 1 piece of Basic Equipment<HighLight></> and 3 Gold Coins<HighLight></>. At the start of the next round<HighLight></>, randomly gain 1 piece of Fine Equipment<HighLight></> and 3 Gold Coins<HighLight></>."] = "Случайным образом даёт 1 базовое снаряжение<HighLight></> и 3 золотые монеты<HighLight></>. В начале следующего раунда<HighLight></> даёт 1 отличное снаряжение<HighLight></> и 3 золотые монеты<HighLight></>.",
+    ["Rare · Sinister Star Instrument"] = "Редкое · Зловещий звездный инструмент",
 }

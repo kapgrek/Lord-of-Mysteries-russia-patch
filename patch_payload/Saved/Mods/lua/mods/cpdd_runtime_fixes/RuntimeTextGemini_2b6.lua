@@ -232,4 +232,6 @@ return {
     ["The one on the right is almost there."] = "Тот, что справа, почти готов.",
     ["Day 2"] = "День b",
     ["生命值低于40%时获得最大生命值护盾，并获得伤害减免，持续10秒。"] = "[Абсолютный щит] Получает щит от макс. здоровья при снижении здоровья ниже 40% и снижает получаемый урон на 10 сек.",
+    ["Gain <HighLight> one Rare Equipment Casket </> and 2 Gold Coins."] = "Даёт <HighLight> один ларец с редким снаряжением </> и 2 золотые монеты.",
+    ["When dealing or receiving damage, Attack is increased by <HighLight>1.5%</>, stacking up to <HighLight>15</> times."] = "При нанесении или получении урона атака увеличивается на <HighLight>1.5%</>, максимум <HighLight>15</> ур.",
 }

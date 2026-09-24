@@ -260,4 +260,5 @@ return {
     ["Audience 13"] = "Аудитория bb",
     ["You have both made the criminals accept punishment and brought back Sealed Artifact 3-888, eliminating potential dangers."] = "Вы оба заставили преступников принять наказание и вернули Запечатанный Артефакт 3-888, устранив потенциальную опасность.",
     ["Activate Spirit Vision: Player sets Spirit Vision status."] = "Активировать Духовное Видение: Игрок устанавливает статус Духовного Видения.",
+    ["Your pieces gain 200 Health<HighLight></> and 10% maximum Health<HighLight></>."] = "Ваши фигуры получают 200 ед. здоровья<HighLight></> и 10% к максимальному здоровью<HighLight></>.",
 }

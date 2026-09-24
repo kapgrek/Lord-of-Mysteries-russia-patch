@@ -256,4 +256,6 @@ return {
     ["How much longer do I have to wait in line?"] = "Сколько мне еще придется ждать в очереди?",
     ["【猎人】"] = "[Охотник]",
     ["Steam Age"] = "Эпоха пара",
+    ["Scorching Flame Battle Armor"] = "Боевой доспех обжигающего пламени",
+    ["Sevenfold Desire"] = "Семикратное желание",
 }

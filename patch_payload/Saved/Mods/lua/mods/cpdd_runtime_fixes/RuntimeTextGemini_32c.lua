@@ -265,4 +265,5 @@ return {
     ["Don't come over! You are not allowed to follow me!... #$&$&**&@%..."] = "Не подходи! Вам не разрешено подписываться на меня!... #$&$&**&@%...",
     ["Shall we invite him to join our next poetry club event?"] = "Пригласим ли мы его присоединиться к нашему следующему мероприятию поэтического клуба?",
     ["Emperor Roselle once said, 'Wealth is sought amidst danger,' which just goes to show that I am about to get rich!"] = "Император Розель однажды сказал: «Богатство ищут среди опасности», и это доказывает, что я вот-вот разбогатею!",
+    ["Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>15%</>."] = "Урон по целям со здоровьем выше <HighLight>50%</> увеличивается на <HighLight>15%</>.",
 }

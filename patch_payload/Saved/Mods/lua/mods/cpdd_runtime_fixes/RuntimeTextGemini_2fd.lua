@@ -242,4 +242,5 @@ return {
     ["<Assistant_Title1> Offer a Heart to the Dragon Hunter </>\n<Assistant_Title2> Achievement Category: </> Plot - Era Life \n<Assistant_Title2> Unlock Condition: </> Complete the Era Life story \"Dragon Hunter Tale\""] = "<Assistant_Title1>Посвятите свое сердце охоте на драконов</>\n<Assistant_Title2>Классификация достижений: </>Сюжет — все формы времен\n<Assistant_Title2>Условия разблокировки: </>Завершить «Историю охоты на драконов» во всех формах времен",
     ["Soothing Cookie Rain"] = "Успокаивающий дождь из печенья",
     ["Frontline Support"] = "Передовая поддержка",
+    ["战斗开始时获得<HighLight>6</>层【恶名】，伤害提高<HighLight>10%</>。"] = "В начале боя получает <HighLight>6</> уровней эффекта 【Дурная слава】, урон увеличивается на <HighLight>10%</>.",
 }

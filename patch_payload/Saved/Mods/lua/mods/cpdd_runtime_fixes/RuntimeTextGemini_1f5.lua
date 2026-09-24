@@ -254,4 +254,5 @@ return {
     ["I, can't we take a break for a while like the people over there?"] = "Я, не можем ли мы сделать перерыв на некоторое время, как те люди там?",
     ["Then I'll start telling it... Once upon a time, there was a little girl who lived in the dark night."] = "Тогда я начну рассказывать... Жила-была маленькая девочка, которая жила в темной ночи.",
     ["Victory bows its head, giant dragons crawl, the world will be the fruit of the expedition."] = "Победа склоняет голову, ползут гигантские драконы, плодом экспедиции станет мир.",
+    ["For every <HighLight>1</> Resonance activated, all allies +<HighLight>0.3%</> Attack, up to <HighLight>10</> Resonances."] = "За каждый активированный резонанс (<HighLight>1</>) все союзники получают +<HighLight>0.3%</> к атаке, максимум до <HighLight>10</> резонансов.",
 }

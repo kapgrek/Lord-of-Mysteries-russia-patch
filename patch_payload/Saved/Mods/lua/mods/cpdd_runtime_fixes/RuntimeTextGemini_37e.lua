@@ -246,4 +246,7 @@ return {
     ["Extortion"] = "Вымогательство",
     ["[Sailor]"] = "[Моряк]",
     ["总金币: "] = "Всего монет: ",
+    ["For every enemy within <HighLight>2</> tiles, Defense is increased by <HighLight>12</>, stacking up to <HighLight>4</> times."] = "За каждого врага в пределах <HighLight>2</> клеток защита увеличивается на <HighLight>12</> ед., максимум <HighLight>4</> ур.",
+    ["Randomly gain 1 3-star 1-cost piece<HighLight></> and 7/11 Gold Coins<HighLight></>."] = "Случайным образом даёт 1 3-звёздочную фигуру за 1 золотой<HighLight></> и 7/11 золотых монет<HighLight></>.",
+    ["造成的伤害提高<HighLight>15%</>。"] = "Наносимый урон увеличивается на <HighLight>15%</>.",
 }

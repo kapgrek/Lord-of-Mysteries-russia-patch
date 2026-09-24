@@ -299,4 +299,5 @@ return {
     ["Upper Garment Bottom"] = "Верхний низ одежды",
     ["Jasmine"] = "Жасмин",
     ["[Companionship]"] = "【Плечом к плечу】",
+    ["After dealing a Critical Hit, Critical Damage increases by <HighLight>80%</> for <HighLight>3</> seconds."] = "После нанесения критического удара крит. урон увеличивается на <HighLight>80%</> на <HighLight>3</> сек.",
 }

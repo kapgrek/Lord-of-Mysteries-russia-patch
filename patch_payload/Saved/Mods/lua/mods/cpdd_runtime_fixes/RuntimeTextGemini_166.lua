@@ -240,4 +240,5 @@ return {
     ["Grid Area 1 Respawn Point 1"] = "Область сетки 1. Точка возрождения 1.",
     ["Milgongen Berserk"] = "Милгонген Берсерк",
     ["Spirituality returning"] = "Духовность возвращается",
+    ["Randomly gain <HighLight> one Resonance Badge </>."] = "Случайным образом даёт <HighLight> одну эмблему резонанса </>.",
 }

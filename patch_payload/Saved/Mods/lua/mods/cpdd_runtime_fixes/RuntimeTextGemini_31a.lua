@@ -251,4 +251,5 @@ return {
     ["Comfort the dejected <h>Roman</>"] = "Утешайте удрученных <h>Roman</>",
     ["Obtain Talent"] = "Получить талант",
     ["Connections Shop"] = "Магазин подключений",
+    ["Sequence Advancement Gift"] = "Дар продвижения по Последовательности",
 }

@@ -284,4 +284,6 @@ return {
     ["Selena Before Mutation"] = "Селена до мутации",
     ["Equipment cultivation, etc."] = "Оборудование для выращивания и т.д.",
     ["Check tickets"] = "Проверить билеты",
+    ["Randomly obtain <HighLight>one</> [Steam Age] piece of Equipment."] = "Случайным образом даёт <HighLight>одно</> снаряжение [Эпохи пара].",
+    ["When Health is below <HighLight>50%</>, this effect is increased by an additional <HighLight>30%</>."] = "Когда здоровье ниже <HighLight>50%</>, этот эффект дополнительно увеличивается на <HighLight>30%</>.",
 }

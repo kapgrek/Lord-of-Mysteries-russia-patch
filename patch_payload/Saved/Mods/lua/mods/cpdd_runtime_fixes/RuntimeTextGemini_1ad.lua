@@ -257,4 +257,5 @@ return {
     ["Delve deep into the sins hidden in Tingen."] = "Погрузитесь глубоко в грехи, скрытые в Тингене.",
     ["<Assistant_Title1>Gift of the Traveling Marionette</>\n<Assistant_Title2>Achievement Category: </>Growth - Development\n<Assistant_Title2>Unlock Condition: </>Collect 10 marionette travel rewards"] = "<Assistant_Title1>Подарок путешествующей марионетки</>\n<Assistant_Title2>Категория достижения: </>Развитие-рост\n<Assistant_Title2>Условия разблокировки: </>Получить 10 наград за путешествие марионетки",
     ["Summon \"Luper, the Alpha Wolf\" to perform three consecutive Claw Strikes, each dealing *d damage and having a 50% base probability of inflicting Stun on the target for 0.3 seconds. During the 8 seconds of the summon, it applies buffdisc(*id) to yourself."] = "Призывает «Вожака стаи» Лупо для совершения трёх последовательных ударов когтями; каждый удар наносит *d ед. урона и с базовой вероятностью 50% оглушает цель на 0,3 сек. В течение 8 сек. призыва накладывает на себя buffdisc(*id).",
+    ["Spirit-Returning Chain Pendant"] = "Цепной кулон возвращения духа",
 }

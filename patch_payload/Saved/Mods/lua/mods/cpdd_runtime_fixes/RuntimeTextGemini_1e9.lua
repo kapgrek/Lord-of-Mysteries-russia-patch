@@ -283,4 +283,5 @@ return {
     ["Hall of Fame function is temporarily closed."] = "Функция Зала славы временно закрыта.",
     ["Being Summoned by an Unexpected World..."] = "Быть призванным неожиданным миром...",
     ["激活羁绊：%d"] = "Активировано резонансов: %d",
+    ["When an enemy piece dies, recover <HighLight>3%</> Max Health."] = "Когда погибает вражеская фигура, восстанавливает <HighLight>3%</> от макс. здоровья.",
 }

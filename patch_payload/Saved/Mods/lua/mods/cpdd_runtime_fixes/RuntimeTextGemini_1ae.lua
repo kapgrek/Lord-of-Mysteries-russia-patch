@@ -257,4 +257,5 @@ return {
     ["Number of bullets fired per batch."] = "Количество пуль, выпущенных за партию.",
     ["Function_Interrupt Prayer"] = "Function_Interrupt Молитва",
     ["Purgatory Knight"] = "Рыцарь Чистилища",
+    ["After receiving damage, deal <HighLight>60</> damage to enemies within <HighLight>1</> tile(s), with a Cooldown of <HighLight>2</> seconds."] = "При получении урона наносит <HighLight>60</> ед. урона врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек.",
 }

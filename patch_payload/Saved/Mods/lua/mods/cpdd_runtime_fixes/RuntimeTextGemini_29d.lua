@@ -238,4 +238,5 @@ return {
     ["Activated Resonance: 20"] = "Активировано резонансов: 20",
     ["【值夜者】"] = "[Ночной Ястреб]",
     ["Within <HighLight>5</> seconds after casting, next basic attack deals additional damage equal to <HighLight>120%</> Attack, cooldown <HighLight>4</> seconds."] = "В течение <HighLight>5</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>120%</> от атаки, время перезарядки — <HighLight>4</> сек.",
+    ["Reduces the Defense of enemies within <HighLight>2</> tiles by <HighLight>30%</>."] = "Снижает защиту врагов в пределах <HighLight>2</> клеток на <HighLight>30%</>.",
 }

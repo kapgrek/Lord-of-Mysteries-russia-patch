@@ -269,4 +269,5 @@ return {
     ["Golden Autumn Lake Turtle"] = "Золотая Осенняя Озерная Черепаха",
     ["Unlocked after obtaining the Pale Crown outfit"] = "Разблокируется после получения костюма Бледной Короны.",
     ["Ordering the world, we shall drive straight in, wear the victor's crown, and walk into the glorious capital."] = "Приказывая миру, мы беспрепятственно ворвёмся вперёд, увенчаем себя венцом победителя и вступим в сияющую столицу.",
+    ["席位属性×<HighLight>120%</>"] = "Характеристики места ×<HighLight>120%</>",
 }

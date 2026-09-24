@@ -264,4 +264,5 @@ return {
     ["【Performance】Spirit Mrs. Smith 1"] = "【Представление】Дух миссис Смит 1",
     ["Over-the-shoulder dialogue 02"] = "Диалог через плечо bb",
     ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17402</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17402</>",
+    ["获得【战法】共鸣。"] = "Получает резонанс 【Боевая магия】.",
 }

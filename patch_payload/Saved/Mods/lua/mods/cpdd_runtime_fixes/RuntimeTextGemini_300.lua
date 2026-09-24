@@ -255,4 +255,5 @@ return {
     ["Today's shooting ends here. I really look forward to what interesting scenes we will capture next time."] = "Сегодняшние съемки здесь заканчиваются. Я очень жду, какие интересные сцены мы заснимем в следующий раз.",
     ["You have to tell him yourself. Let's go together."] = "Ты должен сказать ему сам. Давайте пойдем вместе.",
     ["You know I'm not good at dealing with children at all..."] = "Вы знаете, я совсем не умею обращаться с детьми...",
+    ["Spell Enlightenment"] = "Просветление колдовства",
 }

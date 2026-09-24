@@ -236,4 +236,5 @@ return {
     ["Ruoran"] = "Руоран",
     ["It's over there."] = "Это там.",
     ["In the joyful atmosphere, people are lining up. Perhaps you could use [Action/Emote - Look Around] where the crowd is gathered."] = "В радостной атмосфере люди выстраиваются в очередь. Возможно, вы могли бы использовать [Действие/Эмоцию — Оглянитесь вокруг] там, где собралась толпа.",
+    ["Gain <HighLight> two Sealed Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 2 Gold Coins </>."] = "Даёт <HighLight> два запечатанных ларца снаряжения </>, <HighLight> один перековщик снаряжения </> и <HighLight> 2 золотые монеты </>.",
 }

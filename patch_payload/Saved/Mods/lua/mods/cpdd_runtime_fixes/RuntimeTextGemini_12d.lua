@@ -265,4 +265,5 @@ return {
     ["Approach third puzzle checkpoint"] = "Подойдите к третьей контрольной точке головоломки.",
     ["Mind Control"] = "Контроль над разумом",
     ["Observe the <Highlight>expression made by the Clown</>, then combine it with the <Highlight>card suit</> above your head to quickly stand in the corresponding area."] = "Наблюдайте за выражением <Highlight>, созданным Клоун</>, затем объедините его с карточным костюмом <Highlight></> над головой, чтобы быстро встать в соответствующую область.",
+    ["Iron Guard Spirit"] = "Дух железной стражи",
 }

@@ -268,4 +268,5 @@ return {
     ["The crystal at the top of the staff becomes increasingly transparent, one step closer to the unfinished formula."] = "Кристалл на вершине посоха становится все более прозрачным, на шаг ближе к незавершенной формуле.",
     ["This copper mirror is too easy to be overlooked."] = "Это медное зеркало слишком легко не заметить.",
     ["Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage."] = "Сбрасывает темные грибы, трижды подрывая их в целевой области и нанося в сумме <Yellow>173</> ед. урона от атаки.",
+    ["Gain 1 Charm Succubus<HighLight></>. Her skill is strengthened to: Perform a Continuous Attack on the target 7 times<HighLight></>. After casting, restore 5% of maximum Health to 1 other ally with the lowest Health percentage on the field<HighLight></>."] = "Даёт 1 Чарующую суккуб<HighLight></>. Навык усилен: совершает непрерывную атаку по цели 7 раз<HighLight></>. После применения восстанавливает 5% от макс. здоровья 1 другому союзнику с наименьшим % здоровья на поле<HighLight></>.",
 }

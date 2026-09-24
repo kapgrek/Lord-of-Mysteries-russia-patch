@@ -243,4 +243,5 @@ return {
     ["Can be obtained through various gameplay modes"] = "Можно получить в различных режимах игры.",
     ["Equip to gain the [Warrior] bond"] = "Экипируйте, чтобы получить резонанс [Воин]",
     ["绯红信徒"] = "Багряный верующий",
+    ["Coincidence"] = "Совпадение",
 }

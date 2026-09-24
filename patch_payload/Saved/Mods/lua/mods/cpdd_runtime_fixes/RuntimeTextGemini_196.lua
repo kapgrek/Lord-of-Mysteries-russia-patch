@@ -262,4 +262,5 @@ return {
     ["Dalton "] = "Далтон",
     ["Pick up the <h> paper </>"] = "Возьмите бумагу <h> </>.",
     ["Pieces"] = "Фигуры",
+    ["Gain 1 Bulwark Badge<HighLight></>. After activating Bulwark, when each Bulwark piece's Health first drops below 40%<HighLight></>, clear own control effects<HighLight></> and restore 15% of maximum Health<HighLight></>."] = "Даёт 1 эмблему Оплота<HighLight></>. После активации Оплота, когда здоровье фигуры Оплота впервые падает ниже 40%<HighLight></>, снимает эффекты контроля<HighLight></> и восстанавливает 15% от максимального здоровья<HighLight></>.",
 }

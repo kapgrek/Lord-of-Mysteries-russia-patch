@@ -247,4 +247,5 @@ return {
     ["<P_Heart>(Elegantly adjusting cuffs)</> First, look at the way they hold their wine glasses—Beyonders of certain pathways will unconsciously make symbolic gestures."] = "<P_Heart> (Элегантно поправляя манжеты) </> Во-первых, посмотрите, как они держат бокалы с вином. Люди, не принадлежащие к определенным путям, бессознательно делают символические жесты.",
     ["Juliet"] = "Джульетта",
     ["Use new framework ReminderUI"] = "Используйте новый фреймворк ReminderUI",
+    ["Mysticism Badge"] = "Эмблема Мистицизма",
 }

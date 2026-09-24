@@ -265,4 +265,5 @@ return {
     ["Look left"] = "Посмотрите налево",
     ["Gilded Piano"] = "Позолоченное фортепиано",
     ["2 [Spellcasting]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。"] = "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
+    ["Immediately gain <HighLight> 7 Gold Coins </>. <HighLight> Each round </>, gain an additional <HighLight> 1 Gold Coin </>."] = "Немедленно даёт <HighLight> 7 золотых монет </>. <HighLight> Каждый раунд </> даёт дополнительно <HighLight> 1 золотую монету </>.",
 }

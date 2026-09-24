@@ -250,4 +250,5 @@ return {
     ["Attempt to end Homestead Railroad Tycoon"] = "Попытка покончить с Homestead Railroad Tycoon",
     ["Spark 1.4 - Li Zixuan"] = "Искра 1.4 - Ли Цзысюань",
     ["Equip to gain the [Prisoner] bond."] = "Экипируйте, чтобы получить резонанс [Узник].",
+    ["At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 300 Shield </>, lasting for <HighLight> 8 seconds </>."] = "В начале боя фигуры, <HighLight> смежные с союзниками </>, получают <HighLight> щит прочностью 300 ед. </> на <HighLight> 8 секунд </>.",
 }

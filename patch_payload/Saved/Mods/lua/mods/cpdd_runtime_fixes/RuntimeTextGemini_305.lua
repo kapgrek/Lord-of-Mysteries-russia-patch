@@ -253,4 +253,5 @@ return {
     ["There are very few clues about her right now, so my task is..."] = "На данный момент о ней очень мало сведений, поэтому моя задача...",
     ["Block increased by *d."] = "Блок увеличен на *d.",
     ["I want to go to Tingen Train Station"] = "Я хочу поехать на вокзал Тинген",
+    ["席位属性×<HighLight>140%</>"] = "Характеристики места ×<HighLight>140%</>",
 }

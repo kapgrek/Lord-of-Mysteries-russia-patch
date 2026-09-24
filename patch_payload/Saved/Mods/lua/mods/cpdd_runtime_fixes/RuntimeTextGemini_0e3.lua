@@ -297,4 +297,5 @@ return {
     ["Accumulate %d/20 successful Requiems on Beyonders"] = "Соберите %d/20 успешных реквиемов по Потусторонние.",
     ["This Saturday 20:45"] = "В эту субботу, 20:45",
     ["Battle-Mage"] = "Боевой маг",
+    ["Rare · Star-Splitting Curio"] = "Редкое · Звездоколющий диковинный предмет",
 }

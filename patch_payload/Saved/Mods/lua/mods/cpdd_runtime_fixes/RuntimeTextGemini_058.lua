@@ -285,4 +285,5 @@ return {
     ["After use, obtain the title: <Highlight>Number One Electrotherapy Practitioner</>."] = "После использования получите звание: <Highlight>Практикующий специалист по электротерапии номер один</>.",
     ["Note: The sound waves at your feet indicate the direction from which the sound is coming."] = "Примечание. Звуковые волны у ваших ног указывают направление, откуда исходит звук.",
     ["You wouldn't believe how majestic that ghost is! He's right at the entrance of the ancient castle, wearing a uniform, his boots clicking as he walks, just like... just like a tin soldier who just won a battle!"] = "Вы не поверите, насколько величественно это привидение! Он стоит прямо у входа в древний замок, в униформе, его ботинки цокают при ходьбе, совсем как… совсем как оловянный солдатик, только что выигравший битву!",
+    ["Advancement Gift"] = "Дар продвижения",
 }

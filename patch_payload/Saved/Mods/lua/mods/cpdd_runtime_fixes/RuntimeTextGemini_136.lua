@@ -247,4 +247,5 @@ return {
     ["1408 Middle Lane Minion Wave"] = "1408 Волна миньонов на Средней полосе",
     ["The young lady hasn't woken up yet, and now Cours is... sigh."] = "Барышня еще не проснулась, а теперь Кур... вздыхает.",
     ["Station Schedule"] = "Расписание станций",
+    ["103.5W"] = "103.5W",
 }

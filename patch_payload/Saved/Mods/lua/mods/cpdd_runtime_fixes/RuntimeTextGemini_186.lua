@@ -232,4 +232,6 @@ return {
     ["Some time later, you wanted to know the outcome, so you came to Hoy University again..."] = "Некоторое время спустя вам захотелось узнать результат, и вы снова пришли в Университет Хой...",
     ["Weapon animation."] = "Анимация оружия.",
     ["6 [Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["After the first skill cast in each battle, Mana recovery increases by <HighLight>7</> for <HighLight>5</> seconds."] = "После первого применения навыка в каждом бою восстановление маны увеличивается на <HighLight>7</> ед. на <HighLight>5</> сек.",
+    ["Indomitable Crown"] = "Непоколебимая корона",
 }

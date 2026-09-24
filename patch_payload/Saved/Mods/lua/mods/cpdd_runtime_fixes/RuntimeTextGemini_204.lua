@@ -238,4 +238,6 @@ return {
     ["It's always you inviting me, which makes me seem lacking in initiative."] = "Это ты всегда меня приглашаешь, из-за чего мне кажется, что мне не хватает инициативы.",
     ["Equip to gain the [Rock] resonance."] = "Экипируйте, чтобы получить резонанс [Скала].",
     ["Critical Hit Amplification"] = "Усиление критического удара",
+    ["Blood-Sucking Badge"] = "Эмблема Вампиризма",
+    ["Rare · Light-Eroding Gauntlet"] = "Редкое · Светопожирающая рукавица",
 }

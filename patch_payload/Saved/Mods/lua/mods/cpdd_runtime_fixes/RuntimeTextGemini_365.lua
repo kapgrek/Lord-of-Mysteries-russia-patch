@@ -248,4 +248,5 @@ return {
     ["Shadows of the Blade"] = "Тени клинка",
     ["The author of the notes is Andy Cairns, who was recently gathering material in Water Lily Town... and ended up encountering strange things."] = "Автор заметок — Энди Кэрнс, который недавно собирал материал в Городе Водяных Лилий… и в итоге столкнулся со странными вещами.",
     ["Sigh, Palide, you found such a great model, yet they are as strict as the ice and snow in the photos."] = "Эх, Палиде, ты нашел такую ​​замечательную модель, но они такие же строгие, как лед и снег на фотографиях.",
+    ["Attack range increased by <HighLight>1</> tile."] = "Дальность атаки увеличена на <HighLight>1</> клетку.",
 }

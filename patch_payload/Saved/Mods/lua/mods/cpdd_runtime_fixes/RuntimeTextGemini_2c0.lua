@@ -234,4 +234,5 @@ return {
     ["Here you can open/close <Orange>Plot Mode</> and switch the camera distance."] = "Здесь вы можете открыть/закрыть <Orange>Plot Mode</> и переключить расстояние камеры.",
     ["Hornacis Mountains - Storm Chase - Surfing"] = "Горы Хорнацис - Штормовая погоня - Серфинг",
     ["Spectator 4"] = "Зритель b",
+    ["【恶名】每层+<HighLight>5%</>攻击和<HighLight>3%</>伤害减免。"] = "【Дурная слава】Каждый уровень: +<HighLight>5%</> к атаке и <HighLight>3%</> снижения урона.",
 }

@@ -252,4 +252,5 @@ return {
     ["Zoutland Street"] = "Заутленд-стрит",
     ["Highlight overlay color"] = "Цвет наложения выделения",
     ["5230131 Tingen Plane"] = "5230131 Измерение: Тинген",
+    ["Gain 1 Derrick Berg<HighLight></>. His skill is strengthened to: First gain a Shield, then deal damage to surrounding enemies and perform Healing on allies<HighLight></>."] = "Даёт 1 Дэйрика Берга<HighLight></>. Навык усилен: сначала получает щит, затем наносит урон окружающим врагам и исцеляет союзников<HighLight></>.",
 }

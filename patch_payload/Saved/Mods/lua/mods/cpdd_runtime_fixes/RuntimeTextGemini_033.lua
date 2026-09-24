@@ -265,4 +265,5 @@ return {
     ["<P_Heart>(Reading carefully)</> What are these characters? <P_Heart>(Panic)</> Why don't I recognize a single one? <P_Heart>(Rage)</> Why am I so stupid! Even after going to night school, I don't recognize a single character!"] = "<P_Heart> (внимательно читаем) </> Что это за символы? <P_Heart>(Паника)</> Почему я не узнаю ни одного? <P_Heart>(Ярость)</> Почему я такой глупый! Даже пойдя в вечернюю школу, я не узнаю ни одного персонажа!",
     ["[Nighthawk]"] = "[Ночной Ястреб]",
     ["Notes on Victory"] = "Заметки о победах",
+    ["Gain 1 Low-Level Piece Recorder<HighLight></>, and gain 1 more after 5 duel rounds<HighLight></><HighLight></>."] = "Даёт 1 Регистратор фигур низкого уровня<HighLight></>, а также ещё 1 через 5 раундов поединка<HighLight></><HighLight></>.",
 }

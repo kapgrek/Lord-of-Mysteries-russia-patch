@@ -227,4 +227,5 @@ return {
     ["are that new possibility."] = "это новая возможность.",
     ["Linda, you did your best, it's okay, there's still the next match!"] = "Линда, ты сделала все возможное, ничего страшного, впереди еще следующий матч!",
     ["[Evernight Goddess]"] = "[Богиня Вечной Ночи]",
+    ["Combat Workshop"] = "Боевая мастерская",
 }

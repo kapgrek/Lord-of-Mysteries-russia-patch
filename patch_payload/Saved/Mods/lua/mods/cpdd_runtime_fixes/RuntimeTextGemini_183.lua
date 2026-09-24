@@ -242,4 +242,5 @@ return {
     ["Draw your fate card—very nice! A card of misfortune!"] = "Вытяните карту своей судьбы – очень здорово! Карта несчастья!",
     ["Little Jack?"] = "Маленький Джек?",
     ["Force has its form, condensing into shadows. Borrowing the bloodline of the Twilight Giant, it accumulates power for the upcoming attack stance, manifesting the trajectory of the moves. When executing a powerful attack, the formed trajectory will follow the attack motion, creating afterimages.\nIncreases your Charm by 3 and Intuition by 1."] = "Сила обретает форму, а форма сгущается в тень. Черпая силу из родословной Сумеречного Гиганта, копит мощь для грядущей атакующей стойки, проявляя траекторию приёмов. При нанесении сокрушительного удара эта траектория порождает остаточные образы вслед за движением.\nПовышает собственное Обаяние на 3 и Интуицию на 1.",
+    ["Lion Heart Protection Ring"] = "Защитное кольцо Львиного сердца",
 }

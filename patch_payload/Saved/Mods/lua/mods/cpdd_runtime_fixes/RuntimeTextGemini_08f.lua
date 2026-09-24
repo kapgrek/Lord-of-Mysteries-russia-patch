@@ -241,4 +241,5 @@ return {
     ["It should be this fountain. It doesn't even have a mouth, so how is it supposed to talk?"] = "Это должен быть этот фонтан. У него даже рта нет, так как же он может говорить?",
     ["Summon Minion Prompt"] = "Призыв миньона",
     ["Clear Buff quantity list by tag"] = "Очистить список количества баффов по тегам",
+    ["席位属性×<HighLight>160%</>"] = "Характеристики места ×<HighLight>160%</>",
 }

@@ -276,4 +276,5 @@ return {
     ["The field scenery remains as picturesque as ever"] = "Полевые пейзажи остаются такими же живописными, как и прежде.",
     ["<Assistant_Title1>【Butterfly Resting on Flowing Light】</>\n<Assistant_Title2>Description: </>Rank Reward Display Stand Sticker\n<Assistant_Title2>Usage: </>After use, you will obtain Butterfly Resting on Flowing Light. You can click <Assistant_System>Appearance-Display Stand</> to view and use it.\n<Assistant_Title2>Acquisition: </><Assistant_System>Easy Win-Ranked Ladder</>Obtained upon reaching a certain rank"] = "<Assistant_Title1>[Стример Dieqi]</>\n<Assistant_Title2>Описание: </>Стикер стенда с наградами за ранг\n<Assistant_Title2>Использование: </>После использования вы получите стример Dieqiu. Вы можете нажать <Assistant_System>Appearance-Booth</>, чтобы просмотреть и использовать его. \n<Assistant_Title2> Получается: </><Assistant_System> Победа лежа — лестница рангов </> Получается при достижении определенного ранга",
     ["Equip to gain the [Death Sect] resonance"] = "Экипируйте, чтобы получить резонанс [Секта Смерти]",
+    ["Special Assistance"] = "Особая помощь",
 }

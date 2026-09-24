@@ -251,4 +251,5 @@ return {
     ["So\nGreedy"] = "Правда\n жадный\nсердце",
     ["Spices, dried goods, various spices from the Southern Continent."] = "Специи, сушеные продукты, различные специи с Южного континента.",
     ["Pass judgment on the furthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds."] = "Выносит приговор самому дальнему врагу, нанося <Yellow>293</> ед. урона от атаки и оглушая его на <HighLight>1</> сек., а также снижая регенерацию его маны на <HighLight>8</> ед. на <HighLight>3</> сек.",
+    ["Gain 3 random <HighLight> 3-cost chess pieces </> and 3 Gold Coins. The entire team gains 5% Attack Speed, and 3-cost chess pieces additionally gain <HighLight> 300 maximum Health </> and <HighLight> 25% Attack Speed </>."] = "Даёт 3 случайные <HighLight> фигуры за 3 золотых </> и 3 золотые монеты. Команда получает 5% скорости атаки, а фигуры за 3 золотых дополнительно получают <HighLight> 300 макс. здоровья </> и <HighLight> 25% скорости атаки </>.",
 }

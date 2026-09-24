@@ -251,4 +251,6 @@ return {
     ["Conquest Count - Appearance"] = "Количество завоеваний - Внешний вид",
     ["Each time a Giant Tarot Card is created, you gain 2 additional Spirit Cards."] = "Каждый раз, когда создается Гигантская карта Таро, вы получаете 2 дополнительные карты Духа.",
     ["Are you sure you want to exit the faction war?"] = "Вы уверены, что хотите выйти из войны фракций?",
+    ["Miracle Restart"] = "Чудесный перезапуск",
+    ["战斗开始时，若位于前<HighLight>2</>排，则获得<HighLight>20%</>伤害减免；若位于后<HighLight>2</>排，则攻速提高<HighLight>40%</>。效果持续至战斗结束。"] = "В начале боя: в первых <HighLight>2</> рядах получает <HighLight>20%</> снижения урона; в последних <HighLight>2</> рядах скорость атаки повышается на <HighLight>40%</>. Действует до конца боя.",
 }

@@ -251,4 +251,6 @@ return {
     ["Survive the ambush"] = "Выжить в засаде",
     ["Wind Boots"] = "Ветряные сапоги",
     ["装配后获得【塔罗会】羁绊"] = "Экипируйте, чтобы получить резонанс [Клуб Таро]",
+    ["Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 16% Damage Amplification </>."] = "Фигуры в последних двух рядах начинают бой с <HighLight> 80% от текущего здоровья </> и получают <HighLight> 16% увеличения урона </>.",
+    ["Rare · Swift Life Plate"] = "Редкое · Пластина стремительной жизни",
 }

@@ -246,4 +246,5 @@ return {
     ["Plot points reached 800"] = "Сюжетные точки достигли 800.",
     ["The registration for this year's government employee unified exam has started, are you ready?"] = "Регистрация на единый экзамен для госслужащих в этом году началась, вы готовы?",
     ["You have encountered danger multiple times in a short period, but we cannot protect you at all times. You need the ability to protect yourself."] = "Вы сталкивались с опасностью несколько раз за короткий период времени, но мы не можем защитить вас всегда. Вам нужна способность защитить себя.",
+    ["№1"] = "№1",
 }

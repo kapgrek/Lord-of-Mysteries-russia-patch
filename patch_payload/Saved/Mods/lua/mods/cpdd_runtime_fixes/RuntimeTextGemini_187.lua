@@ -256,4 +256,5 @@ return {
     ["Ask About the Gift Box"] = "Спросите о подарочной коробке",
     ["Can feel the pulse of wildness when touched."] = "Может чувствовать пульс дикости при прикосновении.",
     ["Equip to gain the [Bard] bond."] = "Экипируйте, чтобы получить резонанс [Певец].",
+    ["At the start of player combat: Restore <HighLight>2</> Health to the player."] = "В начале боя с игроком: восстанавливает <HighLight>2</> ед. здоровья игрока.",
 }

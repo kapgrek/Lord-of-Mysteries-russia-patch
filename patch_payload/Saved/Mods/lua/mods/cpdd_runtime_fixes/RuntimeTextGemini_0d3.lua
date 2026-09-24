@@ -251,4 +251,5 @@ return {
     ["Chloe "] = "Хлоя",
     ["Check <h>Rozanne's</> condition"] = "Проверьте состояние <h>Розанны </>",
     ["Noble Lady 4"] = "Благородная леди b",
+    ["Fine Machinery"] = "Точная механика",
 }

@@ -994,5 +994,2813 @@
     "source_cn": "Mid-row Assassin",
     "ref_en": "Mid-row Assassin",
     "target_ru": "Убийца среднего ряда"
+  },
+  {
+    "id": "131177",
+    "source_cn": "+<HighLight>13%</> Attack Speed per stack.",
+    "ref_en": "+<HighLight>13%</> Attack Speed per stack.",
+    "target_ru": "+<HighLight>13%</> к скорости атаки за уровень."
+  },
+  {
+    "id": "131178",
+    "source_cn": "+<HighLight>8%</> Attack Speed per stack.",
+    "ref_en": "+<HighLight>8%</> Attack Speed per stack.",
+    "target_ru": "+<HighLight>8%</> к скорости атаки за уровень."
+  },
+  {
+    "id": "131179",
+    "source_cn": "10 seconds<HighLight></> after the battle starts, your pieces restore 30% of their lost Health<HighLight></>.",
+    "ref_en": "10 seconds<HighLight></> after the battle starts, your pieces restore 30% of their lost Health<HighLight></>.",
+    "target_ru": "Через 10 сек.<HighLight></> после начала боя ваши фигуры восстанавливают 30% от потерянного здоровья<HighLight></>."
+  },
+  {
+    "id": "131180",
+    "source_cn": "10 seconds<HighLight></> after the battle starts, your pieces restore 50% of their lost Health<HighLight></>.",
+    "ref_en": "10 seconds<HighLight></> after the battle starts, your pieces restore 50% of their lost Health<HighLight></>.",
+    "target_ru": "Через 10 сек.<HighLight></> после начала боя ваши фигуры восстанавливают 50% от потерянного здоровья<HighLight></>."
+  },
+  {
+    "id": "131181",
+    "source_cn": "100.2W",
+    "ref_en": "100.2W",
+    "target_ru": "100.2W"
+  },
+  {
+    "id": "131182",
+    "source_cn": "100.4W",
+    "ref_en": "100.4W",
+    "target_ru": "100.4W"
+  },
+  {
+    "id": "131183",
+    "source_cn": "100.5W",
+    "ref_en": "100.5W",
+    "target_ru": "100.5W"
+  },
+  {
+    "id": "131184",
+    "source_cn": "100.6W",
+    "ref_en": "100.6W",
+    "target_ru": "100.6W"
+  },
+  {
+    "id": "131185",
+    "source_cn": "100.7W",
+    "ref_en": "100.7W",
+    "target_ru": "100.7W"
+  },
+  {
+    "id": "131186",
+    "source_cn": "101.1W",
+    "ref_en": "101.1W",
+    "target_ru": "101.1W"
+  },
+  {
+    "id": "131187",
+    "source_cn": "101.4W",
+    "ref_en": "101.4W",
+    "target_ru": "101.4W"
+  },
+  {
+    "id": "131188",
+    "source_cn": "101.8W",
+    "ref_en": "101.8W",
+    "target_ru": "101.8W"
+  },
+  {
+    "id": "131189",
+    "source_cn": "103.5W",
+    "ref_en": "103.5W",
+    "target_ru": "103.5W"
+  },
+  {
+    "id": "131190",
+    "source_cn": "8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed.<HighLight></>",
+    "ref_en": "8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed.<HighLight></>",
+    "target_ru": "Через 8 сек. после начала боя [Сияние Багровой Луны] наносит чистый урон всем врагам и даёт всем союзникам скорость атаки.<HighLight></>"
+  },
+  {
+    "id": "131191",
+    "source_cn": "<HighLight> Lose 20 Player Health </>, and after <HighLight> 7 combat rounds </>, gain <HighLight> 24 Gold Coins </>.",
+    "ref_en": "<HighLight> Lose 20 Player Health </>, and after <HighLight> 7 combat rounds </>, gain <HighLight> 24 Gold Coins </>.",
+    "target_ru": "<HighLight> Теряет 20 ед. здоровья игрока </>, а через <HighLight> 7 боевых раундов </> получает <HighLight> 24 золотые монеты </>."
+  },
+  {
+    "id": "131192",
+    "source_cn": "<HighLight> Maximum units on board +1 </>, and randomly gain <HighLight> one 4-cost chess piece </>.",
+    "ref_en": "<HighLight> Maximum units on board +1 </>, and randomly gain <HighLight> one 4-cost chess piece </>.",
+    "target_ru": "<HighLight> Лимит фигур на доске +1 </>, и случайным образом даёт <HighLight> одну фигуру за 4 золотых </>."
+  },
+  {
+    "id": "131193",
+    "source_cn": "<HighLight> Maximum units on board +2 </>, your chess pieces gain <HighLight> 10% Damage Reduction </>, but the player's <HighLight> maximum Health is reduced by 50 points </>.",
+    "ref_en": "<HighLight> Maximum units on board +2 </>, your chess pieces gain <HighLight> 10% Damage Reduction </>, but the player's <HighLight> maximum Health is reduced by 50 points </>.",
+    "target_ru": "<HighLight> Лимит фигур на доске +2 </>, ваши фигуры получают <HighLight> 10% снижения урона </>, но <HighLight> макс. здоровье игрока снижается на 50 ед. </>"
+  },
+  {
+    "id": "131194",
+    "source_cn": "<HighLight>20%</> Max Health Shield, <HighLight>10%</> Damage Reduction.",
+    "ref_en": "<HighLight>20%</> Max Health Shield, <HighLight>10%</> Damage Reduction.",
+    "target_ru": "Щит в размере <HighLight>20%</> от макс. здоровья, <HighLight>10%</> снижения урона."
+  },
+  {
+    "id": "131195",
+    "source_cn": "<HighLight>35%</> Max Health Shield, <HighLight>15%</> Damage Reduction.",
+    "ref_en": "<HighLight>35%</> Max Health Shield, <HighLight>15%</> Damage Reduction.",
+    "target_ru": "Щит в размере <HighLight>35%</> от макс. здоровья, <HighLight>15%</> снижения урона."
+  },
+  {
+    "id": "131196",
+    "source_cn": "<HighLight>60%</> Max Health Shield, <HighLight>20%</> Damage Reduction.",
+    "ref_en": "<HighLight>60%</> Max Health Shield, <HighLight>20%</> Damage Reduction.",
+    "target_ru": "Щит в размере <HighLight>60%</> от макс. здоровья, <HighLight>20%</> снижения урона."
+  },
+  {
+    "id": "131197",
+    "source_cn": "Absolute Shield Badge",
+    "ref_en": "Absolute Shield Badge",
+    "target_ru": "Эмблема Абсолютного щита"
+  },
+  {
+    "id": "131198",
+    "source_cn": "Abundance Robe",
+    "ref_en": "Abundance Robe",
+    "target_ru": "Мантия Изобилия"
+  },
+  {
+    "id": "131199",
+    "source_cn": "Advanced Record Reproduction",
+    "ref_en": "Advanced Record Reproduction",
+    "target_ru": "Улучшенное воспроизведение записи"
+  },
+  {
+    "id": "131200",
+    "source_cn": "Advancement Gift",
+    "ref_en": "Advancement Gift",
+    "target_ru": "Дар продвижения"
+  },
+  {
+    "id": "131201",
+    "source_cn": "After <HighLight> 12 seconds </> of combat, your chess pieces gain <HighLight> 20% Damage Amplification </>.",
+    "ref_en": "After <HighLight> 12 seconds </> of combat, your chess pieces gain <HighLight> 20% Damage Amplification </>.",
+    "target_ru": "Через <HighLight> 12 секунд </> боя ваши фигуры получают <HighLight> 20% увеличения урона </>."
+  },
+  {
+    "id": "131202",
+    "source_cn": "After <HighLight> 8 match rounds </>, gain <HighLight> one Sealed Equipment Casket </>.",
+    "ref_en": "After <HighLight> 8 match rounds </>, gain <HighLight> one Sealed Equipment Casket </>.",
+    "target_ru": "Через <HighLight> 8 раундов поединка </> даёт <HighLight> один запечатанный ларец снаряжения </>."
+  },
+  {
+    "id": "131203",
+    "source_cn": "After <HighLight> losing a battle </>, gain <HighLight> 2 Gold Coins </> and <HighLight> 1 free refresh </>.",
+    "ref_en": "After <HighLight> losing a battle </>, gain <HighLight> 2 Gold Coins </> and <HighLight> 1 free refresh </>.",
+    "target_ru": "После <HighLight> поражения в бою </> даёт <HighLight> 2 золотые монеты </> и <HighLight> 1 бесплатное обновление </>."
+  },
+  {
+    "id": "131204",
+    "source_cn": "After dealing a Critical Hit, Critical Damage increases by <HighLight>50%</> for <HighLight>3</> seconds.",
+    "ref_en": "After dealing a Critical Hit, Critical Damage increases by <HighLight>50%</> for <HighLight>3</> seconds.",
+    "target_ru": "После нанесения критического удара крит. урон увеличивается на <HighLight>50%</> на <HighLight>3</> сек."
+  },
+  {
+    "id": "131205",
+    "source_cn": "After dealing a Critical Hit, Critical Damage increases by <HighLight>80%</> for <HighLight>3</> seconds.",
+    "ref_en": "After dealing a Critical Hit, Critical Damage increases by <HighLight>80%</> for <HighLight>3</> seconds.",
+    "target_ru": "После нанесения критического удара крит. урон увеличивается на <HighLight>80%</> на <HighLight>3</> сек."
+  },
+  {
+    "id": "131206",
+    "source_cn": "After dealing a Critical Hit, damage increases by <HighLight>10%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times.",
+    "ref_en": "After dealing a Critical Hit, damage increases by <HighLight>10%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times.",
+    "target_ru": "После нанесения критического удара урон увеличивается на <HighLight>10%</> на <HighLight>5</> сек., максимум <HighLight>4</> ур."
+  },
+  {
+    "id": "131207",
+    "source_cn": "After dealing a Critical Hit, damage increases by <HighLight>8%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times.",
+    "ref_en": "After dealing a Critical Hit, damage increases by <HighLight>8%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times.",
+    "target_ru": "После нанесения критического удара урон увеличивается на <HighLight>8%</> на <HighLight>5</> сек., максимум <HighLight>4</> ур."
+  },
+  {
+    "id": "131208",
+    "source_cn": "After dealing damage, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds.",
+    "ref_en": "After dealing damage, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds.",
+    "target_ru": "После нанесения урона снижает защиту цели на <HighLight>45%</> на <HighLight>3</> сек."
+  },
+  {
+    "id": "131209",
+    "source_cn": "After dealing damage, the target's Defense is reduced by <HighLight>30%</> for <HighLight>3</> seconds.",
+    "ref_en": "After dealing damage, the target's Defense is reduced by <HighLight>30%</> for <HighLight>3</> seconds.",
+    "target_ru": "После нанесения урона защита цели снижается на <HighLight>30%</> на <HighLight>3</> сек."
+  },
+  {
+    "id": "131210",
+    "source_cn": "After each Basic Attack, Attack Speed increases by <HighLight>10%</>, stacking up to <HighLight>10</> times.",
+    "ref_en": "After each Basic Attack, Attack Speed increases by <HighLight>10%</>, stacking up to <HighLight>10</> times.",
+    "target_ru": "После каждой базовой атаки скорость атаки увеличивается на <HighLight>10%</>, максимум <HighLight>10</> ур."
+  },
+  {
+    "id": "131211",
+    "source_cn": "After each Basic Attack, gain <HighLight>7%</> Attack Speed, stacking up to <HighLight>10</> times.",
+    "ref_en": "After each Basic Attack, gain <HighLight>7%</> Attack Speed, stacking up to <HighLight>10</> times.",
+    "target_ru": "После каждой базовой атаки даёт <HighLight>7%</> скорости атаки, максимум <HighLight>10</> ур."
+  },
+  {
+    "id": "131212",
+    "source_cn": "After each Basic Attack, restore <HighLight>10</> Mana.",
+    "ref_en": "After each Basic Attack, restore <HighLight>10</> Mana.",
+    "target_ru": "После каждой базовой атаки восстанавливает <HighLight>10</> ед. маны."
+  },
+  {
+    "id": "131213",
+    "source_cn": "After each Basic Attack, restore <HighLight>7</> Mana.",
+    "ref_en": "After each Basic Attack, restore <HighLight>7</> Mana.",
+    "target_ru": "После каждой базовой атаки восстанавливает <HighLight>7</> ед. маны."
+  },
+  {
+    "id": "131214",
+    "source_cn": "After each chess turn ends, randomly obtain 1 piece of <HighLight> from the Resonance </> with the highest number of deployed units on <HighLight> </>.",
+    "ref_en": "After each chess turn ends, randomly obtain 1 piece of <HighLight> from the Resonance </> with the highest number of deployed units on <HighLight> </>.",
+    "target_ru": "После каждого шахматного раунда случайно получает 1 фигуру <HighLight> резонанса </>, представленного наибольшим числом фигур на доске <HighLight> </>."
+  },
+  {
+    "id": "131215",
+    "source_cn": "After receiving damage, deal <HighLight>60</> damage to enemies within <HighLight>1</> tile(s), with a Cooldown of <HighLight>2</> seconds.",
+    "ref_en": "After receiving damage, deal <HighLight>60</> damage to enemies within <HighLight>1</> tile(s), with a Cooldown of <HighLight>2</> seconds.",
+    "target_ru": "При получении урона наносит <HighLight>60</> ед. урона врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек."
+  },
+  {
+    "id": "131216",
+    "source_cn": "After receiving damage, deal <HighLight>90</> damage to enemies within <HighLight>1</> tile; Cooldown is <HighLight>2</> seconds.",
+    "ref_en": "After receiving damage, deal <HighLight>90</> damage to enemies within <HighLight>1</> tile; Cooldown is <HighLight>2</> seconds.",
+    "target_ru": "При получении урона наносит <HighLight>90</> ед. урона врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек."
+  },
+  {
+    "id": "131217",
+    "source_cn": "After selecting, accumulate <HighLight> 3 match round wins </> to gain <HighLight> one Sealed Equipment Casket </> and <HighLight> 2 Gold Coins </>.",
+    "ref_en": "After selecting, accumulate <HighLight> 3 match round wins </> to gain <HighLight> one Sealed Equipment Casket </> and <HighLight> 2 Gold Coins </>.",
+    "target_ru": "После выбора одержите <HighLight> 3 победы в раундах </>, чтобы получить <HighLight> один запечатанный ларец снаряжения </> и <HighLight> 2 золотые монеты </>."
+  },
+  {
+    "id": "131218",
+    "source_cn": "After the first skill cast in each battle, Mana recovery increases by <HighLight>5</> for <HighLight>5</> seconds.",
+    "ref_en": "After the first skill cast in each battle, Mana recovery increases by <HighLight>5</> for <HighLight>5</> seconds.",
+    "target_ru": "После первого применения навыка в каждом бою восстановление маны увеличивается на <HighLight>5</> ед. на <HighLight>5</> сек."
+  },
+  {
+    "id": "131219",
+    "source_cn": "After the first skill cast in each battle, Mana recovery increases by <HighLight>7</> for <HighLight>5</> seconds.",
+    "ref_en": "After the first skill cast in each battle, Mana recovery increases by <HighLight>7</> for <HighLight>5</> seconds.",
+    "target_ru": "После первого применения навыка в каждом бою восстановление маны увеличивается на <HighLight>7</> ед. на <HighLight>5</> сек."
+  },
+  {
+    "id": "131220",
+    "source_cn": "After winning a duel round, gain 2 Experience Points<HighLight></>. After losing, gain 3 Experience Points<HighLight></>.",
+    "ref_en": "After winning a duel round, gain 2 Experience Points<HighLight></>. After losing, gain 3 Experience Points<HighLight></>.",
+    "target_ru": "После победы в раунде поединка даёт 2 очка опыта<HighLight></>. После поражения даёт 3 очка опыта<HighLight></>."
+  },
+  {
+    "id": "131221",
+    "source_cn": "All allies gain <HighLight>10%</> Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to <HighLight>10</> stacks. High tiers gain Damage Reduction.",
+    "ref_en": "All allies gain <HighLight>10%</> Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to <HighLight>10</> stacks. High tiers gain Damage Reduction.",
+    "target_ru": "Все союзники получают <HighLight>10%</> скорости атаки. [Стремительная охота] накапливает скорость атаки при каждой атаке, максимум <HighLight>10</> уровней. На высоких ступенях даёт снижение урона."
+  },
+  {
+    "id": "131222",
+    "source_cn": "Ally Guard",
+    "ref_en": "Ally Guard",
+    "target_ru": "Страж союзников"
+  },
+  {
+    "id": "131223",
+    "source_cn": "Ally Shield",
+    "ref_en": "Ally Shield",
+    "target_ru": "Щит союзников"
+  },
+  {
+    "id": "131224",
+    "source_cn": "Alternative Chips",
+    "ref_en": "Alternative Chips",
+    "target_ru": "Альтернативные фишки"
+  },
+  {
+    "id": "131225",
+    "source_cn": "Armor-Breaking Crystal Core",
+    "ref_en": "Armor-Breaking Crystal Core",
+    "target_ru": "Бронебойное кристаллическое ядро"
+  },
+  {
+    "id": "131226",
+    "source_cn": "Armor-Eroding Device",
+    "ref_en": "Armor-Eroding Device",
+    "target_ru": "Бронеразъедающее устройство"
+  },
+  {
+    "id": "131227",
+    "source_cn": "At the 8th and 18th seconds after the battle starts<HighLight></>, Stun all enemies for 1.5 seconds<HighLight></>.",
+    "ref_en": "At the 8th and 18th seconds after the battle starts<HighLight></>, Stun all enemies for 1.5 seconds<HighLight></>.",
+    "target_ru": "На 8-й и 18-й секунде после начала боя<HighLight></> оглушает всех врагов на 1.5 сек.<HighLight></>"
+  },
+  {
+    "id": "131228",
+    "source_cn": "At the end of the round, if the bench is empty<HighLight></>, gain 3 Experience Points<HighLight></>.",
+    "ref_en": "At the end of the round, if the bench is empty<HighLight></>, gain 3 Experience Points<HighLight></>.",
+    "target_ru": "В конце раунда, если скамья запасных пуста<HighLight></>, даёт 3 очка опыта<HighLight></>."
+  },
+  {
+    "id": "131229",
+    "source_cn": "At the start of battle, gain a Shield equivalent to <HighLight>15%</> of maximum Health for <HighLight>8</> seconds.",
+    "ref_en": "At the start of battle, gain a Shield equivalent to <HighLight>15%</> of maximum Health for <HighLight>8</> seconds.",
+    "target_ru": "В начале боя даёт щит в размере <HighLight>15%</> от максимального здоровья на <HighLight>8</> сек."
+  },
+  {
+    "id": "131230",
+    "source_cn": "At the start of combat, all enemies gain [Stigma of Abundance]: Attack reduced by <HighLight>1%</>. When an enemy with the Stigma dies, all allies gain [Gift of Abundance]: Damage Increase +<HighLight>1%</> for <HighLight>5</> seconds.",
+    "ref_en": "At the start of combat, all enemies gain [Stigma of Abundance]: Attack reduced by <HighLight>1%</>. When an enemy with the Stigma dies, all allies gain [Gift of Abundance]: Damage Increase +<HighLight>1%</> for <HighLight>5</> seconds.",
+    "target_ru": "В начале боя все враги получают [Клеймо Изобилия]: атака снижается на <HighLight>1%</>. Когда враг с клеймом погибает, все союзники получают [Дар Изобилия]: увеличение урона +<HighLight>1%</> на <HighLight>5</> сек."
+  },
+  {
+    "id": "131231",
+    "source_cn": "At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 200 Shield </>, lasting for <HighLight> 8 seconds </>.",
+    "ref_en": "At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 200 Shield </>, lasting for <HighLight> 8 seconds </>.",
+    "target_ru": "В начале боя фигуры, <HighLight> смежные с союзниками </>, получают <HighLight> щит прочностью 200 ед. </> на <HighLight> 8 секунд </>."
+  },
+  {
+    "id": "131232",
+    "source_cn": "At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 300 Shield </>, lasting for <HighLight> 8 seconds </>.",
+    "ref_en": "At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 300 Shield </>, lasting for <HighLight> 8 seconds </>.",
+    "target_ru": "В начале боя фигуры, <HighLight> смежные с союзниками </>, получают <HighLight> щит прочностью 300 ед. </> на <HighLight> 8 секунд </>."
+  },
+  {
+    "id": "131233",
+    "source_cn": "At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 20% of their maximum Health </>, lasting for <HighLight> 10 seconds </>.",
+    "ref_en": "At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 20% of their maximum Health </>, lasting for <HighLight> 10 seconds </>.",
+    "target_ru": "В начале боя фигуры, <HighLight> не смежные с союзниками </>, получают щит в размере <HighLight> 20% от макс. здоровья </> на <HighLight> 10 секунд </>."
+  },
+  {
+    "id": "131234",
+    "source_cn": "At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 30% of their maximum Health </>, lasting for <HighLight> 10 seconds </>.",
+    "ref_en": "At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 30% of their maximum Health </>, lasting for <HighLight> 10 seconds </>.",
+    "target_ru": "В начале боя фигуры, <HighLight> не смежные с союзниками </>, получают щит в размере <HighLight> 30% от макс. здоровья </> на <HighLight> 10 секунд </>."
+  },
+  {
+    "id": "131235",
+    "source_cn": "At the start of combat, for <HighLight> every ally chess piece in the first row </>, the entire team gains <HighLight> 50 Health </>.",
+    "ref_en": "At the start of combat, for <HighLight> every ally chess piece in the first row </>, the entire team gains <HighLight> 50 Health </>.",
+    "target_ru": "В начале боя за <HighLight> каждую союзную фигуру в первом ряду </> вся команда получает <HighLight> 50 ед. здоровья </>."
+  },
+  {
+    "id": "131236",
+    "source_cn": "At the start of player combat: Restore <HighLight>2</> Health to the player. Gain <HighLight>50</> [Quest Points] upon victory.",
+    "ref_en": "At the start of player combat: Restore <HighLight>2</> Health to the player. Gain <HighLight>50</> [Quest Points] upon victory.",
+    "target_ru": "В начале боя с игроком: восстанавливает <HighLight>2</> ед. здоровья игрока. При победе даёт <HighLight>50</> [Очков заданий]."
+  },
+  {
+    "id": "131237",
+    "source_cn": "At the start of player combat: Restore <HighLight>2</> Health to the player.",
+    "ref_en": "At the start of player combat: Restore <HighLight>2</> Health to the player.",
+    "target_ru": "В начале боя с игроком: восстанавливает <HighLight>2</> ед. здоровья игрока."
+  },
+  {
+    "id": "131238",
+    "source_cn": "Attack as Defense",
+    "ref_en": "Attack as Defense",
+    "target_ru": "Атака как защита"
+  },
+  {
+    "id": "131239",
+    "source_cn": "Attack range increased by <HighLight>1</> tile.",
+    "ref_en": "Attack range increased by <HighLight>1</> tile.",
+    "target_ru": "Дальность атаки увеличена на <HighLight>1</> клетку."
+  },
+  {
+    "id": "131240",
+    "source_cn": "Badge Crossroads",
+    "ref_en": "Badge Crossroads",
+    "target_ru": "Перекресток эмблем"
+  },
+  {
+    "id": "131241",
+    "source_cn": "Balanced Offense and Defense",
+    "ref_en": "Balanced Offense and Defense",
+    "target_ru": "Баланс атаки и защиты"
+  },
+  {
+    "id": "131242",
+    "source_cn": "Basic Attacks and Skills execute enemies with Health below <HighLight>12%</>.",
+    "ref_en": "Basic Attacks and Skills execute enemies with Health below <HighLight>12%</>.",
+    "target_ru": "Базовые атаки и навыки казнят врагов с уровнем здоровья ниже <HighLight>12%</>."
+  },
+  {
+    "id": "131243",
+    "source_cn": "Battle Intent Staff",
+    "ref_en": "Battle Intent Staff",
+    "target_ru": "Посох боевого духа"
+  },
+  {
+    "id": "131244",
+    "source_cn": "Battle Tactics Badge",
+    "ref_en": "Battle Tactics Badge",
+    "target_ru": "Эмблема Боевой магии"
+  },
+  {
+    "id": "131245",
+    "source_cn": "Battlefield Gift",
+    "ref_en": "Battlefield Gift",
+    "target_ru": "Дар поля боя"
+  },
+  {
+    "id": "131246",
+    "source_cn": "Blade of the Loyal Servant",
+    "ref_en": "Blade of the Loyal Servant",
+    "target_ru": "Клинок верного слуги"
+  },
+  {
+    "id": "131247",
+    "source_cn": "Blood Blade Badge",
+    "ref_en": "Blood Blade Badge",
+    "target_ru": "Эмблема Кровавого клинка"
+  },
+  {
+    "id": "131248",
+    "source_cn": "Blood Fire Mysticism",
+    "ref_en": "Blood Fire Mysticism",
+    "target_ru": "Мистицизм кровавого огня"
+  },
+  {
+    "id": "131249",
+    "source_cn": "Blood Hunt Cloak",
+    "ref_en": "Blood Hunt Cloak",
+    "target_ru": "Плащ кровавой охоты"
+  },
+  {
+    "id": "131250",
+    "source_cn": "Blood-Colored Ring",
+    "ref_en": "Blood-Colored Ring",
+    "target_ru": "Кольцо цвета крови"
+  },
+  {
+    "id": "131251",
+    "source_cn": "Blood-Sucking Badge",
+    "ref_en": "Blood-Sucking Badge",
+    "target_ru": "Эмблема Вампиризма"
+  },
+  {
+    "id": "131252",
+    "source_cn": "Bulwark Badge",
+    "ref_en": "Bulwark Badge",
+    "target_ru": "Эмблема Оплота"
+  },
+  {
+    "id": "131253",
+    "source_cn": "Bulwark Battle Helmet",
+    "ref_en": "Bulwark Battle Helmet",
+    "target_ru": "Боевой шлем Оплота"
+  },
+  {
+    "id": "131254",
+    "source_cn": "Cancel Use",
+    "ref_en": "Cancel Use",
+    "target_ru": "Отменить использование"
+  },
+  {
+    "id": "131255",
+    "source_cn": "Cannot gain interest<HighLight></>. Immediately gain 16 Gold Coins<HighLight></>, and thereafter gain 4 Experience Points at the start of each round<HighLight></><HighLight></>.",
+    "ref_en": "Cannot gain interest<HighLight></>. Immediately gain 16 Gold Coins<HighLight></>, and thereafter gain 4 Experience Points at the start of each round<HighLight></><HighLight></>.",
+    "target_ru": "Нельзя получать проценты<HighLight></>. Немедленно даёт 16 золотых монет<HighLight></>, после чего даёт 4 очка опыта в начале каждого раунда<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131256",
+    "source_cn": "Cannot gain interest<HighLight></>. Immediately gain 3 Gold Coins<HighLight></>, and gain 3 more Gold Coins at the start of the preparation phase after each duel round<HighLight></><HighLight></>.",
+    "ref_en": "Cannot gain interest<HighLight></>. Immediately gain 3 Gold Coins<HighLight></>, and gain 3 more Gold Coins at the start of the preparation phase after each duel round<HighLight></><HighLight></>.",
+    "target_ru": "Нельзя получать проценты<HighLight></>. Немедленно даёт 3 золотые монеты<HighLight></>, а также ещё 3 золотые монеты в начале фазы подготовки после каждого раунда поединка<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131257",
+    "source_cn": "Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 16% Damage Amplification </>.",
+    "ref_en": "Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 16% Damage Amplification </>.",
+    "target_ru": "Фигуры в последних двух рядах начинают бой с <HighLight> 80% от текущего здоровья </> и получают <HighLight> 16% увеличения урона </>."
+  },
+  {
+    "id": "131258",
+    "source_cn": "Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 25% Damage Amplification </>.",
+    "ref_en": "Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 25% Damage Amplification </>.",
+    "target_ru": "Фигуры в последних двух рядах начинают бой с <HighLight> 80% от текущего здоровья </> и получают <HighLight> 25% увеличения урона </>."
+  },
+  {
+    "id": "131259",
+    "source_cn": "Coincidence",
+    "ref_en": "Coincidence",
+    "target_ru": "Совпадение"
+  },
+  {
+    "id": "131260",
+    "source_cn": "Combat Workshop",
+    "ref_en": "Combat Workshop",
+    "target_ru": "Боевая мастерская"
+  },
+  {
+    "id": "131261",
+    "source_cn": "Contract of Gains and Losses",
+    "ref_en": "Contract of Gains and Losses",
+    "target_ru": "Контракт прибылей и убытков"
+  },
+  {
+    "id": "131262",
+    "source_cn": "Covenant Proof",
+    "ref_en": "Covenant Proof",
+    "target_ru": "Доказательство завета"
+  },
+  {
+    "id": "131263",
+    "source_cn": "Crafted Blade",
+    "ref_en": "Crafted Blade",
+    "target_ru": "Искусный клинок"
+  },
+  {
+    "id": "131264",
+    "source_cn": "Crimson Believer Badge",
+    "ref_en": "Crimson Believer Badge",
+    "target_ru": "Эмблема Багровых верующих"
+  },
+  {
+    "id": "131265",
+    "source_cn": "Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>10%</>.",
+    "ref_en": "Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>10%</>.",
+    "target_ru": "Урон по целям со здоровьем выше <HighLight>50%</> увеличивается на <HighLight>10%</>."
+  },
+  {
+    "id": "131266",
+    "source_cn": "Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>15%</>.",
+    "ref_en": "Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>15%</>.",
+    "target_ru": "Урон по целям со здоровьем выше <HighLight>50%</> увеличивается на <HighLight>15%</>."
+  },
+  {
+    "id": "131267",
+    "source_cn": "Deals an additional <HighLight>25%</> Attack damage.",
+    "ref_en": "Deals an additional <HighLight>25%</> Attack damage.",
+    "target_ru": "Дополнительно наносит <HighLight>25%</> урона от атаки."
+  },
+  {
+    "id": "131268",
+    "source_cn": "Deals an additional <HighLight>40%</> Attack damage.",
+    "ref_en": "Deals an additional <HighLight>40%</> Attack damage.",
+    "target_ru": "Дополнительно наносит <HighLight>40%</> урона от атаки."
+  },
+  {
+    "id": "131269",
+    "source_cn": "Defeat Compensation",
+    "ref_en": "Defeat Compensation",
+    "target_ru": "Компенсация за поражение"
+  },
+  {
+    "id": "131270",
+    "source_cn": "Descendant Impact",
+    "ref_en": "Descendant Impact",
+    "target_ru": "Удар потомка"
+  },
+  {
+    "id": "131271",
+    "source_cn": "Divinity Burst",
+    "ref_en": "Divinity Burst",
+    "target_ru": "Всплеск божественности"
+  },
+  {
+    "id": "131272",
+    "source_cn": "Each enemy death: +<HighLight>15</> Max Health.",
+    "ref_en": "Each enemy death: +<HighLight>15</> Max Health.",
+    "target_ru": "За каждого погибшего врага: +<HighLight>15</> ед. к макс. здоровью."
+  },
+  {
+    "id": "131273",
+    "source_cn": "Each time you level up<HighLight></>, restore 2 Player Health<HighLight></>, and gain 1 free refresh<HighLight></> and Gold Coins equal to your Player level<HighLight></>.",
+    "ref_en": "Each time you level up<HighLight></>, restore 2 Player Health<HighLight></>, and gain 1 free refresh<HighLight></> and Gold Coins equal to your Player level<HighLight></>.",
+    "target_ru": "При каждом повышении уровня<HighLight></> восстанавливает 2 ед. здоровья игрока<HighLight></>, даёт 1 бесплатное обновление<HighLight></> и золотые монеты в количестве, равном уровню игрока<HighLight></>."
+  },
+  {
+    "id": "131274",
+    "source_cn": "Each time you refresh the shop, there is a 45% probability<HighLight></> to gain 1 free refresh<HighLight></>.",
+    "ref_en": "Each time you refresh the shop, there is a 45% probability<HighLight></> to gain 1 free refresh<HighLight></>.",
+    "target_ru": "При каждом обновлении магазина есть 45% шанс<HighLight></> получить 1 бесплатное обновление<HighLight></>."
+  },
+  {
+    "id": "131275",
+    "source_cn": "Each unique <HighLight>3</>-star piece strengthens all allies. At high tiers, gain <HighLight>1</> random wild monster piece after each player combat.",
+    "ref_en": "Each unique <HighLight>3</>-star piece strengthens all allies. At high tiers, gain <HighLight>1</> random wild monster piece after each player combat.",
+    "target_ru": "Каждая уникальная <HighLight>3</>-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком."
+  },
+  {
+    "id": "131276",
+    "source_cn": "Enter the Chess Game",
+    "ref_en": "Enter the Chess Game",
+    "target_ru": "Войти в шахматную партию"
+  },
+  {
+    "id": "131277",
+    "source_cn": "Equipment Advancement",
+    "ref_en": "Equipment Advancement",
+    "target_ru": "Улучшение снаряжения"
+  },
+  {
+    "id": "131278",
+    "source_cn": "Equipment Extraction",
+    "ref_en": "Equipment Extraction",
+    "target_ru": "Извлечение снаряжения"
+  },
+  {
+    "id": "131279",
+    "source_cn": "Ever-Solid Wall",
+    "ref_en": "Ever-Solid Wall",
+    "target_ru": "Нерушимая стена"
+  },
+  {
+    "id": "131280",
+    "source_cn": "Evernight Goddess Church Badge",
+    "ref_en": "Evernight Goddess Church Badge",
+    "target_ru": "Эмблема Церкви Богини Вечной Ночи"
+  },
+  {
+    "id": "131281",
+    "source_cn": "Every <HighLight>3</> seconds, strengthen the next basic attack to deal an additional <HighLight>75%</> of Attack as damage.",
+    "ref_en": "Every <HighLight>3</> seconds, strengthen the next basic attack to deal an additional <HighLight>75%</> of Attack as damage.",
+    "target_ru": "Каждые <HighLight>3</> сек. усиливает следующую базовую атаку, нанося дополнительно <HighLight>75%</> урона от атаки."
+  },
+  {
+    "id": "131282",
+    "source_cn": "Exclusive Order",
+    "ref_en": "Exclusive Order",
+    "target_ru": "Эксклюзивный заказ"
+  },
+  {
+    "id": "131283",
+    "source_cn": "Extraordinary Companion",
+    "ref_en": "Extraordinary Companion",
+    "target_ru": "Потусторонний спутник"
+  },
+  {
+    "id": "131284",
+    "source_cn": "Extraordinary World Badge",
+    "ref_en": "Extraordinary World Badge",
+    "target_ru": "Эмблема Потустороннего мира"
+  },
+  {
+    "id": "131285",
+    "source_cn": "Extraordinary World Journey",
+    "ref_en": "Extraordinary World Journey",
+    "target_ru": "Путешествие по Потустороннему миру"
+  },
+  {
+    "id": "131286",
+    "source_cn": "Fate Gamble",
+    "ref_en": "Fate Gamble",
+    "target_ru": "Азарт судьбы"
+  },
+  {
+    "id": "131287",
+    "source_cn": "Fate Rotation",
+    "ref_en": "Fate Rotation",
+    "target_ru": "Вращение судьбы"
+  },
+  {
+    "id": "131288",
+    "source_cn": "Fate Shuffle Cards",
+    "ref_en": "Fate Shuffle Cards",
+    "target_ru": "Перетасовка карт судьбы"
+  },
+  {
+    "id": "131289",
+    "source_cn": "Fate Ticket",
+    "ref_en": "Fate Ticket",
+    "target_ru": "Билет судьбы"
+  },
+  {
+    "id": "131290",
+    "source_cn": "Fervent Heart Key",
+    "ref_en": "Fervent Heart Key",
+    "target_ru": "Ключ пылкого сердца"
+  },
+  {
+    "id": "131291",
+    "source_cn": "Fine Machinery",
+    "ref_en": "Fine Machinery",
+    "target_ru": "Точная механика"
+  },
+  {
+    "id": "131292",
+    "source_cn": "Finish Count",
+    "ref_en": "Finish Count",
+    "target_ru": "Финальный счет"
+  },
+  {
+    "id": "131293",
+    "source_cn": "For every <HighLight>1 3-star piece</> you possess, the entire team gains <HighLight>5% damage amplification</>, up to a maximum of <HighLight>15%</>.",
+    "ref_en": "For every <HighLight>1 3-star piece</> you possess, the entire team gains <HighLight>5% damage amplification</>, up to a maximum of <HighLight>15%</>.",
+    "target_ru": "За каждую имеющуюся у вас <HighLight>3-звёздочную фигуру (1)</> вся команда получает <HighLight>5% увеличения урона</>, максимум до <HighLight>15%</>."
+  },
+  {
+    "id": "131294",
+    "source_cn": "For every <HighLight>1</> Resonance activated, all allies +<HighLight>0.3%</> Attack, up to <HighLight>10</> Resonances.",
+    "ref_en": "For every <HighLight>1</> Resonance activated, all allies +<HighLight>0.3%</> Attack, up to <HighLight>10</> Resonances.",
+    "target_ru": "За каждый активированный резонанс (<HighLight>1</>) все союзники получают +<HighLight>0.3%</> к атаке, максимум до <HighLight>10</> резонансов."
+  },
+  {
+    "id": "131295",
+    "source_cn": "For every <HighLight>1</> Resonance activated, all allies gain additional Attack, up to <HighLight>10</> Resonances.",
+    "ref_en": "For every <HighLight>1</> Resonance activated, all allies gain additional Attack, up to <HighLight>10</> Resonances.",
+    "target_ru": "За каждый активированный резонанс (<HighLight>1</>) все союзники получают дополнительную атаку, максимум до <HighLight>10</> резонансов."
+  },
+  {
+    "id": "131296",
+    "source_cn": "For every enemy within <HighLight>2</> tiles of this piece, its Defense increases by <HighLight>8</> points, stacking up to <HighLight>4</> times.",
+    "ref_en": "For every enemy within <HighLight>2</> tiles of this piece, its Defense increases by <HighLight>8</> points, stacking up to <HighLight>4</> times.",
+    "target_ru": "За каждого врага в пределах <HighLight>2</> клеток от этой фигуры её защита увеличивается на <HighLight>8</> ед., максимум <HighLight>4</> ур."
+  },
+  {
+    "id": "131297",
+    "source_cn": "For every enemy within <HighLight>2</> tiles, Defense is increased by <HighLight>12</>, stacking up to <HighLight>4</> times.",
+    "ref_en": "For every enemy within <HighLight>2</> tiles, Defense is increased by <HighLight>12</>, stacking up to <HighLight>4</> times.",
+    "target_ru": "За каждого врага в пределах <HighLight>2</> клеток защита увеличивается на <HighLight>12</> ед., максимум <HighLight>4</> ур."
+  },
+  {
+    "id": "131298",
+    "source_cn": "Forsaken Land of the Gods Badge",
+    "ref_en": "Forsaken Land of the Gods Badge",
+    "target_ru": "Эмблема Земель, отвергнутых Богами"
+  },
+  {
+    "id": "131299",
+    "source_cn": "Frenzied Procurement",
+    "ref_en": "Frenzied Procurement",
+    "target_ru": "Неистовая закупка"
+  },
+  {
+    "id": "131300",
+    "source_cn": "Gain 1 Arcane Badge<HighLight></>. After activating Arcane, when each Arcane piece performs their 4th cast in each battle<HighLight></>, restore 8 mana to the entire team<HighLight></>.",
+    "ref_en": "Gain 1 Arcane Badge<HighLight></>. After activating Arcane, when each Arcane piece performs their 4th cast in each battle<HighLight></>, restore 8 mana to the entire team<HighLight></>.",
+    "target_ru": "Даёт 1 эмблему Тайной магии<HighLight></>. После активации Тайной магии при 4-м применении навыка фигурой Тайной магии в каждом бою<HighLight></> восстанавливает 8 ед. маны всей команде<HighLight></>."
+  },
+  {
+    "id": "131301",
+    "source_cn": "Gain 1 Bulwark Badge<HighLight></>. After activating Bulwark, when each Bulwark piece's Health first drops below 40%<HighLight></>, clear own control effects<HighLight></> and restore 15% of maximum Health<HighLight></>.",
+    "ref_en": "Gain 1 Bulwark Badge<HighLight></>. After activating Bulwark, when each Bulwark piece's Health first drops below 40%<HighLight></>, clear own control effects<HighLight></> and restore 15% of maximum Health<HighLight></>.",
+    "target_ru": "Даёт 1 эмблему Оплота<HighLight></>. После активации Оплота, когда здоровье фигуры Оплота впервые падает ниже 40%<HighLight></>, снимает эффекты контроля<HighLight></> и восстанавливает 15% от максимального здоровья<HighLight></>."
+  },
+  {
+    "id": "131302",
+    "source_cn": "Gain 1 Charm Succubus<HighLight></>. Her skill is strengthened to: Perform a Continuous Attack on the target 7 times<HighLight></>. After casting, restore 5% of maximum Health to 1 other ally with the lowest Health percentage on the field<HighLight></>.",
+    "ref_en": "Gain 1 Charm Succubus<HighLight></>. Her skill is strengthened to: Perform a Continuous Attack on the target 7 times<HighLight></>. After casting, restore 5% of maximum Health to 1 other ally with the lowest Health percentage on the field<HighLight></>.",
+    "target_ru": "Даёт 1 Чарующую суккуб<HighLight></>. Навык усилен: совершает непрерывную атаку по цели 7 раз<HighLight></>. После применения восстанавливает 5% от макс. здоровья 1 другому союзнику с наименьшим % здоровья на поле<HighLight></>."
+  },
+  {
+    "id": "131303",
+    "source_cn": "Gain 1 Clown<HighLight></>. His skill is strengthened to: Throw 2 Doom Cards that can penetrate enemies, then briefly increase Attack Speed and Attack<HighLight></>.",
+    "ref_en": "Gain 1 Clown<HighLight></>. His skill is strengthened to: Throw 2 Doom Cards that can penetrate enemies, then briefly increase Attack Speed and Attack<HighLight></>.",
+    "target_ru": "Даёт 1 Клоуна<HighLight></>. Навык усилен: бросает 2 карты рока, пронзающие врагов, затем ненадолго повышает скорость атаки и атаку<HighLight></>."
+  },
+  {
+    "id": "131304",
+    "source_cn": "Gain 1 Derrick Berg<HighLight></>. His skill is strengthened to: First gain a Shield, then deal damage to surrounding enemies and perform Healing on allies<HighLight></>.",
+    "ref_en": "Gain 1 Derrick Berg<HighLight></>. His skill is strengthened to: First gain a Shield, then deal damage to surrounding enemies and perform Healing on allies<HighLight></>.",
+    "target_ru": "Даёт 1 Дэйрика Берга<HighLight></>. Навык усилен: сначала получает щит, затем наносит урон окружающим врагам и исцеляет союзников<HighLight></>."
+  },
+  {
+    "id": "131305",
+    "source_cn": "Gain 1 Frank Lee<HighLight></>. His skill is strengthened to: Detonate mushrooms where enemies are dense, leaving behind mycelium that continuously deals damage and reduces enemy Attack Speed and movement speed<HighLight></>.",
+    "ref_en": "Gain 1 Frank Lee<HighLight></>. His skill is strengthened to: Detonate mushrooms where enemies are dense, leaving behind mycelium that continuously deals damage and reduces enemy Attack Speed and movement speed<HighLight></>.",
+    "target_ru": "Даёт 1 Фрэнка Ли<HighLight></>. Навык усилен: взрывает грибы в скоплении врагов, оставляя мицелий, который непрерывно наносит урон и замедляет атаку и передвижение врагов<HighLight></>."
+  },
+  {
+    "id": "131306",
+    "source_cn": "Gain 1 Iron and Blood Badge<HighLight></>. After activating Iron and Blood, when each Iron and Blood piece's Health first drops below 50%<HighLight></>, gain a shield equal to 15% of maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>.",
+    "ref_en": "Gain 1 Iron and Blood Badge<HighLight></>. After activating Iron and Blood, when each Iron and Blood piece's Health first drops below 50%<HighLight></>, gain a shield equal to 15% of maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>.",
+    "target_ru": "Даёт 1 эмблему Железа и Крови<HighLight></>. После активации Железа и Крови, когда здоровье фигуры впервые падает ниже 50%<HighLight></>, даёт щит в 15% от макс. здоровья<HighLight></> на 5 сек.<HighLight></>"
+  },
+  {
+    "id": "131307",
+    "source_cn": "Gain 1 Low-Level Piece Recorder<HighLight></>, and gain 1 more after 5 duel rounds<HighLight></><HighLight></>.",
+    "ref_en": "Gain 1 Low-Level Piece Recorder<HighLight></>, and gain 1 more after 5 duel rounds<HighLight></><HighLight></>.",
+    "target_ru": "Даёт 1 Регистратор фигур низкого уровня<HighLight></>, а также ещё 1 через 5 раундов поединка<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131308",
+    "source_cn": "Gain 1 Maid<HighLight></>. Her skill is strengthened to: Continuous Slash, and after attacking, gain a short-term shield based on maximum Health<HighLight></>.",
+    "ref_en": "Gain 1 Maid<HighLight></>. Her skill is strengthened to: Continuous Slash, and after attacking, gain a short-term shield based on maximum Health<HighLight></>.",
+    "target_ru": "Даёт 1 Служанку<HighLight></>. Навык усилен: совершает непрерывные рубящие удары, а после атаки получает кратковременный щит от макс. здоровья<HighLight></>."
+  },
+  {
+    "id": "131309",
+    "source_cn": "Gain 1 Misfortune Water Giant Turtle<HighLight></>. Skill Strengthening: Bite the target to deal 333% Attack damage<HighLight></>, and provide all your pieces with a shield equal to 15% of their respective maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>.",
+    "ref_en": "Gain 1 Misfortune Water Giant Turtle<HighLight></>. Skill Strengthening: Bite the target to deal 333% Attack damage<HighLight></>, and provide all your pieces with a shield equal to 15% of their respective maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>.",
+    "target_ru": "Даёт 1 Водяную исполинскую черепаху бедствий<HighLight></>. Усиление навыка: кусает цель, нанося 333% урона от атаки<HighLight></>, и даёт всем фигурам щит в 15% от их макс. здоровья<HighLight></> на 5 сек.<HighLight></>"
+  },
+  {
+    "id": "131310",
+    "source_cn": "Gain 1 Ray Bieber<HighLight></>. His skill is strengthened to: Dash towards the target and launch a range Impact, dealing higher damage to the main target while Stunning surrounding enemies<HighLight></>.",
+    "ref_en": "Gain 1 Ray Bieber<HighLight></>. His skill is strengthened to: Dash towards the target and launch a range Impact, dealing higher damage to the main target while Stunning surrounding enemies<HighLight></>.",
+    "target_ru": "Даёт 1 Рея Бибера<HighLight></>. Навык усилен: делает рывок к цели и наносит удар по площади, причиняя повышенный урон главной цели и оглушая врагов вокруг<HighLight></>."
+  },
+  {
+    "id": "131311",
+    "source_cn": "Gain 1 Spell Badge<HighLight></>. After activating Spell, each Spell piece returns 20 mana upon their first cast in each battle<HighLight></><HighLight></>.",
+    "ref_en": "Gain 1 Spell Badge<HighLight></>. After activating Spell, each Spell piece returns 20 mana upon their first cast in each battle<HighLight></><HighLight></>.",
+    "target_ru": "Даёт 1 эмблему Заклятия<HighLight></>. После активации Заклятия каждая фигура Заклятия восстанавливает 20 ед. маны при первом применении навыка в каждом бою<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131312",
+    "source_cn": "Gain 1 Viscountess<HighLight></>. Skill Strengthening: Execution-style Attack deals higher damage to low-Health targets and leaves behind an area that continuously deals damage and reduces enemy Attack Speed and movement speed<HighLight></>.",
+    "ref_en": "Gain 1 Viscountess<HighLight></>. Skill Strengthening: Execution-style Attack deals higher damage to low-Health targets and leaves behind an area that continuously deals damage and reduces enemy Attack Speed and movement speed<HighLight></>.",
+    "target_ru": "Даёт 1 Виконтессу<HighLight></>. Усиление навыка: добивающая атака наносит повышенный урон раненым целям и оставляет зону, наносящую урон и замедляющую скорость атаки и бега врагов<HighLight></>."
+  },
+  {
+    "id": "131313",
+    "source_cn": "Gain 2 1-star Astrolabe Users<HighLight></>. Skill Strengthening: Pull enemies in a dense area, dealing area damage and applying Stun<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>.",
+    "ref_en": "Gain 2 1-star Astrolabe Users<HighLight></>. Skill Strengthening: Pull enemies in a dense area, dealing area damage and applying Stun<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>.",
+    "target_ru": "Даёт 2 1-звёздочных Астрологов<HighLight></>. Усиление навыка: притягивает скопление врагов, нанося урон по площади и оглушая их<HighLight></>. Через 5 раундов поединка<HighLight></> даёт 2 Регистратора фигур низкого уровня<HighLight></>."
+  },
+  {
+    "id": "131314",
+    "source_cn": "Gain 2 1-star Giant Wolves<HighLight></>. Their skill is strengthened to: Pursuit the enemy with the lowest Health, and restore own Health upon hitting<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 more Low-Level Piece Recorders<HighLight></>.",
+    "ref_en": "Gain 2 1-star Giant Wolves<HighLight></>. Their skill is strengthened to: Pursuit the enemy with the lowest Health, and restore own Health upon hitting<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 more Low-Level Piece Recorders<HighLight></>.",
+    "target_ru": "Даёт 2 1-звёздочных Исполинских волков<HighLight></>. Навык усилен: преследует врага с наименьшим здоровьем и восстанавливает здоровье при ударе<HighLight></>. Через 5 раундов поединка<HighLight></> даёт 2 Регистратора фигур низкого уровня<HighLight></>."
+  },
+  {
+    "id": "131315",
+    "source_cn": "Gain 2 1-star Great Sword Knights. Skill Strengthening: Continuous Attack, during which they are immune to control and gain Damage Reduction, restoring Health upon completion<HighLight></>. After 5 duel rounds, gain 2 Low-Level Piece Recorders.",
+    "ref_en": "Gain 2 1-star Great Sword Knights. Skill Strengthening: Continuous Attack, during which they are immune to control and gain Damage Reduction, restoring Health upon completion<HighLight></>. After 5 duel rounds, gain 2 Low-Level Piece Recorders.",
+    "target_ru": "Даёт 2 1-звёздочных Рыцарей с двуручным мечом. Усиление: непрерывная атака с невосприимчивостью к контролю, снижением урона и исцелением при завершении<HighLight></>. Через 5 раундов поединка даёт 2 Регистратора фигур низкого уровня."
+  },
+  {
+    "id": "131316",
+    "source_cn": "Gain 2 Low-Level Piece Recorders<HighLight></> and 3/7/12 Gold Coins.",
+    "ref_en": "Gain 2 Low-Level Piece Recorders<HighLight></> and 3/7/12 Gold Coins.",
+    "target_ru": "Даёт 2 Регистратора фигур низкого уровня<HighLight></> и 3/7/12 золотых монет."
+  },
+  {
+    "id": "131317",
+    "source_cn": "Gain 2/6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>.",
+    "ref_en": "Gain 2/6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>.",
+    "target_ru": "Даёт 2/6 золотых монет<HighLight></>. Даёт 1 бесплатное обновление каждый раунд<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131318",
+    "source_cn": "Gain 22/30 Gold Coins<HighLight></>, and the interest cap is increased to 10 Gold Coins<HighLight></>.",
+    "ref_en": "Gain 22/30 Gold Coins<HighLight></>, and the interest cap is increased to 10 Gold Coins<HighLight></>.",
+    "target_ru": "Даёт 22/30 золотых монет<HighLight></>, а лимит процентов увеличивается до 10 золотых монет<HighLight></>."
+  },
+  {
+    "id": "131319",
+    "source_cn": "Gain 3 random <HighLight> 3-cost chess pieces </> and 3 Gold Coins. The entire team gains 5% Attack Speed, and 3-cost chess pieces additionally gain <HighLight> 300 maximum Health </> and <HighLight> 25% Attack Speed </>.",
+    "ref_en": "Gain 3 random <HighLight> 3-cost chess pieces </> and 3 Gold Coins. The entire team gains 5% Attack Speed, and 3-cost chess pieces additionally gain <HighLight> 300 maximum Health </> and <HighLight> 25% Attack Speed </>.",
+    "target_ru": "Даёт 3 случайные <HighLight> фигуры за 3 золотых </> и 3 золотые монеты. Команда получает 5% скорости атаки, а фигуры за 3 золотых дополнительно получают <HighLight> 300 макс. здоровья </> и <HighLight> 25% скорости атаки </>."
+  },
+  {
+    "id": "131320",
+    "source_cn": "Gain 4 Gold Coins<HighLight></>. For the next 2 rounds<HighLight></>, gain 2 Gold Coins for every 1 enemy piece killed<HighLight></><HighLight></>.",
+    "ref_en": "Gain 4 Gold Coins<HighLight></>. For the next 2 rounds<HighLight></>, gain 2 Gold Coins for every 1 enemy piece killed<HighLight></><HighLight></>.",
+    "target_ru": "Даёт 4 золотые монеты<HighLight></>. В течение следующих 2 раундов<HighLight></> даёт 2 золотые монеты за каждую уничтоженную вражескую фигуру<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131321",
+    "source_cn": "Gain 8/12 Gold Coins<HighLight></> and 1/3 Experience Points<HighLight></>.",
+    "ref_en": "Gain 8/12 Gold Coins<HighLight></> and 1/3 Experience Points<HighLight></>.",
+    "target_ru": "Даёт 8/12 золотых монет<HighLight></> и 1/3 очков опыта<HighLight></>."
+  },
+  {
+    "id": "131322",
+    "source_cn": "Gain <HighLight> 10 Experience Points </>.",
+    "ref_en": "Gain <HighLight> 10 Experience Points </>.",
+    "target_ru": "Даёт <HighLight> 10 очков опыта </>."
+  },
+  {
+    "id": "131323",
+    "source_cn": "Gain <HighLight> 10 free refreshes </>. Upon reaching <HighLight> level 9 </>, gain another <HighLight> 2 free refreshes </> and <HighLight> one Advanced Chess Piece Recorder </>.",
+    "ref_en": "Gain <HighLight> 10 free refreshes </>. Upon reaching <HighLight> level 9 </>, gain another <HighLight> 2 free refreshes </> and <HighLight> one Advanced Chess Piece Recorder </>.",
+    "target_ru": "Даёт <HighLight> 10 бесплатных обновлений </>. При достижении <HighLight> 9-го уровня </> даёт ещё <HighLight> 2 бесплатных обновления </> и <HighLight> один продвинутый регистратор фигур </>."
+  },
+  {
+    "id": "131324",
+    "source_cn": "Gain <HighLight> 18 free refreshes </>.",
+    "ref_en": "Gain <HighLight> 18 free refreshes </>.",
+    "target_ru": "Даёт <HighLight> 18 бесплатных обновлений </>."
+  },
+  {
+    "id": "131325",
+    "source_cn": "Gain <HighLight> Misfortune Water Giant Turtle </>, <HighLight> Giant Wolf </>, and <HighLight> Charm Succubus </>.",
+    "ref_en": "Gain <HighLight> Misfortune Water Giant Turtle </>, <HighLight> Giant Wolf </>, and <HighLight> Charm Succubus </>.",
+    "target_ru": "Даёт <HighLight> Водяную исполинскую черепаху бедствий </>, <HighLight> Исполинского волка </> и <HighLight> Чарующую суккуб </>."
+  },
+  {
+    "id": "131326",
+    "source_cn": "Gain <HighLight> one Advanced Chess Piece Recorder </>, and after <HighLight> 5 match rounds </>, gain another <HighLight> one </>.",
+    "ref_en": "Gain <HighLight> one Advanced Chess Piece Recorder </>, and after <HighLight> 5 match rounds </>, gain another <HighLight> one </>.",
+    "target_ru": "Даёт <HighLight> один продвинутый регистратор фигур </>, а через <HighLight> 5 раундов поединка </> даёт ещё <HighLight> один </>."
+  },
+  {
+    "id": "131327",
+    "source_cn": "Gain <HighLight> one Fine Equipment Casket </>.",
+    "ref_en": "Gain <HighLight> one Fine Equipment Casket </>.",
+    "target_ru": "Даёт <HighLight> один ларец с отличным снаряжением </>."
+  },
+  {
+    "id": "131328",
+    "source_cn": "Gain <HighLight> one Rare Equipment Casket </> and 2 Gold Coins.",
+    "ref_en": "Gain <HighLight> one Rare Equipment Casket </> and 2 Gold Coins.",
+    "target_ru": "Даёт <HighLight> один ларец с редким снаряжением </> и 2 золотые монеты."
+  },
+  {
+    "id": "131329",
+    "source_cn": "Gain <HighLight> one Resonance Badge Selection Box </>.",
+    "ref_en": "Gain <HighLight> one Resonance Badge Selection Box </>.",
+    "target_ru": "Даёт <HighLight> один ларец с эмблемой резонанса на выбор </>."
+  },
+  {
+    "id": "131330",
+    "source_cn": "Gain <HighLight> one Sealed Equipment Casket </>, and randomly gain <HighLight> one 5-cost chess piece </>.",
+    "ref_en": "Gain <HighLight> one Sealed Equipment Casket </>, and randomly gain <HighLight> one 5-cost chess piece </>.",
+    "target_ru": "Даёт <HighLight> один запечатанный ларец снаряжения </>, и случайным образом даёт <HighLight> одну фигуру за 5 золотых </>."
+  },
+  {
+    "id": "131331",
+    "source_cn": "Gain <HighLight> one Sealed Equipment Casket </>.",
+    "ref_en": "Gain <HighLight> one Sealed Equipment Casket </>.",
+    "target_ru": "Даёт <HighLight> один запечатанный ларец снаряжения </>."
+  },
+  {
+    "id": "131332",
+    "source_cn": "Gain <HighLight> one Swain </>. At the start of combat, Bulwark chess pieces gain a Shield equal to <HighLight> 12% of their maximum Health </>; when <HighLight> 4 Bulwarks </> are on the board, this increases to <HighLight> 20% </>, lasting for <HighLight> 8 seconds </>.",
+    "ref_en": "Gain <HighLight> one Swain </>. At the start of combat, Bulwark chess pieces gain a Shield equal to <HighLight> 12% of their maximum Health </>; when <HighLight> 4 Bulwarks </> are on the board, this increases to <HighLight> 20% </>, lasting for <HighLight> 8 seconds </>.",
+    "target_ru": "Даёт <HighLight> одного Свейна </>. В начале боя фигуры Оплота получают щит в <HighLight> 12% от макс. здоровья </>; при наличии <HighLight> 4 Оплотов </> бонус возрастает до <HighLight> 20% </> на <HighLight> 8 секунд </>."
+  },
+  {
+    "id": "131333",
+    "source_cn": "Gain <HighLight> one Sword Knight </>. In each battle, when the <HighLight> first enemy falls </>, all Blood Blades restore <HighLight> 12% of their maximum Health </>.",
+    "ref_en": "Gain <HighLight> one Sword Knight </>. In each battle, when the <HighLight> first enemy falls </>, all Blood Blades restore <HighLight> 12% of their maximum Health </>.",
+    "target_ru": "Даёт <HighLight> одного Рыцаря меча </>. В каждом бою, когда погибает <HighLight> первый враг </>, все Кровавые клинки восстанавливают <HighLight> 12% от макс. здоровья </>."
+  },
+  {
+    "id": "131334",
+    "source_cn": "Gain <HighLight> one random 2-cost chess piece </>. Thereafter, <HighLight> each time you level up </>, gain another <HighLight> one of the same chess piece </>.",
+    "ref_en": "Gain <HighLight> one random 2-cost chess piece </>. Thereafter, <HighLight> each time you level up </>, gain another <HighLight> one of the same chess piece </>.",
+    "target_ru": "Даёт <HighLight> одну случайную фигуру за 2 золотых </>. В дальнейшем <HighLight> при каждом повышении уровня </> даёт ещё <HighLight> одну такую же фигуру </>."
+  },
+  {
+    "id": "131335",
+    "source_cn": "Gain <HighLight> one random 2-star 2-cost chess piece </> and <HighLight> two random 2-star 1-cost chess pieces </>.",
+    "ref_en": "Gain <HighLight> one random 2-star 2-cost chess piece </> and <HighLight> two random 2-star 1-cost chess pieces </>.",
+    "target_ru": "Даёт <HighLight> одну 2-звёздочную фигуру за 2 золотых </> и <HighLight> две 2-звёздочные фигуры за 1 золотой </>."
+  },
+  {
+    "id": "131336",
+    "source_cn": "Gain <HighLight> one random basic equipment </>, <HighLight> 2 Gold Coins </>, and <HighLight> one random 5-cost chess piece </>.",
+    "ref_en": "Gain <HighLight> one random basic equipment </>, <HighLight> 2 Gold Coins </>, and <HighLight> one random 5-cost chess piece </>.",
+    "target_ru": "Даёт <HighLight> одно случайное базовое снаряжение </>, <HighLight> 2 золотые монеты </> и <HighLight> одну случайную фигуру за 5 золотых </>."
+  },
+  {
+    "id": "131337",
+    "source_cn": "Gain <HighLight> two Sealed Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 2 Gold Coins </>.",
+    "ref_en": "Gain <HighLight> two Sealed Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 2 Gold Coins </>.",
+    "target_ru": "Даёт <HighLight> два запечатанных ларца снаряжения </>, <HighLight> один перековщик снаряжения </> и <HighLight> 2 золотые монеты </>."
+  },
+  {
+    "id": "131338",
+    "source_cn": "Gain <HighLight> two random Resonance Badges </>, one Equipment Reforger, and 2 Gold Coins.",
+    "ref_en": "Gain <HighLight> two random Resonance Badges </>, one Equipment Reforger, and 2 Gold Coins.",
+    "target_ru": "Даёт <HighLight> две случайные эмблемы резонанса </>, один перековщик снаряжения и 2 золотые монеты."
+  },
+  {
+    "id": "131339",
+    "source_cn": "Gain <HighLight> two random basic equipment </>, one Equipment Reforger, and 2 Gold Coins.",
+    "ref_en": "Gain <HighLight> two random basic equipment </>, one Equipment Reforger, and 2 Gold Coins.",
+    "target_ru": "Даёт <HighLight> два случайных базовых снаряжения </>, один перековщик снаряжения и 2 золотые монеты."
+  },
+  {
+    "id": "131340",
+    "source_cn": "Gain <HighLight>13%</> Damage Reduction, +<HighLight>18%</> Attack Speed per stack.",
+    "ref_en": "Gain <HighLight>13%</> Damage Reduction, +<HighLight>18%</> Attack Speed per stack.",
+    "target_ru": "Даёт <HighLight>13%</> снижения урона, +<HighLight>18%</> к скорости атаки за уровень."
+  },
+  {
+    "id": "131341",
+    "source_cn": "Gain a gift pack containing 1 5-cost piece<HighLight></>, 1 2-star 1-cost piece<HighLight></>, and 7 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical gift pack each time<HighLight></>.",
+    "ref_en": "Gain a gift pack containing 1 5-cost piece<HighLight></>, 1 2-star 1-cost piece<HighLight></>, and 7 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical gift pack each time<HighLight></>.",
+    "target_ru": "Даёт подарочный набор: 1 фигура за 5 золотых<HighLight></>, 1 2-звёздочная фигура за 1 золотой<HighLight></> и 7 золотых монет<HighLight></>. В начале следующих 2 этапов<HighLight></> даёт по 1 такому же набору<HighLight></>."
+  },
+  {
+    "id": "131342",
+    "source_cn": "Gain an additional <HighLight> 2 Experience </> each match round. Your <HighLight> 5-cost chess pieces </> gain <HighLight> 12% maximum Health </> and <HighLight> 12% Attack Speed </>.",
+    "ref_en": "Gain an additional <HighLight> 2 Experience </> each match round. Your <HighLight> 5-cost chess pieces </> gain <HighLight> 12% maximum Health </> and <HighLight> 12% Attack Speed </>.",
+    "target_ru": "Даёт дополнительно <HighLight> 2 очка опыта </> каждый раунд поединка. Ваши <HighLight> фигуры за 5 золотых </> получают <HighLight> 12% к макс. здоровью </> и <HighLight> 12% к скорости атаки </>."
+  },
+  {
+    "id": "131343",
+    "source_cn": "Gain an additional <HighLight>20%</> Max Health.",
+    "ref_en": "Gain an additional <HighLight>20%</> Max Health.",
+    "target_ru": "Даёт дополнительно <HighLight>20%</> к максимальному здоровью."
+  },
+  {
+    "id": "131344",
+    "source_cn": "Gain an additional <HighLight>30</> Defense, increased by another <HighLight>10%</> for the first <HighLight>10</> seconds.",
+    "ref_en": "Gain an additional <HighLight>30</> Defense, increased by another <HighLight>10%</> for the first <HighLight>10</> seconds.",
+    "target_ru": "Даёт дополнительно <HighLight>30</> ед. защиты, увеличиваясь ещё на <HighLight>10%</> в первые <HighLight>10</> секунд."
+  },
+  {
+    "id": "131345",
+    "source_cn": "Gain an additional <HighLight>40%</> Max Health.",
+    "ref_en": "Gain an additional <HighLight>40%</> Max Health.",
+    "target_ru": "Даёт дополнительно <HighLight>40%</> к максимальному здоровью."
+  },
+  {
+    "id": "131346",
+    "source_cn": "Gain an additional <HighLight>55</> Defense, increased by another <HighLight>20%</> for the first <HighLight>10</> seconds.",
+    "ref_en": "Gain an additional <HighLight>55</> Defense, increased by another <HighLight>20%</> for the first <HighLight>10</> seconds.",
+    "target_ru": "Даёт дополнительно <HighLight>55</> ед. защиты, увеличиваясь ещё на <HighLight>20%</> в первые <HighLight>10</> секунд."
+  },
+  {
+    "id": "131347",
+    "source_cn": "Gain an additional <HighLight>65%</> Max Health.",
+    "ref_en": "Gain an additional <HighLight>65%</> Max Health.",
+    "target_ru": "Даёт дополнительно <HighLight>65%</> к максимальному здоровью."
+  },
+  {
+    "id": "131348",
+    "source_cn": "Gain an additional <HighLight>80</> Defense, increased by another <HighLight>30%</> for the first <HighLight>10</> seconds.",
+    "ref_en": "Gain an additional <HighLight>80</> Defense, increased by another <HighLight>30%</> for the first <HighLight>10</> seconds.",
+    "target_ru": "Даёт дополнительно <HighLight>80</> ед. защиты, увеличиваясь ещё на <HighLight>30%</> в первые <HighLight>10</> секунд."
+  },
+  {
+    "id": "131349",
+    "source_cn": "Gain one 2-star chess piece and 1 Gold Coin every time you level up. The cost tier of this chess piece is your level minus 4 (maximum: 5-cost).",
+    "ref_en": "Gain one 2-star chess piece and 1 Gold Coin every time you level up. The cost tier of this chess piece is your level minus 4 (maximum: 5-cost).",
+    "target_ru": "Даёт одну 2-звёздочную фигуру и 1 золотую монету при каждом повышении уровня. Стоимость фигуры равна вашему уровню минус 4 (максимум: 5 золотых)."
+  },
+  {
+    "id": "131350",
+    "source_cn": "Gain the [Arcane] Resonance. Other allies within <HighLight>1</> tile gain <HighLight>1</> Mana regeneration.",
+    "ref_en": "Gain the [Arcane] Resonance. Other allies within <HighLight>1</> tile gain <HighLight>1</> Mana regeneration.",
+    "target_ru": "Даёт резонанс [Тайная магия]. Другие союзники в пределах <HighLight>1</> клетки получают <HighLight>1</> ед. регенерации маны."
+  },
+  {
+    "id": "131351",
+    "source_cn": "Gain the [Bloodthirst] Resonance. When Health first drops below <HighLight>40%</>, Attack Speed is increased by <HighLight>15%</> for this round.",
+    "ref_en": "Gain the [Bloodthirst] Resonance. When Health first drops below <HighLight>40%</>, Attack Speed is increased by <HighLight>15%</> for this round.",
+    "target_ru": "Даёт резонанс [Кровожадность]. Когда здоровье впервые падает ниже <HighLight>40%</>, скорость атаки увеличивается на <HighLight>15%</> до конца раунда."
+  },
+  {
+    "id": "131352",
+    "source_cn": "Gain the [Bulwark] Resonance. At the start of combat, gain an additional <HighLight>25</> Defense, lasting for <HighLight>8</> seconds.",
+    "ref_en": "Gain the [Bulwark] Resonance. At the start of combat, gain an additional <HighLight>25</> Defense, lasting for <HighLight>8</> seconds.",
+    "target_ru": "Даёт резонанс [Оплот]. В начале боя даёт дополнительно <HighLight>25</> ед. защиты на <HighLight>8</> сек."
+  },
+  {
+    "id": "131353",
+    "source_cn": "Gain the [Crimson Believer] Resonance.",
+    "ref_en": "Gain the [Crimson Believer] Resonance.",
+    "target_ru": "Даёт резонанс [Багровые верующие]."
+  },
+  {
+    "id": "131354",
+    "source_cn": "Gain the [Demoness Sect] Resonance.",
+    "ref_en": "Gain the [Demoness Sect] Resonance.",
+    "target_ru": "Даёт резонанс [Секта Демониц]."
+  },
+  {
+    "id": "131355",
+    "source_cn": "Gain the [Evernight Goddess Church] Resonance.",
+    "ref_en": "Gain the [Evernight Goddess Church] Resonance.",
+    "target_ru": "Даёт резонанс [Церковь Богини Вечной Ночи]."
+  },
+  {
+    "id": "131356",
+    "source_cn": "Gain the [Extraordinary World] Resonance.",
+    "ref_en": "Gain the [Extraordinary World] Resonance.",
+    "target_ru": "Даёт резонанс [Потусторонний мир]."
+  },
+  {
+    "id": "131357",
+    "source_cn": "Gain the [Forsaken Land of the Gods] Resonance.",
+    "ref_en": "Gain the [Forsaken Land of the Gods] Resonance.",
+    "target_ru": "Даёт резонанс [Земли, отвергнутые Богами]."
+  },
+  {
+    "id": "131358",
+    "source_cn": "Gain the [May Manor] Resonance.",
+    "ref_en": "Gain the [May Manor] Resonance.",
+    "target_ru": "Даёт резонанс [Поместье Мэй]."
+  },
+  {
+    "id": "131359",
+    "source_cn": "Gain the [Sinful Tingen] Resonance.",
+    "ref_en": "Gain the [Sinful Tingen] Resonance.",
+    "target_ru": "Даёт резонанс [Грешный Тинген]."
+  },
+  {
+    "id": "131360",
+    "source_cn": "Gain the [Steam Age] Resonance.",
+    "ref_en": "Gain the [Steam Age] Resonance.",
+    "target_ru": "Даёт резонанс [Эпоха пара]."
+  },
+  {
+    "id": "131361",
+    "source_cn": "Gain the [Swift Hunt] Resonance. After each basic attack, Attack Speed is increased by <HighLight>5%</>, stacking up to <HighLight>5</> times.",
+    "ref_en": "Gain the [Swift Hunt] Resonance. After each basic attack, Attack Speed is increased by <HighLight>5%</>, stacking up to <HighLight>5</> times.",
+    "target_ru": "Даёт резонанс [Стремительная охота]. После каждой базовой атаки скорость атаки повышается на <HighLight>5%</>, максимум <HighLight>5</> уровней."
+  },
+  {
+    "id": "131362",
+    "source_cn": "Glimmer of Health",
+    "ref_en": "Glimmer of Health",
+    "target_ru": "Проблеск здоровья"
+  },
+  {
+    "id": "131363",
+    "source_cn": "Glow of Health",
+    "ref_en": "Glow of Health",
+    "target_ru": "Сияние здоровья"
+  },
+  {
+    "id": "131364",
+    "source_cn": "Gold Pound Contract",
+    "ref_en": "Gold Pound Contract",
+    "target_ru": "Контракт на золотые фунты"
+  },
+  {
+    "id": "131365",
+    "source_cn": "Gold Pound Drizzle",
+    "ref_en": "Gold Pound Drizzle",
+    "target_ru": "Дождь из золотых фунтов"
+  },
+  {
+    "id": "131366",
+    "source_cn": "Greatsword Glory",
+    "ref_en": "Greatsword Glory",
+    "target_ru": "Слава двуручного меча"
+  },
+  {
+    "id": "131367",
+    "source_cn": "Guard in Peril",
+    "ref_en": "Guard in Peril",
+    "target_ru": "Защита в опасности"
+  },
+  {
+    "id": "131368",
+    "source_cn": "Guard of the Lone Walker",
+    "ref_en": "Guard of the Lone Walker",
+    "target_ru": "Защита одинокого путника"
+  },
+  {
+    "id": "131369",
+    "source_cn": "Hand of Execution",
+    "ref_en": "Hand of Execution",
+    "target_ru": "Рука казни"
+  },
+  {
+    "id": "131370",
+    "source_cn": "Healer's Observation",
+    "ref_en": "Healer's Observation",
+    "target_ru": "Наблюдение целителя"
+  },
+  {
+    "id": "131371",
+    "source_cn": "Health Tide",
+    "ref_en": "Health Tide",
+    "target_ru": "Прилив здоровья"
+  },
+  {
+    "id": "131372",
+    "source_cn": "Hidden Cloak",
+    "ref_en": "Hidden Cloak",
+    "target_ru": "Маскировочный плащ"
+  },
+  {
+    "id": "131373",
+    "source_cn": "Hunt Feedback",
+    "ref_en": "Hunt Feedback",
+    "target_ru": "Отклик охоты"
+  },
+  {
+    "id": "131374",
+    "source_cn": "I Am the Sun",
+    "ref_en": "I Am the Sun",
+    "target_ru": "Я — Солнце"
+  },
+  {
+    "id": "131375",
+    "source_cn": "Immediately gain 1 of each 1-cost piece<HighLight></>.",
+    "ref_en": "Immediately gain 1 of each 1-cost piece<HighLight></>.",
+    "target_ru": "Немедленно даёт по 1 штуке каждой фигуры за 1 золотой<HighLight></>."
+  },
+  {
+    "id": "131376",
+    "source_cn": "Immediately gain 10 Experience Points<HighLight></>. Upon reaching level 9<HighLight></>, gain 10 Gold Coins<HighLight></> and 8 free refreshes<HighLight></>.",
+    "ref_en": "Immediately gain 10 Experience Points<HighLight></>. Upon reaching level 9<HighLight></>, gain 10 Gold Coins<HighLight></> and 8 free refreshes<HighLight></>.",
+    "target_ru": "Немедленно даёт 10 очков опыта<HighLight></>. При достижении 9-го уровня<HighLight></> даёт 10 золотых монет<HighLight></> и 8 бесплатных обновлений<HighLight></>."
+  },
+  {
+    "id": "131377",
+    "source_cn": "Immediately gain 10 Gold Coins<HighLight></>, and thereafter gain 9 more Gold Coins at the start of each round<HighLight></><HighLight></>.",
+    "ref_en": "Immediately gain 10 Gold Coins<HighLight></>, and thereafter gain 9 more Gold Coins at the start of each round<HighLight></><HighLight></>.",
+    "target_ru": "Немедленно даёт 10 золотых монет<HighLight></>, а затем ещё по 9 золотых монет в начале каждого раунда<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131378",
+    "source_cn": "Immediately gain 16 free refreshes<HighLight></>, and thereafter gain 3 free refreshes each round<HighLight></><HighLight></>.",
+    "ref_en": "Immediately gain 16 free refreshes<HighLight></>, and thereafter gain 3 free refreshes each round<HighLight></><HighLight></>.",
+    "target_ru": "Немедленно даёт 16 бесплатных обновлений<HighLight></>, а затем по 3 бесплатных обновления каждый раунд<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131379",
+    "source_cn": "Immediately gain 18 Gold Coins<HighLight></>.",
+    "ref_en": "Immediately gain 18 Gold Coins<HighLight></>.",
+    "target_ru": "Немедленно даёт 18 золотых монет<HighLight></>."
+  },
+  {
+    "id": "131380",
+    "source_cn": "Immediately gain 4/8 Experience Points<HighLight></> and 2 free refreshes<HighLight></>, and thereafter gain one more at the start of each stage<HighLight></>.",
+    "ref_en": "Immediately gain 4/8 Experience Points<HighLight></> and 2 free refreshes<HighLight></>, and thereafter gain one more at the start of each stage<HighLight></>.",
+    "target_ru": "Немедленно даёт 4/8 очков опыта<HighLight></> и 2 бесплатных обновления<HighLight></>, а затем ещё по одному в начале каждого этапа<HighLight></>."
+  },
+  {
+    "id": "131381",
+    "source_cn": "Immediately gain 6/10 Gold Coins<HighLight></>, and thereafter gain 6 Gold Coins at the start of each stage<HighLight></><HighLight></>.",
+    "ref_en": "Immediately gain 6/10 Gold Coins<HighLight></>, and thereafter gain 6 Gold Coins at the start of each stage<HighLight></><HighLight></>.",
+    "target_ru": "Немедленно даёт 6/10 золотых монет<HighLight></>, а затем по 6 золотых монет в начале каждого этапа<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131382",
+    "source_cn": "Immediately gain 7 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 7 more Experience Points at the end of each round<HighLight></>.",
+    "ref_en": "Immediately gain 7 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 7 more Experience Points at the end of each round<HighLight></>.",
+    "target_ru": "Немедленно даёт 7 очков опыта<HighLight></>. В течение 3 раундов, начиная с этого<HighLight></>, даёт ещё по 7 очков опыта в конце каждого раунда<HighLight></>."
+  },
+  {
+    "id": "131383",
+    "source_cn": "Immediately gain <HighLight> 10 Gold Coins </>. <HighLight> After each match round </>, restore <HighLight> 2 Player Health </> and gain <HighLight> 2 Gold Coins </>.",
+    "ref_en": "Immediately gain <HighLight> 10 Gold Coins </>. <HighLight> After each match round </>, restore <HighLight> 2 Player Health </> and gain <HighLight> 2 Gold Coins </>.",
+    "target_ru": "Немедленно даёт <HighLight> 10 золотых монет </>. <HighLight> После каждого раунда поединка </> восстанавливает <HighLight> 2 ед. здоровья игрока </> и даёт <HighLight> 2 золотые монеты </>."
+  },
+  {
+    "id": "131384",
+    "source_cn": "Immediately gain <HighLight> 12 Experience </>. Thereafter, <HighLight> each time you purchase Experience </>, gain an additional <HighLight> 2 Experience </>.",
+    "ref_en": "Immediately gain <HighLight> 12 Experience </>. Thereafter, <HighLight> each time you purchase Experience </>, gain an additional <HighLight> 2 Experience </>.",
+    "target_ru": "Немедленно даёт <HighLight> 12 очков опыта </>. В дальнейшем <HighLight> при каждой покупке опыта </> даёт дополнительно <HighLight> 2 очка опыта </>."
+  },
+  {
+    "id": "131385",
+    "source_cn": "Immediately gain <HighLight> 2 Gold Coins </>. Each time you level up, gain <HighLight> (Player Level + 1) free refreshes </>.",
+    "ref_en": "Immediately gain <HighLight> 2 Gold Coins </>. Each time you level up, gain <HighLight> (Player Level + 1) free refreshes </>.",
+    "target_ru": "Немедленно даёт <HighLight> 2 золотые монеты </>. При каждом повышении уровня даёт <HighLight> (уровень игрока + 1) бесплатных обновлений </>."
+  },
+  {
+    "id": "131386",
+    "source_cn": "Immediately gain <HighLight> 7 Gold Coins </>. <HighLight> Each round </>, gain an additional <HighLight> 1 Gold Coin </>.",
+    "ref_en": "Immediately gain <HighLight> 7 Gold Coins </>. <HighLight> Each round </>, gain an additional <HighLight> 1 Gold Coin </>.",
+    "target_ru": "Немедленно даёт <HighLight> 7 золотых монет </>. <HighLight> Каждый раунд </> даёт дополнительно <HighLight> 1 золотую монету </>."
+  },
+  {
+    "id": "131387",
+    "source_cn": "Immediately gain <HighLight> 8 Experience </>. Thereafter, <HighLight> each round </>, gain an additional <HighLight> 1 Experience </>.",
+    "ref_en": "Immediately gain <HighLight> 8 Experience </>. Thereafter, <HighLight> each round </>, gain an additional <HighLight> 1 Experience </>.",
+    "target_ru": "Немедленно даёт <HighLight> 8 очков опыта </>. В дальнейшем <HighLight> каждый раунд </> даёт дополнительно <HighLight> 1 очко опыта </>."
+  },
+  {
+    "id": "131388",
+    "source_cn": "Immediately gain <HighLight> one Fine Equipment Casket </>, and after <HighLight> 10 match rounds </>, gain another <HighLight> one Sealed Equipment Casket </>.",
+    "ref_en": "Immediately gain <HighLight> one Fine Equipment Casket </>, and after <HighLight> 10 match rounds </>, gain another <HighLight> one Sealed Equipment Casket </>.",
+    "target_ru": "Немедленно даёт <HighLight> один ларец с отличным снаряжением </>, а через <HighLight> 10 раундов поединка </> даёт ещё <HighLight> один запечатанный ларец снаряжения </>."
+  },
+  {
+    "id": "131389",
+    "source_cn": "Immediately randomly gain 1 piece of Fine Equipment<HighLight></>. For the next 3 battle rounds<HighLight></>, gain 1 more piece at the end of each round<HighLight></>.",
+    "ref_en": "Immediately randomly gain 1 piece of Fine Equipment<HighLight></>. For the next 3 battle rounds<HighLight></>, gain 1 more piece at the end of each round<HighLight></>.",
+    "target_ru": "Немедленно даёт 1 случайное отличное снаряжение<HighLight></>. В течение следующих 3 раундов боя<HighLight></> даёт ещё по 1 предмету в конце каждого раунда<HighLight></>."
+  },
+  {
+    "id": "131390",
+    "source_cn": "Immune to crowd control effects for the first <HighLight>20</> seconds of combat.",
+    "ref_en": "Immune to crowd control effects for the first <HighLight>20</> seconds of combat.",
+    "target_ru": "Невосприимчивость к эффектам контроля в первые <HighLight>20</> секунд боя."
+  },
+  {
+    "id": "131391",
+    "source_cn": "Indomitable Crown",
+    "ref_en": "Indomitable Crown",
+    "target_ru": "Непоколебимая корона"
+  },
+  {
+    "id": "131392",
+    "source_cn": "Ingenious Mad Hat",
+    "ref_en": "Ingenious Mad Hat",
+    "target_ru": "Искусная безумная шляпа"
+  },
+  {
+    "id": "131393",
+    "source_cn": "Initial Divinity",
+    "ref_en": "Initial Divinity",
+    "target_ru": "Первозданная божественность"
+  },
+  {
+    "id": "131394",
+    "source_cn": "Insightful Heart Healing",
+    "ref_en": "Insightful Heart Healing",
+    "target_ru": "Проницательное исцеление сердца"
+  },
+  {
+    "id": "131395",
+    "source_cn": "Iron Blood Military Order",
+    "ref_en": "Iron Blood Military Order",
+    "target_ru": "Воинский приказ Железа и Крови"
+  },
+  {
+    "id": "131396",
+    "source_cn": "Iron Guard Spirit",
+    "ref_en": "Iron Guard Spirit",
+    "target_ru": "Дух железной стражи"
+  },
+  {
+    "id": "131397",
+    "source_cn": "Iron Guard Support",
+    "ref_en": "Iron Guard Support",
+    "target_ru": "Поддержка железной стражи"
+  },
+  {
+    "id": "131398",
+    "source_cn": "Iron Helmet",
+    "ref_en": "Iron Helmet",
+    "target_ru": "Железный шлем"
+  },
+  {
+    "id": "131399",
+    "source_cn": "Iron Sword",
+    "ref_en": "Iron Sword",
+    "target_ru": "Железный меч"
+  },
+  {
+    "id": "131400",
+    "source_cn": "Keen Hunter",
+    "ref_en": "Keen Hunter",
+    "target_ru": "Остроглазый охотник"
+  },
+  {
+    "id": "131401",
+    "source_cn": "Knowledge Infusion",
+    "ref_en": "Knowledge Infusion",
+    "target_ru": "Вливание знаний"
+  },
+  {
+    "id": "131402",
+    "source_cn": "Life After the Door",
+    "ref_en": "Life After the Door",
+    "target_ru": "Жизнь за Дверью"
+  },
+  {
+    "id": "131403",
+    "source_cn": "Life Bottle",
+    "ref_en": "Life Bottle",
+    "target_ru": "Флакон жизни"
+  },
+  {
+    "id": "131404",
+    "source_cn": "Life Crystal Pendant",
+    "ref_en": "Life Crystal Pendant",
+    "target_ru": "Хрустальный кулон жизни"
+  },
+  {
+    "id": "131405",
+    "source_cn": "Life-Eroding Thin Blade",
+    "ref_en": "Life-Eroding Thin Blade",
+    "target_ru": "Тонкий клинок пожирания жизни"
+  },
+  {
+    "id": "131406",
+    "source_cn": "Light-Eroding Gauntlet",
+    "ref_en": "Light-Eroding Gauntlet",
+    "target_ru": "Светопожирающая рукавица"
+  },
+  {
+    "id": "131407",
+    "source_cn": "Lion Heart Protection Ring",
+    "ref_en": "Lion Heart Protection Ring",
+    "target_ru": "Защитное кольцо Львиного сердца"
+  },
+  {
+    "id": "131408",
+    "source_cn": "Long-Range Strike Badge",
+    "ref_en": "Long-Range Strike Badge",
+    "target_ru": "Эмблема Дальнобойного удара"
+  },
+  {
+    "id": "131409",
+    "source_cn": "Longevity Giant Turtle",
+    "ref_en": "Longevity Giant Turtle",
+    "target_ru": "Исполинская черепаха долголетия"
+  },
+  {
+    "id": "131410",
+    "source_cn": "Malevolent Star Astrolabe",
+    "ref_en": "Malevolent Star Astrolabe",
+    "target_ru": "Астролябия зловещей звезды"
+  },
+  {
+    "id": "131411",
+    "source_cn": "May Manor Badge",
+    "ref_en": "May Manor Badge",
+    "target_ru": "Эмблема Поместья Мэй"
+  },
+  {
+    "id": "131412",
+    "source_cn": "Merchant Vault",
+    "ref_en": "Merchant Vault",
+    "target_ru": "Купеческое хранилище"
+  },
+  {
+    "id": "131413",
+    "source_cn": "Messenger Package",
+    "ref_en": "Messenger Package",
+    "target_ru": "Посылка от посланника"
+  },
+  {
+    "id": "131414",
+    "source_cn": "Miracle Restart",
+    "ref_en": "Miracle Restart",
+    "target_ru": "Чудесный перезапуск"
+  },
+  {
+    "id": "131415",
+    "source_cn": "Mushroom Farm",
+    "ref_en": "Mushroom Farm",
+    "target_ru": "Грибная ферма"
+  },
+  {
+    "id": "131416",
+    "source_cn": "Mysticism Badge",
+    "ref_en": "Mysticism Badge",
+    "target_ru": "Эмблема Мистицизма"
+  },
+  {
+    "id": "131417",
+    "source_cn": "New Era Departure",
+    "ref_en": "New Era Departure",
+    "target_ru": "Отправление в новую эпоху"
+  },
+  {
+    "id": "131418",
+    "source_cn": "Night Watch Holy Seal",
+    "ref_en": "Night Watch Holy Seal",
+    "target_ru": "Священная печать Ночного Дозора"
+  },
+  {
+    "id": "131419",
+    "source_cn": "No One Watching",
+    "ref_en": "No One Watching",
+    "target_ru": "Никто не смотрит"
+  },
+  {
+    "id": "131420",
+    "source_cn": "Obtain <HighLight>1 Hyacinth</>. In each battle, after the first 2 casts by a Spell piece<HighLight></>, it gains <HighLight>10% Attack Speed</> and <HighLight>8% damage amplification</>, lasting for <HighLight>4 seconds</>.",
+    "ref_en": "Obtain <HighLight>1 Hyacinth</>. In each battle, after the first 2 casts by a Spell piece<HighLight></>, it gains <HighLight>10% Attack Speed</> and <HighLight>8% damage amplification</>, lasting for <HighLight>4 seconds</>.",
+    "target_ru": "Даёт <HighLight>1 Гиацинт</>. В каждом бою после первых 2 применений навыка фигурой Заклятия<HighLight></> она получает <HighLight>10% скорости атаки</> и <HighLight>8% увеличения урона</> на <HighLight>4 секунды</>."
+  },
+  {
+    "id": "131421",
+    "source_cn": "Perfect Build",
+    "ref_en": "Perfect Build",
+    "target_ru": "Идеальная сборка"
+  },
+  {
+    "id": "131422",
+    "source_cn": "Player gains <HighLight> 30 Health Points </>.",
+    "ref_en": "Player gains <HighLight> 30 Health Points </>.",
+    "target_ru": "Игрок получает <HighLight> 30 ед. здоровья </>."
+  },
+  {
+    "id": "131423",
+    "source_cn": "Randomly gain 1 1-cost piece<HighLight></>. Thereafter, gain a 1-star copy of that piece each round<HighLight></><HighLight></>.",
+    "ref_en": "Randomly gain 1 1-cost piece<HighLight></>. Thereafter, gain a 1-star copy of that piece each round<HighLight></><HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 фигуру за 1 золотой<HighLight></>. Затем каждый раунд даёт 1-звёздочную копию этой фигуры<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131424",
+    "source_cn": "Randomly gain 1 2-star 2-cost piece<HighLight></> and 1 Gold Coin<HighLight></>.",
+    "ref_en": "Randomly gain 1 2-star 2-cost piece<HighLight></> and 1 Gold Coin<HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 2-звёздочную фигуру за 2 золотых<HighLight></> и 1 золотую монету<HighLight></>."
+  },
+  {
+    "id": "131425",
+    "source_cn": "Randomly gain 1 3-star 1-cost piece<HighLight></> and 7/11 Gold Coins<HighLight></>.",
+    "ref_en": "Randomly gain 1 3-star 1-cost piece<HighLight></> and 7/11 Gold Coins<HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 3-звёздочную фигуру за 1 золотой<HighLight></> и 7/11 золотых монет<HighLight></>."
+  },
+  {
+    "id": "131426",
+    "source_cn": "Randomly gain 1 4-cost piece<HighLight></>, 1 2-star 1-cost piece with the same Resonance<HighLight></>, and 8 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical 4-cost piece each time<HighLight></>.",
+    "ref_en": "Randomly gain 1 4-cost piece<HighLight></>, 1 2-star 1-cost piece with the same Resonance<HighLight></>, and 8 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical 4-cost piece each time<HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 фигуру за 4 золотых<HighLight></>, 1 2-звёздочную фигуру за 1 золотой с тем же резонансом<HighLight></> и 8 золотых монет<HighLight></>. В начале следующих 2 этапов<HighLight></> даёт по 1 такой же фигуре за 4 золотых<HighLight></>."
+  },
+  {
+    "id": "131427",
+    "source_cn": "Randomly gain 1 piece of Basic Equipment<HighLight></> and 3 Gold Coins<HighLight></>. At the start of the next round<HighLight></>, randomly gain 1 piece of Fine Equipment<HighLight></> and 3 Gold Coins<HighLight></>.",
+    "ref_en": "Randomly gain 1 piece of Basic Equipment<HighLight></> and 3 Gold Coins<HighLight></>. At the start of the next round<HighLight></>, randomly gain 1 piece of Fine Equipment<HighLight></> and 3 Gold Coins<HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 базовое снаряжение<HighLight></> и 3 золотые монеты<HighLight></>. В начале следующего раунда<HighLight></> даёт 1 отличное снаряжение<HighLight></> и 3 золотые монеты<HighLight></>."
+  },
+  {
+    "id": "131428",
+    "source_cn": "Randomly gain 1 piece of Defensive Fine Equipment<HighLight></>. 8 seconds<HighLight> after the battle starts</>, your pieces gain 5% Attack per second<HighLight></>, stacking up to 6 times<HighLight></>.",
+    "ref_en": "Randomly gain 1 piece of Defensive Fine Equipment<HighLight></>. 8 seconds<HighLight> after the battle starts</>, your pieces gain 5% Attack per second<HighLight></>, stacking up to 6 times<HighLight></>.",
+    "target_ru": "Случайным образом даёт 1 защитное отличное снаряжение<HighLight></>. Через 8 сек.<HighLight> после начала боя</> ваши фигуры получают 5% атаки в секунду<HighLight></>, максимум 6 раз<HighLight></>."
+  },
+  {
+    "id": "131429",
+    "source_cn": "Randomly gain 2 identical 1-star 2-cost pieces<HighLight></>. Thereafter, gain 1 identical piece each round<HighLight></><HighLight></>.",
+    "ref_en": "Randomly gain 2 identical 1-star 2-cost pieces<HighLight></>. Thereafter, gain 1 identical piece each round<HighLight></><HighLight></>.",
+    "target_ru": "Случайным образом даёт 2 одинаковые 1-звёздочные фигуры за 2 золотых<HighLight></>. Затем каждый раунд даёт по 1 такой же фигуре<HighLight></><HighLight></>."
+  },
+  {
+    "id": "131430",
+    "source_cn": "Randomly gain 2 pieces of Defensive Fine Equipment<HighLight></>.",
+    "ref_en": "Randomly gain 2 pieces of Defensive Fine Equipment<HighLight></>.",
+    "target_ru": "Случайным образом даёт 2 защитных отличных снаряжения<HighLight></>."
+  },
+  {
+    "id": "131431",
+    "source_cn": "Randomly gain 2 pieces of Fine Equipment<HighLight></> and 1 Equipment Reforger<HighLight></>.",
+    "ref_en": "Randomly gain 2 pieces of Fine Equipment<HighLight></> and 1 Equipment Reforger<HighLight></>.",
+    "target_ru": "Случайным образом даёт 2 отличных снаряжения<HighLight></> и 1 перековщик снаряжения<HighLight></>."
+  },
+  {
+    "id": "131432",
+    "source_cn": "Randomly gain 2 pieces of Offensive Fine Equipment<HighLight></>.",
+    "ref_en": "Randomly gain 2 pieces of Offensive Fine Equipment<HighLight></>.",
+    "target_ru": "Случайным образом даёт 2 атакующих отличных снаряжения<HighLight></>."
+  },
+  {
+    "id": "131433",
+    "source_cn": "Randomly gain 3 2-cost pieces<HighLight></>. When you first enter battle with at least 2 3-star pieces<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>.",
+    "ref_en": "Randomly gain 3 2-cost pieces<HighLight></>. When you first enter battle with at least 2 3-star pieces<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>.",
+    "target_ru": "Случайным образом даёт 3 фигуры за 2 золотых<HighLight></>. Когда вы впервые вступите в бой минимум с 2 3-звёздочными фигурами<HighLight></>, даёт 2 Регистратора фигур низкого уровня<HighLight></>."
+  },
+  {
+    "id": "131434",
+    "source_cn": "Randomly gain 3 Resonance Badges<HighLight></>, 1 Equipment Reforger<HighLight></>, and 2 Gold Coins<HighLight></>.",
+    "ref_en": "Randomly gain 3 Resonance Badges<HighLight></>, 1 Equipment Reforger<HighLight></>, and 2 Gold Coins<HighLight></>.",
+    "target_ru": "Случайным образом даёт 3 эмблемы резонанса<HighLight></>, 1 перековщик снаряжения<HighLight></> и 2 золотые монеты<HighLight></>."
+  },
+  {
+    "id": "131435",
+    "source_cn": "Randomly gain <HighLight> one Resonance Badge </>.",
+    "ref_en": "Randomly gain <HighLight> one Resonance Badge </>.",
+    "target_ru": "Случайным образом даёт <HighLight> одну эмблему резонанса </>."
+  },
+  {
+    "id": "131436",
+    "source_cn": "Randomly gain <HighLight> one offensive fine equipment </> and <HighLight> one defensive fine equipment </>.",
+    "ref_en": "Randomly gain <HighLight> one offensive fine equipment </> and <HighLight> one defensive fine equipment </>.",
+    "target_ru": "Случайным образом даёт <HighLight> одно атакующее отличное снаряжение </> и <HighLight> одно защитное отличное снаряжение </>."
+  },
+  {
+    "id": "131437",
+    "source_cn": "Randomly gain <HighLight> two 1-star 1-cost Extraordinary World chess pieces </> and <HighLight> one 1-star 3-cost Extraordinary World chess piece </>. Player gains <HighLight> 10 Health </>.",
+    "ref_en": "Randomly gain <HighLight> two 1-star 1-cost Extraordinary World chess pieces </> and <HighLight> one 1-star 3-cost Extraordinary World chess piece </>. Player gains <HighLight> 10 Health </>.",
+    "target_ru": "Случайным образом даёт <HighLight> две 1-звёздочные фигуры Потустороннего мира за 1 золотой </> и <HighLight> одну 1-звёздочную фигуру Потустороннего мира за 3 золотых </>. Игрок получает <HighLight> 10 ед. здоровья </>."
+  },
+  {
+    "id": "131438",
+    "source_cn": "Randomly gain <HighLight> two basic equipment </>, and gain <HighLight> two Fine Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>.",
+    "ref_en": "Randomly gain <HighLight> two basic equipment </>, and gain <HighLight> two Fine Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>.",
+    "target_ru": "Случайным образом даёт <HighLight> два базовых снаряжения </>, а также <HighLight> два ларца с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>."
+  },
+  {
+    "id": "131439",
+    "source_cn": "Randomly gain pieces with a total value of 12/18/26 Gold Coins<HighLight></>, including at least 1 3/4/5-cost piece<HighLight></>.",
+    "ref_en": "Randomly gain pieces with a total value of 12/18/26 Gold Coins<HighLight></>, including at least 1 3/4/5-cost piece<HighLight></>.",
+    "target_ru": "Случайным образом даёт фигуры общей стоимостью 12/18/26 золотых монет<HighLight></>, включая минимум 1 фигуру за 3/4/5 золотых<HighLight></>."
+  },
+  {
+    "id": "131440",
+    "source_cn": "Randomly obtain <HighLight>one</> [Steam Age] piece of Equipment.",
+    "ref_en": "Randomly obtain <HighLight>one</> [Steam Age] piece of Equipment.",
+    "target_ru": "Случайным образом даёт <HighLight>одно</> снаряжение [Эпохи пара]."
+  },
+  {
+    "id": "131441",
+    "source_cn": "Randomly obtain <HighLight>three</> [Steam Age] pieces of Equipment.",
+    "ref_en": "Randomly obtain <HighLight>three</> [Steam Age] pieces of Equipment.",
+    "target_ru": "Случайным образом даёт <HighLight>три</> снаряжения [Эпохи пара]."
+  },
+  {
+    "id": "131442",
+    "source_cn": "Randomly obtain <HighLight>two</> [Steam Age] pieces of Equipment.",
+    "ref_en": "Randomly obtain <HighLight>two</> [Steam Age] pieces of Equipment.",
+    "target_ru": "Случайным образом даёт <HighLight>два</> снаряжения [Эпохи пара]."
+  },
+  {
+    "id": "131443",
+    "source_cn": "Rare Relic",
+    "ref_en": "Rare Relic",
+    "target_ru": "Редкая реликвия"
+  },
+  {
+    "id": "131444",
+    "source_cn": "Rare · Abundance Robe",
+    "ref_en": "Rare · Abundance Robe",
+    "target_ru": "Редкое · Мантия Изобилия"
+  },
+  {
+    "id": "131445",
+    "source_cn": "Rare · Armor-Breaking Crystal Core",
+    "ref_en": "Rare · Armor-Breaking Crystal Core",
+    "target_ru": "Редкое · Бронебойное кристаллическое ядро"
+  },
+  {
+    "id": "131446",
+    "source_cn": "Rare · Armor-Eroding Device",
+    "ref_en": "Rare · Armor-Eroding Device",
+    "target_ru": "Редкое · Бронеразъедающее устройство"
+  },
+  {
+    "id": "131447",
+    "source_cn": "Rare · Battle Intent Staff",
+    "ref_en": "Rare · Battle Intent Staff",
+    "target_ru": "Редкое · Посох боевого духа"
+  },
+  {
+    "id": "131448",
+    "source_cn": "Rare · Blood Hunt Cloak",
+    "ref_en": "Rare · Blood Hunt Cloak",
+    "target_ru": "Редкое · Плащ кровавой охоты"
+  },
+  {
+    "id": "131449",
+    "source_cn": "Rare · Blood-Colored Ring",
+    "ref_en": "Rare · Blood-Colored Ring",
+    "target_ru": "Редкое · Кольцо цвета крови"
+  },
+  {
+    "id": "131450",
+    "source_cn": "Rare · Bulwark War Helmet",
+    "ref_en": "Rare · Bulwark War Helmet",
+    "target_ru": "Редкое · Боевой шлем Оплота"
+  },
+  {
+    "id": "131451",
+    "source_cn": "Rare · Hidden Cloak",
+    "ref_en": "Rare · Hidden Cloak",
+    "target_ru": "Редкое · Маскировочный плащ"
+  },
+  {
+    "id": "131452",
+    "source_cn": "Rare · Ingenious Mad Hat",
+    "ref_en": "Rare · Ingenious Mad Hat",
+    "target_ru": "Редкое · Искусная безумная шляпа"
+  },
+  {
+    "id": "131453",
+    "source_cn": "Rare · Life-Eroding Thin Blade",
+    "ref_en": "Rare · Life-Eroding Thin Blade",
+    "target_ru": "Редкое · Тонкий клинок пожирания жизни"
+  },
+  {
+    "id": "131454",
+    "source_cn": "Rare · Light-Eroding Gauntlet",
+    "ref_en": "Rare · Light-Eroding Gauntlet",
+    "target_ru": "Редкое · Светопожирающая рукавица"
+  },
+  {
+    "id": "131455",
+    "source_cn": "Rare · Lionheart Protection Ring",
+    "ref_en": "Rare · Lionheart Protection Ring",
+    "target_ru": "Редкое · Защитное кольцо Львиного сердца"
+  },
+  {
+    "id": "131456",
+    "source_cn": "Rare · Roaming Cloak",
+    "ref_en": "Rare · Roaming Cloak",
+    "target_ru": "Редкое · Плащ странника"
+  },
+  {
+    "id": "131457",
+    "source_cn": "Rare · Sage's Spirit Ring",
+    "ref_en": "Rare · Sage's Spirit Ring",
+    "target_ru": "Редкое · Духовное кольцо Мудреца"
+  },
+  {
+    "id": "131458",
+    "source_cn": "Rare · Scorching Flame War Armor",
+    "ref_en": "Rare · Scorching Flame War Armor",
+    "target_ru": "Редкое · Боевой доспех обжигающего пламени"
+  },
+  {
+    "id": "131459",
+    "source_cn": "Rare · Sinister Star Instrument",
+    "ref_en": "Rare · Sinister Star Instrument",
+    "target_ru": "Редкое · Зловещий звездный инструмент"
+  },
+  {
+    "id": "131460",
+    "source_cn": "Rare · Spirit Blessing Crystal Pendant",
+    "ref_en": "Rare · Spirit Blessing Crystal Pendant",
+    "target_ru": "Редкое · Хрустальный кулон благословения духа"
+  },
+  {
+    "id": "131461",
+    "source_cn": "Rare · Spirit-Returning Chain Pendant",
+    "ref_en": "Rare · Spirit-Returning Chain Pendant",
+    "target_ru": "Редкое · Цепной кулон возвращения духа"
+  },
+  {
+    "id": "131462",
+    "source_cn": "Rare · Star-Splitting Curio",
+    "ref_en": "Rare · Star-Splitting Curio",
+    "target_ru": "Редкое · Звездоколющий диковинный предмет"
+  },
+  {
+    "id": "131463",
+    "source_cn": "Rare · Sun-Pattern Amulet",
+    "ref_en": "Rare · Sun-Pattern Amulet",
+    "target_ru": "Редкое · Амулет с солнечным узором"
+  },
+  {
+    "id": "131464",
+    "source_cn": "Rare · Swift Life Plate",
+    "ref_en": "Rare · Swift Life Plate",
+    "target_ru": "Редкое · Пластина стремительной жизни"
+  },
+  {
+    "id": "131465",
+    "source_cn": "Rare · Time-Wheel Star Instrument",
+    "ref_en": "Rare · Time-Wheel Star Instrument",
+    "target_ru": "Редкое · Звездный инструмент колеса времени"
+  },
+  {
+    "id": "131466",
+    "source_cn": "Rare · Traction Spirit Pendant",
+    "ref_en": "Rare · Traction Spirit Pendant",
+    "target_ru": "Редкое · Тяговый духовный кулон"
+  },
+  {
+    "id": "131467",
+    "source_cn": "Rare · Twilight City Iron Armor",
+    "ref_en": "Rare · Twilight City Iron Armor",
+    "target_ru": "Редкое · Железный доспех Сумеречного города"
+  },
+  {
+    "id": "131468",
+    "source_cn": "Rare · Watchman Breastplate",
+    "ref_en": "Rare · Watchman Breastplate",
+    "target_ru": "Редкое · Нагрудник дозорного"
+  },
+  {
+    "id": "131469",
+    "source_cn": "Rare · Wild Hunt Greatsword",
+    "ref_en": "Rare · Wild Hunt Greatsword",
+    "target_ru": "Редкое · Двуручный меч Дикой Охоты"
+  },
+  {
+    "id": "131470",
+    "source_cn": "Record Mysticism",
+    "ref_en": "Record Mysticism",
+    "target_ru": "Мистицизм записи"
+  },
+  {
+    "id": "131471",
+    "source_cn": "Record Reproduction",
+    "ref_en": "Record Reproduction",
+    "target_ru": "Воспроизведение записи"
+  },
+  {
+    "id": "131472",
+    "source_cn": "Reduce the Defense of enemies within <HighLight>2</> tiles by <HighLight>35%</>.",
+    "ref_en": "Reduce the Defense of enemies within <HighLight>2</> tiles by <HighLight>35%</>.",
+    "target_ru": "Снижает защиту врагов в пределах <HighLight>2</> клеток на <HighLight>35%</>."
+  },
+  {
+    "id": "131473",
+    "source_cn": "Reduces the Defense of enemies within <HighLight>2</> tiles by <HighLight>30%</>.",
+    "ref_en": "Reduces the Defense of enemies within <HighLight>2</> tiles by <HighLight>30%</>.",
+    "target_ru": "Снижает защиту врагов в пределах <HighLight>2</> клеток на <HighLight>30%</>."
+  },
+  {
+    "id": "131474",
+    "source_cn": "Resonance Agitation",
+    "ref_en": "Resonance Agitation",
+    "target_ru": "Волнение резонанса"
+  },
+  {
+    "id": "131475",
+    "source_cn": "Resonance Echo",
+    "ref_en": "Resonance Echo",
+    "target_ru": "Эхо резонанса"
+  },
+  {
+    "id": "131476",
+    "source_cn": "Resonance Ripple",
+    "ref_en": "Resonance Ripple",
+    "target_ru": "Рябь резонанса"
+  },
+  {
+    "id": "131477",
+    "source_cn": "Restore <HighLight>4</> Mana with each basic attack; restore an additional <HighLight>6</> Mana when landing a critical hit.",
+    "ref_en": "Restore <HighLight>4</> Mana with each basic attack; restore an additional <HighLight>6</> Mana when landing a critical hit.",
+    "target_ru": "Восстанавливает <HighLight>4</> ед. маны при каждой базовой атаке; при критическом ударе восстанавливает дополнительно <HighLight>6</> ед. маны."
+  },
+  {
+    "id": "131478",
+    "source_cn": "Rising Fame",
+    "ref_en": "Rising Fame",
+    "target_ru": "Растущая слава"
+  },
+  {
+    "id": "131479",
+    "source_cn": "Royal Court Scepter",
+    "ref_en": "Royal Court Scepter",
+    "target_ru": "Скипетр королевского двора"
+  },
+  {
+    "id": "131480",
+    "source_cn": "Sacred Guard of the Lone Walker",
+    "ref_en": "Sacred Guard of the Lone Walker",
+    "target_ru": "Священная защита одинокого путника"
+  },
+  {
+    "id": "131481",
+    "source_cn": "Sacred Radiance of Health",
+    "ref_en": "Sacred Radiance of Health",
+    "target_ru": "Священное сияние здоровья"
+  },
+  {
+    "id": "131482",
+    "source_cn": "Scorching Flame Battle Armor",
+    "ref_en": "Scorching Flame Battle Armor",
+    "target_ru": "Боевой доспех обжигающего пламени"
+  },
+  {
+    "id": "131483",
+    "source_cn": "Secret Mechanical Treasure",
+    "ref_en": "Secret Mechanical Treasure",
+    "target_ru": "Тайное механическое сокровище"
+  },
+  {
+    "id": "131484",
+    "source_cn": "Sell all pieces<HighLight></> to gain 1 2-star 1-cost piece<HighLight></>, 2 2-star 2-cost pieces<HighLight></>, and 2 2-star 3-cost pieces<HighLight></>.",
+    "ref_en": "Sell all pieces<HighLight></> to gain 1 2-star 1-cost piece<HighLight></>, 2 2-star 2-cost pieces<HighLight></>, and 2 2-star 3-cost pieces<HighLight></>.",
+    "target_ru": "Продаёт все фигуры<HighLight></>, давая 1 2-звёздочную фигуру за 1 золотой<HighLight></>, 2 2-звёздочные фигуры за 2 золотых<HighLight></> и 2 2-звёздочные фигуры за 3 золотых<HighLight></>."
+  },
+  {
+    "id": "131485",
+    "source_cn": "Sell all pieces<HighLight></>, randomly gain 2 Resonance Badges<HighLight></>, and gain 15 free refreshes<HighLight></>.",
+    "ref_en": "Sell all pieces<HighLight></>, randomly gain 2 Resonance Badges<HighLight></>, and gain 15 free refreshes<HighLight></>.",
+    "target_ru": "Продаёт все фигуры<HighLight></>, давая 2 случайные эмблемы резонанса<HighLight></> и 15 бесплатных обновлений<HighLight></>."
+  },
+  {
+    "id": "131486",
+    "source_cn": "Sequence Advancement Gift",
+    "ref_en": "Sequence Advancement Gift",
+    "target_ru": "Дар продвижения по Последовательности"
+  },
+  {
+    "id": "131487",
+    "source_cn": "Sevenfold Desire",
+    "ref_en": "Sevenfold Desire",
+    "target_ru": "Семикратное желание"
+  },
+  {
+    "id": "131488",
+    "source_cn": "Simple Workshop",
+    "ref_en": "Simple Workshop",
+    "target_ru": "Простая мастерская"
+  },
+  {
+    "id": "131489",
+    "source_cn": "Sinful Tingen Badge",
+    "ref_en": "Sinful Tingen Badge",
+    "target_ru": "Эмблема Грешного Тингена"
+  },
+  {
+    "id": "131490",
+    "source_cn": "Sky-Piercing Spear",
+    "ref_en": "Sky-Piercing Spear",
+    "target_ru": "Копьё, пронзающее небеса"
+  },
+  {
+    "id": "131491",
+    "source_cn": "Special Assistance",
+    "ref_en": "Special Assistance",
+    "target_ru": "Особая помощь"
+  },
+  {
+    "id": "131492",
+    "source_cn": "Special Equipment",
+    "ref_en": "Special Equipment",
+    "target_ru": "Особое снаряжение"
+  },
+  {
+    "id": "131493",
+    "source_cn": "Special Lucky Bag",
+    "ref_en": "Special Lucky Bag",
+    "target_ru": "Особый мешочек удачи"
+  },
+  {
+    "id": "131494",
+    "source_cn": "Special Order",
+    "ref_en": "Special Order",
+    "target_ru": "Особый заказ"
+  },
+  {
+    "id": "131495",
+    "source_cn": "Spell Enlightenment",
+    "ref_en": "Spell Enlightenment",
+    "target_ru": "Просветление колдовства"
+  },
+  {
+    "id": "131496",
+    "source_cn": "Spellcraft Badge",
+    "ref_en": "Spellcraft Badge",
+    "target_ru": "Эмблема Колдовства"
+  },
+  {
+    "id": "131497",
+    "source_cn": "Spider Silk Binding",
+    "ref_en": "Spider Silk Binding",
+    "target_ru": "Опутывание паучьим шелком"
+  },
+  {
+    "id": "131498",
+    "source_cn": "Spirit Blessing Crystal Pendant",
+    "ref_en": "Spirit Blessing Crystal Pendant",
+    "target_ru": "Хрустальный кулон благословения духа"
+  },
+  {
+    "id": "131499",
+    "source_cn": "Spirit Body Connection",
+    "ref_en": "Spirit Body Connection",
+    "target_ru": "Связь с духовным телом"
+  },
+  {
+    "id": "131500",
+    "source_cn": "Spirit-Returning Chain Pendant",
+    "ref_en": "Spirit-Returning Chain Pendant",
+    "target_ru": "Цепной кулон возвращения духа"
+  },
+  {
+    "id": "131501",
+    "source_cn": "Spirituality Flower Pendant",
+    "ref_en": "Spirituality Flower Pendant",
+    "target_ru": "Цветочный кулон духовности"
+  },
+  {
+    "id": "131502",
+    "source_cn": "Star-Splitting Curio",
+    "ref_en": "Star-Splitting Curio",
+    "target_ru": "Звездоколющий диковинный предмет"
+  },
+  {
+    "id": "131503",
+    "source_cn": "Starfall Gravity",
+    "ref_en": "Starfall Gravity",
+    "target_ru": "Гравитация звездопада"
+  },
+  {
+    "id": "131504",
+    "source_cn": "Steam Era Badge",
+    "ref_en": "Steam Era Badge",
+    "target_ru": "Эмблема Эпохи пара"
+  },
+  {
+    "id": "131505",
+    "source_cn": "Steam Era · Biphasic Chain Pendant",
+    "ref_en": "Steam Era · Biphasic Chain Pendant",
+    "target_ru": "Эпоха пара · Двухфазный кулон на цепочке"
+  },
+  {
+    "id": "131506",
+    "source_cn": "Steam Era · Counter-Shock Waist Ornament",
+    "ref_en": "Steam Era · Counter-Shock Waist Ornament",
+    "target_ru": "Эпоха пара · Противоударное поясное украшение"
+  },
+  {
+    "id": "131507",
+    "source_cn": "Steam Era · Goggle Top Hat",
+    "ref_en": "Steam Era · Goggle Top Hat",
+    "target_ru": "Эпоха пара · Цилиндр с защитными очками"
+  },
+  {
+    "id": "131508",
+    "source_cn": "Steam Era · Overload Core",
+    "ref_en": "Steam Era · Overload Core",
+    "target_ru": "Эпоха пара · Ядро перегрузки"
+  },
+  {
+    "id": "131509",
+    "source_cn": "Steam Era · Residual Heat Cloak",
+    "ref_en": "Steam Era · Residual Heat Cloak",
+    "target_ru": "Эпоха пара · Плащ остаточного тепла"
+  },
+  {
+    "id": "131510",
+    "source_cn": "Steam Era · Resonance Gear Ring",
+    "ref_en": "Steam Era · Resonance Gear Ring",
+    "target_ru": "Эпоха пара · Резонансное кольцо с шестерней"
+  },
+  {
+    "id": "131511",
+    "source_cn": "Summon <HighLight>1</>-star [Moon Corruption].",
+    "ref_en": "Summon <HighLight>1</>-star [Moon Corruption].",
+    "target_ru": "Призывает <HighLight>1</>-звёздочное [Лунное осквернение]."
+  },
+  {
+    "id": "131512",
+    "source_cn": "Summon <HighLight>2</>-star [Moon Corruption].",
+    "ref_en": "Summon <HighLight>2</>-star [Moon Corruption].",
+    "target_ru": "Призывает <HighLight>2</>-звёздочное [Лунное осквернение]."
+  },
+  {
+    "id": "131513",
+    "source_cn": "Summon <HighLight>3</>-star [Moon Corruption].",
+    "ref_en": "Summon <HighLight>3</>-star [Moon Corruption].",
+    "target_ru": "Призывает <HighLight>3</>-звёздочное [Лунное осквернение]."
+  },
+  {
+    "id": "131514",
+    "source_cn": "Sun Pattern Amulet",
+    "ref_en": "Sun Pattern Amulet",
+    "target_ru": "Амулет с солнечным узором"
+  },
+  {
+    "id": "131515",
+    "source_cn": "Surprise Gift Pack",
+    "ref_en": "Surprise Gift Pack",
+    "target_ru": "Неожиданный подарочный набор"
+  },
+  {
+    "id": "131516",
+    "source_cn": "Swift Hunt Badge",
+    "ref_en": "Swift Hunt Badge",
+    "target_ru": "Эмблема Стремительной охоты"
+  },
+  {
+    "id": "131517",
+    "source_cn": "Swift Life Card",
+    "ref_en": "Swift Life Card",
+    "target_ru": "Карта стремительной жизни"
+  },
+  {
+    "id": "131518",
+    "source_cn": "The Far-Sighted",
+    "ref_en": "The Far-Sighted",
+    "target_ru": "Дальновидный"
+  },
+  {
+    "id": "131519",
+    "source_cn": "The [Power of the Red Moon] within [Moon Corruption] surges, significantly increasing its attributes.",
+    "ref_en": "The [Power of the Red Moon] within [Moon Corruption] surges, significantly increasing its attributes.",
+    "target_ru": "[Сила Алой Луны] внутри [Лунного осквернения] бурлит, значительно увеличивая его характеристики."
+  },
+  {
+    "id": "131520",
+    "source_cn": "Thunderbolt Awe",
+    "ref_en": "Thunderbolt Awe",
+    "target_ru": "Трепет перед молнией"
+  },
+  {
+    "id": "131521",
+    "source_cn": "Time Wheel Astrolabe",
+    "ref_en": "Time Wheel Astrolabe",
+    "target_ru": "Астролябия колеса времени"
+  },
+  {
+    "id": "131522",
+    "source_cn": "Trading Tycoon",
+    "ref_en": "Trading Tycoon",
+    "target_ru": "Торговый магнат"
+  },
+  {
+    "id": "131523",
+    "source_cn": "Twilight City Iron Armor",
+    "ref_en": "Twilight City Iron Armor",
+    "target_ru": "Железный доспех Сумеречного города"
+  },
+  {
+    "id": "131524",
+    "source_cn": "Tyrant Mask",
+    "ref_en": "Tyrant Mask",
+    "target_ru": "Маска Тирана"
+  },
+  {
+    "id": "131525",
+    "source_cn": "Upon death, deal damage equal to <HighLight>20%</> of your own maximum Health to enemies within <HighLight>2</> tiles.",
+    "ref_en": "Upon death, deal damage equal to <HighLight>20%</> of your own maximum Health to enemies within <HighLight>2</> tiles.",
+    "target_ru": "При гибели наносит врагам в пределах <HighLight>2</> клеток урон, равный <HighLight>20%</> от собственного макс. здоровья."
+  },
+  {
+    "id": "131526",
+    "source_cn": "Upon reaching <HighLight> level 6 </>, gain <HighLight> one Fine Equipment Casket </>. Upon reaching <HighLight> level 8 </>, gain <HighLight> one Sealed Equipment Casket </>.",
+    "ref_en": "Upon reaching <HighLight> level 6 </>, gain <HighLight> one Fine Equipment Casket </>. Upon reaching <HighLight> level 8 </>, gain <HighLight> one Sealed Equipment Casket </>.",
+    "target_ru": "При достижении <HighLight> 6-го уровня </> даёт <HighLight> один ларец с отличным снаряжением </>. При достижении <HighLight> 8-го уровня </> даёт <HighLight> один запечатанный ларец снаряжения </>."
+  },
+  {
+    "id": "131527",
+    "source_cn": "Upon reaching <HighLight> level 9 </>, gain <HighLight> 26 Gold Coins </>.",
+    "ref_en": "Upon reaching <HighLight> level 9 </>, gain <HighLight> 26 Gold Coins </>.",
+    "target_ru": "При достижении <HighLight> 9-го уровня </> даёт <HighLight> 26 золотых монет </>."
+  },
+  {
+    "id": "131528",
+    "source_cn": "Use Scheme",
+    "ref_en": "Use Scheme",
+    "target_ru": "Применить схему"
+  },
+  {
+    "id": "131529",
+    "source_cn": "Vanguard Oath Formation",
+    "ref_en": "Vanguard Oath Formation",
+    "target_ru": "Построение авангарда клятвы"
+  },
+  {
+    "id": "131530",
+    "source_cn": "Victory or Defeat is Fate",
+    "ref_en": "Victory or Defeat is Fate",
+    "target_ru": "Победа иль поражение — предначертано судьбой"
+  },
+  {
+    "id": "131531",
+    "source_cn": "Watchman Breastplate",
+    "ref_en": "Watchman Breastplate",
+    "target_ru": "Нагрудник дозорного"
+  },
+  {
+    "id": "131532",
+    "source_cn": "Wealth Mint",
+    "ref_en": "Wealth Mint",
+    "target_ru": "Монетный двор богатства"
+  },
+  {
+    "id": "131533",
+    "source_cn": "When Health is above <HighLight>50%</>, gain an additional <HighLight>10%</> Damage Reduction.",
+    "ref_en": "When Health is above <HighLight>50%</>, gain an additional <HighLight>10%</> Damage Reduction.",
+    "target_ru": "Когда здоровье выше <HighLight>50%</>, даёт дополнительно <HighLight>10%</> снижения урона."
+  },
+  {
+    "id": "131534",
+    "source_cn": "When Health is above <HighLight>50%</>, gain an additional <HighLight>12%</> Damage Reduction.",
+    "ref_en": "When Health is above <HighLight>50%</>, gain an additional <HighLight>12%</> Damage Reduction.",
+    "target_ru": "Когда здоровье выше <HighLight>50%</>, даёт дополнительно <HighLight>12%</> снижения урона."
+  },
+  {
+    "id": "131535",
+    "source_cn": "When Health is below <HighLight>50%</>, Damage Reduction is increased by an additional <HighLight>20%</>.",
+    "ref_en": "When Health is below <HighLight>50%</>, Damage Reduction is increased by an additional <HighLight>20%</>.",
+    "target_ru": "Когда здоровье ниже <HighLight>50%</>, снижение урона дополнительно увеличивается на <HighLight>20%</>."
+  },
+  {
+    "id": "131536",
+    "source_cn": "When Health is below <HighLight>50%</>, damage received is reduced by <HighLight>20%</>.",
+    "ref_en": "When Health is below <HighLight>50%</>, damage received is reduced by <HighLight>20%</>.",
+    "target_ru": "Когда здоровье ниже <HighLight>50%</>, получаемый урон снижается на <HighLight>20%</>."
+  },
+  {
+    "id": "131537",
+    "source_cn": "When Health is below <HighLight>50%</>, this effect is increased by an additional <HighLight>30%</>.",
+    "ref_en": "When Health is below <HighLight>50%</>, this effect is increased by an additional <HighLight>30%</>.",
+    "target_ru": "Когда здоровье ниже <HighLight>50%</>, этот эффект дополнительно увеличивается на <HighLight>30%</>."
+  },
+  {
+    "id": "131538",
+    "source_cn": "When Roselle Gustav enters the field: All allies +<HighLight>1%</> damage. [Arcane] gains additional <HighLight>1</> Mana recovery per second.",
+    "ref_en": "When Roselle Gustav enters the field: All allies +<HighLight>1%</> damage. [Arcane] gains additional <HighLight>1</> Mana recovery per second.",
+    "target_ru": "Когда Розель Густав выходит на поле: все союзники +<HighLight>1%</> к урону. [Тайная магия] получает дополнительно <HighLight>1</> ед. восстановления маны в сек."
+  },
+  {
+    "id": "131539",
+    "source_cn": "When a match round is lost, gain <HighLight> 2 Experience </>. If on a <HighLight> losing streak </>, gain an additional <HighLight> 1 Experience </>.",
+    "ref_en": "When a match round is lost, gain <HighLight> 2 Experience </>. If on a <HighLight> losing streak </>, gain an additional <HighLight> 1 Experience </>.",
+    "target_ru": "При поражении в раунде поединка даёт <HighLight> 2 очка опыта </>. При <HighLight> серии поражений </> даёт дополнительно <HighLight> 1 очко опыта </>."
+  },
+  {
+    "id": "131540",
+    "source_cn": "When an enemy dies, the nearest ally piece<HighLight></> restores 200 Health<HighLight></>.",
+    "ref_en": "When an enemy dies, the nearest ally piece<HighLight></> restores 200 Health<HighLight></>.",
+    "target_ru": "Когда погибает враг, ближайшая союзная фигура<HighLight></> восстанавливает 200 ед. здоровья<HighLight></>."
+  },
+  {
+    "id": "131541",
+    "source_cn": "When an enemy dies, the nearest ally piece<HighLight></> restores 400 Health<HighLight></>.",
+    "ref_en": "When an enemy dies, the nearest ally piece<HighLight></> restores 400 Health<HighLight></>.",
+    "target_ru": "Когда погибает враг, ближайшая союзная фигура<HighLight></> восстанавливает 400 ед. здоровья<HighLight></>."
+  },
+  {
+    "id": "131542",
+    "source_cn": "When an enemy piece dies, recover <HighLight>3%</> Max Health.",
+    "ref_en": "When an enemy piece dies, recover <HighLight>3%</> Max Health.",
+    "target_ru": "Когда погибает вражеская фигура, восстанавливает <HighLight>3%</> от макс. здоровья."
+  },
+  {
+    "id": "131543",
+    "source_cn": "When dealing or receiving damage, Attack increases by <HighLight>1%</>, stacking up to <HighLight>10</> times.",
+    "ref_en": "When dealing or receiving damage, Attack increases by <HighLight>1%</>, stacking up to <HighLight>10</> times.",
+    "target_ru": "При нанесении или получении урона атака увеличивается на <HighLight>1%</>, максимум <HighLight>10</> ур."
+  },
+  {
+    "id": "131544",
+    "source_cn": "When dealing or receiving damage, Attack is increased by <HighLight>1.5%</>, stacking up to <HighLight>15</> times.",
+    "ref_en": "When dealing or receiving damage, Attack is increased by <HighLight>1.5%</>, stacking up to <HighLight>15</> times.",
+    "target_ru": "При нанесении или получении урона атака увеличивается на <HighLight>1.5%</>, максимум <HighLight>15</> ур."
+  },
+  {
+    "id": "131545",
+    "source_cn": "When dealing or receiving damage, Attack is increased by <HighLight>2%</>, stacking up to <HighLight>15</> times.",
+    "ref_en": "When dealing or receiving damage, Attack is increased by <HighLight>2%</>, stacking up to <HighLight>15</> times.",
+    "target_ru": "При нанесении или получении урона атака увеличивается на <HighLight>2%</>, максимум <HighLight>15</> ур."
+  },
+  {
+    "id": "131546",
+    "source_cn": "When each of your chess pieces' Health first drops below <HighLight> 35% </>, restore <HighLight> 15% of their maximum Health </>.",
+    "ref_en": "When each of your chess pieces' Health first drops below <HighLight> 35% </>, restore <HighLight> 15% of their maximum Health </>.",
+    "target_ru": "Когда здоровье каждой из ваших фигур впервые падает ниже <HighLight> 35% </>, восстанавливает <HighLight> 15% от их макс. здоровья </>."
+  },
+  {
+    "id": "131547",
+    "source_cn": "When the battle starts, each adjacent ally<HighLight></> provides 6 Defense to the piece<HighLight></>.",
+    "ref_en": "When the battle starts, each adjacent ally<HighLight></> provides 6 Defense to the piece<HighLight></>.",
+    "target_ru": "В начале боя каждый смежный союзник<HighLight></> даёт фигуре 6 ед. защиты<HighLight></>."
+  },
+  {
+    "id": "131548",
+    "source_cn": "When the battle starts, each adjacent ally<HighLight></> provides 9 Defense to the piece<HighLight></>.",
+    "ref_en": "When the battle starts, each adjacent ally<HighLight></> provides 9 Defense to the piece<HighLight></>.",
+    "target_ru": "В начале боя каждый смежный союзник<HighLight></> даёт фигуре 9 ед. защиты<HighLight></>."
+  },
+  {
+    "id": "131549",
+    "source_cn": "When the battle starts, for every 1 ally piece in the first row<HighLight></>, pieces in the back two rows<HighLight></> gain 8% Attack<HighLight></>.",
+    "ref_en": "When the battle starts, for every 1 ally piece in the first row<HighLight></>, pieces in the back two rows<HighLight></> gain 8% Attack<HighLight></>.",
+    "target_ru": "В начале боя за каждую союзную фигуру в первом ряду<HighLight></> фигуры в двух задних рядах<HighLight></> получают 8% атаки<HighLight></>."
+  },
+  {
+    "id": "131550",
+    "source_cn": "Whenever an enemy dies, [Forsaken Land of the Gods] permanently gains Max Health.",
+    "ref_en": "Whenever an enemy dies, [Forsaken Land of the Gods] permanently gains Max Health.",
+    "target_ru": "Каждый раз при гибели врага фигуры [Земель, отвергнутых Богами] навсегда увеличивают макс. здоровье."
+  },
+  {
+    "id": "131551",
+    "source_cn": "Wild Hunt Greatsword",
+    "ref_en": "Wild Hunt Greatsword",
+    "target_ru": "Двуручный меч Дикой Охоты"
+  },
+  {
+    "id": "131552",
+    "source_cn": "Wilderness Legend",
+    "ref_en": "Wilderness Legend",
+    "target_ru": "Легенда пустошей"
+  },
+  {
+    "id": "131553",
+    "source_cn": "Wise Man's Spirit Ring",
+    "ref_en": "Wise Man's Spirit Ring",
+    "target_ru": "Духовное кольцо Мудреца"
+  },
+  {
+    "id": "131554",
+    "source_cn": "Witch Badge",
+    "ref_en": "Witch Badge",
+    "target_ru": "Эмблема Ведьмы"
+  },
+  {
+    "id": "131555",
+    "source_cn": "Your chess pieces <HighLight> every 4 seconds </> restore <HighLight> 3% of their maximum Health </>.",
+    "ref_en": "Your chess pieces <HighLight> every 4 seconds </> restore <HighLight> 3% of their maximum Health </>.",
+    "target_ru": "Ваши фигуры <HighLight> каждые 4 секунды </> восстанавливают <HighLight> 3% от своего максимального здоровья </>."
+  },
+  {
+    "id": "131556",
+    "source_cn": "Your chess pieces gain <HighLight> 8 Defense </>. When Health first drops below <HighLight> 50% </>, gain an additional <HighLight> 25 Defense </>.",
+    "ref_en": "Your chess pieces gain <HighLight> 8 Defense </>. When Health first drops below <HighLight> 50% </>, gain an additional <HighLight> 25 Defense </>.",
+    "target_ru": "Ваши фигуры получают <HighLight> 8 ед. защиты </>. Когда здоровье впервые падает ниже <HighLight> 50% </>, дополнительно получают <HighLight> 25 ед. защиты </>."
+  },
+  {
+    "id": "131557",
+    "source_cn": "Your pieces gain 12% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "ref_en": "Your pieces gain 12% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 12% вампиризма<HighLight></> и 20% скорости атаки<HighLight></>."
+  },
+  {
+    "id": "131558",
+    "source_cn": "Your pieces gain 15% Critical Hit Rate<HighLight></> and 25% Critical Damage<HighLight></>.",
+    "ref_en": "Your pieces gain 15% Critical Hit Rate<HighLight></> and 25% Critical Damage<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 15% шанса крит. удара<HighLight></> и 25% крит. урона<HighLight></>."
+  },
+  {
+    "id": "131559",
+    "source_cn": "Your pieces gain 18% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "ref_en": "Your pieces gain 18% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 18% вампиризма<HighLight></> и 20% скорости атаки<HighLight></>."
+  },
+  {
+    "id": "131560",
+    "source_cn": "Your pieces gain 20% Damage Deepening<HighLight></>. 15 seconds<HighLight> after the battle starts</>, they gain an additional 20% Damage Deepening<HighLight></>.",
+    "ref_en": "Your pieces gain 20% Damage Deepening<HighLight></>. 15 seconds<HighLight> after the battle starts</>, they gain an additional 20% Damage Deepening<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 20% увеличения урона<HighLight></>. Через 15 сек.<HighLight> после начала боя</> они получают дополнительно 20% увеличения урона<HighLight></>."
+  },
+  {
+    "id": "131561",
+    "source_cn": "Your pieces gain 200 Health<HighLight></> and 10% maximum Health<HighLight></>.",
+    "ref_en": "Your pieces gain 200 Health<HighLight></> and 10% maximum Health<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 200 ед. здоровья<HighLight></> и 10% к максимальному здоровью<HighLight></>."
+  },
+  {
+    "id": "131562",
+    "source_cn": "Your pieces gain 25% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "ref_en": "Your pieces gain 25% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>.",
+    "target_ru": "Ваши фигуры получают 25% вампиризма<HighLight></> и 20% скорости атаки<HighLight></>."
+  },
+  {
+    "id": "131563",
+    "source_cn": "[Absolute Shield] Gains a Max Health shield when Health is below <HighLight>40%</>, and gains Damage Reduction for <HighLight>10</> seconds.",
+    "ref_en": "[Absolute Shield] Gains a Max Health shield when Health is below <HighLight>40%</>, and gains Damage Reduction for <HighLight>10</> seconds.",
+    "target_ru": "[Абсолютный щит] Получает щит от макс. здоровья, когда здоровье падает ниже <HighLight>40%</>, и получает снижение урона на <HighLight>10</> секунд."
+  },
+  {
+    "id": "131564",
+    "source_cn": "[Infamy] +<HighLight>5%</> Attack Speed and <HighLight>5%</> Life Steal per stack.",
+    "ref_en": "[Infamy] +<HighLight>5%</> Attack Speed and <HighLight>5%</> Life Steal per stack.",
+    "target_ru": "[Дурная слава] +<HighLight>5%</> к скорости атаки и <HighLight>5%</> вампиризма за уровень."
+  },
+  {
+    "id": "131565",
+    "source_cn": "№1",
+    "ref_en": "№1",
+    "target_ru": "№1"
+  },
+  {
+    "id": "131566",
+    "source_cn": "【噬血】获得<HighLight>30%</>吸血。造成伤害时追加伤害，目标生命值低于<HighLight>50%</>时翻倍。",
+    "ref_en": "【噬血】获得<HighLight>30%</>吸血。造成伤害时追加伤害，目标生命值低于<HighLight>50%</>时翻倍。",
+    "target_ru": "【Кровожадность】Даёт <HighLight>30%</> вампиризма. При нанесении урона наносит дополнительный урон; если здоровье цели ниже <HighLight>50%</>, доп. урон удваивается."
+  },
+  {
+    "id": "131567",
+    "source_cn": "【恶名】每层+<HighLight>5%</>攻击和<HighLight>3%</>伤害减免。",
+    "ref_en": "【恶名】每层+<HighLight>5%</>攻击和<HighLight>3%</>伤害减免。",
+    "target_ru": "【Дурная слава】Каждый уровень: +<HighLight>5%</> к атаке и <HighLight>3%</> снижения урона."
+  },
+  {
+    "id": "131568",
+    "source_cn": "【新手推荐】五月庄园",
+    "ref_en": "【新手推荐】五月庄园",
+    "target_ru": "【Совет новичкам】Поместье Мэй"
+  },
+  {
+    "id": "131569",
+    "source_cn": "【新手推荐】伟大塔罗会",
+    "ref_en": "【新手推荐】伟大塔罗会",
+    "target_ru": "【Совет новичкам】Великий Клуб Таро"
+  },
+  {
+    "id": "131570",
+    "source_cn": "【新手推荐】神弃绝盾",
+    "ref_en": "【新手推荐】神弃绝盾",
+    "target_ru": "【Совет новичкам】Отвергнутые: Абсолютный щит"
+  },
+  {
+    "id": "131571",
+    "source_cn": "【新手推荐】神弃远击",
+    "ref_en": "【新手推荐】神弃远击",
+    "target_ru": "【Совет новичкам】Отвергнутые: Дальнобойный удар"
+  },
+  {
+    "id": "131572",
+    "source_cn": "【新手推荐】秘法塔罗95",
+    "ref_en": "【新手推荐】秘法塔罗95",
+    "target_ru": "【Совет новичкам】Тайная магия Таро 95"
+  },
+  {
+    "id": "131573",
+    "source_cn": "【新手推荐】绯红远击",
+    "ref_en": "【新手推荐】绯红远击",
+    "target_ru": "【Совет новичкам】Багровый дальнобойный удар"
+  },
+  {
+    "id": "131574",
+    "source_cn": "【新手推荐】罪恶廷根",
+    "ref_en": "【新手推荐】罪恶廷根",
+    "target_ru": "【Совет новичкам】Грешный Тинген"
+  },
+  {
+    "id": "131575",
+    "source_cn": "【新手推荐】蒸汽远击",
+    "ref_en": "【新手推荐】蒸汽远击",
+    "target_ru": "【Совет новичкам】Дальнобойный удар Эпохи пара"
+  },
+  {
+    "id": "131576",
+    "source_cn": "【新手推荐】非凡秘法",
+    "ref_en": "【新手推荐】非凡秘法",
+    "target_ru": "【Совет новичкам】Потусторонняя магия"
+  },
+  {
+    "id": "131577",
+    "source_cn": "【新手推荐】魔女咒术",
+    "ref_en": "【新手推荐】魔女咒术",
+    "target_ru": "【Совет новичкам】Проклятие Демониц"
+  },
+  {
+    "id": "131578",
+    "source_cn": "【新手推荐】黑夜战法",
+    "ref_en": "【新手推荐】黑夜战法",
+    "target_ru": "【Совет новичкам】Боевая магия Ночи"
+  },
+  {
+    "id": "131579",
+    "source_cn": "伤害加深<HighLight>10%</>。",
+    "ref_en": "伤害加深<HighLight>10%</>。",
+    "target_ru": "Увеличение урона на <HighLight>10%</>."
+  },
+  {
+    "id": "131580",
+    "source_cn": "使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>1%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。",
+    "ref_en": "使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>1%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。",
+    "target_ru": "Заставляет врагов в пределах <HighLight>2</> клеток терять <HighLight>1%</> от макс. здоровья в секунду и снижает получаемое ими исцеление на <HighLight>30%</>. Тяжёлое ранение длится <HighLight>5</> сек. и обновляется, пока цель в зоне действия."
+  },
+  {
+    "id": "131581",
+    "source_cn": "使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>2%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。",
+    "ref_en": "使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>2%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。",
+    "target_ru": "Заставляет врагов в пределах <HighLight>2</> клеток терять <HighLight>2%</> от макс. здоровья в секунду и снижает получаемое ими исцеление на <HighLight>30%</>. Тяжёлое ранение длится <HighLight>5</> сек. и обновляется, пока цель в зоне действия."
+  },
+  {
+    "id": "131582",
+    "source_cn": "全体每秒恢复<HighLight>1</>点法力。【秘法】额外<HighLight>2</>点。",
+    "ref_en": "全体每秒恢复<HighLight>1</>点法力。【秘法】额外<HighLight>2</>点。",
+    "target_ru": "Все восстанавливают <HighLight>1</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>2</> ед."
+  },
+  {
+    "id": "131583",
+    "source_cn": "全体每秒恢复<HighLight>2</>点法力。【秘法】额外<HighLight>5</>点。",
+    "ref_en": "全体每秒恢复<HighLight>2</>点法力。【秘法】额外<HighLight>5</>点。",
+    "target_ru": "Все восстанавливают <HighLight>2</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>5</> ед."
+  },
+  {
+    "id": "131584",
+    "source_cn": "全体每秒恢复<HighLight>3</>点法力。【秘法】额外<HighLight>9</>点。",
+    "ref_en": "全体每秒恢复<HighLight>3</>点法力。【秘法】额外<HighLight>9</>点。",
+    "target_ru": "Все восстанавливают <HighLight>3</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>9</> ед."
+  },
+  {
+    "id": "131585",
+    "source_cn": "冥想松露",
+    "ref_en": "冥想松露",
+    "target_ru": "Трюфель медитации"
+  },
+  {
+    "id": "131586",
+    "source_cn": "击杀目标后，对其<HighLight>1</>格内的敌人造成相当于<HighLight>90%</>攻击的伤害，冷却时间为<HighLight>2</>秒。",
+    "ref_en": "击杀目标后，对其<HighLight>1</>格内的敌人造成相当于<HighLight>90%</>攻击的伤害，冷却时间为<HighLight>2</>秒。",
+    "target_ru": "После убийства цели наносит урон в размере <HighLight>90%</> от атаки врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек."
+  },
+  {
+    "id": "131587",
+    "source_cn": "受伤对<HighLight>1</>格内全部敌方造成<HighLight>50%</>攻击伤害，冷却<HighLight>2</>秒。",
+    "ref_en": "受伤对<HighLight>1</>格内全部敌方造成<HighLight>50%</>攻击伤害，冷却<HighLight>2</>秒。",
+    "target_ru": "При получении урона наносит урон в размере <HighLight>50%</> от атаки всем врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек."
+  },
+  {
+    "id": "131588",
+    "source_cn": "席位属性×<HighLight>100%</>",
+    "ref_en": "席位属性×<HighLight>100%</>",
+    "target_ru": "Характеристики места ×<HighLight>100%</>"
+  },
+  {
+    "id": "131589",
+    "source_cn": "席位属性×<HighLight>120%</>",
+    "ref_en": "席位属性×<HighLight>120%</>",
+    "target_ru": "Характеристики места ×<HighLight>120%</>"
+  },
+  {
+    "id": "131590",
+    "source_cn": "席位属性×<HighLight>140%</>",
+    "ref_en": "席位属性×<HighLight>140%</>",
+    "target_ru": "Характеристики места ×<HighLight>140%</>"
+  },
+  {
+    "id": "131591",
+    "source_cn": "席位属性×<HighLight>160%</>",
+    "ref_en": "席位属性×<HighLight>160%</>",
+    "target_ru": "Характеристики места ×<HighLight>160%</>"
+  },
+  {
+    "id": "131592",
+    "source_cn": "席位属性×<HighLight>180%</>",
+    "ref_en": "席位属性×<HighLight>180%</>",
+    "target_ru": "Характеристики места ×<HighLight>180%</>"
+  },
+  {
+    "id": "131593",
+    "source_cn": "席位属性×<HighLight>200%</>",
+    "ref_en": "席位属性×<HighLight>200%</>",
+    "target_ru": "Характеристики места ×<HighLight>200%</>"
+  },
+  {
+    "id": "131594",
+    "source_cn": "幻山浪",
+    "ref_en": "幻山浪",
+    "target_ru": "Волна Призрачной Горы"
+  },
+  {
+    "id": "131595",
+    "source_cn": "我那清冷的心",
+    "ref_en": "我那清冷的心",
+    "target_ru": "Моё холодное сердце"
+  },
+  {
+    "id": "131596",
+    "source_cn": "战斗开始时及之后每隔<HighLight>5</>秒，使距离最近的<HighLight>2</>名其他友军攻击提高<HighLight>15%</>、攻速提高<HighLight>25%</>，持续<HighLight>3</>秒。",
+    "ref_en": "战斗开始时及之后每隔<HighLight>5</>秒，使距离最近的<HighLight>2</>名其他友军攻击提高<HighLight>15%</>、攻速提高<HighLight>25%</>，持续<HighLight>3</>秒。",
+    "target_ru": "В начале боя и каждые <HighLight>5</> сек. после увеличивает атаку <HighLight>2</> ближайших союзников на <HighLight>15%</> и скорость атаки на <HighLight>25%</> на <HighLight>3</> сек."
+  },
+  {
+    "id": "131597",
+    "source_cn": "战斗开始时获得<HighLight>6</>层【恶名】，伤害提高<HighLight>10%</>。",
+    "ref_en": "战斗开始时获得<HighLight>6</>层【恶名】，伤害提高<HighLight>10%</>。",
+    "target_ru": "В начале боя получает <HighLight>6</> уровней эффекта 【Дурная слава】, урон увеличивается на <HighLight>10%</>."
+  },
+  {
+    "id": "131598",
+    "source_cn": "战斗开始时，恢复<HighLight>10</>点法力值；生命值首次不高于<HighLight>40%</>时，恢复<HighLight>15</>点法力值，并获得相当于最大生命值<HighLight>20%</>的护盾，持续<HighLight>5</>秒。",
+    "ref_en": "战斗开始时，恢复<HighLight>10</>点法力值；生命值首次不高于<HighLight>40%</>时，恢复<HighLight>15</>点法力值，并获得相当于最大生命值<HighLight>20%</>的护盾，持续<HighLight>5</>秒。",
+    "target_ru": "В начале боя восстанавливает <HighLight>10</> ед. маны. Когда здоровье впервые падает до <HighLight>40%</> или ниже, восстанавливает <HighLight>15</> ед. маны и получает щит в размере <HighLight>20%</> от макс. здоровья на <HighLight>5</> сек."
+  },
+  {
+    "id": "131599",
+    "source_cn": "战斗开始时，恢复<HighLight>15</>点法力值；生命值首次不高于<HighLight>40%</>时，恢复<HighLight>20</>点法力值，并获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>5</>秒。",
+    "ref_en": "战斗开始时，恢复<HighLight>15</>点法力值；生命值首次不高于<HighLight>40%</>时，恢复<HighLight>20</>点法力值，并获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>5</>秒。",
+    "target_ru": "В начале боя восстанавливает <HighLight>15</> ед. маны. Когда здоровье впервые падает до <HighLight>40%</> или ниже, восстанавливает <HighLight>20</> ед. маны и получает щит в размере <HighLight>30%</> от макс. здоровья на <HighLight>5</> сек."
+  },
+  {
+    "id": "131600",
+    "source_cn": "战斗开始时，若位于前<HighLight>2</>排，则获得<HighLight>20%</>伤害减免；若位于后<HighLight>2</>排，则攻速提高<HighLight>40%</>。效果持续至战斗结束。",
+    "ref_en": "战斗开始时，若位于前<HighLight>2</>排，则获得<HighLight>20%</>伤害减免；若位于后<HighLight>2</>排，则攻速提高<HighLight>40%</>。效果持续至战斗结束。",
+    "target_ru": "В начале боя: в первых <HighLight>2</> рядах получает <HighLight>20%</> снижения урона; в последних <HighLight>2</> рядах скорость атаки повышается на <HighLight>40%</>. Действует до конца боя."
+  },
+  {
+    "id": "131601",
+    "source_cn": "战斗开始时，若相邻格内没有友军，则本回合最大生命值提高<HighLight>300</>点，攻击提高<HighLight>15%</>。",
+    "ref_en": "战斗开始时，若相邻格内没有友军，则本回合最大生命值提高<HighLight>300</>点，攻击提高<HighLight>15%</>。",
+    "target_ru": "В начале боя: если на соседних клетках нет союзников, макс. здоровье в этом раунде увеличивается на <HighLight>300</> ед., а атака — на <HighLight>15%</>."
+  },
+  {
+    "id": "131602",
+    "source_cn": "战斗开始时，获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>8</>秒。",
+    "ref_en": "战斗开始时，获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>8</>秒。",
+    "target_ru": "В начале боя получает щит в размере <HighLight>30%</> от максимального здоровья на <HighLight>8</> сек."
+  },
+  {
+    "id": "131603",
+    "source_cn": "战斗开始时，获得相当于最大生命值<HighLight>40%</>的护盾，持续<HighLight>8</>秒。",
+    "ref_en": "战斗开始时，获得相当于最大生命值<HighLight>40%</>的护盾，持续<HighLight>8</>秒。",
+    "target_ru": "В начале боя получает щит в размере <HighLight>40%</> от максимального здоровья на <HighLight>8</> сек."
+  },
+  {
+    "id": "131604",
+    "source_cn": "摆烂寄了",
+    "ref_en": "摆烂寄了",
+    "target_ru": "Сдаюсь, всё кончено"
+  },
+  {
+    "id": "131605",
+    "source_cn": "施法后，自身及<HighLight>1</>格内生命值百分比最低的<HighLight>1</>名友军获得相当于各自最大生命值<HighLight>8%</>的护盾，持续<HighLight>4</>秒。",
+    "ref_en": "施法后，自身及<HighLight>1</>格内生命值百分比最低的<HighLight>1</>名友军获得相当于各自最大生命值<HighLight>8%</>的护盾，持续<HighLight>4</>秒。",
+    "target_ru": "После применения навыка сам персонаж и <HighLight>1</> союзник с наименьшим % здоровья в пределах <HighLight>1</> клетки получают щит в размере <HighLight>8%</> от макс. здоровья на <HighLight>4</> сек."
+  },
+  {
+    "id": "131606",
+    "source_cn": "施法后，造成的伤害提高<HighLight>20%</>，持续<HighLight>4</>秒，该效果不可叠加。",
+    "ref_en": "施法后，造成的伤害提高<HighLight>20%</>，持续<HighLight>4</>秒，该效果不可叠加。",
+    "target_ru": "После применения навыка наносимый урон увеличивается на <HighLight>20%</> на <HighLight>4</> сек. Эффект не суммируется."
+  },
+  {
+    "id": "131607",
+    "source_cn": "昂哔哩巴波",
+    "ref_en": "昂哔哩巴波",
+    "target_ru": "Анбилибабо"
+  },
+  {
+    "id": "131608",
+    "source_cn": "普攻额外造成相当于自身生命值<HighLight>1.5%</>的伤害；相邻敌人受到该额外伤害的<HighLight>50%</>。",
+    "ref_en": "普攻额外造成相当于自身生命值<HighLight>1.5%</>的伤害；相邻敌人受到该额外伤害的<HighLight>50%</>。",
+    "target_ru": "Базовые атаки дополнительно наносят урон, равный <HighLight>1.5%</> от собственного здоровья; соседние враги получают <HighLight>50%</> от этого урона."
+  },
+  {
+    "id": "131609",
+    "source_cn": "普攻额外造成相当于自身生命值<HighLight>2%</>的伤害；每损失<HighLight>10%</>生命值，攻速提高<HighLight>5%</>，最多叠加<HighLight>5</>层。",
+    "ref_en": "普攻额外造成相当于自身生命值<HighLight>2%</>的伤害；每损失<HighLight>10%</>生命值，攻速提高<HighLight>5%</>，最多叠加<HighLight>5</>层。",
+    "target_ru": "Базовые атаки дополнительно наносят урон, равный <HighLight>2%</> от собственного здоровья; за каждые потерянные <HighLight>10%</> здоровья скорость атаки повышается на <HighLight>5%</>, максимум <HighLight>5</> уровней."
+  },
+  {
+    "id": "131610",
+    "source_cn": "每上阵<HighLight>1</>名成员，全体获得其席位属性：\n佛尔思：<img id=\"12\" width=\"40\" height=\"40\"/>+<HighLight>1</>点\n戴里克：<img id=\"09\" width=\"40\" height=\"40\"/>+<HighLight>2%</>｜休·迪尔查：<img id=\"06\" width=\"40\" height=\"40\"/>+<HighLight>7%</>\n阿尔杰：<img id=\"03\" width=\"40\" height=\"40\"/>+<HighLight>8%</>｜奥黛丽：<img id=\"10\" width=\"40\" height=\"40\"/>+<HighLight>5%</>\n伦纳德：<img id=\"11\" width=\"40\" height=\"40\"/>+<HighLight>5%</>｜克莱恩：<img id=\"07\" width=\"40\" height=\"40\"/>+<HighLight>10%</>",
+    "ref_en": "每上阵<HighLight>1</>名成员，全体获得其席位属性：\n佛尔思：<img id=\"12\" width=\"40\" height=\"40\"/>+<HighLight>1</>点\n戴里克：<img id=\"09\" width=\"40\" height=\"40\"/>+<HighLight>2%</>｜休·迪尔查：<img id=\"06\" width=\"40\" height=\"40\"/>+<HighLight>7%</>\n阿尔杰：<img id=\"03\" width=\"40\" height=\"40\"/>+<HighLight>8%</>｜奥黛丽：<img id=\"10\" width=\"40\" height=\"40\"/>+<HighLight>5%</>\n伦纳德：<img id=\"11\" width=\"40\" height=\"40\"/>+<HighLight>5%</>｜克莱恩：<img id=\"07\" width=\"40\" height=\"40\"/>+<HighLight>10%</>",
+    "target_ru": "За каждого выставленного участника (<HighLight>1</>) все получают характеристики его места:\nФорс: <img id=\"12\" width=\"40\" height=\"40\"/>+<HighLight>1</> ед.\nДэйрик: <img id=\"09\" width=\"40\" height=\"40\"/>+<HighLight>2%</>｜Сью Дирча: <img id=\"06\" width=\"40\" height=\"40\"/>+<HighLight>7%</>\nЭлджер: <img id=\"03\" width=\"40\" height=\"40\"/>+<HighLight>8%</>｜Одри: <img id=\"10\" width=\"40\" height=\"40\"/>+<HighLight>5%</>\nЛеонард: <img id=\"11\" width=\"40\" height=\"40\"/>+<HighLight>5%</>｜Клейн: <img id=\"07\" width=\"40\" height=\"40\"/>+<HighLight>10%</>"
+  },
+  {
+    "id": "131611",
+    "source_cn": "每名敌方阵亡：+<HighLight>10</>点最大生命值。",
+    "ref_en": "每名敌方阵亡：+<HighLight>10</>点最大生命值。",
+    "target_ru": "За каждого погибшего врага: +<HighLight>10</> ед. к максимальному здоровью."
+  },
+  {
+    "id": "131612",
+    "source_cn": "每名敌方阵亡：+<HighLight>5</>点最大生命值。",
+    "ref_en": "每名敌方阵亡：+<HighLight>5</>点最大生命值。",
+    "target_ru": "За каждого погибшего врага: +<HighLight>5</> ед. к максимальному здоровью."
+  },
+  {
+    "id": "131613",
+    "source_cn": "每完成<HighLight>2</>次普攻或施放<HighLight>1</>次技能后，攻速和攻击均提高<HighLight>8%</>，持续至战斗结束，最多叠加<HighLight>3</>层。",
+    "ref_en": "每完成<HighLight>2</>次普攻或施放<HighLight>1</>次技能后，攻速和攻击均提高<HighLight>8%</>，持续至战斗结束，最多叠加<HighLight>3</>层。",
+    "target_ru": "После каждых <HighLight>2</> базовых атак или <HighLight>1</> применения навыка скорость атаки и атака повышаются на <HighLight>8%</> до конца боя, максимум <HighLight>3</> уровня."
+  },
+  {
+    "id": "131614",
+    "source_cn": "每次击杀敌人后，攻击提高<HighLight>10%</>，防御提高<HighLight>10</>点，最多叠加<HighLight>5</>层。",
+    "ref_en": "每次击杀敌人后，攻击提高<HighLight>10%</>，防御提高<HighLight>10</>点，最多叠加<HighLight>5</>层。",
+    "target_ru": "После каждого убийства врага атака повышается на <HighLight>10%</>, а защита — на <HighLight>10</> ед., максимум <HighLight>5</> уровней."
+  },
+  {
+    "id": "131615",
+    "source_cn": "每次受到伤害时，获得<HighLight>2.5%</>伤害减免，持续<HighLight>6</>秒，最多叠加<HighLight>5</>层；每次叠加时刷新持续时间。",
+    "ref_en": "每次受到伤害时，获得<HighLight>2.5%</>伤害减免，持续<HighLight>6</>秒，最多叠加<HighLight>5</>层；每次叠加时刷新持续时间。",
+    "target_ru": "При каждом получении урона даёт <HighLight>2.5%</> снижения урона на <HighLight>6</> сек., максимум <HighLight>5</> уровней; каждое наложение обновляет длительность."
+  },
+  {
+    "id": "131616",
+    "source_cn": "每隔<HighLight>2</>秒，恢复<HighLight>2%</>最大生命值；生命值不高于<HighLight>50%</>时，恢复量提高至<HighLight>4%</>最大生命值。",
+    "ref_en": "每隔<HighLight>2</>秒，恢复<HighLight>2%</>最大生命值；生命值不高于<HighLight>50%</>时，恢复量提高至<HighLight>4%</>最大生命值。",
+    "target_ru": "Каждые <HighLight>2</> сек. восстанавливает <HighLight>2%</> от макс. здоровья; когда здоровье не выше <HighLight>50%</>, восстановление повышается до <HighLight>4%</> от макс. здоровья."
+  },
+  {
+    "id": "131617",
+    "source_cn": "每隔<HighLight>2</>秒，恢复<HighLight>3%</>最大生命值；生命值不高于<HighLight>50%</>时，恢复量提高至<HighLight>5%</>最大生命值。",
+    "ref_en": "每隔<HighLight>2</>秒，恢复<HighLight>3%</>最大生命值；生命值不高于<HighLight>50%</>时，恢复量提高至<HighLight>5%</>最大生命值。",
+    "target_ru": "Каждые <HighLight>2</> сек. восстанавливает <HighLight>3%</> от макс. здоровья; когда здоровье не выше <HighLight>50%</>, восстановление повышается до <HighLight>5%</> от макс. здоровья."
+  },
+  {
+    "id": "131618",
+    "source_cn": "每隔<HighLight>4</>秒，为生命值最低的友军提供相当于其最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒；阵亡时，使全体友军获得相当于各自最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒。",
+    "ref_en": "每隔<HighLight>4</>秒，为生命值最低的友军提供相当于其最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒；阵亡时，使全体友军获得相当于各自最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒。",
+    "target_ru": "Каждые <HighLight>4</> сек. даёт союзнику с наименьшим здоровьем щит в размере <HighLight>5%</> от его макс. здоровья на <HighLight>3</> сек.; при гибели даёт всем союзникам щит в размере <HighLight>5%</> от их макс. здоровья на <HighLight>3</> сек."
+  },
+  {
+    "id": "131619",
+    "source_cn": "每隔<HighLight>5</>秒，攻击提高<HighLight>10%</>，最多叠加<HighLight>5</>层。",
+    "ref_en": "每隔<HighLight>5</>秒，攻击提高<HighLight>10%</>，最多叠加<HighLight>5</>层。",
+    "target_ru": "Каждые <HighLight>5</> сек. атака увеличивается на <HighLight>10%</>, максимум <HighLight>5</> уровней."
+  },
+  {
+    "id": "131620",
+    "source_cn": "每隔<HighLight>5</>秒，攻击提高<HighLight>15%</>，最多叠加<HighLight>5</>层。",
+    "ref_en": "每隔<HighLight>5</>秒，攻击提高<HighLight>15%</>，最多叠加<HighLight>5</>层。",
+    "target_ru": "Каждые <HighLight>5</> сек. атака увеличивается на <HighLight>15%</>, максимум <HighLight>5</> уровней."
+  },
+  {
+    "id": "131621",
+    "source_cn": "洞察咸鱼",
+    "ref_en": "洞察咸鱼",
+    "target_ru": "Проницательная рыба"
+  },
+  {
+    "id": "131622",
+    "source_cn": "爱帮忙的苏茜",
+    "ref_en": "爱帮忙的苏茜",
+    "target_ru": "Полезная Сузи"
+  },
+  {
+    "id": "131623",
+    "source_cn": "生命值低于<HighLight>40%</>时，解除控制并进入隐匿状态，持续<HighLight>1.5</>秒，同时恢复<HighLight>20%</>已损失生命值，冷却<HighLight>50</>秒。",
+    "ref_en": "生命值低于<HighLight>40%</>时，解除控制并进入隐匿状态，持续<HighLight>1.5</>秒，同时恢复<HighLight>20%</>已损失生命值，冷却<HighLight>50</>秒。",
+    "target_ru": "Когда здоровье падает ниже <HighLight>40%</>, снимает эффекты контроля и входит в невидимость на <HighLight>1.5</> сек., восстанавливая <HighLight>20%</> от потерянного здоровья. Перезарядка: <HighLight>50</> сек."
+  },
+  {
+    "id": "131624",
+    "source_cn": "生命值低于<HighLight>40%</>时，解除控制并进入隐匿状态，持续<HighLight>2</>秒，同时恢复<HighLight>35%</>已损失生命值，冷却<HighLight>50</>秒。",
+    "ref_en": "生命值低于<HighLight>40%</>时，解除控制并进入隐匿状态，持续<HighLight>2</>秒，同时恢复<HighLight>35%</>已损失生命值，冷却<HighLight>50</>秒。",
+    "target_ru": "Когда здоровье падает ниже <HighLight>40%</>, снимает эффекты контроля и входит в невидимость на <HighLight>2</> сек., восстанавливая <HighLight>35%</> от потерянного здоровья. Перезарядка: <HighLight>50</> сек."
+  },
+  {
+    "id": "131625",
+    "source_cn": "生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>20%</>的护盾，持续<HighLight>5</>秒。",
+    "ref_en": "生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>20%</>的护盾，持续<HighLight>5</>秒。",
+    "target_ru": "Когда здоровье впервые опускается ниже <HighLight>40%</>, получает щит в размере <HighLight>20%</> от максимального здоровья на <HighLight>5</> сек."
+  },
+  {
+    "id": "131626",
+    "source_cn": "生命值高于<HighLight>50%</>时，攻击额外提高<HighLight>10%</>；生命值低于<HighLight>50%</>时，吸血额外提高<HighLight>10%</>。",
+    "ref_en": "生命值高于<HighLight>50%</>时，攻击额外提高<HighLight>10%</>；生命值低于<HighLight>50%</>时，吸血额外提高<HighLight>10%</>。",
+    "target_ru": "Когда здоровье выше <HighLight>50%</>, атака дополнительно повышается на <HighLight>10%</>; когда ниже <HighLight>50%</>, вампиризм дополнительно повышается на <HighLight>10%</>."
+  },
+  {
+    "id": "131627",
+    "source_cn": "生命值高于<HighLight>50%</>时，攻击额外提高<HighLight>15%</>；生命值低于<HighLight>50%</>时，吸血额外提高<HighLight>15%</>。",
+    "ref_en": "生命值高于<HighLight>50%</>时，攻击额外提高<HighLight>15%</>；生命值低于<HighLight>50%</>时，吸血额外提高<HighLight>15%</>。",
+    "target_ru": "Когда здоровье выше <HighLight>50%</>, атака дополнительно повышается на <HighLight>15%</>; когда ниже <HighLight>50%</>, вампиризм дополнительно повышается на <HighLight>15%</>."
+  },
+  {
+    "id": "131628",
+    "source_cn": "白井秋绘",
+    "ref_en": "白井秋绘",
+    "target_ru": "Акиэ Сираи"
+  },
+  {
+    "id": "131629",
+    "source_cn": "绑定最大生命值最高的友军，每隔<HighLight>6</>秒为其提供<HighLight>250</>点护盾。该友军施法时，装备携带者恢复<HighLight>8</>点法力值，此效果每<HighLight>2</>秒最多触发一次。",
+    "ref_en": "绑定最大生命值最高的友军，每隔<HighLight>6</>秒为其提供<HighLight>250</>点护盾。该友军施法时，装备携带者恢复<HighLight>8</>点法力值，此效果每<HighLight>2</>秒最多触发一次。",
+    "target_ru": "Связывается с союзником с наивысшим макс. здоровьем, каждые <HighLight>6</> сек. даруя ему щит на <HighLight>250</> ед. Когда этот союзник применяет навык, носитель восстанавливает <HighLight>8</> ед. маны (не чаще раза в <HighLight>2</> сек.)."
+  },
+  {
+    "id": "131630",
+    "source_cn": "获得<HighLight>2个1星亵渎魔女</>。技能强化：<HighLight>袭击密集敌人，恢复自身生命并提高防御</>。<HighLight>5个对弈回合</>后，获得<HighLight>2个低级棋子记录仪</>。",
+    "ref_en": "获得<HighLight>2个1星亵渎魔女</>。技能强化：<HighLight>袭击密集敌人，恢复自身生命并提高防御</>。<HighLight>5个对弈回合</>后，获得<HighLight>2个低级棋子记录仪</>。",
+    "target_ru": "Даёт <HighLight>2 1-звёздочные Демоницы Осквернения</>. Усиление навыка: <HighLight>атакует скопление врагов, восстанавливает себе здоровье и повышает защиту</>. Через <HighLight>5 раундов поединка</> даёт <HighLight>2 Регистратора фигур низкого уровня</>."
+  },
+  {
+    "id": "131631",
+    "source_cn": "获得【咒术】共鸣。击杀或助攻后，恢复<HighLight>8</>点法力值，冷却时间为<HighLight>2</>秒。",
+    "ref_en": "获得【咒术】共鸣。击杀或助攻后，恢复<HighLight>8</>点法力值，冷却时间为<HighLight>2</>秒。",
+    "target_ru": "Получает резонанс 【Проклятие】. После убийства или помощи восстанавливает <HighLight>8</> ед. маны. Перезарядка: <HighLight>2</> сек."
+  },
+  {
+    "id": "131632",
+    "source_cn": "获得【战法】共鸣。",
+    "ref_en": "获得【战法】共鸣。",
+    "target_ru": "Получает резонанс 【Боевая магия】."
+  },
+  {
+    "id": "131633",
+    "source_cn": "获得【绝盾】共鸣。生命值低于<HighLight>30%</>时，获得相当于最大生命值<HighLight>15%</>的护盾，持续<HighLight>4</>秒，冷却时间为<HighLight>15</>秒。",
+    "ref_en": "获得【绝盾】共鸣。生命值低于<HighLight>30%</>时，获得相当于最大生命值<HighLight>15%</>的护盾，持续<HighLight>4</>秒，冷却时间为<HighLight>15</>秒。",
+    "target_ru": "Получает резонанс 【Абсолютный щит】. Когда здоровье падает ниже <HighLight>30%</>, даёт щит в размере <HighLight>15%</> от макс. здоровья на <HighLight>4</> сек. Перезарядка: <HighLight>15</> сек."
+  },
+  {
+    "id": "131634",
+    "source_cn": "获得【血刃】共鸣。目标生命值低于<HighLight>15%</>时，额外造成其当前生命值<HighLight>15%</>的伤害，冷却时间为<HighLight>8</>秒。",
+    "ref_en": "获得【血刃】共鸣。目标生命值低于<HighLight>15%</>时，额外造成其当前生命值<HighLight>15%</>的伤害，冷却时间为<HighLight>8</>秒。",
+    "target_ru": "Получает резонанс 【Кровавый клинок】. Если здоровье цели ниже <HighLight>15%</>, дополнительно наносит урон в размере <HighLight>15%</> от её текущего здоровья. Перезарядка: <HighLight>8</> сек."
+  },
+  {
+    "id": "131635",
+    "source_cn": "获得【远击】共鸣。开战<HighLight>2</>秒后，攻击提高<HighLight>20%</>，持续<HighLight>6</>秒。",
+    "ref_en": "获得【远击】共鸣。开战<HighLight>2</>秒后，攻击提高<HighLight>20%</>，持续<HighLight>6</>秒。",
+    "target_ru": "Получает резонанс 【Дальнобойный удар】. Через <HighLight>2</> сек. после начала боя атака увеличивается на <HighLight>20%</> на <HighLight>6</> сек."
+  },
+  {
+    "id": "131636",
+    "source_cn": "造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>0.75%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。",
+    "ref_en": "造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>0.75%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。",
+    "target_ru": "После нанесения урона заставляет цель терять <HighLight>0.75%</> от её макс. здоровья каждую секунду в течение <HighLight>5</> сек., снижая получаемое ею исцеление на <HighLight>30%</>."
+  },
+  {
+    "id": "131637",
+    "source_cn": "造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>1%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。",
+    "ref_en": "造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>1%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。",
+    "target_ru": "После нанесения урона заставляет цель терять <HighLight>1%</> от её макс. здоровья каждую секунду в течение <HighLight>5</> сек., снижая получаемое ею исцеление на <HighLight>30%</>."
+  },
+  {
+    "id": "131638",
+    "source_cn": "造成的伤害提高<HighLight>15%</>。",
+    "ref_en": "造成的伤害提高<HighLight>15%</>。",
+    "target_ru": "Наносимый урон увеличивается на <HighLight>15%</>."
+  },
+  {
+    "id": "131639",
+    "source_cn": "阿兹克·艾格斯的三波灵界轰击命中时，使目标防御降低<HighLight>40%</>，持续<HighLight>4</>秒。",
+    "ref_en": "阿兹克·艾格斯的三波灵界轰击命中时，使目标防御降低<HighLight>40%</>，持续<HighLight>4</>秒。",
+    "target_ru": "При попадании трех волн духовной бомбардировки Азика Эггерса снижает защиту цели на <HighLight>40%</> на <HighLight>4</> сек."
+  },
+  {
+    "id": "131640",
+    "source_cn": "额外造成<HighLight>15%</>攻击伤害。",
+    "ref_en": "额外造成<HighLight>15%</>攻击伤害。",
+    "target_ru": "Дополнительно наносит <HighLight>15%</> урона от атаки."
+  },
+  {
+    "id": "131641",
+    "source_cn": "额外造成<HighLight>20%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "ref_en": "额外造成<HighLight>20%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "target_ru": "Дополнительно наносит <HighLight>20%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>."
+  },
+  {
+    "id": "131642",
+    "source_cn": "额外造成<HighLight>30%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "ref_en": "额外造成<HighLight>30%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "target_ru": "Дополнительно наносит <HighLight>30%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>."
+  },
+  {
+    "id": "131643",
+    "source_cn": "额外造成<HighLight>40%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "ref_en": "额外造成<HighLight>40%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。",
+    "target_ru": "Дополнительно наносит <HighLight>40%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>."
+  },
+  {
+    "id": "131644",
+    "source_cn": "首次低于<HighLight>40%</>生命值时，获得相当于<HighLight>12%</>最大生命值的护盾，持续<HighLight>5</>秒。",
+    "ref_en": "首次低于<HighLight>40%</>生命值时，获得相当于<HighLight>12%</>最大生命值的护盾，持续<HighLight>5</>秒。",
+    "target_ru": "Когда здоровье впервые опускается ниже <HighLight>40%</>, получает щит в размере <HighLight>12%</> от максимального здоровья на <HighLight>5</> сек."
   }
 ]

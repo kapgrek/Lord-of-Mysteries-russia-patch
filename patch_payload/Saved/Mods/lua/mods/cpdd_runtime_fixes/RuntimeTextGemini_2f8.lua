@@ -245,4 +245,5 @@ return {
     ["Bidder:"] = "Участник торгов:",
     ["Reading puzzle 18/20, enter the correct option area within the time limit!"] = "Читая головоломку 18/20, войдите в правильную область выбора в течение отведенного времени!",
     ["Equip to gain the [Giant Dragon Inheritance] bond"] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]",
+    ["Randomly obtain <HighLight>two</> [Steam Age] pieces of Equipment."] = "Случайным образом даёт <HighLight>два</> снаряжения [Эпохи пара].",
 }

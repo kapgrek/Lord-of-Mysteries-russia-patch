@@ -249,4 +249,6 @@ return {
     ["Dividend rewards will be automatically sent to your mailbox after %s"] = "Дивидендные вознаграждения будут автоматически отправлены на ваш почтовый ящик после %s.",
     ["(Currently used for cases where the benchmark point = taroffset)."] = "(В настоящее время используется для случаев, когда контрольная точка = taroffset).",
     ["Olga"] = "Ольга",
+    ["Gain 1 Arcane Badge<HighLight></>. After activating Arcane, when each Arcane piece performs their 4th cast in each battle<HighLight></>, restore 8 mana to the entire team<HighLight></>."] = "Даёт 1 эмблему Тайной магии<HighLight></>. После активации Тайной магии при 4-м применении навыка фигурой Тайной магии в каждом бою<HighLight></> восстанавливает 8 ед. маны всей команде<HighLight></>.",
+    ["Wilderness Legend"] = "Легенда пустошей",
 }

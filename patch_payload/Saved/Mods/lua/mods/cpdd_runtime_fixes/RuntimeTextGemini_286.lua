@@ -238,4 +238,6 @@ return {
     ["Offer               "] = "Предложение",
     ["Hmm... I'd better come back later."] = "Хм... Мне лучше вернуться позже.",
     ["绝对护盾"] = "Абсолютный щит",
+    ["Gain 1 Ray Bieber<HighLight></>. His skill is strengthened to: Dash towards the target and launch a range Impact, dealing higher damage to the main target while Stunning surrounding enemies<HighLight></>."] = "Даёт 1 Рея Бибера<HighLight></>. Навык усилен: делает рывок к цели и наносит удар по площади, причиняя повышенный урон главной цели и оглушая врагов вокруг<HighLight></>.",
+    ["Gain the [May Manor] Resonance."] = "Даёт резонанс [Поместье Мэй].",
 }

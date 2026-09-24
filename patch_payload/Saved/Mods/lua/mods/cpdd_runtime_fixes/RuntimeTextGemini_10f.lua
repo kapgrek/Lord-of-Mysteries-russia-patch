@@ -265,4 +265,7 @@ return {
     ["Second Year"] = "Второй год",
     ["激活羁绊：5"] = "Активировано резонансов: 5",
     ["8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed."] = "Через 8 сек. после начала боя [Сияние Багряной Луны] наносит чистый урон всем врагам и повышает скорость атаки всех союзников.",
+    ["Gain 1 Misfortune Water Giant Turtle<HighLight></>. Skill Strengthening: Bite the target to deal 333% Attack damage<HighLight></>, and provide all your pieces with a shield equal to 15% of their respective maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>."] = "Даёт 1 Водяную исполинскую черепаху бедствий<HighLight></>. Усиление навыка: кусает цель, нанося 333% урона от атаки<HighLight></>, и даёт всем фигурам щит в 15% от их макс. здоровья<HighLight></> на 5 сек.<HighLight></>",
+    ["Gain an additional <HighLight>65%</> Max Health."] = "Даёт дополнительно <HighLight>65%</> к максимальному здоровью.",
+    ["我那清冷的心"] = "Моё холодное сердце",
 }

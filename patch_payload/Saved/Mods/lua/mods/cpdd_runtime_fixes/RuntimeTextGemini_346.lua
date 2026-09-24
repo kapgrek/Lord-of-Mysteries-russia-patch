@@ -275,4 +275,5 @@ return {
     ["Level 64 Competitive Brand Equipment Selection Box"] = "Коробка выбора снаряжения конкурентной марки 64-го уровня",
     ["It's time to say goodbye to this damn foggy weather!"] = "Пришло время попрощаться с этой чертовой туманной погодой!",
     ["Take out money"] = "Вынуть деньги",
+    ["For every <HighLight>1</> Resonance activated, all allies gain additional Attack, up to <HighLight>10</> Resonances."] = "За каждый активированный резонанс (<HighLight>1</>) все союзники получают дополнительную атаку, максимум до <HighLight>10</> резонансов.",
 }

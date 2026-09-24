@@ -279,4 +279,5 @@ return {
     ["When attacking a Mystery Pryer Pathway Beyonder, Damage Increased by {*.1f**,F1690001,MysteryPryerHurtMulti}."] = "При атаке Mystery Pryer Pathway Потусторонний урон увеличивается на {*.1f**,F1690001,MysteryPryerHurtMulti}.",
     ["Yi Ao"] = "Йи Ао",
     ["装配后获得【观众】羁绊。"] = "Экипируйте, чтобы получить резонанс [Зритель].",
+    ["Gain an additional <HighLight> 2 Experience </> each match round. Your <HighLight> 5-cost chess pieces </> gain <HighLight> 12% maximum Health </> and <HighLight> 12% Attack Speed </>."] = "Даёт дополнительно <HighLight> 2 очка опыта </> каждый раунд поединка. Ваши <HighLight> фигуры за 5 золотых </> получают <HighLight> 12% к макс. здоровью </> и <HighLight> 12% к скорости атаки </>.",
 }

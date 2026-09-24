@@ -242,4 +242,5 @@ return {
     ["Bessie cleaning path point"] = "Бесси очищает точку пути",
     ["Left?"] = "Левый?",
     ["By then, I'll be able to stand on the deck and watch the sea to my heart's content every day!"] = "К тому времени я смогу стоять на палубе и смотреть на море в свое удовольствие каждый день!",
+    ["Battle Intent Staff"] = "Посох боевого духа",
 }

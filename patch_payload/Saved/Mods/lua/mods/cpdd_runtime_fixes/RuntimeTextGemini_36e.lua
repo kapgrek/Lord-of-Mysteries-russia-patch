@@ -283,4 +283,5 @@ return {
     ["Avatar monster spawn visual buff"] = "Визуальный усилитель появления монстров Аватара",
     ["Exchange voucher produced from the Brass Book Challenge/Adventure."] = "Купон обмена, полученный в испытаниях Латунной книги: Приключения.",
     ["心灵灯塔"] = "Маяк разума",
+    ["Gain the [Swift Hunt] Resonance. After each basic attack, Attack Speed is increased by <HighLight>5%</>, stacking up to <HighLight>5</> times."] = "Даёт резонанс [Стремительная охота]. После каждой базовой атаки скорость атаки повышается на <HighLight>5%</>, максимум <HighLight>5</> уровней.",
 }

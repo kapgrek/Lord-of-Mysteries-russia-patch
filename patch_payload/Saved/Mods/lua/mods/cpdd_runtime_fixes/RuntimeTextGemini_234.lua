@@ -256,4 +256,5 @@ return {
     ["Grey Fog"] = "Серый туман",
     ["(Hero) Turntable Suit BUFF Spade"] = "(Герой) Костюм проигрывателя BUFF Spade",
     ["Dungeon_Jump to Next Level Map"] = "Dungeon_Jump на карту следующего уровня",
+    ["Immediately gain <HighLight> one Fine Equipment Casket </>, and after <HighLight> 10 match rounds </>, gain another <HighLight> one Sealed Equipment Casket </>."] = "Немедленно даёт <HighLight> один ларец с отличным снаряжением </>, а через <HighLight> 10 раундов поединка </> даёт ещё <HighLight> один запечатанный ларец снаряжения </>.",
 }

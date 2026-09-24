@@ -270,4 +270,6 @@ return {
     ["The fountain is about to erupt! Beyonders, please pay attention to adjust!"] = "Фонтан вот-вот извергнется! Потусторонние, пожалуйста, обратите внимание на настройку!",
     ["The Dead Theater Owner Gift"] = "Подарок владельца мертвого театра",
     ["Chase Viewing Point"] = "Смотровая площадка Чейза",
+    ["When the battle starts, each adjacent ally<HighLight></> provides 6 Defense to the piece<HighLight></>."] = "В начале боя каждый смежный союзник<HighLight></> даёт фигуре 6 ед. защиты<HighLight></>.",
+    ["使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>2%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。"] = "Заставляет врагов в пределах <HighLight>2</> клеток терять <HighLight>2%</> от макс. здоровья в секунду и снижает получаемое ими исцеление на <HighLight>30%</>. Тяжёлое ранение длится <HighLight>5</> сек. и обновляется, пока цель в зоне действия.",
 }

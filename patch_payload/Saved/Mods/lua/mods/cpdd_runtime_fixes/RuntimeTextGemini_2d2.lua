@@ -264,4 +264,6 @@ return {
     ["Unlocked after all components reach max level."] = "Разблокируется после того, как все компоненты достигнут максимального уровня.",
     ["Quest-Sacred Poison"] = "Квест-Священный яд",
     ["I came, I saw, I recorded."] = "Пришёл, увидел, записал.",
+    ["Gain the [Steam Age] Resonance."] = "Даёт резонанс [Эпоха пара].",
+    ["Iron Sword"] = "Железный меч",
 }

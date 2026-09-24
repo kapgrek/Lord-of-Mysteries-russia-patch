@@ -265,4 +265,5 @@ return {
     ["Reach the rank of King of Angels in Moment of Fate."] = "Достигните ранга Короля Ангелов в «Моменте Судьбы».",
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Normal)</> and defeat <Highlight>Clown</> for a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Normal)</> и победите <Highlight>Клоун</>, чтобы получить шанс получить следующие предметы.",
     ["自身8米范围内的区域"] = "Область в радиусе 8 м вокруг себя",
+    ["Your pieces gain 12% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>."] = "Ваши фигуры получают 12% вампиризма<HighLight></> и 20% скорости атаки<HighLight></>.",
 }

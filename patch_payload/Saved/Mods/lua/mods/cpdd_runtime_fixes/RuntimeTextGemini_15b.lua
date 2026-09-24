@@ -250,4 +250,6 @@ return {
     ["<P_Heart>(No... I'm not!)</>"] = "<P_Heart>(Нет... Я не!) </>",
     ["Desi Bay Cod | Feynapotter Potatoes"] = "Дези Бэй Треска | Картофель Фейнапоттер",
     ["【双向自愈】"] = "【Двустороннее исцеление】",
+    ["Randomly gain <HighLight> one offensive fine equipment </> and <HighLight> one defensive fine equipment </>."] = "Случайным образом даёт <HighLight> одно атакующее отличное снаряжение </> и <HighLight> одно защитное отличное снаряжение </>.",
+    ["白井秋绘"] = "Акиэ Сираи",
 }

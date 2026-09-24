@@ -225,4 +225,5 @@ return {
     ["Ice Lake! Magnificent Ice Lake! Let me recite a poem for you—"] = "Ледяное озеро! Великолепное ледяное озеро! Позвольте мне прочитать вам стихотворение —",
     ["Answer"] = "Отвечать",
     ["使用后获得<Highlight>红与黑面饰</>"] = "Используйте, чтобы получить лицевое украшение <Highlight>«Красное и чёрное»</>",
+    ["Chess pieces in the back two rows start combat with <HighLight> 80% of their current Health </> and gain <HighLight> 25% Damage Amplification </>."] = "Фигуры в последних двух рядах начинают бой с <HighLight> 80% от текущего здоровья </> и получают <HighLight> 25% увеличения урона </>.",
 }

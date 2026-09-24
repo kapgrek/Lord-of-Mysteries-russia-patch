@@ -254,4 +254,5 @@ return {
     ["You are the King of Yellow and Black who wields good luck."] = "Вы – король желтого и черного, приносящий удачу.",
     ["Spectator-Ultimate Extra Healing"] = "Зритель-Ultimate Дополнительное исцеление",
     ["WBP_AutoChess_Tips_Distance"] = "Подсказка AutoChess – Дистанция",
+    ["获得【咒术】共鸣。击杀或助攻后，恢复<HighLight>8</>点法力值，冷却时间为<HighLight>2</>秒。"] = "Получает резонанс 【Проклятие】. После убийства или помощи восстанавливает <HighLight>8</> ед. маны. Перезарядка: <HighLight>2</> сек.",
 }

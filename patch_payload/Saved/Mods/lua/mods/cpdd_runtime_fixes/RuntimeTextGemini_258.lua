@@ -272,4 +272,6 @@ return {
     ["Soul-soothing failed, the situation has become more serious, {Player1}'s Sanity -{N}"] = "Душу успокоить не удалось, ситуация стала серьезнее, здравомыслие {Player1} -{N}",
     ["What's happening to me..."] = "Что со мной происходит...",
     ["Equip to gain the [Life School of Thought] resonance."] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни].",
+    ["Gain 1 Maid<HighLight></>. Her skill is strengthened to: Continuous Slash, and after attacking, gain a short-term shield based on maximum Health<HighLight></>."] = "Даёт 1 Служанку<HighLight></>. Навык усилен: совершает непрерывные рубящие удары, а после атаки получает кратковременный щит от макс. здоровья<HighLight></>.",
+    ["Gain the [Sinful Tingen] Resonance."] = "Даёт резонанс [Грешный Тинген].",
 }

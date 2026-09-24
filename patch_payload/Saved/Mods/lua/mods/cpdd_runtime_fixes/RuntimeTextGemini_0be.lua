@@ -263,4 +263,6 @@ return {
     ["[Auto-Chess] - Doll Rabbit - Guaranteed Hit Attack"] = "[Авто-шахматы] - Кукла Кролик - Гарантированная ударная атака",
     ["Tell me, what are you looking at?"] = "Скажи мне, что ты смотришь?",
     ["Use to obtain body aura effect: <Highlight>Red and Black · Hands</>."] = "Используйте, чтобы получить ауру тела: <Highlight>«Красное и чёрное: кисти»</>",
+    ["Equipment Advancement"] = "Улучшение снаряжения",
+    ["Randomly gain 1 piece of Defensive Fine Equipment<HighLight></>. 8 seconds<HighLight> after the battle starts</>, your pieces gain 5% Attack per second<HighLight></>, stacking up to 6 times<HighLight></>."] = "Случайным образом даёт 1 защитное отличное снаряжение<HighLight></>. Через 8 сек.<HighLight> после начала боя</> ваши фигуры получают 5% атаки в секунду<HighLight></>, максимум 6 раз<HighLight></>.",
 }

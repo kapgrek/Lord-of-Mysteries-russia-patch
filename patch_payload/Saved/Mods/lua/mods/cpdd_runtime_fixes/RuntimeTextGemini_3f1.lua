@@ -241,4 +241,5 @@ return {
     ["Main Story Chapter 2, Chapter 3 (New): First Meeting with Seeka Tron"] = "Основная история Глава 2, Глава 3 (новая): Первая встреча с Сикой Трон",
     ["Yodora - Impact Bone Flute - Laser - 9s - Left"] = "Йодора — ударная костяная флейта — лазер — 9 с — слева",
     ["Radiance of the Crimson Moon"] = "Сияние Багряной Луны",
+    ["Gain the [Arcane] Resonance. Other allies within <HighLight>1</> tile gain <HighLight>1</> Mana regeneration."] = "Даёт резонанс [Тайная магия]. Другие союзники в пределах <HighLight>1</> клетки получают <HighLight>1</> ед. регенерации маны.",
 }

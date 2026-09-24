@@ -260,4 +260,6 @@ return {
     ["Be careful, don't bump into me!"] = "Будь осторожен, не врежься в меня!",
     ["[Auto-Chess] Astrolabe User Skill - [Normal] Double Kick Second Stage Damage"] = "[Авто-шахматы] Навык пользователя «Астролябия» — [Обычный] Урон двойного удара на втором этапе",
     ["Watch quietly"] = "Смотри спокойно",
+    ["8 seconds after combat starts, [Radiance of the Crimson Moon] deals True Damage to all enemies and grants all allies Attack Speed.<HighLight></>"] = "Через 8 сек. после начала боя [Сияние Багровой Луны] наносит чистый урон всем врагам и даёт всем союзникам скорость атаки.<HighLight></>",
+    ["After each Basic Attack, restore <HighLight>10</> Mana."] = "После каждой базовой атаки восстанавливает <HighLight>10</> ед. маны.",
 }

@@ -231,4 +231,6 @@ return {
     ["Oh, but the hunting rifle is really beautiful too..."] = "Ох, но охотничье ружье тоже очень красивое...",
     ["[Sleepless]"] = "[Бессонный]",
     ["[Iron-Blood]"] = "【Железо и кровь】",
+    ["After selecting, accumulate <HighLight> 3 match round wins </> to gain <HighLight> one Sealed Equipment Casket </> and <HighLight> 2 Gold Coins </>."] = "После выбора одержите <HighLight> 3 победы в раундах </>, чтобы получить <HighLight> один запечатанный ларец снаряжения </> и <HighLight> 2 золотые монеты </>.",
+    ["Battlefield Gift"] = "Дар поля боя",
 }

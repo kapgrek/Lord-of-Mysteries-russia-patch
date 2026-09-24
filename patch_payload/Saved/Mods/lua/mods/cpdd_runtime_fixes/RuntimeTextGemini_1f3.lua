@@ -247,4 +247,5 @@ return {
     ["Quest 5 - Rollback - Wait to watch the camera"] = "Квест 5 — Откат — Подождите, чтобы посмотреть камеру.",
     ["Acting Character Name"] = "Имя действующего персонажа",
     ["【战士】"] = "[Воин]",
+    ["Gain <HighLight> one Swain </>. At the start of combat, Bulwark chess pieces gain a Shield equal to <HighLight> 12% of their maximum Health </>; when <HighLight> 4 Bulwarks </> are on the board, this increases to <HighLight> 20% </>, lasting for <HighLight> 8 seconds </>."] = "Даёт <HighLight> одного Свейна </>. В начале боя фигуры Оплота получают щит в <HighLight> 12% от макс. здоровья </>; при наличии <HighLight> 4 Оплотов </> бонус возрастает до <HighLight> 20% </> на <HighLight> 8 секунд </>.",
 }

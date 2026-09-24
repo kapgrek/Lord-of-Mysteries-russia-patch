@@ -276,4 +276,7 @@ return {
     ["* Activate Resonance"] = "* Активировать резонанс",
     ["【铁卫】"] = "[Железная стена]",
     ["If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>."] = "Если в первом ряду ровно 2 союзные фигуры<HighLight></>, обе получают 150 ед. здоровья<HighLight></> и 20 ед. защиты<HighLight></>.",
+    ["Balanced Offense and Defense"] = "Баланс атаки и защиты",
+    ["Each enemy death: +<HighLight>15</> Max Health."] = "За каждого погибшего врага: +<HighLight>15</> ед. к макс. здоровью.",
+    ["每隔<HighLight>4</>秒，为生命值最低的友军提供相当于其最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒；阵亡时，使全体友军获得相当于各自最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒。"] = "Каждые <HighLight>4</> сек. даёт союзнику с наименьшим здоровьем щит в размере <HighLight>5%</> от его макс. здоровья на <HighLight>3</> сек.; при гибели даёт всем союзникам щит в размере <HighLight>5%</> от их макс. здоровья на <HighLight>3</> сек.",
 }

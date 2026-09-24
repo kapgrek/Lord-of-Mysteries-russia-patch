@@ -247,4 +247,6 @@ return {
     ["The Arcane Ball will deal high damage to the carriage; disperse and block it as soon as possible!"] = "Чародейский шар нанесет большой урон повозке; разогнать и заблокировать как можно скорее!",
     ["Loss of control?"] = "Потеря контроля?",
     ["Highest Win Streak: "] = "Макс. серия побед: ",
+    ["Gain <HighLight> two random basic equipment </>, one Equipment Reforger, and 2 Gold Coins."] = "Даёт <HighLight> два случайных базовых снаряжения </>, один перековщик снаряжения и 2 золотые монеты.",
+    ["Healer's Observation"] = "Наблюдение целителя",
 }

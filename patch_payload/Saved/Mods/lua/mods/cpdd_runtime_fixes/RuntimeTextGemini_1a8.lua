@@ -244,4 +244,5 @@ return {
     ["Countdown to <Highlight>%s</>%sx point settlement <Highlight>%s seconds</>"] = "Обратный отсчет до расчета точки <Highlight>%s</>%sx <Highlight>%s секунд</>",
     ["Use to obtain <Highlight>Camping Story Shoes</>"] = "Используйте, чтобы получить <Highlight>Обувь для кемпинга</>.",
     ["He had a high fever when he was seven, and I watched over him for three days and three nights. Since then, I have been keeping his medicine for him."] = "Когда ему было семь лет, у него была высокая температура, и я наблюдал за ним три дня и три ночи. С тех пор я храню для него лекарства.",
+    ["[Absolute Shield] Gains a Max Health shield when Health is below <HighLight>40%</>, and gains Damage Reduction for <HighLight>10</> seconds."] = "[Абсолютный щит] Получает щит от макс. здоровья, когда здоровье падает ниже <HighLight>40%</>, и получает снижение урона на <HighLight>10</> секунд.",
 }

@@ -231,4 +231,5 @@ return {
     ["Don't, don't abandon me... Uncle..."] = "Не, не бросай меня... Дядя...",
     ["Yes, stand a bit more to the right! Perfect pose!"] = "Да, встаньте немного правее! Идеальная поза!",
     ["Sense the environment with spirituality and explore the mysterious in the manner of a Warlock."] = "Ощущайте мир духовностью и исследуйте тайны в обличье чернокнижника.",
+    ["Crafted Blade"] = "Искусный клинок",
 }

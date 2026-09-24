@@ -239,4 +239,7 @@ return {
     ["Do you also want to practice numerology divination?"] = "Хотите тоже попрактиковаться в нумерологическом гадании?",
     ["Liu"] = "Лю",
     ["General without Pupils: Evil Spirit hit stun"] = "Генерал без учеников: Злой дух оглушает",
+    ["Basic Attacks and Skills execute enemies with Health below <HighLight>12%</>."] = "Базовые атаки и навыки казнят врагов с уровнем здоровья ниже <HighLight>12%</>.",
+    ["Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>10%</>."] = "Урон по целям со здоровьем выше <HighLight>50%</> увеличивается на <HighLight>10%</>.",
+    ["Immediately gain 7 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 7 more Experience Points at the end of each round<HighLight></>."] = "Немедленно даёт 7 очков опыта<HighLight></>. В течение 3 раундов, начиная с этого<HighLight></>, даёт ещё по 7 очков опыта в конце каждого раунда<HighLight></>.",
 }

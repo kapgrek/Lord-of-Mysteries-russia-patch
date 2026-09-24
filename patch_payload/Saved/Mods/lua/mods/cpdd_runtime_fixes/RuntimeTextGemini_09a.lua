@@ -276,4 +276,5 @@ return {
     ["Imprint equipment upgrade item. \nCan upgrade <Highlight>Restless Thorn</> to <Highlight>Level 62 orange quality</>. Consumes <Highlight>3</> Historical Anchors when upgrading."] = "Фирменный реквизит для улучшения снаряжения. \n может улучшить <Highlight> Restless Thorn </> до уровня экипировки <Highlight>62 оранжевого качества </>. Обновление использует <Highlight>3</> исторических опорных точек.",
     ["Warrior talent passive"] = "Пассивный талант воина",
     ["Equip to gain the [Navigator] bond."] = "Экипируйте, чтобы получить резонанс [Мореплаватель].",
+    ["Ever-Solid Wall"] = "Нерушимая стена",
 }

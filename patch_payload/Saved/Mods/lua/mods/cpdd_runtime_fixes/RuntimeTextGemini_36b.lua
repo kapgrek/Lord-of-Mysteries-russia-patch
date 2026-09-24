@@ -264,4 +264,5 @@ return {
     ["Intis believes in the Eternal Blazing Sun and the God of Steam and Machinery. It is one of the most powerful countries in the Northern Continent... well."] = "Интис верит в Вечное Пылающее Солнце и Бога пара и машин. Это одна из самых могущественных стран Северного континента... ну.",
     ["The other party is already in a team; cannot invite."] = "Другая сторона уже в команде; не могу пригласить.",
     ["Lightning strikes will appear randomly this round; be careful to dodge!"] = "В этом раунде удары молний будут появляться случайным образом; будьте осторожны, уклоняйтесь!",
+    ["Use Scheme"] = "Применить схему",
 }

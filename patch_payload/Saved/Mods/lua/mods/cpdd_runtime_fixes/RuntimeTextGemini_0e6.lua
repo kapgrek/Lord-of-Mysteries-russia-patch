@@ -279,4 +279,5 @@ return {
     ["Quest tracking is not available on cross-server."] = "Отслеживание квестов недоступно на кросс-сервере.",
     ["Invite Member"] = "Пригласить участника",
     ["<CostRed>{1,2,（烙印已失效）}</>格挡提高<Mark>120</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,（烙印已失效）}</>Блок повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
+    ["When Health is below <HighLight>50%</>, damage received is reduced by <HighLight>20%</>."] = "Когда здоровье ниже <HighLight>50%</>, получаемый урон снижается на <HighLight>20%</>.",
 }

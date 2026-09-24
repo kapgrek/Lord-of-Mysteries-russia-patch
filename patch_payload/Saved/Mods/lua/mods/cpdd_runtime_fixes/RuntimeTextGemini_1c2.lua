@@ -240,4 +240,5 @@ return {
     ["Talk to the man"] = "Поговорите с мужчиной",
     ["Reduces the probability of being hit by knockback control, up to a maximum of halving the base hit rate, and offsets the knockback hit rate of the control source."] = "Уменьшает вероятность получения удара от контроля отбрасывания, вплоть до максимального уменьшения вдвое базовой частоты попаданий, и компенсирует частоту попаданий от источника контроля.",
     ["Character leveling, consuming medicine, etc."] = "Прокачка персонажа, употребление лекарств и т.д.",
+    ["Gain <HighLight>13%</> Damage Reduction, +<HighLight>18%</> Attack Speed per stack."] = "Даёт <HighLight>13%</> снижения урона, +<HighLight>18%</> к скорости атаки за уровень.",
 }

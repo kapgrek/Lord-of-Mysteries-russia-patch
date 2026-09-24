@@ -256,4 +256,5 @@ return {
     ["Congratulations, you have achieved victory!!!"] = "Поздравляем, вы добились победы!!!",
     ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>40开启 "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть ",
     ["【占卜家】"] = "[Провидец]",
+    ["Summon <HighLight>2</>-star [Moon Corruption]."] = "Призывает <HighLight>2</>-звёздочное [Лунное осквернение].",
 }

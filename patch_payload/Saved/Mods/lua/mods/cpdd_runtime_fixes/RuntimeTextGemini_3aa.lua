@@ -260,4 +260,5 @@ return {
     ["The <h> challenge of the remnant poem </>"] = "Вызов <h> остатка стихотворения </>",
     ["Pull"] = "Тянуть",
     ["Currently sharing; please do not repeat the operation."] = "В настоящее время делится; пожалуйста, не повторяйте операцию.",
+    ["席位属性×<HighLight>100%</>"] = "Характеристики места ×<HighLight>100%</>",
 }

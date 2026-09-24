@@ -286,4 +286,5 @@ return {
     ["You may use this voucher to deduct 90% of the unit price when settling <Highlight>direct-sale cosmetic items in the Mall</> priced no higher than <Highlight>2000 Pounds</>. A maximum of 1 voucher can be used per item."] = "С помощью этого купона можно снизить на 90% цену <Highlight>товаров внешнего вида прямой продажи в магазине</> стоимостью не более <Highlight>2000 золотых фунтов</>. На один товар можно применить не более 1 купона.",
     ["Draw upon the bloodline of the Twilight Giant as power, use the Weapon Master talent as a skill, condense Beyonder power, and summon the corresponding physical forms of greatswords and dual swords."] = "Черпая мощь из родословной Сумеречного Гиганта и мастерство из таланта Мастера Оружия, сгущает потустороннюю силу и материализует физические формы двуручного меча и парных клинков.",
     ["大宗师"] = "Великий Мастер",
+    ["I Am the Sun"] = "Я — Солнце",
 }

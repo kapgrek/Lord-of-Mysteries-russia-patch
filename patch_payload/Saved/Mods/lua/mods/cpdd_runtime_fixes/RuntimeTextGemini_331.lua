@@ -248,4 +248,5 @@ return {
     ["Fist Lesson 120"] = "Кулачный урок 120",
     ["In front of Saint Selena Cathedral"] = "Перед собором Святой Селены",
     ["Redemption Voucher"] = "Купон компенсации",
+    ["Sell all pieces<HighLight></> to gain 1 2-star 1-cost piece<HighLight></>, 2 2-star 2-cost pieces<HighLight></>, and 2 2-star 3-cost pieces<HighLight></>."] = "Продаёт все фигуры<HighLight></>, давая 1 2-звёздочную фигуру за 1 золотой<HighLight></>, 2 2-звёздочные фигуры за 2 золотых<HighLight></> и 2 2-звёздочные фигуры за 3 золотых<HighLight></>.",
 }

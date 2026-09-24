@@ -228,4 +228,5 @@ return {
     ["Fade-out method for sound interruption (only fade-out time is supported, fade-out curve parameters are not supported)."] = "Метод затухания для прерывания звука (поддерживается только время затухания, параметры кривой затухания не поддерживаются).",
     ["I'm not dead... I'm tough. I can't be of much help at a time like this."] = "Я не умер... Я сильный. В такое время я не могу сильно помочь.",
     ["30 ml"] = "30 мл",
+    ["Record Reproduction"] = "Воспроизведение записи",
 }

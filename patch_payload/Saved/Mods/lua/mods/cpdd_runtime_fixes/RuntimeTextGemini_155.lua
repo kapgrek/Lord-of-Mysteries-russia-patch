@@ -297,4 +297,6 @@ return {
     ["Activate the 3-piece set effect of any equipment"] = "Активируйте эффект комплекта из 3 предметов любого снаряжения.",
     ["You have added %s as a friend."] = "Вы добавили %s в друзья.",
     ["Gameplay Resources"] = "Ресурсы по игровому процессу",
+    ["Your chess pieces gain <HighLight> 8 Defense </>. When Health first drops below <HighLight> 50% </>, gain an additional <HighLight> 25 Defense </>."] = "Ваши фигуры получают <HighLight> 8 ед. защиты </>. Когда здоровье впервые падает ниже <HighLight> 50% </>, дополнительно получают <HighLight> 25 ед. защиты </>.",
+    ["【新手推荐】黑夜战法"] = "【Совет новичкам】Боевая магия Ночи",
 }

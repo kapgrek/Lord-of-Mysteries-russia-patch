@@ -234,4 +234,5 @@ return {
     ["Gather collection item with specified TemplateID  Delayed execution  Object plays specified dialogue content  Delayed execution  Object plays specified dialogue content  Delayed execution  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)  "] = "Собрать элемент коллекции с указанным TemplateID. Отложенное выполнение. Объект воспроизводит указанный контент диалога. Отложенное выполнение. Объект воспроизводит указанный контент диалога. Отложенное выполнение. Объект воспроизводит указанный контент диалога. NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире).",
     ["Gather to share the damage!"] = "Соберитесь, чтобы разделить ущерб!",
     ["Rob Evil"] = "Роб Зло",
+    ["Rare Relic"] = "Редкая реликвия",
 }

@@ -252,4 +252,8 @@ return {
     ["Invited <Highlight> %s </>"] = "Приглашен <Highlight> %s </>",
     ["Equip to gain the [Aurora Order] bond."] = "Экипируйте, чтобы получить резонанс [Орден Авроры].",
     ["Summons [Moon Corruption] to assist in combat; star level increases with tier."] = "Призывает [Лунное осквернение] на помощь в бою; звездный уровень растет с рангом.",
+    ["<HighLight> Maximum units on board +1 </>, and randomly gain <HighLight> one 4-cost chess piece </>."] = "<HighLight> Лимит фигур на доске +1 </>, и случайным образом даёт <HighLight> одну фигуру за 4 золотых </>.",
+    ["Ally Shield"] = "Щит союзников",
+    ["At the 8th and 18th seconds after the battle starts<HighLight></>, Stun all enemies for 1.5 seconds<HighLight></>."] = "На 8-й и 18-й секунде после начала боя<HighLight></> оглушает всех врагов на 1.5 сек.<HighLight></>",
+    ["全体每秒恢复<HighLight>2</>点法力。【秘法】额外<HighLight>5</>点。"] = "Все восстанавливают <HighLight>2</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>5</> ед.",
 }

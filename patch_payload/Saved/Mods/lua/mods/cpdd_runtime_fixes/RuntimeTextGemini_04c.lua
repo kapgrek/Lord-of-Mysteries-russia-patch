@@ -248,4 +248,5 @@ return {
     ["Clear specified dungeon a specified number of times with guild members"] = "Очистить указанное подземелье указанное количество раз вместе с членами гильдии.",
     ["[Tarot Academy Atmosphere] Meeting Room - Relief"] = "[Атмосфера Академии Таро] Конференц-зал — Рельеф",
     ["Arrive at judgment range near the church"] = "Прибытие на тир возле церкви.",
+    ["Rare · Watchman Breastplate"] = "Редкое · Нагрудник дозорного",
 }

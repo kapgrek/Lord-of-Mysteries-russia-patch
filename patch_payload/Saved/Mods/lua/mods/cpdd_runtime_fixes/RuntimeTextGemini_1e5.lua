@@ -257,4 +257,6 @@ return {
     ["Fresh meat and fish, with the skin fried golden and crispy, and the inside tender and juicy, one bite and you can almost taste the salty fragrance of the Iron Cross Street sea breeze, it is definitely your best choice to replenish your energy!"] = "Свежее мясо и рыба с поджаренной золотистой и хрустящей кожей, нежной и сочной внутри, один укус, и вы почти можете ощутить соленый аромат морского бриза с Айрон-Кросс-стрит, это определенно ваш лучший выбор для восполнения энергии!",
     ["Lovia Tiffany - 1 Star"] = "Ловия Тиффани — 1 звезда",
     ["Hooked"] = "на крючке",
+    ["Crimson Believer Badge"] = "Эмблема Багровых верующих",
+    ["【新手推荐】蒸汽远击"] = "【Совет новичкам】Дальнобойный удар Эпохи пара",
 }

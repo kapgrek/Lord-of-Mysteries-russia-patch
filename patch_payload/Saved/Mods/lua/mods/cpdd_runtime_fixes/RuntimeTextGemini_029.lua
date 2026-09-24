@@ -260,4 +260,5 @@ return {
     ["Excavate"] = "Раскопать",
     ["Dog No. 2"] = "Собака № b",
     ["Spirit mediumship has ended"] = "Духовный медиумизм закончился",
+    ["Royal Court Scepter"] = "Скипетр королевского двора",
 }

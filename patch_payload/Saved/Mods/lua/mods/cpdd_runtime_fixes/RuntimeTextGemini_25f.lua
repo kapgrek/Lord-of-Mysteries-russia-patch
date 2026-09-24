@@ -256,4 +256,5 @@ return {
     ["Strategic Skill (No equipment required)"] = "Стратегический навык (не требует экипировки)",
     ["4 [Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
     ["梅林·赫尔墨斯"] = "Мерлин Гермес",
+    ["After dealing damage, the target's Defense is reduced by <HighLight>30%</> for <HighLight>3</> seconds."] = "После нанесения урона защита цели снижается на <HighLight>30%</> на <HighLight>3</> сек.",
 }

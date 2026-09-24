@@ -254,4 +254,5 @@ return {
     ["The current plan edit has not been saved. Do you want to exit?"] = "Текущее изменение плана не сохранено. Вы хотите выйти?",
     ["Carefully observe around the \"flower stand\""] = "Внимательно наблюдайте за «подставкой для цветов».",
     ["Total Money"] = "Всего монет",
+    ["Rare · Traction Spirit Pendant"] = "Редкое · Тяговый духовный кулон",
 }

@@ -243,4 +243,5 @@ return {
     ["Not sure, it looks like it can hold a lot of people."] = "Не уверен, похоже, он может вместить много людей.",
     ["2 Fake 2 Real"] = "2 фейк 2 настоящий",
     ["Activated Resonance: {0}"] = "Активировано резонансов: {0}",
+    ["Frenzied Procurement"] = "Неистовая закупка",
 }

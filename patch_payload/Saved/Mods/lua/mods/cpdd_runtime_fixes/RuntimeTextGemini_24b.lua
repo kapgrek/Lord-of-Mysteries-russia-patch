@@ -241,4 +241,5 @@ return {
     ["Storm above, quite a few people can recognize that I am from the south based on my accent."] = "Буря наверху, многие люди могут узнать, что я с юга, по моему акценту.",
     ["Beauty?"] = "Красота?",
     ["Automatically output TOP 300 OBJ object info."] = "Автоматически выводить информацию об объекте TOP 300 OBJ.",
+    ["Spellcraft Badge"] = "Эмблема Колдовства",
 }

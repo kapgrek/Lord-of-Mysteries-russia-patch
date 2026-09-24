@@ -291,4 +291,5 @@ return {
     ["Whether to enable the trade war commission function"] = "Включить ли функцию комиссии по торговой войне",
     ["Royal Court Spear Soul"] = "Душа копья королевского двора",
     ["Equip to gain the [Death Sect] bond."] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
+    ["Randomly gain 2 identical 1-star 2-cost pieces<HighLight></>. Thereafter, gain 1 identical piece each round<HighLight></><HighLight></>."] = "Случайным образом даёт 2 одинаковые 1-звёздочные фигуры за 2 золотых<HighLight></>. Затем каждый раунд даёт по 1 такой же фигуре<HighLight></><HighLight></>.",
 }

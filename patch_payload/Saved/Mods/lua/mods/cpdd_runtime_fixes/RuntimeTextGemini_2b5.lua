@@ -243,4 +243,5 @@ return {
     ["<DecH> Craft: </> Wild Draping Satin · Golden Lion Emblem · Dance Drama Costume \n The white of the aria blooms in the hem, the gold of the recitative surges under the cloak; beneath the curtain, they compose a never-ending masterpiece."] = "<DecH> Мастерство: </> Дикий атлас, золотой львиный герб, костюмы танцевальной драмы \n Белизна арий цветет в юбке, золото речитативных волн колеблется под плащом, и под занавесом они составляют нескончаемую главу.",
     ["Meow meow meow."] = "Мяу-мяу-мяу.",
     ["赞颂伟大的永恒烈阳，太阳之神，光明与生命的赐予者。"] = "Восславь великое Вечное Палящее Солнце — Бога Солнца, дарителя света и жизни.",
+    ["洞察咸鱼"] = "Проницательная рыба",
 }

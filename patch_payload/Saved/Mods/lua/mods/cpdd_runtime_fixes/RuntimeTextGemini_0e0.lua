@@ -275,4 +275,5 @@ return {
     ["Open to receive <Highlight>16</> Gold Threads."] = "Откройте, чтобы получить золотые нити <Highlight>16</>.",
     ["Return to the old couple"] = "Вернуться к старой паре",
     ["Cannot be manually configured via Action; this Action is a template Action (similar to DoFightAction) automatically generated when the program processes the post-swing configuration in the skill table."] = "Невозможно настроить вручную с помощью действия; это действие представляет собой шаблонное действие (похожее на DoFightAction), автоматически создаваемое, когда программа обрабатывает конфигурацию после качания в таблице навыков.",
+    ["Gold Pound Drizzle"] = "Дождь из золотых фунтов",
 }

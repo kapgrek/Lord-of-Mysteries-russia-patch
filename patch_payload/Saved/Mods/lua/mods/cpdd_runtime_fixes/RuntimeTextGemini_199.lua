@@ -260,4 +260,5 @@ return {
     ["Investigate the <h>candles at the ritual</>"] = "Исследуйте свечи <h> на ритуале </>.",
     ["\nRecommended Set Menu\nAppetizer: Intis Green Sauce Baked Snails\nMain Course: Premium Duck Confit\nDessert: Roselle Puff Tart"] = "\n Рекомендуемый комплексный обед \n Закуска: Запеченные улитки с соусом песто Интис \n Основное блюдо: Утиная ножка фирменного конфи \n Десерт: Пирог из слоеного теста «Розель»",
     ["Cancel Registration"] = "Отменить регистрацию",
+    ["Finish Count"] = "Финальный счет",
 }

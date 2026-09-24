@@ -230,5 +230,6 @@ return {
     ["Audience 19"] = "Аудитория bb",
     ["What, don't like what you see?"] = "Что, не нравится то, что видишь?",
     ["Close it"] = "Закрой это",
+    ["Gain a gift pack containing 1 5-cost piece<HighLight></>, 1 2-star 1-cost piece<HighLight></>, and 7 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical gift pack each time<HighLight></>."] = "Даёт подарочный набор: 1 фигура за 5 золотых<HighLight></>, 1 2-звёздочная фигура за 1 золотой<HighLight></> и 7 золотых монет<HighLight></>. В начале следующих 2 этапов<HighLight></> даёт по 1 такому же набору<HighLight></>.",
     ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

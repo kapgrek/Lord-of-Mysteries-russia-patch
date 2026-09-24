@@ -265,4 +265,5 @@ return {
     ["Pierce Increased <Yellow>*d</>."] = "Пирс увеличил <Yellow>*d</>.",
     ["Pious Prayer"] = "Благочестивая молитва",
     ["Crafted Bulwark"] = "Искусный оплот",
+    ["Equipment Extraction"] = "Извлечение снаряжения",
 }

@@ -257,4 +257,5 @@ return {
     ["Mechanism One"] = "Механизм первый",
     ["This potion can awaken dormant spirituality and nourish exhausted spirits. It is the best supplement for spirituality."] = "Это зелье способно пробудить дремлющую духовность и напитать утомленную душу. Это лучшее дополнение к духовности.",
     ["Advance along both routes"] = "Продвигайтесь по обоим маршрутам",
+    ["Blood Fire Mysticism"] = "Мистицизм кровавого огня",
 }

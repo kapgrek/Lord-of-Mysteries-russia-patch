@@ -257,4 +257,5 @@ return {
     ["Don't misunderstand, it's not that she thinks I don't clean well, my wife is a Storm believer."] = "Не поймите неправильно, дело не в том, что она думает, что я плохо убираюсь, моя жена верит в Шторм.",
     ["Could it be...?"] = "Может быть...?",
     ["Launch three consecutive slashes forward, dealing a total of <Yellow>288</> Attack damage."] = "Совершает три последовательных рассекающих удара вперед, нанося в сумме <Yellow>288</> ед. урона от атаки.",
+    ["After dealing a Critical Hit, Critical Damage increases by <HighLight>50%</> for <HighLight>3</> seconds."] = "После нанесения критического удара крит. урон увеличивается на <HighLight>50%</> на <HighLight>3</> сек.",
 }

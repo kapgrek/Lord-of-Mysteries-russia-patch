@@ -271,4 +271,5 @@ return {
     ["Accounts for %s of the rate %s"] = "Счета для %s курса %s",
     ["Freshly Milked Goat Milk"] = "Свежедоенное козье молоко",
     ["My young mistress has recently taken a liking to a boy, but these two children are always hiding from all of us."] = "Моей молодой хозяйке недавно понравился мальчик, но эти двое детей всегда прячутся от всех нас.",
+    ["After dealing damage, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds."] = "После нанесения урона снижает защиту цели на <HighLight>45%</> на <HighLight>3</> сек.",
 }

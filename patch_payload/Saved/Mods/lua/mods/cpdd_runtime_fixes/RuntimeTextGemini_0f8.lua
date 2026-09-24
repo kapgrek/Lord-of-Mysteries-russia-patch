@@ -283,4 +283,6 @@ return {
     ["New Cemetery Scanning Shot"] = "Новый снимок кладбища",
     ["All allies gain <HighLight>10%</> Attack, [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки, [Колдовство] накапливает атаку после каждого применения навыка.",
     ["获得10点经验值。"] = "Получите 10 очков опыта.",
+    ["Abundance Robe"] = "Мантия Изобилия",
+    ["战斗开始时，恢复<HighLight>15</>点法力值；生命值首次不高于<HighLight>40%</>时，恢复<HighLight>20</>点法力值，并获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>5</>秒。"] = "В начале боя восстанавливает <HighLight>15</> ед. маны. Когда здоровье впервые падает до <HighLight>40%</> или ниже, восстанавливает <HighLight>20</> ед. маны и получает щит в размере <HighLight>30%</> от макс. здоровья на <HighLight>5</> сек.",
 }

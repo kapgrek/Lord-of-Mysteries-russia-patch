@@ -248,4 +248,5 @@ return {
     ["You are about to explode! Go ask the dwarf to take you into the air!"] = "Вы собираетесь взорваться! Иди попроси гнома поднять тебя в воздух!",
     ["Start Construction"] = "Начать строительство",
     ["Heavy blow"] = "Тяжёлый удар",
+    ["Gain <HighLight> one Sealed Equipment Casket </>."] = "Даёт <HighLight> один запечатанный ларец снаряжения </>.",
 }

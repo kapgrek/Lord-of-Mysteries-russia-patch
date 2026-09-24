@@ -232,4 +232,5 @@ return {
     ["The editor will continue to iterate and update in the future, but for now, we are going to eat."] = "Редактор будет продолжать дорабатываться и обновляться в будущем, а пока мы будем есть.",
     ["Connection Topic - Klein 4: About Saving Money"] = "Тема подключения - Клейн 4: Об экономии денег",
     ["Equip to gain the [Tarot Club] resonance."] = "Экипируйте, чтобы получить резонанс [Клуб Таро].",
+    ["For every <HighLight>1 3-star piece</> you possess, the entire team gains <HighLight>5% damage amplification</>, up to a maximum of <HighLight>15%</>."] = "За каждую имеющуюся у вас <HighLight>3-звёздочную фигуру (1)</> вся команда получает <HighLight>5% увеличения урона</>, максимум до <HighLight>15%</>.",
 }

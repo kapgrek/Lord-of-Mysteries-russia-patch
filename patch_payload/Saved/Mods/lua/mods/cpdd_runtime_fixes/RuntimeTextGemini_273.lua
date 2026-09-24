@@ -246,4 +246,5 @@ return {
     ["Roselle Boss - Phase 1&2 - Calculation Mark 3"] = "Босс Розеллы — фазы 1 и 2 — знак расчета 3",
     ["Skirt Body"] = "Юбка Боди",
     ["Camera 1-1"] = "Камера 1-b",
+    ["Iron Blood Military Order"] = "Воинский приказ Железа и Крови",
 }

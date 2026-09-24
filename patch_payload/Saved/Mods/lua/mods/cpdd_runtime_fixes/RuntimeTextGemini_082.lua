@@ -212,4 +212,5 @@ return {
     ["Purification Brooch"] = "Брошь Очищение",
     ["Sinful Tingen"] = "Грешный Тинген",
     ["The four steps of the Fortune-Turning Ritual will be completed automatically within a certain period, and the Defense boost effect gained from each completed step is further increased."] = "Четыре шага против часовой стрелки в Ритуале Поворота Удачи совершаются автоматически за определённое время, а бонус к защите с каждым пройденным шагом возрастает ещё сильнее.",
+    ["<HighLight>20%</> Max Health Shield, <HighLight>10%</> Damage Reduction."] = "Щит в размере <HighLight>20%</> от макс. здоровья, <HighLight>10%</> снижения урона.",
 }

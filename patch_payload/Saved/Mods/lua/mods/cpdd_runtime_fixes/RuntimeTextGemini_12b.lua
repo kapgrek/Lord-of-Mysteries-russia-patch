@@ -248,4 +248,5 @@ return {
     ["Prologue Draw"] = "Жеребьевка пролога",
     ["Equip to gain the [Monster] bond"] = "Экипируйте, чтобы получить резонанс [Монстр]",
     ["At the start of player combat: Restore 2 Health to the player."] = "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку.",
+    ["Rare · Roaming Cloak"] = "Редкое · Плащ странника",
 }

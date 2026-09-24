@@ -257,4 +257,5 @@ return {
     ["Hidden Space - Book of Disorder - Corrupted Person"] = "Скрытое пространство - Книга беспорядка - Испорченный человек",
     ["Open to randomly receive one piece of orange or gold quality Equipment with <Highlight>Item Level 62</> or <Highlight>Item Level 64</>, as well as a Trading Contract that can be exchanged in the <Highlight>Trading Market</> for <Highlight>tradable items of the corresponding Item Level</>, <Highlight>tradable</> Gold Thread, Beyonder materials, medicine, food, etc."] = "Откройте для случайного получения одного предмета снаряжения оранжевого или золотого качества с уровнем <Highlight>Item 62</> или <Highlight>Item уровня 64</>, а также торгового контракта, который можно обменять на торговой площадке <Highlight>Trading Market</> на продаваемые предметы <Highlight> соответствующего уровня предмета</>, <Highlight>tradable</> Gold Thread, материалы Потусторонний, лекарства, еду и т. д.",
     ["Unlocks one use of a global broadcast."] = "Открывает одно использование глобальной трансляции.",
+    ["Blood-Colored Ring"] = "Кольцо цвета крови",
 }

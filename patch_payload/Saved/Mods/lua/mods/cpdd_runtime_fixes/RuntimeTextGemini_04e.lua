@@ -254,4 +254,5 @@ return {
     ["Use your momentum and speed to create afterimages, confuse your opponent, and defeat them in one blow. Master this, and you can deal with multiple enemies at once."] = "Используйте свою инерцию и скорость, чтобы создавать остаточные изображения, сбивать с толку противника и побеждать его одним ударом. Освойте это, и вы сможете справиться с несколькими врагами одновременно.",
     ["Lower Pants"] = "Нижние брюки",
     ["No! I have to escape quickly, everything is in chaos!"] = "Нет! Мне нужно быстро бежать, все в хаосе!",
+    ["The [Power of the Red Moon] within [Moon Corruption] surges, significantly increasing its attributes."] = "[Сила Алой Луны] внутри [Лунного осквернения] бурлит, значительно увеличивая его характеристики.",
 }

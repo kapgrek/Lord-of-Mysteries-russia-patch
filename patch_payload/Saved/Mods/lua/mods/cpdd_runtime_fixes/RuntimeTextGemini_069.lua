@@ -256,4 +256,5 @@ return {
     ["Spawn Point_2"] = "Точка появления_b",
     ["Investigate the situation in the mist"] = "Исследуйте ситуацию в тумане",
     ["Did anything happen before Phyllis fell asleep?"] = "Что-нибудь произошло до того, как Филлис заснула?",
+    ["Covenant Proof"] = "Доказательство завета",
 }

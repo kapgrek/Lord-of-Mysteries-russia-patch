@@ -260,4 +260,5 @@ return {
     ["...This world hates me... Yodora is not a monster..."] = "...Этот мир меня ненавидит... Йодора не монстр...",
     ["Test Level 35 Attribute Buff"] = "Тестовое усиление атрибутов 35-го уровня",
     ["Sent by Me"] = "Отправлено мной",
+    ["100.4W"] = "100.4W",
 }

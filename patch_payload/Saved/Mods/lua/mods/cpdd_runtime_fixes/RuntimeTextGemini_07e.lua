@@ -250,4 +250,5 @@ return {
     ["Time will change everything; stone will decay, sculptures will deteriorate and be covered in moss."] = "Время все изменит; камень истлеет, скульптуры испортятся и покроются мхом.",
     ["[Corpse Collector]"] = "[Сборщик Трупов]",
     ["Lineup Strategy"] = "Тактика состава",
+    ["Rare · Life-Eroding Thin Blade"] = "Редкое · Тонкий клинок пожирания жизни",
 }

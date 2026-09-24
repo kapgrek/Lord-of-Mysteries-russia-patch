@@ -240,4 +240,5 @@ return {
     ["Amulet of Secret Codes"] = "Амулет Тайных Кодов",
     ["Accordion Tab"] = "Вкладка «Аккордеон»",
     ["Force has its form, condensing into shadows. Borrowing the bloodline of the Twilight Giant, it accumulates power for the upcoming attack stance, manifesting the trajectory of the moves. When executing a powerful attack, the formed trajectory will follow the attack motion, creating afterimages."] = "Сила обретает форму, а форма сгущается в тень. Черпая силу из родословной Сумеречного Гиганта, копит мощь для грядущей атакующей стойки, проявляя траекторию приёмов. При нанесении сокрушительного удара эта траектория порождает остаточные образы вслед за движением.",
+    ["Insightful Heart Healing"] = "Проницательное исцеление сердца",
 }

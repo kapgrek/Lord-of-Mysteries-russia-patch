@@ -220,4 +220,5 @@ return {
     ["Me? I'd rather be a can of wolf fish."] = "Мне? Я бы предпочел быть банкой с рыбой-волком.",
     ["[The Great Master]"] = "[Великий Мастер]",
     ["Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage."] = "Поднимает стену волн, сметающую врагов впереди, нанося <Yellow>139</> ед. урона от атаки и отбрасывая их назад. Затем Удар молнии поражает ту же область, нанося дополнительно <Yellow>69</> ед. урона от атаки.",
+    ["When Roselle Gustav enters the field: All allies +<HighLight>1%</> damage. [Arcane] gains additional <HighLight>1</> Mana recovery per second."] = "Когда Розель Густав выходит на поле: все союзники +<HighLight>1%</> к урону. [Тайная магия] получает дополнительно <HighLight>1</> ед. восстановления маны в сек.",
 }

@@ -255,4 +255,5 @@ return {
     ["You have been muted by the main commander."] = "Главный командир отключил вас.",
     ["<Highlight>Craft: </>Gilded Ornament/Chant Ceremonial Outfit\nThe hem of the prayer's robe is stained with dew and light; every step taken on the tail end of a hymn chants the tranquility of the sanctuary into a walking poem."] = "<Highlight> Мастерство: </> Позолоченные украшения и одежда для гимнов\n Углы одежды для утренних молитв запачканы росой и светом, и каждый шаг соответствует концу гимна, повторяя спокойствие храма в ходячем псалме.",
     ["QA Test Scene"] = "Сцена теста качества",
+    ["Gain <HighLight> one Resonance Badge Selection Box </>."] = "Даёт <HighLight> один ларец с эмблемой резонанса на выбор </>.",
 }

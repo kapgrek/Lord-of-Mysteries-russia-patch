@@ -234,4 +234,6 @@ return {
     ["One Two Three Four Five Six Seven Eight Nine Ten One"] = "Один Два Три Четыре Пять Шесть Семь Восемь Девять Десять",
     ["Warm-up Punch"] = "Разминочный пунш",
     ["Singing, camera pans"] = "Пение, панорамирование камеры",
+    ["Exclusive Order"] = "Эксклюзивный заказ",
+    ["Rare · Wild Hunt Greatsword"] = "Редкое · Двуручный меч Дикой Охоты",
 }

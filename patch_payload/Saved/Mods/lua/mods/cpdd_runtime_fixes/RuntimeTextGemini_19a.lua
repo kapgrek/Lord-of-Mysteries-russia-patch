@@ -266,4 +266,6 @@ return {
     ["[Giant Dragon Inheritance]"] = "[Наследие Гигантского Дракона]",
     ["【死亡教派】"] = "[Секта Смерти]",
     ["Highest Losing Streak"] = "Макс. серия поражений",
+    ["Fate Gamble"] = "Азарт судьбы",
+    ["Glimmer of Health"] = "Проблеск здоровья",
 }

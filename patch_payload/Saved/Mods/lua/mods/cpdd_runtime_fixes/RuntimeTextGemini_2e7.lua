@@ -245,4 +245,6 @@ return {
     ["Activated Resonance: 9"] = "Активировано резонансов: 9",
     ["Life School of Thought"] = "Жизненная школа мысли",
     ["Equip to gain the [Secrets Suppliant] bond"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
+    ["Evernight Goddess Church Badge"] = "Эмблема Церкви Богини Вечной Ночи",
+    ["Rare · Sun-Pattern Amulet"] = "Редкое · Амулет с солнечным узором",
 }

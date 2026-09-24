@@ -266,4 +266,5 @@ return {
     ["<h> Observe </> the situation"] = "<h> Наблюдайте за ситуацией с </>.",
     ["Thank you, Mr. Azik."] = "Спасибо, господин Азик.",
     ["CBT2 Dungeon Test 19"] = "CBT2: Тест подземелья 19",
+    ["Record Mysticism"] = "Мистицизм записи",
 }

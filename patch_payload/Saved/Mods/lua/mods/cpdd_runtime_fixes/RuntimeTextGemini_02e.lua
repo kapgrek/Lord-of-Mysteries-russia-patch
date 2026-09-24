@@ -254,4 +254,5 @@ return {
     ["Golden Autumn Lake Loss of Control Beyonder - Initial Test"] = "Озеро Золотой Осени. Потеря контроля. Потусторонний - Начальное испытание",
     ["Daily open: 19:00-20:00 \n Extra periods: Sat, Sun 14:00-15:00."] = "Открыто ежедневно: 19:00–20:00\nДополнительные часы: суббота и воскресенье 14:00–15:00.",
     ["【先祖荣耀】"] = "【Слава предков】",
+    ["10 seconds<HighLight></> after the battle starts, your pieces restore 50% of their lost Health<HighLight></>."] = "Через 10 сек.<HighLight></> после начала боя ваши фигуры восстанавливают 50% от потерянного здоровья<HighLight></>.",
 }

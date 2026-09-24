@@ -272,4 +272,5 @@ return {
     ["<P_Heart> (Silence) </> So you changed the way you perform divination."] = "<P_Heart> (Молчание) </> Итак, вы изменили способ гадания.",
     ["Activated Resonance: 6"] = "Активировано резонансов: 6",
     ["2 [Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["Cannot gain interest<HighLight></>. Immediately gain 3 Gold Coins<HighLight></>, and gain 3 more Gold Coins at the start of the preparation phase after each duel round<HighLight></><HighLight></>."] = "Нельзя получать проценты<HighLight></>. Немедленно даёт 3 золотые монеты<HighLight></>, а также ещё 3 золотые монеты в начале фазы подготовки после каждого раунда поединка<HighLight></><HighLight></>.",
 }

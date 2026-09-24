@@ -270,4 +270,5 @@ return {
     ["The starting point of the Beyonder path; the Sequence is not yet revealed, but the power has already awakened in silence, awaiting the call of fate."] = "Начальная точка пути Потустороннего; Последовательность еще не раскрыта, но сила уже в тишине пробудилась, ожидая зова судьбы.",
     ["By praising the great Eternal Blazing Sun, you gain +1 Charisma.\nDuring this period, surrounding Beyonders can obtain a temporary skill to join in the Praise the Sun. Beyonders who join in the Praise the Sun can also gain +1 Charisma."] = "Восхваляя великое Вечное Палящее Солнце, повышает собственное Обаяние на 1.\nВ это время окружающие Потусторонние могут получить временный навык, чтобы присоединиться к восхвалению Солнца; присоединившиеся Потусторонние также получают +1 к Обаянию.",
     ["Mysticism Page"] = "Страница мистицизма",
+    ["每完成<HighLight>2</>次普攻或施放<HighLight>1</>次技能后，攻速和攻击均提高<HighLight>8%</>，持续至战斗结束，最多叠加<HighLight>3</>层。"] = "После каждых <HighLight>2</> базовых атак или <HighLight>1</> применения навыка скорость атаки и атака повышаются на <HighLight>8%</> до конца боя, максимум <HighLight>3</> уровня.",
 }

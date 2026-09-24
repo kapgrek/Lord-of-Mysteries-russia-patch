@@ -241,4 +241,5 @@ return {
     ["Idle Standby Performance"] = "Анимация ожидания",
     ["Equip to gain the [Mystery Pryer] bond."] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
     ["【魔女诅咒】"] = "【Проклятие Демоницы】",
+    ["Randomly gain 1 1-cost piece<HighLight></>. Thereafter, gain a 1-star copy of that piece each round<HighLight></><HighLight></>."] = "Случайным образом даёт 1 фигуру за 1 золотой<HighLight></>. Затем каждый раунд даёт 1-звёздочную копию этой фигуры<HighLight></><HighLight></>.",
 }

@@ -261,4 +261,6 @@ return {
     ["Bedroom Layout"] = "Планировка спальни",
     ["Quest custom event: Player plays main quest start display screen."] = "Пользовательское событие квеста: игрок воспроизводит главный экран начала квеста.",
     ["Yes, that was the gift that allowed me to see Jevon again... He will be able to stay with me again, very soon..."] = "Да, именно этот дар позволил мне снова увидеть Джевона... Он сможет снова остаться со мной, очень скоро...",
+    ["Immediately gain 10 Experience Points<HighLight></>. Upon reaching level 9<HighLight></>, gain 10 Gold Coins<HighLight></> and 8 free refreshes<HighLight></>."] = "Немедленно даёт 10 очков опыта<HighLight></>. При достижении 9-го уровня<HighLight></> даёт 10 золотых монет<HighLight></> и 8 бесплатных обновлений<HighLight></>.",
+    ["席位属性×<HighLight>180%</>"] = "Характеристики места ×<HighLight>180%</>",
 }

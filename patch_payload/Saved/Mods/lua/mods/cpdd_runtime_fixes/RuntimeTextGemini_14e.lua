@@ -276,4 +276,5 @@ return {
     ["Mother?!"] = "Мать?!",
     ["Chant a short prayer related to the Sun to bless a companion, drawing down holy radiance to form a Continuous hovering beam of light, granting them Shelter.\nGrants the target +3 Strength and +1 Knowledge.\nUsing this consecutively on the same target can increase the number of light beams above their head to two or three."] = "Прочтите краткую молитву Солнцу для благословения соратника, призывая священное сияние в виде парящего луча света, дарующего защиту.\nПовышает Силу цели на 3 и Знание на 1.\nПри повторном применении к той же цели количество лучей света над её головой увеличивается до двух или трёх.",
     ["2 [Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
+    ["<HighLight>60%</> Max Health Shield, <HighLight>20%</> Damage Reduction."] = "Щит в размере <HighLight>60%</> от макс. здоровья, <HighLight>20%</> снижения урона.",
 }

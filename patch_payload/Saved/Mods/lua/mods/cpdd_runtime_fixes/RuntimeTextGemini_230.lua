@@ -251,4 +251,5 @@ return {
     ["please grasp your fate."] = "пожалуйста, пойми свою судьбу.",
     ["Possibility of loss of control"] = "Возможность потери контроля.",
     ["Count No. 2"] = "Граф № b",
+    ["Immediately gain <HighLight> 10 Gold Coins </>. <HighLight> After each match round </>, restore <HighLight> 2 Player Health </> and gain <HighLight> 2 Gold Coins </>."] = "Немедленно даёт <HighLight> 10 золотых монет </>. <HighLight> После каждого раунда поединка </> восстанавливает <HighLight> 2 ед. здоровья игрока </> и даёт <HighLight> 2 золотые монеты </>.",
 }

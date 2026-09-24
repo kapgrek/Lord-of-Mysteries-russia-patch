@@ -285,4 +285,5 @@ return {
     ["Return to the <h> corner </> to continue listening"] = "Вернитесь в угол <h> </>, чтобы продолжить прослушивание.",
     ["Open spirit vision to observe..."] = "Открытое духовное видение для наблюдения...",
     ["Close-up of Eyes Closed"] = "Крупный план закрытых глаз",
+    ["昂哔哩巴波"] = "Анбилибабо",
 }

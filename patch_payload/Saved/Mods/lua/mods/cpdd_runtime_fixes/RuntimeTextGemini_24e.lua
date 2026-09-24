@@ -254,4 +254,5 @@ return {
     ["You can provide a Ride Along subtype parameter to check if you are in a specified Ride Along state; if not in any of the specified subtypes, it returns false. If no subtype is filled, it returns true as long as you are in any Ride Along state (subtype is the 'subtype' column in the 'Mount' sheet of 3C/Mount_Table.xlsx)."] = "Вы можете предоставить параметр подтипа «Поездка», чтобы проверить, находитесь ли вы в указанном состоянии «Поездка». если он не принадлежит ни одному из указанных подтипов, он возвращает false. Если ни один подтип не заполнен, он возвращает значение true, пока вы находитесь в каком-либо состоянии «Поездка» (подтип — это столбец «подтип» на листе «Монтирование» 3C/Mount_Table.xlsx).",
     ["A-Rank Atmosphere - Apprentice Carmen - Call for Help"] = "Атмосфера A-ранга — Ученица Кармен — Зов о помощи",
     ["My Gold List"] = "Мой золотой список",
+    ["Life Bottle"] = "Флакон жизни",
 }

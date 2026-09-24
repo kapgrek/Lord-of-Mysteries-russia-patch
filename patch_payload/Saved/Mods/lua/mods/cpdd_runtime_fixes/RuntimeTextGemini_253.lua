@@ -251,4 +251,5 @@ return {
     ["Approach the ghost"] = "Подойдите к призраку",
     ["Sometimes when I wake up late at night, I think of everything there: the soy milk and fried dough sticks at the breakfast shop, the crowds buried in their phones on the subway, the road home late at night after working overtime..."] = "Иногда, когда я просыпаюсь поздно ночью, я думаю обо всем: о соевом молоке и жареных палочках из теста в магазине для завтраков, о людях, уткнувшихся в свои телефоны в метро, ​​о дороге домой поздно вечером после сверхурочной работы...",
     ["Seek the shelter of the Crimson Moon Crown! Hide within it to avoid the Wraith's raids!"] = "Найдите убежище Короны Багровой Луны! Спрячьтесь внутри него, чтобы избежать набегов Призрака!",
+    ["Immediately gain <HighLight> 12 Experience </>. Thereafter, <HighLight> each time you purchase Experience </>, gain an additional <HighLight> 2 Experience </>."] = "Немедленно даёт <HighLight> 12 очков опыта </>. В дальнейшем <HighLight> при каждой покупке опыта </> даёт дополнительно <HighLight> 2 очка опыта </>.",
 }

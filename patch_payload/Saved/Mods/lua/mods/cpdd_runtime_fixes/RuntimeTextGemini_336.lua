@@ -240,4 +240,5 @@ return {
     ["Participate in the event to gain popularity. Reach 1500 to claim rewards, limited to once per week"] = "Участвуйте в мероприятии, чтобы завоевать популярность. Достигните 1500, чтобы получить награды, но не чаще одного раза в неделю.",
     ["Invisibility + Untargetable"] = "Невидимость + невозможность нацеливания",
     ["When I met Haines at the Divination Club yesterday morning, his business card had his address on it."] = "Когда вчера утром я встретил Хейнса в клубе гадания, на его визитной карточке был указан адрес.",
+    ["Gain <HighLight> 10 Experience Points </>."] = "Даёт <HighLight> 10 очков опыта </>.",
 }

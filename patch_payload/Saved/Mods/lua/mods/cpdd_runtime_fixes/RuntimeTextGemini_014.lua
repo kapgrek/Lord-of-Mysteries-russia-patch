@@ -241,4 +241,5 @@ return {
     ["Aha?! And what am I?!"] = "Ага?! И что я?!",
     ["What?! Let me see! Golden Autumn Lake... seventy years ago..."] = "Что?! Дайте-ка подумать! Озеро Золотой Осени... семьдесят лет назад...",
     ["Investigate the <h>paint bucket</>"] = "Исследуйте ведро с краской <h></>",
+    ["额外造成<HighLight>30%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。"] = "Дополнительно наносит <HighLight>30%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>.",
 }

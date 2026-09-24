@@ -258,4 +258,5 @@ return {
     ["I am just a murderer."] = "Я просто убийца.",
     ["Oh yes, it was right over there."] = "О да, это было прямо там.",
     ["12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>."] = "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>.",
+    ["伤害加深<HighLight>10%</>。"] = "Увеличение урона на <HighLight>10%</>.",
 }

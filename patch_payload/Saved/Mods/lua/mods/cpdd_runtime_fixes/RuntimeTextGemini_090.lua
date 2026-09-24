@@ -297,4 +297,6 @@ return {
     ["<P_Heart>(Saving broken families... Could the resentment in the toilet also be related to the Patriotic Health Campaign?)</>"] = "<P_Heart>(Спасение разбитых семей... Может ли обида в туалете быть связана с Патриотической кампанией за здоровье?)</>",
     ["Who are you? How do you know that?"] = "Кто ты? Откуда ты это знаешь?",
     ["Designer"] = "Дизайнер",
+    ["Randomly obtain <HighLight>three</> [Steam Age] pieces of Equipment."] = "Случайным образом даёт <HighLight>три</> снаряжения [Эпохи пара].",
+    ["Rare · Armor-Breaking Crystal Core"] = "Редкое · Бронебойное кристаллическое ядро",
 }

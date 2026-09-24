@@ -251,4 +251,5 @@ return {
     ["Fog Forest Kin: Moss Shadow Larva"] = "Родик Туманного Леса: Личинка Моховой Тени",
     ["<P_Heart> (It seems these girls are performing astrological divination.) </>"] = "<P_Heart> (Кажется, эти девушки занимаются астрологическими предсказаниями.) </>",
     ["Equip to gain the [Secrets Suppliant] resonance."] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах].",
+    ["Starfall Gravity"] = "Гравитация звездопада",
 }

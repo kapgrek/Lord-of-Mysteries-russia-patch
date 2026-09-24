@@ -247,4 +247,5 @@ return {
     ["Requiem (Cost {{Pollution}})"] = "Реквием (стоимость {{Pollution}})",
     ["Decay - Detonate Mark"] = "Распад – взорвать метку",
     ["Platform 1 Respawn Point"] = "Платформа 1, точка возрождения",
+    ["10 seconds<HighLight></> after the battle starts, your pieces restore 30% of their lost Health<HighLight></>."] = "Через 10 сек.<HighLight></> после начала боя ваши фигуры восстанавливают 30% от потерянного здоровья<HighLight></>.",
 }

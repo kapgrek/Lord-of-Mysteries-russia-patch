@@ -271,4 +271,5 @@ return {
     ["黑荆棘事件3_5200205_首领_筛选打手"] = "Чёрный Чертополох Event 3_5200205_Leader_Filter Thug",
     ["12 minutes 28 seconds"] = "12 минут 28 секунд",
     ["Secret Realm 2_Combat"] = "Секретное царство 2_Бой",
+    ["Blood Hunt Cloak"] = "Плащ кровавой охоты",
 }

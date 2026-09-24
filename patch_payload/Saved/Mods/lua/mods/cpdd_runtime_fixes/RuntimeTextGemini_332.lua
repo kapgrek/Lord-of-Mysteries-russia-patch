@@ -287,4 +287,5 @@ return {
     ["Charlatan Table and Chair Set"] = "Шарлатанский стол и стул",
     ["Observe the mental emotions reflected in the target's behavior and condense a colored light particle around them. This reflects the target's primary surface mood for the day.\n     ▸Red for Passion\n     ▸Yellow for Relaxation\n     ▸White for Indifference\n     ▸Gray for Melancholy\n     ▸Black for Sadness"] = "Наблюдая за эмоциями в поведении цели, формирует вокруг неё светящуюся цветную точку. Она отражает преобладающее поверхностное настроение цели на сегодня.\n     ▸ Красный — энтузиазм\n     ▸ Жёлтый — спокойствие\n     ▸ Белый — равнодушие\n     ▸ Серый — меланхолия\n     ▸ Чёрный — печаль",
     ["Equip to gain the [Assassin] resonance."] = "Экипируйте, чтобы получить резонанс [Ассасин].",
+    ["Malevolent Star Astrolabe"] = "Астролябия зловещей звезды",
 }

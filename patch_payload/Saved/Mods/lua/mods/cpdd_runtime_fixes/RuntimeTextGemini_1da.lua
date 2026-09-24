@@ -246,4 +246,6 @@ return {
     ["Unlocked when Acting level reaches 54."] = "Разблокируется, когда уровень актерского мастерства достигает 54.",
     ["Gain the Guard's Trust"] = "Завоевать доверие стражи",
     ["Spirit body threads button trigger area"] = "Область триггера кнопки «Нити тела духа»",
+    ["Gain 2 Low-Level Piece Recorders<HighLight></> and 3/7/12 Gold Coins."] = "Даёт 2 Регистратора фигур низкого уровня<HighLight></> и 3/7/12 золотых монет.",
+    ["Thunderbolt Awe"] = "Трепет перед молнией",
 }

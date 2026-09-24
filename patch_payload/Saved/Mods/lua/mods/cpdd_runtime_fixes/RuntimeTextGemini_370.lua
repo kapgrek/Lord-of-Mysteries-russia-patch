@@ -237,4 +237,5 @@ return {
     ["Hand over bread."] = "Сдать хлеб.",
     ["Archive Model"] = "Архивная модель",
     ["Fan-shaped AOE_5s"] = "Веерообразные AOE_5s",
+    ["Sacred Guard of the Lone Walker"] = "Священная защита одинокого путника",
 }

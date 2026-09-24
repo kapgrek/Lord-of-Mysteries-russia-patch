@@ -259,4 +259,5 @@ return {
     ["It disappeared on its own!"] = "Оно исчезло само собой!",
     ["Demonic Wolf Damage Boost"] = "Увеличение урона демонического волка",
     ["Pattern on the hand"] = "Узор на руке",
+    ["When the battle starts, for every 1 ally piece in the first row<HighLight></>, pieces in the back two rows<HighLight></> gain 8% Attack<HighLight></>."] = "В начале боя за каждую союзную фигуру в первом ряду<HighLight></> фигуры в двух задних рядах<HighLight></> получают 8% атаки<HighLight></>.",
 }

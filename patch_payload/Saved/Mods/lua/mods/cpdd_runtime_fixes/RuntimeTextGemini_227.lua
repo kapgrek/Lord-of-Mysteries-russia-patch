@@ -265,4 +265,5 @@ return {
     ["Bria "] = "Бриа",
     ["Equip to gain the [Sleepless] resonance"] = "Экипируйте, чтобы получить резонанс [Бессонный]",
     ["战斗回合失败时获得2点经验。若处于连败状态，额外获得1点经验。"] = "При поражении в раунде матча даёт 2 ед. опыта. При серии поражений даёт дополнительно 1 ед. опыта.",
+    ["Immediately gain 10 Gold Coins<HighLight></>, and thereafter gain 9 more Gold Coins at the start of each round<HighLight></><HighLight></>."] = "Немедленно даёт 10 золотых монет<HighLight></>, а затем ещё по 9 золотых монет в начале каждого раунда<HighLight></><HighLight></>.",
 }

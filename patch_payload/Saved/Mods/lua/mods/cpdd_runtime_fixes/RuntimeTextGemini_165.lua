@@ -276,4 +276,5 @@ return {
     ["So... what do you need me to do?"] = "Итак... что мне нужно сделать?",
     ["Zhuoshi"] = "Чжуоши",
     ["Dynamic content cannot be empty."] = "Динамический контент не может быть пустым.",
+    ["When Health is below <HighLight>50%</>, Damage Reduction is increased by an additional <HighLight>20%</>."] = "Когда здоровье ниже <HighLight>50%</>, снижение урона дополнительно увеличивается на <HighLight>20%</>.",
 }

@@ -264,4 +264,5 @@ return {
     ["Eat up, eat up! Hahahaha, Bacon will definitely be a little <P_Yellow>heavier</> now."] = "Ешь, ешь! Ха-ха-ха, Бэкон теперь определенно будет немного <P_Yellow> тяжелее</>.",
     ["Black Emperor arrow 4"] = "Стрела Черного Императора b",
     ["[Spellcraft] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["Contract of Gains and Losses"] = "Контракт прибылей и убытков",
 }

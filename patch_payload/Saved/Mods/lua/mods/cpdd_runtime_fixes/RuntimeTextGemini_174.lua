@@ -252,4 +252,5 @@ return {
     ["What about the others? Who else had the opportunity to murder Baron Hawkes?"] = "А что насчет остальных? У кого еще была возможность убить барона Хоукса?",
     ["Flame 2 Trigger"] = "Триггер Пламени b",
     ["【幸运儿】"] = "[Счастливчик]",
+    ["Extraordinary Companion"] = "Потусторонний спутник",
 }

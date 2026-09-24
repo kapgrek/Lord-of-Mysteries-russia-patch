@@ -238,4 +238,5 @@ return {
     ["Health +17500, Armor Break +2380"] = "Здоровье +17500, Пробитие брони +2380",
     ["Blackthorn Security Company members: Cheers!"] = "Члены охранной компании Чёрный Чертополох: Здравствуйте!",
     ["Change tracking target; enter TaskRingID."] = "Изменить цель отслеживания; введите TaskRingID.",
+    ["爱帮忙的苏茜"] = "Полезная Сузи",
 }

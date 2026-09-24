@@ -249,4 +249,5 @@ return {
     ["Congratulations, lucky one. To be favored by Him is both an honor and a beginning. May you have a pleasant journey under The Fool's Gaze and protection."] = "Поздравляю, счастливчик. Быть Его благосклонностью — это и честь, и начало. Желаю вам приятного путешествия под присмотром и защитой Шута.",
     ["[Quest Points]"] = "[Очки заданий]",
     ["Restores <HighLight>4%</> max health per second."] = "Восстанавливает <HighLight>4%</> от максимального запаса здоровья в секунду.",
+    ["Randomly gain 1 4-cost piece<HighLight></>, 1 2-star 1-cost piece with the same Resonance<HighLight></>, and 8 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical 4-cost piece each time<HighLight></>."] = "Случайным образом даёт 1 фигуру за 4 золотых<HighLight></>, 1 2-звёздочную фигуру за 1 золотой с тем же резонансом<HighLight></> и 8 золотых монет<HighLight></>. В начале следующих 2 этапов<HighLight></> даёт по 1 такой же фигуре за 4 золотых<HighLight></>.",
 }

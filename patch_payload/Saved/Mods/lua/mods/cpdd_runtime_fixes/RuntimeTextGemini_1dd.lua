@@ -278,4 +278,5 @@ return {
     ["Woman Whose Bread Was Stolen"] = "Женщина, у которой украли хлеб",
     ["Delve into the Extraordinary World, explore the backstories of characters caught in the tides of the era, and feel the intertwining of fate and mystery."] = "Погрузитесь в необыкновенный мир, изучите предыстории персонажей, попавших в приливы эпохи, и почувствуйте переплетение судьбы и тайны.",
     ["Equip to gain the [Iron Wall] resonance"] = "Экипируйте, чтобы получить резонанс [Железная стена]",
+    ["At the start of player combat: Restore <HighLight>2</> Health to the player. Gain <HighLight>50</> [Quest Points] upon victory."] = "В начале боя с игроком: восстанавливает <HighLight>2</> ед. здоровья игрока. При победе даёт <HighLight>50</> [Очков заданий].",
 }

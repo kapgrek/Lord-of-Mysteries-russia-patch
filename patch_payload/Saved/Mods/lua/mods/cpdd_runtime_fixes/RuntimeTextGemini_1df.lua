@@ -271,4 +271,5 @@ return {
     ["Cocoon Silk"] = "Кокон Шелк",
     ["Preload 4"] = "Предварительная загрузка b",
     ["When the Windmill Turns 99002419"] = "Когда перевернётся ветряная мельница e5521abb",
+    ["Each time you level up<HighLight></>, restore 2 Player Health<HighLight></>, and gain 1 free refresh<HighLight></> and Gold Coins equal to your Player level<HighLight></>."] = "При каждом повышении уровня<HighLight></> восстанавливает 2 ед. здоровья игрока<HighLight></>, даёт 1 бесплатное обновление<HighLight></> и золотые монеты в количестве, равном уровню игрока<HighLight></>.",
 }

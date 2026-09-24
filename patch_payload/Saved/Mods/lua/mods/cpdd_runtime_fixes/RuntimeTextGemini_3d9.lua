@@ -250,4 +250,5 @@ return {
     ["There's a damn thief in our camp!"] = "В нашем лагере чертов вор!",
     ["Big Wheel Clubs Settlement"] = "Большое колесо: расчёт треф",
     ["Walk to the clothes rack and turn to the location"] = "Подойдите к вешалке для одежды и поверните на локацию.",
+    ["When Health is above <HighLight>50%</>, gain an additional <HighLight>12%</> Damage Reduction."] = "Когда здоровье выше <HighLight>50%</>, даёт дополнительно <HighLight>12%</> снижения урона.",
 }

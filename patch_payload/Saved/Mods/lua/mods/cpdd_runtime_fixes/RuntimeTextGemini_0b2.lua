@@ -268,4 +268,5 @@ return {
     ["724-Before the Book Passage"] = "724-Перед книжным проходом",
     ["Touch the spirit body threads that connect all things to establish a connection with them, take over their consciousness, and make them your marionette. The units you control will follow your commands."] = "Прикоснитесь к нитям духовного тела, соединяющим все вещи, чтобы установить с ними связь, захватить их сознание и сделать своей марионеткой. Юниты, которыми вы управляете, будут следовать вашим командам.",
     ["Excuse me, what does it mean to 'rely on this old lady's luck'?"] = "Простите, что значит «полагаться на удачу этой старушки»?",
+    ["May Manor Badge"] = "Эмблема Поместья Мэй",
 }

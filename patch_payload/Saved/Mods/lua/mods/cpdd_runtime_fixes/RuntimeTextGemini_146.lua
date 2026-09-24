@@ -279,4 +279,5 @@ return {
     ["Please select the holy ointment and the entry to be anointed first."] = "Пожалуйста, выберите святую мазь и запись, которую нужно помазать в первую очередь.",
     ["[Hunter]"] = "[Охотник]",
     ["【蒸汽时代】"] = "【Эпоха пара】",
+    ["Divinity Burst"] = "Всплеск божественности",
 }

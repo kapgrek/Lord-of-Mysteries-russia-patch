@@ -243,4 +243,5 @@ return {
     ["Hello, little {{PlayerName}}."] = "Привет, маленький {{PlayerName}}.",
     ["Complete acting story: <Highlight>The Best Weapon</>(%s/%s)"] = "Полная актерская история: <Highlight>Лучшее оружие</>(%s/%s)",
     ["[Bard]"] = "[Певец]",
+    ["Longevity Giant Turtle"] = "Исполинская черепаха долголетия",
 }

@@ -233,4 +233,5 @@ return {
     ["Kara"] = "Кара",
     ["Achievement - Deepening into the Extraordinary"] = "Достижение - Углубление в необыкновенное",
     ["Hide-and-seek little girl"] = "Маленькая девочка в прятках",
+    ["Randomly gain <HighLight> two basic equipment </>, and gain <HighLight> two Fine Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>."] = "Случайным образом даёт <HighLight> два базовых снаряжения </>, а также <HighLight> два ларца с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>.",
 }

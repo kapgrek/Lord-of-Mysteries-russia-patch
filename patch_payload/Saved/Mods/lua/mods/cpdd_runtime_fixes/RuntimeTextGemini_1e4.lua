@@ -265,4 +265,5 @@ return {
     ["Corpse Cold Wave"] = "Труп Холодная волна",
     ["Don't come over here! I haven't bathed in days, I don't taste good!"] = "Не приходи сюда! Я не мылась несколько дней, мне невкусно!",
     ["Picking Up Weapon..."] = "Подбираем оружие...",
+    ["Star-Splitting Curio"] = "Звездоколющий диковинный предмет",
 }

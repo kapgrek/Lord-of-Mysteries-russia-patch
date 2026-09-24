@@ -275,4 +275,5 @@ return {
     ["Transform into Starlight, gain *f** Damage Reduction"] = "Превратитесь в звездный свет и получите Снижение урона *f**.",
     ["Insufficient Chamber of Commerce tickets."] = "Недостаточное количество билетов Торгово-промышленной палаты.",
     ["Equip to gain the [Corpse Collector] resonance"] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов]",
+    ["<HighLight> Lose 20 Player Health </>, and after <HighLight> 7 combat rounds </>, gain <HighLight> 24 Gold Coins </>."] = "<HighLight> Теряет 20 ед. здоровья игрока </>, а через <HighLight> 7 боевых раундов </> получает <HighLight> 24 золотые монеты </>.",
 }

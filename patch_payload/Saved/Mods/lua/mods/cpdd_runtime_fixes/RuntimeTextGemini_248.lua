@@ -230,4 +230,5 @@ return {
     ["Equip to gain the [Savant] bond."] = "Экипируйте, чтобы получить резонанс [Знаток].",
     ["[长射]"] = "[Дальний выстрел]",
     ["连续重击目标<HighLight>4</>次，共造成<Yellow>177</>点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>60%</>伤害减免，持续<HighLight>5</>秒。"] = "Обрушивает на цель <HighLight>4</> мощных удара подряд, нанося в сумме <Yellow>177</> ед. урона от атаки; последний удар оглушает цель на <HighLight>1</> сек. При применении навыка получает <HighLight>60%</> снижения урона на <HighLight>5</> сек.",
+    ["Gain <HighLight> one Sword Knight </>. In each battle, when the <HighLight> first enemy falls </>, all Blood Blades restore <HighLight> 12% of their maximum Health </>."] = "Даёт <HighLight> одного Рыцаря меча </>. В каждом бою, когда погибает <HighLight> первый враг </>, все Кровавые клинки восстанавливают <HighLight> 12% от макс. здоровья </>.",
 }

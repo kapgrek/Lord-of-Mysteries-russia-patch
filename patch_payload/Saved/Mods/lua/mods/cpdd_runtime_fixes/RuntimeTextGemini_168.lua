@@ -243,4 +243,6 @@ return {
     ["Slot 3"] = "Слот b",
     ["You are not the club president, vice president, or director and cannot initiate an assembly."] = "Вы не являетесь президентом, вице-президентом или директором клуба и не можете инициировать собрание.",
     ["The name is the same as before."] = "Имя такое же, как и раньше.",
+    ["Gain 1 Spell Badge<HighLight></>. After activating Spell, each Spell piece returns 20 mana upon their first cast in each battle<HighLight></><HighLight></>."] = "Даёт 1 эмблему Заклятия<HighLight></>. После активации Заклятия каждая фигура Заклятия восстанавливает 20 ед. маны при первом применении навыка в каждом бою<HighLight></><HighLight></>.",
+    ["Victory or Defeat is Fate"] = "Победа иль поражение — предначертано судьбой",
 }

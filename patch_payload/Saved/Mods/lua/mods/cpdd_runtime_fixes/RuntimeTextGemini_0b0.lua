@@ -242,4 +242,5 @@ return {
     ["[Collectible] Order Letter"] = "[Коллекционный] Письмо-приказ",
     ["Equip to gain the [Assassin] bond"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
     ["你的弈子每5秒恢复4%最大生命值。"] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
+    ["At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 20% of their maximum Health </>, lasting for <HighLight> 10 seconds </>."] = "В начале боя фигуры, <HighLight> не смежные с союзниками </>, получают щит в размере <HighLight> 20% от макс. здоровья </> на <HighLight> 10 секунд </>.",
 }

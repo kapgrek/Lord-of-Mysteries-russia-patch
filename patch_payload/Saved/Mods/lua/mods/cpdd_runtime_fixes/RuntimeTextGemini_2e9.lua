@@ -263,4 +263,5 @@ return {
     ["Use to obtain <Highlight>Dressage Suit</>"] = "Используйте, чтобы получить <Highlight>Выездной костюм</>.",
     ["Score %s"] = "Оценка %s",
     ["无镜测试"] = "Тест без зеркала",
+    ["Life-Eroding Thin Blade"] = "Тонкий клинок пожирания жизни",
 }

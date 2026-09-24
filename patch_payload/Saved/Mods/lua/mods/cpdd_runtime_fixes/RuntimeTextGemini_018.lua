@@ -232,4 +232,5 @@ return {
     ["The Story Must Go On - Find Speer"] = "История должна продолжаться – Найдите Шпеера",
     ["Ask for the reason for working"] = "Спросите причину работы",
     ["施法"] = "Колдовство",
+    ["Player gains <HighLight> 30 Health Points </>."] = "Игрок получает <HighLight> 30 ед. здоровья </>.",
 }

@@ -251,4 +251,6 @@ return {
     ["Reach level 2 cultivation for any marionette"] = "Достигните 2-го уровня развития любой марионетки.",
     ["Activated Resonance: 2"] = "Активировано резонанса: 2",
     ["[Assassin]"] = "[Ассасин]",
+    ["At the start of combat, chess pieces <HighLight> adjacent to allies </> gain <HighLight> 200 Shield </>, lasting for <HighLight> 8 seconds </>."] = "В начале боя фигуры, <HighLight> смежные с союзниками </>, получают <HighLight> щит прочностью 200 ед. </> на <HighLight> 8 секунд </>.",
+    ["Upon death, deal damage equal to <HighLight>20%</> of your own maximum Health to enemies within <HighLight>2</> tiles."] = "При гибели наносит врагам в пределах <HighLight>2</> клеток урон, равный <HighLight>20%</> от собственного макс. здоровья.",
 }

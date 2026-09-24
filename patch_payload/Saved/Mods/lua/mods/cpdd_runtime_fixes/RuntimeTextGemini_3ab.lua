@@ -230,4 +230,6 @@ return {
     ["Ancient stars shroud the world."] = "Древние звезды окутывают мир.",
     ["Best-Seller: Shop failed, this station is not [Shop], purchase price +50%"] = "Бестселлер: магазин провалился, этой станции нет [Магазин], цена покупки +50%.",
     ["Rozanne lookat"] = "Розанна взгляд",
+    ["Defeat Compensation"] = "Компенсация за поражение",
+    ["Extraordinary World Journey"] = "Путешествие по Потустороннему миру",
 }

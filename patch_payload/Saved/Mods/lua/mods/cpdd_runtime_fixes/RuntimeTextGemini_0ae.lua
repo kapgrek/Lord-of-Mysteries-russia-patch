@@ -257,4 +257,5 @@ return {
     ["Construction Area Location"] = "Расположение строительной площадки",
     ["5231276 Mrs. Miriam's Home Single-Player Instance"] = "5231276 Одиночное измерение: Дом госпожи Мириам",
     ["Ray Bieber is berserk; break the shield as soon as possible!"] = "Рэй Бибер в ярости; сломайте щит как можно скорее!",
+    ["Gain the [Forsaken Land of the Gods] Resonance."] = "Даёт резонанс [Земли, отвергнутые Богами].",
 }

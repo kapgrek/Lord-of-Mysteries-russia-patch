@@ -246,4 +246,7 @@ return {
     ["Transfer · Winery"] = "Трансфер · Винодельня",
     ["Index the \"Buff\" table. If left blank, it means the Buff is not determined by ID."] = "Проиндексируйте таблицу «Buff». Если оставить пустым, это означает, что усиление не определяется идентификатором.",
     ["Of course I collected it, but he put the candlestick back!"] = "Я конечно его собрал, но он поставил подсвечник обратно!",
+    ["Night Watch Holy Seal"] = "Священная печать Ночного Дозора",
+    ["Randomly gain pieces with a total value of 12/18/26 Gold Coins<HighLight></>, including at least 1 3/4/5-cost piece<HighLight></>."] = "Случайным образом даёт фигуры общей стоимостью 12/18/26 золотых монет<HighLight></>, включая минимум 1 фигуру за 3/4/5 золотых<HighLight></>.",
+    ["Tyrant Mask"] = "Маска Тирана",
 }

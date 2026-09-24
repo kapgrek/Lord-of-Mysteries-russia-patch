@@ -269,4 +269,6 @@ return {
     ["Skill Name Ski·ll"] = "Название навыка",
     ["<Assistant_Title1>I Want What I Think</>\n<Assistant_Title2>Achievement Category: </>Social - Mystery Circle\n<Assistant_Title2>Unlock Condition: </>Comment on someone else's post for the first time"] = "<Assistant_Title1>Я хочу, чтобы я чувствовал</>\n<Assistant_Title2>Категория достижения: </>Социально-тайный круг\n<Assistant_Title2>Условия разблокировки: </>Первое комментирование чужих новостей",
     ["Amelia Fuller-1"] = "Амелия Фуллер-1",
+    ["【新手推荐】神弃远击"] = "【Совет новичкам】Отвергнутые: Дальнобойный удар",
+    ["生命值高于<HighLight>50%</>时，攻击额外提高<HighLight>15%</>；生命值低于<HighLight>50%</>时，吸血额外提高<HighLight>15%</>。"] = "Когда здоровье выше <HighLight>50%</>, атака дополнительно повышается на <HighLight>15%</>; когда ниже <HighLight>50%</>, вампиризм дополнительно повышается на <HighLight>15%</>.",
 }

@@ -273,4 +273,5 @@ return {
     ["This Ball has concluded successfully!"] = "Этот Бал завершился успешно!",
     ["Please wait for me, I'm going to get the book."] = "Пожалуйста, подождите меня, я принесу книгу.",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть ",
+    ["Your chess pieces <HighLight> every 4 seconds </> restore <HighLight> 3% of their maximum Health </>."] = "Ваши фигуры <HighLight> каждые 4 секунды </> восстанавливают <HighLight> 3% от своего максимального здоровья </>.",
 }

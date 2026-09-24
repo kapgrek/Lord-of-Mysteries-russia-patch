@@ -241,4 +241,5 @@ return {
     ["What's written in the newspaper is..."] = "В газете написано...",
     ["This lamb stew with tender peas is getting worse and worse!"] = "Это рагу из баранины с нежным горошком становится все хуже и хуже!",
     ["cs camera 4_2"] = "CS камера 4_b",
+    ["Deals an additional <HighLight>25%</> Attack damage."] = "Дополнительно наносит <HighLight>25%</> урона от атаки.",
 }
