@@ -1,7 +1,8 @@
 # TASK-005: диагностическая сборка для разработки (счётчики хуков, непереведённое, переполнение, шрифты, картинки)
 
 Статус: **исполнено** 2026-09-25 (`28706e1` модуль + Init.lua + VerifyPatch, `ada659f` CollectDiagLogs, затем документы), **ждёт проверки в игре** по чек-листу §7 / [DIAGNOSTICS.md](../DIAGNOSTICS.md). Релиз v2.9.1-RU не опубликован. TASK-004 зарезервирован под опции DPS/Chat/Visual Clarity в новом установщике.
-Отличия исполнения от плана: `D.Leave(prev, labels, widgets)` (время меряет сам модуль); `D.DeclareSpec(kind, spec)` и `D.Bind(fn)` как обёртки над `Declare` и `CurrentScope`/`RunInScope`; JSON в ASCII (`\uXXXX`); `report()` при `Loader.DevFlags` пишет через `LuaCLogger.Warning`; `.ps1` с кириллицей — UTF-8 с BOM (AGENTS.md §5).
+Отличия исполнения от плана: `D.Leave(prev, labels, widgets)` (время меряет сам модуль); `D.DeclareSpec(kind, spec)` и `D.Bind(fn)` как обёртки над `Declare` и `CurrentScope`/`RunInScope`; JSON в ASCII (`\uXXXX`); `.ps1` с кириллицей — UTF-8 с BOM (AGENTS.md §5).
+После первой сессии (2026-09-25 02:24): `report()` возвращён к `Log.Info` (вывод `LuaCLogger.Warning` в C7.log не попадает), маркеры модуля тоже через `Log.Info`; обход панели стартует с `view`/`_widgetCache`/`WidgetTree.RootWidget`/`VisibleWidgetNames` (GetAllWidgets недоступен); `budget.max_item_ms/max_item_kind`; `hooks.json` пишется только при изменениях и кодируется в тиках.
 Номера строк даны по `HEAD c7c3dc3`. Перед правкой их нужно сверить: при вставке строки сдвигаются.
 
 ## Цель

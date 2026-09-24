@@ -1349,11 +1349,7 @@ local directTables = {}
 local MISSING_DIRECT_TABLE = {}
 local function report(message)
     local logger = Log or LaunchLog
-    -- PerformanceMode lowers the game log to Warning; with developer flags
-    -- (absoluteru_dev.lua) keep report/reportVerbose lines visible in C7.log.
-    if Loader.DevFlags ~= nil and LuaCLogger ~= nil and type(LuaCLogger.Warning) == "function" then
-        pcall(LuaCLogger.Warning, "[CPDDRuntimeFix] " .. tostring(message))
-    elseif logger and logger.Info then
+    if logger and logger.Info then
         logger.Info("[CPDDRuntimeFix] " .. tostring(message))
     end
 end
@@ -2160,7 +2156,7 @@ local function walkWidgetDescendants(owner, visited, visitor)
         walkWidgetDescendants(widget, visited, visitor)
     end
 end
-if runtimeFixes.Diag then runtimeFixes.Diag.Attach({ getWidgetList = getWidgetList, runtimeMetrics = runtimeMetrics }) end
+if runtimeFixes.Diag then runtimeFixes.Diag.Attach({ getWidgetList = getWidgetList, getNamedWidget = getNamedWidget, runtimeMetrics = runtimeMetrics }) end
 
 runtimeFixes.normalizeLocalizedLargeNumbers = function(value)
     if type(value) ~= "string" then

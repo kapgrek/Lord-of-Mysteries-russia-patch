@@ -89,7 +89,7 @@ function Num([object]$value) {
     return [double]$value
 }
 function Write-Csv([string]$path, $rows) {
-    $rows = @($rows)
+    $rows = @($rows | Where-Object { $null -ne $_ })
     if ($rows.Count -eq 0) { Write-Text $path "`n"; return }
     $csv = $rows | ConvertTo-Csv -NoTypeInformation
     Write-Text $path (($csv -join "`n") + "`n")
@@ -317,7 +317,18 @@ foreach ($sid in $selected) {
         ($lineText -join ', '), ($dropped -join ', '), ($errs -join ', ')))
 }
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('`tick_ms_max` больше ~3 мс или ненулевые `dropped` — повод уменьшить нагрузку (флаги `PanelWalk`, `Overflow`, `FrameBudgetMs`).')
+[void]$sb.AppendLine('| sid | самый тяжёлый элемент | обходы (узлов) | корни view / cache / tree / named | hooks.json записан / без изменений |')
+[void]$sb.AppendLine('|---|---|---|---|---|')
+foreach ($sid in $selected) {
+    $s = $sessions[$sid].Session
+    $b = Get-V $s 'budget'; $c = Get-V $s 'counters'
+    [void]$sb.AppendLine(('| {0} | {1:N2} мс ({2}) | {3} ({4}) | {5} / {6} / {7} / {8} | {9} / {10} |' -f $sid,
+        (Num (Get-V $b 'max_item_ms')), (Get-V $b 'max_item_kind'), (Get-V $c 'walks'), (Get-V $c 'walk_nodes'),
+        (Get-V $c 'roots_view'), (Get-V $c 'roots_cache'), (Get-V $c 'roots_tree'), (Get-V $c 'roots_named'),
+        (Get-V $c 'hooks_writes'), (Get-V $c 'hooks_unchanged')))
+}
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('`tick_ms_max` больше ~3 мс или ненулевые `dropped` — повод уменьшить нагрузку (флаги `PanelWalk`, `Overflow`, `FrameBudgetMs`). `os.clock` в игре идёт шагами ~1 мс.')
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('## API (пробы при сборе)')
 [void]$sb.AppendLine('')

@@ -110,11 +110,20 @@ local S = {
     gauges = {},
     writes = {},
     unscoped = { text_changes = 0, text_writes = 0, data_changes = 0 },
-    counters = { walks = 0, walk_nodes = 0, walks_skipped = 0, text_items = 0, gone = 0 },
+    counters = {
+        walks = 0, walk_nodes = 0, walks_skipped = 0, text_items = 0, gone = 0,
+        roots_view = 0, roots_cache = 0, roots_tree = 0, roots_named = 0,
+        hooks_writes = 0, hooks_unchanged = 0,
+    },
     budget = {
         ticks = 0, ms_total = 0, tick_ms_max = 0, queue_peak = 0,
         io_ms_max = 0, io_ms_total = 0, writes = 0, flushes = 0, flush_ms_max = 0,
+        -- Heaviest single unit of tick work (os.clock has ~1 ms steps on Windows).
+        max_item_ms = 0, max_item_kind = "",
     },
+    hooksJob = nil,
+    hooksPending = nil,
+    hooksSignature = nil,
     dropped = {
         queue = 0, dedup = 0, session_cap = 0, db = 0, data = 0,
         delayed = 0, walk_jobs = 0, walk_nodes = 0, hooks = 0, fonts = 0,
@@ -139,17 +148,19 @@ local function stamp(format)
     return nil
 end
 
+-- Log.Info reaches C7.log as "LuaLog: ReleaseLog:" even under PerformanceMode;
+-- LuaCLogger.Warning output does not appear in C7.log (first session, 2026-09-25).
 local function warn(message)
     local text = tostring(message)
-    local ok, logger = pcall(function() return LuaCLogger end)
-    if ok and logger ~= nil and type(logger.Warning) == "function" then
-        if pcall(logger.Warning, text) then
+    local okLog, gameLog = pcall(function() return Log or LaunchLog end)
+    if okLog and gameLog ~= nil and type(gameLog.Info) == "function" then
+        if pcall(gameLog.Info, text) then
             return
         end
     end
-    local okLog, gameLog = pcall(function() return Log or LaunchLog end)
-    if okLog and gameLog ~= nil and type(gameLog.Warning) == "function" then
-        pcall(gameLog.Warning, text)
+    local ok, logger = pcall(function() return LuaCLogger end)
+    if ok and logger ~= nil and type(logger.Warning) == "function" then
+        pcall(logger.Warning, text)
     end
 end
 
@@ -158,6 +169,16 @@ local function noteApi(name, ok)
         S.api[name] = true
     elseif S.api[name] == nil then
         S.api[name] = false
+    end
+end
+
+-- kind: measure | walk | font | image | encode | db
+local function track(kind, started)
+    local elapsed = nowMs() - started
+    local budget = S.budget
+    if elapsed > budget.max_item_ms then
+        budget.max_item_ms = elapsed
+        budget.max_item_kind = kind
     end
 end
 
@@ -1112,12 +1133,15 @@ local function processTextWidget(widget, text, name, pre, panel, scope, source)
     name = name or objectName(widget) or "?"
     local cjk, cyrillic, latin = classify(text)
     local m = nil
+    local started = nowMs()
     if cfg.Overflow or cfg.Untranslated then
         m = measure(widget)
     end
     local visible = m ~= nil and isVisible(widget) ~= false
+    track("measure", started)
 
     if cfg.Untranslated and (cjk or latin) then
+        started = nowMs()
         local norm = normalize(text)
         local record, emit = dedup("widget|" .. norm)
         if record ~= nil and emit then
@@ -1127,8 +1151,10 @@ local function processTextWidget(widget, text, name, pre, panel, scope, source)
                 count = record.count, t = stamp("%H:%M:%S"),
             }, UNTRANSLATED_ORDER)
         end
+        track("encode", started)
     end
 
+    started = nowMs()
     local post = nil
     if cfg.Fonts or cfg.Overflow then
         post = readFont(widget)
@@ -1144,12 +1170,15 @@ local function processTextWidget(widget, text, name, pre, panel, scope, source)
             noteFont(post, styled and "post" or "pre", name, panel, cjk, cyrillic, latin)
         end
     end
+    track("font", started)
 
     if cfg.Overflow and m ~= nil and visible then
+        started = nowMs()
         checkOverflow(widget, m, {
             path = path, name = name, panel = panel, text = text, norm = normalize(text),
             post = post, pre = pre or fontPre[widget] or nil,
         })
+        track("measure", started)
     end
 end
 
@@ -1199,27 +1228,45 @@ end
 
 -- Panel walks ------------------------------------------------------------------
 
-local function listUserWidgets(owner)
-    local getList = S.getWidgetList
-    if getList == nil then
-        return nil
-    end
-    local hasTree = false
-    pcall(function() hasTree = owner.WidgetTree ~= nil end)
-    if not hasTree then
-        return nil
-    end
-    -- getWidgetList updates Init.lua counters; keep them free of diagnostics work.
+-- Init.lua helpers update runtimeMetrics counters; keep them free of diagnostics work.
+local function withMetricsKept(fn, ...)
     local metrics = S.metrics
     local calls, built, replaced
     if metrics ~= nil then
         calls, built, replaced = metrics.GetAllWidgetsCalls, metrics.WidgetIndexesBuilt, metrics.WidgetTreeReplacements
     end
-    local ok, list = pcall(getList, owner)
+    local ok, result = pcall(fn, ...)
     if metrics ~= nil then
         metrics.GetAllWidgetsCalls, metrics.WidgetIndexesBuilt, metrics.WidgetTreeReplacements = calls, built, replaced
     end
-    return ok and list or nil
+    return ok and result or nil
+end
+
+-- UserWidgets have no GetChildrenCount; their content hangs off WidgetTree.RootWidget.
+-- Returns the tree root and whether WidgetTree.GetAllWidgets is callable.
+local function treeRoot(owner)
+    local root, getAll, hasTree = nil, false, false
+    pcall(function()
+        local tree = owner.WidgetTree
+        if tree ~= nil then
+            hasTree = true
+            getAll = type(tree.GetAllWidgets) == "function"
+            root = tree.RootWidget
+        end
+    end)
+    if hasTree then
+        noteApi("WidgetTree.RootWidget", root ~= nil)
+        noteApi("WidgetTree.GetAllWidgets", getAll)
+    end
+    return root, getAll
+end
+
+local function listUserWidgets(owner, getAll)
+    local getList = S.getWidgetList
+    if getList == nil or not getAll then
+        return nil
+    end
+    return withMetricsKept(getList, owner)
 end
 
 local function pushChildren(stack, owner)
@@ -1258,7 +1305,11 @@ local function pushChildren(stack, owner)
             end
         end
     end
-    local list = listUserWidgets(owner)
+    local root, getAll = treeRoot(owner)
+    if root ~= nil then
+        stack[#stack + 1] = root
+    end
+    local list = listUserWidgets(owner, getAll)
     if type(list) == "table" then
         for _, widget in pairs(list) do
             stack[#stack + 1] = widget
@@ -1308,14 +1359,32 @@ local function visitWidget(job, widget)
         local brush = nil
         pcall(function() brush = widget.Brush end)
         if brush ~= nil then
+            local started = nowMs()
             noteImage(job, widget, brush)
+            track("image", started)
         end
     end
 end
 
+local function isWidgetValue(value)
+    local valueType = type(value)
+    return valueType == "userdata" or valueType == "table"
+end
+
+-- Roots mirror Init.lua translateViewTextWidgets: generated view entries,
+-- view._widgetCache, the UserWidget tree root and VisibleWidgetNames lookups.
+-- WidgetTree.GetAllWidgets is unavailable in this build, so userWidget alone
+-- yields only a handful of nodes. The FindWidget name probe is not repeated.
 local function newWalkJob(component, uid)
     local roots = {}
     local seenComponents = {}
+    local counters = S.counters
+    local function addRoot(value, counter)
+        if isWidgetValue(value) then
+            roots[#roots + 1] = value
+            counters[counter] = counters[counter] + 1
+        end
+    end
     local function addComponent(current, depth)
         if type(current) ~= "table" or seenComponents[current] or depth > 8 then
             return
@@ -1324,9 +1393,30 @@ local function newWalkJob(component, uid)
         if current.isDestroyed then
             return
         end
+        local view = current.view
+        if type(view) == "table" then
+            for key, value in pairs(view) do
+                if key ~= "_widgetCache" then
+                    addRoot(value, "roots_view")
+                end
+            end
+            if type(view._widgetCache) == "table" then
+                for _, value in pairs(view._widgetCache) do
+                    addRoot(value, "roots_cache")
+                end
+            end
+        end
         local root = current.userWidget or current.widget
         if root ~= nil then
             roots[#roots + 1] = root
+            addRoot((treeRoot(root)), "roots_tree")
+            local getNamed = S.getNamedWidget
+            local names = S.fixes and S.fixes.VisibleWidgetNames
+            if getNamed ~= nil and type(names) == "table" then
+                for _, name in ipairs(names) do
+                    addRoot(withMetricsKept(getNamed, root, name), "roots_named")
+                end
+            end
         end
         if type(current._childComponents) == "table" then
             for _, child in pairs(current._childComponents) do
@@ -1359,7 +1449,9 @@ local function stepWalk(job, deadline)
             if not ok then
                 noteError("walk", err)
             end
+            local started = nowMs()
             pushChildren(stack, widget)
+            track("walk", started)
         end
     end
     return true
@@ -1375,7 +1467,9 @@ local function processDelayed(now)
             local component = take(entry.ref)
             if component ~= nil then
                 if #S.walkJobs < WALK_JOBS_MAX then
+                    local started = nowMs()
                     S.walkJobs[#S.walkJobs + 1] = newWalkJob(component, entry.uid)
+                    track("walk", started)
                 else
                     S.dropped.walk_jobs = S.dropped.walk_jobs + 1
                 end
@@ -1471,52 +1565,125 @@ local function sortedValues(map)
     return list
 end
 
-local function encodeHooks()
-    local parts = {}
-    for _, record in ipairs(sortedValues(S.hooks)) do
-        parts[#parts + 1] = encodeValue({
-            id = record.id, kind = record.kind, status = hookStatus(record), module = record.module,
-            declared = record.declared, installed = record.installed, wraps = record.wraps,
-            calls = record.calls, text_changes = record.text_changes, text_writes = record.text_writes,
-            data_changes = record.data_changes, errors = record.errors,
-            ms_total = record.ms_total, ms_max = record.ms_max, light = record.light,
-        }, 0, HOOK_ORDER)
-    end
-    local panels = {}
-    for _, record in ipairs(sortedValues(S.panels)) do
-        panels[#panels + 1] = encodeValue({
-            id = record.id, uid = record.uid, runs = record.calls, labels = record.labels,
-            widgets = record.widgets, text_changes = record.text_changes,
-            text_writes = record.text_writes, data_changes = record.data_changes,
-            ms_total = record.ms_total, ms_max = record.ms_max,
-        }, 0, PANEL_ORDER)
-    end
-    local afterload = {}
+local function encodeHookRecord(record)
+    return encodeValue({
+        id = record.id, kind = record.kind, status = hookStatus(record), module = record.module,
+        declared = record.declared, installed = record.installed, wraps = record.wraps,
+        calls = record.calls, text_changes = record.text_changes, text_writes = record.text_writes,
+        data_changes = record.data_changes, errors = record.errors,
+        ms_total = record.ms_total, ms_max = record.ms_max, light = record.light,
+    }, 0, HOOK_ORDER)
+end
+
+local function encodePanelRecord(record)
+    return encodeValue({
+        id = record.id, uid = record.uid, runs = record.calls, labels = record.labels,
+        widgets = record.widgets, text_changes = record.text_changes,
+        text_writes = record.text_writes, data_changes = record.data_changes,
+        ms_total = record.ms_total, ms_max = record.ms_max,
+    }, 0, PANEL_ORDER)
+end
+
+local AFTERLOAD_ORDER = { "id", "module", "applied" }
+
+local function afterloadRows()
+    local rows = {}
     local loader = S.loader
-    if loader ~= nil and type(loader.Hooks) == "table" then
-        local names = {}
-        for name in pairs(loader.Hooks) do
-            names[#names + 1] = tostring(name)
-        end
-        table.sort(names)
-        for _, name in ipairs(names) do
-            local hooks = loader.Hooks[name]
-            if type(hooks) == "table" then
-                for _, hook in ipairs(hooks) do
-                    afterload[#afterload + 1] = encodeValue({
-                        id = hook.Id and tostring(hook.Id) or nil, module = name,
-                        applied = moduleApplied(name),
-                    }, 0, { "id", "module", "applied" })
-                end
+    if loader == nil or type(loader.Hooks) ~= "table" then
+        return rows
+    end
+    local names = {}
+    for name in pairs(loader.Hooks) do
+        names[#names + 1] = tostring(name)
+    end
+    table.sort(names)
+    for _, name in ipairs(names) do
+        local hooks = loader.Hooks[name]
+        if type(hooks) == "table" then
+            for _, hook in ipairs(hooks) do
+                rows[#rows + 1] = { id = hook.Id and tostring(hook.Id) or nil, module = name, applied = moduleApplied(name) }
             end
         end
     end
+    return rows
+end
+
+-- Cheap fingerprint: hooks.json is rewritten only when a counter changed.
+local function hooksSignature()
+    local parts = { S.hookCount, S.panelCount, S.noteSeq }
+    local sum = 0
+    for _, record in pairs(S.hooks) do
+        sum = sum + record.calls + record.text_changes + record.text_writes + record.data_changes
+            + record.errors + (record.wraps or 0) + (record.installed and 1 or 0)
+    end
+    for _, record in pairs(S.panels) do
+        sum = sum + record.calls + record.labels + record.text_changes
+    end
+    parts[#parts + 1] = sum
+    local applied = S.loader and S.loader.Applied
+    local appliedSum = 0
+    if type(applied) == "table" then
+        for _, count in pairs(applied) do
+            appliedSum = appliedSum + (tonumber(count) or 0)
+        end
+    end
+    parts[#parts + 1] = appliedSum
+    for key, count in pairs(S.writes) do
+        parts[#parts + 1] = key .. "=" .. tostring(count)
+    end
+    table.sort(parts, function(a, b) return tostring(a) < tostring(b) end)
+    local text = {}
+    for index, value in ipairs(parts) do
+        text[index] = tostring(value)
+    end
+    return table.concat(text, ",")
+end
+
+local function newHooksJob(signature)
+    return {
+        signature = signature,
+        stages = {
+            { list = afterloadRows(), encode = function(row) return encodeValue(row, 0, AFTERLOAD_ORDER) end, out = {} },
+            { list = sortedValues(S.hooks), encode = encodeHookRecord, out = {} },
+            { list = sortedValues(S.panels), encode = encodePanelRecord, out = {} },
+        },
+        stage = 1,
+        index = 0,
+    }
+end
+
+local function finishHooksJob(job)
+    local stages = job.stages
     return "{" .. Q .. "schema" .. Q .. ":1," .. Q .. "sid" .. Q .. ":" .. encodeString(S.sid)
         .. "," .. Q .. "unscoped" .. Q .. ":" .. encodeValue(S.unscoped)
         .. "," .. Q .. "writes" .. Q .. ":" .. encodeValue(S.writes)
-        .. ",\n" .. Q .. "afterload" .. Q .. ":[\n" .. table.concat(afterload, ",\n") .. "]"
-        .. ",\n" .. Q .. "hooks" .. Q .. ":[\n" .. table.concat(parts, ",\n") .. "]"
-        .. ",\n" .. Q .. "panels" .. Q .. ":[\n" .. table.concat(panels, ",\n") .. "]}\n"
+        .. ",\n" .. Q .. "afterload" .. Q .. ":[\n" .. table.concat(stages[1].out, ",\n") .. "]"
+        .. ",\n" .. Q .. "hooks" .. Q .. ":[\n" .. table.concat(stages[2].out, ",\n") .. "]"
+        .. ",\n" .. Q .. "panels" .. Q .. ":[\n" .. table.concat(stages[3].out, ",\n") .. "]}\n"
+end
+
+-- Encodes records until the deadline; returns true when the job is complete.
+local function stepHooksJob(job, deadline)
+    while job.stage <= #job.stages do
+        local stage = job.stages[job.stage]
+        while job.index < #stage.list do
+            if deadline ~= nil and nowMs() >= deadline then
+                return false
+            end
+            job.index = job.index + 1
+            stage.out[job.index] = stage.encode(stage.list[job.index])
+        end
+        job.stage = job.stage + 1
+        job.index = 0
+    end
+    return true
+end
+
+-- Synchronous encoding (after_main and forced flushes).
+local function encodeHooks()
+    local job = newHooksJob(nil)
+    stepHooksJob(job, nil)
+    return finishHooksJob(job)
 end
 
 local function fixesFontPath(field)
@@ -1597,8 +1764,25 @@ function D.Flush(force)
         end
     end
     if cfg.Hooks then
-        local ok, content = pcall(encodeHooks)
-        if ok then writeFile("hooks.json", content) else noteError("io", content) end
+        local okSignature, signature = pcall(hooksSignature)
+        if not okSignature then
+            noteError("io", signature)
+        elseif force then
+            -- Forced flush (after_main): encode and write synchronously.
+            S.hooksJob, S.hooksPending = nil, nil
+            local ok, content = pcall(encodeHooks)
+            if ok and writeFile("hooks.json", content) then
+                S.hooksSignature = signature
+                S.counters.hooks_writes = S.counters.hooks_writes + 1
+            elseif not ok then
+                noteError("io", content)
+            end
+        elseif signature ~= S.hooksSignature and S.hooksJob == nil then
+            -- Periodic flush: hooks.json is encoded in ticks within FrameBudgetMs.
+            S.hooksPending = signature
+        else
+            S.counters.hooks_unchanged = S.counters.hooks_unchanged + 1
+        end
     end
     if cfg.Fonts then
         local ok, content = pcall(encodeFonts)
@@ -1630,6 +1814,7 @@ end
 local function busy()
     return S.qhead <= S.qtail or #S.walkJobs > 0 or #S.delayed > 0
         or S.dataDone < #S.data or S.dbDone < S.dbCount
+        or S.hooksJob ~= nil or S.hooksPending ~= nil
 end
 
 local onTimer
@@ -1705,7 +1890,9 @@ local function tickBody()
         local entry = S.data[S.dataDone]
         S.data[S.dataDone] = nil
         if entry ~= nil then
+            local itemStarted = nowMs()
             local ok, err = pcall(processData, entry)
+            track("encode", itemStarted)
             if not ok then
                 noteError("item", err)
             end
@@ -1717,7 +1904,9 @@ local function tickBody()
     end
 
     while S.dbDone < S.dbCount and nowMs() < deadline do
+        local itemStarted = nowMs()
         local ok, err = pcall(processDb, S.dbDone)
+        track("db", itemStarted)
         S.dbDone = S.dbDone + 1
         if not ok then
             noteError("item", err)
@@ -1727,6 +1916,34 @@ local function tickBody()
         S.db = {}
         S.dbCount = 0
         S.dbDone = 0
+    end
+
+    -- hooks.json: build the job, encode records within the budget, write once.
+    if S.hooksJob == nil and S.hooksPending ~= nil and nowMs() < deadline then
+        local itemStarted = nowMs()
+        local ok, job = pcall(newHooksJob, S.hooksPending)
+        S.hooksPending = nil
+        track("encode", itemStarted)
+        if ok then S.hooksJob = job else noteError("io", job) end
+    end
+    if S.hooksJob ~= nil and nowMs() < deadline then
+        local job = S.hooksJob
+        local ok, done = pcall(stepHooksJob, job, deadline)
+        if not ok then
+            noteError("io", done)
+            S.hooksJob = nil
+        elseif done then
+            S.hooksJob = nil
+            local itemStarted = nowMs()
+            local okText, content = pcall(finishHooksJob, job)
+            track("encode", itemStarted)
+            if okText and writeFile("hooks.json", content) then
+                S.hooksSignature = job.signature
+                S.counters.hooks_writes = S.counters.hooks_writes + 1
+            elseif not okText then
+                noteError("io", content)
+            end
+        end
     end
 
     local now = nowMs()
@@ -1884,6 +2101,7 @@ function D.Attach(helpers)
         return
     end
     S.getWidgetList = helpers.getWidgetList
+    S.getNamedWidget = helpers.getNamedWidget
     S.metrics = helpers.runtimeMetrics
     if not S.disabled and type(S.metrics) == "table" and (cfg.Untranslated or cfg.Hooks) then
         S.metrics.CaptureDataAssignment = D.CaptureDataAssignment
