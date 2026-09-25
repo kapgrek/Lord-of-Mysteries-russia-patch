@@ -17,29 +17,39 @@ $manifest = "$PSScriptRoot\app.manifest"
 $icon = "$PSScriptRoot\app.ico"
 $outputExe = "$OutDir\Lord-of-Mysteries-Russian-Patch.exe"
 
-$refs = "System.dll,System.Windows.Forms.dll,System.Drawing.dll,System.IO.Compression.dll,System.IO.Compression.FileSystem.dll,System.Web.Extensions.dll"
+# WPF without the .NET SDK: csc + XAML loaded at run time from resources (no BAML, no x:Class). TASK-015 §4.1
+$fw = Split-Path $csc -Parent
+$refs = @("System.dll", "System.Core.dll", "System.Xml.dll", "System.IO.Compression.dll", "System.IO.Compression.FileSystem.dll", "System.Web.Extensions.dll",
+    "$fw\System.Xaml.dll", "$fw\WPF\PresentationFramework.dll", "$fw\WPF\PresentationCore.dll", "$fw\WPF\WindowsBase.dll") | ForEach-Object { "/r:`"$_`"" }
+
+# Sources and embedded resources (tools/BuildTools.ps1 builds InstallerCoreTests from the same lists)
+$sources = @('Program.cs', 'AppInfo.cs', 'PatcherBackend.cs', 'PayloadSource.cs', 'GameOptions.cs', 'InstallerCore.cs', 'AssemblyInfo.cs',
+    'Ui\UiKit.cs', 'Ui\MainWindow.cs', 'Ui\HowToPlayWindow.cs', 'Ui\FolderPicker.cs', 'Ui\Links.cs')
+$resources = [ordered]@{
+    'supported_game.json'     = 'LotmRussianPatcher.supported_game.json'   # fallback when the data zip has none
+    'links.json'              = 'LotmRussianPatcher.links.json'
+    'HowToPlay.md'            = 'LotmRussianPatcher.HowToPlay.md'
+    'app.ico'                 = 'LotmRussianPatcher.app.ico'
+    'Ui\Theme.xaml'           = 'LotmRussianPatcher.Theme.xaml'
+    'Ui\MainWindow.xaml'      = 'LotmRussianPatcher.MainWindow.xaml'
+    'Ui\HowToPlayWindow.xaml' = 'LotmRussianPatcher.HowToPlayWindow.xaml'
+}
+Get-ChildItem "$PSScriptRoot\howto\*.png" | ForEach-Object { $resources["howto\$($_.Name)"] = "LotmRussianPatcher.howto.$($_.Name)" }
 
 Write-Host "=== Compiling Lord-of-Mysteries-Russian-Patch.exe ===" -ForegroundColor Cyan
 
 $cmdArgs = @(
+    "/nologo",
     "/target:winexe",
     "/optimize+",
     "/platform:anycpu",
     "/highentropyva+",
-    "/r:$refs",
     "/win32manifest:`"$manifest`"",
     "/win32icon:`"$icon`"",
-    "/out:`"$outputExe`"",
-    # Fallback supported game state when the data zip has no supported_game.json
-    "/resource:`"$PSScriptRoot\supported_game.json`",LotmRussianPatcher.supported_game.json",
-    "`"$PSScriptRoot\Program.cs`"",
-    "`"$PSScriptRoot\AppInfo.cs`"",
-    "`"$PSScriptRoot\PatcherBackend.cs`"",
-    "`"$PSScriptRoot\PayloadSource.cs`"",
-    "`"$PSScriptRoot\GameOptions.cs`"",
-    "`"$PSScriptRoot\InstallerCore.cs`"",
-    "`"$PSScriptRoot\AssemblyInfo.cs`""
-)
+    "/out:`"$outputExe`""
+) + $refs
+foreach ($r in $resources.GetEnumerator()) { $cmdArgs += "/resource:`"$PSScriptRoot\$($r.Key)`",$($r.Value)" }
+foreach ($s in $sources) { $cmdArgs += "`"$PSScriptRoot\$s`"" }
 
 $proc = Start-Process -FilePath $csc -ArgumentList $cmdArgs -NoNewWindow -Wait -PassThru
 if ($proc.ExitCode -ne 0) {

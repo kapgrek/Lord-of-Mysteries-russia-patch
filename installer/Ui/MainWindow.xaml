@@ -1,0 +1,170 @@
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lord of Mysteries — русская локализация"
+        Width="800" Height="820" MinHeight="660"
+        WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize"
+        Background="{StaticResource BgBrush}" Foreground="{StaticResource TextBrush}"
+        FontFamily="Segoe UI" FontSize="13"
+        UseLayoutRounding="True" SnapsToDevicePixels="True" TextOptions.TextFormattingMode="Display">
+    <!-- Loaded by Ui/MainWindow.cs with XamlReader (no x:Class, no event attributes); names are listed in MainWindow.ElementNames. -->
+    <DockPanel>
+        <!-- Header: logo, title, status, version, "Как играть" -->
+        <Border DockPanel.Dock="Top" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="0,0,0,1" Padding="22,16,22,16">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <Border Width="64" Height="64" CornerRadius="12" Background="{StaticResource InputBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" VerticalAlignment="Top">
+                    <Image x:Name="Logo" Width="48" Height="48" RenderOptions.BitmapScalingMode="HighQuality"/>
+                </Border>
+                <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center">
+                    <TextBlock Text="LORD OF MYSTERIES" FontSize="21" FontWeight="Bold" Foreground="{StaticResource GoldBrush}"/>
+                    <TextBlock Text="РУССКАЯ ЛОКАЛИЗАЦИЯ · AbsoluteRU" FontSize="12" Foreground="{StaticResource MutedBrush}" Margin="1,2,0,0"/>
+                    <Border x:Name="StatusBadge" CornerRadius="11" Padding="10,3,12,3" Margin="0,9,0,0" HorizontalAlignment="Left" Background="{StaticResource MutedSoftBrush}">
+                        <StackPanel Orientation="Horizontal">
+                            <Ellipse x:Name="StatusDot" Width="8" Height="8" Fill="{StaticResource MutedBrush}" VerticalAlignment="Center"/>
+                            <TextBlock x:Name="StatusText" Text="ВЫБЕРИТЕ ПАПКУ ИГРЫ" Margin="7,0,0,0" FontSize="11.5" FontWeight="SemiBold" Foreground="{StaticResource MutedBrush}"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+                <StackPanel Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right">
+                    <TextBlock x:Name="VersionText" Text="v0.0.0-RU" HorizontalAlignment="Right" Foreground="{StaticResource MutedBrush}" FontSize="12"/>
+                    <Button x:Name="HeaderHowToButton" Style="{StaticResource LinkButton}" Margin="0,10,0,0" HorizontalAlignment="Right">
+                        <TextBlock Text="?  Как играть" FontWeight="SemiBold"/>
+                    </Button>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- Footer: social links, CPDD credits, local payload -->
+        <Border DockPanel.Dock="Bottom" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="0,1,0,0" Padding="22,12,22,12">
+            <StackPanel>
+                <DockPanel>
+                    <Button x:Name="FooterHowToButton" DockPanel.Dock="Right" Style="{StaticResource SocialButton}" Margin="0">
+                        <TextBlock Text="?  Как играть"/>
+                    </Button>
+                    <WrapPanel>
+                        <Button x:Name="TelegramChannelButton" Style="{StaticResource SocialButton}">
+                            <TextBlock Text="✈  Канал перевода"/>
+                        </Button>
+                        <Button x:Name="TelegramAuthorButton" Style="{StaticResource SocialButton}">
+                            <TextBlock Text="✈  Автор"/>
+                        </Button>
+                        <Button x:Name="BoostyButton" Style="{StaticResource AccentSocialButton}">
+                            <TextBlock Text="♥  Поддержать на Boosty"/>
+                        </Button>
+                    </WrapPanel>
+                </DockPanel>
+                <TextBlock x:Name="CreditsText" Margin="0,10,0,0" FontSize="12" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap">
+                    <Run Text="Основано на английском патче CPDD (Lani27)"/>
+                    <Run Text=" · "/>
+                    <Hyperlink x:Name="CpddLink">Discord CPDD</Hyperlink>
+                    <Run Text=" · "/>
+                    <Hyperlink x:Name="GithubLink">GitHub</Hyperlink>
+                </TextBlock>
+                <TextBlock x:Name="PayloadText" Margin="0,4,0,0" FontSize="12" Foreground="{StaticResource WarnBrush}" TextWrapping="Wrap" Visibility="Collapsed"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Body -->
+        <DockPanel Margin="22,16,22,14">
+            <!-- ПАПКА ИГРЫ -->
+            <StackPanel DockPanel.Dock="Top">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Right" Text="Папка, оканчивающаяся на Game\C7" Style="{StaticResource Hint}"/>
+                    <TextBlock Text="ПАПКА ИГРЫ" Style="{StaticResource Caption}"/>
+                </DockPanel>
+                <TextBox x:Name="GamePathBox" FontFamily="Consolas" FontSize="13"/>
+                <Grid Margin="0,8,0,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="10"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="AutoDetectButton" Content="Найти автоматически"/>
+                    <Button x:Name="BrowseButton" Grid.Column="2" Content="Выбрать папку…"/>
+                </Grid>
+                <TextBlock x:Name="FolderCheckText" Margin="1,8,0,0" FontSize="12.5" TextWrapping="Wrap" Foreground="{StaticResource MutedBrush}" Text="Проверка папки…"/>
+                <TextBlock x:Name="FolderHowToHint" Margin="1,2,0,0" FontSize="12.5" Foreground="{StaticResource MutedBrush}" Visibility="Collapsed">
+                    <Run Text="Игра ещё не установлена? → "/>
+                    <Hyperlink x:Name="FolderHowToLink">Как играть</Hyperlink>
+                </TextBlock>
+            </StackPanel>
+
+            <!-- СЧЁТЧИК УРОНА (DPS) -->
+            <StackPanel DockPanel.Dock="Top" Margin="0,18,0,0">
+                <TextBlock Text="СЧЁТЧИК УРОНА (DPS)" Style="{StaticResource Caption}"/>
+                <Border Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="8" Padding="14,12">
+                    <StackPanel>
+                        <WrapPanel>
+                            <RadioButton x:Name="DpsNative" GroupName="Dps" Content="Простой"/>
+                            <RadioButton x:Name="DpsAdvanced" GroupName="Dps" Content="Расширенный" IsChecked="True"/>
+                            <RadioButton x:Name="DpsExternal" GroupName="Dps" Content="Внешний"/>
+                            <RadioButton x:Name="DpsOff" GroupName="Dps" Content="Выключить все"/>
+                        </WrapPanel>
+                        <DockPanel Margin="0,10,0,0">
+                            <Button x:Name="LaunchMeterButton" DockPanel.Dock="Right" Padding="12,5" FontSize="12.5" Margin="12,0,0,0" Content="Запустить внешний ▸"/>
+                            <TextBlock x:Name="DpsHint" Style="{StaticResource Hint}" VerticalAlignment="Center"/>
+                        </DockPanel>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- ДОПОЛНИТЕЛЬНО -->
+            <StackPanel DockPanel.Dock="Top" Margin="0,16,0,0">
+                <TextBlock Text="ДОПОЛНИТЕЛЬНО" Style="{StaticResource Caption}"/>
+                <Border Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="8" Padding="14,12">
+                    <StackPanel>
+                        <CheckBox x:Name="ChatCheck">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Новый чат для ПК" Width="170"/>
+                                <TextBlock Text="перемещаемая панель чата" Style="{StaticResource Hint}"/>
+                            </StackPanel>
+                        </CheckBox>
+                        <CheckBox x:Name="ClarityCheck" Margin="0,10,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Visual Clarity  ⓘ" Width="170"/>
+                                <TextBlock Text="без тумана, облаков, bloom, motion blur…" Style="{StaticResource Hint}"/>
+                            </StackPanel>
+                        </CheckBox>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <!-- Actions and progress -->
+            <StackPanel DockPanel.Dock="Top" Margin="0,18,0,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="12"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="MainButton" Style="{StaticResource PrimaryButton}" Content="Установить"/>
+                    <Button x:Name="ApplyButton" Grid.Column="2" Content="Применить настройки" Padding="16,9"/>
+                    <Button x:Name="UninstallButton" Grid.Column="4" Style="{StaticResource DangerButton}" Content="Удалить" Padding="18,9"/>
+                </Grid>
+                <Grid x:Name="ProgressRow" Margin="0,12,0,0" Visibility="Collapsed">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="220"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <ProgressBar x:Name="Progress" VerticalAlignment="Center"/>
+                    <TextBlock x:Name="ProgressText" Grid.Column="1" Margin="12,0" VerticalAlignment="Center" FontSize="12" Foreground="{StaticResource MutedBrush}" TextTrimming="CharacterEllipsis"/>
+                    <Button x:Name="CancelButton" Grid.Column="2" Style="{StaticResource DangerButton}" Padding="12,4" FontSize="12" Content="Отмена"/>
+                </Grid>
+            </StackPanel>
+
+            <!-- ЖУРНАЛ -->
+            <DockPanel Margin="0,16,0,0">
+                <TextBlock DockPanel.Dock="Top" Text="ЖУРНАЛ" Style="{StaticResource Caption}"/>
+                <TextBox x:Name="LogBox" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
+                         FontFamily="Consolas" FontSize="12" Foreground="#AEB7C6" Padding="8,6" MinHeight="90"/>
+            </DockPanel>
+        </DockPanel>
+    </DockPanel>
+</Window>

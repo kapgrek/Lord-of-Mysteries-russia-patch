@@ -72,6 +72,9 @@ public static class InstallerCoreTests
         Run("payload: --payload folder / zip", PayloadExplicit);
         Run("payload: cache only with matching release.json", PayloadCache);
         Run("versions: installed Init.lua VERSION and comparison", VersionsCompare);
+        Run("markup: MainWindow.xaml / HowToPlayWindow.xaml load, all names found", InSta(MarkupLoads));
+        Run("links.json: embedded links valid, bad ones dropped", LinksValidation);
+        Run("HowToPlay.md -> FlowDocument: sections, lists, links, image", InSta(HowToPlayParses));
 
         Console.WriteLine();
         Console.WriteLine("passed " + passed + ", failed " + failed);
@@ -656,6 +659,128 @@ public static class InstallerCoreTests
         Assert(PatcherBackend.CompareVersions("2.9.10-RU", "v3.0.0-RU") < 0, "2.9.10 < 3.0.0");
         Assert(PatcherBackend.CompareVersions("v3.0.1-RU", "3.0.0-RU") > 0, "3.0.1 > 3.0.0");
         Assert(PatcherBackend.CompareVersions("3.0.0-RU", "v3.0.0-RU") == 0, "tag vs version equal");
+    }
+
+    // ------------------------------------------------------------ UI: markup, links, "Как играть" (installer/Ui)
+
+    // WPF objects need an STA thread; exceptions are rethrown into Run.
+    static Action InSta(Action test)
+    {
+        return () =>
+        {
+            Exception error = null;
+            var t = new System.Threading.Thread(() => { try { test(); } catch (Exception ex) { error = ex; } });
+            t.SetApartmentState(System.Threading.ApartmentState.STA);
+            t.Start();
+            t.Join();
+            if (error != null) throw error;
+        };
+    }
+
+    static void MarkupLoads()
+    {
+        PayloadSource.ExplicitPayload = null;
+        UiKit.EnsureApplication();
+        var main = (System.Windows.Window)UiKit.LoadXaml(MainWindow.XamlResource);
+        foreach (string name in MainWindow.ElementNames) Assert(main.FindName(name) != null, "MainWindow.xaml has " + name);
+        var how = (System.Windows.Window)UiKit.LoadXaml(HowToPlayWindow.XamlResource);
+        foreach (string name in HowToPlayWindow.ElementNames) Assert(how.FindName(name) != null, "HowToPlayWindow.xaml has " + name);
+        // The constructor binds every element with its type and wires links; it does not touch any game folder.
+        System.Windows.Window created = MainWindow.Create();
+        Assert(created != null && created.Title.Contains(AppInfo.Version), "MainWindow.Create() binds the markup");
+        Assert(UiKit.LoadImage(UiKit.IconResource) != null, "app.ico resource decodes");
+        created.Close();
+    }
+
+    static void LinksValidation()
+    {
+        var links = Links.Load();
+        Assert(links.Count == 5, "5 embedded links: " + links.Count);
+        Assert(Links.Get(Links.TelegramChannel) == "https://t.me/LoM_ru_patch", "telegram_channel");
+        Assert(Links.Get(Links.TelegramAuthor) == "https://t.me/AbsoluteGrek", "telegram_author");
+        Assert(Links.Get(Links.Boosty) == "https://boosty.to/kapgrek", "boosty");
+        Assert(Links.Get(Links.CpddDiscord) == "https://discord.gg/yyds", "cpdd_discord");
+        Assert(Links.Get(Links.Github) == "https://github.com/" + AppInfo.Repo, "github");
+
+        var parsed = Links.Parse("{\"a\": \"http://t.me/x\", \"b\": \"https://evil.com/x\", \"c\": \"javascript:alert(1)\", \"d\": \"\", " +
+            "\"e\": \"https://t.me.evil.com/x\", \"f\": \"https://user@t.me/x\", \"g\": \"https://t.me:8443/x\", \"h\": \"https://www.github.com/x\", \"i\": 5}");
+        Assert(parsed.Count == 1 && parsed.ContainsKey("h"), "only https on allowed hosts survives: " + string.Join(",", new List<string>(parsed.Keys).ToArray()));
+        Assert(Links.Parse("not json").Count == 0, "broken json -> no links");
+        Assert(Links.Parse("{\"telegram_channel\": \"\"}").Count == 0, "empty value -> button hidden");
+    }
+
+    static void CountBlocks(System.Windows.Documents.BlockCollection blocks, Dictionary<string, int> counts)
+    {
+        foreach (System.Windows.Documents.Block b in blocks)
+        {
+            var p = b as System.Windows.Documents.Paragraph;
+            var list = b as System.Windows.Documents.List;
+            if (b.Tag is string) Bump(counts, (string)b.Tag);
+            if (p != null) CountInlines(p.Inlines, counts);
+            if (list != null)
+            {
+                Bump(counts, list.MarkerStyle == System.Windows.TextMarkerStyle.Decimal ? "ol" : "ul");
+                foreach (System.Windows.Documents.ListItem item in list.ListItems)
+                {
+                    Bump(counts, "li");
+                    CountBlocks(item.Blocks, counts);
+                }
+            }
+        }
+    }
+
+    static void CountInlines(System.Windows.Documents.InlineCollection inlines, Dictionary<string, int> counts)
+    {
+        foreach (System.Windows.Documents.Inline i in inlines)
+        {
+            if (i is System.Windows.Documents.Hyperlink) Bump(counts, "a");
+            if (i is System.Windows.Documents.Bold) Bump(counts, "b");
+            var span = i as System.Windows.Documents.Span;
+            if (span != null) CountInlines(span.Inlines, counts);
+        }
+    }
+
+    static void Bump(Dictionary<string, int> counts, string key)
+    {
+        int n;
+        counts.TryGetValue(key, out n);
+        counts[key] = n + 1;
+    }
+
+    static int Count(Dictionary<string, int> counts, string key)
+    {
+        int n;
+        return counts.TryGetValue(key, out n) ? n : 0;
+    }
+
+    static void HowToPlayParses()
+    {
+        UiKit.EnsureApplication();
+        string md = "# A\n\ntext **bold** [ok](https://t.me/x) [bad](http://t.me/x) [js](javascript:alert(1)) [evil](https://evil.com/)\nnext line\n\n## B\n\n" +
+            "1. one\n2. two\n\n![](img/pic.png)\n\n3. three\n\n- a\n- b\n\n![](img/missing.png)\n";
+        var pic = System.Windows.Media.Imaging.BitmapSource.Create(2, 2, 96, 96, System.Windows.Media.PixelFormats.Gray8, null, new byte[4], 2);
+        var doc = HowToPlayWindow.BuildDocument(md, name => name == "pic.png" ? pic : null);
+        var c = new Dictionary<string, int>();
+        CountBlocks(doc.Blocks, c);
+        Assert(Count(c, "h1") == 1 && Count(c, "h2") == 1, "one section, one subsection");
+        Assert(Count(c, "ol") == 2 && Count(c, "ul") == 1 && Count(c, "li") == 5, "lists: 2 numbered, 1 bulleted, 5 items");
+        Assert(Count(c, "a") == 1, "only the https t.me link is a hyperlink (http, javascript:, foreign host stay text)");
+        Assert(Count(c, "b") == 1, "bold");
+        Assert(Count(c, "img") == 1, "known image shown, missing one skipped");
+        var numbered = new List<System.Windows.Documents.List>();
+        foreach (var b in doc.Blocks) { var l = b as System.Windows.Documents.List; if (l != null && l.MarkerStyle == System.Windows.TextMarkerStyle.Decimal) numbered.Add(l); }
+        Assert(numbered.Count == 2 && numbered[1].StartIndex == 3, "numbering continues after the image (StartIndex 3)");
+        string docText = new System.Windows.Documents.TextRange(doc.ContentStart, doc.ContentEnd).Text;
+        Assert(docText.Contains("bad") && !docText.Contains("javascript"), "blocked link keeps its label, not the url");
+
+        // The real text built into the installer.
+        doc = HowToPlayWindow.BuildDocument(HowToPlayWindow.LoadText(), name => UiKit.LoadImage(HowToPlayWindow.ImageResourcePrefix + name));
+        c = new Dictionary<string, int>();
+        CountBlocks(doc.Blocks, c);
+        Assert(Count(c, "h1") == 4, "HowToPlay.md: 4 sections, got " + Count(c, "h1"));
+        Assert(Count(c, "li") == 8 + 4 + 2 + 3, "HowToPlay.md: 8 steps and 9 items, got " + Count(c, "li"));
+        Assert(Count(c, "a") == 5, "HowToPlay.md: 5 links (launcher, channel x2, author, Boosty), got " + Count(c, "a"));
+        Assert(Count(c, "img") == 1, "HowToPlay.md: QR login picture");
     }
 
     // ------------------------------------------------------------ helpers
