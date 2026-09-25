@@ -664,7 +664,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('Какой глиф выбрал Slate (fallback), из Lua не видно: сверять cmap экспортированных шрифтов (U+0400–U+04FF) офлайн.')
 [void]$sb.AppendLine('')
 if ($cyrillicFont) {
-    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'sub', 'cultures', 'previous', 'write', 'via', 'verify', 'flush', 'cyr', 'latin', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
+    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'sub', 'cultures', 'previous', 'write', 'via', 'verify', 'flush', 'flush2', 'cyr', 'latin', 'source', 'title_face', 'applied_at', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
     [void]$sb.AppendLine("Кириллица (TASK-006): ``$($parts -join ' ')``.")
     [void]$sb.AppendLine('')
 }

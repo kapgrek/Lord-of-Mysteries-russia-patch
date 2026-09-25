@@ -1821,6 +1821,7 @@ local function encodeFonts()
         .. ",\n" .. Q .. "cyrillic_font" .. Q .. ":" .. encodeValue(type(status) == "table" and status or nil, 0, {
             "mode", "requested", "title_typeface", "typefaces", "face", "sub", "cultures", "previous",
             "write", "via", "verify", "flush", "cyr", "latin", "reason",
+            "source", "title_face", "flush2", "applied_at",
         })
         .. ",\n" .. Q .. "composite" .. Q .. ":" .. encodeValue(S.composite)
         .. ",\n" .. Q .. "title_cyrillic" .. Q .. ":[\n" .. table.concat(titleCyr, ",\n") .. "]"

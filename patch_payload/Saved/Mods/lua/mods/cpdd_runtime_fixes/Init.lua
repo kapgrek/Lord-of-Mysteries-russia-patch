@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.4-RU"
+local VERSION = "2.9.5-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1484,6 +1484,11 @@ end
 --                NotoSerif/NotoSans) Cultures = current culture, so its ranges
 --                become priority ranges ahead of the default typeface; no range
 --                is read or written; any failure falls back to "typeface";
+--   "face"     - (TASK-009) replace the FontFaceAsset of the "Title" entry of
+--                Font_Aleo's DefaultTypeface (face of Regular, or of a Fallback
+--                SubTypeface by CyrillicTitleFace); a decisive test of whether a
+--                runtime CompositeFont edit reaches Slate at all; any failure
+--                restores the previous face and falls back to "typeface";
 --   "typeface" - Title -> Regular for widgets whose text contains Cyrillic;
 --   "off"      - authored typefaces.
 -- absoluteru_dev.lua (Enabled = true) may override it: CyrillicFont = "subfont".
@@ -1499,6 +1504,11 @@ runtimeFixes.CyrillicFaceCandidates = {
 -- "cultures" mode: faces of Font_Aleo SubTypefaces (…/Fallback/<name>.<name>) by
 -- priority. absoluteru_dev.lua CyrillicCultureSub = "<name>" goes first.
 runtimeFixes.CyrillicCultureSubs = { "NotoSerif_Regular", "NotoSans_Regular" }
+-- "face" mode: source of the new Title face. "Aleo_Regular" is the face of the
+-- Regular entry; any other name is a Font_Aleo SubTypeface (…/Fallback/<name>.<name>,
+-- e.g. NotoSerif_Regular, NotoSansCJKsc_Regular, NotoSans_Regular) and its first face.
+-- absoluteru_dev.lua CyrillicTitleFace = "<name>" overrides it.
+runtimeFixes.CyrillicTitleFace = "Aleo_Regular"
 
 do
     local CYRILLIC_FONT_MODE = "typeface"
@@ -1923,90 +1933,285 @@ do
         return status
     end
 
+    -- Second cache reset (TASK-009, dev flag CyrillicFlush = "culture"): a culture
+    -- change makes Slate drop its font caches. Switches away and back; nil when
+    -- the flag is off.
+    local function cultureFlush()
+        local devFlags = Loader.DevFlags
+        if type(devFlags) ~= "table" or devFlags.CyrillicFlush ~= "culture" then return nil end
+        local ok, result = pcall(function()
+            local library = import("KismetInternationalizationLibrary")
+            local original = tostring(library.GetCurrentCulture())
+            assert(original ~= "" and original ~= "nil", "no_culture")
+            local temporary = original ~= "en-US" and "en-US" or "en"
+            library.SetCurrentCulture(temporary, false)
+            library.SetCurrentCulture(original, false)
+            local back = tostring(library.GetCurrentCulture())
+            if back ~= original then return "err:culture=" .. back end
+            return "ok"
+        end)
+        if ok then return result end
+        return "err:" .. tostring(result)
+    end
+
+    -- "face" (TASK-009) ------------------------------------------------------
+    -- Only the entry named exactly "Title" is edited; *_SDF entries use another
+    -- rasterization and are never touched.
+    local TITLE_ENTRY = "Title"
+    local ALEO_REGULAR_FACE = "Aleo_Regular"
+
+    -- Index of the Title entry in DefaultTypeface.Fonts and the number of entries.
+    local function titleIndex(font)
+        local found, total = nil, 0
+        pcall(function()
+            local fonts = font.CompositeFont.DefaultTypeface.Fonts
+            total = count(fonts)
+            for index = 0, total - 1 do
+                if found == nil and tostring(item(fonts, index).Name) == TITLE_ENTRY then found = index end
+            end
+        end)
+        return found, total
+    end
+
+    local function titleFace(font)
+        local index = titleIndex(font)
+        if index == nil then return nil end
+        local face = nil
+        pcall(function() face = item(font.CompositeFont.DefaultTypeface.Fonts, index).Font.FontFaceAsset end)
+        return face
+    end
+
+    local function titleFaceName()
+        local devFlags = Loader.DevFlags
+        local name = type(devFlags) == "table" and devFlags.CyrillicTitleFace or nil
+        if type(name) == "string" and name ~= "" then return name end
+        return runtimeFixes.CyrillicTitleFace
+    end
+
+    -- The face object is taken from the structure already read, never loaded by path.
+    local function resolveTitleFace(font, entries, name)
+        if name == ALEO_REGULAR_FACE then
+            return entryFace(findEntry(entries, "Regular"))
+        end
+        local index = findCultureSub(font, name)
+        if index == nil then return nil end
+        local face = nil
+        pcall(function() face = item(item(font.CompositeFont.SubTypefaces, index).Typeface.Fonts, 0).Font.FontFaceAsset end)
+        return face
+    end
+
+    -- The CompositeFont is copied, edited and assigned back as a whole.
+    local function writeTitleFace(font, index, face)
+        local cf = font.CompositeFont
+        local def = cf.DefaultTypeface
+        local fonts = def.Fonts
+        local entry = item(fonts, index)
+        assert(entry ~= nil and tostring(entry.Name) == TITLE_ENTRY, "title entry unavailable")
+        local data = entry.Font
+        data.FontFaceAsset = face
+        entry.Font = data
+        local via = replaceItem(fonts, index, entry)
+        def.Fonts = fonts
+        cf.DefaultTypeface = def
+        font.CompositeFont = cf
+        return via
+    end
+
+    -- Returns status fields; status.ok is true when Title has the new face.
+    local function applyFace(font, entries)
+        local status = { title_face = "none", previous = "none", write = "skip", verify = "fail", flush = "skip" }
+        local index, total = titleIndex(font)
+        if index == nil then
+            status.reason = "no_title"
+            return status
+        end
+        local previousFace = titleFace(font)
+        if previousFace == nil then
+            status.reason = "title_face_unreadable"
+            return status
+        end
+        -- Keep the old face alive while Font_Aleo no longer references it.
+        pcall(function() previousFace:AddToRoot() end)
+        status.previous = objectPath(previousFace)
+        local name = titleFaceName()
+        status.source = name
+        local face = resolveTitleFace(font, entries, name)
+        if face == nil then
+            status.reason = "no_face:" .. tostring(name)
+            return status
+        end
+        status.title_face = objectPath(face)
+
+        local function rollback()
+            local current = titleFace(font)
+            if current == nil or objectPath(current) ~= status.previous then
+                local at = titleIndex(font)
+                if at ~= nil then pcall(writeTitleFace, font, at, previousFace) end
+                flushFontCache()
+            end
+        end
+
+        local ok, via = pcall(writeTitleFace, font, index, face)
+        status.write = ok and "ok" or "err"
+        if not ok then
+            status.reason = "write:" .. tostring(via)
+            rollback()
+            return status
+        end
+        status.via = via
+        local at, after = titleIndex(font)
+        local written = titleFace(font)
+        if at == nil or after ~= total or written == nil or objectPath(written) ~= status.title_face then
+            status.reason = at == nil and "verify_no_title" or (after ~= total and "verify_count" or "verify")
+            rollback()
+            return status
+        end
+        status.verify = "ok"
+        status.flush = flushFontCache()
+        if status.flush ~= "ok" then
+            status.reason = "flush"
+            rollback()
+            return status
+        end
+        status.ok = true
+        return status
+    end
+
     -- report() at module load runs before the game's logger is up and never
     -- reaches C7.log (TASK-007); after_main repeats the stored line.
     local function report(message)
         runtimeFixes.CyrillicFontLogLine = message
     end
 
-    local mode = CYRILLIC_FONT_MODE
+    local selected = CYRILLIC_FONT_MODE
     local devFlags = Loader.DevFlags
     local requested = type(devFlags) == "table" and devFlags.CyrillicFont or nil
-    if requested == "subfont" or requested == "cultures" or requested == "typeface" or requested == "off" then
-        mode = requested
+    if requested == "subfont" or requested == "cultures" or requested == "face"
+        or requested == "typeface" or requested == "off" then
+        selected = requested
     end
 
-    local ok, err = pcall(function()
-        runtimeFixes.StandardFontObject = loadRootedObject(STANDARD_FONT_PATH)
-        runtimeFixes.CinematicFontObject = loadRootedObject(CINEMATIC_FONT_PATH)
-        local standard = runtimeFixes.StandardFontObject
-        if standard == nil then
-            mode = "off"
-            report("cyrillic font mode=off reason=Font_Aleo_not_loaded")
-            return
-        end
+    -- " flush2=<…>" for the optional second cache reset, "" when it is off.
+    local function flush2Text(status)
+        if status.flush2 == nil then return "" end
+        return " flush2=" .. tostring(status.flush2)
+    end
 
-        local entries = defaultEntries(standard)
-        local names, nameList = {}, {}
-        for _, value in ipairs(entries) do
-            names[value.name] = true
-            nameList[#nameList + 1] = value.name
-        end
-        for name in pairs(names) do
-            local regular = name:gsub("Title", "Regular")
-            if regular ~= name and names[regular] then
-                runtimeFixes.CyrillicTypefaces[name] = regular
+    -- stage: "load" (Init.lua on frame 0, before the loading screen draws text)
+    -- or "after_main" (retry of "face"/"cultures" when Font_Aleo was not loaded yet).
+    local function run(stage)
+        local mode = selected
+        local ok, err = pcall(function()
+            if runtimeFixes.StandardFontObject == nil then
+                runtimeFixes.StandardFontObject = loadRootedObject(STANDARD_FONT_PATH)
             end
-        end
-        if next(names) == nil then
-            runtimeFixes.CyrillicTypefaces.Title = "Regular"
-        end
-        local titleTypeface = tostring(runtimeFixes.CyrillicTypefaces.Title)
+            if runtimeFixes.CinematicFontObject == nil then
+                runtimeFixes.CinematicFontObject = loadRootedObject(CINEMATIC_FONT_PATH)
+            end
+            local standard = runtimeFixes.StandardFontObject
+            if standard == nil then
+                mode = "off"
+                if stage == "load" and (selected == "face" or selected == "cultures") then
+                    runtimeFixes.CyrillicFontRetry = function()
+                        runtimeFixes.CyrillicFontRetry = nil
+                        run("after_main")
+                    end
+                end
+                report("cyrillic font mode=off reason=Font_Aleo_not_loaded requested=" .. selected
+                    .. " stage=" .. stage)
+                return
+            end
 
-        local status = nil
-        if mode == "subfont" then
-            status = applySubfont(standard, entries)
-            if not status.ok then mode = "typeface" end
-            local line = "cyrillic font mode=" .. mode
-            if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
-            line = line .. " face=" .. tostring(status.face) .. " write=" .. status.write
-                .. " verify=" .. status.verify .. " flush=" .. status.flush
-            if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
-            report(line)
-        elseif mode == "cultures" then
-            -- Title stays Title: its Cyrillic has to come from the priority sub.
-            status = applyCultures(standard)
-            if not status.ok then mode = "typeface" end
-            local line = "cyrillic font mode=" .. mode
-            if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
-            line = line .. " sub=" .. tostring(status.sub) .. " cultures=" .. tostring(status.cultures)
-                .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
-                .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
-                .. " verify=" .. status.verify .. " flush=" .. status.flush
-                .. " cyr=" .. tostring(status.cyr) .. " latin=" .. tostring(status.latin)
-            if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
-            report(line)
-        elseif mode == "typeface" then
-            report("cyrillic font mode=typeface title_typeface=" .. titleTypeface)
-        else
-            report("cyrillic font mode=off")
+            local entries = defaultEntries(standard)
+            local names, nameList = {}, {}
+            for _, value in ipairs(entries) do
+                names[value.name] = true
+                nameList[#nameList + 1] = value.name
+            end
+            for name in pairs(names) do
+                local regular = name:gsub("Title", "Regular")
+                if regular ~= name and names[regular] then
+                    runtimeFixes.CyrillicTypefaces[name] = regular
+                end
+            end
+            if next(names) == nil then
+                runtimeFixes.CyrillicTypefaces.Title = "Regular"
+            end
+            local titleTypeface = tostring(runtimeFixes.CyrillicTypefaces.Title)
+
+            local status = nil
+            if mode == "subfont" then
+                status = applySubfont(standard, entries)
+                if not status.ok then mode = "typeface" end
+                local line = "cyrillic font mode=" .. mode
+                if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
+                line = line .. " face=" .. tostring(status.face) .. " write=" .. status.write
+                    .. " verify=" .. status.verify .. " flush=" .. status.flush
+                if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
+                report(line)
+            elseif mode == "cultures" then
+                -- Title stays Title: its Cyrillic has to come from the priority sub.
+                status = applyCultures(standard)
+                if status.ok then
+                    status.flush2 = cultureFlush()
+                    status.applied_at = stage
+                else
+                    mode = "typeface"
+                end
+                local line = "cyrillic font mode=" .. mode
+                if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
+                line = line .. " sub=" .. tostring(status.sub) .. " cultures=" .. tostring(status.cultures)
+                    .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
+                    .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
+                    .. " verify=" .. status.verify .. " flush=" .. status.flush .. flush2Text(status)
+                    .. " cyr=" .. tostring(status.cyr) .. " latin=" .. tostring(status.latin)
+                if status.ok then line = line .. " applied_at=" .. stage end
+                if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
+                report(line)
+            elseif mode == "face" then
+                -- No Title -> Regular: only the font edit itself may change the screen.
+                status = applyFace(standard, entries)
+                if status.ok then
+                    status.flush2 = cultureFlush()
+                    status.applied_at = stage
+                else
+                    mode = "typeface"
+                end
+                local line = "cyrillic font mode=" .. mode
+                if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
+                line = line .. " source=" .. tostring(status.source) .. " title_face=" .. tostring(status.title_face)
+                    .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
+                    .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
+                    .. " verify=" .. status.verify .. " flush=" .. status.flush .. flush2Text(status)
+                if status.ok then line = line .. " applied_at=" .. stage end
+                if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
+                report(line)
+            elseif mode == "typeface" then
+                report("cyrillic font mode=typeface title_typeface=" .. titleTypeface)
+            else
+                report("cyrillic font mode=off")
+            end
+            runtimeFixes.CyrillicFontStatus = {
+                mode = mode, requested = requested or CYRILLIC_FONT_MODE, title_typeface = titleTypeface,
+                typefaces = table.concat(nameList, ","),
+                face = status and status.face, write = status and status.write,
+                verify = status and status.verify, flush = status and status.flush,
+                reason = status and status.reason,
+                sub = status and status.sub, cultures = status and status.cultures,
+                previous = status and status.previous, via = status and status.via,
+                cyr = status and status.cyr, latin = status and status.latin,
+                title_face = status and status.title_face, source = status and status.source,
+                flush2 = status and status.flush2, applied_at = status and status.applied_at,
+            }
+        end)
+        if not ok then
+            mode = "off"
+            report("cyrillic font mode=off reason=" .. tostring(err))
         end
-        runtimeFixes.CyrillicFontStatus = {
-            mode = mode, requested = requested or CYRILLIC_FONT_MODE, title_typeface = titleTypeface,
-            typefaces = table.concat(nameList, ","),
-            face = status and status.face, write = status and status.write,
-            verify = status and status.verify, flush = status and status.flush,
-            reason = status and status.reason,
-            sub = status and status.sub, cultures = status and status.cultures,
-            previous = status and status.previous, via = status and status.via,
-            cyr = status and status.cyr, latin = status and status.latin,
-        }
-    end)
-    if not ok then
-        mode = "off"
-        report("cyrillic font mode=off reason=" .. tostring(err))
+        runtimeFixes.CyrillicFontMode = mode
     end
-    runtimeFixes.CyrillicFontMode = mode
+
+    run("load")
 end
 
 -- Cyrillic text (TASK-006). Non-Aleo fonts (Font_Mistery, Font_Aleo_Update,
@@ -11014,6 +11219,10 @@ Loader.On("after_main", function()
         .. " cache_misses=" .. tostring(runtimeMetrics.TranslationCacheMisses + runtimeMetrics.LiveRepairCacheMisses))
     -- The only routine release-log line: later hooks install lazily with
     -- their modules and are listed only in DiagnosticsMode.
+    -- "face"/"cultures" retry (TASK-009) when Font_Aleo was not loaded on frame 0.
+    if type(runtimeFixes.CyrillicFontRetry) == "function" then
+        runtimeFixes.CyrillicFontRetry()
+    end
     if runtimeFixes.CyrillicFontLogLine ~= nil then
         report(runtimeFixes.CyrillicFontLogLine)
     end

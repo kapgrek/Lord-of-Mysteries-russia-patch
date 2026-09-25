@@ -1,5 +1,10 @@
 # TASK-009: шрифт — применяется ли вообще правка CompositeFont в рантайме (замена face у `Title`)
 
+Статус: **шаги 1–5 исполнены** 2026-09-25 (v2.9.5-RU, режим по умолчанию `"typeface"`), **ждут проверки в игре** по разделу «Проверка». Релиз не опубликован.
+- Шаги 1–3: `Init.lua` — `applyFace`, `titleIndex`, `resolveTitleFace`, `writeTitleFace`, `cultureFlush`; `runtimeFixes.CyrillicTitleFace = "Aleo_Regular"`; блок выбора режима обёрнут в `run(stage)`, повтор — `runtimeFixes.CyrillicFontRetry` в хуке `after_main` (1500) перед выводом строки. Логика прогнана на заглушках (fengari): face по умолчанию и из SubTypeface, SDF не меняется, `Set` и `Remove` + `Insert`, откат при `verify` и `flush=err`, неизвестное имя face → `typeface`, `flush2=ok` с возвратом культуры, повтор с `applied_at=after_main`, Title не меняется на Regular в `face`.
+- К шагу 2: блок шрифта и в v2.9.4 выполнялся при загрузке `Init.lua` (кадр 0), в `after_main` выводилась только строка. Значит, `cultures` уже тогда писался до экрана загрузки, и версия «правка пришла слишком поздно» для H1 маловероятна; `applied_at` теперь это подтверждает в логе.
+- Шаг 5: `fonts.json → cyrillic_font` и `CollectDiagLogs.ps1` дополнены полями `source`, `title_face`, `flush2`, `applied_at`.
+
 Дорожная карта: [ROADMAP.md](ROADMAP.md), этап 4a. Предыдущие: [TASK-006](TASK-006-font.md), [TASK-007](TASK-007-font-coverage.md), [TASK-008](TASK-008-font-cultures.md).
 
 ## Симптом (проверка v2.9.4 в игре, 2026-09-25)
