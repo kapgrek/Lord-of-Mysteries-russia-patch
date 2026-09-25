@@ -33,6 +33,10 @@ $cmdArgs = @(
     # Fallback supported game state when the data zip has no supported_game.json
     "/resource:`"$PSScriptRoot\supported_game.json`",LotmRussianPatcher.supported_game.json",
     "`"$PSScriptRoot\Program.cs`"",
+    "`"$PSScriptRoot\AppInfo.cs`"",
+    "`"$PSScriptRoot\PatcherBackend.cs`"",
+    "`"$PSScriptRoot\PayloadSource.cs`"",
+    "`"$PSScriptRoot\GameOptions.cs`"",
     "`"$PSScriptRoot\InstallerCore.cs`"",
     "`"$PSScriptRoot\AssemblyInfo.cs`""
 )

@@ -67,6 +67,11 @@ public static class InstallerCoreTests
         Run("options: foreign cpdd_patcher_settings.lua is not overwritten", OptionsForeignSettings);
         Run("options: Visual Clarity block in Engine.ini", OptionsVisualClarity);
         Run("options: uninstall keeps settings, removes Visual Clarity", OptionsUninstall);
+        Run("payload: nothing is guessed next to the exe", PayloadNoGuessing);
+        Run("payload: exact data zip next to the exe, release.json check", PayloadSideZip);
+        Run("payload: --payload folder / zip", PayloadExplicit);
+        Run("payload: cache only with matching release.json", PayloadCache);
+        Run("versions: installed Init.lua VERSION and comparison", VersionsCompare);
 
         Console.WriteLine();
         Console.WriteLine("passed " + passed + ", failed " + failed);
@@ -534,6 +539,123 @@ public static class InstallerCoreTests
         Assert(File.Exists(f.G(@"Saved\Mods\lua\cpdd_user_settings.lua")), "cpdd_user_settings.lua stays");
         Assert(File.ReadAllText(f.G(GameOptions.EngineIniRel)) == "[Core.System]\n", "Engine.ini: block removed, foreign lines intact");
         Assert(!Directory.Exists(f.G(InstallerCore.BackupDirRel)), "backup dir removed");
+    }
+
+    // ------------------------------------------------------------ payload (installer/PayloadSource.cs)
+
+    // Isolated PayloadSource: exe dir, %LOCALAPPDATA% and %TEMP% inside the test folder, no network.
+    static string PayloadSandbox(string name, Fixture f)
+    {
+        string root = Path.Combine(testRoot, name);
+        AssertUnderTemp(root);
+        PayloadSource.ExplicitPayload = null;
+        PayloadSource.ExeDir = Path.Combine(root, "exe");
+        PayloadSource.AppDataRoot = Path.Combine(root, "appdata");
+        PayloadSource.ExtractRoot = Path.Combine(root, "extract");
+        PayloadSource.FetchManifest = log => null;
+        Directory.CreateDirectory(PayloadSource.ExeDir);
+        return root;
+    }
+
+    static string MakeDataZip(Fixture f, string zipPath)
+    {
+        AssertUnderTemp(zipPath);
+        WriteOwnedFiles(f.PayloadDir);
+        WriteText(Path.Combine(f.PayloadDir, SupportedGame.FileName), f.Game.ToJson());
+        Directory.CreateDirectory(Path.GetDirectoryName(zipPath));
+        if (File.Exists(zipPath)) File.Delete(zipPath);
+        System.IO.Compression.ZipFile.CreateFromDirectory(f.PayloadDir, zipPath);
+        return InstallerCore.FileSha256(zipPath);
+    }
+
+    static PayloadInfo Resolve(bool allowDownload)
+    {
+        return PayloadSource.ResolveAsync(allowDownload, null, null, System.Threading.CancellationToken.None).GetAwaiter().GetResult();
+    }
+
+    static void PayloadNoGuessing()
+    {
+        var f = NewFixture("payload-guess");
+        PayloadSandbox("payload-guess", f);
+        MakePayload(f, Path.Combine(PayloadSource.ExeDir, "patch_payload"), false);
+        MakePayload(f, Path.Combine(PayloadSource.ExeDir, "data"), false);
+        MakePayload(f, Path.Combine(PayloadSource.ExeDir, "..", "patch_payload"), false);
+        MakeDataZip(f, Path.Combine(PayloadSource.ExeDir, "Lord-of-Mysteries-Russian-Patch-v2.9.0-RU.zip"));
+        MakeDataZip(f, Path.Combine(PayloadSource.ExeDir, "lom-russian-patch-data (1).zip"));
+        Assert(Resolve(true) == null, "patch_payload/data folders and other zip names are not used");
+        Assert(PayloadSource.ResolveOffline(null) == null, "offline: nothing");
+    }
+
+    static void PayloadSideZip()
+    {
+        var f = NewFixture("payload-side");
+        PayloadSandbox("payload-side", f);
+        string sha = MakeDataZip(f, Path.Combine(PayloadSource.ExeDir, PayloadSource.DataZipName));
+        var logs = new List<string>();
+        PayloadInfo p = PayloadSource.ResolveAsync(true, s => logs.Add(s), null, System.Threading.CancellationToken.None).GetAwaiter().GetResult();
+        Assert(p != null && p.IsLocal && PayloadSource.ValidatePayloadContents(p.Dir, null), "exact name next to the exe is used");
+        Assert(logs.Exists(s => s.Contains("проверка по release.json недоступна")), "log says release.json is unavailable");
+        Assert(p != null && p.Dir.StartsWith(PayloadSource.ExtractRoot, StringComparison.OrdinalIgnoreCase), "extracted into ExtractRoot");
+
+        PayloadSource.FetchManifest = log => new ReleaseManifest { Version = "vTEST", PayloadSha256 = sha, PayloadDownloadUrl = "file:///nonexistent" };
+        p = Resolve(true);
+        Assert(p != null && p.IsLocal, "matching release.json: side zip used");
+
+        PayloadSource.FetchManifest = log => new ReleaseManifest { Version = "vNEWER", PayloadSha256 = new string('0', 64), PayloadDownloadUrl = "file:///nonexistent" };
+        Assert(Resolve(true) == null, "sha256 differs from the latest release: side zip not used (download fails offline)");
+    }
+
+    static void PayloadExplicit()
+    {
+        var f = NewFixture("payload-explicit");
+        string root = PayloadSandbox("payload-explicit", f);
+        string error;
+        string noBridge = Path.Combine(root, "no-bridge");
+        WriteText(Path.Combine(noBridge, InstallerCore.BootstrapRel), "-- boot\n");
+        WriteText(Path.Combine(noBridge, InstallerCore.InitRel), "-- init\n");
+        Assert(PayloadSource.PrepareExplicit(noBridge, null, out error) == null && error.Contains("--payload"), "folder without bridge/ refused");
+        Assert(PayloadSource.PrepareExplicit(Path.Combine(root, "missing"), null, out error) == null, "missing path refused");
+
+        PayloadInfo p = PayloadSource.PrepareExplicit(f.PayloadDir, null, out error);
+        Assert(p != null && p.Dir == Path.GetFullPath(f.PayloadDir) && p.Origin.StartsWith("Локальный пакет"), "folder used in place");
+
+        string zip = Path.Combine(root, "any-name.zip");
+        MakeDataZip(f, zip);
+        PayloadSource.ExplicitPayload = zip;
+        p = Resolve(true);
+        Assert(p != null && p.IsLocal, "--payload zip extracted");
+        string why;
+        Assert(p != null && InstallerCore.VerifyOwnedFiles(p.Dir, InstallerCore.GetPayloadFiles(p.Dir), out why), "extracted zip passes owned_files.json");
+        string reason = "no payload";
+        Assert(p != null && f.Core().Install(p.Dir, out reason), "install from the extracted zip: " + reason);
+        PayloadSource.ExplicitPayload = null;
+    }
+
+    static void PayloadCache()
+    {
+        var f = NewFixture("payload-cache");
+        PayloadSandbox("payload-cache", f);
+        string zip = Path.Combine(PayloadSource.CacheDir, PayloadSource.DataZipName);
+        string sha = MakeDataZip(f, zip);
+        string rel = Path.Combine(PayloadSource.CacheDir, PayloadSource.ReleaseJsonName);
+        Assert(Resolve(false) == null, "cache without release.json is not used");
+        WriteText(rel, "{\"release_version\": \"vCACHED\", \"payload\": {\"name\": \"lom-russian-patch-data.zip\", \"sha256\": \"" + new string('1', 64) + "\", \"size\": 1}}");
+        Assert(Resolve(false) == null, "cache with another sha256 is not used");
+        WriteText(rel, "{\"release_version\": \"vCACHED\", \"payload\": {\"name\": \"lom-russian-patch-data.zip\", \"sha256\": \"" + sha + "\", \"size\": 1}}");
+        PayloadInfo p = Resolve(false);
+        Assert(p != null && !p.IsLocal && p.Origin.Contains("vCACHED") && PayloadSource.ValidatePayloadContents(p.Dir, null), "matching cache used");
+        Assert(PayloadSource.ResolveOffline(null) != null, "offline (uninstall) uses the verified cache");
+    }
+
+    static void VersionsCompare()
+    {
+        var f = NewFixture("versions");
+        Assert(PatcherBackend.InstalledVersion(f.GameDir) == null, "no Init.lua -> null");
+        WriteText(f.G(InstallerCore.InitRel), "-- header\nlocal M = {}\nlocal VERSION = \"2.9.10-RU\"\n");
+        Assert(PatcherBackend.InstalledVersion(f.GameDir) == "2.9.10-RU", "VERSION read from Init.lua");
+        Assert(PatcherBackend.CompareVersions("2.9.10-RU", "v3.0.0-RU") < 0, "2.9.10 < 3.0.0");
+        Assert(PatcherBackend.CompareVersions("v3.0.1-RU", "3.0.0-RU") > 0, "3.0.1 > 3.0.0");
+        Assert(PatcherBackend.CompareVersions("3.0.0-RU", "v3.0.0-RU") == 0, "tag vs version equal");
     }
 
     // ------------------------------------------------------------ helpers
