@@ -56,7 +56,7 @@
 
 ## Быстрый старт для игроков
 
-1. Скачайте `Lord-of-Mysteries-Russian-Patch.exe` со страницы [последнего релиза](https://github.com/kapgrek/Lord-of-Mysteries-russia-patch/releases/latest) и запустите его. Игры ещё нет — нажмите **«Как играть»**: там ссылка на лаунчер и шаги входа через Bilibili.
+1. Скачайте `Lord-of-Mysteries-Russian-Patch.exe` со страницы [последнего релиза](https://github.com/kapgrek/Lord-of-Mysteries-russia-patch/releases/latest) и запустите его. Игры ещё нет — нажмите **«Как играть»**: там ссылка на лаунчер (релиз [`launcher`](https://github.com/kapgrek/Lord-of-Mysteries-russia-patch/releases/tag/launcher)) и шаги входа через Bilibili.
 2. Папка игры (оканчивается на `Game\C7`) находится автоматически, иначе — **«Выбрать папку…»**.
 3. Выберите режим счётчика урона и дополнительные опции, нажмите **«Установить»**. Игру нужно закрыть, лаунчер можно оставить открытым.
 4. Запустите игру через официальный лаунчер.
@@ -77,7 +77,8 @@
 ## Сообщество и поддержка
 
 * Telegram-канал перевода: [t.me/LoM_ru_patch](https://t.me/LoM_ru_patch)
-* Автор: [t.me/AbsoluteGrek](https://t.me/AbsoluteGrek)
+* Автор перевода: [@KapGrek](https://t.me/KapGrek)
+* Канал автора: [t.me/AbsoluteGrek](https://t.me/AbsoluteGrek)
 * Поддержать перевод: [boosty.to/kapgrek](https://boosty.to/kapgrek)
 
 ## Благодарности

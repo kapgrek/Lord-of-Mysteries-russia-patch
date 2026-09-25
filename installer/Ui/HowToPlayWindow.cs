@@ -13,7 +13,7 @@ using System.Windows.Media;
 namespace LotmRussianPatcher
 {
     // "Как играть": installer/HowToPlay.md (resource LotmRussianPatcher.HowToPlay.md) shown as a FlowDocument.
-    // Markup: "# " section, "## " subsection, "1. " step, "- " item, **bold**, [text](https://...),
+    // Markup: "# " section, "## " subsection, "N. " step (number shown as written), "- " item, **bold**, [text](https://...),
     // ![](img/name.png) = resource LotmRussianPatcher.howto.name.png. Links outside Links.AllowedHosts stay plain text.
     public static class HowToPlayWindow
     {
@@ -22,6 +22,7 @@ namespace LotmRussianPatcher
         public const string ImageResourcePrefix = "LotmRussianPatcher.howto.";
         public static readonly string[] ElementNames = { "Viewer", "CloseButton" };
 
+        private const double StepIndent = 30;
         private static readonly Regex Numbered = new Regex("^(\\d+)\\.\\s+(.*)$");
         private static readonly Regex ImageLine = new Regex("^!\\[[^\\]]*\\]\\(img/([A-Za-z0-9_.-]+)\\)$");
         private static readonly Regex InlineToken = new Regex("\\*\\*(?<b>.+?)\\*\\*|\\[(?<t>[^\\]]+)\\]\\((?<u>[^)\\s]+)\\)");
@@ -63,7 +64,8 @@ namespace LotmRussianPatcher
                 doc.Foreground = UiKit.Brush("TextBrush");
             }
 
-            List list = null;
+            List list = null;       // "- " items
+            Section steps = null;   // "N. " items: the number is taken as written (the steps count down 9 → 0)
             var paragraph = new StringBuilder();
             Action flush = () =>
             {
@@ -77,12 +79,13 @@ namespace LotmRussianPatcher
             foreach (string rawLine in (markdown ?? "").Replace("\r\n", "\n").Split('\n'))
             {
                 string line = rawLine.TrimEnd();
-                if (line.Trim().Length == 0) { flush(); list = null; continue; }
+                if (line.Trim().Length == 0) { flush(); list = null; steps = null; continue; }
 
                 if (line.StartsWith("# ") || line.StartsWith("## "))
                 {
                     flush();
                     list = null;
+                    steps = null;
                     bool h1 = line.StartsWith("# ");
                     var h = new Paragraph(new Run(line.Substring(h1 ? 2 : 3).Trim()))
                     {
@@ -101,31 +104,50 @@ namespace LotmRussianPatcher
                 {
                     flush();
                     list = null;
+                    steps = null;
                     ImageSource source = loadImage != null ? loadImage(img.Groups[1].Value) : null;
                     if (source != null)
                     {
                         var image = new Image { Source = source, Stretch = Stretch.Uniform, MaxWidth = 340, HorizontalAlignment = HorizontalAlignment.Left };
                         RenderOptions.SetBitmapScalingMode(image, BitmapScalingMode.HighQuality);
                         var frame = new Border { Child = image, CornerRadius = new CornerRadius(8), HorizontalAlignment = HorizontalAlignment.Left, Padding = new Thickness(6), Background = Brushes.White };
-                        doc.Blocks.Add(new BlockUIContainer(frame) { Tag = "img", Margin = new Thickness(28, 2, 0, 12) });
+                        doc.Blocks.Add(new BlockUIContainer(frame) { Tag = "img", Margin = new Thickness(StepIndent, 2, 0, 12) });
                     }
                     continue;
                 }
 
                 Match num = Numbered.Match(line);
-                bool bullet = line.StartsWith("- ");
-                if (num.Success || bullet)
+                if (num.Success)
                 {
                     flush();
-                    TextMarkerStyle marker = num.Success ? TextMarkerStyle.Decimal : TextMarkerStyle.Disc;
-                    if (list == null || list.MarkerStyle != marker)
+                    list = null;
+                    // Hanging indent: the number sits in a fixed-width box, wrapped lines align with the text.
+                    // (FlowDocument Table collapses its star column in FlowDocumentScrollViewer, List numbers only count up.)
+                    if (steps == null)
                     {
-                        list = new List { MarkerStyle = marker, Margin = new Thickness(0, 0, 0, 10), Padding = new Thickness(26, 0, 0, 0) };
-                        if (num.Success) list.StartIndex = int.Parse(num.Groups[1].Value);
+                        steps = new Section { Tag = "ol", Margin = new Thickness(0, 0, 0, 10) };
+                        doc.Blocks.Add(steps);
+                    }
+                    var number = new TextBlock { Text = num.Groups[1].Value + ".", Width = StepIndent, FontWeight = FontWeights.SemiBold, FontSize = 14, RenderTransform = new TranslateTransform(0, 2) };
+                    if (Application.Current != null && Application.Current.Resources.Contains("GoldBrush")) number.Foreground = UiKit.Brush("GoldBrush");
+                    var item = new Paragraph { Tag = num.Groups[1].Value, Margin = new Thickness(StepIndent, 0, 0, 6), TextIndent = -StepIndent };
+                    item.Inlines.Add(new InlineUIContainer(number) { BaselineAlignment = BaselineAlignment.TextBottom });
+                    AddInlines(item.Inlines, num.Groups[2].Value);
+                    steps.Blocks.Add(item);
+                    continue;
+                }
+
+                if (line.StartsWith("- "))
+                {
+                    flush();
+                    steps = null;
+                    if (list == null)
+                    {
+                        list = new List { Tag = "ul", MarkerStyle = TextMarkerStyle.Disc, Margin = new Thickness(0, 0, 0, 10), Padding = new Thickness(26, 0, 0, 0) };
                         doc.Blocks.Add(list);
                     }
                     var p = new Paragraph { Margin = new Thickness(0, 0, 0, 6) };
-                    AddInlines(p.Inlines, num.Success ? num.Groups[2].Value : line.Substring(2));
+                    AddInlines(p.Inlines, line.Substring(2));
                     list.ListItems.Add(new ListItem(p));
                     continue;
                 }

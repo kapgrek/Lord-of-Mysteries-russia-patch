@@ -717,15 +717,24 @@ public static class InstallerCoreTests
         {
             var p = b as System.Windows.Documents.Paragraph;
             var list = b as System.Windows.Documents.List;
-            if (b.Tag is string) Bump(counts, (string)b.Tag);
+            var steps = b as System.Windows.Documents.Section;
+            if (b.Tag is string) Bump(counts, (string)b.Tag);   // h1, h2, img, ol (steps section), ul
             if (p != null) CountInlines(p.Inlines, counts);
             if (list != null)
             {
-                Bump(counts, list.MarkerStyle == System.Windows.TextMarkerStyle.Decimal ? "ol" : "ul");
                 foreach (System.Windows.Documents.ListItem item in list.ListItems)
                 {
                     Bump(counts, "li");
                     CountBlocks(item.Blocks, counts);
+                }
+            }
+            if (steps != null)
+            {
+                foreach (System.Windows.Documents.Block item in steps.Blocks)
+                {
+                    Bump(counts, "li");
+                    var ip = item as System.Windows.Documents.Paragraph;
+                    if (ip != null) CountInlines(ip.Inlines, counts);
                 }
             }
         }
@@ -769,9 +778,8 @@ public static class InstallerCoreTests
         Assert(Count(c, "a") == 1, "only the https t.me link is a hyperlink (http, javascript:, foreign host stay text)");
         Assert(Count(c, "b") == 1, "bold");
         Assert(Count(c, "img") == 1, "known image shown, missing one skipped");
-        var numbered = new List<System.Windows.Documents.List>();
-        foreach (var b in doc.Blocks) { var l = b as System.Windows.Documents.List; if (l != null && l.MarkerStyle == System.Windows.TextMarkerStyle.Decimal) numbered.Add(l); }
-        Assert(numbered.Count == 2 && numbered[1].StartIndex == 3, "numbering continues after the image (StartIndex 3)");
+        List<string> numbers = StepNumbers(doc);
+        Assert(string.Join(",", numbers.ToArray()) == "1,2,3", "step numbers as written, across the image: " + string.Join(",", numbers.ToArray()));
         string docText = new System.Windows.Documents.TextRange(doc.ContentStart, doc.ContentEnd).Text;
         Assert(docText.Contains("bad") && !docText.Contains("javascript"), "blocked link keeps its label, not the url");
 
@@ -780,9 +788,23 @@ public static class InstallerCoreTests
         c = new Dictionary<string, int>();
         CountBlocks(doc.Blocks, c);
         Assert(Count(c, "h1") == 4, "HowToPlay.md: 4 sections, got " + Count(c, "h1"));
-        Assert(Count(c, "li") == 8 + 4 + 2 + 3, "HowToPlay.md: 8 steps and 9 items, got " + Count(c, "li"));
-        Assert(Count(c, "a") == 5, "HowToPlay.md: 5 links (launcher, channel x2, author, Boosty), got " + Count(c, "a"));
+        Assert(Count(c, "li") == 10 + 4 + 2 + 4, "HowToPlay.md: 10 steps and 10 items, got " + Count(c, "li"));
+        Assert(Count(c, "a") == 7, "HowToPlay.md: 7 links (launcher, ID document, channel x2, KapGrek, AbsoluteGrek, Boosty), got " + Count(c, "a"));
         Assert(Count(c, "img") == 1, "HowToPlay.md: QR login picture");
+        numbers = StepNumbers(doc);
+        Assert(string.Join(",", numbers.ToArray()) == "9,8,7,6,5,4,3,2,1,0", "HowToPlay.md: countdown 9 -> 0, got " + string.Join(",", numbers.ToArray()));
+    }
+
+    static List<string> StepNumbers(System.Windows.Documents.FlowDocument doc)
+    {
+        var numbers = new List<string>();
+        foreach (var b in doc.Blocks)
+        {
+            var steps = b as System.Windows.Documents.Section;
+            if (steps == null) continue;
+            foreach (var item in steps.Blocks) numbers.Add((string)item.Tag);
+        }
+        return numbers;
     }
 
     // ------------------------------------------------------------ helpers

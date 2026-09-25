@@ -24,6 +24,20 @@
     <SolidColorBrush x:Key="WarnSoftBrush" Color="#2E2517"/>
     <SolidColorBrush x:Key="MutedSoftBrush" Color="#222834"/>
 
+    <!-- Telegram logo (blue circle, white plane), 24x24 -->
+    <DrawingImage x:Key="TelegramIcon">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="#229ED9">
+                    <GeometryDrawing.Geometry>
+                        <EllipseGeometry Center="12,12" RadiusX="12" RadiusY="12"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="White" Geometry="M5.3,11.8 L17.2,7.2 C17.8,7.0 18.3,7.4 18.1,8.2 L16.1,17.6 C15.9,18.3 15.5,18.4 14.9,18.1 L11.9,15.9 L10.4,17.3 C10.3,17.5 10.1,17.6 9.8,17.6 L10.0,14.5 L15.8,9.3 C16.0,9.1 15.7,9.0 15.4,9.2 L8.3,13.7 L5.3,12.7 C4.6,12.5 4.6,12.0 5.3,11.8 Z"/>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+
     <!-- Section caption: small capitals, muted -->
     <Style x:Key="Caption" TargetType="TextBlock">
         <Setter Property="FontSize" Value="11"/>

@@ -291,3 +291,8 @@
 Отступления от плана: бэкенд вынесен в `installer/PatcherBackend.cs` (а не оставлен в `Program.cs`), чтобы тесты собирали его без UI; тема окон — отдельный `Ui/Theme.xaml` в `Application.Resources` (общая для главного окна, «Как играть» и диалогов). Поддельного `Browse` в тестах нет: диалог проводника проверяет пользователь.
 
 Проверка: `InstallerCoreTests.exe` — 26 сценариев, `passed 254, failed 0`; `build_installer.ps1 -OutDir temp\installer-build` — SUCCESS (подпись `UnknownError` и ошибка сканирования Defender — как и до задачи); `VerifyPatch` OK; `PackageRelease -DataOnly -BuildDir temp\data` → `--check-payload`: `files=1342 owned_files=OK bridge=OK payload_root=OK`; из `patch_payload/` изменён только `Init.lua` (версия). Установщик не запускался; вид окон проверен рендером разметки в PNG (`temp/render`, без доступа к игре).
+
+### Правки после первого просмотра (2026-09-26)
+- Релиз `launcher` создан (id `396953551`, не latest; `LoM_Launcher.exe` 156 579 656 байт, ссылка отдаёт 200). Лишний черновик `v2.9.6-RU` (`396498707`) удалён, тег и опубликованный релиз `396503544` на месте.
+- Telegram-кнопки — с логотипом Telegram (`TelegramIcon` в `Theme.xaml`), перенесены в шапку справа; «Автор» → «Канал автора» (ссылка `t.me/AbsoluteGrek` не изменилась). Версия — под иконкой слева. В подвале — Boosty, «Как играть», благодарности CPDD.
+- «Как играть»: шаги в обратном отсчёте 9 → 0 (номер берётся из текста как есть; шаги — абзацы с висячим отступом: `Table` в `FlowDocumentScrollViewer` сжимал вторую колонку до нуля, `List` умеет только возрастающие номера). Новый шаг «Подтвердите номер телефона и ID личности» со ссылкой на документ `ap.wps.com` (домен добавлен в `Links.AllowedHosts`). Автор перевода — [@KapGrek](https://t.me/KapGrek).

@@ -16,9 +16,12 @@
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
-                <Border Width="64" Height="64" CornerRadius="12" Background="{StaticResource InputBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" VerticalAlignment="Top">
-                    <Image x:Name="Logo" Width="48" Height="48" RenderOptions.BitmapScalingMode="HighQuality"/>
-                </Border>
+                <StackPanel VerticalAlignment="Top">
+                    <Border Width="64" Height="64" CornerRadius="12" Background="{StaticResource InputBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+                        <Image x:Name="Logo" Width="48" Height="48" RenderOptions.BitmapScalingMode="HighQuality"/>
+                    </Border>
+                    <TextBlock x:Name="VersionText" Text="v0.0.0-RU" HorizontalAlignment="Center" Margin="0,6,0,0" Foreground="{StaticResource MutedBrush}" FontSize="11.5"/>
+                </StackPanel>
                 <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center">
                     <TextBlock Text="LORD OF MYSTERIES" FontSize="21" FontWeight="Bold" Foreground="{StaticResource GoldBrush}"/>
                     <TextBlock Text="РУССКАЯ ЛОКАЛИЗАЦИЯ · AbsoluteRU" FontSize="12" Foreground="{StaticResource MutedBrush}" Margin="1,2,0,0"/>
@@ -30,8 +33,21 @@
                     </Border>
                 </StackPanel>
                 <StackPanel Grid.Column="2" VerticalAlignment="Top" HorizontalAlignment="Right">
-                    <TextBlock x:Name="VersionText" Text="v0.0.0-RU" HorizontalAlignment="Right" Foreground="{StaticResource MutedBrush}" FontSize="12"/>
-                    <Button x:Name="HeaderHowToButton" Style="{StaticResource LinkButton}" Margin="0,10,0,0" HorizontalAlignment="Right">
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button x:Name="TelegramChannelButton" Style="{StaticResource SocialButton}">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="{StaticResource TelegramIcon}" Width="16" Height="16" VerticalAlignment="Center"/>
+                                <TextBlock Text="Канал перевода" Margin="7,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="TelegramAuthorButton" Style="{StaticResource SocialButton}" Margin="0">
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="{StaticResource TelegramIcon}" Width="16" Height="16" VerticalAlignment="Center"/>
+                                <TextBlock Text="Канал автора" Margin="7,0,0,0" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </Button>
+                    </StackPanel>
+                    <Button x:Name="HeaderHowToButton" Style="{StaticResource LinkButton}" Margin="0,12,0,0" HorizontalAlignment="Right">
                         <TextBlock Text="?  Как играть" FontWeight="SemiBold"/>
                     </Button>
                 </StackPanel>
@@ -46,12 +62,6 @@
                         <TextBlock Text="?  Как играть"/>
                     </Button>
                     <WrapPanel>
-                        <Button x:Name="TelegramChannelButton" Style="{StaticResource SocialButton}">
-                            <TextBlock Text="✈  Канал перевода"/>
-                        </Button>
-                        <Button x:Name="TelegramAuthorButton" Style="{StaticResource SocialButton}">
-                            <TextBlock Text="✈  Автор"/>
-                        </Button>
                         <Button x:Name="BoostyButton" Style="{StaticResource AccentSocialButton}">
                             <TextBlock Text="♥  Поддержать на Boosty"/>
                         </Button>

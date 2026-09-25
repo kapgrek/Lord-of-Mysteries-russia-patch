@@ -19,7 +19,8 @@ namespace LotmRussianPatcher
         public const string CpddDiscord = "cpdd_discord";
         public const string Github = "github";
 
-        public static readonly string[] AllowedHosts = { "t.me", "boosty.to", "discord.gg", "github.com" };
+        // ap.wps.com: the ID confirmation document linked from HowToPlay.md.
+        public static readonly string[] AllowedHosts = { "t.me", "boosty.to", "discord.gg", "github.com", "ap.wps.com" };
 
         public static bool IsAllowedUrl(string url)
         {
