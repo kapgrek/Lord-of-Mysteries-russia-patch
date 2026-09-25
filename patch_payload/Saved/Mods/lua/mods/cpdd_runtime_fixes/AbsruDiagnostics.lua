@@ -1819,7 +1819,8 @@ local function encodeFonts()
         .. "," .. Q .. "standard" .. Q .. ":" .. encodeValue(fixesFontPath("StandardFontObject"))
         .. "," .. Q .. "cinematic" .. Q .. ":" .. encodeValue(fixesFontPath("CinematicFontObject"))
         .. ",\n" .. Q .. "cyrillic_font" .. Q .. ":" .. encodeValue(type(status) == "table" and status or nil, 0, {
-            "mode", "requested", "title_typeface", "typefaces", "face", "write", "verify", "flush", "reason",
+            "mode", "requested", "title_typeface", "typefaces", "face", "sub", "cultures", "previous",
+            "write", "via", "verify", "flush", "cyr", "latin", "reason",
         })
         .. ",\n" .. Q .. "composite" .. Q .. ":" .. encodeValue(S.composite)
         .. ",\n" .. Q .. "title_cyrillic" .. Q .. ":[\n" .. table.concat(titleCyr, ",\n") .. "]"
@@ -1869,8 +1870,17 @@ do
         return array(rows)
     end
 
+    -- TASK-008: slua struct property getters live in the metatable's ".get"
+    -- table; FInt32Range exposes nothing through __index.
+    local function getterField(value, name)
+        local ok, result = pcall(function() return getmetatable(value)[".get"][name](value) end)
+        if ok then return result end
+        return nil
+    end
+
     -- read: how the bounds were obtained ("field" = LowerBound.Value,
-    -- "method" = GetLowerBoundValue()); raw/type when slua gave neither.
+    -- "method" = GetLowerBoundValue(), "get" = metatable ".get" getters);
+    -- raw/type when slua gave none.
     local function readRange(range)
         local row = {}
         pcall(function()
@@ -1882,7 +1892,7 @@ do
         if row.low ~= nil and row.high ~= nil then
             row.read = "field"
         else
-            row.low, row.high = nil, nil
+            row.low, row.high, row.low_type, row.high_type = nil, nil, nil, nil
             pcall(function()
                 row.low = tonumber(range:GetLowerBoundValue())
                 row.high = tonumber(range:GetUpperBoundValue())
@@ -1891,6 +1901,24 @@ do
                 row.read = "method"
             else
                 row.low, row.high = nil, nil
+                local lower, upper = getterField(range, "LowerBound"), getterField(range, "UpperBound")
+                if lower ~= nil and upper ~= nil then
+                    local function bound(value, name)
+                        local ok, result = pcall(function() return value[name] end)
+                        if ok and result ~= nil then return result end
+                        return getterField(value, name)
+                    end
+                    row.low = tonumber(bound(lower, "Value"))
+                    row.high = tonumber(bound(upper, "Value"))
+                    local lowType, highType = bound(lower, "Type"), bound(upper, "Type")
+                    if lowType ~= nil then row.low_type = tostring(lowType) end
+                    if highType ~= nil then row.high_type = tostring(highType) end
+                end
+                if row.low ~= nil and row.high ~= nil then
+                    row.read = "get"
+                else
+                    row.low, row.high, row.low_type, row.high_type = nil, nil, nil, nil
+                end
             end
         end
         if row.low == nil then
@@ -1950,6 +1978,48 @@ do
         probe.LowerBound = describe(pcall(function() return range.LowerBound end))
         probe.LowerBound_Value = describe(pcall(function() return range.LowerBound.Value end))
         probe.LowerBound_Type = describe(pcall(function() return range.LowerBound.Type end))
+        -- TASK-008: keys of the ".get"/".set" tables; getters are called, setters never.
+        pcall(function()
+            local meta = getmetatable(range)
+            for _, name in ipairs({ ".get", ".set" }) do
+                local map = type(meta) == "table" and rawget(meta, name) or nil
+                local key = name == ".get" and "get_keys" or "set_keys"
+                if type(map) == "table" then
+                    probe[key] = sortedKeys(map, 40)
+                else
+                    probe[key] = type(map)
+                end
+            end
+            local getters = type(meta) == "table" and rawget(meta, ".get") or nil
+            if type(getters) == "table" then
+                for _, name in ipairs({ "LowerBound", "UpperBound" }) do
+                    local getter = rawget(getters, name)
+                    if getter ~= nil then
+                        local ok, bound = pcall(getter, range)
+                        probe["get_" .. name] = describe(ok, bound)
+                        if ok and bound ~= nil then
+                            for _, field in ipairs({ "Type", "Value" }) do
+                                probe["get_" .. name .. "_" .. field] = describe(pcall(function()
+                                    local okField, value = pcall(function() return bound[field] end)
+                                    if okField and value ~= nil then return value end
+                                    return getmetatable(bound)[".get"][field](bound)
+                                end))
+                            end
+                            pcall(function()
+                                local boundMeta = getmetatable(bound)
+                                if type(boundMeta) == "table" and type(rawget(boundMeta, ".get")) == "table" then
+                                    probe["get_" .. name .. "_keys"] = sortedKeys(rawget(boundMeta, ".get"), 20)
+                                end
+                            end)
+                        end
+                    end
+                end
+            end
+            if type(meta) == "table" and type(rawget(meta, "clone")) == "function" then
+                probe.clone = describe(pcall(rawget(meta, "clone"), range))
+            end
+        end)
+        probe.clone_method = describe(pcall(function() return range:clone() end))
         return probe
     end
 
@@ -2395,9 +2465,6 @@ end
 
 local function afterMain()
     S.afterMain = true
-    if S.sessionLine ~= nil then
-        warn(S.sessionLine)
-    end
     S.flushSoon = false
     D.Flush(true)
     schedule()
@@ -2468,9 +2535,19 @@ function D.Start(loader, runtimeFixes, version)
                 noteError("tick", err)
             end
         end, 2100000, "absru.diagnostics.start")
+        -- The marker needs its own early slot: Log.Info before the game's logger
+        -- is up never reaches C7.log (TASK-007), and the after_main hook
+        -- cpdd.runtime-fix.performance-mode (2000000) lowers LuaLog to Warning
+        -- until the game raises it again at login (TASK-008, session
+        -- 2026-09-25_1046: no Lua lines between 10:38:19 and 10:38:54).
+        -- 1501 = right after Init.lua's "active hooks_installed=" line (1500).
+        loader.On("after_main", function()
+            if S.sessionLine ~= nil then
+                warn(S.sessionLine)
+            end
+        end, 1501, "absru.diagnostics.session-line")
     end
-    -- Logged at load for early crashes and repeated in after_main: Log.Info
-    -- before the game's logger is up never reaches C7.log (TASK-007).
+    -- Also logged at load, for early crashes.
     S.sessionLine = "[AbsruDiag] session=" .. S.sid .. " slot=" .. tostring(S.slot) .. " dir=" .. S.dir
         .. " version=" .. S.version .. " flags=" .. flagSummary()
     warn(S.sessionLine)

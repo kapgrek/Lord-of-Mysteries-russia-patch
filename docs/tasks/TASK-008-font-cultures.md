@@ -1,5 +1,11 @@
 # TASK-008: шрифт — кириллица Title через приоритет существующего SubTypeface (этап 4a, без записи диапазонов)
 
+Статус: **шаги 1–5 исполнены** 2026-09-25 (v2.9.4-RU, режим по умолчанию `"typeface"`), **ждут проверки в игре** по разделу «Проверка». Релиз не опубликован.
+- Шаг 1: проба `range_probe` дополнена полями `get_keys`, `set_keys`, `get_LowerBound…`/`get_UpperBound…` (вызов геттера и поля `Type`/`Value` результата), `get_LowerBound_keys`, `clone`, `clone_method`; сеттеры не вызываются. Вывод в `fonts.md → Проба FInt32Range`.
+- Шаг 2: `Init.lua` — `applyCultures`, `runtimeFixes.CyrillicCultureSubs`, флаг `CyrillicCultureSub`. Если у `TArray` нет `Set`, элемент заменяется через `Remove` + `Insert(index, value)`, а при ошибке — `Insert(value, index)`; после записи сверяются `Cultures` и число SubTypeface. Логика прогнана на заглушках (fengari): `Set` и `Insert`, `en-US` → `en-US;en`, откат при `flush=missing` и при ошибке записи, выбор `NotoSans_Regular` по флагу, Title не меняется в `cultures` и меняется в `typeface`.
+- Шаг 3: сделан заранее, только чтение. Если в игре сработают геттеры `.get`, диагностика заполнит `covers_0410`/`covers_0041` (`read = get`), а строка режима — `cyr=`/`latin=`. Пока они не читаются, там `unknown`. `subfont` не менялся.
+- Шаг 4: причина найдена. `afterMain` диагностики вызывался, но его хук стоял на приоритете 2100000, то есть после `cpdd.runtime-fix.performance-mode` (2000000). Тот понижает `LuaLog` до Warning, и поэтому в сессии 1046 после 10:38:19 нет даже `[LOMPerf] phase=after_main`, а строки `Lua:` возвращаются только в 10:38:54 после `CheckLogLvAndSGameDebugger`. Маркер теперь выводит отдельный хук с приоритетом 1501.
+
 Дорожная карта: [ROADMAP.md](ROADMAP.md), этап 4a. Предыдущие: [TASK-006](TASK-006-font.md), [TASK-007](TASK-007-font-coverage.md). Данные: `reference/logs/2026-09-25_1046/` (v2.9.3-RU, сессия A, режим `typeface`, сессия 20260925-103753).
 
 ## Симптом
@@ -47,7 +53,7 @@
 **Автоматическая:** `VerifyPatch.ps1` OK; `git diff --stat` — `Init.lua`, `AbsruDiagnostics.lua`, `CollectDiagLogs.ps1` (если менялся), версии, документы.
 
 **Чек-лист для пользователя** (сборка v2.9.4-RU; в `absoluteru_dev.lua` добавить `CyrillicFont = "cultures",`):
-1. В C7.log найти `cyrillic font mode=cultures sub=… cultures=… write=… verify=… flush=…` и прислать строку.
+1. В C7.log найти `cyrillic font mode=cultures sub=… cultures=… write=… verify=… flush=…` и прислать строку. Сразу после `v2.9.4-RU active hooks_installed=` должна идти строка `[AbsruDiag] session=…`.
 2. Если `mode=cultures`, проверить экраны: задания (описание справа, `TaskBoardPanel`), диалог с NPC (все варианты ответа), Исследование (заголовки карточек), магазин VIP (`Shops_Panel`, RichText), подсказка загрузки. Кириллица должна быть пропорциональной и с засечками, без разрядки.
 3. **Латиница и цифры:** «Plot Overview», числа в HUD, английские названия. Сравнить со скриншотом до изменения: остались ли они шрифтом Aleo. Если латиница поменялась, повторить с `CyrillicCultureSub = "NotoSans_Regular"` и сравнить.
 4. Китайских иероглифов и квадратов нигде не появилось.

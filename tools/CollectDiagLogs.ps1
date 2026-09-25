@@ -664,7 +664,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('Какой глиф выбрал Slate (fallback), из Lua не видно: сверять cmap экспортированных шрифтов (U+0400–U+04FF) офлайн.')
 [void]$sb.AppendLine('')
 if ($cyrillicFont) {
-    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'write', 'verify', 'flush', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
+    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'sub', 'cultures', 'previous', 'write', 'via', 'verify', 'flush', 'cyr', 'latin', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
     [void]$sb.AppendLine("Кириллица (TASK-006): ``$($parts -join ' ')``.")
     [void]$sb.AppendLine('')
 }
@@ -676,7 +676,7 @@ function Format-Range($r) {
 [void]$sb.AppendLine("## composite ($($composite.Count))")
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('Структура `UFont.CompositeFont` (проба `AbsruDiagnostics`, только чтение). Диапазоны: границы и тип (0 — Exclusive, 1 — Inclusive, 2 — Open). В режиме `subfont` здесь видна и наша запись U+0400–U+045F.')
-[void]$sb.AppendLine('«А / A» — покрывает ли SubTypeface U+0410 (кириллическая А) и U+0041 (латинская A): `да` / `нет` / `?` (диапазоны не прочитаны). «чтение» — способ чтения диапазона: `field` (`LowerBound.Value`), `method` (`GetLowerBoundValue()`), `contains` (`Contains()`), `none`.')
+[void]$sb.AppendLine('«А / A» — покрывает ли SubTypeface U+0410 (кириллическая А) и U+0041 (латинская A): `да` / `нет` / `?` (диапазоны не прочитаны). «чтение» — способ чтения диапазона: `field` (`LowerBound.Value`), `method` (`GetLowerBoundValue()`), `get` (геттеры из таблицы `.get` метатаблицы), `contains` (`Contains()`), `none`.')
 [void]$sb.AppendLine('')
 function Format-Covers($value) {
     if ($null -eq $value) { return '?' }
@@ -727,11 +727,12 @@ foreach ($p in $composite.Keys) {
         $probe = Get-V $sub 'range_probe'
         if ($probe) {
             $face = @(@(Get-V $sub 'fonts') | Where-Object { $null -ne $_ } | ForEach-Object { (([string](Get-V $_ 'face')) -split '[/.]')[-1] } | Select-Object -Unique) -join ', '
-            $calls = @('GetLowerBoundValue', 'GetUpperBoundValue', 'IsEmpty', 'Contains_0410', 'LowerBound', 'LowerBound_Value', 'LowerBound_Type' | ForEach-Object {
+            $calls = @('GetLowerBoundValue', 'GetUpperBoundValue', 'IsEmpty', 'Contains_0410', 'LowerBound', 'LowerBound_Value', 'LowerBound_Type',
+                'get_LowerBound', 'get_LowerBound_Type', 'get_LowerBound_Value', 'get_UpperBound', 'get_UpperBound_Type', 'get_UpperBound_Value', 'clone', 'clone_method' | ForEach-Object {
                 $r = Get-V $probe $_
                 if ($r) { "$_=$(if ((Get-V $r 'ok') -eq $true) { 'ok' } else { 'err' }):$(Get-V $r 'type'):$(Get-V $r 'value')" }
             }) -join '; '
-            $meta = "meta=$(Get-V $probe 'meta') name=$(Get-V $probe 'meta_name') index=$(Get-V $probe 'index') meta_keys=[$(@(Get-V $probe 'meta_keys') -join ',')] index_keys=[$(@(Get-V $probe 'index_keys') -join ',')]"
+            $meta = "meta=$(Get-V $probe 'meta') name=$(Get-V $probe 'meta_name') index=$(Get-V $probe 'index') meta_keys=[$(@(Get-V $probe 'meta_keys') -join ',')] index_keys=[$(@(Get-V $probe 'index_keys') -join ',')] .get=[$(@(Get-V $probe 'get_keys') -join ',')] .set=[$(@(Get-V $probe 'set_keys') -join ',')] LowerBound.get=[$(@(Get-V $probe 'get_LowerBound_keys') -join ',')]"
             $probeRows.Add("| $(Cell (($p -split '[/.]')[-1])) | sub#$i | $(Cell $face) | $(Cell $meta) | $(Cell $calls) |")
         }
         $i++

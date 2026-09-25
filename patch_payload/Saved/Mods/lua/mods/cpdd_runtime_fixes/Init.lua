@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.3-RU"
+local VERSION = "2.9.4-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1480,6 +1480,10 @@ end
 --   "subfont"  - append a Cyrillic SubTypeface to Font_Aleo.CompositeFont (the
 --                game's font is extended, never replaced) and flush the font cache;
 --                any failure falls back to "typeface";
+--   "cultures" - (TASK-008) give an existing Font_Aleo SubTypeface (Fallback
+--                NotoSerif/NotoSans) Cultures = current culture, so its ranges
+--                become priority ranges ahead of the default typeface; no range
+--                is read or written; any failure falls back to "typeface";
 --   "typeface" - Title -> Regular for widgets whose text contains Cyrillic;
 --   "off"      - authored typefaces.
 -- absoluteru_dev.lua (Enabled = true) may override it: CyrillicFont = "subfont".
@@ -1492,6 +1496,9 @@ runtimeFixes.CyrillicFaceCandidates = {
     -- "/Game/AbsoluteRU/Fonts/<stage 4b font>.<stage 4b font>",
     "Font_Aleo:Regular",
 }
+-- "cultures" mode: faces of Font_Aleo SubTypefaces (…/Fallback/<name>.<name>) by
+-- priority. absoluteru_dev.lua CyrillicCultureSub = "<name>" goes first.
+runtimeFixes.CyrillicCultureSubs = { "NotoSerif_Regular", "NotoSans_Regular" }
 
 do
     local CYRILLIC_FONT_MODE = "typeface"
@@ -1739,6 +1746,183 @@ do
         return status
     end
 
+    -- "cultures" (TASK-008) --------------------------------------------------
+    -- FInt32Range is opaque through __index in slua (session 2026-09-25_1046):
+    -- no fields, no methods. Struct property getters may still sit in the
+    -- metatable's ".get" table; this is only used to report coverage.
+    local function readField(value, name)
+        local ok, result = pcall(function() return value[name] end)
+        if ok and result ~= nil then return result end
+        ok, result = pcall(function() return getmetatable(value)[".get"][name](value) end)
+        if ok then return result end
+        return nil
+    end
+
+    -- "yes" / "no" / "unknown" for each code point.
+    local function subCoverage(sub, codepoints)
+        local result, unreadable = {}, false
+        for index, _ in ipairs(codepoints) do result[index] = false end
+        pcall(function()
+            local ranges = sub.CharacterRanges
+            for rangeIndex = 0, count(ranges) - 1 do
+                local range = item(ranges, rangeIndex)
+                local lower, upper = readField(range, "LowerBound"), readField(range, "UpperBound")
+                local low = lower ~= nil and tonumber(readField(lower, "Value")) or nil
+                local high = upper ~= nil and tonumber(readField(upper, "Value")) or nil
+                if low == nil or high == nil then
+                    unreadable = true
+                else
+                    -- ERangeBoundTypes::Open = 2 is unbounded.
+                    if tonumber(readField(lower, "Type")) == 2 then low = -math.huge end
+                    if tonumber(readField(upper, "Type")) == 2 then high = math.huge end
+                    for index, codepoint in ipairs(codepoints) do
+                        if low <= codepoint and codepoint <= high then result[index] = true end
+                    end
+                end
+            end
+        end)
+        for index, covered in ipairs(result) do
+            result[index] = covered and "yes" or (unreadable and "unknown" or "no")
+        end
+        return result
+    end
+
+    local function currentCultures()
+        local culture = nil
+        pcall(function()
+            culture = tostring(import("KismetInternationalizationLibrary").GetCurrentCulture())
+        end)
+        if culture == nil or culture == "" or culture == "nil" then culture = "en" end
+        local parent = culture:match("^([^%-_]+)[%-_]")
+        if parent ~= nil then return culture .. ";" .. parent end
+        return culture
+    end
+
+    local function cultureSubNames()
+        local names, seen = {}, {}
+        local function add(name)
+            if type(name) == "string" and name ~= "" and not seen[name] then
+                seen[name] = true
+                names[#names + 1] = name
+            end
+        end
+        local devFlags = Loader.DevFlags
+        add(type(devFlags) == "table" and devFlags.CyrillicCultureSub or nil)
+        for _, name in ipairs(runtimeFixes.CyrillicCultureSubs) do add(name) end
+        return names
+    end
+
+    local function subFacePath(sub)
+        local path = nil
+        pcall(function()
+            local face = item(sub.Typeface.Fonts, 0).Font.FontFaceAsset
+            if face ~= nil then path = objectPath(face) end
+        end)
+        return path
+    end
+
+    -- Index of the SubTypeface whose first face is …/Fallback/<name>.<name>,
+    -- its face path and the number of SubTypefaces.
+    local function findCultureSub(font, name)
+        local subs = nil
+        pcall(function() subs = font.CompositeFont.SubTypefaces end)
+        if subs == nil then return nil end
+        local total = count(subs)
+        local needle = "/Fallback/" .. name .. "."
+        for index = 0, total - 1 do
+            local path = subFacePath(item(subs, index))
+            if path ~= nil and path:find(needle, 1, true) ~= nil then return index, path, total end
+        end
+        return nil, nil, total
+    end
+
+    -- slua TArray element replacement: Set, or Remove + Insert.
+    local function replaceItem(array, index, value)
+        if pcall(function() array:Set(index, value) end) then return "set" end
+        array:Remove(index)
+        if pcall(function() array:Insert(index, value) end) then return "insert" end
+        array:Insert(value, index)
+        return "insert"
+    end
+
+    -- The CompositeFont is copied, edited and assigned back as a whole.
+    local function writeSubCultures(font, index, cultures)
+        local cf = font.CompositeFont
+        local subs = cf.SubTypefaces
+        local sub = item(subs, index)
+        assert(sub ~= nil, "sub unavailable")
+        sub.Cultures = cultures
+        local via = replaceItem(subs, index, sub)
+        cf.SubTypefaces = subs
+        font.CompositeFont = cf
+        return via
+    end
+
+    local function readSubCultures(font, index)
+        local value = nil
+        pcall(function() value = tostring(item(font.CompositeFont.SubTypefaces, index).Cultures) end)
+        return value
+    end
+
+    -- Returns status fields; status.ok is true when the SubTypeface has the cultures.
+    local function applyCultures(font)
+        local status = { sub = "none", cultures = "", write = "skip", verify = "fail", flush = "skip" }
+        local index, path, total, name = nil, nil, nil, nil
+        for _, candidate in ipairs(cultureSubNames()) do
+            index, path, total = findCultureSub(font, candidate)
+            if index ~= nil then
+                name = candidate
+                break
+            end
+        end
+        if index == nil then
+            status.reason = "no_sub"
+            return status
+        end
+        status.sub = path
+        local coverage = subCoverage(item(font.CompositeFont.SubTypefaces, index), { 0x0410, 0x0041 })
+        status.cyr, status.latin = coverage[1], coverage[2]
+        local previous = readSubCultures(font, index)
+        if previous == nil then
+            status.reason = "cultures_unreadable"
+            return status
+        end
+        status.previous = previous
+        status.cultures = currentCultures()
+
+        local function rollback()
+            local at = findCultureSub(font, name)
+            if at ~= nil and readSubCultures(font, at) ~= previous then
+                pcall(writeSubCultures, font, at, previous)
+                flushFontCache()
+            end
+        end
+
+        local ok, via = pcall(writeSubCultures, font, index, status.cultures)
+        status.write = ok and "ok" or "err"
+        if not ok then
+            status.reason = "write:" .. tostring(via)
+            rollback()
+            return status
+        end
+        status.via = via
+        local at, _, after = findCultureSub(font, name)
+        if at == nil or after ~= total or readSubCultures(font, at) ~= status.cultures then
+            status.reason = at == nil and "verify_no_sub" or (after ~= total and "verify_count" or "verify")
+            rollback()
+            return status
+        end
+        status.verify = "ok"
+        status.flush = flushFontCache()
+        if status.flush ~= "ok" then
+            status.reason = "flush"
+            rollback()
+            return status
+        end
+        status.ok = true
+        return status
+    end
+
     -- report() at module load runs before the game's logger is up and never
     -- reaches C7.log (TASK-007); after_main repeats the stored line.
     local function report(message)
@@ -1748,7 +1932,7 @@ do
     local mode = CYRILLIC_FONT_MODE
     local devFlags = Loader.DevFlags
     local requested = type(devFlags) == "table" and devFlags.CyrillicFont or nil
-    if requested == "subfont" or requested == "typeface" or requested == "off" then
+    if requested == "subfont" or requested == "cultures" or requested == "typeface" or requested == "off" then
         mode = requested
     end
 
@@ -1789,6 +1973,19 @@ do
                 .. " verify=" .. status.verify .. " flush=" .. status.flush
             if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
             report(line)
+        elseif mode == "cultures" then
+            -- Title stays Title: its Cyrillic has to come from the priority sub.
+            status = applyCultures(standard)
+            if not status.ok then mode = "typeface" end
+            local line = "cyrillic font mode=" .. mode
+            if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
+            line = line .. " sub=" .. tostring(status.sub) .. " cultures=" .. tostring(status.cultures)
+                .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
+                .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
+                .. " verify=" .. status.verify .. " flush=" .. status.flush
+                .. " cyr=" .. tostring(status.cyr) .. " latin=" .. tostring(status.latin)
+            if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
+            report(line)
         elseif mode == "typeface" then
             report("cyrillic font mode=typeface title_typeface=" .. titleTypeface)
         else
@@ -1800,6 +1997,9 @@ do
             face = status and status.face, write = status and status.write,
             verify = status and status.verify, flush = status and status.flush,
             reason = status and status.reason,
+            sub = status and status.sub, cultures = status and status.cultures,
+            previous = status and status.previous, via = status and status.via,
+            cyr = status and status.cyr, latin = status and status.latin,
         }
     end)
     if not ok then
