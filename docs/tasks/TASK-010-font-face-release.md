@@ -39,7 +39,7 @@
 2. Имена над NPC и персонажами («Себастьян», «Киренаика») — пропорциональные, не разреженные; не размытые и без «ореола» (SDF-рендер).
 3. Задания: описание справа («По прошествии некоторого времени…») — как «Цель задания» под ним.
 4. Повторить экраны TASK-009: диалог, «Разговаривать», Исследование, магазин, «Plot Overview» — без регресса.
-5. (Необязательно) тест шрифта с засечками: `CyrillicTitleFace = "NotoSerif_Regular"` в `absoluteru_dev.lua` — заголовки с засечками; нет квадратов и пустых мест. Сообщить, какой вариант лучше: если NotoSerif, сделать его значением по умолчанию одной строкой (`runtimeFixes.CyrillicTitleFace`).
+5. Тест NotoSerif уже проведён (2026-09-25 12:37, v2.9.5: `mode=face source=NotoSerif_Regular … verify=ok applied_at=load`): кириллица в заголовках выглядит **так же**, как с `Aleo_Regular` (скриншот пользователя). Значит, face `Fallback/NotoSerif_Regular` в сборке игры кириллицы не содержит, и она уходит в `NotoSansCJKsc_Regular` (Source Han Sans), как и у `Aleo_Regular`. Это согласуется с результатом `cultures` на NotoSerif (TASK-009). Кириллицы с засечками и нормальной шириной в ассетах игры нет: её даёт только этап 4b (свой face в мод-контейнере). Значение по умолчанию — `Aleo_Regular`: латиница в заголовках остаётся Aleo.
 
 ## Вне задачи: записи боёв Автошахмат
 - В сессии 20260925-115934 (`Saved/Mods/logs/absru-s2-untranslated-*.jsonl`, читались из игры) около **283** промахов StringDB с текстом Автошахмат (`src=stringdb`, en содержит piece / Resonance / Gold Coins…), например row `158675419318528` «Randomly gain pieces with a total value of 12 Gold Coins…» и row `158469797713664` «Sinful Tingen pieces gain 15% Attack…» (показан китайским).
