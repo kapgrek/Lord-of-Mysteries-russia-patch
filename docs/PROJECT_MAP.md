@@ -19,10 +19,11 @@
 | **Валидация тегов и плейсхолдеров** | `tools/VerifyBatch.ps1`<br>`tools/VerifyPatch.ps1` | Теги `<Highlight>`, `%s`, `%d`, `{0}`, макросы `{*d,…}`, `{{player.name}}` (ERR), числа и хвосты `b` (WARN); синтаксис Lua |
 | **Базы данных Excel (диалоги, квесты)** | `patch_payload/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/` | 38 таблиц строк **в байткоде LuaJIT** (`1B 4C 4A`), несмотря на расширение `.lua`. В `.gitattributes` помечены как `binary` |
 | **Текстуры и виджеты IoStore** | `patch_payload/Saved/Mods/BakedText/blocks.bin`<br>`patch_payload/Saved/Mods/BakedText/manifest.json`<br>`tools/BakedTextManager.ps1` | 39 МБ пропатченных блоков для `.ucas` файлов контейнеров UE5 |
-| **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/InstallerCore.cs`<br>`installer/supported_game.json` | `Program.cs`: окно Windows Forms, загрузка данных из GitHub Releases, CLI. `InstallerCore.cs`: проверка версии игры (sha256 всего `pakchunk0`), блок моста, бэкап в `Saved/RussianPatchBackups/`, установка и удаление только своих файлов (`installed_files.json`), BakedText, переключение RU↔EN |
-| **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore` на поддельных pak из случайных байт в `temp/installer-tests/`; `--check-payload <dir>` проверяет распакованный zip данных |
+| **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/PatcherBackend.cs`<br>`installer/InstallerCore.cs`<br>`installer/GameOptions.cs`<br>`installer/PayloadSource.cs`<br>`installer/AppInfo.cs`<br>`installer/supported_game.json` | `Program.cs`: `Main`, CLI, `--payload`. `PatcherBackend.cs`: поиск папки игры (диски × пути CPDD, реестр, последняя папка в `%LOCALAPPDATA%\LotmRussianPatch\settings.json`), статус, установка/удаление, запуск Combat Meter. `InstallerCore.cs`: проверка версии игры (sha256 всего `pakchunk0`), блок моста, бэкап в `Saved/RussianPatchBackups/`, установка и удаление только своих файлов (`installed_files.json`), BakedText; `.disabled` после старого переключения RU↔EN чинится установкой. `GameOptions.cs`: `cpdd_patcher_settings.lua` в формате CPDD, блок Visual Clarity в `Engine.ini`. `PayloadSource.cs`: `--payload` → zip рядом с exe (точное имя) → релиз GitHub (sha256 по `release.json`) → проверенный кеш. `AppInfo.cs`: версия и репозиторий |
+| **Окно установщика (WPF)** | `installer/Ui/*.xaml`, `installer/Ui/*.cs`<br>`installer/links.json`<br>`installer/HowToPlay.md`, `installer/howto/*.png` | XAML без `x:Class`, встраивается ресурсом и грузится `XamlReader` (сборка `csc`, без .NET SDK); события подключаются в `MainWindow.cs` по `ElementNames`. `Theme.xaml` — общая тёмная тема, `UiKit.cs` — диалоги и тёмный заголовок, `FolderPicker.cs` — `IFileOpenDialog`. Ссылки соцсетей — `links.json` (только https на t.me, boosty.to, discord.gg, github.com). «Как играть» — `HowToPlay.md` → `FlowDocument` |
+| **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore`, `GameOptions`, `PayloadSource`, разметки окон, `links.json` и `HowToPlay.md` на поддельных pak из случайных байт в `temp/installer-tests/`; `--check-payload <dir>` проверяет распакованный zip данных |
 | **Синхронизация с CPDD** | `tools/SyncCpdd.ps1`<br>`vendor/cpdd/` | Скачать релиз CPDD → сравнить с базой (`vendor/cpdd/BASE.json`) и `patch_payload/` → отчёт `reference/cpdd/<tag>/SYNC_REPORT.md` → `-Apply` выбранных компонентов (verbatim, 3-way merge `Init.lua`/`bootstrap.lua`, `state.json`, новые строки шардов в батч, `supported_game.json`) |
-| **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `supported_base_paks`, `launch_block`, `owned_files`) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish` всё загружается как assets GitHub Release |
+| **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `supported_base_paks`, `launch_block`, `owned_files`) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish`: черновик → загрузка assets (`--clobber`, повторяемо) → публикация как latest; `-WhatIfPublish` только печатает поиск релиза (через `gh api`, с черновиками) и команды `gh` |
 | **Диагностика для разработки** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruDiagnostics.lua`<br>`tools/CollectDiagLogs.ps1`<br>`docs/DIAGNOSTICS.md` | Модуль сбора (хуки, непереведённое, переполнение, шрифты, текстуры); включается только файлом `Saved/Mods/lua/absoluteru_dev.lua` в игре. `CollectDiagLogs` копирует логи ИЗ игры в `reference/logs/<дата>/` и строит отчёты в `report/` |
 | **Дополнительные моды (DPS Meter, Чат)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/DesktopChat.lua`<br>`patch_payload/Saved/Mods/ExternalDpsMeter/` | Мод чата для ПК и автономный счетчик урона |
 | **Правила и защита ИИ-агента** | `AGENTS.md`<br>`.claude/settings.json`<br>`.claude/hooks/` | Регламент; permissions; хук-сторож папки игры и Stop-хук перекомпиляции шардов |
@@ -117,10 +118,17 @@ AbsoluteRU/
 │   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release, -DataOnly)
 │
 ├── installer/                 # Исходный код автономного установщика (*.exe не в git)
-│   ├── Program.cs             # GUI на Windows Forms (выбор пути, прогресс-бар, лог)
-│   ├── InstallerCore.cs       # Установка/обновление/удаление/переключение языка для папки игры
+│   ├── Program.cs             # Main, CLI, --payload; окно — Ui/MainWindow
+│   ├── PatcherBackend.cs      # Поиск папки игры, статус, установка/удаление, Combat Meter
+│   ├── InstallerCore.cs       # Установка/обновление/удаление для папки игры
+│   ├── GameOptions.cs         # cpdd_patcher_settings.lua и блок Visual Clarity в Engine.ini
+│   ├── PayloadSource.cs       # Откуда пакет: --payload, zip рядом с exe, GitHub, кеш
+│   ├── AppInfo.cs             # Версия и репозиторий
+│   ├── Ui/                    # WPF: Theme.xaml, MainWindow, HowToPlayWindow, FolderPicker, UiKit, Links
+│   ├── links.json             # Ссылки на соцсети (встраивается в exe)
+│   ├── HowToPlay.md, howto/   # Текст и картинки окна «Как играть» (встраиваются в exe)
 │   ├── supported_game.json    # Поддерживаемая сборка игры (генерирует SyncCpdd, встраивается в exe и кладётся в zip)
-│   ├── build_installer.ps1    # Сборка Program.cs + InstallerCore.cs в EXE (по умолчанию в build/)
+│   ├── build_installer.ps1    # Сборка EXE (csc + WPF, XAML/тексты как ресурсы; по умолчанию в build/)
 │   └── AssemblyInfo.cs, app.ico, app.manifest
 │
 ├── vendor/cpdd/               # Нетронутая база CPDD для 3-way merge (BASE.json, <tag>/Init.lua, bootstrap.lua, state.json, release.json)

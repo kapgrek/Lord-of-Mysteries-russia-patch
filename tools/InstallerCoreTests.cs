@@ -35,8 +35,10 @@ public static class InstallerCoreTests
             bool okOwned = InstallerCore.VerifyOwnedFiles(payload, files, out why);
             var game = SupportedGame.Load(payload);
             bool okBridge = InstallerCore.FileSha256(Path.Combine(payload, InstallerCore.BridgeBlockPayloadRel)) == game.InstalledBlockSha256;
-            Console.WriteLine("files=" + files.Count + " owned_files=" + (okOwned ? "OK" : "FAIL " + why) + " supported_game=" + game.GameBuild + " bridge=" + (okBridge ? "OK" : "FAIL"));
-            return okOwned && okBridge ? 0 : 1;
+            bool okRoot = PayloadSource.FindPayloadRoot(payload) == payload;
+            Console.WriteLine("files=" + files.Count + " owned_files=" + (okOwned ? "OK" : "FAIL " + why) + " supported_game=" + game.GameBuild
+                + " bridge=" + (okBridge ? "OK" : "FAIL") + " payload_root=" + (okRoot ? "OK" : "FAIL"));
+            return okOwned && okBridge && okRoot ? 0 : 1;
         }
         if (args.Length > 0) testRoot = Path.GetFullPath(args[0]);
         if (!IsUnder(testRoot, tempDir))
