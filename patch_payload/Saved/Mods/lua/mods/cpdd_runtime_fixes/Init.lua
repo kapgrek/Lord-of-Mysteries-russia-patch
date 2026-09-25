@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.10-RU"
+local VERSION = "3.0.0-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
