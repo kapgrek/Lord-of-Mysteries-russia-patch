@@ -16101,7 +16101,7 @@
     "id": "107683",
     "source_cn": "持2049",
     "ref_en": "Holding 2049",
-    "target_ru": "Холдинг 2049"
+    "target_ru": "В наличии: 2049"
   },
   {
     "id": "107684",
@@ -16149,7 +16149,7 @@
     "id": "107691",
     "source_cn": "是否开启聊天客户端+1检查功能, 开启之后被客户端标记位+1 的消息会直接跳过AI检查",
     "ref_en": "Whether to enable chat client +1 check function. After enabling, messages marked +1 by the client will skip AI check",
-    "target_ru": "Включить ли функцию проверки клиента чата +1. 8e6adaf1f9ae06bcb9663531e5521abbПосле включения сообщения, помеченные клиентом +1, не будут проходить проверку AI."
+    "target_ru": "Включить ли функцию проверки клиента чата +1. После включения сообщения, помеченные клиентом +1, не будут проходить проверку AI."
   },
   {
     "id": "107692",
@@ -24465,7 +24465,7 @@
     "id": "109077",
     "source_cn": "最小物理攻击：{*d,F1690008,pAtkMin}\\n最大物理攻击：{*d,F1690010,pAtkMax}\\n提高物理伤害的攻击基础值{*d,F1690008,pAtkMin}-{*d,F1690010,pAtkMax}点和物理途径的治疗基础值{*d,F1690033,pAtkMin}-{*d,F1690035,pAtkMax}点，实际效果受技能倍率影响，与技能等级无关。\\n物理途径包括：占卜家、歌颂者、战士。",
     "ref_en": "Minimum Physical Attack: {*d,F1690008,pAtkMin}\\n Maximum Physical Attack: {*d,F1690010,pAtkMax}\\n Increases the base Attack value of physical damage by {*d,F1690008,pAtkMin}-{*d,F1690010,pAtkMax} points and the base Healing value of physical Pathways by {*d,F1690033,pAtkMin}-{*d,F1690035,pAtkMax} points. The actual effect is influenced by the Skill multiplier and is independent of the Skill level. \\nPhysical Pathways include: Seer, Bard, Warrior.",
-    "target_ru": "Минимальная физическая атака: {*d,F1690008,pAtkMin}\nМаксимальная физическая атака: {*d,F1690010,pAtkMax}\n Увеличивает значение базовой атаки физического урона {*d,F1690008,pAtkMin }-{*d,F1690010,pAtkMax} очков и базовую ценность лечения физический канал {*d,F1690033,pAtkMin}-{*d,F1690035,pAtkMax} точек. Фактический эффект зависит от множителя навыка и не имеет ничего общего с уровнем навыка. \nФизические пути включают: Прорицатель, Певец и Воин."
+    "target_ru": "Минимальная физическая атака: {*d,F1690008,pAtkMin}\nМаксимальная физическая атака: {*d,F1690010,pAtkMax}\n Увеличивает значение базовой атаки физического урона {*d,F1690008,pAtkMin}-{*d,F1690010,pAtkMax} очков и базовую ценность лечения физический канал {*d,F1690033,pAtkMin}-{*d,F1690035,pAtkMax} точек. Фактический эффект зависит от множителя навыка и не имеет ничего общего с уровнем навыка. \nФизические пути включают: Прорицатель, Певец и Воин."
   },
   {
     "id": "109078",

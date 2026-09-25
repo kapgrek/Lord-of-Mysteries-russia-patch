@@ -225,7 +225,7 @@ return {
     ["Lightning Prison Corridor"] = "Молниеносный тюремный коридор",
     ["Circuit breaker explanation"] = "Объяснение автоматического выключателя",
     ["Belfie"] = "Белфи",
-    ["Whether to enable the chat client sensitive word check function. After enabling, only messages marked by the client will undergo AI checking."] = "Включить ли функцию проверки конфиденциальных слов клиента чата. 8e6adaf1f9ae06bcb9663531e5521abbПосле включения проверки AI будут подвергаться только сообщения, отмеченные клиентом.",
+    ["Whether to enable the chat client sensitive word check function. After enabling, only messages marked by the client will undergo AI checking."] = "Включить ли функцию проверки конфиденциальных слов клиента чата. После включения проверки AI будут подвергаться только сообщения, отмеченные клиентом.",
     ["Check the soup pot"] = "Проверьте кастрюлю с супом",
     ["[Angry]"] = "[Злой]",
     ["...I didn't notice, I really didn't handle it properly."] = "...Я не заметил, я действительно не справился с этим должным образом.",

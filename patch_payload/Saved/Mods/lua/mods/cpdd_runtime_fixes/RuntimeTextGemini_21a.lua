@@ -54,7 +54,7 @@ return {
     ["Fish - Parry Test - Mark buff"] = "Рыба - Тест на парирование - Пометка баффа",
     ["Pick up Feysac Empire Map"] = "Возьмите карту империи Фейсак.",
     ["Charm Master"] = "Мастер очарования",
-    [">>Reminder needs to be closed after the animation ends, but the animation does not exist or the duration is 0. Please check. ReminderID: %s, ReminderType: %s, Class: %s"] = ">>Напоминание необходимо закрыть после окончания анимации, но анимация не существует или ее продолжительность равна 0. Пожалуйста, проверьте. 8e6adaf1f9ae06bcb9663531e5521abbReminderID: %s, ReminderType: %s, Класс: %s",
+    [">>Reminder needs to be closed after the animation ends, but the animation does not exist or the duration is 0. Please check. ReminderID: %s, ReminderType: %s, Class: %s"] = ">>Напоминание необходимо закрыть после окончания анимации, но анимация не существует или ее продолжительность равна 0. Пожалуйста, проверьте. ReminderID: %s, ReminderType: %s, Класс: %s",
     ["In front of the old house deep within the grape trellis, a man seems to be looking for something..."] = "Перед старым домом, глубоко среди виноградных решеток, мужчина, кажется, что-то ищет...",
     ["If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +75% </>"] = "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, цена продажи следующей станции <LightHighlight> +75% </>.",
     ["Hero - Turtle - Parry Warning Circle"] = "Герой — Черепаха — Предупреждающий круг парирования",

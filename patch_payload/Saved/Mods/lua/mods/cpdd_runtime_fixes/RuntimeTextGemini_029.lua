@@ -186,7 +186,7 @@ return {
     ["Only borrowing information with a higher confidentiality level requires the approval of old Herodotus, mentors, or even the president."] = "Только заимствование информации с более высоким уровнем конфиденциальности требует одобрения старого Геродота, наставников или даже президента.",
     ["Cleared the ground with Braden. Finally, a corner of the tent was revealed."] = "Расчистили землю вместе с Брейденом. Наконец, угол палатки открылся.",
     ["<P_Heart>(Then I might be able to obtain some precious and secret information from his diary, or even clues to go home...)</>"] = "<P_Heart>(Тогда я, возможно, смогу получить какую-нибудь ценную и секретную информацию из его дневника или даже подсказки, которые помогут вернуться домой...)</>",
-    ["Top-up Rebate Details"] = "Подробности о скидках при пополнении счета",
+    ["Top-up Rebate Details"] = "Подробности о кешбэке за пополнение",
     ["Create a warm haven together"] = "Создайте теплый рай вместе",
     ["Boss battle is about to begin, all Beyonders will be teleported to the combat area."] = "Битва с боссом вот-вот начнется, все Потусторонние будут телепортированы в зону боя.",
     ["Refresh Divination"] = "Обновить гадание",

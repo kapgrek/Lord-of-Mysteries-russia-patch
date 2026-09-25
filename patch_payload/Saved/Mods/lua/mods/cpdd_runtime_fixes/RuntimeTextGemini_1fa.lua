@@ -47,7 +47,7 @@ return {
     ["Antigonus Family Notes Supplementary Dialogue"] = "Дополнительный диалог «Семейные записки Антигона»",
     ["Embroidery"] = "Вышивка",
     ["Audrey moves forward"] = "Одри идет вперед",
-    ["SkillID: %s, the InterruptMode of the Continuous task in the interrupt state is not NOT_INTERRUPT; this task will only execute for one frame"] = "SkillID: %s, InterruptMode непрерывной задачи в состоянии прерывания не NOT_INTERRUPT; 8e6adaf1f9ae06bcb9663531e5521abbэта задача будет выполняться только в течение одного кадра",
+    ["SkillID: %s, the InterruptMode of the Continuous task in the interrupt state is not NOT_INTERRUPT; this task will only execute for one frame"] = "SkillID: %s, InterruptMode непрерывной задачи в состоянии прерывания не NOT_INTERRUPT; эта задача будет выполняться только в течение одного кадра",
     ["A strange-looking flower of unknown origin."] = "Странный на вид цветок неизвестного происхождения.",
     ["Bubble 2 Mount buff"] = "Бафф Bubble 2 Mount",
     ["Black Thorn Incident Book 4-Level 2-Knockback Safe Zone Maintenance buff"] = "Книга происшествий Black Thorn, 4 уровня, 2 уровня, усиление безопасной зоны с отбрасыванием",

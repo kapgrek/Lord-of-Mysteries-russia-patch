@@ -61,7 +61,7 @@ return {
     ["What are you talking about?!"] = "О чем ты говоришь?!",
     ["Frustrated"] = "Расстроенный",
     ["So that thing was called a strange fruit... Wait, who are you? Why are you here?"] = "Итак, эту штуку назвали странным фруктом... Подожди, а ты кто? Почему ты здесь?",
-    [">>The Refresh function of the Reminder class cannot be overridden. Please modify class: %s and use OnRefresh to replace Refresh"] = ">>Функция обновления класса «Напоминание» не может быть переопределена. 8e6adaf1f9ae06bcb9663531e5521abbПожалуйста, измените класс: %s и используйте OnRefresh вместо Refresh.",
+    [">>The Refresh function of the Reminder class cannot be overridden. Please modify class: %s and use OnRefresh to replace Refresh"] = ">>Функция обновления класса «Напоминание» не может быть переопределена. Пожалуйста, измените класс: %s и используйте OnRefresh вместо Refresh.",
     ["Your connections have changed... (+1 Noble Influence, +1 Public Opinion Resentment, +1 Military Resentment)"] = "Ваши связи изменились... (+1 Благородное влияние, +1 Негодование общественного мнения, +1 Недовольство военных)",
     ["He said Frankie Apartment, not even a dog would rent it!"] = "Он сказал: «Квартира Фрэнки», ее не снимет даже собака!",
     ["You walk with such difficulty... your breathing is so heavy. Trevor Murphy, he treats you like a tool, just as he treats himself like a tool."] = "Ты идешь с таким трудом... твое дыхание такое тяжелое. Тревор Мерфи, он обращается с тобой как с инструментом, так же, как он относится к себе как к инструменту.",

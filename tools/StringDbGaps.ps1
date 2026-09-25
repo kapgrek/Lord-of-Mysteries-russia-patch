@@ -352,7 +352,9 @@ if ($Aliases) {
 }
 
 if ($Emit) {
-    if (-not $Category -or $Category.Count -eq 0) { throw 'Для -Emit нужен -Category <категория[,…]>' }
+    # powershell -File передаёт "a,b" одной строкой
+    $Category = @($Category | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+    if ($Category.Count -eq 0) { throw 'Для -Emit нужен -Category <категория[,…]>' }
     foreach ($c in $Category) {
         if (-not $categoryInfo.Contains($c)) { throw "Неизвестная категория: $c. Есть: $($categoryInfo.Keys -join ', ')" }
         if ($c -in $neverEmit) { throw "Категорию $c не выгружают" }

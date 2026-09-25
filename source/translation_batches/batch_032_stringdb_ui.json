@@ -1,0 +1,26 @@
+[
+  {
+    "id": "132583",
+    "source_cn": "补领商店",
+    "ref_en": "Make-up Shop",
+    "target_ru": "Возмещение"
+  },
+  {
+    "id": "132584",
+    "source_cn": "补领商店说明",
+    "ref_en": "Make-up Shop Explanation",
+    "target_ru": "Справка о возмещении"
+  },
+  {
+    "id": "132585",
+    "source_cn": "新品上架",
+    "ref_en": "New Arrivals",
+    "target_ru": "Новинки"
+  },
+  {
+    "id": "132586",
+    "source_cn": "荒野脉络",
+    "ref_en": "Wilderness Veins",
+    "target_ru": "Жилы пустошей"
+  }
+]

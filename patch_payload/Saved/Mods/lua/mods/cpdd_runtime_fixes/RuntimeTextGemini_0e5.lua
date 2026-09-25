@@ -11,7 +11,7 @@ return {
     ["At the decisive moment of combat or confrontation, you can concentrate all your momentum and strength into one point, unleashing an overwhelming precise strike or defense. <Talent>When performing a check based on 【Force】, gain Advantage</>."] = "В решающий миг схватки или противостояния вы способны сосредоточить всю свою мощь в одной точке, нанеся сокрушительный точный удар или выставив несокрушимую защиту. <Talent>Дает преимущество при проверках на основе параметра 【Сила】</>.",
     ["Quest complete!"] = "Задание выполнено!",
     ["Phantom: Aurora"] = "Фантом·Аврора",
-    ["The <Chat_Highlight>{{eventMessageParams.drawCount}}</> bright lamps of {{player.name}} pierce through the mists of history, revealing <Chat_Highlight>{{eventMessageParams.goldCount}}</> legendary connections one after another."] = "<Chat_Highlight>{{EventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой.",
+    ["The <Chat_Highlight>{{eventMessageParams.drawCount}}</> bright lamps of {{player.name}} pierce through the mists of history, revealing <Chat_Highlight>{{eventMessageParams.goldCount}}</> legendary connections one after another."] = "<Chat_Highlight>{{eventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой.",
     ["Infinity Nikki"] = "Бесконечный",
     ["Zibo"] = "Цзыбо",
     ["Is there anyone to play cards with me..."] = "Есть ли кто-нибудь, кто поиграет со мной в карты?",

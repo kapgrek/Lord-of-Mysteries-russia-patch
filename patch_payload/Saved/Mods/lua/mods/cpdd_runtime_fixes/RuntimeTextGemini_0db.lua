@@ -216,7 +216,7 @@ return {
     ["Feel free to look around. Although there aren't many customers, I won't just abandon my stall like that lazy bum over there."] = "Не стесняйтесь осмотреться вокруг. Хотя клиентов не так много, я не брошу свой ларек, как тот ленивый бездельник.",
     ["Battle Started"] = "Битва началась",
     ["Elena!"] = "Елена!",
-    ["Holding 2049"] = "Холдинг 2049",
+    ["Holding 2049"] = "В наличии: 2049",
     ["It's getting late, hurry to Blackthorn Security Company to find Mr. Dunn..."] = "Уже поздно, спешите в охранную компанию Чёрный Чертополох, чтобы найти мистера Данна...",
     ["Initial Respawn Point"] = "Начальная точка возрождения",
     ["<P_Heart> (Tia's spirit floats excitedly in front of the furnace) </>"] = "<P_Heart> (дух Тии взволнованно парит перед печью) </>",

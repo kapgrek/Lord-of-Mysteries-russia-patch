@@ -84,7 +84,7 @@ return {
     ["<P_Heart>(Radio)</>The breach is open! Run to me, now!"] = "<P_Heart>(Радио)</>Нарушение открыто! Беги ко мне, немедленно!",
     ["Poverty makes many things extremely valuable..."] = "Бедность делает многие вещи чрезвычайно ценными...",
     ["A bit crazy"] = "Немного сумасшедший",
-    ["Holding Herbs"] = "Холдинг трав",
+    ["Holding Herbs"] = "Трав в наличии",
     ["Powerful Skill 1"] = "Мощный навык 1",
     ["Benson is back?!"] = "Бенсон вернулся?!",
     ["I feel a cold breeze blowing by; I'd better stay away from here..."] = "Я чувствую дуновение холодного ветерка; Мне лучше держаться отсюда подальше...",

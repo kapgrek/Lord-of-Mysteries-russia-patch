@@ -75,7 +75,7 @@ return {
     ["Switch Form"] = "Переключить форму",
     ["Maximum Health reduced."] = "Максимальное здоровье уменьшено.",
     ["Every <Highlight>20 progress </>, receive 1 growth resource chest. Opening it grants a random piece of <Highlight>Level 68</> or <Highlight>Level 69</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week."] = "За каждый прогресс <Highlight>20 на </> вы получаете 1 сундук с ресурсами роста. Открыв его, вы получаете случайную часть <Highlight>LLevel 68</> или <Highlight>LLevel 69</> <Highlight>Оранжевого или золотого качества </>, ориентированного на соревнования, материалов Потусторонний, факторов полимеризации и связанных подошв. Существует определенный шанс получить 1 фрагмент кристалла серого тумана (используется для улучшения соревновательных брошей уровня 64 или выше до мифического качества). В неделю можно получить максимум 3, а неполученные суммы можно перенести на следующую неделю.",
-    ["Holding: %d"] = "Холдинг: %d",
+    ["Holding: %d"] = "В наличии: %d",
     ["Huff, huff... wuwu..."] = "Хаф, хаф... ууу...",
     ["Damage: Circular area within 2.5m of self"] = "Урон: Круглая область в пределах 2,5 м от себя.",
     ["Magic Damage Boost"] = "Увеличение магического урона",

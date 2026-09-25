@@ -57,7 +57,7 @@ return {
     ["<P_Heart> (Squirrel language) </> It said... whatever it wanted... even if it was just a passing resident... it would take them all in..."] = "<P_Heart> (Беличий язык) </> Оно говорило... всё, что хотело... даже если это был просто проходящий житель... оно заберет их всех...",
     ["Hahaha! Don't say, this is really something he would do."] = "Ха-ха-ха! Не говорите, что он действительно сделал бы это.",
     ["Fire-breathing Dragon"] = "Огнедышащий Дракон",
-    ["Paid Rebate"] = "Платная скидка",
+    ["Paid Rebate"] = "Кешбэк за оплату",
     ["Description Text 1"] = "Текст описания 1",
     ["Spectator reaches Sequence 9"] = "Зритель достигает Последовательности 9",
     ["You do not own this appearance and cannot save the edit results."] = "Вы не являетесь владельцем этого внешнего вида и не можете сохранить результаты редактирования.",

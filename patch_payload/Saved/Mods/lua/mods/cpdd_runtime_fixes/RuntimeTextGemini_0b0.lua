@@ -34,7 +34,7 @@ return {
     ["<Highlight>工艺：</>秘银缝制・永生花\n花香会抚慰所有不甘于沉眠的灵魂。"] = "<Highlight> Мастерство: </> Шитье мифрила · Вечные цветы \n Аромат цветов успокоит все души, не желающие спать.",
     ["B地窖"] = "Подвал Б",
     ["trigger6号"] = "Спусковой крючок №6",
-    ["{{player.name}}的<Chat_Highlight>{{eventMessageParams.drawCount}}</>盏明灯照穿历史迷雾，<Chat_Highlight>{{eventMessageParams.goldCount}}</>道传说人脉接连显现。"] = "<Chat_Highlight>{{EventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой.",
+    ["{{player.name}}的<Chat_Highlight>{{eventMessageParams.drawCount}}</>盏明灯照穿历史迷雾，<Chat_Highlight>{{eventMessageParams.goldCount}}</>道传说人脉接连显现。"] = "<Chat_Highlight>{{eventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой.",
     ["“愚者”先生从历史中定位到了无数神话生物，利用“嫁接”将力量转移到源堡，得到了神话织茧。"] = "Мистер «Шут» обнаружил бесчисленное количество мифических существ из истории, использовал «прививку», чтобы передать силу Замку Источника, и получил мифический кокон.",
     ["【实证】仪式魔法造成的伤害增加30%。"] = "[Эмпирические данные] Урон, наносимый ритуальной магией, увеличивается на 30%.",
     ["一场派对"] = "Вечеринка",

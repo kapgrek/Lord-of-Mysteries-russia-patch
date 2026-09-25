@@ -150,7 +150,7 @@ return {
     ["Secret Pact"] = "Секретный пакт",
     ["All of Tingen... is like a giant vampire... nest, it's... all, all vampires!"] = "Весь Тинген... похож на гигантское вампирское... гнездо, это... все, все вампиры!",
     ["Put all materials in place"] = "Разложите все материалы по местам",
-    ["Holding %s"] = "Холдинг %s",
+    ["Holding %s"] = "В наличии: %s",
     ["Here Lies Rest"] = "Здесь лежит отдых",
     ["Old Neil: We aren't going to try to keep money that doesn't belong to us, let's wait here for a bit."] = "Старина Нил: Мы не собираемся пытаться оставить себе деньги, которые нам не принадлежат, давай подождем немного здесь.",
     ["Achievement: Hard - Alienated Hound"] = "Достижение: Hard - Чужая гончая",

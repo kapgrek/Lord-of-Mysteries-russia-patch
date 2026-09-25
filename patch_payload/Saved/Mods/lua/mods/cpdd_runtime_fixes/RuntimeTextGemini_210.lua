@@ -212,7 +212,7 @@ return {
     ["Investigate Tombstone"] = "Исследовать Надгробие",
     ["Damn Nighthawks... why do you always have to ruin the noble and great ritual?! You—are unforgivable!"] = "Проклятые Ночные Ястребы... почему вам всегда приходится портить благородный и великий ритуал?! Вы — непростительны!",
     ["Knight Quest"] = "Рыцарский квест",
-    ["AnimLibData V2 animation library failed to retrieve data. Animation ID: %s, Animation name: %s"] = "Библиотеке анимации AnimLibData V2 не удалось получить данные. 8e6adaf1f9ae06bcb9663531e5521abbИдентификатор анимации: %s, название анимации: %s",
+    ["AnimLibData V2 animation library failed to retrieve data. Animation ID: %s, Animation name: %s"] = "Библиотеке анимации AnimLibData V2 не удалось получить данные. Идентификатор анимации: %s, название анимации: %s",
     ["Jinzhou"] = "Цзиньчжоу",
     ["Words of the Harbinger"] = "Слова Предвестника",
     ["If it's the latter, the books on the shelf should meet your needs at this stage. I recommend you start reading from left to right."] = "В последнем случае книги на полке должны соответствовать вашим потребностям на этом этапе. Рекомендую начать читать слева направо.",

@@ -3753,7 +3753,7 @@
     "id": "040625",
     "source_cn": "[FashionSystem]: GetInterfaceAppearanceResById, 获取界面外观资源失败 不存在指定fashionId = %s",
     "ref_en": "[FashionSystem]: GetInterfaceAppearanceResById, failed to retrieve interface appearance resource. Specified fashionId = %s does not exist",
-    "target_ru": "[FashionSystem]: GetInterfaceAppearanceResById, не удалось получить ресурс внешнего вида интерфейса. 8e6adaf1f9ae06bcb9663531e5521abbУказанный fashionId = %s не существует."
+    "target_ru": "[FashionSystem]: GetInterfaceAppearanceResById, не удалось получить ресурс внешнего вида интерфейса. Указанный fashionId = %s не существует."
   },
   {
     "id": "040626",

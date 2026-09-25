@@ -14607,7 +14607,7 @@
     "id": "077434",
     "source_cn": "AnimLibData V2动画库获取数据失败 动画ID:%s 动画名:%s",
     "ref_en": "AnimLibData V2 animation library failed to retrieve data. Animation ID: %s, Animation name: %s",
-    "target_ru": "Библиотеке анимации AnimLibData V2 не удалось получить данные. 8e6adaf1f9ae06bcb9663531e5521abbИдентификатор анимации: %s, название анимации: %s"
+    "target_ru": "Библиотеке анимации AnimLibData V2 не удалось получить данные. Идентификатор анимации: %s, название анимации: %s"
   },
   {
     "id": "077435",

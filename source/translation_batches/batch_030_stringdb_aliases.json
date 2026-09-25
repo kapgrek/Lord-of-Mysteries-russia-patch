@@ -207,13 +207,13 @@
     "id": "131703",
     "source_cn": "在黑夜女神的见证下，一场神圣的赠予仪式将在教会广场举行。{{player.name}}赠予{{targetPlayer.name}}一份珍贵的礼物，欢迎共同见证。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[前往见证]</>",
     "ref_en": "Under the witness of the Evernight Goddess, a sacred gifting ceremony will be held at the church square. {{player.name}} is gifting {{targetPlayer.name}} a precious present; you are welcome to witness it together. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>",
-    "target_ru": "Под свидетелем Богини Вечной Ночи на Церковной площади пройдет священная церемония вручения даров. {{player.name}} преподносит {{targetPlayer.name}} ценный подарок; каждый может стать свидетелем этого. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>"
+    "target_ru": "Перед лицом Богини Вечной Ночи на Церковной площади пройдёт священная церемония дарения. {{player.name}} преподносит {{targetPlayer.name}} ценный подарок — приглашаем всех стать свидетелями. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Стать свидетелем]</>"
   },
   {
     "id": "131704",
     "source_cn": "在黑夜女神的见证下，{{player.name}}赠予{{targetPlayer.name}}一份珍贵的礼物。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[前往见证]</>",
     "ref_en": "Under the witness of the Evernight Goddess, {{player.name}} is gifting {{targetPlayer.name}} a precious present. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>",
-    "target_ru": "По свидетельству Богини Вечной Ночи {{player.name}} преподносит {{targetPlayer.name}} драгоценный подарок. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>"
+    "target_ru": "Перед лицом Богини Вечной Ночи {{player.name}} преподносит {{targetPlayer.name}} драгоценный подарок. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Стать свидетелем]</>"
   },
   {
     "id": "131705",

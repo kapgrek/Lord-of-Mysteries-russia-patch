@@ -25,6 +25,37 @@ $cyrillicRegex = [System.Text.RegularExpressions.Regex]::new('[\p{IsCyrillic}]',
 $macroRegex = [System.Text.RegularExpressions.Regex]::new('(?:spellfielddisc|buffdisc|skilldisc|auradisc|passivedisc|trapdisc|bulletdisc|spellagent|spellfieldname|buffname|skillname|auraname|passivename|trapname)\s*\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $macroCapRegex = [System.Text.RegularExpressions.Regex]::new('(?:Spellfielddisc|Buffdisc|Skilldisc|Auradisc|Passivedisc|Trapdisc|Bulletdisc|Spellagent|Spellfieldname|Buffname|Skillname|Auraname|Passivename|Trapname)\s*\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $starRegex = [System.Text.RegularExpressions.Regex]::new('\{CheckStar\(', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$formulaRegex = [System.Text.RegularExpressions.Regex]::new('\{\*[a-z]+,[^}]*\}', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+# {{player.name}}: identifier, must stay verbatim; {{he|she}} (gender variants) is translated, only the count is checked
+$templateRegex = [System.Text.RegularExpressions.Regex]::new('\{\{[A-Za-z_][A-Za-z0-9_.]*\}\}', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$variantRegex = [System.Text.RegularExpressions.Regex]::new('\{\{[^}|]*\|[^}]*\}\}', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$positionalRegex = [System.Text.RegularExpressions.Regex]::new('\{\d+\}', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$numberRegex = [System.Text.RegularExpressions.Regex]::new('\d+(?:\.\d+)?', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$dateRegex = [System.Text.RegularExpressions.Regex]::new('(?<![\d.])(\d{1,2})\.(\d{1,2})\.(\d{2,4})(?![\d.])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$digitRegex =[System.Text.RegularExpressions.Regex]::new('\d', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$groupSpaceRegex = [System.Text.RegularExpressions.Regex]::new('(\d)[ ' + [char]0x00A0 + [char]0x202F + '](\d{3})(?!\d)', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$groupCommaRegex = [System.Text.RegularExpressions.Regex]::new('(\d),(\d{3})(?!\d)', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$decimalCommaRegex = [System.Text.RegularExpressions.Regex]::new('(\d),(\d)', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$invariant = [System.Globalization.CultureInfo]::InvariantCulture
+# Sorted distinct matches, joined: set comparison of markup tokens
+function Get-TokenSet([System.Text.RegularExpressions.Regex]$regex, [string]$text) {
+    if ($text.IndexOf('{') -lt 0) { return '' }
+    $set = New-Object 'System.Collections.Generic.SortedSet[string]' ([StringComparer]::Ordinal)
+    foreach ($m in $regex.Matches($text)) { [void]$set.Add($m.Value) }
+    return [string]::Join(' ', $set)
+}
+# Sorted numbers as values ("05" = "5", "1,5" = "1.5" in ru, "10,000" = "10000" in ref), joined: multiset comparison
+function Get-NumberBag([string]$text, [bool]$isRu) {
+    $text = $dateRegex.Replace($text, '$1 $2 $3')
+    $text = $groupSpaceRegex.Replace($text, '$1$2')
+    $text = if ($isRu) { $decimalCommaRegex.Replace($text, '$1.$2') } else { $groupCommaRegex.Replace($text, '$1$2') }
+    $list = New-Object 'System.Collections.Generic.List[double]'
+    foreach ($m in $numberRegex.Matches($text)) { $list.Add([double]::Parse($m.Value, $invariant)) }
+    $list.Sort()
+    $parts = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($v in $list) { $parts.Add($v.ToString('R', $invariant)) }
+    return [string]::Join(' ', $parts)
+}
 $starBrokenRegex = [System.Text.RegularExpressions.Regex]::new('\{?\s*C(?:heckSta\s+r|heckS\s+tar|h\s+eckStar|heckStar\s*\(Type=\\"seal\)|heckStar\s*\(Type=\\"sealed\\"[^}]*?\s+[=,])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 
 # Regex to extract batch items
@@ -182,6 +213,39 @@ foreach ($file in $files) {
         if ($starBrokenRegex.IsMatch($ru)) {
             Write-Host "  [ERR $fileName ID:$id] Broken CheckStar syntax found in Russian translation!" -ForegroundColor Red
             $fileErrors++
+        }
+
+        # 8. Formula macros {*d,...}, templates {{player.name}}, positional {0} must survive verbatim (TASK-012 A6)
+        if ($refText.IndexOf('{') -ge 0 -or $ru.IndexOf('{') -ge 0) {
+            foreach ($tokenRegex in @($formulaRegex, $templateRegex, $positionalRegex)) {
+                $refSet = Get-TokenSet $tokenRegex $refText
+                $ruSet = Get-TokenSet $tokenRegex $ru
+                # CPDD's English overlay may rename a template ({{<cn name>}} -> {{Name}}): ref_en's set is accepted too
+                if ($refSet -cne $ruSet -and (Get-TokenSet $tokenRegex $en) -cne $ruSet) {
+                    Write-Host "  [ERR $fileName ID:$id] Markup tokens differ: ref '$refSet', ru '$ruSet'" -ForegroundColor Red
+                    $fileErrors++
+                }
+            }
+            if ($variantRegex.Matches($refText).Count -ne $variantRegex.Matches($ru).Count) {
+                Write-Host "  [WARN $fileName ID:$id] {{variant|variant}} count differs" -ForegroundColor Yellow
+                $fileWarnings++
+            }
+        }
+
+        # 9. Numbers: the same multiset as in ref_en (or source_cn); catches tails corrupted to "b" (TASK-012 A1)
+        $numRef = if (-not [string]::IsNullOrEmpty($en)) { $en } else { $cn }
+        if ($digitRegex.IsMatch($numRef) -or $digitRegex.IsMatch($ru)) {
+            $refBag = Get-NumberBag $numRef $false
+            $ruBag = Get-NumberBag $ru $true
+            # "Coordinates 3,5" keeps the comma as a separator: accept the ru text read without decimal commas too
+            if ($refBag -ne $ruBag -and $refBag -ne (Get-NumberBag $ru $false)) {
+                Write-Host "  [WARN $fileName ID:$id] Numbers differ: ref [$refBag], ru [$ruBag]" -ForegroundColor Yellow
+                $fileWarnings++
+            }
+        }
+        if ($ru.EndsWith('b') -and -not $numRef.TrimEnd().EndsWith('b')) {
+            Write-Host "  [WARN $fileName ID:$id] target_ru ends with 'b' (corrupted tail?): $ru" -ForegroundColor Yellow
+            $fileWarnings++
         }
     }
 

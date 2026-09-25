@@ -8007,7 +8007,7 @@
     "id": "086334",
     "source_cn": "持有：%d",
     "ref_en": "Holding: %d",
-    "target_ru": "Холдинг: %d"
+    "target_ru": "В наличии: %d"
   },
   {
     "id": "086335",

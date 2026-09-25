@@ -184,7 +184,7 @@ return {
     ["< War Bishop >"] = "<Епископ Войны>",
     ["Remove from team"] = "Удалить из команды",
     ["Why? Good things should be celebrated!"] = "Почему? Хорошие вещи надо отмечать!",
-    ["Plays the corresponding 3DUI based on buffLayer. If filled, it overrides ConfigID."] = "Воспроизводит соответствующий 3DUI на основе buffLayer. 8e6adaf1f9ae06bcb9663531e5521abbЕсли он заполнен, он переопределяет ConfigID.",
+    ["Plays the corresponding 3DUI based on buffLayer. If filled, it overrides ConfigID."] = "Воспроизводит соответствующий 3DUI на основе buffLayer. Если он заполнен, он переопределяет ConfigID.",
     ["General interactive object"] = "Общий интерактивный объект",
     ["Custom Style"] = "Пользовательский стиль",
     ["Middle Click"] = "Средний щелчок",

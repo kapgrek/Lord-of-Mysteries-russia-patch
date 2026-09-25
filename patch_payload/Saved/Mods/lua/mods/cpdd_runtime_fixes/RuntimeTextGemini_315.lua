@@ -43,7 +43,7 @@ return {
     ["Backlund"] = "Бэкланд",
     ["Continue to face the 'Moon Corruption'"] = "Продолжайте противостоять «Лунной порче»",
     ["A Fighting Scholar doesn’t care who the teacher is. What a mouse teaches is also a real skill."] = "Ученому бою все равно, кто его учитель. То, чему учит мышь, тоже является настоящим навыком.",
-    ["23x Rebate"] = "23x скидка",
+    ["23x Rebate"] = "Кешбэк ×23",
     ["%d% off"] = "Скидка %d%",
     ["[Roadblock] Three-way intersection-left road exit"] = "[Контроль] Трехсторонний перекрёсток – выезд с дороги налево",
     ["Orientation"] = "Ориентация",

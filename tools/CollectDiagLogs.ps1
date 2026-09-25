@@ -238,27 +238,51 @@ if (Test-Path $initPath) {
     }
 }
 
-$batchCn = @{}; $batchEn = @{}
-foreach ($file in Get-ChildItem -Path (Join-Path $repo 'source\translation_batches') -Filter 'batch_*.json' -ErrorAction SilentlyContinue) {
+# Ключи шардов сравниваются побайтно (как в рантайме): Dictionary с Ordinal, а не @{} (он регистронезависим:
+# «WEEK» совпадал с «Week»). Обрезанный по краям ключ тоже есть в шардах (ShardCompiler, TASK-012 A3).
+$batchExact = New-Object 'System.Collections.Generic.Dictionary[string,object]' ([StringComparer]::Ordinal)
+$batchLoose = New-Object 'System.Collections.Generic.Dictionary[string,object]' ([StringComparer]::Ordinal)
+function Get-LooseKey([string]$text) {
+    return ([regex]::Replace($text, '\s+', ' ')).Trim().ToLowerInvariant()
+}
+foreach ($file in Get-ChildItem -Path (Join-Path $repo 'source\translation_batches') -Filter 'batch_*.json' -ErrorAction SilentlyContinue | Sort-Object Name) {
     foreach ($item in @($json.DeserializeObject([IO.File]::ReadAllText($file.FullName, $utf8)))) {
         $cn = [string](Get-V $item 'source_cn'); $en = [string](Get-V $item 'ref_en'); $ru = [string](Get-V $item 'target_ru')
         $info = @{ ru = $ru; batch = $file.BaseName; id = [string](Get-V $item 'id') }
-        if ($cn -and -not $batchCn.ContainsKey($cn.Trim())) { $batchCn[$cn.Trim()] = $info }
-        if ($en -and -not $batchEn.ContainsKey($en.Trim())) { $batchEn[$en.Trim()] = $info }
+        foreach ($key in @($cn, $en)) {
+            if (-not $key) { continue }
+            foreach ($k in @($key, $key.Trim())) {
+                if ($k -and (-not $batchExact.ContainsKey($k) -or ($ru -and -not $batchExact[$k].ru))) { $batchExact[$k] = $info }
+            }
+            $loose = Get-LooseKey $key
+            if ($loose -and (-not $batchLoose.ContainsKey($loose) -or ($ru -and -not $batchLoose[$loose].ru))) { $batchLoose[$loose] = $info }
+        }
     }
 }
 function Get-BatchStatus([string[]]$texts) {
     foreach ($text in $texts) {
         if ([string]::IsNullOrWhiteSpace($text)) { continue }
-        $key = $text.Trim()
         $info = $null
-        if ($batchCn.ContainsKey($key)) { $info = $batchCn[$key] } elseif ($batchEn.ContainsKey($key)) { $info = $batchEn[$key] }
+        if ($batchExact.ContainsKey($text)) { $info = $batchExact[$text] } elseif ($batchExact.ContainsKey($text.Trim())) { $info = $batchExact[$text.Trim()] }
         if ($info) {
             if ($info.ru) { return @{ status = 'перевод есть, не применился'; batch = $info.batch; ru = $info.ru } }
             return @{ status = 'не переведено в батче'; batch = $info.batch; ru = '' }
         }
     }
+    foreach ($text in $texts) {
+        if ([string]::IsNullOrWhiteSpace($text)) { continue }
+        $loose = Get-LooseKey $text
+        if ($batchLoose.ContainsKey($loose) -and $batchLoose[$loose].ru) {
+            return @{ status = 'ключ отличается регистром/пробелами'; batch = $batchLoose[$loose].batch; ru = $batchLoose[$loose].ru }
+        }
+    }
     return @{ status = 'нет в батчах'; batch = ''; ru = '' }
+}
+# Не настоящие промахи: идентификаторы в данных (WEEK, DAY, SUNDAY…) и тексты скрытых виджетов (заглушки макета)
+function Get-UntranslatedGroup([string]$src, [string]$field, [string]$text, $visible) {
+    if ($src -eq 'data' -and $field -match '^(Key|StringValue)$|Limit' -and $text -cmatch '^[A-Z][A-Z0-9_]*$') { return 'identifier' }
+    if ($src -eq 'widget' -and $visible -eq $false) { return 'hidden' }
+    return ''
 }
 
 # 4. REPORT.md -------------------------------------------------------------------------------------
@@ -718,6 +742,9 @@ foreach ($row in $dbRows) {
         count = 1; batch = $batch.batch; target_ru = $batch.ru; path = ''; cn = Get-V $row 'cn'
     }
 }
+foreach ($r in $untrAgg.Values) {
+    $r | Add-Member -NotePropertyName group -NotePropertyValue (Get-UntranslatedGroup ([string]$r.src) ([string]$r.field) ([string]$r.text) $r.visible)
+}
 $untrRows = @($untrAgg.Values | Sort-Object status, { -$_.count })
 $csvRows = @($untrRows) + @($dbAgg.Values | ForEach-Object {
     [pscustomobject]@{ src = $_.src; status = $_.status; text = $_.text; norm = $_.cn; panel = ''; widget = ''; scope = ''
@@ -727,10 +754,12 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('# Непереведённое')
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine("Сессии: $($selected -join ', '). Виджеты и данные: $($untrRows.Count) уникальных (после офлайн-фильтра чисел, плейсхолдеров и аббревиатур). StringDB: $($dbAgg.Count) строк.")
-[void]$sb.AppendLine('Сверка с `source/translation_batches`: «перевод есть, не применился» — строка есть в батче с `target_ru`; «не переведено в батче» — есть без перевода; «нет в батчах».')
+[void]$sb.AppendLine('Сверка с `source/translation_batches` побайтно, как в рантайме: «перевод есть, не применился» — ключ есть в батче с `target_ru` (значит, текст не прошёл через перевод); «ключ отличается регистром/пробелами» — в батче тот же текст в другом регистре или с другими пробелами, нужен алиас (`tools/StringDbGaps.ps1 -Aliases`); «не переведено в батче» — есть без перевода; «нет в батчах».')
+[void]$sb.AppendLine('Идентификаторы данных (`Key`, `*Limit*`, `StringValue` в ВЕРХНЕМ_РЕГИСТРЕ) и тексты скрытых виджетов (`vis=False`) вынесены в конец: это не промахи перевода.')
 [void]$sb.AppendLine('')
-foreach ($status in @('перевод есть, не применился', 'не переведено в батче', 'нет в батчах')) {
-    $group = @($untrRows | Where-Object { $_.status -eq $status })
+$realRows = @($untrRows | Where-Object { -not $_.group })
+foreach ($status in @('перевод есть, не применился', 'ключ отличается регистром/пробелами', 'не переведено в батче', 'нет в батчах')) {
+    $group = @($realRows | Where-Object { $_.status -eq $status })
     [void]$sb.AppendLine("## $status ($($group.Count))")
     [void]$sb.AppendLine('')
     if ($group.Count -eq 0) { continue }
@@ -745,16 +774,34 @@ foreach ($status in @('перевод есть, не применился', 'н�
     if ($group.Count -gt 500) { [void]$sb.AppendLine("| … | ещё $($group.Count - 500) в untranslated.csv | | | | | |") }
     [void]$sb.AppendLine('')
 }
+foreach ($pair in @(@('identifier', 'Идентификаторы в данных (не переводятся)'), @('hidden', 'Скрытые виджеты (vis=False, заглушки макета)'))) {
+    $group = @($untrRows | Where-Object { $_.group -eq $pair[0] })
+    [void]$sb.AppendLine("## $($pair[1]) ($($group.Count))")
+    [void]$sb.AppendLine('')
+    if ($group.Count -eq 0) { continue }
+    [void]$sb.AppendLine('| src | text | panel / module | widget / field | count | статус сверки |')
+    [void]$sb.AppendLine('|---|---|---|---|---|---|')
+    foreach ($r in ($group | Select-Object -First 200)) {
+        $where = $(if ($r.src -eq 'data') { $r.module } else { $r.panel })
+        $what = $(if ($r.src -eq 'data') { $r.field } else { $r.widget })
+        [void]$sb.AppendLine("| $($r.src) | $(Cell $r.text) | $(Cell $where) | $(Cell $what) | $($r.count) | $($r.status) |")
+    }
+    if ($group.Count -gt 200) { [void]$sb.AppendLine("| … | ещё $($group.Count - 200) в untranslated.csv | | | | |") }
+    [void]$sb.AppendLine('')
+}
 [void]$sb.AppendLine("## StringDB без русского перевода ($($dbAgg.Count))")
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('`Loader.TranslateDatabaseString` вернул nil: в игре остаётся английский текст CPDD.')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| module | строк | из них «перевод есть, не применился» | примеры |')
-[void]$sb.AppendLine('|---|---|---|---|')
+[void]$sb.AppendLine('Сессия записана до текущих батчей, поэтому «перевод есть» здесь значит «перевод добавлен после сессии» (или ключ шарда не совпал побайтно). Категории и выгрузка в батч: `tools/StringDbGaps.ps1 -Report`.')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| module | строк | из них «перевод есть, не применился» | «ключ отличается регистром/пробелами» | примеры |')
+[void]$sb.AppendLine('|---|---|---|---|---|')
 foreach ($group in ($dbAgg.Values | Group-Object module | Sort-Object Count -Descending)) {
     $applied = @($group.Group | Where-Object { $_.status -eq 'перевод есть, не применился' }).Count
+    $loose = @($group.Group | Where-Object { $_.status -eq 'ключ отличается регистром/пробелами' }).Count
     $examples = @($group.Group | Select-Object -First 3 | ForEach-Object { Cell $_.text }) -join ' / '
-    [void]$sb.AppendLine("| $(Cell $group.Name) | $($group.Count) | $applied | $examples |")
+    [void]$sb.AppendLine("| $(Cell $group.Name) | $($group.Count) | $applied | $loose | $examples |")
 }
 Write-Text (Join-Path $reportDir 'untranslated.md') $sb.ToString()
 

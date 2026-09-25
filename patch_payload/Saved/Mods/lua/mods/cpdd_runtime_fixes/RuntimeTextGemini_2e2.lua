@@ -33,7 +33,7 @@ return {
     ["Butler Nan"] = "Батлер Нэн",
     ["Stop playing for now"] = "Прекрати играть сейчас",
     ["<P_Heart>(The voice is like a mosquito humming)</> Because I have to attend class..."] = "<P_Heart>(Голос похож на жужжание комара)</> Потому что мне нужно идти на занятия...",
-    ["Cumulative number of alcohol items sold reaches 4,000"] = "Совокупное количество проданных алкогольных напитков достигло 1ab4",
+    ["Cumulative number of alcohol items sold reaches 4,000"] = "Совокупное количество проданных алкогольных напитков достигло 4000",
     ["A gift, or a curse."] = "Дар или проклятие.",
     ["Click here to open the Family interface."] = "Нажмите здесь, чтобы открыть интерфейс «Семья».",
     ["Verification attempts reached the daily limit."] = "Попытки верификации достигли дневного лимита.",

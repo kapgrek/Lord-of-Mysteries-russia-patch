@@ -53,7 +53,7 @@ return {
     ["<M_Default>亲爱的非凡者：</>\n<M_Default>限时外观</><M_Orange>%s</>有效期已结束，已对其进行回收，请您留意。"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Срок действия временного облика </><M_Orange>%s</> истёк, предмет был изъят. Пожалуйста, примите к сведению.",
     ["<P_Heart> （使用卜杖寻路找到约会的地点吧！）</>"] = "<P_Heart> (Используйте лозоходную навигацию, чтобы найти место встречи!) </>",
     ["Hello, {{先生|女士}}, it's a pleasure to see you. What would you like to eat?"] = "Привет, {{Sir|Madam}}, приятно тебя видеть. Что бы вы хотели съесть?",
-    ["[FashionSystem]: GetInterfaceAppearanceResById, 获取界面外观资源失败 不存在指定fashionId = %s"] = "[FashionSystem]: GetInterfaceAppearanceResById, не удалось получить ресурс внешнего вида интерфейса. 8e6adaf1f9ae06bcb9663531e5521abbУказанный fashionId = %s не существует.",
+    ["[FashionSystem]: GetInterfaceAppearanceResById, 获取界面外观资源失败 不存在指定fashionId = %s"] = "[FashionSystem]: GetInterfaceAppearanceResById, не удалось получить ресурс внешнего вида интерфейса. Указанный fashionId = %s не существует.",
     ["{{先生|女士}}，我们分头行动吧！"] = "{{Mr.|Ms.}}, давай расходимся!",
     ["【五月庄园副本】管家-囚笼"] = "【Подземелье Мэйского поместья】Дворецкий - Клетка",
     ["一本……会说话的剧本？"] = "Говорящий сценарий?",

@@ -196,7 +196,7 @@ return {
     ["Dakota "] = "Дакота",
     ["Could this friend you're talking about be..."] = "Может ли этот друг, о котором ты говоришь, быть...",
     ["Old Neil 4"] = "Старина Нил 4",
-    ["SkillID: %s, the end state will only execute for one frame; tasks that do not start on the first frame will not be executed"] = "SkillID: %s, конечное состояние будет выполняться только в течение одного кадра; 8e6adaf1f9ae06bcb9663531e5521abbзадачи, которые не начинаются с первого кадра, не будут выполняться",
+    ["SkillID: %s, the end state will only execute for one frame; tasks that do not start on the first frame will not be executed"] = "SkillID: %s, конечное состояние будет выполняться только в течение одного кадра; задачи, которые не начинаются с первого кадра, не будут выполняться",
     ["No problem, have fun!"] = "Нет проблем, получайте удовольствие!",
     ["And increase career resources at regular intervals."] = "И регулярно увеличивайте карьерные ресурсы.",
     ["Subjugation Rewards"] = "Награды за подчинение",

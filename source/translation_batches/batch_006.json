@@ -12399,7 +12399,7 @@
     "id": "027066",
     "source_cn": "最小魔法攻击：{*d,F1690009,mAtkMin}\\n最大魔法攻击：{*d,F1690011,mAtkMax}\\n提高魔法伤害的攻击基础值{*d,F1690009,pAtkMin}-{*d,F1690011,pAtkMax}点和魔法途径的治疗基础值{*d,F1690034,pAtkMin}-{*d,F1690036,pAtkMax}点，实际效果受技能倍率影响，与技能等级无关。\\n魔法途径包括：学徒、观众、窥秘人。",
     "ref_en": "Minimum Magic Attack: {*d,F1690009,mAtkMin}\\n Maximum Magic Attack: {*d,F1690011,mAtkMax}\\n Increases the base Attack value of magic damage by {*d,F1690009,pAtkMin}-{*d,F1690011,pAtkMax} points and the base Healing value of magic Pathways by {*d,F1690034,pAtkMin}-{*d,F1690036,pAtkMax} points. The actual effect is influenced by the Skill multiplier and is independent of the Skill level. \\nMagic Pathways include: Apprentice, Spectator, Mystery Pryer.",
-    "target_ru": "Минимальная магическая атака: {*d,F1690009,mAtkMin}\\nМаксимальная магическая атака: {*d,F1690011,mAtkMax}\\nУвеличение значения базовой атаки магического урона{*d,F1690009,pAtkMin }-{*d,F1690011,pAtkMax} очков и базового значения исцеления магического канала {*d,F1690034,pAtkMin}-{*d,F1690036,pAtkMax} точек. Фактический эффект зависит от множителя навыка и не имеет ничего общего с уровнем навыка. \\n Магические пути включают в себя: ученик, аудитория и вуайерист."
+    "target_ru": "Минимальная магическая атака: {*d,F1690009,mAtkMin}\\nМаксимальная магическая атака: {*d,F1690011,mAtkMax}\\nУвеличение значения базовой атаки магического урона{*d,F1690009,pAtkMin}-{*d,F1690011,pAtkMax} очков и базового значения исцеления магического канала {*d,F1690034,pAtkMin}-{*d,F1690036,pAtkMax} точек. Фактический эффект зависит от множителя навыка и не имеет ничего общего с уровнем навыка. \\n Магические пути включают в себя: ученик, аудитория и вуайерист."
   },
   {
     "id": "027067",
@@ -13575,7 +13575,7 @@
     "id": "027262",
     "source_cn": "出售酒类物品数量累计4000个",
     "ref_en": "Cumulative number of alcohol items sold reaches 4,000",
-    "target_ru": "Совокупное количество проданных алкогольных напитков достигло 1ab4"
+    "target_ru": "Совокупное количество проданных алкогольных напитков достигло 4000"
   },
   {
     "id": "027263",
@@ -24219,7 +24219,7 @@
     "id": "029036",
     "source_cn": "持有%s",
     "ref_en": "Holding %s",
-    "target_ru": "Холдинг %s"
+    "target_ru": "В наличии: %s"
   },
   {
     "id": "029037",

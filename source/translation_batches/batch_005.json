@@ -14763,7 +14763,7 @@
     "id": "022460",
     "source_cn": "{{player.name}}的<Chat_Highlight>{{eventMessageParams.drawCount}}</>盏明灯照穿历史迷雾，<Chat_Highlight>{{eventMessageParams.goldCount}}</>道传说人脉接连显现。",
     "ref_en": "The <Chat_Highlight>{{eventMessageParams.drawCount}}</> bright lamps of {{player.name}} pierce through the mists of history, revealing <Chat_Highlight>{{eventMessageParams.goldCount}}</> legendary connections one after another.",
-    "target_ru": "<Chat_Highlight>{{EventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой."
+    "target_ru": "<Chat_Highlight>{{eventMessageParams.drawCount}}</> пользователя {{player.name}} — это маяк света, который сияет сквозь туман истории, и легендарные связи <Chat_Highlight>{{eventMessageParams.goldCount}}</> появляются одна за другой."
   },
   {
     "id": "022461",

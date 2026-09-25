@@ -223,7 +223,7 @@ return {
     ["One of the iconic ritual vessels of the Church of the Eternal Blazing Sun, using a special process to seal a small amount of the sacred spirituality of the Sun Pathway into a gold-plated badge. Even in the darkness, the ray of light coming from the medal remains real: those around the wearer will feel a silent warmth and sense of order, making mental turmoil tend to stabilize and allowing the mind to settle again from the chaos."] = "Один из знаковых ритуальных сосудов Церкви Вечного Сияющего Солнца, в котором с помощью специального процесса запечатано небольшое количество священной духовности Пути Солнца в позолоченный значок. Даже в темноте луч света, исходящий от медали, остается реальным: окружающие ощущают тихое тепло и чувство порядка, благодаря чему психическое смятение имеет тенденцию стабилизироваться и позволяет разуму снова успокоиться после хаоса.",
     ["Chaya "] = "Хая",
     ["Romina "] = "Ромина",
-    ["12x Rebate"] = "12x скидка",
+    ["12x Rebate"] = "Кешбэк ×12",
     ["Perhaps I never left my hometown, but I can never go back..."] = "Возможно, я никогда не покидал свой родной город, но я никогда не смогу вернуться...",
     ["<P_Heart>(Perhaps I can post a quest to find Emperor Roselle's diary at the Tarot Club...)</>"] = "<P_Heart>(Возможно, я смогу опубликовать квест по поиску дневника императора Розеллы в Клубе Таро...)</>",
     ["Hello! Can I take a moment of your time? I want to tell you about our beacon and savior! The Fool fir... Mr. Fool Meow!"] = "Привет! Могу я занять минутку вашего времени? Я хочу рассказать вам о нашем маяке и спасителе! Шут... Мистер Мяу!",
