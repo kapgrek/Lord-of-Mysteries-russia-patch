@@ -1,0 +1,73 @@
+# TASK-007: шрифт — кириллица в Title там, куда не дотягивается `typeface` (этап 4a, продолжение)
+
+Дорожная карта: [ROADMAP.md](ROADMAP.md), этап 4a. Предыдущая задача: [TASK-006-font.md](TASK-006-font.md). Данные: `reference/logs/2026-09-25_0949/` (v2.9.2-RU, режим `typeface`, сессия 20260925-093923, ~8 мин), скриншоты пользователя 2026-09-25.
+
+## Симптом (проверка v2.9.2 в игре)
+Стало заметно лучше: переполнений 202 против 1608, «каши» из слипшихся букв нет. Остались:
+1. **Исследование** (`GameplayIntegration_Panel`): заголовки карточек «Одиночный/Дуэт», «Групповое подземелье», названия «Театр Утопии», «Блокнот Анти…», строки «Еженедельный прогресс 0/12000» набраны разреженным моноширинным шрифтом и налезают на соседние карточки.
+2. **Esc-меню** (`Menu_Panel`): последняя плитка «Соглашение о ко…» съехала вправо, подпись не помещается.
+3. **Диалог с NPC**: вариант «Тайное подношение» (с подсказкой клавиши F) — нормальный шрифт; «Собирайте дивиденды», «Улучшение здания», «Что-нибудь еще?» — разреженный.
+4. **Задания** (`TaskBoardPanel`): список слева нормальный; описание справа («По прошествии некоторого времени…», «Рейс дирижабля…») — разреженный.
+
+## Первопричина
+
+### 1. Режим `typeface` меняет шрифт только у виджетов, которые проходят через `translateTextWidget` с кириллицей
+- `Init.lua:3697-3717` (`translateTextWidget`): `applyCyrillicFont` вызывается, только если текст виджета **в момент нашего прохода** уже содержит кириллицу. Из `menu`-хука то же самое (`Init.lua:9559-9563`).
+- `fonts.json` сессии 0949: у виджетов, которые мы стилизовали, `post Title` с кириллицей — **7** из 464, `post Regular` — 1621. То есть там, куда мы дотянулись, Title → Regular работает.
+- Строк со скриншотов нет ни в одной записи диагностики (поиск по всем `absru-s3-*.jsonl`: «Утопии», «дивиденд», «Одиночный», «прошестви», «Соглашение», «Столица столиц» — 0 совпадений). Эти виджеты мы не видели ни в `translateTextWidget`, ни в переполнении (записи есть только у переполненных) — прямого доказательства «не проходили через нас» диагностика дать не может, см. шаг 2 плана.
+- Косвенные подтверждения:
+  - **Диалог:** варианты ответа приходят из данных (`Data.Excel.DialogueOptionText`, `Init.lua:4637`) — текст переводится на уровне таблицы, а виджет игра заполняет сама. Нормально выглядит только вариант с F — это кнопка взаимодействия `WBP_HUDInteract_SmallBtn_PC`, она есть в списке панелей `post Regular`.
+  - **Задания:** стилизованы `Text_ChapterName`, `Text_Name` (в `overflow.csv` с `Regular`); описание справа — другой виджет (по виду RichText с «»-выделением или текст из данных задания).
+  - **Исследование:** стилизованы `Text_Name` («Подземелье», «Мировое приключение» — `Regular` в `overflow.csv`); заголовки и названия карточек — другие виджеты.
+- **RichText** мы сознательно не трогаем (TASK-006, п. 5): его шрифт задаёт `TextStyleSet`, правка ломает материалы. Значит, в режиме `typeface` RichText с Title останется широким всегда.
+- **Вывод:** `typeface` в принципе не покрывает текст, который игра выставляет сама (данные, StringDB, RichText). Полное покрытие даёт только правка на уровне шрифта — `subfont`. Догонять каждый виджет отдельными хуками — путь, который TASK-006 и ROADMAP (этап 5) как раз уводят от.
+
+### 2. `subfont`, скорее всего, в нынешнем виде не сработает: `FInt32Range` не читается через slua
+Проба `composite` (сессия 0949, `fonts.json`) прочитала структуру `Font_Aleo`:
+- `DefaultTypeface`: `Regular` → `Aleo_Regular`, `Bold` → `Aleo_Bold`, `Title` → `Aleo_Title`, `Title_SDF`, `Regular_SDF`, `Title_SDF_HeadName` (у последнего нет пары `Regular_SDF_HeadName` — в режиме `typeface` он не переключается).
+- `FallbackTypeface` **пуст**.
+- `SubTypefaces` — 17 записей: `HanaMinB`, `NotoSerif_Regular` (6 диапазонов), `NotoSans_Regular` (3), `NotoSansCJKsc_Regular` (9), `NotoSansBamum`, … , `Symbola_hint`, `NotoEmoji`, `MissingCharacter`; `Cultures` у всех пустые.
+- Все `CharacterRanges` пришли как `userdata` без полей: `range.LowerBound.Value` вернул ошибку или `nil` (`raw = "userdata: 0x…"`). Значит, в `Init.lua` проверка записи `cyrillicSubIndex` (читает `LowerBound.Value`) всегда вернёт «не найдено», а `newRange` (пишет `LowerBound.Type/Value`), вероятно, упадёт. Итог: `subfont` откатится в `typeface`. Это надо подтвердить строкой лога (п. 3 ниже) и пробой методов `FInt32Range` (шаг 3 плана).
+- `FallbackTypeface` пуст, значит `Font_Aleo:Regular` в `resolveCyrillicSource` берёт `Aleo_Regular` — это правильно, если кириллица Regular идёт из самого face. Если же `Aleo_Regular` кириллицы не содержит, а её рисует `NotoSans_Regular`/`NotoSerif_Regular` из SubTypefaces, то наш SubTypeface с `Aleo_Regular` даст ту же картину через fallback-логику Slate. Какой sub реально покрывает U+0410, скажет проба `Contains` (шаг 3).
+- **Гипотеза о приоритете (проверить):** в UE5 `FCompositeFontCache::FCachedCompositeFontData` раскладывает диапазоны SubTypeface на `CachedPriorityRanges` (у SubTypeface есть `Cultures`, совпадающие с текущей культурой) и обычные `CachedRanges`. Если в этой сборке Slate сначала проверяет default-face, а обычные диапазоны использует только для отсутствующих глифов, то `Aleo_Title` со своей кириллицей (FZ Mincho) победит наш SubTypeface без `Cultures`. Тогда в запись нужно ставить `Cultures` = текущая культура игры (и её родители). Косвенный довод: если бы `NotoSerif`/`NotoSans` покрывали кириллицу по «обычным» диапазонам с приоритетом над default, Title рисовал бы её Noto (пропорционально), а он рисует Mincho 1,0 em.
+
+### 3. Строка `cyrillic font mode=…` не попала в C7.log
+- `C7.log` сессии 0949: `v2.9.2-RU active hooks_installed=26` есть, `cyrillic font` — **0**, `[AbsruDiag] session=` — тоже 0.
+- Причина: `Log.Info` начинает доходить до лога только после инициализации логгера игры (`Logger.lua:282 Current LogLevel is: Log`, 09:39:39), а `Init.lua` грузится раньше (09:39:23, кадр 0). Всё, что `report()` пишет на этапе загрузки модуля, теряется. Строка `active` видна, потому что пишется в `after_main`. `fonts.json → cyrillic_font` при этом заполнен (`mode=typeface`, `requested=typeface`, `title_typeface=Regular`), то есть режим отработал.
+
+### 4. Esc-меню: новая кнопка без короткой подписи
+- `shortMenuLabels` (`Init.lua:1313-1346`) не знает кнопку «竞技之约» (Competition Covenant, в батче `batch_014.json` id 068901 → «Соглашение о конкуренции»). `repairMenuBtnItem` (`Init.lua:9520-9535`) берёт полный текст: 24 символа при размере 14.
+- До v2.9.2 подпись сжимал `LetterSpacing −120/−60`, теперь он 0 — текст шире плитки, перенос выключен (`SetAutoWrapText(false)`, `Init.lua:9580-9585`), ячейка сетки раздвигается. Имя `ButtonEnum` этой кнопки в логах и дампах не найдено.
+
+### Вне этой задачи (для справки)
+- Переполнения в Regular (`GameplayIntegration_Panel / Text_Name` «Поддерживать войну войной», `TaskBoardPanel / Text_ChapterName` «Нежная фортепианная музыка сегодня вечером» и др.) — подгонка по измерению, этап 5.
+- Заголовки групп в списке заданий («IRADU BF…») — запечённые текстуры, этап 8. «Г ород городов» — буквица игры (первая буква отдельным виджетом), не наша правка.
+
+## План
+
+Версия **v2.9.3-RU**. Всё, что меняет поведение, — только в `subfont` и в Esc-меню; режим по умолчанию остаётся `typeface`, пока пользователь не подтвердит `subfont`.
+
+1. **Строки лога после инициализации логгера.** В `Init.lua` строку `cyrillic font mode=…` (сейчас `report` внутри блока шрифтов, `:1746-1792`) сохранять в `runtimeFixes.CyrillicFontLogLine` и выводить в `after_main` рядом со строкой `active hooks_installed=` (`:10620`). То же для маркера `[AbsruDiag] session=…` (`AbsruDiagnostics.lua`, `D.Start` → повторить в `afterMain`).
+2. **Диагностика: кто ещё рисует кириллицу в Title** (флаг `Fonts`, только чтение). В обходе панели (`visitWidget`/`processTextWidget`) для виджетов с кириллицей и шрифтом `Font_Aleo` + typeface, содержащим `Title`, писать в `fonts.json` раздел `title_cyrillic[]`: `panel`, `widget`, `class`, `path`, `text` (≤ 60 символов), `styled` (проходил ли через `translateTextWidget` — есть ли в `fontPre`), `count`; потолок 500 записей. Для RichText (`RichTextBlock`/`KGRichTextBlock`, у которых нет `GetFont`) — брать `DefaultTextStyle(Override).Font`, если читается, и помечать `rich=true`. В `CollectDiagLogs.ps1` → `fonts.md` раздел «Title с кириллицей» (группировка по `panel/widget`, `styled`, `rich`).
+3. **Проба `FInt32Range`** (флаг `Fonts`, только чтение), для первого диапазона каждого SubTypeface `Font_Aleo`:
+   - `getmetatable(range)`: ключи `__index`, если это таблица, и имя типа (`__name`, если есть);
+   - `pcall` на `range:GetLowerBoundValue()`, `range:GetUpperBoundValue()`, `range:IsEmpty()`, `range:Contains(0x0410)`, `range.LowerBound`, `range.LowerBound.Value`; результат и тип каждого.
+   - Для **всех** SubTypeface: покрывает ли какой-нибудь диапазон U+0410 и U+0041 (по сработавшему способу) → поле `covers_0410`, `covers_0041` в `composite.subs[]`.
+   - `session.json → api`: `FInt32Range.LowerBound`, `FInt32Range.GetLowerBoundValue`, `FInt32Range.Contains`, `import(Int32Range)`, `import(CompositeSubFont)`, `import(TypefaceEntry)` (удался ли `import` и вызов конструктора — объекты создаются и сразу отбрасываются, в шрифт ничего не пишется), текущая культура (`import("KismetInternationalizationLibrary").GetCurrentCulture()`), если доступна.
+   - Вывести в `fonts.md → composite` колонки «покрывает А / A» и способ чтения диапазона.
+4. **`subfont`: чтение и запись диапазонов тем способом, который найдёт проба.** Выполнять только после сессии с пробой шага 3. В `Init.lua` (`cyrillicSubIndex`, `newRange`) использовать сработавший способ (поля `LowerBound`/`UpperBound` или методы); если ни один способ не работает — `subfont` оставить с откатом и записать `reason=range_unreadable` (без правки «на удачу»). Если шаг 3 покажет, что какой-то SubTypeface уже покрывает U+0410, а Title всё равно рисует Mincho, — ставить в нашу запись `Cultures` = текущая культура и её родители (например `en;en-US` / `zh-Hans;zh`), по данным пробы.
+5. **Esc-меню.** В `repairMenuBtnItem` (`Init.lua:9520-9531`), если `ButtonEnum` не найден в `shortMenuLabels`, искать короткую подпись по полному русскому тексту: таблица `shortMenuLabelsByText = { ["Соглашение о конкуренции"] = "Турнир" }`. В диагностическом режиме один раз на кнопку писать `reportVerbose("menu button without short label enum=<…> text=<…>")`, чтобы потом добавить `ButtonEnum` в `shortMenuLabels`.
+6. **Режим по умолчанию не менять.** Константа `CYRILLIC_FONT_MODE` остаётся `"typeface"`. Не расширять `typeface` на RichText и не добавлять новые хуки ради отдельных панелей: полное покрытие — задача `subfont`.
+7. **Проверки и документы.** `tools/VerifyPatch.ps1`; `.ps1` с BOM, Lua без BOM, LF. `DIAGNOSTICS.md`: `title_cyrillic`, поля пробы диапазонов, строки лога в `after_main`. `LESSONS.md`: «строки `report` на этапе загрузки `Init.lua` в C7.log не попадают — писать итог в `after_main`». `ROADMAP.md`: статус 4a. Версия 2.9.3-RU во всех местах, как в TASK-006. Закоммитить и запушить; релиз не публиковать без решения пользователя.
+
+## Проверка
+
+**Автоматическая:** `VerifyPatch.ps1` — OK; `git diff --stat` — `Init.lua`, `AbsruDiagnostics.lua`, `CollectDiagLogs.ps1`, версии, документы.
+
+**Чек-лист для пользователя** (сборка v2.9.3-RU, `absoluteru_dev.lua` как в DIAGNOSTICS.md):
+1. **Сессия A (режим `typeface`, без `CyrillicFont`).** В C7.log есть `[CPDDRuntimeFix] cyrillic font mode=typeface title_typeface=Regular` и `[AbsruDiag] session=…`. Esc-меню: плитка «Турнир» на своём месте. Пройти те же экраны: Исследование, Задания (описание справа), диалог с NPC с 3–4 вариантами ответа. Постоять 30–40 с, закрыть игру, запустить `tools\CollectDiagLogs.ps1`. В `fonts.md` должны появиться разделы «Title с кириллицей» и колонки `covers_0410` в `composite`.
+2. **Сессия B (`CyrillicFont = "subfont"`).** Прислать строку `cyrillic font mode=… face=… write=… verify=… flush=…`. Если `mode=subfont`, пройти те же экраны: заголовки карточек Исследования, описание задания и все варианты ответа в диалоге должны быть пропорциональными; латиница (например «Plot Overview») — прежним шрифтом.
+3. Прислать папку отчёта или скриншоты этих экранов для обеих сессий.
+
+## Промпт для чата исполнения
+> Ты — чат исполнения проекта AbsoluteRU (AGENTS.md §3, чат 2). Прочитай AGENTS.md, docs/LESSONS.md, docs/DIAGNOSTICS.md, docs/tasks/ROADMAP.md, docs/tasks/TASK-006-font.md и выполни docs/tasks/TASK-007-font-coverage.md, раздел «План», шаги 1–3, 5–7. Шаг 4 (правка `subfont`) делать только если в `reference/logs/` уже есть сессия с пробой диапазонов из шага 3; иначе оставить как есть и записать в TASK-007, что шаг 4 ждёт данных. Главное из анализа: режим `typeface` меняет Title → Regular только у виджетов, которые проходят через `translateTextWidget` с кириллицей, поэтому текст из данных (варианты диалога, описание задания, карточки Исследования) и RichText остаются Mincho 1,0 em; полное покрытие даёт `subfont`, но `FInt32Range` через slua не читается (`composite.subs[].ranges` — голые userdata), и строка `cyrillic font mode=` теряется, потому что `report` при загрузке `Init.lua` идёт раньше инициализации логгера игры. Сделай: вывод строки режима и маркера `[AbsruDiag] session=` в `after_main`; диагностику `title_cyrillic` (кто рисует кириллицу в Title, `styled`, `rich`) с выводом в `fonts.md`; пробу методов и полей `FInt32Range`, покрытия U+0410/U+0041 каждым SubTypeface, `import`+конструкторов `Int32Range`/`CompositeSubFont`/`TypefaceEntry` и текущей культуры — всё только чтение; короткую подпись Esc-меню по тексту (`"Соглашение о конкуренции"` → `"Турнир"`) и `reportVerbose` для кнопок без подписи. Режим по умолчанию остаётся `"typeface"`, RichText не трогать, новые хуки под отдельные панели не добавлять. Версия v2.9.3-RU. `.ps1` с кириллицей — UTF-8 с BOM, Lua — без BOM, LF. Не пиши «исправлено»: дай чек-лист из раздела «Проверка». Закоммить и запушь в main; релиз не публикуй без решения пользователя. В папку игры ничего не пиши и игру не запускай.
