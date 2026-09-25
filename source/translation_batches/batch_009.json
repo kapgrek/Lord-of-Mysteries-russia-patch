@@ -33,7 +33,7 @@
     "id": "040005",
     "source_cn": "光球3",
     "ref_en": "Light Ball 3",
-    "target_ru": "Световой шар b"
+    "target_ru": "Световой шар 3"
   },
   {
     "id": "040006",
@@ -135,7 +135,7 @@
     "id": "040022",
     "source_cn": "围观2",
     "ref_en": "Onlooker 2",
-    "target_ru": "Наблюдатель b"
+    "target_ru": "Наблюдатель 2"
   },
   {
     "id": "040023",
@@ -207,7 +207,7 @@
     "id": "040034",
     "source_cn": "小老鼠1",
     "ref_en": "Little Mouse 1",
-    "target_ru": "Маленькая мышка b"
+    "target_ru": "Маленькая мышка 1"
   },
   {
     "id": "040035",
@@ -381,7 +381,7 @@
     "id": "040063",
     "source_cn": "洛络塔移动位置2",
     "ref_en": "Loroita Move Position 2",
-    "target_ru": "Лоройта, ход, позиция b"
+    "target_ru": "Лоройта, ход, позиция 2"
   },
   {
     "id": "040064",
@@ -651,7 +651,7 @@
     "id": "040108",
     "source_cn": "Mesh-南瓜摊南瓜1",
     "ref_en": "Mesh-Pumpkin Stall Pumpkin 1",
-    "target_ru": "Сетка-Тыква Стойка Тыква b"
+    "target_ru": "Сетка-Тыква Стойка Тыква 1"
   },
   {
     "id": "040109",
@@ -753,7 +753,7 @@
     "id": "040125",
     "source_cn": "人脉闲聊话题-苏茜4",
     "ref_en": "Connection Chat Topic - Susie 4",
-    "target_ru": "Тема чата для связи - Сьюзи b"
+    "target_ru": "Тема чата для связи - Сьюзи 4"
   },
   {
     "id": "040126",
@@ -837,7 +837,7 @@
     "id": "040139",
     "source_cn": "十字街上路触发器",
     "ref_en": "Cross Street Upper Road Trigger",
-    "target_ru": "Триггер Cross Street Upper Robb"
+    "target_ru": "Триггер Cross Street Upper Road"
   },
   {
     "id": "040140",
@@ -891,7 +891,7 @@
     "id": "040148",
     "source_cn": "城市暗面-新手任务-凶杀-2",
     "ref_en": "City Dark Side - Newbie Quest - Homicide - 2",
-    "target_ru": "Темная сторона города - Квест для новичков - Убийство - b"
+    "target_ru": "Темная сторона города - Квест для новичков - Убийство - 2"
   },
   {
     "id": "040149",
@@ -1221,7 +1221,7 @@
     "id": "040203",
     "source_cn": "第二章·触发器·寻找阿诺德3",
     "ref_en": "Chapter Two · Trigger · Find Arnold 3",
-    "target_ru": "Глава вторая · Триггер · Найти Арнольда b"
+    "target_ru": "Глава вторая · Триггер · Найти Арнольда 3"
   },
   {
     "id": "040204",
@@ -1347,7 +1347,7 @@
     "id": "040224",
     "source_cn": "金梧桐-警察2",
     "ref_en": "Golden Indus - Police 2",
-    "target_ru": "Золотой Инд - Полиция b"
+    "target_ru": "Золотой Инд - Полиция 2"
   },
   {
     "id": "040225",
@@ -1491,7 +1491,7 @@
     "id": "040248",
     "source_cn": "乌托邦剧院·难度7",
     "ref_en": "Utopia Theater - Difficulty 7",
-    "target_ru": "Театр Утопия – Сложность b"
+    "target_ru": "Театр Утопия – Сложность 7"
   },
   {
     "id": "040249",
@@ -1677,13 +1677,13 @@
     "id": "040279",
     "source_cn": "居民24",
     "ref_en": "Resident 24",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 24"
   },
   {
     "id": "040280",
     "source_cn": "居民32",
     "ref_en": "Resident 32",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 32"
   },
   {
     "id": "040281",
@@ -1713,7 +1713,7 @@
     "id": "040285",
     "source_cn": "恶魔酒吧-Bullet1",
     "ref_en": "Demon Bar-Bullet 1",
-    "target_ru": "Демон Бар-Пуля b"
+    "target_ru": "Демон Бар-Пуля 1"
   },
   {
     "id": "040286",
@@ -1833,7 +1833,7 @@
     "id": "040305",
     "source_cn": "直升15级",
     "ref_en": "Instant level up to 15",
-    "target_ru": "Мгновенный уровень до bb"
+    "target_ru": "Мгновенный уровень до 15"
   },
   {
     "id": "040306",
@@ -1929,7 +1929,7 @@
     "id": "040321",
     "source_cn": "蓝山晶石80个",
     "ref_en": "Blue Mountain Crystal 80",
-    "target_ru": "Синий горный кристалл bb"
+    "target_ru": "Синий горный кристалл 80"
   },
   {
     "id": "040322",
@@ -1953,7 +1953,7 @@
     "id": "040325",
     "source_cn": "西南4",
     "ref_en": "Southwest 4",
-    "target_ru": "Юго-Запад b"
+    "target_ru": "Юго-Запад 4"
   },
   {
     "id": "040326",
@@ -2019,7 +2019,7 @@
     "id": "040336",
     "source_cn": "雕塑3",
     "ref_en": "Sculpture 3",
-    "target_ru": "Скульптура b"
+    "target_ru": "Скульптура 3"
   },
   {
     "id": "040337",
@@ -2115,7 +2115,7 @@
     "id": "040352",
     "source_cn": "BOSS传送2",
     "ref_en": "BOSS Teleport 2",
-    "target_ru": "БОСС Телепорт b"
+    "target_ru": "БОСС Телепорт 2"
   },
   {
     "id": "040353",
@@ -2175,7 +2175,7 @@
     "id": "040362",
     "source_cn": "今日奖励礼盒·五",
     "ref_en": "Today's Reward Box · 5",
-    "target_ru": "Коробка с сегодняшними наградами · b"
+    "target_ru": "Коробка с сегодняшними наградами · 5"
   },
   {
     "id": "040363",
@@ -2277,7 +2277,7 @@
     "id": "040379",
     "source_cn": "分宝箱1",
     "ref_en": "Split Treasure Chest 1",
-    "target_ru": "Разделенный сундук с сокровищами b"
+    "target_ru": "Разделенный сундук с сокровищами 1"
   },
   {
     "id": "040380",
@@ -2307,7 +2307,7 @@
     "id": "040384",
     "source_cn": "区域2-5",
     "ref_en": "Area 2-5",
-    "target_ru": "Зона 2–b"
+    "target_ru": "Зона 2–5"
   },
   {
     "id": "040385",
@@ -2451,13 +2451,13 @@
     "id": "040408",
     "source_cn": "对象瞬间使用单次领取22",
     "ref_en": "Object instant usage single claim 22",
-    "target_ru": "Единая заявка на мгновенное использование объекта bb"
+    "target_ru": "Единая заявка на мгновенное использование объекта 22"
   },
   {
     "id": "040409",
     "source_cn": "对象瞬间使用多次领取22",
     "ref_en": "Object instant usage multiple claim 22",
-    "target_ru": "Множественная заявка на мгновенное использование объекта bb"
+    "target_ru": "Множественная заявка на мгновенное использование объекта 22"
   },
   {
     "id": "040410",
@@ -2673,7 +2673,7 @@
     "id": "040445",
     "source_cn": "灰子弹2",
     "ref_en": "Gray Bullet 2",
-    "target_ru": "Серая Пуля b"
+    "target_ru": "Серая Пуля 2"
   },
   {
     "id": "040446",
@@ -3057,7 +3057,7 @@
     "id": "040509",
     "source_cn": "临时雾气2",
     "ref_en": "Temporary Fog 2",
-    "target_ru": "Временный туман b"
+    "target_ru": "Временный туман 2"
   },
   {
     "id": "040510",
@@ -3201,7 +3201,7 @@
     "id": "040533",
     "source_cn": "围观3",
     "ref_en": "Onlooker 3",
-    "target_ru": "Наблюдатель b"
+    "target_ru": "Наблюдатель 3"
   },
   {
     "id": "040534",
@@ -3273,7 +3273,7 @@
     "id": "040545",
     "source_cn": "小老鼠0",
     "ref_en": "Little Mouse 0",
-    "target_ru": "Маленький мышонок b"
+    "target_ru": "Маленький мышонок 0"
   },
   {
     "id": "040546",
@@ -3567,7 +3567,7 @@
     "id": "040594",
     "source_cn": "第二波红色传送门2",
     "ref_en": "Second wave Red Portal 2",
-    "target_ru": "Вторая волна Red Portal b"
+    "target_ru": "Вторая волна Red Portal 2"
   },
   {
     "id": "040595",
@@ -3591,7 +3591,7 @@
     "id": "040598",
     "source_cn": "群成员1/13",
     "ref_en": "Group Members 1/13",
-    "target_ru": "Участники группы 1/bb"
+    "target_ru": "Участники группы 1/13"
   },
   {
     "id": "040599",
@@ -3687,7 +3687,7 @@
     "id": "040614",
     "source_cn": "额外奖励：1/3",
     "ref_en": "Extra Reward: 1/3",
-    "target_ru": "Дополнительная награда: 1/b"
+    "target_ru": "Дополнительная награда: 1/3"
   },
   {
     "id": "040615",
@@ -3825,7 +3825,7 @@
     "id": "040637",
     "source_cn": "人脉闲聊话题-苏茜3",
     "ref_en": "Connection Chat Topic - Susie 3",
-    "target_ru": "Тема чата для связи - Сьюзи b"
+    "target_ru": "Тема чата для связи - Сьюзи 3"
   },
   {
     "id": "040638",
@@ -3945,7 +3945,7 @@
     "id": "040657",
     "source_cn": "城市暗面-新手任务-凶杀-1",
     "ref_en": "City Dark Side - Newbie Quest - Homicide - 1",
-    "target_ru": "Темная сторона города - Квест для новичков - Убийство - b"
+    "target_ru": "Темная сторона города - Квест для новичков - Убийство - 1"
   },
   {
     "id": "040658",
@@ -3993,7 +3993,7 @@
     "id": "040665",
     "source_cn": "安洁走1",
     "ref_en": "Angie Walk 1",
-    "target_ru": "Энджи Уок b"
+    "target_ru": "Энджи Уок 1"
   },
   {
     "id": "040666",
@@ -4005,7 +4005,7 @@
     "id": "040667",
     "source_cn": "崔佛1",
     "ref_en": "Trevor 1",
-    "target_ru": "Тревор b"
+    "target_ru": "Тревор 1"
   },
   {
     "id": "040668",
@@ -4119,7 +4119,7 @@
     "id": "040686",
     "source_cn": "方案六",
     "ref_en": "Plan 6",
-    "target_ru": "План b"
+    "target_ru": "План 6"
   },
   {
     "id": "040687",
@@ -4275,7 +4275,7 @@
     "id": "040712",
     "source_cn": "第二章·触发器·寻找阿诺德2",
     "ref_en": "Chapter 2: Trigger: Find Arnold 2",
-    "target_ru": "Глава 2: Триггер: найти Арнольда b"
+    "target_ru": "Глава 2: Триггер: найти Арнольда 2"
   },
   {
     "id": "040713",
@@ -4371,7 +4371,7 @@
     "id": "040728",
     "source_cn": "选秀场5号位",
     "ref_en": "Audition Venue Position 5",
-    "target_ru": "Место для прослушивания, позиция b"
+    "target_ru": "Место для прослушивания, позиция 5"
   },
   {
     "id": "040729",
@@ -4389,7 +4389,7 @@
     "id": "040731",
     "source_cn": "金梧桐-警察1",
     "ref_en": "Golden Sycamore - Police 1",
-    "target_ru": "Золотой платан - Полиция b"
+    "target_ru": "Золотой платан - Полиция 1"
   },
   {
     "id": "040732",
@@ -4587,7 +4587,7 @@
     "id": "040764",
     "source_cn": "分享语音房消息至诡秘圈",
     "ref_en": "Share voice room message to Mystery Circle",
-    "target_ru": "Поделитесь сообщением голосовой комнаты с Mystery Circlb"
+    "target_ru": "Поделитесь сообщением голосовой комнаты с Mystery Circle"
   },
   {
     "id": "040765",
@@ -4749,13 +4749,13 @@
     "id": "040791",
     "source_cn": "居民23",
     "ref_en": "Resident 23",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 23"
   },
   {
     "id": "040792",
     "source_cn": "居民33",
     "ref_en": "Resident 33",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 33"
   },
   {
     "id": "040793",
@@ -4905,7 +4905,7 @@
     "id": "040817",
     "source_cn": "本周奖励礼盒·四",
     "ref_en": "This Week's Reward Box · 4",
-    "target_ru": "Коробка с наградами этой недели · b"
+    "target_ru": "Коробка с наградами этой недели · 4"
   },
   {
     "id": "040818",
@@ -5043,7 +5043,7 @@
     "id": "040840",
     "source_cn": "西南5",
     "ref_en": "Southwest 5",
-    "target_ru": "Юго-Запад b"
+    "target_ru": "Юго-Запад 5"
   },
   {
     "id": "040841",
@@ -5133,13 +5133,13 @@
     "id": "040855",
     "source_cn": "雕塑2",
     "ref_en": "Sculpture 2",
-    "target_ru": "Скульптура b"
+    "target_ru": "Скульптура 2"
   },
   {
     "id": "040856",
     "source_cn": "马修2",
     "ref_en": "Matthew 2",
-    "target_ru": "Мэтью b"
+    "target_ru": "Мэтью 2"
   },
   {
     "id": "040857",
@@ -5205,7 +5205,7 @@
     "id": "040867",
     "source_cn": "BOSS传送3",
     "ref_en": "BOSS Teleport 3",
-    "target_ru": "БОСС Телепорт b"
+    "target_ru": "БОСС Телепорт 3"
   },
   {
     "id": "040868",
@@ -5361,7 +5361,7 @@
     "id": "040893",
     "source_cn": "冥皇复活点1",
     "ref_en": "Underworld Emperor resurrection point 1",
-    "target_ru": "Точка воскрешения Императора подземного мира b"
+    "target_ru": "Точка воскрешения Императора подземного мира 1"
   },
   {
     "id": "040894",
@@ -5379,7 +5379,7 @@
     "id": "040896",
     "source_cn": "分宝箱2",
     "ref_en": "Split Treasure Chest 2",
-    "target_ru": "Разделенный сундук с сокровищами b"
+    "target_ru": "Разделенный сундук с сокровищами 2"
   },
   {
     "id": "040897",
@@ -5643,7 +5643,7 @@
     "id": "040940",
     "source_cn": "检视3",
     "ref_en": "Inspect 3",
-    "target_ru": "Осмотр b"
+    "target_ru": "Осмотр 3"
   },
   {
     "id": "040941",
@@ -5847,7 +5847,7 @@
     "id": "040974",
     "source_cn": "闪击一",
     "ref_en": "Flash Strike 1",
-    "target_ru": "Мгновенный удар b"
+    "target_ru": "Мгновенный удар 1"
   },
   {
     "id": "040975",
@@ -5955,7 +5955,7 @@
     "id": "040992",
     "source_cn": "临时雾气3",
     "ref_en": "Temporary fog 3",
-    "target_ru": "Временный туман b"
+    "target_ru": "Временный туман 3"
   },
   {
     "id": "040993",
@@ -6045,7 +6045,7 @@
     "id": "041007",
     "source_cn": "光球1",
     "ref_en": "Light Orb 1",
-    "target_ru": "Световой шар b"
+    "target_ru": "Световой шар 1"
   },
   {
     "id": "041008",
@@ -6201,7 +6201,7 @@
     "id": "041033",
     "source_cn": "封印蓝桥机关",
     "ref_en": "Seal Blue Bridge mechanism",
-    "target_ru": "Уплотнение механизма Blue Bridgb"
+    "target_ru": "Уплотнение механизма Blue Bridge"
   },
   {
     "id": "041034",
@@ -6213,7 +6213,7 @@
     "id": "041035",
     "source_cn": "小老鼠7",
     "ref_en": "Little Mouse 7",
-    "target_ru": "Маленький мышонок b"
+    "target_ru": "Маленький мышонок 7"
   },
   {
     "id": "041036",
@@ -6291,7 +6291,7 @@
     "id": "041048",
     "source_cn": "扮演（窥秘）-第二天40级",
     "ref_en": "Acting (Mystery Pryer) - Day 2 Level 40",
-    "target_ru": "Актерское мастерство (Таинственный Прайер) — День 2, уровень bb"
+    "target_ru": "Актерское мастерство (Таинственный Прайер) — День 2, уровень 40"
   },
   {
     "id": "041049",
@@ -6375,7 +6375,7 @@
     "id": "041062",
     "source_cn": "档案编号_0123",
     "ref_en": "Archive No. 0123",
-    "target_ru": "Архив №1abb"
+    "target_ru": "Архив №0123"
   },
   {
     "id": "041063",
@@ -6411,7 +6411,7 @@
     "id": "041068",
     "source_cn": "河风酒馆老板",
     "ref_en": "River Breeze Pub Owner",
-    "target_ru": "Владелец паба River Breezb"
+    "target_ru": "Владелец паба River Breeze"
   },
   {
     "id": "041069",
@@ -6765,7 +6765,7 @@
     "id": "041127",
     "source_cn": "人脉闲聊话题-苏茜2",
     "ref_en": "Connection Chat Topic - Susie 2",
-    "target_ru": "Тема чата для связи - Сьюзи b"
+    "target_ru": "Тема чата для связи - Сьюзи 2"
   },
   {
     "id": "041128",
@@ -6939,7 +6939,7 @@
     "id": "041156",
     "source_cn": "导师战测试1",
     "ref_en": "Mentor Battle Test 1",
-    "target_ru": "Боевой тест наставника b"
+    "target_ru": "Боевой тест наставника 1"
   },
   {
     "id": "041157",
@@ -6957,7 +6957,7 @@
     "id": "041159",
     "source_cn": "崔佛2",
     "ref_en": "Trevor 2",
-    "target_ru": "Тревор b"
+    "target_ru": "Тревор 2"
   },
   {
     "id": "041160",
@@ -7323,7 +7323,7 @@
     "id": "041220",
     "source_cn": "阻挡区域1",
     "ref_en": "Blocking area 1",
-    "target_ru": "Блокирующая зона b"
+    "target_ru": "Блокирующая зона 1"
   },
   {
     "id": "041221",
@@ -7491,7 +7491,7 @@
     "id": "041248",
     "source_cn": "二组",
     "ref_en": "Group 2",
-    "target_ru": "Группа b"
+    "target_ru": "Группа 2"
   },
   {
     "id": "041249",
@@ -7671,13 +7671,13 @@
     "id": "041278",
     "source_cn": "居民18",
     "ref_en": "Resident 18",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 18"
   },
   {
     "id": "041279",
     "source_cn": "居民22",
     "ref_en": "Resident 22",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 22"
   },
   {
     "id": "041280",
@@ -7689,7 +7689,7 @@
     "id": "041281",
     "source_cn": "广播操氛围2",
     "ref_en": "Radio Gymnastics Atmosphere 2",
-    "target_ru": "Радио Гимнастика Атмосфера b"
+    "target_ru": "Радио Гимнастика Атмосфера 2"
   },
   {
     "id": "041282",
@@ -7743,7 +7743,7 @@
     "id": "041290",
     "source_cn": "恶魔酒吧-Bullet3",
     "ref_en": "Demon Bar-Bullet 3",
-    "target_ru": "Демон Бар-Пуля b"
+    "target_ru": "Демон Бар-Пуля 3"
   },
   {
     "id": "041291",
@@ -7929,7 +7929,7 @@
     "id": "041321",
     "source_cn": "码头氛围NPC1",
     "ref_en": "Dock atmosphere NPC 1",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 1"
   },
   {
     "id": "041322",
@@ -7971,7 +7971,7 @@
     "id": "041328",
     "source_cn": "老尼尔之死2动画",
     "ref_en": "Animation: The death of Old Neil 2",
-    "target_ru": "Анимация: Смерть старого Нила b"
+    "target_ru": "Анимация: Смерть старого Нила 2"
   },
   {
     "id": "041329",
@@ -7995,13 +7995,13 @@
     "id": "041332",
     "source_cn": "补光4",
     "ref_en": "Fill light 4",
-    "target_ru": "Заполняющий свет b"
+    "target_ru": "Заполняющий свет 4"
   },
   {
     "id": "041333",
     "source_cn": "西南2",
     "ref_en": "Southwest 2",
-    "target_ru": "Юго-Запад b"
+    "target_ru": "Юго-Запад 2"
   },
   {
     "id": "041334",
@@ -8073,7 +8073,7 @@
     "id": "041345",
     "source_cn": "阵营2交互传送点",
     "ref_en": "Faction 2 Interactive Teleport Point",
-    "target_ru": "Интерактивная точка телепорта фракции b"
+    "target_ru": "Интерактивная точка телепорта фракции 2"
   },
   {
     "id": "041346",
@@ -8103,7 +8103,7 @@
     "id": "041350",
     "source_cn": "雕塑5",
     "ref_en": "Sculpture 5",
-    "target_ru": "Скульптура b"
+    "target_ru": "Скульптура 5"
   },
   {
     "id": "041351",
@@ -8127,7 +8127,7 @@
     "id": "041354",
     "source_cn": "魔法板恶灵3",
     "ref_en": "Magic Board Evil Spirit 3",
-    "target_ru": "Магическая доска Злой дух b"
+    "target_ru": "Магическая доска Злой дух 3"
   },
   {
     "id": "041355",
@@ -8343,7 +8343,7 @@
     "id": "041390",
     "source_cn": "分宝箱3",
     "ref_en": "Split treasure chest 3",
-    "target_ru": "Разделенный сундук с сокровищами b"
+    "target_ru": "Разделенный сундук с сокровищами 3"
   },
   {
     "id": "041391",
@@ -8673,7 +8673,7 @@
     "id": "041445",
     "source_cn": "检视2",
     "ref_en": "Inspect 2",
-    "target_ru": "Осмотреть b"
+    "target_ru": "Осмотреть 2"
   },
   {
     "id": "041446",
@@ -8727,7 +8727,7 @@
     "id": "041454",
     "source_cn": "测试Action1",
     "ref_en": "Test Action 1",
-    "target_ru": "Тестовое действие b"
+    "target_ru": "Тестовое действие 1"
   },
   {
     "id": "041455",
@@ -8859,7 +8859,7 @@
     "id": "041476",
     "source_cn": "聚合因子300个",
     "ref_en": "Aggregation Factor 300",
-    "target_ru": "Коэффициент агрегирования abb"
+    "target_ru": "Коэффициент агрегирования 300"
   },
   {
     "id": "041477",
@@ -9339,7 +9339,7 @@
     "id": "041556",
     "source_cn": "小老鼠6",
     "ref_en": "Little Mouse 6",
-    "target_ru": "Маленький мышонок b"
+    "target_ru": "Маленький мышонок 6"
   },
   {
     "id": "041557",
@@ -9585,7 +9585,7 @@
     "id": "041597",
     "source_cn": "污秽长枪3",
     "ref_en": "Filthy Spear 3",
-    "target_ru": "Грязное копье b"
+    "target_ru": "Грязное копье 3"
   },
   {
     "id": "041598",
@@ -9669,7 +9669,7 @@
     "id": "041611",
     "source_cn": "第一赛季第46天",
     "ref_en": "Season 1, Day 46",
-    "target_ru": "1 сезон, день bb"
+    "target_ru": "1 сезон, день 46"
   },
   {
     "id": "041612",
@@ -9963,7 +9963,7 @@
     "id": "041660",
     "source_cn": "Mesh-南瓜摊南瓜4",
     "ref_en": "Mesh - Pumpkin Stall Pumpkin 4",
-    "target_ru": "Сетка - Тыквенный прилавок Тыква b"
+    "target_ru": "Сетка - Тыквенный прилавок Тыква 4"
   },
   {
     "id": "041661",
@@ -10005,7 +10005,7 @@
     "id": "041667",
     "source_cn": "【灯光】三聚光灯2",
     "ref_en": "[Lighting] Three Spotlights 2",
-    "target_ru": "[Освещение] Три прожектора b"
+    "target_ru": "[Освещение] Три прожектора 2"
   },
   {
     "id": "041668",
@@ -10059,7 +10059,7 @@
     "id": "041676",
     "source_cn": "人脉闲聊话题-苏茜1",
     "ref_en": "Connection Chat Topic - Susie 1",
-    "target_ru": "Тема чата для связи - Сьюзи b"
+    "target_ru": "Тема чата для связи - Сьюзи 1"
   },
   {
     "id": "041677",
@@ -10497,7 +10497,7 @@
     "id": "041749",
     "source_cn": "观众资源1",
     "ref_en": "Spectator Resource 1",
-    "target_ru": "Зрительский ресурс b"
+    "target_ru": "Зрительский ресурс 1"
   },
   {
     "id": "041750",
@@ -10587,7 +10587,7 @@
     "id": "041764",
     "source_cn": "阻挡区域2",
     "ref_en": "Blocking Area 2",
-    "target_ru": "Блокирующая зона b"
+    "target_ru": "Блокирующая зона 2"
   },
   {
     "id": "041765",
@@ -10665,7 +10665,7 @@
     "id": "041777",
     "source_cn": "1对1单挑对决",
     "ref_en": "1v1 Duel",
-    "target_ru": "Дуэль 1 на b"
+    "target_ru": "Дуэль 1 на 1"
   },
   {
     "id": "041778",
@@ -10857,7 +10857,7 @@
     "id": "041809",
     "source_cn": "升降梯2路线",
     "ref_en": "Elevator 2 Route",
-    "target_ru": "Маршрут лифта b"
+    "target_ru": "Маршрут лифта 2"
   },
   {
     "id": "041810",
@@ -10965,13 +10965,13 @@
     "id": "041827",
     "source_cn": "居民19",
     "ref_en": "Resident 19",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 19"
   },
   {
     "id": "041828",
     "source_cn": "居民21",
     "ref_en": "Resident 21",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 21"
   },
   {
     "id": "041829",
@@ -10983,7 +10983,7 @@
     "id": "041830",
     "source_cn": "广播操氛围3",
     "ref_en": "Radio Gymnastics Atmosphere 3",
-    "target_ru": "Радио Гимнастика Атмосфера b"
+    "target_ru": "Радио Гимнастика Атмосфера 3"
   },
   {
     "id": "041831",
@@ -11001,13 +11001,13 @@
     "id": "041833",
     "source_cn": "异步节点完成3",
     "ref_en": "Asynchronous node complete 3",
-    "target_ru": "Асинхронный узел завершен b"
+    "target_ru": "Асинхронный узел завершен 3"
   },
   {
     "id": "041834",
     "source_cn": "恶魔酒吧-Bullet2",
     "ref_en": "Demon Bar-Bullet 2",
-    "target_ru": "Демон Бар-Пуля b"
+    "target_ru": "Демон Бар-Пуля 2"
   },
   {
     "id": "041835",
@@ -11073,7 +11073,7 @@
     "id": "041845",
     "source_cn": "摊主3",
     "ref_en": "Stall Owner 3",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 3"
   },
   {
     "id": "041846",
@@ -11121,7 +11121,7 @@
     "id": "041853",
     "source_cn": "木板1",
     "ref_en": "Plank 1",
-    "target_ru": "Планка b"
+    "target_ru": "Планка 1"
   },
   {
     "id": "041854",
@@ -11289,7 +11289,7 @@
     "id": "041881",
     "source_cn": "码头氛围NPC2",
     "ref_en": "Dock atmosphere NPC 2",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 2"
   },
   {
     "id": "041882",
@@ -11343,7 +11343,7 @@
     "id": "041890",
     "source_cn": "西南3",
     "ref_en": "Southwest 3",
-    "target_ru": "Юго-Запад b"
+    "target_ru": "Юго-Запад 3"
   },
   {
     "id": "041891",
@@ -11415,7 +11415,7 @@
     "id": "041902",
     "source_cn": "迷雾线故事二",
     "ref_en": "Mist Line Story 2",
-    "target_ru": "История линии тумана b"
+    "target_ru": "История линии тумана 2"
   },
   {
     "id": "041903",
@@ -11445,7 +11445,7 @@
     "id": "041907",
     "source_cn": "雕塑4",
     "ref_en": "Sculpture 4",
-    "target_ru": "Скульптура b"
+    "target_ru": "Скульптура 4"
   },
   {
     "id": "041908",
@@ -11463,7 +11463,7 @@
     "id": "041910",
     "source_cn": "魔法板恶灵2",
     "ref_en": "Magic board Evil Spirit 2",
-    "target_ru": "Волшебная доска Злой Дух b"
+    "target_ru": "Волшебная доска Злой Дух 2"
   },
   {
     "id": "041911",
@@ -11565,7 +11565,7 @@
     "id": "041927",
     "source_cn": "中心广场卖艺氛围",
     "ref_en": "Central Plaza busking atmosphere",
-    "target_ru": "Шумная атмосфера Central Plazb"
+    "target_ru": "Шумная атмосфера Central Plaza"
   },
   {
     "id": "041928",
@@ -11631,7 +11631,7 @@
     "id": "041938",
     "source_cn": "信众女7",
     "ref_en": "Believer (Female) 7",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 7"
   },
   {
     "id": "041939",
@@ -11727,7 +11727,7 @@
     "id": "041954",
     "source_cn": "区域2-8",
     "ref_en": "Area 2-8",
-    "target_ru": "Зона 2-b"
+    "target_ru": "Зона 2-8"
   },
   {
     "id": "041955",
@@ -11793,7 +11793,7 @@
     "id": "041965",
     "source_cn": "喂食点4",
     "ref_en": "Feeding Spot 4",
-    "target_ru": "Место кормления b"
+    "target_ru": "Место кормления 4"
   },
   {
     "id": "041966",
@@ -11865,7 +11865,7 @@
     "id": "041977",
     "source_cn": "对象瞬间使用多次领取17",
     "ref_en": "Object instant usage multiple claim 17",
-    "target_ru": "Мгновенное использование объекта, множественная претензия bb"
+    "target_ru": "Мгновенное использование объекта, множественная претензия 17"
   },
   {
     "id": "041978",
@@ -12075,7 +12075,7 @@
     "id": "042012",
     "source_cn": "检视1",
     "ref_en": "Inspect 1",
-    "target_ru": "Осмотреть b"
+    "target_ru": "Осмотреть 1"
   },
   {
     "id": "042013",
@@ -12135,7 +12135,7 @@
     "id": "042022",
     "source_cn": "男村民6",
     "ref_en": "Male Villager 6",
-    "target_ru": "Мужчина-сельский житель b"
+    "target_ru": "Мужчина-сельский житель 6"
   },
   {
     "id": "042023",
@@ -12429,7 +12429,7 @@
     "id": "042071",
     "source_cn": "临时雾气1",
     "ref_en": "Temporary Mist 1",
-    "target_ru": "Временный туман b"
+    "target_ru": "Временный туман 1"
   },
   {
     "id": "042072",
@@ -12669,7 +12669,7 @@
     "id": "042111",
     "source_cn": "小老鼠5",
     "ref_en": "Little mouse 5",
-    "target_ru": "Мышка b"
+    "target_ru": "Мышка 5"
   },
   {
     "id": "042112",
@@ -12861,7 +12861,7 @@
     "id": "042143",
     "source_cn": "污秽长枪2",
     "ref_en": "Filthy Spear 2",
-    "target_ru": "Грязное копье b"
+    "target_ru": "Грязное копье 2"
   },
   {
     "id": "042144",
@@ -12891,7 +12891,7 @@
     "id": "042148",
     "source_cn": "特效·灵性残留2",
     "ref_en": "Effect·Spirituality Residue 2",
-    "target_ru": "Эффект·Остаток духовности b"
+    "target_ru": "Эффект·Остаток духовности 2"
   },
   {
     "id": "042149",
@@ -13149,7 +13149,7 @@
     "id": "042191",
     "source_cn": "t二碎片引导",
     "ref_en": "T2 Fragment Guide",
-    "target_ru": "Руководство по фрагментам Tb"
+    "target_ru": "Руководство по фрагментам T2"
   },
   {
     "id": "042192",
@@ -13167,7 +13167,7 @@
     "id": "042194",
     "source_cn": "【灯光】三聚光灯3",
     "ref_en": "[Lighting] Three Spotlights 3",
-    "target_ru": "[Освещение] Три прожектора b"
+    "target_ru": "[Освещение] Три прожектора 3"
   },
   {
     "id": "042195",
@@ -13569,7 +13569,7 @@
     "id": "042261",
     "source_cn": "收集音符3",
     "ref_en": "Collect Musical Note 3",
-    "target_ru": "Соберите музыкальную ноту b"
+    "target_ru": "Соберите музыкальную ноту 3"
   },
   {
     "id": "042262",
@@ -13947,7 +13947,7 @@
     "id": "042324",
     "source_cn": "t露米红区3",
     "ref_en": "t Lumi Red Zone 3",
-    "target_ru": "т Люми Красная зона b"
+    "target_ru": "т Люми Красная зона 3"
   },
   {
     "id": "042325",
@@ -14247,7 +14247,7 @@
     "id": "042374",
     "source_cn": "居民20",
     "ref_en": "Resident 20",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 20"
   },
   {
     "id": "042375",
@@ -14385,7 +14385,7 @@
     "id": "042397",
     "source_cn": "摊主2",
     "ref_en": "Stall Owner 2",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 2"
   },
   {
     "id": "042398",
@@ -14451,7 +14451,7 @@
     "id": "042408",
     "source_cn": "歌颂者_001",
     "ref_en": "Bard_001",
-    "target_ru": "Бард_abb"
+    "target_ru": "Бард_001"
   },
   {
     "id": "042409",
@@ -14463,7 +14463,7 @@
     "id": "042410",
     "source_cn": "水手1",
     "ref_en": "Sailor 1",
-    "target_ru": "Моряк b"
+    "target_ru": "Моряк 1"
   },
   {
     "id": "042411",
@@ -14535,7 +14535,7 @@
     "id": "042422",
     "source_cn": "码头氛围NPC3",
     "ref_en": "Dock atmosphere NPC 3",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 3"
   },
   {
     "id": "042423",
@@ -14565,7 +14565,7 @@
     "id": "042427",
     "source_cn": "程序测试2",
     "ref_en": "Program Test 2",
-    "target_ru": "Программный тест b"
+    "target_ru": "Программный тест 2"
   },
   {
     "id": "042428",
@@ -14691,7 +14691,7 @@
     "id": "042448",
     "source_cn": "马修1",
     "ref_en": "Matthew 1",
-    "target_ru": "Мэтью b"
+    "target_ru": "Мэтью 1"
   },
   {
     "id": "042449",
@@ -14793,7 +14793,7 @@
     "id": "042465",
     "source_cn": "三号兔主人",
     "ref_en": "Owner of Rabbit No. 3",
-    "target_ru": "Владелец Кролика №b"
+    "target_ru": "Владелец Кролика №3"
   },
   {
     "id": "042466",
@@ -14865,7 +14865,7 @@
     "id": "042477",
     "source_cn": "信众女6",
     "ref_en": "Believer (Female) 6",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 6"
   },
   {
     "id": "042478",
@@ -14955,7 +14955,7 @@
     "id": "042492",
     "source_cn": "区域2-9",
     "ref_en": "Area 2-9",
-    "target_ru": "Зона 2-b"
+    "target_ru": "Зона 2-9"
   },
   {
     "id": "042493",
@@ -15015,7 +15015,7 @@
     "id": "042502",
     "source_cn": "喂食点3",
     "ref_en": "Feeding Spot 3",
-    "target_ru": "Место кормления b"
+    "target_ru": "Место кормления 3"
   },
   {
     "id": "042503",
@@ -15111,7 +15111,7 @@
     "id": "042518",
     "source_cn": "怪物秘偶-狒狒祝福1",
     "ref_en": "Monster Marionette - Baboon Blessing 1",
-    "target_ru": "Монстр-марионетка - Благословение бабуина b"
+    "target_ru": "Монстр-марионетка - Благословение бабуина 1"
   },
   {
     "id": "042519",
@@ -15171,7 +15171,7 @@
     "id": "042528",
     "source_cn": "扮演点-占卜-隐藏状态-47",
     "ref_en": "Acting Point - Seer - Hidden State - 47",
-    "target_ru": "Действующая точка – Провидец – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Провидец – Скрытое состояние – 47"
   },
   {
     "id": "042529",
@@ -15441,7 +15441,7 @@
     "id": "042573",
     "source_cn": "采集物·失踪案材料3",
     "ref_en": "Collectible - Missing Case Materials 3",
-    "target_ru": "Коллекционный предмет — недостающие материалы дела b"
+    "target_ru": "Коллекционный предмет — недостающие материалы дела 3"
   },
   {
     "id": "042574",
@@ -15483,7 +15483,7 @@
     "id": "042580",
     "source_cn": "3号位",
     "ref_en": "Position 3",
-    "target_ru": "Позиция b"
+    "target_ru": "Позиция 3"
   },
   {
     "id": "042581",
@@ -15801,7 +15801,7 @@
     "id": "042633",
     "source_cn": "小老鼠4",
     "ref_en": "Little Mouse 4",
-    "target_ru": "Маленький мышонок b"
+    "target_ru": "Маленький мышонок 4"
   },
   {
     "id": "042634",
@@ -15897,7 +15897,7 @@
     "id": "042649",
     "source_cn": "找到锅1",
     "ref_en": "Find pot 1",
-    "target_ru": "Найти горшок b"
+    "target_ru": "Найти горшок 1"
   },
   {
     "id": "042650",
@@ -16023,7 +16023,7 @@
     "id": "042670",
     "source_cn": "污秽长枪1",
     "ref_en": "Filthy Spear 1",
-    "target_ru": "Грязное копье b"
+    "target_ru": "Грязное копье 1"
   },
   {
     "id": "042671",
@@ -16647,7 +16647,7 @@
     "id": "042774",
     "source_cn": "收集音符2",
     "ref_en": "Collect Musical Notes 2",
-    "target_ru": "Собирайте музыкальные ноты b"
+    "target_ru": "Собирайте музыкальные ноты 2"
   },
   {
     "id": "042775",
@@ -16899,7 +16899,7 @@
     "id": "042816",
     "source_cn": "雕像1",
     "ref_en": "Statue 1",
-    "target_ru": "Статуя b"
+    "target_ru": "Статуя 1"
   },
   {
     "id": "042817",
@@ -16983,7 +16983,7 @@
     "id": "042830",
     "source_cn": "一个趣味小玩法-事务选择3",
     "ref_en": "A Fun Mini-game: Transaction Choice 3",
-    "target_ru": "Веселая мини-игра: выбор транзакции b"
+    "target_ru": "Веселая мини-игра: выбор транзакции 3"
   },
   {
     "id": "042831",
@@ -17319,7 +17319,7 @@
     "id": "042886",
     "source_cn": "摊主1",
     "ref_en": "Stall Owner 1",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 1"
   },
   {
     "id": "042887",
@@ -17475,13 +17475,13 @@
     "id": "042912",
     "source_cn": "码头氛围NPC4",
     "ref_en": "Dock atmosphere NPC 4",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 4"
   },
   {
     "id": "042913",
     "source_cn": "社交·舞蹈2",
     "ref_en": "Social: Dance 2",
-    "target_ru": "Социальное: Танец b"
+    "target_ru": "Социальное: Танец 2"
   },
   {
     "id": "042914",
@@ -17499,7 +17499,7 @@
     "id": "042916",
     "source_cn": "程序测试1",
     "ref_en": "Program Test 1",
-    "target_ru": "Программный тест b"
+    "target_ru": "Программный тест 1"
   },
   {
     "id": "042917",
@@ -17571,13 +17571,13 @@
     "id": "042928",
     "source_cn": "西南1",
     "ref_en": "Southwest 1",
-    "target_ru": "Юго-Запад b"
+    "target_ru": "Юго-Запад 1"
   },
   {
     "id": "042929",
     "source_cn": "观众绝技1段",
     "ref_en": "Spectator Ultimate Phase 1",
-    "target_ru": "Зритель Ultimate, фаза b"
+    "target_ru": "Зритель Ultimate, фаза 1"
   },
   {
     "id": "042930",
@@ -17649,7 +17649,7 @@
     "id": "042941",
     "source_cn": "雕塑6",
     "ref_en": "Sculpture 6",
-    "target_ru": "Скульптура b"
+    "target_ru": "Скульптура 6"
   },
   {
     "id": "042942",
@@ -17811,7 +17811,7 @@
     "id": "042968",
     "source_cn": "信众女5",
     "ref_en": "Believer (Female) 5",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 5"
   },
   {
     "id": "042969",
@@ -17937,7 +17937,7 @@
     "id": "042989",
     "source_cn": "喂食点2",
     "ref_en": "Feeding Spot 2",
-    "target_ru": "Место кормления b"
+    "target_ru": "Место кормления 2"
   },
   {
     "id": "042990",
@@ -18069,7 +18069,7 @@
     "id": "043011",
     "source_cn": "怪物秘偶-狒狒祝福2",
     "ref_en": "Monster Marionette - Baboon Blessing 2",
-    "target_ru": "Монстр-марионетка - Благословение бабуина b"
+    "target_ru": "Монстр-марионетка - Благословение бабуина 2"
   },
   {
     "id": "043012",
@@ -18123,7 +18123,7 @@
     "id": "043020",
     "source_cn": "扮演点-占卜-隐藏状态-40",
     "ref_en": "Acting Point - Seer - Hidden State - 40",
-    "target_ru": "Действующая точка – Провидец – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Провидец – Скрытое состояние – 40"
   },
   {
     "id": "043021",
@@ -18141,7 +18141,7 @@
     "id": "043023",
     "source_cn": "指引01",
     "ref_en": "Guidance 01",
-    "target_ru": "Руководство bb"
+    "target_ru": "Руководство 01"
   },
   {
     "id": "043024",
@@ -18237,7 +18237,7 @@
     "id": "043039",
     "source_cn": "男村民4",
     "ref_en": "Male villager 4",
-    "target_ru": "Мужчина-житель b"
+    "target_ru": "Мужчина-житель 4"
   },
   {
     "id": "043040",
@@ -18273,7 +18273,7 @@
     "id": "043045",
     "source_cn": "管家仆人_4",
     "ref_en": "Butler Servant_4",
-    "target_ru": "Дворецкий Слуга_b"
+    "target_ru": "Дворецкий Слуга_4"
   },
   {
     "id": "043046",
@@ -18381,7 +18381,7 @@
     "id": "043063",
     "source_cn": "采集物·失踪案材料2",
     "ref_en": "Collectible · Missing Case Material 2",
-    "target_ru": "Коллекционный предмет · Отсутствует материал футляра b"
+    "target_ru": "Коллекционный предмет · Отсутствует материал футляра 2"
   },
   {
     "id": "043064",
@@ -18393,7 +18393,7 @@
     "id": "043065",
     "source_cn": "阵营3传送门",
     "ref_en": "Faction 3 Portal",
-    "target_ru": "Портал фракции b"
+    "target_ru": "Портал фракции 3"
   },
   {
     "id": "043066",
@@ -19299,7 +19299,7 @@
     "id": "043216",
     "source_cn": "【灯光】三聚光灯1",
     "ref_en": "【Lighting】Three Spotlights 1",
-    "target_ru": "【Освещение】Три прожектора b"
+    "target_ru": "【Освещение】Три прожектора 1"
   },
   {
     "id": "043217",
@@ -19425,7 +19425,7 @@
     "id": "043237",
     "source_cn": "关闭lua插桩统计",
     "ref_en": "Close Lua instrumentation statistics",
-    "target_ru": "Закрыть статистику инструментирования Lub"
+    "target_ru": "Закрыть статистику инструментирования Lua"
   },
   {
     "id": "043238",
@@ -19551,7 +19551,7 @@
     "id": "043258",
     "source_cn": "大资源点12",
     "ref_en": "Large Resource Point 12",
-    "target_ru": "Большая ресурсная точка bb"
+    "target_ru": "Большая ресурсная точка 12"
   },
   {
     "id": "043259",
@@ -19695,7 +19695,7 @@
     "id": "043282",
     "source_cn": "收集音符1",
     "ref_en": "Collect Note 1",
-    "target_ru": "Соберите записку b"
+    "target_ru": "Соберите записку 1"
   },
   {
     "id": "043283",
@@ -19773,7 +19773,7 @@
     "id": "043295",
     "source_cn": "点1",
     "ref_en": "Point 1",
-    "target_ru": "Пункт b"
+    "target_ru": "Пункт 1"
   },
   {
     "id": "043296",
@@ -19851,7 +19851,7 @@
     "id": "043308",
     "source_cn": "蝴蝶结·一",
     "ref_en": "Bow 1",
-    "target_ru": "Лук b"
+    "target_ru": "Лук 1"
   },
   {
     "id": "043309",
@@ -20055,7 +20055,7 @@
     "id": "043342",
     "source_cn": "一个趣味小玩法-事务选择2",
     "ref_en": "A Fun Mini-game: Transaction Choice 2",
-    "target_ru": "Веселая мини-игра: выбор транзакции b"
+    "target_ru": "Веселая мини-игра: выбор транзакции 2"
   },
   {
     "id": "043343",
@@ -20415,7 +20415,7 @@
     "id": "043402",
     "source_cn": "木板2",
     "ref_en": "Wooden Plank 2",
-    "target_ru": "Деревянная доска b"
+    "target_ru": "Деревянная доска 2"
   },
   {
     "id": "043403",
@@ -20493,7 +20493,7 @@
     "id": "043415",
     "source_cn": "码头氛围NPC5",
     "ref_en": "Dock atmosphere NPC 5",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 5"
   },
   {
     "id": "043416",
@@ -20535,7 +20535,7 @@
     "id": "043422",
     "source_cn": "第14天",
     "ref_en": "Day 14",
-    "target_ru": "День bb"
+    "target_ru": "День 14"
   },
   {
     "id": "043423",
@@ -20949,7 +20949,7 @@
     "id": "043491",
     "source_cn": "信众女4",
     "ref_en": "Believer (Female) 4",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 4"
   },
   {
     "id": "043492",
@@ -21051,7 +21051,7 @@
     "id": "043508",
     "source_cn": "喂食点1",
     "ref_en": "Feeding Spot 1",
-    "target_ru": "Место кормления b"
+    "target_ru": "Место кормления 1"
   },
   {
     "id": "043509",
@@ -21183,7 +21183,7 @@
     "id": "043530",
     "source_cn": "怪物秘偶-狒狒祝福3",
     "ref_en": "Monster Marionette - Baboon Blessing 3",
-    "target_ru": "Монстр-марионетка - Благословение павиана b"
+    "target_ru": "Монстр-марионетка - Благословение павиана 3"
   },
   {
     "id": "043531",
@@ -21255,7 +21255,7 @@
     "id": "043542",
     "source_cn": "指引02",
     "ref_en": "Guidance 02",
-    "target_ru": "Руководство bb"
+    "target_ru": "Руководство 02"
   },
   {
     "id": "043543",
@@ -21417,7 +21417,7 @@
     "id": "043569",
     "source_cn": "男村民5",
     "ref_en": "Male Villager 5",
-    "target_ru": "Мужчина-житель b"
+    "target_ru": "Мужчина-житель 5"
   },
   {
     "id": "043570",
@@ -21459,7 +21459,7 @@
     "id": "043576",
     "source_cn": "管家仆人_5",
     "ref_en": "Butler Servant_5",
-    "target_ru": "Дворецкий-Слуга_b"
+    "target_ru": "Дворецкий-Слуга_5"
   },
   {
     "id": "043577",
@@ -21591,7 +21591,7 @@
     "id": "043598",
     "source_cn": "采集物·失踪案材料1",
     "ref_en": "Collection Object - Missing Case Materials 1",
-    "target_ru": "Объект коллекции – недостающие материалы дела b"
+    "target_ru": "Объект коллекции – недостающие материалы дела 1"
   },
   {
     "id": "043599",
@@ -21651,7 +21651,7 @@
     "id": "043608",
     "source_cn": "黄铜书挑战商店",
     "ref_en": "Brass Book Challenge Shop",
-    "target_ru": "Магазин Brass Book Challengb"
+    "target_ru": "Магазин Brass Book Challenge"
   },
   {
     "id": "043609",
@@ -21723,7 +21723,7 @@
     "id": "043620",
     "source_cn": "【特效】雾气2",
     "ref_en": "[Effect] Mist 2",
-    "target_ru": "[Эффект] Туман b"
+    "target_ru": "[Эффект] Туман 2"
   },
   {
     "id": "043621",
@@ -21753,7 +21753,7 @@
     "id": "043625",
     "source_cn": "临时雾气4",
     "ref_en": "Temporary fog 4",
-    "target_ru": "Временный туман b"
+    "target_ru": "Временный туман 4"
   },
   {
     "id": "043626",
@@ -21987,7 +21987,7 @@
     "id": "043664",
     "source_cn": "巡逻路线2",
     "ref_en": "Patrol route 2",
-    "target_ru": "Патрульный маршрут b"
+    "target_ru": "Патрульный маршрут 2"
   },
   {
     "id": "043665",
@@ -22215,7 +22215,7 @@
     "id": "043702",
     "source_cn": "第一波蓝色传送门2",
     "ref_en": "First Wave Blue Portal 2",
-    "target_ru": "Синий портал первой волны b"
+    "target_ru": "Синий портал первой волны 2"
   },
   {
     "id": "043703",
@@ -22233,7 +22233,7 @@
     "id": "043705",
     "source_cn": "纯氛围客人1",
     "ref_en": "Atmospheric Guest 1",
-    "target_ru": "Атмосферный гость b"
+    "target_ru": "Атмосферный гость 1"
   },
   {
     "id": "043706",
@@ -22359,7 +22359,7 @@
     "id": "043726",
     "source_cn": "邮轮排队三",
     "ref_en": "Cruise Line Queue 3",
-    "target_ru": "Круизная линия, очередь b"
+    "target_ru": "Круизная линия, очередь 3"
   },
   {
     "id": "043727",
@@ -22695,7 +22695,7 @@
     "id": "043782",
     "source_cn": "布兰登6",
     "ref_en": "Brandon 6",
-    "target_ru": "Брэндон b"
+    "target_ru": "Брэндон 6"
   },
   {
     "id": "043783",
@@ -22935,7 +22935,7 @@
     "id": "043822",
     "source_cn": "特效3",
     "ref_en": "Effect 3",
-    "target_ru": "Эффект b"
+    "target_ru": "Эффект 3"
   },
   {
     "id": "043823",
@@ -23163,7 +23163,7 @@
     "id": "043860",
     "source_cn": "雕像3",
     "ref_en": "Statue 3",
-    "target_ru": "Статуя b"
+    "target_ru": "Статуя 3"
   },
   {
     "id": "043861",
@@ -23295,13 +23295,13 @@
     "id": "043882",
     "source_cn": "一个趣味小玩法-事务选择1",
     "ref_en": "A Fun Mini-game: Transaction Choice 1",
-    "target_ru": "Веселая мини-игра: выбор транзакции b"
+    "target_ru": "Веселая мини-игра: выбор транзакции 1"
   },
   {
     "id": "043883",
     "source_cn": "一号子弹消除Text",
     "ref_en": "Bullet No. 1 Elimination Text",
-    "target_ru": "Текст исключения пункта № b"
+    "target_ru": "Текст исключения пункта № 1"
   },
   {
     "id": "043884",
@@ -23667,7 +23667,7 @@
     "id": "043944",
     "source_cn": "摊主7",
     "ref_en": "Stall Owner 7",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 7"
   },
   {
     "id": "043945",
@@ -23727,7 +23727,7 @@
     "id": "043954",
     "source_cn": "水手2",
     "ref_en": "Sailor 2",
-    "target_ru": "Моряк b"
+    "target_ru": "Моряк 2"
   },
   {
     "id": "043955",
@@ -23811,7 +23811,7 @@
     "id": "043968",
     "source_cn": "码头氛围NPC6",
     "ref_en": "Dock atmosphere NPC 6",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 6"
   },
   {
     "id": "043969",
@@ -24027,7 +24027,7 @@
     "id": "044004",
     "source_cn": "45装等",
     "ref_en": "Gear Score 45",
-    "target_ru": "Оценка снаряжения bb"
+    "target_ru": "Оценка снаряжения 45"
   },
   {
     "id": "044005",
@@ -24231,7 +24231,7 @@
     "id": "044038",
     "source_cn": "信众女3",
     "ref_en": "Believer (Female) 3",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 3"
   },
   {
     "id": "044039",
@@ -24327,7 +24327,7 @@
     "id": "044054",
     "source_cn": "基底3_3",
     "ref_en": "Base 3_3",
-    "target_ru": "База 3_b"
+    "target_ru": "База 3_3"
   },
   {
     "id": "044055",
@@ -24435,7 +24435,7 @@
     "id": "044072",
     "source_cn": "怪物秘偶-狒狒祝福4",
     "ref_en": "Monster Marionette - Baboon Blessing 4",
-    "target_ru": "Монстр-марионетка - Благословение бабуина b"
+    "target_ru": "Монстр-марионетка - Благословение бабуина 4"
   },
   {
     "id": "044073",
@@ -24663,7 +24663,7 @@
     "id": "044110",
     "source_cn": "管家仆人_2",
     "ref_en": "Butler Servant_2",
-    "target_ru": "Дворецкий Слуга_b"
+    "target_ru": "Дворецкий Слуга_2"
   },
   {
     "id": "044111",
@@ -24873,7 +24873,7 @@
     "id": "044145",
     "source_cn": "【特效】雾气3",
     "ref_en": "[Effect] Mist 3",
-    "target_ru": "[Эффект] Туман b"
+    "target_ru": "[Эффект] Туман 3"
   },
   {
     "id": "044146",
@@ -24915,7 +24915,7 @@
     "id": "044152",
     "source_cn": "丧钟2道具初始状态",
     "ref_en": "Death Knell 2 Item Initial State",
-    "target_ru": "Исходное состояние предмета Death Knell b"
+    "target_ru": "Исходное состояние предмета Death Knell 2"
   },
   {
     "id": "044153",
@@ -25011,7 +25011,7 @@
     "id": "044168",
     "source_cn": "副本_阶段结算",
     "ref_en": "Dungeon_Phase Settlement",
-    "target_ru": "Поселение Dungeon_Phasb"
+    "target_ru": "Поселение Dungeon_Phase"
   },
   {
     "id": "044169",
@@ -25029,7 +25029,7 @@
     "id": "044171",
     "source_cn": "升降梯8",
     "ref_en": "Elevator 8",
-    "target_ru": "Лифт b"
+    "target_ru": "Лифт 8"
   },
   {
     "id": "044172",
@@ -25125,7 +25125,7 @@
     "id": "044187",
     "source_cn": "小老鼠9",
     "ref_en": "Small Mouse 9",
-    "target_ru": "Маленькая мышь b"
+    "target_ru": "Маленькая мышь 9"
   },
   {
     "id": "044188",
@@ -25143,7 +25143,7 @@
     "id": "044190",
     "source_cn": "巡逻路线3",
     "ref_en": "Patrol Route 3",
-    "target_ru": "Патрульный маршрут b"
+    "target_ru": "Патрульный маршрут 3"
   },
   {
     "id": "044191",
@@ -25287,7 +25287,7 @@
     "id": "044214",
     "source_cn": "栅栏1",
     "ref_en": "Fence 1",
-    "target_ru": "Забор b"
+    "target_ru": "Забор 1"
   },
   {
     "id": "044215",
@@ -25323,7 +25323,7 @@
     "id": "044220",
     "source_cn": "痛苦的灵2",
     "ref_en": "Painful Spirit 2",
-    "target_ru": "Болезненный дух b"
+    "target_ru": "Болезненный дух 2"
   },
   {
     "id": "044221",
@@ -25893,7 +25893,7 @@
     "id": "044315",
     "source_cn": "扮演漫游-学徒卡墙2",
     "ref_en": "Acting Roaming - Apprentice Wall Stuck 2",
-    "target_ru": "Актерский роуминг - Ученик застрял у стены b"
+    "target_ru": "Актерский роуминг - Ученик застрял у стены 2"
   },
   {
     "id": "044316",
@@ -26001,7 +26001,7 @@
     "id": "044333",
     "source_cn": "特效2",
     "ref_en": "Effect 2",
-    "target_ru": "Эффект b"
+    "target_ru": "Эффект 2"
   },
   {
     "id": "044334",
@@ -26091,7 +26091,7 @@
     "id": "044348",
     "source_cn": "蓝山晶石133个",
     "ref_en": "Blue Mountain Crystal 133",
-    "target_ru": "Синий горный кристалл abb"
+    "target_ru": "Синий горный кристалл 133"
   },
   {
     "id": "044349",
@@ -26175,7 +26175,7 @@
     "id": "044362",
     "source_cn": "镭射隐形怪_3",
     "ref_en": "Laser Stealth Monster_3",
-    "target_ru": "Лазерный стелс-монстр_b"
+    "target_ru": "Лазерный стелс-монстр_3"
   },
   {
     "id": "044363",
@@ -26205,7 +26205,7 @@
     "id": "044367",
     "source_cn": "雕像2",
     "ref_en": "Statue 2",
-    "target_ru": "Статуя b"
+    "target_ru": "Статуя 2"
   },
   {
     "id": "044368",
@@ -26577,7 +26577,7 @@
     "id": "044429",
     "source_cn": "居民12",
     "ref_en": "Resident 12",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 12"
   },
   {
     "id": "044430",
@@ -26595,7 +26595,7 @@
     "id": "044432",
     "source_cn": "广播操氛围4",
     "ref_en": "Radio Calisthenics Ambience 4",
-    "target_ru": "Радио художественная гимнастика Ambience b"
+    "target_ru": "Радио художественная гимнастика Ambience 4"
   },
   {
     "id": "044433",
@@ -26733,7 +26733,7 @@
     "id": "044455",
     "source_cn": "摊主6",
     "ref_en": "Stall Owner 6",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 6"
   },
   {
     "id": "044456",
@@ -26853,7 +26853,7 @@
     "id": "044475",
     "source_cn": "珍妮进场点位1",
     "ref_en": "Jenny entry point 1",
-    "target_ru": "Дженни, точка входа b"
+    "target_ru": "Дженни, точка входа 1"
   },
   {
     "id": "044476",
@@ -26865,7 +26865,7 @@
     "id": "044477",
     "source_cn": "码头氛围NPC7",
     "ref_en": "Dock atmosphere NPC 7",
-    "target_ru": "Атмосфера дока NPC b"
+    "target_ru": "Атмосфера дока NPC 7"
   },
   {
     "id": "044478",
@@ -27105,7 +27105,7 @@
     "id": "044517",
     "source_cn": "信众女2",
     "ref_en": "Believer (Female) 2",
-    "target_ru": "Верующий (женщина) b"
+    "target_ru": "Верующий (женщина) 2"
   },
   {
     "id": "044518",
@@ -27159,7 +27159,7 @@
     "id": "044526",
     "source_cn": "占卜家-普攻四段",
     "ref_en": "Seer - Basic Attack Phase 4",
-    "target_ru": "Провидец — базовая атака, фаза b"
+    "target_ru": "Провидец — базовая атака, фаза 4"
   },
   {
     "id": "044527",
@@ -27231,7 +27231,7 @@
     "id": "044538",
     "source_cn": "基底3_2",
     "ref_en": "Base 3_2",
-    "target_ru": "База 3_b"
+    "target_ru": "База 3_2"
   },
   {
     "id": "044539",
@@ -27309,7 +27309,7 @@
     "id": "044551",
     "source_cn": "怪物秘偶-狒狒祝福5",
     "ref_en": "Monster Marionette - Baboon Blessing 5",
-    "target_ru": "Монстр-марионетка - Благословение павиана b"
+    "target_ru": "Монстр-марионетка - Благословение павиана 5"
   },
   {
     "id": "044552",
@@ -27345,7 +27345,7 @@
     "id": "044557",
     "source_cn": "扮演点-占卜-隐藏状态-53",
     "ref_en": "Acting Point - Seer - Hidden State - 53",
-    "target_ru": "Действующая точка - Провидец - Скрытое состояние - bb"
+    "target_ru": "Действующая точка - Провидец - Скрытое состояние - 53"
   },
   {
     "id": "044558",
@@ -27483,7 +27483,7 @@
     "id": "044580",
     "source_cn": "男村民3",
     "ref_en": "Male Villager 3",
-    "target_ru": "Мужчина-житель b"
+    "target_ru": "Мужчина-житель 3"
   },
   {
     "id": "044581",
@@ -27501,7 +27501,7 @@
     "id": "044583",
     "source_cn": "神圣盔甲2段",
     "ref_en": "Holy Armor Stage 2",
-    "target_ru": "Святая броня, уровень b"
+    "target_ru": "Святая броня, уровень 2"
   },
   {
     "id": "044584",
@@ -27525,7 +27525,7 @@
     "id": "044587",
     "source_cn": "管家仆人_3",
     "ref_en": "Butler Servant_3",
-    "target_ru": "Дворецкий Слуга_b"
+    "target_ru": "Дворецкий Слуга_3"
   },
   {
     "id": "044588",
@@ -27675,7 +27675,7 @@
     "id": "044612",
     "source_cn": "饲料4空气墙前1",
     "ref_en": "Feed 4 before invisible wall 1",
-    "target_ru": "Подача 4 перед невидимой стеной b"
+    "target_ru": "Подача 4 перед невидимой стеной 1"
   },
   {
     "id": "044613",
@@ -27813,7 +27813,7 @@
     "id": "044635",
     "source_cn": "主线1-3",
     "ref_en": "Main Story 1-3",
-    "target_ru": "Основная история 1-b"
+    "target_ru": "Основная история 1-3"
   },
   {
     "id": "044636",
@@ -27927,7 +27927,7 @@
     "id": "044654",
     "source_cn": "升降梯9",
     "ref_en": "Elevator 9",
-    "target_ru": "Лифт b"
+    "target_ru": "Лифт 9"
   },
   {
     "id": "044655",
@@ -28077,7 +28077,7 @@
     "id": "044679",
     "source_cn": "小老鼠8",
     "ref_en": "Little mouse 8",
-    "target_ru": "Мышка b"
+    "target_ru": "Мышка 8"
   },
   {
     "id": "044680",
@@ -28239,7 +28239,7 @@
     "id": "044706",
     "source_cn": "污秽长枪5",
     "ref_en": "Filthy Spear 5",
-    "target_ru": "Грязное копье b"
+    "target_ru": "Грязное копье 5"
   },
   {
     "id": "044707",
@@ -28317,7 +28317,7 @@
     "id": "044719",
     "source_cn": "纯氛围客人3",
     "ref_en": "Atmospheric Guest 3",
-    "target_ru": "Атмосферный гость b"
+    "target_ru": "Атмосферный гость 3"
   },
   {
     "id": "044720",
@@ -28581,7 +28581,7 @@
     "id": "044763",
     "source_cn": "临时空气墙2",
     "ref_en": "Temporary air wall 2",
-    "target_ru": "Временная воздушная стена b"
+    "target_ru": "Временная воздушная стена 2"
   },
   {
     "id": "044764",
@@ -28647,7 +28647,7 @@
     "id": "044774",
     "source_cn": "卢娜2",
     "ref_en": "Luna 2",
-    "target_ru": "Луна b"
+    "target_ru": "Луна 2"
   },
   {
     "id": "044775",
@@ -28779,7 +28779,7 @@
     "id": "044796",
     "source_cn": "布兰登4",
     "ref_en": "Brandon 4",
-    "target_ru": "Брэндон b"
+    "target_ru": "Брэндон 4"
   },
   {
     "id": "044797",
@@ -28989,7 +28989,7 @@
     "id": "044831",
     "source_cn": "特效1",
     "ref_en": "Effect 1",
-    "target_ru": "Эффект b"
+    "target_ru": "Эффект 1"
   },
   {
     "id": "044832",
@@ -29025,7 +29025,7 @@
     "id": "044837",
     "source_cn": "神秘人2",
     "ref_en": "Mysterious person 2",
-    "target_ru": "Таинственный человек b"
+    "target_ru": "Таинственный человек 2"
   },
   {
     "id": "044838",
@@ -29097,7 +29097,7 @@
     "id": "044849",
     "source_cn": "花纹三",
     "ref_en": "Pattern 3",
-    "target_ru": "Узор b"
+    "target_ru": "Узор 3"
   },
   {
     "id": "044850",
@@ -29181,13 +29181,13 @@
     "id": "044863",
     "source_cn": "镜头2-1",
     "ref_en": "Shot 2-1",
-    "target_ru": "Удар 2-b"
+    "target_ru": "Удар 2-1"
   },
   {
     "id": "044864",
     "source_cn": "镭射隐形怪_2",
     "ref_en": "Laser Stealth Monster_2",
-    "target_ru": "Лазерный стелс-монстр_b"
+    "target_ru": "Лазерный стелс-монстр_2"
   },
   {
     "id": "044865",
@@ -29205,7 +29205,7 @@
     "id": "044867",
     "source_cn": "雕像5",
     "ref_en": "Statue 5",
-    "target_ru": "Статуя b"
+    "target_ru": "Статуя 5"
   },
   {
     "id": "044868",
@@ -29565,7 +29565,7 @@
     "id": "044927",
     "source_cn": "居民13",
     "ref_en": "Resident 13",
-    "target_ru": "Резидент bb"
+    "target_ru": "Резидент 13"
   },
   {
     "id": "044928",
@@ -29643,7 +29643,7 @@
     "id": "044940",
     "source_cn": "打折妇人2",
     "ref_en": "Discounting Woman 2",
-    "target_ru": "Женщина со скидкой b"
+    "target_ru": "Женщина со скидкой 2"
   },
   {
     "id": "044941",
@@ -29661,7 +29661,7 @@
     "id": "044943",
     "source_cn": "摊主5",
     "ref_en": "Stall Owner 5",
-    "target_ru": "Владелец ларька b"
+    "target_ru": "Владелец ларька 5"
   },
   {
     "id": "044944",
@@ -29805,7 +29805,7 @@
     "id": "044967",
     "source_cn": "珍妮进场点位2",
     "ref_en": "Jenny entry point 2",
-    "target_ru": "Дженни, точка входа b"
+    "target_ru": "Дженни, точка входа 2"
   },
   {
     "id": "044968",

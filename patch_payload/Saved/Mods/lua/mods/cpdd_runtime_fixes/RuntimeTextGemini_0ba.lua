@@ -216,7 +216,7 @@ return {
     ["In history, I saw an evil spirit in silver armor guarding you."] = "В истории я видел злого духа в серебряных доспехах, охраняющего тебя.",
     ["<Highlight>Craft: </>Mithril Forged Armor/Azure Cloak/Knight Battle Armor\nThe first ray of morning sunlight pierces through the mist, landing on the newly bloomed roses and lilies of the valley."] = "<Highlight>Отделка: </>Мифриловая ковка · Лазурный плащ · Рыцарские латы\nПервый утренний луч солнца пронзает туман, касаясь распускающихся роз и ландышей.",
     ["Marionette - Aberrant Selena Phantom"] = "Марионетка - Аберрантный Фантом Селены",
-    ["Postman Text Board Note 1"] = "Текстовая доска почтальона, Примечание b",
+    ["Postman Text Board Note 1"] = "Текстовая доска почтальона, Примечание 1",
     ["Switch <Orange>City Dark Side</>."] = "Переключатель <Orange>City Dark Side</>.",
     ["Achieve Railway Tycoon V-tier rating once on the challenge route"] = "Достигните рейтинга V-уровня «Железнодорожный магнат» один раз на маршруте испытаний.",
     ["[Collect] Windmill - 1 Step Forward to Examine"] = "[Собрать] Ветряная мельница — 1 шаг вперед, чтобы изучить",

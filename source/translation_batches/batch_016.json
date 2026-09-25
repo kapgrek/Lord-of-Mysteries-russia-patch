@@ -9,7 +9,7 @@
     "id": "075001",
     "source_cn": "途径技能1",
     "ref_en": "Pathway Skill 1",
-    "target_ru": "Навык пути b"
+    "target_ru": "Навык пути 1"
   },
   {
     "id": "075002",
@@ -33,7 +33,7 @@
     "id": "075005",
     "source_cn": "金纺线100个",
     "ref_en": "Gold Spun Thread 100",
-    "target_ru": "Золотая нить abb"
+    "target_ru": "Золотая нить 100"
   },
   {
     "id": "075006",
@@ -63,7 +63,7 @@
     "id": "075010",
     "source_cn": "黑皇帝旗帜8",
     "ref_en": "Black Emperor Flag 8",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 8"
   },
   {
     "id": "075011",
@@ -279,7 +279,7 @@
     "id": "075046",
     "source_cn": "发送C8聊天信息",
     "ref_en": "Send C8 Chat Message",
-    "target_ru": "Отправить сообщение в чат Cb"
+    "target_ru": "Отправить сообщение в чат C8"
   },
   {
     "id": "075047",
@@ -369,7 +369,7 @@
     "id": "075061",
     "source_cn": "引导射线红色传送门2",
     "ref_en": "Guided Ray Red Portal 2",
-    "target_ru": "Управляемый луч Красный Портал b"
+    "target_ru": "Управляемый луч Красный Портал 2"
   },
   {
     "id": "075062",
@@ -597,7 +597,7 @@
     "id": "075099",
     "source_cn": "电线杆1",
     "ref_en": "Utility Pole 1",
-    "target_ru": "Электрический столб b"
+    "target_ru": "Электрический столб 1"
   },
   {
     "id": "075100",
@@ -747,7 +747,7 @@
     "id": "075124",
     "source_cn": "选项1-2",
     "ref_en": "Option 1-2",
-    "target_ru": "Вариант 1-b"
+    "target_ru": "Вариант 1-2"
   },
   {
     "id": "075125",
@@ -1101,7 +1101,7 @@
     "id": "075183",
     "source_cn": "怪物1",
     "ref_en": "Monster 1",
-    "target_ru": "Монстр b"
+    "target_ru": "Монстр 1"
   },
   {
     "id": "075184",
@@ -1179,7 +1179,7 @@
     "id": "075196",
     "source_cn": "暮色连斩一",
     "ref_en": "Twilight Combo Slash 1",
-    "target_ru": "Сумеречный комбо-удар b"
+    "target_ru": "Сумеречный комбо-удар 1"
   },
   {
     "id": "075197",
@@ -1251,7 +1251,7 @@
     "id": "075208",
     "source_cn": "滞涩命中_百分比加成",
     "ref_en": "Stagnation Hit_Percentage Bonus",
-    "target_ru": "Бонус за стагнацию Hit_Percentagb"
+    "target_ru": "Бонус за стагнацию Hit_Percentage"
   },
   {
     "id": "075209",
@@ -1299,7 +1299,7 @@
     "id": "075216",
     "source_cn": "第二赛季-第一轮",
     "ref_en": "Season 2 - Round 1",
-    "target_ru": "Сезон 2 – Раунд b"
+    "target_ru": "Сезон 2 – Раунд 1"
   },
   {
     "id": "075217",
@@ -1311,7 +1311,7 @@
     "id": "075218",
     "source_cn": "纸牌飞刀一",
     "ref_en": "Card Flying Dagger 1",
-    "target_ru": "Карта Летающий Кинжал b"
+    "target_ru": "Карта Летающий Кинжал 1"
   },
   {
     "id": "075219",
@@ -1401,7 +1401,7 @@
     "id": "075233",
     "source_cn": "近景Actor2",
     "ref_en": "Close-up Actor 2",
-    "target_ru": "Актер крупным планом b"
+    "target_ru": "Актер крупным планом 2"
   },
   {
     "id": "075234",
@@ -1485,7 +1485,7 @@
     "id": "075247",
     "source_cn": "面具2",
     "ref_en": "Mask 2",
-    "target_ru": "Маска b"
+    "target_ru": "Маска 2"
   },
   {
     "id": "075248",
@@ -1629,7 +1629,7 @@
     "id": "075271",
     "source_cn": "值夜者3",
     "ref_en": "Nighthawk 3",
-    "target_ru": "Ночной ястреб b"
+    "target_ru": "Ночной ястреб 3"
   },
   {
     "id": "075272",
@@ -1953,7 +1953,7 @@
     "id": "075325",
     "source_cn": "沙袋3",
     "ref_en": "Sandbag 3",
-    "target_ru": "Мешок с песком b"
+    "target_ru": "Мешок с песком 3"
   },
   {
     "id": "075326",
@@ -2091,7 +2091,7 @@
     "id": "075348",
     "source_cn": "装修工人2",
     "ref_en": "Renovation Worker 2",
-    "target_ru": "Ремонтник b"
+    "target_ru": "Ремонтник 2"
   },
   {
     "id": "075349",
@@ -2145,7 +2145,7 @@
     "id": "075357",
     "source_cn": "邓恩2",
     "ref_en": "Dunn 2",
-    "target_ru": "Данн b"
+    "target_ru": "Данн 2"
   },
   {
     "id": "075358",
@@ -2247,7 +2247,7 @@
     "id": "075374",
     "source_cn": "5v5悬浮特效",
     "ref_en": "5v5 floating effect",
-    "target_ru": "Плавающий эффект 5 на b"
+    "target_ru": "Плавающий эффект 5 на 5"
   },
   {
     "id": "075375",
@@ -2337,7 +2337,7 @@
     "id": "075389",
     "source_cn": "丰饶之树_5200139_藤棘缠身B_代理_金色扇形AOE*4",
     "ref_en": "Tree of Abundance_5200139_Thorn Entanglement B_Proxy_Golden Fan-shaped AOE*4",
-    "target_ru": "Дерево изобилия_5200139_Шиповое опутывание B_Прокси_Золотой веерный AOE*b"
+    "target_ru": "Дерево изобилия_5200139_Шиповое опутывание B_Прокси_Золотой веерный AOE*4"
   },
   {
     "id": "075390",
@@ -2451,7 +2451,7 @@
     "id": "075408",
     "source_cn": "周版本二区",
     "ref_en": "Weekly Version Zone 2",
-    "target_ru": "Еженедельная версия, зона b"
+    "target_ru": "Еженедельная версия, зона 2"
   },
   {
     "id": "075409",
@@ -2763,7 +2763,7 @@
     "id": "075460",
     "source_cn": "第三段触发2",
     "ref_en": "Third segment trigger 2",
-    "target_ru": "Триггер третьего сегмента b"
+    "target_ru": "Триггер третьего сегмента 2"
   },
   {
     "id": "075461",
@@ -3123,7 +3123,7 @@
     "id": "075520",
     "source_cn": "写信3",
     "ref_en": "Write letter 3",
-    "target_ru": "Напишите письмо b"
+    "target_ru": "Напишите письмо 3"
   },
   {
     "id": "075521",
@@ -3411,7 +3411,7 @@
     "id": "075568",
     "source_cn": "水晶球3激活特效",
     "ref_en": "Crystal Ball 3 Activation Effect",
-    "target_ru": "Эффект активации Crystal Ball b"
+    "target_ru": "Эффект активации Crystal Ball 3"
   },
   {
     "id": "075569",
@@ -3429,7 +3429,7 @@
     "id": "075571",
     "source_cn": "火盆2",
     "ref_en": "Brazier 2",
-    "target_ru": "Мангал b"
+    "target_ru": "Мангал 2"
   },
   {
     "id": "075572",
@@ -3507,7 +3507,7 @@
     "id": "075584",
     "source_cn": "第二句2",
     "ref_en": "Second sentence 2",
-    "target_ru": "Второе предложение b"
+    "target_ru": "Второе предложение 2"
   },
   {
     "id": "075585",
@@ -4227,7 +4227,7 @@
     "id": "075704",
     "source_cn": "解除入口封锁3/3",
     "ref_en": "Remove entrance blockade 3/3",
-    "target_ru": "Снять входную блокаду 3/b"
+    "target_ru": "Снять входную блокаду 3/3"
   },
   {
     "id": "075705",
@@ -4269,7 +4269,7 @@
     "id": "075711",
     "source_cn": "近景Actor3",
     "ref_en": "Close-up Actor 3",
-    "target_ru": "Актер крупным планом b"
+    "target_ru": "Актер крупным планом 3"
   },
   {
     "id": "075712",
@@ -4581,7 +4581,7 @@
     "id": "075763",
     "source_cn": "塔罗学派2号BOSS",
     "ref_en": "Tarot Club Boss 2",
-    "target_ru": "Босс Клуба Таро b"
+    "target_ru": "Босс Клуба Таро 2"
   },
   {
     "id": "075764",
@@ -4821,7 +4821,7 @@
     "id": "075803",
     "source_cn": "沙袋2",
     "ref_en": "Sandbag 2",
-    "target_ru": "Мешок с песком b"
+    "target_ru": "Мешок с песком 2"
   },
   {
     "id": "075804",
@@ -4887,7 +4887,7 @@
     "id": "075814",
     "source_cn": "皮特·跑向伊妮德2",
     "ref_en": "Pete_Run to Enid 2",
-    "target_ru": "Пит_Беги к Энид b"
+    "target_ru": "Пит_Беги к Энид 2"
   },
   {
     "id": "075815",
@@ -4947,7 +4947,7 @@
     "id": "075824",
     "source_cn": "能量源特效1",
     "ref_en": "Energy Source Effect 1",
-    "target_ru": "Эффект источника энергии b"
+    "target_ru": "Эффект источника энергии 1"
   },
   {
     "id": "075825",
@@ -4959,7 +4959,7 @@
     "id": "075826",
     "source_cn": "舞会NPC女8",
     "ref_en": "Ball NPC Female 8",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 8"
   },
   {
     "id": "075827",
@@ -5217,7 +5217,7 @@
     "id": "075869",
     "source_cn": "中景Actor1",
     "ref_en": "Medium Shot Actor1",
-    "target_ru": "Актер среднего планаb"
+    "target_ru": "Актер среднего плана1"
   },
   {
     "id": "075870",
@@ -5367,7 +5367,7 @@
     "id": "075894",
     "source_cn": "命运的逆位氛围角色",
     "ref_en": "Fate's Reversed Atmosphere Character",
-    "target_ru": "Персонаж в перевернутой атмосфере Fatb"
+    "target_ru": "Персонаж в перевернутой атмосфере Fate"
   },
   {
     "id": "075895",
@@ -5523,7 +5523,7 @@
     "id": "075920",
     "source_cn": "支线·美梦成真·第二章第13段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 2, Paragraph 13",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф bb"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф 13"
   },
   {
     "id": "075921",
@@ -5751,7 +5751,7 @@
     "id": "075958",
     "source_cn": "途径技能3",
     "ref_en": "Pathway Skill 3",
-    "target_ru": "Навык пути b"
+    "target_ru": "Навык пути 3"
   },
   {
     "id": "075959",
@@ -5787,7 +5787,7 @@
     "id": "075964",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记2",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 2",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 2"
   },
   {
     "id": "075965",
@@ -6321,7 +6321,7 @@
     "id": "076053",
     "source_cn": "火盆3",
     "ref_en": "Brazier 3",
-    "target_ru": "Мангал b"
+    "target_ru": "Мангал 3"
   },
   {
     "id": "076054",
@@ -6387,7 +6387,7 @@
     "id": "076064",
     "source_cn": "第二句1",
     "ref_en": "Second sentence 1",
-    "target_ru": "Второе предложение b"
+    "target_ru": "Второе предложение 1"
   },
   {
     "id": "076065",
@@ -6501,7 +6501,7 @@
     "id": "076083",
     "source_cn": "阵营3修正传送点",
     "ref_en": "Faction 3 Correction Teleport Point",
-    "target_ru": "Точка телепортации коррекции Фракции b"
+    "target_ru": "Точка телепортации коррекции Фракции 3"
   },
   {
     "id": "076084",
@@ -6801,7 +6801,7 @@
     "id": "076133",
     "source_cn": "广场讨论天气",
     "ref_en": "Square Weather Discussion",
-    "target_ru": "Обсуждение погоды в Squarb"
+    "target_ru": "Обсуждение погоды в Square"
   },
   {
     "id": "076134",
@@ -6963,7 +6963,7 @@
     "id": "076160",
     "source_cn": "法尼亚街13号",
     "ref_en": "13 Fania Street",
-    "target_ru": "ул. Фания, bb"
+    "target_ru": "ул. Фания, 13"
   },
   {
     "id": "076161",
@@ -7029,7 +7029,7 @@
     "id": "076171",
     "source_cn": "眺望高台相机1",
     "ref_en": "Lookout Platform Camera 1",
-    "target_ru": "Камера смотровой площадки b"
+    "target_ru": "Камера смотровой площадки 1"
   },
   {
     "id": "076172",
@@ -7047,7 +7047,7 @@
     "id": "076174",
     "source_cn": "第一赛季第60天",
     "ref_en": "Season 1, Day 60",
-    "target_ru": "Сезон 1, День bb"
+    "target_ru": "Сезон 1, День 60"
   },
   {
     "id": "076175",
@@ -7383,7 +7383,7 @@
     "id": "076230",
     "source_cn": "值夜者1",
     "ref_en": "Nighthawk 1",
-    "target_ru": "Ночной ястреб b"
+    "target_ru": "Ночной ястреб 1"
   },
   {
     "id": "076231",
@@ -7407,7 +7407,7 @@
     "id": "076234",
     "source_cn": "出生点4路径",
     "ref_en": "Spawn point 4 path",
-    "target_ru": "Путь к точке появления b"
+    "target_ru": "Путь к точке появления 4"
   },
   {
     "id": "076235",
@@ -7773,7 +7773,7 @@
     "id": "076295",
     "source_cn": "沙袋1",
     "ref_en": "Sandbag 1",
-    "target_ru": "Мешок с песком b"
+    "target_ru": "Мешок с песком 1"
   },
   {
     "id": "076296",
@@ -7857,7 +7857,7 @@
     "id": "076309",
     "source_cn": "男职员1",
     "ref_en": "Male Clerk 1",
-    "target_ru": "Мужчина-клерк b"
+    "target_ru": "Мужчина-клерк 1"
   },
   {
     "id": "076310",
@@ -8163,7 +8163,7 @@
     "id": "076360",
     "source_cn": "Boss_子爵夫人_二阶段",
     "ref_en": "Boss_Viscountess_Phase 2",
-    "target_ru": "Босс_Виконтесса_Фаза b"
+    "target_ru": "Босс_Виконтесса_Фаза 2"
   },
   {
     "id": "076361",
@@ -8649,7 +8649,7 @@
     "id": "076441",
     "source_cn": "生长阶段:2/3",
     "ref_en": "Growth Stage: 2/3",
-    "target_ru": "Стадия роста: 2/b"
+    "target_ru": "Стадия роста: 2/3"
   },
   {
     "id": "076442",
@@ -8715,7 +8715,7 @@
     "id": "076452",
     "source_cn": "聚合因子250个",
     "ref_en": "Aggregation Factor 250",
-    "target_ru": "Коэффициент агрегирования abb"
+    "target_ru": "Коэффициент агрегирования 250"
   },
   {
     "id": "076453",
@@ -8835,7 +8835,7 @@
     "id": "076472",
     "source_cn": "途径技能2",
     "ref_en": "Pathway Skill 2",
-    "target_ru": "Навык пути b"
+    "target_ru": "Навык пути 2"
   },
   {
     "id": "076473",
@@ -8853,7 +8853,7 @@
     "id": "076475",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记3",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 3",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 3"
   },
   {
     "id": "076476",
@@ -8883,7 +8883,7 @@
     "id": "076480",
     "source_cn": "黑皇帝旗帜5",
     "ref_en": "Black Emperor Flag 5",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 5"
   },
   {
     "id": "076481",
@@ -9099,7 +9099,7 @@
     "id": "076516",
     "source_cn": "写信1",
     "ref_en": "Write letter 1",
-    "target_ru": "Напишите письмо b"
+    "target_ru": "Напишите письмо 1"
   },
   {
     "id": "076517",
@@ -9249,7 +9249,7 @@
     "id": "076541",
     "source_cn": "引导射线红色传送门1",
     "ref_en": "Guided Ray Red Portal 1",
-    "target_ru": "Управляемый луч Красный Портал b"
+    "target_ru": "Управляемый луч Красный Портал 1"
   },
   {
     "id": "076542",
@@ -9309,7 +9309,7 @@
     "id": "076551",
     "source_cn": "排队4离开路线",
     "ref_en": "Queue 4 departure route",
-    "target_ru": "Маршрут отправления очереди b"
+    "target_ru": "Маршрут отправления очереди 4"
   },
   {
     "id": "076552",
@@ -9603,7 +9603,7 @@
     "id": "076600",
     "source_cn": "选项1-1",
     "ref_en": "Option 1-1",
-    "target_ru": "Вариант 1-b"
+    "target_ru": "Вариант 1-1"
   },
   {
     "id": "076601",
@@ -9735,7 +9735,7 @@
     "id": "076622",
     "source_cn": "wave2_真",
     "ref_en": "wave2_True",
-    "target_ru": "волна2_Trub"
+    "target_ru": "волна2_True"
   },
   {
     "id": "076623",
@@ -9939,7 +9939,7 @@
     "id": "076656",
     "source_cn": "困难神弃-乌洛琉斯-随机分buff-2个坦克（退化DPS，再退化奶妈）：第3层",
     "ref_en": "Hard Forsaken-Ouroboros-Randomly distribute buffs-2 Tanks (Degrade DPS, then degrade Healer): Layer 3",
-    "target_ru": "Hard Forsaken-Уроборос-случайное распределение баффов-2 танка (ухудшить DPS, затем ухудшить целителя): уровень b"
+    "target_ru": "Hard Forsaken-Уроборос-случайное распределение баффов-2 танка (ухудшить DPS, затем ухудшить целителя): уровень 3"
   },
   {
     "id": "076657",
@@ -9969,7 +9969,7 @@
     "id": "076661",
     "source_cn": "复活点6",
     "ref_en": "Spawn Point 6",
-    "target_ru": "Точка появления b"
+    "target_ru": "Точка появления 6"
   },
   {
     "id": "076662",
@@ -10023,7 +10023,7 @@
     "id": "076670",
     "source_cn": "家族等级7级",
     "ref_en": "Family level 7",
-    "target_ru": "Семейный уровень b"
+    "target_ru": "Семейный уровень 7"
   },
   {
     "id": "076671",
@@ -10767,7 +10767,7 @@
     "id": "076794",
     "source_cn": "开门踏板大小和机制待改1",
     "ref_en": "Open door pedal size and mechanism need adjustment 1",
-    "target_ru": "Размер и механизм педали открытой двери требуют регулировки b"
+    "target_ru": "Размер и механизм педали открытой двери требуют регулировки 1"
   },
   {
     "id": "076795",
@@ -10929,7 +10929,7 @@
     "id": "076821",
     "source_cn": "歌颂者普攻二段",
     "ref_en": "Bard Basic Attack Stage 2",
-    "target_ru": "Базовая атака Барда, уровень b"
+    "target_ru": "Базовая атака Барда, уровень 2"
   },
   {
     "id": "076822",
@@ -11151,7 +11151,7 @@
     "id": "076858",
     "source_cn": "隐秘空间-失序之书-占位3",
     "ref_en": "Hidden Space - Book of Disorder - Placeholder 3",
-    "target_ru": "Скрытое пространство - Книга беспорядка - Заполнитель b"
+    "target_ru": "Скрытое пространство - Книга беспорядка - Заполнитель 3"
   },
   {
     "id": "076859",
@@ -11301,7 +11301,7 @@
     "id": "076883",
     "source_cn": "伙伴苏茜技能-我只是一条狗-0阶",
     "ref_en": "Partner Susie Skill - I Am Just a Dog - Tier 0",
-    "target_ru": "Навык партнера Сьюзи — Я всего лишь собака — Уровень b"
+    "target_ru": "Навык партнера Сьюзи — Я всего лишь собака — Уровень 0"
   },
   {
     "id": "076884",
@@ -11727,7 +11727,7 @@
     "id": "076954",
     "source_cn": "黑皇帝旗帜4",
     "ref_en": "Black Emperor Flag 4",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 4"
   },
   {
     "id": "076955",
@@ -12135,7 +12135,7 @@
     "id": "077022",
     "source_cn": "支线·美梦成真·第三章第9段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 3, Paragraph 9",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 3, параграф b"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 3, параграф 9"
   },
   {
     "id": "077023",
@@ -12177,7 +12177,7 @@
     "id": "077029",
     "source_cn": "是否开启Android端评分跳转",
     "ref_en": "Whether to enable Android rating jump",
-    "target_ru": "Включить ли скачок рейтинга Androib"
+    "target_ru": "Включить ли скачок рейтинга Android"
   },
   {
     "id": "077030",
@@ -12249,13 +12249,13 @@
     "id": "077041",
     "source_cn": "火盆1",
     "ref_en": "Brazier 1",
-    "target_ru": "Мангал b"
+    "target_ru": "Мангал 1"
   },
   {
     "id": "077042",
     "source_cn": "灯4",
     "ref_en": "Lamp 4",
-    "target_ru": "Лампа b"
+    "target_ru": "Лампа 4"
   },
   {
     "id": "077043",
@@ -12321,7 +12321,7 @@
     "id": "077053",
     "source_cn": "离开指引特效4",
     "ref_en": "Leave guide effect 4",
-    "target_ru": "Оставьте направляющий эффект b"
+    "target_ru": "Оставьте направляющий эффект 4"
   },
   {
     "id": "077054",
@@ -12567,7 +12567,7 @@
     "id": "077094",
     "source_cn": "68/69装等",
     "ref_en": "Gear Score 68/69",
-    "target_ru": "Оценка снаряжения 68/bb"
+    "target_ru": "Оценка снаряжения 68/69"
   },
   {
     "id": "077095",
@@ -12747,7 +12747,7 @@
     "id": "077124",
     "source_cn": "复活点7",
     "ref_en": "Resurrection Point 7",
-    "target_ru": "Точка воскрешения b"
+    "target_ru": "Точка воскрешения 7"
   },
   {
     "id": "077125",
@@ -12843,7 +12843,7 @@
     "id": "077140",
     "source_cn": "所有技能等级+3",
     "ref_en": "All skill levels +3",
-    "target_ru": "Все уровни навыков +b"
+    "target_ru": "Все уровни навыков +3"
   },
   {
     "id": "077141",
@@ -12915,7 +12915,7 @@
     "id": "077152",
     "source_cn": "洛耀1",
     "ref_en": "Luo Yao 1",
-    "target_ru": "Ло Яо b"
+    "target_ru": "Ло Яо 1"
   },
   {
     "id": "077153",
@@ -13737,7 +13737,7 @@
     "id": "077289",
     "source_cn": "阻碍左3",
     "ref_en": "Obstacle Left 3",
-    "target_ru": "Препятствие слева b"
+    "target_ru": "Препятствие слева 3"
   },
   {
     "id": "077290",
@@ -13809,7 +13809,7 @@
     "id": "077301",
     "source_cn": "【副本】丰饶之树·困难,1250303",
     "ref_en": "【Dungeon】Tree of Abundance · Hard, 1250303",
-    "target_ru": "【Подземелье】Древо изобилия · Твердый, 5521abb"
+    "target_ru": "【Подземелье】Древо изобилия · Твердый, 1250303"
   },
   {
     "id": "077302",
@@ -13845,7 +13845,7 @@
     "id": "077307",
     "source_cn": "不速之音-艾伯特对话2",
     "ref_en": "Uninvited Sound - Albert Dialogue 2",
-    "target_ru": "Незваный звук - Диалог Альберта b"
+    "target_ru": "Незваный звук - Диалог Альберта 2"
   },
   {
     "id": "077308",
@@ -13857,7 +13857,7 @@
     "id": "077309",
     "source_cn": "主线1_3廷根试衣1",
     "ref_en": "Main Story 1-3: Trying on Clothes in Tingen 1",
-    "target_ru": "Основная история 1-3: Примерка одежды в Тингене b"
+    "target_ru": "Основная история 1-3: Примерка одежды в Тингене 1"
   },
   {
     "id": "077310",
@@ -14301,7 +14301,7 @@
     "id": "077383",
     "source_cn": "火焰3",
     "ref_en": "Flame 3",
-    "target_ru": "Пламя b"
+    "target_ru": "Пламя 3"
   },
   {
     "id": "077384",
@@ -14385,7 +14385,7 @@
     "id": "077397",
     "source_cn": "聚合因子·5个",
     "ref_en": "Aggregation Factor · 5",
-    "target_ru": "Коэффициент агрегации · b"
+    "target_ru": "Коэффициент агрегации · 5"
   },
   {
     "id": "077398",
@@ -14475,7 +14475,7 @@
     "id": "077412",
     "source_cn": "途径技能4",
     "ref_en": "Pathway Skill 4",
-    "target_ru": "Навык пути b"
+    "target_ru": "Навык пути 4"
   },
   {
     "id": "077413",
@@ -14511,7 +14511,7 @@
     "id": "077418",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记1",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 1",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 1"
   },
   {
     "id": "077419",
@@ -14529,7 +14529,7 @@
     "id": "077421",
     "source_cn": "露米2",
     "ref_en": "Lumi 2",
-    "target_ru": "Люми b"
+    "target_ru": "Люми 2"
   },
   {
     "id": "077422",
@@ -14547,7 +14547,7 @@
     "id": "077424",
     "source_cn": "黑皇帝旗帜7",
     "ref_en": "Black Emperor Flag 7",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 7"
   },
   {
     "id": "077425",
@@ -14727,7 +14727,7 @@
     "id": "077454",
     "source_cn": "到烟囱口2trigger",
     "ref_en": "To Chimney Opening 2 trigger",
-    "target_ru": "Триггер открытия дымохода b"
+    "target_ru": "Триггер открытия дымохода 2"
   },
   {
     "id": "077455",
@@ -15015,7 +15015,7 @@
     "id": "077502",
     "source_cn": "灯5",
     "ref_en": "Lamp 5",
-    "target_ru": "Лампа b"
+    "target_ru": "Лампа 5"
   },
   {
     "id": "077503",
@@ -15039,7 +15039,7 @@
     "id": "077506",
     "source_cn": "离开指引特效3",
     "ref_en": "Departure Guidance Effect 3",
-    "target_ru": "Эффект направления вылета b"
+    "target_ru": "Эффект направления вылета 3"
   },
   {
     "id": "077507",
@@ -15165,7 +15165,7 @@
     "id": "077527",
     "source_cn": "金秋湖3号BOSS",
     "ref_en": "Golden Autumn Lake Boss 3",
-    "target_ru": "Босс озера Золотой Осени b"
+    "target_ru": "Босс озера Золотой Осени 3"
   },
   {
     "id": "077528",
@@ -15297,7 +15297,7 @@
     "id": "077549",
     "source_cn": "争夺区21怪物",
     "ref_en": "Contested Area 21 Monster",
-    "target_ru": "Оспариваемый монстр из Зоны bb"
+    "target_ru": "Оспариваемый монстр из Зоны 21"
   },
   {
     "id": "077550",
@@ -15519,7 +15519,7 @@
     "id": "077586",
     "source_cn": "复活点4",
     "ref_en": "Resurrection Point 4",
-    "target_ru": "Точка воскрешения b"
+    "target_ru": "Точка воскрешения 4"
   },
   {
     "id": "077587",
@@ -15543,7 +15543,7 @@
     "id": "077590",
     "source_cn": "巡逻怪物1",
     "ref_en": "Patrol Monster 1",
-    "target_ru": "Патрульный монстр b"
+    "target_ru": "Патрульный монстр 1"
   },
   {
     "id": "077591",
@@ -15747,7 +15747,7 @@
     "id": "077624",
     "source_cn": "洛耀2",
     "ref_en": "Luo Yao 2",
-    "target_ru": "Ло Яо b"
+    "target_ru": "Ло Яо 2"
   },
   {
     "id": "077625",
@@ -15759,7 +15759,7 @@
     "id": "077626",
     "source_cn": "测试状态18",
     "ref_en": "Test State 18",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 18"
   },
   {
     "id": "077627",
@@ -15843,7 +15843,7 @@
     "id": "077640",
     "source_cn": "船长倾听一",
     "ref_en": "Captain Listener 1",
-    "target_ru": "Капитан Слушатель b"
+    "target_ru": "Капитан Слушатель 1"
   },
   {
     "id": "077641",
@@ -15873,7 +15873,7 @@
     "id": "077645",
     "source_cn": "蓝山晶石100个",
     "ref_en": "Blue Mountain Crystal 100",
-    "target_ru": "Синий горный кристалл abb"
+    "target_ru": "Синий горный кристалл 100"
   },
   {
     "id": "077646",
@@ -16167,7 +16167,7 @@
     "id": "077694",
     "source_cn": "区域四",
     "ref_en": "Area 4",
-    "target_ru": "Зона b"
+    "target_ru": "Зона 4"
   },
   {
     "id": "077695",
@@ -16707,7 +16707,7 @@
     "id": "077784",
     "source_cn": "阻碍左2",
     "ref_en": "Obstacle left 2",
-    "target_ru": "Препятствие осталось b"
+    "target_ru": "Препятствие осталось 2"
   },
   {
     "id": "077785",
@@ -16977,7 +16977,7 @@
     "id": "077829",
     "source_cn": "压力板38",
     "ref_en": "Pressure Plate 38",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 38"
   },
   {
     "id": "077830",
@@ -17043,7 +17043,7 @@
     "id": "077840",
     "source_cn": "坟墓1",
     "ref_en": "Grave 1",
-    "target_ru": "Могила b"
+    "target_ru": "Могила 1"
   },
   {
     "id": "077841",
@@ -17283,7 +17283,7 @@
     "id": "077880",
     "source_cn": "沉默命中_数值",
     "ref_en": "Silence Hit_Value",
-    "target_ru": "Тишина Hit_Valub"
+    "target_ru": "Тишина Hit_Value"
   },
   {
     "id": "077881",
@@ -17325,7 +17325,7 @@
     "id": "077887",
     "source_cn": "火焰2",
     "ref_en": "Flame 2",
-    "target_ru": "Пламя b"
+    "target_ru": "Пламя 2"
   },
   {
     "id": "077888",
@@ -17367,7 +17367,7 @@
     "id": "077894",
     "source_cn": "神像二对话",
     "ref_en": "Statue 2 Dialogue",
-    "target_ru": "Диалог Статуи b"
+    "target_ru": "Диалог Статуи 2"
   },
   {
     "id": "077895",
@@ -17481,7 +17481,7 @@
     "id": "077913",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记6",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 6",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 6"
   },
   {
     "id": "077914",
@@ -17493,7 +17493,7 @@
     "id": "077915",
     "source_cn": "黑皇帝旗帜6",
     "ref_en": "Black Emperor Flag 6",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 6"
   },
   {
     "id": "077916",
@@ -18063,7 +18063,7 @@
     "id": "078010",
     "source_cn": "灯2",
     "ref_en": "Lamp 2",
-    "target_ru": "Лампа b"
+    "target_ru": "Лампа 2"
   },
   {
     "id": "078011",
@@ -18093,7 +18093,7 @@
     "id": "078015",
     "source_cn": "现实线第三章",
     "ref_en": "Reality Path Chapter 3",
-    "target_ru": "Путь реальности Глава b"
+    "target_ru": "Путь реальности Глава 3"
   },
   {
     "id": "078016",
@@ -18129,7 +18129,7 @@
     "id": "078021",
     "source_cn": "离开指引特效2",
     "ref_en": "Leave guidance effect 2",
-    "target_ru": "Оставить эффект наведения b"
+    "target_ru": "Оставить эффект наведения 2"
   },
   {
     "id": "078022",
@@ -18519,7 +18519,7 @@
     "id": "078086",
     "source_cn": "占卜家-纸牌飞刀二段",
     "ref_en": "Seer - Card Flying Dagger Phase 2",
-    "target_ru": "Провидец — Карта Летающего Кинжала, Фаза b"
+    "target_ru": "Провидец — Карта Летающего Кинжала, Фаза 2"
   },
   {
     "id": "078087",
@@ -18579,7 +18579,7 @@
     "id": "078096",
     "source_cn": "复活点5",
     "ref_en": "Respawn point 5",
-    "target_ru": "Точка возрождения b"
+    "target_ru": "Точка возрождения 5"
   },
   {
     "id": "078097",
@@ -18819,7 +18819,7 @@
     "id": "078136",
     "source_cn": "测试状态19",
     "ref_en": "Test State 19",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 19"
   },
   {
     "id": "078137",
@@ -19155,7 +19155,7 @@
     "id": "078192",
     "source_cn": "争夺区12隐形怪",
     "ref_en": "Contested Area 12 Stealth Monster",
-    "target_ru": "Скрытный монстр оспариваемой зоны bb"
+    "target_ru": "Скрытный монстр оспариваемой зоны 12"
   },
   {
     "id": "078193",
@@ -19389,7 +19389,7 @@
     "id": "078231",
     "source_cn": "店主0",
     "ref_en": "Shopkeeper 0",
-    "target_ru": "Владелец магазина b"
+    "target_ru": "Владелец магазина 0"
   },
   {
     "id": "078232",
@@ -19743,7 +19743,7 @@
     "id": "078290",
     "source_cn": "舞会NPC女3",
     "ref_en": "Ball NPC Woman 3",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 3"
   },
   {
     "id": "078291",
@@ -19845,7 +19845,7 @@
     "id": "078307",
     "source_cn": "阻碍左1",
     "ref_en": "Obstacle left 1",
-    "target_ru": "Препятствие осталось b"
+    "target_ru": "Препятствие осталось 1"
   },
   {
     "id": "078308",
@@ -20091,7 +20091,7 @@
     "id": "078348",
     "source_cn": "卜杖路点2",
     "ref_en": "Divination Rod Waypoint 2",
-    "target_ru": "Путевая точка гадального жезла b"
+    "target_ru": "Путевая точка гадального жезла 2"
   },
   {
     "id": "078349",
@@ -20103,7 +20103,7 @@
     "id": "078350",
     "source_cn": "压力板39",
     "ref_en": "Pressure plate 39",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 39"
   },
   {
     "id": "078351",
@@ -20151,7 +20151,7 @@
     "id": "078358",
     "source_cn": "坟墓2",
     "ref_en": "Grave 2",
-    "target_ru": "Могила b"
+    "target_ru": "Могила 2"
   },
   {
     "id": "078359",
@@ -20283,7 +20283,7 @@
     "id": "078380",
     "source_cn": "文字版3-2",
     "ref_en": "Text Version 3-2",
-    "target_ru": "Текстовая версия 3-b"
+    "target_ru": "Текстовая версия 3-2"
   },
   {
     "id": "078381",
@@ -20331,7 +20331,7 @@
     "id": "078388",
     "source_cn": "火焰1",
     "ref_en": "Flame 1",
-    "target_ru": "Пламя b"
+    "target_ru": "Пламя 1"
   },
   {
     "id": "078389",
@@ -20559,7 +20559,7 @@
     "id": "078426",
     "source_cn": "黑皇帝旗帜1",
     "ref_en": "Black Emperor Flag 1",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 1"
   },
   {
     "id": "078427",
@@ -20589,7 +20589,7 @@
     "id": "078431",
     "source_cn": "3号据点",
     "ref_en": "Stronghold 3",
-    "target_ru": "Крепость b"
+    "target_ru": "Крепость 3"
   },
   {
     "id": "078432",
@@ -21039,7 +21039,7 @@
     "id": "078506",
     "source_cn": "灯3",
     "ref_en": "Lamp 3",
-    "target_ru": "Лампа b"
+    "target_ru": "Лампа 3"
   },
   {
     "id": "078507",
@@ -21117,7 +21117,7 @@
     "id": "078519",
     "source_cn": "离开指引特效1",
     "ref_en": "Departure guide effect 1",
-    "target_ru": "Эффект руководства по вылету b"
+    "target_ru": "Эффект руководства по вылету 1"
   },
   {
     "id": "078520",
@@ -21189,7 +21189,7 @@
     "id": "078531",
     "source_cn": "血迹对话，10040583",
     "ref_en": "Bloodstain dialogue, 10040583",
-    "target_ru": "Диалог с пятном крови, e5521abb"
+    "target_ru": "Диалог с пятном крови, 10040583"
   },
   {
     "id": "078532",
@@ -21291,7 +21291,7 @@
     "id": "078548",
     "source_cn": "饲料1空气墙测试4",
     "ref_en": "Feed 1 Air Wall Test 4",
-    "target_ru": "Подача 1 Испытание воздушной стены b"
+    "target_ru": "Подача 1 Испытание воздушной стены 4"
   },
   {
     "id": "078549",
@@ -21585,7 +21585,7 @@
     "id": "078597",
     "source_cn": "坐标读条使用单次使用22",
     "ref_en": "Coordinate Casting Single Use 22",
-    "target_ru": "Координатное литье, одноразовое bb"
+    "target_ru": "Координатное литье, одноразовое 22"
   },
   {
     "id": "078598",
@@ -21597,7 +21597,7 @@
     "id": "078599",
     "source_cn": "复活点2",
     "ref_en": "Resurrection Point 2",
-    "target_ru": "Точка воскрешения b"
+    "target_ru": "Точка воскрешения 2"
   },
   {
     "id": "078600",
@@ -21657,13 +21657,13 @@
     "id": "078609",
     "source_cn": "巡逻怪物3",
     "ref_en": "Patrol Monster 3",
-    "target_ru": "Патрульный Монстр b"
+    "target_ru": "Патрульный Монстр 3"
   },
   {
     "id": "078610",
     "source_cn": "巨龙之魂-2号赛区",
     "ref_en": "Giant Dragon Soul - Sector 2",
-    "target_ru": "Душа гигантского дракона — сектор b"
+    "target_ru": "Душа гигантского дракона — сектор 2"
   },
   {
     "id": "078611",
@@ -22077,7 +22077,7 @@
     "id": "078679",
     "source_cn": "邓1",
     "ref_en": "Dunn 1",
-    "target_ru": "Данн b"
+    "target_ru": "Данн 1"
   },
   {
     "id": "078680",
@@ -22125,7 +22125,7 @@
     "id": "078687",
     "source_cn": "雪山尸体4",
     "ref_en": "Snow Mountain Corpse 4",
-    "target_ru": "Труп Снежной горы b"
+    "target_ru": "Труп Снежной горы 4"
   },
   {
     "id": "078688",
@@ -22137,7 +22137,7 @@
     "id": "078689",
     "source_cn": "雾怪3",
     "ref_en": "Mist monster 3",
-    "target_ru": "Туманный монстр b"
+    "target_ru": "Туманный монстр 3"
   },
   {
     "id": "078690",
@@ -22641,7 +22641,7 @@
     "id": "078773",
     "source_cn": "店主1",
     "ref_en": "Shopkeeper 1",
-    "target_ru": "Продавец b"
+    "target_ru": "Продавец 1"
   },
   {
     "id": "078774",
@@ -22869,7 +22869,7 @@
     "id": "078811",
     "source_cn": "矩形即死宽12长2",
     "ref_en": "Rectangular Instant Death Width 12 Length 2",
-    "target_ru": "Прямоугольная Мгновенная смерть Ширина 12 Длина b"
+    "target_ru": "Прямоугольная Мгновенная смерть Ширина 12 Длина 2"
   },
   {
     "id": "078812",
@@ -22959,7 +22959,7 @@
     "id": "078826",
     "source_cn": "舞会NPC女2",
     "ref_en": "Ball NPC Woman 2",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 2"
   },
   {
     "id": "078827",
@@ -23061,7 +23061,7 @@
     "id": "078843",
     "source_cn": "阿蒙【普通】-现实分割-外环1",
     "ref_en": "Amon [Normal] - Reality Split - Outer Ring 1",
-    "target_ru": "Амон [Обычный] — Раскол реальности — Внешнее кольцо b"
+    "target_ru": "Амон [Обычный] — Раскол реальности — Внешнее кольцо 1"
   },
   {
     "id": "078844",
@@ -23145,7 +23145,7 @@
     "id": "078857",
     "source_cn": "【终末猎杀】-巨龙·投影-左右横扫1",
     "ref_en": "[Final Hunt] - Dragon - Projection - Left/Right Sweep 1",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо b"
+    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо 1"
   },
   {
     "id": "078858",
@@ -23175,7 +23175,7 @@
     "id": "078862",
     "source_cn": "交互传送位面2",
     "ref_en": "Interact with teleport plane 2",
-    "target_ru": "Взаимодействие с самолетом-телепортом b"
+    "target_ru": "Взаимодействие с самолетом-телепортом 2"
   },
   {
     "id": "078863",
@@ -23289,13 +23289,13 @@
     "id": "078881",
     "source_cn": "卜杖路点3",
     "ref_en": "Divination Rod Waypoint 3",
-    "target_ru": "Путевая точка гадального жезла b"
+    "target_ru": "Путевая точка гадального жезла 3"
   },
   {
     "id": "078882",
     "source_cn": "压力板48",
     "ref_en": "Pressure Plate 48",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 48"
   },
   {
     "id": "078883",
@@ -23349,7 +23349,7 @@
     "id": "078891",
     "source_cn": "坟墓3",
     "ref_en": "Grave 3",
-    "target_ru": "Могила b"
+    "target_ru": "Могила 3"
   },
   {
     "id": "078892",
@@ -23481,7 +23481,7 @@
     "id": "078913",
     "source_cn": "支线·美梦成真·第三章第6段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 3, Paragraph 6",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 3, параграф b"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 3, параграф 6"
   },
   {
     "id": "078914",
@@ -23499,7 +23499,7 @@
     "id": "078916",
     "source_cn": "文字版3-1",
     "ref_en": "Text Board 3-1",
-    "target_ru": "Текстовая доска 3-b"
+    "target_ru": "Текстовая доска 3-1"
   },
   {
     "id": "078917",
@@ -23511,7 +23511,7 @@
     "id": "078918",
     "source_cn": "方案三",
     "ref_en": "Plan 3",
-    "target_ru": "План b"
+    "target_ru": "План 3"
   },
   {
     "id": "078919",
@@ -23667,7 +23667,7 @@
     "id": "078944",
     "source_cn": "营地Npc2",
     "ref_en": "Camp Npc 2",
-    "target_ru": "Лагерь НПС b"
+    "target_ru": "Лагерь НПС 2"
   },
   {
     "id": "078945",
@@ -23733,7 +23733,7 @@
     "id": "078955",
     "source_cn": "轨道1-1",
     "ref_en": "Track 1-1",
-    "target_ru": "Трек 1-b"
+    "target_ru": "Трек 1-1"
   },
   {
     "id": "078956",
@@ -23769,13 +23769,13 @@
     "id": "078961",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记4",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 4",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 4"
   },
   {
     "id": "078962",
     "source_cn": "随意瞬间使用单次领取22",
     "ref_en": "Random instant usage single claim 22",
-    "target_ru": "Единая заявка на случайное мгновенное использование bb"
+    "target_ru": "Единая заявка на случайное мгновенное использование 22"
   },
   {
     "id": "078963",
@@ -24027,7 +24027,7 @@
     "id": "079004",
     "source_cn": "写信4",
     "ref_en": "Writing letter 4",
-    "target_ru": "Написание письма b"
+    "target_ru": "Написание письма 4"
   },
   {
     "id": "079005",
@@ -24087,7 +24087,7 @@
     "id": "079014",
     "source_cn": "右蒸汽二组",
     "ref_en": "Right Steam Group 2",
-    "target_ru": "Правая группа пара b"
+    "target_ru": "Правая группа пара 2"
   },
   {
     "id": "079015",
@@ -24183,7 +24183,7 @@
     "id": "079030",
     "source_cn": "归一之庭指引特效1",
     "ref_en": "Court of Convergence guidance effect 1",
-    "target_ru": "Эффект руководства Суда Конвергенции b"
+    "target_ru": "Эффект руководства Суда Конвергенции 1"
   },
   {
     "id": "079031",
@@ -24363,7 +24363,7 @@
     "id": "079060",
     "source_cn": "测试5",
     "ref_en": "Test 5",
-    "target_ru": "Тест b"
+    "target_ru": "Тест 5"
   },
   {
     "id": "079061",
@@ -24627,7 +24627,7 @@
     "id": "079104",
     "source_cn": "饲料1空气墙测试3",
     "ref_en": "Feed 1 air wall test 3",
-    "target_ru": "Подача 1, испытание воздушной стены b"
+    "target_ru": "Подача 1, испытание воздушной стены 3"
   },
   {
     "id": "079105",
@@ -24693,7 +24693,7 @@
     "id": "079115",
     "source_cn": "《春日之约1》",
     "ref_en": "Spring Promise 1",
-    "target_ru": "Весеннее обещание b"
+    "target_ru": "Весеннее обещание 1"
   },
   {
     "id": "079116",
@@ -24915,7 +24915,7 @@
     "id": "079152",
     "source_cn": "复活点3",
     "ref_en": "Resurrection Point 3",
-    "target_ru": "Точка воскрешения b"
+    "target_ru": "Точка воскрешения 3"
   },
   {
     "id": "079153",
@@ -24987,7 +24987,7 @@
     "id": "079164",
     "source_cn": "巡逻怪物2",
     "ref_en": "Patrol Monster 2",
-    "target_ru": "Патрульный Монстр b"
+    "target_ru": "Патрульный Монстр 2"
   },
   {
     "id": "079165",
@@ -25395,13 +25395,13 @@
     "id": "079232",
     "source_cn": "雪山尸体3",
     "ref_en": "Snow Mountain Corpse 3",
-    "target_ru": "Труп Снежной горы b"
+    "target_ru": "Труп Снежной горы 3"
   },
   {
     "id": "079233",
     "source_cn": "雾怪2",
     "ref_en": "Mist Monster 2",
-    "target_ru": "Туманный монстр b"
+    "target_ru": "Туманный монстр 2"
   },
   {
     "id": "079234",
@@ -25821,7 +25821,7 @@
     "id": "079303",
     "source_cn": "平视1",
     "ref_en": "Eye-level 1",
-    "target_ru": "Уровень глаз b"
+    "target_ru": "Уровень глаз 1"
   },
   {
     "id": "079304",
@@ -25911,7 +25911,7 @@
     "id": "079318",
     "source_cn": "战士-巨剑普攻三段",
     "ref_en": "Warrior - Greatsword Basic Attack Phase 3",
-    "target_ru": "Воин — базовая атака двуручным мечом, фаза b"
+    "target_ru": "Воин — базовая атака двуручным мечом, фаза 3"
   },
   {
     "id": "079319",
@@ -26091,7 +26091,7 @@
     "id": "079348",
     "source_cn": "舞会NPC女1",
     "ref_en": "Ball NPC Woman 1",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 1"
   },
   {
     "id": "079349",
@@ -26835,7 +26835,7 @@
     "id": "079472",
     "source_cn": "营地Npc3",
     "ref_en": "Camp NPC 3",
-    "target_ru": "Лагерь НПС b"
+    "target_ru": "Лагерь НПС 3"
   },
   {
     "id": "079473",
@@ -26955,7 +26955,7 @@
     "id": "079492",
     "source_cn": "阿蒙-猜谜时光skill07-分身标记5",
     "ref_en": "Amon-Riddle Time skill07-Clone Mark 5",
-    "target_ru": "Амон-Время загадок, навык 07-Клон Марк b"
+    "target_ru": "Амон-Время загадок, навык 07-Клон Марк 5"
   },
   {
     "id": "079493",
@@ -27003,7 +27003,7 @@
     "id": "079500",
     "source_cn": "黑皇帝旗帜3",
     "ref_en": "Black Emperor Flag 3",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 3"
   },
   {
     "id": "079501",
@@ -27303,7 +27303,7 @@
     "id": "079550",
     "source_cn": "失智者_1",
     "ref_en": "Demented One_1",
-    "target_ru": "Сумасшедший_b"
+    "target_ru": "Сумасшедший_1"
   },
   {
     "id": "079551",
@@ -27495,7 +27495,7 @@
     "id": "079582",
     "source_cn": "灯1",
     "ref_en": "Lamp 1",
-    "target_ru": "Лампа b"
+    "target_ru": "Лампа 1"
   },
   {
     "id": "079583",
@@ -27561,7 +27561,7 @@
     "id": "079593",
     "source_cn": "第一赛季第40天",
     "ref_en": "Season 1, Day 40",
-    "target_ru": "1 сезон, день bb"
+    "target_ru": "1 сезон, день 40"
   },
   {
     "id": "079594",
@@ -27621,7 +27621,7 @@
     "id": "079603",
     "source_cn": "西南24",
     "ref_en": "Southwest 24",
-    "target_ru": "Юго-Запад bb"
+    "target_ru": "Юго-Запад 24"
   },
   {
     "id": "079604",
@@ -27651,7 +27651,7 @@
     "id": "079608",
     "source_cn": "路径点11",
     "ref_en": "Waypoint 11",
-    "target_ru": "Путевая точка bb"
+    "target_ru": "Путевая точка 11"
   },
   {
     "id": "079609",
@@ -27663,7 +27663,7 @@
     "id": "079610",
     "source_cn": "达到9级",
     "ref_en": "Reach level 9",
-    "target_ru": "Достичь уровня b"
+    "target_ru": "Достичь уровня 9"
   },
   {
     "id": "079611",
@@ -27711,7 +27711,7 @@
     "id": "079618",
     "source_cn": "饲料1空气墙测试2",
     "ref_en": "Feed 1 Air Wall Test 2",
-    "target_ru": "Подача 1 Испытание воздушной стены b"
+    "target_ru": "Подача 1 Испытание воздушной стены 2"
   },
   {
     "id": "079619",
@@ -28035,7 +28035,7 @@
     "id": "079672",
     "source_cn": "复活点0",
     "ref_en": "Resurrection Point 0",
-    "target_ru": "Точка воскрешения b"
+    "target_ru": "Точка воскрешения 0"
   },
   {
     "id": "079673",
@@ -28095,7 +28095,7 @@
     "id": "079682",
     "source_cn": "巡逻怪物5",
     "ref_en": "Patrol Monster 5",
-    "target_ru": "Патрульный Монстр b"
+    "target_ru": "Патрульный Монстр 5"
   },
   {
     "id": "079683",
@@ -28263,7 +28263,7 @@
     "id": "079710",
     "source_cn": "测试状态14",
     "ref_en": "Test State 14",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 14"
   },
   {
     "id": "079711",
@@ -28311,7 +28311,7 @@
     "id": "079718",
     "source_cn": "病人4",
     "ref_en": "Patient 4",
-    "target_ru": "Пациент b"
+    "target_ru": "Пациент 4"
   },
   {
     "id": "079719",
@@ -28383,7 +28383,7 @@
     "id": "079730",
     "source_cn": "获得伦纳德*1",
     "ref_en": "Obtain Leonard *1",
-    "target_ru": "Получите Леонарда *b"
+    "target_ru": "Получите Леонарда *1"
   },
   {
     "id": "079731",
@@ -28515,7 +28515,7 @@
     "id": "079752",
     "source_cn": "阵营4出生点",
     "ref_en": "Faction 4 Spawn Point",
-    "target_ru": "Точка появления Фракции b"
+    "target_ru": "Точка появления Фракции 4"
   },
   {
     "id": "079753",
@@ -28527,13 +28527,13 @@
     "id": "079754",
     "source_cn": "雪山尸体2",
     "ref_en": "Snow Mountain Corpse 2",
-    "target_ru": "Труп Снежной горы b"
+    "target_ru": "Труп Снежной горы 2"
   },
   {
     "id": "079755",
     "source_cn": "雾怪1",
     "ref_en": "Fog Monster 1",
-    "target_ru": "Туманный монстр b"
+    "target_ru": "Туманный монстр 1"
   },
   {
     "id": "079756",
@@ -28551,7 +28551,7 @@
     "id": "079758",
     "source_cn": "黑荆棘推理2",
     "ref_en": "Blackthorn Deduction 2",
-    "target_ru": "Чёрный Чертополох Дедукция b"
+    "target_ru": "Чёрный Чертополох Дедукция 2"
   },
   {
     "id": "079759",
@@ -28605,7 +28605,7 @@
     "id": "079767",
     "source_cn": "mp4文件暂不支持SeekByTime接口，如有需要@zhangyu73",
     "ref_en": "mp4 file does not currently support SeekByTime interface, if needed @zhangyu73",
-    "target_ru": "файл mp4 в настоящее время не поддерживает интерфейс SeekByTime, если необходимо @zhangyubb"
+    "target_ru": "файл mp4 в настоящее время не поддерживает интерфейс SeekByTime, если необходимо @zhangyu73"
   },
   {
     "id": "079768",
@@ -28737,7 +28737,7 @@
     "id": "079789",
     "source_cn": "切换到Lua版本",
     "ref_en": "Switch to Lua Version",
-    "target_ru": "Переключиться на версию Lub"
+    "target_ru": "Переключиться на версию Lua"
   },
   {
     "id": "079790",
@@ -29571,7 +29571,7 @@
     "id": "079928",
     "source_cn": "战士方案一",
     "ref_en": "Warrior Scheme 1",
-    "target_ru": "Схема воина b"
+    "target_ru": "Схема воина 1"
   },
   {
     "id": "079929",
@@ -29721,7 +29721,7 @@
     "id": "079953",
     "source_cn": "空白中1-1",
     "ref_en": "Blank 1-1",
-    "target_ru": "Бланк 1-b"
+    "target_ru": "Бланк 1-1"
   },
   {
     "id": "079954",
@@ -29877,7 +29877,7 @@
     "id": "079979",
     "source_cn": "黑皇帝旗帜2",
     "ref_en": "Black Emperor Flag 2",
-    "target_ru": "Флаг Черного Императора b"
+    "target_ru": "Флаг Черного Императора 2"
   },
   {
     "id": "079980",

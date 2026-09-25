@@ -206,7 +206,7 @@ return {
     ["Stage Voice"] = "Сценический голос",
     ["Following the traces left by the rose's resentment, let's look around."] = "По следам, оставленным обидой розы, посмотрим вокруг.",
     ["The pious servant bows their head, offering their loyalty, and the God nods in approval, bestowing a miracle."] = "Благочестивый слуга склоняет голову, выражая свою верность, а Бог одобрительно кивает, даруя чудо.",
-    ["When the windmill turns 99002411"] = "Когда ветряной мельнице исполнится e5521abb",
+    ["When the windmill turns 99002411"] = "Когда ветряной мельнице исполнится 99002411",
     ["It's nice to be rich... but it's a bit hard to get used to being rich all of a sudden."] = "Приятно быть богатым... но сложно сразу привыкнуть к богатству.",
     ["<h>Queue up</> to buy a boat ticket"] = "<h>Встаньте в очередь </>, чтобы купить билет на лодку.",
     ["Dowsing Rod Navigation Performance: Position"] = "Характеристики навигации лозоискательного стержня: положение",

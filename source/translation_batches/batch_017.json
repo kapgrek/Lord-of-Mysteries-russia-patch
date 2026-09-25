@@ -129,7 +129,7 @@
     "id": "080021",
     "source_cn": "失智者_2",
     "ref_en": "Demented One_2",
-    "target_ru": "Сумасшедший_b"
+    "target_ru": "Сумасшедший_2"
   },
   {
     "id": "080022",
@@ -153,7 +153,7 @@
     "id": "080025",
     "source_cn": "子爵夫人-循声测试5",
     "ref_en": "Viscountess-Sound Tracking Test 5",
-    "target_ru": "Тест на слежение за звуком виконтесса b"
+    "target_ru": "Тест на слежение за звуком виконтесса 5"
   },
   {
     "id": "080026",
@@ -405,7 +405,7 @@
     "id": "080067",
     "source_cn": "笔记1道具初始状态",
     "ref_en": "Notebook 1 item initial state",
-    "target_ru": "Исходное состояние элемента ноутбука b"
+    "target_ru": "Исходное состояние элемента ноутбука 1"
   },
   {
     "id": "080068",
@@ -525,7 +525,7 @@
     "id": "080087",
     "source_cn": "路径点10",
     "ref_en": "Waypoint 10",
-    "target_ru": "Путевая точка bb"
+    "target_ru": "Путевая точка 10"
   },
   {
     "id": "080088",
@@ -591,7 +591,7 @@
     "id": "080098",
     "source_cn": "随意瞬间使用多次领取22",
     "ref_en": "Random instant usage multiple claim 22",
-    "target_ru": "Случайное мгновенное использование, множественная заявка bb"
+    "target_ru": "Случайное мгновенное использование, множественная заявка 22"
   },
   {
     "id": "080099",
@@ -621,7 +621,7 @@
     "id": "080103",
     "source_cn": "饲料1空气墙测试1",
     "ref_en": "Feed 1 Air Wall Test 1",
-    "target_ru": "Подача 1 Испытание воздушной стены b"
+    "target_ru": "Подача 1 Испытание воздушной стены 1"
   },
   {
     "id": "080104",
@@ -873,7 +873,7 @@
     "id": "080145",
     "source_cn": "复活点1",
     "ref_en": "Respawn point 1",
-    "target_ru": "Точка возрождения b"
+    "target_ru": "Точка возрождения 1"
   },
   {
     "id": "080146",
@@ -927,7 +927,7 @@
     "id": "080154",
     "source_cn": "巡逻怪物4",
     "ref_en": "Patrol Monster 4",
-    "target_ru": "Патрульный Монстр b"
+    "target_ru": "Патрульный Монстр 4"
   },
   {
     "id": "080155",
@@ -1077,13 +1077,13 @@
     "id": "080179",
     "source_cn": "每周六20:45",
     "ref_en": "Every Saturday 20:45",
-    "target_ru": "Каждую субботу 20:bb"
+    "target_ru": "Каждую субботу 20:45"
   },
   {
     "id": "080180",
     "source_cn": "测试状态15",
     "ref_en": "Test State 15",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 15"
   },
   {
     "id": "080181",
@@ -1095,7 +1095,7 @@
     "id": "080182",
     "source_cn": "病人5",
     "ref_en": "Patient 5",
-    "target_ru": "Пациент b"
+    "target_ru": "Пациент 5"
   },
   {
     "id": "080183",
@@ -1107,7 +1107,7 @@
     "id": "080184",
     "source_cn": "石棺黑色物质12",
     "ref_en": "Sarcophagus Black Substance 12",
-    "target_ru": "Саркофаг Черная субстанция bb"
+    "target_ru": "Саркофаг Черная субстанция 12"
   },
   {
     "id": "080185",
@@ -1131,7 +1131,7 @@
     "id": "080188",
     "source_cn": "空盘1",
     "ref_en": "Empty plate 1",
-    "target_ru": "Пустая тарелка b"
+    "target_ru": "Пустая тарелка 1"
   },
   {
     "id": "080189",
@@ -1185,7 +1185,7 @@
     "id": "080197",
     "source_cn": "蓝线-顺时针马车A11",
     "ref_en": "Blue line-Clockwise Carriage A11",
-    "target_ru": "Синяя линия — каретка по часовой стрелке Abb"
+    "target_ru": "Синяя линия — каретка по часовой стрелке A11"
   },
   {
     "id": "080198",
@@ -1239,7 +1239,7 @@
     "id": "080206",
     "source_cn": "送货员工1",
     "ref_en": "Delivery Worker 1",
-    "target_ru": "Доставщик b"
+    "target_ru": "Доставщик 1"
   },
   {
     "id": "080207",
@@ -1299,7 +1299,7 @@
     "id": "080216",
     "source_cn": "雪山尸体1",
     "ref_en": "Snow Mountain Corpse 1",
-    "target_ru": "Труп Снежной горы b"
+    "target_ru": "Труп Снежной горы 1"
   },
   {
     "id": "080217",
@@ -1329,7 +1329,7 @@
     "id": "080221",
     "source_cn": "黑荆棘推理1",
     "ref_en": "Blackthorn Deduction 1",
-    "target_ru": "Чёрный Чертополох Удержание b"
+    "target_ru": "Чёрный Чертополох Удержание 1"
   },
   {
     "id": "080222",
@@ -1779,7 +1779,7 @@
     "id": "080296",
     "source_cn": "沙袋9",
     "ref_en": "Sandbag 9",
-    "target_ru": "Мешок с песком b"
+    "target_ru": "Мешок с песком 9"
   },
   {
     "id": "080297",
@@ -1827,7 +1827,7 @@
     "id": "080304",
     "source_cn": "环拍1",
     "ref_en": "Orbit shot 1",
-    "target_ru": "Орбитальный снимок b"
+    "target_ru": "Орбитальный снимок 1"
   },
   {
     "id": "080305",
@@ -1881,7 +1881,7 @@
     "id": "080313",
     "source_cn": "累计可领取奖励上限：6",
     "ref_en": "Cumulative reward limit: 6",
-    "target_ru": "Совокупный лимит вознаграждений: b"
+    "target_ru": "Совокупный лимит вознаграждений: 6"
   },
   {
     "id": "080314",
@@ -1917,13 +1917,13 @@
     "id": "080319",
     "source_cn": "致命的再会-黑荆棘追踪1",
     "ref_en": "Fatal Reunion - Black Thorn Tracking 1",
-    "target_ru": "Фатальное воссоединение - выслеживание Black Thorn b"
+    "target_ru": "Фатальное воссоединение - выслеживание Black Thorn 1"
   },
   {
     "id": "080320",
     "source_cn": "舞会NPC女7",
     "ref_en": "Ball NPC Woman 7",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 7"
   },
   {
     "id": "080321",
@@ -2007,7 +2007,7 @@
     "id": "080334",
     "source_cn": "阿蒙【普通】-现实分割-外环2",
     "ref_en": "Amon [Normal] - Reality Split - Outer Ring 2",
-    "target_ru": "Амон [Обычный] — Раскол реальности — Внешнее кольцо b"
+    "target_ru": "Амон [Обычный] — Раскол реальности — Внешнее кольцо 2"
   },
   {
     "id": "080335",
@@ -2097,7 +2097,7 @@
     "id": "080349",
     "source_cn": "【终末猎杀】-巨龙·投影-左右横扫2",
     "ref_en": "[Final Hunt] - Dragon - Projection - Left/Right Sweep 2",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо b"
+    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо 2"
   },
   {
     "id": "080350",
@@ -2175,7 +2175,7 @@
     "id": "080362",
     "source_cn": "压力板29",
     "ref_en": "Pressure Plate 29",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 29"
   },
   {
     "id": "080363",
@@ -2277,7 +2277,7 @@
     "id": "080379",
     "source_cn": "布1",
     "ref_en": "Cloth 1",
-    "target_ru": "Ткань b"
+    "target_ru": "Ткань 1"
   },
   {
     "id": "080380",
@@ -2361,7 +2361,7 @@
     "id": "080393",
     "source_cn": "扑克-草花5-偏移1800",
     "ref_en": "Poker-Club 5-Offset 1800",
-    "target_ru": "Покер-Клуб 5-оффсет 1abb"
+    "target_ru": "Покер-Клуб 5-оффсет 1800"
   },
   {
     "id": "080394",
@@ -2469,7 +2469,7 @@
     "id": "080411",
     "source_cn": "激活1",
     "ref_en": "Activate 1",
-    "target_ru": "Активировать b"
+    "target_ru": "Активировать 1"
   },
   {
     "id": "080412",
@@ -2571,7 +2571,7 @@
     "id": "080428",
     "source_cn": "营地Npc1",
     "ref_en": "Camp NPC 1",
-    "target_ru": "Лагерь НПС b"
+    "target_ru": "Лагерь НПС 1"
   },
   {
     "id": "080429",
@@ -2817,7 +2817,7 @@
     "id": "080469",
     "source_cn": "中2Actor3",
     "ref_en": "Mid2Actor3",
-    "target_ru": "Мид2Актерb"
+    "target_ru": "Мид2Актер3"
   },
   {
     "id": "080470",
@@ -2997,7 +2997,7 @@
     "id": "080499",
     "source_cn": "子爵夫人-循声测试4",
     "ref_en": "Viscountess - Sound Tracking Test 4",
-    "target_ru": "Виконтесса - тест на слежение за звуком b"
+    "target_ru": "Виконтесса - тест на слежение за звуком 4"
   },
   {
     "id": "080500",
@@ -3633,7 +3633,7 @@
     "id": "080605",
     "source_cn": "原著·第七章",
     "ref_en": "Original Work · Chapter 7",
-    "target_ru": "Оригинальная работа · Глава b"
+    "target_ru": "Оригинальная работа · Глава 7"
   },
   {
     "id": "080606",
@@ -3753,7 +3753,7 @@
     "id": "080625",
     "source_cn": "巡逻怪物7",
     "ref_en": "Patrol monster 7",
-    "target_ru": "Патрульный монстр b"
+    "target_ru": "Патрульный монстр 7"
   },
   {
     "id": "080626",
@@ -3951,7 +3951,7 @@
     "id": "080658",
     "source_cn": "测试状态16",
     "ref_en": "Test State 16",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 16"
   },
   {
     "id": "080659",
@@ -4011,7 +4011,7 @@
     "id": "080668",
     "source_cn": "病人2",
     "ref_en": "Patient 2",
-    "target_ru": "Пациент b"
+    "target_ru": "Пациент 2"
   },
   {
     "id": "080669",
@@ -4113,7 +4113,7 @@
     "id": "080685",
     "source_cn": "藏匿点3",
     "ref_en": "Hideout 3",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 3"
   },
   {
     "id": "080686",
@@ -4653,7 +4653,7 @@
     "id": "080775",
     "source_cn": "平视2",
     "ref_en": "Eye-level 2",
-    "target_ru": "Уровень глаз b"
+    "target_ru": "Уровень глаз 2"
   },
   {
     "id": "080776",
@@ -4857,7 +4857,7 @@
     "id": "080809",
     "source_cn": "沙袋8",
     "ref_en": "Sandbag 8",
-    "target_ru": "Мешок с песком b"
+    "target_ru": "Мешок с песком 8"
   },
   {
     "id": "080810",
@@ -4971,13 +4971,13 @@
     "id": "080828",
     "source_cn": "致命的再会-黑荆棘追踪2",
     "ref_en": "Deadly Reunion - Blackthorn Tracking 2",
-    "target_ru": "Смертельное воссоединение - Выслеживание Блэкторна b"
+    "target_ru": "Смертельное воссоединение - Выслеживание Блэкторна 2"
   },
   {
     "id": "080829",
     "source_cn": "舞会NPC女6",
     "ref_en": "Ball NPC Woman 6",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 6"
   },
   {
     "id": "080830",
@@ -5307,13 +5307,13 @@
     "id": "080884",
     "source_cn": "压力板28",
     "ref_en": "Pressure Plate 28",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 28"
   },
   {
     "id": "080885",
     "source_cn": "压力板32",
     "ref_en": "Pressure plate 32",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 32"
   },
   {
     "id": "080886",
@@ -5565,7 +5565,7 @@
     "id": "080927",
     "source_cn": "所属俱乐部图书馆等级达到7级",
     "ref_en": "Affiliated Club Library level reaches 7",
-    "target_ru": "Уровень библиотеки аффилированного клуба достиг b"
+    "target_ru": "Уровень библиотеки аффилированного клуба достиг 7"
   },
   {
     "id": "080928",
@@ -5589,7 +5589,7 @@
     "id": "080931",
     "source_cn": "扮演点-观众-隐藏状态-40",
     "ref_en": "Acting Point - Spectator - Hidden State - 40",
-    "target_ru": "Действующая точка – Зритель – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Зритель – Скрытое состояние – 40"
   },
   {
     "id": "080932",
@@ -5691,7 +5691,7 @@
     "id": "080948",
     "source_cn": "死亡咏叹补充-第一节结束",
     "ref_en": "Death's Requiem Supplement - Part 1 Ends",
-    "target_ru": "Дополнение к «Реквиему смерти» — завершение части b"
+    "target_ru": "Дополнение к «Реквиему смерти» — завершение части 1"
   },
   {
     "id": "080949",
@@ -5889,7 +5889,7 @@
     "id": "080981",
     "source_cn": "顾客1",
     "ref_en": "Customer 1",
-    "target_ru": "Клиент b"
+    "target_ru": "Клиент 1"
   },
   {
     "id": "080982",
@@ -6003,7 +6003,7 @@
     "id": "081000",
     "source_cn": "中2Actor2",
     "ref_en": "Mid2Actor2",
-    "target_ru": "Мид2Актерb"
+    "target_ru": "Мид2Актер2"
   },
   {
     "id": "081001",
@@ -6603,7 +6603,7 @@
     "id": "081100",
     "source_cn": "路径点12",
     "ref_en": "Waypoint 12",
-    "target_ru": "Путевая точка bb"
+    "target_ru": "Путевая точка 12"
   },
   {
     "id": "081101",
@@ -6765,7 +6765,7 @@
     "id": "081127",
     "source_cn": "从区域6出去或进来的判定",
     "ref_en": "Judgment for exiting or entering Area 6",
-    "target_ru": "Решение о выходе или входе в Зону b"
+    "target_ru": "Решение о выходе или входе в Зону 6"
   },
   {
     "id": "081128",
@@ -6825,7 +6825,7 @@
     "id": "081137",
     "source_cn": "信息洪流1",
     "ref_en": "Torrent of Information 1",
-    "target_ru": "Поток информации b"
+    "target_ru": "Поток информации 1"
   },
   {
     "id": "081138",
@@ -6969,7 +6969,7 @@
     "id": "081161",
     "source_cn": "奥黛丽路径1",
     "ref_en": "Audrey path 1",
-    "target_ru": "Одри путь b"
+    "target_ru": "Одри путь 1"
   },
   {
     "id": "081162",
@@ -7011,7 +7011,7 @@
     "id": "081168",
     "source_cn": "巡逻怪物6",
     "ref_en": "Patrol Monster 6",
-    "target_ru": "Патрульный Монстр b"
+    "target_ru": "Патрульный Монстр 6"
   },
   {
     "id": "081169",
@@ -7029,7 +7029,7 @@
     "id": "081171",
     "source_cn": "弗莱第一市民路线二",
     "ref_en": "Frye First Citizen Route 2",
-    "target_ru": "Фрай Первый гражданин, маршрут b"
+    "target_ru": "Фрай Первый гражданин, маршрут 2"
   },
   {
     "id": "081172",
@@ -7083,7 +7083,7 @@
     "id": "081180",
     "source_cn": "支线·美梦成真·第二章第20段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 2, Paragraph 20",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф bb"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф 20"
   },
   {
     "id": "081181",
@@ -7197,7 +7197,7 @@
     "id": "081199",
     "source_cn": "测试状态17",
     "ref_en": "Test State 17",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 17"
   },
   {
     "id": "081200",
@@ -7221,7 +7221,7 @@
     "id": "081203",
     "source_cn": "病人3",
     "ref_en": "Patient 3",
-    "target_ru": "Пациент b"
+    "target_ru": "Пациент 3"
   },
   {
     "id": "081204",
@@ -7341,7 +7341,7 @@
     "id": "081223",
     "source_cn": "藏匿点2",
     "ref_en": "Hideout 2",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 2"
   },
   {
     "id": "081224",
@@ -7419,7 +7419,7 @@
     "id": "081236",
     "source_cn": "远景运动2",
     "ref_en": "Long shot movement 2",
-    "target_ru": "Движение с дальним ударом b"
+    "target_ru": "Движение с дальним ударом 2"
   },
   {
     "id": "081237",
@@ -7473,7 +7473,7 @@
     "id": "081245",
     "source_cn": "鸟哨降落2",
     "ref_en": "Bird Whistle Landing 2",
-    "target_ru": "Приземление с птичьим свистком b"
+    "target_ru": "Приземление с птичьим свистком 2"
   },
   {
     "id": "081246",
@@ -7623,7 +7623,7 @@
     "id": "081270",
     "source_cn": "副本47",
     "ref_en": "Dungeon 47",
-    "target_ru": "Подземелье bb"
+    "target_ru": "Подземелье 47"
   },
   {
     "id": "081271",
@@ -7671,7 +7671,7 @@
     "id": "081278",
     "source_cn": "右阀门2",
     "ref_en": "Right Valve 2",
-    "target_ru": "Правый клапан b"
+    "target_ru": "Правый клапан 2"
   },
   {
     "id": "081279",
@@ -7983,7 +7983,7 @@
     "id": "081330",
     "source_cn": "舞会NPC女5",
     "ref_en": "Ball NPC Woman 5",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 5"
   },
   {
     "id": "081331",
@@ -8403,13 +8403,13 @@
     "id": "081400",
     "source_cn": "压力板33",
     "ref_en": "Pressure plate 33",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 33"
   },
   {
     "id": "081401",
     "source_cn": "压力板43",
     "ref_en": "Pressure Plate 43",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 43"
   },
   {
     "id": "081402",
@@ -8439,7 +8439,7 @@
     "id": "081406",
     "source_cn": "四号牛主人",
     "ref_en": "No. 4 cow owner",
-    "target_ru": "Хозяин коровы № b"
+    "target_ru": "Хозяин коровы № 4"
   },
   {
     "id": "081407",
@@ -8487,7 +8487,7 @@
     "id": "081414",
     "source_cn": "寻路4",
     "ref_en": "Pathfinding 4",
-    "target_ru": "Поиск пути b"
+    "target_ru": "Поиск пути 4"
   },
   {
     "id": "081415",
@@ -8529,7 +8529,7 @@
     "id": "081421",
     "source_cn": "布3",
     "ref_en": "Cloth 3",
-    "target_ru": "Ткань b"
+    "target_ru": "Ткань 3"
   },
   {
     "id": "081422",
@@ -8541,7 +8541,7 @@
     "id": "081423",
     "source_cn": "当前最大生命的变化量_数值",
     "ref_en": "Current Max Health Change_Value",
-    "target_ru": "Текущее максимальное здоровье Change_Valub"
+    "target_ru": "Текущее максимальное здоровье Change_Value"
   },
   {
     "id": "081424",
@@ -8733,7 +8733,7 @@
     "id": "081455",
     "source_cn": "空白中1-2",
     "ref_en": "Blank 1-2",
-    "target_ru": "Пустой 1-b"
+    "target_ru": "Пустой 1-2"
   },
   {
     "id": "081456",
@@ -9369,7 +9369,7 @@
     "id": "081561",
     "source_cn": "投影棋局第1轮",
     "ref_en": "Projection Chess Round 1",
-    "target_ru": "Проекционные шахматы, раунд b"
+    "target_ru": "Проекционные шахматы, раунд 1"
   },
   {
     "id": "081562",
@@ -9501,7 +9501,7 @@
     "id": "081583",
     "source_cn": "测试0",
     "ref_en": "Test 0",
-    "target_ru": "Тест b"
+    "target_ru": "Тест 0"
   },
   {
     "id": "081584",
@@ -9627,7 +9627,7 @@
     "id": "081604",
     "source_cn": "西南20",
     "ref_en": "Southwest 20",
-    "target_ru": "Юго-Запад bb"
+    "target_ru": "Юго-Запад 20"
   },
   {
     "id": "081605",
@@ -9777,7 +9777,7 @@
     "id": "081629",
     "source_cn": "预加载-幻影演出2",
     "ref_en": "Preload - Phantom Performance 2",
-    "target_ru": "Предварительная загрузка — Phantom Performance b"
+    "target_ru": "Предварительная загрузка — Phantom Performance 2"
   },
   {
     "id": "081630",
@@ -9933,7 +9933,7 @@
     "id": "081655",
     "source_cn": "升降梯5路线",
     "ref_en": "Elevator Route 5",
-    "target_ru": "Лифтовый маршрут b"
+    "target_ru": "Лифтовый маршрут 5"
   },
   {
     "id": "081656",
@@ -10227,7 +10227,7 @@
     "id": "081704",
     "source_cn": "测试状态10",
     "ref_en": "Test State 10",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 10"
   },
   {
     "id": "081705",
@@ -10239,7 +10239,7 @@
     "id": "081706",
     "source_cn": "潜行掩体-方形2*4",
     "ref_en": "Stealth Cover - Square 2*4",
-    "target_ru": "Стелс-обложка — квадрат 2*b"
+    "target_ru": "Стелс-обложка — квадрат 2*4"
   },
   {
     "id": "081707",
@@ -10287,7 +10287,7 @@
     "id": "081714",
     "source_cn": "空盘2",
     "ref_en": "Empty Plate 2",
-    "target_ru": "Пустая тарелка b"
+    "target_ru": "Пустая тарелка 2"
   },
   {
     "id": "081715",
@@ -10323,13 +10323,13 @@
     "id": "081720",
     "source_cn": "蓝线-顺时针马车A12",
     "ref_en": "Blue Line - Clockwise Carriage A12",
-    "target_ru": "Синяя линия — каретка по часовой стрелке Abb"
+    "target_ru": "Синяя линия — каретка по часовой стрелке A12"
   },
   {
     "id": "081721",
     "source_cn": "藏匿点1",
     "ref_en": "Hideout 1",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 1"
   },
   {
     "id": "081722",
@@ -10401,7 +10401,7 @@
     "id": "081733",
     "source_cn": "送货员工2",
     "ref_en": "Delivery Worker 2",
-    "target_ru": "Доставщик b"
+    "target_ru": "Доставщик 2"
   },
   {
     "id": "081734",
@@ -10455,7 +10455,7 @@
     "id": "081742",
     "source_cn": "默认检视指引111",
     "ref_en": "Default inspection guide 111",
-    "target_ru": "Руководство по проверке по умолчанию abb"
+    "target_ru": "Руководство по проверке по умолчанию 111"
   },
   {
     "id": "081743",
@@ -10557,7 +10557,7 @@
     "id": "081759",
     "source_cn": "一阶",
     "ref_en": "Tier 1",
-    "target_ru": "Уровень b"
+    "target_ru": "Уровень 1"
   },
   {
     "id": "081760",
@@ -10659,7 +10659,7 @@
     "id": "081776",
     "source_cn": "出生点2路径",
     "ref_en": "Spawn Point 2 Path",
-    "target_ru": "Путь к точке появления b"
+    "target_ru": "Путь к точке появления 2"
   },
   {
     "id": "081777",
@@ -10719,7 +10719,7 @@
     "id": "081786",
     "source_cn": "右阀门1",
     "ref_en": "Right Valve 1",
-    "target_ru": "Правый клапан b"
+    "target_ru": "Правый клапан 1"
   },
   {
     "id": "081787",
@@ -11043,7 +11043,7 @@
     "id": "081840",
     "source_cn": "环拍2",
     "ref_en": "Orbit shot 2",
-    "target_ru": "Орбитальный выстрел b"
+    "target_ru": "Орбитальный выстрел 2"
   },
   {
     "id": "081841",
@@ -11157,7 +11157,7 @@
     "id": "081859",
     "source_cn": "舞会NPC女4",
     "ref_en": "Ball NPC Woman 4",
-    "target_ru": "Мяч NPC Женщина b"
+    "target_ru": "Мяч NPC Женщина 4"
   },
   {
     "id": "081860",
@@ -11589,13 +11589,13 @@
     "id": "081931",
     "source_cn": "压力板30",
     "ref_en": "Pressure plate 30",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 30"
   },
   {
     "id": "081932",
     "source_cn": "压力板42",
     "ref_en": "Pressure Plate 42",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 42"
   },
   {
     "id": "081933",
@@ -11709,7 +11709,7 @@
     "id": "081951",
     "source_cn": "布2",
     "ref_en": "Cloth 2",
-    "target_ru": "Ткань b"
+    "target_ru": "Ткань 2"
   },
   {
     "id": "081952",
@@ -11859,7 +11859,7 @@
     "id": "081976",
     "source_cn": "激活2",
     "ref_en": "Activation 2",
-    "target_ru": "Активация b"
+    "target_ru": "Активация 2"
   },
   {
     "id": "081977",
@@ -11901,7 +11901,7 @@
     "id": "081983",
     "source_cn": "祈祷听取3",
     "ref_en": "Listening to prayer 3",
-    "target_ru": "Слушаю молитву b"
+    "target_ru": "Слушаю молитву 3"
   },
   {
     "id": "081984",
@@ -12195,7 +12195,7 @@
     "id": "082032",
     "source_cn": "k变黑桃6",
     "ref_en": "k becomes Spades 6",
-    "target_ru": "k становится Пиками b"
+    "target_ru": "k становится Пиками 6"
   },
   {
     "id": "082033",
@@ -12399,7 +12399,7 @@
     "id": "082066",
     "source_cn": "子爵夫人-循声测试1",
     "ref_en": "Viscountess: Sound tracking test 1",
-    "target_ru": "Виконтесса: тест на слежение за звуком b"
+    "target_ru": "Виконтесса: тест на слежение за звуком 1"
   },
   {
     "id": "082067",
@@ -12525,7 +12525,7 @@
     "id": "082087",
     "source_cn": "是否开启攻略精灵功能",
     "ref_en": "Whether to enable the Guide Sprite function",
-    "target_ru": "Включить ли функцию Guide Spritb"
+    "target_ru": "Включить ли функцию Guide Sprite"
   },
   {
     "id": "082088",
@@ -12717,13 +12717,13 @@
     "id": "082119",
     "source_cn": "血皇箭头4",
     "ref_en": "Blood Emperor Arrow 4",
-    "target_ru": "Стрела Кровавого Императора b"
+    "target_ru": "Стрела Кровавого Императора 4"
   },
   {
     "id": "082120",
     "source_cn": "西南21",
     "ref_en": "Southwest 21",
-    "target_ru": "Юго-Запад bb"
+    "target_ru": "Юго-Запад 21"
   },
   {
     "id": "082121",
@@ -12837,7 +12837,7 @@
     "id": "082139",
     "source_cn": "预加载-幻影演出3",
     "ref_en": "Preload-Phantom Performance 3",
-    "target_ru": "Предварительная загрузка — Phantom Performance b"
+    "target_ru": "Предварительная загрузка — Phantom Performance 3"
   },
   {
     "id": "082140",
@@ -13395,7 +13395,7 @@
     "id": "082232",
     "source_cn": "新模版怪-五月庄园失智者",
     "ref_en": "New Template Monster - May Manor Demented One",
-    "target_ru": "Новый шаблонный монстр — May Manor Demented Onb"
+    "target_ru": "Новый шаблонный монстр — May Manor Demented One"
   },
   {
     "id": "082233",
@@ -13479,13 +13479,13 @@
     "id": "082246",
     "source_cn": "测试S4装备",
     "ref_en": "Test S4 Equipment",
-    "target_ru": "Тестовое оборудование Sb"
+    "target_ru": "Тестовое оборудование S4"
   },
   {
     "id": "082247",
     "source_cn": "测试状态11",
     "ref_en": "Test State 11",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 11"
   },
   {
     "id": "082248",
@@ -13497,7 +13497,7 @@
     "id": "082249",
     "source_cn": "潜行掩体-方形2*5",
     "ref_en": "Stealth Cover - Square 2*5",
-    "target_ru": "Стелс-обложка — квадрат 2*b"
+    "target_ru": "Стелс-обложка — квадрат 2*5"
   },
   {
     "id": "082250",
@@ -13527,7 +13527,7 @@
     "id": "082254",
     "source_cn": "病人1",
     "ref_en": "Patient 1",
-    "target_ru": "Пациент b"
+    "target_ru": "Пациент 1"
   },
   {
     "id": "082255",
@@ -14415,7 +14415,7 @@
     "id": "082402",
     "source_cn": "蒙特利20位移",
     "ref_en": "Monterey 20 displacement",
-    "target_ru": "Водоизмещение Монтерей bb"
+    "target_ru": "Водоизмещение Монтерей 20"
   },
   {
     "id": "082403",
@@ -14529,7 +14529,7 @@
     "id": "082421",
     "source_cn": "饲料4空气墙测试4",
     "ref_en": "Feed 4 Air Wall Test 4",
-    "target_ru": "Подача 4 Испытание воздушной стены b"
+    "target_ru": "Подача 4 Испытание воздушной стены 4"
   },
   {
     "id": "082422",
@@ -14589,7 +14589,7 @@
     "id": "082431",
     "source_cn": "C追击1025",
     "ref_en": "C Pursuit 1025",
-    "target_ru": "C Преследование 1abb"
+    "target_ru": "C Преследование 1025"
   },
   {
     "id": "082432",
@@ -14781,19 +14781,19 @@
     "id": "082463",
     "source_cn": "压力板25",
     "ref_en": "Pressure plate 25",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 25"
   },
   {
     "id": "082464",
     "source_cn": "压力板31",
     "ref_en": "Pressure Plate 31",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 31"
   },
   {
     "id": "082465",
     "source_cn": "压力板41",
     "ref_en": "Pressure Plate 41",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 41"
   },
   {
     "id": "082466",
@@ -15009,7 +15009,7 @@
     "id": "082501",
     "source_cn": "扮演点-观众-隐藏状态-47",
     "ref_en": "Acting Point - Spectator - Hidden State - 47",
-    "target_ru": "Действующая точка – Зритель – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Зритель – Скрытое состояние – 47"
   },
   {
     "id": "082502",
@@ -15879,7 +15879,7 @@
     "id": "082646",
     "source_cn": "聚合因子100个",
     "ref_en": "Aggregation Factor 100",
-    "target_ru": "Коэффициент агрегирования abb"
+    "target_ru": "Коэффициент агрегирования 100"
   },
   {
     "id": "082647",
@@ -15927,7 +15927,7 @@
     "id": "082654",
     "source_cn": "血皇箭头3",
     "ref_en": "Blood Emperor arrow 3",
-    "target_ru": "Стрела Кровавого Императора b"
+    "target_ru": "Стрела Кровавого Императора 3"
   },
   {
     "id": "082655",
@@ -15939,7 +15939,7 @@
     "id": "082656",
     "source_cn": "西南22",
     "ref_en": "Southwest 22",
-    "target_ru": "Юго-Запад bb"
+    "target_ru": "Юго-Запад 22"
   },
   {
     "id": "082657",
@@ -16179,7 +16179,7 @@
     "id": "082696",
     "source_cn": "世界62",
     "ref_en": "World 62",
-    "target_ru": "Мир bb"
+    "target_ru": "Мир 62"
   },
   {
     "id": "082697",
@@ -16377,7 +16377,7 @@
     "id": "082729",
     "source_cn": "对象读条使用单次使用22",
     "ref_en": "Object Casting Single Use 22",
-    "target_ru": "Отливка объектов одноразового использования bb"
+    "target_ru": "Отливка объектов одноразового использования 22"
   },
   {
     "id": "082730",
@@ -16563,7 +16563,7 @@
     "id": "082760",
     "source_cn": "测试状态12",
     "ref_en": "Test State 12",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 12"
   },
   {
     "id": "082761",
@@ -16575,7 +16575,7 @@
     "id": "082762",
     "source_cn": "潜行掩体-方形2*2",
     "ref_en": "Stealth Cover - Square 2*2",
-    "target_ru": "Стелс-обложка — квадрат 2*b"
+    "target_ru": "Стелс-обложка — квадрат 2*2"
   },
   {
     "id": "082763",
@@ -16677,7 +16677,7 @@
     "id": "082779",
     "source_cn": "藏匿点7",
     "ref_en": "Hideout 7",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 7"
   },
   {
     "id": "082780",
@@ -17055,7 +17055,7 @@
     "id": "082842",
     "source_cn": "坐标5,5",
     "ref_en": "Coordinates 5,5",
-    "target_ru": "Координаты 5,b"
+    "target_ru": "Координаты 5,5"
   },
   {
     "id": "082843",
@@ -17397,7 +17397,7 @@
     "id": "082899",
     "source_cn": "迷雾线故事一",
     "ref_en": "Mist Path Story 1",
-    "target_ru": "История Туманного Пути b"
+    "target_ru": "История Туманного Пути 1"
   },
   {
     "id": "082900",
@@ -17763,19 +17763,19 @@
     "id": "082960",
     "source_cn": "压力板24",
     "ref_en": "Pressure Plate 24",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 24"
   },
   {
     "id": "082961",
     "source_cn": "压力板36",
     "ref_en": "Pressure Plate 36",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 36"
   },
   {
     "id": "082962",
     "source_cn": "压力板40",
     "ref_en": "Pressure Plate 40",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 40"
   },
   {
     "id": "082963",
@@ -17889,7 +17889,7 @@
     "id": "082981",
     "source_cn": "布4",
     "ref_en": "Cloth 4",
-    "target_ru": "Ткань b"
+    "target_ru": "Ткань 4"
   },
   {
     "id": "082982",
@@ -18141,7 +18141,7 @@
     "id": "083023",
     "source_cn": "第4层",
     "ref_en": "Floor 4",
-    "target_ru": "Этаж b"
+    "target_ru": "Этаж 4"
   },
   {
     "id": "083024",
@@ -18303,7 +18303,7 @@
     "id": "083050",
     "source_cn": "需要破解符文数：%s/16",
     "ref_en": "Runes Needed to Crack: %s/16",
-    "target_ru": "Руны, необходимые для взлома: %s/bb"
+    "target_ru": "Руны, необходимые для взлома: %s/16"
   },
   {
     "id": "083051",
@@ -18681,7 +18681,7 @@
     "id": "083113",
     "source_cn": "子爵夫人-循声测试3",
     "ref_en": "Viscountess - Sound Tracking Test 3",
-    "target_ru": "Виконтесса - тест на слежение за звуком b"
+    "target_ru": "Виконтесса - тест на слежение за звуком 3"
   },
   {
     "id": "083114",
@@ -18867,7 +18867,7 @@
     "id": "083144",
     "source_cn": "支线·美梦成真·第二章第8段",
     "ref_en": "Side Quest: Dreams Come True - Chapter 2, Section 8",
-    "target_ru": "Побочный квест: Мечты сбываются — глава 2, раздел b"
+    "target_ru": "Побочный квест: Мечты сбываются — глава 2, раздел 8"
   },
   {
     "id": "083145",
@@ -19023,13 +19023,13 @@
     "id": "083170",
     "source_cn": "血皇箭头2",
     "ref_en": "Blood Emperor Arrow 2",
-    "target_ru": "Стрела Кровавого Императора b"
+    "target_ru": "Стрела Кровавого Императора 2"
   },
   {
     "id": "083171",
     "source_cn": "西南23",
     "ref_en": "Southwest 23",
-    "target_ru": "Юго-Запад bb"
+    "target_ru": "Юго-Запад 23"
   },
   {
     "id": "083172",
@@ -19041,7 +19041,7 @@
     "id": "083173",
     "source_cn": "观众二号",
     "ref_en": "Audience Member No. 2",
-    "target_ru": "Член аудитории № b"
+    "target_ru": "Член аудитории № 2"
   },
   {
     "id": "083174",
@@ -19161,7 +19161,7 @@
     "id": "083193",
     "source_cn": "预加载-幻影演出1",
     "ref_en": "Preload - Phantom Performance 1",
-    "target_ru": "Предварительная загрузка — фантомная производительность b"
+    "target_ru": "Предварительная загрузка — фантомная производительность 1"
   },
   {
     "id": "083194",
@@ -19611,7 +19611,7 @@
     "id": "083268",
     "source_cn": "测试状态13",
     "ref_en": "Test State 13",
-    "target_ru": "Тестовое состояние bb"
+    "target_ru": "Тестовое состояние 13"
   },
   {
     "id": "083269",
@@ -19623,13 +19623,13 @@
     "id": "083270",
     "source_cn": "渎神者·下",
     "ref_en": "The Blasphemer · Vol. 2",
-    "target_ru": "Богохульник · Том. b"
+    "target_ru": "Богохульник · Том. 2"
   },
   {
     "id": "083271",
     "source_cn": "潜行掩体-方形2*3",
     "ref_en": "Stealth Cover - Square 2*3",
-    "target_ru": "Стелс-обложка — квадрат 2*b"
+    "target_ru": "Стелс-обложка — квадрат 2*3"
   },
   {
     "id": "083272",
@@ -19677,7 +19677,7 @@
     "id": "083279",
     "source_cn": "离开海岸线餐厅",
     "ref_en": "Leave Coastline Restaurant",
-    "target_ru": "Ресторан Leave Coastlinb"
+    "target_ru": "Ресторан Leave Coastline"
   },
   {
     "id": "083280",
@@ -19737,7 +19737,7 @@
     "id": "083289",
     "source_cn": "藏匿点6",
     "ref_en": "Hideout 6",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 6"
   },
   {
     "id": "083290",
@@ -19767,7 +19767,7 @@
     "id": "083294",
     "source_cn": "门2",
     "ref_en": "Door 2",
-    "target_ru": "Дверь b"
+    "target_ru": "Дверь 2"
   },
   {
     "id": "083295",
@@ -20049,7 +20049,7 @@
     "id": "083341",
     "source_cn": "坐标5,4",
     "ref_en": "Coordinates 5,4",
-    "target_ru": "Координаты 5,b"
+    "target_ru": "Координаты 5,4"
   },
   {
     "id": "083342",
@@ -20361,7 +20361,7 @@
     "id": "083393",
     "source_cn": "碎片发射器3_3",
     "ref_en": "Fragment launcher 3_3",
-    "target_ru": "Пусковая установка фрагментов 3_b"
+    "target_ru": "Пусковая установка фрагментов 3_3"
   },
   {
     "id": "083394",
@@ -20571,7 +20571,7 @@
     "id": "083428",
     "source_cn": "饲料4空气墙测试2",
     "ref_en": "Feed 4 air wall test 2",
-    "target_ru": "Подача 4, испытание воздушной стены b"
+    "target_ru": "Подача 4, испытание воздушной стены 2"
   },
   {
     "id": "083429",
@@ -20787,19 +20787,19 @@
     "id": "083464",
     "source_cn": "压力板27",
     "ref_en": "Pressure Plate 27",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 27"
   },
   {
     "id": "083465",
     "source_cn": "压力板37",
     "ref_en": "Pressure plate 37",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 37"
   },
   {
     "id": "083466",
     "source_cn": "压力板47",
     "ref_en": "Pressure Plate 47",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 47"
   },
   {
     "id": "083467",
@@ -21039,7 +21039,7 @@
     "id": "083506",
     "source_cn": "方案一",
     "ref_en": "Plan 1",
-    "target_ru": "План b"
+    "target_ru": "План 1"
   },
   {
     "id": "083507",
@@ -21231,7 +21231,7 @@
     "id": "083538",
     "source_cn": "神话之始，半神入列！众神之巅八强",
     "ref_en": "The beginning of mythology, Demigods join the ranks! Peak of the Gods Top 8",
-    "target_ru": "Начало мифологии, в ряды вступают полубоги! Пик Богов Топ b"
+    "target_ru": "Начало мифологии, в ряды вступают полубоги! Пик Богов Топ 8"
   },
   {
     "id": "083539",
@@ -21411,7 +21411,7 @@
     "id": "083568",
     "source_cn": "露台求爱氛围npc1",
     "ref_en": "Terrace Courtship Atmosphere NPC 1",
-    "target_ru": "Атмосфера ухаживания на террасе NPC b"
+    "target_ru": "Атмосфера ухаживания на террасе NPC 1"
   },
   {
     "id": "083569",
@@ -21561,7 +21561,7 @@
     "id": "083593",
     "source_cn": "世界Boss玩法传送门1",
     "ref_en": "World Boss Mode Portal 1",
-    "target_ru": "Портал режима мирового босса b"
+    "target_ru": "Портал режима мирового босса 1"
   },
   {
     "id": "083594",
@@ -21585,7 +21585,7 @@
     "id": "083597",
     "source_cn": "伯爵一号",
     "ref_en": "Count No. 1",
-    "target_ru": "Граф №b"
+    "target_ru": "Граф №1"
   },
   {
     "id": "083598",
@@ -21627,7 +21627,7 @@
     "id": "083604",
     "source_cn": "冥皇积分点1",
     "ref_en": "Underworld Emperor Point 1",
-    "target_ru": "Император подземного мира, точка b"
+    "target_ru": "Император подземного мира, точка 1"
   },
   {
     "id": "083605",
@@ -21777,7 +21777,7 @@
     "id": "083629",
     "source_cn": "子爵夫人-循声测试2",
     "ref_en": "Viscountess - Sound Tracking Test 2",
-    "target_ru": "Виконтесса - тест на слежение за звуком b"
+    "target_ru": "Виконтесса - тест на слежение за звуком 2"
   },
   {
     "id": "083630",
@@ -21897,7 +21897,7 @@
     "id": "083649",
     "source_cn": "扑克-草花5-偏移1200",
     "ref_en": "Poker-Club 5-Offset 1200",
-    "target_ru": "Покер-Клуб 5-оффсет 1abb"
+    "target_ru": "Покер-Клуб 5-оффсет 1200"
   },
   {
     "id": "083650",
@@ -21933,7 +21933,7 @@
     "id": "083655",
     "source_cn": "支线·美梦成真·第二章第25段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 2, Paragraph 25",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф bb"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф 25"
   },
   {
     "id": "083656",
@@ -22035,7 +22035,7 @@
     "id": "083672",
     "source_cn": "纯氛围女3",
     "ref_en": "Atmospheric Woman 3",
-    "target_ru": "Атмосферная женщина b"
+    "target_ru": "Атмосферная женщина 3"
   },
   {
     "id": "083673",
@@ -22059,13 +22059,13 @@
     "id": "083676",
     "source_cn": "莉齐近2",
     "ref_en": "Lizzie near 2",
-    "target_ru": "Лиззи рядом с b"
+    "target_ru": "Лиззи рядом с 2"
   },
   {
     "id": "083677",
     "source_cn": "血皇箭头1",
     "ref_en": "Blood Emperor arrow 1",
-    "target_ru": "Стрела Кровавого Императора b"
+    "target_ru": "Стрела Кровавого Императора 1"
   },
   {
     "id": "083678",
@@ -22287,7 +22287,7 @@
     "id": "083714",
     "source_cn": "世界60",
     "ref_en": "World 60",
-    "target_ru": "Мир bb"
+    "target_ru": "Мир 60"
   },
   {
     "id": "083715",
@@ -22653,7 +22653,7 @@
     "id": "083775",
     "source_cn": "渎神者·上",
     "ref_en": "The Blasphemer · Vol. 1",
-    "target_ru": "Богохульник · Том. b"
+    "target_ru": "Богохульник · Том. 1"
   },
   {
     "id": "083776",
@@ -22761,7 +22761,7 @@
     "id": "083793",
     "source_cn": "藏匿点5",
     "ref_en": "Hideout 5",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 5"
   },
   {
     "id": "083794",
@@ -22857,7 +22857,7 @@
     "id": "083809",
     "source_cn": "门1",
     "ref_en": "Door 1",
-    "target_ru": "Дверь b"
+    "target_ru": "Дверь 1"
   },
   {
     "id": "083810",
@@ -23091,7 +23091,7 @@
     "id": "083848",
     "source_cn": "出生点3路径",
     "ref_en": "Spawn Point 3 Path",
-    "target_ru": "Путь к точке появления b"
+    "target_ru": "Путь к точке появления 3"
   },
   {
     "id": "083849",
@@ -23127,7 +23127,7 @@
     "id": "083854",
     "source_cn": "副本40",
     "ref_en": "Dungeon 40",
-    "target_ru": "Подземелье bb"
+    "target_ru": "Подземелье 40"
   },
   {
     "id": "083855",
@@ -23469,7 +23469,7 @@
     "id": "083911",
     "source_cn": "现实主线第一章",
     "ref_en": "Reality Main Story Chapter 1",
-    "target_ru": "Основная история реальности, глава b"
+    "target_ru": "Основная история реальности, глава 1"
   },
   {
     "id": "083912",
@@ -23517,7 +23517,7 @@
     "id": "083919",
     "source_cn": "碎片发射器3_2",
     "ref_en": "Fragment Launcher 3_2",
-    "target_ru": "Средство запуска фрагментов 3_b"
+    "target_ru": "Средство запуска фрагментов 3_2"
   },
   {
     "id": "083920",
@@ -23697,7 +23697,7 @@
     "id": "083949",
     "source_cn": "饲料4空气墙测试3",
     "ref_en": "Feed 4 air wall test 3",
-    "target_ru": "Подача 4, испытание воздушной стены b"
+    "target_ru": "Подача 4, испытание воздушной стены 3"
   },
   {
     "id": "083950",
@@ -23967,19 +23967,19 @@
     "id": "083994",
     "source_cn": "压力板26",
     "ref_en": "Pressure Plate 26",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 26"
   },
   {
     "id": "083995",
     "source_cn": "压力板34",
     "ref_en": "Pressure Plate 34",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 34"
   },
   {
     "id": "083996",
     "source_cn": "压力板46",
     "ref_en": "Pressure Plate 46",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 46"
   },
   {
     "id": "083997",
@@ -24051,7 +24051,7 @@
     "id": "084008",
     "source_cn": "寻路1",
     "ref_en": "Pathfinding 1",
-    "target_ru": "Поиск пути b"
+    "target_ru": "Поиск пути 1"
   },
   {
     "id": "084009",
@@ -24945,7 +24945,7 @@
     "id": "084157",
     "source_cn": "第一阶段",
     "ref_en": "Phase 1",
-    "target_ru": "Этап b"
+    "target_ru": "Этап 1"
   },
   {
     "id": "084158",
@@ -24957,7 +24957,7 @@
     "id": "084159",
     "source_cn": "纯氛围女2",
     "ref_en": "Atmospheric Woman 2",
-    "target_ru": "Атмосферная женщина b"
+    "target_ru": "Атмосферная женщина 2"
   },
   {
     "id": "084160",
@@ -25251,7 +25251,7 @@
     "id": "084208",
     "source_cn": "争夺区12",
     "ref_en": "Contested Area 12",
-    "target_ru": "Оспариваемая территория bb"
+    "target_ru": "Оспариваемая территория 12"
   },
   {
     "id": "084209",
@@ -25437,7 +25437,7 @@
     "id": "084239",
     "source_cn": "坐标4,4",
     "ref_en": "Coordinates 4,4",
-    "target_ru": "Координаты 4,b"
+    "target_ru": "Координаты 4,4"
   },
   {
     "id": "084240",
@@ -25449,7 +25449,7 @@
     "id": "084241",
     "source_cn": "契魂晷地面表现1",
     "ref_en": "Soul-Contract Sundial Ground Effect 1",
-    "target_ru": "Солнечные часы с Контрактом души Эффект земли b"
+    "target_ru": "Солнечные часы с Контрактом души Эффект земли 1"
   },
   {
     "id": "084242",
@@ -25473,7 +25473,7 @@
     "id": "084245",
     "source_cn": "家园全景2",
     "ref_en": "Homestead Panoramic 2",
-    "target_ru": "Усадьба Панорамный b"
+    "target_ru": "Усадьба Панорамный 2"
   },
   {
     "id": "084246",
@@ -25485,7 +25485,7 @@
     "id": "084247",
     "source_cn": "居民9",
     "ref_en": "Resident 9",
-    "target_ru": "Резидент b"
+    "target_ru": "Резидент 9"
   },
   {
     "id": "084248",
@@ -25743,7 +25743,7 @@
     "id": "084290",
     "source_cn": "藏匿点4",
     "ref_en": "Hideout 4",
-    "target_ru": "Убежище b"
+    "target_ru": "Убежище 4"
   },
   {
     "id": "084291",
@@ -25755,13 +25755,13 @@
     "id": "084292",
     "source_cn": "蝴蝶结·二",
     "ref_en": "Bow 2",
-    "target_ru": "Лук b"
+    "target_ru": "Лук · 2"
   },
   {
     "id": "084293",
     "source_cn": "装饰三",
     "ref_en": "Decoration 3",
-    "target_ru": "Украшение b"
+    "target_ru": "Украшение 3"
   },
   {
     "id": "084294",
@@ -25863,7 +25863,7 @@
     "id": "084310",
     "source_cn": "邮差文字板备注1",
     "ref_en": "Postman Text Board Note 1",
-    "target_ru": "Текстовая доска почтальона, Примечание b"
+    "target_ru": "Текстовая доска почтальона, Примечание 1"
   },
   {
     "id": "084311",
@@ -26061,7 +26061,7 @@
     "id": "084343",
     "source_cn": "使用湖5",
     "ref_en": "Use Lake 5",
-    "target_ru": "Используйте озеро b"
+    "target_ru": "Используйте озеро 5"
   },
   {
     "id": "084344",
@@ -26439,7 +26439,7 @@
     "id": "084406",
     "source_cn": "碎片发射器3_1",
     "ref_en": "Fragment Launcher 3_1",
-    "target_ru": "Средство запуска фрагментов 3_b"
+    "target_ru": "Средство запуска фрагментов 3_1"
   },
   {
     "id": "084407",
@@ -26517,7 +26517,7 @@
     "id": "084419",
     "source_cn": "蝴蝶结一",
     "ref_en": "Bow 1",
-    "target_ru": "Лук b"
+    "target_ru": "Лук 1"
   },
   {
     "id": "084420",
@@ -26781,25 +26781,25 @@
     "id": "084463",
     "source_cn": "加速光球12",
     "ref_en": "Acceleration Orb 12",
-    "target_ru": "Сфера ускорения bb"
+    "target_ru": "Сфера ускорения 12"
   },
   {
     "id": "084464",
     "source_cn": "压力板21",
     "ref_en": "Pressure Plate 21",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 21"
   },
   {
     "id": "084465",
     "source_cn": "压力板35",
     "ref_en": "Pressure Plate 35",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 35"
   },
   {
     "id": "084466",
     "source_cn": "压力板45",
     "ref_en": "Pressure Plate 45",
-    "target_ru": "Нажимная пластина bb"
+    "target_ru": "Нажимная пластина 45"
   },
   {
     "id": "084467",
@@ -26841,7 +26841,7 @@
     "id": "084473",
     "source_cn": "地砖2-8",
     "ref_en": "Floor Tile 2-8",
-    "target_ru": "Напольная плитка 2-b"
+    "target_ru": "Напольная плитка 2-8"
   },
   {
     "id": "084474",
@@ -26913,13 +26913,13 @@
     "id": "084485",
     "source_cn": "寻路2",
     "ref_en": "Pathfinding 2",
-    "target_ru": "Поиск пути b"
+    "target_ru": "Поиск пути 2"
   },
   {
     "id": "084486",
     "source_cn": "小孩乔伊斯1",
     "ref_en": "Child Joyce 1",
-    "target_ru": "Чайлд Джойс b"
+    "target_ru": "Чайлд Джойс 1"
   },
   {
     "id": "084487",
@@ -26955,7 +26955,7 @@
     "id": "084492",
     "source_cn": "廷根入口1",
     "ref_en": "Tingen entrance 1",
-    "target_ru": "Тинген, вход b"
+    "target_ru": "Тинген, вход 1"
   },
   {
     "id": "084493",
@@ -27009,7 +27009,7 @@
     "id": "084501",
     "source_cn": "战士资源1",
     "ref_en": "Warrior Resource 1",
-    "target_ru": "Ресурс воина b"
+    "target_ru": "Ресурс воина 1"
   },
   {
     "id": "084502",
@@ -27021,13 +27021,13 @@
     "id": "084503",
     "source_cn": "扮演点-观众-隐藏状态-53",
     "ref_en": "Acting Point - Spectator - Hidden State - 53",
-    "target_ru": "Действующая точка – Зритель – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Зритель – Скрытое состояние – 53"
   },
   {
     "id": "084504",
     "source_cn": "扮演（歌颂）-第四天53级",
     "ref_en": "Acting (Bard) - Day 4 Level 53",
-    "target_ru": "Актерское мастерство (Бард) — День 4, уровень bb"
+    "target_ru": "Актерское мастерство (Бард) — День 4, уровень 53"
   },
   {
     "id": "084505",
@@ -27045,7 +27045,7 @@
     "id": "084507",
     "source_cn": "探索解密-吟游诗人特莉丝01",
     "ref_en": "Exploration & Decryption - Bard Trissy 01",
-    "target_ru": "Исследование и расшифровка - Бард Трисси bb"
+    "target_ru": "Исследование и расшифровка - Бард Трисси 01"
   },
   {
     "id": "084508",
@@ -27105,7 +27105,7 @@
     "id": "084517",
     "source_cn": "本周奖励礼盒·二",
     "ref_en": "This Week's Reward Box · 2",
-    "target_ru": "Коробка с наградами этой недели · b"
+    "target_ru": "Коробка с наградами этой недели · 2"
   },
   {
     "id": "084518",
@@ -27297,13 +27297,13 @@
     "id": "084549",
     "source_cn": "选秀场3号位",
     "ref_en": "Audition venue position 3",
-    "target_ru": "Место для прослушивания, позиция b"
+    "target_ru": "Место для прослушивания, позиция 3"
   },
   {
     "id": "084550",
     "source_cn": "选项测试1提示文字",
     "ref_en": "Option Test 1 prompt text",
-    "target_ru": "Текст подсказки для проверки варианта b"
+    "target_ru": "Текст подсказки для проверки варианта 1"
   },
   {
     "id": "084551",
@@ -27339,7 +27339,7 @@
     "id": "084556",
     "source_cn": "露台求爱氛围npc3",
     "ref_en": "Terrace Courtship Atmosphere NPC 3",
-    "target_ru": "Атмосфера ухаживания на террасе NPC b"
+    "target_ru": "Атмосфера ухаживания на террасе NPC 3"
   },
   {
     "id": "084557",
@@ -27489,7 +27489,7 @@
     "id": "084581",
     "source_cn": "众神之巅四强",
     "ref_en": "Peak of the Gods Top 4",
-    "target_ru": "Пик Богов Топ b"
+    "target_ru": "Пик Богов Топ 4"
   },
   {
     "id": "084582",
@@ -27693,7 +27693,7 @@
     "id": "084615",
     "source_cn": "小老鼠23",
     "ref_en": "Little Mouse 23",
-    "target_ru": "Маленький мышонок bb"
+    "target_ru": "Маленький мышонок 23"
   },
   {
     "id": "084616",
@@ -27975,7 +27975,7 @@
     "id": "084662",
     "source_cn": "纯氛围女1",
     "ref_en": "Atmospheric Woman 1",
-    "target_ru": "Атмосферная женщина b"
+    "target_ru": "Атмосферная женщина 1"
   },
   {
     "id": "084663",
@@ -28119,7 +28119,7 @@
     "id": "084686",
     "source_cn": "阵营1出生点",
     "ref_en": "Faction 1 spawn point",
-    "target_ru": "Точка появления Фракции b"
+    "target_ru": "Точка появления Фракции 1"
   },
   {
     "id": "084687",
@@ -28275,7 +28275,7 @@
     "id": "084712",
     "source_cn": "【神秘屏障】第二次循环处1",
     "ref_en": "[Mysterious Barrier] Second Loop Location 1",
-    "target_ru": "[Таинственный барьер] Вторая петля, локация b"
+    "target_ru": "[Таинственный барьер] Вторая петля, локация 1"
   },
   {
     "id": "084713",
@@ -28437,7 +28437,7 @@
     "id": "084739",
     "source_cn": "原著·第二章",
     "ref_en": "Original Work · Chapter 2",
-    "target_ru": "Оригинальная работа · Глава b"
+    "target_ru": "Оригинальная работа · Глава 2"
   },
   {
     "id": "084740",
@@ -28479,7 +28479,7 @@
     "id": "084746",
     "source_cn": "坐标4,5",
     "ref_en": "Coordinates 4, 5",
-    "target_ru": "Координаты 4, b"
+    "target_ru": "Координаты 4, 5"
   },
   {
     "id": "084747",
@@ -28527,7 +28527,7 @@
     "id": "084754",
     "source_cn": "家园全景1",
     "ref_en": "Homestead Panoramic 1",
-    "target_ru": "Усадьба Панорамный b"
+    "target_ru": "Усадьба Панорамный 1"
   },
   {
     "id": "084755",
@@ -28539,7 +28539,7 @@
     "id": "084756",
     "source_cn": "居民8",
     "ref_en": "Resident 8",
-    "target_ru": "Резидент b"
+    "target_ru": "Резидент 8"
   },
   {
     "id": "084757",
@@ -29223,7 +29223,7 @@
     "id": "084870",
     "source_cn": "坐标5,1",
     "ref_en": "Coordinates 5,1",
-    "target_ru": "Координаты 5,b"
+    "target_ru": "Координаты 5,1"
   },
   {
     "id": "084871",
@@ -29289,7 +29289,7 @@
     "id": "084881",
     "source_cn": "平台2-1",
     "ref_en": "Platform 2-1",
-    "target_ru": "Платформа 2-b"
+    "target_ru": "Платформа 2-1"
   },
   {
     "id": "084882",
@@ -29415,7 +29415,7 @@
     "id": "084902",
     "source_cn": "方案四",
     "ref_en": "Plan 4",
-    "target_ru": "План b"
+    "target_ru": "План 4"
   },
   {
     "id": "084903",
@@ -29715,7 +29715,7 @@
     "id": "084952",
     "source_cn": "选择3",
     "ref_en": "Select 3",
-    "target_ru": "Выберите b"
+    "target_ru": "Выберите 3"
   },
   {
     "id": "084953",

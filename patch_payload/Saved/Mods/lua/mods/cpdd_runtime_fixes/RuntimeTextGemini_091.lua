@@ -199,7 +199,7 @@ return {
     ["Detect if photo contains a certain object"] = "Определить, содержит ли фотография определенный объект",
     ["A registration flyer for night school, with the slogan:\n \"Literacy class! Attend night school! Have knowledge! Have a future!\""] = "Листовка для записи в вечернюю школу с лозунгом:\n«Курсы грамоты! Иди в вечернюю школу! Знания — залог будущего!»",
     ["Don't forget, we are all just 'Clowns' dancing on the tightrope of fate."] = "Не забывайте, мы все всего лишь «Клоуны», танцующие на канате судьбы.",
-    ["Mood Example NPC 2"] = "Пример настроения NPC b",
+    ["Mood Example NPC 2"] = "Пример настроения NPC 2",
     ["Self effect stacks"] = "Стеки самоэффекта",
     ["Observe the \"Lucky Egg\" carefully"] = "Внимательно наблюдайте за «Счастливым яйцом».",
     ["This is youth..."] = "Это молодость...",

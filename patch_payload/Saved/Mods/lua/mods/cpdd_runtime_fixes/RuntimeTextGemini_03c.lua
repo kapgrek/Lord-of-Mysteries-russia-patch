@@ -187,7 +187,7 @@ return {
     ["First time stepping out of home"] = "Первый раз выхожу из дома",
     ["Support Roman"] = "Поддержите Романа",
     ["Praising..."] = "Хвалю...",
-    ["NPC path 3"] = "NPC путь b",
+    ["NPC path 3"] = "NPC путь 3",
     ["There is no such thing as a Goddess. That was Valerie's mother, Sarah, in disguise."] = "Богини не существует. Это была замаскированная мать Валери, Сара.",
     ["After taking flight, the War Dragon will circle the field, leaving flames behind and continuously charging up. Beyonders must complete a prayer ritual using the <Disable>6 runes</> on the field within a limited time to knock the War Dragon down. \nBeyonders can activate the corresponding rune by entering its range. After the second ritual begins, the runes must be activated in the <Disable>specified sequence</>, otherwise the ritual will not take effect."] = "Взлетев в воздух, Дракон Войны начнёт кружить над полем боя, оставляя за собой языки пламени и непрерывно накапливая силу. Потусторонние должны завершить ритуал молитвы с помощью <Disable>6 рун</> на арене за отведённое время, чтобы сбить Дракона Войны на землю.\nПотусторонний может активировать соответствующую руну, зайдя в область её действия. После начала второго этапа ритуала руны необходимо активировать строго в <Disable>указанном порядке</>, иначе ритуал не сработает.",
     ["Little Rozanne, don't worry, we won't die."] = "Маленькая Розанна, не волнуйся, мы не умрем.",

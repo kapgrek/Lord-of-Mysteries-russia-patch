@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "025000",
     "source_cn": "金狼教堂",
@@ -291,7 +291,7 @@
     "id": "025048",
     "source_cn": "夜皇复活点1",
     "ref_en": "Night Emperor Resurrection Point 1",
-    "target_ru": "Точка воскрешения Императора Ночи b"
+    "target_ru": "Точка воскрешения Императора Ночи 1"
   },
   {
     "id": "025049",
@@ -327,7 +327,7 @@
     "id": "025054",
     "source_cn": "宝箱出现测试2",
     "ref_en": "Treasure Chest Appearance Test 2",
-    "target_ru": "Тест внешнего вида сундука с сокровищами b"
+    "target_ru": "Тест внешнего вида сундука с сокровищами 2"
   },
   {
     "id": "025055",
@@ -351,7 +351,7 @@
     "id": "025058",
     "source_cn": "左阀门1",
     "ref_en": "Left Valve 1",
-    "target_ru": "Левый клапан b"
+    "target_ru": "Левый клапан 1"
   },
   {
     "id": "025059",
@@ -459,7 +459,7 @@
     "id": "025076",
     "source_cn": "排队1",
     "ref_en": "Queueing 1",
-    "target_ru": "Очередь b"
+    "target_ru": "Очередь 1"
   },
   {
     "id": "025077",
@@ -669,7 +669,7 @@
     "id": "025111",
     "source_cn": "触发器·酒吧探索3",
     "ref_en": "Trigger · Bar exploration 3",
-    "target_ru": "Триггер · Исследование бара b"
+    "target_ru": "Триггер · Исследование бара 3"
   },
   {
     "id": "025112",
@@ -783,7 +783,7 @@
     "id": "025130",
     "source_cn": "阵营4传送门交互",
     "ref_en": "Faction 4 Portal interaction",
-    "target_ru": "Взаимодействие с порталом фракции b"
+    "target_ru": "Взаимодействие с порталом фракции 4"
   },
   {
     "id": "025131",
@@ -1029,7 +1029,7 @@
     "id": "025171",
     "source_cn": "平台1-5",
     "ref_en": "Platform 1-5",
-    "target_ru": "Платформа 1-b"
+    "target_ru": "Платформа 1-5"
   },
   {
     "id": "025172",
@@ -1167,7 +1167,7 @@
     "id": "025194",
     "source_cn": "普通神弃-乌洛琉斯-随机分buff-2个坦克（退化DPS，再退化奶妈）：第3层",
     "ref_en": "Normal Forsaken-Ouroboros-Randomly distribute buffs-2 Tanks (Degrade DPS, then degrade Healer): Layer 3",
-    "target_ru": "Обычные Отрекшиеся-Уроборос-Случайным образом распределяйте баффы-2 Танка (ухудшайте ДПС, затем ухудшайте Целителя): Уровень b"
+    "target_ru": "Обычные Отрекшиеся-Уроборос-Случайным образом распределяйте баффы-2 Танка (ухудшайте ДПС, затем ухудшайте Целителя): Уровень 3"
   },
   {
     "id": "025195",
@@ -1251,7 +1251,7 @@
     "id": "025208",
     "source_cn": "碎片发射器1_3",
     "ref_en": "Fragment Launcher 1_3",
-    "target_ru": "Пусковая установка фрагментов 1_b"
+    "target_ru": "Пусковая установка фрагментов 1_3"
   },
   {
     "id": "025209",
@@ -1629,7 +1629,7 @@
     "id": "025271",
     "source_cn": "回忆1",
     "ref_en": "Memory 1",
-    "target_ru": "Память b"
+    "target_ru": "Память 1"
   },
   {
     "id": "025272",
@@ -1641,13 +1641,13 @@
     "id": "025273",
     "source_cn": "城市暗面-新手任务-委托-1",
     "ref_en": "City Dark Side - Newbie Quest - Commission - 1",
-    "target_ru": "Темная сторона города - Квест для новичков - Комиссия - b"
+    "target_ru": "Темная сторона города - Квест для новичков - Комиссия - 1"
   },
   {
     "id": "025274",
     "source_cn": "夜皇箭头3",
     "ref_en": "Night Emperor Arrow 3",
-    "target_ru": "Император Ночи Стрела b"
+    "target_ru": "Император Ночи Стрела 3"
   },
   {
     "id": "025275",
@@ -1743,7 +1743,7 @@
     "id": "025290",
     "source_cn": "战士-巨剑普攻一段",
     "ref_en": "Warrior - Greatsword Basic Attack Phase 1",
-    "target_ru": "Воин — базовая атака двуручным мечом, фаза b"
+    "target_ru": "Воин — базовая атака двуручным мечом, фаза 1"
   },
   {
     "id": "025291",
@@ -2247,7 +2247,7 @@
     "id": "025374",
     "source_cn": "人脉闲聊话题-阿兹克4",
     "ref_en": "Connection Chat Topic - Azik 4",
-    "target_ru": "Тема чата подключения - Азик b"
+    "target_ru": "Тема чата подключения - Азик 4"
   },
   {
     "id": "025375",
@@ -2385,7 +2385,7 @@
     "id": "025397",
     "source_cn": "占卜家-普攻一段",
     "ref_en": "Seer - Basic Attack Phase 1",
-    "target_ru": "Провидец — базовая атака, фаза b"
+    "target_ru": "Провидец — базовая атака, фаза 1"
   },
   {
     "id": "025398",
@@ -2433,7 +2433,7 @@
     "id": "025405",
     "source_cn": "听众4",
     "ref_en": "Audience 4",
-    "target_ru": "Аудитория b"
+    "target_ru": "Аудитория 4"
   },
   {
     "id": "025406",
@@ -2445,7 +2445,7 @@
     "id": "025407",
     "source_cn": "地砖3-8",
     "ref_en": "Floor Tile 3-8",
-    "target_ru": "Напольная плитка 3-b"
+    "target_ru": "Напольная плитка 3-8"
   },
   {
     "id": "025408",
@@ -2673,7 +2673,7 @@
     "id": "025445",
     "source_cn": "演出2Trigger",
     "ref_en": "Performance 2 Trigger",
-    "target_ru": "Триггер производительности b"
+    "target_ru": "Триггер производительности 2"
   },
   {
     "id": "025446",
@@ -3117,7 +3117,7 @@
     "id": "025519",
     "source_cn": "从uasset切换到lua",
     "ref_en": "Switch from uasset to lua",
-    "target_ru": "Переключиться с uasset на lub"
+    "target_ru": "Переключиться с uasset на lua"
   },
   {
     "id": "025520",
@@ -3165,7 +3165,7 @@
     "id": "025527",
     "source_cn": "俱乐部等级1级，其他建筑等级上限1级",
     "ref_en": "Club level 1, other building level cap 1",
-    "target_ru": "Клубный уровень 1, максимальный уровень других зданий b"
+    "target_ru": "Клубный уровень 1, максимальный уровень других зданий 1"
   },
   {
     "id": "025528",
@@ -3369,7 +3369,7 @@
     "id": "025561",
     "source_cn": "封存秩序指引特效1",
     "ref_en": "Sealed Order Guidance Effect 1",
-    "target_ru": "Эффект руководства запечатанного приказа b"
+    "target_ru": "Эффект руководства запечатанного приказа 1"
   },
   {
     "id": "025562",
@@ -3387,7 +3387,7 @@
     "id": "025564",
     "source_cn": "左阀门2",
     "ref_en": "Left Valve 2",
-    "target_ru": "Левый клапан b"
+    "target_ru": "Левый клапан 2"
   },
   {
     "id": "025565",
@@ -3519,7 +3519,7 @@
     "id": "025586",
     "source_cn": "档案1",
     "ref_en": "Archive 1",
-    "target_ru": "Архив b"
+    "target_ru": "Архив 1"
   },
   {
     "id": "025587",
@@ -3543,7 +3543,7 @@
     "id": "025590",
     "source_cn": "洛耀路径1",
     "ref_en": "Luo Yao Path 1",
-    "target_ru": "Ло Яо Путь b"
+    "target_ru": "Ло Яо Путь 1"
   },
   {
     "id": "025591",
@@ -3669,7 +3669,7 @@
     "id": "025611",
     "source_cn": "芥末章鱼1",
     "ref_en": "Mustard Octopus 1",
-    "target_ru": "Горчичный Осьминог b"
+    "target_ru": "Горчичный Осьминог 1"
   },
   {
     "id": "025612",
@@ -3699,7 +3699,7 @@
     "id": "025616",
     "source_cn": "触发器·酒吧探索2",
     "ref_en": "Trigger - Bar exploration 2",
-    "target_ru": "Триггер — исследование бара b"
+    "target_ru": "Триггер — исследование бара 2"
   },
   {
     "id": "025617",
@@ -4179,7 +4179,7 @@
     "id": "025696",
     "source_cn": "法阵3",
     "ref_en": "Magic circle 3",
-    "target_ru": "Магический круг b"
+    "target_ru": "Магический круг 3"
   },
   {
     "id": "025697",
@@ -4233,7 +4233,7 @@
     "id": "025705",
     "source_cn": "碎片发射器1_2",
     "ref_en": "Fragment Emitter 1_2",
-    "target_ru": "Излучатель фрагмента 1_b"
+    "target_ru": "Излучатель фрагмента 1_2"
   },
   {
     "id": "025706",
@@ -4587,7 +4587,7 @@
     "id": "025764",
     "source_cn": "夜皇箭头2",
     "ref_en": "Night Emperor Arrow 2",
-    "target_ru": "Император Ночи Стрела b"
+    "target_ru": "Император Ночи Стрела 2"
   },
   {
     "id": "025765",
@@ -4635,7 +4635,7 @@
     "id": "025772",
     "source_cn": "工人路点4",
     "ref_en": "Worker waypoint 4",
-    "target_ru": "Рабочая точка b"
+    "target_ru": "Рабочая точка 4"
   },
   {
     "id": "025773",
@@ -4755,7 +4755,7 @@
     "id": "025792",
     "source_cn": "旧日荣光·上",
     "ref_en": "Glory of the Great Old One · Part 1",
-    "target_ru": "Слава Великого Старца · Часть b"
+    "target_ru": "Слава Великого Старца · Часть 1"
   },
   {
     "id": "025793",
@@ -4845,7 +4845,7 @@
     "id": "025807",
     "source_cn": "狂信僵尸2-1",
     "ref_en": "Fanatic Zombie 2-1",
-    "target_ru": "Фанатик-зомби 2-b"
+    "target_ru": "Фанатик-зомби 2-1"
   },
   {
     "id": "025808",
@@ -5283,7 +5283,7 @@
     "id": "025880",
     "source_cn": "俯视Actor1",
     "ref_en": "Top-down View Actor 1",
-    "target_ru": "Вид сверху вниз, актер b"
+    "target_ru": "Вид сверху вниз, актер 1"
   },
   {
     "id": "025881",
@@ -5373,7 +5373,7 @@
     "id": "025895",
     "source_cn": "听众7",
     "ref_en": "Audience 7",
-    "target_ru": "Аудитория b"
+    "target_ru": "Аудитория 7"
   },
   {
     "id": "025896",
@@ -5721,7 +5721,7 @@
     "id": "025953",
     "source_cn": "路人7",
     "ref_en": "Passerby 7",
-    "target_ru": "Прохожий b"
+    "target_ru": "Прохожий 7"
   },
   {
     "id": "025954",
@@ -5733,7 +5733,7 @@
     "id": "025955",
     "source_cn": "近景3Actor2",
     "ref_en": "Close-up 3 Actor 2",
-    "target_ru": "Крупный план 3 Актер b"
+    "target_ru": "Крупный план 3 Актер 2"
   },
   {
     "id": "025956",
@@ -5775,7 +5775,7 @@
     "id": "025962",
     "source_cn": "镜头4-3",
     "ref_en": "Shot 4-3",
-    "target_ru": "Удар 4-b"
+    "target_ru": "Удар 4-3"
   },
   {
     "id": "025963",
@@ -5847,7 +5847,7 @@
     "id": "025974",
     "source_cn": "4层",
     "ref_en": "Floor 4",
-    "target_ru": "Этаж b"
+    "target_ru": "Этаж 4"
   },
   {
     "id": "025975",
@@ -5937,7 +5937,7 @@
     "id": "025989",
     "source_cn": "传送点-奉献碑2",
     "ref_en": "Teleport Point - Dedication Monument 2",
-    "target_ru": "Точка телепорта — Памятник посвящения b"
+    "target_ru": "Точка телепорта — Памятник посвящения 2"
   },
   {
     "id": "025990",
@@ -6249,7 +6249,7 @@
     "id": "026041",
     "source_cn": "档案2",
     "ref_en": "Archive 2",
-    "target_ru": "Архив b"
+    "target_ru": "Архив 2"
   },
   {
     "id": "026042",
@@ -6939,7 +6939,7 @@
     "id": "026156",
     "source_cn": "扮演点-歌颂者-隐藏状态-53",
     "ref_en": "Acting Point - Bard - Hidden State - 53",
-    "target_ru": "Действующая точка – Бард – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Бард – Скрытое состояние – 53"
   },
   {
     "id": "026157",
@@ -6981,7 +6981,7 @@
     "id": "026163",
     "source_cn": "支线·美梦成真·第一章第10段",
     "ref_en": "Side Quest: Dreams Come True - Chapter 1, Segment 10",
-    "target_ru": "Побочный квест: Мечты сбываются — глава 1, сегмент bb"
+    "target_ru": "Побочный квест: Мечты сбываются — глава 1, сегмент 10"
   },
   {
     "id": "026164",
@@ -7029,7 +7029,7 @@
     "id": "026171",
     "source_cn": "法阵2",
     "ref_en": "Magic Circle 2",
-    "target_ru": "Магический круг b"
+    "target_ru": "Магический круг 2"
   },
   {
     "id": "026172",
@@ -7479,13 +7479,13 @@
     "id": "026246",
     "source_cn": "区域2-桥梁ep待改备用1",
     "ref_en": "Area 2: Bridge ep to be modified backup 1",
-    "target_ru": "Область 2: EP моста, который необходимо изменить, резервная копия b"
+    "target_ru": "Область 2: EP моста, который необходимо изменить, резервная копия 1"
   },
   {
     "id": "026247",
     "source_cn": "占坑18",
     "ref_en": "Placeholder 18",
-    "target_ru": "Заполнитель bb"
+    "target_ru": "Заполнитель 18"
   },
   {
     "id": "026248",
@@ -7605,13 +7605,13 @@
     "id": "026267",
     "source_cn": "小怪1-1",
     "ref_en": "Small Monster 1-1",
-    "target_ru": "Маленький монстр 1-b"
+    "target_ru": "Маленький монстр 1-1"
   },
   {
     "id": "026268",
     "source_cn": "工人路点5",
     "ref_en": "Worker Waypoint 5",
-    "target_ru": "Рабочая точка b"
+    "target_ru": "Рабочая точка 5"
   },
   {
     "id": "026269",
@@ -7623,7 +7623,7 @@
     "id": "026270",
     "source_cn": "徘徊侍女1",
     "ref_en": "Wandering Maid 1",
-    "target_ru": "Странствующая горничная b"
+    "target_ru": "Странствующая горничная 1"
   },
   {
     "id": "026271",
@@ -7821,7 +7821,7 @@
     "id": "026303",
     "source_cn": "老鼠空白2",
     "ref_en": "Blank Rat 2",
-    "target_ru": "Пустая крыса b"
+    "target_ru": "Пустая крыса 2"
   },
   {
     "id": "026304",
@@ -8181,7 +8181,7 @@
     "id": "026363",
     "source_cn": "听众6",
     "ref_en": "Audience 6",
-    "target_ru": "Аудитория b"
+    "target_ru": "Аудитория 6"
   },
   {
     "id": "026364",
@@ -8271,7 +8271,7 @@
     "id": "026378",
     "source_cn": "尖叫触发1",
     "ref_en": "Scream trigger 1",
-    "target_ru": "Триггер крика b"
+    "target_ru": "Триггер крика 1"
   },
   {
     "id": "026379",
@@ -8589,7 +8589,7 @@
     "id": "026431",
     "source_cn": "路人6",
     "ref_en": "Passerby 6",
-    "target_ru": "Прохожий b"
+    "target_ru": "Прохожий 6"
   },
   {
     "id": "026432",
@@ -8631,7 +8631,7 @@
     "id": "026438",
     "source_cn": "镜头4-2",
     "ref_en": "Shot 4-2",
-    "target_ru": "Удар 4-b"
+    "target_ru": "Удар 4-2"
   },
   {
     "id": "026439",
@@ -8727,7 +8727,7 @@
     "id": "026454",
     "source_cn": "end2过渡",
     "ref_en": "end2 transition",
-    "target_ru": "переход конца b"
+    "target_ru": "переход конца 2"
   },
   {
     "id": "026455",
@@ -8997,7 +8997,7 @@
     "id": "026499",
     "source_cn": "坐标3,5",
     "ref_en": "Coordinates 3,5",
-    "target_ru": "Координаты 3,b"
+    "target_ru": "Координаты 3,5"
   },
   {
     "id": "026500",
@@ -9129,7 +9129,7 @@
     "id": "026521",
     "source_cn": "意志_百分比加成",
     "ref_en": "Willpower_Percentage Bonus",
-    "target_ru": "Бонус Willpower_Percentagb"
+    "target_ru": "Бонус Willpower_Percentage"
   },
   {
     "id": "026522",
@@ -9201,7 +9201,7 @@
     "id": "026533",
     "source_cn": "排队2",
     "ref_en": "Queueing 2",
-    "target_ru": "Очередь b"
+    "target_ru": "Очередь 2"
   },
   {
     "id": "026534",
@@ -9261,7 +9261,7 @@
     "id": "026543",
     "source_cn": "档案3",
     "ref_en": "Archive 3",
-    "target_ru": "Архив b"
+    "target_ru": "Архив 3"
   },
   {
     "id": "026544",
@@ -9633,7 +9633,7 @@
     "id": "026605",
     "source_cn": "人脉闲聊话题-弗兰克1",
     "ref_en": "Connection Chat Topic - Frank 1",
-    "target_ru": "Тема чата подключения - Фрэнк b"
+    "target_ru": "Тема чата подключения - Фрэнк 1"
   },
   {
     "id": "026606",
@@ -10011,7 +10011,7 @@
     "id": "026668",
     "source_cn": "法阵1",
     "ref_en": "Magic Circle 1",
-    "target_ru": "Магический круг b"
+    "target_ru": "Магический круг 1"
   },
   {
     "id": "026669",
@@ -10407,7 +10407,7 @@
     "id": "026734",
     "source_cn": "一团 14/30",
     "ref_en": "A group 14/30",
-    "target_ru": "Группа 14/bb"
+    "target_ru": "Группа 14/30"
   },
   {
     "id": "026735",
@@ -10539,7 +10539,7 @@
     "id": "026756",
     "source_cn": "区域2-桥梁ep待改备用2",
     "ref_en": "Area 2-Bridge ep to be modified backup 2",
-    "target_ru": "Зона 2-Bridge ep должна быть изменена, резервная копия b"
+    "target_ru": "Зона 2-Bridge ep должна быть изменена, резервная копия 2"
   },
   {
     "id": "026757",
@@ -10611,7 +10611,7 @@
     "id": "026768",
     "source_cn": "回忆2",
     "ref_en": "Memory 2",
-    "target_ru": "Память b"
+    "target_ru": "Память 2"
   },
   {
     "id": "026769",
@@ -10629,7 +10629,7 @@
     "id": "026771",
     "source_cn": "城市暗面-新手任务-委托-2",
     "ref_en": "City Dark Side - Newbie Quest - Commission - 2",
-    "target_ru": "Темная сторона города - Квест для новичков - Комиссия - b"
+    "target_ru": "Темная сторона города - Квест для новичков - Комиссия - 2"
   },
   {
     "id": "026772",
@@ -10653,7 +10653,7 @@
     "id": "026775",
     "source_cn": "夜皇箭头4",
     "ref_en": "Night Emperor Arrow 4",
-    "target_ru": "Император Ночи Стрела b"
+    "target_ru": "Император Ночи Стрела 4"
   },
   {
     "id": "026776",
@@ -10671,7 +10671,7 @@
     "id": "026778",
     "source_cn": "安全区8",
     "ref_en": "Safe Zone 8",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 8"
   },
   {
     "id": "026779",
@@ -10689,13 +10689,13 @@
     "id": "026781",
     "source_cn": "巡逻怪物10",
     "ref_en": "Patrol Monster 10",
-    "target_ru": "Патрульный монстр bb"
+    "target_ru": "Патрульный монстр 10"
   },
   {
     "id": "026782",
     "source_cn": "工人路点2",
     "ref_en": "Worker Waypoint 2",
-    "target_ru": "Рабочая точка b"
+    "target_ru": "Рабочая точка 2"
   },
   {
     "id": "026783",
@@ -10707,7 +10707,7 @@
     "id": "026784",
     "source_cn": "开牌四",
     "ref_en": "Reveal Card 4",
-    "target_ru": "Раскройте карту b"
+    "target_ru": "Раскройте карту 4"
   },
   {
     "id": "026785",
@@ -11469,7 +11469,7 @@
     "id": "026911",
     "source_cn": "小孩帕特里克灵体1",
     "ref_en": "Child Patrick Spirit Body 1",
-    "target_ru": "Детское тело Патрика Духа b"
+    "target_ru": "Детское тело Патрика Духа 1"
   },
   {
     "id": "026912",
@@ -11607,7 +11607,7 @@
     "id": "026934",
     "source_cn": "收集知识1",
     "ref_en": "Collect Knowledge 1",
-    "target_ru": "Собрать знания b"
+    "target_ru": "Собрать знания 1"
   },
   {
     "id": "026935",
@@ -11763,7 +11763,7 @@
     "id": "026960",
     "source_cn": "罗珊低头2",
     "ref_en": "Rozanne lowers her head 2",
-    "target_ru": "Розанна опускает голову b"
+    "target_ru": "Розанна опускает голову 2"
   },
   {
     "id": "026961",
@@ -11799,7 +11799,7 @@
     "id": "026966",
     "source_cn": "观众三号",
     "ref_en": "Audience Member No. 3",
-    "target_ru": "Член аудитории № b"
+    "target_ru": "Член аудитории № 3"
   },
   {
     "id": "026967",
@@ -11853,7 +11853,7 @@
     "id": "026975",
     "source_cn": "路人5",
     "ref_en": "Passerby 5",
-    "target_ru": "Прохожий b"
+    "target_ru": "Прохожий 5"
   },
   {
     "id": "026976",
@@ -11883,7 +11883,7 @@
     "id": "026980",
     "source_cn": "镜头4-1",
     "ref_en": "Shot 4-1",
-    "target_ru": "Удар 4-b"
+    "target_ru": "Удар 4-1"
   },
   {
     "id": "026981",
@@ -12195,7 +12195,7 @@
     "id": "027032",
     "source_cn": "坐标3,4",
     "ref_en": "Coordinates 3,4",
-    "target_ru": "Координаты 3,b"
+    "target_ru": "Координаты 3,4"
   },
   {
     "id": "027033",
@@ -12363,7 +12363,7 @@
     "id": "027060",
     "source_cn": "支线·美梦成真·第二章第6段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 2, Paragraph 6",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф b"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф 6"
   },
   {
     "id": "027061",
@@ -12807,7 +12807,7 @@
     "id": "027134",
     "source_cn": "人脉闲聊话题-弗兰克2",
     "ref_en": "Connection Chat Topic - Frank 2",
-    "target_ru": "Тема чата подключения - Фрэнк b"
+    "target_ru": "Тема чата подключения - Фрэнк 2"
   },
   {
     "id": "027135",
@@ -13083,7 +13083,7 @@
     "id": "027180",
     "source_cn": "文本块666",
     "ref_en": "Text Block 666",
-    "target_ru": "Текстовый блок abb"
+    "target_ru": "Текстовый блок 666"
   },
   {
     "id": "027181",
@@ -13371,7 +13371,7 @@
     "id": "027228",
     "source_cn": "2号据点",
     "ref_en": "Stronghold 2",
-    "target_ru": "Крепость b"
+    "target_ru": "Крепость 2"
   },
   {
     "id": "027229",
@@ -13485,7 +13485,7 @@
     "id": "027247",
     "source_cn": "中景4",
     "ref_en": "Medium Shot 4",
-    "target_ru": "Средний план b"
+    "target_ru": "Средний план 4"
   },
   {
     "id": "027248",
@@ -13575,7 +13575,7 @@
     "id": "027262",
     "source_cn": "出售酒类物品数量累计4000个",
     "ref_en": "Cumulative number of alcohol items sold reaches 4,000",
-    "target_ru": "Совокупное количество проданных алкогольных напитков достигло 1abb"
+    "target_ru": "Совокупное количество проданных алкогольных напитков достигло 1ab4"
   },
   {
     "id": "027263",
@@ -13617,7 +13617,7 @@
     "id": "027269",
     "source_cn": "区域2-桥梁ep待改备用3",
     "ref_en": "Area 2 - Bridge EP to be revised, backup 3",
-    "target_ru": "Зона 2 – EP моста подлежит пересмотру, резервная копия b"
+    "target_ru": "Зона 2 – EP моста подлежит пересмотру, резервная копия 3"
   },
   {
     "id": "027270",
@@ -13743,7 +13743,7 @@
     "id": "027290",
     "source_cn": "工人路点3",
     "ref_en": "Worker Road Point 3",
-    "target_ru": "Рабочая дорога, точка b"
+    "target_ru": "Рабочая дорога, точка 3"
   },
   {
     "id": "027291",
@@ -14061,7 +14061,7 @@
     "id": "027343",
     "source_cn": "观众一号",
     "ref_en": "Audience Member No. 1",
-    "target_ru": "Член аудитории № b"
+    "target_ru": "Член аудитории № 1"
   },
   {
     "id": "027344",
@@ -14073,7 +14073,7 @@
     "id": "027345",
     "source_cn": "记忆的传承-舞女-QTE1",
     "ref_en": "Inheritance of Memory - Dancer - QTE 1",
-    "target_ru": "Наследование памяти - Танцовщица - QTE b"
+    "target_ru": "Наследование памяти - Танцовщица - QTE 1"
   },
   {
     "id": "027346",
@@ -14295,7 +14295,7 @@
     "id": "027382",
     "source_cn": "传送圈1",
     "ref_en": "Teleport Circle 1",
-    "target_ru": "Телепортационный круг b"
+    "target_ru": "Телепортационный круг 1"
   },
   {
     "id": "027383",
@@ -14811,7 +14811,7 @@
     "id": "027468",
     "source_cn": "路人4",
     "ref_en": "Passerby 4",
-    "target_ru": "Прохожий b"
+    "target_ru": "Прохожий 4"
   },
   {
     "id": "027469",
@@ -15003,7 +15003,7 @@
     "id": "027500",
     "source_cn": "传送点-奉献碑1",
     "ref_en": "Teleport Point - Dedication Monument 1",
-    "target_ru": "Точка телепорта — Памятник посвящения b"
+    "target_ru": "Точка телепорта — Памятник посвящения 1."
   },
   {
     "id": "027501",
@@ -15765,7 +15765,7 @@
     "id": "027627",
     "source_cn": "人脉闲聊话题-弗兰克3",
     "ref_en": "Connection Chat Topic - Frank 3",
-    "target_ru": "Тема чата подключения - Фрэнк b"
+    "target_ru": "Тема чата подключения - Фрэнк 3"
   },
   {
     "id": "027628",
@@ -15867,7 +15867,7 @@
     "id": "027644",
     "source_cn": "占ID段7266018-7266040_黑荆棘事件簿1_5200227",
     "ref_en": "Reserved ID Range 7266018-7266040_Blackthorn Incident Log 1_5200227",
-    "target_ru": "Зарезервированный диапазон идентификаторов 7266018-7266040_Журнал инцидентов Чёрный Чертополох 1_5521abb"
+    "target_ru": "Зарезервированный диапазон идентификаторов 7266018-7266040_Журнал инцидентов Чёрный Чертополох 1_5200227"
   },
   {
     "id": "027645",
@@ -16137,7 +16137,7 @@
     "id": "027689",
     "source_cn": "摊贩占位1",
     "ref_en": "Vendor position 1",
-    "target_ru": "Позиция продавца b"
+    "target_ru": "Позиция продавца 1"
   },
   {
     "id": "027690",
@@ -16851,13 +16851,13 @@
     "id": "027808",
     "source_cn": "学员18",
     "ref_en": "Student 18",
-    "target_ru": "Студент bb"
+    "target_ru": "Студент 18"
   },
   {
     "id": "027809",
     "source_cn": "安全区6",
     "ref_en": "Safe Zone 6",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 6"
   },
   {
     "id": "027810",
@@ -16881,7 +16881,7 @@
     "id": "027813",
     "source_cn": "小怪1-2",
     "ref_en": "Mob 1-2",
-    "target_ru": "Моб 1-b"
+    "target_ru": "Моб 1-2"
   },
   {
     "id": "027814",
@@ -16899,7 +16899,7 @@
     "id": "027816",
     "source_cn": "巡逻怪物12",
     "ref_en": "Patrol Monster 12",
-    "target_ru": "Патрульный монстр bb"
+    "target_ru": "Патрульный монстр 12"
   },
   {
     "id": "027817",
@@ -16917,7 +16917,7 @@
     "id": "027819",
     "source_cn": "平台0",
     "ref_en": "Platform 0",
-    "target_ru": "Платформа b"
+    "target_ru": "Платформа 0"
   },
   {
     "id": "027820",
@@ -16941,7 +16941,7 @@
     "id": "027823",
     "source_cn": "徘徊侍女2",
     "ref_en": "Wandering Maid 2",
-    "target_ru": "Странствующая горничная b"
+    "target_ru": "Странствующая горничная 2"
   },
   {
     "id": "027824",
@@ -17073,7 +17073,7 @@
     "id": "027845",
     "source_cn": "格子二",
     "ref_en": "Grid 2",
-    "target_ru": "Сетка b"
+    "target_ru": "Сетка 2"
   },
   {
     "id": "027846",
@@ -17481,7 +17481,7 @@
     "id": "027913",
     "source_cn": "传送圈2",
     "ref_en": "Teleport Circle 2",
-    "target_ru": "Телепортационный круг b"
+    "target_ru": "Телепортационный круг 2"
   },
   {
     "id": "027914",
@@ -17619,7 +17619,7 @@
     "id": "027936",
     "source_cn": "地砖3-3",
     "ref_en": "Floor Tile 3-3",
-    "target_ru": "Напольная плитка 3-b"
+    "target_ru": "Напольная плитка 3-3"
   },
   {
     "id": "027937",
@@ -17661,7 +17661,7 @@
     "id": "027943",
     "source_cn": "小女孩1",
     "ref_en": "Little Girl 1",
-    "target_ru": "Маленькая девочка b"
+    "target_ru": "Маленькая девочка 1"
   },
   {
     "id": "027944",
@@ -17787,7 +17787,7 @@
     "id": "027964",
     "source_cn": "收集知识3",
     "ref_en": "Collect Knowledge 3",
-    "target_ru": "Собрать знания b"
+    "target_ru": "Собрать знания 3"
   },
   {
     "id": "027965",
@@ -18561,7 +18561,7 @@
     "id": "028093",
     "source_cn": "正视玩家3",
     "ref_en": "Face the player 3",
-    "target_ru": "Лицом к игроку b"
+    "target_ru": "Лицом к игроку 3"
   },
   {
     "id": "028094",
@@ -18777,7 +18777,7 @@
     "id": "028129",
     "source_cn": "选秀场2号位",
     "ref_en": "Audition spot 2",
-    "target_ru": "Место для прослушивания b"
+    "target_ru": "Место для прослушивания 2"
   },
   {
     "id": "028130",
@@ -18819,7 +18819,7 @@
     "id": "028136",
     "source_cn": "随意读条使用多次领取22",
     "ref_en": "Random reading bar usage multiple claim 22",
-    "target_ru": "Использование произвольной полосы чтения, множественная претензия bb"
+    "target_ru": "Использование произвольной полосы чтения, множественная претензия 22"
   },
   {
     "id": "028137",
@@ -19005,7 +19005,7 @@
     "id": "028167",
     "source_cn": "今日奖励礼盒·二",
     "ref_en": "Today's Reward Box · 2",
-    "target_ru": "Коробка с сегодняшними наградами · b"
+    "target_ru": "Коробка с сегодняшними наградами · 2"
   },
   {
     "id": "028168",
@@ -19149,7 +19149,7 @@
     "id": "028191",
     "source_cn": "召唤NPC，填SkillLvl NpcTid",
     "ref_en": "Summon NPC, fill SkillLvl NpcTid",
-    "target_ru": "Призвать NPC, заполнить SkillLvl NpcTib"
+    "target_ru": "Призвать NPC, заполнить SkillLvl NpcTid"
   },
   {
     "id": "028192",
@@ -19215,7 +19215,7 @@
     "id": "028202",
     "source_cn": "场景测试npc1",
     "ref_en": "Scene Test NPC 1",
-    "target_ru": "Сцена теста NPC b"
+    "target_ru": "Сцена теста NPC 1"
   },
   {
     "id": "028203",
@@ -19305,7 +19305,7 @@
     "id": "028217",
     "source_cn": "小怪2-2",
     "ref_en": "Small monster 2-2",
-    "target_ru": "Маленький монстр 2-b"
+    "target_ru": "Маленький монстр 2-2"
   },
   {
     "id": "028218",
@@ -19401,7 +19401,7 @@
     "id": "028233",
     "source_cn": "扮演点-歌颂者-隐藏状态-47",
     "ref_en": "Acting Point - Bard - Hidden State - 47",
-    "target_ru": "Действующая точка – Бард – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Бард – Скрытое состояние – 47"
   },
   {
     "id": "028234",
@@ -19557,7 +19557,7 @@
     "id": "028259",
     "source_cn": "等旁白1",
     "ref_en": "Wait for narration 1",
-    "target_ru": "Ждите рассказа b"
+    "target_ru": "Ждите рассказа 1"
   },
   {
     "id": "028260",
@@ -19611,7 +19611,7 @@
     "id": "028268",
     "source_cn": "诊所氛围4",
     "ref_en": "Clinic Atmosphere 4",
-    "target_ru": "Клиника Атмосфера b"
+    "target_ru": "Клиника Атмосфера 4"
   },
   {
     "id": "028269",
@@ -19629,7 +19629,7 @@
     "id": "028271",
     "source_cn": "近01过渡",
     "ref_en": "Close-up 01 transition",
-    "target_ru": "Переход крупным планом bb"
+    "target_ru": "Переход крупным планом 01"
   },
   {
     "id": "028272",
@@ -19713,7 +19713,7 @@
     "id": "028285",
     "source_cn": "魔女与野兽-第二幕布置拳击道具",
     "ref_en": "The Witch and the Beast - Act 2 Boxing Prop Setup",
-    "target_ru": "Ведьма и чудовище - Установка боксерского реквизита, акт b"
+    "target_ru": "Ведьма и чудовище - Установка боксерского реквизита, акт 2"
   },
   {
     "id": "028286",
@@ -19827,7 +19827,7 @@
     "id": "028304",
     "source_cn": "中景2",
     "ref_en": "Medium Shot 2",
-    "target_ru": "Средний план b"
+    "target_ru": "Средний план 2"
   },
   {
     "id": "028305",
@@ -19965,13 +19965,13 @@
     "id": "028327",
     "source_cn": "学员19",
     "ref_en": "Student 19",
-    "target_ru": "Студент bb"
+    "target_ru": "Студент 19"
   },
   {
     "id": "028328",
     "source_cn": "安全区7",
     "ref_en": "Safe Zone 7",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 7"
   },
   {
     "id": "028329",
@@ -20007,19 +20007,19 @@
     "id": "028334",
     "source_cn": "巡逻怪物13",
     "ref_en": "Patrol monster 13",
-    "target_ru": "Патрульный монстр bb"
+    "target_ru": "Патрульный монстр 13"
   },
   {
     "id": "028335",
     "source_cn": "工人路点1",
     "ref_en": "Worker Waypoint 1",
-    "target_ru": "Рабочая точка b"
+    "target_ru": "Рабочая точка 1"
   },
   {
     "id": "028336",
     "source_cn": "平台1",
     "ref_en": "Platform 1",
-    "target_ru": "Платформа b"
+    "target_ru": "Платформа 1"
   },
   {
     "id": "028337",
@@ -20391,7 +20391,7 @@
     "id": "028398",
     "source_cn": "记忆的传承-舞女-QTE3",
     "ref_en": "Inheritance of Memory - Dancer - QTE 3",
-    "target_ru": "Наследование памяти - Танцовщица - QTE b"
+    "target_ru": "Наследование памяти - Танцовщица - QTE 3"
   },
   {
     "id": "028399",
@@ -20577,7 +20577,7 @@
     "id": "028429",
     "source_cn": "RogueDemo4层",
     "ref_en": "RogueDemo Floor 4",
-    "target_ru": "RogueDemo Этаж b"
+    "target_ru": "RogueDemo Этаж 4"
   },
   {
     "id": "028430",
@@ -20661,7 +20661,7 @@
     "id": "028443",
     "source_cn": "传送圈3",
     "ref_en": "Portal circle 3",
-    "target_ru": "Портальный круг b"
+    "target_ru": "Портальный круг 3"
   },
   {
     "id": "028444",
@@ -20757,7 +20757,7 @@
     "id": "028459",
     "source_cn": "地砖3-2",
     "ref_en": "Floor Tile 3-2",
-    "target_ru": "Напольная плитка 3-b"
+    "target_ru": "Напольная плитка 3-2"
   },
   {
     "id": "028460",
@@ -20949,7 +20949,7 @@
     "id": "028491",
     "source_cn": "收集知识2",
     "ref_en": "Collect knowledge 2",
-    "target_ru": "Собирать знания b"
+    "target_ru": "Собирать знания 2"
   },
   {
     "id": "028492",
@@ -21039,13 +21039,13 @@
     "id": "028506",
     "source_cn": "混秩湖-混乱湖3-等待传送-默认传回秩序5",
     "ref_en": "Lake of Chaos and Order - Chaos Lake 3 - Awaiting Teleport - Defaults to Teleport Back to Order 5",
-    "target_ru": "Озеро Хаоса и Порядка - Озеро Хаоса 3 - Ожидание телепорта - По умолчанию телепортируется обратно к Приказу b"
+    "target_ru": "Озеро Хаоса и Порядка - Озеро Хаоса 3 - Ожидание телепорта - По умолчанию телепортируется обратно к Приказу 5"
   },
   {
     "id": "028507",
     "source_cn": "灵性之墙2",
     "ref_en": "Wall of Spirituality 2",
-    "target_ru": "Стена духовности b"
+    "target_ru": "Стена духовности 2"
   },
   {
     "id": "028508",
@@ -21177,7 +21177,7 @@
     "id": "028529",
     "source_cn": "聚光灯4",
     "ref_en": "Spotlight 4",
-    "target_ru": "Прожектор b"
+    "target_ru": "Прожектор 4"
   },
   {
     "id": "028530",
@@ -21207,7 +21207,7 @@
     "id": "028534",
     "source_cn": "要占卜吗1",
     "ref_en": "Do you want to divine 1",
-    "target_ru": "Хочешь угадать b"
+    "target_ru": "Хочешь угадать 1"
   },
   {
     "id": "028535",
@@ -21273,7 +21273,7 @@
     "id": "028545",
     "source_cn": "近景邓恩2",
     "ref_en": "Close-up Dunn 2",
-    "target_ru": "Крупный план Данна b"
+    "target_ru": "Крупный план Данна 2"
   },
   {
     "id": "028546",
@@ -21771,7 +21771,7 @@
     "id": "028628",
     "source_cn": "尝试安抚埃德温1",
     "ref_en": "Attempt to pacify Edwin 1",
-    "target_ru": "Попытка усмирить Эдвина b"
+    "target_ru": "Попытка усмирить Эдвина 1"
   },
   {
     "id": "028629",
@@ -21789,7 +21789,7 @@
     "id": "028631",
     "source_cn": "已选：<HighLight>1</>/3",
     "ref_en": "Selected: <HighLight> 1 </> / 3",
-    "target_ru": "Выбрано: <HighLight> 1 </> / b"
+    "target_ru": "Выбрано: <HighLight> 1 </> / 3"
   },
   {
     "id": "028632",
@@ -21921,7 +21921,7 @@
     "id": "028653",
     "source_cn": "正视玩家2",
     "ref_en": "Face the player 2",
-    "target_ru": "Лицом к игроку b"
+    "target_ru": "Лицом к игроку 2"
   },
   {
     "id": "028654",
@@ -22083,7 +22083,7 @@
     "id": "028680",
     "source_cn": "诊所排队5",
     "ref_en": "Clinic queue 5",
-    "target_ru": "Очередь в клинику b"
+    "target_ru": "Очередь в клинику 5"
   },
   {
     "id": "028681",
@@ -22161,7 +22161,7 @@
     "id": "028693",
     "source_cn": "金梧桐片警1",
     "ref_en": "Golden Indus Beat Cop 1",
-    "target_ru": "Золотой Инд, бит полицейского b"
+    "target_ru": "Золотой Инд, бит полицейского 1"
   },
   {
     "id": "028694",
@@ -22425,7 +22425,7 @@
     "id": "028737",
     "source_cn": "初恋情人好心路人1",
     "ref_en": "First Love Kind Passerby 1",
-    "target_ru": "Первая любовь, добрый прохожий b"
+    "target_ru": "Первая любовь, добрый прохожий 1"
   },
   {
     "id": "028738",
@@ -22683,7 +22683,7 @@
     "id": "028780",
     "source_cn": "挂鞋子2",
     "ref_en": "Hanging Shoes 2",
-    "target_ru": "Висячие туфли b"
+    "target_ru": "Висячие туфли 2"
   },
   {
     "id": "028781",
@@ -22695,7 +22695,7 @@
     "id": "028782",
     "source_cn": "摊贩占位3",
     "ref_en": "Vendor Position 3",
-    "target_ru": "Позиция продавца b"
+    "target_ru": "Позиция продавца 3"
   },
   {
     "id": "028783",
@@ -22773,7 +22773,7 @@
     "id": "028795",
     "source_cn": "测试状态5",
     "ref_en": "Test State 5",
-    "target_ru": "Тестовое состояние b"
+    "target_ru": "Тестовое состояние 5"
   },
   {
     "id": "028796",
@@ -22917,7 +22917,7 @@
     "id": "028819",
     "source_cn": "诊所氛围5",
     "ref_en": "Clinic Atmosphere 5",
-    "target_ru": "Клиника Атмосфера b"
+    "target_ru": "Клиника Атмосфера 5"
   },
   {
     "id": "028820",
@@ -23097,7 +23097,7 @@
     "id": "028849",
     "source_cn": "中景3",
     "ref_en": "Medium Shot 3",
-    "target_ru": "Средний план b"
+    "target_ru": "Средний план 3"
   },
   {
     "id": "028850",
@@ -23181,7 +23181,7 @@
     "id": "028863",
     "source_cn": "凯文近景2",
     "ref_en": "Kevin close-up 2",
-    "target_ru": "Кевин крупным планом b"
+    "target_ru": "Кевин крупным планом 2"
   },
   {
     "id": "028864",
@@ -23193,7 +23193,7 @@
     "id": "028865",
     "source_cn": "分宝箱02",
     "ref_en": "Treasure chest 02",
-    "target_ru": "Сундук с сокровищами bb"
+    "target_ru": "Сундук с сокровищами 02"
   },
   {
     "id": "028866",
@@ -23307,7 +23307,7 @@
     "id": "028884",
     "source_cn": "安全区4",
     "ref_en": "Safe Zone 4",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 4"
   },
   {
     "id": "028885",
@@ -23319,7 +23319,7 @@
     "id": "028886",
     "source_cn": "平台2",
     "ref_en": "Platform 2",
-    "target_ru": "Платформа b"
+    "target_ru": "Платформа 2"
   },
   {
     "id": "028887",
@@ -23631,7 +23631,7 @@
     "id": "028938",
     "source_cn": "记忆的传承-舞女-QTE2",
     "ref_en": "Inheritance of Memory - Dancer - QTE 2",
-    "target_ru": "Наследование памяти - Танцовщица - QTE b"
+    "target_ru": "Наследование памяти - Танцовщица - QTE 2"
   },
   {
     "id": "028939",
@@ -23961,7 +23961,7 @@
     "id": "028993",
     "source_cn": "原著主线第三章",
     "ref_en": "Original Main Story Chapter 3",
-    "target_ru": "Оригинальная основная история, глава b"
+    "target_ru": "Оригинальная основная история, глава 3"
   },
   {
     "id": "028994",
@@ -23997,7 +23997,7 @@
     "id": "028999",
     "source_cn": "吉米1",
     "ref_en": "Jimmy 1",
-    "target_ru": "Джимми b"
+    "target_ru": "Джимми 1"
   },
   {
     "id": "029000",
@@ -24027,13 +24027,13 @@
     "id": "029004",
     "source_cn": "围观2老太太",
     "ref_en": "Old Lady Onlooker 2",
-    "target_ru": "Старушка-смотрительница b"
+    "target_ru": "Старушка-смотрительница 2"
   },
   {
     "id": "029005",
     "source_cn": "地砖3-1",
     "ref_en": "Floor Tile 3-1",
-    "target_ru": "Напольная плитка 3-b"
+    "target_ru": "Напольная плитка 3-1"
   },
   {
     "id": "029006",
@@ -24087,7 +24087,7 @@
     "id": "029014",
     "source_cn": "客户端任务Lua数据Reload，ksbc不支持",
     "ref_en": "Client Quest Lua Data Reload, not supported by ksbc",
-    "target_ru": "Перезагрузка данных Client Quest Lua, не поддерживается ksbb"
+    "target_ru": "Перезагрузка данных Client Quest Lua, не поддерживается ksbc"
   },
   {
     "id": "029015",
@@ -24555,7 +24555,7 @@
     "id": "029092",
     "source_cn": "随意读条使用单次领取17",
     "ref_en": "Random reading bar usage single claim 17",
-    "target_ru": "Использование произвольной полосы чтения, одна претензия bb"
+    "target_ru": "Использование произвольной полосы чтения, одна претензия 17"
   },
   {
     "id": "029093",
@@ -25209,7 +25209,7 @@
     "id": "029201",
     "source_cn": "皮特脚印·新2",
     "ref_en": "Pete Footprint - New 2",
-    "target_ru": "След Пита - Новинка b"
+    "target_ru": "След Пита - Новинка 2"
   },
   {
     "id": "029202",
@@ -25311,7 +25311,7 @@
     "id": "029218",
     "source_cn": "诊所排队4",
     "ref_en": "Clinic Queue 4",
-    "target_ru": "Клиника Очередь b"
+    "target_ru": "Клиника Очередь 4"
   },
   {
     "id": "029219",
@@ -25377,7 +25377,7 @@
     "id": "029229",
     "source_cn": "金梧桐片警2",
     "ref_en": "Golden Indus Beat Cop 2",
-    "target_ru": "Золотой Инд Бит Полицейский b"
+    "target_ru": "Золотой Инд Бит Полицейский 2"
   },
   {
     "id": "029230",
@@ -25449,7 +25449,7 @@
     "id": "029241",
     "source_cn": "5号排队市民女",
     "ref_en": "Female Citizen in Line #5",
-    "target_ru": "Гражданка-женщина в очереди №b"
+    "target_ru": "Гражданка-женщина в очереди №5"
   },
   {
     "id": "029242",
@@ -25557,7 +25557,7 @@
     "id": "029259",
     "source_cn": "众神之巅6V6赛事开启",
     "ref_en": "Peak of the Gods 6V6 tournament opened",
-    "target_ru": "Открылся турнир Peak of the Gods 6Vb"
+    "target_ru": "Открылся турнир Peak of the Gods 6V6"
   },
   {
     "id": "029260",
@@ -25647,7 +25647,7 @@
     "id": "029274",
     "source_cn": "场景-墙3",
     "ref_en": "Scene-Wall 3",
-    "target_ru": "Сцена-Стена b"
+    "target_ru": "Сцена-Стена 3"
   },
   {
     "id": "029275",
@@ -25683,7 +25683,7 @@
     "id": "029280",
     "source_cn": "对象瞬间使用单次使用17",
     "ref_en": "Object Instant Single Use 17",
-    "target_ru": "Объект Мгновенного Одноразового использования bb"
+    "target_ru": "Объект Мгновенного Одноразового использования 17"
   },
   {
     "id": "029281",
@@ -25725,7 +25725,7 @@
     "id": "029287",
     "source_cn": "引导射线蓝色传送门2",
     "ref_en": "Guided Ray Blue Portal 2",
-    "target_ru": "Управляемый луч Blue Portal b"
+    "target_ru": "Управляемый луч Blue Portal 2"
   },
   {
     "id": "029288",
@@ -25839,7 +25839,7 @@
     "id": "029306",
     "source_cn": "摊贩占位2",
     "ref_en": "Vendor position 2",
-    "target_ru": "Позиция продавца b"
+    "target_ru": "Позиция продавца 2"
   },
   {
     "id": "029307",
@@ -25893,7 +25893,7 @@
     "id": "029315",
     "source_cn": "测试状态4",
     "ref_en": "Test State 4",
-    "target_ru": "Тестовое состояние b"
+    "target_ru": "Тестовое состояние 4"
   },
   {
     "id": "029316",
@@ -25917,7 +25917,7 @@
     "id": "029319",
     "source_cn": "灵视Actor8",
     "ref_en": "Spirit vision Actor 8",
-    "target_ru": "Духовное видение Актер b"
+    "target_ru": "Духовное видение Актер 8"
   },
   {
     "id": "029320",
@@ -26007,13 +26007,13 @@
     "id": "029334",
     "source_cn": "老尼尔·画画位置1",
     "ref_en": "Old Neil·Painting Location 1",
-    "target_ru": "Старина Нил·Локация картины b"
+    "target_ru": "Старина Нил·Локация картины 1"
   },
   {
     "id": "029335",
     "source_cn": "胥小宇-异象之物1",
     "ref_en": "Xu Xiaoyu - Object of Phenomenon 1",
-    "target_ru": "Сюй Сяоюй - Объект Феномена b"
+    "target_ru": "Сюй Сяоюй - Объект Феномена 1"
   },
   {
     "id": "029336",
@@ -26487,7 +26487,7 @@
     "id": "029414",
     "source_cn": "垫脚石1",
     "ref_en": "Stepping Stone 1",
-    "target_ru": "Ступенька b"
+    "target_ru": "Ступенька 1"
   },
   {
     "id": "029415",
@@ -26541,7 +26541,7 @@
     "id": "029423",
     "source_cn": "安全区5",
     "ref_en": "Safe Zone 5",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 5"
   },
   {
     "id": "029424",
@@ -26601,7 +26601,7 @@
     "id": "029433",
     "source_cn": "平台3",
     "ref_en": "Platform 3",
-    "target_ru": "Платформа b"
+    "target_ru": "Платформа 3"
   },
   {
     "id": "029434",
@@ -26823,7 +26823,7 @@
     "id": "029470",
     "source_cn": "瓦莱莉二",
     "ref_en": "Valerie 2",
-    "target_ru": "Валери b"
+    "target_ru": "Валери 2"
   },
   {
     "id": "029471",
@@ -26853,7 +26853,7 @@
     "id": "029475",
     "source_cn": "等级  63/64",
     "ref_en": "Level 63/64",
-    "target_ru": "Уровень 63/bb"
+    "target_ru": "Уровень 63/64"
   },
   {
     "id": "029476",
@@ -27321,7 +27321,7 @@
     "id": "029553",
     "source_cn": "吊死第二个",
     "ref_en": "Hanged Man 2",
-    "target_ru": "Повешенный b"
+    "target_ru": "Повешенный 2"
   },
   {
     "id": "029554",
@@ -27333,7 +27333,7 @@
     "id": "029555",
     "source_cn": "周版本跨服18001",
     "ref_en": "Weekly Version Cross-Server 18001",
-    "target_ru": "Еженедельная межсерверная версия 21abb"
+    "target_ru": "Еженедельная межсерверная версия 18001"
   },
   {
     "id": "029556",
@@ -27417,7 +27417,7 @@
     "id": "029569",
     "source_cn": "小女孩2",
     "ref_en": "Little Girl 2",
-    "target_ru": "Маленькая девочка b"
+    "target_ru": "Маленькая девочка 2"
   },
   {
     "id": "029570",
@@ -27567,7 +27567,7 @@
     "id": "029594",
     "source_cn": "流程_02",
     "ref_en": "Process_02",
-    "target_ru": "Процесс_bb"
+    "target_ru": "Процесс_02"
   },
   {
     "id": "029595",
@@ -27633,7 +27633,7 @@
     "id": "029605",
     "source_cn": "第四场",
     "ref_en": "Match 4",
-    "target_ru": "Матч b"
+    "target_ru": "Матч 4"
   },
   {
     "id": "029606",
@@ -27651,13 +27651,13 @@
     "id": "029608",
     "source_cn": "等级达到19级",
     "ref_en": "Reach level 19",
-    "target_ru": "Достичь уровня bb"
+    "target_ru": "Достичь уровня 19"
   },
   {
     "id": "029609",
     "source_cn": "聚光灯2",
     "ref_en": "Spotlight 2",
-    "target_ru": "Прожектор b"
+    "target_ru": "Прожектор 2"
   },
   {
     "id": "029610",
@@ -28353,7 +28353,7 @@
     "id": "029725",
     "source_cn": "知识洪流5",
     "ref_en": "Torrent of Knowledge 5",
-    "target_ru": "Поток знаний b"
+    "target_ru": "Поток знаний 5"
   },
   {
     "id": "029726",
@@ -28503,7 +28503,7 @@
     "id": "029750",
     "source_cn": "金梧桐片警3",
     "ref_en": "Golden Indus Beat Cop 3",
-    "target_ru": "Золотой Инд Бит Полицейский b"
+    "target_ru": "Золотой Инд Бит Полицейский 3"
   },
   {
     "id": "029751",
@@ -28545,7 +28545,7 @@
     "id": "029757",
     "source_cn": "非常厚重的空气墙合集1",
     "ref_en": "Very Thick Air Wall Collection 1",
-    "target_ru": "Очень толстая воздушная стена, коллекция b"
+    "target_ru": "Очень толстая воздушная стена, коллекция 1"
   },
   {
     "id": "029758",
@@ -28893,7 +28893,7 @@
     "id": "029815",
     "source_cn": "场景-墙2",
     "ref_en": "Scene - Wall 2",
-    "target_ru": "Сцена – Стена b"
+    "target_ru": "Сцена – Стена 2"
   },
   {
     "id": "029816",
@@ -28941,7 +28941,7 @@
     "id": "029823",
     "source_cn": "小怪2-1",
     "ref_en": "Mob 2-1",
-    "target_ru": "Моб 2-b"
+    "target_ru": "Моб 2-1"
   },
   {
     "id": "029824",
@@ -28971,7 +28971,7 @@
     "id": "029828",
     "source_cn": "引导射线蓝色传送门1",
     "ref_en": "Guided Ray Blue Portal 1",
-    "target_ru": "Управляемый луч Синий портал b"
+    "target_ru": "Управляемый луч Синий портал 1"
   },
   {
     "id": "029829",
@@ -29049,7 +29049,7 @@
     "id": "029841",
     "source_cn": "扮演点-歌颂者-隐藏状态-40",
     "ref_en": "Acting Point - Bard - Hidden State - 40",
-    "target_ru": "Действующая точка – Бард – Скрытое состояние – bb"
+    "target_ru": "Действующая точка – Бард – Скрытое состояние – 40"
   },
   {
     "id": "029842",
@@ -29061,7 +29061,7 @@
     "id": "029843",
     "source_cn": "摊贩占位5",
     "ref_en": "Vendor placeholder 5",
-    "target_ru": "Заполнитель поставщика b"
+    "target_ru": "Заполнитель поставщика 5"
   },
   {
     "id": "029844",
@@ -29169,7 +29169,7 @@
     "id": "029861",
     "source_cn": "测试状态7",
     "ref_en": "Test State 7",
-    "target_ru": "Тестовое состояние b"
+    "target_ru": "Тестовое состояние 7"
   },
   {
     "id": "029862",
@@ -29181,7 +29181,7 @@
     "id": "029863",
     "source_cn": "灵视Actor9",
     "ref_en": "Spirit Vision Actor 9",
-    "target_ru": "Актер духовного видения b"
+    "target_ru": "Актер духовного видения 9"
   },
   {
     "id": "029864",
@@ -29199,7 +29199,7 @@
     "id": "029866",
     "source_cn": "爆炸特效1",
     "ref_en": "Explosion Effect 1",
-    "target_ru": "Эффект взрыва b"
+    "target_ru": "Эффект взрыва 1"
   },
   {
     "id": "029867",
@@ -29301,7 +29301,7 @@
     "id": "029883",
     "source_cn": "等旁白2",
     "ref_en": "Wait for narration 2",
-    "target_ru": "Ждите рассказа b"
+    "target_ru": "Ждите рассказа 2"
   },
   {
     "id": "029884",
@@ -29427,7 +29427,7 @@
     "id": "029904",
     "source_cn": "阵营3交互传送点",
     "ref_en": "Faction 3 interaction teleport point",
-    "target_ru": "Точка телепортации взаимодействия Фракции b"
+    "target_ru": "Точка телепортации взаимодействия Фракции 3"
   },
   {
     "id": "029905",
@@ -29487,7 +29487,7 @@
     "id": "029914",
     "source_cn": "黄铜书表演爆炸2",
     "ref_en": "Brass book performance explosion 2",
-    "target_ru": "Взрыв производительности духовой книги b"
+    "target_ru": "Взрыв производительности духовой книги 2"
   },
   {
     "id": "029915",
@@ -29547,7 +29547,7 @@
     "id": "029924",
     "source_cn": "中景1",
     "ref_en": "Medium Shot 1",
-    "target_ru": "Средний план b"
+    "target_ru": "Средний план 1"
   },
   {
     "id": "029925",
@@ -29619,7 +29619,7 @@
     "id": "029936",
     "source_cn": "占坑11",
     "ref_en": "Placeholder 11",
-    "target_ru": "Заполнитель bb"
+    "target_ru": "Заполнитель 11"
   },
   {
     "id": "029937",
@@ -29709,7 +29709,7 @@
     "id": "029951",
     "source_cn": "安全区2",
     "ref_en": "Safe Zone 2",
-    "target_ru": "Безопасная зона b"
+    "target_ru": "Безопасная зона 2"
   },
   {
     "id": "029952",
@@ -29877,7 +29877,7 @@
     "id": "029979",
     "source_cn": "模型-雕塑2",
     "ref_en": "Model - Sculpture 2",
-    "target_ru": "Модель - Скульптура b"
+    "target_ru": "Модель - Скульптура 2"
   },
   {
     "id": "029980",

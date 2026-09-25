@@ -246,7 +246,7 @@ return {
     ["Guardian Mark_Quality 1"] = "Знак Стража_Качество 1",
     ["Vine Attack Outer Ring"] = "Удар лоз: внешнее кольцо",
     ["Damage Correction Table Formula ID"] = "Идентификатор формулы таблицы коррекции повреждений",
-    ["Intuition +2"] = "Интуиция +b",
+    ["Intuition +2"] = "Интуиция +2",
     ["Complete original work Chapter 2 \"Unexpected Visitor\""] = "Полное оригинальное произведение Глава 2 «Нежданный гость»",
     ["Fan-shaped AOE_Slow"] = "Веерообразная AOE_Slow",
     ["Wheatfield Food Workshop Level 9"] = "Мастерская по приготовлению еды на пшеничном поле, уровень 9",

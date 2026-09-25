@@ -157,7 +157,7 @@ return {
     ["<P_Heart>(A bit tired... I'll go to the lounge and have something to drink.)</>"] = "<P_Heart>(Немного устал... Пойду в гостиную и выпью.)</>",
     ["Kinmen County"] = "Уезд Цзиньмэнь",
     ["<Highlight>Craft: </>Wild Draping Satin · Golden Lion Emblem · Dance Drama Costume\nAria white blooms among the skirt hems, and recitative gold surges beneath the cloak; behind the curtain, they compose an endless epic."] = "<Highlight>Мастерство: </>Ниспадающий атлас · Эмблема золотого льва · Костюм для балета\nБелизна арии расцветает в подоле платья, золото речитатива вздымается под плащом; под сенью кулис они слагают нескончаемую великолепную оду.",
-    ["Connection Chat Topic - Daly 2"] = "Тема чата подключения — Дейли b",
+    ["Connection Chat Topic - Daly 2"] = "Тема чата подключения — Дейли 2",
     ["Demon Invisibility"] = "Демон Невидимость",
     ["Flowchart start wipe interface quest monitoring"] = "Блок-схема запуска мониторинга квеста очистки интерфейса",
     ["There is definitely something wrong with the hypnosis. Did she get infected by some evil spirit or demon?"] = "С гипнозом определенно что-то не так. Она заразилась каким-то злым духом или демоном?",

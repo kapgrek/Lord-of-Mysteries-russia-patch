@@ -223,7 +223,7 @@ return {
     ["Aren't you the same? There aren't many kind people like us left."] = "Разве ты не такой же? Таких добрых людей, как мы, осталось не так много.",
     ["Angry White Cat"] = "Злой белый кот",
     ["Enid runs away by the water"] = "Энид убегает по воде",
-    ["Day 20"] = "День bb",
+    ["Day 20"] = "День 20",
     ["Statue Expired"] = "Срок действия статуи истек",
     ["[Secret] Damage dealt each time a Distortion effect is stacked increased by 30%."] = "[Секрет] Урон, наносимый каждый раз при наложении эффекта искажения, увеличивается на 30%.",
     ["Thomas"] = "Томас",

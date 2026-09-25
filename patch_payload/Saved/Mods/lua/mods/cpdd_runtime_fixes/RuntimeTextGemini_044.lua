@@ -220,7 +220,7 @@ return {
     ["Declarations open every Sunday at %s. Countdown to current declaration: %s"] = "Декларации открываются каждое воскресенье в %s. Обратный отсчет до текущего объявления: %s.",
     ["Enter Scene Directly"] = "Введите сцену напрямую",
     ["The game begins in a parallel world two years after the ending of the Lord of Mysteries novel."] = "Действие игры начинается в параллельном мире через два года после финала романа «Повелитель Тайн».",
-    ["Path 2"] = "Путь b",
+    ["Path 2"] = "Путь 2",
     ["I think I should pay a semi-formal visit to Mrs. Josiah's residence tomorrow; I happen to have a new walking suit."] = "Думаю, завтра мне следует нанести полуофициальный визит в резиденцию миссис Джозайи; У меня случайно есть новый прогулочный костюм.",
     ["Bookshelf monster continuous AoE"] = "Монстр с книжной полки, непрерывное AoE",
     ["Beautiful grandma"] = "Красивая бабушка",

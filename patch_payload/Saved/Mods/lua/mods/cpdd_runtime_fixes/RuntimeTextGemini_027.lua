@@ -229,7 +229,7 @@ return {
     ["Patrol state; visibility is poor on a rainy night, can only see enemies in a small range ahead."] = "Патрульный штат; В дождливую ночь видимость плохая, врагов видно только на небольшом расстоянии впереди.",
     ["Text Board 1 Trigger"] = "Текстовая доска 1 Триггер",
     ["The Family is in the creation process; cannot add new members."] = "Семья находится в процессе создания; не могу добавлять новых участников.",
-    ["Fanatic Zombie 1"] = "Фанатик-зомби b",
+    ["Fanatic Zombie 1"] = "Фанатик-зомби 1",
     ["What a beautiful fish!"] = "Какая красивая рыбка!",
     ["When I was young, my grades were pretty good, but my family said, let me wait, wait until my younger brother finished school."] = "Когда я был маленьким, мои оценки были довольно хорошими, но моя семья сказала: позвольте мне подождать, подождать, пока мой младший брат окончит школу.",
     ["Participate in 1 \"Moment of Fate\" session"] = "Принять участие в 1 сеансе «Момент судьбы».",

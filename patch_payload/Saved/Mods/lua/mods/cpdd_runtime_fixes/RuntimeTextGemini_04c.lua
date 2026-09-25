@@ -223,7 +223,7 @@ return {
     ["Ando standing"] = "Андо стоит",
     ["In a luxurious villa in the Backlund Empress District, Audrey sat in front of her vanity, stroking a mirror in her hand: \"Magic mirror, magic mirror, wake up! In the name of the Hall family, I command you to wake up!\""] = "На роскошной вилле в районе Императрицы Бэкланд Одри сидела перед своим туалетным столиком, поглаживая зеркало в руке: «Волшебное зеркало, волшебное зеркало, просыпайся! Именем семьи Холл я приказываю тебе проснуться!»",
     ["Follow the flame to the destination!"] = "Следуйте за пламенем к месту назначения!",
-    ["Path of Oath Tower 2"] = "Путь Башни Клятвы b",
+    ["Path of Oath Tower 2"] = "Путь Башни Клятвы 2",
     ["Mysterious Treasure Chest - Openable State"] = "Таинственный сундук с сокровищами — открываемое состояние",
     ["My Lady, I am deeply saddened to hear of the Earl's unfortunate passing."] = "Миледи, я глубоко опечален известием о печальной кончине графа.",
     ["Audrey Combat Area"] = "Боевой район Одри",

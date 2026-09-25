@@ -39,7 +39,7 @@
     "id": "050006",
     "source_cn": "沙袋13",
     "ref_en": "Sandbag 13",
-    "target_ru": "Мешок с песком bb"
+    "target_ru": "Мешок с песком 13"
   },
   {
     "id": "050007",
@@ -153,7 +153,7 @@
     "id": "050025",
     "source_cn": "调查场景5_1",
     "ref_en": "Investigation Scene 5_1",
-    "target_ru": "Сцена расследования 5_b"
+    "target_ru": "Сцена расследования 5_1"
   },
   {
     "id": "050026",
@@ -513,7 +513,7 @@
     "id": "050085",
     "source_cn": "层叠之门-二段",
     "ref_en": "Layered Gate - Phase 2",
-    "target_ru": "Многослойные врата — Фаза b"
+    "target_ru": "Многослойные врата — Фаза 2"
   },
   {
     "id": "050086",
@@ -1017,7 +1017,7 @@
     "id": "050169",
     "source_cn": "东南3",
     "ref_en": "Southeast 3",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 3"
   },
   {
     "id": "050170",
@@ -1029,7 +1029,7 @@
     "id": "050171",
     "source_cn": "人类远程2",
     "ref_en": "Human Ranged 2",
-    "target_ru": "Человек дальнего боя b"
+    "target_ru": "Человек дальнего боя 2"
   },
   {
     "id": "050172",
@@ -1041,7 +1041,7 @@
     "id": "050173",
     "source_cn": "仲裁人-普攻二段",
     "ref_en": "Arbiter - Basic Attack Phase 2",
-    "target_ru": "Арбитр — базовая атака, фаза b"
+    "target_ru": "Арбитр — базовая атака, фаза 2"
   },
   {
     "id": "050174",
@@ -1113,7 +1113,7 @@
     "id": "050185",
     "source_cn": "占位烙印升级道具11",
     "ref_en": "Placeholder Brand Upgrade Prop 11",
-    "target_ru": "Заполнитель, предложение по обновлению бренда bb"
+    "target_ru": "Заполнитель, предложение по обновлению бренда 11"
   },
   {
     "id": "050186",
@@ -1269,7 +1269,7 @@
     "id": "050211",
     "source_cn": "开锁1",
     "ref_en": "Unlock 1",
-    "target_ru": "Разблокировать b"
+    "target_ru": "Разблокировать 1"
   },
   {
     "id": "050212",
@@ -1905,7 +1905,7 @@
     "id": "050317",
     "source_cn": "参赛者男1",
     "ref_en": "Contestant Male 1",
-    "target_ru": "Участник-мужчина b"
+    "target_ru": "Участник-мужчина 1"
   },
   {
     "id": "050318",
@@ -2187,7 +2187,7 @@
     "id": "050364",
     "source_cn": "现实主线第二章",
     "ref_en": "Reality Main Story Chapter 2",
-    "target_ru": "Основная история реальности, глава b"
+    "target_ru": "Основная история реальности, глава 2"
   },
   {
     "id": "050365",
@@ -2253,7 +2253,7 @@
     "id": "050375",
     "source_cn": "自行车串3",
     "ref_en": "Bicycle String 3",
-    "target_ru": "Велосипедная струна b"
+    "target_ru": "Велосипедная струна 3"
   },
   {
     "id": "050376",
@@ -2649,7 +2649,7 @@
     "id": "050441",
     "source_cn": "大资源点34",
     "ref_en": "Large Resource Point 34",
-    "target_ru": "Большая ресурсная точка bb"
+    "target_ru": "Большая ресурсная точка 34"
   },
   {
     "id": "050442",
@@ -2709,7 +2709,7 @@
     "id": "050451",
     "source_cn": "异象事件-魔女滋味-追上卢娜5",
     "ref_en": "Anomaly Event - Taste of the Witch - Catch Up to Luna 5",
-    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну b"
+    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну 5"
   },
   {
     "id": "050452",
@@ -2781,7 +2781,7 @@
     "id": "050463",
     "source_cn": "教堂公告栏2",
     "ref_en": "Church Bulletin Board 2",
-    "target_ru": "Церковная доска объявлений b"
+    "target_ru": "Церковная доска объявлений 2"
   },
   {
     "id": "050464",
@@ -2853,7 +2853,7 @@
     "id": "050475",
     "source_cn": "灯光4",
     "ref_en": "Light 4",
-    "target_ru": "Свет b"
+    "target_ru": "Свет 4"
   },
   {
     "id": "050476",
@@ -3111,7 +3111,7 @@
     "id": "050518",
     "source_cn": "上升气流02",
     "ref_en": "Updraft 02",
-    "target_ru": "Восходящий поток bb"
+    "target_ru": "Восходящий поток 02"
   },
   {
     "id": "050519",
@@ -3135,7 +3135,7 @@
     "id": "050522",
     "source_cn": "传送1",
     "ref_en": "Teleport 1",
-    "target_ru": "Телепорт b"
+    "target_ru": "Телепорт 1"
   },
   {
     "id": "050523",
@@ -3321,7 +3321,7 @@
     "id": "050553",
     "source_cn": "对话镜头1",
     "ref_en": "Dialogue Camera 1",
-    "target_ru": "Диалоговая камера b"
+    "target_ru": "Диалоговая камера 1"
   },
   {
     "id": "050554",
@@ -3429,7 +3429,7 @@
     "id": "050571",
     "source_cn": "斧头交互2",
     "ref_en": "Axe Interaction 2",
-    "target_ru": "Взаимодействие с топором b"
+    "target_ru": "Взаимодействие с топором 2"
   },
   {
     "id": "050572",
@@ -3477,7 +3477,7 @@
     "id": "050579",
     "source_cn": "点击输入诡秘圈内容",
     "ref_en": "Click to enter Mystery Circle content",
-    "target_ru": "Нажмите, чтобы войти в контент Mystery Circlb"
+    "target_ru": "Нажмите, чтобы войти в контент Mystery Circle"
   },
   {
     "id": "050580",
@@ -3675,7 +3675,7 @@
     "id": "050612",
     "source_cn": "队友三",
     "ref_en": "Teammate 3",
-    "target_ru": "Товарищ по команде b"
+    "target_ru": "Товарищ по команде 3"
   },
   {
     "id": "050613",
@@ -3867,7 +3867,7 @@
     "id": "050644",
     "source_cn": "中年富裕女3",
     "ref_en": "Wealthy Middle-Aged Woman 3",
-    "target_ru": "Богатая женщина средних лет b"
+    "target_ru": "Богатая женщина средних лет 3"
   },
   {
     "id": "050645",
@@ -3969,7 +3969,7 @@
     "id": "050661",
     "source_cn": "功能区2",
     "ref_en": "Functional Area 2",
-    "target_ru": "Функциональная область b"
+    "target_ru": "Функциональная область 2"
   },
   {
     "id": "050662",
@@ -4083,7 +4083,7 @@
     "id": "050680",
     "source_cn": "开锁2",
     "ref_en": "Unlock 2",
-    "target_ru": "Разблокировать b"
+    "target_ru": "Разблокировать 2"
   },
   {
     "id": "050681",
@@ -4851,7 +4851,7 @@
     "id": "050808",
     "source_cn": "帘子2",
     "ref_en": "Curtain 2",
-    "target_ru": "Занавес b"
+    "target_ru": "Занавес 2"
   },
   {
     "id": "050809",
@@ -5565,7 +5565,7 @@
     "id": "050927",
     "source_cn": "异象事件-魔女滋味-追上卢娜4",
     "ref_en": "Anomaly Event - Taste of the Witch - Catch Up to Luna 4",
-    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну b"
+    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну 4"
   },
   {
     "id": "050928",
@@ -5745,7 +5745,7 @@
     "id": "050957",
     "source_cn": "沙袋11",
     "ref_en": "Sandbag 11",
-    "target_ru": "Мешок с песком bb"
+    "target_ru": "Мешок с песком 11"
   },
   {
     "id": "050958",
@@ -5775,7 +5775,7 @@
     "id": "050962",
     "source_cn": "灯光3",
     "ref_en": "Light 3",
-    "target_ru": "Свет b"
+    "target_ru": "Свет 3"
   },
   {
     "id": "050963",
@@ -5823,7 +5823,7 @@
     "id": "050970",
     "source_cn": "男孩1",
     "ref_en": "Boy 1",
-    "target_ru": "Мальчик b"
+    "target_ru": "Мальчик 1"
   },
   {
     "id": "050971",
@@ -5925,7 +5925,7 @@
     "id": "050987",
     "source_cn": "调查场景5_3",
     "ref_en": "Investigation Scene 5_3",
-    "target_ru": "Сцена расследования 5_b"
+    "target_ru": "Сцена расследования 5_3"
   },
   {
     "id": "050988",
@@ -6099,7 +6099,7 @@
     "id": "051016",
     "source_cn": "上升气流03",
     "ref_en": "Updraft 03",
-    "target_ru": "Восходящий поток bb"
+    "target_ru": "Восходящий поток 03"
   },
   {
     "id": "051017",
@@ -6159,7 +6159,7 @@
     "id": "051026",
     "source_cn": "传送0",
     "ref_en": "Teleport 0",
-    "target_ru": "Телепорт b"
+    "target_ru": "Телепорт 0"
   },
   {
     "id": "051027",
@@ -6339,7 +6339,7 @@
     "id": "051056",
     "source_cn": "巡逻点2",
     "ref_en": "Patrol Point 2",
-    "target_ru": "Патрульный пункт b"
+    "target_ru": "Патрульный пункт 2"
   },
   {
     "id": "051057",
@@ -6441,7 +6441,7 @@
     "id": "051073",
     "source_cn": "斧头交互1",
     "ref_en": "Axe Interaction 1",
-    "target_ru": "Взаимодействие с топором b"
+    "target_ru": "Взаимодействие с топором 1"
   },
   {
     "id": "051074",
@@ -6525,7 +6525,7 @@
     "id": "051087",
     "source_cn": "白线-逆时针马车B23",
     "ref_en": "White line-Counter-clockwise Carriage B23",
-    "target_ru": "Белая линия — против часовой стрелки Каретка Bbb"
+    "target_ru": "Белая линия — против часовой стрелки Каретка B23"
   },
   {
     "id": "051088",
@@ -6549,7 +6549,7 @@
     "id": "051091",
     "source_cn": "绑匪3",
     "ref_en": "Kidnapper 3",
-    "target_ru": "Похититель b"
+    "target_ru": "Похититель 3"
   },
   {
     "id": "051092",
@@ -6879,13 +6879,13 @@
     "id": "051146",
     "source_cn": "东南1",
     "ref_en": "Southeast 1",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 1"
   },
   {
     "id": "051147",
     "source_cn": "中年富裕女2",
     "ref_en": "Wealthy Middle-Aged Woman 2",
-    "target_ru": "Богатая женщина средних лет b"
+    "target_ru": "Богатая женщина средних лет 2"
   },
   {
     "id": "051148",
@@ -6981,7 +6981,7 @@
     "id": "051163",
     "source_cn": "功能区3",
     "ref_en": "Functional Area 3",
-    "target_ru": "Функциональная область b"
+    "target_ru": "Функциональная область 3"
   },
   {
     "id": "051164",
@@ -6993,7 +6993,7 @@
     "id": "051165",
     "source_cn": "危命Demo地点",
     "ref_en": "Perilous Fate Demo Location",
-    "target_ru": "Демо-локация Perilous Fatb"
+    "target_ru": "Демо-локация Perilous Fate"
   },
   {
     "id": "051166",
@@ -7059,7 +7059,7 @@
     "id": "051176",
     "source_cn": "小怪3-2",
     "ref_en": "Small monster 3-2",
-    "target_ru": "Маленький монстр 3-b"
+    "target_ru": "Маленький монстр 3-2"
   },
   {
     "id": "051177",
@@ -7155,13 +7155,13 @@
     "id": "051192",
     "source_cn": "护送中演出芙拉",
     "ref_en": "Escort Performance Flea",
-    "target_ru": "Эскорт Performance Flbb"
+    "target_ru": "Эскорт Performance Flea"
   },
   {
     "id": "051193",
     "source_cn": "招牌近景2",
     "ref_en": "Signboard Close-up 2",
-    "target_ru": "Вывеска крупным планом b"
+    "target_ru": "Вывеска крупным планом 2"
   },
   {
     "id": "051194",
@@ -7179,7 +7179,7 @@
     "id": "051196",
     "source_cn": "支线·美梦成真·第二章第18段",
     "ref_en": "Side Quest: Dreams Come True, Chapter 2, Paragraph 18",
-    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф bb"
+    "target_ru": "Побочный квест: Мечты сбываются, глава 2, параграф 18"
   },
   {
     "id": "051197",
@@ -7263,7 +7263,7 @@
     "id": "051210",
     "source_cn": "玩家转身后2",
     "ref_en": "Player after turning around 2",
-    "target_ru": "Игрок после поворота b"
+    "target_ru": "Игрок после поворота 2"
   },
   {
     "id": "051211",
@@ -7281,7 +7281,7 @@
     "id": "051213",
     "source_cn": "电线杆21",
     "ref_en": "Utility pole 21",
-    "target_ru": "Столб электропередачи bb"
+    "target_ru": "Столб электропередачи 21"
   },
   {
     "id": "051214",
@@ -7293,7 +7293,7 @@
     "id": "051215",
     "source_cn": "白线-逆时针马车B3",
     "ref_en": "White Line - Counter-clockwise Carriage B3",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B3"
   },
   {
     "id": "051216",
@@ -7653,7 +7653,7 @@
     "id": "051275",
     "source_cn": "俱乐部漫游大锤2",
     "ref_en": "Club Roaming Hammer 2",
-    "target_ru": "Клубный роуминг-молот b"
+    "target_ru": "Клубный роуминг-молот 2"
   },
   {
     "id": "051276",
@@ -8115,7 +8115,7 @@
     "id": "051352",
     "source_cn": "路点1trigger",
     "ref_en": "Path Point 1 Trigger",
-    "target_ru": "Триггер точки пути b"
+    "target_ru": "Триггер точки пути 1"
   },
   {
     "id": "051353",
@@ -8343,7 +8343,7 @@
     "id": "051390",
     "source_cn": "区域一",
     "ref_en": "Area 1",
-    "target_ru": "Зона b"
+    "target_ru": "Зона 1"
   },
   {
     "id": "051391",
@@ -8421,7 +8421,7 @@
     "id": "051403",
     "source_cn": "埃姆林1",
     "ref_en": "Emlyn 1",
-    "target_ru": "Эмлин b"
+    "target_ru": "Эмлин 1"
   },
   {
     "id": "051404",
@@ -8655,7 +8655,7 @@
     "id": "051442",
     "source_cn": "星光凝聚一",
     "ref_en": "Starlight Condensation 1",
-    "target_ru": "Конденсация звездного света b"
+    "target_ru": "Конденсация звездного света 1"
   },
   {
     "id": "051443",
@@ -8715,7 +8715,7 @@
     "id": "051452",
     "source_cn": "灯光2",
     "ref_en": "Light 2",
-    "target_ru": "Свет b"
+    "target_ru": "Свет 2"
   },
   {
     "id": "051453",
@@ -8739,7 +8739,7 @@
     "id": "051456",
     "source_cn": "男孩2",
     "ref_en": "Boy 2",
-    "target_ru": "Мальчик b"
+    "target_ru": "Мальчик 2"
   },
   {
     "id": "051457",
@@ -8817,7 +8817,7 @@
     "id": "051469",
     "source_cn": "调查场景5_2",
     "ref_en": "Investigation Scene 5_2",
-    "target_ru": "Сцена расследования 5_b"
+    "target_ru": "Сцена расследования 5_2"
   },
   {
     "id": "051470",
@@ -9093,7 +9093,7 @@
     "id": "051515",
     "source_cn": "传送3",
     "ref_en": "Teleport 3",
-    "target_ru": "Телепорт b"
+    "target_ru": "Телепорт 3"
   },
   {
     "id": "051516",
@@ -9309,7 +9309,7 @@
     "id": "051551",
     "source_cn": "巡逻点3",
     "ref_en": "Patrol Point 3",
-    "target_ru": "Патрульный пункт b"
+    "target_ru": "Патрульный пункт 3"
   },
   {
     "id": "051552",
@@ -9387,7 +9387,7 @@
     "id": "051564",
     "source_cn": "换cs1000427",
     "ref_en": "Switch cs1000427",
-    "target_ru": "Переключатель cs5521abb"
+    "target_ru": "Переключатель cs1000427"
   },
   {
     "id": "051565",
@@ -9561,7 +9561,7 @@
     "id": "051593",
     "source_cn": "白线-逆时针马车B22",
     "ref_en": "White Line - Counter-Clockwise Carriage B22",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B22"
   },
   {
     "id": "051594",
@@ -9591,7 +9591,7 @@
     "id": "051598",
     "source_cn": "破损的火种二号",
     "ref_en": "Damaged Fire Seed No. 2",
-    "target_ru": "Поврежденное семя огня № b"
+    "target_ru": "Поврежденное семя огня № 2"
   },
   {
     "id": "051599",
@@ -9609,7 +9609,7 @@
     "id": "051601",
     "source_cn": "童话故事1号BOSS",
     "ref_en": "Fairy Tale Boss 1",
-    "target_ru": "Сказочный босс b"
+    "target_ru": "Сказочный босс 1"
   },
   {
     "id": "051602",
@@ -9621,7 +9621,7 @@
     "id": "051603",
     "source_cn": "绑匪2",
     "ref_en": "Kidnapper 2",
-    "target_ru": "Похититель b"
+    "target_ru": "Похититель 2"
   },
   {
     "id": "051604",
@@ -9903,7 +9903,7 @@
     "id": "051650",
     "source_cn": "东南6",
     "ref_en": "Southeast 6",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 6"
   },
   {
     "id": "051651",
@@ -10221,7 +10221,7 @@
     "id": "051703",
     "source_cn": "小怪3-1",
     "ref_en": "Mob 3-1",
-    "target_ru": "Моб 3-b"
+    "target_ru": "Моб 3-1"
   },
   {
     "id": "051704",
@@ -10365,7 +10365,7 @@
     "id": "051727",
     "source_cn": "招牌近景1",
     "ref_en": "Signboard Close-up 1",
-    "target_ru": "Вывеска крупным планом b"
+    "target_ru": "Вывеска крупным планом 1"
   },
   {
     "id": "051728",
@@ -10527,7 +10527,7 @@
     "id": "051754",
     "source_cn": "电线杆22",
     "ref_en": "Utility Pole 22",
-    "target_ru": "Вспомогательный столб bb"
+    "target_ru": "Вспомогательный столб 22"
   },
   {
     "id": "051755",
@@ -10557,7 +10557,7 @@
     "id": "051759",
     "source_cn": "第24天",
     "ref_en": "Day 24",
-    "target_ru": "День bb"
+    "target_ru": "День 24"
   },
   {
     "id": "051760",
@@ -10677,7 +10677,7 @@
     "id": "051779",
     "source_cn": "采集物3火柴盒",
     "ref_en": "Collectible 3 Matchbox",
-    "target_ru": "Коллекционный спичечный коробок b"
+    "target_ru": "Коллекционный спичечный коробок 3"
   },
   {
     "id": "051780",
@@ -10695,13 +10695,13 @@
     "id": "051782",
     "source_cn": "阻拦1",
     "ref_en": "Block 1",
-    "target_ru": "Блок b"
+    "target_ru": "Блок 1"
   },
   {
     "id": "051783",
     "source_cn": "隐秘空间占坑-传送门0",
     "ref_en": "Hidden Space Placeholder - Portal 0",
-    "target_ru": "Заполнитель скрытого пространства — Портал b"
+    "target_ru": "Заполнитель скрытого пространства — Портал 0"
   },
   {
     "id": "051784",
@@ -11085,7 +11085,7 @@
     "id": "051847",
     "source_cn": "小积分点4",
     "ref_en": "Small Score Point 4",
-    "target_ru": "Малый балл b"
+    "target_ru": "Малый балл 4"
   },
   {
     "id": "051848",
@@ -11331,7 +11331,7 @@
     "id": "051888",
     "source_cn": "痛苦的灵-男2",
     "ref_en": "Painful Spirit-Male 2",
-    "target_ru": "Болезненный дух-мужчина b"
+    "target_ru": "Болезненный дух-мужчина 2"
   },
   {
     "id": "051889",
@@ -11361,7 +11361,7 @@
     "id": "051893",
     "source_cn": "祭坛上的烛火2",
     "ref_en": "Candlelight on Altar 2",
-    "target_ru": "Свечи на Алтаре b"
+    "target_ru": "Свечи на Алтаре 2"
   },
   {
     "id": "051894",
@@ -11811,7 +11811,7 @@
     "id": "051968",
     "source_cn": "占卜家抵抗_数值",
     "ref_en": "Seer Resistance_Value",
-    "target_ru": "Провидец Resistance_Valub"
+    "target_ru": "Провидец Resistance_Value"
   },
   {
     "id": "051969",
@@ -11835,7 +11835,7 @@
     "id": "051972",
     "source_cn": "右侧视Actor1",
     "ref_en": "Right side view Actor1",
-    "target_ru": "Вид справа Актерb"
+    "target_ru": "Вид справа Актер1"
   },
   {
     "id": "051973",
@@ -12117,7 +12117,7 @@
     "id": "052019",
     "source_cn": "沉默闪避_数值",
     "ref_en": "Silence Dodge_Value",
-    "target_ru": "Молчание Dodge_Valub"
+    "target_ru": "Молчание Dodge_Value"
   },
   {
     "id": "052020",
@@ -12147,7 +12147,7 @@
     "id": "052024",
     "source_cn": "灯光1",
     "ref_en": "Light 1",
-    "target_ru": "Свет b"
+    "target_ru": "Свет 1"
   },
   {
     "id": "052025",
@@ -12411,7 +12411,7 @@
     "id": "052068",
     "source_cn": "10:00-1:00开放",
     "ref_en": "Open 10:00-01:00",
-    "target_ru": "Открыто 10:00-01:bb"
+    "target_ru": "Открыто 10:00-01:00"
   },
   {
     "id": "052069",
@@ -12519,7 +12519,7 @@
     "id": "052086",
     "source_cn": "上升气流01",
     "ref_en": "Updraft 01",
-    "target_ru": "Восходящий поток bb"
+    "target_ru": "Восходящий поток 01"
   },
   {
     "id": "052087",
@@ -12573,7 +12573,7 @@
     "id": "052095",
     "source_cn": "传送2",
     "ref_en": "Teleport 2",
-    "target_ru": "Телепорт b"
+    "target_ru": "Телепорт 2"
   },
   {
     "id": "052096",
@@ -12771,7 +12771,7 @@
     "id": "052128",
     "source_cn": "对话镜头2",
     "ref_en": "Dialogue Camera 2",
-    "target_ru": "Диалоговая камера b"
+    "target_ru": "Диалоговая камера 2"
   },
   {
     "id": "052129",
@@ -12873,7 +12873,7 @@
     "id": "052145",
     "source_cn": "打开lua插桩统计",
     "ref_en": "Open Lua instrumentation statistics",
-    "target_ru": "Открыть статистику инструментирования Lub"
+    "target_ru": "Открыть статистику инструментирования Lua"
   },
   {
     "id": "052146",
@@ -12999,7 +12999,7 @@
     "id": "052166",
     "source_cn": "白线-逆时针马车B21",
     "ref_en": "White Line - Counter-clockwise Carriage B21",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B21"
   },
   {
     "id": "052167",
@@ -13017,7 +13017,7 @@
     "id": "052169",
     "source_cn": "称号·众神之巅八强",
     "ref_en": "Title: Peak of the Gods Top 8",
-    "target_ru": "Название: Пик богов Топ-b"
+    "target_ru": "Название: Пик богов Топ-8"
   },
   {
     "id": "052170",
@@ -13029,7 +13029,7 @@
     "id": "052171",
     "source_cn": "第15天",
     "ref_en": "Day 15",
-    "target_ru": "День bb"
+    "target_ru": "День 15"
   },
   {
     "id": "052172",
@@ -13089,7 +13089,7 @@
     "id": "052181",
     "source_cn": "绑匪1",
     "ref_en": "Kidnapper 1",
-    "target_ru": "Похититель b"
+    "target_ru": "Похититель 1"
   },
   {
     "id": "052182",
@@ -13293,7 +13293,7 @@
     "id": "052215",
     "source_cn": "东南7",
     "ref_en": "Southeast 7",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 7"
   },
   {
     "id": "052216",
@@ -13347,7 +13347,7 @@
     "id": "052224",
     "source_cn": "全景1",
     "ref_en": "Panorama 1",
-    "target_ru": "Панорама b"
+    "target_ru": "Панорама 1"
   },
   {
     "id": "052225",
@@ -13371,7 +13371,7 @@
     "id": "052228",
     "source_cn": "功能区1",
     "ref_en": "Functional Area 1",
-    "target_ru": "Функциональная область b"
+    "target_ru": "Функциональная область 1"
   },
   {
     "id": "052229",
@@ -13473,7 +13473,7 @@
     "id": "052245",
     "source_cn": "小资源点12",
     "ref_en": "Small resource point 12",
-    "target_ru": "Малая ресурсная точка bb"
+    "target_ru": "Малая ресурсная точка 12"
   },
   {
     "id": "052246",
@@ -13611,7 +13611,7 @@
     "id": "052268",
     "source_cn": "播放cutscene1000375",
     "ref_en": "Play cutscene 1000375",
-    "target_ru": "Воспроизвести кат-сцену 5521abb"
+    "target_ru": "Воспроизвести кат-сцену 1000375"
   },
   {
     "id": "052269",
@@ -13713,7 +13713,7 @@
     "id": "052285",
     "source_cn": "灵性灌输：%s/8",
     "ref_en": "Spirituality Infusion: %s/8",
-    "target_ru": "Настой духовности: %s/b"
+    "target_ru": "Настой духовности: %s/8"
   },
   {
     "id": "052286",
@@ -13731,7 +13731,7 @@
     "id": "052288",
     "source_cn": "电线杆23",
     "ref_en": "Utility Pole 23",
-    "target_ru": "Вспомогательный столб bb"
+    "target_ru": "Вспомогательный столб 23"
   },
   {
     "id": "052289",
@@ -13881,7 +13881,7 @@
     "id": "052313",
     "source_cn": "阻拦2",
     "ref_en": "Block 2",
-    "target_ru": "Блок b"
+    "target_ru": "Блок 2"
   },
   {
     "id": "052314",
@@ -13893,7 +13893,7 @@
     "id": "052315",
     "source_cn": "隐秘空间占坑-传送门1",
     "ref_en": "Hidden Space Placeholder - Portal 1",
-    "target_ru": "Заполнитель скрытого пространства — Портал b"
+    "target_ru": "Заполнитель скрытого пространства — Портал 1"
   },
   {
     "id": "052316",
@@ -14091,7 +14091,7 @@
     "id": "052348",
     "source_cn": "修房子工人1",
     "ref_en": "Construction Worker 1",
-    "target_ru": "Строитель b"
+    "target_ru": "Строитель 1"
   },
   {
     "id": "052349",
@@ -14253,13 +14253,13 @@
     "id": "052375",
     "source_cn": "安多2",
     "ref_en": "Ando 2",
-    "target_ru": "Андо b"
+    "target_ru": "Андо 2"
   },
   {
     "id": "052376",
     "source_cn": "家园废墟2",
     "ref_en": "Homeland Ruins 2",
-    "target_ru": "Руины Родины b"
+    "target_ru": "Руины Родины 2"
   },
   {
     "id": "052377",
@@ -14289,7 +14289,7 @@
     "id": "052381",
     "source_cn": "小积分点3",
     "ref_en": "Small Score Point 3",
-    "target_ru": "Малый балл b"
+    "target_ru": "Малый балл 3"
   },
   {
     "id": "052382",
@@ -14781,7 +14781,7 @@
     "id": "052463",
     "source_cn": "东区骑警1",
     "ref_en": "East District Mounted Police 1",
-    "target_ru": "Конная полиция Восточного округа b"
+    "target_ru": "Конная полиция Восточного округа 1"
   },
   {
     "id": "052464",
@@ -15105,7 +15105,7 @@
     "id": "052517",
     "source_cn": "异象事件-魔女滋味-追上卢娜1",
     "ref_en": "Anomaly Event - Taste of the Witch - Catch Up to Luna 1",
-    "target_ru": "Аномальное событие — Вкус ведьмы — Догоните Луну b"
+    "target_ru": "Аномальное событие — Вкус ведьмы — Догоните Луну 1"
   },
   {
     "id": "052518",
@@ -15189,7 +15189,7 @@
     "id": "052531",
     "source_cn": "支线·美梦成真·第一章第11段",
     "ref_en": "Side Quest: Dreams Come True - Chapter 1, Segment 11",
-    "target_ru": "Побочный квест: Мечты сбываются — глава 1, сегмент bb"
+    "target_ru": "Побочный квест: Мечты сбываются — глава 1, сегмент 11"
   },
   {
     "id": "052532",
@@ -15225,7 +15225,7 @@
     "id": "052537",
     "source_cn": "沙袋14",
     "ref_en": "Sandbag 14",
-    "target_ru": "Мешок с песком bb"
+    "target_ru": "Мешок с песком 14"
   },
   {
     "id": "052538",
@@ -15633,7 +15633,7 @@
     "id": "052605",
     "source_cn": "修怀表2",
     "ref_en": "Repair Pocket Watch 2",
-    "target_ru": "Ремонт карманных часов b"
+    "target_ru": "Ремонт карманных часов 2"
   },
   {
     "id": "052606",
@@ -15687,7 +15687,7 @@
     "id": "052614",
     "source_cn": "区域4隐身怪",
     "ref_en": "Area 4 Invisibility Monster",
-    "target_ru": "Монстр-невидимка Зоны b"
+    "target_ru": "Монстр-невидимка Зоны 4"
   },
   {
     "id": "052615",
@@ -15795,7 +15795,7 @@
     "id": "052632",
     "source_cn": "外观抽奖池列表",
     "ref_en": "Appearance Gacha Pool List",
-    "target_ru": "Внешний вид Список пулов Gachb"
+    "target_ru": "Внешний вид Список пулов Gacha"
   },
   {
     "id": "052633",
@@ -15849,7 +15849,7 @@
     "id": "052641",
     "source_cn": "巡逻点1",
     "ref_en": "Patrol point 1",
-    "target_ru": "Патрульный пункт b"
+    "target_ru": "Патрульный пункт 1"
   },
   {
     "id": "052642",
@@ -15909,7 +15909,7 @@
     "id": "052651",
     "source_cn": "总完成度大于2400",
     "ref_en": "Total completion greater than 2400",
-    "target_ru": "Общее завершение более 1abb"
+    "target_ru": "Общее завершение более 2400"
   },
   {
     "id": "052652",
@@ -16029,7 +16029,7 @@
     "id": "052671",
     "source_cn": "白线-逆时针马车B20",
     "ref_en": "White Line - Counter-clockwise Carriage B20",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B20"
   },
   {
     "id": "052672",
@@ -16095,7 +16095,7 @@
     "id": "052682",
     "source_cn": "观众四号",
     "ref_en": "Audience Member No. 4",
-    "target_ru": "Член аудитории № b"
+    "target_ru": "Член аудитории № 4"
   },
   {
     "id": "052683",
@@ -16347,7 +16347,7 @@
     "id": "052724",
     "source_cn": "东南4",
     "ref_en": "Southeast 4",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 4"
   },
   {
     "id": "052725",
@@ -16701,7 +16701,7 @@
     "id": "052783",
     "source_cn": "文字版1-1",
     "ref_en": "Text Version 1-1",
-    "target_ru": "Текстовая версия 1-b"
+    "target_ru": "Текстовая версия 1-1"
   },
   {
     "id": "052784",
@@ -16893,7 +16893,7 @@
     "id": "052815",
     "source_cn": "观众-梦境编织肉鸽",
     "ref_en": "Spectator - Dream Weaving Roguelike",
-    "target_ru": "Зритель — Dream Weaving Roguelikb"
+    "target_ru": "Зритель — Dream Weaving Roguelike"
   },
   {
     "id": "052816",
@@ -16995,7 +16995,7 @@
     "id": "052832",
     "source_cn": "阻拦3",
     "ref_en": "Block 3",
-    "target_ru": "Блок b"
+    "target_ru": "Блок 3"
   },
   {
     "id": "052833",
@@ -17007,7 +17007,7 @@
     "id": "052834",
     "source_cn": "隐秘空间占坑-传送门2",
     "ref_en": "Hidden Space Placeholder - Portal 2",
-    "target_ru": "Заполнитель скрытого пространства — Portal b"
+    "target_ru": "Заполнитель скрытого пространства — Portal 2"
   },
   {
     "id": "052835",
@@ -17169,7 +17169,7 @@
     "id": "052861",
     "source_cn": "东区卖艺氛围2",
     "ref_en": "East District Street Performance Atmosphere 2",
-    "target_ru": "Атмосфера уличного представления Восточного района b"
+    "target_ru": "Атмосфера уличного представления Восточного района 2"
   },
   {
     "id": "052862",
@@ -17229,7 +17229,7 @@
     "id": "052871",
     "source_cn": "修房子工人2",
     "ref_en": "Construction Worker 2",
-    "target_ru": "Строитель b"
+    "target_ru": "Строитель 2"
   },
   {
     "id": "052872",
@@ -17241,7 +17241,7 @@
     "id": "052873",
     "source_cn": "俱乐部漫游大锤1",
     "ref_en": "Club Roaming Warhammer 1",
-    "target_ru": "Клубный роуминг Warhammer b"
+    "target_ru": "Клубный роуминг Warhammer 1"
   },
   {
     "id": "052874",
@@ -17361,13 +17361,13 @@
     "id": "052893",
     "source_cn": "家园废墟1",
     "ref_en": "Homeland Ruins 1",
-    "target_ru": "Руины Родины b"
+    "target_ru": "Руины Родины 1"
   },
   {
     "id": "052894",
     "source_cn": "小积分点2",
     "ref_en": "Small Score Point 2",
-    "target_ru": "Малый балл b"
+    "target_ru": "Малый балл 2"
   },
   {
     "id": "052895",
@@ -17397,7 +17397,7 @@
     "id": "052899",
     "source_cn": "弗莱视线1",
     "ref_en": "Frye line of sight 1",
-    "target_ru": "Прямая видимость Фрая b"
+    "target_ru": "Прямая видимость Фрая 1"
   },
   {
     "id": "052900",
@@ -17547,7 +17547,7 @@
     "id": "052924",
     "source_cn": "白竖0",
     "ref_en": "White Vertical 0",
-    "target_ru": "Белый Вертикальный b"
+    "target_ru": "Белый Вертикальный 0"
   },
   {
     "id": "052925",
@@ -17697,7 +17697,7 @@
     "id": "052949",
     "source_cn": "观光马车相机1",
     "ref_en": "Sightseeing Carriage Camera 1",
-    "target_ru": "Камера обзорной кареты b"
+    "target_ru": "Камера обзорной кареты 1"
   },
   {
     "id": "052950",
@@ -17847,7 +17847,7 @@
     "id": "052974",
     "source_cn": "5号据点",
     "ref_en": "Stronghold 5",
-    "target_ru": "Крепость b"
+    "target_ru": "Крепость 5"
   },
   {
     "id": "052975",
@@ -18033,7 +18033,7 @@
     "id": "053005",
     "source_cn": "埃姆林2",
     "ref_en": "Emlyn 2",
-    "target_ru": "Эмлин b"
+    "target_ru": "Эмлин 2"
   },
   {
     "id": "053006",
@@ -18183,7 +18183,7 @@
     "id": "053030",
     "source_cn": "条件组一",
     "ref_en": "Condition Group 1",
-    "target_ru": "Группа условий b"
+    "target_ru": "Группа условий 1"
   },
   {
     "id": "053031",
@@ -18195,7 +18195,7 @@
     "id": "053032",
     "source_cn": "格尔达1",
     "ref_en": "Gerda 1",
-    "target_ru": "Герда b"
+    "target_ru": "Герда 1"
   },
   {
     "id": "053033",
@@ -18525,7 +18525,7 @@
     "id": "053087",
     "source_cn": "任务1",
     "ref_en": "Quest 1",
-    "target_ru": "Квест b"
+    "target_ru": "Квест 1"
   },
   {
     "id": "053088",
@@ -18621,7 +18621,7 @@
     "id": "053103",
     "source_cn": "占位5",
     "ref_en": "Placeholder 5",
-    "target_ru": "Заполнитель b"
+    "target_ru": "Заполнитель 5"
   },
   {
     "id": "053104",
@@ -18699,7 +18699,7 @@
     "id": "053116",
     "source_cn": "家族等级3级",
     "ref_en": "Family level 3",
-    "target_ru": "Семейный уровень b"
+    "target_ru": "Семейный уровень 3"
   },
   {
     "id": "053117",
@@ -18795,7 +18795,7 @@
     "id": "053132",
     "source_cn": "拳击1",
     "ref_en": "Boxer 1",
-    "target_ru": "Боксер b"
+    "target_ru": "Боксер 1"
   },
   {
     "id": "053133",
@@ -18813,7 +18813,7 @@
     "id": "053135",
     "source_cn": "敌人2_2",
     "ref_en": "Enemy 2_2",
-    "target_ru": "Враг 2_b"
+    "target_ru": "Враг 2_2"
   },
   {
     "id": "053136",
@@ -18897,7 +18897,7 @@
     "id": "053149",
     "source_cn": "白线-逆时针马车B27",
     "ref_en": "White Line - Counter-clockwise Carriage B27",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B27"
   },
   {
     "id": "053150",
@@ -19041,7 +19041,7 @@
     "id": "053173",
     "source_cn": "跟操1",
     "ref_en": "Follow-up Drill 1",
-    "target_ru": "Последующее упражнение b"
+    "target_ru": "Последующее упражнение 1"
   },
   {
     "id": "053174",
@@ -19227,7 +19227,7 @@
     "id": "053204",
     "source_cn": "东南5",
     "ref_en": "Southeast 5",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 5"
   },
   {
     "id": "053205",
@@ -19455,7 +19455,7 @@
     "id": "053242",
     "source_cn": "小资源点14",
     "ref_en": "Small resource point 14",
-    "target_ru": "Малая ресурсная точка bb"
+    "target_ru": "Малая ресурсная точка 14"
   },
   {
     "id": "053243",
@@ -19647,7 +19647,7 @@
     "id": "053274",
     "source_cn": "正视Actor1",
     "ref_en": "Face Actor 1",
-    "target_ru": "Лицо актера b"
+    "target_ru": "Лицо актера 1"
   },
   {
     "id": "053275",
@@ -19665,7 +19665,7 @@
     "id": "053277",
     "source_cn": "白线-逆时针马车B7",
     "ref_en": "White Line - Counter-clockwise Carriage B7",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B7"
   },
   {
     "id": "053278",
@@ -19677,7 +19677,7 @@
     "id": "053279",
     "source_cn": "看点1",
     "ref_en": "Point of interest 1",
-    "target_ru": "Достопримечательность b"
+    "target_ru": "Достопримечательность 1"
   },
   {
     "id": "053280",
@@ -19815,7 +19815,7 @@
     "id": "053302",
     "source_cn": "远景01",
     "ref_en": "Long shot 01",
-    "target_ru": "Длинный выстрел bb"
+    "target_ru": "Длинный выстрел 01"
   },
   {
     "id": "053303",
@@ -19851,7 +19851,7 @@
     "id": "053308",
     "source_cn": "阻拦4",
     "ref_en": "Block 4",
-    "target_ru": "Блок b"
+    "target_ru": "Блок 4"
   },
   {
     "id": "053309",
@@ -19863,7 +19863,7 @@
     "id": "053310",
     "source_cn": "隐秘空间占坑-传送门3",
     "ref_en": "Hidden Space Placeholder - Portal 3",
-    "target_ru": "Заполнитель скрытого пространства — Portal b"
+    "target_ru": "Заполнитель скрытого пространства — Portal 3"
   },
   {
     "id": "053311",
@@ -20163,7 +20163,7 @@
     "id": "053360",
     "source_cn": "地火陷阱3",
     "ref_en": "Ground Fire Trap 3",
-    "target_ru": "Наземная огненная ловушка b"
+    "target_ru": "Наземная огненная ловушка 3"
   },
   {
     "id": "053361",
@@ -20217,7 +20217,7 @@
     "id": "053369",
     "source_cn": "小积分点1",
     "ref_en": "Small Score Point 1",
-    "target_ru": "Малый балл b"
+    "target_ru": "Малый балл 1"
   },
   {
     "id": "053370",
@@ -20463,13 +20463,13 @@
     "id": "053410",
     "source_cn": "痛苦的灵-男1",
     "ref_en": "Painful Spirit-Male 1",
-    "target_ru": "Болезненный дух-мужчина b"
+    "target_ru": "Болезненный дух-мужчина 1"
   },
   {
     "id": "053411",
     "source_cn": "白竖1",
     "ref_en": "White Vertical 1",
-    "target_ru": "Белый Вертикальный b"
+    "target_ru": "Белый Вертикальный 1"
   },
   {
     "id": "053412",
@@ -20493,13 +20493,13 @@
     "id": "053415",
     "source_cn": "祭坛上的烛火1",
     "ref_en": "Candlelight on Altar 1",
-    "target_ru": "Свечи на Алтаре b"
+    "target_ru": "Свечи на Алтаре 1"
   },
   {
     "id": "053416",
     "source_cn": "穷人2",
     "ref_en": "Poor Person 2",
-    "target_ru": "Бедный человек b"
+    "target_ru": "Бедный человек 2"
   },
   {
     "id": "053417",
@@ -20565,7 +20565,7 @@
     "id": "053427",
     "source_cn": "花架铃铛声",
     "ref_en": "Flower Stand Bell Sound",
-    "target_ru": "Подставка для цветов Bell Sounb"
+    "target_ru": "Подставка для цветов Bell Sound"
   },
   {
     "id": "053428",
@@ -20577,7 +20577,7 @@
     "id": "053429",
     "source_cn": "观光马车相机2",
     "ref_en": "Sightseeing Carriage Camera 2",
-    "target_ru": "Камера обзорной кареты b"
+    "target_ru": "Камера обзорной кареты 2"
   },
   {
     "id": "053430",
@@ -20955,7 +20955,7 @@
     "id": "053492",
     "source_cn": "喵1",
     "ref_en": "Meow 1",
-    "target_ru": "Мяу b"
+    "target_ru": "Мяу 1"
   },
   {
     "id": "053493",
@@ -21051,7 +21051,7 @@
     "id": "053508",
     "source_cn": "异象事件-魔女滋味-追上卢娜3",
     "ref_en": "Anomaly Event - Taste of the Witch - Catch Up to Luna 3",
-    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну b"
+    "target_ru": "Аномальное событие — Вкус ведьмы — догоните Луну 3"
   },
   {
     "id": "053509",
@@ -21729,7 +21729,7 @@
     "id": "053621",
     "source_cn": "占位4",
     "ref_en": "Placeholder 4",
-    "target_ru": "Заполнитель b"
+    "target_ru": "Заполнитель 4"
   },
   {
     "id": "053622",
@@ -21921,7 +21921,7 @@
     "id": "053653",
     "source_cn": "房间门-左1",
     "ref_en": "Room Door-Left 1",
-    "target_ru": "Дверь комнаты слева b"
+    "target_ru": "Дверь комнаты слева 1"
   },
   {
     "id": "053654",
@@ -21945,7 +21945,7 @@
     "id": "053657",
     "source_cn": "拳击2",
     "ref_en": "Boxer 2",
-    "target_ru": "Боксер b"
+    "target_ru": "Боксер 2"
   },
   {
     "id": "053658",
@@ -21969,7 +21969,7 @@
     "id": "053661",
     "source_cn": "敌人2_1",
     "ref_en": "Enemy 2_1",
-    "target_ru": "Враг 2_b"
+    "target_ru": "Враг 2_1"
   },
   {
     "id": "053662",
@@ -21993,7 +21993,7 @@
     "id": "053665",
     "source_cn": "是否开启霜陨领主",
     "ref_en": "Whether to enable Frostfall Lord",
-    "target_ru": "Включить ли Frostfall Lorb"
+    "target_ru": "Включить ли Frostfall Lord"
   },
   {
     "id": "053666",
@@ -22089,7 +22089,7 @@
     "id": "053681",
     "source_cn": "白线-逆时针马车B26",
     "ref_en": "White line - Counter-clockwise carriage B26",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B26"
   },
   {
     "id": "053682",
@@ -22179,7 +22179,7 @@
     "id": "053696",
     "source_cn": "观众：绝技治疗筛选6.5",
     "ref_en": "Spectator: Ultimate Healing Filter 6.5",
-    "target_ru": "Зритель: Ultimate Healing Filter 6.b"
+    "target_ru": "Зритель: Ultimate Healing Filter 6.5"
   },
   {
     "id": "053697",
@@ -22263,7 +22263,7 @@
     "id": "053710",
     "source_cn": "隐秘空间-心愿城堡记忆碎片3",
     "ref_en": "Secret Space - Wish Castle Memory Fragment 3",
-    "target_ru": "Секретное пространство - Фрагмент воспоминаний о Замке Желаний b"
+    "target_ru": "Секретное пространство - Фрагмент воспоминаний о Замке Желаний 3"
   },
   {
     "id": "053711",
@@ -22311,7 +22311,7 @@
     "id": "053718",
     "source_cn": "9号据点",
     "ref_en": "Stronghold No. 9",
-    "target_ru": "Цитадель № b"
+    "target_ru": "Цитадель № 9"
   },
   {
     "id": "053719",
@@ -22395,7 +22395,7 @@
     "id": "053732",
     "source_cn": "中年富裕女9",
     "ref_en": "Wealthy Middle-Aged Woman 9",
-    "target_ru": "Богатая женщина средних лет b"
+    "target_ru": "Богатая женщина средних лет 9"
   },
   {
     "id": "053733",
@@ -22473,7 +22473,7 @@
     "id": "053745",
     "source_cn": "全景2",
     "ref_en": "Panorama 2",
-    "target_ru": "Панорама b"
+    "target_ru": "Панорама 2"
   },
   {
     "id": "053746",
@@ -22851,7 +22851,7 @@
     "id": "053808",
     "source_cn": "白线-逆时针马车B6",
     "ref_en": "White line - Counter-clockwise carriage B6",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B6"
   },
   {
     "id": "053809",
@@ -23175,7 +23175,7 @@
     "id": "053862",
     "source_cn": "三人中景02",
     "ref_en": "Three-person medium shot 02",
-    "target_ru": "Средний план для трех человек bb"
+    "target_ru": "Средний план для трех человек 02"
   },
   {
     "id": "053863",
@@ -23349,7 +23349,7 @@
     "id": "053891",
     "source_cn": "女工路点1",
     "ref_en": "Female worker waypoint 1",
-    "target_ru": "Работница, путевая точка b"
+    "target_ru": "Работница, путевая точка 1"
   },
   {
     "id": "053892",
@@ -23373,7 +23373,7 @@
     "id": "053895",
     "source_cn": "安多1",
     "ref_en": "Ando 1",
-    "target_ru": "Андо b"
+    "target_ru": "Андо 1"
   },
   {
     "id": "053896",
@@ -23619,7 +23619,7 @@
     "id": "053936",
     "source_cn": "滞涩玩法1",
     "ref_en": "Stagnation gameplay 1",
-    "target_ru": "Застой геймплея b"
+    "target_ru": "Застой геймплея 1"
   },
   {
     "id": "053937",
@@ -23643,7 +23643,7 @@
     "id": "053940",
     "source_cn": "白竖2",
     "ref_en": "White vertical 2",
-    "target_ru": "Белый вертикальный b"
+    "target_ru": "Белый вертикальный 2"
   },
   {
     "id": "053941",
@@ -23745,7 +23745,7 @@
     "id": "053957",
     "source_cn": "谢尔顿1",
     "ref_en": "Sheldon 1",
-    "target_ru": "Шелдон b"
+    "target_ru": "Шелдон 1"
   },
   {
     "id": "053958",
@@ -23901,13 +23901,13 @@
     "id": "053983",
     "source_cn": "东区骑警2",
     "ref_en": "East District Mounted Police 2",
-    "target_ru": "Конная полиция Восточного округа b"
+    "target_ru": "Конная полиция Восточного округа 2"
   },
   {
     "id": "053984",
     "source_cn": "主线2-2-1",
     "ref_en": "Main quest 2-2-1",
-    "target_ru": "Основной квест 2-2-b"
+    "target_ru": "Основной квест 2-2-1"
   },
   {
     "id": "053985",
@@ -24117,7 +24117,7 @@
     "id": "054019",
     "source_cn": "异象事件-魔女滋味-追上卢娜2",
     "ref_en": "Anomaly Event - Taste of the Witch - Catch Up to Luna 2",
-    "target_ru": "Аномальное событие — Вкус ведьмы — Догоните Луну b"
+    "target_ru": "Аномальное событие — Вкус ведьмы — Догоните Луну 2"
   },
   {
     "id": "054020",
@@ -24411,7 +24411,7 @@
     "id": "054068",
     "source_cn": "走路镜头1",
     "ref_en": "Walking camera 1",
-    "target_ru": "Ходячая камера b"
+    "target_ru": "Ходячая камера 1"
   },
   {
     "id": "054069",
@@ -24579,7 +24579,7 @@
     "id": "054096",
     "source_cn": "交互鸣枪3",
     "ref_en": "Interaction fire warning shot 3",
-    "target_ru": "Взаимодействие при пожаре, предупредительный выстрел b"
+    "target_ru": "Взаимодействие при пожаре, предупредительный выстрел 3"
   },
   {
     "id": "054097",
@@ -24591,7 +24591,7 @@
     "id": "054098",
     "source_cn": "任务3",
     "ref_en": "Quest 3",
-    "target_ru": "Квест b"
+    "target_ru": "Квест 3"
   },
   {
     "id": "054099",
@@ -24765,7 +24765,7 @@
     "id": "054127",
     "source_cn": "巡逻点4",
     "ref_en": "Patrol Point 4",
-    "target_ru": "Патрульный пункт b"
+    "target_ru": "Патрульный пункт 4"
   },
   {
     "id": "054128",
@@ -24993,7 +24993,7 @@
     "id": "054165",
     "source_cn": "白线-逆时针马车B25",
     "ref_en": "White Line - Counter-clockwise Carriage B25",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B25"
   },
   {
     "id": "054166",
@@ -25047,7 +25047,7 @@
     "id": "054174",
     "source_cn": "米尔贡根-银色绞杀-随机点3",
     "ref_en": "Milgongen - Silver Strangulation - Random Point 3",
-    "target_ru": "Милгонген - Серебряное удушение - Случайная точка b"
+    "target_ru": "Милгонген - Серебряное удушение - Случайная точка 3"
   },
   {
     "id": "054175",
@@ -25113,7 +25113,7 @@
     "id": "054185",
     "source_cn": "跟操3",
     "ref_en": "Follow-up Drill 3",
-    "target_ru": "Последующее упражнение b"
+    "target_ru": "Последующее упражнение 3"
   },
   {
     "id": "054186",
@@ -25143,7 +25143,7 @@
     "id": "054190",
     "source_cn": "迷雾线第二章第二节",
     "ref_en": "Mist Line Chapter 2 Section 2",
-    "target_ru": "Линия тумана Глава 2 Раздел b"
+    "target_ru": "Линия тумана Глава 2 Раздел 2"
   },
   {
     "id": "054191",
@@ -25191,7 +25191,7 @@
     "id": "054198",
     "source_cn": "隐秘空间-心愿城堡记忆碎片2",
     "ref_en": "Secret Space - Wish Castle Memory Fragment 2",
-    "target_ru": "Секретное пространство - Фрагмент воспоминаний о Замке Желаний b"
+    "target_ru": "Секретное пространство - Фрагмент воспоминаний о Замке Желаний 2"
   },
   {
     "id": "054199",
@@ -25353,7 +25353,7 @@
     "id": "054225",
     "source_cn": "中年富裕女8",
     "ref_en": "Wealthy Middle-Aged Woman 8",
-    "target_ru": "Богатая женщина средних лет b"
+    "target_ru": "Богатая женщина средних лет 8"
   },
   {
     "id": "054226",
@@ -25599,7 +25599,7 @@
     "id": "054266",
     "source_cn": "文字版1-2",
     "ref_en": "Text Version 1-2",
-    "target_ru": "Текстовая версия 1-b"
+    "target_ru": "Текстовая версия 1-2"
   },
   {
     "id": "054267",
@@ -25761,7 +25761,7 @@
     "id": "054293",
     "source_cn": "白线-逆时针马车B5",
     "ref_en": "White Line - Counter-Clockwise Carriage B5",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B5"
   },
   {
     "id": "054294",
@@ -25803,7 +25803,7 @@
     "id": "054300",
     "source_cn": "第18天",
     "ref_en": "Day 18",
-    "target_ru": "День bb"
+    "target_ru": "День 18"
   },
   {
     "id": "054301",
@@ -26193,7 +26193,7 @@
     "id": "054365",
     "source_cn": "占位不显示-舞会NPC女已改1",
     "ref_en": "Placeholder not displayed - Ball NPC female changed 1",
-    "target_ru": "Заполнитель не отображается — женщина-NPC Ball изменена на b"
+    "target_ru": "Заполнитель не отображается — женщина-NPC Ball изменена на 1"
   },
   {
     "id": "054366",
@@ -26469,7 +26469,7 @@
     "id": "054411",
     "source_cn": "检查邮筒3",
     "ref_en": "Check Mailbox 3",
-    "target_ru": "Проверьте почтовый ящик b"
+    "target_ru": "Проверьте почтовый ящик 3"
   },
   {
     "id": "054412",
@@ -26751,7 +26751,7 @@
     "id": "054458",
     "source_cn": "主线2-2-2",
     "ref_en": "Main Quest 2-2-2",
-    "target_ru": "Основной квест 2-2-b"
+    "target_ru": "Основной квест 2-2-2"
   },
   {
     "id": "054459",
@@ -26937,7 +26937,7 @@
     "id": "054489",
     "source_cn": "喵3",
     "ref_en": "Meow 3",
-    "target_ru": "Мяу b"
+    "target_ru": "Мяу 3"
   },
   {
     "id": "054490",
@@ -27039,7 +27039,7 @@
     "id": "054506",
     "source_cn": "强制团队12v12",
     "ref_en": "Force team 12v12",
-    "target_ru": "Форс-команда 12 на bb"
+    "target_ru": "Форс-команда 12 на 12"
   },
   {
     "id": "054507",
@@ -27303,7 +27303,7 @@
     "id": "054550",
     "source_cn": "艺术馆NPC女8",
     "ref_en": "Art Gallery NPC Female 8",
-    "target_ru": "Художественная галерея NPC Женщина b"
+    "target_ru": "Художественная галерея NPC Женщина 8"
   },
   {
     "id": "054551",
@@ -27591,7 +27591,7 @@
     "id": "054598",
     "source_cn": "交互鸣枪2",
     "ref_en": "Interaction fire warning shot 2",
-    "target_ru": "Взаимодействие при пожаре, предупредительный выстрел b"
+    "target_ru": "Взаимодействие при пожаре, предупредительный выстрел 2"
   },
   {
     "id": "054599",
@@ -27627,7 +27627,7 @@
     "id": "054604",
     "source_cn": "任务2",
     "ref_en": "Quest 2",
-    "target_ru": "Квест b"
+    "target_ru": "Квест 2"
   },
   {
     "id": "054605",
@@ -27699,7 +27699,7 @@
     "id": "054616",
     "source_cn": "占位6",
     "ref_en": "Placeholder 6",
-    "target_ru": "Заполнитель b"
+    "target_ru": "Заполнитель 6"
   },
   {
     "id": "054617",
@@ -27801,7 +27801,7 @@
     "id": "054633",
     "source_cn": "巡逻点5",
     "ref_en": "Patrol Point 5",
-    "target_ru": "Патрульный пункт b"
+    "target_ru": "Патрульный пункт 5"
   },
   {
     "id": "054634",
@@ -28005,7 +28005,7 @@
     "id": "054667",
     "source_cn": "游泳回陆地台子-混乱湖3-2",
     "ref_en": "Swim Back to Land Platform-Chaos Lake 3-2",
-    "target_ru": "Плывите обратно на сушу — Платформа Хаоса 3-b"
+    "target_ru": "Плывите обратно на сушу — Платформа Хаоса 3-2"
   },
   {
     "id": "054668",
@@ -28029,7 +28029,7 @@
     "id": "054671",
     "source_cn": "白线-逆时针马车B24",
     "ref_en": "White line - counter-clockwise carriage B24",
-    "target_ru": "Белая линия – каретка против часовой стрелки Bbb"
+    "target_ru": "Белая линия – каретка против часовой стрелки B24"
   },
   {
     "id": "054672",
@@ -28113,7 +28113,7 @@
     "id": "054685",
     "source_cn": "米尔贡根-银色绞杀-随机点2",
     "ref_en": "Milgongen-Silver Strangulation-Randomly target 2",
-    "target_ru": "Милгонген-Серебряное удушение-Случайная цель b"
+    "target_ru": "Милгонген-Серебряное удушение-Случайная цель 2"
   },
   {
     "id": "054686",
@@ -28125,7 +28125,7 @@
     "id": "054687",
     "source_cn": "绑匪4",
     "ref_en": "Kidnapper 4",
-    "target_ru": "Похититель b"
+    "target_ru": "Похититель 4"
   },
   {
     "id": "054688",
@@ -28191,7 +28191,7 @@
     "id": "054698",
     "source_cn": "跟操2",
     "ref_en": "Follow-up Drill 2",
-    "target_ru": "Последующее упражнение b"
+    "target_ru": "Последующее упражнение 2"
   },
   {
     "id": "054699",
@@ -28257,7 +28257,7 @@
     "id": "054709",
     "source_cn": "黄铜书_子嗣守护_1目标_Buff84007606or84007607or84007608",
     "ref_en": "Brass Book_Offspring Protection_1 Target_Buff84007606or84007607or84007608",
-    "target_ru": "Латунная книга_Защита потомства_1 Target_Buff84007606или84007607илиe5521abb"
+    "target_ru": "Латунная книга_Защита потомства_1 Target_Buff84007606или84007607или84007608"
   },
   {
     "id": "054710",
@@ -28323,7 +28323,7 @@
     "id": "054720",
     "source_cn": "【场景】植物画2",
     "ref_en": "[Scene] Botanical Painting 2",
-    "target_ru": "[Сцена] Ботаническая живопись b"
+    "target_ru": "[Сцена] Ботаническая живопись 2"
   },
   {
     "id": "054721",
@@ -28341,7 +28341,7 @@
     "id": "054723",
     "source_cn": "三组",
     "ref_en": "Group 3",
-    "target_ru": "Группа b"
+    "target_ru": "Группа 3"
   },
   {
     "id": "054724",
@@ -28377,7 +28377,7 @@
     "id": "054729",
     "source_cn": "东南8",
     "ref_en": "Southeast 8",
-    "target_ru": "Юго-восток b"
+    "target_ru": "Юго-восток 8"
   },
   {
     "id": "054730",
@@ -28461,7 +28461,7 @@
     "id": "054743",
     "source_cn": "假宝箱2",
     "ref_en": "Fake treasure chest 2",
-    "target_ru": "Поддельный сундук с сокровищами b"
+    "target_ru": "Поддельный сундук с сокровищами 2"
   },
   {
     "id": "054744",
@@ -28647,7 +28647,7 @@
     "id": "054774",
     "source_cn": "所属俱乐部图书馆等级达到8级",
     "ref_en": "Affiliated Club Library level reaches 8",
-    "target_ru": "Уровень библиотеки аффилированного клуба достиг b"
+    "target_ru": "Уровень библиотеки аффилированного клуба достиг 8"
   },
   {
     "id": "054775",
@@ -28827,13 +28827,13 @@
     "id": "054804",
     "source_cn": "白线-逆时针马车B4",
     "ref_en": "White Line - Counter-clockwise Carriage B4",
-    "target_ru": "Белая линия — каретка против часовой стрелки Bb"
+    "target_ru": "Белая линия — каретка против часовой стрелки B4"
   },
   {
     "id": "054805",
     "source_cn": "眼镜1",
     "ref_en": "Glasses 1",
-    "target_ru": "Очки b"
+    "target_ru": "Очки 1"
   },
   {
     "id": "054806",
@@ -29061,7 +29061,7 @@
     "id": "054843",
     "source_cn": "迷途排队5",
     "ref_en": "Lost Queue 5",
-    "target_ru": "Потерянная очередь b"
+    "target_ru": "Потерянная очередь 5"
   },
   {
     "id": "054844",
@@ -29241,7 +29241,7 @@
     "id": "054873",
     "source_cn": "Itr_开关内",
     "ref_en": "Itr_Inside switch",
-    "target_ru": "Переключатель Itr_Insibb"
+    "target_ru": "Переключатель Itr_Inside"
   },
   {
     "id": "054874",
@@ -29253,7 +29253,7 @@
     "id": "054875",
     "source_cn": "《春日之约3》",
     "ref_en": "Spring Promise 3",
-    "target_ru": "Весеннее обещание b"
+    "target_ru": "Весеннее обещание 3"
   },
   {
     "id": "054876",
@@ -29523,7 +29523,7 @@
     "id": "054920",
     "source_cn": "布兰登灵体6",
     "ref_en": "Brandon Spirit 6",
-    "target_ru": "Брэндон Спирит b"
+    "target_ru": "Брэндон Спирит 6"
   },
   {
     "id": "054921",
@@ -29613,7 +29613,7 @@
     "id": "054935",
     "source_cn": "扮演（学徒）-第三天47级",
     "ref_en": "Acting (Apprentice) - Day 3 Level 47",
-    "target_ru": "Актерское мастерство (Ученик) — День 3, уровень bb"
+    "target_ru": "Актерское мастерство (Ученик) — День 3, уровень 47"
   },
   {
     "id": "054936",
@@ -29703,7 +29703,7 @@
     "id": "054950",
     "source_cn": "检查邮筒2",
     "ref_en": "Check mailbox 2",
-    "target_ru": "Проверьте почтовый ящик b"
+    "target_ru": "Проверьте почтовый ящик 2"
   },
   {
     "id": "054951",
@@ -29727,7 +29727,7 @@
     "id": "054954",
     "source_cn": "灵性特效1",
     "ref_en": "Spirituality effect 1",
-    "target_ru": "Эффект духовности b"
+    "target_ru": "Эффект духовности 1"
   },
   {
     "id": "054955",
@@ -29811,7 +29811,7 @@
     "id": "054968",
     "source_cn": "穷人1",
     "ref_en": "Poor Person 1",
-    "target_ru": "Бедный человек b"
+    "target_ru": "Бедный человек 1"
   },
   {
     "id": "054969",
