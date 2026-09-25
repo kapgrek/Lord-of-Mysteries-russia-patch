@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.8-RU"
+local VERSION = "2.9.9-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1405,6 +1405,7 @@ local runtimeMetrics = {
     TextFitFailed = 0,
     TextFitDeferred = 0,
     TextFitNoEffect = 0,
+    TextFitNoBudget = 0,
     TextFitMs = 0,
     TextFitMsMax = 0,
     KsbcFallbacks = 0,
@@ -2666,6 +2667,11 @@ function runtimeFixes.normalizeShopLotLimit(value)
             ["Сезон"] = "В сезон ",
             ["Season"] = "В сезон ",
             ["赛季"] = "В сезон ",
+            -- One-time lot limit (batch_021 101172 永久 / Permanent, TASK-013).
+            ["Постоянный"] = "Разово ",
+            ["Постоянно"] = "Разово ",
+            ["Permanent"] = "Разово ",
+            ["永久"] = "Разово ",
         }
         local mapped = prefixMap[clean]
         if mapped then
@@ -3665,16 +3671,26 @@ end
 -- The default is "legacy": the v2.9.6 length thresholds (authored + 2,
 -- > 14 / > 10 / > 6 characters, wrapping off); absoluteru_dev.lua
 -- TextFit = "measure" turns on the fit described above (TASK-013).
+-- TextFit = "cap" (TASK-013): the legacy size and wrapping are a ceiling and
+-- the start; Cyrillic text is shrunk below it only against a budget taken
+-- from the layout of the original text: a fixed slot (its width, or height
+-- when wrapped), or the original width x 1.15 (height x 1.25 when wrapped)
+-- of an auto-sized slot for the text that replaced it. The parent geometry
+-- and the layout of our own text are never a budget (an auto-sized parent
+-- grows with the text); without a budget the size stays at the ceiling
+-- (TextFitNoBudget) and nothing is measured.
 runtimeFixes.TextFit = {}
 do
     -- "legacy" by default: "measure" (v2.9.7) made layouts worse (TASK-013).
     local TEXT_FIT_MODE = "legacy"
     local MIN_SIZE, MIN_RATIO = 12, 0.6
     local MAX_REMEASURES = 2
-    local DEFER_SECONDS, DEFER_TRIES, DEFER_BUDGET_MS = 0.05, 10, 2
+    local DEFER_SECONDS, DEFER_TRIES, DEFER_BUDGET_MS, DEFER_PER_TICK = 0.05, 10, 2, 24
+    local CAP_GROW_X, CAP_GROW_Y = 1.15, 1.25
     local TF = runtimeFixes.TextFit
     local devFlags = Loader.DevFlags
-    if type(devFlags) == "table" and (devFlags.TextFit == "legacy" or devFlags.TextFit == "measure") then
+    if type(devFlags) == "table" and (devFlags.TextFit == "legacy" or devFlags.TextFit == "cap"
+        or devFlags.TextFit == "measure") then
         TEXT_FIT_MODE = devFlags.TextFit
     end
     TF.Mode = TEXT_FIT_MODE
@@ -3797,10 +3813,14 @@ do
     -- Width (or, for wrapped text, height) before our SetText; called once per
     -- widget, right before its first replacement. The geometry at this moment
     -- still belongs to the original text, which tells a fixed slot (wider than
-    -- the text) from an auto-sized one.
-    function TF.PreMeasure(widget)
+    -- the text) from an auto-sized one. translated: the text replacing it.
+    -- "cap": the slot is classified from the cached pair (geometry and desired
+    -- size of the same layout); the original width for an auto-sized budget
+    -- (srcX / srcY) is read after a prepass, since the cached desired size may
+    -- belong to the Blueprint's placeholder text.
+    function TF.PreMeasure(widget, translated)
         local d = runtimeFixes.Diag
-        if TF.Mode ~= "measure" and d == nil then return end
+        if TF.Mode == "legacy" and d == nil then return end
         local st = TF.State(widget)
         if st.pre then return end
         st.pre = true
@@ -3824,7 +3844,29 @@ do
             st.slotX = st.havePreX > st.needPreX + 1 and "fixed" or "auto"
             st.slotY = st.havePreY > st.needPreY + 1 and "fixed" or "auto"
         end
+        if TF.Mode == "cap" and st.slotX ~= nil and prepass(widget) then
+            pcall(function()
+                local size = widget:GetDesiredSize()
+                local x, y = tonumber(size.X) or 0, tonumber(size.Y) or 0
+                if x > 0 and y > 0 then
+                    st.srcX, st.srcY, st.srcFor = x, y, translated
+                end
+            end)
+        end
         if d and d.PreMeasure then d.PreMeasure(widget, st.needPreX, st.needPreY, st.wrap) end
+    end
+
+    -- "cap": budget from the layout of the original text, or nil (see above).
+    -- wrap: wrapping after the legacy styling. Returns budget, axis, slot.
+    function TF.CapBudget(st, text, wrap)
+        if wrap then
+            if st.slotY == "fixed" and (st.havePreY or 0) > 0 then return st.havePreY, "y", "fixed" end
+            if st.slotY == "auto" and st.srcFor == text and st.srcY then return st.srcY * CAP_GROW_Y, "y", "auto" end
+            return nil
+        end
+        if st.slotX == "fixed" and (st.havePreX or 0) > 0 then return st.havePreX, "x", "fixed" end
+        if st.slotX == "auto" and st.srcFor == text and st.srcX then return st.srcX * CAP_GROW_X, "x", "auto" end
+        return nil
     end
 
     -- A size the game set itself (neither ours nor authored) becomes the
@@ -3841,12 +3883,14 @@ do
     end
 
     -- Size to apply now: the fit for this text, the size of a running fit, or
-    -- the authored size (then TF.Begin measures).
-    function TF.Target(st, text)
+    -- the base size (then TF.Begin measures). base: the authored size, or the
+    -- legacy ceiling in "cap".
+    function TF.Target(st, text, base)
+        base = base or st.size
         local run = st.run
-        if run ~= nil and run.text == text and run.base == st.size then return run.size, true end
-        if st.fitText == text and st.fitBase == st.size and st.fitSize ~= nil then return st.fitSize, true end
-        return st.size, false
+        if run ~= nil and run.text == text and run.base == base then return run.size, true end
+        if st.fitText == text and st.fitBase == base and st.fitSize ~= nil then return st.fitSize, true end
+        return base, false
     end
 
     local function finish(widget, st, run, outcome, m)
@@ -3862,9 +3906,10 @@ do
         end
         local d = runtimeFixes.Diag
         if d and d.NoteFit and (outcome ~= "fits" or run.size < run.base) then
+            local cap = TF.Mode == "cap" and run.base or nil
             d.NoteFit(widget, {
-                kind = outcome == "fits" and "shrunk" or outcome, text = run.text,
-                size_pre = run.base, size = run.size, min = run.min, steps = run.steps,
+                kind = outcome == "fits" and "shrunk" or outcome, text = run.text, mode = TF.Mode, cap = cap,
+                size_pre = cap and st.size or run.base, size = run.size, min = run.min, steps = run.steps,
                 slot = run.slot, axis = run.axis, budget = run.budget,
                 need = m and (run.axis == "y" and m.needY or m.needX) or nil,
                 need0 = run.need0, need_pre = st.needPreX,
@@ -3982,8 +4027,8 @@ do
         local deadline = nowMilliseconds() + DEFER_BUDGET_MS
         local list = {}
         for widget in pairs(deferred) do list[#list + 1] = widget end
-        for _, widget in ipairs(list) do
-            if nowMilliseconds() >= deadline then break end
+        for index, widget in ipairs(list) do
+            if index > DEFER_PER_TICK or nowMilliseconds() >= deadline then break end
             deferred[widget] = nil
             local st = states[widget]
             local run = st and st.run
@@ -4009,11 +4054,14 @@ do
     end
 
     -- Starts a fit of the authored size for text (after SetFont with it).
-    function TF.Begin(widget, st, text)
+    -- "cap": base is the legacy ceiling, applied already, with its budget.
+    function TF.Begin(widget, st, text, base, budget, axis, slot)
         if st.size == nil or st.size <= 0 then return end
+        base = base or st.size
         local run = {
-            text = text, base = st.size, size = st.size, min = minSize(st.size),
+            text = text, base = base, size = base, min = math.min(base, minSize(st.size)),
             steps = 0, tries = 0, dirty = TF.Prepass == false,
+            budget = budget, axis = axis, slot = slot,
         }
         st.run = run
         if run.dirty then
@@ -4078,6 +4126,35 @@ do
                 widget.AutoWrapText = false
             end
         end
+        return wrapOff
+    end
+
+    -- TextFit = "cap": the legacy styling sets the ceiling (st.cap), then the
+    -- size for this text is the known fit or the ceiling. Returns what TF.Begin
+    -- needs after SetFont (base, budget, axis, slot), or nil: nothing to
+    -- measure (not Cyrillic, fit known, or no budget -> TextFitNoBudget).
+    function TF.Cap(widget, font, text, hasCyrillic, isTitleName, isSynergyWidget)
+        local wrapOff = TF.Legacy(widget, font, text, hasCyrillic, isTitleName, isSynergyWidget)
+        local st = TF.State(widget, font)
+        local cap = tonumber(font.Size)
+        st.cap = cap
+        st.applied = cap
+        if not hasCyrillic or cap == nil or text == "" then
+            st.run = nil
+            return nil
+        end
+        local size, known = TF.Target(st, text, cap)
+        font.Size = size
+        st.applied = size
+        if known then return nil end
+        local budget, axis, slot = TF.CapBudget(st, text, st.wrap and not wrapOff)
+        if budget == nil then
+            runtimeMetrics.TextFitNoBudget = runtimeMetrics.TextFitNoBudget + 1
+            st.run = nil
+            st.fitText, st.fitBase, st.fitSize = text, cap, cap
+            return nil
+        end
+        return cap, budget, axis, slot
     end
 end
 
@@ -4146,7 +4223,7 @@ local function translateTextWidget(widget, discoveryContext)
 
         if translated ~= currentText then
             -- Width of the original text, once per widget (TASK-011).
-            runtimeFixes.TextFit.PreMeasure(widget)
+            runtimeFixes.TextFit.PreMeasure(widget, translated)
             local changed = pcall(function()
                 if widget.SetText ~= nil then
                     widget:SetText(translated)
@@ -4195,6 +4272,7 @@ local function translateTextWidget(widget, discoveryContext)
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
         local fitState, fitNeeded = nil, false
+        local fitBase, fitBudget, fitAxis, fitSlot = nil, nil, nil, nil
         if font ~= nil then
             local st = textFit.State(widget, font)
             if hasCyrillic then
@@ -4203,12 +4281,17 @@ local function translateTextWidget(widget, discoveryContext)
                 runtimeFixes.restoreAuthoredFont(widget, font)
             end
 
-            if textFit.Mode == "legacy" then
+            if textFit.Mode == "legacy" or textFit.Mode == "cap" then
                 local isTitleName = not runtimeFixes.isCinematicWidgetName(wName) and not isSynergyWidget
                     and (wName:find("title") or wName:find("btn") or wName:find("tab")
                     or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
                     or wName:find("server") or wName:find("chapter") or wName:find("rank"))
-                textFit.Legacy(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
+                if textFit.Mode == "cap" then
+                    fitBase, fitBudget, fitAxis, fitSlot = textFit.Cap(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
+                    fitState, fitNeeded = st, fitBase ~= nil
+                else
+                    textFit.Legacy(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
+                end
             else
                 local ls, wls = st.ls, st.wls
                 if hasCyrillic then
@@ -4251,7 +4334,7 @@ local function translateTextWidget(widget, discoveryContext)
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
         if fitNeeded and textToCheck ~= "" then
-            textFit.Begin(widget, fitState, textToCheck)
+            textFit.Begin(widget, fitState, textToCheck, fitBase, fitBudget, fitAxis, fitSlot)
         end
     end)
     if d then d.OnTextWidget(widget, translated or currentText, widgetName, pre) end
@@ -11193,7 +11276,7 @@ Loader.On("after_main", function()
     -- followed by a "text fit prepass=" line once it is known.
     local textFit = runtimeFixes.TextFit
     local fitLine = "text fit mode=" .. tostring(textFit.Mode)
-    if textFit.Mode == "measure" then
+    if textFit.Mode ~= "legacy" then
         local prepass = textFit.Prepass == true and "ok" or (textFit.Prepass == false and "missing" or "pending")
         textFit.PrepassLinePending = textFit.Prepass == nil or nil
         fitLine = fitLine .. " prepass=" .. prepass

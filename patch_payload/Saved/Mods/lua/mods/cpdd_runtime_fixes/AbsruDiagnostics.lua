@@ -1030,12 +1030,12 @@ local UNTRANSLATED_ORDER = {
     "count", "t",
 }
 local OVERFLOW_ORDER = {
-    "sid", "panel", "widget", "path", "text", "len", "font", "typeface", "size", "size_pre",
+    "sid", "panel", "widget", "path", "text", "len", "font", "typeface", "size", "size_pre", "cap",
     "ls", "ls_pre", "ls_negative", "wrap", "wrap_pre", "need", "need_pre", "have", "parent",
     "parent_have", "pexcess", "parent_grew", "kind", "count", "t",
 }
 local FIT_ORDER = {
-    "sid", "kind", "panel", "widget", "path", "text", "len", "size_pre", "size", "min", "steps",
+    "sid", "kind", "mode", "panel", "widget", "path", "text", "len", "size_pre", "cap", "size", "min", "steps",
     "slot", "axis", "budget", "need", "need0", "need_pre", "reason", "scope", "count", "t",
 }
 local IMAGE_ORDER = { "sid", "panel", "widget", "resource", "class", "size", "count", "t" }
@@ -1165,10 +1165,16 @@ local function checkOverflow(widget, m, info)
     end
     local post = info.post or {}
     local pre = info.pre or {}
+    -- Legacy ceiling of TextFit "cap" (TASK-013), read from Init.lua's state.
+    local cap = nil
+    pcall(function()
+        local st = S.fixes.TextFit.States[widget]
+        cap = st and tonumber(st.cap) or nil
+    end)
     appendRow("overflow", {
         sid = S.sid, panel = info.panel, widget = info.name, path = info.path,
         text = clip(info.text, TEXT_MAX), len = utf8Len(info.text),
-        font = post.path, typeface = post.typeface, size = post.size, size_pre = pre.size,
+        font = post.path, typeface = post.typeface, size = post.size, size_pre = pre.size, cap = cap,
         ls = post.ls, ls_pre = pre.ls, ls_negative = (tonumber(post.ls) or 0) < 0,
         wrap = wrap, wrap_pre = sp and sp.wrap,
         need = array({ round1(m.needX), round1(m.needY) }), need_pre = needPre,
@@ -1351,9 +1357,9 @@ local function processItem(item)
         local record, emit = dedup("fit|" .. tostring(row.kind) .. "|" .. tostring(path) .. "|" .. normalize(text))
         if record ~= nil and emit then
             appendRow("fit", {
-                sid = S.sid, kind = row.kind, panel = item.panel or panelFromPath(path),
+                sid = S.sid, kind = row.kind, mode = row.mode, panel = item.panel or panelFromPath(path),
                 widget = objectName(widget), path = path, text = clip(text, TEXT_MAX), len = utf8Len(text),
-                size_pre = row.size_pre, size = row.size, min = row.min and round1(row.min) or nil,
+                size_pre = row.size_pre, cap = row.cap, size = row.size, min = row.min and round1(row.min) or nil,
                 steps = row.steps, slot = row.slot, axis = row.axis,
                 budget = row.budget and round1(row.budget) or nil, need = row.need and round1(row.need) or nil,
                 need0 = row.need0 and round1(row.need0) or nil, need_pre = row.need_pre and round1(row.need_pre) or nil,
@@ -2052,8 +2058,9 @@ local function encodeSession()
             data = #S.data - S.dataDone, stringdb = S.dbCount - S.dbDone,
         },
         session_bytes = S.sessionBytes, metrics = metricsCopy(), last_flush = S.lastFlushStamp,
+        text_fit = type(S.fixes) == "table" and type(S.fixes.TextFit) == "table" and S.fixes.TextFit.Mode or nil,
     }, 0, {
-        "schema", "sid", "slot", "version", "started", "last_flush", "flags", "dir", "prefix",
+        "schema", "sid", "slot", "version", "text_fit", "started", "last_flush", "flags", "dir", "prefix",
         "parts", "lines", "api", "gauges", "budget", "dropped", "errors", "counters", "pending",
         "session_bytes", "metrics",
     }) .. "\n"

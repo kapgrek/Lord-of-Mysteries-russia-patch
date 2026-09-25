@@ -523,6 +523,7 @@ foreach ($row in (Read-Stream 'overflow')) {
             wrap_pre = Get-V $row 'wrap_pre'; pexcess = $pexcess; parent_grew = Get-V $row 'parent_grew'
             parent = Get-V $row 'parent'; parent_have = (@(Get-V $row 'parent_have') -join 'x')
             font = Get-V $row 'font'; typeface = Get-V $row 'typeface'; size = Get-V $row 'size'; size_pre = Get-V $row 'size_pre'
+            cap = Get-V $row 'cap'
             ls = Get-V $row 'ls'; ls_pre = Get-V $row 'ls_pre'; ls_negative = Get-V $row 'ls_negative'; wrap = Get-V $row 'wrap'
             path = Get-V $row 'path'
         }
@@ -584,8 +585,8 @@ foreach ($row in (Read-Stream 'fit')) {
     $prev = $fitAgg[$key]
     if ($null -eq $prev -or (Num (Get-V $row 'count')) -gt $prev.count) {
         $fitAgg[$key] = [pscustomobject]@{
-            kind = Get-V $row 'kind'; panel = Get-V $row 'panel'; widget = Get-V $row 'widget'; text = Get-V $row 'text'
-            len = Get-V $row 'len'; size_pre = Get-V $row 'size_pre'; size = Get-V $row 'size'; min = Get-V $row 'min'
+            kind = Get-V $row 'kind'; mode = Get-V $row 'mode'; panel = Get-V $row 'panel'; widget = Get-V $row 'widget'; text = Get-V $row 'text'
+            len = Get-V $row 'len'; size_pre = Get-V $row 'size_pre'; cap = Get-V $row 'cap'; size = Get-V $row 'size'; min = Get-V $row 'min'
             steps = Get-V $row 'steps'; slot = Get-V $row 'slot'; axis = Get-V $row 'axis'; budget = Get-V $row 'budget'
             need0 = Get-V $row 'need0'; need = Get-V $row 'need'; need_pre = Get-V $row 'need_pre'; reason = Get-V $row 'reason'
             count = [int](Num (Get-V $row 'count')); path = Get-V $row 'path'
@@ -595,33 +596,49 @@ foreach ($row in (Read-Stream 'fit')) {
 $fitRows = @($fitAgg.Values | Sort-Object kind, panel, widget)
 Write-Csv (Join-Path $reportDir 'fit.csv') $fitRows
 $sb = New-Object System.Text.StringBuilder
-[void]$sb.AppendLine('# Подгонка текста замером (TASK-011)')
+[void]$sb.AppendLine('# Подгонка текста (TASK-011, TASK-013)')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine("Сессии: $($selected -join ', '). Размер только уменьшается, минимум max(12, 0,6 × авторский), не больше 2 перезамеров. ``budget`` — доступная ширина (у переноса — высота), ``need0`` — текст при авторском размере, ``need`` — после подгонки.")
+[void]$sb.AppendLine("Сессии: $($selected -join ', '). Режимы: ``legacy`` — пороги v2.9.6 без замера; ``cap`` — размер legacy как потолок, уменьшение только по разметке исходного текста (фиксированный слот или ширина исходного × 1,15, высота × 1,25); ``measure`` — авторский размер и замер (v2.9.7). Размер только уменьшается, минимум max(12, 0,6 × авторский), не больше 2 перезамеров. ``budget`` — доступная ширина (у переноса — высота), ``need0`` — текст при стартовом размере, ``need`` — после подгонки.")
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| sid | Measured | Shrunk | Failed | Deferred | NoEffect | TextFitMs | TextFitMsMax | NestedEarlyRuns | NestedEarlyLabels | NestedEarlyMsMax |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|---|')
+[void]$sb.AppendLine('| sid | mode | Measured | Shrunk | Failed | Deferred | NoEffect | NoBudget | TextFitMs | TextFitMsMax | NestedEarlyRuns | NestedEarlyLabels | NestedEarlyMsMax |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|---|---|---|')
 foreach ($sid in $selected) {
     $m = Get-V $sessions[$sid].Session 'metrics'
     if (-not $m -or $null -eq (Get-V $m 'TextFitMeasured')) { continue }
-    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6:N1} | {7:N1} | {8} | {9} | {10:N1} |' -f $sid,
+    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7} | {8:N1} | {9:N1} | {10} | {11} | {12:N1} |' -f $sid,
+        (Get-V $sessions[$sid].Session 'text_fit'),
         (Get-V $m 'TextFitMeasured'), (Get-V $m 'TextFitShrunk'), (Get-V $m 'TextFitFailed'), (Get-V $m 'TextFitDeferred'),
-        (Get-V $m 'TextFitNoEffect'), (Num (Get-V $m 'TextFitMs')), (Num (Get-V $m 'TextFitMsMax')),
+        (Get-V $m 'TextFitNoEffect'), (Get-V $m 'TextFitNoBudget'), (Num (Get-V $m 'TextFitMs')), (Num (Get-V $m 'TextFitMsMax')),
         (Get-V $m 'NestedEarlyRuns'), (Get-V $m 'NestedEarlyLabels'), (Num (Get-V $m 'NestedEarlyMsMax'))))
 }
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('Критерии проверки: `TextFitMsMax` ≤ 8 мс, `NestedEarlyMsMax` ≤ 8 мс. Режим `legacy` виден в C7.log (`text fit mode=`).')
+[void]$sb.AppendLine('Критерии проверки: `TextFitMsMax` ≤ 8 мс, `NestedEarlyMsMax` ≤ 8 мс. `mode` пишет v2.9.9+ (`session.json → text_fit`), он же в C7.log (`text fit mode=`). `NoBudget` (cap) — текст без разметки исходного текста: остался на потолке legacy без замера.')
+[void]$sb.AppendLine('')
+$overflowKinds = @($overflowRows | Group-Object kind | ForEach-Object { "$($_.Name) $($_.Count)" }) -join ', '
+$overflowLine = "Переполнений (overflow_top.md): $($overflowRows.Count) ($overflowKinds). Для сравнения на похожем маршруте: v2.9.6 (legacy) — 251, v2.9.7 (measure) — 1018."
+[void]$sb.AppendLine("**$overflowLine**")
+[void]$sb.AppendLine('')
+$capRows = @($fitRows | Where-Object { $_.mode -eq 'cap' -and $null -ne $_.cap -and (Num $_.size) -lt (Num $_.cap) })
+[void]$sb.AppendLine("## Уменьшено ниже v2.9.6 (cap) ($($capRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Что дал `cap` сверх пороговых размеров legacy: `cap` — размер v2.9.6, `size` — итог. `slot` = fixed — слот исходного текста, auto — ширина исходного текста × 1,15.')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel | widget | text | size_pre→cap→size | budget | need0→need | slot/axis | kind |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+foreach ($r in ($capRows | Sort-Object panel, widget)) {
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.size_pre)→$($r.cap)→$($r.size) | $($r.budget) | $($r.need0)→$($r.need) | $($r.slot)/$($r.axis) | $($r.kind) |")
+}
 [void]$sb.AppendLine('')
 $failRows = @($fitRows | Where-Object { $_.kind -eq 'fail' })
 [void]$sb.AppendLine("## Не помещается даже на минимуме — сократить перевод ($($failRows.Count))")
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('Готовый список для TASK-012. `доля` = budget / need: какая часть текста помещается при минимальном размере (0,5 — перевод надо сократить вдвое).')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| panel | widget | text | size_pre→size | budget | need | доля | slot/axis | reason |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
+[void]$sb.AppendLine('| panel | widget | text | mode | size_pre→size | budget | need | доля | slot/axis | reason |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|')
 foreach ($r in ($failRows | Sort-Object panel, widget)) {
     $ratio = $(if ((Num $r.need) -gt 0) { '{0:N2}' -f ((Num $r.budget) / (Num $r.need)) } else { '' })
-    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need) | $ratio | $($r.slot)/$($r.axis) | $($r.reason) |")
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.mode) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need) | $ratio | $($r.slot)/$($r.axis) | $($r.reason) |")
 }
 [void]$sb.AppendLine('')
 $noEffectRows = @($fitRows | Where-Object { $_.kind -eq 'noeffect' })
@@ -634,10 +651,10 @@ foreach ($r in ($noEffectRows | Sort-Object panel, widget)) { [void]$sb.AppendLi
 $shrunkRows = @($fitRows | Where-Object { $_.kind -eq 'shrunk' })
 [void]$sb.AppendLine("## Подогнано ($($shrunkRows.Count))")
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| panel | widget | text | size_pre→size | budget | need0→need | slot/axis | steps |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+[void]$sb.AppendLine('| panel | widget | text | mode | size_pre→size | budget | need0→need | slot/axis | steps |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
 foreach ($r in ($shrunkRows | Sort-Object panel, widget)) {
-    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need0)→$($r.need) | $($r.slot)/$($r.axis) | $($r.steps) |")
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.mode) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need0)→$($r.need) | $($r.slot)/$($r.axis) | $($r.steps) |")
 }
 [void]$sb.AppendLine('')
 $richRows = @($overflowRows | Where-Object { [string]::IsNullOrEmpty([string]$_.font) -or [string]$_.widget -match 'RichText|RTB_' })
@@ -990,3 +1007,4 @@ Write-Host "Отчёты: $reportDir"
 Write-Host ("  сессий: {0}; хуков: {1} (мёртвых: {2}); переполнений: {3}; непереведённого: {4} + StringDB {5}; текстур: {6}" -f
     $selected.Count, $hookRows.Count, @($hookRows | Where-Object { $deadStatuses -contains $_.status }).Count,
     $overflowRows.Count, $untrRows.Count, $dbAgg.Count, @($texRows).Count)
+Write-Host "  $overflowLine"
