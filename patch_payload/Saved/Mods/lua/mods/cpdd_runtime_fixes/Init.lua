@@ -3662,20 +3662,18 @@ end
 -- text and size unchanged since the last fit are never measured again. A widget
 -- without layout yet (zero geometry) is measured later in timer ticks of at most
 -- 2 ms. RichText has no font of its own and is never touched.
--- The default is "legacy": the v2.9.6 length thresholds (authored + 2,
--- > 14 / > 10 / > 6 characters, wrapping off); absoluteru_dev.lua
--- TextFit = "measure" turns on the fit described above (TASK-013).
+-- absoluteru_dev.lua TextFit = "legacy" restores the v2.9.6 length thresholds
+-- (authored + 2, > 14 / > 10 / > 6 characters, wrapping off) for comparison.
 runtimeFixes.TextFit = {}
 do
-    -- "legacy" by default: "measure" (v2.9.7) made layouts worse (TASK-013).
-    local TEXT_FIT_MODE = "legacy"
+    local TEXT_FIT_MODE = "measure"
     local MIN_SIZE, MIN_RATIO = 12, 0.6
     local MAX_REMEASURES = 2
     local DEFER_SECONDS, DEFER_TRIES, DEFER_BUDGET_MS = 0.05, 10, 2
     local TF = runtimeFixes.TextFit
     local devFlags = Loader.DevFlags
-    if type(devFlags) == "table" and (devFlags.TextFit == "legacy" or devFlags.TextFit == "measure") then
-        TEXT_FIT_MODE = devFlags.TextFit
+    if type(devFlags) == "table" and devFlags.TextFit == "legacy" then
+        TEXT_FIT_MODE = "legacy"
     end
     TF.Mode = TEXT_FIT_MODE
     -- nil until the first call: true = ForceLayoutPrepass exists, false = missing
