@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.2-RU"
+local VERSION = "2.9.3-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1345,6 +1345,15 @@ local shortMenuLabels = {
     QuitGame = "Выход",
 }
 
+-- Buttons whose ButtonEnum is unknown: short label by the full Russian text.
+local shortMenuLabelsByText = {
+    ["Соглашение о конкуренции"] = "Турнир",
+}
+
+local shortMenuLabelValues = {}
+for _, value in pairs(shortMenuLabels) do shortMenuLabelValues[value] = true end
+for _, value in pairs(shortMenuLabelsByText) do shortMenuLabelValues[value] = true end
+
 local directTables = {}
 local MISSING_DIRECT_TABLE = {}
 local function report(message)
@@ -1728,6 +1737,12 @@ do
         end
         status.ok = true
         return status
+    end
+
+    -- report() at module load runs before the game's logger is up and never
+    -- reaches C7.log (TASK-007); after_main repeats the stored line.
+    local function report(message)
+        runtimeFixes.CyrillicFontLogLine = message
     end
 
     local mode = CYRILLIC_FONT_MODE
@@ -9489,6 +9504,7 @@ end, 1000000, "cpdd.runtime-fix.dialogue-skip-controls")
 -- EXPLICITLY DIRECTED BY THE USER IN A DEDICATED PROMPT!
 -- ============================================================================
 local ESC_MENU_LOCKED = true
+local menuLabelsReported = {}
 
 local function repairMenuBtnItem(self, params)
     if self == nil then return end
@@ -9527,6 +9543,16 @@ local function repairMenuBtnItem(self, params)
         end)
         if type(current) == "string" and current ~= "" then
             label = runtimeFixes.collapseSpacedCharacters(current)
+            local byText = shortMenuLabelsByText[label:match("^%s*(.-)%s*$")]
+            if byText ~= nil then
+                label = byText
+            elseif not shortMenuLabelValues[label] then
+                local key = tostring(buttonEnum) .. "|" .. label
+                if not menuLabelsReported[key] then
+                    menuLabelsReported[key] = true
+                    reportVerbose("menu button without short label enum=" .. tostring(buttonEnum) .. " text=" .. label)
+                end
+            end
         end
     end
 
@@ -10788,6 +10814,9 @@ Loader.On("after_main", function()
         .. " cache_misses=" .. tostring(runtimeMetrics.TranslationCacheMisses + runtimeMetrics.LiveRepairCacheMisses))
     -- The only routine release-log line: later hooks install lazily with
     -- their modules and are listed only in DiagnosticsMode.
+    if runtimeFixes.CyrillicFontLogLine ~= nil then
+        report(runtimeFixes.CyrillicFontLogLine)
+    end
     report("v" .. VERSION .. " active hooks_installed=" .. tostring(runtimeMetrics.HooksInstalled))
     end, 1500, "cpdd.runtime-fix.translation-layout")
 

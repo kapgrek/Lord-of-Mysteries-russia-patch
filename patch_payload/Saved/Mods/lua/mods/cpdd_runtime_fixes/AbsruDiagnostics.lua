@@ -46,6 +46,8 @@ local WALK_JOBS_MAX = 20
 local WALK_NODE_MAX = 20000
 local HOOKS_MAX = 1800
 local FONTS_MAX = 2000
+local TITLE_CYR_MAX = 500
+local TITLE_CYR_TEXT = 60
 local LIST_MAX = 20
 local TEXT_MAX = 400
 local WRITE_MAX = 512 * 1024
@@ -102,6 +104,8 @@ local S = {
     fontCount = 0,
     composite = {},
     compositeNext = 1,
+    titleCyr = {},
+    titleCyrCount = 0,
     streams = {},
     sessionBytes = 0,
     lastTick = 0,
@@ -128,7 +132,7 @@ local S = {
     hooksSignature = nil,
     dropped = {
         queue = 0, dedup = 0, session_cap = 0, db = 0, data = 0,
-        delayed = 0, walk_jobs = 0, walk_nodes = 0, hooks = 0, fonts = 0,
+        delayed = 0, walk_jobs = 0, walk_nodes = 0, hooks = 0, fonts = 0, title_cyrillic = 0,
     },
     errors = { measure = 0, walk = 0, io = 0, item = 0, tick = 0, timer = 0, oversize = 0 },
     errorTotal = 0,
@@ -439,16 +443,7 @@ local function vector2(x, y)
     return { X = x, Y = y }
 end
 
-local function readFont(widget)
-    local font = nil
-    pcall(function()
-        if widget.GetFont ~= nil then
-            font = widget:GetFont()
-        end
-    end)
-    if font == nil then
-        pcall(function() font = widget.Font end)
-    end
+local function snapFont(font)
     if font == nil then
         return nil
     end
@@ -467,6 +462,48 @@ local function readFont(widget)
     end)
     pcall(function() snap.size = tonumber(font.Size) end)
     pcall(function() snap.ls = tonumber(font.LetterSpacing) end)
+    return snap
+end
+
+local function readFont(widget)
+    local font = nil
+    pcall(function()
+        if widget.GetFont ~= nil then
+            font = widget:GetFont()
+        end
+    end)
+    if font == nil then
+        pcall(function() font = widget.Font end)
+    end
+    return snapFont(font)
+end
+
+-- RichTextBlock / KGRichTextBlock have no GetFont: their font comes from the
+-- default text style (override or TextStyleSet). Read-only, nil if unreadable.
+local function readRichFont(widget)
+    local font, source = nil, nil
+    pcall(function()
+        if widget.bOverrideDefaultStyle == true then
+            font = widget.DefaultTextStyleOverride.Font
+            source = "override"
+        end
+    end)
+    if font == nil then
+        pcall(function()
+            font = widget:GetDefaultTextStyle().Font
+            source = "style"
+        end)
+    end
+    if font == nil then
+        pcall(function()
+            font = widget:GetCurrentDefaultTextStyle().Font
+            source = "current"
+        end)
+    end
+    local snap = snapFont(font)
+    if snap ~= nil then
+        snap.source = source
+    end
     return snap
 end
 
@@ -1128,6 +1165,50 @@ local function noteFont(snap, role, name, panel, cjk, cyrillic, latin)
     if latin then record.texts_latin = record.texts_latin + 1 end
 end
 
+local function clipChars(text, limit)
+    local chars, cut = 0, #text
+    for position in text:gmatch("()[^\128-\191]") do
+        chars = chars + 1
+        if chars > limit then
+            cut = position - 1
+            break
+        end
+    end
+    return text:sub(1, cut)
+end
+
+-- TASK-007: Cyrillic still drawn by a Font_Aleo Title typeface (FZ Mincho,
+-- 1.0 em). styled: the widget went through translateTextWidget; rich: the
+-- font is the RichText default style (nil font_read = style unreadable).
+local function noteTitleCyrillic(widget, snap, rich, styled, name, panel, path, text)
+    if snap ~= nil then
+        local typeface = snap.typeface or ""
+        if not (tostring(snap.path):find("Font_Aleo.Font_Aleo", 1, true) and typeface:find("Title", 1, true)) then
+            return
+        end
+    elseif not rich then
+        return
+    end
+    local key = tostring(panel) .. "|" .. tostring(name) .. "|" .. tostring(snap and snap.typeface)
+    local record = S.titleCyr[key]
+    if record == nil then
+        if S.titleCyrCount >= TITLE_CYR_MAX then
+            S.dropped.title_cyrillic = S.dropped.title_cyrillic + 1
+            return
+        end
+        record = {
+            panel = panel, widget = name, class = className(widget), path = path,
+            text = clipChars(text, TITLE_CYR_TEXT), typeface = snap and snap.typeface,
+            size = snap and snap.size, font_read = snap ~= nil, font_src = snap and snap.source,
+            styled = styled, rich = rich, count = 0,
+        }
+        S.titleCyr[key] = record
+        S.titleCyrCount = S.titleCyrCount + 1
+    end
+    record.count = record.count + 1
+    if styled then record.styled = true end
+end
+
 -- source: "hook" (translateTextWidget) or "walk" (panel walk).
 local function processTextWidget(widget, text, name, pre, panel, scope, source)
     local path = objectPath(widget)
@@ -1170,6 +1251,16 @@ local function processTextWidget(widget, text, name, pre, panel, scope, source)
             -- authored font, which is what stage 4 needs.
             local styled = fontPre[widget]
             noteFont(post, styled and "post" or "pre", name, panel, cjk, cyrillic, latin)
+        end
+        if cyrillic then
+            local styled = source == "hook" or fontPre[widget] ~= nil
+            local snap, rich = post, false
+            if snap == nil then
+                local class = className(widget)
+                rich = class ~= nil and class:find("RichText", 1, true) ~= nil
+                if rich then snap = readRichFont(widget) end
+            end
+            noteTitleCyrillic(widget, snap, rich, styled, name, panel, path, text)
         end
     end
     track("font", started)
@@ -1710,6 +1801,19 @@ local function encodeFonts()
             "texts_latin", "sizes", "widgets", "panels",
         })
     end
+    local titleRows = {}
+    for _, record in pairs(S.titleCyr) do titleRows[#titleRows + 1] = record end
+    table.sort(titleRows, function(a, b)
+        if a.count ~= b.count then return a.count > b.count end
+        return tostring(a.panel) .. tostring(a.widget) < tostring(b.panel) .. tostring(b.widget)
+    end)
+    local titleCyr = {}
+    for index, record in ipairs(titleRows) do
+        titleCyr[index] = encodeValue(record, 0, {
+            "panel", "widget", "class", "typeface", "size", "styled", "rich", "font_read", "font_src",
+            "count", "text", "path",
+        })
+    end
     local status = S.fixes and S.fixes.CyrillicFontStatus
     return "{" .. Q .. "schema" .. Q .. ":1," .. Q .. "sid" .. Q .. ":" .. encodeString(S.sid)
         .. "," .. Q .. "standard" .. Q .. ":" .. encodeValue(fixesFontPath("StandardFontObject"))
@@ -1718,6 +1822,7 @@ local function encodeFonts()
             "mode", "requested", "title_typeface", "typefaces", "face", "write", "verify", "flush", "reason",
         })
         .. ",\n" .. Q .. "composite" .. Q .. ":" .. encodeValue(S.composite)
+        .. ",\n" .. Q .. "title_cyrillic" .. Q .. ":[\n" .. table.concat(titleCyr, ",\n") .. "]"
         .. ",\n" .. Q .. "fonts" .. Q .. ":[\n" .. table.concat(fonts, ",\n") .. "]}\n"
 end
 
@@ -1764,6 +1869,8 @@ do
         return array(rows)
     end
 
+    -- read: how the bounds were obtained ("field" = LowerBound.Value,
+    -- "method" = GetLowerBoundValue()); raw/type when slua gave neither.
     local function readRange(range)
         local row = {}
         pcall(function()
@@ -1772,6 +1879,20 @@ do
             row.low_type = tostring(range.LowerBound.Type)
             row.high_type = tostring(range.UpperBound.Type)
         end)
+        if row.low ~= nil and row.high ~= nil then
+            row.read = "field"
+        else
+            row.low, row.high = nil, nil
+            pcall(function()
+                row.low = tonumber(range:GetLowerBoundValue())
+                row.high = tonumber(range:GetUpperBoundValue())
+            end)
+            if row.low ~= nil and row.high ~= nil then
+                row.read = "method"
+            else
+                row.low, row.high = nil, nil
+            end
+        end
         if row.low == nil then
             row.raw = tostring(range)
             row.type = type(range)
@@ -1779,7 +1900,94 @@ do
         return row
     end
 
-    local function probeComposite(path)
+    -- true / false, or nil when the range could not be read at all.
+    -- Open bounds (type 2) are unbounded; exclusive bounds are treated as inclusive.
+    local function rangeCovers(range, row, codepoint)
+        if row.low ~= nil then
+            local low = tonumber(row.low_type) == 2 and -math.huge or row.low
+            local high = tonumber(row.high_type) == 2 and math.huge or row.high
+            return low <= codepoint and codepoint <= high, row.read
+        end
+        local ok, inside = pcall(function() return range:Contains(codepoint) end)
+        if ok and type(inside) == "boolean" then
+            return inside, "contains"
+        end
+        return nil, nil
+    end
+
+    local function describe(ok, value)
+        local row = { ok = ok, type = type(value) }
+        if value ~= nil then row.value = clip(tostring(value), 120) end
+        return row
+    end
+
+    local function sortedKeys(map, limit)
+        local keys = {}
+        for key in pairs(map) do keys[#keys + 1] = tostring(key) end
+        table.sort(keys)
+        while #keys > limit do keys[#keys] = nil end
+        return array(keys)
+    end
+
+    -- TASK-007: how slua exposes FInt32Range. Read-only calls on the range.
+    local function probeRange(range)
+        local probe = {}
+        pcall(function()
+            local meta = getmetatable(range)
+            probe.meta = type(meta)
+            if type(meta) == "table" then
+                probe.meta_keys = sortedKeys(meta, 40)
+                if rawget(meta, "__name") ~= nil then probe.meta_name = tostring(rawget(meta, "__name")) end
+                local index = rawget(meta, "__index")
+                probe.index = type(index)
+                if type(index) == "table" then probe.index_keys = sortedKeys(index, 60) end
+            end
+        end)
+        probe.GetLowerBoundValue = describe(pcall(function() return range:GetLowerBoundValue() end))
+        probe.GetUpperBoundValue = describe(pcall(function() return range:GetUpperBoundValue() end))
+        probe.IsEmpty = describe(pcall(function() return range:IsEmpty() end))
+        probe.Contains_0410 = describe(pcall(function() return range:Contains(0x0410) end))
+        probe.LowerBound = describe(pcall(function() return range.LowerBound end))
+        probe.LowerBound_Value = describe(pcall(function() return range.LowerBound.Value end))
+        probe.LowerBound_Type = describe(pcall(function() return range.LowerBound.Type end))
+        return probe
+    end
+
+    local function apiResult(row)
+        if type(row) ~= "table" then return "missing" end
+        if not row.ok then return "error" end
+        return row.type .. (row.type ~= "userdata" and row.value ~= nil and ("=" .. row.value) or "")
+    end
+
+    -- import + constructor only: the new struct is read and dropped, never written.
+    local function probeStruct(name, readFields)
+        local okImport, structType = pcall(import, name)
+        if not okImport or structType == nil then return "import=fail" end
+        local okNew, value = pcall(structType)
+        if not okNew or value == nil then return "import=ok ctor=fail" end
+        local result = "import=ok ctor=" .. type(value)
+        if readFields then
+            local okField, low = pcall(function() return value.LowerBound.Value end)
+            result = result .. " LowerBound.Value=" .. (okField and type(low) or "error")
+            local okMethod, lowMethod = pcall(function() return value:GetLowerBoundValue() end)
+            result = result .. " GetLowerBoundValue=" .. (okMethod and type(lowMethod) or "error")
+        end
+        return result
+    end
+
+    local function probeCulture()
+        local ok, library = pcall(import, "KismetInternationalizationLibrary")
+        if not ok or library == nil then
+            S.api["culture"] = "import=fail"
+            return
+        end
+        for _, name in ipairs({ "GetCurrentCulture", "GetCurrentLanguage", "GetCurrentLocale" }) do
+            local okCall, value = pcall(function() return library[name]() end)
+            S.api["culture." .. name] = okCall and tostring(value) or "error"
+        end
+    end
+
+    local function probeComposite(path, probeRanges)
         local record = { loaded = false }
         local object = nil
         pcall(function() object = slua.loadObject(path) end)
@@ -1803,9 +2011,28 @@ do
                 pcall(function() row.cultures = tostring(sub.Cultures) end)
                 pcall(function() row.scaling = tonumber(sub.ScalingFactor) end)
                 pcall(function()
-                    local ranges = {}
-                    for _, range in ipairs(items(sub.CharacterRanges)) do ranges[#ranges + 1] = readRange(range) end
+                    local ranges, reads = {}, {}
+                    local coversCyr, coversLatin, unreadable = false, false, false
+                    for index, range in ipairs(items(sub.CharacterRanges)) do
+                        local rangeRow = readRange(range)
+                        ranges[#ranges + 1] = rangeRow
+                        if index == 1 and probeRanges then
+                            row.range_probe = probeRange(range)
+                            if S.rangeProbe == nil then S.rangeProbe = row.range_probe end
+                        end
+                        local cyr, method = rangeCovers(range, rangeRow, 0x0410)
+                        local latin = rangeCovers(range, rangeRow, 0x0041)
+                        if method == nil then unreadable = true else reads[method] = true end
+                        coversCyr = coversCyr or cyr == true
+                        coversLatin = coversLatin or latin == true
+                    end
                     row.ranges = array(ranges)
+                    -- nil (absent in JSON) = unknown: nothing covered and some range unreadable.
+                    if coversCyr or not unreadable then row.covers_0410 = coversCyr end
+                    if coversLatin or not unreadable then row.covers_0041 = coversLatin end
+                    local methods = sortedKeys(reads, 4)
+                    if unreadable then methods[#methods + 1] = "none" end
+                    row.range_read = table.concat(methods, "+")
                 end)
                 pcall(function() row.fonts = readEntries(sub.Typeface.Fonts) end)
                 subs[#subs + 1] = row
@@ -1825,6 +2052,19 @@ do
             kind = okField and type(value) or "error"
         end
         S.api["C7FunctionLibrary.FlushFontCache"] = kind
+        S.api["import(Int32Range)"] = probeStruct("Int32Range", true)
+        S.api["import(CompositeSubFont)"] = probeStruct("CompositeSubFont")
+        S.api["import(TypefaceEntry)"] = probeStruct("TypefaceEntry")
+        pcall(probeCulture)
+    end
+
+    -- FInt32Range API summary from the first probed range (Font_Aleo).
+    local function noteRangeApi()
+        local probe = S.rangeProbe
+        S.api["FInt32Range.LowerBound"] = apiResult(probe and probe.LowerBound)
+        S.api["FInt32Range.LowerBound.Value"] = apiResult(probe and probe.LowerBound_Value)
+        S.api["FInt32Range.GetLowerBoundValue"] = apiResult(probe and probe.GetLowerBoundValue)
+        S.api["FInt32Range.Contains"] = apiResult(probe and probe.Contains_0410)
     end
 
     probeCompositeStep = function()
@@ -1833,7 +2073,9 @@ do
         if index == 1 then pcall(probeFontApi) end
         local path = COMPOSITE_PATHS[index]
         local started = nowMs()
-        local ok, record = pcall(probeComposite, path)
+        -- Range probe only for Font_Aleo (first path).
+        local ok, record = pcall(probeComposite, path, index == 1)
+        if index == 1 then pcall(noteRangeApi) end
         track("font", started)
         if not ok then
             noteError("item", record)
@@ -2153,6 +2395,9 @@ end
 
 local function afterMain()
     S.afterMain = true
+    if S.sessionLine ~= nil then
+        warn(S.sessionLine)
+    end
     S.flushSoon = false
     D.Flush(true)
     schedule()
@@ -2224,8 +2469,11 @@ function D.Start(loader, runtimeFixes, version)
             end
         end, 2100000, "absru.diagnostics.start")
     end
-    warn("[AbsruDiag] session=" .. S.sid .. " slot=" .. tostring(S.slot) .. " dir=" .. S.dir
-        .. " version=" .. S.version .. " flags=" .. flagSummary())
+    -- Logged at load for early crashes and repeated in after_main: Log.Info
+    -- before the game's logger is up never reaches C7.log (TASK-007).
+    S.sessionLine = "[AbsruDiag] session=" .. S.sid .. " slot=" .. tostring(S.slot) .. " dir=" .. S.dir
+        .. " version=" .. S.version .. " flags=" .. flagSummary()
+    warn(S.sessionLine)
     return true
 end
 

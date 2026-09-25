@@ -275,7 +275,7 @@ foreach ($dir in $sourceDirs) {
             if ($line.Contains('[AbsruDiag]')) { $diagMarkers.Add($file.Name + ': ' + $line.Trim()) }
             if ($line.Contains('[CPDDRuntimeFix]')) {
                 $fixLines++
-                if ($line -match 'active hooks_installed=') { $activeLines.Add($file.Name + ': ' + $line.Trim()) }
+                if ($line -match 'active hooks_installed=|cyrillic font mode=|menu button without short label') { $activeLines.Add($file.Name + ': ' + $line.Trim()) }
                 if ($line -match '(?i)fail|error|unavailable|protected') { $fixProblems.Add($file.Name + ': ' + $line.Trim()) }
             }
         }
@@ -619,9 +619,22 @@ $fontAgg = [ordered]@{}
 $standard = @{}
 $composite = [ordered]@{}
 $cyrillicFont = $null
+$titleCyr = [ordered]@{}
 foreach ($sid in $selected) {
     $f = $sessions[$sid].Fonts
     if (-not $f) { continue }
+    foreach ($row in @(Get-V $f 'title_cyrillic')) {
+        if ($null -eq $row) { continue }
+        $key = [string](Get-V $row 'panel') + '|' + [string](Get-V $row 'widget') + '|' + [string](Get-V $row 'typeface')
+        if (-not $titleCyr.Contains($key)) {
+            $titleCyr[$key] = @{ panel = Get-V $row 'panel'; widget = Get-V $row 'widget'; class = Get-V $row 'class'
+                typeface = Get-V $row 'typeface'; size = Get-V $row 'size'; styled = $false; rich = [bool](Get-V $row 'rich')
+                font_read = [bool](Get-V $row 'font_read'); font_src = Get-V $row 'font_src'; count = 0; text = Get-V $row 'text' }
+        }
+        $t = $titleCyr[$key]
+        $t.count += [int](Num (Get-V $row 'count'))
+        if ((Get-V $row 'styled') -eq $true) { $t.styled = $true }
+    }
     foreach ($k in @('standard', 'standard_typeface', 'cinematic')) { if (Get-V $f $k) { $standard[$k] = Get-V $f $k } }
     $c = Get-V $f 'composite'
     if ($c) { foreach ($p in $c.Keys) { $composite[$p] = $c[$p] } }
@@ -663,41 +676,93 @@ function Format-Range($r) {
 [void]$sb.AppendLine("## composite ($($composite.Count))")
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('Структура `UFont.CompositeFont` (проба `AbsruDiagnostics`, только чтение). Диапазоны: границы и тип (0 — Exclusive, 1 — Inclusive, 2 — Open). В режиме `subfont` здесь видна и наша запись U+0400–U+045F.')
+[void]$sb.AppendLine('«А / A» — покрывает ли SubTypeface U+0410 (кириллическая А) и U+0041 (латинская A): `да` / `нет` / `?` (диапазоны не прочитаны). «чтение» — способ чтения диапазона: `field` (`LowerBound.Value`), `method` (`GetLowerBoundValue()`), `contains` (`Contains()`), `none`.')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| шрифт | часть | typeface | face | диапазоны / культуры | масштаб | loading / hinting |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|')
+function Format-Covers($value) {
+    if ($null -eq $value) { return '?' }
+    if ($value -eq $true) { return 'да' }
+    return 'нет'
+}
+[void]$sb.AppendLine('| шрифт | часть | typeface | face | диапазоны / культуры | А / A | чтение | масштаб | loading / hinting |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
 foreach ($p in $composite.Keys) {
     $rec = $composite[$p]
     $fontName = ($p -split '[/.]')[-1]
     if (-not (Get-V $rec 'loaded')) {
-        [void]$sb.AppendLine("| $(Cell $fontName) | — | — | не загружен $(Cell (Get-V $rec 'error')) | | | |")
+        [void]$sb.AppendLine("| $(Cell $fontName) | — | — | не загружен $(Cell (Get-V $rec 'error')) | | | | | |")
         continue
     }
     $parts = New-Object System.Collections.Generic.List[object]
-    $parts.Add(@('default', @(Get-V $rec 'default'), '', ''))
+    $parts.Add(@('default', @(Get-V $rec 'default'), '', '', '', ''))
     $fb = Get-V $rec 'fallback'
-    if ($fb) { $parts.Add(@('fallback', @(Get-V $fb 'fonts'), '', (Get-V $fb 'scaling'))) }
+    if ($fb) { $parts.Add(@('fallback', @(Get-V $fb 'fonts'), '', (Get-V $fb 'scaling'), '', '')) }
     $i = 0
     foreach ($sub in @(Get-V $rec 'subs')) {
         if ($null -eq $sub) { continue }
         $ranges = @(@(Get-V $sub 'ranges') | Where-Object { $null -ne $_ } | ForEach-Object { Format-Range $_ }) -join ', '
         $cult = Get-V $sub 'cultures'
         if ($cult) { $ranges = "$ranges; $cult" }
-        $parts.Add(@("sub#$i", @(Get-V $sub 'fonts'), $ranges, (Get-V $sub 'scaling')))
+        $covers = "$(Format-Covers (Get-V $sub 'covers_0410')) / $(Format-Covers (Get-V $sub 'covers_0041'))"
+        $parts.Add(@("sub#$i", @(Get-V $sub 'fonts'), $ranges, (Get-V $sub 'scaling'), $covers, (Get-V $sub 'range_read')))
         $i++
     }
-    if (Get-V $rec 'error') { [void]$sb.AppendLine("| $(Cell $fontName) | ошибка | | $(Cell (Get-V $rec 'error')) | | | |") }
+    if (Get-V $rec 'error') { [void]$sb.AppendLine("| $(Cell $fontName) | ошибка | | $(Cell (Get-V $rec 'error')) | | | | | |") }
     foreach ($part in $parts) {
         $entries = @($part[1] | Where-Object { $null -ne $_ })
         if ($entries.Count -eq 0) {
-            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | — | — | $(Cell $part[2]) | $(Cell $part[3]) | |")
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | — | — | $(Cell $part[2]) | $(Cell $part[4]) | $(Cell $part[5]) | $(Cell $part[3]) | |")
         }
         foreach ($e in $entries) {
-            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | $(Cell (Get-V $e 'name')) | $(Cell (Get-V $e 'face')) | $(Cell $part[2]) | $(Cell $part[3]) | $(Cell (Get-V $e 'loading')) / $(Cell (Get-V $e 'hinting')) |")
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | $(Cell (Get-V $e 'name')) | $(Cell (Get-V $e 'face')) | $(Cell $part[2]) | $(Cell $part[4]) | $(Cell $part[5]) | $(Cell $part[3]) | $(Cell (Get-V $e 'loading')) / $(Cell (Get-V $e 'hinting')) |")
         }
     }
 }
 [void]$sb.AppendLine('')
+# Проба FInt32Range (TASK-007): первый диапазон каждого SubTypeface Font_Aleo.
+$probeRows = New-Object System.Collections.Generic.List[string]
+foreach ($p in $composite.Keys) {
+    $i = 0
+    foreach ($sub in @(Get-V $composite[$p] 'subs')) {
+        if ($null -eq $sub) { continue }
+        $probe = Get-V $sub 'range_probe'
+        if ($probe) {
+            $face = @(@(Get-V $sub 'fonts') | Where-Object { $null -ne $_ } | ForEach-Object { (([string](Get-V $_ 'face')) -split '[/.]')[-1] } | Select-Object -Unique) -join ', '
+            $calls = @('GetLowerBoundValue', 'GetUpperBoundValue', 'IsEmpty', 'Contains_0410', 'LowerBound', 'LowerBound_Value', 'LowerBound_Type' | ForEach-Object {
+                $r = Get-V $probe $_
+                if ($r) { "$_=$(if ((Get-V $r 'ok') -eq $true) { 'ok' } else { 'err' }):$(Get-V $r 'type'):$(Get-V $r 'value')" }
+            }) -join '; '
+            $meta = "meta=$(Get-V $probe 'meta') name=$(Get-V $probe 'meta_name') index=$(Get-V $probe 'index') meta_keys=[$(@(Get-V $probe 'meta_keys') -join ',')] index_keys=[$(@(Get-V $probe 'index_keys') -join ',')]"
+            $probeRows.Add("| $(Cell (($p -split '[/.]')[-1])) | sub#$i | $(Cell $face) | $(Cell $meta) | $(Cell $calls) |")
+        }
+        $i++
+    }
+}
+if ($probeRows.Count -gt 0) {
+    [void]$sb.AppendLine("### Проба FInt32Range ($($probeRows.Count))")
+    [void]$sb.AppendLine('')
+    [void]$sb.AppendLine('Первый диапазон каждого SubTypeface `Font_Aleo`: метатаблица и результат каждого вызова (`ok`/`err`:тип:значение). Итог по API — в `REPORT.md → API` (`FInt32Range.*`, `import(...)`, `culture.*`).')
+    [void]$sb.AppendLine('')
+    [void]$sb.AppendLine('| шрифт | часть | face | метатаблица | вызовы |')
+    [void]$sb.AppendLine('|---|---|---|---|---|')
+    foreach ($line in $probeRows) { [void]$sb.AppendLine($line) }
+    [void]$sb.AppendLine('')
+}
+$titleRows = @($titleCyr.Values | Sort-Object { -($_.count) })
+[void]$sb.AppendLine("## Title с кириллицей ($($titleRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Виджеты, у которых кириллицу рисует typeface `Title` шрифта `Font_Aleo` (FZ Mincho 1,0 em), по данным обхода панелей (TASK-007). `styled` — виджет проходил через `translateTextWidget`; `rich` — RichText, шрифт взят из стиля по умолчанию (`override`/`style`/`current`), `шрифт не прочитан` — RichText, чей стиль slua не отдал.')
+[void]$sb.AppendLine('')
+foreach ($group in @($titleRows | Group-Object { "styled=$($_.styled) rich=$($_.rich)" } | Sort-Object Name)) {
+    [void]$sb.AppendLine("### $($group.Name) ($($group.Count))")
+    [void]$sb.AppendLine('')
+    [void]$sb.AppendLine('| панель | виджет | класс | typeface | размер | шрифт | раз | текст |')
+    [void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+    foreach ($r in $group.Group) {
+        $src = if ($r.rich -and -not $r.font_read) { 'шрифт не прочитан' } else { $r.font_src }
+        [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.class) | $(Cell $r.typeface) | $(Cell $r.size) | $(Cell $src) | $($r.count) | $(Cell $r.text) |")
+    }
+    [void]$sb.AppendLine('')
+}
 foreach ($role in @('pre', 'post')) {
     $rows = @($fontAgg.Values | Where-Object { $_.role -eq $role } | Sort-Object { -($_.cyr) }, { -($_.count) })
     [void]$sb.AppendLine("## $role ($($rows.Count))")
