@@ -47,9 +47,14 @@
                             </StackPanel>
                         </Button>
                     </StackPanel>
-                    <Button x:Name="HeaderHowToButton" Style="{StaticResource LinkButton}" Margin="0,12,0,0" HorizontalAlignment="Right">
-                        <TextBlock Text="?  Как играть" FontWeight="SemiBold"/>
-                    </Button>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+                        <Button x:Name="HeaderHowToButton" Style="{StaticResource SocialButton}">
+                            <TextBlock Text="?  Как играть" FontWeight="SemiBold" Foreground="{StaticResource GoldBrush}"/>
+                        </Button>
+                        <Button x:Name="BoostyButton" Style="{StaticResource AccentSocialButton}" Margin="0">
+                            <TextBlock Text="♥  Поддержать на Boosty"/>
+                        </Button>
+                    </StackPanel>
                 </StackPanel>
             </Grid>
         </Border>
@@ -57,22 +62,10 @@
         <!-- Footer: social links, CPDD credits, local payload -->
         <Border DockPanel.Dock="Bottom" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="0,1,0,0" Padding="22,12,22,12">
             <StackPanel>
-                <DockPanel>
-                    <Button x:Name="FooterHowToButton" DockPanel.Dock="Right" Style="{StaticResource SocialButton}" Margin="0">
-                        <TextBlock Text="?  Как играть"/>
-                    </Button>
-                    <WrapPanel>
-                        <Button x:Name="BoostyButton" Style="{StaticResource AccentSocialButton}">
-                            <TextBlock Text="♥  Поддержать на Boosty"/>
-                        </Button>
-                    </WrapPanel>
-                </DockPanel>
-                <TextBlock x:Name="CreditsText" Margin="0,10,0,0" FontSize="12" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap">
+                <TextBlock x:Name="CreditsText" FontSize="12" Foreground="{StaticResource MutedBrush}" TextWrapping="Wrap">
                     <Run Text="Основано на английском патче CPDD (Lani27)"/>
                     <Run Text=" · "/>
                     <Hyperlink x:Name="CpddLink">Discord CPDD</Hyperlink>
-                    <Run Text=" · "/>
-                    <Hyperlink x:Name="GithubLink">GitHub</Hyperlink>
                 </TextBlock>
                 <TextBlock x:Name="PayloadText" Margin="0,4,0,0" FontSize="12" Foreground="{StaticResource WarnBrush}" TextWrapping="Wrap" Visibility="Collapsed"/>
             </StackPanel>
@@ -103,11 +96,12 @@
                 </TextBlock>
             </StackPanel>
 
-            <!-- СЧЁТЧИК УРОНА (DPS) -->
+            <!-- ДОПОЛНИТЕЛЬНО: DPS meter and clear picture (Visual Clarity) -->
             <StackPanel DockPanel.Dock="Top" Margin="0,18,0,0">
-                <TextBlock Text="СЧЁТЧИК УРОНА (DPS)" Style="{StaticResource Caption}"/>
+                <TextBlock Text="ДОПОЛНИТЕЛЬНО" Style="{StaticResource Caption}"/>
                 <Border Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="8" Padding="14,12">
                     <StackPanel>
+                        <TextBlock Text="Счётчик урона (DPS)" FontWeight="SemiBold" Margin="0,0,0,10"/>
                         <WrapPanel>
                             <RadioButton x:Name="DpsNative" GroupName="Dps" Content="Простой"/>
                             <RadioButton x:Name="DpsAdvanced" GroupName="Dps" Content="Расширенный" IsChecked="True"/>
@@ -118,25 +112,11 @@
                             <Button x:Name="LaunchMeterButton" DockPanel.Dock="Right" Padding="12,5" FontSize="12.5" Margin="12,0,0,0" Content="Запустить внешний ▸"/>
                             <TextBlock x:Name="DpsHint" Style="{StaticResource Hint}" VerticalAlignment="Center"/>
                         </DockPanel>
-                    </StackPanel>
-                </Border>
-            </StackPanel>
-
-            <!-- ДОПОЛНИТЕЛЬНО -->
-            <StackPanel DockPanel.Dock="Top" Margin="0,16,0,0">
-                <TextBlock Text="ДОПОЛНИТЕЛЬНО" Style="{StaticResource Caption}"/>
-                <Border Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1" CornerRadius="8" Padding="14,12">
-                    <StackPanel>
-                        <CheckBox x:Name="ChatCheck">
+                        <Border Height="1" Background="{StaticResource BorderBrush}" Margin="0,12,0,12"/>
+                        <CheckBox x:Name="ClarityCheck">
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Новый чат для ПК" Width="170"/>
-                                <TextBlock Text="перемещаемая панель чата" Style="{StaticResource Hint}"/>
-                            </StackPanel>
-                        </CheckBox>
-                        <CheckBox x:Name="ClarityCheck" Margin="0,10,0,0">
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Visual Clarity  ⓘ" Width="170"/>
-                                <TextBlock Text="без тумана, облаков, bloom, motion blur…" Style="{StaticResource Hint}"/>
+                                <TextBlock Text="Чистая картинка" Width="170"/>
+                                <TextBlock Text="без тумана, облаков, свечения, бликов и размытия" Style="{StaticResource Hint}"/>
                             </StackPanel>
                         </CheckBox>
                     </StackPanel>

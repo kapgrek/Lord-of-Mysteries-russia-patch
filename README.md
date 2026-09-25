@@ -65,10 +65,9 @@
 
 **Опции** (как в английском патче CPDD):
 * **Счётчик урона (DPS):** «Простой» — кнопка «Статистика» игры везде; «Расширенный» (по умолчанию) — панели DpsMeter v1.9.1; «Внешний» — оверлей Combat Meter (кнопка «Запустить внешний»); «Выключить все». Пишется в `Saved/Mods/lua/cpdd_patcher_settings.lua`.
-* **Новый чат для ПК** — перемещаемая панель чата.
-* **Visual Clarity** — блок `; BEGIN/END CPDD VISUAL CLARITY PATCH` в `Saved/Config/Windows/Engine.ini`: без тумана, облаков, bloom, motion blur, lens flare, Lumen GI/отражений и AO. Остальной `Engine.ini` не меняется.
+* **Чистая картинка** (Visual Clarity CPDD) — блок `; BEGIN/END CPDD VISUAL CLARITY PATCH` в `Saved/Config/Windows/Engine.ini`: без тумана, облаков, bloom, motion blur, lens flare, Lumen GI/отражений и AO. Остальной `Engine.ini` не меняется.
 
-Опции меняются кнопкой **«Применить настройки»**. **«Удалить»** убирает только файлы русификатора и блок Visual Clarity; `cpdd_*settings.lua` и другие моды остаются. Переключения на английский в установщике нет: оно ломало запуск игры.
+Новый чат CPDD установщик не предлагает (DesktopChatUI = false). Опции меняются кнопкой **«Применить настройки»**. **«Удалить»** убирает только файлы русификатора и блок «Чистая картинка»; `cpdd_*settings.lua` и другие моды остаются. Переключения на английский в установщике нет: оно ломало запуск игры.
 
 **Для разработчика:** `Lord-of-Mysteries-Russian-Patch.exe --payload <папка|zip>` открывает окно (или выполняет команду CLI) с локальным пакетом вместо GitHub, например `--payload D:\gameDev\AbsoluteRU\patch_payload`. Без ключа установщик берёт только `lom-russian-patch-data.zip` рядом с собой или последний релиз. `--help` — список команд.
 

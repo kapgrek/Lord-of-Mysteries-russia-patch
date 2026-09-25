@@ -22,20 +22,16 @@ namespace LotmRussianPatcher
             "Logo", "StatusBadge", "StatusDot", "StatusText", "VersionText", "HeaderHowToButton",
             "GamePathBox", "AutoDetectButton", "BrowseButton", "FolderCheckText", "FolderHowToHint", "FolderHowToLink",
             "DpsNative", "DpsAdvanced", "DpsExternal", "DpsOff", "DpsHint", "LaunchMeterButton",
-            "ChatCheck", "ClarityCheck",
+            "ClarityCheck",
             "MainButton", "ApplyButton", "UninstallButton", "ProgressRow", "Progress", "ProgressText", "CancelButton",
-            "LogBox", "TelegramChannelButton", "TelegramAuthorButton", "BoostyButton", "FooterHowToButton",
-            "CpddLink", "GithubLink", "PayloadText"
+            "LogBox", "TelegramChannelButton", "TelegramAuthorButton", "BoostyButton",
+            "CpddLink", "PayloadText"
         };
 
+        // Visual Clarity of the CPDD patch, shown as "Чистая картинка".
         private const string ClarityTooltip =
-            "Убирает туман, объёмный туман и облака, motion blur, lens flare, bloom, light shafts, преломления, " +
-            "Lumen GI и отражения, ambient occlusion. Остальные настройки Engine.ini сохраняются.\n\n" +
-            "Блок в Saved\\Config\\Windows\\Engine.ini (тот же, что у английского патча CPDD):\n" +
-            "r.DynamicGlobalIlluminationMethod=0, r.ReflectionMethod=0, r.MotionBlurQuality=0, r.DefaultFeature.MotionBlur=0, " +
-            "r.LensFlareQuality=0, r.DefaultFeature.LensFlare=0, r.BloomQuality=0, r.DefaultFeature.Bloom=0, r.LightShaftQuality=0, " +
-            "r.RefractionQuality=0, r.Refraction.OffsetQuality=0, r.DistanceFieldAO=0, r.AOQuality=0, r.AmbientOcclusionLevels=0, " +
-            "r.AmbientOcclusionMaxQuality=0, r.Fog=0, r.VolumetricFog=0, r.VolumetricCloud=0";
+            "Убирает туман и облака, размытие в движении, блики, свечение и лучи света. " +
+            "Остальные настройки графики не меняются.";
 
         private readonly Window window;
         private readonly Border statusBadge;
@@ -45,7 +41,7 @@ namespace LotmRussianPatcher
         private readonly TextBox gamePathBox, logBox;
         private readonly Button autoDetectButton, browseButton, launchMeterButton, mainButton, applyButton, uninstallButton, cancelButton;
         private readonly RadioButton dpsNative, dpsAdvanced, dpsExternal, dpsOff;
-        private readonly CheckBox chatCheck, clarityCheck;
+        private readonly CheckBox clarityCheck;
         private readonly ProgressBar progress;
         private readonly DispatcherTimer pathTimer, blockerTimer;
 
@@ -102,7 +98,6 @@ namespace LotmRussianPatcher
             dpsOff = UiKit.Find<RadioButton>(window, "DpsOff");
             dpsHint = UiKit.Find<TextBlock>(window, "DpsHint");
             launchMeterButton = UiKit.Find<Button>(window, "LaunchMeterButton");
-            chatCheck = UiKit.Find<CheckBox>(window, "ChatCheck");
             clarityCheck = UiKit.Find<CheckBox>(window, "ClarityCheck");
             mainButton = UiKit.Find<Button>(window, "MainButton");
             applyButton = UiKit.Find<Button>(window, "ApplyButton");
@@ -118,7 +113,6 @@ namespace LotmRussianPatcher
             dpsAdvanced.ToolTip = Tip("Расширенный DPS-метр v1.9.1 (по умолчанию): перемещаемые и масштабируемые панели урона, переведены на русский.");
             dpsExternal.ToolTip = Tip("Внешний счётчик: данные боя передаются в отдельное окно-оверлей Lord of Mysteries Combat Meter.");
             dpsOff.ToolTip = Tip("Выключает все счётчики урона.");
-            chatCheck.ToolTip = Tip("Новая перемещаемая панель чата для ПК из английского патча CPDD. По умолчанию выключена.");
             clarityCheck.ToolTip = Tip(ClarityTooltip);
             launchMeterButton.ToolTip = Tip("Запускает Saved\\Mods\\ExternalDpsMeter\\Lord of Mysteries Combat Meter.exe. Доступно в режиме «Внешний».");
             UiKit.Find<TextBlock>(window, "CreditsText").ToolTip = Tip("Русификатор использует загрузчик, моды и DPS-метр английского патча CPDD.");
@@ -172,7 +166,6 @@ namespace LotmRussianPatcher
             browseButton.Click += (s, e) => Browse();
             RoutedEventHandler optionChanged = (s, e) => { UpdateDpsHint(); UpdateButtons(); };
             foreach (RadioButton rb in new[] { dpsNative, dpsAdvanced, dpsExternal, dpsOff }) rb.Checked += optionChanged;
-            chatCheck.Checked += optionChanged; chatCheck.Unchecked += optionChanged;
             clarityCheck.Checked += optionChanged; clarityCheck.Unchecked += optionChanged;
             launchMeterButton.Click += (s, e) => LaunchMeter();
             mainButton.Click += (s, e) => InstallAsync();
@@ -181,7 +174,6 @@ namespace LotmRussianPatcher
             cancelButton.Click += (s, e) => { if (cts != null) { cts.Cancel(); Log("Отмена…"); } };
             RoutedEventHandler howTo = (s, e) => HowToPlayWindow.Show(window);
             UiKit.Find<Button>(window, "HeaderHowToButton").Click += howTo;
-            UiKit.Find<Button>(window, "FooterHowToButton").Click += howTo;
             UiKit.Find<Hyperlink>(window, "FolderHowToLink").Click += howTo;
         }
 
@@ -192,7 +184,6 @@ namespace LotmRussianPatcher
             WireLinkButton("TelegramAuthorButton", Links.TelegramAuthor);
             WireLinkButton("BoostyButton", Links.Boosty);
             WireHyperlink("CpddLink", Links.CpddDiscord);
-            WireHyperlink("GithubLink", Links.Github);
         }
 
         private void WireLinkButton(string name, string key)
@@ -437,7 +428,7 @@ namespace LotmRussianPatcher
             else if (dpsExternal.IsChecked == true) o.DpsMode = DpsMeterMode.External;
             else if (dpsOff.IsChecked == true) o.DpsMode = DpsMeterMode.Off;
             else o.DpsMode = DpsMeterMode.Advanced;
-            o.DesktopChat = chatCheck.IsChecked == true;
+            o.DesktopChat = false;   // the CPDD desktop chat is not offered (user decision 2026-09-26)
             o.VisualClarity = clarityCheck.IsChecked == true;
             return o;
         }
@@ -449,7 +440,6 @@ namespace LotmRussianPatcher
             dpsAdvanced.IsChecked = o.DpsMode == DpsMeterMode.Advanced;
             dpsExternal.IsChecked = o.DpsMode == DpsMeterMode.External;
             dpsOff.IsChecked = o.DpsMode == DpsMeterMode.Off;
-            chatCheck.IsChecked = o.DesktopChat;
             clarityCheck.IsChecked = o.VisualClarity;
             UpdateDpsHint();
         }
@@ -545,7 +535,7 @@ namespace LotmRussianPatcher
         {
             if (gameDir == null) return;
             if (!UiKit.Confirm(window, "Удалить русификатор?",
-                "Будут удалены только файлы русификатора и блок Visual Clarity; оригинальный блок pakchunk0 восстановится из резервной копии. " +
+                "Будут удалены только файлы русификатора и настройка «Чистая картинка»; оригинальный блок pakchunk0 восстановится из резервной копии. " +
                 "Настройки DPS-метра и чата (cpdd_*settings.lua) и другие моды останутся.", "Удалить", "Отмена", true)) return;
             string dir = gameDir;
             BeginOperation(false);

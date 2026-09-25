@@ -328,7 +328,7 @@ namespace LotmRussianPatcher
 
         public static bool ApplyOptions(string gameDir, GameOptionsState options, Action<string> log, List<string> errors)
         {
-            if (log != null) log("Запись настроек DPS, чата и Visual Clarity...");
+            if (log != null) log("Запись настроек DPS и «Чистая картинка»...");
             return new GameOptions(gameDir, log).Apply(options, errors);
         }
 
@@ -391,7 +391,7 @@ namespace LotmRussianPatcher
             }
             string error;
             GameOptionsState o = new GameOptions(norm, null).Read(out error);
-            Console.WriteLine("Настройки: DPS " + GameOptions.ModeName(o.DpsMode) + ", чат " + o.DesktopChat + ", Visual Clarity " + o.VisualClarity + (error != null ? " (" + error + ")" : ""));
+            Console.WriteLine("Настройки: DPS " + GameOptions.ModeName(o.DpsMode) + ", чистая картинка " + o.VisualClarity + (error != null ? " (" + error + ")" : ""));
             return true;
         }
 

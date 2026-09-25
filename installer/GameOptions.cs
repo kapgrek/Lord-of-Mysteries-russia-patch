@@ -267,7 +267,7 @@ namespace LotmRussianPatcher
                 if (ini.Exists && text == ini.Text) return true;
                 if (!ini.Exists) WriteOptionsState(true);
                 WriteIni(path, text, ini.Bom);
-                log("  -> Visual Clarity: блок записан в " + EngineIniRel + ".");
+                log("  -> Чистая картинка: блок записан в " + EngineIniRel + ".");
                 return true;
             }
 
@@ -280,11 +280,11 @@ namespace LotmRussianPatcher
             {
                 File.Delete(path);
                 WriteOptionsState(false);
-                log("  -> Visual Clarity: блок удалён, " + EngineIniRel + " (создан установщиком) удалён.");
+                log("  -> Чистая картинка: блок удалён, " + EngineIniRel + " (создан установщиком) удалён.");
                 return true;
             }
             WriteIni(path, rest, ini.Bom);
-            log("  -> Visual Clarity: блок удалён из " + EngineIniRel + ".");
+            log("  -> Чистая картинка: блок удалён из " + EngineIniRel + ".");
             return true;
         }
 
@@ -298,7 +298,7 @@ namespace LotmRussianPatcher
             byte[] raw = File.ReadAllBytes(path);
             if (raw.Length >= 2 && ((raw[0] == 0xFF && raw[1] == 0xFE) || (raw[0] == 0xFE && raw[1] == 0xFF)))
             {
-                error = EngineIniRel + " в кодировке UTF-16: блок Visual Clarity не изменён.";
+                error = EngineIniRel + " в кодировке UTF-16: настройка «Чистая картинка» не изменена.";
                 return false;
             }
             ini.Bom = raw.Length >= 3 && raw[0] == 0xEF && raw[1] == 0xBB && raw[2] == 0xBF;
@@ -309,7 +309,7 @@ namespace LotmRussianPatcher
             }
             catch (DecoderFallbackException)
             {
-                error = EngineIniRel + " не в UTF-8: блок Visual Clarity не изменён.";
+                error = EngineIniRel + " не в UTF-8: настройка «Чистая картинка» не изменена.";
                 return false;
             }
             if (ini.Text.Contains("\r\n")) ini.NewLine = "\r\n";
@@ -330,7 +330,7 @@ namespace LotmRussianPatcher
             if (begins.Count == 0 && ends.Count == 0) return true;
             if (begins.Count != 1 || ends.Count != 1 || ends[0] <= begins[0])
             {
-                error = EngineIniRel + ": повреждённый блок Visual Clarity (BEGIN/END). Файл не изменён.";
+                error = EngineIniRel + ": повреждённый блок «Чистая картинка» (BEGIN/END). Файл не изменён.";
                 return false;
             }
             ini.BlockStart = begins[0];
