@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.5-RU"
+local VERSION = "2.9.6-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1474,49 +1474,41 @@ function runtimeFixes.isCinematicWidgetName(name)
 end
 
 -- Fonts (TASK-006) -------------------------------------------------------------
--- Font_Aleo is the UI font. Its Title typeface draws Cyrillic with the Chinese
+-- Font_Aleo is the UI font. Its Title typefaces draw Cyrillic with the Chinese
 -- FZ Old Mincho glyphs (1.0 em, twice the Latin width); Regular draws it with
 -- Source Han Sans (~0.62 em). Cyrillic is made proportional in one of the modes:
---   "subfont"  - append a Cyrillic SubTypeface to Font_Aleo.CompositeFont (the
---                game's font is extended, never replaced) and flush the font cache;
---                any failure falls back to "typeface";
---   "cultures" - (TASK-008) give an existing Font_Aleo SubTypeface (Fallback
---                NotoSerif/NotoSans) Cultures = current culture, so its ranges
---                become priority ranges ahead of the default typeface; no range
---                is read or written; any failure falls back to "typeface";
---   "face"     - (TASK-009) replace the FontFaceAsset of the "Title" entry of
---                Font_Aleo's DefaultTypeface (face of Regular, or of a Fallback
---                SubTypeface by CyrillicTitleFace); a decisive test of whether a
---                runtime CompositeFont edit reaches Slate at all; any failure
---                restores the previous face and falls back to "typeface";
+--   "face"     - (TASK-009, TASK-010) replace the FontFaceAsset of the Title
+--                entries of Font_Aleo's DefaultTypeface: Title -> face of Regular
+--                (or of a Fallback SubTypeface by CyrillicTitleFace), Title_SDF and
+--                Title_SDF_HeadName -> face of Regular_SDF. Written on frame 0,
+--                before Slate caches the font; any failure restores every face and
+--                falls back to "typeface";
 --   "typeface" - Title -> Regular for widgets whose text contains Cyrillic;
 --   "off"      - authored typefaces.
--- absoluteru_dev.lua (Enabled = true) may override it: CyrillicFont = "subfont".
+-- absoluteru_dev.lua (Enabled = true) may override it: CyrillicFont = "typeface".
 runtimeFixes.AuthoredFonts = setmetatable({}, { __mode = "k" })
 runtimeFixes.CyrillicTypefaces = {}
 runtimeFixes.CyrillicFontMode = "off"
--- Cyrillic face sources by priority; the first one that loads is used.
--- "Font_Aleo:Regular" is the face of Font_Aleo's Regular typeface, read at runtime.
-runtimeFixes.CyrillicFaceCandidates = {
-    -- "/Game/AbsoluteRU/Fonts/<stage 4b font>.<stage 4b font>",
-    "Font_Aleo:Regular",
-}
--- "cultures" mode: faces of Font_Aleo SubTypefaces (…/Fallback/<name>.<name>) by
--- priority. absoluteru_dev.lua CyrillicCultureSub = "<name>" goes first.
-runtimeFixes.CyrillicCultureSubs = { "NotoSerif_Regular", "NotoSans_Regular" }
 -- "face" mode: source of the new Title face. "Aleo_Regular" is the face of the
 -- Regular entry; any other name is a Font_Aleo SubTypeface (…/Fallback/<name>.<name>,
 -- e.g. NotoSerif_Regular, NotoSansCJKsc_Regular, NotoSans_Regular) and its first face.
--- absoluteru_dev.lua CyrillicTitleFace = "<name>" overrides it.
+-- absoluteru_dev.lua CyrillicTitleFace = "<name>" overrides it. It affects only the
+-- Title entry: SDF entries always take Regular_SDF (the Fallback faces have no SDF).
 runtimeFixes.CyrillicTitleFace = "Aleo_Regular"
 
 do
-    local CYRILLIC_FONT_MODE = "typeface"
+    local CYRILLIC_FONT_MODE = "face"
     local STANDARD_FONT_PATH = "/Game/Arts/UI_2/Resource/Font/Font_Aleo.Font_Aleo"
     local CINEMATIC_FONT_PATH = "/Game/Arts/UI_2/Resource/Font/Font_Mistery.Font_Mistery"
-    local CYRILLIC_RANGES = { { 0x0400, 0x045F }, { 0x2116, 0x2116 } }
-    local RANGE_INCLUSIVE = 1 -- ERangeBoundTypes::Inclusive
-    local ALEO_REGULAR = "Font_Aleo:Regular"
+    local ALEO_REGULAR_FACE = "Aleo_Regular"
+    -- "face": entry to edit, entry whose face it takes, status key. The Title
+    -- source may be overridden by CyrillicTitleFace; an SDF entry only ever gets
+    -- an SDF face (another rasterization).
+    local FACE_SWAPS = {
+        { target = "Title", source = "Regular", key = "title" },
+        { target = "Title_SDF", source = "Regular_SDF", key = "title_sdf", sdf = true },
+        { target = "Title_SDF_HeadName", source = "Regular_SDF", key = "title_sdf_headname", sdf = true },
+    }
 
     local function loadRootedObject(path)
         local object = nil
@@ -1547,21 +1539,6 @@ do
         return nil
     end
 
-    local function clear(array)
-        if pcall(function() array:Clear() end) then return end
-        for index = count(array) - 1, 0, -1 do
-            array:Remove(index)
-        end
-    end
-
-    local function newStruct(name)
-        local okType, structType = pcall(import, name)
-        if not okType or structType == nil then return nil end
-        local ok, value = pcall(structType)
-        if ok and value ~= nil then return value end
-        return nil
-    end
-
     local function defaultEntries(font)
         local entries = {}
         pcall(function()
@@ -1589,118 +1566,6 @@ do
         return face
     end
 
-    -- Index of the SubTypeface whose range starts at U+0400 and the number of
-    -- its typeface entries, or nil.
-    local function cyrillicSubIndex(font)
-        local found, fonts = nil, 0
-        pcall(function()
-            local subs = font.CompositeFont.SubTypefaces
-            for index = 0, count(subs) - 1 do
-                local sub = item(subs, index)
-                local ranges = sub.CharacterRanges
-                for rangeIndex = 0, count(ranges) - 1 do
-                    if found == nil and tonumber(item(ranges, rangeIndex).LowerBound.Value) == CYRILLIC_RANGES[1][1] then
-                        found = index
-                        fonts = count(sub.Typeface.Fonts)
-                    end
-                end
-            end
-        end)
-        return found, fonts
-    end
-
-    -- Returns the source typeface entry, a face override (stage 4b asset) and its path.
-    local function resolveCyrillicSource(font, entries)
-        for _, candidate in ipairs(runtimeFixes.CyrillicFaceCandidates) do
-            if candidate == ALEO_REGULAR then
-                local entry = findEntry(entries, "Regular")
-                if entryFace(entry) == nil then
-                    -- Regular Cyrillic may come from the fallback typeface.
-                    pcall(function() entry = item(font.CompositeFont.FallbackTypeface.Typeface.Fonts, 0) end)
-                end
-                local face = entryFace(entry)
-                if face ~= nil then return entry, nil, objectPath(face) end
-            elseif type(candidate) == "string" then
-                local face = loadRootedObject(candidate)
-                local template = findEntry(entries, "Regular") or (entries[1] and entries[1].entry)
-                if face ~= nil and template ~= nil then return template, face, objectPath(face) end
-            end
-        end
-        return nil, nil, nil
-    end
-
-    -- New structs only: items read from Font_Aleo are never mutated, so a failed
-    -- write cannot damage the game's typefaces.
-    local function requireStruct(name)
-        local value = newStruct(name)
-        assert(value ~= nil, name .. " unavailable")
-        return value
-    end
-
-    local function newRange(low, high)
-        local range = requireStruct("Int32Range")
-        local lower = range.LowerBound
-        lower.Type = RANGE_INCLUSIVE
-        lower.Value = low
-        range.LowerBound = lower
-        local upper = range.UpperBound
-        upper.Type = RANGE_INCLUSIVE
-        upper.Value = high
-        range.UpperBound = upper
-        return range
-    end
-
-    local function writeCyrillicSub(font, entries, source, faceOverride)
-        local sdfSource = faceOverride == nil and findEntry(entries, "Regular_SDF") or nil
-        local sub = requireStruct("CompositeSubFont")
-
-        local ranges = sub.CharacterRanges
-        clear(ranges)
-        for _, bounds in ipairs(CYRILLIC_RANGES) do
-            ranges:Add(newRange(bounds[1], bounds[2]))
-        end
-        sub.CharacterRanges = ranges
-        pcall(function() sub.Cultures = "" end)
-        pcall(function() sub.ScalingFactor = 1.0 end)
-
-        -- One entry per typeface name of the default typeface, all with the Cyrillic face.
-        local typeface = sub.Typeface
-        local fonts = typeface.Fonts
-        clear(fonts)
-        for _, value in ipairs(entries) do
-            local from = (sdfSource ~= nil and value.name:find("_SDF", 1, true)) and sdfSource or source
-            local entry = requireStruct("TypefaceEntry")
-            entry.Name = value.name
-            entry.Font = from.Font
-            if faceOverride ~= nil then
-                local data = entry.Font
-                data.FontFaceAsset = faceOverride
-                entry.Font = data
-            end
-            fonts:Add(entry)
-        end
-        typeface.Fonts = fonts
-        sub.Typeface = typeface
-
-        local cf = font.CompositeFont
-        local subs = cf.SubTypefaces
-        subs:Add(sub)
-        cf.SubTypefaces = subs
-        font.CompositeFont = cf
-    end
-
-    local function removeCyrillicSub(font)
-        pcall(function()
-            local index = cyrillicSubIndex(font)
-            if index == nil then return end
-            local cf = font.CompositeFont
-            local subs = cf.SubTypefaces
-            subs:Remove(index)
-            cf.SubTypefaces = subs
-            font.CompositeFont = cf
-        end)
-    end
-
     local function flushFontCache()
         local okLibrary, library = pcall(import, "C7FunctionLibrary")
         local flush = nil
@@ -1715,137 +1580,6 @@ do
         return "err"
     end
 
-    -- Returns status fields; status.ok is true when the SubTypeface is in place.
-    local function applySubfont(font, entries)
-        local status = { face = "none", write = "skip", verify = "fail", flush = "skip" }
-        if #entries == 0 then
-            status.reason = "no_default_typeface"
-            return status
-        end
-        local source, faceOverride, facePath = resolveCyrillicSource(font, entries)
-        if source == nil then
-            status.reason = "no_face"
-            return status
-        end
-        status.face = facePath
-        if cyrillicSubIndex(font) ~= nil then
-            status.write = "exists"
-        else
-            local ok, err = pcall(writeCyrillicSub, font, entries, source, faceOverride)
-            status.write = ok and "ok" or "err"
-            if not ok then
-                status.reason = "write:" .. tostring(err)
-                removeCyrillicSub(font)
-                return status
-            end
-        end
-        local index, fonts = cyrillicSubIndex(font)
-        if index == nil or fonts == 0 then
-            status.reason = index == nil and "verify" or "verify_no_typeface"
-            removeCyrillicSub(font)
-            return status
-        end
-        status.verify = "ok"
-        status.flush = flushFontCache()
-        if status.flush ~= "ok" then
-            status.reason = "flush"
-            removeCyrillicSub(font)
-            return status
-        end
-        status.ok = true
-        return status
-    end
-
-    -- "cultures" (TASK-008) --------------------------------------------------
-    -- FInt32Range is opaque through __index in slua (session 2026-09-25_1046):
-    -- no fields, no methods. Struct property getters may still sit in the
-    -- metatable's ".get" table; this is only used to report coverage.
-    local function readField(value, name)
-        local ok, result = pcall(function() return value[name] end)
-        if ok and result ~= nil then return result end
-        ok, result = pcall(function() return getmetatable(value)[".get"][name](value) end)
-        if ok then return result end
-        return nil
-    end
-
-    -- "yes" / "no" / "unknown" for each code point.
-    local function subCoverage(sub, codepoints)
-        local result, unreadable = {}, false
-        for index, _ in ipairs(codepoints) do result[index] = false end
-        pcall(function()
-            local ranges = sub.CharacterRanges
-            for rangeIndex = 0, count(ranges) - 1 do
-                local range = item(ranges, rangeIndex)
-                local lower, upper = readField(range, "LowerBound"), readField(range, "UpperBound")
-                local low = lower ~= nil and tonumber(readField(lower, "Value")) or nil
-                local high = upper ~= nil and tonumber(readField(upper, "Value")) or nil
-                if low == nil or high == nil then
-                    unreadable = true
-                else
-                    -- ERangeBoundTypes::Open = 2 is unbounded.
-                    if tonumber(readField(lower, "Type")) == 2 then low = -math.huge end
-                    if tonumber(readField(upper, "Type")) == 2 then high = math.huge end
-                    for index, codepoint in ipairs(codepoints) do
-                        if low <= codepoint and codepoint <= high then result[index] = true end
-                    end
-                end
-            end
-        end)
-        for index, covered in ipairs(result) do
-            result[index] = covered and "yes" or (unreadable and "unknown" or "no")
-        end
-        return result
-    end
-
-    local function currentCultures()
-        local culture = nil
-        pcall(function()
-            culture = tostring(import("KismetInternationalizationLibrary").GetCurrentCulture())
-        end)
-        if culture == nil or culture == "" or culture == "nil" then culture = "en" end
-        local parent = culture:match("^([^%-_]+)[%-_]")
-        if parent ~= nil then return culture .. ";" .. parent end
-        return culture
-    end
-
-    local function cultureSubNames()
-        local names, seen = {}, {}
-        local function add(name)
-            if type(name) == "string" and name ~= "" and not seen[name] then
-                seen[name] = true
-                names[#names + 1] = name
-            end
-        end
-        local devFlags = Loader.DevFlags
-        add(type(devFlags) == "table" and devFlags.CyrillicCultureSub or nil)
-        for _, name in ipairs(runtimeFixes.CyrillicCultureSubs) do add(name) end
-        return names
-    end
-
-    local function subFacePath(sub)
-        local path = nil
-        pcall(function()
-            local face = item(sub.Typeface.Fonts, 0).Font.FontFaceAsset
-            if face ~= nil then path = objectPath(face) end
-        end)
-        return path
-    end
-
-    -- Index of the SubTypeface whose first face is …/Fallback/<name>.<name>,
-    -- its face path and the number of SubTypefaces.
-    local function findCultureSub(font, name)
-        local subs = nil
-        pcall(function() subs = font.CompositeFont.SubTypefaces end)
-        if subs == nil then return nil end
-        local total = count(subs)
-        local needle = "/Fallback/" .. name .. "."
-        for index = 0, total - 1 do
-            local path = subFacePath(item(subs, index))
-            if path ~= nil and path:find(needle, 1, true) ~= nil then return index, path, total end
-        end
-        return nil, nil, total
-    end
-
     -- slua TArray element replacement: Set, or Remove + Insert.
     local function replaceItem(array, index, value)
         if pcall(function() array:Set(index, value) end) then return "set" end
@@ -1855,127 +1589,22 @@ do
         return "insert"
     end
 
-    -- The CompositeFont is copied, edited and assigned back as a whole.
-    local function writeSubCultures(font, index, cultures)
-        local cf = font.CompositeFont
-        local subs = cf.SubTypefaces
-        local sub = item(subs, index)
-        assert(sub ~= nil, "sub unavailable")
-        sub.Cultures = cultures
-        local via = replaceItem(subs, index, sub)
-        cf.SubTypefaces = subs
-        font.CompositeFont = cf
-        return via
-    end
-
-    local function readSubCultures(font, index)
-        local value = nil
-        pcall(function() value = tostring(item(font.CompositeFont.SubTypefaces, index).Cultures) end)
-        return value
-    end
-
-    -- Returns status fields; status.ok is true when the SubTypeface has the cultures.
-    local function applyCultures(font)
-        local status = { sub = "none", cultures = "", write = "skip", verify = "fail", flush = "skip" }
-        local index, path, total, name = nil, nil, nil, nil
-        for _, candidate in ipairs(cultureSubNames()) do
-            index, path, total = findCultureSub(font, candidate)
-            if index ~= nil then
-                name = candidate
-                break
-            end
-        end
-        if index == nil then
-            status.reason = "no_sub"
-            return status
-        end
-        status.sub = path
-        local coverage = subCoverage(item(font.CompositeFont.SubTypefaces, index), { 0x0410, 0x0041 })
-        status.cyr, status.latin = coverage[1], coverage[2]
-        local previous = readSubCultures(font, index)
-        if previous == nil then
-            status.reason = "cultures_unreadable"
-            return status
-        end
-        status.previous = previous
-        status.cultures = currentCultures()
-
-        local function rollback()
-            local at = findCultureSub(font, name)
-            if at ~= nil and readSubCultures(font, at) ~= previous then
-                pcall(writeSubCultures, font, at, previous)
-                flushFontCache()
-            end
-        end
-
-        local ok, via = pcall(writeSubCultures, font, index, status.cultures)
-        status.write = ok and "ok" or "err"
-        if not ok then
-            status.reason = "write:" .. tostring(via)
-            rollback()
-            return status
-        end
-        status.via = via
-        local at, _, after = findCultureSub(font, name)
-        if at == nil or after ~= total or readSubCultures(font, at) ~= status.cultures then
-            status.reason = at == nil and "verify_no_sub" or (after ~= total and "verify_count" or "verify")
-            rollback()
-            return status
-        end
-        status.verify = "ok"
-        status.flush = flushFontCache()
-        if status.flush ~= "ok" then
-            status.reason = "flush"
-            rollback()
-            return status
-        end
-        status.ok = true
-        return status
-    end
-
-    -- Second cache reset (TASK-009, dev flag CyrillicFlush = "culture"): a culture
-    -- change makes Slate drop its font caches. Switches away and back; nil when
-    -- the flag is off.
-    local function cultureFlush()
-        local devFlags = Loader.DevFlags
-        if type(devFlags) ~= "table" or devFlags.CyrillicFlush ~= "culture" then return nil end
-        local ok, result = pcall(function()
-            local library = import("KismetInternationalizationLibrary")
-            local original = tostring(library.GetCurrentCulture())
-            assert(original ~= "" and original ~= "nil", "no_culture")
-            local temporary = original ~= "en-US" and "en-US" or "en"
-            library.SetCurrentCulture(temporary, false)
-            library.SetCurrentCulture(original, false)
-            local back = tostring(library.GetCurrentCulture())
-            if back ~= original then return "err:culture=" .. back end
-            return "ok"
-        end)
-        if ok then return result end
-        return "err:" .. tostring(result)
-    end
-
-    -- "face" (TASK-009) ------------------------------------------------------
-    -- Only the entry named exactly "Title" is edited; *_SDF entries use another
-    -- rasterization and are never touched.
-    local TITLE_ENTRY = "Title"
-    local ALEO_REGULAR_FACE = "Aleo_Regular"
-
-    -- Index of the Title entry in DefaultTypeface.Fonts and the number of entries.
-    local function titleIndex(font)
-        local found, total = nil, 0
+    -- "face" (TASK-009, TASK-010) --------------------------------------------
+    -- Index of each entry name in DefaultTypeface.Fonts and the number of entries.
+    local function entryIndexes(font)
+        local indexes, total = {}, 0
         pcall(function()
             local fonts = font.CompositeFont.DefaultTypeface.Fonts
             total = count(fonts)
             for index = 0, total - 1 do
-                if found == nil and tostring(item(fonts, index).Name) == TITLE_ENTRY then found = index end
+                local name = tostring(item(fonts, index).Name)
+                if indexes[name] == nil then indexes[name] = index end
             end
         end)
-        return found, total
+        return indexes, total
     end
 
-    local function titleFace(font)
-        local index = titleIndex(font)
-        if index == nil then return nil end
+    local function faceAt(font, index)
         local face = nil
         pcall(function() face = item(font.CompositeFont.DefaultTypeface.Fonts, index).Font.FontFaceAsset end)
         return face
@@ -1988,70 +1617,119 @@ do
         return runtimeFixes.CyrillicTitleFace
     end
 
+    -- First face of the SubTypeface whose first face is …/Fallback/<name>.<name>.
+    local function fallbackSubFace(font, name)
+        local found = nil
+        pcall(function()
+            local subs = font.CompositeFont.SubTypefaces
+            local needle = "/Fallback/" .. name .. "."
+            for index = 0, count(subs) - 1 do
+                local face = item(item(subs, index).Typeface.Fonts, 0).Font.FontFaceAsset
+                if found == nil and face ~= nil and objectPath(face):find(needle, 1, true) ~= nil then
+                    found = face
+                end
+            end
+        end)
+        return found
+    end
+
     -- The face object is taken from the structure already read, never loaded by path.
     local function resolveTitleFace(font, entries, name)
         if name == ALEO_REGULAR_FACE then
             return entryFace(findEntry(entries, "Regular"))
         end
-        local index = findCultureSub(font, name)
-        if index == nil then return nil end
-        local face = nil
-        pcall(function() face = item(item(font.CompositeFont.SubTypefaces, index).Typeface.Fonts, 0).Font.FontFaceAsset end)
-        return face
+        return fallbackSubFace(font, name)
     end
 
-    -- The CompositeFont is copied, edited and assigned back as a whole.
-    local function writeTitleFace(font, index, face)
+    -- The CompositeFont is copied once, every swap { target, index, face } is
+    -- applied to the copy and the copy is assigned back as a whole.
+    local function writeFaces(font, swaps)
         local cf = font.CompositeFont
         local def = cf.DefaultTypeface
         local fonts = def.Fonts
-        local entry = item(fonts, index)
-        assert(entry ~= nil and tostring(entry.Name) == TITLE_ENTRY, "title entry unavailable")
-        local data = entry.Font
-        data.FontFaceAsset = face
-        entry.Font = data
-        local via = replaceItem(fonts, index, entry)
+        local via = nil
+        for _, swap in ipairs(swaps) do
+            local entry = item(fonts, swap.index)
+            assert(entry ~= nil and tostring(entry.Name) == swap.target, swap.target .. " entry unavailable")
+            local data = entry.Font
+            data.FontFaceAsset = swap.face
+            entry.Font = data
+            via = replaceItem(fonts, swap.index, entry)
+        end
         def.Fonts = fonts
         cf.DefaultTypeface = def
         font.CompositeFont = cf
         return via
     end
 
-    -- Returns status fields; status.ok is true when Title has the new face.
+    -- Returns status fields; status.ok is true when every planned entry has its
+    -- new face. A missing SDF entry or source is skipped; Title is required.
     local function applyFace(font, entries)
-        local status = { title_face = "none", previous = "none", write = "skip", verify = "fail", flush = "skip" }
-        local index, total = titleIndex(font)
-        if index == nil then
-            status.reason = "no_title"
+        local status = { write = "skip", verify = "fail", flush = "skip" }
+        local indexes, total = entryIndexes(font)
+        local titleSource = titleFaceName()
+        status.source = titleSource
+        local swaps, previous, titleSkip = {}, {}, nil
+        for _, spec in ipairs(FACE_SWAPS) do
+            local index = indexes[spec.target]
+            local face, skip = nil, nil
+            if index == nil then
+                skip = "no_entry"
+            elseif spec.target == "Title" then
+                face = resolveTitleFace(font, entries, titleSource)
+                if face == nil then skip = "no_face:" .. tostring(titleSource) end
+            else
+                face = entryFace(findEntry(entries, spec.source))
+                if face == nil then
+                    skip = "no_source:" .. spec.source
+                elseif spec.sdf and objectPath(face):find("_SDF", 1, true) == nil then
+                    skip = "not_sdf"
+                end
+            end
+            local old = index ~= nil and faceAt(font, index) or nil
+            if skip == nil and old == nil then skip = "face_unreadable" end
+            if skip == nil then
+                -- Keep the old face alive while Font_Aleo no longer references it.
+                pcall(function() old:AddToRoot() end)
+                swaps[#swaps + 1] = { target = spec.target, index = index, face = face, previous = old,
+                    path = objectPath(face), previousPath = objectPath(old) }
+                status[spec.key] = objectPath(face)
+                previous[#previous + 1] = spec.target .. "=" .. objectPath(old)
+            else
+                status[spec.key] = "skip(" .. skip .. ")"
+                if spec.target == "Title" then titleSkip = skip end
+            end
+        end
+        status.previous = table.concat(previous, ",")
+        if titleSkip ~= nil then
+            if titleSkip == "no_entry" then
+                status.reason = "no_title"
+            elseif titleSkip == "face_unreadable" then
+                status.reason = "title_face_unreadable"
+            else
+                status.reason = titleSkip
+            end
             return status
         end
-        local previousFace = titleFace(font)
-        if previousFace == nil then
-            status.reason = "title_face_unreadable"
-            return status
-        end
-        -- Keep the old face alive while Font_Aleo no longer references it.
-        pcall(function() previousFace:AddToRoot() end)
-        status.previous = objectPath(previousFace)
-        local name = titleFaceName()
-        status.source = name
-        local face = resolveTitleFace(font, entries, name)
-        if face == nil then
-            status.reason = "no_face:" .. tostring(name)
-            return status
-        end
-        status.title_face = objectPath(face)
 
+        -- Restores every entry whose face is no longer the previous one.
         local function rollback()
-            local current = titleFace(font)
-            if current == nil or objectPath(current) ~= status.previous then
-                local at = titleIndex(font)
-                if at ~= nil then pcall(writeTitleFace, font, at, previousFace) end
+            local now = entryIndexes(font)
+            local restore = {}
+            for _, swap in ipairs(swaps) do
+                local at = now[swap.target]
+                local current = at ~= nil and faceAt(font, at) or nil
+                if at ~= nil and (current == nil or objectPath(current) ~= swap.previousPath) then
+                    restore[#restore + 1] = { target = swap.target, index = at, face = swap.previous }
+                end
+            end
+            if restore[1] ~= nil then
+                pcall(writeFaces, font, restore)
                 flushFontCache()
             end
         end
 
-        local ok, via = pcall(writeTitleFace, font, index, face)
+        local ok, via = pcall(writeFaces, font, swaps)
         status.write = ok and "ok" or "err"
         if not ok then
             status.reason = "write:" .. tostring(via)
@@ -2059,10 +1737,20 @@ do
             return status
         end
         status.via = via
-        local at, after = titleIndex(font)
-        local written = titleFace(font)
-        if at == nil or after ~= total or written == nil or objectPath(written) ~= status.title_face then
-            status.reason = at == nil and "verify_no_title" or (after ~= total and "verify_count" or "verify")
+        local after, afterTotal = entryIndexes(font)
+        if afterTotal ~= total then status.reason = "verify_count" end
+        for _, swap in ipairs(swaps) do
+            if status.reason == nil then
+                local at = after[swap.target]
+                local written = at ~= nil and faceAt(font, at) or nil
+                if at == nil then
+                    status.reason = "verify_no_entry:" .. swap.target
+                elseif written == nil or objectPath(written) ~= swap.path then
+                    status.reason = "verify:" .. swap.target
+                end
+            end
+        end
+        if status.reason ~= nil then
             rollback()
             return status
         end
@@ -2086,19 +1774,12 @@ do
     local selected = CYRILLIC_FONT_MODE
     local devFlags = Loader.DevFlags
     local requested = type(devFlags) == "table" and devFlags.CyrillicFont or nil
-    if requested == "subfont" or requested == "cultures" or requested == "face"
-        or requested == "typeface" or requested == "off" then
+    if requested == "face" or requested == "typeface" or requested == "off" then
         selected = requested
     end
 
-    -- " flush2=<…>" for the optional second cache reset, "" when it is off.
-    local function flush2Text(status)
-        if status.flush2 == nil then return "" end
-        return " flush2=" .. tostring(status.flush2)
-    end
-
     -- stage: "load" (Init.lua on frame 0, before the loading screen draws text)
-    -- or "after_main" (retry of "face"/"cultures" when Font_Aleo was not loaded yet).
+    -- or "after_main" (retry of "face" when Font_Aleo was not loaded yet).
     local function run(stage)
         local mode = selected
         local ok, err = pcall(function()
@@ -2111,7 +1792,7 @@ do
             local standard = runtimeFixes.StandardFontObject
             if standard == nil then
                 mode = "off"
-                if stage == "load" and (selected == "face" or selected == "cultures") then
+                if stage == "load" and selected == "face" then
                     runtimeFixes.CyrillicFontRetry = function()
                         runtimeFixes.CyrillicFontRetry = nil
                         run("after_main")
@@ -2140,50 +1821,22 @@ do
             local titleTypeface = tostring(runtimeFixes.CyrillicTypefaces.Title)
 
             local status = nil
-            if mode == "subfont" then
-                status = applySubfont(standard, entries)
-                if not status.ok then mode = "typeface" end
-                local line = "cyrillic font mode=" .. mode
-                if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
-                line = line .. " face=" .. tostring(status.face) .. " write=" .. status.write
-                    .. " verify=" .. status.verify .. " flush=" .. status.flush
-                if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
-                report(line)
-            elseif mode == "cultures" then
-                -- Title stays Title: its Cyrillic has to come from the priority sub.
-                status = applyCultures(standard)
-                if status.ok then
-                    status.flush2 = cultureFlush()
-                    status.applied_at = stage
-                else
-                    mode = "typeface"
-                end
-                local line = "cyrillic font mode=" .. mode
-                if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
-                line = line .. " sub=" .. tostring(status.sub) .. " cultures=" .. tostring(status.cultures)
-                    .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
-                    .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
-                    .. " verify=" .. status.verify .. " flush=" .. status.flush .. flush2Text(status)
-                    .. " cyr=" .. tostring(status.cyr) .. " latin=" .. tostring(status.latin)
-                if status.ok then line = line .. " applied_at=" .. stage end
-                if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
-                report(line)
-            elseif mode == "face" then
-                -- No Title -> Regular: only the font edit itself may change the screen.
+            if mode == "face" then
+                -- No Title -> Regular in widgets: the edited typefaces draw Cyrillic.
                 status = applyFace(standard, entries)
                 if status.ok then
-                    status.flush2 = cultureFlush()
                     status.applied_at = stage
                 else
                     mode = "typeface"
                 end
                 local line = "cyrillic font mode=" .. mode
                 if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
-                line = line .. " source=" .. tostring(status.source) .. " title_face=" .. tostring(status.title_face)
-                    .. " previous=" .. tostring(status.previous) .. " write=" .. status.write
-                    .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
-                    .. " verify=" .. status.verify .. " flush=" .. status.flush .. flush2Text(status)
+                line = line .. " title=" .. tostring(status.title) .. " title_sdf=" .. tostring(status.title_sdf)
+                    .. " title_sdf_headname=" .. tostring(status.title_sdf_headname)
+                    .. " write=" .. status.write .. (status.via ~= nil and ("(" .. status.via .. ")") or "")
+                    .. " verify=" .. status.verify .. " flush=" .. status.flush
                 if status.ok then line = line .. " applied_at=" .. stage end
+                if status.source ~= ALEO_REGULAR_FACE then line = line .. " source=" .. tostring(status.source) end
                 if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
                 report(line)
             elseif mode == "typeface" then
@@ -2194,14 +1847,12 @@ do
             runtimeFixes.CyrillicFontStatus = {
                 mode = mode, requested = requested or CYRILLIC_FONT_MODE, title_typeface = titleTypeface,
                 typefaces = table.concat(nameList, ","),
-                face = status and status.face, write = status and status.write,
+                title = status and status.title, title_sdf = status and status.title_sdf,
+                title_sdf_headname = status and status.title_sdf_headname,
+                source = status and status.source, previous = status and status.previous,
+                write = status and status.write, via = status and status.via,
                 verify = status and status.verify, flush = status and status.flush,
-                reason = status and status.reason,
-                sub = status and status.sub, cultures = status and status.cultures,
-                previous = status and status.previous, via = status and status.via,
-                cyr = status and status.cyr, latin = status and status.latin,
-                title_face = status and status.title_face, source = status and status.source,
-                flush2 = status and status.flush2, applied_at = status and status.applied_at,
+                reason = status and status.reason, applied_at = status and status.applied_at,
             }
         end)
         if not ok then
@@ -4182,7 +3833,7 @@ local function translateTextWidget(widget, discoveryContext)
         -- NEVER override DefaultTextStyleOverride or swap FontObject on RichTextBlock:
         -- RichTextBlock is driven by its authored TextStyleSet (DataTable). Overriding it
         -- corrupts Slate font materials and triggers UE5 fallback magenta/purple rendering.
-        -- In "subfont" mode RichText gets Cyrillic from the Font_Aleo SubTypeface.
+        -- In "face" mode RichText gets proportional Cyrillic from the edited Font_Aleo faces.
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
     end)
@@ -11219,7 +10870,7 @@ Loader.On("after_main", function()
         .. " cache_misses=" .. tostring(runtimeMetrics.TranslationCacheMisses + runtimeMetrics.LiveRepairCacheMisses))
     -- The only routine release-log line: later hooks install lazily with
     -- their modules and are listed only in DiagnosticsMode.
-    -- "face"/"cultures" retry (TASK-009) when Font_Aleo was not loaded on frame 0.
+    -- "face" retry (TASK-009) when Font_Aleo was not loaded on frame 0.
     if type(runtimeFixes.CyrillicFontRetry) == "function" then
         runtimeFixes.CyrillicFontRetry()
     end

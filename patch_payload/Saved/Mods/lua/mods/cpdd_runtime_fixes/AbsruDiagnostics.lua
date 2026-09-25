@@ -1819,9 +1819,8 @@ local function encodeFonts()
         .. "," .. Q .. "standard" .. Q .. ":" .. encodeValue(fixesFontPath("StandardFontObject"))
         .. "," .. Q .. "cinematic" .. Q .. ":" .. encodeValue(fixesFontPath("CinematicFontObject"))
         .. ",\n" .. Q .. "cyrillic_font" .. Q .. ":" .. encodeValue(type(status) == "table" and status or nil, 0, {
-            "mode", "requested", "title_typeface", "typefaces", "face", "sub", "cultures", "previous",
-            "write", "via", "verify", "flush", "cyr", "latin", "reason",
-            "source", "title_face", "flush2", "applied_at",
+            "mode", "requested", "title_typeface", "typefaces", "title", "title_sdf", "title_sdf_headname",
+            "source", "previous", "write", "via", "verify", "flush", "reason", "applied_at",
         })
         .. ",\n" .. Q .. "composite" .. Q .. ":" .. encodeValue(S.composite)
         .. ",\n" .. Q .. "title_cyrillic" .. Q .. ":[\n" .. table.concat(titleCyr, ",\n") .. "]"
@@ -1871,181 +1870,6 @@ do
         return array(rows)
     end
 
-    -- TASK-008: slua struct property getters live in the metatable's ".get"
-    -- table; FInt32Range exposes nothing through __index.
-    local function getterField(value, name)
-        local ok, result = pcall(function() return getmetatable(value)[".get"][name](value) end)
-        if ok then return result end
-        return nil
-    end
-
-    -- read: how the bounds were obtained ("field" = LowerBound.Value,
-    -- "method" = GetLowerBoundValue(), "get" = metatable ".get" getters);
-    -- raw/type when slua gave none.
-    local function readRange(range)
-        local row = {}
-        pcall(function()
-            row.low = tonumber(range.LowerBound.Value)
-            row.high = tonumber(range.UpperBound.Value)
-            row.low_type = tostring(range.LowerBound.Type)
-            row.high_type = tostring(range.UpperBound.Type)
-        end)
-        if row.low ~= nil and row.high ~= nil then
-            row.read = "field"
-        else
-            row.low, row.high, row.low_type, row.high_type = nil, nil, nil, nil
-            pcall(function()
-                row.low = tonumber(range:GetLowerBoundValue())
-                row.high = tonumber(range:GetUpperBoundValue())
-            end)
-            if row.low ~= nil and row.high ~= nil then
-                row.read = "method"
-            else
-                row.low, row.high = nil, nil
-                local lower, upper = getterField(range, "LowerBound"), getterField(range, "UpperBound")
-                if lower ~= nil and upper ~= nil then
-                    local function bound(value, name)
-                        local ok, result = pcall(function() return value[name] end)
-                        if ok and result ~= nil then return result end
-                        return getterField(value, name)
-                    end
-                    row.low = tonumber(bound(lower, "Value"))
-                    row.high = tonumber(bound(upper, "Value"))
-                    local lowType, highType = bound(lower, "Type"), bound(upper, "Type")
-                    if lowType ~= nil then row.low_type = tostring(lowType) end
-                    if highType ~= nil then row.high_type = tostring(highType) end
-                end
-                if row.low ~= nil and row.high ~= nil then
-                    row.read = "get"
-                else
-                    row.low, row.high, row.low_type, row.high_type = nil, nil, nil, nil
-                end
-            end
-        end
-        if row.low == nil then
-            row.raw = tostring(range)
-            row.type = type(range)
-        end
-        return row
-    end
-
-    -- true / false, or nil when the range could not be read at all.
-    -- Open bounds (type 2) are unbounded; exclusive bounds are treated as inclusive.
-    local function rangeCovers(range, row, codepoint)
-        if row.low ~= nil then
-            local low = tonumber(row.low_type) == 2 and -math.huge or row.low
-            local high = tonumber(row.high_type) == 2 and math.huge or row.high
-            return low <= codepoint and codepoint <= high, row.read
-        end
-        local ok, inside = pcall(function() return range:Contains(codepoint) end)
-        if ok and type(inside) == "boolean" then
-            return inside, "contains"
-        end
-        return nil, nil
-    end
-
-    local function describe(ok, value)
-        local row = { ok = ok, type = type(value) }
-        if value ~= nil then row.value = clip(tostring(value), 120) end
-        return row
-    end
-
-    local function sortedKeys(map, limit)
-        local keys = {}
-        for key in pairs(map) do keys[#keys + 1] = tostring(key) end
-        table.sort(keys)
-        while #keys > limit do keys[#keys] = nil end
-        return array(keys)
-    end
-
-    -- TASK-007: how slua exposes FInt32Range. Read-only calls on the range.
-    local function probeRange(range)
-        local probe = {}
-        pcall(function()
-            local meta = getmetatable(range)
-            probe.meta = type(meta)
-            if type(meta) == "table" then
-                probe.meta_keys = sortedKeys(meta, 40)
-                if rawget(meta, "__name") ~= nil then probe.meta_name = tostring(rawget(meta, "__name")) end
-                local index = rawget(meta, "__index")
-                probe.index = type(index)
-                if type(index) == "table" then probe.index_keys = sortedKeys(index, 60) end
-            end
-        end)
-        probe.GetLowerBoundValue = describe(pcall(function() return range:GetLowerBoundValue() end))
-        probe.GetUpperBoundValue = describe(pcall(function() return range:GetUpperBoundValue() end))
-        probe.IsEmpty = describe(pcall(function() return range:IsEmpty() end))
-        probe.Contains_0410 = describe(pcall(function() return range:Contains(0x0410) end))
-        probe.LowerBound = describe(pcall(function() return range.LowerBound end))
-        probe.LowerBound_Value = describe(pcall(function() return range.LowerBound.Value end))
-        probe.LowerBound_Type = describe(pcall(function() return range.LowerBound.Type end))
-        -- TASK-008: keys of the ".get"/".set" tables; getters are called, setters never.
-        pcall(function()
-            local meta = getmetatable(range)
-            for _, name in ipairs({ ".get", ".set" }) do
-                local map = type(meta) == "table" and rawget(meta, name) or nil
-                local key = name == ".get" and "get_keys" or "set_keys"
-                if type(map) == "table" then
-                    probe[key] = sortedKeys(map, 40)
-                else
-                    probe[key] = type(map)
-                end
-            end
-            local getters = type(meta) == "table" and rawget(meta, ".get") or nil
-            if type(getters) == "table" then
-                for _, name in ipairs({ "LowerBound", "UpperBound" }) do
-                    local getter = rawget(getters, name)
-                    if getter ~= nil then
-                        local ok, bound = pcall(getter, range)
-                        probe["get_" .. name] = describe(ok, bound)
-                        if ok and bound ~= nil then
-                            for _, field in ipairs({ "Type", "Value" }) do
-                                probe["get_" .. name .. "_" .. field] = describe(pcall(function()
-                                    local okField, value = pcall(function() return bound[field] end)
-                                    if okField and value ~= nil then return value end
-                                    return getmetatable(bound)[".get"][field](bound)
-                                end))
-                            end
-                            pcall(function()
-                                local boundMeta = getmetatable(bound)
-                                if type(boundMeta) == "table" and type(rawget(boundMeta, ".get")) == "table" then
-                                    probe["get_" .. name .. "_keys"] = sortedKeys(rawget(boundMeta, ".get"), 20)
-                                end
-                            end)
-                        end
-                    end
-                end
-            end
-            if type(meta) == "table" and type(rawget(meta, "clone")) == "function" then
-                probe.clone = describe(pcall(rawget(meta, "clone"), range))
-            end
-        end)
-        probe.clone_method = describe(pcall(function() return range:clone() end))
-        return probe
-    end
-
-    local function apiResult(row)
-        if type(row) ~= "table" then return "missing" end
-        if not row.ok then return "error" end
-        return row.type .. (row.type ~= "userdata" and row.value ~= nil and ("=" .. row.value) or "")
-    end
-
-    -- import + constructor only: the new struct is read and dropped, never written.
-    local function probeStruct(name, readFields)
-        local okImport, structType = pcall(import, name)
-        if not okImport or structType == nil then return "import=fail" end
-        local okNew, value = pcall(structType)
-        if not okNew or value == nil then return "import=ok ctor=fail" end
-        local result = "import=ok ctor=" .. type(value)
-        if readFields then
-            local okField, low = pcall(function() return value.LowerBound.Value end)
-            result = result .. " LowerBound.Value=" .. (okField and type(low) or "error")
-            local okMethod, lowMethod = pcall(function() return value:GetLowerBoundValue() end)
-            result = result .. " GetLowerBoundValue=" .. (okMethod and type(lowMethod) or "error")
-        end
-        return result
-    end
-
     local function probeCulture()
         local ok, library = pcall(import, "KismetInternationalizationLibrary")
         if not ok or library == nil then
@@ -2058,7 +1882,8 @@ do
         end
     end
 
-    local function probeComposite(path, probeRanges)
+    -- FInt32Range is opaque in slua (TASK-008): character ranges are only counted.
+    local function probeComposite(path)
         local record = { loaded = false }
         local object = nil
         pcall(function() object = slua.loadObject(path) end)
@@ -2081,30 +1906,7 @@ do
                 local row = {}
                 pcall(function() row.cultures = tostring(sub.Cultures) end)
                 pcall(function() row.scaling = tonumber(sub.ScalingFactor) end)
-                pcall(function()
-                    local ranges, reads = {}, {}
-                    local coversCyr, coversLatin, unreadable = false, false, false
-                    for index, range in ipairs(items(sub.CharacterRanges)) do
-                        local rangeRow = readRange(range)
-                        ranges[#ranges + 1] = rangeRow
-                        if index == 1 and probeRanges then
-                            row.range_probe = probeRange(range)
-                            if S.rangeProbe == nil then S.rangeProbe = row.range_probe end
-                        end
-                        local cyr, method = rangeCovers(range, rangeRow, 0x0410)
-                        local latin = rangeCovers(range, rangeRow, 0x0041)
-                        if method == nil then unreadable = true else reads[method] = true end
-                        coversCyr = coversCyr or cyr == true
-                        coversLatin = coversLatin or latin == true
-                    end
-                    row.ranges = array(ranges)
-                    -- nil (absent in JSON) = unknown: nothing covered and some range unreadable.
-                    if coversCyr or not unreadable then row.covers_0410 = coversCyr end
-                    if coversLatin or not unreadable then row.covers_0041 = coversLatin end
-                    local methods = sortedKeys(reads, 4)
-                    if unreadable then methods[#methods + 1] = "none" end
-                    row.range_read = table.concat(methods, "+")
-                end)
+                pcall(function() row.ranges = tonumber(sub.CharacterRanges:Num()) end)
                 pcall(function() row.fonts = readEntries(sub.Typeface.Fonts) end)
                 subs[#subs + 1] = row
             end
@@ -2123,19 +1925,7 @@ do
             kind = okField and type(value) or "error"
         end
         S.api["C7FunctionLibrary.FlushFontCache"] = kind
-        S.api["import(Int32Range)"] = probeStruct("Int32Range", true)
-        S.api["import(CompositeSubFont)"] = probeStruct("CompositeSubFont")
-        S.api["import(TypefaceEntry)"] = probeStruct("TypefaceEntry")
         pcall(probeCulture)
-    end
-
-    -- FInt32Range API summary from the first probed range (Font_Aleo).
-    local function noteRangeApi()
-        local probe = S.rangeProbe
-        S.api["FInt32Range.LowerBound"] = apiResult(probe and probe.LowerBound)
-        S.api["FInt32Range.LowerBound.Value"] = apiResult(probe and probe.LowerBound_Value)
-        S.api["FInt32Range.GetLowerBoundValue"] = apiResult(probe and probe.GetLowerBoundValue)
-        S.api["FInt32Range.Contains"] = apiResult(probe and probe.Contains_0410)
     end
 
     probeCompositeStep = function()
@@ -2144,9 +1934,7 @@ do
         if index == 1 then pcall(probeFontApi) end
         local path = COMPOSITE_PATHS[index]
         local started = nowMs()
-        -- Range probe only for Font_Aleo (first path).
-        local ok, record = pcall(probeComposite, path, index == 1)
-        if index == 1 then pcall(noteRangeApi) end
+        local ok, record = pcall(probeComposite, path)
         track("font", started)
         if not ok then
             noteError("item", record)

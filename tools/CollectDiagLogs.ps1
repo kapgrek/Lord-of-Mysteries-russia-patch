@@ -664,90 +664,54 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('Какой глиф выбрал Slate (fallback), из Lua не видно: сверять cmap экспортированных шрифтов (U+0400–U+04FF) офлайн.')
 [void]$sb.AppendLine('')
 if ($cyrillicFont) {
-    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'sub', 'cultures', 'previous', 'write', 'via', 'verify', 'flush', 'flush2', 'cyr', 'latin', 'source', 'title_face', 'applied_at', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
-    [void]$sb.AppendLine("Кириллица (TASK-006): ``$($parts -join ' ')``.")
+    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'title', 'title_sdf', 'title_sdf_headname', 'source', 'previous', 'write', 'via', 'verify', 'flush', 'applied_at', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
+    [void]$sb.AppendLine("Кириллица (TASK-006, TASK-010): ``$($parts -join ' ')``.")
     [void]$sb.AppendLine('')
 }
-function Format-Range($r) {
-    $low = Get-V $r 'low'; $high = Get-V $r 'high'
-    if ($null -eq $low) { return "$(Get-V $r 'raw') ($(Get-V $r 'type'))" }
-    return ('U+{0:X4}–U+{1:X4} ({2}/{3})' -f [int]$low, [int]$high, (Get-V $r 'low_type'), (Get-V $r 'high_type'))
+# Число диапазонов SubTypeface. Сессии до v2.9.6 писали массив диапазонов, новые — число.
+function Format-RangeCount($value) {
+    if ($null -eq $value) { return '' }
+    if ($value -is [System.Collections.IEnumerable] -and $value -isnot [string]) { return "ranges=$(@($value).Count)" }
+    return "ranges=$value"
 }
 [void]$sb.AppendLine("## composite ($($composite.Count))")
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('Структура `UFont.CompositeFont` (проба `AbsruDiagnostics`, только чтение). Диапазоны: границы и тип (0 — Exclusive, 1 — Inclusive, 2 — Open). В режиме `subfont` здесь видна и наша запись U+0400–U+045F.')
-[void]$sb.AppendLine('«А / A» — покрывает ли SubTypeface U+0410 (кириллическая А) и U+0041 (латинская A): `да` / `нет` / `?` (диапазоны не прочитаны). «чтение» — способ чтения диапазона: `field` (`LowerBound.Value`), `method` (`GetLowerBoundValue()`), `get` (геттеры из таблицы `.get` метатаблицы), `contains` (`Contains()`), `none`.')
+[void]$sb.AppendLine('Структура `UFont.CompositeFont` (проба `AbsruDiagnostics`, только чтение). `FInt32Range` в slua непрозрачен (TASK-008), поэтому у SubTypeface выводится только число диапазонов и культуры.')
 [void]$sb.AppendLine('')
-function Format-Covers($value) {
-    if ($null -eq $value) { return '?' }
-    if ($value -eq $true) { return 'да' }
-    return 'нет'
-}
-[void]$sb.AppendLine('| шрифт | часть | typeface | face | диапазоны / культуры | А / A | чтение | масштаб | loading / hinting |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
+[void]$sb.AppendLine('| шрифт | часть | typeface | face | диапазоны / культуры | масштаб | loading / hinting |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|')
 foreach ($p in $composite.Keys) {
     $rec = $composite[$p]
     $fontName = ($p -split '[/.]')[-1]
     if (-not (Get-V $rec 'loaded')) {
-        [void]$sb.AppendLine("| $(Cell $fontName) | — | — | не загружен $(Cell (Get-V $rec 'error')) | | | | | |")
+        [void]$sb.AppendLine("| $(Cell $fontName) | — | — | не загружен $(Cell (Get-V $rec 'error')) | | | |")
         continue
     }
     $parts = New-Object System.Collections.Generic.List[object]
-    $parts.Add(@('default', @(Get-V $rec 'default'), '', '', '', ''))
+    $parts.Add(@('default', @(Get-V $rec 'default'), '', ''))
     $fb = Get-V $rec 'fallback'
-    if ($fb) { $parts.Add(@('fallback', @(Get-V $fb 'fonts'), '', (Get-V $fb 'scaling'), '', '')) }
+    if ($fb) { $parts.Add(@('fallback', @(Get-V $fb 'fonts'), '', (Get-V $fb 'scaling'))) }
     $i = 0
     foreach ($sub in @(Get-V $rec 'subs')) {
         if ($null -eq $sub) { continue }
-        $ranges = @(@(Get-V $sub 'ranges') | Where-Object { $null -ne $_ } | ForEach-Object { Format-Range $_ }) -join ', '
+        $ranges = Format-RangeCount (Get-V $sub 'ranges')
         $cult = Get-V $sub 'cultures'
         if ($cult) { $ranges = "$ranges; $cult" }
-        $covers = "$(Format-Covers (Get-V $sub 'covers_0410')) / $(Format-Covers (Get-V $sub 'covers_0041'))"
-        $parts.Add(@("sub#$i", @(Get-V $sub 'fonts'), $ranges, (Get-V $sub 'scaling'), $covers, (Get-V $sub 'range_read')))
+        $parts.Add(@("sub#$i", @(Get-V $sub 'fonts'), $ranges, (Get-V $sub 'scaling')))
         $i++
     }
-    if (Get-V $rec 'error') { [void]$sb.AppendLine("| $(Cell $fontName) | ошибка | | $(Cell (Get-V $rec 'error')) | | | | | |") }
+    if (Get-V $rec 'error') { [void]$sb.AppendLine("| $(Cell $fontName) | ошибка | | $(Cell (Get-V $rec 'error')) | | | |") }
     foreach ($part in $parts) {
         $entries = @($part[1] | Where-Object { $null -ne $_ })
         if ($entries.Count -eq 0) {
-            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | — | — | $(Cell $part[2]) | $(Cell $part[4]) | $(Cell $part[5]) | $(Cell $part[3]) | |")
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | — | — | $(Cell $part[2]) | $(Cell $part[3]) | |")
         }
         foreach ($e in $entries) {
-            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | $(Cell (Get-V $e 'name')) | $(Cell (Get-V $e 'face')) | $(Cell $part[2]) | $(Cell $part[4]) | $(Cell $part[5]) | $(Cell $part[3]) | $(Cell (Get-V $e 'loading')) / $(Cell (Get-V $e 'hinting')) |")
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | $(Cell (Get-V $e 'name')) | $(Cell (Get-V $e 'face')) | $(Cell $part[2]) | $(Cell $part[3]) | $(Cell (Get-V $e 'loading')) / $(Cell (Get-V $e 'hinting')) |")
         }
     }
 }
 [void]$sb.AppendLine('')
-# Проба FInt32Range (TASK-007): первый диапазон каждого SubTypeface Font_Aleo.
-$probeRows = New-Object System.Collections.Generic.List[string]
-foreach ($p in $composite.Keys) {
-    $i = 0
-    foreach ($sub in @(Get-V $composite[$p] 'subs')) {
-        if ($null -eq $sub) { continue }
-        $probe = Get-V $sub 'range_probe'
-        if ($probe) {
-            $face = @(@(Get-V $sub 'fonts') | Where-Object { $null -ne $_ } | ForEach-Object { (([string](Get-V $_ 'face')) -split '[/.]')[-1] } | Select-Object -Unique) -join ', '
-            $calls = @('GetLowerBoundValue', 'GetUpperBoundValue', 'IsEmpty', 'Contains_0410', 'LowerBound', 'LowerBound_Value', 'LowerBound_Type',
-                'get_LowerBound', 'get_LowerBound_Type', 'get_LowerBound_Value', 'get_UpperBound', 'get_UpperBound_Type', 'get_UpperBound_Value', 'clone', 'clone_method' | ForEach-Object {
-                $r = Get-V $probe $_
-                if ($r) { "$_=$(if ((Get-V $r 'ok') -eq $true) { 'ok' } else { 'err' }):$(Get-V $r 'type'):$(Get-V $r 'value')" }
-            }) -join '; '
-            $meta = "meta=$(Get-V $probe 'meta') name=$(Get-V $probe 'meta_name') index=$(Get-V $probe 'index') meta_keys=[$(@(Get-V $probe 'meta_keys') -join ',')] index_keys=[$(@(Get-V $probe 'index_keys') -join ',')] .get=[$(@(Get-V $probe 'get_keys') -join ',')] .set=[$(@(Get-V $probe 'set_keys') -join ',')] LowerBound.get=[$(@(Get-V $probe 'get_LowerBound_keys') -join ',')]"
-            $probeRows.Add("| $(Cell (($p -split '[/.]')[-1])) | sub#$i | $(Cell $face) | $(Cell $meta) | $(Cell $calls) |")
-        }
-        $i++
-    }
-}
-if ($probeRows.Count -gt 0) {
-    [void]$sb.AppendLine("### Проба FInt32Range ($($probeRows.Count))")
-    [void]$sb.AppendLine('')
-    [void]$sb.AppendLine('Первый диапазон каждого SubTypeface `Font_Aleo`: метатаблица и результат каждого вызова (`ok`/`err`:тип:значение). Итог по API — в `REPORT.md → API` (`FInt32Range.*`, `import(...)`, `culture.*`).')
-    [void]$sb.AppendLine('')
-    [void]$sb.AppendLine('| шрифт | часть | face | метатаблица | вызовы |')
-    [void]$sb.AppendLine('|---|---|---|---|---|')
-    foreach ($line in $probeRows) { [void]$sb.AppendLine($line) }
-    [void]$sb.AppendLine('')
-}
 $titleRows = @($titleCyr.Values | Sort-Object { -($_.count) })
 [void]$sb.AppendLine("## Title с кириллицей ($($titleRows.Count))")
 [void]$sb.AppendLine('')

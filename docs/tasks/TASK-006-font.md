@@ -1,6 +1,7 @@
 # TASK-006: шрифт — пропорциональная кириллица в Font_Aleo (этап 4)
 
 Статус: **шаги 1–6 исполнены** 2026-09-25 (v2.9.2-RU, релизный режим `"typeface"`), **ждут проверки в игре** по разделу «Проверка». Шаг 7 записан в [ROADMAP.md](ROADMAP.md) (этап 4b). Релиз не опубликован.
+- **Итог (TASK-010, v2.9.6):** режим `subfont` так и не заработал (`FInt32Range` в slua непрозрачен, TASK-008) и удалён вместе с `CyrillicFaceCandidates`. Пропорциональную кириллицу даёт режим `face` (замена face у `Title`, `Title_SDF`, `Title_SDF_HeadName`), с v2.9.6 он включён по умолчанию; `typeface` — откат.
 
 Дорожная карта: [ROADMAP.md](ROADMAP.md), этап 4. Данные: `reference/logs/2026-09-25_0312/` (v2.9.1-RU, сессия 20260925-024310, 30 мин). Шрифты: `reference/fonts/loose/` (+ `cmap_report.txt`), сканер cmap: `reference/tools/FontScan.cs` / `.exe`.
 
