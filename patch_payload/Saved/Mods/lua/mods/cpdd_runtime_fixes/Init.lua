@@ -3662,8 +3662,9 @@ end
 -- text and size unchanged since the last fit are never measured again. A widget
 -- without layout yet (zero geometry) is measured later in timer ticks of at most
 -- 2 ms. RichText has no font of its own and is never touched.
--- absoluteru_dev.lua TextFit = "legacy" restores the v2.9.6 length thresholds
--- (authored + 2, > 14 / > 10 / > 6 characters, wrapping off) for comparison.
+-- The default is "legacy": the v2.9.6 length thresholds (authored + 2,
+-- > 14 / > 10 / > 6 characters, wrapping off); absoluteru_dev.lua
+-- TextFit = "measure" turns on the fit described above (TASK-013).
 runtimeFixes.TextFit = {}
 do
     -- "legacy" by default: "measure" (v2.9.7) made layouts worse (TASK-013).
