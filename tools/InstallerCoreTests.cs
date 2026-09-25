@@ -60,7 +60,7 @@ public static class InstallerCoreTests
         Run("uninstall: tampered backup -> pak untouched", UninstallTamperedBackup);
         Run("uninstall: unknown block -> pak untouched", UninstallUnknownBlock);
         Run("legacy Saved/Mods/Backup is migrated", LegacyBackupMigrated);
-        Run("toggle RU -> EN -> RU", ToggleLanguage);
+        Run("old toggle state (.disabled): install repairs the start", RepairDisabledStart);
         Run("BakedText: container_size mismatch is skipped", BakedTextSizeMismatch);
         Run("unsafe paths in installed_files.json are ignored", UnsafeInstalledList);
 
@@ -320,27 +320,33 @@ public static class InstallerCoreTests
         Assert(InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak), "pak restored from migrated backup");
     }
 
-    static void ToggleLanguage()
+    // State left by the old RU->EN toggle (the game did not start): .disabled bridge + RussianLocalization = false.
+    static void RepairDisabledStart()
     {
-        var f = NewFixture("toggle");
+        var f = NewFixture("repair-disabled");
         string reason;
         Assert(f.Core().Install(f.PayloadDir, out reason), "install: " + reason);
+        string bridge = f.G(InstallerCore.BridgeRel);
+        File.Move(bridge, bridge + ".disabled");
+        string boot = File.ReadAllText(f.G(InstallerCore.BootstrapRel)).Replace("RussianLocalization = true", "RussianLocalization = false").Replace("Language = \"ru\"", "Language = \"en\"");
+        WriteText(f.G(InstallerCore.BootstrapRel), boot);
         var core = f.Core();
-        Assert(core.ToggleLanguage(), "toggle to EN");
-        Assert(core.InspectStatus() == GamePatchStatus.InstalledDisabled, "status InstalledDisabled");
-        Assert(!File.Exists(f.G(InstallerCore.BridgeRel)) && File.Exists(f.G(InstallerCore.BridgeRel) + ".disabled"), "bridge renamed to .disabled");
-        string boot = File.ReadAllText(f.G(InstallerCore.BootstrapRel));
-        Assert(boot.Contains("RussianLocalization = false") && boot.Contains("Language = \"en\""), "bootstrap switched to en");
-        Assert(core.ToggleLanguage(), "toggle back to RU");
-        Assert(core.InspectStatus() == GamePatchStatus.InstalledActive, "status InstalledActive");
-        boot = File.ReadAllText(f.G(InstallerCore.BootstrapRel));
-        Assert(boot.Contains("RussianLocalization = true") && boot.Contains("Language = \"ru\""), "bootstrap switched to ru");
-        Assert(!File.Exists(f.G(InstallerCore.BridgeRel) + ".disabled"), "no .disabled left");
+        Assert(core.InspectStatus() == GamePatchStatus.InstalledDisabled, "old toggle state = InstalledDisabled");
 
-        // Disabled + uninstall must remove the .disabled bridge as well.
-        Assert(core.ToggleLanguage(), "toggle to EN again");
+        string pakBefore = InstallerCore.FileSha256(f.PakPath);
+        DateTime mtime = new DateTime(2020, 1, 1);
+        File.SetLastWriteTimeUtc(f.PakPath, mtime);
+        Assert(core.Install(f.PayloadDir, out reason), "repair = normal install: " + reason);
+        Assert(File.Exists(bridge) && !File.Exists(bridge + ".disabled"), "CPDDTranslation.lua back, .disabled removed");
+        Assert(File.ReadAllText(f.G(InstallerCore.BootstrapRel)).Contains("RussianLocalization = true"), "bootstrap.lua from the payload");
+        Assert(core.InspectStatus() == GamePatchStatus.InstalledActive, "status InstalledActive");
+        Assert(InstallerCore.FileSha256(f.PakPath) == pakBefore && File.GetLastWriteTimeUtc(f.PakPath) == mtime, "pakchunk0 not written");
+        AssertForeignFilesIntact(f);
+
+        // Uninstall from the broken state removes the .disabled bridge as well.
+        File.Move(bridge, bridge + ".disabled");
         Assert(core.Uninstall(f.PayloadDir), "uninstall while disabled");
-        Assert(!File.Exists(f.G(InstallerCore.BridgeRel) + ".disabled"), ".disabled bridge removed");
+        Assert(!File.Exists(bridge + ".disabled"), ".disabled bridge removed");
     }
 
     static void BakedTextSizeMismatch()

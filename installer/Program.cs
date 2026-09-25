@@ -74,7 +74,6 @@ namespace LotmRussianPatcher
                 Console.WriteLine("  --diagnose <путь_к_игре>    Диагностика директории игры");
                 Console.WriteLine("  --install <путь_к_игре>     Установка патча в тихом режиме");
                 Console.WriteLine("  --uninstall <путь_к_игре>   Удаление патча и откат к оригиналу");
-                Console.WriteLine("  --toggle <путь_к_игре>      Переключение языка (Русский <-> English)");
                 Console.WriteLine("  --download-payload          Скачивание актуального архива патча с GitHub");
                 return 0;
             }
@@ -138,12 +137,6 @@ namespace LotmRussianPatcher
                 return PatcherBackend.RunCliUninstall(path) ? 0 : 1;
             }
 
-            if (cmd == "--toggle")
-            {
-                string path = args.Length > 1 ? args[1] : "";
-                return PatcherBackend.RunCliToggle(path) ? 0 : 1;
-            }
-
             // По умолчанию - считаем аргумент путем к игре для установки
             return PatcherBackend.RunCliInstall(args[0]) ? 0 : 1;
         }
@@ -155,7 +148,6 @@ namespace LotmRussianPatcher
         private Button btnBrowse;
         private Button btnAutoDetect;
         private Button btnInstall;
-        private Button btnToggleLang;
         private Button btnRestore;
         private Button btnCancel;
         private Label lblStatus;
@@ -334,20 +326,6 @@ namespace LotmRussianPatcher
             btnInstall.Click += BtnInstall_Click;
             this.Controls.Add(btnInstall);
 
-            btnToggleLang = new Button
-            {
-                Text = "🔄 Переключить язык",
-                Location = new Point(250, 222),
-                Size = new Size(215, 42),
-                BackColor = Color.FromArgb(45, 52, 65),
-                ForeColor = Color.White,
-                Font = new Font("Segoe UI", 9.5f, FontStyle.Regular),
-                FlatStyle = FlatStyle.Flat
-            };
-            btnToggleLang.FlatAppearance.BorderColor = Color.FromArgb(70, 80, 98);
-            btnToggleLang.Click += BtnToggleLang_Click;
-            this.Controls.Add(btnToggleLang);
-
             btnRestore = new Button
             {
                 Text = "↩ Исходный (Откат)",
@@ -469,7 +447,6 @@ namespace LotmRussianPatcher
                 lblStatus.Text = "Статус: Укажите корректную папку игры (Game\\C7 или корень игры)";
                 lblStatus.ForeColor = Color.OrangeRed;
                 btnInstall.Enabled = false;
-                btnToggleLang.Enabled = false;
                 btnRestore.Enabled = false;
                 return;
             }
@@ -481,23 +458,18 @@ namespace LotmRussianPatcher
             {
                 lblStatus.Text = "Статус: Русификатор УСТАНОВЛЕН и АКТИВЕН (Русский язык)";
                 lblStatus.ForeColor = Color.LightGreen;
-                btnToggleLang.Text = "🔄 Переключить на English";
-                btnToggleLang.Enabled = true;
                 btnRestore.Enabled = true;
             }
             else if (status == GamePatchStatus.InstalledDisabled)
             {
-                lblStatus.Text = "Статус: Русификатор установлен, но ОТКЛЮЧЕН (English)";
+                lblStatus.Text = "Статус: НУЖНО ВОССТАНОВИТЬ ЗАПУСК (нажмите «Установить»)";
                 lblStatus.ForeColor = Color.Gold;
-                btnToggleLang.Text = "🔄 Включить Русский язык";
-                btnToggleLang.Enabled = true;
                 btnRestore.Enabled = true;
             }
             else
             {
                 lblStatus.Text = "Статус: Игра обнаружена, готова к установке русской локализации";
                 lblStatus.ForeColor = Color.White;
-                btnToggleLang.Enabled = false;
                 btnRestore.Enabled = false;
             }
         }
@@ -561,7 +533,6 @@ namespace LotmRussianPatcher
             // Блокировка UI
             isOperationRunning = true;
             btnInstall.Enabled = false;
-            btnToggleLang.Enabled = false;
             btnRestore.Enabled = false;
             btnBrowse.Enabled = false;
             btnAutoDetect.Enabled = false;
@@ -619,34 +590,6 @@ namespace LotmRussianPatcher
             }
         }
 
-        private async void BtnToggleLang_Click(object sender, EventArgs e)
-        {
-            string gamePath = txtGamePath.Text.Trim();
-            if (!PatcherBackend.IsValidGameFolder(gamePath)) return;
-
-            if (PatcherBackend.IsGameRunning())
-            {
-                MessageBox.Show("Закройте игру перед переключением языка!", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-
-            btnInstall.Enabled = false;
-            btnToggleLang.Enabled = false;
-            btnRestore.Enabled = false;
-
-            bool ok = await Task.Run(() => PatcherBackend.ToggleLanguage(gamePath, Log));
-
-            btnInstall.Enabled = true;
-            CheckCurrentStatus();
-
-            if (ok)
-            {
-                var status = PatcherBackend.InspectGameStatus(gamePath);
-                string currentLang = (status == GamePatchStatus.InstalledActive) ? "РУССКИЙ" : "АНГЛИЙСКИЙ (English)";
-                MessageBox.Show("Язык игры успешно переключен на: " + currentLang, "Переключение языка", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-        }
-
         private async void BtnRestore_Click(object sender, EventArgs e)
         {
             string gamePath = txtGamePath.Text.Trim();
@@ -668,7 +611,6 @@ namespace LotmRussianPatcher
 
             isOperationRunning = true;
             btnInstall.Enabled = false;
-            btnToggleLang.Enabled = false;
             btnRestore.Enabled = false;
             progressBar.Visible = true;
             progressBar.Style = ProgressBarStyle.Marquee;
@@ -1267,20 +1209,6 @@ namespace LotmRussianPatcher
             return new InstallerCore(gameDir, game, log);
         }
 
-        public static bool ToggleLanguage(string gameDir, Action<string> log)
-        {
-            try
-            {
-                InstallerCore core = CoreForInstalledGame(gameDir, null, log);
-                return core != null && core.ToggleLanguage();
-            }
-            catch (Exception ex)
-            {
-                log("ОШИБКА переключения языка: " + ex.Message);
-                return false;
-            }
-        }
-
         // Removes only the patch's own files (installed_files.json); cpdd_*settings.lua, DPS history and other mods stay.
         public static bool Uninstall(string gameDir, Action<string> log)
         {
@@ -1370,17 +1298,6 @@ namespace LotmRussianPatcher
                 return false;
             }
             return Uninstall(norm, Console.WriteLine);
-        }
-
-        public static bool RunCliToggle(string path)
-        {
-            string norm = NormalizeGameDir(path);
-            if (!IsValidGameFolder(norm))
-            {
-                Console.WriteLine("ОШИБКА: Неверная папка игры: " + path);
-                return false;
-            }
-            return ToggleLanguage(norm, Console.WriteLine);
         }
     }
 

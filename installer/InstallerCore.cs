@@ -146,7 +146,9 @@ namespace LotmRussianPatcher
         }
     }
 
-    // Install / update / uninstall / language toggle for one game folder. Knows nothing about UI or downloads.
+    // Install / update / uninstall for one game folder. Knows nothing about UI or downloads.
+    // InstalledDisabled (CPDDTranslation.lua.disabled left by the old RU<->EN toggle) breaks the game start;
+    // a normal Install repairs it.
     public class InstallerCore
     {
         public const string BackupDirRel = @"Saved\RussianPatchBackups";
@@ -489,51 +491,6 @@ namespace LotmRussianPatcher
             }
             log("  -> Оригинальный блок pakchunk0 восстановлен.");
             return true;
-        }
-
-        // ------------------------------------------------------------ language toggle
-
-        public bool ToggleLanguage()
-        {
-            GamePatchStatus status = InspectStatus();
-            string bridge = Game(BridgeRel);
-            string bridgeDisabled = bridge + ".disabled";
-            string bootstrap = Game(BootstrapRel);
-
-            if (status == GamePatchStatus.InstalledActive)
-            {
-                if (File.Exists(bridge))
-                {
-                    DeleteFile(bridgeDisabled);
-                    File.Move(bridge, bridgeDisabled);
-                }
-                ReplaceInFile(bootstrap, "RussianLocalization = true", "RussianLocalization = false", "Language = \"ru\"", "Language = \"en\"");
-                log("✔ Русификатор ОТКЛЮЧЕН. Игра запустится в оригинальном режиме (English).");
-                return true;
-            }
-            if (status == GamePatchStatus.InstalledDisabled)
-            {
-                if (File.Exists(bridgeDisabled))
-                {
-                    DeleteFile(bridge);
-                    File.Move(bridgeDisabled, bridge);
-                }
-                ReplaceInFile(bootstrap, "RussianLocalization = false", "RussianLocalization = true", "Language = \"en\"", "Language = \"ru\"");
-                log("✔ Русификатор ВКЛЮЧЕН. Игра запустится на русском языке.");
-                return true;
-            }
-            log("Невозможно переключить язык: русификатор не установлен в этой папке.");
-            return false;
-        }
-
-        private static void ReplaceInFile(string path, params string[] pairs)
-        {
-            if (!File.Exists(path)) return;
-            byte[] raw = File.ReadAllBytes(path);
-            bool bom = raw.Length >= 3 && raw[0] == 0xEF && raw[1] == 0xBB && raw[2] == 0xBF;
-            string text = new UTF8Encoding(false).GetString(raw, bom ? 3 : 0, raw.Length - (bom ? 3 : 0));
-            for (int i = 0; i + 1 < pairs.Length; i += 2) text = text.Replace(pairs[i], pairs[i + 1]);
-            File.WriteAllText(path, text, new UTF8Encoding(bom));
         }
 
         // ------------------------------------------------------------ owned files
