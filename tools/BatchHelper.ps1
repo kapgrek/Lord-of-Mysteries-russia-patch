@@ -2,7 +2,8 @@
 param(
     [ValidateSet('Export', 'Import', 'Stats', 'Dashboard')]
     [string]$Action = 'Dashboard',
-    [int]$Batch = 0,               # 0 = All batches (Dashboard), or 1..27
+    [int]$Batch = 0,               # 0 = All batches (Dashboard), or N -> batch_NNN*.json
+    [string]$BatchFile = '',       # Batch by file name, e.g. batch_031_autochess_stringdb.json
     [int]$Count = 100,             # Chunk size (strings per chunk)
     [int]$Skip = 0,                # Number of untranslated strings to skip
     [string]$InputFile = '',       # Custom path to translated JSON
@@ -14,6 +15,24 @@ $ErrorActionPreference = 'Stop'
 $batchesDir = Join-Path $PSScriptRoot "..\source\translation_batches"
 $docsDir = Join-Path $PSScriptRoot "..\docs"
 $tempDir = Join-Path $PSScriptRoot "..\temp"
+$utf8NoBom = New-Object System.Text.UTF8Encoding($false)   # batches: UTF-8 without BOM, LF (AGENTS.md section 5)
+
+# -BatchFile <name> or -Batch N (batch_NNN*.json, so batch_028_autochess.json is found by -Batch 28)
+function Resolve-BatchFile {
+    if (-not [string]::IsNullOrEmpty($BatchFile)) {
+        $path = Join-Path $batchesDir ([System.IO.Path]::GetFileName($BatchFile))
+        if (-not (Test-Path $path)) { throw "Batch file $path not found!" }
+        return (Resolve-Path $path).Path
+    }
+    if ($Batch -le 0) { throw "Specify -Batch N or -BatchFile batch_NNN_*.json" }
+    $found = @(Get-ChildItem -Path $batchesDir -Filter ("batch_{0:D3}*.json" -f $Batch))
+    if ($found.Count -eq 0) { throw ("No batch_{0:D3}*.json in $batchesDir" -f $Batch) }
+    if ($found.Count -gt 1) { throw "Several files match -Batch ${Batch}: $($found.Name -join ', '). Use -BatchFile." }
+    return $found[0].FullName
+}
+function Read-BatchText([string]$path) {
+    return [System.IO.File]::ReadAllText($path, [System.Text.Encoding]::UTF8).TrimStart([char]0xFEFF).Replace("`r`n", "`n")
+}
 
 # Safe Russian string helpers for manifest synchronization
 $ruWaiting = [System.Text.Encoding]::UTF8.GetString([byte[]]@(0xD0,0x9E,0xD0,0xB6,0xD0,0xB8,0xD0,0xB4,0xD0,0xB0,0xD0,0xB5,0xD1,0x82,0x20,0xD0,0xBF,0xD0,0xB5,0xD1,0x80,0xD0,0xB5,0xD0,0xB2,0xD0,0xBE,0xD0,0xB4,0xD0,0xB0))
@@ -40,7 +59,7 @@ function Get-StringContext([string]$cn, [string]$en) {
 }
 
 # Function to load AI prompt instructions
-function Get-TaskPrompt([int]$batchNum, [int]$count, [int]$skip) {
+function Get-TaskPrompt([string]$batchName, [int]$count, [int]$skip) {
     $promptFile = Join-Path $docsDir "AI_TRANSLATOR_PROMPT.md"
     $basePrompt = ""
     if (Test-Path $promptFile) {
@@ -56,16 +75,15 @@ function Get-TaskPrompt([int]$batchNum, [int]$count, [int]$skip) {
     $sb = [System.Text.StringBuilder]::new()
     $sb.AppendLine($basePrompt) | Out-Null
     $sb.AppendLine("`n=======================================================") | Out-Null
-    $batchStr = "{0:D3}" -f $batchNum
-    $sb.AppendLine("### CURRENT TRANSLATION TASK (Batch $batchStr, chunk: $count strings, skip offset: $skip):") | Out-Null
+    $sb.AppendLine("### CURRENT TRANSLATION TASK ($batchName, chunk: $count strings, skip offset: $skip):") | Out-Null
     $sb.AppendLine("Translate the strings in the array below. Return ONLY a JSON dictionary: { `"ID`": `"Russian translation`" }:") | Out-Null
     return $sb.ToString()
 }
 
 # 1. ACTION: STATS / DASHBOARD
 if ($Action -eq 'Stats' -or $Action -eq 'Dashboard') {
-    if ($Batch -eq 0) {
-        # Comprehensive Dashboard across all 27 batches
+    if ($Batch -eq 0 -and [string]::IsNullOrEmpty($BatchFile)) {
+        # Comprehensive Dashboard across all batches
         Write-Host "==========================================================================================" -ForegroundColor Cyan
         Write-Host "           Lord of the Mysteries (v2.6-RU) - Translation Progress Dashboard" -ForegroundColor Cyan
         Write-Host "==========================================================================================" -ForegroundColor Cyan
@@ -79,8 +97,8 @@ if ($Action -eq 'Stats' -or $Action -eq 'Dashboard') {
         $manifestLines = [System.Collections.Generic.List[string]]::new()
 
         foreach ($f in $batchFiles) {
-            $num = $f.BaseName.Substring(6)
-            $text = [System.IO.File]::ReadAllText($f.FullName, [System.Text.Encoding]::UTF8)
+            $num = $f.BaseName.Substring(6)   # "028_autochess" for named batches
+            $text = Read-BatchText $f.FullName
             $matches = [System.Text.RegularExpressions.Regex]::Matches($text, $pattern)
             $count = $matches.Count
             $done = 0
@@ -95,8 +113,10 @@ if ($Action -eq 'Stats' -or $Action -eq 'Dashboard') {
 
             Write-Host (" Batch {0,-4} {1,-18} {2,10:N0} {3,12:N0} {4,10:N0} {5,9:N1}%  {6,-14}" -f $num, $f.Name, $count, $done, ($count - $done), $pct, $status) -ForegroundColor $color
 
-            $start = [int]$num * 5000 - 4999
-            $end = $start + $count - 1
+            # Real id range of the file (named batches do not follow the 5000-per-batch numbering)
+            $ids = @([System.Text.RegularExpressions.Regex]::Matches($text, '"id"\s*:\s*"(\d+)"') | ForEach-Object { [int]$_.Groups[1].Value })
+            $start = if ($ids.Count) { ($ids | Measure-Object -Minimum).Minimum } else { 0 }
+            $end = if ($ids.Count) { ($ids | Measure-Object -Maximum).Maximum } else { 0 }
             $manifestStatus = if ($done -eq 0) { $ruWaiting } elseif ($done -eq $count) { $ruDone } else { "$ruProg ($pct`%)" }
             $manifestLines.Add(("| $ruBatch {0} | ``{1}`` | {2} - {3} | {4} |" -f $num, $f.Name, $start, $end, $manifestStatus))
         }
@@ -111,24 +131,19 @@ if ($Action -eq 'Stats' -or $Action -eq 'Dashboard') {
         $manifestSb = [System.Text.StringBuilder]::new()
         $manifestSb.AppendLine("# Manifest (Lord of the Mysteries v2.6-RU)") | Out-Null
         $manifestSb.AppendLine("`nTotal strings: **$totalStrings** (translated: **$totalDone**, **$totalPct%**)") | Out-Null
-        $manifestSb.AppendLine("Batch size: **5000**") | Out-Null
+        $manifestSb.AppendLine("Batch size: **5000** (batch_001-027); named batches batch_028+ vary") | Out-Null
         $manifestSb.AppendLine("Batch count: **$($batchFiles.Count)**`n") | Out-Null
         $manifestSb.AppendLine("| Batch | File | Range | Status |") | Out-Null
         $manifestSb.AppendLine("|---|---|---|---|") | Out-Null
         foreach ($ml in $manifestLines) { $manifestSb.AppendLine($ml) | Out-Null }
-        [System.IO.File]::WriteAllText($manifestPath, $manifestSb.ToString(), [System.Text.Encoding]::UTF8)
+        [System.IO.File]::WriteAllText($manifestPath, $manifestSb.ToString().Replace("`r`n", "`n"), $utf8NoBom)
         Write-Host "[OK] BATCH_MANIFEST.md successfully synchronized with live progress." -ForegroundColor Green
         exit 0
     } else {
         # Statistics for single batch
-        $batchNumStr = $Batch.ToString("D3")
-        $batchFile = Join-Path $batchesDir "batch_$batchNumStr.json"
-        if (-not (Test-Path $batchFile)) {
-            Write-Error "Batch file $batchFile not found!"
-            exit 1
-        }
-        Write-Host "=== Statistics for Batch $batchNumStr ===" -ForegroundColor Cyan
-        $text = [System.IO.File]::ReadAllText($batchFile, [System.Text.Encoding]::UTF8)
+        $batchPath = Resolve-BatchFile
+        Write-Host "=== Statistics for $([System.IO.Path]::GetFileName($batchPath)) ===" -ForegroundColor Cyan
+        $text = Read-BatchText $batchPath
         $pattern = '"target_ru"\s*:\s*"(?<ru>(?:\\.|[^"\\])*)"'
         $matches = [System.Text.RegularExpressions.Regex]::Matches($text, $pattern)
         $total = $matches.Count
@@ -146,19 +161,11 @@ if ($Action -eq 'Stats' -or $Action -eq 'Dashboard') {
 
 # 2. ACTION: EXPORT CHUNK
 if ($Action -eq 'Export') {
-    if ($Batch -le 0) {
-        Write-Error "Please specify a batch number: -Batch 1..27"
-        exit 1
-    }
-    $batchNumStr = $Batch.ToString("D3")
-    $batchFile = Join-Path $batchesDir "batch_$batchNumStr.json"
-    if (-not (Test-Path $batchFile)) {
-        Write-Error "Batch file $batchFile not found!"
-        exit 1
-    }
+    $batchPath = Resolve-BatchFile
+    $batchName = [System.IO.Path]::GetFileName($batchPath)
 
-    Write-Host "=== Exporting chunk ($Count strings, skip $Skip) from batch $batchNumStr ===" -ForegroundColor Cyan
-    $text = [System.IO.File]::ReadAllText($batchFile, [System.Text.Encoding]::UTF8)
+    Write-Host "=== Exporting chunk ($Count strings, skip $Skip) from $batchName ===" -ForegroundColor Cyan
+    $text = Read-BatchText $batchPath
     $itemRegex = [System.Text.RegularExpressions.Regex]::new(
         '\{\s*"id"\s*:\s*"(?<id>[^"]+)"\s*,\s*"source_cn"\s*:\s*"(?<cn>(?:\\.|[^"\\])*)"\s*,\s*"ref_en"\s*:\s*"(?<en>(?:\\.|[^"\\])*)"\s*,\s*"target_ru"\s*:\s*"(?<ru>(?:\\.|[^"\\])*)"\s*\}',
         [System.Text.RegularExpressions.RegexOptions]::Compiled
@@ -194,7 +201,7 @@ if ($Action -eq 'Export') {
     }
 
     if ($chunk.Count -eq 0) {
-        Write-Host "No remaining untranslated strings found in batch $batchNumStr with skip $Skip!" -ForegroundColor Yellow
+        Write-Host "No remaining untranslated strings found in $batchName with skip $Skip!" -ForegroundColor Yellow
         exit 0
     }
 
@@ -207,7 +214,7 @@ if ($Action -eq 'Export') {
 
     $finalExportText = $outJson
     if ($IncludePrompt) {
-        $promptHeader = Get-TaskPrompt -batchNum $Batch -count $chunk.Count -skip $Skip
+        $promptHeader = Get-TaskPrompt -batchName $batchName -count $chunk.Count -skip $Skip
         $finalExportText = $promptHeader + "`n" + $outJson
     }
 
@@ -216,7 +223,7 @@ if ($Action -eq 'Export') {
     }
 
     $targetFile = if (-not [string]::IsNullOrEmpty($OutputFile)) { $OutputFile } else { Join-Path $tempDir "temp_chunk.json" }
-    [System.IO.File]::WriteAllText($targetFile, $finalExportText, [System.Text.Encoding]::UTF8)
+    [System.IO.File]::WriteAllText($targetFile, $finalExportText.Replace("`r`n", "`n"), $utf8NoBom)
     Write-Host "Exported $($chunk.Count) strings to $targetFile" -ForegroundColor Green
 
     exit 0
@@ -224,18 +231,9 @@ if ($Action -eq 'Export') {
 
 # 3. ACTION: IMPORT TRANSLATIONS
 if ($Action -eq 'Import') {
-    if ($Batch -le 0) {
-        Write-Error "Please specify a batch number: -Batch 1..27"
-        exit 1
-    }
-    $batchNumStr = $Batch.ToString("D3")
-    $batchFile = Join-Path $batchesDir "batch_$batchNumStr.json"
-    if (-not (Test-Path $batchFile)) {
-        Write-Error "Batch file $batchFile not found!"
-        exit 1
-    }
+    $batchFile = Resolve-BatchFile
 
-    Write-Host "=== Importing translations into batch $batchNumStr ===" -ForegroundColor Cyan
+    Write-Host "=== Importing translations into $([System.IO.Path]::GetFileName($batchFile)) ===" -ForegroundColor Cyan
     $content = ""
 
     if (-not [string]::IsNullOrEmpty($InputFile) -and (Test-Path $InputFile)) {
@@ -277,7 +275,7 @@ if ($Action -eq 'Import') {
         }
     }
 
-    $batchText = [System.IO.File]::ReadAllText($batchFile, [System.Text.Encoding]::UTF8)
+    $batchText = Read-BatchText $batchFile
     $updated = 0
 
     foreach ($k in $map.Keys) {
@@ -295,7 +293,7 @@ if ($Action -eq 'Import') {
         }
     }
 
-    [System.IO.File]::WriteAllText($batchFile, $batchText, [System.Text.Encoding]::UTF8)
+    [System.IO.File]::WriteAllText($batchFile, $batchText, $utf8NoBom)
     Write-Host "[OK] Successfully updated $updated strings in $batchFile!" -ForegroundColor Green
 
     # Automatically recompile runtime shards so updated translations immediately optimize into the database layer!

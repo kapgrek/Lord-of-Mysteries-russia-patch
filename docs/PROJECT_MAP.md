@@ -11,11 +11,12 @@
 | **Логика перехвата UI, шрифты, хуки строк** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua` | Хуки `TranslateDatabaseString`, вычисление FNV-1a хешей, загрузка шардов, автоисправление верстки UMG; размер текста — подгонка замером `runtimeFixes.TextFit` (TASK-011) |
 | **Мод-лоадер / перехватчик `package.loaders`** | `patch_payload/Saved/Mods/bootstrap.lua` | Точка входа модов, подмена модулей (`external_searcher`), `merge_overlay`, флаг `DiagnosticsMode` |
 | **Нативный загрузчик (Bridge)** | `patch_payload/bridge/LaunchInstance.native-bridge.padded.oodle`<br>`patch_payload/Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua` | 4660-байтный патч-блок для `pakchunk0` и скрипт первичной инициализации |
-| **Исходные тексты для перевода** | `source/translation_batches/batch_*.json`<br>`source/translation_batches/BATCH_MANIFEST.md` | 28 батчей строк (`target_ru`, `source_cn`, `ref_en`), включая `batch_028_autochess.json`. **Source of Truth** для текстов |
+| **Исходные тексты для перевода** | `source/translation_batches/batch_*.json`<br>`source/translation_batches/BATCH_MANIFEST.md` | Батчи строк (`target_ru`, `source_cn`, `ref_en`): `batch_001…027` (основной массив), `batch_028_autochess` (энциклопедия Автошахмат, EN-ключи с приоритетом), `batch_029_cpdd_264`, `batch_030_stringdb_aliases` (алиасы ключей StringDB), `batch_031_autochess_stringdb`, `batch_032_stringdb_ui`. **Source of Truth** для текстов |
 | **Канон терминов и глоссарии** | `source/glossary/*.json`<br>`docs/GLOSSARY.md` | Пути, Последовательности, персонажи, артефакты, географические названия |
 | **Компиляция строк в шарды игры** | `tools/ShardCompiler.cs` (+ `.ps1`) | Распределение строк из `batch_*.json` по 1024 шардам `RuntimeTextGemini_*.lua`. `.exe` собирается `tools/BuildTools.ps1` |
-| **Нарезка чанков и импорт переводов** | `tools/BatchHelper.ps1` | `-Action Export` (чанк в `temp/temp_chunk.json`), `Import` (с автокомпиляцией шардов), `Stats`, `Dashboard` |
-| **Валидация тегов и плейсхолдеров** | `tools/VerifyBatch.ps1`<br>`tools/VerifyPatch.ps1` | Проверка целостности тегов `<Highlight>`, `%s`, `%d`, `{0}` и синтаксиса Lua |
+| **Нарезка чанков и импорт переводов** | `tools/BatchHelper.ps1` | `-Action Export` (чанк в `temp/temp_chunk.json`), `Import` (с автокомпиляцией шардов), `Stats`, `Dashboard`; батч по номеру `-Batch N` или имени `-BatchFile batch_031_….json` |
+| **Непереведённые строки StringDB** | `tools/StringDbGaps.ps1` | Промахи `src=stringdb` из логов диагностики, сверка побайтно с семантикой ShardCompiler, категории (Автошахматы, UI, навыки…), `-Report`, `-Emit <батч> -Category …`, `-Aliases <батч>` |
+| **Валидация тегов и плейсхолдеров** | `tools/VerifyBatch.ps1`<br>`tools/VerifyPatch.ps1` | Теги `<Highlight>`, `%s`, `%d`, `{0}`, макросы `{*d,…}`, `{{player.name}}` (ERR), числа и хвосты `b` (WARN); синтаксис Lua |
 | **Базы данных Excel (диалоги, квесты)** | `patch_payload/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/` | 38 таблиц строк **в байткоде LuaJIT** (`1B 4C 4A`), несмотря на расширение `.lua`. В `.gitattributes` помечены как `binary` |
 | **Текстуры и виджеты IoStore** | `patch_payload/Saved/Mods/BakedText/blocks.bin`<br>`patch_payload/Saved/Mods/BakedText/manifest.json`<br>`tools/BakedTextManager.ps1` | 39 МБ пропатченных блоков для `.ucas` файлов контейнеров UE5 |
 | **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/InstallerCore.cs`<br>`installer/supported_game.json` | `Program.cs`: окно Windows Forms, загрузка данных из GitHub Releases, CLI. `InstallerCore.cs`: проверка версии игры (sha256 всего `pakchunk0`), блок моста, бэкап в `Saved/RussianPatchBackups/`, установка и удаление только своих файлов (`installed_files.json`), BakedText, переключение RU↔EN |
@@ -64,7 +65,7 @@ AbsoluteRU/
 │   │   ├── characters_and_factions.json # Имена, фракции, божества
 │   │   ├── locations_and_geography.json # Города, страны, континенты
 │   │   └── terms_and_items.json         # Артефакты, ритуалы, системные термины
-│   └── translation_batches/   # batch_001.json ... batch_027.json, batch_028_autochess.json
+│   └── translation_batches/   # batch_001.json ... batch_027.json, batch_028_autochess.json ... batch_032_stringdb_ui.json
 │       └── BATCH_MANIFEST.md  # Манифест прогресса по всем батчам
 │
 ├── patch_payload/             # Полезная нагрузка патча, внедряемая в клиент игры
@@ -105,7 +106,7 @@ AbsoluteRU/
 │   ├── VerifyBatch.ps1        # Валидатор плейсхолдеров и тегов в батчах
 │   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (Init.lua + AbsruDiagnostics.lua)
 │   ├── CollectDiagLogs.ps1    # Логи диагностики ИЗ игры -> reference/logs/<дата>/, отчёты в report/
-│   ├── StringExtractor.cs/.ps1 # Извлечение строк из оригинальных дампов
+│   ├── StringDbGaps.ps1       # Промахи StringDB из логов диагностики -> категории, -Report, -Emit/-Aliases в батч
 │   ├── BakedTextManager.ps1   # Управление блоками BakedText для IoStore
 │   ├── AutoTranslate.ps1      # Машинный перевод батчей (Google Translate / DeepL Free API)
 │   ├── FixCapitalization.cs/.ps1 # Исправление регистра первой буквы
