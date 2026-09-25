@@ -264,6 +264,7 @@ return {
     ["【阅读者】"] = "[Чтец]",
     ["Gain <HighLight> one random 2-star 2-cost chess piece </> and <HighLight> two random 2-star 1-cost chess pieces </>."] = "Даёт <HighLight> одну 2-звёздочную фигуру за 2 золотых </> и <HighLight> две 2-звёздочные фигуры за 1 золотой </>.",
     ["<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>150</>. При атаке специализация монстра <Mark>50</> будет увеличена на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>536%</> = {*d,F1690001,atkMin,5.36}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>536%</> = {*d,F1690001,atkMin,5.36}",
     ["来打我呀！"] = "А ну ударь меня!",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Пользовательское событие задачи Игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире) Игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире)",
     ["Skyler"] = "Скайлер",

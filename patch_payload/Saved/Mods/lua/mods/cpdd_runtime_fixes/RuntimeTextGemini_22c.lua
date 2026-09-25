@@ -250,6 +250,8 @@ return {
     ["Each unique <HighLight>3</>-star piece strengthens all allies. At high tiers, gain <HighLight>1</> random wild monster piece after each player combat."] = "Каждая уникальная <HighLight>3</>-звёздочная фигура усиливает всех союзников. На высоких ступенях даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
     ["Reduce the Defense of enemies within <HighLight>2</> tiles by <HighLight>35%</>."] = "Снижает защиту врагов в пределах <HighLight>2</> клеток на <HighLight>35%</>.",
     ["Wise Man's Spirit Ring"] = "Духовное кольцо Мудреца",
+    ["Spin jump to shock surrounding enemies, dealing {*d,F1690001,atkMin,1.2} Attack Damage, gaining {*d,F1690001,maxHp,0.25} Shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds."] = "В прыжке с разворота сотрясает окружающих врагов, нанося {*d,F1690001,atkMin,1.2} ед. урона от атаки, и получает щит на {*d,F1690001,maxHp,0.25} ед. и <HighLight>12%</> снижения урона на <HighLight>3</> сек.",
+    ["降下饼干雨，对目标区域的敌人造成{*d,F1690001,atkMin,1.62}点攻击伤害，并为生命最低的<HighLight>1</>名友军恢复{*d,F1690001,maxHp,0.16}点生命。"] = "Обрушивает дождь из печенья, нанося врагам в целевой области {*d,F1690001,atkMin,1.62} ед. урона от атаки и восстанавливая {*d,F1690001,maxHp,0.16} ед. здоровья <HighLight>1</> союзнику с наименьшим здоровьем.",
     ["完成当前步骤的所有子目标  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Выполните все подцели текущего шага. Игроки создают публичные объекты на основе списка InstanceID (большой мир не вступает в силу)",
     ["Samira"] = "Самира",
     ["我对不起他，也害怕未来……在这廷根，一个学文学的，出路究竟在哪？"] = "Я его подвела и боюсь будущего... В этом Тингене для изучающего литературу где выход?",

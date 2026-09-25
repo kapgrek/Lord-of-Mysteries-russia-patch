@@ -257,5 +257,8 @@ return {
     ["[Spellcraft]"] = "[Колдовство]",
     ["【神弃之地】"] = "【Заброшенная земля богов】",
     ["Gain an additional <HighLight>40%</> Max Health."] = "Даёт дополнительно <HighLight>40%</> к максимальному здоровью.",
+    ["Cause blood roses to bloom around you, dealing {*d,F1690001,atkMin,1.27} Attack damage to nearby enemies."] = "Заставляет кровавые розы расцвести вокруг себя, нанося ближайшим врагам {*d,F1690001,atkMin,1.27} ед. урона от атаки.",
+    ["What does Bond mean?"] = "Что такое связь?",
+    ["Fool's Gambit: Veteran"] = "«Гамбит Шута»: Ветеран",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
 }

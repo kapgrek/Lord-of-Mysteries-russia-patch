@@ -258,6 +258,9 @@ return {
     ["Lovia's spirit assists the player, providing a burst of movement speed."] = "Дух Ловии помогает игроку, даруя кратковременный мощный прирост к скорости бега.",
     ["施法者"] = "Колдовство",
     ["Bread - Supply box - Opening"] = "Хлеб — Коробка с припасами — Открытие",
+    ["Equipment Selection Box interaction carrier; does not participate in shop, drops, draft, synthesis, or resonance statistics."] = "Носитель ларца снаряжения на выбор; не участвует в магазине, добыче, выборе фигур, слиянии и подсчёте резонансов.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>177%</> = {*d,F1690001,atkMin,1.77}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>177%</> = {*d,F1690001,atkMin,1.77}",
+    ["Resonance: Tarot Club·7 | Arcane·2 | Revival of the Great Old One·1 | Great Ruler·1\n Main DPS: Klein Moretti 2★, Emperor Roselle 2★\n Main Tank: Derrick Berg 3★, Leonard 2★\n Strategy: Prioritize saving economy to increase population, collect all seven seats to gain attribute bonuses, and use double 5-cost pieces to increase the endgame ceiling."] = "Резонансы: Клуб Таро·7 | Тайное знание·2 | Возрождение Древнего·1 | Великий Мастер·1\nОсновной урон: Клейн Моретти 2★, Император Розель 2★\nОсновной танк: Деррик Берг 3★, Леонард 2★\nТактика: сначала копите монеты и повышайте лимит фигур; все семь мест дают бонус к характеристикам, две фигуры за 5 золотых поднимают потолок в конце партии",
     ["Mckenna"] = "Маккенна",
     ["0级封印物“知识皇冠”在廷根失踪，它是罗塞尔被刺杀后的遗物，有堕落母神污染的残留。"] = "Запечатанный артефакт 0-го уровня «Мавр Знаний» пропал в Тингене. Это реликвия, оставшаяся после убийства Розеллы, и содержит остатки порчи Матери-Богини Разврата.",
 }

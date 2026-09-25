@@ -299,6 +299,8 @@ return {
     ["Gameplay Resources"] = "Ресурсы по игровому процессу",
     ["Your chess pieces gain <HighLight> 8 Defense </>. When Health first drops below <HighLight> 50% </>, gain an additional <HighLight> 25 Defense </>."] = "Ваши фигуры получают <HighLight> 8 ед. защиты </>. Когда здоровье впервые падает ниже <HighLight> 50% </>, дополнительно получают <HighLight> 25 ед. защиты </>.",
     ["【新手推荐】黑夜战法"] = "【Совет новичкам】Боевая магия Ночи",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>100%</> = {*d,F1690001,atkMin,1}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>100%</> = {*d,F1690001,atkMin,1}",
+    ["累计输掉3场对弈回合"] = "Проиграть 3 раунда боя",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

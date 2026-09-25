@@ -256,6 +256,7 @@ return {
     ["Rotate Hit Orientation"] = "Поворот ориентации удара",
     ["Navigator"] = "Мореплаватель",
     ["Mid-row Marksman"] = "Стрелок среднего ряда",
+    ["Going back this time, I intend to see Robert and the others and get back some of the money I remitted to them—the gambling debts are being chased too tightly. If I can't get the money, those people will definitely cut me into eight pieces and throw me into the Fog Sea."] = "В этот раз, вернувшись, я хочу навестить Роберта и остальных и забрать часть денег, что я им переводил, — кредиторы наседают. Если денег не будет, эти ребята точно разрежут меня на восемь кусков и выбросят в Туманное море.",
     ["Saria"] = "Сария",
     ["等待时间  对象播动作（拥有状态记录）  玩家播放仅自己可见的说话文本"] = "Подождите время; объект выполняет действие (имеет запись состояния); игрок воспроизводит речевой текст, видимый только ему самому.",
     ["Player ID:"] = "Идентификатор игрока:",

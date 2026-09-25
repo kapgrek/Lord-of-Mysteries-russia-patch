@@ -261,6 +261,7 @@ return {
     ["Queen of Wands"] = "Королева Жезлов",
     ["And she even bought a frog... This is bad, I need to quickly find records about frogs!"] = "И даже лягушку купила... Это плохо, мне нужно быстро найти записи о лягушках!",
     ["After dealing a Critical Hit, damage increases by <HighLight>8%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times."] = "После нанесения критического удара урон увеличивается на <HighLight>8%</> на <HighLight>5</> сек., максимум <HighLight>4</> ур.",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>365%</> = {*d,F1690001,atkMin,3.65}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>365%</> = {*d,F1690001,atkMin,3.65}",
     ["指定地点附近使用任务道具  对象播放指定对白内容  玩家发送任务道具"] = "Используйте квестовый предмет рядом с указанным местом. Объект воспроизводит указанное содержимое диалога. Игрок отправляет квестовый предмет.",
     ["来呀来呀！"] = "Иди сюда, иди сюда!",
 }

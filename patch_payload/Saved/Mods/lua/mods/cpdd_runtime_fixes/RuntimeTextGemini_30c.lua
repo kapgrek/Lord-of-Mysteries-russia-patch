@@ -265,6 +265,7 @@ return {
     ["Newly Promoted Noble"] = "Недавно получивший повышение дворянин",
     ["Because I finally touched the light today! And I have a new story!"] = "Потому что сегодня я наконец прикоснулся к свету! И у меня новая история!",
     ["Aren't the ones left at that time all rotten?"] = "Не все ли оставшиеся в то время гнилые?",
+    ["雾林眷族共鸣召唤物；不计入雾林眷族共鸣人数。"] = "Призванное существо резонанса «Родичи Туманного леса»; не учитывается в числе фигур этого резонанса.",
     ["我就顺手腌了两条。反正我也吃不完，喂猫可惜了。"] = "Я попутно засолил парочку. Всё равно сам столько не съем, а кошкам отдавать жалко.",
     ["Constance"] = "Констанция",
     ["Gather collection item with specified TemplateID  Delayed execution  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным идентификатором шаблона. Отложенное выполнение. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",

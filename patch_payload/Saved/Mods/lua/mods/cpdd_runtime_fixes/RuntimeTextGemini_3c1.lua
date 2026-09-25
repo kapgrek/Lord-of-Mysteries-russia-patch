@@ -274,6 +274,7 @@ return {
     ["<P_Heart>(Pats your shoulder again)</> Friend, Golden Autumn Lake is under my protection. Don't forget me if you run into trouble!"] = "<P_Heart>(снова похлопывает тебя по плечу)</> Друг, озеро Золотой Осени находится под моей защитой. Не забывай меня, если у тебя возникнут проблемы!",
     ["Holy Grail Water"] = "Вода Святого Грааля",
     ["Club Cargo"] = "Клуб Карго",
+    ["Eliminate %d/80 players in Fool's Gambit."] = "Выбито игроков в «Гамбите Шута»: %d/80",
     ["Chapter Two"] = "Глава 2",
     ["跟随娜拉前往金秋湖南瓜园"] = "Следуйте за Нарой к тыквенной грядке у озера Золотой Осени.",
     ["Georgina"] = "Джорджина",

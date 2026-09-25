@@ -249,6 +249,7 @@ return {
     ["It's been a while; the new recruit has already signed the contract."] = "Прошло много времени; новичок уже подписал контракт.",
     ["When the Windmill Turns 99002412"] = "Когда перевернётся ветряная мельница 99002412",
     ["Acting - Bard - Tombstone (Purified)"] = "Действуя - Бард - Надгробие (Очищенный)",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>624%</> = {*d,F1690001,atkMin,6.24}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>624%</> = {*d,F1690001,atkMin,6.24}",
     ["收集%d/100个异象之物。"] = "Соберите %d/100 объектов феномена.",
     ["Ernesto"] = "Эрнесто",
 }

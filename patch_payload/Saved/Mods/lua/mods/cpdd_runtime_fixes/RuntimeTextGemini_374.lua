@@ -280,6 +280,7 @@ return {
     ["Gather collection item with specified TemplateID  Delayed execution  Object plays specified dialogue content  Object plays specified dialogue content  "] = "Сбор элемента коллекции с указанным идентификатором шаблона. Отложенное выполнение. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Royal Glory"] = "Королевская слава",
     ["Search for the <h>\"Stored\" item</>"] = "Найдите <h>«сохранённый» предмет</>",
+    ["How do I enter Fool's Gambit?"] = "Как попасть в «Гамбит Шута»?",
     ["又来了……"] = "Опять началось...",
     ["采集指定TemplateID的采集物  玩家变身开始"] = "Соберите указанный элемент коллекции TemplateID; начинается трансформация игрока.",
 }

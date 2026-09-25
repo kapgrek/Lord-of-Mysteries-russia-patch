@@ -252,6 +252,7 @@ return {
     ["Possibility of loss of control"] = "Возможность потери контроля.",
     ["Count No. 2"] = "Граф № 2",
     ["Immediately gain <HighLight> 10 Gold Coins </>. <HighLight> After each match round </>, restore <HighLight> 2 Player Health </> and gain <HighLight> 2 Gold Coins </>."] = "Немедленно даёт <HighLight> 10 золотых монет </>. <HighLight> После каждого раунда поединка </> восстанавливает <HighLight> 2 ед. здоровья игрока </> и даёт <HighLight> 2 золотые монеты </>.",
+    ["拖动至棋子上，即可使其携带的装备随机转换为同品阶装备。"] = "Перетащите на фигуру, чтобы её снаряжение случайно превратилось в другое снаряжение того же уровня.",
     ["I have felt too many different auras—strange, mad, evil, bizarre..."] = "Я ощущал слишком много разных аур — странных, безумных, злых, причудливых…",
     ["魔药的关键不是掌握，是消化！不是挖掘，是扮演！"] = "Ключ к зелью – не мастерство, а пищеварение! Не копать, а действовать!",
     ["Appearance ID:"] = "Идентификатор внешнего вида:",

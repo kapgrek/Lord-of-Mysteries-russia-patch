@@ -215,6 +215,9 @@ return {
     ["Complete 3 \"Cat-Finding Adventures\""] = "Завершите 3 приключения в поисках кошек.",
     ["...I have a diamond necklace, I'd like to trade it with you."] = "...У меня есть бриллиантовое колье, я бы хотел обменять его с тобой.",
     ["Bard - Cleanse Skill Proxy"] = "Бард - Прокси навыка очистки",
+    ["Continuously spit flames forward, nine attacks dealing a total of {*d,F1690001,atkMin,1.62} Attack Damage. Hits apply <HighLight>4</> seconds of Burn, causing enemies to lose {*d,F1690001,maxHp,0.007} Health per second."] = "Непрерывно изрыгает пламя вперёд: девять ударов наносят в сумме {*d,F1690001,atkMin,1.62} ед. урона от атаки. Попадания накладывают Горение на <HighLight>4</> сек.: враг теряет {*d,F1690001,maxHp,0.007} ед. здоровья в секунду.",
+    ["Participate in Fool's Gambit %d/60 times."] = "Сыграно партий в «Гамбит Шута»: %d/60.",
+    ["愚者棋局全省排名头衔"] = "Титул провинциального рейтинга «Гамбита Шута»",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

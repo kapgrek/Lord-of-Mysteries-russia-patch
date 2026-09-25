@@ -265,6 +265,8 @@ return {
     ["Taller than the Feysacians! The first time the fishermen saw that group of people from New Silver City, they were so shocked they almost swallowed a shark!"] = "Выше, чем фейсакианцы! Когда рыбаки впервые увидели эту группу людей из Нью-Сильвер-Сити, они были так потрясены, что чуть не проглотили акулу!",
     ["唐子晰"] = "Тан Цзыси",
     ["Blood Blade Badge"] = "Эмблема Кровавого клинка",
+    ["Fires three consecutive star-shining projectiles, dealing a total of {*d,F1690001,atkMin,5.37} attack damage. Upon hit, restores <HighLight>16%</> of max health to the ally with the lowest health percentage."] = "Выпускает подряд три снаряда звёздного сияния, в сумме {*d,F1690001,atkMin,5.37} ед. урона от атаки. При попадании восстанавливает <HighLight>16%</> макс. здоровья союзнику с наименьшей долей здоровья.",
+    ["自走棋名词"] = "Термины Автошахмат",
     ["任务自定义事件  玩家停止自己播放情绪音乐"] = "Пользовательское событие квеста. Плеер перестает воспроизводить эмоциональную музыку.",
     ["The peak Demigod faces the void's scorching heat.. Only the name of the Family is the final Anchor. The peak Demigod faces the void's scorching heat.. Only the name of the Family is the final Anchor"] = "Вершинный Полубог сталкивается с палящим жаром пустоты. Только имя Семьи является последним Якорем. Вершинный Полубог сталкивается с палящим жаром пустоты. Только имя Семьи является последним Якорем.",
     ["播放CutScene  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: телепортироваться к указанным координатам сцены.",

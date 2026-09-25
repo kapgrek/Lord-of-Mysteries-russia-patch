@@ -250,6 +250,7 @@ return {
     ["Boss Battle_Initial"] = "Битва с боссом_Initial",
     ["Currency consignment sell currency"] = "Партия валюты продать валюту",
     ["Summon the Viscountess to attack the target, dealing damage and applying Ghost possession, during which your Damage Increase against the target is boosted.\nIf the target is a player: If the target dies within a certain period, the Ghost will seek another nearby enemy player to possess.\nIf the target is a monster: The Ghost will deal additional damage to the monster and extend the possession duration."] = "Призывает виконтессу для атаки цели: наносит урон и накладывает вселение призрака, во время которого наносимый вами урон по цели повышается.\nЕсли цель — игрок: если цель погибает в течение некоторого времени, призрак вселяется в другого находящегося поблизости вражеского игрока.\nЕсли цель — монстр: призрак наносит монстру дополнительный урон и продлевает время вселения.",
+    ["达成3阶段罪恶廷根共鸣"] = "Активировать резонанс «Грешный Тинген» 3-й ступени",
     ["Emerson"] = "Эмерсон ·",
     ["但……我不会停留"] = "Но... я не останусь",
 }

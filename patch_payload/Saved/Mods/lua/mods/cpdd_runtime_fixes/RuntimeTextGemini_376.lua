@@ -229,6 +229,9 @@ return {
     ["00_Test Scene 999"] = "00_Тестовая сцена 999",
     ["Reality Split Pointer"] = "Указатель разделения реальности",
     ["<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>拍卖奖励</><img id=\"Tips\" width=\"46\" height=\"46\"/>"] = "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды аукциона</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    ["Fires two consecutive Air Cannons forward, each dealing {*d,F1690001,atkMin,15} Attack damage. When taking fatal damage for the first time in a battle, the unit becomes immune to death, clears all control effects, and enters the gray fog for <HighLight>3</> seconds: becoming Invincible and untargetable, while still being able to move and cast skills. After the gray fog ends, the unit restores all "] = "Дважды подряд стреляет вперёд из воздушной пушки, каждый выстрел наносит {*d,F1690001,atkMin,15} ед. урона от атаки. В каждом бою при первом смертельном уроне избегает гибели, снимает контроль и уходит в серый туман на <HighLight>3</> сек.: неуязвим, недоступен для выбора целью, но может двигаться и применять навыки. Когда туман рассеивается, полностью восстанавливает здоровье.",
+    ["共鸣：1丰饶的赐福｜1亡者的助兴｜4绯红信徒｜2战法｜2塔罗会｜2远击；主C：西尔维娅2★、休·迪尔查2★｜稀有·智者灵戒、狂猎大剑；主T：舞王狒哥3★、亚巴顿2★｜稀有·壁垒战盔；思路：风信子、舞王追3★；绯红信徒提速，远击输出"] = "Резонансы: 1 Дар изобилия | 1 Развлечение мертвецов | 4 Багровые верующие | 2 Боевая магия | 2 Клуб Таро | 2 Дальнобойный удар; основной урон: Сильвия 2★, Хью Дирча 2★ | Редкое · Духовное кольцо Мудреца, Двуручный меч Дикой Охоты; основной танк: Король танца Бабуин 3★, Аваддон 2★ | Редкое · Боевой шлем Оплота; тактика: доведите Гиацинт и Короля танца до 3★; Багровые верующие ускоряют, Дальнобойный удар наносит урон",
+    ["Fool's Gambit Resonance"] = "Резонансы «Гамбита Шута»",
     ["Anakin"] = "Энакин",
     ["采集指定TemplateID的采集物  对象恢复看向"] = "Соберите элемент с назначенным TemplateID. Объект возобновляет поиск.",
 }

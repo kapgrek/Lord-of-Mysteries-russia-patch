@@ -1972,5 +1972,17 @@
     "source_cn": "Noble Cashmere Suit",
     "ref_en": "Noble Cashmere Suit",
     "target_ru": "Благородный кашемировый костюм"
+  },
+  {
+    "id": "132587",
+    "source_cn": "Factory worker - Gold Coin",
+    "ref_en": "Factory worker - Gold Coin",
+    "target_ru": "Фабричный рабочий — золотая монета"
+  },
+  {
+    "id": "132588",
+    "source_cn": "Effect when player obtains Gold Coin",
+    "ref_en": "Effect when player obtains Gold Coin",
+    "target_ru": "Эффект получения игроком золотой монеты"
   }
 ]

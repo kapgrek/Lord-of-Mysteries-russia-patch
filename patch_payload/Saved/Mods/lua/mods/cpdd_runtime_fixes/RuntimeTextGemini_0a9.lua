@@ -256,6 +256,7 @@ return {
     ["Collection progress: <NumHighlight>%d</>/%d"] = "Ход сбора: <NumHighlight>%d</>/%d",
     ["{{Sir|Madam}}, do you have that kind of trouble too?"] = "{{Sir|Madam}}, у тебя тоже такая проблема?",
     ["Your pieces gain 15% Critical Hit Rate and 25% Critical Damage."] = "Ваши фигуры получают +15% к шансу крит. удара и +25% к крит. урону.",
+    ["自走棋商店"] = "Магазин Автошахмат",
     ["Abdir"] = "Абдир",
     ["收获%d/400个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/400.",
     ["RequestCutsceneActorComposite: could not find ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",

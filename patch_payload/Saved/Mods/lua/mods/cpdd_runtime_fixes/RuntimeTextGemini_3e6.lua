@@ -239,4 +239,5 @@ return {
     ["荣耀加身"] = "Венценосная слава",
     ["Equip to gain the [Hunter] resonance."] = "Экипируйте, чтобы получить резонанс [Охотник].",
     ["At the start of combat, all enemies gain [Stigma of Abundance]: Attack reduced by <HighLight>1%</>. When an enemy with the Stigma dies, all allies gain [Gift of Abundance]: Damage Increase +<HighLight>1%</> for <HighLight>5</> seconds."] = "В начале боя все враги получают [Клеймо Изобилия]: атака снижается на <HighLight>1%</>. Когда враг с клеймом погибает, все союзники получают [Дар Изобилия]: увеличение урона +<HighLight>1%</> на <HighLight>5</> сек.",
+    ["Resonance: Extraordinary World·3 | Tarot Club·2 | Long-Range Strike·2\nMain DPS: Clown 3★, Xio Dercha 3★\nMain Tank: Ray Bieber 2★, Rock King 2★\nStrategy: Clown, Ray Bieber chase 3★; develop Extraordinary World, Long-Range Strike is responsible for output"] = "Резонансы: Потусторонний мир·3 | Клуб Таро·2 | Дальнобойный удар·2\nОсновной урон: Клоун 3★, Хью Дирча 3★\nОсновной танк: Рэй Бибер 2★, Рок Кинг 2★\nТактика: доведите Клоуна и Рэя Бибера до 3★; развивайтесь через Потусторонний мир, урон — через Дальнобойный удар",
 }

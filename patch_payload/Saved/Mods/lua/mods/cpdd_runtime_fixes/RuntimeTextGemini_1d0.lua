@@ -284,4 +284,5 @@ return {
     ["Every single deed is worth remembering."] = "Каждое дело стоит запомнить.",
     ["装配后获得【不眠者】羁绊"] = "Экипируйте, чтобы получить резонанс [Бессонный]",
     ["Swift Hunt Badge"] = "Эмблема Стремительной охоты",
+    ["Damage per hit: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1500%</> = {*d,F1690001,atkMin,15}"] = "Урон за удар серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
 }

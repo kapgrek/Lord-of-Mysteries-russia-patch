@@ -274,6 +274,7 @@ return {
     ["Parameter 1: 1 represents enable, 0 or other: represents disable (execute after entering game)"] = "Параметр 1: 1 означает включение, 0 или другое: означает отключение (выполняется после входа в игру)",
     ["Enid Disappears"] = "Энид исчезает",
     ["Attack <Highlight>Mutated Material</> with the affix <Highlight><Hand of God></>: \"All Skill levels +1, Armor Break increased.\""] = "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Hand of God></>: «Все уровни навыков +1, пробитие брони увеличено».",
+    ["Random one-star 3-cost chess piece"] = "Случайная однозвёздочная фигура за 3 золотых",
     ["罗珊和几位市民 \n在中央广场瓦解消散\n失踪地点共三个\n近期失踪者可能还活着"] = "Розанна и несколько горожан\nрастворились на Центральной площади.\nВсего три места исчезновений.\nНедавно пропавшие, возможно, еще живы.",
     ["Adan"] = "Адан",
 }

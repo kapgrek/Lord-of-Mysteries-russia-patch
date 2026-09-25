@@ -284,6 +284,7 @@ return {
     ["Being Summoned by an Unexpected World..."] = "Быть призванным неожиданным миром...",
     ["激活羁绊：%d"] = "Активировано резонансов: %d",
     ["When an enemy piece dies, recover <HighLight>3%</> Max Health."] = "Когда погибает вражеская фигура, восстанавливает <HighLight>3%</> от макс. здоровья.",
+    ["Emit three Necrotic Howls, shocking surrounding enemies, dealing a total of {*d,F1690001,atkMin,1.25} Attack damage, and gain {*d,F1690001,maxHp,0.4} Shield for <HighLight>5</> seconds. At three stars: Emit three Necrotic Howls, shocking surrounding enemies, dealing a total of {*d,F1690001,atkMin,3.4} Attack damage, and gain {*d,F1690001,maxHp,0.4} Shield for <HighLight>5</> seconds."] = "Трижды издаёт некротический вой, сотрясая окружающих врагов и нанося в сумме {*d,F1690001,atkMin,1.25} ед. урона от атаки. Получает щит на {*d,F1690001,maxHp,0.4} ед. на <HighLight>5</> сек. 3 звезды: в сумме {*d,F1690001,atkMin,3.4} ед. урона от атаки и щит на {*d,F1690001,maxHp,0.4} ед. на <HighLight>5</> сек.",
     ["前往指定Trigger位置  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Отправиться к указанному триггеру. Объект телепортируется в указанную точку сцены (для игроков доступно перемещение между сценами, для NPC — только внутри сцены).",
     ["<P_Heart>（两位女士似乎在争吵些什么，先听听看吧……）</>"] = "<P_Heart>（Дамы о чем-то спорят, послушаю-ка сперва...）</>",
     ["播放Dialogue  延迟执行  对象同场景传送"] = "Игра «Диалог». Отложенное исполнение. Объект телепортируется в пределах одной сцены.",

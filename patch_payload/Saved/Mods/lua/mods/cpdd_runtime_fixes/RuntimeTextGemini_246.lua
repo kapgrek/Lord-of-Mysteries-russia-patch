@@ -273,4 +273,5 @@ return {
     ["Personal Application Form"] = "Персональная форма заявки",
     ["Steam Era · Counter-Shock Waist Ornament"] = "Эпоха пара · Противоударное поясное украшение",
     ["Charge effect"] = "Эффект заряда",
+    ["Fool's Gambit - Exclusive Terms"] = "«Гамбит Шута» — особые термины",
 }

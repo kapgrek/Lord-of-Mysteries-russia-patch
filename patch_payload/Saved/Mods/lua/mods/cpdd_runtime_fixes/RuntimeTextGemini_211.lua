@@ -228,5 +228,6 @@ return {
     ["That's right, there is finally new hope for the apocalypse."] = "Правильно, наконец-то появилась новая надежда на апокалипсис.",
     ["Equip to gain the [Spellcasting] resonance."] = "Экипируйте, чтобы получить резонанс [Колдовство].",
     ["[Long-Range Strike]"] = "[Дальнобойный удар]",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>433%</> = {*d,F1690001,atkMin,4.33}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>433%</> = {*d,F1690001,atkMin,4.33}",
     ["监听关闭阅读界面  玩家播放单句黑屏字幕"] = "Дождитесь закрытия интерфейса чтения. Плеер воспроизводит одну строку субтитров на черном экране.",
 }

@@ -266,6 +266,7 @@ return {
     ["Brewing potion"] = "Варим зелье",
     ["Time is the gentlest recorder; it has never let any promise fall through."] = "Время — самый бережный регистратор; он никогда не позволял ни одному обещанию сбыться.",
     ["At the start of combat, for <HighLight> every ally chess piece in the first row </>, the entire team gains <HighLight> 50 Health </>."] = "В начале боя за <HighLight> каждую союзную фигуру в первом ряду </> вся команда получает <HighLight> 50 ед. здоровья </>.",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>300%</> = {*d,F1690001,atkMin,3}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>300%</> = {*d,F1690001,atkMin,3}",
     ["Ava"] = "Эва",
     ["Teresa"] = "Тереза",
     ["快，趁温热再泡一次冰水，然后开始调味，再静置十五分钟……"] = "Быстро замочите его еще раз в ледяной воде, пока он еще теплый, затем начните приправлять его и оставьте на пятнадцать минут...",

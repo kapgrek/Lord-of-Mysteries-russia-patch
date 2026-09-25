@@ -260,6 +260,7 @@ return {
     ["Crimson Believer Badge"] = "Эмблема Багровых верующих",
     ["【新手推荐】蒸汽远击"] = "【Совет новичкам】Дальнобойный удар Эпохи пара",
     ["Demon Wolf Target 1"] = "Демон-Волк, цель 1",
+    ["上阵棋子"] = "Фигуры на поле",
     ["等待时间  玩家播放单句黑屏字幕  延迟执行  玩家播放单句黑屏字幕  传送到指定场景的坐标位置"] = "Время ожидания  Игрок воспроизводит фразу субтитров на чёрном экране  Задержка выполнения  Игрок воспроизводит фразу субтитров на чёрном экране  Телепортация по координатам указанной сцены",
     ["Amani"] = "Амани",
     ["They saw a clown painted in various colors like red, yellow, and white run over, producing a bouquet of flowers from nowhere—a bouquet of Sevia chrysanthemums.\n      This bouquet was thrust in front of Melissa and Benson, its color golden, symbolizing happiness.\n      Melissa and Benson looked at the clown opposite them with slight bewilderment, only to see the corners of his mouth, on a face full of red, yellow, and white paint, curled high, fixed in a happy smile, an exaggerated smile, a comical smile."] = "Они увидели подбежавшего клоуна, чьё лицо было раскрашено в красный, жёлтый и белый цвета. Словно из ниоткуда он достал букет цветов — букет севийских хризантем.\n      Этот букет предстал перед глазами Мелиссы и Бенсона — золотистый, символизирующий счастье.\n      Мелисса и Бенсон слегка растерянно посмотрели на стоявшего перед ними клоуна: на его лице, покрытом красной, жёлтой и белой краской, уголки губ были высоко приподняты, застыв в радостной, преувеличенной, комичной улыбке.",

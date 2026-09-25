@@ -280,6 +280,8 @@ return {
     ["Either be born a king or bow your head in submission."] = "Либо родись королем, либо склони голову в покорности.",
     ["Curtain Call Selection"] = "Выбор занавеса",
     ["The parchment on the body is slightly hot"] = "Пергамент на теле слегка горячий",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}",
+    ["Custom Lineup"] = "Свой состав",
     ["Gracie"] = "Грейси",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）"] = "Воспроизвести кат-сцену: игрок воспроизводит эмоциональную музыку (слышно только себе).",
     ["Amberline"] = "Янтарная линия",

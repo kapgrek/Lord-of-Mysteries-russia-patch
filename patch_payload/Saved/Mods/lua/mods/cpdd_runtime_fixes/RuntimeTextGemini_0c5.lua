@@ -223,6 +223,8 @@ return {
     ["Activated Resonance: 18"] = "Активировано резонансов: 18",
     ["Release a Fear Ripple, dealing <Yellow>118</> Attack damage to surrounding enemies; this increases to <Yellow>178</> when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds."] = "Выпускает Волну страха, нанося <Yellow>118</> ед. урона от атаки окружающим врагам; урон возрастает до <Yellow>178</>, если здоровье врага не превышает <HighLight>35%</>. При попадании снижает защиту врагов на <HighLight>20%</> на <HighLight>4</> сек.",
     ["连发三枚星辉弹，共造成<Yellow>252</>点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。"] = "Выпускает три снаряда звездного света подряд, нанося в сумме <Yellow>252</> ед. урона от атаки. При попадании восстанавливает союзнику с наименьшей долей здоровья <HighLight>16%</> от максимального здоровья.",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>984%</> = {*d,F1690001,atkMin,9.84}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>984%</> = {*d,F1690001,atkMin,9.84}",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}",
     ["我去看看。"] = "Я пойду взгляну.",
     ["我跳的时候，眼睛会看人——我看到了谁，谁今晚就别想忘了我。"] = "Когда я танцую, мои глаза наблюдают за людьми — на кого бы я ни посмотрел, сегодня вечером меня не забудут.",
 }

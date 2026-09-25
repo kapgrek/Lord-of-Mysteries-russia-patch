@@ -268,5 +268,6 @@ return {
     ["Gain 1 Low-Level Piece Recorder<HighLight></>, and gain 1 more after 5 duel rounds<HighLight></><HighLight></>."] = "Даёт 1 Регистратор фигур низкого уровня<HighLight></>, а также ещё 1 через 5 раундов поединка<HighLight></><HighLight></>.",
     ["Celebration of Death"] = "Празднование смерти",
     ["Pick up the <h>lamb doll</>"] = "Возьмите куклу-ягненка<h></>.",
+    ["Swing the Black Scythe to sweep the front, dealing {*d,F1690001,atkMin,1.8} Attack damage. When the enemy's health is no higher than <HighLight>35%</>, the damage increases to {*d,F1690001,atkMin,2.7}."] = "Взмахом Чёрной косы сметает всё впереди, нанося {*d,F1690001,atkMin,1.8} ед. урона от атаки. Если здоровье врага не выше <HighLight>35%</>, урон возрастает до {*d,F1690001,atkMin,2.7}.",
     ["Camilo"] = "Камило",
 }

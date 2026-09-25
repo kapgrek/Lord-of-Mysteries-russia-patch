@@ -255,5 +255,6 @@ return {
     ["Lily: {{He|She}} saw it! {{He|She}} saw the red threads! {{He|She}} cannot be allowed to leave alive!"] = "Лили: {{He|She}} это видел! {{He|She}} увидел красные нити! {{He|She}} нельзя позволить уйти живым!",
     ["Acting - Object - Warrior - Rock"] = "Действуя – Объект – Воин – Рок",
     ["Adjust Bid"] = "Скорректировать ставку",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}点，治疗：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>10%</> = {*d,F1690001,maxHp,0.1}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}, исцеление: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>10%</> = {*d,F1690001,maxHp,0.1}",
     ["收集%d/50个异象之物。"] = "Соберите %d/50 объектов феномена.",
 }

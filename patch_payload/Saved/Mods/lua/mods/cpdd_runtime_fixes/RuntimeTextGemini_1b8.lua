@@ -275,6 +275,8 @@ return {
     ["Please wait for me, I'm going to get the book."] = "Пожалуйста, подождите меня, я принесу книгу.",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open "] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть ",
     ["Your chess pieces <HighLight> every 4 seconds </> restore <HighLight> 3% of their maximum Health </>."] = "Ваши фигуры <HighLight> каждые 4 секунды </> восстанавливают <HighLight> 3% от своего максимального здоровья </>.",
+    ["Emits four Wolf Howls forward, dealing a total of {*d,F1690001,atkMin,2.46} attack damage. For every <HighLight>10%</> of max health lost, self gains <HighLight>3%</> Attack Speed and Life Steal, up to <HighLight>30%</>, which is recalculated upon health recovery."] = "Издаёт вперёд четыре волчьих воя, в сумме {*d,F1690001,atkMin,2.46} ед. урона от атаки. За каждые потерянные <HighLight>10%</> макс. здоровья получает <HighLight>3%</> скорости атаки и вампиризма (не более <HighLight>30%</>); при восстановлении здоровья бонус пересчитывается.",
+    ["Draft chess piece"] = "Выбор фигур",
     ["那时候边境天旱，很多小村子都在闹饥荒。可这个村子里的所有人，肚子都鼓着。"] = "В то время на границе была засуха, и многие небольшие деревни страдали от голода. Но у всех в этой деревне был выпуклый живот.",
     ["胜利看的是结果而非过程，嘿嘿。"] = "Победа – это результат, а не процесс, хе-хе.",
     ["获得指定道具  玩家发送任务道具"] = "Получить указанный предмет; игрок отправляет квестовый предмет.",

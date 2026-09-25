@@ -234,6 +234,9 @@ return {
     ["Level 69 12-Player Dungeon Boss Normal"] = "Босс подземелья 69-го уровня для 12 игроков, обычный режим",
     ["Don't think about causing trouble here, I'll be watching you."] = "Не думай о том, чтобы создать здесь проблемы, я буду наблюдать за тобой.",
     ["<DecH> Craft: </> Sharp Thorn Ring \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds."] = "<DecH>Мастерство:</> шипастый браслет\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
+    ["Gain <HighLight> two low-level chess piece recorders </> and 3 Gold Coins."] = "Даёт <HighLight>2 Регистратора фигур низкого уровня</> и 3 золотые монеты.",
+    ["随机获得总价值<HighLight>12金币</>的棋子，至少包含<HighLight>1个3费棋子</>。"] = "Случайным образом даёт фигуры общей стоимостью <HighLight>12 золотых монет</>, включая минимум <HighLight>1 фигуру за 3 золотых</>.",
+    ["愚者棋局怎么升级"] = "Как повысить уровень в «Гамбите Шута»?",
     ["Stetson"] = "Стетсон",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект воспроизводит указанное содержимое диалога. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

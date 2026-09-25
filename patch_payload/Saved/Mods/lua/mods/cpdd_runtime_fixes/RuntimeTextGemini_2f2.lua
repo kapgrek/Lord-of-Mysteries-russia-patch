@@ -264,5 +264,7 @@ return {
     ["Pious Prayer - First stage self Add"] = "Благочестивая молитва - Первый этап самостоятельно Добавить",
     ["Good luck, from the King of Yellow and Black"] = "Удачи от Короля Желтого и Черного.",
     ["What do they know? Ever since I started learning dance at the Art School, I haven't had any time to drink!"] = "Что они знают? С тех пор, как я начал учиться танцам в Школе искусств, у меня не было времени выпить!",
+    ["拖动至任意棋子上，即可获得该棋子的1星复制品。"] = "Перетащите на любую фигуру, чтобы получить её однозвёздочную копию.",
+    ["Resonance: 1 Curse | 3 May Manor | 5 Witch Sect | 4 Spellcraft; Main Carry: Pain Witch 3★, Astrolabe User 3★ | Rare · Sage's Spirit Ring, Wild Hunt Greatsword; Main Tank: Profane Witch 3★, Anthea 2★; Strategy: Chase 3★ for dual cores; Witches reduce defense, Spellcraft stacks attack."] = "Резонансы: 1 Проклятие | 3 Поместье Мэй | 5 Секта Демониц | 4 Колдовство; основной урон: Ведьма боли 3★, Астролог 3★ | Редкое · Духовное кольцо Мудреца, Двуручный меч Дикой Охоты; основной танк: Нечестивая ведьма 3★, Антея 2★; тактика: доведите обе ключевые фигуры до 3★; ведьмы снижают защиту, Колдовство накапливает атаку",
     ["铁路大亨变幻远征难度获得%d/5次【铁路大亨】评价。"] = "Получите рейтинг 【Железнодорожный магнат】 %d/5 раз на уровне сложности «Смена экспедиции».",
 }

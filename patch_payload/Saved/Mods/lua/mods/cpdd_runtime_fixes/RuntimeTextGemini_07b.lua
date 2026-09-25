@@ -239,5 +239,7 @@ return {
     ["Advanced Berserk Potion."] = "Улучшенное зелье берсерка.",
     ["Iron Guard Support"] = "Поддержка железной стражи",
     ["Rare · Battle Intent Staff"] = "Редкое · Посох боевого духа",
+    ["Randomly obtain three 2-star 5-cost pieces. Each is randomized independently."] = "Случайным образом даёт 3 двухзвёздочные фигуры за 5 золотых. Каждая выбирается независимо.",
+    ["Accumulate %d/30 wins in Fool's Gambit."] = "Побед в «Гамбите Шута»: %d/30",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

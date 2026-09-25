@@ -273,6 +273,8 @@ return {
     ["Activated Resonance: 17"] = "Активировано резонансов: 17",
     ["激活羁绊：18"] = "Активировано резонансов: 18",
     ["前往<h>睡莲小镇</>"] = "Отправляйтесь в <h>городок водяных лилий</>",
+    ["After opening, you can choose 1 Resonance Badge from the candidates."] = "После открытия можно выбрать 1 эмблему резонанса из предложенных.",
+    ["Resonance: 6 Forsaken Land of the Gods | 4 Absolute Shields | 1 Ancestor's Glory; Main Carry: Bow Knight 3★, Frank Lee 3★; Main Tank: Ancestor Armor 2★, Giant Corpse 2★ | Rare · Bulwark War Helm; Strategy: Chase 3★ for Bow Knight; Forsaken Land stacks health, Absolute Shields provide damage reduction."] = "Резонансы: 6 Земли, отвергнутые Богами | 4 Абсолютный щит | 1 Слава предков; основной урон: Рыцарь-лучник 3★, Фрэнк Ли 3★; основной танк: Доспех предков 2★, Гигантский труп 2★ | Редкое · Боевой шлем Оплота; тактика: доведите Рыцаря-лучника до 3★; Отвергнутые накапливают здоровье, Абсолютный щит снижает урон",
     ["没错 搬完这件就再也不用见到你了 真让人开心"] = "Верно! Как перетащу вот это, больше никогда тебя не увижу, какая радость!",
     ["Wesson"] = "Вессон",
     ["Karina"] = "Карина",

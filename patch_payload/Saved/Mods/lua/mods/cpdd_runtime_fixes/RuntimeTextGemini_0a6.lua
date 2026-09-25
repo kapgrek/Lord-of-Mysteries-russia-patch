@@ -242,5 +242,7 @@ return {
     ["I love you!"] = "Я тебя люблю!",
     ["Search Range"] = "Диапазон поиска",
     ["<P_Heart> (You must be talking about that lady on the street corner.) </>"] = "<P_Heart> (Вы, должно быть, имеете в виду ту женщину на углу улицы.) </>",
+    ["随机获得1个二星5费棋子。"] = "Случайным образом даёт 1 двухзвёздочную фигуру за 5 золотых.",
+    ["Stomp the front with the power of civilization, dealing {*d,F1690001,atkMin,1.77} Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds."] = "Силой цивилизации тяжело топает вперёд, нанося {*d,F1690001,atkMin,1.77} ед. урона от атаки и отбрасывая врагов. Получает <HighLight>40%</> снижения урона на <HighLight>6</> сек.",
     ["Colson"] = "Колсон",
 }

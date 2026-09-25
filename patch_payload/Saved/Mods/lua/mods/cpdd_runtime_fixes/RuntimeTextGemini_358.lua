@@ -243,5 +243,8 @@ return {
     ["Obtained initial Chamber of Commerce ticket: %d"] = "Получен первоначальный билет Торгово-промышленной палаты: %d.",
     ["The police station is under martial law; the \"Council Security Team,\" one of the three major gangs, is hunting down a serial killer. Does the police station really have ties to the gangs?"] = "В полицейском участке действует военное положение; «Группа безопасности Совета», одна из трех крупнейших банд, выслеживает серийного убийцу. Действительно ли полицейский участок связан с бандами?",
     ["Equip to gain the [Warrior] bond."] = "Экипируйте, чтобы получить резонанс [Воин].",
+    ["Continuously pierce enemies in front with Lightning Rays and detonate in the target area, dealing a total of {*d,F1690001,atkMin,7.3} Attack damage."] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,7.3} ед. урона от атаки.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>363%</> = {*d,F1690001,atkMin,3.63}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>363%</> = {*d,F1690001,atkMin,3.63}",
+    ["编辑失败：棋子已达最小星级"] = "Не удалось изменить: у фигуры минимальная звёздность",
     ["Mustafa"] = "Мустафа",
 }

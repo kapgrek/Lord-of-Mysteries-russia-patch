@@ -289,5 +289,6 @@ return {
     ["Then stop doing spirit mediumship, why not switch to Sequence 7?"] = "Тогда перестаньте заниматься медиумизмом, почему бы не переключиться на Последовательность 7?",
     ["Equip to gain the [Spectator] bond."] = "Экипируйте, чтобы получить резонанс [Зритель].",
     ["走近查看篮子里的贺卡"] = "Подход к просмотру открытки в корзине",
+    ["Jump and Ground Fracture, dealing {*d,F1690001,atkMin,2.15} Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds."] = "В прыжке раскалывает землю, нанося окружающим врагам {*d,F1690001,atkMin,2.15} ед. урона от атаки и оглушая их на <HighLight>1</> сек.",
     ["Ronan"] = "Ронан",
 }

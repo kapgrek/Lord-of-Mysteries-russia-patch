@@ -223,6 +223,7 @@ return {
     ["Crimson Temptation opening"] = "Открытие «Багрового искушения»",
     ["<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>100</>. If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Escape invincibility"] = "Побег из непобедимости",
+    ["累计有25名己方棋子阵亡"] = "Всего погибло 25 ваших фигур",
     ["Osman"] = "Осман",
     ["状态冲突所处状态列表:"] = "Список конфликтующих государств:",
     ["父亲六年前去世了，今年……本来是他们第五十年的纪念日。"] = "Отец умер шесть лет назад, и в этом году... должно было быть их пятидесятилетие.",

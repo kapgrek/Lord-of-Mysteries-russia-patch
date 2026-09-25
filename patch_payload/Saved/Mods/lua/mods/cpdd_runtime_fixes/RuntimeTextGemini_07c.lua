@@ -242,6 +242,7 @@ return {
     ["Equip to gain the [Mystery Pryer] bond."] = "Экипируйте, чтобы получить резонанс [Подглядывающий за Тайнами].",
     ["【魔女诅咒】"] = "【Проклятие Демоницы】",
     ["Randomly gain 1 1-cost piece<HighLight></>. Thereafter, gain a 1-star copy of that piece each round<HighLight></><HighLight></>."] = "Случайным образом даёт 1 фигуру за 1 золотой<HighLight></>. Затем каждый раунд даёт 1-звёздочную копию этой фигуры<HighLight></><HighLight></>.",
+    ["连发三枚星辉弹，共造成{*d,F1690001,atkMin,5.37}点攻击伤害。命中后为生命比例最低的友军恢复<HighLight>16%</>最大生命。"] = "Выпускает подряд три снаряда звёздного сияния, в сумме {*d,F1690001,atkMin,5.37} ед. урона от атаки. При попадании восстанавливает <HighLight>16%</> макс. здоровья союзнику с наименьшей долей здоровья.",
     ["开启灵视  玩家设置任务标记"] = "Активировать духовное зрение; игрок устанавливает квестовую метку.",
     ["August 11th, 8 PM, Mrs. Lawis, who made a living making matchboxes on <Tips id=\"#160\">Iron Cross Street Lower Street</>, died of a sudden illness. Died of a sudden illness. \n     Due to the recent number of <Mark id=\"#159\">abnormal death cases</> exceeding the normal value, it has been handed over to the Loen Kingdom."] = "11 августа в 8 часов вечера на <Tips id=\"#160\">Нижней улице Железного Креста</> миссис Лоуис, зарабатывавшая на жизнь клейкой спичечных коробков, скоропостижно скончалась от болезни. Скоропостижно скончалась от болезни.\n     Поскольку за последнее время число <Mark id=\"#159\">подозрительных смертей</> превысило обычную норму, дело было передано Королевской полиции Лоэна.",
 }

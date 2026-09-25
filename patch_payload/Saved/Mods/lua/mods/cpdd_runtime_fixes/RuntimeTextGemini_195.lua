@@ -281,6 +281,7 @@ return {
     ["The new name must be different from the old name. Please enter it again."] = "Новое имя должно отличаться от старого имени. Пожалуйста, введите его еще раз.",
     ["Recommended Products"] = "Рекомендуемые продукты",
     ["补领凭券"] = "Купон компенсации",
+    ["累计3个回合结束时，备战席恰好有4枚棋子"] = "3 раза завершить раунд, имея на скамейке запасных ровно 4 фигуры",
     ["哎哟，自己摔的还怪地不平？"] = "Ой, ты упал сам и винишь в этом неровную землю?",
     ["精致黄铜打造，轻巧古典，绝佳的阅读伴侣。"] = "Изготовлен из изысканной латуни, легкий и классический, отличный компаньон для чтения.",
     ["　　What exactly caused the <Mark id=\"#159\">suburban plant</> assault incident? I haven't found a single clue. When I asked the people involved, they were practically suffering from amnesia. No one remembers what happened that day!\n\n\n　　How ridiculous. Do they really think I, Lorin, would give up the investigation because of a little difficulty like this?"] = "　　Что же на самом деле послужило причиной нападения <Mark id=\"#159\">пригородных растений</>? Мне не удалось найти ни единой зацепки. Опрос свидетелей тоже ничего не дал — у них будто отшибло память. Никто не помнит, что стряслось в тот день!\r\n\r\n\r\n　　Какая нелепость. Неужели они думают, что я, Лорин, брошу расследование из-за таких пустяков?",

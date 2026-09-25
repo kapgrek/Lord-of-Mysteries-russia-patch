@@ -221,5 +221,6 @@ return {
     ["[The Great Master]"] = "[Великий Мастер]",
     ["Raise a wall of waves to sweep the front, dealing <Yellow>139</> Attack damage and knocking back enemies. Then, a Lightning Strike bombards the same area, dealing an additional <Yellow>69</> Attack damage."] = "Поднимает стену волн, сметающую врагов впереди, нанося <Yellow>139</> ед. урона от атаки и отбрасывая их назад. Затем Удар молнии поражает ту же область, нанося дополнительно <Yellow>69</> ед. урона от атаки.",
     ["When Roselle Gustav enters the field: All allies +<HighLight>1%</> damage. [Arcane] gains additional <HighLight>1</> Mana recovery per second."] = "Когда Розель Густав выходит на поле: все союзники +<HighLight>1%</> к урону. [Тайная магия] получает дополнительно <HighLight>1</> ед. восстановления маны в сек.",
+    ["Swings the Mountain-Breaking Heavy Axe, dealing {*d,F1690001,atkMin,4.51} attack damage to enemies in front. Grants a shield equal to <HighLight>20%</> of max health, lasting for <HighLight>7.5</> seconds."] = "Взмахивает сокрушающим горы тяжёлым топором, нанося врагам впереди {*d,F1690001,atkMin,4.51} ед. урона от атаки. Получает щит на <HighLight>20%</> макс. здоровья на <HighLight>7.5</> сек.",
     ["<P_Yellow>（洗牌递到你面前）</>你想探索哪个秘密？"] = "<P_Yellow> (перетасовывает карты и протягивает их вам) </> Какой секрет вы хотите раскрыть?",
 }

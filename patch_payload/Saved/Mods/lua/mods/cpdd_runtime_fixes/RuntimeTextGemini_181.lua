@@ -269,5 +269,7 @@ return {
     ["Forsaken Land of the Gods Badge"] = "Эмблема Земель, отвергнутых Богами",
     ["Iron Helmet"] = "Железный шлем",
     ["Defense <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Reduction increased.\""] = "Защитная <Highlight>мутировавшая материя</> со свойством <Highlight><Шут></>: «Нейтрализует отрицательные эффекты Запечатанных Артефактов, повышает уровень всех навыков на 1, увеличивает снижение урона».",
+    ["释放恐惧回声，对周围敌人造成{*d,F1690001,atkMin,4.26}点攻击伤害。"] = "Высвобождает эхо ужаса, нанося окружающим врагам {*d,F1690001,atkMin,4.26} ед. урона от атаки.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}",
     ["Kashidun"] = "Кашидун",
 }

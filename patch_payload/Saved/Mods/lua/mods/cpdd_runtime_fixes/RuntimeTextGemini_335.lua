@@ -277,6 +277,7 @@ return {
     ["Respawn point · Underground"] = "Точка возрождения · Подземелье",
     ["I miss those old folks... How is Adelaide? Is that guy still as noisy when he laughs?"] = "Я скучаю по этим старикам... Как Аделаида? Этот парень все еще такой же шумный, когда смеется?",
     ["Last-Second Rescue Trigger"] = "Триггер спасения в последнюю секунду",
+    ["Throw two doom cards to strike the target continuously, dealing a total of {*d,F1690001,atkMin,6.56} Attack damage. Then randomly increase Attack Speed by <HighLight>20%</> or Attack by <HighLight>10%</> for <HighLight>4</> seconds."] = "Бросает в цель две карты злого рока, в сумме {*d,F1690001,atkMin,6.56} ед. урона от атаки. Затем случайно повышает скорость атаки на <HighLight>20%</> или атаку на <HighLight>10%</> на <HighLight>4</> сек.",
     ["这件是我们店里最时兴的款式了，领口的蕾丝是鲁恩王室同款……"] = "Это самый модный стиль в нашем магазине; кружево на воротнике такое же, как у членов королевской семьи Лоен...",
     ["采集指定TemplateID的采集物  传送到指定场景的坐标位置"] = "Собрать предмет с указанным TemplateID, телепортироваться по координатам в указанной сцене.",
 }

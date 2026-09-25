@@ -267,6 +267,8 @@ return {
     ["Competition Badge"] = "Значок конкурса",
     ["For Irene, what is her answer?"] = "Ирен, каков ее ответ?",
     ["使<HighLight>2</>格内的敌人每秒损失其最大生命值的<HighLight>1%</>，并使其受到的治疗效果降低<HighLight>30%</>，重伤持续<HighLight>5</>秒，处于范围内时刷新持续时间。"] = "Заставляет врагов в пределах <HighLight>2</> клеток терять <HighLight>1%</> от макс. здоровья в секунду и снижает получаемое ими исцеление на <HighLight>30%</>. Тяжёлое ранение длится <HighLight>5</> сек. и обновляется, пока цель в зоне действия.",
+    ["Accumulated 5 Gold Coin interest"] = "Получить 5 золотых монет процентов",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>660%</> = {*d,F1690001,atkMin,6.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>660%</> = {*d,F1690001,atkMin,6.6}",
     ["She is undoubtedly the most eye-catching person in the room. Her features are so exquisite they are almost \n unreal, and her gray-green eyes carry a casual detachment \n—as if she is enjoying this ball, yet also watching everyone coldly from the sidelines."] = "Она, бесспорно, привлекала к себе больше всего внимания. Черты ее лица были настолько изысканны, что казались почти нереальными, а в серо-зеленых глазах читалась легкая отрешенность — словно она наслаждалась балом, но в то же время безучастно взирала на окружающих со стороны.",
     ["Daxton"] = "Дакстон",
     ["任务自定义事件  玩家移除任务道具（全部删除）  传送回大世界场景"] = "Пользовательское событие квеста, игрок удаляет квестовый предмет (удалить все), телепортируется обратно на основную мировую сцену.",

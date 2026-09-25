@@ -264,6 +264,8 @@ return {
     ["If you don't become a True God, you will end up as ashes!"] = "Если ты не станешь Истинным Богом, ты превратишься в пепел!",
     ["Standard Sealed Artifact Pool"] = "Стандартный Запечатанный Бассейн Артефактов",
     ["New arrivals for Spirit World Summon"] = "Новинки Призыва Мира Духов",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}",
+    ["Save failed: Current lineup data error."] = "Не удалось сохранить: ошибка данных текущего состава",
     ["Sediment at the bottom of the cup is normal. Wishing you a peaceful night."] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
     ["Milana"] = "Милана·",
     ["Zahir"] = "Захир",

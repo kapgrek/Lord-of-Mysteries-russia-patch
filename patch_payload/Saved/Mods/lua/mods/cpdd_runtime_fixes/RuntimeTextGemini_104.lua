@@ -249,5 +249,6 @@ return {
     ["Sorry... that one is not for sale; it is a custom piece for a gentleman."] = "Извините... этот не продается; это изготовленная на заказ вещь для джентльмена.",
     ["It's the piece you hand-copied."] = "Это фрагмент, который вы скопировали вручную.",
     ["Selling oysters during the day, cleaning oysters in the evening, transporting oysters at night, oysters, oysters, it's all oysters!"] = "Днем продаем устрицы, вечером чистим, ночью перевозим устрицы, устрицы, устрицы, это все устрицы!",
+    ["Defense reduced by <HighLight>16%</> for <HighLight>15</> seconds. Randomly select <HighLight>1</> enemy piece defeated by us in the previous round, charm it with the Witch's Charm, and add it to our side as a <HighLight>1</>-star unit."] = "Защита снижена на <HighLight>16%</> на <HighLight>15</> сек. Каждый раунд случайная <HighLight>1</> вражеская фигура, побеждённая вами в прошлом бою, поддаётся Чарам ведьмы и переходит на вашу сторону <HighLight>1</>-звёздочной.",
     ["播放Dialogue  玩家传送到位面"] = "Играйте в диалог, игрок телепортируется в самолет.",
 }

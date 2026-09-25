@@ -280,6 +280,7 @@ return {
     ["激活羁绊：4"] = "Активировано резонанса: 4",
     ["Equip to gain the [Giant Dragon Inheritance] resonance."] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона].",
     ["Approach to check the greeting card in the basket"] = "Подход к просмотру открытки в корзине",
+    ["连击总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>2000%</> = {*d,F1690001,atkMin,20}点，黑焰每秒伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}点"] = "Общий урон серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, урон Чёрного пламени в секунду: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

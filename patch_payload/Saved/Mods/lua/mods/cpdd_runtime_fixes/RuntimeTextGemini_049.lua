@@ -224,6 +224,8 @@ return {
     ["Starts [Extraordinary Quests]. Complete quests to accumulate [Quest Points] and claim fate gifts upon reaching thresholds."] = "Начинает [Потусторонние задания]. Выполняйте задания, чтобы накапливать [Очки заданий] и получать дары судьбы по достижении пороговых значений.",
     ["Gain one 2-star chess piece and 1 Gold Coin every time you level up. The cost tier of this chess piece is your level minus 4 (maximum: 5-cost)."] = "Даёт одну 2-звёздочную фигуру и 1 золотую монету при каждом повышении уровня. Стоимость фигуры равна вашему уровню минус 4 (максимум: 5 золотых).",
     ["Pointer mark"] = "Указатель Марк",
+    ["全部命中伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}点三星：全部命中伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>1500%</> = {*d,F1690001,atkMin,15}点"] = "Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}; 3 звезды: Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
+    ["Fool's Gambit - Lineup Application"] = "«Гамбит Шута» — применение составов",
     ["与Npc进行对话  对象同场景传送"] = "Диалог с NPC. Телепортация объекта в пределах той же сцены.",
     ["哇，这条河好像藏着好多秘密啊……"] = "Ух ты, кажется, эта река скрывает столько тайн...",
     ["Adaline"] = "Адалин",

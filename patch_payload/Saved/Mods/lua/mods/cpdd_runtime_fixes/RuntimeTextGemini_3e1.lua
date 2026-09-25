@@ -272,4 +272,5 @@ return {
     ["12 minutes 28 seconds"] = "12 минут 28 секунд",
     ["Secret Realm 2_Combat"] = "Секретное царство 2_Бой",
     ["Blood Hunt Cloak"] = "Плащ кровавой охоты",
+    ["Beyonder Resonance Attribute Boost Explanation"] = "О росте характеристик от Потустороннего резонанса",
 }

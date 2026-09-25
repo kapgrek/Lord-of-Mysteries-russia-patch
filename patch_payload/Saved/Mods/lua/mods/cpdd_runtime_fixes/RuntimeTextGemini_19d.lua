@@ -266,6 +266,8 @@ return {
     ["Confirm Highest Price"] = "Подтвердите самую высокую цену",
     ["Bathtub: Luxury"] = "Ванна: Роскошная",
     ["We probably won't see each other again."] = "Вероятно, мы больше не увидимся.",
+    ["Play the Spirit Mediumship trio, impacting surrounding enemies three times in succession, dealing a total of {*d,F1690001,atkMin,5.33} Attack damage."] = "Играет медиумическое трио, трижды подряд ударяя по окружающим врагам, в сумме {*d,F1690001,atkMin,5.33} ед. урона от атаки.",
+    ["上传失败：已达上传阵容数上限"] = "Не удалось загрузить: достигнут лимит загруженных составов",
     ["威廉，你可真是卑鄙。"] = "Уильям, ты действительно презренный.",
     ["俺们真的要在这里买？看起来好贵……"] = "Неужели мы действительно собираемся покупать это здесь? Это выглядит так дорого...",
     ["All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",

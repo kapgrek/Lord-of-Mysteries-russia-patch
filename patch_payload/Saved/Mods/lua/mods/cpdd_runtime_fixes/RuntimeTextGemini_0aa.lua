@@ -241,5 +241,6 @@ return {
     ["Accordion Tab"] = "Вкладка «Аккордеон»",
     ["Force has its form, condensing into shadows. Borrowing the bloodline of the Twilight Giant, it accumulates power for the upcoming attack stance, manifesting the trajectory of the moves. When executing a powerful attack, the formed trajectory will follow the attack motion, creating afterimages."] = "Сила обретает форму, а форма сгущается в тень. Черпая силу из родословной Сумеречного Гиганта, копит мощь для грядущей атакующей стойки, проявляя траекторию приёмов. При нанесении сокрушительного удара эта траектория порождает остаточные образы вслед за движением.",
     ["Insightful Heart Healing"] = "Проницательное исцеление сердца",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>363%</> = {*d,F1690001,atkMin,3.63}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>363%</> = {*d,F1690001,atkMin,3.63}",
     ["Skyla"] = "Скайла",
 }

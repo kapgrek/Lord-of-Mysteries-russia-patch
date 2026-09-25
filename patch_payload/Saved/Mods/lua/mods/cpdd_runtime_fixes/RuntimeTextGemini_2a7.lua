@@ -284,6 +284,7 @@ return {
     ["Cup without Coffee"] = "Чашка без кофе",
     ["Now it's ring-finding time; please join my plan."] = "Теперь пришло время поиска кольца; пожалуйста, присоединяйтесь к моему плану.",
     ["Equip to gain the [Life School of Thought] bond"] = "Экипируйте, чтобы получить резонанс [Школа Мысли Жизни]",
+    ["Estimated Gift Value: %d Gold Coins"] = "Примерная ценность дара: %d зол. монет",
     ["Gather collection item with specified TemplateID  Object sends scene event"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["我明明是一个人！你侮辱我人格！接招！"] = "Я явно всего лишь один человек! Вы оскорбляете мой характер! Возьми это!",
 }

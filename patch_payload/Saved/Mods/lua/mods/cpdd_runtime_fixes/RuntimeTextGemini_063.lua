@@ -260,6 +260,7 @@ return {
     ["Sevenfold Desire"] = "Семикратное желание",
     ["《诡秘之主》Y1S1.2更新公告"] = "«Повелитель Тайн»: объявление об обновлении Y1S1.2",
     ["Restrict Forward Movement"] = "Ограничить движение вперед",
+    ["A piece of fabric, familiar patterns, this seems to be... part of a Nighthawk uniform?"] = "Лоскут ткани со знакомым узором… кажется, это часть формы Ночных ястребов?",
     ["Gustavo"] = "Густаво",
     ["<MT>来防御</>"] = "<MT> для защиты </>",
 }

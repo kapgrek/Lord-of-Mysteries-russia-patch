@@ -277,6 +277,9 @@ return {
     ["Zhuoshi"] = "Чжуоши",
     ["Dynamic content cannot be empty."] = "Динамический контент не может быть пустым.",
     ["When Health is below <HighLight>50%</>, Damage Reduction is increased by an additional <HighLight>20%</>."] = "Когда здоровье ниже <HighLight>50%</>, снижение урона дополнительно увеличивается на <HighLight>20%</>.",
+    ["随机二星4费棋子"] = "Случайная двухзвёздочная фигура за 4 золотых",
+    ["Assault an area dense with enemies, dealing {*d,F1690001,atkMin,2} Attack damage. Upon casting, restore <HighLight>40%</> of your own Max Health and increase Defense by <HighLight>40</> points for <HighLight>4</> seconds."] = "Нападает на скопление врагов, нанося {*d,F1690001,atkMin,2} ед. урона от атаки. При применении восстанавливает <HighLight>40%</> макс. здоровья и повышает защиту на <HighLight>40</> на <HighLight>4</> сек.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>695%</> = {*d,F1690001,atkMin,6.95}; Three Stars: Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1500%</> = {*d,F1690001,atkMin,15}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>695%</> = {*d,F1690001,atkMin,6.95}; 3 звезды: Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["Wells"] = "Уэллс",
     ["教会活动上，主教送给我们蜡烛。那蜡烛不用点燃就能发光，惨白惨白的，省下一大笔蜡烛钱……可用久了，心里总是发冷。"] = "На церковном мероприятии архиерей подарил нам свечи. Свечи светились, не зажигаясь, бледно-белые, экономя много денег на свечи... но после долгого их использования у меня всегда было холодно на сердце.",
 }

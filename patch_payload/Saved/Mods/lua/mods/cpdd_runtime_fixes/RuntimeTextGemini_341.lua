@@ -273,6 +273,7 @@ return {
     ["Interact with bread desk"] = "Взаимодействие с хлебным столом",
     ["{{player.name}} has used their footsteps as a ruler and memories as a monument, taking the broken and complete parts of Tingen into their embrace—earning the title <Chat_Highlight>【Make Tingen Great】</>. This city has finally lived a complete life under their feet."] = "{{player.name}} использовали свои шаги в качестве правителя, а воспоминания — в качестве памятника, взяв в свои объятия сломанные и целые части Тингена, получив титул <Chat_Highlight>【Сделаем Тингена великим】</>. Этот город наконец-то зажил полноценной жизнью под их ногами.",
     ["Life Sect (2) 10% Attack Power"] = "Секта Жизни (2) 10% Сила атаки",
+    ["羁绊纹章"] = "Герб связи",
     ["Westin"] = "Вестин",
     ["Saanvi"] = "Саанви",
     ["与Npc进行对话  延迟执行  对象播放指定对白内容  对象播动作（拥有状态记录）"] = "Поговорите с NPC. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога. Объект выполняет действие (с записью состояния).",

@@ -226,4 +226,7 @@ return {
     ["1. Club member locking rules: During club-based activities (such as the Four-Way League, Phantom of the Opera, City of Dragon Hunting, Plateau Battle), clubs are not allowed to add or remove members. \n 2. Club activity pathway participation limits: Some club activities have restrictions on the number of participants per pathway; see the club activity instructions for details."] = "1. Правила блокировки членов клуба: во время игровых действий в клубе (таких как «Лига четырех партий», «Призрак оперы», «Война в охотничьем городе» и «Война на плато») клуб не позволяет членам присоединяться или выходить из клуба. \n2. Ограничения на количество людей, которые могут участвовать в клубных мероприятиях: Некоторые клубные мероприятия имеют ограничения на количество людей, которые могут участвовать в мероприятиях. Подробности смотрите в описании деятельности клуба.",
     ["Steam Era · Overload Core"] = "Эпоха пара · Ядро перегрузки",
     ["额外造成<HighLight>40%</>攻击伤害，每<HighLight>1</>格距离该伤害提升<HighLight>10%</>。"] = "Дополнительно наносит <HighLight>40%</> урона от атаки; за каждую <HighLight>1</> клетку дистанции урон увеличивается на <HighLight>10%</>.",
+    ["获得第1名并上阵10个棋子"] = "Занять 1-е место, выставив 10 фигур",
+    ["自走棋-子爵夫人亡者之花"] = "Автошахматы — Цветок мёртвых Виконтессы",
+    ["Fool's Gambit Talent"] = "Таланты «Гамбита Шута»",
 }

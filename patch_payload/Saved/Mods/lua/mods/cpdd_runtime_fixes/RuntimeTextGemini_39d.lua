@@ -239,6 +239,8 @@ return {
     ["Original Work · Advice from an Old Hand"] = "Оригинальная работа · Совет старого друга",
     ["Saint Selena Cathedral, please."] = "Собор Святой Селены, пожалуйста.",
     ["Gain 2 1-star Astrolabe Users<HighLight></>. Skill Strengthening: Pull enemies in a dense area, dealing area damage and applying Stun<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 Low-Level Piece Recorders<HighLight></>."] = "Даёт 2 1-звёздочных Астрологов<HighLight></>. Усиление навыка: притягивает скопление врагов, нанося урон по площади и оглушая их<HighLight></>. Через 5 раундов поединка<HighLight></> даёт 2 Регистратора фигур низкого уровня<HighLight></>.",
+    ["愚者棋局名词什么意思"] = "Что значат термины «Гамбита Шута»?",
+    ["共鸣介绍"] = "О резонансах",
     ["与奥黛丽好感度达到%d/3级。"] = "Достигните уровня благосклонности %d/3 вместе с Одри.",
     ["与Npc进行对话  NPC名字  传送回大世界场景"] = "Поговорите с NPC, укажите имя NPC, телепортируйтесь обратно на главную мировую сцену.",
     ["Wait time  Delayed execution  Player plays speech text visible only to self  Player plays 2D sound effect (audible only to self)  Player plays speech text visible only to self  Delayed execution"] = "Время ожидания Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Игрок воспроизводит 2D звуковой эффект (слышен только для себя) Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение",

@@ -263,6 +263,7 @@ return {
     ["Tarot Card 1"] = "Карта Таро 1",
     ["About playing cards"] = "Об игральных картах",
     ["【绯红信徒】"] = "【Багряный верующий】",
+    ["Resonance: 7 Sinful Tingen | 2 Witch Sect | 2 Iron and Blood | 2 Swift Hunt; Main Carry: \"Luper, the Alpha Wolf\" 3★, Lambert Noose 2★ | Rare · Swift Fate Card; Main Tank: Swain 3★, Profane Witch 3★ | Rare · Bulwark War Helm; Strategy: Chase 3★ for \"Luper, the Alpha Wolf\"; Sinful Tingen resonance provides stat growth, Witches reduce defense."] = "Резонансы: 7 Грешный Тинген | 2 Секта Демониц | 2 Железо и кровь | 2 Быстрая охота; основной урон: «Вожак» Лупер 3★, Ламберт Петля 2★ | Редкое · Карта стремительной жизни; основной танк: Суэйн 3★, Нечестивая ведьма 3★ | Редкое · Боевой шлем Оплота; тактика: доведите «Вожака» Лупера до 3★; резонанс Грешного Тингена даёт рост характеристик, ведьмы снижают защиту",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }

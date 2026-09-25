@@ -261,5 +261,6 @@ return {
     ["\nRecommended Set Menu\nAppetizer: Intis Green Sauce Baked Snails\nMain Course: Premium Duck Confit\nDessert: Roselle Puff Tart"] = "\n Рекомендуемый комплексный обед \n Закуска: Запеченные улитки с соусом песто Интис \n Основное блюдо: Утиная ножка фирменного конфи \n Десерт: Пирог из слоеного теста «Розель»",
     ["Cancel Registration"] = "Отменить регистрацию",
     ["Finish Count"] = "Финальный счет",
+    ["Edit failed: Too many pieces on the field."] = "Не удалось изменить: слишком много фигур на поле",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放主线任务开始展示界面"] = "Соберите указанный элемент TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок воспроизводит интерфейс отображения начала основного квеста.",
 }

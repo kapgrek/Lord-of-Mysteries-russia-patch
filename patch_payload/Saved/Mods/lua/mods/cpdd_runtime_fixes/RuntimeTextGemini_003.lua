@@ -264,4 +264,5 @@ return {
     ["Equip to gain the [Lucky One] bond"] = "Экипируйте, чтобы получить резонанс [Счастливчик]",
     ["Your pieces gain 15% Critical Hit Rate<HighLight></> and 25% Critical Damage<HighLight></>."] = "Ваши фигуры получают 15% шанса крит. удара<HighLight></> и 25% крит. урона<HighLight></>.",
     ["<CostRed>{1,2,（烙印已失效）}</>Pathway Specialization increased by <Mark>100</>, Pathway Special Defense increased by <Mark>100</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</> Фокус пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
+    ["开启后，可从候选的封印装备中选择1件。"] = "После открытия можно выбрать 1 предмет запечатанного снаряжения из предложенных.",
 }

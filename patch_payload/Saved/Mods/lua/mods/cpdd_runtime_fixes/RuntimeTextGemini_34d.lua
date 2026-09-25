@@ -255,5 +255,7 @@ return {
     ["A mahogany music stand stands quietly to the side, bearing the weight of music and text."] = "Пюпитр из красного дерева тихо стоит в стороне, выдерживая вес музыки и текста.",
     ["Iris sparkle brightness"] = "Ирис сияет яркостью",
     ["You are in charge of the Baron's Medicine. You poisoned the Baron while delivering the medicine, faked the illusion that he was still alive, and even forged the crime scene to frame the servants."] = "Вы отвечаете за Лекарство Барона. Вы отравили барона, когда доставляли лекарство, имитировали иллюзию, что он все еще жив, и даже подделали место преступления, чтобы подставить слуг.",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>239%</> = {*d,F1690001,atkMin,2.39}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>239%</> = {*d,F1690001,atkMin,2.39}",
+    ["Issues an arrest warrant for <HighLight>all</> enemy pieces, dealing {*d,F1690001,atkMin,50} Attack damage to each target and pulling them to the front."] = "Выписывает ордер на арест <HighLight>всех</> вражеских фигур: наносит каждой цели {*d,F1690001,atkMin,50} ед. урона от атаки и притягивает её к себе.",
     ["……这群家伙居然在南瓜里下药！"] = "...Эти ребята на самом деле травят тыквы!",
 }

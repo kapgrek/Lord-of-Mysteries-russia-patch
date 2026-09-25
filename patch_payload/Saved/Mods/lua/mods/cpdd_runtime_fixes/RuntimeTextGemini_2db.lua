@@ -269,4 +269,5 @@ return {
     ["Obtain Corresponding Mount"] = "Получите соответствующее крепление",
     ["When someone asks what song it was, he says, \"Don't ask. You'll understand once you hear it.\""] = "Когда кто-то спрашивает, что это была за песня, он отвечает: «Не спрашивай. Ты поймешь, как только услышишь».",
     ["Spirit Blessing Crystal Pendant"] = "Хрустальный кулон благословения духа",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>412%</> = {*d,F1690001,atkMin,4.12}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>412%</> = {*d,F1690001,atkMin,4.12}",
 }

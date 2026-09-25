@@ -254,5 +254,6 @@ return {
     ["Switched to group plan."] = "Перешел на групповой план.",
     ["[Adventure] Echo of Spirit and Knowledge"] = "[Приключение] Эхо духа и знаний",
     ["Money corruption"] = "Денежная Искажение",
+    ["Damage: Attack × 1500% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,15}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["采集指定TemplateID的采集物  延迟执行  对象播放指定对白内容"] = "Собрать элементы с указанным TemplateID. Отложенное исполнение. Объект воспроизводит указанный диалог.",
 }

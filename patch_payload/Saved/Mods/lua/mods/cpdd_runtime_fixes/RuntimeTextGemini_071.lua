@@ -236,6 +236,7 @@ return {
     ["[May Manor] - [Believer Number One] - Phase 1 Damage Reduction Buff Removal Break"] = "[May Manor] - [Believer Number One] - Phase 1 Снижение урона Buff Removal Break",
     ["Spirituality Flower Pendant"] = "Цветочный кулон духовности",
     ["Rescue count mark buff"] = "Спасение Графа Марка Баффа",
+    ["全部命中伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}点"] = "Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}",
     ["前往指定坐标交互并进入位面  玩家发送任务道具"] = "Перейдите к указанной координате, чтобы взаимодействовать и войти в самолет; игрок отправляет квестовый предмет.",
     ["Amitie"] = "дружба",
     ["多么诚实的\r\n贪婪……"] = "Как честно\nЖадность...",

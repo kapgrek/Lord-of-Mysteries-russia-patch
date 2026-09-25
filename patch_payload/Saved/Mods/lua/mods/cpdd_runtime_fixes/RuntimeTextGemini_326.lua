@@ -229,5 +229,9 @@ return {
     ["Sir, please retract that statement. Although I am not an aristocrat, my honor is equally inviolable."] = "Сэр, пожалуйста, отзовите это заявление. Хоть я и не аристократ, моя честь столь же неприкосновенна.",
     ["On a route where profit and risk coexist, how will you place your bets?"] = "Как вы будете делать ставки на маршруте, где сосуществуют прибыль и риск?",
     ["Life After the Door"] = "Жизнь за Дверью",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>200%</> = {*d,F1690001,atkMin,2}点，治疗：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>10%</> = {*d,F1690001,maxHp,0.1}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>200%</> = {*d,F1690001,atkMin,2}, исцеление: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>10%</> = {*d,F1690001,maxHp,0.1}",
+    ["获得1个稀有装备宝匣，每个开启后可自选一件对应品质装备。"] = "Даёт 1 ларец с редким снаряжением; открыв его, можно выбрать один предмет снаряжения этого качества.",
+    ["Fool's Gambit Equipment"] = "Снаряжение «Гамбита Шута»",
+    ["共鸣徽章"] = "Эмблема резонанса",
     ["Gia"] = "Джиа",
 }

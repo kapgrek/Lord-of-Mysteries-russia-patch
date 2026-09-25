@@ -249,6 +249,8 @@ return {
     ["Platform 1 Respawn Point"] = "Платформа 1, точка возрождения",
     ["10 seconds<HighLight></> after the battle starts, your pieces restore 30% of their lost Health<HighLight></>."] = "Через 10 сек.<HighLight></> после начала боя ваши фигуры восстанавливают 30% от потерянного здоровья<HighLight></>.",
     ["Hero-Turtle-Mushroom mark buff"] = "Герой-Черепаха-Гриб Марк Бафф",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}",
+    ["装饰片"] = "Декоративная деталь",
     ["睡觉睡觉。。好累"] = "Спи, спи... так устал.",
     ["播放CutScene  玩家传送到位面"] = "Играть в CutScene: игрок телепортируется в подземелье.",
     ["Uriel"] = "Уриэль",

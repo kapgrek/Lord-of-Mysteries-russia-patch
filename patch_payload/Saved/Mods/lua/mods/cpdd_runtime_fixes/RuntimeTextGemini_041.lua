@@ -254,4 +254,7 @@ return {
     ["Observe the stationary <h> crowd </>"] = "Наблюдайте за неподвижной толпой <h> </>.",
     ["装配后获得【极光会】羁绊"] = "Экипируйте, чтобы получить резонанс [Орден Авроры]",
     ["100.2W"] = "100.2W",
+    ["参与一次愚者棋局"] = "Сыграть одну партию «Гамбит Шута»",
+    ["Fires a star-shining piercing arrow, dealing {*d,F1690001,atkMin,2.9025} attack damage to enemies in a straight line, and detonates at the target location, dealing {*d,F1690001,atkMin,0.9675} area damage."] = "Выпускает пронзающую стрелу звёздного сияния, нанося врагам на линии {*d,F1690001,atkMin,2.9025} ед. урона от атаки, а в точке цели стрела взрывается и наносит {*d,F1690001,atkMin,0.9675} ед. урона по области.",
+    ["Randomly obtain two 1-star 3-cost pieces. Each is randomized independently."] = "Случайным образом даёт 2 однозвёздочные фигуры за 3 золотых. Каждая выбирается независимо.",
 }

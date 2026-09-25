@@ -258,5 +258,6 @@ return {
     ["[Blood-Thirst] Grants 30% Lifesteal. Deals additional damage when dealing damage, doubled if target health is below 50%."] = "【 Кровожадность 】 Дает 30% вампиризма. Наносит дополнительный урон при атаках; если здоровье цели ниже 50%, дополнительный урон удваивается.",
     ["Gain an additional <HighLight>20%</> Max Health."] = "Даёт дополнительно <HighLight>20%</> к максимальному здоровью.",
     ["Gain the [Evernight Goddess Church] Resonance."] = "Даёт резонанс [Церковь Богини Вечной Ночи].",
+    ["棋子记录仪是什么"] = "Что такое регистратор фигур?",
     ["Kais"] = "Кейс",
 }

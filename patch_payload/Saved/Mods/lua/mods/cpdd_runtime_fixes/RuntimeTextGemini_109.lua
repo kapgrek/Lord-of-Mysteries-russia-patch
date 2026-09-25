@@ -262,5 +262,7 @@ return {
     ["Taiyuan Lao Ge"] = "Тайюань Лао Гэ",
     ["Set the letter <h> on fire </>"] = "Подожгите букву <h> </>.",
     ["Special 3"] = "Специальный 3",
+    ["Lost a total of 3 combat rounds"] = "Проиграть 3 раунда боя",
+    ["愚者棋局使用<Highlight>右键</>进行移动。"] = "«Гамбит Шута»: перемещение — <Highlight>правой кнопкой мыши</>.",
     ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

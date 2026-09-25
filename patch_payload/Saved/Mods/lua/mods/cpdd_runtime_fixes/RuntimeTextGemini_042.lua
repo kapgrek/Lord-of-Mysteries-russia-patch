@@ -252,6 +252,8 @@ return {
     ["Discarded Shield"] = "Выброшенный щит",
     ["获得【远击】共鸣。开战<HighLight>2</>秒后，攻击提高<HighLight>20%</>，持续<HighLight>6</>秒。"] = "Получает резонанс 【Дальнобойный удар】. Через <HighLight>2</> сек. после начала боя атака увеличивается на <HighLight>20%</> на <HighLight>6</> сек.",
     ["loss of control"] = "Потеря контроля",
+    ["Stomps forward with the power of civilization, dealing {*d,F1690001,atkMin,2.56} attack damage and knocking back enemies. Self gains <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds."] = "Силой цивилизации тяжело топает вперёд, нанося {*d,F1690001,atkMin,2.56} ед. урона от атаки и отбрасывая врагов. Получает <HighLight>40%</> снижения урона на <HighLight>6</> сек.",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}点三星：总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}; 3 звезды: Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}",
     ["补领商店"] = "Возмещение",
     ["Salma"] = "Сальма",
 }

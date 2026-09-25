@@ -235,6 +235,7 @@ return {
     ["Mist line Tingen spawn point"] = "Линия тумана, точка появления Тингена",
     ["During a Club declaration of war, the <Highlight>President, Diplomat, or Director</> may use this item in the Hornacis Mountain Range to initiate a rally for <Highlight>members of this Club within the map</>. Upon use, this item will enter a <Highlight>360</> second Cooldown for the entire Club."] = "Во время войны клубов <Highlight>глава, дипломат или советник</> могут использовать этот предмет в горах Хорнацис, чтобы объявить сбор <Highlight>членов своего клуба на карте</>. После использования предмет уходит на общую перезарядку для всего клуба длительностью <Highlight>360</> сек.",
     ["Deals an additional <HighLight>40%</> Attack damage."] = "Дополнительно наносит <HighLight>40%</> урона от атаки.",
+    ["How do I get a 3-star piece in Fool's Gambit?"] = "Как получить трёхзвёздочную фигуру в «Гамбите Шута»?",
     ["Winnifred"] = "Уиннифред",
     ["与Npc进行对话  对象播放指定对白内容  对象同场景传送"] = "Диалог с NPC; объект проигрывает указанный диалог; объект телепортируется в пределах сцены",
     ["AI path for the current scene:"] = "Путь ИИ для текущей сцены:",

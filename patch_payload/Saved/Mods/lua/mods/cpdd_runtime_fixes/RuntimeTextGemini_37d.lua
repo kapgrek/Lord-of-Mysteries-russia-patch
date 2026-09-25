@@ -245,6 +245,8 @@ return {
     ["After I go back this time, I don't know when I'll be coming to Tingen next."] = "После того, как я вернусь на этот раз, я не знаю, когда я приеду в Тинген в следующий раз.",
     ["Immediately gain 10 Gold Coins, and thereafter gain 9 more Gold Coins at the start of each round."] = "Мгновенно дает 10 монет и дополнительно 9 монет в начале каждого раунда.",
     ["Hidden Space - Laser Effect (2500)"] = "Скрытое пространство - Лазерный эффект (2500)",
+    ["Damage: Attack × 540% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,5.4}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>540%</> = {*d,F1690001,atkMin,5.4}",
+    ["Resonance: Witch Sect·4 | Sinful Tingen·3 | Iron Blood·2 | Spell·2 | Solid Wall·2 | Blood Blade·2\nMain DPS: Trissy 2★, Pain Witch 2★\nMain Tank: Swain 3★, \nStrategy: Front row continues to grow, Witch reduces enemy defense, Trissy and Leonard use dual Blood Blades to cut in and reap"] = "Резонансы: Секта Демониц·4 | Грешный Тинген·3 | Железо и кровь·2 | Колдовство·2 | Твердыня·2 | Кровавый клинок·2\nОсновной урон: Трисси 2★, Ведьма боли 2★\nОсновной танк: Суэйн 3★\nТактика: передний ряд постоянно растёт, ведьмы снижают защиту врага, а Трисси и Леонард с двумя Кровавыми клинками врываются и добивают",
     ["新品上架"] = "Новинки",
     ["潜意识和梦境，都会受到音乐影响。\n其中的凶猛生物，也<InvHighlight>可能在音乐的影响下变得温和</>。"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
     ["【黑夜女神教会】"] = "【Церковь Богини Вечной Ночи】",

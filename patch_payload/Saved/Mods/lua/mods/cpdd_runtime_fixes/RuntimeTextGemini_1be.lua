@@ -272,4 +272,6 @@ return {
     ["Freshly Milked Goat Milk"] = "Свежедоенное козье молоко",
     ["My young mistress has recently taken a liking to a boy, but these two children are always hiding from all of us."] = "Моей молодой хозяйке недавно понравился мальчик, но эти двое детей всегда прячутся от всех нас.",
     ["After dealing damage, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds."] = "После нанесения урона снижает защиту цели на <HighLight>45%</> на <HighLight>3</> сек.",
+    ["After opening, you can choose 1 piece of Sealed Equipment from the candidates."] = "После открытия можно выбрать 1 предмет запечатанного снаряжения из предложенных.",
+    ["Player Health is exactly 1."] = "Здоровье игрока — ровно 1",
 }

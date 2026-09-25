@@ -248,6 +248,7 @@ return {
     ["Spirit body threads button trigger area"] = "Область триггера кнопки «Нити тела духа»",
     ["Gain 2 Low-Level Piece Recorders<HighLight></> and 3/7/12 Gold Coins."] = "Даёт 2 Регистратора фигур низкого уровня<HighLight></> и 3/7/12 золотых монет.",
     ["Thunderbolt Awe"] = "Трепет перед молнией",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>230%</> = {*d,F1690001,atkMin,2.3}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>230%</> = {*d,F1690001,atkMin,2.3}",
     ["与Npc进行对话  玩家发送任务道具  玩家播放单句黑屏字幕  延迟执行  玩家播放单句黑屏字幕"] = "Поговорить с NPC; игрок отправляет квестовый предмет; проигрыватель воспроизводит однострочные субтитры на черном экране; отложенное исполнение; плеер воспроизводит однострочные субтитры с черным экраном.",
     ["Gather collection item with specified TemplateID  Player plays story dialogue  Player removes public group (does not take effect in open world)"] = "Собрать предмет коллекции с указанным TemplateID. Игрок воспроизводит сюжетный диалог. Игрок удаляет общедоступную группу (не действует в открытом мире).",
     ["Ana"] = "Ана",

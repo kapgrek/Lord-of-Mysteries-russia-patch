@@ -300,4 +300,5 @@ return {
     ["Jasmine"] = "Жасмин",
     ["[Companionship]"] = "【Плечом к плечу】",
     ["After dealing a Critical Hit, Critical Damage increases by <HighLight>80%</> for <HighLight>3</> seconds."] = "После нанесения критического удара крит. урон увеличивается на <HighLight>80%</> на <HighLight>3</> сек.",
+    ["发出三次死灵怒嚎，震击周围敌人，共造成{*d,F1690001,atkMin,1.25}点攻击伤害，自身获得{*d,F1690001,maxHp,0.4}点护盾，持续<HighLight>5</>秒。"] = "Трижды издаёт некротический вой, сотрясая окружающих врагов и нанося в сумме {*d,F1690001,atkMin,1.25} ед. урона от атаки. Получает щит на {*d,F1690001,maxHp,0.4} ед. на <HighLight>5</> сек.",
 }

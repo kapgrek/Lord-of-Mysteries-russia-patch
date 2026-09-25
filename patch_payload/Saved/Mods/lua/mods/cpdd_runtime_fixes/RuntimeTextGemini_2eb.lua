@@ -273,6 +273,7 @@ return {
     ["Activated Resonance: 6"] = "Активировано резонансов: 6",
     ["2 [Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
     ["Cannot gain interest<HighLight></>. Immediately gain 3 Gold Coins<HighLight></>, and gain 3 more Gold Coins at the start of the preparation phase after each duel round<HighLight></><HighLight></>."] = "Нельзя получать проценты<HighLight></>. Немедленно даёт 3 золотые монеты<HighLight></>, а также ещё 3 золотые монеты в начале фазы подготовки после каждого раунда поединка<HighLight></><HighLight></>.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>3000%</> = {*d,F1690001,atkMin,30}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>3000%</> = {*d,F1690001,atkMin,30}",
     ["Branda"] = "Бранда",
     ["任务自定义事件  玩家播放单句黑屏字幕"] = "Пользовательское событие квеста. Плеер воспроизводит субтитры с черным экраном, состоящие из одного предложения.",
 }

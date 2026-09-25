@@ -258,5 +258,8 @@ return {
     ["5231276 Mrs. Miriam's Home Single-Player Instance"] = "5231276 Одиночное измерение: Дом госпожи Мириам",
     ["Ray Bieber is berserk; break the shield as soon as possible!"] = "Рэй Бибер в ярости; сломайте щит как можно скорее!",
     ["Gain the [Forsaken Land of the Gods] Resonance."] = "Даёт резонанс [Земли, отвергнутые Богами].",
+    ["A total of 25 friendly pieces have been defeated"] = "Всего погибло 25 ваших фигур",
+    ["获得3个高级棋子记录仪，可复制任意费用棋子的一星版本。"] = "Даёт 3 продвинутых регистратора фигур: они копируют однозвёздочную версию фигуры любой стоимости.",
+    ["Participate in Fool's Gambit %d/150 times."] = "Сыграно партий в «Гамбит Шута»: %d/150.",
     ["Quest Name:"] = "Название квеста:",
 }

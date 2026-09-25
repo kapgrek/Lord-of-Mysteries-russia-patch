@@ -250,5 +250,6 @@ return {
     ["The Love and Desire of the Silver Moon Duke"] = "Любовь и желание герцога Серебряной Луны",
     ["Change to Attack and try."] = "Переключитесь на атаку и попробуйте.",
     ["This pocket watch, you can also call it—the \"Space-Time Beacon.\""] = "Эти карманные часы вы также можете назвать «Маяк пространства-времени».",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}; Three Stars: Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>460%</> = {*d,F1690001,atkMin,4.6}; 3 звезды: Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit, HitBack, HitDown, HitFloat, HitFly, HitStiff, HitDrag.",
 }

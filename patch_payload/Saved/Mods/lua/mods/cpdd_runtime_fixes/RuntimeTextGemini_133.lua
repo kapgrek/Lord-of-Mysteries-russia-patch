@@ -267,6 +267,8 @@ return {
     ["Summon Point 42"] = "Точка призыва 42",
     ["Bedtime Story-3 [Sit] Sit Down and Enjoy a Drink-Coffee"] = "Сказка на ночь-3 [Сидеть] Сядьте и выпейте кофе.",
     ["Get quest jump dialogue ID"] = "Получить идентификатор диалога о прыжке квеста",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>495%</> = {*d,F1690001,atkMin,4.95}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>495%</> = {*d,F1690001,atkMin,4.95}",
+    ["Resonance Introduction"] = "О резонансах",
     ["玩家播放主线任务开始展示界面"] = "Отобразить вступительный экран основного задания игрока",
     ["Annah"] = "Анна",
 }

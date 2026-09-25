@@ -234,6 +234,8 @@ return {
     ["Gain 22/30 Gold Coins<HighLight></>, and the interest cap is increased to 10 Gold Coins<HighLight></>."] = "Даёт 22/30 золотых монет<HighLight></>, а лимит процентов увеличивается до 10 золотых монет<HighLight></>.",
     ["I am a Baboon"] = "я бабуин",
     ["Demon Wolf Frenzy invincibility effect"] = "Эффект неуязвимости Демона-Волка Бешенства",
+    ["Chant the Midnight Poem, dealing {*d,F1690001,atkMin,1.93} Attack damage to surrounding enemies and putting them into a Slumber for <HighLight>1</> seconds, while increasing your own Attack Speed by <HighLight>15%</> for <HighLight>4</> seconds. At three stars: Chant the Midnight Poem, dealing {*d,F1690001,atkMin,5.4} Attack damage to surrounding enemies and putting them into a Slumber for <HighLi"] = "Читает полуночный стих, нанося окружающим врагам {*d,F1690001,atkMin,1.93} ед. урона от атаки и погружая их в Сон на <HighLight>1</> сек.; скорость атаки фигуры повышается на <HighLight>15%</> на <HighLight>4</> сек. 3 звезды: наносит {*d,F1690001,atkMin,5.4} ед. урона от атаки, погружает в Сон на <HighLight>1</> сек.; скорость атаки повышается на <HighLight>15%</> на <HighLight>4</> сек.",
+    ["上传失败：请先保存阵容，再进行上传"] = "Не удалось загрузить: сначала сохраните состав",
     ["任务自定义事件  对象发送场景事件"] = "Пользовательское событие задания  Объект отправляет событие сцены",
     ["Zachary"] = "Закари",
 }

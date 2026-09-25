@@ -273,5 +273,7 @@ return {
     ["Spice vendor - Kariya"] = "Торговец специями - Кария",
     ["Cast skill at half HP"] = "Применение навыка при половине здоровья",
     ["Announcement! Important news!"] = "Объявление! Важная новость!",
+    ["Damage: Attack × 100% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,1}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>100%</> = {*d,F1690001,atkMin,1}",
+    ["A Hundred Responses"] = "Сотня откликов",
     ["Demira"] = "Демира",
 }

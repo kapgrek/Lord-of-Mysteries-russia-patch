@@ -244,6 +244,8 @@ return {
     ["—Blessings to you both, may your love be as pure and flawless as a flower. The Goddess will surely bless your union."] = "— Благословений вам обоим, пусть ваша любовь будет такой же чистой и безупречной, как цветок. Богиня обязательно благословит ваш союз.",
     ["Contested Area 34 Invisible Monster"] = "Оспариваемая зона 34: Невидимый монстр",
     ["触碰<h>未来的命运</>"] = "Прикоснитесь к <h>будущей судьбе</>",
+    ["Bite the target, dealing {*d,F1690001,atkMin,3.33} Attack damage, and provide a Shield to all allies equal to <HighLight>15%</> of their respective maximum health for <HighLight>5</> seconds."] = "Кусает цель, нанося {*d,F1690001,atkMin,3.33} ед. урона от атаки, и даёт всем союзникам щит на <HighLight>15%</> их макс. здоровья на <HighLight>5</> сек.",
+    ["编辑失败：场上棋子数量过多"] = "Не удалось изменить: слишком много фигур на поле",
     ["Aries"] = "Овен:",
     ["任务自定义事件  玩家发送任务自定义事件"] = "Пользовательское событие квеста; игрок отправляет пользовательское событие квеста.",
     ["How should I describe you,\nwith eyes, with voice.\nLike flickering Flame Fire,\nSnowflakes in the lake.\nI hear you."] = "Как описать тебя,\nВзглядом ли, голосом.\nСловно мерцающие огни костра,\nСнежинки на глади озера.\nЯ слышу тебя.",

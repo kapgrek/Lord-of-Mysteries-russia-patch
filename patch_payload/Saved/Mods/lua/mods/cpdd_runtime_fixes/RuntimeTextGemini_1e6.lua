@@ -258,5 +258,7 @@ return {
     ["That big shot gave me many helpful suggestions for revisions, but even after I finished revising according to those suggestions, it remained a mediocre press release that could only be published on the inner pages. This is reasonable."] = "Эта большая шишка дала мне много полезных предложений по доработкам, но даже после того, как я закончил вносить изменения в соответствии с этими предложениями, он оставался посредственным пресс-релизом, который можно было публиковать только на внутренних страницах. Это разумно.",
     ["Sipus"] = "Сипус",
     ["Deterrence and Demoralization"] = "Устрашающий слом воли",
+    ["Strike surrounding enemies with a three-hit Torrent, dealing a total of {*d,F1690001,atkMin,1.33} Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain {*d,F1690001,maxHp,0.25} Shield for <HighLight>4</> seconds."] = "Наносит окружающим врагам три удара яростного прилива, в сумме {*d,F1690001,atkMin,1.33} ед. урона от атаки. Последний удар подбрасывает врагов на <HighLight>0.6</> сек., а фигура получает щит на {*d,F1690001,maxHp,0.25} ед. на <HighLight>4</> сек.",
+    ["Fool's Gambit Lineup"] = "Составы «Гамбита Шута»",
     ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

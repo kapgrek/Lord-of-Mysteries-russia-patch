@@ -248,4 +248,5 @@ return {
     ["Complete Chapter 1 - Obtain Gold Coin"] = "Завершить главу 1 — Получение золотой монеты",
     ["There will always be people curious about Hornacis."] = "Всегда найдутся люди, интересующиеся Хорнацисом.",
     ["Invite you to join club voice chat"] = "Пригласить вас присоединиться к клубному голосовому чату",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>133%</> = {*d,F1690001,atkMin,1.33}; Shield: <img id=\"01\" width=\"40\" height=\"40\"/> Max Health × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>133%</> = {*d,F1690001,atkMin,1.33}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
 }

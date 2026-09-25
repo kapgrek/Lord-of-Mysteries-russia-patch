@@ -247,4 +247,5 @@ return {
     ["<P_Heart> (Puts down the newspaper) </> What?"] = "<P_Heart> (откладывает газету) </> Что?",
     ["Storage has reached the limit (%d/%d), you can choose to replace with newly obtained affixes"] = "Хранилище достигло предела (%d/%d), вы можете заменить его новыми полученными аффиксами.",
     ["【旧日复苏】"] = "【Возрождение Древнего】",
+    ["How many players are in Fool's Gambit?"] = "Сколько игроков в «Гамбите Шута»?",
 }

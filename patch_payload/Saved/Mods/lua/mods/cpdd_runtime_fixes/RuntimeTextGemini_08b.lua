@@ -257,4 +257,7 @@ return {
     ["【Tarot Club · Offspring Protection】Tier 4 increment (+25%) → cumulative 140%"] = "【Клуб Таро · Защита потомства】Прирост 4 уровня (+25%) → совокупно 140%",
     ["每名敌方阵亡：+<HighLight>10</>点最大生命值。"] = "За каждого погибшего врага: +<HighLight>10</> ед. к максимальному здоровью.",
     ["每次击杀敌人后，攻击提高<HighLight>10%</>，防御提高<HighLight>10</>点，最多叠加<HighLight>5</>层。"] = "После каждого убийства врага атака повышается на <HighLight>10%</>, а защита — на <HighLight>10</> ед., максимум <HighLight>5</> уровней.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>150%</> = {*d,F1690001,atkMin,1.5}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>150%</> = {*d,F1690001,atkMin,1.5}",
+    ["Total Hit Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}"] = "Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}",
+    ["Obtain 1 Advanced Piece Recorder, which can copy a 1-star version of any cost piece."] = "Даёт 1 продвинутый регистратор фигур: он копирует однозвёздочную версию фигуры любой стоимости.",
 }

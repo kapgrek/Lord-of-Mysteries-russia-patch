@@ -243,6 +243,7 @@ return {
     ["Little Jack?"] = "Маленький Джек?",
     ["Force has its form, condensing into shadows. Borrowing the bloodline of the Twilight Giant, it accumulates power for the upcoming attack stance, manifesting the trajectory of the moves. When executing a powerful attack, the formed trajectory will follow the attack motion, creating afterimages.\nIncreases your Charm by 3 and Intuition by 1."] = "Сила обретает форму, а форма сгущается в тень. Черпая силу из родословной Сумеречного Гиганта, копит мощь для грядущей атакующей стойки, проявляя траекторию приёмов. При нанесении сокрушительного удара эта траектория порождает остаточные образы вслед за движением.\nПовышает собственное Обаяние на 3 и Интуицию на 1.",
     ["Lion Heart Protection Ring"] = "Защитное кольцо Львиного сердца",
+    ["备战区已满，无法增加棋子！"] = "Скамейка запасных заполнена, нельзя добавить фигуру!",
     ["完成当前步骤的所有子目标  玩家发送任务道具  玩家移除任务道具（全部删除）"] = "Выполните все подцели текущего шага; игрок отправляет квестовый предмет; игрок удаляет квестовый предмет (удалить все).",
     ["流程图路径:"] = "Путь к блок-схеме:",
     ["任务自定义事件  玩家停止自动寻路"] = "Пользовательское событие квеста; игрок прекращает автоматический поиск пути.",

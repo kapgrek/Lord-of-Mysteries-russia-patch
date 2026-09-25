@@ -265,4 +265,5 @@ return {
     ["Battle Tactics Badge"] = "Эмблема Боевой магии",
     ["Shadow Assassination - Child Safe Zone Tag"] = "Shadow Assassination — метка зоны безопасности для детей",
     ["Prologue - Apostle - Head effect"] = "Пролог — Апостол — Эффект головы",
+    ["金币不足，无法刷新商店！"] = "Недостаточно золотых монет для обновления магазина!",
 }

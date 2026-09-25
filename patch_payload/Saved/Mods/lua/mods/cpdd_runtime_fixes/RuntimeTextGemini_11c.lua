@@ -240,6 +240,7 @@ return {
     ["以求知之心，调动全身感知，深入体验格斗招式，攻击时留下残影。"] = "С жаждой познания задействуйте всё своё восприятие, глубоко постигая боевые приёмы и оставляя остаточный образ при атаке.",
     ["装配后获得【值夜者】羁绊"] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб]",
     ["Twilight City Iron Armor"] = "Железный доспех Сумеречного города",
+    ["Chants the Midnight Poem, dealing {*d,F1690001,atkMin,5.4} attack damage to surrounding enemies and putting them into a Slumber for <HighLight>1</> second. Self's Attack Speed increases by <HighLight>15%</> for <HighLight>4</> seconds."] = "Читает полуночный стих, нанося окружающим врагам {*d,F1690001,atkMin,5.4} ед. урона от атаки и погружая их в Сон на <HighLight>1</> сек.; скорость атаки фигуры повышается на <HighLight>15%</> на <HighLight>4</> сек.",
     ["收获%d/200个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/200.",
     ["【铁壁】"] = "【Железная стена】",
     ["5 At the start of player combat:\r\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку.",

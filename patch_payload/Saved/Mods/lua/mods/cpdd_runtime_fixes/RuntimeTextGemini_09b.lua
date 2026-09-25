@@ -275,6 +275,8 @@ return {
     ["4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["The Dead's Entertainment"] = "Развлечение мертвецов",
     ["Investigate the <h>mirror fragments</>"] = "Осмотрите <h>осколки зеркала</>",
+    ["<HighLight>获得战法共鸣</>"] = "<HighLight>Получить резонанс «Боевая магия»</>",
+    ["What talents are available in Fool's Gambit?"] = "Какие таланты есть в «Гамбите Шута»?",
     ["Why\n\n?"] = "По\nче\nму\n?",
     ["Izell"] = "Изель",
     [">>>Bond data does not exist, bond ID:"] = ">>>Данные о облигации не существуют, идентификатор облигации:",

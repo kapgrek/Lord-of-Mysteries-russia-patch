@@ -236,6 +236,8 @@ return {
     ["Model scaling."] = "Масштабирование модели.",
     ["[Lawyer]"] = "[Юрист]",
     ["Equip to gain the [Seer] bond"] = "Экипируйте, чтобы получить резонанс [Провидец]",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>965%</> = {*d,F1690001,atkMin,9.65}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>965%</> = {*d,F1690001,atkMin,9.65}",
+    ["No resonance activated yet"] = "Резонансы не активированы",
     ["Venus"] = "Венера·",
     ["Maisie"] = "Мэйси",
 }

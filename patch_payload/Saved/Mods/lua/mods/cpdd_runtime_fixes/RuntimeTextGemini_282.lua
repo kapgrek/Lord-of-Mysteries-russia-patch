@@ -252,5 +252,6 @@ return {
     ["本Saturday 20:00"] = "В эту субботу, 20:00",
     ["<Highlight> Craft: </> Thorn Surround \n The night and scarlet are thorns entwined around the eternal life of the Kindred; dangerous, beautiful, and piercingly painful."] = "<Highlight>Мастерство:</> терновое кольцо\nНочь и багрянец — шипы, обвивающие бесконечную жизнь вампиров: опасные, прекрасные и мучительно ранящие.",
     ["Equip to gain the [Reader] resonance"] = "Экипируйте, чтобы получить резонанс [Чтец]",
+    ["Synthesize a total of 8 three-star pieces in Auto Chess"] = "Собрать в Автошахматах 8 трёхзвёздочных фигур",
     ["完成当前步骤的所有子目标  玩家清除任务标记"] = "Выполните все подцели текущего шага; игрок завершает квест Марк.",
 }

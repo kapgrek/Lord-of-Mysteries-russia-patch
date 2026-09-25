@@ -274,4 +274,6 @@ return {
     ["Parker "] = "Паркер",
     ["<P_Heart>(The Captain doesn't seem to have a very good memory...)</>"] = "<P_Heart>(Похоже, у капитана не очень хорошая память...)</>",
     ["【施法】"] = "【Колдовство】",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>246%</> = {*d,F1690001,atkMin,2.46}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>246%</> = {*d,F1690001,atkMin,2.46}",
+    ["A total of 15 friendly pieces have been defeated"] = "Всего погибло 15 ваших фигур",
 }

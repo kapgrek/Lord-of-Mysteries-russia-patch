@@ -255,4 +255,6 @@ return {
     ["<P_Heart>(Excitedly)</> I cannot stay calm. Seeing such a powerful, beautiful, cold vampire as you, my blood is boiling."] = "<P_Heart>(Возбужденно)</> Я не могу сохранять спокойствие. При виде такого могущественного, красивого и холодного вампира, как ты, у меня кровь закипает.",
     ["Rare · Bulwark War Helmet"] = "Редкое · Боевой шлем Оплота",
     ["The... glory... of the Wessel Family..."] = "Слава... семьи Вессель...",
+    ["Maximum number of deployed pieces +1<HighLight></>, and randomly gain 2 4-cost pieces<HighLight></>."] = "<HighLight>Лимит фигур на поле +1</>, случайным образом даёт <HighLight>2 фигуры за 4 золотых</>.",
+    ["跃起裂地，对周围敌人造成{*d,F1690001,atkMin,2.15}点攻击伤害，并使其眩晕<HighLight>1</>秒。"] = "В прыжке раскалывает землю, нанося окружающим врагам {*d,F1690001,atkMin,2.15} ед. урона от атаки и оглушая их на <HighLight>1</> сек.",
 }

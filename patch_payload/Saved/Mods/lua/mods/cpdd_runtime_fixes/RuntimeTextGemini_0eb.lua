@@ -243,5 +243,6 @@ return {
     ["<CostRed>{1,3,（烙印已失效）}</>Attack increased by <Mark>260</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. <Mark>{1,4,（已净化）}</>\nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Ma"] = "<CostRed>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>260</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>.",
     ["点燃<h>蜡烛</>"] = "Зажгите <h>свечу</>",
     ["Release Knockback every 2 seconds"] = "Отбрасывание каждые 2 секунды.",
+    ["立即获得<HighLight>6金币</>。<HighLight>每回合</>获得<HighLight>1次免费刷新</>。"] = "Немедленно даёт <HighLight>6 золотых монет</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
     ["Coraline"] = "Коралина",
 }

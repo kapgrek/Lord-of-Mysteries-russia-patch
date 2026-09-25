@@ -269,6 +269,8 @@ return {
     ["装配后获得【死亡教派】羁绊。"] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
     ["Chess pieces in the back two rows start combat with 80% of their current Health and gain 25% Damage Amplification."] = "Фигуры в двух задних рядах начинают бой с 80% от текущего здоровья и получают +25% к увеличению урона.",
     ["Rebirth Ritual Connection Buff - Left Hand"] = "Бафф соединения «Ритуал возрождения» — левая рука",
+    ["愚者棋局共鸣有哪些"] = "Какие резонансы есть в «Гамбите Шута»?",
+    ["一声相邀，百友响应；灰雾之上，共弈此局。"] = "Одно приглашение — и сотня друзей откликается; над серым туманом мы сыграем эту партию вместе.",
     ["使用指定道具  玩家开启Letter界面"] = "Использовать указанный предмет. Игрок открывает интерфейс Letter.",
     ["I once thought I would be angry, unwilling, and roar in accusation of the unfairness of fate and the cunning of the gods."] = "Я когда-то думал, что буду злиться, не хотеть и рычать в обвинениях в несправедливости судьбы и хитрости богов.",
     ["Gather collection item with specified TemplateID  Delayed execution  Object plays specified dialogue content  Delayed execution  Object plays specified dialogue content  Delayed execution  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Собрать элемент коллекции с указанным TemplateID. Отложенное выполнение. Объект воспроизводит указанный контент диалога. Отложенное выполнение. Объект воспроизводит указанный контент диалога. Отложенное выполнение. Объект воспроизводит указанный контент диалога. NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире).",

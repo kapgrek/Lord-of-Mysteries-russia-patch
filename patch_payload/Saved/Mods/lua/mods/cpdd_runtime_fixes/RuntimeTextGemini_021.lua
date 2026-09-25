@@ -253,5 +253,7 @@ return {
     ["Collins"] = "Коллинз",
     ["Match Cancel"] = "Матч Отмена",
     ["A portion of the damage taken by the caster will be transferred to you."] = "Часть урона, полученного заклинателем, будет передана вам.",
+    ["战斗开始时降低敌方全体防御。激活第二档共鸣后，每回合从上一场被我方击败的敌方棋子中随机选择<HighLight>1</>个，使其被魔女魅惑，并以<HighLight>1</>星加入我方阵营。"] = "В начале боя снижает защиту всех врагов. После активации второй ступени резонанса каждый раунд случайная <HighLight>1</> вражеская фигура, побеждённая вами в прошлом бою, поддаётся Чарам ведьмы и переходит на вашу сторону <HighLight>1</>-звёздочной.",
+    ["Generates <HighLight>1</> [Sacrifice Tile] in the center back row. At the start of combat, the piece on the tile dies immediately, granting all allies within <HighLight>2200</> range <HighLight>300</> Max Health for the battle."] = "Создаёт <HighLight>1</> [Клетку жертвоприношения] в центре заднего ряда. В начале боя фигура на ней сразу гибнет, а все союзники в радиусе <HighLight>2200</> получают <HighLight>300</> ед. макс. здоровья до конца боя.",
     ["铁路大亨挑战线路获得%d/5次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/5 раз в маршрутах испытаний «Железнодорожный магнат».",
 }

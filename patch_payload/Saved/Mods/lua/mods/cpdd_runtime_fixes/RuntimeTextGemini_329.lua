@@ -279,6 +279,7 @@ return {
     ["Perilous Combat_Enabled State"] = "Опасный бой_включенное состояние",
     ["No wonder Philip kept repeating \"seawater\" when he had a mental breakdown."] = "Неудивительно, что Филипп продолжал повторять «морская вода», когда у него случился психический срыв.",
     ["Cleared the Dungeon 200 times in a team. Twenty character limit."] = "Пройдено 200 раз в группе. Лимит двадцать символов.",
+    ["Releases triple resentment into the target area, dealing a total of {*d,F1690001,atkMin,3.2} attack damage."] = "Высвобождает в целевую область тройную обиду, нанося в сумме {*d,F1690001,atkMin,3.2} ед. урона от атаки.",
     ["播放CutScene  玩家移除任务道具（全部删除）  传送到指定场景的坐标位置"] = "Запустите CutScene, игрок удаляет квестовый предмет (удалить все), телепортируется по координатам в указанной сцене.",
     ["Zendaya"] = "Зендая",
     ["Avaya"] = "Авая",

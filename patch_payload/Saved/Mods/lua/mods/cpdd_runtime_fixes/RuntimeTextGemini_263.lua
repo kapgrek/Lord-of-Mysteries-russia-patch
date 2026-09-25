@@ -264,6 +264,7 @@ return {
     ["Delete mark"] = "Удалить отметку",
     ["Equip to gain the [Iron Wall] bond."] = "Экипируйте, чтобы получить резонанс [Железная стена].",
     ["Knowledge Infusion"] = "Вливание знаний",
+    ["Participate in Fool's Gambit %d/30 times."] = "Сыграно партий в «Гамбит Шута»: %d/30.",
     ["April"] = "апрель",
     ["Darius"] = "Дариус",
 }

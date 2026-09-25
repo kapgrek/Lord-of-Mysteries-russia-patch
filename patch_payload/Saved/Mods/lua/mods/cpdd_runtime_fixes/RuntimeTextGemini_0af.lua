@@ -236,4 +236,6 @@ return {
     ["A copper chest that no one dislikes. Using it grants equipment suitable for an Apprentice, capable of handling somewhat difficult situations."] = "Медный сундук, который никому не нравится. Его использование дает Ученику снаряжение, способное справиться с довольно трудными ситуациями.",
     ["Perceive the Spirit World, observe the starry sky, and interpret the anomalies in real space, the development of events, and potential unknown dangers mapped by the changes in fate revealed by spiritual items."] = "Воспринимайте мир духов, наблюдайте за звездным небом и интерпретируйте аномалии в реальном пространстве, развитие событий и потенциальные неизвестные опасности, нанесенные на карту изменениями судьбы, раскрываемыми духовными предметами.",
     ["Mid-row Mage"] = "Маг среднего ряда",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}",
+    ["愚者棋局入口"] = "Вход в «Гамбит Шута»",
 }

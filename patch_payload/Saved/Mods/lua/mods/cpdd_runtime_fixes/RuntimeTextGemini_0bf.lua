@@ -250,4 +250,6 @@ return {
     ["Gain <HighLight> two random basic equipment </>, one Equipment Reforger, and 2 Gold Coins."] = "Даёт <HighLight> два случайных базовых снаряжения </>, один перековщик снаряжения и 2 золотые монеты.",
     ["Healer's Observation"] = "Наблюдение целителя",
     ["向<h>“愚者”先生</>致谢"] = "Поблагодарите <h>мистера Шута</>",
+    ["Continuously spit flames forward; nine attacks deal a total of {*d,F1690001,atkMin,4.32} Attack damage. Hits apply a <HighLight>4</>-second Burn, causing enemies to lose {*d,F1690001,maxHp,0.01} Health per second."] = "Непрерывно изрыгает пламя вперёд: девять ударов наносят в сумме {*d,F1690001,atkMin,4.32} ед. урона от атаки. Попадания накладывают Горение на <HighLight>4</> сек.: враг теряет {*d,F1690001,maxHp,0.01} ед. здоровья в секунду.",
+    ["They are all in a classical, gorgeous style, with gold, pearls, and diamonds forming bouquets, butterflies, and the Ouroboros representing eternity. They are very decent pieces of jewelry with a strong presence."] = "Все они в классическом пышном стиле: золото, жемчуг и бриллианты складываются в букеты, бабочек и Уробороса — символ вечности. Весьма достойные украшения, сразу бросаются в глаза.",
 }

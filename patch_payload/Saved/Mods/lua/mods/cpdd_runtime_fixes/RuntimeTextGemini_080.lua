@@ -262,6 +262,7 @@ return {
     ["Pattern on the hand"] = "Узор на руке",
     ["When the battle starts, for every 1 ally piece in the first row<HighLight></>, pieces in the back two rows<HighLight></> gain 8% Attack<HighLight></>."] = "В начале боя за каждую союзную фигуру в первом ряду<HighLight></> фигуры в двух задних рядах<HighLight></> получают 8% атаки<HighLight></>.",
     ["<P_Heart>(He stopped talking...)</>"] = "<P_Heart> (Он замолчал...) </>",
+    ["Damage: Attack × 174% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,1.74}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>174%</> = {*d,F1690001,atkMin,1.74}",
     ["与Npc进行对话  玩家播放仅自己可见的说话文本"] = "Поговорите с NPC. Игрок воспроизводит текст диалога, видимый только ему самому.",
     ["俱乐部经验+1500"] = "Клубный опыт +1500",
 }

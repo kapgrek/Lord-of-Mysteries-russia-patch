@@ -254,5 +254,7 @@ return {
     ["I have quite a few magical medicines here."] = "У меня здесь довольно много волшебных лекарств.",
     ["Penelope"] = "Пенелопа",
     ["\"Shh.\" \n \"Justice\" gently interrupted your words."] = "«Шшш». \n Мисс «Справедливость» мягко прервала вас.",
+    ["Normal Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}, Low Health Target Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}, Healing: <img id=\"01\" width=\"40\" height=\"40\"/> Max Health × <HighLight>8%</> = {*d,F1690001,maxHp,0.08}"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}, урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}, исцеление: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>8%</> = {*d,F1690001,maxHp,0.08}",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>177%</> = {*d,F1690001,atkMin,1.77}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>177%</> = {*d,F1690001,atkMin,1.77}",
     ["Profession ID:"] = "ID профессии:",
 }

@@ -225,5 +225,7 @@ return {
     ["They say when she starved to death on the street, she was clutching an empty matchbox tightly in her hand..."] = "Говорят, когда она умерла от голода на улице, она крепко сжимала в руке пустой спичечный коробок...",
     ["After use, there is a <Highlight>very small probability of obtaining a Zero-Yuan Purchase Voucher</> or divine descent materials: <Highlight>God's Contract, Spirit World Stardust, Angel's Feather, Wind Spirit's Breath, Mythical Cocoon, Cocoon Silk</>."] = "После использования есть <Highlight>крайне малая вероятность получить ваучер с нулевой стоимостью</> или материалы снисхождения божества: <Highlight>Божий контракт, Звёздная пыль духовного мира, Перо ангела, Дыхание духа ветра, Мифический кокон, Шелковая нить кокона</>.",
     ["Select character"] = "Выберите персонажа",
+    ["黑夜女神教会共鸣效果"] = "Эффект резонанса «Церковь Богини Вечной Ночи»",
+    ["拖动/双击上阵棋子"] = "Перетащите или дважды нажмите, чтобы выставить фигуру",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放情绪音乐（仅自己可听）"] = "Пользовательское событие задания: игрок создает общий объект по списку InstanceID (не действует в открытом мире), воспроизведение атмосферной музыки (слышна только игроку)",
 }

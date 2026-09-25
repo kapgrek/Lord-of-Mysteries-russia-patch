@@ -262,5 +262,9 @@ return {
     ["Death can also nurture new life!"] = "Смерть также может дать начало новой жизни!",
     ["The Primordial Moon is immune to damage while under the protection of moonlight."] = "Изначальная Луна невосприимчива к урону, пока находится под защитой лунного света.",
     ["绯红信仰"] = "Багряная вера",
+    ["以巨龙威压横扫前方，造成{*d,F1690001,atkMin,4.6}点攻击伤害，并施加<HighLight>4</>秒重伤灼烧：每秒损失{*d,F1690001,maxHp,0.01}点生命，受治疗效果降低<HighLight>33%</>。同时为生命最低的<HighLight>2</>名友军各恢复{*d,F1690001,maxHp,0.1}点生命。"] = "Сметает всё впереди мощью дракона, нанося {*d,F1690001,atkMin,4.6} ед. урона от атаки и накладывая на <HighLight>4</> сек. Тяжёлое ранение и Горение: цель теряет {*d,F1690001,maxHp,0.01} ед. здоровья в секунду, получаемое исцеление снижено на <HighLight>33%</>. Одновременно восстанавливает по {*d,F1690001,maxHp,0.1} ед. здоровья <HighLight>2</> союзникам с наименьшим здоровьем.",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}",
+    ["Resonance: 5 Extraordinary World | 2 Tarot Club | 2 Ranged Strike; Main Carry: Clown 3★, Azik Eggers 2★; Main Tank: Ray Bieber 3★, Rock King 2★; Strategy: Pursue 3★ for Clown and Ray; develop Extraordinary units, use Ranged Strike for output."] = "Резонансы: 5 Потусторонний мир | 2 Клуб Таро | 2 Дальнобойный удар; основной урон: Клоун 3★, Азик Эггерс 2★; основной танк: Рэй Бибер 3★, Рок Кинг 2★; тактика: доведите Клоуна и Рэя до 3★; развивайтесь через Потусторонний мир, урон — через Дальнобойный удар",
+    ["What is the chess gameplay?"] = "Что за шахматный режим?",
     ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
 }

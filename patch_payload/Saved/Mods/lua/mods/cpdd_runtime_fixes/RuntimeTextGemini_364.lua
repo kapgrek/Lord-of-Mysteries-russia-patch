@@ -258,5 +258,7 @@ return {
     ["Who is she? Why do you think she is taking revenge on you?"] = "Кто она? Как ты думаешь, почему она тебе мстит?",
     ["Doctor, your clothes..."] = "Доктор, ваша одежда...",
     ["Auto-Chess"] = "Автошахматы",
+    ["Randomly obtain 1 2-star 5-cost piece."] = "Случайным образом даёт 1 двухзвёздочную фигуру за 5 золотых.",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>193%</> = {*d,F1690001,atkMin,1.93}点三星：伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>540%</> = {*d,F1690001,atkMin,5.4}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>193%</> = {*d,F1690001,atkMin,1.93}; 3 звезды: Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>540%</> = {*d,F1690001,atkMin,5.4}",
     ["播放Dialogue  切换HUD顶栏显示模式"] = "Игра «Диалог». Переключить режим отображения верхней панели HUD.",
 }

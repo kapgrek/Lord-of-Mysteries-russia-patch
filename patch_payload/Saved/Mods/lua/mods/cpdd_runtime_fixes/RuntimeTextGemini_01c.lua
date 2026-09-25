@@ -242,5 +242,7 @@ return {
     ["I just want him to look at reality properly, instead of staring at the stars all day."] = "Я просто хочу, чтобы он правильно смотрел на реальность, а не целыми днями смотрел на звезды.",
     ["Equip to gain the [Lawyer] bond"] = "Экипируйте, чтобы получить резонанс [Юрист]",
     ["Zombie Monster - Head Effect"] = "Зомби-монстр - эффект головы",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>120%</> = {*d,F1690001,atkMin,1.2}, Shield: <img id=\"01\" width=\"40\" height=\"40\"/> Max Health × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>120%</> = {*d,F1690001,atkMin,1.2}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
+    ["获得28金币。"] = "Даёт 28 золотых монет.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Собирает предмет с указанным идентификатором шаблона, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанный контент диалога.",
 }

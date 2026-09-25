@@ -255,6 +255,7 @@ return {
     ["WBP_AutoChess_Tips_LifeSchedule"] = "Подсказка AutoChess – Жизненный график",
     ["每次与玩家战斗后获得1个随机荒野魔物弈子。"] = "После каждого боя с игроком дает 1 случайную фигуру дикого монстра.",
     ["It is the hair of his late fiancée. That brave girl died in the Feysac War, and my client has been searching for her for many years."] = "Это локон волос его покойной невесты: та отважная девушка погибла на войне с Фейсаком, и мой наниматель искал ее долгие годы.",
+    ["Randomly gain pieces with a total value of 26 Gold Coins<HighLight></>, including at least 1 5-cost piece<HighLight></>."] = "Случайным образом даёт фигуры общей стоимостью <HighLight>26 золотых монет</>, включая минимум <HighLight>1 фигуру за 5 золотых</>.",
     ["Pine needle oil side 😡 Wow, it smells so good 😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["Nolan"] = "Нолан",
 }

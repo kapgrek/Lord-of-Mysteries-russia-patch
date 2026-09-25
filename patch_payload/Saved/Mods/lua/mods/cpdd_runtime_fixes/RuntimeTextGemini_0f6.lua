@@ -259,6 +259,10 @@ return {
     ["For every 1 Resonance activated, all allies gain additional Attack, up to 10 Resonances."] = "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов.",
     ["Enter Super Armor for <HighLight>4</> seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of <Yellow>146</> Attack damage."] = "Получает Неудержимость на <HighLight>4</> сек. и шесть раз подряд рассекает окружающих врагов Бурей клинков, нанося в сумме <Yellow>146</> ед. урона от атаки.",
     ["Do Not Obtain Secret Information"] = "Не получайте секретную информацию",
+    ["Immediately gain 10 Gold Coins<HighLight></>, and thereafter gain 6 more Gold Coins at the start of each stage<HighLight></><HighLight></>."] = "Немедленно даёт <HighLight>10 золотых монет</>, а затем <HighLight>в начале каждого этапа</> — ещё <HighLight>6 золотых монет</>.",
+    ["掀起浪墙横扫前方，造成{*d,F1690001,atkMin,2.7733}点攻击伤害并击退敌人。随后落雷轰击同一区域，追加{*d,F1690001,atkMin,1.3867}点攻击伤害。"] = "Поднимает стену волн и сметает всё впереди, нанося {*d,F1690001,atkMin,2.7733} ед. урона от атаки и отбрасывая врагов. Затем в ту же область бьёт молния, нанося ещё {*d,F1690001,atkMin,1.3867} ед. урона от атаки.",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>656%</> = {*d,F1690001,atkMin,6.56}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>656%</> = {*d,F1690001,atkMin,6.56}",
+    ["What is a Resonance Badge?"] = "Что такое эмблема резонанса?",
     ["Isla"] = "Исла",
     ["指定地点附近使用任务道具  玩家发送任务道具  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Использовать квестовый предмет рядом с указанным местом: игрок отправляет квестовый предмет, игрок воспроизводит текст, видимый только ему, отложенное выполнение, игрок воспроизводит текст, видимый только ему.",
 }

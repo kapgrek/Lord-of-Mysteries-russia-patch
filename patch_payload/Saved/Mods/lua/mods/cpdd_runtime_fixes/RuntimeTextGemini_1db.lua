@@ -254,6 +254,7 @@ return {
     ["Attack power increased by 100% granted by the gray fog Blessing"] = "Бонус к силе атаки от благословения серого тумана повышается на 100%",
     ["[Spellcasting]"] = "[Колдовство]",
     ["Gray Fog Blessing"] = "Благословение Серого Тумана",
+    ["When he returns, I will give him a piece of my mind!"] = "Когда он вернётся, я ему всё выскажу!",
     ["一\n次\n机\n会"] = "Один\n\nшанс",
     ["Reike"] = "Рейке",
 }

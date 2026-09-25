@@ -246,5 +246,6 @@ return {
     ["Drinking Potion performance"] = "Спектакль «Питье зелья»",
     ["Cannot transfer position to a Club Star."] = "Невозможно передать позицию Club Star.",
     ["Acting - Apprentice - Hide player"] = "Актерское мастерство - Ученик - Скрыть игрока",
+    ["愚者棋局参与%d/5场"] = "Сыграно партий в «Гамбит Шута»: %d/5",
     ["Adali"] = "Адали",
 }

@@ -232,6 +232,8 @@ return {
     ["Jennings"] = "Дженнингс",
     ["New Era Departure"] = "Отправление в новую эпоху",
     ["Energy Ball Area Damage"] = "Урон по области энергетического шара",
+    ["己方棋子获得<HighLight>20%暴击率</>。"] = "Ваши фигуры получают <HighLight>20% шанса крит. удара</>.",
+    ["Total Hit Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}; Three Stars: Total Hit Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1500%</> = {*d,F1690001,atkMin,15}"] = "Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}; 3 звезды: Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["Bentley"] = "Бентли",
     ["Philippa"] = "Филиппа",
     ["任务自定义事件  传送到指定场景的坐标位置"] = "Пользовательское событие квеста. Телепортируйтесь к указанным координатам сцены.",

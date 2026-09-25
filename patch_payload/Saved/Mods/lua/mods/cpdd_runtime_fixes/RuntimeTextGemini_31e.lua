@@ -265,6 +265,7 @@ return {
     ["Riel said \"Dragon Hunter\" means courage and unity, so we've always called ourselves that."] = "Риэль сказала, что «Охотник на драконов» означает храбрость и единство, поэтому мы всегда так себя называли.",
     ["Let me be the boss of the Dragon Hunter Gang, why? Are you giving up dragon hunting?"] = "Позвольте мне быть боссом банды охотников на драконов, почему? Вы отказываетесь от охоты на драконов?",
     ["Glory Bestowed"] = "Венценосная слава",
+    ["Releases Astral World Torrent twice, sweeping a fan-shaped area in front, dealing a total of {*d,F1690001,atkMin,1.98} attack damage."] = "Дважды высвобождает поток Астрального мира, сметая веерную область впереди и нанося в сумме {*d,F1690001,atkMin,1.98} ед. урона от атаки.",
     ["Nayeli"] = "Наели",
     ["Marco"] = "Марко",
 }

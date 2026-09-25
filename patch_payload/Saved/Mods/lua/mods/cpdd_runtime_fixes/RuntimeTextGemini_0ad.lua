@@ -266,6 +266,7 @@ return {
     ["Maximum level reached, cannot continue upgrading."] = "Достигнут максимальный уровень, продолжить обновление невозможно.",
     ["Side-by-Side 19 Bond"] = "Бок о бок 19 Бонд",
     ["Rare · Sage's Spirit Ring"] = "Редкое · Духовное кольцо Мудреца",
+    ["Total Damage: Attack × 284% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,2.84}, Shield: Max Health × 7% = <img id=\"01\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,maxHp,0.07}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>284%</> = {*d,F1690001,atkMin,2.84}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>7%</> = {*d,F1690001,maxHp,0.07}",
     ["Kaile"] = "Кайле",
     ["Set sail, great navigator Roselle Columbus Magellan Gustav, and go verify your hypothesis!"] = "Отправляйтесь в плавание, великий мореплаватель Розель Колумб Магеллан Густав, и отправляйтесь проверить свою гипотезу!",
     ["Misael"] = "Мисаэль",

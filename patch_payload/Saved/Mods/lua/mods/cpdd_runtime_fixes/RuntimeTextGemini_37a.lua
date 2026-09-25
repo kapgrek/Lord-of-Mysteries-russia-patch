@@ -270,4 +270,7 @@ return {
     ["Section 2: After getting off the carriage"] = "Раздел 2: После выхода из вагона",
     ["Gathering Open Small Bag"] = "Собираем открытую маленькую сумку",
     ["Backline Mage"] = "Маг заднего ряда",
+    ["Immediately gain 6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>."] = "Немедленно даёт <HighLight>6 золотых монет</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
+    ["职业共鸣"] = "Резонанс класса",
+    ["Lineup Save/Replace"] = "Сохранить/заменить состав",
 }

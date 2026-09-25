@@ -245,5 +245,7 @@ return {
     ["Sensitive"] = "Чувствительный",
     ["The trigger probability of <HyperLink stylename=\"M_Link\" u=\"86075010\" color=\"#f4a067\">Torrent of Information</> is increased by 10%. When <HyperLink stylename=\"M_Link\" u=\"86075010\" color=\"#f4a067\">Torrent of Information</> is triggered, gain an additional 5 points of <HighLight>Secret Peeking</>. After releasing the enhanced basic attack <HyperLink stylename=\"M_Link\" u=\"86070040\" color=\"#f4a067\">Spear of Longinus</>, gain 2.5 seconds of <Orange>Super Armor</>."] = "Вероятность срабатывания <HyperLink stylename=\"M_Link\" u=\"86075010\" color=\"#f4a067\">Torrent of Information</> увеличена на 10%. Когда срабатывает <HyperLink stylename=\"M_Link\" u=\"86075010\" color=\"#f4a067\">Torrent of Information</>, получите дополнительные 5 очков <HighLight>Secret Peeking</>. После использования улучшенной базовой атаки <HyperLink stylename=\"M_Link\" u=\"86070040\" color=\"#f4a067\">Копье Лонгина</> вы получите 2,5 секунды <Orange>Суперброня</>.",
     ["战斗开始时，获得相当于最大生命值<HighLight>30%</>的护盾，持续<HighLight>8</>秒。"] = "В начале боя получает щит в размере <HighLight>30%</> от максимального здоровья на <HighLight>8</> сек.",
+    ["Random one-star 2-cost chess piece"] = "Случайная однозвёздочная фигура за 2 золотых",
+    ["愚者棋局怎么玩"] = "Как играть в «Гамбит Шута»?",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется к указанным координатам сцены.",
 }

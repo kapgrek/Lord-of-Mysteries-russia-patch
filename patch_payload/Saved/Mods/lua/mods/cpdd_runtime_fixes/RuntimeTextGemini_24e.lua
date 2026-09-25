@@ -256,6 +256,7 @@ return {
     ["My Gold List"] = "Мой золотой список",
     ["Life Bottle"] = "Флакон жизни",
     ["格挡增加<Yellow>*d</>。"] = "Блок увеличен на <Yellow>*d</>.",
+    ["Dancing King Baboon Brother spins and shocks the surroundings, dealing {*d,F1690001,atkMin,1.74} attack damage to enemies within a <HighLight>2</>-tile circular range, and restores <HighLight>30%</> of self's max health."] = "Король танца Бабуин кружится и сотрясает всё вокруг, нанося врагам в круге радиусом <HighLight>2</> клетки {*d,F1690001,atkMin,1.74} ед. урона от атаки, и восстанавливает себе <HighLight>30%</> макс. здоровья.",
     ["前往指定坐标位置  玩家传送到位面"] = "Перейти к указанным координатам. Игрок перемещается в фазу.",
     ["参加一次教团-魅惑玩法"] = "Примите участие в одном игровом процессе Faction-Charm.",
     ["Davis"] = "Дэвис",

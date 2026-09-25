@@ -262,5 +262,7 @@ return {
     ["%s snatched the first hit, points increased by %d."] = "%s поймал первый удар, количество очков увеличилось на %d.",
     ["Vegetable stall owner"] = "Владелец овощного ларька",
     ["Position 1 Action"] = "Действие 1 позиции",
+    ["Where is the entrance to Fool's Gambit?"] = "Где вход в «Гамбит Шута»?",
+    ["吃块蛋糕"] = "Съесть кусочек торта",
     ["Cullen"] = "Каллен",
 }

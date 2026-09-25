@@ -229,5 +229,6 @@ return {
     ["I'm not dead... I'm tough. I can't be of much help at a time like this."] = "Я не умер... Я сильный. В такое время я не могу сильно помочь.",
     ["30 ml"] = "30 мл",
     ["Record Reproduction"] = "Воспроизведение записи",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>433%</> = {*d,F1690001,atkMin,4.33}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>433%</> = {*d,F1690001,atkMin,4.33}",
     ["好吧……我们现在要去哪里？"] = "Хорошо... куда мы сейчас идем?",
 }

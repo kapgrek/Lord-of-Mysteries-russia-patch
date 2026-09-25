@@ -277,6 +277,12 @@ return {
     ["Rock Knight"] = "Рок Рыцарь",
     ["It should have been me pushing you down, but I don't want to hurt anyone... it's troublesome."] = "Это я должен был тебя толкнуть, но я не хочу никому причинять вред... это хлопотно.",
     ["装配后获得【怪物】羁绊"] = "Экипируйте, чтобы получить резонанс [Монстр]",
+    ["Releases Soul-Suppressing Resonance, dealing {*d,F1690001,atkMin,9.65} attack damage to enemies in the target area and putting them into a Slumber for <HighLight>1.5</> seconds."] = "Высвобождает упокаивающий резонанс, нанося врагам в целевой области {*d,F1690001,atkMin,9.65} ед. урона от атаки и погружая их в Сон на <HighLight>1.5</> сек.",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>336%</> = {*d,F1690001,atkMin,3.36}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>336%</> = {*d,F1690001,atkMin,3.36}",
+    ["Pass judgment on the furthest enemy, dealing {*d,F1690001,atkMin,7.33} Attack damage and stunning them for <HighLight>1</> seconds, while reducing their mana regeneration by <HighLight>8</> points for <HighLight>3</> seconds."] = "Выносит приговор самому дальнему врагу: наносит {*d,F1690001,atkMin,7.33} ед. урона от атаки, оглушает на <HighLight>1</> сек. и снижает восстановление маны на <HighLight>8</> на <HighLight>3</> сек.",
+    ["吞咬目标，造成{*d,F1690001,atkMin,3.33}点攻击伤害，并为己方全体提供护盾，护盾值为各自最大生命的<HighLight>15%</>，持续<HighLight>5</>秒。"] = "Кусает цель, нанося {*d,F1690001,atkMin,3.33} ед. урона от атаки, и даёт всем союзникам щит на <HighLight>15%</> их макс. здоровья на <HighLight>5</> сек.",
+    ["自走棋是什么玩法"] = "Что за режим Автошахматы?",
+    ["Auto-Chess Placement"] = "Расстановка в Автошахматах",
     ["Jelu"] = "Джелу",
     ["Warren"] = "Уоррен",
 }

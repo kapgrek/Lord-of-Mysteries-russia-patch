@@ -244,6 +244,7 @@ return {
     ["Old Man Sunbathing"] = "Старик загорает",
     ["[Spellcasting]额外获得<HighLight>15%</>攻击力，且每次施法：自身获得<HighLight>1%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
     ["胜利笔记"] = "Заметки о победах",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}",
     ["Deborah"] = "Дебора",
     ["Colby"] = "Колби",
     ["Jazeel"] = "Джазиль",

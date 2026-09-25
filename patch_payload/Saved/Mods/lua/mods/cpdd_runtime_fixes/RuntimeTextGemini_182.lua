@@ -247,6 +247,7 @@ return {
     ["Damage calculation processing"] = "Обработка расчета ущерба",
     ["Puppet Master"] = "Хозяин Марионеток",
     ["Received Healing Amplification"] = "Получено усиление исцеления",
+    ["棋局%s第%s名"] = "Партия %s: %s-е место",
     ["向好友出售%d/2000个300%%+收益率物产。"] = "Продавайте друзьям продукты %d/2000 с доходностью 300%%+.",
     ["Kenai"] = "Кенай",
     ["Listen for closing reading interface  Player plays speech text visible only to self"] = "Слушайте закрытие интерфейса чтения. Плеер воспроизводит речевой текст, видимый только ему самому.",

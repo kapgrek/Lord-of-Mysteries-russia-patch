@@ -266,4 +266,7 @@ return {
     ["Shall we invite him to join our next poetry club event?"] = "Пригласим ли мы его присоединиться к нашему следующему мероприятию поэтического клуба?",
     ["Emperor Roselle once said, 'Wealth is sought amidst danger,' which just goes to show that I am about to get rich!"] = "Император Розель однажды сказал: «Богатство ищут среди опасности», и это доказывает, что я вот-вот разбогатею!",
     ["Damage dealt to targets with Health higher than <HighLight>50%</> is increased by <HighLight>15%</>."] = "Урон по целям со здоровьем выше <HighLight>50%</> увеличивается на <HighLight>15%</>.",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>162%</> = {*d,F1690001,atkMin,1.62}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>162%</> = {*d,F1690001,atkMin,1.62}",
+    ["拖动至1~3费棋子上，即可获得该棋子的1星复制品。"] = "Перетащите на фигуру стоимостью 1–3, чтобы получить её однозвёздочную копию.",
+    ["愚者棋局全国排名头衔"] = "Титул общенационального рейтинга «Гамбита Шута»",
 }

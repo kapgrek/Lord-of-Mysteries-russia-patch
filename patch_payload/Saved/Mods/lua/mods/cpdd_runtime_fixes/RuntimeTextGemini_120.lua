@@ -240,4 +240,5 @@ return {
     ["Cult Coupon"] = "Культовый купон",
     ["<InvDefault>可使用</><InvHighlight>1张神眷牌</><InvDefault>进行兑换。</>"] = "<InvDefault>Можно обменять на </><InvHighlight>1 карту Божьей милости</><InvDefault>.</>",
     ["The taste of success"] = "Вкус успеха",
+    ["累计有10名敌方棋子阵亡"] = "Всего погибло 10 вражеских фигур",
 }

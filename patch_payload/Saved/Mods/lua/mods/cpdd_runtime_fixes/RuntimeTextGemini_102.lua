@@ -243,6 +243,7 @@ return {
     ["Left?"] = "Левый?",
     ["By then, I'll be able to stand on the deck and watch the sea to my heart's content every day!"] = "К тому времени я смогу стоять на палубе и смотреть на море в свое удовольствие каждый день!",
     ["Battle Intent Staff"] = "Посох боевого духа",
+    ["Enter resonance, piece name"] = "Введите резонанс или имя фигуры",
     ["Make-up Shop"] = "Возмещение",
     ["Jacquet"] = "Жаке ·",
     ["播放Dialogue  玩家播放剧情对话  传送回大世界场景"] = "Играть в диалог; игрок воспроизводит сюжетный диалог; телепортируйтесь обратно в открытый мир.",

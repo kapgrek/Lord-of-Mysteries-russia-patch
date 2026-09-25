@@ -259,6 +259,8 @@ return {
     ["6 [Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
     ["Magic Cauldron - One Pot Sweep - Inner circle instant death"] = "Волшебный котел — один зачист — Мгновенная смерть внутреннего круга",
     ["Nighthawk Captain Spawn buff"] = "Усиление появления Капитана Ночного Ястреба",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}",
+    ["Chessboard"] = "Шахматная доска",
     ["得看你要问什么问题，才能挑合适的占卜师。"] = "От того, какой вопрос вы хотите задать, зависит выбор подходящего прорицателя.",
     ["Marie"] = "Мари",
 }

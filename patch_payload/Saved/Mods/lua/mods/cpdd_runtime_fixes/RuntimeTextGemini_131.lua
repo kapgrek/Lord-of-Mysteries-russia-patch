@@ -252,6 +252,8 @@ return {
     ["Didn't you say you wanted to hear the truth? You're unhappy when I say it, I really don't understand..."] = "Разве ты не говорил, что хочешь услышать правду? Ты недовольна, когда я это говорю, я правда не понимаю...",
     ["Big bed and wine"] = "Большая кровать и вино",
     ["If the next stop <LightHighlight> is the [Winery] </>, the selling price of <LightHighlight> Artworks and Food </> for this session is +25%, but the selling price at the next stop is -60%."] = "Если следующей остановкой <LightHighlight> является [Винодельня] </>, цена продажи <LightHighlight> Artworks and Food </> для этой сессии составит +25%, но цена продажи на следующей остановке составит -60%.",
+    ["Achieve Phase 3 May Manor Resonance"] = "Активировать резонанс «Поместье Мэй» 3-й ступени",
+    ["愚者棋局-共鸣说明"] = "«Гамбит Шута» — о резонансах",
     ["变异乌鸦"] = "Мутировавший ворон",
     ["Alexa"] = "Алекса",
     ["　　Hehe, I've got a lead! Time to reward myself with a lemon cake!"] = "　　Хе-хе, есть зацепка! Пора наградить себя кусочком лимонного торта!",

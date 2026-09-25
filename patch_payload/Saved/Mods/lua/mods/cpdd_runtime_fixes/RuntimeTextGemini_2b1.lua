@@ -258,4 +258,5 @@ return {
     ["This potion can awaken dormant spirituality and nourish exhausted spirits. It is the best supplement for spirituality."] = "Это зелье способно пробудить дремлющую духовность и напитать утомленную душу. Это лучшее дополнение к духовности.",
     ["Advance along both routes"] = "Продвигайтесь по обоим маршрутам",
     ["Blood Fire Mysticism"] = "Мистицизм кровавого огня",
+    ["通常伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}点，低生命目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}点"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}, урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}",
 }

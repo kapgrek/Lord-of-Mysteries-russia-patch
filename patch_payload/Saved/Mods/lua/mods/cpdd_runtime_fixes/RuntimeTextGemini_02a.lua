@@ -276,4 +276,5 @@ return {
     ["Escape Prompt Camera"] = "Камера с подсказкой о побеге",
     ["Summon Tia's spirit"] = "Призвать дух Тии",
     ["Equip to gain the [Sleepless] resonance."] = "Экипируйте, чтобы получить резонанс [Бессонный].",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>695%</> = {*d,F1690001,atkMin,6.95}点三星：伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>1500%</> = {*d,F1690001,atkMin,15}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>695%</> = {*d,F1690001,atkMin,6.95}; 3 звезды: Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
 }

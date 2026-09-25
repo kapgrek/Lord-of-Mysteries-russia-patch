@@ -269,5 +269,7 @@ return {
     ["[Spellcasting]额外获得55%攻击力，且每次施法：自身获得2%攻击力。"] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
     ["Restores <Yellow>24</> health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain <Yellow>60</> Shield and <HighLight>8</> defense; or restore <Yellow>36</> health and <HighLight>8</> energy, and gain <Yellow>24</> Shield."] = "Восстанавливает <Yellow>24</> ед. здоровья себе и союзникам в пределах <HighLight>1</> клетки и повышает защиту на <HighLight>6</> ед. на <HighLight>4</> сек. Сам заклинатель случайно получает один из следующих эффектов на <HighLight>6</> сек.: атака и скорость атаки увеличены на <HighLight>10%</>; либо получает щит прочностью <Yellow>60</> ед. и <HighLight>8</> ед. защиты; либо восстанавливает <Yellow>36</> ед. здоровья и <HighLight>8</> ед. энергии, а также получает щит прочностью <Yellow>24</> ед.",
     ["捡起<h>小羊玩偶</>"] = "Возьмите куклу-ягненка<h></>.",
+    ["<HighLight>获得共鸣</>"] = "<HighLight>Получить резонанс</>",
+    ["八人棋局"] = "Партия на 8 игроков",
     ["Corey"] = "Кори",
 }

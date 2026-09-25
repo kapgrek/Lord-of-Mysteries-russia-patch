@@ -282,6 +282,9 @@ return {
     ["Gain 8/12 Gold Coins<HighLight></> and 1/3 Experience Points<HighLight></>."] = "Даёт 8/12 золотых монет<HighLight></> и 1/3 очков опыта<HighLight></>.",
     ["Guard in Peril"] = "Защита в опасности",
     ["<InvHighlight>The female outfit</><InvDefault>is a</><InvHighlight>forest-style elven gown</><InvDefault>,</>"] = "<InvHighlight>Женский наряд</><InvDefault> — это </><InvHighlight>лесное платье в эльфийском стиле</><InvDefault>,</>",
+    ["Randomly obtain two 1-star 2-cost pieces. Each is randomized independently."] = "Случайным образом даёт 2 однозвёздочные фигуры за 2 золотых. Каждая выбирается независимо.",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>250%</> = {*d,F1690001,atkMin,2.5}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>250%</> = {*d,F1690001,atkMin,2.5}",
+    ["How do I level up in Fool's Gambit?"] = "Как повысить уровень в «Гамбите Шута»?",
     ["前往指定坐标位置  对象同场景传送"] = "Перейти по указанным координатам; телепортация объекта в пределах сцены.",
     ["采集指定TemplateID的采集物  玩家播放情绪音乐（仅自己可听）"] = "Собрать предмет с указанным TemplateID: проигрыватель воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

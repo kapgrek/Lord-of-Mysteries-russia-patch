@@ -252,5 +252,6 @@ return {
     ["Get More Information from Blake"] = "Получите дополнительную информацию от Блейка",
     ["We also play hide-and-seek, and marbles... these games are quite fun too."] = "Еще мы играем в прятки и шарики... эти игры тоже очень веселые.",
     ["[Criminal]"] = "[Преступник]",
+    ["呼朋唤友 弈决高下"] = "Зови друзей — сыграем партию",
     ["Grady"] = "Грейди",
 }

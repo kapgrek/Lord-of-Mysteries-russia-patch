@@ -250,5 +250,6 @@ return {
     ["Use to obtain <Highlight>Fairy Tale Tea Party Top</>"] = "Используйте, чтобы получить <Highlight>Сказочное чаепитие Top</>",
     ["5230284 Memory Space Plane"] = "5230284 Измерение: Пространство памяти",
     ["Position 3 Action"] = "Действие 3-й позиции",
+    ["达成3阶段五月庄园共鸣"] = "Активировать резонанс «Поместье Мэй» 3-й ступени",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

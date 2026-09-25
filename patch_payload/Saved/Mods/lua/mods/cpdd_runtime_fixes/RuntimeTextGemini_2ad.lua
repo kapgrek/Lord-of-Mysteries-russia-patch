@@ -293,4 +293,6 @@ return {
     ["Equip to gain the [Death Sect] bond."] = "Экипируйте, чтобы получить резонанс [Секта Смерти].",
     ["Randomly gain 2 identical 1-star 2-cost pieces<HighLight></>. Thereafter, gain 1 identical piece each round<HighLight></><HighLight></>."] = "Случайным образом даёт 2 одинаковые 1-звёздочные фигуры за 2 золотых<HighLight></>. Затем каждый раунд даёт по 1 такой же фигуре<HighLight></><HighLight></>.",
     ["Deal an additional 20% Attack damage, with this damage increasing by 10% for every 1 tile of distance."] = "Дополнительно наносит 20% урона от атаки; за каждую 1 клетку дистанции урон увеличивается на 10%.",
+    ["Continuously pierces enemies in front with Lightning Ray and detonates in the target area, dealing a total of {*d,F1690001,atkMin,15} attack damage if all hits connect."] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,15} ед. урона от атаки.",
+    ["Fool's Gambit: Use <Highlight> Right Click </> to move."] = "«Гамбит Шута»: перемещение — <Highlight>правой кнопкой мыши</>.",
 }

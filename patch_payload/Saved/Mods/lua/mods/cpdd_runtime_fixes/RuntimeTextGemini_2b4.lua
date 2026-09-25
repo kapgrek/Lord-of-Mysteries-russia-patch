@@ -258,6 +258,10 @@ return {
     ["{{Mr.|Ms.}}, if you see my bird, please leave quietly and don't disturb it."] = "{{Mr.|Ms.}}, если ты увидишь мою птицу, пожалуйста, тихо уйди и не беспокой ее.",
     ["Alchemical Leyline"] = "Алхимическая силовая линия",
     ["Enter the <h>house</>"] = "Войдите в <h>дом</>",
+    ["阿兹克·艾格斯在单场对弈回合中参与击败3名敌方棋子"] = "Азик Эггерс помог победить 3 вражеские фигуры за один раунд боя",
+    ["Launches three waves of Spirit World Bombardment, dealing a total of {*d,F1690001,atkMin,30} Attack damage. The second wave inflicts Grievous Injury and Burn for <HighLight>4</> seconds, causing the enemy to lose <HighLight>1%</> of their maximum Health per second and reducing incoming Healing by <HighLight>33%</>."] = "Обрушивает три волны удара Мира духов, в сумме {*d,F1690001,atkMin,30} ед. урона от атаки. Вторая волна накладывает на <HighLight>4</> сек. Тяжёлое ранение и Горение: враг теряет <HighLight>1%</> макс. здоровья в секунду, получаемое исцеление снижено на <HighLight>33%</>.",
+    ["愚者棋局-阵容应用"] = "«Гамбит Шута» — применение составов",
+    ["【Auto Chess】 Placeholder"] = "【Автошахматы】 Заглушка",
     ["议事厅等级下降提醒"] = "Напоминание о понижении уровня Зала Совета",
     ["Lorelei"] = "Лорелей",
 }

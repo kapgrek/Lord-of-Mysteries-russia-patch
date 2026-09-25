@@ -269,6 +269,8 @@ return {
     ["Gain an additional <HighLight>80</> Defense, increased by another <HighLight>30%</> for the first <HighLight>10</> seconds."] = "Даёт дополнительно <HighLight>80</> ед. защиты, увеличиваясь ещё на <HighLight>30%</> в первые <HighLight>10</> секунд.",
     ["<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>90</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\n激活套装<Mark>铁与血誓约</>时不生效。"] = "<CostRed>{1,2,(срок годности марки истек)}</>Прокол увеличился <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Player Dance Correct"] = "Игрок танцует правильно",
+    ["Uses Knowledge Radiance to deal {*d,F1690001,atkMin,2.7} attack damage to all enemies. Then randomly gains <HighLight>25%</> Attack for <HighLight>6</> seconds, or immediately restores <HighLight>45</> mana."] = "Сиянием знания наносит всем врагам {*d,F1690001,atkMin,2.7} ед. урона от атаки. Затем случайно получает <HighLight>25%</> атаки на <HighLight>6</> сек. или сразу восстанавливает <HighLight>45</> ед. маны.",
+    ["Randomly gain pieces with a total value of 18 Gold Coins<HighLight></>, including at least 1 4-cost piece<HighLight></>."] = "Случайным образом даёт фигуры общей стоимостью <HighLight>18 золотых монет</>, включая минимум <HighLight>1 фигуру за 4 золотых</>.",
     ["Canon"] = "Канон",
     ["完成当前步骤的必要子目标和次要子目标  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具"] = "Выполните необходимые подцели и второстепенные подцели текущего шага, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет",
 }

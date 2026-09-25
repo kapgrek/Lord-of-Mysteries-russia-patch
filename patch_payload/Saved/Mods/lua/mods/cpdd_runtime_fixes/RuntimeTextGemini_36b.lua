@@ -266,4 +266,6 @@ return {
     ["Lightning strikes will appear randomly this round; be careful to dodge!"] = "В этом раунде удары молний будут появляться случайным образом; будьте осторожны, уклоняйтесь!",
     ["Use Scheme"] = "Применить схему",
     ["Poison Burst Mark (6 Small Circles)"] = "Метка ядовитого взрыва (6 малых кругов)",
+    ["Ray Bieber has survived a total of 3 combat rounds"] = "Рэй Бибер пережил 3 раунда боя",
+    ["随机获得5个二星5费棋子。每个独立随机。"] = "Случайным образом даёт 5 двухзвёздочных фигур за 5 золотых. Каждая выбирается независимо.",
 }

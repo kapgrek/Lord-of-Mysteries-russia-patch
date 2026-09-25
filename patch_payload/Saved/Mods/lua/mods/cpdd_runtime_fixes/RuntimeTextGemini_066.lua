@@ -273,4 +273,5 @@ return {
     ["Keanu Reeves"] = "Киану Ривз",
     ["Butler - Untargetable"] = "Батлер — невозможно выбрать цель",
     ["Rare · Blood-Colored Ring"] = "Редкое · Кольцо цвета крови",
+    ["Sweeps forward with Dragon Might, dealing {*d,F1690001,atkMin,2} attack damage and applying Grievous Injury and Burn for <HighLight>4</> seconds: target loses {*d,F1690001,maxHp,0.01} health per second and received healing is reduced by <HighLight>33%</>. Simultaneously restores {*d,F1690001,maxHp,0.1} health to the <HighLight>2</> allies with the lowest health."] = "Сметает всё впереди мощью дракона, нанося {*d,F1690001,atkMin,2} ед. урона от атаки и накладывая на <HighLight>4</> сек. Тяжёлое ранение и Горение: цель теряет {*d,F1690001,maxHp,0.01} ед. здоровья в секунду, получаемое исцеление снижено на <HighLight>33%</>. Одновременно восстанавливает по {*d,F1690001,maxHp,0.1} ед. здоровья <HighLight>2</> союзникам с наименьшим здоровьем.",
 }

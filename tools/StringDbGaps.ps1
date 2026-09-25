@@ -50,10 +50,12 @@ $categoryInfo = [ordered]@{
     text       = 'P4: прочий текст'
     service    = 'не переводить: служебные имена'
     technical  = 'не переводить: техническое'
+    clipped    = 'текст обрезан диагностикой (400 байт): ключа нет, нужен полный текст'
     known      = 'уже переводится (ключ есть в шардах)'
     pending    = 'есть в батче без перевода'
 }
-$neverEmit = @('service', 'technical', 'known', 'pending')
+$neverEmit = @('service', 'technical', 'clipped', 'known', 'pending')
+$clipBytes = 397   # clip() in AbsruDiagnostics.lua keeps 397..400 bytes of a longer text
 
 function Resolve-RepoPath([string]$path) {
     $full = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($path)
@@ -239,8 +241,13 @@ foreach ($file in $logFiles) {
         $o = $json.DeserializeObject($line)
         $key = [string]$o['module'] + '|' + [string]$o['row']
         if ($rows.ContainsKey($key)) { continue }
+        $cn = [string]$o['cn']; $en = [string]$o['en']
+        # Diagnostics clips texts to TEXT_MAX = 400 bytes (AbsruDiagnostics.lua): a clipped text is not a usable key.
+        $cnCut = $utf8.GetByteCount($cn) -ge $clipBytes; $enCut = $utf8.GetByteCount($en) -ge $clipBytes
         $rows[$key] = [pscustomobject]@{
-            module = [string]$o['module']; row = [string]$o['row']; cn = [string]$o['cn']; en = [string]$o['en']
+            module = [string]$o['module']; row = [string]$o['row']; cn = $cn; en = $en
+            key = $(if ($cn -and -not $cnCut) { $cn } elseif ($en -and -not $enCut) { $en } else { '' })
+            clipped = $cnCut -or $enCut
             category = ''; alias_kind = ''; alias_key = ''; ru = ''; on_screen = $false
         }
     }
@@ -254,14 +261,14 @@ foreach ($r in $rows.Values) {
     if ($null -eq $hit -and $r.en) { $hit = Find-ShardTranslation $r.en }
     if ($null -ne $hit -and $hit -match '[\u0400-\u04FF]') { $r.category = 'known'; $r.ru = $hit; continue }
     if (($r.cn -and $batchKeyInfo.ContainsKey($r.cn)) -or ($r.en -and $batchKeyInfo.ContainsKey($r.en))) { $r.category = 'pending'; continue }
-    foreach ($src in @($r.cn, $r.en)) {
-        if (-not $src) { continue }
+    if (-not $r.key) { $r.category = 'clipped'; continue }
+    $fullTexts = @(@($r.cn, $r.en) | Where-Object { $_ -and $utf8.GetByteCount($_) -lt $clipBytes })
+    foreach ($src in $fullTexts) {
         $lk = Get-LooseKey $src
         if ($looseIndex.ContainsKey($lk)) { $r.alias_kind = 'alias_case'; $r.alias_key = $looseIndex[$lk]; break }
     }
     if (-not $r.alias_kind) {
-        foreach ($src in @($r.cn, $r.en)) {
-            if (-not $src) { continue }
+        foreach ($src in $fullTexts) {
             $tk = Get-TaglessKey $src
             if ($tk.Length -ge 2 -and $taglessIndex.ContainsKey($tk)) { $r.alias_kind = 'alias_tags'; $r.alias_key = $taglessIndex[$tk]; break }
         }
@@ -338,11 +345,11 @@ if ($Aliases) {
     foreach ($r in $all | Where-Object { $_.category -in @('alias_case', 'alias_tags') }) {
         # alias_case: ключ = текст StringDB как есть (EN, для разделённых модулей cn пуст); alias_tags: ключ CN, если есть
         if ($r.category -eq 'alias_case') {
-            $src = $(if ($r.cn -and (Get-LooseKey $r.cn) -eq (Get-LooseKey $r.alias_key)) { $r.cn } else { $r.en })
+            $src = $(if ($r.cn -and (Get-LooseKey $r.cn) -eq (Get-LooseKey $r.alias_key)) { $r.cn } elseif ($r.en -and $utf8.GetByteCount($r.en) -lt $clipBytes) { $r.en } else { $r.key })
             $refEn = $src
             if ($src -eq $r.cn) { $refEn = $r.en }
         } else {
-            $src = $(if ($r.cn) { $r.cn } else { $r.en }); $refEn = $r.en
+            $src = $r.key; $refEn = $r.en
         }
         if (-not $src -or $shard.ContainsKey($src) -or -not $usedKeys.Add($src)) { continue }
         $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = $refEn; target_ru = $r.ru })
@@ -361,7 +368,7 @@ if ($Emit) {
     }
     $recs = New-Object 'System.Collections.Generic.List[object]'
     foreach ($r in $all | Where-Object { $_.category -in $Category }) {
-        $src = $(if ($r.cn) { $r.cn } else { $r.en })
+        $src = $r.key
         if (-not $src -or $shard.ContainsKey($src) -or $batchKeyInfo.ContainsKey($src) -or -not $usedKeys.Add($src)) { continue }
         $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = $r.en; target_ru = '' })
         $nextId++

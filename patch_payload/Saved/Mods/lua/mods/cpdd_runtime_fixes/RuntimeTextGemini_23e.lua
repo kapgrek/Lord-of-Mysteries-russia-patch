@@ -230,4 +230,5 @@ return {
     ["Participating in the dungeon <Highlight>May Manor · Garden (Hard)</> in party mode and defeating <Highlight>Ancestor Armor</> allows you to participate in the distribution and auction of public drops. There is a chance to obtain tradable items."] = "Участие в подземелье <Highlight>Поместье Мэй · Garden (Hard)</> в режиме группы и победа над <Highlight>Ancestor Armor</> позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить торгуемые предметы.",
     ["全体每秒恢复<HighLight>3</>点法力。【秘法】额外<HighLight>9</>点。"] = "Все восстанавливают <HighLight>3</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>9</> ед.",
     ["Gain <HighLight> 8 Gold Coins </> and <HighLight> 1 Experience </>."] = "Получите <HighLight>8 золотых монет</> и <HighLight>1 опыт</>.",
+    ["发出三次死灵怒嚎，震击周围敌人，共造成{*d,F1690001,atkMin,2.4}点攻击伤害，自身获得{*d,F1690001,maxHp,0.3}点护盾，持续<HighLight>5</>秒。"] = "Трижды издаёт некротический вой, сотрясая окружающих врагов и нанося в сумме {*d,F1690001,atkMin,2.4} ед. урона от атаки. Получает щит на {*d,F1690001,maxHp,0.3} ед. на <HighLight>5</> сек.",
 }

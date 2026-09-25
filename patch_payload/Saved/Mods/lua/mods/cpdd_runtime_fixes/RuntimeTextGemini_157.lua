@@ -254,6 +254,7 @@ return {
     ["打开大门"] = "Open дверь",
     ["<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Participation Rewards</><img id=\"Tips\" width=\"46\" height=\"46\"/>"] = "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды за участие</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
     ["Officer, are you interested in that ancient castle? My family has a portrait of the first baron of the castle, that was my grandfather's grandfather's grandfather..."] = "Офицер, вас интересует тот древний замок? В моей семье есть портрет первого барона замка, дедушки моего деда...",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}点，低生命目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}, урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}",
     ["任务自定义事件  玩家传送到位面"] = "Пользовательское событие задания: Телепортация игрока на план.",
     ["Rilin"] = "Рилин",
     ["Tabitha"] = "Табита",

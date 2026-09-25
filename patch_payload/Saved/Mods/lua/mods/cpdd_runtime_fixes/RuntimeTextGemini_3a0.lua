@@ -232,6 +232,7 @@ return {
     ["Yes, stand a bit more to the right! Perfect pose!"] = "Да, встаньте немного правее! Идеальная поза!",
     ["Sense the environment with spirituality and explore the mysterious in the manner of a Warlock."] = "Ощущайте мир духовностью и исследуйте тайны в обличье чернокнижника.",
     ["Crafted Blade"] = "Искусный клинок",
+    ["Fire five phantom energy projectiles in succession to pursue the target, dealing a total of {*d,F1690001,atkMin,6.6} Attack damage."] = "Выпускает подряд пять призрачных энергетических снарядов, преследующих цель, в сумме {*d,F1690001,atkMin,6.6} ед. урона от атаки.",
     ["Abner"] = "Эбнер",
     ["很精致的帽子。你父母一定很珍惜它。"] = "Очень изысканная шляпа. Твои родители, должно быть, этим дорожили.",
     ["【生命学派】"] = "【Школа мысли Жизни】",

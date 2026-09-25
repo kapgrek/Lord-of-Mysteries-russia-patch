@@ -264,5 +264,6 @@ return {
     ["Mystery Pryer Special Defense_Value"] = "Специальная защита Тайного Прайера_Значение",
     ["I should have guessed when you suddenly mentioned the circus performance! It's just... I was only thinking about..."] = "Я должен был догадаться, когда ты вдруг упомянул о цирковом представлении! Просто... Я только думал о...",
     ["Butler Appearance"] = "Внешний вид Батлера",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}",
     ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

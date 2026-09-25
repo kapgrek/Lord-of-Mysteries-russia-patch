@@ -240,4 +240,6 @@ return {
     ["Get close to the <h> crowd </>"] = "Подойдите ближе к толпе <h> </>",
     ["Hello, I'm from the Intis Military Academy. I'm doing field research."] = "Здравствуйте, я из Военной академии Интис. Я провожу полевые исследования.",
     ["Equip to gain the [Assassin] resonance"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
+    ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>733%</> = {*d,F1690001,atkMin,7.33}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>733%</> = {*d,F1690001,atkMin,7.33}",
+    ["Fool's Gambit: Undefeated"] = "«Гамбит Шута»: Непобедимый",
 }

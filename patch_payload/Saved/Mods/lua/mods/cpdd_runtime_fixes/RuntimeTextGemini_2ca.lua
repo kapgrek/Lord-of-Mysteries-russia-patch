@@ -272,4 +272,6 @@ return {
     ["席位属性×<HighLight>120%</>"] = "Характеристики места ×<HighLight>120%</>",
     ["Hide Overhead Information"] = "Скрыть дополнительную информацию",
     ["Negative mark"] = "Отрицательный знак",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}",
+    ["Recruit chess piece"] = "Призвать фигуру",
 }

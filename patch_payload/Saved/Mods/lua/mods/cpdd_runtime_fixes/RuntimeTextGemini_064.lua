@@ -249,6 +249,7 @@ return {
     ["Old Neil making coffee"] = "Старина Нил готовит кофе",
     ["Glory, it is time to bow before me."] = "Слава, пришло время склониться передо мной.",
     ["尝试回想<h>“正义”小姐</>的指引"] = "Попробуйте вспомнить указания <h>мисс Справедливость</>",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}",
     ["Daliana"] = "Дарлена",
     ["Use Spirit Vision to find the special tea"] = "Используйте Духовное зрение, чтобы отыскать особый чай",
 }

@@ -258,6 +258,8 @@ return {
     ["After winning a duel round, gain 2 Experience Points<HighLight></>. After losing, gain 3 Experience Points<HighLight></>."] = "После победы в раунде поединка даёт 2 очка опыта<HighLight></>. После поражения даёт 3 очка опыта<HighLight></>.",
     ["造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>0.75%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。"] = "После нанесения урона заставляет цель терять <HighLight>0.75%</> от её макс. здоровья каждую секунду в течение <HighLight>5</> сек., снижая получаемое ею исцеление на <HighLight>30%</>.",
     ["Inductive Attack hit stacks"] = "Уровни попаданий наводящейся атаки",
+    ["Total Combo Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, Black Flame Damage per Second: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}"] = "Общий урон серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, урон Чёрного пламени в секунду: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}",
+    ["重铸失败：棋子正在战斗中"] = "Не удалось перековать: фигура в бою",
     ["前往指定Trigger位置  玩家变身开始"] = "Перейдите в указанное место триггера; начинается трансформация игрока.",
     ["Maurice"] = "Морис",
 }

@@ -233,6 +233,8 @@ return {
     ["[Iron-Blood]"] = "【Железо и кровь】",
     ["After selecting, accumulate <HighLight> 3 match round wins </> to gain <HighLight> one Sealed Equipment Casket </> and <HighLight> 2 Gold Coins </>."] = "После выбора одержите <HighLight> 3 победы в раундах </>, чтобы получить <HighLight> один запечатанный ларец снаряжения </> и <HighLight> 2 золотые монеты </>.",
     ["Battlefield Gift"] = "Дар поля боя",
+    ["<M_Default> Dear Beyonder: </> \n You have successfully achieved the quest objectives in the \"Call Friends, Play to Win\" event. Please check your corresponding rewards!"] = "<M_Default>Уважаемый Потусторонний!</>\nВы выполнили задания события «Зови друзей — сыграем партию». Заберите награды!",
+    ["Fool's Gambit National Ranking Title"] = "Титул общенационального рейтинга «Гамбита Шута»",
     ["播放CutScene  玩家停止自己播放情绪音乐  传送回大世界场景"] = "Проиграть кат-сцену; игрок прекращает воспроизведение музыки настроения; телепортация в открытый мир",
     ["Haley"] = "Хейли",
     ["Adora"] = "Адора",

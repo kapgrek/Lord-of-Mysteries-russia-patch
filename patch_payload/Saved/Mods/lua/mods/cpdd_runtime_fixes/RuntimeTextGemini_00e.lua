@@ -258,6 +258,7 @@ return {
     ["Steel forges the dawn, but after the dawn, there is still endless competition."] = "Сталь куёт рассвет, но и после рассвета продолжается бесконечная борьба.",
     ["At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
     ["[Click to Apply]"] = "【Нажмите, чтобы подать заявку】",
+    ["Gain <HighLight> 22 Gold Coins </>, and the interest cap is increased to <HighLight> 10 Gold Coins </>."] = "Даёт <HighLight>22 золотые монеты</>, лимит процентов повышается до <HighLight>10 золотых монет</>.",
     ["Davina"] = "Давина",
     ["已提出申请，请等待对方回应"] = "Заявка отправлена; пожалуйста, подождите ответа.",
     ["Highest Win Streak:"] = "Макс. серия побед:",

@@ -257,5 +257,7 @@ return {
     ["Pick Up Tomato"] = "Возьмите помидор",
     ["Match Flicker Step 1"] = "Сопоставьте мерцание, шаг 1",
     ["Spirituality Guidance: Initial (Sequence 9)"] = "Духовное руководство: Начальное (Последовательность 9)",
+    ["Effect when player obtains Gold Coin"] = "Эффект получения игроком золотой монеты",
+    ["Deals {*d,F1690001,atkMin,1.93} attack damage to enemies within <HighLight>2</> tiles around self. Self gains <HighLight>20%</> Damage Reduction, lasting for <HighLight>4</> seconds."] = "Наносит врагам в пределах <HighLight>2</> клеток вокруг себя {*d,F1690001,atkMin,1.93} ед. урона от атаки. Получает <HighLight>20%</> снижения урона на <HighLight>4</> сек.",
     ["Tessa"] = "Тесса",
 }

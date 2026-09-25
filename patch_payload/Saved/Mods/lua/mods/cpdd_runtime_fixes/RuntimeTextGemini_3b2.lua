@@ -233,6 +233,7 @@ return {
     ["【观众】"] = "[Зритель]",
     ["Equip to gain the [Corpse Collector] bond"] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов]",
     ["Mutual Guard"] = "Взаимная защита",
+    ["Throw two doomsday cards to pierce enemies in front, dealing a total of {*d,F1690001,atkMin,2.6} Attack damage. Then increase Attack Speed by <HighLight>20%</> and Attack by <HighLight>15%</> for <HighLight>4</> seconds."] = "Бросает две карты Судного дня, пронзающие врагов впереди, в сумме {*d,F1690001,atkMin,2.6} ед. урона от атаки. Затем повышает скорость атаки на <HighLight>20%</> и атаку на <HighLight>15%</> на <HighLight>4</> сек.",
     ["Marcelo"] = "Марсело ·",
     ["采集指定TemplateID的采集物  对象发送场景事件"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["Hugh"] = "Сио ·",
