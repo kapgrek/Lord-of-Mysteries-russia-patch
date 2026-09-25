@@ -18,7 +18,7 @@ if ($Only.Count -gt 0) { $tools = $tools | Where-Object { $Only -contains $_ } }
 
 # Extra sources compiled into a tool (paths relative to the repository root)
 $extraSources = @{
-    'InstallerCoreTests' = @('installer\InstallerCore.cs')
+    'InstallerCoreTests' = @('installer\InstallerCore.cs', 'installer\GameOptions.cs')
 }
 
 $root = Split-Path $PSScriptRoot -Parent

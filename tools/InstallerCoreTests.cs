@@ -63,6 +63,10 @@ public static class InstallerCoreTests
         Run("old toggle state (.disabled): install repairs the start", RepairDisabledStart);
         Run("BakedText: container_size mismatch is skipped", BakedTextSizeMismatch);
         Run("unsafe paths in installed_files.json are ignored", UnsafeInstalledList);
+        Run("options: cpdd_patcher_settings.lua defaults, CPDD format, round trip", OptionsSettingsRoundTrip);
+        Run("options: foreign cpdd_patcher_settings.lua is not overwritten", OptionsForeignSettings);
+        Run("options: Visual Clarity block in Engine.ini", OptionsVisualClarity);
+        Run("options: uninstall keeps settings, removes Visual Clarity", OptionsUninstall);
 
         Console.WriteLine();
         Console.WriteLine("passed " + passed + ", failed " + failed);
@@ -390,6 +394,146 @@ public static class InstallerCoreTests
         core.Uninstall(f.PayloadDir);
         Assert(File.Exists(victim), "file outside the game folder untouched");
         Assert(File.Exists(f.PakPath), "pak not deleted");
+    }
+
+    // ------------------------------------------------------------ options (installer/GameOptions.cs)
+
+    static string OptionsGame(string name)
+    {
+        string dir = Path.Combine(testRoot, name, "game");
+        AssertUnderTemp(dir);
+        Directory.CreateDirectory(dir);
+        return dir;
+    }
+
+    static void OptionsSettingsRoundTrip()
+    {
+        string game = OptionsGame("options-settings");
+        var opt = new GameOptions(game, null);
+        string error;
+        var state = opt.Read(out error);
+        Assert(error == null && state.DpsMode == DpsMeterMode.Advanced && !state.DesktopChat && !state.VisualClarity, "no files -> advanced / chat off / no Visual Clarity");
+
+        Assert(GameOptions.FormatSettings(DpsMeterMode.External, true) == "return {\n    DpsMeterMode = \"external\",\n    DesktopChatUI = true,\n}\n", "CPDD format byte for byte");
+        foreach (DpsMeterMode mode in new[] { DpsMeterMode.Off, DpsMeterMode.Native, DpsMeterMode.Advanced, DpsMeterMode.External })
+        {
+            foreach (bool chat in new[] { false, true })
+            {
+                Assert(opt.WriteSettings(mode, chat, out error), "write " + mode + "/" + chat + ": " + error);
+                byte[] raw = File.ReadAllBytes(opt.SettingsPath);
+                Assert(Encoding.UTF8.GetString(raw) == GameOptions.FormatSettings(mode, chat) && raw[0] == (byte)'r', "file = CPDD format, no BOM (" + mode + "/" + chat + ")");
+                DpsMeterMode m; bool c;
+                Assert(opt.TryReadSettings(out m, out c, out error) && m == mode && c == chat, "read back " + mode + "/" + chat);
+            }
+        }
+        // Old CPDD one-key files are understood and rewritten.
+        WriteText(opt.SettingsPath, "return { DpsMeterMode = \"off\" }\n");
+        DpsMeterMode m2; bool c2;
+        Assert(opt.TryReadSettings(out m2, out c2, out error) && m2 == DpsMeterMode.Off && !c2, "old CPDD format read");
+        Assert(opt.WriteSettings(DpsMeterMode.Native, false, out error) && File.ReadAllText(opt.SettingsPath) == GameOptions.FormatSettings(DpsMeterMode.Native, false), "old format rewritten");
+        Assert(!File.Exists(Path.Combine(game, @"Saved\Mods\lua\cpdd_user_settings.lua")), "cpdd_user_settings.lua not created");
+    }
+
+    static void OptionsForeignSettings()
+    {
+        string game = OptionsGame("options-foreign");
+        var opt = new GameOptions(game, null);
+        foreach (string foreign in new[] {
+            "return {\n    DpsMeterMode = \"advanced\",\n    DesktopChatUI = false,\n    MyKey = 1,\n}\n",
+            "return {\n    DpsMeterMode = \"turbo\",\n}\n",
+            "local x = 1\nreturn { DpsMeterMode = \"off\" }\n",
+            "return {\n    DpsMeterMode = \"off\",\n" })
+        {
+            WriteText(opt.SettingsPath, foreign);
+            string error;
+            Assert(!opt.WriteSettings(DpsMeterMode.External, true, out error) && error != null && error.Contains("изменён вручную"), "refused: " + foreign.Replace("\n", " "));
+            Assert(File.ReadAllText(opt.SettingsPath) == foreign, "file unchanged");
+            opt.Read(out error);
+            Assert(error != null, "Read reports the foreign file");
+        }
+    }
+
+    static void OptionsVisualClarity()
+    {
+        string game = OptionsGame("options-vc");
+        var opt = new GameOptions(game, null);
+        string ini = opt.EngineIniPath;
+        string error;
+
+        // No Engine.ini: created with the block, removed again on disable.
+        Assert(opt.SetVisualClarity(true, out error), "enable without Engine.ini: " + error);
+        Assert(File.ReadAllText(ini) == GameOptions.VisualClarityBlock, "Engine.ini = CPDD block byte for byte");
+        bool vc;
+        Assert(opt.TryReadVisualClarity(out vc, out error) && vc, "state: enabled");
+        Assert(opt.SetVisualClarity(true, out error) && File.ReadAllText(ini) == GameOptions.VisualClarityBlock, "enable twice: no duplicate");
+        Assert(opt.SetVisualClarity(false, out error), "disable: " + error);
+        Assert(!File.Exists(ini), "Engine.ini created by us is deleted");
+        Assert(!File.Exists(opt.OptionsStatePath), "options.json removed");
+
+        // Existing Engine.ini (LF): appended after one blank line, disable restores the bytes.
+        string original = "[Core.System]\nPaths=../../../Engine/Content\n";
+        WriteText(ini, original);
+        Assert(opt.SetVisualClarity(true, out error), "enable on existing file: " + error);
+        string after = File.ReadAllText(ini);
+        Assert(after == original + "\n" + GameOptions.VisualClarityBlock, "block appended, other lines byte for byte");
+        Assert(opt.SetVisualClarity(true, out error) && File.ReadAllText(ini) == after, "enable again: no duplicate");
+        Assert(opt.SetVisualClarity(false, out error) && File.ReadAllText(ini) == original, "disable returns the original bytes");
+        Assert(File.Exists(ini), "foreign Engine.ini is kept");
+
+        // Block in the middle is replaced in place.
+        string middle = "[A]\nx=1\n\n" + GameOptions.VisualClarityBlock.Replace("r.Fog=0\n", "r.Fog=1\n") + "[B]\ny=2\n";
+        WriteText(ini, middle);
+        Assert(opt.SetVisualClarity(true, out error) && File.ReadAllText(ini) == "[A]\nx=1\n\n" + GameOptions.VisualClarityBlock + "[B]\ny=2\n", "old block replaced in place");
+        Assert(opt.SetVisualClarity(false, out error) && File.ReadAllText(ini) == "[A]\nx=1\n[B]\ny=2\n", "block and one blank line removed");
+
+        // CRLF is kept.
+        string crlf = "[Core.System]\r\nPaths=x\r\n";
+        WriteText(ini, crlf);
+        Assert(opt.SetVisualClarity(true, out error), "enable on CRLF: " + error);
+        after = File.ReadAllText(ini);
+        Assert(after == crlf + "\r\n" + GameOptions.VisualClarityBlock.Replace("\n", "\r\n"), "CRLF block");
+        Assert(opt.SetVisualClarity(false, out error) && File.ReadAllText(ini) == crlf, "CRLF restored");
+
+        // UTF-16 and broken blocks: refused, file unchanged.
+        byte[] utf16 = Encoding.Unicode.GetPreamble();
+        byte[] body = Encoding.Unicode.GetBytes("[Core.System]\r\n");
+        byte[] u16 = new byte[utf16.Length + body.Length];
+        utf16.CopyTo(u16, 0); body.CopyTo(u16, utf16.Length);
+        WriteBytes(ini, u16);
+        Assert(!opt.SetVisualClarity(true, out error) && error.Contains("UTF-16"), "UTF-16 refused");
+        Assert(InstallerCore.Sha256(File.ReadAllBytes(ini)) == InstallerCore.Sha256(u16), "UTF-16 file unchanged");
+        WriteBytes(ini, new byte[] { 0x5B, 0x41, 0x5D, 0x0A, 0xC3, 0x28, 0x0A });
+        Assert(!opt.SetVisualClarity(true, out error) && error.Contains("UTF-8"), "invalid UTF-8 refused");
+
+        foreach (string broken in new[] {
+            "[A]\n" + GameOptions.BeginMarker + "\nr.Fog=0\n",
+            "[A]\n" + GameOptions.VisualClarityBlock + GameOptions.VisualClarityBlock,
+            "[A]\n" + GameOptions.EndMarker + "\n" + GameOptions.BeginMarker + "\n" })
+        {
+            WriteText(ini, broken);
+            Assert(!opt.SetVisualClarity(true, out error) && error.Contains("повреждённый"), "broken block refused (enable)");
+            Assert(!opt.SetVisualClarity(false, out error), "broken block refused (disable)");
+            Assert(File.ReadAllText(ini) == broken, "broken file unchanged");
+        }
+    }
+
+    static void OptionsUninstall()
+    {
+        var f = NewFixture("options-uninstall");
+        string reason, error;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "install: " + reason);
+        var opt = new GameOptions(f.GameDir, null);
+        var desired = new GameOptionsState { DpsMode = DpsMeterMode.Native, DesktopChat = true, VisualClarity = true };
+        var errors = new List<string>();
+        Assert(opt.Apply(desired, errors), "apply: " + string.Join("; ", errors.ToArray()));
+        Assert(opt.Read(out error).SameAs(desired) && error == null, "read back = applied");
+
+        Assert(opt.RemoveManagedBlocks(out error), "remove managed blocks: " + error);
+        Assert(f.Core().Uninstall(f.PayloadDir), "uninstall");
+        Assert(File.ReadAllText(f.G(GameOptions.SettingsRel)) == GameOptions.FormatSettings(DpsMeterMode.Native, true), "cpdd_patcher_settings.lua stays");
+        Assert(File.Exists(f.G(@"Saved\Mods\lua\cpdd_user_settings.lua")), "cpdd_user_settings.lua stays");
+        Assert(File.ReadAllText(f.G(GameOptions.EngineIniRel)) == "[Core.System]\n", "Engine.ini: block removed, foreign lines intact");
+        Assert(!Directory.Exists(f.G(InstallerCore.BackupDirRel)), "backup dir removed");
     }
 
     // ------------------------------------------------------------ helpers
