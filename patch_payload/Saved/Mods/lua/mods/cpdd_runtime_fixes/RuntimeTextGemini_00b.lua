@@ -274,4 +274,6 @@ return {
     ["Succeed in the check to complete the Requiem (Difficulty: Medium)."] = "Пройдите проверку, чтобы завершить Реквием (Сложность: Средняя).",
     ["Flame Sound Effect Pack"] = "Пакет звуковых эффектов пламени",
     ["The thorn of chaos that craves the grooming of the Power of Order"] = "Шип хаоса, жаждущий ухода за Силой Порядка.",
+    ["Fine Equipment Chest"] = "Ларец отличного снаряжения",
+    ["Sweep with the scythe to heavily damage enemies with low health."] = "Взмахом косы тяжело ранит врагов с низким здоровьем.",
 }

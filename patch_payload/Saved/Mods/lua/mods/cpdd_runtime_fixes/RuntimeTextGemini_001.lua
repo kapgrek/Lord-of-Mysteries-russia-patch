@@ -242,6 +242,7 @@ return {
     ["[Emoji 44]"] = "[Эмодзи 44]",
     ["100.6W"] = "100.6W",
     ["100.7W"] = "100.7W",
+    ["<HighLight>根据敌人数量提高防御</>"] = "<HighLight>Защита растёт от числа врагов</>",
     ["Brielle"] = "Бриэль",
     ["My god, what is wrong with everyone!\n\nThey only ever say those few sentences. Philine has been standing on the bridge fishing for a lifetime without stopping for a second!\n\nDoesn't anyone find it strange?\n\n...No, why didn't I find it strange before?"] = "На Пути 【Колеса Фортуны】 можно не только ощущать неудачу, но и силой собственной воли обращать вспять предначертанную причинно-следственную связь.",
     ["Russell"] = "Рассел",

@@ -267,6 +267,7 @@ return {
     ["Hidden Divination Table"] = "Скрытый стол для гадания",
     ["Flowing with dark gold, crystalline and transparent, as if it can see into the human heart."] = "Переливаясь темным золотом, кристально прозрачным и словно способным заглянуть в человеческое сердце.",
     ["Selects the area with the most enemies and strikes twice consecutively, dealing a total of {*d,F1690001,atkMin,4.6} Attack damage. The first hit pulls enemies to the center of the area, and the second hit Stuns them for <HighLight>1</> seconds."] = "Выбирает место скопления врагов и дважды подряд бьёт по нему, в сумме {*d,F1690001,atkMin,4.6} ед. урона от атаки. Первый удар стягивает врагов к центру области, второй оглушает их на <HighLight>1</> сек.",
+    ["震击周围敌人，并获得伤害减免。"] = "Сотрясает окружающих врагов и получает снижение урона.",
     ["精选招牌套餐"] = "Отборный фирменный сет",
     ["播放Dialogue  玩家播放情绪音乐（仅自己可听）  玩家传送到位面"] = "Воспроизвести диалог, игрок воспроизводит эмоциональную музыку (слышно только самому себе), игрок телепортируется в самолет.",
 }

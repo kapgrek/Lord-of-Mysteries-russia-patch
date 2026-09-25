@@ -251,6 +251,7 @@ return {
     ["Raids the furthest enemy. Three attacks deal a total of {*d,F1690001,atkMin,20} attack damage and leave behind Primordial Black Flame that deals {*d,F1690001,atkMin,3.3333} attack damage per second. A maximum of <HighLight>3</> Black Flames can exist, lasting until self dies or the battle ends. Restores mana to full after killing the target selected by this skill."] = "Бросается на самого дальнего врага. Три удара наносят в сумме {*d,F1690001,atkMin,20} ед. урона от атаки и оставляют Изначальное чёрное пламя, наносящее {*d,F1690001,atkMin,3.3333} ед. урона от атаки в секунду. Одновременно может быть не более <HighLight>3</> очагов пламени; они горят до гибели фигуры или конца боя. Убив цель этого навыка, полностью восстанавливает ману.",
     ["Merlin Hermes participates in defeating 3 enemy pieces in a single combat round."] = "Мерлин Гермес помог победить 3 вражеские фигуры за один раунд боя",
     ["修改阵容名称"] = "Изменить название состава",
+    ["Restores <HighLight>2%</> of Max Health per second."] = "Восстанавливает <HighLight>2%</> макс. здоровья в секунду.",
     ["无法解锁组件，需要满足条件后再解锁"] = "Невозможно разблокировать компонент: сначала выполните необходимые условия",
     ["要是能摸摸那软软的皮座位，我保证这周都不要糖果了！"] = "Если бы я только мог прикоснуться к этим мягким кожаным сиденьям, обещаю, что не буду просить конфет на этой неделе!",
 }

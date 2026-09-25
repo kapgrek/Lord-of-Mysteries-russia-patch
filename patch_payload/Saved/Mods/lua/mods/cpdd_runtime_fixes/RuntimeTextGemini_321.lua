@@ -265,5 +265,6 @@ return {
     ["Randomly gain <HighLight> two 1-star 1-cost Extraordinary World chess pieces </> and <HighLight> one 1-star 3-cost Extraordinary World chess piece </>. Player gains <HighLight> 10 Health </>."] = "Случайным образом даёт <HighLight> две 1-звёздочные фигуры Потустороннего мира за 1 золотой </> и <HighLight> одну 1-звёздочную фигуру Потустороннего мира за 3 золотых </>. Игрок получает <HighLight> 10 ед. здоровья </>.",
     ["Position 4 Action"] = "Действие 4 позиции",
     ["吟诵午夜诗篇，对周围敌人造成{*d,F1690001,atkMin,5.4}点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。"] = "Читает полуночный стих, нанося окружающим врагам {*d,F1690001,atkMin,5.4} ед. урона от атаки и погружая их в Сон на <HighLight>1</> сек.; скорость атаки фигуры повышается на <HighLight>15%</> на <HighLight>4</> сек.",
+    ["灵界归寂"] = "Безмолвие Мира духов",
     ["Dawson"] = "Доусон",
 }

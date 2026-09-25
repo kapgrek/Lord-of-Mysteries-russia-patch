@@ -261,5 +261,7 @@ return {
     ["Fate's Favorite: Skill Enhancement increased by <UpgradeNum>70</>, Skill Block increased by <UpgradeNum>70</>."] = "Любимец судьбы: улучшение навыков увеличено на <UpgradeNum>70</>, блокирование навыков увеличено на <UpgradeNum>70</>.",
     ["Compared to your 15% monthly interest, I'm afraid I'd rather trust the bank."] = "По сравнению с вашими 15% ежемесячных процентов, боюсь, я бы предпочел довериться банку.",
     ["通常伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>160%</> = {*d,F1690001,atkMin,1.6}点，低生命目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>240%</> = {*d,F1690001,atkMin,2.4}点"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>160%</> = {*d,F1690001,atkMin,1.6}, урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>240%</> = {*d,F1690001,atkMin,2.4}",
+    ["Throw a Miracle Card to attack distant targets."] = "Метает Карту чудес в дальние цели.",
+    ["饼干雨轰击敌人，治疗生命最低的友军。"] = "Дождь из печенья обрушивается на врагов и лечит союзника с наименьшим здоровьем.",
     ["巨龙后裔"] = "Наследие Дракона",
 }

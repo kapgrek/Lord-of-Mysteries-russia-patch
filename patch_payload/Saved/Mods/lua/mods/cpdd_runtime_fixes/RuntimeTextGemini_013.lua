@@ -257,6 +257,8 @@ return {
     ["Afterglow of the Fog"] = "Послесвечение тумана",
     ["Una "] = "Уна",
     ["弈呼百应"] = "Сотня откликов",
+    ["Basic Damage: <HighLight>300%</> Attack, Low Health Target Damage: <HighLight>400%</> Attack. Three Stars: Basic Damage: <HighLight>700%</> Attack, Low Health Target Damage: <HighLight>1000%</> Attack."] = "Обычный урон: <HighLight>300%</> атаки, урон по цели с низким здоровьем: <HighLight>400%</> атаки. На 3 звёздах: обычный урон: <HighLight>700%</> атаки, урон по цели с низким здоровьем: <HighLight>1000%</> атаки.",
+    ["6-4 Draft"] = "6-4 Выбор фигур",
     ["提交道具（设置提交参数）  玩家播放仅自己可见的说话文本"] = "Отправить элемент (установить параметры отправки); игрок воспроизводит речевой текст, видимый только ему самому.",
     ["Zaria"] = "Заря",
 }

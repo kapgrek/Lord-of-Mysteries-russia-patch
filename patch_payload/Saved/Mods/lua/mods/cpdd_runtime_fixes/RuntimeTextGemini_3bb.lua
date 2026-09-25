@@ -243,4 +243,6 @@ return {
     ["【月之污染】"] = "【Лунное осквернение】",
     ["Each unique <HighLight>3</>-star piece: All allies +<HighLight>3%</> Attack and <HighLight>5</> Defense. Gain <HighLight>1</> random wild monster piece after each player combat."] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты. Даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
     ["罪恶廷根棋子获得<HighLight>15%</>攻击和<HighLight>10%</>伤害减免。敌方棋子阵亡时，所有成员获得<HighLight>1</>层【恶名】，最多<HighLight>6</>层。"] = "Фигуры «Грешного Тингена» получают <HighLight>15%</> атаки и <HighLight>10%</> снижения урона. Когда гибнет вражеская фигура, все участники получают <HighLight>1</> уровень [Дурной славы] (не более <HighLight>6</>).",
+    ["<HighLight>普攻叠加攻速</>"] = "<HighLight>Базовые атаки накапливают скорость атаки</>",
+    ["Fire a gear beam to perform a ranged attack on the target."] = "Выпускает луч из шестерёнок, атакуя цель издалека.",
 }

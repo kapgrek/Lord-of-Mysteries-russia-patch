@@ -233,6 +233,7 @@ return {
     ["Gain <HighLight> one Sword Knight </>. In each battle, when the <HighLight> first enemy falls </>, all Blood Blades restore <HighLight> 12% of their maximum Health </>."] = "Даёт <HighLight> одного Рыцаря меча </>. В каждом бою, когда погибает <HighLight> первый враг </>, все Кровавые клинки восстанавливают <HighLight> 12% от макс. здоровья </>.",
     ["等待至<h>夜晚</>"] = "Дождитесь <h>ночи</>",
     ["Randomly gain <HighLight> one 3-star 1-cost chess piece </>, and gain <HighLight> 7 Gold Coins </>."] = "Случайным образом даёт <HighLight>1 трёхзвёздочную фигуру за 1 золотой</> и <HighLight>7 золотых монет</>.",
+    ["Spirit World Silence"] = "Безмолвие Мира духов",
     ["任务："] = "Задание:",
     ["“魔术师”小姐托我把这本书带给您。"] = "Мисс Маг попросила меня передать вам эту книгу.",
     ["Stupid, how dare you slander my collection!"] = "Глупый, как ты смеешь клеветать на мою коллекцию!",

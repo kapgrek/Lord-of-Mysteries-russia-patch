@@ -258,6 +258,7 @@ return {
     ["At the start of battle, gain a Shield equivalent to <HighLight>15%</> of maximum Health for <HighLight>8</> seconds."] = "В начале боя даёт щит в размере <HighLight>15%</> от максимального здоровья на <HighLight>8</> сек.",
     ["<Assistant_Title1>【不灭之握】</>\n<Assistant_Title2>描述：</>神眷池饰品\n<Assistant_Title2>使用：</>使用后获得不灭之握，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>1</>张神眷牌兑换"] = "<Assistant_Title1>【Хватка бессмертия】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Хватку бессмертия». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить её.\n<Assistant_Title2>Получение: </>обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>",
     ["What is Resonance?"] = "Что такое резонанс?",
+    ["Points: %s/%s"] = "Очки: %s/%s",
     ["采集指定TemplateID的采集物  传送回大世界场景"] = "Соберите указанный элемент коллекции TemplateID; телепортируйтесь обратно в открытый мир.",
     ["Arielle"] = "Ариэль",
     ["[UIFrame : NewUIManager]二次打开面板 %s"] = "[UIFrame : NewUIManager] Open panel again %s",

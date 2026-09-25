@@ -257,6 +257,7 @@ return {
     ["Why didn't my famous blade trigger?"] = "Почему не сработал мой клинок?",
     ["<HighLight> [%s]</> defeated <HighLight> [%s]</> in a duel of war declaration. This name will be remembered by history along with the victory."] = "<HighLight>[%s]</> побеждает <HighLight>[%s]</> в объявленной дуэли, и это имя войдёт в историю вместе с победой.",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>540%</> = {*d,F1690001,atkMin,5.4}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>540%</> = {*d,F1690001,atkMin,5.4}",
+    ["Bite to heavily damage the target and provide a Shield for all allies."] = "Укусом тяжело ранит цель и даёт щит всем союзникам.",
     ["亡灵的絮语在此低徊指引，是所有死亡归寂的渡口。"] = "Здесь тихо звучит шёпот неупокоенных душ, служащий проводником к переправе, где любая смерть обретает вечный покой.",
     ["Scene ID:"] = "Идентификатор сцены:",
     ["我曾以为我会愤怒，会不甘，会咆哮着控诉命运的不公和众神的狡诈。"] = "Я когда-то думал, что буду злиться, не хотеть и рычать в обвинениях в несправедливости судьбы и хитрости богов.",

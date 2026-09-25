@@ -236,6 +236,7 @@ return {
     ["Fool's Gambit: Challenger"] = "«Гамбит Шута»: Претендент",
     ["Eat a piece of cake"] = "Съесть кусочек торта",
     ["Lineup data is not up to date; please refresh the data before proceeding."] = "Данные состава устарели, обновите их и повторите",
+    ["Swing vines to attack the target."] = "Бьёт цель лозами.",
     ["Renata"] = "Рената",
     ["<Default> has checked in for </> <Red>%s</><Default> days (resets in </><Red>%s</><Default>)</>"] = "<Default> зарегистрировался в течение </> <Red>%s</><Default> дней (сбрасывается через </><Red>%s</><Default>)</>",
     ["Excited? Happy? Nervous? I cannot describe my feelings in any language or words.\nNeil and I reached the summit!\nLucky Neil found a piece of amber, which will serve as his summit souvenir.\nI also tried to look for one on the mountain like him, but there was nothing special. I mixed some soil from the mountain peak with snow and put it in a bottle.\n\nDescent supplies:\nBread 2 portions\nBeef jerky and meat sausage 1 portion\nSugar 1 jar\nButter 1 block\nWater 2 bottles"] = "Восторг? Счастье? Волнение? Никакие слова не могут передать то, что я сейчас чувствую.\nМы с Нилом покорили вершину!\nСчастливчик Нил нашёл кусочек янтаря — он станет его памятным сувениром.\nЯ тоже попытался поискать что-нибудь на горе, но ничего особенного не попалось: набрал в бутылку снега с вершины, смешав его с горстью земли.\n\nПрипасы на спуск:\n2 порции хлеба\n1 порция вяленого мяса и колбасы\n1 банка сахара\n1 брусок масла\n2 бутылки воды",

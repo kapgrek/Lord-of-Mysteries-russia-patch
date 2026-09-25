@@ -264,6 +264,8 @@ return {
     ["Examine the corrupted person."] = "Осмотрите испорченного человека.",
     ["Freshly baked lemon cake tastes the best; you can buy a small piece to try first."] = "Свежеиспеченный лимонный пирог вкуснее всего; вы можете купить небольшой кусочек, чтобы попробовать сначала.",
     ["Strike surrounding enemies with a three-hit Torrent, dealing a total of <Yellow>60</> Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain <Yellow>210</> Shield for <HighLight>4</> seconds."] = "Поражает окружающих врагов трехударным Потоком, нанося в сумме <Yellow>60</> ед. урона от атаки. Последний удар подбрасывает врагов в воздух на <HighLight>0.6</> сек., а вы получаете щит прочностью <Yellow>210</> ед. на <HighLight>4</> сек.",
+    ["Deals <HighLight>150</> True Damage. All allies +<HighLight>20%</> Attack Speed."] = "Наносит <HighLight>150</> ед. чистого урона. Все союзники: +<HighLight>20%</> к скорости атаки.",
+    ["Project shadow missiles to attack distant targets."] = "Выпускает теневые снаряды в дальние цели.",
     ["播放Dialogue  设置采集物可交互状态  玩家移除任务道具（全部删除）"] = "Играть в диалог; перевести элемент коллекции в интерактивное состояние; игрок удаляет квестовый предмет (удалить все).",
     ["我给你三倍的报酬，你只为我一个人写。今晚就跟我走吧。"] = "Я заплачу тебе тройную награду, если ты напишешь только для меня. Пойдем со мной сегодня вечером.",
     ["播放CutScene  对象同场景传送  对象同场景传送"] = "Поиграйте в КатСцену. Объект телепортируется в пределах одной сцены. Объект телепортируется в пределах одной сцены.",

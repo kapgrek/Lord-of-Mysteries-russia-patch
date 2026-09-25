@@ -272,5 +272,7 @@ return {
     ["Why are you late today?"] = "Почему ты сегодня опоздал?",
     ["生命值低于<HighLight>40%</>时，解除控制并进入隐匿状态，持续<HighLight>2</>秒，同时恢复<HighLight>35%</>已损失生命值，冷却<HighLight>50</>秒。"] = "Когда здоровье падает ниже <HighLight>40%</>, снимает эффекты контроля и входит в невидимость на <HighLight>2</> сек., восстанавливая <HighLight>35%</> от потерянного здоровья. Перезарядка: <HighLight>50</> сек.",
     ["Lineup data cannot be recovered after deletion. Still want to delete?"] = "Удалённый состав нельзя восстановить. Всё равно удалить?",
+    ["[Blood Blade] Gains Critical Rate and Critical Damage. Inflicts Bleed when hitting enemies; Bleed damage increases with tier."] = "【Кровавый клинок】 получает шанс и урон крит. удара. При попадании накладывает Кровотечение, урон от которого растёт со ступенью.",
+    ["挥爪连续撕裂目标。"] = "Раз за разом раздирает цель когтями.",
     ["Depose  \r\nExile \r\nMurder"] = "Низложение  \r\nИзгнание \r\nУбийство",
 }

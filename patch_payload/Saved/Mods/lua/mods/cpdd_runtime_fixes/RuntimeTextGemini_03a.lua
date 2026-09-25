@@ -244,6 +244,7 @@ return {
     ["A Fun Mini-game: Accept Mission"] = "Веселая мини-игра: принять миссию",
     ["Automatically exit after %s seconds"] = "Автоматически выйти через %s секунд",
     ["It seems he's trying to find his way home and fulfill an unfinished promise."] = "Кажется, он пытается найти дорогу домой и выполнить невыполненное обещание.",
+    ["+<HighLight>30</> initial Mana, Attack increased by <HighLight>35%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>2</> allies for <HighLight>25%</> Max Health."] = "+<HighLight>30</> ед. стартовой маны, атака повышена на <HighLight>35%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>2</> союзников на <HighLight>25%</> макс. здоровья.",
     ["<Favorite1>灵性共鸣</>"] = "<Favorite1>Духовный резонанс</>",
     ["Astrid"] = "Астрид",
 }

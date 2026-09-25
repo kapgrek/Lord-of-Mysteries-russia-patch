@@ -261,5 +261,8 @@ return {
     ["A total of 25 friendly pieces have been defeated"] = "Всего погибло 25 ваших фигур",
     ["获得3个高级棋子记录仪，可复制任意费用棋子的一星版本。"] = "Даёт 3 продвинутых регистратора фигур: они копируют однозвёздочную версию фигуры любой стоимости.",
     ["Participate in Fool's Gambit %d/150 times."] = "Сыграно партий в «Гамбит Шута»: %d/150.",
+    ["When Trissy enters the field: All enemy Mana recovery reduced by <HighLight>2</> points for <HighLight>6</> seconds."] = "Когда Трисси появляется на поле: восстановление маны всех врагов снижается на <HighLight>2</> ед. на <HighLight>6</> сек.",
+    ["突袭最远的敌人并留下黑焰，自身击杀选中目标后恢复法力。"] = "Бросается на самого дальнего врага и оставляет чёрное пламя; убив выбранную цель, восстанавливает ману.",
+    ["[Beginner Recommendation] Extraordinary Ranged Strike"] = "【Совет новичкам】Потусторонний дальний удар",
     ["Quest Name:"] = "Название квеста:",
 }

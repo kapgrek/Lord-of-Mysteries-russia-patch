@@ -237,6 +237,7 @@ return {
     ["等级棋数"] = "Число фигур по уровню",
     ["How is interest calculated in Fool's Gambit?"] = "Как считаются проценты в «Гамбите Шута»?",
     ["Function_Receive Extra Damage from Gold Coin"] = "Function_Дополнительный урон от золотой монеты",
+    ["Sealed Equipment Chest"] = "Ларец запечатанного снаряжения",
     ["收获%d/100个优质食坊物产。"] = "Соберите %d/100 первоклассных продуктов кулинарной лавки.",
     ["Roxanne"] = "Роксана",
 }

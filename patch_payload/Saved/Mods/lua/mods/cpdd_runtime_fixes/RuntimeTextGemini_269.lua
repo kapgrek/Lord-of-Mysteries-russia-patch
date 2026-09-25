@@ -243,6 +243,8 @@ return {
     ["<InvHighlight>May 9th, Sunny</>\n　　Finally arrived at Water Lily Town. Outside the window is a lake view, with many water lilies planted. Heard the story of the <Mark id=\"#159\">Water Lily Fairy</> from the innkeeper, interesting...\n　　Hope to have a wonderful week.\n\n<InvHighlight>May 10th, Sunny</>\n　　Discovered the magical aspect of this place—there is no night, it is always daytime. Maybe the latitude is too high...\n　　The small town is built around the Church of the Night, with a classical style..."] = "<InvHighlight>9 мая, ясно</>\n　　Наконец-то добрался до городка Кувшинок. За окном вид на озеро, где растёт множество кувшинок. Хозяин гостиницы поведал историю о <Mark id=\"#159\">Фее Кувшинок</>, занятно...\n　　Надеюсь провести здесь чудесную неделю.\n\n<InvHighlight>10 мая, ясно</>\n　　Обнаружил местную странность: здесь нет ночи, всё время светло. Может, дело в слишком высокой широте...\n　　Городок выстроен вокруг церкви Богини Ночи в классическом стиле...",
     ["Equip to gain the [Rock] bond."] = "Экипируйте, чтобы получить резонанс [Скала].",
     ["losing streak"] = "серия поражений",
+    ["雾中廷根"] = "Тинген в тумане",
+    ["唤下饼干雨，造成伤害并为友方恢复生命。"] = "Призывает дождь из печенья: наносит урон и восстанавливает здоровье союзникам.",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  玩家跨场景传送到指定Trigger"] = "Поиграйте в КатСцену. Плеер воспроизводит эмоциональную музыку (слышна только самому себе). Игрок телепортируется между сценами к указанному триггеру.",
     ["循环音效 [%s], [打断模式] 不允许配置为 [NOT_INTERRUPT]"] = "Зацикленный звуковой эффект [%s], [Режим прерывания] не может быть настроен как [NOT_INTERRUPT]",
     ["所信即为所见。心象所及，皆铸真实。"] = "Во что веришь — то и узришь. Чего достигает мысленный взор — обретает плоть наяву.",

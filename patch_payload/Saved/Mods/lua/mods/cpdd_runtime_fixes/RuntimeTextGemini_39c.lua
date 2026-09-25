@@ -253,5 +253,7 @@ return {
     ["Mark_Four-Way 2"] = "Марк_Четырехходовой 2",
     ["Above the gray fog, take your seat! Invite new friends to experience the Fool's Gambit together and win generous rewards!"] = "Над серым туманом — занимайте места! Пригласите новых друзей сыграть вместе в «Гамбит Шута» и получите щедрые награды!",
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>733%</> = {*d,F1690001,atkMin,7.33}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>733%</> = {*d,F1690001,atkMin,7.33}",
+    ["挥动黑镰范围攻击，并对残血敌人造成更高伤害。"] = "Атакует по области чёрной косой и наносит повышенный урон врагам с низким здоровьем.",
+    ["Swings a black scythe for area attacks and deals higher damage to enemies with low health."] = "Атакует по области чёрной косой и наносит повышенный урон врагам с низким здоровьем.",
     ["任务自定义事件  玩家设置灵视状态"] = "Пользовательское событие квеста; игрок устанавливает состояние духовного видения.",
 }

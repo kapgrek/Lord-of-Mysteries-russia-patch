@@ -246,6 +246,8 @@ return {
     ["<InvHighlight>The male outfit</><InvDefault>is based on a</><InvHighlight>brown tailcoat</><InvDefault>, with a</><InvHighlight>gilded sheer cape</><InvDefault>resembling cicada wings.</>"] = "<InvHighlight>Мужской наряд</><InvDefault> построен на </><InvHighlight>коричневом фраке со шлейфом</><InvDefault>, а </><InvHighlight>позолоченная накидка из лёгкой вуали</><InvDefault> напоминает крылья цикады.</>",
     ["走向<h>绯红之月</>"] = "Идите к <h>Багровой Луне</>",
     ["spirituality Energy"] = "Энергия Духовности",
+    ["Random Basic Equipment"] = "Случайное базовое снаряжение",
+    ["<HighLight> Increases Attack </>"] = "<HighLight>Повышает атаку</>",
     ["等待时间  延迟执行  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Время ожидания; отложенное исполнение; игрок воспроизводит текст диалога, видимый только ему самому; отложенное исполнение; игрок воспроизводит текст диалога, видимый только ему самому",
     ["任务自定义事件  玩家播放2D音效（仅自己可听）"] = "Пользовательское событие квеста. Плеер воспроизводит 2D-звуковой эффект (слышен только самому себе).",
 }

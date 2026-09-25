@@ -281,6 +281,7 @@ return {
     ["Royal Glory"] = "Королевская слава",
     ["Search for the <h>\"Stored\" item</>"] = "Найдите <h>«сохранённый» предмет</>",
     ["How do I enter Fool's Gambit?"] = "Как попасть в «Гамбит Шута»?",
+    ["Frenzied continuous slashes, striking the target repeatedly."] = "Неистовая серия ударов, раз за разом поражающая цель.",
     ["又来了……"] = "Опять началось...",
     ["采集指定TemplateID的采集物  玩家变身开始"] = "Соберите указанный элемент коллекции TemplateID; начинается трансформация игрока.",
 }

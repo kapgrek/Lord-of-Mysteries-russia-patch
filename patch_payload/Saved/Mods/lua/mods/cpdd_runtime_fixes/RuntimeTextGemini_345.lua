@@ -225,6 +225,7 @@ return {
     ["Damage: <HighLight>400%</> attack"] = "Урон: атака <HighLight>400%</>.",
     ["Fool, I support you because I believe in your talent, not because of what professor you are."] = "Дурак, я поддерживаю тебя, потому что верю в твой талант, а не из-за того, какой ты профессор.",
     ["Sequence 9 Bard Kill Chest"] = "Последовательность 9. Сундук за убийство барда.",
+    ["Frenzy Slash"] = "Неистовые удары",
     ["父亲——母亲——姐姐——你们在哪啊？"] = "Отец... Мама... Сестренка... Где же вы?",
     ["Harley"] = "Харли",
 }

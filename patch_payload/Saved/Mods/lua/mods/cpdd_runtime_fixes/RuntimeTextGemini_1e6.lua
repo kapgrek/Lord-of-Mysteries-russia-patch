@@ -260,5 +260,6 @@ return {
     ["Deterrence and Demoralization"] = "Устрашающий слом воли",
     ["Strike surrounding enemies with a three-hit Torrent, dealing a total of {*d,F1690001,atkMin,1.33} Attack damage. The final hit knocks up enemies for <HighLight>0.6</> seconds, and you gain {*d,F1690001,maxHp,0.25} Shield for <HighLight>4</> seconds."] = "Наносит окружающим врагам три удара яростного прилива, в сумме {*d,F1690001,atkMin,1.33} ед. урона от атаки. Последний удар подбрасывает врагов на <HighLight>0.6</> сек., а фигура получает щит на {*d,F1690001,maxHp,0.25} ед. на <HighLight>4</> сек.",
     ["Fool's Gambit Lineup"] = "Составы «Гамбита Шута»",
+    ["Generates [Evernight Tiles]. [Evernight Goddess Church] units standing on these tiles can execute low-Health enemies. Each tier generates <HighLight>6/10/16</> tiles."] = "Создаёт 【Клетки ночи】: фигуры 【Церкви Богини Вечной Ночи】 на этих клетках могут добивать врагов с низким здоровьем. Ступени создают <HighLight>6/10/16</> клеток.",
     ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

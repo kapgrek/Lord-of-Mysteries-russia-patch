@@ -284,4 +284,5 @@ return {
     ["This match has not ended, cannot claim rewards yet"] = "Этот матч еще не завершен, пока нельзя получить награды.",
     ["The Great Master"] = "Великий Мастер",
     ["Mark_Gunman crawling on the ground"] = "Mark_Gunman Ползает по земле",
+    ["新历启程+"] = "Новый календарь+",
 }

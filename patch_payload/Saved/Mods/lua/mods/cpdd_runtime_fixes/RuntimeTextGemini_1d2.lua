@@ -254,6 +254,7 @@ return {
     ["Current modifications not saved. Save the scheme?"] = "Текущие изменения не сохранены. Сохранить схему?",
     ["Trigger Task Step"] = "Шаг триггерной задачи",
     ["Summon Holy Light to gain {*d,F1690001,maxHp,0.15} Shield for <HighLight>5</> seconds. After <HighLight>1.2</> seconds, shock surrounding enemies, dealing {*d,F1690001,atkMin,1.02} Attack damage and restoring {*d,F1690001,maxHp,0.05} Health for nearby allies."] = "Призывает святой свет и получает щит на {*d,F1690001,maxHp,0.15} ед. на <HighLight>5</> сек. Через <HighLight>1.2</> сек. сотрясает окружающих врагов, нанося {*d,F1690001,atkMin,1.02} ед. урона от атаки, и восстанавливает союзникам поблизости {*d,F1690001,maxHp,0.05} ед. здоровья.",
+    ["<HighLight> Increases Health </>"] = "<HighLight>Повышает здоровье</>",
     ["亨利·怀恩 与 艾米莉亚·布鲁尔\n               明日正午，湖边花亭。\n               邀请您见证爱与幸福！"] = "Генри Уэйн и Амелия Брюэр\n               Завтра в полдень, беседка у озера.\n               Приглашаем вас разделить нашу любовь и счастье!",
     ["Enable Spectating:"] = "Включить просмотр:",
 }

@@ -50,6 +50,9 @@ local TITLE_CYR_MAX = 500
 local TITLE_CYR_TEXT = 60
 local LIST_MAX = 20
 local TEXT_MAX = 400
+-- src=stringdb: the full en/cn is the batch key (StringDbGaps), a clipped text is useless (TASK-014).
+-- Written once per row at load, so the larger limit costs little.
+local DB_TEXT_MAX = 4096
 local WRITE_MAX = 512 * 1024
 local IDLE_TICK_SECONDS = 1.0
 local PUMP_STALE_MS = 3000
@@ -1396,8 +1399,8 @@ local function processDb(index)
     appendRow("untranslated", {
         sid = S.sid, src = "stringdb", module = moduleName and tostring(moduleName) or nil,
         row = rowId,
-        en = type(en) == "string" and clip(en, TEXT_MAX) or nil,
-        cn = type(cn) == "string" and clip(cn, TEXT_MAX) or nil,
+        en = type(en) == "string" and clip(en, DB_TEXT_MAX) or nil,
+        cn = type(cn) == "string" and clip(cn, DB_TEXT_MAX) or nil,
     }, UNTRANSLATED_ORDER)
 end
 

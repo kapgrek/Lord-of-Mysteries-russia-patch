@@ -284,6 +284,7 @@ return {
     ["Teleporting to the next stage."] = "Телепортируемся на следующий этап.",
     ["Her departure broke my heart. What is the meaning of being alive?"] = "Ее уход разбил мне сердце. В чем смысл быть живым?",
     ["Cultivation successful."] = "Выращивание успешное.",
+    ["At the start of combat, all enemy Mana recovery is reduced by <HighLight>2</> points for <HighLight>6</> seconds."] = "В начале боя восстановление маны всех врагов снижается на <HighLight>2</> ед. на <HighLight>6</> сек.",
     ["前往指定Trigger位置  玩家播放单句黑屏字幕  对象同场景传送到指定Trigger"] = "Перейдите в указанное местоположение триггера. Плеер воспроизводит субтитры на черном экране, состоящие из одного предложения. Объект телепортируется к указанному Триггеру в той же сцене.",
     ["　　谢谢，我会还的。"] = "　　Спасибо, я все верну.",
     ["Kaiyi"] = "Кайи",

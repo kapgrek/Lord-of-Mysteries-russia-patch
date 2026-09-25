@@ -274,5 +274,7 @@ return {
     ["再次<h>品尝咖啡</>"] = "Ещё раз <h>попробуйте кофе</>",
     ["随机获得<HighLight>1个3星1费棋子</>，并获得<HighLight>11金币</>。"] = "Случайным образом даёт <HighLight>1 трёхзвёздочную фигуру за 1 золотой</> и <HighLight>11 золотых монет</>.",
     ["Rain down Miracle Cards, dealing {*d,F1690001,atkMin,5.02} Attack damage to enemies in the target area."] = "Обрушивает дождь Карт чуда, нанося врагам в целевой области {*d,F1690001,atkMin,5.02} ед. урона от атаки.",
+    ["藤蔓横扫"] = "Взмах лоз",
+    ["Extraordinary Gift: <HighLight>30</> Quest points"] = "Дар судьбы: <HighLight>30</> очков заданий",
     ["Kataleya"] = "Каталея",
 }

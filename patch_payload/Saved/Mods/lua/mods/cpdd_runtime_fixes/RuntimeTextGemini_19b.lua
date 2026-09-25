@@ -274,6 +274,7 @@ return {
     ["立即获得<HighLight>12金币</>。<HighLight>每回合</>额外获得<HighLight>1金币</>。"] = "Немедленно даёт <HighLight>12 золотых монет</>. <HighLight>Каждый раунд</> даёт ещё <HighLight>1 золотую монету</>.",
     ["获得7金币。"] = "Даёт 7 золотых монет.",
     ["Gain 3 Advanced Chess Piece Recorders, which can replicate a one-star version of any cost chess piece."] = "Даёт 3 продвинутых регистратора фигур: они копируют однозвёздочную версию фигуры любой стоимости.",
+    ["Swing spider limbs to attack nearby targets."] = "Атакует ближайшие цели паучьими лапами.",
     ["采集指定TemplateID的采集物  玩家移除任务道具（全部删除）"] = "Собрать ресурс с указанным TemplateID. Игрок удаляет предметы задания (удалить все)",
     ["坐标:"] = "Координаты:",
     ["Milina"] = "Милина",

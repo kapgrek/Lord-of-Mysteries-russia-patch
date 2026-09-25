@@ -247,5 +247,6 @@ return {
     ["Fog Forest Kin resonance summon; does not count towards Fog Forest Kin resonance headcount."] = "Призванное существо резонанса «Родичи Туманного леса»; не учитывается в числе фигур этого резонанса.",
     ["Bond Emblem"] = "Герб связи",
     ["愚者棋局夺冠1次"] = "Победить в «Гамбите Шута» 1 раз.",
+    ["<HighLight> Damage inflicts Burn and Healing Reduction </>"] = "<HighLight>Урон поджигает и снижает лечение</>",
     ["消失的幸运星-调查弗洛家"] = "Исчезающая счастливая звезда — Осмотреть дом Фло.",
 }

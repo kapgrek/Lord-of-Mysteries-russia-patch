@@ -265,5 +265,6 @@ return {
     ["询问<h>女士</>"] = "Расспросите <h>даму</>",
     ["Factory worker - Gold Coin"] = "Фабричный рабочий — золотая монета",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}",
+    ["Blood Rose Bloom, damaging surrounding enemies."] = "Кровавые розы распускаются и ранят окружающих врагов.",
     ["Ruola"] = "Руола",
 }

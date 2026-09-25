@@ -263,6 +263,7 @@ return {
     ["Obtain 1 Fine Equipment Chest; each can be opened to select one piece of equipment of the corresponding quality."] = "Даёт 1 ларец с отличным снаряжением; открыв его, можно выбрать один предмет снаряжения этого качества.",
     ["Swing the rage hammer to shock surrounding enemies, dealing {*d,F1690001,atkMin,1.53} Attack damage. Then, within <HighLight>5</> seconds, each time you are hit, gain <HighLight>6%</> Attack Speed, stacking up to <HighLight>4</> times."] = "Бьёт яростным молотом по окружающим врагам, нанося {*d,F1690001,atkMin,1.53} ед. урона от атаки. В следующие <HighLight>5</> сек. каждое полученное попадание повышает скорость атаки на <HighLight>6%</> (до <HighLight>4</> уровней).",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>250%</> = {*d,F1690001,atkMin,2.5}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>250%</> = {*d,F1690001,atkMin,2.5}",
+    ["Two cards pierce through the front, simultaneously strengthening Attack and Attack Speed."] = "Две карты пронзают врагов впереди и одновременно усиливают атаку и скорость атаки.",
     ["施放指定技能  玩家高亮显示技能栏里的指定技能"] = "Примените указанный навык, игрок подсветит указанный навык на панели навыков.",
     ["就算精心制定计划，你父亲也会找到下一件事要求你。"] = "Даже если вы составите тщательный план, ваш отец просто найдет то, что потребует от вас.",
 }

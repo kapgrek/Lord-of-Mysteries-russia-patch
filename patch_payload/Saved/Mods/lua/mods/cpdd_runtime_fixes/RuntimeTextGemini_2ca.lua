@@ -274,4 +274,5 @@ return {
     ["Negative mark"] = "Отрицательный знак",
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}",
     ["Recruit chess piece"] = "Призвать фигуру",
+    ["卷起浪潮，冲击近身目标。"] = "Поднимает волну и бьёт ближайшие цели.",
 }

@@ -250,5 +250,6 @@ return {
     ["向<h>“愚者”先生</>询问"] = "Спросите <h>мистера Шута</>",
     ["灰雾之上，搭子入座！邀请新朋友，共同体验愚者棋局，赢取丰厚奖励！"] = "Над серым туманом — занимайте места! Пригласите новых друзей сыграть вместе в «Гамбит Шута» и получите щедрые награды!",
     ["Launch three waves of Spirit World Bombardment, dealing a total of {*d,F1690001,atkMin,4.33} Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>."] = "Обрушивает три волны удара Мира духов, в сумме {*d,F1690001,atkMin,4.33} ед. урона от атаки. Вторая волна накладывает на <HighLight>4</> сек. Тяжёлое ранение и Горение: враг теряет <HighLight>1%</> макс. здоровья в секунду, получаемое исцеление снижено на <HighLight>33%</>.",
+    ["Blood Moon Hunt"] = "Охота кровавой луны",
     ["完成通用条件表  玩家跳转系统界面  切换HUD顶栏显示模式"] = "Заполните таблицу общих условий. Игрок переходит к интерфейсу системы. Переключить режим отображения верхней панели HUD.",
 }

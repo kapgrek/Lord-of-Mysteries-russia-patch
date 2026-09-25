@@ -256,6 +256,7 @@ return {
     ["棋坛商店"] = "Лавка Гамбита",
     ["棋局商店"] = "Лавка Гамбита",
     ["Klein Hidden Bond"] = "Скрытая связь Клейна",
+    ["<HighLight> Periodically strengthens allies </>"] = "<HighLight>Периодически усиливает союзников</>",
     ["Prince"] = "Принц",
     ["Isrul"] = "Исрул",
     ["Tatum"] = "Татум",

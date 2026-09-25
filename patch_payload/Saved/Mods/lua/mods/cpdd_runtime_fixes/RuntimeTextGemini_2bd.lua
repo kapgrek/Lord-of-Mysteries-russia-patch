@@ -249,4 +249,5 @@ return {
     ["Use new framework ReminderUI"] = "Используйте новый фреймворк ReminderUI",
     ["Mysticism Badge"] = "Эмблема Мистицизма",
     ["Function_Special mechanism_Covering Queue"] = "Функция_Специальный механизм_Покрытие очереди",
+    ["0-08的奇妙冒险"] = "Удивительные приключения 0-08",
 }

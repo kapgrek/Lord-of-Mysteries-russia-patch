@@ -238,5 +238,7 @@ return {
     ["Attack the arrogant prince fiercely!"] = "Обрушьте яростный шквал ударов на высокомерного принца!",
     ["Draw upon the bloodline of the Twilight Giant as power, use the Weapon Master talent as a skill, condense Beyonder power, and summon the corresponding physical forms of greatswords and dual swords.\nIncreases your Intuition by 4 and Might by 2."] = "Черпая мощь из родословной Сумеречного Гиганта и мастерство из таланта Мастера Оружия, сгущает потустороннюю силу и материализует физические формы двуручного меча и парных клинков.\nПовышает собственную Интуицию на 4 и Силу на 2.",
     ["塔罗会共鸣效果"] = "Эффект резонанса «Клуб Таро»",
+    ["<HighLight> Strengthens Basic Attack damage </>"] = "<HighLight>Усиливает урон базовых атак</>",
+    ["Swing a kitchen knife to cleave nearby targets."] = "Рубит ближайшие цели кухонным ножом.",
     ["Avianna"] = "Авианна",
 }

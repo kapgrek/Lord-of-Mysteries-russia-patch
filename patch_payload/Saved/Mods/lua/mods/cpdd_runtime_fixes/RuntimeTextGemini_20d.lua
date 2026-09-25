@@ -242,6 +242,7 @@ return {
     ["Sequence 9 digestion progress reached 100%"] = "Прогресс пищеварения 9-й последовательности достиг 100 %.",
     ["<P_Heart> (Demon possession... Could the Clover tragedy not have been an accident?) </>"] = "<P_Heart> (Одержимость демонами... Могла ли трагедия Клевера не быть случайностью?) </>",
     ["Plane spawn point in front of the herb shop"] = "Точка появления самолета перед магазином трав.",
+    ["Fate is yours to decide: Please accept an Extraordinary Quest."] = "Судьба в ваших руках: примите Потустороннее задание.",
     ["杯底沉淀为正常现象，祝您拥有宁静的夜晚。"] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
     ["Kimberly"] = "Кимберли",
     ["Marina"] = "Пристань для яхт",

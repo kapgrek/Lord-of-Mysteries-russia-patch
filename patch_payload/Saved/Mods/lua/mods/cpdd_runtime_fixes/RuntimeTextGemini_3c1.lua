@@ -275,6 +275,7 @@ return {
     ["Holy Grail Water"] = "Вода Святого Грааля",
     ["Club Cargo"] = "Клуб Карго",
     ["Eliminate %d/80 players in Fool's Gambit."] = "Выбито игроков в «Гамбите Шута»: %d/80",
+    ["Flap wings to create a shockwave, damaging surrounding enemies."] = "Взмахом крыльев создаёт ударную волну, раня окружающих врагов.",
     ["Chapter Two"] = "Глава 2",
     ["跟随娜拉前往金秋湖南瓜园"] = "Следуйте за Нарой к тыквенной грядке у озера Золотой Осени.",
     ["Georgina"] = "Джорджина",

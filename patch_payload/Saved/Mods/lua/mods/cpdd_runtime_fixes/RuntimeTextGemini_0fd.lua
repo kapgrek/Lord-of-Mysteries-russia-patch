@@ -244,6 +244,8 @@ return {
     ["Helena... you're here..."] = "Хелена, ты здесь...",
     ["噬血"] = "Кровожадность",
     ["Gain <HighLight> 2 Gold Coins </>. <HighLight> Each round </>, gain <HighLight> 1 free refresh </>."] = "Даёт <HighLight>2 золотые монеты</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
+    ["Extraordinary Gift: <HighLight>70</> Quest points"] = "Дар судьбы: <HighLight>70</> очков заданий",
+    ["Berserk Impact"] = "Яростный натиск",
     ["Trenton"] = "Трентон",
     ["Kaize"] = "Кайзе",
     ["来，我给你演示演示。"] = "Пойдем, позволь мне продемонстрировать это тебе.",

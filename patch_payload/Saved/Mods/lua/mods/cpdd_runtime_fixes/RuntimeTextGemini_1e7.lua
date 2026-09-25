@@ -254,6 +254,7 @@ return {
     ["Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max <HighLight>max 170</>"] = "Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов <HighLight>max 170</>",
     ["Hidden Space - Wind resistance draw sword"] = "Скрытое пространство - меч сопротивления ветру",
     ["Releases Horror Echo, dealing {*d,F1690001,atkMin,9.84} attack damage to surrounding enemies."] = "Высвобождает эхо ужаса, нанося окружающим врагам {*d,F1690001,atkMin,9.84} ед. урона от атаки.",
+    ["Seven-hit combo; restore own Health with each hit."] = "Серия из семи ударов, каждое попадание восстанавливает себе здоровье.",
     ["纯净骨瓷制造的茶具，工艺精致，触手温润，品茶之余传递优雅。"] = "Чайный сервиз из чистого костяного фарфора, изысканное мастерство, теплый на ощупь, передающий элегантность во время наслаждения чаем.",
     ["播放CutScene  玩家停止自己播放情绪音乐"] = "Поиграйте в КатСцену. Плеер перестает воспроизводить эмоциональную музыку.",
 }

@@ -230,6 +230,8 @@ return {
     ["Equip to gain the [Criminal] resonance."] = "Экипируйте, чтобы получить резонанс [Преступник].",
     ["随机获得总价值<HighLight>18金币</>的棋子，至少包含<HighLight>1个4费棋子</>。"] = "Случайным образом даёт фигуры общей стоимостью <HighLight>18 золотых монет</>, включая минимум <HighLight>1 фигуру за 4 золотых</>.",
     ["A total of 20 friendly pieces have been defeated"] = "Всего погибло 20 ваших фигур",
+    ["<HighLight> Increases Critical Hit Rate </>"] = "<HighLight>Повышает шанс крит. удара</>",
+    ["<HighLight> Stacks Damage Reduction when damaged </>"] = "<HighLight>Получение урона накапливает снижение урона</>",
     ["Kaili"] = "Келли·",
     ["So, go to sleep again, until the moment that I should wake up."] = "Итак, снова засыпаю, до того момента, пока мне не придется проснуться.",
     ["The apocalypse... how much time is left?"] = "Апокалипсис... сколько времени осталось?",

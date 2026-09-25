@@ -241,6 +241,8 @@ return {
     ["Gain 1 Ray Bieber<HighLight></>. His skill is strengthened to: Dash towards the target and launch a range Impact, dealing higher damage to the main target while Stunning surrounding enemies<HighLight></>."] = "Даёт 1 Рея Бибера<HighLight></>. Навык усилен: делает рывок к цели и наносит удар по площади, причиняя повышенный урон главной цели и оглушая врагов вокруг<HighLight></>.",
     ["Gain the [May Manor] Resonance."] = "Даёт резонанс [Поместье Мэй].",
     ["降下奇迹牌雨，对目标区域的敌人造成{*d,F1690001,atkMin,5.02}点攻击伤害。"] = "Обрушивает дождь Карт чуда, нанося врагам в целевой области {*d,F1690001,atkMin,5.02} ед. урона от атаки.",
+    ["Extraordinary World Quest Tracking"] = "Отслеживание заданий Потустороннего мира",
+    ["Stomp to knock back enemies in front, gaining Damage Reduction."] = "Тяжёлым топотом отбрасывает врагов впереди и получает снижение урона.",
     ["Marlon"] = "Марлон",
     ["得打这个什么守卫"] = "Нужно сразиться с этим охранником.",
     ["下周开组会，我一定会被导师夸的，嘿嘿！看来今年不用延毕咯！"] = "На следующей неделе у меня собрание группы, мой наставник обязательно похвалит меня, хе-хе! Похоже, мне не придется откладывать выпускной в этом году!",

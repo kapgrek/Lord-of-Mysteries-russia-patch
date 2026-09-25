@@ -121,7 +121,7 @@ return {
     ["“翡翠歌谣”耳环"] = "Серьги \"Изумрудная баллада\"",
     ["一尘"] = "И Чен",
     ["一袋仪式材料，用来向神祈祷。"] = "Мешок с ритуальными материалами, используемыми для молитв богам.",
-    ["一键装备"] = "Экипировка в один клик",
+    ["一键装备"] = "Надеть всё",
     ["不可交互地面水体"] = "Неинтерактивные грунтовые воды",
     ["世界Boss分数"] = "Оценка мирового босса",
     ["中2"] = "Мид2",
@@ -254,6 +254,8 @@ return {
     ["<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>130</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is acti"] = "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>130</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Performs a battle dance, shocking surrounding enemies to deal {*d,F1690001,atkMin,2.19} attack damage and restoring {*d,F1690001,maxHp,0.2} health to self."] = "Исполняет боевой танец, сотрясая окружающих врагов и нанося {*d,F1690001,atkMin,2.19} ед. урона от атаки, и восстанавливает себе {*d,F1690001,maxHp,0.2} ед. здоровья.",
     ["What is the Great Dominator Resonance effect?"] = "Эффект резонанса «Великий Мастер»",
+    ["全体获得<HighLight>5%</>最大生命值。【铁血】额外获得最大生命值。"] = "Все союзники получают <HighLight>5%</> к макс. здоровью. 【Железо и кровь】 получают дополнительное макс. здоровье.",
+    ["非凡馈赠：<HighLight>30</>点任务积分"] = "Дар судьбы: <HighLight>30</> очков заданий",
     ["Peg"] = "Пег",
     ["播放CutScene  NPC停止正在播放的Gossip文本"] = "Поиграйте в КатСцену. NPC перестает проигрывать текст Сплетни.",
 }

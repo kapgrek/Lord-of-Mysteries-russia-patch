@@ -252,6 +252,8 @@ return {
     ["Brass Book Special Teleport Trap Buff"] = "Специальный бафф «Телепорт-ловушка» из латунной книги",
     ["连续攻击目标<HighLight>7</>次，共造成{*d,F1690001,atkMin,6.24}点攻击伤害，每次命中恢复自身<HighLight>2%</>最大生命。"] = "Атакует цель <HighLight>7</> раз подряд, в сумме {*d,F1690001,atkMin,6.24} ед. урона от атаки; каждое попадание восстанавливает <HighLight>2%</> макс. здоровья.",
     ["<M_Default> Dear Beyonder: </> \n You participated in the Chess Trial event and did not claim your rewards. The reissued rewards have been automatically sent to your mailbox."] = "<M_Default>Уважаемый Потусторонний!</>\nВы участвовали в событии «Шахматное испытание», но не забрали награды. Они автоматически отправлены вам на почту.",
+    ["Immediately gain 10 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 10 more Experience Points at the end of each round<HighLight></>."] = "Сразу даёт <HighLight>10 ед. опыта</>. В течение <HighLight>3 раундов</>, начиная с текущего, в конце каждого раунда даёт ещё <HighLight>10 ед. опыта</>.",
+    ["<HighLight> Gain Strengthening after Basic Attack or casting </>"] = "<HighLight>Усиление после базовой атаки или навыка</>",
     ["开启灵视  延迟执行  对象播放指定对白内容  延迟执行  对象播放指定对白内容"] = "Активируйте духовное зрение. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога.",
     ["完成当前步骤一定数量的子目标  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具"] = "Выполните определенное количество подцелей для текущего шага, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет",
 }

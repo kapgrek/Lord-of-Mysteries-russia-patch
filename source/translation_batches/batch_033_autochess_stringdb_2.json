@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "132589",
+    "source_cn": "回到选将区",
+    "ref_en": "Return to Selection Area",
+    "target_ru": "Вернуться к выбору фигур"
+  },
+  {
+    "id": "132590",
+    "source_cn": "命运由你抉择：请接取非凡任务。",
+    "ref_en": "Fate is yours to decide: Please accept an Extraordinary Quest.",
+    "target_ru": "Судьба в ваших руках: примите Потустороннее задание."
+  },
+  {
+    "id": "132591",
+    "source_cn": "（%d/%d）",
+    "ref_en": "（%d/%d）",
+    "target_ru": "（%d/%d）"
+  },
+  {
+    "id": "132592",
+    "source_cn": "积分：%s/%s",
+    "ref_en": "Points: %s/%s",
+    "target_ru": "Очки: %s/%s"
+  },
+  {
+    "id": "132593",
+    "source_cn": "非凡馈赠：%d点任务积分",
+    "ref_en": "Extraordinary Gift: %d Quest Points",
+    "target_ru": "Дар судьбы: %d очков заданий"
+  },
+  {
+    "id": "132594",
+    "source_cn": "当前任务积分：%d点",
+    "ref_en": "Current Quest Points: %d",
+    "target_ru": "Текущие очки заданий: %d"
+  },
+  {
+    "id": "132595",
+    "source_cn": "非凡任务选择：<HighLight>%d</>秒",
+    "ref_en": "Extraordinary Quest Selection: <HighLight>%d</> seconds",
+    "target_ru": "Выбор Потустороннего задания: <HighLight>%d</> сек."
+  },
+  {
+    "id": "132596",
+    "source_cn": "非凡世界任务追踪",
+    "ref_en": "Extraordinary World Quest Tracking",
+    "target_ru": "Отслеживание заданий Потустороннего мира"
+  },
+  {
+    "id": "132597",
+    "source_cn": "命运由你抉择：接取非凡任务，或立即领取当前馈赠。",
+    "ref_en": "Fate is yours to decide: Accept an Extraordinary Quest, or claim the current gift immediately.",
+    "target_ru": "Судьба в ваших руках: примите Потустороннее задание или сразу заберите текущий дар."
+  },
+  {
+    "id": "132598",
+    "source_cn": "消耗<HighLight>%s</>点任务积分，获得以下奖励",
+    "ref_en": "Consume <HighLight>%s</> Quest Points to obtain the following rewards",
+    "target_ru": "Потратьте <HighLight>%s</> очков заданий, чтобы получить награды:"
+  },
+  {
+    "id": "132599",
+    "source_cn": "的血量(<HighLight>%d</>)",
+    "ref_en": "'s Health (<HighLight>%d</>)",
+    "target_ru": ": здоровье (<HighLight>%d</>)"
+  },
+  {
+    "id": "132600",
+    "source_cn": "一键脱下",
+    "ref_en": "Unequip All",
+    "target_ru": "Снять всё"
+  },
+  {
+    "id": "132601",
+    "source_cn": "雾中廷根",
+    "ref_en": "Tingen in the Fog",
+    "target_ru": "Тинген в тумане"
+  },
+  {
+    "id": "132602",
+    "source_cn": "贝克兰德罢工事件",
+    "ref_en": "Backlund Strike Incident",
+    "target_ru": "Забастовка в Баклунде"
+  },
+  {
+    "id": "132603",
+    "source_cn": "0-08的奇妙冒险",
+    "ref_en": "0-08's Wonderful Adventure",
+    "target_ru": "Удивительные приключения 0-08"
+  },
+  {
+    "id": "132604",
+    "source_cn": "狂乱连斩",
+    "ref_en": "Frenzy Slash",
+    "target_ru": "Неистовые удары"
+  },
+  {
+    "id": "132605",
+    "source_cn": "血翼震荡",
+    "ref_en": "Blood Wing Shock",
+    "target_ru": "Взмах кровавых крыльев"
+  },
+  {
+    "id": "132606",
+    "source_cn": "藤蔓横扫",
+    "ref_en": "Vine Sweep",
+    "target_ru": "Взмах лоз"
+  },
+  {
+    "id": "132607",
+    "source_cn": "原初黑焰",
+    "ref_en": "Primordial Black Flame",
+    "target_ru": "Изначальное чёрное пламя"
+  },
+  {
+    "id": "132608",
+    "source_cn": "普通伤害：<HighLight>300%</>攻击，低生命目标伤害：<HighLight>400%</>攻击。",
+    "ref_en": "Normal Damage: 300% Attack, Low Health Target Damage: 400% Attack.<HighLight></><HighLight></>",
+    "target_ru": "Обычный урон: <HighLight>300%</> атаки, урон по цели с низким здоровьем: <HighLight>400%</> атаки."
+  },
+  {
+    "id": "132609",
+    "source_cn": "普通伤害：<HighLight>700%</>攻击，低生命目标伤害：<HighLight>1000%</>攻击。",
+    "ref_en": "Normal Damage: 700% Attack, Low Health Target Damage: 1000% Attack.<HighLight></><HighLight></>",
+    "target_ru": "Обычный урон: <HighLight>700%</> атаки, урон по цели с низким здоровьем: <HighLight>1000%</> атаки."
+  },
+  {
+    "id": "132610",
+    "source_cn": "装备自选箱",
+    "ref_en": "Equipment Selection Box",
+    "target_ru": "Ларец снаряжения на выбор"
+  },
+  {
+    "id": "132611",
+    "source_cn": "依靠近身连续挥砍压制敌人。",
+    "ref_en": "Relies on close-range continuous slashes to suppress enemies.",
+    "target_ru": "Подавляет врагов непрерывными рубящими ударами вблизи."
+  },
+  {
+    "id": "132612",
+    "source_cn": "近距离撕咬并用前方范围吐息补充伤害。",
+    "ref_en": "Bites at close range and supplements damage with a frontal area breath.",
+    "target_ru": "Кусает вблизи и добавляет урон дыханием по области впереди."
+  },
+  {
+    "id": "132613",
+    "source_cn": "远程单点爆发，利用纸牌飞刀攻击关键目标。",
+    "ref_en": "Ranged single-target burst, using Card Flying Daggers to attack key targets.",
+    "target_ru": "Дальний взрывной урон по одной цели: метает карты-ножи в ключевые цели."
+  },
+  {
+    "id": "132614",
+    "source_cn": "唤下饼干雨，造成伤害并为友方恢复生命。",
+    "ref_en": "Summons Cookie Rain to deal damage and restore health to allies.",
+    "target_ru": "Призывает дождь из печенья: наносит урон и восстанавливает здоровье союзникам."
+  },
+  {
+    "id": "132615",
+    "source_cn": "快速攻击并利用死灵印记攻击关键目标。",
+    "ref_en": "Attacks rapidly and uses Necrotic Mark to strike key targets.",
+    "target_ru": "Быстро атакует и поражает ключевые цели Меткой некроза."
+  },
+  {
+    "id": "132616",
+    "source_cn": "依靠星辉弹连续攻击，并为友方恢复生命。",
+    "ref_en": "Relies on star-shining projectiles for continuous attacks and restores health to allies.",
+    "target_ru": "Непрерывно атакует снарядами звёздного сияния и восстанавливает здоровье союзникам."
+  },
+  {
+    "id": "132617",
+    "source_cn": "近身抓击并利用重锤造成范围伤害。",
+    "ref_en": "Uses close-range grabs and Heavy Hammers to deal area damage.",
+    "target_ru": "Хватает врагов вблизи и наносит урон по области тяжёлым молотом."
+  },
+  {
+    "id": "132618",
+    "source_cn": "承担伤害，可以连续重攻敌人并造成控制。",
+    "ref_en": "Absorbs damage, can continuously perform heavy attacks on enemies, and inflicts crowd control.",
+    "target_ru": "Принимает урон на себя, может раз за разом наносить тяжёлые удары и контролировать врагов."
+  },
+  {
+    "id": "132619",
+    "source_cn": "为自身和附近友方恢复生命并提供攻防增益。",
+    "ref_en": "Restores health to self and nearby allies while providing attack and defense buffs.",
+    "target_ru": "Восстанавливает здоровье себе и союзникам рядом, усиливает их атаку и защиту."
+  },
+  {
+    "id": "132620",
+    "source_cn": "锁定并扑杀生命最低的敌人。",
+    "ref_en": "Locks onto and pounces on the enemy with the lowest health.",
+    "target_ru": "Выбирает врага с наименьшим здоровьем и бросается на него."
+  },
+  {
+    "id": "132621",
+    "source_cn": "使用重斧对前方敌人造成伤害。",
+    "ref_en": "Uses a heavy axe to deal damage to enemies in front.",
+    "target_ru": "Наносит урон врагам впереди тяжёлым топором."
+  },
+  {
+    "id": "132622",
+    "source_cn": "使用音波冲击打击敌人，并为友方提供护盾。",
+    "ref_en": "Uses Sonic Impact to strike enemies and provides a shield for allies.",
+    "target_ru": "Поражает врагов звуковой волной и даёт союзникам щит."
+  },
+  {
+    "id": "132623",
+    "source_cn": "令血玫绽放对周身敌人造成范围伤害。",
+    "ref_en": "Causes Blood Rose Bloom to deal area damage to surrounding enemies.",
+    "target_ru": "Распускает кровавые розы, нанося урон по области окружающим врагам."
+  },
+  {
+    "id": "132624",
+    "source_cn": "连续发射魅影能量弹打击目标。",
+    "ref_en": "Continuously fires phantom energy projectiles to strike targets.",
+    "target_ru": "Непрерывно выпускает в цель призрачные энергетические снаряды."
+  },
+  {
+    "id": "132625",
+    "source_cn": "突袭最远的敌人，造成多段爆发伤害，击杀选中目标后恢复法力。",
+    "ref_en": "Assaults the furthest enemy, dealing multi-stage burst damage, and restores Mana after killing the target.",
+    "target_ru": "Бросается на самого дальнего врага, нанося урон несколькими ударами; убив выбранную цель, восстанавливает ману."
+  },
+  {
+    "id": "132626",
+    "source_cn": "投下神奇蘑菇，造成多次范围伤害。",
+    "ref_en": "Drops Magic Mushrooms to deal multiple instances of area damage.",
+    "target_ru": "Сбрасывает волшебные грибы, несколько раз нанося урон по области."
+  },
+  {
+    "id": "132627",
+    "source_cn": "唤起血肉阴影为自身提供增益并伤害周围敌人。",
+    "ref_en": "Summons Flesh Shadows to provide self-buffs and damage surrounding enemies.",
+    "target_ru": "Призывает тени плоти, усиливая себя и нанося урон окружающим врагам."
+  },
+  {
+    "id": "132628",
+    "source_cn": "利用远程普攻和暴走齿轮持续打击敌人。",
+    "ref_en": "Uses Ranged Basic Attacks and Berserk Gear to continuously strike enemies.",
+    "target_ru": "Непрерывно поражает врагов дальними базовыми атаками и Шестернями буйства."
+  },
+  {
+    "id": "132629",
+    "source_cn": "获得霸体并依靠剑刃风暴造成多段范围伤害。",
+    "ref_en": "Gains Super Armor and relies on Blade Storm to deal multi-stage area damage.",
+    "target_ru": "Получает Суперброню и наносит серию ударов по области Бурей клинков."
+  },
+  {
+    "id": "132630",
+    "source_cn": "近身攻击造成范围伤害，并恢复自身生命。",
+    "ref_en": "Deals area damage with close-range attacks and restores self health.",
+    "target_ru": "Наносит урон по области ближними атаками и восстанавливает себе здоровье."
+  },
+  {
+    "id": "132631",
+    "source_cn": "唤起圣光，获得护盾并对周围敌人造成伤害。",
+    "ref_en": "Summons Holy Light to gain a shield and deal damage to surrounding enemies.",
+    "target_ru": "Призывает Святой свет: получает щит и наносит урон окружающим врагам."
+  },
+  {
+    "id": "132632",
+    "source_cn": "接连轰击敌方目标并对目标周围敌人造成伤害。",
+    "ref_en": "Bombards enemy targets in succession and deals damage to enemies around the target.",
+    "target_ru": "Раз за разом обстреливает цели и наносит урон врагам вокруг них."
+  },
+  {
+    "id": "132633",
+    "source_cn": "发出狼嚎攻击前方敌人，并提高附近友方的攻速。",
+    "ref_en": "Emits a Wolf Howl to attack enemies in front and increases the Attack Speed of nearby allies.",
+    "target_ru": "Волчьим воем атакует врагов впереди и повышает скорость атаки союзников рядом."
+  },
+  {
+    "id": "132634",
+    "source_cn": "跃起砸击自身周围敌人造成伤害和眩晕。",
+    "ref_en": "Leaps and slams enemies around self, dealing damage and inflicting Stun.",
+    "target_ru": "Прыгает и обрушивается на окружающих врагов, нанося урон и оглушая."
+  },
+  {
+    "id": "132635",
+    "source_cn": "舞动血焰攻击周围敌人并提高自身攻速。",
+    "ref_en": "Wields blood flames to attack surrounding enemies and increases self Attack Speed.",
+    "target_ru": "Кружится в кровавом пламени, атакуя окружающих врагов и повышая свою скорость атаки."
+  },
+  {
+    "id": "132636",
+    "source_cn": "使钻头过载并以闪电射线贯穿前方敌人。",
+    "ref_en": "Overloads the drill and pierces enemies in front with a Lightning Ray.",
+    "target_ru": "Перегружает бур и пронзает врагов впереди лучом молнии."
+  },
+  {
+    "id": "132637",
+    "source_cn": "驭浪横扫前方，造成范围伤害并击退敌人。",
+    "ref_en": "Uses Wave Riding to sweep forward, dealing area damage and knocking back enemies.",
+    "target_ru": "Сметает пространство впереди волной, нанося урон по области и отбрасывая врагов."
+  },
+  {
+    "id": "132638",
+    "source_cn": "释放恶意，提高自身攻击防御并伤害前方敌人。",
+    "ref_en": "Releases malice to increase self attack and defense while damaging enemies in front.",
+    "target_ru": "Высвобождает злобу: повышает свою атаку и защиту и наносит урон врагам впереди."
+  },
+  {
+    "id": "132639",
+    "source_cn": "在敌人密集处造成环形范围伤害。",
+    "ref_en": "Deals circular area damage in areas where enemies are dense.",
+    "target_ru": "Наносит урон по кольцевой области в месте скопления врагов."
+  },
+  {
+    "id": "132640",
+    "source_cn": "挥动黑镰范围攻击，并对残血敌人造成更高伤害。",
+    "ref_en": "Swings a black scythe for area attacks and deals higher damage to enemies with low health.",
+    "target_ru": "Атакует по области чёрной косой и наносит повышенный урон врагам с низким здоровьем."
+  },
+  {
+    "id": "132641",
+    "source_cn": "施法获得短时吸血，突袭随机敌人，对残血敌人造成更高伤害。",
+    "ref_en": "Casting grants short-term Life Steal, assaults a random enemy, and deals higher damage to enemies with low health.",
+    "target_ru": "При применении получает вампиризм на короткое время, бросается на случайного врага и наносит повышенный урон врагам с низким здоровьем."
+  },
+  {
+    "id": "132642",
+    "source_cn": "降下奇迹牌雨，对目标区域造成范围伤害。",
+    "ref_en": "Summons Miracle Card Rain to deal area damage to the target area.",
+    "target_ru": "Обрушивает дождь Карт чудес, нанося урон по целевой области."
+  },
+  {
+    "id": "132643",
+    "source_cn": "下达拘捕令，拘捕并拉近最远敌人。",
+    "ref_en": "Issues an arrest warrant to capture and pull the farthest enemy.",
+    "target_ru": "Выписывает ордер на арест самого дальнего врага и притягивает его к себе."
+  },
+  {
+    "id": "132644",
+    "source_cn": "承受伤害，重踏造成伤害并击退周围敌人。",
+    "ref_en": "Absorbs damage, stomps to deal damage, and knocks back surrounding enemies.",
+    "target_ru": "Принимает урон на себя, тяжёлым топотом наносит урон и отбрасывает окружающих врагов."
+  },
+  {
+    "id": "132645",
+    "source_cn": "释放通灵仪式连续冲击周围敌人。",
+    "ref_en": "Releases a Spirit Mediumship Ritual to continuously shock surrounding enemies.",
+    "target_ru": "Проводит ритуал спиритизма, раз за разом поражая окружающих врагов."
+  },
+  {
+    "id": "132646",
+    "source_cn": "释放恐惧波纹造成范围伤害并降低敌人防御。",
+    "ref_en": "Releases a Fear Ripple to deal area damage and reduce enemy defense.",
+    "target_ru": "Выпускает Волну страха: урон по области и снижение защиты врагов."
+  },
+  {
+    "id": "132647",
+    "source_cn": "向周围敌人打出怒潮三连击，并借雷潮获得护盾。",
+    "ref_en": "Strikes surrounding enemies with a triple-hit raging tide and gains a shield from the thunder tide.",
+    "target_ru": "Бьёт окружающих врагов тройным ударом ярящегося прилива и получает щит от грозового прилива."
+  },
+  {
+    "id": "132648",
+    "source_cn": "宣判最远处目标，造成伤害并降低其法力恢复。",
+    "ref_en": "Judges the farthest target, dealing damage and reducing their energy recovery.",
+    "target_ru": "Выносит приговор самому дальнему врагу: наносит урон и снижает восстановление его маны."
+  },
+  {
+    "id": "132649",
+    "source_cn": "提高自身攻击和防御，原地震击造成范围伤害。",
+    "ref_en": "Increases self attack and defense, and performs an in-place shock to deal area damage.",
+    "target_ru": "Повышает свою атаку и защиту и сотрясает землю на месте, нанося урон по области."
+  },
+  {
+    "id": "132650",
+    "source_cn": "在敌人密集区域召唤藤棘造成范围伤害。",
+    "ref_en": "Summons vine thorns in areas where enemies are dense to deal area damage.",
+    "target_ru": "Призывает шипастые лозы в месте скопления врагов, нанося урон по области."
+  },
+  {
+    "id": "132651",
+    "source_cn": "引动巨龙吐息，覆盖前方大范围敌人并造成灼烧。",
+    "ref_en": "Triggers Dragon Breath, covering a large area of enemies in front and inflicting Burn.",
+    "target_ru": "Вызывает дыхание дракона, накрывая большую область впереди и поджигая врагов."
+  },
+  {
+    "id": "132652",
+    "source_cn": "发动三波灵界轰击打击范围敌人并施加灼烧。",
+    "ref_en": "Launches three waves of Spirit World Bombardment to strike enemies in an area and apply Burn.",
+    "target_ru": "Обрушивает три волны удара Мира духов на врагов в области и поджигает их."
+  },
+  {
+    "id": "132653",
+    "source_cn": "发动知识辉耀打击全屏敌人，并使自身获得增益。",
+    "ref_en": "Launches Knowledge Radiance to strike all enemies on screen and grant self buffs.",
+    "target_ru": "Поражает Сиянием знаний всех врагов на поле и усиливает себя."
+  },
+  {
+    "id": "132654",
+    "source_cn": "在目标区域释放三重怨念造成范围伤害。",
+    "ref_en": "Releases triple resentment in the target area to deal area damage.",
+    "target_ru": "Обрушивает на целевую область тройную злобу, нанося урон по области."
+  },
+  {
+    "id": "132655",
+    "source_cn": "吟诵午夜诗篇，造成伤害并安眠周围敌人。",
+    "ref_en": "Chants a Midnight Poem to deal damage and put surrounding enemies to Slumber.",
+    "target_ru": "Декламирует Полуночную поэму: наносит урон окружающим врагам и погружает их в сон."
+  },
+  {
+    "id": "132656",
+    "source_cn": "以蛛肢绞杀敌人，并留下蛛网持续降低敌方伤害。",
+    "ref_en": "Strangles enemies with spider limbs and leaves behind spider webs to continuously reduce enemy damage.",
+    "target_ru": "Душит врагов паучьими лапами и оставляет паутину, постоянно снижающую урон врагов."
+  },
+  {
+    "id": "132657",
+    "source_cn": "发射两段空气炮攻击前方敌人，三星时获得奇迹保命与灰雾结束后的生命恢复。",
+    "ref_en": "Fires two stages of Air Cannon to attack enemies in front; at three stars, gains miracle life-saving and health recovery after the gray fog ends.",
+    "target_ru": "Дважды стреляет из Воздушной пушки по врагам впереди; на 3 звёздах получает чудесное спасение и восстановление здоровья после серого тумана."
+  },
+  {
+    "id": "132658",
+    "source_cn": "释放恐惧回声，造成近距离范围法术伤害。",
+    "ref_en": "Releases a Fear Echo to deal close-range area spell damage.",
+    "target_ru": "Выпускает Эхо страха, нанося магический урон по области вблизи."
+  },
+  {
+    "id": "132659",
+    "source_cn": "以死灵怒嚎震慑周围敌人，并获得护盾承受伤害。",
+    "ref_en": "Deters surrounding enemies with a Necrotic Howl and gains a shield to absorb damage.",
+    "target_ru": "Устрашает окружающих врагов воем нежити и получает щит, поглощающий урон."
+  },
+  {
+    "id": "132660",
+    "source_cn": "由先祖铠甲召唤的骑士护卫。",
+    "ref_en": "A knight guard summoned by Ancestor Armor.",
+    "target_ru": "Рыцарь-страж, призванный Доспехом предков."
+  },
+  {
+    "id": "132661",
+    "source_cn": "全体获得<HighLight>5%</>最大生命值。【铁血】额外获得最大生命值。",
+    "ref_en": "All allies gain <HighLight>5%</> Max Health. [Iron and Blood] gain additional Max Health.",
+    "target_ru": "Все союзники получают <HighLight>5%</> к макс. здоровью. 【Железо и кровь】 получают дополнительное макс. здоровье."
+  },
+  {
+    "id": "132662",
+    "source_cn": "全体获得<HighLight>15</>点防御。【坚壁】额外获得防御，且战斗开始后的前<HighLight>10</>秒进一步提升防御。",
+    "ref_en": "All allies gain <HighLight>15</> Defense. [Solid Wall] gains additional Defense, and Defense is further increased for the first <HighLight>10</> seconds of combat.",
+    "target_ru": "Все союзники получают <HighLight>15</> ед. защиты. 【Твердыня】 получает дополнительную защиту, которая ещё больше повышается в первые <HighLight>10</> сек. боя."
+  },
+  {
+    "id": "132663",
+    "source_cn": "【血刃】获得暴击率和暴击伤害。命中敌方时施加流血，流血伤害随档位提高。",
+    "ref_en": "[Blood Blade] Gains Critical Rate and Critical Damage. Inflicts Bleed when hitting enemies; Bleed damage increases with tier.",
+    "target_ru": "【Кровавый клинок】 получает шанс и урон крит. удара. При попадании накладывает Кровотечение, урон от которого растёт со ступенью."
+  },
+  {
+    "id": "132664",
+    "source_cn": "生成【黑夜格】，站在格内的【黑夜女神教会】可斩杀低生命值敌方。各档生成<HighLight>6/10/16</>格。",
+    "ref_en": "Generates [Evernight Tiles]. [Evernight Goddess Church] units standing on these tiles can execute low-Health enemies. Each tier generates <HighLight>6/10/16</> tiles.",
+    "target_ru": "Создаёт 【Клетки ночи】: фигуры 【Церкви Богини Вечной Ночи】 на этих клетках могут добивать врагов с низким здоровьем. Ступени создают <HighLight>6/10/16</> клеток."
+  },
+  {
+    "id": "132665",
+    "source_cn": "【战法】战斗开始时获得初始法力，并提升攻击，持续<HighLight>15</>秒。自身击败敌方时，治疗生命百分比最低的友军。",
+    "ref_en": "[Tactics] Gains initial Mana at the start of combat and increases Attack for <HighLight>15</> seconds. When defeating an enemy, heals the ally with the lowest Health percentage.",
+    "target_ru": "【Боевая магия】 в начале боя получает стартовую ману и повышенную атаку на <HighLight>15</> сек. Победив врага, фигура лечит союзника с наименьшей долей здоровья."
+  },
+  {
+    "id": "132666",
+    "source_cn": "获得【蒸汽时代】系列装备。",
+    "ref_en": "Obtain [Steam Age] series Equipment.",
+    "target_ru": "Даёт снаряжение серии 【Эпоха пара】."
+  },
+  {
+    "id": "132667",
+    "source_cn": "巴尼先生与安西娅共同上阵，一方阵亡后，另一方本场伤害加深<HighLight>70%</>。",
+    "ref_en": "When Mr. Barney and Anthea are deployed together, if one dies, the other's damage is increased by <HighLight>70%</> for the rest of the battle.",
+    "target_ru": "Если мистер Барни и Антея выставлены вместе, после гибели одного из них урон другого увеличивается на <HighLight>70%</> до конца боя."
+  },
+  {
+    "id": "132668",
+    "source_cn": "战斗开始时，敌方全体法力恢复降低<HighLight>2</>点，持续<HighLight>6</>秒。",
+    "ref_en": "At the start of combat, all enemy Mana recovery is reduced by <HighLight>2</> points for <HighLight>6</> seconds.",
+    "target_ru": "В начале боя восстановление маны всех врагов снижается на <HighLight>2</> ед. на <HighLight>6</> сек."
+  },
+  {
+    "id": "132669",
+    "source_cn": "根据先祖铠甲的星级召唤<HighLight>2</>名同星级【骑士护卫】，并使全体获得<HighLight>5%</>伤害减免，持续<HighLight>6</>秒。",
+    "ref_en": "Summons <HighLight>2</> [Knight Guards] of the same star level based on the Ancestor Armor's star level, and grants all allies <HighLight>5%</> Damage Reduction for <HighLight>6</> seconds.",
+    "target_ru": "Призывает <HighLight>2</> 【Рыцарей-стражей】 той же звёздности, что и Доспех предков, и даёт всем союзникам <HighLight>5%</> снижения урона на <HighLight>6</> сек."
+  },
+  {
+    "id": "132670",
+    "source_cn": "阿兹克·艾格斯的灵界轰击命中时，使目标防御属性降低40%，持续4秒。",
+    "ref_en": "When Azik Eggers' Spirit World Bombardment hits, it reduces the target's Defense by 40% for 4 seconds.",
+    "target_ru": "При попадании удара Мира духов Азика Эггерса защита цели снижается на 40% на 4 сек."
+  },
+  {
+    "id": "132671",
+    "source_cn": "罗塞尔·古斯塔夫登场时强化全体伤害。【秘法】额外获得法力恢复。",
+    "ref_en": "When Roselle Gustav enters the field, he strengthens all allies' damage. [Arcane] gains additional Mana recovery.",
+    "target_ru": "Появляясь на поле, Розель Густав усиливает урон всех союзников. 【Тайная магия】 получает дополнительное восстановление маны."
+  },
+  {
+    "id": "132672",
+    "source_cn": "获得<HighLight>10%</>暴击率和<HighLight>15%</>暴击伤害。流血持续<HighLight>3</>秒，每秒造成<HighLight>20%</>攻击伤害。",
+    "ref_en": "Gains <HighLight>10%</> Critical Rate and <HighLight>15%</> Critical Damage. Bleed lasts <HighLight>3</> seconds, dealing <HighLight>20%</> Attack damage per second.",
+    "target_ru": "Даёт <HighLight>10%</> шанса крит. удара и <HighLight>15%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>20%</> атаки в виде урона каждую секунду."
+  },
+  {
+    "id": "132673",
+    "source_cn": "获得<HighLight>20%</>暴击率和<HighLight>25%</>暴击伤害。流血持续<HighLight>3</>秒，每秒造成<HighLight>30%</>攻击伤害。",
+    "ref_en": "Gains <HighLight>20%</> Critical Rate and <HighLight>25%</> Critical Damage. Bleed lasts <HighLight>3</> seconds, dealing <HighLight>30%</> Attack damage per second.",
+    "target_ru": "Даёт <HighLight>20%</> шанса крит. удара и <HighLight>25%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>30%</> атаки в виде урона каждую секунду."
+  },
+  {
+    "id": "132674",
+    "source_cn": "获得<HighLight>30%</>暴击率和<HighLight>40%</>暴击伤害。流血持续<HighLight>3</>秒，每秒造成<HighLight>40%</>攻击伤害。",
+    "ref_en": "Gains <HighLight>30%</> Critical Rate and <HighLight>40%</> Critical Damage. Bleed lasts <HighLight>3</> seconds, dealing <HighLight>40%</> Attack damage per second.",
+    "target_ru": "Даёт <HighLight>30%</> шанса крит. удара и <HighLight>40%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>40%</> атаки в виде урона каждую секунду."
+  },
+  {
+    "id": "132675",
+    "source_cn": "<HighLight>6</>个【黑夜格】，斩杀低于<HighLight>16%</>生命值的敌方。",
+    "ref_en": "<HighLight>6</> [Evernight Tiles], executes enemies with less than <HighLight>16%</> Health.",
+    "target_ru": "<HighLight>6</> 【Клеток ночи】, добивают врагов с здоровьем ниже <HighLight>16%</>."
+  },
+  {
+    "id": "132676",
+    "source_cn": "<HighLight>10</>个【黑夜格】，斩杀低于<HighLight>24%</>生命值的敌方。",
+    "ref_en": "<HighLight>10</> [Evernight Tiles], executes enemies with less than <HighLight>24%</> Health.",
+    "target_ru": "<HighLight>10</> 【Клеток ночи】, добивают врагов с здоровьем ниже <HighLight>24%</>."
+  },
+  {
+    "id": "132677",
+    "source_cn": "<HighLight>16</>个【黑夜格】，斩杀低于<HighLight>32%</>生命值的敌方。",
+    "ref_en": "<HighLight>16</> [Evernight Tiles], executes enemies with less than <HighLight>32%</> Health.",
+    "target_ru": "<HighLight>16</> 【Клеток ночи】, добивают врагов с здоровьем ниже <HighLight>32%</>."
+  },
+  {
+    "id": "132678",
+    "source_cn": "防御降低<HighLight>10%</>，持续<HighLight>10</>秒。",
+    "ref_en": "Defense reduced by <HighLight>10%</> for <HighLight>10</> seconds.",
+    "target_ru": "Защита снижена на <HighLight>10%</> на <HighLight>10</> сек."
+  },
+  {
+    "id": "132679",
+    "source_cn": "+<HighLight>10</>点初始法力，攻击提高<HighLight>20%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>1</>名友军<HighLight>10%</>最大生命值。",
+    "ref_en": "+<HighLight>10</> initial Mana, Attack increased by <HighLight>20%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>1</> ally for <HighLight>10%</> Max Health.",
+    "target_ru": "+<HighLight>10</> ед. стартовой маны, атака повышена на <HighLight>20%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>1</> союзника на <HighLight>10%</> макс. здоровья."
+  },
+  {
+    "id": "132680",
+    "source_cn": "+<HighLight>15</>点初始法力，攻击提高<HighLight>25%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>1</>名友军<HighLight>20%</>最大生命值。",
+    "ref_en": "+<HighLight>15</> initial Mana, Attack increased by <HighLight>25%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>1</> ally for <HighLight>20%</> Max Health.",
+    "target_ru": "+<HighLight>15</> ед. стартовой маны, атака повышена на <HighLight>25%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>1</> союзника на <HighLight>20%</> макс. здоровья."
+  },
+  {
+    "id": "132681",
+    "source_cn": "+<HighLight>20</>点初始法力，攻击提高<HighLight>30%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>2</>名友军<HighLight>20%</>最大生命值。",
+    "ref_en": "+<HighLight>20</> initial Mana, Attack increased by <HighLight>30%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>2</> allies for <HighLight>20%</> Max Health.",
+    "target_ru": "+<HighLight>20</> ед. стартовой маны, атака повышена на <HighLight>30%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>2</> союзников на <HighLight>20%</> макс. здоровья."
+  },
+  {
+    "id": "132682",
+    "source_cn": "+<HighLight>30</>点初始法力，攻击提高<HighLight>35%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>2</>名友军<HighLight>25%</>最大生命值。",
+    "ref_en": "+<HighLight>30</> initial Mana, Attack increased by <HighLight>35%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>2</> allies for <HighLight>25%</> Max Health.",
+    "target_ru": "+<HighLight>30</> ед. стартовой маны, атака повышена на <HighLight>35%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>2</> союзников на <HighLight>25%</> макс. здоровья."
+  },
+  {
+    "id": "132683",
+    "source_cn": "造成<HighLight>150</>点真实伤害。全体+<HighLight>20%</>攻速。",
+    "ref_en": "Deals <HighLight>150</> True Damage. All allies +<HighLight>20%</> Attack Speed.",
+    "target_ru": "Наносит <HighLight>150</> ед. чистого урона. Все союзники: +<HighLight>20%</> к скорости атаки."
+  },
+  {
+    "id": "132684",
+    "source_cn": "造成<HighLight>300</>点真实伤害。全体+<HighLight>30%</>攻速。",
+    "ref_en": "Deals <HighLight>300</> True Damage. All allies +<HighLight>30%</> Attack Speed.",
+    "target_ru": "Наносит <HighLight>300</> ед. чистого урона. Все союзники: +<HighLight>30%</> к скорости атаки."
+  },
+  {
+    "id": "132685",
+    "source_cn": "造成<HighLight>450</>点真实伤害。全体+<HighLight>40%</>攻速。",
+    "ref_en": "Deals <HighLight>450</> True Damage. All allies +<HighLight>40%</> Attack Speed.",
+    "target_ru": "Наносит <HighLight>450</> ед. чистого урона. Все союзники: +<HighLight>40%</> к скорости атаки."
+  },
+  {
+    "id": "132686",
+    "source_cn": "巴尼先生与安西娅共同上阵时获得【陪伴】。一方阵亡后，另一方进入【狂暴】，本场伤害加深<HighLight>70%</>。",
+    "ref_en": "Mr. Barney and Anthea gain [Companionship] when deployed together. If one dies, the other enters [Berserk], increasing damage by <HighLight>70%</> for the rest of the battle.",
+    "target_ru": "Мистер Барни и Антея, выставленные вместе, получают 【Вместе】. После гибели одного из них другой впадает в 【Ярость】: урон увеличивается на <HighLight>70%</> до конца боя."
+  },
+  {
+    "id": "132687",
+    "source_cn": "特莉丝登场时：敌方全体法力恢复降低<HighLight>2</>点，持续<HighLight>6</>秒。",
+    "ref_en": "When Trissy enters the field: All enemy Mana recovery reduced by <HighLight>2</> points for <HighLight>6</> seconds.",
+    "target_ru": "Когда Трисси появляется на поле: восстановление маны всех врагов снижается на <HighLight>2</> ед. на <HighLight>6</> сек."
+  },
+  {
+    "id": "132688",
+    "source_cn": "先祖铠甲登场时：根据先祖铠甲的星级召唤<HighLight>2</>名同星级【骑士护卫】。全体获得<HighLight>5%</>伤害减免，持续<HighLight>6</>秒。",
+    "ref_en": "When Ancestor Armor enters the field: Summons <HighLight>2</> [Knight Guards] of the same star level based on the Ancestor Armor's star level. All allies gain <HighLight>5%</> Damage Reduction for <HighLight>6</> seconds.",
+    "target_ru": "Когда Доспех предков появляется на поле: призывает <HighLight>2</> 【Рыцарей-стражей】 той же звёздности. Все союзники получают <HighLight>5%</> снижения урона на <HighLight>6</> сек."
+  },
+  {
+    "id": "132689",
+    "source_cn": "金镑细雨+",
+    "ref_en": "Gold Pound Drizzle+",
+    "target_ru": "Дождь из золотых фунтов+"
+  },
+  {
+    "id": "132690",
+    "source_cn": "金镑契约+",
+    "ref_en": "Gold Pound Contract+",
+    "target_ru": "Контракт на золотые фунты+"
+  },
+  {
+    "id": "132691",
+    "source_cn": "旧友登场+",
+    "ref_en": "Old Friend Appears+",
+    "target_ru": "Появление старого друга+"
+  },
+  {
+    "id": "132692",
+    "source_cn": "特别福袋+",
+    "ref_en": "Special Lucky Bag+",
+    "target_ru": "Особый мешочек удачи+"
+  },
+  {
+    "id": "132693",
+    "source_cn": "特别福袋++",
+    "ref_en": "Special Lucky Bag++",
+    "target_ru": "Особый мешочек удачи++"
+  },
+  {
+    "id": "132694",
+    "source_cn": "新历启程+",
+    "ref_en": "New Calendar Journey+",
+    "target_ru": "Новый календарь+"
+  },
+  {
+    "id": "132695",
+    "source_cn": "命运岔路+",
+    "ref_en": "Fate Crossroads+",
+    "target_ru": "Распутье судьбы+"
+  },
+  {
+    "id": "132696",
+    "source_cn": "财富印坊+",
+    "ref_en": "Wealth Mint+",
+    "target_ru": "Монетный двор богатства+"
+  },
+  {
+    "id": "132697",
+    "source_cn": "知识灌注+",
+    "ref_en": "Knowledge Infusion+",
+    "target_ru": "Вливание знаний+"
+  },
+  {
+    "id": "132698",
+    "source_cn": "命运轮转+",
+    "ref_en": "Fate Rotation+",
+    "target_ru": "Вращение судьбы+"
+  },
+  {
+    "id": "132699",
+    "source_cn": "记录秘仪+",
+    "ref_en": "Record Mysticism+",
+    "target_ru": "Мистицизм записи+"
+  },
+  {
+    "id": "132700",
+    "source_cn": "惊喜礼包+",
+    "ref_en": "Surprise Gift Pack+",
+    "target_ru": "Неожиданный подарочный набор+"
+  },
+  {
+    "id": "132701",
+    "source_cn": "惊喜礼包++",
+    "ref_en": "Surprise Gift Pack++",
+    "target_ru": "Неожиданный подарочный набор++"
+  },
+  {
+    "id": "132702",
+    "source_cn": "立即获得<HighLight>4点经验</>和<HighLight>2次免费刷新</>，此后<HighLight>每个阶段开始时</>再获得一次。",
+    "ref_en": "Immediately gain <HighLight> 4 Experience </> and <HighLight> 2 free refreshes </>; thereafter, gain one more <HighLight> at the start of each stage </>.",
+    "target_ru": "Сразу даёт <HighLight>4 ед. опыта</> и <HighLight>2 бесплатных обновления</>, затем снова даёт их <HighLight>в начале каждого этапа</>."
+  },
+  {
+    "id": "132703",
+    "source_cn": "现在以及<HighLight>每个新的阶段开始时</>，获得<HighLight>8经验值</>和<HighLight>2次免费商店刷新</>。",
+    "ref_en": "Now and at the start of every new stage<HighLight></>, gain 8 Experience Points<HighLight></> and 2 free shop refreshes<HighLight></>.",
+    "target_ru": "Сейчас и <HighLight>в начале каждого нового этапа</> даёт <HighLight>8 ед. опыта</> и <HighLight>2 бесплатных обновления магазина</>."
+  },
+  {
+    "id": "132704",
+    "source_cn": "立即获得<HighLight>10点经验</>。从本回合起的<HighLight>3个回合</>内，每回合结束时再获得<HighLight>10点经验</>。",
+    "ref_en": "Immediately gain 10 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 10 more Experience Points at the end of each round<HighLight></>.",
+    "target_ru": "Сразу даёт <HighLight>10 ед. опыта</>. В течение <HighLight>3 раундов</>, начиная с текущего, в конце каждого раунда даёт ещё <HighLight>10 ед. опыта</>."
+  },
+  {
+    "id": "132705",
+    "source_cn": "随机基础装备",
+    "ref_en": "Random Basic Equipment",
+    "target_ru": "Случайное базовое снаряжение"
+  },
+  {
+    "id": "132706",
+    "source_cn": "精良装备宝匣",
+    "ref_en": "Fine Equipment Chest",
+    "target_ru": "Ларец отличного снаряжения"
+  },
+  {
+    "id": "132707",
+    "source_cn": "稀有装备宝匣",
+    "ref_en": "Rare Equipment Chest",
+    "target_ru": "Ларец редкого снаряжения"
+  },
+  {
+    "id": "132708",
+    "source_cn": "封印装备宝匣",
+    "ref_en": "Sealed Equipment Chest",
+    "target_ru": "Ларец запечатанного снаряжения"
+  },
+  {
+    "id": "132709",
+    "source_cn": "<HighLight>提升攻击</>",
+    "ref_en": "<HighLight> Increases Attack </>",
+    "target_ru": "<HighLight>Повышает атаку</>"
+  },
+  {
+    "id": "132710",
+    "source_cn": "<HighLight>提升攻速</>",
+    "ref_en": "<HighLight> Increases Attack Speed </>",
+    "target_ru": "<HighLight>Повышает скорость атаки</>"
+  },
+  {
+    "id": "132711",
+    "source_cn": "<HighLight>提升防御</>",
+    "ref_en": "<HighLight> Increases Defense </>",
+    "target_ru": "<HighLight>Повышает защиту</>"
+  },
+  {
+    "id": "132712",
+    "source_cn": "<HighLight>提升生命</>",
+    "ref_en": "<HighLight> Increases Health </>",
+    "target_ru": "<HighLight>Повышает здоровье</>"
+  },
+  {
+    "id": "132713",
+    "source_cn": "<HighLight>提升法力恢复</>",
+    "ref_en": "<HighLight> Increases Mana Recovery </>",
+    "target_ru": "<HighLight>Повышает восстановление маны</>"
+  },
+  {
+    "id": "132714",
+    "source_cn": "<HighLight>提升暴击率</>",
+    "ref_en": "<HighLight> Increases Critical Hit Rate </>",
+    "target_ru": "<HighLight>Повышает шанс крит. удара</>"
+  },
+  {
+    "id": "132715",
+    "source_cn": "<HighLight>普攻叠加攻速</>",
+    "ref_en": "<HighLight> Basic Attacks stack Attack Speed </>",
+    "target_ru": "<HighLight>Базовые атаки накапливают скорость атаки</>"
+  },
+  {
+    "id": "132716",
+    "source_cn": "<HighLight>暴击强化暴击伤害</>",
+    "ref_en": "<HighLight> Critical Hits strengthen Critical Damage </>",
+    "target_ru": "<HighLight>Криты усиливают крит. урон</>"
+  },
+  {
+    "id": "132717",
+    "source_cn": "<HighLight>重创高血量敌人</>",
+    "ref_en": "<HighLight> Deals heavy damage to high-Health enemies </>",
+    "target_ru": "<HighLight>Тяжёлый урон по врагам с высоким здоровьем</>"
+  },
+  {
+    "id": "132718",
+    "source_cn": "<HighLight>普攻恢复法力</>",
+    "ref_en": "<HighLight> Basic Attacks restore Mana </>",
+    "target_ru": "<HighLight>Базовые атаки восстанавливают ману</>"
+  },
+  {
+    "id": "132719",
+    "source_cn": "<HighLight>施放技能恢复法力</>",
+    "ref_en": "<HighLight> Casting Skills restores Mana </>",
+    "target_ru": "<HighLight>Применение навыков восстанавливает ману</>"
+  },
+  {
+    "id": "132720",
+    "source_cn": "<HighLight>残血时获得护盾</>",
+    "ref_en": "<HighLight> Gain Shield when at low Health </>",
+    "target_ru": "<HighLight>Щит при низком здоровье</>"
+  },
+  {
+    "id": "132721",
+    "source_cn": "<HighLight>暴击叠加伤害</>",
+    "ref_en": "<HighLight> Critical Hits stack Damage </>",
+    "target_ru": "<HighLight>Криты накапливают урон</>"
+  },
+  {
+    "id": "132722",
+    "source_cn": "<HighLight>伤害附带灼烧减疗</>",
+    "ref_en": "<HighLight> Damage inflicts Burn and Healing Reduction </>",
+    "target_ru": "<HighLight>Урон поджигает и снижает лечение</>"
+  },
+  {
+    "id": "132723",
+    "source_cn": "<HighLight>伤害削减敌方防御</>",
+    "ref_en": "<HighLight> Damage weakens enemy Defense </>",
+    "target_ru": "<HighLight>Урон снижает защиту врага</>"
+  },
+  {
+    "id": "132724",
+    "source_cn": "<HighLight>开战免疫控制</>",
+    "ref_en": "<HighLight> Immune to crowd control at start of battle </>",
+    "target_ru": "<HighLight>Иммунитет к контролю в начале боя</>"
+  },
+  {
+    "id": "132725",
+    "source_cn": "<HighLight>提高造成的伤害</>",
+    "ref_en": "<HighLight> Increases damage dealt </>",
+    "target_ru": "<HighLight>Повышает наносимый урон</>"
+  },
+  {
+    "id": "132726",
+    "source_cn": "<HighLight>开战获得护盾</>",
+    "ref_en": "<HighLight> Gain Shield at start of battle </>",
+    "target_ru": "<HighLight>Щит в начале боя</>"
+  },
+  {
+    "id": "132727",
+    "source_cn": "<HighLight>持续恢复生命</>",
+    "ref_en": "<HighLight> Continuous Health recovery </>",
+    "target_ru": "<HighLight>Постоянное восстановление здоровья</>"
+  },
+  {
+    "id": "132728",
+    "source_cn": "<HighLight>随时间叠加攻击</>",
+    "ref_en": "<HighLight> Stacks Attack over time </>",
+    "target_ru": "<HighLight>Атака растёт со временем</>"
+  },
+  {
+    "id": "132729",
+    "source_cn": "<HighLight>战斗中叠加攻击</>",
+    "ref_en": "<HighLight> Stacks Attack during battle </>",
+    "target_ru": "<HighLight>Атака растёт в бою</>"
+  },
+  {
+    "id": "132730",
+    "source_cn": "<HighLight>灼烧周围敌人并附带重伤</>",
+    "ref_en": "<HighLight> Burns surrounding enemies and inflicts Grievous Injury </>",
+    "target_ru": "<HighLight>Поджигает окружающих врагов и наносит тяжёлые раны</>"
+  },
+  {
+    "id": "132731",
+    "source_cn": "<HighLight>削弱周围敌方防御</>",
+    "ref_en": "<HighLight> Weakens surrounding enemy Defense </>",
+    "target_ru": "<HighLight>Снижает защиту окружающих врагов</>"
+  },
+  {
+    "id": "132732",
+    "source_cn": "<HighLight>残血时伤害减免</>",
+    "ref_en": "<HighLight> Damage Reduction when at low Health </>",
+    "target_ru": "<HighLight>Снижение урона при низком здоровье</>"
+  },
+  {
+    "id": "132733",
+    "source_cn": "<HighLight>受伤反击周围敌人</>",
+    "ref_en": "<HighLight> Counterattacks surrounding enemies when damaged </>",
+    "target_ru": "<HighLight>Контратакует окружающих врагов при получении урона</>"
+  },
+  {
+    "id": "132734",
+    "source_cn": "<HighLight>提高攻击或吸血</>",
+    "ref_en": "<HighLight> Increases Attack or Life Steal </>",
+    "target_ru": "<HighLight>Повышает атаку или вампиризм</>"
+  },
+  {
+    "id": "132735",
+    "source_cn": "<HighLight>恢复法力、残血获得护盾</>",
+    "ref_en": "<HighLight> Restores Mana, gain Shield at low Health </>",
+    "target_ru": "<HighLight>Восстанавливает ману, щит при низком здоровье</>"
+  },
+  {
+    "id": "132736",
+    "source_cn": "<HighLight>强化伤害减免</>",
+    "ref_en": "<HighLight> Strengthens Damage Reduction </>",
+    "target_ru": "<HighLight>Усиливает снижение урона</>"
+  },
+  {
+    "id": "132737",
+    "source_cn": "<HighLight>根据敌人数量提高防御</>",
+    "ref_en": "<HighLight> Increases Defense based on number of enemies </>",
+    "target_ru": "<HighLight>Защита растёт от числа врагов</>"
+  },
+  {
+    "id": "132738",
+    "source_cn": "<HighLight>残血解控隐匿</>",
+    "ref_en": "<HighLight> Cleanse and Stealth when at low Health </>",
+    "target_ru": "<HighLight>При низком здоровье снимает контроль и скрывает</>"
+  },
+  {
+    "id": "132739",
+    "source_cn": "<HighLight>处决残血敌人</>",
+    "ref_en": "<HighLight> Execution on low-Health enemies </>",
+    "target_ru": "<HighLight>Добивает врагов с низким здоровьем</>"
+  },
+  {
+    "id": "132740",
+    "source_cn": "<HighLight>施法后恢复法力</>",
+    "ref_en": "<HighLight> Restores Mana after casting </>",
+    "target_ru": "<HighLight>Восстанавливает ману после применения навыка</>"
+  },
+  {
+    "id": "132741",
+    "source_cn": "<HighLight>附加伤害和减疗</>",
+    "ref_en": "<HighLight> Adds damage and Healing Reduction </>",
+    "target_ru": "<HighLight>Дополнительный урон и снижение лечения</>"
+  },
+  {
+    "id": "132742",
+    "source_cn": "<HighLight>击杀叠加攻击和防御</>",
+    "ref_en": "<HighLight> Stacks Attack and Defense upon kills </>",
+    "target_ru": "<HighLight>Убийства повышают атаку и защиту</>"
+  },
+  {
+    "id": "132743",
+    "source_cn": "<HighLight>强化普攻伤害</>",
+    "ref_en": "<HighLight> Strengthens Basic Attack damage </>",
+    "target_ru": "<HighLight>Усиливает урон базовых атак</>"
+  },
+  {
+    "id": "132744",
+    "source_cn": "<HighLight>残血时获得伤害减免</>",
+    "ref_en": "<HighLight> Damage Reduction when at low Health </>",
+    "target_ru": "<HighLight>Снижение урона при низком здоровье</>"
+  },
+  {
+    "id": "132745",
+    "source_cn": "<HighLight>灼烧周围敌人</>",
+    "ref_en": "<HighLight> Burns surrounding enemies </>",
+    "target_ru": "<HighLight>Поджигает окружающих врагов</>"
+  },
+  {
+    "id": "132746",
+    "source_cn": "<HighLight>击杀或助攻恢复法力</>",
+    "ref_en": "<HighLight> Restores Mana upon kills or assists </>",
+    "target_ru": "<HighLight>Убийства и помощь восстанавливают ману</>"
+  },
+  {
+    "id": "132747",
+    "source_cn": "<HighLight>开战提升防御</>",
+    "ref_en": "<HighLight> Increases Defense at start of battle </>",
+    "target_ru": "<HighLight>Повышает защиту в начале боя</>"
+  },
+  {
+    "id": "132748",
+    "source_cn": "<HighLight>延迟提升攻击</>",
+    "ref_en": "<HighLight>Delayed Attack increase</>",
+    "target_ru": "<HighLight>Отложенное повышение атаки</>"
+  },
+  {
+    "id": "132749",
+    "source_cn": "<HighLight>重创残血敌人</>",
+    "ref_en": "<HighLight> Deals heavy damage to low-Health enemies </>",
+    "target_ru": "<HighLight>Тяжёлый урон по врагам с низким здоровьем</>"
+  },
+  {
+    "id": "132750",
+    "source_cn": "<HighLight>友方恢复法力</>",
+    "ref_en": "<HighLight> Allies restore Mana </>",
+    "target_ru": "<HighLight>Союзники восстанавливают ману</>"
+  },
+  {
+    "id": "132751",
+    "source_cn": "<HighLight>残血获得护盾</>",
+    "ref_en": "<HighLight> Gain Shield when at low Health </>",
+    "target_ru": "<HighLight>Щит при низком здоровье</>"
+  },
+  {
+    "id": "132752",
+    "source_cn": "<HighLight>残血提升攻速</>",
+    "ref_en": "<HighLight> Increases Attack Speed when at low Health </>",
+    "target_ru": "<HighLight>Скорость атаки растёт при низком здоровье</>"
+  },
+  {
+    "id": "132753",
+    "source_cn": "<HighLight>普攻或施法后获得强化</>",
+    "ref_en": "<HighLight> Gain Strengthening after Basic Attack or casting </>",
+    "target_ru": "<HighLight>Усиление после базовой атаки или навыка</>"
+  },
+  {
+    "id": "132754",
+    "source_cn": "<HighLight>施法后保护友军</>",
+    "ref_en": "<HighLight> Protects allies after casting </>",
+    "target_ru": "<HighLight>Защищает союзников после применения навыка</>"
+  },
+  {
+    "id": "132755",
+    "source_cn": "<HighLight>施法后提高伤害</>",
+    "ref_en": "<HighLight> Increases damage after casting </>",
+    "target_ru": "<HighLight>Повышает урон после применения навыка</>"
+  },
+  {
+    "id": "132756",
+    "source_cn": "<HighLight>普攻额外造成范围伤害</>",
+    "ref_en": "<HighLight> Basic Attacks deal additional area damage </>",
+    "target_ru": "<HighLight>Базовые атаки наносят доп. урон по области</>"
+  },
+  {
+    "id": "132757",
+    "source_cn": "<HighLight>施法后强化普攻</>",
+    "ref_en": "<HighLight> Strengthens Basic Attacks after casting </>",
+    "target_ru": "<HighLight>Усиливает базовые атаки после навыка</>"
+  },
+  {
+    "id": "132758",
+    "source_cn": "<HighLight>普攻追加伤害</>",
+    "ref_en": "<HighLight> Basic Attacks deal additional damage </>",
+    "target_ru": "<HighLight>Базовые атаки наносят доп. урон</>"
+  },
+  {
+    "id": "132759",
+    "source_cn": "<HighLight>独立站位提升攻击和生命</>",
+    "ref_en": "<HighLight> Increases Attack and Health when positioned independently </>",
+    "target_ru": "<HighLight>Атака и здоровье растут без соседей</>"
+  },
+  {
+    "id": "132760",
+    "source_cn": "<HighLight>为友方提供护盾</>",
+    "ref_en": "<HighLight> Provides Shield to allies </>",
+    "target_ru": "<HighLight>Даёт щит союзникам</>"
+  },
+  {
+    "id": "132761",
+    "source_cn": "<HighLight>阵亡时造成范围伤害</>",
+    "ref_en": "<HighLight> Deals area damage upon death </>",
+    "target_ru": "<HighLight>Урон по области при гибели</>"
+  },
+  {
+    "id": "132762",
+    "source_cn": "<HighLight>受伤叠加伤害减免</>",
+    "ref_en": "<HighLight> Stacks Damage Reduction when damaged </>",
+    "target_ru": "<HighLight>Получение урона накапливает снижение урона</>"
+  },
+  {
+    "id": "132763",
+    "source_cn": "<HighLight>援护友军并恢复法力</>",
+    "ref_en": "<HighLight> Supports allies and restores Mana </>",
+    "target_ru": "<HighLight>Прикрывает союзников и восстанавливает ману</>"
+  },
+  {
+    "id": "132764",
+    "source_cn": "<HighLight>击杀伤害造成伤害溅射</>",
+    "ref_en": "<HighLight> Damage from kills causes splash damage </>",
+    "target_ru": "<HighLight>Урон от убийства разлетается на соседей</>"
+  },
+  {
+    "id": "132765",
+    "source_cn": "<HighLight>提升攻击距离</>",
+    "ref_en": "<HighLight> Increases Attack range </>",
+    "target_ru": "<HighLight>Повышает дальность атаки</>"
+  },
+  {
+    "id": "132766",
+    "source_cn": "<HighLight>根据站位强化属性</>",
+    "ref_en": "<HighLight> Strengthens attributes based on positioning </>",
+    "target_ru": "<HighLight>Усиливает характеристики по позиции</>"
+  },
+  {
+    "id": "132767",
+    "source_cn": "<HighLight>受伤反击周围敌方</>",
+    "ref_en": "<HighLight> Counterattacks surrounding enemies when damaged </>",
+    "target_ru": "<HighLight>Контратакует окружающих врагов при получении урона</>"
+  },
+  {
+    "id": "132768",
+    "source_cn": "<HighLight>周期性强化友军</>",
+    "ref_en": "<HighLight> Periodically strengthens allies </>",
+    "target_ru": "<HighLight>Периодически усиливает союзников</>"
+  },
+  {
+    "id": "132769",
+    "source_cn": "每秒恢复<HighLight>2%</>最大生命值。",
+    "ref_en": "Restores <HighLight>2%</> of Max Health per second.",
+    "target_ru": "Восстанавливает <HighLight>2%</> макс. здоровья в секунду."
+  },
+  {
+    "id": "132770",
+    "source_cn": "连续以胜负交替的方式进行2场玩家战斗",
+    "ref_en": "Complete 2 player battles in a continuous win-loss alternating fashion.",
+    "target_ru": "Провести подряд 2 боя с игроками, чередуя победы и поражения"
+  },
+  {
+    "id": "132771",
+    "source_cn": "连续以胜负交替的方式进行3场玩家战斗",
+    "ref_en": "Complete 3 player battles in a continuous win-loss alternating fashion.",
+    "target_ru": "Провести подряд 3 боя с игроками, чередуя победы и поражения"
+  },
+  {
+    "id": "132772",
+    "source_cn": "累计刷新商店4次",
+    "ref_en": "Refreshed the shop a total of 4 times",
+    "target_ru": "Обновить магазин 4 раза"
+  },
+  {
+    "id": "132773",
+    "source_cn": "累计刷新商店6次",
+    "ref_en": "Refreshed the shop a total of 6 times",
+    "target_ru": "Обновить магазин 6 раз"
+  },
+  {
+    "id": "132774",
+    "source_cn": "累计刷新商店8次",
+    "ref_en": "Refreshed the shop a total of 8 times",
+    "target_ru": "Обновить магазин 8 раз"
+  },
+  {
+    "id": "132775",
+    "source_cn": "累计刷新商店11次",
+    "ref_en": "Refreshed the shop a total of 11 times",
+    "target_ru": "Обновить магазин 11 раз"
+  },
+  {
+    "id": "132776",
+    "source_cn": "连续3回合战斗胜利",
+    "ref_en": "Achieve 3 consecutive battle victories.",
+    "target_ru": "Победить в 3 раундах подряд"
+  },
+  {
+    "id": "132777",
+    "source_cn": "连续以胜负交替的方式进行4场玩家战斗",
+    "ref_en": "Complete 4 player battles in a continuous win-loss alternating fashion.",
+    "target_ru": "Провести подряд 4 боя с игроками, чередуя победы и поражения"
+  },
+  {
+    "id": "132778",
+    "source_cn": "连续3回合战斗失利",
+    "ref_en": "Suffer 3 consecutive battle defeats.",
+    "target_ru": "Проиграть 3 раунда подряд"
+  },
+  {
+    "id": "132779",
+    "source_cn": "上阵3星瑞尔·比伯进行1场战斗",
+    "ref_en": "Deploy a 3-star Ray Bieber and complete 1 combat",
+    "target_ru": "Выставить 3-звёздочного Рэя Бибера и провести 1 бой"
+  },
+  {
+    "id": "132780",
+    "source_cn": "上阵2星梅林·赫尔墨斯进行1场战斗",
+    "ref_en": "Deploy a 2-star Merlin Hermes for 1 battle.",
+    "target_ru": "Выставить 2-звёздочного Мерлина Гермеса и провести 1 бой"
+  },
+  {
+    "id": "132781",
+    "source_cn": "上阵2星洛克·金并进行1场战斗",
+    "ref_en": "Deploy a 2-star Rock King and complete 1 combat",
+    "target_ru": "Выставить 2-звёздочного Рока Кинга и провести 1 бой"
+  },
+  {
+    "id": "132782",
+    "source_cn": "连续4回合战斗失利",
+    "ref_en": "Suffer 4 consecutive battle defeats.",
+    "target_ru": "Проиграть 4 раунда подряд"
+  },
+  {
+    "id": "132783",
+    "source_cn": "连续7回合战斗失利",
+    "ref_en": "Suffer 7 consecutive battle defeats.",
+    "target_ru": "Проиграть 7 раундов подряд"
+  },
+  {
+    "id": "132784",
+    "source_cn": "非凡馈赠：<HighLight>40</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>40</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>40</> очков заданий"
+  },
+  {
+    "id": "132785",
+    "source_cn": "非凡馈赠：<HighLight>180</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>180</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>180</> очков заданий"
+  },
+  {
+    "id": "132786",
+    "source_cn": "非凡馈赠：<HighLight>60</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>60</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>60</> очков заданий"
+  },
+  {
+    "id": "132787",
+    "source_cn": "非凡馈赠：<HighLight>70</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>70</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>70</> очков заданий"
+  },
+  {
+    "id": "132788",
+    "source_cn": "非凡馈赠：<HighLight>120</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>120</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>120</> очков заданий"
+  },
+  {
+    "id": "132789",
+    "source_cn": "非凡馈赠：<HighLight>80</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>80</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>80</> очков заданий"
+  },
+  {
+    "id": "132790",
+    "source_cn": "非凡馈赠：<HighLight>30</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>30</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>30</> очков заданий"
+  },
+  {
+    "id": "132791",
+    "source_cn": "非凡馈赠：<HighLight>100</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>100</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>100</> очков заданий"
+  },
+  {
+    "id": "132792",
+    "source_cn": "非凡馈赠：<HighLight>90</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>90</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>90</> очков заданий"
+  },
+  {
+    "id": "132793",
+    "source_cn": "非凡馈赠：<HighLight>50</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>50</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>50</> очков заданий"
+  },
+  {
+    "id": "132794",
+    "source_cn": "非凡馈赠：<HighLight>200</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>200</> Quest points",
+    "target_ru": "Дар судьбы: <HighLight>200</> очков заданий"
+  },
+  {
+    "id": "132795",
+    "source_cn": "非凡馈赠：<HighLight>150</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>150</> Quest points.",
+    "target_ru": "Дар судьбы: <HighLight>150</> очков заданий"
+  },
+  {
+    "id": "132796",
+    "source_cn": "非凡馈赠：<HighLight>225</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>225</> Quest points.",
+    "target_ru": "Дар судьбы: <HighLight>225</> очков заданий"
+  },
+  {
+    "id": "132797",
+    "source_cn": "非凡馈赠：<HighLight>275</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>275</> Quest points.",
+    "target_ru": "Дар судьбы: <HighLight>275</> очков заданий"
+  },
+  {
+    "id": "132798",
+    "source_cn": "非凡馈赠：<HighLight>400</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>400</> Quest points.",
+    "target_ru": "Дар судьбы: <HighLight>400</> очков заданий"
+  },
+  {
+    "id": "132799",
+    "source_cn": "非凡馈赠：<HighLight>500</>点任务积分",
+    "ref_en": "Extraordinary Gift: <HighLight>500</> Quest points.",
+    "target_ru": "Дар судьбы: <HighLight>500</> очков заданий"
+  },
+  {
+    "id": "132800",
+    "source_cn": "随机获得1件精良装备。",
+    "ref_en": "Randomly obtain 1 Fine Equipment.",
+    "target_ru": "Даёт 1 случайный предмет отличного снаряжения."
+  },
+  {
+    "id": "132801",
+    "source_cn": "随机精良装备",
+    "ref_en": "Random Fine Equipment",
+    "target_ru": "Случайное отличное снаряжение"
+  },
+  {
+    "id": "132802",
+    "source_cn": "吞咬护佑",
+    "ref_en": "Devouring Protection",
+    "target_ru": "Защита пожирателя"
+  },
+  {
+    "id": "132803",
+    "source_cn": "怒意侍奉",
+    "ref_en": "Wrathful Service",
+    "target_ru": "Служение гнева"
+  },
+  {
+    "id": "132804",
+    "source_cn": "狂暴冲击",
+    "ref_en": "Berserk Impact",
+    "target_ru": "Яростный натиск"
+  },
+  {
+    "id": "132805",
+    "source_cn": "破晓壁垒",
+    "ref_en": "Dawn Barrier",
+    "target_ru": "Бастион рассвета"
+  },
+  {
+    "id": "132806",
+    "source_cn": "血月追猎",
+    "ref_en": "Blood Moon Hunt",
+    "target_ru": "Охота кровавой луны"
+  },
+  {
+    "id": "132807",
+    "source_cn": "蛛后猎场",
+    "ref_en": "Spider Queen Hunting Ground",
+    "target_ru": "Угодья паучьей королевы"
+  },
+  {
+    "id": "132808",
+    "source_cn": "风暴不息",
+    "ref_en": "Endless Storm",
+    "target_ru": "Неутихающая буря"
+  },
+  {
+    "id": "132809",
+    "source_cn": "文明巨灵",
+    "ref_en": "Civilization Genie",
+    "target_ru": "Исполин цивилизации"
+  },
+  {
+    "id": "132810",
+    "source_cn": "死亡嘉年华",
+    "ref_en": "Death Carnival",
+    "target_ru": "Карнавал смерти"
+  },
+  {
+    "id": "132811",
+    "source_cn": "丰饶灾变",
+    "ref_en": "Bounty Catastrophe",
+    "target_ru": "Бедствие изобилия"
+  },
+  {
+    "id": "132812",
+    "source_cn": "灵界归寂",
+    "ref_en": "Spirit World Silence",
+    "target_ru": "Безмолвие Мира духов"
+  },
+  {
+    "id": "132813",
+    "source_cn": "最终敕令",
+    "ref_en": "Final Edict",
+    "target_ru": "Последний указ"
+  },
+  {
+    "id": "132814",
+    "source_cn": "灰雾归来",
+    "ref_en": "Return of the Gray Fog",
+    "target_ru": "Возвращение серого тумана"
+  },
+  {
+    "id": "132815",
+    "source_cn": "铁血大拘捕",
+    "ref_en": "Iron-Blooded Mass Arrest",
+    "target_ru": "Великая облава Железа и крови"
+  },
+  {
+    "id": "132816",
+    "source_cn": "驱使藤蔓，远程攻击目标。",
+    "ref_en": "Drive vines to perform a ranged attack on the target.",
+    "target_ru": "Управляет лозами, атакуя цель издалека."
+  },
+  {
+    "id": "132817",
+    "source_cn": "三环蔓袭依次爆发，中心敌人承受更多伤害并眩晕。",
+    "ref_en": "The three-ring vine attack erupts in sequence; enemies at the center take more damage and are stunned.",
+    "target_ru": "Три кольца лоз вспыхивают по очереди; враги в центре получают больше урона и оглушаются."
+  },
+  {
+    "id": "132818",
+    "source_cn": "挥动巨剑，劈砍近身目标。",
+    "ref_en": "Swing a greatsword to cleave nearby targets.",
+    "target_ru": "Рубит ближайшие цели двуручным мечом."
+  },
+  {
+    "id": "132819",
+    "source_cn": "化身剑刃风暴，霸体横扫周围敌人。",
+    "ref_en": "Transform into a Blade Storm, gaining Super Armor to sweep surrounding enemies.",
+    "target_ru": "Превращается в Бурю клинков и в Суперброне сметает окружающих врагов."
+  },
+  {
+    "id": "132820",
+    "source_cn": "挥动厨刀，劈砍近身目标。",
+    "ref_en": "Swing a kitchen knife to cleave nearby targets.",
+    "target_ru": "Рубит ближайшие цели кухонным ножом."
+  },
+  {
+    "id": "132821",
+    "source_cn": "挥刀连斩，快速打击前方敌人。",
+    "ref_en": "Perform a series of slashes to rapidly strike enemies in front.",
+    "target_ru": "Серией взмахов клинка быстро поражает врагов впереди."
+  },
+  {
+    "id": "132822",
+    "source_cn": "扑向目标并撕咬。",
+    "ref_en": "Pounce on the target and bite.",
+    "target_ru": "Бросается на цель и кусает её."
+  },
+  {
+    "id": "132823",
+    "source_cn": "扑杀残血敌人，强化伤害并恢复生命。",
+    "ref_en": "Pounce on and kill enemies with low health, strengthening damage and restoring health.",
+    "target_ru": "Бросается на врагов с низким здоровьем и добивает их, усиливая урон и восстанавливая здоровье."
+  },
+  {
+    "id": "132824",
+    "source_cn": "张弓射击远处目标。",
+    "ref_en": "Draw a bow to shoot distant targets.",
+    "target_ru": "Стреляет из лука по дальним целям."
+  },
+  {
+    "id": "132825",
+    "source_cn": "星辉箭贯穿前方，并在落点爆发。",
+    "ref_en": "Starlight arrows pierce through the front and explode at the landing point.",
+    "target_ru": "Стрела звёздного света пронзает врагов впереди и взрывается в точке падения."
+  },
+  {
+    "id": "132826",
+    "source_cn": "挥动重斧，劈砍前方一线敌人。",
+    "ref_en": "Swing a heavy axe to cleave enemies in a line in front.",
+    "target_ru": "Рубит тяжёлым топором врагов на линии впереди."
+  },
+  {
+    "id": "132827",
+    "source_cn": "重斧横扫前方，并获得生命护盾。",
+    "ref_en": "Sweep the heavy axe in front and gain a Shield.",
+    "target_ru": "Сметает врагов впереди тяжёлым топором и получает щит."
+  },
+  {
+    "id": "132828",
+    "source_cn": "挥动黑镰，斩击目标。",
+    "ref_en": "Swing a black scythe to slash the target.",
+    "target_ru": "Рубит цель чёрной косой."
+  },
+  {
+    "id": "132829",
+    "source_cn": "挥镰横扫，重创残血敌人。",
+    "ref_en": "Sweep with the scythe to heavily damage enemies with low health.",
+    "target_ru": "Взмахом косы тяжело ранит врагов с низким здоровьем."
+  },
+  {
+    "id": "132830",
+    "source_cn": "探头猛撞近身目标。",
+    "ref_en": "Lunge forward to ram nearby targets.",
+    "target_ru": "Выбрасывает голову вперёд и таранит ближайшие цели."
+  },
+  {
+    "id": "132831",
+    "source_cn": "旋跃震敌，获得护盾与伤害减免。",
+    "ref_en": "Spin jump to shock enemies, gaining a Shield and Damage Reduction.",
+    "target_ru": "Прыгает с вращением и сотрясает врагов, получая щит и снижение урона."
+  },
+  {
+    "id": "132832",
+    "source_cn": "挥爪抓击近身目标。",
+    "ref_en": "Swing claws to grab nearby targets.",
+    "target_ru": "Хватает когтями ближайшие цели."
+  },
+  {
+    "id": "132833",
+    "source_cn": "震荡周围敌人，造成范围伤害并恢复自身生命。",
+    "ref_en": "Shock surrounding enemies, dealing area damage and restoring own Health.",
+    "target_ru": "Сотрясает окружающих врагов, нанося урон по области и восстанавливая себе здоровье."
+  },
+  {
+    "id": "132834",
+    "source_cn": "持枪射击目标，第三段普攻强化子弹。",
+    "ref_en": "Shoot with a gun; the third basic attack uses a strengthened bullet.",
+    "target_ru": "Стреляет в цель из ружья; каждая третья базовая атака — усиленной пулей."
+  },
+  {
+    "id": "132835",
+    "source_cn": "凝聚星光，远程攻击目标。",
+    "ref_en": "Condense starlight to perform a ranged attack on the target.",
+    "target_ru": "Собирает звёздный свет и атакует цель издалека."
+  },
+  {
+    "id": "132836",
+    "source_cn": "星界洪流接连横扫前方敌人。",
+    "ref_en": "Astral World torrents sweep through enemies in front in succession.",
+    "target_ru": "Астральные потоки раз за разом сметают врагов впереди."
+  },
+  {
+    "id": "132837",
+    "source_cn": "挥动武器，攻击近身目标。",
+    "ref_en": "Swing a weapon to attack nearby targets.",
+    "target_ru": "Атакует ближайшие цели оружием."
+  },
+  {
+    "id": "132838",
+    "source_cn": "圣光护身，随后震敌并治疗友军。",
+    "ref_en": "Holy Light protects the self, then shocks enemies and heals allies.",
+    "target_ru": "Защищает себя Святым светом, затем сотрясает врагов и лечит союзников."
+  },
+  {
+    "id": "132839",
+    "source_cn": "释放心灵冲击，远程攻击目标。",
+    "ref_en": "Release a Mind Shock to perform a ranged attack on the target.",
+    "target_ru": "Выпускает Ментальный удар, атакуя цель издалека."
+  },
+  {
+    "id": "132840",
+    "source_cn": "巨龙威压横扫前方，施加灼烧重伤并治疗友军。",
+    "ref_en": "Dragon Might sweeps the front, applying Burn and Grievous Injury while healing allies.",
+    "target_ru": "Давление дракона сметает врагов впереди, поджигает их и наносит тяжёлые раны, а также лечит союзников."
+  },
+  {
+    "id": "132841",
+    "source_cn": "挥击近身目标。",
+    "ref_en": "Swing at nearby targets.",
+    "target_ru": "Бьёт ближайшие цели."
+  },
+  {
+    "id": "132842",
+    "source_cn": "重踏击退前方敌人，获得伤害减免。",
+    "ref_en": "Stomp to knock back enemies in front, gaining Damage Reduction.",
+    "target_ru": "Тяжёлым топотом отбрасывает врагов впереди и получает снижение урона."
+  },
+  {
+    "id": "132843",
+    "source_cn": "挥爪撕咬近身目标。",
+    "ref_en": "Swing claws to tear at nearby targets.",
+    "target_ru": "Рвёт когтями и кусает ближайшие цели."
+  },
+  {
+    "id": "132844",
+    "source_cn": "持续喷吐烈焰，灼烧前方敌人。",
+    "ref_en": "Continuously spit flames to burn enemies in front.",
+    "target_ru": "Непрерывно извергает пламя, поджигая врагов впереди."
+  },
+  {
+    "id": "132845",
+    "source_cn": "凝聚知识之力，远程冲击目标。",
+    "ref_en": "Condense the power of knowledge to perform a ranged impact on the target.",
+    "target_ru": "Собирает силу знаний и бьёт цель издалека."
+  },
+  {
+    "id": "132846",
+    "source_cn": "接连轰击前方与目标周围，第二段使敌人眩晕。",
+    "ref_en": "Bombard the front and the area around the target in succession; the second stage stuns enemies.",
+    "target_ru": "Обстреливает по очереди область впереди и вокруг цели; второй залп оглушает врагов."
+  },
+  {
+    "id": "132847",
+    "source_cn": "挥动锁链攻击目标，并将其拉近。",
+    "ref_en": "Swing chains to attack the target and pull them closer.",
+    "target_ru": "Атакует цель цепями и притягивает её к себе."
+  },
+  {
+    "id": "132848",
+    "source_cn": "施法获得短时吸血，随机突袭，重创残血敌人。",
+    "ref_en": "Cast to gain short-term Life Steal and perform a random assault, dealing heavy damage to enemies with low Health.",
+    "target_ru": "При применении получает вампиризм на короткое время, бросается на случайного врага и тяжело ранит врагов с низким здоровьем."
+  },
+  {
+    "id": "132849",
+    "source_cn": "挥爪拍击近身目标。",
+    "ref_en": "Swing claws to slap nearby targets.",
+    "target_ru": "Хлещет когтями ближайшие цели."
+  },
+  {
+    "id": "132850",
+    "source_cn": "连续重击目标，末击眩晕，施法时获得伤害减免。",
+    "ref_en": "Continuously strike the target with heavy blows; the final hit stuns, and Damage Reduction is gained while casting.",
+    "target_ru": "Раз за разом наносит цели тяжёлые удары, последний оглушает; при применении получает снижение урона."
+  },
+  {
+    "id": "132851",
+    "source_cn": "怒锤震击周围，受击后越战越快。",
+    "ref_en": "Hammer the ground to shock the surroundings; becomes faster the longer the battle lasts.",
+    "target_ru": "Яростным молотом сотрясает всё вокруг; с каждым полученным ударом атакует всё быстрее."
+  },
+  {
+    "id": "132852",
+    "source_cn": "掷出纸牌飞刀，攻击远处目标。",
+    "ref_en": "Throw Card Flying Daggers to attack distant targets.",
+    "target_ru": "Метает карты-ножи в дальние цели."
+  },
+  {
+    "id": "132853",
+    "source_cn": "双牌追击目标，随机强化攻击或攻速。",
+    "ref_en": "Two cards pursue the target, randomly strengthening Attack or Attack Speed.",
+    "target_ru": "Две карты преследуют цель, случайно усиливая атаку или скорость атаки."
+  },
+  {
+    "id": "132854",
+    "source_cn": "挥爪撕裂近身目标。",
+    "ref_en": "Swing claws to tear at nearby targets.",
+    "target_ru": "Раздирает когтями ближайшие цели."
+  },
+  {
+    "id": "132855",
+    "source_cn": "血焰横扫周围，提升自身攻速。",
+    "ref_en": "Blood flames sweep the surroundings, increasing self Attack Speed.",
+    "target_ru": "Кровавое пламя сметает всё вокруг и повышает свою скорость атаки."
+  },
+  {
+    "id": "132856",
+    "source_cn": "踏起死亡舞步，攻击近身目标。",
+    "ref_en": "Perform a death dance to attack nearby targets.",
+    "target_ru": "Исполняет танец смерти, атакуя ближайшие цели."
+  },
+  {
+    "id": "132857",
+    "source_cn": "血玫绽放，伤害周围敌人。",
+    "ref_en": "Blood Rose Bloom, damaging surrounding enemies.",
+    "target_ru": "Кровавые розы распускаются и ранят окружающих врагов."
+  },
+  {
+    "id": "132858",
+    "source_cn": "发射魅影能量弹，攻击远处目标。",
+    "ref_en": "Fire phantom energy missiles to attack distant targets.",
+    "target_ru": "Выпускает призрачные энергетические снаряды в дальние цели."
+  },
+  {
+    "id": "132859",
+    "source_cn": "连发魅影能量弹，持续追击目标。",
+    "ref_en": "Fire a volley of phantom energy missiles to continuously pursue the target.",
+    "target_ru": "Выпускает очередь призрачных энергетических снарядов, преследующих цель."
+  },
+  {
+    "id": "132860",
+    "source_cn": "挥刃连续斩击目标。",
+    "ref_en": "Swing a blade to continuously slash the target.",
+    "target_ru": "Раз за разом рубит цель клинком."
+  },
+  {
+    "id": "132861",
+    "source_cn": "突袭最远的敌人并留下黑焰，自身击杀选中目标后恢复法力。",
+    "ref_en": "Assault the farthest enemy and leave behind Black Flame; restore Mana after killing the selected target.",
+    "target_ru": "Бросается на самого дальнего врага и оставляет чёрное пламя; убив выбранную цель, восстанавливает ману."
+  },
+  {
+    "id": "132862",
+    "source_cn": "挥爪连续撕裂目标。",
+    "ref_en": "Swing claws to continuously tear at the target.",
+    "target_ru": "Раз за разом раздирает цель когтями."
+  },
+  {
+    "id": "132863",
+    "source_cn": "狼嚎冲击前方，生命越低攻速和吸血越高。",
+    "ref_en": "Wolf Howl impacts the front; the lower the Health, the higher the Attack Speed and Life Steal.",
+    "target_ru": "Волчий вой бьёт вперёд; чем меньше здоровья, тем выше скорость атаки и вампиризм."
+  },
+  {
+    "id": "132864",
+    "source_cn": "发射三枚飞弹，连续攻击目标。",
+    "ref_en": "Fire three missiles to continuously attack the target.",
+    "target_ru": "Выпускает три снаряда, раз за разом поражая цель."
+  },
+  {
+    "id": "132865",
+    "source_cn": "三波灵界轰击，附加重伤与灼烧。",
+    "ref_en": "Three waves of Spirit World Bombardment, adding Grievous Injury and Burn.",
+    "target_ru": "Три волны удара Мира духов, накладывают тяжёлые раны и Горение."
+  },
+  {
+    "id": "132866",
+    "source_cn": "挥动钻刺，攻击近身目标。",
+    "ref_en": "Swing a drill spike to attack nearby targets.",
+    "target_ru": "Атакует ближайшие цели буровым шипом."
+  },
+  {
+    "id": "132867",
+    "source_cn": "闪电射线贯穿前方，末段引爆目标区域。",
+    "ref_en": "A Lightning Ray pierces through the front, detonating the target area at the end.",
+    "target_ru": "Луч молнии пронзает врагов впереди и в конце взрывается в целевой области."
+  },
+  {
+    "id": "132868",
+    "source_cn": "掷出奇迹飞牌，攻击远处目标。",
+    "ref_en": "Throw a Miracle Card to attack distant targets.",
+    "target_ru": "Метает Карту чудес в дальние цели."
+  },
+  {
+    "id": "132869",
+    "source_cn": "奇迹牌雨轰击目标区域。",
+    "ref_en": "Miracle Card Rain bombards the target area.",
+    "target_ru": "Дождь Карт чудес обрушивается на целевую область."
+  },
+  {
+    "id": "132870",
+    "source_cn": "挥剑斩击目标。",
+    "ref_en": "Swing a sword to slash the target.",
+    "target_ru": "Рубит цель мечом."
+  },
+  {
+    "id": "132871",
+    "source_cn": "连续挥出绯红剑气，横扫前方敌人。",
+    "ref_en": "Continuously swing Crimson Sword Qi to sweep enemies in front.",
+    "target_ru": "Раз за разом выпускает волны алой энергии меча, сметая врагов впереди."
+  },
+  {
+    "id": "132872",
+    "source_cn": "近身斩击猎物。",
+    "ref_en": "Slash at the prey at close range.",
+    "target_ru": "Рубит добычу вблизи."
+  },
+  {
+    "id": "132873",
+    "source_cn": "跃起裂地，震伤并眩晕周围敌人。",
+    "ref_en": "Jump and fracture the ground, shocking and stunning surrounding enemies.",
+    "target_ru": "Прыгает и раскалывает землю, раня и оглушая окружающих врагов."
+  },
+  {
+    "id": "132874",
+    "source_cn": "发射蔓花毒刺，攻击远处目标。",
+    "ref_en": "Fire Vine Flower Poison Stings to attack distant targets.",
+    "target_ru": "Выпускает ядовитые шипы цветущих лоз в дальние цели."
+  },
+  {
+    "id": "132875",
+    "source_cn": "多圈藤棘伤害敌人并降低敌人攻击。",
+    "ref_en": "Multiple rings of vine thorns damage enemies and reduce their Attack.",
+    "target_ru": "Несколько колец шипастых лоз ранят врагов и снижают их атаку."
+  },
+  {
+    "id": "132876",
+    "source_cn": "近身攻击目标一次。",
+    "ref_en": "Attack the target once at close range.",
+    "target_ru": "Один раз атакует цель вблизи."
+  },
+  {
+    "id": "132877",
+    "source_cn": "宣判最远敌人，眩晕并抑制法力恢复。",
+    "ref_en": "Sentence the furthest enemy, stunning them and suppressing mana recovery.",
+    "target_ru": "Выносит приговор самому дальнему врагу, оглушая его и подавляя восстановление маны."
+  },
+  {
+    "id": "132878",
+    "source_cn": "发射知识弹，攻击远处目标。",
+    "ref_en": "Fire a Knowledge Bullet to attack distant targets.",
+    "target_ru": "Выпускает Снаряд знаний в дальние цели."
+  },
+  {
+    "id": "132879",
+    "source_cn": "知识辉耀打击全体敌人，随机强化攻击或恢复法力。",
+    "ref_en": "Knowledge Radiance strikes all enemies, randomly strengthening Attack or restoring mana.",
+    "target_ru": "Сияние знаний поражает всех врагов и случайно усиливает атаку или восстанавливает ману."
+  },
+  {
+    "id": "132880",
+    "source_cn": "释放哀恸震击，伤害目标及周围敌人。",
+    "ref_en": "Release a Mourning Shock, damaging the target and surrounding enemies.",
+    "target_ru": "Выпускает Скорбный удар, раня цель и врагов вокруг неё."
+  },
+  {
+    "id": "132881",
+    "source_cn": "三重怨念接连轰击目标区域。",
+    "ref_en": "Three layers of resentment bombard the target area in succession.",
+    "target_ru": "Тройная злоба раз за разом обрушивается на целевую область."
+  },
+  {
+    "id": "132882",
+    "source_cn": "投出心灵饼干，攻击远处目标。",
+    "ref_en": "Throw a Mind Cookie to attack distant targets.",
+    "target_ru": "Бросает Ментальное печенье в дальние цели."
+  },
+  {
+    "id": "132883",
+    "source_cn": "饼干雨轰击敌人，治疗生命最低的友军。",
+    "ref_en": "Cookie Rain bombards enemies, healing the ally with the lowest health.",
+    "target_ru": "Дождь из печенья обрушивается на врагов и лечит союзника с наименьшим здоровьем."
+  },
+  {
+    "id": "132884",
+    "source_cn": "施加死灵刻印，远程攻击目标。",
+    "ref_en": "Apply a Necrotic Seal to perform a ranged attack on the target.",
+    "target_ru": "Накладывает Печать некроза, атакуя цель издалека."
+  },
+  {
+    "id": "132885",
+    "source_cn": "烙下死灵印记，重创目标。",
+    "ref_en": "Brand with a Necrotic Mark, heavily damaging the target.",
+    "target_ru": "Клеймит цель Меткой некроза, нанося тяжёлый урон."
+  },
+  {
+    "id": "132886",
+    "source_cn": "发射孢子弹，攻击远处目标。",
+    "ref_en": "Fire a Spore Bullet to attack distant targets.",
+    "target_ru": "Выпускает Споровый снаряд в дальние цели."
+  },
+  {
+    "id": "132887",
+    "source_cn": "投下黑暗蘑菇，接连引爆目标区域。",
+    "ref_en": "Drop dark mushrooms, detonating the target area in succession.",
+    "target_ru": "Сбрасывает тёмные грибы, раз за разом подрывая целевую область."
+  },
+  {
+    "id": "132888",
+    "source_cn": "挥动血影触须，攻击近身目标。",
+    "ref_en": "Swing Blood Shadow Tentacles to attack nearby targets.",
+    "target_ru": "Атакует ближайшие цели кровавыми теневыми щупальцами."
+  },
+  {
+    "id": "132889",
+    "source_cn": "伤害周围敌人，并随机获得护盾或伤害减免。",
+    "ref_en": "Damage surrounding enemies and randomly gain a Shield or Damage Reduction.",
+    "target_ru": "Ранит окружающих врагов и случайно получает щит или снижение урона."
+  },
+  {
+    "id": "132890",
+    "source_cn": "卷起浪潮，冲击近身目标。",
+    "ref_en": "Roll up a wave to impact nearby targets.",
+    "target_ru": "Поднимает волну и бьёт ближайшие цели."
+  },
+  {
+    "id": "132891",
+    "source_cn": "浪墙击退前方敌人，落雷紧随其后。",
+    "ref_en": "A wall of waves knocks back enemies in front, followed by a Lightning Strike.",
+    "target_ru": "Стена волн отбрасывает врагов впереди, следом бьёт Удар молнии."
+  },
+  {
+    "id": "132892",
+    "source_cn": "发动窥秘射击，攻击远处目标。",
+    "ref_en": "Launch a Seeker Shot to attack distant targets.",
+    "target_ru": "Делает Выстрел тайновидца по дальним целям."
+  },
+  {
+    "id": "132893",
+    "source_cn": "恶意冲击前方，强化自身攻击与防御。",
+    "ref_en": "Malice Impact hits the front, strengthening self Attack and Defense.",
+    "target_ru": "Злобный импульс бьёт вперёд и усиливает свою атаку и защиту."
+  },
+  {
+    "id": "132894",
+    "source_cn": "挥动灵摆，冲击近身目标。",
+    "ref_en": "Swing a pendulum to impact nearby targets.",
+    "target_ru": "Бьёт ближайшие цели маятником."
+  },
+  {
+    "id": "132895",
+    "source_cn": "通灵三重奏接连冲击周围敌人。",
+    "ref_en": "A Spirit Mediumship trio impacts surrounding enemies in succession.",
+    "target_ru": "Трио спиритизма раз за разом поражает окружающих врагов."
+  },
+  {
+    "id": "132896",
+    "source_cn": "投射暗影弹，攻击远处目标。",
+    "ref_en": "Project shadow missiles to attack distant targets.",
+    "target_ru": "Выпускает теневые снаряды в дальние цели."
+  },
+  {
+    "id": "132897",
+    "source_cn": "恐惧波纹重创残血敌人，并降低防御。",
+    "ref_en": "A Fear Ripple heavily damages enemies with low health and reduces their Defense.",
+    "target_ru": "Волна страха тяжело ранит врагов с низким здоровьем и снижает их защиту."
+  },
+  {
+    "id": "132898",
+    "source_cn": "吟诵诗篇，以回响攻击远处目标。",
+    "ref_en": "Chant a poem to attack distant targets with echoes.",
+    "target_ru": "Декламирует поэму и поражает эхом дальние цели."
+  },
+  {
+    "id": "132899",
+    "source_cn": "诗篇使周围敌人安眠，提升自身攻速。",
+    "ref_en": "The poem puts surrounding enemies into a Slumber and increases self Attack Speed.",
+    "target_ru": "Поэма погружает окружающих врагов в сон и повышает свою скорость атаки."
+  },
+  {
+    "id": "132900",
+    "source_cn": "震击周围敌人，并获得伤害减免。",
+    "ref_en": "Shock surrounding enemies and gain Damage Reduction.",
+    "target_ru": "Сотрясает окружающих врагов и получает снижение урона."
+  },
+  {
+    "id": "132901",
+    "source_cn": "挥动蛛肢，攻击近身目标。",
+    "ref_en": "Swing spider limbs to attack nearby targets.",
+    "target_ru": "Атакует ближайшие цели паучьими лапами."
+  },
+  {
+    "id": "132902",
+    "source_cn": "绞杀敌人，恢复自身生命并提高防御。",
+    "ref_en": "Strangle enemies, restore own Health, and increase Defense.",
+    "target_ru": "Душит врагов, восстанавливает себе здоровье и повышает защиту."
+  },
+  {
+    "id": "132903",
+    "source_cn": "发出游戏邀请，远程攻击目标。",
+    "ref_en": "Send a Game Invitation to perform a ranged attack on the target.",
+    "target_ru": "Отправляет Приглашение на игру, атакуя цель издалека."
+  },
+  {
+    "id": "132904",
+    "source_cn": "挥动骨笛，攻击近身目标。",
+    "ref_en": "Swing a bone flute to attack nearby targets.",
+    "target_ru": "Бьёт ближайшие цели костяной флейтой."
+  },
+  {
+    "id": "132905",
+    "source_cn": "音波冲击前方，为附近友军提供护盾。",
+    "ref_en": "A Sonic Impact hits the front, providing a Shield for nearby allies.",
+    "target_ru": "Звуковая волна бьёт вперёд и даёт щит союзникам рядом."
+  },
+  {
+    "id": "132906",
+    "source_cn": "发射星辉弹，攻击远处目标。",
+    "ref_en": "Fire starlight missiles to attack distant targets.",
+    "target_ru": "Выпускает снаряды звёздного сияния в дальние цели."
+  },
+  {
+    "id": "132907",
+    "source_cn": "施放法术，触发三烛连击。",
+    "ref_en": "Cast a spell to trigger a three-candle combo.",
+    "target_ru": "Произносит заклинание и запускает серию трёх свечей."
+  },
+  {
+    "id": "132908",
+    "source_cn": "挥出潮水重拳，攻击近身目标。",
+    "ref_en": "Swing a tidal heavy punch to attack nearby targets.",
+    "target_ru": "Бьёт ближайшие цели тяжёлым кулаком прилива."
+  },
+  {
+    "id": "132909",
+    "source_cn": "怒潮三连击，末击击飞敌人并获得护盾。",
+    "ref_en": "A raging tide triple-combo; the final hit knocks up enemies and grants a Shield.",
+    "target_ru": "Тройной удар ярящегося прилива; последний удар подбрасывает врагов и даёт щит."
+  },
+  {
+    "id": "132910",
+    "source_cn": "持枪射击远处目标。",
+    "ref_en": "Shoot at distant targets with a gun.",
+    "target_ru": "Стреляет из ружья по дальним целям."
+  },
+  {
+    "id": "132911",
+    "source_cn": "空气炮先直线贯穿，再以扇形冲击前方敌人。",
+    "ref_en": "An Air Cannon first pierces in a straight line, then impacts enemies in front in a fan shape.",
+    "target_ru": "Воздушная пушка сначала пронзает линию, затем бьёт веером по врагам впереди."
+  },
+  {
+    "id": "132912",
+    "source_cn": "投递账单，攻击远处目标。",
+    "ref_en": "Throw a bill to attack distant targets.",
+    "target_ru": "Швыряет счёт в дальние цели."
+  },
+  {
+    "id": "132913",
+    "source_cn": "治疗并保护附近友军，随机获得一项结余。",
+    "ref_en": "Heal and protect nearby allies, randomly gaining one type of balance.",
+    "target_ru": "Лечит и защищает союзников рядом, случайно получает один вид остатка."
+  },
+  {
+    "id": "132914",
+    "source_cn": "发射齿轮光束，远程攻击目标。",
+    "ref_en": "Fire a gear beam to perform a ranged attack on the target.",
+    "target_ru": "Выпускает луч из шестерёнок, атакуя цель издалека."
+  },
+  {
+    "id": "132915",
+    "source_cn": "召唤暴走齿轮，轰击前方敌人。",
+    "ref_en": "Summon Berserk Gears to bombard enemies in front.",
+    "target_ru": "Призывает Шестерни буйства, обстреливая врагов впереди."
+  },
+  {
+    "id": "132916",
+    "source_cn": "挥动尸骸巨臂，攻击近身目标。",
+    "ref_en": "Swing a giant corpse arm to attack nearby targets.",
+    "target_ru": "Бьёт ближайшие цели огромной рукой из трупов."
+  },
+  {
+    "id": "132917",
+    "source_cn": "怒嚎震击周围，为自身提供护盾。",
+    "ref_en": "A furious howl shocks the surroundings, providing a Shield for the self.",
+    "target_ru": "Яростный вой сотрясает всё вокруг и даёт себе щит."
+  },
+  {
+    "id": "132918",
+    "source_cn": "拘捕最远敌人，重创并拉至身前。",
+    "ref_en": "Arrest the furthest enemy, heavily damaging them and pulling them to the front.",
+    "target_ru": "Арестовывает самого дальнего врага, тяжело ранит его и притягивает к себе."
+  },
+  {
+    "id": "132919",
+    "source_cn": "挥动黑镰，连续四次斩击前方敌人。",
+    "ref_en": "Swing a black scythe to slash enemies in front four times in succession.",
+    "target_ru": "Чёрной косой четыре раза подряд рубит врагов впереди."
+  },
+  {
+    "id": "132920",
+    "source_cn": "蓄力重击近身目标。",
+    "ref_en": "Charge a heavy blow against nearby targets.",
+    "target_ru": "Наносит ближайшей цели заряженный тяжёлый удар."
+  },
+  {
+    "id": "132921",
+    "source_cn": "文明之力重踏前方敌人。",
+    "ref_en": "The power of civilization stomps on enemies in front.",
+    "target_ru": "Сила цивилизации обрушивается топотом на врагов впереди."
+  },
+  {
+    "id": "132922",
+    "source_cn": "吞咬重创目标，并为己方全体提供护盾。",
+    "ref_en": "Bite to heavily damage the target and provide a Shield for all allies.",
+    "target_ru": "Укусом тяжело ранит цель и даёт щит всем союзникам."
+  },
+  {
+    "id": "132923",
+    "source_cn": "怒意连斩，结束后获得护盾。",
+    "ref_en": "A wrathful combo slash; gain a Shield after it ends.",
+    "target_ru": "Серия гневных ударов, после неё — щит."
+  },
+  {
+    "id": "132924",
+    "source_cn": "双牌贯穿前方，同时强化攻击与攻速。",
+    "ref_en": "Two cards pierce through the front, simultaneously strengthening Attack and Attack Speed.",
+    "target_ru": "Две карты пронзают врагов впереди и одновременно усиливают атаку и скорость атаки."
+  },
+  {
+    "id": "132925",
+    "source_cn": "狂暴突进重击目标，震晕周围敌人。",
+    "ref_en": "A berserk dash heavily strikes the target, stunning surrounding enemies.",
+    "target_ru": "Яростным рывком наносит цели тяжёлый удар и оглушает врагов вокруг."
+  },
+  {
+    "id": "132926",
+    "source_cn": "蘑菇爆炸伤敌，菌丝持续伤害并减速。",
+    "ref_en": "Mushroom explosion damages enemies; mycelium causes Continuous Damage and Slow.",
+    "target_ru": "Взрыв грибов ранит врагов; грибница наносит постоянный урон и замедляет."
+  },
+  {
+    "id": "132927",
+    "source_cn": "壁垒护身，随后伤敌并治疗友军。",
+    "ref_en": "A barrier protects the self, then damages enemies and heals allies.",
+    "target_ru": "Защищает себя бастионом, затем ранит врагов и лечит союзников."
+  },
+  {
+    "id": "132928",
+    "source_cn": "七次连击，每次命中恢复自身生命。",
+    "ref_en": "Seven-hit combo; restore own Health with each hit.",
+    "target_ru": "Серия из семи ударов, каждое попадание восстанавливает себе здоровье."
+  },
+  {
+    "id": "132929",
+    "source_cn": "挥镰重创残血目标，花域持续伤害并减速。",
+    "ref_en": "Swing the scythe to heavily damage targets with low health; the flower field causes Continuous Damage and Slow.",
+    "target_ru": "Взмахом косы тяжело ранит цели с низким здоровьем; цветочное поле наносит постоянный урон и замедляет."
+  },
+  {
+    "id": "132930",
+    "source_cn": "追猎残血敌人，自身低生命时伤害强化。",
+    "ref_en": "Hunt enemies with low health; damage is strengthened when self health is low.",
+    "target_ru": "Охотится на врагов с низким здоровьем; при низком собственном здоровье урон усиливается."
+  },
+  {
+    "id": "132931",
+    "source_cn": "剑刃风暴免控并获得伤害减免，结束后恢复生命。",
+    "ref_en": "Blade Storm grants immunity to control and Damage Reduction; restore health after it ends.",
+    "target_ru": "Буря клинков даёт иммунитет к контролю и снижение урона, после неё восстанавливает здоровье."
+  },
+  {
+    "id": "132932",
+    "source_cn": "首次冲击将敌人牵引至区域中心，二次冲击造成眩晕。",
+    "ref_en": "The first impact pulls enemies to the center of the area; the second impact causes a Stun.",
+    "target_ru": "Первый удар стягивает врагов к центру области, второй оглушает."
+  },
+  {
+    "id": "132933",
+    "source_cn": "突袭最远的敌人并留下原初黑焰，自身击杀选中目标后回满法力。",
+    "ref_en": "Assault the farthest enemy and leave behind Primordial Black Flame; restore full Mana after killing the selected target.",
+    "target_ru": "Бросается на самого дальнего врага и оставляет Изначальное чёрное пламя; убив выбранную цель, полностью восстанавливает ману."
+  },
+  {
+    "id": "132934",
+    "source_cn": "巨灵重踏击退前方敌人，获得高额伤害减免。",
+    "ref_en": "The Giant Spirit stomps, knocking back enemies in front and gaining high Damage Reduction.",
+    "target_ru": "Исполин топотом отбрасывает врагов впереди и получает большое снижение урона."
+  },
+  {
+    "id": "132935",
+    "source_cn": "死亡领域随施法扩张，处决能力逐步增强。",
+    "ref_en": "The Domain of Death expands with the spellcasting, gradually increasing the execution capability.",
+    "target_ru": "Область смерти расширяется с каждым применением, способность добивать постепенно растёт."
+  },
+  {
+    "id": "132936",
+    "source_cn": "灾变藤棘接连绽放，范围伤敌并降低攻击。",
+    "ref_en": "Catastrophic Vine Thorns bloom in succession, dealing area damage to enemies and reducing their Attack.",
+    "target_ru": "Шипастые лозы бедствия распускаются одна за другой, нанося урон по области и снижая атаку врагов."
+  },
+  {
+    "id": "132937",
+    "source_cn": "重创敌方全体并降低其每秒法力恢复10点，持续10秒，随后自身回满法力。",
+    "ref_en": "Grievously injure all enemies and reduce their mana regeneration by 10 points per second for 10 seconds, then restore your own mana to full.",
+    "target_ru": "Тяжело ранит всех врагов и снижает их восстановление маны на 10 ед. в секунду на 10 сек., затем полностью восстанавливает себе ману."
+  },
+  {
+    "id": "132938",
+    "source_cn": "空气炮连击前方，首次濒死进入灰雾，结束后恢复全部生命。",
+    "ref_en": "Fire a combo of Air Cannons at the front; enter the gray fog upon the first instance of near-death, and restore full Health after it ends.",
+    "target_ru": "Серия выстрелов Воздушной пушки вперёд; при первой смертельной угрозе уходит в серый туман, после чего полностью восстанавливает здоровье."
+  },
+  {
+    "id": "132939",
+    "source_cn": "拘捕敌方全体，重创并拉至身前。",
+    "ref_en": "Arrest all enemies, grievously injuring them and pulling them in front of you.",
+    "target_ru": "Арестовывает всех врагов, тяжело ранит их и притягивает к себе."
+  },
+  {
+    "id": "132940",
+    "source_cn": "连续挥击目标。",
+    "ref_en": "Continuously swing at the target.",
+    "target_ru": "Раз за разом бьёт цель."
+  },
+  {
+    "id": "132941",
+    "source_cn": "狂乱连斩，连续打击目标。",
+    "ref_en": "Frenzied continuous slashes, striking the target repeatedly.",
+    "target_ru": "Неистовая серия ударов, раз за разом поражающая цель."
+  },
+  {
+    "id": "132942",
+    "source_cn": "扑咬目标。",
+    "ref_en": "Bite the target.",
+    "target_ru": "Кусает цель."
+  },
+  {
+    "id": "132943",
+    "source_cn": "振翼震荡，伤害周围敌人。",
+    "ref_en": "Flap wings to create a shockwave, damaging surrounding enemies.",
+    "target_ru": "Взмахом крыльев создаёт ударную волну, раня окружающих врагов."
+  },
+  {
+    "id": "132944",
+    "source_cn": "挥动藤蔓攻击目标。",
+    "ref_en": "Swing vines to attack the target.",
+    "target_ru": "Бьёт цель лозами."
+  },
+  {
+    "id": "132945",
+    "source_cn": "藤蔓横扫，伤害前方敌人。",
+    "ref_en": "Vine sweep, damaging enemies in front.",
+    "target_ru": "Взмах лоз, ранящий врагов впереди."
+  },
+  {
+    "id": "132946",
+    "source_cn": "普通伤害：<HighLight>300%</>攻击，低生命目标伤害：<HighLight>400%</>攻击。三星：普通伤害：<HighLight>700%</>攻击，低生命目标伤害：<HighLight>1000%</>攻击。",
+    "ref_en": "Basic Damage: <HighLight>300%</> Attack, Low Health Target Damage: <HighLight>400%</> Attack. Three Stars: Basic Damage: <HighLight>700%</> Attack, Low Health Target Damage: <HighLight>1000%</> Attack.",
+    "target_ru": "Обычный урон: <HighLight>300%</> атаки, урон по цели с низким здоровьем: <HighLight>400%</> атаки. На 3 звёздах: обычный урон: <HighLight>700%</> атаки, урон по цели с низким здоровьем: <HighLight>1000%</> атаки."
+  },
+  {
+    "id": "132947",
+    "source_cn": "【新手推荐】五月疾猎",
+    "ref_en": "[Beginner Recommendation] May Manor Swift Hunter",
+    "target_ru": "【Совет новичкам】Быстрая охота Поместья Мэй"
+  },
+  {
+    "id": "132948",
+    "source_cn": "【新手推荐】非凡远击",
+    "ref_en": "[Beginner Recommendation] Extraordinary Ranged Strike",
+    "target_ru": "【Совет новичкам】Потусторонний дальний удар"
+  },
+  {
+    "id": "132949",
+    "source_cn": "【新手推荐】罪恶魔女",
+    "ref_en": "[Beginner Recommendation] Sinful Witch",
+    "target_ru": "【Совет новичкам】Грешные ведьмы"
+  },
+  {
+    "id": "132950",
+    "source_cn": "【新手推荐】荒野血刃",
+    "ref_en": "[Beginner Recommendation] Wilderness Blood Blade",
+    "target_ru": "【Совет новичкам】Кровавые клинки пустошей"
+  },
+  {
+    "id": "132951",
+    "source_cn": "请输入运营思路…",
+    "ref_en": "Please enter your operational strategy...",
+    "target_ru": "Введите тактику…"
+  },
+  {
+    "id": "132952",
+    "source_cn": "2-4 选秀",
+    "ref_en": "2-4 Draft",
+    "target_ru": "2-4 Выбор фигур"
+  },
+  {
+    "id": "132953",
+    "source_cn": "3-4 选秀",
+    "ref_en": "3-4 Draft",
+    "target_ru": "3-4 Выбор фигур"
+  },
+  {
+    "id": "132954",
+    "source_cn": "4-4 选秀",
+    "ref_en": "4-4 Draft",
+    "target_ru": "4-4 Выбор фигур"
+  },
+  {
+    "id": "132955",
+    "source_cn": "5-4 选秀",
+    "ref_en": "5-4 Draft",
+    "target_ru": "5-4 Выбор фигур"
+  },
+  {
+    "id": "132956",
+    "source_cn": "6-4 选秀",
+    "ref_en": "6-4 Draft",
+    "target_ru": "6-4 Выбор фигур"
+  },
+  {
+    "id": "132957",
+    "source_cn": "7-4 选秀",
+    "ref_en": "7-4 Draft",
+    "target_ru": "7-4 Выбор фигур"
+  },
+  {
+    "id": "132958",
+    "source_cn": "8-4 选秀",
+    "ref_en": "8-4 Draft",
+    "target_ru": "8-4 Выбор фигур"
+  }
+]

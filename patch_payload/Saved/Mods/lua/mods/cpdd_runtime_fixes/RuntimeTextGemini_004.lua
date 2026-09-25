@@ -278,6 +278,7 @@ return {
     ["Limited sale %s"] = "Ограниченная продажа %s",
     ["Detonates three rings of Catastrophe Thorns in a dense enemy area, dealing a total of {*d,F1690001,atkMin,30} Attack damage and reducing enemy Attack by <HighLight>5%</> for <HighLight>4</> seconds."] = "Там, где врагов больше всего, взрываются три кольца колючих лоз бедствия, нанося в сумме {*d,F1690001,atkMin,30} ед. урона от атаки и снижая атаку врагов на <HighLight>5%</> на <HighLight>4</> сек.",
     ["愚者棋局·挑战者"] = "«Гамбит Шута»: Претендент",
+    ["<HighLight> Restores Mana upon kills or assists </>"] = "<HighLight>Убийства и помощь восстанавливают ману</>",
     ["<P_Heart>（小猫发出了轻微的鼾声）</>"] = "<P_Heart> (Котенок издал легкий храп) </>",
     ["这样的曲子适合独自思考，帮助梳理纷乱的思绪。"] = "Такое произведение подойдет для самостоятельного размышления, помогая разобраться в хаотичных мыслях.",
     ["<Healer> to heal </>"] = "<Healer>на исцеление</>",

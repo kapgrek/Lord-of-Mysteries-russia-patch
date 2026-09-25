@@ -274,4 +274,6 @@ return {
     ["Steam Era · Counter-Shock Waist Ornament"] = "Эпоха пара · Противоударное поясное украшение",
     ["Charge effect"] = "Эффект заряда",
     ["Fool's Gambit - Exclusive Terms"] = "«Гамбит Шута» — особые термины",
+    ["提高自身攻击和防御，原地震击造成范围伤害。"] = "Повышает свою атаку и защиту и сотрясает землю на месте, нанося урон по области.",
+    ["<HighLight> Increases Defense </>"] = "<HighLight>Повышает защиту</>",
 }

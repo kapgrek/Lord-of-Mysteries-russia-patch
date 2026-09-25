@@ -256,5 +256,6 @@ return {
     ["离开<h>房间</>"] = "Покиньте <h>комнату</>",
     ["Reality Line Chapter 2 - Listening to music overhead buff"] = "Линия реальности. Глава 2. Прослушивание музыки сверху.",
     ["Fire a gear beam, dealing {*d,F1690001,atkMin,3.65} Attack damage to targets within <HighLight>3</> grids."] = "Выпускает луч из шестерёнок, нанося целям в пределах <HighLight>3</> клеток {*d,F1690001,atkMin,3.65} ед. урона от атаки.",
+    ["<HighLight>施法后提高伤害</>"] = "<HighLight>Повышает урон после применения навыка</>",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

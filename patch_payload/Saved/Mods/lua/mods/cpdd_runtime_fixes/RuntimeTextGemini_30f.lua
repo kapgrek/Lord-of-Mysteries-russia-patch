@@ -234,6 +234,8 @@ return {
     ["Empty Birdcage"] = "Пустая птичья клетка",
     ["Switch Brief Description"] = "Краткое описание переключателя",
     ["“Flame”"] = "\"Пламя\"",
+    ["Gains <HighLight>30%</> Critical Rate and <HighLight>40%</> Critical Damage. Bleed lasts <HighLight>3</> seconds, dealing <HighLight>40%</> Attack damage per second."] = "Даёт <HighLight>30%</> шанса крит. удара и <HighLight>40%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>40%</> атаки в виде урона каждую секунду.",
+    ["怒潮三连击，末击击飞敌人并获得护盾。"] = "Тройной удар ярящегося прилива; последний удар подбрасывает врагов и даёт щит.",
     ["提交道具（设置提交ID）  传送到指定场景的坐标位置"] = "Сдать предмет (задать ID сдачи); телепортироваться по координатам указанной сцены.",
     ["亲爱的非凡者：\n很遗憾地通知您，因为迷雾残影结算奖励时您的贡献度倒计时已结束，本次结算不发放奖励，祝您下次获得好成绩。"] = "Уважаемый Потусторонний:\nС сожалением сообщаем, что к моменту подведения итогов события «Призрак тумана» время учета вашего вклада истекло, поэтому награды за данный расчет не начислены. Желаем вам успехов в следующих испытаниях!",
     ["Defeat monster with specified InstanceID  Player creates public objects based on InstanceID list (does not take effect in open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Победить монстра с указанным InstanceID Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире)",

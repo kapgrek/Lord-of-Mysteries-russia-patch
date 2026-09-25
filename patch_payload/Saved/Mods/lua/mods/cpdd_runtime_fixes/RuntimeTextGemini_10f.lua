@@ -268,5 +268,6 @@ return {
     ["Gain 1 Misfortune Water Giant Turtle<HighLight></>. Skill Strengthening: Bite the target to deal 333% Attack damage<HighLight></>, and provide all your pieces with a shield equal to 15% of their respective maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>."] = "Даёт 1 Водяную исполинскую черепаху бедствий<HighLight></>. Усиление навыка: кусает цель, нанося 333% урона от атаки<HighLight></>, и даёт всем фигурам щит в 15% от их макс. здоровья<HighLight></> на 5 сек.<HighLight></>",
     ["Gain an additional <HighLight>65%</> Max Health."] = "Даёт дополнительно <HighLight>65%</> к максимальному здоровью.",
     ["我那清冷的心"] = "Моё холодное сердце",
+    ["掷出纸牌飞刀，攻击远处目标。"] = "Метает карты-ножи в дальние цели.",
     ["<h> 追上去！</>"] = "<h> Гоняйтесь за ним!</>",
 }

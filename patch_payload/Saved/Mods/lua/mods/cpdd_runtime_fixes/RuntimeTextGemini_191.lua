@@ -258,5 +258,6 @@ return {
     ["Armor-Breaking Crystal Core"] = "Бронебойное кристаллическое ядро",
     ["Remaining Time: <Highlight> %s </>"] = "Оставшееся время: <Highlight>%s</>",
     ["吟诵午夜诗篇，对周围敌人造成{*d,F1690001,atkMin,1.93}点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。三星时：吟诵午夜诗篇，对周围敌人造成{*d,F1690001,atkMin,5.4}点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。"] = "Читает полуночный стих, нанося окружающим врагам {*d,F1690001,atkMin,1.93} ед. урона от атаки и погружая их в Сон на <HighLight>1</> сек.; скорость атаки фигуры повышается на <HighLight>15%</> на <HighLight>4</> сек. 3 звезды: наносит {*d,F1690001,atkMin,5.4} ед. урона от атаки, погружает в Сон на <HighLight>1</> сек.; скорость атаки повышается на <HighLight>15%</> на <HighLight>4</> сек.",
+    ["Drops Magic Mushrooms to deal multiple instances of area damage."] = "Сбрасывает волшебные грибы, несколько раз нанося урон по области.",
     ["Adler"] = "Адлер",
 }

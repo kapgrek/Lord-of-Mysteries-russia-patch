@@ -259,6 +259,7 @@ return {
     ["Over-the-shoulder dialogue 01"] = "Диалог через плечо 01",
     ["<CostRed>{1,2, (Brand has expired)}</> Attack increased by <Mark>210</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. When entering battle, for every squad member possessing the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>.\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Атака повышается на <Mark>210</>, защита снижается на <Mark>15</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер. При вступлении в бой за каждого члена отряда с <Mark>Добродетелью</> семьи Вайзер атака дополнительно повышается на <Mark>10</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
     ["Magic circle shield"] = "Щит магического круга",
+    ["Refreshed the shop a total of 4 times"] = "Обновить магазин 4 раза",
     ["使用指定道具  玩家播放仅自己可见的说话文本  玩家发送任务道具  延迟执行  玩家播放仅自己可见的说话文本"] = "Использовать указанный предмет. Игрок воспроизводит текст реплики, видимый только себе. Игрок отправляет предмет задания. Отложенное выполнение. Игрок воспроизводит текст реплики, видимый только себе.",
     ["<P_Heart>（眼前一亮）</>真的？那您快帮我算！咱们找个单独的房间，费用随便开！"] = "<P_Heart> (Глаза загораются) </> Правда? Тогда, пожалуйста, рассчитайте для меня! Найдем отдельную комнату, назовите свою цену!",
     ["窥探命运的规律，只是徒劳。"] = "Вникать в законы судьбы бесполезно.",

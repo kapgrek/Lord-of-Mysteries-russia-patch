@@ -230,6 +230,7 @@ return {
     ["Go <h>ahead</> again to check the situation"] = "Пройдите <h>вперёд</> и проверьте обстановку",
     ["Player dance error"] = "Ошибка танца игрока",
     ["预估馈赠价值：%d金币"] = "Примерная ценность дара: %d зол. монет",
+    ["<HighLight> Casting Skills restores Mana </>"] = "<HighLight>Применение навыков восстанавливает ману</>",
     ["拥有:"] = "В собственности:",
     ["Lemon-scented cleaning agent is now a bestseller across the city! \n Developed by Rosen's Folk Herb Shop, it features a fresh lemon scent for a cleaner, more reassuring home! Since its launch, this agent has quickly become the cleaning choice for Tingen residents. Purchase in-store starting today and enjoy a \"buy two, get one free\" limited-time offer. We welcome you to come and experience it!"] = "Чистящее средство с ароматом лимона — хит продаж по всему городу!\nРазработано «Травяной лавкой народной медицины Розена»: свежий лимонный аромат для кристальной чистоты и уюта! С момента появления оно стало выбором номер один среди жителей Тингена. С сегодняшнего дня в лавке действует акция «2+1» на ограниченный срок — приходите и убедитесь сами!",
     ["Augustine"] = "Августин",

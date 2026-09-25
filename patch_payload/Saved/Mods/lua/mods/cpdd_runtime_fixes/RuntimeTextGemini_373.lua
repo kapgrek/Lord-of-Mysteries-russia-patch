@@ -253,6 +253,7 @@ return {
     ["Detonates three rings of vines from the outside in where enemies are dense, dealing a total of {*d,F1690001,atkMin,2.6} attack damage. The inner ring stuns hit enemies for <HighLight>1</> second."] = "Там, где врагов больше всего, снаружи внутрь взрываются три кольца лоз; при попадании всех трёх наносит в сумме {*d,F1690001,atkMin,2.6} ед. урона от атаки. Внутреннее кольцо оглушает задетых врагов на <HighLight>1</> сек.",
     ["Issues a final edict, dealing {*d,F1690001,atkMin,30} Attack damage to all enemies and reducing their Mana regeneration by <HighLight>10</> per second for <HighLight>10</> seconds. Subsequently, the unit's own Mana is restored to its maximum."] = "Провозглашает последний указ: наносит всем врагам {*d,F1690001,atkMin,30} ед. урона от атаки и на <HighLight>10</> сек. снижает их восстановление маны на <HighLight>10</> в секунду. Затем мана фигуры восполняется до максимума.",
     ["Win the Fool's Gambit 1 time."] = "Победить в «Гамбите Шута» 1 раз.",
+    ["Fire a Knowledge Bullet to attack distant targets."] = "Выпускает Снаряд знаний в дальние цели.",
     ["可算活着回来了，今晚得好好找个“安慰”。"] = "Наконец-то вернулся живым, сегодня вечером нужно найти себе «утешение».",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное место. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

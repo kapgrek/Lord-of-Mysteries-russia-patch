@@ -261,6 +261,7 @@ return {
     ["装配后获得【秘祈人】羁绊"] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах]",
     ["Revival of the Great Old One"] = "Возрождение Древнего",
     ["Resonance: Steam Age·5 | Tarot Club·3 | Solid Wall·2 | Long-Range Strike·2 | Arcane·2\nMain DPS: Melissa Moretti 3★, Emperor Roselle 2★\nMain Tank: \"Drill\" 2★, Derrick Berg 3★\nStrategy: Start Steam equipment in the late game, forming a three-line linkage with Solid Wall for damage absorption, Long-Range Strike for output, and Arcane for mana recovery"] = "Резонансы: Эпоха пара·5 | Клуб Таро·3 | Твердыня·2 | Дальнобойный удар·2 | Тайное знание·2\nОсновной урон: Мелисса Моретти 3★, Император Розель 2★\nОсновной танк: «Бур» 2★, Деррик Берг 3★\nТактика: в поздней игре включите снаряжение Эпохи пара; Твердыня держит урон, Дальнобойный удар наносит его, Тайное знание восстанавливает ману",
+    ["罗塞尔·古斯塔夫登场时强化全体伤害。【秘法】额外获得法力恢复。"] = "Появляясь на поле, Розель Густав усиливает урон всех союзников. 【Тайная магия】 получает дополнительное восстановление маны.",
     ["真的？那戏我可盼了好久了。"] = "Действительно? Я давно ждал этой пьесы.",
     ["Kuhn"] = "Кун",
     ["Bodi"] = "Боди",

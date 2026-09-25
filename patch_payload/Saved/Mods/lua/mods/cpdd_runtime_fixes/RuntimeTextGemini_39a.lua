@@ -252,5 +252,7 @@ return {
     ["Factory Battle Obstacle"] = "Заводское боевое препятствие",
     ["<InvHighlight>男款时装</><InvDefault>以</><InvHighlight>褐色拖尾礼服</><InvDefault>为基底，</><InvHighlight>鎏金轻纱披风</><InvDefault>状似蝉翼。</>"] = "<InvHighlight>Мужской наряд</><InvDefault> построен на </><InvHighlight>коричневом фраке со шлейфом</><InvDefault>, а </><InvHighlight>позолоченная накидка из лёгкой вуали</><InvDefault> напоминает крылья цикады.</>",
     ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}",
+    ["装备自选箱"] = "Ларец снаряжения на выбор",
+    ["文明之力重踏前方敌人。"] = "Сила цивилизации обрушивается топотом на врагов впереди.",
     ["采集指定TemplateID的采集物  对象自身添加Buff"] = "Собрать ресурс с указанным TemplateID. Накладывает бафф на сам объект.",
 }

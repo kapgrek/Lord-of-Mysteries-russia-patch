@@ -247,6 +247,7 @@ return {
     ["Preload 3"] = "Предварительная загрузка 3",
     ["Complete the easy carry Quest to obtain progress for the corresponding type of treasure. Every <Highlight>20 progress</> grants 1 cultivation resource box."] = "Выполняйте задания легкой победы, чтобы получать очки прогресса сокровищ соответствующего типа; за каждые <Highlight>20 очков прогресса</> даётся 1 сундук ресурсов развития.",
     ["愚者棋局几个人玩"] = "Сколько игроков в «Гамбите Шута»?",
+    ["<HighLight>施法后保护友军</>"] = "<HighLight>Защищает союзников после применения навыка</>",
     ["骗子！"] = "Обманщик!",
     ["Summary:\nReceived a report at nine this morning. A young woman named Daisy Elton has fallen into an abnormal <Mark id=\"#159\">Stun</> state. The woman currently resides in a <Letter_Highlight>villa in the northern suburbs of Tingen</>, and is being looked after by the butler and servants at home...\n\nNote:\nSuspected <Mark id=\"#159\">Beyonder incident</>."] = "Краткое описание: \n Сегодня в 9 часов утра было получено сообщение о том, что молодая женщина по имени Дейзи Элтон впала в аномальное состояние <Mark id=\"#159\"> комы </>. В настоящее время женщина проживает на вилле <Letter_Highlight> в северном пригороде города Тинген </>, и за ней присматривают семейная экономка и слуги... \n\n Отмечено: \n Подозрение <Mark id=\"#159\"> Чрезвычайное происшествие </>.",
 }

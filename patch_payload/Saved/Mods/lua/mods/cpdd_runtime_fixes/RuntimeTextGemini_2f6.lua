@@ -266,6 +266,8 @@ return {
     ["New arrivals for Spirit World Summon"] = "Новинки Призыва Мира Духов",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>533%</> = {*d,F1690001,atkMin,5.33}",
     ["Save failed: Current lineup data error."] = "Не удалось сохранить: ошибка данных текущего состава",
+    ["Extraordinary Gift: <HighLight>60</> Quest points"] = "Дар судьбы: <HighLight>60</> очков заданий",
+    ["Endless Storm"] = "Неутихающая буря",
     ["Sediment at the bottom of the cup is normal. Wishing you a peaceful night."] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
     ["Milana"] = "Милана·",
     ["Zahir"] = "Захир",

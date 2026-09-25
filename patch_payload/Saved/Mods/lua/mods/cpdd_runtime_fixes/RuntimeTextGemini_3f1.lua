@@ -245,6 +245,7 @@ return {
     ["<InvDefault>获取时装后，各位非凡者还将同步解锁专属头像。</>"] = "<InvDefault>Вместе с нарядом Потусторонние получат и эксклюзивный аватар.</>",
     ["Resonance: 6 Forsaken Land of the Gods | 2 Ranged Strike | 2 Tarot Club; Main Carry: Bow Knight 3★, Fors 3★; Main Tank: Derrick Berg 3★, Axe Knight 3★ | Rare Bulwark Helmet; Strategy: Pursue 3★ for core units; stack Health in Forsaken Land, use Ranged Strike for output."] = "Резонансы: 6 Земли, отвергнутые Богами | 2 Дальнобойный удар | 2 Клуб Таро; основной урон: Рыцарь-лучник 3★, Форс Уолл 3★; основной танк: Деррик Берг 3★, Рыцарь с секирой 3★ | Редкое · Боевой шлем Оплота; тактика: доведите ключевые фигуры до 3★; Отвергнутые накапливают здоровье, Дальнобойный удар отвечает за урон",
     ["完成一场愚者棋局"] = "Сыграть одну партию в «Гамбит Шута»",
+    ["+<HighLight>20</>点初始法力，攻击提高<HighLight>30%</>，持续<HighLight>15</>秒。自身击败敌方时，治疗<HighLight>2</>名友军<HighLight>20%</>最大生命值。"] = "+<HighLight>20</> ед. стартовой маны, атака повышена на <HighLight>30%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>2</> союзников на <HighLight>20%</> макс. здоровья.",
     ["I\n\nLook\n\nForward\n\nTo It"] = "Я\n\nочень\n\nжду",
     ["Converse with NPC  Player plays single-line black screen subtitle"] = "Converse с NPC Player воспроизводит однострочные субтитры на черном экране",
 }

@@ -301,6 +301,7 @@ return {
     ["【新手推荐】黑夜战法"] = "【Совет новичкам】Боевая магия Ночи",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>100%</> = {*d,F1690001,atkMin,1}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>100%</> = {*d,F1690001,atkMin,1}",
     ["累计输掉3场对弈回合"] = "Проиграть 3 раунда боя",
+    ["Swing a pendulum to impact nearby targets."] = "Бьёт ближайшие цели маятником.",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

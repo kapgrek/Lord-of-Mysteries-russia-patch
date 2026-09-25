@@ -244,6 +244,7 @@ return {
     ["Immediately gain 7 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 7 more Experience Points at the end of each round<HighLight></>."] = "Немедленно даёт 7 очков опыта<HighLight></>. В течение 3 раундов, начиная с этого<HighLight></>, даёт ещё по 7 очков опыта в конце каждого раунда<HighLight></>.",
     ["Under the witness of the Evernight Goddess, a sacred gifting ceremony will be held at the church square. {{player.name}} is gifting {{targetPlayer.name}} a precious present; you are welcome to witness it together. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>"] = "Перед лицом Богини Вечной Ночи на Церковной площади пройдёт священная церемония дарения. {{player.name}} преподносит {{targetPlayer.name}} ценный подарок — приглашаем всех стать свидетелями. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Стать свидетелем]</>",
     ["向前方发动三次连斩，共造成{*d,F1690001,atkMin,5.75}点攻击伤害。"] = "Наносит вперёд три рассекающих удара подряд, в сумме {*d,F1690001,atkMin,5.75} ед. урона от атаки.",
+    ["三重怨念接连轰击目标区域。"] = "Тройная злоба раз за разом обрушивается на целевую область.",
     ["Miley"] = "Майли",
     ["Lee"] = "Ли",
 }

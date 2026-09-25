@@ -260,5 +260,6 @@ return {
     ["向目标区域释放三重怨念，共造成{*d,F1690001,atkMin,9.6}点攻击伤害。"] = "Высвобождает в целевую область тройную обиду, нанося в сумме {*d,F1690001,atkMin,9.6} ед. урона от атаки.",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>328%</> = {*d,F1690001,atkMin,3.28}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>328%</> = {*d,F1690001,atkMin,3.28}",
     ["Cannot open piece details in the shop interface!"] = "В окне магазина нельзя открыть сведения о фигуре!",
+    ["Bombard the front and the area around the target in succession; the second stage stuns enemies."] = "Обстреливает по очереди область впереди и вокруг цели; второй залп оглушает врагов.",
     ["Roberto"] = "Роберто",
 }

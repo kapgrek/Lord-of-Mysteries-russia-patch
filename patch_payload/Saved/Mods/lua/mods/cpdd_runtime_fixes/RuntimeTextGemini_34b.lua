@@ -245,4 +245,5 @@ return {
     ["It's fine, I heard they don't discriminate against people from the East District."] = "Все в порядке, я слышал, что они не дискриминируют жителей Восточного округа.",
     ["Count_Skill resource"] = "Ресурс Count_Skill",
     ["羁绊纹章是什么"] = "Что такое герб связи?",
+    ["挥动血影触须，攻击近身目标。"] = "Атакует ближайшие цели кровавыми теневыми щупальцами.",
 }

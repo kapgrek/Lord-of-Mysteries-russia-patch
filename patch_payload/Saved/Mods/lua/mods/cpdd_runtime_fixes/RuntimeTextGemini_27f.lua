@@ -232,4 +232,5 @@ return {
     ["Starts [Extraordinary Quests], increasing the probability of Extraordinary Quests appearing each round; upon completing a quest, gain an [Extraordinary Chest]"] = "Начинает [Потусторонние задания], увеличивая вероятность появления Потусторонних заданий в каждом раунде; после выполнения задания вы получаете [Потусторонний сундук]",
     ["Obtain 2 Advanced Piece Recorders, which can copy a 1-star version of any cost piece."] = "Даёт 2 продвинутых регистратора фигур: они копируют однозвёздочную версию фигуры любой стоимости.",
     ["Modify Lineup Strategy"] = "Изменить тактику состава",
+    ["<HighLight>施法后强化普攻</>"] = "<HighLight>Усиливает базовые атаки после навыка</>",
 }

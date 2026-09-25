@@ -257,6 +257,7 @@ return {
     ["Geolington"] = "Джолингтон",
     ["AutoChess Tips – Position"] = "Подсказка AutoChess – Позиция",
     ["仔细观察<h>“花架”</>周围"] = "Внимательно осмотрите место вокруг <h>«подставки для цветов»</>",
+    ["<HighLight> Gain Shield when at low Health </>"] = "<HighLight>Щит при низком здоровье</>",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

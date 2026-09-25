@@ -248,4 +248,5 @@ return {
     ["以蛛肢绞杀前方敌人，造成<Yellow>92</>点攻击伤害。施法时恢复自身<HighLight>20%</>最大生命，防御提高<HighLight>30</>点，持续<HighLight>4</>秒。"] = "Сдавливает паучьими лапами врагов впереди, нанося <Yellow>92</> ед. урона от атаки. При применении восстанавливает себе <HighLight>20%</> от максимального здоровья и повышает защиту на <HighLight>30</> ед. на <HighLight>4</> сек.",
     ["A <h>doll</> has been left on the ground"] = "На земле осталась <h>кукла</>",
     ["Strangles enemies in front with spider limbs, dealing {*d,F1690001,atkMin,2} attack damage. While casting, restores <HighLight>20%</> of self's max health and increases Defense by <HighLight>30</> for <HighLight>4</> seconds."] = "Душит врагов впереди паучьими лапами, нанося {*d,F1690001,atkMin,2} ед. урона от атаки. При применении восстанавливает <HighLight>20%</> макс. здоровья и повышает защиту на <HighLight>30</> на <HighLight>4</> сек.",
+    ["Swing Blood Shadow Tentacles to attack nearby targets."] = "Атакует ближайшие цели кровавыми теневыми щупальцами.",
 }

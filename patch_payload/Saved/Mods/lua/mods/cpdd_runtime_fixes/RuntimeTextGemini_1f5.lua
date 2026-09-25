@@ -256,6 +256,7 @@ return {
     ["Victory bows its head, giant dragons crawl, the world will be the fruit of the expedition."] = "Победа склоняет голову, ползут гигантские драконы, плодом экспедиции станет мир.",
     ["For every <HighLight>1</> Resonance activated, all allies +<HighLight>0.3%</> Attack, up to <HighLight>10</> Resonances."] = "За каждый активированный резонанс (<HighLight>1</>) все союзники получают +<HighLight>0.3%</> к атаке, максимум до <HighLight>10</> резонансов.",
     ["Divine Descent"] = "Нисхождение божества",
+    ["非凡馈赠：<HighLight>120</>点任务积分"] = "Дар судьбы: <HighLight>120</> очков заданий",
     ["使用指定道具  玩家发送任务道具  玩家播放剧情对话"] = "Используйте назначенный реквизит. Игроки отправляют реквизит миссии. Игроки разыгрывают сюжетные диалоги.",
     ["Belin"] = "Белин",
 }

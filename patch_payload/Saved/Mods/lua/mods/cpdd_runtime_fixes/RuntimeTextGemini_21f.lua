@@ -240,6 +240,7 @@ return {
     ["<InvDefault>After redeeming the hairstyle, you will simultaneously unlock the rare hair color avatar 【Wild Rose】.</>"] = "<InvDefault>После обмена на причёску также открывается аватар с редким цветом волос 【Дикая роза】.</>",
     ["组织共鸣"] = "Резонанс организации",
     ["What is the Evernight Goddess Church Resonance effect?"] = "Эффект резонанса «Церковь Богини Вечной Ночи»",
+    ["[Tactics] Gains initial Mana at the start of combat and increases Attack for <HighLight>15</> seconds. When defeating an enemy, heals the ally with the lowest Health percentage."] = "【Боевая магия】 в начале боя получает стартовую ману и повышенную атаку на <HighLight>15</> сек. Победив врага, фигура лечит союзника с наименьшей долей здоровья.",
     ["Nighthawk: Cyrus Morning \n Requiem Poetry Society."] = "Ночной Ястреб: Сайрус Морнинг\nПоэтическое общество «Реквием»",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）  传送到指定场景的坐标位置"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Телепортируйтесь к указанным координатам сцены.",
 }

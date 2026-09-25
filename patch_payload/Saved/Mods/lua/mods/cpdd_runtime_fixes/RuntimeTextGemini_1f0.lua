@@ -273,6 +273,7 @@ return {
     ["Check Carpet"] = "Проверить ковер",
     ["Select this Pathway"] = "Выберите этот путь",
     ["Mobilize the perception of knowledge to dismantle and fuse the combat techniques one has studied, gaining a deep understanding of the essence of martial arts by experiencing the opening moves. When attacking again, a combat afterimage derived from knowledge will be left behind.\nAfter Absorb Afterimage, you gain +3 Strength and +1 Intuition."] = "Задействуйте восприятие знаний, чтобы разобрать и объединить изученные боевые приёмы, глубоко прочувствовав суть боевых искусств через начальные стойки. При следующей атаке вы оставите после себя боевой остаточный образ знаний.\nПоглотив остаточный образ, можно повысить Силу на 3 и Интуицию на 1.",
+    ["【新手推荐】荒野血刃"] = "【Совет новичкам】Кровавые клинки пустошей",
     ["Nikki"] = "Никки",
     ["监听关闭阅读界面  玩家开启Letter界面  延迟执行  玩家播放仅自己可见的说话文本"] = "Прослушивание закрытия интерфейса чтения, игрок открывает интерфейс Letter, задержка выполнения, игрок воспроизводит текст диалога, видимый только ему самому",
     ["采集指定TemplateID的采集物  延迟执行  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Собрать элемент коллекции с указанным идентификатором шаблона. Отложенное выполнение. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",

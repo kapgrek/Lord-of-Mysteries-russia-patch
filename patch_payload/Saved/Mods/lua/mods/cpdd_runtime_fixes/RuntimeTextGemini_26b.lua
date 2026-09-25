@@ -255,5 +255,6 @@ return {
     ["Function_Interrupt prayer"] = "Function_Interrupt Молитва",
     ["获得<HighLight>2金币</>。<HighLight>每回合</>获得<HighLight>1次免费刷新</>。"] = "Даёт <HighLight>2 золотые монеты</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
     ["单目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>5000%</> = {*d,F1690001,atkMin,50}点"] = "Урон по одной цели: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>5000%</> = {*d,F1690001,atkMin,50}",
+    ["Send a Game Invitation to perform a ranged attack on the target."] = "Отправляет Приглашение на игру, атакуя цель издалека.",
     ["前往指定场景  玩家播放主线任务开始展示界面"] = "Перейти к указанной сцене; игрок играет в интерфейс отображения начала основного квеста.",
 }

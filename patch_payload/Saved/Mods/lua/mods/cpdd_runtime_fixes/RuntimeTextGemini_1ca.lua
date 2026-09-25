@@ -257,5 +257,8 @@ return {
     ["At the 8th and 18th seconds after the battle starts<HighLight></>, Stun all enemies for 1.5 seconds<HighLight></>."] = "На 8-й и 18-й секунде после начала боя<HighLight></> оглушает всех врагов на 1.5 сек.<HighLight></>",
     ["全体每秒恢复<HighLight>2</>点法力。【秘法】额外<HighLight>5</>点。"] = "Все восстанавливают <HighLight>2</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>5</> ед.",
     ["<Assistant_Title1>【午夜焦点】</>\n<Assistant_Title2>描述：</>神眷池饰品\n<Assistant_Title2>使用：</>使用后获得午夜焦点，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>1</>张神眷牌兑换"] = "<Assistant_Title1>【Полуночный фокус】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Полуночный фокус». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить его.\n<Assistant_Title2>Получение: </>обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>",
+    ["降下奇迹牌雨，对目标区域造成范围伤害。"] = "Обрушивает дождь Карт чудес, нанося урон по целевой области.",
+    ["<HighLight> Gain Shield at start of battle </>"] = "<HighLight>Щит в начале боя</>",
+    ["<HighLight>提升攻击距离</>"] = "<HighLight>Повышает дальность атаки</>",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

@@ -242,5 +242,6 @@ return {
     ["Beauty?"] = "Красота?",
     ["Automatically output TOP 300 OBJ object info."] = "Автоматически выводить информацию об объекте TOP 300 OBJ.",
     ["Spellcraft Badge"] = "Эмблема Колдовства",
+    ["Continuously strike the target with heavy blows; the final hit stuns, and Damage Reduction is gained while casting."] = "Раз за разом наносит цели тяжёлые удары, последний оглушает; при применении получает снижение урона.",
     ["使用指定道具  对象同场景传送  玩家发送任务道具"] = "Использовать указанный предмет  Объект телепортируется в той же сцене  Игрок отправляет предмет задания",
 }

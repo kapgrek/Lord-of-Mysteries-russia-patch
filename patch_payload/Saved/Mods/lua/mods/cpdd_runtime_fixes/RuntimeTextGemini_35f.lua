@@ -249,6 +249,7 @@ return {
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>120%</> = {*d,F1690001,atkMin,1.2}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>120%</> = {*d,F1690001,atkMin,1.2}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
     ["Gain <HighLight> 30 Gold Coins </>, and the interest cap is increased to <HighLight> 10 Gold Coins </>."] = "Даёт <HighLight>30 золотых монет</>, лимит процентов повышается до <HighLight>10 золотых монет</>.",
     ["Random two-star 4-cost chess piece"] = "Случайная двухзвёздочная фигура за 4 золотых",
+    ["<HighLight>Delayed Attack increase</>"] = "<HighLight>Отложенное повышение атаки</>",
     ["您不能在街上这样拦人。什么鸽子，我可以帮您找。"] = "Нельзя так останавливать людей на улице. Какие бы голуби ни были, я могу помочь вам их найти.",
     ["可是报纸上都登了，已经有不少人遇害了！"] = "А ведь в газетах пишут, что уже пострадало много людей!",
     ["Amina"] = "Амина",

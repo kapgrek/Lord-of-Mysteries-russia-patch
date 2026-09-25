@@ -262,6 +262,7 @@ return {
     ["Mocking laughter and sorrow, also mocking failure and Victory. \n Its owner has departed; this is the mark of your honor."] = "Насмешка над смехом и скорбью, насмешка над поражением и победой.\nЕго хозяин ушёл; это знак вашей чести.",
     ["How do I apply Auto Chess lineups?"] = "Как применить состав в Автошахматах?",
     ["What is the May Manor Resonance effect?"] = "Эффект резонанса «Поместье Мэй»",
+    ["<HighLight>提高造成的伤害</>"] = "<HighLight>Повышает наносимый урон</>",
     ["前往指定Trigger位置  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
     ["Modesty"] = "Скромность",
     ["Stefan"] = "Стефан",

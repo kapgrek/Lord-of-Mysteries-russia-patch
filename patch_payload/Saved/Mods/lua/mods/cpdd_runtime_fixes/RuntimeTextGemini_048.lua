@@ -279,5 +279,7 @@ return {
     ["Open to randomly obtain a <Highlight>62 item level</> or <Highlight>64 item level</> orange or gold quality piece of Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Orange Beyonder Equipment Chest, Gray Fog Dust Box, Gray Fog Crystal Box, Gold Thread, Beyonder material, medicine, food, etc."] = "При открытии случайным образом дарует предмет экипировки оранжевого или золотого качества <Highlight>62-го ур. снаряжения</> или <Highlight>64-го ур. снаряжения</>, а также Торговый контракт для обмена на <Highlight>передаваемые предметы</> на <Highlight>торговом рынке</>: <Highlight>передаваемые</> сундуки потустороннего оранжевого снаряжения, ларцы пыли Серого Тумана, ларцы кристаллов Серого Тумана, золотые нити, потусторонние материалы, зелья, еду и т. д.",
     ["Equip to gain the [Spectator] resonance."] = "Экипируйте, чтобы получить резонанс [Зритель].",
     ["Cancel Use"] = "Отменить использование",
+    ["吟诵午夜诗篇，造成伤害并安眠周围敌人。"] = "Декламирует Полуночную поэму: наносит урон окружающим врагам и погружает их в сон.",
+    ["重斧横扫前方，并获得生命护盾。"] = "Сметает врагов впереди тяжёлым топором и получает щит.",
     ["完成当前步骤的所有子目标  延迟执行  对象播放指定对白内容  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Завершить все подцели текущего шага. Отложенное выполнение. Объект воспроизводит указанную реплику. Игрок создаёт общий объект на основе списка InstanceID (не действует в открытом мире).",
 }

@@ -255,6 +255,7 @@ return {
     ["[Spellcasting]"] = "[Колдовство]",
     ["Gray Fog Blessing"] = "Благословение Серого Тумана",
     ["When he returns, I will give him a piece of my mind!"] = "Когда он вернётся, я ему всё выскажу!",
+    ["Bombards enemy targets in succession and deals damage to enemies around the target."] = "Раз за разом обстреливает цели и наносит урон врагам вокруг них.",
     ["一\n次\n机\n会"] = "Один\n\nшанс",
     ["Reike"] = "Рейке",
 }

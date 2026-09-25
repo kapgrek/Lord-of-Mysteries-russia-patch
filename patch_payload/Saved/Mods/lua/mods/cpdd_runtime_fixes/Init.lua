@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.9-RU"
+local VERSION = "2.9.10-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -2845,6 +2845,47 @@ runtimeFixes.AutoChessSkillTemplates = {
     ["After the first skill cast in each battle, Mana recovery increases by {0} for {1} seconds."] = "После первого применения навыка в каждом бою восстановление маны увеличивается на {0} ед. на {1} сек.",
 }
 
+-- AutoChess Extraordinary Quest conditions and gifts (TASK-014, batch_033: 132770-132799).
+-- The game substitutes the number before the text reaches the widget (AutoChess_Reward_Choice_Item),
+-- and templates run before the shard lookup, so they must read the same as the batch rows for any number.
+-- A function template receives the matched tokens and picks the Russian plural form.
+do
+    local function ruPlural(token, one, few, many)
+        local n = tonumber(tostring(token):match("(%d+)")) or 0
+        local n10, n100 = n % 10, n % 100
+        if n10 == 1 and n100 ~= 11 then return one end
+        if n10 >= 2 and n10 <= 4 and (n100 < 12 or n100 > 14) then return few end
+        return many
+    end
+    local function defeats(t)
+        return "Проиграть " .. t[1] .. " " .. ruPlural(t[1], "раунд", "раунда", "раундов") .. " подряд"
+    end
+    local function victories(t)
+        return "Победить в " .. t[1] .. " " .. ruPlural(t[1], "раунде", "раундах", "раундах") .. " подряд"
+    end
+    local function alternating(t)
+        return "Провести подряд " .. t[1] .. " " .. ruPlural(t[1], "бой", "боя", "боёв") .. " с игроками, чередуя победы и поражения"
+    end
+    local function shopRefresh(t)
+        return "Обновить магазин " .. t[1] .. " " .. ruPlural(t[1], "раз", "раза", "раз")
+    end
+    local function questGift(t)
+        return "Дар судьбы: " .. t[1] .. " " .. ruPlural(t[1], "очко", "очка", "очков") .. " заданий"
+    end
+    local templates = runtimeFixes.AutoChessSkillTemplates
+    templates["连续{0}回合战斗失利"] = defeats
+    templates["Suffer {0} consecutive battle defeats."] = defeats
+    templates["连续{0}回合战斗胜利"] = victories
+    templates["Achieve {0} consecutive battle victories."] = victories
+    templates["连续以胜负交替的方式进行{0}场玩家战斗"] = alternating
+    templates["Complete {0} player battles in a continuous win-loss alternating fashion."] = alternating
+    templates["累计刷新商店{0}次"] = shopRefresh
+    templates["Refreshed the shop a total of {0} times"] = shopRefresh
+    templates["非凡馈赠：{0}点任务积分"] = questGift
+    templates["Extraordinary Gift: {0} Quest points"] = questGift
+    templates["Extraordinary Gift: {0} Quest points."] = questGift
+end
+
 runtimeFixes.translateAutoChessSkill = function(value)
     if type(value) ~= "string" or value == "" then
         return nil
@@ -2876,6 +2917,13 @@ runtimeFixes.translateAutoChessSkill = function(value)
             end
         end
 
+        if type(ruTemplate) == "function" then
+            local ok, result = pcall(ruTemplate, tokens)
+            if ok and type(result) == "string" then
+                return result
+            end
+            return nil
+        end
         if ruTemplate ~= nil then
             local result = ruTemplate:gsub("{(%d+)}", function(idxStr)
                 local idx = tonumber(idxStr)

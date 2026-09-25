@@ -248,4 +248,5 @@ return {
     ["Storage has reached the limit (%d/%d), you can choose to replace with newly obtained affixes"] = "Хранилище достигло предела (%d/%d), вы можете заменить его новыми полученными аффиксами.",
     ["【旧日复苏】"] = "【Возрождение Древнего】",
     ["How many players are in Fool's Gambit?"] = "Сколько игроков в «Гамбите Шута»?",
+    ["A furious howl shocks the surroundings, providing a Shield for the self."] = "Яростный вой сотрясает всё вокруг и даёт себе щит.",
 }

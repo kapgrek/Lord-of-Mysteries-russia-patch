@@ -280,6 +280,7 @@ return {
     ["Each enemy death: +<HighLight>15</> Max Health."] = "За каждого погибшего врага: +<HighLight>15</> ед. к макс. здоровью.",
     ["每隔<HighLight>4</>秒，为生命值最低的友军提供相当于其最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒；阵亡时，使全体友军获得相当于各自最大生命值<HighLight>5%</>的护盾，持续<HighLight>3</>秒。"] = "Каждые <HighLight>4</> сек. даёт союзнику с наименьшим здоровьем щит в размере <HighLight>5%</> от его макс. здоровья на <HighLight>3</> сек.; при гибели даёт всем союзникам щит в размере <HighLight>5%</> от их макс. здоровья на <HighLight>3</> сек.",
     ["Shuffle Cards Revival"] = "Возрождение тасовкой карт",
+    ["Extraordinary Gift: <HighLight>40</> Quest points"] = "Дар судьбы: <HighLight>40</> очков заданий",
     ["%s次内必出<Quality_6>危险等级1</>封印物"] = "Гарантированный Запечатанный Артефакт <Quality_6>Уровня опасности 1</> в течение %s попыток",
     ["Go to specified Trigger location  Player plays story dialogue"] = "Перейти к указанному триггеру; воспроизведение сюжетного диалога игрока",
     ["Ezekiel"] = "Иезекииль",

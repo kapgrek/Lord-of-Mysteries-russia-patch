@@ -268,6 +268,7 @@ return {
     ["激活羁绊：8"] = "Активировано резонансов: 8",
     ["【巨龙传承】"] = "[Наследие Гигантского Дракона]",
     ["Vanguard Oath Formation"] = "Построение авангарда клятвы",
+    ["<HighLight>暴击强化暴击伤害</>"] = "<HighLight>Криты усиливают крит. урон</>",
     ["Odin"] = "Один",
     ["<Highlight> Craft: </> Friendly Spirit World Creature, the Meow Thief enlightened by the \"Orange Light\" \n (Actively wiggling) (Crawling brightly and moderately) (Advancing generously) \n (Floating with the wind) (Light-footed) (Bathing in sunlight)"] = "<Highlight>Качество изготовления: </>Дружелюбное существо из Мира Духов, кошачий воришка, озаренный «Оранжевым светом»\n(Активно извивается) (Светло и умеренно ползет) (Гордо шагает вперед)\n(Развевается по ветру) (Легкая поступь) (Купается в солнечных лучах)",
     ["Stormy"] = "бурный",

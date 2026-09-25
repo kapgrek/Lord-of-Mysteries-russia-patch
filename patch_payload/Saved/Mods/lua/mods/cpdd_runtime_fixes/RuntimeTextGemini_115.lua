@@ -252,6 +252,7 @@ return {
     ["Melissa: \"Klein, congratulations on finding a job.\""] = "Мелисса: «Клейн, поздравляю с трудоустройством».",
     ["Gain 3 Sealed Equipment Chests; each can be opened to select one piece of equipment of the corresponding quality."] = "Даёт 3 запечатанных ларца снаряжения; открыв каждый, можно выбрать один предмет снаряжения этого качества.",
     ["Fool's Gambit Quest"] = "Задания «Гамбита Шута»",
+    ["<HighLight> Restores Mana after casting </>"] = "<HighLight>Восстанавливает ману после применения навыка</>",
     ["前往指定Trigger位置  玩家播放单句黑屏字幕  延迟执行  对象播放指定对白内容"] = "Перейти к указанному местоположению триггера. Плеер воспроизводит черные экранные субтитры, состоящие из одного предложения. Отложенное исполнение. Объект воспроизводит указанный диалог.",
     ["Mamie"] = "Мейми",
     ["Cartier"] = "Картье",

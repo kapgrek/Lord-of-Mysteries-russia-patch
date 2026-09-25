@@ -246,4 +246,5 @@ return {
     ["[Berserker]"] = "[Берсерк]",
     ["寻找<h>“收存”之物</>"] = "Найдите <h>«сохранённый» предмет</>",
     ["Robot immune to Shockwave"] = "Робот с иммунитетом к ударной волне",
+    ["Release a Mind Shock to perform a ranged attack on the target."] = "Выпускает Ментальный удар, атакуя цель издалека.",
 }

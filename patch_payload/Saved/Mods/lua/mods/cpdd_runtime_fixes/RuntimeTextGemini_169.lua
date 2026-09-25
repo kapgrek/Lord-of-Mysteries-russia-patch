@@ -262,6 +262,7 @@ return {
     ["We will all be punished! We will all die! We will all die!"] = "Мы все будем наказаны! Мы все умрем! Мы все умрем!",
     ["Default False"] = "По умолчанию ложь",
     ["Attack <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Deepening increased.\""] = "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Шут></>: «Отменяет негативные эффекты Запечатанного Артефакта, все уровни навыков +1, Углубление урона увеличено».",
+    ["获得<HighLight>30%</>暴击率和<HighLight>40%</>暴击伤害。流血持续<HighLight>3</>秒，每秒造成<HighLight>40%</>攻击伤害。"] = "Даёт <HighLight>30%</> шанса крит. удара и <HighLight>40%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>40%</> атаки в виде урона каждую секунду.",
     ["Zion"] = "Сион",
     ["Sasha"] = "Саша",
     ["可能是因为我得到的羽毛，你知道这是什么吗？"] = "Возможно, это из-за пера, которое я получил. Знаешь, что это такое?",

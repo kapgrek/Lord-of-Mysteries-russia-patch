@@ -273,6 +273,7 @@ return {
     ["Activated Resonance: 13"] = "Активировано резонансов: 13",
     ["激活羁绊：14"] = "Активировано резонансов: 14",
     ["Church moon phase"] = "Церковная фаза луны",
+    ["Knowledge Infusion+"] = "Вливание знаний+",
     ["Today the apple blossoms bloomed, and I picked a few to place by your bedside. You said you liked this scent, so I pick them every year.\n\nNo matter what happens, the flowers here will bloom again, and Mother will still be here.\n\nYou just need to sleep well. When you wake up, everything will be fine."] = "Сегодня зацвели яблони, и я сорвала несколько цветков и положила у твоей постели. Ты говорил, что тебе нравится этот запах, поэтому я срываю их каждый год.\n\nЧто бы ни стряслось, цветы здесь будут цвести снова, и мама всегда будет рядом.\n\nСпи крепко, родной. Когда ты проснёшься, всё обязательно наладится.",
     ["Naomi"] = "Наоми",
     ["错误的选择带来诅咒，破碎的誓言化作枷锁。警惕甜蜜的谎言，真相往往苦涩。"] = "Неправильный выбор приносит проклятия, а нарушенные клятвы превращаются в кандалы. Остерегайтесь сладкой лжи; правда часто горька.",

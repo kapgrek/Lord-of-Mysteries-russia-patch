@@ -274,6 +274,7 @@ return {
     ["Every <HighLight>3</> seconds, strengthen the next basic attack to deal an additional <HighLight>75%</> of Attack as damage."] = "Каждые <HighLight>3</> сек. усиливает следующую базовую атаку, нанося дополнительно <HighLight>75%</> урона от атаки.",
     ["Long-Range Strike Badge"] = "Эмблема Дальнобойного удара",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>133%</> = {*d,F1690001,atkMin,1.33}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>133%</> = {*d,F1690001,atkMin,1.33}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
+    ["挥动骨笛，攻击近身目标。"] = "Бьёт ближайшие цели костяной флейтой.",
     ["\"Travel Weekly\" Editor Andy Cairns"] = "Редактор «Еженедельника путешествий» Энди Кейнс",
     ["　　<Mark id=\"#158\">如果那天，我能</>"] = "　　<Mark id=\"#158\">Если бы в тот день я только мог...</>",
     ["经典配方迪西馅饼"] = "Классический рецепт пирога Дези",

@@ -273,4 +273,5 @@ return {
     ["Calm down. He wouldn't have let you manage the factory if he didn't have enough confidence in you. Also, what do you mean by 'a familiar look'?"] = "Успокоиться. Он бы не позволил тебе управлять фабрикой, если бы не доверял тебе. И что вы подразумеваете под «знакомым взглядом»?",
     ["Uh, what's going on..."] = "Ох, что происходит...",
     ["愚者棋局入口在哪"] = "Где вход в «Гамбит Шута»?",
+    ["消耗<HighLight>%s</>点任务积分，获得以下奖励"] = "Потратьте <HighLight>%s</> очков заданий, чтобы получить награды:",
 }

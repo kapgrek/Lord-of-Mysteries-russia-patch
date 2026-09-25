@@ -229,6 +229,7 @@ return {
     ["Castle template saved successfully!"] = "Шаблон замка успешно сохранен!",
     ["<DecH>Craftsmanship: </>Mist Blue Gauze · Lily of the Valley Embroidery · Lady's Long Dress\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "<DecH>Мастерство: </>туманно-голубой газ, вышивка ландышами, дамское длинное платье\nПервый луч утреннего солнца пробивается сквозь дымку, озаряя распустившиеся розы и ландыши.",
     ["释放两次星界洪流，横扫前方扇形区域，共造成{*d,F1690001,atkMin,1.98}点攻击伤害。"] = "Дважды высвобождает поток Астрального мира, сметая веерную область впереди и нанося в сумме {*d,F1690001,atkMin,1.98} ед. урона от атаки.",
+    ["When Ancestor Armor enters the field: Summons <HighLight>2</> [Knight Guards] of the same star level based on the Ancestor Armor's star level. All allies gain <HighLight>5%</> Damage Reduction for <HighLight>6</> seconds."] = "Когда Доспех предков появляется на поле: призывает <HighLight>2</> 【Рыцарей-стражей】 той же звёздности. Все союзники получают <HighLight>5%</> снижения урона на <HighLight>6</> сек.",
     ["播放Dialogue  传送到指定场景内的Trigger位置"] = "Играть в диалог; телепортироваться к месту триггера в указанной сцене.",
     ["采集指定TemplateID的采集物  玩家播放剧情对话  玩家移除公有集团（大世界不生效）"] = "Собрать предмет коллекции с указанным TemplateID. Игрок воспроизводит сюжетный диалог. Игрок удаляет общедоступную группу (не действует в открытом мире).",
     ["Ingrid"] = "Ингрид",

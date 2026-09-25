@@ -250,5 +250,6 @@ return {
     ["Randomly gain 1 3-star 1-cost piece<HighLight></> and 7/11 Gold Coins<HighLight></>."] = "Случайным образом даёт 1 3-звёздочную фигуру за 1 золотой<HighLight></> и 7/11 золотых монет<HighLight></>.",
     ["造成的伤害提高<HighLight>15%</>。"] = "Наносимый урон увеличивается на <HighLight>15%</>.",
     ["30%最大生命护盾（2件档）"] = "Щит на 30% макс. здоровья (порог 2 предметов)",
+    ["张弓射击远处目标。"] = "Стреляет из лука по дальним целям.",
     ["Although its power is less than a tenth of its peak, it was, after all, my proudest design. It must be suppressed and sealed as soon as possible... Little ones, I leave it to you. Do not let the crimson descend upon the earth again."] = "Хотя его мощность составляет менее одной десятой от максимальной, в конце концов, это была моя самая большая гордость. Его необходимо как можно скорее подавить и запечатать... Малыши, я оставляю это вам. Не позволяйте багровому цвету снова опуститься на землю.",
 }

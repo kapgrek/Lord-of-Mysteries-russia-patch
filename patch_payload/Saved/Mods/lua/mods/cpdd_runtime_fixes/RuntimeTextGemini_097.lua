@@ -238,6 +238,8 @@ return {
     ["Yes, he was a great guide. He taught us a lot."] = "Да, он был отличным гидом. Он многому нас научил.",
     ["The data for clothing is very complex. Even with the same pattern, the effect will be completely different depending on the body shape."] = "Данные по одежде очень сложны. Даже при одном и том же рисунке эффект будет совершенно разным в зависимости от формы тела.",
     ["Use to obtain <Highlight>Fearless of Mushroom Poison</>.\nDuplicate acquisitions will automatically be dismantled into Bound Gold Pound ×100."] = "Используйте, чтобы получить <Highlight>«Иммунитет к грибному яду»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
+    ["Deals <HighLight>450</> True Damage. All allies +<HighLight>40%</> Attack Speed."] = "Наносит <HighLight>450</> ед. чистого урона. Все союзники: +<HighLight>40%</> к скорости атаки.",
+    ["Fire Vine Flower Poison Stings to attack distant targets."] = "Выпускает ядовитые шипы цветущих лоз в дальние цели.",
     ["黑荆棘来了两位恩马特港的值夜者同事，似乎有事求助。"] = "В «Черный терновник» прибыли двое коллег — Ночных Ястребов из порта Энмат, похоже, им нужна помощь.",
     ["Thalia"] = "Талия",
     ["施放指定技能  玩家高亮显示技能栏里的指定技能  延迟执行  玩家播放仅自己可见的说话文本"] = "Применение указанного навыка, игрок выделяет указанный навык на панели навыков, отложенное выполнение, игрок воспроизводит текст диалога, видимый только ему самому",

@@ -262,5 +262,6 @@ return {
     ["Spirit mediumship has ended"] = "Духовный медиумизм закончился",
     ["Royal Court Scepter"] = "Скипетр королевского двора",
     ["This is not Invisibility in the traditional sense, but 'Psychological Invisibility'—when cognition is guided by suggestion, reality also slips out of the field of vision."] = "Это не невидимость в традиционном понимании, а «психологическая невидимость» — когда познание направляется внушением, реальность также ускользает из поля зрения.",
+    ["Cookie Rain bombards enemies, healing the ally with the lowest health."] = "Дождь из печенья обрушивается на врагов и лечит союзника с наименьшим здоровьем.",
     ["任务自定义事件  玩家开启Letter界面"] = "Пользовательское событие задания; игрок открывает окно писем.",
 }

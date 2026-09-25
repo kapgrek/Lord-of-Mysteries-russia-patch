@@ -260,4 +260,5 @@ return {
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>150%</> = {*d,F1690001,atkMin,1.5}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>150%</> = {*d,F1690001,atkMin,1.5}",
     ["Total Hit Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}"] = "Урон при всех попаданиях: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>730%</> = {*d,F1690001,atkMin,7.3}",
     ["Obtain 1 Advanced Piece Recorder, which can copy a 1-star version of any cost piece."] = "Даёт 1 продвинутый регистратор фигур: он копирует однозвёздочную версию фигуры любой стоимости.",
+    ["发动知识辉耀打击全屏敌人，并使自身获得增益。"] = "Поражает Сиянием знаний всех врагов на поле и усиливает себя.",
 }

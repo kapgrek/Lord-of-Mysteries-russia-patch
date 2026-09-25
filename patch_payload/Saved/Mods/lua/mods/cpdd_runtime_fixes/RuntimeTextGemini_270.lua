@@ -217,6 +217,7 @@ return {
     ["Dance Point"] = "Танцевальная точка",
     ["Configuration Application"] = "Приложение конфигурации",
     ["Open to randomly obtain a <Highlight>60 item level</> orange or gold quality piece of Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Gold Thread, Beyonder material, medicine, food, etc."] = "При открытии случайным образом дарует предмет экипировки оранжевого или золотого качества <Highlight>60-го ур. снаряжения</>, а также Торговый контракт для обмена на <Highlight>передаваемые предметы</> на <Highlight>торговом рынке</>: <Highlight>передаваемые</> золотые нити, потусторонние материалы, зелья, еду и т. д.",
+    ["死亡嘉年华"] = "Карнавал смерти",
     ["开启灵视  玩家同步执行流程图  玩家移除屏幕特效"] = "Включение Духовного Зрения: игрок синхронно выполняет блок-схему, игрок убирает экранные спецэффекты",
     ["任务自定义事件  玩家播放仅自己可见的说话文本"] = "Пользовательское событие квеста, игрок воспроизводит текст диалога, видимый только ему самому.",
     ["采集指定TemplateID的采集物  玩家变身开始  玩家跨场景传送到指定Trigger"] = "Соберите указанный элемент коллекции TemplateID; начинается трансформация игрока; игрок телепортируется между сценами к указанному триггеру.",

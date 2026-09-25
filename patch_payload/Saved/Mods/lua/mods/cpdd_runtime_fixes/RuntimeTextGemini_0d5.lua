@@ -239,6 +239,7 @@ return {
     ["激活羁绊：19"] = "Активировано резонансов: 19",
     ["After the first skill cast in each battle, Mana recovery increases by <HighLight>5</> for <HighLight>5</> seconds."] = "После первого применения навыка в каждом бою восстановление маны увеличивается на <HighLight>5</> ед. на <HighLight>5</> сек.",
     ["21% Attack Speed per stack (3-piece tier; after strengthening, 10 stacks add 10% Attack)."] = "Скорость атаки 21% за уровень (порог 3 предметов; после усиления на 10 уровнях — ещё 10% атаки)",
+    ["Throw Card Flying Daggers to attack distant targets."] = "Метает карты-ножи в дальние цели.",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  延迟执行  对象播放指定对白内容"] = "Пользовательское событие задания: игрок создает публичные объекты по списку InstanceID (не действует в открытом мире); отложенное выполнение; объект проигрывает указанный диалог",
     ["Player removes quest items (delete all)  Player removes quest items (delete all)"] = "Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все)",
     ["Yahil"] = "Яхиль",

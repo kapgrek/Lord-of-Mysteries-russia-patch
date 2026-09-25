@@ -264,5 +264,6 @@ return {
     ["Of course! My grandfather was Intisian, and he only came to Loen because of love. The Polson family has always dealt with fish."] = "Конечно! Мой дедушка был интисийцем и приехал в Лоен только из-за любви. Семья Полсонов всегда имела дело с рыбой.",
     ["Together, they support the religious circles of Tingen City and its affiliated towns and villages."] = "Вместе они поддерживают религиозные круги города Тинген и связанных с ним городов и деревень.",
     ["Nighthawk Member Spawn buff 1"] = "Усиление появления члена Ночной Ястреб 1",
+    ["普通伤害：<HighLight>700%</>攻击，低生命目标伤害：<HighLight>1000%</>攻击。"] = "Обычный урон: <HighLight>700%</> атаки, урон по цели с низким здоровьем: <HighLight>1000%</> атаки.",
     ["Adele"] = "Адель",
 }

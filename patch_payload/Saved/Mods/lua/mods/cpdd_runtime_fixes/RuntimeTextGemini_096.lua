@@ -263,5 +263,6 @@ return {
     ["One in a Hundred Eggs - Divination Process"] = "Одно из ста яиц – процесс гадания",
     ["Perceive the Spirit World and space, then open a Portal; an Apprentice can travel through this Portal.\nCan only be used in Tingen.\nGrants yourself Intuition +1."] = "Ощущая духовный мир и пространство, открывает портал, через который может перемещаться Ученик.\nМожно использовать только в Тингене.\nПовышает собственную Интуицию на 1.",
     ["Drag/double-click to deploy pieces"] = "Перетащите или дважды нажмите, чтобы выставить фигуру",
+    ["Shock surrounding enemies and gain Damage Reduction."] = "Сотрясает окружающих врагов и получает снижение урона.",
     ["哎哟——撞到我了！我的腿动不了了！赔钱！五苏勒！"] = "Ой, ты наткнулся на меня! Моя нога не двигается! Плати! Пять соло!",
 }

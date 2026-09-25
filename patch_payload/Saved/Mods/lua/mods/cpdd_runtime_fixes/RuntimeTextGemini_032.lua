@@ -266,5 +266,7 @@ return {
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}",
     ["Resonance: 5 Extraordinary World | 2 Tarot Club | 2 Ranged Strike; Main Carry: Clown 3★, Azik Eggers 2★; Main Tank: Ray Bieber 3★, Rock King 2★; Strategy: Pursue 3★ for Clown and Ray; develop Extraordinary units, use Ranged Strike for output."] = "Резонансы: 5 Потусторонний мир | 2 Клуб Таро | 2 Дальнобойный удар; основной урон: Клоун 3★, Азик Эггерс 2★; основной танк: Рэй Бибер 3★, Рок Кинг 2★; тактика: доведите Клоуна и Рэя до 3★; развивайтесь через Потусторонний мир, урон — через Дальнобойный удар",
     ["What is the chess gameplay?"] = "Что за шахматный режим?",
+    ["Defense reduced by <HighLight>10%</> for <HighLight>10</> seconds."] = "Защита снижена на <HighLight>10%</> на <HighLight>10</> сек.",
+    ["累计刷新商店11次"] = "Обновить магазин 11 раз",
     ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
 }

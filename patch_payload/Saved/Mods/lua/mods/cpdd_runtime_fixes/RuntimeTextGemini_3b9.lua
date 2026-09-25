@@ -266,5 +266,6 @@ return {
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>656%</> = {*d,F1690001,atkMin,6.56}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>656%</> = {*d,F1690001,atkMin,6.56}",
     ["Piece Replicator"] = "Копировщик фигур",
     ["Resonance: May Manor·8 | Companions·2 | Spell·2 | Absolute Shield·2 | Ancestor's Glory·1\nMain DPS: Astrolabe User 3★, Anthea 2★\nMain Tank: Mr. Barney 3★, Ancestor Armor 2★\nStrategy: Barney, Astrolabe User chase 3★; Manor summons front row, Absolute Shield provides protection"] = "Резонансы: Поместье Мэй·8 | Плечом к плечу·2 | Колдовство·2 | Абсолютный щит·2 | Слава предков·1\nОсновной урон: Астролог 3★, Антея 2★\nОсновной танк: мистер Барни 3★, Доспех предков 2★\nТактика: доведите Барни и Астролога до 3★; Поместье призывает передний ряд, Абсолютный щит защищает",
+    ["持枪射击目标，第三段普攻强化子弹。"] = "Стреляет в цель из ружья; каждая третья базовая атака — усиленной пулей.",
     ["不过是有位夫人把我从码头区捡回来，授了我这门吃饭的手艺。"] = "Просто женщина забрала меня с причала и научила этому ремеслу, чтобы зарабатывать на жизнь.",
 }

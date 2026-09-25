@@ -258,6 +258,7 @@ return {
     ["Disable mount skills"] = "Отключить навыки ездового животного",
     ["释放镇魂共鸣，对目标区域的敌人造成{*d,F1690001,atkMin,3.78}点攻击伤害，并使其安眠<HighLight>1.5</>秒。"] = "Высвобождает упокаивающий резонанс, нанося врагам в целевой области {*d,F1690001,atkMin,3.78} ед. урона от атаки и погружая их в Сон на <HighLight>1.5</> сек.",
     ["随机一星2费棋子"] = "Случайная однозвёздочная фигура за 2 золотых",
+    ["All allies gain <HighLight>15</> Defense. [Solid Wall] gains additional Defense, and Defense is further increased for the first <HighLight>10</> seconds of combat."] = "Все союзники получают <HighLight>15</> ед. защиты. 【Твердыня】 получает дополнительную защиту, которая ещё больше повышается в первые <HighLight>10</> сек. боя.",
     ["血腥之拥"] = "Кровавые объятия",
     ["Wait time  Object plays specified dialogue content"] = "Время ожидания. Объект воспроизводит указанное содержимое диалога.",
     ["Cleo"] = "Клео",

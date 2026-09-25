@@ -240,6 +240,7 @@ return {
     ["Sacred Guard of the Lone Walker"] = "Священная защита одинокого путника",
     ["Wall of Sight mark buff"] = "Усиление метки Стены обзора",
     ["Energy Ball Damage Adjustment Buff"] = "Бафф корректировки урона энергетического шара",
+    ["Swing a black scythe to slash enemies in front four times in succession."] = "Чёрной косой четыре раза подряд рубит врагов впереди.",
     ["吃下，惊喜……嘿嘿，10苏勒，颗。"] = "Съешь, сюрприз... Хе-хе, 10 солей, одна штука.",
     ["采集指定TemplateID的采集物  玩家发送任务道具"] = "Собрать предмет с указанным TemplateID: игрок отправляет квестовый предмет.",
     ["Boston"] = "Бостон",

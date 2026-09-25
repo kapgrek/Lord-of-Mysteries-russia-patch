@@ -247,4 +247,6 @@ return {
     ["Why is it a sweet dream?"] = "Почему это сладкий сон?",
     ["装配后获得【阅读者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Чтец].",
     ["吟诵午夜诗篇，对周围敌人造成{*d,F1690001,atkMin,1.93}点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。"] = "Читает полуночный стих, нанося окружающим врагам {*d,F1690001,atkMin,1.93} ед. урона от атаки и погружая их в Сон на <HighLight>1</> сек.; скорость атаки фигуры повышается на <HighLight>15%</> на <HighLight>4</> сек.",
+    ["Summons vine thorns in areas where enemies are dense to deal area damage."] = "Призывает шипастые лозы в месте скопления врагов, нанося урон по области.",
+    ["Cast to gain short-term Life Steal and perform a random assault, dealing heavy damage to enemies with low Health."] = "При применении получает вампиризм на короткое время, бросается на случайного врага и тяжело ранит врагов с низким здоровьем.",
 }

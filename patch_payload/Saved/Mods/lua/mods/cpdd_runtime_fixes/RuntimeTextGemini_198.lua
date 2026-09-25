@@ -266,5 +266,7 @@ return {
     ["How do I decorate a Manor?"] = "Как мне украсить поместье?",
     ["<InvDefault>Featuring a</><InvHighlight>golden vest</><InvDefault> inner layer, adorned with</><InvHighlight>jewelry</><InvDefault>,</><InvHighlight>tassels, and botanical patterns</><InvDefault>, combining gentlemanly elegance with a natural aura.</>"] = "<InvDefault>Под ним </><InvHighlight>золотой жилет</><InvDefault>, а </><InvHighlight>украшения</><InvDefault>, </><InvHighlight>кисти и растительный узор</><InvDefault> соединяют джентльменскую элегантность с дыханием природы.</>",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>219%</> = {*d,F1690001,atkMin,2.19}点，治疗：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>20%</> = {*d,F1690001,maxHp,0.2}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>219%</> = {*d,F1690001,atkMin,2.19}, исцеление: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>20%</> = {*d,F1690001,maxHp,0.2}",
+    ["Leaps and slams enemies around self, dealing damage and inflicting Stun."] = "Прыгает и обрушивается на окружающих врагов, нанося урон и оглушая.",
+    ["Increases self attack and defense, and performs an in-place shock to deal area damage."] = "Повышает свою атаку и защиту и сотрясает землю на месте, нанося урон по области.",
     ["使用指定道具  玩家发送任务道具"] = "Использовать указанный предмет: игрок отправляет квестовый предмет.",
 }

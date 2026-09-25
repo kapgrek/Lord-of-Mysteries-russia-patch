@@ -1,8 +1,8 @@
 # Manifest (Lord of the Mysteries v2.6-RU)
 
-Total strings: **132556** (translated: **132556**, **100%**)
+Total strings: **132928** (translated: **132928**, **100%**)
 Batch size: **5000** (batch_001-027); named batches batch_028+ vary
-Batch count: **32**
+Batch count: **33**
 
 | Batch | File | Range | Status |
 |---|---|---|---|
@@ -35,6 +35,7 @@ Batch count: **32**
 | Батч 027 | `batch_027.json` | 130000 - 131009 | Готов |
 | Батч 028_autochess | `batch_028_autochess.json` | 131011 - 131644 | Готов |
 | Батч 029_cpdd_264 | `batch_029_cpdd_264.json` | 131645 - 131668 | Готов |
-| Батч 030_stringdb_aliases | `batch_030_stringdb_aliases.json` | 131669 - 131997 | Готов |
+| Батч 030_stringdb_aliases | `batch_030_stringdb_aliases.json` | 131669 - 132588 | Готов |
 | Батч 031_autochess_stringdb | `batch_031_autochess_stringdb.json` | 131998 - 132582 | Готов |
 | Батч 032_stringdb_ui | `batch_032_stringdb_ui.json` | 132583 - 132586 | Готов |
+| Батч 033_autochess_stringdb_2 | `batch_033_autochess_stringdb_2.json` | 132589 - 132958 | Готов |

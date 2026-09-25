@@ -249,6 +249,7 @@ return {
     ["Mell"] = "Мелл",
     ["Materials and Engineering"] = "Материалы и инженерия",
     ["I Am a Baboon"] = "я бабуин",
+    ["Fire a volley of phantom energy missiles to continuously pursue the target."] = "Выпускает очередь призрачных энергетических снарядов, преследующих цель.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家变身开始  玩家变身结束"] = "Собрать ресурс с указанным TemplateID; игрок создает публичный объект по списку InstanceID (не действует в открытом мире); начало трансформации игрока; окончание трансформации игрока.",
     ["Nehemiah"] = "Неемия",
 }

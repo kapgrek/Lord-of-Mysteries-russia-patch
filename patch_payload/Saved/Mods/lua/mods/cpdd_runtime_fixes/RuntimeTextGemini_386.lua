@@ -270,6 +270,7 @@ return {
     ["每个不同的<HighLight>3</>星棋子：全体+<HighLight>3%</>攻击和<HighLight>5</>防御属性。每场玩家战斗后获得<HighLight>1</>个随机荒野怪物棋子。"] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты. Даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>426%</> = {*d,F1690001,atkMin,4.26}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>426%</> = {*d,F1690001,atkMin,4.26}",
     ["非凡共鸣属性提升说明"] = "О росте характеристик от Потустороннего резонанса",
+    ["When Mr. Barney and Anthea are deployed together, if one dies, the other's damage is increased by <HighLight>70%</> for the rest of the battle."] = "Если мистер Барни и Антея выставлены вместе, после гибели одного из них урон другого увеличивается на <HighLight>70%</> до конца боя.",
     ["今日不更"] = "Сегодня без обновлений",
     ["Prudence"] = "Благоразумие",
     ["Sela"] = "Села",

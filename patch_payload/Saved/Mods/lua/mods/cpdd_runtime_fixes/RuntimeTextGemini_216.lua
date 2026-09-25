@@ -259,5 +259,8 @@ return {
     ["Miss Amelia, Henry seems to still be mumbling something."] = "Мисс Амелия, Генри, кажется, все еще что-то бормочет.",
     ["Allows filling in floating-point numbers or formulas"] = "Позволяет заполнять числа или формулы с плавающей запятой.",
     ["Riel Bieber <Disable>charges for 3 seconds</> before leaping and slamming into the ground, dealing <Disable>massive damage</> to nearby players."] = "Райэль Бибер <Disable> заряжается в течение 3 сек.</>, а затем подпрыгивает и врезается в землю, нанося <Disable>огромный урон</> ближайшим игрокам.",
+    ["惊喜礼包+"] = "Неожиданный подарочный набор+",
+    ["Sentence the furthest enemy, stunning them and suppressing mana recovery."] = "Выносит приговор самому дальнему врагу, оглушая его и подавляя восстановление маны.",
+    ["3-4 Draft"] = "3-4 Выбор фигур",
     ["已完成："] = "Завершено:",
 }

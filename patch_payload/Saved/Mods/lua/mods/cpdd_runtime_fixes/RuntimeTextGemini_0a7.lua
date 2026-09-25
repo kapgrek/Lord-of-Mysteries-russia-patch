@@ -243,6 +243,7 @@ return {
     ["Select an <Highlight>Employee</>; employees can increase the workshop's production speed."] = "Выберите <Highlight>Employee</>; сотрудники могут увеличить скорость производства в цехе.",
     ["Equip to gain the [Navigator] bond"] = "Экипируйте, чтобы получить резонанс [Мореплаватель]",
     ["After opening, you can obtain a defensive<Highlight> mutated material</> with the entry <Highlight><愚者></>."] = "Открыв его, вы можете получить защитное <Highlight> мутировавшее вещество </> с записью <Highlight><愚者></>.",
+    ["Sweep the heavy axe in front and gain a Shield."] = "Сметает врагов впереди тяжёлым топором и получает щит.",
     ["红帽子祭司"] = "Жрец в красном колпаке",
     ["松针大油边😡我去好香啊😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["反隐"] = "Анти-невидимость",

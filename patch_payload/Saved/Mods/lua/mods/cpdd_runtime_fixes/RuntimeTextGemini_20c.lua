@@ -255,6 +255,7 @@ return {
     ["Complete 1 match of Plateau Battle"] = "Завершите 1 матч в битве на плато.",
     ["First bombards a small rectangular area in front, dealing {*d,F1690001,atkMin,2} attack damage. Then deals {*d,F1690001,atkMin,0.95} attack damage to the target and enemies within <HighLight>1</> tiles, stunning them for <HighLight>1</> second. Finally, bombards a larger rectangular area in front, dealing {*d,F1690001,atkMin,2} attack damage."] = "Сначала обстреливает небольшую прямоугольную область впереди, нанося {*d,F1690001,atkMin,2} ед. урона от атаки. Затем наносит цели и врагам в пределах <HighLight>1</> клетки от неё {*d,F1690001,atkMin,0.95} ед. урона от атаки и оглушает их на <HighLight>1</> сек. Наконец обстреливает большую прямоугольную область впереди, нанося {*d,F1690001,atkMin,2} ед. урона от атаки.",
     ["Above the gray fog, every chess piece carries a forgotten battle, a destiny left unfinished."] = "Над серым туманом каждая фигура хранит память о забытой битве и неисполненной судьбе.",
+    ["获得<HighLight>20%</>暴击率和<HighLight>25%</>暴击伤害。流血持续<HighLight>3</>秒，每秒造成<HighLight>30%</>攻击伤害。"] = "Даёт <HighLight>20%</> шанса крит. удара и <HighLight>25%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>30%</> атаки в виде урона каждую секунду.",
     ["等待时间  玩家播放主线任务开始展示界面  延迟执行  玩家播放仅自己可见的说话文本"] = "Время ожидания: игрок воспроизводит экран начала основного квеста, отложенное выполнение, игрок воспроизводит текст, видимый только ему самому.",
     ["Kalani"] = "Калани",
     ["秘术"] = "Тайное знание",

@@ -259,6 +259,7 @@ return {
     ["Purgatory Knight"] = "Рыцарь Чистилища",
     ["After receiving damage, deal <HighLight>60</> damage to enemies within <HighLight>1</> tile(s), with a Cooldown of <HighLight>2</> seconds."] = "При получении урона наносит <HighLight>60</> ед. урона врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек.",
     ["Resonance Badge Selection Box"] = "Ларец с эмблемой резонанса на выбор",
+    ["挥动黑镰，连续四次斩击前方敌人。"] = "Чёрной косой четыре раза подряд рубит врагов впереди.",
     ["Let's bury Andy tonight.\nHe was a good policeman and a good undercover agent. Bring a bouquet of flowers for him on my behalf.\nThe orders from above are: don't ask anything, don't say anything.\nAlso... be careful!"] = "Похороните Энди сегодня ночью.\nОн был хорошим полицейским и преданным агентом под прикрытием. Положите от меня букет цветов на его могилу.\nПриказ сверху: ни о чём не спрашивать и ничего никому не говорить.\nИ ещё... будьте осторожны!",
     ["Sandra"] = "Сандра",
     ["Kinsley"] = "Кинсли",

@@ -50,12 +50,23 @@ $categoryInfo = [ordered]@{
     text       = 'P4: прочий текст'
     service    = 'не переводить: служебные имена'
     technical  = 'не переводить: техническое'
-    clipped    = 'текст обрезан диагностикой (400 байт): ключа нет, нужен полный текст'
+    clipped    = 'текст обрезан диагностикой (400 байт; с v2.9.10 — 4096): ключа нет, нужен полный текст'
     known      = 'уже переводится (ключ есть в шардах)'
     pending    = 'есть в батче без перевода'
 }
 $neverEmit = @('service', 'technical', 'clipped', 'known', 'pending')
-$clipBytes = 397   # clip() in AbsruDiagnostics.lua keeps 397..400 bytes of a longer text
+$clipBytes = 397   # clip() in AbsruDiagnostics.lua keeps 397..400 bytes of a longer text (TEXT_MAX, logs before v2.9.10)
+$clipBytesDb = 4093 # ... and 4093..4096 bytes for src=stringdb since v2.9.10 (DB_TEXT_MAX)
+function Test-ClippedText([string]$s) {
+    $n = $utf8.GetByteCount($s)
+    return ($n -ge $clipBytes -and $n -le 400) -or $n -ge $clipBytesDb
+}
+# Первые 9 цифр row StringDB_CN_Data: блоки Автошахмат (сверено по тексту строк сессии 2026-09-25_2112).
+$autoChessRowBlocks = New-Object 'System.Collections.Generic.HashSet[string]' ($ordinal)
+foreach ($b in @('153933238', '154001689', '158333432', '158333700', '158333969', '158400809', '158402151', '158469797',
+                 '158538517', '158674882', '158675419', '159018748', '159019285', '159019553', '159224638', '159225443',
+                 '159293357', '159293894', '159430796', '159431065', '159431333', '159431601', '162730136', '162730405',
+                 '162866770', '162942469')) { [void]$autoChessRowBlocks.Add($b) }
 
 function Resolve-RepoPath([string]$path) {
     $full = $ExecutionContext.SessionState.Path.GetUnresolvedProviderPathFromPSPath($path)
@@ -194,6 +205,9 @@ function Get-GapCategory($row) {
     if ($en -match '(?i)\btest(ing)?\b' -or $cn -match '测试|调试|废弃|备用|占位') { return 'service' }
     if (($text -match '^[^。，！？,!?]*(\s?[-_]\s?[^-_]+){2,}$') -and ($text -notmatch '[。！？]') -and $text.Length -lt 80 -and ($text -match '\s-\s|_')) { return 'service' }
 
+    # Блоки row основного модуля, целиком принадлежащие Автошахматам (TASK-014): навыки фигур, синергии,
+    # Потусторонние задания и дары — в них нет слов «фигура/резонанс», эвристика по тексту их не видит.
+    if (-not $tag -and $row.row.Length -ge 9 -and $autoChessRowBlocks.Contains($row.row.Substring(0, 9))) { return 'autochess' }
     if ($cn -match '棋子|弈|共鸣|羁绊|棋|阵容|金币' -or $en -match '(?i)\bpieces?\b|resonance|gold coins?|\blineup|chess') { return 'autochess' }
     if ($both.Contains('{*d,')) { return 'formula' }
     if ($both -match '<Assistant_') { return 'assistant' }
@@ -240,10 +254,15 @@ foreach ($file in $logFiles) {
         }
         $o = $json.DeserializeObject($line)
         $key = [string]$o['module'] + '|' + [string]$o['row']
-        if ($rows.ContainsKey($key)) { continue }
         $cn = [string]$o['cn']; $en = [string]$o['en']
-        # Diagnostics clips texts to TEXT_MAX = 400 bytes (AbsruDiagnostics.lua): a clipped text is not a usable key.
-        $cnCut = $utf8.GetByteCount($cn) -ge $clipBytes; $enCut = $utf8.GetByteCount($en) -ge $clipBytes
+        if ($rows.ContainsKey($key)) {
+            # Newer logs (DB_TEXT_MAX) carry the full text of a row clipped in older logs: keep the longer one.
+            $old = $rows[$key]
+            if (($cn.Length + $en.Length) -le ($old.cn.Length + $old.en.Length)) { continue }
+        }
+        # Diagnostics clips stringdb texts: to 400 bytes before v2.9.10, to DB_TEXT_MAX = 4096 since (AbsruDiagnostics.lua).
+        # A clipped text is not a usable key.
+        $cnCut = Test-ClippedText $cn; $enCut = Test-ClippedText $en
         $rows[$key] = [pscustomobject]@{
             module = [string]$o['module']; row = [string]$o['row']; cn = $cn; en = $en
             key = $(if ($cn -and -not $cnCut) { $cn } elseif ($en -and -not $enCut) { $en } else { '' })
@@ -262,7 +281,7 @@ foreach ($r in $rows.Values) {
     if ($null -ne $hit -and $hit -match '[\u0400-\u04FF]') { $r.category = 'known'; $r.ru = $hit; continue }
     if (($r.cn -and $batchKeyInfo.ContainsKey($r.cn)) -or ($r.en -and $batchKeyInfo.ContainsKey($r.en))) { $r.category = 'pending'; continue }
     if (-not $r.key) { $r.category = 'clipped'; continue }
-    $fullTexts = @(@($r.cn, $r.en) | Where-Object { $_ -and $utf8.GetByteCount($_) -lt $clipBytes })
+    $fullTexts = @(@($r.cn, $r.en) | Where-Object { $_ -and -not (Test-ClippedText $_) })
     foreach ($src in $fullTexts) {
         $lk = Get-LooseKey $src
         if ($looseIndex.ContainsKey($lk)) { $r.alias_kind = 'alias_case'; $r.alias_key = $looseIndex[$lk]; break }
@@ -345,7 +364,7 @@ if ($Aliases) {
     foreach ($r in $all | Where-Object { $_.category -in @('alias_case', 'alias_tags') }) {
         # alias_case: ключ = текст StringDB как есть (EN, для разделённых модулей cn пуст); alias_tags: ключ CN, если есть
         if ($r.category -eq 'alias_case') {
-            $src = $(if ($r.cn -and (Get-LooseKey $r.cn) -eq (Get-LooseKey $r.alias_key)) { $r.cn } elseif ($r.en -and $utf8.GetByteCount($r.en) -lt $clipBytes) { $r.en } else { $r.key })
+            $src = $(if ($r.cn -and (Get-LooseKey $r.cn) -eq (Get-LooseKey $r.alias_key)) { $r.cn } elseif ($r.en -and -not (Test-ClippedText $r.en)) { $r.en } else { $r.key })
             $refEn = $src
             if ($src -eq $r.cn) { $refEn = $r.en }
         } else {

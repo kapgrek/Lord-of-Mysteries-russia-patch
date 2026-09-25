@@ -247,5 +247,7 @@ return {
     ["Morning Light"] = "Утренний свет",
     ["Gain 2 Low-Level Piece Recorders<HighLight></> and 7 Gold Coins<HighLight></>."] = "Даёт <HighLight>2 Регистратора фигур низкого уровня</> и <HighLight>7 золотых монет</>.",
     ["Chess gameplay"] = "Шахматный режим",
+    ["<HighLight>16</>个【黑夜格】，斩杀低于<HighLight>32%</>生命值的敌方。"] = "<HighLight>16</> 【Клеток ночи】, добивают врагов с здоровьем ниже <HighLight>32%</>.",
+    ["The Giant Spirit stomps, knocking back enemies in front and gaining high Damage Reduction."] = "Исполин топотом отбрасывает врагов впереди и получает большое снижение урона.",
     ["老人家，你在找什么吗？"] = "Дедушка, вы что-то ищете?",
 }

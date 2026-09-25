@@ -265,6 +265,7 @@ return {
     ["And they are all books on grammar... in front of these books, I feel like a curly-haired baboon."] = "И это все книги по грамматике... перед этими книгами я чувствую себя кудрявым павианом.",
     ["Benson, you really are a conscientious and honest young man!"] = "Бенсон, вы действительно добросовестный и честный молодой человек!",
     ["愚者棋局阵容"] = "Составы «Гамбита Шута»",
+    ["投射暗影弹，攻击远处目标。"] = "Выпускает теневые снаряды в дальние цели.",
     ["Daily schedule: Wake up at 7, arrive at the Fool Church for prayer at 8, breakfast from 8:15 to 8:45, lunch and exercise from 12 to 3.\nMonday morning Algebra, afternoon Advanced Geometry; Tuesday morning Physics, afternoon Mechanical Science; Wednesday mentor meeting, Thursday and Friday practical courses. Saturday and Sunday off.\n\n\nAhhh, school is really tiring, but I must work hard and strive to live in Backlund in the future!"] = "Распорядок дня: подъём в 7:00, в 8:00 приход в Церковь Шута на молитву, с 8:15 до 8:45 завтрак, с 12:00 до 15:00 обед и тренировки.\nПонедельник утро — алгебра, день — начертательная геометрия; вторник утро — физика, день — машиностроение; среда — встреча с наставником, четверг и пятница — практические занятия. Суббота и воскресенье — выходные.\n\n\nА-а-а-а, учёба так выматывает, но я должен усердно стараться, чтобы в будущем перебраться в Бэкланд!",
     ["街头书摊旁，一位愁容满面的中年男人来回踱步，手里拿着一本翻开的书。"] = "Возле уличного книжного ларька взад и вперед ходит мужчина средних лет с обеспокоенным выражением лица, держа в руке раскрытую книгу.",
 }

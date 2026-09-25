@@ -295,4 +295,5 @@ return {
     ["Deal an additional 20% Attack damage, with this damage increasing by 10% for every 1 tile of distance."] = "Дополнительно наносит 20% урона от атаки; за каждую 1 клетку дистанции урон увеличивается на 10%.",
     ["Continuously pierces enemies in front with Lightning Ray and detonates in the target area, dealing a total of {*d,F1690001,atkMin,15} attack damage if all hits connect."] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,15} ед. урона от атаки.",
     ["Fool's Gambit: Use <Highlight> Right Click </> to move."] = "«Гамбит Шута»: перемещение — <Highlight>правой кнопкой мыши</>.",
+    ["Throw a bill to attack distant targets."] = "Швыряет счёт в дальние цели.",
 }
