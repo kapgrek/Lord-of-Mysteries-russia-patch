@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.6-RU"
+local VERSION = "2.9.7-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1396,11 +1396,17 @@ local runtimeMetrics = {
     NestedComponentSkips = 0,
     NestedRefreshCoalesces = 0,
     SinglePassPanelSkips = 0,
-    TaskBoardTargetRuns = 0,
-    TaskBoardTargetComponents = 0,
-    TaskBoardTargetWidgetsFound = 0,
-    TaskBoardTargetLabelsRepaired = 0,
-    TaskBoardTargetFailures = 0,
+    NestedEarlyRuns = 0,
+    NestedEarlyLabels = 0,
+    NestedEarlyMs = 0,
+    NestedEarlyMsMax = 0,
+    TextFitMeasured = 0,
+    TextFitShrunk = 0,
+    TextFitFailed = 0,
+    TextFitDeferred = 0,
+    TextFitNoEffect = 0,
+    TextFitMs = 0,
+    TextFitMsMax = 0,
     KsbcFallbacks = 0,
     UnresolvedVisibleCjk = 0,
     UnresolvedCjkWrites = 0,
@@ -3637,29 +3643,431 @@ runtimeFixes.collapseSpacedCharacters = function(text)
     return text
 end
 
-runtimeFixes.widgetOriginalFontSizes = {}
-runtimeFixes.getAdjustedFontSize = function(widget, currentSize, wName, isEscLocked)
-    if isEscLocked or (ESC_MENU_LOCKED and wName and (wName:find("menubtn") or wName:find("escape") or wName:find("menu_panel"))) then
-        return tonumber(currentSize) or 18
+-- Text fit (TASK-011) ----------------------------------------------------------
+-- Text keeps its authored size, letter spacing and wrapping. Cyrillic text is
+-- only shrunk when a measurement (ForceLayoutPrepass + GetDesiredSize) shows it
+-- does not fit: a fixed slot gives its own width; an auto-sized widget may grow
+-- up to the right edge of its parent, but never below the width of the text it
+-- had before translation (need_pre). Scroll boxes are not a limit. The size
+-- only goes down, to max(12, 0.6 x authored), with at most 2 re-measures, and
+-- text and size unchanged since the last fit are never measured again. A widget
+-- without layout yet (zero geometry) is measured later in timer ticks of at most
+-- 2 ms. RichText has no font of its own and is never touched.
+-- absoluteru_dev.lua TextFit = "legacy" restores the v2.9.6 length thresholds
+-- (authored + 2, > 14 / > 10 / > 6 characters, wrapping off) for comparison.
+runtimeFixes.TextFit = {}
+do
+    local TEXT_FIT_MODE = "measure"
+    local MIN_SIZE, MIN_RATIO = 12, 0.6
+    local MAX_REMEASURES = 2
+    local DEFER_SECONDS, DEFER_TRIES, DEFER_BUDGET_MS = 0.05, 10, 2
+    local TF = runtimeFixes.TextFit
+    local devFlags = Loader.DevFlags
+    if type(devFlags) == "table" and devFlags.TextFit == "legacy" then
+        TEXT_FIT_MODE = "legacy"
     end
-    local key = nil
-    pcall(function()
-        if widget.GetPathName ~= nil then
-            key = tostring(widget:GetPathName())
+    TF.Mode = TEXT_FIT_MODE
+    -- nil until the first call: true = ForceLayoutPrepass exists, false = missing
+    -- (then each re-measure waits for the next layout, one step per tick).
+    TF.Prepass = nil
+
+    -- widget -> authored state: size, ls (font), wls (widget), wrap, need_pre,
+    -- have_pre, slot kinds, last fit (fitText / fitBase / fitSize), run.
+    local states = setmetatable({}, { __mode = "k" })
+    local deferred = setmetatable({}, { __mode = "k" })
+    local timerPending = false
+    local slateLibrary = nil
+    TF.States = states
+
+    local function slate()
+        if slateLibrary == nil then
+            local ok, library = pcall(import, "SlateBlueprintLibrary")
+            slateLibrary = ok and library or false
         end
-    end)
-    if key == nil or key == "" then
-        key = tostring(widget)
+        return slateLibrary or nil
     end
-    local orig = runtimeFixes.widgetOriginalFontSizes[key]
-    if orig == nil then
-        orig = tonumber(currentSize) or 18
-        if orig > 36 then
-            orig = 18
+
+    local function readFont(widget)
+        local font = nil
+        pcall(function() font = widget.GetFont and widget:GetFont() or widget.Font end)
+        return font
+    end
+
+    function TF.State(widget, font)
+        local st = states[widget]
+        if st ~= nil then return st end
+        font = font or readFont(widget)
+        st = {}
+        pcall(function() st.size = tonumber(font.Size) end)
+        pcall(function() st.ls = tonumber(font.LetterSpacing) end)
+        pcall(function() st.wls = tonumber(widget.LetterSpacing) end)
+        pcall(function() st.wrap = widget.AutoWrapText == true end)
+        pcall(function() states[widget] = st end)
+        return st
+    end
+
+    local function prepass(widget)
+        if TF.Prepass == false then return false end
+        local fn = nil
+        pcall(function() fn = widget.ForceLayoutPrepass end)
+        if TF.Prepass == nil then
+            TF.Prepass = type(fn) == "function"
+            local d = runtimeFixes.Diag
+            if d and d.NoteApi then d.NoteApi("ForceLayoutPrepass", TF.Prepass) end
+            if TF.PrepassLinePending then
+                TF.PrepassLinePending = nil
+                report("text fit prepass=" .. (TF.Prepass and "ok" or "missing"))
+            end
         end
-        runtimeFixes.widgetOriginalFontSizes[key] = orig
+        return type(fn) == "function" and pcall(fn, widget)
     end
-    return orig + 2
+
+    -- have (cached geometry) and need (desired size) in local units; nil when
+    -- the widget has no layout yet or cannot be read (destroyed).
+    local function measure(widget)
+        local library = slate()
+        if library == nil then return nil end
+        local m = {}
+        local ok = pcall(function()
+            local geometry = widget:GetCachedGeometry()
+            local size = library.GetLocalSize(geometry)
+            m.geometry = geometry
+            m.haveX = tonumber(size.X) or 0
+            m.haveY = tonumber(size.Y) or 0
+        end)
+        if not ok or m.haveX <= 0 or m.haveY <= 0 then return nil end
+        m.prepass = prepass(widget)
+        ok = pcall(function()
+            local desired = widget:GetDesiredSize()
+            m.needX = tonumber(desired.X) or 0
+            m.needY = tonumber(desired.Y) or 0
+        end)
+        if not ok or m.needX <= 0 then return nil end
+        return m
+    end
+
+    -- Room from the widget's left edge to its parent's right edge, in the
+    -- widget's local units; nil for a scroll box or an unreadable parent.
+    local function parentRoom(widget, m)
+        local library = slate()
+        local room = nil
+        pcall(function()
+            local parent = widget:GetParent()
+            if parent == nil then return end
+            if tostring(parent:GetClass():GetName()):find("ScrollBox", 1, true) then return end
+            local parentGeometry = parent:GetCachedGeometry()
+            local parentWidth = tonumber(library.GetLocalSize(parentGeometry).X) or 0
+            if parentWidth <= 0 then return end
+            local left = tonumber(library.LocalToAbsolute(m.geometry, sceneTextVector2D(0, 0)).X) or 0
+            local right = tonumber(library.LocalToAbsolute(m.geometry, sceneTextVector2D(m.haveX, 0)).X) or 0
+            local parentRight = tonumber(library.LocalToAbsolute(parentGeometry, sceneTextVector2D(parentWidth, 0)).X) or 0
+            local scale = (right - left) / m.haveX
+            if scale > 0 then room = (parentRight - left) / scale end
+        end)
+        return room
+    end
+
+    local function minSize(size)
+        if size < MIN_SIZE then return size end
+        return math.max(MIN_SIZE, size * MIN_RATIO)
+    end
+
+    local function applySize(widget, size)
+        pcall(function()
+            local font = widget.GetFont and widget:GetFont() or widget.Font
+            font.Size = size
+            widget.Font = font
+            if widget.SetFont ~= nil then widget:SetFont(font) end
+        end)
+        local st = states[widget]
+        if st ~= nil then st.applied = size end
+    end
+
+    -- Width (or, for wrapped text, height) before our SetText; called once per
+    -- widget, right before its first replacement. The geometry at this moment
+    -- still belongs to the original text, which tells a fixed slot (wider than
+    -- the text) from an auto-sized one.
+    function TF.PreMeasure(widget)
+        local d = runtimeFixes.Diag
+        if TF.Mode ~= "measure" and d == nil then return end
+        local st = TF.State(widget)
+        if st.pre then return end
+        st.pre = true
+        local library = slate()
+        if library == nil then return end
+        pcall(function()
+            local size = library.GetLocalSize(widget:GetCachedGeometry())
+            st.havePreX, st.havePreY = tonumber(size.X) or 0, tonumber(size.Y) or 0
+        end)
+        local function desired()
+            pcall(function()
+                local size = widget:GetDesiredSize()
+                st.needPreX, st.needPreY = tonumber(size.X) or 0, tonumber(size.Y) or 0
+            end)
+        end
+        desired()
+        if (st.needPreX or 0) <= 0 and TF.Mode == "measure" and prepass(widget) then desired() end
+        if (st.needPreX or 0) <= 0 then
+            st.needPreX, st.needPreY = nil, nil
+        elseif (st.havePreX or 0) > 0 and (st.havePreY or 0) > 0 then
+            st.slotX = st.havePreX > st.needPreX + 1 and "fixed" or "auto"
+            st.slotY = st.havePreY > st.needPreY + 1 and "fixed" or "auto"
+        end
+        if d and d.PreMeasure then d.PreMeasure(widget, st.needPreX, st.needPreY, st.wrap) end
+    end
+
+    -- A size the game set itself (neither ours nor authored) becomes the
+    -- authored size, and the previous fit no longer applies.
+    function TF.Adopt(st, font)
+        local current = tonumber(font.Size)
+        if current == nil then return end
+        if st.size == nil then
+            st.size = current
+        elseif st.applied ~= nil and math.abs(current - st.applied) > 0.01 and math.abs(current - st.size) > 0.01 then
+            st.size = current
+            st.fitText, st.run = nil, nil
+        end
+    end
+
+    -- Size to apply now: the fit for this text, the size of a running fit, or
+    -- the authored size (then TF.Begin measures).
+    function TF.Target(st, text)
+        local run = st.run
+        if run ~= nil and run.text == text and run.base == st.size then return run.size, true end
+        if st.fitText == text and st.fitBase == st.size and st.fitSize ~= nil then return st.fitSize, true end
+        return st.size, false
+    end
+
+    local function finish(widget, st, run, outcome, m)
+        st.run = nil
+        st.fitText, st.fitBase, st.fitSize = run.text, run.base, run.size
+        if run.size < run.base then
+            runtimeMetrics.TextFitShrunk = runtimeMetrics.TextFitShrunk + 1
+        end
+        if outcome == "fail" then
+            runtimeMetrics.TextFitFailed = runtimeMetrics.TextFitFailed + 1
+        elseif outcome == "noeffect" then
+            runtimeMetrics.TextFitNoEffect = runtimeMetrics.TextFitNoEffect + 1
+        end
+        local d = runtimeFixes.Diag
+        if d and d.NoteFit and (outcome ~= "fits" or run.size < run.base) then
+            d.NoteFit(widget, {
+                kind = outcome == "fits" and "shrunk" or outcome, text = run.text,
+                size_pre = run.base, size = run.size, min = run.min, steps = run.steps,
+                slot = run.slot, axis = run.axis, budget = run.budget,
+                need = m and (run.axis == "y" and m.needY or m.needX) or nil,
+                need0 = run.need0, need_pre = st.needPreX,
+                reason = outcome == "fail" and (run.size <= run.min and "min" or "steps") or nil,
+            })
+        end
+        if outcome ~= "fits" or run.size < run.base then
+            reportVerbose("text fit " .. outcome .. " size " .. tostring(run.base) .. "->" .. tostring(run.size)
+                .. " budget=" .. string.format("%.1f", run.budget or 0) .. " text=" .. tostring(run.text))
+        end
+        return true
+    end
+
+    -- One fit run step. Returns true when finished; false to continue on a
+    -- later tick (no layout yet, slot not classified yet, or no prepass after a
+    -- size change). sync: called right after our SetText / SetFont.
+    local function fitStep(widget, st, sync)
+        local run = st.run
+        while true do
+            local m = measure(widget)
+            if m == nil then return false end
+            if not m.prepass and run.dirty then return false end
+            runtimeMetrics.TextFitMeasured = runtimeMetrics.TextFitMeasured + 1
+            if run.budget == nil then
+                -- Without a pre-translation layout, classify only after a layout
+                -- of the current text: an auto-sized slot then equals its text.
+                if st.slotX == nil then
+                    if sync then return false end
+                    st.slotX = math.abs(m.haveX - m.needX) > 1 and "fixed" or "auto"
+                    st.slotY = math.abs(m.haveY - m.needY) > 1 and "fixed" or "auto"
+                end
+                if st.wrap then
+                    run.axis = "y"
+                    run.slot = st.slotY
+                    if st.slotY ~= "fixed" then return finish(widget, st, run, "fits", m) end
+                    run.budget = m.haveY
+                else
+                    run.axis = "x"
+                    run.slot = st.slotX
+                    if st.slotX == "fixed" then
+                        run.budget = m.haveX
+                    else
+                        local room = parentRoom(widget, m)
+                        if room == nil then return finish(widget, st, run, "fits", m) end
+                        run.budget = math.max(st.needPreX or 0, room)
+                    end
+                end
+            end
+            local need = run.axis == "y" and m.needY or m.needX
+            run.need0 = run.need0 or need
+            if need <= run.budget + 1 then
+                return finish(widget, st, run, "fits", m)
+            end
+            if run.prevNeed ~= nil then
+                -- The new size must show in the measurement: width scales with
+                -- the size (+-10 %), wrapped height must at least go down.
+                local noEffect
+                if run.axis == "x" then
+                    noEffect = need > run.prevNeed * (run.size / run.prevSize) * 1.1
+                else
+                    noEffect = need >= run.prevNeed
+                end
+                if noEffect then return finish(widget, st, run, "noeffect", m) end
+            end
+            if run.size <= run.min or run.steps >= MAX_REMEASURES then
+                return finish(widget, st, run, "fail", m)
+            end
+            local ratio = run.budget / need
+            if run.axis == "y" then ratio = math.sqrt(ratio) end
+            local size = math.max(run.min, math.floor(run.size * ratio * 2) / 2)
+            if size >= run.size then size = math.max(run.min, run.size - 0.5) end
+            run.prevNeed, run.prevSize = need, run.size
+            run.size = size
+            run.steps = run.steps + 1
+            applySize(widget, size)
+            if not m.prepass then
+                run.dirty = true
+                return false
+            end
+        end
+    end
+
+    local function account(started)
+        local elapsed = nowMilliseconds() - started
+        runtimeMetrics.TextFitMs = runtimeMetrics.TextFitMs + elapsed
+        if elapsed > runtimeMetrics.TextFitMsMax then
+            runtimeMetrics.TextFitMsMax = elapsed
+        end
+    end
+
+    local onTick
+    local function schedule()
+        if timerPending then return end
+        local manager, addTimer = nil, nil
+        pcall(function() manager = Game and Game.NewUIManager end)
+        pcall(function() addTimer = manager and manager.AddTimerWithFunction end)
+        if type(addTimer) ~= "function" then return end
+        timerPending = true
+        if not pcall(addTimer, manager, DEFER_SECONDS, 1, onTick) then
+            timerPending = false
+        end
+    end
+
+    local function defer(widget, st)
+        local run = st.run
+        if run.tries == 0 then
+            runtimeMetrics.TextFitDeferred = runtimeMetrics.TextFitDeferred + 1
+        end
+        deferred[widget] = true
+        schedule()
+    end
+
+    onTick = function()
+        timerPending = false
+        local deadline = nowMilliseconds() + DEFER_BUDGET_MS
+        local list = {}
+        for widget in pairs(deferred) do list[#list + 1] = widget end
+        for _, widget in ipairs(list) do
+            if nowMilliseconds() >= deadline then break end
+            deferred[widget] = nil
+            local st = states[widget]
+            local run = st and st.run
+            if run ~= nil then
+                local okVisible, visible = pcall(function() return widget:IsVisible() end)
+                if okVisible and visible == false then
+                    st.run = nil
+                else
+                    run.dirty = false
+                    run.tries = run.tries + 1
+                    local started = nowMilliseconds()
+                    local ok, done = pcall(fitStep, widget, st, false)
+                    account(started)
+                    if not ok then
+                        st.run = nil
+                    elseif not done then
+                        if run.tries < DEFER_TRIES then deferred[widget] = true else st.run = nil end
+                    end
+                end
+            end
+        end
+        if next(deferred) ~= nil then schedule() end
+    end
+
+    -- Starts a fit of the authored size for text (after SetFont with it).
+    function TF.Begin(widget, st, text)
+        if st.size == nil or st.size <= 0 then return end
+        local run = {
+            text = text, base = st.size, size = st.size, min = minSize(st.size),
+            steps = 0, tries = 0, dirty = TF.Prepass == false,
+        }
+        st.run = run
+        if run.dirty then
+            defer(widget, st)
+            return
+        end
+        local started = nowMilliseconds()
+        local ok, done = pcall(fitStep, widget, st, true)
+        account(started)
+        if not ok then
+            st.run = nil
+        elseif not done then
+            defer(widget, st)
+        end
+    end
+
+    -- TextFit = "legacy": the v2.9.6 styling (authored + 2, length thresholds,
+    -- wrapping off for titles), kept for one version to compare screens.
+    function TF.Legacy(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
+        local st = TF.State(widget, font)
+        if hasCyrillic then
+            if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
+            if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
+            font.LetterSpacing = 0
+        end
+        local orig = st.size or 18
+        if orig > 36 then orig = 18 end
+        local baseSize = orig + 2
+        local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
+        local wrapOff = false
+        if isSynergyWidget then
+            if textLen > 14 then
+                font.Size = 10.5
+            elseif textLen > 8 then
+                font.Size = 12
+            else
+                font.Size = math.min(baseSize, 14)
+            end
+            wrapOff = true
+        elseif isTitleName then
+            if textLen > 14 then
+                font.Size = math.min(baseSize, 14)
+            elseif textLen > 10 then
+                font.Size = math.min(baseSize, 15)
+            elseif textLen > 6 then
+                font.Size = math.min(baseSize, 16)
+            elseif baseSize > 20 then
+                font.Size = 18
+            else
+                font.Size = baseSize
+            end
+            wrapOff = true
+        elseif baseSize > 22 then
+            font.Size = 20
+        else
+            font.Size = baseSize
+        end
+        if wrapOff then
+            if widget.SetAutoWrapText ~= nil then
+                widget:SetAutoWrapText(false)
+            elseif widget.AutoWrapText ~= nil then
+                widget.AutoWrapText = false
+            end
+        end
+    end
 end
 
 local function translateTextWidget(widget, discoveryContext)
@@ -3726,6 +4134,8 @@ local function translateTextWidget(widget, discoveryContext)
         end
 
         if translated ~= currentText then
+            -- Width of the original text, once per widget (TASK-011).
+            runtimeFixes.TextFit.PreMeasure(widget)
             local changed = pcall(function()
                 if widget.SetText ~= nil then
                     widget:SetText(translated)
@@ -3753,22 +4163,16 @@ local function translateTextWidget(widget, discoveryContext)
 
     local pre = d and d.FontSnapshot(widget)
     -- Styling for text widgets, even if currently empty, so that subsequent
-    -- C++/Blueprint updates inherit it. Cyrillic gets zero LetterSpacing and a
-    -- proportional typeface (TASK-006); other text keeps the authored spacing.
+    -- C++/Blueprint updates inherit it. Cyrillic gets a proportional typeface
+    -- (TASK-006) and LetterSpacing max(0, authored); other text keeps the
+    -- authored font. The size is authored and only shrunk by measurement
+    -- (runtimeFixes.TextFit, TASK-011); authored wrapping is kept.
     pcall(function()
         local textToCheck = translated or currentText or ""
-        local isCinematicName = runtimeFixes.isCinematicWidgetName(wName)
         local isSynergyWidget = (wName:find("fetter") ~= nil or wName:find("bond") ~= nil or wName:find("synergy") ~= nil
             or widgetName == "Text_FetterName" or widgetName == "WBP_Title_Fetter" or widgetName == "Text_Bond")
-        local isTitleName = not isCinematicName and not isSynergyWidget and (wName:find("title") or wName:find("btn") or wName:find("tab")
-            or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
-            or wName:find("server") or wName:find("chapter") or wName:find("rank"))
-
         local hasCyrillic = (type(textToCheck) == "string") and (textToCheck:find("[\208\209]") ~= nil)
-        if hasCyrillic then
-            if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
-            if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
-        end
+        local textFit = runtimeFixes.TextFit
 
         if isSynergyWidget and (wName:find("title_fetter") or wName:find("wbp_title_fetter") or widgetName == "WBP_Title_Fetter") then
             pcall(function()
@@ -3779,51 +4183,50 @@ local function translateTextWidget(widget, discoveryContext)
         end
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
+        local fitState, fitNeeded = nil, false
         if font ~= nil then
+            local st = textFit.State(widget, font)
             if hasCyrillic then
                 runtimeFixes.applyCyrillicFont(widget, font)
-                font.LetterSpacing = 0
             else
                 runtimeFixes.restoreAuthoredFont(widget, font)
             end
 
-            local baseSize = runtimeFixes.getAdjustedFontSize(widget, font.Size, wName, isEscLocked)
-            if isSynergyWidget then
-                local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
-                if textLen > 14 then
-                    font.Size = 10.5
-                elseif textLen > 8 then
-                    font.Size = 12
-                else
-                    font.Size = math.min(baseSize, 14)
-                end
-                if widget.SetAutoWrapText ~= nil then
-                    widget:SetAutoWrapText(false)
-                elseif widget.AutoWrapText ~= nil then
-                    widget.AutoWrapText = false
-                end
-            elseif isTitleName then
-                local textLen = (type(textToCheck) == "string") and runtimeFixes.utf8Len(textToCheck) or 0
-                if textLen > 14 then
-                    font.Size = math.min(baseSize, 14)
-                elseif textLen > 10 then
-                    font.Size = math.min(baseSize, 15)
-                elseif textLen > 6 then
-                    font.Size = math.min(baseSize, 16)
-                elseif baseSize > 20 then
-                    font.Size = 18
-                else
-                    font.Size = baseSize
-                end
-                if widget.SetAutoWrapText ~= nil then
-                    widget:SetAutoWrapText(false)
-                elseif widget.AutoWrapText ~= nil then
-                    widget.AutoWrapText = false
-                end
-            elseif baseSize > 22 then
-                font.Size = 20
+            if textFit.Mode == "legacy" then
+                local isTitleName = not runtimeFixes.isCinematicWidgetName(wName) and not isSynergyWidget
+                    and (wName:find("title") or wName:find("btn") or wName:find("tab")
+                    or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
+                    or wName:find("server") or wName:find("chapter") or wName:find("rank"))
+                textFit.Legacy(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
             else
-                font.Size = baseSize
+                local ls, wls = st.ls, st.wls
+                if hasCyrillic then
+                    ls, wls = math.max(0, ls or 0), math.max(0, wls or 0)
+                end
+                if ls ~= nil then font.LetterSpacing = ls end
+                if wls ~= nil then
+                    if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(wls) end
+                    if widget.LetterSpacing ~= nil then widget.LetterSpacing = wls end
+                end
+                if isSynergyWidget then
+                    -- Synergy labels on the AutoChess HUD stay on one line.
+                    if widget.SetAutoWrapText ~= nil then
+                        widget:SetAutoWrapText(false)
+                    elseif widget.AutoWrapText ~= nil then
+                        widget.AutoWrapText = false
+                    end
+                    st.wrap = false
+                end
+                textFit.Adopt(st, font)
+                if hasCyrillic then
+                    local size, known = textFit.Target(st, textToCheck)
+                    if size ~= nil then font.Size = size end
+                    fitState, fitNeeded = st, not known
+                elseif st.size ~= nil then
+                    font.Size = st.size
+                    st.run = nil
+                end
+                st.applied = tonumber(font.Size)
             end
 
             widget.Font = font
@@ -3836,6 +4239,9 @@ local function translateTextWidget(widget, discoveryContext)
         -- In "face" mode RichText gets proportional Cyrillic from the edited Font_Aleo faces.
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
+        if fitNeeded and textToCheck ~= "" then
+            textFit.Begin(widget, fitState, textToCheck)
+        end
     end)
     if d then d.OnTextWidget(widget, translated or currentText, widgetName, pre) end
     return repairedCount
@@ -8458,15 +8864,6 @@ local function installSettingsPresetLayoutRepair(value, environment)
     return true
 end
 
-local taskBoardWidgetNames = {
-    "Text_TargetDesc",
-    "Text_Name",
-    "Text_ChapterName",
-    "RichText_Hint01",
-    "RichText_Hint02",
-    "RichText_Path",
-}
-
 local taskInfoRepairReports = setmetatable({}, { __mode = "k" })
 local function repairTaskInfoLabels(self)
     if self == nil then return 0 end
@@ -8503,112 +8900,6 @@ local function repairTaskListItemLabels(self)
     if taskListItemRepairReports[self] ~= true then
         taskListItemRepairReports[self] = true
         reportVerbose("Task list item targeted repair active labels=" .. tostring(repaired))
-    end
-    return repaired
-end
-
-local taskBoardRepairStates = setmetatable({}, { __mode = "k" })
-local taskBoardRepairBursts = setmetatable({}, { __mode = "k" })
-
-local function repairTaskBoardLabelsNow(self)
-    if self == nil then return 0 end
-    local destroyed = false
-    pcall(function() destroyed = self.isDestroyed == true end)
-    if destroyed then return 0 end
-
-    local repaired = 0
-    local foundCount = 0
-    local componentCount = 0
-    local visitedWidgets = setmetatable({}, { __mode = "k" })
-    local visitedComponents = setmetatable({}, { __mode = "k" })
-    local library = resolveWidgetProbeLibrary()
-    local findWidget = library and library.FindWidget
-    local function repairComponent(component)
-        if component == nil or visitedComponents[component] then return end
-        visitedComponents[component] = true
-        componentCount = componentCount + 1
-        local view, root, children
-        local readable = pcall(function()
-            view = component.view
-            root = component.userWidget or component.widget
-            children = component._childComponents
-        end)
-        if not readable then
-            runtimeMetrics.TaskBoardTargetFailures = runtimeMetrics.TaskBoardTargetFailures + 1
-            return
-        end
-        repaired = repaired + translateDirectViewTextWidgets(view)
-        repaired = repaired + translateViewTextWidgets(view, root)
-        for _, name in ipairs(taskBoardWidgetNames) do
-            local widget = getNamedWidget(view, name) or getNamedWidget(root, name)
-            if widget == nil and root ~= nil and type(findWidget) == "function" then
-                local ok, found = pcall(findWidget, root, name)
-                if ok then widget = found end
-            end
-            if widget ~= nil and not visitedWidgets[widget] then
-                visitedWidgets[widget] = true
-                foundCount = foundCount + 1
-                repaired = repaired + translateTextWidget(widget)
-            end
-        end
-        if type(children) == "table" then
-            for _, child in pairs(children) do
-                repairComponent(child)
-            end
-        end
-    end
-    repairComponent(self)
-    runtimeMetrics.TaskBoardTargetRuns = runtimeMetrics.TaskBoardTargetRuns + 1
-    runtimeMetrics.TaskBoardTargetComponents =
-        runtimeMetrics.TaskBoardTargetComponents + componentCount
-    runtimeMetrics.TaskBoardTargetWidgetsFound =
-        runtimeMetrics.TaskBoardTargetWidgetsFound + foundCount
-    runtimeMetrics.TaskBoardTargetLabelsRepaired =
-        runtimeMetrics.TaskBoardTargetLabelsRepaired + repaired
-
-    local state = taskBoardRepairStates[self]
-    if state == nil then
-        state = { Runs = 0, Components = 0, Found = 0, Repaired = 0 }
-        taskBoardRepairStates[self] = state
-    end
-    state.Runs = state.Runs + 1
-    state.Components = math.max(state.Components, componentCount)
-    state.Found = math.max(state.Found, foundCount)
-    state.Repaired = state.Repaired + repaired
-    return repaired
-end
-
-local function reportTaskBoardRepair(self)
-    repairTaskBoardLabelsNow(self)
-    taskBoardRepairBursts[self] = nil
-    local state = taskBoardRepairStates[self]
-    if state ~= nil and state.Reported ~= true then
-        state.Reported = true
-        reportVerbose("Task Board targeted repair runs=" .. tostring(state.Runs)
-            .. " child_components=" .. tostring(state.Components)
-            .. " widgets_found=" .. tostring(state.Found)
-            .. " labels_repaired=" .. tostring(state.Repaired))
-    end
-end
-
-local function repairTaskBoardLabels(self)
-    local started = nowMilliseconds()
-    local repaired = repairTaskBoardLabelsNow(self)
-    if taskBoardRepairBursts[self] ~= true then
-        taskBoardRepairBursts[self] = true
-        scheduleRepairAfter(self, 0.05, repairTaskBoardLabelsNow)
-        scheduleRepairAfter(self, 0.25, repairTaskBoardLabelsNow)
-        if not scheduleRepairAfter(self, 0.75, reportTaskBoardRepair) then
-            taskBoardRepairBursts[self] = nil
-            reportTaskBoardRepair(self)
-        end
-    end
-    local elapsed = nowMilliseconds() - started
-    if elapsed >= 8 then
-        runtimeMetrics.SlowTargetedRepairs = runtimeMetrics.SlowTargetedRepairs + 1
-        reportVerbose("slow targeted Task Board repair elapsed_ms="
-            .. string.format("%.2f", elapsed)
-            .. " labels=" .. tostring(repaired))
     end
     return repaired
 end
@@ -8651,53 +8942,21 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.Login.LoginServerItem",
         "LoginServerItem",
-        { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
+        { "OnRefresh", "Refresh", "InitUIView" },
         function(self)
+            -- translateTextWidget fits the server name to its slot (TASK-011).
             local view = self and (self.view or self.WidgetTree or self.userWidget or self)
-            local function adaptServerWidget(w)
-                if w == nil then return end
-                translateTextWidget(w)
-                pcall(function()
-                    if w.SetLetterSpacing ~= nil then w:SetLetterSpacing(0) end
-                    if w.LetterSpacing ~= nil then w.LetterSpacing = 0 end
-                    local font = w.GetFont and w:GetFont() or w.Font
-                    if font ~= nil then
-                        font.LetterSpacing = 0
-                        local text = nil
-                        if w.GetText ~= nil then text = w:GetText() end
-                        if (text == nil or text == "") and w.Text ~= nil then text = w.Text end
-                        local textLen = (type(text) == "string") and runtimeFixes.utf8Len(text) or 0
-                        local baseSize = runtimeFixes.getAdjustedFontSize(w, font.Size, "Server_Name_Text", false)
-                        if textLen > 14 then
-                            font.Size = math.min(baseSize, 16)
-                        elseif textLen > 10 then
-                            font.Size = math.min(baseSize, 17)
-                        elseif textLen > 6 then
-                            font.Size = math.min(baseSize, 18)
-                        else
-                            font.Size = math.min(baseSize, 19)
-                        end
-                        w.Font = font
-                        if w.SetFont ~= nil then w:SetFont(font) end
-                    end
-                    if w.SetAutoWrapText ~= nil then
-                        w:SetAutoWrapText(false)
-                    elseif w.AutoWrapText ~= nil then
-                        w.AutoWrapText = false
-                    end
-                    if w.SynchronizeProperties ~= nil then w:SynchronizeProperties() end
-                    if w.InvalidateLayoutAndVolatility ~= nil then w:InvalidateLayoutAndVolatility() end
-                end)
+            for _, name in ipairs({ "Server_Name_Text", "Server_Name_Text1" }) do
+                local widget = getNamedWidget(view, name) or (self and getNamedWidget(self, name))
+                if widget ~= nil then translateTextWidget(widget) end
             end
-            adaptServerWidget(getNamedWidget(view, "Server_Name_Text") or (self and getNamedWidget(self, "Server_Name_Text")))
-            adaptServerWidget(getNamedWidget(view, "Server_Name_Text1") or (self and getNamedWidget(self, "Server_Name_Text1")))
         end,
         true,
     },
     {
         "Gameplay.LogicSystem.Login.LoginServerSelect_Panel",
         "LoginServerSelect_Panel",
-        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI", "OnInit" },
+        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow" },
         function(self)
             local view = self and (self.view or self.WidgetTree or self.userWidget or self)
             local root = self and (self.userWidget or self.widget or self.WidgetTree)
@@ -8868,33 +9127,17 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.Task.New.Task_List_Item",
         "Task_List_Item",
-        { "OnRefresh", "Refresh", "SetData", "setData" },
+        { "OnRefresh", "Refresh" },
         repairTaskListItemLabels,
         true,
     },
     {
         "Gameplay.LogicSystem.Task.New.Task_Info",
         "Task_Info",
-        { "RefreshInfo", "OnRefresh", "Refresh", "InitUIView", "OnOpen", "OnShow", "UpdateUI", "SetData" },
+        { "RefreshInfo", "OnRefresh", "Refresh", "InitUIView", "OnOpen", "OnShow" },
         function(self)
             local function doRepair()
                 repairTaskInfoLabels(self)
-            end
-            doRepair()
-            scheduleRepairAfter(self, 0.05, doRepair)
-            scheduleRepairAfter(self, 0.20, doRepair)
-        end,
-        true,
-    },
-    {
-        "Gameplay.LogicSystem.Task.New.TaskBoardPanel",
-        "TaskBoardPanel",
-        { "OnOpen", "OnRefresh", "Refresh", "InitUIView", "OnShow", "UpdateUI", "OnInit" },
-        function(self)
-            local function doRepair()
-                local view = self and self.view
-                local root = self and (self.userWidget or self.widget or self.WidgetTree or (type(view) == "userdata" and view) or (type(self) == "userdata" and self))
-                translateViewTextWidgets(view, root)
             end
             doRepair()
             scheduleRepairAfter(self, 0.05, doRepair)
@@ -9067,7 +9310,7 @@ local exactWidgetRepairSpecs = {
         "Talent_Panel",
         {
             "InitUIView", "OnRefresh", "OnOpen", "OnShow", "Refresh",
-            "RefreshView", "refreshOneClickStatus", "refreshEnableStatus",
+            "refreshOneClickStatus", "refreshEnableStatus",
         },
         runtimeFixes.repairTalentLabels,
     },
@@ -9086,13 +9329,13 @@ local exactWidgetRepairSpecs = {
     {
         "Gameplay.LogicSystem.PlayerDetails.PlayerTotal_Panel",
         "PlayerTotal_Panel",
-        { "InitUIView", "OnRefresh", "OnOpen", "OnShow", "Refresh", "RefreshView", "UpdateUI" },
+        { "InitUIView", "OnRefresh", "OnOpen", "OnShow", "Refresh" },
         runtimeFixes.repairEmbeddedSkillHeaderLabels,
     },
     {
         "Gameplay.LogicSystem.Sealed_2.Sealed_Main_Panel",
         "Sealed_Main_Panel",
-        { "InitUIView", "OnRefresh", "OnOpen", "OnShow", "Refresh", "RefreshView", "UpdateUI" },
+        { "InitUIView", "OnRefresh", "OnOpen", "OnShow", "Refresh" },
         runtimeFixes.repairEmbeddedSkillHeaderLabels,
     },
     {
@@ -9782,12 +10025,12 @@ local extendedPanelRepairDelays = {
     GuildInside_Panel = { 0.25, 0.75 },
     LoginServerSelect_Panel = { 0.15, 0.50, 1.00 },
     MimeWhite_Panel = { 0.05, 0.20 },
-    NewbieGuide_MainPanel = { 0.25, 0.75, 1.50, 3.00 },
     Sealed_Fuse_Main_Panel = { 0.25, 0.75, 1.50, 3.00, 6.00, 10.00, 20.00 },
     Sealed_Fuse_Select_Panel = { 0.25, 0.75, 1.50 },
     Sequence_Panel = { 0.50, 1.50, 3.00, 6.00, 10.00, 20.00 },
-    Shops_Panel = { 0.25, 0.50, 1.00, 2.00 },
-    TaskBoardPanel = { 0.10, 0.35, 0.80 },
+    -- TASK-011: 0.50 / 1.00 here and all of TaskBoardPanel / NewbieGuide_MainPanel
+    -- changed no label in 8-9 sessions (26-36 runs each).
+    Shops_Panel = { 0.25, 2.00 },
 }
 
 -- Current-session telemetry showed that these panels translated useful text
@@ -9871,6 +10114,10 @@ function panelTextRepair:Repair(component, reason)
         end
         local rootWidget = current.userWidget or current.widget
         local discoveryContext = nil
+        -- Diagnostics (TASK-011): which component classes late passes still change.
+        local ownerPrev = d and (reason == "delayed" or tostring(reason):find("^extended")) and d.Enter(
+            "owner:" .. tostring(componentUid) .. "/" .. tostring(current.__cname or current.uid) .. ":" .. tostring(reason),
+            "owner")
         repaired = repaired + (translateViewTextWidgets(
             current.view,
             rootWidget,
@@ -9878,6 +10125,7 @@ function panelTextRepair:Repair(component, reason)
             current,
             visitedWidgets
         ) or 0)
+        if ownerPrev then d.Leave(ownerPrev) end
         if tostring(componentUid) == "GuildInside_Panel" then
             local branchPrev = d and d.Enter("branch:guild-event-preview", "branch")
             repaired = repaired + runtimeFixes.repairGuildEventPreviewTree(
@@ -9953,7 +10201,7 @@ function panelTextRepair:ProcessOnce(component, reason)
                 runtimeMetrics.NestedRefreshCoalesces + 1
             self:Queue(rootComponent, true)
         end
-        return 0
+        return self:RepairNestedEarly(component, rootComponent, reason)
     end
     local uid = component.uid or component.UID or component.__cname
     if uid ~= nil and targetedPanelRepairUids[tostring(uid)] then
@@ -9984,6 +10232,59 @@ function panelTextRepair:ProcessOnce(component, reason)
     self:Queue(component, repeatable)
     self:QueueExtended(component)
     return repaired
+end
+
+-- Early nested repair (TASK-011). List rows and sub-tabs fill in after their
+-- panel's Open and call the base Open / Refresh themselves; translating only
+-- their own tree right then removes the ~0.10 s of source text before the
+-- panel's delayed pass. Children translate on their own Open / Refresh. The
+-- delayed and extended passes stay as a safety net.
+-- absoluteru_dev.lua EarlyNested = false turns it off for comparison.
+do
+    local EARLY_NESTED_REPAIR = true
+    local devFlags = Loader.DevFlags
+    if type(devFlags) == "table" and devFlags.EarlyNested == false then
+        EARLY_NESTED_REPAIR = false
+    end
+    panelTextRepair.EarlyNested = EARLY_NESTED_REPAIR
+end
+
+function panelTextRepair:RepairNestedEarly(component, rootComponent, reason)
+    if not self.EarlyNested or not runtimeUIRepairEnabled() or component.isDestroyed then
+        return 0
+    end
+    local rootState = self.States[self:StateKey(rootComponent)]
+    if rootState == nil or rootState.Scanned ~= true then
+        return 0
+    end
+    local rootUid = tostring(rootComponent.uid or rootComponent.UID or rootComponent.__cname)
+    local name = tostring(component.__cname or component.uid or component.UID)
+    if component.__cpddEscMenuLocked or rootComponent.__cpddEscMenuLocked
+        or rootUid == "Menu_Panel" or rootUid == "MenuBtn_Item"
+        or name == "Menu_Panel" or name == "MenuBtn_Item"
+        or runtimeFixes.ClassHookedPanelUids[rootUid] or targetedPanelRepairUids[rootUid]
+        or rootUid:find("AutoChess", 1, true) or name:find("AutoChess", 1, true)
+    then
+        return 0
+    end
+    local started = nowMilliseconds()
+    local d = runtimeFixes.Diag
+    local diagPrev = d and d.Enter("nested:" .. rootUid .. "/" .. name .. ":" .. tostring(reason), "nested")
+    local labels = translateViewTextWidgets(
+        component.view,
+        component.userWidget or component.widget,
+        nil,
+        component
+    ) or 0
+    if d then d.Leave(diagPrev) end
+    local elapsed = nowMilliseconds() - started
+    runtimeMetrics.NestedEarlyRuns = runtimeMetrics.NestedEarlyRuns + 1
+    runtimeMetrics.NestedEarlyLabels = runtimeMetrics.NestedEarlyLabels + labels
+    runtimeMetrics.NestedEarlyMs = runtimeMetrics.NestedEarlyMs + elapsed
+    if elapsed > runtimeMetrics.NestedEarlyMsMax then
+        runtimeMetrics.NestedEarlyMsMax = elapsed
+    end
+    return labels
 end
 
 function panelTextRepair:Queue(component, repeatable)
@@ -10877,6 +11178,16 @@ Loader.On("after_main", function()
     if runtimeFixes.CyrillicFontLogLine ~= nil then
         report(runtimeFixes.CyrillicFontLogLine)
     end
+    -- TASK-011: prepass is probed on the first measured widget; "pending" is
+    -- followed by a "text fit prepass=" line once it is known.
+    local textFit = runtimeFixes.TextFit
+    local fitLine = "text fit mode=" .. tostring(textFit.Mode)
+    if textFit.Mode == "measure" then
+        local prepass = textFit.Prepass == true and "ok" or (textFit.Prepass == false and "missing" or "pending")
+        textFit.PrepassLinePending = textFit.Prepass == nil or nil
+        fitLine = fitLine .. " prepass=" .. prepass
+    end
+    report(fitLine .. " early_nested=" .. (panelTextRepair.EarlyNested and "on" or "off"))
     report("v" .. VERSION .. " active hooks_installed=" .. tostring(runtimeMetrics.HooksInstalled))
     end, 1500, "cpdd.runtime-fix.translation-layout")
 

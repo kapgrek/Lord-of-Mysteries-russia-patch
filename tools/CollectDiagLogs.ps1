@@ -275,7 +275,7 @@ foreach ($dir in $sourceDirs) {
             if ($line.Contains('[AbsruDiag]')) { $diagMarkers.Add($file.Name + ': ' + $line.Trim()) }
             if ($line.Contains('[CPDDRuntimeFix]')) {
                 $fixLines++
-                if ($line -match 'active hooks_installed=|cyrillic font mode=|menu button without short label') { $activeLines.Add($file.Name + ': ' + $line.Trim()) }
+                if ($line -match 'active hooks_installed=|cyrillic font mode=|text fit mode=|text fit prepass=|menu button without short label') { $activeLines.Add($file.Name + ': ' + $line.Trim()) }
                 if ($line -match '(?i)fail|error|unavailable|protected') { $fixProblems.Add($file.Name + ': ' + $line.Trim()) }
             }
         }
@@ -361,6 +361,8 @@ foreach ($line in ($fixProblems | Select-Object -First 80)) { [void]$sb.AppendLi
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('- [dead_hooks.md](dead_hooks.md), [hooks.csv](hooks.csv): статусы хуков')
 [void]$sb.AppendLine('- [overflow_top.md](overflow_top.md), [overflow.csv](overflow.csv): переполнение текста')
+[void]$sb.AppendLine('- [fit.md](fit.md), [fit.csv](fit.csv): подгонка размера текста замером (TASK-011), строки на сокращение')
+[void]$sb.AppendLine('- [late.md](late.md): какие компоненты меняют текст поздно (delayed / extended) и ранний перевод вложенных')
 [void]$sb.AppendLine('- [untranslated.md](untranslated.md), [untranslated.csv](untranslated.csv): непереведённое')
 [void]$sb.AppendLine('- [fonts.md](fonts.md): шрифты (этап 4)')
 [void]$sb.AppendLine('- [textures.md](textures.md), [textures.csv](textures.csv): текстуры (этап 8)')
@@ -432,7 +434,8 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('`NOT_LOADED (нет данных)` — спек есть в текущем Init.lua, но ни в одной сессии его нет.')
 [void]$sb.AppendLine('')
 foreach ($status in $deadStatuses) {
-    $group = @($hookRows | Where-Object { $_.status -eq $status })
+    # owner: / nested: are diagnostic scopes (TASK-011, late.md), not hooks.
+    $group = @($hookRows | Where-Object { $_.status -eq $status -and $_.kind -notin @('owner', 'nested') })
     if ($group.Count -eq 0) { continue }
     [void]$sb.AppendLine("## $status ($($group.Count))")
     [void]$sb.AppendLine('')
@@ -479,6 +482,10 @@ foreach ($row in (Read-Stream 'overflow')) {
     $need = @(Get-V $row 'need'); $have = @(Get-V $row 'have')
     $excess = [Math]::Max((Num $need[0]) - (Num $have[0]), (Num $need[1]) - (Num $have[1]))
     if ([string](Get-V $row 'wrap') -eq 'True') { $excess = (Num $need[1]) - (Num $have[1]) }
+    # pexcess (since v2.9.7): how far the text leaves its parent, local px.
+    $pexcess = Get-V $row 'pexcess'
+    if ($null -ne $pexcess) { $excess = [Math]::Max($excess, (Num $pexcess)) }
+    $needPre = @(Get-V $row 'need_pre')
     $prev = $overflowAgg[$key]
     if ($null -eq $prev -or $excess -gt $prev.excess -or (Num (Get-V $row 'count')) -gt $prev.count) {
         $panel = [string](Get-V $row 'panel')
@@ -488,6 +495,8 @@ foreach ($row in (Read-Stream 'overflow')) {
             excess = [Math]::Round([Math]::Max($excess, $(if ($prev) { $prev.excess } else { 0 })), 1)
             count = [int][Math]::Max((Num (Get-V $row 'count')), $(if ($prev) { $prev.count } else { 0 }))
             kind = Get-V $row 'kind'; need = ($need -join 'x'); have = ($have -join 'x')
+            need_pre = $(if ($needPre.Count -gt 0 -and $null -ne $needPre[0]) { $needPre -join 'x' } else { '' })
+            wrap_pre = Get-V $row 'wrap_pre'; pexcess = $pexcess; parent_grew = Get-V $row 'parent_grew'
             parent = Get-V $row 'parent'; parent_have = (@(Get-V $row 'parent_have') -join 'x')
             font = Get-V $row 'font'; typeface = Get-V $row 'typeface'; size = Get-V $row 'size'; size_pre = Get-V $row 'size_pre'
             ls = Get-V $row 'ls'; ls_pre = Get-V $row 'ls_pre'; ls_negative = Get-V $row 'ls_negative'; wrap = Get-V $row 'wrap'
@@ -500,23 +509,39 @@ Write-Csv (Join-Path $reportDir 'overflow.csv') $overflowRows
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('# Переполнение текста')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine("Сессии: $($selected -join ', '). Уникальных виджетов с переполнением: $($overflowRows.Count). ``excess`` = need − have (px в локальных единицах).")
+[void]$sb.AppendLine("Сессии: $($selected -join ', '). Уникальных виджетов с переполнением: $($overflowRows.Count). ``excess`` = need − have (px в локальных единицах), для parent — не меньше ``pexcess``.")
 [void]$sb.AppendLine('Нативные SetText игры без Open панели и без наших хуков сюда не попадают (docs/DIAGNOSTICS.md).')
+[void]$sb.AppendLine('`need_pre` — ширина×высота исходного текста до нашей замены, `wrap_pre` — авторский перенос, `pexcess` — на сколько текст выходит за родителя (флаг parent при > 2 px; ScrollBox не считается). Поля пишет v2.9.7+.')
 [void]$sb.AppendLine('')
 foreach ($group in ($overflowRows | Group-Object panel | Sort-Object { -(($_.Group | Measure-Object excess -Maximum).Maximum) })) {
     [void]$sb.AppendLine("## $(Cell $group.Name) ($($group.Count))")
     [void]$sb.AppendLine('')
-    [void]$sb.AppendLine('| widget | text | excess | need | have | kind | parent | size_pre→size | ls_pre→ls | count |')
-    [void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|')
+    [void]$sb.AppendLine('| widget | text | excess | need | need_pre | have | kind | parent | pexcess | wrap_pre | size_pre→size | ls_pre→ls | count |')
+    [void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|---|---|---|')
     foreach ($r in ($group.Group | Sort-Object { -$_.excess })) {
-        [void]$sb.AppendLine("| $(Cell $r.widget) | $(Cell $r.text) | $($r.excess) | $($r.need) | $($r.have) | $($r.kind) | $(Cell $r.parent) $($r.parent_have) | $($r.size_pre)→$($r.size) | $($r.ls_pre)→$($r.ls) | $($r.count) |")
+        [void]$sb.AppendLine("| $(Cell $r.widget) | $(Cell $r.text) | $($r.excess) | $($r.need) | $($r.need_pre) | $($r.have) | $($r.kind) | $(Cell $r.parent) $($r.parent_have) | $($r.pexcess) | $($r.wrap_pre) | $($r.size_pre)→$($r.size) | $($r.ls_pre)→$($r.ls) | $($r.count) |")
     }
     [void]$sb.AppendLine('')
 }
+$parentRows = @($overflowRows | Where-Object { $_.kind -in @('parent', 'both') -and $null -ne $_.parent_grew })
+$grew = @($parentRows | Where-Object { [string]$_.parent_grew -eq 'True' })
+$asOriginal = @($parentRows | Where-Object { [string]$_.parent_grew -ne 'True' })
+[void]$sb.AppendLine("## parent: текст шире, чем до перевода ($($grew.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('`need.X > need_pre.X + 2`: перевод длиннее исходника и вышел за родителя — кандидаты на подгонку или сокращение.')
+[void]$sb.AppendLine('')
+foreach ($r in ($grew | Sort-Object { -$_.excess })) { [void]$sb.AppendLine("- $(Cell $r.panel) / $(Cell $r.widget): «$(Cell $r.text)» need $($r.need), need_pre $($r.need_pre), pexcess $($r.pexcess), $(Cell $r.parent) $($r.parent_have)") }
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine("## parent: вынос как в оригинале ($($asOriginal.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Текст не шире исходного, а исходный тоже выходил за родителя (подписи HUD под иконками и т.п.). Ошибкой не считается.')
+[void]$sb.AppendLine('')
+foreach ($r in ($asOriginal | Sort-Object { -$_.excess })) { [void]$sb.AppendLine("- $(Cell $r.panel) / $(Cell $r.widget): «$(Cell $r.text)» need $($r.need), need_pre $($r.need_pre), pexcess $($r.pexcess)") }
+[void]$sb.AppendLine('')
 $negative = @($overflowRows | Where-Object { [string]$_.ls_negative -eq 'True' })
 [void]$sb.AppendLine("## С отрицательным LetterSpacing ($($negative.Count))")
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('LetterSpacing задаёт наш `translateTextWidget` (−120 заголовки / −60 остальное), а не игра.')
+[void]$sb.AppendLine('До v2.9.2 отрицательный LetterSpacing ставил наш `translateTextWidget` (−120 / −60); с v2.9.2 — только авторский (игры), с v2.9.7 у кириллицы max(0, авторский).')
 [void]$sb.AppendLine('')
 foreach ($r in $negative) { [void]$sb.AppendLine("- $(Cell $r.panel) / $(Cell $r.widget): «$(Cell $r.text)» ls $($r.ls_pre)→$($r.ls), excess $($r.excess)") }
 [void]$sb.AppendLine('')
@@ -527,6 +552,125 @@ foreach ($grp in ($resized | Group-Object { "$($_.size_pre)→$($_.size)" } | So
     [void]$sb.AppendLine("- $($grp.Name): $($grp.Count)")
 }
 Write-Text (Join-Path $reportDir 'overflow_top.md') $sb.ToString()
+
+# 6a. Подгонка текста (TASK-011) --------------------------------------------------------------------
+$fitAgg = [ordered]@{}
+foreach ($row in (Read-Stream 'fit')) {
+    $key = [string](Get-V $row 'kind') + '|' + [string](Get-V $row 'path') + '|' + [string](Get-V $row 'text')
+    $prev = $fitAgg[$key]
+    if ($null -eq $prev -or (Num (Get-V $row 'count')) -gt $prev.count) {
+        $fitAgg[$key] = [pscustomobject]@{
+            kind = Get-V $row 'kind'; panel = Get-V $row 'panel'; widget = Get-V $row 'widget'; text = Get-V $row 'text'
+            len = Get-V $row 'len'; size_pre = Get-V $row 'size_pre'; size = Get-V $row 'size'; min = Get-V $row 'min'
+            steps = Get-V $row 'steps'; slot = Get-V $row 'slot'; axis = Get-V $row 'axis'; budget = Get-V $row 'budget'
+            need0 = Get-V $row 'need0'; need = Get-V $row 'need'; need_pre = Get-V $row 'need_pre'; reason = Get-V $row 'reason'
+            count = [int](Num (Get-V $row 'count')); path = Get-V $row 'path'
+        }
+    }
+}
+$fitRows = @($fitAgg.Values | Sort-Object kind, panel, widget)
+Write-Csv (Join-Path $reportDir 'fit.csv') $fitRows
+$sb = New-Object System.Text.StringBuilder
+[void]$sb.AppendLine('# Подгонка текста замером (TASK-011)')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine("Сессии: $($selected -join ', '). Размер только уменьшается, минимум max(12, 0,6 × авторский), не больше 2 перезамеров. ``budget`` — доступная ширина (у переноса — высота), ``need0`` — текст при авторском размере, ``need`` — после подгонки.")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| sid | Measured | Shrunk | Failed | Deferred | NoEffect | TextFitMs | TextFitMsMax | NestedEarlyRuns | NestedEarlyLabels | NestedEarlyMsMax |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|---|---|')
+foreach ($sid in $selected) {
+    $m = Get-V $sessions[$sid].Session 'metrics'
+    if (-not $m -or $null -eq (Get-V $m 'TextFitMeasured')) { continue }
+    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6:N1} | {7:N1} | {8} | {9} | {10:N1} |' -f $sid,
+        (Get-V $m 'TextFitMeasured'), (Get-V $m 'TextFitShrunk'), (Get-V $m 'TextFitFailed'), (Get-V $m 'TextFitDeferred'),
+        (Get-V $m 'TextFitNoEffect'), (Num (Get-V $m 'TextFitMs')), (Num (Get-V $m 'TextFitMsMax')),
+        (Get-V $m 'NestedEarlyRuns'), (Get-V $m 'NestedEarlyLabels'), (Num (Get-V $m 'NestedEarlyMsMax'))))
+}
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Критерии проверки: `TextFitMsMax` ≤ 8 мс, `NestedEarlyMsMax` ≤ 8 мс. Режим `legacy` виден в C7.log (`text fit mode=`).')
+[void]$sb.AppendLine('')
+$failRows = @($fitRows | Where-Object { $_.kind -eq 'fail' })
+[void]$sb.AppendLine("## Не помещается даже на минимуме — сократить перевод ($($failRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Готовый список для TASK-012. `доля` = budget / need: какая часть текста помещается при минимальном размере (0,5 — перевод надо сократить вдвое).')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel | widget | text | size_pre→size | budget | need | доля | slot/axis | reason |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
+foreach ($r in ($failRows | Sort-Object panel, widget)) {
+    $ratio = $(if ((Num $r.need) -gt 0) { '{0:N2}' -f ((Num $r.budget) / (Num $r.need)) } else { '' })
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need) | $ratio | $($r.slot)/$($r.axis) | $($r.reason) |")
+}
+[void]$sb.AppendLine('')
+$noEffectRows = @($fitRows | Where-Object { $_.kind -eq 'noeffect' })
+[void]$sb.AppendLine("## SetFont без эффекта на замер ($($noEffectRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('После уменьшения размера `need` не уменьшился пропорционально (±10 %): список устарел (H-stale) или игра вернула авторский шрифт мимо свойства `Font` (H-reset). Вторая попытка не делается.')
+[void]$sb.AppendLine('')
+foreach ($r in ($noEffectRows | Sort-Object panel, widget)) { [void]$sb.AppendLine("- $(Cell $r.panel) / $(Cell $r.widget): «$(Cell $r.text)» $($r.size_pre)→$($r.size), need $($r.need0)→$($r.need), budget $($r.budget)") }
+[void]$sb.AppendLine('')
+$shrunkRows = @($fitRows | Where-Object { $_.kind -eq 'shrunk' })
+[void]$sb.AppendLine("## Подогнано ($($shrunkRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel | widget | text | size_pre→size | budget | need0→need | slot/axis | steps |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+foreach ($r in ($shrunkRows | Sort-Object panel, widget)) {
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need0)→$($r.need) | $($r.slot)/$($r.axis) | $($r.steps) |")
+}
+[void]$sb.AppendLine('')
+$richRows = @($overflowRows | Where-Object { [string]::IsNullOrEmpty([string]$_.font) -or [string]$_.widget -match 'RichText|RTB_' })
+[void]$sb.AppendLine("## RichText с переполнением ($($richRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Шрифт RichText мы не трогаем (fallback-magenta). Решение — сокращение перевода или отдельная правка.')
+[void]$sb.AppendLine('')
+foreach ($r in ($richRows | Sort-Object { -$_.excess })) { [void]$sb.AppendLine("- $(Cell $r.panel) / $(Cell $r.widget): «$(Cell $r.text)» need $($r.need), have $($r.have), excess $($r.excess)") }
+Write-Text (Join-Path $reportDir 'fit.md') $sb.ToString()
+
+# 6b. Поздний перевод (TASK-011) -------------------------------------------------------------------
+# owner:<root>/<class>:<reason> — scope внутри delayed / extended-проходов panelTextRepair:Repair;
+# nested:<root>/<class>:<reason> — ранний перевод вложенного компонента в его Open / Refresh.
+$lateAgg = [ordered]@{}
+foreach ($a in $hookAgg.Values) {
+    if ($a.id -notmatch '^(owner|nested):(.+?)/(.+):([^:]+)$') { continue }
+    $scope = $Matches[1]; $rootUid = $Matches[2]; $class = $Matches[3]; $reason = $Matches[4]
+    $key = $rootUid + '/' + $class
+    if (-not $lateAgg.Contains($key)) {
+        $lateAgg[$key] = [pscustomobject]@{ root = $rootUid; class = $class; delayed = 0; extended = 0; late_runs = 0
+            early = 0; early_runs = 0; early_ms_max = 0.0 }
+    }
+    $r = $lateAgg[$key]
+    if ($scope -eq 'owner') {
+        $r.late_runs += $a.calls
+        if ($reason -eq 'delayed') { $r.delayed += $a.text_changes } else { $r.extended += $a.text_changes }
+    } else {
+        $r.early += $a.text_changes; $r.early_runs += $a.calls
+        $r.early_ms_max = [Math]::Max($r.early_ms_max, $a.ms_max)
+    }
+}
+$lateRows = @($lateAgg.Values | Sort-Object { -($_.delayed + $_.extended) }, root, class)
+$sb = New-Object System.Text.StringBuilder
+[void]$sb.AppendLine('# Поздний перевод (TASK-011)')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine("Сессии: $($selected -join ', '). ``delayed`` / ``extended`` — сколько подписей класса изменили отложенные проходы панели (0,10 с и extended-*); ``early`` — ранний перевод вложенного компонента сразу после его Open / Refresh. Цель: у GodWay, Shops, Bag, DungeonSelect, ActivityMain, HUD delayed меняет на ≥ 80 % меньше, чем в TASK-011 (291 / 194 / 136 / 99 / 85 / 78).")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('## Отложенные проходы по панелям')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel:reason | runs | labels | text_changes |')
+[void]$sb.AppendLine('|---|---|---|---|')
+foreach ($p in ($panelAgg.Values | Where-Object { $_.id -match ':(delayed|extended-[\d\.]+)$' -and $_.labels -gt 0 } | Sort-Object { -$_.labels })) {
+    [void]$sb.AppendLine("| $(Cell $p.id) | $($p.runs) | $($p.labels) | $($p.text_changes) |")
+}
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('## По классам компонентов')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| root | class | delayed | extended | поздних проходов | early | early runs | early ms_max |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+foreach ($r in $lateRows) {
+    if ($r.delayed + $r.extended + $r.early -eq 0) { continue }
+    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7:N1} |' -f (Cell $r.root), (Cell $r.class), $r.delayed, $r.extended, $r.late_runs, $r.early, $r.early_runs, $r.early_ms_max))
+}
+$idleLate = @($lateRows | Where-Object { $_.delayed + $_.extended + $_.early -eq 0 }).Count
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine("Классов без изменений ни в одном проходе: $idleLate.")
+Write-Text (Join-Path $reportDir 'late.md') $sb.ToString()
 
 # 7. Непереведённое --------------------------------------------------------------------------------
 $abbrev = '^(HP|MP|SP|DPS|PvP|PVP|PvE|UID|ID|Lv|LV|VIP|UI|OK|CD|EXP|XP|NPC|AI|x|X)$'

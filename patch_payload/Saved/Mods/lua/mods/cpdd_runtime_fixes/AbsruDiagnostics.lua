@@ -139,6 +139,9 @@ local S = {
 }
 
 local fontPre = setmetatable({}, { __mode = "k" })
+-- widget -> { x, y, wrap }: desired size and AutoWrapText of the original text,
+-- read by Init.lua right before its first SetText (TASK-011).
+local sizePre = setmetatable({}, { __mode = "k" })
 local pathCache = setmetatable({}, { __mode = "k" })
 local ARRAY_MT = {}
 
@@ -897,6 +900,36 @@ function D.FontSnapshot(widget)
     return snap or nil
 end
 
+-- Init.lua TextFit seams (TASK-011): values it already measured, no calls here.
+function D.PreMeasure(widget, x, y, wrap)
+    if S.disabled or widget == nil or not cfg.Overflow then
+        return
+    end
+    pcall(function() sizePre[widget] = { x = tonumber(x), y = tonumber(y), wrap = wrap == true } end)
+end
+
+function D.NoteApi(name, ok)
+    noteApi(tostring(name), ok == true)
+end
+
+-- row: kind (shrunk | fail | noeffect), text, size_pre, size, min, steps, slot,
+-- axis, budget, need, need0, need_pre, reason. Encoded in the tick.
+function D.NoteFit(widget, row)
+    if S.disabled or widget == nil or not cfg.Overflow or type(row) ~= "table" then
+        return
+    end
+    local ok = pcall(function()
+        local item = { k = "fit", row = row, scope = scopeId(), panel = scopePanel() }
+        item.ref = keep(widget)
+        if not push(item) then
+            take(item.ref)
+        end
+    end)
+    if not ok then
+        noteError("item", "NoteFit")
+    end
+end
+
 function D.OnTextWidget(widget, text, name, pre)
     if S.disabled or widget == nil or type(text) ~= "string" or text == "" then
         return
@@ -998,8 +1031,12 @@ local UNTRANSLATED_ORDER = {
 }
 local OVERFLOW_ORDER = {
     "sid", "panel", "widget", "path", "text", "len", "font", "typeface", "size", "size_pre",
-    "ls", "ls_pre", "ls_negative", "wrap", "need", "have", "parent", "parent_have", "kind",
-    "count", "t",
+    "ls", "ls_pre", "ls_negative", "wrap", "wrap_pre", "need", "need_pre", "have", "parent",
+    "parent_have", "pexcess", "parent_grew", "kind", "count", "t",
+}
+local FIT_ORDER = {
+    "sid", "kind", "panel", "widget", "path", "text", "len", "size_pre", "size", "min", "steps",
+    "slot", "axis", "budget", "need", "need0", "need_pre", "reason", "scope", "count", "t",
 }
 local IMAGE_ORDER = { "sid", "panel", "widget", "resource", "class", "size", "count", "t" }
 
@@ -1063,7 +1100,10 @@ local function checkOverflow(widget, m, info)
     local selfOver = overX > 1 or overY > 1
     local excess = math.max(overX, overY)
 
-    local parentOver = false
+    -- Parent: pexcess = how far the text leaves the parent, in local px. Only
+    -- more than 2 px counts (1-1.5 px layout offsets were 114 of 208 false
+    -- "parent" rows in v2.9.6). Scroll boxes hold scrolling content: skipped.
+    local parentOver, pexcess = false, nil
     local parentClass, parentHave = nil, nil
     local parent = nil
     local parentOk = pcall(function() parent = widget:GetParent() end)
@@ -1085,18 +1125,30 @@ local function checkOverflow(widget, m, info)
             local needBottom = y1 + math.max(m.haveY, m.needY) * scaleY
             local px1, py1, px2, py2 = absoluteRect(library, parentGeometry, pw, ph)
             local over = math.max(px1 - x1, py1 - y1, needRight - px2, needBottom - py2)
-            if over > 1 then
-                parentOver = true
-                local scale = math.max(scaleX, scaleY, 0.0001)
-                excess = math.max(excess, over / scale)
+            local scale = math.max(scaleX, scaleY, 0.0001)
+            if over > 0 then
+                pexcess = over / scale
             end
         end)
         if parentHave ~= nil then
             parentClass = className(parent)
         end
     end
+    if parentHave == nil or (parentClass ~= nil and parentClass:find("ScrollBox", 1, true)) then
+        pexcess = nil
+    end
+    if pexcess ~= nil and pexcess > 2 then
+        parentOver = true
+        excess = math.max(excess, pexcess)
+    end
     if not selfOver and not parentOver then
         return
+    end
+    local sp = sizePre[widget]
+    local needPre = sp and sp.x and sp.x > 0 and array({ round1(sp.x), round1(sp.y) }) or nil
+    local parentGrew = nil
+    if needPre ~= nil then
+        parentGrew = m.needX > sp.x + 2
     end
 
     local key = "overflow|" .. tostring(info.path or info.name) .. "|" .. info.norm
@@ -1118,10 +1170,11 @@ local function checkOverflow(widget, m, info)
         text = clip(info.text, TEXT_MAX), len = utf8Len(info.text),
         font = post.path, typeface = post.typeface, size = post.size, size_pre = pre.size,
         ls = post.ls, ls_pre = pre.ls, ls_negative = (tonumber(post.ls) or 0) < 0,
-        wrap = wrap,
-        need = array({ round1(m.needX), round1(m.needY) }),
+        wrap = wrap, wrap_pre = sp and sp.wrap,
+        need = array({ round1(m.needX), round1(m.needY) }), need_pre = needPre,
         have = array({ round1(m.haveX), round1(m.haveY) }),
         parent = parentClass, parent_have = parentHave,
+        pexcess = pexcess and round1(pexcess) or nil, parent_grew = parentGrew,
         kind = selfOver and (parentOver and "both" or "self") or "parent",
         count = record.count, t = stamp("%H:%M:%S"),
     }, OVERFLOW_ORDER)
@@ -1285,6 +1338,29 @@ local function processItem(item)
         pcall(function() S.pendingText[widget] = nil end)
         S.counters.text_items = S.counters.text_items + 1
         processTextWidget(widget, item.text, item.name, item.pre, item.panel, item.scope, "hook")
+    elseif item.k == "fit" then
+        local widget = take(item.ref)
+        if widget == nil then
+            S.counters.gone = S.counters.gone + 1
+            return
+        end
+        local started = nowMs()
+        local row = item.row
+        local path = objectPath(widget)
+        local text = tostring(row.text or "")
+        local record, emit = dedup("fit|" .. tostring(row.kind) .. "|" .. tostring(path) .. "|" .. normalize(text))
+        if record ~= nil and emit then
+            appendRow("fit", {
+                sid = S.sid, kind = row.kind, panel = item.panel or panelFromPath(path),
+                widget = objectName(widget), path = path, text = clip(text, TEXT_MAX), len = utf8Len(text),
+                size_pre = row.size_pre, size = row.size, min = row.min and round1(row.min) or nil,
+                steps = row.steps, slot = row.slot, axis = row.axis,
+                budget = row.budget and round1(row.budget) or nil, need = row.need and round1(row.need) or nil,
+                need0 = row.need0 and round1(row.need0) or nil, need_pre = row.need_pre and round1(row.need_pre) or nil,
+                reason = row.reason, scope = item.scope, count = record.count, t = stamp("%H:%M:%S"),
+            }, FIT_ORDER)
+        end
+        track("encode", started)
     end
 end
 

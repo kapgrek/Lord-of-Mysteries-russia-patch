@@ -8,7 +8,7 @@
 
 | Задача / Компонент | Где искать (Файлы и папки) | Что там находится |
 | :--- | :--- | :--- |
-| **Логика перехвата UI, шрифты, хуки строк** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua` | Хуки `TranslateDatabaseString`, вычисление FNV-1a хешей, загрузка шардов, автоисправление верстки UMG |
+| **Логика перехвата UI, шрифты, хуки строк** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua` | Хуки `TranslateDatabaseString`, вычисление FNV-1a хешей, загрузка шардов, автоисправление верстки UMG; размер текста — подгонка замером `runtimeFixes.TextFit` (TASK-011) |
 | **Мод-лоадер / перехватчик `package.loaders`** | `patch_payload/Saved/Mods/bootstrap.lua` | Точка входа модов, подмена модулей (`external_searcher`), `merge_overlay`, флаг `DiagnosticsMode` |
 | **Нативный загрузчик (Bridge)** | `patch_payload/bridge/LaunchInstance.native-bridge.padded.oodle`<br>`patch_payload/Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua` | 4660-байтный патч-блок для `pakchunk0` и скрипт первичной инициализации |
 | **Исходные тексты для перевода** | `source/translation_batches/batch_*.json`<br>`source/translation_batches/BATCH_MANIFEST.md` | 28 батчей строк (`target_ru`, `source_cn`, `ref_en`), включая `batch_028_autochess.json`. **Source of Truth** для текстов |
