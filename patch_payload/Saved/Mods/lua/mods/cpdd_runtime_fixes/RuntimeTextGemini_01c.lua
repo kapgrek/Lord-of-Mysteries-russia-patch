@@ -241,4 +241,6 @@ return {
     ["This is too wrong! I actually wrote an article for a restaurant with serious hygiene problems! The boss must give me an answer! Wait, still not right... How could Cook make the kitchen like this? What did he go through..."] = "Это слишком неправильно! На самом деле я написал статью для ресторана с серьезными проблемами гигиены! Босс должен дать мне ответ! Подождите, все еще не так... Как Кук мог сделать кухню такой? Через что он прошел...",
     ["I just want him to look at reality properly, instead of staring at the stars all day."] = "Я просто хочу, чтобы он правильно смотрел на реальность, а не целыми днями смотрел на звезды.",
     ["Equip to gain the [Lawyer] bond"] = "Экипируйте, чтобы получить резонанс [Юрист]",
+    ["Zombie Monster - Head Effect"] = "Зомби-монстр - эффект головы",
+    ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Собирает предмет с указанным идентификатором шаблона, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанный контент диалога.",
 }

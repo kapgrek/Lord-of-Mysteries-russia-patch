@@ -246,4 +246,5 @@ return {
     ["Minimum trigger distance (≤0 means trigger if there is Displacement)"] = "Минимальное расстояние срабатывания (≤0 означает срабатывание при наличии смещения)",
     ["激活羁绊：20"] = "Активировано резонансов: 20",
     ["Immune to crowd control effects for the first <HighLight>20</> seconds of combat."] = "Невосприимчивость к эффектам контроля в первые <HighLight>20</> секунд боя.",
+    ["感觉有什么不对……"] = "Что-то кажется неправильным...",
 }

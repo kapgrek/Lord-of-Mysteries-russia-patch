@@ -244,4 +244,5 @@ return {
     ["Succeed in the check to help Polo resolve doubts"] = "Успешно пройдите проверку, чтобы помочь Поло разрешить сомнения.",
     ["Equip to gain the [Evernight Goddess] bond."] = "Экипируйте, чтобы получить резонанс [Богиня Вечной Ночи].",
     ["2 [Arcane] All allies recover Mana per second. [Arcane] recovers more."] = "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
+    ["The Roselle Theater Festival is... Heh, I understand. It's hard for her to come up with such an idea; she is worthy of being my daughter. It's a pity that my true body cannot leave this mausoleum, otherwise I would definitely go and join in the fun."] = "Театральный фестиваль Розель - это... Хех, я понимаю. Ей трудно прийти в голову такая идея; она достойна быть моей дочерью. Жаль, что мое настоящее тело не может покинуть этот мавзолей, иначе я бы обязательно пошел и присоединился к веселью.",
 }

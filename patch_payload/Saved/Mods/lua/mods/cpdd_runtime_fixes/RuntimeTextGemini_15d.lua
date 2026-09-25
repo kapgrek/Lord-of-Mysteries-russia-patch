@@ -244,4 +244,8 @@ return {
     ["2 Fake 2 Real"] = "2 фейк 2 настоящий",
     ["Activated Resonance: {0}"] = "Активировано резонансов: {0}",
     ["Frenzied Procurement"] = "Неистовая закупка",
+    ["城市暗面玩法悬赏值达到%d/6000。"] = "Достигните награды в размере %d/6000 в игровом процессе Темной стороны города.",
+    ["前往指定Trigger位置  传送到指定场景的坐标位置"] = "Перейдите в указанное местоположение триггера. Телепортируйтесь в координатную позицию указанной сцены.",
+    ["Roseline"] = "Розелин",
+    ["Precise timekeeping, for everyone to enjoy! \n Cleaning and oiling, only six pence! \n Mainspring replacement, high quality and low price! \n Pocket watch appraisal, cash purchase of old watches! \n\n Don't miss out, Iron Cross Street affordable clock shop is about to adjust prices! \n Hurry to lock in today's low price!"] = "Точное время доступно каждому!\nЧистка и смазка механизма — всего шесть пенсов!\nЗамена заводной пружины — высшее качество по низкой цене!\nОценка карманных часов, покупка старых часов за наличные!\n\nНе упустите возможность: мастерская доступных часов на улице Железного Креста скоро изменит цены!\nПоспешите зафиксировать сегодняшнюю низкую цену!",
 }

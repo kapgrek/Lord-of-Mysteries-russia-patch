@@ -257,4 +257,5 @@ return {
     ["Pick Up Tomato"] = "Возьмите помидор",
     ["Match Flicker Step 1"] = "Сопоставьте мерцание, шаг 1",
     ["Spirituality Guidance: Initial (Sequence 9)"] = "Духовное руководство: Начальное (Последовательность 9)",
+    ["Tessa"] = "Тесса",
 }

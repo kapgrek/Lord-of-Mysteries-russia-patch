@@ -273,4 +273,9 @@ return {
     ["Yahui"] = "Яхуи",
     ["This is because the power of the potion has overflowed, and you lack a way to control it."] = "Это потому, что сила зелья вышла за пределы, и у вас нет возможности ее контролировать.",
     ["3 Each unique 3-star piece: All allies +3% Attack and 5 Defense. Gain 1 random wild monster piece after each player combat."] = "3 Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты. Даёт 1 случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["Grant skill - Protective Shield"] = "Предоставление навыков - щит",
+    ["你为什么要杀死男爵?"] = "Зачем ты убил барона?",
+    ["Brianna"] = "Брианна",
+    ["像这种门，\n锁芯从来不换，\n撬开一次，\n就能打开第二次。"] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
+    ["Ronin"] = "Ронин",
 }

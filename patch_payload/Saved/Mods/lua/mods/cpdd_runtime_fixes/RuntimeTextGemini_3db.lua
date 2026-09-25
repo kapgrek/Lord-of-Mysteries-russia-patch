@@ -261,4 +261,7 @@ return {
     ["You have both made the criminals accept punishment and brought back Sealed Artifact 3-888, eliminating potential dangers."] = "Вы оба заставили преступников принять наказание и вернули Запечатанный Артефакт 3-888, устранив потенциальную опасность.",
     ["Activate Spirit Vision: Player sets Spirit Vision status."] = "Активировать Духовное Видение: Игрок устанавливает статус Духовного Видения.",
     ["Your pieces gain 200 Health<HighLight></> and 10% maximum Health<HighLight></>."] = "Ваши фигуры получают 200 ед. здоровья<HighLight></> и 10% к максимальному здоровью<HighLight></>.",
+    ["Dahlia"] = "Далия",
+    ["如同死者聆听天使的号角，你终于准备好面对真实的自己。这是审判的时刻，也是重生的开始。"] = "Словно мертвец, внимающий трубе ангела, вы наконец готовы предстать перед своим истинным «я». Это час суда и начало перерождения.",
+    ["Darwin"] = "Дарвин",
 }

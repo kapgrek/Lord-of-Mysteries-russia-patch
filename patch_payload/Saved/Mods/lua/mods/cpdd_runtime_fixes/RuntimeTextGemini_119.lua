@@ -249,4 +249,7 @@ return {
     ["Audrey Giant Dragon Form"] = "Одри в форме гигантского дракона",
     ["Knowledge has exposed her secrets; she is a vessel of pain, a reflection of despair, both the perpetrator and the victim..."] = "Знания раскрыли ее тайны; она — сосуд боли, отражение отчаяния, как преступника, так и жертвы...",
     ["Pat the pumpkin"] = "Похлопать тыкву",
+    ["Carriage repair buff"] = "Бафф «Ремонт кареты»",
+    ["Ziar"] = "Зиар",
+    ["Flowchart path:"] = "Путь к блок-схеме:",
 }

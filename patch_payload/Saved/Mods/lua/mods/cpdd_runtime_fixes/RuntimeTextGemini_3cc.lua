@@ -256,4 +256,5 @@ return {
     ["Team squad exchange successful."] = "Обмен составами команд прошел успешно.",
     ["Did something fall off the Golden Wolf?"] = "Что-то упало с Золотого Волка?",
     ["Secrets Suppliant"] = "Молящийся о Секретах",
+    ["Passive_Skill resource increase"] = "Увеличение ресурса Passive_Skill",
 }

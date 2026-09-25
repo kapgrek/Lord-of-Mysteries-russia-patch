@@ -271,4 +271,6 @@ return {
     ["Mu Chen"] = "Му Чен",
     ["You may use this voucher to deduct 50% of the unit price when settling <Highlight>direct-sale cosmetic items in the Mall</>. A maximum of 1 voucher can be used per item. Valid for 30 days after acquisition."] = "С помощью этого купона можно снизить на 50% цену <Highlight>товаров внешнего вида прямой продажи в магазине</>. На один товар можно применить не более 1 купона. Срок действия — 30 дней с момента получения.",
     ["AutoChess Tips – Distance"] = "Подсказка AutoChess – Дистанция",
+    ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Перейти в указанную позицию Trigger: игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
+    ["Yareli"] = "Ярели",
 }

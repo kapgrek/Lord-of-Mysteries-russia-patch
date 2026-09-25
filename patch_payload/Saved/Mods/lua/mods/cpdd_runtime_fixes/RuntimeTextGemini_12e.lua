@@ -263,4 +263,6 @@ return {
     ["Yes, that was the gift that allowed me to see Jevon again... He will be able to stay with me again, very soon..."] = "Да, именно этот дар позволил мне снова увидеть Джевона... Он сможет снова остаться со мной, очень скоро...",
     ["Immediately gain 10 Experience Points<HighLight></>. Upon reaching level 9<HighLight></>, gain 10 Gold Coins<HighLight></> and 8 free refreshes<HighLight></>."] = "Немедленно даёт 10 очков опыта<HighLight></>. При достижении 9-го уровня<HighLight></> даёт 10 золотых монет<HighLight></> и 8 бесплатных обновлений<HighLight></>.",
     ["席位属性×<HighLight>180%</>"] = "Характеристики места ×<HighLight>180%</>",
+    ["铁路大亨变幻远征难度获得%d/10次【铁路大亨】评价。"] = "Получите оценку 【Железнодорожный магнат】 %d/10 раз на сложности «Изменчивая экспедиция».",
+    ["是时候拥有属于自己的工坊了——亲手制造的货物，会让这趟旅程走得更远。"] = "Пришло время обзавестись собственной мастерской — изделия, сделанные вручную, позволят продолжить это путешествие.",
 }

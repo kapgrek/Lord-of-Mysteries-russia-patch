@@ -288,4 +288,7 @@ return {
     ["1. Target 3 targets and release rectangular AOE"] = "1. Выбрать 3 цели и применить прямоугольное AOE",
     ["Air Wall - Do not allow entry to the boxing ring"] = "Воздушная стена – не разрешать вход на боксерский ринг.",
     ["I saw a pair of slender, fair hands, which seem to belong to a lady."] = "Я увидел пару тонких, светлых рук, которые, кажется, принадлежали даме.",
+    ["Brantley"] = "Брантли",
+    ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
+    ["与Npc进行对话  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет.",
 }

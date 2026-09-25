@@ -251,4 +251,7 @@ return {
     ["Wind Field General Interaction Object - Go to Dragon Bone"] = "Объект общего взаимодействия с полем ветра — перейдите к кости дракона.",
     ["Cancel publish"] = "Отменить публикацию",
     ["Walk around with Albert"] = "Прогуляйтесь с Альбертом",
+    ["Allen"] = "Аллен",
+    ["The teacher is dead, and the workshop has closed down.\n	I can't make candles well, and I can't save the teacher.\n	The work at the sugar factory doesn't suit me; sugar is sweet, but the sugar factory is bitter.\n	I can't do anything well, and I can't save anyone.\n	\"Candle of Eternal Darkness, Indestructible Body\", <Letter_RedBig>please take away this useless person.</>"] = "　 умер, а мастерская разорилась.\n　 меня не получается делать свечи, и учителя я спасти не смог.\n　 на сахарном заводе мне не по плечу: сахар сладок, но от завода веет горечью.\n　 меня ничего не выходит, и спасти я никого не в силах.\n　　«Светоч вечной тьмы, нерушимая плоть», <Letter_RedBig>заберите же меня, никчемного человека.</>",
+    ["玩家传送到位面"] = "Игрок телепортируется в самолет",
 }

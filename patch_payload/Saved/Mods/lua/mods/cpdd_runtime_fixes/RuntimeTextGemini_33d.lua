@@ -271,4 +271,7 @@ return {
     ["By praising the great Eternal Blazing Sun, you gain +1 Charisma.\nDuring this period, surrounding Beyonders can obtain a temporary skill to join in the Praise the Sun. Beyonders who join in the Praise the Sun can also gain +1 Charisma."] = "Восхваляя великое Вечное Палящее Солнце, повышает собственное Обаяние на 1.\nВ это время окружающие Потусторонние могут получить временный навык, чтобы присоединиться к восхвалению Солнца; присоединившиеся Потусторонние также получают +1 к Обаянию.",
     ["Mysticism Page"] = "Страница мистицизма",
     ["每完成<HighLight>2</>次普攻或施放<HighLight>1</>次技能后，攻速和攻击均提高<HighLight>8%</>，持续至战斗结束，最多叠加<HighLight>3</>层。"] = "После каждых <HighLight>2</> базовых атак или <HighLight>1</> применения навыка скорость атаки и атака повышаются на <HighLight>8%</> до конца боя, максимум <HighLight>3</> уровня.",
+    ["Winona"] = "Вайнона·",
+    ["Iron Cross Street Affordable Clock and Watch Shop\n\n\"Time belongs to everyone\"\n<Mark id=\"#159_R\">Lowest price</> in all of Tingen! Cash transactions, interest on credit will be calculated separately.\nNo returns or exchanges after repair, opening the cover means accepting the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
+    ["你们要<CS_Yellow>永远</>在一起哦"] = "Вы должны <CS_Yellow>навсегда</> быть вместе.",
 }

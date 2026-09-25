@@ -262,4 +262,6 @@ return {
     ["Bethany "] = "Бетани",
     ["Reading puzzle 3/20, enter the correct option area within the time limit!"] = "Читая головоломку 3/20, введите правильную область выбора в течение отведенного времени!",
     ["The <h> seeker of help </> inside the wall"] = "<h> искатель помощи </> внутри стены",
+    ["询问济贫院院长"] = "Спросите о директоре богадельни",
+    ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

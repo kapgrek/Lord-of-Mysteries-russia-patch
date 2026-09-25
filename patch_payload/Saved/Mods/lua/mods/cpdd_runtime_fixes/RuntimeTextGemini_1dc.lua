@@ -270,4 +270,6 @@ return {
     ["【@Ling Sen】Talk about this too"] = "【@Линг Сен】Поговори об этом тоже",
     ["A newly opened shop, and they haven't made any preparations at all..."] = "Недавно открывшийся магазин, а они вообще ничего не подготовили...",
     ["Lizt"] = "Лист",
+    ["Jani"] = "Яни",
+    ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }

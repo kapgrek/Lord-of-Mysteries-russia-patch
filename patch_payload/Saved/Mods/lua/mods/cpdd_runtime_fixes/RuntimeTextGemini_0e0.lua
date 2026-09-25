@@ -277,4 +277,5 @@ return {
     ["Return to the old couple"] = "Вернуться к старой паре",
     ["Cannot be manually configured via Action; this Action is a template Action (similar to DoFightAction) automatically generated when the program processes the post-swing configuration in the skill table."] = "Невозможно настроить вручную с помощью действия; это действие представляет собой шаблонное действие (похожее на DoFightAction), автоматически создаваемое, когда программа обрабатывает конфигурацию после качания в таблице навыков.",
     ["Gold Pound Drizzle"] = "Дождь из золотых фунтов",
+    ["监听指定场景加载完毕  玩家播放情绪音乐（仅自己可听）"] = "Ожидайте завершения загрузки указанной сцены. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

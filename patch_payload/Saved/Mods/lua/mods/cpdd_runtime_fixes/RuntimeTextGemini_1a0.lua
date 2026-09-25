@@ -254,4 +254,7 @@ return {
     ["Old Neil's House"] = "Дом старого Нила",
     ["Spiritual Elevation: Damage Increase +12%."] = "Духовное возвышение: увеличение урона +12%.",
     ["[Spellcasting]额外获得15%攻击力，且每次施法：自身获得1%攻击力。"] = "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
+    ["Good luck, Officer."] = "Удачи, офицер.",
+    ["击败指定InstanceID的怪物  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Победить монстра с указанным InstanceID; игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
+    ["Dragon's roar is coming.\nI will not fear heights, fear fire, or retreat. I will not cling to a warm bed, or covet comfort, or bow to horror.\nThis mediocre life of mine is destined to be glorious.\nI will plant the flag at the highest place.\nI am the spear piercing the dragon's heart, the shield in the dragon's fire, the horn in the storm, the light in the darkness.\nOffer my life and heart for dragon hunting!\n\nDragon Hunter: Kevin Stock   Ray Bieber"] = "Приближается драконий рёв.\nЯ не убоюсь высоты, не устрашусь пламени, не отступлю назад. Я не буду нежиться в тёплой постели, не прельщусь покоем, не склонюсь перед страхом.\nМоя заурядная жизнь обречена стать ослепительно яркой.\nЯ водружу знамя на высочайшей вершине.\nЯ — копьё, разящее сердце дракона, несокрушимый щит в драконьем пламени, горн среди бури, луч света во тьме.\nОтдадим жизнь и сердце охоте на драконов!\n\nОхотники на драконов: Кевин Сток, Рэй Бибер",
 }

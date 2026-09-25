@@ -1,0 +1,1976 @@
+[
+  {
+    "id": "131669",
+    "source_cn": "已激活共鸣：<HighLight>%d</>",
+    "ref_en": "Activated Resonance: <HighLight>%d</>",
+    "target_ru": "Активировано резонансов: <HighLight>%d</>"
+  },
+  {
+    "id": "131670",
+    "source_cn": "每个不同的<HighLight>3</>星棋子：全体+<HighLight>3%</>攻击和<HighLight>5</>防御属性。",
+    "ref_en": "Each unique <HighLight>3</>-star piece: All allies +<HighLight>3%</> Attack and <HighLight>5</> Defense.",
+    "target_ru": "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты."
+  },
+  {
+    "id": "131671",
+    "source_cn": "每个不同的<HighLight>3</>星棋子：全体+<HighLight>3%</>攻击和<HighLight>5</>防御属性。每场玩家战斗后获得<HighLight>1</>个随机荒野怪物棋子。",
+    "ref_en": "Each unique <HighLight>3</>-star piece: All allies +<HighLight>3%</> Attack and <HighLight>5</> Defense. Gain <HighLight>1</> random wild monster piece after each player combat.",
+    "target_ru": "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты. Даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком."
+  },
+  {
+    "id": "131672",
+    "source_cn": "获得<HighLight>8金币</>和<HighLight>1经验</>。",
+    "ref_en": "Gain <HighLight> 8 Gold Coins </> and <HighLight> 1 Experience </>.",
+    "target_ru": "Получите <HighLight>8 золотых монет</> и <HighLight>1 опыт</>."
+  },
+  {
+    "id": "131673",
+    "source_cn": "获得<HighLight>12金币</>和<HighLight>3经验</>。",
+    "ref_en": "Gain <HighLight> 12 Gold Coins </> and <HighLight> 3 Experience </>.",
+    "target_ru": "Получите <HighLight>12 золотых монет</> и <HighLight>3 опыта</>."
+  },
+  {
+    "id": "131674",
+    "source_cn": "战斗开始<HighLight>12秒</>后，己方棋子获得<HighLight>35%伤害加深</>。",
+    "ref_en": "12 seconds<HighLight> after the battle starts</>, your pieces gain 35% Damage Deepening<HighLight></>.",
+    "target_ru": "Через <HighLight>12 сек.</> после начала боя ваши фигуры получают <HighLight>35% к увеличению урона</>."
+  },
+  {
+    "id": "131675",
+    "source_cn": "Quit Game",
+    "ref_en": "Quit Game",
+    "target_ru": "Выйти из игры"
+  },
+  {
+    "id": "131676",
+    "source_cn": "Slow Foot",
+    "ref_en": "Slow Foot",
+    "target_ru": "Медленная нога"
+  },
+  {
+    "id": "131677",
+    "source_cn": "死亡庆典",
+    "ref_en": "Celebration of Death",
+    "target_ru": "Празднование смерти"
+  },
+  {
+    "id": "131678",
+    "source_cn": "格挡增加<Yellow>*d</>。",
+    "ref_en": "Block increased by <Yellow>*d</>.",
+    "target_ru": "Блок увеличен на <Yellow>*d</>."
+  },
+  {
+    "id": "131679",
+    "source_cn": "额外造成20%攻击伤害，每1格距离该伤害提升10%。",
+    "ref_en": "Deal an additional 20% Attack damage, with this damage increasing by 10% for every 1 tile of distance.",
+    "target_ru": "Дополнительно наносит 20% урона от атаки; за каждую 1 клетку дистанции урон увеличивается на 10%."
+  },
+  {
+    "id": "131680",
+    "source_cn": "额外造成30%攻击伤害，每1格距离该伤害提升10%。",
+    "ref_en": "Deal an additional 30% Attack damage, with this damage increasing by 10% for every 1 tile of distance.",
+    "target_ru": "Дополнительно наносит 30% урона от атаки; за каждую 1 клетку дистанции урон увеличивается на 10%."
+  },
+  {
+    "id": "131681",
+    "source_cn": "额外造成40%攻击伤害，每1格距离该伤害提升10%。",
+    "ref_en": "Deals an additional 40% Attack damage, with this damage increased by 10% for every 1 tile of distance.",
+    "target_ru": "Дополнительно наносит 40% урона от атаки; за каждую 1 клетку дистанции урон увеличивается на 10%."
+  },
+  {
+    "id": "131682",
+    "source_cn": "默认False",
+    "ref_en": "Default False",
+    "target_ru": "По умолчанию ложь"
+  },
+  {
+    "id": "131683",
+    "source_cn": "(This woman is really... No, why am I starting to look forward to what happens next?)",
+    "ref_en": "(This woman is really... No, why am I starting to look forward to what happens next?)",
+    "target_ru": "(Эта женщина действительно... нет, почему я начинаю с нетерпением ждать того, что будет дальше?)"
+  },
+  {
+    "id": "131684",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Piercing increased by <Mark>120</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activ",
+    "target_ru": "<CostRed>{1,2,(Срок действия клейма истёк)}</>Прокол увеличен на <Mark>120</>, крит. шанс уменьшен на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вейзель.\n<Mark>Добродетель</>: Оружие <Mark>Земля знаний</> дополнительно увеличивает бонус к атаке в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном комплекте <Mark>Завет железа и крови</>."
+  },
+  {
+    "id": "131685",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>110</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>110</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is acti",
+    "target_ru": "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>110</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131686",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>180</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>180</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. Upon entering combat, for every squad member possessing the <Mark>Virtue</> of the Weil Family, Attack is additionally increased by <Mark>10</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена <Mark>180</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131687",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>130</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>130</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is acti",
+    "target_ru": "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>130</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131688",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>80</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Crit rate increased by <Mark>80</>. After entering combat, Crit rate is additionally increased by <Mark>10</> every <Mark>5</> seconds, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Шанс крит. удара повышается на <Mark>80</>. После вступления в бой шанс крит. удара дополнительно повышается: каждые <Mark>5</> сек. шанс крит. удара увеличивается на <Mark>10</>, максимум дополнительно до <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+  },
+  {
+    "id": "131689",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>150</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>150</>. При атаке специализация монстра <Mark>50</> будет увеличена на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131690",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>100</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Crit rate increased by <Mark>100</>. After entering combat, Crit rate is additionally increased by <Mark>10</> every <Mark>5</> seconds, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия клейма истек)}</>Критическая атака увеличена на <Mark>100</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131691",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131692",
+    "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>230</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,3,（烙印已失效）}</>Attack increased by <Mark>230</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. \nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Covenant of Iron and Blood<",
+    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>230</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. \nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+  },
+  {
+    "id": "131693",
+    "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>260</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,3,（烙印已失效）}</>Attack increased by <Mark>260</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. <Mark>{1,4,（已净化）}</>\nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Ma",
+    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>260</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+  },
+  {
+    "id": "131694",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>90</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Piercing increased by <Mark>90</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(срок годности марки истек)}</>Прокол увеличился <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131695",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. Standing still in combat for <Mark>5</> seconds decreases Monster Specialization by <Mark>25</> for <Mark>5</> seconds; after a Dodge, Monster Specialization is increased by <Mark>25</> for <Mark>15</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После того, как монстр стоит на месте во время боя, специализация монстра будет снижена на <Mark>25</> на <Mark>25</> секунд, длительностью <Mark>5</> секунд. После уклонения специализация монстра увеличивается на <Mark>25</> и длится <Mark>15</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131696",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>100</>. If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+  },
+  {
+    "id": "131697",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>释放解控技能后，获得<Mark>50</>点技能抵挡，持续<Mark>10</>秒，每<Mark>30</>秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>After releasing a Cleanse Skill, gain <Mark>50</> Skill Block for <Mark>10</> seconds, with a maximum trigger frequency of once every <Mark>30</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>После высвобождения навыка освобождения контроля получите <Mark>50</> очков сопротивления навыку, которое длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+  },
+  {
+    "id": "131698",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>80</>。受击时，有一定概率获得<Mark>60</>点防御，持续<Mark>5</>秒，每<Mark>10</>秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain <Mark>60</> Defense for <Mark>5</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(срок действия бренда истек)}</>защита от прорыва увеличена<Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+  },
+  {
+    "id": "131699",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>造成伤害后，获得<Mark>90</>点暴击、<Mark>90</>点抗暴击，持续3秒，每5秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+  },
+  {
+    "id": "131700",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>200</>。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>200</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+  },
+  {
+    "id": "131701",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>受到控制后，获得<Mark>30</>点控制闪避、<Mark>50</>点控制抵挡，持续<Mark>3</>秒，每<Mark>10</>秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>After being controlled, gain <Mark>30</> Control Dodge and <Mark>50</> Control Resistance for <Mark>3</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>После получения контроля дает <Mark>30</> очков уклонения от контроля и <Mark>50</> очков сопротивления контролю на <Mark>3</> сек., срабатывает не чаще одного раза в <Mark>10</> сек.\nНе действует при активации комплекта <Mark>«Отголоски духа и разума»</>."
+  },
+  {
+    "id": "131702",
+    "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>100</>，途径专防提高<Mark>100</>。\n激活套装<Mark>灵与知回响</>时不生效。",
+    "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Pathway Specialization increased by <Mark>100</>, Pathway Special Defense increased by <Mark>100</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</> Фокус пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+  },
+  {
+    "id": "131703",
+    "source_cn": "在黑夜女神的见证下，一场神圣的赠予仪式将在教会广场举行。{{player.name}}赠予{{targetPlayer.name}}一份珍贵的礼物，欢迎共同见证。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[前往见证]</>",
+    "ref_en": "Under the witness of the Evernight Goddess, a sacred gifting ceremony will be held at the church square. {{player.name}} is gifting {{targetPlayer.name}} a precious present; you are welcome to witness it together. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>",
+    "target_ru": "Под свидетелем Богини Вечной Ночи на Церковной площади пройдет священная церемония вручения даров. {{player.name}} преподносит {{targetPlayer.name}} ценный подарок; каждый может стать свидетелем этого. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>"
+  },
+  {
+    "id": "131704",
+    "source_cn": "在黑夜女神的见证下，{{player.name}}赠予{{targetPlayer.name}}一份珍贵的礼物。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[前往见证]</>",
+    "ref_en": "Under the witness of the Evernight Goddess, {{player.name}} is gifting {{targetPlayer.name}} a precious present. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>",
+    "target_ru": "По свидетельству Богини Вечной Ночи {{player.name}} преподносит {{targetPlayer.name}} драгоценный подарок. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>"
+  },
+  {
+    "id": "131705",
+    "source_cn": "Both sides",
+    "ref_en": "Both sides",
+    "target_ru": "Обе стороны"
+  },
+  {
+    "id": "131706",
+    "source_cn": "Inner cape",
+    "ref_en": "Inner cape",
+    "target_ru": "Внутренний мыс"
+  },
+  {
+    "id": "131707",
+    "source_cn": "Skirt hem",
+    "ref_en": "Skirt hem",
+    "target_ru": "Юбка Подол"
+  },
+  {
+    "id": "131708",
+    "source_cn": "<DecH>工艺：</>黑红轻甲・锐刺环饰・纷争猎袍\n权欲汇于时代激流，野心点燃社会暗面。行于欲望与黑暗之间，你是追猎腐朽的捕手，也是搅弄风云的利剑。",
+    "ref_en": "<DecH> Craft: </> Black-Red Light Armor - Sharp Thorn Ring - Strife Hunter Robe \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds.",
+    "target_ru": "<DecH>Мастерство:</> чёрно-красный лёгкий доспех, шипастый браслет, охотничье одеяние раздора\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы."
+  },
+  {
+    "id": "131709",
+    "source_cn": "<DecH>工艺：</>锐刺环饰\n权欲汇于时代激流，野心点燃社会暗面。行于欲望与黑暗之间，你是追猎腐朽的捕手，也是搅弄风云的利剑。",
+    "ref_en": "<DecH> Craft: </> Sharp Thorn Ring \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds.",
+    "target_ru": "<DecH>Мастерство:</> шипастый браслет\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы."
+  },
+  {
+    "id": "131710",
+    "source_cn": "<Assistant_Title1>【不灭之握】</>\n<Assistant_Title2>描述：</>神眷池饰品\n<Assistant_Title2>使用：</>使用后获得不灭之握，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>1</>张神眷牌兑换",
+    "ref_en": "<Assistant_Title1>【Undying Grasp】</>\n<Assistant_Title2>Description: </>God-Favored Pool Accessory\n<Assistant_Title2>Usage: </>Use to obtain the Undying Grasp; click <Assistant_System>Cosmetics - Change Outfit</> to view and equip.\n<Assistant_Title2>Acquisition: </>Redeem using <Assistant_System>Goddess's Gift Shop</> <Assistant_Red>1</> God-Favored Card",
+    "target_ru": "<Assistant_Title1>【Хватка бессмертия】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Хватку бессмертия». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить её.\n<Assistant_Title2>Получение: </>обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>"
+  },
+  {
+    "id": "131711",
+    "source_cn": "<Assistant_Title1>【午夜焦点】</>\n<Assistant_Title2>描述：</>神眷池饰品\n<Assistant_Title2>使用：</>使用后获得午夜焦点，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>1</>张神眷牌兑换",
+    "ref_en": "<Assistant_Title1>【Midnight Focus】</>\n<Assistant_Title2>Description: </>God-Favored Pool Accessory\n<Assistant_Title2>Usage: </>Use to obtain Midnight Focus; click <Assistant_System>Cosmetics - Change Outfit</> to view and equip.\n<Assistant_Title2>Acquisition: </>Redeem using <Assistant_System>Goddess's Gift Shop</> <Assistant_Red>1</> God-Favored Card",
+    "target_ru": "<Assistant_Title1>【Полуночный фокус】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Полуночный фокус». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить его.\n<Assistant_Title2>Получение: </>обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>"
+  },
+  {
+    "id": "131712",
+    "source_cn": "Select character",
+    "ref_en": "Select character",
+    "target_ru": "Выберите персонажа"
+  },
+  {
+    "id": "131713",
+    "source_cn": "一簇粗硬的金色毛发，根部残留着泥土与西尔维娅的生命之力。",
+    "ref_en": "A cluster of coarse, stiff golden hair, with soil and Sylvia's life force remaining at the roots.",
+    "target_ru": "Пучок грубых золотистых волос, у корней которых осталась почва и жизненная сила Сильвии."
+  },
+  {
+    "id": "131714",
+    "source_cn": "<M_Default>亲爱的非凡者：</>\n  本轮赛区战区分配已结束，可前往<HyperLink stylename=\"M_Link\" u=\"jump=1302324\">【战略服】</><M_Default>界面查看。</>",
+    "ref_en": "<M_Default> Dear Beyonder: </>\n The theater/war zone allocation for this round has ended. You can go to the <HyperLink stylename=\"M_Link\" u=\"jump=1302324\"> [Strategic Server] </> <M_Default> interface to view it. </>",
+    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\nРаспределение по зонам боевых действий в этом раунде завершено. Вы можете ознакомиться с результатами в меню <HyperLink stylename=\"M_Link\" u=\"jump=1302324\">【Стратегический сервер】</><M_Default>.</>"
+  },
+  {
+    "id": "131715",
+    "source_cn": "<M_Default>尊敬的非凡者：</>\n  <M_Default>本场四方联赛已落下帷幕，本俱乐部获得了%s点战略服预选积分。感谢各位成员的并肩奋战，愿我们继续携手前行，在接下来的征程中再创佳绩！</>\n  <M_Default>可前往</><HyperLink stylename=\"M_Link\" u=\"jump=1302324\">【战略服】</><M_Default>界面查看。</>",
+    "ref_en": "<M_Default> Respected Beyonder: </>\n <M_Default> This Four-Way League has come to an end, and this club has obtained %s strategic server preliminary points. Thank you all for fighting side by side. May we continue to move forward together and achieve even greater results in the upcoming journey! </> \n <M_Default> You can go to the </> <HyperLink stylename=\"M_Link\" u=\"jump=1302324\"> [Strategic Serv",
+    "target_ru": "<M_Default> Дорогой Чрезвычайный: </>\n<M_Default> Эта четырехсторонняя лига подошла к концу, и наш клуб получил %s стратегических очков предварительного выбора сервера. Спасибо всем участникам за то, что сражаетесь плечом к плечу. Надеюсь, мы продолжим двигаться вперед рука об руку и добьемся еще больших успехов на предстоящем пути! </>\n<M_Default> можно просмотреть в интерфейсе </><HyperLink stylename=\"M_Link\" u=\"jump=1302324\">【Стратегического сервера】</><M_Default>. </>"
+  },
+  {
+    "id": "131716",
+    "source_cn": "展开心灵灯塔持续4秒，周身8米范围内的至多6名友方成员免疫净化(优先小队成员)。",
+    "ref_en": "Deploys a Mental Lighthouse for 4 seconds, granting up to 6 friendly members within 8 meters immunity to Purification (prioritizing squad members).",
+    "target_ru": "Разворачивает Маяк разума на 4 сек.: до 6 союзников в радиусе 8 м вокруг получают невосприимчивость к Очищению (в приоритете члены отряда)."
+  },
+  {
+    "id": "131717",
+    "source_cn": "<HighLight>[%s]</>在宣战决斗中击败<HighLight>[%s]</>，这个名字将与胜利一同被历史铭记。",
+    "ref_en": "<HighLight> [%s]</> defeated <HighLight> [%s]</> in a duel of war declaration. This name will be remembered by history along with the victory.",
+    "target_ru": "<HighLight>[%s]</> побеждает <HighLight>[%s]</> в объявленной дуэли, и это имя войдёт в историю вместе с победой."
+  },
+  {
+    "id": "131718",
+    "source_cn": "环顾房间",
+    "ref_en": "Look around the room",
+    "target_ru": "Осмотрите комнату."
+  },
+  {
+    "id": "131719",
+    "source_cn": "恭喜<Chat_Highlight>%s</>获得了<Chat_Highlight>%s</>赛区的众神之巅冠军！",
+    "ref_en": "Congratulations to <Chat_Highlight>%s</> for winning the Peak of the Gods championship in the <Chat_Highlight>%s</> division!",
+    "target_ru": "Поздравляем <Chat_Highlight>%s</> с победой в чемпионате «Пик Богов» в дивизионе <Chat_Highlight>%s</>!"
+  },
+  {
+    "id": "131720",
+    "source_cn": "Trade to earn Chamber Tickets",
+    "ref_en": "Trade to earn Chamber Tickets",
+    "target_ru": "Торгуйте, чтобы заработать билеты Палаты"
+  },
+  {
+    "id": "131721",
+    "source_cn": "剩余时间：<Highlight>%s</>",
+    "ref_en": "Remaining Time: <Highlight> %s </>",
+    "target_ru": "Оставшееся время: <Highlight>%s</>"
+  },
+  {
+    "id": "131722",
+    "source_cn": "<HighLight>%d</>项",
+    "ref_en": "<HighLight> %d </> items",
+    "target_ru": "<HighLight>%d</> шт."
+  },
+  {
+    "id": "131723",
+    "source_cn": "<Green>%d人</>在线",
+    "ref_en": "<Green> %d people </> online",
+    "target_ru": "<Green>%d</> человек онлайн"
+  },
+  {
+    "id": "131724",
+    "source_cn": "[Click to Apply]",
+    "ref_en": "[Click to Apply]",
+    "target_ru": "【Нажмите, чтобы подать заявку】"
+  },
+  {
+    "id": "131725",
+    "source_cn": "One More Round",
+    "ref_en": "One More Round",
+    "target_ru": "Еще один раунд"
+  },
+  {
+    "id": "131726",
+    "source_cn": "前往<h>睡莲小镇</>",
+    "ref_en": "Head to <h>Water Lily Town</>",
+    "target_ru": "Отправляйтесь в <h>городок водяных лилий</>"
+  },
+  {
+    "id": "131727",
+    "source_cn": "打开大门",
+    "ref_en": "Open the door",
+    "target_ru": "Open дверь"
+  },
+  {
+    "id": "131728",
+    "source_cn": "确定<h>声音传来的方向</>",
+    "ref_en": "Determine the direction from which the <h> sound is coming </>",
+    "target_ru": "Определите направление звука от <h></>."
+  },
+  {
+    "id": "131729",
+    "source_cn": "等待至<h>夜晚</>",
+    "ref_en": "Wait until <h> night </>",
+    "target_ru": "Дождитесь <h>ночи</>"
+  },
+  {
+    "id": "131730",
+    "source_cn": "询问<h>女士</>",
+    "ref_en": "Ask the <h> lady </>",
+    "target_ru": "Расспросите <h>даму</>"
+  },
+  {
+    "id": "131731",
+    "source_cn": "离开<h>房间</>",
+    "ref_en": "Leave the <h> room </>",
+    "target_ru": "Покиньте <h>комнату</>"
+  },
+  {
+    "id": "131732",
+    "source_cn": "使用<h>灵摆占卜</>",
+    "ref_en": "Use <h> Pendulum Divination </>",
+    "target_ru": "Используйте <h>гадание маятником</>"
+  },
+  {
+    "id": "131733",
+    "source_cn": "开启<h>灵视</>观察",
+    "ref_en": "Activate <h> spirit vision </> to observe",
+    "target_ru": "Включите <h>духовное зрение</>, чтобы осмотреться"
+  },
+  {
+    "id": "131734",
+    "source_cn": "检查<h>角落</>",
+    "ref_en": "Examine the <h> corner </>",
+    "target_ru": "Осмотрите <h>угол</>"
+  },
+  {
+    "id": "131735",
+    "source_cn": "检查<h>桌面</>",
+    "ref_en": "Examine the <h> tabletop </>",
+    "target_ru": "Осмотрите <h>стол</>"
+  },
+  {
+    "id": "131736",
+    "source_cn": "点燃<h>蜡烛</>",
+    "ref_en": "Light the <h> candle </>",
+    "target_ru": "Зажгите <h>свечу</>"
+  },
+  {
+    "id": "131737",
+    "source_cn": "走向<h>绯红之月</>",
+    "ref_en": "Walk towards <h>Crimson Moon</>",
+    "target_ru": "Идите к <h>Багровой Луне</>"
+  },
+  {
+    "id": "131738",
+    "source_cn": "走近查看篮子里的<h>贺卡</>",
+    "ref_en": "Approach to check the <h>greeting card</> in the basket",
+    "target_ru": "Подход к просмотру открытки в корзине<h></>"
+  },
+  {
+    "id": "131739",
+    "source_cn": "走近查看篮子里的贺卡",
+    "ref_en": "Approach to check the greeting card in the basket",
+    "target_ru": "Подход к просмотру открытки в корзине"
+  },
+  {
+    "id": "131740",
+    "source_cn": "离开<h>营地</>",
+    "ref_en": "Leave the <h>campsite</>",
+    "target_ru": "Покиньте <h>лагерь</>"
+  },
+  {
+    "id": "131741",
+    "source_cn": "一只<h>玩偶</>被留在地上",
+    "ref_en": "A <h>doll</> has been left on the ground",
+    "target_ru": "На земле осталась <h>кукла</>"
+  },
+  {
+    "id": "131742",
+    "source_cn": "捡起<h>小羊玩偶</>",
+    "ref_en": "Pick up the <h>lamb doll</>",
+    "target_ru": "Возьмите куклу-ягненка<h></>."
+  },
+  {
+    "id": "131743",
+    "source_cn": "小心查看<h>笔记</>",
+    "ref_en": "Carefully examine the <h>notes</>",
+    "target_ru": "Внимательно проверьте примечания <h></>."
+  },
+  {
+    "id": "131744",
+    "source_cn": "再到<h>前面</>看看情况",
+    "ref_en": "Go <h>ahead</> again to check the situation",
+    "target_ru": "Пройдите <h>вперёд</> и проверьте обстановку"
+  },
+  {
+    "id": "131745",
+    "source_cn": "观察<h>花架</>",
+    "ref_en": "Observe the <h>flower stand</>",
+    "target_ru": "Обратите внимание на подставку для цветов<h></>."
+  },
+  {
+    "id": "131746",
+    "source_cn": "思考<h>羊皮纸</>上的内容",
+    "ref_en": "Think about the contents on the <h>parchment</>",
+    "target_ru": "Подумайте о содержании пергамента<h></>."
+  },
+  {
+    "id": "131747",
+    "source_cn": "仔细观察<h>“花架”</>周围",
+    "ref_en": "Carefully observe around the <h>flower stand</>",
+    "target_ru": "Внимательно осмотрите место вокруг <h>«подставки для цветов»</>"
+  },
+  {
+    "id": "131748",
+    "source_cn": "观察<h>圆形祭坛</>",
+    "ref_en": "Observe the <h>circular altar</>",
+    "target_ru": "Осмотрите <h>круглый алтарь</>"
+  },
+  {
+    "id": "131749",
+    "source_cn": "拿出<h>小羊玩偶</>",
+    "ref_en": "Take out the <h>lamb doll</>",
+    "target_ru": "Достаньте <h>игрушечного ягнёнка</>"
+  },
+  {
+    "id": "131750",
+    "source_cn": "把<h>“预言之物”</>放上祭坛",
+    "ref_en": "Place the <h>\"Prophetic Item\"</> on the altar",
+    "target_ru": "Поместите «пророческий объект» на алтарь<h></>."
+  },
+  {
+    "id": "131751",
+    "source_cn": "拿走<h>斧头</>",
+    "ref_en": "Take the <h>axe</>",
+    "target_ru": "Возьмите топор<h></>."
+  },
+  {
+    "id": "131752",
+    "source_cn": "寻找<h>“收存”之物</>",
+    "ref_en": "Search for the <h>\"Stored\" item</>",
+    "target_ru": "Найдите <h>«сохранённый» предмет</>"
+  },
+  {
+    "id": "131753",
+    "source_cn": "回到<h>圆形祭坛</>",
+    "ref_en": "Return to the <h>circular altar</>",
+    "target_ru": "Вернитесь к <h>круглому алтарю</>"
+  },
+  {
+    "id": "131754",
+    "source_cn": "靠近<h>最后一个祭坛</>",
+    "ref_en": "Approach the <h>last altar</>",
+    "target_ru": "Подойдите к <h>последнему алтарю</>"
+  },
+  {
+    "id": "131755",
+    "source_cn": "将<h>红月牌</>放上祭坛",
+    "ref_en": "Place the <h>Red Moon card</> on the altar",
+    "target_ru": "Поместите карту Багровой Луны на алтарь<h></>."
+  },
+  {
+    "id": "131756",
+    "source_cn": "向<h>“愚者”先生</>询问",
+    "ref_en": "Ask Mr. <h>\"The Fool\"</>",
+    "target_ru": "Спросите <h>мистера Шута</>"
+  },
+  {
+    "id": "131757",
+    "source_cn": "触碰<h>未来的命运</>",
+    "ref_en": "Touch the <h>future fate</>",
+    "target_ru": "Прикоснитесь к <h>будущей судьбе</>"
+  },
+  {
+    "id": "131758",
+    "source_cn": "倾听“愚者”的讲述",
+    "ref_en": "Listen to what The Fool has to say",
+    "target_ru": "Послушайте рассказ мистера Шут"
+  },
+  {
+    "id": "131759",
+    "source_cn": "击碎<h>神秘石柱</>",
+    "ref_en": "Shatter the <h>Mysterious Stone Pillar</>",
+    "target_ru": "Разбейте <h>загадочную каменную колонну</>"
+  },
+  {
+    "id": "131760",
+    "source_cn": "打败<h>孕育而生的怪物</>",
+    "ref_en": "Defeat the <h>gestated monster</>",
+    "target_ru": "Победите <h>выношенного монстра</>"
+  },
+  {
+    "id": "131761",
+    "source_cn": "向<h>“愚者”先生</>致谢",
+    "ref_en": "Thank Mr. <h>\"The Fool\"</>",
+    "target_ru": "Поблагодарите <h>мистера Шута</>"
+  },
+  {
+    "id": "131762",
+    "source_cn": "取回那张<h>塔罗牌</>",
+    "ref_en": "Retrieve that <h>Tarot card</>",
+    "target_ru": "Заберите ту <h>карту Таро</>"
+  },
+  {
+    "id": "131763",
+    "source_cn": "拿出<h>愚者牌</>",
+    "ref_en": "Take out <h>The Fool card</>",
+    "target_ru": "Достаньте <h>карту Шута</>"
+  },
+  {
+    "id": "131764",
+    "source_cn": "再次<h>品尝咖啡</>",
+    "ref_en": "<h>Taste the coffee</> again",
+    "target_ru": "Ещё раз <h>попробуйте кофе</>"
+  },
+  {
+    "id": "131765",
+    "source_cn": "尝试回想<h>“正义”小姐</>的指引",
+    "ref_en": "Try to recall the guidance of Miss <h>\"Justice\"</>",
+    "target_ru": "Попробуйте вспомнить указания <h>мисс Справедливость</>"
+  },
+  {
+    "id": "131766",
+    "source_cn": "询问济贫院院长",
+    "ref_en": "Ask the director of the poorhouse",
+    "target_ru": "Спросите о директоре богадельни"
+  },
+  {
+    "id": "131767",
+    "source_cn": "进入<h>屋内</>",
+    "ref_en": "Enter the <h>house</>",
+    "target_ru": "Войдите в <h>дом</>"
+  },
+  {
+    "id": "131768",
+    "source_cn": "调查<h>镜子碎片</>",
+    "ref_en": "Investigate the <h>mirror fragments</>",
+    "target_ru": "Осмотрите <h>осколки зеркала</>"
+  },
+  {
+    "id": "131769",
+    "source_cn": "当前改装方案尚未装配，是否退出改装？\n（未装配离开不会清除改装方案）",
+    "ref_en": "The current modification scheme is not equipped. Exit modification? \n (Leaving without equipping will not clear the modification scheme)",
+    "target_ru": "Текущая схема модификации ещё не установлена. Выйти из модификации?\n    (При выходе несохранённая схема не сбросится)"
+  },
+  {
+    "id": "131770",
+    "source_cn": "按照存活的排名，前三名投影依次获得<Highlight>60,40,30</>分，\n\n每有其他投影阵亡，自身投影获得<Highlight>3</>分，\n\n击杀其他投影获得<Highlight>5</>分。",
+    "ref_en": "Based on survival ranking, the top three projections receive <Highlight>60, 40, 30</> points respectively.\n\nFor every other projection that falls, your own projection gains <Highlight>3</> points.\n\nKilling other projections grants <Highlight>5</> points.",
+    "target_ru": "По рейтингу выживаемости три лучших прогноза получат поочередно <Highlight>60, 40, 30</> баллов. \n Каждый раз, когда другая проекция уничтожается, собственная проекция получает <Highlight>3</> очков. \n Убийство других проекций принесет <Highlight>5</> очков."
+  },
+  {
+    "id": "131771",
+    "source_cn": "Divine Descent",
+    "ref_en": "Divine Descent",
+    "target_ru": "Нисхождение божества"
+  },
+  {
+    "id": "131772",
+    "source_cn": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>拍卖奖励</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    "ref_en": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Auction Rewards</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    "target_ru": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды аукциона</><img id=\"Tips\" width=\"46\" height=\"46\"/>"
+  },
+  {
+    "id": "131773",
+    "source_cn": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>参与奖励</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    "ref_en": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Participation Rewards</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    "target_ru": "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды за участие</><img id=\"Tips\" width=\"46\" height=\"46\"/>"
+  },
+  {
+    "id": "131774",
+    "source_cn": "Above the Gray Fog",
+    "ref_en": "Above the Gray Fog",
+    "target_ru": "над серым туманом"
+  },
+  {
+    "id": "131775",
+    "source_cn": "First Glimpse of Mystery",
+    "ref_en": "First Glimpse of Mystery",
+    "target_ru": "Первый взгляд на тайну"
+  },
+  {
+    "id": "131776",
+    "source_cn": "Sequence Sublimation",
+    "ref_en": "Sequence Sublimation",
+    "target_ru": "Сублимация Последовательности"
+  },
+  {
+    "id": "131777",
+    "source_cn": "The taste of success",
+    "ref_en": "The taste of success",
+    "target_ru": "Вкус успеха"
+  },
+  {
+    "id": "131778",
+    "source_cn": "Misfortune comes in threes",
+    "ref_en": "Misfortune comes in threes",
+    "target_ru": "Несчастье приходит втроем"
+  },
+  {
+    "id": "131779",
+    "source_cn": "Seasoned dancer",
+    "ref_en": "Seasoned dancer",
+    "target_ru": "Опытный танцор"
+  },
+  {
+    "id": "131780",
+    "source_cn": "Highly dangerous",
+    "ref_en": "Highly dangerous",
+    "target_ru": "Очень опасно"
+  },
+  {
+    "id": "131781",
+    "source_cn": "Good luck, Officer.",
+    "ref_en": "Good luck, Officer.",
+    "target_ru": "Удачи, офицер."
+  },
+  {
+    "id": "131782",
+    "source_cn": "The... glory... of the Wessel Family...",
+    "ref_en": "The... glory... of the Wessel Family...",
+    "target_ru": "Слава... семьи Вессель..."
+  },
+  {
+    "id": "131783",
+    "source_cn": "Magic Cauldron - One Pot Sweep - Inner circle instant death",
+    "ref_en": "Magic Cauldron - One Pot Sweep - Inner circle instant death",
+    "target_ru": "Волшебный котел — один зачист — Мгновенная смерть внутреннего круга"
+  },
+  {
+    "id": "131784",
+    "source_cn": "Charge effect",
+    "ref_en": "Charge effect",
+    "target_ru": "Эффект заряда"
+  },
+  {
+    "id": "131785",
+    "source_cn": "Test buff 2",
+    "ref_en": "Test buff 2",
+    "target_ru": "Тестовый бафф 2"
+  },
+  {
+    "id": "131786",
+    "source_cn": "Replace weapon",
+    "ref_en": "Replace weapon",
+    "target_ru": "Заменить оружие"
+  },
+  {
+    "id": "131787",
+    "source_cn": "Release Knockback every 2 seconds",
+    "ref_en": "Release Knockback every 2 seconds",
+    "target_ru": "Отбрасывание каждые 2 секунды."
+  },
+  {
+    "id": "131788",
+    "source_cn": "Trigger Sleep every 2 seconds, 5-meter radius",
+    "ref_en": "Trigger Sleep every 2 seconds, 5-meter radius",
+    "target_ru": "Вызывает сон каждые 2 секунды, в радиусе 5 метров."
+  },
+  {
+    "id": "131789",
+    "source_cn": "Trigger Stun every 2 seconds, 5-meter radius",
+    "ref_en": "Trigger Stun every 2 seconds, 5-meter radius",
+    "target_ru": "Вызывает оглушение каждые 2 секунды, в радиусе 5 метров."
+  },
+  {
+    "id": "131790",
+    "source_cn": "Triggers stagnation every 2 seconds, 5-meter radius",
+    "ref_en": "Triggers stagnation every 2 seconds, 5-meter radius",
+    "target_ru": "Вызывает стагнацию каждые 2 секунды, в радиусе 5 метров."
+  },
+  {
+    "id": "131791",
+    "source_cn": "Disable mount skills",
+    "ref_en": "Disable mount skills",
+    "target_ru": "Отключить навыки ездового животного"
+  },
+  {
+    "id": "131792",
+    "source_cn": "Post-processing - Black and white lens",
+    "ref_en": "Post-processing - Black and white lens",
+    "target_ru": "Постобработка — черно-белая линза"
+  },
+  {
+    "id": "131793",
+    "source_cn": "Camera shake - 1 time per second - Light",
+    "ref_en": "Camera shake - 1 time per second - Light",
+    "target_ru": "Встряхивание объектива – 1 раз в секунду – легкое"
+  },
+  {
+    "id": "131794",
+    "source_cn": "Church moon phase",
+    "ref_en": "Church moon phase",
+    "target_ru": "Церковная фаза луны"
+  },
+  {
+    "id": "131795",
+    "source_cn": "Mark after lady atmosphere event",
+    "ref_en": "Mark after lady atmosphere event",
+    "target_ru": "Марка после атмосферного мероприятия Lady"
+  },
+  {
+    "id": "131796",
+    "source_cn": "Death Knight effect circle",
+    "ref_en": "Death Knight effect circle",
+    "target_ru": "Круг эффекта рыцаря смерти"
+  },
+  {
+    "id": "131797",
+    "source_cn": "Emotion color point - Passion",
+    "ref_en": "Emotion color point - Passion",
+    "target_ru": "Цветовая точка эмоций — страсть"
+  },
+  {
+    "id": "131798",
+    "source_cn": "Emotion bubble - Depressed",
+    "ref_en": "Emotion bubble - Depressed",
+    "target_ru": "Эмоциональный пузырь - депрессия"
+  },
+  {
+    "id": "131799",
+    "source_cn": "Emotion bubble - Neutral",
+    "ref_en": "Emotion bubble - Neutral",
+    "target_ru": "Эмоциональный пузырь – нейтральный"
+  },
+  {
+    "id": "131800",
+    "source_cn": "Emotion bubble - Peace",
+    "ref_en": "Emotion bubble - Peace",
+    "target_ru": "Эмоциональный пузырь — мир"
+  },
+  {
+    "id": "131801",
+    "source_cn": "Notarization Certificate: Trigger +1 Level Effect",
+    "ref_en": "Notarization Certificate: Trigger +1 Level Effect",
+    "target_ru": "Нотариальное заверение: триггер +1 уровень эффекта."
+  },
+  {
+    "id": "131802",
+    "source_cn": "New Stagnant Area Buff",
+    "ref_en": "New Stagnant Area Buff",
+    "target_ru": "Новый бафф «Застойная зона»"
+  },
+  {
+    "id": "131803",
+    "source_cn": "Brass Book Special Teleport Trap Buff",
+    "ref_en": "Brass Book Special Teleport Trap Buff",
+    "target_ru": "Специальный бафф «Телепорт-ловушка» из латунной книги"
+  },
+  {
+    "id": "131804",
+    "source_cn": "Wall of Sight Mark Buff",
+    "ref_en": "Wall of Sight Mark Buff",
+    "target_ru": "Усиление метки Стены обзора"
+  },
+  {
+    "id": "131805",
+    "source_cn": "(Single Player) Change for me!",
+    "ref_en": "(Single Player) Change for me!",
+    "target_ru": "(Одиночный) А ну превращайся!"
+  },
+  {
+    "id": "131806",
+    "source_cn": "Lightning Storm Locked Red Portal",
+    "ref_en": "Lightning Storm Locked Red Portal",
+    "target_ru": "Lightning Storm запер красный портал"
+  },
+  {
+    "id": "131807",
+    "source_cn": "Lightning Storm Locked Blue Portal",
+    "ref_en": "Lightning Storm Locked Blue Portal",
+    "target_ru": "Lightning Storm запер синий портал"
+  },
+  {
+    "id": "131808",
+    "source_cn": "I am a Baboon",
+    "ref_en": "I am a Baboon",
+    "target_ru": "я бабуин"
+  },
+  {
+    "id": "131809",
+    "source_cn": "Player Dance Correct",
+    "ref_en": "Player Dance Correct",
+    "target_ru": "Игрок танцует правильно"
+  },
+  {
+    "id": "131810",
+    "source_cn": "Shadow Assassination - Child Safe Zone Tag",
+    "ref_en": "Shadow Assassination - Child Safe Zone Tag",
+    "target_ru": "Shadow Assassination — метка зоны безопасности для детей"
+  },
+  {
+    "id": "131811",
+    "source_cn": "Viscountess Idle Body Effect",
+    "ref_en": "Viscountess Idle Body Effect",
+    "target_ru": "Эффект праздного тела виконтессы"
+  },
+  {
+    "id": "131812",
+    "source_cn": "Play Arm Extension",
+    "ref_en": "Play Arm Extension",
+    "target_ru": "Игровое разгибание рук"
+  },
+  {
+    "id": "131813",
+    "source_cn": "Doug spawn effect",
+    "ref_en": "Doug spawn effect",
+    "target_ru": "Эффект появления Дуга"
+  },
+  {
+    "id": "131814",
+    "source_cn": "Dragon-Hunting Gang Leader effect",
+    "ref_en": "Dragon-Hunting Gang Leader effect",
+    "target_ru": "Эффект лидера банды охотников на драконов"
+  },
+  {
+    "id": "131815",
+    "source_cn": "Carriage repair buff",
+    "ref_en": "Carriage repair buff",
+    "target_ru": "Бафф «Ремонт кареты»"
+  },
+  {
+    "id": "131816",
+    "source_cn": "Fire Buff",
+    "ref_en": "Fire Buff",
+    "target_ru": "Бафф огня"
+  },
+  {
+    "id": "131817",
+    "source_cn": "Crime event - Imprisonment + Dizziness",
+    "ref_en": "Crime event - Imprisonment + Dizziness",
+    "target_ru": "Преступление – Тюремное заключение + Головокружение"
+  },
+  {
+    "id": "131818",
+    "source_cn": "Function_Has been shot",
+    "ref_en": "Function_Has been shot",
+    "target_ru": "Функция_была застрелена"
+  },
+  {
+    "id": "131819",
+    "source_cn": "Mark_Air monster for positioning",
+    "ref_en": "Mark_Air monster for positioning",
+    "target_ru": "Mark_Air Monster для позиционирования"
+  },
+  {
+    "id": "131820",
+    "source_cn": "Passive_Skill resource increase",
+    "ref_en": "Passive_Skill resource increase",
+    "target_ru": "Увеличение ресурса Passive_Skill"
+  },
+  {
+    "id": "131821",
+    "source_cn": "Count_Skill resource",
+    "ref_en": "Count_Skill resource",
+    "target_ru": "Ресурс Count_Skill"
+  },
+  {
+    "id": "131822",
+    "source_cn": "Function_Interrupt prayer",
+    "ref_en": "Function_Interrupt prayer",
+    "target_ru": "Function_Interrupt Молитва"
+  },
+  {
+    "id": "131823",
+    "source_cn": "Arm monster Armor Break",
+    "ref_en": "Arm monster Armor Break",
+    "target_ru": "Рука Монстр Прорыв Брони"
+  },
+  {
+    "id": "131824",
+    "source_cn": "Magic circle shield",
+    "ref_en": "Magic circle shield",
+    "target_ru": "Щит магического круга"
+  },
+  {
+    "id": "131825",
+    "source_cn": "Imaginary Minion recovery aura",
+    "ref_en": "Imaginary Minion recovery aura",
+    "target_ru": "Воображаемая аура восстановления миньонов"
+  },
+  {
+    "id": "131826",
+    "source_cn": "Prologue - Apostle - Head effect",
+    "ref_en": "Prologue - Apostle - Head effect",
+    "target_ru": "Пролог — Апостол — Эффект головы"
+  },
+  {
+    "id": "131827",
+    "source_cn": "Temporary Attribute Buff",
+    "ref_en": "Temporary Attribute Buff",
+    "target_ru": "Временный бафф атрибута"
+  },
+  {
+    "id": "131828",
+    "source_cn": "Escape invincibility",
+    "ref_en": "Escape invincibility",
+    "target_ru": "Побег из непобедимости"
+  },
+  {
+    "id": "131829",
+    "source_cn": "Floating City Heart Buff - Green",
+    "ref_en": "Floating City Heart Buff - Green",
+    "target_ru": "Сердце-бафф «Плавающий город» — зеленый"
+  },
+  {
+    "id": "131830",
+    "source_cn": "Demon Wolf target 2",
+    "ref_en": "Demon Wolf target 2",
+    "target_ru": "Демон-волк, цель 2"
+  },
+  {
+    "id": "131831",
+    "source_cn": "Demon Wolf Frenzy invincibility effect",
+    "ref_en": "Demon Wolf Frenzy invincibility effect",
+    "target_ru": "Эффект неуязвимости Демона-Волка Бешенства"
+  },
+  {
+    "id": "131832",
+    "source_cn": "Boundless Dark Silence sound effect",
+    "ref_en": "Boundless Dark Silence sound effect",
+    "target_ru": "Звуковой эффект безграничной темной тишины"
+  },
+  {
+    "id": "131833",
+    "source_cn": "Quiz stealth monster range indicator buff",
+    "ref_en": "Quiz stealth monster range indicator buff",
+    "target_ru": "Усиление индикатора дальности действия Quiz Stealth Monster"
+  },
+  {
+    "id": "131834",
+    "source_cn": "Robot immune to Shockwave",
+    "ref_en": "Robot immune to Shockwave",
+    "target_ru": "Робот с иммунитетом к ударной волне"
+  },
+  {
+    "id": "131835",
+    "source_cn": "Invisibility after teleport",
+    "ref_en": "Invisibility after teleport",
+    "target_ru": "Невидимость после телепорта"
+  },
+  {
+    "id": "131836",
+    "source_cn": "spirituality",
+    "ref_en": "spirituality",
+    "target_ru": "Духовность"
+  },
+  {
+    "id": "131837",
+    "source_cn": "Zombie Monster - Full Body Effect",
+    "ref_en": "Zombie Monster - Full Body Effect",
+    "target_ru": "Зомби-монстр - эффект всего тела"
+  },
+  {
+    "id": "131838",
+    "source_cn": "Zombie Monster - Head Effect",
+    "ref_en": "Zombie Monster - Head Effect",
+    "target_ru": "Зомби-монстр - эффект головы"
+  },
+  {
+    "id": "131839",
+    "source_cn": "Function_Gunman shield",
+    "ref_en": "Function_Gunman shield",
+    "target_ru": "Функция_ЩитСтрелка"
+  },
+  {
+    "id": "131840",
+    "source_cn": "Function_Thug shield",
+    "ref_en": "Function_Thug shield",
+    "target_ru": "Функция_ЩитБандита"
+  },
+  {
+    "id": "131841",
+    "source_cn": "Function_Special mechanism_Covering Queue",
+    "ref_en": "Function_Special mechanism_Covering Queue",
+    "target_ru": "Функция_Специальный механизм_Покрытие очереди"
+  },
+  {
+    "id": "131842",
+    "source_cn": "Mark_Gunman crawling on the ground",
+    "ref_en": "Mark_Gunman crawling on the ground",
+    "target_ru": "Mark_Gunman Ползает по земле"
+  },
+  {
+    "id": "131843",
+    "source_cn": "Function_Gold Coin hit count",
+    "ref_en": "Function_Gold Coin hit count",
+    "target_ru": "Function_Счетчик попаданий по золотой монете"
+  },
+  {
+    "id": "131844",
+    "source_cn": "Police - Overhead mark",
+    "ref_en": "Police - Overhead mark",
+    "target_ru": "Полиция – знак над головой"
+  },
+  {
+    "id": "131845",
+    "source_cn": "Bread - Supply box - Opening",
+    "ref_en": "Bread - Supply box - Opening",
+    "target_ru": "Хлеб — Коробка с припасами — Открытие"
+  },
+  {
+    "id": "131846",
+    "source_cn": "Rescue count mark buff",
+    "ref_en": "Rescue count mark buff",
+    "target_ru": "Спасение Графа Марка Баффа"
+  },
+  {
+    "id": "131847",
+    "source_cn": "Zombie Effect Buff",
+    "ref_en": "Zombie Effect Buff",
+    "target_ru": "Усиление эффекта зомби"
+  },
+  {
+    "id": "131848",
+    "source_cn": "Invisibility buff when poor person disappears",
+    "ref_en": "Invisibility buff when poor person disappears",
+    "target_ru": "Усиление невидимости при исчезновении бедняка"
+  },
+  {
+    "id": "131849",
+    "source_cn": "Death fade",
+    "ref_en": "Death fade",
+    "target_ru": "Затухание при гибели"
+  },
+  {
+    "id": "131850",
+    "source_cn": "Death invisibility does not recover",
+    "ref_en": "Death invisibility does not recover",
+    "target_ru": "Невидимость не восстанавливается после смерти"
+  },
+  {
+    "id": "131851",
+    "source_cn": "Slide Rail - Monster Health Layer Tag",
+    "ref_en": "Slide Rail - Monster Health Layer Tag",
+    "target_ru": "Направляющая — тег слоя со здоровьем монстра"
+  },
+  {
+    "id": "131852",
+    "source_cn": "Witch battle - Player mood material - Anger Red",
+    "ref_en": "Witch battle - Player mood material - Anger Red",
+    "target_ru": "Битва ведьм — Материал настроения игрока — Красный гнев"
+  },
+  {
+    "id": "131853",
+    "source_cn": "Witch battle - Player mood material - Sadness Blue",
+    "ref_en": "Witch battle - Player mood material - Sadness Blue",
+    "target_ru": "Битва с Ведьмой — материал настроения игрока — печальный синий"
+  },
+  {
+    "id": "131854",
+    "source_cn": "Witch battle - Player mood material - Horror Purple",
+    "ref_en": "Witch battle - Player mood material - Horror Purple",
+    "target_ru": "Материал настроения ведьмы-военного игрока-страх фиолетовый"
+  },
+  {
+    "id": "131855",
+    "source_cn": "Skill highlight test",
+    "ref_en": "Skill highlight test",
+    "target_ru": "Тест на высшие навыки"
+  },
+  {
+    "id": "131856",
+    "source_cn": "Eavesdrop - Imprisonment + Play animation",
+    "ref_en": "Eavesdrop - Imprisonment + Play animation",
+    "target_ru": "Подслушивание — обездвиживание + проигрывание анимации"
+  },
+  {
+    "id": "131857",
+    "source_cn": "NPC overhead health",
+    "ref_en": "NPC overhead health",
+    "target_ru": "Здоровье NPC над головой"
+  },
+  {
+    "id": "131858",
+    "source_cn": "Teleport effect",
+    "ref_en": "Teleport effect",
+    "target_ru": "Эффект телепортации"
+  },
+  {
+    "id": "131859",
+    "source_cn": "Immobilization before execution",
+    "ref_en": "Immobilization before execution",
+    "target_ru": "Иммобилизация перед казнью"
+  },
+  {
+    "id": "131860",
+    "source_cn": "Reality Line Chapter 5 - Magic Mirror Barrier - Portal effect performance",
+    "ref_en": "Reality Line Chapter 5 - Magic Mirror Barrier - Portal effect performance",
+    "target_ru": "Линия реальности. Глава 5. Магический зеркальный барьер. Эффект портала."
+  },
+  {
+    "id": "131861",
+    "source_cn": "Position 1 Action",
+    "ref_en": "Position 1 Action",
+    "target_ru": "Действие 1 позиции"
+  },
+  {
+    "id": "131862",
+    "source_cn": "Position 3 Action",
+    "ref_en": "Position 3 Action",
+    "target_ru": "Действие 3-й позиции"
+  },
+  {
+    "id": "131863",
+    "source_cn": "Position 4 Action",
+    "ref_en": "Position 4 Action",
+    "target_ru": "Действие 4 позиции"
+  },
+  {
+    "id": "131864",
+    "source_cn": "Acting - Apprentice - Hide player",
+    "ref_en": "Acting - Apprentice - Hide player",
+    "target_ru": "Актерское мастерство - Ученик - Скрыть игрока"
+  },
+  {
+    "id": "131865",
+    "source_cn": "Golden Wolf invincibility shield status02",
+    "ref_en": "Golden Wolf invincibility shield status02",
+    "target_ru": "Статус Щита Непобедимости Золотого Волка02"
+  },
+  {
+    "id": "131866",
+    "source_cn": "Hidden Space - Laser performance (2000)",
+    "ref_en": "Hidden Space - Laser performance (2000)",
+    "target_ru": "Тайное пространство: Визуализация лазера (2000)"
+  },
+  {
+    "id": "131867",
+    "source_cn": "Connected by mirror",
+    "ref_en": "Connected by mirror",
+    "target_ru": "Подключено зеркалом"
+  },
+  {
+    "id": "131868",
+    "source_cn": "Grant skill - Protective Shield",
+    "ref_en": "Grant skill - Protective Shield",
+    "target_ru": "Предоставление навыков - щит"
+  },
+  {
+    "id": "131869",
+    "source_cn": "Mother Goddess corruption",
+    "ref_en": "Mother Goddess corruption",
+    "target_ru": "Мать-Богиня Порча"
+  },
+  {
+    "id": "131870",
+    "source_cn": "Corruption skill - Mark",
+    "ref_en": "Corruption skill - Mark",
+    "target_ru": "Навык Искажения - Марк"
+  },
+  {
+    "id": "131871",
+    "source_cn": "Remove shotgun mode timer",
+    "ref_en": "Remove shotgun mode timer",
+    "target_ru": "Удалить таймер режима дробовика"
+  },
+  {
+    "id": "131872",
+    "source_cn": "Restrict Forward Movement",
+    "ref_en": "Restrict Forward Movement",
+    "target_ru": "Ограничить движение вперед"
+  },
+  {
+    "id": "131873",
+    "source_cn": "Stagnation Buff (Visual Only)",
+    "ref_en": "Stagnation Buff (Visual Only)",
+    "target_ru": "Бафф скованности (только визуал)"
+  },
+  {
+    "id": "131874",
+    "source_cn": "Money corruption",
+    "ref_en": "Money corruption",
+    "target_ru": "Денежная Искажение"
+  },
+  {
+    "id": "131875",
+    "source_cn": "Dance together stealth monster tag",
+    "ref_en": "Dance together stealth monster tag",
+    "target_ru": "Танцуйте вместе Стелс-монстр Тег"
+  },
+  {
+    "id": "131876",
+    "source_cn": "Hide Overhead Information",
+    "ref_en": "Hide Overhead Information",
+    "target_ru": "Скрыть дополнительную информацию"
+  },
+  {
+    "id": "131877",
+    "source_cn": "Wounded Rescue",
+    "ref_en": "Wounded Rescue",
+    "target_ru": "Спасение раненых"
+  },
+  {
+    "id": "131878",
+    "source_cn": "Gray Fog Blessing",
+    "ref_en": "Gray Fog Blessing",
+    "target_ru": "Благословение Серого Тумана"
+  },
+  {
+    "id": "131879",
+    "source_cn": "Loss of Control",
+    "ref_en": "Loss of Control",
+    "target_ru": "Потеря контроля"
+  },
+  {
+    "id": "131880",
+    "source_cn": "Red All Over",
+    "ref_en": "Red All Over",
+    "target_ru": "Красный весь"
+  },
+  {
+    "id": "131881",
+    "source_cn": "Layer Erosion",
+    "ref_en": "Layer Erosion",
+    "target_ru": "Эрозия слоя"
+  },
+  {
+    "id": "131882",
+    "source_cn": "Test Loss of Control Buff",
+    "ref_en": "Test Loss of Control Buff",
+    "target_ru": "Тест на потерю контроля"
+  },
+  {
+    "id": "131883",
+    "source_cn": "Test Add Decal",
+    "ref_en": "Test Add Decal",
+    "target_ru": "Тестовое добавление наклейки"
+  },
+  {
+    "id": "131884",
+    "source_cn": "Test Modify Material",
+    "ref_en": "Test Modify Material",
+    "target_ru": "Тестовое изменение материала"
+  },
+  {
+    "id": "131885",
+    "source_cn": "Hide Model",
+    "ref_en": "Hide Model",
+    "target_ru": "Скрыть модель"
+  },
+  {
+    "id": "131886",
+    "source_cn": "Extra Skill Level Test",
+    "ref_en": "Extra Skill Level Test",
+    "target_ru": "Дополнительный тест на уровень навыков"
+  },
+  {
+    "id": "131887",
+    "source_cn": "Player Invincibility Buff during Cutscene",
+    "ref_en": "Player Invincibility Buff during Cutscene",
+    "target_ru": "Усиление непобедимости игрока во время ролика"
+  },
+  {
+    "id": "131888",
+    "source_cn": "Mark After Lady Atmosphere Event",
+    "ref_en": "Mark After Lady Atmosphere Event",
+    "target_ru": "Марка после атмосферного мероприятия Lady"
+  },
+  {
+    "id": "131889",
+    "source_cn": "Execute One Spirituality Dash",
+    "ref_en": "Execute One Spirituality Dash",
+    "target_ru": "Выполните один рывок духовности"
+  },
+  {
+    "id": "131890",
+    "source_cn": "Water Surfing",
+    "ref_en": "Water Surfing",
+    "target_ru": "Водный серфинг"
+  },
+  {
+    "id": "131891",
+    "source_cn": "Emotion Color Point - Sadness",
+    "ref_en": "Emotion Color Point - Sadness",
+    "target_ru": "Цветовая точка эмоций – Грусть"
+  },
+  {
+    "id": "131892",
+    "source_cn": "Obtain Secret Information",
+    "ref_en": "Obtain Secret Information",
+    "target_ru": "Получить секретную информацию"
+  },
+  {
+    "id": "131893",
+    "source_cn": "Do Not Obtain Secret Information",
+    "ref_en": "Do Not Obtain Secret Information",
+    "target_ru": "Не получайте секретную информацию"
+  },
+  {
+    "id": "131894",
+    "source_cn": "Portal sound effect hook",
+    "ref_en": "Portal sound effect hook",
+    "target_ru": "Звуковой эффект портала"
+  },
+  {
+    "id": "131895",
+    "source_cn": "Current transmission",
+    "ref_en": "Current transmission",
+    "target_ru": "Текущая передача"
+  },
+  {
+    "id": "131896",
+    "source_cn": "Negative mark",
+    "ref_en": "Negative mark",
+    "target_ru": "Отрицательный знак"
+  },
+  {
+    "id": "131897",
+    "source_cn": "Notarization: Trigger +3 level effect",
+    "ref_en": "Notarization: Trigger +3 level effect",
+    "target_ru": "Нотариальное свидетельство: срабатывание эффекта +3 к уровню"
+  },
+  {
+    "id": "131898",
+    "source_cn": "Reality Line Chapter 2 - Listening to music overhead buff",
+    "ref_en": "Reality Line Chapter 2 - Listening to music overhead buff",
+    "target_ru": "Линия реальности. Глава 2. Прослушивание музыки сверху."
+  },
+  {
+    "id": "131899",
+    "source_cn": "Teleport Trap effect buff",
+    "ref_en": "Teleport Trap effect buff",
+    "target_ru": "Усиление эффекта телепортационной ловушки"
+  },
+  {
+    "id": "131900",
+    "source_cn": "Brass Book special teleport trap buff",
+    "ref_en": "Brass Book special teleport trap buff",
+    "target_ru": "Специальный бафф «Телепорт-ловушка» из латунной книги"
+  },
+  {
+    "id": "131901",
+    "source_cn": "Clown Shield invincibility buff",
+    "ref_en": "Clown Shield invincibility buff",
+    "target_ru": "Усиление неуязвимости Щита Клоуна"
+  },
+  {
+    "id": "131902",
+    "source_cn": "Wall of Sight - player screen effect",
+    "ref_en": "Wall of Sight - player screen effect",
+    "target_ru": "Стена обзора - Эффект экрана игрока"
+  },
+  {
+    "id": "131903",
+    "source_cn": "Wall of Sight mark buff",
+    "ref_en": "Wall of Sight mark buff",
+    "target_ru": "Усиление метки Стены обзора"
+  },
+  {
+    "id": "131904",
+    "source_cn": "Brass Book action mark",
+    "ref_en": "Brass Book action mark",
+    "target_ru": "Знак действия латунной книги"
+  },
+  {
+    "id": "131905",
+    "source_cn": "Clown Clone material",
+    "ref_en": "Clown Clone material",
+    "target_ru": "Материал клона клоуна"
+  },
+  {
+    "id": "131906",
+    "source_cn": "Fors Armor Break stacks",
+    "ref_en": "Fors Armor Break stacks",
+    "target_ru": "Стеки пробития брони Форса"
+  },
+  {
+    "id": "131907",
+    "source_cn": "Lightning Storm locked Red Portal",
+    "ref_en": "Lightning Storm locked Red Portal",
+    "target_ru": "Lightning Storm запер красный портал"
+  },
+  {
+    "id": "131908",
+    "source_cn": "Lightning Storm locked Blue Portal",
+    "ref_en": "Lightning Storm locked Blue Portal",
+    "target_ru": "Lightning Storm запер синий портал"
+  },
+  {
+    "id": "131909",
+    "source_cn": "Inductive Attack hit stacks",
+    "ref_en": "Inductive Attack hit stacks",
+    "target_ru": "Уровни попаданий наводящейся атаки"
+  },
+  {
+    "id": "131910",
+    "source_cn": "Spatial Rift effect",
+    "ref_en": "Spatial Rift effect",
+    "target_ru": "Эффект пространственного разлома"
+  },
+  {
+    "id": "131911",
+    "source_cn": "Inductive Attack identify clone 1",
+    "ref_en": "Inductive Attack identify clone 1",
+    "target_ru": "Индуктивная атака. Идентификация клона 1."
+  },
+  {
+    "id": "131912",
+    "source_cn": "Pointer mark",
+    "ref_en": "Pointer mark",
+    "target_ru": "Указатель Марк"
+  },
+  {
+    "id": "131913",
+    "source_cn": "Hour hand stationary Phantom Shadow",
+    "ref_en": "Hour hand stationary Phantom Shadow",
+    "target_ru": "Фантомная тень неподвижной часовой стрелки"
+  },
+  {
+    "id": "131914",
+    "source_cn": "Empty buff (for Time Surge)",
+    "ref_en": "Empty buff (for Time Surge)",
+    "target_ru": "Пустой бафф (для скачка времени)"
+  },
+  {
+    "id": "131915",
+    "source_cn": "Pointer light mark",
+    "ref_en": "Pointer light mark",
+    "target_ru": "Указатель Световой Знак"
+  },
+  {
+    "id": "131916",
+    "source_cn": "Guardian Power - effect",
+    "ref_en": "Guardian Power - effect",
+    "target_ru": "Сила хранителя — Эффект"
+  },
+  {
+    "id": "131917",
+    "source_cn": "Milgongen mark Buff",
+    "ref_en": "Milgongen mark Buff",
+    "target_ru": "Милгонген Марк Бафф"
+  },
+  {
+    "id": "131918",
+    "source_cn": "Statue Dead",
+    "ref_en": "Statue Dead",
+    "target_ru": "Статуя мертва"
+  },
+  {
+    "id": "131919",
+    "source_cn": "Focus fire statue mark",
+    "ref_en": "Focus fire statue mark",
+    "target_ru": "Знак статуи «Фокус огня»"
+  },
+  {
+    "id": "131920",
+    "source_cn": "Dead buff",
+    "ref_en": "Dead buff",
+    "target_ru": "Мертвый бафф"
+  },
+  {
+    "id": "131921",
+    "source_cn": "Sasrir permanent buff",
+    "ref_en": "Sasrir permanent buff",
+    "target_ru": "Постоянное усиление Сасрира"
+  },
+  {
+    "id": "131922",
+    "source_cn": "Sasrir Sacrifice Monster link to boss buff",
+    "ref_en": "Sasrir Sacrifice Monster link to boss buff",
+    "target_ru": "Сасрил пожертвовал баффом монстра, чтобы соединиться с боссом."
+  },
+  {
+    "id": "131923",
+    "source_cn": "Hero-Turtle-Mushroom mark buff",
+    "ref_en": "Hero-Turtle-Mushroom mark buff",
+    "target_ru": "Герой-Черепаха-Гриб Марк Бафф"
+  },
+  {
+    "id": "131924",
+    "source_cn": "Hero-Turtle-Charge Stone Pillar count tag",
+    "ref_en": "Hero-Turtle-Charge Stone Pillar count tag",
+    "target_ru": "Метка счетчика каменных столбов героя-черепахи-заряда"
+  },
+  {
+    "id": "131925",
+    "source_cn": "Hero - Baboon - Target Yellow Buff",
+    "ref_en": "Hero - Baboon - Target Yellow Buff",
+    "target_ru": "Герой: Павиан — выбор цели (желтый бафф)"
+  },
+  {
+    "id": "131926",
+    "source_cn": "I Am a Baboon",
+    "ref_en": "I Am a Baboon",
+    "target_ru": "я бабуин"
+  },
+  {
+    "id": "131927",
+    "source_cn": "Player dance error",
+    "ref_en": "Player dance error",
+    "target_ru": "Ошибка танца игрока"
+  },
+  {
+    "id": "131928",
+    "source_cn": "Obsession Entity",
+    "ref_en": "Obsession Entity",
+    "target_ru": "Сущность одержимости"
+  },
+  {
+    "id": "131929",
+    "source_cn": "Mirror glowing",
+    "ref_en": "Mirror glowing",
+    "target_ru": "Зеркало светящееся"
+  },
+  {
+    "id": "131930",
+    "source_cn": "Dice Roll Test Buff",
+    "ref_en": "Dice Roll Test Buff",
+    "target_ru": "Тестовый бафф броска костей"
+  },
+  {
+    "id": "131931",
+    "source_cn": "Mark_Ley Line Surge_Boss Connection Target",
+    "ref_en": "Mark_Ley Line Surge_Boss Connection Target",
+    "target_ru": "Цель соединения Mark_Ley Line Surge_Boss"
+  },
+  {
+    "id": "131932",
+    "source_cn": "Mark_Four-Way 2",
+    "ref_en": "Mark_Four-Way 2",
+    "target_ru": "Марк_Четырехходовой 2"
+  },
+  {
+    "id": "131933",
+    "source_cn": "Mark_Four-Way 4",
+    "ref_en": "Mark_Four-Way 4",
+    "target_ru": "Марк_Четырехходовой 4"
+  },
+  {
+    "id": "131934",
+    "source_cn": "Poison Burst Mark (6 Small Circles)",
+    "ref_en": "Poison Burst Mark (6 Small Circles)",
+    "target_ru": "Метка ядовитого взрыва (6 малых кругов)"
+  },
+  {
+    "id": "131935",
+    "source_cn": "Rebirth Ritual Connection Buff - Left Hand",
+    "ref_en": "Rebirth Ritual Connection Buff - Left Hand",
+    "target_ru": "Бафф соединения «Ритуал возрождения» — левая рука"
+  },
+  {
+    "id": "131936",
+    "source_cn": "Rebirth Ritual Connection Buff - Right Hand",
+    "ref_en": "Rebirth Ritual Connection Buff - Right Hand",
+    "target_ru": "Бафф «Ритуальная связь возрождения» — правая рука"
+  },
+  {
+    "id": "131937",
+    "source_cn": "Roselle Boss - Phase 3 - Final Loss of Control - Safe Zone Performance",
+    "ref_en": "Roselle Boss - Phase 3 - Final Loss of Control - Safe Zone Performance",
+    "target_ru": "Босс Розель — Фаза 3 — Окончательная Потеря Контроля: отображение безопасной зоны"
+  },
+  {
+    "id": "131938",
+    "source_cn": "Johnny Share",
+    "ref_en": "Johnny Share",
+    "target_ru": "Разделение Джонни"
+  },
+  {
+    "id": "131939",
+    "source_cn": "Mechanism 1 - BOSS Mark Buff - Used for AI Detection Judgment",
+    "ref_en": "Mechanism 1 - BOSS Mark Buff - Used for AI Detection Judgment",
+    "target_ru": "Механизм 1 — усиление отметки БОСС — используется для оценки обнаружения ИИ."
+  },
+  {
+    "id": "131940",
+    "source_cn": "Energy Ball Area Damage",
+    "ref_en": "Energy Ball Area Damage",
+    "target_ru": "Урон по области энергетического шара"
+  },
+  {
+    "id": "131941",
+    "source_cn": "Energy Ball Damage Adjustment Buff",
+    "ref_en": "Energy Ball Damage Adjustment Buff",
+    "target_ru": "Бафф корректировки урона энергетического шара"
+  },
+  {
+    "id": "131942",
+    "source_cn": "Carriage Heal Buff",
+    "ref_en": "Carriage Heal Buff",
+    "target_ru": "Усиление лечения экипажа"
+  },
+  {
+    "id": "131943",
+    "source_cn": "Carriage Indicator Circle Buff",
+    "ref_en": "Carriage Indicator Circle Buff",
+    "target_ru": "Круг индикатора каретки, бафф"
+  },
+  {
+    "id": "131944",
+    "source_cn": "Carriage Repair Buff",
+    "ref_en": "Carriage Repair Buff",
+    "target_ru": "Бафф «Ремонт кареты»"
+  },
+  {
+    "id": "131945",
+    "source_cn": "Hidden Space - Spider Monster Vision Decal",
+    "ref_en": "Hidden Space - Spider Monster Vision Decal",
+    "target_ru": "Скрытое пространство - наклейка с изображением паука-монстра"
+  },
+  {
+    "id": "131946",
+    "source_cn": "Spawn Hidden",
+    "ref_en": "Spawn Hidden",
+    "target_ru": "Спавн скрыт"
+  },
+  {
+    "id": "131947",
+    "source_cn": "Temporary Attribute buff",
+    "ref_en": "Temporary Attribute buff",
+    "target_ru": "Временный бафф атрибута"
+  },
+  {
+    "id": "131948",
+    "source_cn": "Player Stamina Fully Restored",
+    "ref_en": "Player Stamina Fully Restored",
+    "target_ru": "Выносливость игрока полностью восстановлена"
+  },
+  {
+    "id": "131949",
+    "source_cn": "Golden Tree General corruption Effect Buff",
+    "ref_en": "Golden Tree General corruption Effect Buff",
+    "target_ru": "Золотое древо: Общий бафф эффекта осквернения"
+  },
+  {
+    "id": "131950",
+    "source_cn": "Megose Combat Duration Timer",
+    "ref_en": "Megose Combat Duration Timer",
+    "target_ru": "Таймер длительности боя с Мегозой"
+  },
+  {
+    "id": "131951",
+    "source_cn": "Demon Wolf Target 1",
+    "ref_en": "Demon Wolf Target 1",
+    "target_ru": "Демон-Волк, цель 1"
+  },
+  {
+    "id": "131952",
+    "source_cn": "Demon Wolf Explosion Countdown",
+    "ref_en": "Demon Wolf Explosion Countdown",
+    "target_ru": "Обратный отсчет взрыва Демона Волка"
+  },
+  {
+    "id": "131953",
+    "source_cn": "Demon Wolf Frenzy Invincibility Breathing Material",
+    "ref_en": "Demon Wolf Frenzy Invincibility Breathing Material",
+    "target_ru": "Дышащий материал непобедимости Demon Wolf Frenzy"
+  },
+  {
+    "id": "131954",
+    "source_cn": "Nighthawk Captain Spawn buff",
+    "ref_en": "Nighthawk Captain Spawn buff",
+    "target_ru": "Усиление появления Капитана Ночного Ястреба"
+  },
+  {
+    "id": "131955",
+    "source_cn": "Nighthawk Member Spawn buff 1",
+    "ref_en": "Nighthawk Member Spawn buff 1",
+    "target_ru": "Усиление появления члена Ночной Ястреб 1"
+  },
+  {
+    "id": "131956",
+    "source_cn": "Nighthawk Member Spawn buff 2",
+    "ref_en": "Nighthawk Member Spawn buff 2",
+    "target_ru": "Усиление появления члена Ночной Ястреб 2"
+  },
+  {
+    "id": "131957",
+    "source_cn": "Nighthawk Member Spawn buff 4",
+    "ref_en": "Nighthawk Member Spawn buff 4",
+    "target_ru": "Усиление появления члена Ночной Ястреб 4"
+  },
+  {
+    "id": "131958",
+    "source_cn": "Nighthawk Member End Performance buff 2",
+    "ref_en": "Nighthawk Member End Performance buff 2",
+    "target_ru": "Улучшение производительности участника Ночной Ястреб 2"
+  },
+  {
+    "id": "131959",
+    "source_cn": "Nighthawk Member Spawn buff 3",
+    "ref_en": "Nighthawk Member Spawn buff 3",
+    "target_ru": "Усиление появления членов Ночного Ястреба 3"
+  },
+  {
+    "id": "131960",
+    "source_cn": "spirituality Energy",
+    "ref_en": "spirituality Energy",
+    "target_ru": "Энергия Духовности"
+  },
+  {
+    "id": "131961",
+    "source_cn": "Zombie Effect buff",
+    "ref_en": "Zombie Effect buff",
+    "target_ru": "Усиление эффекта зомби"
+  },
+  {
+    "id": "131962",
+    "source_cn": "Poor Person-Performance buff When Receiving Healing",
+    "ref_en": "Poor Person-Performance buff When Receiving Healing",
+    "target_ru": "Бедный человек: усиление производительности при получении исцеления."
+  },
+  {
+    "id": "131963",
+    "source_cn": "Invisibility buff When Poor Person Disappears",
+    "ref_en": "Invisibility buff When Poor Person Disappears",
+    "target_ru": "Усиление невидимости при исчезновении бедняка"
+  },
+  {
+    "id": "131964",
+    "source_cn": "Witch Battle - Player Mood Material - Horror Purple",
+    "ref_en": "Witch Battle - Player Mood Material - Horror Purple",
+    "target_ru": "Материал настроения ведьмы-военного игрока-страх фиолетовый"
+  },
+  {
+    "id": "131965",
+    "source_cn": "Hidden Space - Laser Effect (290)",
+    "ref_en": "Hidden Space - Laser Effect (290)",
+    "target_ru": "Тайное пространство — Лазерный эффект (290)"
+  },
+  {
+    "id": "131966",
+    "source_cn": "Hidden Space - No Laser Effect (370)",
+    "ref_en": "Hidden Space - No Laser Effect (370)",
+    "target_ru": "Скрытое пространство – без лазерного эффекта (370)"
+  },
+  {
+    "id": "131967",
+    "source_cn": "Teleport Before Execution",
+    "ref_en": "Teleport Before Execution",
+    "target_ru": "Телепортация перед казнью"
+  },
+  {
+    "id": "131968",
+    "source_cn": "Slash Humanoid Template Monster Always Holds Weapon",
+    "ref_en": "Slash Humanoid Template Monster Always Holds Weapon",
+    "target_ru": "Слэш-гуманоидный шаблонный монстр всегда держит оружие"
+  },
+  {
+    "id": "131969",
+    "source_cn": "Hidden Space - Laser Effect (2500)",
+    "ref_en": "Hidden Space - Laser Effect (2500)",
+    "target_ru": "Скрытое пространство - Лазерный эффект (2500)"
+  },
+  {
+    "id": "131970",
+    "source_cn": "Spirit Body Binding Drag Line",
+    "ref_en": "Spirit Body Binding Drag Line",
+    "target_ru": "Линия связывания духовного тела"
+  },
+  {
+    "id": "131971",
+    "source_cn": "Hide Weapon",
+    "ref_en": "Hide Weapon",
+    "target_ru": "Скрыть оружие"
+  },
+  {
+    "id": "131972",
+    "source_cn": "Shuffle Cards Revival",
+    "ref_en": "Shuffle Cards Revival",
+    "target_ru": "Возрождение тасовкой карт"
+  },
+  {
+    "id": "131973",
+    "source_cn": "Deterrence and Demoralization",
+    "ref_en": "Deterrence and Demoralization",
+    "target_ru": "Устрашающий слом воли"
+  },
+  {
+    "id": "131974",
+    "source_cn": "loss of control",
+    "ref_en": "loss of control",
+    "target_ru": "Потеря контроля"
+  },
+  {
+    "id": "131975",
+    "source_cn": "Cage Knowledge",
+    "ref_en": "Cage Knowledge",
+    "target_ru": "Знание клетки"
+  },
+  {
+    "id": "131976",
+    "source_cn": "One Step",
+    "ref_en": "One Step",
+    "target_ru": "Один шаг"
+  },
+  {
+    "id": "131977",
+    "source_cn": "Three Steps",
+    "ref_en": "Three Steps",
+    "target_ru": "Три шага"
+  },
+  {
+    "id": "131978",
+    "source_cn": "Morning Light",
+    "ref_en": "Morning Light",
+    "target_ru": "Утренний свет"
+  },
+  {
+    "id": "131979",
+    "source_cn": "Spirit Vision",
+    "ref_en": "Spirit Vision",
+    "target_ru": "Духовное зрение"
+  },
+  {
+    "id": "131980",
+    "source_cn": "God-Forsaken 3 Reserve Extra Damage",
+    "ref_en": "God-Forsaken 3 Reserve Extra Damage",
+    "target_ru": "God-Forsaken 3 резервирует дополнительный урон"
+  },
+  {
+    "id": "131981",
+    "source_cn": "The Hoy University Rowing Club has another race!",
+    "ref_en": "The Hoy University Rowing Club has another race!",
+    "target_ru": "У гребного клуба Университета Хоя снова соревнования!"
+  },
+  {
+    "id": "131982",
+    "source_cn": "Cataclysm... Fourth Epoch... damn it, I can't write it at all!",
+    "ref_en": "Cataclysm... Fourth Epoch... damn it, I can't write it at all!",
+    "target_ru": "Катаклизм... Четвертая Эпоха... Блин, я вообще не могу это писать!"
+  },
+  {
+    "id": "131983",
+    "source_cn": "They say this is some kind of faith... Oh right, Leap of Faith!",
+    "ref_en": "They say this is some kind of faith... Oh right, Leap of Faith!",
+    "target_ru": "Говорят, это какая-то вера... ой да, Прыжок веры!"
+  },
+  {
+    "id": "131984",
+    "source_cn": "Officer, are you interested in that ancient castle? My family has a portrait of the first baron of the castle, that was my grandfather's grandfather's grandfather...",
+    "ref_en": "Officer, are you interested in that ancient castle? My family has a portrait of the first baron of the castle, that was my grandfather's grandfather's grandfather...",
+    "target_ru": "Офицер, вас интересует тот древний замок? В моей семье есть портрет первого барона замка, дедушки моего деда..."
+  },
+  {
+    "id": "131985",
+    "source_cn": "After opening, you can obtain a defensive<Highlight> mutated material</> with the entry <Highlight><愚者></>.",
+    "ref_en": "After opening, you can obtain a defensive<Highlight> mutated material</> with the entry <Highlight><愚者></>.",
+    "target_ru": "Открыв его, вы можете получить защитное <Highlight> мутировавшее вещество </> с записью <Highlight><愚者></>."
+  },
+  {
+    "id": "131986",
+    "source_cn": "Attack <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Deepening increased.\"",
+    "ref_en": "Attack <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Deepening increased.\"",
+    "target_ru": "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Шут></>: «Отменяет негативные эффекты Запечатанного Артефакта, все уровни навыков +1, Углубление урона увеличено»."
+  },
+  {
+    "id": "131987",
+    "source_cn": "Defense <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Reduction increased.\"",
+    "ref_en": "Defense <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Reduction increased.\"",
+    "target_ru": "Защитная <Highlight>мутировавшая материя</> со свойством <Highlight><Шут></>: «Нейтрализует отрицательные эффекты Запечатанных Артефактов, повышает уровень всех навыков на 1, увеличивает снижение урона»."
+  },
+  {
+    "id": "131988",
+    "source_cn": "Mocking laughter and sorrow, also mocking failure and Victory. \n Its owner has departed; this is the mark of your honor.",
+    "ref_en": "Mocking laughter and sorrow, also mocking failure and Victory. \n Its owner has departed; this is the mark of your honor.",
+    "target_ru": "Насмешка над смехом и скорбью, насмешка над поражением и победой.\nЕго хозяин ушёл; это знак вашей чести."
+  },
+  {
+    "id": "131989",
+    "source_cn": "Basic occult materials",
+    "ref_en": "Basic occult materials",
+    "target_ru": "Базовые оккультные материалы"
+  },
+  {
+    "id": "131990",
+    "source_cn": "Fire five energy bullets in succession, dealing <HighLight>60%/55%/50%/45%/40%</> attack damage respectively.",
+    "ref_en": "Fire five energy bullets in succession, dealing <HighLight>60%/55%/50%/45%/40%</> attack damage respectively.",
+    "target_ru": "Выпускает пять энергетических снарядов подряд, наносящих соответственно <HighLight>60%/55%/50%/45%/40%</> урона от атаки."
+  },
+  {
+    "id": "131991",
+    "source_cn": "<P_Heart>(He stopped talking...)</>",
+    "ref_en": "<P_Heart>(He stopped talking...)</>",
+    "target_ru": "<P_Heart> (Он замолчал...) </>"
+  },
+  {
+    "id": "131992",
+    "source_cn": "Switch character",
+    "ref_en": "Switch character",
+    "target_ru": "Переключить персонажа"
+  },
+  {
+    "id": "131993",
+    "source_cn": "It is the hair of his late fiancée. That brave girl died in the Feysac War, and my client has been searching for her for many years.",
+    "ref_en": "It is the hair of his late fiancée. That brave girl died in the Feysac War, and my client has been searching for her for many years.",
+    "target_ru": "Это локон волос его покойной невесты: та отважная девушка погибла на войне с Фейсаком, и мой наниматель искал ее долгие годы."
+  },
+  {
+    "id": "131994",
+    "source_cn": "<P_Heart>(What are they discussing?)</>",
+    "ref_en": "<P_Heart>(What are they discussing?)</>",
+    "target_ru": "<P_Heart> (Что вы обсуждаете?) </>"
+  },
+  {
+    "id": "131995",
+    "source_cn": "This is not Invisibility in the traditional sense, but 'Psychological Invisibility'—when cognition is guided by suggestion, reality also slips out of the field of vision.",
+    "ref_en": "This is not Invisibility in the traditional sense, but 'Psychological Invisibility'—when cognition is guided by suggestion, reality also slips out of the field of vision.",
+    "target_ru": "Это не невидимость в традиционном понимании, а «психологическая невидимость» — когда познание направляется внушением, реальность также ускользает из поля зрения."
+  },
+  {
+    "id": "131996",
+    "source_cn": "Tweed Vest",
+    "ref_en": "Tweed Vest",
+    "target_ru": "Твидовый жилет"
+  },
+  {
+    "id": "131997",
+    "source_cn": "Noble Cashmere Suit",
+    "ref_en": "Noble Cashmere Suit",
+    "target_ru": "Благородный кашемировый костюм"
+  }
+]

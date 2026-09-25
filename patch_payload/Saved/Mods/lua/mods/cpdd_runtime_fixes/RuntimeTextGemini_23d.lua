@@ -255,4 +255,5 @@ return {
     ["Lily: {{He|She}} saw it! {{He|She}} saw the red threads! {{He|She}} cannot be allowed to leave alive!"] = "Лили: {{He|She}} это видел! {{He|She}} увидел красные нити! {{He|She}} нельзя позволить уйти живым!",
     ["Acting - Object - Warrior - Rock"] = "Действуя – Объект – Воин – Рок",
     ["Adjust Bid"] = "Скорректировать ставку",
+    ["收集%d/50个异象之物。"] = "Соберите %d/50 объектов феномена.",
 }

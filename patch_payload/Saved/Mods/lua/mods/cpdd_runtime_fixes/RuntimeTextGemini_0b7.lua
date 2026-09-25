@@ -253,4 +253,9 @@ return {
     ["Noble Lady 3"] = "Благородная леди 3",
     ["Could it be that I really can't see? The doctor said I was blind over a dozen years ago, but I'm not blind."] = "Может быть, я действительно ничего не вижу? Доктор сказал, что я был слеп более дюжины лет назад, но я не слепой.",
     ["Phase 2 - Little Viscount Interaction Count Tag"] = "Фаза 2 — Тег подсчета взаимодействий маленького виконта",
+    ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  玩家跨场景传送到指定Trigger"] = "Сбор ресурса с указанным TemplateID  Игрок создаёт общедоступные объекты на основе списка InstanceID (не действует в открытом мире)  Объект воспроизводит заданные реплики диалога  Игрок телепортируется между сценами к указанному Trigger",
+    ["Brinley"] = "Бринли",
+    ["操作失败"] = "Операция не удалась.",
+    ["\"Ladies' Aesthetics\" (Issues 6 to 11 Collection) Purchaser: Christine\n\n\"The Pitch-Black Butler\" Hardcover Collector's Edition Purchaser: Sebastian\n\n\"The Art of Discipline\" Introductory to Advanced Three Volumes Purchaser: <Hide stylename=\"Transparent\" id=\"#161\">XXXXX</>"] = "«Дамская эстетика» (Сборник выпусков №№ 6–11) Заказал: Кристина \n\n Коллекционное издание «Тёмный дворецкий» в твердом переплете Заказал: Себастьян \n\n «Искусство дрессировки» три тома от начального до расширенного заказа <Hide stylename=\"Transparent\" id=\"#161\">口口口口口</>",
+    ["秘境内禁用技能"] = "Навыки отключены в секретном мире",
 }

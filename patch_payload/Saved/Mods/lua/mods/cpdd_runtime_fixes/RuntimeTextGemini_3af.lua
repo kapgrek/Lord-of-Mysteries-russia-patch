@@ -254,4 +254,12 @@ return {
     ["Time remaining until event start:"] = "Оставшееся время до начала мероприятия:",
     ["看看酒单"] = "Взглянуть на барную карту",
     ["[The Dead's Entertainment]"] = "【Развлечение мертвецов】",
+    ["展开心灵灯塔持续4秒，周身8米范围内的至多6名友方成员免疫净化(优先小队成员)。"] = "Разворачивает Маяк разума на 4 сек.: до 6 союзников в радиусе 8 м вокруг получают невосприимчивость к Очищению (в приоритете члены отряда).",
+    ["Callahan"] = "Каллахан",
+    ["收获%d/400个优质酒舍物产。"] = "Собирайте высококачественные продукты таверны %d/400.",
+    ["Wait time  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Время ожидания. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя.",
+    ["第三人称相机信息:"] = "Информация о камере от третьего лица:",
+    ["Chana"] = "Хана",
+    ["...Any two integers, if their remainders when divided by a certain positive integer are equal, are said to be congruent with respect to that modulus. Congruence theory is the cornerstone of number theory, yet in the broader algebraic number field, the law of unique factorization does not always hold. \n We have to introduce the concept of ideal numbers to make up for this defect. \n This defect was initially noticed only as a counterexample—in some quadratic fields, the same integer can be decomposed into products of different prime factors, and the uniqueness of decomposition vanishes. This constitutes a fundamental shaking of the entire arithmetic edifice."] = "……Любые два целых числа называются конгруэнтными по модулю, если их остатки при делении на целое положительное число равны. Теория конгруэнтности является краеугольным камнем теории чисел. Однако в более широком поле алгебраических чисел единственный закон разложения не всегда выполняется. \n　Чтобы восполнить этот недостаток, нам необходимо ввести понятие идеальных чисел. \n　Этот недостаток изначально был замечен как контрпример — в некоторых квадратичных полях одно и то же целое число можно разложить на разные произведения простых множителей, при этом уникальность разложения теряется. Это явилось фундаментальной встряской всего арифметического здания.",
+    ["Odilet"] = "Одилетта",
 }

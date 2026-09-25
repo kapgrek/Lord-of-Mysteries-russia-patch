@@ -252,4 +252,9 @@ return {
     ["Didn't you say you wanted to hear the truth? You're unhappy when I say it, I really don't understand..."] = "Разве ты не говорил, что хочешь услышать правду? Ты недовольна, когда я это говорю, я правда не понимаю...",
     ["Big bed and wine"] = "Большая кровать и вино",
     ["If the next stop <LightHighlight> is the [Winery] </>, the selling price of <LightHighlight> Artworks and Food </> for this session is +25%, but the selling price at the next stop is -60%."] = "Если следующей остановкой <LightHighlight> является [Винодельня] </>, цена продажи <LightHighlight> Artworks and Food </> для этой сессии составит +25%, но цена продажи на следующей остановке составит -60%.",
+    ["变异乌鸦"] = "Мутировавший ворон",
+    ["Alexa"] = "Алекса",
+    ["　　Hehe, I've got a lead! Time to reward myself with a lemon cake!"] = "　　Хе-хе, есть зацепка! Пора наградить себя кусочком лимонного торта!",
+    ["Vina"] = "Вина",
+    ["<P_Yellow>三项漫游</>已经列在您的<P_Yellow>任务栏</>了，具体的细节已为您备忘。愿您旅途顺利，有所发现。"] = "<P_Yellow> Три пункта роуминга </> были перечислены на панели <P_Yellow> Quest </>, и для вас были отмечены конкретные детали. Пусть ваше путешествие пройдет гладко и пусть вас ждут открытия.",
 }

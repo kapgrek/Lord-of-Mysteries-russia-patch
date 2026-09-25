@@ -245,4 +245,6 @@ return {
     ["Kill Bonnie."] = "Убейте Бонни.",
     ["Drinking Potion performance"] = "Спектакль «Питье зелья»",
     ["Cannot transfer position to a Club Star."] = "Невозможно передать позицию Club Star.",
+    ["Acting - Apprentice - Hide player"] = "Актерское мастерство - Ученик - Скрыть игрока",
+    ["Adali"] = "Адали",
 }

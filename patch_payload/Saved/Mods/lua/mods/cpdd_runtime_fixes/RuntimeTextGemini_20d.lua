@@ -242,4 +242,9 @@ return {
     ["Sequence 9 digestion progress reached 100%"] = "Прогресс пищеварения 9-й последовательности достиг 100 %.",
     ["<P_Heart> (Demon possession... Could the Clover tragedy not have been an accident?) </>"] = "<P_Heart> (Одержимость демонами... Могла ли трагедия Клевера не быть случайностью?) </>",
     ["Plane spawn point in front of the herb shop"] = "Точка появления самолета перед магазином трав.",
+    ["杯底沉淀为正常现象，祝您拥有宁静的夜晚。"] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
+    ["Kimberly"] = "Кимберли",
+    ["Marina"] = "Пристань для яхт",
+    ["Qianla"] = "Цяньла",
+    ["Dream Catcher, <InvHighlight> a fierce creature that preys on dreams. </> \n ... \n They are obsessed with the taste of <InvHighlight> milk </> and <InvHighlight> Manhar fish, </> which has a fatal attraction for them. \n ... \n If you drink a few mouthfuls of <Mark id=\"#159\"> milk soaked with Manhar fish eyeballs </> before going to bed..."] = "Ловец снов — свирепое создание, <InvHighlight>пожирающее чужие сновидения</>.\n...\nОни без ума от запаха <InvHighlight>молока</> и <InvHighlight>рыбы манхар</>, для них это непреодолимый соблазн.\n...\nЕсли перед сном сделать пару глотков <Mark id=\"#159\">молока, настоянного на глазах рыбы манхар</>...",
 }

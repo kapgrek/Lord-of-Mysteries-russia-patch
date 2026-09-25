@@ -273,4 +273,9 @@ return {
     ["Interact with bread desk"] = "Взаимодействие с хлебным столом",
     ["{{player.name}} has used their footsteps as a ruler and memories as a monument, taking the broken and complete parts of Tingen into their embrace—earning the title <Chat_Highlight>【Make Tingen Great】</>. This city has finally lived a complete life under their feet."] = "{{player.name}} использовали свои шаги в качестве правителя, а воспоминания — в качестве памятника, взяв в свои объятия сломанные и целые части Тингена, получив титул <Chat_Highlight>【Сделаем Тингена великим】</>. Этот город наконец-то зажил полноценной жизнью под их ногами.",
     ["Life Sect (2) 10% Attack Power"] = "Секта Жизни (2) 10% Сила атаки",
+    ["Westin"] = "Вестин",
+    ["Saanvi"] = "Саанви",
+    ["与Npc进行对话  延迟执行  对象播放指定对白内容  对象播动作（拥有状态记录）"] = "Поговорите с NPC. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога. Объект выполняет действие (с записью состояния).",
+    ["Looking for a brown, patterned tabby cat named 'Furball' with petal-shaped markings on its back\n\nIf you have any clues, please send them to <Mark id=\"#159\">35 Howls Street</>\n\nClue Reward: <Letter_Highlight_HW>1 Pound</>\nRecovery Reward: <Letter_Highlight_HW>10 Pounds</>"] = "Ищу «шерстяной комок», полосатую кошку коричневого цвета с отметинами в форме лепестков на спине \n\nЕсли у вас есть какие-либо подсказки, отправьте их по адресу <Mark id=\"#159\"> № 35 Halls Street </>\n\nФункция для подсказок: <Letter_Highlight_HW>1 золотой фунт</>\nФондовый взнос: <Letter_Highlight_HW>10 золота фунтов</>",
+    ["播放Dialogue  玩家播放情绪音乐（仅自己可听）  传送回大世界场景"] = "Воспроизведение диалога: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется обратно в открытый мир.",
 }

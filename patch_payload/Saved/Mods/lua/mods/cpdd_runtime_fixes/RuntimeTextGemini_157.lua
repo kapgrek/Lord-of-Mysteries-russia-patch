@@ -251,4 +251,12 @@ return {
     ["2x"] = "2x",
     ["Event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description event description"] = "Описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события описание события",
     ["Use <Highlight>Catch-up Vouchers</> in the Catch-up Shop to purchase catch-up gift boxes for missed gameplay and obtain partial rewards.\nCatch-up Vouchers are obtained simultaneously when receiving invoices. You can store up to 50,000 Catch-up Vouchers."] = "Используйте <Highlight>купоны компенсации</> в магазине компенсаций, чтобы приобретать наборы за пропущенные активности и получать часть их наград.\nКупоны компенсации выдаются одновременно с квитанциями; максимум можно накопить до 50 000 купонов.",
+    ["打开大门"] = "Open дверь",
+    ["<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Participation Rewards</><img id=\"Tips\" width=\"46\" height=\"46\"/>"] = "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды за участие</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    ["Officer, are you interested in that ancient castle? My family has a portrait of the first baron of the castle, that was my grandfather's grandfather's grandfather..."] = "Офицер, вас интересует тот древний замок? В моей семье есть портрет первого барона замка, дедушки моего деда...",
+    ["任务自定义事件  玩家传送到位面"] = "Пользовательское событие задания: Телепортация игрока на план.",
+    ["Rilin"] = "Рилин",
+    ["Tabitha"] = "Табита",
+    ["任务自定义事件  传送到指定场景内的Trigger位置"] = "Пользовательское событие квеста, телепорт к месту триггера в указанной сцене.",
+    ["I have never liked the pretentious airs of those Loen fellows, but in the face of a common enemy, whether it is Loen, Intis, Feynapotter, or any other country, we must stand on the same front—to protect our home."] = "Мне никогда не нравился претенциозный вид этих лоэнов, но перед лицом общего врага, будь то Лоэн, Интис, Фейнапоттер или любая другая страна, мы должны стоять на одном фронте — защищать наш дом.",
 }

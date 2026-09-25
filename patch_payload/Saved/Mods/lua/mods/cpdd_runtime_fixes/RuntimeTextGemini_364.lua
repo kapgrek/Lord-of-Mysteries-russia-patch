@@ -258,4 +258,5 @@ return {
     ["Who is she? Why do you think she is taking revenge on you?"] = "Кто она? Как ты думаешь, почему она тебе мстит?",
     ["Doctor, your clothes..."] = "Доктор, ваша одежда...",
     ["Auto-Chess"] = "Автошахматы",
+    ["播放Dialogue  切换HUD顶栏显示模式"] = "Игра «Диалог». Переключить режим отображения верхней панели HUD.",
 }

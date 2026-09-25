@@ -233,4 +233,9 @@ return {
     ["Equip to gain the [Demoness Sect] bond"] = "Экипируйте, чтобы получить резонанс [Секта Демоницы]",
     ["101.4W"] = "101.4W",
     ["101.8W"] = "101.8W",
+    ["Hidden Space - Laser Effect (290)"] = "Тайное пространство — Лазерный эффект (290)",
+    ["　　Name: See Me\n　　Appearance description: A piece of <Letter_Highlight>transparent crystal</>, about the size of a thumb, clear and flawless.\n　　Ability assessment: The holder can \"see\" others' true emotions and surface thoughts. Continuously staring at the target can make them have a brief \"sense of identification,\" thereby subtly guiding the other party's behavior.\n　　Side effect warning: Every time it is used, the holder <Letter_Highlight>randomly loses</> a piece of their own <Letter_Highlight>memory</>.\n\n　　Note: Stolen three weeks ago, divination shows it is still in an <Letter_Highlight>activated</> state."] = "　　Название: Узри меня\n　　Внешний вид: Кусок <Letter_Highlight>прозрачного хрусталя</> размером примерно с большой палец, чистый и без изъянов.\n　　Оценка способностей: Владелец способен «видеть» истинные эмоции и поверхностные мысли окружающих. Непрерывный взгляд на цель вызывает у нее кратковременное «чувство единения», позволяя незаметно направлять ее поведение.\n　　Предостережение о побочном эффекте: При каждом использовании владелец <Letter_Highlight>случайным образом теряет</> фрагмент собственных <Letter_Highlight>воспоминаний</>.\n\n　　Примечание: Похищен три недели назад. Гадание показывает, что предмет всё еще находится в <Letter_Highlight>активном</> состоянии.",
+    ["-----------------------------开始输出-----------------------------"] = "-----------------------------Начало вывода-----------------------------",
+    ["Daphne"] = "Дафна",
+    ["大家在问：\n%s"] = "Все спрашивают:\n%s",
 }

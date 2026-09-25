@@ -63,6 +63,8 @@ public class FastShardCompiler {
         int enMappedCount = 0;
 
         Regex itemRegex = new Regex(@"""source_cn""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""ref_en""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""target_ru""\s*:\s*""((?:\\""|[^""])*)""", RegexOptions.Compiled);
+        // Keys with leading/trailing whitespace: the runtime trims only the looked-up string, not the key (TASK-012 A3).
+        List<KeyValuePair<string, string>> trimmedKeys = new List<KeyValuePair<string, string>>();
 
         foreach (string bFile in batchFiles) {
             bool isBatch28 = bFile.IndexOf("batch_028", StringComparison.OrdinalIgnoreCase) >= 0;
@@ -85,6 +87,8 @@ public class FastShardCompiler {
                     }
                     shardMap[shardCn][cn] = finalVal;
                     totalLoaded++;
+                    string trimmedCn = TrimLuaSpace(cn);
+                    if (trimmedCn.Length > 0 && trimmedCn != cn) trimmedKeys.Add(new KeyValuePair<string, string>(trimmedCn, cn));
                 }
 
                 // Also map English reference to Russian translation so text rendered
@@ -100,8 +104,23 @@ public class FastShardCompiler {
                         shardMap[shardEn][en] = ru;
                         enMappedCount++;
                     }
+                    string trimmedEn = TrimLuaSpace(en);
+                    if (trimmedEn.Length > 0 && trimmedEn != en) trimmedKeys.Add(new KeyValuePair<string, string>(trimmedEn, en));
                 }
             }
+        }
+
+        // Trimmed keys go in only where no real key already sits; the value is trimmed the same way.
+        int trimmedCount = 0;
+        foreach (KeyValuePair<string, string> kv in trimmedKeys) {
+            string shardTrim = GetShardPrefix(ComputeSourceKey(kv.Key));
+            if (shardMap.ContainsKey(shardTrim) && shardMap[shardTrim].ContainsKey(kv.Key)) continue;
+            string shardOrig = GetShardPrefix(ComputeSourceKey(kv.Value));
+            string origVal;
+            if (!shardMap.ContainsKey(shardOrig) || !shardMap[shardOrig].TryGetValue(kv.Value, out origVal)) continue;
+            if (!shardMap.ContainsKey(shardTrim)) shardMap[shardTrim] = new Dictionary<string, string>();
+            shardMap[shardTrim][kv.Key] = TrimLuaSpace(origVal);
+            trimmedCount++;
         }
 
         // Explicit UI & AutoChess aliases
@@ -353,7 +372,7 @@ public class FastShardCompiler {
             }
         }
 
-        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ")");
+        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ", обрезанных ключей: " + trimmedCount + ")");
         Console.WriteLine("Запись в 1024 Lua-шарда...");
 
         // UTF-8 without BOM, LF line endings (AGENTS.md §5)
@@ -392,6 +411,11 @@ public class FastShardCompiler {
                 .Replace(@"\u003e", ">")
                 .Replace(@"\u0027", "'")
                 .Replace(@"\u0026", "&");
+    }
+
+    // Lua %s: space, \t, \n, \v, \f, \r (lookupGeminiTextFuzzy trims exactly these)
+    private static string TrimLuaSpace(string s) {
+        return s.Trim(' ', '\t', '\n', '\v', '\f', '\r');
     }
 
     private static string EscapeLua(string s) {

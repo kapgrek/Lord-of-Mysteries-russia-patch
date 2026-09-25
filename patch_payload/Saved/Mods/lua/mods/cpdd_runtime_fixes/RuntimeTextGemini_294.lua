@@ -264,4 +264,8 @@ return {
     ["Alternative Chips"] = "Альтернативные фишки",
     ["Special Order"] = "Особый заказ",
     ["造成伤害后，使目标在<HighLight>5</>秒内每秒损失相当于其最大生命值<HighLight>1%</>的生命值，期间受到的治疗效果降低<HighLight>30%</>。"] = "После нанесения урона заставляет цель терять <HighLight>1%</> от её макс. здоровья каждую секунду в течение <HighLight>5</> сек., снижая получаемое ею исцеление на <HighLight>30%</>.",
+    ["Based on survival ranking, the top three projections receive <Highlight>60, 40, 30</> points respectively.\n\nFor every other projection that falls, your own projection gains <Highlight>3</> points.\n\nKilling other projections grants <Highlight>5</> points."] = "По рейтингу выживаемости три лучших прогноза получат поочередно <Highlight>60, 40, 30</> баллов. \n Каждый раз, когда другая проекция уничтожается, собственная проекция получает <Highlight>3</> очков. \n Убийство других проекций принесет <Highlight>5</> очков.",
+    ["Select Style — Choosing different styles will result in completely different shapes, heights, and appearances for the generated building complex. \n \n How to unlock styles — <Highlight> After unlocking all furniture under a style </>, that style is automatically unlocked. \n \n Custom Style — Select custom style to customize the building form you want."] = "Выбор стиля: при выборе различных стилей форма, высота и внешний вид возводимого архитектурного ансамбля будут полностью отличаться.\n\nКак открыть стиль: стиль становится доступен автоматически после того, как вы <Highlight>откроете всю мебель этого стиля</>.\n\nПользовательский стиль: позволяет гибко настроить желаемые архитектурные формы.",
+    ["Quest ID:"] = "ID квеста:",
+    ["Wesley"] = "Уэсли",
 }

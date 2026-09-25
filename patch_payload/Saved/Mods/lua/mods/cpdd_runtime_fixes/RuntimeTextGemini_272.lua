@@ -239,4 +239,9 @@ return {
     ["Blackthorn Security Company members: Cheers!"] = "Члены охранной компании Чёрный Чертополох: Здравствуйте!",
     ["Change tracking target; enter TaskRingID."] = "Изменить цель отслеживания; введите TaskRingID.",
     ["爱帮忙的苏茜"] = "Полезная Сузи",
+    ["Corruption skill - Mark"] = "Навык Искажения - Марк",
+    ["Ibrahim"] = "Ибрагим",
+    ["Look at what is scattered by the bedside\nCould it be the traces of autumn frost?\nNo, my dear friend\nThat is the gentle whisper cast by the moon\n\nI cannot help but raise my eyes\nTo gaze at that bright orb\n________________\n________________"] = "Взгляни, что стелется пред ложем —\nНе след ли то осенних льдин?\nО нет, мой верный друг, похоже,\nТо нежный шепот от луны.\n\nНевольно взор я поднимаю,\nГляжу на ясный этот лик...\n________________\n________________",
+    ["采集指定TemplateID的采集物  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）  玩家设置客户端在指定场景显示的天气与时段"] = "Соберите указанный элемент TemplateID, объект телепортируется в указанную позицию в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены), игрок устанавливает для клиента погоду и время суток в указанной сцене.",
+    ["Langston"] = "Лэнгстон",
 }

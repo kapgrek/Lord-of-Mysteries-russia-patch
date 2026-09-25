@@ -251,4 +251,5 @@ return {
     ["Text text text text text text text text text text text text text text text text text text text text."] = "Текст текст текст текст текст",
     ["Luo Yao appears on screen"] = "Ло Яо появляется на экране",
     ["A contested camp and a hotbed for bringing chaos to the enemy. After occupying, you can attack the War Stele to gain a fixed 30 resources per minute."] = "Оспариваемый лагерь и рассадник хаоса среди врагов. После оккупации вы можете атаковать Стелу войны, чтобы получить фиксированные 30 ресурсов в минуту.",
+    ["规则的裂隙在此蔓延，是扭曲一切旧有事物的起点。"] = "Здесь распространились разломы в правилах, отправная точка для искажения всего старого.",
 }

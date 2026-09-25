@@ -261,4 +261,6 @@ return {
     ["Fist Lesson 150"] = "Первый урок 150",
     ["%s snatched the first hit, points increased by %d."] = "%s поймал первый удар, количество очков увеличилось на %d.",
     ["Vegetable stall owner"] = "Владелец овощного ларька",
+    ["Position 1 Action"] = "Действие 1 позиции",
+    ["Cullen"] = "Каллен",
 }

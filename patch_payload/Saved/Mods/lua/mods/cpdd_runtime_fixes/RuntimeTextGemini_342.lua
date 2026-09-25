@@ -252,4 +252,6 @@ return {
     ["Resurrection countdown tips empty buff"] = "Советы по обратному отсчету воскрешения: пустой бафф",
     ["Steady Growth"] = "Устойчивый рост",
     ["Nighthawk Ceremonial Robe"] = "Церемониальное одеяние Ночного Ястреба",
+    ["剩余时间：<Highlight>%s</>"] = "Оставшееся время: <Highlight>%s</>",
+    ["Three Steps"] = "Три шага",
 }

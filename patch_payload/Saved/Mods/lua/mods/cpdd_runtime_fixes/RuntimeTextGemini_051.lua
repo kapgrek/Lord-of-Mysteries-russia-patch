@@ -276,4 +276,10 @@ return {
     ["Achievement - Walking Treasury"] = "Достижение - Ходячая сокровищница",
     ["……Braden, that war you mentioned——"] = "…Брэйден, та война, о которой ты упомянул…",
     ["Effie "] = "Эффи",
+    ["Clown Shield invincibility buff"] = "Усиление неуязвимости Щита Клоуна",
+    ["Jesson"] = "Джессон",
+    ["Zainab"] = "Зайнаб",
+    ["施放指定技能  玩家高亮显示技能栏里的指定技能  玩家播放CutScene"] = "Применяет указанный навык, игрок выделяет указанный навык на панели навыков, игрок запускает кат-сцену",
+    ["At the Nightclub, Bonnie puts a necklace on the girl.\nShe smiles very gently and says this necklace is called \"Freedom.\"\nThe girl is completely unaware that the other end of \"Freedom\"\nhas always been held in Bonnie's hand."] = "В ночном клубе Бонни надевает ожерелье на шею девушке.\nОна нежно улыбается и шепчет, что имя этому ожерелью — «Свобода».\nДевушка и не подозревает, что другой конец поводка «Свободы»\nвсегда крепко сжат в руках Бонни.",
+    ["非常成功。我身后跟着一支浩浩荡荡的“小尾巴”，太幸福了！"] = "Очень успешно. За мной ходит длинный «хвостик», это так чудесно!",
 }

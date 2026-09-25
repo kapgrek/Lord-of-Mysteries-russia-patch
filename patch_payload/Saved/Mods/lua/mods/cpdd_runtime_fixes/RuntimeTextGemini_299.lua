@@ -258,4 +258,9 @@ return {
     ["Hard Forsaken-Ouroboros-Randomly distribute buffs-Remaining people without Buff"] = "Hard Forsaken-Уроборос-Случайное распределение баффов-Оставшиеся люди без баффа",
     ["The red moon illuminates the earth, the puppet gains new life"] = "Красная луна освещает землю, марионетка обретает новую жизнь",
     ["Gain 1 Iron and Blood Badge<HighLight></>. After activating Iron and Blood, when each Iron and Blood piece's Health first drops below 50%<HighLight></>, gain a shield equal to 15% of maximum Health<HighLight></>, lasting for 5 seconds<HighLight></>."] = "Даёт 1 эмблему Железа и Крови<HighLight></>. После активации Железа и Крови, когда здоровье фигуры впервые падает ниже 50%<HighLight></>, даёт щит в 15% от макс. здоровья<HighLight></> на 5 сек.<HighLight></>",
+    ["Spatial Rift effect"] = "Эффект пространственного разлома",
+    ["<DecH>工艺：</>古旧织锦・密约纹路\n历经岁月洗礼的披风，似乎记录着一段被遗忘的盟约。"] = "<DecH>Мастерство: </>Старинная парча · Узоры тайного завета\nПлащ, овеянный дыханием веков, словно хранит память о забытом завете.",
+    ["Alani"] = "Алани",
+    ["你问谁寄的？嘘，还能有谁，就住在贝克兰德西区的那些贵族老爷们呗！"] = "Вы спрашиваете, кто это послал? Тсс, кто же еще это могли быть эти благородные лорды, живущие в Западном округе Баклунда!",
+    ["Princeton"] = "Принстон",
 }

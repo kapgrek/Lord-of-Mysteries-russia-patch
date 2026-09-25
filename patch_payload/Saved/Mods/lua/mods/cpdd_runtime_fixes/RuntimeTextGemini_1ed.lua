@@ -254,4 +254,7 @@ return {
     ["使用后获得环身特效:<Highlight>红与黑·头部</>"] = "Используйте, чтобы получить ауру тела: <Highlight>«Красное и чёрное: голова»</>",
     ["WBP_AutoChess_Tips_LifeSchedule"] = "Подсказка AutoChess – Жизненный график",
     ["每次与玩家战斗后获得1个随机荒野魔物弈子。"] = "После каждого боя с игроком дает 1 случайную фигуру дикого монстра.",
+    ["It is the hair of his late fiancée. That brave girl died in the Feysac War, and my client has been searching for her for many years."] = "Это локон волос его покойной невесты: та отважная девушка погибла на войне с Фейсаком, и мой наниматель искал ее долгие годы.",
+    ["Pine needle oil side 😡 Wow, it smells so good 😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
+    ["Nolan"] = "Нолан",
 }

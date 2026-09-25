@@ -259,4 +259,9 @@ return {
     ["That's what the book says, we have to at least try!"] = "Так написано в книге, надо хотя бы попробовать!",
     ["Tell Patrick"] = "Скажи Патрику",
     ["Logan "] = "Логан",
+    ["Lightning Storm locked Blue Portal"] = "Lightning Storm запер синий портал",
+    ["Mark_Four-Way 4"] = "Марк_Четырехходовой 4",
+    ["Gather collection item with specified TemplateID  Player plays single-line black screen subtitle  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Сбор предмета с указанным TemplateID  Воспроизведение для игрока субтитра на черном экране  Создание общих объектов по списку InstanceID (не действует в открытом мире)",
+    ["The scent of lilacs is very pleasant. I put them in the vase by the window; perhaps you can see them when you pass by.\n\n	You have been lingering at the door a little longer lately, so why are you always silent when I Open Door?\n\n	If the autumn wind is too cold, can we meet in the spring?"] = "Аромат сирени так прекрасен... Я поставила букет в вазу у окна — быть может, вы увидите цветы, проходя мимо.\n\n	В последнее время вы задерживаетесь у дверей чуть дольше. Но почему же вы молчите, когда я открываю дверь?\n\n	Если осенний ветер слишком холоден... встретитесь ли вы со мной весной?",
+    ["玩家坐到任意座位  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Игрок садится на любое место. Игрок создает общедоступный объект на основе списка InstanceID (не действует в открытом мире).",
 }

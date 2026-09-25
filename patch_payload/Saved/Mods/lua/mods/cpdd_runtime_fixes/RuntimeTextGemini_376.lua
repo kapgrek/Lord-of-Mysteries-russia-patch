@@ -228,4 +228,7 @@ return {
     ["Achieve a 3-loss streak"] = "Достичь серии из 3 поражений",
     ["00_Test Scene 999"] = "00_Тестовая сцена 999",
     ["Reality Split Pointer"] = "Указатель разделения реальности",
+    ["<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>拍卖奖励</><img id=\"Tips\" width=\"46\" height=\"46\"/>"] = "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды аукциона</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    ["Anakin"] = "Энакин",
+    ["采集指定TemplateID的采集物  对象恢复看向"] = "Соберите элемент с назначенным TemplateID. Объект возобновляет поиск.",
 }

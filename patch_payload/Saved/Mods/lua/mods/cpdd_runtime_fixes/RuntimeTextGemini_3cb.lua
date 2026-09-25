@@ -242,4 +242,6 @@ return {
     ["Registration has ended"] = "Регистрация завершена",
     ["Blocking area 2-Wall 1"] = "Блокирующая зона 2-Стена 1",
     ["GTA Gun Parry Tutorial"] = "GTA: туториал по парированию оружия",
+    ["◆Herring (fresh)\n50 per barrel, 3 barrels, 10 sous/barrel <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13 sous\n\n◆Cod (salted)\n20 pounds per box, 2 boxes, 1 pound/box, 2 pounds\n\n◆Oysters \n100 per basket, 5 baskets, 5 sous/basket, 55 sous\n\n     Total  <Delete id=\"#158\">4 pounds 15 sous </>3 pounds 8 sous"] = "◆Сельдь (свежая)\nПо 50 шт. в бочке, 3 бочки, 10 соли/бочка <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13 соли\n\n◆Треска (соленая)\nПо 20 фунтов в ящике, 2 ящика, 1 фунт/ящик, 2 фунта\n\n◆Устрицы \nПо 100 шт. в корзине, 5 корзин, 5 соли/корзина, 55 соли\n\n     Итого  <Delete id=\"#158\">4 фунта 15 соли </>3 фунта 8 соли",
+    ["战车偏离了轨道，过度的野心导致失控。记住，最强大的敌人往往是自己。"] = "Колесница сбилась с пути; чрезмерные амбиции приводят к потере контроля. Помните, самый сильный враг – это вы сами.",
 }

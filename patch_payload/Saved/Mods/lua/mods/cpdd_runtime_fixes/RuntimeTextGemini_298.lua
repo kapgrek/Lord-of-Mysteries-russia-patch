@@ -263,4 +263,5 @@ return {
     ["A restroom might be a decent place for a meal..."] = "Туалет может быть неплохим местом для еды...",
     ["Face marking II color"] = "Маркировка лица II цвет",
     ["Equip to gain the [Night] resonance"] = "Экипируйте, чтобы получить резонанс [Ночь]",
+    ["Hershel"] = "Гершель",
 }

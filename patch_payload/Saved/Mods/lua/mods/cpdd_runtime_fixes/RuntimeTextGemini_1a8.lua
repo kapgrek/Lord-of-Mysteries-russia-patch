@@ -245,4 +245,7 @@ return {
     ["Use to obtain <Highlight>Camping Story Shoes</>"] = "Используйте, чтобы получить <Highlight>Обувь для кемпинга</>.",
     ["He had a high fever when he was seven, and I watched over him for three days and three nights. Since then, I have been keeping his medicine for him."] = "Когда ему было семь лет, у него была высокая температура, и я наблюдал за ним три дня и три ночи. С тех пор я храню для него лекарства.",
     ["[Absolute Shield] Gains a Max Health shield when Health is below <HighLight>40%</>, and gains Damage Reduction for <HighLight>10</> seconds."] = "[Абсолютный щит] Получает щит от макс. здоровья, когда здоровье падает ниже <HighLight>40%</>, и получает снижение урона на <HighLight>10</> секунд.",
+    ["前往指定Trigger位置  玩家播放单句黑屏字幕"] = "Перейти к указанному местоположению триггера. Проигрыватель воспроизводит однострочные субтитры на черном экране.",
+    ["你也这么觉得对不对！我这次一定能成！她收我项链的时候眼睛都在笑呢——一定是心动了。"] = "Вы тоже так думаете, да! На этот раз у меня обязательно получится! Ее глаза улыбались, когда она приняла мое ожерелье — она, должно быть, тронута.",
+    ["Quest名:"] = "Название квеста:",
 }

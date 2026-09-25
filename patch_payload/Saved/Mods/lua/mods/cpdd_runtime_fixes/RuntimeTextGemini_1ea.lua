@@ -262,4 +262,6 @@ return {
     ["I wasn't the one who marked it."] = "Это не я это отметил.",
     ["High-Speed Rotating Kitchen Knife"] = "Высокоскоростной вращающийся кухонный нож",
     ["Flower Grown from a Corpse"] = "Цветок, выросший из трупа",
+    ["询问<h>女士</>"] = "Расспросите <h>даму</>",
+    ["Ruola"] = "Руола",
 }

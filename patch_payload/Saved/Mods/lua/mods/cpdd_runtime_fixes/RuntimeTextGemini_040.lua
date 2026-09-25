@@ -250,4 +250,7 @@ return {
     ["Enter the <h>residence</>"] = "Введите <h>residence</>.",
     ["Use specially crafted spiritual paper to draw a template bearing your own spirituality imprint, causing the target to follow the pull of spirituality and transform into fragments like paper scraps filling the sky, gradually dissipating along with a faint glimmer of spirituality, while simultaneously erasing the target's aura and traces at their current location.\nIncreases the target's Knowledge by 4 and Intuition by 2."] = "С помощью особой духовной бумаги начертите шаблон с отпечатком собственной духовности, заставляя цель под действием духовного притяжения рассыпаться на кружащие бумажные обрывки, которые постепенно рассеиваются в слабом мерцании духовности, одновременно стирая ауру и следы цели в этой точке.\nПовышает Знание цели на 4 и Интуицию на 2.",
     ["Equip to gain the [Apothecary] bond"] = "Экипируйте, чтобы получить резонанс [Аптекарь]",
+    ["对啊！结果我的小猫……叼走了，一下子……一切都没了……"] = "Это верно! В конце концов, мой котёнок... украл его, и вдруг... всё пропало...",
+    ["Display Layer:"] = "Слой отображения:",
+    ["这是对食物的谋杀！煮过头的卷心菜、干硬的炖莴苣、像水一样的豌豆汤……"] = "Это убийство против еды! Переваренная капуста, сухой и жесткий тушеный салат, гороховый суп со вкусом воды...",
 }

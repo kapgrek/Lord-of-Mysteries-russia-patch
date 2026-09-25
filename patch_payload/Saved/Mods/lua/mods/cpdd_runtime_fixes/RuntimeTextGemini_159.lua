@@ -258,4 +258,9 @@ return {
     ["It's okay, I can wait a bit longer. Travel, after all, isn't something to rush."] = "Все в порядке, я могу еще немного подождать. В конце концов, путешествие – это не то, к чему нужно спешить.",
     ["GTA Fallen Priest Armor Break"] = "GTA Падший Священник Пробитие брони",
     ["Upon reaching <HighLight> level 9 </>, gain <HighLight> 26 Gold Coins </>."] = "При достижении <HighLight> 9-го уровня </> даёт <HighLight> 26 золотых монет </>.",
+    ["Slide Rail - Monster Health Layer Tag"] = "Направляющая — тег слоя со здоровьем монстра",
+    ["Mocking laughter and sorrow, also mocking failure and Victory. \n Its owner has departed; this is the mark of your honor."] = "Насмешка над смехом и скорбью, насмешка над поражением и победой.\nЕго хозяин ушёл; это знак вашей чести.",
+    ["前往指定Trigger位置  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
+    ["Modesty"] = "Скромность",
+    ["Stefan"] = "Стефан",
 }

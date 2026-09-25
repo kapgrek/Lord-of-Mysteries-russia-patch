@@ -228,4 +228,8 @@ return {
     ["<P_Heart> (shocked) </> How do you know? Are you stalking me, trying to steal my business?"] = "<P_Heart> (в шоке) </> Откуда ты знаешь? Вы преследуете меня, пытаетесь украсть мой бизнес?",
     ["Castle template saved successfully!"] = "Шаблон замка успешно сохранен!",
     ["<DecH>Craftsmanship: </>Mist Blue Gauze · Lily of the Valley Embroidery · Lady's Long Dress\nThe first ray of morning sunlight pierces through the mist, landing on the blooming roses and lilies of the valley."] = "<DecH>Мастерство: </>туманно-голубой газ, вышивка ландышами, дамское длинное платье\nПервый луч утреннего солнца пробивается сквозь дымку, озаряя распустившиеся розы и ландыши.",
+    ["播放Dialogue  传送到指定场景内的Trigger位置"] = "Играть в диалог; телепортироваться к месту триггера в указанной сцене.",
+    ["采集指定TemplateID的采集物  玩家播放剧情对话  玩家移除公有集团（大世界不生效）"] = "Собрать предмет коллекции с указанным TemplateID. Игрок воспроизводит сюжетный диалог. Игрок удаляет общедоступную группу (не действует в открытом мире).",
+    ["Ingrid"] = "Ингрид",
+    ["开启灵视  玩家设置灵视状态"] = "Активировать Духовное Видение: Игрок устанавливает статус Духовного Видения.",
 }

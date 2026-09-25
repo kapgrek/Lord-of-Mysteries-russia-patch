@@ -221,4 +221,7 @@ return {
     ["Gold Seal · Trading Firm"] = "Золотая печать · Торговая фирма",
     ["Searching separately might be faster. Sorry to trouble you."] = "Отдельный поиск может быть быстрее. Извините, что беспокою вас.",
     ["Cannot be used as a save point"] = "Невозможно использовать в качестве точки сохранения.",
+    ["Brass Book special teleport trap buff"] = "Специальный бафф «Телепорт-ловушка» из латунной книги",
+    ["Hamza"] = "Хамза",
+    ["……\n\nSince the beginning of July, child disappearance incidents in Tingen have occurred many times. The total number of missing persons is <Mark id=\"#159\"> thirteen </>, including five boys and eight girls.\nCurrently, three bodies have been found, and the murderer has been caught and the case closed.\nBut the autopsy determined that the causes of death were all different, belonging to three different realistic ordinary events."] = "……\n\nС начала июля в городе Тинген произошла серия исчезновений детей; общее число пропавших без вести составляет <Mark id=\"#159\"> тринадцать человек </>, в том числе пять мальчиков и восемь девочек.\nК настоящему моменту обнаружены тела трех детей, убийца арестован, и дело закрыто.\nОднако судебно-медицинская экспертиза показала разные причины смерти, относящиеся к трем не связанным между собой бытовым происшествиям.",
 }

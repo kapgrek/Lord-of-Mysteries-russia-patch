@@ -246,4 +246,7 @@ return {
     ["Elena's Expression"] = "Выражение лица Елены",
     ["Master is a potion genius! It's truly a blessing to work for her!"] = "Мастер — гений зелий! Это настоящее счастье работать у нее!",
     ["Guard of the Lone Walker"] = "Защита одинокого путника",
+    ["Spawn Hidden"] = "Спавн скрыт",
+    ["Justin"] = "Джастин",
+    ["与Npc进行对话  对象看向其他对象"] = "Поговорить с NPC; объект смотрит на другие объекты.",
 }

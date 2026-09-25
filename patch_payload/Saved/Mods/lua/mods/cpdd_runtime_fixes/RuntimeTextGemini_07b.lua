@@ -239,4 +239,5 @@ return {
     ["Advanced Berserk Potion."] = "Улучшенное зелье берсерка.",
     ["Iron Guard Support"] = "Поддержка железной стражи",
     ["Rare · Battle Intent Staff"] = "Редкое · Посох боевого духа",
+    ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

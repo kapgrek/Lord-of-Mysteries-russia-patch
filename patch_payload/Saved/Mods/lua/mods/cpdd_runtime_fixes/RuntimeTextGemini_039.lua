@@ -294,4 +294,9 @@ return {
     ["Enemy forces"] = "Вражеские силы",
     ["Pitch-Black Rule"] = "Непреложный закон тьмы",
     ["额外造成<HighLight>15%</>攻击伤害。"] = "Дополнительно наносит <HighLight>15%</> урона от атаки.",
+    ["Converse with NPC  Player plays speech text visible only to self  Delayed execution"] = "Диалог с NPC  Игрок воспроизводит текст реплики, видимый только себе  Отложенное выполнение",
+    ["Arlette"] = "Арлетт",
+    ["\"My Favorite Thing\"\nI like to close my eyes during class the most because it's very comfortable. In front of my eyes it's <Hide id=\"#157\">A</> pitch black, and inside my ears it's also pitch black.\nTeacher Ruff says, get up! No sleeping in class.\nSo my favorite thing is <Hide id=\"#157\">sleep</>ing in class."] = "«Мое самое любимое дело»\nБольше всего я люблю на уроках закрывать глаза, потому что это очень приятно. Перед глазами все <Hide id=\"#157\">А</>темно-темно, и в ушах тоже темно-темно.\nУчитель Рафф говорит: «А ну вставай! На уроках спать нельзя!»\nОказывается, мое самое любимое дело — <Hide id=\"#157\">спа</>ать на уроке.",
+    ["Gunnar"] = "Гуннар",
+    ["每天从早到晚，店里挤满了人，笑声能从这头传到那头。"] = "Каждый день с утра до вечера магазин был полон людей, и смех был слышен от одного конца до другого.",
 }

@@ -231,5 +231,6 @@ return {
     ["What, don't like what you see?"] = "Что, не нравится то, что видишь?",
     ["Close it"] = "Закрой это",
     ["Gain a gift pack containing 1 5-cost piece<HighLight></>, 1 2-star 1-cost piece<HighLight></>, and 7 Gold Coins<HighLight></>. At the start of the next 2 stages<HighLight></>, gain 1 identical gift pack each time<HighLight></>."] = "Даёт подарочный набор: 1 фигура за 5 золотых<HighLight></>, 1 2-звёздочная фигура за 1 золотой<HighLight></> и 7 золотых монет<HighLight></>. В начале следующих 2 этапов<HighLight></> даёт по 1 такому же набору<HighLight></>.",
+    ["将死亡骑士煽动至此，完成一次对“死亡”本身的征服。"] = "Заманите сюда Рыцаря Смерти, совершив победу над самой «Смертью».",
     ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

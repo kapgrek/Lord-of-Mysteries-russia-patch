@@ -260,4 +260,9 @@ return {
     ["Professor Hamer left in deep thought. \n Although his figure was lonely, it remained resolute..."] = "Профессор Хеймер ушел в глубокой задумчивости \n Хотя его фигура была одинокой, он все еще был полон решимости...",
     ["Appearance Unlocked"] = "Внешний вид разблокирован",
     ["We will all be punished! We will all die! We will all die!"] = "Мы все будем наказаны! Мы все умрем! Мы все умрем!",
+    ["Default False"] = "По умолчанию ложь",
+    ["Attack <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Deepening increased.\""] = "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Шут></>: «Отменяет негативные эффекты Запечатанного Артефакта, все уровни навыков +1, Углубление урона увеличено».",
+    ["Zion"] = "Сион",
+    ["Sasha"] = "Саша",
+    ["可能是因为我得到的羽毛，你知道这是什么吗？"] = "Возможно, это из-за пера, которое я получил. Знаешь, что это такое?",
 }

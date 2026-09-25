@@ -279,4 +279,7 @@ return {
     ["Attachments cannot be favorited; please collect them as soon as possible."] = "Вложения не могут быть добавлены в избранное; пожалуйста, заберите их как можно скорее.",
     ["Gather collection item with specified TemplateID  Delayed execution  Object plays specified dialogue content  Object plays specified dialogue content  "] = "Сбор элемента коллекции с указанным идентификатором шаблона. Отложенное выполнение. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Royal Glory"] = "Королевская слава",
+    ["Search for the <h>\"Stored\" item</>"] = "Найдите <h>«сохранённый» предмет</>",
+    ["又来了……"] = "Опять началось...",
+    ["采集指定TemplateID的采集物  玩家变身开始"] = "Соберите указанный элемент коллекции TemplateID; начинается трансформация игрока.",
 }

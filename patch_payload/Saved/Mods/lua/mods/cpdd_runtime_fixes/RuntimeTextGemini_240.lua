@@ -263,4 +263,5 @@ return {
     ["[Long-Shot]"] = "[Дальний выстрел]",
     ["[Long-Range Strike] Deals additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] = "[Дальнобойный удар] Наносит дополнительный урон при атаке. Чем больше дистанция до цели, тем выше дополнительный урон.",
     ["Your pieces restore 4% of their maximum Health every 5 seconds."] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
+    ["最美的玫瑰，总在暗夜绽放，总在触碰后留下无法愈合的刺痕。"] = "Самая красивая роза всегда цветет темной ночью, всегда оставляя после прикосновения неизлечимые следы шипов.",
 }

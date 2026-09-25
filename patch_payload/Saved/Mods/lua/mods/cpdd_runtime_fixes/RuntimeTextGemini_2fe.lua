@@ -258,4 +258,5 @@ return {
     ["最高连胜："] = "Макс. серия побед: ",
     ["【绯红信仰】"] = "【Багряная вера】",
     ["Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>."] = "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>.",
+    ["Ben"] = "Бен",
 }

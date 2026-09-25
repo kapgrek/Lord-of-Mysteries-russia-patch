@@ -279,4 +279,7 @@ return {
     ["*Hic*... I, I can still eat!"] = "*Ик*... Я, я все еще могу есть!",
     ["激活羁绊：4"] = "Активировано резонанса: 4",
     ["Equip to gain the [Giant Dragon Inheritance] resonance."] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона].",
+    ["Approach to check the greeting card in the basket"] = "Подход к просмотру открытки в корзине",
+    ["Alberto"] = "Альберто",
+    ["Seize the moment"] = "Поймай миг",
 }

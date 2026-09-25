@@ -249,4 +249,6 @@ return {
     ["It's been a while; the new recruit has already signed the contract."] = "Прошло много времени; новичок уже подписал контракт.",
     ["When the Windmill Turns 99002412"] = "Когда перевернётся ветряная мельница 99002412",
     ["Acting - Bard - Tombstone (Purified)"] = "Действуя - Бард - Надгробие (Очищенный)",
+    ["收集%d/100个异象之物。"] = "Соберите %d/100 объектов феномена.",
+    ["Ernesto"] = "Эрнесто",
 }

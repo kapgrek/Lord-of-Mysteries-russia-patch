@@ -263,4 +263,6 @@ return {
     ["Where... is this..."] = "Где... это...",
     ["Ranged Support"] = "Поддержка дальнего боя",
     ["Randomly gain <HighLight> two 1-star 1-cost Extraordinary World chess pieces </> and <HighLight> one 1-star 3-cost Extraordinary World chess piece </>. Player gains <HighLight> 10 Health </>."] = "Случайным образом даёт <HighLight> две 1-звёздочные фигуры Потустороннего мира за 1 золотой </> и <HighLight> одну 1-звёздочную фигуру Потустороннего мира за 3 золотых </>. Игрок получает <HighLight> 10 ед. здоровья </>.",
+    ["Position 4 Action"] = "Действие 4 позиции",
+    ["Dawson"] = "Доусон",
 }

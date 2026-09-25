@@ -273,4 +273,7 @@ return {
     ["Not entirely. Generally speaking, colleagues of the 'Seer' pathway will write poetry to digest their potion after becoming 'Midnight Poets'."] = "Not entirely. Generally speaking, colleagues of the 'Провидец' pathway will write poetry to digest their potion after becoming 'Полуночный Поэтs'.",
     ["Prompt Text <Dungeon_Highlight>Prompt Text</> Prompt Text"] = "Текст подсказки <Dungeon_Highlight>Текст подсказки</> Текст подсказки",
     ["Dominator's Clash rules"] = "Правила Dominator's Clash",
+    ["God-Forsaken 3 Reserve Extra Damage"] = "God-Forsaken 3 резервирует дополнительный урон",
+    ["Giovanni"] = "Джованни",
+    ["偏见蒙蔽了你的双眼，错误的判断将带来灾难。放下成见，否则你将成为不公的帮凶。"] = "Предрассудки ослепляют ваши глаза; неправильные суждения принесут катастрофу. Откажитесь от своих предубеждений, иначе вы станете соучастником несправедливости.",
 }

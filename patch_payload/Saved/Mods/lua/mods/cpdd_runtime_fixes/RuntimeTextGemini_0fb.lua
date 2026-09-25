@@ -260,4 +260,5 @@ return {
     ["It's dirty. Kidnappers should suffer a little, shouldn't they?"] = "Это грязно. Похитители должны немного пострадать, не так ли?",
     ["Poor working environment"] = "Плохая рабочая среда",
     ["Continue Game"] = "Продолжить игру",
+    ["Function_Gunman shield"] = "Функция_ЩитСтрелка",
 }

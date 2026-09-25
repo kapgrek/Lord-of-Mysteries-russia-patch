@@ -255,4 +255,5 @@ return {
     ["Lower Pants"] = "Нижние брюки",
     ["No! I have to escape quickly, everything is in chaos!"] = "Нет! Мне нужно быстро бежать, все в хаосе!",
     ["The [Power of the Red Moon] within [Moon Corruption] surges, significantly increasing its attributes."] = "[Сила Алой Луны] внутри [Лунного осквернения] бурлит, значительно увеличивая его характеристики.",
+    ["Arlo"] = "Арло",
 }

@@ -259,4 +259,8 @@ return {
     ["装配后获得【巨龙传承】羁绊"] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]",
     ["WBP_AutoChess_Tips_VitalitySchedule"] = "Подсказка AutoChess – График выносливости",
     ["Gain 4 Gold Coins<HighLight></>. For the next 2 rounds<HighLight></>, gain 2 Gold Coins for every 1 enemy piece killed<HighLight></><HighLight></>."] = "Даёт 4 золотые монеты<HighLight></>. В течение следующих 2 раундов<HighLight></> даёт 2 золотые монеты за каждую уничтоженную вражескую фигуру<HighLight></><HighLight></>.",
+    ["Witch battle - Player mood material - Horror Purple"] = "Материал настроения ведьмы-военного игрока-страх фиолетовый",
+    ["Midnight Club, relieving your midnight sorrows\n\nOffers: Song and dance, chess and cards, billiards, mellow wine\n\nReservations for the evening are accepted starting at 2:00 PM; member private rooms require advance booking."] = "Клуб «Полночь» развеет вашу полуночную грусть!\n\nК вашим услугам: живая музыка и танцы, шахматы и карты, бильярд, изысканные выдержанные вина.\n\nБронирование на вечер принимается с двух часов пополудни; клубные ложи требуют предварительной записи.",
+    ["Nearly two hundred years have passed, and I still repeatedly recall that unforgettable starting point, the starting point of the Beyonder path—"] = "Прошло почти двести лет, а я до сих пор неоднократно вспоминаю ту незабываемую отправную точку, отправную точку пути Потустороннего —",
+    ["祝贺你 海默教授 看来你找到了更好的办法"] = "Поздравляю, профессор Хаймер. Кажется, вы нашли лучший способ.",
 }

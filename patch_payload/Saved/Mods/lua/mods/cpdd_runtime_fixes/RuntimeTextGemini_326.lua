@@ -229,4 +229,5 @@ return {
     ["Sir, please retract that statement. Although I am not an aristocrat, my honor is equally inviolable."] = "Сэр, пожалуйста, отзовите это заявление. Хоть я и не аристократ, моя честь столь же неприкосновенна.",
     ["On a route where profit and risk coexist, how will you place your bets?"] = "Как вы будете делать ставки на маршруте, где сосуществуют прибыль и риск?",
     ["Life After the Door"] = "Жизнь за Дверью",
+    ["Gia"] = "Джиа",
 }

@@ -255,4 +255,5 @@ return {
     ["A mahogany music stand stands quietly to the side, bearing the weight of music and text."] = "Пюпитр из красного дерева тихо стоит в стороне, выдерживая вес музыки и текста.",
     ["Iris sparkle brightness"] = "Ирис сияет яркостью",
     ["You are in charge of the Baron's Medicine. You poisoned the Baron while delivering the medicine, faked the illusion that he was still alive, and even forged the crime scene to frame the servants."] = "Вы отвечаете за Лекарство Барона. Вы отравили барона, когда доставляли лекарство, имитировали иллюзию, что он все еще жив, и даже подделали место преступления, чтобы подставить слуг.",
+    ["……这群家伙居然在南瓜里下药！"] = "...Эти ребята на самом деле травят тыквы!",
 }

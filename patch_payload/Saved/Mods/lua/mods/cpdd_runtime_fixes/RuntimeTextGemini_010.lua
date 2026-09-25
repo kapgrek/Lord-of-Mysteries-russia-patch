@@ -247,4 +247,6 @@ return {
     ["The registration for this year's government employee unified exam has started, are you ready?"] = "Регистрация на единый экзамен для госслужащих в этом году началась, вы готовы?",
     ["You have encountered danger multiple times in a short period, but we cannot protect you at all times. You need the ability to protect yourself."] = "Вы сталкивались с опасностью несколько раз за короткий период времени, но мы не можем защитить вас всегда. Вам нужна способность защитить себя.",
     ["№1"] = "№1",
+    ["Nova"] = "Новая звезда",
+    ["据热心市民反映，近期常有来自霍伊大学的学生在墓地做奇怪的事情。"] = "По словам обеспокоенных горожан, студенты Университета Хой в последнее время творят на кладбище странные вещи.",
 }

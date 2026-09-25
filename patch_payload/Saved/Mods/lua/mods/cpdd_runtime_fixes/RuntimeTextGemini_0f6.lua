@@ -258,4 +258,7 @@ return {
     ["Collect materials..."] = "Собрать материалы...",
     ["For every 1 Resonance activated, all allies gain additional Attack, up to 10 Resonances."] = "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов.",
     ["Enter Super Armor for <HighLight>4</> seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of <Yellow>146</> Attack damage."] = "Получает Неудержимость на <HighLight>4</> сек. и шесть раз подряд рассекает окружающих врагов Бурей клинков, нанося в сумме <Yellow>146</> ед. урона от атаки.",
+    ["Do Not Obtain Secret Information"] = "Не получайте секретную информацию",
+    ["Isla"] = "Исла",
+    ["指定地点附近使用任务道具  玩家发送任务道具  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Использовать квестовый предмет рядом с указанным местом: игрок отправляет квестовый предмет, игрок воспроизводит текст, видимый только ему, отложенное выполнение, игрок воспроизводит текст, видимый только ему.",
 }

@@ -264,4 +264,7 @@ return {
     ["If you don't become a True God, you will end up as ashes!"] = "Если ты не станешь Истинным Богом, ты превратишься в пепел!",
     ["Standard Sealed Artifact Pool"] = "Стандартный Запечатанный Бассейн Артефактов",
     ["New arrivals for Spirit World Summon"] = "Новинки Призыва Мира Духов",
+    ["Sediment at the bottom of the cup is normal. Wishing you a peaceful night."] = "Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
+    ["Milana"] = "Милана·",
+    ["Zahir"] = "Захир",
 }

@@ -248,4 +248,7 @@ return {
     ["Floating-point number, unit seconds"] = "Число с плавающей запятой, единицы секунды",
     ["装配后获得【通识者】羁绊。"] = "Экипируйте, чтобы получить резонанс [Знаток].",
     ["Equip to gain the [Savant] resonance"] = "Экипируйте, чтобы получить резонанс [Знаток]",
+    ["<CostRed>{1,2,（烙印已失效）}</>Crit rate increased by <Mark>100</>. After entering combat, Crit rate is additionally increased by <Mark>10</> every <Mark>5</> seconds, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Срок действия клейма истек)}</>Критическая атака увеличена на <Mark>100</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["Nydia"] = "Нитья ·",
+    ["A squirrel, a cute, special child, its body is a bit special. Just right, I am also \"a bit special\" now. What name should I give it?"] = "Белочка, милый, особенный ребенок, ее тело немного особенное. Точно, я теперь тоже «немного особенный». Какое имя мне ему дать?",
 }

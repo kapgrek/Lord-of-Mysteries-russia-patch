@@ -242,4 +242,6 @@ return {
     ["The line is finally moving..."] = "Очередь наконец-то двинулась...",
     ["That's wonderful! This music truly has magic. Aiden was right—as long as you believe, it can definitely be done!"] = "Это замечательно! В этой музыке действительно есть волшебство. Эйден был прав: пока ты веришь, это определенно осуществимо!",
     ["Master various strange but limited-harm Illusion Tricks, showcase magnificent performances through specialized prop boxes, fool the viewers, and capture a Record of the moment.\nIncreases your Knowledge by 3 and Might by 1."] = "Овладейте причудливыми, но безобидными иллюзорными фокусами, чтобы показывать эффектные представления с помощью особого реквизита, морочить зрителей и запечатлеть этот миг.\nПовышает собственное Знание на 3 и Силу на 1.",
+    ["Brill"] = "Брилл",
+    ["Post-processing type configuration not found"] = "Конфигурация типа постобработки не найдена",
 }

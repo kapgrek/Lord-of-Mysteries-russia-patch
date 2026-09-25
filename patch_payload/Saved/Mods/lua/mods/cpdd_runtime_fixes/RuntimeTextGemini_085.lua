@@ -272,4 +272,7 @@ return {
     ["[Greed Factory]"] = "【Фабрика жадности】",
     ["Randomly gain 1 piece of Basic Equipment<HighLight></> and 3 Gold Coins<HighLight></>. At the start of the next round<HighLight></>, randomly gain 1 piece of Fine Equipment<HighLight></> and 3 Gold Coins<HighLight></>."] = "Случайным образом даёт 1 базовое снаряжение<HighLight></> и 3 золотые монеты<HighLight></>. В начале следующего раунда<HighLight></> даёт 1 отличное снаряжение<HighLight></> и 3 золотые монеты<HighLight></>.",
     ["Rare · Sinister Star Instrument"] = "Редкое · Зловещий звездный инструмент",
+    ["Eliana"] = "Элиана ·",
+    ["Sound effect [%s] does not have corresponding lua configuration information generated yet. Please run the script locally to generate it\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat"] = "Для звукового эффекта [%s] ещё не сгенерирована соответствующая конфигурация Lua. Запустите скрипт локально для её создания:\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat",
+    ["Bryson"] = "Брайсон",
 }

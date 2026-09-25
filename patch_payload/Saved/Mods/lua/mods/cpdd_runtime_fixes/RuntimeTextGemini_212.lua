@@ -236,4 +236,6 @@ return {
     ["Opportunity will not treat anyone who is prepared unfairly; the moment the government employee examination opens is the best chance for ordinary people."] = "Opportunity не будет относиться несправедливо к тем, кто к этому готов; момент открытия экзамена для госслужащих – лучший шанс для простых людей.",
     ["权欲汇于时代激流，野心点燃社会暗面。行于欲望与黑暗之间，你是追猎腐朽的捕手，也是搅弄风云的利剑。"] = "Жажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
     ["For each member deployed, all gain seat attributes:\nFors: 💧+1 pt\nDerrick: 🌿+2% | Hugh Dilcha: 🔥+7%\nAlger: ⚡+8% | Audrey: 🥊+5%\nLeonard: ❤️+5% | Klein: 📣+10%"] = "За каждого выставленного участника все получают свойства его места:\nФорс: 💧+1 оч.\nДеррик: 🌿+2% | Хью Дилча: 🔥+7%\nЭлджер: ⚡+8% | Одри: 🥊+5%\nЛеонард: ❤️+5% | Клейн: 📣+10%",
+    ["Lightning Storm Locked Red Portal"] = "Lightning Storm запер красный портал",
+    ["Ximena"] = "Химена",
 }

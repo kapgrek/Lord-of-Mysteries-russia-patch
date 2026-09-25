@@ -281,4 +281,6 @@ return {
     ["The gold pounds in your pocket jingle—perhaps there will be unexpected income today!"] = "Золотые фунты в кармане звенят — возможно, сегодня будет неожиданный доход!",
     ["Your Inspiration has indicated a safe distance; follow closely, but be careful not to get too close or you will be discovered."] = "Ваше Вдохновение указало на безопасное расстояние; Следуйте внимательно, но будьте осторожны и не подходите слишком близко, иначе вас обнаружат.",
     ["Worried Nighthawk"] = "Обеспокоенный ночной ястреб",
+    ["Flynn"] = "Флинн",
+    ["Alana"] = "Алана",
 }

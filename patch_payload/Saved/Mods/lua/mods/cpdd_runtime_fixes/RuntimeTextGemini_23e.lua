@@ -229,4 +229,5 @@ return {
     ["One Pot Sweep - Supreme Radish Count"] = "Одна чистка горшка — превосходный счет редиса",
     ["Participating in the dungeon <Highlight>May Manor · Garden (Hard)</> in party mode and defeating <Highlight>Ancestor Armor</> allows you to participate in the distribution and auction of public drops. There is a chance to obtain tradable items."] = "Участие в подземелье <Highlight>Поместье Мэй · Garden (Hard)</> в режиме группы и победа над <Highlight>Ancestor Armor</> позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить торгуемые предметы.",
     ["全体每秒恢复<HighLight>3</>点法力。【秘法】额外<HighLight>9</>点。"] = "Все восстанавливают <HighLight>3</> ед. маны в сек. 【Тайная магия】 дополнительно <HighLight>9</> ед.",
+    ["Gain <HighLight> 8 Gold Coins </> and <HighLight> 1 Experience </>."] = "Получите <HighLight>8 золотых монет</> и <HighLight>1 опыт</>.",
 }

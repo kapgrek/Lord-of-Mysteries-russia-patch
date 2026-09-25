@@ -266,5 +266,8 @@ return {
     ["Looks like an old man... May he rest in peace."] = "Похож на старика... Пусть упокоится с миром.",
     ["After each Basic Attack, Attack Speed increases by <HighLight>10%</>, stacking up to <HighLight>10</> times."] = "После каждой базовой атаки скорость атаки увеличивается на <HighLight>10%</>, максимум <HighLight>10</> ур.",
     ["<InvDefault>Hairstyle 【Wild Rose】</>"] = "<InvDefault>Причёска 【Дикая роза】</>",
+    ["喏 ，就是那些小猫们！还有谁比这些小家伙更懂鱼呢？要是连它们都能被吸引，那说明我这配方是真成功了！"] = "Гляди, вон те котята! Кто разбирается в рыбе лучше этих малышей? Если уж они соблазнились, значит, мой рецепт и впрямь удался!",
+    ["Coordinates:"] = "Координаты:",
+    ["Dakota"] = "Дакота",
     ["Chess Trials"] = "Шахматные испытания",
 }

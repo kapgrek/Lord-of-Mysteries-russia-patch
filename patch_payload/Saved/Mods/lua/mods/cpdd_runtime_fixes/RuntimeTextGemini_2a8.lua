@@ -254,4 +254,5 @@ return {
     ["I have quite a few magical medicines here."] = "У меня здесь довольно много волшебных лекарств.",
     ["Penelope"] = "Пенелопа",
     ["\"Shh.\" \n \"Justice\" gently interrupted your words."] = "«Шшш». \n Мисс «Справедливость» мягко прервала вас.",
+    ["Profession ID:"] = "ID профессии:",
 }

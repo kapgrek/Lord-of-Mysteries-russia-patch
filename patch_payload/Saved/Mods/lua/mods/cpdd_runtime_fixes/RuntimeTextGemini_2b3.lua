@@ -232,4 +232,5 @@ return {
     ["Your sanity is already teetering, but you clearly heard it ask you: '...will you come again next time?'"] = "Ваше здравомыслие уже колеблется, но вы ясно слышите, как оно спрашивает вас: «...придешь ли ты снова в следующий раз?»",
     ["Before your eyes, the most charming moment of this land emerges."] = "Перед вашими глазами предстает самый очаровательный момент этой земли.",
     ["黑夜"] = "Ночь",
+    ["RequestCutsceneActorComposite: 找不到 ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",
 }

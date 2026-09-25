@@ -249,4 +249,11 @@ return {
     ["<Highlight>{1,2,(Brand Expired)}</>Pathway Special Defense increased by <Mark>300</>. Taking damage has a chance to trigger an Encounter, increasing Pathway Special Defense by <Mark>180</> for <Mark>10</> seconds, with a maximum trigger frequency of once every <Mark>30</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специальная защита увеличивается на <Mark>300</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>.",
     ["Roxanne "] = "Роксана",
     ["4 [Spellcasting] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["<HighLight>%d</>项"] = "<HighLight>%d</> шт.",
+    ["Hour hand stationary Phantom Shadow"] = "Фантомная тень неподвижной часовой стрелки",
+    ["Focus fire statue mark"] = "Знак статуи «Фокус огня»",
+    ["Obsession Entity"] = "Сущность одержимости",
+    ["Nia"] = "Ния",
+    ["明天醒来，我可能又会忘记，但没关系，南瓜田还在这里，老查克的烈酒还在卖，柯莱的孙女还在奔跑。"] = "Когда я проснусь завтра, я, возможно, снова забуду, но это нормально. Тыквенное поле все еще здесь, ликер Старого Чака все еще продается, а внучка Колли все еще бегает.",
+    ["伦纳德刚出完任务回来，我正好要去找他，可以帮你转交。"] = "Леонард только что вернулся с задания, я собираюсь его найти и могу помочь тебе передать это.",
 }

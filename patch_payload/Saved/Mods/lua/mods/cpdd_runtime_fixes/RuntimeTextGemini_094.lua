@@ -257,4 +257,5 @@ return {
     ["Hall Entrance Trigger"] = "Триггер входа в зал",
     ["The cafe is just a disguise. This place is favored by fate, so only special people can push open the door."] = "Кафе - это всего лишь маскировка. Этому месту благоволит судьба, поэтому открыть дверь смогут только особенные люди.",
     ["Resonance Agitation"] = "Волнение резонанса",
+    ["与奥黛丽好感度达到%d/5级。"] = "Достигните уровня благосклонности %d/5 вместе с Одри.",
 }

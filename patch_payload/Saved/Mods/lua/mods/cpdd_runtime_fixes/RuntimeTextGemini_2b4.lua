@@ -257,4 +257,7 @@ return {
     ["Check on Brandon's condition"] = "Проверить состояние Брэндона",
     ["{{Mr.|Ms.}}, if you see my bird, please leave quietly and don't disturb it."] = "{{Mr.|Ms.}}, если ты увидишь мою птицу, пожалуйста, тихо уйди и не беспокой ее.",
     ["Alchemical Leyline"] = "Алхимическая силовая линия",
+    ["Enter the <h>house</>"] = "Войдите в <h>дом</>",
+    ["议事厅等级下降提醒"] = "Напоминание о понижении уровня Зала Совета",
+    ["Lorelei"] = "Лорелей",
 }

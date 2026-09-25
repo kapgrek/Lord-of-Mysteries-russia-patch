@@ -252,4 +252,6 @@ return {
     ["装配后获得【黑夜】羁绊。"] = "Экипируйте, чтобы получить резонанс [Ночь].",
     ["Mid-row Assassin"] = "Убийца среднего ряда",
     ["After receiving damage, deal <HighLight>90</> damage to enemies within <HighLight>1</> tile; Cooldown is <HighLight>2</> seconds."] = "При получении урона наносит <HighLight>90</> ед. урона врагам в пределах <HighLight>1</> клетки. Перезарядка: <HighLight>2</> сек.",
+    ["Function_Interrupt prayer"] = "Function_Interrupt Молитва",
+    ["前往指定场景  玩家播放主线任务开始展示界面"] = "Перейти к указанной сцене; игрок играет в интерфейс отображения начала основного квеста.",
 }

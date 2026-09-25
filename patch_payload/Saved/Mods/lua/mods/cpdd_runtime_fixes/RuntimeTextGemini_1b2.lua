@@ -266,4 +266,7 @@ return {
     ["Dedicated Mailbox"] = "Выделенный почтовый ящик",
     ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17411</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17411</>",
     ["Equip to gain the [Corpse Collector] bond."] = "Экипируйте, чтобы получить резонанс [Сборщик Трупов].",
+    ["Thank Mr. <h>\"The Fool\"</>"] = "Поблагодарите <h>мистера Шута</>",
+    ["但这么珍贵的东西，一般不会凭空出现。是你最近向愚者祈求了什么吗？"] = "Но столь ценная вещь обычно не появляется из ниоткуда. Ты случайно не молился недавно Господину Шуту?",
+    ["“艾拉”"] = "Айла",
 }

@@ -246,4 +246,6 @@ return {
     ["Determine if the player is in a social state"] = "Определить, находится ли игрок в социальном состоянии",
     ["Book 2"] = "Книга 2",
     ["Inner City 3 Material"] = "Материал «Внутренний город 3»",
+    ["Go to the Evil Dragon Bar underground market to find Paul and inquire if Charlie had come into contact with any mystical items; reveal your identity to the boss, Swain, to gain access to the underground market for investigation."] = "Отправляйтесь на подземный рынок Evil Dragon Bar, чтобы найти Пола и узнать, вступал ли Чарли в контакт с какими-либо мистическими предметами; раскройте свою личность боссу Суэйну, чтобы получить доступ к подземному рынку для расследования.",
+    ["莉娅？哦，那个在孤儿院总做噩梦的小姑娘，看来梦境里的小魔术生效了。这是……她手抄的诗？给我的？"] = "Лия? О, эта маленькая девочка, которой постоянно снятся кошмары в приюте, похоже, маленькое волшебство во сне сработало. Это... стихотворение, которое она скопировала? Для меня?",
 }

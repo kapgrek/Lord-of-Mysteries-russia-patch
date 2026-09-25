@@ -266,4 +266,6 @@ return {
     ["You mean... the food wasn't made by him? As a head chef, maybe he doesn't need to cook personally?"] = "Ты имеешь в виду... еду готовил не он? Ему как шеф-повару, может быть, не нужно готовить лично?",
     ["Street - Stephens Street - South"] = "Улица – Стивенс-стрит – Юг",
     ["I understand. I used to be a nurse and know how cruel war is; the trauma you have suffered cannot be erased."] = "Я понимаю. Раньше я работала медсестрой и знала, насколько жестока война; Травму, которую вы перенесли, невозможно стереть.",
+    ["Immobilization before execution"] = "Иммобилизация перед казнью",
+    ["播放Dialogue  玩家发送任务道具"] = "Игра «Диалог». Игрок отправляет квестовый предмет.",
 }

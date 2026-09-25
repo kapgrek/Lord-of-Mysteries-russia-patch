@@ -228,4 +228,8 @@ return {
     ["Summon an Imaginary Minion near a single enemy within a 15-meter radius. After the Imaginary Minion levitates, it will continuously fire <HighLight>4</> tracking bullets at the target, each dealing bulletdisc(*id) damage."] = "Призывает Фантазийного миньона рядом с одиночным врагом в радиусе 15 метров. Взмыв в воздух, Фантазийный миньон выпускает в цель <HighLight>4</> самонаводящихся снаряда, каждый из которых наносит bulletdisc(*id) ед. урона.",
     ["(Hero) Clown Research 2049 success buff added to clone"] = "(Герой) В клон добавлен положительный эффект успеха Клоун Research 2049.",
     ["Equip to gain the [Criminal] resonance."] = "Экипируйте, чтобы получить резонанс [Преступник].",
+    ["Kaili"] = "Келли·",
+    ["So, go to sleep again, until the moment that I should wake up."] = "Итак, снова засыпаю, до того момента, пока мне не придется проснуться.",
+    ["The apocalypse... how much time is left?"] = "Апокалипсис... сколько времени осталось?",
+    ["监听界面关闭  玩家播放仅自己可见的说话文本  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Прослушивание закрытия интерфейса, игрок воспроизводит речевой текст, видимый только ему, объект телепортируется в указанную позицию в указанной сцене (игроки поддерживают телепортацию между сценами, NPC могут телепортироваться только в пределах одной сцены)",
 }

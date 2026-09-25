@@ -244,4 +244,6 @@ return {
     ["A Fun Mini-game: Accept Mission"] = "Веселая мини-игра: принять миссию",
     ["Automatically exit after %s seconds"] = "Автоматически выйти через %s секунд",
     ["It seems he's trying to find his way home and fulfill an unfinished promise."] = "Кажется, он пытается найти дорогу домой и выполнить невыполненное обещание.",
+    ["<Favorite1>灵性共鸣</>"] = "<Favorite1>Духовный резонанс</>",
+    ["Astrid"] = "Астрид",
 }

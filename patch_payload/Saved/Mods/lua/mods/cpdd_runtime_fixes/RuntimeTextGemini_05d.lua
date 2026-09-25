@@ -273,4 +273,5 @@ return {
     ["Spice vendor - Kariya"] = "Торговец специями - Кария",
     ["Cast skill at half HP"] = "Применение навыка при половине здоровья",
     ["Announcement! Important news!"] = "Объявление! Важная новость!",
+    ["Demira"] = "Демира",
 }

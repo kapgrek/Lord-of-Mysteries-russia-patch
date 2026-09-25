@@ -279,4 +279,5 @@ return {
     ["【刺客】"] = "[Ассасин]",
     ["Upon reaching <HighLight> level 6 </>, gain <HighLight> one Fine Equipment Casket </>. Upon reaching <HighLight> level 8 </>, gain <HighLight> one Sealed Equipment Casket </>."] = "При достижении <HighLight> 6-го уровня </> даёт <HighLight> один ларец с отличным снаряжением </>. При достижении <HighLight> 8-го уровня </> даёт <HighLight> один запечатанный ларец снаряжения </>.",
     ["首次低于<HighLight>40%</>生命值时，获得相当于<HighLight>12%</>最大生命值的护盾，持续<HighLight>5</>秒。"] = "Когда здоровье впервые опускается ниже <HighLight>40%</>, получает щит в размере <HighLight>12%</> от максимального здоровья на <HighLight>5</> сек.",
+    ["采集指定TemplateID的采集物  对象转向坐标"] = "Собрать элемент с указанным TemplateID, объект превращается в координаты",
 }

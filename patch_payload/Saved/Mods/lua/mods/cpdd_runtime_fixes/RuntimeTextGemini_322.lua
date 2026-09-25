@@ -253,4 +253,8 @@ return {
     ["Anomaly Event - The Taste of a Witch - Reporting to Frye"] = "Аномальное событие — Вкус ведьмы — Отчет Фраю",
     ["装配后获得【水手】羁绊。"] = "Экипируйте, чтобы получить резонанс [Моряк].",
     ["All allies gain 10% Attack. [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["BattleRoom_InsideMemberItemBase 非法槽位 %s, %s, %s"] = "BattleRoom_InsideMemberItemBase: недопустимый слот %s, %s, %s",
+    ["Luciana"] = "Лусиана",
+    ["任务自定义事件  传送回大世界场景"] = "Пользовательское событие миссии телепортируется обратно на большую мировую сцену.",
+    ["噩梦吐息"] = "Кошмарное дыхание",
 }

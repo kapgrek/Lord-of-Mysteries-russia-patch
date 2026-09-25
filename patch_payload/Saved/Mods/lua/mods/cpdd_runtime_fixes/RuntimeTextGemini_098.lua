@@ -283,5 +283,11 @@ return {
     ["During the gray fog Blessing, every time you use a Skill or Basic Attack, you gain a small amount of Shield (based on max Health). Can only be triggered once every 2 seconds."] = "Во время благословения серого тумана каждое применение навыка или базовой атаки даёт небольшой щит (зависит от максимального здоровья). Срабатывает не чаще одного раза в 2 сек.",
     ["Highest Win Streak"] = "Макс. серия побед",
     ["Immediately gain 1 of each 1-cost piece<HighLight></>."] = "Немедленно даёт по 1 штуке каждой фигуры за 1 золотой<HighLight></>.",
+    ["拿走<h>斧头</>"] = "Возьмите топор<h></>.",
+    ["Arm monster Armor Break"] = "Рука Монстр Прорыв Брони",
+    ["将死亡骑士引渡至此，令冥皇苍白的秘宝再度归于正统。"] = "Экстрадируйте сюда Рыцаря Смерти, чтобы бледное тайное сокровище Императора Подземного мира могло снова вернуться в ортодоксальность.",
+    ["Malaya"] = "Малая",
+    ["杂鱼 杂鱼~オチンチンがぽっきできでない杂鱼 杂鱼~体がよわ~"] = "Мелкая рыбешка, мелкая рыбешка~オチンチンがぽっきできでない мелкая рыбешка, мелкая рыбешка~ твое тело такое слабое~",
+    ["My name is Kangxiuna, I think my name is Kangxiuna, everyone calls me Kangxiuna.\nHi, I'm a clerk at the bookstore, is there anything I can help you with?\nNo, I want to leave! Leave! I want to drink soup with temperature! Read books that can be opened!\n...Kangxiuna.\nMy name is Kangxiuna, I'm a clerk at the bookstore.\nKangxiuna.\n...Who are you?"] = "Меня зовут Консьона, я думаю, меня зовут Консьона, все зовут меня Консьона. \n Привет, я продавец в книжном магазине. Могу я чем-нибудь помочь? \n Нет, я хочу уйти! оставлять! Я хочу выпить теплый суп! Прочтите книгу, которую можно открыть! \n…Консона. \n Меня зовут Кан Сюна, я работаю продавцом в книжном магазине. \nКонсьона. \n...кто ты?",
     ["弈子列表："] = "Список фигур:",
 }

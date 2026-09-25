@@ -261,4 +261,8 @@ return {
     ["\nForgive me for leaving without saying goodbye.\nThe kiss tonight has already made me lose all my reason,\nIf I stayed any longer, I fear I would do something even crazier.\nBut such a meeting was too hasty; you deserve better.\nThree days from now, at midnight, by the pond where the water lilies bloom in the suburbs.\nBy then, I will have everything ready... waiting for you to come and taste the complete me."] = "\nПрости, что ушел, не попрощавшись. \nСегодняшний поцелуй лишил меня всякого рассудка. \nЕсли я останусь здесь еще, боюсь, я сделаю что-то еще более безумное. \nНо такая встреча слишком поспешна, ты заслуживаешь лучшего. \n Через три дня, в полночь, в Подмосковье появился пруд с цветущими кувшинками. \nТогда я все приготовлю... жду, когда ты попробуешь меня целиком.",
     ["[Gather] Home - Check Ground (Ritual)"] = "[Сбор] Дом – Проверка земли (Ритуал)",
     ["Adventure Challenge"] = "Приключенческий вызов",
+    ["Cyprian"] = "Киприан",
+    ["Romeo"] = "Ромео",
+    ["那我以后要去哪里找你？"] = "Тогда где мне найти тебя в будущем?",
+    ["空步骤  玩家播放情绪音乐（仅自己可听）"] = "Пустой шаг, проигрыватель играет эмоциональную музыку (слышно только самому себе)",
 }

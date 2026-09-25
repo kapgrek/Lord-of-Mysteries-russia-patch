@@ -265,4 +265,7 @@ return {
     ["Bedtime Story-6 [Reach Location] Go to the Archives"] = "Сказка на ночь-6 [Достичь локации] Перейти в архивы",
     ["A Corner of the Lakeside"] = "Уголок на берегу озера",
     ["When dealing or receiving damage, Attack increases by <HighLight>1%</>, stacking up to <HighLight>10</> times."] = "При нанесении или получении урона атака увеличивается на <HighLight>1%</>, максимум <HighLight>10</> ур.",
+    ["AI路径:"] = "Путь ИИ:",
+    ["Chaya"] = "Хая",
+    ["Zavier"] = "Завьер",
 }

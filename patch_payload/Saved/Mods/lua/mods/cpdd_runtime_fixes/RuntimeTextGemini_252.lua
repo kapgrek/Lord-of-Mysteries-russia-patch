@@ -235,4 +235,9 @@ return {
     ["Gather to share the damage!"] = "Соберитесь, чтобы разделить ущерб!",
     ["Rob Evil"] = "Роб Зло",
     ["Rare Relic"] = "Редкая реликвия",
+    ["Place the <h>Red Moon card</> on the altar"] = "Поместите карту Багровой Луны на алтарь<h></>.",
+    ["播放Dialogue  传送到指定场景的坐标位置"] = "Играть в диалог; телепортироваться в указанное место с координатами сцены.",
+    ["Looping sound effect [%s], [Interrupt Mode] cannot be configured as [NOT_INTERRUPT]"] = "Зацикленный звуковой эффект [%s], [Режим прерывания] не может быть настроен как [NOT_INTERRUPT]",
+    ["不是兄弟了"] = "Больше не братья.",
+    ["职业ID:"] = "ID профессии:",
 }

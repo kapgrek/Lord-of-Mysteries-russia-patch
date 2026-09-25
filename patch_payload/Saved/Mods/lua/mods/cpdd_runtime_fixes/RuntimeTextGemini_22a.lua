@@ -250,4 +250,7 @@ return {
     ["What are you guys talking about?"] = "О чем вы, ребята, говорите?",
     ["David"] = "Дэйвид",
     ["<HighLight> Maximum units on board +2 </>, your chess pieces gain <HighLight> 10% Damage Reduction </>, but the player's <HighLight> maximum Health is reduced by 50 points </>."] = "<HighLight> Лимит фигур на доске +2 </>, ваши фигуры получают <HighLight> 10% снижения урона </>, но <HighLight> макс. здоровье игрока снижается на 50 ед. </>",
+    ["Touch the <h>future fate</>"] = "Прикоснитесь к <h>будущей судьбе</>",
+    ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
+    ["Ievette"] = "Иветт",
 }

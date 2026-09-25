@@ -239,4 +239,7 @@ return {
     ["An old apartment where the child of a master locksmith locked themselves inside, and even the master himself cannot open it."] = "Старая квартира, где ребенок мастера-слесаря ​​заперся внутри, и открыть ее не может даже сам мастер.",
     ["陛下，有您的电话——来自家人、故人、某些盟友、以及素未谋面的挑战者们。"] = "Ваше Величество, вам звонят: семья, старые друзья, некоторые союзники и претенденты, с которыми вы ещё не встречались.",
     ["AutoChess Tips – Vitality Schedule"] = "Подсказка AutoChess – График выносливости",
+    ["Milgongen mark Buff"] = "Милгонген Марк Бафф",
+    ["Milo"] = "Майло",
+    ["贝尔曼"] = "Беллман",
 }

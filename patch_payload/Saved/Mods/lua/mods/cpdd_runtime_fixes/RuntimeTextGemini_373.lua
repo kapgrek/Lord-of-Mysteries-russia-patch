@@ -250,4 +250,6 @@ return {
     ["Complete activity quests to earn rewards"] = "Выполняйте задания активности, чтобы получить награды.",
     ["Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and Darkness, you are a hunter chasing decay, and a sharp blade stirring up the winds."] = "Жажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
     ["[Spellcasting]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
+    ["可算活着回来了，今晚得好好找个“安慰”。"] = "Наконец-то вернулся живым, сегодня вечером нужно найти себе «утешение».",
+    ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное место. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

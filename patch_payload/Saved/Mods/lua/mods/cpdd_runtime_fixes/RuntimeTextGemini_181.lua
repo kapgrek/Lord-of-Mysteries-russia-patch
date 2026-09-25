@@ -268,4 +268,6 @@ return {
     ["Long-Range Strike"] = "Дальнобойный удар",
     ["Forsaken Land of the Gods Badge"] = "Эмблема Земель, отвергнутых Богами",
     ["Iron Helmet"] = "Железный шлем",
+    ["Defense <Highlight>Mutated Material</> with the affix <Highlight><愚者></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Reduction increased.\""] = "Защитная <Highlight>мутировавшая материя</> со свойством <Highlight><Шут></>: «Нейтрализует отрицательные эффекты Запечатанных Артефактов, повышает уровень всех навыков на 1, увеличивает снижение урона».",
+    ["Kashidun"] = "Кашидун",
 }

@@ -252,4 +252,6 @@ return {
     ["【双向自愈】"] = "【Двустороннее исцеление】",
     ["Randomly gain <HighLight> one offensive fine equipment </> and <HighLight> one defensive fine equipment </>."] = "Случайным образом даёт <HighLight> одно атакующее отличное снаряжение </> и <HighLight> одно защитное отличное снаряжение </>.",
     ["白井秋绘"] = "Акиэ Сираи",
+    ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
+    ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

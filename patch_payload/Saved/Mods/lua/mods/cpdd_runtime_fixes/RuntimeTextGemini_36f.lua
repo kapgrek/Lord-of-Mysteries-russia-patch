@@ -251,4 +251,8 @@ return {
     ["My lord, you don't seem to do this often."] = "Милорд, кажется, вы не часто это делаете.",
     ["If only I could taste his wine. Oh no, I mean, my pumpkins are much better than his wine. If he wants them, I can certainly generously exchange with him!"] = "Если бы я только мог попробовать его вино. О нет, я имею в виду, что мои тыквы намного лучше, чем его вино. Если он захочет их, я, конечно, могу щедро с ним обменять!",
     ["No one is allowed to leave here until the trophy is found!"] = "Никому не разрешено отсюда выходить, пока трофей не будет найден!",
+    ["Take the <h>axe</>"] = "Возьмите топор<h></>.",
+    ["Annalise"] = "Аннализа",
+    ["<P_Heart>（固执）</>才不会！吸血鬼大人只会温柔地吻我，才不会伤害我！"] = "<P_Heart>(упрямо)</> Нет, не будут! Лорд Вампир лишь нежно поцелует меня; он не причинит мне вреда!",
+    ["Go to the designated location to explore"] = "Отправляйтесь в указанное место для исследования",
 }

@@ -246,4 +246,5 @@ return {
     ["Reading puzzle 18/20, enter the correct option area within the time limit!"] = "Читая головоломку 18/20, войдите в правильную область выбора в течение отведенного времени!",
     ["Equip to gain the [Giant Dragon Inheritance] bond"] = "Экипируйте, чтобы получить резонанс [Наследие Гигантского Дракона]",
     ["Randomly obtain <HighLight>two</> [Steam Age] pieces of Equipment."] = "Случайным образом даёт <HighLight>два</> снаряжения [Эпохи пара].",
+    ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

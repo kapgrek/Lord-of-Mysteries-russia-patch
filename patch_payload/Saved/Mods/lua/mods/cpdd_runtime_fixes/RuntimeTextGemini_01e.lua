@@ -277,4 +277,6 @@ return {
     ["Arm Guard Visibility"] = "Видимость защиты рук",
     ["Didn't Mr. Morian come here after reading that article too?"] = "Разве мистер Мориан не пришел сюда после прочтения этой статьи?",
     ["6 [Spellcasting] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "6 [Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
+    ["Sasrir Sacrifice Monster link to boss buff"] = "Сасрил пожертвовал баффом монстра, чтобы соединиться с боссом.",
+    ["丰饶的气息……或许也是一种扭曲和污染，一种背叛和诅咒……"] = "Аромат изобилия... возможно, это тоже своего рода искажение и порча, своего рода предательство и проклятие...",
 }

@@ -216,4 +216,5 @@ return {
     ["Use to obtain the title: <Highlight> Adventure · Lord of Stars </>"] = "Используйте для получения титула: <Highlight> Adventure · Lord of Stars </>",
     ["Seer Pathway Mentor"] = "Наставник Пути Провидца",
     ["I specially prepared such an outfit; in the words of the locals in Bayam, this is the symbol of a civilized person!"] = "Я специально подготовил такой наряд; по словам местных жителей Баяма, это символ цивилизованного человека!",
+    ["<P_Heart>（笑）</>你这双手，我怎么舍得让你受累呢。"] = "<P_Heart>（С улыбкой）</> Разве могу я позволить таким нежным рукам трудиться?",
 }

@@ -283,4 +283,5 @@ return {
     ["Uh, indeed, if you go further south from Lower Street, it's the slums and the factory district."] = "Да, действительно, если пойти дальше на юг от Лоуэр-стрит, это трущобы и фабричный район.",
     ["This match has not ended, cannot claim rewards yet"] = "Этот матч еще не завершен, пока нельзя получить награды.",
     ["The Great Master"] = "Великий Мастер",
+    ["Mark_Gunman crawling on the ground"] = "Mark_Gunman Ползает по земле",
 }

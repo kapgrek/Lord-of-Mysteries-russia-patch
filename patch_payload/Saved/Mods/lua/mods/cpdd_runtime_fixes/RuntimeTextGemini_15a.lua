@@ -221,5 +221,7 @@ return {
     ["装配后获得【磐石】羁绊"] = "Экипируйте, чтобы получить резонанс [Скала]",
     ["[Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["Lord of Mysteries Y1S1.2 Online Hotfix Announcement"] = "«Повелитель Тайн»: объявление об онлайн-исправлениях Y1S1.2",
+    ["<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Auction Rewards</><img id=\"Tips\" width=\"46\" height=\"46\"/>"] = "<img id=\"Tips\" width=\"46\" height=\"46\"/><Title>Награды аукциона</><img id=\"Tips\" width=\"46\" height=\"46\"/>",
+    ["播放CutScene  延迟执行  玩家停止自己播放情绪音乐  玩家播放主线任务开始展示界面"] = "Воспроизведение CutScene, задержка выполнения, игрок перестает воспроизводить эмоциональную музыку, игрок воспроизводит основной интерфейс начала квеста",
     ["Pieces List"] = "Список фигур",
 }

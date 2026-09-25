@@ -242,4 +242,5 @@ return {
     ["I love you!"] = "Я тебя люблю!",
     ["Search Range"] = "Диапазон поиска",
     ["<P_Heart> (You must be talking about that lady on the street corner.) </>"] = "<P_Heart> (Вы, должно быть, имеете в виду ту женщину на углу улицы.) </>",
+    ["Colson"] = "Колсон",
 }

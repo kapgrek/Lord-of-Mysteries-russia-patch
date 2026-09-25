@@ -254,4 +254,7 @@ return {
     ["Marta"] = "Марта",
     ["Dunn's route to Welch's house door"] = "Путь Данна к двери дома Уэлча",
     ["Place aura on the ground"] = "Поместите ауру на землю",
+    ["Chapter名:"] = "Название главы:",
+    ["Azir"] = "Азир",
+    ["与Npc进行闲话  NPC交互状态"] = "Пообщайтесь с NPC. Статус взаимодействия с NPC.",
 }

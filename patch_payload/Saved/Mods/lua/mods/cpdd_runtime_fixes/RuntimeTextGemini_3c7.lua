@@ -243,4 +243,5 @@ return {
     ["Then thank you very much!"] = "Тогда большое спасибо!",
     ["Escape Trick damage increased by 30%."] = "Урон от трюка с побегом увеличен на 30%.",
     ["Just average. My name is Rebecca, and I am the owner of Fate Café."] = "Просто средний. Меня зовут Ребекка, и я владелица Fate Café.",
+    ["Cadence"] = "Каденс",
 }

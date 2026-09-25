@@ -240,4 +240,7 @@ return {
     ["Quest 14 - Save"] = "Квест 14 – Спасение",
     ["Pressure plate A initial state"] = "Нажимная пластина Исходное состояние",
     ["Rotten Tomato Count"] = "Граф гнилых помидоров",
+    ["Luciano"] = "Лучано",
+    ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Play Dialogue Player создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
+    ["Jania"] = "Яния",
 }

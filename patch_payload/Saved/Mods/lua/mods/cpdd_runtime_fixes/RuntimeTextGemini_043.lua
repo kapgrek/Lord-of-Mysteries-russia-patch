@@ -263,4 +263,6 @@ return {
     ["Return to <h>Tarot Club</>"] = "Вернуться в <h>Клуб Таро</>",
     ["【迅猎】"] = "【Быстрая охота】",
     ["Battle Tactics Badge"] = "Эмблема Боевой магии",
+    ["Shadow Assassination - Child Safe Zone Tag"] = "Shadow Assassination — метка зоны безопасности для детей",
+    ["Prologue - Apostle - Head effect"] = "Пролог — Апостол — Эффект головы",
 }

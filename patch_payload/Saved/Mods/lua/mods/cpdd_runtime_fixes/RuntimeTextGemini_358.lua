@@ -243,4 +243,5 @@ return {
     ["Obtained initial Chamber of Commerce ticket: %d"] = "Получен первоначальный билет Торгово-промышленной палаты: %d.",
     ["The police station is under martial law; the \"Council Security Team,\" one of the three major gangs, is hunting down a serial killer. Does the police station really have ties to the gangs?"] = "В полицейском участке действует военное положение; «Группа безопасности Совета», одна из трех крупнейших банд, выслеживает серийного убийцу. Действительно ли полицейский участок связан с бандами?",
     ["Equip to gain the [Warrior] bond."] = "Экипируйте, чтобы получить резонанс [Воин].",
+    ["Mustafa"] = "Мустафа",
 }

@@ -257,4 +257,8 @@ return {
     ["<CostRed>{1, 2, (Brand has expired)}</>Piercing increased by <Mark>280</>, Critical Hit decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wither Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> provides additional attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Прокол увеличен на <Mark>280</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Pathway Beyonder talent successfully switched to %s."] = "Таланты Pathway Потусторонний успешно перешли на %s.",
     ["Extinguish the Flame"] = "Потушить пламя",
+    ["New Stagnant Area Buff"] = "Новый бафф «Застойная зона»",
+    ["Denver"] = "Денвер",
+    ["Lindsay"] = "Линдси",
+    ["队伍成员%s未确认，已取消匹配。"] = "Член группы %s не подтвердил, сватовство отменено.",
 }

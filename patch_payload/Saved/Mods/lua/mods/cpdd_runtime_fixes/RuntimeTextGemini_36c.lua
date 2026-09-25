@@ -259,4 +259,6 @@ return {
     ["Battle Theme"] = "Тема битвы",
     ["Toggle deleted/active status of ambient NPCs"] = "Переключить удаленный/активный статус окружающих NPC",
     ["If they're thrown away, they're thrown away. If you remember tomorrow, look for them; if you can't find them, so be it. There's always a way."] = "Если их выбросить, то их выбросят. Если вспомнишь завтра, поищи их; если вы не можете их найти, пусть будет так. Всегда есть способ.",
+    ["<Green> %d people </> online"] = "<Green>%d</> человек онлайн",
+    ["Kailanni"] = "Кайланни",
 }

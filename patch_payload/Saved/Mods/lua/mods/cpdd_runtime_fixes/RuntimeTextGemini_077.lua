@@ -244,4 +244,6 @@ return {
     ["I would like to tell you about our university's signature event, rowing..."] = "Хочу рассказать вам о знаковом мероприятии нашего университета – гребле...",
     ["The candlelight flickers in the wind until the last bit of light is extinguished."] = "Огонь свечи мерцает на ветру, пока не погаснет последний кусочек света.",
     ["[Berserker]"] = "[Берсерк]",
+    ["寻找<h>“收存”之物</>"] = "Найдите <h>«сохранённый» предмет</>",
+    ["Robot immune to Shockwave"] = "Робот с иммунитетом к ударной волне",
 }

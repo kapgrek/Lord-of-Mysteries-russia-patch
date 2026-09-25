@@ -238,4 +238,7 @@ return {
     ["Sealed Artifact Main Attribute"] = "Основной атрибут запечатанного артефакта",
     ["<CostRed>{1,2, (Brand has expired)}</> Armor Break increased by <Mark>110</>. Using a Skill or Basic Attack will attract the Gaze of 2-049. After the gaze stacks three times, it deals additional damage, triggering at most once every <Mark>4</> seconds.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Пробивание защиты повышается на <Mark>110</>. Применение навыков и базовых атак привлекает Взор 2-049. При накоплении 3 уровней Взора наносит дополнительный урон; срабатывает не чаще одного раза в <Mark>4</> сек.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
     ["Randomly gain 2 pieces of Defensive Fine Equipment<HighLight></>."] = "Случайным образом даёт 2 защитных отличных снаряжения<HighLight></>.",
+    ["Aliza"] = "Ализа",
+    ["收获%d/100个优质艺苑物产。"] = "Собирайте высококачественные продукты художественной студии %d/100.",
+    ["那个穿大衣的商人，开口就是三百金镑，说要把这里改成时髦的咖啡馆。"] = "Этот торговец в пальто сразу предложил триста золотых фунтов, заявив, что хочет превратить это место в модное кафе.",
 }

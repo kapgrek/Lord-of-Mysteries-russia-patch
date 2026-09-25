@@ -231,4 +231,7 @@ return {
     ["（英雄）转盘花色BUFF黑桃"] = "(Герой) Костюм проигрывателя BUFF Spade",
     ["First, we need to establish the foundation of the ritual—the altar and the offerings."] = "Во-первых, нам нужно заложить основу ритуала — алтарь и подношения.",
     ["装配后获得【囚犯】羁绊。"] = "Экипируйте, чтобы получить резонанс [Узник].",
+    ["Congratulations to <Chat_Highlight>%s</> for winning the Peak of the Gods championship in the <Chat_Highlight>%s</> division!"] = "Поздравляем <Chat_Highlight>%s</> с победой в чемпионате «Пик Богов» в дивизионе <Chat_Highlight>%s</>!",
+    ["探索卢娜的世界<h></>"] = "Исследуйте мир Луны <h></>",
+    ["前往指定坐标位置  玩家镜头朝向指定位置  对象播放指定对白内容"] = "Перейти к указанному координатному местоположению. Камера игрока смотрит в указанное место. Объект воспроизводит указанное содержимое диалога.",
 }

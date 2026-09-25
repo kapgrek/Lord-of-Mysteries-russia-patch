@@ -277,4 +277,6 @@ return {
     ["Rock Knight"] = "Рок Рыцарь",
     ["It should have been me pushing you down, but I don't want to hurt anyone... it's troublesome."] = "Это я должен был тебя толкнуть, но я не хочу никому причинять вред... это хлопотно.",
     ["装配后获得【怪物】羁绊"] = "Экипируйте, чтобы получить резонанс [Монстр]",
+    ["Jelu"] = "Джелу",
+    ["Warren"] = "Уоррен",
 }

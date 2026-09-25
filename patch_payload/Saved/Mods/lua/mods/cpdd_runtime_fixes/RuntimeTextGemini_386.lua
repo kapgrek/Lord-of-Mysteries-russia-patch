@@ -267,4 +267,11 @@ return {
     ["I can't draw a conclusion yet. Let's investigate and collect evidence first, starting with questioning that lady."] = "Я пока не могу сделать вывод. Давайте сначала расследуем и соберем доказательства, начав с допроса этой дамы.",
     ["Member Permissions"] = "Права участников",
     ["【囚犯】"] = "[Узник]",
+    ["每个不同的<HighLight>3</>星棋子：全体+<HighLight>3%</>攻击和<HighLight>5</>防御属性。每场玩家战斗后获得<HighLight>1</>个随机荒野怪物棋子。"] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты. Даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
+    ["今日不更"] = "Сегодня без обновлений",
+    ["Prudence"] = "Благоразумие",
+    ["Sela"] = "Села",
+    ["俱乐部活跃度+1500"] = "Клубная активность +1500",
+    ["于心湖投石，漾开名为疯狂的涟漪。"] = "Cast a stone into the lake of the heart, rippling with Безумие.",
+    ["Trey"] = "Трей",
 }

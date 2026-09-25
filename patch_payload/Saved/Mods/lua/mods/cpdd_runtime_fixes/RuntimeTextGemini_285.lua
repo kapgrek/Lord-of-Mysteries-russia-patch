@@ -257,4 +257,8 @@ return {
     ["Generate Note"] = "Создать заметку",
     ["A virtue of the Wessel Family, a Brand Equipment effect. The weapon <Yellow>Land of Knowledge</> will provide additional Attack based on the <Yellow>Virtue</> possessed by squad members."] = "Добродетель семьи Вайзер, эффект клейма снаряжения. Оружие <Yellow>Обитель знаний</> дополнительно повышает атаку в зависимости от <Yellow>Добродетелей</>, которыми обладают члены отряда.",
     ["6 [Spellcraft] gains an additional <HighLight>55%</> Attack, and each time a skill is cast: self gains <HighLight>2%</> Attack."] = "6 [Колдовство] дает дополнительно <HighLight>55%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>2%</> атаки.",
+    ["Magic Cauldron - One Pot Sweep - Inner circle instant death"] = "Волшебный котел — один зачист — Мгновенная смерть внутреннего круга",
+    ["Nighthawk Captain Spawn buff"] = "Усиление появления Капитана Ночного Ястреба",
+    ["得看你要问什么问题，才能挑合适的占卜师。"] = "От того, какой вопрос вы хотите задать, зависит выбор подходящего прорицателя.",
+    ["Marie"] = "Мари",
 }

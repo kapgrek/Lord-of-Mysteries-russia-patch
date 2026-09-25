@@ -264,4 +264,5 @@ return {
     ["Klein also teleports to coffee positioning"] = "Клейн также телепортируется в место расположения кофе.",
     ["player front view"] = "вид игрока спереди",
     ["Play first then submit parameter version <h></>"] = "Сначала воспроизведите, затем отправьте версию параметра <h></>.",
+    ["与人脉完成%d/50次参演玩法。"] = "Выполните действия %d/50 Performance с контактами.",
 }

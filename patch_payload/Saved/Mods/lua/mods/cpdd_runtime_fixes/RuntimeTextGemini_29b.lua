@@ -260,4 +260,7 @@ return {
     ["Ranged Plant Flower"] = "Растение дальнего боя Цветок",
     ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17420</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17420</>",
     ["Rare · Spirit-Returning Chain Pendant"] = "Редкое · Цепной кулон возвращения духа",
+    ["噢，是的！我的笔记本被风吹散了，书页飘得到处都是。"] = "О да! Мой блокнот растрепало ветром, и страницы разлетелись повсюду.",
+    ["Participate in one Heavenly Saint Beast Trial, Attack:+"] = "Примите участие в одном испытании Небесного Святого Зверя, Атака:+",
+    ["玩家移除任务道具（全部删除）"] = "Игрок Удалить квестовый предмет (Удалить все)",
 }

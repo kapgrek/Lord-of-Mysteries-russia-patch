@@ -253,4 +253,6 @@ return {
     ["Send message to general interactive object"] = "Отправить сообщение общему интерактивному объекту",
     ["Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max <HighLight>max 170</>"] = "Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов <HighLight>max 170</>",
     ["Hidden Space - Wind resistance draw sword"] = "Скрытое пространство - меч сопротивления ветру",
+    ["纯净骨瓷制造的茶具，工艺精致，触手温润，品茶之余传递优雅。"] = "Чайный сервиз из чистого костяного фарфора, изысканное мастерство, теплый на ощупь, передающий элегантность во время наслаждения чаем.",
+    ["播放CutScene  玩家停止自己播放情绪音乐"] = "Поиграйте в КатСцену. Плеер перестает воспроизводить эмоциональную музыку.",
 }

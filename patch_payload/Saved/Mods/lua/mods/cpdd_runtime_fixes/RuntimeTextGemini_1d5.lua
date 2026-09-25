@@ -251,4 +251,9 @@ return {
     ["Production Line"] = "Производственная линия",
     ["<P_Heart> (How leisurely. If only I could slack off like this every day.) </>"] = "<P_Heart> (Как неторопливо. Если бы я мог так расслабляться каждый день.) </>",
     ["Immediately gain 16 free refreshes<HighLight></>, and thereafter gain 3 free refreshes each round<HighLight></><HighLight></>."] = "Немедленно даёт 16 бесплатных обновлений<HighLight></>, а затем по 3 бесплатных обновления каждый раунд<HighLight></><HighLight></>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>造成伤害后，获得<Mark>90</>点暴击、<Mark>90</>点抗暴击，持续3秒，每5秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,(Срок действия бренда истек)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
+    ["Triggers stagnation every 2 seconds, 5-meter radius"] = "Вызывает стагнацию каждые 2 секунды, в радиусе 5 метров.",
+    ["Viscountess Idle Body Effect"] = "Эффект праздного тела виконтессы",
+    [".p4config and"] = ".p4config и",
+    ["Aist"] = "Аист",
 }

@@ -282,4 +282,6 @@ return {
     ["瞬息之猎"] = "Мгновенная охота",
     ["施法后的<HighLight>5</>秒内，下一次普攻额外造成相当于<HighLight>120%</>攻击的伤害，冷却时间为<HighLight>4</>秒。"] = "В течение <HighLight>5</> сек. после применения навыка следующая базовая атака дополнительно наносит урон в размере <HighLight>120%</> от атаки, время перезарядки — <HighLight>4</> сек.",
     ["New arrivals in the Appearance Shop"] = "Новинки в Магазине облика",
+    ["<CostRed>{1,2,（烙印已失效）}</>After releasing a Cleanse Skill, gain <Mark>50</> Skill Block for <Mark>10</> seconds, with a maximum trigger frequency of once every <Mark>30</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>После высвобождения навыка освобождения контроля получите <Mark>50</> очков сопротивления навыку, которое длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
+    ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

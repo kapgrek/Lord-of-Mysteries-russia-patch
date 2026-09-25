@@ -242,4 +242,6 @@ return {
     ["2B Answer"] = "2Б Ответ",
     ["Please set a target first."] = "Пожалуйста, сначала установите цель.",
     ["Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana."] = "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны.",
+    ["<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>180</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. Upon entering combat, for every squad member possessing the <Mark>Virtue</> of the Weil Family, Attack is additionally increased by <Mark>10</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена <Mark>180</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<HighLight>%s秒</>后开始下一局匹配"] = "Следующий подбор начнется через <HighLight>%s сек.</>",
 }

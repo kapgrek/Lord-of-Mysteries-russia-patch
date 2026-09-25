@@ -240,4 +240,5 @@ return {
     ["Critical Hit Amplification"] = "Усиление критического удара",
     ["Blood-Sucking Badge"] = "Эмблема Вампиризма",
     ["Rare · Light-Eroding Gauntlet"] = "Редкое · Светопожирающая рукавица",
+    ["……您的嘴比铁还硬。"] = "...Твой рот твёрже железа.",
 }

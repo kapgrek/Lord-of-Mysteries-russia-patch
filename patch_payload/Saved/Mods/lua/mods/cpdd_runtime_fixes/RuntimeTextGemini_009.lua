@@ -232,4 +232,8 @@ return {
     ["Beacon of the Mind"] = "Маяк разума",
     ["弈棋试炼"] = "Шахматные испытания",
     ["Gain 22/30 Gold Coins<HighLight></>, and the interest cap is increased to 10 Gold Coins<HighLight></>."] = "Даёт 22/30 золотых монет<HighLight></>, а лимит процентов увеличивается до 10 золотых монет<HighLight></>.",
+    ["I am a Baboon"] = "я бабуин",
+    ["Demon Wolf Frenzy invincibility effect"] = "Эффект неуязвимости Демона-Волка Бешенства",
+    ["任务自定义事件  对象发送场景事件"] = "Пользовательское событие задания  Объект отправляет событие сцены",
+    ["Zachary"] = "Закари",
 }

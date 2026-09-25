@@ -248,4 +248,7 @@ return {
     ["Anchor gathering will begin in %s seconds."] = "Сбор якоря начнется через %s секунд.",
     ["Old Neil making coffee"] = "Старина Нил готовит кофе",
     ["Glory, it is time to bow before me."] = "Слава, пришло время склониться передо мной.",
+    ["尝试回想<h>“正义”小姐</>的指引"] = "Попробуйте вспомнить указания <h>мисс Справедливость</>",
+    ["Daliana"] = "Дарлена",
+    ["Use Spirit Vision to find the special tea"] = "Используйте Духовное зрение, чтобы отыскать особый чай",
 }

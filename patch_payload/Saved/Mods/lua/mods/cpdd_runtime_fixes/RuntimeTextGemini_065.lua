@@ -275,5 +275,10 @@ return {
     ["【通识者】"] = "[Знаток]",
     ["并肩"] = "Плечом к плечу",
     ["Immediately gain <HighLight> 2 Gold Coins </>. Each time you level up, gain <HighLight> (Player Level + 1) free refreshes </>."] = "Немедленно даёт <HighLight> 2 золотые монеты </>. При каждом повышении уровня даёт <HighLight> (уровень игрока + 1) бесплатных обновлений </>.",
+    ["在黑夜女神的见证下，{{player.name}}赠予{{targetPlayer.name}}一份珍贵的礼物。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[前往见证]</>"] = "По свидетельству Богини Вечной Ночи {{player.name}} преподносит {{targetPlayer.name}} драгоценный подарок. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>",
+    ["Lightning Storm locked Red Portal"] = "Lightning Storm запер красный портал",
+    ["换班时间到了，三号炉的废渣还没清完！谁想替班？每小时多给1便士！"] = "Смена окончена, а шлак из третьей печи еще не выгребли! Кто выйдет на подмену? Дополнительно 1 пенс в час!",
+    ["你以前是律师？"] = "Вы раньше были юристом?",
+    ["前往指定Trigger位置  玩家移除任务道具（全部删除）  对象同场景传送  玩家移除任务道具（指定数量）"] = "Перейдите в указанное место триггера; игрок удаляет квестовый предмет (удалить все); объект телепортируется в пределах одной сцены; игрок удаляет квестовый предмет (указанное количество).",
     ["【远射】"] = "【Дальний выстрел】",
 }

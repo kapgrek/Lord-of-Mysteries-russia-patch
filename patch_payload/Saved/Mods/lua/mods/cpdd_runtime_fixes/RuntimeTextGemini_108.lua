@@ -249,4 +249,8 @@ return {
     ["Situation Report"] = "Отчет о ситуации",
     ["Snow Mountain Secret Realm NPC 1"] = "NPC Тайного Царства Снежной Горы 1",
     ["Progress point item produced from the Brass Book Challenge/Adventure."] = "Предмет очков прогресса, полученный в испытаниях Латунной книги: Приключения.",
+    ["Post-processing - Black and white lens"] = "Постобработка — черно-белая линза",
+    ["收获%d/1000个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/1000.",
+    ["I don't have this animation!!! Cannot play it!!! \nModel ID:%s\nAnimation ID:%s\nMissing animation:%s %s\nNPC ID:%s"] = "У меня нет этой анимации!!! Не воспроизводится!!! \nID модели: %s\nID анимации: %s\nОтсутствует анимация: %s %s\nID NPC: %s",
+    ["采集指定TemplateID的采集物  延迟执行  玩家播放情绪音乐（仅自己可听）"] = "Соберите указанный элемент TemplateID. Отложенное исполнение. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

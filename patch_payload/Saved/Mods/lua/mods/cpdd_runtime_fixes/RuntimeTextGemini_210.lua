@@ -256,4 +256,7 @@ return {
     ["Sorry, we will definitely ask for your opinion first in the future. Can you forgive us this time?"] = "Извините, в будущем мы обязательно сначала спросим ваше мнение. Сможешь ли ты простить нас на этот раз?",
     ["Geolington"] = "Джолингтон",
     ["AutoChess Tips – Position"] = "Подсказка AutoChess – Позиция",
+    ["仔细观察<h>“花架”</>周围"] = "Внимательно осмотрите место вокруг <h>«подставки для цветов»</>",
+    ["Liva"] = "Лива",
+    ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

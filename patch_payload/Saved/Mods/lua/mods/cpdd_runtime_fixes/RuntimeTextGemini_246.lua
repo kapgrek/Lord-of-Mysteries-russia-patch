@@ -272,4 +272,5 @@ return {
     ["Graffiti Space - Hermit Graffiti - Not Cleared"] = "Место для граффити - Граффити отшельника - Не очищено",
     ["Personal Application Form"] = "Персональная форма заявки",
     ["Steam Era · Counter-Shock Waist Ornament"] = "Эпоха пара · Противоударное поясное украшение",
+    ["Charge effect"] = "Эффект заряда",
 }

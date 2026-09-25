@@ -264,4 +264,5 @@ return {
     ["Mystery Pryer Special Defense_Value"] = "Специальная защита Тайного Прайера_Значение",
     ["I should have guessed when you suddenly mentioned the circus performance! It's just... I was only thinking about..."] = "Я должен был догадаться, когда ты вдруг упомянул о цирковом представлении! Просто... Я только думал о...",
     ["Butler Appearance"] = "Внешний вид Батлера",
+    ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

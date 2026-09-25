@@ -247,4 +247,6 @@ return {
     ["[Dungeon Test] Level 95 Stats"] = "[Испытание в подземелье] Статистика 95-го уровня",
     ["Don't be discouraged, my dear. Do you remember the Roselle poetry collection I was reading when we first met? Come, wipe away your tears, and let's recite that poem from back then together."] = "Не расстраивайся, моя дорогая. Помнишь сборник стихов Розеллы, который я читал, когда мы впервые встретились? Давай, вытри слезы и давай вместе прочтем это стихотворение того времени.",
     ["Compatibility issues detected with your AMD graphics driver, which may cause abnormal visuals or crashes. For a better experience, we recommend updating your graphics driver."] = "Обнаружены проблемы совместимости с вашим графическим драйвером AMD, которые могут привести к ненормальному изображению или сбоям. Для более удобной работы мы рекомендуем обновить графический драйвер.",
+    ["Neria"] = "Нерия",
+    ["这黑烟钻肺里比烈酒还烧得慌，上周又抬走两个咳血的可怜虫，大伙们可都看见了。"] = "Этот черный дым обжигает легкие сильнее, чем крепкий алкоголь. На прошлой неделе унесли двух бедняков, кашлявших кровью, все это видели.",
 }

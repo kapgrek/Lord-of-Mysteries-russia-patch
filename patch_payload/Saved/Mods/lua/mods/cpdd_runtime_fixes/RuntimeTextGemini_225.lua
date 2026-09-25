@@ -240,4 +240,8 @@ return {
     ["Display Expression"] = "Отображение выражения",
     ["Bard Blair"] = "Бард Блэр",
     ["New Skill - Liquidation: Upon activation, Damage Increase is raised by 30% for 10 seconds. It records the total damage dealt during the duration and causes enemies within range to take 50% of the recorded total damage when the effect ends."] = "Новый навык — Ликвидация: при активации увеличение урона увеличивается на 30% fили 10 секунд. Он записывает общий урон, нанесенный за время действия, и заставляет врагов в радиусе действия получать 50% от зарегистрированного общего урона, когда эффект заканчивается.",
+    ["Carefully observe around the <h>flower stand</>"] = "Внимательно осмотрите место вокруг <h>«подставки для цветов»</>",
+    ["...So that's how it is. Steam Palace, you should be sleeping in history just like me, but why have you suddenly reappeared in the world? Who... wants to use my power, my aura..."] = "...Так вот как оно есть. Steam Palace, ты, как и я, должен был бы спать в истории, но почему ты вдруг снова появился в мире? Кто... хочет использовать мою силу, мою ауру...",
+    ["Complete all sub-goals of current step  Player plays speech text visible only to self"] = "Выполните все подцели текущего шага. Игрок воспроизводит речевой текст, видимый только ему самому.",
+    ["这……不太好说出口。"] = "Это... нелегко сказать вслух.",
 }

@@ -280,4 +280,6 @@ return {
     ["Thank you all for your help. But why did the evil god corrupt me? Why are you helping me?"] = "Спасибо всем за вашу помощь. Но почему злой бог развратил меня? Почему ты мне помогаешь?",
     ["<Highlight>Ba Wang Cha Ji franchise:</> Don't play cards, let me go"] = "<Highlight>Ба Ван Ча Джи, франшиза: </> Не играй в карты, отпусти меня.",
     ["已签到<Date>21</>天（<Date>1Day10Hour</>后重置）"] = "Отмечено дней: <Date>21</> (сброс через <Date>1Day10Hour</>)",
+    ["播放Dialogue  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог игры: NPC уничтожает себя (не может уничтожать игроков и публичных NPC в основном мире)",
+    ["与人脉完成%d/50次漫步玩法。"] = "Выполните действия %d/50 «Прогулка» с контактами.",
 }

@@ -243,4 +243,9 @@ return {
     ["Flick"] = "Флик",
     ["Old Neil's Tombstone"] = "Надгробие старого Нила",
     ["Day of Conquest"] = "День завоевания",
+    ["　　<Letter_Highlight>\"Great Adventurer: Gehrman's Sea Adventures\"</>\n　　Borrower: Danny \n\n　　<Letter_Highlight>\"Fundamentals of Mechanical Engineering\"</>\n　　Borrower: Felix\n　　……\n　　For the normal circulation of books, I hope these readers will return the borrowed books as soon as possible, study the rules and regulations related to borrowing carefully, and comply with them."] = "　　<Letter_Highlight>«Великий авантюрист: Морские приключения Германа»</>\n　　Читатель: Дэнни \n\n　　<Letter_Highlight>«Основы машиностроения»</>\n　　Читатель: Феликс\n　　……\n　　Ради надлежащего библиотечного обращения просим данных читателей как можно скорее вернуть взятые книги, а также внимательно изучить и соблюдать правила пользования библиотекой.",
+    ["Annika"] = "Анника",
+    ["嘿，这是偷袭！"] = "Эй, это скрытная атака!",
+    ["Harlow"] = "Харлоу",
+    ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Перейти к указанному местоположению триггера. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение.",
 }

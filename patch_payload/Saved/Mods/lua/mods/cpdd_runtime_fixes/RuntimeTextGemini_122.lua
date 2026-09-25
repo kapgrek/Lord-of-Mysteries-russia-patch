@@ -246,4 +246,6 @@ return {
     ["Arrive at Blackthorn"] = "Прибытие в Чёрный Чертополох",
     ["<CostRed>{1,2, (Brand has expired)}</> Pierce increased by <Mark>120</>.\nDoes not take effect when the <Mark>Spirit and Knowledge Echo</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Пробивание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
     ["Gain the [Crimson Believer] Resonance."] = "Даёт резонанс [Багровые верующие].",
+    ["名称："] = "Имя:",
+    ["Alena"] = "Алена",
 }

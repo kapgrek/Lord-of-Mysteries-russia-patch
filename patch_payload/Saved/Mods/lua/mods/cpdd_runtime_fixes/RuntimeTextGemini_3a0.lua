@@ -232,5 +232,7 @@ return {
     ["Yes, stand a bit more to the right! Perfect pose!"] = "Да, встаньте немного правее! Идеальная поза!",
     ["Sense the environment with spirituality and explore the mysterious in the manner of a Warlock."] = "Ощущайте мир духовностью и исследуйте тайны в обличье чернокнижника.",
     ["Crafted Blade"] = "Искусный клинок",
+    ["Abner"] = "Эбнер",
+    ["很精致的帽子。你父母一定很珍惜它。"] = "Очень изысканная шляпа. Твои родители, должно быть, этим дорожили.",
     ["【生命学派】"] = "【Школа мысли Жизни】",
 }

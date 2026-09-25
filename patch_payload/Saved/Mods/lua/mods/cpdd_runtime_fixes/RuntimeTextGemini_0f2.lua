@@ -246,4 +246,5 @@ return {
     ["<P_Heart>Squirrel Language</> In a daze, I saw a mass of... pitch-black shadow... wandering in the room..."] = "<P_Heart>Беличий язык</> В оцепенении я увидел массу... кромешной тени... бродящей по комнате...",
     ["<DecH> Craft: </> Dark Raven Feather - Heavy Industry Leather - Gothic Evening Gown \n Brilliant colors flow over deep black, grotesque yet elegant, making all vulgar colors dim."] = "<DecH> Мастерство: </> Темные вороньи перья, тяжелая кожа, готическое вечернее платье \n Блеск струится поверх глубокого черного цвета, жуткий, но элегантный, затмевая все вульгарные цвета.",
     ["[Night Watch Seal]"] = "【Печать Ночного Стража】",
+    ["Ayan"] = "Аян",
 }

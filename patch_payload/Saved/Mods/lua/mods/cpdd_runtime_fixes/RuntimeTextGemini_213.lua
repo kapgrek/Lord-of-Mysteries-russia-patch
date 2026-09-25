@@ -262,4 +262,8 @@ return {
     ["Jiangmen"] = "Цзянмэнь",
     ["Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip? Any gossip?"] = "Есть сплетни? Есть сплетни? Есть сплетни? Расскажите что-нибудь новенькое!",
     ["Equip to gain the [Bard] resonance"] = "Экипируйте, чтобы получить резонанс [Певец]",
+    ["Under the witness of the Evernight Goddess, {{player.name}} is gifting {{targetPlayer.name}} a precious present. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>"] = "По свидетельству Богини Вечной Ночи {{player.name}} преподносит {{targetPlayer.name}} драгоценный подарок. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802\">[Перейти к свидетелю]</>",
+    ["<P_Heart>（震惊）</>不、不可能……已经过去七十年了？老查克和小柯莱…… 他们已经……"] = "<P_Heart>(в шоке)</> Нет, невозможно... семьдесят лет прошло? Старый Чак и Маленький Колли... Они уже...",
+    ["露米代行"] = "Люмианский прокси",
+    ["采集指定TemplateID的采集物  玩家传送到位面"] = "Собрать предмет с указанным TemplateID: игрок телепортируется в экземпляр.",
 }

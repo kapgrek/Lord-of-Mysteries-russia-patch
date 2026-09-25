@@ -255,4 +255,5 @@ return {
     ["\"The apocalypse will arrive in a dozen years or so, and everyone may be destroyed, including the Gods.\""] = "«Апокалипсис наступит примерно через дюжину лет, и все могут быть уничтожены, включая Богов».",
     ["Play Dialogue: Player plays emotional music (audible only to self), teleport back to open world scene."] = "Воспроизведение диалога: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется обратно в открытый мир.",
     ["Use to obtain <Highlight>Pale Death Face Accessory</>.\nDuplicate acquisitions will automatically be dismantled into Bound Gold Pound ×100."] = "Используйте, чтобы получить лицевое украшение <Highlight>«Бледная смерть»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
+    ["完成通用条件表  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Полная таблица общего состояния. Плеер воспроизводит речевой текст, видимый только ему. Отложенное исполнение. Плеер воспроизводит речевой текст, видимый только ему.",
 }

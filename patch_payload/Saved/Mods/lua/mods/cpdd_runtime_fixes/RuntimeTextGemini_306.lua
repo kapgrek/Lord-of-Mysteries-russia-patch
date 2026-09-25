@@ -239,4 +239,11 @@ return {
     ["Achievement: Joining the Ranks of Subsidiary Gods"] = "Достижение: Вступление в ряды второстепенных богов.",
     ["Dong Zhi - Lockpicking Gameplay"] = "Донг Чжи — игровой процесс со взломом замков",
     ["We used the skill <PVPHighlight> Sanctuary Protection </>, <PVPHighlight> restoring 50% of the maximum Health of all our guards </>."] = "Мы использовали навык <PVPHighlight> Sanctuary Protection </>, <PVPHighlight>, восстанавливая 50% от максимального здоровья всех наших охранников </>.",
+    ["<CostRed>{1,3,（烙印已失效）}</>Attack increased by <Mark>230</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. \nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Covenant of Iron and Blood<"] = "<CostRed>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>230</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. \nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>.",
+    ["Giovanna"] = "Джованна",
+    ["I cannot see His true appearance clearly, I only feel that this scent of abundance is familiar..."] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
+    ["Marci"] = "Марси",
+    ["完成当前步骤的所有子目标  玩家播放仅自己可见的说话文本"] = "Выполните все подцели текущего шага. Игрок воспроизводит речевой текст, видимый только ему самому.",
+    ["Alessia"] = "Алессия",
+    ["它会让人看到平时看不见的东西，建议您小口啜饮。"] = "Это заставит людей увидеть то, чего они обычно не видят. Я предлагаю вам пить его медленно.",
 }

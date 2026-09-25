@@ -243,4 +243,7 @@ return {
     ["mesh tent"] = "сетчатая палатка",
     ["Forgive my presumption, pardon my Cowardice, please grant me your kiss; it shall give me the courage not to retreat."] = "Прости мою дерзость, прости мою трусость; подари мне свой поцелуй — он дарует мне смелость не отступать.",
     ["[Blood-Thirst]"] = "【Кровожадность】",
+    ["Wounded Rescue"] = "Спасение раненых",
+    ["Chapter Three"] = "Глава Третья",
+    ["<P_Heart>（还是及时止损吧……）</>"] = "<P_Heart> (Лучше сократить мои потери сейчас...) </>",
 }

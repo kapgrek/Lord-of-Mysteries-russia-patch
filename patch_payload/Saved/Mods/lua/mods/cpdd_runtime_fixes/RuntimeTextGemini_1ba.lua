@@ -244,4 +244,5 @@ return {
     ["Already in single-player mode."] = "Уже в одиночном режиме.",
     ["Bullet?"] = "Пуля?",
     ["Equip to gain the [Warrior] resonance"] = "Экипируйте, чтобы получить резонанс [Воин]",
+    ["<DecH>Craft: </>Antique Brocade & Secret Covenant Patterns\nA cloak weathered by the passage of time, seemingly recording a forgotten covenant."] = "<DecH>Мастерство: </>Старинная парча · Узоры тайного завета\nПлащ, овеянный дыханием веков, словно хранит память о забытом завете.",
 }

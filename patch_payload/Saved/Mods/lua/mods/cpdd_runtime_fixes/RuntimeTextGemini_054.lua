@@ -250,4 +250,5 @@ return {
     ["Flowing Light Treading Snow"] = "Текущий свет, ступающий по снегу",
     ["This is both an examination of Beyonder abilities and a test of wisdom and courage."] = "Это одновременно проверка способностей Потустороннего и проверка мудрости и смелости.",
     ["【瞬息之猎】"] = "【Мгновенная охота】",
+    ["混乱之力"] = "Сила Хаоса",
 }

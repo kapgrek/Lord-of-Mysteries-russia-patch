@@ -257,5 +257,7 @@ return {
     ["Glory Duel!"] = "Славная дуэль!",
     ["Train Trade: Gameplay started via abnormal flow"] = "Train Trade: игровой процесс начался с ненормальным потоком",
     ["Leonard chants the Requiem of the Soul, causing targets within a 6-meter radius to suffer a 70% Grievous Injury effect for 4 seconds, while he gains a Continuous <Highlight>6</> second Tranquility Aura with a radius of <Highlight>6</> meters. The aura allows enemies to buffdisc(*id)."] = "Леонард декламирует Успокоительную поэму, накладывая на цели в радиусе 6 м эффект 70% тяжёлого ранения на 4 сек., а сам получает ауру безмятежности радиусом <Highlight>6</> м на <Highlight>6</> сек., накладывающую на врагов buffdisc(*id).",
+    ["One Step"] = "Один шаг",
+    ["Rosemary"] = "Розмари",
     ["【大宗师】"] = "【Великий Мастер】",
 }

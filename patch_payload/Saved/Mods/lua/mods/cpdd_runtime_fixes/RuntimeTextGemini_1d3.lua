@@ -254,4 +254,6 @@ return {
     ["Customer Sitting in a Chair"] = "Клиент, сидящий в кресле",
     ["All allies gain 10% Attack. [Spellcasting] stacks Attack after each skill cast."] = "Все союзники получают 10% атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
     ["【新手推荐】罪恶廷根"] = "【Совет новичкам】Грешный Тинген",
+    ["Cesar"] = "Цезарь",
+    ["Zelda"] = "Зельда",
 }

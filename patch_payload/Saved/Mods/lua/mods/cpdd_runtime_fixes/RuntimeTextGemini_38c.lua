@@ -255,4 +255,6 @@ return {
     ["Victory Count"] = "Количество побед",
     ["This map says... pass through the Land of Thorns, then come to the Endless Corridor, where ponds are occasionally formed by accumulated rain below, and at the end of the broken road above is the sealed holy land of the Land of Chaos."] = "На этой карте написано... пройти через Страну Шипов, затем прийти к Бесконечному Коридору, где из-за накопившегося дождя внизу иногда образуются пруды, а в конце разбитой дороги наверху находится запечатанная святая земля Страны Хаоса.",
     ["Sampson"] = "Сэмпсон",
+    ["Completed:"] = "Завершено:",
+    ["Evangeline"] = "Эванджелин",
 }

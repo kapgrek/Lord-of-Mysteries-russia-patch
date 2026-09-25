@@ -266,4 +266,7 @@ return {
     ["[Spellcraft] gains an additional 15% Attack, and each time a skill is cast: self gains 1% Attack."] = "[Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
     ["Swift-Hunt"] = "Быстрая охота",
     ["Hunt Feedback"] = "Отклик охоты",
+    ["Sequence\r\nWill inevitably lead to loss of control"] = "Порядок\nНеминуемо приведет к Потере Контроля",
+    ["Azalea"] = "Азалия",
+    ["Brock"] = "Брок",
 }

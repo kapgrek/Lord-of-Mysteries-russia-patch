@@ -269,4 +269,9 @@ return {
     ["This copper mirror is too easy to be overlooked."] = "Это медное зеркало слишком легко не заметить.",
     ["Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of <Yellow>173</> Attack damage."] = "Сбрасывает темные грибы, трижды подрывая их в целевой области и нанося в сумме <Yellow>173</> ед. урона от атаки.",
     ["Gain 1 Charm Succubus<HighLight></>. Her skill is strengthened to: Perform a Continuous Attack on the target 7 times<HighLight></>. After casting, restore 5% of maximum Health to 1 other ally with the lowest Health percentage on the field<HighLight></>."] = "Даёт 1 Чарующую суккуб<HighLight></>. Навык усилен: совершает непрерывную атаку по цели 7 раз<HighLight></>. После применения восстанавливает 5% от макс. здоровья 1 другому союзнику с наименьшим % здоровья на поле<HighLight></>.",
+    ["他的梦境"] = "Его сон",
+    ["玩家发送任务道具  玩家移除任务道具（全部删除）"] = "Игрок отправляет предмет задания; игрок удаляет предмет задания (удалить все)",
+    ["Easton"] = "Истон",
+    ["正在下载%s"] = "Загрузка %s",
+    ["Are you sure you want to permanently delete this character?\n(After deletion, the nickname will be released 30 days after the server launch.)"] = "Подтверждаете безвозвратное удаление персонажа?\n(После удаления имя персонажа освободится через 30 дней после запуска сервера)",
 }

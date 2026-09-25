@@ -235,4 +235,5 @@ return {
     ["Sealed Artifact Adjustment"] = "Настройка запечатанного артефакта",
     ["<Highlight>Craftsmanship: </>Dark Pattern Velvet, Mithril Scale Armor, & Professional Military Uniform\nVows woven in silver settle on the shoulders; iron and cloth whisper in the wind like some silent decree."] = "<Highlight> Мастерство: </> Темный бархатный атлас, доспехи из мифриловой чешуи, надежная военная форма \n Клятва, вытканная серебряными узорами, ложится на плечи, а железо и ткань шепчут на ветру, словно какой-то безмолвный приказ.",
     ["Oh, miserable marionettes corrupted by the Mother Goddess, I have come to cut the strings that torment you."] = "О, жалкие марионетки, испорченные Богиней-Матерью, я пришел, чтобы перерезать нити, которые вас мучают.",
+    ["任务自定义事件  玩家播放情绪音乐（仅自己可听）  对象同场景传送"] = "Пользовательское событие квеста; плеер играет эмоциональную музыку (слышно только ему самому); объект телепортируется в пределах одной сцены.",
 }

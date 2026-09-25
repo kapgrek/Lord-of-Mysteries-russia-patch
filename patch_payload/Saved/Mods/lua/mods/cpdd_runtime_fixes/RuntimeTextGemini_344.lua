@@ -272,4 +272,6 @@ return {
     ["Visit Welch's mansion"] = "Посетите особняк Уэлча",
     ["Section 1 - Cleaning Up Bloodstains"] = "Раздел 1. Очистка пятен крови",
     ["WBP_AutoChess_Tips_Position"] = "Подсказка AutoChess – Позиция",
+    ["A\n\nChance"] = "Один\n\nшанс",
+    ["等待时间  玩家播放单句黑屏字幕"] = "Подождите время. Плеер воспроизводит однострочные субтитры на черном экране.",
 }

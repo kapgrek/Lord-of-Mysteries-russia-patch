@@ -265,4 +265,7 @@ return {
     ["装配后获得【航海家】羁绊"] = "Экипируйте, чтобы получить резонанс [Мореплаватель]",
     ["Each unique 3-star piece: All allies +3% Attack and 5 Defense."] = "Каждая уникальная 3-звёздочная фигура: всем союзникам +3% атаки и 5 защиты.",
     ["施法后，造成的伤害提高<HighLight>20%</>，持续<HighLight>4</>秒，该效果不可叠加。"] = "После применения навыка наносимый урон увеличивается на <HighLight>20%</> на <HighLight>4</> сек. Эффект не суммируется.",
+    ["Gemini is very smart, and, perhaps it's a bit early to say this, I think it is very loyal. Today's feed was supplemented with vanilla, and looking at its happy appearance while eating, I dare say, Gemini is about to love me to death. Haha, perhaps we can leave our names in history together..."] = "Джемини очень умен, и, хотя, возможно, пока рано об этом судить, мне кажется, он весьма предан. Сегодня в корм добавили ваниль, и, глядя на то, с каким удовольствием он ест, смею утверждать, что Джемини просто без ума от меня. Ха-ха, возможно, наши имена вместе останутся в истории...",
+    ["每个法术场对应要创建的数量"] = "Количество, которое будет создано для каждого поля заклинания.",
+    ["击败指定TemplateID的怪物  延迟执行  对象同场景传送到指定Trigger"] = "Победить монстра с указанным TemplateID; отложенное исполнение; объект телепортируется к указанному триггеру в той же сцене.",
 }

@@ -274,4 +274,5 @@ return {
     ["Fresh vegetables! The freshest vegetables on this street!"] = "Свежие овощи! Самые свежие овощи на этой улице!",
     ["10_Partner Breakthrough"] = "10_Прорыв в партнерстве",
     ["Time is almost up! Where is the person?"] = "Время почти вышло! Где человек?",
+    ["Bralin"] = "Бралин",
 }

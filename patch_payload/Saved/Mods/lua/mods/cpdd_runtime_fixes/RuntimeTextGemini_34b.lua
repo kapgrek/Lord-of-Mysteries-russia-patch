@@ -243,4 +243,5 @@ return {
     ["Leave the rest to Swain."] = "Остальное предоставь Суэйну.",
     ["memoryStackNum: maximum stack depth (default 6)."] = "MemoryStackNum: максимальная глубина стека (по умолчанию 6).",
     ["It's fine, I heard they don't discriminate against people from the East District."] = "Все в порядке, я слышал, что они не дискриминируют жителей Восточного округа.",
+    ["Count_Skill resource"] = "Ресурс Count_Skill",
 }

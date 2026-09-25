@@ -239,4 +239,5 @@ return {
     ["My spirituality is telling me that this choice is more valuable."] = "Моя духовность говорит мне, что этот выбор более ценен.",
     ["Cult Coupon"] = "Культовый купон",
     ["<InvDefault>可使用</><InvHighlight>1张神眷牌</><InvDefault>进行兑换。</>"] = "<InvDefault>Можно обменять на </><InvHighlight>1 карту Божьей милости</><InvDefault>.</>",
+    ["The taste of success"] = "Вкус успеха",
 }

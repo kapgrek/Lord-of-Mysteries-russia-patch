@@ -240,4 +240,9 @@ return {
     ["绝对护盾"] = "Абсолютный щит",
     ["Gain 1 Ray Bieber<HighLight></>. His skill is strengthened to: Dash towards the target and launch a range Impact, dealing higher damage to the main target while Stunning surrounding enemies<HighLight></>."] = "Даёт 1 Рея Бибера<HighLight></>. Навык усилен: делает рывок к цели и наносит удар по площади, причиняя повышенный урон главной цели и оглушая врагов вокруг<HighLight></>.",
     ["Gain the [May Manor] Resonance."] = "Даёт резонанс [Поместье Мэй].",
+    ["Marlon"] = "Марлон",
+    ["得打这个什么守卫"] = "Нужно сразиться с этим охранником.",
+    ["下周开组会，我一定会被导师夸的，嘿嘿！看来今年不用延毕咯！"] = "На следующей неделе у меня собрание группы, мой наставник обязательно похвалит меня, хе-хе! Похоже, мне не придется откладывать выпускной в этом году!",
+    ["不对劲！"] = "Что-то не так!",
+    ["The Goddess did not respond to my prayer. The sky never gets dark, and I cannot fall into slumber.\n\nEveryone in town seems not to need sleep; perhaps something is wrong with me.\n\nMaybe it's different in other places?"] = "Богиня не ответила на мои молитвы, небо ни на мгновение не потемнело, и я не мог заснуть. \n\nПохоже, никому в городе не нужно спать. Возможно, со мной что-то не так. \n\nМожет быть, в других местах по-другому?",
 }

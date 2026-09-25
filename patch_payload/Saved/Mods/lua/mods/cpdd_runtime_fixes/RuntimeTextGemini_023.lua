@@ -214,4 +214,7 @@ return {
     ["Kill Ancestor Armor on Hard difficulty"] = "Убить Доспех предков на высоком уровне сложности.",
     ["Equip to gain the [Lawyer] resonance."] = "Экипируйте, чтобы получить резонанс [Юрист].",
     ["Gain 1 Frank Lee<HighLight></>. His skill is strengthened to: Detonate mushrooms where enemies are dense, leaving behind mycelium that continuously deals damage and reduces enemy Attack Speed and movement speed<HighLight></>."] = "Даёт 1 Фрэнка Ли<HighLight></>. Навык усилен: взрывает грибы в скоплении врагов, оставляя мицелий, который непрерывно наносит урон и замедляет атаку и передвижение врагов<HighLight></>.",
+    ["默认False"] = "По умолчанию ложь",
+    ["Zarie"] = "Зари",
+    ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象同场景传送"] = "Играть в диалог; игрок создает публичный объект на основе списка InstanceID (не действует в открытом мире); объект телепортируется в пределах одной сцены.",
 }

@@ -294,4 +294,8 @@ return {
     ["Use Spirituality Blue Card to enhance the Seer's ability to deal damage via Finisher Skills"] = "Используйте синюю карту духовности, чтобы улучшить способность Провидца наносить урон с помощью завершающих навыков.",
     ["Fervent Heart Key"] = "Ключ пылкого сердца",
     ["【噬血】获得<HighLight>30%</>吸血。造成伤害时追加伤害，目标生命值低于<HighLight>50%</>时翻倍。"] = "【Кровожадность】Даёт <HighLight>30%</> вампиризма. При нанесении урона наносит дополнительный урон; если здоровье цели ниже <HighLight>50%</>, доп. урон удваивается.",
+    ["【晋升至序列8后解锁，尝试扮演小丑】\n儿童病房里有个小女孩，已经很久没笑过了。她最大的愿望是看一场小丑表演。"] = "【Открывается после перехода на Последовательность 8. Попробуйте сыграть роль Клоуна】\nВ детской палате лежит маленькая девочка, которая уже очень давно не улыбалась. Ее заветная мечта — увидеть выступление клоуна.",
+    ["Drake"] = "Дрейк",
+    ["If you are reading these words, it means I have obtained grace in the Goddess's kingdom, and my soul has brought them to you.\n	Those pirates will not spare anyone, and I am no exception. My time is running out.\n	I have been asking about our little angel, Olivia, lately, but in my final moments, I want to call out to you.\n	I love you, Dana. You will always be the most beautiful girl in my heart."] = "Если ты читаешь эти строки, значит, я обрёл милость в Божественном Царстве Богини, и моя душа принесла их тебе.\n	Эти пираты никого не пощадят, и я не исключение. Моё время на исходе.\n	В последнее время я часто расспрашивал о нашей маленькой ангелочке Оливии, но в свои последние мгновения хочу обратиться к тебе.\n	Я люблю тебя, Дана. Ты навсегда останешься самой прекрасной девушкой в моём сердце.",
+    ["Alizel"] = "Ализель",
 }

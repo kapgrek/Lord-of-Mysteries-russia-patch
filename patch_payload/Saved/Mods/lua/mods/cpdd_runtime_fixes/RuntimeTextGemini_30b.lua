@@ -260,4 +260,6 @@ return {
     ["Check if in riding state"] = "Проверьте, находится ли в состоянии езды",
     ["<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。\n激活套装<Mark>铁与血誓约</>时不生效。"] = "<CostRed>{1,2,（烙印已失效）}</>Специализация по монстрам повышается на <Mark>180</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
     ["Backline Marksman"] = "Стрелок заднего ряда",
+    ["<DecH> Craft: </> Black-Red Light Armor - Sharp Thorn Ring - Strife Hunter Robe \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds."] = "<DecH>Мастерство:</> чёрно-красный лёгкий доспех, шипастый браслет, охотничье одеяние раздора\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
+    ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }

@@ -240,4 +240,5 @@ return {
     ["Used to indicate that a skill has been strengthened (currently used in Sealed Artifacts)."] = "Используется для обозначения того, что навык усилен (в настоящее время используется в запечатанных артефактах).",
     ["Very Old Poster 1"] = "Очень старый плакат 1",
     ["Partner Old Neil Skill - Debt Repayment Explosion Tiers 4-5 Damage 3"] = "Навык партнера Старина Нил - Взрыв погашения долга Уровни 4-5, Урон 3",
+    ["Deidre"] = "Дейдре",
 }

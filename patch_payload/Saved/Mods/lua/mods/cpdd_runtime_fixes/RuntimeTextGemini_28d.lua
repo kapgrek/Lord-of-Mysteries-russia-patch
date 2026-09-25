@@ -253,4 +253,9 @@ return {
     ["Wood 2 Path"] = "Лес 2 Путь",
     ["cs Camera 4_1"] = "CS Камера 4_1",
     ["荣耀，是时候该向我俯首了。"] = "Слава, пришло время склониться передо мной.",
+    ["Red All Over"] = "Красный весь",
+    ["采集指定TemplateID的采集物  玩家播放剧情对话"] = "Сбор ресурса с заданным TemplateID. Игрок воспроизводит сюжетный диалог.",
+    ["受到贵族喜爱的顶级红茶，口感醇厚，略带回甘。"] = "Первоклассный черный чай, любимый аристократами, с мягким вкусом и легкой сладостью.",
+    ["<Highlight>Craft: </>Embroidered Brocade/Flower Cluster Ornament\nNo one can assert how long the wait for blooming will take, but the beauty of a half-bloom is enough to be cherished."] = "<Highlight>Мастерство: </><Highlight>Вышитая парча · Цветочное соцветие</>\nНикто не знает, сколько придётся ждать полного цветения, но и полураскрывшийся бутон уже достоин восхищения.",
+    ["Fernanda"] = "Фернанда",
 }

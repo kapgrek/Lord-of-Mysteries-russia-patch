@@ -253,4 +253,7 @@ return {
     ["(Selena is most likely praying to an evil existence. If this continues, she will become an evil spirit, and everyone present will be in danger... it's best to perform an interrupted ritual immediately.)"] = "(Селена, скорее всего, молится злому существованию. Если так будет продолжаться, она станет злым духом, и все присутствующие окажутся в опасности... лучше немедленно провести прерванный ритуал.)",
     ["装配后获得【阅读者】羁绊"] = "Экипируйте, чтобы получить резонанс [Чтец]",
     ["所有友军获得<HighLight>10%</>攻击力。[Spellcraft]每次施法后叠加攻击力。"] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["离开<h>房间</>"] = "Покиньте <h>комнату</>",
+    ["Reality Line Chapter 2 - Listening to music overhead buff"] = "Линия реальности. Глава 2. Прослушивание музыки сверху.",
+    ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

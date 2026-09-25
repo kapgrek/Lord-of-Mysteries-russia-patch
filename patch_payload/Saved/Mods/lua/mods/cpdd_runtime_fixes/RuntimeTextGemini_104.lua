@@ -249,4 +249,5 @@ return {
     ["Sorry... that one is not for sale; it is a custom piece for a gentleman."] = "Извините... этот не продается; это изготовленная на заказ вещь для джентльмена.",
     ["It's the piece you hand-copied."] = "Это фрагмент, который вы скопировали вручную.",
     ["Selling oysters during the day, cleaning oysters in the evening, transporting oysters at night, oysters, oysters, it's all oysters!"] = "Днем продаем устрицы, вечером чистим, ночью перевозим устрицы, устрицы, устрицы, это все устрицы!",
+    ["播放Dialogue  玩家传送到位面"] = "Играйте в диалог, игрок телепортируется в самолет.",
 }

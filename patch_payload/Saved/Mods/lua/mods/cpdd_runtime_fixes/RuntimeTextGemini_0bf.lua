@@ -249,4 +249,5 @@ return {
     ["Highest Win Streak: "] = "Макс. серия побед: ",
     ["Gain <HighLight> two random basic equipment </>, one Equipment Reforger, and 2 Gold Coins."] = "Даёт <HighLight> два случайных базовых снаряжения </>, один перековщик снаряжения и 2 золотые монеты.",
     ["Healer's Observation"] = "Наблюдение целителя",
+    ["向<h>“愚者”先生</>致谢"] = "Поблагодарите <h>мистера Шута</>",
 }

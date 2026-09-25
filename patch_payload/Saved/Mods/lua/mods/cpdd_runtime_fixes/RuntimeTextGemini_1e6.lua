@@ -257,4 +257,6 @@ return {
     ["Cauldron_W"] = "Котел_W",
     ["That big shot gave me many helpful suggestions for revisions, but even after I finished revising according to those suggestions, it remained a mediocre press release that could only be published on the inner pages. This is reasonable."] = "Эта большая шишка дала мне много полезных предложений по доработкам, но даже после того, как я закончил вносить изменения в соответствии с этими предложениями, он оставался посредственным пресс-релизом, который можно было публиковать только на внутренних страницах. Это разумно.",
     ["Sipus"] = "Сипус",
+    ["Deterrence and Demoralization"] = "Устрашающий слом воли",
+    ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

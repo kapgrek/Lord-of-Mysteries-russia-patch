@@ -264,4 +264,5 @@ return {
     ["Pious Prayer - First stage self Add"] = "Благочестивая молитва - Первый этап самостоятельно Добавить",
     ["Good luck, from the King of Yellow and Black"] = "Удачи от Короля Желтого и Черного.",
     ["What do they know? Ever since I started learning dance at the Art School, I haven't had any time to drink!"] = "Что они знают? С тех пор, как я начал учиться танцам в Школе искусств, у меня не было времени выпить!",
+    ["铁路大亨变幻远征难度获得%d/5次【铁路大亨】评价。"] = "Получите рейтинг 【Железнодорожный магнат】 %d/5 раз на уровне сложности «Смена экспедиции».",
 }

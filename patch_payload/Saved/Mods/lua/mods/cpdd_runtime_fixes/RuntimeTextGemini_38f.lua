@@ -232,4 +232,5 @@ return {
     ["Storm above... why is it that there's no reliable food here at the bank?"] = "Буря наверху... почему здесь, в банке, нет надежной еды?",
     ["Use the harmonica"] = "Используйте губную гармошку",
     ["It's okay, the Evernight Goddess will forgive you."] = "Ничего, Богиня Вечной Ночи простит тебя.",
+    ["收获%d/200个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/200.",
 }

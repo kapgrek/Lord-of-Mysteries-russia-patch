@@ -274,4 +274,6 @@ return {
     ["<Highlight> Craft: </> Bronze Armor · Aged Rust · Antique Heavy Armor \n The glory of the Avery Family wails in the rust, spores erode the chivalry, leaving only broken whispers."] = "<Highlight> Мастерство: </> Бронзовые доспехи, проржавевшие от времени, старинные тяжелые доспехи \n Слава семьи Эверли стонала в ржавчине, а споры разъедали дух рыцарства, оставляя лишь шепот руин.",
     ["[Test] One-click development level 50 whale"] = "[Тест] Разработка в один клик 50 уровня кит",
     ["【狂战士】"] = "[Берсерк]",
+    ["McKinley"] = "МакКинли",
+    ["知识巨擘"] = "Гигант знаний",
 }

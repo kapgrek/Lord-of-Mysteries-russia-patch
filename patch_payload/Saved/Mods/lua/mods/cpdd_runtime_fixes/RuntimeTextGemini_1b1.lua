@@ -235,4 +235,10 @@ return {
     ["I believe your workshop will definitely produce more high-quality goods and be a bestseller in the market."] = "Я верю, что ваша мастерская обязательно будет производить больше качественной продукции и станет бестселлером на рынке.",
     ["Execution boundary"] = "Граница выполнения",
     ["Using the origin of the Twilight Giant bloodline, gather power and stomp the ground to trigger a shockwave, kicking up surrounding dust to create a brief visual obstruction.\nIncreases your Strength by 1."] = "Обращаясь к истокам родословной Сумеречного Гиганта, сконцентрируйте силу и сокрушительно топните по земле, вызывая ударную волну и поднимая клубы пыли, ненадолго скрывающие обзор.\nПовышает собственную Силу на 1.",
+    ["真相就是……我是个寡妇，陛下。我的丈夫三年前去世了。从那之后，男人们都觉得我是容易得手的猎物。"] = "Правда в том... что я вдова, Ваше Величество. Мой муж умер три года назад. С тех пор мужчины видят во мне легкую добычу.",
+    ["Virginia"] = "Вирджиния·",
+    ["还有，在考试季之前就提前宣传基金会的存在，好让那些真正需要的人得到及时的帮助。"] = "Также пропаганда существования фонда перед сезоном экзаменов, чтобы те, кто действительно в нем нуждается, могли получить своевременную помощь.",
+    ["Louise"] = "Луиза",
+    ["Dakari"] = "Дакари",
+    ["Go to specified coordinate location  Player camera faces specified location  Object plays specified dialogue content"] = "Перейти к указанному координатному местоположению. Камера игрока смотрит в указанное место. Объект воспроизводит указанное содержимое диалога.",
 }

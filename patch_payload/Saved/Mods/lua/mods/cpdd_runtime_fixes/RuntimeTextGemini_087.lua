@@ -254,4 +254,5 @@ return {
     ["Return to the Lightning Express station"] = "Вернитесь на станцию ​​Lightning Express.",
     ["<P_Heart>(Excitedly)</> I cannot stay calm. Seeing such a powerful, beautiful, cold vampire as you, my blood is boiling."] = "<P_Heart>(Возбужденно)</> Я не могу сохранять спокойствие. При виде такого могущественного, красивого и холодного вампира, как ты, у меня кровь закипает.",
     ["Rare · Bulwark War Helmet"] = "Редкое · Боевой шлем Оплота",
+    ["The... glory... of the Wessel Family..."] = "Слава... семьи Вессель...",
 }

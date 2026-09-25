@@ -250,4 +250,10 @@ return {
     ["Gentle Piano Music Tonight - Entry - Neil on Duty at Blackthorn"] = "Нежная фортепианная музыка сегодня вечером — запись — Нил на дежурстве в Чёрный Чертополох",
     ["Cumulative number of successful strategy card triggers reaches 50"] = "Совокупное количество успешных триггеров стратегических карт достигло 50.",
     ["We will wait here for your good news."] = "Мы будем ждать здесь ваших хороших новостей.",
+    ["Think about the contents on the <h>parchment</>"] = "Подумайте о содержании пергамента<h></>.",
+    ["Lauren"] = "Лорен",
+    ["Butler John watched Baron Hawkes grow up and has taken care of Hawkes for over thirty years. The butler once saved the Baron's life in a hunting accident, and the two had an <InvHighlight> extremely close </> relationship. \n The servant is timid and honest by nature and <InvHighlight> is not good at lying. </> \n Dr. Evan used to <InvHighlight> care very much about </> the Baron's physical condition, but his attitude has become noticeably cold recently."] = "Дворецкий Джон видел, как рос барон Хоукс, и заботился о нем больше тридцати лет. Однажды на охоте дворецкий спас барону жизнь, и их отношения были <InvHighlight>чрезвычайно близкими.</>\nСлуга по натуре робок и простодушен, он <InvHighlight>совершенно не умеет лгать.</>\nДоктор Эван раньше <InvHighlight>очень беспокоился</> о здоровье барона, но в последнее время стал заметно холоднее к нему.",
+    ["%s Memory Fragment: %s"] = "%s Фрагмент памяти: %s",
+    ["廷根秩序世界完成度达到%d/25%%。"] = "Уровень завершения Мира Ордена Тингена достиг %d/25%%.",
+    ["Franco"] = "Франко",
 }

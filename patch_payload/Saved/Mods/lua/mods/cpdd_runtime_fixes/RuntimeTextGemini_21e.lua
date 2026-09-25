@@ -253,4 +253,8 @@ return {
     ["5231136 Backlund Single-Player Instance"] = "5231136 Бэкланд Single-Player Instance",
     ["Because you are a Loen soldier and she is a Feysacian? Or is it because you don't want her to see your cowardice?"] = "Потому что ты солдат Лоен, а она фейсацианка? Или ты не хочешь, чтобы она увидела твою трусость?",
     ["[Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
+    ["Guardian Power - effect"] = "Сила хранителя — Эффект",
+    ["Hahaha \r\n Hahahaha... \r\n Hahahahahaha... \r\n Hahahahahahaha...!"] = "Хи-хи-ха-ха\r\nХа-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха-ха-ха!..",
+    ["收获%d/1000个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/1000.",
+    ["Use specified item  Player plays speech text visible only to self  Delayed execution"] = "Использовать указанный элемент. Игрок воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",
 }

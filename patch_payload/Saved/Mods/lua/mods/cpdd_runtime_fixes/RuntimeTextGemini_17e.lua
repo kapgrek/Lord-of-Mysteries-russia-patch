@@ -252,4 +252,6 @@ return {
     ["Ayla"] = "Айла",
     ["Signed in for <Date>21</> days (resets in <Date>1Day10Hour</>)"] = "Отмечено дней: <Date>21</> (сброс через <Date>1Day10Hour</>)",
     ["Hidden Cloak"] = "Маскировочный плащ",
+    ["Block increased by <Yellow>*d</>."] = "Блок увеличен на <Yellow>*d</>.",
+    ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

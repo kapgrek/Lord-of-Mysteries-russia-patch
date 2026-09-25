@@ -288,4 +288,6 @@ return {
     ["You can obtain bound Gold Pounds through events, main/side quests, etc."] = "Вы можете получить связанные золотые фунты через события, основные/побочные квесты и т. д.",
     ["Then stop doing spirit mediumship, why not switch to Sequence 7?"] = "Тогда перестаньте заниматься медиумизмом, почему бы не переключиться на Последовательность 7?",
     ["Equip to gain the [Spectator] bond."] = "Экипируйте, чтобы получить резонанс [Зритель].",
+    ["走近查看篮子里的贺卡"] = "Подход к просмотру открытки в корзине",
+    ["Ronan"] = "Ронан",
 }

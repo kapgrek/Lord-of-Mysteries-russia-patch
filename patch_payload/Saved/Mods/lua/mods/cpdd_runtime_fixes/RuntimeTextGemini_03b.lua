@@ -234,4 +234,5 @@ return {
     ["Fog Forest Sprout"] = "Туманный Лесной Росток",
     ["Equip to gain the [Prisoner] resonance."] = "Экипируйте, чтобы получить резонанс [Узник].",
     ["Messenger Package"] = "Посылка от посланника",
+    ["Camila"] = "Камила",
 }

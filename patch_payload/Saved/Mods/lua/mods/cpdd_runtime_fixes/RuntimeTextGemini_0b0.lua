@@ -243,4 +243,9 @@ return {
     ["Equip to gain the [Assassin] bond"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
     ["你的弈子每5秒恢复4%最大生命值。"] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
     ["At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 20% of their maximum Health </>, lasting for <HighLight> 10 seconds </>."] = "В начале боя фигуры, <HighLight> не смежные с союзниками </>, получают щит в размере <HighLight> 20% от макс. здоровья </> на <HighLight> 10 секунд </>.",
+    ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
+    ["铁路大亨挑战线路难度获得%d/10次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/10 раз в маршрутах испытаний «Железнодорожный магнат».",
+    ["场景ID:"] = "Идентификатор сцены:",
+    ["配角们，臣服于我！"] = "Второстепенные персонажи, подчинитесь мне!",
+    ["Carla"] = "Карла",
 }

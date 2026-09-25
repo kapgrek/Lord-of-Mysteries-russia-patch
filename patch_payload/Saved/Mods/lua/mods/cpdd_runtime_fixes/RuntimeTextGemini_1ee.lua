@@ -292,4 +292,6 @@ return {
     ["At the salon, I thought you were an innocent art lover."] = "В салоне я думал, что ты невинный любитель искусства.",
     ["This place can hardly be called an \"apartment\"..."] = "Это место сложно назвать «квартирой»…",
     ["Companion Doll: When Anthea enters the field, summon Mr. Barney of the same star level as Anthea as a summon to join the battle."] = "Кукла-компаньон: когда Антея выходит на поле боя, призовите мистера Барни того же звездного уровня, что и Антея, чтобы он присоединился к битве.",
+    ["%s记忆碎片：%s"] = "%s Фрагмент памяти: %s",
+    ["<P_Yellow>小丑</>：哈哈！又有人来了！来看笑话？还是来送死的？"] = "<P_Yellow>Клоун</>: Хаха! Здесь кто-то еще! Ты здесь, чтобы посмотреть анекдот? Или умереть?",
 }

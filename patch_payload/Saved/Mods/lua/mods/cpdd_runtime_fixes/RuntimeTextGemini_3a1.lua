@@ -280,4 +280,8 @@ return {
     ["Gain <HighLight> 10 free refreshes </>. Upon reaching <HighLight> level 9 </>, gain another <HighLight> 2 free refreshes </> and <HighLight> one Advanced Chess Piece Recorder </>."] = "Даёт <HighLight> 10 бесплатных обновлений </>. При достижении <HighLight> 9-го уровня </> даёт ещё <HighLight> 2 бесплатных обновления </> и <HighLight> один продвинутый регистратор фигур </>.",
     ["Gain an additional <HighLight>55</> Defense, increased by another <HighLight>20%</> for the first <HighLight>10</> seconds."] = "Даёт дополнительно <HighLight>55</> ед. защиты, увеличиваясь ещё на <HighLight>20%</> в первые <HighLight>10</> секунд.",
     ["Ingenious Mad Hat"] = "Искусная безумная шляпа",
+    ["Emotion Color Point - Sadness"] = "Цветовая точка эмоций – Грусть",
+    ["廷根警察局向值夜者小队转交了部分异常案件，作为值夜者小队的新人，你正在展开调查。"] = "Полицейский департамент Тингена передал отряду Ночных Ястребов несколько аномальных дел. Как новичок отряда, вы ведёте расследование.",
+    ["老鼠洗完头"] = "Мышь помыла голову",
+    ["消失的幸运星-询问弗洛"] = "Исчезающая счастливая звезда - Спросите Фло",
 }

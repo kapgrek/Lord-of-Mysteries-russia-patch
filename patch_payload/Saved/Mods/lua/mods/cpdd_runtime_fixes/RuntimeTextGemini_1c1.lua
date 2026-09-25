@@ -267,4 +267,8 @@ return {
     ["Take out the thing from the toilet - obtain the receipt"] = "Достаньте вещь из унитаза – получите квитанцию",
     ["[Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
     ["Card Name Seven Words"] = "Имя карты семь букв",
+    ["Invisibility buff when poor person disappears"] = "Усиление невидимости при исчезновении бедняка",
+    ["0：以发起攻击的实体的位置  1：以攻击筛选范围的中心"] = "0: по позиции атакующей сущности; 1: по центру области фильтрации атаки",
+    ["动作名:"] = "Название действия:",
+    ["Rien"] = "Риен",
 }

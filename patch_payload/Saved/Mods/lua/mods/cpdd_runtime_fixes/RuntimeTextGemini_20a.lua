@@ -267,4 +267,7 @@ return {
     ["Garden: Shrub Wall"] = "Сад: Стена из кустарников",
     ["* 激活羁绊"] = "* Активировать резонанс",
     ["Equip to gain the [Berserker] bond"] = "Экипируйте, чтобы получить резонанс [Берсерк]",
+    ["The current modification scheme is not equipped. Exit modification? \n (Leaving without equipping will not clear the modification scheme)"] = "Текущая схема модификации ещё не установлена. Выйти из модификации?\n    (При выходе несохранённая схема не сбросится)",
+    ["Caspian"] = "Каспиан",
+    ["播放Dialogue  对象离开座位"] = "Воспроизвести диалог Объект покидает место",
 }

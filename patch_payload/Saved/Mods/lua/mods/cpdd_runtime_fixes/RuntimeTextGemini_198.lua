@@ -265,4 +265,5 @@ return {
     ["Investigation point - Teacup"] = "Точка исследования: Чашка чая.",
     ["How do I decorate a Manor?"] = "Как мне украсить поместье?",
     ["<InvDefault>Featuring a</><InvHighlight>golden vest</><InvDefault> inner layer, adorned with</><InvHighlight>jewelry</><InvDefault>,</><InvHighlight>tassels, and botanical patterns</><InvDefault>, combining gentlemanly elegance with a natural aura.</>"] = "<InvDefault>Под ним </><InvHighlight>золотой жилет</><InvDefault>, а </><InvHighlight>украшения</><InvDefault>, </><InvHighlight>кисти и растительный узор</><InvDefault> соединяют джентльменскую элегантность с дыханием природы.</>",
+    ["使用指定道具  玩家发送任务道具"] = "Использовать указанный предмет: игрок отправляет квестовый предмет.",
 }

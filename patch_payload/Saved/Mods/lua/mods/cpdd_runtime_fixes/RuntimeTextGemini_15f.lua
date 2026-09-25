@@ -233,4 +233,7 @@ return {
     ["I heard about that too. Plus, there was a rain of gold pounds in the central square, and many ordinary people who came into contact with the golden rain have developed problems."] = "Я тоже об этом слышал. Плюс на центральной площади прошел дождь из золотых фунтов, и у многих простых людей, соприкоснувшихся с золотым дождем, возникли проблемы.",
     ["Direction of the Wind"] = "Направление ветра",
     ["【罪犯】"] = "[Преступник]",
+    ["这片区域不再堕落。"] = "Эта область больше не осквернена.",
+    ["我们只是发挥了绅士谦让的美德。"] = "Мы просто проявили достоинство джентльменской уступки.",
+    ["An anomaly has also appeared at May Manor.\nSome workers have gone missing.\nThe manor's \"Mistress\" and \"Butler\"\nare both members of the Moon Servant."] = "В поместье Мэй тоже творится неладное:\nбесследно исчезли несколько рабочих.\nИ местная «хозяйка», и «дворецкий»\nоказались прислужниками Луны.",
 }

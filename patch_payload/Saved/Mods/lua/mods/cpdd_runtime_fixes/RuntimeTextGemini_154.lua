@@ -250,4 +250,5 @@ return {
     ["The Love and Desire of the Silver Moon Duke"] = "Любовь и желание герцога Серебряной Луны",
     ["Change to Attack and try."] = "Переключитесь на атаку и попробуйте.",
     ["This pocket watch, you can also call it—the \"Space-Time Beacon.\""] = "Эти карманные часы вы также можете назвать «Маяк пространства-времени».",
+    ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit, HitBack, HitDown, HitFloat, HitFly, HitStiff, HitDrag.",
 }

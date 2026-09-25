@@ -243,4 +243,6 @@ return {
     ["Radiance of the Crimson Moon"] = "Сияние Багряной Луны",
     ["Gain the [Arcane] Resonance. Other allies within <HighLight>1</> tile gain <HighLight>1</> Mana regeneration."] = "Даёт резонанс [Тайная магия]. Другие союзники в пределах <HighLight>1</> клетки получают <HighLight>1</> ед. регенерации маны.",
     ["<InvDefault>获取时装后，各位非凡者还将同步解锁专属头像。</>"] = "<InvDefault>Вместе с нарядом Потусторонние получат и эксклюзивный аватар.</>",
+    ["I\n\nLook\n\nForward\n\nTo It"] = "Я\n\nочень\n\nжду",
+    ["Converse with NPC  Player plays single-line black screen subtitle"] = "Converse с NPC Player воспроизводит однострочные субтитры на черном экране",
 }

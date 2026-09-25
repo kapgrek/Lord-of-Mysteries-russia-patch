@@ -224,4 +224,6 @@ return {
     ["Upload the prepared video to the Art Academy; the AI will analyze and review the content."] = "Загрузите подготовленное видео в Академию Искусств; алгоритм проанализирует и проверит содержимое.",
     ["The Beyonder characteristic left behind by Liana, emitting a soft dawn-like light."] = "The Потусторонний characteristic left behind by Liana, emitting a soft dawn-like light.",
     ["魔女诅咒"] = "Проклятие Демоницы",
+    ["播放Dialogue  玩家根据InstanceID列表创建私有对象"] = "Воспроизвести диалог: игрок создает личные объекты на основе списка InstanceID",
+    ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>20开启"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>20, чтобы открыть",
 }

@@ -239,4 +239,6 @@ return {
     ["百货-报销商店购买获得"] = "Можно приобрести в разделе «Универмаг — Магазин компенсаций»",
     ["Equip to gain the [Savant] resonance."] = "Экипируйте, чтобы получить резонанс [Знаток].",
     ["Gain the [Extraordinary World] Resonance."] = "Даёт резонанс [Потусторонний мир].",
+    ["A twisted spherical object is exposed in the stone coffin, coiled by bare brown vines, like a strange seed with a rotten core."] = "Из каменного саркофага показался искаженный шарообразный предмет, оплетенный обнаженными\nбурыми лозами — словно жуткое семя\nс загнившей сердцевиной.",
+    ["Anaya"] = "Анайя",
 }

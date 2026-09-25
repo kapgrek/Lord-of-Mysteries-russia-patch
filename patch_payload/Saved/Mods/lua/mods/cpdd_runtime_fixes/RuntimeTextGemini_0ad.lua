@@ -266,4 +266,7 @@ return {
     ["Maximum level reached, cannot continue upgrading."] = "Достигнут максимальный уровень, продолжить обновление невозможно.",
     ["Side-by-Side 19 Bond"] = "Бок о бок 19 Бонд",
     ["Rare · Sage's Spirit Ring"] = "Редкое · Духовное кольцо Мудреца",
+    ["Kaile"] = "Кайле",
+    ["Set sail, great navigator Roselle Columbus Magellan Gustav, and go verify your hypothesis!"] = "Отправляйтесь в плавание, великий мореплаватель Розель Колумб Магеллан Густав, и отправляйтесь проверить свою гипотезу!",
+    ["Misael"] = "Мисаэль",
 }

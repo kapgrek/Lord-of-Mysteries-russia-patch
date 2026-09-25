@@ -249,5 +249,12 @@ return {
     ["Advancement - Sequence 6 - Dawn Knight"] = "Продвижение – Эпизод 6 – Рыцарь Рассвета",
     ["Time Wheel Astrolabe"] = "Астролябия колеса времени",
     ["Witch Badge"] = "Эмблема Ведьмы",
+    ["别——四下无人的河边.....原本的<P_Yellow>地点</>就很完美了，我警告你不要轻举妄动！"] = "Не надо — пустынный берег реки... исходное <P_Yellow> место </> было идеальным; Предупреждаю, не поступайте опрометчиво!",
+    ["Loretta"] = "Лоретта",
+    ["Keynote Speaker: Dr. Conrad\nLocation: Tingen University Auditorium\nGuard Health, Ensure Safety, Cherish Life\nLet the light of medicine benefit all of Tingen\nParticipate in the lecture and receive a complimentary home medical kit on-site!\nNo admission fee | Friends from all over the city are welcome to attend | No food or drinks provided"] = "Лектор: доктор Конрад\nМесто: Актовый зал Тингенского университета\nБерегите здоровье, обеспечивайте безопасность, цените жизнь!\nДа озарит свет медицины весь Тинген!\nПосетившим лекцию на месте бесплатно выдается домашняя аптечка!\nВход свободный | Приглашаются все жители города | Питание не предоставляется",
+    ["本俱乐部在上一轮次的俱乐部竞赛中取得%s胜%s负的成绩，获得%s帮会资金奖励。\n以下成员表现优异，特在此予以表彰：\n%s"] = "Наш клуб завершил прошлый тур клубных соревнований со счетом: побед — %s, поражений — %s, заработав %s клубных средств в качестве награды.\nСледующие участники проявили выдающееся мастерство и заслуживают особой благодарности:\n%s",
+    ["Yadiel"] = "Ядиэль",
+    ["Olive"] = "Оливковое",
+    ["Recipient Name Text:"] = "Текст имени получателя:",
     ["[Bulwark]"] = "[Оплот]",
 }

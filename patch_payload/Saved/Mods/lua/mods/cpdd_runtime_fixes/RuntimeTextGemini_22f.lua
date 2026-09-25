@@ -233,4 +233,6 @@ return {
     ["After Cleaning Up"] = "После очистки",
     ["Hainan Province"] = "Провинция Хайнань",
     ["Wilderness Monster"] = "Монстр пустошей",
+    ["Beller"] = "Беллер",
+    ["Dayana"] = "Даяна",
 }

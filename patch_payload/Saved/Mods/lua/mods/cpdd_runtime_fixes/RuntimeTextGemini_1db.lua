@@ -253,4 +253,7 @@ return {
     ["Flame burns silently in the quiet night; though it is fire, its coldness penetrates deep into the soul. It writes its own unique manifesto with silence and speed."] = "Пламя горит тихо в тихой ночи; хоть это и огонь, но его холодность глубоко проникает в душу. Он пишет свой собственный уникальный манифест молча и быстро.",
     ["Attack power increased by 100% granted by the gray fog Blessing"] = "Бонус к силе атаки от благословения серого тумана повышается на 100%",
     ["[Spellcasting]"] = "[Колдовство]",
+    ["Gray Fog Blessing"] = "Благословение Серого Тумана",
+    ["一\n次\n机\n会"] = "Один\n\nшанс",
+    ["Reike"] = "Рейке",
 }

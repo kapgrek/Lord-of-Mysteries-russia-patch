@@ -268,4 +268,5 @@ return {
     ["Each stack causes a *f** Slow effect; the higher the stacks, the stronger the Slow"] = "Каждый стек вызывает эффект *f** Slow; чем выше стеки, тем сильнее Медленный",
     ["Activated Resonance: 7"] = "Активировано резонансов: 7",
     ["Current Losing Streak"] = "Текущая серия поражений",
+    ["非常成功。我身后跟着一支浩浩荡荡的小尾巴，太幸福了！"] = "Очень успешно. За мной следует длинный суетливый хвост – это чистое блаженство!",
 }

@@ -256,4 +256,6 @@ return {
     ["[Spellcasting] gains an additional 55% Attack, and each time a skill is cast: self gains 2% Attack."] = "[Колдовство] дает дополнительно 55% атаки, и при каждом применении навыка: сам персонаж получает 2% атаки.",
     ["Highest Losing Streak: "] = "Макс. серия поражений: ",
     ["Armor-Breaking Crystal Core"] = "Бронебойное кристаллическое ядро",
+    ["Remaining Time: <Highlight> %s </>"] = "Оставшееся время: <Highlight>%s</>",
+    ["Adler"] = "Адлер",
 }

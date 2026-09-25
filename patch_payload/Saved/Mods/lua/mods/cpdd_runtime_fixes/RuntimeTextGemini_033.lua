@@ -266,4 +266,7 @@ return {
     ["[Nighthawk]"] = "[Ночной Ястреб]",
     ["Notes on Victory"] = "Заметки о победах",
     ["Gain 1 Low-Level Piece Recorder<HighLight></>, and gain 1 more after 5 duel rounds<HighLight></><HighLight></>."] = "Даёт 1 Регистратор фигур низкого уровня<HighLight></>, а также ещё 1 через 5 раундов поединка<HighLight></><HighLight></>.",
+    ["Celebration of Death"] = "Празднование смерти",
+    ["Pick up the <h>lamb doll</>"] = "Возьмите куклу-ягненка<h></>.",
+    ["Camilo"] = "Камило",
 }

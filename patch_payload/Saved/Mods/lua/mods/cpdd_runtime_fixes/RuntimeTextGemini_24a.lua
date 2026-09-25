@@ -234,4 +234,7 @@ return {
     ["This time it's very simple, please go to the chair in front and sit down... Oh, please be careful!"] = "На этот раз все очень просто: подойдите к стулу впереди и сядьте... О, пожалуйста, будьте осторожны!",
     ["Use Eyes of Mystery Prying to capture invisible knowledge in the surrounding environment, condensing it into a mysterious piece of paper containing information. Once unfolded, a small amount of information will appear on the paper. After you read it, the paper will dissipate along with your spirituality. While peeking at mysteries, remember to keep secrets.\nGrants yourself +1 Knowledge."] = "С помощью Ока Тайноведа уловите незримые знания в окружающем мире, материализовав таинственный лист с посланием. При разворачивании на нём проступит крупица сведений. Когда вы прочтёте его, бумага рассеется вместе с духовностью. Проникая в тайны, помните о необходимости хранить их в секрете.\nПовышает собственное Знание на 1.",
     ["Equip to gain the [Bard] resonance."] = "Экипируйте, чтобы получить резонанс [Певец].",
+    ["硝烟，争夺，死亡，战争……又要开始了。"] = "Дым, раздоры, смерть, война... она вот-вот начнется снова.",
+    ["一只松鼠，一个可爱的、特别的孩子，它的身体有点特殊。刚刚好，我现在也“有点特殊”。我该为它取个什么名字好呢？"] = "Белочка, милый, особенный ребенок, ее тело немного особенное. Точно, я теперь тоже «немного особенный». Какое имя мне ему дать?",
+    ["Callista"] = "Каллиста",
 }

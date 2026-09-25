@@ -233,4 +233,7 @@ return {
     ["There are no relevant plans for now; head to the Dressing Plaza to see more outfit combinations!"] = "На данный момент соответствующих планов нет; отправляйтесь в Dressing Plaza, чтобы увидеть больше комбинаций нарядов!",
     ["Level 69 12-Player Dungeon Boss Normal"] = "Босс подземелья 69-го уровня для 12 игроков, обычный режим",
     ["Don't think about causing trouble here, I'll be watching you."] = "Не думай о том, чтобы создать здесь проблемы, я буду наблюдать за тобой.",
+    ["<DecH> Craft: </> Sharp Thorn Ring \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds."] = "<DecH>Мастерство:</> шипастый браслет\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
+    ["Stetson"] = "Стетсон",
+    ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект воспроизводит указанное содержимое диалога. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

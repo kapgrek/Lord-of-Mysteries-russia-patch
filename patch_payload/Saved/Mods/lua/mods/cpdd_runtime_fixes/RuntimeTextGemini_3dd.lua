@@ -248,4 +248,9 @@ return {
     ["Consuna's Notes (3)"] = "Записки Консуны (3)",
     ["<CostRed>{1,2,(Brand has expired)}</>Monster Specialization increased by <Mark>180</>.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Специализация по монстрам повышается на <Mark>180</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>.",
     ["装配后获得【超凡生物】羁绊。"] = "Экипируйте, чтобы получить резонанс [Сверхъестественное существо].",
+    ["前方是私人空间， 未经邀请禁止入内。"] = "Это личное пространство, вход без приглашения запрещен.",
+    ["任务自定义事件  玩家发送任务道具  玩家播放2D音效（仅自己可听）"] = "Пользовательское событие квеста, игрок отправляет квестовый предмет, игрок воспроизводит 2D звуковой эффект (слышно только самому себе)",
+    ["您有%d条好友申请未处理"] = "У вас есть необработанные запросы на добавление в друзья %d.",
+    ["Remaining Time:"] = "Оставшееся время:",
+    ["Converse with NPC  Player creates public objects based on InstanceID list (does not take effect in open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Разговор с NPC Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире)",
 }

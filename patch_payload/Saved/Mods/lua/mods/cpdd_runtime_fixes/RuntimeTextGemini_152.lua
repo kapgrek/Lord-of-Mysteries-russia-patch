@@ -259,4 +259,5 @@ return {
     ["Base Speed: 128%\n Sprint Speed: 211%"] = "Базовая скорость: 128%\nСкорость спринта: 211%",
     ["Then my damage output is higher than yours."] = "Тогда мой урон выше вашего.",
     ["The weather is so nice today, dear sir/madam. Come try a bunch of grapes; these might just be the most delicious grapes in Golden Autumn Lake!"] = "Погода сегодня такая хорошая, дорогой сэр/госпожа. Приходите попробовать гроздь винограда; возможно, это самый вкусный виноград на озере Золотой Осени!",
+    ["玩家坐到任意座位  玩家开关铅笔画效果  玩家开关铅笔画效果"] = "Игрок садится на любое место. Плеер переключает эффект карандашного наброска. Плеер переключает эффект карандашного наброска.",
 }

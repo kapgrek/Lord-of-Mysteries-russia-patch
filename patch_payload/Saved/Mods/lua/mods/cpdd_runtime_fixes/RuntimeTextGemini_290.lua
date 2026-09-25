@@ -273,4 +273,7 @@ return {
     ["获得【铁血】共鸣。每隔<HighLight>2</>秒，对<HighLight>1</>格内至多<HighLight>3</>名敌人造成相当于自身生命值<HighLight>1%</>的伤害。"] = "Получает резонанс 【Железо и Кровь】. Каждые <HighLight>2</> сек. наносит до <HighLight>3</> врагам в пределах <HighLight>1</> клетки урон, равный <HighLight>1%</> от собственного здоровья.",
     ["Every <HighLight>3</> seconds, strengthen the next basic attack to deal an additional <HighLight>75%</> of Attack as damage."] = "Каждые <HighLight>3</> сек. усиливает следующую базовую атаку, нанося дополнительно <HighLight>75%</> урона от атаки.",
     ["Long-Range Strike Badge"] = "Эмблема Дальнобойного удара",
+    ["\"Travel Weekly\" Editor Andy Cairns"] = "Редактор «Еженедельника путешествий» Энди Кейнс",
+    ["　　<Mark id=\"#158\">如果那天，我能</>"] = "　　<Mark id=\"#158\">Если бы в тот день я только мог...</>",
+    ["经典配方迪西馅饼"] = "Классический рецепт пирога Дези",
 }

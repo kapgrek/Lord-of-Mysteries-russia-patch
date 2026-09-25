@@ -257,4 +257,7 @@ return {
     ["4 [Spellcraft] gains an additional <HighLight>35%</> Attack, and each time a skill is cast: self gains <HighLight>1.5%</> Attack."] = "4 [Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
     ["梅林·赫尔墨斯"] = "Мерлин Гермес",
     ["After dealing damage, the target's Defense is reduced by <HighLight>30%</> for <HighLight>3</> seconds."] = "После нанесения урона защита цели снижается на <HighLight>30%</> на <HighLight>3</> сек.",
+    ["在罪恶廷根不超过140秒完成一次挑战“审判官”布莱克。"] = "Бросьте вызов Блейку, судье в Sinful Тинген, за 140 секунд.",
+    ["Lia"] = "Лия",
+    ["First month: Prove to my father that I am good at planning my own life.\nFirst year: Honeymoon trip (destination see appendix), Heidi feels happy.\nThird year: Move to a bigger house, Heidi wept with joy when I announced that we had a new property.\n...\nTenth year: The child starts school and gives me and Heidi a sweet kiss on the cheek."] = "Первый месяц: доказать отцу, что я способен сам распоряжаться своей жизнью.\nПервый год: медовый месяц (направление см. в приложении), Хайди счастлива.\nТретий год: переехать в дом попросторнее; Хайди плакала от радости, когда я сообщил о покупке нового дома.\n……\nДесятый год: ребенок пошел в школу, сладко целует нас с Хайди в щеки.",
 }

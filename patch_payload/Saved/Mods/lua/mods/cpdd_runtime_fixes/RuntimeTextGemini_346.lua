@@ -276,4 +276,6 @@ return {
     ["It's time to say goodbye to this damn foggy weather!"] = "Пришло время попрощаться с этой чертовой туманной погодой!",
     ["Take out money"] = "Вынуть деньги",
     ["For every <HighLight>1</> Resonance activated, all allies gain additional Attack, up to <HighLight>10</> Resonances."] = "За каждый 1 активированный резонанс все союзники получают дополнительную атаку, максимум до 10 резонансов.",
+    ["鳗鱼浓汤、香煎嫩羔羊肉、柠檬蛋糕"] = "Чаудер с угрем, жареная нежная баранина, лимонный пирог",
+    ["With a wave of Golden Wolf's hand, thousands of people in the audience stood up simultaneously.\nThe strings had already tightened around their throats.\nThose who stood up were no longer human.\n\"If you want safety, hand your consciousness over to me.\nThis is a win-win deal.\""] = "Цзинь Лан махнул рукой, и тысячи людей в зале одновременно встали. \nНить в горле уже перерезана. \nЭти люди, которые встали, уже не люди. \n\"Если хочешь быть в безопасности, просто отдай мне своё сознание. \nЭто беспроигрышная сделка.\"",
 }

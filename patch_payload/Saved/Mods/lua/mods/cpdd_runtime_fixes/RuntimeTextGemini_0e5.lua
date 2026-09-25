@@ -232,4 +232,6 @@ return {
     ["激活羁绊：15"] = "Активировано резонансов: 15",
     ["[Radiance of the Crimson Moon]"] = "【Сияние Багряной Луны】",
     ["At the start of combat, chess pieces <HighLight> not adjacent to allies </> gain a Shield equal to <HighLight> 30% of their maximum Health </>, lasting for <HighLight> 10 seconds </>."] = "В начале боя фигуры, <HighLight> не смежные с союзниками </>, получают щит в размере <HighLight> 30% от макс. здоровья </> на <HighLight> 10 секунд </>.",
+    ["Highly dangerous"] = "Очень опасно",
+    ["在罪恶廷根不超过170秒完成一次挑战“头狼”鲁珀。"] = "Бросьте вызов Люперу, Альфа-Волку в Sinful Тинген, за 170 секунд.",
 }

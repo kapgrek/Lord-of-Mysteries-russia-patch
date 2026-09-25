@@ -275,4 +275,7 @@ return {
     ["Other Party"] = "Другая сторона",
     ["Attack increases the damage dealt by the character. The extent of the increase depends on the Skill multiplier and, based on the damage type, is affected by the target's physical Defense or magic Defense.\n\nCharacter Physical Attack: <Mark>4619</>-<Mark>5256</>\nCharacter Magic Attack: <Mark>4619</>-<Mark>5256</>"] = "Атака увеличивает наносимый персонажем урон; прирост зависит от множителя навыка, а в зависимости от типа урона снижается физической или магической защитой цели.\n\nФиз. атака персонажа: <Mark>4619</>-<Mark>5256</>\nМаг. атака персонажа: <Mark>4619</>-<Mark>5256</>",
     ["AutoChess Tips – Life Schedule"] = "Подсказка AutoChess – Жизненный график",
+    ["使用指定道具  玩家播放情绪音乐（仅自己可听）  玩家发送任务道具"] = "Использовать указанный предмет, игрок воспроизводит эмоциональную музыку (слышно только себе), игрок отправляет предмет задания",
+    ["Valentina"] = "Валентина",
+    ["采集指定TemplateID的采集物  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Собрать предмет коллекции с указанным TemplateID NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

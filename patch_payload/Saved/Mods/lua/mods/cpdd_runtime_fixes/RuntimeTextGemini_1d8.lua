@@ -256,4 +256,6 @@ return {
     ["Achievement: Peak of Myth"] = "Достижение: Пик мифа",
     ["University District Bridgehead Bicycle (Brown)"] = "Велосипед-плацдарм университетского округа (коричневый)",
     ["Complete 1 Cat-Seeking Adventure"] = "Завершите 1 приключение по поиску кошек.",
+    ["Mosh"] = "Мош",
+    ["Zamir"] = "Замир",
 }

@@ -265,4 +265,9 @@ return {
     ["Trevor's Shadow"] = "Тень Тревора",
     ["General Without Pupils: Filter targets with Enemy"] = "Генерал без учеников: фильтруйте цели с помощью Enemy",
     ["2 [Spellcraft] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "2 [Колдовство] дает дополнительно <HighLight>15%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1%</> атаки.",
+    ["调查<h>镜子碎片</>"] = "Осмотрите <h>осколки зеркала</>",
+    ["Juliana"] = "Джулиана",
+    ["向好友出售%d/50个最高收益率物产。"] = "Продавайте друзьям продукцию %d/50 с максимальной доходностью.",
+    ["At 3:00 PM <InvHighlight>, the servant went to prepare afternoon tea. </>\nAround 3:10 PM <InvHighlight>, when the servant brought the tea to the bedroom door, he found that </>the door was locked. <InvHighlight>	</>After the servant knocked, he did not receive an immediate response. After some time, the Baron's voice came from inside the bedroom: \n“Don't come in.” <InvHighlight></>The servant did not enter the bedroom, but instead placed the tray \nat the door <InvHighlight>and left. </>"] = "В <InvHighlight>три часа дня</> слуга пошёл готовить послеобеденный чай.\nОколо <InvHighlight>трёх часов десяти минут</>, когда слуга принёс чай к двери спальни, он обнаружил, что <InvHighlight>дверь заперта.</>	\nПостучав в дверь, слуга не сразу получил ответ. Спустя некоторое время из спальни донёсся голос барона: <InvHighlight>«Не входи».</>\nСлуга не стал входить в спальню, а оставил поднос <InvHighlight>у двери</> и ушёл.",
+    ["Unlocked after completing 5 simple-difficulty beginner fashion challenges"] = "Разблокируется после выполнения 5 модных задач Тингена для начинающих легкой сложности \n.",
 }

@@ -253,4 +253,9 @@ return {
     ["Castle Workshop - Craft Brewery."] = "Замковая мастерская – крафтовая пивоварня.",
     ["Through devout prayer, gain the gaze of the God, pray for and receive a Holy Light that envelops you, purifying the corruption tainted within your own spirituality and repairing the mental exhaustion caused by combat.\nGrants yourself +4 Knowledge and +2 Charisma."] = "Искренней молитвой обратите на себя взор божества, моля об окутывающем священном свете, очищающем духовность от скверны и восстанавливающем душевные силы после битвы.\nПовышает собственное Знание на 4 и Обаяние на 2.",
     ["[Warrior]"] = "[Воин]",
+    ["Witch battle - Player mood material - Anger Red"] = "Битва ведьм — Материал настроения игрока — Красный гнев",
+    ["前往指定坐标交互并进入位面  玩家播放主线任务开始展示界面"] = "Перейти к указанным координатам для взаимодействия и входа на план; отображается интерфейс начала основного задания.",
+    ["Madeline"] = "Мэдлин",
+    ["他说廷根有个大学城，坐飞艇能飞到云上。"] = "Он сказал, что в Тингене есть университетский округ, и над облаками можно летать на дирижабле.",
+    ["<DecH>Craftsmanship: </>Flowing Light Silk · Scale Powder Staining\nAlthough the butterfly has left at dusk, the phantom of the butterfly wings still lingers on the cape."] = "<DecH>Ремесло: </><Assistant_Property2>Струящийся шелк · Роспись чешуйчатой пыльцой</>\nХотя бабочка вспорхнула и скрылась в сумерках, призрачный оттиск ее крыльев все еще покоится на ткани плаща.",
 }

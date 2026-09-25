@@ -274,4 +274,8 @@ return {
     ["Inner Hem - Bottom"] = "Внутренний край – низ",
     ["4 [Spellcasting] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "4 [Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["The Dead's Entertainment"] = "Развлечение мертвецов",
+    ["Investigate the <h>mirror fragments</>"] = "Осмотрите <h>осколки зеркала</>",
+    ["Why\n\n?"] = "По\nче\nму\n?",
+    ["Izell"] = "Изель",
+    [">>>Bond data does not exist, bond ID:"] = ">>>Данные о облигации не существуют, идентификатор облигации:",
 }

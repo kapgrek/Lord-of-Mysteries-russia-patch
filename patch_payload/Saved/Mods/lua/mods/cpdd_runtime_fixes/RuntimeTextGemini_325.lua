@@ -266,4 +266,7 @@ return {
     ["Use to obtain <Highlight>Midsummer Night Top</>"] = "Используйте, чтобы получить <Highlight>Топ в летнюю ночь</>.",
     ["The crowd begins to recede, night shrouds the market, and in the lightless places, evil lurks.\nThe girl in the long dress flees in panic, the Ripper follows closely like a shadow.\nWho, and at what time, is willing to step forward to save her life?"] = "Толпа начала отступать, и тьма окутала рынок. Там, где не было света, таился грех. \nДевушка в длинной юбке в панике убежала, а Потрошитель следовал за ней, словно тень. \nКто и когда захочет выйти вперед и спасти ей жизнь?",
     ["[Apothecary]"] = "[Аптекарь]",
+    ["每个不同的<HighLight>3</>星棋子：全体+<HighLight>3%</>攻击和<HighLight>5</>防御属性。"] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты.",
+    ["Cage Knowledge"] = "Знание клетки",
+    ["<Chat_AT>Sanjiu:</> Zai zai zai zai zai zai zai zai zai zai zai zai zai zai zai <Chat_PosNeed>Tingen</> to <Chat_NPC>Daly</><Chat_PlayerName>Miss Audrey Hall</><Chat_Default>：Placeholder text</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

@@ -251,4 +251,5 @@ return {
     ["Father!"] = "Отец!",
     ["GTA - Audrey healing - Coffee cup"] = "GTA - Исцеление Одри - Кофейная чашка",
     ["All allies gain <HighLight>10%</> Attack. [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
+    ["Play Dialogue  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Игра «Диалог». Игрок воспроизводит говорящий текст, который виден только ему самому. Отложенное исполнение. Игрок воспроизводит говорящий текст, который виден только ему. Отложенное исполнение.",
 }

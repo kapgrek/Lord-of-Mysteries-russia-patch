@@ -243,4 +243,8 @@ return {
     ["Soothing Cookie Rain"] = "Успокаивающий дождь из печенья",
     ["Frontline Support"] = "Передовая поддержка",
     ["战斗开始时获得<HighLight>6</>层【恶名】，伤害提高<HighLight>10%</>。"] = "В начале боя получает <HighLight>6</> уровней эффекта 【Дурная слава】, урон увеличивается на <HighLight>10%</>.",
+    ["提交道具（设置提交ID）  玩家开启Letter界面"] = "Сдать предмет (установить ID сдачи); игрок открывает интерфейс письма",
+    ["No young lady would be willing to marry a meat butcher! None!\n\n	I hate the smell of meat on me! I hate this world!\n\n	I <Delete id=\"#157\">some Loen profanities that are hard to display, vulgar and crude, expressing the hatred of a person who is not doing well in life towards the world and fate.</>\n\n	What if I become a government employee?\n\n	If I work harder, even if it's just serving plates in that square building, would someone be willing to love me?"] = "Ни одна благородная барышня не выйдет замуж за мясника! Ни одна!\n\n	Я ненавижу этот запах сырого мяса, въевшийся в кожу! Ненавижу этот чертов мир!\n\n	Я <Delete id=\"#157\">выдал порцию отборных лоэнских ругательств — грубых, грязно звучащих, полных ненависти сломленного неудачника к миру и собственной судьбе.</>\n\n	А если бы я стал государственным служащим?\n\n	Если бы я старался усерднее, пусть даже просто разносил тарелки в том массивном казённом здании... полюбил бы меня хоть кто-нибудь?",
+    ["倒吊的视角让你看见了常人不可见的真相。保持这份清醒，顿悟就在痛苦的尽头。"] = "Ракурс Повешенного позволяет увидеть истины, невидимые для обычных людей. Сохраняйте эту ясность; просветление лежит в конце страдания.",
+    ["Jericho"] = "Иерихон",
 }

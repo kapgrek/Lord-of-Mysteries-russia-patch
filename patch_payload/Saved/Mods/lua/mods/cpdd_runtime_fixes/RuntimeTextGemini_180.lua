@@ -261,4 +261,5 @@ return {
     ["I just don't want to be Lady Rose's fragile daughter. I must be the powerful and free Black Emperor, appearing like a hero, so I can take her away from this cage, to the sea, to a place of freedom."] = "Я просто не хочу быть хрупкой дочерью леди Роуз. Я должен быть могущественным и свободным Черным Императором, выглядящим как герой, чтобы я мог забрать ее из этой клетки в море, в место свободы.",
     ["Daisy left by little Daisy"] = "Дейзи оставила маленькая Дейзи",
     ["Stamina Recovery Rate"] = "Скорость восстановления выносливости",
+    ["<P_Heart>（看来队长认识她……对了……）</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
 }

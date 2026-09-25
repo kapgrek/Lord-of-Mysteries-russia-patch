@@ -265,4 +265,7 @@ return {
     ["Over-the-shoulder dialogue 02"] = "Диалог через плечо 02",
     ["When a character's Health reaches zero, they will enter a dissipated state.\nThey require assistance from themselves or others to recover and return to a normal state.\n\nMaximum Health: <Mark>17402</>"] = "Когда здоровье персонажа опускается до нуля, он переходит в состояние рассеивания.\nДля возвращения в строй требуется самовосстановление или помощь союзников.\n\nМакс. здоровье: <Mark>17402</>",
     ["获得【战法】共鸣。"] = "Получает резонанс 【Боевая магия】.",
+    ["Both sides"] = "Обе стороны",
+    ["Mechanism 1 - BOSS Mark Buff - Used for AI Detection Judgment"] = "Механизм 1 — усиление отметки БОСС — используется для оценки обнаружения ИИ.",
+    ["No update today"] = "Сегодня без обновлений",
 }

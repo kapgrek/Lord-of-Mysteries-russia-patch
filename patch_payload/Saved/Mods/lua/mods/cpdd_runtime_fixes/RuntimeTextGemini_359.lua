@@ -256,4 +256,6 @@ return {
     ["I wonder which Pathway this Beyonder belongs to; they are so outstanding!"] = "I wonder which Pathway this Потусторонний belongs to; they are so outstanding!",
     ["Cause blood roses to bloom around you, dealing <Yellow>71</> Attack damage to nearby enemies."] = "Заставляет кровавые розы расцвести вокруг себя, нанося <Yellow>71</> ед. урона от атаки ближайшим врагам.",
     ["发出四次狼嚎冲击前方，共造成<Yellow>133</>点攻击伤害。自身每损失<HighLight>10%</>最大生命，获得<HighLight>3%</>攻速和吸血，至多<HighLight>30%</>，生命恢复时重新计算。"] = "Издает четыре волчьих воя, обрушивая ударную волну вперед и нанося в сумме <Yellow>133</> ед. урона от атаки. За каждые потерянные <HighLight>10%</> максимального здоровья получает <HighLight>3%</> к скорости атаки и вампиризму (до <HighLight>30%</>), значение пересчитывается при восстановлении здоровья.",
+    ["Dragon-Hunting Gang Leader effect"] = "Эффект лидера банды охотников на драконов",
+    ["老地方，猎犬酒吧，不分胜负别想走！"] = "Обычное заведение, Hounds Pub, даже не думайте уходить, пока мы не сведем счеты!",
 }

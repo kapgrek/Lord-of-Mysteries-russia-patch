@@ -251,4 +251,7 @@ return {
     ["I'm dead, go find my colleague."] = "Я мертв, иди найди моего коллегу.",
     ["Thank you for your help, {{Sir|Madam}}. You aren't hurt, are you?"] = "Спасибо за помощь, {{Sir|Madam}}. Ты не ранен, не так ли?",
     ["[Rock]"] = "[Скала]",
+    ["Retrieve that <h>Tarot card</>"] = "Заберите ту <h>карту Таро</>",
+    ["我看不清楚祂真正的模样，只觉得这丰饶的气息似曾相识……"] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
+    ["<InvHighlight>\"Morning Dew\"</>, also known as a stimulant—\n\nis concocted from <InvHighlight>the heart of a Dream Catcher</>, spirit flower, and colchicine essence. \nIt can keep the user awake or have the effect of <Mark id=\"#159\">Healing narcolepsy</>."] = "<InvHighlight>«Утренняя роса»</>, также именуемая бодрящим снадобьем:——\n\nизготавливается из <InvHighlight>сердца ловца снов</>, цветка эльфов и эссенции безвременника.\nПомогает прогнать сонливость и обладает эффектом <Mark id=\"#159\">исцеления нарколепсии</>.",
 }

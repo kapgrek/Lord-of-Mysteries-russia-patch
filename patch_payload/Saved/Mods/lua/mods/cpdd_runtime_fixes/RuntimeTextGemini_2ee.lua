@@ -257,4 +257,8 @@ return {
     ["Equip to gain the [Nighthawk] resonance."] = "Экипируйте, чтобы получить резонанс [Ночной Ястреб].",
     ["Gain 2/6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>."] = "Даёт 2/6 золотых монет<HighLight></>. Даёт 1 бесплатное обновление каждый раунд<HighLight></><HighLight></>.",
     ["Restore <HighLight>4</> Mana with each basic attack; restore an additional <HighLight>6</> Mana when landing a critical hit."] = "Восстанавливает <HighLight>4</> ед. маны при каждой базовой атаке; при критическом ударе восстанавливает дополнительно <HighLight>6</> ед. маны.",
+    ["Test buff 2"] = "Тестовый бафф 2",
+    ["与Npc进行对话  对象播放指定对白内容  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Разговаривайте с NPC, объект воспроизводит указанный контент диалога, NPC уничтожает себя (не может уничтожать игроков и публичных NPC большого мира)",
+    ["梦境捕手，<InvHighlight>捕食梦境</>的凶猛生物。\n……\n它们痴迷<InvHighlight>牛奶</>和<InvHighlight>曼哈尔鱼</>的味道，这对它们有致命的吸引力。\n……\n如果睡前喝几口<Mark id=\"#159\">浸泡曼哈尔鱼眼珠的牛奶</>……"] = "Ловец снов — свирепое создание, <InvHighlight>пожирающее чужие сновидения</>.\n...\nОни без ума от запаха <InvHighlight>молока</> и <InvHighlight>рыбы манхар</>, для них это непреодолимый соблазн.\n...\nЕсли перед сном сделать пару глотков <Mark id=\"#159\">молока, настоянного на глазах рыбы манхар</>...",
+    ["But... I will not stay"] = "Но... я не останусь",
 }

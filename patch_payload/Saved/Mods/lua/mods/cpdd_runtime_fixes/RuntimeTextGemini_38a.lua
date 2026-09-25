@@ -260,4 +260,5 @@ return {
     ["Makes friendly members immune to Purification."] = "Дарует союзникам невосприимчивость к Очищению.",
     ["[Reader]"] = "[Чтец]",
     ["Gain an additional <HighLight>30</> Defense, increased by another <HighLight>10%</> for the first <HighLight>10</> seconds."] = "Даёт дополнительно <HighLight>30</> ед. защиты, увеличиваясь ещё на <HighLight>10%</> в первые <HighLight>10</> секунд.",
+    ["其一，祈愿织线——通过冥冥之中的眷顾，为你寻找命运织线上的另一端——那个与你灵魂共鸣的人。"] = "Во-первых, Молитвенное Плетение – благодаря милости неизвестного Я найду для тебя другой конец нити судьбы – человека, душа которого резонирует с твоей.",
 }

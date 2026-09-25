@@ -262,4 +262,5 @@ return {
     ["Taiyuan Lao Ge"] = "Тайюань Лао Гэ",
     ["Set the letter <h> on fire </>"] = "Подожгите букву <h> </>.",
     ["Special 3"] = "Специальный 3",
+    ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

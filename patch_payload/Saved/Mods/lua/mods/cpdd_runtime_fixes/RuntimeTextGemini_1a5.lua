@@ -255,4 +255,6 @@ return {
     ["Oh, Storms above, quickly send down divine punishment and drive away this madman!"] = "О, Бури небесные, ниспошли скорее божественную кару и прогони этого безумца!",
     ["Benson 2"] = "Бенсон 2",
     ["Steel Dawn"] = "Стальной рассвет",
+    ["提交道具（设置提交参数）"] = "Сдать предмет (настроить параметры сдачи)",
+    ["<Chat_AT>三九：</>在在在在在在在在在在在在在在在<Chat_PosNeed>廷根</>对<Chat_NPC>黛丽</><Chat_PlayerName>丽霍尔小姐</><Chat_Default>：位文本</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">申请入团</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

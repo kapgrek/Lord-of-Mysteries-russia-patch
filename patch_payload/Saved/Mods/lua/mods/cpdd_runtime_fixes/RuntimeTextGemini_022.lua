@@ -249,5 +249,6 @@ return {
     ["Moss Shadow Drain: Gain 2% Life Steal and 1% maximum Health per stack, up to 6 stacks."] = "Moss Shadow Drain: дает 2% вампиризма и 1% максимального здоровья за каждый стак, до 6 стаков.",
     ["Use to obtain <Highlight>Fairy Tale Tea Party Top</>"] = "Используйте, чтобы получить <Highlight>Сказочное чаепитие Top</>",
     ["5230284 Memory Space Plane"] = "5230284 Измерение: Пространство памяти",
+    ["Position 3 Action"] = "Действие 3-й позиции",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

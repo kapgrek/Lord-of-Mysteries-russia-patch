@@ -241,4 +241,5 @@ return {
     ["Edge obstacle 2"] = "Краевое препятствие 2",
     ["装配后获得【刺客】羁绊"] = "Экипируйте, чтобы получить резонанс [Ассасин]",
     ["【月之污染】"] = "【Лунное осквернение】",
+    ["Each unique <HighLight>3</>-star piece: All allies +<HighLight>3%</> Attack and <HighLight>5</> Defense. Gain <HighLight>1</> random wild monster piece after each player combat."] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты. Даёт <HighLight>1</> случайную фигуру дикого монстра после каждого боя с игроком.",
 }

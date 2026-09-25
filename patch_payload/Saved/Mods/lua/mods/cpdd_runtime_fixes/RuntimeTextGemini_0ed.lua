@@ -266,4 +266,9 @@ return {
     ["激活羁绊：13"] = "Активировано резонансов: 13",
     ["[Spellcraft]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。"] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["远程打击"] = "Дальнобойный удар",
+    ["Slow Foot"] = "Медленная нога",
+    ["<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>200</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
+    ["Note: Refer to the mechanism-breaking method in \"90 Existing Mechanism Puzzle Solutions for Sealed Artifact 3-888,\" enter the circular space, <InvHighlight> and solve the mechanism puzzles 3 times in a row to break the memory loop </>."] = "Примечания: Обратитесь к методу взлома механизма в «Запечатанный артефакт 3-888 Существующие 90 методов взлома механизмов» и войдите в пространство цикла. <InvHighlight>Разгадывайте 3 головоломки подряд, чтобы разорвать цикл памяти </>.",
+    ["播放CutScene  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Воспроизведение CutScene: объект телепортируется в указанное место в указанной сцене (игроки поддерживают телепортацию между сценами, NPC - только в одной сцене).",
+    ["I photographed...!"] = "Я сфотографировал...!",
 }

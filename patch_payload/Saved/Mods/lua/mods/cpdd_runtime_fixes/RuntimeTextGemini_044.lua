@@ -245,4 +245,8 @@ return {
     ["The yellow crystal pendant stops there, motionless. \n... The divination has been affected, and no result can be obtained..."] = "Цитриновый кулон стоял неподвижно. \n…На гадание влияет и результаты не могут быть получены…",
     ["<Highlight>Craftsmanship:</> Finely carved platinum, pearl pendant.\nAn exquisite forehead ornament woven from pure platinum; its intricate patterns seem capable of attracting the blessings of God."] = "<Highlight>Мастерство:</> гравированная платина, жемчужные подвески\nИзысканное налобное украшение, сплетённое из чистой платины; его затейливые узоры словно притягивают благословение божества.",
     ["New Cosmetics! Above the Wilderness, Compose a Hymn of Abundance"] = "Новые облики! Над пустошью звучит гимн изобилию",
+    ["战斗开始<HighLight>12秒</>后，己方棋子获得<HighLight>35%伤害加深</>。"] = "Через <HighLight>12 сек.</> после начала боя ваши фигуры получают <HighLight>35% к увеличению урона</>.",
+    ["你的诗，不该只待在这种地方。"] = "Ваша поэзия не должна просто оставаться в таком месте.",
+    ["开启灵视  对象播放指定对白内容"] = "Активировать духовное зрение; объект воспроизводит указанное содержимое диалога.",
+    ["<P_Heart>（嘴角含笑）</>想看跳舞，找个位置坐着就行。想多聊几句……先让酒杯满上。"] = "<P_Heart> (с улыбкой на губах) </> Если хочешь посмотреть танец, просто найди место. Если хочешь еще немного поболтать... сначала наполни бокал вином.",
 }
