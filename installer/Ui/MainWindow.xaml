@@ -17,9 +17,7 @@
                     <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel VerticalAlignment="Top">
-                    <Border Width="64" Height="64" CornerRadius="12" Background="{StaticResource InputBrush}" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
-                        <Image x:Name="Logo" Width="48" Height="48" RenderOptions.BitmapScalingMode="HighQuality"/>
-                    </Border>
+                    <Image x:Name="Logo" Width="64" Height="64" RenderOptions.BitmapScalingMode="HighQuality"/>
                     <TextBlock x:Name="VersionText" Text="v0.0.0-RU" HorizontalAlignment="Center" Margin="0,6,0,0" Foreground="{StaticResource MutedBrush}" FontSize="11.5"/>
                 </StackPanel>
                 <StackPanel Grid.Column="1" Margin="16,0,0,0" VerticalAlignment="Center">
