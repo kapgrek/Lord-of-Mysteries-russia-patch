@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "2.9.1-RU"
+local VERSION = "2.9.2-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1464,120 +1464,374 @@ function runtimeFixes.isCinematicWidgetName(name)
         or lower:find("theleon") ~= nil
 end
 
-function runtimeFixes.isCinematicFontObject(fontObj)
-    if fontObj == nil then return false end
-    if runtimeFixes.CinematicFontObject ~= nil and fontObj == runtimeFixes.CinematicFontObject then
-        return true
-    end
-    local name = ""
-    local path = ""
-    pcall(function()
-        if fontObj.GetName ~= nil then name = tostring(fontObj:GetName()):lower() end
-        if fontObj.GetPathName ~= nil then path = tostring(fontObj:GetPathName()):lower() end
-    end)
-    local full = name .. " " .. path
-    if full:find("song") or full:find("serif") or full:find("cinema") or full:find("book")
-        or full:find("chapter") or full:find("aside") or full:find("baosong") or full:find("fzb")
-        or full:find("simsun") or full:find("kaishu") or full:find("hwzs") or full:find("stsong")
-        or full:find("mistery") or full:find("mystery") or full:find("theleon")
-        or full:find("hermes") or full:find("runic") then
-        return true
-    end
-    return false
-end
+-- Fonts (TASK-006) -------------------------------------------------------------
+-- Font_Aleo is the UI font. Its Title typeface draws Cyrillic with the Chinese
+-- FZ Old Mincho glyphs (1.0 em, twice the Latin width); Regular draws it with
+-- Source Han Sans (~0.62 em). Cyrillic is made proportional in one of the modes:
+--   "subfont"  - append a Cyrillic SubTypeface to Font_Aleo.CompositeFont (the
+--                game's font is extended, never replaced) and flush the font cache;
+--                any failure falls back to "typeface";
+--   "typeface" - Title -> Regular for widgets whose text contains Cyrillic;
+--   "off"      - authored typefaces.
+-- absoluteru_dev.lua (Enabled = true) may override it: CyrillicFont = "subfont".
+runtimeFixes.AuthoredFonts = setmetatable({}, { __mode = "k" })
+runtimeFixes.CyrillicTypefaces = {}
+runtimeFixes.CyrillicFontMode = "off"
+-- Cyrillic face sources by priority; the first one that loads is used.
+-- "Font_Aleo:Regular" is the face of Font_Aleo's Regular typeface, read at runtime.
+runtimeFixes.CyrillicFaceCandidates = {
+    -- "/Game/AbsoluteRU/Fonts/<stage 4b font>.<stage 4b font>",
+    "Font_Aleo:Regular",
+}
 
-function runtimeFixes.isStandardFontObject(fontObj)
-    if fontObj == nil then return false end
-    if runtimeFixes.StandardFontObject ~= nil and fontObj == runtimeFixes.StandardFontObject then
-        return true
-    end
-    if runtimeFixes.isCinematicFontObject(fontObj) then
-        return false
-    end
-    local name = ""
-    local path = ""
-    pcall(function()
-        if fontObj.GetName ~= nil then name = tostring(fontObj:GetName()):lower() end
-        if fontObj.GetPathName ~= nil then path = tostring(fontObj:GetPathName()):lower() end
-    end)
-    local full = name .. " " .. path
-    if full:find("mistery") or full:find("mystery") or full:find("theleon") or full:find("hermes") or full:find("runic") then
-        return false
-    end
-    if full:find("sans") or full:find("default") or full:find("common") or full:find("roboto")
-        or full:find("noto") or full:find("yahei") or full:find("lan_ting") or full:find("lanting")
-        or full:find("simhei") or full:find("regular") or full:find("ui") or full:find("body")
-        or full:find("aleo") then
-        return true
-    end
-    return false
-end
+do
+    local CYRILLIC_FONT_MODE = "typeface"
+    local STANDARD_FONT_PATH = "/Game/Arts/UI_2/Resource/Font/Font_Aleo.Font_Aleo"
+    local CINEMATIC_FONT_PATH = "/Game/Arts/UI_2/Resource/Font/Font_Mistery.Font_Mistery"
+    local CYRILLIC_RANGES = { { 0x0400, 0x045F }, { 0x2116, 0x2116 } }
+    local RANGE_INCLUSIVE = 1 -- ERangeBoundTypes::Inclusive
+    local ALEO_REGULAR = "Font_Aleo:Regular"
 
-function runtimeFixes.registerFontCandidate(fontObj, typefaceName, sourceWidgetName)
-    if fontObj == nil then return end
-    local fontPath = ""
-    local fontName = ""
-    pcall(function()
-        if fontObj.GetName ~= nil then fontName = tostring(fontObj:GetName()):lower() end
-        if fontObj.GetPathName ~= nil then fontPath = tostring(fontObj:GetPathName()) end
-    end)
-    local full = (fontName .. " " .. fontPath):lower()
-
-    -- 1. Explicitly protect against stylized/runic Hermes fonts (Font_Mistery, etc.)
-    if full:find("mistery") or full:find("mystery") or full:find("theleon") or full:find("hermes") or full:find("runic") then
-        if runtimeFixes.CinematicFontObject == nil then
-            runtimeFixes.CinematicFontObject = fontObj
-            pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
-            reportVerbose("identified CinematicFontObject (stylized Hermes) from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+    local function loadRootedObject(path)
+        local object = nil
+        pcall(function() object = slua.loadObject(path) end)
+        if object ~= nil then
+            pcall(function() object:AddToRoot() end)
         end
-        return
+        return object
     end
 
-    if runtimeFixes.isCinematicWidgetName(sourceWidgetName) or runtimeFixes.isCinematicFontObject(fontObj) then
-        if runtimeFixes.CinematicFontObject == nil then
-            runtimeFixes.CinematicFontObject = fontObj
-            pcall(function() if fontObj.AddToRoot ~= nil then fontObj:AddToRoot() end end)
-            reportVerbose("identified CinematicFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath)
+    local function objectPath(object)
+        local path = nil
+        pcall(function() path = tostring(object:GetPathName()) end)
+        return path or tostring(object)
+    end
+
+    -- slua TArray (0-based Num/Get) or a plain Lua table.
+    local function count(array)
+        if type(array) == "table" then return #array end
+        local ok, value = pcall(function() return array:Num() end)
+        return ok and tonumber(value) or 0
+    end
+
+    local function item(array, index)
+        if type(array) == "table" then return array[index + 1] end
+        local ok, value = pcall(function() return array:Get(index) end)
+        if ok then return value end
+        return nil
+    end
+
+    local function clear(array)
+        if pcall(function() array:Clear() end) then return end
+        for index = count(array) - 1, 0, -1 do
+            array:Remove(index)
         end
-        return
     end
 
-    -- 2. Only allow fonts that actually qualify as standard fonts (Aleo, Sans, Noto, etc.)
-    local isStandard = runtimeFixes.isStandardFontObject(fontObj) or full:find("aleo") ~= nil
+    local function newStruct(name)
+        local okType, structType = pcall(import, name)
+        if not okType or structType == nil then return nil end
+        local ok, value = pcall(structType)
+        if ok and value ~= nil then return value end
+        return nil
+    end
 
-    -- 3. Check if current StandardFontObject is alive and valid
-    local currentValid = false
-    if runtimeFixes.StandardFontObject ~= nil then
+    local function defaultEntries(font)
+        local entries = {}
         pcall(function()
-            if runtimeFixes.StandardFontObject.GetName ~= nil and runtimeFixes.StandardFontObject:GetName() ~= nil then
-                currentValid = true
+            local fonts = font.CompositeFont.DefaultTypeface.Fonts
+            for index = 0, count(fonts) - 1 do
+                local entry = item(fonts, index)
+                if entry ~= nil then
+                    entries[#entries + 1] = { name = tostring(entry.Name), entry = entry }
+                end
             end
+        end)
+        return entries
+    end
+
+    local function findEntry(entries, name)
+        for _, value in ipairs(entries) do
+            if value.name == name then return value.entry end
+        end
+        return nil
+    end
+
+    local function entryFace(entry)
+        local face = nil
+        pcall(function() face = entry.Font.FontFaceAsset end)
+        return face
+    end
+
+    -- Index of the SubTypeface whose range starts at U+0400 and the number of
+    -- its typeface entries, or nil.
+    local function cyrillicSubIndex(font)
+        local found, fonts = nil, 0
+        pcall(function()
+            local subs = font.CompositeFont.SubTypefaces
+            for index = 0, count(subs) - 1 do
+                local sub = item(subs, index)
+                local ranges = sub.CharacterRanges
+                for rangeIndex = 0, count(ranges) - 1 do
+                    if found == nil and tonumber(item(ranges, rangeIndex).LowerBound.Value) == CYRILLIC_RANGES[1][1] then
+                        found = index
+                        fonts = count(sub.Typeface.Fonts)
+                    end
+                end
+            end
+        end)
+        return found, fonts
+    end
+
+    -- Returns the source typeface entry, a face override (stage 4b asset) and its path.
+    local function resolveCyrillicSource(font, entries)
+        for _, candidate in ipairs(runtimeFixes.CyrillicFaceCandidates) do
+            if candidate == ALEO_REGULAR then
+                local entry = findEntry(entries, "Regular")
+                if entryFace(entry) == nil then
+                    -- Regular Cyrillic may come from the fallback typeface.
+                    pcall(function() entry = item(font.CompositeFont.FallbackTypeface.Typeface.Fonts, 0) end)
+                end
+                local face = entryFace(entry)
+                if face ~= nil then return entry, nil, objectPath(face) end
+            elseif type(candidate) == "string" then
+                local face = loadRootedObject(candidate)
+                local template = findEntry(entries, "Regular") or (entries[1] and entries[1].entry)
+                if face ~= nil and template ~= nil then return template, face, objectPath(face) end
+            end
+        end
+        return nil, nil, nil
+    end
+
+    -- New structs only: items read from Font_Aleo are never mutated, so a failed
+    -- write cannot damage the game's typefaces.
+    local function requireStruct(name)
+        local value = newStruct(name)
+        assert(value ~= nil, name .. " unavailable")
+        return value
+    end
+
+    local function newRange(low, high)
+        local range = requireStruct("Int32Range")
+        local lower = range.LowerBound
+        lower.Type = RANGE_INCLUSIVE
+        lower.Value = low
+        range.LowerBound = lower
+        local upper = range.UpperBound
+        upper.Type = RANGE_INCLUSIVE
+        upper.Value = high
+        range.UpperBound = upper
+        return range
+    end
+
+    local function writeCyrillicSub(font, entries, source, faceOverride)
+        local sdfSource = faceOverride == nil and findEntry(entries, "Regular_SDF") or nil
+        local sub = requireStruct("CompositeSubFont")
+
+        local ranges = sub.CharacterRanges
+        clear(ranges)
+        for _, bounds in ipairs(CYRILLIC_RANGES) do
+            ranges:Add(newRange(bounds[1], bounds[2]))
+        end
+        sub.CharacterRanges = ranges
+        pcall(function() sub.Cultures = "" end)
+        pcall(function() sub.ScalingFactor = 1.0 end)
+
+        -- One entry per typeface name of the default typeface, all with the Cyrillic face.
+        local typeface = sub.Typeface
+        local fonts = typeface.Fonts
+        clear(fonts)
+        for _, value in ipairs(entries) do
+            local from = (sdfSource ~= nil and value.name:find("_SDF", 1, true)) and sdfSource or source
+            local entry = requireStruct("TypefaceEntry")
+            entry.Name = value.name
+            entry.Font = from.Font
+            if faceOverride ~= nil then
+                local data = entry.Font
+                data.FontFaceAsset = faceOverride
+                entry.Font = data
+            end
+            fonts:Add(entry)
+        end
+        typeface.Fonts = fonts
+        sub.Typeface = typeface
+
+        local cf = font.CompositeFont
+        local subs = cf.SubTypefaces
+        subs:Add(sub)
+        cf.SubTypefaces = subs
+        font.CompositeFont = cf
+    end
+
+    local function removeCyrillicSub(font)
+        pcall(function()
+            local index = cyrillicSubIndex(font)
+            if index == nil then return end
+            local cf = font.CompositeFont
+            local subs = cf.SubTypefaces
+            subs:Remove(index)
+            cf.SubTypefaces = subs
+            font.CompositeFont = cf
         end)
     end
 
-    if (not currentValid or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject)) and isStandard then
-        runtimeFixes.StandardFontObject = fontObj
-        -- CRITICAL: Prevent Unreal Engine GC from garbage-collecting StandardFontObject during level transitions!
-        pcall(function()
-            if fontObj.AddToRoot ~= nil then
-                fontObj:AddToRoot()
-            end
-        end)
-        if typefaceName ~= nil then
-            runtimeFixes.StandardTypefaceFontName = typefaceName
+    local function flushFontCache()
+        local okLibrary, library = pcall(import, "C7FunctionLibrary")
+        local flush = nil
+        if okLibrary and library ~= nil then
+            pcall(function() flush = library.FlushFontCache end)
         end
-        reportVerbose("registered StandardFontObject from " .. tostring(sourceWidgetName) .. " path=" .. fontPath .. " typeface=" .. tostring(typefaceName))
+        if flush == nil then return "missing" end
+        if pcall(flush) then return "ok" end
+        local context = nil
+        pcall(function() context = GetContextObject() end)
+        if context ~= nil and pcall(flush, context) then return "ok" end
+        return "err"
+    end
+
+    -- Returns status fields; status.ok is true when the SubTypeface is in place.
+    local function applySubfont(font, entries)
+        local status = { face = "none", write = "skip", verify = "fail", flush = "skip" }
+        if #entries == 0 then
+            status.reason = "no_default_typeface"
+            return status
+        end
+        local source, faceOverride, facePath = resolveCyrillicSource(font, entries)
+        if source == nil then
+            status.reason = "no_face"
+            return status
+        end
+        status.face = facePath
+        if cyrillicSubIndex(font) ~= nil then
+            status.write = "exists"
+        else
+            local ok, err = pcall(writeCyrillicSub, font, entries, source, faceOverride)
+            status.write = ok and "ok" or "err"
+            if not ok then
+                status.reason = "write:" .. tostring(err)
+                removeCyrillicSub(font)
+                return status
+            end
+        end
+        local index, fonts = cyrillicSubIndex(font)
+        if index == nil or fonts == 0 then
+            status.reason = index == nil and "verify" or "verify_no_typeface"
+            removeCyrillicSub(font)
+            return status
+        end
+        status.verify = "ok"
+        status.flush = flushFontCache()
+        if status.flush ~= "ok" then
+            status.reason = "flush"
+            removeCyrillicSub(font)
+            return status
+        end
+        status.ok = true
+        return status
+    end
+
+    local mode = CYRILLIC_FONT_MODE
+    local devFlags = Loader.DevFlags
+    local requested = type(devFlags) == "table" and devFlags.CyrillicFont or nil
+    if requested == "subfont" or requested == "typeface" or requested == "off" then
+        mode = requested
+    end
+
+    local ok, err = pcall(function()
+        runtimeFixes.StandardFontObject = loadRootedObject(STANDARD_FONT_PATH)
+        runtimeFixes.CinematicFontObject = loadRootedObject(CINEMATIC_FONT_PATH)
+        local standard = runtimeFixes.StandardFontObject
+        if standard == nil then
+            mode = "off"
+            report("cyrillic font mode=off reason=Font_Aleo_not_loaded")
+            return
+        end
+
+        local entries = defaultEntries(standard)
+        local names, nameList = {}, {}
+        for _, value in ipairs(entries) do
+            names[value.name] = true
+            nameList[#nameList + 1] = value.name
+        end
+        for name in pairs(names) do
+            local regular = name:gsub("Title", "Regular")
+            if regular ~= name and names[regular] then
+                runtimeFixes.CyrillicTypefaces[name] = regular
+            end
+        end
+        if next(names) == nil then
+            runtimeFixes.CyrillicTypefaces.Title = "Regular"
+        end
+        local titleTypeface = tostring(runtimeFixes.CyrillicTypefaces.Title)
+
+        local status = nil
+        if mode == "subfont" then
+            status = applySubfont(standard, entries)
+            if not status.ok then mode = "typeface" end
+            local line = "cyrillic font mode=" .. mode
+            if not status.ok then line = line .. " reason=" .. tostring(status.reason) end
+            line = line .. " face=" .. tostring(status.face) .. " write=" .. status.write
+                .. " verify=" .. status.verify .. " flush=" .. status.flush
+            if not status.ok then line = line .. " title_typeface=" .. titleTypeface end
+            report(line)
+        elseif mode == "typeface" then
+            report("cyrillic font mode=typeface title_typeface=" .. titleTypeface)
+        else
+            report("cyrillic font mode=off")
+        end
+        runtimeFixes.CyrillicFontStatus = {
+            mode = mode, requested = requested or CYRILLIC_FONT_MODE, title_typeface = titleTypeface,
+            typefaces = table.concat(nameList, ","),
+            face = status and status.face, write = status and status.write,
+            verify = status and status.verify, flush = status and status.flush,
+            reason = status and status.reason,
+        }
+    end)
+    if not ok then
+        mode = "off"
+        report("cyrillic font mode=off reason=" .. tostring(err))
+    end
+    runtimeFixes.CyrillicFontMode = mode
+end
+
+-- Cyrillic text (TASK-006). Non-Aleo fonts (Font_Mistery, Font_Aleo_Update,
+-- Roboto) get Font_Aleo with a real typeface in every mode; in "typeface" mode
+-- Title becomes Regular. The authored font is remembered and restored when the
+-- widget shows non-Cyrillic text again. RichTextBlock styles are never touched.
+function runtimeFixes.applyCyrillicFont(widget, font)
+    local standard = runtimeFixes.StandardFontObject
+    local mode = runtimeFixes.CyrillicFontMode
+    if standard == nil or font.FontObject == nil then return end
+    local typeface = tostring(font.TypefaceFontName or "")
+    local authored = { font.FontObject, typeface }
+    local changed = false
+    if font.FontObject ~= standard then
+        font.FontObject = standard
+        typeface = typeface:find("Title", 1, true) and "Title" or "Regular"
+        font.TypefaceFontName = typeface
+        changed = true
+    end
+    if mode == "typeface" then
+        local replacement = runtimeFixes.CyrillicTypefaces[typeface]
+        if replacement ~= nil then
+            font.TypefaceFontName = replacement
+            changed = true
+        end
+    end
+    if changed and runtimeFixes.AuthoredFonts[widget] == nil then
+        runtimeFixes.AuthoredFonts[widget] = authored
     end
 end
 
-pcall(function()
-    if slua and type(slua.loadObject) == "function" then
-        local aleoObj = slua.loadObject("/Game/Arts/UI_2/Resource/Font/Font_Aleo.Font_Aleo")
-        if aleoObj ~= nil then
-            runtimeFixes.registerFontCandidate(aleoObj, "Font_Aleo", "Slua_Preload")
-        end
+function runtimeFixes.restoreAuthoredFont(widget, font)
+    local authored = runtimeFixes.AuthoredFonts[widget]
+    if authored == nil then return end
+    runtimeFixes.AuthoredFonts[widget] = nil
+    font.FontObject = authored[1]
+    if authored[2] ~= "" then
+        font.TypefaceFontName = authored[2]
     end
-end)
+end
 -- These IDs describe confirmed, distinct player attributes. Numeric IDs from
 -- downloaded localization data are normally treated as non-authoritative, but
 -- these overrides may safely win when the live value still matches one of the
@@ -3427,30 +3681,23 @@ local function translateTextWidget(widget, discoveryContext)
     end
 
     local pre = d and d.FontSnapshot(widget)
-    -- STRICT UNIVERSAL RULE: Enforce 0 letter spacing and standard font on ALL widgets,
-    -- even if currently empty, to ensure subsequent C++/Blueprint updates inherit proper styling.
+    -- Styling for text widgets, even if currently empty, so that subsequent
+    -- C++/Blueprint updates inherit it. Cyrillic gets zero LetterSpacing and a
+    -- proportional typeface (TASK-006); other text keeps the authored spacing.
     pcall(function()
         local textToCheck = translated or currentText or ""
         local isCinematicName = runtimeFixes.isCinematicWidgetName(wName)
         local isSynergyWidget = (wName:find("fetter") ~= nil or wName:find("bond") ~= nil or wName:find("synergy") ~= nil
             or widgetName == "Text_FetterName" or widgetName == "WBP_Title_Fetter" or widgetName == "Text_Bond")
-        local isBodyName = not isCinematicName and not isSynergyWidget and (wName:find("desc") or wName:find("content") or wName:find("detail")
-            or wName:find("tips") or wName:find("message") or wName:find("info")
-            or (type(textToCheck) == "string" and #textToCheck > 40))
         local isTitleName = not isCinematicName and not isSynergyWidget and (wName:find("title") or wName:find("btn") or wName:find("tab")
             or wName:find("header") or wName:find("name") or wName:find("sub") or wName:find("choice")
             or wName:find("server") or wName:find("chapter") or wName:find("rank"))
 
         local hasCyrillic = (type(textToCheck) == "string") and (textToCheck:find("[\208\209]") ~= nil)
-        local targetLs = 0
-        if isSynergyWidget then
-            targetLs = 0
-        elseif hasCyrillic then
-            targetLs = isTitleName and -120 or -60
+        if hasCyrillic then
+            if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
+            if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
         end
-
-        if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(targetLs) end
-        if widget.LetterSpacing ~= nil then widget.LetterSpacing = targetLs end
 
         if isSynergyWidget and (wName:find("title_fetter") or wName:find("wbp_title_fetter") or widgetName == "WBP_Title_Fetter") then
             pcall(function()
@@ -3462,37 +3709,12 @@ local function translateTextWidget(widget, discoveryContext)
 
         local font = widget.GetFont and widget:GetFont() or widget.Font
         if font ~= nil then
-            if font.FontObject ~= nil then
-                if isCinematicName or runtimeFixes.isCinematicFontObject(font.FontObject) then
-                    if runtimeFixes.CinematicFontObject == nil then
-                        runtimeFixes.CinematicFontObject = font.FontObject
-                        local fPath = ""
-                        pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()) end end)
-                        reportVerbose("identified CinematicFontObject from " .. tostring(wName) .. " path=" .. fPath)
-                    end
-                elseif isBodyName and not isTitleName then
-                    runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, wName)
-                end
+            if hasCyrillic then
+                runtimeFixes.applyCyrillicFont(widget, font)
+                font.LetterSpacing = 0
+            else
+                runtimeFixes.restoreAuthoredFont(widget, font)
             end
-
-            -- STRICT UNIVERSAL RULE: Replace font object with StandardFontObject whenever known!
-            -- Strictly eliminates Cinematic font across all UI widgets, scene text, task boards, and subtitles.
-            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                local fPath = ""
-                pcall(function() if font.FontObject.GetPathName ~= nil then fPath = tostring(font.FontObject:GetPathName()):lower() end end)
-                local isRunic = fPath:find("mistery") or fPath:find("mystery") or fPath:find("theleon") or fPath:find("hermes")
-                local hasCyrillicText = (type(textToCheck) == "string" and textToCheck:find("[\208-\209][\128-\191]") ~= nil)
-                -- Only preserve decorative/runic Hermes fonts if the widget strictly has non-Cyrillic text.
-                -- All other UI widgets receive StandardFontObject immediately so the old font does not return.
-                if not (isRunic and not hasCyrillicText) then
-                    font.FontObject = runtimeFixes.StandardFontObject
-                    if runtimeFixes.StandardTypefaceFontName ~= nil then
-                        font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                    end
-                end
-            end
-
-            font.LetterSpacing = targetLs
 
             local baseSize = runtimeFixes.getAdjustedFontSize(widget, font.Size, wName, isEscLocked)
             if isSynergyWidget then
@@ -3537,26 +3759,10 @@ local function translateTextWidget(widget, discoveryContext)
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end
 
-        -- RichTextBlock candidate harvesting only.
         -- NEVER override DefaultTextStyleOverride or swap FontObject on RichTextBlock:
         -- RichTextBlock is driven by its authored TextStyleSet (DataTable). Overriding it
         -- corrupts Slate font materials and triggers UE5 fallback magenta/purple rendering.
-        local style = (widget.GetDefaultTextStyleOverride and widget:GetDefaultTextStyleOverride())
-            or widget.DefaultTextStyleOverride
-            or (widget.GetDefaultTextStyle and widget:GetDefaultTextStyle())
-            or widget.DefaultTextStyle
-
-        if style ~= nil and style.Font ~= nil then
-            if style.Font.FontObject ~= nil then
-                if isCinematicName or runtimeFixes.isCinematicFontObject(style.Font.FontObject) then
-                    if runtimeFixes.CinematicFontObject == nil then
-                        runtimeFixes.CinematicFontObject = style.Font.FontObject
-                    end
-                elseif isBodyName and not isTitleName then
-                    runtimeFixes.registerFontCandidate(style.Font.FontObject, style.Font.TypefaceFontName, wName)
-                end
-            end
-        end
+        -- In "subfont" mode RichText gets Cyrillic from the Font_Aleo SubTypeface.
         if widget.SynchronizeProperties ~= nil then widget:SynchronizeProperties() end
         if widget.InvalidateLayoutAndVolatility ~= nil then widget:InvalidateLayoutAndVolatility() end
     end)
@@ -3694,30 +3900,6 @@ runtimeFixes.VisibleWidgetNames = {
 local function translateViewTextWidgets(view, userWidget, discoveryContext, component, sharedVisited)
     local visited = sharedVisited or {}
     local repairedCount = 0
-
-    if runtimeFixes.StandardFontObject == nil or runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
-        pcall(function()
-            local seedNames = { "Server_Name_Text", "Server_Name_Text1", "Text_ServerName", "Text_BtnName", "Text_Name", "Text_Content", "Text_Desc", "Text_Tips", "Text_Detail", "Text_Info" }
-            for _, sName in ipairs(seedNames) do
-                if not runtimeFixes.isCinematicWidgetName(sName) then
-                    local w = (type(view) == "table" and view[sName]) or (userWidget ~= nil and getNamedWidget(userWidget, sName))
-                    if w ~= nil then
-                        local f = w.GetFont and w:GetFont() or w.Font
-                        if f == nil then
-                            local st = (w.GetDefaultTextStyleOverride and w:GetDefaultTextStyleOverride()) or w.DefaultTextStyleOverride or w.DefaultTextStyle
-                            if st ~= nil then f = st.Font end
-                        end
-                        if f ~= nil and f.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(f.FontObject) then
-                            runtimeFixes.registerFontCandidate(f.FontObject, f.TypefaceFontName, sName)
-                            if runtimeFixes.StandardFontObject ~= nil and not runtimeFixes.isCinematicFontObject(runtimeFixes.StandardFontObject) then
-                                break
-                            end
-                        end
-                    end
-                end
-            end
-        end)
-    end
 
     local function translateWidgetTree(owner)
         walkWidgetDescendants(owner, visited, function(widget)
@@ -8401,14 +8583,6 @@ local exactWidgetRepairSpecs = {
         { "OnRefresh", "Refresh", "SetData", "setData", "setServerInfo", "setServerInfoUI", "InitUIView", "UpdateUI", "OnInit" },
         function(self)
             local view = self and (self.view or self.WidgetTree or self.userWidget or self)
-            local serverWidget = getNamedWidget(view, "Server_Name_Text") or (self and getNamedWidget(self, "Server_Name_Text"))
-                or getNamedWidget(view, "Server_Name_Text1") or (self and getNamedWidget(self, "Server_Name_Text1"))
-            if serverWidget ~= nil then
-                local f = serverWidget.GetFont and serverWidget:GetFont() or serverWidget.Font
-                if f ~= nil and f.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(f.FontObject) then
-                    runtimeFixes.registerFontCandidate(f.FontObject, f.TypefaceFontName, "LoginServerItem")
-                end
-            end
             local function adaptServerWidget(w)
                 if w == nil then return end
                 translateTextWidget(w)
@@ -9374,14 +9548,6 @@ local function repairMenuBtnItem(self, params)
             font = widget.Font
         end
         if font ~= nil then
-            if runtimeFixes.StandardFontObject ~= nil and font.FontObject ~= runtimeFixes.StandardFontObject then
-                font.FontObject = runtimeFixes.StandardFontObject
-                if runtimeFixes.StandardTypefaceFontName ~= nil then
-                    font.TypefaceFontName = runtimeFixes.StandardTypefaceFontName
-                end
-            elseif font.FontObject ~= nil and not runtimeFixes.isCinematicFontObject(font.FontObject) then
-                runtimeFixes.registerFontCandidate(font.FontObject, font.TypefaceFontName, "MenuBtnItem")
-            end
             font.LetterSpacing = 0
             local effectiveText = label
             if not effectiveText then
@@ -9389,6 +9555,11 @@ local function repairMenuBtnItem(self, params)
                 if (effectiveText == nil or effectiveText == "") and widget.Text ~= nil then
                     effectiveText = widget.Text
                 end
+            end
+            if type(effectiveText) == "string" and effectiveText:find("[\208\209]") then
+                runtimeFixes.applyCyrillicFont(widget, font)
+            else
+                runtimeFixes.restoreAuthoredFont(widget, font)
             end
             local textLen = (type(effectiveText) == "string") and runtimeFixes.utf8Len(effectiveText) or 0
             local baseSize = tonumber(font.Size) or 18

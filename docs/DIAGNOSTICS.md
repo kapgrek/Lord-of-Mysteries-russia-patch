@@ -1,6 +1,6 @@
 # Диагностика для разработки (AbsruDiagnostics)
 
-Одна сборка для всех. Без файла флагов разработчика патч работает как обычно: в `C7.log` одна строка при старте (`v2.9.1-RU active hooks_installed=N`), модуль диагностики не загружается, в горячих путях `Init.lua` добавлена одна проверка `runtimeFixes.Diag ~= nil`. С файлом флагов сборка собирает данные для следующих этапов:
+Одна сборка для всех. Без файла флагов разработчика патч работает как обычно: в `C7.log` две строки при старте (`[CPDDRuntimeFix] cyrillic font mode=…` и `v2.9.2-RU active hooks_installed=N`), модуль диагностики не загружается, в горячих путях `Init.lua` добавлена одна проверка `runtimeFixes.Diag ~= nil`. С файлом флагов сборка собирает данные для следующих этапов:
 
 - **этап 4** (шрифт через CompositeFont): какие FontObject/Typeface реально рисуют кириллицу;
 - **этап 5** (подгонка текста по измерению, удаление мёртвых костылей): какие хуки, спеки и ветки ремонта ни разу не сработали или ни разу не изменили текст, где текст не помещается;
@@ -38,10 +38,21 @@ return {
     SessionMB = 32,          -- потолок на сессию; дальше только счётчики "dropped"
     Slots = 5,               -- ротация сессий (s1..s5)
     PanelWalksPerUid = 3,    -- обходов одной панели за сессию
+    -- CyrillicFont = "subfont", -- режим кириллицы (TASK-006): "subfont" | "typeface" | "off"
 }
 ```
 
-Выключение: удалить `absoluteru_dev.lua`. Папку `Saved\Mods\logs\` можно удалить вручную (Lua удалять файлы не умеет).
+Выключение: удалить `absoluteru_dev.lua`.
+
+### Флаг `CyrillicFont` (TASK-006)
+Перекрывает релизную константу `CYRILLIC_FONT_MODE` в `Init.lua` (в v2.9.2 — `"typeface"`). Читается, только если в файле `Enabled = true`. Это не наблюдение, а смена поведения, поэтому флаг по умолчанию закомментирован.
+- `"subfont"` — при старте `Init.lua` дописывает в `Font_Aleo.CompositeFont.SubTypefaces` запись с диапазонами U+0400–U+045F и U+2116; face берётся из `runtimeFixes.CyrillicFaceCandidates` (первый загрузившийся; сейчас это face Regular-typeface самого `Font_Aleo`). Затем читает запись обратно и вызывает `C7FunctionLibrary.FlushFontCache()`. При любой ошибке запись удаляется и включается `"typeface"`.
+- `"typeface"` — у виджетов с кириллицей в `Font_Aleo` typeface `Title` меняется на `Regular` (`Title_SDF` → `Regular_SDF`, если такой есть).
+- `"off"` — авторские typeface.
+
+Во всех режимах текст с кириллицей в шрифтах не-Aleo (`Font_Mistery`, `Font_Aleo_Update`, Roboto) переводится на `Font_Aleo` (typeface `Title` или `Regular`), `LetterSpacing` у кириллицы — 0; при возврате виджета к тексту без кириллицы авторский шрифт восстанавливается. RichText не трогается.
+
+Итог — одна строка в C7.log: `[CPDDRuntimeFix] cyrillic font mode=subfont face=<путь> write=<ok|exists|err> verify=<ok|fail> flush=<ok|missing|err>`, при откате `mode=typeface reason=<…> … title_typeface=Regular`, в релизе `mode=typeface title_typeface=Regular`. То же пишется в `fonts.json → cyrillic_font`. Папку `Saved\Mods\logs\` можно удалить вручную (Lua удалять файлы не умеет).
 
 ### Что делает `VerboseLog`
 - `absoluteru_dev.lua` читается в самом начале `Init.lua` (через `Loader.LoadExternal`) и включает `Loader.Features.DiagnosticsMode` **только для Init.lua**: `reportVerbose` начинает писать подробные строки (установка хуков, медленные ремонты, метрики).
@@ -56,7 +67,7 @@ return {
 | `Hooks` | Каждая обёртка метода в `Init.lua` (`runtimeFixes.diagWrap(id, kind, fn, meta)`), объявленные спеки (`DeclareSpec`), проходы `panelTextRepair:Repair` и ветки внутри него, `Loader.Hooks`/`Loader.Applied` (AfterLoad) | `absru-s<n>-hooks.json` |
 | `Untranslated` | `widget`: итоговый текст `translateTextWidget` и текст из обхода панели с CJK или латиницей без кириллицы; `data`: `runtimeMetrics.CaptureDataAssignment` (CJK или неизменённый английский); `stringdb`: `Loader.TranslateDatabaseString` вернул nil | `absru-s<n>-untranslated-NNN.jsonl` |
 | `Overflow` | `GetDesiredSize` против `GetLocalSize(GetCachedGeometry())` и против геометрии родителя; только нарисованные (не 0×0) и видимые виджеты | `absru-s<n>-overflow-NNN.jsonl` |
-| `Fonts` | Шрифт **до** нашей стилизации (первый снимок виджета в `translateTextWidget`) и **после**; в обходе панели — авторский шрифт виджетов, которые мы не трогали | `absru-s<n>-fonts.json` |
+| `Fonts` | Шрифт **до** нашей стилизации (первый снимок виджета в `translateTextWidget`) и **после**; в обходе панели — авторский шрифт виджетов, которые мы не трогали; один раз после старта — структура `CompositeFont` у `Font_Aleo`, `Font_Mistery`, `Font_Aleo_Update`, `Roboto` (раздел `composite`, по одному шрифту за тик, только чтение) | `absru-s<n>-fonts.json` |
 | `Images` | `Brush.ResourceObject` у виджетов с кистью в обходе панели | `absru-s<n>-images-NNN.jsonl` |
 | `PanelWalk` | Обход дерева панели через 0,5 и 2,0 с после `UIComponent.Open`, не больше `PanelWalksPerUid` раз на uid | питает три строки выше |
 
@@ -77,7 +88,7 @@ return {
 
 ## Ограничения
 - Нативный `SetText` игры из Lua не перехватить: текст, который сменился без `Open` панели и без наших хуков, диагностика не увидит (ни в «непереведённом», ни в «переполнении»).
-- Какой глиф выбрал Slate (fallback), из Lua не видно, в C7.log строк про fallback нет. Для этапа 4 список `pre`-шрифтов с кириллицей сверяется офлайн: экспорт `UFont/UFontFace` (FModel/CUE4Parse → `reference/fonts/`) и проверка cmap на U+0400–U+04FF.
+- Какой глиф выбрал Slate (fallback), из Lua не видно, в C7.log строк про fallback нет. Какие face входят в шрифт, показывает `composite`; их cmap сверяется офлайн (`reference/fonts/`, `reference/tools/FontScan.exe`, TASK-006).
 - Удалять файлы Lua не умеет: старые части слота остаются, но `session.json → parts` перечисляет текущие, а у каждой строки есть `sid`; `CollectDiagLogs.ps1` фильтрует по `sid`.
 - Повторы одной записи: строка JSONL пишется при первом появлении и затем при `count` = 2, 4, 8, … (и при росте переполнения больше чем на 2 px). Офлайн берётся максимум `count` по ключу.
 - В диагностическом режиме обёртки вызывают исходную функцию через `pcall`: ошибка доходит до вызывающего с тем же сообщением, но без исходного стека.
@@ -89,11 +100,11 @@ return {
 | Файл | Содержимое |
 |---|---|
 | `absru-state.txt` | номер последнего слота (`slot=`, `sid=`) |
-| `absru-s<n>-session.json` | `sid`, `slot`, `version`, `started`, `last_flush`, `flags`, `dir`, `parts`, `lines`, `api` (какие API сработали: `GetParent`, `GetClass`, `Brush.ResourceObject`, `GetDesiredSize`, `GetCachedGeometry`, `IsVisible`, `GetPathName`), `gauges` (от `bootstrap.lua`), `budget` (`ticks`, `tick_ms_max`, `max_item_ms`, `max_item_kind`, `io_ms_max`, `flush_ms_max`, `queue_peak`, `flushes`), `dropped`, `errors`, `counters`, `pending`, `metrics` (весь `runtimeMetrics`) |
+| `absru-s<n>-session.json` | `sid`, `slot`, `version`, `started`, `last_flush`, `flags`, `dir`, `parts`, `lines`, `api` (какие API сработали: `GetParent`, `GetClass`, `Brush.ResourceObject`, `GetDesiredSize`, `GetCachedGeometry`, `IsVisible`, `GetPathName`, `UFont.CompositeFont`, `C7FunctionLibrary`; `C7FunctionLibrary.FlushFontCache` — Lua-тип поля, функция не вызывается), `gauges` (от `bootstrap.lua`), `budget` (`ticks`, `tick_ms_max`, `max_item_ms`, `max_item_kind`, `io_ms_max`, `flush_ms_max`, `queue_peak`, `flushes`), `dropped`, `errors`, `counters`, `pending`, `metrics` (весь `runtimeMetrics`) |
 | `absru-s<n>-hooks.json` | `afterload[]` (`id`, `module`, `applied`), `hooks[]` (`id`, `kind`, `status`, `module`, `declared`, `installed`, `calls`, `text_changes`, `text_writes`, `data_changes`, `errors`, `ms_total`, `ms_max`), `panels[]` (`id`, `runs`, `labels`, `widgets`, `ms_*`), `writes` (сайты `SetText` в Init.lua), `unscoped` |
 | `absru-s<n>-untranslated-NNN.jsonl` | `{"src":"widget","text","norm","panel","widget","path","scope","vis","count"}`, `{"src":"data","module","class","field","original","translated"}`, `{"src":"stringdb","module","row","en","cn"}` |
 | `absru-s<n>-overflow-NNN.jsonl` | `panel`, `widget`, `path`, `text`, `len`, `font`, `typeface`, `size`, `size_pre`, `ls`, `ls_pre`, `ls_negative`, `wrap`, `need`, `have`, `parent`, `parent_have`, `kind` (`self`/`parent`/`both`), `count` |
-| `absru-s<n>-fonts.json` | `standard`, `standard_typeface`, `cinematic`, `fonts[]` (`key` = `путь|typeface`, `role` `pre`/`post`, `count`, `texts_cyrillic`, `texts_cjk`, `texts_latin`, `sizes`, `widgets`, `panels`) |
+| `absru-s<n>-fonts.json` | `standard`, `cinematic`, `cyrillic_font` (`mode`, `requested`, `title_typeface`, `typefaces`, `face`, `write`, `verify`, `flush`, `reason`), `composite` (`<путь>` → `loaded`, `error`, `default[]` и `fallback.fonts[]` (`name`, `face`, `loading`, `hinting`, `subface`), `fallback.scaling`, `subs[]` (`cultures`, `scaling`, `ranges[]` (`low`, `high`, `low_type`, `high_type`; если slua не отдал `FInt32Range` — `raw`, `type`), `fonts[]`)), `fonts[]` (`key` = `путь|typeface`, `role` `pre`/`post`, `count`, `texts_cyrillic`, `texts_cjk`, `texts_latin`, `sizes`, `widgets`, `panels`) |
 | `absru-s<n>-images-NNN.jsonl` | `panel`, `widget`, `resource`, `class`, `size`, `count` |
 
 **Маркеры в C7.log** (`Log.Info`, строки `LuaLog: ReleaseLog:`): `[AbsruDiag] session=<sid> slot=<n> dir=<путь> version=… flags=…`, `[AbsruDiag] flush #<k> parts=… queue=<n> tick_ms_max=<x> io_ms_max=<x> flush_ms=<x>`, `[AbsruDiag] disabled: <причина>`, `[AbsruDiag] error stage=<этап>: …` (первые 3 на этап), `[CPDDRuntimeFix] diagnostics unavailable: …` (модуль не запустился).
@@ -109,10 +120,10 @@ powershell -ExecutionPolicy Bypass -File tools\CollectDiagLogs.ps1
 Параметры: `-GameDir <…\C7>` (по умолчанию `D:\Games\GMZZLauncher\Game\C7`), `-Out <папка>`, `-Session latest|all|<sid>` (по умолчанию последняя), `-Aggregate` (все папки `reference\logs\*`; хук мёртвый, только если мёртв во всех сессиях), `-NoCopy` (только отчёты по уже скопированному), `-LogsRoot`.
 
 ## Чек-лист проверки в игре
-1. Установить сборку v2.9.1-RU (`build\Lord-of-Mysteries-Russian-Patch.exe`: он возьмёт `patch_payload` из репозитория).
-2. **Сначала без флагов:** запустить игру, пройти пару экранов. В `Saved\Logs\C7.log` должна быть строка `v2.9.1-RU active hooks_installed=` и **не должно быть** `[AbsruDiag]`; строк `[CPDDRuntimeFix]`, кроме этой и ошибок, быть не должно. Папка `Saved\Mods\logs\` не появилась. Субъективно подвисаний не больше, чем на v2.9.0.
+1. Установить сборку v2.9.2-RU (`build\Lord-of-Mysteries-Russian-Patch.exe`: он возьмёт `patch_payload` из репозитория).
+2. **Сначала без флагов:** запустить игру, пройти пару экранов. В `Saved\Logs\C7.log` должна быть строка `v2.9.2-RU active hooks_installed=` и **не должно быть** `[AbsruDiag]`; строк `[CPDDRuntimeFix]`, кроме этой, `cyrillic font mode=…` и ошибок, быть не должно. Папка `Saved\Mods\logs\` не появилась. Субъективно подвисаний не больше, чем на v2.9.0.
 3. Скопировать шаблон флагов (выше) в `…\C7\Saved\Mods\lua\absoluteru_dev.lua`.
-4. Запустить игру. В C7.log найти `[AbsruDiag] session=… dir=…`; если там `disabled:` или есть `[CPDDRuntimeFix] diagnostics unavailable`, прислать эти строки. **При включённых флагах в C7.log видны строки `[CPDDRuntimeFix]` от `reportVerbose`** (например, `installed post-refresh widget repair for …`, `registered v2.9.1-RU`).
+4. Запустить игру. В C7.log найти `[AbsruDiag] session=… dir=…`; если там `disabled:` или есть `[CPDDRuntimeFix] diagnostics unavailable`, прислать эти строки. **При включённых флагах в C7.log видны строки `[CPDDRuntimeFix]` от `reportVerbose`** (например, `installed post-refresh widget repair for …`, `registered v2.9.2-RU`).
 5. Пройти экраны (на каждом 3–5 с; списки прокрутить; вкладки переключить): логин и выбор сервера → главный HUD → Esc-меню (все пункты) → сумка + подсказка предмета → снаряжение (перековка/наследование) → навыки и таланты → детали персонажа (обе вкладки характеристик) → задания (доска, список) → диалог с NPC (с выбором ответа) → магазин и биржа (лоты, аукцион) → гильдия (участники, права, события) → стиль/гардероб → настройки (графика) → статистика/DPS → Автошахматы: главное меню, энциклопедия (таланты, снаряжение, фигуры, поиск), матч (HUD, карточки, итоги) → печати/слияние → активности.
 6. Постоять 30–40 с на любом экране (сброс на диск раз в 30 с), затем закрыть игру. В C7.log должны быть строки `[AbsruDiag] flush #…` с `tick_ms_max` не больше ~3.
 7. В репозитории: `powershell -ExecutionPolicy Bypass -File tools\CollectDiagLogs.ps1`. Открыть `reference\logs\<дата>\report\REPORT.md`.

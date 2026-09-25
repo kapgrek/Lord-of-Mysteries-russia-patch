@@ -100,6 +100,8 @@ local S = {
     seenCount = 0,
     fonts = {},
     fontCount = 0,
+    composite = {},
+    compositeNext = 1,
     streams = {},
     sessionBytes = 0,
     lastTick = 0,
@@ -1708,12 +1710,140 @@ local function encodeFonts()
             "texts_latin", "sizes", "widgets", "panels",
         })
     end
-    local typeface = S.fixes and S.fixes.StandardTypefaceFontName
+    local status = S.fixes and S.fixes.CyrillicFontStatus
     return "{" .. Q .. "schema" .. Q .. ":1," .. Q .. "sid" .. Q .. ":" .. encodeString(S.sid)
         .. "," .. Q .. "standard" .. Q .. ":" .. encodeValue(fixesFontPath("StandardFontObject"))
-        .. "," .. Q .. "standard_typeface" .. Q .. ":" .. encodeValue(typeface ~= nil and tostring(typeface) or nil)
         .. "," .. Q .. "cinematic" .. Q .. ":" .. encodeValue(fixesFontPath("CinematicFontObject"))
+        .. ",\n" .. Q .. "cyrillic_font" .. Q .. ":" .. encodeValue(type(status) == "table" and status or nil, 0, {
+            "mode", "requested", "title_typeface", "typefaces", "face", "write", "verify", "flush", "reason",
+        })
+        .. ",\n" .. Q .. "composite" .. Q .. ":" .. encodeValue(S.composite)
         .. ",\n" .. Q .. "fonts" .. Q .. ":[\n" .. table.concat(fonts, ",\n") .. "]}\n"
+end
+
+-- CompositeFont probe (TASK-006, flag Fonts): read-only structure of the UI
+-- fonts, one font per tick. Nothing is called on or written to game objects.
+local COMPOSITE_PATHS = {
+    "/Game/Arts/UI_2/Resource/Font/Font_Aleo.Font_Aleo",
+    "/Game/Arts/UI_2/Resource/Font/Font_Mistery.Font_Mistery",
+    "/Game/Arts/UI_Update/Resource/Font/Font_Aleo_Update.Font_Aleo_Update",
+    "/Engine/EngineFonts/Roboto.Roboto",
+}
+local probeCompositeStep
+do
+    local function items(values)
+        local output = {}
+        if type(values) == "table" then
+            for index, value in ipairs(values) do output[index] = value end
+            return output
+        end
+        local ok, total = pcall(function() return values:Num() end)
+        if not ok or type(total) ~= "number" then return output end
+        for index = 0, math.min(total, 64) - 1 do
+            local okItem, value = pcall(function() return values:Get(index) end)
+            if okItem then output[#output + 1] = value end
+        end
+        return output
+    end
+
+    local function readEntries(fonts)
+        local rows = {}
+        for _, entry in ipairs(items(fonts)) do
+            local row = {}
+            pcall(function() row.name = tostring(entry.Name) end)
+            pcall(function()
+                local data = entry.Font
+                local face = data.FontFaceAsset
+                if face ~= nil then row.face = objectPath(face) or tostring(face) end
+                pcall(function() row.loading = tostring(data.LoadingPolicy) end)
+                pcall(function() row.hinting = tostring(data.Hinting) end)
+                pcall(function() row.subface = tonumber(data.SubFaceIndex) end)
+            end)
+            rows[#rows + 1] = row
+        end
+        return array(rows)
+    end
+
+    local function readRange(range)
+        local row = {}
+        pcall(function()
+            row.low = tonumber(range.LowerBound.Value)
+            row.high = tonumber(range.UpperBound.Value)
+            row.low_type = tostring(range.LowerBound.Type)
+            row.high_type = tostring(range.UpperBound.Type)
+        end)
+        if row.low == nil then
+            row.raw = tostring(range)
+            row.type = type(range)
+        end
+        return row
+    end
+
+    local function probeComposite(path)
+        local record = { loaded = false }
+        local object = nil
+        pcall(function() object = slua.loadObject(path) end)
+        if object == nil then return record end
+        record.loaded = true
+        local ok, cf = pcall(function() return object.CompositeFont end)
+        noteApi("UFont.CompositeFont", ok and cf ~= nil)
+        if not ok or cf == nil then
+            record.error = tostring(cf)
+            return record
+        end
+        pcall(function() record.default = readEntries(cf.DefaultTypeface.Fonts) end)
+        pcall(function()
+            local fallback = cf.FallbackTypeface
+            record.fallback = { scaling = tonumber(fallback.ScalingFactor), fonts = readEntries(fallback.Typeface.Fonts) }
+        end)
+        local subs = {}
+        pcall(function()
+            for _, sub in ipairs(items(cf.SubTypefaces)) do
+                local row = {}
+                pcall(function() row.cultures = tostring(sub.Cultures) end)
+                pcall(function() row.scaling = tonumber(sub.ScalingFactor) end)
+                pcall(function()
+                    local ranges = {}
+                    for _, range in ipairs(items(sub.CharacterRanges)) do ranges[#ranges + 1] = readRange(range) end
+                    row.ranges = array(ranges)
+                end)
+                pcall(function() row.fonts = readEntries(sub.Typeface.Fonts) end)
+                subs[#subs + 1] = row
+            end
+        end)
+        record.subs = array(subs)
+        return record
+    end
+
+    -- The field is only read (its Lua type), never called.
+    local function probeFontApi()
+        local ok, library = pcall(import, "C7FunctionLibrary")
+        noteApi("C7FunctionLibrary", ok and library ~= nil)
+        local kind = "missing"
+        if ok and library ~= nil then
+            local okField, value = pcall(function() return library.FlushFontCache end)
+            kind = okField and type(value) or "error"
+        end
+        S.api["C7FunctionLibrary.FlushFontCache"] = kind
+    end
+
+    probeCompositeStep = function()
+        local index = S.compositeNext
+        S.compositeNext = index + 1
+        if index == 1 then pcall(probeFontApi) end
+        local path = COMPOSITE_PATHS[index]
+        local started = nowMs()
+        local ok, record = pcall(probeComposite, path)
+        track("font", started)
+        if not ok then
+            noteError("item", record)
+            record = { error = tostring(record) }
+        end
+        S.composite[path] = record
+        if S.compositeNext > #COMPOSITE_PATHS then
+            S.flushSoon = true
+        end
+    end
 end
 
 local function metricsCopy()
@@ -1944,6 +2074,10 @@ local function tickBody()
                 noteError("io", content)
             end
         end
+    end
+
+    if cfg.Fonts and S.compositeNext <= #COMPOSITE_PATHS and nowMs() < deadline then
+        probeCompositeStep()
     end
 
     local now = nowMs()

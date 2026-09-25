@@ -617,10 +617,15 @@ Write-Text (Join-Path $reportDir 'untranslated.md') $sb.ToString()
 # 8. Шрифты ----------------------------------------------------------------------------------------
 $fontAgg = [ordered]@{}
 $standard = @{}
+$composite = [ordered]@{}
+$cyrillicFont = $null
 foreach ($sid in $selected) {
     $f = $sessions[$sid].Fonts
     if (-not $f) { continue }
     foreach ($k in @('standard', 'standard_typeface', 'cinematic')) { if (Get-V $f $k) { $standard[$k] = Get-V $f $k } }
+    $c = Get-V $f 'composite'
+    if ($c) { foreach ($p in $c.Keys) { $composite[$p] = $c[$p] } }
+    if (Get-V $f 'cyrillic_font') { $cyrillicFont = Get-V $f 'cyrillic_font' }
     foreach ($row in @(Get-V $f 'fonts')) {
         if ($null -eq $row) { continue }
         $key = [string](Get-V $row 'role') + '|' + [string](Get-V $row 'key')
@@ -641,9 +646,57 @@ foreach ($sid in $selected) {
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('# Шрифты (этап 4)')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine("Сессии: $($selected -join ', '). StandardFontObject: ``$($standard['standard'])`` ($($standard['standard_typeface'])); CinematicFontObject: ``$($standard['cinematic'])``.")
+[void]$sb.AppendLine("Сессии: $($selected -join ', '). StandardFontObject: ``$($standard['standard'])``; CinematicFontObject: ``$($standard['cinematic'])``.")
 [void]$sb.AppendLine('`pre` — авторский шрифт до нашей замены (снимок в translateTextWidget или виджет, который мы не стилизовали); `post` — после.')
 [void]$sb.AppendLine('Какой глиф выбрал Slate (fallback), из Lua не видно: сверять cmap экспортированных шрифтов (U+0400–U+04FF) офлайн.')
+[void]$sb.AppendLine('')
+if ($cyrillicFont) {
+    $parts = @('mode', 'requested', 'title_typeface', 'typefaces', 'face', 'write', 'verify', 'flush', 'reason' | Where-Object { $null -ne (Get-V $cyrillicFont $_) } | ForEach-Object { "$_=$(Get-V $cyrillicFont $_)" })
+    [void]$sb.AppendLine("Кириллица (TASK-006): ``$($parts -join ' ')``.")
+    [void]$sb.AppendLine('')
+}
+function Format-Range($r) {
+    $low = Get-V $r 'low'; $high = Get-V $r 'high'
+    if ($null -eq $low) { return "$(Get-V $r 'raw') ($(Get-V $r 'type'))" }
+    return ('U+{0:X4}–U+{1:X4} ({2}/{3})' -f [int]$low, [int]$high, (Get-V $r 'low_type'), (Get-V $r 'high_type'))
+}
+[void]$sb.AppendLine("## composite ($($composite.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Структура `UFont.CompositeFont` (проба `AbsruDiagnostics`, только чтение). Диапазоны: границы и тип (0 — Exclusive, 1 — Inclusive, 2 — Open). В режиме `subfont` здесь видна и наша запись U+0400–U+045F.')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| шрифт | часть | typeface | face | диапазоны / культуры | масштаб | loading / hinting |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|')
+foreach ($p in $composite.Keys) {
+    $rec = $composite[$p]
+    $fontName = ($p -split '[/.]')[-1]
+    if (-not (Get-V $rec 'loaded')) {
+        [void]$sb.AppendLine("| $(Cell $fontName) | — | — | не загружен $(Cell (Get-V $rec 'error')) | | | |")
+        continue
+    }
+    $parts = New-Object System.Collections.Generic.List[object]
+    $parts.Add(@('default', @(Get-V $rec 'default'), '', ''))
+    $fb = Get-V $rec 'fallback'
+    if ($fb) { $parts.Add(@('fallback', @(Get-V $fb 'fonts'), '', (Get-V $fb 'scaling'))) }
+    $i = 0
+    foreach ($sub in @(Get-V $rec 'subs')) {
+        if ($null -eq $sub) { continue }
+        $ranges = @(@(Get-V $sub 'ranges') | Where-Object { $null -ne $_ } | ForEach-Object { Format-Range $_ }) -join ', '
+        $cult = Get-V $sub 'cultures'
+        if ($cult) { $ranges = "$ranges; $cult" }
+        $parts.Add(@("sub#$i", @(Get-V $sub 'fonts'), $ranges, (Get-V $sub 'scaling')))
+        $i++
+    }
+    if (Get-V $rec 'error') { [void]$sb.AppendLine("| $(Cell $fontName) | ошибка | | $(Cell (Get-V $rec 'error')) | | | |") }
+    foreach ($part in $parts) {
+        $entries = @($part[1] | Where-Object { $null -ne $_ })
+        if ($entries.Count -eq 0) {
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | — | — | $(Cell $part[2]) | $(Cell $part[3]) | |")
+        }
+        foreach ($e in $entries) {
+            [void]$sb.AppendLine("| $(Cell $fontName) | $($part[0]) | $(Cell (Get-V $e 'name')) | $(Cell (Get-V $e 'face')) | $(Cell $part[2]) | $(Cell $part[3]) | $(Cell (Get-V $e 'loading')) / $(Cell (Get-V $e 'hinting')) |")
+        }
+    }
+}
 [void]$sb.AppendLine('')
 foreach ($role in @('pre', 'post')) {
     $rows = @($fontAgg.Values | Where-Object { $_.role -eq $role } | Sort-Object { -($_.cyr) }, { -($_.count) })
