@@ -1,5 +1,5 @@
 param (
-    [string]$Version = "v2.9.7-RU",
+    [string]$Version = "v2.9.8-RU",
     [switch]$Publish,          # Upload build artifacts as GitHub Release assets (gh CLI)
     [string]$NotesFile = '',   # Release notes for a newly created release
     [switch]$DataOnly,         # Only validate and build lom-russian-patch-data.zip (no installer, no release.json)
