@@ -269,8 +269,8 @@ end
 
 -- Iterates a UObject / container through its slua __pairs (LuaJIT's pairs()
 -- ignores __pairs without 5.2 compat, so the metamethod is called directly).
-local function pairsDump(value, limit)
-    local entries, err = {}, nil
+-- visit(key, value) returning true stops; returns an error text or nil.
+local function eachPair(value, limit, visit)
     local ok, result = pcall(function()
         local meta = getmetatable(value)
         local iterate = type(meta) == "table" and rawget(meta, "__pairs") or nil
@@ -283,17 +283,21 @@ local function pairsDump(value, limit)
         local steps = 0
         while steps < limit do
             local nextKey, nextValue = fn(state, key)
-            if nextKey == nil then
+            if nextKey == nil or visit(nextKey, nextValue) == true then
                 break
             end
-            entries[#entries + 1] = { key = describe(nextKey), value = describe(nextValue) }
             key = nextKey
             steps = steps + 1
         end
     end)
-    if not ok then
-        err = clip(result)
-    end
+    return not ok and clip(result) or nil
+end
+
+local function pairsDump(value, limit)
+    local entries = {}
+    local err = eachPair(value, limit, function(key, item)
+        entries[#entries + 1] = { key = describe(key), value = describe(item) }
+    end)
     return { count = #entries, entries = entries, error = err }
 end
 
@@ -612,21 +616,28 @@ local function canvasDraw(P, R, key, blend, fileName)
     end
     -- slua wants the out parameters (Canvas, Size, Context) as arguments:
     -- (ctx, rt) fails with "expect userdata at arg 4" (probe 2026-09-26_1616).
+    -- Probe 2 passed the imported struct type itself ("expect struct but got
+    -- nil"); an instance is needed. FVector2D is a callable table here, so the
+    -- imported struct type is called the same way.
     local drawContext, contextVia = nil, "none"
-    for _, source in ipairs({ "FDrawToRenderTargetContext", "import:DrawToRenderTargetContext",
-        "import:FDrawToRenderTargetContext" }) do
-        local ok, value = pcall(function()
-            if source:sub(1, 7) == "import:" then
-                local struct = import(source:sub(8))
-                return type(struct) == "function" and struct() or struct
-            end
-            return _G[source]()
-        end)
+    local tried = {}
+    local struct = importSafe("DrawToRenderTargetContext")
+    out.context_type = type(struct)
+    local function tryMake(label, make)
+        if drawContext ~= nil then
+            return
+        end
+        local ok, value = pcall(make)
+        tried[#tried + 1] = label .. ": " .. (ok and (value ~= nil and ("ok " .. type(value)) or "nil") or clip(value))
         if ok and value ~= nil then
-            drawContext, contextVia = value, source
-            break
+            drawContext, contextVia = value, label
         end
     end
+    tryMake("DrawToRenderTargetContext()", function() return struct() end)
+    tryMake("DrawToRenderTargetContext.new()", function() return struct.new() end)
+    tryMake("FDrawToRenderTargetContext()", function() return FDrawToRenderTargetContext() end)
+    tryMake("import F()", function() return import("FDrawToRenderTargetContext")() end)
+    out.context_tried = tried
     out.context_via = contextVia
     local attempts = {
         { "ctx,rt,nil,size,context", function() return P.lib.BeginDrawCanvasToRenderTarget(P.ctx, rt, nil, vector2(0, 0), drawContext) end },
@@ -707,6 +718,28 @@ STAGES[#STAGES + 1] = { "sprite", function(P, R)
             probeMethods(atlas, ATLAS_METHODS_BY_NAME, view.methods, view.found, spriteName)
         end
         view.pairs = pairsDump(atlas, 100)
+        -- Probe 2: Sprites is a TMap name -> struct; dump this sprite's struct.
+        local sprites = get(atlas, "Sprites")
+        if sprites ~= nil and spriteName ~= nil then
+            local entry = nil
+            view.sprites_error = eachPair(sprites, 1000, function(key, value)
+                if tostring(key) == tostring(spriteName) then
+                    entry = value
+                    return true
+                end
+            end)
+            if entry ~= nil then
+                view.entry = pairsDump(entry, 40)
+                view.entry_nested = {}
+                eachPair(entry, 40, function(key, value)
+                    if type(value) == "userdata" and objectPath(value) == nil then
+                        view.entry_nested[tostring(key)] = pairsDump(value, 20)
+                    end
+                end)
+            end
+        end
+        local w, h, via = textureSize(get(atlas, "AtlasTexture"))
+        view.atlas_texture_size = w and { w, h, via } or nil
         for _, name in ipairs(view.found) do
             out.found[#out.found + 1] = "atlas." .. name
         end
@@ -791,6 +824,84 @@ STAGES[#STAGES + 1] = { "mid_draw_2", function(P, R)
     return true
 end }
 
+-- Probe 2: the UI material drew a fully transparent frame (all 0,0,0,0).
+-- Does DrawMaterialToRenderTarget draw anything? Engine surface materials,
+-- and Widget3DPassThrough* with SlateUI = the icon as a Canvas replacement.
+local ENGINE_MATERIALS = {
+    { "Widget3DPassThrough_Translucent", true }, { "Widget3DPassThrough_Masked", true },
+    { "Widget3DPassThrough_Opaque", true }, { "Widget3DPassThrough", true },
+    { "DefaultMaterial", false }, { "WorldGridMaterial", false },
+}
+
+local function loadObject(path)
+    local tried = {}
+    for _, loader in ipairs({
+        { "slua.loadObject", function() return slua.loadObject(path) end },
+        { "LoadObject", function() return LoadObject(path) end },
+        { "UE4.LoadObject", function() return UE4.LoadObject(path) end },
+    }) do
+        local ok, value = pcall(loader[2])
+        if ok and value ~= nil then
+            return value, loader[1]
+        end
+        tried[#tried + 1] = loader[1] .. ": " .. (ok and "nil" or clip(value))
+    end
+    return nil, table.concat(tried, "; ")
+end
+
+local function drawProbe(P, material, w, h, format, fileName)
+    local out = {}
+    local saved = P.format
+    P.format = format or saved
+    local rt, how = createTarget(w, h)
+    P.format = saved
+    out.create = how
+    if rt == nil then
+        return out
+    end
+    local ok, err = pcall(P.lib.DrawMaterialToRenderTarget, P.ctx, rt, material)
+    out.draw = ok and "ok" or clip(err)
+    if fileName ~= nil then
+        out.export = exportTarget(rt, fileName)
+    end
+    out.pixels = readPixels(rt, w, h, 3)
+    return out
+end
+
+STAGES[#STAGES + 1] = { "engine_material", function(P, R)
+    local out = { materials = {} }
+    R.engine_material = out
+    local materialLibrary = importSafe("KismetMaterialLibrary")
+    out.KismetMaterialLibrary = materialLibrary ~= nil
+    for _, entry in ipairs(ENGINE_MATERIALS) do
+        local name = entry[1]
+        local path = "/Engine/EngineMaterials/" .. name .. "." .. name
+        local material, via = loadObject(path)
+        local view = { loaded = material ~= nil, via = via }
+        out.materials[name] = view
+        if material ~= nil then
+            view.plain = drawProbe(P, material, 64, 64, nil, nil)
+            if entry[2] and P.texture ~= nil and materialLibrary ~= nil then
+                local okMid, mid = pcall(materialLibrary.CreateDynamicMaterialInstance, P.ctx, material)
+                view.mid = okMid and mid ~= nil and "ok" or clip(mid)
+                if okMid and mid ~= nil then
+                    P.keepMids = P.keepMids or {}
+                    P.keepMids[#P.keepMids + 1] = mid
+                    local okSet, _, setErr = callMethod(mid, "SetTextureParameterValue", "SlateUI", P.texture)
+                    view.set_slateui = okSet and "ok" or setErr
+                    view.icon = drawProbe(P, mid, P.texW or 176, P.texH or 176, nil, "probe_icon_" .. name .. ".png")
+                end
+            end
+        end
+    end
+    -- The UI material again, into a float target (RTF_RGBA16f).
+    if P.mid ~= nil then
+        local formats = importSafe("ETextureRenderTargetFormat")
+        out.ui_float = drawProbe(P, P.mid, 64, 64, get(formats, "RTF_RGBA16f") or 6, nil)
+    end
+    return true
+end }
+
 -- Last on purpose: ExportTexture2D reads CPU mip data, which a cooked texture
 -- may not keep; the other results are already in probe.json if this fails hard.
 STAGES[#STAGES + 1] = { "texture_direct", function(P, R)
@@ -828,8 +939,19 @@ local function probeLine(R)
     local sprite = R.sprite and #R.sprite.found > 0 and table.concat(R.sprite.found, ",") or "none"
     local midDraw = R.mid and R.mid.draw and R.mid.draw.result or "fail"
     local canvas = texture.canvas_opaque and texture.canvas_opaque.draw or "fail"
+    local engine = {}
+    for name, view in pairs(R.engine_material and R.engine_material.materials or {}) do
+        local icon = view.icon and view.icon.pixels
+        local plain = view.plain and view.plain.pixels
+        local result = not view.loaded and "noload"
+            or icon and (icon.non_black > 0 and "icon_ok" or "icon_black")
+            or plain and (plain.non_black > 0 and "ok" or "black") or "fail"
+        engine[#engine + 1] = name:gsub("Widget3DPassThrough", "W3D") .. ":" .. result
+    end
+    table.sort(engine)
     return "[AbsruExport] probe api=" .. table.concat(api, ",") .. " file=" .. file
         .. " canvas=" .. tostring(canvas) .. " component=" .. tostring(R.component)
+        .. " engine=" .. (#engine > 0 and table.concat(engine, ",") or "none")
         .. " sprite=" .. sprite .. " mid_draw=" .. midDraw
         .. " animated=" .. tostring(R.mid and R.mid.animated_samples or "?")
         .. " ctx=" .. tostring(R.context and R.context.used or "?")
