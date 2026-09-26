@@ -34,17 +34,32 @@ local API_LOGGED = {
     "CreateRenderTarget2D", "DrawMaterialToRenderTarget", "BeginDrawCanvasToRenderTarget",
     "EndDrawCanvasToRenderTarget", "ExportRenderTarget", "ExportTexture2D", "ReadRenderTargetPixel",
 }
+-- slua metatables do not list UPROPERTYs (probe 2026-09-26_1616: only __index
+-- and friends), so KGSprite / KGSpriteAtlas fields are probed by name.
 local SPRITE_FIELDS = {
     "BakedSourceTexture", "SourceTexture", "AtlasTexture", "Atlas", "SpriteAtlas", "Texture",
     "BakedSourceUV", "BakedSourceDimension", "SourceUV", "SourceDimension", "SourceTextureDimension",
     "SourceSize", "Size", "ImageSize", "TextureSize", "UV", "StartUV", "SizeUV", "bRotated", "Rotated",
     "bTrimmed", "TrimRect", "Pivot", "CustomPivotPoint", "PixelsPerUnrealUnit", "Margin",
     "SpriteName", "AtlasData", "SlateAtlasData", "SpriteInfo", "SpriteData",
+    "Rect", "SourceRect", "UVRect", "UVs", "TextureRect", "SpriteRect", "Region", "Frame", "Offset",
+    "Position", "X", "Y", "Width", "Height", "W", "H", "Index", "AtlasIndex", "PageIndex",
+    "TextureIndex", "OriginalSize", "SpriteSize", "RawSize", "bRotate", "Rotate", "Border", "Info", "Data",
 }
 local SPRITE_METHODS = {
     "GetSlateAtlasData", "GetBakedTexture", "GetSourceTexture", "GetAtlasTexture", "GetTexture",
-    "GetSourceSize", "GetImageSize", "GetSourceUV", "GetSize",
+    "GetSourceSize", "GetImageSize", "GetSourceUV", "GetSize", "GetAtlas", "GetRect", "GetUV",
+    "GetSpriteInfo", "GetSpriteData", "GetResourceObject", "GetSpriteTexture",
 }
+local ATLAS_FIELDS = {
+    "Texture", "Textures", "AtlasTexture", "AtlasTextures", "Pages", "PageTextures", "Sprites",
+    "SpriteList", "SpriteArray", "SpriteInfos", "SpriteInfoList", "SpriteMap", "SpriteInfoMap",
+    "SpriteDataMap", "SpriteDatas", "SpriteNames", "Frames", "Size", "Width", "Height", "TextureSize",
+    "AtlasSize", "Padding", "bSRGB", "Name", "AtlasName",
+}
+-- Called with the sprite name as the only argument.
+local ATLAS_METHODS_BY_NAME = { "GetSprite", "FindSprite", "GetSpriteByName", "GetSpriteInfo", "GetSpriteData" }
+local ATLAS_METHODS = { "GetTexture", "GetTextures", "GetAtlasTexture", "GetSprites", "GetSpriteNames", "GetSize" }
 local MATERIAL_ARRAYS = { "ScalarParameterValues", "VectorParameterValues", "TextureParameterValues" }
 
 local cfg = { Panels = {}, PanelSet = {}, Probe = false }
@@ -252,6 +267,89 @@ local function metaKeys(value)
     return keys
 end
 
+-- Iterates a UObject / container through its slua __pairs (LuaJIT's pairs()
+-- ignores __pairs without 5.2 compat, so the metamethod is called directly).
+local function pairsDump(value, limit)
+    local entries, err = {}, nil
+    local ok, result = pcall(function()
+        local meta = getmetatable(value)
+        local iterate = type(meta) == "table" and rawget(meta, "__pairs") or nil
+        local fn, state, key
+        if type(iterate) == "function" then
+            fn, state, key = iterate(value)
+        else
+            fn, state, key = pairs(value)
+        end
+        local steps = 0
+        while steps < limit do
+            local nextKey, nextValue = fn(state, key)
+            if nextKey == nil then
+                break
+            end
+            entries[#entries + 1] = { key = describe(nextKey), value = describe(nextValue) }
+            key = nextKey
+            steps = steps + 1
+        end
+    end)
+    if not ok then
+        err = clip(result)
+    end
+    return { count = #entries, entries = entries, error = err }
+end
+
+-- describe() plus the first items of a TArray / TMap.
+local function expand(value)
+    local valueType = type(value)
+    if valueType ~= "userdata" and valueType ~= "table" then
+        return describe(value)
+    end
+    local out = { value = describe(value) }
+    local n = count(value)
+    if n > 0 then
+        out.count = n
+        out.items = {}
+        for index = 0, math.min(n, 5) - 1 do
+            out.items[#out.items + 1] = describe(item(value, index))
+        end
+    end
+    if objectPath(value) == nil then
+        local dump = pairsDump(value, 5)
+        if dump.count > 0 then
+            out.pairs = dump.entries
+        end
+    end
+    return out
+end
+
+local function probeFields(object, fields, out, found)
+    for _, field in ipairs(fields) do
+        local value = get(object, field)
+        if value ~= nil and type(value) ~= "function" then
+            out[field] = expand(value)
+            found[#found + 1] = field
+        end
+    end
+end
+
+local function probeMethods(object, methods, out, found, ...)
+    for _, method in ipairs(methods) do
+        local ok, result, err = callMethod(object, method, ...)
+        if ok then
+            local view = { value = expand(result) }
+            for _, key in ipairs({ "AtlasTexture", "StartUV", "SizeUV" }) do
+                local field = get(result, key)
+                if field ~= nil then
+                    view[key] = describe(field)
+                end
+            end
+            out[method] = view
+            found[#found + 1] = method .. "()"
+        elseif err ~= "missing" then
+            out[method] = { error = err }
+        end
+    end
+end
+
 -- Files -------------------------------------------------------------------------
 
 local function writeText(name, content)
@@ -433,6 +531,22 @@ STAGES[#STAGES + 1] = { "context", function(P, R)
     return true
 end }
 
+-- ExportRenderTarget on its own: a 64x64 target cleared to opaque red.
+STAGES[#STAGES + 1] = { "rt_clear", function(P, R)
+    local out = {}
+    R.rt_clear = out
+    local rt, how = createTarget(64, 64)
+    out.create = how
+    if rt == nil then
+        return true
+    end
+    local ok, err = pcall(P.lib.ClearRenderTarget2D, P.ctx, rt, linearColor(1, 0, 0, 1))
+    out.clear = ok and "ok" or clip(err)
+    out.export = exportTarget(rt, "probe_rt_clear.png")
+    out.pixels = readPixels(rt, 64, 64, 2)
+    return true
+end }
+
 -- Finds one Texture2D icon, one KGSprite and the Img_Bg01 material (fallbacks: any).
 STAGES[#STAGES + 1] = { "find", function(P, R)
     if P.walk == nil then
@@ -496,11 +610,57 @@ local function canvasDraw(P, R, key, blend, fileName)
     if rt == nil then
         return
     end
-    local returns = { pcall(P.lib.BeginDrawCanvasToRenderTarget, P.ctx, rt) }
-    out.begin = returns[1] and "ok" or clip(returns[2])
-    out.begin_returns = { describe(returns[2]), describe(returns[3]), describe(returns[4]) }
-    local canvas, context = returns[2], returns[4]
-    if not returns[1] or canvas == nil then
+    -- slua wants the out parameters (Canvas, Size, Context) as arguments:
+    -- (ctx, rt) fails with "expect userdata at arg 4" (probe 2026-09-26_1616).
+    local drawContext, contextVia = nil, "none"
+    for _, source in ipairs({ "FDrawToRenderTargetContext", "import:DrawToRenderTargetContext",
+        "import:FDrawToRenderTargetContext" }) do
+        local ok, value = pcall(function()
+            if source:sub(1, 7) == "import:" then
+                local struct = import(source:sub(8))
+                return type(struct) == "function" and struct() or struct
+            end
+            return _G[source]()
+        end)
+        if ok and value ~= nil then
+            drawContext, contextVia = value, source
+            break
+        end
+    end
+    out.context_via = contextVia
+    local attempts = {
+        { "ctx,rt,nil,size,context", function() return P.lib.BeginDrawCanvasToRenderTarget(P.ctx, rt, nil, vector2(0, 0), drawContext) end },
+        { "ctx,rt,size,context", function() return P.lib.BeginDrawCanvasToRenderTarget(P.ctx, rt, vector2(0, 0), drawContext) end },
+        { "ctx,rt", function() return P.lib.BeginDrawCanvasToRenderTarget(P.ctx, rt) end },
+    }
+    local returns = nil
+    out.begin = {}
+    for _, attempt in ipairs(attempts) do
+        local result = { pcall(attempt[2]) }
+        out.begin[#out.begin + 1] = attempt[1] .. ": " .. (result[1] and "ok" or clip(result[2]))
+        if result[1] then
+            returns = result
+            break
+        end
+    end
+    if returns == nil then
+        return
+    end
+    out.begin_returns = { describe(returns[2]), describe(returns[3]), describe(returns[4]), describe(returns[5]) }
+    local canvas, context = nil, nil
+    for index = 2, 5 do
+        local value = returns[index]
+        if canvas == nil and type(get(value, "K2_DrawTexture")) == "function" then
+            canvas = value
+        elseif canvas ~= nil and context == nil and value ~= nil and get(value, "X") == nil then
+            context = value
+        end
+    end
+    context = context or drawContext
+    out.canvas = canvas ~= nil
+    if canvas == nil then
+        local okEnd, endErr = pcall(P.lib.EndDrawCanvasToRenderTarget, P.ctx, context)
+        out["end"] = okEnd and "ok (no canvas)" or clip(endErr)
         return
     end
     local okDraw, _, drawErr = callMethod(canvas, "K2_DrawTexture", P.texture, vector2(0, 0),
@@ -532,30 +692,25 @@ STAGES[#STAGES + 1] = { "sprite", function(P, R)
     if sprite == nil then
         return true
     end
-    for _, field in ipairs(SPRITE_FIELDS) do
-        local value = get(sprite, field)
-        if value ~= nil and type(value) ~= "function" then
-            out.fields[field] = describe(value)
-            out.found[#out.found + 1] = field
-        end
-    end
-    for _, method in ipairs(SPRITE_METHODS) do
-        local ok, result, err = callMethod(sprite, method)
-        if ok then
-            local view = { value = describe(result) }
-            for _, key in ipairs({ "AtlasTexture", "StartUV", "SizeUV" }) do
-                local field = get(result, key)
-                if field ~= nil then
-                    view[key] = describe(field)
-                end
-            end
-            out.methods[method] = view
-            out.found[#out.found + 1] = method .. "()"
-        elseif err ~= "missing" then
-            out.methods[method] = { error = err }
-        end
-    end
+    probeFields(sprite, SPRITE_FIELDS, out.fields, out.found)
+    probeMethods(sprite, SPRITE_METHODS, out.methods, out.found)
     out.meta_keys = metaKeys(sprite)
+    out.pairs = pairsDump(sprite, 100)
+    local atlas = get(sprite, "Atlas")
+    if atlas ~= nil then
+        local spriteName = get(sprite, "SpriteName")
+        local view = { path = objectPath(atlas), class = className(atlas), fields = {}, methods = {}, found = {} }
+        out.atlas = view
+        probeFields(atlas, ATLAS_FIELDS, view.fields, view.found)
+        probeMethods(atlas, ATLAS_METHODS, view.methods, view.found)
+        if spriteName ~= nil then
+            probeMethods(atlas, ATLAS_METHODS_BY_NAME, view.methods, view.found, spriteName)
+        end
+        view.pairs = pairsDump(atlas, 100)
+        for _, name in ipairs(view.found) do
+            out.found[#out.found + 1] = "atlas." .. name
+        end
+    end
     return true
 end }
 
@@ -660,8 +815,9 @@ local function probeLine(R)
     end
     local file = "none"
     local texture = R.texture or {}
-    for _, entry in ipairs({ texture.direct, texture.canvas_opaque and texture.canvas_opaque.export,
-        R.mid and R.mid.draw and R.mid.draw.export }) do
+    -- ExportTexture2D last: it wrote a 0-byte file in probe 2026-09-26_1616.
+    for _, entry in ipairs({ R.rt_clear and R.rt_clear.export, texture.canvas_opaque and texture.canvas_opaque.export,
+        R.mid and R.mid.draw and R.mid.draw.export, texture.direct }) do
         if type(entry) == "table" and entry.exists == true then
             file = entry.file
             break
@@ -671,7 +827,9 @@ local function probeLine(R)
     end
     local sprite = R.sprite and #R.sprite.found > 0 and table.concat(R.sprite.found, ",") or "none"
     local midDraw = R.mid and R.mid.draw and R.mid.draw.result or "fail"
+    local canvas = texture.canvas_opaque and texture.canvas_opaque.draw or "fail"
     return "[AbsruExport] probe api=" .. table.concat(api, ",") .. " file=" .. file
+        .. " canvas=" .. tostring(canvas) .. " component=" .. tostring(R.component)
         .. " sprite=" .. sprite .. " mid_draw=" .. midDraw
         .. " animated=" .. tostring(R.mid and R.mid.animated_samples or "?")
         .. " ctx=" .. tostring(R.context and R.context.used or "?")
@@ -765,19 +923,35 @@ schedule = function(delay)
     end
 end
 
+-- Child components (WBP_ComBackTitle...) open first and share the panel uid
+-- (probe 2026-09-26_1616): the panel itself is the one whose userWidget is named uid.
+local function isPanelRoot(component, uid)
+    return objectName(get(component, "userWidget") or get(component, "widget")) == uid
+end
+
 function E.OnPanelOpen(component)
-    if S.disabled or not cfg.Probe or S.probe ~= nil or component == nil then
+    if S.disabled or not cfg.Probe or component == nil then
         return
     end
     local uid = componentUid(component)
     if not cfg.PanelSet[uid] then
         return
     end
+    local P = S.probe
+    if P ~= nil then
+        if P.index == 1 and P.result.stage == nil and not P.rootFound and isPanelRoot(component, uid) then
+            P.component, P.rootFound = component, true
+            P.result.component = objectName(get(component, "userWidget"))
+        end
+        return
+    end
+    local root = isPanelRoot(component, uid)
     S.probe = {
-        component = component, uid = uid, index = 1, targets = {}, openedMs = nowMs(),
+        component = component, uid = uid, index = 1, targets = {}, openedMs = nowMs(), rootFound = root,
         result = {
             version = S.version, started = stamp("%Y-%m-%d %H:%M:%S"), panel = uid,
             root = S.root, dir = S.dir, prefix = S.prefix, status = "running", stages = {},
+            component = objectName(get(component, "userWidget") or get(component, "widget")),
         },
     }
     schedule(PROBE_DELAY)
