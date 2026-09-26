@@ -62,7 +62,7 @@ return {
     ["Miracles are only for a moment, but fate is always long."] = "Чудеса лишь на мгновение, а судьба всегда длинна.",
     ["The style is also different; tapered pant legs are popular for bottoms, which are more convenient for movement."] = "Стиль тоже другой; Для брюк популярны зауженные штанины, более удобные для движения.",
     ["After %s"] = "После %s",
-    ["Increases Armor Break by 120. When releasing a Finisher Skill, Armor Break is additionally increased by 280 for 10 seconds. Can be triggered at most once every 10 seconds."] = "Увеличивает пробитие брони на 120. При использовании навыка добивания пробитие брони дополнительно увеличивается на 280 на 10 секунд. Может срабатывать не чаще одного раза в 10 секунд.",
+    ["Increases Armor Break by 120. When releasing a Finisher Skill, Armor Break is additionally increased by 280 for 10 seconds. Can be triggered at most once every 10 seconds."] = "Увеличивает прорыв защиты на 120. При использовании навыка добивания прорыв защиты дополнительно увеличивается на 280 на 10 секунд. Может срабатывать не чаще одного раза в 10 секунд.",
     ["Chaos Energy"] = "Энергия Хаоса",
     ["My Consignment"] = "Моя посылка",
     ["Well, it seems there's a class divide even after death."] = "Что ж, похоже, классовое разделение существует даже после смерти.",

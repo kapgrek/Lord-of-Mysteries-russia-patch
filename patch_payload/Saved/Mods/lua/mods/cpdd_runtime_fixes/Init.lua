@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.1-RU"
+local VERSION = "3.0.2-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -112,10 +112,11 @@ local aggregateOverrides = {
     -- Player Details exposes two distinct mechanics that the old catalog
     -- translated identically. The standalone ShieldBreak property is Armor
     -- Break; the lower DefReduce group and its children are Defense Break.
+    -- Glossary (TASK-017): 破甲 = «Пробивание брони», 破防 = «Прорыв защиты».
     [255431368783360] = "Пробивание брони",
-    [141494476346368] = "Снижение защиты",
-    [255431368777472] = "Снижение физ. защиты",
-    [255431368780800] = "Снижение маг. защиты",
+    [141494476346368] = "Прорыв защиты",
+    [255431368777472] = "Физ. прорыв защиты",
+    [255431368780800] = "Маг. прорыв защиты",
     -- Launch 1.1 Esc-menu compact labels. These are the confirmed four-row
     -- values from esc_menu_hotfix_v2 and must win over the external StringDB.
     [74905303409152] = "Исслед.",
@@ -162,7 +163,7 @@ local aggregateOverrides = {
     -- in addition to repairing ItemTipsEquipSpecial:SetData below.
     [409365949475072] = "<CostRed>{1,2,(Клеймо неактивно)}</>Усиление навыков увеличено на <Mark>30</>.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     [409365949475328] = "<CostRed>{1,2,(Клеймо неактивно)}</>После применения навыка снятия контроля дает <Mark>50</> ед. блокирования навыков на <Mark>10</> секунд. Срабатывает не чаще одного раза в <Mark>30</> секунд.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
-    [409365949475584] = "<CostRed>{1,2,(Клеймо неактивно)}</>Пробивание брони увеличено на <Mark>80</>. При получении урона есть шанс получить <Mark>60</> ед. защиты на <Mark>5</> секунд. Срабатывает не чаще одного раза в <Mark>10</> секунд.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
+    [409365949475584] = "<CostRed>{1,2,(Клеймо неактивно)}</>Прорыв защиты увеличен на <Mark>80</>. При получении урона есть шанс получить <Mark>60</> ед. защиты на <Mark>5</> секунд. Срабатывает не чаще одного раза в <Mark>10</> секунд.\nНе действует, пока активен комплект <Mark>Эхо Духа и Знания</>.",
     [211107843337216] = "Запечатывающие цепи домена «Двери» обвивают ваше сердце, защищая от смертельного урона. Одиночный удар не может снизить здоровье более чем на 25% от макс. HP.",
     [211107843655936] = [=[Когда боевой навык класса уходит на перезарядку, она мгновенно сбрасывается. Если это заряжаемый навык, восполняются все заряды. Каждый отдельный навык может вызвать этот сброс не чаще одного раза. {CheckStar(Type="sealed",ID=2085021)=1?Сброшенный навык наносит на <Yellow>*f**</> меньше урона и исцеления.}{CheckStar(Type="sealed",ID=2085021)=3?Сброшенный навык дополнительно получает <Yellow>*f**</> к урону и исцелению.}]=],
     [211107844315392] = "Мисс Справедливость стала свидетелем вашего падения и увидела, как вы поднялись вновь. Волю, которую узрели, не так-то просто угасить. Получаемый урон снижен на 30%, а наносимый урон увеличен на 40%.",
@@ -1132,7 +1133,7 @@ visibleTextExactOverrides.__translateEquipmentSpecialText = function(value)
         and plain:find("每10秒最多触发一次。", 1, true)
     then
         return prefix
-            .. "Пробивание брони увеличено на <Mark>80</>. При получении урона есть шанс получить "
+            .. "Прорыв защиты увеличен на <Mark>80</>. При получении урона есть шанс получить "
             .. "<Mark>60</> ед. защиты на <Mark>5</> сек. Срабатывает не чаще одного раза в <Mark>10</> сек."
             .. inactive
     end
@@ -2713,7 +2714,7 @@ runtimeFixes.AutoChessSkillTemplates = {
     -- [131022]
     ["Drop Dark Mushrooms, detonating them three times in the target area, dealing a total of {0} Attack damage."] = "Сбрасывает темные грибы, трижды подрывая их в целевой области и нанося в сумме {0} ед. урона от атаки.",
     -- [131023]
-    ["Enter Super Armor for {0} seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of {1} Attack damage."] = "Получает Неудержимость на {0} сек. и шесть раз подряд рассекает окружающих врагов Бурей клинков, нанося в сумме {1} ед. урона от атаки.",
+    ["Enter Super Armor for {0} seconds and continuously sweep surrounding enemies six times with a Blade Storm, dealing a total of {1} Attack damage."] = "Получает Суперброню на {0} сек. и шесть раз подряд рассекает окружающих врагов Бурей клинков, нанося в сумме {1} ед. урона от атаки.",
     -- [131025]
     ["Fire a gear beam, dealing {0} Attack damage to targets within {1} grids."] = "Выпускает луч из шестеренок, нанося {0} ед. урона от атаки целям в пределах {1} клеток.",
     -- [131026]
@@ -3368,7 +3369,9 @@ local function translateVisibleText(value)
             local bonusResult = nil
             if statLower == "critical hit rate" or statLower == "critical strike chance" then
                 bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к шансу крит. удара."
-            elseif statLower == "damage amplification" or statLower == "damage increase" or statLower == "damage deepening" then
+            elseif statLower == "damage deepening" then
+                bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к усилению урона."
+            elseif statLower == "damage amplification" or statLower == "damage increase" then
                 bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к увеличению урона."
             elseif statLower == "damage reduction" then
                 bonusResult = "Ваши фигуры получают +" .. bonusVal .. " к снижению урона."

@@ -210,7 +210,7 @@ return {
     ["Go Up and Identify the Scent"] = "Поднимитесь и определите запах",
     ["Joseph "] = "Джозеф",
     ["%s resource download complete."] = "Загрузка ресурса %s завершена.",
-    ["<HighLight>16%</> maximum Health Shield, <HighLight>10%</> Damage Reduction."] = "<HighLight>16%</> максимальный щит здоровья, <HighLight>10%</> уменьшение урона.",
+    ["<HighLight>16%</> maximum Health Shield, <HighLight>10%</> Damage Reduction."] = "<HighLight>16%</> максимальный щит здоровья, <HighLight>10%</> снижение урона.",
     ["Currently in production."] = "В настоящее время в производстве.",
     ["Theodore"] = "Теодор",
     ["Ando sitting"] = "Андо сидит",

@@ -597,7 +597,7 @@
     "id": "055099",
     "source_cn": "神圣盔甲期间，自身获得40%伤害加深，且在施法后进入持续6秒的烈阳状态，可与其它效果施加的烈阳状态互相叠加时长。",
     "ref_en": "During Holy Armor, gain 40% damage boost, and enter a Blazing Sun state for 6 seconds after casting, which can stack duration with Blazing Sun states applied by other effects.",
-    "target_ru": "Во время действия «Святой брони» вы получаете повышение урона на 40% d и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами."
+    "target_ru": "Во время действия «Святой брони» вы получаете усиление урона на 40% и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами."
   },
   {
     "id": "055100",
@@ -6783,7 +6783,7 @@
     "id": "056130",
     "source_cn": "怪物虚弱破防条-皮特破防表现",
     "ref_en": "Monster Weakness Armor Break bar - Pete Armor Break performance",
-    "target_ru": "Панель Monster Weakness Armor Break - выступление Пита Armor Break"
+    "target_ru": "Шкала прорыва защиты уязвимого монстра — индикатор прорыва защиты Пита"
   },
   {
     "id": "056131",
@@ -7803,7 +7803,7 @@
     "id": "056300",
     "source_cn": "穿刺提高<Mark>40</>。闪避后格挡提高<Mark>80</>持续<Mark>10</>秒。",
     "ref_en": "Piercing increased by <Mark>40</>. After a Dodge, Block is increased by <Mark>80</> for <Mark>10</> seconds.",
-    "target_ru": "Прокалывание увеличено на <Mark>40</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд."
+    "target_ru": "Пронзание увеличено на <Mark>40</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд."
   },
   {
     "id": "056301",
@@ -8361,7 +8361,7 @@
     "id": "056393",
     "source_cn": "增加穿刺、格挡和防御。",
     "ref_en": "Increase Pierce, Block, and Defense.",
-    "target_ru": "Увеличьте проникающую способность, блокирование и защиту."
+    "target_ru": "Увеличьте пронзание, блокирование и защиту."
   },
   {
     "id": "056394",
@@ -8427,7 +8427,7 @@
     "id": "056404",
     "source_cn": "忽视目标的格挡，从而降低伤害被目标格挡的概率。穿刺超过目标的格挡后，可以进一步降低自身伤害被格挡的概率（最多将被格挡的概率降至0）。",
     "ref_en": "Ignores the target's Block, thereby reducing the probability of damage being blocked by the target. After Piercing exceeds the target's Block, it can further reduce the probability of your own damage being blocked (the probability of being blocked can be reduced to 0 at most).",
-    "target_ru": "Игнорирует блок цели, тем самым уменьшая вероятность блокирования урона целью. После того, как пронзающий удар превысит блокировку цели, это может еще больше снизить вероятность блокировки вашего собственного урона (вероятность блокировки может быть уменьшена максимум до 0)."
+    "target_ru": "Игнорирует блок цели, тем самым уменьшая вероятность блокирования урона целью. После того, как пронзание превысит блок цели, это может еще больше снизить вероятность блокировки вашего собственного урона (вероятность блокировки может быть уменьшена максимум до 0)."
   },
   {
     "id": "056405",
@@ -10977,7 +10977,7 @@
     "id": "056829",
     "source_cn": "短时间获得伤害加深和伤害减免。",
     "ref_en": "Gain Damage Increased and Damage Reduction for a short time.",
-    "target_ru": "Получите увеличение урона и уменьшение урона на короткое время."
+    "target_ru": "Получите усиление урона и снижение урона на короткое время."
   },
   {
     "id": "056830",
@@ -22587,7 +22587,7 @@
     "id": "058764",
     "source_cn": "烈阳状态期间，自身伤害加深和伤害减免提升20%。",
     "ref_en": "During the Blazing Sun state, your Damage Boost and Damage Reduction are increased by 20%.",
-    "target_ru": "В состоянии «Пылающего солнца» увеличение и уменьшение урона увеличиваются на 20%."
+    "target_ru": "В состоянии «Пылающего солнца» усиление урона и снижение урона увеличиваются на 20%."
   },
   {
     "id": "058765",
@@ -28965,7 +28965,7 @@
     "id": "059827",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">星沙</>的伤害提高50%，额外获取10点<HighLight>神秘知识</>，降低穿刺的数值提高",
     "ref_en": "The damage of <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> is increased by 50%, an additional 10 points of <HighLight>Secret Peeking</> are obtained, and the piercing reduction value is increased.",
-    "target_ru": "Урон <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> увеличен на 50%, получены дополнительные 10 очков <HighLight>Secret Peeking</>, а также увеличено значение снижения пробивания."
+    "target_ru": "Урон от <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Звёздного песка</> увеличен на 50%, получено дополнительно 10 очков <HighLight>Тайного знания</>, а также увеличено значение снижения пронзания."
   },
   {
     "id": "059828",

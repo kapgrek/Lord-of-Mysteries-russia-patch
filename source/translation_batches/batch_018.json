@@ -1191,7 +1191,7 @@
     "id": "085198",
     "source_cn": "获得buffdisc(*id)，持续*f秒（此护盾受自身最大生命值加成）；当护盾被击破时，自身获得buffdisc(*id)秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，该效果有buffdisc(*id)秒内置冷却。施法时获得1枚<HighLight>黄昏印记</>。当正在释放其他技能时，点按本技能可直接获得护盾。\\n携带本技能时：passivedisc(*id)。\\n\\n<FaintYellow>黄昏印记</>\\n使<HighLight>终结技能</>和<HighLight>怒意猛击</>得到强化，最多持有6枚。",
     "ref_en": "Gain buffdisc(*id) for *f seconds (this shield is boosted by your maximum health); when the shield is broken, you gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for buffdisc(*id) seconds, with an internal cooldown of buffdisc(*id) seconds. Gain 1 <HighLight>Dusk Mark</> upon casting. When casting other skills, tap this skill to directly gain the shield. \\nWhen carrying this skill: passivedisc(*id). \\n\\n<FaintYellow>Dusk Mark</>\\nStrengthens <HighLight>Finisher Skill</> and <HighLight>Angry Slam</>, stacking up to 6 times.",
-    "target_ru": "Дает buffdisc(*id) на *f сек. (прочность щита зависит от максимального запаса здоровья персонажа); когда щит разбит, персонаж получает <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к прерыванию</> на buffdisc(*id) сек. (эффект имеет внутреннее время перезарядки buffdisc(*id) сек.). При применении навыка дает 1 <HighLight>Метку заката</>. При использовании других навыков нажатие на этот навык позволяет мгновенно получить щит.\nПри экипировке навыка: passivedisc(*id).\n\n<FaintYellow>Метка заката</>\nУсиливает <HighLight>добивающий навык</> и <HighLight>Яростный сокрушительный удар</>; накапливается до 6 шт."
+    "target_ru": "Дает buffdisc(*id) на *f сек. (прочность щита зависит от максимального запаса здоровья персонажа); когда щит разбит, персонаж получает <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> на buffdisc(*id) сек. (эффект имеет внутреннее время перезарядки buffdisc(*id) сек.). При применении навыка дает 1 <HighLight>Метку заката</>. При использовании других навыков нажатие на этот навык позволяет мгновенно получить щит.\nПри экипировке навыка: passivedisc(*id).\n\n<FaintYellow>Метка заката</>\nУсиливает <HighLight>добивающий навык</> и <HighLight>Яростный сокрушительный удар</>; накапливается до 6 шт."
   },
   {
     "id": "085199",
@@ -3759,7 +3759,7 @@
     "id": "085626",
     "source_cn": "你获得了\"刺客\"途径序列7\"女巫\"的部分黑焰掌控力，伤害加深提高30%。深渊的灼热与冰霜缠绕着你的武器，焚烧一切阻碍。",
     "ref_en": "You have gained partial control over the Black Flame of the \"Assassin\" pathway, Sequence 7 \"Witch\", increasing Damage Increase by 30%. The scorching heat and frost of the Abyss entwine around your weapon, incinerating all obstacles.",
-    "target_ru": "Вы получили частичный контроль над Черным пламенем пути «Убийца», последовательность 7 «Ведьма», увеличивая увеличение урона на 30%. Палящий зной и мороз Бездны окутывают ваше оружие, сжигая все препятствия."
+    "target_ru": "Вы получили частичный контроль над Черным пламенем пути «Убийца», последовательность 7 «Ведьма», увеличивая усиление урона на 30%. Палящий зной и мороз Бездны окутывают ваше оружие, сжигая все препятствия."
   },
   {
     "id": "085627",
@@ -8037,7 +8037,7 @@
     "id": "086339",
     "source_cn": "提高破防250，释放终结技能时，破防额外提高250，并在目标位置造成伤害，每12秒最多触发1次。",
     "ref_en": "Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is additionally increased by 250, and damage is dealt at the target's location. Can be triggered at most once every 12 seconds.",
-    "target_ru": "Увеличивает пробитие брони на 250. При использовании навыка добивания пробитие брони дополнительно увеличивается на 250, а урон наносится по месту нахождения цели. Может срабатывать не чаще одного раза в 12 секунд."
+    "target_ru": "Увеличивает прорыв защиты на 250. При использовании навыка добивания прорыв защиты дополнительно увеличивается на 250, а урон наносится по месту нахождения цели. Может срабатывать не чаще одного раза в 12 секунд."
   },
   {
     "id": "086340",
@@ -10635,7 +10635,7 @@
     "id": "086772",
     "source_cn": "首领专攻",
     "ref_en": "Boss Expertise",
-    "target_ru": "Экспертиза босса"
+    "target_ru": "Специализация против боссов"
   },
   {
     "id": "086773",
@@ -13359,13 +13359,13 @@
     "id": "087226",
     "source_cn": "受到雕像守护，非破防期间，米尔贡根受到的伤害减少30%。",
     "ref_en": "Protected by the statue; Milgongen takes 30% less damage when not in armor break state.",
-    "target_ru": "Защищен статуей; Милгонген получает на 30% меньше урона, когда не находится в состоянии пробития брони."
+    "target_ru": "Защищен статуей; Милгонген получает на 30% меньше урона, когда не находится в состоянии прорыва защиты."
   },
   {
     "id": "087227",
     "source_cn": "向敌方目标快速突进，以*f**的基础概率<HyperLink stylename=\"M_Link\" u=\"2\">击倒</>目标和其周围小范围内的敌方并造成*d点物理伤害，附加*f秒mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">减疗</>和*f秒<HyperLink stylename=\"M_Link\" u=\"9\">滞涩</>，突进过程中自身<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>。\\n施法时获得1点<HighLight>太阳能量</>（<HighLight>烈阳</>状态下获得2点<HighLight>太阳能量</>）。\\n本技能可充能2次。\\n\\n<FaintYellow>太阳能量</>：最多持有5点，获取太阳能量以解锁与强化<HighLight>惩戒</>和<HighLight>无暗之枪</>。",
     "ref_en": "Quickly dashes to the enemy target, with a base probability of *f** to <HyperLink stylename=\"M_Link\" u=\"2\"> knock down </> the target and enemies in a small area around it, dealing *d physical damage and applying *f seconds of mul(*d**,*d) <HyperLink stylename=\"M_Link\" u=\"20\"> Healing Reduction </> and *f seconds of <HyperLink stylename=\"M_Link\" u=\"9\"> Stagnation </>. You gain <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </> during the dash. \\n Gain 1 point of <HighLight> Solar Energy </> when casting (gain 2 points of <HighLight> Solar Energy </> in the <HighLight> Blazing Sun </> state). \\n This skill can be charged 2 times. \\n\\n<FaintYellow> Solar Energy </>: Hold up to 5 points. Obtain Solar Energy to unlock and strengthen <HighLight> Punishment </> and <HighLight> Unshadowed Spear </>.",
-    "target_ru": "Стремительно бросается к цели с базовой вероятностью *f** <HyperLink stylename=\"M_Link\" u=\"2\">опрокинуть</> цель и врагов в небольшом радиусе вокруг неё, нанося *d ед. физического урона и накладывая на *f сек. mul(*d**,*d) эффекта <HyperLink stylename=\"M_Link\" u=\"20\">Снижение лечения</> и на *f сек. — <HyperLink stylename=\"M_Link\" u=\"9\">Замедление реакций</>. Во время рывка даёт <HyperLink stylename=\"M_Link\" u=\"11\">Непреклонность</>.\nПри применении даёт 1 ед. <HighLight>энергии Солнца</> (в состоянии <HighLight>Палящее солнце</> даёт 2 ед. <HighLight>энергии Солнца</>).\nНавык накапливает до 2 зарядов.\n\n<FaintYellow>Энергия Солнца</>: Можно накопить до 5 ед. Энергия Солнца необходима для открытия и усиления навыков <HighLight>Кара</> и <HighLight>Копьё Бессветного</>."
+    "target_ru": "Стремительно бросается к цели с базовой вероятностью *f** <HyperLink stylename=\"M_Link\" u=\"2\">опрокинуть</> цель и врагов в небольшом радиусе вокруг неё, нанося *d ед. физического урона и накладывая на *f сек. mul(*d**,*d) эффекта <HyperLink stylename=\"M_Link\" u=\"20\">Снижение лечения</> и на *f сек. — <HyperLink stylename=\"M_Link\" u=\"9\">Замедление реакций</>. Во время рывка даёт <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</>.\nПри применении даёт 1 ед. <HighLight>энергии Солнца</> (в состоянии <HighLight>Палящее солнце</> даёт 2 ед. <HighLight>энергии Солнца</>).\nНавык накапливает до 2 зарядов.\n\n<FaintYellow>Энергия Солнца</>: Можно накопить до 5 ед. Энергия Солнца необходима для открытия и усиления навыков <HighLight>Кара</> и <HighLight>Копьё Бессветного</>."
   },
   {
     "id": "087228",
@@ -15471,7 +15471,7 @@
     "id": "087578",
     "source_cn": "破防增加",
     "ref_en": "Defense break increase",
-    "target_ru": "Увеличение перерыва в защите"
+    "target_ru": "Увеличение прорыва защиты"
   },
   {
     "id": "087579",
@@ -28557,7 +28557,7 @@
     "id": "089759",
     "source_cn": "扣除破防值",
     "ref_en": "Armor break value deduction.",
-    "target_ru": "Уменьшение стоимости пробития брони."
+    "target_ru": "Уменьшение значения прорыва защиты."
   },
   {
     "id": "089760",
@@ -28653,7 +28653,7 @@
     "id": "089775",
     "source_cn": "永久+5%伤害减免、5%攻击",
     "ref_en": "Permanently +5% Damage Reduction, 5% Attack",
-    "target_ru": "Постоянно +5% уменьшения урона, 5% атаки."
+    "target_ru": "Постоянно +5% снижения урона, 5% атаки."
   },
   {
     "id": "089776",

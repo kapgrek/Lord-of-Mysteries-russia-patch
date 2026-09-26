@@ -55,7 +55,7 @@ return {
     ["Partner Audrey Skill - Mind Insight"] = "Партнер Одри Скилл - Mind Insight",
     ["After I left Welch's house yesterday, I went straight back to the apartment and have been preparing for my lecturer interview ever since..."] = "Вчера, выйдя из дома Уэлча, я сразу же вернулся в квартиру и с тех пор готовился к собеседованию с лектором...",
     ["【Tarot Club · Derrick】Tier 7 increment (+30%) → cumulative 220%"] = "【Клуб Таро · Вышка】Прирост 7 уровня (+30%) → совокупно 220%",
-    ["Universal Super Armor"] = "Универсальная супер броня",
+    ["Universal Super Armor"] = "Универсальная суперброня",
     ["<P_Heart> (Lowers head) </> Catherine started drinking heavily. Joanna gave up practicing. Amy married a man she didn't love."] = "<P_Heart> (Опускает голову) </> Кэтрин начала сильно пить. Джоанна отказалась от тренировок. Эми вышла замуж за человека, которого не любила.",
     ["Slide Rail - Monster Death Effect"] = "Слайд-рейка — Эффект смерти монстра",
     ["Mushroom Pufferfish Identifier 2"] = "Идентификатор грибной рыбы-фугу 2",

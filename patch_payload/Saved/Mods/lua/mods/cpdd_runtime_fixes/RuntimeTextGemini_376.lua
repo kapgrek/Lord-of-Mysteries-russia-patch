@@ -76,7 +76,7 @@ return {
     ["Trade War - Mountain Herbs"] = "Торговая война — горные травы",
     ["Already marked!"] = "Уже отмечено!",
     ["It's not up for negotiation."] = "Это не подлежит переговорам.",
-    ["Damage dealt is increased by {*.2f**,F1690001,SkillMulti}, offset by the target's Damage Reduction."] = "Наносимый урон увеличивается на {*.2f**,F1690001,SkillMulti}, компенсируя уменьшение урона цели.",
+    ["Damage dealt is increased by {*.2f**,F1690001,SkillMulti}, offset by the target's Damage Reduction."] = "Наносимый урон увеличивается на {*.2f**,F1690001,SkillMulti}, компенсируя снижение урона цели.",
     ["Accomplice"] = "сообщник",
     ["Unlocks <Highlight>Single Social Action: Me?</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "Открывает <Highlight>Одно социальное действие: Me?</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы.",
     ["Detected members cannot use the microphone or send messages in the room"] = "Обнаруженные участники не могут использовать микрофон или отправлять сообщения в комнате.",

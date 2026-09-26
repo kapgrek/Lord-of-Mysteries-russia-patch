@@ -256,7 +256,7 @@ return {
     ["Use to unlock the historical projection of the Sealed Artifact [Life Cane]."] = "Используйте, чтобы разблокировать историческую проекцию Запечатанного Артефакта [Трости Жизни].",
     ["Seer Talent - Magic Performance passive"] = "Талант Провидца — пассивное умение Magic Performance",
     ["It's okay, I can wait a bit longer. Travel, after all, isn't something to rush."] = "Все в порядке, я могу еще немного подождать. В конце концов, путешествие – это не то, к чему нужно спешить.",
-    ["GTA Fallen Priest Armor Break"] = "GTA Падший Священник Пробитие брони",
+    ["GTA Fallen Priest Armor Break"] = "GTA Падший Священник Прорыв защиты",
     ["Upon reaching <HighLight> level 9 </>, gain <HighLight> 26 Gold Coins </>."] = "При достижении <HighLight> 9-го уровня </> даёт <HighLight> 26 золотых монет </>.",
     ["Slide Rail - Monster Health Layer Tag"] = "Направляющая — тег слоя со здоровьем монстра",
     ["Mocking laughter and sorrow, also mocking failure and Victory. \n Its owner has departed; this is the mark of your honor."] = "Насмешка над смехом и скорбью, насмешка над поражением и победой.\nЕго хозяин ушёл; это знак вашей чести.",

@@ -65,7 +65,7 @@ return {
     ["You're not bad yourself."] = "Ты сам не плохой.",
     ["Manor Hound"] = "Поместная гончая",
     ["Animation State ID"] = "Идентификатор состояния анимации",
-    ["Negative effects nullified, all skill levels +1, Damage Deepening"] = "Негативные эффекты аннулированы, все уровни навыков +1, урон увеличивается.",
+    ["Negative effects nullified, all skill levels +1, Damage Deepening"] = "Негативные эффекты аннулированы, все уровни навыков +1, усиление урона.",
     ["Cannot select a character in the current state."] = "Невозможно выбрать персонажа в текущем состоянии.",
     ["[Golden Autumn Lake-Hard]-Clone Connection 2"] = "[Золотое Осеннее озеро-Hard]-Соединение клонов 2",
     ["<Assistant_Title1>True Railway Tycoon</>\n<Assistant_Title2>Achievement Category: </>Leisure - May Manor · Castle\n<Assistant_Title2>Unlock Condition: </>Achieve \"Railway Tycoon - Tier 1\" in a single round of Railway Tycoon - Challenge Route"] = "<Assistant_Title1>Истинный железнодорожный магнат</>\n<Assistant_Title2>Категория достижения: </>Досуг — Замок\n<Assistant_Title2>Условие получения: </>В режиме «Железнодорожный магнат: Маршрут испытаний» достигните ранга «Железнодорожный магнат — ранг 1» за одну партию",

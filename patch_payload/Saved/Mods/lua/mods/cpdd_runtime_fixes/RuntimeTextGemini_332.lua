@@ -7,7 +7,7 @@ return {
     ["【@Qian Qiu Zai】Combat power increased? DPS increased? PvP ranking increased? You dare to sleep without any of that?"] = "【@Цяньцюцзай】Боевая мощь выросла? Урон в секунду вырос? Ранг в PvP поднялся? Ничего из этого, а ты спать удумал?",
     ["Mysterious Night Wave Trace"] = "Волновой след темной ночи",
     ["May the Goddess protect me, I hope I can survive to get this month's double salary."] = "Да защитит меня Богиня... Хоть бы дожить до двойного жалованья в этом месяце.",
-    ["Gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for *f seconds, <HyperLink stylename=\"M_Link\" u=\"7\">Imprisonment</> enemies in the target area for *f seconds, and deal *d damage after a short delay."] = "Даёт <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к контролю</> на *f сек., накладывает на врагов в целевой области эффект <HyperLink stylename=\"M_Link\" u=\"7\">Обездвиживание</> на *f сек. и после небольшой задержки наносит *d ед. урона.",
+    ["Gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for *f seconds, <HyperLink stylename=\"M_Link\" u=\"7\">Imprisonment</> enemies in the target area for *f seconds, and deal *d damage after a short delay."] = "Даёт <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> на *f сек., накладывает на врагов в целевой области эффект <HyperLink stylename=\"M_Link\" u=\"7\">Обездвиживание</> на *f сек. и после небольшой задержки наносит *d ед. урона.",
     ["[Temporary] 1 Blue Line"] = "【Временно】 1 Синяя линия",
     ["Mountaineering Log 5"] = "Журнал альпиниста 5",
     ["Mom, wait for me..."] = "Мама, подожди меня...",

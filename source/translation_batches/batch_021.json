@@ -2601,7 +2601,7 @@
     "id": "100433",
     "source_cn": "进入持续*f秒的<HighLight>烈阳</>状态，获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>。\\n获得被动效果<HighLight>烈阳之魂</>。\\n\\n<FaintYellow>烈阳</>：自身移动速度增加*f**，战斗技能获取<HighLight>太阳能量</>的效率增加，<HighLight>正义审判</>与<HighLight>异端裁决</>的触发难度降低；普通攻击<HighLight>烈阳斩</>、<HighLight>无暗之枪</>和<HighLight>惩戒</>获得强化。\\n<FaintYellow>烈阳之魂</>：自身受到致命伤害时，保留1点生命并获得*f秒<HyperLink stylename=\"M_Link\" u=\"1\">无敌</>，解除所受的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>。期间每0.25秒获得5点<HighLight>太阳能量</>，<HighLight>无暗之枪</>的冷却时长缩减为0，增伤提升*f**（每多1名敌人，增伤额外提升*f**，最大提升mul(*f**,*d)）。自身获得<HighLight>80%</>的<HyperLink stylename=\"M_Link\" u=\"10\">重伤</>效果，每击败1名敌人<HyperLink stylename=\"M_Link\" u=\"16\">固定回复</>20%生命。<HighLight>烈阳之魂</>拥有*f秒内置冷却。\\n ",
     "ref_en": "Enter the <HighLight> Blazing Sun </> state for *f seconds, gaining *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </>. \\n Gain the passive effect <HighLight> Soul of the Blazing Sun </>. \\n \\n <FaintYellow> Blazing Sun </>: Movement speed increases by *f**, the efficiency of gaining <HighLight> Spirituality </> from combat skills increases, the trigger difficulty for <HighLight> Judgment of Justice </> and <HighLight> Heresy Verdict </> is reduced; Basic Attacks <HighLight> Blazing Sun Slash </>, <HighLight> Unshadowed Spear </>, and <HighLight> Punishment </> are strengthened. \\n <FaintYellow> Soul of the Blazing Sun </>: When taking fatal damage, retain 1 Health and gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"1\"> Invincibility </>, removing any <HyperLink stylename=\"M_Link\" u=\"3\"> Crowd Control </> effects. During this period, gain 5 points of <HighLight> Spirituality </> every 0.25 seconds, the cooldown of <HighLight> Unshadowed Spear </> is reduced to 0, and Damage Boost increases by *f** (for every additional enemy, Damage Boost increases by an extra *f**, up to a maximum of mul(*f**,*d)). You gain <HighLight> 80% </> <HyperLink stylename=\"M_Link\" u=\"10\"> Grievous Injury </>, and defeating an enemy restores <HyperLink stylename=\"M_Link\" u=\"16\"> a fixed </> 20% Health. <HighLight> Soul of the Blazing Sun </> has an internal cooldown of *f seconds. \\n",
-    "target_ru": "Войдите в состояние <HighLight>Огненного Солнца</>, которое длится *f секунд, и получите *f секунд<HyperLink stylename=\"M_Link\" u=\"11\">Гегемоническое Тело</>. \nПолучить пассивные эффекты<HighLight>Душа Солнца</>. \n\n<FaintYellow>Огненное Солнце</>: Увеличивает собственную скорость передвижения *f**, боевые навыки получают <HighLight> солнечную энергию. </> увеличивается эффективность, <HighLight>Правосудие</>. Сложность запуска <HighLight>Ереси Правосудия</> уменьшена; обычные атаки <HighLight>Удар Огненного Солнца</>, <HighLight>Теневое Копье</> и <HighLight>Возмездие</> были усилены. \n<FaintYellow>Душа свирепого Солнца</>: Когда вы получаете смертельный урон, вы сохраняете 1 очко жизни и получаете *f секунд <HyperLink stylename=\"M_Link\" u=\"1\">непобедимость</>, а также снимаете <HyperLink stylename=\"M_Link\" u=\"3\"> эффект контроля</>. В течение этого периода каждые 0,25 секунды получают 5 очков <HighLight>солнечной энергии</>. Время восстановления <HighLight>No Dark Spear</> уменьшено до 0, а увеличение урона увеличено на *f** (за каждого дополнительного врага увеличение урона дополнительно увеличивается на *f**, с максимальным увеличением mul(*f**,*d)). Получите эффект <HyperLink stylename=\"M_Link\" u=\"10\">серьезной травмы</> от <HighLight>80%</> и восстановите </>20% жизни за каждого побежденного врага <HyperLink stylename=\"M_Link\" u=\"16\">. <HighLight> Душа Солнца </> имеет встроенное время восстановления *f секунд. \n"
+    "target_ru": "Войдите в состояние <HighLight>Огненного Солнца</>, которое длится *f секунд, и получите *f секунд <HyperLink stylename=\"M_Link\" u=\"11\">Суперброни</>.\nПолучите пассивный эффект <HighLight>Душа Огненного Солнца</>.\n\n<FaintYellow>Огненное Солнце</>: скорость передвижения увеличивается на *f**, эффективность получения <HighLight>Солнечной энергии</> от боевых навыков возрастает, сложность срабатывания <HighLight>Правосудия</> и <HighLight>Приговора еретикам</> снижается; обычные атаки <HighLight>Рассечение Огненного Солнца</>, <HighLight>Копьё Бестеневого</> и <HighLight>Кара</> усиливаются.\n<FaintYellow>Душа Огненного Солнца</>: при получении смертельного урона вы сохраняете 1 очко здоровья и получаете *f секунд <HyperLink stylename=\"M_Link\" u=\"1\">неуязвимости</>, снимая с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>. В течение этого времени каждые 0,25 секунды вы получаете 5 очков <HighLight>солнечной энергии</>, время восстановления <HighLight>Копья Бестеневого</> сокращается до 0, а усиление урона увеличивается на *f** (за каждого дополнительного врага усиление урона дополнительно увеличивается на *f**, максимум до mul(*f**,*d)). Вы получаете эффект <HighLight>80%</> <HyperLink stylename=\"M_Link\" u=\"10\">тяжёлого ранения</>, а за каждого убитого врага <HyperLink stylename=\"M_Link\" u=\"16\">фиксированно восстанавливаете</> 20% здоровья. <HighLight>Душа Огненного Солнца</> имеет встроенное время восстановления *f секунд.\n "
   },
   {
     "id": "100434",
@@ -6957,7 +6957,7 @@
     "id": "101159",
     "source_cn": "提高穿刺250。",
     "ref_en": "Increases Piercing by 250.",
-    "target_ru": "Увеличивает проникающую способность на 250."
+    "target_ru": "Увеличивает Пронзание на 250."
   },
   {
     "id": "101160",
@@ -12177,7 +12177,7 @@
     "id": "102029",
     "source_cn": "物理防御：{*d,F1690001,pDef}\\n魔法防御：{*d,F1690001,mDef}\\n减免受到伤害的攻击基础值，无法减免伤害的技能基础值。\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的防御超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>，与对方<Highlight>破防</>、<Highlight>忽视防御</>属性的对抗结算。",
     "ref_en": "Physical Defense: {*d,F1690001,pDef}\\n Magic Defense: {*d,F1690001,mDef}\\n Reduces the base Attack value of received damage, but cannot reduce the base Skill value of damage. \\nThe reduced base Attack value has an upper limit of <Highlight>75%</> and a lower limit of <Highlight>20%</>. If the increased Defense exceeds the upper threshold or fails to reach the lower threshold, the damage reduction capability cannot be improved. \\nThe actual effect and thresholds depend on the confrontation calculation between the attacker and defender's <Highlight>Level</>, and the opponent's <Highlight>Armor Break</> and <Highlight>Ignore Defense</> attributes.",
-    "target_ru": "Физическая защита: {*d,F1690001,pDef}\nМагическая защита: {*d,F1690001,mDef}\nБазовое значение атаки, уменьшающее получаемый урон, но базовое значение умения, которое не может уменьшить урон. Значение базовой атаки после снижения \n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда улучшенная защита превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight></> как нападения, так и защиты, а также от урегулирования конфронтации с защитой <Highlight> противника, пробивающей </>, <Highlight> игнорируя атрибут защиты </>."
+    "target_ru": "Физическая защита: {*d,F1690001,pDef}\nМагическая защита: {*d,F1690001,mDef}\nБазовое значение атаки, уменьшающее получаемый урон, но базовое значение умения, которое не может уменьшить урон. Значение базовой атаки после снижения \n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда улучшенная защита превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight></> как нападения, так и защиты, а также от урегулирования конфронтации с атрибутами <Highlight>Прорыв защиты</> и <Highlight>Игнорирование защиты</> противника."
   },
   {
     "id": "102030",
@@ -12609,7 +12609,7 @@
     "id": "102101",
     "source_cn": "功能_炼金心得_破防状态",
     "ref_en": "Function_Alchemy Insights_Armor Break Status",
-    "target_ru": "Function_Alchemy Insights_Статус пробития брони"
+    "target_ru": "Function_Alchemy Insights_Статус прорыва защиты"
   },
   {
     "id": "102102",
@@ -12711,7 +12711,7 @@
     "id": "102118",
     "source_cn": "建筑专攻",
     "ref_en": "Structure Expertise",
-    "target_ru": "Экспертиза структуры"
+    "target_ru": "Специализация против построек"
   },
   {
     "id": "102119",
@@ -12837,7 +12837,7 @@
     "id": "102139",
     "source_cn": "是否忽略破防锁",
     "ref_en": "Whether to ignore armor break lock.",
-    "target_ru": "Игнорировать ли блокировку пробития брони."
+    "target_ru": "Игнорировать ли блокировку прорыва защиты."
   },
   {
     "id": "102140",
@@ -16107,7 +16107,7 @@
     "id": "102684",
     "source_cn": "自身获得持续6秒的<HighLight>研习</>，在目标位置召唤持续5秒的空间牢笼，对范围内的敌方造成3次*d点魔法伤害，之后牢笼坍塌造成*d点魔法伤害。\\n牢笼内的敌方被自身战斗技能命中后，自身获得1层持续<HighLight>0.5</>秒的<HighLight>折幕</>，并令牢笼协同攻击该目标，造成*d点范围魔法伤害并附加*f秒buffdisc(*id)的效果。（同一目标存在1秒的内置冷却时间）\\n\\n<FaintYellow>折幕</>\\n每层<HighLight>折幕</>使自身获得<HighLight>霸体</>与<HighLight>减伤6%</>，最多叠加<HighLight>5</>层，持续时长也会随层数叠加。\\n<FaintYellow>研习</>\\n施放<HighLight>星云咏叹</>、<HighLight>戏法演绎</>、<HighLight>放逐</>时强化其效果。",
     "ref_en": "You gain <HighLight>Study</> for 6 seconds and summon a Space Cage at the target location that lasts for 5 seconds, dealing 3 instances of *d magic damage to enemies within range. The cage then collapses, dealing *d magic damage. \\nWhen enemies inside the cage are hit by your combat skills, you gain 1 stack of <HighLight>Folding Screen</> for <HighLight>0.5</> seconds, and the cage performs a coordinated attack on the target, dealing *d area magic damage and applying, for *f seconds, the buffdisc(*id) effect. (There is a 1-second internal cooldown for the same target.) \\n\\n<FaintYellow>Folding Screen</>\\nEach stack of <HighLight>Folding Screen</> grants you <HighLight>Super Armor</> and <HighLight>6% Damage Reduction</>, stacking up to <HighLight>5</> times, with the duration also stacking with the number of layers. \\n<FaintYellow>Study</>\\nStrengthens the effects of <HighLight>Nebula Aria</>, <HighLight>Trick Performance</>, and <HighLight>Exile</> when cast.",
-    "target_ru": "Получите <HighLight> тренировку</>, которая длится 6 секунд, вызывает космическую клетку, которая существует в течение 5 секунд в выбранном месте, нанося 3 раза *d очков магического урона врагам в радиусе действия, а затем клетка рушится, нанося *d очков магического урона. \n После того, как враг в клетке будет поражен своими боевыми навыками, он получит 1 слой <HighLight> Складной занавес </>, который действует в течение <HighLight>0,5</> секунд и заставляет клетку скоординированно атаковать цель, нанося *d очков дальности магического урона и добавляя эффект *f секунд buffdisc (*id). (Для одной и той же цели имеется встроенное время охлаждения 1 секунда) \n\n<FaintYellow>Складная завеса</>\nКаждый слой <HighLight>Складной завесы</> позволяет получить <HighLight>Тело гегемона</> и <HighLight>снижение урона на 6%</>, до Слои <HighLight>5</> накладываются друг на друга, а продолжительность также будет накладываться на количество слоев. \n<FaintYellow>Изучение</>\nУсиливает эффект при использовании <HighLight>Напев туманности</>, <HighLight>Колдовство</>, <HighLight>Изгнание</>."
+    "target_ru": "Вы получаете <HighLight>Изучение</> на 6 секунд и призываете в выбранной точке пространственную клетку, которая существует 5 секунд, нанося врагам в радиусе действия 3 удара по *d очков магического урона, после чего клетка рушится, нанося *d очков магического урона.\nКогда враг внутри клетки поражается вашими боевыми навыками, вы получаете 1 стак <HighLight>«Складной ширмы»</> длительностью <HighLight>0.5</> секунды, а клетка совместно с вами атакует эту цель, нанося *d очков магического урона по области и накладывая на *f секунд эффект buffdisc(*id). (Для одной и той же цели действует встроенное время восстановления в 1 секунду.)\n\n<FaintYellow>Складная ширма</>\nКаждый стак <HighLight>«Складной ширмы»</> даёт вам <HighLight>Суперброню</> и <HighLight>снижение урона на 6%</>, максимум до <HighLight>5</> стаков, длительность также накапливается с числом стаков.\n<FaintYellow>Изучение</>\nУсиливает эффект при применении <HighLight>«Напева туманности»</>, <HighLight>«Колдовского представления»</> и <HighLight>«Изгнания»</>."
   },
   {
     "id": "102685",
@@ -19263,7 +19263,7 @@
     "id": "103210",
     "source_cn": "首领专攻/专防增加353/353，首领压制/抵抗增加3.0%/3.0%",
     "ref_en": "Boss Attack/Defense increased by 353/353, Boss Suppression/Resistance increased by 3.0%/3.0%",
-    "target_ru": "Атака/защита босса увеличена на 353/353, подавление/сопротивление босса увеличено на 3,0%/3,0%."
+    "target_ru": "Специализация против боссов/защита от боссов увеличены на 353/353, подавление/сопротивление боссов увеличено на 3,0%/3,0%."
   },
   {
     "id": "103211",
@@ -22971,7 +22971,7 @@
     "id": "103828",
     "source_cn": "霸体加速",
     "ref_en": "Super Armor Acceleration",
-    "target_ru": "Супер ускорение брони"
+    "target_ru": "Ускорение Суперброни"
   },
   {
     "id": "103829",
@@ -23385,7 +23385,7 @@
     "id": "103897",
     "source_cn": "怪物专攻提高<Mark>250</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。",
     "ref_en": "Monster Expertise increased by <Mark>250</>. After standing still for <Mark>5</> seconds in combat, Monster Expertise is reduced by <Mark>25</> for <Mark>5</> seconds. After dodging, Monster Expertise is increased by <Mark>25</> for <Mark>15</> seconds.",
-    "target_ru": "Экспертиза монстров увеличена на <Mark>250</>. После простоя в бою в течение <Mark>5</> секунд экспертность монстров снижается на <Mark>25</> на <Mark>5</> секунд. После уклонения экспертность монстров увеличивается на <Mark>25</> на <Mark>15</> секунд."
+    "target_ru": "Специализация против монстров увеличена на <Mark>250</>. После простоя в бою в течение <Mark>5</> секунд специализация против монстров снижается на <Mark>25</> на <Mark>5</> секунд. После уклонения специализация против монстров увеличивается на <Mark>25</> на <Mark>15</> секунд."
   },
   {
     "id": "103898",

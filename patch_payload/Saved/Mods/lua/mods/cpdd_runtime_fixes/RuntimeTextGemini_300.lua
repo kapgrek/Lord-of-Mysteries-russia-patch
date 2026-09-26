@@ -22,7 +22,7 @@ return {
     ["Tag seven-character description"] = "Описание этикетки из семи слов",
     ["Hoy University Professor"] = "Профессор Университета Хой",
     ["<P_Heart> (Braden... is a spirit body? What is going on!) </>"] = "<P_Heart> (Брэйден...это дух? Что происходит!) </>",
-    ["[Death Equipment] provides an additional <HighLight>5%</> Damage Reduction."] = "[Снаряжение смерти] Дополнительно снижает урон на <HighLight>5%</>.",
+    ["[Death Equipment] provides an additional <HighLight>5%</> Damage Reduction."] = "[Снаряжение смерти] Дополнительное снижение урона на <HighLight>5%</>.",
     ["Drunken stall owner's wine bottle"] = "Бутылка вина пьяного хозяина ларька",
     ["Explore deeper"] = "Исследуйте глубже",
     ["Complete all sub-goals of the current step"] = "Выполните все подцели текущего шага.",

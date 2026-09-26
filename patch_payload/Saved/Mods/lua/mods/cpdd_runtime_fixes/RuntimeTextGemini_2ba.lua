@@ -15,7 +15,7 @@ return {
     ["Extra Yaw angle"] = "Дополнительный угол рыскания",
     ["Shares purchase limit with Adventure Store and Companion Store"] = "Имеет общий лимит покупок с Магазином приключений и Магазином спутников",
     ["This dungeon supports a maximum of %d players in AI mode"] = "Это подземелье в режиме с ИИ поддерживает группу максимум из %d игроков",
-    ["1. Target two targets and release circular shared AOE, shared by 3 people, with damage amplification"] = "1. Выбирает две цели и применяет круглый разделяемый АОЕ-урон на 3 человек с увеличением входящего урона",
+    ["1. Target two targets and release circular shared AOE, shared by 3 people, with damage amplification"] = "1. Выбирает две цели и применяет круглый разделяемый АОЕ-урон на 3 человек с усилением урона",
     ["Eve of Parasitism"] = "Канун паразитирования",
     ["Perform the correct dance moves at least 5 times"] = "Выполнить правильные танцевальные движения не менее 5 раз",
     ["Download required resources and complete the main storyline"] = "Загрузить обязательные ресурсы и завершить основной сюжет",

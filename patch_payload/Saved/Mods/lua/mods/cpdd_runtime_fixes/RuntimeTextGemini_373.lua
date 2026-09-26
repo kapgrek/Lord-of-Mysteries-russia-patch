@@ -100,7 +100,7 @@ return {
     ["Text Board K"] = "Текстовая доска К",
     ["About sailing adventures"] = "О морских приключениях",
     ["Oh no, Your Majesty! Because of your face change, your subjects don't recognize you. Deal with the approaching soldiers and escape first!"] = "О нет, Ваше Величество! Из-за изменения вашего лица ваши объекты не узнают вас. Разберитесь с приближающимися солдатами и сбегите первым!",
-    ["Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is increased by an additional 250, and a heal is dealt at the target's location, with a maximum of 1 trigger every 12 seconds."] = "Увеличивает пробитие брони на 250. При использовании навыка добивания пробитие брони увеличивается еще на 250, а в месте нахождения цели наносится исцеление, максимум 1 срабатывание каждые 12 секунд.",
+    ["Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is increased by an additional 250, and a heal is dealt at the target's location, with a maximum of 1 trigger every 12 seconds."] = "Увеличивает прорыв защиты на 250. При использовании навыка добивания прорыв защиты увеличивается еще на 250, а в месте нахождения цели наносится исцеление, максимум 1 срабатывание каждые 12 секунд.",
     ["<P_Heart> (Sighing) </> And the vegetable basket, learn to tidy it up."] = "<P_Heart> (Вздыхает) </> И корзину для овощей, научись ее убирать.",
     ["Check the list on the table"] = "Проверьте список на столе",
     ["Phew, the mysterious power has disappeared"] = "Уф, таинственная сила исчезла",

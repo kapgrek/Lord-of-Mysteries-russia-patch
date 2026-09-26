@@ -252,7 +252,7 @@ return {
     ["Actually, Father felt he owed him too much. As for me, heh, I seem to be valued, but I'm actually just treated as a tool! I don't care about the inheritance at all!"] = "На самом деле отец чувствовал, что он ему слишком много обязан. Что касается меня, хех, меня вроде бы ценят, но на самом деле со мной обращаются просто как с инструментом! Меня вообще не волнует наследство!",
     ["{{Mr.| Ms.}}, I am very good at washing, cooking, and cleaning, and I can read and write normally."] = "{{Mr.| Ms.}}, я очень хорошо умею стирать, готовить и убираться, нормально читать и писать умею.",
     ["Use to obtain <Highlight> Display Stand Action: Aria </>"] = "Используйте для получения стенда <Highlight>. Действие: Aria </>.",
-    ["Pierce increased by *d points."] = "Пирс увеличился на *d пунктов.",
+    ["Pierce increased by *d points."] = "Пронзание увеличилось на *d пунктов.",
     ["Advancement Conditions"] = "Условия продвижения",
     ["\"The mysterious ruler above the gray fog\""] = "«Таинственный правитель над серым туманом»",
     ["Randomly gain 2 pieces of Defensive Fine Equipment."] = "Случайным образом даёт 2 предмета добротного защитного снаряжения.",

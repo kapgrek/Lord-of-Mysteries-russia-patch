@@ -173,7 +173,7 @@ return {
     ["Actor1 Frontal"] = "Актер1 Фронтальный",
     ["Old man camera"] = "Камера старика",
     ["4 people entering"] = "4 человека входят",
-    ["LuaList(Id(Monster Armor Break))."] = "LuaList(Id(Прорыв брони монстра)).",
+    ["LuaList(Id(Monster Armor Break))."] = "LuaList(Id(Прорыв защиты монстра)).",
     ["But... it's been a year, maybe little Bart has long forgotten, or he has already..."] = "Но... прошел год, может быть, маленький Барт давно забыл, или уже...",
     ["Expression: Smirk"] = "Выражение: Ухмылка",
     ["Yishan"] = "Ишань",

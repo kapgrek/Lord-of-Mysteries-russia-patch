@@ -333,7 +333,7 @@
     "id": "010055",
     "source_cn": "受到建筑攻击时，抵消其专攻{*d,F1690001,BuildingHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a building, negates {*d,F1690001,BuildingHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от строения нейтрализует {*d,F1690001,BuildingHurtReduce} очк. его особой атаки. (Снижает особую атаку атакующего максимум до 0)"
+    "target_ru": "При получении атак от строения нейтрализует {*d,F1690001,BuildingHurtReduce} очк. его специализации. (Снижает специализацию атакующего максимум до 0)"
   },
   {
     "id": "010056",
@@ -723,7 +723,7 @@
     "id": "010120",
     "source_cn": "霸体值",
     "ref_en": "Super Armor Value",
-    "target_ru": "Показатель стойкости"
+    "target_ru": "Показатель Суперброни"
   },
   {
     "id": "010121",
@@ -2391,7 +2391,7 @@
     "id": "010398",
     "source_cn": "伤害加深和伤害减免提高*f**。",
     "ref_en": "Damage Increase and Damage Reduction increased by *f**.",
-    "target_ru": "Увеличение и снижение получаемого урона повышены на *f**."
+    "target_ru": "Усиление урона и снижение урона повышены на *f**."
   },
   {
     "id": "010399",
@@ -4077,7 +4077,7 @@
     "id": "010679",
     "source_cn": "怪物专攻提高<Yellow>*d</>。",
     "ref_en": "Monster Expertise increased by <Yellow>*d</>.",
-    "target_ru": "Особая атака по монстрам увеличена на <Yellow>*d</>."
+    "target_ru": "Специализация против монстров увеличена на <Yellow>*d</>."
   },
   {
     "id": "010680",
@@ -4119,7 +4119,7 @@
     "id": "010686",
     "source_cn": "扣除目标破防值",
     "ref_en": "Deduct target's Armor Break value.",
-    "target_ru": "Снижает пробитие брони цели"
+    "target_ru": "Снижает прорыв защиты цели"
   },
   {
     "id": "010687",
@@ -5775,7 +5775,7 @@
     "id": "010962",
     "source_cn": "提高破防120，提高穿刺125。",
     "ref_en": "Increases Armor Penetration by 120 and Piercing by 125.",
-    "target_ru": "Повышает пробивание брони на 120 и пробивание на 125."
+    "target_ru": "Повышает прорыв защиты на 120 и пронзание на 125."
   },
   {
     "id": "010963",
@@ -6795,7 +6795,7 @@
     "id": "011132",
     "source_cn": "近距离横扫武器，对周围2米以内敌人施展3段攻击，最多三人。造成真实伤害<Hint_1>100</>点；第三段攻击有<Hint_1>15%</>的概率附加<Hint_1>“破甲”</>效果，最多3层。<Hint_1>3%</>的概率触发“断筋”效果，持续20秒",
     "ref_en": "Close-range weapon sweep, performing a 3-stage attack on enemies within 2 meters, hitting up to three targets. Deals <Hint_1>100</> points of true damage; the third stage has a <Hint_1>15%</> chance to apply the <Hint_1>\"Armor Break\"</> effect, stacking up to 3 times. There is a <Hint_1>3%</> chance to trigger the \"Hamstring\" effect, lasting for 20 seconds.",
-    "target_ru": "Взмах оружием в ближнем бою совершает 3-сегментную атаку по врагам в радиусе 2 метров (не более трех целей). Наносит <Hint_1>100</> ед. чистого урона; третья атака с вероятностью <Hint_1>15%</> накладывает эффект <Hint_1>«Раскол брони»</> (суммируется до 3 раз). С вероятностью <Hint_1>3%</> вызывает эффект «Подсечка» на 20 сек."
+    "target_ru": "Взмах оружием в ближнем бою совершает 3-сегментную атаку по врагам в радиусе 2 метров (не более трех целей). Наносит <Hint_1>100</> ед. чистого урона; третья атака с вероятностью <Hint_1>15%</> накладывает эффект <Hint_1>«Пробивание брони»</> (суммируется до 3 раз). С вероятностью <Hint_1>3%</> вызывает эффект «Подсечка» на 20 сек."
   },
   {
     "id": "011133",
@@ -7809,7 +7809,7 @@
     "id": "011301",
     "source_cn": "<Yellow>弱点攻击</>：佩戴者攻击主目标时，可对其施加<Yellow>弱点揭露</>效果，每秒最多揭露1层，最多可揭露<Yellow>30</>层。每消耗<Yellow>15</>层，可扣下丧钟的扳机，攻击目标灵体，造成<Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</>点伤害、<Yellow>3秒</>受治疗效果降低<Yellow>70%</>和<Yellow>1秒</>移动速度降低<Yellow>90%</>效果，另有<Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</>的基础概率使目标眩晕<Yellow>1秒</>。若目标处于霸体状态，则对其重新施加<Yellow>5</>层弱点揭露。",
     "ref_en": "<Yellow>Weakness Attack</>: When the wearer attacks the main target, they can apply the <Yellow>Weakness Exposure</> effect, revealing up to 1 layer per second, for a maximum of <Yellow>30</> layers. Every <Yellow>15</> layers consumed allows the wearer to pull the trigger of Death Knell, attacking the target's spirit body, dealing <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> damage, <Yellow>3 seconds</> of 70% healing reduction <Yellow>70%</>, and <Yellow>1 second</> of 90% movement speed reduction <Yellow>90%</>. Additionally, there is a <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> base probability to stun the target for <Yellow>1 second</>. If the target is in a Super Armor state, re-apply <Yellow>5</> layers of Weakness Exposure to them.",
-    "target_ru": "<Yellow>Атака по уязвимым местам</>: атакуя основную цель, владелец может наложить на нее эффект <Yellow>обнаружения уязвимостей</> (не чаще 1 уровня в секунду, максимум до <Yellow>30</> уровней). За каждые <Yellow>15</> израсходованных уровней можно спустить курок Погребального Колокола, атакуя духовное тело цели и нанося <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> ед. урона, а также снижая входящее исцеление на <Yellow>70%</> на <Yellow>3 сек.</> и скорость передвижения на <Yellow>90%</> на <Yellow>1 сек.</> Кроме того, с базовой вероятностью <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> цель оглушается на <Yellow>1 сек.</> Если цель находится в состоянии неуязвимости к контролю, на нее повторно накладывается <Yellow>5</> уровней обнаружения уязвимостей."
+    "target_ru": "<Yellow>Атака по уязвимым местам</>: атакуя основную цель, владелец может наложить на нее эффект <Yellow>обнаружения уязвимостей</> (не чаще 1 уровня в секунду, максимум до <Yellow>30</> уровней). За каждые <Yellow>15</> израсходованных уровней можно спустить курок Погребального Колокола, атакуя духовное тело цели и нанося <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> ед. урона, а также снижая входящее исцеление на <Yellow>70%</> на <Yellow>3 сек.</> и скорость передвижения на <Yellow>90%</> на <Yellow>1 сек.</> Кроме того, с базовой вероятностью <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> цель оглушается на <Yellow>1 сек.</> Если цель находится в состоянии Суперброни, на нее повторно накладывается <Yellow>5</> уровней обнаружения уязвимостей."
   },
   {
     "id": "011302",
@@ -10953,7 +10953,7 @@
     "id": "011825",
     "source_cn": "向角色面朝方向突进，期间获得短暂<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，对路径上的敌方造成spellfielddisc(*id)点魔法伤害，有<HighLight>60%</>的基础概率附加1.3秒<HyperLink stylename=\"M_Link\" u=\"9\">滞涩</>。本技能可充能2次。",
     "ref_en": "Dash in the direction the character is facing, gaining brief <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, dealing spellfielddisc(*id) magic damage to enemies along the path, with a <HighLight>60%</> base chance to apply <HyperLink stylename=\"M_Link\" u=\"9\">Stagnation</> for 1.3 seconds. This skill can be charged 2 times.",
-    "target_ru": "Совершает рывок в направлении взгляда персонажа, на короткое время получая <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к контролю</> и нанося врагам на пути spellfielddisc(*id) ед. магического урона с базовой вероятностью <HighLight>60%</> наложить на 1,3 сек. эффект <HyperLink stylename=\"M_Link\" u=\"9\">скованности</>. Этот навык может накапливать до 2 зарядов."
+    "target_ru": "Совершает рывок в направлении взгляда персонажа, на короткое время получая <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> и нанося врагам на пути spellfielddisc(*id) ед. магического урона с базовой вероятностью <HighLight>60%</> наложить на 1,3 сек. эффект <HyperLink stylename=\"M_Link\" u=\"9\">скованности</>. Этот навык может накапливать до 2 зарядов."
   },
   {
     "id": "011826",
@@ -11925,7 +11925,7 @@
     "id": "011987",
     "source_cn": "破防通知，进入虚弱表演",
     "ref_en": "Armor break notification, enter weakness performance",
-    "target_ru": "Оповещение о пробитии защиты: переход к анимации уязвимости"
+    "target_ru": "Оповещение о прорыве защиты: переход к анимации уязвимости"
   },
   {
     "id": "011988",
@@ -12921,7 +12921,7 @@
     "id": "012153",
     "source_cn": "逐日-霸体",
     "ref_en": "Sun Chaser - Super Armor",
-    "target_ru": "Погоня за солнцем: Неуязвимость к контролю"
+    "target_ru": "Погоня за солнцем: Суперброня"
   },
   {
     "id": "012154",
@@ -14907,13 +14907,13 @@
     "id": "012484",
     "source_cn": "提高破防70，提高穿刺75。",
     "ref_en": "Increases Armor Break by 70, increases Pierce by 75.",
-    "target_ru": "Повышает пробивание брони на 70 и пробивание на 75."
+    "target_ru": "Повышает прорыв защиты на 70 и пронзание на 75."
   },
   {
     "id": "012485",
     "source_cn": "提高穿刺{*d,Ini,pPierce_N}点，格挡{*d,Ini,pBlock_N}点。",
     "ref_en": "Increases Piercing by {*d,Ini,pPierce_N} points and Block by {*d,Ini,pBlock_N} points.",
-    "target_ru": "Повышает пробивание на {*d,Ini,pPierce_N} ед., блокирование — на {*d,Ini,pBlock_N} ед."
+    "target_ru": "Повышает пронзание на {*d,Ini,pPierce_N} ед., блокирование — на {*d,Ini,pBlock_N} ед."
   },
   {
     "id": "012486",
@@ -17541,7 +17541,7 @@
     "id": "012923",
     "source_cn": "<Assistant_Title1>【荣耀之证】</>\\n<Assistant_Title2>说明：</>防御类型封印物\\n<Assistant_Title2>描述：</>竞技倾向封印物，将<Assistant_Red>解控</>技能替换为更强的防护反制效果，解除控制后获得<Assistant_Red>霸体</>和高额<Assistant_Red>减伤</>，并可对攻击者<Assistant_Red>反弹伤害</>，结束时对周围敌人造成伤害并施加<Assistant_Red>攻击降低</>；每次反弹伤害都会延长荣耀之证的冷却时间。\\n<Assistant_Title2>获取：</>默认解锁封印物，无需额外获得。",
     "ref_en": "<Assistant_Title1>【Proof of Glory】</>\\n<Assistant_Title2>Description: </>Defense-type Sealed Artifact\\n<Assistant_Title2>Details: </>A competitive-oriented Sealed Artifact. Replaces the <Assistant_Red>Cleanse</> skill with a stronger protective counter-effect. After removing control, gain <Assistant_Red>Super Armor</> and high <Assistant_Red>Damage Reduction</>, and <Assistant_Red>reflect damage</> to the attacker. Upon ending, deal damage to surrounding enemies and apply <Assistant_Red>Attack Reduction</>. Each reflected damage extends the cooldown of Proof of Glory.\\n<Assistant_Title2>Acquisition: </>Default unlocked Sealed Artifact, no additional acquisition required.",
-    "target_ru": "<Assistant_Title1>【Знак славы】</>\n<Assistant_Title2>Тип: </>Запечатанный Артефакт защитного типа\n<Assistant_Title2>Описание: </>Запечатанный Артефакт для PvP. Заменяет навык <Assistant_Red>снятия контроля</> более мощным защитным контрударом. После снятия контроля дает <Assistant_Red>неуязвимость к прерыванию</> и высокое <Assistant_Red>снижение урона</>, а также <Assistant_Red>отражает урон</> обратно в атакующего. По окончании действия наносит урон окружающим врагам и накладывает <Assistant_Red>снижение атаки</>; каждое отражение урона продлевает время перезарядки «Знака славы».\n<Assistant_Title2>Получение: </>Разблокирован по умолчанию, дополнительных действий не требуется."
+    "target_ru": "<Assistant_Title1>【Знак славы】</>\n<Assistant_Title2>Тип: </>Запечатанный Артефакт защитного типа\n<Assistant_Title2>Описание: </>Запечатанный Артефакт для PvP. Заменяет навык <Assistant_Red>снятия контроля</> более мощным защитным контрударом. После снятия контроля дает <Assistant_Red>Суперброню</> и высокое <Assistant_Red>снижение урона</>, а также <Assistant_Red>отражает урон</> обратно в атакующего. По окончании действия наносит урон окружающим врагам и накладывает <Assistant_Red>снижение атаки</>; каждое отражение урона продлевает время перезарядки «Знака славы».\n<Assistant_Title2>Получение: </>Разблокирован по умолчанию, дополнительных действий не требуется."
   },
   {
     "id": "012924",
@@ -19773,7 +19773,7 @@
     "id": "013295",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>，<HyperLink stylename=\"M_Link\" u=\"16\">固定回复</>自身已损失生命值*f**的生命，对周身敌方造成*d点物理伤害，并获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，3秒<HighLight>20%</>移速提升，*f秒<HighLight>破幻</>。\\n \\n<FaintYellow>破幻</>\\nbuffdisc(*id)。",
     "ref_en": "Removes <HyperLink stylename=\"M_Link\" u=\"3\">control effects</> from yourself, <HyperLink stylename=\"M_Link\" u=\"16\">restores a fixed amount of </> your lost Health equal to *f**, deals *d physical damage to surrounding enemies, and grants <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for *f seconds, a <HighLight>20%</> movement speed boost for 3 seconds, and <HighLight>Illusion Breaking</> for *f seconds. \\n \\n<FaintYellow>Illusion Breaking</>\\nbuffdisc(*id).",
-    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>, <HyperLink stylename=\"M_Link\" u=\"16\">восстанавливает</> фиксированное количество здоровья, равное *f** от потерянного ОЗ, наносит окружающим врагам *d ед. физического урона, а также дает <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к прерыванию</> на *f сек., повышение скорости передвижения на <HighLight>20%</> на 3 сек. и <HighLight>Рассеивание иллюзий</> на *f сек.\n \n<FaintYellow>Рассеивание иллюзий</>\nbuffdisc(*id)."
+    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>, <HyperLink stylename=\"M_Link\" u=\"16\">восстанавливает</> фиксированное количество здоровья, равное *f** от потерянного ОЗ, наносит окружающим врагам *d ед. физического урона, а также дает <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> на *f сек., повышение скорости передвижения на <HighLight>20%</> на 3 сек. и <HighLight>Рассеивание иллюзий</> на *f сек.\n \n<FaintYellow>Рассеивание иллюзий</>\nbuffdisc(*id)."
   },
   {
     "id": "013296",
@@ -20721,7 +20721,7 @@
     "id": "013453",
     "source_cn": "GTA-机械造物-破防易伤",
     "ref_en": "GTA - Mechanical Creation - Armor Break Vulnerability",
-    "target_ru": "GTA: Механическое создание — уязвимость при пробитии защиты"
+    "target_ru": "GTA: Механическое создание — уязвимость при прорыве защиты"
   },
   {
     "id": "013454",
@@ -21933,7 +21933,7 @@
     "id": "013655",
     "source_cn": "点燃备好的火焰信标，解除自身受到的控制效果，获得霸体和减伤，向指定位置闪现，造成范围伤害，3秒内再次使用可以返回原位。",
     "ref_en": "Ignite a prepared fire beacon, remove control effects received, gain Super Armor and Damage Reduction, and flash to the designated location, dealing area damage. Using it again within 3 seconds allows returning to the original position.",
-    "target_ru": "Зажигает заранее заготовленный огненный маяк, снимая с себя эффекты контроля, дает несокрушимость и снижение входящего урона, мгновенно перемещаясь в указанную точку и нанося урон по площади; повторное применение в течение 3 сек. возвращает на исходную позицию."
+    "target_ru": "Зажигает заранее заготовленный огненный маяк, снимая с себя эффекты контроля, дает Суперброню и снижение входящего урона, мгновенно перемещаясь в указанную точку и нанося урон по площади; повторное применение в течение 3 сек. возвращает на исходную позицию."
   },
   {
     "id": "013656",
@@ -22623,7 +22623,7 @@
     "id": "013770",
     "source_cn": "攻击降低，受到伤害加深。",
     "ref_en": "Attack reduced, Damage Increased taken.",
-    "target_ru": "Атака снижена, входящий урон увеличен."
+    "target_ru": "Атака снижена, усиление получаемого урона."
   },
   {
     "id": "013771",
@@ -26667,7 +26667,7 @@
     "id": "014444",
     "source_cn": "霸体，减伤*f**",
     "ref_en": "Super Armor, Damage Reduction *f**.",
-    "target_ru": "Стойкость, снижение урона на *f**"
+    "target_ru": "Суперброня, снижение урона на *f**"
   },
   {
     "id": "014445",
@@ -27489,7 +27489,7 @@
     "id": "014581",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>250</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired) }</>Piercing increased by <Mark>250</>, Crit decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family.\\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional attack bonuses based on the <Mark>Virtue</> possessed by squad members.\\nDoes not take effect when the set <Mark>Covenant of Iron and Blood</> is activated.",
-    "target_ru": "<CostRed>{1,2, (Клеймо утратило силу)}</>Пробивание повышается на <Mark>250</>, крит. удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дает дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2, (Клеймо утратило силу)}</>Пронзание повышается на <Mark>250</>, крит. удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дает дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "014582",
@@ -28131,7 +28131,7 @@
     "id": "014688",
     "source_cn": "角色的五维会按比例转换为生命、生命恢复、防御、暴击、抗暴击、穿刺、格挡、技能增强、技能抵挡、破防。",
     "ref_en": "The character's five dimensions are proportionally converted into Health, Health Recovery, Defense, Critical Hit, Anti-Critical Hit, Pierce, Block, Skill Enhancement, Skill Block, and Armor Break.",
-    "target_ru": "Пять основных характеристик персонажа пропорционально преобразуются в здоровье, восстановление здоровья, защиту, крит. удар, стойкость к криту, пробивание, блок, усиление умений, сопротивление умениям и пробивание защиты."
+    "target_ru": "Пять основных характеристик персонажа пропорционально преобразуются в здоровье, восстановление здоровья, защиту, критический удар, стойкость к криту, пронзание, блок, усиление умений, сопротивление умениям и прорыв защиты."
   },
   {
     "id": "014689",
@@ -28305,7 +28305,7 @@
     "id": "014717",
     "source_cn": "did破防（一阶段）",
     "ref_en": "did Armor Break (Phase 1)",
-    "target_ru": "did: Пробивание защиты (фаза 1)"
+    "target_ru": "did: Прорыв защиты (фаза 1)"
   },
   {
     "id": "014718",

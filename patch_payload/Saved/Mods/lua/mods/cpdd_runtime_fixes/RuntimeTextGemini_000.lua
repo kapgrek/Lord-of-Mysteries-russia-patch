@@ -145,7 +145,7 @@ return {
     ["I share freedom with the starlight."] = "Я делю свободу со звёздным сиянием.",
     ["Enyu"] = "Эньюй",
     ["Are you here to convince me to give up too?"] = "Ты тоже пришёл убеждать меня сдаться?",
-    ["Pathway Specialization"] = "Мастерство Пути",
+    ["Pathway Specialization"] = "Специализация Пути",
     ["Then today, let us tell a story about a little duck..."] = "Тогда сегодня мы расскажем сказку об утенке...",
     ["Leonard Path 3"] = "Траектория Леонарда 3",
     ["Receive <h> Leon's letter </>"] = "Получено <h>письмо Леона</>",

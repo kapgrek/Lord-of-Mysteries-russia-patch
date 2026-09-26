@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 3e0/3ff.
 return {
     ["No one wants to see news of casualties in the papers."] = "Никому не хочется видеть в газетах списки погибших и раненых.",
-    ["If the configured value is greater than the monster's remaining recoverable armor break bar, the monster's armor break bar is immediately refilled, and the monster exits the armor break state; \n If the configured value is less than the monster's remaining recoverable armor break value, it immediately recovers the configured value, and then the monster continues to recover the armor break bar at its original recovery speed until full."] = "Если заданное значение превышает оставшуюся шкалу пробития защиты монстра, его шкала восстанавливается полностью, и монстр выходит из состояния пробития;\n    если заданное значение меньше оставшейся восстанавливаемой защиты монстра, она немедленно восстанавливается на заданную величину, после чего монстр продолжает восстанавливать ее с прежней скоростью до максимума.",
+    ["If the configured value is greater than the monster's remaining recoverable armor break bar, the monster's armor break bar is immediately refilled, and the monster exits the armor break state; \n If the configured value is less than the monster's remaining recoverable armor break value, it immediately recovers the configured value, and then the monster continues to recover the armor break bar at its original recovery speed until full."] = "Если заданное значение превышает оставшуюся шкалу прорыва защиты монстра, его шкала восстанавливается полностью, и монстр выходит из состояния прорыва защиты;\n    если заданное значение меньше оставшейся восстанавливаемой защиты монстра, она немедленно восстанавливается на заданную величину, после чего монстр продолжает восстанавливать ее с прежней скоростью до максимума.",
     ["Question: α multiplied by __ equals 12?"] = "Вопрос: α, умноженное на __, равно 12?",
     ["Block Others"] = "Скрыть других игроков",
     ["(Hesitates) What exactly do you want to do?"] = "（В нерешительности） Что ты вообще задумал?",
@@ -221,7 +221,7 @@ return {
     ["莉迪丝"] = "Лидис",
     ["莎莉丝特传送trigger"] = "Триггер телепортации Селесты",
     ["躲在<h>角落</>等待爆炸"] = "Спрячьтесь в углу <h>corner</> и ждите взрыва.",
-    ["载具专攻"] = "Экспертиза транспортных средств",
+    ["载具专攻"] = "Специализация транспортных средств",
     ["还未达到解锁时间"] = "Время разблокировки еще не наступило.",
     ["这一边雕刻着模糊的花朵。"] = "На этой стороне вырезан размытый цветок.",
     ["这个该死的地方，实在没法儿再呆下去了！"] = "Я не могу больше оставаться в этом проклятом месте!",

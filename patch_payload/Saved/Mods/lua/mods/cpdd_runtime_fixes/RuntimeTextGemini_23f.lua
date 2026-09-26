@@ -40,7 +40,7 @@ return {
     ["Illusory Knowledge"] = "Иллюзорное знание",
     ["You're right. How about this one? What's the price?"] = "Ты прав. Как насчет этого? Какова цена?",
     ["In the Chapter 5 reality main quest, take a new group photo with your Blackthorn colleagues"] = "В главном квесте реальности главы 5 сделайте новое групповое фото со своими коллегами из Чёрный Чертополох.",
-    ["Piercing reduced by *d."] = "Прокалывание уменьшено на *d.",
+    ["Piercing reduced by *d."] = "Пронзание уменьшено на *d.",
     ["The first act is the encounter between Beauty and the Beast; they <P_Yellow> met for the first time </> at..."] = "Первый акт — встреча Красавицы и Чудовища; они <P_Yellow> впервые встретились с </> на...",
     ["Blue Mountain Crystal 133"] = "Синий горный кристалл 133",
     ["Waiting for team members to get ready..."] = "Ждём, пока члены команды подготовятся...",

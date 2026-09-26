@@ -435,7 +435,7 @@
     "id": "120072",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">知识逐人</>额外获取10点<HighLight>神秘知识</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">星沙</>的伤害提高90%，额外获取10点<HighLight>神秘知识</>，降低穿刺的数值提高",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Knowledge Pursuit</> grants 10 additional <HighLight>Mysterious Knowledge</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> damage is increased by 90%, grants 10 additional <HighLight>Mysterious Knowledge</>, and applies a stronger Pierce reduction.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Погоня за знаниями</>Получите дополнительные 10 очков<HighLight>Таинственные знания</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Урон Звездного песка</> увеличивается на 90%, получите дополнительные 10 очков<HighLight>Таинственные знания</>, уменьшите ценность прокола и увеличьте"
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Погоня за знаниями</>Получите дополнительные 10 очков<HighLight>Таинственные знания</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Урон Звездного песка</> увеличивается на 90%, получите дополнительные 10 очков<HighLight>Таинственные знания</>, усиливает снижение пронзания."
   },
   {
     "id": "120073",
@@ -6477,7 +6477,7 @@
     "id": "121079",
     "source_cn": "受到普通怪物攻击时，抵消其专攻{*d,F1690001,CreepHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a normal monster, negates {*d,F1690001,CreepHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от обычного монстра сводит на нет очки {*d,F1690001,CreepHurtReduce} его специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от обычного монстра сводит на нет очки {*d,F1690001,CreepHurtReduce} его специализации. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "121080",
@@ -9477,7 +9477,7 @@
     "id": "121579",
     "source_cn": "提高破防140。",
     "ref_en": "Increases Armor Break by 140.",
-    "target_ru": "Увеличивает пробитие брони на 140."
+    "target_ru": "Увеличивает прорыв защиты на 140."
   },
   {
     "id": "121580",
@@ -9615,7 +9615,7 @@
     "id": "121602",
     "source_cn": "破防提高*d。",
     "ref_en": "Armor Break increased *d.",
-    "target_ru": "Пробитие брони увеличено *d."
+    "target_ru": "Прорыв защиты увеличен на *d."
   },
   {
     "id": "121603",
@@ -10011,7 +10011,7 @@
     "id": "121668",
     "source_cn": "受到战士途径的非凡者攻击时，抵消其专攻{*d,F1690001,WarriorHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a Warrior Pathway Beyonder, negates {*d,F1690001,WarriorHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от Потустороннего Пути Воина сводит на нет очки {*d,F1690001,WarriorHurtReduce} его специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от Потустороннего Пути Воина сводит на нет очки {*d,F1690001,WarriorHurtReduce} его специализации. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "121669",
@@ -11337,7 +11337,7 @@
     "id": "121889",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>240</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>造成伤害/治疗时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Monster Specialization increased by <Mark>240</>, Piercing decreased by <Mark>40</>, corruption increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, with a maximum of one layer every <Mark>2</> seconds. Using a <Mark>Finisher Skill</> to deal damage/healing causes additional damage/healing based on the accumulated Power of Desolation. \\ncorruption effect: When reaching <Mark>30</> corruption, Power of Desolation will cause a small amount of damage to the wearer. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Клеймо недействительно)}</>Специализация против монстров повышена на <Mark>240</>, пробивание снижено на <Mark>40</>, уровень осквернения повышен на <Mark>15</>. При нанесении урона/исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). Использование <Mark>Завершающего навыка</> для нанесения урона/исцеления наносит дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения.\\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу.<Mark>{1,4,(Очищено)}</>\\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(Клеймо недействительно)}</>Специализация против монстров повышена на <Mark>240</>, пронзание снижено на <Mark>40</>, уровень осквернения повышен на <Mark>15</>. При нанесении урона/исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). Использование <Mark>Завершающего навыка</> для нанесения урона/исцеления наносит дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения.\\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу.<Mark>{1,4,(Очищено)}</>\\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "121890",
@@ -17079,7 +17079,7 @@
     "id": "122846",
     "source_cn": "使用本源技能后，能在挥舞击打中附加风刃效果，提升移速、破防、技能增强。同时，你也会因为这位歌者的糟糕歌喉，间歇性地获得禁锢、沉默、属性降低的负面效果。",
     "ref_en": "After using a source skill, you can add a Wind Blade effect to your strikes, increasing movement speed, Armor Break, and Skill Enhancement. At the same time, due to the terrible singing voice of this singer, you will intermittently receive negative effects such as Imprisonment, Silence, and attribute reduction.",
-    "target_ru": "После использования исходного навыка вы можете добавить к своим ударам эффект Клинка ветра, увеличивая скорость передвижения, пробитие брони и улучшение навыков. В то же время из-за ужасного певческого голоса этого певца вы периодически будете получать негативные эффекты, такие как Заключение, Тишина и снижение атрибутов."
+    "target_ru": "После использования исходного навыка вы можете добавить к своим ударам эффект Клинка ветра, увеличивая скорость передвижения, прорыв защиты и улучшение навыков. В то же время из-за ужасного певческого голоса этого певца вы периодически будете получать негативные эффекты, такие как Заключение, Тишина и снижение атрибутов."
   },
   {
     "id": "122847",
@@ -19773,7 +19773,7 @@
     "id": "123295",
     "source_cn": "红色霸体",
     "ref_en": "Red Super Armor",
-    "target_ru": "Красная супер броня"
+    "target_ru": "Красная суперброня"
   },
   {
     "id": "123296",
@@ -19959,7 +19959,7 @@
     "id": "123326",
     "source_cn": "GTA连环杀手破防",
     "ref_en": "GTA Serial Killer Armor Break",
-    "target_ru": "Прорыв брони серийного убийцы GTA"
+    "target_ru": "Прорыв защиты серийного убийцы GTA"
   },
   {
     "id": "123327",
@@ -23181,7 +23181,7 @@
     "id": "123863",
     "source_cn": "廷根贵妇氛围——成功破防",
     "ref_en": "Tingen Noblewoman Atmosphere - Successfully Broken",
-    "target_ru": "Атмосфера дворянки Тинген — успешно разрушена"
+    "target_ru": "Атмосфера дворянки Тинген — успешный прорыв защиты"
   },
   {
     "id": "123864",
@@ -27567,7 +27567,7 @@
     "id": "124594",
     "source_cn": "伤害加深提高4%，受到伤害提升6%。",
     "ref_en": "Damage Increase 4%, Damage Taken Increase 6%.",
-    "target_ru": "Увеличение урона 4%, увеличение получаемого урона 6%."
+    "target_ru": "Усиление урона +4%, получаемый урон +6%."
   },
   {
     "id": "124595",

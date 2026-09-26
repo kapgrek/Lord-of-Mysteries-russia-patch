@@ -22,7 +22,7 @@ return {
     ["Skill Advancement"] = "Улучшение навыка",
     ["<h> Follow the guide </> forward"] = "<h>Следуйте руководству</>",
     ["Someone else is coming, maybe we should ask him."] = "Кто-то снова здесь, возможно, мне следует спросить его.",
-    ["When <HighLight>Card Energy</> reaches 5 points, your <HighLight>Piercing</> value increases for 5 seconds. If the <HighLight>Trick Performance</> node is also activated, your <HighLight>Piercing</> value also increases when reaching 4 points, for 5 seconds."] = "Когда энергия <HighLight> карты </> достигает 5 очков, значение собственного прокола <HighLight> </> увеличивается на 5 секунд. Если одновременно активируется узел <HighLight>Magic Show</>, то при достижении 4 очков его собственное значение прокола <HighLight> </> также увеличится на 5 секунд.",
+    ["When <HighLight>Card Energy</> reaches 5 points, your <HighLight>Piercing</> value increases for 5 seconds. If the <HighLight>Trick Performance</> node is also activated, your <HighLight>Piercing</> value also increases when reaching 4 points, for 5 seconds."] = "Когда энергия <HighLight>карты</> достигает 5 очков, значение собственного пронзания <HighLight></> увеличивается на 5 секунд. Если одновременно активируется узел <HighLight>Волшебное представление</>, то при достижении 4 очков его собственное значение пронзания <HighLight></> также увеличится на 5 секунд.",
     ["Strategy Sprite Unlock"] = "Мастер стратегий разблокирован",
     ["Empty step used to distinguish professions"] = "Пустые ступени используются для различения профессий.",
     ["Is it already set up? Thank you very much, let me go check it."] = "Он уже настроен? Спасибо большое, пойду проверю.",

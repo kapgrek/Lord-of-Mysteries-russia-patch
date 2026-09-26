@@ -109,7 +109,7 @@ return {
     ["Partner Old Neil Skill - Debt Repayment. Explosion Tier 2 Damage 1 Proxy"] = "Партнер Олд Нил Скилл – Погашение долга. Взрыв Уровень 2 Урон 1 Прокси",
     ["There are also games, the internet, television..."] = "Еще есть игры, интернет, телевидение...",
     ["Head to the Domain of Knowledge with Marlow"] = "Отправляйтесь в область знаний вместе с Марлоу.",
-    ["When a target with Decay dies, it deals area damage; if hit enemies are also afflicted with Decay, they take additional Vulnerability based on their remaining Decay duration."] = "Когда цель с Разложением умирает, она наносит урон по области; Если пораженные враги также поражены Разложением, они получают дополнительную уязвимость в зависимости от оставшейся продолжительности Разложения.",
+    ["When a target with Decay dies, it deals area damage; if hit enemies are also afflicted with Decay, they take additional Vulnerability based on their remaining Decay duration."] = "Когда цель с Разложением умирает, она наносит урон по области; Если пораженные враги также поражены Разложением, они получают дополнительное усиление урона в зависимости от оставшейся продолжительности Разложения.",
     ["\n像这种窗子，\n关得不严实，\n趴在窗沿底下，\n就很容易听见……"] = "\nПри таком окне \n закрывается неплотно, а \n лежит под подоконником, \n легко слышит...",
     ["1金榜=%d苏勒"] = "1 фунт золота = подошвы %d",
     ["219天"] = "219 дней",

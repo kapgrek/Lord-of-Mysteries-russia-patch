@@ -40,7 +40,7 @@ return {
     ["York sweeping waypoint"] = "Йорк, подметающая путевая точка",
     ["The leader is not in this scene, cannot follow."] = "Лидера нет в этой сцене, он не может следовать за ним.",
     ["Claiming to be a hunter but always being counter<P_Yellow>-killed</> by the prey—"] = "Заявляющий, что он охотник, но всегда противодействующий <P_Yellow>, убитый </> добычей —",
-    ["An attack <Highlight>Mutated Material</> with the entry <Highlight><Hand of God></>: \"All Skill levels +1, Armor Break increased.\""] = "Атака <Highlight>Mutated Material</> с записью <Highlight><Hand of God></>: «Все уровни навыков +1, пробитие брони увеличено».",
+    ["An attack <Highlight>Mutated Material</> with the entry <Highlight><Hand of God></>: \"All Skill levels +1, Armor Break increased.\""] = "Атака <Highlight>Мутировавшая материя</> с записью <Highlight><Рука Бога></>: «Все уровни навыков +1, прорыв защиты увеличен».",
     ["Pure white as snow, wrapping the pious soul and bringing the blessings of God."] = "Чистая, как снег, окутывающая благочестивую душу и приносящая благословение Божие.",
     ["Mrs. Vera?"] = "Миссис Вера?",
     ["\n为\n什\n么\n？"] = "\nПо\nче\nму\n?",

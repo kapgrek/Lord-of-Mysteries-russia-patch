@@ -55,7 +55,7 @@ return {
     ["Section 1 - Corn Law"] = "Раздел 1. Кукурузное право",
     ["Would you like to go on a city tour today as well?"] = "Хотели бы вы сегодня отправиться на экскурсию по городу?",
     ["\"Justice\": It's okay, there is still hope. Twenty-first attempt, start over."] = "«Справедливость»: Ничего страшного, надежда еще есть. Двадцать первая попытка, начни сначала.",
-    ["Gain Damage Increased and Damage Reduction for a short time."] = "Получите увеличение урона и уменьшение урона на короткое время.",
+    ["Gain Damage Increased and Damage Reduction for a short time."] = "Получите усиление урона и снижение урона на короткое время.",
     ["Castle District"] = "Замковый район",
     ["Quest - Original Work - Above the Gray Fog Reward Acquisition"] = "Квест — Оригинальная работа — Получение награды Над серым туманом",
     ["Then get to work, meddlesome kind-hearted person."] = "Тогда приступай к работе, назойливый добросердечный человек.",

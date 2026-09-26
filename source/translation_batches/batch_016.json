@@ -6021,7 +6021,7 @@
     "id": "076003",
     "source_cn": "受到伤害减免80%，并持续攻击全场",
     "ref_en": "Damage taken reduced by 80%, and continuously attack the whole field",
-    "target_ru": "Получаемый урон уменьшен на 80%, постоянная атака по всему полю."
+    "target_ru": "Получает снижение урона на 80% и продолжает атаковать всё поле."
   },
   {
     "id": "076004",
@@ -6201,7 +6201,7 @@
     "id": "076033",
     "source_cn": "手臂怪破防",
     "ref_en": "Arm Monster Armor Break",
-    "target_ru": "Рука Монстр Прорыв Брони"
+    "target_ru": "Рука-монстр — прорыв защиты"
   },
   {
     "id": "076034",
@@ -6549,7 +6549,7 @@
     "id": "076091",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>100</>. If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "076092",
@@ -7455,7 +7455,7 @@
     "id": "076242",
     "source_cn": "受到歌颂者途径的非凡者攻击时，抵消其专攻{*d,F1690001,SunHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a Bard Pathway Beyonder, negates {*d,F1690001,SunHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от Bard Pathway Потусторонний сводит на нет очки {*d,F1690001,SunHurtReduce} его специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от Потустороннего Пути Барда сводит на нет очки специализации {*d,F1690001,SunHurtReduce} атакующего. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "076243",
@@ -7641,7 +7641,7 @@
     "id": "076273",
     "source_cn": "忽视目标{*d,F1690001,pDefReduce}点物理防御，降低目标物理防御对物理攻击基础值的减免。（百分比效果后于数值效果生效）\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的破防超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>物理防御</>属性的对抗结算。",
     "ref_en": "Ignores {*d,F1690001,pDefReduce} points of the target's Physical Defense, reducing the target's Physical Defense reduction against base Physical Attack values. (Percentage effects take effect after numerical effects) \\n The base Attack value after reduction has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 20% </>; if the increased Armor Break exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage boosting capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Physical Defense </> attribute.",
-    "target_ru": "Игнорируйте {*d,F1690001,pDefReduce} очки физической защиты цели и уменьшите снижение физической защиты цели до значения базовой физической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенное проникновение защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight> </> атакующего и защищающегося, а также от урегулирования конфронтации с атрибутами физической защиты <Highlight> противника </>."
+    "target_ru": "Игнорируйте {*d,F1690001,pDefReduce} очки физической защиты цели и уменьшите снижение физической защиты цели до значения базовой физической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенный прорыв защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight> </> атакующего и защищающегося, а также от урегулирования конфронтации с атрибутами физической защиты <Highlight> противника </>."
   },
   {
     "id": "076274",
@@ -7863,7 +7863,7 @@
     "id": "076310",
     "source_cn": "皮特未破防免伤护盾",
     "ref_en": "Pete's non-broken Armor Break damage reduction Shield",
-    "target_ru": "Несломанный щит Пита, снижающий урон от пробития брони"
+    "target_ru": "Несломанный щит Пита, снижающий урон от прорыва защиты"
   },
   {
     "id": "076311",
@@ -9609,7 +9609,7 @@
     "id": "076601",
     "source_cn": "途径专攻多少",
     "ref_en": "How much specialization does the Pathway have?",
-    "target_ru": "Какую специализацию имеет Pathway?"
+    "target_ru": "Сколько специализации Пути?"
   },
   {
     "id": "076602",
@@ -11469,7 +11469,7 @@
     "id": "076911",
     "source_cn": "庇护誓约：伤害减免+6%。",
     "ref_en": "Covenant of Shelter: Damage Reduction +6%.",
-    "target_ru": "Завет Убежища: уменьшение урона +6%."
+    "target_ru": "Завет Убежища: снижение урона +6%."
   },
   {
     "id": "076912",
@@ -16983,7 +16983,7 @@
     "id": "077830",
     "source_cn": "受到学徒途径的非凡者攻击时，抵消其专攻{*d,F1690001,ApprenticeHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from an Apprentice Pathway Beyonder, negates {*d,F1690001,ApprenticeHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от Потустороннего Пути Ученика сводит на нет очки {*d,F1690001,ApprenticeHurtReduce} его специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от Потустороннего Пути Ученика сводит на нет очки специализации {*d,F1690001,ApprenticeHurtReduce} атакующего. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "077831",
@@ -17451,7 +17451,7 @@
     "id": "077908",
     "source_cn": "进入烈阳状态，移动速度和太阳能量（用于解锁惩戒和无暗之枪）获取效率增加，持续8秒；同时自身霸体，持续6秒。\\n被动效果烈阳之魂每120秒触发1次：受到致命伤害后，解控并获得4秒无敌、高额增伤与太阳能量（用于解锁惩戒和无暗之枪），期间无暗之枪冷却时长为0，受到治疗减少，根据击败的敌人数量回复自身生命。",
     "ref_en": "Enter the Blazing Sun state; movement speed and Solar Energy (used to unlock Punishment and Unshadowed Spear) acquisition efficiency increase, lasting 8 seconds. Simultaneously, the user gains Super Armor, lasting 6 seconds. \\n Passive effect Soul of the Blazing Sun triggers once every 120 seconds: After receiving fatal damage, remove control effects and gain 4 seconds of Invincibility, high Damage Boost, and Solar Energy (used to unlock Punishment and Unshadowed Spear). During this period, the cooldown of Unshadowed Spear is 0, healing received is reduced, and health is restored based on the number of enemies defeated.",
-    "target_ru": "Переходит в состояние «Палящее солнце»: скорость передвижения и эффективность накопления солнечной энергии (нужна для активации «Кары» и «Бестеневого копья») повышаются на 8 сек.; одновременно дает эффект несокрушимости на 6 сек.\nПассивный эффект «Душа палящего солнца» срабатывает раз в 120 сек.: при получении смертельного урона снимает эффекты контроля, дает неуязвимость на 4 сек., значительное увеличение урона и солнечную энергию (нужна для активации «Кары» и «Бестеневого копья»). В этот период время перезарядки «Бестеневого копья» равно 0, получаемое исцеление снижается, а здоровье восстанавливается в зависимости от количества побежденных врагов."
+    "target_ru": "Переходит в состояние «Палящее солнце»: скорость передвижения и эффективность накопления солнечной энергии (нужна для активации «Кары» и «Бестеневого копья») повышаются на 8 сек.; одновременно дает суперброню на 6 сек.\nПассивный эффект «Душа палящего солнца» срабатывает раз в 120 сек.: при получении смертельного урона снимает эффекты контроля, дает неуязвимость на 4 сек., значительное увеличение урона и солнечную энергию (нужна для активации «Кары» и «Бестеневого копья»). В этот период время перезарядки «Бестеневого копья» равно 0, получаемое исцеление снижается, а здоровье восстанавливается в зависимости от количества побежденных врагов."
   },
   {
     "id": "077909",
@@ -19665,7 +19665,7 @@
     "id": "078277",
     "source_cn": "穿刺提高<Mark>105</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。",
     "ref_en": "Piercing increased by <Mark>105</>. While in combat, increases the entire team's Critical Hit by <Mark>30</> and reduces Defense by <Mark>15</>.",
-    "target_ru": "Прокалывание увеличено на <Mark>105</>. В бою увеличивает критический удар всей команды на <Mark>30</> и снижает защиту на <Mark>15</>."
+    "target_ru": "Пронзание увеличено на <Mark>105</>. В бою увеличивает критический удар всей команды на <Mark>30</> и снижает защиту на <Mark>15</>."
   },
   {
     "id": "078278",
@@ -19941,7 +19941,7 @@
     "id": "078323",
     "source_cn": "Boss破防锁定",
     "ref_en": "Boss Armor Break Locked",
-    "target_ru": "Прорыв брони босса заблокирован"
+    "target_ru": "Прорыв защиты босса заблокирован"
   },
   {
     "id": "078324",
@@ -21339,7 +21339,7 @@
     "id": "078556",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "078557",
@@ -22227,7 +22227,7 @@
     "id": "078704",
     "source_cn": "Battle:改变Boss破防锁",
     "ref_en": "Battle: Change Boss Armor Break lock.",
-    "target_ru": "Битва: изменить замок пробития брони босса."
+    "target_ru": "Битва: изменить замок прорыва защиты босса."
   },
   {
     "id": "078705",
@@ -25455,7 +25455,7 @@
     "id": "079242",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>180</>. Standing still in combat for <Mark>5</> seconds decreases Monster Specialization by <Mark>25</> for <Mark>5</> seconds; after a Dodge, Monster Specialization is increased by <Mark>25</> for <Mark>15</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После того, как монстр стоит на месте во время боя, специализация монстра будет снижена на <Mark>25</> на <Mark>25</> секунд, длительностью <Mark>5</> секунд. После уклонения специализация монстра увеличивается на <Mark>25</> и длится <Mark>15</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>180</>. Если стоять на месте в бою <Mark>5</> сек., специализация против монстров снижается на <Mark>25</>, продолжительностью <Mark>5</> сек.; после уклонения специализация против монстров увеличивается на <Mark>25</> и длится <Mark>15</> сек. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "079243",
@@ -26793,7 +26793,7 @@
     "id": "079465",
     "source_cn": "穿刺率",
     "ref_en": "Piercing Rate",
-    "target_ru": "Скорость прокалывания"
+    "target_ru": "Скорость пронзания"
   },
   {
     "id": "079466",
@@ -29355,7 +29355,7 @@
     "id": "079892",
     "source_cn": "伤害加深",
     "ref_en": "Damage Deepening",
-    "target_ru": "Углубление повреждений"
+    "target_ru": "Усиление урона"
   },
   {
     "id": "079893",

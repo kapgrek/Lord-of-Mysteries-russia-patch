@@ -218,7 +218,7 @@ return {
     ["Mountain Path Sprint"] = "Спринт по горной тропе",
     ["Faction Shop"] = "Фракционный магазин",
     ["A long, long time ago, the Tree of Abundance was just a seed, carefully kept by the Saints of the Church of the Earth Mother. Until that war of broken oaths turned the earth into scorched soil, the Saint shed tears. In order to let the scorched soil be reborn, she buried the seed into the soil and absorbed the desolation with her own body. The Tree of Abundance broke through the soil, turning into a delicate humanoid spirit wrapped in a golden cloak. Her name is Sylvia. \n \n \"The earth is calling me.\""] = "  Давным-давно Древо Изобилия было лишь крошечным семенем, бережно хранимым святой из Церкви Матери-Земли. Но в той войне вероломства земля превратилась в пепелище, и святая пролила слезы. Чтобы возродить выжженную пустошь, она посадила семя в почву и приняла все запустение в собственное тело. Древо Изобилия пробилось сквозь землю, обратившись хрупким человекоподобным духом в золотистом плаще. И звали ее Сильвия.\n\n  «Земля взывает ко мне».",
-    ["Lightly Equipped: Damage Reduction +15%."] = "Легкое снаряжение: уменьшение урона +15%.",
+    ["Lightly Equipped: Damage Reduction +15%."] = "Легкое снаряжение: снижение урона +15%.",
     ["How is the Order weekly cap calculated"] = "Как рассчитывается недельный лимит Заказа",
     ["Of course, who wouldn't want to be born in a manor? The outside world is not that easy."] = "Конечно, кто не хотел бы родиться в поместье? Внешний мир не так прост.",
     ["Captain Frye!"] = "Капитан Фрай!",

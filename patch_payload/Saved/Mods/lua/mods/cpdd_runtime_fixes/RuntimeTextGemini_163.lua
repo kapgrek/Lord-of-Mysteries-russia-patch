@@ -263,7 +263,7 @@ return {
     ["Again"] = "Снова",
     ["<Highlight> Craft: </> Crystal Gauze Crepe · Luminous Dotted \n Flowers and radiance invite you to join a feast that never ends."] = "<Highlight>Технология:</>Кристаллический креп·Светящееся окрашивание\nЦветы и блеск приглашают вас присоединиться к нескончаемому празднику.",
     ["5230278 Sefirah Castle Plane"] = "5230278 Самолет замка Сефиры",
-    ["<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация против монстров увеличена <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Lineup uploaded successfully."] = "Состав загружен",
     ["上阵3星瑞尔·比伯进行1场战斗"] = "Выставить 3-звёздочного Рэя Бибера и провести 1 бой",
     ["Maverick"] = "Маверик",

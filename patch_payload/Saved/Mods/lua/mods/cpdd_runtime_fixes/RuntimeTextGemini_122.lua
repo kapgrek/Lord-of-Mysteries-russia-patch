@@ -244,7 +244,7 @@ return {
     ["Treasure location locked with ornate treasure chest"] = "Место с сокровищами, запертое богато украшенным сундуком с сокровищами",
     ["Post-atmosphere: A new, very accurate diviner has arrived at the Divination Club, bearing a striking resemblance to the former Miss Daisy."] = "Пост-атмосфера: в Клуб гадания прибыла новая, очень точная прорицательница, поразительно похожая на бывшую мисс Дейзи.",
     ["Arrive at Blackthorn"] = "Прибытие в Чёрный Чертополох",
-    ["<CostRed>{1,2, (Brand has expired)}</> Pierce increased by <Mark>120</>.\nDoes not take effect when the <Mark>Spirit and Knowledge Echo</> set is active."] = "<CostRed>{1,2,（烙印已失效）}</>Пробивание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
+    ["<CostRed>{1,2, (Brand has expired)}</> Pierce increased by <Mark>120</>.\nDoes not take effect when the <Mark>Spirit and Knowledge Echo</> set is active."] = "<CostRed>{1,2,(Клеймо утратило силу)}</>Пронзание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
     ["Gain the [Crimson Believer] Resonance."] = "Даёт резонанс [Багровые верующие].",
     ["Consume <HighLight>%s</> Quest Points to obtain the following rewards"] = "Потратьте <HighLight>%s</> очков заданий, чтобы получить награды:",
     ["名称："] = "Имя:",

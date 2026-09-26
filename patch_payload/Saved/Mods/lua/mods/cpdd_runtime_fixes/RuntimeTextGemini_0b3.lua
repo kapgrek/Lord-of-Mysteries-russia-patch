@@ -258,7 +258,7 @@ return {
     ["Bizarro Worm surrounding body"] = "Причудливый червь, окружающий тело",
     ["<M_Default>Dear Beyonder: </>\nThe Club <M_Orange>%s</> you belong to has started the <HyperLink stylename=\"M_Link\" u=\"jump=1302301\">【Club Brawl】</> event. Participate to receive generous rewards, and those with excellent rankings can even win <M_Orange>limited title</> rewards!"] = "<M_Default>Уважаемый Потусторонний: </>\nВаш клуб <M_Orange>%s</> открыл событие <HyperLink stylename=\"M_Link\" u=\"jump=1302301\">【Клубная потасовка】</>! Примите участие, чтобы получить ценные награды, а занявшие высшие места в рейтинге получат эксклюзивную награду — <M_Orange>особый титул</>!",
     ["Consignment Quantity:"] = "Количество партии:",
-    ["Vehicle Expertise"] = "Экспертиза транспортных средств",
+    ["Vehicle Expertise"] = "Специализация транспортных средств",
     ["The match starts in just <P_Yellow>three seconds</>, I will make you fall into the abyss <P_Yellow>swamp</>."] = "Матч начнется всего через <P_Yellow>три секунды</>, я заставлю тебя упасть в пропасть <P_Yellow>болото</>.",
     ["This guy owes me a huge sum of money. Look at these paintings at the door, they were all ruined by him!"] = "Этот парень должен мне огромную сумму денег. Посмотрите на эти картины у двери, они все испорчены им!",
     ["When Offspring Protection locks onto a player via <Disable> purple spirituality vision </>, it uses a greatsword to launch a charged Slash, dealing <Disable> rectangular area </> damage."] = "Когда Защита потомства захватывает игрока с помощью фиолетового духовного видения <Disable> </>, он использует большой меч для запуска заряженного удара, нанося <Disable> урон по прямоугольной области </>.",

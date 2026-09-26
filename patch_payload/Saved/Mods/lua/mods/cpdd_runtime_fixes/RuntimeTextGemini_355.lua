@@ -95,7 +95,7 @@ return {
     ["Fight Side-by-Side: Activate 20 bonds, team Attack +30%, Damage Increased +15%"] = "Сражайтесь бок о бок: активируйте 20 связей, командная атака +30%, урон увеличивается +15%.",
     ["The system is currently under maintenance; matchmaking is temporarily suspended."] = "В настоящее время система находится на обслуживании; сватовство временно приостановлено.",
     ["Tutorial Template"] = "Шаблон учебного пособия",
-    ["Armor Break increased by <Mark>80</>. Using skills and Basic Attacks draws the Gaze of 2-049. After stacking three layers of the gaze, it deals additional damage, with a maximum trigger frequency of once every <Mark>4</> seconds."] = "Пробитие брони увеличено на <Mark>80</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек..",
+    ["Armor Break increased by <Mark>80</>. Using skills and Basic Attacks draws the Gaze of 2-049. After stacking three layers of the gaze, it deals additional damage, with a maximum trigger frequency of once every <Mark>4</> seconds."] = "Прорыв защиты увеличен на <Mark>80</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек.",
     ["Blazing Sun"] = "Пылающее солнце",
     ["Oh... do you want to refine some potions or charms? Or do you want to learn some occult knowledge?"] = "Ох... хочешь усовершенствовать какие-нибудь зелья или чары? Или вы хотите познать какие-то оккультные знания?",
     ["Monster gives player general mark buff"] = "Монстр дает игроку усиление общей оценки",

@@ -11805,7 +11805,7 @@
     "id": "026967",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>并获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，在自身当前位置放置一个火焰信标，然后向目标位置闪现。在自身消失位置和目标位置周围小范围内造成*d点物理伤害。\\n施法后3秒内可以释放连招，连招释放时获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，闪回火焰信标所在的位置，在自身消失位置和火焰信标位置周围小范围内再次造成*d点物理伤害。",
     "ref_en": "Cleanse yourself of <HyperLink stylename=\"M_Link\" u=\"3\">control effects</> and gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>. Place a flame beacon at your current position, then flash to the target location. Deal *d physical damage in a small area around your disappearance point and the target location. \\nA combo can be released within 3 seconds after casting. Upon releasing the combo, gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> and flash back to the flame beacon's location, dealing *d physical damage again in a small area around your disappearance point and the flame beacon's location.",
-    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</> и дает *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">непреклонности</>, оставляя огненный маяк в текущей точке и совершая вспышку к указанной позиции. Наносит *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и появления.\\nВ течение 3 сек. после применения можно активировать продолжение приема: персонаж получает *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">непреклонности</> и мгновенно возвращается к огненному маяку, вновь нанося *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и маяка."
+    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</> и дает *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">суперброни</>, оставляя огненный маяк в текущей точке и совершая вспышку к указанной позиции. Наносит *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и появления.\nВ течение 3 сек. после применения можно активировать продолжение приема: персонаж получает *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">суперброни</> и мгновенно возвращается к огненному маяку, вновь нанося *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и маяка."
   },
   {
     "id": "026968",
@@ -12909,7 +12909,7 @@
     "id": "027151",
     "source_cn": "增加攻击、穿刺和防御。",
     "ref_en": "Increase Attack, Pierce, and Defense.",
-    "target_ru": "Увеличьте атаку, проникающую способность и защиту."
+    "target_ru": "Увеличьте атаку, пронзание и защиту."
   },
   {
     "id": "027152",
@@ -13899,7 +13899,7 @@
     "id": "027316",
     "source_cn": "满配核心：伤害增幅和伤害减免+10%。",
     "ref_en": "Fully Equipped Core: Damage Boost and Damage Reduction +10%.",
-    "target_ru": "Полностью экипированное ядро: увеличение и уменьшение урона +10%."
+    "target_ru": "Полностью экипированное ядро: увеличение и снижение урона +10%."
   },
   {
     "id": "027317",
@@ -13929,7 +13929,7 @@
     "id": "027321",
     "source_cn": "狼人boss战—狼人未破防锁血进2阶段",
     "ref_en": "Werewolf Boss Battle - Werewolf Not Armor Broken Health Lock Enter Phase 2",
-    "target_ru": "Битва с боссом-оборотнем — Оборотень не броня сломана. Замок здоровья входит в фазу 2."
+    "target_ru": "Битва с боссом-оборотнем — прорыв защиты оборотня не выполнен, замок здоровья переходит в фазу 2."
   },
   {
     "id": "027322",
@@ -15771,7 +15771,7 @@
     "id": "027628",
     "source_cn": "仲裁人专攻",
     "ref_en": "Arbiter Expertise",
-    "target_ru": "Экспертиза арбитра"
+    "target_ru": "Специализация арбитра"
   },
   {
     "id": "027629",
@@ -17391,7 +17391,7 @@
     "id": "027898",
     "source_cn": "+15破甲；2格防御削减15%",
     "ref_en": "+15 Armor Break; 2-grid Defense reduction 15%",
-    "target_ru": "+15 Пробитие брони; Снижение защиты 2-сетки 15%"
+    "target_ru": "+15 Пробивание брони; Снижение защиты 2-сетки 15%"
   },
   {
     "id": "027899",
@@ -19899,7 +19899,7 @@
     "id": "028316",
     "source_cn": "受到首领攻击时，抵消其专攻{*d,F1690001,BossHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a Boss, negates {*d,F1690001,BossHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "When receiving attacks from a Boss, negates {*d,F1690001,BossHurtReduce} points of their Special Attack. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атаки от босса нейтрализует {*d,F1690001,BossHurtReduce} очков его специализации. (Специализация атакующего снижается максимум до 0)"
   },
   {
     "id": "028317",
@@ -21861,7 +21861,7 @@
     "id": "028643",
     "source_cn": "提高物理破防{*d,Ini,pDefReduce_N}点，物理途径额外提高技能增强{*d,Ini,SkillPlus_N}点。\\n物理途径包括：占卜家、歌颂者、战士。",
     "ref_en": "Increases Physical Armor Break by {*d,Ini,pDefReduce_N} points, and Physical Pathways additionally increase Skill Enhancement by {*d,Ini,SkillPlus_N} points. \\n Physical Pathways include: Seer, Bard, Warrior.",
-    "target_ru": "Увеличьте количество очков физической защиты {*d,Ini,pDefReduce_N}, а также физический способ увеличения очков улучшения навыков {*d,Ini,SkillPlus_N} дополнительно. \\nФизические пути включают: Прорицатель, Певец и Воин."
+    "target_ru": "Повышает физический прорыв защиты на {*d,Ini,pDefReduce_N}, а для физических путей дополнительно повышает усиление умений на {*d,Ini,SkillPlus_N}.\nФизические пути включают: Прорицатель, Певец и Воин."
   },
   {
     "id": "028644",
@@ -25197,7 +25197,7 @@
     "id": "029199",
     "source_cn": "特殊破防",
     "ref_en": "Special Armor Break",
-    "target_ru": "Специальный прорыв брони"
+    "target_ru": "Особый прорыв защиты"
   },
   {
     "id": "029200",

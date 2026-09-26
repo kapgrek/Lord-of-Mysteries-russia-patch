@@ -10,7 +10,7 @@ return {
     ["Want to buy a fish"] = "Хочу купить рыбу",
     ["There are more and more patients; the hospital's wards are running out of space."] = "Больных всё больше, в больничных палатах уже не хватает мест.",
     ["Save Mechanism Test Quest"] = "Тестовое задание механизма сохранений",
-    ["Monster Expertise increased by <Yellow>*d</>."] = "Особая атака по монстрам увеличена на <Yellow>*d</>.",
+    ["Monster Expertise increased by <Yellow>*d</>."] = "Специализация против монстров увеличена на <Yellow>*d</>.",
     ["\n—Morning—\n8:00-10:30 Work\n10:30-10:40 Rest\n10:40-11:00 Radio gymnastics\n11:00-12:00 Eat\n—Lunch break—\n12:00-13:00\n—Afternoon—\n13:00-15:30 Work\n15:30-15:40 Rest\n15:40-16:00 Running exercises\n16:00-18:00 Work\nAfter 18:00 Dinner (can be taken away)"] = "\n— Утро —\n8:00–10:30 Работа\n10:30–10:40 Отдых\n10:40–11:00 Радиогимнастика\n11:00–12:00 Обед\n— Обеденный перерыв —\n12:00–13:00\n— День —\n13:00–15:30 Работа\n15:30–15:40 Отдых\n15:40–16:00 Пробежка\n16:00–18:00 Работа\nПосле 18:00 Ужин (можно навынос)",
     ["Try a few more times, look at other places too"] = "Попробуй еще пару раз и осмотри другие места",
     ["Hey! Mr. Shermin isn't making it anymore! It's out of stock! Tell me, when will he develop new drinks again? My customers can't wait!"] = "Эх! Мистер Шермин закрыл лавочку! Товар закончился! Не знаете, когда он разработает новые напитки? Мои покупатели уже заждались!",

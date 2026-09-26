@@ -254,7 +254,7 @@ return {
     ["Hero - Turtle - Sea Wave - Player Screen Effect"] = "Герой - Черепаха - Морская волна - Эффект экрана игрока",
     ["Go to <h> Blackthorn </> with Melissa"] = "Перейти к <h> Чёрный Чертополох </> с Мелиссой",
     ["Cancel Management"] = "Отменить управление",
-    ["Health +12500, Armor Break +1700"] = "Здоровье +12500, пробитие брони +1700",
+    ["Health +12500, Armor Break +1700"] = "Здоровье +12500, прорыв защиты +1700",
     ["But the sea is dangerous... It is said that the most terrifying thing on the sea is not even the storms, but those invisible things."] = "Но море опасно... Говорят, что самое страшное на море - это даже не бури, а те невидимые существа.",
     ["Tussock fish"] = "кочка рыбы",
     ["Ten thousand stars"] = "Десять тысяч звезд",

@@ -7,7 +7,7 @@ return {
     ["Club administrator %s has sent a group message to you."] = "Администратор клуба %s разослал вам общее сообщение",
     ["This is Philip's pocket watch, huh? I knew it!"] = "Это карманные часы Филипа, а? Так я и знал!",
     ["Golden Wolf Sniping - Wind Field"] = "Снайперский выстрел золотого волка: ветряное поле",
-    ["Remove crowd control states from yourself and gain Super Armor, damage reduction, and damage reflection effects. After the effect ends, deal damage to nearby hostile targets and apply an attack reduction effect."] = "Снимает с себя эффекты контроля, дает невосприимчивость к прерыванию, снижение входящего урона и отражение урона. По окончании действия наносит урон ближайшим врагам и снижает их силу атаки.",
+    ["Remove crowd control states from yourself and gain Super Armor, damage reduction, and damage reflection effects. After the effect ends, deal damage to nearby hostile targets and apply an attack reduction effect."] = "Снимает с себя эффекты контроля, дает Суперброню, снижение входящего урона и отражение урона. По окончании действия наносит урон ближайшим врагам и снижает их силу атаки.",
     ["Dead silent main road (placeholder)"] = "Мёртвая главная улица (плейсхолдер)",
     ["Fully digested Insight potion"] = "Полностью усвоить зелье Проницателя",
     ["Stamina <Privilege> Cap +500 </>"] = "Выносливость: <Privilege>лимит +500</>",

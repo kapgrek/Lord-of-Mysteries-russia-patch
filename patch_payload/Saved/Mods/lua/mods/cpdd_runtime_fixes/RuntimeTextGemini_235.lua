@@ -201,7 +201,7 @@ return {
     ["Failed to open file"] = "Не удалось открыть файл",
     ["Perfect rhythm!"] = "Идеальный ритм!",
     ["This is corruption, I refuse..."] = "Это Искажение, я отказываюсь...",
-    ["Medici Armor Break Visual"] = "Визуализация прорыва брони Медичи",
+    ["Medici Armor Break Visual"] = "Визуализация прорыва защиты Медичи",
     ["Resistance Aura"] = "Аура сопротивления",
     ["Use to obtain <Highlight>White Cliff Winter Night Shoes</>"] = "Используйте, чтобы получить <Highlight>Зимние ночные туфли White Cliff</>.",
     ["Subtitle-Audrey's Self-Introduction"] = "Подзаголовок: самопрезентация Одри",

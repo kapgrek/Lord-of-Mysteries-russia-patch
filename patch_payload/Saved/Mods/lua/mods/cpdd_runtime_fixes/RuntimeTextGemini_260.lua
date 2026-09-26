@@ -9,7 +9,7 @@ return {
     ["All skill levels +1, Anti-Critical Hit %s"] = "Уровень всех навыков +1, защита от крит. ударов повышена на %s",
     ["Lost Side Quest - Use Rebecca for final report"] = "Задание заблудших — Финальный доклад Ребекке",
     ["Poison Mushroom"] = "Ядовитый гриб",
-    ["Sun Chaser - Check Target Super Armor"] = "Преследование солнца: проверка невосприимчивости цели к контролю",
+    ["Sun Chaser - Check Target Super Armor"] = "Преследование солнца: проверка Суперброни цели",
     ["Craftsman Room Quote"] = "Изречение мастерской Ремесленника",
     ["Antique Silver Ring"] = "Старинное серебряное кольцо",
     ["Whirlwind Axe"] = "Топор вихря",

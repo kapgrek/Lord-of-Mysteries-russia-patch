@@ -63,7 +63,7 @@ return {
     ["Sigh, next time I really should find someone to go with. Getting lost is just a normal occurrence for me."] = "Эх, в следующий раз мне действительно стоит найти с кем пойти. Заблудиться для меня – обычное явление.",
     ["Front Page Briefs"] = "Трусы на первой странице",
     ["Special tea... let's try to find it with spirit vision."] = "Особенный чай... попробуем найти его духовным зрением.",
-    ["New Skill - Liquidation: Upon activation, Damage Taken increases by 30% for 10 seconds. Records the total damage dealt during the duration, and upon effect expiration, enemies within the area take the total recorded damage."] = "Новый навык — Ликвидация: при активации получаемый урон увеличивается на 30% fили 10 секунд. Записывает общий урон, нанесенный за время действия, а по истечении срока действия враги в области действия получают полный записанный урон.",
+    ["New Skill - Liquidation: Upon activation, Damage Taken increases by 30% for 10 seconds. Records the total damage dealt during the duration, and upon effect expiration, enemies within the area take the total recorded damage."] = "Новый навык — Ликвидация: при активации усиление урона повышается на 30% на 10 секунд. Записывает общий урон, нанесённый за это время, а по истечении срока действия враги в области получают весь записанный урон.",
     ["Complete <Highlight>Sequence Quests</> to accumulate <Highlight>Potion Digestion Progress</>."] = "Выполните <Highlight>Sequence Quests</>, чтобы накопить <Highlight>Прогресс пищеварения </>.",
     ["Sir, have you seen a person named Godot?"] = "Сэр, вы видели человека по имени Годо?",
     ["Semi-finished silver piece"] = "Полуфабрикат из серебра",

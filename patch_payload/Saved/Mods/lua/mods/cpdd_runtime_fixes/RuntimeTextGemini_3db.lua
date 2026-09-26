@@ -24,7 +24,7 @@ return {
     ["You are indeed well-informed. Do you know who ordered \"The Art of Discipline\"?"] = "Вы действительно хорошо информированы. Знаете ли вы, кто заказал «Искусство дрессировки»?",
     ["Trade"] = "Торговля",
     ["Unlocks <Highlight>Single Social Action: Circle Dance</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "После использования открывает <Highlight> однопользовательское социальное действие·хоровод </>. Он будет автоматически разложен на связанный Сулер после повторного использования.",
-    ["Movement Speed increased by 5%, Monster Specialization increased by *d; when the player uses a skill, they will release a single-target bullet at the target"] = "Скорость передвижения увеличивается на 5%, а концентрация монстра увеличивается на *d. Когда игрок использует навыки, в цель будет выпущена одна пуля.",
+    ["Movement Speed increased by 5%, Monster Specialization increased by *d; when the player uses a skill, they will release a single-target bullet at the target"] = "Скорость передвижения увеличивается на 5%, а специализация против монстров увеличивается на *d. Когда игрок использует навыки, в цель будет выпущена одна пуля.",
     ["[Placeholder-Animation] Klein winds up Melissa's mechanical doll a few times, letting it wobble across the table filled with dishes."] = "_\n\n[Заполнитель - Анимация] Кляйн несколько раз заводил механическую куклу Мелиссы, заставляя ее переваливаться по столу, полному посуды.",
     ["Use to obtain <Highlight> Name Card Theme: Dark Crows </>"] = "После использования вы получите тему визитной карточки <Highlight> · Dark Crows</>.",
     ["Leader"] = "Лидер",

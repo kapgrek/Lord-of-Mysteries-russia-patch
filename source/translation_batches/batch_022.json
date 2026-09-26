@@ -1005,7 +1005,7 @@
     "id": "105167",
     "source_cn": "穿刺提高<Mark>100</>。",
     "ref_en": "Piercing increased by <Mark>100</>.",
-    "target_ru": "Прокалывание увеличено на <Mark>100</>."
+    "target_ru": "Пронзание увеличено на <Mark>100</>."
   },
   {
     "id": "105168",
@@ -2127,7 +2127,7 @@
     "id": "105354",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">知识逐人</>额外获取10点<HighLight>神秘知识</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">星沙</>的伤害提高90%，额外获取10点<HighLight>神秘知识</>，降低穿刺的数值提高;\\n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">光之折射</>攻击的目标若为怪物，则伤害提高15%",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Knowledge Pursuit</> grants 10 additional <HighLight>Mysterious Knowledge</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> damage is increased by 90%, grants 10 additional <HighLight>Mysterious Knowledge</>, and applies a stronger Pierce reduction;\\n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">Refraction of Light</> deals 15% increased damage to monsters.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Знания в погоне за людьми</>Получите дополнительные 10 очков<HighLight>Таинственные знания</>; \n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Урон Звездного песка</> увеличивается на 90% и получаются дополнительные 10 очков <HighLight>Таинственное знание</>, что снижает ценность пробивания; \n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">Преломление света</>Если целью атаки является монстр, урон увеличивается на 15%."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Знания в погоне за людьми</>Получите дополнительные 10 очков<HighLight>Таинственные знания</>; \n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Урон Звездного песка</> увеличивается на 90% и получаются дополнительные 10 очков <HighLight>Таинственное знание</>, что усиливает снижение Пронзания цели; \n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">Преломление света</>Если целью атаки является монстр, урон увеличивается на 15%."
   },
   {
     "id": "105355",
@@ -4107,7 +4107,7 @@
     "id": "105684",
     "source_cn": "梅迪奇破防表现",
     "ref_en": "Medici Armor Break Visual",
-    "target_ru": "Визуализация прорыва брони Медичи"
+    "target_ru": "Визуализация прорыва защиты Медичи"
   },
   {
     "id": "105685",
@@ -5643,7 +5643,7 @@
     "id": "105940",
     "source_cn": "物理穿刺",
     "ref_en": "Physical Piercing",
-    "target_ru": "Физический пирсинг"
+    "target_ru": "Физическое пронзание"
   },
   {
     "id": "105941",
@@ -5667,7 +5667,7 @@
     "id": "105944",
     "source_cn": "生命+3000、破防+408",
     "ref_en": "Health +3000, Armor Break +408",
-    "target_ru": "Здоровье +3000, Пробитие брони +408"
+    "target_ru": "Здоровье +3000, Прорыв защиты +408"
   },
   {
     "id": "105945",
@@ -6099,7 +6099,7 @@
     "id": "106016",
     "source_cn": "功能_炼金心得_破防信号",
     "ref_en": "Function_Alchemy Insights_Armor Break Signal",
-    "target_ru": "Function_Alchemy Insights_Сигнал пробития брони"
+    "target_ru": "Function_Alchemy Insights_Сигнал прорыва защиты"
   },
   {
     "id": "106017",
@@ -6879,7 +6879,7 @@
     "id": "106146",
     "source_cn": "坚壁誓约：伤害减免+10%。",
     "ref_en": "Covenant of Solid Wall: Damage Reduction +10%.",
-    "target_ru": "Завет Твердой Стены: уменьшение урона +10%."
+    "target_ru": "Завет Твердой Стены: снижение урона +10%."
   },
   {
     "id": "106147",
@@ -12459,7 +12459,7 @@
     "id": "107076",
     "source_cn": "精神穿刺",
     "ref_en": "Mental Pierce",
-    "target_ru": "Психический прокол"
+    "target_ru": "Психическое пронзание"
   },
   {
     "id": "107077",
@@ -15369,7 +15369,7 @@
     "id": "107561",
     "source_cn": "根据非凡物质词条数量获得属性提升：\\n1条词条：生命+160、物理破防+100\\n2条词条：生命+320、物理破防+200\\n3条词条：生命+480、物理破防+300\\n4条词条：生命+640、物理破防+400\\n<Highlight>提升封印物等级可解锁更多非凡共鸣效果。</>\\n<Highlight>提升非凡知识等级可以增强非凡共鸣效果。</>",
     "ref_en": "Gain attribute bonuses based on the number of Beyonder material affixes:\\n 1 affix: Health +160, Physical Armor Break +100\\n 2 affixes: Health +320, Physical Armor Break +200\\n 3 affixes: Health +480, Physical Armor Break +300\\n 4 affixes: Health +640, Physical Armor Break +400\\n<Highlight> Upgrade Sealed Artifacts to unlock more Beyonder Resonance effects.</>\\n<Highlight> Upgrade Beyonder Knowledge level to enhance Beyonder Resonance effects.</>",
-    "target_ru": "Атрибуты улучшаются в зависимости от количества необычных материальных записей: \n1 запись: жизнь +160, физическая защита +100\n2 записи: жизнь +320, физическая защита +200\n3 записи: жизнь +480, физическая защита +300\n4 записи: жизнь +640, физическая защита +400\n<Highlight>Повышение уровня запечатанного объекта может разблокировать более необычные резонансные эффекты. </>\n<Highlight> Повышение уровня экстраординарных знаний может усилить эффект экстраординарного резонанса. </>"
+    "target_ru": "Атрибуты улучшаются в зависимости от количества необычных материальных записей: \n1 запись: жизнь +160, физический прорыв защиты +100\n2 записи: жизнь +320, физический прорыв защиты +200\n3 записи: жизнь +480, физический прорыв защиты +300\n4 записи: жизнь +640, физический прорыв защиты +400\n<Highlight>Повышение уровня запечатанного объекта может разблокировать более необычные резонансные эффекты. </>\n<Highlight> Повышение уровня экстраординарных знаний может усилить эффект экстраординарного резонанса. </>"
   },
   {
     "id": "107562",
@@ -15453,7 +15453,7 @@
     "id": "107575",
     "source_cn": "灵魂破甲",
     "ref_en": "Soul Armor Break",
-    "target_ru": "Прорыв брони души"
+    "target_ru": "Пробивание брони души"
   },
   {
     "id": "107576",
@@ -16905,7 +16905,7 @@
     "id": "107817",
     "source_cn": "提高破防250，释放终结技能时，破防额外提高250，并在目标位置造成治疗，每12秒最多触发1次。",
     "ref_en": "Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is increased by an additional 250, and a heal is dealt at the target's location, with a maximum of 1 trigger every 12 seconds.",
-    "target_ru": "Увеличивает пробитие брони на 250. При использовании навыка добивания пробитие брони увеличивается еще на 250, а в месте нахождения цели наносится исцеление, максимум 1 срабатывание каждые 12 секунд."
+    "target_ru": "Увеличивает прорыв защиты на 250. При использовании навыка добивания прорыв защиты увеличивается еще на 250, а в месте нахождения цели наносится исцеление, максимум 1 срабатывание каждые 12 секунд."
   },
   {
     "id": "107818",
@@ -18309,7 +18309,7 @@
     "id": "108051",
     "source_cn": "带有衰败的目标死亡时，会造成一次范围伤害；被命中的敌人若自身也带有衰败，则根据其剩余衰败时间额外受到伤害加深。",
     "ref_en": "When a target with Decay dies, it deals area damage; if hit enemies are also afflicted with Decay, they take additional Vulnerability based on their remaining Decay duration.",
-    "target_ru": "Когда цель с Разложением умирает, она наносит урон по области; Если пораженные враги также поражены Разложением, они получают дополнительную уязвимость в зависимости от оставшейся продолжительности Разложения."
+    "target_ru": "Когда цель с Разложением умирает, она наносит урон по области; Если пораженные враги также поражены Разложением, они получают дополнительное усиление урона в зависимости от оставшейся продолжительности Разложения."
   },
   {
     "id": "108052",
@@ -21657,7 +21657,7 @@
     "id": "108609",
     "source_cn": "穿刺提升%s",
     "ref_en": "Piercing increased by %s",
-    "target_ru": "Пирсинг увеличился на %s"
+    "target_ru": "Пронзание увеличилось на %s"
   },
   {
     "id": "108610",
@@ -23787,7 +23787,7 @@
     "id": "108964",
     "source_cn": "提高穿刺150。",
     "ref_en": "Increases Pierce by 150.",
-    "target_ru": "Увеличивает Пирс на 150."
+    "target_ru": "Увеличивает Пронзание на 150."
   },
   {
     "id": "108965",
@@ -25011,7 +25011,7 @@
     "id": "109168",
     "source_cn": "减免受到物理伤害的攻击基础值，无法减免物理伤害的技能基础值。\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的防御超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>，与对方<Highlight>物理破防</>、<Highlight>忽视物理防御</>属性的对抗结算。",
     "ref_en": "Reduces the base Attack value of received physical damage; cannot reduce the base Skill value of physical damage. \\n The base Attack value after reduction has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 20% </>; if the increased Defense exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage reduction capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Physical Armor Break </> and <Highlight> Ignore Physical Defense </> attributes.",
-    "target_ru": "Уменьшается базовое значение атак, уменьшающих физический урон, а также базовое значение умений, которые не могут уменьшить физический урон. Значение базовой атаки после снижения \n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда улучшенная защита превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight></> как атакующих, так и защищающихся, а также от урегулирования конфронтации с <Highlight>физической защитой противника, прорывающей</>, <Highlight>игнорированием атрибута физической защиты</>."
+    "target_ru": "Уменьшается базовое значение атак, уменьшающих физический урон, а также базовое значение умений, которые не могут уменьшить физический урон. Значение базовой атаки после снижения \n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда улучшенная защита превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight></> как атакующих, так и защищающихся, а также от урегулирования конфронтации с атрибутами <Highlight>Физический прорыв защиты</> и <Highlight>Игнорирование физической защиты</> противника."
   },
   {
     "id": "109169",
@@ -25203,7 +25203,7 @@
     "id": "109200",
     "source_cn": "怪物虚弱破防条-皮特破防表现-新版",
     "ref_en": "Monster Weakness Armor Break bar - Pete Armor Break performance - New version",
-    "target_ru": "Панель Monster Weakness Armor Break - Представление Пита Armor Break - Новая версия"
+    "target_ru": "Шкала прорыва защиты слабого монстра - Визуализация прорыва защиты Пита - Новая версия"
   },
   {
     "id": "109201",
@@ -28971,7 +28971,7 @@
     "id": "109828",
     "source_cn": "展开岁月的棋局，自身获得<HighLight>3</>秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，并在*f秒后对周身范围内敌方造成*d点魔法伤害并以*f**的基础概率使其<HyperLink stylename=\"M_Link\" u=\"2\">浮空</>，同时降低自身所有<HighLight>职业技能</>的冷却时间<HighLight>3</>秒，期间自身可以移动。施法后获得20点<HighLight>神秘知识</>。\\n\\n<FaintYellow>神秘知识</>：最多拥有100点。达到100点时解锁<HighLight>终结技能信息洪流</>。",
     "ref_en": "Unfold the Gambit of the Ages, gain <HighLight>3</> seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, and after *f seconds, deal *d Magic Damage to enemies within range with a base *f% chance to <HyperLink stylename=\"M_Link\" u=\"2\">Launch</> them. Simultaneously reduce the Cooldown of all your <HighLight>Class Skills</> by <HighLight>3</> seconds. You can move during this period. Gain 20 points of <HighLight>Mystic Knowledge</> after casting. \\n\\n<FaintYellow>Mystic Knowledge</>: Maximum capacity is 100 points. Reaching 100 points unlocks the <HighLight>Finisher Skill Torrent of Information</>.",
-    "target_ru": "Расширьте шахматную игру лет, вы получите <HighLight>3</> секунд<HyperLink stylename=\"M_Link\" u=\"11\">Гегемоническое тело</>, и через *f секунд оно нанесет *d очков магического урона врагам в окружающей области и заставит их <HyperLink stylename=\"M_Link\" u=\"2\"> парить в воздухе</> с *f** базовой вероятностью. При этом время охлаждения всех ваших <HighLight>профессиональных навыков</> будет сокращено на <HighLight>3</> секунд, в течение которых вы сможете двигаться. Получите 20 очков <HighLight> тайных знаний</> после применения. \n\n<FaintYellow>Таинственное знание</>: Наберите до 100 очков. Открывает <HighLight> при достижении 100 очков, чтобы положить конец потоку информации о навыках </>."
+    "target_ru": "Разыграйте «Гамбит веков»: вы получаете <HighLight>3</> секунды <HyperLink stylename=\"M_Link\" u=\"11\">Суперброни</>, а через *f секунд наносите *d очков магического урона врагам в окружающей области, с базовой вероятностью *f** подбрасывая их <HyperLink stylename=\"M_Link\" u=\"2\">в воздух</>. Одновременно время восстановления всех ваших <HighLight>классовых навыков</> сокращается на <HighLight>3</> секунды, и в течение этого времени вы можете двигаться. После применения вы получаете 20 очков <HighLight>Таинственного знания</>.\n\n<FaintYellow>Таинственное знание</>: максимум 100 очков. При достижении 100 очков открывается <HighLight>завершающий навык «Поток информации»</>."
   },
   {
     "id": "109829",

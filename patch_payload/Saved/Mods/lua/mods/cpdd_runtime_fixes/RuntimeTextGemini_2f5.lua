@@ -77,7 +77,7 @@ return {
     ["Colorful flowers, heart-shaped paths... and romantic hot air balloons in the sky."] = "Яркие цветы, дорожки в форме сердечек... и романтические воздушные шары в небе.",
     ["There was a young girl who looked like she was being chased by some monster. She didn't even look where she was going and rushed straight onto the main road."] = "Там была молодая девушка, которая выглядела так, будто ее преследовал какой-то монстр. Она даже не посмотрела, куда идет, и бросилась прямо на главную дорогу.",
     ["Functional area 16 monster"] = "Функциональная зона 16 монстр",
-    ["If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds."] = "Если урон не был получен в течение более <Mark>2</> секунд, пробитие брони увеличивается на <Mark>70</> на <Mark>5</> секунд.",
+    ["If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds."] = "Если урон не был получен в течение более <Mark>2</> секунд, прорыв защиты увеличивается на <Mark>70</> на <Mark>5</> секунд.",
     ["Development Materials"] = "Материалы для разработки",
     ["Please don't mind her, {sir|madam}. There's no use talking to her."] = "Пожалуйста, не обращай на нее внимания, {sir|madam}. С ней бесполезно разговаривать.",
     ["[Trigger] Central Area - Lyrics 2-1"] = "[Триггер] Центральный район - Текст 2-1",

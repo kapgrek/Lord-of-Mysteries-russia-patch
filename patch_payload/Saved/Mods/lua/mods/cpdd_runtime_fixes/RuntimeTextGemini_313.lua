@@ -85,7 +85,7 @@ return {
     ["<ChatTag_Team>[Group]</>"] = "<ChatTag_Team>[Группа]</>",
     ["This is your wedding photo shoot!"] = "Это ваша свадебная фотосессия!",
     ["Black Thorn Event 3-Rock King-Black Water Mark-Randomly Take 2 Non-T Players"] = "Событие Black Thorn 3 — Король камней — Черный водяной знак — Случайным образом возьмите 2 игроков, не являющихся игроками T",
-    ["Armor Break Marker"] = "Маркер пробития брони",
+    ["Armor Break Marker"] = "Маркер прорыва защиты",
     ["<P_Heart> (Pondering) </> It should logically be arranged by the Captain, but this case isn't complicated, I can take you along, consider it an internship."] = "<P_Heart> (Размышление) </> По логике вещей это должно быть организовано Капитаном, но это дело несложное, я могу взять тебя с собой, считай это стажировкой.",
     ["What a well-behaved squirrel. Are you a resident of nature, or a lost guest?"] = "Какая добрая белка. Вы житель природы или заблудившийся гость?",
     ["Roaming Cloak"] = "Бродячий плащ",

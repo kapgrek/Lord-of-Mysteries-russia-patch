@@ -1311,7 +1311,7 @@
     "id": "020218",
     "source_cn": "最大生命增加*d\\n体质增加*d\\n意志增加*.1f\\n力量增加*.1f\\n敏捷增加*d\\n最小物理攻击增加*d\\n最大物理攻击增加*d\\n物理穿刺增加*d\\n物理暴击增加*d\\n物理暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n物理破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n物理破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *d\\n Willpower Increase *.1f\\n Strength Increase *.1f\\n Agility Increase *d\\n Min Physical Attack Increase *d\\n Max Physical Attack Increase *d\\n Physical Pierce Increase *d\\n Physical Crit Rate Increase *d\\n Physical Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Physical Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Physical Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Максимальное увеличение жизни*d\nУвеличение телосложения*d\nУвеличится*.1f\nУвеличение силы*.1f\nУвеличение ловкости*d\nМинимальное увеличение физической атаки*d\nМаксимальное увеличение физической атаки*d\nУвеличение физического прокола*d\nУвеличение физического критического удара*d\nФизический критический урон увеличение*.1f**\nУвеличение защиты*d\nБлокирование увеличено*d\nСопротивление критическому удару увеличено*d\nУменьшение критического урона увеличено*.1f**\nПодавление-экстраординарное увеличено*.1f\nСопротивление-экстраординарное увеличено*.1f\nПробитие физической защиты увеличено*d\nПодавление монстров увеличено*.1f\nСопротивление монстров увеличено*.1f\nУвеличено пробитие физической защиты*.1f**\nУвеличение пробития брони*d\nУвеличение брони*d\nУвеличение специального прорыва атаки*d\nУвеличение специального прорыва защиты*d\nУвеличение специального защиты*d\nУвеличение улучшения навыка*d\nСопротивление навыку Увеличение*d\nУвеличение улучшения исцеления*.2f\nУвеличение восстановления здоровья*.1f\nУвеличение % подавления всех способов*.2f**\nУвеличение % сопротивления всех каналов*.2f**\nУвеличение % подавления монстров*.2f**\nУвеличение % сопротивления монстров*.2f**\nУлучшение навыка % увеличение*.2f**\nУвеличение % сопротивления навыку*.2f**\nУвеличение конечного урона*d\nУвеличение конечного сопротивления урону*d\nУвеличение % улучшения исцеления*.2f**"
+    "target_ru": "Макс. здоровье увеличивается на *d\nТелосложение увеличивается на *d\nВоля увеличивается на *.1f\nСила увеличивается на *.1f\nЛовкость увеличивается на *d\nМин. физ. атака увеличивается на *d\nМакс. физ. атака увеличивается на *d\nФиз. пронзание увеличивается на *d\nФиз. крит увеличивается на *d\nФиз. крит. урон увеличивается на *.1f**\nЗащита увеличивается на *d\nБлок увеличивается на *d\nСопротивление криту увеличивается на *d\nСнижение крит. урона увеличивается на *.1f**\nПодавление Потусторонних увеличивается на *.1f\nСопротивление Потусторонним увеличивается на *.1f\nФиз. прорыв защиты увеличивается на *d\nПодавление монстров увеличивается на *.1f\nСопротивление монстрам увеличивается на *.1f\nФиз. прорыв защиты увеличивается на *.1f**\nПробивание брони увеличивается на *d\nБроня увеличивается на *d\nОсобая атака увеличивается на *d\nОсоб. прорыв защиты увеличивается на *d\nОсобая защита увеличивается на *d\nУсиление навыков увеличивается на *d\nОтражение навыков увеличивается на *d\nУсиление лечения увеличивается на *.2f\nВосстановление здоровья увеличивается на *.1f\nПодавление всех путей (%) увеличивается на *.2f**\nСопротивление всем путям (%) увеличивается на *.2f**\nПодавление монстров (%) увеличивается на *.2f**\nСопротивление монстрам (%) увеличивается на *.2f**\nУсиление навыков (%) увеличивается на *.2f**\nОтражение навыков (%) увеличивается на *.2f**\nКонечный урон увеличивается на *d\nСопротивление конечному урону увеличивается на *d\nПолучаемое лечение (%) увеличивается на *.2f**"
   },
   {
     "id": "020219",
@@ -5121,7 +5121,7 @@
     "id": "020853",
     "source_cn": "提高暴击80，提高穿刺75。",
     "ref_en": "Increases Critical Hit by 80 and Pierce by 75.",
-    "target_ru": "Увеличивает критический удар на 80 и проникающую способность на 75."
+    "target_ru": "Увеличивает критический удар на 80 и пронзание на 75."
   },
   {
     "id": "020854",
@@ -7359,7 +7359,7 @@
     "id": "021226",
     "source_cn": "最大生命增加*d\\n体质增加*.1f\\n意志增加*.1f\\n智慧增加*d\\n敏捷增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n魔法穿刺增加*d\\n魔法暴击增加*d\\n魔法暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n魔法破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n魔法破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n治疗增强%增加*.2f**\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *.1f\\n Willpower Increase *.1f\\n Wisdom Increase *d\\n Agility Increase *d\\n Min Magic Attack Increase *d\\n Max Magic Attack Increase *d\\n Magic Pierce Increase *d\\n Magic Crit Rate Increase *d\\n Magic Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Magic Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Magic Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Enhancement % Increase *.2f**\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Максимальное увеличение жизни*d\nУвеличение телосложения*.1f\nУвеличится*.1f\nУвеличение интеллекта*d\nУвеличение ловкости*d\nМинимальное увеличение магической атаки*d\nМаксимальное увеличение магической атаки*d\nУвеличение магического прокола*d\nУвеличение магического критического удара*d\nМагический критический урон увеличение*.1f**\nУвеличение защиты*d\nВрата Увеличение блокировки*d\nУвеличенное сопротивление критическому удару*d\nУвеличенное снижение критического урона*.1f**\nПодавление — увеличивается необыкновенными людьми*.1f\nСопротивление — увеличивается необыкновенными людьми*.1f\nУвеличение магической защиты взлом*d\nУвеличение подавления монстров*.1f\nУвеличение сопротивления монстров*.1f\nУвеличение взлома магической защиты*.1f**\nУвеличение разрушения брони*d\nУвеличение брони*d\nУвеличение специальной атаки*d\nУвеличение пробития специальной защиты*d\nУвеличение специальной защиты*d\nУлучшение навыка увеличено*d\nБлокирование навыков увеличено*d\nИсцеление улучшено увеличено*.2f\nВосстановление здоровья увеличено*.1f\nВсе каналы подавлены, % увеличены*.2f**\nВсе каналы сопротивляются, % увеличены*.2f**\nУвеличение % подавления монстров*.2f**\nУвеличение % сопротивления монстров*.2f**\nУвеличение % улучшения навыков*.2f**\nУвеличение % сопротивления навыкам*.2f**\nУвеличение конечного урона*d\nУвеличение конечного сопротивления урону*d\nУсиление лечения % увеличения*.2f**\nУсиление лечения % увеличения*.2f**"
+    "target_ru": "Увеличение макс. ОЗ *d\nУвеличение телосложения *.1f\nУвеличение воли *.1f\nУвеличение мудрости *d\nУвеличение ловкости *d\nУвеличение мин. маг. атаки *d\nУвеличение макс. маг. атаки *d\nУвеличение маг. пронзания *d\nУвеличение маг. крита *d\nУвеличение маг. крит. урона *.1f**\nУвеличение защиты *d\nУвеличение блока *d\nУвеличение сопр. криту *d\nСнижение крит. урона *.1f**\nПодавление: Потусторонние: увеличение *.1f\nСопротивление: Потусторонние: увеличение *.1f\nУвеличение маг. прорыва защиты *d\nПодавление монстров: увеличение *.1f\nСопротивление монстрам: увеличение *.1f\nУвеличение маг. прорыва защиты *.1f**\nУвеличение пробивания брони *d\nУвеличение брони *d\nУвеличение особой атаки *d\nУвеличение особ. прорыва защиты *d\nУвеличение особой защиты *d\nУвеличение усиления навыков *d\nУвеличение парирования навыков *d\nУвеличение исцеления *.2f\nУвеличение восстановления здоровья *.1f\nУвеличение подавления всех Путей % *.2f**\nУвеличение сопр. всем Путям % *.2f**\nУвеличение подавления монстров % *.2f**\nУвеличение сопр. монстрам % *.2f**\nУвеличение усиления навыков % *.2f**\nУвеличение парирования навыков % *.2f**\nУвеличение итогового урона *d\nУвеличение сопр. итоговому урону *d\nУвеличение исцеления % *.2f**\nУвеличение получаемого исцеления % *.2f**"
   },
   {
     "id": "021227",
@@ -9663,7 +9663,7 @@
     "id": "021610",
     "source_cn": "所有技能等级+1，破防",
     "ref_en": "All skill levels +1, Armor Break",
-    "target_ru": "Все уровни навыков +1, защита сломана."
+    "target_ru": "Все уровни навыков +1, прорыв защиты."
   },
   {
     "id": "021611",
@@ -11223,7 +11223,7 @@
     "id": "021870",
     "source_cn": "怪物破防值清空时将陷入暂时的虚弱状态!",
     "ref_en": "When the monster's armor break value is cleared, it will fall into a temporary state of weakness!",
-    "target_ru": "Когда значение защиты монстра будет очищено, он временно станет слабым!"
+    "target_ru": "Когда значение прорыва защиты монстра будет очищено, он временно станет слабым!"
   },
   {
     "id": "021871",
@@ -11883,7 +11883,7 @@
     "id": "021980",
     "source_cn": "召唤物专攻",
     "ref_en": "Summon Specialization",
-    "target_ru": "Призвать Фокус"
+    "target_ru": "Специализация призыва"
   },
   {
     "id": "021981",
@@ -13179,7 +13179,7 @@
     "id": "022196",
     "source_cn": "*d秒霸体",
     "ref_en": "*d seconds of Super Armor",
-    "target_ru": "*dВторое тело"
+    "target_ru": "*d сек. суперброни"
   },
   {
     "id": "022197",
@@ -13203,7 +13203,7 @@
     "id": "022200",
     "source_cn": "<HighLight>卡牌能量</>满5点时自身<HighLight>穿刺</>的数值增加，持续5秒。若同时激活<HighLight>魔术表演</>节点，则满4点时自身<HighLight>穿刺</>的数值也会增加，持续5秒。",
     "ref_en": "When <HighLight>Card Energy</> reaches 5 points, your <HighLight>Piercing</> value increases for 5 seconds. If the <HighLight>Trick Performance</> node is also activated, your <HighLight>Piercing</> value also increases when reaching 4 points, for 5 seconds.",
-    "target_ru": "Когда энергия <HighLight> карты </> достигает 5 очков, значение собственного прокола <HighLight> </> увеличивается на 5 секунд. Если одновременно активируется узел <HighLight>Magic Show</>, то при достижении 4 очков его собственное значение прокола <HighLight> </> также увеличится на 5 секунд."
+    "target_ru": "Когда энергия <HighLight>карты</> достигает 5 очков, значение собственного пронзания <HighLight></> увеличивается на 5 секунд. Если одновременно активируется узел <HighLight>Волшебное представление</>, то при достижении 4 очков его собственное значение пронзания <HighLight></> также увеличится на 5 секунд."
   },
   {
     "id": "022201",
@@ -13779,7 +13779,7 @@
     "id": "022296",
     "source_cn": "移速提高5%，怪物专攻提高*d，玩家使用技能时，会对目标释放一个单体子弹",
     "ref_en": "Movement Speed increased by 5%, Monster Specialization increased by *d; when the player uses a skill, they will release a single-target bullet at the target",
-    "target_ru": "Скорость передвижения увеличивается на 5%, а концентрация монстра увеличивается на *d. Когда игрок использует навыки, в цель будет выпущена одна пуля."
+    "target_ru": "Скорость передвижения увеличивается на 5%, а специализация против монстров увеличивается на *d. Когда игрок использует навыки, в цель будет выпущена одна пуля."
   },
   {
     "id": "022297",
@@ -18549,7 +18549,7 @@
     "id": "023091",
     "source_cn": "进入<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>状态并buffdisc(*id)，持续治疗周身范围内友方，每秒回复spellfielddisc(*id)点生命，持续攻击范围内敌方，每秒造成spellfielddisc(*id)点伤害，持续<Highlight>6.5</>秒。",
     "ref_en": "Enters <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </> state and buffdisc(*id), continuously healing allies within range for spellfielddisc(*id) Health per second, while attacking enemies within range for spellfielddisc(*id) damage per second for <Highlight> 6.5 </> seconds.",
-    "target_ru": "Войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">Hegemonic</> и buffdisc(*id), продолжайте лечить союзников в окружающей области, восстанавливайте spellfielddisc(*id) очков жизни в секунду, непрерывно атакуйте врагов в радиусе действия, нанося spellfielddisc(*id) очков урона в секунду, длительностью <Highlight>6.5</> секунд."
+    "target_ru": "Войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">Суперброня</> и buffdisc(*id), продолжайте лечить союзников в окружающей области, восстанавливайте spellfielddisc(*id) очков жизни в секунду, непрерывно атакуйте врагов в радиусе действия, нанося spellfielddisc(*id) очков урона в секунду, длительностью <Highlight>6.5</> секунд."
   },
   {
     "id": "023092",
@@ -19425,7 +19425,7 @@
     "id": "023237",
     "source_cn": "<HighLight>卡牌能量</>满5点时自身<HighLight>穿刺</>的数值增加，持续5秒；\\n若同时激活<HighLight>混沌牌序</>节点，则满4点时自身<HighLight>穿刺</>的数值也会增加，持续5秒。\\n<HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\">灵性爆发</>的<HighLight>易伤</>效果提高5%。",
     "ref_en": "When <HighLight> Card Energy </> reaches 5 points, your <HighLight> Pierce </> value increases for 5 seconds. \\n If the <HighLight> Chaos Card Sequence </> node is also active, your <HighLight> Pierce </> value also increases when reaching 4 points for 5 seconds. \\n <HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\"> Spirituality Burst </> <HighLight> Vulnerability </> effect increased by 5%.",
-    "target_ru": "Когда <HighLight>Энергия карт</> достигает 5 очков, показатель вашего <HighLight>Пробивания</> увеличивается на 5 сек.\\nЕсли при этом активирован узел <HighLight>Хаотический порядок карт</>, показатель <HighLight>Пробивания</> увеличивается уже при 4 очках на 5 сек.\\nЭффект <HighLight>Уязвимости</> от способности <HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\">Всплеск духовности</> увеличивается на 5%."
+    "target_ru": "Когда <HighLight>Энергия карт</> достигает 5 очков, показатель вашего <HighLight>Пронзания</> увеличивается на 5 сек.\nЕсли при этом активирован узел <HighLight>Хаотический порядок карт</>, показатель <HighLight>Пронзания</> увеличивается уже при 4 очках на 5 сек.\nЭффект <HighLight>Уязвимости</> от способности <HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\">Всплеск духовности</> увеличивается на 5%."
   },
   {
     "id": "023238",
@@ -20829,7 +20829,7 @@
     "id": "023471",
     "source_cn": "驱除邪魔，解除所有控制，进入霸体状态并获得减伤和加速效果，恢复生命值。",
     "ref_en": "Dispel evil, remove all control effects, enter super armor state, and gain damage reduction and acceleration effects while restoring health.",
-    "target_ru": "Изгоните злых духов, отпустите все элементы управления, войдите в доминирующее состояние, получите эффекты уменьшения урона и ускорения, а также восстановите здоровье."
+    "target_ru": "Изгоните злых духов, отпустите все элементы управления, войдите в состояние суперброни, получите эффекты уменьшения урона и ускорения, а также восстановите здоровье."
   },
   {
     "id": "023472",
@@ -23067,7 +23067,7 @@
     "id": "023844",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>，进入<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>状态并获得buffdisc(*id)，持续*f秒。",
     "ref_en": "Removes <HyperLink stylename=\"M_Link\" u=\"3\"> Crowd Control </> effects from yourself, enters <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </> state, and gains buffdisc(*id) for *f seconds.",
-    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\"></>, войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">hegemonic body</> и получите buffdisc(*id), который длится *f секунд."
+    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\"></>, войдите в состояние <HyperLink stylename=\"M_Link\" u=\"11\">Суперброня</> и получите buffdisc(*id), который длится *f секунд."
   },
   {
     "id": "023845",
@@ -24069,13 +24069,13 @@
     "id": "024011",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>250</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{ 1, 2, (Brand has expired) }</>Pathway Specialization increased by <Mark>250</>. After more than <Mark>2</> seconds since last taking damage, Armor Break is increased by <Mark>70</>, lasting for <Mark>5</> seconds. \\nDoes not take effect when the set <Mark>Echo of Spirit and Knowledge</> is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация Pathway улучшает <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличивается на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "024012",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>穿刺提高<Mark>90</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>90</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(срок годности марки истек)}</>Прокол увеличился <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок годности марки истек)}</>Пронзание увеличилось на <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "024013",
@@ -24927,7 +24927,7 @@
     "id": "024154",
     "source_cn": "【死神装备】额外获得<HighLight>5%</>伤害减免。",
     "ref_en": "[Death Equipment] provides an additional <HighLight>5%</> Damage Reduction.",
-    "target_ru": "[Снаряжение смерти] Дополнительно снижает урон на <HighLight>5%</>."
+    "target_ru": "[Снаряжение смерти] Дополнительное снижение урона на <HighLight>5%</>."
   },
   {
     "id": "024155",
@@ -28941,7 +28941,7 @@
     "id": "024823",
     "source_cn": "忽视目标的护甲，降低目标对物理或魔法攻击的抵抗。破甲超过目标的护甲时，超出部分每3点转换为1点攻击。\\n\\n角色破甲：{*d,F1690001,ShieldBreak}",
     "ref_en": "Ignores the target's Armor, reducing the target's resistance to physical or magic attacks. When Armor Break exceeds the target's Armor, every 3 points of excess are converted into 1 point of Attack. \\n \\n Character Armor Break: {*d,F1690001,ShieldBreak}",
-    "target_ru": "Игнорирует броню цели, снижая ее сопротивление физическим или магическим атакам. Когда пробитие брони превышает броню цели, каждые 3 очка превышения будут конвертированы в 1 очко атаки. \n\nПрорыв брони персонажа: {*d,F1690001,ShieldBreak}"
+    "target_ru": "Игнорирует броню цели, снижая ее сопротивление физическим или магическим атакам. Когда пробивание брони превышает броню цели, каждые 3 очка превышения будут конвертированы в 1 очко атаки. \n\nПробивание брони персонажа: {*d,F1690001,ShieldBreak}"
   },
   {
     "id": "024824",

@@ -270,7 +270,7 @@ return {
     ["Observe the mirror and attack the real Bonnie!"] = "Наблюдайте за зеркалом и атакуйте настоящую Бонни!",
     ["Rozanne walks toward you"] = "Розанна идет к тебе",
     ["Dunn: *Cough*!"] = "Данн: *Кашель*!",
-    ["Tingen Noblewoman Atmosphere - Successfully Broken"] = "Атмосфера дворянки Тинген — успешно разрушена",
+    ["Tingen Noblewoman Atmosphere - Successfully Broken"] = "Атмосфера дворянки Тинген — успешный прорыв защиты",
     ["Corrupted Person"] = "Коррумпированный человек",
     ["Level 64 Competitive Brand Equipment Selection Box"] = "Коробка выбора снаряжения конкурентной марки 64-го уровня",
     ["It's time to say goodbye to this damn foggy weather!"] = "Пришло время попрощаться с этой чертовой туманной погодой!",

@@ -234,7 +234,7 @@ return {
     ["Chivalry Points"] = "Очки рыцарства",
     ["They all perished... Is this true?"] = "Они все погибли... Это правда?",
     ["Open Door Pedal"] = "Педаль открытой двери",
-    ["Arm Monster Armor Break"] = "Рука Монстр Прорыв Брони",
+    ["Arm Monster Armor Break"] = "Рука-монстр — прорыв защиты",
     ["Stationary Group Dance"] = "Стационарный групповой танец",
     ["White"] = "Белый",
     ["Relationship Favor - Quick Interaction"] = "Благосклонность в отношениях – быстрое взаимодействие",

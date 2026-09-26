@@ -2115,7 +2115,7 @@
     "id": "030352",
     "source_cn": "攻击减少*d，穿刺减少*d，暴击减少*d。",
     "ref_en": "Attack reduced by *d, Pierce reduced by *d, Crit reduced by *d.",
-    "target_ru": "Атака уменьшена на *d, проникающая способность уменьшена на *d, крит уменьшен на *d."
+    "target_ru": "Атака уменьшена на *d, пронзание уменьшено на *d, критический удар уменьшен на *d."
   },
   {
     "id": "030353",
@@ -6099,7 +6099,7 @@
     "id": "031016",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>，获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>并获得*f秒15%<HighLight>减伤</>效果，在自身当前位置放置一个火焰信标，然后向目标位置闪现。在自身消失位置和目标位置周围小范围内造成*d点物理伤害。\\n施法后3秒内可以释放连招，连招释放时获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，闪回火焰信标所在的位置，在自身消失位置和火焰信标位置周围小范围内再次造成*d点物理伤害。",
     "ref_en": "Cleanse yourself of <HyperLink stylename=\"M_Link\" u=\"3\">control effects</>, gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, and gain a 15% <HighLight>Damage Reduction</> effect for *f seconds. Place a flame beacon at your current position, then flash to the target location. Deal *d physical damage in a small area around your disappearance point and the target location. \\nA combo can be released within 3 seconds after casting. Upon releasing the combo, gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> and flash back to the flame beacon's location, dealing *d physical damage again in a small area around your disappearance point and the flame beacon's location.",
-    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>, дарует <HyperLink stylename=\"M_Link\" u=\"11\">непоколебимость</> на *f сек. и <HighLight>снижение входящего урона</> на 15% на *f сек., оставляет огненный маяк в текущей точке, после чего персонаж перемещается в указанную область. В точке исчезновения и в точке прибытия наносит *d ед. физического урона в небольшом радиусе.\nВ течение 3 сек. после применения можно активировать комбо: дарует <HyperLink stylename=\"M_Link\" u=\"11\">непоколебимость</> на *f сек. и возвращает к огненному маяку, повторно нанося *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и маяка."
+    "target_ru": "Снимает с себя <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>, дарует <HyperLink stylename=\"M_Link\" u=\"11\">суперброню</> на *f сек. и <HighLight>снижение входящего урона</> на 15% на *f сек., оставляет огненный маяк в текущей точке, после чего персонаж перемещается в указанную область. В точке исчезновения и в точке прибытия наносит *d ед. физического урона в небольшом радиусе.\nВ течение 3 сек. после применения можно активировать комбо: дарует <HyperLink stylename=\"M_Link\" u=\"11\">суперброню</> на *f сек. и возвращает к огненному маяку, повторно нанося *d ед. физического урона в небольшом радиусе вокруг точек исчезновения и маяка."
   },
   {
     "id": "031017",
@@ -10719,7 +10719,7 @@
     "id": "031786",
     "source_cn": "破防增加*d",
     "ref_en": "Armor Break increased *d",
-    "target_ru": "Пробитие брони увеличено *d"
+    "target_ru": "Прорыв защиты увеличен *d"
   },
   {
     "id": "031787",
@@ -11487,7 +11487,7 @@
     "id": "031914",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">控制效果</>，并在4秒内获得<HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">霸体</>和承受伤害降低50%效果，将每次受到伤害里不超过生命值上限10%的部分，按{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}倍反弹给攻击者（对8米外的目标，反弹伤害额外衰减，最多衰减至8米内的20%）。\\n效果结束时，震碎牢笼，对周身8米内的最多6名敌对目标造成伤害，并对其施加持续10秒的眩目效果，使其攻击降低。",
     "ref_en": "Remove <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"> crowd control effects</> from yourself, gain <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"> Super Armor </> and 50% damage reduction for 4 seconds. Reflect a portion of each instance of damage taken (up to 10% of your max health) back to the attacker at {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} times the value (reflected damage is further reduced for targets beyond 8 meters, down to 20% of the value within 8 meters). \\n When the effect ends, shatter the cage, dealing damage to up to 6 hostile targets within 8 meters and applying a 10-second blinding effect that reduces their attack.",
-    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"></>, и в течение 4 секунд вы получите <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">гегемонное тело</> и эффект снижения получаемого урона на 50%. Каждый раз, когда полученный урон не превышает 10% от верхнего предела здоровья, нажмите {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6} {CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} раз отскока к атакующему (для целей 8) метров, урон от отскока будет дополнительно уменьшен до 20% в радиусе 8 метров). \n Когда эффект закончится, клетка разобьется, нанося урон до 6 враждебным целям в радиусе 8 метров и применяя ослепляющий эффект, который длится 10 секунд, чтобы уменьшить их атаку."
+    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"></>, и в течение 4 секунд вы получите <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">суперброню</> и эффект снижения получаемого урона на 50%. Каждый раз, когда полученный урон не превышает 10% от верхнего предела здоровья, нажмите {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6} {CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} раз отскока к атакующему (для целей 8) метров, урон от отскока будет дополнительно уменьшен до 20% в радиусе 8 метров). \n Когда эффект закончится, клетка разобьется, нанося урон до 6 враждебным целям в радиусе 8 метров и применяя ослепляющий эффект, который длится 10 секунд, чтобы уменьшить их атаку."
   },
   {
     "id": "031915",
@@ -15897,7 +15897,7 @@
     "id": "032649",
     "source_cn": "途径专攻提高*d，穿刺提高*d",
     "ref_en": "Pathway Specialization increased by *d, Pierce increased by *d",
-    "target_ru": "Специализация Pathway увеличена на *d, Пирс увеличен на *d"
+    "target_ru": "Специализация Пути увеличена на *d, Пронзание увеличено на *d"
   },
   {
     "id": "032650",
@@ -21099,7 +21099,7 @@
     "id": "033516",
     "source_cn": "仲裁人-精神穿刺",
     "ref_en": "Arbiter - Mental Pierce",
-    "target_ru": "Арбитр - Ментальный Пирс"
+    "target_ru": "Арбитр - Ментальное пронзание"
   },
   {
     "id": "033517",
@@ -23223,7 +23223,7 @@
     "id": "033870",
     "source_cn": "释放技能为怀表上弦，每次上弦使怀表转动<Mark>3</>秒，每秒最多上弦一次，怀表转动时穿刺提高<Mark>75</>。",
     "ref_en": "Releasing a skill cocks the pocket watch. Each cocking makes the watch turn for <Mark>3</> seconds, with a maximum of one cocking per second. While the watch is turning, Piercing is increased by <Mark>75</>.",
-    "target_ru": "При использовании навыка карманные часы взводятся. При каждом взводе часы поворачиваются на <Mark>3</> секунд, максимум один взвод в секунду. Пока часы вращаются, прокалывание увеличивается на <Mark>75</>."
+    "target_ru": "При использовании навыка карманные часы взводятся. При каждом взводе часы поворачиваются на <Mark>3</> секунд, максимум один взвод в секунду. Пока часы вращаются, пронзание увеличивается на <Mark>75</>."
   },
   {
     "id": "033871",
@@ -27609,7 +27609,7 @@
     "id": "034601",
     "source_cn": "替身死亡技能霸体",
     "ref_en": "Substitute Death Skill Super Armor.",
-    "target_ru": "Замените навык смерти «Супер броня»."
+    "target_ru": "Навык смерти двойника: Суперброня."
   },
   {
     "id": "034602",

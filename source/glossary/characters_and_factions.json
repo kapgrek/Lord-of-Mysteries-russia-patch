@@ -1,4 +1,4 @@
-﻿{
+{
   "tarot_club": [
     { "ru": "Господин Шут (Клейн Моретти)", "en": "Mr. Fool (Klein Moretti)", "cn": "愚者先生 (克莱恩·莫雷蒂)", "card": "Шут (0)" },
     { "ru": "Мисс Справедливость (Одри Холл)", "en": "Miss Justice (Audrey Hall)", "cn": "正义 (奥黛丽·霍尔)", "card": "Справедливость (XI)" },
@@ -22,7 +22,7 @@
     { "ru": "Сьюзи", "en": "Susie", "cn": "苏茜", "note": "Золотистый ретривер, Чтец Мыслей Одри" }
   ],
   "churches_and_factions": [
-    { "ru": "Церковь Вечной Ночи", "en": "Church of the Evernight Goddess", "cn": "黑夜女神教会" },
+    { "ru": "Церковь Богини Вечной Ночи", "en": "Church of the Evernight Goddess", "cn": "黑夜女神教会" },
     { "ru": "Церковь Повелителя Бурь", "en": "Church of the Lord of Storms", "cn": "风暴之主教会" },
     { "ru": "Церковь Бога Пара и Машин", "en": "Church of the God of Steam and Machinery", "cn": "蒸汽与机械之神教会" },
     { "ru": "Церковь Вечного Палящего Солнца", "en": "Church of the Eternal Blazing Sun", "cn": "永恒烈阳教会" },

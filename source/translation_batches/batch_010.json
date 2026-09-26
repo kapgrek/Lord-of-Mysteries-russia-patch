@@ -4443,7 +4443,7 @@
     "id": "045740",
     "source_cn": "忽视目标的物理格挡，在基础穿刺率<Highlight>75%</>的基础上，提高物理伤害穿刺（未被格挡）的概率。\\n穿刺率存在<Highlight>100%</>的上限和<Highlight>25%</>的下限，提升的穿刺超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>物理格挡</>属性的对抗结算。",
     "ref_en": "Ignores the target's Physical Block. Based on the base Pierce rate of <Highlight> 75% </>, it increases the probability of physical damage piercing (not being blocked). \\n The Pierce rate has an upper limit of <Highlight> 100% </> and a lower limit of <Highlight> 25% </>; if the increased Pierce exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage boosting capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Physical Block </> attribute.",
-    "target_ru": "Игнорирует физ. блок цели, повышая вероятность пробития физическим уроном (без блокирования) на основе базового шанса пробития <Highlight>75%</>.\nШанс пробития имеет верхний предел <Highlight>100%</> и нижний предел <Highlight>25%</>; если повышенное пробитие превышает верхний порог или не достигает нижнего, оно не увеличивает наносимый урон.\nФактический эффект и пороги зависят от <Highlight>уровня</> атакующего и защищающегося, а также от соотношения с параметром <Highlight>физ. блока</> противника."
+    "target_ru": "Игнорирует физ. блок цели, повышая вероятность пронзания физическим уроном (без блокирования) на основе базового шанса пронзания <Highlight>75%</>.\nШанс пронзания имеет верхний предел <Highlight>100%</> и нижний предел <Highlight>25%</>; если повышенное пронзание превышает верхний порог или не достигает нижнего, оно не увеличивает наносимый урон.\nФактический эффект и пороги зависят от <Highlight>уровня</> атакующего и защищающегося, а также от соотношения с параметром <Highlight>физ. блока</> противника."
   },
   {
     "id": "045741",
@@ -11289,7 +11289,7 @@
     "id": "046881",
     "source_cn": "did破防2",
     "ref_en": "did Armor Break 2",
-    "target_ru": "сделал Armor Break 2"
+    "target_ru": "did Прорыв защиты 2"
   },
   {
     "id": "046882",
@@ -12063,7 +12063,7 @@
     "id": "047010",
     "source_cn": "+10%伤害减免 HP<50%额外15%伤减",
     "ref_en": "+10% Damage Reduction, additional 15% Damage Reduction when HP < 50%",
-    "target_ru": "+10% уменьшения урона, дополнительно 15% уменьшения урона, если HP < 50%."
+    "target_ru": "+10% снижения урона, дополнительно 15% снижения урона, если HP < 50%."
   },
   {
     "id": "047011",
@@ -14133,7 +14133,7 @@
     "id": "047355",
     "source_cn": "神圣盔甲持续期间，自身获得40%伤害加深，且在施法后进入持续6秒的烈阳状态，可与其它效果施加的烈阳状态互相叠加时长。",
     "ref_en": "While Holy Armor is active, you gain 40% Damage Increase and enter the Blazing Sun state for 6 seconds after casting, which can stack duration with Blazing Sun states applied by other effects.",
-    "target_ru": "Пока активна «Святая броня», вы получаете увеличение урона на 40% и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами."
+    "target_ru": "Пока активна «Святая броня», вы получаете усиление урона на 40% и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами."
   },
   {
     "id": "047356",
@@ -15897,7 +15897,7 @@
     "id": "047649",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">圣光净化</>额外提升暴击和穿刺，增伤效果提高5%。;\\n<HyperLink stylename=\"M_Link\" u=\"86011010\" color=\"#f4a067\">净化之斩</>变为可充能2次的充能技能，且造成伤害提高15%。",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Holy Light Purification</> additionally increases critical hit rate and piercing, and the Damage Boost effect is increased by 5%; \\n<HyperLink stylename=\"M_Link\" u=\"86011010\" color=\"#f4a067\">Purifying Slash</> becomes a chargeable skill with 2 charges, and damage dealt is increased by 15%.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Очищение священным светом</> дополнительно повышает шанс крит. удара и пробитие, а эффект увеличения урона возрастает на 5%;\n<HyperLink stylename=\"M_Link\" u=\"86011010\" color=\"#f4a067\">Очищающий удар</> становится заряжаемым навыком с 2 зарядами, а наносимый им урон повышается на 15%."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Очищение священным светом</> дополнительно повышает шанс крит. удара и пронзание, а эффект увеличения урона возрастает на 5%;\n<HyperLink stylename=\"M_Link\" u=\"86011010\" color=\"#f4a067\">Очищающий удар</> становится заряжаемым навыком с 2 зарядами, а наносимый им урон повышается на 15%."
   },
   {
     "id": "047650",
@@ -16149,7 +16149,7 @@
     "id": "047691",
     "source_cn": "在2.7秒内向锁定目标持续发射空气子弹，造成5次bulletdisc(*id)点物理伤害并<HyperLink stylename=\"M_Link\" u=\"2\">打断</>敌方怪物；施法过程中可以移动，并在释放时获得*f秒的<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>和*d**加速。施法结束后获得一点<HighLight>卡牌能量</>和一张<HighLight>灵性蓝牌</>。\\n\\n<FaintYellow>命运黄牌</>/<FaintYellow>灵性蓝牌</>：获得三张<HighLight>命运黄牌</>/<HighLight>灵性蓝牌</>时消耗所有卡牌，使<HighLight>终结技能洗牌</>切换至<HighLight>命运愚弄</>/<HighLight>灵性爆发</>。\\n<FaintYellow>卡牌能量</>：最多持有5点，达到5点时<HighLight>终结技能</>切换并锁定为<HighLight>洗牌</>",
     "ref_en": "Continuously fire Air Bullets at the locked target for 2.7 seconds, dealing bulletdisc(*id) physical damage 5 times and <HyperLink stylename=\"M_Link\" u=\"2\">interrupting</> enemy monsters; you can move while casting and gain *f seconds of <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> and *d% Acceleration upon activation. After casting, gain one point of <HighLight>Card Energy</> and one <HighLight>Spirituality Blue Card</>. \\n\\n<FaintYellow>Fooling of Fate Yellow Card</>/<FaintYellow>Spirituality Blue Card</>: When three <HighLight>Fooling of Fate Yellow Cards</>/<HighLight>Spirituality Blue Cards</> are collected, consume all cards to switch the <HighLight>Finisher Skill Shuffle</> to <HighLight>Fooling of Fate</>/<HighLight>Spirituality Burst</>. \\n<FaintYellow>Card Energy</>: Can hold up to 5 points. When reaching 5 points, the <HighLight>Finisher Skill</> switches and locks to <HighLight>Shuffle Cards</>",
-    "target_ru": "Непрерывно выпускает воздушные пули в захваченную цель в течение 2,7 сек., нанося 5 раз по bulletdisc(*id) ед. физического урона и <HyperLink stylename=\"M_Link\" u=\"2\">прерывая</> вражеских монстров; во время применения можно перемещаться, а при активации даётся *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимости к контролю</> и ускорение на *d**. После завершения даёт 1 ед. <HighLight>энергии карт</> и 1 <HighLight>Синюю карту духовности</>.\n\n<FaintYellow>Жёлтая карта судьбы</> / <FaintYellow>Синяя карта духовности</>: при сборе 3 <HighLight>Жёлтых карт судьбы</> / <HighLight>Синих карт духовности</> расходует все карты, переключая <HighLight>завершающий навык «Тасование»</> на <HighLight>«Одурачивание судьбы»</> / <HighLight>«Всплеск духовности»</>.\n<FaintYellow>Энергия карт</>: накапливается до 5 ед.; при 5 ед. <HighLight>завершающий навык</> переключается и фиксируется на <HighLight>«Тасовании»</>"
+    "target_ru": "Непрерывно выпускает воздушные пули в захваченную цель в течение 2,7 сек., нанося 5 раз по bulletdisc(*id) ед. физического урона и <HyperLink stylename=\"M_Link\" u=\"2\">прерывая</> вражеских монстров; во время применения можно перемещаться, а при активации даётся *f сек. <HyperLink stylename=\"M_Link\" u=\"11\">суперброни</> и ускорение на *d**. После завершения даёт 1 ед. <HighLight>энергии карт</> и 1 <HighLight>Синюю карту духовности</>.\n\n<FaintYellow>Жёлтая карта судьбы</> / <FaintYellow>Синяя карта духовности</>: при сборе 3 <HighLight>Жёлтых карт судьбы</> / <HighLight>Синих карт духовности</> расходует все карты, переключая <HighLight>завершающий навык «Тасование»</> на <HighLight>«Одурачивание судьбы»</> / <HighLight>«Всплеск духовности»</>.\n<FaintYellow>Энергия карт</>: накапливается до 5 ед.; при 5 ед. <HighLight>завершающий навык</> переключается и фиксируется на <HighLight>«Тасовании»</>"
   },
   {
     "id": "047692",
@@ -16785,7 +16785,7 @@
     "id": "047797",
     "source_cn": "GTA堕落神父破防2",
     "ref_en": "GTA Fallen Priest Armor Break 2",
-    "target_ru": "GTA Падший Священник Пробитие брони 2"
+    "target_ru": "GTA Падший Священник Прорыв защиты 2"
   },
   {
     "id": "047798",
@@ -18555,7 +18555,7 @@
     "id": "048092",
     "source_cn": "减免受到魔法伤害的攻击基础值，无法减免魔法伤害的技能基础值。\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的防御超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>，与对方<Highlight>魔法破防</>、<Highlight>忽视魔法防御</>属性的对抗结算。",
     "ref_en": "Reduces the base Attack value of received magic damage; cannot reduce the base Skill value of magic damage. \\n The base Attack value after reduction has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 20% </>; if the increased Defense exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage reduction capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Magic Armor Break </> and <Highlight> Ignore Magic Defense </> attributes.",
-    "target_ru": "Снижает базовое значение атаки при получении магического урона; не снижает базовое значение навыка магического урона.\nСниженное базовое значение атаки имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>; если повышенная защита превышает верхний порог или не достигает нижнего порога, эффективность снижения урона не возрастает.\nФактический эффект и пороги зависят от <Highlight>уровня</> атакующего и защитника, а также от расчёта противодействия параметрам противника <Highlight>«Магическое пробивание защиты»</> и <Highlight>«Игнорирование магической защиты»</>."
+    "target_ru": "Снижает базовое значение атаки при получении магического урона; не снижает базовое значение навыка магического урона.\nСниженное базовое значение атаки имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>; если повышенная защита превышает верхний порог или не достигает нижнего порога, эффективность снижения урона не возрастает.\nФактический эффект и пороги зависят от <Highlight>уровня</> атакующего и защитника, а также от расчёта противодействия параметрам противника <Highlight>«Магический прорыв защиты»</> и <Highlight>«Игнорирование магической защиты»</>."
   },
   {
     "id": "048093",
@@ -21201,7 +21201,7 @@
     "id": "048533",
     "source_cn": "装备-破甲光环-2格",
     "ref_en": "Equipment - Armor Break Aura - 2 Tiles",
-    "target_ru": "Снаряжение — Аура пробития брони — 2 плитки"
+    "target_ru": "Снаряжение — Аура пробивания брони — 2 плитки"
   },
   {
     "id": "048534",
@@ -21369,7 +21369,7 @@
     "id": "048561",
     "source_cn": "BOSS破防标记buff",
     "ref_en": "BOSS Armor Break Mark Buff",
-    "target_ru": "БОСС: усиление отметки пробития брони"
+    "target_ru": "БОСС: усиление отметки прорыва защиты"
   },
   {
     "id": "048562",
@@ -22305,7 +22305,7 @@
     "id": "048717",
     "source_cn": "失控占卜家-破防表演",
     "ref_en": "Out-of-control Seer-Armor Break Performance",
-    "target_ru": "Вышедшая из-под контроля эффективность прорыва брони провидца"
+    "target_ru": "Вышедшая из-под контроля эффективность прорыва защиты провидца"
   },
   {
     "id": "048718",
@@ -24771,7 +24771,7 @@
     "id": "049128",
     "source_cn": "穿刺提高<Mark>120</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。",
     "ref_en": "Piercing increased by <Mark>120</>. While in combat, increases the entire team's Critical Hit by <Mark>30</> and reduces Defense by <Mark>15</>.",
-    "target_ru": "Прокалывание увеличено на <Mark>120</>. В бою увеличивает критический удар всей команды на <Mark>30</> и снижает защиту на <Mark>15</>."
+    "target_ru": "Пронзание увеличено на <Mark>120</>. В бою увеличивает критический удар всей команды на <Mark>30</> и снижает защиту на <Mark>15</>."
   },
   {
     "id": "049129",
@@ -25029,7 +25029,7 @@
     "id": "049171",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">知识逐人</>额外获取10点<HighLight>神秘知识</>;\\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">星沙</>的伤害提高50%，额外获取10点<HighLight>神秘知识</>，降低穿刺的数值提高",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\"> Knowledge Pursuit </> gains an additional 10 points of <HighLight> Mystical Knowledge </>. \\n <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\"> Star Sand </> damage increased by 50%, gains an additional 10 points of <HighLight> Mystical Knowledge </>, and increases the Pierce value reduction.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Погоня знаний</> дополнительно даёт 10 ед. <HighLight>мистических знаний</>;\nУрон навыка <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Звёздный песок</> повышается на 50%, он дополнительно даёт 10 ед. <HighLight>мистических знаний</>, а величина снижения пробития увеличивается."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Погоня знаний</> дополнительно даёт 10 ед. <HighLight>мистических знаний</>;\nУрон навыка <HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Звёздный песок</> повышается на 50%, он дополнительно даёт 10 ед. <HighLight>мистических знаний</>, а величина снижения пронзания увеличивается."
   },
   {
     "id": "049172",
@@ -29469,7 +29469,7 @@
     "id": "049911",
     "source_cn": "青蛙王子破防",
     "ref_en": "Frog Prince Armor Break",
-    "target_ru": "Прорыв брони принца-лягушки"
+    "target_ru": "Прорыв защиты принца-лягушки"
   },
   {
     "id": "049912",
@@ -29895,7 +29895,7 @@
     "id": "049982",
     "source_cn": "忽视目标的物理防御或魔法防御（百分比效果后于固定值效果生效），基于攻击伤害类型。\\n\\n角色物理破防：{*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi}\\n角色魔法破防：{*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi}",
     "ref_en": "Ignores the target's physical defense or magic defense (percentage effects take effect after fixed value effects), based on the attack damage type. \\n \\n Character Physical Armor Break: {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi} \\n Character Magic Armor Break: {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi}",
-    "target_ru": "Игнорирует физическую или магическую защиту цели (процентный эффект вступает в силу после эффекта фиксированного значения), в зависимости от типа урона от атаки. \n\nФизическая защита персонажа сломлена: {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi}\nМагическая защита персонажа сломлена: {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi}"
+    "target_ru": "Игнорирует физическую или магическую защиту цели (процентный эффект вступает в силу после эффекта фиксированного значения), в зависимости от типа урона от атаки. \n\nФизический прорыв защиты персонажа: {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi}\nМагический прорыв защиты персонажа: {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi}"
   },
   {
     "id": "049983",
@@ -29961,7 +29961,7 @@
     "id": "049993",
     "source_cn": "提高穿刺170，释放位移技能时，穿刺额外提高430，持续10秒，每8秒最多触发一次。",
     "ref_en": "Increases Pierce by 170. When releasing a Displacement Skill, Pierce is additionally increased by 430 for 10 seconds. Can be triggered at most once every 8 seconds.",
-    "target_ru": "Увеличивает прокалывание на 170. При использовании навыка смещения прокалывание дополнительно увеличивается на 430 на 10 секунд. Может срабатывать не чаще одного раза в 8 секунд."
+    "target_ru": "Увеличивает пронзание на 170. При использовании навыка смещения пронзание дополнительно увеличивается на 430 на 10 секунд. Может срабатывать не чаще одного раза в 8 секунд."
   },
   {
     "id": "049994",

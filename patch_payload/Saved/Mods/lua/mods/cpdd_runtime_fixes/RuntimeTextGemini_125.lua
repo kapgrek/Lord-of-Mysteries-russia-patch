@@ -232,7 +232,7 @@ return {
     ["Matt"] = "Мэтт",
     ["{{ Mr. | Ms. }}, would you like a salted fish? Or perhaps a newly developed salted fish delicacy? Or maybe some concentrated salted fish flavored soup?"] = "{{ Mr. | Ms. }}, хочешь соленую рыбку? Или, может быть, недавно разработанный деликатес из соленой рыбы? А может быть, какой-нибудь концентрированный суп со вкусом соленой рыбы?",
     ["Divination Danger"] = "Гадание Опасность",
-    ["Armor Break increased <Yellow>*d</>."] = "Пробитие брони увеличено <Yellow>*d</>.",
+    ["Armor Break increased <Yellow>*d</>."] = "Прорыв защиты увеличен <Yellow>*d</>.",
     ["Zhou Haitao-Hidden Path Component End"] = "Чжоу Хайтао — Конец компонента «Скрытый путь»",
     ["There are some extraordinary, secret incidents in this world, such as the mysterious gray fog space guided by the Fortune-Turning Ritual. It's truly amazing..."] = "В этом мире происходят необычные, секретные происшествия, такие как таинственное пространство серого тумана, управляемое Ритуалом поворота судьбы. Это действительно потрясающе...",
     ["However, his mind has not fully recovered yet, and he will have to rest for a while recently."] = "Однако его разум еще не полностью восстановился, и в последнее время ему придется немного отдохнуть.",

@@ -19,7 +19,7 @@ return {
     ["Enforcer: [Enforcer] units stack Attack Speed with each attack, up to <HighLight>10</> stacks."] = "Блюститель: Каждая атака [Блюстителя] увеличивает скорость атаки, суммируясь до <HighLight>10</> раз.",
     ["Declaration of Conquest"] = "Декларация завоевания",
     ["Unlock by obtaining Floral Mirror Gala outfit"] = "Разблокируется при получении наряда «Цветочный зеркальный пир»",
-    ["Increases Piercing by {*d,Ini,pPierce_N} points and Block by {*d,Ini,pBlock_N} points."] = "Повышает пробивание на {*d,Ini,pPierce_N} ед., блокирование — на {*d,Ini,pBlock_N} ед.",
+    ["Increases Piercing by {*d,Ini,pPierce_N} points and Block by {*d,Ini,pBlock_N} points."] = "Повышает пронзание на {*d,Ini,pPierce_N} ед., блокирование — на {*d,Ini,pBlock_N} ед.",
     ["NPC_Travel Guide"] = "NPC-гид",
     ["Side Quest: Dreams Come True, Chapter 3, Paragraph 8"] = "Доп. задание: Сбывшаяся мечта — Глава 3, часть 8",
     ["No response... Could it be that she didn't go home?"] = "Никакого ответа... Неужели она не вернулась домой?",

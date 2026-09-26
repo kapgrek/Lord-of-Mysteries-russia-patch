@@ -197,7 +197,7 @@ return {
     ["Ah, Mr. Freckles. You've dressed yourself like the starry sky, but tonight's luck doesn't need so many stars."] = "Ах, мистер Веснушки. Ты нарядился звездным небом, но сегодняшней удаче не нужно столько звезд.",
     ["The document is just waste paper, you are the urgent 'express'."] = "Документ — просто макулатура, вы — срочный «экспресс».",
     ["Amber Dried Shrimp"] = "Янтарные сушеные креветки",
-    ["Competition Armor Break buff"] = "Усиление «Пробитие брони» для соревнований",
+    ["Competition Armor Break buff"] = "Усиление «Прорыв защиты» для соревнований",
     ["Let's go. Take your \"darling,\" thank this {{brother|sister}} who helped me find you, and let's go home."] = "Пойдем. Бери свою «любимую», поблагодари этого {{brother|sister}}, который помог мне тебя найти, и поехали домой.",
     ["How much is this amulet?"] = "Сколько стоит этот амулет?",
     ["Nara Colley"] = "Нара Колли",

@@ -210,7 +210,7 @@ return {
     ["As a customer, this damn money is really worthless."] = "Для клиента эти проклятые деньги действительно бесполезны.",
     ["Unable to continue fighting; entering spectator mode in 3 seconds."] = "Невозможно продолжать бой; вход в режим наблюдателя через 3 секунды.",
     ["They really are going to sacrifice all of Tingen to pray for the birth of the evil god's offspring!"] = "Они действительно собираются принести в жертву весь Тинген, чтобы помолиться за рождение потомства злого бога!",
-    ["Increases Pierce by 75 and Critical Hit by 80."] = "Увеличивает проникающую способность на 75 и критический удар на 80.",
+    ["Increases Pierce by 75 and Critical Hit by 80."] = "Увеличивает пронзание на 75 и критический удар на 80.",
     ["The room will close in %s seconds, don't forget to add friends"] = "Комната закроется через %s секунд, не забудьте добавить друзей.",
     ["Tingen entrance 1"] = "Тинген, вход 1",
     ["Ah, that was a finished product bought from Slin's bakery..."] = "А, это был готовый продукт, купленный в пекарне Слина...",

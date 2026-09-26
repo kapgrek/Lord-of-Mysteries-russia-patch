@@ -22,7 +22,7 @@ return {
     ["But he is very lively, not much like a teacher—what teacher spends all day doing experiments like \"Golden Rain\" to coax his wife into being happy..."] = "Но он очень живой, не совсем как учитель - как может учитель целыми днями ставить эксперименты типа \"Золотого дождя\" и использовать их, чтобы осчастливить свою жену...",
     ["The bed is a bit hard today..."] = "Кровать сегодня немного жесткая...",
     ["Sunflowers bloom on top of the shoe cabinet, adding a touch of brightness to the entryway."] = "Подсолнухи цветут в верхней части обувного шкафа, добавляя немного больше ясности при входе и выходе.",
-    ["*d seconds of Super Armor"] = "*dВторое тело",
+    ["*d seconds of Super Armor"] = "*d сек. суперброни",
     ["Add Custom Template"] = "Добавить собственный шаблон",
     ["Monster Marionette - Clown"] = "Монстр Марионетка-Джокер",
     ["Clean up abandoned house empty house trigger"] = "Триггер «Очистить пустой дом»",

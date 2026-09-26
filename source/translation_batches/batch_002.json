@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "005000",
     "source_cn": "分红奖励已发放",
@@ -27,7 +27,7 @@
     "id": "005004",
     "source_cn": "受到玩家和建筑类型的敌方攻击时，抵消其专攻。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from player and building type enemies, negates their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от врагов типа «игрок» и «строение» нейтрализует их особую атаку. (Снижает особую атаку атакующего максимум до 0)"
+    "target_ru": "При получении атак от врагов типа «игрок» и «строение» нейтрализует их специализацию. (Снижает специализацию атакующего максимум до 0)"
   },
   {
     "id": "005005",
@@ -657,7 +657,7 @@
     "id": "005109",
     "source_cn": "伤害加深。",
     "ref_en": "Damage amplification.",
-    "target_ru": "Увеличение получаемого урона."
+    "target_ru": "Усиление урона."
   },
   {
     "id": "005110",
@@ -1821,7 +1821,7 @@
     "id": "005303",
     "source_cn": "生命+5250、破防+714",
     "ref_en": "Health +5250, Armor Break +714",
-    "target_ru": "Здоровье +5250, пробивание защиты +714"
+    "target_ru": "Здоровье +5250, прорыв защиты +714"
   },
   {
     "id": "005304",
@@ -4317,7 +4317,7 @@
     "id": "005719",
     "source_cn": "破防提高<Mark>95</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。",
     "ref_en": "Defense Break increased by <Mark>95</>. Using skills and basic attacks will attract the gaze of 2-049. After the gaze stacks three times, it deals additional damage, which can trigger at most once every <Mark>4</> seconds.",
-    "target_ru": "Пробивание защиты увеличивается на <Mark>95</>. Применение навыков и базовых атак привлекает взор 2-049; после трех уровней взора наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> сек."
+    "target_ru": "Прорыв защиты увеличивается на <Mark>95</>. Применение навыков и базовых атак привлекает взор 2-049; после трех уровней взора наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> сек."
   },
   {
     "id": "005720",
@@ -4473,7 +4473,7 @@
     "id": "005745",
     "source_cn": "魔法途径专攻",
     "ref_en": "Magical Pathway Specialization",
-    "target_ru": "Особая атака магических путей"
+    "target_ru": "Специализация магического Пути"
   },
   {
     "id": "005746",
@@ -11769,7 +11769,7 @@
     "id": "006961",
     "source_cn": "解除自身受到的控制状态，并获得霸体、减伤、反弹伤害效果。效果结束后，对附近敌对目标造成伤害，并对其施加攻击降低效果。",
     "ref_en": "Remove crowd control states from yourself and gain Super Armor, damage reduction, and damage reflection effects. After the effect ends, deal damage to nearby hostile targets and apply an attack reduction effect.",
-    "target_ru": "Снимает с себя эффекты контроля, дает невосприимчивость к прерыванию, снижение входящего урона и отражение урона. По окончании действия наносит урон ближайшим врагам и снижает их силу атаки."
+    "target_ru": "Снимает с себя эффекты контроля, дает Суперброню, снижение входящего урона и отражение урона. По окончании действия наносит урон ближайшим врагам и снижает их силу атаки."
   },
   {
     "id": "006962",
@@ -12825,7 +12825,7 @@
     "id": "007137",
     "source_cn": "冲锋期间全程获得霸体。",
     "ref_en": "Gains Super Armor for the entire duration of the Charge.",
-    "target_ru": "Во время рывка дает невосприимчивость к прерыванию на всё время действия."
+    "target_ru": "Во время рывка дает Суперброню на всё время действия."
   },
   {
     "id": "007138",
@@ -14535,7 +14535,7 @@
     "id": "007422",
     "source_cn": "变身成河豚，短暂延迟后爆炸，并向四周发射多个子弹。变身过程中全程霸体",
     "ref_en": "Transform into a Pufferfish, exploding after a short delay and firing multiple bullets in all directions. You have Super Armor throughout the transformation.",
-    "target_ru": "Превращает в рыбу-фугу: после небольшой задержки происходит взрыв, выпускающий множество снарядов во все стороны. Во время превращения действует непрерывная невосприимчивость к контролю."
+    "target_ru": "Превращает в рыбу-фугу: после небольшой задержки происходит взрыв, выпускающий множество снарядов во все стороны. Во время превращения на всём протяжении действует Суперброня."
   },
   {
     "id": "007423",
@@ -15009,7 +15009,7 @@
     "id": "007501",
     "source_cn": "驾驭海浪，可以通过方向键调整冲锋方向，期间获得最高4秒霸体、5秒加速效果。冲锋结束或手动释放二段时，造成*d点伤害。\\n装备技能获得被动：大世界中水上滑板和水中游泳速度增加5%。",
     "ref_en": "Ride the waves, using direction keys to adjust the charge direction, during which you gain up to 4 seconds of Super Armor and 5 seconds of acceleration. When the charge ends or the second stage is manually released, deal *d damage. \\n Equipment skill passive: Increases water hoverboard and swimming speed in the open world by 5%.",
-    "target_ru": "Оседлайте морские волны: клавишами направления можно менять вектор рывка; на это время даётся до 4 сек. невосприимчивости к контролю и на 5 сек. ускорение. По окончании рывка или при ручной активации второй фазы наносит *d ед. урона.\nПассивный эффект от экипировки навыка: скорость передвижения на водной доске и плавания в открытом мире увеличивается на 5%."
+    "target_ru": "Оседлайте морские волны: клавишами направления можно менять вектор рывка; на это время даётся до 4 сек. Суперброни и на 5 сек. ускорение. По окончании рывка или при ручной активации второй фазы наносит *d ед. урона.\nПассивный эффект от экипировки навыка: скорость передвижения на водной доске и плавания в открытом мире увеличивается на 5%."
   },
   {
     "id": "007502",
@@ -15027,7 +15027,7 @@
     "id": "007504",
     "source_cn": "<Yellow>奥尔米尔的冠冕</>：将佩戴者的解控技能置换成更强大的<Yellow>荣耀之证</>：\\n解除自身控制，进入4秒的<Yellow>光芒牢笼</>状态，期间获得<Yellow>霸体</>和<Yellow>50%</>减伤，将每次受到伤害里不超过生命值上限10%的部分，按<Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</>倍反弹给攻击者（对8米外的目标，反弹伤害额外衰减，最多衰减至8米内的20%）。<Yellow>光芒牢笼</>结束时，对周身8米内的最多6名敌对目标造成<Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?*d}{CheckStar(Type=\"sealed\",ID=2085010)=2?*d}{CheckStar(Type=\"sealed\",ID=2085010)=3?*d}</>点伤害，并对其施加持续<Yellow>10</>秒的<Yellow>眩目</>效果，使其攻击降低<Yellow>*d</>。\\n技能冷却时间：30秒。",
     "ref_en": "<Yellow>Almir's Crown</>: Replaces the wearer's Control Break Skill with the more powerful <Yellow>Proof of Glory</>: \\nRemoves all control effects from yourself and enter a 4-second <Yellow>Cage of Light</> state, during which you gain <Yellow>Super Armor</> and <Yellow>50%</> Damage Reduction. Any portion of damage received that does not exceed 10% of your maximum Health is reflected back to the attacker at <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</> times the value (for targets beyond 8 meters, the reflected damage is further reduced, down to a minimum of 20% of the damage within 8 meters). <Yellow>When the Cage of Light</> ends, deal <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?*d}{CheckStar(Type=\"sealed\",ID=2085010)=2?*d}{CheckStar(Type=\"sealed\",ID=2085010)=3?*d}</> damage to up to 6 hostile targets within 8 meters, and apply a <Yellow>10</>-second <Yellow>Dazzle</> effect, reducing their Attack by <Yellow>*d</>. \\nSkill Cooldown: 30 seconds.",
-    "target_ru": "<Yellow>Венец Ольмира</>: заменяет навык снятия контроля владельца на более могущественное <Yellow>Свидетельство славы</>:\nСнимает с себя эффекты контроля и вводит в состояние <Yellow>Сияющая клетка</> на 4 сек., давая <Yellow>невосприимчивость к контролю</> и <Yellow>50%</> снижение получаемого урона. Каждая порция получаемого урона, не превышающая 10% от макс. запаса здоровья, отражается обратно в атакующего с коэффициентом <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</> (по целям далее 8 м отражённый урон дополнительно снижается, вплоть до 20% от урона на дистанции до 8 м). По завершении действия <Yellow>Сияющей клетки</> наносит до 6 врагам в радиусе 8 м <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?*d}{CheckStar(Type=\"sealed\",ID=2085010)=2?*d}{CheckStar(Type=\"sealed\",ID=2085010)=3?*d}</> ед. урона и накладывает на них эффект <Yellow>Ослепление</> на <Yellow>10</> сек., снижая их атаку на <Yellow>*d</>.\nВремя восстановления: 30 сек."
+    "target_ru": "<Yellow>Венец Ольмира</>: заменяет навык снятия контроля владельца на более могущественное <Yellow>Свидетельство славы</>:\nСнимает с себя эффекты контроля и вводит в состояние <Yellow>Сияющая клетка</> на 4 сек., давая <Yellow>Суперброню</> и <Yellow>50%</> снижение получаемого урона. Каждая порция получаемого урона, не превышающая 10% от макс. запаса здоровья, отражается обратно в атакующего с коэффициентом <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</> (по целям далее 8 м отражённый урон дополнительно снижается, вплоть до 20% от урона на дистанции до 8 м). По завершении действия <Yellow>Сияющей клетки</> наносит до 6 врагам в радиусе 8 м <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?*d}{CheckStar(Type=\"sealed\",ID=2085010)=2?*d}{CheckStar(Type=\"sealed\",ID=2085010)=3?*d}</> ед. урона и накладывает на них эффект <Yellow>Ослепление</> на <Yellow>10</> сек., снижая их атаку на <Yellow>*d</>.\nВремя восстановления: 30 сек."
   },
   {
     "id": "007505",
@@ -18843,7 +18843,7 @@
     "id": "008140",
     "source_cn": "释放技能时，有概率提升<Mark>200</>点怪物专攻和<Mark>3%</>攻击，持续<Mark>8</>秒。冷却<Mark>20</>秒。",
     "ref_en": "When releasing a skill, there is a chance to increase <Mark>200</> Monster Specialization and <Mark>3%</> Attack for <Mark>8</> seconds. Cooldown <Mark>20</> seconds.",
-    "target_ru": "При применении навыка есть шанс повысить урон по монстрам на <Mark>200</> ед. и атаку на <Mark>3%</> на <Mark>8</> сек. Время восстановления: <Mark>20</> сек."
+    "target_ru": "При применении навыка есть шанс повысить специализацию против монстров на <Mark>200</> ед. и атаку на <Mark>3%</> на <Mark>8</> сек. Время восстановления: <Mark>20</> сек."
   },
   {
     "id": "008141",
@@ -19839,7 +19839,7 @@
     "id": "008306",
     "source_cn": "受到占卜家途径的非凡者攻击时，抵消其专攻{*d,F1690001,FeatherwitHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a Seer Pathway Beyonder, negates {*d,F1690001,FeatherwitHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от Потустороннего Пути Провидца компенсирует {*d,F1690001,FeatherwitHurtReduce} ед. его мастерства (снижает мастерство атакующего максимум до 0)."
+    "target_ru": "При получении атак от Потустороннего Пути Провидца компенсирует {*d,F1690001,FeatherwitHurtReduce} ед. его специализации (снижает специализацию атакующего максимум до 0)."
   },
   {
     "id": "008307",
@@ -20391,7 +20391,7 @@
     "id": "008398",
     "source_cn": "途径专攻",
     "ref_en": "Pathway Specialization",
-    "target_ru": "Мастерство Пути"
+    "target_ru": "Специализация Пути"
   },
   {
     "id": "008399",
@@ -21525,7 +21525,7 @@
     "id": "008587",
     "source_cn": "当你拥有5点太阳能量时，伤害加深提升20%，持续10秒；当你拥有0点太阳能量时，伤害减免提升20%，持续10秒。",
     "ref_en": "When you have 5 points of Solar Energy, damage boost is increased by 20% for 10 seconds; when you have 0 points of Solar Energy, damage reduction is increased by 20% for 10 seconds.",
-    "target_ru": "Когда у вас 5 очков солнечной энергии, увеличение урона возрастает на 20% на 10 сек.; когда у вас 0 очков солнечной энергии, снижение урона возрастает на 20% на 10 сек."
+    "target_ru": "Когда у вас 5 очков солнечной энергии, усиление урона возрастает на 20% на 10 сек.; когда у вас 0 очков солнечной энергии, снижение урона возрастает на 20% на 10 сек."
   },
   {
     "id": "008588",
@@ -23091,7 +23091,7 @@
     "id": "008848",
     "source_cn": "最大生命增加*d\\n最小物理攻击增加*d\\n最大物理攻击增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n破盾增加*d\\n气盾增加*d\\n防御*d\\n破防增加*d\\n元素攻击增加*d\\n元素攻击百分比增加*.1f**\\n元素忽视增加*d\\n元素抗性增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n命中增加*d\\n格挡增加*d\\n暴击增加*d\\n抗暴击增加*d\\n暴击伤害增加*.1f**\\n抗暴击伤害增加*.1f**\\n伤害加成增加*.2f**\\n伤害减免增加*.2f**\\n最终伤害增加*d\\n最终伤害减少*d\\n治疗增强%增加*.2f**",
     "ref_en": "Max Health increased *d\\n Min Physical Attack increased *d\\n Max Physical Attack increased *d\\n Min Magic Attack increased *d\\n Max Magic Attack increased *d\\n Shield Break increased *d\\n Air Shield increased *d\\n Defense *d\\n Armor Break increased *d\\n Elemental Attack increased *d\\n Elemental Attack percentage increased *.1f**\\n Elemental Ignore increased *d\\n Elemental Resistance increased *d\\n Skill Enhancement increased *d\\n Skill Block increased *d\\n Accuracy increased *d\\n Block increased *d\\n Critical Hit increased *d\\n Anti-Critical Hit increased *d\\n Critical Damage increased *.1f**\\n Anti-Critical Damage increased *.1f**\\n Damage Bonus increased *.2f**\\n Damage Reduction increased *.2f**\\n Final Damage increased *d\\n Final Damage reduced *d\\n Healing Enhancement % increased *.2f**",
-    "target_ru": "Макс. здоровье увеличивается на *d\nМин. физ. атака увеличивается на *d\nМакс. физ. атака увеличивается на *d\nМин. маг. атака увеличивается на *d\nМакс. маг. атака увеличивается на *d\nПробитие щита увеличивается на *d\nВоздушный щит увеличивается на *d\nЗащита *d\nПробитие защиты увеличивается на *d\nСтихийная атака увеличивается на *d\nСтихийная атака (%) увеличивается на *.1f**\nИгнорирование стихии увеличивается на *d\nСопротивление стихиям увеличивается на *d\nУсиление навыков увеличивается на *d\nБлокирование навыков увеличивается на *d\nМеткость увеличивается на *d\nБлок увеличивается на *d\nКрит увеличивается на *d\nСтойкость к криту увеличивается на *d\nКрит. урон увеличивается на *.1f**\nЗащита от крит. урона увеличивается на *.1f**\nБонус к урону увеличивается на *.2f**\nСнижение урона увеличивается на *.2f**\nКонечный урон увеличивается на *d\nКонечный урон снижается на *d\nБонус к исцелению (%) увеличивается на *.2f**"
+    "target_ru": "Макс. здоровье увеличивается на *d\nМин. физ. атака увеличивается на *d\nМакс. физ. атака увеличивается на *d\nМин. маг. атака увеличивается на *d\nМакс. маг. атака увеличивается на *d\nПробитие щита увеличивается на *d\nВоздушный щит увеличивается на *d\nЗащита *d\nПрорыв защиты увеличивается на *d\nСтихийная атака увеличивается на *d\nСтихийная атака (%) увеличивается на *.1f**\nИгнорирование стихии увеличивается на *d\nСопротивление стихиям увеличивается на *d\nУсиление навыков увеличивается на *d\nБлокирование навыков увеличивается на *d\nМеткость увеличивается на *d\nБлок увеличивается на *d\nКрит увеличивается на *d\nСтойкость к криту увеличивается на *d\nКрит. урон увеличивается на *.1f**\nЗащита от крит. урона увеличивается на *.1f**\nБонус к урону увеличивается на *.2f**\nСнижение урона увеличивается на *.2f**\nКонечный урон увеличивается на *d\nКонечный урон снижается на *d\nБонус к исцелению (%) увеличивается на *.2f**"
   },
   {
     "id": "008849",
@@ -25695,7 +25695,7 @@
     "id": "009282",
     "source_cn": "逐日-判断目标霸体",
     "ref_en": "Sun Chaser - Check Target Super Armor",
-    "target_ru": "Преследование солнца: проверка невосприимчивости цели к контролю"
+    "target_ru": "Преследование солнца: проверка Суперброни цели"
   },
   {
     "id": "009283",
@@ -25875,7 +25875,7 @@
     "id": "009312",
     "source_cn": "你获得了仲裁人序列的能力，攻击时会产生一个领域，领域内己方暴击和伤害加深提高，敌方防御和格挡降低。",
     "ref_en": "You have gained the ability of the Arbiter Sequence. Attacking will create a field where your side's Critical Hit and damage are increased, and the enemy's Defense and Block are decreased.",
-    "target_ru": "Вы получили способность Последовательности Арбитра: атака создаёт поле, внутри которого у союзников повышаются шанс крита и наносимый урон, а у врагов снижаются защита и блокирование."
+    "target_ru": "Вы получили способность Последовательности Арбитра: атака создаёт поле, внутри которого у союзников повышаются шанс крита и усиление урона, а у врагов снижаются защита и блокирование."
   },
   {
     "id": "009313",
@@ -29175,7 +29175,7 @@
     "id": "009862",
     "source_cn": "获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，使目标区域内的敌方<HyperLink stylename=\"M_Link\" u=\"7\">禁锢</>，持续*f秒，并在短暂延迟后造成*d点伤害。",
     "ref_en": "Gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for *f seconds, <HyperLink stylename=\"M_Link\" u=\"7\">Imprisonment</> enemies in the target area for *f seconds, and deal *d damage after a short delay.",
-    "target_ru": "Даёт <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к контролю</> на *f сек., накладывает на врагов в целевой области эффект <HyperLink stylename=\"M_Link\" u=\"7\">Обездвиживание</> на *f сек. и после небольшой задержки наносит *d ед. урона."
+    "target_ru": "Даёт <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> на *f сек., накладывает на врагов в целевой области эффект <HyperLink stylename=\"M_Link\" u=\"7\">Обездвиживание</> на *f сек. и после небольшой задержки наносит *d ед. урона."
   },
   {
     "id": "009863",

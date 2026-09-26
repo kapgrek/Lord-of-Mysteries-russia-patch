@@ -190,7 +190,7 @@ return {
     ["Call of the Fertile Paradise"] = "Зов плодородного рая",
     ["The last memory fragment is up there!"] = "Последний фрагмент воспоминаний там!",
     ["I know I was wrong, I won't be late again..."] = "Я знаю, что был неправ, я больше не опоздаю...",
-    ["After activating, Damage Boost increases by 30% for 10 seconds. Records the total damage you deal to enemies during this period, and upon the effect's end, deals one-time damage to targets within range equal to the total recorded damage."] = "После активации увеличение урона повышается на 30% на 10 сек. Навык фиксирует весь урон, нанесённый вами врагам за это время, и по окончании действия наносит целям в области единовременный урон, равный общему зафиксированному урону.",
+    ["After activating, Damage Boost increases by 30% for 10 seconds. Records the total damage you deal to enemies during this period, and upon the effect's end, deals one-time damage to targets within range equal to the total recorded damage."] = "После активации усиление урона повышается на 30% на 10 сек. Навык фиксирует весь урон, нанесённый вами врагам за это время, и по окончании действия наносит целям в области единовременный урон, равный общему зафиксированному урону.",
     ["Twilight Mask"] = "Маска Сумерек",
     ["5231032 Old Tingen Single-Player Instance"] = "5231032 Экземпляр Old Тинген для одиночной игры",
     ["Load fallback"] = "Загрузить резервный вариант",

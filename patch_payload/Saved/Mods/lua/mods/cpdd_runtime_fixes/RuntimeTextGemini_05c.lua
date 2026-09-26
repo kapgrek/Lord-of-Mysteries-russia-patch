@@ -228,7 +228,7 @@ return {
     ["Why leave the big city?"] = "Зачем уезжать из большого города?",
     ["Its history is no shorter than the time Loen has existed."] = "Его история не короче времени существования Лоэна.",
     ["<Bubble_NPC>Dog Owner</>: Toby! That's great! You weren't fooled by the rabbit! You won!"] = "<Bubble_NPC>Владелец собаки</>: Тоби! Замечательно! Вас не обманул кролик! Вы выиграли!",
-    ["Summon a Baboon in front of you. The Baboon will periodically add a random buff to all members of the squad. \nRandom Buff: Attack Increase, Skill Enhancement Increase, Monster Specialization Increase."] = "Призовите перед собой бабуина, и бабуин время от времени будет добавлять случайный бафф всем членам команды. \n Случайные преимущества: усиление атаки, усиление улучшения навыков, повышение концентрации монстров.",
+    ["Summon a Baboon in front of you. The Baboon will periodically add a random buff to all members of the squad. \nRandom Buff: Attack Increase, Skill Enhancement Increase, Monster Specialization Increase."] = "Призовите перед собой бабуина, и бабуин время от времени будет добавлять случайный бафф всем членам команды. \n Случайные преимущества: усиление атаки, усиление улучшения навыков, повышение специализации против монстров.",
     ["Listen to the staff's conversation"] = "Слушайте разговор персонала",
     ["Club level 8, other building level cap 8"] = "Уровень клуба 8, максимальный уровень других зданий 8.",
     ["Stage Aftertaste Collection"] = "Коллекция сценического послевкусия",

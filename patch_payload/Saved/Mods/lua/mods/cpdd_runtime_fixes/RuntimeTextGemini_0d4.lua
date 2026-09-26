@@ -185,7 +185,7 @@ return {
     ["Equipment Break-in"] = "Взлом оборудования",
     ["There seems to be something unusual over by the windmill... could it be an Extraordinary event?"] = "Кажется, возле ветряной мельницы происходит что-то необычное... может ли это быть Экстраординарное событие?",
     ["Uh, my head hurts... are these... \"strange whispers\"?"] = "Э-э, голова болит... это... \"странные шепоты\"?",
-    ["Armor Break Performance"] = "Производительность «Прорыв брони»",
+    ["Armor Break Performance"] = "Производительность «Прорыв защиты»",
     ["Opening Camera"] = "Открытие камеры",
     ["A name is written crookedly at the registration desk on the back,\n \"Lydia\"."] = "На обороте в графе регистрации коряво выведено имя:\n«Лидия».",
     ["Let me listen"] = "Позвольте мне послушать",

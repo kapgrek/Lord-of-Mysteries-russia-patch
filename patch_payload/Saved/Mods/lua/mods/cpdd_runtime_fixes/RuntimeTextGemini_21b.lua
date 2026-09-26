@@ -260,7 +260,7 @@ return {
     ["Interaction score"] = "Оценка взаимодействия",
     ["\"I want to stay in Blackthorn and protect this place forever.\""] = "«Я хочу остаться в Блэкторне и защищать это место навсегда».",
     ["Memory Retrace of %s"] = "Восстановление памяти %s",
-    ["Increases Armor Break by 140."] = "Увеличивает пробитие брони на 140.",
+    ["Increases Armor Break by 140."] = "Увеличивает прорыв защиты на 140.",
     ["Place all ritual items"] = "Разместите все ритуальные предметы",
     ["When the Windmill Turns 99002416"] = "Когда перевернётся ветряная мельница 99002416",
     ["Brewing potion"] = "Варим зелье",

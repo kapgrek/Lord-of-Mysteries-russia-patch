@@ -180,7 +180,7 @@ return {
     ["How are you feeling?"] = "Как вы себя чувствуете?",
     ["Max Health 18%"] = "Максимальное здоровье 18%",
     ["Receive newspaper"] = "Получить газету",
-    ["[Hunter] (4) Crit +30%"] = "[Охотник] (4) Crit +30%",
+    ["[Hunter] (4) Crit +30%"] = "[Охотник] (4) Крит. удар +30%",
     ["In competitive mode, <Highlight>kill </> %s/%s Scholars of Forethought"] = "В соревновательном режиме <Highlight>kill </> %s/%s Ученые предусмотрительности",
     ["Willpower +404"] = "Сила воли +404",
     ["In-Game Prop"] = "Внутриигровой реквизит",

@@ -229,7 +229,7 @@ return {
     ["Guardian Harp"] = "Стражная арфа",
     ["Steal the worker's thought of laziness"] = "Украсть у рабочего мысль о лени",
     ["Laser Sweep Specific Unit Marker"] = "Маркер конкретной единицы лазерной развертки",
-    ["Function_Alchemy Insights_Armor Break Signal"] = "Function_Alchemy Insights_Сигнал пробития брони",
+    ["Function_Alchemy Insights_Armor Break Signal"] = "Function_Alchemy Insights_Сигнал прорыва защиты",
     ["<Assistant_Title1>【Eternal Dream】</>\n<Assistant_Title2>Description: </>Mini-program check-in reward accessory.\n<Assistant_Title2>Usage: </>Use to obtain Eternal Dream. You can view and equip it by clicking <Assistant_System>Appearance - Outfits</>.\n<Assistant_Title2>Acquisition: </>Obtained via mini-program check-in."] = "<Assistant_Title1>【Вечный сон】</>\n<Assistant_Title2> Описание: </> Ювелирные изделия в качестве награды за вход в мини-программу \n<Assistant_Title2> Использование: </> После использования вы получите вечный сон. Вы можете нажать <Assistant_System>Appearance-Change</>, чтобы просмотреть и использовать его. \n<Assistant_Title2> Получите: </> Получение входа в мини-программу.",
     ["We need to defeat her; this is the prerequisite for everything, and the beginning of your fate."] = "Нам нужно победить ее; это предпосылка всего и начало твоей судьбы.",
     ["Beyond the Fog"] = "За туманом",

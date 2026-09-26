@@ -249,7 +249,7 @@ return {
     ["Verite"] = "Верите",
     ["Snow Mountain Secret Realm NPC 2"] = "NPC Тайного Царства Снежной Горы 2",
     ["Swinging (Swing) M"] = "Качание (Качели) М",
-    ["Boss Armor Break Unlocked"] = "Прорыв брони босса разблокирован",
+    ["Boss Armor Break Unlocked"] = "Прорыв защиты босса разблокирован",
     ["Winner"] = "Победитель",
     ["No announcements"] = "Нет объявлений",
     ["Requiem Button"] = "Кнопка Реквиема",

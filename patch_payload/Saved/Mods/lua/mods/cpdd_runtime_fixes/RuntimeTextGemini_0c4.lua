@@ -163,7 +163,7 @@ return {
     ["Preload lvseq"] = "Предварительная загрузка lvseq",
     ["So what if you're an illegitimate child?"] = "А что, если ты внебрачный ребенок?",
     ["Respawn Point_Evil God Vessel"] = "Точка возрождения_Сосуд Злого Бога",
-    ["Pete Armor Break Damage Immunity"] = "Иммунитет Пита к пробитию брони",
+    ["Pete Armor Break Damage Immunity"] = "Иммунитет Пита к прорыву защиты",
     ["The young lady is bright and clever; she will surely pass smoothly."] = "Девушка умна и умна; она обязательно пройдет гладко.",
     ["Frye 2"] = "Фрай 2",
     ["Young Woman"] = "Молодая женщина",

@@ -222,7 +222,7 @@ return {
     ["Bizarro Worm 3"] = "Причудливый червь 3",
     ["He is buried in the place with the best view on the mountain. This was our promise when we were young."] = "Он похоронен в месте с лучшим видом на гору. Это было наше обещание, когда мы были молоды.",
     ["Attribute Bonus"] = "Бонус атрибутов",
-    ["Rock (2) 16% Max Health Shield, 10% Damage Reduction;"] = "Камень (2) 16% максимального здоровья щита, 10% уменьшения урона;",
+    ["Rock (2) 16% Max Health Shield, 10% Damage Reduction;"] = "Камень (2) 16% максимального здоровья щита, 10% снижения урона;",
     ["Offer everything we have!"] = "Предложите все, что у нас есть!",
     ["Bone Text Board (might not be needed) 2"] = "Доска с костяным текстом (может не понадобиться) 2",
     ["Cancel Pause"] = "Отмена Пауза",

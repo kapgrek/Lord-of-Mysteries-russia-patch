@@ -1467,7 +1467,7 @@
     "id": "110244",
     "source_cn": "展开皇帝的新衣，获得<HighLight>2.5</>秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>和buffdisc(*id)（此护盾受自身最大生命值加成），持续<HighLight>15</>秒。护盾消失或被击破后，对周身敌方造成相当于护盾伤害吸收量<HighLight>5</>倍基础值的魔法伤害，最高不超过spellfielddisc(*id)点，伤害由范围内的敌方分摊。施法后获得20点<HighLight>神秘知识</>。\\n\\n<FaintYellow>神秘知识</>：最多拥有100点。达到100点时解锁<HighLight>终结技能信息洪流</>。",
     "ref_en": "Expand The Emperor's New Clothes, gaining 2.5 <HighLight></> seconds of Super Armor <HyperLink stylename=\"M_Link\" u=\"11\"></> and buffdisc(*id) (this shield is boosted by your maximum health) for 15 <HighLight></> seconds. After the shield disappears or is broken, deal magic damage to surrounding enemies equal to 5 <HighLight></> times the shield's damage absorption, up to a maximum of spellfielddisc(*id), with the damage shared among enemies in the range. Gain 20 points of Mysterious Knowledge <HighLight></> after casting. \\n\\n<FaintYellow> Mysterious Knowledge </>: Maximum of 100 points. Upon reaching 100 points, unlock the Finisher Skill Vortex of Knowledge <HighLight></>.",
-    "target_ru": "Разверните Новую одежду Императора и получите <HighLight>2.5</> секунд<HyperLink stylename=\"M_Link\" u=\"11\">Hegemonic Body</> и buffdisc(*id) (этот щит увеличивается в зависимости от вашего максимального здоровья), длительностью <HighLight>15</> секунд. После того, как щит исчезнет или будет сломан, он нанесет магический урон окружающим врагам, равный <HighLight>5</>, умноженному на базовое значение суммы поглощения урона щитом, но не более spellfielddisc(*id) ед., и урон будет разделен между врагами в радиусе действия. Получите 20 очков <HighLight> тайных знаний</> после применения. \\n\\n<FaintYellow>Таинственное знание</>: Наберите до 100 очков. Открывает <HighLight> при достижении 100 очков, чтобы положить конец потоку информации о навыках </>."
+    "target_ru": "Разыграйте «Новый наряд императора»: вы получаете <HighLight>2,5</> секунды <HyperLink stylename=\"M_Link\" u=\"11\">Суперброни</> и buffdisc(*id) (этот щит усиливается вашим максимальным здоровьем) на <HighLight>15</> секунд. После того как щит исчезнет или будет разрушен, окружающим врагам наносится магический урон, равный <HighLight>5</> базовым значениям поглощённого щитом урона, но не более spellfielddisc(*id) очков; урон распределяется между врагами в радиусе действия. После применения вы получаете 20 очков <HighLight>Таинственного знания</>.\n\n<FaintYellow>Таинственное знание</>: максимум 100 очков. При достижении 100 очков открывается <HighLight>завершающий навык «Поток информации»</>."
   },
   {
     "id": "110245",
@@ -5607,7 +5607,7 @@
     "id": "110934",
     "source_cn": "魔女破防",
     "ref_en": "Witch Armor Break",
-    "target_ru": "Прорыв брони ведьмы"
+    "target_ru": "Прорыв защиты ведьмы"
   },
   {
     "id": "110935",
@@ -9105,7 +9105,7 @@
     "id": "111517",
     "source_cn": "最大生命增加*d\\n体质增加*d\\n意志增加*d\\n智慧增加*d\\n敏捷增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n魔法穿刺增加*d\\n魔法暴击增加*d\\n魔法暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n魔法破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n魔法破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *d\\n Willpower Increase *d\\n Wisdom Increase *d\\n Agility Increase *d\\n Min Magic Attack Increase *d\\n Max Magic Attack Increase *d\\n Magic Pierce Increase *d\\n Magic Crit Rate Increase *d\\n Magic Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Magic Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Magic Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Максимальное увеличение жизни*d\\nУвеличение телосложения*d\\nУвеличится*d\\nУвеличение мудрости*d\\nУвеличение ловкости*d\\nМинимальное увеличение магической атаки*d\\nМаксимальное увеличение магической атаки*d\\nУвеличение магического прокола*d\\nУвеличение магического критического удара*d\\nУвеличение магического критического урона*.1f**\\nЗащита увеличение*d\\n _Увеличено блокирование*d\\nУвеличено сопротивление критическому удару*d\\nУменьшение критического урона увеличено*.1f**\\nПодавление-экстраординарное увеличено*.1f\\nСопротивление-экстраординарное увеличено*.1f\\nУвеличено пробитие магической защиты*d\\nПодавление монстров увеличено*.1f\\nСопротивление монстров увеличено*.1f\\nУвеличено пробитие магической защиты*.1f**\\n Увеличено пробитие брони*d\\nУвеличена броня*d\\nУвеличена специальная атака*d\\nУвеличено пробитие специальной защиты*d\\nУвеличена специальная защита*d\\nУвеличено улучшение навыков*d\\nУвеличено умение сопротивление*d\\nУвеличенное улучшение лечения*.2f\\nУвеличенное восстановление здоровья*.1f\\nУвеличенное % подавления всех каналов*.2f**\\nУвеличение % сопротивления всех каналов*.2f**\\nУвеличение % подавления монстров*.2f**\\nУвеличение % сопротивления монстров*.2f**\\nУлучшение навыка % увеличение*.2f**\\nУвеличение % сопротивления навыку*.2f**\\nУвеличение конечного урона*d\\nУвеличение конечного сопротивления урону*d\\nУвеличение % улучшения исцеления*.2f**"
+    "target_ru": "Максимальное здоровье +*d\\nТелосложение +*d\\nВоля +*d\\nМудрость +*d\\nЛовкость +*d\\nМин. магическая атака +*d\\nМакс. магическая атака +*d\\nМаг. пронзание +*d\\nМаг. крит. удар +*d\\nМаг. крит. урон +*.1f**\\nЗащита +*d\\nБлок +*d\\nСопротивление крит. удару +*d\\nСнижение крит. урона +*.1f**\\nПодавление — Экстраординарные +*.1f\\nСопротивление — Экстраординарные +*.1f\\nМаг. прорыв защиты +*d\\nПодавление монстров +*.1f\\nСопротивление монстров +*.1f\\nМаг. прорыв защиты +*.1f**\\nПробивание брони +*d\\nБроня +*d\\nОсобая атака +*d\\nОсоб. прорыв защиты +*d\\nОсобая защита +*d\\nУсиление навыков +*d\\nБлокирование навыков +*d\\nУсиление лечения +*.2f\\nВосстановление здоровья +*.1f\\nПодавление по всем Путям, % +*.2f**\\nСопротивление по всем Путям, % +*.2f**\\nПодавление монстров, % +*.2f**\\nСопротивление монстров, % +*.2f**\\nУсиление навыков, % +*.2f**\\nБлокирование навыков, % +*.2f**\\nФинальный урон +*d\\nСопротивление финальному урону +*d\\nУсиление получаемого лечения, % +*.2f**"
   },
   {
     "id": "111518",
@@ -10935,7 +10935,7 @@
     "id": "111822",
     "source_cn": "先驱者的胜利在灵界中化作不灭回响，为后来者提供庇护。\\n副本首通后，进入副本的非凡者会获得属性增益。\\n生命提升500点，怪物专攻提升100点。",
     "ref_en": "The victory of the pioneers turns into an eternal echo in the Spirit World, providing shelter for those who follow. \\n After the first clear of a dungeon, Beyonders who enter the dungeon will receive attribute bonuses. \\n Health increased by 500, Monster Specialization increased by 100.",
-    "target_ru": "Победа пионеров вечно отзывается эхом в духовном мире, давая приют тем, кто придет после. \\nПосле первого прохождения подземелья Экстраординарный, вошедший в подземелье, получит прирост атрибутов. \\n Жизнь увеличивается на 500 очков, а концентрация монстров увеличивается на 100 очков."
+    "target_ru": "Победа пионеров вечно отзывается эхом в духовном мире, давая приют тем, кто придет после. \\nПосле первого прохождения подземелья Экстраординарный, вошедший в подземелье, получит прирост атрибутов. \\n Жизнь увеличивается на 500 очков, а специализация против монстров увеличивается на 100 очков."
   },
   {
     "id": "111823",
@@ -12063,7 +12063,7 @@
     "id": "112010",
     "source_cn": "物理增伤提高15%，暴击和穿刺提升",
     "ref_en": "Physical Damage Boost increased by 15%, Critical Hit and Pierce increased.",
-    "target_ru": "Увеличение физического урона увеличено на 15%, критический удар и проникающая способность увеличены."
+    "target_ru": "Увеличение физического урона увеличено на 15%, критический удар и пронзание увеличены."
   },
   {
     "id": "112011",
@@ -20535,7 +20535,7 @@
     "id": "113422",
     "source_cn": "磐石（4）26%最大生命值护盾，15%伤害减免；",
     "ref_en": "Rock (4) 26% Max Health Shield, 15% Damage Reduction;",
-    "target_ru": "Камень (4) 26% максимального здоровья щита, 15% уменьшения урона;"
+    "target_ru": "Камень (4) 26% максимального здоровья щита, 15% снижения урона;"
   },
   {
     "id": "113423",
@@ -21249,7 +21249,7 @@
     "id": "113541",
     "source_cn": "清空破防条、挂机十秒",
     "ref_en": "Clear Armor Break Bar, Idle for 10 seconds",
-    "target_ru": "Очистить полосу пробития брони, бездействие в течение 10 секунд."
+    "target_ru": "Очистить шкалу прорыва защиты, бездействие в течение 10 секунд."
   },
   {
     "id": "113542",
@@ -21441,7 +21441,7 @@
     "id": "113573",
     "source_cn": "针对污秽与堕落之物锻造的子弹。在怪物释放蓝圈技能时命中，将击穿灵性防御，打断怪物技能，造成怪物硬直并扣除其大量破防值。",
     "ref_en": "Bullets forged specifically for filthy and corrupted things. If they hit while the monster is releasing a blue-circle skill, they will pierce the spiritual defense, interrupt the monster's skill, cause the monster to stagger, and deplete a large amount of its Armor Break value.",
-    "target_ru": "Пули, выкованные специально против скверны и падших созданий. Попадание во время применения монстром навыка с синим кругом пробивает духовную защиту, прерывает навык чудовища, вызывает у него потерю равновесия и отнимает значительную часть шкалы пробития брони."
+    "target_ru": "Пули, выкованные специально против скверны и падших созданий. Попадание во время применения монстром навыка с синим кругом пробивает духовную защиту, прерывает навык чудовища, вызывает у него потерю равновесия и отнимает значительную часть шкалы прорыва защиты."
   },
   {
     "id": "113574",
@@ -23619,7 +23619,7 @@
     "id": "113936",
     "source_cn": "途径专攻提高*d，穿刺提高*d，暴击提高*d",
     "ref_en": "Pathway Specialization increased by *d, Pierce increased by *d, Crit increased by *d",
-    "target_ru": "Специализация пути увеличена на *d, пробивание увеличено на *d, крит увеличен на *d"
+    "target_ru": "Специализация пути увеличена на *d, пронзание увеличено на *d, крит увеличен на *d"
   },
   {
     "id": "113937",
@@ -29001,7 +29001,7 @@
     "id": "114833",
     "source_cn": "克莱恩登场时，根据当前激活羁绊数量为全队提供攻击和伤害加深。",
     "ref_en": "When Klein enters the field, provide Attack and Damage Increase to the entire team based on the number of currently active kinships.",
-    "target_ru": "Когда Клейн выходит на поле, обеспечьте увеличение атаки и урона всей команде в зависимости от количества активных в данный момент родственных связей."
+    "target_ru": "Когда Клейн выходит на поле, обеспечьте увеличение атаки и усиление урона всей команде в зависимости от количества активных в данный момент родственных связей."
   },
   {
     "id": "114834",
@@ -29121,7 +29121,7 @@
     "id": "114853",
     "source_cn": "在自身面前召唤一个狒狒，狒狒每间隔一段时间会给小队所有成员添加一个随机增益。\\n随机增益：攻击增加、技能增强增加、怪物专攻增加。",
     "ref_en": "Summon a Baboon in front of you. The Baboon will periodically add a random buff to all members of the squad. \\nRandom Buff: Attack Increase, Skill Enhancement Increase, Monster Specialization Increase.",
-    "target_ru": "Призовите перед собой бабуина, и бабуин время от времени будет добавлять случайный бафф всем членам команды. \\n Случайные преимущества: усиление атаки, усиление улучшения навыков, повышение концентрации монстров."
+    "target_ru": "Призовите перед собой бабуина, и бабуин время от времени будет добавлять случайный бафф всем членам команды. \\n Случайные преимущества: усиление атаки, усиление улучшения навыков, повышение специализации против монстров."
   },
   {
     "id": "114854",

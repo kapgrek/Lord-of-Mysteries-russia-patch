@@ -258,7 +258,7 @@ return {
     ["...Alright, I'll help you look for it."] = "...Хорошо, я помогу тебе его найти.",
     ["Is Daisy's death due to the Divination Result?"] = "Смерть Дейзи связана с результатом гадания?",
     ["Check on <h>Little Skana</>"] = "Проверьте <h>LLittle Skana</>",
-    ["Rock (4) 26% Max Health Shield, 15% Damage Reduction;"] = "Камень (4) 26% максимального здоровья щита, 15% уменьшения урона;",
+    ["Rock (4) 26% Max Health Shield, 15% Damage Reduction;"] = "Камень (4) 26% максимального здоровья щита, 15% снижения урона;",
     ["The Origin of Dreamcatchers"] = "Происхождение ловцов снов",
     ["Are you leaving now, Mr. Godot?"] = "Вы уходите, господин Годо?",
     ["Enter the atmosphere circle and start the flowchart."] = "Войдите в атмосферный круг и запустите блок-схему.",

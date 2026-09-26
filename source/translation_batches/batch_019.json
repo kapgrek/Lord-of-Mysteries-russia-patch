@@ -51,7 +51,7 @@
     "id": "090008",
     "source_cn": "忽视目标{*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi}的魔法防御，降低目标魔法防御对魔法攻击基础值的减免。（百分比效果后于数值效果生效）\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的破防超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>魔法防御</>属性的对抗结算。",
     "ref_en": "Ignores {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi} of the target's magic defense, reducing the target's magic defense reduction on the base magic Attack value. (Percentage effects take effect after numerical effects) \\nThe reduced base Attack value has an upper limit of <Highlight>75%</> and a lower limit of <Highlight>20%</>. If the increased Armor Break exceeds the upper threshold or fails to reach the lower threshold, the damage boost capability cannot be improved. \\nThe actual effect and thresholds depend on the confrontation calculation between the attacker and defender's <Highlight>Level</>, and the opponent's <Highlight>Magic Defense</> attribute.",
-    "target_ru": "Игнорируйте магическую защиту цели {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi} и уменьшите магическую защиту цели до базового значения магической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенное проникновение защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight></> как атакующих, так и защищающихся, а также от урегулирования конфронтации с атрибутом <Highlight>магической защиты</> противника."
+    "target_ru": "Игнорируйте магическую защиту цели {*d,F1690001,mDefReduce}+{*.1f**,F1690001,mDefDivi} и уменьшите магическую защиту цели до базового значения магической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенный прорыв защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight> </> как атакующих, так и защищающихся, а также от урегулирования конфронтации с атрибутом <Highlight>магической защиты</> противника."
   },
   {
     "id": "090009",
@@ -5109,7 +5109,7 @@
     "id": "090851",
     "source_cn": "对生命值高于<HighLight>50%</>的目标，造成的伤害加深<HighLight>10%</>。",
     "ref_en": "Deals <HighLight>10%</> increased damage to targets with higher than <HighLight>50%</> Health.",
-    "target_ru": "Наносит увеличенный на <HighLight>10%</> урон целям, у которых здоровье выше <HighLight>50%</>."
+    "target_ru": "Даёт усиление урона +<HighLight>10%</> целям, у которых здоровье выше <HighLight>50%</>."
   },
   {
     "id": "090852",
@@ -5157,7 +5157,7 @@
     "id": "090859",
     "source_cn": "怪物专攻提高<Mark>100</>，穿刺降低<Mark>20</>。",
     "ref_en": "Monster Specialization increased by <Mark>100</>, Piercing decreased by <Mark>20</>.",
-    "target_ru": "Специализация монстров увеличена на <Mark>100</>, проникающая способность уменьшена на <Mark>20</>."
+    "target_ru": "Специализация монстров увеличена на <Mark>100</>, пронзание уменьшено на <Mark>20</>."
   },
   {
     "id": "090860",
@@ -13257,7 +13257,7 @@
     "id": "092209",
     "source_cn": "18%最大生命护盾和8%伤害减免，持续3秒",
     "ref_en": "18% Max Health Shield and 8% Damage Reduction, lasts 3 seconds",
-    "target_ru": "18% максимального здоровья щита и 8% уменьшения урона, длится 3 секунды."
+    "target_ru": "18% максимального здоровья щита и 8% снижения урона, длится 3 секунды."
   },
   {
     "id": "092210",
@@ -14637,7 +14637,7 @@
     "id": "092439",
     "source_cn": "获得5%伤害加深和1.5点法力恢复。",
     "ref_en": "Gain 5% Damage Taken increase and 1.5 Mana Recovery.",
-    "target_ru": "Получите увеличение получаемого урона на 5% и восстановление маны на 1,5%."
+    "target_ru": "Получите усиление урона на 5% и восстановление маны на 1,5%."
   },
   {
     "id": "092440",
@@ -17961,7 +17961,7 @@
     "id": "092993",
     "source_cn": "释放<HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">星之定位</>时，进入持续<HighLight>8</>秒的<HighLight>过载</>状态。\\n<HighLight>过载</>期间，释放<HyperLink stylename=\"M_Link\" u=\"86053010\" color=\"#f4a067\">层叠之门</>将提前结束<HighLight>过载</>，释放<HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">星之定位</>二段连招会根据附近目标<HighLight>层叠印记</>的最高层数返还冷却时间并提前结束<HighLight>过载</>。\\n\\n<FaintYellow>过载</>：\\n获得<HighLight>10%伤害加深</>。<HighLight>层叠印记</>的叠加上限提升至<HighLight>3</>层，附加印记所需的<HighLight>足迹</>降低至<HighLight>2</>层。",
     "ref_en": "When releasing <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">Star Positioning</>, enter the <HighLight>Overload</> state for <HighLight>8</> seconds. \\n<HighLight>During Overload</>, releasing <HyperLink stylename=\"M_Link\" u=\"86053010\" color=\"#f4a067\">Layered Gate</> will end <HighLight>Overload</> early; releasing the second stage of <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">Star Positioning</> will refund cooldown time based on the highest number of <HighLight>Layered Marks</> on nearby targets and end <HighLight>Overload</> early. \\n\\n<FaintYellow>Overload</>: \\nGain <HighLight>10% damage amplification</>. <HighLight>The stacking limit of Layered Marks</> is increased to <HighLight>3</> layers, and the <HighLight>Footprints</> required to add marks are reduced to <HighLight>2</> layers.",
-    "target_ru": "При применении навыка <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">«Наведение звёзд»</> вы переходите в состояние <HighLight>«Перегрузки»</> на <HighLight>8</> сек.\nВо время <HighLight>«Перегрузки»</> применение <HyperLink stylename=\"M_Link\" u=\"86053010\" color=\"#f4a067\">«Каскадных Врат»</> досрочно завершает <HighLight>«Перегрузку»</>. Применение второго удара комбинации <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">«Наведения звёзд»</> возвращает часть времени перезарядки в зависимости от максимального числа уровней <HighLight>«Каскадных меток»</> на ближайших целях и досрочно завершает <HighLight>«Перегрузку»</>.\n\n<FaintYellow>Перегрузка</>:\nДаёт <HighLight>+10% к наносимому урону</>. Максимальное число уровней <HighLight>«Каскадных меток»</> увеличивается до <HighLight>3</>, а количество эффектов <HighLight>«Следа»</>, необходимых для наложения метки, снижается до <HighLight>2</>."
+    "target_ru": "При применении навыка <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">«Наведение звёзд»</> вы переходите в состояние <HighLight>«Перегрузки»</> на <HighLight>8</> сек.\nВо время <HighLight>«Перегрузки»</> применение <HyperLink stylename=\"M_Link\" u=\"86053010\" color=\"#f4a067\">«Каскадных Врат»</> досрочно завершает <HighLight>«Перегрузку»</>. Применение второго удара комбинации <HyperLink stylename=\"M_Link\" u=\"86051040\" color=\"#f4a067\">«Наведения звёзд»</> возвращает часть времени перезарядки в зависимости от максимального числа уровней <HighLight>«Каскадных меток»</> на ближайших целях и досрочно завершает <HighLight>«Перегрузку»</>.\n\n<FaintYellow>Перегрузка</>:\nДаёт <HighLight>усиление урона на 10%</>. Максимальное число уровней <HighLight>«Каскадных меток»</> увеличивается до <HighLight>3</>, а количество эффектов <HighLight>«Следа»</>, необходимых для наложения метки, снижается до <HighLight>2</>."
   },
   {
     "id": "092994",
@@ -21891,7 +21891,7 @@
     "id": "093648",
     "source_cn": "<Yellow>眷顾</>：佩戴者施放普攻和非解控类技能时，有概率触发持续10秒的<Yellow>幸运</>：每层提高移动速度<Yellow>*f**</>、暴击<Yellow>*d</>、技能增强<Yellow>*d</>。未触发幸运则积攒概率至下一次技能施放，直至触发。触发概率随持有<Yellow>幸运</>的层数逐渐降低，初始概率为<Yellow>25%</>，5层时触发概率降至0。",
     "ref_en": "<Yellow>Favor</>: When the wearer performs a Normal Attack or a non-cleansing skill, there is a chance to trigger <Yellow>Luck</> for 10 seconds: each stack increases movement speed by <Yellow>*f**</>, critical hit rate by <Yellow>*d</>, and Skill Enhancement by <Yellow>*d</>. If Luck is not triggered, the probability accumulates for the next skill cast until it triggers. The trigger probability gradually decreases with the number of <Yellow>Luck</> stacks, starting at <Yellow>25%</> and dropping to 0 at 5 stacks.",
-    "target_ru": "<Yellow>Favor</>: When the wearer performs a Normal Attack or a non-cleansing skill, there is a chance to trigger <Yellow>Luck</> for 10 seconds: each stack increases Скорость бега by <Yellow>*f**</>, critical hit rate by <Yellow>*d</>, and Усиление навыков by <Yellow>*d</>. If Luck is not triggered, the probability accumulates for the next skill cast until it triggers. The trigger probability gradually decreases with the number of <Yellow>Luck</> stacks, starting at <Yellow>25%</> and dropping to 0 at 5 stacks."
+    "target_ru": "<Yellow>Благосклонность</>: когда владелец применяет обычную атаку или навык, не снимающий контроль, есть шанс вызвать <Yellow>Удачу</> на 10 секунд: каждый уровень повышает скорость передвижения на <Yellow>*f**</>, критический удар на <Yellow>*d</>, и усиление навыков на <Yellow>*d</>. Если Удача не сработала, вероятность накапливается до следующего применения навыка, пока не сработает. Вероятность срабатывания постепенно снижается с числом уровней <Yellow>Удачи</>, начальная вероятность составляет <Yellow>25%</>, а при 5 уровнях вероятность срабатывания падает до 0."
   },
   {
     "id": "093649",
@@ -22833,7 +22833,7 @@
     "id": "093805",
     "source_cn": "伤害加深降低",
     "ref_en": "Damage taken reduction",
-    "target_ru": "Уменьшение получаемого урона"
+    "target_ru": "Снижение усиления урона"
   },
   {
     "id": "093806",
@@ -24081,7 +24081,7 @@
     "id": "094013",
     "source_cn": "造成的伤害提高{*.2f**,F1690001,SkillMulti}，受到目标伤害减免的抵消。",
     "ref_en": "Damage dealt is increased by {*.2f**,F1690001,SkillMulti}, offset by the target's Damage Reduction.",
-    "target_ru": "Наносимый урон увеличивается на {*.2f**,F1690001,SkillMulti}, компенсируя уменьшение урона цели."
+    "target_ru": "Наносимый урон увеличивается на {*.2f**,F1690001,SkillMulti}, компенсируя снижение урона цели."
   },
   {
     "id": "094014",
@@ -26877,7 +26877,7 @@
     "id": "094479",
     "source_cn": "忽视目标{*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi}的物理防御，降低目标物理防御对物理攻击基础值的减免。（百分比效果后于数值效果生效）\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的破防超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>物理防御</>属性的对抗结算。",
     "ref_en": "Ignores {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi} of the target's physical defense, reducing the target's physical defense reduction on the base physical Attack value. (Percentage effects take effect after numerical effects) \\nThe reduced base Attack value has an upper limit of <Highlight>75%</> and a lower limit of <Highlight>20%</>. If the increased Armor Break exceeds the upper threshold or fails to reach the lower threshold, the damage boost capability cannot be improved. \\nThe actual effect and thresholds depend on the confrontation calculation between the attacker and defender's <Highlight>Level</>, and the opponent's <Highlight>Physical Defense</> attribute.",
-    "target_ru": "Игнорируйте физическую защиту цели {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi} и уменьшите снижение физической защиты цели до значения базовой физической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенное проникновение защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight> </> атакующего и защищающегося, а также от урегулирования конфронтации с атрибутами физической защиты <Highlight> противника </>."
+    "target_ru": "Игнорируйте физическую защиту цели {*d,F1690001,pDefReduce}+{*.1f**,F1690001,pDefDivi} и уменьшите снижение физической защиты цели до значения базовой физической атаки. (Процентный эффект вступает в силу после числового эффекта) \n Базовое значение атаки после снижения имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>20%</>. Когда повышенный прорыв защиты превышает верхний порог или не достигает нижнего порога, возможность увеличения урона не может быть улучшена. \nФактический эффект и порог зависят от уровня <Highlight> </> атакующего и защищающегося, а также от урегулирования конфронтации с атрибутами физической защиты <Highlight> противника </>."
   },
   {
     "id": "094480",

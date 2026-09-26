@@ -185,7 +185,7 @@ return {
     ["<P_Heart> (Puts the gun away and smiles) </> You just don't know how to use it."] = "<P_Heart> (убирает пистолет и улыбается) </> Ты просто не знаешь, как им пользоваться.",
     ["Ritual Table"] = "Ритуальный стол",
     ["Registered team locked"] = "Зарегистрированная команда заблокирована",
-    ["<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>220</>, Piercing decreased by <Mark>20</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличился на <Mark>220</>, а пронзительность уменьшилась на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>220</>, Piercing decreased by <Mark>20</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличилась на <Mark>220</>, а пронзание уменьшилось на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Club Declaration of War Instructions"] = "Инструкция по объявлению войны клубом",
     ["New Quest System"] = "Новая система квестов",
     ["Advancement Quest available"] = "Доступен квест развития",

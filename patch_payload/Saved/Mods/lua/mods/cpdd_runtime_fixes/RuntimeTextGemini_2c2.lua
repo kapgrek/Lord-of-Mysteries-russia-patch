@@ -27,7 +27,7 @@ return {
     ["I really hope my cat comes home soon!"] = "Я очень надеюсь, что мой кот скоро вернется домой!",
     ["Flower Field Little Daisy - New"] = "Цветочное поле Little Daisy - новинка",
     ["Divination shows a rocky path ahead."] = "Гадание показывает впереди тернистый путь.",
-    ["<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 310 </>. \n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Pathway улучшает <Mark>310</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
+    ["<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 310 </>. \n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути повышена на <Mark>310</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
     ["Aliyun Stress Test Server"] = "Сервер стресс-тестирования Aliyun",
     ["Hidden Space - Wish Castle"] = "Скрытое пространство - Замок желаний",
     ["Dive"] = "Нырять",

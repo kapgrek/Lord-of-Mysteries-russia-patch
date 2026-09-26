@@ -8,7 +8,7 @@ return {
     ["Audrey Audrey"] = "Одри-Одри",
     ["And then they can say, \"Hey, this is the flavor your mom liked best twenty years ago!\" \"Dad also grew up eating these little muffins!\""] = "А потом они смогут сказать: «Эй, именно этот вкус твоя мама любила больше всего двадцать лет назад!» и «Папа в своё время тоже вырос на этих кексиках!»",
     [" Sediment at the bottom of the cup is normal. Wishing you a peaceful night."] = " Осадок на дне чашки является нормой. Желаем вам спокойной ночи.",
-    ["Health +5250, Armor Break +714"] = "Здоровье +5250, пробивание защиты +714",
+    ["Health +5250, Armor Break +714"] = "Здоровье +5250, прорыв защиты +714",
     ["At least I gave them money. What about you? What can you do for them? Raise them for the rest of their lives?"] = "Я хотя бы дал им денег. А ты? Что ты можешь для них сделать? Содержать их до конца жизни?",
     ["Under the mockery of fate, a blood-red shadow gradually shrouded May Manor."] = "По прихоти насмешливой судьбы кроваво-красная тень постепенно окутала поместье Мэй.",
     ["Team Competition"] = "Командное состязание",

@@ -471,7 +471,7 @@
     "id": "132667",
     "source_cn": "巴尼先生与安西娅共同上阵，一方阵亡后，另一方本场伤害加深<HighLight>70%</>。",
     "ref_en": "When Mr. Barney and Anthea are deployed together, if one dies, the other's damage is increased by <HighLight>70%</> for the rest of the battle.",
-    "target_ru": "Если мистер Барни и Антея выставлены вместе, после гибели одного из них урон другого увеличивается на <HighLight>70%</> до конца боя."
+    "target_ru": "Если мистер Барни и Антея выставлены вместе, после гибели одного из них другой получает усиление урона на <HighLight>70%</> до конца боя."
   },
   {
     "id": "132668",
@@ -585,7 +585,7 @@
     "id": "132686",
     "source_cn": "巴尼先生与安西娅共同上阵时获得【陪伴】。一方阵亡后，另一方进入【狂暴】，本场伤害加深<HighLight>70%</>。",
     "ref_en": "Mr. Barney and Anthea gain [Companionship] when deployed together. If one dies, the other enters [Berserk], increasing damage by <HighLight>70%</> for the rest of the battle.",
-    "target_ru": "Мистер Барни и Антея, выставленные вместе, получают 【Вместе】. После гибели одного из них другой впадает в 【Ярость】: урон увеличивается на <HighLight>70%</> до конца боя."
+    "target_ru": "Мистер Барни и Антея, выставленные вместе, получают 【Вместе】. После гибели одного из них другой впадает в 【Ярость】: получает усиление урона на <HighLight>70%</> до конца боя."
   },
   {
     "id": "132687",

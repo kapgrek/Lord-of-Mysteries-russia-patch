@@ -23,7 +23,7 @@ return {
     ["Achievement - Fruit of Sighs"] = "Достижение - плод вздохов",
     ["Seer needs strong crowd control"] = "Гадалке нужен сильный контроль",
     ["Divination foresees possibilities, not the truth."] = "Гадание предвидит возможности, а не истины.",
-    ["<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>90</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(срок годности марки истек)}</>Прокол увеличился <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>90</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(срок годности марки истек)}</>Пронзание увеличилось на <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Vampire... parasite!"] = "Вампиры... черви!",
     ["This set is for Pursuit."] = "Этот набор для преследования",
     ["Next station purchase price -25%, selling price +25%"] = "Цена покупки следующей станции -25%, цена продажи +25%",

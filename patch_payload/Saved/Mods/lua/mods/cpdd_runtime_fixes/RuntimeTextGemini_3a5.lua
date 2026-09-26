@@ -21,7 +21,7 @@ return {
     ["<P_Heart>(Chuckling)</> Hehe... I know why..."] = "<P_Heart>（Тихо усмехается）</> Хе-хе... я знаю почему...",
     ["Family Dungeon"] = "Подземелье семьи",
     ["Damage Reduction increased by 12%"] = "Снижение получаемого урона увеличено на 12%",
-    ["Hound Armor Break"] = "Пробитие брони гончей",
+    ["Hound Armor Break"] = "Прорыв защиты гончей",
     ["Seer - Flame Jump Phase 1"] = "Провидец - секция прыжка с пламенем",
     ["Loen component disappearance performance."] = "Шоу исчезновения компонентов Loen",
     ["According to the survival ranking, the top three projections receive <Highlight>60, 40, 30</> points respectively. \nFor every other projection that dies, your own projection gains <Highlight>3</> points, \nand killing other projections grants <Highlight>5</> points."] = "По рейтингу выживаемости три лучших прогноза получат поочередно <Highlight>60, 40, 30</> баллов. \n Каждый раз, когда другая проекция уничтожается, собственная проекция получает <Highlight>3</> очков. \n Убийство других проекций принесет <Highlight>5</> очков.",

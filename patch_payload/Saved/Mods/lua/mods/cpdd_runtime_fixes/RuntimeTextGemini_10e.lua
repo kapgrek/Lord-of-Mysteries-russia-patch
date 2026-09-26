@@ -199,7 +199,7 @@ return {
     ["The first to find the answer and leave the 'Dream-Weaving Black Box' wins this round of the competition!"] = "Тот, кто первым найдет ответ и покинет «Черный ящик снов», побеждает в этом раунде конкурса!",
     ["Dusk Destruction"] = "Сумерчное разрушение",
     ["No money? Then stop sweeping here! These old bones should be in the poorhouse."] = "Нет денег? Тогда хватит здесь подметать! Эти старые кости должны быть в богадельне.",
-    ["Piercing Rate"] = "Скорость прокалывания",
+    ["Piercing Rate"] = "Скорость пронзания",
     ["I have an idea! If I can get tickets for \"Emperor Solomon,\" Janice will definitely agree to my invitation!"] = "У меня есть идея! Если я смогу достать билеты на «Императора Соломона», Дженис обязательно согласится на мое приглашение!",
     ["Achievement - First Glimpse of Secrets"] = "Достижение: Первый взгляд на тайны",
     ["Hmm... if I had to say, I feel that the teacher's hysterical episodes have a pattern."] = "Хм... если честно, я чувствую, что истерические эпизоды учительницы имеют закономерность.",

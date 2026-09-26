@@ -196,7 +196,7 @@ return {
     ["Death Sect Tier 3"] = "Секта Смерти Уровень 3",
     ["[Collectible] Leave Mechanical House"] = "[Коллекционный] Покинуть Механический дом",
     ["Open to receive the title \"Mechanical Terminator\" and Bound Pound x50."] = "Откройте, чтобы получить титул «Механический Терминатор» и Bound Фунт x50.",
-    ["Armor Break"] = "Прорыв брони",
+    ["Armor Break"] = "Пробивание брони",
     ["Who are you referring to?"] = "Кого вы имеете в виду?",
     ["Skill Name Several Characters"] = "Умение Назовите несколько персонажей",
     ["Besides the craft brewery, you can also try building different types of workshops to meet the needs of various orders."] = "Помимо крафтовой пивоварни, вы также можете попробовать построить различные типы мастерских для удовлетворения потребностей различных заказов.",

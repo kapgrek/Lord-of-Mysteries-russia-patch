@@ -1,18 +1,18 @@
-﻿{
+{
   "magic_and_power": [
-    { "ru": "Потусторонний", "en": "Beyonder", "cn": "非凡者" },
+    { "ru": "Потусторонний", "en": "Beyonder", "cn": "非凡者", "note": "человек или существо, выпившее зелье" },
     { "ru": "Последовательность", "en": "Sequence", "cn": "序列" },
     { "ru": "Зелье", "en": "Potion", "cn": "魔药" },
-    { "ru": "Потусторонняя Характеристика", "en": "Beyonder Characteristic", "cn": "非凡特性" },
+    { "ru": "Потусторонняя характеристика", "en": "Beyonder Characteristic", "cn": "非凡特性", "note": "неделимая эссенция силы, остающаяся после гибели Потустороннего" },
     { "ru": "Закон Неуничтожимости Характеристик", "en": "Law of Characteristic Indestructibility", "cn": "非凡特性不灭定律" },
     { "ru": "Закон Схождения Характеристик", "en": "Law of Characteristic Convergence", "cn": "非凡特性聚合定律" },
-    { "ru": "Метод Действия", "en": "Acting Method", "cn": "扮演法" },
+    { "ru": "Метод отыгрыша", "en": "Acting Method", "cn": "扮演法", "note": "переваривание зелья через отыгрыш роли, названной именем последовательности" },
     { "ru": "Потеря Контроля", "en": "Loss of Control", "cn": "失控" },
     { "ru": "Истинное Зрение (Духовное)", "en": "Spirit Vision", "cn": "灵视" },
     { "ru": "Духовность", "en": "Spirituality", "cn": "灵性" },
     { "ru": "Мир Духов", "en": "Spirit World", "cn": "灵界" },
     { "ru": "Астральный Мир", "en": "Astral World", "cn": "星界" },
-    { "ru": "Запечатанный Артефакт", "en": "Sealed Artifact", "cn": "封印物" },
+    { "ru": "Запечатанный Артефакт", "en": "Sealed Artifact", "cn": "封印物", "note": "классы 0 (апокалиптические) – 3 (бытовые)" },
     { "ru": "Герметичный Духовный Барьер", "en": "Spirituality Barrier / Wall of Spirituality", "cn": "灵性之墙" },
     { "ru": "Богохульные Карты", "en": "Blasphemy Cards", "cn": "亵渎之牌" },
     { "ru": "Богохульные Сланцы", "en": "Blasphemy Slate", "cn": "亵渎石板" }
@@ -29,6 +29,8 @@
   "shop_and_events": [
     { "ru": "Гамбит Шута", "en": "Fool's Gambit", "cn": "愚者棋局" },
     { "ru": "золотые фунты", "en": "Gold Pounds", "cn": "金镑" },
+    { "ru": "Шахматная лавка", "en": "Chess Shop", "cn": "棋坛商店 / 棋局商店" },
+    { "ru": "Возмещение", "en": "Reclaim Shop", "cn": "补领商店" },
     { "ru": "Божья милость", "en": "God's Favor / Divine Favor", "cn": "神眷" },
     { "ru": "карта Божьей милости", "en": "God's Favor Card", "cn": "神眷牌" },
     { "ru": "Магазин даров Богини Красоты", "en": "Goddess of Beauty's Gift Shop", "cn": "美神馈赠商店" },

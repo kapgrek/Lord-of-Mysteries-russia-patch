@@ -158,7 +158,7 @@ return {
     ["Current member and candidate data not saved. Confirm closing the interface?"] = "Данные текущего члена и кандидата не сохранены. Подтвердить закрытие интерфейса?",
     ["Function_Sports Meet Attack_Sequence 1"] = "Функция_Спортивная встреча_Атака_Последовательность 1",
     ["I think you would be willing to exchange a little money for the opportunity to acquire this great wisdom, of course, of course!"] = "Я думаю, вы были бы готовы обменять немного денег на возможность приобрести эту великую мудрость, конечно-конечно!",
-    ["During the Blazing Sun state, your Damage Boost and Damage Reduction are increased by 20%."] = "В состоянии «Пылающего солнца» увеличение и уменьшение урона увеличиваются на 20%.",
+    ["During the Blazing Sun state, your Damage Boost and Damage Reduction are increased by 20%."] = "В состоянии «Пылающего солнца» усиление урона и снижение урона увеличиваются на 20%.",
     ["Stun Hit Rate"] = "Шанс оглушения",
     ["Stagger"] = "шататься",
     ["Cian after the fight"] = "Циан после боя",

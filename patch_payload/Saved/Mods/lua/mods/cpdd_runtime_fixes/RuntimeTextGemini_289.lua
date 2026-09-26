@@ -39,7 +39,7 @@ return {
     ["Two years ago, I invited Miss Belle to spend a wonderful night together, but I was slapped hard for it."] = "Два года назад я пригласил мисс Белль провести вместе чудесную ночь, но меня за это сильно отшлепали.",
     ["Alright, let's go work overtime together!"] = "Ладно, пойдем работать сверхурочно вместе!",
     ["<Highlight> Craft: </> Frost Embroidery \n By the banks of the River of Death, death and eternity dance together. She came draped in frost-colored bone gauze."] = "<Highlight>Мастерство: </>Морозная вышивка\nНа берегах реки Смерти ведут свой танец гибель и вечность. Она ступает вперёд, укутанная в костяную вуаль морозного оттенка.",
-    ["Red Prison Piercing"] = "Красный тюремный пирсинг",
+    ["Red Prison Piercing"] = "Пронзание Алой преисподней",
     ["After all, 3-116 is the \"relic\" of the former Tingen Nighthawks captain, Carro Bishop. It is the best choice for me, a team member who once followed her, to recover it."] = "В конце концов, номер 3-116 – это «реликвия» бывшего капитана «Тинген Найтхокс» Карро Бишопа. Для меня, члена команды, который когда-то следовал за ней, это лучший выбор, чтобы вернуть его.",
     ["Vehicle"] = "Транспортное средство",
     ["Lumian's spirituality is exhausted, and your consciousness is being forced to leave Lumian's body..."] = "Духовность Люмиана истощена, и ваше сознание вынуждено покинуть тело Люмиана...",

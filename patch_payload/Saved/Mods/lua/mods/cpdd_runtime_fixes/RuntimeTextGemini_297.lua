@@ -17,7 +17,7 @@ return {
     ["Yeah, restaurants in Tingen are all developing new dishes lately, and we can't fall behind."] = "Да, в последнее время все рестораны Тингена разрабатывают новые блюда, и нам нельзя отставать.",
     ["New Dowsing Rod Navigation (Failure)"] = "Поиск пути лозой (неудача)",
     ["Judge if the tags of the Skill that caused my death include 104 (Knockup)"] = "Проверяет, содержат ли теги навыка, вызвавшего гибель, метку 104 (подкидывание)",
-    ["Each hit of Air Bullet increases the duration of Fool's Blessing by 2 seconds (up to a maximum of 30 seconds), increases Fool's Blessing Damage Boost by 15%, and increases piercing value by 1.5x."] = "Каждое попадание «Воздушной пули» продлевает благословение Шута на 2 сек. (не более 30 сек. максимум), повышает бонус урона благословения Шута на 15% и увеличивает показатель пробивания в 1.5 раза.",
+    ["Each hit of Air Bullet increases the duration of Fool's Blessing by 2 seconds (up to a maximum of 30 seconds), increases Fool's Blessing Damage Boost by 15%, and increases piercing value by 1.5x."] = "Каждое попадание «Воздушной пули» продлевает благословение Шута на 2 сек. (не более 30 сек. максимум), повышает бонус урона благословения Шута на 15% и увеличивает показатель пронзания в 1.5 раза.",
     ["Undead Disappear Trigger"] = "Триггер исчезновения нежити",
     ["<P_Heart> (Whispering) </> The young lady... she might have just walked further away to enjoy the scenery..."] = "<P_Heart>(Шёпотом)</> Барышня... возможно, она просто отошла подальше полюбоваться видами...",
     ["Above the gray fog, is the true me."] = "Над #CanMove Grey Fog# — настоящая я.",

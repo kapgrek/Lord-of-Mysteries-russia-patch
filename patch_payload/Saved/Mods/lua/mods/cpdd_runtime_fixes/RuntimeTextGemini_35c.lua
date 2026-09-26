@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 35c/3ff.
 return {
     ["I, I can do something, right? Should I move them to a more secluded place..."] = "М-могу я чем-нибудь помочь? Может, перенести их в более укромное место?..",
-    ["[Enhanced] Critical hits provide <HighLight>5</> seconds of <HighLight>5%</> increased damage, stacking up to <HighLight>4</> times."] = "【Усиление】Критические удары на <HighLight>5</> сек. увеличивают наносимый урон на <HighLight>5%</>, суммируется до <HighLight>4</> раз.",
+    ["[Enhanced] Critical hits provide <HighLight>5</> seconds of <HighLight>5%</> increased damage, stacking up to <HighLight>4</> times."] = "【Усиление】Критические удары на <HighLight>5</> сек. дают усиление урона на <HighLight>5%</>, суммируется до <HighLight>4</> раз.",
     ["The Hound I keep plays better than him!"] = "Моя охотничья собака сыграла бы лучше него!",
     ["[Rogue] Space Cage"] = "【Rogue】Пространственная клетка",
     ["Hmph, he just provides a venue for trading!"] = "Хм, он всего лишь предоставил место для сделок!",

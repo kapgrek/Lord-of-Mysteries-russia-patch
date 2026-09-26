@@ -251,7 +251,7 @@ return {
     ["黄金三阶599胜点<12V12SuccessTips_G>（+30）</>"] = "Золотой ранг 3 599 победных очков<12V12SuccessTips_G>（+30）</>",
     ["黑衣女青年"] = "Молодая женщина в черном",
     ["Don't go too far—the three of us combined don't have as many buttons as you have on you!"] = "Не заходите слишком далеко — у нас троих, вместе взятых, не так много кнопок, как у вас!",
-    ["<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>320</>. After being attacked, additionally increase Monster Specialization by <Mark>50</>, lasting for <Mark>8</> seconds.\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>320</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>320</>. After being attacked, additionally increase Monster Specialization by <Mark>50</>, lasting for <Mark>8</> seconds.\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>320</>. После атаки специализация против монстров будет дополнительно увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Show Tingen Tabloid."] = "Покажите таблоид Тингена.",
     ["...Captain, I'm only 24, far from being called old."] = "...Капитан, мне всего 24 года, меня еще далеко не можно назвать старым.",
     ["Silence."] = "Тишина.",

@@ -231,7 +231,7 @@ return {
     ["Case Records"] = "Записи дел",
     ["Club member achieves 1st place in the previous week's division Moment of Fate rank"] = "Член клуба занял 1-е место в рейтинге «Момент судьбы» на прошлой неделе.",
     ["81110001 Support Buff 2"] = "81110001 Усиление поддержки 2",
-    ["When Klein enters the field, provide Attack and Damage Increase to the entire team based on the number of currently active kinships."] = "Когда Клейн выходит на поле, обеспечьте увеличение атаки и урона всей команде в зависимости от количества активных в данный момент родственных связей.",
+    ["When Klein enters the field, provide Attack and Damage Increase to the entire team based on the number of currently active kinships."] = "Когда Клейн выходит на поле, обеспечьте увеличение атаки и усиление урона всей команде в зависимости от количества активных в данный момент родственных связей.",
     ["Performance Settings"] = "Настройки производительности",
     ["The spiritual resonance is swinging in reverse with rapid oscillations! The Astral World is issuing a warning; %s this matter will surely face strong resistance!"] = "Духовный резонанс движется в обратном направлении быстрыми колебаниями! Астральный мир предупреждает; %s, этот вопрос наверняка встретит сильное сопротивление!",
     ["But Shirley, do you recognize this pocket watch? The lady in the photo looks a bit like you."] = "Но, Ширли, ты узнаешь эти карманные часы? Девушка на фото немного похожа на вас.",

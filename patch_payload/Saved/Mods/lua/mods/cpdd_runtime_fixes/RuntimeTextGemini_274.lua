@@ -30,7 +30,7 @@ return {
     ["...Huh?"] = "...Хм?",
     ["[North District Atmosphere] Sweeper in front of Night Cathedral"] = "[Атмосфера Северного района] Подметальная машина перед Ночным собором",
     ["Intis Blend Espresso"] = "Интис Бленд Эспрессо",
-    ["Special Armor Break"] = "Специальный прорыв брони",
+    ["Special Armor Break"] = "Особый прорыв защиты",
     ["5230016 Ferlanqi Flats - Plane"] = "5230016 Измерение: Квартира Франки",
     ["Some pillars and mechanisms are color-coded; you need to shoot the corresponding colored pillar to activate the mechanism."] = "Некоторые колонны и механизмы имеют цветовую маркировку; вам нужно выстрелить в столб соответствующего цвета, чтобы активировать механизм.",
     ["Crafting luxury mount"] = "Создание роскошного маунта",

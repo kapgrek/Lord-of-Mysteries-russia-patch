@@ -251,7 +251,7 @@ return {
     ["7 of Hearts flash"] = "7 червей мигают",
     ["Navigator Navigator"] = "Навигатор Навигатор",
     ["Quest custom event, teleport to Trigger location within specified scene"] = "Пользовательское событие квеста, телепорт к месту триггера в указанной сцене.",
-    ["You have gained some fate perception of the Monster Pathway Sequence 7, Lucky One, Pierce increased by 40%. You can faintly glimpse the trajectory of the enemy's next move, hitting the target with precision as if it were fated."] = "Вы получили некоторое представление о судьбе эпизода 7 «Пути монстра», «Счастливчик», Пирс увеличился на 40%. Вы можете едва различить траекторию следующего движения врага, поражая цель с точностью, как если бы она была предначертана судьбой.",
+    ["You have gained some fate perception of the Monster Pathway Sequence 7, Lucky One, Pierce increased by 40%. You can faintly glimpse the trajectory of the enemy's next move, hitting the target with precision as if it were fated."] = "Вы получили некоторое представление о судьбе эпизода 7 «Пути монстра», «Счастливчик», Пронзание увеличилось на 40%. Вы можете едва различить траекторию следующего движения врага, поражая цель с точностью, как если бы она была предначертана судьбой.",
     ["Hidden Space - Lake of Chaos and Order - Entrance"] = "Скрытое пространство — Озеро Хаоса и Порядка — Вход",
     ["Static-Fish Cart"] = "Статическая тележка для рыбы",
     ["Youran"] = "Юран",

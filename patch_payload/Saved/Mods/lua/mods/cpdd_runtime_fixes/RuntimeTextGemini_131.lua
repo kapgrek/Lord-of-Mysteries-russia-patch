@@ -18,7 +18,7 @@ return {
     ["These two are Nighthawk colleagues from Enmat Port, Mira and Evan. Three weeks ago, the two Sealed Artifacts they were responsible for transporting were stolen on the way."] = "Эти двое — наши коллеги-Ночные Ястребы из порта Энмат, Мира и Эван. Три недели назад перевозимые ими два Запечатанных Артефакта были похищены в пути.",
     ["View loadout"] = "Посмотреть снаряжение",
     ["Confirm Appointment"] = "Подтвердить назначение",
-    ["Attack reduced, Damage Increased taken."] = "Атака снижена, входящий урон увеличен.",
+    ["Attack reduced, Damage Increased taken."] = "Атака снижена, усиление получаемого урона.",
     ["Letting his thoughts drift toward his distant hometown... My god! This is exactly the line the Emperor wanted to express but failed to write down!"] = "Унестись мыслями к далекой родине... Боже мой! Это же именно то, что хотел выразить император, но так и не смог запечатлеть на бумаге!",
     ["Potion Formula (Sequence 3)"] = "Рецепт зелья (Последовательность 3)",
     ["Call of the Snowfield 1.29: Chat with Braden"] = "Зов снега 1.29 Чат с Брейденом",

@@ -91,7 +91,7 @@ return {
     ["Pure White Elven Flower"] = "Чистый белый эльфийский цветок",
     ["In the name of the Sun, purify all that is unclean."] = "Именем Солнца очисти всё нечистое.",
     ["Use <Reminder_Red>'s light element </> to break the shadow seal."] = "Используйте световой элемент <Reminder_Red> </>, чтобы сломать теневую печать.",
-    ["Gain 5% Damage Taken increase and 1.5 Mana Recovery."] = "Получите увеличение получаемого урона на 5% и восстановление маны на 1,5%.",
+    ["Gain 5% Damage Taken increase and 1.5 Mana Recovery."] = "Получите усиление урона на 5% и восстановление маны на 1,5%.",
     ["%s与你不是双向好友，无法进行邀请或创建群组操作。"] = "%s не ваш общий друг; не может выполнять операции приглашения или создания группы.",
     ["+%d胜点"] = "+%d победных очков",
     ["+200生命"] = "+200 здоровья",

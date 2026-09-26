@@ -67,7 +67,7 @@ return {
     ["The nightingale never sings for the dawn; it sings only because the long night is worth remembering."] = "Соловей никогда не поет на заре; он поет только потому, что стоит запомнить долгую ночь.",
     ["Stamina Recovery/Hour"] = "Восстановление выносливости/час",
     ["Captain, you make it sound like I'm a pervert."] = "Капитан, вы так говорите, будто я извращенец.",
-    ["+30 Attack +45 Armor Break, Armor Break +"] = "+30 Атака +45 Пробитие брони, Пробитие брони +",
+    ["+30 Attack +45 Armor Break, Armor Break +"] = "+30 Атака +45 Пробивание брони, Прорыв защиты +",
     ["Home Boundary"] = "Домашняя граница",
     ["Check Time"] = "Проверить время",
     ["Pin chat"] = "Закрепить чат",

@@ -233,7 +233,7 @@ return {
     ["Victor! That's too rude!"] = "Виктор! Это слишком грубо!",
     ["Tombstone Enveloped by Wraith"] = "Надгробие, окутанное призраком",
     ["Gentlemen in black trench coats?"] = "Господа в черных плащах?",
-    ["Monster Specialization increased by <Mark>200</>, Piercing decreased by <Mark>20</>."] = "Специализация монстров увеличена на <Mark>200</>, проникающая способность уменьшена на <Mark>20</>.",
+    ["Monster Specialization increased by <Mark>200</>, Piercing decreased by <Mark>20</>."] = "Специализация против монстров увеличена на <Mark>200</>, Пронзание уменьшено на <Mark>20</>.",
     ["If the target is in a negative emotion or neutral state [-2, -1, 0], change it to 1 or 2 (random) during the BUFF duration \n."] = "Если цель отрицательная и нейтральная [-2,-1,0], измените ее на 1 или 2 (случайным образом) в течение продолжительности BUFF \n.",
     ["Whether to turn on the lights"] = "Включать ли свет",
     ["Yes, {{Mr.|Ms.}}. There are always people who, out of jealousy or something else, disparage other competitors; this is very common."] = "Да, {{Mr.|Ms.}}. Всегда находятся люди, которые из зависти или чего-то другого унижают других конкурентов; это очень распространено.",

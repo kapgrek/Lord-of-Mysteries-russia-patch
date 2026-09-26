@@ -125,7 +125,7 @@ return {
     ["Check the size of a parameter value in FlowChart"] = "Проверка величины значения параметра в FlowChart",
     ["One-click copy and import"] = "Скопировать и импортировать в один клик",
     ["It's the Antigonus Notebook! It's in the room opposite the kidnappers!"] = "Это записная книжка семьи Антигон! Она в комнате прямо напротив похитителей!",
-    ["Magical Pathway Specialization"] = "Особая атака магических путей",
+    ["Magical Pathway Specialization"] = "Специализация магического Пути",
     ["Filter Recommended Scenarios"] = "Фильтр рекомендуемых сценариев",
     ["Checking for resource updates"] = "Проверка обновлений ресурсов",
     ["The traces of spirituality here are very mixed; try to perform divination one more time."] = "Следы духовности здесь слишком запутаны, попробуйте погадать еще раз.",

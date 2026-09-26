@@ -69,7 +69,7 @@ return {
     ["Rare Court Tea Set"] = "Редкий придворный чайный сервиз",
     ["Very thin, but deep scratches."] = "Очень тонкие, но глубокие царапины.",
     ["That makes sense... For example, the flu during seasonal changes. In fact, paying attention to ventilation and washing hands frequently can greatly reduce transmission. Many people get scared that it's tuberculosis as soon as they cough, which ends up delaying treatment."] = "В этом есть смысл... Например, грипп во время сезонных изменений. Фактически, уделяя внимание вентиляции и частому мытью рук, можно значительно снизить передачу инфекции. Многие люди пугаются, что это туберкулез, как только кашляют, что приводит к задержке лечения.",
-    ["[Enhanced] Deals <HighLight>15%</> increased damage to targets with higher than <HighLight>50%</> Health."] = "[Улучшенное] Наносит увеличенный на <HighLight>15%</> урон целям, у которых здоровье выше <HighLight>50%</>.",
+    ["[Enhanced] Deals <HighLight>15%</> increased damage to targets with higher than <HighLight>50%</> Health."] = "[Улучшенное] Даёт усиление урона +<HighLight>15%</> целям, у которых здоровье выше <HighLight>50%</>.",
     ["Selena's House"] = "Дом Селены",
     ["Check target faction and type"] = "Проверьте целевую фракцию и тип",
     ["Can't finish the meat!"] = "Не могу доесть мясо!",

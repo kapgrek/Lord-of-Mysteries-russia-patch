@@ -21,7 +21,7 @@ return {
     ["Mysterious Red Sword · I"] = "Таинственный красный меч — I",
     ["Stop looking, there are still two carts of posters to put up!"] = "Хватит глазеть, нам ещё две тележки плакатов расклеить надо!",
     ["Use to obtain <Highlight> Avatar: Requiem Poetry Society</>"] = "Используйте, чтобы получить <Highlight>Аватар: Поэтическое общество упокоения</>",
-    ["Sun Chaser - Super Armor"] = "Погоня за солнцем: Неуязвимость к контролю",
+    ["Sun Chaser - Super Armor"] = "Погоня за солнцем: Суперброня",
     ["Enemy 3"] = "Враг 3",
     ["BOSS Monster"] = "Монстр-босс",
     ["Boundary 4"] = "Граница 4",

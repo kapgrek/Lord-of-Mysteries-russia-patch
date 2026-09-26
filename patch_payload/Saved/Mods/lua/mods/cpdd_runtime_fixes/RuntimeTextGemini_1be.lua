@@ -28,7 +28,7 @@ return {
     ["Remaining Time: %M minutes %S seconds"] = "Оставшееся время: %M минут %S секунд",
     ["Is a max-level expert"] = "Является экспертом максимального уровня",
     ["Damage Ratio"] = "Коэффициент урона",
-    ["+15 Armor Break; 2-grid Defense reduction 15%"] = "+15 Пробитие брони; Снижение защиты 2-сетки 15%",
+    ["+15 Armor Break; 2-grid Defense reduction 15%"] = "+15 Пробивание брони; Снижение защиты 2-сетки 15%",
     ["Pick a card"] = "Выберите карту",
     ["Cannot open social emote panel in current state."] = "Невозможно открыть панель социальных эмоций в текущем состоянии.",
     ["Little Girl 2"] = "Маленькая девочка 2",

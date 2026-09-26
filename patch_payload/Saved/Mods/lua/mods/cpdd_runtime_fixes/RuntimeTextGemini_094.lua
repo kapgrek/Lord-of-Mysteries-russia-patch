@@ -6,7 +6,7 @@ return {
     ["Note Hidden in the Watch"] = "Записка, спрятанная в часах",
     ["We gather here tonight to toast to this unforgettable evening—cheers!"] = "Сегодня мы собрались здесь, чтобы поднять бокалы за этот незабываемый вечер. До дна!",
     ["Anhui Province"] = "Провинция Аньхой",
-    ["Damage amplification."] = "Увеличение получаемого урона.",
+    ["Damage amplification."] = "Усиление урона.",
     ["Question 4"] = "Вопрос 4",
     ["Yaxin"] = "Ясинь",
     ["Talent 1143: Cheer Up (Grade 2) Entire team Attack Speed +12%"] = "Талант 1143: Подбадривание (ранг 2): скорость атаки всей команды +12%",

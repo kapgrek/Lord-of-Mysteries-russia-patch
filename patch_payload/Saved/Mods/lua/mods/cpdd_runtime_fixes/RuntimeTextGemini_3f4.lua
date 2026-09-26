@@ -170,7 +170,7 @@ return {
     ["<h>去偏僻处</>"] = "<h>Перейти в укромное место</>",
     ["<h>查看报纸</>"] = "<h>Проверьте газету</>",
     ["After opening, you can choose to receive <Highlight>Mutated Material</> with one of the following affixes: <Highlight><守护者></>, <Highlight><无暗者></>, <Highlight><教唆者></>, or <Highlight><格斗家></>."] = "После открытия вы можете получить <Highlight>Mutated Material</> с одним из следующих аффиксов: <Highlight><Guardian></>, <Highlight><Lightless></>, <Highlight><Instigator></> или <Highlight><Brawler></>.",
-    ["Boss破防不锁"] = "Прорыв брони босса разблокирован",
+    ["Boss破防不锁"] = "Прорыв защиты босса разблокирован",
     ["CBT2副本测试19"] = "CBT2: Тест подземелья 19",
     ["Lily: {{他|她}} saw it! {{他|她}} saw the red threads! {{他|她}} cannot be allowed to leave alive!"] = "Лили: {{He|She}} это видел! {{He|She}} увидел красные нити! {{He|She}} нельзя позволить уйти живым!",
     ["QA冒烟任务1.0"] = "Контроль качества Дымовой квест 1.0",

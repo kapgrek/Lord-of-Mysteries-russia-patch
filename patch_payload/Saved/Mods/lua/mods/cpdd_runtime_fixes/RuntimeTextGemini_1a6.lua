@@ -45,7 +45,7 @@ return {
     ["The newspaper says: Amazing! The week before last, Ms. White from the Gold Oak District \"opened\" her wallet to the gang. Seven days of dating, and she was defrauded of a total of 100 pounds."] = "Газета пишет: Удивительно! На позапрошлой неделе г-жа Уайт из района Голд-Оук «открыла» банде свой бумажник. Семь дней свиданий, и у нее украли в общей сложности 100 фунтов.",
     ["Jump exclusive, used to preserve Rootmotion in animation (including Z-axis displacement)."] = "Эксклюзивный прыжок, используемый для сохранения Rootmotion в анимации (включая смещение по оси Z).",
     ["Note 2"] = "Примечание 2",
-    ["Substitute Death Skill Super Armor."] = "Замените навык смерти «Супер броня».",
+    ["Substitute Death Skill Super Armor."] = "Навык смерти двойника: Суперброня.",
     ["A creative potion provided by the Sea Spirit, requiring 30ml of Flow of Life, 10g of Singing Sunflower powder, 1 Human-Faced Rose, 1 stalk of Black-Faced Grass, and 5 drops of Psychedelic Grass sap."] = "Творческое зелье, предоставленное Морским Духом, требующее 30 мл Потока Жизни, 10 г порошка Поющего Подсолнуха, 1 розы с человеческим лицом, 1 стебель чернолицой травы и 5 капель сока психоделической травы.",
     ["\"Market\" is an important way to acquire castle assets."] = "«Рынок» — важный способ приобретения активов замка.",
     ["Hey—come back for dinner—otherwise Aunt Mary will confiscate all your puff pastries—and punish you by not letting you have any rice pudding for the next week—"] = "Эй, возвращайся к ужину, иначе тетя Мэри конфискует все твои слоеные пирожные и накажет тебя, не разрешив тебе есть рисовый пудинг на следующей неделе.",

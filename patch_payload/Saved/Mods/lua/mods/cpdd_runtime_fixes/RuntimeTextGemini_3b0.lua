@@ -248,7 +248,7 @@ return {
     ["Collected from natural crystal clusters, a common gemstone used for mental and spiritual stability."] = "Собран из кластеров природных кристаллов — распространенного драгоценного камня, используемого для умственной и духовной стабильности.",
     ["Defeat the Astrolabe User"] = "Победить пользователя астролябии",
     ["Drew <Divina_Yellow> %s </> <Divina_Yellow> %s </> obtained blessing %s"] = "Дрю <Divina_Yellow> %s </> <Divina_Yellow> %s </> получил благословение %s",
-    ["Armor Break increased by 5%"] = "Пробитие брони увеличено на 5%.",
+    ["Armor Break increased by 5%"] = "Прорыв защиты увеличен на 5%.",
     ["<Highlight>工艺：</>锐刺环饰\n权欲汇于时代激流，野心点燃社会暗面。行于欲望与黑暗之间，你是追猎腐朽的捕手，也是搅弄风云的利剑。"] = "<Highlight>Мастерство:</> шипастый браслет\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
     ["Gain <HighLight> one Fine Equipment Casket </>."] = "Даёт <HighLight> один ларец с отличным снаряжением </>.",
     ["Damage: Attack × 270% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,2.7}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}",

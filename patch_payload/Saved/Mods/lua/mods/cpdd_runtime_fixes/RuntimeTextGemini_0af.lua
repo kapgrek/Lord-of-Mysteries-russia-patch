@@ -168,7 +168,7 @@ return {
     ["<P_Heart> (The pot in the kitten's memory, also inscribed with \"Awakened Friend,\" this must be the kitten's letter?) </>"] = "<P_Heart> (Горшок в памяти котенка, на котором также написано «Пробужденный друг», это должно быть письмо котенка?) </>",
     ["Enemy 2_1"] = "Враг 2_1",
     ["Of course it's safe. Follow me, don't hesitate. Nothing will happen."] = "Конечно, это безопасно. Следуй за мной, не стесняйся. Ничего не произойдет.",
-    ["Monster Weakness Armor Break bar - Pete Armor Break performance"] = "Панель Monster Weakness Armor Break - выступление Пита Armor Break",
+    ["Monster Weakness Armor Break bar - Pete Armor Break performance"] = "Шкала прорыва защиты уязвимого монстра — индикатор прорыва защиты Пита",
     ["Sanity"] = "Рассудок",
     ["Test skill branch for Insight."] = "Тестовая ветка навыка Проницательности.",
     ["5231140 Sinful Tingen Single-Player Instance"] = "5231140 Одиночное измерение: Sinful Тинген",

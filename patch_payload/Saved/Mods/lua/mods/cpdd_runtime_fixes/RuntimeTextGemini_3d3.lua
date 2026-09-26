@@ -40,7 +40,7 @@ return {
     ["Precision Defense"] = "Прецизионная оборона",
     ["Each floor, you can gain one opportunity to use a mount in combat (cannot be stacked), lasting 15 seconds. When mounting, you deal high damage to enemies you collide with."] = "На каждом этаже вы можете получить одну возможность использовать скакуна в бою (не суммируется), длительностью 15 сек.. При езде вы наносите большой урон врагам, с которыми сталкиваетесь.",
     ["Roselle · Hard"] = "Розель · Жесткий",
-    ["<Highlight>{1,2, (Brand has expired) }</>Piercing increased by <Mark>120</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Срок годности марки истек)}</>Прокол увеличивает <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
+    ["<Highlight>{1,2, (Brand has expired) }</>Piercing increased by <Mark>120</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Срок годности марки истек)}</>Пронзание увеличено на <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
     ["That's too cruel."] = "Это слишком жестоко.",
     ["Guild bot mount flowchart"] = "Блок-схема установки ботов гильдии",
     ["Confessional (Gazebo)"] = "Исповедальня (Беседка)",

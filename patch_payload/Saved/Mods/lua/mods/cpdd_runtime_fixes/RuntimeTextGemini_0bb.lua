@@ -169,7 +169,7 @@ return {
     ["A long pole covered with feathers at the top, which can be used for dusting."] = "Длинный шест, покрытый сверху перьями, которым можно смахивать пыль.",
     ["Listen for all hits"] = "Слушайте все хиты",
     ["Thank you! Where is your father, Mr. Butcher? Why are you the only one watching the stall? You're not even as tall as the counter!"] = "Спасибо! Где ваш отец, мистер Мясник? Почему ты единственный, кто смотрит за прилавком? Ты даже не такой высокий, как прилавок!",
-    ["Attack reduced by *d, Pierce reduced by *d, Crit reduced by *d."] = "Атака уменьшена на *d, проникающая способность уменьшена на *d, крит уменьшен на *d.",
+    ["Attack reduced by *d, Pierce reduced by *d, Crit reduced by *d."] = "Атака уменьшена на *d, пронзание уменьшено на *d, критический удар уменьшен на *d.",
     ["Accumulate %d/100 interactions with all contacts"] = "Накопить взаимодействия %d/100 со всеми контактами.",
     ["Advance to <HighLight>Sequence 8 Scholar of Forethought</>"] = "Переход к <HighLight>Sequence 8 «Ученый предусмотрительности»</>",
     ["BOSS 4 - Halberdier - W"] = "БОСС 4 — Алебардирист — W",

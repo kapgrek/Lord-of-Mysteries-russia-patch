@@ -73,7 +73,7 @@ return {
     ["【Unlock after advancing to Sequence 7, try acting as a Magician】 \n There is a crazy old lady on the streets of Tingen who always says there are pigeons in a gentleman's hat..."] = "【Открывается после продвижения на Последовательность 7; попробуйте примерить роль Мага】\nНа улицах Тингена бродит безумная старуха, твердящая каждому встречному, будто в шляпах джентльменов прячутся голуби...",
     ["Continue the pursuit"] = "Продолжайте преследование",
     ["(%s秒)"] = "(%s секунд)",
-    ["+30攻击+45破甲 破防+"] = "+30 Атака +45 Пробитие брони, Пробитие брони +",
+    ["+30攻击+45破甲 破防+"] = "+30 Атака +45 Пробивание брони, Прорыв защиты +",
     ["<Assistant_Title1>Spirit Line</>\n<Assistant_Title2>Item Introduction:</>\n1. Use <Assistant_Property1>Spirit Line</> items to boost travel rewards.\n2. Some Spirit Line items allow marionettes on travel to automatically complete <Assistant_Property1>Order World Exploration</> in designated areas.\n<Assistant_Title3>Recommended Search:</>{SendAnswer:[秘偶游历]|539}"] = "<Assistant_Title1>Духовная нить</>\n<Assistant_Title2>Описание предмета:</>\n1. Используйте предметы <Assistant_Property1>Духовная нить</>, чтобы увеличить награды за путешествия.\n2. Некоторые предметы Духовных нитей позволяют марионеткам в путешествии автоматически завершать <Assistant_Property1>Исследование мира Порядка</> в указанных областях.\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Путешествие марионетки]|539}",
     ["<P_Heart>（一件古董？）</>你最后一次见到他是什么时候？"] = "<P_Heart> (Антиквар?) </> Когда вы видели его в последний раз?",
     ["<P_Heart>（唉……看来这位小姐是误会了什么。）</>"] = "<P_Heart> (Вздох... Кажется, эта молодая леди что-то неправильно поняла.) </>",

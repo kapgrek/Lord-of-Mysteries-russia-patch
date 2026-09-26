@@ -202,7 +202,7 @@ return {
     ["Underworld Emperor Target Point"] = "Целевая точка Императора подземного мира",
     ["Love is the most dangerous thing in this world. And the Spring Night Salon has always been selling this kind of 'danger'."] = "Любовь – самая опасная вещь в этом мире. И Салон «Весенняя ночь» всегда продавал такого рода «опасности».",
     ["How to join the Spring Night Ball"] = "Как присоединиться к Весеннему балу",
-    ["Apple Knight is armor-broken; take the opportunity to deal damage!"] = "Эппл Найт сломан бронёй; воспользуйтесь возможностью нанести урон!",
+    ["Apple Knight is armor-broken; take the opportunity to deal damage!"] = "У Эппл Найта наступил прорыв защиты — воспользуйтесь моментом и нанесите урон!",
     ["Do you need assistance from others?"] = "Вам нужна помощь других?",
     ["Attack Boost 1%"] = "Повышение атаки 1%",
     ["When I wake up tomorrow, I might forget again, but that's okay. The pumpkin field is still here, Old Chuck's liquor is still being sold, and Colley's granddaughter is still running."] = "Когда я проснусь завтра, я, возможно, снова забуду, но это нормально. Тыквенное поле все еще здесь, ликер Старого Чака все еще продается, а внучка Колли все еще бегает.",

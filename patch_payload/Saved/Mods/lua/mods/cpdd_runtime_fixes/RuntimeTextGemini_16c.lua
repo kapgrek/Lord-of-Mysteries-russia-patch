@@ -262,7 +262,7 @@ return {
     ["Slot 2"] = "Слот 2",
     ["Divination: Small Misfortune"] = "Гадание: Маленькое несчастье",
     ["Mr. Fool"] = "Мистер Шут",
-    ["Pierce Increased <Yellow>*d</>."] = "Пирс увеличил <Yellow>*d</>.",
+    ["Pierce Increased <Yellow>*d</>."] = "Пронзание увеличено на <Yellow>*d</>.",
     ["Pious Prayer"] = "Благочестивая молитва",
     ["Crafted Bulwark"] = "Искусный оплот",
     ["Equipment Extraction"] = "Извлечение снаряжения",

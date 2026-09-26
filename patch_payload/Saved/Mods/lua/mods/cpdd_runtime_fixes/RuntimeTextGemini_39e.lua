@@ -67,7 +67,7 @@ return {
     ["Anjela "] = "Анжела",
     ["You won't find the master's trail!"] = "Следа хозяина ты не найдёшь!",
     ["Settlement 1"] = "Поселение 1",
-    ["Damage increased by 30%, Critical Hit and Pierce increased."] = "Урон увеличен на 30%, критический удар и проникающий урон увеличены.",
+    ["Damage increased by 30%, Critical Hit and Pierce increased."] = "Урон увеличен на 30%, критический удар и пронзание увеличены.",
     ["This damn poorhouse rule of separating adults and children makes it impossible for me to find you during the day."] = "Это проклятое правило ночлежки разделять взрослых и детей не позволяет мне найти тебя в течение дня.",
     ["Bullet starting offset position type: 0, default to own position; \n 1, take target position, offset along the line between self and target."] = "Тип смещения начальной точки пули: 0 — по умолчанию исходит от самого персонажа;\n1 — берется позиция цели со смещением по линии направления между персонажем и целью",
     ["Eye-level 1"] = "Уровень глаз 1",

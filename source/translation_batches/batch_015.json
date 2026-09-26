@@ -651,7 +651,7 @@
     "id": "070108",
     "source_cn": "受到精英怪物攻击时，抵消其专攻{*d,F1690001,EliteHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from an Elite monster, negates {*d,F1690001,EliteHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от элитного монстра сводит на нет {*d,F1690001,EliteHurtReduce} очков его специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от элитного монстра сводит на нет {*d,F1690001,EliteHurtReduce} очков его специализации. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "070109",
@@ -831,7 +831,7 @@
     "id": "070138",
     "source_cn": "提高穿刺7.0%，释放位移技能时，穿刺额外提高550，持续10秒，还会在目标位置造成一次治疗，每12秒最多触发1次。",
     "ref_en": "Increases Piercing by 7.0%. When releasing a Displacement Skill, Piercing is increased by an additional 550 for 10 seconds, and an additional heal is dealt at the target's location, with a maximum of 1 trigger every 12 seconds.",
-    "target_ru": "Увеличивает проникающее действие на 7,0%. При использовании навыка «Смещение» пронзающая способность увеличивается еще на 550 на 10 секунд, а в месте нахождения цели наносится дополнительное исцеление, максимум 1 срабатывание каждые 12 секунд."
+    "target_ru": "Увеличивает пронзание на 7,0%. При использовании навыка «Смещение» пронзание увеличивается еще на 550 на 10 секунд, а в месте нахождения цели наносится дополнительное исцеление, максимум 1 срабатывание каждые 12 секунд."
   },
   {
     "id": "070139",
@@ -11781,7 +11781,7 @@
     "id": "071963",
     "source_cn": "怪物专攻提高<Mark>225</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。",
     "ref_en": "Monster Expertise increased by <Mark>225</>. After standing still for <Mark>5</> seconds in combat, Monster Expertise is reduced by <Mark>25</> for <Mark>5</> seconds. After dodging, Monster Expertise is increased by <Mark>25</> for <Mark>15</> seconds.",
-    "target_ru": "Экспертиза монстров увеличена на <Mark>225</>. После простоя в бою в течение <Mark>5</> секунд экспертность монстров снижается на <Mark>25</> на <Mark>5</> секунд. После уклонения экспертность монстров увеличивается на <Mark>25</> на <Mark>15</> секунд."
+    "target_ru": "Специализация против монстров увеличена на <Mark>225</>. После простоя в бою в течение <Mark>5</> секунд специализация против монстров снижается на <Mark>25</> на <Mark>5</> секунд. После уклонения специализация против монстров увеличивается на <Mark>25</> на <Mark>15</> секунд."
   },
   {
     "id": "071964",
@@ -15945,7 +15945,7 @@
     "id": "072657",
     "source_cn": "【秘偶技】骑士守护LV4-暴击效果提升",
     "ref_en": "[Marionette Skill] Knight Guard LV4 - Critical Hit Effect Increase",
-    "target_ru": "[Марионетка Skill] Knight Guard LV4 - Critical Hit Effect Increase"
+    "target_ru": "[Навык марионетки] Страж-рыцарь LV4 — усиление эффекта критического удара"
   },
   {
     "id": "072658",
@@ -18411,13 +18411,13 @@
     "id": "073068",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>破防提高<Mark>80</>。受击时，有一定概率获得<Mark>60</>点防御，持续<Mark>5</>秒，每<Mark>10</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain <Mark>60</> Defense for <Mark>5</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(срок действия бренда истек)}</>защита от прорыва увеличена<Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<Highlight>{1,2,(срок действия бренда истек)}</>Прорыв защиты увеличен на <Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "073069",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>穿刺提高<Mark>140</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>140</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Прокол увеличен на <Mark>140</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Пронзание увеличено на <Mark>140</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "073070",
@@ -19257,7 +19257,7 @@
     "id": "073209",
     "source_cn": "伤害提升30%，暴击和穿刺提升",
     "ref_en": "Damage increased by 30%, Critical Hit and Pierce increased.",
-    "target_ru": "Урон увеличен на 30%, критический удар и проникающий урон увеличены."
+    "target_ru": "Урон увеличен на 30%, критический удар и пронзание увеличены."
   },
   {
     "id": "073210",
@@ -22953,7 +22953,7 @@
     "id": "073825",
     "source_cn": "<HighLight>40%</>最大生命值护盾，<HighLight>15%</>伤害减免；",
     "ref_en": "<HighLight>40%</> maximum Health Shield, <HighLight>15%</> Damage Reduction.",
-    "target_ru": "<HighLight>40%</> максимальный щит здоровья, <HighLight>15%</> уменьшение урона."
+    "target_ru": "<HighLight>40%</> максимальный щит здоровья, <HighLight>15%</> снижение урона."
   },
   {
     "id": "073826",
@@ -23451,7 +23451,7 @@
     "id": "073908",
     "source_cn": "梅迪奇破防表现buff",
     "ref_en": "Medici Armor Break effect buff",
-    "target_ru": "Усиление эффекта пробития брони Медичи"
+    "target_ru": "Усиление эффекта прорыва защиты Медичи"
   },
   {
     "id": "073909",
@@ -24927,7 +24927,7 @@
     "id": "074154",
     "source_cn": "竞技破防增益",
     "ref_en": "Competition Armor Break buff",
-    "target_ru": "Усиление «Пробитие брони» для соревнований"
+    "target_ru": "Усиление «Прорыв защиты» для соревнований"
   },
   {
     "id": "074155",
@@ -25563,7 +25563,7 @@
     "id": "074260",
     "source_cn": "根据非凡物质词条数量获得属性提升：\\n1条词条：生命+160、魔法破防+100\\n2条词条：生命+320、魔法破防+200\\n3条词条：生命+480、魔法破防+300\\n4条词条：生命+640、魔法破防+400\\n<Highlight>提升封印物等级可解锁更多非凡共鸣效果。</>\\n<Highlight>提升非凡知识等级可以增强非凡共鸣效果。</>",
     "ref_en": "Gain attribute bonuses based on the number of Beyonder material affixes:\\n 1 affix: Health +160, Magic Armor Break +100\\n 2 affixes: Health +320, Magic Armor Break +200\\n 3 affixes: Health +480, Magic Armor Break +300\\n 4 affixes: Health +640, Magic Armor Break +400\\n<Highlight> Upgrade Sealed Artifacts to unlock more Beyonder Resonance effects.</>\\n<Highlight> Upgrade Beyonder Knowledge level to enhance Beyonder Resonance effects.</>",
-    "target_ru": "Бонусы характеристик в зависимости от количества свойств Потусторонних веществ:\n1 свойство: ОЗ +160, магическое пробивание +100\n2 свойства: ОЗ +320, магическое пробивание +200\n3 свойства: ОЗ +480, магическое пробивание +300\n4 свойства: ОЗ +640, магическое пробивание +400\n<Highlight>Повышение уровня Запечатанного артефакта открывает больше эффектов Потустороннего резонанса.</>\n<Highlight>Повышение уровня Потусторонних знаний усиливает эффекты Потустороннего резонанса.</>"
+    "target_ru": "Бонусы характеристик в зависимости от количества свойств Потусторонних веществ:\n1 свойство: ОЗ +160, Маг. прорыв защиты +100\n2 свойства: ОЗ +320, Маг. прорыв защиты +200\n3 свойства: ОЗ +480, Маг. прорыв защиты +300\n4 свойства: ОЗ +640, Маг. прорыв защиты +400\n<Highlight>Повышение уровня Запечатанного артефакта открывает больше эффектов Потустороннего резонанса.</>\n<Highlight>Повышение уровня Потусторонних знаний усиливает эффекты Потустороннего резонанса.</>"
   },
   {
     "id": "074261",
@@ -27141,7 +27141,7 @@
     "id": "074523",
     "source_cn": "苹果骑士破防了，趁机输出！",
     "ref_en": "Apple Knight is armor-broken; take the opportunity to deal damage!",
-    "target_ru": "Эппл Найт сломан бронёй; воспользуйтесь возможностью нанести урон!"
+    "target_ru": "У Эппл Найта наступил прорыв защиты — воспользуйтесь моментом и нанесите урон!"
   },
   {
     "id": "074524",
@@ -28425,7 +28425,7 @@
     "id": "074737",
     "source_cn": "意识操纵的伤害减免效果提高至60%。",
     "ref_en": "Consciousness Manipulation's Damage Reduction effect increased to 60%.",
-    "target_ru": "Эффект уменьшения урона от «Манипулирования сознанием» увеличен до 60%."
+    "target_ru": "Эффект снижения урона от «Манипулирования сознанием» увеличен до 60%."
   },
   {
     "id": "074738",
@@ -28635,7 +28635,7 @@
     "id": "074772",
     "source_cn": "破防提高<Mark>80</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。",
     "ref_en": "Armor Break increased by <Mark>80</>. Using skills and Basic Attacks draws the Gaze of 2-049. After stacking three layers of the gaze, it deals additional damage, with a maximum trigger frequency of once every <Mark>4</> seconds.",
-    "target_ru": "Пробитие брони увеличено на <Mark>80</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек.."
+    "target_ru": "Прорыв защиты увеличен на <Mark>80</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек."
   },
   {
     "id": "074773",

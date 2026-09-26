@@ -247,7 +247,7 @@ return {
     ["Remedies"] = "Средства правовой защиты",
     ["Sacred Bonfire Stand 1"] = "Стенд для священного костра 1",
     ["Yunan"] = "Юнань",
-    ["Monster Weakness Armor Break bar - Pete Armor Break performance - New version"] = "Панель Monster Weakness Armor Break - Представление Пита Armor Break - Новая версия",
+    ["Monster Weakness Armor Break bar - Pete Armor Break performance - New version"] = "Шкала прорыва защиты слабого монстра - Визуализация прорыва защиты Пита - Новая версия",
     ["Law of Beyonder Characteristic Convergence:\nHigh-sequence items of the same pathway will intermittently and unconsciously attract mid-to-low-sequence Beyonders to their vicinity, and they have a tendency to aggregate together. High-sequence individuals can perceive this attraction. The law of convergence also exists for adjacent pathways."] = "Закон агрегации необыкновенных характеристик: \n Элементы высокой последовательности одного и того же пути будут периодически и бессознательно привлекать к себе экстраординарные объекты средней и низкой последовательности и иметь тенденцию агрегироваться друг с другом. Элементы с высокой последовательностью могут обнаружить это притяжение. Закон агрегации существует и для подобных путей.",
     ["The top note is sweet pear, the middle note is freesia and rose, and the base note is amber."] = "Верхняя нота: сладкая груша, средняя нота: фрезия и роза, базовая нота: амбра.",
     ["Who is shouting outside!"] = "Кто кричит снаружи!",

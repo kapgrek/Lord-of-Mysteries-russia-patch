@@ -100,7 +100,7 @@ return {
     ["Participate in the Adventure challenge and reach the King of Angels rank."] = "Примите участие в приключенческом испытании и достигните ранга Короля Ангелов.",
     ["Enid's route to the birdcage"] = "Путь Энид к птичьей клетке",
     ["Someone is grave robbing!"] = "Кто-то грабит могилы!",
-    ["Armor Break Weakness"] = "Слабость к пробитию брони",
+    ["Armor Break Weakness"] = "Слабость к прорыву защиты",
     ["Bird's nest"] = "Птичье гнездо",
     ["I hope every flower sold can be cherished by its owner."] = "Я надеюсь, что каждый проданный цветок будет цениться его владельцем.",
     ["Use to obtain <Highlight>First Vow Hairstyle</>"] = "Используйте, чтобы получить <Highlight>Прическа «Первая клятва»</>.",

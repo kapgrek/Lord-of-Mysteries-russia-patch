@@ -44,7 +44,7 @@ return {
     ["Excited Guest"] = "Взволнованный гость",
     ["Current version: %s\nAvailable update version: %s\nLatest version: %s\nUpdate now?"] = "Текущая версия: %s\nДоступная версия: %s\nНовейшая версия: %s\nОбновить сейчас?",
     ["Network connection lost, please check your network and try again"] = "Сетевое соединение потеряно. Проверьте сеть и повторите попытку.",
-    ["Increase Pierce, Block, and Defense."] = "Увеличьте проникающую способность, блокирование и защиту.",
+    ["Increase Pierce, Block, and Defense."] = "Увеличьте пронзание, блокирование и защиту.",
     ["My daughter heard it at school. She said the maid at her classmate's house saw it with her own eyes."] = "Моя дочь услышала это в школе. Она сказала, что горничная в доме ее одноклассника видела это собственными глазами.",
     ["Approach the church to check the situation"] = "Подойдите к церкви, чтобы проверить ситуацию.",
     ["Grouping Management Interface"] = "Интерфейс управления группировкой",

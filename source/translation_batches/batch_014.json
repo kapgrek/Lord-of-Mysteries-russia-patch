@@ -189,7 +189,7 @@
     "id": "065031",
     "source_cn": "在二阶段，当米尔贡根血量下降至<Disable>55%、35%、15%</>时，会释放四象守护技能，场上随机出现圆形范围伤害并且四座雕像同时激活激光状态，两座雕像<Disable>无敌保护消失</>，需要在一定时间内摧毁失去无敌保护的雕像，成功则米尔贡根进入破防状态。",
     "ref_en": "In the second phase, when Milgongen's health drops to <Disable>55%, 35%, 15%</>, it will release the Four Symbols Protection skill. Circular area damage will appear randomly on the field, and all four statues will activate the laser state simultaneously. Two statues will <Disable>lose their invincibility protection</>. Players need to destroy the statues that have lost their invincibility within a certain time. If successful, Milgongen will enter the Armor Broken state.",
-    "target_ru": "На втором этапе, когда здоровье Милгонгена упадет до <Disable>55%, 35%, 15%</>, он высвободит навык «Защита четырех символов». Урон по круговой области будет случайным образом появляться на поле, и все четыре статуи одновременно активируют состояние лазера. Две статуи <Disable> потеряют защиту неуязвимости</>. Игрокам необходимо за определенное время уничтожить статуи, потерявшие непобедимость. В случае успеха Милгонген перейдет в состояние сломанной брони."
+    "target_ru": "На втором этапе, когда здоровье Милгонгена упадет до <Disable>55%, 35%, 15%</>, он высвободит навык «Защита четырех символов». Урон по круговой области будет случайным образом появляться на поле, и все четыре статуи одновременно активируют состояние лазера. Две статуи <Disable> потеряют защиту неуязвимости</>. Игрокам необходимо за определенное время уничтожить статуи, потерявшие непобедимость. В случае успеха Милгонген перейдет в состояние прорыва защиты."
   },
   {
     "id": "065032",
@@ -3705,7 +3705,7 @@
     "id": "065617",
     "source_cn": "新增技能 - 清算：开启后，10秒内伤害加深提高30%，记录期间造成的总伤害，在效果结束时让范围内敌人受到记录的总伤害。",
     "ref_en": "New Skill - Liquidation: Upon activation, Damage Taken increases by 30% for 10 seconds. Records the total damage dealt during the duration, and upon effect expiration, enemies within the area take the total recorded damage.",
-    "target_ru": "Новый навык — Ликвидация: при активации получаемый урон увеличивается на 30% fили 10 секунд. Записывает общий урон, нанесенный за время действия, а по истечении срока действия враги в области действия получают полный записанный урон."
+    "target_ru": "Новый навык — Ликвидация: при активации усиление урона повышается на 30% на 10 секунд. Записывает общий урон, нанесённый за это время, а по истечении срока действия враги в области получают весь записанный урон."
   },
   {
     "id": "065618",
@@ -7737,7 +7737,7 @@
     "id": "066289",
     "source_cn": "开启后，10秒内伤害加深提高30%。记录期间你对敌人造成的总伤害，在效果结束时对范围内目标造成一次性伤害，伤害量等于记录总伤害。",
     "ref_en": "After activating, Damage Boost increases by 30% for 10 seconds. Records the total damage you deal to enemies during this period, and upon the effect's end, deals one-time damage to targets within range equal to the total recorded damage.",
-    "target_ru": "После активации увеличение урона повышается на 30% на 10 сек. Навык фиксирует весь урон, нанесённый вами врагам за это время, и по окончании действия наносит целям в области единовременный урон, равный общему зафиксированному урону."
+    "target_ru": "После активации усиление урона повышается на 30% на 10 сек. Навык фиксирует весь урон, нанесённый вами врагам за это время, и по окончании действия наносит целям в области единовременный урон, равный общему зафиксированному урону."
   },
   {
     "id": "066290",
@@ -12459,7 +12459,7 @@
     "id": "067076",
     "source_cn": "磐石（2）16%最大生命值护盾，10%伤害减免；",
     "ref_en": "Rock (2) 16% Max Health Shield, 10% Damage Reduction;",
-    "target_ru": "Камень (2) 16% максимального здоровья щита, 10% уменьшения урона;"
+    "target_ru": "Камень (2) 16% максимального здоровья щита, 10% снижения урона;"
   },
   {
     "id": "067077",
@@ -13155,7 +13155,7 @@
     "id": "067192",
     "source_cn": "提高破防240。",
     "ref_en": "Increases Armor Penetration by 240.",
-    "target_ru": "Увеличивает пробиваемость брони на 240."
+    "target_ru": "Увеличивает прорыв защиты на 240."
   },
   {
     "id": "067193",
@@ -14751,7 +14751,7 @@
     "id": "067458",
     "source_cn": "穿刺提高<Mark>60</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。",
     "ref_en": "Piercing increased by <Mark>60</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>.",
-    "target_ru": "Прокалывание увеличено на <Mark>60</>. В бою увеличивает вероятность критического удара всего отряда на <Mark>30</> и снижает защиту на <Mark>15</>."
+    "target_ru": "Пронзание увеличено на <Mark>60</>. В бою увеличивает вероятность критического удара всего отряда на <Mark>30</> и снижает защиту на <Mark>15</>."
   },
   {
     "id": "067459",
@@ -19521,7 +19521,7 @@
     "id": "068253",
     "source_cn": "距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 ",
     "ref_en": "If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds.",
-    "target_ru": "Если урон не был получен в течение более <Mark>2</> секунд, пробитие брони увеличивается на <Mark>70</> на <Mark>5</> секунд."
+    "target_ru": "Если урон не был получен в течение более <Mark>2</> секунд, прорыв защиты увеличивается на <Mark>70</> на <Mark>5</> секунд."
   },
   {
     "id": "068254",
@@ -20403,7 +20403,7 @@
     "id": "068400",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>220</>，穿刺降低<Mark>20</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>220</>, Piercing decreased by <Mark>20</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличился на <Mark>220</>, а пронзительность уменьшилась на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличилась на <Mark>220</>, а пронзание уменьшилось на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "068401",
@@ -21915,7 +21915,7 @@
     "id": "068652",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">圣光净化</>额外提升暴击和穿刺，增伤效果提高5%。",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Holy Light Purification</> additionally increases crit and piercing, and the damage boost effect is increased by 5%.",
-    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Очищение святым светом</> дополнительно увеличивает критическую силу и проникающую способность, а эффект усиления урона увеличивается на 5%."
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86011050\" color=\"#f4a067\">Очищение святым светом</> дополнительно увеличивает критический удар и пронзание, а эффект усиления урона увеличивается на 5%."
   },
   {
     "id": "068653",
@@ -22719,7 +22719,7 @@
     "id": "068786",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>290</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>290</>. When attacked, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>290</>. При атаке специализация монстра <Mark>50</> будет увеличена на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>290</>. При атаке специализация против монстров дополнительно увеличивается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "068787",
@@ -28461,7 +28461,7 @@
     "id": "069743",
     "source_cn": "抵消伤害来源的魔法穿刺，在基础格挡率<Highlight>25%</>的基础上，提高格挡所受伤害的几率。格挡时，受到30%伤害且不会触发暴击。\\n格挡率存在<Highlight>75%</>的上限和<Highlight>0%</>的下限，提升的格挡超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>魔法穿刺</>属性的对抗结算。",
     "ref_en": "Offsets the damage source's Magic Pierce. Based on the base Block rate of <Highlight> 25% </>, it increases the probability of blocking received damage. When blocking, you take 30% damage and will not trigger a critical hit. \\n The Block rate has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 0% </>; if the increased Block exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage reduction capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Magic Pierce </> attribute.",
-    "target_ru": "Снижает магическое пробивание источника урона и сверх базового шанса блока <Highlight>25%</> повышает вероятность заблокировать входящий урон. При успешном блоке персонаж получает 30% урона, а атака не может нанести критический удар.\\nШанс блока ограничен максимумом в <Highlight>75%</> и минимумом в <Highlight>0%</>; если значение превышает верхний или не достигает нижнего порога, эффективность снижения урона не повышается.\\nФактический эффект и пороги определяются разницей уровней атакующего и защищающегося, а также расчетом противодействия характеристике <Highlight>Магическое пробивание</> противника."
+    "target_ru": "Снижает магическое пронзание источника урона и сверх базового шанса блока <Highlight>25%</> повышает вероятность заблокировать входящий урон. При успешном блоке персонаж получает 30% урона, а атака не может нанести критический удар.\\nШанс блока ограничен максимумом в <Highlight>75%</> и минимумом в <Highlight>0%</>; если значение превышает верхний или не достигает нижнего порога, эффективность снижения урона не повышается.\\nФактический эффект и пороги определяются разницей уровней атакующего и защищающегося, а также расчетом противодействия характеристике <Highlight>Магическое пронзание</> противника."
   },
   {
     "id": "069744",

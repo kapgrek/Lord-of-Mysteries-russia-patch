@@ -1947,7 +1947,7 @@
     "id": "060324",
     "source_cn": "预留<Highlight>爆发技能</>，在米尔贡根破防时释放从而造成更多伤害。",
     "ref_en": "Reserve <Highlight>Finisher Skills</> to unleash when Milgongen's armor is broken to deal more damage.",
-    "target_ru": "Зарезервируйте <Highlight>Finisher Skills</>, чтобы использовать его, когда броня Милгонгена будет сломана, и нанести больший урон."
+    "target_ru": "Держите в запасе <Highlight>Взрывной навык</>, чтобы применить его, когда Милгонген окажется в состоянии прорыва защиты, и нанести больше урона."
   },
   {
     "id": "060325",
@@ -9615,7 +9615,7 @@
     "id": "061602",
     "source_cn": "穿刺提高*d。",
     "ref_en": "Piercing increased by *d.",
-    "target_ru": "Пирсинг увеличен на *d."
+    "target_ru": "Пронзание увеличено на *d."
   },
   {
     "id": "061603",
@@ -15609,7 +15609,7 @@
     "id": "062601",
     "source_cn": "+30攻击+45破甲 破防+",
     "ref_en": "+30 Attack +45 Armor Break, Armor Break +",
-    "target_ru": "+30 Атака +45 Пробитие брони, Пробитие брони +"
+    "target_ru": "+30 Атака +45 Пробивание брони, Прорыв защиты +"
   },
   {
     "id": "062602",
@@ -16659,7 +16659,7 @@
     "id": "062776",
     "source_cn": "减免受到伤害的攻击基础值，无法减免伤害的技能基础值。\\n减免后的攻击基础值存在<Highlight>75%</>的上限和<Highlight>20%</>的下限，提升的防御超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>，与对方<Highlight>破防</>、<Highlight>忽视防御</>属性的对抗结算。",
     "ref_en": "Reduces the base Attack value of received damage; cannot reduce the base Skill value of damage. \\n The base Attack value after reduction has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 20% </>; if the increased Defense exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage reduction capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Armor Break </> and <Highlight> Ignore Defense </> attributes.",
-    "target_ru": "Снижает базовое значение атаки при получаемом уроне; не снижает базовый урон от навыков.\\nУменьшенное базовое значение атаки ограничено верхним пределом в <Highlight>75%</> и нижним пределом в <Highlight>20%</>; повышение защиты сверх верхнего порога или ниже нижнего не увеличивает способность к снижению урона.\\nФактический эффект и пороги зависят от соотношения <Highlight>уровней</> атакующего и защищающегося, а также от характеристик <Highlight>пробивания защиты</> и <Highlight>игнорирования защиты</> оппонента."
+    "target_ru": "Снижает базовое значение атаки при получаемом уроне; не снижает базовый урон от навыков.\\nУменьшенное базовое значение атаки ограничено верхним пределом в <Highlight>75%</> и нижним пределом в <Highlight>20%</>; повышение защиты сверх верхнего порога или ниже нижнего не увеличивает способность к снижению урона.\\nФактический эффект и пороги зависят от соотношения <Highlight>уровней</> атакующего и защищающегося, а также от характеристик <Highlight>прорыва защиты</> и <Highlight>игнорирования защиты</> оппонента."
   },
   {
     "id": "062777",
@@ -18003,7 +18003,7 @@
     "id": "063000",
     "source_cn": "释放技能时，有概率提升<Mark>200</>点途径专攻和<Mark>3%</>攻击，持续<Mark>8</>秒。冷却<Mark>20</>秒。",
     "ref_en": "When releasing a skill, there is a chance to increase <Mark>200</> Pathway Specialization and <Mark>3%</> Attack for <Mark>8</> seconds. Cooldown <Mark>20</> seconds.",
-    "target_ru": "При выпуске навыка есть шанс увеличить <Mark>200</> Pathway Specialization и <Mark>3%</> Attack на <Mark>8</> секунд. Время восстановления <Mark>20</> секунд."
+    "target_ru": "При использовании навыка есть шанс повысить специализацию пути на <Mark>200</> и атаку на <Mark>3%</> на <Mark>8</> секунд. Время восстановления <Mark>20</> секунд."
   },
   {
     "id": "063001",
@@ -18363,7 +18363,7 @@
     "id": "063060",
     "source_cn": "基于伤害类型，忽视目标的物理格挡或魔法格挡，从而降低攻击被格挡的概率。穿刺超过目标的同类型格挡后，在一定范围内可以进一步降低攻击被格挡的概率直至必定不触发格挡。\\n\\n角色物理穿刺：{*d,F1690001,pPierce}\\n角色魔法穿刺：{*d,F1690001,mPierce}",
     "ref_en": "Based on the damage type, ignores the target's physical block or magic block, thereby reducing the probability of the attack being blocked. After Pierce exceeds the target's same-type block, it can further reduce the probability of the attack being blocked within a certain range until it is guaranteed not to trigger a block. \\n \\n Character Physical Pierce: {*d,F1690001,pPierce} \\n Character Magic Pierce: {*d,F1690001,mPierce}",
-    "target_ru": "В зависимости от типа урона игнорирует физический или магический блок цели, тем самым снижая вероятность блокировки атаки. После того, как пробивание превысит блок цели того же типа, вероятность блокировки атаки может быть дополнительно снижена в пределах определенного диапазона до тех пор, пока блок точно не сработает. \\n\\nФизический прокол персонажа: {*d,F1690001,pPierce}\\nМагический прокол персонажа: {*d,F1690001,mPierce}"
+    "target_ru": "В зависимости от типа урона игнорирует физический или магический блок цели, тем самым снижая вероятность блокировки атаки. После того, как пронзание превысит блок цели того же типа, вероятность блокировки атаки может быть дополнительно снижена в пределах определенного диапазона до тех пор, пока блок точно не сработает. \\n\\nФизическое пронзание персонажа: {*d,F1690001,pPierce}\\nМагическое пронзание персонажа: {*d,F1690001,mPierce}"
   },
   {
     "id": "063061",
@@ -24663,7 +24663,7 @@
     "id": "064110",
     "source_cn": "青蛙王子进入不可选中的状态，持续追逐灰姑娘试图索吻；他的耐心耗尽后，将会狂暴的攻击所有人。场地边缘会刷新出服务员、餐车。在<Disable>赶跑服务员</>后，玩家可以利用<Disable>场上的道具</>攻击青蛙王子，使其破防倒地。",
     "ref_en": "The Frog Prince enters an untargetable state, continuously chasing Cinderella in an attempt to kiss her; once his patience runs out, he will attack everyone in a berserk state. Waiters and carriages will spawn at the edge of the field. After <Disable>chasing away the waiters</>, players can use the <Disable>props on the field</> to attack the Frog Prince, breaking his defense and knocking him down.",
-    "target_ru": "Принц-лягушка входит в состояние, на которое невозможно нацелиться, постоянно преследуя Золушку, пытаясь ее поцеловать; как только его терпение закончится, он нападет на всех в состоянии берсерка. Официанты и кареты будут появляться на краю поля. После того, как <Disable> прогнал официантов </>, игроки могут использовать реквизит <Disable> на поле </>, чтобы атаковать Принца-лягушки, сломав его защиту и сбив его с ног."
+    "target_ru": "Принц-лягушка входит в состояние, на которое невозможно нацелиться, постоянно преследуя Золушку, пытаясь ее поцеловать; как только его терпение закончится, он нападет на всех в состоянии берсерка. Официанты и кареты будут появляться на краю поля. После того, как <Disable> прогнал официантов </>, игроки могут использовать реквизит <Disable> на поле </>, чтобы атаковать Принца-лягушки, вызвав прорыв его защиты и сбив его с ног."
   },
   {
     "id": "064111",
@@ -25887,7 +25887,7 @@
     "id": "064314",
     "source_cn": "最大生命增加*d\\n最小物理攻击增加*d\\n最大物理攻击增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n破盾增加*d\\n气盾增加*d\\n防御*d\\n破防增加*d\\n元素攻击增加*d\\n元素攻击百分比增加*.1f**\\n元素忽视增加*d\\n元素抗性增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n命中增加*d\\n格挡增加*d\\n暴击增加*d\\n抗暴击增加\\n暴击伤害增加\\n抗暴击伤害增加\\n伤害加成增加\\n伤害减免增加\\n最终伤害增加\\n最终伤害减少\\n治疗增强%增加",
     "ref_en": "Max Health increased *d\\n Min Physical Attack increased *d\\n Max Physical Attack increased *d\\n Min Magic Attack increased *d\\n Max Magic Attack increased *d\\n Shield Break increased *d\\n Air Shield increased *d\\n Defense *d\\n Armor Break increased *d\\n Elemental Attack increased *d\\n Elemental Attack percentage increased *.1f**\\n Elemental Ignore increased *d\\n Elemental Resistance increased *d\\n Skill Enhancement increased *d\\n Skill Block increased *d\\n Accuracy increased *d\\n Block increased *d\\n Critical Hit increased *d\\n Anti-Critical Hit increased \\n Critical Damage increased \\n Anti-Critical Damage increased \\n Damage Bonus increased \\n Damage Reduction increased \\n Final Damage increased \\n Final Damage reduced \\n Healing Enhancement % increased",
-    "target_ru": "Макс. здоровье увеличено на *d\\nМин. физ. атака увеличена на *d\\nМакс. физ. атака увеличена на *d\\nМин. маг. атака увеличена на *d\\nМакс. маг. атака увеличена на *d\\nПробитие щита увеличено на *d\\nЭнергетический щит увеличен на *d\\nЗащита: *d\\nПробивание защиты увеличено на *d\\nСтихийная атака увеличена на *d\\nСтихийная атака в процентах увеличена на *.1f**\\nИгнорирование стихий увеличено на *d\\nСтихийное сопротивление увеличено на *d\\nУсиление навыков увеличено на *d\\nСопротивление навыкам увеличено на *d\\nМеткость увеличена на *d\\nБлок увеличен на *d\\nКрит увеличен на *d\\nСопротивление криту увеличено\\nКритический урон увеличен\\nСнижение критического урона увеличено\\nБонус к урону увеличен\\nСнижение урона увеличено\\nИтоговый урон увеличен\\nИтоговый урон снижен\\nБонус к эффективности исцеления увеличен"
+    "target_ru": "Макс. здоровье увеличено на *d\\nМин. физ. атака увеличена на *d\\nМакс. физ. атака увеличена на *d\\nМин. маг. атака увеличена на *d\\nМакс. маг. атака увеличена на *d\\nПробитие щита увеличено на *d\\nЭнергетический щит увеличен на *d\\nЗащита: *d\\nПрорыв защиты увеличен на *d\\nСтихийная атака увеличена на *d\\nСтихийная атака в процентах увеличена на *.1f**\\nИгнорирование стихий увеличено на *d\\nСтихийное сопротивление увеличено на *d\\nУсиление навыков увеличено на *d\\nСопротивление навыкам увеличено на *d\\nМеткость увеличена на *d\\nБлок увеличен на *d\\nКрит увеличен на *d\\nСопротивление криту увеличено\\nКритический урон увеличен\\nСнижение критического урона увеличено\\nБонус к урону увеличен\\nСнижение урона увеличено\\nИтоговый урон увеличен\\nИтоговый урон снижен\\nБонус к эффективности исцеления увеличен"
   },
   {
     "id": "064315",
@@ -26085,7 +26085,7 @@
     "id": "064347",
     "source_cn": "装备-破甲光环-3格",
     "ref_en": "Equipment - Armor Break Aura - 3 Tiles",
-    "target_ru": "Снаряжение — Аура пробития брони — 3 плитки"
+    "target_ru": "Снаряжение — Аура пробивания брони — 3 плитки"
   },
   {
     "id": "064348",
@@ -26697,7 +26697,7 @@
     "id": "064449",
     "source_cn": "生命+1500、破防+204",
     "ref_en": "Health +1500, Armor Break +204",
-    "target_ru": "Здоровье +1500, пробитие брони +204"
+    "target_ru": "Здоровье +1500, прорыв защиты +204"
   },
   {
     "id": "064450",
@@ -26877,7 +26877,7 @@
     "id": "064479",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>180</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>180</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "064480",

@@ -17,7 +17,7 @@ return {
     ["Note Resonance"] = "Резонанс записной книжки",
     ["Multiple Magic Arrows"] = "Множественные магические стрелы",
     ["Hey, want to make money fast! I'll teach you"] = "Эй, хочешь быстро подзаработать? Я научу!",
-    ["Increases Piercing by 125 and Critical Hit by 130."] = "Увеличивает пробивание на 125, увеличивает критический урон на 130.",
+    ["Increases Piercing by 125 and Critical Hit by 130."] = "Увеличивает пронзание на 125, увеличивает критический удар на 130.",
     ["October 5th"] = "5 октября",
     ["Blessing of the Undead"] = "Благословение Неумирающего",
     ["Spark 3.9 - Xu Ziyuan"] = "Искра 3.9 — Сюй Цзыюань",

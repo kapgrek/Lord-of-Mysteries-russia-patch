@@ -186,7 +186,7 @@ return {
     ["Section 1: Exposing the Diviner"] = "Раздел 1: Разоблачение Прорицателя",
     ["Obtained after 《Joining the Nighthawks》"] = "Получено после 《Присоединения к Ночным Ястребам》.",
     ["Fullscreen Windowed"] = "Полноэкранный оконный режим",
-    ["[Hunter] (2) Crit +15%"] = "[Охотник] (2) Crit +15%",
+    ["[Hunter] (2) Crit +15%"] = "[Охотник] (2) Крит. удар +15%",
     ["Perfect Creation"] = "Идеальное творение",
     ["Hypnosis and Mind Reading"] = "Гипноз и чтение мыслей",
     ["Your two-player contract termination cooling-off period has ended. You can officially terminate the Covenant after paying 10,000 Sule. Are you sure you want to terminate the contract?"] = "Период обдумывания расторжения вашего контракта с двумя игроками закончился. Вы можете официально расторгнуть Ковенант, заплатив 10 000 Суле. Вы уверены, что хотите расторгнуть договор?",

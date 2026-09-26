@@ -26,7 +26,7 @@ return {
     ["W-what happened to me?"] = "Ч-что со мной случилось?",
     ["Welcome, child!"] = "Добро пожаловать, дитя!",
     ["Liana, little Daisy is trapped in a loop space, and everything inside is an illusion."] = "Лиана, маленькая Дейзи заперта в замкнутом пространстве, и все внутри — иллюзия.",
-    ["Piercing increased by <Mark>240</>. After a Dodge, Block is increased by <Mark>80</> for <Mark>10</> seconds."] = "Прокалывание увеличено на <Mark>240</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд.",
+    ["Piercing increased by <Mark>240</>. After a Dodge, Block is increased by <Mark>80</> for <Mark>10</> seconds."] = "Пронзание увеличено на <Mark>240</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд.",
     ["GTA Gun Parry Tutorial Auto-Release Gun Parry"] = "Учебное пособие по парированию оружия из GTA Автоматическое парирование оружия",
     ["You joined a team."] = "Вы присоединились к команде.",
     ["The final wave of zombies!"] = "Последняя волна зомби!",

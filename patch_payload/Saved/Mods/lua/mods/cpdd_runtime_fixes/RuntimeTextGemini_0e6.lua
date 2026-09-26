@@ -200,7 +200,7 @@ return {
     ["On the main interface skill bar, hovering the cursor over a skill icon for a certain duration will display the corresponding skill description."] = "На панели навыков основного интерфейса при наведении курсора на значок навыка на определенное время отобразится соответствующее описание навыка.",
     ["Taste the 'Starry Sky Pie'"] = "Попробуйте «Пирог звездного неба»",
     ["Life School 6 Attack"] = "Школа Жизни 6 Атака",
-    ["Unique - Teammate Armor Break Boost"] = "Уникально — усиление пробития брони товарища по команде",
+    ["Unique - Teammate Armor Break Boost"] = "Уникально — усиление прорыва защиты товарища по команде",
     ["Milgongen - Phase 1"] = "Милгонген - Фаза 1",
     ["Roselle's Diary (First Encounter)"] = "Дневник Розеллы (первая встреча)",
     ["Your memories have been corrupted by the \"Mother Tree of Desire,\" which is why your mental state is very unstable. If you encounter dream corruption again, you might be completely controlled by Her will and fall into eternal madness."] = "Ваши воспоминания были испорчены «Материнским Древом Желаний», поэтому ваше психическое состояние очень нестабильно. Если вы снова столкнетесь с искажением сна, вы можете полностью оказаться под контролем Ее воли и впасть в вечное безумие.",

@@ -227,7 +227,7 @@ return {
     ["It is indeed better than the poor district."] = "Это действительно лучше, чем бедный район.",
     ["Please enter the modified name."] = "Пожалуйста, введите измененное имя.",
     ["<P_Heart>(A troubled teacher...)</>"] = "<P_Heart>(Проблемный учитель...)</>",
-    ["Ultimate skill-Slow, Super Armor"] = "Абсолютный навык: Медленность, Супер броня.",
+    ["Ultimate skill-Slow, Super Armor"] = "Абсолютный навык: Медленность, Суперброня.",
     ["Gunshot Interaction 2"] = "Огнестрельное взаимодействие 2",
     ["Floating City heart buff - Green"] = "Сердце-бафф «Плавающий город» — зеленый",
     ["Main Dungeon: Amon."] = "Главное подземелье: Амон.",

@@ -242,7 +242,7 @@ return {
     ["Quietly peek at the mirror surface"] = "Тихо взглянуть на зеркальную поверхность",
     ["Parameter: Set level"] = "Параметр: Установить уровень",
     ["Black Thorn Incident Book 4-Level 1 buff ID Segment End"] = "Книга происшествий Black Thorn 4, уровень 1, усиление ID, конец сегмента",
-    ["Increases Pierce by 150."] = "Увеличивает Пирс на 150.",
+    ["Increases Pierce by 150."] = "Увеличивает Пронзание на 150.",
     ["You damn swindler!"] = "Ты проклятый мошенник!",
     ["Crimson Spear"] = "Багровое копье",
     ["That was the first time I heard him talk so much... Later, his right hand was blown off by a shell, and he could never hold a pen again."] = "Я впервые слышал, чтобы он так много говорил... Позже снарядом ему оторвало правую руку, и он больше никогда не мог держать ручку.",

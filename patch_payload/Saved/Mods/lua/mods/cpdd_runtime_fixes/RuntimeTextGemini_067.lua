@@ -185,7 +185,7 @@ return {
     ["Craft Brewery Level 12"] = "Крафтовая пивоварня Уровень 12",
     ["...Forget it, I'm already here."] = "...Забудь об этом, я уже здесь.",
     ["Default"] = "По умолчанию",
-    ["Increases Pierce by 170. When releasing a Displacement Skill, Pierce is additionally increased by 430 for 10 seconds. Can be triggered at most once every 8 seconds."] = "Увеличивает прокалывание на 170. При использовании навыка смещения прокалывание дополнительно увеличивается на 430 на 10 секунд. Может срабатывать не чаще одного раза в 8 секунд.",
+    ["Increases Pierce by 170. When releasing a Displacement Skill, Pierce is additionally increased by 430 for 10 seconds. Can be triggered at most once every 8 seconds."] = "Увеличивает пронзание на 170. При использовании навыка смещения пронзание дополнительно увеличивается на 430 на 10 секунд. Может срабатывать не чаще одного раза в 8 секунд.",
     ["Faction A middle lane second tower portal"] = "Портал второй башни Фракции А в средней полосе",
     ["Lies never die. As long as there are people craving simple answers, I will return. — Golden Wolf"] = "Ложь никогда не умирает. Пока есть люди, жаждущие простых ответов, я вернусь. — Золотой Волк",
     ["Joyce Meyer, departed on June 3, 1349."] = "Джойс Мейер уехала 3 июня 1349 года.",

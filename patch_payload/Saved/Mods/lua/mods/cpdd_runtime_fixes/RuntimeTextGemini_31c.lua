@@ -72,7 +72,7 @@ return {
     ["<P_Heart> (It seems like a farewell, should I listen in?) </>"] = "<P_Heart> (Это похоже на прощание, стоит ли мне слушать?) </>",
     ["Last candle 1"] = "Последняя свеча 1",
     ["I hope they check the tickets faster."] = "Надеюсь, они проверят билеты быстрее.",
-    ["Medici Armor Break effect buff"] = "Усиление эффекта пробития брони Медичи",
+    ["Medici Armor Break effect buff"] = "Усиление эффекта прорыва защиты Медичи",
     ["Antigonus descendant"] = "Потомок Антигона",
     ["Club Brawl is not open this week; the club needs to reach level %d."] = "Клубная потасовка на этой неделе закрыта; клубу необходимо достичь уровня %d.",
     ["Using the music played by the orchestra next door as my accompaniment is just right. Hmm, using you as a backup dancer doesn't seem bad either. How about it, interested?"] = "Использовать в качестве аккомпанемента музыку, которую играет оркестр по соседству, — это просто правильно. Хм, использовать тебя в качестве дублера тоже неплохо. Как насчет этого, интересно?",

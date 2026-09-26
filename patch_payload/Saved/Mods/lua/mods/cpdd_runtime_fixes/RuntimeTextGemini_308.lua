@@ -95,7 +95,7 @@ return {
     ["You are stealing!!!"] = "Вы воруете!!!",
     ["Foul Blood Arrow"] = "Стрела Грязной Крови",
     ["The Wheel of Fortune begins to turn; you are at a critical node. Seize the opportunity; the god of luck is smiling at you."] = "Колесо Фортуны начинает вращаться; вы находитесь в критическом узле. Воспользуйтесь возможностью; бог удачи улыбается тебе.",
-    ["Armor break value deduction."] = "Уменьшение стоимости пробития брони.",
+    ["Armor break value deduction."] = "Уменьшение значения прорыва защиты.",
     ["BOSS 4 - Collectible - Right 1"] = "БОСС 4 — Коллекционный — Справа 1",
     ["Also, I have prepared a small gift for your trip to Tingen."] = "А еще я приготовил небольшой подарок для вашей поездки в Тинген.",
     ["At least I paid. As for you, you benevolent {{Sir|Madam}}, what can you actually do for them?"] = "По крайней мере я заплатил. Что же касается тебя, великодушный {{Sir|Madam}}, что ты можешь для них сделать?",

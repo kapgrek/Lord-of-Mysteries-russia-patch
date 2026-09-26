@@ -4527,7 +4527,7 @@
     "id": "050754",
     "source_cn": "LuaList(Id(怪物破防))",
     "ref_en": "LuaList(Id(Monster Armor Break)).",
-    "target_ru": "LuaList(Id(Прорыв брони монстра))."
+    "target_ru": "LuaList(Id(Прорыв защиты монстра))."
   },
   {
     "id": "050755",
@@ -6057,7 +6057,7 @@
     "id": "051009",
     "source_cn": "<Highlight>先驱者的胜利在灵界中化作不灭回响，为后来者提供庇护。</>\\n副本首通后，进入副本的非凡者会获得属性增益。\\n首通第1周：生命提升500点，怪物专攻提升100点。\\n首通后第2周：生命提升1000点，怪物专攻提升200点。\\n首通后第3周：生命提升2000点，怪物专攻提升400点。",
     "ref_en": "<Highlight> The victory of the pioneers turns into an eternal echo in the Spirit World, providing shelter for those who follow. </>\\n After the first clear of a dungeon, Beyonders who enter the dungeon will receive attribute bonuses. \\n 1st week after first clear: Health increased by 500, Monster Specialization increased by 100. \\n 2nd week after first clear: Health increased by 1000, Monster Specialization increased by 200. \\n 3rd week after first clear: Health increased by 2000, Monster Specialization increased by 400.",
-    "target_ru": "<Highlight>Победа первопроходцев обращается в немеркнущее эхо в мире духов, даруя защиту тем, кто ступает следом.</>\nПосле первого прохождения подземелья входящие в него Потусторонние получают бонус к характеристикам.\n1-я неделя после первого прохождения: здоровье повышается на 500 ед., урон по монстрам — на 100 ед.\n2-я неделя после первого прохождения: здоровье повышается на 1000 ед., урон по монстрам — на 200 ед.\n3-я неделя после первого прохождения: здоровье повышается на 2000 ед., урон по монстрам — на 400 ед."
+    "target_ru": "<Highlight>Победа первопроходцев обращается в немеркнущее эхо в мире духов, даруя защиту тем, кто ступает следом.</>\nПосле первого прохождения подземелья входящие в него Потусторонние получают бонус к характеристикам.\n1-я неделя после первого прохождения: здоровье повышается на 500 ед., специализация против монстров — на 100 ед.\n2-я неделя после первого прохождения: здоровье повышается на 1000 ед., специализация против монстров — на 200 ед.\n3-я неделя после первого прохождения: здоровье повышается на 2000 ед., специализация против монстров — на 400 ед."
   },
   {
     "id": "051010",
@@ -8847,7 +8847,7 @@
     "id": "051474",
     "source_cn": "通用霸体",
     "ref_en": "Universal Super Armor",
-    "target_ru": "Универсальная супер броня"
+    "target_ru": "Универсальная суперброня"
   },
   {
     "id": "051475",
@@ -11307,7 +11307,7 @@
     "id": "051884",
     "source_cn": "独珍-队友加破防",
     "ref_en": "Unique - Teammate Armor Break Boost",
-    "target_ru": "Уникально — усиление пробития брони товарища по команде"
+    "target_ru": "Уникально — усиление прорыва защиты товарища по команде"
   },
   {
     "id": "051885",
@@ -13749,13 +13749,13 @@
     "id": "052291",
     "source_cn": "破防+100， 忽视+50",
     "ref_en": "Armor Break +100, Ignore +50",
-    "target_ru": "Пробитие брони +100, Игнорирование +50"
+    "target_ru": "Прорыв защиты +100, Игнорирование +50"
   },
   {
     "id": "052292",
     "source_cn": "破防表演",
     "ref_en": "Armor Break Performance",
-    "target_ru": "Производительность «Прорыв брони»"
+    "target_ru": "Производительность «Прорыв защиты»"
   },
   {
     "id": "052293",
@@ -14109,7 +14109,7 @@
     "id": "052351",
     "source_cn": "先驱者的胜利在灵界中化作不灭回响，为后来者提供庇护。\\n副本首通后，进入副本的非凡者会获得属性增益。\\n生命提升2000点，怪物专攻提升400点。",
     "ref_en": "The victory of the pioneers turns into an eternal echo in the Spirit World, providing shelter for those who follow. \\n After the first clear of a dungeon, Beyonders who enter the dungeon will receive attribute bonuses. \\n Health increased by 2000, Monster Specialization increased by 400.",
-    "target_ru": "Триумф первопроходцев обращается вечным эхом в мире духов, даруя защиту тем, кто идёт следом.\nПосле первого прохождения подземелья входящие в него Потусторонние получают бонус к характеристикам:\nЗдоровье увеличивается на 2000 ед., урон по монстрам — на 400 ед."
+    "target_ru": "Триумф первопроходцев обращается вечным эхом в мире духов, даруя защиту тем, кто идёт следом.\nПосле первого прохождения подземелья входящие в него Потусторонние получают бонус к характеристикам:\nЗдоровье увеличивается на 2000 ед., специализация против монстров — на 400 ед."
   },
   {
     "id": "052352",
@@ -14361,7 +14361,7 @@
     "id": "052393",
     "source_cn": "提高破防120，释放终结技能时，破防额外提高280，持续10秒，每10秒最多触发一次。",
     "ref_en": "Increases Armor Break by 120. When releasing a Finisher Skill, Armor Break is additionally increased by 280 for 10 seconds. Can be triggered at most once every 10 seconds.",
-    "target_ru": "Увеличивает пробитие брони на 120. При использовании навыка добивания пробитие брони дополнительно увеличивается на 280 на 10 секунд. Может срабатывать не чаще одного раза в 10 секунд."
+    "target_ru": "Увеличивает прорыв защиты на 120. При использовании навыка добивания прорыв защиты дополнительно увеличивается на 280 на 10 секунд. Может срабатывать не чаще одного раза в 10 секунд."
   },
   {
     "id": "052394",
@@ -14445,7 +14445,7 @@
     "id": "052407",
     "source_cn": "破防提高<Mark>40</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。",
     "ref_en": "Armor Break increased by <Mark>40</>. Using skills and Basic Attacks draws the Gaze of 2-049. After stacking three layers of the gaze, it deals additional damage, with a maximum trigger frequency of once every <Mark>4</> seconds.",
-    "target_ru": "Пробитие брони увеличено на <Mark>40</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек.."
+    "target_ru": "Прорыв защиты увеличен на <Mark>40</>. Использование навыков и базовых атак привлекает взгляд 2-049. После суммирования трех слоев взгляда он наносит дополнительный урон с максимальной частотой срабатывания один раз каждые <Mark>4</> сек.."
   },
   {
     "id": "052408",
@@ -18801,7 +18801,7 @@
     "id": "053133",
     "source_cn": "持续打击周身敌方，每<Highlight>0.4</>秒对周身范围内敌方造成*d点物理伤害，持续<Highlight>5</>秒，并将敌方怪物<HyperLink stylename=\"M_Link\" u=\"2\">拖拽</>向自身，使敌方玩家buffdisc(*id)。施法时每秒获得1枚<HighLight>黄昏印记</>。\\n日暮飓风技能持续期间获得<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>（受到最大生命值50%以上伤害时移除），技能施法期间可以移动，施法1.5秒后可以再次点击以打断施法，并返还部分技能冷却时间。\\n若自身处于<HighLight>防御形态</>，打击将对敌方怪物附加*f秒<HyperLink stylename=\"M_Link\" u=\"12\">嘲讽</>。\\n\\n<FaintYellow>黄昏印记</>\\n使<HighLight>终结技能</>和<HighLight>怒意猛击</>得到强化，最多持有6枚。",
     "ref_en": "Continuously strike surrounding enemies, dealing *d physical damage to enemies in range every <Highlight>0.4</> seconds for <Highlight>5</> seconds, <HyperLink stylename=\"M_Link\" u=\"2\">dragging</> enemy monsters toward you and applying buffdisc(*id) to enemy players. Gain 1 <HighLight>Dusk Mark</> per second while casting. \\nGain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> for the duration of Sunset Hurricane (removed when taking damage exceeding 50% of your maximum health); you can move while casting, and can click again after 1.5 seconds of casting to interrupt the skill and refund a portion of the cooldown. \\nIf you are in <HighLight>Defense Form</>, the strikes will apply <HyperLink stylename=\"M_Link\" u=\"12\">Taunt</> to enemy monsters for *f seconds. \\n\\n<FaintYellow>Dusk Mark</>\\nStrengthens <HighLight>Finisher Skill</> and <HighLight>Angry Slam</>, stacking up to 6 times.",
-    "target_ru": "Непрерывно наносит удары по врагам вокруг, причиняя *d ед. физического урона каждые <Highlight>0,4</> сек. в течение <Highlight>5</> сек., <HyperLink stylename=\"M_Link\" u=\"2\">притягивая</> вражеских монстров к себе и накладывая buffdisc(*id) на вражеских игроков. Во время применения дарует 1 <HighLight>Метку Сумерек</> каждую секунду.\nВо время действия навыка «Ураган Заката» дарует эффект <HyperLink stylename=\"M_Link\" u=\"11\">Стойкости</> (снимается при получении урона свыше 50% от макс. здоровья); во время применения навыка можно перемещаться, а спустя 1,5 сек. применения можно нажать повторно, чтобы прервать навык и вернуть часть времени восстановления.\nЕсли персонаж находится в <HighLight>Защитной стойке</>, удары накладывают на вражеских монстров эффект <HyperLink stylename=\"M_Link\" u=\"12\">Провокации</> на *f сек.\n\n<FaintYellow>Метка Сумерек</>\nУсиливает <HighLight>Завершающий навык</> и <HighLight>Яростный удар</>; накапливается до 6 шт."
+    "target_ru": "Непрерывно наносит удары по врагам вокруг, причиняя *d ед. физического урона каждые <Highlight>0,4</> сек. в течение <Highlight>5</> сек., <HyperLink stylename=\"M_Link\" u=\"2\">притягивая</> вражеских монстров к себе и накладывая buffdisc(*id) на вражеских игроков. Во время применения дарует 1 <HighLight>Метку Сумерек</> каждую секунду.\nВо время действия навыка «Ураган Заката» дарует эффект <HyperLink stylename=\"M_Link\" u=\"11\">Суперброни</> (снимается при получении урона свыше 50% от макс. здоровья); во время применения навыка можно перемещаться, а спустя 1,5 сек. применения можно нажать повторно, чтобы прервать навык и вернуть часть времени восстановления.\nЕсли персонаж находится в <HighLight>Защитной стойке</>, удары накладывают на вражеских монстров эффект <HyperLink stylename=\"M_Link\" u=\"12\">Провокации</> на *f сек.\n\n<FaintYellow>Метка Сумерек</>\nУсиливает <HighLight>Завершающий навык</> и <HighLight>Яростный удар</>; накапливается до 6 шт."
   },
   {
     "id": "053134",
@@ -25269,13 +25269,13 @@
     "id": "054211",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>265</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>造成伤害/治疗时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 3, (Brand has expired)}</> Monster Specialization increased by <Mark>265</>, Pierce reduced by <Mark>40</>, Corruption value increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, up to one layer every <Mark>2</> seconds; when using a <Mark>Finisher Skill</> to deal damage/healing, deal additional damage/healing based on the accumulated Power of Desolation. \\n Corruption Effect: When reaching <Mark>30</> Corruption value, Power of Desolation will cause a small amount of damage to yourself. <Mark>{ 1, 4, (Purified)}</>\\n Current Corruption Value: {2, 1, *d, F1690001, Corruption}\\n Does not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо утратило силу)}</>Урон по монстрам повышается на <Mark>265</>, пробивание снижается на <Mark>40</>, уровень осквернения повышается на <Mark>15</>. При нанесении урона или исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). При использовании <Mark>Завершающего навыка</> для нанесения урона или исцеления наносит дополнительный урон или дает исцеление в зависимости от накопленных уровней Силы Опустошения.\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу. <Mark>{1,4,(Очищено)}</>\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(Клеймо утратило силу)}</>Специализация против монстров повышается на <Mark>265</>, пронзание снижается на <Mark>40</>, уровень осквернения повышается на <Mark>15</>. При нанесении урона или исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). При использовании <Mark>Завершающего навыка</> для нанесения урона или исцеления наносит дополнительный урон или дает исцеление в зависимости от накопленных уровней Силы Опустошения.\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу. <Mark>{1,4,(Очищено)}</>\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "054212",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>300</>，穿刺降低<Mark>30</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired)}</>Monster Specialization increased by <Mark>300</>, Pierce reduced by <Mark>30</>, Corruption increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, gaining at most one layer every <Mark>2</> seconds. When using a <Mark>Finisher Skill</>, deal additional damage/healing based on the accumulated Power of Desolation. \\nCorruption Effect: Upon reaching <Mark>30</> Corruption, Power of Desolation will deal a small amount of damage to yourself. <Mark>{1,4, (Purified)}</>\\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Фокус монстра увеличился на <Mark>300</>, прокол уменьшился на <Mark>30</>, значение загрязнения увеличилось на <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Специализация против монстров увеличилась на <Mark>300</>, пронзание уменьшилось на <Mark>30</>, значение загрязнения увеличилось на <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "054213",
@@ -28599,7 +28599,7 @@
     "id": "054766",
     "source_cn": "带有词条<Highlight><愚者></>：“使封印物负面效果失效，所有技能等级+1，伤害加深提升。”的攻击<Highlight>异变物质</>。",
     "ref_en": "Attack <Highlight>Mutated Material</> with the affix <Highlight><The Fool></>: \"Negates Sealed Artifact negative effects, all Skill levels +1, Damage Deepening increased.\"",
-    "target_ru": "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Шут></>: «Отменяет негативные эффекты Запечатанного Артефакта, все уровни навыков +1, Углубление урона увеличено»."
+    "target_ru": "Атакуйте <Highlight>Мутировавшее вещество</> с аффиксом <Highlight><Шут></>: «Отменяет негативные эффекты Запечатанного Артефакта, все уровни навыков +1, усиление урона увеличено»."
   },
   {
     "id": "054767",

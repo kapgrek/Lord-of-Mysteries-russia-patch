@@ -260,7 +260,7 @@ return {
     ["Tracking..."] = "Отслеживание...",
     ["A metal doll shaped like a small turtle."] = "Металлическая кукла в форме маленькой черепахи.",
     ["What radiance?"] = "Какое сияние?",
-    ["Red Super Armor"] = "Красная супер броня",
+    ["Red Super Armor"] = "Красная суперброня",
     ["Damage Taken Per Second"] = "Получаемый урон в секунду",
     ["An old reimbursement form from five years ago... can I apply for reimbursement too?"] = "Старая форма возмещения, составленная пять лет назад... могу ли я тоже подать заявление на возмещение?",
     ["Crisis averted! Thank you! You really are a reasonable adult!"] = "Кризис предотвращен! Спасибо! Вы действительно разумный взрослый человек!",

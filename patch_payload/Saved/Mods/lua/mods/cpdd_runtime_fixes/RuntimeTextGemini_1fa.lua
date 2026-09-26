@@ -268,7 +268,7 @@ return {
     ["In queue, current queue position: %s"] = "В очереди, текущая позиция в очереди: %s.",
     ["Think of them as people who have finished their journey; they just reached the destination before us and can now rest."] = "Думайте о них как о людях, завершивших свой путь; они только что достигли пункта назначения раньше нас и теперь могут отдохнуть.",
     ["His story is just as legendary as Gehrman's!"] = "Его история так же легендарна, как и история Германа!",
-    ["Magic Piercing"] = "Магический пирсинг",
+    ["Magic Piercing"] = "Магическое пронзание",
     ["Apply to all WeakIDs"] = "Применить ко всем WeakID",
     ["You... you are right. Perhaps I shouldn't have counted on Rex from the very beginning..."] = "Ты... ты прав. Возможно, мне не стоило с самого начала рассчитывать на Рекса...",
     ["Branch submission of item"] = "Подача товара в филиал",

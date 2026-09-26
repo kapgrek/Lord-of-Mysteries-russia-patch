@@ -171,7 +171,7 @@ return {
     ["Act as a Magician"] = "Действуй как волшебник",
     ["If the maximum value of both >= %s, it is a success"] = "Если максимальное значение обоих >= %s, это успех.",
     ["You're not looking for Ms. Heidi, but you're in a hurry to find a ring?"] = "Вы не ищете мисс Хайди, но торопитесь найти кольцо?",
-    ["During Holy Armor, gain 40% damage boost, and enter a Blazing Sun state for 6 seconds after casting, which can stack duration with Blazing Sun states applied by other effects."] = "Во время действия «Святой брони» вы получаете повышение урона на 40% d и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами.",
+    ["During Holy Armor, gain 40% damage boost, and enter a Blazing Sun state for 6 seconds after casting, which can stack duration with Blazing Sun states applied by other effects."] = "Во время действия «Святой брони» вы получаете усиление урона на 40% и входите в состояние «Пылающее солнце» на 6 секунд после применения, длительность которого может суммироваться с состояниями «Пылающее солнце», применяемыми другими эффектами.",
     ["Another puzzle... seems to be a bouquet of daisies?"] = "Очередная головоломка... кажется, букет ромашек?",
     ["Connection Chat Topic - Daly 3"] = "Тема чата подключения — Дейли 3",
     ["Knowledge Sculpture—a souvenir of the Tingen Knowledge Sculpture—"] = "Скульптура Знаний — сувенир Скульптуры Знаний Тингена —",

@@ -15,6 +15,7 @@
 | **Канон терминов и глоссарии** | `source/glossary/*.json`<br>`docs/GLOSSARY.md` | Пути, Последовательности, персонажи, артефакты, географические названия |
 | **Компиляция строк в шарды игры** | `tools/ShardCompiler.cs` (+ `.ps1`) | Распределение строк из `batch_*.json` по 1024 шардам `RuntimeTextGemini_*.lua`. `.exe` собирается `tools/BuildTools.ps1` |
 | **Нарезка чанков и импорт переводов** | `tools/BatchHelper.ps1` | `-Action Export` (чанк в `temp/temp_chunk.json`), `Import` (с автокомпиляцией шардов), `Stats`, `Dashboard`; батч по номеру `-Batch N` или имени `-BatchFile batch_031_….json` |
+| **Термины и глоссарий** | `tools/GlossaryCheck.ps1`, `source/glossary/combat_stats.json` | Сверка `target_ru` с боевыми характеристиками: `-Report`, `-FixShort`, `-Export`/`-Import` (чанки для агента `ru-translator`), `-BuildDoc` (пересборка `docs/GLOSSARY.md`); скиллы `/glossary-check`, `/translate-chunk` |
 | **Непереведённые строки StringDB** | `tools/StringDbGaps.ps1` | Промахи `src=stringdb` из логов диагностики, сверка побайтно с семантикой ShardCompiler, категории (Автошахматы, UI, навыки…), `-Report`, `-Emit <батч> -Category …`, `-Aliases <батч>` |
 | **Валидация тегов и плейсхолдеров** | `tools/VerifyBatch.ps1`<br>`tools/VerifyPatch.ps1` | Теги `<Highlight>`, `%s`, `%d`, `{0}`, макросы `{*d,…}`, `{{player.name}}` (ERR), числа и хвосты `b` (WARN); синтаксис Lua |
 | **Базы данных Excel (диалоги, квесты)** | `patch_payload/Saved/Mods/lua/cpdd_translation/Data/Excel/LanguageData/` | 38 таблиц строк **в байткоде LuaJIT** (`1B 4C 4A`), несмотря на расширение `.lua`. В `.gitattributes` помечены как `binary` |
@@ -108,6 +109,7 @@ AbsoluteRU/
 │   ├── VerifyBatch.ps1        # Валидатор плейсхолдеров и тегов в батчах
 │   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (Init.lua + AbsruDiagnostics.lua)
 │   ├── CollectDiagLogs.ps1    # Логи диагностики ИЗ игры -> reference/logs/<дата>/, отчёты в report/
+│   ├── GlossaryCheck.ps1      # Сверка перевода с глоссарием: -Report/-FixShort/-Export/-Import/-BuildDoc
 │   ├── StringDbGaps.ps1       # Промахи StringDB из логов диагностики -> категории, -Report, -Emit/-Aliases в батч
 │   ├── BakedTextManager.ps1   # Управление блоками BakedText для IoStore
 │   ├── AutoTranslate.ps1      # Машинный перевод батчей (Google Translate / DeepL Free API)

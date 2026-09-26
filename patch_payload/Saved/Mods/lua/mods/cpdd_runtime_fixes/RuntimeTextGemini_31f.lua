@@ -37,7 +37,7 @@ return {
     ["Application for team leader is on cooldown. %s seconds remaining."] = "Заявка на должность лидера группы находится на восстановлении. Осталось %s секунд.",
     ["Shuliu"] = "Шулю",
     ["Final damage dealt is increased by {*d,F1690001,DeltaHurt} points."] = "Окончательный наносимый урон увеличивается на баллы {*d,F1690001,DeltaHurt}.",
-    ["An attack <Highlight>mutated material</> with the tag <Highlight><Spirit Medium></>: \"Piercing increased.\""] = "Атака <Highlight> мутировала материал </> с тегом <Highlight><Spirit Medium></>: «Пирсинг увеличился».",
+    ["An attack <Highlight>mutated material</> with the tag <Highlight><Spirit Medium></>: \"Piercing increased.\""] = "Атака <Highlight>Мутировавшая материя</> с тегом <Highlight><Медиум></>: «Пронзание увеличено».",
     ["Please take your two tickets, sir."] = "Пожалуйста, возьмите два билета, сэр.",
     ["Enid walking to mushroom soup spot"] = "Энид идет к месту, где подают грибной суп",
     ["5230118 Tingen Plane"] = "5230118 Измерение: Тинген",

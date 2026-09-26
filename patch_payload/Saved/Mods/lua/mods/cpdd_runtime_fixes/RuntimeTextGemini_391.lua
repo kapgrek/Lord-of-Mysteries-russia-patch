@@ -6,7 +6,7 @@ return {
     ["Whoa whoa whoa"] = "Ого, ого, ого!",
     ["Hello, sir. What would you like to divine today?"] = "Здравствуйте, сэр. О чем вы желаете погадать сегодня?",
     ["What are you doing"] = "Чем занимаешься?",
-    ["<Highlight>{1,2,(Brand Expired)}</>Pathway Specialization increased by <Mark>350</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Клеймо неактивно)}</>Мастерство Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>.",
+    ["<Highlight>{1,2,(Brand Expired)}</>Pathway Specialization increased by <Mark>350</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Клеймо неактивно)}</>Специализация Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>.",
     ["Yinchuan"] = "Иньчуань",
     ["<Assistant_Title1>【Gold-Rimmed Square Glasses】</>\n<Assistant_Title2>Description: </>Accessory rewarded for Exploration\n<Assistant_Title2>Usage: </>After use, you will obtain the Gold-Rimmed Square Glasses. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\n<Assistant_Title2>Acquisition: </><Assistant_System>Exploration</> acquisition."] = "<Assistant_Title1>【Квадратные очки в золотой оправе】</>\n<Assistant_Title2>Описание: </>Украшение в награду за исследование\n<Assistant_Title2>Использование: </>После использования вы получите квадратные очки в золотой оправе. Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить их.\n<Assistant_Title2>Получение: </><Assistant_System>Исследование</>",
     ["Successfully unlocked skill %s."] = "Успешно разблокирован навык: %s",

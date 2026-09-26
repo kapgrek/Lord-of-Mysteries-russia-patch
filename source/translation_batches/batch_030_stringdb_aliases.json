@@ -33,7 +33,7 @@
     "id": "131674",
     "source_cn": "战斗开始<HighLight>12秒</>后，己方棋子获得<HighLight>35%伤害加深</>。",
     "ref_en": "12 seconds<HighLight> after the battle starts</>, your pieces gain 35% Damage Deepening<HighLight></>.",
-    "target_ru": "Через <HighLight>12 сек.</> после начала боя ваши фигуры получают <HighLight>35% к увеличению урона</>."
+    "target_ru": "Через <HighLight>12 сек.</> после начала боя ваши фигуры получают <HighLight>35% к усилению урона</>."
   },
   {
     "id": "131675",
@@ -93,7 +93,7 @@
     "id": "131684",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Piercing increased by <Mark>120</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activ",
-    "target_ru": "<CostRed>{1,2,(Срок действия клейма истёк)}</>Прокол увеличен на <Mark>120</>, крит. шанс уменьшен на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вейзель.\n<Mark>Добродетель</>: Оружие <Mark>Земля знаний</> дополнительно увеличивает бонус к атаке в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном комплекте <Mark>Завет железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок действия клейма истёк)}</>Пронзание увеличено на <Mark>120</>, критический удар уменьшен на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вейзель.\n<Mark>Добродетель</>: Оружие <Mark>Земля знаний</> дополнительно увеличивает бонус к атаке в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном комплекте <Mark>Завет железа и крови</>."
   },
   {
     "id": "131685",
@@ -123,7 +123,7 @@
     "id": "131689",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>150</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>150</>. При атаке специализация монстра <Mark>50</> будет увеличена на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация против монстров увеличена <Mark>150</>. При атаке специализация монстра <Mark>50</> будет увеличена на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "131690",
@@ -135,7 +135,7 @@
     "id": "131691",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация против монстров увеличена <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "131692",
@@ -153,19 +153,19 @@
     "id": "131694",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>90</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Piercing increased by <Mark>90</>. While in combat, increases the entire squad's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(срок годности марки истек)}</>Прокол увеличился <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок годности марки истек)}</>Пронзание увеличилось <Mark>90</>. В боевом режиме критический удар всей команды увеличивается на <Mark>30</>, а защита снижается на <Mark>15</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "131695",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>180</>. Standing still in combat for <Mark>5</> seconds decreases Monster Specialization by <Mark>25</> for <Mark>5</> seconds; after a Dodge, Monster Specialization is increased by <Mark>25</> for <Mark>15</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>180</>. После того, как монстр стоит на месте во время боя, специализация монстра будет снижена на <Mark>25</> на <Mark>25</> секунд, длительностью <Mark>5</> секунд. После уклонения специализация монстра увеличивается на <Mark>25</> и длится <Mark>15</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация против монстров увеличена <Mark>180</>. После того, как монстр стоит на месте во время боя, специализация монстра будет снижена на <Mark>25</> на <Mark>25</> секунд, длительностью <Mark>5</> секунд. После уклонения специализация монстра увеличивается на <Mark>25</> и длится <Mark>15</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "131696",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Monster Specialization increased by <Mark>100</>. If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация против монстров увеличена <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "131697",
@@ -177,7 +177,7 @@
     "id": "131698",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>80</>。受击时，有一定概率获得<Mark>60</>点防御，持续<Mark>5</>秒，每<Mark>10</>秒最多触发一次。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain <Mark>60</> Defense for <Mark>5</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,2,(срок действия бренда истек)}</>защита от прорыва увеличена<Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<CostRed>{1,2,(срок действия бренда истек)}</>Прорыв защиты увеличен на <Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "131699",
@@ -201,7 +201,7 @@
     "id": "131702",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>100</>，途径专防提高<Mark>100</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2,（烙印已失效）}</>Pathway Specialization increased by <Mark>100</>, Pathway Special Defense increased by <Mark>100</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</> Фокус пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</> Специализация Пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
   },
   {
     "id": "131703",

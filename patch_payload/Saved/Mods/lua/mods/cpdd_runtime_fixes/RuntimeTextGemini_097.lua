@@ -169,7 +169,7 @@ return {
     ["Barney"] = "Барни",
     ["Northwest safe zone trigger"] = "Триггер северо-западной безопасной зоны",
     ["I am Cohen, she is Xiga, welcome to join us."] = "Я Коэн, она Сига, добро пожаловать к нам.",
-    ["Armor Break +100, Ignore +50"] = "Пробитие брони +100, Игнорирование +50",
+    ["Armor Break +100, Ignore +50"] = "Прорыв защиты +100, Игнорирование +50",
     ["Change dance moves"] = "Меняйте танцевальные движения",
     ["Appearance Replacement"] = "Замена внешнего вида",
     ["Emits four pulses, each dealing <HighLight> 25% </> attack damage; self and allies within 1 grid have their attack speed increased by <HighLight> 25% </>, lasting 4 seconds."] = "Испускает четыре импульса, каждый из которых наносит <HighLight>25%</> урона от атаки; скорость атаки заклинателя и союзников в пределах 1 клетки увеличивается на <HighLight>25%</> на 4 сек.",

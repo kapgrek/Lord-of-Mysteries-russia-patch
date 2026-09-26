@@ -93,7 +93,7 @@ return {
     ["I found normal food! Come and eat, you won't become like me..."] = "Я нашел нормальную еду! Иди поешь, ты не станешь таким, как я...",
     ["Look at Pete"] = "Посмотри на Пита",
     ["Worker Driver"] = "Рабочий водитель",
-    ["Super Armor Acceleration"] = "Супер ускорение брони",
+    ["Super Armor Acceleration"] = "Ускорение Суперброни",
     ["Promotion for the hospital"] = "Акция для больницы",
     ["Jewelry Store Entrance"] = "Вход в ювелирный магазин",
     ["Finally, we blocked them near an unnamed island."] = "Наконец мы заблокировали их возле безымянного острова.",

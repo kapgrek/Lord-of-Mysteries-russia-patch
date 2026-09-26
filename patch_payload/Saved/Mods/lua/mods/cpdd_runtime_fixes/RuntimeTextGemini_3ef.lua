@@ -92,7 +92,7 @@ return {
     ["You tax thieves! I've already answered that, why are you asking again!"] = "Вы воры взимаете налоги! Я уже ответил на это, почему вы спрашиваете еще раз!",
     ["Dropped by <HyperLink stylename=\"Clickable\" u=\"\"> Minions </> with a certain probability"] = "Выпадает из <HyperLink stylename=\"Clickable\" u=\"\"> Миньоны </> с определенной вероятностью.",
     ["[Insight] When releasing the Spirit Mediumship Ritual (only at the moment of release), dispel Slow effects on allies within range."] = "[Проницательность] При использовании ритуала духовного медиумизма (только в момент его использования) снимается эффект замедления с союзников в радиусе действия.",
-    ["Increases Piercing by 250."] = "Увеличивает проникающую способность на 250.",
+    ["Increases Piercing by 250."] = "Увеличивает Пронзание на 250.",
     ["Uninvited Sound - Gardener"] = "Незваный звук - Садовник",
     ["How to play Castle building"] = "Как играть в строительство замка",
     ["It is a lamp in the fog, but remember—the hand holding the lamp should always be your own sober self."] = "Это лампа в тумане, но помните: рука, держащая лампу, всегда должна быть вашей трезвой личностью.",

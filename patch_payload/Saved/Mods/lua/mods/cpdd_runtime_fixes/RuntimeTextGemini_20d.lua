@@ -193,7 +193,7 @@ return {
     ["How can such traditional craftsmanship be called a scam? Isn't that just the feeling those rich gentlemen want—that it was just dug up?"] = "Как такое традиционное мастерство можно назвать мошенничеством? Разве не этого хотят эти богатые джентльмены — что его только что выкопали?",
     ["Zombie"] = "Зомби",
     ["When the morning sun rises, you finally complete a fairly decent first draft."] = "Когда восходит утреннее солнце, вы, наконец, завершаете вполне приличный первый набросок.",
-    ["You have gained partial control over the Black Flame of the \"Assassin\" pathway, Sequence 7 \"Witch\", increasing Damage Increase by 30%. The scorching heat and frost of the Abyss entwine around your weapon, incinerating all obstacles."] = "Вы получили частичный контроль над Черным пламенем пути «Убийца», последовательность 7 «Ведьма», увеличивая увеличение урона на 30%. Палящий зной и мороз Бездны окутывают ваше оружие, сжигая все препятствия.",
+    ["You have gained partial control over the Black Flame of the \"Assassin\" pathway, Sequence 7 \"Witch\", increasing Damage Increase by 30%. The scorching heat and frost of the Abyss entwine around your weapon, incinerating all obstacles."] = "Вы получили частичный контроль над Черным пламенем пути «Убийца», последовательность 7 «Ведьма», увеличивая усиление урона на 30%. Палящий зной и мороз Бездны окутывают ваше оружие, сжигая все препятствия.",
     ["Save... me..."] = "Спаси... меня...",
     ["This {{ Mr. | Ms. }}, may I ask if you know Godot?"] = "Это {{ Mr. | Ms. }}, могу ли я спросить, знаешь ли ты Годо?",
     ["Grandpa Thomas... he, he can't hold on much longer... but, but Emma is also..."] = "Дедушка Томас... он, он не сможет больше держаться... но Эмма тоже...",

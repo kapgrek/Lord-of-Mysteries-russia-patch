@@ -16,7 +16,7 @@ return {
     ["Override Target Pitch (World Coordinates; if not overridden, uses the Pitch of the line between player and target)"] = "Переопределять ли тангаж цели (в мировых координатах; если нет, используется тангаж по направлению между игроком и целью)",
     ["【Evernight Goddess】When dealing damage to enemies with less than 25% Health, execute them immediately."] = "【Богиня Вечной Ночи】При нанесении урона врагам с уровнем здоровья ниже 25% мгновенно казнит их.",
     ["Holy Crown Corridor"] = "Галерея Священного Венца",
-    ["did Armor Break (Phase 1)"] = "did: Пробивание защиты (фаза 1)",
+    ["did Armor Break (Phase 1)"] = "did: Прорыв защиты (фаза 1)",
     ["Start Slua performance profiling"] = "Запуск профилирования производительности Slua",
     ["Leave the residence..."] = "Покинуть дом...",
     ["Open-world PvP map"] = "Карта открытого PvP",

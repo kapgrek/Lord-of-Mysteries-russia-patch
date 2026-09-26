@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 050/3ff.
 return {
     ["Audrey Fill Light 2"] = "Одри — Заполняющий свет 2",
-    ["Condense armor with spirituality to cover your body, gaining a shield that absorbs damage, and maintain Super Armor when the shield is broken."] = "Концентрирует духовность, покрывая тело доспехом, который поглощает урон в виде щита, а при разрушении щита сохраняет непоколебимость.",
+    ["Condense armor with spirituality to cover your body, gaining a shield that absorbs damage, and maintain Super Armor when the shield is broken."] = "Концентрирует духовность, покрывая тело доспехом, который поглощает урон в виде щита, а при разрушении щита сохраняет Суперброню.",
     ["You should go find a job"] = "Тебе стоит пойти поискать работу",
     ["[Scene] Platform 2"] = "【Сцена】Платформа 2",
     ["<P_Heart>(Radio static)</>Short blonde hair... she must be <P_Yellow>Lily</>."] = "<P_Heart>(Помехи рации)</> Короткие золотистые волосы... Должно быть, это <P_Yellow>Лили</>.",
@@ -232,7 +232,7 @@ return {
     ["【Quest Location】Chanting Session"] = "【Место квеста】Сеанс пения",
     ["Pray to the Lord of Storms"] = "Молитесь Повелителю Штормов",
     ["Sound Source 3 Pete"] = "Источник звука 3, Пит",
-    ["Upon entering combat, the Offspring Protection gains alchemical energy. Energy increases over time or when specific skills hit players. Once the energy count reaches 100%, the Offspring Protection enters a state of loss of control and initiates the \"Gladiator Ritual\". Attacking it while in this state reduces the energy count; when the count reaches 0, the Offspring Protection enters an Armor Break state."] = "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и инициирует «Ритуал Гладиатора». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, защита потомства переходит в состояние пробития брони.",
+    ["Upon entering combat, the Offspring Protection gains alchemical energy. Energy increases over time or when specific skills hit players. Once the energy count reaches 100%, the Offspring Protection enters a state of loss of control and initiates the \"Gladiator Ritual\". Attacking it while in this state reduces the energy count; when the count reaches 0, the Offspring Protection enters an Armor Break state."] = "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и инициирует «Ритуал Гладиатора». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, защита потомства переходит в состояние прорыва защиты.",
     ["The Spring Night Ball is a cult formed by followers of the Primordial Demoness, who believe that true power stems from irresistible charm."] = "Весенний Ночной Бал — это культ, созданный последователями Изначальной Демоницы, которые верят, что истинная сила проистекает из непреодолимого очарования.",
     ["That's right! That's the angle, that's the pose!"] = "Это верно! Вот ракурс, вот поза!",
     ["Camera - Signboard Club"] = "Камера - Клуб вывесок",

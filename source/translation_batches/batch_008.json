@@ -615,7 +615,7 @@
     "id": "035102",
     "source_cn": "子嗣守护进入战斗后，会获得炼金能量。随战斗时间流逝，或特定技能命中玩家时会增长能量。能量计数达到100%后，子嗣守护会进入失控状态，发动“炼金武装”，且失控状态下受到攻击会削减能量计数，当计数为0后，子嗣守护会进入破防状态。",
     "ref_en": "Upon entering combat, the Offspring Protection gains alchemical energy. Energy increases over time or when specific skills hit players. Once the energy count reaches 100%, the Offspring Protection enters a state of loss of control and initiates \"Alchemical Armament\". Attacking it while in this state reduces the energy count; when the count reaches 0, the Offspring Protection enters an Armor Break state.",
-    "target_ru": "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и запускает «Алхимическое Вооружение». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, защита потомства переходит в состояние пробития брони."
+    "target_ru": "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и запускает «Алхимическое Вооружение». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, Защита Потомства переходит в состояние прорыва защиты."
   },
   {
     "id": "035103",
@@ -873,7 +873,7 @@
     "id": "035145",
     "source_cn": "皮特破防免伤",
     "ref_en": "Pete Armor Break Damage Immunity",
-    "target_ru": "Иммунитет Пита к пробитию брони"
+    "target_ru": "Иммунитет Пита к прорыву защиты"
   },
   {
     "id": "035146",
@@ -3051,7 +3051,7 @@
     "id": "035508",
     "source_cn": "带有词条<Highlight><神明之手></>：“所有技能等级+1，破防提升。”的攻击<Highlight>异变物质</>。",
     "ref_en": "An attack <Highlight>Mutated Material</> with the entry <Highlight><Hand of God></>: \"All Skill levels +1, Armor Break increased.\"",
-    "target_ru": "Атака <Highlight>Mutated Material</> с записью <Highlight><Hand of God></>: «Все уровни навыков +1, пробитие брони увеличено»."
+    "target_ru": "Атака <Highlight>Мутировавшая материя</> с записью <Highlight><Рука Бога></>: «Все уровни навыков +1, прорыв защиты увеличен»."
   },
   {
     "id": "035509",
@@ -7419,7 +7419,7 @@
     "id": "036236",
     "source_cn": "提高穿刺450，提高破防200，释放终结技能或位移技能时，穿刺额外提高160，持续10秒，还会在目标位置造成一次伤害，每12秒最多触发1次。",
     "ref_en": "Increases Pierce by 450, increases Armor Break by 200. When releasing a Finisher Skill or Displacement Skill, Pierce is additionally increased by 160 for 10 seconds, and damage is dealt at the target's location. Can be triggered at most once every 12 seconds.",
-    "target_ru": "Увеличивает прокалывание на 450, увеличивает пробитие брони на 200. При использовании навыка добивания или навыка смещения прокалывание дополнительно увеличивается на 160 на 10 секунд, а урон наносится по местоположению цели. Может срабатывать не чаще одного раза в 12 секунд."
+    "target_ru": "Увеличивает пронзание на 450, увеличивает прорыв защиты на 200. При использовании навыка добивания или навыка смещения пронзание дополнительно увеличивается на 160 на 10 секунд, а урон наносится по местоположению цели. Может срабатывать не чаще одного раза в 12 секунд."
   },
   {
     "id": "036237",
@@ -10515,7 +10515,7 @@
     "id": "036752",
     "source_cn": "穿刺提高<Mark>240</>。闪避后格挡提高<Mark>80</>持续<Mark>10</>秒。",
     "ref_en": "Piercing increased by <Mark>240</>. After a Dodge, Block is increased by <Mark>80</> for <Mark>10</> seconds.",
-    "target_ru": "Прокалывание увеличено на <Mark>240</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд."
+    "target_ru": "Пронзание увеличено на <Mark>240</>. После уклонения блок увеличивается на <Mark>80</> на <Mark>10</> секунд."
   },
   {
     "id": "036753",
@@ -14763,7 +14763,7 @@
     "id": "037460",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>310</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 310 </>. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Pathway улучшает <Mark>310</>. \\n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути повышена на <Mark>310</>. \\n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "037461",
@@ -14895,7 +14895,7 @@
     "id": "037482",
     "source_cn": "先驱者的胜利在灵界中化作不灭回响，为后来者提供庇护。\\n副本首通后，进入副本的非凡者会获得属性增益。\\n生命提升1000点，怪物专攻提升200点。",
     "ref_en": "The victory of the pioneers turns into an eternal echo in the Spirit World, providing shelter for those who follow. \\n After the first clear of a dungeon, Beyonders who enter the dungeon will receive attribute bonuses. \\n Health increased by 1000, Monster Specialization increased by 200.",
-    "target_ru": "Триумф первопроходцев вечным эхом разносится по миру духов, даруя покровительство тем, кто следует за ними.\\nПосле первого прохождения подземелья входящие в него Потусторонние получают усиление характеристик:\\nЗдоровье повышается на 1000 ед., противостояние монстрам — на 200 ед."
+    "target_ru": "Триумф первопроходцев вечным эхом разносится по миру духов, даруя покровительство тем, кто следует за ними.\\nПосле первого прохождения подземелья входящие в него Потусторонние получают усиление характеристик:\\nЗдоровье повышается на 1000 ед., специализация против монстров — на 200 ед."
   },
   {
     "id": "037483",
@@ -15141,7 +15141,7 @@
     "id": "037523",
     "source_cn": "抵消攻击来源的物理或魔法攻击，每3点护甲抵消攻击来源2点攻击。护甲超过攻击来源破甲的四倍时，超出部分每1点抵消1点攻击。\\n\\n角色护甲：{*d,F1690001,AirShield}",
     "ref_en": "Negates the physical or magic attack of the attack source, with every 3 points of Armor negating 2 points of the attack source's Attack. When Armor exceeds four times the attack source's Armor Break, every 1 point of excess negates 1 point of Attack. \\n \\n Character Armor: {*d,F1690001,AirShield}",
-    "target_ru": "Нейтрализует физические или магические атаки источника атаки. Каждые 3 очка брони компенсируют 2 очка атаки от источника атаки. Когда броня в четыре раза превышает броню, пробитую источником атаки, каждое 1 очко превышения компенсирует 1 очко атаки. \\n\\nБроня персонажа: {*d,F1690001,AirShield}"
+    "target_ru": "Нейтрализует физические или магические атаки источника атаки. Каждые 3 очка брони компенсируют 2 очка атаки от источника атаки. Когда броня в четыре раза превышает пробивание брони источника атаки, каждое 1 очко превышения компенсирует 1 очко атаки. \\n\\nБроня персонажа: {*d,F1690001,AirShield}"
   },
   {
     "id": "037524",
@@ -17295,7 +17295,7 @@
     "id": "037882",
     "source_cn": "忽视目标的魔法格挡，在基础穿刺率<Highlight>75%</>的基础上，提高魔法伤害穿刺（未被格挡）的概率。\\n穿刺率存在<Highlight>100%</>的上限和<Highlight>25%</>的下限，提升的穿刺超出上阈值或未到下阈值时，无法提升增伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>魔法格挡</>属性的对抗结算。",
     "ref_en": "Ignores the target's Magic Block. Based on the base Pierce rate of <Highlight> 75% </>, it increases the probability of magic damage piercing (not being blocked). \\n The Pierce rate has an upper limit of <Highlight> 100% </> and a lower limit of <Highlight> 25% </>; if the increased Pierce exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage boosting capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Magic Block </> attribute.",
-    "target_ru": "Игнорирует магический блок цели и повышает вероятность пробивания магического урона (без блокирования) сверх базового показателя пробивания в <Highlight>75%</>.\\nПоказатель пробивания ограничен верхним пределом в <Highlight>100%</> и нижним пределом в <Highlight>25%</>; повышение пробивания выше верхнего предела не даёт дополнительного прироста урона.\\nФактический эффект и пороги зависят от соотношения <Highlight>уровней</> атакующего и защищающегося, а также от расчёта противостояния показателю <Highlight>магического блока</> цели."
+    "target_ru": "Игнорирует магический блок цели и повышает вероятность пронзания магического урона (без блокирования) сверх базового показателя пронзания в <Highlight>75%</>.\\nПоказатель пронзания ограничен верхним пределом в <Highlight>100%</> и нижним пределом в <Highlight>25%</>; повышение пронзания выше верхнего предела не даёт дополнительного прироста урона.\\nФактический эффект и пороги зависят от соотношения <Highlight>уровней</> атакующего и защищающегося, а также от расчёта противостояния показателю <Highlight>магического блока</> цели."
   },
   {
     "id": "037883",
@@ -18543,7 +18543,7 @@
     "id": "038090",
     "source_cn": "回复目标破防值",
     "ref_en": "Restore target's Armor Break value.",
-    "target_ru": "Восстановите значение пробития брони цели."
+    "target_ru": "Восстановите значение прорыва защиты цели."
   },
   {
     "id": "038091",
@@ -19149,7 +19149,7 @@
     "id": "038191",
     "source_cn": "加时阶段逐渐升温：每层提高伤害加深和攻速。",
     "ref_en": "Overtime phase heats up: Each stack increases Damage Increased and Attack Speed.",
-    "target_ru": "Фаза сверхурочной работы накаляется: каждый стек увеличивает увеличение урона и скорость атаки."
+    "target_ru": "Фаза сверхурочной работы накаляется: каждый стек увеличивает усиление урона и скорость атаки."
   },
   {
     "id": "038192",
@@ -20043,7 +20043,7 @@
     "id": "038340",
     "source_cn": "带有词条<Highlight><通灵者></>：“穿刺提升。”的攻击<Highlight>异变物质</>。",
     "ref_en": "An attack <Highlight>mutated material</> with the tag <Highlight><Spirit Medium></>: \"Piercing increased.\"",
-    "target_ru": "Атака <Highlight> мутировала материал </> с тегом <Highlight><Spirit Medium></>: «Пирсинг увеличился»."
+    "target_ru": "Атака <Highlight>Мутировавшая материя</> с тегом <Highlight><Медиум></>: «Пронзание увеличено»."
   },
   {
     "id": "038341",
@@ -24033,7 +24033,7 @@
     "id": "039005",
     "source_cn": "暴击提供持续<HighLight>5</>秒的<HighLight>5%</>伤害加深，可叠加至多<HighLight>4</>次。",
     "ref_en": "Critical hits provide <HighLight>5</> seconds of <HighLight>5%</> increased damage, stacking up to <HighLight>4</> times.",
-    "target_ru": "Критические удары увеличивают урон на <HighLight>5</> секунд на <HighLight>5%</>, суммируясь до <HighLight>4</> раз."
+    "target_ru": "Критические удары дают усиление урона на <HighLight>5</> секунд на <HighLight>5%</>, суммируясь до <HighLight>4</> раз."
   },
   {
     "id": "039006",
@@ -25515,7 +25515,7 @@
     "id": "039252",
     "source_cn": "期间再次受到跃击时伤害加深",
     "ref_en": "Increased damage when hit by Leap again during this period",
-    "target_ru": "Увеличен урон при повторном попадании Прыжком в этот период."
+    "target_ru": "Усиление урона при повторном попадании Прыжком в этот период."
   },
   {
     "id": "039253",
@@ -26655,7 +26655,7 @@
     "id": "039442",
     "source_cn": "【猎人】(2) 暴击+15%",
     "ref_en": "[Hunter] (2) Crit +15%",
-    "target_ru": "[Охотник] (2) Crit +15%"
+    "target_ru": "[Охотник] (2) Крит. удар +15%"
   },
   {
     "id": "039443",
@@ -27969,7 +27969,7 @@
     "id": "039661",
     "source_cn": "空想姿态观众的魔法进攻属性会转化为治疗增强，比例取决于属性类别。（可以转化为治疗增强的属性包括魔法破防、忽视魔法防御、破甲、魔法穿刺、魔法暴击、魔法暴伤、技能增强、伤害加深、最终伤害增强、途径压制、首领压制、途径专攻、首领专攻、控制命中、控制增强)",
     "ref_en": "In Imagination Stance, the Spectator's magic attack attributes will be converted into Healing Enhancement, the ratio of which depends on the attribute category. (Attributes that can be converted into Healing Enhancement include Magic Armor Break, Ignore Magic Defense, Armor Break, Magic Pierce, Magic Critical Hit, Magic Critical Damage, Skill Enhancement, Damage Deepening, Final Damage Enhancement, Pathway Suppression, Boss Suppression, Pathway Special Attack, Boss Special Attack, Control Hit, Control Enhancement)",
-    "target_ru": "В стойке воображения атрибуты магической атаки наблюдателя будут преобразованы в усиление исцеления, соотношение которого зависит от категории атрибута. (Атрибуты, которые можно преобразовать в улучшение исцеления, включают пробитие магической брони, игнорирование магической защиты, пробитие брони, магическое пронзание, магический критический удар, магический критический урон, улучшение навыка, углубление урона, улучшение конечного урона, подавление пути, подавление босса, специальную атаку пути, специальную атаку босса, контрольный удар, улучшение контроля)"
+    "target_ru": "В стойке воображения атрибуты магической атаки наблюдателя будут преобразованы в усиление исцеления, соотношение которого зависит от категории атрибута. (Атрибуты, которые можно преобразовать в улучшение исцеления, включают магический прорыв защиты, игнорирование магической защиты, пробивание брони, магическое пронзание, магический критический удар, магический критический урон, улучшение навыка, усиление урона, улучшение конечного урона, подавление пути, подавление босса, специализацию Пути, специализацию против боссов, контрольный удар, улучшение контроля)"
   },
   {
     "id": "039662",

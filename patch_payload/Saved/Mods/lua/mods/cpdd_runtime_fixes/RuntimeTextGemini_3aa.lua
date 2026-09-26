@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 3aa/3ff.
 return {
     ["War declaration opens every Saturday from 12:00 to 19:30. Countdown to this period's war declaration: <Tips>%s</>"] = "Объявление войны доступно каждую субботу с 12:00 до 19:30. До окончания текущего периода объявления войны: <Tips>%s</>",
-    ["Pierce Increased"] = "Увеличение пробивания",
+    ["Pierce Increased"] = "Увеличение пронзания",
     ["Gameplay Entry"] = "Вход в режим",
     ["Participate in the Fun Brawl challenge and reach the King of Angels rank."] = "Примите участие в «Забавной потасовке» и достигните ранга «Король Ангелов».",
     ["<Assistant_Title1> Rail Tycoon </> \n <Assistant_Title2> Achievement Category: </> Leisure - Castle \n <Assistant_Title2> Unlock Condition: </> Reach \"Regional Manager - Tier 1\" in a single match of Railway Tycoon - Journey of Choice"] = "<Assistant_Title1>Железнодорожный олигарх</>\n<Assistant_Title2>Категория достижения: </>Досуг — Замок\n<Assistant_Title2>Условие разблокировки: </>Достичь звания «Управляющий регионом 1-го ранга» за одну партию в «Железнодорожный магнат: Путь выбора»",
@@ -149,7 +149,7 @@ return {
     ["商城兑换货币检查错误。"] = "Ошибка проверки валюты обмена торгового центра.",
     ["在<h>阿曼达</>处选一杯饮品"] = "Выберите напиток в <h>Amanda's</>",
     ["大帽子buff"] = "Усиление Большой шляпы",
-    ["失控窥秘人破防"] = "Вышедший из-под контроля Провидец Прорыв брони",
+    ["失控窥秘人破防"] = "Вышедший из-под контроля Провидец Прорыв защиты",
     ["头目5"] = "Босс 5",
     ["好贵！"] = "Так дорого!",
     ["如何更换教团"] = "Как изменить культы",

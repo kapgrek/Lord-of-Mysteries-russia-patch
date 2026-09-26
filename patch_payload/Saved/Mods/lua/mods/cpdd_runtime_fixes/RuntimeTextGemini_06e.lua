@@ -240,7 +240,7 @@ return {
     ["A whole portion of nutritious and delicious bread. Fragrant and tasty—you need a full stomach to have high spirits!"] = "Целая порция питательного и вкусного хлеба. Ароматно и вкусно — для хорошего настроения нужен сытый желудок!",
     ["Modify switch value"] = "Изменить значение переключателя",
     ["Iris gradient I"] = "Ирис градиент I",
-    ["Covenant of Solid Wall: Damage Reduction +10%."] = "Завет Твердой Стены: уменьшение урона +10%.",
+    ["Covenant of Solid Wall: Damage Reduction +10%."] = "Завет Твердой Стены: снижение урона +10%.",
     ["Dancer Level %s"] = "Уровень танцора %s",
     ["Return to the lounge"] = "Вернитесь в гостиную",
     ["Anomaly Event - Taste of the Witch - No-Mirror Spring Night Salon Closing Atmosphere"] = "Аномальное событие — Вкус ведьмы — Атмосфера закрытия салона «Весенняя ночь без зеркал»",

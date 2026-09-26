@@ -347,7 +347,7 @@ public class FastShardCompiler {
             { "Mysticism Page", "Страница мистицизма" },
             { "Rare · Life Crystal Pendant", "Редкий · Кулон кристалла жизни" },
             { "Traction Spirit Pendant", "Кулон притяжения духов" },
-            { "12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>.", "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к увеличению урона<HighLight></>." },
+            { "12 seconds after the battle starts<HighLight></>, your pieces gain 35% Damage Deepening<HighLight></>.", "Через 12 сек. после начала боя<HighLight></> ваши фигуры получают 35% к усилению урона<HighLight></>." },
             { "Each Basic Attack restores <HighLight>3</> Mana; when dealing a Critical Hit, restore an additional <HighLight>4</> Mana.", "Каждая базовая атака восстанавливает <HighLight>3</> ед. маны; при критическом ударе восстанавливает дополнительно <HighLight>4</> ед. маны." },
             { "Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>.", "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>." },
             { "If there are exactly 2 ally pieces in the first row<HighLight></>, both gain 150 Health<HighLight></> and 20 Defense<HighLight></>.", "Если в первом ряду ровно 2 союзные фигуры<HighLight></>, обе получают 150 ед. здоровья<HighLight></> и 20 ед. защиты<HighLight></>." },

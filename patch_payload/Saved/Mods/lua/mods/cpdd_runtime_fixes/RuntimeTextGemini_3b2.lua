@@ -71,7 +71,7 @@ return {
     ["Hide Bicycle"] = "Скрыть велосипед",
     ["Discuss the next move with Frye"] = "Обсудите следующий шаг с Фраем.",
     ["Enid after Deer QTE"] = "Энид после QTE с Диром",
-    ["Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is additionally increased by 250, and damage is dealt at the target's location. Can be triggered at most once every 12 seconds."] = "Увеличивает пробитие брони на 250. При использовании навыка добивания пробитие брони дополнительно увеличивается на 250, а урон наносится по месту нахождения цели. Может срабатывать не чаще одного раза в 12 секунд.",
+    ["Increases Armor Break by 250. When releasing a Finisher Skill, Armor Break is additionally increased by 250, and damage is dealt at the target's location. Can be triggered at most once every 12 seconds."] = "Увеличивает прорыв защиты на 250. При использовании навыка добивания прорыв защиты дополнительно увеличивается на 250, а урон наносится по месту нахождения цели. Может срабатывать не чаще одного раза в 12 секунд.",
     ["Luzhou"] = "Лучжоу",
     ["Slender hands, a swan's neck."] = "Тонкие руки, лебединая шея.",
     ["When enabled, hovering the mouse over a target will highlight it, and skills will prioritize this target as the casting target."] = "Если эта функция включена, наведение курсора мыши на цель подсветит ее, и навыки будут отдавать приоритет этой цели в качестве цели применения.",

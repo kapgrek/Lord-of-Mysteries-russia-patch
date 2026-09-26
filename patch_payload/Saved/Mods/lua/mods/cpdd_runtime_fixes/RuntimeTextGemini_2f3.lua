@@ -219,7 +219,7 @@ return {
     ["Dancer 9"] = "Танцор 9",
     ["Peng Shaolin"] = "Пэн Шаолинь",
     ["Dummy training ground"] = "Манекен тренировочной площадки",
-    ["Mental Pierce"] = "Психический прокол",
+    ["Mental Pierce"] = "Психическое пронзание",
     ["Player character models displayed on the same screen."] = "Модели персонажей игроков отображаются на одном экране.",
     ["Magic board plan 1 - Human - Impassable - Initial - Explodes upon stepping"] = "План магического поля 1 — Человек — Непроходимый — Начальный — Взрывается при шаге",
     ["It's all the same."] = "Это все то же самое.",

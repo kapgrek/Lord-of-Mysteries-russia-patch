@@ -26,7 +26,7 @@ return {
     ["Returned with a full load! All <HighLight>%s</> lucky points have been spent, and new lucky quests will be opened in the next round."] = "Полная добыча! Потрачены все очки удачи (<HighLight>%s</>), в следующем раунде откроются новые задания на удачу.",
     ["Apprentice - Acting"] = "Ученик - Играть",
     ["It's nice to be a mushroom."] = "Какой замечательный способ приготовить грибы.",
-    ["Summon Specialization"] = "Призвать Фокус",
+    ["Summon Specialization"] = "Специализация призыва",
     ["Get the cracking method and approach Liana's point"] = "Получите метод взлома и подойдите к точке Лианы.",
     ["Increases the base value of the character's damage Skills, which is negated by the target's Skill Block. The base Skill value is not affected by Defense. \n \n Character Skill Enhancement: {*d,F1690001,SkillPlus}"] = "Увеличивает базовое значение навыков урона персонажа, которое компенсируется сопротивлением навыкам цели. На базовое значение навыков защита не влияет. \n\nУлучшение навыков персонажа: {*d,F1690001,SkillPlus}",
     ["I wanted to... pay tribute to Gehrman!"] = "Я хотел... отдать должное Герману!",

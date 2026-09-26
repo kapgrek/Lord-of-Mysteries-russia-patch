@@ -20,7 +20,7 @@ return {
     ["Wipeable oil painting"] = "Стираемая картина маслом",
     ["Orange Marionette Fragment"] = "Оранжевый фрагмент марионетки",
     ["From a giant black bear, symbolizing overwhelming power and Health."] = "Из тела гигантского черного медведя, олицетворяет сокрушительную мощь и жизненную силу.",
-    ["Health +8500, Armor Break +1156"] = "Здоровье +8500, Пробивание брони +1156",
+    ["Health +8500, Armor Break +1156"] = "Здоровье +8500, Прорыв защиты +1156",
     ["Ask the <h>crying child</>"] = "Расспросить <h>плачущего ребенка</>",
     ["Just stand there and that's it."] = "Стой на месте и бей",
     ["I don't think so, this will ruin their flavor..."] = "Я так не думаю, это испортит их вкус...",

@@ -2985,7 +2985,7 @@
     "id": "000497",
     "source_cn": "*d秒霸体、移速提高*f**",
     "ref_en": "*d seconds of Super Armor, movement speed increased by *f**",
-    "target_ru": "*d сек. невосприимчивости к контролю, скорость передвижения повышается на *f**"
+    "target_ru": "*d сек. Суперброни, скорость передвижения повышается на *f**"
   },
   {
     "id": "000498",
@@ -8907,7 +8907,7 @@
     "id": "001484",
     "source_cn": "捡到了猎龙帮的昏睡迷药，攻击时有5%概率产生持续12秒的毒雾，范围内敌人造成的伤害加深降低20%，此效果每5秒最多触发一次。",
     "ref_en": "Picked up the Dragon Hunting Gang's sleeping potion. Attacks have a 5% chance to generate a toxic mist lasting 12 seconds, reducing damage taken by enemies within the area by 20%. This effect can trigger at most once every 5 seconds.",
-    "target_ru": "Подобрано усыпляющее зелье Банды охотников на драконов. При атаке дает 5%-й шанс создать ядовитый туман длительностью 12 сек., снижающий урон врагов в области действия на 20%. Этот эффект срабатывает не чаще одного раза в 5 сек."
+    "target_ru": "Подобрано усыпляющее зелье Банды охотников на драконов. При атаке дает 5%-й шанс создать ядовитый туман длительностью 12 сек., снижающий усиление урона, наносимого врагами в области действия, на 20%. Этот эффект срабатывает не чаще одного раза в 5 сек."
   },
   {
     "id": "001485",
@@ -11277,7 +11277,7 @@
     "id": "001879",
     "source_cn": "展开领域，自身buffdisc(*id)，大范围内队友buffdisc(*id)，自身和队友获得<HighLight>10%</>的减伤，对周身范围内敌方造成*d点物理伤害；随后持续蓄力并<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，结束时对周身范围内敌方造成*d点物理伤害，此伤害和护盾受自身最大生命值加成。\\n施法时消耗所有<HighLight>黄昏印记</>，使本技能获得<HighLight>强化</>。\\n\\n<FaintYellow>强化</>\\n每消耗1点黄昏印记，提供的护盾提高<HighLight>25%</>。",
     "ref_en": "Deploy a domain, buffdisc(*id) yourself, buffdisc(*id) teammates in a large area, and grant yourself and teammates <HighLight>10%</> Damage Reduction, while dealing *d physical damage to enemies in range; then, continue to charge and gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, dealing *d physical damage to enemies in range upon completion. This damage and the shield are boosted by your maximum health. \\nConsumes all <HighLight>Dusk Marks</> upon casting to <HighLight>strengthen</> this skill. \\n\\n<FaintYellow>Strengthening</>\\nEach Dusk Mark consumed increases the provided shield by <HighLight>25%</>.",
-    "target_ru": "Разворачивает область: накладывает buffdisc(*id) на себя и buffdisc(*id) на союзников в обширной зоне, дарует себе и союзникам <HighLight>10%</> снижения урона и наносит *d ед. физического урона врагам вокруг. Затем накапливает заряд, получая <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к контролю</>, и по завершении наносит *d ед. физического урона врагам вокруг. Этот урон и прочность щита зависят от максимального запаса здоровья.\nПри активации поглощает все <HighLight>Метки сумерек</>, даруя навыку <HighLight>усиление</>.\n\n<FaintYellow>Усиление</>\nКаждая поглощенная Метка сумерек увеличивает прочность щита на <HighLight>25%</>."
+    "target_ru": "Разворачивает область: накладывает buffdisc(*id) на себя и buffdisc(*id) на союзников в обширной зоне, дарует себе и союзникам <HighLight>10%</> снижения урона и наносит *d ед. физического урона врагам вокруг. Затем накапливает заряд, получая <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</>, и по завершении наносит *d ед. физического урона врагам вокруг. Этот урон и прочность щита зависят от максимального запаса здоровья.\nПри активации поглощает все <HighLight>Метки сумерек</>, даруя навыку <HighLight>усиление</>.\n\n<FaintYellow>Усиление</>\nКаждая поглощенная Метка сумерек увеличивает прочность щита на <HighLight>25%</>."
   },
   {
     "id": "001880",
@@ -11505,7 +11505,7 @@
     "id": "001917",
     "source_cn": "若配置数值大于怪物剩余可恢复破防条，则直接将怪物破防条回满，怪物脱离破防状态；\\n    若配置数值小于怪物剩余可恢复破防值，则立刻回复配置值，然后怪物以原有恢复速度继续恢复破防值，直到恢复满",
     "ref_en": "If the configured value is greater than the monster's remaining recoverable armor break bar, the monster's armor break bar is immediately refilled, and the monster exits the armor break state; \\n If the configured value is less than the monster's remaining recoverable armor break value, it immediately recovers the configured value, and then the monster continues to recover the armor break bar at its original recovery speed until full.",
-    "target_ru": "Если заданное значение превышает оставшуюся шкалу пробития защиты монстра, его шкала восстанавливается полностью, и монстр выходит из состояния пробития;\n    если заданное значение меньше оставшейся восстанавливаемой защиты монстра, она немедленно восстанавливается на заданную величину, после чего монстр продолжает восстанавливать ее с прежней скоростью до максимума."
+    "target_ru": "Если заданное значение превышает оставшуюся шкалу прорыва защиты монстра, его шкала восстанавливается полностью, и монстр выходит из состояния прорыва защиты;\n    если заданное значение меньше оставшейся восстанавливаемой защиты монстра, она немедленно восстанавливается на заданную величину, после чего монстр продолжает восстанавливать ее с прежней скоростью до максимума."
   },
   {
     "id": "001918",
@@ -12189,7 +12189,7 @@
     "id": "002031",
     "source_cn": "最大生命增加*d\\n体质增加*d\\n意志增加*d\\n力量增加*d\\n敏捷增加*d\\n最小物理攻击增加*d\\n最大物理攻击增加*d\\n物理穿刺增加*d\\n物理暴击增加*d\\n物理暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n物理破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n物理破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *d\\n Willpower Increase *d\\n Strength Increase *d\\n Agility Increase *d\\n Min Physical Attack Increase *d\\n Max Physical Attack Increase *d\\n Physical Pierce Increase *d\\n Physical Crit Rate Increase *d\\n Physical Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Physical Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Physical Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Макс. здоровье увеличивается на *d\nТелосложение увеличивается на *d\nВоля увеличивается на *d\nСила увеличивается на *d\nЛовкость увеличивается на *d\nМин. физ. атака увеличивается на *d\nМакс. физ. атака увеличивается на *d\nФиз. пробивание увеличивается на *d\nФиз. крит увеличивается на *d\nФиз. крит. урон увеличивается на *.1f**\nЗащита увеличивается на *d\nБлок увеличивается на *d\nСопротивление криту увеличивается на *d\nСнижение крит. урона увеличивается на *.1f**\nПодавление Потусторонних увеличивается на *.1f\nСопротивление Потусторонним увеличивается на *.1f\nФиз. пробитие защиты увеличивается на *d\nПодавление монстров увеличивается на *.1f\nСопротивление монстрам увеличивается на *.1f\nФиз. пробитие защиты увеличивается на *.1f**\nПробивание брони увеличивается на *d\nБроня увеличивается на *d\nОсобая атака увеличивается на *d\nОсобое пробитие защиты увеличивается на *d\nОсобая защита увеличивается на *d\nУсиление навыков увеличивается на *d\nОтражение навыков увеличивается на *d\nУсиление лечения увеличивается на *.2f\nВосстановление здоровья увеличивается на *.1f\nПодавление всех путей (%) увеличивается на *.2f**\nСопротивление всем путям (%) увеличивается на *.2f**\nПодавление монстров (%) увеличивается на *.2f**\nСопротивление монстрам (%) увеличивается на *.2f**\nУсиление навыков (%) увеличивается на *.2f**\nОтражение навыков (%) увеличивается на *.2f**\nКонечный урон увеличивается на *d\nСопротивление конечному урону увеличивается на *d\nПолучаемое лечение (%) увеличивается на *.2f**"
+    "target_ru": "Макс. здоровье увеличивается на *d\nТелосложение увеличивается на *d\nВоля увеличивается на *d\nСила увеличивается на *d\nЛовкость увеличивается на *d\nМин. физ. атака увеличивается на *d\nМакс. физ. атака увеличивается на *d\nФиз. пронзание увеличивается на *d\nФиз. крит увеличивается на *d\nФиз. крит. урон увеличивается на *.1f**\nЗащита увеличивается на *d\nБлок увеличивается на *d\nСопротивление криту увеличивается на *d\nСнижение крит. урона увеличивается на *.1f**\nПодавление Потусторонних увеличивается на *.1f\nСопротивление Потусторонним увеличивается на *.1f\nФиз. прорыв защиты увеличивается на *d\nПодавление монстров увеличивается на *.1f\nСопротивление монстрам увеличивается на *.1f\nФиз. прорыв защиты увеличивается на *.1f**\nПробивание брони увеличивается на *d\nБроня увеличивается на *d\nОсобая атака увеличивается на *d\nОсоб. прорыв защиты увеличивается на *d\nОсобая защита увеличивается на *d\nУсиление навыков увеличивается на *d\nОтражение навыков увеличивается на *d\nУсиление лечения увеличивается на *.2f\nВосстановление здоровья увеличивается на *.1f\nПодавление всех путей (%) увеличивается на *.2f**\nСопротивление всем путям (%) увеличивается на *.2f**\nПодавление монстров (%) увеличивается на *.2f**\nСопротивление монстрам (%) увеличивается на *.2f**\nУсиление навыков (%) увеличивается на *.2f**\nОтражение навыков (%) увеличивается на *.2f**\nКонечный урон увеличивается на *d\nСопротивление конечному урону увеличивается на *d\nПолучаемое лечение (%) увеличивается на *.2f**"
   },
   {
     "id": "002032",
@@ -13383,7 +13383,7 @@
     "id": "002230",
     "source_cn": "以灵性凝聚铠甲覆盖全身，获得吸收伤害的护盾，在护盾被击破时持续霸体。",
     "ref_en": "Condense armor with spirituality to cover your body, gaining a shield that absorbs damage, and maintain Super Armor when the shield is broken.",
-    "target_ru": "Концентрирует духовность, покрывая тело доспехом, который поглощает урон в виде щита, а при разрушении щита сохраняет непоколебимость."
+    "target_ru": "Концентрирует духовность, покрывая тело доспехом, который поглощает урон в виде щита, а при разрушении щита сохраняет Суперброню."
   },
   {
     "id": "002231",
@@ -16875,7 +16875,7 @@
     "id": "002812",
     "source_cn": "穿刺增加",
     "ref_en": "Pierce Increased",
-    "target_ru": "Увеличение пробивания"
+    "target_ru": "Увеличение пронзания"
   },
   {
     "id": "002813",
@@ -18153,7 +18153,7 @@
     "id": "003025",
     "source_cn": "怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 ",
     "ref_en": "Monster Specialization increased by <Mark>100</>. After more than <Mark>2</> seconds since last taking damage, Armor Penetration is increased by <Mark>70</> for <Mark>5</> seconds.",
-    "target_ru": "Специализация против монстров повышается на <Mark>100</>. Если с момента последнего получения урона прошло более <Mark>2</> сек., пробитие защиты повышается на <Mark>70</> на <Mark>5</> сек. "
+    "target_ru": "Специализация против монстров повышается на <Mark>100</>. Если с момента последнего получения урона прошло более <Mark>2</> сек., прорыв защиты повышается на <Mark>70</> на <Mark>5</> сек. "
   },
   {
     "id": "003026",
@@ -24051,7 +24051,7 @@
     "id": "004008",
     "source_cn": "怪物虚弱破防条-摄像机效果",
     "ref_en": "Monster Weakness Armor Break bar - Camera effect",
-    "target_ru": "Шкала уязвимости и пробития брони монстра — эффект камеры"
+    "target_ru": "Шкала уязвимости и прорыва защиты монстра — эффект камеры"
   },
   {
     "id": "004009",
@@ -25341,7 +25341,7 @@
     "id": "004223",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>350</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Pathway Specialization increased by <Mark>350</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Клеймо неактивно)}</>Мастерство Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>."
+    "target_ru": "<Highlight>{1,2,(Клеймо неактивно)}</>Специализация Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>."
   },
   {
     "id": "004224",
@@ -27501,7 +27501,7 @@
     "id": "004583",
     "source_cn": "【增强】暴击提供持续<HighLight>5</>秒的<HighLight>5%</>伤害加深，可叠加至多<HighLight>4</>次。",
     "ref_en": "[Enhanced] Critical hits provide <HighLight>5</> seconds of <HighLight>5%</> increased damage, stacking up to <HighLight>4</> times.",
-    "target_ru": "【Усиление】Критические удары на <HighLight>5</> сек. увеличивают наносимый урон на <HighLight>5%</>, суммируется до <HighLight>4</> раз."
+    "target_ru": "【Усиление】Критические удары на <HighLight>5</> сек. дают усиление урона на <HighLight>5%</>, суммируется до <HighLight>4</> раз."
   },
   {
     "id": "004584",
@@ -28707,7 +28707,7 @@
     "id": "004784",
     "source_cn": "最大生命增加*d\\n体质增加*d\\n意志增加*d\\n智慧增加*d\\n敏捷增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n魔法穿刺增加*d\\n魔法暴击增加*d\\n魔法暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n魔法破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n魔法破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n治疗增强%增加*.2f**\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *d\\n Willpower Increase *d\\n Wisdom Increase *d\\n Agility Increase *d\\n Min Magic Attack Increase *d\\n Max Magic Attack Increase *d\\n Magic Pierce Increase *d\\n Magic Crit Rate Increase *d\\n Magic Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Magic Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Magic Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Enhancement % Increase *.2f**\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Увеличение макс. ОЗ *d\nУвеличение телосложения *d\nУвеличение воли *d\nУвеличение мудрости *d\nУвеличение ловкости *d\nУвеличение мин. маг. атаки *d\nУвеличение макс. маг. атаки *d\nУвеличение маг. пробивания *d\nУвеличение маг. крита *d\nУвеличение маг. крит. урона *.1f**\nУвеличение защиты *d\nУвеличение блока *d\nУвеличение сопр. криту *d\nСнижение крит. урона *.1f**\nПодавление: Потусторонние: увеличение *.1f\nСопротивление: Потусторонние: увеличение *.1f\nУвеличение маг. пробивания защиты *d\nПодавление монстров: увеличение *.1f\nСопротивление монстрам: увеличение *.1f\nУвеличение маг. пробивания защиты *.1f**\nУвеличение пробивания брони *d\nУвеличение брони *d\nУвеличение особой атаки *d\nУвеличение особого пробивания брони *d\nУвеличение особой защиты *d\nУвеличение усиления навыков *d\nУвеличение парирования навыков *d\nУвеличение исцеления *.2f\nУвеличение восстановления здоровья *.1f\nУвеличение подавления всех Путей % *.2f**\nУвеличение сопр. всем Путям % *.2f**\nУвеличение подавления монстров % *.2f**\nУвеличение сопр. монстрам % *.2f**\nУвеличение усиления навыков % *.2f**\nУвеличение парирования навыков % *.2f**\nУвеличение итогового урона *d\nУвеличение сопр. итоговому урону *d\nУвеличение исцеления % *.2f**\nУвеличение получаемого исцеления % *.2f**"
+    "target_ru": "Увеличение макс. ОЗ *d\nУвеличение телосложения *d\nУвеличение воли *d\nУвеличение мудрости *d\nУвеличение ловкости *d\nУвеличение мин. маг. атаки *d\nУвеличение макс. маг. атаки *d\nУвеличение маг. пронзания *d\nУвеличение маг. крита *d\nУвеличение маг. крит. урона *.1f**\nУвеличение защиты *d\nУвеличение блока *d\nУвеличение сопр. криту *d\nСнижение крит. урона *.1f**\nПодавление: Потусторонние: увеличение *.1f\nСопротивление: Потусторонние: увеличение *.1f\nУвеличение маг. прорыва защиты *d\nПодавление монстров: увеличение *.1f\nСопротивление монстрам: увеличение *.1f\nУвеличение маг. прорыва защиты *.1f**\nУвеличение пробивания брони *d\nУвеличение брони *d\nУвеличение особой атаки *d\nУвеличение особ. прорыва защиты *d\nУвеличение особой защиты *d\nУвеличение усиления навыков *d\nУвеличение парирования навыков *d\nУвеличение исцеления *.2f\nУвеличение восстановления здоровья *.1f\nУвеличение подавления всех Путей % *.2f**\nУвеличение сопр. всем Путям % *.2f**\nУвеличение подавления монстров % *.2f**\nУвеличение сопр. монстрам % *.2f**\nУвеличение усиления навыков % *.2f**\nУвеличение парирования навыков % *.2f**\nУвеличение итогового урона *d\nУвеличение сопр. итоговому урону *d\nУвеличение исцеления % *.2f**\nУвеличение получаемого исцеления % *.2f**"
   },
   {
     "id": "004785",
@@ -29271,7 +29271,7 @@
     "id": "004878",
     "source_cn": "向指定敌方冲撞，将其持续<HyperLink stylename=\"M_Link\" u=\"2\">击退</>并造成5次*d点物理伤害，撞开途经的其他敌方并造成*d点物理伤害；随后终结一击刺出长戟造成*d点范围物理伤害，将目标<HyperLink stylename=\"M_Link\" u=\"2\">击退</>并附加*f秒mul(*d**,*d)<HyperLink stylename=\"M_Link\" u=\"20\">减疗</>和*f秒<HyperLink stylename=\"M_Link\" u=\"9\">滞涩</>，冲撞过程中自身<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>。当冲撞目标霸体时，自身将停止冲撞对其造成*d点物理伤害并附加终结一击的额外效果。\\n施法时获得1点<HighLight>太阳能量</>（<HighLight>烈阳</>状态下获得2点<HighLight>太阳能量</>）。\\n本技能可充能2次。\\n\\n<FaintYellow>太阳能量</>：最多持有5点，获取太阳能量以解锁与强化<HighLight>惩戒</>和<HighLight>无暗之枪</>。",
     "ref_en": "Charges at the designated enemy, continuously <HyperLink stylename=\"M_Link\" u=\"2\"> knocking back </> them and dealing 5 instances of *d physical damage, knocking aside other enemies in the path and dealing *d physical damage; then delivers a finishing strike with the halberd, dealing *d area physical damage, <HyperLink stylename=\"M_Link\" u=\"2\"> knocking back </> the target and applying *f seconds of mul(*d**,*d) <HyperLink stylename=\"M_Link\" u=\"20\"> Healing Reduction </> and *f seconds of <HyperLink stylename=\"M_Link\" u=\"9\"> Stagnation </>. You gain <HyperLink stylename=\"M_Link\" u=\"11\"> Super Armor </> during the charge. When the charge target has Super Armor, you will stop charging, deal *d physical damage to them, and apply the additional effect of the finishing strike. \\n Gain 1 point of <HighLight> Solar Energy </> when casting (gain 2 points of <HighLight> Solar Energy </> in the <HighLight> Blazing Sun </> state). \\n This skill can be charged 2 times. \\n\\n<FaintYellow> Solar Energy </>: Hold up to 5 points. Obtain Solar Energy to unlock and strengthen <HighLight> Punishment </> and <HighLight> Unshadowed Spear </>.",
-    "target_ru": "Совершает рывок к выбранному врагу, непрерывно <HyperLink stylename=\"M_Link\" u=\"2\">отбрасывая</> его и нанося 5 ударов по *d ед. физического урона, а также расталкивая других врагов на пути с нанесением *d ед. физического урона. Затем завершающий выпад алебардой наносит *d ед. физического урона по площади, <HyperLink stylename=\"M_Link\" u=\"2\">отбрасывает</> цель и накладывает на *f сек. mul(*d**,*d) <HyperLink stylename=\"M_Link\" u=\"20\">снижения исцеления</> и на *f сек. — <HyperLink stylename=\"M_Link\" u=\"9\">скованность</>. Во время рывка персонаж получает <HyperLink stylename=\"M_Link\" u=\"11\">неуязвимость к контролю</>. Если цель неуязвима к контролю, рывок прерывается с нанесением ей *d ед. физического урона и применением дополнительных эффектов завершающего удара.\nПри применении даёт 1 ед. <HighLight>энергии солнца</> (в состоянии <HighLight>«Палящее солнце»</> — 2 ед. <HighLight>энергии солнца</>).\nНавык накапливает до 2 зарядов.\n\n<FaintYellow>Энергия солнца</>: накапливается до 5 ед. Позволяет разблокировать и усилить навыки <HighLight>«Кара»</> и <HighLight>«Копьё Бестеневого»</>."
+    "target_ru": "Совершает рывок к выбранному врагу, непрерывно <HyperLink stylename=\"M_Link\" u=\"2\">отбрасывая</> его и нанося 5 ударов по *d ед. физического урона, а также расталкивая других врагов на пути с нанесением *d ед. физического урона. Затем завершающий выпад алебардой наносит *d ед. физического урона по площади, <HyperLink stylename=\"M_Link\" u=\"2\">отбрасывает</> цель и накладывает на *f сек. mul(*d**,*d) <HyperLink stylename=\"M_Link\" u=\"20\">снижения исцеления</> и на *f сек. — <HyperLink stylename=\"M_Link\" u=\"9\">скованность</>. Во время рывка персонаж получает <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</>. Если у цели активна Суперброня, рывок прерывается с нанесением ей *d ед. физического урона и применением дополнительных эффектов завершающего удара.\nПри применении даёт 1 ед. <HighLight>энергии солнца</> (в состоянии <HighLight>«Палящее солнце»</> — 2 ед. <HighLight>энергии солнца</>).\nНавык накапливает до 2 зарядов.\n\n<FaintYellow>Энергия солнца</>: накапливается до 5 ед. Позволяет разблокировать и усилить навыки <HighLight>«Кара»</> и <HighLight>«Копьё Бестеневого»</>."
   },
   {
     "id": "004879",

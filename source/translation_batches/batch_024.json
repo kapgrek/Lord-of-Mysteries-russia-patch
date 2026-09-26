@@ -219,7 +219,7 @@
     "id": "115036",
     "source_cn": "破防提高<Mark>45</>。受击时，有一定概率获得<Mark>60</>点防御，持续<Mark>5</>秒，每<Mark>10</>秒最多触发一次。",
     "ref_en": "Armor Penetration increased by <Mark>45</>. When hit, there is a certain chance to gain <Mark>60</> points of Defense for <Mark>5</> seconds; can be triggered at most once every <Mark>10</> seconds.",
-    "target_ru": "Бронепробитие увеличено на <Mark>45</>. При попадании есть определенный шанс получить <Mark>60</> очков защиты на <Mark>5</> секунд; может срабатывать не чаще одного раза каждые <Mark>10</> секунд."
+    "target_ru": "Прорыв защиты увеличен на <Mark>45</>. При попадании есть определенный шанс получить <Mark>60</> точек защиты на <Mark>5</> секунд; может срабатывать не чаще одного раза каждые <Mark>10</> секунд."
   },
   {
     "id": "115037",
@@ -963,7 +963,7 @@
     "id": "115160",
     "source_cn": "磐石（6）40%最大生命值护盾，15%伤害减免；",
     "ref_en": "Rock (6) 40% Max Health Shield, 15% Damage Reduction;",
-    "target_ru": "Камень (6) 40% максимального здоровья щита, 15% уменьшения урона;"
+    "target_ru": "Камень (6) 40% максимального здоровья щита, 15% снижения урона;"
   },
   {
     "id": "115161",
@@ -1827,7 +1827,7 @@
     "id": "115304",
     "source_cn": "米尔贡根血量在75%以下时为<Disable>阶段二</>，二阶段米尔贡根将获得一定的常驻免伤效果。但在米尔贡根<Disable>破防</>时，免伤效果会被移除，并且米尔贡根破防状态的持续时间更长。二阶段场上有2座雕像进入激光状态，1座雕像进入法阵状态。",
     "ref_en": "When Milgongen's health is below 75%, it is <Disable>Phase 2</>. In the second phase, Milgongen will gain a certain permanent damage reduction effect. However, when Milgongen is <Disable>Armor Broken</>, the damage reduction effect will be removed, and the duration of Milgongen's Armor Broken state will be longer. In the second phase, 2 statues enter the laser state and 1 statue enters the spell field state.",
-    "target_ru": "Когда здоровье Милгонгена ниже 75%, это <Disable>Phase 2</>. На втором этапе Милгонген получит определенный эффект постоянного уменьшения урона. Однако, когда Милгонген находится в состоянии <Disable>Armor Broken</>, эффект уменьшения урона будет удален, а продолжительность состояния Милгонгена в состоянии сломанной брони будет больше. На второй фазе 2 статуи переходят в состояние лазера, а 1 статуя — в состояние поля заклинаний."
+    "target_ru": "Когда здоровье Милгонгена ниже 75%, наступает <Disable>Фаза 2</>. На втором этапе Милгонген получит определённый постоянный эффект снижения урона. Однако когда Милгонген находится в состоянии <Disable>Прорыва защиты</>, эффект снижения урона будет снят, а продолжительность состояния прорыва защиты у Милгонгена станет больше. На второй фазе 2 статуи переходят в состояние лазера, а 1 статуя — в состояние поля заклинаний."
   },
   {
     "id": "115305",
@@ -4119,7 +4119,7 @@
     "id": "115686",
     "source_cn": "持续<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>，蓄力并持续对周身敌方造成物理伤害，共计<Highlight>4</>次，每次*d点，蓄力结束后对周身敌方造成*d点物理伤害。首次攻击引爆并移除目标身上被附加的<HighLight>衰败</>，剩余时长每多1秒伤害增加*d点。\\n施法时消耗所有<HighLight>黄昏印记</>，使本技能获得<HighLight>强化</>。\\n\\n<FaintYellow>强化</>\\n每消耗1点<HighLight>黄昏印记</>，本技能的伤害提高<HighLight>10%</>。",
     "ref_en": "Continuously gain Super Armor <HyperLink stylename=\"M_Link\" u=\"11\"></>, charging up and continuously dealing physical damage to surrounding enemies for a total of 4 <Highlight></> hits, each dealing *d damage. After charging ends, deal *d physical damage to surrounding enemies. The first attack detonates and removes the Decay <HighLight></> applied to the target, increasing damage by *d for every 1 second of remaining duration. \\n Consumes all Twilight Marks <HighLight></> upon casting to grant this skill Strengthening <HighLight></>. \\n\\n<FaintYellow> Strengthening </>\\n: For every Twilight Mark <HighLight></> consumed, this skill's damage is increased by 10% <HighLight></>.",
-    "target_ru": "Постоянно <HyperLink stylename=\"M_Link\" u=\"11\">Hegemony</> заряжайтесь и продолжайте наносить физический урон окружающим врагам, всего <Highlight>4</> раз, каждый раз *d очков, после зарядки это нанесёт *d очков физического урона окружающим врагам. Первая атака взрывает и удаляет прикрепленный к цели <HighLight>Decay</>. Урон увеличивается на *d очков за каждую оставшуюся 1 секунду. \\n поглощает весь <HighLight> Знак Заката </> при использовании, делая этот навык <HighLight> усиленным </>. \\n\\n<FaintYellow> Усиление </>\\n Каждый раз, когда <HighLight>Сумеречная метка </> потребляет 1 очко, урон от этого умения увеличивается на <HighLight>10%</>."
+    "target_ru": "Постоянно <HyperLink stylename=\"M_Link\" u=\"11\">Суперброня</> заряжайтесь и продолжайте наносить физический урон окружающим врагам, всего <Highlight>4</> раз, каждый раз *d очков, после зарядки это нанесёт *d очков физического урона окружающим врагам. Первая атака взрывает и удаляет прикрепленный к цели <HighLight>Decay</>. Урон увеличивается на *d очков за каждую оставшуюся 1 секунду. \\n поглощает весь <HighLight> Знак Заката </> при использовании, делая этот навык <HighLight> усиленным </>. \\n\\n<FaintYellow> Усиление </>\\n Каждый раз, когда <HighLight>Сумеречная метка </> потребляет 1 очко, урон от этого умения увеличивается на <HighLight>10%</>."
   },
   {
     "id": "115687",
@@ -7905,7 +7905,7 @@
     "id": "116317",
     "source_cn": "抵消伤害来源的穿刺，在基础格挡率<Highlight>25%</>的基础上，提高格挡所受伤害的几率。格挡时，受到30%伤害且不会触发暴击。\\n格挡率存在<Highlight>75%</>的上限和<Highlight>0%</>的下限，提升的格挡超出上阈值或未到下阈值时，无法提升减伤能力。\\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>穿刺</>属性的对抗结算。",
     "ref_en": "Offsets the damage source's Pierce. Based on the base Block rate of <Highlight> 25% </>, it increases the probability of blocking received damage. When blocking, you take 30% damage and will not trigger a critical hit. \\n The Block rate has an upper limit of <Highlight> 75% </> and a lower limit of <Highlight> 0% </>; if the increased Block exceeds the upper threshold or fails to reach the lower threshold, it cannot improve damage reduction capability. \\n The actual effect and thresholds depend on the Level <Highlight> </> of both the attacker and defender, and the confrontation settlement with the opponent's <Highlight> Pierce </> attribute.",
-    "target_ru": "Смещает прокол от источника урона и увеличивает вероятность блокировки урона на основе базовой скорости блока <Highlight>25%</>. При блокировании получает 30% урона и не вызывает критического удара. Скорость блокировки \\n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>0%</>. Когда улучшенный блок превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \\nФактический эффект и порог зависят от уровня <Highlight> </> как атакующих, так и защищающихся, а также от урегулирования конфронтации с атрибутом <Highlight>piercing</> противника."
+    "target_ru": "Смещает пронзание от источника урона и увеличивает вероятность блокировки урона на основе базовой скорости блока <Highlight>25%</>. При блокировании получает 30% урона и не вызывает критического удара. Скорость блокировки \\n имеет верхний предел <Highlight>75%</> и нижний предел <Highlight>0%</>. Когда улучшенный блок превышает верхний порог или не достигает нижнего порога, способность снижения урона не может быть улучшена. \\nФактический эффект и порог зависят от уровня <Highlight> </> как атакующих, так и защищающихся, а также от урегулирования конфронтации с атрибутом <Highlight>пронзания</> противника."
   },
   {
     "id": "116318",
@@ -10485,7 +10485,7 @@
     "id": "116747",
     "source_cn": "<HighLight>16%</>最大生命值护盾，<HighLight>10%</>伤害减免；",
     "ref_en": "<HighLight>16%</> maximum Health Shield, <HighLight>10%</> Damage Reduction.",
-    "target_ru": "<HighLight>16%</> максимальный щит здоровья, <HighLight>10%</> уменьшение урона."
+    "target_ru": "<HighLight>16%</> максимальный щит здоровья, <HighLight>10%</> снижение урона."
   },
   {
     "id": "116748",
@@ -13101,7 +13101,7 @@
     "id": "117183",
     "source_cn": "最大生命增加*d\\n体质增加*.1f\\n意志增加*.1f\\n智慧增加*d\\n敏捷增加*d\\n最小魔法攻击增加*d\\n最大魔法攻击增加*d\\n魔法穿刺增加*d\\n魔法暴击增加*d\\n魔法暴伤增加*.1f**\\n防御增加*d\\n格挡增加*d\\n抗暴击增加*d\\n暴伤减免增加*.1f**\\n压制-非凡者增加*.1f\\n抵抗-非凡者增加*.1f\\n魔法破防增加*d\\n怪物压制增加*.1f\\n怪物抵抗增加*.1f\\n魔法破防增加*.1f**\\n破甲增加*d\\n护甲增加*d\\n特殊攻击增加*d\\n特殊破防增加*d\\n特殊防御增加*d\\n技能增强增加*d\\n技能抵挡增加*d\\n治疗增强增加*.2f\\n生命恢复增加*.1f\\n所有途径压制%增加*.2f**\\n所有途径抵抗%增加*.2f**\\n怪物压制%增加*.2f**\\n怪物抵抗%增加*.2f**\\n技能增强%增加*.2f**\\n技能抵挡%增加*.2f**\\n最终伤害增加*d\\n最终伤害抵抗增加*d\\n受到治疗增强%增加*.2f**",
     "ref_en": "Max Health Increase *d\\n Constitution Increase *.1f\\n Willpower Increase *.1f\\n Wisdom Increase *d\\n Agility Increase *d\\n Min Magic Attack Increase *d\\n Max Magic Attack Increase *d\\n Magic Pierce Increase *d\\n Magic Crit Rate Increase *d\\n Magic Crit Damage Increase *.1f**\\n Defense Increase *d\\n Block Increase *d\\n Crit Resistance Increase *d\\n Crit Damage Reduction Increase *.1f**\\n Suppression - Beyonder Increase *.1f\\n Resistance - Beyonder Increase *.1f\\n Magic Armor Break Increase *d\\n Monster Suppression Increase *.1f\\n Monster Resistance Increase *.1f\\n Magic Armor Break Increase *.1f**\\n Armor Break Increase *d\\n Armor Increase *d\\n Special Attack Increase *d\\n Special Armor Break Increase *d\\n Special Defense Increase *d\\n Skill Enhancement Increase *d\\n Skill Block Increase *d\\n Healing Enhancement Increase *.2f\\n Health Recovery Increase *.1f\\n All Pathway Suppression % Increase *.2f**\\n All Pathway Resistance % Increase *.2f**\\n Monster Suppression % Increase *.2f**\\n Monster Resistance % Increase *.2f**\\n Skill Enhancement % Increase *.2f**\\n Skill Block % Increase *.2f**\\n Final Damage Increase *d\\n Final Damage Resistance Increase *d\\n Healing Received Enhancement % Increase *.2f**",
-    "target_ru": "Максимальное увеличение жизни*d\\nУвеличение телосложения*.1f\\nУвеличится*.1f\\nУвеличение интеллекта*d\\nУвеличение ловкости*d\\nМинимальное увеличение магической атаки*d\\nМаксимальное увеличение магической атаки*d\\nУвеличение магического прокола*d\\nУвеличение магического критического удара*d\\nМагический критический урон увеличение*.1f**\\nУвеличение защиты*d\\nБлокирование увеличено*d\\nСопротивление критическому удару увеличено*d\\nУменьшение критического урона увеличено*.1f**\\nПодавление - чрезвычайное увеличение*.1f\\nСопротивление - чрезвычайное увеличение*.1f\\nПроломленная магическая защита увеличена*d\\nПодавление монстров увеличено*.1f\\nСопротивление монстров увеличено*.1f\\nСлом магической защиты увеличено*.1f**\\nУвеличение пробития брони*d\\nУвеличение брони*d\\nУвеличение специальной атаки*d\\nУвеличение прорыва специальной защиты*d\\nУвеличение специальной защиты*d\\nУвеличение улучшения навыка*d\\nСопротивление навыку Увеличение*d\\nУвеличение улучшения исцеления*.2f\\nУвеличение восстановления здоровья*.1f\\nУвеличение % подавления всех способов*.2f**\\nУвеличение % сопротивления всех каналов*.2f**\\nУвеличение % подавления монстров*.2f**\\nУвеличение % сопротивления монстров*.2f**\\nУлучшение навыка % увеличение*.2f**\\nУвеличение % сопротивления навыку*.2f**\\nУвеличение конечного урона*d\\nУвеличение конечного сопротивления урону*d\\nУвеличение % улучшения исцеления*.2f**"
+    "target_ru": "Увеличение максимального здоровья*d\\nУвеличение телосложения*.1f\\nУвеличение воли*.1f\\nУвеличение интеллекта*d\\nУвеличение ловкости*d\\nМинимальное увеличение магической атаки*d\\nМаксимальное увеличение магической атаки*d\\nУвеличение магического пронзания*d\\nУвеличение магического критического удара*d\\nУвеличение магического критического урона*.1f**\\nУвеличение защиты*d\\nУвеличение блокирования*d\\nУвеличение сопротивления критическому удару*d\\nУвеличение снижения критического урона*.1f**\\nУвеличение подавления — Потусторонних*.1f\\nУвеличение сопротивления — Потусторонним*.1f\\nУвеличение магического прорыва защиты*d\\nУвеличение подавления монстров*.1f\\nУвеличение сопротивления монстров*.1f\\nУвеличение магического прорыва защиты*.1f**\\nУвеличение пробивания брони*d\\nУвеличение брони*d\\nУвеличение специальной атаки*d\\nУвеличение особого прорыва защиты*d\\nУвеличение специальной защиты*d\\nУвеличение усиления навыков*d\\nУвеличение блокирования навыков*d\\nУвеличение усиления исцеления*.2f\\nУвеличение восстановления здоровья*.1f\\nУвеличение % подавления по всем путям*.2f**\\nУвеличение % сопротивления по всем путям*.2f**\\nУвеличение % подавления монстров*.2f**\\nУвеличение % сопротивления монстров*.2f**\\nУвеличение % усиления навыков*.2f**\\nУвеличение % блокирования навыков*.2f**\\nУвеличение итогового урона*d\\nУвеличение сопротивления итоговому урону*d\\nУвеличение % усиления получаемого исцеления*.2f**"
   },
   {
     "id": "117184",
@@ -13797,7 +13797,7 @@
     "id": "117299",
     "source_cn": "更多数据部分的计算规则：\\n<Highlight>暴击率（输出）</>：造成暴击伤害段数/总伤害段数\\n<Highlight>穿刺率</>：造成未格挡伤害段数/总伤害段数\\n<Highlight>单体率</>：技能标签带有“单体”的技能伤害占比\\n<Highlight>群体率</>：技能标签带有“群体”的技能伤害占比\\n<Highlight>爆发率</>：技能标签带有“爆发”的技能伤害占比\\n<Highlight>持续率</>：技能标签带有“持续”的技能伤害占比\\n<Highlight>强控时间（输出）</>：造成的实际强控控制时长（同时控制多目标会增加大量时间）\\n<Highlight>弱控时间（输出）</>：造成的实际弱控控制时长（同时控制多目标会增加大量时间）\\n<Highlight>暴击率（承伤）</>：受到暴击伤害段数/总伤害段数\\n<Highlight>格挡率</>：格挡伤害段数/总承受伤害段数\\n<Highlight>强控时间（承伤）</>：受到的实际强控控制时长\\n<Highlight>弱控时间（承伤）</>：受到的实际弱控控制时长",
     "ref_en": "Calculation rules for additional data sections: \\n<Highlight>Crit Rate (Output)</>: Number of crit damage instances / Total damage instances\\n<Highlight>Pierce Rate</>: Number of non-blocked damage instances / Total damage instances\\n<Highlight>Single Target Rate</>: Damage proportion of skills with the \"Single Target\" tag\\n<Highlight>Group Rate</>: Damage proportion of skills with the \"Group\" tag\\n<Highlight>Burst Rate</>: Damage proportion of skills with the \"Burst\" tag\\n<Highlight>Continuous Rate</>: Damage proportion of skills with the \"Continuous\" tag\\n<Highlight>Hard Crowd Control Duration (Output)</>: Actual duration of hard crowd control inflicted (controlling multiple targets simultaneously increases duration significantly)\\n<Highlight>Soft Crowd Control Duration (Output)</>: Actual duration of soft crowd control inflicted (controlling multiple targets simultaneously increases duration significantly)\\n<Highlight>Crit Rate (Damage Taken)</>: Number of crit damage instances received / Total damage instances received\\n<Highlight>Block Rate</>: Number of blocked damage instances / Total damage instances received\\n<Highlight>Hard Crowd Control Duration (Damage Taken)</>: Actual duration of hard crowd control received\\n<Highlight>Soft Crowd Control Duration (Damage Taken)</>: Actual duration of soft crowd control received",
-    "target_ru": "Правила расчета для дополнительных частей данных: \\n<Highlight>Коэффициент критического удара (выходные данные)</>: Количество сегментов критического урона/сегментов общего урона\\n<Highlight>Пробивной балл</>: Количество разблокированных сегментов урона/общего сегмента урона\\n<Highlight>Коэффициент одиночной цели</>: Пропорция урона навыка с «одной целью» в метке навыка\\n<Highlight>Групповой коэффициент</>: доля урона от навыка с надписью «группа» на метке навыка\\n<Highlight>Скорость взрыва</>: доля урона от навыка со словом «взрыв» на метке навыка\\n<Highlight>Коэффициент продолжения</>: доля урона от навыка со словом «постоянный» на метке навыка\\n<Highlight>Сильное время контроля (выходные данные)</>: фактическое вызванное время сильного контроля (одновременное управление несколькими целями добавит много времени) \\n<Highlight>Время слабого контроля (выходные данные) </>: фактическое вызванное время слабого контроля (одновременное управление несколькими целями добавит много времени) \\n<Highlight>Коэффициент критического удара (травма)</>: полученное количество сегментов критического урона/общий урон сегменты\\n<Highlight>Частота блокировки</>: Блокирование сегментов повреждения/Общее количество полученных сегментов повреждения\\n<Highlight>Время сильного контроля (с учетом травмы)</>: Фактическая длительность полученного сильного контроля\\n<Highlight>Время слабого контроля (с учетом травмы)</>: Полученная фактическая продолжительность слабого контроля"
+    "target_ru": "Правила расчета для дополнительных частей данных: \\n<Highlight>Коэффициент критического удара (выходные данные)</>: Количество сегментов критического урона/сегментов общего урона\\n<Highlight>Коэффициент пронзания</>: Количество разблокированных сегментов урона/общего сегмента урона\\n<Highlight>Коэффициент одиночной цели</>: Пропорция урона навыка с «одной целью» в метке навыка\\n<Highlight>Групповой коэффициент</>: доля урона от навыка с надписью «группа» на метке навыка\\n<Highlight>Скорость взрыва</>: доля урона от навыка со словом «взрыв» на метке навыка\\n<Highlight>Коэффициент продолжения</>: доля урона от навыка со словом «постоянный» на метке навыка\\n<Highlight>Сильное время контроля (выходные данные)</>: фактическое вызванное время сильного контроля (одновременное управление несколькими целями добавит много времени) \\n<Highlight>Время слабого контроля (выходные данные) </>: фактическое вызванное время слабого контроля (одновременное управление несколькими целями добавит много времени) \\n<Highlight>Коэффициент критического удара (травма)</>: полученное количество сегментов критического урона/общий урон сегменты\\n<Highlight>Частота блокировки</>: Блокирование сегментов повреждения/Общее количество полученных сегментов повреждения\\n<Highlight>Время сильного контроля (с учетом травмы)</>: Фактическая длительность полученного сильного контроля\\n<Highlight>Время слабого контроля (с учетом травмы)</>: Полученная фактическая продолжительность слабого контроля"
   },
   {
     "id": "117300",
@@ -14043,7 +14043,7 @@
     "id": "117340",
     "source_cn": "魔法穿刺",
     "ref_en": "Magic Piercing",
-    "target_ru": "Магический пирсинг"
+    "target_ru": "Магическое пронзание"
   },
   {
     "id": "117341",
@@ -15009,7 +15009,7 @@
     "id": "117501",
     "source_cn": "受到召唤物攻击时，抵消其专攻{*d,F1690001,CreateHurtReduce}点。(最多将攻击方专攻降为0)",
     "ref_en": "When receiving attacks from a Summon, negates {*d,F1690001,CreateHurtReduce} points of their Special Attack. (Reduces the attacker's Special Attack to a maximum of 0)",
-    "target_ru": "При получении атак от призыва сводит на нет очки {*d,F1690001,CreateHurtReduce} их специальной атаки. (Уменьшает специальную атаку атакующего до максимума 0)"
+    "target_ru": "При получении атак от призыва сводит на нет очки {*d,F1690001,CreateHurtReduce} их специализации. (Уменьшает специализацию атакующего до максимума 0)"
   },
   {
     "id": "117502",
@@ -17355,7 +17355,7 @@
     "id": "117892",
     "source_cn": "子嗣守护进入战斗后，会获得炼金能量。随战斗时间流逝，或特定技能命中玩家时会增长能量。能量计数达到100%后，子嗣守护会进入失控状态，发动“角斗仪式”，且失控状态下受到攻击会削减能量计数，当计数归0后，子嗣守护会进入破防状态。",
     "ref_en": "Upon entering combat, the Offspring Protection gains alchemical energy. Energy increases over time or when specific skills hit players. Once the energy count reaches 100%, the Offspring Protection enters a state of loss of control and initiates the \"Gladiator Ritual\". Attacking it while in this state reduces the energy count; when the count reaches 0, the Offspring Protection enters an Armor Break state.",
-    "target_ru": "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и инициирует «Ритуал Гладиатора». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, защита потомства переходит в состояние пробития брони."
+    "target_ru": "При вступлении в бой Защита Потомства получает алхимическую энергию. Энергия увеличивается со временем или когда игроки поражаются определенными навыками. Как только количество энергии достигает 100%, Защита Потомства входит в состояние потери контроля и инициирует «Ритуал Гладиатора». Атака по нему в этом состоянии уменьшает количество энергии; когда счетчик достигает 0, защита потомства переходит в состояние прорыва защиты."
   },
   {
     "id": "117893",
@@ -19929,7 +19929,7 @@
     "id": "118321",
     "source_cn": "+25破甲；3格防御削减25%",
     "ref_en": "+25 Armor Break; 3-grid Defense reduction 25%",
-    "target_ru": "+25 Пробитие брони; Снижение защиты в 3-х сетках 25%"
+    "target_ru": "+25 Пробивание брони; Снижение защиты в 3-х сетках 25%"
   },
   {
     "id": "118322",
@@ -22107,7 +22107,7 @@
     "id": "118684",
     "source_cn": "解除自身受到的<HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">控制效果</>，并在4秒内获得<HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">霸体</>和50%减伤，将每次受到伤害里不超过生命值上限10%的部分，按{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}倍反弹给攻击者（对8米外的目标，反弹伤害额外衰减，最多衰减至8米内的20%）。\\n效果结束时，震碎牢笼，对周身8米内的最多6名敌对目标造成伤害，并对其施加持续10秒的眩目效果，使其攻击降低。",
     "ref_en": "Removes <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">crowd control effects</> from yourself, and grants <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">Super Armor</> and 50% damage reduction for 4 seconds. For every instance of damage received that does not exceed 10% of your maximum HP, it reflects {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} times that amount back to the attacker (for targets beyond 8 meters, the reflected damage is further reduced, down to a minimum of 20% of the damage within 8 meters).\\nWhen the effect ends, shatter the cage, dealing damage to up to 6 hostile targets within 8 meters, and apply a Dazzle effect for 10 seconds, reducing their attack.",
-    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"></> и получите <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">Гегемонию</> и снижение урона на 50% в течение 4 секунд. За каждый полученный урон, не превышающий 10% от верхнего предела здоровья, нажмите {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} раза, отраженного атакующему (для цели 8 метров). вдали урон от отскока будет дополнительно уменьшен до 20% в радиусе 8 метров). \\n Когда эффект закончится, клетка разобьется, нанося урон до 6 враждебным целям в радиусе 8 метров и применяя ослепляющий эффект, который длится 10 секунд, чтобы уменьшить их атаку."
+    "target_ru": "Снимите с себя эффект контроля <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\"></> и получите <HyperLink stylename=\"M_Link\" u=\"3\" color=\"#f4a067\">Суперброню</> и снижение урона на 50% в течение 4 секунд. За каждый полученный урон, не превышающий 10% от верхнего предела здоровья, нажмите {CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9} раза, отраженного атакующему (для цели 8 метров). вдали урон от отскока будет дополнительно уменьшен до 20% в радиусе 8 метров). \\n Когда эффект закончится, клетка разобьется, нанося урон до 6 враждебным целям в радиусе 8 метров и применяя ослепляющий эффект, который длится 10 секунд, чтобы уменьшить их атаку."
   },
   {
     "id": "118685",
@@ -27585,7 +27585,7 @@
     "id": "119597",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>320</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>320</>. After being attacked, additionally increase Monster Specialization by <Mark>50</>, lasting for <Mark>8</> seconds.\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Фокус монстра увеличен <Mark>320</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>320</>. После атаки специализация против монстров будет дополнительно увеличена на <Mark>50</> на <Mark>8</> секунд. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "119598",
@@ -28521,7 +28521,7 @@
     "id": "119753",
     "source_cn": "失控窥秘人破防",
     "ref_en": "Out-of-control Seer Armor Break",
-    "target_ru": "Вышедший из-под контроля Провидец Прорыв брони"
+    "target_ru": "Вышедший из-под контроля Провидец Прорыв защиты"
   },
   {
     "id": "119754",
@@ -29193,7 +29193,7 @@
     "id": "119865",
     "source_cn": "佛尔思破防层数",
     "ref_en": "Fors Armor Break Stacks",
-    "target_ru": "Стеки пробития брони Форса"
+    "target_ru": "Стеки прорыва защиты Форса"
   },
   {
     "id": "119866",

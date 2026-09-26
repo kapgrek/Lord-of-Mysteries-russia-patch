@@ -261,7 +261,7 @@
     "id": "080043",
     "source_cn": "提高自身*f**的物理增伤和*d点穿刺",
     "ref_en": "Increase your Physical Damage Boost by *f** and Pierce by *d points.",
-    "target_ru": "Увеличьте усиление физического урона на *f** и проникающего урона на *d очков."
+    "target_ru": "Увеличьте усиление физического урона на *f** и пронзание на *d очков."
   },
   {
     "id": "080044",
@@ -2745,7 +2745,7 @@
     "id": "080457",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>350</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2,（Imprint expired）}</>Pathway Specialization increased by <Mark>350</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация Pathway улучшает <Mark>350</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличена на <Mark>350</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "080458",
@@ -6489,7 +6489,7 @@
     "id": "081081",
     "source_cn": "破甲",
     "ref_en": "Armor Break",
-    "target_ru": "Прорыв брони"
+    "target_ru": "Пробивание брони"
   },
   {
     "id": "081082",
@@ -7869,7 +7869,7 @@
     "id": "081311",
     "source_cn": "法阵额外附加穿刺增益。",
     "ref_en": "The magic circle additionally adds a piercing bonus.",
-    "target_ru": "Магический круг дополнительно добавляет бонус к прокалыванию."
+    "target_ru": "Магический круг дополнительно добавляет бонус к пронзанию."
   },
   {
     "id": "081312",
@@ -7923,7 +7923,7 @@
     "id": "081320",
     "source_cn": "破防增加<Yellow>*d</>。",
     "ref_en": "Armor Break increased <Yellow>*d</>.",
-    "target_ru": "Пробитие брони увеличено <Yellow>*d</>."
+    "target_ru": "Прорыв защиты увеличен <Yellow>*d</>."
   },
   {
     "id": "081321",
@@ -8841,7 +8841,7 @@
     "id": "081473",
     "source_cn": "负面效果失效，所有技能等级+1，伤害加深",
     "ref_en": "Negative effects nullified, all skill levels +1, Damage Deepening",
-    "target_ru": "Негативные эффекты аннулированы, все уровни навыков +1, урон увеличивается."
+    "target_ru": "Негативные эффекты аннулированы, все уровни навыков +1, усиление урона."
   },
   {
     "id": "081474",
@@ -10911,7 +10911,7 @@
     "id": "081818",
     "source_cn": "提高穿刺7.0%，释放位移技能时，穿刺额外提高550，持续10秒，还会在目标位置造成一次伤害，每12秒最多触发1次。",
     "ref_en": "Increases Pierce by 7.0%. When releasing a Displacement Skill, Pierce is additionally increased by 550 for 10 seconds, and damage is dealt at the target's location. Can be triggered at most once every 12 seconds.",
-    "target_ru": "Увеличивает Пирс на 7,0%. При использовании навыка «Смещение» уровень пронзания дополнительно увеличивается на 550 на 10 секунд, а урон наносится по местоположению цели. Может срабатывать не чаще одного раза в 12 секунд."
+    "target_ru": "Увеличивает Пронзание на 7,0%. При использовании навыка «Смещение» уровень пронзания дополнительно увеличивается на 550 на 10 секунд, а урон наносится по местоположению цели. Может срабатывать не чаще одного раза в 12 секунд."
   },
   {
     "id": "081819",
@@ -11661,7 +11661,7 @@
     "id": "081943",
     "source_cn": "奥赛库斯破防表现buff",
     "ref_en": "Oseikus Armor Break effect buff",
-    "target_ru": "Усиление эффекта пробития брони Осейкуса"
+    "target_ru": "Усиление эффекта прорыва защиты Осейкуса"
   },
   {
     "id": "081944",
@@ -12477,7 +12477,7 @@
     "id": "082079",
     "source_cn": "所有技能等级+1，破防提升%s",
     "ref_en": "All skill levels +1, Armor Break %s",
-    "target_ru": "Все уровни навыков +1, Armor Break %s"
+    "target_ru": "Все уровни навыков +1, Прорыв защиты %s"
   },
   {
     "id": "082080",
@@ -16773,7 +16773,7 @@
     "id": "082795",
     "source_cn": "青蛙王子-免疫破防各种buff",
     "ref_en": "Frog Prince - Immunity to Various Armor Break Buffs",
-    "target_ru": "Принц-лягушка — иммунитет к различным усилениям пробития брони."
+    "target_ru": "Принц-лягушка — иммунитет к различным усилениям прорыва защиты."
   },
   {
     "id": "082796",
@@ -18387,7 +18387,7 @@
     "id": "083064",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>250</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 250 </>. After more than <Mark> 2 </> seconds since last taking damage, Armor Break increased by <Mark> 70 </>, lasting <Mark> 5 </> seconds. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Pathway улучшает <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличена на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "083065",
@@ -18843,7 +18843,7 @@
     "id": "083140",
     "source_cn": "提高穿刺75，提高暴击80。",
     "ref_en": "Increases Pierce by 75 and Critical Hit by 80.",
-    "target_ru": "Увеличивает проникающую способность на 75 и критический удар на 80."
+    "target_ru": "Увеличивает пронзание на 75 и критический удар на 80."
   },
   {
     "id": "083141",
@@ -19185,7 +19185,7 @@
     "id": "083197",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>100</>，途径专防提高<Mark>100</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Pathway Specialization increased by <Mark>100</>, Pathway Special Defense increased by <Mark>100</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</> Фокус пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</> Специализация Пути увеличена на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
   },
   {
     "id": "083198",
@@ -19749,7 +19749,7 @@
     "id": "083291",
     "source_cn": "轻装上阵：伤害减免+15%。",
     "ref_en": "Lightly Equipped: Damage Reduction +15%.",
-    "target_ru": "Легкое снаряжение: уменьшение урона +15%."
+    "target_ru": "Легкое снаряжение: снижение урона +15%."
   },
   {
     "id": "083292",
@@ -21219,7 +21219,7 @@
     "id": "083536",
     "source_cn": "破防标记",
     "ref_en": "Armor Break Marker",
-    "target_ru": "Маркер пробития брони"
+    "target_ru": "Маркер прорыва защиты"
   },
   {
     "id": "083537",
@@ -22959,7 +22959,7 @@
     "id": "083826",
     "source_cn": "【增强】对生命值高于<HighLight>50%</>的目标，造成的伤害加深<HighLight>15%</>。",
     "ref_en": "[Enhanced] Deals <HighLight>15%</> increased damage to targets with higher than <HighLight>50%</> Health.",
-    "target_ru": "[Улучшенное] Наносит увеличенный на <HighLight>15%</> урон целям, у которых здоровье выше <HighLight>50%</>."
+    "target_ru": "[Улучшенное] Даёт усиление урона +<HighLight>15%</> целям, у которых здоровье выше <HighLight>50%</>."
   },
   {
     "id": "083827",
@@ -27819,7 +27819,7 @@
     "id": "084636",
     "source_cn": "战斗开始时，携带3件装备的弈子获得10%伤害增幅和10%伤害减免，持续本场战斗。",
     "ref_en": "Combat Start: Pieces carrying 3 pieces of equipment gain 10% Damage Increase and 10% Damage Reduction for the duration of the combat.",
-    "target_ru": "Начало боя: фигуры, несущие 3 предмета снаряжения, получают 10% увеличение урона и 10% уменьшение урона на время боя."
+    "target_ru": "Начало боя: фигуры, несущие 3 предмета снаряжения, получают 10% увеличение урона и 10% снижение урона на время боя."
   },
   {
     "id": "084637",

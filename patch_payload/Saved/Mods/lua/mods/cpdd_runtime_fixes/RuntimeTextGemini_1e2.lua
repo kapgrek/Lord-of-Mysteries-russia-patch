@@ -218,7 +218,7 @@ return {
     ["Named after Archbishop Chanis, the founder of the modern Nighthawks system. There is one in the basement of the central cathedral of the Church of the Evernight Goddess in every major city."] = "Назван в честь архиепископа Чаниса, основателя современной системы «Ночные ястребы». В каждом крупном городе есть такой в ​​подвале центрального собора Церкви Богини Вечной Ночи.",
     ["You have been automatically logged out due to inactivity for an extended period."] = "Вы автоматически вышли из системы из-за неактивности в течение длительного периода.",
     ["Fortune-Turning Ritual animation."] = "Анимация Ритуала удачи.",
-    ["Increases Armor Penetration by 240."] = "Увеличивает пробиваемость брони на 240.",
+    ["Increases Armor Penetration by 240."] = "Увеличивает прорыв защиты на 240.",
     ["Oh {{PlayerName}}, my little owl, staying up late is not a good habit—are you sure you want coffee?"] = "О, {{PlayerName}}, моя маленькая сова, ложиться спать допоздна — это не очень хорошая привычка. Ты уверен, что хочешь кофе?",
     ["Statue dimensions"] = "Размеры статуи",
     ["【Dungeon】Roselle's Will · Hard"] = "【Подземелье】Воля Розеллы · Сложный",
