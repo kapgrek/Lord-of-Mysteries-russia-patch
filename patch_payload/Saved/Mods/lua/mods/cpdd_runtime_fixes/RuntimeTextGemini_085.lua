@@ -274,6 +274,8 @@ return {
     ["Rare · Sinister Star Instrument"] = "Редкое · Зловещий звездный инструмент",
     ["Damage: Attack × 965% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,9.65}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>965%</> = {*d,F1690001,atkMin,9.65}",
     ["Fool's Gambit: Victor"] = "«Гамбит Шута»: Непрерывные победы",
+    ["Fashion Cover"] = "Модная обложка",
+    ["Expand Settings"] = "Развернуть настройки",
     ["Eliana"] = "Элиана ·",
     ["Sound effect [%s] does not have corresponding lua configuration information generated yet. Please run the script locally to generate it\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat"] = "Для звукового эффекта [%s] ещё не сгенерирована соответствующая конфигурация Lua. Запустите скрипт локально для её создания:\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat",
     ["Bryson"] = "Брайсон",

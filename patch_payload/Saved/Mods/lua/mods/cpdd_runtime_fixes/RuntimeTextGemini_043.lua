@@ -267,4 +267,5 @@ return {
     ["Prologue - Apostle - Head effect"] = "Пролог — Апостол — Эффект головы",
     ["金币不足，无法刷新商店！"] = "Недостаточно золотых монет для обновления магазина!",
     ["Swing a black scythe to slash the target."] = "Рубит цель чёрной косой.",
+    ["1-unit circle around self"] = "Круг радиусом 1 клетка вокруг себя",
 }

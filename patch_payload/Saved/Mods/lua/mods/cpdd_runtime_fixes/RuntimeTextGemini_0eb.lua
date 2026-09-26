@@ -244,5 +244,6 @@ return {
     ["点燃<h>蜡烛</>"] = "Зажгите <h>свечу</>",
     ["Release Knockback every 2 seconds"] = "Отбрасывание каждые 2 секунды.",
     ["立即获得<HighLight>6金币</>。<HighLight>每回合</>获得<HighLight>1次免费刷新</>。"] = "Немедленно даёт <HighLight>6 золотых монет</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
+    ["如果下一站<LightHighlight>是【食铺】</>，本局<LightHighlight>酒类、艺术品</>卖出价<LightHighlight>+25%</>，但下一站卖出价<LightHighlight>-60%</>"] = "Если следующая станция <LightHighlight>— «Продовольственный магазин»</>, в этой партии цена продажи <LightHighlight>алкоголя и предметов искусства</> <LightHighlight>+25%</>, но цена продажи на следующей станции <LightHighlight>-60%</>",
     ["Coraline"] = "Коралина",
 }

@@ -281,6 +281,7 @@ return {
     ["The gold pounds in your pocket jingle—perhaps there will be unexpected income today!"] = "Золотые фунты в кармане звенят — возможно, сегодня будет неожиданный доход!",
     ["Your Inspiration has indicated a safe distance; follow closely, but be careful not to get too close or you will be discovered."] = "Ваше Вдохновение указало на безопасное расстояние; Следуйте внимательно, но будьте осторожны и не подходите слишком близко, иначе вас обнаружат.",
     ["Worried Nighthawk"] = "Обеспокоенный ночной ястреб",
+    ["<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">猎魔瞬斩</>获得新的分支<HyperLink stylename=\"M_Link\" u=\"86061025\" color=\"#f4a067\">驱魔卫斩</>：防御形态下，对敌方释放时与原<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">猎魔瞬斩</>效果一致，对友方释放时为友方解除弱控和减速，并附加20%的减伤和25%的移速增加，持续5秒。"] = "<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">Мгновенный удар Охотника на демонов</> получает новую ветвь <HyperLink stylename=\"M_Link\" u=\"86061025\" color=\"#f4a067\">Exorcism Slash</>: в защитной форме его выпуск на врага имеет тот же эффект, что и оригинальный Мгновенный удар Охотника на демонов. При использовании его на союзнике снимается эффект мягкого контроля толпы и замедления, а также снижается урон на 20% и увеличивается скорость передвижения на 25% на 5 секунд.",
     ["What Bonds are available?"] = "Какие бывают связи?",
     ["Flynn"] = "Флинн",
     ["Alana"] = "Алана",

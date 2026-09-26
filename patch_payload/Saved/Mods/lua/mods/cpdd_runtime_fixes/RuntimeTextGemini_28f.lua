@@ -245,6 +245,7 @@ return {
     ["Under the witness of the Evernight Goddess, a sacred gifting ceremony will be held at the church square. {{player.name}} is gifting {{targetPlayer.name}} a precious present; you are welcome to witness it together. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Go to Witness]</>"] = "Перед лицом Богини Вечной Ночи на Церковной площади пройдёт священная церемония дарения. {{player.name}} преподносит {{targetPlayer.name}} ценный подарок — приглашаем всех стать свидетелями. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},2891473802,{{eventMessageParams.expireTime}}\">[Стать свидетелем]</>",
     ["向前方发动三次连斩，共造成{*d,F1690001,atkMin,5.75}点攻击伤害。"] = "Наносит вперёд три рассекающих удара подряд, в сумме {*d,F1690001,atkMin,5.75} ед. урона от атаки.",
     ["三重怨念接连轰击目标区域。"] = "Тройная злоба раз за разом обрушивается на целевую область.",
+    ["防御降低<HighLight>24%</>至战斗结束。每回合从上一场被我方击败的敌方棋子中魅惑至多<HighLight>2</>个，以<HighLight>1</>星加入我方。"] = "Снижает защиту на <HighLight>24%</> до конца боя. Каждый раунд очаровывает до <HighLight>2</> вражеских фигур из побеждённых вами в прошлом бою, и они присоединяются к вам с <HighLight>1</> звездой.",
     ["Miley"] = "Майли",
     ["Lee"] = "Ли",
 }

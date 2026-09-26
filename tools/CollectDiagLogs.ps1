@@ -405,7 +405,7 @@ foreach ($sid in $selected) {
         $id = [string](Get-V $row 'id')
         if (-not $hookAgg.Contains($id)) {
             $hookAgg[$id] = @{ id = $id; kind = Get-V $row 'kind'; module = Get-V $row 'module'; status = 'NOT_LOADED'; sessions = 0
-                calls = 0; text_changes = 0; text_writes = 0; data_changes = 0; errors = 0; ms_total = 0.0; ms_max = 0.0; statuses = @() }
+                calls = 0; text_changes = 0; text_writes = 0; data_changes = 0; style_changes = 0; errors = 0; ms_total = 0.0; ms_max = 0.0; statuses = @() }
         }
         $a = $hookAgg[$id]
         $st = [string](Get-V $row 'status')
@@ -413,16 +413,16 @@ foreach ($sid in $selected) {
         $a.statuses += $st
         if (-not $a.module) { $a.module = Get-V $row 'module' }
         $a.sessions++
-        foreach ($k in @('calls', 'text_changes', 'text_writes', 'data_changes', 'errors')) { $a[$k] += [int](Num (Get-V $row $k)) }
+        foreach ($k in @('calls', 'text_changes', 'text_writes', 'data_changes', 'style_changes', 'errors')) { $a[$k] += [int](Num (Get-V $row $k)) }
         $a.ms_total += Num (Get-V $row 'ms_total')
         $a.ms_max = [Math]::Max($a.ms_max, (Num (Get-V $row 'ms_max')))
     }
     foreach ($row in @(Get-V $h 'panels')) {
         if ($null -eq $row) { continue }
         $id = [string](Get-V $row 'id')
-        if (-not $panelAgg.Contains($id)) { $panelAgg[$id] = @{ id = $id; runs = 0; labels = 0; widgets = 0; text_changes = 0; ms_total = 0.0; ms_max = 0.0 } }
+        if (-not $panelAgg.Contains($id)) { $panelAgg[$id] = @{ id = $id; runs = 0; labels = 0; widgets = 0; text_changes = 0; style_changes = 0; ms_total = 0.0; ms_max = 0.0 } }
         $p = $panelAgg[$id]
-        foreach ($k in @('runs', 'labels', 'widgets', 'text_changes')) { $p[$k] += [int](Num (Get-V $row $k)) }
+        foreach ($k in @('runs', 'labels', 'widgets', 'text_changes', 'style_changes')) { $p[$k] += [int](Num (Get-V $row $k)) }
         $p.ms_total += Num (Get-V $row 'ms_total')
         $p.ms_max = [Math]::Max($p.ms_max, (Num (Get-V $row 'ms_max')))
     }
@@ -657,6 +657,18 @@ foreach ($r in ($shrunkRows | Sort-Object panel, widget)) {
     [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.widget) | $(Cell $r.text) | $($r.mode) | $($r.size_pre)→$($r.size) | $($r.budget) | $($r.need0)→$($r.need) | $($r.slot)/$($r.axis) | $($r.steps) |")
 }
 [void]$sb.AppendLine('')
+$styleRows = @($fitRows | Where-Object { $_.kind -eq 'style' })
+[void]$sb.AppendLine("## Смена стиля без смены текста (TASK-019, $($styleRows.Count))")
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('Проход сменил размер, typeface или перенос (`mode`); `reason` — scope прохода (`panel:<uid>:Open|delayed|…`).')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel | reason | строк | пример: widget «text» size_pre→size mode |')
+[void]$sb.AppendLine('|---|---|---|---|')
+foreach ($g in ($styleRows | Group-Object panel, reason | Sort-Object Count -Descending | Select-Object -First 40)) {
+    $r = $g.Group[0]
+    [void]$sb.AppendLine("| $(Cell $r.panel) | $(Cell $r.reason) | $($g.Count) | $(Cell $r.widget) «$(Cell $r.text)» $($r.size_pre)→$($r.size) $($r.mode) |")
+}
+[void]$sb.AppendLine('')
 $richRows = @($overflowRows | Where-Object { [string]::IsNullOrEmpty([string]$_.font) -or [string]$_.widget -match 'RichText|RTB_' })
 [void]$sb.AppendLine("## RichText с переполнением ($($richRows.Count))")
 [void]$sb.AppendLine('')
@@ -674,12 +686,13 @@ foreach ($a in $hookAgg.Values) {
     $scope = $Matches[1]; $rootUid = $Matches[2]; $class = $Matches[3]; $reason = $Matches[4]
     $key = $rootUid + '/' + $class
     if (-not $lateAgg.Contains($key)) {
-        $lateAgg[$key] = [pscustomobject]@{ root = $rootUid; class = $class; delayed = 0; extended = 0; late_runs = 0
+        $lateAgg[$key] = [pscustomobject]@{ root = $rootUid; class = $class; delayed = 0; extended = 0; late_runs = 0; style_changes = 0
             early = 0; early_runs = 0; early_ms_max = 0.0 }
     }
     $r = $lateAgg[$key]
     if ($scope -eq 'owner') {
         $r.late_runs += $a.calls
+        $r.style_changes += [int](Num $a.style_changes)
         if ($reason -eq 'delayed') { $r.delayed += $a.text_changes } else { $r.extended += $a.text_changes }
     } else {
         $r.early += $a.text_changes; $r.early_runs += $a.calls
@@ -694,23 +707,59 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('## Отложенные проходы по панелям')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| panel:reason | runs | labels | text_changes |')
-[void]$sb.AppendLine('|---|---|---|---|')
-foreach ($p in ($panelAgg.Values | Where-Object { $_.id -match ':(delayed|extended-[\d\.]+)$' -and $_.labels -gt 0 } | Sort-Object { -$_.labels })) {
-    [void]$sb.AppendLine("| $(Cell $p.id) | $($p.runs) | $($p.labels) | $($p.text_changes) |")
+[void]$sb.AppendLine('`style_changes` (TASK-019, v3.0.3+): сколько раз проход сменил у текста размер, typeface или перенос, не меняя строку. Цель для `Settings_Panel` в `delayed`: 0.')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('| panel:reason | runs | labels | text_changes | style_changes |')
+[void]$sb.AppendLine('|---|---|---|---|---|')
+foreach ($p in ($panelAgg.Values | Where-Object { $_.id -match ':(delayed|extended-[\d\.]+)$' -and ($_.labels -gt 0 -or $_.style_changes -gt 0 -or $_.id -like 'panel:Settings_Panel:*') } | Sort-Object { -$_.labels }, { -$_.style_changes })) {
+    [void]$sb.AppendLine("| $(Cell $p.id) | $($p.runs) | $($p.labels) | $($p.text_changes) | $($p.style_changes) |")
 }
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine('## По классам компонентов')
 [void]$sb.AppendLine('')
-[void]$sb.AppendLine('| root | class | delayed | extended | поздних проходов | early | early runs | early ms_max |')
-[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|')
+[void]$sb.AppendLine('| root | class | delayed | extended | поздних проходов | style_changes | early | early runs | early ms_max |')
+[void]$sb.AppendLine('|---|---|---|---|---|---|---|---|---|')
 foreach ($r in $lateRows) {
-    if ($r.delayed + $r.extended + $r.early -eq 0) { continue }
-    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7:N1} |' -f (Cell $r.root), (Cell $r.class), $r.delayed, $r.extended, $r.late_runs, $r.early, $r.early_runs, $r.early_ms_max))
+    if ($r.delayed + $r.extended + $r.early + $r.style_changes -eq 0) { continue }
+    [void]$sb.AppendLine(('| {0} | {1} | {2} | {3} | {4} | {5} | {6} | {7} | {8:N1} |' -f (Cell $r.root), (Cell $r.class), $r.delayed, $r.extended, $r.late_runs, $r.style_changes, $r.early, $r.early_runs, $r.early_ms_max))
 }
 $idleLate = @($lateRows | Where-Object { $_.delayed + $_.extended + $_.early -eq 0 }).Count
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine("Классов без изменений ни в одном проходе: $idleLate.")
+[void]$sb.AppendLine('')
+# TASK-019 R0: session.json -> probes (v3.0.3+).
+[void]$sb.AppendLine('## Пробы TASK-019')
+[void]$sb.AppendLine('')
+foreach ($sid in $selected) {
+    $probes = Get-V $sessions[$sid].Session 'probes'
+    if (-not $probes) { continue }
+    $tt = Get-V $probes 'traintrade_tabledata'
+    if ($tt) {
+        $helpers = @(Get-V $tt 'helpers') -join ', '
+        [void]$sb.AppendLine("- ``$sid`` TrainTrade (``$(Get-V $tt 'stage')``): $helpers")
+        $samples = Get-V $tt 'samples'
+        if ($samples) {
+            foreach ($prop in $samples.PSObject.Properties) {
+                $fields = @($prop.Value.PSObject.Properties | ForEach-Object { "$($_.Name)=$(Cell ([string]$_.Value))" }) -join '; '
+                [void]$sb.AppendLine("  - ``$($prop.Name)``: $fields")
+            }
+        }
+    }
+    $settings = @(Get-V $probes 'settings')
+    if ($settings.Count -gt 0) {
+        [void]$sb.AppendLine('')
+        [void]$sb.AppendLine("Настройки, ``$sid`` (мс от ``Settings_Panel.Open``; ``os.clock``, это время процессора):")
+        [void]$sb.AppendLine('')
+        [void]$sb.AppendLine('| t | Refresh пунктов (первый…последний, всего) | проходы: reason @ms (ms, widgets, style_changes) |')
+        [void]$sb.AppendLine('|---|---|---|')
+        foreach ($s in $settings) {
+            if ($null -eq $s) { continue }
+            $passes = @(@(Get-V $s 'passes') | Where-Object { $_ } | ForEach-Object {
+                "$(Get-V $_ 'reason') @$(Get-V $_ 'at_ms') ($(Get-V $_ 'ms'), $(Get-V $_ 'widgets'), $(Get-V $_ 'style_changes'))" }) -join '; '
+            [void]$sb.AppendLine("| $(Get-V $s 't') | $(Get-V $s 'first_refresh_ms')…$(Get-V $s 'last_refresh_ms'), $(Get-V $s 'refreshes') | $passes |")
+        }
+    }
+}
 Write-Text (Join-Path $reportDir 'late.md') $sb.ToString()
 
 # 7. Непереведённое --------------------------------------------------------------------------------

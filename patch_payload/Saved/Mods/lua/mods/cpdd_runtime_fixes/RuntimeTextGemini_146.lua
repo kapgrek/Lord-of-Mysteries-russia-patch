@@ -281,6 +281,7 @@ return {
     ["【蒸汽时代】"] = "【Эпоха пара】",
     ["Divinity Burst"] = "Всплеск божественности",
     ["<HighLight> Allies restore Mana </>"] = "<HighLight>Союзники восстанавливают ману</>",
+    ["Simplicity is the Truth"] = "Истина в простоте",
     ["Hazely"] = "туманный",
     ["【岩石】"] = "【Скала】",
 }

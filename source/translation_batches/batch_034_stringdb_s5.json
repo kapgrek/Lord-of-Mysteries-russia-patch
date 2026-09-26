@@ -1,0 +1,794 @@
+[
+  {
+    "id": "132973",
+    "source_cn": "第四阶段",
+    "ref_en": "Phase 4",
+    "target_ru": "Этап 4"
+  },
+  {
+    "id": "132974",
+    "source_cn": "第五阶段",
+    "ref_en": "Phase 5",
+    "target_ru": "Этап 5"
+  },
+  {
+    "id": "132975",
+    "source_cn": "对局最终获得第1名",
+    "ref_en": "Achieve 1st place in a match",
+    "target_ru": "Занять 1-е место в матче"
+  },
+  {
+    "id": "132976",
+    "source_cn": "上阵克莱恩莫雷蒂并获得第1名",
+    "ref_en": "Deploy Klein Moretti and achieve 1st place",
+    "target_ru": "Выставить Клейна Моретти и занять 1-е место"
+  },
+  {
+    "id": "132977",
+    "source_cn": "累计使用3次装备重铸器",
+    "ref_en": "Use the Equipment Remolder 3 times in total",
+    "target_ru": "Использовать перековщик снаряжения 3 раза"
+  },
+  {
+    "id": "132978",
+    "source_cn": "初落时沙",
+    "ref_en": "First Falling Time Sand",
+    "target_ru": "Первые песчинки времени"
+  },
+  {
+    "id": "132979",
+    "source_cn": "人脉聚散",
+    "ref_en": "Gathering and Scattering of Connections",
+    "target_ru": "Встречи и расставания"
+  },
+  {
+    "id": "132980",
+    "source_cn": "锻铸余温",
+    "ref_en": "Lingering Warmth of Forging",
+    "target_ru": "Тепло кузни"
+  },
+  {
+    "id": "132981",
+    "source_cn": "从灰雾之上而来，踏入世间，积累见闻。",
+    "ref_en": "Coming from above the gray fog, stepping into the world, accumulating experiences.",
+    "target_ru": "Спустившись из-за серого тумана, войти в мир и набраться опыта."
+  },
+  {
+    "id": "132982",
+    "source_cn": "每日登录",
+    "ref_en": "Daily Login",
+    "target_ru": "Ежедневный вход"
+  },
+  {
+    "id": "132983",
+    "source_cn": "消耗400活力",
+    "ref_en": "Consume 400 Vitality",
+    "target_ru": "Потратить 400 бодрости"
+  },
+  {
+    "id": "132984",
+    "source_cn": "完成秘仪奉献",
+    "ref_en": "Complete Arcane Offering",
+    "target_ru": "Совершить тайное подношение"
+  },
+  {
+    "id": "132985",
+    "source_cn": "完成6项躺赢任务",
+    "ref_en": "Complete 6 \"Easy Win\" tasks",
+    "target_ru": "Выполнить 6 заданий «Лёгкая победа»"
+  },
+  {
+    "id": "132986",
+    "source_cn": "呼朋唤友",
+    "ref_en": "Call Friends",
+    "target_ru": "Позвать друзей"
+  },
+  {
+    "id": "132987",
+    "source_cn": "历史沙漏",
+    "ref_en": "Hourglass of History",
+    "target_ru": "Песочные часы истории"
+  },
+  {
+    "id": "132988",
+    "source_cn": "月是故乡明",
+    "ref_en": "The Moon is Brightest in My Hometown",
+    "target_ru": "Луна ярче над родным краем"
+  },
+  {
+    "id": "132989",
+    "source_cn": "参与1次歌剧魅影玩法（包括观战）",
+    "ref_en": "Participate in 1 Phantom of the Opera mode (including spectating)",
+    "target_ru": "Принять участие в режиме «Призрак оперы» 1 раз (включая наблюдение)"
+  },
+  {
+    "id": "132990",
+    "source_cn": "参与一次俱乐部乱斗",
+    "ref_en": "Participate in one Club Brawl",
+    "target_ru": "Принять участие в клубной потасовке 1 раз"
+  },
+  {
+    "id": "132991",
+    "source_cn": "完成一次大帝重临·普通",
+    "ref_en": "Complete one Emperor's Return - Normal",
+    "target_ru": "Пройти «Возвращение Императора · Обычный» 1 раз"
+  },
+  {
+    "id": "132992",
+    "source_cn": "月是故乡明 ",
+    "ref_en": "The Moon is Brightest in My Hometown ",
+    "target_ru": "Луна ярче над родным краем "
+  },
+  {
+    "id": "132993",
+    "source_cn": "对旧时的思念，透过水面映出记忆中共同的明月。故乡从未远离，家就在此处。",
+    "ref_en": "Longing for the past, reflected through the water is the shared bright moon from memory. The hometown is never far away; home is right here.",
+    "target_ru": "Тоска по былому: в отражении воды — та же ясная луна, что и в общих воспоминаниях. Родной край никогда не бывает далеко, дом — здесь."
+  },
+  {
+    "id": "132994",
+    "source_cn": "9月25日解锁",
+    "ref_en": "Unlocks on September 25",
+    "target_ru": "Откроется 25 сентября"
+  },
+  {
+    "id": "132995",
+    "source_cn": "10月1日解锁",
+    "ref_en": "Unlocks on October 1",
+    "target_ru": "Откроется 1 октября"
+  },
+  {
+    "id": "132996",
+    "source_cn": "10月8日解锁",
+    "ref_en": "Unlocks on October 8",
+    "target_ru": "Откроется 8 октября"
+  },
+  {
+    "id": "132997",
+    "source_cn": "不败将旗",
+    "ref_en": "Undefeated Battle Flag",
+    "target_ru": "Непобедимое знамя"
+  },
+  {
+    "id": "132998",
+    "source_cn": "詭祕",
+    "ref_en": "Mystery",
+    "target_ru": "Тайна"
+  },
+  {
+    "id": "132999",
+    "source_cn": "弗萊",
+    "ref_en": "Frye",
+    "target_ru": "Фрай"
+  },
+  {
+    "id": "133000",
+    "source_cn": "受美神眷顾的人，往往会好运连连。队伍中风尚度最高的玩家，如果其风尚度达到3500分，整个队伍将会获得值夜者同僚的帮助，在处理非凡事件时更加轻松高效。",
+    "ref_en": "Those favored by the Goddess of Beauty often have good luck. If the player with the highest fashion score in the team reaches 3500 points, the entire team will receive help from Nightwatcher colleagues, making it easier and more efficient to handle Beyonder events.",
+    "target_ru": "Тем, кому благоволит Богиня красоты, часто сопутствует удача. Если у игрока с самым высоким рейтингом стиля в отряде он достигнет 3500 очков, весь отряд получит помощь коллег из Ночных ястребов и будет легче и быстрее справляться с потусторонними происшествиями."
+  },
+  {
+    "id": "133001",
+    "source_cn": "防御增加*f点。",
+    "ref_en": "Defense increased by *f points.",
+    "target_ru": "Защита увеличена на *f ед."
+  },
+  {
+    "id": "133002",
+    "source_cn": "移速增加*f**",
+    "ref_en": "Movement Speed Increase *f**",
+    "target_ru": "Скорость передвижения увеличена на *f**"
+  },
+  {
+    "id": "133003",
+    "source_cn": "减伤降低*f**",
+    "ref_en": "Damage Reduction Lowered *f**",
+    "target_ru": "Снижение урона уменьшено на *f**"
+  },
+  {
+    "id": "133004",
+    "source_cn": "提高<Yellow>mul(*f,Layer)</>点攻击、<Yellow>mul(*f,Layer)</>点技能增强。",
+    "ref_en": "Increase Attack by <Yellow>mul(*f,Layer)</> and Skill Enhancement by <Yellow>mul(*f,Layer)</>.",
+    "target_ru": "Повышает атаку на <Yellow>mul(*f,Layer)</> ед. и усиление навыков на <Yellow>mul(*f,Layer)</> ед."
+  },
+  {
+    "id": "133005",
+    "source_cn": "获得60%伤害减免，持续5秒",
+    "ref_en": "Gain 60% Damage Reduction for 5 seconds.",
+    "target_ru": "Дает 60% снижения урона на 5 сек."
+  },
+  {
+    "id": "133006",
+    "source_cn": "25%最大生命护盾和12%伤害减免，持续3秒",
+    "ref_en": "25% Max Health Shield and 12% Damage Reduction, lasts 3 seconds",
+    "target_ru": "Щит в 25% от макс. здоровья и 12% снижения урона на 3 сек."
+  },
+  {
+    "id": "133007",
+    "source_cn": "获得15%最大生命护盾，持续5秒",
+    "ref_en": "Gain 15% Max Health Shield, lasts 5 seconds",
+    "target_ru": "Дает щит в 15% от макс. здоровья на 5 сек."
+  },
+  {
+    "id": "133008",
+    "source_cn": "攻击降低1%。",
+    "ref_en": "Attack reduced by 1%.",
+    "target_ru": "Атака снижена на 1%."
+  },
+  {
+    "id": "133009",
+    "source_cn": "15%最大生命护盾",
+    "ref_en": "15% Max Health Shield",
+    "target_ru": "Щит на 15% макс. здоровья"
+  },
+  {
+    "id": "133010",
+    "source_cn": "每秒损失1%最大生命，持续4秒",
+    "ref_en": "Lose 1% Max Health per second, lasts 4 seconds",
+    "target_ru": "Теряет 1% макс. здоровья в секунду в течение 4 сек."
+  },
+  {
+    "id": "133011",
+    "source_cn": "获得20%最大生命护盾，持续5秒",
+    "ref_en": "Gain 20% Max Health Shield, lasts 5 seconds",
+    "target_ru": "Получает щит на 20% макс. здоровья на 5 сек."
+  },
+  {
+    "id": "133012",
+    "source_cn": "伤害减免提高30%，持续5秒",
+    "ref_en": "Damage Reduction increased by 30%, lasts 5 seconds",
+    "target_ru": "Снижение урона повышается на 30% на 5 сек."
+  },
+  {
+    "id": "133013",
+    "source_cn": "获得20%最大生命护盾，持续7.5秒",
+    "ref_en": "Gain a shield equal to 20% of Max Health, lasting 7.5 seconds.",
+    "target_ru": "Получает щит на 20% макс. здоровья на 7,5 сек."
+  },
+  {
+    "id": "133014",
+    "source_cn": "攻速和吸血提高3%",
+    "ref_en": "Attack Speed and Life Steal increased by 3%.",
+    "target_ru": "Скорость атаки и вампиризм повышаются на 3%"
+  },
+  {
+    "id": "133015",
+    "source_cn": "恢复5%最大生命",
+    "ref_en": "Restore 5% Max Health",
+    "target_ru": "Восстанавливает 5% макс. здоровья"
+  },
+  {
+    "id": "133016",
+    "source_cn": "伤害减免提高20%，持续4秒",
+    "ref_en": "Damage Reduction increased by 20%, lasting 4 seconds.",
+    "target_ru": "Снижение урона повышается на 20% на 4 сек."
+  },
+  {
+    "id": "133017",
+    "source_cn": "每层恶名提高5%攻击和3%伤害减免，最多6层。",
+    "ref_en": "Each stack of Infamy increases Attack by 5% and Damage Reduction by 3%, up to 6 stacks.",
+    "target_ru": "Каждый уровень дурной славы повышает атаку на 5% и снижение урона на 3%, до 6 уровней."
+  },
+  {
+    "id": "133018",
+    "source_cn": "伤害减免提高10%，持续10秒。",
+    "ref_en": "Damage Reduction increased by 10% for 10 seconds.",
+    "target_ru": "Снижение урона повышается на 10% на 10 сек."
+  },
+  {
+    "id": "133019",
+    "source_cn": "无敌且不可选中。",
+    "ref_en": "Invincible and untargetable.",
+    "target_ru": "Неуязвимость и невозможность выбрать целью."
+  },
+  {
+    "id": "133020",
+    "source_cn": "前方3格120度扇形",
+    "ref_en": "120-degree sector 3 units ahead",
+    "target_ru": "Сектор 120° на 3 клетки вперёд"
+  },
+  {
+    "id": "133021",
+    "source_cn": "长4格宽2格矩形",
+    "ref_en": "Rectangle 4 units long and 2 units wide",
+    "target_ru": "Прямоугольник 4 клетки в длину и 2 в ширину"
+  },
+  {
+    "id": "133022",
+    "source_cn": "前方4格×4格矩形",
+    "ref_en": "4x4 unit rectangle ahead",
+    "target_ru": "Прямоугольник 4×4 клетки впереди"
+  },
+  {
+    "id": "133023",
+    "source_cn": "自身1格圆形",
+    "ref_en": "1-unit circle around self",
+    "target_ru": "Круг радиусом 1 клетка вокруг себя"
+  },
+  {
+    "id": "133024",
+    "source_cn": "战略技能",
+    "ref_en": "Strategic Skill",
+    "target_ru": "Стратегический навык"
+  },
+  {
+    "id": "133025",
+    "source_cn": "特别执勤",
+    "ref_en": "Special Duty",
+    "target_ru": "Особое дежурство"
+  },
+  {
+    "id": "133026",
+    "source_cn": "魅影",
+    "ref_en": "Phantom",
+    "target_ru": "Призрак"
+  },
+  {
+    "id": "133027",
+    "source_cn": "大帝重临·普通",
+    "ref_en": "The Emperor's Return · Normal",
+    "target_ru": "Возвращение Императора · Обычный"
+  },
+  {
+    "id": "133028",
+    "source_cn": "减少",
+    "ref_en": "Reduce",
+    "target_ru": "Уменьшить"
+  },
+  {
+    "id": "133029",
+    "source_cn": "幻影",
+    "ref_en": "Phantom",
+    "target_ru": "Фантом"
+  },
+  {
+    "id": "133030",
+    "source_cn": "落子",
+    "ref_en": "Make a Move",
+    "target_ru": "Сделать ход"
+  },
+  {
+    "id": "133031",
+    "source_cn": "社交·拿咖啡杯",
+    "ref_en": "Social: Hold Coffee Cup",
+    "target_ru": "Общение · Чашка кофе"
+  },
+  {
+    "id": "133032",
+    "source_cn": "非凡橙色装备",
+    "ref_en": "Orange Beyonder Equipment",
+    "target_ru": "Оранжевое потустороннее снаряжение"
+  },
+  {
+    "id": "133033",
+    "source_cn": "霓裳专列·珍藏票匣",
+    "ref_en": "Neon Attire Special: Collection Ticket Case",
+    "target_ru": "Экспресс нарядов · Коллекционный футляр для билетов"
+  },
+  {
+    "id": "133034",
+    "source_cn": "\"律令师\"休·迪尔查",
+    "ref_en": "\"Lawyer\" Xio Derecha",
+    "target_ru": "«Юрист» Сио Деррек"
+  },
+  {
+    "id": "133035",
+    "source_cn": "繁荣里程",
+    "ref_en": "Prosperity Milestone",
+    "target_ru": "Этапы процветания"
+  },
+  {
+    "id": "133036",
+    "source_cn": "组队平台",
+    "ref_en": "Team-up Platform",
+    "target_ru": "Поиск группы"
+  },
+  {
+    "id": "133037",
+    "source_cn": "战队设置",
+    "ref_en": "Team Settings",
+    "target_ru": "Настройки отряда"
+  },
+  {
+    "id": "133038",
+    "source_cn": "告月的花束",
+    "ref_en": "Bouquet of the Moon's Farewell",
+    "target_ru": "Букет прощания с луной"
+  },
+  {
+    "id": "133039",
+    "source_cn": "塔罗牌：恶魔",
+    "ref_en": "Tarot Card: The Devil",
+    "target_ru": "Карта Таро: Дьявол"
+  },
+  {
+    "id": "133040",
+    "source_cn": "塔罗牌：皇帝",
+    "ref_en": "Tarot Card: The Emperor",
+    "target_ru": "Карта Таро: Император"
+  },
+  {
+    "id": "133041",
+    "source_cn": "塔罗牌：死神",
+    "ref_en": "Tarot Card: Death",
+    "target_ru": "Карта Таро: Смерть"
+  },
+  {
+    "id": "133042",
+    "source_cn": "塔罗牌：星星",
+    "ref_en": "Tarot Card: The Star",
+    "target_ru": "Карта Таро: Звезда"
+  },
+  {
+    "id": "133043",
+    "source_cn": "一轮“明月”",
+    "ref_en": "A \"Bright Moon\"",
+    "target_ru": "«Ясная луна»"
+  },
+  {
+    "id": "133044",
+    "source_cn": "时尚封面",
+    "ref_en": "Fashion Cover",
+    "target_ru": "Модная обложка"
+  },
+  {
+    "id": "133045",
+    "source_cn": "乌贼祝福·魔药",
+    "ref_en": "Squid's Blessing · Potion",
+    "target_ru": "Благословение кальмара · Зелье"
+  },
+  {
+    "id": "133046",
+    "source_cn": "乌贼祝福·守护者",
+    "ref_en": "Squid's Blessing · Guardian",
+    "target_ru": "Благословение кальмара · Хранитель"
+  },
+  {
+    "id": "133047",
+    "source_cn": "乌贼祝福·财富",
+    "ref_en": "Squid's Blessing · Wealth",
+    "target_ru": "Благословение кальмара · Богатство"
+  },
+  {
+    "id": "133048",
+    "source_cn": "心语解读",
+    "ref_en": "Heart-Speak Interpretation",
+    "target_ru": "Толкование голоса сердца"
+  },
+  {
+    "id": "133049",
+    "source_cn": "寻猫之遇",
+    "ref_en": "Cat-Seeking Encounter",
+    "target_ru": "Встреча в поисках кошки"
+  },
+  {
+    "id": "133050",
+    "source_cn": "斗智诛心·始",
+    "ref_en": "Battle of Wits and Hearts · Start",
+    "target_ru": "Битва умов · Начало"
+  },
+  {
+    "id": "133051",
+    "source_cn": "斗智诛心·终",
+    "ref_en": "Battle of Wits and Hearts · End",
+    "target_ru": "Битва умов · Финал"
+  },
+  {
+    "id": "133052",
+    "source_cn": "甲鳞之秘",
+    "ref_en": "Secret of the Scale Armor",
+    "target_ru": "Тайна чешуйчатой брони"
+  },
+  {
+    "id": "133053",
+    "source_cn": "输出形态可锁定类型",
+    "ref_en": "Offensive Stance Lockable Types",
+    "target_ru": "Цели захвата в атакующей форме"
+  },
+  {
+    "id": "133054",
+    "source_cn": "锁定线和锁定框粗细",
+    "ref_en": "Lock-on Line and Box Thickness",
+    "target_ru": "Толщина линии и рамки захвата"
+  },
+  {
+    "id": "133055",
+    "source_cn": "界面状态效果显示设置",
+    "ref_en": "Interface Status Effect Display Settings",
+    "target_ru": "Показ эффектов состояния в интерфейсе"
+  },
+  {
+    "id": "133056",
+    "source_cn": "状态效果倒计时显示优先级设置",
+    "ref_en": "Status Effect Countdown Display Priority Settings",
+    "target_ru": "Приоритет таймеров эффектов состояния"
+  },
+  {
+    "id": "133057",
+    "source_cn": "所有敌人",
+    "ref_en": "All Enemies",
+    "target_ru": "Все враги"
+  },
+  {
+    "id": "133058",
+    "source_cn": "仅玩家",
+    "ref_en": "Players Only",
+    "target_ru": "Только игроки"
+  },
+  {
+    "id": "133059",
+    "source_cn": "仅怪物",
+    "ref_en": "Monsters Only",
+    "target_ru": "Только монстры"
+  },
+  {
+    "id": "133060",
+    "source_cn": "展开设置",
+    "ref_en": "Expand Settings",
+    "target_ru": "Развернуть настройки"
+  },
+  {
+    "id": "133061",
+    "source_cn": "污染意志",
+    "ref_en": "Corrupted Will",
+    "target_ru": "Осквернённая воля"
+  },
+  {
+    "id": "133062",
+    "source_cn": "残留意志",
+    "ref_en": "Residual Will",
+    "target_ru": "Остаточная воля"
+  },
+  {
+    "id": "133063",
+    "source_cn": "随机案宗",
+    "ref_en": "Random Case File",
+    "target_ru": "Случайное дело"
+  },
+  {
+    "id": "133064",
+    "source_cn": "周一/周四8点刷新",
+    "ref_en": "Refreshes at 8:00 on Monday/Thursday",
+    "target_ru": "Обновление: пн/чт в 8:00"
+  },
+  {
+    "id": "133065",
+    "source_cn": "<ChatTag_Current>%s</>：%s",
+    "ref_en": "<ChatTag_Current>%s</>：%s",
+    "target_ru": "<ChatTag_Current>%s</>: %s"
+  },
+  {
+    "id": "133066",
+    "source_cn": "立刻前往",
+    "ref_en": "Go Immediately",
+    "target_ru": "Перейти"
+  },
+  {
+    "id": "133067",
+    "source_cn": "%s任务将于%s月%s日解锁",
+    "ref_en": "%s Quest will unlock on %s/%s",
+    "target_ru": "Задание %s откроется %s/%s"
+  },
+  {
+    "id": "133068",
+    "source_cn": "（已完成%s/%s%s）",
+    "ref_en": "(Completed %s/%s %s)",
+    "target_ru": "(Выполнено %s/%s%s)"
+  },
+  {
+    "id": "133069",
+    "source_cn": "周一/周四 8:00刷新",
+    "ref_en": "Refreshes at 8:00 on Monday/Thursday",
+    "target_ru": "Обновление: пн/чт в 8:00"
+  },
+  {
+    "id": "133070",
+    "source_cn": "继续观战",
+    "ref_en": "Continue Spectating",
+    "target_ru": "Продолжить наблюдение"
+  },
+  {
+    "id": "133071",
+    "source_cn": "【神降】荣光织造·羽翼",
+    "ref_en": "[God's Descent] Glory Weaving - Wings",
+    "target_ru": "[Нисхождение божества] Плетение славы · Крылья"
+  },
+  {
+    "id": "133072",
+    "source_cn": "荣光织造·羽翼",
+    "ref_en": "Glory Weaving: Wings",
+    "target_ru": "Плетение славы · Крылья"
+  },
+  {
+    "id": "133073",
+    "source_cn": "前往猎龙之城，见证这场残酷的猎杀。",
+    "ref_en": "Go to the City of Dragon Hunting to witness this cruel hunt.",
+    "target_ru": "Отправляйтесь в Город охоты на драконов и станьте свидетелем этой жестокой охоты."
+  },
+  {
+    "id": "133074",
+    "source_cn": "与<h>理查德</>对话",
+    "ref_en": "Talk to <h>Richard</>",
+    "target_ru": "Поговорить с <h>Ричардом</>"
+  },
+  {
+    "id": "133075",
+    "source_cn": "完成任务获得200猎杀进度，每日8点刷新。",
+    "ref_en": "Complete the quest to gain 200 Hunt progress, refreshed daily at 8:00.",
+    "target_ru": "Выполните задание, чтобы получить 200 ед. прогресса охоты. Обновляется ежедневно в 8:00."
+  },
+  {
+    "id": "133076",
+    "source_cn": "平平淡淡才是真",
+    "ref_en": "Simplicity is the Truth",
+    "target_ru": "Истина в простоте"
+  },
+  {
+    "id": "133077",
+    "source_cn": "好团长",
+    "ref_en": "Good Leader",
+    "target_ru": "Хороший лидер"
+  },
+  {
+    "id": "133078",
+    "source_cn": "有尚未完成的铁路大亨存档",
+    "ref_en": "There is an unfinished Railway Tycoon save file",
+    "target_ru": "Есть незавершённое сохранение «Железнодорожного магната»"
+  },
+  {
+    "id": "133079",
+    "source_cn": "黄铜书挑战完成",
+    "ref_en": "Brass Book challenge completed",
+    "target_ru": "Испытание Латунной книги пройдено"
+  },
+  {
+    "id": "133080",
+    "source_cn": "时沙进度",
+    "ref_en": "Time Sand Progress",
+    "target_ru": "Прогресс песка времени"
+  },
+  {
+    "id": "133081",
+    "source_cn": "新手线路",
+    "ref_en": "",
+    "target_ru": "Маршрут для новичков"
+  },
+  {
+    "id": "133082",
+    "source_cn": "普通线路",
+    "ref_en": "",
+    "target_ru": "Обычный маршрут"
+  },
+  {
+    "id": "133083",
+    "source_cn": "进阶线路",
+    "ref_en": "",
+    "target_ru": "Продвинутый маршрут"
+  },
+  {
+    "id": "133084",
+    "source_cn": "困难线路",
+    "ref_en": "",
+    "target_ru": "Сложный маршрут"
+  },
+  {
+    "id": "133085",
+    "source_cn": "挑战线路",
+    "ref_en": "",
+    "target_ru": "Маршрут испытания"
+  },
+  {
+    "id": "133086",
+    "source_cn": "难度提升！在复杂地图中追逐最优解，铁道大亨的试炼场。",
+    "ref_en": "",
+    "target_ru": "Сложность выше! Ищите лучшее решение на запутанной карте — испытание для настоящего железнодорожного магната."
+  },
+  {
+    "id": "133087",
+    "source_cn": "如果下一站<LightHighlight>是【食铺】</>，本局<LightHighlight>酒类、艺术品</>卖出价<LightHighlight>+25%</>，但下一站卖出价<LightHighlight>-60%</>",
+    "ref_en": "",
+    "target_ru": "Если следующая станция <LightHighlight>— «Продовольственный магазин»</>, в этой партии цена продажи <LightHighlight>алкоголя и предметов искусства</> <LightHighlight>+25%</>, но цена продажи на следующей станции <LightHighlight>-60%</>"
+  },
+  {
+    "id": "133088",
+    "source_cn": "每4个<LightHighlight>酒类、食品</>金色物品转为5个<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
+    "ref_en": "",
+    "target_ru": "Каждые 4 золотых предмета категорий <LightHighlight>«алкоголь» и «еда»</> превращаются в 5 шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">«Придворный чайный сервиз с серебрением»</>"
+  },
+  {
+    "id": "133089",
+    "source_cn": "血焰横扫周围，技能结束后提升自身攻速。",
+    "ref_en": "",
+    "target_ru": "Кровавое пламя проносится вокруг, после окончания навыка скорость атаки повышается."
+  },
+  {
+    "id": "133090",
+    "source_cn": "立即获得<HighLight>10金币</>，此后<HighLight>每回合开始时</>再获得<HighLight>8金币</>。",
+    "ref_en": "",
+    "target_ru": "Сразу даёт <HighLight>10 золота</>, затем <HighLight>в начале каждого раунда</> — ещё <HighLight>8 золота</>."
+  },
+  {
+    "id": "133091",
+    "source_cn": "防御降低<HighLight>16%</>，持续<HighLight>15</>秒。每回合从上一场被我方击败的敌方棋子中魅惑至多<HighLight>1</>个，以<HighLight>1</>星加入我方。",
+    "ref_en": "",
+    "target_ru": "Снижает защиту на <HighLight>16%</> на <HighLight>15</> сек. Каждый раунд очаровывает до <HighLight>1</> вражеской фигуры из побеждённых вами в прошлом бою, и она присоединяется к вам с <HighLight>1</> звездой."
+  },
+  {
+    "id": "133092",
+    "source_cn": "防御降低<HighLight>24%</>至战斗结束。每回合从上一场被我方击败的敌方棋子中魅惑至多<HighLight>2</>个，以<HighLight>1</>星加入我方。",
+    "ref_en": "",
+    "target_ru": "Снижает защиту на <HighLight>24%</> до конца боя. Каждый раунд очаровывает до <HighLight>2</> вражеских фигур из побеждённых вами в прошлом бою, и они присоединяются к вам с <HighLight>1</> звездой."
+  },
+  {
+    "id": "133093",
+    "source_cn": "战斗开始时降低敌方全体防御。更高共鸣可魅惑敌方棋子加入我方。",
+    "ref_en": "",
+    "target_ru": "В начале боя снижает защиту всех врагов. Более высокий резонанс позволяет очаровывать вражеские фигуры и переманивать их к себе."
+  },
+  {
+    "id": "133094",
+    "source_cn": "集齐相同共鸣的棋子，唤醒完整共鸣，让历史的力量为你而战。",
+    "ref_en": "",
+    "target_ru": "Соберите фигуры одного резонанса, пробудите полный резонанс — и пусть сила истории сражается за вас."
+  },
+  {
+    "id": "133095",
+    "source_cn": "前往使用",
+    "ref_en": "",
+    "target_ru": "Использовать"
+  },
+  {
+    "id": "133096",
+    "source_cn": "阶段任务",
+    "ref_en": "",
+    "target_ru": "Этапные задания"
+  },
+  {
+    "id": "133097",
+    "source_cn": "参与奖励预览",
+    "ref_en": "",
+    "target_ru": "Награды за участие"
+  },
+  {
+    "id": "133098",
+    "source_cn": "Skip",
+    "ref_en": "Skip",
+    "target_ru": "Пропустить"
+  },
+  {
+    "id": "133099",
+    "source_cn": "Member List",
+    "ref_en": "Member List",
+    "target_ru": "Участники"
+  },
+  {
+    "id": "133100",
+    "source_cn": "Aesthetic",
+    "ref_en": "Aesthetic",
+    "target_ru": "Эстетика"
+  },
+  {
+    "id": "133101",
+    "source_cn": "Home Coin",
+    "ref_en": "Home Coin",
+    "target_ru": "Монеты дома"
+  },
+  {
+    "id": "133102",
+    "source_cn": "Listed in 2 days",
+    "ref_en": "Listed in 2 days",
+    "target_ru": "В продаже через 2 дн."
+  },
+  {
+    "id": "133103",
+    "source_cn": "Promote",
+    "ref_en": "Promote",
+    "target_ru": "Повысить"
+  },
+  {
+    "id": "133104",
+    "source_cn": "如果下一站<LightHighlight>是【酒庄】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>数量增加<LightHighlight>150%</>，否则，物产出售价格<LightHighlight>-40%</>",
+    "ref_en": "",
+    "target_ru": "Если следующая станция <LightHighlight>— «Винодельня»</>, количество имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">«Придворный чайный сервиз с серебрением»</> увеличивается на <LightHighlight>150%</>, иначе цена продажи товаров <LightHighlight>-40%</>"
+  }
+]

@@ -285,4 +285,5 @@ return {
     ["The Great Master"] = "Великий Мастер",
     ["Mark_Gunman crawling on the ground"] = "Mark_Gunman Ползает по земле",
     ["新历启程+"] = "Новый календарь+",
+    ["Team-up Platform"] = "Поиск группы",
 }

@@ -2,6 +2,7 @@
 #   -Report   [-Terms 穿刺,破防]   таблица корзин по батчам + temp/glossary_report.md (+ .json со сводкой)
 #   -FixShort                     корзина A: короткая подпись = канон (печатает «было → стало»)
 #   -Export   [-Count 50]         корзины B + C чанками в temp/glossary_chunk_NNN.json
+#   -ExportNew -BatchFile <батч> [-Count 50]  строки с пустым target_ru чанками (mode = "new", terms + names), TASK-019
 #   -Import   <файл>              ответ { "batch_005:020853": "новый target_ru" } с проверкой канона и разметки
 #   -BuildDoc                     пересобрать docs/GLOSSARY.md из source/glossary/*.json
 # Корзины: ok — канон есть, запрещённых вариантов нет; A — короткая подпись, которую можно заменить каноном целиком;
@@ -11,6 +12,8 @@ param(
     [switch]$Report,
     [switch]$FixShort,
     [switch]$Export,
+    [switch]$ExportNew,
+    [string]$BatchFile = '',
     [string]$Import = '',
     [switch]$BuildDoc,
     [string[]]$Terms = @(),
@@ -207,7 +210,8 @@ function Test-Markup([string]$cn, [string]$old, [string]$new) {
     $errs = @()
     foreach ($k in $tokenRegexes.Keys) {
         $n = Get-TokenSig $new $k
-        if ($n -ne (Get-TokenSig $cn $k) -and $n -ne (Get-TokenSig $old $k)) { $errs += $k }
+        # Новая строка (старый target_ru пуст): разметка только как в source_cn (TASK-019).
+        if ($n -ne (Get-TokenSig $cn $k) -and ([string]::IsNullOrEmpty($old) -or $n -ne (Get-TokenSig $old $k))) { $errs += $k }
     }
     return $errs
 }
@@ -297,6 +301,66 @@ if ($Export) {
         Write-Host ("{0}: {1} строк" -f $path, $items.Count)
     }
     Write-Host "Выгружено строк B+C: $($list.Count), чанков: $chunkNo" -ForegroundColor Green
+    exit 0
+}
+
+# ============ -ExportNew ============
+# Новые строки (пустой target_ru) одного батча: перевод с нуля агентом ru-translator в режиме new.
+# terms — боевые характеристики из строки (как у -Export), names — имена, места, Пути и понятия
+# из остальных глоссариев, чьё cn входит в source_cn ({cn, ru}).
+if ($ExportNew) {
+    if (-not $BatchFile) { throw 'Для -ExportNew нужен -BatchFile batch_NNN_*.json' }
+    $batchPath = Join-Path $batchesDir $BatchFile
+    if (-not (Test-Path $batchPath)) { throw "Батч $BatchFile не найден" }
+    $names = New-Object System.Collections.Generic.List[object]
+    foreach ($n in 'characters_and_factions', 'locations_and_geography', 'terms_and_items') {
+        $j = (Read-Text (Join-Path $glossaryDir "$n.json")) | ConvertFrom-Json
+        foreach ($p in $j.PSObject.Properties) {
+            foreach ($x in @($p.Value)) { if ($x.cn -and $x.ru) { $names.Add([PSCustomObject]@{ cn = [string]$x.cn; ru = [string]$x.ru }) } }
+        }
+    }
+    $pj = (Read-Text (Join-Path $glossaryDir 'pathways_and_sequences.json')) | ConvertFrom-Json
+    foreach ($p in $pj.pathways) {
+        if ($p.name_cn -and $p.name_ru) { $names.Add([PSCustomObject]@{ cn = [string]$p.name_cn; ru = [string]$p.name_ru }) }
+        foreach ($s in $p.sequences) { if ($s.name_cn -and $s.name_ru) { $names.Add([PSCustomObject]@{ cn = [string]$s.name_cn; ru = [string]$s.name_ru }) } }
+    }
+    # Длинные имена раньше коротких: «克莱恩·莫雷蒂» не должно дать ещё и отдельное «克莱恩».
+    $names = @($names | Where-Object { $_.cn.Length -ge 2 } | Sort-Object { - $_.cn.Length })
+    $prefix = [System.IO.Path]::GetFileNameWithoutExtension($BatchFile).Substring(0, 9)
+    $list = New-Object System.Collections.Generic.List[object]
+    foreach ($m in $itemRegex.Matches((Read-Text $batchPath))) {
+        $ru = ConvertFrom-JsonString $m.Groups['ru'].Value
+        if (-not [string]::IsNullOrWhiteSpace($ru)) { continue }
+        $list.Add([PSCustomObject]@{ key = "${prefix}:$($m.Groups['id'].Value)"; cn = (ConvertFrom-JsonString $m.Groups['cn'].Value); en = (ConvertFrom-JsonString $m.Groups['en'].Value) })
+    }
+    Get-ChildItem $tempDir -Filter 'glossary_chunk_*.json' -ErrorAction SilentlyContinue | Remove-Item -Force
+    $chunkNo = 0
+    for ($i = 0; $i -lt $list.Count; $i += $Count) {
+        $chunkNo++
+        $items = @()
+        foreach ($r in $list[$i..([Math]::Min($i + $Count, $list.Count) - 1)]) {
+            $cnPlain = $markupRegex.Replace($r.cn, '')
+            $rowTerms = @(Test-Row $r.cn $r.en '')
+            $chunkTerms = @()
+            foreach ($e in $entries) {
+                if (-not $cnPlain.Contains($e.cn)) { continue }
+                $bt = @($rowTerms | Where-Object { $_.term -eq $e.parent })
+                if ($bt.Count -eq 0 -or $bt[0].bucket -in 'S', 'X') { continue }
+                $bf = $byCn[$e.parent]
+                $chunkTerms += [ordered]@{ cn = $e.cn; ru = $e.ru; ru_short = $e.ru_short; must_match = $bf.match.ToString(); forbidden = @($bf.forbiddenText); note = if ($e.note) { $e.note } else { $bf.note } }
+            }
+            $rowNames = @(); $rest = $cnPlain
+            foreach ($x in $names) {
+                if ($rest.Contains($x.cn)) { $rowNames += [ordered]@{ cn = $x.cn; ru = $x.ru }; $rest = $rest.Replace($x.cn, ' ') }
+            }
+            $items += [ordered]@{ key = $r.key; mode = 'new'; source_cn = $r.cn; ref_en = $r.en; target_ru = ''; terms = $chunkTerms; names = $rowNames }
+        }
+        $path = Join-Path $tempDir ('glossary_chunk_{0:D3}.json' -f $chunkNo)
+        $json = (ConvertTo-Json -InputObject $items -Depth 6) -replace '\\u003c', '<' -replace '\\u003e', '>' -replace '\\u0026', '&' -replace '\\u0027', "'"
+        [System.IO.File]::WriteAllText($path, $json.Replace("`r`n", "`n"), $utf8NoBom)
+        Write-Host ("{0}: {1} строк" -f $path, $items.Count)
+    }
+    Write-Host "Выгружено новых строк: $($list.Count), чанков: $chunkNo" -ForegroundColor Green
     exit 0
 }
 
@@ -416,4 +480,4 @@ if ($BuildDoc) {
     exit 0
 }
 
-Write-Host 'Укажите режим: -Report, -FixShort, -Export, -Import <файл> или -BuildDoc' -ForegroundColor Yellow
+Write-Host 'Укажите режим: -Report, -FixShort, -Export, -ExportNew -BatchFile <батч>, -Import <файл> или -BuildDoc' -ForegroundColor Yellow

@@ -191,7 +191,7 @@ return {
     ["Elara"] = "Элара",
     ["Elven Flower"] = "Эльфийский цветок",
     ["Southwest to South Gate"] = "С юго-запада к Южным воротам",
-    ["On"] = "На",
+    ["On"] = "Вкл.",
     ["What are the losses when changing Orders"] = "Какие потери при изменении Ордера",
     ["Touch the second memory fragment"] = "Коснитесь второго фрагмента воспоминаний.",
     ["The Witch pathway is truly special"] = "Путь Ведьмы действительно особенный",

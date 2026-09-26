@@ -254,6 +254,7 @@ return {
     ["<M_Default> Dear Beyonder: </> \n You participated in the Chess Trial event and did not claim your rewards. The reissued rewards have been automatically sent to your mailbox."] = "<M_Default>Уважаемый Потусторонний!</>\nВы участвовали в событии «Шахматное испытание», но не забрали награды. Они автоматически отправлены вам на почту.",
     ["Immediately gain 10 Experience Points<HighLight></>. For the 3 rounds starting from this round<HighLight></>, gain 10 more Experience Points at the end of each round<HighLight></>."] = "Сразу даёт <HighLight>10 ед. опыта</>. В течение <HighLight>3 раундов</>, начиная с текущего, в конце каждого раунда даёт ещё <HighLight>10 ед. опыта</>.",
     ["<HighLight> Gain Strengthening after Basic Attack or casting </>"] = "<HighLight>Усиление после базовой атаки или навыка</>",
+    ["状态效果倒计时显示优先级设置"] = "Приоритет таймеров эффектов состояния",
     ["开启灵视  延迟执行  对象播放指定对白内容  延迟执行  对象播放指定对白内容"] = "Активируйте духовное зрение. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога. Отложенное исполнение. Объект воспроизводит указанное содержимое диалога.",
     ["完成当前步骤一定数量的子目标  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具"] = "Выполните определенное количество подцелей для текущего шага, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет",
 }

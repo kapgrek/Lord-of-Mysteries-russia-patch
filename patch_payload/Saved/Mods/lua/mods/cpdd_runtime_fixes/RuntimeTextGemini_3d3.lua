@@ -242,6 +242,7 @@ return {
     ["Sigh, I'll go check on Rodin's place later. The children's final exams cannot end so sloppily."] = "Эх, я пойду проверю дом Родена позже. Выпускные экзамены детей не могут заканчиваться так небрежно.",
     ["Martial Arts Study"] = "Изучение боевых искусств",
     ["Equip to gain the [Demoness Sect] bond."] = "Экипируйте, чтобы получить резонанс [Секта Демоницы].",
+    ["Terrifying... to be able to open up a world in the Spirit World and build such a magnificent structure, I admire the big shot behind it more and more."] = "Ужасно... Чтобы иметь возможность открыть мир в Мире Духов и построить такое великолепное сооружение, я все больше и больше восхищаюсь той важной фигурой, которая стоит за ним.",
     ["Accumulated 16 Gold Coin interest"] = "Получить 16 золотых монет процентов",
     ["What is the Tarot Club Resonance effect?"] = "Эффект резонанса «Клуб Таро»",
     ["一斩之下，罪孽两断，唯留纯白。"] = "Под одним рассекающим ударом грехи отсекаются, оставляя лишь чистейшую белизну.",

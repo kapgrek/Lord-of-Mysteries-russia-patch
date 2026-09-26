@@ -247,6 +247,7 @@ return {
     ["Dark shadows are the masters of the day"] = "Темные тени — хозяева дня",
     ["Equip to gain the [Lawyer] bond."] = "Экипируйте, чтобы получить резонанс [Юрист].",
     ["All allies gain 10% Attack Speed. [Swift Hunt] stacks Attack Speed with each attack, up to 10 stacks. High tiers gain Damage Reduction."] = "Все союзники получают 10% к скорости атаки. [Быстрая охота] накапливает скорость атаки при каждом ударе (до 10 уровней). На высоких рангах дает снижение урона.",
+    ["Steam above!"] = "Пар всемогущий!",
     ["Obtain 18 Gold Coin."] = "Даёт 18 золотых монет.",
     ["愚者棋局怎么进"] = "Как попасть в «Гамбит Шута»?",
     ["看！这就是奶奶种的南瓜！"] = "Смотри! Вот они, тыквы, выращенные бабушкой!",

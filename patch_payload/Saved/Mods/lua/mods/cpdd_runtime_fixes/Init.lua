@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.2-RU"
+local VERSION = "3.0.3-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1218,7 +1218,8 @@ local visibleTextReplacements = {
     { "男子：", "Мужчина: " },
     { "丑人：", "Уродливый: " },
     { "“愚者”：", "«Шут»: " },
-    { "愚者", "Шут" },
+    -- No bare 愚者 → Шут: it produced "Шут棋局" and broke nicknames (TASK-019 R3).
+    -- Compound terms are translated by exact CJK fragments (translateMixedFragments).
     { "（癫狂）", "(В безумии) " },
     { "万物的“母亲”", "«Мать» всего сущего" },
     { "赐予我们新生", "даруй нам новую жизнь" },
@@ -3000,6 +3001,10 @@ local function translateVisibleText(value)
         runtimeMetrics.TranslationCacheHits = runtimeMetrics.TranslationCacheHits + 1
         return cached
     end
+    local missed = runtimeFixes.VisibleMiss.map[value]
+    if missed ~= nil then
+        return missed
+    end
     runtimeMetrics.TranslationCacheMisses = runtimeMetrics.TranslationCacheMisses + 1
     -- HUD quest tips prepend this header after looking up the authored body.
     -- Preserve the body lookup instead of requiring every prefixed variant.
@@ -3665,14 +3670,157 @@ local function translateVisibleText(value)
         return gemini
     end
 
+    -- Mixed multi-line text (a Chinese description line above a translated
+    -- template line, TrainTrade goods): translate line by line (TASK-019 R4a).
+    local mixedLines = runtimeFixes.translateMixedLines(value)
+    if mixedLines ~= nil then
+        if not hasCjk(mixedLines) then visibleTextCache[value] = mixedLines end
+        return mixedLines
+    end
+
     local result = value
     for _, replacement in ipairs(visibleTextReplacements) do
         result = result:gsub(replacement[1], function()
             return replacement[2]
         end)
     end
-    visibleTextCache[value] = result
+    -- Text that still has Chinese is not cached here: chat and nicknames made
+    -- this cache grow without bound, and a later shard could still translate
+    -- it (LESSONS "паразитные кэши"). A bounded miss cache keeps passes cheap.
+    if hasCjk(result) then
+        runtimeFixes.noteVisibleMiss(value, result)
+    else
+        visibleTextCache[value] = result
+    end
     return result
+end
+
+-- Untranslated (still Chinese) results of translateVisibleText: bounded,
+-- wiped when full, never merged into visibleTextCache (TASK-019 R4).
+runtimeFixes.VisibleMiss = { map = {}, size = 0, limit = 4096 }
+runtimeFixes.noteVisibleMiss = function(value, result)
+    local miss = runtimeFixes.VisibleMiss
+    if miss.size >= miss.limit then
+        miss.map, miss.size = {}, 0
+    end
+    if miss.map[value] == nil then
+        miss.map[value] = result
+        miss.size = miss.size + 1
+    end
+end
+
+-- R4a: "<Chinese line>\n<translated line>" — translate each line on its own.
+-- Returns nil unless the text is multi-line, mixes Chinese with Cyrillic or
+-- tags, and at least one line changed.
+runtimeFixes.translateMixedLines = function(value)
+    if not value:find("\n", 1, true) or not hasCjk(value) then return nil end
+    if not (runtimeFixes.hasCyrillic(value) or value:find("<", 1, true)) then return nil end
+    local lines, changed = {}, false
+    for line in (value .. "\n"):gmatch("(.-)\n") do
+        local body, cr = line:match("^(.-)(\r?)$")
+        local translatedLine = body
+        if hasCjk(body) then
+            translatedLine = translateVisibleText(body)
+            if translatedLine ~= body then changed = true end
+        end
+        lines[#lines + 1] = translatedLine .. cr
+    end
+    if not changed then return nil end
+    return table.concat(lines, "\n")
+end
+
+-- R4b: exact translation of maximal Chinese fragments inside an already
+-- mixed string ("Достигнут 食铺.", "食铺<DarkHighlight>x5</>"). A fragment is
+-- a run of CJK ideographs, optionally in 【】, at least 2 characters long; it
+-- is replaced only by an exact shard hit without Chinese. Callers must skip
+-- user-content widgets (runtimeFixes.isUserContentWidget).
+runtimeFixes.translateMixedFragments = function(value)
+    if type(value) ~= "string" or not hasCjk(value) then return value end
+    if not (runtimeFixes.hasCyrillic(value) or value:find("<", 1, true)) then return value end
+    if runtimeFixes.UserContentTexts.map[value] then return value end
+    local ideograph = "[\228-\233][\128-\191][\128-\191]"
+    local function exact(fragment)
+        local hit = lookupGeminiText(fragment)
+        if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then return hit end
+        return nil
+    end
+    local function replaceRun(run)
+        if runtimeFixes.utf8Len(run) < 2 then return run end
+        return exact(run) or run
+    end
+    -- 【...】 first (the key may include the brackets), then bare runs.
+    local result = value:gsub("【(.-)】", function(inner)
+        if inner:find("[【】]") or not hasCjk(inner) then return nil end
+        local whole = exact("【" .. inner .. "】")
+        if whole ~= nil then return whole end
+        if inner:gsub(ideograph, "") == "" then
+            local innerHit = replaceRun(inner)
+            if innerHit ~= inner then return "【" .. innerHit .. "】" end
+        end
+        return nil
+    end)
+    -- Lua patterns cannot repeat a multi-byte class: scan runs by hand.
+    local parts, position = {}, 1
+    while true do
+        local first, last = result:find(ideograph, position)
+        if first == nil then break end
+        while true do
+            local nextFirst, nextLast = result:find("^" .. ideograph, last + 1)
+            if nextFirst == nil then break end
+            last = nextLast
+        end
+        parts[#parts + 1] = result:sub(position, first - 1)
+        parts[#parts + 1] = replaceRun(result:sub(first, last))
+        position = last + 1
+    end
+    parts[#parts + 1] = result:sub(position)
+    return table.concat(parts)
+end
+
+-- Widgets that show player-made text (nicknames, chat, guilds, titles):
+-- no fragment translation and no single-character shard keys (TASK-019 а3′).
+runtimeFixes.UserContentWidgetPatterns = {
+    "chat", "moments", "rankinglist", "appellationinfo", "headinfo", "playerhonorific",
+    "marquee", "remindermsgnormal", "rolename", "guildinside", "uicomguildicon",
+    "manor_order", "autochess_hud_panel.*text_name$", "createrolechooseitem",
+}
+runtimeFixes.UserContentWidgetCache = setmetatable({}, { __mode = "k" })
+runtimeFixes.isUserContentWidget = function(widget, widgetName)
+    local cache = runtimeFixes.UserContentWidgetCache
+    local known = nil
+    pcall(function() known = cache[widget] end)
+    if known ~= nil then return known end
+    local path = nil
+    pcall(function() path = widget:GetPathName() end)
+    local subject = (type(path) == "string" and path ~= "") and path or tostring(widgetName or "")
+    subject = subject:lower()
+    local result = false
+    for _, pattern in ipairs(runtimeFixes.UserContentWidgetPatterns) do
+        if subject:find(pattern) then result = true break end
+    end
+    pcall(function() cache[widget] = result end)
+    return result
+end
+
+-- Strings formatted by StringConst with Chinese arguments (nicknames in
+-- SECRET_PARTNER_FOLLOW and similar): translateMixedFragments leaves them.
+runtimeFixes.UserContentTexts = { map = {}, size = 0, limit = 2048 }
+runtimeFixes.noteUserContentText = function(text)
+    if type(text) ~= "string" then return end
+    local set = runtimeFixes.UserContentTexts
+    if set.size >= set.limit then
+        set.map, set.size = {}, 0
+    end
+    if not set.map[text] then
+        set.map[text] = true
+        set.size = set.size + 1
+    end
+end
+
+-- A string that is a single CJK character ("安", "林"): guild emblems and
+-- nickname pieces, never looked up in user-content widgets.
+runtimeFixes.isSingleCjkChar = function(text)
+    return type(text) == "string" and text:match("^%s*[\228-\233][\128-\191][\128-\191]%s*$") ~= nil
 end
 
 runtimeFixes.collapseSpacedCharacters = function(text)
@@ -4432,15 +4580,34 @@ local function translateTextWidget(widget, discoveryContext)
         end
     end
     if current == nil or current == "" then
+        local childWidget = false
         pcall(function()
             local propVal = widget.Text
             if propVal ~= nil then
+                -- On a UserWidget, Text is a child KGTextBlock: tostring gives
+                -- "KGTextBlock: <addr> Text <addr>", not text (TASK-019 R1).
+                if type(propVal) ~= "string" then
+                    local isWidget = false
+                    pcall(function()
+                        isWidget = type(propVal.GetText) == "function" or type(propVal.GetName) == "function"
+                    end)
+                    if isWidget then
+                        childWidget = true
+                        return
+                    end
+                end
                 local sVal = tostring(propVal)
+                if sVal:match("^[%w_]+: %x+ ") then
+                    childWidget = true
+                    return
+                end
                 if sVal ~= "" then
                     current = sVal
                 end
             end
         end)
+        -- The child text block is repaired when the walk reaches it.
+        if childWidget then return 0 end
     end
 
     local currentText = (type(current) == "string" and current ~= "") and current or nil
@@ -4477,6 +4644,19 @@ local function translateTextWidget(widget, discoveryContext)
             translated = collapsedCurrent
         end
 
+        -- Mixed Chinese left after the whole-string passes (TASK-019 R4b, а3′).
+        if hasCjk(currentText) or hasCjk(translated) then
+            if runtimeFixes.isUserContentWidget(widget, widgetName) then
+                -- Player-made text: only a complete translation, never a
+                -- single-character key ("安" → "Энн" inside "晚安").
+                if runtimeFixes.isSingleCjkChar(collapsedCurrent) or hasCjk(translated) then
+                    translated = currentText
+                end
+            elseif hasCjk(translated) then
+                translated = runtimeFixes.translateMixedFragments(translated)
+            end
+        end
+
         if translated ~= currentText then
             -- Width of the original text, once per widget (TASK-011).
             runtimeFixes.TextFit.PreMeasure(widget, translated)
@@ -4506,6 +4686,8 @@ local function translateTextWidget(widget, discoveryContext)
     end
 
     local pre = d and d.FontSnapshot(widget)
+    -- Dev only (TASK-019 R0.2): did this pass change size / typeface / wrap?
+    local styleBefore = d and d.StyleSnapshot and d.StyleSnapshot(widget)
     -- Styling for text widgets, even if currently empty, so that subsequent
     -- C++/Blueprint updates inherit it. Cyrillic gets a proportional typeface
     -- (TASK-006) and LetterSpacing max(0, authored); other text keeps the
@@ -4603,6 +4785,7 @@ local function translateTextWidget(widget, discoveryContext)
             textFit.Begin(widget, fitState, textToCheck, fitBase, fitBudget, fitAxis, fitSlot)
         end
     end)
+    if styleBefore then d.NoteStyle(widget, widgetName, styleBefore, translated or currentText) end
     if d then d.OnTextWidget(widget, translated or currentText, widgetName, pre) end
     return repairedCount
 end
@@ -6575,12 +6758,38 @@ Loader.AfterLoad("Gameplay.Const.StringConst.StringConst", function(value, envir
             end
             return replacement
         end
-        local getOk, result = pcall(originalGet, key, ...)
+        local argCount = select("#", ...)
+        local cjkArgs = false
+        for index = 1, argCount do
+            if hasCjk((select(index, ...))) then cjkArgs = true break end
+        end
+        local getOk, result
+        if cjkArgs and type(key) == "string" and key:find("^TRAIN_TRADE_") then
+            -- Station names arrive as Chinese %s arguments (s5:
+            -- TRAIN_TRADE_FUTURE_TIPS_NEXT_TYPE "食铺 Количество станций").
+            -- Exact shard hits only; other keys may carry nicknames (TASK-019 R2).
+            local args = { ... }
+            for index = 1, argCount do
+                local arg = args[index]
+                if hasCjk(arg) then
+                    local hit = lookupGeminiText(arg)
+                    if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then args[index] = hit end
+                end
+            end
+            getOk, result = pcall(originalGet, key, unpack(args, 1, argCount))
+        else
+            getOk, result = pcall(originalGet, key, ...)
+        end
         if not getOk then
             report("StringConst.Get failed key=" .. tostring(key) .. " error=" .. tostring(result))
             return tostring(key or "")
         end
-        return repairLiveString("StringConst", key, key, result)
+        local repaired = repairLiveString("StringConst", key, key, result)
+        if cjkArgs and not (type(key) == "string" and key:find("^TRAIN_TRADE_")) then
+            -- SECRET_PARTNER_FOLLOW "Следует за <ник>": keep the nickname as is.
+            runtimeFixes.noteUserContentText(repaired)
+        end
+        return repaired
     end, { light = true })
 
     return value
@@ -11356,6 +11565,104 @@ do
     end
 end
 
+-- Late labels (TASK-019 R5, s5 а4): text set after the Open and delayed
+-- passes, seen only by the diagnostics walk. The owner class overrides its
+-- methods, so wrap them at class level (LESSONS "хуки на уровне класса") and
+-- repair only the listed widgets of the instance after each call.
+-- path = widget names from the owner's tree down to the text block.
+-- args = true: also translate Chinese string arguments by exact lookup
+-- (NPC talk text is printed from the argument; talkcontent widgets are never
+-- rewritten after the fact, see translateTextWidget).
+runtimeFixes.LateLabelClasses = {
+    TaskBoardPanel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
+    Task_Main_Panel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
+    FellowPage = { paths = { { "WBP_PartnerSkill", "KGTextBlock_52" } } },
+    WorkshopUp_Panel = { paths = { { "Text_Up" } } },
+    NPCTalkTextComp = { paths = {}, args = true },
+}
+runtimeFixes.LateLabelMethodPatterns = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play" }
+
+runtimeFixes.repairLateLabels = function(comp, spec)
+    local root = comp.userWidget or comp.widget
+    for _, path in ipairs(spec.paths) do
+        local node = nil
+        for index, name in ipairs(path) do
+            local owner = node or (index == 1 and (comp.view or root)) or nil
+            local found = owner and getNamedWidget(owner, name)
+            if found == nil and index == 1 and root ~= nil and owner ~= root then
+                found = getNamedWidget(root, name)
+            end
+            node = found
+            if node == nil then break end
+        end
+        if node ~= nil then translateTextWidget(node) end
+    end
+end
+
+runtimeFixes.lateLabelArgs = function(...)
+    local count = select("#", ...)
+    local args = { ... }
+    for index = 1, count do
+        local arg = args[index]
+        if hasCjk(arg) then
+            local hit = runtimeFixes.lookupGeminiTextFuzzy(arg)
+            if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then args[index] = hit end
+        end
+    end
+    return count, args
+end
+
+runtimeFixes.installLateLabelClassHooks = function(comp)
+    if type(comp) ~= "table" then return end
+    local spec = runtimeFixes.LateLabelClasses[tostring(comp.__cname)]
+        or runtimeFixes.LateLabelClasses[tostring(comp.uid or comp.UID)]
+    if spec == nil then return end
+    local mtOk, mt = pcall(getmetatable, comp)
+    local current = mtOk and type(mt) == "table" and rawget(mt, "__index") or nil
+    local depth = 0
+    while type(current) == "table" and depth < 8 do
+        local className = tostring(rawget(current, "__cname"))
+        -- Own class tables only, never UIComponent / UIPanel and other bases.
+        if runtimeFixes.LateLabelClasses[className] == nil then break end
+        if rawget(current, "__cpddLateLabelHook") ~= VERSION then
+            rawset(current, "__cpddLateLabelHook", VERSION)
+            local names = {}
+            for name, member in pairs(current) do
+                if type(name) == "string" and type(member) == "function" then
+                    for _, pattern in ipairs(runtimeFixes.LateLabelMethodPatterns) do
+                        if name:find(pattern) then names[#names + 1] = name break end
+                    end
+                end
+            end
+            table.sort(names)
+            for _, name in ipairs(names) do
+                local original = rawget(current, name)
+                local wrapper = runtimeFixes.diagWrap("late-class:" .. className .. "." .. name, "late-class", function(self, ...)
+                    local results
+                    if spec.args then
+                        local count, args = runtimeFixes.lateLabelArgs(...)
+                        results = { original(self, unpack(args, 1, count)) }
+                    else
+                        results = { original(self, ...) }
+                    end
+                    if type(self) == "table" and #spec.paths > 0 and not self.__cpddLateLabelBusy then
+                        self.__cpddLateLabelBusy = true
+                        pcall(runtimeFixes.repairLateLabels, self, spec)
+                        self.__cpddLateLabelBusy = nil
+                    end
+                    return unpack(results)
+                end)
+                pcall(rawset, current, name, wrapper)
+            end
+            reportInstalled("installed late-label class hook " .. className .. ": "
+                .. (#names > 0 and table.concat(names, ",") or "<none>"))
+        end
+        local okParent, parentMt = pcall(getmetatable, current)
+        current = okParent and type(parentMt) == "table" and rawget(parentMt, "__index") or nil
+        depth = depth + 1
+    end
+end
+
 local function installEventDrivenPanelRepair(value, environment)
     local class = getSymbol(value, environment, "UIComponent")
     if type(class) ~= "table" or rawget(class, "__cpddEventTextRepair") == VERSION then
@@ -11399,6 +11706,16 @@ local function installEventDrivenPanelRepair(value, environment)
                         if type(origMethod) == "function" then
                             self[method] = runtimeFixes.hookAutoChessMethod(origMethod, method)
                         end
+                    end
+                end
+                if not isAutoChess then
+                    local lateOk, lateErr = pcall(runtimeFixes.installLateLabelClassHooks, self)
+                    if not lateOk and not repairErrorReported then
+                        repairErrorReported = true
+                        report("late-label class hook install failed safely: " .. tostring(lateErr))
+                    end
+                    if runtimeFixes.Diag and runtimeFixes.Diag.ProbeSettingsHooks then
+                        pcall(runtimeFixes.Diag.ProbeSettingsHooks, self, methodName)
                     end
                 end
                 local results = { original(self, ...) }

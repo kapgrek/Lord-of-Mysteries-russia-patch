@@ -277,6 +277,7 @@ return {
     ["Investigate the <h>mirror fragments</>"] = "Осмотрите <h>осколки зеркала</>",
     ["<HighLight>获得战法共鸣</>"] = "<HighLight>Получить резонанс «Боевая магия»</>",
     ["What talents are available in Fool's Gambit?"] = "Какие таланты есть в «Гамбите Шута»?",
+    ["初落时沙"] = "Первые песчинки времени",
     ["Why\n\n?"] = "По\nче\nму\n?",
     ["Izell"] = "Изель",
     [">>>Bond data does not exist, bond ID:"] = ">>>Данные о облигации не существуют, идентификатор облигации:",

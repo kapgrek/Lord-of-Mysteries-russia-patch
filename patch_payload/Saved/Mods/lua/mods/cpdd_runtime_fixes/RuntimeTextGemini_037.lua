@@ -209,7 +209,7 @@ return {
     ["A civilian staff member at Blackthorn Security Company. \n He was once an official Nighthawk, but as he aged and his physical condition declined, he could no longer advance or adapt to handling cases. Unwilling to transfer to an internal \"Gatekeeper\" role or retire at home, he only wished to be accompanied by documents and classics. Thus, he serves as the keeper of the armory and the archives, skilled in potion preparation and teaching occult knowledge."] = "Гражданский сотрудник охранной компании Blackthorn. \n раньше был постоянным участником Nighthawks. Позже он состарился, стал физически слабым, его не удалось повысить по службе, и он больше не был пригоден для ведения дел. Я не хочу становиться внутренним «смотрителем» или восстанавливать силы дома, я просто хочу быть с литературой и классикой. Так он служил администратором склада оружия и литературной библиотеки, хорошо готовил зелья и преподавал оккультные знания.",
     ["Level 4 - Abundant"] = "Уровень 4 – Обильный",
     ["{{Mr.| Ms.}}, hello, which station would you like to go to?"] = "{{Mr.| Ms.}}, здравствуйте, на какую станцию ​​вы бы хотели сходить?",
-    ["Off"] = "Выключенный",
+    ["Off"] = "Выкл.",
     ["Defeat the monster within two minutes and thirty seconds, defeat within two minutes and thirty seconds, it's just that everyone still feels that it's good, it's just that everyone still feels that it's good, everyone still feels that it's good"] = "Победить монстра за две минуты тридцать секунд, победить за две минуты тридцать секунд, просто все все еще чувствуют, что это хорошо, просто все все еще чувствуют, что это хорошо, все все еще чувствуют, что это хорошо",
     ["Who is he?"] = "Кто он?",
     ["Trigger NPC 1"] = "Триггер NPC 1",

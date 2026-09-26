@@ -243,6 +243,8 @@ return {
     ["Enter the <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</> state and buffdisc(*id), providing continuous healing to allies within range, restoring spellfielddisc(*id) points of Health per second for 6.5 seconds.\nYou can move while casting this skill. After a short duration, you can use Dodge or other skills to interrupt the casting; the healing effect will persist after the interruption."] = "Дарует <HyperLink stylename=\"M_Link\" u=\"11\">Суперброню</> и эффект buffdisc(*id), непрерывно исцеляя союзников вокруг себя на spellfielddisc(*id) ед. здоровья в секунду в течение 6,5 сек.\nВо время применения навыка можно двигаться; спустя короткое время его можно прервать уклонением или другим навыком, при этом эффект исцеления продолжит действовать.",
     ["普攻额外造成相当于自身生命值<HighLight>1.5%</>的伤害；相邻敌人受到该额外伤害的<HighLight>50%</>。"] = "Базовые атаки дополнительно наносят урон, равный <HighLight>1.5%</> от собственного здоровья; соседние враги получают <HighLight>50%</> от этого урона.",
     ["保存失败：阵容不能为空"] = "Не удалось сохранить: состав не может быть пустым",
+    ["Mystery"] = "Тайна",
+    ["15% Max Health Shield"] = "Щит на 15% макс. здоровья",
     ["Westley"] = "Уэстли",
     ["id:000000 This test is a confidential test and does not represent the final quality of the game. Please do not stream, take screenshots, or record the screen."] = "id:000000 Данный тест является закрытым и не отражает финального качества игры. Пожалуйста, не ведите прямых трансляций, не делайте скриншотов и не записывайте видео.",
 }

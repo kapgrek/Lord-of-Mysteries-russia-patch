@@ -233,4 +233,5 @@ return {
     ["Obtain 2 Advanced Piece Recorders, which can copy a 1-star version of any cost piece."] = "Даёт 2 продвинутых регистратора фигур: они копируют однозвёздочную версию фигуры любой стоимости.",
     ["Modify Lineup Strategy"] = "Изменить тактику состава",
     ["<HighLight>施法后强化普攻</>"] = "<HighLight>Усиливает базовые атаки после навыка</>",
+    ["魅影"] = "Призрак",
 }

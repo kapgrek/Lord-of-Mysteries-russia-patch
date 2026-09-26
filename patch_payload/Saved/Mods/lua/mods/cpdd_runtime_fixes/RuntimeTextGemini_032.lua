@@ -268,5 +268,6 @@ return {
     ["What is the chess gameplay?"] = "Что за шахматный режим?",
     ["Defense reduced by <HighLight>10%</> for <HighLight>10</> seconds."] = "Защита снижена на <HighLight>10%</> на <HighLight>10</> сек.",
     ["累计刷新商店11次"] = "Обновить магазин 11 раз",
+    ["提高<Yellow>mul(*f,Layer)</>点攻击、<Yellow>mul(*f,Layer)</>点技能增强。"] = "Повышает атаку на <Yellow>mul(*f,Layer)</> ед. и усиление навыков на <Yellow>mul(*f,Layer)</> ед.",
     ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
 }

@@ -274,5 +274,6 @@ return {
     ["Lineup data cannot be recovered after deletion. Still want to delete?"] = "Удалённый состав нельзя восстановить. Всё равно удалить?",
     ["[Blood Blade] Gains Critical Rate and Critical Damage. Inflicts Bleed when hitting enemies; Bleed damage increases with tier."] = "【Кровавый клинок】 получает шанс и урон крит. удара. При попадании накладывает Кровотечение, урон от которого растёт со ступенью.",
     ["挥爪连续撕裂目标。"] = "Раз за разом раздирает цель когтями.",
+    ["获得20%最大生命护盾，持续5秒"] = "Получает щит на 20% макс. здоровья на 5 сек.",
     ["Depose  \r\nExile \r\nMurder"] = "Низложение  \r\nИзгнание \r\nУбийство",
 }

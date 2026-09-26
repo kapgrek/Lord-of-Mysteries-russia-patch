@@ -275,4 +275,5 @@ return {
     ["Use Spirit Vision to check everyone's status"] = "Используйте духовное зрение, чтобы проверить статус каждого.",
     ["<img id=\"09\" width=\"40\" height=\"40\"/>Damage Reduction: <HighLight>90%</>"] = "<img id=\"09\" width=\"40\" height=\"40\"/>Снижение урона: <HighLight>90%</>",
     ["Uses close-range grabs and Heavy Hammers to deal area damage."] = "Хватает врагов вблизи и наносит урон по области тяжёлым молотом.",
+    ["Deploy Klein Moretti and achieve 1st place"] = "Выставить Клейна Моретти и занять 1-е место",
 }

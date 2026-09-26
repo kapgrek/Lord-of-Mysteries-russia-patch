@@ -39,3 +39,4 @@ Batch count: **33**
 | Батч 031_autochess_stringdb | `batch_031_autochess_stringdb.json` | 131998 - 132582 | Готов |
 | Батч 032_stringdb_ui | `batch_032_stringdb_ui.json` | 132583 - 132586 | Готов |
 | Батч 033_autochess_stringdb_2 | `batch_033_autochess_stringdb_2.json` | 132589 - 132958 | Готов |
+| Батч 034_stringdb_s5 | `batch_034_stringdb_s5.json` | 132973 - 133104 | Готов (TASK-019, пачка 1: видно на экране в сессии s5) |

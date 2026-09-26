@@ -265,5 +265,6 @@ return {
     ["I should have guessed when you suddenly mentioned the circus performance! It's just... I was only thinking about..."] = "Я должен был догадаться, когда ты вдруг упомянул о цирковом представлении! Просто... Я только думал о...",
     ["Butler Appearance"] = "Внешний вид Батлера",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}",
+    ["Longing for the past, reflected through the water is the shared bright moon from memory. The hometown is never far away; home is right here."] = "Тоска по былому: в отражении воды — та же ясная луна, что и в общих воспоминаниях. Родной край никогда не бывает далеко, дом — здесь.",
     ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

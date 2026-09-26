@@ -10,6 +10,8 @@
 #   powershell -File tools\StringDbGaps.ps1 -Report -Logs reference\logs\2026-09-25_1300 -Sid 20260925-125104
 #   powershell -File tools\StringDbGaps.ps1 -Aliases batch_030_stringdb_aliases.json
 #   powershell -File tools\StringDbGaps.ps1 -Emit batch_031_autochess_stringdb.json -Category autochess,formula
+#   powershell -File tools\StringDbGaps.ps1 -Emit batch_034_stringdb_s5.json -Category ui,text,skill,quest -OnScreen -Logs … -Sid …
+#   powershell -File tools\StringDbGaps.ps1 -EmitData batch_034_stringdb_s5.json -Fields BriefDescription,SkillDisc -Logs … -Sid …
 #
 # Пишет только внутри репозитория: CSV в temp\, батчи в source\translation_batches\.
 param(
@@ -18,6 +20,9 @@ param(
     [switch]$Report,               # сводка по категориям + CSV
     [string]$Emit,                 # имя батча: дописать строки категорий -Category с пустым target_ru
     [string[]]$Category,
+    [switch]$OnScreen,             # -Emit: только строки, которые были на экране (on_screen, TASK-019)
+    [string]$EmitData,             # имя батча: китайский из данных KSBC (src=data) по полям -Fields (TASK-019)
+    [string[]]$Fields,
     [string]$Aliases,              # имя батча: алиасы для строк, отличающихся от батча регистром/пробелами/тегами
     [string]$Csv                   # по умолчанию temp\stringdb_gaps.csv
 )
@@ -240,7 +245,10 @@ if ($logFiles.Count -eq 0) { throw "Логи untranslated не найдены: $
 $json = New-Object System.Web.Script.Serialization.JavaScriptSerializer
 $json.MaxJsonLength = [int]::MaxValue
 $rows = New-Object 'System.Collections.Generic.Dictionary[string,object]' ($ordinal)
-$onScreen = New-Object 'System.Collections.Generic.HashSet[string]' ($ordinal)
+$screenTexts = New-Object 'System.Collections.Generic.HashSet[string]' ($ordinal)
+$dataRows = New-Object 'System.Collections.Generic.List[object]'
+# Счётчик прогресса после текста: «Daily Login（1/1）», «… (280/400)» (TASK-019 а6).
+$counterRegex = New-Object regex '\s*[（\(]\s*[\d,]+\s*/\s*[\d,]+\s*[）\)]\s*$', 'Compiled'
 foreach ($file in $logFiles) {
     foreach ($line in [IO.File]::ReadLines($file, $utf8)) {
         if (-not $line) { continue }
@@ -248,7 +256,19 @@ foreach ($file in $logFiles) {
         if (-not $line.Contains('"src":"stringdb"')) {
             if ($line.Contains('"src":"widget"') -or $line.Contains('"src":"data"')) {
                 $o = $json.DeserializeObject($line)
-                foreach ($k in @('text', 'original', 'translated')) { if ($o[$k]) { [void]$onScreen.Add((Get-TrimmedKey ([string]$o[$k]))) } }
+                foreach ($k in @('text', 'original', 'translated')) {
+                    if (-not $o[$k]) { continue }
+                    $v = Get-TrimmedKey ([string]$o[$k])
+                    [void]$screenTexts.Add($v)
+                    $stripped = $counterRegex.Replace($v, '')
+                    if ($stripped -and $stripped -ne $v) { [void]$screenTexts.Add($stripped) }
+                }
+                if ($o['src'] -eq 'data') {
+                    $dataRows.Add([pscustomobject]@{
+                        module = [string]$o['module']; field = [string]$o['field']
+                        original = [string]$o['original']; translated = [string]$o['translated']
+                    })
+                }
             }
             continue
         }
@@ -273,8 +293,18 @@ foreach ($file in $logFiles) {
 }
 
 # --- Классификация -------------------------------------------------------------------------------
+# on_screen (TASK-019 а6): точное совпадение, текст со счётчиком «（n/m）» или вхождение текста
+# длиной ≥ 6 символов в строку виджета/данных (составные строки).
+$screenBlob = [string]::Join([string][char]1, [string[]]@($screenTexts))
+function Test-OnScreen([string]$s) {
+    if (-not $s) { return $false }
+    $k = Get-TrimmedKey $s
+    if (-not $k) { return $false }
+    if ($screenTexts.Contains($k)) { return $true }
+    return $k.Length -ge 6 -and $screenBlob.IndexOf($k, [StringComparison]::Ordinal) -ge 0
+}
 foreach ($r in $rows.Values) {
-    $r.on_screen = ($r.cn -and $onScreen.Contains((Get-TrimmedKey $r.cn))) -or ($r.en -and $onScreen.Contains((Get-TrimmedKey $r.en)))
+    $r.on_screen = (Test-OnScreen $r.cn) -or (Test-OnScreen $r.en)
     $hit = $null
     if ($r.cn) { $hit = Find-ShardTranslation $r.cn }
     if ($null -eq $hit -and $r.en) { $hit = Find-ShardTranslation $r.en }
@@ -298,7 +328,7 @@ foreach ($r in $rows.Values) {
 $all = @($rows.Values | Sort-Object module, { [decimal]$_.row })
 
 # --- Отчёт ---------------------------------------------------------------------------------------
-if ($Report -or (-not $Emit -and -not $Aliases)) {
+if ($Report -or (-not $Emit -and -not $Aliases -and -not $EmitData)) {
     $csvPath = $(if ($Csv) { Resolve-RepoPath $Csv } else { Join-Path $repo 'temp\stringdb_gaps.csv' })
     New-Item -ItemType Directory -Force (Split-Path $csvPath -Parent) | Out-Null
     $csvText = ($all | Select-Object category, on_screen, module, row, cn, en, alias_key, ru | ConvertTo-Csv -NoTypeInformation) -join "`n"
@@ -386,11 +416,41 @@ if ($Emit) {
         if ($c -in $neverEmit) { throw "Категорию $c не выгружают" }
     }
     $recs = New-Object 'System.Collections.Generic.List[object]'
-    foreach ($r in $all | Where-Object { $_.category -in $Category }) {
+    foreach ($r in $all | Where-Object { $_.category -in $Category -and (-not $OnScreen -or $_.on_screen) }) {
         $src = $r.key
         if (-not $src -or $shard.ContainsKey($src) -or $batchKeyInfo.ContainsKey($src) -or -not $usedKeys.Add($src)) { continue }
         $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = $r.en; target_ru = '' })
         $nextId++
     }
     if ($recs.Count -gt 0) { Add-BatchRecords $Emit $recs } else { Write-Host 'Новых строк для записи нет.' }
+}
+
+if ($EmitData) {
+    # Китайский в полях данных KSBC без StringDB (src=data, TASK-019): новый контент обновления игры.
+    # Не выгружаются: известные ключи, обрезанные (≥ 397 байт), пузыри чата GossipSystem, текст виджетов
+    # (WidgetText), StringConst (ники в аргументах), служебные поля Desc.
+    $Fields = @($Fields | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim() } | Where-Object { $_ })
+    if ($Fields.Count -eq 0) { throw 'Для -EmitData нужен -Fields <поле[,…]>' }
+    $fieldSet = New-Object 'System.Collections.Generic.HashSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+    foreach ($fl in $Fields) { [void]$fieldSet.Add($fl) }
+    $cjkRegex = New-Object regex '[㐀-鿿]'
+    $recs = New-Object 'System.Collections.Generic.List[object]'
+    $skipped = @{ known = 0; clipped = 0; module = 0; field = 0 }
+    foreach ($d in $dataRows) {
+        $leaf = ($d.field -split '\.')[-1]
+        if (-not $fieldSet.Contains($leaf)) { continue }
+        if ($leaf -eq 'Desc' -or $d.module -match 'GossipSystem' -or $d.module -in @('WidgetText', 'StringConst')) { $skipped.module++; continue }
+        # Ключ — исходный текст; translated мог получить частичную замену.
+        $src = $(if ($d.original -and $cjkRegex.IsMatch($d.original)) { $d.original } else { $d.translated })
+        $src = Get-TrimmedKey $src
+        if (-not $src -or -not $cjkRegex.IsMatch($src)) { continue }
+        if ($utf8.GetByteCount($src) -ge $clipBytes) { $skipped.clipped++; continue }
+        $hit = Find-ShardTranslation $src
+        if (($null -ne $hit -and $hit -match '[Ѐ-ӿ]') -or $batchKeyInfo.ContainsKey($src)) { $skipped.known++; continue }
+        if (-not $usedKeys.Add($src)) { continue }
+        $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = ''; target_ru = '' })
+        $nextId++
+    }
+    Write-Host ("EmitData: новых {0}; пропущено: известные {1}, обрезанные {2}, модуль/поле {3}" -f $recs.Count, $skipped.known, $skipped.clipped, $skipped.module)
+    if ($recs.Count -gt 0) { Add-BatchRecords $EmitData $recs } else { Write-Host 'Новых строк для записи нет.' }
 }

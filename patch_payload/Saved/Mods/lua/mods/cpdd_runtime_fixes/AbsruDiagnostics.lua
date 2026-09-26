@@ -84,6 +84,7 @@ local S = {
     panelCount = 0,
     stack = {},
     enterT = {},
+    enterStyle = {},
     depth = 0,
     noteSeq = 0,
     queue = {},
@@ -118,7 +119,11 @@ local S = {
     api = {},
     gauges = {},
     writes = {},
-    unscoped = { text_changes = 0, text_writes = 0, data_changes = 0 },
+    unscoped = { text_changes = 0, text_writes = 0, data_changes = 0, style_changes = 0 },
+    -- TASK-019 R0: probes.traintrade_tabledata, probes.settings[] (session.json).
+    probes = { settings = {} },
+    settingsCur = nil,
+    trainTradeProbed = false,
     counters = {
         walks = 0, walk_nodes = 0, walks_skipped = 0, text_items = 0, gone = 0,
         roots_view = 0, roots_cache = 0, roots_tree = 0, roots_named = 0,
@@ -634,7 +639,7 @@ local function hookRecord(id, kind, meta)
         record = {
             id = id, kind = tostring(kind or "fix"), declared = false, installed = false,
             wraps = 0, calls = 0, text_changes = 0, text_writes = 0, data_changes = 0,
-            errors = 0, ms_total = 0, ms_max = 0,
+            style_changes = 0, errors = 0, ms_total = 0, ms_max = 0,
         }
         S.hooks[id] = record
         S.hookCount = S.hookCount + 1
@@ -660,7 +665,7 @@ local function panelRecord(id)
         record = {
             id = id, kind = "panel", uid = id:match("^panel:(.-):[^:]*$") or id,
             calls = 0, labels = 0, widgets = 0, text_changes = 0, text_writes = 0,
-            data_changes = 0, errors = 0, ms_total = 0, ms_max = 0,
+            data_changes = 0, style_changes = 0, errors = 0, ms_total = 0, ms_max = 0,
         }
         S.panels[id] = record
         S.panelCount = S.panelCount + 1
@@ -781,6 +786,7 @@ function D.Enter(id, kind)
     S.depth = depth
     S.stack[depth] = record
     S.enterT[depth] = nowMs()
+    S.enterStyle[depth] = record.style_changes or 0
     return previous
 end
 
@@ -800,6 +806,15 @@ function D.Leave(previous, labels, widgets)
             if record.kind == "panel" then
                 record.labels = record.labels + (tonumber(labels) or 0)
                 record.widgets = record.widgets + (tonumber(widgets) or 0)
+                local cur = S.settingsCur
+                if cur ~= nil and record.uid == "Settings_Panel" and #cur.passes < 16 then
+                    local styleBefore = S.enterStyle and S.enterStyle[previous + 1] or record.style_changes
+                    cur.passes[#cur.passes + 1] = {
+                        reason = record.id:match(":([^:]*)$"), at_ms = round1(started - cur.open_ms),
+                        ms = round1(elapsed), labels = tonumber(labels) or 0, widgets = tonumber(widgets) or 0,
+                        style_changes = record.style_changes - styleBefore,
+                    }
+                end
             end
         end
     end
@@ -932,6 +947,205 @@ function D.NoteFit(widget, row)
     end)
     if not ok then
         noteError("item", "NoteFit")
+    end
+end
+
+-- Style probe (TASK-019 R0.2): translateTextWidget snapshots size, typeface
+-- and wrap before its styling and reports after it; a difference counts as
+-- style_changes in the current scope (panels[] in hooks.json) and becomes a
+-- fit row kind = "style" (size_pre -> size, reason = scope id).
+function D.StyleSnapshot(widget)
+    if S.disabled or widget == nil then
+        return nil
+    end
+    local snap = readFont(widget) or {}
+    pcall(function() snap.wrap = widget.AutoWrapText == true end)
+    return snap
+end
+
+function D.NoteStyle(widget, name, before, text)
+    if S.disabled or widget == nil or type(before) ~= "table" then
+        return
+    end
+    local after = D.StyleSnapshot(widget)
+    if after == nil then
+        return
+    end
+    local sizeChanged = before.size ~= nil and after.size ~= nil and before.size ~= after.size
+    local faceChanged = before.typeface ~= after.typeface
+    local wrapChanged = before.wrap ~= after.wrap
+    if not (sizeChanged or faceChanged or wrapChanged) then
+        return
+    end
+    credit("style_changes")
+    if not cfg.Overflow then
+        return
+    end
+    local change = {}
+    if faceChanged then change[#change + 1] = "face:" .. tostring(before.typeface) .. ">" .. tostring(after.typeface) end
+    if wrapChanged then change[#change + 1] = "wrap:" .. tostring(before.wrap) .. ">" .. tostring(after.wrap) end
+    D.NoteFit(widget, {
+        kind = "style", text = type(text) == "string" and text or "", size_pre = before.size, size = after.size,
+        mode = #change > 0 and table.concat(change, ",") or nil, reason = scopeId(),
+    })
+end
+
+-- TrainTrade probe (TASK-019 R0.1): which Game.TableData helpers serve the
+-- mode's goods and stations. Names with Train/Station/Route and the string
+-- fields of one row each; session.json -> probes.traintrade_tabledata.
+local PROBE_TEXT = 180
+
+local function probeRow(row)
+    local fields = {}
+    local count = 0
+    pcall(function()
+        for key, value in pairs(row) do
+            if count >= 24 then break end
+            local valueType = type(value)
+            if valueType == "string" then
+                fields[tostring(key)] = clip(value, PROBE_TEXT)
+                count = count + 1
+            elseif valueType == "number" or valueType == "boolean" then
+                fields[tostring(key)] = value
+                count = count + 1
+            end
+        end
+    end)
+    return fields
+end
+
+function D.ProbeTrainTrade(stage)
+    if S.disabled then
+        return
+    end
+    local tableData = nil
+    pcall(function() tableData = Game and Game.TableData end)
+    if tableData == nil then
+        S.probes.traintrade_tabledata = { stage = stage, error = "Game.TableData unavailable" }
+        return
+    end
+    local seen, names = {}, {}
+    local function collect(source)
+        pcall(function()
+            for key in pairs(source) do
+                if type(key) == "string" and not seen[key] then
+                    local lower = key:lower()
+                    if lower:find("train", 1, true) or lower:find("station", 1, true) or lower:find("route", 1, true) then
+                        seen[key] = true
+                        names[#names + 1] = key
+                    end
+                end
+            end
+        end)
+    end
+    collect(tableData)
+    pcall(function()
+        local mt = getmetatable(tableData)
+        if type(mt) == "table" and type(mt.__index) == "table" then collect(mt.__index) end
+    end)
+    table.sort(names)
+    local samples, sampled = {}, 0
+    for _, name in ipairs(names) do
+        if sampled >= 16 then break end
+        local member = nil
+        pcall(function() member = tableData[name] end)
+        local row = nil
+        if type(member) == "table" then
+            pcall(function()
+                local _, first = next(member)
+                row = first
+            end)
+        elseif type(member) == "function" and name:find("Row$") then
+            local base = name:gsub("Row$", "")
+            for _, candidate in ipairs({ base, base .. "Table", (name:gsub("DataRow$", "Table")), base .. "s" }) do
+                local getter = nil
+                pcall(function() getter = tableData[candidate] end)
+                if type(getter) == "function" and candidate ~= name then
+                    local ok, whole = pcall(getter)
+                    if ok and type(whole) == "table" then
+                        pcall(function()
+                            local _, first = next(whole)
+                            row = first
+                        end)
+                        if row ~= nil then break end
+                    end
+                end
+            end
+        end
+        if type(row) == "table" then
+            samples[name] = probeRow(row)
+            sampled = sampled + 1
+        end
+    end
+    S.probes.traintrade_tabledata = {
+        stage = stage, t = stamp("%H:%M:%S"), helpers = array(names), samples = samples,
+    }
+    S.flushSoon = true
+    warn("[AbsruDiag] probe traintrade stage=" .. tostring(stage) .. " helpers=" .. table.concat(names, ","))
+end
+
+-- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
+-- last Refresh of the Settings_*_Item classes (class-level wrappers found on
+-- instances at UIComponent.Open) and each panel pass with its style_changes.
+local SETTINGS_OPENS_MAX = 20
+
+local function noteSettingsRefresh(className)
+    local cur = S.settingsCur
+    if cur == nil then
+        return
+    end
+    local at = round1(nowMs() - cur.open_ms)
+    cur.first_refresh_ms = cur.first_refresh_ms or at
+    cur.last_refresh_ms = at
+    cur.refreshes = cur.refreshes + 1
+    cur.classes[className] = (cur.classes[className] or 0) + 1
+end
+
+function D.ProbeSettingsHooks(component, methodName)
+    if S.disabled or type(component) ~= "table" then
+        return
+    end
+    local uid = componentUid(component)
+    if uid == "Settings_Panel" and methodName == "Open" then
+        if #S.probes.settings < SETTINGS_OPENS_MAX then
+            local cur = {
+                t = stamp("%H:%M:%S"), open_ms = nowMs(), refreshes = 0,
+                classes = {}, passes = array(),
+            }
+            S.probes.settings[#S.probes.settings + 1] = cur
+            S.settingsCur = cur
+        else
+            S.settingsCur = nil
+        end
+        return
+    end
+    local name = tostring(component.__cname or uid)
+    if not (name:find("^Settings_") and name:find("_Item$")) then
+        return
+    end
+    local mtOk, mt = pcall(getmetatable, component)
+    local current = mtOk and type(mt) == "table" and rawget(mt, "__index") or nil
+    local depth = 0
+    while type(current) == "table" and depth < 6 do
+        local className = tostring(rawget(current, "__cname"))
+        if not className:find("^Settings_") then
+            break
+        end
+        if not rawget(current, "__absruSettingsProbe") then
+            rawset(current, "__absruSettingsProbe", true)
+            for _, method in ipairs({ "Refresh", "OnRefresh" }) do
+                local original = rawget(current, method)
+                if type(original) == "function" then
+                    rawset(current, method, function(self, ...)
+                        pcall(noteSettingsRefresh, className .. "." .. method)
+                        return original(self, ...)
+                    end)
+                end
+            end
+        end
+        local okParent, parentMt = pcall(getmetatable, current)
+        current = okParent and type(parentMt) == "table" and rawget(parentMt, "__index") or nil
+        depth = depth + 1
     end
 end
 
@@ -1668,6 +1882,11 @@ function D.OnPanelOpen(component)
         return
     end
     S.flushSoon = true
+    if not S.trainTradeProbed and componentUid(component):find("^TrainTrade") then
+        S.trainTradeProbed = true
+        local ok, err = pcall(D.ProbeTrainTrade, "panel:" .. componentUid(component))
+        if not ok then noteError("item", err) end
+    end
     -- Fallback pump: before after_main, or when the timer chain was dropped.
     if nowMs() - S.lastTick > PUMP_STALE_MS then
         S.timerPending = false
@@ -1744,11 +1963,11 @@ end
 
 local HOOK_ORDER = {
     "id", "kind", "status", "module", "declared", "installed", "wraps", "calls",
-    "text_changes", "text_writes", "data_changes", "errors", "ms_total", "ms_max", "light",
+    "text_changes", "text_writes", "data_changes", "style_changes", "errors", "ms_total", "ms_max", "light",
 }
 local PANEL_ORDER = {
     "id", "uid", "runs", "labels", "widgets", "text_changes", "text_writes", "data_changes",
-    "ms_total", "ms_max",
+    "style_changes", "ms_total", "ms_max",
 }
 
 local function moduleApplied(module)
@@ -1789,7 +2008,7 @@ local function encodeHookRecord(record)
         id = record.id, kind = record.kind, status = hookStatus(record), module = record.module,
         declared = record.declared, installed = record.installed, wraps = record.wraps,
         calls = record.calls, text_changes = record.text_changes, text_writes = record.text_writes,
-        data_changes = record.data_changes, errors = record.errors,
+        data_changes = record.data_changes, style_changes = record.style_changes, errors = record.errors,
         ms_total = record.ms_total, ms_max = record.ms_max, light = record.light,
     }, 0, HOOK_ORDER)
 end
@@ -1799,7 +2018,7 @@ local function encodePanelRecord(record)
         id = record.id, uid = record.uid, runs = record.calls, labels = record.labels,
         widgets = record.widgets, text_changes = record.text_changes,
         text_writes = record.text_writes, data_changes = record.data_changes,
-        ms_total = record.ms_total, ms_max = record.ms_max,
+        style_changes = record.style_changes, ms_total = record.ms_total, ms_max = record.ms_max,
     }, 0, PANEL_ORDER)
 end
 
@@ -2103,10 +2322,11 @@ local function encodeSession()
         },
         session_bytes = S.sessionBytes, metrics = metricsCopy(), last_flush = S.lastFlushStamp,
         text_fit = type(S.fixes) == "table" and type(S.fixes.TextFit) == "table" and S.fixes.TextFit.Mode or nil,
+        probes = S.probes,
     }, 0, {
         "schema", "sid", "slot", "version", "text_fit", "started", "last_flush", "flags", "dir", "prefix",
         "parts", "lines", "api", "gauges", "budget", "dropped", "errors", "counters", "pending",
-        "session_bytes", "metrics",
+        "session_bytes", "metrics", "probes",
     }) .. "\n"
 end
 
@@ -2382,6 +2602,7 @@ end
 local function afterMain()
     S.afterMain = true
     S.flushSoon = false
+    pcall(D.ProbeTrainTrade, "after_main")
     D.Flush(true)
     schedule()
 end

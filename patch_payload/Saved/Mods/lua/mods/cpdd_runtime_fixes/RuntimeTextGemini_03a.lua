@@ -245,6 +245,8 @@ return {
     ["Automatically exit after %s seconds"] = "Автоматически выйти через %s секунд",
     ["It seems he's trying to find his way home and fulfill an unfinished promise."] = "Кажется, он пытается найти дорогу домой и выполнить невыполненное обещание.",
     ["+<HighLight>30</> initial Mana, Attack increased by <HighLight>35%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>2</> allies for <HighLight>25%</> Max Health."] = "+<HighLight>30</> ед. стартовой маны, атака повышена на <HighLight>35%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>2</> союзников на <HighLight>25%</> макс. здоровья.",
+    ["Complete one Emperor's Return - Normal"] = "Пройти «Возвращение Императора · Обычный» 1 раз",
+    ["完成任务获得200猎杀进度，每日8点刷新。"] = "Выполните задание, чтобы получить 200 ед. прогресса охоты. Обновляется ежедневно в 8:00.",
     ["<Favorite1>灵性共鸣</>"] = "<Favorite1>Духовный резонанс</>",
     ["Astrid"] = "Астрид",
 }

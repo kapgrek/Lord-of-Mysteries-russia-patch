@@ -118,6 +118,13 @@
 
 Скиллы Claude Code: `/glossary-check` (Report → FixShort → сводка) и `/translate-chunk` (Export → субагент `ru-translator` на чанк, до 4 параллельно → Import → `VerifyBatch`). Агент `ru-translator` (`.claude/agents/ru-translator.md`) делает **минимальную правку**: меняет только термин с согласованием падежа, строку целиком переводит заново лишь при явном машинном мусоре.
 
+### Новые строки через ИИ (TASK-019)
+Для строк с пустым `target_ru` (выгрузки `StringDbGaps.ps1`, раздел 8) тот же конвейер работает в режиме **new**:
+* `GlossaryCheck.ps1 -ExportNew -BatchFile <батч> [-Count 50]` — чанки `temp/glossary_chunk_NNN.json` с `"mode": "new"`, `terms` (боевые характеристики строки) и `names` — имена, места, Пути, организации и понятия из `source/glossary/*.json`, чьё `cn` входит в `source_cn` (длинные раньше коротких);
+* агент `ru-translator` переводит такие строки с нуля по `source_cn` (`ref_en` — ориентир), термины и имена — строго по канону, короткие подписи — по UI Budget (раздел 5), переключатели «Вкл.» / «Выкл.»;
+* `-Import` общий: у новой строки разметка сверяется только с `source_cn`, канон — по `terms`.
+Скилл `/translate-chunk`, сценарий «Новые строки». Пачками по приоритету: сначала то, что было на экране (`-OnScreen`), затем новый контент KSBC (`-EmitData`), затем категории целиком; после каждой пачки — проверка в игре.
+
 ---
 
 ## 8. Добавление строк StringDB
@@ -125,10 +132,12 @@
 Строки StringDB (`Data/Excel/LanguageData/StringDB_CN_Data*`) переводятся в `Loader.TranslateDatabaseString` по ключу шарда: сначала китайский оригинал (`cn`), затем английский текст CPDD (`en`). Если ни один ключ не найден, диагностика пишет промах (`src=stringdb` в `absru-s*-untranslated-*.jsonl`) и в игре остаётся английский текст.
 
 Порядок работы:
-1. **Отчёт:** `tools/StringDbGaps.ps1 -Report [-Logs reference\logs\<папка>] [-Sid <сессия>]` — промахи по категориям (`autochess`, `formula`, `ui`, `quest`, `skill`, `npc`…) и CSV в `temp/stringdb_gaps.csv`. Колонка `on_screen` — строка видна в виджетах или данных той же сессии, с таких начинать.
-2. **Алиасы:** `-Aliases <батч>` — строки, которые отличаются от уже переведённого ключа только регистром, пробелами или тегами, записываются с готовым `target_ru`. Теги в таких записях сверить с ключом (`VerifyBatch` покажет ERR).
-3. **Новые строки:** `-Emit <батч> -Category <кат>[,<кат>]` дописывает в батч записи `{id, source_cn = cn (или en, если cn пуст), ref_en = en, target_ru = ""}`. Уже известные ключи пропускаются, id идут подряд после максимального. Категории `service` и `technical` (служебные имена, base64, id) не выгружаются.
-4. **Перевод:** `tools/BatchHelper.ps1 -Action Export -BatchFile <батч> -Count 100` → перевод чанка → `-Action Import -BatchFile <батч> -InputFile <ответ>`.
+1. **Отчёт:** `tools/StringDbGaps.ps1 -Report [-Logs reference\logs\<папка>] [-Sid <сессия>]` — промахи по категориям (`autochess`, `formula`, `ui`, `quest`, `skill`, `npc`…) и CSV в `temp/stringdb_gaps.csv`. Колонка `on_screen` — строка видна в виджетах или данных той же сессии, с таких начинать. С TASK-019 `on_screen` засчитывает и составные строки: текст виджета = текст строки + счётчик `（n/m）` / `(n/m)`, или текст строки длиной ≥ 6 символов входит в текст виджета.
+2. **Алиасы:** `-Aliases <батч>` — строки, которые отличаются от уже переведённого ключа только регистром, пробелами или тегами, записываются с готовым `target_ru`. Теги в таких записях сверить с ключом (`VerifyBatch` покажет ERR): перевод берётся у ключа, и его теги (`<Highlight>`) могут не совпасть с тегами строки (`<CostRed>`), а у ключа без тегов — наоборот.
+3. **Новые строки:** `-Emit <батч> -Category <кат>[,<кат>] [-OnScreen]` дописывает в батч записи `{id, source_cn = cn (или en, если cn пуст), ref_en = en, target_ru = ""}`; `-OnScreen` — только строки, бывшие на экране. Уже известные ключи пропускаются, id идут подряд после максимального. Категории `service` и `technical` (служебные имена, base64, id) не выгружаются.
+   * **Данные KSBC без StringDB:** `-EmitData <батч> -Fields BriefDescription,SkillDisc,Name,funcRep,itemDes,itemName,BuffName,BuffName1,BuffDisc` — китайский из полей данных (`src=data`, последний сегмент `field`) с `source_cn` = исходный текст поля и пустым `ref_en`. Пропускаются известные ключи, обрезанные строки (≥ 397 байт), `GossipSystem` (пузыри чата), `WidgetText`, `StringConst` (ники в аргументах) и поля `Desc`.
+   * **Английский из Blueprint** (нет ни в StringDB, ни в батчах): вручную, `source_cn` = `ref_en` = английский текст.
+4. **Перевод:** `GlossaryCheck.ps1 -ExportNew -BatchFile <батч>` → `ru-translator` (раздел 7, «Новые строки через ИИ») → `-Import`. Старый путь без ИИ-агента: `tools/BatchHelper.ps1 -Action Export -BatchFile <батч> -Count 100` → перевод чанка → `-Action Import -BatchFile <батч> -InputFile <ответ>`.
 5. **Проверка:** `tools\ShardCompiler.exe`, затем `tools\VerifyBatch.ps1` (ERR быть не должно).
 
 Правила ключей:

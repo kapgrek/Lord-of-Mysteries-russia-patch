@@ -254,4 +254,5 @@ return {
     ["Total Damage: Attack × 340% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,3.4}, Shield: Max Health × 40% = <img id=\"01\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,maxHp,0.4}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}, щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>40%</> = {*d,F1690001,maxHp,0.4}",
     ["回到选将区"] = "Вернуться к выбору фигур",
     ["<HighLight>残血解控隐匿</>"] = "<HighLight>При низком здоровье снимает контроль и скрывает</>",
+    ["Heart-Speak Interpretation"] = "Толкование голоса сердца",
 }

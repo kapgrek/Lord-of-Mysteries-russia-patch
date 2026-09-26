@@ -257,5 +257,6 @@ return {
     ["Armor-Eroding Device"] = "Бронеразъедающее устройство",
     ["Immediately gain 6 Gold Coins<HighLight></>, and thereafter gain 6 more Gold Coins at the start of each stage<HighLight></><HighLight></>."] = "Немедленно даёт <HighLight>6 золотых монет</>, а затем <HighLight>в начале каждого этапа</> — ещё <HighLight>6 золотых монет</>.",
     ["Complete a Fool's Gambit game"] = "Сыграть одну партию в «Гамбит Шута»",
+    ["进阶线路"] = "Продвинутый маршрут",
     ["Mavis"] = "Мэвис",
 }

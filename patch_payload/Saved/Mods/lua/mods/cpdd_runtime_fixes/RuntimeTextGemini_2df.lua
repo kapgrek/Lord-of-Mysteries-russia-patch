@@ -244,6 +244,7 @@ return {
     ["Master various strange but limited-harm Illusion Tricks, showcase magnificent performances through specialized prop boxes, fool the viewers, and capture a Record of the moment.\nIncreases your Knowledge by 3 and Might by 1."] = "Овладейте причудливыми, но безобидными иллюзорными фокусами, чтобы показывать эффектные представления с помощью особого реквизита, морочить зрителей и запечатлеть этот миг.\nПовышает собственное Знание на 3 и Силу на 1.",
     ["Extraordinary Gift: <HighLight>80</> Quest points"] = "Дар судьбы: <HighLight>80</> очков заданий",
     ["Charge a heavy blow against nearby targets."] = "Наносит ближайшей цели заряженный тяжёлый удар.",
+    ["每秒损失1%最大生命，持续4秒"] = "Теряет 1% макс. здоровья в секунду в течение 4 сек.",
     ["Brill"] = "Брилл",
     ["Post-processing type configuration not found"] = "Конфигурация типа постобработки не найдена",
 }

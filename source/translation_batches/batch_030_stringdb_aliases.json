@@ -1984,5 +1984,89 @@
     "source_cn": "Effect when player obtains Gold Coin",
     "ref_en": "Effect when player obtains Gold Coin",
     "target_ru": "Эффект получения игроком золотой монеты"
+  },
+  {
+    "id": "132959",
+    "source_cn": "暴击叠加伤害",
+    "ref_en": "Critical hits stack damage.",
+    "target_ru": "Криты накапливают урон"
+  },
+  {
+    "id": "132960",
+    "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>140</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>205</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,3,（烙印已失效）}</>Crit rate increased by <Mark>140</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>205</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,（已净化）}</>\nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Критическая атака увеличена <Mark>140</>, сопротивление критической атаке уменьшено <Mark>15</>, значение загрязнения увеличено <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>205</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+  },
+  {
+    "id": "132961",
+    "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>160</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>235</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
+    "ref_en": "<CostRed>{1,3,（烙印已失效）}</>Crit rate increased by <Mark>160</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>235</>. \ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,（已净化）}</>\nCurrent corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
+    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Критический удар увеличивается на <Mark>160</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>235</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+  },
+  {
+    "id": "132962",
+    "source_cn": "　　你一觉醒来，却成了另一个人——霍伊大学历史系毕业生，有一个哥哥和一个妹妹，口袋里只剩几枚便士。这算什么？一场离奇的梦，还是命运开的一个玩笑？\n\n　　穿越，这是克莱恩给自己的第一个答案。\n　　他以为这只是一次意外的偏离，以为只要找到回家的路，就能回到原来曾经的家，回到那个不需要扮演任何人的世界。于是他小心翼翼地披上“克莱恩”的外壳，学习非凡，总结扮演法则，从泛黄的典籍里试着拼凑出一条归乡的路。\n\n　　可故事并未朝着他所期待的方向发展。长辈失控，队长牺牲，身不由己地卷入了一场与己无关的巨大阴谋。他死过一次，又从深渊的边缘死而复生。当他再度睁开眼时，发现自己早已不再是这个世界的过客，那些真实存在过的温暖与记忆，已经成了他维系人性、不可或缺的锚点。\n\n　　只是，现在的它们都被无情地碾碎了。于是他暂时收起“回家”的执念，走上另一条路——复仇。不再徘徊，不再犹豫。他开始谋划，开始变强，戴上小丑的面具，在灰雾之上以“愚者”之名俯瞰众生。\n　　“总有一天，我会回去的。”他低声说，“但不是现在。”\n　　还有太多账没有算清，太多人还没等到迟来的审判。回家，似乎成了一个遥远而漫长的目标。\n　　“但幸运的是，我是一个有耐心的人。”\n\n　　灰雾之上，“愚者”先生缓缓睁开了眼睛。 ",
+    "ref_en": "You wake up to find yourself in someone else's body—a history graduate from Khoy University with an older brother and a younger sister, and only a few pennies left in your pocket. What is this? A bizarre dream, or a joke played by fate? \n\n Transmigration—this was the first answer Klein gave himself. \n He thought this was merely an accidental deviation, believing that as long as he found the way home, he could return to his original home, to that world where he didn't need to act as anyone else. So, he carefully donned the shell of \"Klein,\" learned about the Extraordinary, summarized the laws of Acting, and tried to piece together a path home from yellowed classics. \n\n But the story did not develop in the direction he had hoped. Elders lost control, the captain sacrificed himself, and he was involuntarily drawn into a massive conspiracy that had nothing to do with him. He died once, only to be resurrected from the edge of the abyss. When he opened his eyes again, he realized he was no longer a mere passerby in this world; those warm memories that had truly existed had become the indispensable anchors that sustained his humanity. \n\n It’s just that they have all been ruthlessly crushed now. So, he temporarily set aside his obsession with \"going home\" and embarked on another path—revenge. No more wandering, no more hesitation. He began to scheme, began to grow stronger, donned the mask of a Clown, and looked down upon all living beings from above the gray fog in the name of \"The Fool.\" \n \"One day, I will go back,\" he whispered, \"but not now.\" \n There are still too many debts left unsettled, too many people who haven't yet received their long-overdue judgment. Going home seems to have become a distant and long-term goal. \n \"But fortunately, I am a patient person.\" \n\n Above the gray fog, Mr. Fool slowly opened his eyes.",
+    "target_ru": "Вы просыпаетесь другим человеком – выпускником исторического университета Хой, с братом и сестрой, и всего лишь несколькими монетами в кармане. Что это? Причудливый сон или шутка судьбы? \n\n Путешествие во времени, это был первый ответ, который дал себе Кляйн. \n Он подумал, что это просто неожиданное отклонение. Он думал, что, найдя дорогу домой, он сможет вернуться в свой родной дом и вернуться в мир, где ему не нужно никого играть. Поэтому он тщательно надел оболочку «Кляйна», экстраординарно учился, обобщал правила актерского мастерства и пытался собрать воедино путь домой от пожелтевшей классики. \n\nНо история развивалась не в том направлении, в котором он ожидал. Старший потерял управление, капитан погиб, и он невольно оказался втянутым в огромный заговор, не имеющий к нему никакого отношения. Он умер один раз и снова воскрес из края пропасти. Когда он снова открыл глаза, он обнаружил, что он больше не прохожий в этом мире. Это настоящее тепло и воспоминания стали для него незаменимым якорем, позволяющим сохранять человечность. \n\nНо теперь их всех беспощадно давят. Поэтому он на время отказался от своей одержимости «возвращаться домой» и встал на другой путь — мести. Больше никаких блужданий, никаких колебаний. Он начал планировать, стал становиться сильнее, надел маску клоуна и во имя «Шута» смотрел на все живое сверху вниз над серым туманом. \n «Однажды я вернусь». Он прошептал: «Но не сейчас». \n Еще слишком много счетов не урегулировано, и слишком много людей не дождались запоздалого суда. Возвращение домой кажется далекой и долгой целью. \n «Но, к счастью, я терпеливый человек». \n\n Над серым туманом Мистер медленно открыл глаза."
+  },
+  {
+    "id": "132963",
+    "source_cn": "<Assistant_Title1>【猎龙奇谭】</>\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\n<Assistant_Title2>任务描述：</>那边的人……好像有点眼熟？他看上去遇到了什么麻烦？ \n<Assistant_Title2>领取方式：</>完成主线剧情第五章《廷根守护者》，且扮演等级达到<Assistant_Red>62级</>后，前往{Location:[廷根(927,700)]|-7360;-29730;-1330;2;5200002;0}可触发任务\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
+    "ref_en": "<Assistant_Title1>【Dragon Hunting Tale】</>\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\n<Assistant_Title2>Quest Description: </>That person over there... do they look familiar? Does it seem like they're in some kind of trouble? \n<Assistant_Title2>How to Accept: </>After completing Main Story Chapter 5 \"Tingen Guardian\" and reaching Acting Level <Assistant_Red>62</>, head to {Location:[Tingen (927,700)]|-7360;-29730;-1330;2;5200002;0} to trigger the quest.\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, bound soli, Invoices, Adventure Medals, World Adventure Treasure Progress",
+    "target_ru": "<Assistant_Title1>[История охоты на дракона]</> \n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Люди там... кажутся знакомыми? В какой беде он оказался? \n<Assistant_Title2>Как получить: </>После завершения пятой главы основного сюжета «Страж Тингена» и достижения уровня <Assistant_Red>62</>, перейдите в {Location:[Tingen(927,700) )]|-7360;-29730;-1330;2;5200002;0} можно активировать задания \n<Assistant_Title2>награды за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+  },
+  {
+    "id": "132964",
+    "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">猎魔瞬斩</>获得新的分支<HyperLink stylename=\"M_Link\" u=\"86061025\" color=\"#f4a067\">驱魔卫斩</>：防御形态下，对敌方释放时与原<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">猎魔瞬斩</>效果一致，对友方释放时为友方解除弱控和减速，并附加20%的减伤和25%的移速增加，持续5秒。",
+    "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">Demon Hunter Instant Slash</> gains a new branch, <HyperLink stylename=\"M_Link\" u=\"86061025\" color=\"#f4a067\">Exorcism Slash</>: When in Defense Form, using it on an enemy has the same effect as the original <HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">Demon Hunter Instant Slash</>. When used on an ally, it removes soft crowd control and slow effects from them, and grants them 20% damage reduction and a 25% movement speed increase for 5 seconds.",
+    "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86061020\" color=\"#f4a067\">Мгновенный удар Охотника на демонов</> получает новую ветвь <HyperLink stylename=\"M_Link\" u=\"86061025\" color=\"#f4a067\">Exorcism Slash</>: в защитной форме его выпуск на врага имеет тот же эффект, что и оригинальный Мгновенный удар Охотника на демонов. При использовании его на союзнике снимается эффект мягкого контроля толпы и замедления, а также снижается урон на 20% и увеличивается скорость передвижения на 25% на 5 секунд."
+  },
+  {
+    "id": "132965",
+    "source_cn": "Happy birthday!",
+    "ref_en": "Happy birthday!",
+    "target_ru": "С днем рождения!"
+  },
+  {
+    "id": "132966",
+    "source_cn": "Steam above!",
+    "ref_en": "Steam above!",
+    "target_ru": "Пар всемогущий!"
+  },
+  {
+    "id": "132967",
+    "source_cn": "Terrifying... to be able to open up a world in the Spirit World and build such a magnificent structure, I admire the big shot behind it more and more.",
+    "ref_en": "Terrifying... to be able to open up a world in the Spirit World and build such a magnificent structure, I admire the big shot behind it more and more.",
+    "target_ru": "Ужасно... Чтобы иметь возможность открыть мир в Мире Духов и построить такое великолепное сооружение, я все больше и больше восхищаюсь той важной фигурой, которая стоит за ним."
+  },
+  {
+    "id": "132968",
+    "source_cn": "Reimbursement form",
+    "ref_en": "Reimbursement form",
+    "target_ru": "Форма возмещения"
+  },
+  {
+    "id": "132969",
+    "source_cn": "State identity",
+    "ref_en": "State identity",
+    "target_ru": "Государственная идентичность"
+  },
+  {
+    "id": "132970",
+    "source_cn": "Sincere persuasion",
+    "ref_en": "Sincere persuasion",
+    "target_ru": "Искреннее убеждение"
+  },
+  {
+    "id": "132971",
+    "source_cn": "Kind comfort",
+    "ref_en": "Kind comfort",
+    "target_ru": "Добрый комфорт"
+  },
+  {
+    "id": "132972",
+    "source_cn": "A Sacrifice",
+    "ref_en": "A Sacrifice",
+    "target_ru": "Жертва"
   }
 ]

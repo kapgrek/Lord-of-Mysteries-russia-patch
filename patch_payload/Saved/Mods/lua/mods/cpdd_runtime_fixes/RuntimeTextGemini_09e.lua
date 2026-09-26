@@ -299,6 +299,7 @@ return {
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>412%</> = {*d,F1690001,atkMin,4.12}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>412%</> = {*d,F1690001,atkMin,4.12}",
     ["Heal and protect nearby allies, randomly gaining one type of balance."] = "Лечит и защищает союзников рядом, случайно получает один вид остатка.",
     ["3-4 选秀"] = "3-4 Выбор фигур",
+    ["Gain a shield equal to 20% of Max Health, lasting 7.5 seconds."] = "Получает щит на 20% макс. здоровья на 7,5 сек.",
     ["Club Activity +1500"] = "Клубная активность +1500",
     ["此为战场的叹息遗音，亦是命运的必然回响。"] = "Это вздыхающее эхо поля битвы, а также неизбежный резонанс судьбы.",
 }

@@ -274,4 +274,5 @@ return {
     ["After dealing damage, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds."] = "После нанесения урона снижает защиту цели на <HighLight>45%</> на <HighLight>3</> сек.",
     ["After opening, you can choose 1 piece of Sealed Equipment from the candidates."] = "После открытия можно выбрать 1 предмет запечатанного снаряжения из предложенных.",
     ["Player Health is exactly 1."] = "Здоровье игрока — ровно 1",
+    ["随机案宗"] = "Случайное дело",
 }
