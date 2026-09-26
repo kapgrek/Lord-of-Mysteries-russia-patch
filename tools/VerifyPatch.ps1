@@ -125,6 +125,8 @@ function Test-LuaModule([string]$path, [int]$maxLocals) {
 $errors += Test-LuaModule (Join-Path $shardsDir "Init.lua") 190
 # Модуль диагностики (TASK-005) - отдельный чанк; держим его компактным.
 $errors += Test-LuaModule (Join-Path $shardsDir "AbsruDiagnostics.lua") 150
+# Выгрузка ассетов (TASK-018), dev-only.
+$errors += Test-LuaModule (Join-Path $shardsDir "AbsruAssetExport.lua") 100
 
 if ($errors -eq 0) {
     Write-Host "`nВсе ключевые компоненты русской локализации успешно проверены и готовы к установке!" -ForegroundColor Green

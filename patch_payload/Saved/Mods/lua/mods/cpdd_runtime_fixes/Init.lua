@@ -1429,6 +1429,20 @@ if Loader.DevFlags then
     else
         report("diagnostics unavailable: " .. tostring(err))
     end
+    -- TASK-018: AssetExport = { Panels = {...}, Probe = true } in absoluteru_dev.lua.
+    local exportFlags = Loader.DevFlags.AssetExport
+    if runtimeFixes.Diag and type(exportFlags) == "table" and next(exportFlags) ~= nil then
+        local okExport, export = pcall(require, "mods.cpdd_runtime_fixes.AbsruAssetExport")
+        local exportStarted, exportErr = false, export
+        if okExport and type(export) == "table" then
+            exportStarted, exportErr = pcall(export.Start, Loader, runtimeFixes, VERSION, runtimeFixes.Diag)
+        end
+        if exportStarted and exportErr == true then
+            runtimeFixes.AssetExport = export
+        else
+            report("asset export unavailable: " .. tostring(exportErr))
+        end
+    end
 end
 
 -- Release logs keep failures and one startup summary. Routine install,
@@ -11392,6 +11406,7 @@ local function installEventDrivenPanelRepair(value, environment)
                     report("event-driven panel repair failed safely: " .. tostring(err))
                 end
                 if methodName == "Open" and runtimeFixes.Diag then runtimeFixes.Diag.OnPanelOpen(self) end
+                if methodName == "Open" and runtimeFixes.AssetExport then runtimeFixes.AssetExport.OnPanelOpen(self) end
                 return unpack(results)
             end, { module = "Framework.KGFramework.KGUI.Core.UIComponent" })
         end

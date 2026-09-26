@@ -1699,6 +1699,36 @@ function D.OnPanelOpen(component)
     end
 end
 
+-- Panel walk for AbsruAssetExport (TASK-018): the same roots and children as
+-- the diagnostics walk, without its visitor or counters. Returns
+-- step(deadline, visit) -> done; visit(widget) returning true stops the walk.
+function D.NewPanelWalk(component)
+    local job = newWalkJob(component, componentUid(component))
+    return function(deadline, visit)
+        local stack, visited = job.stack, job.visited
+        while #stack > 0 do
+            if nowMs() >= deadline then
+                return false
+            end
+            local widget = stack[#stack]
+            stack[#stack] = nil
+            if widget ~= nil and not visited[widget] then
+                visited[widget] = true
+                job.nodes = job.nodes + 1
+                if job.nodes > WALK_NODE_MAX then
+                    return true
+                end
+                local ok, stop = pcall(visit, widget)
+                if ok and stop == true then
+                    return true
+                end
+                pushChildren(stack, widget)
+            end
+        end
+        return true
+    end
+end
+
 -- Summaries ------------------------------------------------------------------
 
 local HOOK_ORDER = {
