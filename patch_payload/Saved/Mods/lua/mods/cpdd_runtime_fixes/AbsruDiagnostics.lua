@@ -331,6 +331,8 @@ encodeValue = function(value, depth, order)
 end
 
 D.EncodeJson = encodeValue
+-- Marks a table as a JSON array, so an empty one encodes as [] (AbsruAssetExport).
+D.JsonArray = array
 
 -- Text helpers -------------------------------------------------------------
 
@@ -1701,9 +1703,11 @@ end
 
 -- Panel walk for AbsruAssetExport (TASK-018): the same roots and children as
 -- the diagnostics walk, without its visitor or counters. Returns
--- step(deadline, visit) -> done; visit(widget) returning true stops the walk.
+-- step(deadline, visit) -> done; visit(widget, parent) returning true stops
+-- the walk. parent is the node whose children pushed the widget (nil for roots).
 function D.NewPanelWalk(component)
     local job = newWalkJob(component, componentUid(component))
+    local parents = {}
     return function(deadline, visit)
         local stack, visited = job.stack, job.visited
         while #stack > 0 do
@@ -1718,11 +1722,18 @@ function D.NewPanelWalk(component)
                 if job.nodes > WALK_NODE_MAX then
                     return true
                 end
-                local ok, stop = pcall(visit, widget)
+                local ok, stop = pcall(visit, widget, parents[widget])
                 if ok and stop == true then
                     return true
                 end
+                local first = #stack + 1
                 pushChildren(stack, widget)
+                for index = first, #stack do
+                    local child = stack[index]
+                    if parents[child] == nil then
+                        parents[child] = widget
+                    end
+                end
             end
         end
         return true

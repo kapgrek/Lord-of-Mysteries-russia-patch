@@ -165,6 +165,74 @@ powershell -ExecutionPolicy Bypass -File tools\CollectDiagLogs.ps1
 
 Параметры: `-GameDir <…\C7>` (по умолчанию `D:\Games\GMZZLauncher\Game\C7`), `-Out <папка>`, `-Session latest|all|<sid>` (по умолчанию последняя), `-Aggregate` (все папки `reference\logs\*`; хук мёртвый, только если мёртв во всех сессиях), `-NoCopy` (только отчёты по уже скопированному), `-LogsRoot`.
 
+## Выгрузка ассетов: AssetExport (TASK-018)
+
+Модуль `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruAssetExport.lua` (только для разработки) выгружает вкладку «Божий путь» из памяти игры, без AES-ключа: текстура рисуется Canvas в render target, а `KismetRenderingLibrary.ExportRenderTarget` сохраняет её в PNG. `Init.lua` загружает модуль только при непустой таблице `AssetExport` в `absoluteru_dev.lua` и запущенной `AbsruDiagnostics`: модуль берёт у неё JSON (`D.EncodeJson`, `D.JsonArray`) и обход панели (`D.NewPanelWalk`, визитор получает `widget, parent`). Вызывается из хука `UIComponent.Open` рядом с `Diag.OnPanelOpen`. Модуль реагирует только на корневой компонент, у которого `userWidget` называется как uid, а не на дочерний `WBP_ComBackTitle`. План, пробы и выводы: [tasks/TASK-018-godway-export.md](tasks/TASK-018-godway-export.md).
+
+```lua
+AssetExport = { Panels = { "GodWay_Panel" }, Probe = false },
+```
+
+| Поле | Значение |
+|---|---|
+| `Panels` | uid панелей |
+| `Probe` | `true` — проба шага 0 (`probe.json`); `"retainer"` — проба 4, RetainerBox (`probe_retainer.json`); `false` или нет — полная выгрузка |
+| `Calib` | `false` — полная выгрузка без эталонных кадров RetainerBox (по умолчанию `true`) |
+| `FrameBudgetMs` / `TimelineBudgetMs` / `SnapshotBudgetMs` | 4 / 4 / 12 мс за тик: обход и материалы / дорожка / снимок раскладки. Экспорт PNG в бюджет не входит (одна операция за тик) |
+| `MaxFiles` / `MaxMB` | потолок всей выгрузки, по умолчанию 3000 PNG / 600 МБ |
+
+**Правила slua, подтверждённые пробами.** Out-параметры передаются аргументами и обязательно **экземплярами** структур: `FVector2D(0,0)`, `DrawToRenderTargetContext()`. `nil` или сам тип структуры не подходят. Рабочий конвейер: `CreateRenderTarget2D` → `ClearRenderTarget2D` → `BeginDrawCanvasToRenderTarget(ctx, rt, nil, FVector2D(0,0), DrawToRenderTargetContext())` → `Canvas:K2_DrawTexture(…, BLEND_Opaque)` (прямая альфа, RGB прозрачных пикселей сохраняется) → `EndDrawCanvasToRenderTarget` → `ExportRenderTarget` → `ReleaseRenderTarget2D`. `ExportTexture2D` даёт файл 0 байт. `DrawMaterialToRenderTarget` не рисует материалы домена UI (кадр 0,0,0,0), поэтому анимацию снимает RetainerBox.
+
+### Режимы
+- **`Probe = true` (шаг 0).** Через 3 с после открытия, по одной стадии за тик: `api`, `context`, `rt_clear`, `find`, `texture_canvas`, `sprite`, `mid_params`, `mid_draw`, `mid_draw_2`, `engine_material`, `texture_direct`. Строка `[AbsruExport] probe …`.
+- **`Probe = "retainer"` (проба 4, шаг 3.0).** Через 3 с после открытия выполняются стадии `api`, `context`, `find` (иконка `UI_GodWay_Icon_Class*`, MID `Img_Bg01`, MID `liudong04` у `Img_Lev3Bg02`), затем:
+  - `cvar`: `KismetSystemLibrary.GetConsoleVariableIntValue("Slate.EnableRetainedRendering")`;
+  - `create`: `RetainerBox` и `Image` создаются через `WidgetTree:ConstructWidget` → `ObjectActorManager:KGNewObject` → `NewObject` и кладутся в корневую `CanvasPanel` (`AddChildToCanvas`, `ZOrder` −1000, позиция 0,0);
+  - `setup`: effect-материал — MID от `/Engine/EngineMaterials/Widget3DPassThrough`, `SetTextureParameter("SlateUI")`, `SetRetainRendering(true)` (или поле `bRetainRender`), `SetRenderingPhase(0, 1)`. В JSON попадает список методов и полей RetainerBox;
+  - `icon`: RT берётся как `GetEffectMaterial():K2_GetTextureParameterValue("SlateUI")`. Texture2D в этом параметре означает значение по умолчанию: retainer ещё не рисовал, тогда ожидание до 20 тиков. RT выгружается напрямую, а также копиями Canvas Opaque в `RTF_RGBA8_SRGB` и `RTF_RGBA8`. Эталоном служит сама иконка через Canvas. Сравнение сетки 6×6 даёт `copy=srgb|linear` (какая копия совпала с прямым экспортом) и `alpha=straight|premultiplied|unknown`;
+  - `mid`: `Img_Bg01` в 1024×1012, два кадра с интервалом 0,5 с, `animated`, `copy_ms`, `export_ms`, прямой экспорт первого кадра;
+  - `mid_small`: то же для `liudong04` в размере `ImageSize` (≤ 1024);
+  - `cleanup`.
+- **`Probe = false` (полная выгрузка, шаги 1–3).** Описана ниже.
+
+### Полная выгрузка: порядок
+- **0 с (Open корня).** Обход `open`: виджеты для дорожки, ресурсы кистей, MID с MI `*_Animated`. Открывается окно дорожки на 10 с. Сразу стартуют серия `calib/<MI>_open/` для каждого `_Animated` (кадр каждый тик до 2 с от открытия, не больше 40) и контрольная иконка `calib/_control/`.
+- **3 с.** Обход `full`, затем снимок раскладки `layout_001.json`. Начинается экспорт текстур: не раньше чем через 2 с после `SetForceMipLevelsToBeResident(30, 0)`, одна операция за тик, кадры calib раньше текстур. Идут регулярные серии calib, по 2 одновременно: одна серия на пару «MI родитель MID + размер кисти», моменты 0, 1, 2, 3 тика, затем +0,25 / 0,5 / 1 / 2 / 4 с, копии в пул RT (≤ 256 МБ), экспорт после серии.
+- **Смена пути.** Раз в 1 с строится подпись из Lua-полей компонента панели (имена с `select`, `index`, `cur`, `way`, `path`, `tab`, `page`, `id`), кистей иконок `Icon_Class` и первых 30 текстов. Ключи, которые меняются сами в первые 15 с, и ключи, появившиеся позже, не учитываются. Подпись изменилась → окно дорожки на 5 с, обход `path`, через 2 с снимок с новым `path_index`. К уже виденной подписи возвращается её прежний индекс.
+- **Конец.** 30 с без работы → `done reason=idle` (при новой смене пути выгрузка продолжится, и позже будет ещё одна строка `done`). Закрытие панели → `done reason=panel closed`; незаконченное помечается `skipped: panel closed`: контекст мира — `userWidget` панели, без него рисовать нельзя. Повторное открытие панели продолжает ту же выгрузку.
+- Свои RetainerBox и Image в обход и раскладку не попадают. Если первый экспорт не создал подпапку, имена становятся плоскими (`textures+x.png`, `export_state.json → flat`), и `GodWayExport.ps1` восстанавливает папки.
+
+### Файлы (`Saved/Mods/logs/godway/`; запасной вариант — `Saved/Mods/logs/godway-*`)
+
+| Файл | Содержимое |
+|---|---|
+| `export_state.json` | `status`, `api`, `context` (`viewport`, `viewport_scale`), `walks[]`, `paths[]` (`t`, `path_index`, `key`), `component_fields` (скалярные поля Lua-компонента панели), `local_to_viewport` (какая сигнатура сработала), `calib` (`available`, `alpha`, `copy_format`, `series[]`), `files`, `mb`, `limited`, `queue`, `errors` |
+| `textures.json`, `textures/*.png` | `textures[]`: `path`, `name`, `file`, `file_linear`, `w`, `h`, `SRGB`, `CompressionSettings`, `AddressX`, `AddressY`, `Filter`, `LODGroup`, `rt_format`, `streamed` (`true` / `false` / `"unknown"`), `force_mips`, `source` (`brush`, `material`, `material_streaming`, `material_cached`), `status`, `error`; `unknown_resources[]` — прочие классы кистей и параметров без выгрузки. Формат RT выбирается по `SRGB`: `true` → `RTF_RGBA8_SRGB`, `false` → `RTF_RGBA8`; если флаг не прочитался, выгружаются оба варианта (`<имя>.srgb.png`, `<имя>.linear.png`) |
+| `sprites.json`, `atlases/*.png` | `atlases[]` (поля текстуры атласа, `AtlasWidth`, `AtlasHeight`, `AtlasFilter`, `BatchAtlasIndex`, `count`); `sprites[]` — **все** записи `KGSpriteAtlas.Sprites`: `sprite`, `atlas`, `x`, `y`, `w`, `h` в пикселях атласа; `sprite_assets` — путь KGSprite → `atlas`, `sprite` |
+| `materials.json` | `materials{путь}`: `class`, `chain[]` (MID → MIC → … → Material: `path`, `class`, `scalar[]`, `vector[]`, `texture[]`), `parent`, `mi`, `base`, `effective` (`K2_Get*ParameterValue` по объединению имён всех MI той же базы, включая имена из `CachedExpressionData`), `widgets`; `bases{Material}`: `instances[]`, `mids`, `widgets`; `base_materials{Material}`: `props` (`BlendMode`, `MaterialDomain`, `TwoSided`, …), `fields` (`__pairs`, верхний уровень), `texture_streaming[]`, `cached` / `referenced_textures` / `parameter_names` / `ScalarValues` / `VectorValues` / `TextureValues` (если читаются); `names{Material}`: объединённые имена. Все текстуры-параметры выгружаются в `textures/` |
+| `layout.json`, `layout_NNN.json` | Индекс снимков и сами снимки: `t`, `path_index`, `path_key`, `viewport`, `viewport_scale`, `root` (геометрия панели), `widgets[]`: `id`, `name`, `class`, `parent` (узел обхода), `panel` / `index` (`GetParent`, `GetChildIndex`), `slot` (`position`, `size`, `anchors`, `alignment`, `autosize`, `zorder`, `padding`, `halign`, `valign`, `size_rule`), `geom` (`abs`, `abs_size`, `local_size`, `px`, `px_end`, `vp` — пиксели вьюпорта через `LocalToViewport`), `opacity`, `transform`, `pivot`, `visibility`, `clipping`, `color`, `brush` (`draw_as`, `tiling`, `mirroring`, `margin`, `tint`, `image_size`, `uv_region`, `resource` = `{kind: texture|sprite|material|unknown, path, atlas, sprite}`), `text` (`text`, `font`, `color`, `justification`). В снимок попадают только виджеты последнего обхода |
+| `timeline.json` | `windows[]`, `rates` (`samples_per_s`, `sweeps_per_s`, `tracks`, `active`), `animations[]` (`WidgetAnimation` в полях UserWidget: `owner`, `name`, `start`, `end`), `events[]` = `{t, rt, o, k, id, p, v}`: `t` — мс от открытия, `rt` — `GameplayStatics.GetRealTimeSeconds`, `o` — номер открытия, `k` = `w` (виджет, `id` из раскладки; `p` = `opacity`, `transform`, `visibility`, `color`, `tint`) или `m` (MID, `id` = путь; `p` = `s:<имя>` / `v:<имя>`). Пишутся первое значение и изменения. Треки, которые уже менялись, опрашиваются каждый тик, остальные — по кругу |
+| `calib/<MI>[_open]/NNN.png`, `frames.json` | `kind` (`regular`, `open`, `control`), `mi`, `mid`, `size`, `image_size`, `scale` (фон — 0,5), `rt` (класс, размер, формат RT retainer), `copy_format`, `alpha`, `status`, `frames[]` (`file`, `t`, `rt_s`, `params` — действующие scalar/vector MID, `export`). `_control/`: `000.png` (копия sRGB), `001.png` (копия linear), `icon_direct.png`, в `control` — сравнение с эталоном |
+
+**Потолок.** Считается по несжатому RGBA (w × h × 4, PNG на диске меньше). Кадры calib занимают не больше 75 % потолка: дальше `limit part=calib`, и выгрузка идёт без них. На 100 % — `limit part=all`: экспорт PNG останавливается, JSON дописываются.
+
+### Строки C7.log
+- `[AbsruExport] ready dir=<папка> mode=probe|retainer|full panels=…`
+- `[AbsruExport] probe api=… file=… canvas=… engine=… sprite=… mid_draw=… animated=… ctx=… json=…`
+- `[AbsruExport] retainer cvar=<0|1> create=<путь|fail> rt=<класс WxH fmt=…|nil> icon=<ok|black|fail> copy=<srgb|linear> alpha=<straight|premultiplied|unknown> mid=<ok|black|fail> animated=<yes|no> small=<…>/<yes|no> export_ms=<n> copy_ms=<n> json=…`
+- `[AbsruExport] full open=<n> panel=… calib=<true|false> budget_ms=…`
+- `[AbsruExport] snapshot index=<n> path=<path_index> widgets=<n> ms=<n> scanned=<n>`: снимок записан, можно листать дальше
+- `[AbsruExport] limit part=<calib|all> files=… mb=… max_files=… max_mb=…`
+- `[AbsruExport] done files=<n> mb=<m> textures=<n> sprites=<n> materials=<n> calib=<n> timeline=<событий> snapshots=<n> paths=<n> reason=<idle|panel closed|…> limit=<yes|no> json=…`
+- `[AbsruExport] error stage=<этап>: …` (первые 3 на этап; после 200 ошибок — `[AbsruExport] disabled: …`); `[CPDDRuntimeFix] asset export unavailable: …` — модуль не запустился.
+
+### Сбор
+```
+powershell -ExecutionPolicy Bypass -File tools\GodWayExport.ps1 -ProbeOnly   # пробы: raw/<дата>/probe_summary.md
+powershell -ExecutionPolicy Bypass -File tools\GodWayExport.ps1              # полная выгрузка
+```
+Из игры скрипт только читает: `logs/godway/**` (или `godway-*`), строки `[AbsruExport]` из C7.log, `absoluteru_dev.lua`. Всё копируется в `reference/godway_export/raw/<yyyy-MM-dd_HHmm>/`. Затем скрипт собирает `reference/godway_export/`: `textures/`, `atlases/`, `calib/`, `textures/sprites/*.png` (нарезка по `sprites.json` через `LockBits` `Format32bppArgb`, построчное копирование байтов без премультипликации и сглаживания), проверку PNG (сигнатура, размер ≠ 0, совпадение с `textures.json` / `sprites.json` / `frames.json`), `layout.json` (индекс со всеми снимками), копии JSON, `manifest.json` (путь, вид, байты, sha256, размер PNG) и `summary.md` (файлы по типам, базовые материалы, `streamed != true`, непрочитанный `SRGB`, calib, строки done/limit/error, проблемы). Производные папки и файлы пересобираются целиком, `raw/` и `demo/` не трогаются. `-FromRaw <папка raw>` собирает выгрузку заново без игры, `-GameDir` и `-Out` — как у `CollectDiagLogs.ps1`.
+
 ## Чек-лист проверки в игре
 1. Установить сборку v2.9.9-RU (`build\Lord-of-Mysteries-Russian-Patch.exe`: он возьмёт `patch_payload` из репозитория).
 2. **Сначала без флагов:** запустить игру, пройти пару экранов. В `Saved\Logs\C7.log` должна быть строка `v2.9.9-RU active hooks_installed=` и **не должно быть** `[AbsruDiag]`; строк `[CPDDRuntimeFix]`, кроме этой, `cyrillic font mode=…`, `text fit mode=…` (и, возможно, `text fit prepass=…`) и ошибок, быть не должно. Папка `Saved\Mods\logs\` не появилась. Субъективно подвисаний не больше, чем на v2.9.0.
