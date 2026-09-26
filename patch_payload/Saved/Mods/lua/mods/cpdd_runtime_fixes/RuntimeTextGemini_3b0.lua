@@ -45,7 +45,7 @@ return {
     ["Anthea will summon blue butterflies; the <Disable> blue butterflies </> continuously deal damage to the surroundings."] = "Антея вызовет синих бабочек; синие бабочки <Disable> </> постоянно наносят урон окружающей среде.",
     ["%s liked you."] = "%s ты понравился.",
     ["Complete the \"Carrion Eater\" event"] = "Завершите событие «Пожиратель мертвечины».",
-    ["Tarot Gray Fog Hugh"] = "Таро Грей Туман Хью",
+    ["Tarot Gray Fog Hugh"] = "Таро Грей Туман Сио",
     ["A wall surface built from cold and hard stone, with windows made of blue mosaic adding a touch of lively vitality."] = "Поверхность стен построена из холодного и твердого камня, а окна из голубой мозаики придают помещению нотку живой жизненной силы.",
     ["Trissy Story Battle_Dance of Dark Ember A1"] = "История Трисси Battle_Dance of Dark Ember A1",
     ["You really do know about that place!"] = "Вы действительно знаете об этом месте!",

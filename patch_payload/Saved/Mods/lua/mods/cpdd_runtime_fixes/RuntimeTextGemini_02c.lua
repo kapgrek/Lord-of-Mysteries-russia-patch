@@ -132,7 +132,7 @@ return {
     ["魔法途径专攻"] = "Специализация магического Пути",
     ["黄金燃尽之后，光芒仍在灼烫。"] = "Когда золото сгорает дотла, его свет все еще обжигает.",
     ["Preload Crimson Descent"] = "Предзагрузка: Алое нисхождение",
-    ["I heard that you and Miss Xio Derecha are very good friends?"] = "Я слышал, вы близко дружите с мисс Сью Деречей?",
+    ["I heard that you and Miss Xio Derecha are very good friends?"] = "Я слышал, вы близко дружите с мисс Сио Деречей?",
     ["Pete at the Altar"] = "Пит у алтаря",
     ["Southwest 10"] = "Юго-запад 10",
     ["If every little gentleman were as leisurely as you..."] = "Если бы все юные джентльмены вели такую же праздную жизнь, как вы...",

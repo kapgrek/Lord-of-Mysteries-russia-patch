@@ -213,7 +213,7 @@ return {
     ["Sequence advancement <HighLight>7 Astrologer</>"] = "Продвижение последовательности <HighLight>7 Астролог</>",
     ["You need a powerful, reliable, loyal, and cautious Guardian."] = "Вам нужен сильный, надежный, верный и осторожный Страж.",
     ["This... I'm not too sure either."] = "Это... Я тоже не слишком уверен.",
-    ["Hugh, the Imperative Mage"] = "Хью, Императивный Маг",
+    ["Hugh, the Imperative Mage"] = "«Адвокат» Сио",
     ["This is... a scented handkerchief?"] = "Это... ароматный носовой платок?",
     ["[Emoji 8]"] = "[Эмодзи 8]",
     ["But that despicable speculator didn't tell me where his goods came from! As a result, I became a suspect again and was interrogated by the police for an entire afternoon!"] = "Но этот презренный спекулянт не сказал мне, откуда у него товар! В результате я снова стал подозреваемым, и полиция допрашивала меня целый день!",

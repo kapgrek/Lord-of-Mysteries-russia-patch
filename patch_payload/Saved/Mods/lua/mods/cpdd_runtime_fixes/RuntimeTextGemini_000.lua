@@ -141,7 +141,7 @@ return {
     ["<Assistant_Title1>【Green Field Journey】</>\n<Assistant_Title2>Description: </>Shop Direct-Purchase Outfit\n<Assistant_Title2>Usage: </>Purchase in the shop to obtain the Green Field Journey outfit. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it.\n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Shop</>"] = "<Assistant_Title1>【Путешествие по зелёным полям】</>\n<Assistant_Title2>Описание: </>Наряд из магазина\n<Assistant_Title2>Использование: </>После покупки в магазине даётся комплект «Путешествие по зелёным полям»; нажмите <Assistant_System>Внешний вид — Гардероб</>, чтобы просмотреть и надеть его.\n<Assistant_Title2>Получение: </>Приобретается в <Assistant_System>Магазине</>",
     ["The remaining strong gathered together, relying on their united strength and two magical items, to resist the monsters' attacks and build a city-state that protected the last spark of human civilization—the City of Silver."] = "Уцелевшие силачи собрались вместе и, объединив усилия и силу двух магических предметов, отразили натиск монстров и возвели полис, защищающий последнюю искру человеческой цивилизации — Город Серебра.",
     ["Leave Dominator's Clash"] = "Покинуть «Битву Владык»",
-    ["Xio Imprisonment Slow Spell Field"] = "Магическое поле пленения и замедления Сью",
+    ["Xio Imprisonment Slow Spell Field"] = "Магическое поле пленения и замедления Сио",
     ["I share freedom with the starlight."] = "Я делю свободу со звёздным сиянием.",
     ["Enyu"] = "Эньюй",
     ["Are you here to convince me to give up too?"] = "Ты тоже пришёл убеждать меня сдаться?",

@@ -3069,7 +3069,7 @@ local function translateVisibleText(value)
         or value:find("每上阵<highlight>1</>名成员", 1, true)
         or (value:find("每上阵", 1, true) and value:find("名成员", 1, true))
     then
-        local result = "За каждого выставленного участника все получают свойства его места:\nФорс: 💧+1 оч.\nДеррик: 🌿+2% | Хью Дилча: 🔥+7%\nЭлджер: ⚡+8% | Одри: 🥊+5%\nЛеонард: ❤️+5% | Клейн: 📣+10%"
+        local result = "За каждого выставленного участника все получают свойства его места:\nФорс: 💧+1 оч.\nДеррик: 🌿+2% | Сио Дереча: 🔥+7%\nЭлджер: ⚡+8% | Одри: 🥊+5%\nЛеонард: ❤️+5% | Клейн: 📣+10%"
         visibleTextCache[value] = result
         return result
     end

@@ -8,7 +8,7 @@ return {
     ["The Growth skill will make plants flourish, while the Decay skill will make them wither."] = "Навык «Рост» заставляет растения буйно разрастаться, а навык «Увядание» иссушает их.",
     ["The first two acts are over. What will happen in the third act? Go take a look quickly."] = "Первые два действия уже завершились. Что же произойдет в третьем? Скорее взгляните!",
     ["Open beginner tutorial; parameter is tutorial GroupID."] = "Открыть обучение для новичков (параметр — GroupID обучения)",
-    ["The waiter served you coffee \n The sun outside the window was just right \n Someone was talking at a coffee table by the street. \n Fors and Xio sat at a table, staring at a piece of cake in front of them."] = "Официант подал вам кофе.\nЗа окном ласково светит солнце.\nЗа столиком у окна кто-то негромко беседует.\nФорс и Сью сидят за одним столом, уставившись на лежащий перед ними кусок торта.",
+    ["The waiter served you coffee \n The sun outside the window was just right \n Someone was talking at a coffee table by the street. \n Fors and Xio sat at a table, staring at a piece of cake in front of them."] = "Официант подал вам кофе.\nЗа окном ласково светит солнце.\nЗа столиком у окна кто-то негромко беседует.\nФорс и Сио сидят за одним столом, уставившись на лежащий перед ними кусок торта.",
     ["Ahhhhhh why did the game editor crash again"] = "А-а-а-а, ну почему редактор игры опять вылетел?!",
     ["Responsible"] = "Ответственный",
     ["Even if we all grow old, those promises will continue in other forms."] = "Даже когда мы состаримся, эти обещания продолжат жить в иных формах. ",

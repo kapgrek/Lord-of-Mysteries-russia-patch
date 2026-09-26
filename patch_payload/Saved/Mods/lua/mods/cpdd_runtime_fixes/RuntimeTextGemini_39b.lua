@@ -41,7 +41,7 @@ return {
     ["Casey "] = "Кейси",
     ["Sylvia Fragment"] = "Фрагмент Сильвии",
     ["Did you find the dragon's treasure?"] = "Вы нашли сокровище дракона?",
-    ["\"Lawyer\" Hugh"] = "«Адвокат» Хью",
+    ["\"Lawyer\" Hugh"] = "«Адвокат» Сио",
     ["But I vaguely feel that I don't have much time left."] = "Но я смутно чувствую, что времени у меня осталось мало.",
     ["Epic Spirit Line: Water Lily"] = "Эпическая линейка духов: Водяная лилия",
     ["Butler Servant_5"] = "Дворецкий-Слуга_5",
