@@ -58,7 +58,6 @@ return {
     ["【%s】 Command issued: All members fall back to defend our %s!"] = "【%s】 Выдана команда: все участники отступают, чтобы защитить наш %s!",
     ["[Marionette Skill] Hound Soul Leap - Hound Summon Jump Smash"] = "[Марионетка Skill] Hound Soul Leap - Hound Summon Jump Smash",
     ["Spectator Pathway, Sequence 5—Dream Walker."] = "Путь зрителя, эпизод 5 — «Сноходец».",
-    ["2026/01/14"] = "14.01.2026",
     ["Path · Guard guidance"] = "Путь · Охранное руководство",
     ["Don't be nervous, I'm just taking you to have a look."] = "Не нервничай, я просто веду тебя посмотреть.",
     ["Apply to Club"] = "Подать заявку в клуб",

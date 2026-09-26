@@ -270,7 +270,6 @@ return {
     ["Is it a damage-dealing talent with absolutely no healing?"] = "Это талант, наносящий урон, без какого-либо исцеления?",
     ["Looking for someone to gift me the rolling leech."] = "Ищу кого-нибудь, кто подарит мне катящуюся пиявку.",
     ["Money Cannon Carriage"] = "Денежная пушка",
-    ["1"] = "1 шт.",
     ["While in combat, recover 20 points of spirituality every 6 seconds."] = "В бою восстанавливайте 20 очков духовности каждые 6 секунд.",
     ["Are you awake? You'll get used to it after a few more times."] = "Ты проснулся? Вы привыкнете к этому еще через несколько раз.",
     ["Challenge Again"] = "Вызов снова",

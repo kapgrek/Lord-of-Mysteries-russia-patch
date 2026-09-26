@@ -8,7 +8,6 @@ return {
     ["Do Not Disturb"] = "Не беспокоить",
     ["Fry Revolver"] = "Револьвер Фрая",
     ["It's not dawn yet, but don't worry."] = "Ещё не рассвело, но не беспокойтесь.",
-    ["2025/06/15 02:26"] = "15 июня 2025 г., 02:26",
     ["Arrogant"] = "Высокомерие",
     ["Can be used after reaching divinity Level 20. Instantly restores 2500 Health."] = "Можно использовать по достижении 20-го уровня божественности. При использовании мгновенно восстанавливает 2500 ед. здоровья.",
     ["Achievement - Railroad Magnate"] = "Достижение: Железнодорожный магнат",

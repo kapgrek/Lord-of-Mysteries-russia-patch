@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.0-RU"
+local VERSION = "3.0.1-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -3288,8 +3288,12 @@ local function translateVisibleText(value)
         return reviewedExact
     end
 
+    -- Text without letters (timers, counters, dates) is not looked up in shards:
+    -- "3" -> "3 шт." came from ref_en keys of "3个" (TASK-016). Non-ASCII counts as a letter (CJK).
+    -- Tags are stripped first: "<HighLight>3</>" is as letterless as "3".
+    local letterless = not (value:gsub("<[^>]*>", "")):find("[%a\128-\255]")
     -- AutoChess synergy & exact text normalization for UMG tags (<HighLight>, <Yellow>, <Text.Red>, etc.)
-    if value:find("<", 1, true) then
+    if not letterless and value:find("<", 1, true) then
         local plain = value:gsub("<[^>]+>", "")
         if plain ~= value and plain ~= "" then
             local plainOverride = visibleTextExactOverrides[plain]
@@ -3304,7 +3308,7 @@ local function translateVisibleText(value)
             end
         end
     end
-    local gemini = runtimeFixes.lookupGeminiTextFuzzy(value)
+    local gemini = not letterless and runtimeFixes.lookupGeminiTextFuzzy(value) or nil
     if gemini ~= nil then
         gemini = preserveMovableAnswerMarkup(value, gemini)
         gemini = runtimeFixes.normalizeDefenseBreakTerminology(gemini)
@@ -4204,6 +4208,193 @@ do
         end
         return cap, budget, axis, slot
     end
+
+    TF.Measure = measure
+
+    -- Texts drawn at a fraction of their styled size, wrapping untouched
+    -- (TASK-016): the AutoChess tip hint "double-click a portrait" is one line
+    -- that stretches the synergy tooltip. Keys are the CN source and EN text;
+    -- the Russian text is added from the shards on first use.
+    TF.HintSources = { ["双击棋子头像可标记为推荐"] = 0.5 }
+    TF.HintEnglish = { ["Double-click a piece's portrait to Mark it as recommended"] = 0.5 }
+    function TF.HintScale(text)
+        if type(text) ~= "string" or text == "" then return nil end
+        local texts = TF.HintTexts
+        if texts == nil then
+            texts = {}
+            for source, scale in pairs(TF.HintSources) do
+                texts[source] = scale
+                local ru = lookupGeminiText(source)
+                if type(ru) == "string" and ru ~= "" then texts[ru] = scale end
+            end
+            for english, scale in pairs(TF.HintEnglish) do texts[english] = scale end
+            TF.HintTexts = texts
+        end
+        return texts[text] or texts[text:match("^%s*(.-)%s*$")]
+    end
+
+    -- DiagnosticsMode: one line per session with the widget name (unknown
+    -- from the logs when TASK-016 was analysed).
+    function TF.NoteHint(widget, widgetName, before, after)
+        if TF.HintReported then return end
+        TF.HintReported = true
+        local path = nil
+        pcall(function() path = tostring(widget:GetPathName()) end)
+        local panel = path and path:match("([%w_]+)_C_%d+%.WidgetTree") or "?"
+        local owner = path and path:match(".*[%.:]([%w_]+)_C_%d+%.WidgetTree") or panel
+        reportVerbose("autochess tip hint shrink widget=" .. tostring(widgetName) .. " panel=" .. panel
+            .. " owner=" .. owner .. " size=" .. tostring(before) .. "->" .. tostring(after))
+    end
+
+    -- AutoChess piece tip skill description (TASK-016): RichTextBlock_Detailed
+    -- is clipped by its box (need 120-160 px at have 83-96). RichText takes no
+    -- SetFont, so the text is wrapped at haveX / s and drawn at RenderScale s
+    -- from its top-left corner: s is the first of SkillScales whose height
+    -- fits, at least the last one. One measurement per (widget, text).
+    TF.SkillScales = { 0.9, 0.8, 0.72, 0.65, 0.6 }
+    TF.SkillFits = setmetatable({}, { __mode = "k" })
+    TF.SkillReports = 0
+
+    -- needYAt(wrapAt) re-wraps the text and returns its new height, or nil
+    -- when it cannot be measured now. Returns the scale and the wrap width
+    -- (nil: keep the authored wrap; the scale then is max(min, haveY / needY)).
+    function TF.PickSkillScale(haveX, haveY, needY, needYAt)
+        if needY <= haveY + 1 then return 1, nil end
+        local scales = TF.SkillScales
+        local minScale = scales[#scales]
+        if needYAt ~= nil then
+            for _, s in ipairs(scales) do
+                local wrapAt = haveX / s
+                local y = needYAt(wrapAt)
+                if y == nil then break end
+                if y * s <= haveY or s == minScale then return s, wrapAt end
+            end
+        end
+        return math.max(minScale, math.min(1, haveY / needY)), nil
+    end
+
+    -- Room for the text: its own height, or for an auto-sized slot (height
+    -- equals the text) the parent box height minus the other visible rows.
+    function TF.SkillHave(widget, m)
+        if math.abs(m.haveY - m.needY) > 1 then return m.haveY end
+        local room = nil
+        pcall(function()
+            local library = slate()
+            local parent = widget:GetParent()
+            local parentY = tonumber(library.GetLocalSize(parent:GetCachedGeometry()).Y) or 0
+            local others = 0
+            for index = 0, parent:GetChildrenCount() - 1 do
+                local child = parent:GetChildAt(index)
+                if child ~= nil and child ~= widget and child:IsVisible() then
+                    others = others + (tonumber(library.GetLocalSize(child:GetCachedGeometry()).Y) or 0)
+                end
+            end
+            if parentY - others > 0 then room = parentY - others end
+        end)
+        return room or m.haveY
+    end
+
+    function runtimeFixes.fitAutoChessPieceSkill(comp, tries)
+        if type(comp) ~= "table" or comp.isDestroyed then return false end
+        local widget = getNamedWidget(comp.view, "RichTextBlock_Detailed")
+            or getNamedWidget(comp.userWidget or comp.widget, "RichTextBlock_Detailed")
+        if widget == nil then return false end
+        local text = nil
+        pcall(function() text = tostring(widget:GetText()) end)
+        if type(text) ~= "string" or text == "" then return false end
+
+        local fit = TF.SkillFits[widget]
+        if fit == nil then
+            fit = {}
+            pcall(function() fit.wrap0 = tonumber(widget.WrapTextAt) end)
+            pcall(function() fit.auto0 = widget.AutoWrapText == true end)
+            pcall(function() fit.canWrap = widget.SetWrapTextAt ~= nil end)
+            TF.SkillFits[widget] = fit
+        end
+        -- Slate wraps at min(WrapTextAt, width) while AutoWrapText is on, so a
+        -- wider wrap needs it off; nil restores the authored wrap.
+        local function setWrap(value)
+            if not fit.canWrap then return end
+            pcall(function()
+                if value ~= nil then
+                    if widget.SetAutoWrapText ~= nil then widget:SetAutoWrapText(false) end
+                    widget:SetWrapTextAt(value)
+                else
+                    widget:SetWrapTextAt(fit.wrap0 or 0)
+                    if widget.SetAutoWrapText ~= nil then widget:SetAutoWrapText(fit.auto0 == true) end
+                end
+            end)
+        end
+        local function setScale(s)
+            pcall(function()
+                if widget.SetRenderTransformPivot ~= nil then
+                    widget:SetRenderTransformPivot(sceneTextVector2D(0, 0))
+                end
+                widget:SetRenderScale(sceneTextVector2D(s, s))
+            end)
+        end
+        local function later()
+            tries = (tries or 0) + 1
+            if tries > 3 or fit.pending then return false end
+            local manager, addTimer = nil, nil
+            pcall(function() manager = Game and Game.NewUIManager end)
+            pcall(function() addTimer = manager and manager.AddTimerWithFunction end)
+            if type(addTimer) ~= "function" then return false end
+            fit.pending = true
+            if not pcall(addTimer, manager, DEFER_SECONDS, 1, function()
+                fit.pending = false
+                pcall(runtimeFixes.fitAutoChessPieceSkill, comp, tries)
+            end) then
+                fit.pending = false
+            end
+            return false
+        end
+
+        if fit.text == text and fit.scale ~= nil then
+            if fit.wrapAt ~= nil then setWrap(fit.wrapAt) end
+            setScale(fit.scale)
+            return true
+        end
+        setScale(1)
+        if fit.wrapAt ~= nil then
+            -- Our wrap of the previous text still shapes the cached geometry:
+            -- measure after a layout with the authored wrap.
+            fit.wrapAt, fit.text, fit.scale = nil, nil, nil
+            setWrap(nil)
+            return later()
+        end
+
+        local m = measure(widget)
+        if m == nil then return later() end
+        local haveY = TF.SkillHave(widget, m)
+        local needYAt = nil
+        if fit.canWrap and m.prepass then
+            needYAt = function(wrapAt)
+                setWrap(wrapAt)
+                local again = measure(widget)
+                if again == nil or not again.prepass then return nil end
+                return again.needY
+            end
+        end
+        local s, wrapAt = TF.PickSkillScale(m.haveX, haveY, m.needY, needYAt)
+        if wrapAt == nil then setWrap(nil) end
+        setScale(s)
+        fit.text, fit.scale, fit.wrapAt = text, s, wrapAt
+
+        if not fit.canWrap and not TF.SkillWrapApiNoted then
+            TF.SkillWrapApiNoted = true
+            local d = runtimeFixes.Diag
+            if d and d.NoteApi then d.NoteApi("RichText.SetWrapTextAt", false) end
+            reportVerbose("autochess piece skill fit api WrapTextAt=missing")
+        end
+        if TF.SkillReports < 5 then
+            TF.SkillReports = TF.SkillReports + 1
+            reportVerbose(string.format("autochess piece skill fit need=%.1fx%.1f have=%.1fx%.1f scale=%.2f wrapAt=%s",
+                m.needX, m.needY, m.haveX, haveY, s,
+                wrapAt and string.format("%.1f", wrapAt) or (fit.canWrap and "authored" or "missing")))
+        end
+        return true
+    end
 end
 
 local function translateTextWidget(widget, discoveryContext)
@@ -4369,6 +4560,16 @@ local function translateTextWidget(widget, discoveryContext)
                     st.run = nil
                 end
                 st.applied = tonumber(font.Size)
+            end
+
+            -- Hint lines drawn smaller than their styling (TASK-016).
+            local hintScale = textFit.HintScale(textToCheck)
+            local hintBefore = hintScale and tonumber(font.Size)
+            if hintBefore ~= nil then
+                font.Size = math.max(10, math.floor(hintBefore * hintScale))
+                st.applied = font.Size
+                fitNeeded = false
+                textFit.NoteHint(widget, widgetName, hintBefore, font.Size)
             end
 
             widget.Font = font
@@ -11018,8 +11219,13 @@ do
         for _, name in ipairs(names) do
             local original = rawget(classTable, name)
             local walkChildren = autoChessClassMethodMode(name, className)
+            -- Piece tip: fit the clipped skill description after translation (TASK-016).
+            local afterTranslate = nil
+            if className == "AutoChess_Tips_PieceTips" and (name == "Refresh" or name == "OnRefresh") then
+                afterTranslate = runtimeFixes.fitAutoChessPieceSkill
+            end
             local wrapper = runtimeFixes.diagWrap("ac-class:" .. className .. "." .. name, "ac-class", function(self, ...)
-                return callAutoChessGuarded(self, original, name, walkChildren, nil, ...)
+                return callAutoChessGuarded(self, original, name, walkChildren, afterTranslate, ...)
             end)
             runtimeFixes.AutoChessClassWrappers[wrapper] = true
             if pcall(rawset, classTable, name, wrapper) then

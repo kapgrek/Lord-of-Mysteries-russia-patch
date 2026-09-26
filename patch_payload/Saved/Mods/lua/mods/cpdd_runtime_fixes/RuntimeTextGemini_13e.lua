@@ -218,7 +218,6 @@ return {
     ["Collection Art Gallery Level 15"] = "Коллекция Картинная Галерея Уровень 15",
     ["Share"] = "Делиться",
     ["Commission Station: Tingen Lake"] = "Commission Station: Тинген Lake",
-    ["2025/08/17"] = "2025/08/17",
     ["Auction bid:"] = "Аукционная ставка:",
     ["This is love..."] = "Это любовь...",
     ["Why did it run away again?"] = "Почему оно снова убежало?",

@@ -4,7 +4,6 @@ return {
     ["【Death Sect】(7) Entire team +35% Attack Power +10% Life Steal"] = "【Секта Смерти】(7) Вся команда: +35% к силе атаки, +10% к вампиризму",
     ["Let me think. Let's start with... the Mrs. Meg's Ring Retrieval Plan!"] = "Дай подумать... Начнем с... составления плана по возвращению кольца миссис Мэг!",
     ["Paxton "] = "Пакстон ",
-    ["01:15:26"] = "01:15:26",
     ["Classical Dance"] = "Классический танец",
     ["Opposing team"] = "Команда противника",
     ["Fishmonger"] = "Торговец рыбой",

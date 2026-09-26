@@ -23,7 +23,6 @@ return {
     ["Swap league positions of specified group rankings"] = "Поменять местами позиции лиги для указанных групп",
     ["You've come; the lightning spirituality will descend here, and we need your help."] = "Ты пришел. Духовность молнии вот-вот снизойдет сюда, нам нужна твоя помощь.",
     ["You can see me?"] = "Ты видишь меня?",
-    ["-122,000"] = "-122 000",
     ["Your mutual cooling-off period for dissolving the Covenant has ended. You may formally dissolve the Covenant after paying 10,000 bound soli. Are you sure you want to dissolve the Covenant?"] = "Ваш период взаимного охлаждения по поводу роспуска Ковенанта закончился. Вы можете официально расторгнуть Ковенант, заплатив 10 000 связанных суле. Вы уверены, что хотите расторгнуть Ковенант?",
     ["The above are system buffs"] = "Вышеупомянутые системные баффы",
     ["\"Dawn's Arrival\" Challenge Tournament"] = "Турнир-вызов «Прибытие рассвета»",

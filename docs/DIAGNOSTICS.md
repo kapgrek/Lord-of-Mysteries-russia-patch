@@ -94,6 +94,11 @@ return {
 ### Флаг `EarlyNested` (TASK-011)
 `EarlyNested = false` выключает ранний перевод вложенных компонентов (`EARLY_NESTED_REPAIR` в `Init.lua`). По умолчанию вложенный компонент (элемент списка, подвкладка), чей корень уже прошёл `Open`, переводится сразу после своего `Open` / `Refresh` — только собственное дерево, без `_childComponents`. Не трогаются Esc-меню, корни из `ClassHookedPanelUids` и `targetedPanelRepairUids`, Автошахматы. Проходы `delayed` и extended остаются страховкой. Метрики: `NestedEarlyRuns`, `NestedEarlyLabels`, `NestedEarlyMs`, `NestedEarlyMsMax`.
 
+### Подсказки Автошахмат (TASK-016, v3.0.1)
+При `VerboseLog = true` в C7.log:
+- `autochess tip hint shrink widget=<имя> panel=<внешний Blueprint> owner=<ближайший Blueprint> size=<до>-><после>` — один раз за сессию, когда строка «Дважды щёлкните по портрету фигуры…» (id 056763, таблица `runtimeFixes.TextFit.HintSources` / `HintEnglish`) уменьшена вдвое (минимум 10 pt, перенос не меняется);
+- `autochess piece skill fit need=<X>x<Y> have=<X>x<Y> scale=<s> wrapAt=<px|authored|missing>` — первые 5 подгонок `RichTextBlock_Detailed` в `AutoChess_Tips_PieceTips` (`Refresh` / `OnRefresh`): `scale=1.00` — текст помещается; `wrapAt=authored` — масштаб без смены переноса (замер после переноса не удался); `missing` — у RichText нет `SetWrapTextAt` (ещё строка `autochess piece skill fit api WrapTextAt=missing` и `session.json → api["RichText.SetWrapTextAt"] = false`).
+
 ### Что делает `VerboseLog`
 - `absoluteru_dev.lua` читается в самом начале `Init.lua` (через `Loader.LoadExternal`) и включает `Loader.Features.DiagnosticsMode` **только для Init.lua**: `reportVerbose` начинает писать подробные строки (установка хуков, медленные ремонты, метрики).
 - `report()` и маркеры модуля пишут через `Log.Info`: в C7.log это строки `LuaLog: ReleaseLog: …`, и `PerformanceMode` их не отсекает. Вывод `LuaCLogger.Warning` в C7.log **не попадает** (первая сессия 2026-09-25: 0 строк, в том числе `[CPDDPerformance] active` самого CPDD), поэтому его не использовать. **При включённых флагах в `C7.log` видны строки `[CPDDRuntimeFix]` от `reportVerbose`**, без флагов — только строка `active hooks_installed=` и ошибки.

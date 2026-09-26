@@ -240,7 +240,6 @@ return {
     ["How should I remember you? With music, with memories.\nThe moonlight is hazy, the piano notes are quiet,\nTonight, everything is silent."] = "Как запомнить тебя, с музыкой и воспоминаниями.\nЛунный свет туманен, музыка тиха,\nСегодня вечером тихо.",
     ["Cherish, when we were fighting just now, did you use Invincibility twice? I think I saw the little golden man twice."] = "Чериш, когда мы только что сражались, ты дважды использовал Непобедимость? Кажется, я видел маленького золотого человечка дважды.",
     ["Klein, these are the rules of society. Welcome to the adult world."] = "Клейн, таковы правила общества. Добро пожаловать во взрослый мир.",
-    ["4"] = "4 шт.",
     ["Worker Line of Sight Point"] = "Точка прямой видимости рабочего",
     ["Duel Theme Preview"] = "Предварительный просмотр темы «Дуэль»",
     ["Legacy of Memory: Drill"] = "Наследие памяти: дрель",

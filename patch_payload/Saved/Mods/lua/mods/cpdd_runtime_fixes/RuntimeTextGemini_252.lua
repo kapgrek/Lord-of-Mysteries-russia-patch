@@ -5,7 +5,6 @@ return {
     ["Maintenance Cost"] = "Расходы на содержание",
     ["Travel across the <h>Southern Continent</>"] = "Обойти весь <h>Южный континент</>",
     ["The color of this wine is about the same as that wall painted today."] = "Цвет этого вина почти такой же, как у стены, которую красили сегодня.",
-    ["2025/07/30"] = "30 июля 2025 г.",
     ["Frye's Fountain Pen"] = "Перьевая ручка Фрая",
     ["Left side - Bust - slightly overlooking"] = "Слева: бюст — взгляд слегка сверху",
     ["Who stole the little house of a turtle? \n Oh, Abundance, the power of Abundance!"] = "Кто у черепахи домик украл?\nО, Изобилие, сила Изобилия!",

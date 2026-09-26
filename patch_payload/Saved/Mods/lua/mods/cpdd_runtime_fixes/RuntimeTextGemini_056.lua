@@ -6,7 +6,6 @@ return {
     ["Tripwire"] = "Подсекающий трос",
     ["Floor Tile 1-7"] = "Напольная плитка 1-7",
     ["Explain the truth to Morgan"] = "Расскажите Моргану правду",
-    ["2024/03/09"] = "09.03.2024",
     ["A noble living in the suburbs... Other than that, I know nothing."] = "Дворянин, живущий в пригороде... Кроме этого, больше ничего не известно.",
     ["Floor Tile 7-1"] = "Плитка 7-1",
     ["Star of Desolation"] = "Звезда Запустения",

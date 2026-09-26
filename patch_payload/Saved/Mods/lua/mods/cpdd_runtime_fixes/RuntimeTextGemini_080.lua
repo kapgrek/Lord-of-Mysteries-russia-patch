@@ -1,7 +1,6 @@
 -- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 080/3ff.
 return {
-    ["%"] = "%",
     ["Guide Hannah to position (back door)"] = "Провести Ханну к позиции (задняя дверь)",
     ["Amon-Shadow Theft skill06-Phantom Target 3"] = "Амон — Кража тени skill06 — метка фантома 3",
     ["Gather the specified TemplateID collection item; object plays specified dialogue content; player transformation ends."] = "Собрать ресурс с указанным TemplateID, объект воспроизводит указанную реплику, превращение игрока завершено  ",

@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-Write-Host "=== Валидатор целостности патча Lord of the Mysteries v3.0.0-RU ===" -ForegroundColor Cyan
+Write-Host "=== Валидатор целостности патча Lord of the Mysteries v3.0.1-RU ===" -ForegroundColor Cyan
 
 $payload = Join-Path $Root "patch_payload"
 $errors = 0

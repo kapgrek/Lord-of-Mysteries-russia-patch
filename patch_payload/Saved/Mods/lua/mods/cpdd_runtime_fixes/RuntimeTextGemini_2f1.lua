@@ -84,7 +84,7 @@ return {
     ["Switch fire to the Gear Launcher to stop it from generating more gears!"] = "Переключите огонь на пусковую установку, чтобы она не производила больше шестеренок!",
     ["Battlefield Center Performance"] = "Производительность Battlefield Center",
     ["The name cannot contain numbers, English letters, or other non-Chinese characters and special symbols. Please enter it again."] = "Имя не может содержать цифры, английские буквы или другие некитайские иероглифы и специальные символы. Пожалуйста, введите его еще раз.",
-    ["%d格"] = "%d плиток",
+    ["%d格"] = "%d кл.",
     ["1349年6月28日"] = "28 июня 1349 г.",
     ["1V1切磋"] = "Спарринг 1х1",
     ["2049追击"] = "2049 Преследование",

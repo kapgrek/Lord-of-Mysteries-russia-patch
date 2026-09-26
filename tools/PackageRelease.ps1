@@ -1,5 +1,5 @@
 param (
-    [string]$Version = "v3.0.0-RU",
+    [string]$Version = "v3.0.1-RU",
     [switch]$Publish,          # Upload build artifacts as GitHub Release assets (gh CLI)
     [switch]$WhatIfPublish,    # Only look the release up and print the gh commands -Publish would run (no build, no upload)
     [string]$NotesFile = '',   # Release notes for a newly created release

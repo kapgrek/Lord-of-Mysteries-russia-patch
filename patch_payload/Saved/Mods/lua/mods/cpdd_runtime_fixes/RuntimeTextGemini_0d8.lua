@@ -170,7 +170,6 @@ return {
     ["No, I was just meditating in the Blackthorn alchemy room..."] = "Нет, я просто медитировал в алхимической комнате Блэкторна...",
     ["Dear Beyonder: \nThe system has detected that your recent transactions are suspected of being offline transactions (item <M_Link>%s</>, with a total transaction amount of <M_Link>%s</>). To protect your rights and interests, please do not participate in offline transactions. If similar behavior continues, your account will be subject to further penalties (including but not limited to freezing currency, sealing the Exchange, etc.)."] = "Уважаемый Потусторонний!\nСистема обнаружила, что ваши недавние сделки похожи на транзакции вне игры (предмет <M_Link>%s</>, общая сумма сделки <M_Link>%s</>). В целях защиты ваших прав и интересов, пожалуйста, не участвуйте в сделках вне игры. При повторении подобных нарушений аккаунт подвергнется дополнительным санкциям (включая, помимо прочего, заморозку валюты, блокировку Торговой палаты и т. д.).",
     ["Theobald"] = "Теобальд",
-    ["3"] = "3 шт.",
     ["Rotation angle based on current orientation."] = "Угол поворота в зависимости от текущей ориентации.",
     ["But I heard that Neville guy seems to have brought something down from the mountain."] = "Но я слышал, что парень Невилл, кажется, принес что-то с горы.",
     ["Captain, why did you call me here?"] = "Капитан, зачем вы меня сюда позвали?",

@@ -259,7 +259,6 @@ return {
     ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Yodora</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Yodora</>.",
     ["【Dungeon】Antigonus Notebook · Hard, 1250301"] = "【Подземелье】Блокнот Антигона · Твердый, 1250301",
     ["Preview Display"] = "Предварительный просмотр",
-    ["5"] = "5 шт.",
     ["If you need it, I can draw a portrait sketch for you."] = "Если вам это нужно, я могу нарисовать для вас эскиз портрета.",
     ["The boy who ran away from home for three days and nights has been found by his grandmother. Thank you all for your help!"] = "Мальчика, который три дня и ночи сбегал из дома, нашла бабушка. Спасибо всем за вашу помощь!",
     ["Under the Star Sand, all things fall apart."] = "Под звездным песком все сущее распадается в прах.",
