@@ -234,6 +234,7 @@ return {
     ["前往<h>阿斯塔家</>"] = "Отправиться домой к <h>Асте</>",
     ["触碰迪伦"] = "Прикоснуться к Дилану",
     ["Rare Cedar Ronchi"] = "Редкий кедровый Рончи",
+    ["<Assistant_Title1>【Seer Special Defense】</>\nWhen attacked by a Beyonder of the Seer pathway, negate their Specialization. (Reduces the attacker's Specialization to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Attack]|1519}"] = "<Assistant_Title1>【Спецзащита от Провидцев】</>\nПри получении урона от Потустороннего Пути Провидца компенсирует его Специализацию. (Снижает Специализацию атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Атака]|1519}",
     ["Max Health +1000, Attack +250, Skill Enhancement +50, Armor Break +120, Piercing +120, Crit +80"] = "Макс. здоровье +1000, Атака +250, Усиление навыков +50, Прорыв защиты +120, Пронзание +120, Критический удар +80",
     ["But Olga is drowning in debt. I heard he found out she was making money, so he's been looking for her everywhere, claiming an ex-wife should support him."] = "Но Ольга по уши в долгах: говорят, стоило ему узнать, что она заработала денег, как он принялся повсюду её искать, утверждая, что бывшая жена должна его содержать.",
     ["However, Leo, who moved in recently, said he would protect me."] = "Но Лео, который недавно переехал, сказал, что защитит меня.",

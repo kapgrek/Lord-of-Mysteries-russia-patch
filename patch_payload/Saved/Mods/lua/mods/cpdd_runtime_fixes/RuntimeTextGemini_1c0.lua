@@ -256,7 +256,7 @@ return {
     ["2 units around self"] = "2 клетки вокруг себя",
     ["How do I play Extraordinary Long-Range?"] = "Как играть за «Потустороннего дальнобойщика»?",
     ["Head to Asta's house"] = "Отправиться домой к Асте",
-    ["为什么治疗量和描述不一样？"] = "Why is the healing amount different from the description?",
+    ["为什么治疗量和描述不一样？"] = "Почему объём исцеления отличается от описания?",
     ["Gain 10% Attack and 10 Defense upon kill or assist, up to 5 stacks"] = "За убийство или помощь в убийстве получает 10% атаки и 10 защиты, максимум 5 стаков",
     ["Stepping through the door, the moment to traverse space."] = "Сделан шаг за порог — миг, когда пронизывается пространство.",
     ["唉，错过了一夜成名的机会，不知道什么时候才会再次遇见这种机会。"] = "Эх, упустил шанс прославиться за одну ночь, кто знает, когда ещё выпадет такая возможность.",

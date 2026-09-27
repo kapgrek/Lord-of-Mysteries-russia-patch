@@ -266,7 +266,7 @@ return {
     ["仅玩家"] = "Только игроки",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>125%</> = {*d,F1690001,atkMin,1.25}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>40%</> = {*d,F1690001,maxHp,0.4}点三星：总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>40%</> = {*d,F1690001,maxHp,0.4}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>125%</> = {*d,F1690001,atkMin,1.25} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>40%</> = {*d,F1690001,maxHp,0.4} ед. При 3 звёздах: общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>340%</> = {*d,F1690001,atkMin,3.4} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>40%</> = {*d,F1690001,maxHp,0.4} ед.",
     ["收藏评论"] = "Комментарий к коллекции",
-    ["<Gift>%s</>:为<Gift>%s</>送出<Gift>粉丝团灯牌</><Gift>%s分</>！"] = "<Gift>%s</>: Sent <Gift> Fan Group Light Board to <Gift>%s</>, worth </><Gift>%s points </>!",
+    ["<Gift>%s</>:为<Gift>%s</>送出<Gift>粉丝团灯牌</><Gift>%s分</>！"] = "<Gift>%s</>: отправляет <Gift>%s</> подарок <Gift>«Светящаяся табличка фан-клуба»</><Gift>%s очков</>!",
     ["增加参数bTriggerCharge，默认为false，如果为true，对于充能技能，会减少对应时间的充能"] = "Добавлен параметр bTriggerCharge, по умолчанию false; если true, для заряжаемых навыков будет уменьшен заряд на соответствующее время",
     ["观众应该培养什么属性？"] = "Какие характеристики следует развивать Зрителю?",
     ["Hanergin, Bamilo, lend me another sum of money, and I'll pay you back double later!"] = "Ханергин, Бамило, одолжите мне ещё немного денег, я потом верну вдвойне!",

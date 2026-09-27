@@ -274,6 +274,8 @@ return {
     ["Start of Game"] = "Начало игры",
     ["Covenant count: %d/%d"] = "Количество обетов: %d/%d",
     ["回应\"工人\""] = "Ответить \"рабочему\"",
+    ["Hourglass of Time Event"] = "Событие «Песочные часы времени»",
+    ["<Assistant_Title1>The Flag Stands Tall</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Conquest\n<Assistant_Title2>Unlock Condition: </>Participate in successfully defending a flag 1 time during a club declaration of war."] = "<Assistant_Title1>Непреклонный флаг</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Завоевание\n<Assistant_Title2>Условие разблокировки: </>Успешно удержать флаг 1 раз во время объявления войны клуба.",
     ["Mystery and fate intersect here, lighting up the glow of the end times."] = "Тайна и судьба сплетаются здесь, отсюда зажигается свет конца света.",
     ["【隐迹】死亡侵蚀期间目标减速25%。"] = "[Скрытый след] Во время действия Эрозии смерти цель замедляется на 25%.",
     ["Oh? Was there an opponent on par with you, Professor?"] = "Oh? Was there an opponent on par with you, Professor?",

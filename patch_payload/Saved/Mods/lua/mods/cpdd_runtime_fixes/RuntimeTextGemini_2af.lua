@@ -270,6 +270,8 @@ return {
     ["Jin Tianyi"] = "Цзинь Тяньи",
     ["完成一次艺术学派演出"] = "Завершить одно выступление Школы искусств",
     ["Strategic Deployment"] = "Стратегическое развёртывание",
+    ["Restore 1 Mana per second."] = "Восстанавливает 1 ед. маны в секунду.",
+    ["Tycoon Season Quest Reward Compensation"] = "Компенсация награды сезонного задания Магната",
     ["Beyonders clash fiercely here; the battlefield is as chaotic as hell."] = "Здесь Иномирные яростно сражаются, и поле боя погружено в адский хаос.",
     ["<DecH> Craft: </> Crimson Velvet - Gorgeous Gauze Train - Court Gown \n In the dynasty's prime, the gods came to offer congratulations. The cheers throughout the realm were brewed into a toast called Prosperity."] = "<DecH>Материал:</> Тёмно-красный бархат · Роскошный шлейф из газа · Придворное платье\nВ пору расцвета династии боги явились с поздравлениями. Все ликования по всей стране слились в один тост под названием «Процветание».",
     ["Your sister?"] = "Твоя сестра?",

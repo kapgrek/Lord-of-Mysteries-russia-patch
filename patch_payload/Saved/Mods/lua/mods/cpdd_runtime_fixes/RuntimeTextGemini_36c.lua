@@ -265,7 +265,7 @@ return {
     ["Throne of God"] = "Трон Бога",
     ["时装搭配比拼大赛"] = "Конкурс сочетания образов",
     ["炸弹"] = "Бомба",
-    ["当前团队对巨龙累计造成伤害1%"] = "Current team has dealt 1% total damage to the Dragon",
+    ["当前团队对巨龙累计造成伤害1%"] = "Текущий суммарный урон команды по Гигантскому Дракону: 1%",
     ["生命低于25%时被死亡领域处决。"] = "При падении здоровья ниже 25% казнён Доменом Смерти.",
     ["When the client executing this condition, i.e., Player P1, satisfies the condition that they are a teammate of the originator of the skill or the owner of the buff to which this condition belongs (cannot be Player P1 themselves)."] = "Когда клиент, выполняющий это условие (то есть игрок P1), является союзником инициатора навыка или владельца баффа, к которому относится это условие (не может быть самим игроком P1)",
     ["As long as your actions don't harm me or the Nighthawks, you are still my teammate."] = "Пока твои действия не вредят мне и Ночным дозорным, ты остаёшься моим товарищем по команде.",

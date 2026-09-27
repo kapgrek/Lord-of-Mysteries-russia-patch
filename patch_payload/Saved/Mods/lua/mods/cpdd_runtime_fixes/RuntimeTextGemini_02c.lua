@@ -261,7 +261,7 @@ return {
     ["挥爪抓击，近身攻击当前目标。"] = "Взмах когтями, атака ближнего боя по текущей цели.",
     ["我们之间不需要假装"] = "Нам с тобой незачем притворяться",
     ["Do my best"] = "Приложить все усилия",
-    ["Mycelium spreads between the leaf veins, and spores drift with the light spots. That invisible ancient forest grows quietly around you like this."] = "Mycelium spreads between the leaf veins, and spores drift with the light spots. That invisible ancient forest grows quietly around you like this.",
+    ["Mycelium spreads between the leaf veins, and spores drift with the light spots. That invisible ancient forest grows quietly around you like this."] = "Мицелий расползается между прожилками листьев, и споры кружат вместе с бликами света. Так тихо растёт вокруг тебя тот невидимый древний лес.",
     ["是觉得不好吗？听听后面这段关于牙周和牙齿护理的推理再做判断怎么样？我足足写了三页纸呢！"] = "Думаете, это плохо? Может, сначала дослушаете рассуждения о пародонте и уходе за зубами, а потом решите? Я написал целых три страницы!",
     ["Then come with me! Please—"] = "Тогда пошли со мной! Пожалуйста—",
     ["监听指定场景加载完毕  玩家移除任务道具（全部删除）"] = "Ожидание завершения загрузки указанной сцены: удаление предметов задания у игрока (удалить все).",

@@ -262,6 +262,8 @@ return {
     ["关于斯太尔"] = "О Стире",
     ["Generate Music"] = "Сгенерировать музыку",
     ["If closed by accident, click <h>here</> to view the changes in the new Sequence again"] = "Если закрыли случайно, нажмите <h>здесь</>, чтобы снова посмотреть изменения новой Последовательности",
+    ["Blessing of the Goddess of Beauty: Deals massive damage when attacking a duel loser."] = "Благословение Богини Красоты: наносит колоссальный урон при атаке проигравшего дуэль.",
+    ["<Assistant_Title1>【Boss Resistance】</>\nWhen attacked by a Boss, this offsets their Suppression. (Can reduce the attacker's Suppression to a minimum of 0.)\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Сопротивление боссам】</>\nПри получении урона от босса компенсирует его Подавление. (Снижает Подавление атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
     ["You really are, eh? What is this? Such a big one."] = "Ты серьёзно? Эй, что это такое? Такой большой.",
     ["DPS应该培养什么属性？"] = "Какие характеристики следует развивать DPS?",
     ["瓶口没有税务封蜡，也没有药剂许可证编号，这可不像是什么正经货。"] = "На горлышке нет налоговой печати, и номера лицензии на зелье тоже нет. Это не похоже на честный товар.",

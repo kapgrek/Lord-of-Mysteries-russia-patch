@@ -266,7 +266,7 @@ return {
     ["Vest"] = "Жилет",
     ["Interrupting ritual"] = "Прерывание ритуала",
     ["Spirit Thread configuration is full."] = "Конфигурация Духовных нитей заполнена.",
-    ["<Assistant_Title1>【普通怪物抵抗】</>\n受到普通怪物攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|149"] = "<Assistant_Title1>【Common Monster Resistance】</>\nWhen attacked by a common monster, negate its Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|149",
-    ["<M_Default>亲爱的非凡者：</>\n您所在的俱乐部在本次猎城战中获得了势力第三名，您为候补成员，获得了如下奖励，请查收！"] = "<M_Default>Dear Beyonder:</>\nYour Club won third place in the faction during this Hunting City Battle. As a candidate member, you have received the following rewards. Please collect them!",
+    ["<Assistant_Title1>【普通怪物抵抗】</>\n受到普通怪物攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|149"] = "<Assistant_Title1>【Сопротивление обычным монстрам】</>\nПри получении урона от обычного монстра компенсирует его Подавление. (Снижает Подавление атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|149",
+    ["<M_Default>亲爱的非凡者：</>\n您所在的俱乐部在本次猎城战中获得了势力第三名，您为候补成员，获得了如下奖励，请查收！"] = "<M_Default>Дорогой Потусторонний:</>\nВаш клуб занял третье место среди фракций в Битве «Охота на город». Как кандидат, вы получили следующую награду, пожалуйста, заберите её!",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放主线任务开始展示界面"] = "Соберите указанный элемент TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок воспроизводит интерфейс отображения начала основного квеста.",
 }

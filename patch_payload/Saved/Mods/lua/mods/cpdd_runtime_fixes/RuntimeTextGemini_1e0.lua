@@ -271,7 +271,7 @@ return {
     ["有人喊你"] = "Кто-то зовёт вас",
     ["Cycle after cycle"] = "Цикл за циклом",
     ["Exchange Explanation"] = "Пояснение биржи",
-    ["<Assistant_Title1>【体力消耗速率】</>\n表示体力的消耗速度为基础消耗速度的百分比。"] = "<Assistant_Title1>【Stamina Consumption Rate】</>\nIndicates the Stamina consumption speed as a percentage of the base consumption speed.",
+    ["<Assistant_Title1>【体力消耗速率】</>\n表示体力的消耗速度为基础消耗速度的百分比。"] = "<Assistant_Title1>【Скорость расхода выносливости】</>\nПоказывает скорость расхода выносливости в процентах от базовой скорости расхода.",
     ["【塔罗会·阿尔杰·威尔逊】档7增量：+2.4%攻击（累计250%）"] = "[Таро-клуб · Алджер Уилсон] Прирост уровня 7: +2,4% атаки (всего 250%)",
     ["Insufficient items; you can obtain them by purchasing from <Reminder_Orange> Mall - Secret Collection </>."] = "Недостаточно предметов. Их можно приобрести в разделе <Reminder_Orange>Магазин — Витрина сокровищ</>.",
     ["That's Frye. Don't let his appearance fool you; he's actually a pretty good guy. I'll introduce you to him later."] = "Это Фрай. Не дай его виду обмануть тебя — он на самом деле неплохой парень. Я познакомлю тебя с ним позже.",

@@ -286,7 +286,7 @@ return {
     ["When Night Falls"] = "Когда наступает ночь",
     ["Social: Tip Hat"] = "Общение: Приподнять шляпу",
     ["老汤姆干金"] = "Сухой джин \"Олд Том\"",
-    ["Supporting the sky of the Moretti family with young shoulders, maintaining decency and dignity amidst poverty."] = "Supporting the sky of the Moretti family with young shoulders, maintaining decency and dignity amidst poverty.",
+    ["Supporting the sky of the Moretti family with young shoulders, maintaining decency and dignity amidst poverty."] = "Юными плечами подпирая небо семьи Моретти, сохраняя достоинство и честь среди нищеты.",
     ["副本_忽略副本显示时间限制"] = "Подземелье_Игнорировать ограничение по времени отображения подземелья",
     ["嘿！别告诉他！这可是咱们的致富机密！"] = "Эй! Не говори ему! Это же наш секрет обогащения!",
     ["Personal Covenant information published successfully."] = "Личная информация клятвы успешно опубликована.",

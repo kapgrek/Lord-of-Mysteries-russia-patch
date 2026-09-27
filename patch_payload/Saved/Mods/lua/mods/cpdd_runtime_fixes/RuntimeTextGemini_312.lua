@@ -234,7 +234,7 @@ return {
     ["Give him advice"] = "Дать ему совет",
     ["Voting Period"] = "Период голосования",
     ["好像想起了什么"] = "Кажется, что-то вспомнилось",
-    ["Restless Secret Covenant"] = "Restless Secret Covenant",
+    ["Restless Secret Covenant"] = "Беспокойный тайный завет",
     ["The next day, there are always a few wine glasses missing and a few torn formal gowns. As for what happened inside..."] = "На следующий день всегда пропадает несколько бокалов и появляется несколько порванных вечерних платьев. А что происходит внутри...",
     ["I even rejected Duroy's proposal! Just because a maid after marriage can only get the lowest-paid piecework laundry jobs. Only by becoming a head housekeeper can one turn such a situation around! At such a critical moment, *cough, cough, cough*—"] = "Я даже отказала Дюруа, когда он сделал мне предложение! Всё потому, что замужней служанке достаётся только самая низкооплачиваемая поштучная стирка. Только став экономкой, можно всё изменить! И именно в такой важный момент — кхе-кхе-кхе—",
     ["The wind and waves may not necessarily cease because of this, but faith will accompany you to the other shore."] = "Ветер и волны не обязательно утихнут от этого, но вера будет сопровождать вас до другого берега.",

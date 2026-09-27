@@ -268,7 +268,7 @@ return {
     ["灰雾押运"] = "Сопровождение в Сером тумане",
     ["Investigate the <h> plant </>"] = "Осмотреть <h>растение</>",
     ["Angus"] = "Ангус",
-    ["对目标区域造成<HighLight>502%</>攻击伤害。"] = "",
+    ["对目标区域造成<HighLight>502%</>攻击伤害。"] = "Наносит <HighLight>502%</> урона от атаки по целевой области.",
     ["<HyperLink stylename=\"M_Link\" u=\"86061100\" color=\"#f4a067\">暮色连斩</>对敌方玩家的击飞时间延长至3秒，并且释放<HyperLink stylename=\"M_Link\" u=\"86061100\" color=\"#f4a067\">暮色连斩</>时若<HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\">银白细剑</>未处于技能冷却中时则自动释放<HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\">银白细剑</>，未携带<HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\">银白细剑</>时也可以生效；自动释放的<HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\">银白细剑</>无法获得黄昏印记。"] = "<HyperLink stylename=\"M_Link\" u=\"86061100\" color=\"#f4a067\"> Twilight Combo Slash </> knockup duration against enemy players is extended to 3 seconds. Additionally, when <HyperLink stylename=\"M_Link\" u=\"86061100\" color=\"#f4a067\"> Twilight Combo Slash </> is released, if <HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\"> Silver Rapier </> is not on cooldown, <HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\"> Silver Rapier </> is automatically released. This also takes effect if <HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\"> Silver Rapier </> is not equipped; the automatically released <HyperLink stylename=\"M_Link\" u=\"86061050\" color=\"#f4a067\"> Silver Rapier </> cannot gain Twilight Marks.",
     ["【死亡教派】(7) 全队 +35%攻击 +10%吸血"] = "[Секта смерти] (7) Вся команда +35% к атаке, +10% похищения жизни",
     ["你好哇，年轻人。"] = "Здравствуй, молодой человек.",

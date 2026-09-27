@@ -248,6 +248,7 @@ return {
     ["Add friend from duel room"] = "Добавление друга в комнате поединка",
     ["黑王座"] = "Чёрный трон",
     ["Great Tarot Club"] = "Великий клуб Таро",
+    ["Restore 2% of Max Health every 2 seconds; increases to 4% when Health is at or below 50%."] = "Каждые 2 сек. восстанавливает 2% максимального здоровья; если здоровье не выше 50%, восстановление увеличивается до 4%.",
     ["Archer Knight - Charged Shot Release Settlement"] = "Рыцарь-лучник — расчёт выпуска заряженного выстрела",
     ["Once the Family level reaches <Highlight> level 2, 6 </>, an exclusive display stand will be unlocked in the Family display area."] = "Когда уровень семьи достигнет <Highlight>2 и 6 уровня</>, на подиуме семьи откроется эксклюзивный подиум.",
     ["飞高一点！告诉那个老头——再不回家，帽子破了没人补！"] = "Лети выше! Скажи этому старику: если он скоро не придет домой, никто не починит его рваную шапку!",

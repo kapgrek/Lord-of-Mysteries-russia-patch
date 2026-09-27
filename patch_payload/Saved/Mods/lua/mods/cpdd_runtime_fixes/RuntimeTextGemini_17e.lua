@@ -258,7 +258,9 @@ return {
     ["基础属性：法力恢复+4"] = "Базовые характеристики: Восстановление маны +4",
     ["非凡远击怎么玩"] = "Как играть за «Потустороннего дальнобойщика»?",
     ["Bonnie's Lightning"] = "Молния Бонни",
-    ["Fluffy symmetrical rabbit ears, which of course can also sway gently with movement."] = "Fluffy symmetrical rabbit ears, which of course can also sway gently with movement.",
+    ["Tarot Club · Derrick: 5-person tier increment, all allies Damage Reduction +0.4%."] = "Клуб Таро · Деррик: прибавка за 5 участников, снижение урона у всех союзников +0.4%.",
+    ["<Assistant_Title1>【Damage Reduction】</>\nReduces incoming damage by a certain percentage and offsets the attacker's Damage Deepening.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Снижение урона】</>\nСнижает получаемый урон на определённый процент, компенсируя Усиление урона источника урона.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
+    ["Fluffy symmetrical rabbit ears, which of course can also sway gently with movement."] = "Пушистые симметричные заячьи ушки, которые, конечно же, могут покачиваться в такт движению.",
     ["Temporarily gained the ability of Invisibility 4 times; lure the Werewolf into the Trap."] = "Временно получите способность невидимости (4 раза) и заманите оборотня в ловушку.",
     ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

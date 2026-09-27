@@ -246,7 +246,7 @@ return {
     ["清扫"] = "Уборка",
     ["20 Base Score"] = "Базовый счёт 20",
     ["寻找<h>植物本体</>"] = "Найти <h>основное тело растения</>",
-    ["Trigger Imprisonment every 2 seconds, 5m radius"] = "Trigger Imprisonment every 2 seconds, 5m radius",
+    ["Trigger Imprisonment every 2 seconds, 5m radius"] = "Заточение каждые 2 секунды, радиус 5 м",
     ["五月庄园花园-普通-拒绝神话管家风尚决斗"] = "Сад Майской усадьбы - Обычный - Отказ от модной дуэли: Мифический дворецкий",
     ["In the dynasty's prime, the gods came to offer congratulations. The cheers throughout the realm were brewed into a toast called Prosperity."] = " В час расцвета династии боги явились с поздравлениями. Все возгласы радости по всей стране обратились в тост, названный «Процветание».",
     ["In the prime of the dynasty, the gods came to offer congratulations. The cheers across the entire country were brewed into a toast called Prosperity."] = "В расцвете династии боги явились с поздравлениями. Все радостные возгласы по всей стране слились в один тост, названный Процветанием.",

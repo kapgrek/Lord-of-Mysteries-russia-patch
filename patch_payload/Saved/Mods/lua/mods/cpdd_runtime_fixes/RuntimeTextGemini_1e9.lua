@@ -294,6 +294,7 @@ return {
     ["Scene - Lamud Castle"] = "Сцена - Замок Ламуд",
     ["Leave Victor's Declaration Assembly"] = "Покинуть Ассамблею провозглашения победителя",
     ["Think back carefully"] = "Тщательно вспомнить",
+    ["True Damage"] = "Истинный урон",
     ["Tier 4 mark of the Eye of True Knowledge."] = "Знак 4-го ранга Ока Истинного Знания.",
     ["But when I paint a portrait, Baron Huska is willing to pay me a hundred pounds. Your paintings, I'm afraid, would require you to pay others to take them."] = "Но за один мой портрет барон Хаска готов заплатить сто фунтов, а за твои картины, боюсь, придётся ещё доплачивать, чтобы их забрали.",
     ["How is it, Mr. {{ Ms. |}}? If you want it, hurry—if you come back later, it'll be sold!"] = "Ну как, {{господин|госпожа}}? Если берёте — поторопитесь, а то вернётесь позже, а её уже продадут!",

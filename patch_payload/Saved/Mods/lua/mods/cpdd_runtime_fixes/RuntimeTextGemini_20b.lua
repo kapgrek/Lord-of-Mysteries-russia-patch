@@ -253,7 +253,7 @@ return {
     ["<HighLight>普攻额外造成范围伤害</>"] = "<HighLight>Базовые атаки наносят доп. урон по области</>",
     ["激活回响..."] = "Активация Эха...",
     ["Strategic Hornacis Mountain Range"] = "Стратегический горный хребет Хорнакис",
-    ["Amon Thorn Overgrowth Connection Buff"] = "Amon Thorn Overgrowth Connection Buff",
+    ["Amon Thorn Overgrowth Connection Buff"] = "Амон — связывающий баф разрастания шипов",
     ["小小把戏，不值一提。"] = "Маленький трюк, не стоящий упоминания.",
     ["Although I am not a Cardinal, I still know more than the average monk or priest."] = "Хотя я не кардинал, но знаю немного больше, чем обычные монахи и священники.",
     ["His eyes occasionally swept in a certain direction—not looking at people, as if confirming something."] = "His eyes occasionally swept in a certain direction—not looking at people, as if confirming something.",

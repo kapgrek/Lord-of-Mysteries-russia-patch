@@ -276,6 +276,8 @@ return {
     ["Achievement - Standing Alone"] = "Достижение - Единоличное первенство",
     ["Strategic Server City of Dragon Hunting"] = "Стратегический сервер: Город охоты на драконов",
     ["Dragon Hunt: Glory Treasure Chest"] = "Охота на дракона: Сундук славы",
+    ["Base stats: Health +250, Damage Reduction +5%"] = "Базовые характеристики: здоровье +250, снижение урона +5%",
+    ["Increases Crit Resistance by 320. When gaining a Shield, Crit Resistance is further increased by 240 for 8 seconds. This effect can trigger at most once every 10 seconds. When Health drops below 30%, gain a temporary Shield for 5 seconds, with a 120-second cooldown."] = "Повышает сопротивление критическому удару на 320. При получении щита сопротивление критическому удару дополнительно повышается на 240 на 8 секунд. Срабатывает не чаще раза в 10 секунд. Когда Очки Здоровья (ОЗ) опускаются ниже 30%, персонаж получает временный щит на 5 секунд, перезарядка 120 секунд.",
     ["The Sealed Artifact is still waiting for a new master. Possess it, use it, reshape it, and turn its power into the driving force for your progress."] = "Запечатанный Артефакт всё ещё ждёт нового хозяина. Владейте им, используйте его, формируйте его — превратите его мощь в движущую силу вашего прогресса.",
     ["最大生命+1500、攻击+375、技能增强+75、破防+180、穿刺+180、暴击+120"] = "Макс. здоровье +1500, Атака +375, Усиление навыков +75, Прорыв защиты +180, Пронзание +180, Критический удар +120",
     ["战略服终末猎杀战功怎么获得"] = "Как получить боевые заслуги в «Финальной охоте» на Стратегическом сервере?",

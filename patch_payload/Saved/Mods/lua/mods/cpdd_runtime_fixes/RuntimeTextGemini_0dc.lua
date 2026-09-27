@@ -266,6 +266,7 @@ return {
     ["Eating..."] = "Ем...",
     ["Triumphant Float Parade Invitation"] = "Приглашение на парад триумфальных колесниц",
     ["听<h>伦纳德</>分析"] = "Выслушать анализ <h>Леонарда</>",
+    ["Sylvia borrows the trade winds from the surface of Golden Autumn Lake, dealing moderate damage to enemies in the area."] = "Сильвия призывает попутный ветер с глади Озера золотой осени, нанося умеренный урон врагам в области.",
     ["Hide model and overhead information during the buff."] = "Во время действия эффекта скрывает модель и информацию над головой.",
     ["Why did they suddenly go crazy?!"] = "Почему они вдруг взбесились?!",
     ["Sightseeing photo at Hornacis Snowy Mountain: \n Thick snow shrouds the Hornacis Mountain Range year-round; this is a forbidden land without seasons. \n Perhaps only the former master of this place, and the lost wanderers guided here by fate, can hear the echoes of the past in this silence."] = "Памятное фото на смотровой площадке снежных гор Хорнакис:\nГустой снег круглый год покрывает горный хребет Хорнакис — это запретная земля без времён года.\nВозможно, лишь бывший хозяин этого места и заблудшие странники, приведённые сюда судьбой, способны услышать в этой тишине отголоски прошлого.",

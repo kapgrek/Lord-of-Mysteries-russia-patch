@@ -241,6 +241,8 @@ return {
     ["合成说明"] = "Описание синтеза",
     ["Data Review"] = "Обзор данных",
     ["Wall Ornament"] = "Настенное украшение",
+    ["Attack Speed increased by 15%, Defense increased by 14."] = "Скорость атаки повышается на 15%, защита повышается на 14.",
+    ["Damage Amplification 16%, lose 20% of current Health upon starting battle."] = "Усиление урона 16%, в начале боя теряет 20% текущего здоровья.",
     ["基础属性：生命+100、防御+15"] = "Базовые характеристики: Здоровье +100, Защита +15",
     ["Defense increased by 4."] = "Защита увеличена на 4.",
     ["Defense increased by 6."] = "Защита увеличена на 6.",

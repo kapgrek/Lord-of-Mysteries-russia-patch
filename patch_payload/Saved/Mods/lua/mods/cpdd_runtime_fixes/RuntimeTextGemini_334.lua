@@ -246,7 +246,7 @@ return {
     ["愚者棋局·凯旋者"] = "«Гамбит Шута»: Триумфатор",
     ["暂时没什么想吃的"] = "Пока не хочу ничего есть",
     ["Investigate potential clues"] = "Расследовать возможные улики",
-    ["Deal Percentage Damage to Crystal"] = "Deal Percentage Damage to Crystal",
+    ["Deal Percentage Damage to Crystal"] = "Наносит процентный урон кристаллу",
     ["【秘辛】灰雾压制释放瞬间扣除目标的体力值增加至32点。"] = "[Секрет] Значение выносливости, снимаемое у цели при применении Подавления серым туманом, увеличивается до 32 очков.",
     ["Hey, you stinky kid over there, be quiet when playing with the dog! I can't lose anymore!"] = "Hey, you stinky kid over there, be quiet when playing with the dog! I can't lose anymore!",
     ["Go to specified coordinates to interact and enter instance  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейдите к указанным координатам, чтобы взаимодействовать и войти в самолет. Игроки создают общедоступные объекты на основе списка InstanceID (недопустимо в большом мире).",

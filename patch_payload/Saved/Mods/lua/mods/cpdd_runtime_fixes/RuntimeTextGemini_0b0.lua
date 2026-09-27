@@ -250,6 +250,7 @@ return {
     ["Dissuade Dylan"] = "Отговорить Дилана",
     ["Extra Conquest Prestige"] = "Доп. репутация покорения",
     ["<Yellow>Twilight Mask</> custom appearance"] = "<Yellow>Маска сумерек</> индивидуальный облик",
+    ["Every 4 basic attacks received, deal 60 magic damage to enemies within 1 tile."] = "После получения 4 обычных атак наносит 60 магического урона врагам в радиусе 1 клетки.",
     ["Souls dance to the music, and death is a joyful celebration."] = "Души танцуют под музыку, смерть — весёлое празднество.",
     ["He is the young master of Baron Hughes's family on the next street. Despite being born into a prestigious family, he has no manners at all."] = "Он молодой господин из семьи барона Хьюска с соседней улицы — родился в знатной семье, а воспитания ни на грош.",
     ["你好，陌生的旅人，找我有什么事吗？"] = "Привет, странник, чем я могу тебе помочь?",

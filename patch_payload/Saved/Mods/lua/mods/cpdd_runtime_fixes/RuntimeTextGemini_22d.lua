@@ -279,7 +279,7 @@ return {
     ["Achievement - War Declaration Blade · Strategic Server"] = "Достижение - Клинок объявления войны · Стратегический сервер",
     ["战略服巨龙周几刷新"] = "В какой день недели появляется Гигантский дракон на стратегическом сервере?",
     ["Tip Hat"] = "Приподнять шляпу",
-    ["<Assistant_Title1>军功显赫</>\n<Assistant_Title2>成就分类：</>以战养战;势力\n<Assistant_Title2>解锁条件：</>本周期内累计军功值达到10000。"] = "<Assistant_Title1>Distinguished Military Merit</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 10,000 military merit in this cycle.",
+    ["<Assistant_Title1>军功显赫</>\n<Assistant_Title2>成就分类：</>以战养战;势力\n<Assistant_Title2>解锁条件：</>本周期内累计军功值达到10000。"] = "<Assistant_Title1>Выдающаяся воинская заслуга</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Накопить 10 000 очков воинской заслуги в этом цикле.",
     ["The Echo of the Wilderness of Knowledge has already been triggered this battle."] = "В этом бою уже сработало Эхо Дикой пустоши знаний.",
     ["H-Help! Is anyone there?"] = "П-помогите! Есть кто-нибудь?",
     ["快放我下去！我恐高！"] = "Скорее опусти меня! Я боюсь высоты!",

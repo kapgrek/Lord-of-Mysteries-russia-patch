@@ -264,7 +264,7 @@ return {
     ["Outfit Competition Gameplay Sun Miao"] = "Соревнование по подбору нарядов: Сунь Мяо",
     ["成就-宣战壁垒·战略服"] = "Достижение - Бастион объявления войны · Стратегический сервер",
     ["等待好运降临"] = "Подождать, пока придёт удача",
-    ["Forsaken Land 3 Battle Extra Health"] = "Forsaken Land 3 Battle Extra Health",
+    ["Forsaken Land 3 Battle Extra Health"] = "Заброшенные земли 3: доп. здоровье в бою",
     ["An afternoon of books and tea, where young souls have yet to glimpse the abyss of fate."] = "Полдень, полный книг и аромата чая, — юная душа ещё не заглянула в бездну судьбы.",
     ["因为从这里再往前走几步，就是风暴之主教会的圣风大教堂。"] = "Потому что если пройти отсюда ещё немного вперёд, окажешься у Собора Святого Ветра Церкви Повелителя Бурь.",
     ["Restore the %s currently being previewed? \n (Current scheme is not temporarily saved and will be unrecoverable)"] = "Восстановить просматриваемый %s?\n (Текущая схема не сохранена и будет невозможно восстановить)",

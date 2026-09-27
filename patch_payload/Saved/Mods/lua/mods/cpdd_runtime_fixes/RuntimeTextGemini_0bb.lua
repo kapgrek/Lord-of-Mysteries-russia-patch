@@ -272,7 +272,7 @@ return {
     ["让保镖们冷静一下"] = "Успокоить телохранителей",
     ["Carefully move the <h> coffin </>"] = "Осторожно отодвинуть <h>гроб</>",
     ["Boss fight"] = "Бой с боссом",
-    ["Fires two air cannon shots, each dealing <HighLight>135%</> attack damage; pre-sets a paper figurine, making the user untargetable for a short duration after the next hit, but also unable to move."] = "Fires two air cannon shots, each dealing <HighLight>135%</> attack damage; pre-sets a paper figurine, making the user untargetable for a short duration after the next hit, but also unable to move.",
+    ["Fires two air cannon shots, each dealing <HighLight>135%</> attack damage; pre-sets a paper figurine, making the user untargetable for a short duration after the next hit, but also unable to move."] = "Делает два выстрела из воздушной пушки, каждый наносит <HighLight>135%</> урона от атаки; заранее размещает бумажную фигурку, делающую пользователя недоступным для выбора целью на короткое время после следующего удара, но также лишающую его возможности двигаться.",
     ["通过参与名流盛宴解锁。"] = "Разблокируется участием в «Пиршестве знати».",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 16.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 16.5 маны",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 13 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 13 маны",

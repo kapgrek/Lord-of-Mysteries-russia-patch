@@ -242,7 +242,7 @@ return {
     ["Player Invincibility Buff during Cutscene"] = "Усиление непобедимости игрока во время ролика",
     ["Big hammer 80, small hammer 40"] = "Большой молоток — восемьдесят, малый молоток — сорок",
     ["Harvest the <h> choy sum </>"] = "Собрать <h>чойсам</>",
-    ["Deal <HighLight>220%</> attack damage to the target area, reducing enemy attack by <HighLight>12%</>; your own attack increases by <HighLight>15%</>, both lasting for 4 seconds."] = "Deal <HighLight>220%</> attack damage to the target area, reducing enemy attack by <HighLight>12%</>; your own attack increases by <HighLight>15%</>, both lasting for 4 seconds.",
+    ["Deal <HighLight>220%</> attack damage to the target area, reducing enemy attack by <HighLight>12%</>; your own attack increases by <HighLight>15%</>, both lasting for 4 seconds."] = "Наносит <HighLight>220%</> урона от атаки по целевой области, снижая атаку врагов на <HighLight>12%</>; собственная атака увеличивается на <HighLight>15%</>, оба эффекта длятся 4 сек.",
     ["Supported parameters: MaxAppendTime, MaxLayers, Duration, TickInterval"] = "Поддерживаемые параметры: MaxAppendTime, MaxLayers, Duration, TickInterval",
     ["Maximum placement distance of the Teleport Gate increased to 30 meters."] = "Максимальная дистанция размещения Врат телепортации увеличена до 30 метров.",
     ["不是卡住！咳，如你所见，我在进行一项……突破极限的实验。马戏团即将到来的新节目，压轴大戏“空中飞人”！"] = "Я не застрял! Кхм, как видите, я провожу... эксперимент на пределе возможностей. Новый номер, который скоро покажет цирк, — гвоздь программы «Человек-ядро»!",

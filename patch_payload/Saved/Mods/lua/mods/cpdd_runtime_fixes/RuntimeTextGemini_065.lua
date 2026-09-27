@@ -287,7 +287,7 @@ return {
     ["邪教信徒"] = "Сектант",
     ["查看<h>维护环境倡议书</>"] = "Ознакомиться с <h>Обращением об охране окружающей среды</>",
     ["Rare Satin Dressing Gown"] = "Редкий атласный халат",
-    ["Top specialty of Saint Selena Cathedral"] = "Top specialty of Saint Selena Cathedral",
+    ["Top specialty of Saint Selena Cathedral"] = "Лучший сувенир собора Святой Селены",
     ["时空与命运在此交汇,祂端坐于古老长桌之首。赞美愚者！"] = "Здесь пересекаются пространство-время и судьба, Он восседает во главе древнего длинного стола. Слава Шуту!",
     ["Bavart Bank provides basic deposit and withdrawal services for clients, and also offers loan services to individuals."] = "Банк Баварт предоставляет клиентам базовые услуги по вкладам и снятию средств, а также занимается выдачей кредитов физическим лицам.",
     ["I heard Malika's youngest son got into Backlund University?"] = "Слышал, младший сын Малики поступил в Бэкландский университет?",

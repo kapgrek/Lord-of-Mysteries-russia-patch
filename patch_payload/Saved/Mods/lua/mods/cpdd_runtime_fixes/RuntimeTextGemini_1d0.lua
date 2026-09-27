@@ -287,6 +287,7 @@ return {
     ["Damage per hit: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1500%</> = {*d,F1690001,atkMin,15}"] = "Урон за удар серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["Mythical Butler"] = "Мифический дворецкий",
     ["Madam, a match, just one..."] = "Мадам, спичку, всего одну...",
+    ["<Assistant_Title1>【Summon Specialization】</>\nWhen attacking a Summon, each point of Summon Specialization increases your Attack by 1.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Attack]|1519}"] = "<Assistant_Title1>【Специализация против призванных существ】</>\nПри атаке призванного существа каждое очко Специализации против призванных существ повышает собственную атаку на 1.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Атака]|1519}",
     ["Locked rooms, tightly drawn curtains, silent tears, low, muffled sobs..."] = "Запертые комнаты, плотно задёрнутые занавески, беззвучные слёзы, тихие сдавленные всхлипы...",
     ["My cake might not be the most exquisite, but it will definitely make you remember it for the rest of your life."] = "Мой торт, может, не самый изящный, но вы точно запомните его на всю жизнь.",
     ["The Baron is looking at that corner. What's there?"] = "The Baron is looking at that corner. What's there?",

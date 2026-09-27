@@ -259,7 +259,7 @@ return {
     ["副本-特别执勤"] = "Подземелье - Особое дежурство",
     ["Sequence Elite"] = "Лучший из Последовательности",
     ["专属长椅怎么玩"] = "Как пользоваться личной скамьёй?",
-    ["<Assistant_Title1>【怪物压制】</>\n攻击非玩家目标时，提高自身的伤害一定百分比（建筑类型的敌方除外）。\n<Assistant_Title2>温馨提示：</>本属性为集合属性，由多个属性构成。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Monster Suppression】</>\nWhen attacking non-player targets, increases your damage by a certain percentage (excluding building-type enemies).\n<Assistant_Title2>Tips: </>This attribute is a collective attribute composed of multiple attributes.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Damage Calculation]|1499}",
+    ["<Assistant_Title1>【怪物压制】</>\n攻击非玩家目标时，提高自身的伤害一定百分比（建筑类型的敌方除外）。\n<Assistant_Title2>温馨提示：</>本属性为集合属性，由多个属性构成。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Подавление монстров】</>\nПри атаке целей, не являющихся игроками, повышает собственный урон на определённый процент (за исключением врагов типа «строение»).\n<Assistant_Title2>Полезный совет: </>Это составной параметр, складывающийся из нескольких параметров.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
     ["塔罗会·阿尔杰：基础席位，全体攻击+8%。"] = "Клуб Таро · Алгер: базовое место, вся команда +8% к атаке.",
     ["This room is password-protected. Please enter the %d-digit password to join."] = "Для этой комнаты установлен пароль. Введите %d-значный цифровой пароль, чтобы присоединиться.",
     ["As the only high-end department store in Tingen, we have never known who the backer is."] = "As the only high-end department store in Tingen, we have never known who the backer is.",

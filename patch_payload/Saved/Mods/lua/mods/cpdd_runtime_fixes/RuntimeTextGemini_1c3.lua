@@ -264,6 +264,7 @@ return {
     ["俱乐部活动"] = "Клубные мероприятия",
     ["Send a letter to Miss <h>Justice</>"] = "Отправить письмо мисс <h>«Справедливость»</>",
     ["跟随冰淇淋的指引寻找"] = "Искать, следуя подсказкам мороженого",
+    ["Increases Pierce by 185. When releasing a Displacement Skill, Pierce is further increased by 205 for 5 seconds. This effect can trigger at most once every 10 seconds."] = "Повышает пронзание на 185. При применении навыка перемещения пронзание дополнительно повышается на 205 на 5 секунд. Срабатывает не чаще раза в 10 секунд.",
     ["The Supreme Little Radish is indeed delicious; you feel wind beneath your feet, and Movement Speed increases by 30%."] = "Высшая маленькая редиска и правда вкусная — вы чувствуете лёгкость в ногах, скорость передвижения увеличивается на 30%.",
     ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight> Monarch's Arrival · Flame</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Владычество · Огонь</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["最近我家门口天天围着一群人，拿着尺子、图纸、照相机，连卖咖啡的都来了。"] = "В последнее время у моего дома каждый день толпятся люди с линейками, чертежами, фотоаппаратами — даже продавец кофе пришёл.",

@@ -277,6 +277,7 @@ return {
     ["观察艾玛的状态"] = "Понаблюдать за состоянием Эммы",
     ["Go to <h>Backlund Amusement Park</>"] = "Отправиться в <h>парк развлечений Бэкланда</>",
     ["请完善必填信息后发布"] = "Заполните обязательную информацию перед публикацией.",
+    ["<Assistant_Title1>【Elite Monster Specialization】</>\nWhen attacking an Elite Monster, each point of Elite Monster Specialization increases your Attack by 1.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Attack]|1519}"] = "<Assistant_Title1>【Специализация против элитных монстров】</>\nПри атаке элитного монстра каждое очко Специализации против элитных монстров повышает собственную атаку на 1.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Атака]|1519}",
     ["什么游戏？"] = "В какую игру?",
     ["您一定要看的话也行——给您！"] = "Если вы уж очень хотите посмотреть — держите!",
     ["I have a date with my lover, and the umbrella is our signal to meet."] = "Я договорился о встрече с любимой, зонт — наш знак для встречи.",

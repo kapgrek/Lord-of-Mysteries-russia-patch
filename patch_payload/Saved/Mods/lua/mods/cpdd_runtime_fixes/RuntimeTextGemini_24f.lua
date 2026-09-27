@@ -241,6 +241,7 @@ return {
     ["Clown Fashion Duel"] = "Клоун: модная дуэль",
     ["Strongest of the Sequence"] = "Сильнейший в Последовательности",
     ["Armor Break +60"] = "Прорыв защиты +60",
+    ["Second ring placeholder"] = "Резерв второго круга",
     ["Attack increased by 1.5% per stack."] = "Атака увеличена на 1,5% за каждый стак.",
     ["Unlockable after 08:00 on September 28"] = "Разблокируется после 08:00 28 сентября",
     ["Oh... we're going there to sell potatoes. Yeah, that's it."] = "А... мы едем туда продавать картофель. Ну, вот так.",

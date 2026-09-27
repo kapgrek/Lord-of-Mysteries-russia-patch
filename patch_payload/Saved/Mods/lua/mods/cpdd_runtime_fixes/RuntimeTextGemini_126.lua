@@ -251,7 +251,7 @@ return {
     ["战士战术技能五阶"] = "Воин — Тактический навык, 5 ступень",
     ["Achievement - Honored with Medal"] = "Достижение - Награждён медалью",
     ["过去问问<h>小男孩</>"] = "Подойти и спросить <h>мальчика</>",
-    ["Viscountess - Idle Body Ring Effect"] = "Viscountess - Idle Body Ring Effect",
+    ["Viscountess - Idle Body Ring Effect"] = "Виконтесса - Эффект кольца в состоянии покоя",
     ["But, wasn't that a long time ago?"] = "Но разве это было не очень давно?",
     ["Your suspicion of the Goddess is pure nonsense, it's blasphemy! When my sister was sick before, we prayed to the Evernight Goddess, and she recovered very quickly!"] = "Твои сомнения насчёт богини — чистая нелепица, настоящее святотатство! Когда моя сестра болела, мы молились Богине Вечной Ночи, и она быстро выздоровела!",
     ["The highest quality currently possible is: <Quality_4>God-Favored</>"] = "Наивысшее качество, которое может выпасть сейчас: <Quality_4>Божья милость</>",

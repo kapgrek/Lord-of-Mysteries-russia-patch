@@ -264,6 +264,7 @@ return {
     ["查看面前的<h>笔记</>"] = "Осмотреть <h>записи</>, лежащие перед тобой",
     ["Top 10 in the contest receive"] = "Топ-10 участников конкурса получают",
     ["当前秘宝装等"] = "Текущий уровень экипировки Тайного сокровища",
+    ["<Assistant_Title1>【Sticker · Mystery Pryer】</>\n<Assistant_Title2>Description: </>Default Showcase Sticker\n<Assistant_Title2>Usage: </>Click <Assistant_System>Cosmetics - Showcase</> to view and use.\n<Assistant_Title2>Acquisition: </>Unlocked by default"] = "<Assistant_Title1>【Стикер · Соглядатай тайн】</>\n<Assistant_Title2>Описание: </>Стандартный стикер для витрины\n<Assistant_Title2>Использование: </>Нажмите <Assistant_System>Внешний вид-Витрина</>, чтобы посмотреть и использовать.\n<Assistant_Title2>Получение: </>Разблокирован по умолчанию",
     ["Marked Beyonders <Disable> guide the clone's charge direction </>, letting the clone charge through Roselle."] = "Отмеченный Потусторонний <Disable>направляет заряд клона</>, чтобы клон пронёсся через Розелль.",
     ["您不是俱乐部会长、外交官、理事，无法发起集结。"] = "Вы не президент клуба, не дипломат и не директор, поэтому не можете инициировать сбор.",
     ["Nathanael"] = "Нафанаил",

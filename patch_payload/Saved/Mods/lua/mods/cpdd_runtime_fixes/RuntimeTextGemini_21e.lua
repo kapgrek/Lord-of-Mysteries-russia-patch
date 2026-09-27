@@ -261,6 +261,8 @@ return {
     ["Twist the ice cream"] = "Покрутить мороженое",
     ["迪伦离开"] = "Дилан уходит",
     ["Talk to the postman"] = "Поговорить с почтальоном",
+    ["Deals additional damage equal to 15% of current Health when target Health is not higher than 15%, Cooldown 8 seconds"] = "Если здоровье цели не выше 15%, наносит дополнительный урон в размере 15% текущего здоровья, перезарядка 8 сек.",
+    ["Increases Attack by 370 and Skill Enhancement by 40. When a Basic Attack deals healing, Attack is further increased by 3.0% for 8 seconds. Basic Attacks also apply one layer of the Oath status to the target. \nOath: Receives healing every second for 4 seconds, stacking up to 3 times."] = "Повышает атаку на 370, повышает усиление навыков на 40. Когда обычная атака наносит лечение, атака дополнительно повышается на 3.0% на 8 секунд. Обычная атака также накладывает на цель один слой состояния «Клятва».\nКлятва: получает лечение каждую секунду, длится 4 секунды, максимум 3 стака.",
     ["Obtained by completing the [Divine Descent: Glory Weaving - Wings] Quest"] = "Получено за выполнение задания [Нисхождение божества: Ткание славы — Крылья]",
     ["五月庄园花园·普通补领礼盒"] = "Сад майской усадьбы: Обычный ларец получения",
     ["University life was indeed wonderful, but it wasn't until after graduation that I realized the other side of Backlund—a ruthless big city."] = "Университетская жизнь была и правда прекрасна, но только после выпуска я узнала другую сторону Бэкланда — беспощадного большого города.",

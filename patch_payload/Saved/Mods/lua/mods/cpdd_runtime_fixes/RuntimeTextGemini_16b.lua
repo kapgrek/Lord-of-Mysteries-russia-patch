@@ -298,6 +298,8 @@ return {
     ["本日剩余占卜次数：%d次"] = "Осталось попыток гадания сегодня: %d",
     ["与米莉共餐"] = "Поужинать с Милли",
     ["和<h>艾玛</>聊聊"] = "Поговорить с <h>Эммой</>",
+    ["Sylvia intermittently summons Corrupted Fungi to march and releases the Breath of Abundance to knock back players."] = "Сильвия периодически призывает марширующие гнилостные грибы и выпускает Дыхание изобилия, отбрасывающее игроков.",
+    ["The younger brother wants the second badge on the left, the younger sister wants the first mask in the last row..."] = "Младший брат хочет второй значок слева, младшая сестра хочет первую маску в последнем ряду…",
     ["非凡物质背包上限增加100格"] = "Увеличивает лимит инвентаря необычных материалов на 100 ячеек",
     ["When our gaze shifts away from the ending as the shadow of order, the endless torrent of knowledge also composes a song of resistance in Roselle's life."] = "Когда наш взгляд ненадолго отрывается от финала, ставшего тенью Порядка, бескрайний поток знаний также сложил в жизни Розелль последнюю песнь борьбы.",
     ["或许你应该放松，音乐是使人轻松、愉悦的魔法。"] = "Может, тебе стоит расслабиться, музыка — это магия, дарящая лёгкость и радость.",

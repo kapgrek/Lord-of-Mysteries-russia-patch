@@ -296,7 +296,8 @@ return {
     ["隐藏头顶血条"] = "Скрыть полосу здоровья над головой",
     ["前往<h>可疑位置</>蹲守"] = "Отправиться в <h>подозрительное место</> и устроить засаду",
     ["This cross-server chat channel is full."] = "Этот кросс-серверный канал чата заполнен.",
-    ["风尚决斗胜利，每次攻击可对首领造成巨量伤害！"] = "Fashion Duel victory! Each attack can deal massive damage to the boss!",
+    ["Immediately at start of combat, and every 5 seconds thereafter, selects the two nearest other allies."] = "Сразу при начале боя, а затем каждые 5 секунд, выбирает двух ближайших других союзников.",
+    ["风尚决斗胜利，每次攻击可对首领造成巨量伤害！"] = "Победа в Модной дуэли! Каждая атака наносит боссу огромный урон!",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 7.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7.5 маны",
     ["Goddess, I pray that my study journey in Backlund goes smoothly."] = "Богиня, молюсь, чтобы моя учёба в Бэкланде прошла гладко.",
 }

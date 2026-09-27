@@ -284,6 +284,7 @@ return {
     ["Which lineups are strong in Fool's Gambit?"] = "Какие составы сильны в «Гамбите Шута»?",
     ["Gains <HighLight>20%</> Critical Rate and <HighLight>25%</> Critical Damage. Bleed lasts <HighLight>3</> seconds, dealing <HighLight>30%</> Attack damage per second."] = "Даёт <HighLight>20%</> шанса крит. удара и <HighLight>25%</> крит. урона. Кровотечение длится <HighLight>3</> сек. и наносит <HighLight>30%</> атаки в виде урона каждую секунду.",
     ["神选席位荣誉头衔"] = "Почётный титул Богоизбранного места",
+    ["Scene Damage Boost"] = "Усиление урона в сценарии",
     ["每次施法记录1层；第4次施法使全队回复8法力。"] = "Каждое применение умения добавляет 1 стак; 4-е применение восстанавливает всей команде 8 маны.",
     ["Fashion Duel can only be conducted in AI mode"] = "«Дуэль моды» проводится только в режиме против ИИ",
     ["与克莱恩人脉好感度达到7级"] = "Достигните 7 уровня дружбы с Клейном",

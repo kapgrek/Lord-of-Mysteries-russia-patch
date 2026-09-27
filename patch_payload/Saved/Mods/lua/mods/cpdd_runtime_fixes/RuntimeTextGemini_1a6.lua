@@ -289,7 +289,7 @@ return {
     ["公寓时光"] = "Дни в квартире",
     ["袍身描边"] = "Контур мантии",
     ["玛丽的投影"] = "Проекция Мэри",
-    ["神谕加身，恩赐已至！{{player.name}}开启<Chat_Highlight>神降惊喜礼盒</>，获得{{item.name}}。此时此刻，你已荣获神明注视。"] = "The oracle has descended, and grace has arrived! {{player.name}} opened the <Chat_Highlight>Divine Descent Surprise Gift Box</> and obtained {{item.name}}. At this very moment, you have been graced by the gaze of the God.",
+    ["神谕加身，恩赐已至！{{player.name}}开启<Chat_Highlight>神降惊喜礼盒</>，获得{{item.name}}。此时此刻，你已荣获神明注视。"] = "Божественное благословение снизошло, дар получен! {{player.name}} открывает <Chat_Highlight>Сюрприз-набор Божественного нисхождения</> и получает {{item.name}}. В этот миг на тебя обращён взор божества.",
     ["Everyone is dead, they are all dead."] = "Все погибли, все умерли.",
     ["<P_Heart> (Voice getting quieter)</> But, what if I fly off halfway down..."] = "<P_Heart>(Голос всё тише)</>Но что если я на середине спуска вылечу с горки?..",
     ["Grandpa used to come here to pray often, and I want to pray for Grandpa too."] = "Дедушка часто приходил сюда молиться, и я тоже хочу помолиться за дедушку.",

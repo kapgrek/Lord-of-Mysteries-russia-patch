@@ -286,8 +286,9 @@ return {
     ["Phantom of the Opera Epic Group Redemption Box"] = "Ящик повторной выдачи: «Призрак оперы» — эпическая группа",
     ["Waiter Irene"] = "Официантка Ирэн",
     ["The Book of the Past is reproducing history."] = "Книга Прошлого воспроизводит историю.",
-    ["Forsaken Land 3 Reserve Extra Damage"] = "Forsaken Land 3 Reserve Extra Damage",
-    ["Display_MaterialTransformation"] = "Display_MaterialTransformation",
+    ["<Assistant_Title1>【Bard Special Defense】</>\nWhen attacked by a Beyonder of the Bard pathway, negate their Specialization. (Reduces the attacker's Specialization to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Attack]|1519}"] = "<Assistant_Title1>【Спецзащита от Бардов】</>\nПри получении урона от Потустороннего Пути Барда компенсирует его Специализацию. (Снижает Специализацию атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Атака]|1519}",
+    ["Forsaken Land 3 Reserve Extra Damage"] = "Заброшенные земли 3: резерв доп. урона",
+    ["Display_MaterialTransformation"] = "Отображение_Трансформация материала",
     ["这件是我们店里最时兴的款式了，领口的蕾丝是鲁恩王室同款……"] = "Это самый модный стиль в нашем магазине; кружево на воротнике такое же, как у членов королевской семьи Лоен...",
     ["采集指定TemplateID的采集物  传送到指定场景的坐标位置"] = "Собрать предмет с указанным TemplateID, телепортироваться по координатам в указанной сцене.",
 }

@@ -238,6 +238,7 @@ return {
     ["解开自己失忆的真相"] = "Раскрыть правду о своей потере памяти",
     ["收<h>辣椒</>"] = "Собрать <h>перец чили</>",
     ["Portrait · Fors"] = "Портрет · Форс",
+    ["Event Overview: \n The Historical Hourglass event runs periodically throughout the season. Beyonders can accumulate Time Sand progress by completing daily activity and themed development quests. Once the accumulated Time Sand reaches specified milestones, stage rewards will be unlocked."] = "Обзор события:\nСобытие «Исторические песочные часы» проходит периодически на протяжении сезона. Потусторонние могут накапливать прогресс Песка времени, выполняя ежедневные активные задания и тематические задания развития. По достижении накопленным Песком времени указанных рубежей открываются награды этапа.",
     ["Increase Attack by 1.5% per stack."] = "Атака увеличена на 1,5% за каждый стак.",
     ["Just looking... are you a book peddler?"] = "Просто смотрю... вы книготорговец?",
     ["还可以授予%d人未征服先锋，本次选择<Highlight>%d</>人"] = "Можно ещё присвоить титул «Авангард завоевателей» %d чел., сейчас выбрано: <Highlight>%d</> чел.",

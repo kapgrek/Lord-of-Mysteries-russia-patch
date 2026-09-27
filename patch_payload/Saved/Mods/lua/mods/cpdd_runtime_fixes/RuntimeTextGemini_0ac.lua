@@ -240,7 +240,7 @@ return {
     ["Sequence 7: Weapon Master"] = "Последовательность 7 Мастер Оружия",
     ["Sequence 7: Witch"] = "Последовательность 7 Ведьма",
     ["1 Invisibility charge remaining."] = "Осталось 1 применение невидимости.",
-    ["Stiffness Every 2 Seconds"] = "Stiffness Every 2 Seconds",
+    ["Stiffness Every 2 Seconds"] = "Оцепенение каждые 2 секунды",
     ["GVGHonor Exit Inner Area - Unlimited uses, supports multi-player interaction"] = "Выход с арены GVGHonor — неограниченное количество раз, поддерживает взаимодействие нескольких игроков",
     ["Backlund 8 - Mysterious Miss - Memory Retrace"] = "Бэкланд 8 - Таинственный промах - Воспоминание",
     ["Faction Battle Report: The <Chat_Highlight>{{eventMessageParams.guildName}}</> Club has joined forces to hunt <Chat_Highlight>{{eventMessageParams.killCount}}</> hostile Beyonders in the <Chat_Highlight>City of Dragon Hunting</> today. Wherever the war banner points, the enemy lines crumble!"] = "Боевая сводка фракции: клуб <Chat_Highlight>{{eventMessageParams.guildName}}</> сегодня совместно убил <Chat_Highlight>{{eventMessageParams.killCount}}</> враждебных Потусторонних в <Chat_Highlight>Городе Охоты на Драконов</>. Куда указывает боевое знамя, там ряды врага рушатся!",

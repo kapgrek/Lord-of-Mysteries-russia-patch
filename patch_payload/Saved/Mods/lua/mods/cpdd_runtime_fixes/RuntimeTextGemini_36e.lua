@@ -288,6 +288,7 @@ return {
     ["Strategic Server City Hunt Command Authority"] = "Право командования охотой на город (стратегический сервер)",
     ["罗塞尔的分身"] = "Двойник Розеля",
     ["绯红远击"] = "Багровый дальний удар",
+    ["Attack increased by 18%, Damage Amplification increased by 9%."] = "Атака повышается на 18%, усиление урона повышается на 9%.",
     ["Base Stats: Attack +30%, Life Steal +20%, Mana recovery +4"] = "Базовые характеристики: Атака +30%, Похищение жизни +20%, Восстановление маны +4",
     ["Perhaps, for some people, it is the exact opposite."] = "Возможно, для некоторых людей всё ровно наоборот.",
     ["Bedy was having a great time, dragging me to meet this person and that person, and finally left me alone in the corner."] = "Беди веселился вовсю, таскал меня знакомиться то с одним, то с другим, а в итоге бросил одного в углу.",

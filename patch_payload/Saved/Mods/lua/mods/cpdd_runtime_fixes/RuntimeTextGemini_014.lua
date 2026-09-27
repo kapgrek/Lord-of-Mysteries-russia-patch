@@ -247,7 +247,7 @@ return {
     ["曜辉凝华"] = "Лучезарное сияние",
     ["自动播放三人组出现"] = "Автовоспроизведение: появление троицы",
     ["到特莉丝位面自动播dia"] = "На плане Триси автоматически запускается диалог",
-    ["Array Shadow Flying Card"] = "Array Shadow Flying Card",
+    ["Array Shadow Flying Card"] = "Массив теневых летающих карт",
     ["4 allies in the front two rows: Team Defense increased by 8."] = "4 союзника в передних двух рядах: защита всей команды увеличивается на 8.",
     ["<DecH> Craft: </> Black-Red Light Armor - Strife Hunter Robe \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds."] = "<DecH>Мастерство:</>Чёрно-красная лёгкая броня — Охотничий плащ раздора\nЖажда власти сливается с потоком эпохи, амбиции воспламеняют тёмную сторону общества. Идя между желанием и Тьмой, ты — ловец тленья и острый клинок, сеющий бури.",
     ["多么庸俗的一句话啊。面包是多么容易得到，幸福是多么难以摘取。"] = "Какая пошлая фраза. Как легко добыть хлеб и как трудно обрести счастье.",

@@ -271,6 +271,7 @@ return {
     ["阶段任务"] = "Этапные задания",
     ["Enable Auto-Purification"] = "Включить автоочистку",
     ["Confirm Teleport"] = "Подтвердить телепортацию",
+    ["Attack Speed and Life Steal increased by 15%"] = "Скорость атаки и похищение жизни увеличены на 15%",
     ["But the hound ultimately belonged to Mr. Evans. Surprisingly, after the recently bankrupt Mr. Bolgan lost the lawsuit, he decided to exhaust his savings to buy the hound."] = "Но гончая всё же принадлежала мистеру Эвансу. Удивительно, но недавно разорившийся мистер Болган, проиграв суд, решил потратить все свои сбережения, чтобы выкупить гончую.",
     ["虽然今天公司休假，但我机智地选择在此地推销我司的木料。"] = "Хотя сегодня у компании выходной, я мудро решил заняться продажей нашего леса именно здесь.",
     ["He said the outside world is very big."] = "He said the outside world is very big.",

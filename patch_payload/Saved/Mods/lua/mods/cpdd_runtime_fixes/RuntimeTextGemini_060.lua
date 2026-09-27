@@ -250,7 +250,7 @@ return {
     ["成就-旗帜不倒"] = "Достижение - Флаг не пал",
     ["Emerging Talent"] = "Восходящая звезда",
     ["Construct a Wall of Spirituality"] = "Возвести Герметичный Духовный Барьер",
-    ["Untargetable and Unselectable"] = "Untargetable and Unselectable",
+    ["Untargetable and Unselectable"] = "Нельзя выбрать целью и нельзя выделить",
     ["书卷与茶香的午后,年轻的灵魂尚未窥见命运的深渊。"] = "Полдень, полный книг и аромата чая, — юная душа ещё не заглянула в бездну судьбы.",
     ["Manipulating threads, the moment to control fate."] = "Дёрнута нить марионетки — миг, когда судьба берётся под контроль.",
     ["That guy Spring has a strange temper, but he at least cares for my friend, so let him be."] = "That guy Spring has a strange temper, but he at least cares for my friend, so let him be.",

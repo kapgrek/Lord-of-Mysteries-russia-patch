@@ -261,6 +261,7 @@ return {
     ["分赏席位"] = "Распределить места",
     ["Auto-play: The trio appears"] = "Автовоспроизведение: появление троицы",
     ["Suffering of the Commoners"] = "Страдания простолюдинов",
+    ["<Assistant_Title1>【Soft Crowd Control】</>\nIncludes Slow, Stagnation, and Imprisonment. \n<Assistant_Title3>Recommended search: </>{SendAnswer:[Crowd Control Effects]|1467}"] = "<Assistant_Title1>【Слабый контроль】</>\nВключает замедление, вязкость и сковывание.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффекты контроля]|1467}",
     ["自身的移动速度不会低于自身基础移动速度的100%。"] = "Скорость передвижения не может быть ниже 100% от базовой скорости передвижения.",
     ["呵呵，如你所见，和你一样的方法……"] = "Хе-хе, как видишь, тот же способ, что и у тебя…",
     ["Oh my, it seems there are still impatient guests coming to the door."] = "Ох, похоже, всё же нашёлся нетерпеливый гость.",

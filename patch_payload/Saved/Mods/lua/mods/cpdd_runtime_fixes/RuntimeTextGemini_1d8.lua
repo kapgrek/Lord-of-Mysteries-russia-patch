@@ -261,7 +261,7 @@ return {
     ["英雄强化是什么"] = "Что такое усиление героя?",
     ["从园丁和警卫手中逃离"] = "Сбежать от садовника и охранников",
     ["该跨服聊天分线已满"] = "Этот кросс-серверный канал чата заполнен.",
-    ["Exhausted"] = "Exhausted",
+    ["Exhausted"] = "Истощение",
     ["I quite like it, it's like we're participants in the parliament."] = "Мне это даже нравится, будто мы участники парламентского заседания.",
     ["One interview is gifted for every five hundred words. If you need more, five pounds will be added for each interview."] = "На каждые пятьсот слов даётся одно интервью бесплатно. Если нужно больше, каждое дополнительное интервью стоит пять фунтов.",
     ["Fight Evil is a three-player game. At the start of the match, players decide their factions by grabbing the 'Evil'. The two factions fight, and the first to play all their cards wins. The 'Evil' has the priority to play first. Players follow in a counter-clockwise direction, and each player can choose to follow with a larger card set or pass. First, a note on: <Highlight> King Bomb > Bomb > Other card types </>. Below is an introduction to the basic card types in Fight Evil."] = "«Бой со злом» — игра для трёх игроков. В начале партии стороны определяются через захват карты «Зло», после чего стороны сражаются друг с другом, и победу одержит тот, кто первым выложит все карты. Обладатель «Зла» получает приоритет на первый ход, игроки отвечают картами против часовой стрелки, и каждый может выбрать: ответить более сильной комбинацией карт или пропустить ход. Сначала отметим: <Highlight>Джокер-бомба > Бомба > Остальные комбинации</>. Далее — описание основных комбинаций карт в игре «Бой со злом».",

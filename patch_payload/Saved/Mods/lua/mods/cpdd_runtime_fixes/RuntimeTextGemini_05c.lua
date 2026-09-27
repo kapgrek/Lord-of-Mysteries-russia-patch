@@ -257,7 +257,7 @@ return {
     ["William's projection"] = "Проекция Уильяма",
     ["单片眼镜"] = "Монокль",
     ["Outfit Matching Competition"] = "Конкурс сочетания образов",
-    ["全体攻速提高10%。"] = "All allies' Attack Speed increased by 10%.",
+    ["全体攻速提高10%。"] = "Скорость атаки всех союзников повышается на 10%.",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 20 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 20 маны",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 2 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 2 маны",
     ["Then... let's go to the docks and see the real thing!"] = "Тогда… пойдём в порт и посмотрим на настоящих!",

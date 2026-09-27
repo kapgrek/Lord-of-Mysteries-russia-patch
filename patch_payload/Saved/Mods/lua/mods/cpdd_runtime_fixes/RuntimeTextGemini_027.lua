@@ -269,7 +269,7 @@ return {
     ["Find <h>Sulia</> and talk to him"] = "Найти <h>Сулию</> и поговорить с ним",
     ["The plague spreads"] = "Чума распространяется",
     ["离开阿斯塔家"] = "Покинуть дом Асты",
-    ["<Assistant_Title1>【观众专防】</>\n受到观众途径的非凡者攻击时，抵消其专攻。(最多将攻击方专攻降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[攻击]|1519}"] = "<Assistant_Title1>【Spectator Special Defense】</>\nWhen attacked by a Beyonder of the Spectator pathway, negate their Specialization. (Reduces the attacker's Specialization to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Attack]|1519}",
+    ["<Assistant_Title1>【观众专防】</>\n受到观众途径的非凡者攻击时，抵消其专攻。(最多将攻击方专攻降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[攻击]|1519}"] = "<Assistant_Title1>【Спецзащита от Зрителей】</>\nПри получении урона от Потустороннего Пути Зрителя компенсирует его Специализацию. (Снижает Специализацию атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Атака]|1519}",
     ["体验更多剧情以解锁。"] = "Разблокируется прохождением дополнительного сюжета.",
     ["旅途中的见闻，就是我最好的创作素材。"] = "Всё, что я вижу и слышу в пути, — лучший материал для моих песен.",
     ["原来如此，真遗憾——您还没好好逛过这座城吧？"] = "Вот оно как, как жаль — вы ведь ещё толком не осмотрели этот город?",

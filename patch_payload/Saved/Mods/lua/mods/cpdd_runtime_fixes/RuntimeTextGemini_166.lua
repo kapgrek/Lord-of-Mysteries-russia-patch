@@ -248,6 +248,8 @@ return {
     ["Base Stats: Health +250"] = "Базовые характеристики: Здоровье +250",
     ["模型体型提升130%"] = "Размер модели увеличен на 130%",
     ["Go to the <h>ticket inspector</> to have your ticket checked"] = "Пойти к <h>контролёру</> для проверки билета",
+    ["<Assistant_Title1>Declaration Triumph · Strategic Server</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Win 1 declaration of war."] = "<Assistant_Title1>Триумф объявления войны · Стратегический сервер</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Победить в объявлении войны 1 раз.",
+    ["What is a Fate Gift?"] = "Что такое «Дар судьбы»?",
     ["你只是单纯向女神祈祷，却没有付出任何努力吗？"] = "Ты просто молился богине, но сам не приложил никаких усилий?",
     ["雏菊代表深藏在心底的爱。要是有些话说不出口，就让花替你传达吧。"] = "Ромашки символизируют любовь, глубоко скрытую в сердце. Если некоторые слова невозможно произнести, пусть цветы передадут их за вас.",
 }

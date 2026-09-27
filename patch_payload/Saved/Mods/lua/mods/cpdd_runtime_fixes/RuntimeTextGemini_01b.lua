@@ -268,6 +268,7 @@ return {
     ["Experience the story"] = "Пройти сюжет",
     ["街道开路衔接"] = "Соединение маршрута по улице",
     ["到自己位置坐下"] = "Занять своё место и сесть",
+    ["Marionette Fragment Random Gift Box"] = "Случайный набор осколков Марионетки",
     ["Life Sect (6): 30% Attack"] = "Секта Жизни (6): 30% атаки",
     ["The speaking phase is in microphone-order mode; please wait for the room owner to set the speaking order."] = "На этапе выступлений действует режим очерёдности микрофона: подождите, пока владелец комнаты установит порядок выступлений.",
     ["What kind of game?"] = "В какую игру?",

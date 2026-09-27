@@ -261,6 +261,7 @@ return {
     ["Ming Dynasty"] = "Династия Мин",
     ["Base Stats: Defense +40"] = "Базовые характеристики: Защита +40",
     ["Four-with-Two"] = "Четвёрка с довеском",
+    ["<Assistant_Title1>【Knockdown Hit Rate】</>\nIncreases the hit probability of knockdown control effects against targets, up to a maximum of 2x the base hit rate. This is offset by the target's Knockdown Dodge.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}"] = "<Assistant_Title1>【Точность сбивания с ног】</>\nПовышает вероятность попадания контроля «Сбивание с ног» по цели, вплоть до 2-кратного увеличения базовой вероятности попадания. Компенсируется параметром «Уклонение от сбивания с ног» цели.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффект контроля]|1467}",
     ["Follow the official \"Lord of Mysteries Game\" WeChat account and bind your character to receive an <HighLight>exclusive outfit!</>"] = "Подпишитесь на официальный аккаунт «Lord of the Mysteries: Game» и привяжите персонажа, чтобы получить <HighLight>эксклюзивный костюм!</>",
     ["Hidden Space - Dawn Defense Line - Death Knell Interaction Object"] = "Скрытое пространство - Линия обороны Рассвета - Объект взаимодействия «Погребальный колокол»",
     ["<DecH>工艺：</>华美纱摆・宫廷华服\n王朝盛时，诸神来贺。整个国境内的欢呼，都被酿成一杯名为昌盛的祝酒。"] = "<DecH>Материал:</> Роскошный шлейф из газа · Придворное платье\nВ пору расцвета династии боги явились с поздравлениями. Все ликования по всей стране слились в один тост под названием «Процветание».",

@@ -303,7 +303,7 @@ return {
     ["Good Taste"] = "Хороший вкус",
     ["Report Personal Profile"] = "Жалоба на профиль в визитке",
     ["Roselle's Corrupted Will"] = "Осквернённая воля Розеля",
-    ["<Assistant_Title1>【睡眠增强】</>\n提高角色睡眠状态命中后的持续时长，最多使基础时长变为2倍，受到目标睡眠抵挡的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Sleep Enhancement】</>\nIncreases the duration of sleep status effects applied to targets, up to a maximum of 2x the base duration. This is offset by the target's Sleep Block.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["<Assistant_Title1>【睡眠增强】</>\n提高角色睡眠状态命中后的持续时长，最多使基础时长变为2倍，受到目标睡眠抵挡的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Усиление сна】</>\nПовышает длительность состояния «Сон» после попадания по цели, вплоть до 2-кратного увеличения базовой длительности. Компенсируется параметром «Сопротивление сну» цели.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффект контроля]|1467}",
     ["Base Stats: Health +300, Defense +20"] = "Базовые характеристики: здоровье +300, защита +20",
     ["每次普攻技能Type=2的首技能释放固定恢复16.5法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 16.5 маны",
     ["战略技能提升至5阶\n解锁攻击封印物-战略非凡物质槽位,1250018"] = "Стратегический навык повышен до 5 уровня\nРазблокировать атакующий Запечатанный Артефакт — слот для стратегического потустороннего материала, 1250018",

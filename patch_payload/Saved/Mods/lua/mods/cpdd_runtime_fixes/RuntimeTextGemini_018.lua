@@ -244,7 +244,7 @@ return {
     ["Drop Banana Peel"] = "Бросить банановую кожуру",
     ["分配席位"] = "Назначить места",
     ["简单和<h>威尔</>说明情况"] = "Коротко объяснить ситуацию <h>Уиллу</>",
-    ["Ember Priest Break Expression"] = "Ember Priest Break Expression",
+    ["Ember Priest Break Expression"] = "Пепельный жрец — выражение перелома",
     ["Increase Beyonder material Inventory capacity by 100 slots."] = "Увеличивает лимит инвентаря необычных материалов на 100 ячеек",
     ["No more wandering, no more starving, no more being bought and sold, no more getting hurt..."] = "Больше не нужно скитаться, не нужно голодать, не нужно быть проданной, не нужно быть раненой…",
     ["当然了，我知道有家餐馆，他们的厨师全都来自南大陆，菜肴更是一等一的好。"] = "Конечно, я знаю один ресторан, все повара там с Южного континента, а блюда просто первоклассные.",

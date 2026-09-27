@@ -285,6 +285,7 @@ return {
     ["What potions are available in the Training Ground?"] = "Какие зелья есть на тренировочной площадке?",
     ["Return to the ticket booth"] = "Вернуться к билетной кассе",
     ["Cannot spectate while matching."] = "Нельзя наблюдать во время подбора матча.",
+    ["[Rumor] gray fog Blessing becomes gray fog Suppression. When there is a target, using it still grants the gray fog Blessing effect, while also having a 100% base probability to Silence the target for 1 second."] = "【Слухи】«Благословение серого тумана» превращается в «Подавление серого тумана»: при наличии цели использование по-прежнему даёт эффект «Благословения серого тумана», а также накладывает на цель Молчание с базовой вероятностью 100% на 1 сек.",
     ["Attack increased by an additional 15% when Health is above 50%."] = "Атака дополнительно увеличивается на 15%, когда здоровье выше 50%.",
     ["Backlund 5 - Original Shares - Memory Retrace"] = "Бэкланд 5 - Изначальные акции - Воспоминание",
     ["<DecH>工艺：</>夜色织锦\n深沉夜色下，切切絮语在沙龙中生长。刚刚，又是谁的雪色绒发拂过了掌心？"] = "<DecH>Материал:</> Гобелен ночи\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",

@@ -248,7 +248,7 @@ return {
     ["拒绝风尚决斗-一号信徒"] = "Отклонить модный поединок — Верующий №1",
     ["Robe body"] = "Основная часть мантии",
     ["Auto-remolding stopped"] = "Автоперековка остановлена",
-    ["超凡生物：伤害加深20%。"] = "Beyond Creature: Damage Amplification 20%.",
+    ["超凡生物：伤害加深20%。"] = "Сверхъестественное существо: усиление урона 20%.",
     ["After releasing Traveler's Door, summon squad members to teleport to the portal location"] = "После применения Двери Путешественника призывает членов отряда и телепортирует их к порталу",
     ["The Four Emperors have gathered, but only one can be the final winner. A war capable of changing the world's situation has begun."] = "Четыре Императора собрались вместе, но лишь один сможет стать окончательным победителем — началась война, способная изменить расклад сил во всём мире.",
     ["Eh? Are you asking me?"] = "А? Вы меня спрашиваете?",

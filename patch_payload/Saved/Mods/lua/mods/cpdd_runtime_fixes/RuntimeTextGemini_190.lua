@@ -266,6 +266,7 @@ return {
     ["Sheer fabric in front of the skirt"] = "Прозрачная ткань спереди юбки",
     ["战略金镑"] = "Стратегические золотые фунты",
     ["Slot 9"] = "Слот 9",
+    ["Damage increased by 30% against high-Health targets."] = "Усиление урона на 30% против целей с высоким здоровьем",
     ["Experience the side story \"Dreams Come True\" or Sound-Following gameplay to unlock."] = "Разблокируется прохождением побочного сюжета «Мечты сбываются» или режима «По следу звука».",
     ["Open all Brass Books, clear all Hard dungeons, and use no more than 1 team resurrection per run."] = "Откройте все Медные книги, пройдите все сложные подземелья, используя не более 1 воскрешения отряда за забег.",
     ["Faction Relations: Same faction are allies, others are enemies. \nChannel Population: Each channel can hold a maximum of 160 people per faction. \nStrategic Server Dragon Hunt: Every Thursday and Saturday \n 19:00—20:00, appears at 19:10. \nAppearance Location: Center of the Dragon Hunting City Royal Capital."] = "Отношения фракций: одна фракция — союзники, другие фракции — враги.\nЧисленность канала: на каждом канале не более 160 человек от одной фракции.\nОхота на дракона на стратегическом сервере: каждый четверг и субботу\n　　открыта с 19:00 по 20:00, дракон появляется в 19:10.\nМесто появления: центр королевской столицы Города охоты на драконов.",

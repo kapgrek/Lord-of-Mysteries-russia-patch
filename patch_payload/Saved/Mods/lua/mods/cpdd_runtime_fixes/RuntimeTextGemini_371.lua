@@ -272,7 +272,7 @@ return {
     ["<Highlight>%d天后</>揭晓最终结果"] = "<Highlight>Через %d дн.</> будут объявлены итоговые результаты",
     ["迪伦正在宣传什么"] = "Дилан что-то рекламирует",
     ["神弃绝盾"] = "God-Forsaken Absolute Shield",
-    ["Fire Flare Shadow Overlap"] = "Fire Flare Shadow Overlap",
+    ["Fire Flare Shadow Overlap"] = "Наложение теней огненной вспышки",
     ["The night is deep, the bell tolls break the deathly silence of the city, and the echoes linger in the empty streets."] = "Ночь глубока, колокольный звон разбивает мёртвую тишину города, а отзвук блуждает по пустым улицам.",
     ["Dear, I also hope that when we get home, he will be waiting for us at the door."] = "Дорогой, я тоже надеюсь, что когда мы вернёмся домой, он будет ждать нас у двери.",
     ["还想碰瓷吗？"] = "Все еще хотите попытаться обмануть людей?",

@@ -259,6 +259,7 @@ return {
     ["前往战略服终末猎杀"] = "Перейти к финальной охоте на стратегическом сервере",
     ["跟<h>梅丽莎和班森</>打招呼"] = "Поздороваться с <h>Мелиссой и Бенсоном</>",
     ["How to Charm other players"] = "Как очаровать других игроков",
+    ["<Assistant_Title1>【Knockback Dodge】</>\nReduces the probability of being hit by knockback and interrupt control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Knockback Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}"] = "<Assistant_Title1>【Уклонение от отбрасывания】</>\nСнижает вероятность попадания эффектов отбрасывания и прерывания, максимум до половины базового шанса попадания. Компенсирует Точность отбрасывания источника контроля.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффекты контроля]|1467}",
     ["值夜者在此守望黑暗,以勇气筑起对抗邪恶的防线。"] = "Ночные Стражи охраняют здесь Тьму, возводя линию обороны против зла своей отвагой.",
     ["每次普攻技能Type=2的首技能释放固定恢复4法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 4 маны",
     ["推荐一款咖啡？"] = "Порекомендуете кофе?",

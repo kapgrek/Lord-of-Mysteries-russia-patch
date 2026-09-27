@@ -282,7 +282,7 @@ return {
     ["Achievement - Flag-Capturing Vanguard"] = "Достижение - Авангард захвата флага",
     ["Prestige"] = "Престиж",
     ["Meal"] = "Еда",
-    ["<Assistant_Title1>【基础治疗增强】</>\n表示从养成中直接获得的治疗增强。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[治疗增强]|1514}"] = "<Assistant_Title1>【Base Healing Enhancement】</>\nIndicates the Healing Enhancement obtained directly from progression.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Healing Enhancement]|1514}",
+    ["<Assistant_Title1>【基础治疗增强】</>\n表示从养成中直接获得的治疗增强。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[治疗增强]|1514}"] = "<Assistant_Title1>【Базовое усиление лечения】</>\nОбозначает Усиление лечения, получаемое напрямую за счёт прокачки персонажа.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Усиление лечения]|1514}",
     ["通过公会宣战场景解锁。"] = "Разблокируется через сцену объявления войны гильдией.",
     ["前两排5人：全队防御提高10。"] = "5 союзников в передних двух рядах: защита всей команды увеличивается на 10.",
     ["That Creator once said: Let there be light. And so, the divinity beneath His throne acts as an agent through the halo."] = "Тот Создатель некогда сказал: Да будет свет. И тогда божественность у Его престола стала выражаться через ореол.",

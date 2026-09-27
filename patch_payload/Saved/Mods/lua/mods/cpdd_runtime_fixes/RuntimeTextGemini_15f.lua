@@ -240,7 +240,7 @@ return {
     ["Mystery Pryer Avatar"] = "Аватар «Жрец Тайн»",
     ["和布朗神父交谈"] = "Поговорить с отцом Брауном",
     ["Personality Overwrite"] = "Перезапись личности",
-    ["Viscountess-Invisibility"] = "Viscountess-Invisibility",
+    ["Viscountess-Invisibility"] = "Виконтесса-Невидимость",
     ["...Are you unwilling to even reveal your name?"] = "...Неужели вы даже имени не желаете назвать?",
     ["Don't say that; those who didn't come back are the true heroes."] = "Не говори так, настоящие герои — те, кто не вернулся.",
     ["单次“普通”难度副本中，通关全部BOSS，且每次战斗中团队使用复活的次数均不多于3次。"] = "В однократном прохождении подземелья сложности «Обычный» пройдите всех боссов, и при этом команда использовала воскрешение не более 3 раз в каждом бою.",

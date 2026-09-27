@@ -284,7 +284,7 @@ return {
     ["询问园丁"] = "Расспросить садовника",
     ["Try to <h>think about what's going on</>"] = "Попробовать <h>подумать, что происходит</>",
     ["Rare Honey-Cured Bacon"] = "Редкий бекон в меду",
-    ["每4秒回复3%最大生命"] = "Restore 3% of Max Health every 4 seconds",
+    ["每4秒回复3%最大生命"] = "Каждые 4 сек. восстанавливает 3% максимального здоровья",
     ["7名邻格友军提供42防御。"] = "7 союзников в соседних клетках дают 42 защиты.",
     ["The two inherent Mana regeneration values for this planning period are both 0, retaining the independent spawn Buff configuration slot."] = "В этом периоде планирования оба показателя врождённого восстановления маны равны 0, слот конфигурации отдельного бафа при появлении сохранён",
     ["What stats should a healer focus on?"] = "Какие характеристики следует развивать хилеру?",

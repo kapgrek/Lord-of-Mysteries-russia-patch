@@ -256,7 +256,7 @@ return {
     ["Frosty Brocade"] = "Морозная парча",
     ["休闲场"] = "Свободная комната",
     ["Ronald"] = "Рональд",
-    ["2星累计受到21.77点伤害时恢复1.5法力（阈值为初始最大生命2177的1%）"] = "Restore 1.5 Mana when 21.77 total damage is taken at 2 stars (threshold is 1% of initial Max Health 2177).",
+    ["2星累计受到21.77点伤害时恢复1.5法力（阈值为初始最大生命2177的1%）"] = "2 звезда: при накоплении 21.77 полученного урона восстанавливает 1.5 ед. маны (порог — 1% начального максимального здоровья, 2177).",
     ["Tarot Club · Alger: 3-person tier increment, all allies Attack +1.6%."] = "Клуб Таро · Алгер: бонус уровня «3 игрока», вся команда +1.6% к атаке.",
     ["Life Steal increased by an additional 10% when Health is not above 50%."] = "Вампиризм дополнительно увеличивается на 10%, когда здоровье не выше 50%.",
     ["Added <Highlight> actions, camera movements, music, and emotes </> can be <Highlight> replaced </>. Click the <Highlight> Play </> button to <Highlight> preview </> the effect. \n Click <Highlight> Start Performance </> to begin the performance."] = "Добавленные <Highlight>действия, движения камеры, музыку и эмоции</> можно <Highlight>заменить</>. Нажмите кнопку <Highlight>Воспроизвести</>, чтобы <Highlight>просмотреть</> эффект.\nНажмите <Highlight>Начать выступление</>, чтобы начать выступление.",

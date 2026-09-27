@@ -261,6 +261,7 @@ return {
     ["心理诊疗"] = "Психологическая терапия",
     ["Rebecca is waiting"] = "Ребекка ждёт",
     ["Excellent Contestant Showcase"] = "Витрина лучших участников",
+    ["Holy Light Purification cooldown reduced by 10 seconds."] = "Время перезарядки «Очищения Святым светом» сокращено на 10 секунд.",
     ["It seems this sentence is in the mathematics textbook written by Emperor Roselle..."] = "Кажется, эта фраза есть в учебнике математики, написанном императором Розеллем...",
     ["My father was Sir Edward Gatling, a famous surgeon in Backlund."] = "Мой отец — сэр Эдвард Гатлинг, знаменитый хирург Бэкланда.",
     ["What kind of thing is that?"] = "Что это за штука?",

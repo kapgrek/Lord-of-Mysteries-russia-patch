@@ -259,6 +259,7 @@ return {
     ["击败仪式召唤的投影"] = "Победить проекцию, призванную ритуалом",
     ["Head to the underground passage to investigate"] = "Отправиться в подземный переход для расследования",
     ["Leave first and look for clues"] = "Сначала уйти и поискать улики",
+    ["Sylvia corrupts the ground and releases the Breath of Abundance to knock back players."] = "Сильвия заражает землю и выпускает Дыхание изобилия, отбрасывающее игроков.",
     ["Enter the Sinful Tingen plane to unlock."] = "Разблокируется входом в план «Порочный Тинген».",
     ["Delicious! Movement speed increased"] = "Вкусно! Скорость передвижения увеличилась",
     ["战略服终末猎杀一条线能进多少人"] = "Сколько игроков может войти в один канал «Финальной охоты» на Стратегическом сервере?",

@@ -273,9 +273,10 @@ return {
     ["How do I complete the 'Smoke' achievement?"] = "Как выполнить достижение «Курение»?",
     ["点烟玩法"] = "Механика прикуривания",
     ["Ask the gardener"] = "Расспросить садовника",
-    ["共同参与队伍/团队副本时可以适用<Highlight>属性补正与额外复活次数</>。特定副本通关时可获取额外<Highlight>奖励</>。"] = "When participating in party/team dungeons together, <Highlight> attribute bonuses and extra resurrection counts </> can be applied. Clearing specific dungeons grants extra <Highlight> rewards </>.",
-    ["Lulota mark buff"] = "Lulota mark buff",
-    ["Position 1 Animation"] = "Position 1 Animation",
+    ["If Azik's one to three-star Spirit World Bombardment hits, it reduces the target's Defense by 40% for 4 seconds."] = "Отслеживает попадание трёх волн «Обстрела Мира Духов» Азика уровня от одной до трёх звёзд: защита цели снижается на 40%, длится 4 сек.",
+    ["共同参与队伍/团队副本时可以适用<Highlight>属性补正与额外复活次数</>。特定副本通关时可获取额外<Highlight>奖励</>。"] = "При совместном прохождении подземелий в отряде/группе применяются <Highlight>коррекция характеристик и дополнительные воскрешения</>. За прохождение определённых подземелий можно получить дополнительные <Highlight>награды</>.",
+    ["Lulota mark buff"] = "Баф метки Лулоты",
+    ["Position 1 Animation"] = "Анимация позиции 1",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }

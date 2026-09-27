@@ -288,7 +288,7 @@ return {
     ["Record notes"] = "Сделать запись в дневнике",
     ["The Three O'Clock Funeral"] = "Похороны в три часа",
     ["Find <h>Cawood</>"] = "Найти <h>Кавуда</>",
-    ["开战获得20点初始法力，攻击提高30%，持续15秒。"] = "Gain 20 initial Mana at the start of combat; Attack increased by 30% for 15 seconds.",
+    ["开战获得20点初始法力，攻击提高30%，持续15秒。"] = "В начале боя получает 20 ед. начальной маны, атака повышается на 30% на 15 сек.",
     ["我好像明白了。"] = "Кажется, я понял.",
     ["Goodness, I have no choice but to pray to the Goddess, hoping She can help me pass the interview."] = "Боже, мне остаётся только молиться Богине, надеясь, что Она поможет мне пройти собеседование.",
     ["需要<Disable> 防护职业</>即使转移罗塞尔仇恨。"] = "Нужно, чтобы <Disable>класс защиты</> немедленно переключил на себя агрессию Розелль.",

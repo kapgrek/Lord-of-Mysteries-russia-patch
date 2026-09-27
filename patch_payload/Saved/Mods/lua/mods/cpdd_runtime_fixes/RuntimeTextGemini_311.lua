@@ -262,7 +262,9 @@ return {
     ["ᴛop̈"] = "ᴛop̈",
     ["Club Brawl Redemption Box"] = "Ящик повторной выдачи: Клубная потасовка",
     ["沙盘刻名者"] = "Резчик имён на песочном столе",
-    ["Biological Toxin Vial"] = "Biological Toxin Vial",
+    ["Base Stats: Damage Reduction +20%"] = "Базовые характеристики: снижение урона +20%",
+    ["<Assistant_Title1>【Invincibility】</>\n<Assistant_Red>Immune to </>damage received.\n<Assistant_Title2>Note: </>Invincibility<Assistant_Red> is not equal to </>Control Immunity, and some <Assistant_Red>mechanic damage</> caused by bosses cannot be immunized."] = "<Assistant_Title1>【Неуязвимость】</>\n<Assistant_Red>Иммунитет</> к получаемому урону.\n<Assistant_Title2>Совет: </>Неуязвимость <Assistant_Red>не равнозначна</> иммунитету к контролю, а некоторый <Assistant_Red>урон от механик</> отдельных боссов невозможно заблокировать иммунитетом.",
+    ["Biological Toxin Vial"] = "Флакон биологического яда",
     ["Tree of Abundance - Normal - Misfortune Water Giant Turtle Refuse Fashion Duel"] = "Древо изобилия - Обычный - Отказ от поединка стиля «Гигантская черепаха проклятых вод»",
     ["俱乐部宣言包含不当词汇，请修正"] = "Декларация клуба содержит неприемлемые слова, исправьте её",
 }

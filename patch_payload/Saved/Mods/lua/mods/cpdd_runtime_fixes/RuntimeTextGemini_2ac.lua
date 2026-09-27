@@ -277,7 +277,7 @@ return {
     ["Blade Unsheathed · End"] = "Клинок обнажён · Конец",
     ["前往<h>黑伍德庄园</>"] = "Отправиться в <h>поместье Хейвуд</>",
     ["Interaction 2"] = "Взаимодействие 2",
-    ["Drag Every 2 Seconds"] = "Drag Every 2 Seconds",
+    ["Drag Every 2 Seconds"] = "Притягивание каждые 2 секунды",
     ["当前可能出现的最高品质为<Quality_5>非凡</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_5>Необычное</>",
     ["Who can tell me how to choose a charm that suits me?"] = "Кто подскажет мне, как выбрать подходящий амулет?",
     ["The weather is terrible, a blizzard will definitely arrive within half an hour!"] = "Погода ужасная, метель точно накроет нас в течение получаса!",

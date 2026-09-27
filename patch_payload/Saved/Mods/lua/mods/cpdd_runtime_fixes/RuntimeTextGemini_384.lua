@@ -267,7 +267,7 @@ return {
     ["6-4 选秀"] = "6-4 Выбор фигур",
     ["Clown Refuse Fashion Duel Activated"] = "Клоун: отказ от модной дуэли (активировано)",
     ["Collar - One"] = "Воротник 1",
-    ["The sweetest poisoned wine, the most bone-eroding honey. Are you just taking a sip, or are you unable to stop?"] = "The sweetest poisoned wine, the most bone-eroding honey. Are you just taking a sip, or are you unable to stop?",
+    ["The sweetest poisoned wine, the most bone-eroding honey. Are you just taking a sip, or are you unable to stop?"] = "Самое сладкое отравленное вино, самый разъедающий кости мёд. Вы просто пригубите — или уже не сможете остановиться?",
     ["轻快的节奏如春日微风,快乐在每个音符中跳跃。"] = "Лёгкий ритм подобен весеннему ветерку, радость пляшет в каждой ноте.",
     ["我在梦中？！"] = "Я во сне?!",
     ["The <PVPHighlight>%s</> club has declared war on the <PVPHighlight>%s</> club! The war begins at <PVPHighlight>%02d:%02d~%02d:%02d</>!"] = "Клуб <PVPHighlight>%s</> объявил войну клубу <PVPHighlight>%s</>! Время начала войны: <PVPHighlight>%02d:%02d~%02d:%02d</>!",

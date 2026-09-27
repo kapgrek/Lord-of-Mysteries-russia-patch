@@ -226,7 +226,7 @@ return {
     ["Resonance: Sinful Tingen·5 | Iron Blood·2 | Swift Hunt·2 | Witch Sect·2\nMain DPS: Charm Succubus 3★\nMain Tank: Inquisitor Blake 3★, Profane Witch 2★\nStrategy: Charm Succubus, Blake chase 3★; Witch reduces defense, Iron Blood strengthens the front row"] = "Резонансы: Грешный Тинген·5 | Железо и кровь·2 | Быстрая охота·2 | Секта Демониц·2\nОсновной урон: Чарующая суккуб 3★\nОсновной танк: Судья Блэк 3★, Нечестивая ведьма 2★\nТактика: доведите Чарующую суккуб и Блэка до 3★; ведьмы снижают защиту, Железо и кровь усиливает передний ряд",
     ["假玩家"] = "Поддельный игрок",
     ["Mechanical Mystery #9"] = "Механическая головоломка №9",
-    ["GTA Fallen Priest Mechanism Soul Out-of-Body"] = "GTA Fallen Priest Mechanism Soul Out-of-Body",
+    ["GTA Fallen Priest Mechanism Soul Out-of-Body"] = "GTA: механика падшего священника — выход души из тела",
     ["角色等级达到39级后，可创建房间开启竞技。"] = "После достижения персонажем 39 уровня можно создать комнату для начала состязания.",
     ["You cannot delete your Covenant partner."] = "Вы не можете удалить партнёра по клятве.",
     ["两次密码不一致，请重新输入"] = "Введённые пароли не совпадают, повторите ввод",

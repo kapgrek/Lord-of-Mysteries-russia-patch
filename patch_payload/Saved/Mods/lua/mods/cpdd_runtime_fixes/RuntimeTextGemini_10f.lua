@@ -276,7 +276,7 @@ return {
     ["Blackthorn Incident Log Redemption Box"] = "Ящик повторной выдачи: Журнал происшествий «Чёрный шип»",
     ["检查舞台"] = "Осмотреть сцену",
     ["Pagnia"] = "Паркина",
-    ["Forsaken Land 5 Reserve Extra Health"] = "Forsaken Land 5 Reserve Extra Health",
+    ["Forsaken Land 5 Reserve Extra Health"] = "Заброшенные земли 5: резерв доп. здоровья",
     ["A small mass of gray fog separates from Sefirah Castle to shroud you and your teammates. All attacks from units inside the gray fog are ineffective against units outside, and conversely, external attacks are ineffective against those inside."] = "Из Крепости Сефира отделяется небольшое облако серого тумана, окутывающее вас и союзников. Все атаки существ внутри серого тумана не действуют на существ снаружи, и наоборот — атаки снаружи не действуют на находящихся внутри.",
     ["<PVPHighlight>%s</>俱乐部已向<PVPHighlight>%s</>俱乐部发起宣战！宣战开启时间为<PVPHighlight>%02d:%02d~%02d:%02d</>！"] = "Клуб <PVPHighlight>%s</> объявил войну клубу <PVPHighlight>%s</>! Время начала войны: <PVPHighlight>%02d:%02d~%02d:%02d</>!",
     ["等等，不许向代罚者举报，是教会委托我来擦窗户的！"] = "Подожди, не докладывай Уполномоченным Карателям — меня наняла Церковь, чтобы помыть окна!",

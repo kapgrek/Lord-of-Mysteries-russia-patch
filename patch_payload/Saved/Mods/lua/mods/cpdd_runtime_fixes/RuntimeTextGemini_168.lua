@@ -252,7 +252,7 @@ return {
     ["对药方感兴趣"] = "Заинтересоваться рецептом",
     ["记忆涌入脑海"] = "Воспоминания нахлынули в голову",
     ["活动规则"] = "Event Rules",
-    ["Forsaken Land 5 Battle Health"] = "Forsaken Land 5 Battle Health",
+    ["Forsaken Land 5 Battle Health"] = "Заброшенные земли 5: здоровье в бою",
     ["亲爱的，你在后面磨磨蹭蹭做什么呢？"] = "Милый, что ты там медлишь позади?",
     ["Deep-Sleep Flowers and... oh dear! I didn't remember it again!"] = "Цветы глубокого сна и... ох, я снова забыла!",
     ["Keep us away from the contamination of evil, free us from the entanglement of disaster..."] = "Убереги нас от осквернения злом, освободи нас от пут бедствия...",

@@ -263,6 +263,8 @@ return {
     ["询问营业内容"] = "Спросить о роде деятельности",
     ["周名望值"] = "Недельная известность",
     ["帕金娜"] = "Паркина",
+    ["Attack Speed increased by 10% per stack."] = "Скорость атаки повышается на 10% за уровень.",
+    ["Open all Brass Books, clear all Normal dungeons, and keep total combat duration under 1200 seconds."] = "Откройте все Латунные книги, пройдите все обычные подземелья, а суммарное время боя не должно превышать 1200 секунд.",
     ["Under the Red Moon, the corruption of the starry sky descends again; this is a tearing between reason and madness."] = "Под Красной Луной вновь нисходит осквернение звёздного неба — это разрывающая борьба между рассудком и безумием.",
     ["铁血：最大生命值提高65%。"] = "Кровь и железо: максимум Очков Здоровья (ОЗ) увеличивается на 65%.",
     ["If the club ever let me cook a meal for the children in the East District, I dare say they would appreciate my craft more than the big shots here."] = "Если бы клуб когда-нибудь позволил мне приготовить обед для детей из Восточного района, я смело скажу, что они оценили бы моё мастерство куда лучше, чем здешние важные шишки.",

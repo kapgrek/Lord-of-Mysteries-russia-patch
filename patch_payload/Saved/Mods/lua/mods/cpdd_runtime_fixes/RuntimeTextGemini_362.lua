@@ -276,7 +276,7 @@ return {
     ["Dragon Hunt: Epic Treasure Chest"] = "Охота на дракона: Эпический сундук",
     ["饭菜"] = "Еда",
     ["前往投票评选"] = "Перейти к голосованию",
-    ["伤害减免12%"] = "Damage Reduction 12%",
+    ["伤害减免12%"] = "Снижение урона 12%",
     ["Successfully perform Requiem %d/20 times."] = "Успешно проведите Реквием %d/20 раз.",
     ["So that's it. I knew I hadn't misjudged it back then."] = "Вот оно как. Я знал, что не ошибся в своё время.",
     ["I am a Nighthawk from Blackthorn. \n I came from Tingen to Backlund to investigate the recent amnesia incidents."] = "Я — Ночной страж Чёрного шипа.\nЯ прибыл из Тингена в Бэкланд, чтобы расследовать недавние случаи потери памяти.",

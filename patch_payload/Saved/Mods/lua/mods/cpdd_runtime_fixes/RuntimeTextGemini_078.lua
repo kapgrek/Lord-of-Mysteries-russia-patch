@@ -271,6 +271,7 @@ return {
     ["Heart-fluttering"] = "Трепет сердца",
     ["调查现场"] = "Осмотреть место происшествия",
     ["The body is a cage for the heart, and the world is a cage for the body."] = "Тело — клетка для сердца, а мир — клетка для тела.",
+    ["<Assistant_Title1>【Imprisonment Enhancement】</>\nIncreases the duration of imprisonment status effects applied to targets, up to a maximum of 2x the base duration. This is offset by the target's Imprisonment Block.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}"] = "<Assistant_Title1>【Усиление сковывания】</>\nПовышает длительность состояния «Сковывание» после попадания по цели, вплоть до 2-кратного увеличения базовой длительности. Компенсируется параметром «Сопротивление сковыванию» цели.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффект контроля]|1467}",
     ["Base Stats: Health +80, Attack +8%, Defense +8"] = "Базовые характеристики: Здоровье +80, Атака +8%, Защита +8",
     ["是否区分buff来源	如果为true，且检查的buff本身为区分来源的buff，则只会检查自己添加的buff"] = "Учитывать ли источник баффа	Если true, и проверяемый бафф сам является баффом с учётом источника, будут проверяться только баффы, добавленные вами",
     ["Returned to the land and flesh beneath the psychedelic wind-bell tree. Reached through Dick's hands, this meal is full of the flavors of home."] = "Под деревом психоделических колокольчиков земля и плоть были возвращены. Достигнутое руками Дика, это блюдо полно вкуса родного края.",

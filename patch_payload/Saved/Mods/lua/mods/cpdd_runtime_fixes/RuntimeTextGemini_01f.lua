@@ -274,7 +274,7 @@ return {
     ["Item: Corrupted Will"] = "Предмет: Осквернённая воля",
     ["Fight Evil Gameplay Instructions"] = "Правила режима «Борьба со злом»",
     ["Touch Dylan"] = "Прикоснуться к Дилану",
-    ["<Assistant_Title1>【拖拽闪避】</>\n降低被拖拽控制命中的概率，最多使基础命中率降低一半，抵消控制来源的拖拽命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Drag Dodge】</>\nReduces the probability of being hit by drag control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Drag Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["<Assistant_Title1>【拖拽闪避】</>\n降低被拖拽控制命中的概率，最多使基础命中率降低一半，抵消控制来源的拖拽命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Уклонение от волочения】</>\nСнижает вероятность попадания эффектов волочения, максимум до половины базового шанса попадания. Компенсирует Точность волочения источника контроля.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффекты контроля]|1467}",
     ["You are a wandering singer?"] = "Ты бродячий певец?",
     ["What? Do you think we can't afford so many potatoes?"] = "Что? Думаете, мы не можем позволить себе столько картофеля?",
     ["I, I want to save some money so I can go back to school after my mother gets better."] = "Я, я хочу накопить немного денег, чтобы вернуться в школу, когда мама поправится.",

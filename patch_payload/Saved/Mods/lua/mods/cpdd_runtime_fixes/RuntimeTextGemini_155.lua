@@ -310,6 +310,7 @@ return {
     ["Final Performance"] = "Финальное представление",
     ["全套方案覆盖成功"] = "Полный комплект успешно перезаписан",
     ["Teleport Entrance"] = "Портал телепортации",
+    ["Leonard is recovering anomalies scattered throughout the area. You can exchange collected Objects of Phenomenon for rewards."] = "Леонард собирает разбросанные повсюду феномены. Собранные Предметы феноменов можно обменять на награды.",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

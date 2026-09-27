@@ -290,7 +290,7 @@ return {
     ["Please set your Conquest Vanguard in time"] = "Пожалуйста, вовремя назначьте авангард завоевания",
     ["支持佩帕"] = "Поддержать Пеппу",
     ["在<h>隐蔽处</>构建灵性之墙"] = "Возвести Герметичный Духовный Барьер в <h>укрытии</>",
-    ["<Assistant_Title1>【占卜家抵抗】</>\n受到占卜家途径的非凡者攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Seer Resistance】</>\nWhen attacked by a Beyonder of the Seer pathway, negate their Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["<Assistant_Title1>【占卜家抵抗】</>\n受到占卜家途径的非凡者攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Сопротивление Провидца】</>\nПри получении атаки от Потустороннего Пути Провидца снижает его подавление. (Снижает подавление атакующего максимум до 0)\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
     ["May Manor Garden - Normal - Refuse Mythical Butler Fashion Duel"] = "Сад Майской усадьбы - Обычный - Отказ от модной дуэли: Мифический дворецкий",
     ["你获得了<Chat_Highlight>%d</>征服声望。"] = "Вы получили <Chat_Highlight>%d</> Престижа завоевания.",
     ["您听起来病得很严重。"] = "Судя по голосу, вы серьёзно больны.",

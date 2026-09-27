@@ -257,6 +257,7 @@ return {
     ["进入社交人气商店"] = "Войти в Магазин социальной популярности",
     ["Check the <h>note</> left by the cook"] = "Осмотреть <h>записку</>, оставленную поваром",
     ["Captain opens the door"] = "Капитан открывает дверь",
+    ["Beyond Creature: Damage Amplification 50%."] = "Сверхъестественное существо: усиление урона 50%.",
     ["Steam roars in the land of hope; industrial prosperity forges the glory of the Northern Continent."] = "Пар гремит над землёй надежды, промышленное процветание куёт славу Северного континента.",
     ["Unlock via Victor's Declaration assembly."] = "Разблокируется через собрание «Заявление победителя».",
     ["基础属性：攻击+10%、吸血+10%"] = "Базовые характеристики: атака +10%, похищение здоровья +10%",

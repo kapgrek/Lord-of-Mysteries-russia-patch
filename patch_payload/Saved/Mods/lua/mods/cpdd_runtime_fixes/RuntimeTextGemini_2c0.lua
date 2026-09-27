@@ -245,6 +245,8 @@ return {
     ["Sticker · Apprentice"] = "Стикер · Ученик",
     ["罗塞尔的污染意志"] = "Осквернённая воля Розеля",
     ["Go to the Hall and find the postman"] = "Пойти в зал и найти почтальона",
+    ["<Assistant_Title1>【Shepherd】</>\n<Assistant_Title2>Description:</> Store-exclusive Outfit\n<Assistant_Title2>Use:</> After purchasing in the store, obtain the Shepherd set; you can click <Assistant_System>Appearance-Dress Up</> to view and use it.\n<Assistant_Title2>Acquisition:</> Obtained through the <Assistant_System>Store</>."] = "<Assistant_Title1>【Пастух】</>\n<Assistant_Title2>Описание: </>Костюм, продающийся напрямую в магазине\n<Assistant_Title2>Использование: </>После покупки в магазине вы получите комплект «Пастух»; нажмите <Assistant_System>Внешность - Смена наряда</>, чтобы просмотреть и использовать его.\n<Assistant_Title2>Получение: </>Получить через <Assistant_System>Магазин</>",
+    ["Four-Way League Vow-Taker Group Compensation Gift Box"] = "Набор компенсации группы «Присягнувшие» Лиги четырёх сторон",
     ["暂用于基准点=taroffset的情况"] = "Временно используется для случая, когда базовая точка = taroffset",
     ["pvp要养成什么属性？"] = "Какие характеристики нужно развивать для PvP?",
     ["可要是一直这样躺着不会饿死吗？吃不饱是没力气领会任何真理的。"] = "Но если так лежать всё время, разве не умрёшь с голоду? Без еды не хватит сил постичь никакую истину.",

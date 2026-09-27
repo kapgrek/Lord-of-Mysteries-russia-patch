@@ -221,6 +221,7 @@ return {
     ["Daytime"] = "День",
     ["Set %d-digit password"] = "Установить %d-значный пароль",
     ["坐上邮差的<h>脚踏车</>"] = "Сесть на <h>велосипед</> почтальона",
+    ["What type of damage does the Connection Skill deal?"] = "Какой урон наносит Умение связей?",
     ["Besides the goods, there is much more we need to pay attention to. Product display, architectural design..."] = "Помимо самого товара, нужно уделять внимание многому другому: оформлению витрин, архитектурному дизайну...",
     ["Those over there are chamomile and golden hand-oranges."] = "А вон там — ромашка и золотистые «рукастые» апельсины.",
     ["Chapter Four"] = "Глава 4",

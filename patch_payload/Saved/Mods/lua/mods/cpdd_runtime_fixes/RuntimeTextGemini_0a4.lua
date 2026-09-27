@@ -246,7 +246,7 @@ return {
     ["风尚决斗-瑞尔比伯"] = "Модный поединок — Риэль Бибер",
     ["上厕所"] = "Сходить в туалет",
     ["Return to <h>Melissa</>'s side"] = "Вернуться к <h>Мелиссе</>",
-    ["Holy Radiance Barrier"] = "Holy Radiance Barrier",
+    ["Holy Radiance Barrier"] = "Барьер Святого Сияния",
     ["Absurd game rules take effect here; deadly traps hide behind the laughter."] = "Здесь действуют абсурдные правила игры, а за смехом скрываются смертельные ловушки.",
     ["Great. Let's go to my place next weekend. I'll prepare tea and snacks, and Meg will be responsible for reading to us."] = "Отлично. В следующие выходные приходите ко мне, я приготовлю чай с угощениями, а Мэг почитает нам вслух.",
     ["The conquest belonging to the Emperor never ends; He is waiting for a new entrant to walk before Him."] = "Завоевания великого императора никогда не заканчиваются; Он ждёт, когда новый участник предстанет перед Ним.",

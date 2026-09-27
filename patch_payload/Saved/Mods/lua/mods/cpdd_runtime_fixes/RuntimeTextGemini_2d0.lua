@@ -249,6 +249,8 @@ return {
     ["恐惧能量冲击周围敌人，三星时伤害提高。"] = "Энергия страха поражает окружающих врагов, при трёх звёздах урон повышается.",
     ["Giftable"] = "Можно подарить",
     ["【未准备】"] = "【Не готов】",
+    ["Tarot Club · Klein: 4-person tier increment, all allies Critical Damage +2%."] = "Таро-клуб «Клейн»: прирост за 4 участника, урон от критических ударов всех союзников +2%.",
+    ["Traveler's Door cooldown reduced by 30 seconds"] = "Время перезарядки Врат Путешественника сокращается на 30 секунд",
     ["3名邻格友军提供18防御。"] = "3 союзника в соседних клетках дают 18 защиты.",
     ["Mark Buff added after being teleported; holders of this buff will be ignored by subsequent group summons. Not mandatory"] = "Метка-бафф, добавляемая после телепортации; обладатели этого баффа будут игнорироваться последующими групповыми призывами. Не обязательно",
     ["Thank you for your concern. I'm fine, just a little exhausted."] = "Благодарю за заботу. Со мной всё в порядке, просто немного устал.",

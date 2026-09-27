@@ -236,7 +236,7 @@ return {
     ["Tell the <h> two </> your plan"] = "Рассказать <h>двоим</> о своём плане",
     ["大门被打开了"] = "Ворота открылись",
     ["The God-Chosen Seat symbolizes the supreme honor in the Strategic Server's battles, and only Beyonders with outstanding military exploits who have made contributions to the faction are eligible for this honor. The seat will be granted by the president personally to reward the meritorious warriors who fought side-by-side; if the distribution is not completed within the time limit, the system will issue it according to the military exploit ranking, so that every achievement has a place and every piece of glory is not let down."] = "Место Избранного Богом символизирует высшую честь в войнах Стратегического сервера — этой награды достойны лишь Потусторонние с выдающимися боевыми заслугами, внёсшие вклад в свою фракцию. Место лично вручает председатель в награду соратникам, сражавшимся плечом к плечу; если распределение не завершено в срок, система выдаст места по очереди согласно рейтингу боевых заслуг, чтобы каждое достижение нашло своё место, а каждая частица славы не осталась без внимания.",
-    ["Black Thorn Incident Book 4-Level 2-Pounce Zombie Material buff"] = "Black Thorn Incident Book 4-Level 2-Pounce Zombie Material buff",
+    ["Black Thorn Incident Book 4-Level 2-Pounce Zombie Material buff"] = "Дело «Чёрный шип», Книга 4, Уровень 2 — Баф материала наскока зомби",
     ["Want to get past me? Ask fate if it agrees first."] = "Хочешь пройти мимо меня? Сначала спроси, согласна ли на это судьба.",
     ["笑一个吧，在演出还未落幕之前，在尚存活于这片舞台之时。"] = "Улыбнись, пока представление не завершилось, пока ты ещё жив на этой сцене.",
     ["安提哥努斯笔记任务怎么接取？"] = "Как получить задание «Записки Антигонуса»?",

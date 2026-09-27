@@ -292,7 +292,7 @@ return {
     ["About Beyonders"] = "О Потусторонних",
     ["本期结算时间：%s"] = "Время расчёта этого периода: %s",
     ["查看<h>撕碎的纸张</>"] = "Осмотреть <h>разорванный лист бумаги</>",
-    ["Trigger Slow every 2 seconds, 5m radius"] = "Trigger Slow every 2 seconds, 5m radius",
+    ["Trigger Slow every 2 seconds, 5m radius"] = "Замедление каждые 2 секунды, радиус 5 м",
     ["GVGHonor退出内场—无限次数、可多人交互"] = "Выход с арены GVGHonor — неограниченное количество раз, поддерживает взаимодействие нескольких игроков",
     ["It's the rats! It's the plague! We have to burn them all!"] = "Это крысы! Это чума! Нужно сжечь их всех!",
     ["已收到<PVPHighlight>%s</>俱乐部的宣战！宣战开启时间为<PVPHighlight>%02d:%02d~%02d:%02d</>，请及时做好准备！"] = "Получено объявление войны от клуба <PVPHighlight>%s</>! Война начнётся в <PVPHighlight>%02d:%02d~%02d:%02d</>, пожалуйста, подготовьтесь заранее!",

@@ -248,6 +248,7 @@ return {
     ["风尚决斗-先祖铠甲"] = "Дуэль стиля — Доспехи предков",
     ["已在战场中"] = "Уже на поле боя",
     ["I have other things to do, leaving now"] = "У меня есть другие дела, ухожу",
+    ["How is healing calculated?"] = "Как рассчитывается исцеление?",
     ["I shared an Art School scheme %s %s"] = "Я поделился схемой Школы искусства %s %s",
     ["The bar isn't serving hard liquor for now; go have a drink at the club!"] = "Бар временно не подаёт крепкие напитки — сходите выпить в клуб!",
     ["Alright, thank you for the trouble."] = "Хорошо, спасибо за беспокойство.",

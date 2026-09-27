@@ -277,7 +277,7 @@ return {
     ["Trick Bloom · End"] = "Расцвет фокуса · Конец",
     ["让艾玛一个人静静"] = "Оставить Эмму одну, чтобы она успокоилась",
     ["Aiden Gray"] = "Эйден Грей",
-    ["Passing on the fire in the name of Tarot, only so that after the end of the world, there is still tomorrow."] = "Passing on the fire in the name of Tarot, only so that after the end of the world, there is still tomorrow.",
+    ["Passing on the fire in the name of Tarot, only so that after the end of the world, there is still tomorrow."] = "Передавая огонь во имя Таро, лишь для того, чтобы после конца света всё ещё было завтра.",
     ["%s liked you; obtained an additional %d Leader points."] = "%s поставил вам лайк, дополнительно получено %d очков лидера отряда",
     ["Not yet the opening time for the float parade: %s"] = "Время открытия парада платформ ещё не наступило: %s",
     ["你为什么要杀死男爵?"] = "Зачем ты убил барона?",

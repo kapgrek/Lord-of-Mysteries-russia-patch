@@ -248,7 +248,7 @@ return {
     ["Immune to crowd control effects for the first <HighLight>20</> seconds of combat."] = "Невосприимчивость к эффектам контроля в первые <HighLight>20</> секунд боя.",
     ["Talk to <h>Richard</>"] = "Поговорить с <h>Ричардом</>",
     ["War Soul Possession · End"] = "Одержимость боевым духом · Конец",
-    ["GVG Tower Effect Buff - Underworld Emperor"] = "GVG Tower Effect Buff - Underworld Emperor",
+    ["GVG Tower Effect Buff - Underworld Emperor"] = "Эффект башни GVG — Император преисподней",
     ["Space-time and fate intersect here, and He sits at the head of the ancient long table. Praise The Fool!"] = "Здесь пересекаются пространство-время и судьба, Он восседает во главе древнего длинного стола. Слава Шуту!",
     ["Fragrant pollen disperses in the wind, yet it brings withered life and the message of death."] = "Ароматная пыльца рассеивается на ветру, но несёт с собой увядание жизни и весть смерти.",
     ["Attack increased by 55%; increases by an additional 2% each time a skill is cast."] = "Атака увеличивается на 55%; при каждом применении навыка дополнительно увеличивается на 2%.",

@@ -272,7 +272,7 @@ return {
     ["Magnificent Curtain Call · End"] = "Пышный финал · Конец",
     ["Speak with <h> Count Lucien </>"] = "Поговорить с <h>графом Люсьеном</>",
     ["签名歪歪扭扭"] = "Подпись кривая и неровная",
-    ["Use power to erase space, dealing continuous damage to enemies within range, followed by a finisher that deals massive damage. Deals additional gathering and knockup effects to monsters."] = "Use power to erase space, dealing continuous damage to enemies within range, followed by a finisher that deals massive damage. Deals additional gathering and knockup effects to monsters.",
+    ["Use power to erase space, dealing continuous damage to enemies within range, followed by a finisher that deals massive damage. Deals additional gathering and knockup effects to monsters."] = "Используйте силу, чтобы стереть пространство, нанося непрерывный урон врагам в радиусе действия, а затем завершающим ударом наносите огромный урон. Дополнительно наносит эффекты стягивания и подбрасывания монстрам.",
     ["后两排攻击提高40%。"] = "Атака двух задних рядов увеличивается на 40%.",
     ["（不得不承认 这真是我穿越以来见过颜值最高的女孩了）"] = "(Должен признать, это самая красивая девушка, которую я видел с момента перемещения.)",
     ["<P_Heart>（哭泣）</>吃完了就好了，好了就不会被带走了……"] = "<P_Heart>(плачет)</>Если доесть, всё будет хорошо. А если будет хорошо, меня не увезут…",

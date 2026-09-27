@@ -227,7 +227,7 @@ return {
     ["<HighLight> Increases damage after casting </>"] = "<HighLight>Повышает урон после применения навыка</>",
     ["风尚决斗-小丑"] = "Модный поединок — Клоун",
     ["前往势力战（未开启）"] = "Перейти в Войну фракций (не открыто)",
-    ["使用技能时造成的伤害会被转移到友方上去，造成的治疗会被转移到敌方上去，持续*d秒。"] = "Damage dealt when using skills will be transferred to allies, and healing dealt will be transferred to enemies, lasting *d seconds.",
+    ["使用技能时造成的伤害会被转移到友方上去，造成的治疗会被转移到敌方上去，持续*d秒。"] = "При использовании умений наносимый урон передаётся союзникам, а наносимое лечение передаётся врагам, в течение *d секунд.",
     ["{{player.name}} has initiated a <Chat_Highlight>divine descent ritual</> at Saint Selena Cathedral in Tingen, praying for the gaze and grace of Mr. Fool. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Assist]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости господина Шута. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Его благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>",
     ["技能基础值是什么？"] = "Что такое базовое значение умения?",
     ["This is the most prosperous commercial arcade in Hillston District, with more and better shops."] = "Это самая оживлённая торговая галерея района Хиллстон, здесь больше качественных магазинов.",

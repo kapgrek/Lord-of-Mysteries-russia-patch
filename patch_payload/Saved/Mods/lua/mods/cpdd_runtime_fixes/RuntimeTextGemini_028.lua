@@ -254,6 +254,8 @@ return {
     ["Obtain Klein *1"] = "Получите Клейна *1",
     ["Level 65 Unbound Competition Equipment Chest"] = "Непривязанный ящик состязательной экипировки (65 ур.)",
     ["寻找<h>卡伍德</>"] = "Найти <h>Кавуда</>",
+    ["<Assistant_Title1>【Damage Boost】</>\nIncreases the damage dealt by a certain percentage, offset by the target's Damage Reduction.\n<Assistant_Title2>Tips: </>This attribute distinguishes between Physical and Magic, and can have negative values.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Прирост урона】</>\nПовышает наносимый урон на определённый процент, компенсируется параметром «Снижение урона» цели.\n<Assistant_Title2>Полезный совет: </>Этот параметр разделяется на физический и магический и может иметь отрицательные значения.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
+    ["Sustain Through War Random Gift Box"] = "Случайная коробка «Война кормит войну»",
     ["判断角色当前激活的是哪个ID的天赋分支"] = "Определяет, какая ветвь талантов (по ID) активна у персонажа в данный момент",
     ["Uh, that thought is indeed not a problem..."] = "Эм, с этой мыслью действительно всё в порядке...",
     ["Requires Beyonders to adjust their total number by picking up orbs to match the correct answer."] = "Потусторонние должны собирать шары, чтобы подстроить сумму чисел под правильный ответ.",

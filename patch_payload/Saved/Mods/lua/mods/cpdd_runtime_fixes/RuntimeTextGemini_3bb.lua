@@ -252,7 +252,9 @@ return {
     ["原野花海"] = "Море полевых цветов",
     ["刺客近战PVP推荐方案"] = "Рекомендуемая сборка Убийцы (ближний бой, PvP)",
     ["取消上传"] = "Отменить загрузку",
-    ["Black Thorn Incident Book 4-Level 4-Upgrade Performance buff"] = "Black Thorn Incident Book 4-Level 4-Upgrade Performance buff",
-    ["Receive 100,000 Castle Assets, which can be used to upgrade the Castle and purchase furniture."] = "Receive 100,000 Castle Assets, which can be used to upgrade the Castle and purchase furniture.",
+    ["Defense increased by *d, Healing received increased by *f**."] = "Защита повышена на *d, эффект получаемого лечения повышен на *f**.",
+    ["Damage Increase +10%, Damage Reduction +10%"] = "Усиление урона +10%, Снижение урона +10%",
+    ["Black Thorn Incident Book 4-Level 4-Upgrade Performance buff"] = "Дело «Чёрный шип», Книга 4, Уровень 4 — Баф эффективности улучшения",
+    ["Receive 100,000 Castle Assets, which can be used to upgrade the Castle and purchase furniture."] = "Получите 100 000 активов Крепости, которые можно использовать для улучшения Крепости и покупки мебели.",
     ["Base stats: Health +350, Attack +25%, Defense +20"] = "Базовые характеристики: здоровье +350, атака +25%, защита +20",
 }

@@ -271,6 +271,8 @@ return {
     ["欲念七重奏天赋效果"] = "Какой эффект у таланта «Семикратное желание»?",
     ["Emperor's Return: Hard"] = "Возвращение императора · Сложный",
     ["Faded"] = "Выцветание",
+    ["Increases Attack by 185 and Skill Enhancement by 80. When a skill deals healing, Skill Enhancement is further increased by 110 for 10 seconds, and an additional instance of healing is applied at the target's location. This effect can trigger at most once every 20 seconds."] = "Повышает атаку на 185, повышает усиление навыков на 80. Когда навык наносит лечение, усиление навыков дополнительно повышается на 110 на 10 секунд, а в месте нахождения цели производится дополнительное лечение. Срабатывает не чаще раза в 20 секунд.",
+    ["<Assistant_Title1>Unrivaled Battle Merit</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 20,000 battle merit in this cycle."] = "<Assistant_Title1>Несравненная боевая заслуга</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Накопить 20 000 очков боевой заслуги в этом цикле.",
     ["Mr. {{ Ms. |}}, the show starts at seven tonight. You can see it if you walk to the end of Backlund Avenue. Interested?"] = "{{Господин|Госпожа}}, представление начинается в семь вечера. Идите до конца проспекта Бэкланд, и вы его увидите. Интересно?",
     ["A commotion comes from a corner of Minsk Street. Rumors of ghosts? Gangster intimidation? Or is there something else going on..."] = "Шум доносится с угла Улицы Минск. Слухи о призраках? Угрозы банды? Или дело в чём-то ещё...",
     ["获得指定道具  对象发送AI与场景事件  玩家发送任务道具"] = "Получить указанный предмет; объект отправляет AI и событие сцены; игрок отправляет квестовый предмет.",

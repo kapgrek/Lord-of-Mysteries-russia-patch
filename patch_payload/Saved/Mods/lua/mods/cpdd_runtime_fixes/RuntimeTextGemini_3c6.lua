@@ -282,7 +282,7 @@ return {
     ["Continue Restore"] = "Продолжить восстановление",
     ["The Book of the Past is anchoring history."] = "Книга Прошлого закрепляет историю.",
     ["Head to the Victor's Declaration assembly"] = "Отправиться на Ассамблею провозглашения победителя",
-    ["基础属性：攻速+40%、法力恢复+4"] = "Base Stats: Attack Speed +40%, Mana Regen +4",
+    ["基础属性：攻速+40%、法力恢复+4"] = "Базовые характеристики: скорость атаки +40%, восстановление маны +4",
     ["【鲁恩街头的神秘传说】成就说明"] = "[Таинственная легенда улиц Лоена] Описание достижения",
     ["Pah! He pushed her to that point back then, and now he has the nerve to come back asking for money. Truly shameless."] = "Тьфу! Довёл человека до такого состояния, а теперь ещё имеет наглость возвращаться и просить денег — вот бессовестный.",
     ["What? No, that young man was so sincere; it must be the despicable bank that stole my money."] = "Что? Нет, тот молодой человек был так искренен, наверняка это подлый банк присвоил мои деньги.",

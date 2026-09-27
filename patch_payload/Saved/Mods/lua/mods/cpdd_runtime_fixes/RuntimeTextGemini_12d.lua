@@ -270,6 +270,7 @@ return {
     ["Flag Remains Standing"] = "Флаг не пал",
     ["Signature Move"] = "Коронный номер",
     ["买支<h>冰激凌</>尝尝"] = "Купить <h>мороженое</> и попробовать",
+    ["<M_Default> Dear Beyonder: </>\n <M_Default> You have been set as a Conquest Vanguard! Please claim your rewards in time. </>"] = "<M_Default>Дорогой Потусторонний:</>\n<M_Default>Вы назначены Авангардом завоевания! Пожалуйста, заберите награду вовремя.</>",
     ["基础属性：生命+400、法力恢复+4"] = "Базовые характеристики: здоровье +400, восстановление маны +4",
     ["How do Spectators pull people?"] = "Как Зрителям пригласить игроков?",
     ["But I must find a reliable job..."] = "Но мне нужно найти надёжную работу...",

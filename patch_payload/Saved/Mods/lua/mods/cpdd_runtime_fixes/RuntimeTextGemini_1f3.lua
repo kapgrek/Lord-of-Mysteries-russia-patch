@@ -257,8 +257,10 @@ return {
     ["Someone is calling you"] = "Кто-то зовёт вас",
     ["Iron Wall Secret Spell Witch"] = "Демоница тайного заклятия железной стены",
     ["关注物品可购买"] = "Отслеживаемый товар доступен для покупки.",
-    ["<Assistant_Title1>初启战端</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>作为会长成功发起俱乐部宣战1次。"] = "<Assistant_Title1>Initiating Hostilities</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Successfully initiate a club declaration of war as a president 1 time.",
-    ["操控效果持续时间增加为2.5秒，受影响的其他敌人在操控效果生效瞬间附加禁锢1秒。"] = "Control effect duration increased to 2.5 seconds, and other affected enemies are Imprisoned for 1 second upon the control effect taking effect.",
-    ["Hour hand forward two ticks Phantom Shadow"] = "Hour hand forward two ticks Phantom Shadow",
+    ["[Tarot Club · Audrey Hall] Tier 7 increment: +1.2% Damage increase (250% total)"] = "[Клуб Таро · Одри Холл] Прирост уровня 7: +1.2% усиления урона (всего 250%)",
+    ["Restore 1.5 Mana when 28.22 total damage is taken at 2 stars (threshold is 1% of initial Max Health 2822)."] = "2 звезда: при накоплении 28.22 полученного урона восстанавливает 1.5 ед. маны (порог — 1% начального максимального здоровья, 2822).",
+    ["<Assistant_Title1>初启战端</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>作为会长成功发起俱乐部宣战1次。"] = "<Assistant_Title1>Начало военных действий</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Успешно инициировать объявление войны клуба в качестве президента 1 раз.",
+    ["操控效果持续时间增加为2.5秒，受影响的其他敌人在操控效果生效瞬间附加禁锢1秒。"] = "Длительность эффекта контроля увеличивается до 2.5 сек., другие затронутые враги дополнительно получают Заключение на 1 сек. в момент срабатывания эффекта контроля.",
+    ["Hour hand forward two ticks Phantom Shadow"] = "Призрачная тень: часовая стрелка вперёд на два деления",
     ["前往指定Trigger位置  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放情绪音乐（仅自己可听）"] = "Перейти в указанную точку триггера  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок воспроизводит эмоциональную музыку (слышно только себе)",
 }

@@ -251,6 +251,7 @@ return {
     ["kA=="] = "kA==",
     ["社交玩法"] = "Социальный режим",
     ["Ask about <h> Asta's situation </>"] = "Расспросить о <h>состоянии Асты</>",
+    ["<Assistant_Title1>Declaration Blade · Strategic Server</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 300,000 damage dealt to players during declarations of war."] = "<Assistant_Title1>Клинок объявления войны · Стратегический сервер</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Нанести в сумме 300 000 урона игрокам во время объявления войны.",
     ["体验主线剧情第三章《暗涌的危机》以解锁。"] = "Разблокируется прохождением главы 3 основного сюжета «Скрытый кризис».",
     ["In Special Duty mode, you will face different cases each time you enter."] = "В режиме «Особое дежурство» каждый вход сталкивает вас с новым делом.",
     ["This is the most high-end department store in all of Tingen; even when it's closed, plenty of people keep an eye on it!"] = "This is the most high-end department store in all of Tingen; even when it's closed, plenty of people keep an eye on it!",

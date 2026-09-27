@@ -261,6 +261,7 @@ return {
     ["网丶叶"] = "Сеть·Лист",
     ["薄纱二"] = "Прозрачная ткань 2",
     ["贴纸·学徒"] = "Стикер · Ученик",
+    ["<Assistant_Title1>【White Maple Past】</>\n<Assistant_Title2>Description: </>Dungeon drop hairstyle\n<Assistant_Title2>Use: </>Use to obtain White Maple Past; click <Assistant_System>Appearance - Change Outfit</> to view and use.\n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Dungeon - Emperor's Return</>"] = "<Assistant_Title1>【Прошлое Белого клёна】</>\n<Assistant_Title2>Описание: </>Причёска, выпадающая в подземелье\n<Assistant_Title2>Использование: </>После использования вы получите «Прошлое Белого клёна»; нажмите <Assistant_System>Внешность - Смена наряда</> чтобы просмотреть и использовать её.\n<Assistant_Title2>Получение: </>Получить через <Assistant_System>Подземелье - Возвращение Императора</>",
     ["Enter the Tingen scene to unlock."] = "Разблокируется входом в локацию Тинген.",
     ["美酒芬芳，启迪着那哲学的苗圃与变革的温床；蓝厅中新一轮畅谈开启，而佳话的主角依旧是你。"] = "Аромат прекрасного вина пробуждает питомник философии и колыбель перемен; в Голубом зале начинается новый раунд бесед, и главным героем этой истории остаётесь вы.",
     ["父亲留给我的文书因为意外损坏了，所以我现在需要紧急补办一份，你能明白吗？"] = "Документы, которые оставил мне отец, были повреждены по несчастному случаю, поэтому мне срочно нужно восстановить их. Вы понимаете?",

@@ -248,6 +248,7 @@ return {
     ["Small sheep wool hair"] = "Мелкая овечья шерсть",
     ["Feed the baboon"] = "Покормить бабуина",
     ["询问<h>阿斯塔的情况</>"] = "Расспросить о <h>состоянии Асты</>",
+    ["<Assistant_Title1>【Monster Resistance】</>\nWhen attacked by non-player enemies other than buildings, this offsets their Suppression. (Can reduce the attacker's Suppression to a minimum of 0.)\n<Assistant_Title2>Tip: </>This is a composite attribute consisting of multiple sub-attributes.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Сопротивление монстрам】</>\nПри получении урона от вражеских не-игроков, кроме построек, компенсирует их Подавление. (Снижает Подавление атакующего минимум до 0)\n<Assistant_Title2>Совет: </>Эта характеристика является составной и складывается из нескольких характеристик.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
     ["祂说，这一切终将结束，这所有的苦难都会归于寂静与安眠。唯一的归宿是安宁。"] = "Он сказал, что всё это когда-нибудь закончится, и все эти страдания обратятся в тишину и Сон. Единственный удел — покой.",
     ["I heard she was penniless when she first moved out. She mended clothes for others during the day and worked by candlelight at night to build this tailor shop."] = "Говорят, когда она только съехала, у неё не было ни гроша. Днём она подшивала людям одежду, а ночью работала при свете свечи — так и появилась эта швейная лавка.",
     ["看来，我有义务还贝克兰德的孩子们一片洁净的蓝天。"] = "Похоже, я обязан вернуть детям Бэкланда чистое синее небо.",

@@ -272,7 +272,7 @@ return {
     ["Reduce"] = "Уменьшить",
     ["模型体型提升50%"] = "Размер модели увеличен на 50%",
     ["当前玩法中无法使用该道具"] = "В текущем режиме игры нельзя использовать этот предмет.",
-    ["减疗，受到治疗效果降低。"] = "Healing Reduction: Healing effects received are lowered.",
+    ["减疗，受到治疗效果降低。"] = "Снижение лечения: получаемый эффект лечения уменьшается.",
     ["Increase Attack by 3% and Defense by 5 per stack."] = "Атака увеличена на 3% и Защита на 5 очков за каждый стак.",
     ["Hehe, you know, I know, and the Lord of Storms knows."] = "Хе-хе, ты знаешь, я знаю, и Повелитель Бурь знает.",
     ["I think your Oblivion is cyclical, perhaps every few decades, you die once, clearing out your previous memories."] = "Я думаю, ваше Забвение циклично: возможно, раз в несколько десятилетий вы умираете, и это стирает ваши прежние воспоминания.",

@@ -270,6 +270,7 @@ return {
     ["Launch five Frenzy Slashes at the target, dealing a total of {*d,F1690001,atkMin,3.36} Attack Damage."] = "Наносит цели пять неистовых рассекающих ударов, в сумме {*d,F1690001,atkMin,3.36} ед. урона от атаки.",
     ["发冠"] = "Венец для волос",
     ["Harrod..."] = "Харрод...",
+    ["<Assistant_Title1>【Apprentice Resistance】</>\nWhen attacked by a Beyonder of the Apprentice pathway, negate their Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Сопротивление Ученика】</>\nПри получении атаки от Потустороннего Пути Ученика снижает его подавление. (Снижает подавление атакующего максимум до 0)\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
     ["Tarot Club · Alger: 5-person tier increment, all allies Attack +1.6%."] = "Клуб Таро · Алгер: бонус уровня «5 игроков», вся команда +1.6% к атаке.",
     ["Backlund 9 - Marionettist - Memory Retrace"] = "Бэкланд 9 - Марионеточник - Воспоминание",
     ["指定时间才可开启风尚决斗挑战Boss,其他要求及说明如下："] = "Босс «Дуэль моды» открывается только в указанное время. Прочие требования и пояснения указаны ниже:",

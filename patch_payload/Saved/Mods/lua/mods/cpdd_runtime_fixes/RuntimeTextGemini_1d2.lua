@@ -258,6 +258,7 @@ return {
     ["Prohibit unstucking during the duration"] = "В течение действия эффекта запрещено использовать освобождение при застревании",
     ["Grace of the Realm"] = "Царственное изящество",
     ["Sink into the dream"] = "Погрузиться в сон",
+    ["Gain 2% Attack per second, gain 12% Damage Amplification after 10 stacks."] = "Каждую секунду получает 2% атаки, после 10 стаков получает усиление урона на 12%.",
     ["Experience the main story Chapter 5 \"Tingen Guardian\" to unlock."] = "Разблокируется прохождением главы 5 основного сюжета «Хранитель Тингена».",
     ["对了，贝迪昨晚可是闹了个大笑话。"] = "Кстати, Беди вчера вечером здорово опозорился.",
     ["%s part locked; modification will consume more Mechanical Seals."] = "Часть %s заблокирована, переоборудование потребует больше Механических печатей.",

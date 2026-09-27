@@ -285,6 +285,7 @@ return {
     ["Fabric leather"] = "Ткань и кожа",
     ["Radiant Brilliance"] = "Лучезарное сияние",
     ["虔诚之心·终"] = "Благочестивое сердце · Конец",
+    ["<Assistant_Title1>Declaration Initiation · Strategic Server</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Participate in a world server club declaration of war 1 time."] = "<Assistant_Title1>Начало объявления войны · Стратегический сервер</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Принять участие в объявлении войны клуба на мировом сервере 1 раз.",
     ["Life is getting harder and harder. The old houses on Red Brick Lane are in disrepair and have become dangerous structures."] = "Жизнь становится всё труднее. Старые дома в Красном Кирпичном переулке давно не ремонтировались и стали аварийными.",
     ["等？没有，就是出来坐坐。天气不错。"] = "Ждать? Нет, просто вышел посидеть немного. Погода хорошая.",
     ["她一直将我牢牢护在手心，以至于让我忽视了养母的真面目……"] = "Она всегда крепко оберегала меня, из-за чего я не замечала истинного лица приёмной матери...",

@@ -275,7 +275,7 @@ return {
     ["交付蔬菜"] = "Доставить овощи",
     ["询问路易刚才的事"] = "Расспросить Луи о случившемся",
     ["看看铁罐"] = "Посмотреть на жестяную банку",
-    ["Obtain 100,000 Castle assets, which can be used to upgrade the Castle and purchase furniture."] = "Obtain 100,000 Castle assets, which can be used to upgrade the Castle and purchase furniture.",
+    ["Obtain 100,000 Castle assets, which can be used to upgrade the Castle and purchase furniture."] = "Получите 100 000 активов Крепости, которые можно использовать для улучшения Крепости и покупки мебели.",
     ["Base Stats: Health +400, Attack +20%"] = "Базовые характеристики: Здоровье +400, Атака +20%",
     ["Attack increased by 5% per stack."] = "Атака увеличивается на 5% за каждый стак.",
     ["%s %s领取了你的%s * %s， 获得%s * %s 和 %s * %s"] = "%s %s забрал(а) ваш %s * %s, получив %s * %s и %s * %s",

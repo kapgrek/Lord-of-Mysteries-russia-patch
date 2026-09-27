@@ -253,6 +253,8 @@ return {
     ["窥秘人战略技能三阶"] = "Жрец Тайн — Стратегический навык, 3 ступень",
     ["称号·天启黎明之初"] = "Титул: Рассвет апокалипсиса",
     ["推进任务[奇迹的城堡]"] = "Продвинуть задание [Замок чудес]",
+    ["Attack increased by 16.5%, Damage Amplification increased by 8.25%."] = "Атака повышается на 16.5%, усиление урона повышается на 8.25%.",
+    ["<Assistant_Title1>Stronghold Raid</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Successfully kill a guardian monster 1 time in a match."] = "<Assistant_Title1>Рейд на опорный пункт</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Успешно убить охраняющего монстра 1 раз в матче.",
     ["Base Stats: Health +400, Mana Regen +4"] = "Базовые характеристики: здоровье +400, восстановление маны +4",
     ["安提哥努斯笔记-普通-小丑拒绝风尚决斗"] = "Записки Антигона - Обычный - Отказ от поединка стиля «Клоун»",
     ["No, you were the one who brought it up first... Right, cough, what is your purpose in saying this? What is your motive? Who put you up to this? Have you been bewitched by some dangerous existence? Come with me!"] = "No, you were the one who brought it up first... Right, cough, what is your purpose in saying this? What is your motive? Who put you up to this? Have you been bewitched by some dangerous existence? Come with me!",

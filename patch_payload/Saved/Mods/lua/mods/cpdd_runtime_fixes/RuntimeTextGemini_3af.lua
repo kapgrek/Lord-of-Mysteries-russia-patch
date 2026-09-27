@@ -258,6 +258,8 @@ return {
     ["快速攻击并利用死灵印记攻击关键目标。"] = "Быстро атакует и поражает ключевые цели Меткой некроза.",
     ["信息降临"] = "Нисхождение информации",
     ["Equipment System"] = "Система снаряжения",
+    ["All allies' Attack Speed increases by 40% after 8 seconds."] = "Через 8 сек. скорость атаки всех союзников увеличивается на 40%.",
+    ["<Assistant_Title1>Declaration Butcher · Strategic Server</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 15 kills of enemy players in world server club declarations of war."] = "<Assistant_Title1>Мясник объявления войны · Стратегический сервер</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Накопить 15 убийств вражеских игроков в объявлениях войны клуба на мировом сервере.",
     ["{{player.name}} released \"True Knowledge Protection\" and summoned the <Chat_Highlight>Hall of Fame</>!"] = "{{player.name}} использовал(а) «Покровительство истинного знания» и призвал(а) <Chat_Highlight>Зал Славы</>!",
     ["Hospitalized? Absolutely not! The position of head housekeeper at the Vogel estate opens up this month, and I've waited for three whole years! Three years! I've woken up an hour early every day to polish every silver spoon until it's as clear as a mirror—"] = "Лечь в больницу? Ни за что! В этом месяце освобождается место экономки в доме Фогелей, а я ждала этого целых три года! Три года! Я каждый день встаю на час раньше, чтобы отполировать каждую серебряную ложку до блеска—",
     ["I put on new lipstick today, does it look good?"] = "Я сегодня накрасила губы новой помадой, красиво выглядит?",

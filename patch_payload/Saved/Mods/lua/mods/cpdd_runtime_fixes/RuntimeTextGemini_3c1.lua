@@ -284,7 +284,7 @@ return {
     ["爱潜水的工贼"] = "Ныряющий штрейкбрехер",
     ["继续向<h>威尔</>询问"] = "Продолжить расспрашивать <h>Уилла</>",
     ["After some time..."] = "Спустя некоторое время...",
-    ["Statue Charge - Conch"] = "Statue Charge - Conch",
+    ["Statue Charge - Conch"] = "Заряд статуи — Раковина",
     ["Attack of the back two rows increased by 16%."] = "Атака двух задних рядов увеличивается на 16%.",
     ["Welcome, ladies and gentlemen from the Southern Continent! The performance is over here—"] = "Добро пожаловать, дамы и господа с Южного континента! Представление здесь —",
     ["Why do you say that? Spreading rumors is illegal."] = "Почему вы так говорите? Распространять слухи — это незаконно.",

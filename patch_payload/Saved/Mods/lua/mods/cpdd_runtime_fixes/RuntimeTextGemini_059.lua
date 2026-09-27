@@ -228,6 +228,7 @@ return {
     ["背叛的征兆"] = "Признаки предательства",
     ["500,000 bound soli"] = "500 000 привязанных соли",
     ["点击“反抗”按钮对抗呓语"] = "Нажмите кнопку «Сопротивляться», чтобы противостоять шёпоту",
+    ["Spirituality Elevation: Damage Amplification +12%."] = "Возвышение духовности: усиление урона +12%.",
     ["Base Stats: Attack +30%, Mana Regen +3"] = "Базовые характеристики: Атака +30%, Восстановление маны +3",
     ["<DecH> Craft: </> Lake-Light Fine Gauze - Blessing of Abundance \n The gauze wings dance while chanting hymns. It says the earth's blessing lies in every harvest and sowing, just as a mother's light kiss always accompanies her child."] = "<DecH>Материал:</> Тонкий газ отблеска озера · Благословение изобилия\nКрылья из газа танцуют, распевая гимны. Они говорят, что благословение земли — в каждом урожае и посеве, подобно тому, как лёгкий поцелуй матери всегда сопровождает её дитя.",
     ["即便我们都老去了，那些约定依旧会以其他形式延续下去。"] = "Даже когда мы состаримся, эти обещания продолжат жить в иных формах.",

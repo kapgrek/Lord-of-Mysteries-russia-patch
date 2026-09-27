@@ -248,6 +248,7 @@ return {
     ["刀光剑影·始"] = "Отблески клинков · Начало",
     ["<Highlight>%d天后</>进入%s"] = "<Highlight>Через %d дн.</> начнётся %s",
     ["数据回顾"] = "Обзор данных",
+    ["Strategic Server Hunting City Battle Candidate Reward"] = "Награда кандидата Битвы «Охота на город» стратегического сервера",
     ["AuraOnly: Defense reduced by 30%"] = "AuraOnly: Защита снижена на 30%",
     ["Restore 10% of Max Health the first time Health drops below 50% per battle."] = "При первом падении здоровья ниже 50% за бой восстанавливает 10% максимального здоровья.",
     ["丰饶之树-普通-西尔维娅风尚决斗"] = "Древо изобилия - Обычный - Поединок стиля «Сильвия»",
