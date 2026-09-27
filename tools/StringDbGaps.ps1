@@ -12,6 +12,7 @@
 #   powershell -File tools\StringDbGaps.ps1 -Emit batch_031_autochess_stringdb.json -Category autochess,formula
 #   powershell -File tools\StringDbGaps.ps1 -Emit batch_034_stringdb_s5.json -Category ui,text,skill,quest -OnScreen -Logs … -Sid …
 #   powershell -File tools\StringDbGaps.ps1 -EmitData batch_034_stringdb_s5.json -Fields BriefDescription,SkillDisc -Logs … -Sid …
+#   powershell -File tools\StringDbGaps.ps1 -EmitProbe batch_034_stringdb_s5.json -Logs … -Sid …   (шаблоны карточек Автошахмат, TASK-020)
 #
 # Пишет только внутри репозитория: CSV в temp\, батчи в source\translation_batches\.
 param(
@@ -23,6 +24,7 @@ param(
     [switch]$OnScreen,             # -Emit: только строки, которые были на экране (on_screen, TASK-019)
     [string]$EmitData,             # имя батча: китайский из данных KSBC (src=data) по полям -Fields (TASK-019)
     [string[]]$Fields,
+    [string]$EmitProbe,            # имя батча: шаблоны GenerateTipsDesc из session.json -> probes (TASK-020)
     [string]$Aliases,              # имя батча: алиасы для строк, отличающихся от батча регистром/пробелами/тегами
     [string]$Csv                   # по умолчанию temp\stringdb_gaps.csv
 )
@@ -453,4 +455,39 @@ if ($EmitData) {
     }
     Write-Host ("EmitData: новых {0}; пропущено: известные {1}, обрезанные {2}, модуль/поле {3}" -f $recs.Count, $skipped.known, $skipped.clipped, $skipped.module)
     if ($recs.Count -gt 0) { Add-BatchRecords $EmitData $recs } else { Write-Host 'Новых строк для записи нет.' }
+}
+
+if ($EmitProbe) {
+    # Шаблоны карточек Автошахмат с входа DescFormulaHelper.GenerateTipsDesc (TASK-020): session.json ->
+    # probes.tips_desc[].tips и probes.tips_missing[] (китайский шаблон без перевода в шардах).
+    $cjkRegex = New-Object regex '[㐀-鿿]'
+    $sessionFiles = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($p in $Logs) {
+        $full = Resolve-RepoPath $p
+        if (Test-Path -LiteralPath $full -PathType Container) {
+            foreach ($f in Get-ChildItem -LiteralPath $full -Recurse -File -Filter 'absru-s*-session.json') { $sessionFiles.Add($f.FullName) }
+        }
+    }
+    $recs = New-Object 'System.Collections.Generic.List[object]'
+    $known = 0
+    foreach ($file in $sessionFiles) {
+        $o = $json.DeserializeObject([IO.File]::ReadAllText($file, $utf8))
+        if ($Sid -and [string]$o['sid'] -ne $Sid) { continue }
+        $probes = $o['probes']
+        if ($null -eq $probes) { continue }
+        $templates = New-Object 'System.Collections.Generic.List[string]'
+        if ($probes.ContainsKey('tips_desc')) { foreach ($e in $probes['tips_desc']) { if ($e['tips']) { $templates.Add([string]$e['tips']) } } }
+        if ($probes.ContainsKey('tips_missing')) { foreach ($t in $probes['tips_missing']) { if ($t) { $templates.Add([string]$t) } } }
+        foreach ($t in $templates) {
+            $src = Get-TrimmedKey $t
+            if (-not $src -or -not $cjkRegex.IsMatch($src)) { continue }
+            $hit = Find-ShardTranslation $src
+            if (($null -ne $hit -and $hit -match '[Ѐ-ӿ]') -or $batchKeyInfo.ContainsKey($src)) { $known++; continue }
+            if (-not $usedKeys.Add($src)) { continue }
+            $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = ''; target_ru = '' })
+            $nextId++
+        }
+    }
+    Write-Host ("EmitProbe: session.json {0}; новых шаблонов {1}; известных {2}" -f $sessionFiles.Count, $recs.Count, $known)
+    if ($recs.Count -gt 0) { Add-BatchRecords $EmitProbe $recs } else { Write-Host 'Новых строк для записи нет.' }
 }

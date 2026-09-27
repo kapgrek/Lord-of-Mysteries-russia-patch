@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.4-RU"
+local VERSION = "3.0.5-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -7208,6 +7208,47 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.SkillBuffDescUtils", func
     return value
 end, 1000000, "cpdd.runtime-fix.star-sand-description")
 
+-- TASK-020 п.2: AutoChess card templates reach GenerateTipsDesc in Chinese
+-- ("…造成{*d,F1690001,atkMin,2.7}点…"). The template is translated through
+-- the shards and the values the game computed are moved over by macro text:
+-- calling the game on the translated template gives other numbers (probe:
+-- 70 instead of 208). Returns nil unless every macro is matched.
+runtimeFixes.TipsMacroPattern = "{%*[^{}]*}"
+runtimeFixes.translateTipsByTemplate = function(tipsString, original)
+    if type(tipsString) ~= "string" or type(original) ~= "string" then return nil end
+    if not hasCjk(tipsString) or not tipsString:find("{*", 1, true) then return nil end
+    local template = lookupGeminiText(tipsString)
+    if type(template) ~= "string" or template == "" or hasCjk(template) then return nil end
+    local function escape(text)
+        return (text:gsub("[%^%$%(%)%%%.%[%]%*%+%-%?]", "%%%0"))
+    end
+    local macroPattern = runtimeFixes.TipsMacroPattern
+    local parts, macros, position = { "^" }, {}, 1
+    for first, after in tipsString:gmatch("()" .. macroPattern .. "()") do
+        parts[#parts + 1] = escape(tipsString:sub(position, first - 1))
+        parts[#parts + 1] = "(.-)"
+        macros[#macros + 1] = tipsString:sub(first, after - 1)
+        position = after
+    end
+    if #macros == 0 or #macros > 30 then return nil end
+    parts[#parts + 1] = escape(tipsString:sub(position)) .. "$"
+    local values = { original:match(table.concat(parts)) }
+    if #values ~= #macros then return nil end
+    local byMacro = {}
+    for index, macro in ipairs(macros) do
+        if byMacro[macro] ~= nil and byMacro[macro] ~= values[index] then return nil end
+        byMacro[macro] = values[index]
+    end
+    local missing = false
+    local result = template:gsub(macroPattern, function(macro)
+        local computed = byMacro[macro]
+        if computed == nil then missing = true end
+        return computed
+    end)
+    if missing then return nil end
+    return result
+end
+
 Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", function(value, environment)
     local helper = getSymbol(value, environment, "DescFormulaHelper")
     if type(helper) ~= "table" or helper.__cpddGeneratedTipsRepair == VERSION then
@@ -7230,6 +7271,9 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
                     tips = tipsString, result = original, markTag = markTag,
                     tipsCjk = hasCjk(tipsString), inShards = shard ~= nil, shard = shard,
                 }
+                if type(debug) == "table" and type(debug.traceback) == "function" then
+                    entry.caller = debug.traceback("", 2)
+                end
                 if type(shard) == "string" and shard ~= tipsString then
                     local ok, trial = pcall(originalGenerateTipsDesc, shard, markTag)
                     entry.trialOk, entry.trial = ok, trial
@@ -7237,13 +7281,20 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
                 d.ProbeTipsDesc(entry)
             end)
         end
+        if d and d.NoteTipsMissing and type(tipsString) == "string" and hasCjk(tipsString) then
+            pcall(function()
+                local shard = lookupGeminiText(tipsString)
+                if type(shard) ~= "string" or hasCjk(shard) then d.NoteTipsMissing(tipsString) end
+            end)
+        end
         if type(original) ~= "string" then
             return original
         end
-        local translated = repairLiveString(
-            "DescFormulaHelper", "GenerateTipsDesc",
-            "GenerateTipsDesc.return", original
-        )
+        local translated = runtimeFixes.translateTipsByTemplate(tipsString, original)
+            or repairLiveString(
+                "DescFormulaHelper", "GenerateTipsDesc",
+                "GenerateTipsDesc.return", original
+            )
         runtimeMetrics.CaptureTranslationAssignment(
             nil, "DescFormulaHelper", "DescFormulaHelper",
             "TipsDescription", original, translated

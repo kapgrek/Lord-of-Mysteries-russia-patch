@@ -1129,9 +1129,36 @@ function D.ProbeTipsDesc(entry)
         tips = text(entry.tips), result = text(entry.result), mark_tag = text(entry.markTag),
         tips_cjk = entry.tipsCjk, in_shards = entry.inShards, shard = text(entry.shard),
         trial_ok = entry.trialOk, trial = text(entry.trial),
+        caller = type(entry.caller) == "string" and clip(entry.caller, 1500) or nil,
     }
     S.flushSoon = true
     warn("[AbsruDiag] probe tipsdesc n=" .. tostring(#list))
+end
+
+-- Every Chinese GenerateTipsDesc template without a shard translation (up
+-- to 300, not only the first 20): session.json -> probes.tips_missing[],
+-- read by StringDbGaps.ps1 -EmitProbe.
+local TIPS_MISSING_MAX = 300
+
+function D.NoteTipsMissing(tipsString)
+    if S.disabled or type(tipsString) ~= "string" then
+        return
+    end
+    S.tipsMissingSeen = S.tipsMissingSeen or {}
+    if S.tipsMissingSeen[tipsString] then
+        return
+    end
+    S.tipsMissingSeen[tipsString] = true
+    local list = S.probes.tips_missing
+    if list == nil then
+        list = array()
+        S.probes.tips_missing = list
+    end
+    if #list >= TIPS_MISSING_MAX then
+        return
+    end
+    list[#list + 1] = clip(tipsString, TIPS_PROBE_TEXT)
+    S.flushSoon = true
 end
 
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and

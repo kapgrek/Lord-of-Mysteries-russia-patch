@@ -266,6 +266,7 @@ return {
     ["Resonance: 7 Sinful Tingen | 2 Witch Sect | 2 Iron and Blood | 2 Swift Hunt; Main Carry: \"Luper, the Alpha Wolf\" 3★, Lambert Noose 2★ | Rare · Swift Fate Card; Main Tank: Swain 3★, Profane Witch 3★ | Rare · Bulwark War Helm; Strategy: Chase 3★ for \"Luper, the Alpha Wolf\"; Sinful Tingen resonance provides stat growth, Witches reduce defense."] = "Резонансы: 7 Грешный Тинген | 2 Секта Демониц | 2 Железо и кровь | 2 Быстрая охота; основной урон: «Вожак» Лупер 3★, Ламберт Петля 2★ | Редкое · Карта стремительной жизни; основной танк: Суэйн 3★, Нечестивая ведьма 3★ | Редкое · Боевой шлем Оплота; тактика: доведите «Вожака» Лупера до 3★; резонанс Грешного Тингена даёт рост характеристик, ведьмы снижают защиту",
     ["<HighLight>普攻追加伤害</>"] = "<HighLight>Базовые атаки наносят доп. урон</>",
     ["Swing claws to slap nearby targets."] = "Хлещет когтями ближайшие цели.",
+    ["吟诵午夜诗篇，一、二星时对周围敌人造成{*d,F1690001,atkMin,1.93}点攻击伤害并使其安眠<HighLight>1</>秒，自身攻速提高<HighLight>15%</>，持续<HighLight>4</>秒。三星时：伤害提高至{*d,F1690001,atkMin,5.4}点。"] = "Читает полуночный псалом. На 1–2★ наносит окружающим врагам {*d,F1690001,atkMin,1.93} ед. урона от атаки и погружает их в сон на <HighLight>1</> сек., собственная скорость атаки повышается на <HighLight>15%</>, действие длится <HighLight>4</> сек. На 3★: урон повышается до {*d,F1690001,atkMin,5.4} ед.",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }
