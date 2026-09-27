@@ -233,7 +233,7 @@ return {
     ["Converse with NPC. Player sends quest item. Player sends quest item."] = "Поговорите с NPC. Игрок отправляет квестовый предмет. Игрок отправляет квестовый предмет.",
     ["Arbiter of the Millimeter"] = "Арбитр миллиметра",
     ["Drag area 12 meters long and 7 meters wide"] = "Зона притягивания 12 м в длину и 7 м в ширину",
-    ["If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%."] = "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [лафитового красного вина погребной выдержки] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%.",
+    ["If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%."] = "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанного красного «Лафита»] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%.",
     ["Teddy Bear"] = "Плюшевый мишка",
     ["Whether to enable PVP bots to use player's real attributes"] = "Включить ли PVP-ботам использовать реальные атрибуты игрока",
     ["Tim"] = "Тим",

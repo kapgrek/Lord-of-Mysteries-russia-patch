@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 21a/3ff.
 return {
     ["<DecH>Craftsmanship: </>Blue-White Lace\nEven if you are an unexpected guest, please observe the etiquette of dress. Put on the playful blue-white lace dress and join the whimsical tea party."] = "<DecH>Мастерство: </>Сине-белое кружево\nДаже если вы незваный гость, соблюдайте правила приличия в одежде. Наденьте кокетливое платье из сине-белого кружева и присоединяйтесь к причудливому чаепитию.",
-    ["Bargain: Shop failed, this station is not [Shop]"] = "«Торг: Закусочная» не сработал: эта станция не является 【Закусочной】",
+    ["Bargain: Shop failed, this station is not [Shop]"] = "«Торг: Лавка Снеди» не сработал: эта станция не является 【Лавкой Снеди】",
     ["Keep an eye on the surroundings <h></>"] = "Внимательно следите за обстановкой вокруг<h></>",
     ["Open to receive <Highlight>1980</> Blue Mountain Crystals."] = "При открытии вы получите <Highlight>1980</> кристаллов Синей Горы.",
     ["Enter Dream Monitoring"] = "Прослушивание через сновидение",
@@ -56,7 +56,7 @@ return {
     ["Charm Master"] = "Мастер очарования",
     [">>Reminder needs to be closed after the animation ends, but the animation does not exist or the duration is 0. Please check. ReminderID: %s, ReminderType: %s, Class: %s"] = ">>Напоминание необходимо закрыть после окончания анимации, но анимация не существует или ее продолжительность равна 0. Пожалуйста, проверьте. ReminderID: %s, ReminderType: %s, Класс: %s",
     ["In front of the old house deep within the grape trellis, a man seems to be looking for something..."] = "Перед старым домом, глубоко среди виноградных решеток, мужчина, кажется, что-то ищет...",
-    ["If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +75% </>"] = "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, цена продажи следующей станции <LightHighlight> +75% </>.",
+    ["If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +75% </>"] = "Если следующей станцией <LightHighlight> является [Торговый дом] </>, цена продажи следующей станции <LightHighlight> +75% </>.",
     ["Hero - Turtle - Parry Warning Circle"] = "Герой — Черепаха — Предупреждающий круг парирования",
     ["Old Victor... Miss Fors..."] = "Старый Виктор... Мисс Форс...",
     ["Melee Believer"] = "Верующий в ближний бой",

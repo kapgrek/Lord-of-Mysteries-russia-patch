@@ -228,7 +228,7 @@ return {
     ["I also have to complete my own task, which is to investigate a Sealed Artifact related to the Assassin pathway."] = "Мне также нужно выполнить свою собственную задачу — исследовать Запечатанный Артефакт, связанный с путём Ассасина.",
     ["Do you want to open the Hall of Fame?"] = "Хотите открыть Зал Славы?",
     ["Lawis's Doorstep"] = "Порог Ловиса",
-    ["Introduction: Selena"] = "Введение: Селена",
+    ["Introduction: Selena"] = "Описание: Селена",
     ["Trigger: Farewell to Rozanne"] = "Триггер: Прощание с Розанной",
     ["Top hat"] = "Цилиндр",
     ["Good clothing must avoid the customer's disadvantages while highlighting the advantages and uniqueness of their figure and temperament. In this regard, our clothing store is the best in all of Tingen. <P_Heart> (Proud) </>"] = "Хорошая одежда должна избегать недостатков покупателя, подчеркивая достоинства и уникальность его фигуры и темперамента. В этом плане наш магазин одежды лучший во всем Тингене. <P_Heart> (Гордый) </>",

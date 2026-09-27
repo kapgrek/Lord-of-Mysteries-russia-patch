@@ -211,7 +211,7 @@ return {
     ["Become the sacrifice for the rebirth!"] = "Станьте жертвой возрождения!",
     ["Real estate agent"] = "Агент по недвижимости",
     ["The police station is rotten to the core. I don't know what to do either."] = "Полицейский участок прогнил насквозь. Я тоже не знаю, что делать.",
-    ["0: blank, 1: registering, 2: registration closed, 3: matching, 4: match complete, 5: in battle, 6: battle ended."] = "0: пусто, 1: регистрация, 2: регистрация закрыта, 3: совпадение, 4: совпадение завершено, 5: в бою, 6: битва окончена.",
+    ["0: blank, 1: registering, 2: registration closed, 3: matching, 4: match complete, 5: in battle, 6: battle ended."] = "0: пусто, 1: регистрация, 2: регистрация закрыта, 3: подбор, 4: подбор завершён, 5: в бою, 6: битва окончена.",
     ["Is there any kind soul..."] = "Есть ли добрая душа...",
     ["I feel like I am one step closer to the day I reunite with my parents!"] = "Я чувствую, что стал на шаг ближе к тому дню, когда воссоединюсь с родителями!",
     ["Klein sits down"] = "Клейн садится",

@@ -21,7 +21,7 @@ return {
     ["Ningxia Hui Autonomous Region"] = "Нинся-Хуэйский автономный район",
     ["Hoi University school newspaper"] = "Газета Университета Хой",
     ["Looking at the village in the distance - Not adding yet"] = "Вид на деревню вдалеке — пока не добавлять",
-    ["Good Gift · Winery effective, obtain 40 [Flavored Cheese]"] = "Сработал «Щедрый дар: Винодельня», получено 40 шт. 【Пряного сыра】",
+    ["Good Gift · Winery effective, obtain 40 [Flavored Cheese]"] = "Сработал «Подарок: Винодельня», получено 40 шт. 【Пряного сыра】",
     ["Transfer President"] = "Передать полномочия главы",
     ["No more data~"] = "Больше нет данных~",
     ["...A very special person."] = "...Очень особенный человек.",

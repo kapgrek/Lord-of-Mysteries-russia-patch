@@ -255,7 +255,7 @@ return {
     ["Failed to write display stand configuration string file"] = "Не удалось записать файл строки конфигурации витрины.",
     ["Head to the <h>Captain's Office</>"] = "Отправляйтесь в кабинет капитана <h></>.",
     ["South District factory lunch break atmosphere"] = "Атмосфера обеденного перерыва на фабрике Южного округа",
-    ["If the next station <LightHighlight> is [Food Shop] </>, next station selling price <LightHighlight> +40% </>"] = "Если следующая станция <LightHighlight> — [Продовольственный магазин] </>, цена продажи следующей станции <LightHighlight> +40% </>.",
+    ["If the next station <LightHighlight> is [Food Shop] </>, next station selling price <LightHighlight> +40% </>"] = "Если следующая станция <LightHighlight> — [Лавка Снеди] </>, цена продажи следующей станции <LightHighlight> +40% </>.",
     ["Look at the handwritten sheet music"] = "Посмотрите на рукописные ноты.",
     ["Queen of Wands"] = "Королева Жезлов",
     ["And she even bought a frog... This is bad, I need to quickly find records about frogs!"] = "И даже лягушку купила... Это плохо, мне нужно быстро найти записи о лягушках!",

@@ -175,7 +175,7 @@ return {
     ["Missile 4"] = "Ракета 4",
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Normal)</> and complete the <Highlight>Escort Carriage</> stage for a chance to obtain the following appearances."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Normal)</> и завершите этап <Highlight>Escort Carriage</>, чтобы получить шанс получить следующие облики.",
     ["Take the <h>living expenses</>"] = "Возьмите <h>Расходы на проживание</>",
-    ["Food Shop Red Packet activated, obtained 30 [Fine Oil Painting]."] = "Активирован красный пакет продовольственного магазина, получено 30 [Изысканной масляной живописи].",
+    ["Food Shop Red Packet activated, obtained 30 [Fine Oil Painting]."] = "Активирован красный конверт Лавки Снеди, получено 30 [Изысканной масляной живописи].",
     ["Mom, why is that man over there soaking in the water... so strange."] = "Мам, почему этот мужчина лежит в воде... так странно.",
     ["Lake of Chaos and Order - Chaos Lake 1 - Teleport - Relatively One-Way"] = "Озеро Хаоса и Порядка – Озеро Хаоса 1 – Телепорт – относительно односторонний",
     ["Black Glove Karapon, that fat man treats workers like expendable supplies. People die at his place often, but his catchphrase is: 'Just hire more.' Every entry of munitions in his ledger is soaked in human blood."] = "Черная Перчатка Карапон, этот толстяк обращается с рабочими как с расходным материалом. У него часто умирают люди, но его крылатая фраза: «Просто нанимайте больше». Каждая запись о боеприпасах в его книге пропитана человеческой кровью.",

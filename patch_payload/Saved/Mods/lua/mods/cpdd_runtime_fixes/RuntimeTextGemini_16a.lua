@@ -241,7 +241,7 @@ return {
     ["Foul Spear - Charge"] = "Грязное копье - Натиск",
     ["Purify the corrupted Doug"] = "Очистите испорченного Дуга",
     ["Creature tick interval in flow chart"] = "Интервал тика существа на блок-схеме",
-    ["Prediction: Non-Winery failed, next stop is [Winery]"] = "Прогноз: Не-Винодельня не удалась, следующая остановка — [Винодельня]",
+    ["Prediction: Non-Winery failed, next stop is [Winery]"] = "Прогноз: не Винодельня не срабатывает, следующая остановка — [Винодельня]",
     ["Suppression - Boss"] = "Подавление - Босс",
     ["Offer Rose"] = "Предложение Роза",
     ["Dunn celebrates the server launch"] = "Данн празднует запуск сервера",

@@ -239,7 +239,7 @@ return {
     ["Who are you waiting for?"] = "Кого ты ждешь?",
     ["Flower offering goal reached"] = "Цель по предложению цветов достигнута",
     ["Brooch tooltip placeholder"] = "Заполнитель всплывающей подсказки для броши",
-    ["Bargain: Winery failed, this station is not [Winery]"] = "Выгодная сделка: Винодельня не удалась, эта станция не [Винодельня]",
+    ["Bargain: Winery failed, this station is not [Winery]"] = "Выгодная сделка: Винодельня не срабатывает, эта станция не [Винодельня]",
     ["*Cough cough*! Such a heavy smell of blood... is she hiding here?"] = "*Кхе-кхе*! Такой тяжелый запах крови... она здесь прячется?",
     ["We Nighthawks belong to the <P_Yellow>Evernight Goddess Church</>, responsible for investigating and resolving extraordinary incidents in Tingen. For example, this bizarre suicide case."] = "Мы, «Ночные ястребы», принадлежим к Церкви <P_Yellow>Богини Вечной Ночи</>, отвечающей за расследование и разрешение чрезвычайных происшествий в Тингене. Например, этот странный случай самоубийства.",
     ["Exit the alliance as a team?"] = "Выйти из альянса всей командой?",

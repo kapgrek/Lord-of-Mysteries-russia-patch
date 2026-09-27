@@ -56,7 +56,7 @@ return {
     ["Beautiful girl"] = "Красивая девушка",
     ["The 999th..."] = "999-й...",
     ["Today I came to return it. We have successfully returned to our own kingdom, and I also want to thank the members of the Hat Gang again in my personal capacity—"] = "Сегодня я пришел вернуть его. Мы успешно вернулись в свое королевство, и я также хочу еще раз поблагодарить членов Шляпной банды от себя лично…",
-    ["If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Blue Items] and [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>."] = "Если следующей остановкой <LightHighlight> будет [Продовольственный магазин] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Королевский окорок с золотой медалью] </>.",
+    ["If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Blue Items] and [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>."] = "Если следующей остановкой <LightHighlight> будет [Лавка Снеди] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Королевский окорок с золотой медалью] </>.",
     ["Go to the crime scene"] = "Идите на место преступления",
     ["Holy Light Echo"] = "Эхо Священного Света",
     ["Change CS 1000428"] = "Изменить CS 1000428",

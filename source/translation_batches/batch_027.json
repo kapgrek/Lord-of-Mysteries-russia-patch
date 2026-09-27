@@ -3195,7 +3195,7 @@
     "id": "130532",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>110</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired)}</> Armor Break increased by <Mark>110</>. Using a Skill or Basic Attack will attract the Gaze of 2-049. After the gaze stacks three times, it deals additional damage, triggering at most once every <Mark>4</> seconds.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Прорыв защиты повышается на <Mark>110</>. Применение навыков и базовых атак привлекает Взор 2-049. При накоплении 3 уровней Взора наносит дополнительный урон; срабатывает не чаще одного раза в <Mark>4</> сек.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Прорыв защиты повышается на <Mark>110</>. Применение навыков и базовых атак привлекает Взор 2-049. При накоплении 3 уровней Взора наносит дополнительный урон; срабатывает не чаще одного раза в <Mark>4</> сек.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "130533",
@@ -3219,7 +3219,7 @@
     "id": "130536",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>格挡提高<Mark>120</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired)}</> Block increased by <Mark>120</>.\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,2,（烙印已失效）}</>Блок повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Блок повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>."
   },
   {
     "id": "130537",
@@ -3411,7 +3411,7 @@
     "id": "130568",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>220</>，穿刺降低<Mark>20</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,(Brand has expired)}</>Monster Specialization increased by <Mark>220</>, Pierce reduced by <Mark>20</>.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Специализация по монстрам повышается на <Mark>220</>, пронзание снижается на <Mark>20</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация по монстрам повышается на <Mark>220</>, пронзание снижается на <Mark>20</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "130569",
@@ -3477,7 +3477,7 @@
     "id": "130579",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>140</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,(Brand has expired)}</>Piercing increased by <Mark>140</>, critical hit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family.\\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members.\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Пронзание повышается на <Mark>140</>, критический удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> даёт дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Пронзание повышается на <Mark>140</>, критический удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> даёт дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "130580",
@@ -3549,7 +3549,7 @@
     "id": "130591",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>210</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired)}</> Attack increased by <Mark>210</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. When entering battle, for every squad member possessing the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>.\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,（烙印已失效）}</>Атака повышается на <Mark>210</>, защита снижается на <Mark>15</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер. При вступлении в бой за каждого члена отряда с <Mark>Добродетелью</> семьи Вайзер атака дополнительно повышается на <Mark>10</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышается на <Mark>210</>, защита снижается на <Mark>15</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер. При вступлении в бой за каждого члена отряда с <Mark>Добродетелью</> семьи Вайзер атака дополнительно повышается на <Mark>10</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "130592",
@@ -3621,7 +3621,7 @@
     "id": "130603",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired)}</> Pierce increased by <Mark>120</>.\\nDoes not take effect when the <Mark>Spirit and Knowledge Echo</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Пронзание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Пронзание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>."
   },
   {
     "id": "130604",
@@ -3675,7 +3675,7 @@
     "id": "130612",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,(Brand has expired)}</>Monster Specialization increased by <Mark>180</>.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,（烙印已失效）}</>Специализация по монстрам повышается на <Mark>180</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация по монстрам повышается на <Mark>180</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "130613",
@@ -3951,7 +3951,7 @@
     "id": "130658",
     "source_cn": "<Assistant_Title1>【众神之巅】</>\\n<Assistant_Title2>玩法说明：</><Assistant_System>众神之巅</>是以战队形式参加的<Assistant_Red>6对6组队赛事</>。赛场使用玩家真实属性，<Assistant_Property1>装备</>、<Assistant_Property1>封印物</>、<Assistant_Property1>秘偶</>、<Assistant_Property1>人脉</>、<Assistant_Property1>天赋系统效果</>均可生效。\\n<Assistant_Title2>战队规则：</>战队成员上限为<Assistant_Red>6人</>，同职业人数不超过<Assistant_Red>2人</>。比赛报名开启后，玩家可以组建或加入战队；战队成员达到<Assistant_Red>5名</>后即可报名。已报名战队若成员变动导致人数小于5名，会自动取消报名。\\n<Assistant_Title2>锁定规则：</>锁定报名期间，已报名战队可以进入准备场地；未报名战队仍可报名，玩家也可以加入战队，但不能主动离开或被队长请离，已报名战队也不允许取消报名。比赛正式开始后，需要停留在准备场地，以保证正常进入比赛。\\n<Assistant_Title2>赛制规则：</>小组赛阶段每轮随机匹配对手进行单局比赛，共进行<Assistant_Red>6轮</>，根据胜场数选出<Assistant_Red>16支队伍</>晋级；胜场数相同时，根据荣耀值决定晋级者，荣耀值参考击杀数、战斗时长。小组赛结束后进入助力阶段，淘汰赛开始前根据助力值与荣耀值总和确定淘汰赛位次。淘汰赛阶段为<Assistant_Red>三局两胜</>，决赛为<Assistant_Red>五局三胜</>。\\n<Assistant_Title2>参与方式：</>{JumpToUI:[前往众神之巅]|1250113}",
     "ref_en": "<Assistant_Title1>【Peak of the Gods】</>\\n<Assistant_Title2>Activity Description: </><Assistant_System>Peak of the Gods</> is a <Assistant_Red>6v6 team tournament</> participated in by teams. The arena uses the player's real attributes, and <Assistant_Property1>Equipment</>, <Assistant_Property1>Sealed Artifacts</>, <Assistant_Property1>marionettes</>, <Assistant_Property1>Connections</>, and <Assistant_Property1>Talent System effects</> all take effect.\\n<Assistant_Title2>Team Rules: </>The team member limit is <Assistant_Red>6 people</>, with no more than <Assistant_Red>2 people</> of the same profession. After tournament registration opens, players can form or join a team; once a team reaches <Assistant_Red>5 members</>, they can register. If a registered team's member count falls below 5 due to changes, registration will be automatically canceled.\\n<Assistant_Title2>Lock Rules: </>During the registration lock period, registered teams can enter the preparation area; unregistered teams can still register, and players can join teams, but they cannot leave or be removed by the captain, and registered teams are not allowed to cancel registration. After the match officially begins, you must stay in the preparation area to ensure normal entry into the match.\\n<Assistant_Title2>Tournament Rules: </>In the group stage, opponents are randomly matched for single-game matches each round, for a total of <Assistant_Red>6 rounds</>. <Assistant_Red>16 teams</> are selected to advance based on the number of wins; if the number of wins is the same, advancement is determined by Glory Value, which references kills and combat duration. After the group stage, the assistance phase begins, and the knockout stage seeding is determined based on the sum of Assistance Value and Glory Value before the knockout stage begins. The knockout stage is <Assistant_Red>best-of-three</>, and the finals are <Assistant_Red>best-of-five</>.\\n<Assistant_Title2>How to Participate: </>{JumpToUI:[Go to Peak of the Gods]|1250113}",
-    "target_ru": "<Assistant_Title1>【Пик Богов】</>\n<Assistant_Title2>Описание режима: </><Assistant_System>Пик Богов</> — это командный <Assistant_Red>турнир 6 на 6</>, в котором участвуют команды. В бою действуют реальные характеристики игроков: работают <Assistant_Property1>снаряжение</>, <Assistant_Property1>Запечатанные Артефакты</>, <Assistant_Property1>марионетки</>, <Assistant_Property1>связи</> и <Assistant_Property1>эффекты системы талантов</>.\n<Assistant_Title2>Правила команд: </>в команде может быть не более <Assistant_Red>6 человек</>, из них представителей одного пути/класса — не более <Assistant_Red>2 человек</>. После открытия регистрации игроки могут создавать команды или вступать в них; при наборе <Assistant_Red>5 участников</> команда может подать заявку. Если из-за смены состава в зарегистрированной команде останется менее 5 участников, регистрация автоматически аннулируется.\n<Assistant_Title2>Период блокировки: </>во время блокировки зарегистрированные команды могут войти в зону подготовки; незарегистрированные всё ещё могут подать заявку, а игроки — вступить в команду, но покинуть команду или быть исключёнными капитаном уже нельзя, как и отменить регистрацию. После начала матча необходимо оставаться в зоне подготовки для входа в бой.\n<Assistant_Title2>Формат турнира: </>в групповом этапе соперники подбираются случайно на 1 матч в каждом раунде (всего <Assistant_Red>6 раундов</>); по числу побед <Assistant_Red>16 команд</> выходят в плей-офф. При равном числе побед выход определяется очками славы (учитываются убийства и длительность боя). После группового этапа начинается этап поддержки; перед плей-офф посев определяется суммой очков поддержки и очков славы. Матчи плей-офф длятся <Assistant_Red>до двух побед</>, финал — <Assistant_Red>до трёх побед</>.\n<Assistant_Title2>Как участвовать: </>{JumpToUI:[Перейти к Пику Богов]|1250113}"
+    "target_ru": "<Assistant_Title1>【Пик Богов】</>\n<Assistant_Title2>Описание режима: </><Assistant_System>Пик Богов</> — это командный <Assistant_Red>турнир 6 на 6</>, в котором участвуют команды. В бою действуют реальные характеристики игроков: работают <Assistant_Property1>снаряжение</>, <Assistant_Property1>Запечатанные Артефакты</>, <Assistant_Property1>марионетки</>, <Assistant_Property1>связи</> и <Assistant_Property1>эффекты системы талантов</>.\n<Assistant_Title2>Правила команд: </>в команде может быть не более <Assistant_Red>6 человек</>, из них представителей одного пути/класса — не более <Assistant_Red>2 человек</>. После открытия регистрации игроки могут создавать команды или вступать в них; при наборе <Assistant_Red>5 участников</> команда может подать заявку. Если из-за смены состава в зарегистрированной команде останется менее 5 участников, регистрация автоматически аннулируется.\n<Assistant_Title2>Период блокировки: </>во время блокировки зарегистрированные команды могут войти в зону подготовки; незарегистрированные всё ещё могут подать заявку, а игроки — вступить в команду, но покинуть команду или быть исключёнными капитаном уже нельзя, как и отменить регистрацию. После начала матча необходимо оставаться в зоне подготовки для входа в бой.\n<Assistant_Title2>Формат турнира: </>в групповом этапе в каждом раунде проводится случайный подбор соперника для 1 матча (всего <Assistant_Red>6 раундов</>); по числу побед <Assistant_Red>16 команд</> выходят в плей-офф. При равном числе побед выход определяется очками славы (учитываются убийства и длительность боя). После группового этапа начинается этап поддержки; перед плей-офф посев определяется суммой очков поддержки и очков славы. Матчи плей-офф длятся <Assistant_Red>до двух побед</>, финал — <Assistant_Red>до трёх побед</>.\n<Assistant_Title2>Как участвовать: </>{JumpToUI:[Перейти к Пику Богов]|1250113}"
   },
   {
     "id": "130659",

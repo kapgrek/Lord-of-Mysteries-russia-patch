@@ -49,7 +49,7 @@ return {
     ["I am very happy to see you looking so mature and reliable."] = "Я очень рад видеть тебя таким зрелым и надежным.",
     ["Bone Projection"] = "Проекция кости",
     ["That's my favorite one! However, Miss Fors has written new works recently."] = "Это мой любимый! Однако в последнее время мисс Форс написала новые произведения.",
-    ["Match confirmation timed out; matching has been automatically canceled."] = "Тайм-аут подтверждения матча; соответствие было автоматически отменено.",
+    ["Match confirmation timed out; matching has been automatically canceled."] = "Тайм-аут подтверждения подбора игроков; подбор был автоматически отменён.",
     ["Dead Deer - After QTE - NPC Version"] = "Мертвый олень — после QTE — версия для NPC",
     ["25% Max Health Shield"] = "25% максимального щита здоровья",
     ["Talk to the uninvited guest"] = "Поговорите с незваным гостем",

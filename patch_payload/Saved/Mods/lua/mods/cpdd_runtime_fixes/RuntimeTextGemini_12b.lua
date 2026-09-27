@@ -14,7 +14,7 @@ return {
     ["Leonard?"] = "Леонард?",
     ["Black Iron Long-barreled Revolver"] = "Длинноствольный револьвер из черного железа",
     ["Statue Charging - Sword - Timing"] = "Зарядка статуи: Меч: Таймер",
-    ["If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 40 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\"> [Double Berry Jam] </>."] = "Если следующая остановка — <LightHighlight>【Торговая фирма】</>, получите <LightHighlight>40</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【Двуягодного джема】</>",
+    ["If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 40 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\"> [Double Berry Jam] </>."] = "Если следующая остановка — <LightHighlight>【Торговый дом】</>, получите <LightHighlight>40</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【Двуягодного джема】</>",
     ["Star Twilight Gift"] = "Дар звездных сумерек",
     ["Okay, thank you very much!"] = "Хорошо, премного благодарен!",
     ["Good day, my friend. I dreamed of your lovely figure again last night..."] = "Добрый день, друг мой. Прошлой ночью мне вновь грезился твой прекрасный стан...",

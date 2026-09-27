@@ -195,7 +195,7 @@ return {
     ["Can ride on the dragon's back and fly in the <HighLight>Great World and GVG battlefield</>. \n\n Gallop across the battlefield and overlook all living beings below."] = "Позволяет летать верхом на драконе в <HighLight>большом мире и на полях сражений GVG</>.\n\nМчитесь над полем брани, взирая на копошащихся внизу смертных с высоты.",
     ["Keybinds"] = "Сочетания клавиш",
     ["If you are ready, please follow me."] = "Если вы готовы, пожалуйста, следуйте за мной.",
-    ["New Matching Rule Forced Type"] = "Новое правило сопоставления с принудительным типом",
+    ["New Matching Rule Forced Type"] = "Новое правило подбора с принудительным типом",
     ["I... am not sure yet."] = "Я... пока не уверен.",
     ["I'm asking you, does it look good or not!"] = "Я вас спрашиваю, хорошо это выглядит или нет!",
     ["Outer Tulle"] = "Внешний Тюль",

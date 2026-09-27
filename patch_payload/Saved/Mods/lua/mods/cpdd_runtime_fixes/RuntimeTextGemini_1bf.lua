@@ -24,7 +24,7 @@ return {
     ["Execute UIAutomationProfile immediately"] = "Немедленно выполнить UIAutomationProfile.",
     ["In competitive mode, <Highlight>kill </> %s/%s Clowns"] = "В соревновательной игре <Highlight> убил </>%s/%s клоунов.",
     ["Use straight sword"] = "Используйте прямой меч",
-    ["Gold Seal: Shop activated, quantity of all gold items increased by 60%"] = "Вступает в силу Золотая печать·Продовольственный магазин, и количество золотых предметов увеличивается на 60%.",
+    ["Gold Seal: Shop activated, quantity of all gold items increased by 60%"] = "Золотая печать·Лавка Снеди срабатывает, и количество золотых предметов увеличивается на 60%.",
     ["Believer Characteristic"] = "Характеристики верующего",
     ["There are slots currently without assigned actions; save failed!"] = "В настоящее время есть слоты, для которых не назначены действия; сохранить не удалось!",
     ["Charm other Beyonders %d/20 times."] = "Очаруйте других Потусторонние %d/20 раз.",

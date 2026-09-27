@@ -238,7 +238,7 @@ return {
     ["Anti-fall Trigger: Final Execution"] = "Триггер против падения: окончательное исполнение",
     ["Below the minimum price."] = "Ниже минимальной цены.",
     ["So that's it. The candle won't be consumed if it's not lit, so they chant \"indestructible body\"."] = "Вот и все. Свеча не сгорит, если ее не зажечь, поэтому поют «неразрушимое тело».",
-    ["Regular: Shop failed, this station is not [Shop]"] = "Обычный: магазин не работает, этой станции нет [Магазин]",
+    ["Regular: Shop failed, this station is not [Shop]"] = "Постоянный клиент · Лавка Снеди не срабатывает, эта станция не [Лавка Снеди]",
     ["Test Skill - Throw Bullet"] = "Проверка навыка — Бросок пули",
     ["<P_Heart>(Nighthawks also need to know how to draw?)</>"] = "<P_Heart>(Ночникам тоже нужно уметь рисовать?)</>",
     ["What is sanity value"] = "Что такое ценность здравомыслия",

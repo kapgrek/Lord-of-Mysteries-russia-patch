@@ -81,7 +81,7 @@ return {
     ["Feed 1 Air Wall Test 1"] = "Подача 1 Испытание воздушной стены 1",
     ["The first one"] = "Первый",
     ["Remind Monterey"] = "Напомнить Монтерей",
-    ["<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 250 </>. After more than <Mark> 2 </> seconds since last taking damage, Armor Break increased by <Mark> 70 </>, lasting <Mark> 5 </> seconds. \n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличена на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>.",
+    ["<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 250 </>. After more than <Mark> 2 </> seconds since last taking damage, Armor Break increased by <Mark> 70 </>, lasting <Mark> 5 </> seconds. \n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>."] = "<Highlight>{1,2,(срок истёк)}</>Специализация Пути увеличена на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>.",
     ["Spark 1.16 - Li Zixuan"] = "Искра 1.16 - Ли Цзысюань",
     ["Perhaps they are working hard to find where the princess is."] = "Возможно, они усердно работают, чтобы найти принцессу.",
     ["After waiting a while, Rozanne and the others sat down by the window."] = "Подождав некоторое время, Розанна и остальные сели у окна.",

@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 0d8/3ff.
 return {
     ["Houston"] = "Хьюстон",
-    ["Bet: Winery activated, received 100% of own [Gold-Grade Royal Ham]"] = "Ставка: активирована «Винодельня», получено 100% собственного [Золотого королевского окорока]",
+    ["Bet: Winery activated, received 100% of own [Gold-Grade Royal Ham]"] = "Ставка: «Винодельня» сработала, получено 100% собственного [Золотого королевского окорока]",
     ["Hello, strange friend. It's a great day for watering flowers, isn't it?"] = "Здравствуйте, незнакомый друг. Сегодня чудесная погода для полива цветов, не правда ли?",
     ["Traces of Writing on the Ground"] = "Следы надписей на земле",
     ["Zanna "] = "Занна ",
@@ -248,7 +248,7 @@ return {
     ["Seal Chaos Guidance Effect 1"] = "Эффект наведения хаоса печати 1",
     ["Star Path Sensing: Start"] = "Зондирование звездного пути: Старт",
     ["Return to find the <h>hunter</>"] = "Вернитесь и найдите <h>Охотник</>.",
-    ["Stages: 0: blank, 1: matching, 2: match complete, 3: first match, 5: second match, 7: awards ceremony."] = "Этапы: 0: пустой матч, 1: сопоставление, 2: завершение матча, 3: первый матч, 5: второй матч, 7: церемония награждения.",
+    ["Stages: 0: blank, 1: matching, 2: match complete, 3: first match, 5: second match, 7: awards ceremony."] = "Этапы: 0: пустой матч, 1: подбор, 2: завершение подбора, 3: первый матч, 5: второй матч, 7: церемония награждения.",
     ["Upgrade conditions not met."] = "Условия обновления не выполнены.",
     ["Open daily from 20:00~21:00"] = "Открыт ежедневно с 20:00~21:00.",
     ["射出星辉贯穿箭，对直线上的敌人造成<Yellow>168</>点攻击伤害，并在目标位置引爆，造成<Yellow>56</>点范围伤害。"] = "Выпускает стрелу звездного света, пронзающую врагов на прямой линии и наносящую <Yellow>168</> ед. урона от атаки, а затем взрывающуюся в точке попадания с нанесением <Yellow>56</> ед. урона по площади.",

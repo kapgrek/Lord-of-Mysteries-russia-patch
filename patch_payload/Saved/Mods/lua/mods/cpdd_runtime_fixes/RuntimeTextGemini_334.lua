@@ -31,7 +31,7 @@ return {
     ["A wonderful scent"] = "Замечательный аромат",
     ["Use the \"Aiming Shot\" skill to switch shooting modes; hitting torches with shots can affect nearby mechanisms."] = "Используйте навык «Прицельный выстрел» для переключения режимов стрельбы; попадание в факелы выстрелами может повлиять на близлежащие механизмы.",
     ["Shanxi Province"] = "Провинция Шаньси",
-    ["If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +40% </>"] = "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, цена продажи следующей станции <LightHighlight> +40% </>.",
+    ["If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +40% </>"] = "Если следующей станцией <LightHighlight> является [Торговый дом] </>, цена продажи следующей станции <LightHighlight> +40% </>.",
     ["Ask what happened"] = "Спроси, что случилось",
     ["What secrets? Is there anything I can know about?"] = "Какие секреты? Есть ли что-нибудь, о чем я могу знать?",
     ["No, no, no, I didn't happen to take anything."] = "Нет, нет, нет, я ничего не брал.",

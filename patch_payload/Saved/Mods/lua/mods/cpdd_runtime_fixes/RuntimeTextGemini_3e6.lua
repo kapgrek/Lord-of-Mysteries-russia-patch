@@ -57,7 +57,7 @@ return {
     ["Golden Twilight"] = "Золотые Сумерки",
     ["Partridge"] = "Куропатка",
     ["Player Nickname Seven: One Two Three Four Five Six Seven Eight Nine Ten One Two Three Four Five Six Seven Eight Nine Ten"] = "Один Два Три Четыре Пять Шесть Семь Восемь Девять Десять",
-    ["Contract · Winery activated, selling price of art and food +25%, selling price -60%."] = "Контракт · Винодельня активирована, цена продажи предметов искусства и еды +25%, цена продажи -60%.",
+    ["Contract · Winery activated, selling price of art and food +25%, selling price -60%."] = "Контракт · Винодельня срабатывает, цена продажи предметов искусства и еды +25%, цена продажи -60%.",
     ["You turn your head and see an octopus busy in front of the stove."] = "Вы поворачиваете голову и видите осьминога, возящегося перед плитой.",
     ["During <HyperLink stylename=\"M_Link\" u=\"86031030\" color=\"#f4a067\">Air Bullet</>, movement speed is increased by 25%, and it can additionally attack 2 enemies within 3 meters of the target. Each hit causes the enemy to suffer <HighLight>Stagnation</> for 1 second and applies a 50% <HighLight>Slow</> effect with a 50% base probability for 1 second."] = "Во время действия <HyperLink stylename=\"M_Link\" u=\"86031030\" color=\"#f4a067\">Воздушная пуля</> скорость передвижения увеличивается на 25%, а также он может дополнительно атаковать 2 врагов в радиусе 3 метров от цели. Каждое попадание вызывает у противника <HighLight>Stagnation</> в течение 1 секунды и применяет 50%-ный эффект <HighLight>Slow</> с базовой вероятностью 50% в течение 1 секунды.",
     ["%s has been removed from the blacklist."] = "%s удален из черного списка.",

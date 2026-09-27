@@ -79,7 +79,7 @@ return {
     ["Burn"] = "Горение",
     ["She is the Evernight Goddess, who is more noble than the starry sky and more eternal than eternity."] = "Она — Богиня Вечной Ночи, более благородная, чем звездное небо, и более вечная, чем вечность.",
     ["Option 1-2"] = "Вариант 1-2",
-    ["Bargaining · Winery effective, purchase price at this station -40%"] = "Торг · Винодельня действительна, цена покупки на этой станции -40%",
+    ["Bargaining · Winery effective, purchase price at this station -40%"] = "Торг · Винодельня срабатывает, цена покупки на этой станции -40%",
     ["Scream"] = "Крик",
     ["Projection quantity"] = "Количество прогнозов",
     ["But it definitely needs people who know how to appreciate desserts!"] = "Но здесь обязательно нужны люди, умеющие ценить десерты!",

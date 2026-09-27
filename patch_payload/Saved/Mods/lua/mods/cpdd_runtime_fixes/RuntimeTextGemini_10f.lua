@@ -253,7 +253,7 @@ return {
     ["Salted Oysters"] = "Соленые устрицы",
     ["S-sorry... I, I'm just too nervous, too sad."] = "П-извини... Я, я слишком нервничаю, слишком грустно.",
     ["The environmental anomalies are worsening, and citizens are constantly disintegrating... I fear the Sacrifice Ritual has already begun."] = "Экологические аномалии ухудшаются, а граждане постоянно деградируют... Боюсь, Ритуал Жертвоприношения уже начался.",
-    ["Introduction: \"The Fool\""] = "Введение: «Шут»",
+    ["Introduction: \"The Fool\""] = "Описание: «Шут»",
     ["Fruit Default State"] = "Состояние фруктов по умолчанию",
     ["Remaining number of Summons"] = "Оставшееся количество призывов",
     ["Butterfly's Kiss"] = "Поцелуй бабочки",

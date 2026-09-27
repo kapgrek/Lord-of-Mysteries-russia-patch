@@ -1041,7 +1041,7 @@
     "id": "085173",
     "source_cn": "比武大会的模式介绍",
     "ref_en": "Tournament Mode Introduction",
-    "target_ru": "Введение в режим турнира"
+    "target_ru": "Описание режима турнира"
   },
   {
     "id": "085174",
@@ -5601,7 +5601,7 @@
     "id": "085933",
     "source_cn": "模板简介",
     "ref_en": "Template Introduction",
-    "target_ru": "Введение в шаблон"
+    "target_ru": "Описание шаблона"
   },
   {
     "id": "085934",
@@ -8121,7 +8121,7 @@
     "id": "086353",
     "source_cn": "熟客·食铺",
     "ref_en": "Regular · Food Shop",
-    "target_ru": "Обычный · Продуктовый магазин"
+    "target_ru": "Постоянный клиент · Лавка Снеди"
   },
   {
     "id": "086354",
@@ -8403,7 +8403,7 @@
     "id": "086400",
     "source_cn": "馈赠·商行",
     "ref_en": "Gift · Trading Firm",
-    "target_ru": "Подарок · Торговая фирма"
+    "target_ru": "Подарок · Торговый дом"
   },
   {
     "id": "086401",
@@ -9831,7 +9831,7 @@
     "id": "086638",
     "source_cn": "转移·食铺",
     "ref_en": "Transfer · Food Shop",
-    "target_ru": "Трансфер · Продуктовый магазин"
+    "target_ru": "Трансфер · Лавка Снеди"
   },
   {
     "id": "086639",
@@ -11325,7 +11325,7 @@
     "id": "086887",
     "source_cn": "畅销·食铺",
     "ref_en": "Best-Seller · Food Shop",
-    "target_ru": "Бестселлер · Продуктовый магазин"
+    "target_ru": "Бестселлер · Лавка Снеди"
   },
   {
     "id": "086888",
@@ -12891,7 +12891,7 @@
     "id": "087148",
     "source_cn": "畅销·商行",
     "ref_en": "Best-Seller · Trading Firm",
-    "target_ru": "Бестселлер · Торговая фирма"
+    "target_ru": "Бестселлер · Торговый дом"
   },
   {
     "id": "087149",
@@ -14865,7 +14865,7 @@
     "id": "087477",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>220</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Crit rate increased <Mark>220</>. After entering combat, crit rate increases additionally. Every <Mark>5</> seconds, crit rate increases by <Mark>10</>, up to a maximum additional increase of <Mark>80</>.\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия клейма истек)}</>Критическая атака увеличена на <Mark>220</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Критическая атака увеличена на <Mark>220</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "087478",
@@ -15159,7 +15159,7 @@
     "id": "087526",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\">【起泡甜酒】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Sparkling Sweet Wine] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>, находящееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>, находящееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "087527",
@@ -16095,7 +16095,7 @@
     "id": "087682",
     "source_cn": "如果下一站<LightHighlight>不是【食铺】</>，本局<LightHighlight>食品、酒类</>卖出价<LightHighlight>永久+15%</>",
     "ref_en": "If the next stop <LightHighlight> is not a [Food Shop] </>, the selling price <LightHighlight> of food and alcohol </> for this round <LightHighlight> will be permanently increased by 15% </>.",
-    "target_ru": "Если следующая остановка <LightHighlight> не является [Продовольственным магазином] </>, цена продажи <LightHighlight> продуктов питания и алкоголя </> для этого раунда <LightHighlight> будет постоянно увеличена на 15% </>."
+    "target_ru": "Если следующая остановка <LightHighlight> не является [Лавкой Снеди] </>, цена продажи <LightHighlight> продуктов питания и алкоголя </> для этого раунда <LightHighlight> будет постоянно увеличена на 15% </>."
   },
   {
     "id": "087683",
@@ -26313,7 +26313,7 @@
     "id": "089385",
     "source_cn": "快速匹配",
     "ref_en": "Quick Match",
-    "target_ru": "Быстрый матч"
+    "target_ru": "Быстрый подбор"
   },
   {
     "id": "089386",
@@ -27165,7 +27165,7 @@
     "id": "089527",
     "source_cn": "畅销·商行失效，本站不是【商行】",
     "ref_en": "Best-Seller: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Бестселлер: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Бестселлер: не срабатывает, эта станция — не [Торговый дом]"
   },
   {
     "id": "089528",
@@ -27399,7 +27399,7 @@
     "id": "089566",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>185</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired)}</>Armor Break increased by <Mark>185</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wetherell family.\\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>185</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Прорыв защиты увеличивается <Mark>185</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "089567",
@@ -27663,7 +27663,7 @@
     "id": "089610",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>30</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 30 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 30 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Лафитовое красное вино, выдержанное в погребе] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 30 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанный красный «Лафит»] </>."
   },
   {
     "id": "089611",
@@ -28731,7 +28731,7 @@
     "id": "089788",
     "source_cn": "联赛指挥战术标点提示文本",
     "ref_en": "League Command Tactical Punctuation Prompt Text",
-    "target_ru": "Текст подсказки с тактической пунктуацией Командования Лиги"
+    "target_ru": "Текст подсказки с тактической меткой Командования Лиги"
   },
   {
     "id": "089789",
@@ -28953,7 +28953,7 @@
     "id": "089825",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>秘宝简介</>\\n1、秘宝分为<Highlight>世界冒险秘宝</>、<Highlight>以战养战秘宝</>、<Highlight>社交馈赠秘宝</>，不同秘宝进度与奖励彼此独立。\\n2、开启秘宝可获得对应装等的装备，<Highlight>世界冒险和以战养战秘宝</>可获得<Highlight>丰富的养成资源</>，<Highlight>社交馈赠秘宝</>可获得<Highlight>可交易的资源</>。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>获得秘宝</>\\n1、参与对应玩法可<Highlight>累积秘宝进度</>，秘宝进度满后可自动转化为获得对应类型的秘宝。\\n2、35装等、45装等、55装等的秘宝进度转化秘宝有次数上限，最多<Highlight>10</>次，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>开启次数累计</>\\n从周一开始时，每日新增并累积共享开启次数，直到下周一重置。若当周次数未使用，将会被清空。具体规则如下：\\n1. 周一到周五每天新增并累积<Highlight>10</>次共享开启次数；\\n2. 从开服第二周开始，周六到周日<Highlight>不限次</>；\\n3. 开服首周的周五、周六、周日仍然会每日新增并累积<Highlight>10</>次共享开启次数。\\n4. 已获得但未开启的秘宝在解锁新的秘宝后可手动进行丢弃。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>活力消耗规则</>\\n共享开启次数消耗的活力将随着非凡者已开启次数增加。具体规则如下：\\n1-5次：消耗<Highlight>20</>活力；\\n6-10次：消耗<Highlight>50</>活力；\\n11-20次：消耗<Highlight>100</>活力；\\n21-30次：消耗<Highlight>150</>活力；\\n30次以后：消耗<Highlight>200</>活力。",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Secret Treasure Introduction</>\\n1. Secret Treasures are divided into <Highlight>World Adventure Secret Treasures</>, <Highlight>War-to-War Secret Treasures</>, and <Highlight>Social Gift Secret Treasures</>. The progress and rewards for different Secret Treasures are independent of each other. \\n2. Opening Secret Treasures can grant equipment of the corresponding item level. <Highlight>World Adventure and War-to-War Secret Treasures</> can grant <Highlight>abundant cultivation resources</>, while <Highlight>Social Gift Secret Treasures</> can grant <Highlight>tradable resources</>. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Obtaining Secret Treasures </>\\n1. Participate in corresponding gameplay to <Highlight>accumulate Secret Treasure progress</>. Once the progress is full, it will automatically convert into obtaining the corresponding type of Secret Treasure. \\n2. There is a limit to the number of times Secret Treasure progress can be converted for item levels 35, 45, and 55, up to a maximum of <Highlight>10</> times. Excess progress will be <Highlight>automatically stored</> and <Highlight>converted into new Secret Treasures</> after the new item level Secret Treasures are unlocked. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Cumulative Opening Times </>\\nStarting from Monday, new shared opening times are added and accumulated daily until they reset the following Monday. If the times for the current week are not used, they will be cleared. The specific rules are as follows: \\n1. From Monday to Friday, <Highlight>10</> shared opening times are added and accumulated daily; \\n2. Starting from the second week of the server launch, there is <Highlight>no limit</> on Saturday and Sunday; \\n3. On Friday, Saturday, and Sunday of the first week of the server launch, <Highlight>10</> shared opening times will still be added and accumulated daily. \\n4. Secret Treasures that have been obtained but not opened can be manually discarded after unlocking new Secret Treasures. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Vitality Consumption Rules </>\\nThe Vitality consumed by shared opening times will increase as the Beyonder's number of openings increases. The specific rules are as follows: \\n1-5 times: consume <Highlight>20</> Vitality; \\n6-10 times: consume <Highlight>50</> Vitality; \\n11-20 times: consume <Highlight>100</> Vitality; \\n21-30 times: consume <Highlight>150</> Vitality; \\nAfter 30 times: consume <Highlight>200</> Vitality.",
-    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>О тайных сокровищах</>\n1. Тайные сокровища делятся на <Highlight>сокровища мировых приключений</>, <Highlight>сокровища войны фракций</> и <Highlight>сокровища социального обмена</>. Прогресс и награды для каждого типа сокровищ независимы друг от друга.\n2. Открывая сокровища, можно получить экипировку соответствующего уровня снаряжения. Из <Highlight>сокровищ мировых приключений и войны фракций</> можно получить <Highlight>множество ресурсов развития</>, а из <Highlight>сокровищ социального обмена</> — <Highlight>ресурсы для торговли</>.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Получение сокровищ</>\n1. Участвуя в соответствующих режимах, можно <Highlight>накапливать прогресс тайных сокровищ</>. При заполнении шкалы прогресса она автоматически преобразуется в сокровище соответствующего типа.\n2. Количество преобразований прогресса в сокровища для 35-го, 45-го и 55-го уровней снаряжения ограничено — не более <Highlight>10</> раз. Излишки прогресса будут <Highlight>автоматически сохранены</> и <Highlight>преобразуются в новые сокровища</> после открытия сокровищ более высокого уровня снаряжения.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Накопление попыток открытия</>\nНачиная с понедельника, каждый день добавляются и накапливаются общие попытки открытия вплоть до еженедельного сброса в следующий понедельник. Неиспользованные за неделю попытки сгорают. Правила:\n1. С понедельника по пятницу ежедневно добавляется и накапливается по <Highlight>10</> общих попыток открытия;\n2. Начиная со второй недели сервера, по субботам и воскресеньям количество попыток <Highlight>не ограничено</>;\n3. В первую неделю запуска сервера в пятницу, субботу и воскресенье по-прежнему начисляется по <Highlight>10</> общих попыток ежедневно.\n4. Полученные, но не открытые сокровища можно выбросить вручную после открытия новых сокровищ.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расход бодрости</>\nРасход бодрости на общие попытки открытия возрастает по мере того, как Потусторонний открывает сокровища. Правила расхода:\n1–5 раз: расходуется <Highlight>20</> ед. бодрости;\n6–10 раз: расходуется <Highlight>50</> ед. бодрости;\n11–20 раз: расходуется <Highlight>100</> ед. бодрости;\n21–30 раз: расходуется <Highlight>150</> ед. бодрости;\nБолее 30 раз: расходуется <Highlight>200</> ед. бодрости."
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Описание тайных сокровищ</>\n1. Тайные сокровища делятся на <Highlight>сокровища мировых приключений</>, <Highlight>сокровища войны фракций</> и <Highlight>сокровища социального обмена</>. Прогресс и награды для каждого типа сокровищ независимы друг от друга.\n2. Открывая сокровища, можно получить экипировку соответствующего уровня снаряжения. Из <Highlight>сокровищ мировых приключений и войны фракций</> можно получить <Highlight>множество ресурсов развития</>, а из <Highlight>сокровищ социального обмена</> — <Highlight>ресурсы для торговли</>.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Получение сокровищ</>\n1. Участвуя в соответствующих режимах, можно <Highlight>накапливать прогресс тайных сокровищ</>. При заполнении шкалы прогресса она автоматически преобразуется в сокровище соответствующего типа.\n2. Количество преобразований прогресса в сокровища для 35-го, 45-го и 55-го уровней снаряжения ограничено — не более <Highlight>10</> раз. Излишки прогресса будут <Highlight>автоматически сохранены</> и <Highlight>преобразуются в новые сокровища</> после открытия сокровищ более высокого уровня снаряжения.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Накопление попыток открытия</>\nНачиная с понедельника, каждый день добавляются и накапливаются общие попытки открытия вплоть до еженедельного сброса в следующий понедельник. Неиспользованные за неделю попытки сгорают. Правила:\n1. С понедельника по пятницу ежедневно добавляется и накапливается по <Highlight>10</> общих попыток открытия;\n2. Начиная со второй недели сервера, по субботам и воскресеньям количество попыток <Highlight>не ограничено</>;\n3. В первую неделю запуска сервера в пятницу, субботу и воскресенье по-прежнему начисляется по <Highlight>10</> общих попыток ежедневно.\n4. Полученные, но не открытые сокровища можно выбросить вручную после открытия новых сокровищ.\n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расход бодрости</>\nРасход бодрости на общие попытки открытия возрастает по мере того, как Потусторонний открывает сокровища. Правила расхода:\n1–5 раз: расходуется <Highlight>20</> ед. бодрости;\n6–10 раз: расходуется <Highlight>50</> ед. бодрости;\n11–20 раз: расходуется <Highlight>100</> ед. бодрости;\n21–30 раз: расходуется <Highlight>150</> ед. бодрости;\nБолее 30 раз: расходуется <Highlight>200</> ед. бодрости."
   },
   {
     "id": "089826",

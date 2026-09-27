@@ -23,7 +23,7 @@ return {
     ["Linda "] = "Линда ·",
     ["Do you need matching gloves? We have styles that are deliberately aged, looking like heirlooms."] = "Вам нужны подходящие перчатки? У нас есть стили, которые намеренно состарены и выглядят как семейные реликвии.",
     ["Click to enter gift message"] = "Нажмите, чтобы ввести сообщение о подарке",
-    ["Exchange Shop Introduction"] = "Введение в обменный магазин",
+    ["Exchange Shop Introduction"] = "Описание обменного магазина",
     ["Left Alt"] = "Левый Alt",
     ["After using on a target, transform into the target's appearance for up to 1 minute."] = "После использования на цели трансформируется в внешний вид цели на срок до 1 минуты.",
     ["Hmm, it is indeed an ability only a Witch would have. I need to investigate this painting carefully."] = "Хм, это действительно способность, которой может обладать только ведьма. Мне нужно внимательно изучить эту картину.",

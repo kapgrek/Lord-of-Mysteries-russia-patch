@@ -53,7 +53,7 @@ return {
     ["Ground Boss"] = "Наземный босс",
     ["Check team member reward progress"] = "Проверьте прогресс вознаграждения членов команды",
     ["On the first night, a beautiful lady appeared in Gehrman's dream, begging him to save this town."] = "В первую ночь Герману во сне явилась прекрасная женщина, умоляющая его спасти этот город.",
-    ["Stocking · Non-Trading Firm"] = "Складирование · Неторговая фирма",
+    ["Stocking · Non-Trading Firm"] = "Запас · Неторговый дом",
     ["Dungeon 90 Mid-R"] = "Подземелье 90, средний уровень R",
     ["Dusty Study Notes"] = "Пыльные учебные заметки",
     ["Supplies Obtained: Bread"] = "Полученные припасы: Хлеб",

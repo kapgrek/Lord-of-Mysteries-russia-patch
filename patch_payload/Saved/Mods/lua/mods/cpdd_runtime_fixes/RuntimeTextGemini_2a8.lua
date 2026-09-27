@@ -40,7 +40,7 @@ return {
     ["Read the <h>kitten's letter</>"] = "Прочитать письмо <h>kitten</>",
     ["(Yes, Elizabeth is an occult enthusiast, she should be able to help.)"] = "(Да, Элизабет — энтузиаст оккультизма, она сможет помочь.)",
     ["Turtle Attendant"] = "Черепаха-слуга",
-    ["If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>."] = "Если следующей остановкой <LightHighlight> будет [Продовольственный магазин] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные снежные хлопья] </>.",
+    ["If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>."] = "Если следующей остановкой <LightHighlight> будет [Лавка Снеди] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные снежные хлопья] </>.",
     ["Lost after submission"] = "Потеряно после подачи",
     ["Young Master Drinking Tea"] = "Молодой господин пьет чай",
     ["Sir, I'm sorry, this was an accident."] = "Сэр, извините, это был несчастный случай.",

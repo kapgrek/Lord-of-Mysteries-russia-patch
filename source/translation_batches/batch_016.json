@@ -4593,7 +4593,7 @@
     "id": "075765",
     "source_cn": "备货·非商行生效，获得25件【精品油画小作】",
     "ref_en": "Stocking: Non-Trading House activated, received 25 [Fine Oil Painting Miniatures]",
-    "target_ru": "Склад: активирован неторговый дом, получено 25 [прекрасных миниатюр масляной живописи]"
+    "target_ru": "Запас · не Торговый дом срабатывает, получено 25 [прекрасных миниатюр масляной живописи]"
   },
   {
     "id": "075766",
@@ -6549,7 +6549,7 @@
     "id": "076091",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>100</>. If no damage has been taken for over <Mark>2</> seconds, Armor Break is increased by <Mark>70</> for <Mark>5</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров увеличена <Mark>100</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "076092",
@@ -7107,7 +7107,7 @@
     "id": "076184",
     "source_cn": "议价·酒庄生效，本站购买价格-40%",
     "ref_en": "Bargaining · Winery effective, purchase price at this station -40%",
-    "target_ru": "Торг · Винодельня действительна, цена покупки на этой станции -40%"
+    "target_ru": "Торг · Винодельня срабатывает, цена покупки на этой станции -40%"
   },
   {
     "id": "076185",
@@ -8373,7 +8373,7 @@
     "id": "076395",
     "source_cn": "备货·非酒庄生效，获得40件【珍品迷雾香槟】",
     "ref_en": "Stocking: Non-Winery activated, received 40 [Premium Mist Champagne]",
-    "target_ru": "Запас: активирован не-винодельческий завод, получено 40 [Премиум-туманного шампанского]"
+    "target_ru": "Запас: не Винодельня срабатывает, получено 40 [Премиум-туманное шампанское]"
   },
   {
     "id": "076396",
@@ -10071,7 +10071,7 @@
     "id": "076678",
     "source_cn": "当前处于团队中，是否退出团队开启匹配。",
     "ref_en": "Currently in a team. Exit the team to start matching?",
-    "target_ru": "На данный момент в команде. Выйти из команды, чтобы начать сопоставление?"
+    "target_ru": "На данный момент в команде. Выйти из команды, чтобы начать подбор игроков?"
   },
   {
     "id": "076679",
@@ -10389,7 +10389,7 @@
     "id": "076731",
     "source_cn": "馈赠·商行失效，本站不是【商行】",
     "ref_en": "Gift: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Подарок: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Подарок: Торговый Дом не срабатывает, этой станции нет [Торговый Дом]"
   },
   {
     "id": "076732",
@@ -11361,7 +11361,7 @@
     "id": "076893",
     "source_cn": "升级·食铺",
     "ref_en": "Upgrade · Food Shop",
-    "target_ru": "Улучшение · Продуктовый магазин"
+    "target_ru": "Улучшение · Лавка Снеди"
   },
   {
     "id": "076894",
@@ -13359,7 +13359,7 @@
     "id": "077226",
     "source_cn": "可买入站点：<LightHighlight>商行</>\\n可卖出站点：<LightHighlight>酒庄</>\\n物品类型：<LightHighlight>艺术品</>",
     "ref_en": "Buyable Stations: <LightHighlight> Trading Firm </> \\n Sellable Stations: <LightHighlight> Winery </> \\n Item Type: <LightHighlight> Art </>",
-    "target_ru": "Станция покупки: <LightHighlight>Торговая лавка</>\nСтанция продажи: <LightHighlight>Винодельня</>\nТип предмета: <LightHighlight>Произведение искусства</>"
+    "target_ru": "Станция покупки: <LightHighlight>Торговый дом</>\nСтанция продажи: <LightHighlight>Винодельня</>\nТип предмета: <LightHighlight>Произведение искусства</>"
   },
   {
     "id": "077227",
@@ -14445,7 +14445,7 @@
     "id": "077407",
     "source_cn": "转移·食铺生效，艺术品、酒类金色物品转为【冰鲜雪贝薄片】",
     "ref_en": "Transfer: Shop activated, gold-grade art and alcohol items converted to [Chilled Snow Scallop Slices]",
-    "target_ru": "Перенос: магазин активирован, предметы искусства и алкоголь золотого уровня преобразованы в [кусочки охлажденного снежного гребешка]"
+    "target_ru": "Перенос · Лавка Снеди срабатывает, предметы искусства и алкоголь золотого уровня преобразуются в [Кусочки охлаждённого снежного гребешка]"
   },
   {
     "id": "077408",
@@ -16161,7 +16161,7 @@
     "id": "077693",
     "source_cn": "匹配提示",
     "ref_en": "Matchmaking Notification",
-    "target_ru": "Уведомление о сватовстве"
+    "target_ru": "Уведомление о подборе игроков"
   },
   {
     "id": "077694",
@@ -16803,7 +16803,7 @@
     "id": "077800",
     "source_cn": "GVG匹配",
     "ref_en": "GVG Matchmaking",
-    "target_ru": "Поиск игроков ГВГ"
+    "target_ru": "Подбор игроков ГВГ"
   },
   {
     "id": "077801",
@@ -17853,7 +17853,7 @@
     "id": "077975",
     "source_cn": "当前正在竞技玩法匹配中，开启副本会中断匹配，是否继续?",
     "ref_en": "Currently matching for a Competition. Entering a Dungeon will interrupt the match. Continue?",
-    "target_ru": "В настоящее время подходит для участия в конкурсе. Вход в подземелье прервет матч. Продолжать?"
+    "target_ru": "Сейчас выполняется подбор игроков для состязания. Открытие подземелья прервёт подбор. Продолжить?"
   },
   {
     "id": "077976",
@@ -17943,7 +17943,7 @@
     "id": "077990",
     "source_cn": "押宝·酒庄生效，获得自身100%的【风味乳酪】",
     "ref_en": "Betting · Winery effective, obtain 100% of own [Flavored Cheese]",
-    "target_ru": "Ставки · Винодельня эффективна, получите 100% собственного [Ароматизированного сыра]"
+    "target_ru": "Ставка · Винодельня срабатывает, получите 100% собственного [Ароматизированного сыра]"
   },
   {
     "id": "077991",
@@ -19341,7 +19341,7 @@
     "id": "078223",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>15</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\">【玉米脆片】</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, obtain <LightHighlight> 15 </> items of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Corn Chips] </>",
-    "target_ru": "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 15 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузные чипсы] </>."
+    "target_ru": "Если следующей станцией <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 15 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузные чипсы] </>."
   },
   {
     "id": "078224",
@@ -21321,7 +21321,7 @@
     "id": "078553",
     "source_cn": "<Assistant_Title1>【金秋湖】</>\\n<Assistant_Title2>地图简介：</>廷根南部远郊，是一片与世无争的田园乐土，常年处于令人愉悦的丰收季。\\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①原著旧梦：</>\\n{JumpToUI:足迹追寻|1301074}\\n<Assistant_Title3>②世界玩法：</>\\n{JumpToUI:隐秘空间|1301079}  {JumpToUI:时虫宝藏|1301080}  {JumpToUI:灵体之线|1301077}  {JumpToUI:风暴追逐|1301909}  {JumpToUI:风尚沙龙|1301956}  {JumpToUI:诡变宝箱|1301078}  {JumpToUI:异象之物|1301072}  {JumpToUI:非凡扮演|1301959}\\n<Assistant_Title2>【时代任务】：</>\\n{JumpToUI:时代百态|1302429}  {JumpToUI:时代逸闻|1302430}  {JumpToUI:扮演故事|1302431}  {JumpToUI:城市漫游|1302432}",
     "ref_en": "<Assistant_Title1>【Golden Autumn Lake】</>\\n<Assistant_Title2>Map Introduction: </>Located in the southern suburbs of Tingen, it is an idyllic paradise isolated from the world, perpetually in a pleasant harvest season.\\n<Assistant_Title2>【Order World】:</>\\n<Assistant_Title3>① Original Dream:</>\\n{JumpToUI:Footprint Tracking|1301074}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:Hidden Space|1301079} {JumpToUI:Worm of Time Treasure|1301080} {JumpToUI:spirit body threads|1301077} {JumpToUI:Storm Chasing|1301909} {JumpToUI:Fashion Salon|1301956} {JumpToUI:Mysterious Treasure Chest|1301078} {JumpToUI:Object of Phenomenon|1301072} {JumpToUI:Extraordinary Roleplay|1301959}\\n<Assistant_Title2>【Era Quests】:</>\\n{JumpToUI:Life in the Era|1302429} {JumpToUI:Era Anecdotes|1302430} {JumpToUI:Acting Stories|1302431} {JumpToUI:City Roaming|1302432}",
-    "target_ru": "<Assistant_Title1>【Озеро Золотой Осени】</>\n<Assistant_Title2> Знакомство с картой: </> Южные пригороды Тингена — это идиллический рай, изолированный от мира, где круглый год наслаждается приятным сезоном сбора урожая. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3>①Original Old Dream: </>\n{JumpToUI: Footprint Pursuit|1301074}\n<Assistant_Title3>②Мировой игровой процесс: </>\n{JumpToUI: Hidden Space|1301079} {JumpToUI:Time Bug Treasure|1301080} {JumpToUI:Spirit Thread|1301077} {JumpToUI:Storm Chase|1301909} {JumpToUI:Салон мод|1301956} {JumpToUI:Сундук с сокровищами|1301078} {JumpToUI:Visual Object|1301072} {JumpToUI: Выдающаяся актерская игра|1301959}\n<Assistant_Title2>【Era Missions】:</>\n{JumpToUI: Все времена|1302429} {JumpToUI: Анекдоты эпохи|1302430} {JumpToUI: Актерские истории|1302431} {JumpToUI: Городской роуминг|1302432}"
+    "target_ru": "<Assistant_Title1>【Озеро Золотой Осени】</>\n<Assistant_Title2>Описание карты: </>Южные пригороды Тингена — идиллический край, свободный от мирской суеты, круглый год пребывающий в приятной поре сбора урожая. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3>① Сны первоисточника: </>\n{JumpToUI: Погоня по следам|1301074}\n<Assistant_Title3>② Мировой геймплей: </>\n{JumpToUI: Скрытое пространство|1301079} {JumpToUI:Сокровище Временного Червя|1301080} {JumpToUI:Нить духовного тела|1301077} {JumpToUI:Погоня за бурей|1301909} {JumpToUI:Салон моды|1301956} {JumpToUI:Причудливый сундук|1301078} {JumpToUI: Объект феномена|1301072} {JumpToUI: Необычайный отыгрыш|1301959}\n<Assistant_Title2>【Задания эпохи】:</>\n{JumpToUI: Жизнь эпохи|1302429} {JumpToUI: Анекдоты эпохи|1302430} {JumpToUI: Истории отыгрыша|1302431} {JumpToUI: Прогулка по городу|1302432}"
   },
   {
     "id": "078554",
@@ -21339,7 +21339,7 @@
     "id": "078556",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Monster Specialization increased by <Mark>180</>. After taking damage, Monster Specialization is additionally increased by <Mark>50</> for <Mark>8</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров увеличена <Mark>180</>. После атаки специализация монстра будет увеличена на <Mark>50</> на <Mark>8</> секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "078557",
@@ -22209,7 +22209,7 @@
     "id": "078701",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专防提高<Mark>300</>。受到攻击有概率触发邂逅，途径专防提高<Mark>180</>，持续<Mark>10</>秒，每<Mark>30</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{ 1, 2, (Brand expired) }</> Pathway-specific Defense increased <Mark> 300 </>. When attacked, there is a chance to trigger an Encounter, increasing Pathway-specific Defense <Mark> 180 </>, lasting <Mark> 10 </> seconds, triggering at most once every <Mark> 30 </> seconds. \\n Does not take effect when the set Echo of Spirit and Knowledge <Mark> </> is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специальная защита увеличивается на <Mark>300</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специальная защита увеличивается на <Mark>300</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "078702",
@@ -25455,7 +25455,7 @@
     "id": "079242",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>180</>. Standing still in combat for <Mark>5</> seconds decreases Monster Specialization by <Mark>25</> for <Mark>5</> seconds; after a Dodge, Monster Specialization is increased by <Mark>25</> for <Mark>15</> seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена <Mark>180</>. Если стоять на месте в бою <Mark>5</> сек., специализация против монстров снижается на <Mark>25</>, продолжительностью <Mark>5</> сек.; после уклонения специализация против монстров увеличивается на <Mark>25</> и длится <Mark>15</> сек. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров увеличена <Mark>180</>. Если стоять на месте в бою <Mark>5</> сек., специализация против монстров снижается на <Mark>25</>, продолжительностью <Mark>5</> сек.; после уклонения специализация против монстров увеличивается на <Mark>25</> и длится <Mark>15</> сек. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "079243",
@@ -25467,7 +25467,7 @@
     "id": "079244",
     "source_cn": "PVE匹配",
     "ref_en": "PVE Matchmaking",
-    "target_ru": "PVE-матчмейкинг"
+    "target_ru": "Подбор игроков PVE"
   },
   {
     "id": "079245",
@@ -25695,7 +25695,7 @@
     "id": "079282",
     "source_cn": "升级·商行生效，所有的【蓝色/紫色物品】升级为【精品油画小作】",
     "ref_en": "Upgrade · Trading Firm effective, all [Blue/Purple Items] upgraded to [Fine Small Oil Painting]",
-    "target_ru": "Улучшение · Торговая фирма вступила в силу, все [Синие/фиолетовые предметы] повышены до [Прекрасная маленькая картина маслом]"
+    "target_ru": "Улучшение · Торговый дом срабатывает, все [Синие/фиолетовые предметы] повышены до [Прекрасная маленькая картина маслом]"
   },
   {
     "id": "079283",

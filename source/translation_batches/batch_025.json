@@ -399,7 +399,7 @@
     "id": "120066",
     "source_cn": "食铺红包生效，获得20件【铜雕烛台】",
     "ref_en": "Food shop red envelope takes effect, obtain 20 【Bronze Candlestick】",
-    "target_ru": "Красный конверт продовольственного магазина вступает в силу, получите 20 【Бронзовый подсвечник】"
+    "target_ru": "Красный конверт Лавки Снеди вступает в силу, получите 20 【Бронзовый подсвечник】"
   },
   {
     "id": "120067",
@@ -579,7 +579,7 @@
     "id": "120096",
     "source_cn": "取消匹配%s",
     "ref_en": "Cancel Match %s",
-    "target_ru": "Отменить совпадение %s"
+    "target_ru": "Отменить подбор %s"
   },
   {
     "id": "120097",
@@ -3177,7 +3177,7 @@
     "id": "120529",
     "source_cn": "预判·非食铺生效，本局食品、酒类卖出价+15%",
     "ref_en": "Prediction: Non-Shop activated, food and alcohol selling price +15% this round",
-    "target_ru": "Прогноз: активирован режим «Не-магазин», цена продажи продуктов питания и алкоголя +15% в этом раунде."
+    "target_ru": "Прогноз: Не-Лавка Снеди срабатывает, цена продажи продуктов питания и алкоголя +15% в этом раунде."
   },
   {
     "id": "120530",
@@ -3459,7 +3459,7 @@
     "id": "120576",
     "source_cn": "升级·商行生效，【蓝色物品】升级为【冰鲜雪贝薄片】",
     "ref_en": "Upgrade · Trading Firm effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]",
-    "target_ru": "Улучшение · Торговая фирма вступила в силу, [Синие предметы] повышены до [Охлажденные ломтики снежной скорлупы]"
+    "target_ru": "Улучшение · Торговый дом срабатывает, [Синие предметы] повышены до [Охлажденные ломтики снежной скорлупы]"
   },
   {
     "id": "120577",
@@ -4455,7 +4455,7 @@
     "id": "120742",
     "source_cn": "熟客·食铺失效，本站不是【食铺】",
     "ref_en": "Regular: Shop failed, this station is not [Shop]",
-    "target_ru": "Обычный: магазин не работает, этой станции нет [Магазин]"
+    "target_ru": "Постоянный клиент · Лавка Снеди не срабатывает, эта станция не [Лавка Снеди]"
   },
   {
     "id": "120743",
@@ -4707,7 +4707,7 @@
     "id": "120784",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>暴击提高<Mark>100</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Crit rate increased by <Mark>100</>. After entering combat, Crit rate is additionally increased by <Mark>10</> every <Mark>5</> seconds, up to a maximum additional increase of <Mark>80</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия клейма истек)}</>Критическая атака увеличена на <Mark>100</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Критическая атака увеличена на <Mark>100</>, после вступления в бой критическая атака увеличивается на <Mark>10</> каждые <Mark>5</> секунд, до максимума <Mark>80</>. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "120785",
@@ -6453,7 +6453,7 @@
     "id": "121075",
     "source_cn": "博弈·商行",
     "ref_en": "Game · Trading Firm",
-    "target_ru": "Игра · Торговая фирма"
+    "target_ru": "Игра · Торговый дом"
   },
   {
     "id": "121076",
@@ -7167,7 +7167,7 @@
     "id": "121194",
     "source_cn": "命运时刻最多允许3人组队匹配，当前队伍人数过多！",
     "ref_en": "Moment of Fate allows a maximum party size of 3, current party size is too large!",
-    "target_ru": "В Moment of Fate максимальный размер группы может составлять 3 человека, текущий размер группы слишком велик!"
+    "target_ru": "Moment of Fate допускает подбор группы максимум из 3 человек, текущий размер группы слишком велик!"
   },
   {
     "id": "121195",
@@ -8241,7 +8241,7 @@
     "id": "121373",
     "source_cn": "畅销·酒庄失效，本站不是【酒庄】",
     "ref_en": "Best-Seller: Winery failed, this station is not [Winery]",
-    "target_ru": "Бестселлер: Винодельня провалилась, эта станция не [Винодельня]"
+    "target_ru": "Бестселлер: Винодельня не срабатывает, эта станция не [Винодельня]"
   },
   {
     "id": "121374",
@@ -10989,7 +10989,7 @@
     "id": "121831",
     "source_cn": "是否开启跨服PVE匹配",
     "ref_en": "Whether to enable cross-server PVE matching",
-    "target_ru": "Включить ли межсерверное сопоставление PVE"
+    "target_ru": "Включить ли межсерверный подбор игроков для PVE"
   },
   {
     "id": "121832",
@@ -11337,7 +11337,7 @@
     "id": "121889",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>240</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>造成伤害/治疗时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Monster Specialization increased by <Mark>240</>, Piercing decreased by <Mark>40</>, corruption increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, with a maximum of one layer every <Mark>2</> seconds. Using a <Mark>Finisher Skill</> to deal damage/healing causes additional damage/healing based on the accumulated Power of Desolation. \\ncorruption effect: When reaching <Mark>30</> corruption, Power of Desolation will cause a small amount of damage to the wearer. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Клеймо недействительно)}</>Специализация против монстров повышена на <Mark>240</>, пронзание снижено на <Mark>40</>, уровень осквернения повышен на <Mark>15</>. При нанесении урона/исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). Использование <Mark>Завершающего навыка</> для нанесения урона/исцеления наносит дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения.\\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу.<Mark>{1,4,(Очищено)}</>\\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Специализация против монстров повышена на <Mark>240</>, пронзание снижено на <Mark>40</>, уровень осквернения повышен на <Mark>15</>. При нанесении урона/исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). Использование <Mark>Завершающего навыка</> для нанесения урона/исцеления наносит дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения.\\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу.<Mark>{1,4,(Очищено)}</>\\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "121890",
@@ -12417,7 +12417,7 @@
     "id": "122069",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,下一站物产出售价格<LightHighlight>+75%</>",
     "ref_en": "If the next station <LightHighlight> is [Food Shop] </>, next station selling price <LightHighlight> +75% </>",
-    "target_ru": "Если следующая станция <LightHighlight> — [Продовольственный магазин] </>, цена продажи следующей станции <LightHighlight> +75% </>."
+    "target_ru": "Если следующая станция <LightHighlight> — [Лавка Снеди] </>, цена продажи следующей станции <LightHighlight> +75% </>."
   },
   {
     "id": "122070",
@@ -12681,7 +12681,7 @@
     "id": "122113",
     "source_cn": "由于长时间未能匹配到合适的队伍，已自动取消当前快速匹配",
     "ref_en": "Due to failing to find a suitable team for a long time, the current quick match has been automatically canceled.",
-    "target_ru": "Из-за того, что в течение длительного времени не удалось найти подходящую команду, текущий быстрый матч автоматически отменен."
+    "target_ru": "Из-за того, что в течение длительного времени не удалось подобрать подходящую команду, текущий быстрый подбор автоматически отменен."
   },
   {
     "id": "122114",
@@ -13275,7 +13275,7 @@
     "id": "122212",
     "source_cn": "押宝·食铺生效，获得自身100%的【铜雕烛台】",
     "ref_en": "Betting · Food Shop effective, obtain 100% of own [Bronze Candlestick]",
-    "target_ru": "Ставки · Продуктовый магазин эффективен, получите 100% собственного [Бронзового подсвечника]"
+    "target_ru": "Ставка · Лавка Снеди срабатывает, получите 100% собственного [Бронзового подсвечника]"
   },
   {
     "id": "122213",
@@ -14517,7 +14517,7 @@
     "id": "122419",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>攻击提高<Mark>230</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Attack increased by <Mark>230</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. \\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>230</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. \\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</> атака увеличена <Mark>230</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. \\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "122420",
@@ -15543,7 +15543,7 @@
     "id": "122590",
     "source_cn": "备货·非食铺失效，下一站是【食铺】",
     "ref_en": "Stocking: Non-Shop failed, next stop is [Shop]",
-    "target_ru": "Складирование: не удалось попасть в магазин, следующая остановка — [Магазин]"
+    "target_ru": "Запас: не Лавка Снеди не сработала, следующая остановка — [Лавка Снеди]"
   },
   {
     "id": "122591",
@@ -16035,7 +16035,7 @@
     "id": "122672",
     "source_cn": "馈赠·酒庄失效，本站不是【酒庄】",
     "ref_en": "Gift: Winery failed, this station is not [Winery]",
-    "target_ru": "Подарок: Винодельня не удалась, этой станции нет [Винодельня]"
+    "target_ru": "Подарок: Винодельня не сработала, эта станция — не [Винодельня]"
   },
   {
     "id": "122673",
@@ -17187,7 +17187,7 @@
     "id": "122864",
     "source_cn": "备货·非食铺生效，获得20件【金牌皇家火腿】",
     "ref_en": "Stocking: Non-Shop activated, received 20 [Gold-Grade Royal Ham]",
-    "target_ru": "Чулок: активирован без магазина, получено 20 [Королевская ветчина золотого качества]"
+    "target_ru": "Запас: не Лавка Снеди срабатывает, получено 20 [Королевская ветчина золотого качества]"
   },
   {
     "id": "122865",
@@ -18465,7 +18465,7 @@
     "id": "123077",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>攻击提高<Mark>275</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</> Attack increased by <Mark> 275 </>. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Атака усилилась <Mark>275</>. \\n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Атака усилилась <Mark>275</>. \\n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "123078",
@@ -19749,7 +19749,7 @@
     "id": "123291",
     "source_cn": "目前有一些阶段: 0:空白，1:匹配中，2:匹配完成，3:第一场比赛，5:第二场比赛，7表彰大会",
     "ref_en": "Stages: 0: blank, 1: matching, 2: match complete, 3: first match, 5: second match, 7: awards ceremony.",
-    "target_ru": "Этапы: 0: пустой матч, 1: сопоставление, 2: завершение матча, 3: первый матч, 5: второй матч, 7: церемония награждения."
+    "target_ru": "Этапы: 0: пустой матч, 1: подбор, 2: завершение подбора, 3: первый матч, 5: второй матч, 7: церемония награждения."
   },
   {
     "id": "123292",
@@ -22785,7 +22785,7 @@
     "id": "123797",
     "source_cn": "金印·酒庄生效，金色物品数量均增加60%",
     "ref_en": "Gold Seal: Winery activated, quantity of all gold items increased by 60%",
-    "target_ru": "Золотая печать: активирована винодельня, количество всех золотых предметов увеличено на 60%."
+    "target_ru": "Золотая печать: Винодельня срабатывает, количество всех золотых предметов увеличено на 60%."
   },
   {
     "id": "123798",
@@ -23619,7 +23619,7 @@
     "id": "123936",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>220</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{ 1, 2, (Brand expired) }</> Attack increased <Mark> 220 </>, Defense decreased <Mark> 15 </>. Grants the wearer the <Mark> Virtue </> of the Witherell family. When entering battle, for every squad member who possesses the <Mark> Virtue </> of the Witherell family, Attack is increased by an additional <Mark> 10 </>. \\n Does not take effect when the set Iron and Blood Covenant <Mark> </> is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо недействительно)}</>Атака повышена на <Mark>220</>, защита снижена на <Mark>15</>. Дарует владельцу <Mark>Добродетель</> семьи Уизерелл. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уизерелл, атака дополнительно повышается на <Mark>10</>.\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышена на <Mark>220</>, защита снижена на <Mark>15</>. Дарует владельцу <Mark>Добродетель</> семьи Уизерелл. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уизерелл, атака дополнительно повышается на <Mark>10</>.\\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "123937",
@@ -24237,7 +24237,7 @@
     "id": "124039",
     "source_cn": "签约·商行失效，下一站不是【商行】",
     "ref_en": "Contract: Trading House failed, next station is not [Trading House]",
-    "target_ru": "Контракт: Торговый Дом провалился, следующей станции нет [Торговый Дом]"
+    "target_ru": "Контракт: Торговый дом не сработал, следующая станция — не [Торговый дом]"
   },
   {
     "id": "124040",
@@ -24441,7 +24441,7 @@
     "id": "124073",
     "source_cn": "<Assistant_Title1>【座驾】</>\\n<Assistant_Title2>名词介绍：</>外观类型的一种\\n<Assistant_Title2>获取方式：</>座驾可以通过任务、活动、商城或特定玩法奖励获得等等多种多样的方式都有机会获取。\\n<Assistant_Title2>查看切换：</>点击菜单-外观-座驾就可以预览和切换其他座驾，还能更换座驾外观\\n<Assistant_Title2>召唤座驾：</>点击右下角坐骑按钮可以召唤座驾，PC端还可以用快捷键T召唤坐骑",
     "ref_en": "<Assistant_Title1>【Vehicle】</>\\n<Assistant_Title2>Introduction: </>A type of cosmetic.\\n<Assistant_Title2>How to Obtain: </>Vehicles can be obtained in various ways, such as through quests, events, the Mall, or specific gameplay rewards.\\n<Assistant_Title2>View and Switch: </>Click Menu - Cosmetics - Vehicle to preview and switch vehicles, or change their appearance.\\n<Assistant_Title2>Summon Vehicle: </>Click the mount button in the bottom right to summon your vehicle; on PC, you can also use the shortcut key T to summon it.",
-    "target_ru": "<Assistant_Title1>【Автомобиль】</>\\n<Assistant_Title2>Введение существительного: </>Тип внешнего вида\\n<Assistant_Title2>Как получить: </>Машины можно получить с помощью заданий, занятий, торговых центров или определенных игровых наград и т. д. Есть возможность получить их различными способами. \\n<Assistant_Title2> Переключатель просмотра: </> Нажмите Меню — Внешний вид — Автомобили, чтобы просмотреть и переключиться на другие автомобили, а также изменить внешний вид автомобиля. \\n<Assistant_Title2> Вызов автомобиля: </> Нажмите кнопку «Маунт» в правом нижнем углу, чтобы вызвать автомобиль. На ПК вы также можете использовать горячую клавишу T для вызова скакуна."
+    "target_ru": "<Assistant_Title1>【Автомобиль】</>\\n<Assistant_Title2>Описание: </>Тип внешнего вида\\n<Assistant_Title2>Как получить: </>Машины можно получить с помощью заданий, занятий, торговых центров или определенных игровых наград и т. д. Есть возможность получить их различными способами. \\n<Assistant_Title2> Переключатель просмотра: </> Нажмите Меню — Внешний вид — Автомобили, чтобы просмотреть и переключиться на другие автомобили, а также изменить внешний вид автомобиля. \\n<Assistant_Title2> Вызов автомобиля: </> Нажмите кнопку «Маунт» в правом нижнем углу, чтобы вызвать автомобиль. На ПК вы также можете использовать горячую клавишу T для вызова скакуна."
   },
   {
     "id": "124074",
@@ -24855,7 +24855,7 @@
     "id": "124142",
     "source_cn": "是否开启GTA匹配",
     "ref_en": "Enable GTA Matching",
-    "target_ru": "Включить сопоставление GTA"
+    "target_ru": "Включить подбор GTA"
   },
   {
     "id": "124143",
@@ -26913,7 +26913,7 @@
     "id": "124485",
     "source_cn": "出场介绍:贝尔纳黛·古斯塔夫",
     "ref_en": "Introduction: Bernadette Gustav",
-    "target_ru": "Введение: Бернадетт Густав"
+    "target_ru": "Описание: Бернадетт Густав"
   },
   {
     "id": "124486",
@@ -27723,7 +27723,7 @@
     "id": "124620",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,获得<LightHighlight>800</>商会票券",
     "ref_en": "If the next station <LightHighlight> is [Food Shop] </>, obtain <LightHighlight> 800 </> Chamber Tickets",
-    "target_ru": "Если следующей станцией <LightHighlight> будет [Продовольственный магазин] </>, получите <LightHighlight> 800 билетов в палату </>."
+    "target_ru": "Если следующей станцией <LightHighlight> будет [Лавка Снеди] </>, получите <LightHighlight> 800 билетов в палату </>."
   },
   {
     "id": "124621",

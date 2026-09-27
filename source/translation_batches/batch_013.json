@@ -417,7 +417,7 @@
     "id": "060069",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>325</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>340</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{ 1, 3, (Brand expired) }</> Crit rate increased <Mark> 325 </>, Anti-crit decreased <Mark> 15 </>, Corruption increased <Mark> 15 </>. After using the social action <Mark> Bow </>, the Crit rate increased effect changes to Attack increased <Mark> 340 </>. \\n Corruption effect: When reaching <Mark> 30 </> Corruption, Anti-crit decreased <Mark> 15 </>. <Mark>{ 1, 4, (Purified) }</>\\n Current Corruption: { 2, 1, *d, F1690001, Corruption }\\n Does not take effect when the set Iron and Blood Covenant <Mark> </> is activated.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>340</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>340</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "060070",
@@ -2127,7 +2127,7 @@
     "id": "060354",
     "source_cn": "升级·商行生效，所有的【白色物品】升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "Upgrade · Trading Firm effective, all [White Items] upgraded to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>",
-    "target_ru": "Обновление · Торговая фирма вступила в силу, все [Белые предметы] повышены до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>"
+    "target_ru": "Обновление · Торговый дом сработал, все [Белые предметы] повышены до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>"
   },
   {
     "id": "060355",
@@ -4887,7 +4887,7 @@
     "id": "060814",
     "source_cn": "自动匹配",
     "ref_en": "Auto-match",
-    "target_ru": "Автоматическое совпадение"
+    "target_ru": "Автоматический подбор"
   },
   {
     "id": "060815",
@@ -5283,7 +5283,7 @@
     "id": "060880",
     "source_cn": "备货·非酒庄失效，下一站是【酒庄】",
     "ref_en": "Stocking: Non-Winery failed, next stop is [Winery]",
-    "target_ru": "Запасы: не винодельня не удалась, следующая остановка - [Винодельня]"
+    "target_ru": "Запас · не Винодельня не срабатывает, следующая остановка — [Винодельня]"
   },
   {
     "id": "060881",
@@ -6429,7 +6429,7 @@
     "id": "061071",
     "source_cn": "畅销·食铺失效，本站不是【食铺】",
     "ref_en": "Best-Seller: Shop failed, this station is not [Shop]",
-    "target_ru": "Бестселлер: Магазин провалился, этой станции нет [Магазин]"
+    "target_ru": "Бестселлер · Лавка Снеди не срабатывает, эта станция — не [Лавка Снеди]"
   },
   {
     "id": "061072",
@@ -7263,7 +7263,7 @@
     "id": "061210",
     "source_cn": "金印·商行生效，金色物品数量均增加60%",
     "ref_en": "Gold Seal: Trading House activated, quantity of all gold items increased by 60%",
-    "target_ru": "Золотая печать: активирован Торговый дом, количество всех золотых предметов увеличено на 60%."
+    "target_ru": "Золотая печать: Торговый дом сработал, количество всех золотых предметов увеличено на 60%."
   },
   {
     "id": "061211",
@@ -8367,7 +8367,7 @@
     "id": "061394",
     "source_cn": "匹配成功",
     "ref_en": "Match Successful",
-    "target_ru": "Матч успешный"
+    "target_ru": "Подбор успешен"
   },
   {
     "id": "061395",
@@ -8901,7 +8901,7 @@
     "id": "061483",
     "source_cn": "食铺红包生效，获得20件【珍品迷雾香槟】",
     "ref_en": "Food shop red envelope takes effect, obtain 20 【Rare Mist Champagne】",
-    "target_ru": "Красный конверт продовольственного магазина вступает в силу, получите 20 【Редкое шампанское Mist】"
+    "target_ru": "Красный конверт Лавки Снеди вступает в силу, получите 20 【Редкое шампанское тумана】"
   },
   {
     "id": "061484",
@@ -9429,7 +9429,7 @@
     "id": "061571",
     "source_cn": "押宝·商行失效，本站不是【商行】",
     "ref_en": "Bet: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Ставка: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Ставка · Торговый дом не срабатывает, эта станция — не [Торговый дом]"
   },
   {
     "id": "061572",
@@ -10569,7 +10569,7 @@
     "id": "061761",
     "source_cn": "简介",
     "ref_en": "Introduction",
-    "target_ru": "Введение"
+    "target_ru": "Описание"
   },
   {
     "id": "061762",
@@ -11169,7 +11169,7 @@
     "id": "061861",
     "source_cn": "当前段位将会遇到更多实力相当的对手，是否继续匹配？",
     "ref_en": "At your current rank, you will encounter more evenly matched opponents. Continue matchmaking?",
-    "target_ru": "На вашем текущем ранге вы встретите более равных противников. Продолжить сватовство?"
+    "target_ru": "На вашем текущем ранге вы встретите более равных противников. Продолжить подбор игроков?"
   },
   {
     "id": "061862",
@@ -13593,7 +13593,7 @@
     "id": "062265",
     "source_cn": "您当前所在的地图，不允许进行快速匹配",
     "ref_en": "Quick matching is not allowed in your current map.",
-    "target_ru": "Быстрое сопоставление не разрешено на вашей текущей карте."
+    "target_ru": "Быстрый подбор игроков не разрешён на вашей текущей карте."
   },
   {
     "id": "062266",
@@ -15957,7 +15957,7 @@
     "id": "062659",
     "source_cn": "如果下一站<LightHighlight>不是【食铺】</>，获得<LightHighlight>25</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\">【金牌皇家火腿】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 25 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>.",
-    "target_ru": "Если следующая остановка <LightHighlight> не является [Продовольственным магазином] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>."
+    "target_ru": "Если следующая остановка <LightHighlight> не является [Лавкой Снеди] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>."
   },
   {
     "id": "062660",
@@ -16743,7 +16743,7 @@
     "id": "062790",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,获得<LightHighlight>30</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, obtain <LightHighlight> 30 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Продовольственный магазин] </>, получите <LightHighlight> 30 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Живопись маслом] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Лавка Снеди] </>, получите <LightHighlight> 30 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Живопись маслом] </>."
   },
   {
     "id": "062791",
@@ -17775,7 +17775,7 @@
     "id": "062962",
     "source_cn": "枪械玩法简介",
     "ref_en": "Firearm Gameplay Introduction",
-    "target_ru": "Введение в игровой процесс с огнестрельным оружием"
+    "target_ru": "Описание игрового процесса с огнестрельным оружием"
   },
   {
     "id": "062963",
@@ -19173,7 +19173,7 @@
     "id": "063195",
     "source_cn": "升级·酒庄生效，【蓝色物品】升级为【珍品迷雾香槟】",
     "ref_en": "Upgrade · Winery effective, [Blue Items] upgraded to [Rare Mist Champagne]",
-    "target_ru": "Улучшение · Винодельня эффективна, [Синие предметы] повышены до [Редкое шампанское тумана]"
+    "target_ru": "Улучшение · Винодельня сработала, [Синие предметы] повышены до [Редкое шампанское тумана]"
   },
   {
     "id": "063196",
@@ -19335,7 +19335,7 @@
     "id": "063222",
     "source_cn": "您当前进入了不允许快速匹配的地图，已经自动取消当前快速匹配",
     "ref_en": "You have entered a map that does not allow quick matching. Current quick match has been automatically canceled.",
-    "target_ru": "Вы ввели карту, которая не поддерживает быстрое сопоставление. Текущий быстрый матч был автоматически отменен."
+    "target_ru": "Вы вошли на карту, которая не поддерживает быстрый подбор игроков. Текущий быстрый подбор был автоматически отменён."
   },
   {
     "id": "063223",
@@ -22833,7 +22833,7 @@
     "id": "063805",
     "source_cn": "畅销·商行生效，本站出售价格+75%",
     "ref_en": "Best-Seller · Trading Firm effective, selling price at this station +75%",
-    "target_ru": "Бестселлер · Действует торговая фирма, цена продажи на этой станции +75%"
+    "target_ru": "Бестселлер · Торговый дом срабатывает, цена продажи на этой станции +75%"
   },
   {
     "id": "063806",
@@ -25191,7 +25191,7 @@
     "id": "064198",
     "source_cn": "正在匹配<HighLight>（00:05）</>",
     "ref_en": "Matching <HighLight>（00:05）</>",
-    "target_ru": "Соответствие <HighLight> (00:05) </>"
+    "target_ru": "Подбор <HighLight> (00:05) </>"
   },
   {
     "id": "064199",
@@ -26877,7 +26877,7 @@
     "id": "064479",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>180</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>180</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>180</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров увеличена на <Mark>180</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "064480",
@@ -27369,7 +27369,7 @@
     "id": "064561",
     "source_cn": "熟客·食铺生效，获得自身50%的【雪松朗齐】",
     "ref_en": "Regular Customer · Food Shop effective, obtain 50% of own [Cedar Rum]",
-    "target_ru": "Постоянный клиент · Продуктовый магазин активен, получите 50% собственного [Кедрового рома]"
+    "target_ru": "Постоянный клиент · Лавка Снеди срабатывает, получите 50% собственного [Кедрового рома]"
   },
   {
     "id": "064562",
@@ -28569,7 +28569,7 @@
     "id": "064761",
     "source_cn": "备货·非酒庄",
     "ref_en": "Stocking · Non-Winery",
-    "target_ru": "Чулок · Невинный завод"
+    "target_ru": "Запас · не Винодельня"
   },
   {
     "id": "064762",
@@ -29391,7 +29391,7 @@
     "id": "064898",
     "source_cn": "如果下一站<LightHighlight>不是【酒庄】</>，获得<LightHighlight>50</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Winery] </>, obtain <LightHighlight> 50 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является не [Винодельня] </>, получите <LightHighlight> 50 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [лафитовое красное вино, выдержанное в погребе] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является не [Винодельня] </>, получите <LightHighlight> 50 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанный красный «Лафит»] </>."
   },
   {
     "id": "064899",
@@ -29919,7 +29919,7 @@
     "id": "064986",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>165</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Armor Break increased by <Mark>165</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Witherell family.\\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>165</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \\n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Прорыв защиты увеличивается <Mark>165</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \\n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "064987",

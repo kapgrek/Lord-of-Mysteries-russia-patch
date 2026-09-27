@@ -2667,7 +2667,7 @@
     "id": "050444",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,每2件<LightHighlight>【蓝色物品】</>升级为1件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, every 2 units of <LightHighlight> [Blue Items] </> are upgraded into 1 unit of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, каждые 2 единицы <LightHighlight> [Синие предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавкой Снеди] </>, каждые 2 единицы <LightHighlight> [Синие предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>."
   },
   {
     "id": "050445",
@@ -5181,7 +5181,7 @@
     "id": "050863",
     "source_cn": "议价·食铺",
     "ref_en": "Bargain · Food Shop",
-    "target_ru": "Сделка · Продуктовый магазин"
+    "target_ru": "Сделка · Лавка Снеди"
   },
   {
     "id": "050864",
@@ -5439,7 +5439,7 @@
     "id": "050906",
     "source_cn": "升级·酒庄生效，所有的【紫色物品】升级为【珍品迷雾香槟】",
     "ref_en": "Upgrade: Winery activated, all [Purple Items] upgraded to [Premium Mist Champagne]",
-    "target_ru": "Улучшение: винодельня активирована, все [фиолетовые предметы] улучшены до [премиум-шампанское Mist]."
+    "target_ru": "Улучшение: винодельня срабатывает, все [фиолетовые предметы] улучшены до [Изысканного туманного шампанского]."
   },
   {
     "id": "050907",
@@ -6051,7 +6051,7 @@
     "id": "051008",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>暴击提高<Mark>160</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>235</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Crit rate increased by <Mark>160</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>235</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</>Критический удар увеличивается на <Mark>160</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>235</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Критический удар увеличивается на <Mark>160</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>235</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "051009",
@@ -14235,7 +14235,7 @@
     "id": "052372",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>数量增加<LightHighlight>150%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </> currently held increases by <LightHighlight> 150% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>, имеющихся в настоящее время, увеличивается на <LightHighlight> 150% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговым домом] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>, имеющихся в настоящее время, увеличивается на <LightHighlight> 150% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "052373",
@@ -15471,7 +15471,7 @@
     "id": "052578",
     "source_cn": "<Assistant_Title1>【广播】</>\\n<Assistant_Title2>开放等级：</>认知等级<Assistant_Red>2级</>\\n<Assistant_Title2>系统入口：</><Assistant_System>聊天 - 右下角广播</>{JumpToUI:[【前往查看】]|1250041}\\n<Assistant_Title2>购买途径：</>可在广播面板快捷购买，也可在<Assistant_System>商城 - 秘藏陈列</>中购买。\\n<Assistant_Title2>道具介绍-全域广播：</>使用道具后，可以发送全服跑马灯广播。\\n<Assistant_Title2>道具介绍-心羽·神谕广播：</>使用道具后，可以发送全服跑马灯广播，并附赠价值一半的世界频道绑定金镑礼金。\\n<Assistant_Title2>道具介绍-迅电·神谕广播：</>使用道具后，可以发送全服跑马灯广播，并附赠价值一半的世界频道绑定金镑礼金。",
     "ref_en": "<Assistant_Title1>【Broadcast】</>\\n<Assistant_Title2>Unlock Level: </>Cognition Level <Assistant_Red>2</>\\n<Assistant_Title2>System Entry: </><Assistant_System>Chat - Broadcast at bottom right</>{JumpToUI:[【View】]|1250041}\\n<Assistant_Title2>Purchase Method: </>Can be purchased quickly in the broadcast panel, or in the <Assistant_System>Mall - Secret Collection</>.\\n<Assistant_Title2>Item Introduction - Global Broadcast: </>After using the item, you can send a server-wide marquee broadcast.\\n<Assistant_Title2>Item Introduction - Heart Feather · Oracle Broadcast: </>After using the item, you can send a server-wide marquee broadcast and receive a gift of bound gold pounds worth half the value for the World Channel.\\n<Assistant_Title2>Item Introduction - Swift Lightning · Oracle Broadcast: </>After using the item, you can send a server-wide marquee broadcast and receive a gift of bound gold pounds worth half the value for the World Channel.",
-    "target_ru": "<Assistant_Title1>[Трансляция]</>\n<Assistant_Title2>Открытый уровень: </>Когнитивный уровень<Assistant_Red>Уровень 2</>\n<Assistant_Title2>Вход в систему: </><Assistant_System>Чат - Трансляция </> в правом нижнем углу {JumpToUI:[[Перейти к просмотру]]|1250041}\n<Assistant_Title2> Покупка Метод: </> можно быстро приобрести на панели трансляции или в торговом центре <Assistant_System> — витрина секретной коллекции </>. \n<Assistant_Title2>Введение в глобальную трансляцию: </>После использования реквизита вы можете отправить широковещательную трансляцию на весь сервер. \n<Assistant_Title2> Введение в реквизит — Xinyu·Oracle Broadcast: </> После использования реквизита вы можете отправить широковещательную трансляцию на весь сервер и получить в подарок половину стоимости золотых фунтов, связанных с мировыми каналами. \n<Assistant_Title2>Знакомство с реквизитом - Xundian·Oracle Broadcasting: </>После использования реквизита вы можете отправить широковещательную трансляцию на весь сервер и получить в подарок половину стоимости золотых фунтов, связанных с мировыми каналами."
+    "target_ru": "<Assistant_Title1>[Трансляция]</>\n<Assistant_Title2>Открытый уровень: </>Когнитивный уровень <Assistant_Red>2</>\n<Assistant_Title2>Вход в систему: </><Assistant_System>Чат - Трансляция в правом нижнем углу</>{JumpToUI:[[Перейти к просмотру]]|1250041}\n<Assistant_Title2>Способ покупки: </>Можно быстро приобрести на панели трансляции, а также в <Assistant_System>Магазине — Витрина сокровищ</>.\n<Assistant_Title2>Описание предмета — Глобальная трансляция: </>После использования предмета можно отправить бегущую строку-трансляцию на весь сервер.\n<Assistant_Title2>Описание предмета — Сердечное Перо · Трансляция оракула: </>После использования предмета можно отправить бегущую строку-трансляцию на весь сервер и получить в подарок золотые фунты, привязанные к мировому каналу, стоимостью в половину цены предмета.\n<Assistant_Title2>Описание предмета — Стремительная Молния · Трансляция оракула: </>После использования предмета можно отправить бегущую строку-трансляцию на весь сервер и получить в подарок золотые фунты, привязанные к мировому каналу, стоимостью в половину цены предмета."
   },
   {
     "id": "052579",
@@ -15801,7 +15801,7 @@
     "id": "052633",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,每2件<LightHighlight>【绿色物品】</>升级为1件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, every 2 units of <LightHighlight> [Green Items] </> are upgraded into 1 unit of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, каждые 2 единицы <LightHighlight> [Зеленые предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканной масляной живописи] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговым домом] </>, каждые 2 единицы <LightHighlight> [Зеленые предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканной масляной живописи] </>."
   },
   {
     "id": "052634",
@@ -16803,7 +16803,7 @@
     "id": "052800",
     "source_cn": "畅销·酒庄失效，本站不是【酒庄】,购买价格+50%",
     "ref_en": "Best-Seller: Winery failed, this station is not [Winery], purchase price +50%",
-    "target_ru": "Бестселлер: Винодельня провалилась, эта станция не [Винодельня], цена покупки +50%."
+    "target_ru": "Бестселлер: Винодельня не срабатывает, эта станция не [Винодельня], цена покупки +50%."
   },
   {
     "id": "052801",
@@ -17709,7 +17709,7 @@
     "id": "052951",
     "source_cn": "议价·商行失效，本站不是【商行】",
     "ref_en": "Bargain: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Выгода: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Выгода: Торговый дом не срабатывает, эта станция не является [Торговым домом]."
   },
   {
     "id": "052952",
@@ -17895,7 +17895,7 @@
     "id": "052982",
     "source_cn": "七日誓约匹配成功",
     "ref_en": "Seven-Day Covenant Match Successful",
-    "target_ru": "Семидневный матч за Завет удался"
+    "target_ru": "Подбор для Семидневного Завета успешен"
   },
   {
     "id": "052983",
@@ -18399,7 +18399,7 @@
     "id": "053066",
     "source_cn": "食铺红包失效，本站不是【食铺】",
     "ref_en": "Food Shop Red Packet expired, this station is not a [Food Shop].",
-    "target_ru": "Срок действия красного пакета продовольственного магазина истек, эта станция не является [продуктовым магазином]."
+    "target_ru": "Срок действия красного пакета Лавки Снеди истек, эта станция не является [Лавкой Снеди]."
   },
   {
     "id": "053067",
@@ -20625,7 +20625,7 @@
     "id": "053437",
     "source_cn": "转移·酒庄生效，艺术品、食品金色物品转为【珍品迷雾香槟】",
     "ref_en": "Transfer: Winery activated, gold-grade art and food items converted to [Premium Mist Champagne]",
-    "target_ru": "Перенос: активирована винодельня, предметы искусства и еда золотого уровня преобразованы в [шампанское Premium Mist Champagne]"
+    "target_ru": "Перенос: винодельня срабатывает, предметы искусства и еда золотого уровня преобразованы в [Изысканное туманное шампанское]"
   },
   {
     "id": "053438",
@@ -21243,7 +21243,7 @@
     "id": "053540",
     "source_cn": "熟客·商行",
     "ref_en": "Regular · Trading Firm",
-    "target_ru": "Обычный · Торговая фирма"
+    "target_ru": "Постоянный клиент · Торговый дом"
   },
   {
     "id": "053541",
@@ -22509,7 +22509,7 @@
     "id": "053751",
     "source_cn": "升级·食铺生效，所有的【紫色物品】升级为【冰鲜雪贝薄片】",
     "ref_en": "Upgrade: Shop activated, all [Purple Items] upgraded to [Chilled Snow Scallop Slices]",
-    "target_ru": "Улучшение: Магазин активирован, все [Фиолетовые предметы] улучшены до [Охлажденные ломтики снежных гребешков]."
+    "target_ru": "Улучшение: Лавка Снеди срабатывает, все [Фиолетовые предметы] улучшены до [Охлажденные ломтики снежных гребешков]."
   },
   {
     "id": "053752",
@@ -22599,7 +22599,7 @@
     "id": "053766",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>20</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\">【起泡甜酒】</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, obtain <LightHighlight> 20 </> items of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Sparkling Sweet Wine] </>",
-    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговая фирма] </>, получите <LightHighlight> 20 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>."
+    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговый дом] </>, получите <LightHighlight> 20 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>."
   },
   {
     "id": "053767",
@@ -22809,7 +22809,7 @@
     "id": "053801",
     "source_cn": "熟客·酒庄生效，获得自身50%的【精品油画小作】",
     "ref_en": "Regular: Winery activated, received 50% of own [Fine Oil Painting Miniatures]",
-    "target_ru": "Обычный: Винодельня активирована, получено 50% собственных [Миниатюр масляной живописи]"
+    "target_ru": "Постоянный клиент: Винодельня срабатывает, получено 50% собственных [Миниатюр масляной живописи]"
   },
   {
     "id": "053802",
@@ -22881,7 +22881,7 @@
     "id": "053813",
     "source_cn": "签约·酒庄失效，下一站不是【酒庄】",
     "ref_en": "Contract: Winery failed, next station is not [Winery]",
-    "target_ru": "Контракт: Винодельня провалилась, следующей станции нет [Винодельня]"
+    "target_ru": "Контракт: Винодельня не срабатывает, следующая станция — не [Винодельня]"
   },
   {
     "id": "053814",
@@ -23361,7 +23361,7 @@
     "id": "053893",
     "source_cn": "好礼·商行生效，获得20件【冰鲜雪贝薄片】",
     "ref_en": "Good Gift · Trading Firm effective, obtain 20 [Chilled Snow Shell Slices]",
-    "target_ru": "Хороший подарок · Торговая фирма эффективна, получите 20 [Охлажденных ломтиков снежной скорлупы]"
+    "target_ru": "Подарок · Торговый дом срабатывает, получите 20 [Охлажденных ломтиков снежных гребешков]"
   },
   {
     "id": "053894",
@@ -25269,13 +25269,13 @@
     "id": "054211",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>265</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>造成伤害/治疗时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 3, (Brand has expired)}</> Monster Specialization increased by <Mark>265</>, Pierce reduced by <Mark>40</>, Corruption value increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, up to one layer every <Mark>2</> seconds; when using a <Mark>Finisher Skill</> to deal damage/healing, deal additional damage/healing based on the accumulated Power of Desolation. \\n Corruption Effect: When reaching <Mark>30</> Corruption value, Power of Desolation will cause a small amount of damage to yourself. <Mark>{ 1, 4, (Purified)}</>\\n Current Corruption Value: {2, 1, *d, F1690001, Corruption}\\n Does not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо утратило силу)}</>Специализация против монстров повышается на <Mark>265</>, пронзание снижается на <Mark>40</>, уровень осквернения повышается на <Mark>15</>. При нанесении урона или исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). При использовании <Mark>Завершающего навыка</> для нанесения урона или исцеления наносит дополнительный урон или дает исцеление в зависимости от накопленных уровней Силы Опустошения.\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу. <Mark>{1,4,(Очищено)}</>\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Специализация против монстров повышается на <Mark>265</>, пронзание снижается на <Mark>40</>, уровень осквернения повышается на <Mark>15</>. При нанесении урона или исцелении дает 1 уровень Силы Опустошения (не чаще одного раза в <Mark>2</> сек.). При использовании <Mark>Завершающего навыка</> для нанесения урона или исцеления наносит дополнительный урон или дает исцеление в зависимости от накопленных уровней Силы Опустошения.\nЭффект осквернения: при достижении <Mark>30</> ед. осквернения Сила Опустошения наносит небольшой урон владельцу. <Mark>{1,4,(Очищено)}</>\nТекущий уровень осквернения: {2,1,*d,F1690001,Corruption}\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "054212",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>300</>，穿刺降低<Mark>30</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired)}</>Monster Specialization increased by <Mark>300</>, Pierce reduced by <Mark>30</>, Corruption increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, gaining at most one layer every <Mark>2</> seconds. When using a <Mark>Finisher Skill</>, deal additional damage/healing based on the accumulated Power of Desolation. \\nCorruption Effect: Upon reaching <Mark>30</> Corruption, Power of Desolation will deal a small amount of damage to yourself. <Mark>{1,4, (Purified)}</>\\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Специализация против монстров увеличилась на <Mark>300</>, пронзание уменьшилось на <Mark>30</>, значение загрязнения увеличилось на <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Специализация против монстров увеличилась на <Mark>300</>, пронзание уменьшилось на <Mark>30</>, значение загрязнения увеличилось на <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "054213",
@@ -28281,7 +28281,7 @@
     "id": "054713",
     "source_cn": "<Assistant_Title1>【场景-俱乐部】</>\\n<Assistant_Title2>地图简介：</>组织据点，非凡者汇聚之所。\\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①世界玩法：</>{JumpToUI:时虫宝藏|1301970}  {JumpToUI:异象之物|1301962}  {JumpToUI:非凡扮演|1301975}\\n<Assistant_Red>助手推荐：点击</>{SendAnswer:[俱乐部]|1400}，了解更多~",
     "ref_en": "<Assistant_Title1>【Scene-Club】</>\\n<Assistant_Title2>Map Introduction:</>Organization stronghold, a gathering place for Beyonders.\\n<Assistant_Title2>【Order World】:</>\\n<Assistant_Title3>① World Gameplay:</>{JumpToUI:Worm of Time Treasure|1301970}  {JumpToUI:Object of Phenomenon|1301962}  {JumpToUI:Extraordinary Roleplay|1301975}\\n<Assistant_Red>Assistant Recommendation: Click </>here{SendAnswer:[Club]|1400} to learn more~",
-    "target_ru": "<Assistant_Title1>[Scene-Club]</>\n<Assistant_Title2> Введение в карту: </> Оплот организации, место, где собираются необыкновенные люди. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3> ①Игровой процесс в мире: </>{JumpToUI: Time Bug Treasure|1301970} {JumpToUI: Visionary Object|1301962} {JumpToUI: Extraordinary Действующий|1301975}\n<Assistant_Red>Рекомендация Ассистента: нажмите </>{SendAnswer:[Club]|1400}, чтобы узнать больше~"
+    "target_ru": "<Assistant_Title1>[Сцена - Клуб]</>\n<Assistant_Title2> Описание карты: </> Оплот организации, место, где собираются необыкновенные люди. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3> ①Игровой процесс в мире: </>{JumpToUI: Сокровище Червя времени|1301970} {JumpToUI: Аномальный объект|1301962} {JumpToUI: Отыгрыш необыкновенных|1301975}\n<Assistant_Red>Рекомендация Ассистента: нажмите </>{SendAnswer:[Клуб]|1400}, чтобы узнать больше~"
   },
   {
     "id": "054714",
@@ -28881,7 +28881,7 @@
     "id": "054813",
     "source_cn": "签约·商行生效，本局酒类、食品卖价+25%,本站卖出价-60%",
     "ref_en": "Contract: Trading House activated, alcohol and food selling price +25% this round, selling price at this station -60%",
-    "target_ru": "Контракт: Торговый Дом активирован, цена продажи алкоголя и продуктов питания +25% в этом раунде, цена продажи на этой станции -60%"
+    "target_ru": "Контракт: Торговый дом срабатывает, цена продажи алкоголя и продуктов питания +25% в этом раунде, цена продажи на этой станции -60%"
   },
   {
     "id": "054814",
@@ -29481,7 +29481,7 @@
     "id": "054913",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>60</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\">【白桦尼波斯】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 60 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Birch Nepos] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 60 единиц </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Березовый Непос] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 60 единиц </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Березовый Непос] </>."
   },
   {
     "id": "054914",

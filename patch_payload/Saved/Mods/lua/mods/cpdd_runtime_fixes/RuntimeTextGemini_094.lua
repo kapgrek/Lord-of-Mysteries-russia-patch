@@ -155,7 +155,7 @@ return {
     ["Teach the <h>thugs</> a lesson"] = "Урок<h>гангстеры</>",
     ["Are you sure you want to apply this record? After applying, the currently used affixes will disappear."] = "Вы уверены, что хотите применить эту запись? После применения используемый в данный момент термин исчезнет.",
     ["Use to obtain <Highlight> Avatar: Flower Mirror Banquet </>"] = "После использования вы получите <Highlight> аватар · Цветочное зеркало Banquet</>.",
-    ["Good Gift · Trading Firm effective, obtain 25 [Cellared Lafite Dry Red]"] = "Хороший подарок · Торговая фирма эффективна, получите 25 [Сухой красный лафит в подвале]",
+    ["Good Gift · Trading Firm effective, obtain 25 [Cellared Lafite Dry Red]"] = "Подарок·Торговый дом срабатывает, получите 25 [Выдержанный красный «Лафит»]",
     ["Unstoppable and invincible! <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> has achieved a <Highlight_L>%s-win streak in <Highlight_L>%s</>; on the battlefield, a new legend is being written!</>"] = "Неудержимый и непобедимый! <HyperLink stylename=\"Our_Name\" u=\"role=%s\">[%s]</> одержал серию побед <Highlight_L>%s в турнире <Highlight_L>%s</>; на поле боя пишется новая легенда!</>",
     ["It is as if fireworks are blooming inside, with red, orange, yellow, green, and other colors constantly dispersing."] = "Внутри как будто расцветает фейерверк, где постоянно рассеиваются красный, оранжевый, желтый, зеленый и другие цвета.",
     ["Gain stat boosts based on the number of Beyonder Material affixes: \n %s"] = "Бонусы к характеристикам в зависимости от количества свойств потусторонних веществ:\n%s",

@@ -255,7 +255,7 @@ return {
     ["A dry environment..."] = "Сухая среда...",
     ["Ms. Justice, your pet dog can, can it talk?"] = "Мисс Джастис, ваша собака умеет говорить?",
     ["Wake-up interaction"] = "Взаимодействие при пробуждении",
-    ["<Highlight>{1,2, (Brand has expired) }</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(Срок действия бренда истек)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
+    ["<Highlight>{1,2, (Brand has expired) }</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<Highlight>{1,2,(срок истёк)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
     ["Reached the current divinity level cap; cannot continue to increase temporarily."] = "Достигнут текущий предел уровня божественности; не может временно продолжать увеличиваться.",
     ["消耗1个自由灵线"] = "Потратить 1 Нить свободного духа",
     ["默认状态"] = "Состояние по умолчанию",

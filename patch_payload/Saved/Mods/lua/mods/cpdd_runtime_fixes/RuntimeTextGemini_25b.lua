@@ -197,7 +197,7 @@ return {
     ["Who are you to him? Vista has already paid off the workshop's debts. Finn is about to commit suicide, so don't cause trouble for him."] = "Кто ты для него? Vista уже погасила долги мастерской. Финн собирается покончить жизнь самоубийством, так что не доставляйте ему неприятностей.",
     ["Why does she stand here watching the ships every day, still wearing her wedding ring?"] = "Почему она каждый день стоит здесь, наблюдая за кораблями, и все еще носит обручальное кольцо?",
     ["Police checking moonshine"] = "Полиция проверяет самогон",
-    ["Good Gift · Winery effective, obtain 40 [Chilled Snow Shell Slices]"] = "Хороший подарок · Винодельня эффективна, получите 40 [Охлажденных ломтиков снежной скорлупы]",
+    ["Good Gift · Winery effective, obtain 40 [Chilled Snow Shell Slices]"] = "Подарок · Винодельня срабатывает, получите 40 [Охлажденных ломтиков снежной скорлупы]",
     ["This is the last of it; go buy some fresh bread. Melissa just reminded me as well."] = "Это последнее; иди купи свежего хлеба. Мелисса тоже мне только что напомнила.",
     ["Scheme replacement successful!"] = "Замена схемы прошла успешно!",
     ["Complete the Acting stories for the Mystery Pryer pathway, Sequences 9 to 7."] = "Завершите актерские истории для пути Тайного Прайера, эпизоды с 9 по 7.",

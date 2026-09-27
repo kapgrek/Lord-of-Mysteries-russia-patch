@@ -204,7 +204,7 @@ return {
     ["Have you noticed anything strange recently?"] = "Вы заметили что-нибудь странное в последнее время?",
     ["3 Days"] = "3 дня",
     ["Is there anything special about Golden Autumn Lake?"] = "Есть ли что-нибудь особенное в озере Золотая Осень?",
-    ["Introduction: Neil"] = "Введение: Нил",
+    ["Introduction: Neil"] = "Описание: Нил",
     ["View the <h>diary in front of me</>"] = "Просмотреть дневник <h> передо мной</>",
     ["When I rushed up just now, I suddenly wasn't afraid anymore. Before, I was always afraid they would retaliate, afraid my sister would get hurt..."] = "Когда я только что подбежал, я вдруг больше не боялся. Раньше я всегда боялась, что они отомстят, боялась, что моя сестра пострадает...",
     ["Poor Young Man"] = "Бедный молодой человек",

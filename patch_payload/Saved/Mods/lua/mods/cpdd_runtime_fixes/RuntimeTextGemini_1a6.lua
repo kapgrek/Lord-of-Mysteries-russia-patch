@@ -1,7 +1,7 @@
 -- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 1a6/3ff.
 return {
-    ["Bet: Winery failed, this station is not [Winery], product selling price -40%"] = "Ставка на винодельню проиграна: эта станция не является «Винодельней», цена продажи товаров -40%",
+    ["Bet: Winery failed, this station is not [Winery], product selling price -40%"] = "Ставка: Винодельня не срабатывает — эта станция не является «Винодельней», цена продажи товаров -40%",
     ["Listen for server launch days, player jumps to system interface"] = "Отслеживание дней со старта сервера; переход игрока в интерфейс системы",
     ["Did Serra send this?"] = "Это прислала Серра?",
     ["Hengyang"] = "Хэнъян",
@@ -113,7 +113,7 @@ return {
     ["城市任务18风车转动时"] = "Городской квест 18 - Когда вращается ветряная мельница",
     ["女工路点1"] = "Работница, путевая точка 1",
     ["好凶……"] = "Такой жестокий...",
-    ["好礼·商行生效，获得20件【冰鲜雪贝薄片】"] = "Хороший подарок · Торговая фирма эффективна, получите 20 [Охлажденных ломтиков снежной скорлупы]",
+    ["好礼·商行生效，获得20件【冰鲜雪贝薄片】"] = "Подарок · Торговый дом срабатывает, получите 20 [Охлажденных ломтиков снежных гребешков]",
     ["它是什么？"] = "Что это такое?",
     ["安多1"] = "Андо 1",
     ["安茹"] = "Анжу",
@@ -256,7 +256,7 @@ return {
     ["Okay, I understand."] = "Хорошо, я понимаю.",
     ["One-Click Use"] = "Использование в один клик",
     ["This meat is already rotten, can it still be sold? Aren't you afraid of causing health problems?"] = "Это мясо уже протухло, можно ли его еще продать? Не боитесь вызвать проблемы со здоровьем?",
-    ["Good Gift · Winery"] = "Хороший подарок · Винодельня",
+    ["Good Gift · Winery"] = "Подарок · Винодельня",
     ["The Church of the River and Sea, located in the North Borough, belongs to the Church of the Lord of Storms."] = "Церковь Реки и Моря, расположенная в Северном районе, принадлежит Церкви Повелителя Штормов.",
     ["Divination Necklace"] = "Ожерелье для гадания",
     ["<P_Heart>(It can talk? It really is a Beyonder creature.)</>"] = "<P_Heart>(Оно может говорить? Это действительно существо из Потустороннего.)</>",

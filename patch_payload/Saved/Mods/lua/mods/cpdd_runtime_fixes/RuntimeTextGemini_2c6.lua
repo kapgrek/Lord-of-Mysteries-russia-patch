@@ -15,7 +15,7 @@ return {
     ["Get out! Get out!"] = "Убирайся! Убирайся!",
     ["Police business! This man is a habitual thief!"] = "Полиция работает! Этот человек — вор-рецидивист!",
     ["Ancient Book-mesh"] = "Древняя книга — сетка (mesh)",
-    ["Regular Customer · Winery effective, obtain 50% of own [White Maple Pen Holder]"] = "«Постоянный гость: Винодельня» срабатывает: дает 50% от собственного 【Подставка для перьев из белого клена】",
+    ["Regular Customer · Winery effective, obtain 50% of own [White Maple Pen Holder]"] = "«Постоянный клиент: Винодельня» срабатывает: дает 50% от собственного 【Подставка для перьев из белого клена】",
     ["Go to Battleground"] = "Отправиться на поле боя",
     ["Wall with Door · Stone · 1"] = "Стена с дверью · Каменная кладка · 1",
     ["Passive cooldown reduced by 3 seconds"] = "Перезарядка пассивного навыка уменьшена на 3 сек.",

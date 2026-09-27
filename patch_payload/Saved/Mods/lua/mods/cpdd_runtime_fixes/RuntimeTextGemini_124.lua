@@ -3,7 +3,7 @@
 return {
     ["I'm not in the same line of work as you. Are you here to attend the celebration?"] = "Мы с вами не коллеги. Вы пришли на праздник?",
     ["It seems that after 'becoming' Emperor Roselle, I have acquired some of his knowledge."] = "Похоже, «став» Императором Розелем, я перенял кое-какие из его познаний.",
-    ["Upgrade · Food Shop effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]"] = "Улучшение: Закусочная активна, 【Синие предметы】 улучшены до 【Ломтики охлаждённого снежного гребешка】",
+    ["Upgrade · Food Shop effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]"] = "«Улучшение: Лавка Снеди» сработало, 【Синие предметы】 улучшены до 【Ломтики охлаждённого снежного гребешка】",
     ["Trigger - Disbelieve"] = "Триггер — Не верить",
     ["Morale (Level 9)"] = "Боевой дух (9-й ур.)",
     ["For an ordinary family like ours, a stable income is very important."] = "Для такой простой семьи, как наша, стабильный доход — это самое главное.",

@@ -2517,7 +2517,7 @@
     "id": "010419",
     "source_cn": "团队中不可匹配",
     "ref_en": "Cannot match while in a team",
-    "target_ru": "Поиск матча невозможен, находясь в группе"
+    "target_ru": "Подбор игроков невозможен, находясь в группе"
   },
   {
     "id": "010420",
@@ -4797,7 +4797,7 @@
     "id": "010799",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【珍品迷雾香槟】</>数量增加<LightHighlight>150%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\"> [Premium Mist Champagne] </> currently held increases by <LightHighlight> 150% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующая станция — <LightHighlight>【Продуктовая лавка】</>, количество имеющегося товара <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【Коллекционное шампанское тумана】</> увеличится на <LightHighlight>150%</>; иначе цена продажи товаров снизится на 40%."
+    "target_ru": "Если следующая станция — <LightHighlight>【Лавка Снеди】</>, количество имеющегося товара <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【Коллекционное шампанское тумана】</> увеличится на <LightHighlight>150%</>; иначе цена продажи товаров снизится на 40%."
   },
   {
     "id": "010800",
@@ -6417,7 +6417,7 @@
     "id": "011069",
     "source_cn": "备货·非食铺生效，获得30件【冰鲜雪贝薄片】",
     "ref_en": "Stocking: Non-Shop activated, received 30 [Chilled Snow Scallop Slices]",
-    "target_ru": "Пополнение запасов: действует вне продуктовой лавки, получено 30 шт. 【Охлажденное филе снежного гребешка】"
+    "target_ru": "Пополнение запасов: срабатывает вне Лавки Снеди, получено 30 шт. 【Охлажденное филе снежного гребешка】"
   },
   {
     "id": "011070",
@@ -8709,7 +8709,7 @@
     "id": "011451",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,下一站物产出售价格<LightHighlight>+125%</>，否则，物产购买价格+50%",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +125% </>, otherwise, purchase price +50%",
-    "target_ru": "Если следующая станция — <LightHighlight>【Торговая палата】</>, цена продажи товаров на следующей станции вырастет на <LightHighlight>+125%</>; иначе цена покупки товаров увеличится на 50%"
+    "target_ru": "Если следующая станция — <LightHighlight>【Торговый дом】</>, цена продажи товаров на следующей станции вырастет на <LightHighlight>+125%</>; иначе цена покупки товаров увеличится на 50%"
   },
   {
     "id": "011452",
@@ -14889,7 +14889,7 @@
     "id": "012481",
     "source_cn": "打断匹配成功。",
     "ref_en": "Matchmaking interrupted successfully.",
-    "target_ru": "Поиск матча успешно прерван."
+    "target_ru": "Подбор игроков успешно прерван."
   },
   {
     "id": "012482",
@@ -15561,7 +15561,7 @@
     "id": "012593",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>，本局<LightHighlight>酒类、食品</>卖出价+25%，但下一站卖出价-60%",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the selling price of <LightHighlight> Alcohol and Food </> for this session is +25%, but the selling price at the next stop is -60%.",
-    "target_ru": "Если следующая станция — <LightHighlight>【Торговая лавка】</>, в этом раунде цена продажи <LightHighlight>алкоголя и провизии</> +25%, но на следующей станции цена продажи -60%"
+    "target_ru": "Если следующая станция — <LightHighlight>【Торговый дом】</>, в этом раунде цена продажи <LightHighlight>алкоголя и провизии</> +25%, но на следующей станции цена продажи -60%"
   },
   {
     "id": "012594",
@@ -18081,7 +18081,7 @@
     "id": "013013",
     "source_cn": "熟客·酒庄生效，获得自身50%的【白枫笔筒】",
     "ref_en": "Regular Customer · Winery effective, obtain 50% of own [White Maple Pen Holder]",
-    "target_ru": "«Постоянный гость: Винодельня» срабатывает: дает 50% от собственного 【Подставка для перьев из белого клена】"
+    "target_ru": "«Постоянный клиент: Винодельня» срабатывает: дает 50% от собственного 【Подставка для перьев из белого клена】"
   },
   {
     "id": "013014",
@@ -22761,7 +22761,7 @@
     "id": "013793",
     "source_cn": "签约·食铺",
     "ref_en": "Contract · Food Shop",
-    "target_ru": "Договор · Закусочная"
+    "target_ru": "Договор · Лавка Снеди"
   },
   {
     "id": "013794",
@@ -24759,7 +24759,7 @@
     "id": "014126",
     "source_cn": "升级·食铺失效，本站不是【食铺】",
     "ref_en": "Upgrade: Shop failed, this station is not [Shop]",
-    "target_ru": "Улучшение закусочной не удалось: эта станция не является 【Закусочной】"
+    "target_ru": "«Улучшение: Лавка Снеди» не срабатывает: эта станция не 【Лавка Снеди】"
   },
   {
     "id": "014127",
@@ -27009,7 +27009,7 @@
     "id": "014501",
     "source_cn": "备货·非商行生效，获得30件【鎏银宫廷茶具】",
     "ref_en": "Stocking: Non-Trading House activated, received 30 [Silver-Gilt Court Tea Set]",
-    "target_ru": "Заготовка: активировано вне торговой лавки, получено 30 шт. «Посеребренный придворный чайный сервиз»"
+    "target_ru": "«Запас: не Торговый дом» срабатывает: получено 30 шт. «Посеребренный придворный чайный сервиз»"
   },
   {
     "id": "014502",
@@ -27489,7 +27489,7 @@
     "id": "014581",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>250</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand has expired) }</>Piercing increased by <Mark>250</>, Crit decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family.\\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional attack bonuses based on the <Mark>Virtue</> possessed by squad members.\\nDoes not take effect when the set <Mark>Covenant of Iron and Blood</> is activated.",
-    "target_ru": "<CostRed>{1,2, (Клеймо утратило силу)}</>Пронзание повышается на <Mark>250</>, крит. удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дает дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2, (срок истёк)}</>Пронзание повышается на <Mark>250</>, крит. удар снижается на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вайзер.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дает дополнительный бонус к атаке в зависимости от <Mark>Добродетелей</>, которыми обладают члены отряда.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "014582",

@@ -1407,7 +1407,7 @@
     "id": "035234",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>，当前持有的金色物品数量均增加<LightHighlight>60%</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of all Gold Items currently held increases by <LightHighlight> 60% </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество всех имеющихся в настоящее время золотых предметов увеличивается на <LightHighlight> 60% </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, количество всех имеющихся в настоящее время золотых предметов увеличивается на <LightHighlight> 60% </>."
   },
   {
     "id": "035235",
@@ -2151,7 +2151,7 @@
     "id": "035358",
     "source_cn": "商行",
     "ref_en": "Trading Firm",
-    "target_ru": "Торговая фирма"
+    "target_ru": "Торговый дом"
   },
   {
     "id": "035359",
@@ -3819,7 +3819,7 @@
     "id": "035636",
     "source_cn": "开始匹配",
     "ref_en": "Start Matching",
-    "target_ru": "Начать сопоставление"
+    "target_ru": "Начать подбор"
   },
   {
     "id": "035637",
@@ -7401,7 +7401,7 @@
     "id": "036233",
     "source_cn": "押宝·食铺生效，获得自身100%的【珍品迷雾香槟】",
     "ref_en": "Betting · Food Shop effective, obtain 100% of own [Rare Mist Champagne]",
-    "target_ru": "Ставки · Продуктовый магазин эффективен, получите 100% собственного [Редкого туманного шампанского]"
+    "target_ru": "Ставка · Лавка Снеди сработала, получите 100% собственного [Редкого туманного шампанского]"
   },
   {
     "id": "036234",
@@ -7713,7 +7713,7 @@
     "id": "036285",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>暴击提高<Mark>325</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Crit rate increased by <Mark>325</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,(Purified)}</>\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
   },
   {
     "id": "036286",
@@ -8097,7 +8097,7 @@
     "id": "036349",
     "source_cn": "畅销·食铺生效，本站出售价格+75%",
     "ref_en": "Best-Seller · Food Shop effective, selling price at this station +75%",
-    "target_ru": "Бестселлер · Продуктовый магазин действует, цена продажи на этой станции +75%"
+    "target_ru": "Бестселлер · Лавка Снеди срабатывает, цена продажи на этой станции +75%"
   },
   {
     "id": "036350",
@@ -8463,7 +8463,7 @@
     "id": "036410",
     "source_cn": "<Assistant_Title1>【霍纳奇斯山脉】</>\\n<Assistant_Title2>地图简介：</>终年覆雪的群山间，古老遗迹依山而立。传说这里藏着安提哥努斯家族复兴的秘密宝藏。 \\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①原著旧梦：</>\\n{JumpToUI:足迹追寻|1301914}\\n<Assistant_Title3>②世界玩法：</>\\n{JumpToUI:隐秘空间|1301919}  {JumpToUI:时虫宝藏|1301920}  {JumpToUI:灵体之线|1301917}  {JumpToUI:风暴追逐|1301921}  {JumpToUI:风尚沙龙|1301924}  {JumpToUI:诡变宝箱|1301918}  {JumpToUI:异象之物|1301912}  {JumpToUI:非凡扮演|1301978}\\n<Assistant_Title2>【时代任务：】</>\\n{JumpToUI:时代逸闻|1302438}",
     "ref_en": "<Assistant_Title1>【Hornacis Mountain Range】</>\\n<Assistant_Title2>Map Introduction:</>Among the snow-capped mountains, ancient ruins stand against the slopes. Legend has it that the secret treasure of the Antigonus Family's revival is hidden here. \\n<Assistant_Title2>【Order World】:</>\\n<Assistant_Title3>① Original Work Old Dreams:</>\\n{JumpToUI:Footprint Tracking|1301914}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:Hidden Space|1301919}  {JumpToUI:Worm of Time Treasure|1301920}  {JumpToUI:spirit body threads|1301917}  {JumpToUI:Storm Chasing|1301921}  {JumpToUI:Fashion Salon|1301924}  {JumpToUI:Mysterious Treasure Chest|1301918}  {JumpToUI:Object of Phenomenon|1301912}  {JumpToUI:Extraordinary Roleplay|1301978}  \\n  <Assistant_Title2>【Era Quests:】</>\\n{JumpToUI:Era Anecdotes|1302438}",
-    "target_ru": "<Assistant_Title1>【Горы Хонакис】</>\\n<Assistant_Title2> Введение в карту: </> Среди гор, покрытых снегом круглый год, на горах стоят древние руины. Легенда гласит, что здесь спрятано тайное сокровище возрождения семьи Антигона. \\n<Assistant_Title2>【Мир порядка】: </>\\n<Assistant_Title3>①Original Old Dream: </>\\n{JumpToUI: Footprint Pursuit|1301914}\\n<Assistant_Title3>②Мировой игровой процесс: </>\\n{JumpToUI: Secret Space|1301919} {JumpToUI:Time Bug Treasure|1301920} {JumpToUI:Spirit Thread|1301917} {JumpToUI:Storm Chase|1301921} {JumpToUI:Салон мод|1301924} {JumpToUI:Сундук с сокровищами|1301918} {JumpToUI:Visual Объект|1301912} {JumpToUI: Выдающаяся производительность|1301978}\\n<Assistant_Title2>[Миссия времени:]</>\\n{JumpToUI: Анекдоты времени|1302438}"
+    "target_ru": "<Assistant_Title1>【Горы Хонакис】</>\\n<Assistant_Title2> Описание карты: </> Среди гор, покрытых снегом круглый год, на горах стоят древние руины. Легенда гласит, что здесь спрятано тайное сокровище возрождения семьи Антигона. \\n<Assistant_Title2>【Мир порядка】: </>\\n<Assistant_Title3>①Original Old Dream: </>\\n{JumpToUI: Footprint Pursuit|1301914}\\n<Assistant_Title3>②Мировой игровой процесс: </>\\n{JumpToUI: Secret Space|1301919} {JumpToUI:Time Bug Treasure|1301920} {JumpToUI:Spirit Thread|1301917} {JumpToUI:Storm Chase|1301921} {JumpToUI:Салон мод|1301924} {JumpToUI:Сундук с сокровищами|1301918} {JumpToUI:Visual Объект|1301912} {JumpToUI: Выдающаяся производительность|1301978}\\n<Assistant_Title2>[Миссия времени:]</>\\n{JumpToUI: Анекдоты времени|1302438}"
   },
   {
     "id": "036411",
@@ -8667,7 +8667,7 @@
     "id": "036444",
     "source_cn": "升级·商行生效，【绿色物品】升级为【精品油画小作】",
     "ref_en": "Upgrade · Trading Firm effective, [Green Items] upgraded to [Fine Small Oil Painting]",
-    "target_ru": "Улучшение · Торговая фирма эффективна, [Зеленые предметы] повышены до [Изысканная маленькая картина маслом]"
+    "target_ru": "Улучшение · Торговый дом сработал, [Зеленые предметы] повышены до [Изысканная маленькая картина маслом]"
   },
   {
     "id": "036445",
@@ -10005,7 +10005,7 @@
     "id": "036667",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>攻击提高<Mark>260</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Attack increased by <Mark>260</>, Skill Enhancement decreased by <Mark>10</>, corruption increased by <Mark>15</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack decreased by <Mark>45</>. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>260</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</> атака увеличена <Mark>260</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "036668",
@@ -10407,7 +10407,7 @@
     "id": "036734",
     "source_cn": "押宝·商行生效，获得自身150%的【冰鲜雪贝薄片】",
     "ref_en": "Bet: Trading House activated, received 150% of own [Chilled Snow Scallop Slices]",
-    "target_ru": "Ставка: Торговый Дом активирован, получил 150% собственных [Охлажденных ломтиков снежного гребешка]"
+    "target_ru": "Ставка: Торговый дом сработал, получил 150% собственных [Охлажденных ломтиков снежного гребешка]"
   },
   {
     "id": "036735",
@@ -12123,7 +12123,7 @@
     "id": "037020",
     "source_cn": "熟客·商行生效，获得自身50%的【金牌皇家火腿】",
     "ref_en": "Regular: Trading House activated, received 50% of own [Gold-Grade Royal Ham]",
-    "target_ru": "Обычный: активирован Торговый дом, получено 50% собственного [Королевского ветчины золотого качества]"
+    "target_ru": "Постоянный клиент: Торговый дом сработал, получено 50% собственного [Королевского ветчины золотого качества]"
   },
   {
     "id": "037021",
@@ -14763,7 +14763,7 @@
     "id": "037460",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>310</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 310 </>. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути повышена на <Mark>310</>. \\n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(Срок истёк)}</>Специализация Пути повышена на <Mark>310</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "037461",
@@ -19977,7 +19977,7 @@
     "id": "038329",
     "source_cn": "好礼·商行生效，获得15件【玉米脆片】",
     "ref_en": "Good Gift · Trading Firm effective, obtain 15 [Corn Chips]",
-    "target_ru": "Хороший подарок · Торговая фирма эффективна, получите 15 [Кукурузных чипсов]"
+    "target_ru": "Подарок · Торговый дом срабатывает, получите 15 [Кукурузных чипсов]"
   },
   {
     "id": "038330",
@@ -22779,7 +22779,7 @@
     "id": "038796",
     "source_cn": "<Assistant_Title1>【拉姆德古堡】</>\\n<Assistant_Title2>地图简介：</>沉寂已久的古堡伫立于群山深处，残存的高塔与石墙，仍诉说着昔日的辉煌。该古堡属于第四纪末统治拉姆德小镇的领主。\\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①原著旧梦：</>\\n{JumpToUI:足迹追寻|1301083}  {JumpToUI:原著瞬间|1301082}\\n<Assistant_Title3>②世界玩法：</>\\n{JumpToUI:隐秘空间|1301088}  {JumpToUI:时虫宝藏|1301089}  {JumpToUI:灵体之线|1301086}  {JumpToUI:吟游诗人|1301084}  {JumpToUI:风暴追逐|1301957}  {JumpToUI:诡变宝箱|1301087}  {JumpToUI:异象之物|1301081}  {JumpToUI:非凡扮演|1301960}\\n<Assistant_Title2>【时代任务】：</>\\n{JumpToUI:时代逸闻|1302433}  {JumpToUI:扮演故事|1302434}",
     "ref_en": "<Assistant_Title1>[Lamud Castle]</>\\n<Assistant_Title2>Map Introduction: </>A long-silent ancient castle standing deep in the mountains. The remaining towers and stone walls still tell of its former glory. This castle belonged to the lord who ruled Lamud Town at the end of the Fourth Epoch.\\n<Assistant_Title2>[Order World]:</>\\n<Assistant_Title3>① Moments from the Original Work:</>\\n{JumpToUI:Footprint Tracking|1301083} {JumpToUI:Moments from the Original Work|1301082}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:Hidden Space|1301088} {JumpToUI:Worm of Time Treasure|1301089} {JumpToUI:Spirit Body Threads|1301086} {JumpToUI:Bard|1301084} {JumpToUI:Storm Chasing|1301957} {JumpToUI:Mysterious Treasure Chest|1301087} {JumpToUI:Object of Phenomenon|1301081} {JumpToUI:Extraordinary Roleplay|1301960}\\n<Assistant_Title2>[Era Quests]:</>\\n{JumpToUI:Era Anecdotes|1302433} {JumpToUI:Roleplay Story|1302434}",
-    "target_ru": "<Assistant_Title1>【Замок Ламде】</>\\n<Assistant_Title2> Введение в карту: </>Долго молчавший замок стоит глубоко в горах, а сохранившиеся башни и каменные стены до сих пор рассказывают историю его былой славы. Замок принадлежал лордам, управлявшим городом Рамд в конце Четвертой Эпохи. \\n<Assistant_Title2>[Упорядоченный мир]: </>\\n<Assistant_Title3>①Original Old Dream: </>\\n{JumpToUI: Footprint Pursuit|1301083} {JumpToUI:Original Moment|1301082}\\n<Assistant_Title3>②World геймплей:</>\\n{JumpToUI:Secret Space|1301088} {JumpToUI:Time Bug Treasure|1301089} {JumpToUI:Spirit Thread|1301086} {JumpToUI:Bard|1301084} {JumpToUI: Storm Chase|1301957} {JumpToUI: Strange Treasure Сундук|1301087} {JumpToUI: Visionary Object|1301081} {JumpToUI: Extraordinary Performance|1301960}\\n<Assistant_Title2>【Era Mission】: </>\\n{JumpToUI: Era Anecdotes|1302433} {JumpToUI:Play Story|1302434}"
+    "target_ru": "<Assistant_Title1>【Замок Ламде】</>\\n<Assistant_Title2>Описание карты: </>Долго молчавший замок стоит глубоко в горах, а сохранившиеся башни и каменные стены до сих пор рассказывают о его былой славе. Замок принадлежал лорду, правившему городом Ламде в конце Четвёртой Эпохи.\\n<Assistant_Title2>【Упорядоченный мир】: </>\\n<Assistant_Title3>①Давние сны первоисточника: </>\\n{JumpToUI:По следам|1301083}  {JumpToUI:Мгновения первоисточника|1301082}\\n<Assistant_Title3>②Игровые механики мира: </>\\n{JumpToUI:Скрытое пространство|1301088}  {JumpToUI:Сокровище временного червя|1301089}  {JumpToUI:Нити духовного тела|1301086}  {JumpToUI:Бард|1301084}  {JumpToUI:Погоня за бурей|1301957}  {JumpToUI:Загадочный сундук|1301087}  {JumpToUI:Предмет аномалии|1301081}  {JumpToUI:Потусторонний отыгрыш|1301960}\\n<Assistant_Title2>【Задания эпохи】: </>\\n{JumpToUI:Байки эпохи|1302433}  {JumpToUI:История отыгрыша|1302434}"
   },
   {
     "id": "038797",
@@ -24759,7 +24759,7 @@
     "id": "039126",
     "source_cn": "技能介绍",
     "ref_en": "Skill Introduction",
-    "target_ru": "Введение в навыки"
+    "target_ru": "Описание навыков"
   },
   {
     "id": "039127",
@@ -25089,7 +25089,7 @@
     "id": "039181",
     "source_cn": "<Assistant_Title1>【俱乐部】</>\\n<Assistant_Title2>开放等级：</>认知等级<Assistant_Red>20级</>\\n<Assistant_Title2>系统入口：</><Assistant_System>菜单-俱乐部</>{JumpToUI:[【前往查看】]|1250052}\\n<Assistant_Title2>系统介绍：</>角色等级到达20级，可以选择加入俱乐部或自行创建俱乐部。参与各种俱乐部活动玩法，获取丰厚的活动奖励和同行纹章，同行纹章可在俱乐部商店中兑换奖励道具。\\n<Assistant_Title2>创建俱乐部：</>创建俱乐部需要缴纳创建费用，创建后24小时内响应人数达到4人则创建成功，超时将创建失败。<Assistant_Red>创建失败和主动取消创建，都不会返还创建费用。</>\\n<Assistant_Title2>俱乐部类型：</>俱乐部分为休闲俱乐部和战斗俱乐部，可在俱乐部信息修改处进行调整，休闲俱乐部不会在成员列表显示非凡评分。\\n<Assistant_Title2>改名道具：</>可在<Assistant_System>商城 - 秘藏陈列</>中购买更名布告，更改俱乐部的名称和徽章字。\\n<Assistant_Title2>活动限制：</>1.俱乐部成员锁定规则：在以俱乐部为单位的玩法活动（如<Assistant_System>四方联赛、歌剧魅影、猎城战、高原战</>）期间，俱乐部<Assistant_Red>不允许成员的加入和退出。</>\\n2.俱乐部活动途径人数限制：部分俱乐部活动对参与成员的<Assistant_Red>途径人数</>有限制要求，详情可见俱乐部活动说明。\\n3.参与活动前请先确认职位分配情况，<Assistant_Red>部分活动仅支持正式会员参赛</>，正式会员是俱乐部的中坚力量，可以参与俱乐部内的玩法活动；候补成员是俱乐部的储备力量，部分俱乐部活动无法参与，可以保持活跃状态，联系管理转正为会员。\\n<Assistant_Title3>基础功能细节规则：</>{SendAnswer:[俱乐部-俱乐部建筑和资金]|1401}，{SendAnswer:[俱乐部-俱乐部职位]|1402}，{SendAnswer:[俱乐部-俱乐部活跃]|1403}，{SendAnswer:[场景-俱乐部]|567}",
     "ref_en": "<Assistant_Title1>【Club】</>\\n<Assistant_Title2>Unlock Level: </>Cognition Level <Assistant_Red>20</>\\n<Assistant_Title2>System Access: </><Assistant_System>Menu - Club</>{JumpToUI:[【View】]|1250052}\\n<Assistant_Title2>System Introduction: </>Once your character reaches level 20, you can choose to join a club or create your own. Participate in various club activities to earn rich rewards and Companion Emblems, which can be exchanged for reward items in the Club Shop.\\n<Assistant_Title2>Creating a Club: </>Creating a club requires a fee. If at least 4 people respond within 24 hours of creation, the club is successfully established; otherwise, it will fail.<Assistant_Red>The creation fee is not refunded if the creation fails or is voluntarily canceled.</>\\n<Assistant_Title2>Club Types: </>Clubs are divided into Leisure Clubs and Competition Clubs, which can be adjusted in the Club Information settings. Leisure Clubs do not display Beyonder ratings in the member list.\\n<Assistant_Title2>Renaming Items: </>You can purchase a Renaming Notice in the <Assistant_System>Mall - Treasure Display </> to change the club's name and emblem text.\\n<Assistant_Title2>Activity Restrictions: </>1. Club Member Lock Rule: During club-based activities (such as <Assistant_System>Four-Way League, Phantom of the Opera, Hunting City Battle, Highland Battle</>), clubs <Assistant_Red>do not allow members to join or leave.</>\\n2. Club Activity Pathway Participation Limits: Some club activities have requirements for the number of participants from specific <Assistant_Red>Pathways</>; see the club activity instructions for details.\\n3. Please confirm position assignments before participating in activities, as <Assistant_Red>some activities only support official members participating</>. Official members are the backbone of the club and can participate in all club activities; reserve members are the club's backup force and cannot participate in some activities. You can maintain an active status and contact management to be promoted to an official member.\\n<Assistant_Title3>Basic Function Details: </>{SendAnswer:[Club - Club Buildings and Funds]|1401}, {SendAnswer:[Club - Club Positions]|1402}, {SendAnswer:[Club - Club Activity]|1403}, {SendAnswer:[Scene - Club]|567}",
-    "target_ru": "<Assistant_Title1>[Club]</>\\n<Assistant_Title2>Открытый уровень:</>Когнитивный уровень<Assistant_Red>Уровень 20</>\\n<Assistant_Title2>Вход в систему:</><Assistant_System>Menu -Club</>{JumpToUI:[[Перейти к просмотру]]|1250052}\\n<Assistant_Title2> Введение в систему: </> Когда уровень персонажа достигнет 20-го уровня, вы сможете вступить в клуб или создать клуб самостоятельно. Участвуйте в различных клубных мероприятиях и получайте богатые награды событий и эмблемы сверстников. Эмблемы сверстников можно обменять на наградной реквизит в магазине клуба. \\n<Assistant_Title2> Создать клуб: </> Чтобы создать клуб, вам необходимо внести плату за создание. Если количество респондентов достигнет 4 в течение 24 часов после создания, создание будет успешным. Если время истечет, создание завершится неудачно. <Assistant_Red> Плата за создание не будет возвращена, если создание не удастся или создание будет активно отменено. </>\\n<Assistant_Title2>Тип клуба: </>Клубы делятся на клубы досуга и клубы единоборств, которые можно настроить в разделе модификации информации о клубе. Клубы досуга не будут показывать выдающиеся рейтинги в списке участников. \\n<Assistant_Title2>Реквизит для изменения имени: </> Вы можете приобрести уведомление о смене имени в <Assistant_System> Mall — Secret Display </>, чтобы изменить название и значок клуба. \\n<Assistant_Title2> Ограничения активности: </>1. Правила блокировки членов клуба: Во время игровых действий в клубе (таких как <Assistant_System> Четырехпартийная лига, Призрак оперы, Война в охотничьем городе, Война на плато </>) клуб <Assistant_Red> не позволяет членам присоединяться или выходить из клуба. </>\\n2. Ограничения на количество людей, которые могут получить доступ к клубным мероприятиям. Некоторые клубные мероприятия имеют ограничения на количество людей, участвующих в каналах <Assistant_Red></>. Подробности смотрите в описании деятельности клуба. \\n3. Пожалуйста, подтвердите распределение позиций, прежде чем участвовать в мероприятиях. <Assistant_Red> Некоторые действия поддерживают только формальных участников. </> Официальные члены составляют основу клуба и могут участвовать в игровых мероприятиях внутри клуба; Альтернативные члены являются резервным составом клуба и не могут участвовать в некоторых мероприятиях клуба. Они могут оставаться активными и связаться с руководством, чтобы стать полноправными членами. \\n<Assistant_Title3> Основные правила подробностей функций: </>{SendAnswer:[Создание и финансирование клуба-клуба]|1401}, {SendAnswer:[Позиция клуба-клуба]|1402}, {SendAnswer:[Клуб-клуб активен]|1403}, {SendAnswer:[Scene-Club]|567}"
+    "target_ru": "<Assistant_Title1>[Club]</>\\n<Assistant_Title2>Открытый уровень:</>Когнитивный уровень<Assistant_Red>Уровень 20</>\\n<Assistant_Title2>Вход в систему:</><Assistant_System>Menu -Club</>{JumpToUI:[[Перейти к просмотру]]|1250052}\\n<Assistant_Title2> Описание системы: </> Когда уровень персонажа достигнет 20-го уровня, вы сможете вступить в клуб или создать клуб самостоятельно. Участвуйте в различных клубных мероприятиях и получайте богатые награды событий и эмблемы сверстников. Эмблемы сверстников можно обменять на наградной реквизит в магазине клуба. \\n<Assistant_Title2> Создать клуб: </> Чтобы создать клуб, вам необходимо внести плату за создание. Если количество респондентов достигнет 4 в течение 24 часов после создания, создание будет успешным. Если время истечет, создание завершится неудачно. <Assistant_Red> Плата за создание не будет возвращена, если создание не удастся или создание будет активно отменено. </>\\n<Assistant_Title2>Тип клуба: </>Клубы делятся на клубы досуга и клубы единоборств, которые можно настроить в разделе модификации информации о клубе. Клубы досуга не будут показывать выдающиеся рейтинги в списке участников. \\n<Assistant_Title2>Реквизит для изменения имени: </> Вы можете приобрести уведомление о смене имени в <Assistant_System> Mall — Secret Display </>, чтобы изменить название и значок клуба. \\n<Assistant_Title2> Ограничения активности: </>1. Правила блокировки членов клуба: Во время игровых действий в клубе (таких как <Assistant_System> Четырехпартийная лига, Призрак оперы, Война в охотничьем городе, Война на плато </>) клуб <Assistant_Red> не позволяет членам присоединяться или выходить из клуба. </>\\n2. Ограничения на количество людей, которые могут получить доступ к клубным мероприятиям. Некоторые клубные мероприятия имеют ограничения на количество людей, участвующих в каналах <Assistant_Red></>. Подробности смотрите в описании деятельности клуба. \\n3. Пожалуйста, подтвердите распределение позиций, прежде чем участвовать в мероприятиях. <Assistant_Red> Некоторые действия поддерживают только формальных участников. </> Официальные члены составляют основу клуба и могут участвовать в игровых мероприятиях внутри клуба; Альтернативные члены являются резервным составом клуба и не могут участвовать в некоторых мероприятиях клуба. Они могут оставаться активными и связаться с руководством, чтобы стать полноправными членами. \\n<Assistant_Title3> Основные правила подробностей функций: </>{SendAnswer:[Создание и финансирование клуба-клуба]|1401}, {SendAnswer:[Позиция клуба-клуба]|1402}, {SendAnswer:[Клуб-клуб активен]|1403}, {SendAnswer:[Scene-Club]|567}"
   },
   {
     "id": "039182",
@@ -27453,7 +27453,7 @@
     "id": "039575",
     "source_cn": "<Assistant_Title1>投影片段</>\\n<Assistant_Title2>道具介绍：</>\\n是{SendAnswer:结交人脉|554}重复获得{SendAnswer:人脉|550}时获得的积分，可在{SendAnswer:人脉商店|558}兑换各种奖励。\\n<Assistant_Title2>获取方式：</>\\n通过结交人脉获取重复人脉时，可获得投影片段。重复的人脉品质越高，获得的数量越多。\\n<Assistant_Title2>消耗方式：</>\\n通过<Assistant_System>菜单-人脉-兑换</>可打开<Assistant_System>人脉商店</>，兑换相应道具。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[人脉]|550}，{SendAnswer:[人脉商店]|558}，{SendAnswer:[结交人脉]|554}",
     "ref_en": "<Assistant_Title1>Projection Fragments</>\\n<Assistant_Title2> Item Introduction: </>\\n These are points obtained when {SendAnswer:Making Connections| 554 } results in obtaining a duplicate {SendAnswer:Connection| 550 }. They can be used to exchange for various rewards in the {SendAnswer:Connection Shop| 558 }. \\n<Assistant_Title2> How to Obtain: </>\\n When making connections and obtaining a duplicate connection, you can receive Projection Fragments. The higher the quality of the duplicate connection, the more you receive. \\n<Assistant_Title2> How to Consume: </>\\n You can open the <Assistant_System>Connection Shop</> via <Assistant_System>Menu-Connections-Exchange</> to exchange for corresponding items. \\n<Assistant_Title3> Recommended Searches: </>{SendAnswer:[Connections]|550}, {SendAnswer:[Connection Shop]|558}, {SendAnswer:[Making Connections]|554}",
-    "target_ru": "<Assistant_Title1>Клип проекции</>\\n<Assistant_Title2>Введение в реквизит: </>\\n — это очки, полученные {SendAnswer:Make Connections|554}, когда {SendAnswer:Connections|554} повторно получает {SendAnswer:Connections|550}, которые можно обменять на различные награды в {SendAnswer:Connections Store|558}. \\n<Assistant_Title2> Как получить: </>\\n Когда вы получаете дублирующиеся соединения путем установления соединений, вы можете получить фрагменты проекции. Чем выше качество повторных контактов, тем большее их количество получается. \\n<Assistant_Title2> Способ потребления: </>\\n Через меню <Assistant_System> - соединения - обмен </> вы можете открыть магазин соединений <Assistant_System> </> и выкупить соответствующий реквизит. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Соединения]|550}, {SendAnswer:[Магазин подключений]|558}, {SendAnswer:[Установить соединения]|554}"
+    "target_ru": "<Assistant_Title1>Клип проекции</>\\n<Assistant_Title2>Описание предмета: </>\\n Это очки, получаемые при повторном получении {SendAnswer:Связи|550} посредством {SendAnswer:Установление связей|554}; их можно обменять на различные награды в {SendAnswer:Магазин связей|558}. \\n<Assistant_Title2> Как получить: </>\\n При установлении связей и получении повторяющейся связи вы получаете фрагменты проекции. Чем выше качество повторной связи, тем больше их количество. \\n<Assistant_Title2> Способ использования: </>\\n Через <Assistant_System>Меню — Связи — Обмен</> можно открыть <Assistant_System>Магазин связей</> и обменять на соответствующие предметы. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Связи]|550}, {SendAnswer:[Магазин связей]|558}, {SendAnswer:[Установление связей]|554}"
   },
   {
     "id": "039576",

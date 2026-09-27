@@ -152,7 +152,7 @@ return {
     ["（英雄）转盘花色BUFF方块"] = "(Герой) Блоки УСИЛЕНИЯ костюма рулетки",
     ["Complete 1 Bard gameplay session"] = "Завершить прохождение за 1 барда.",
     ["If the filled quantity is greater than the number of bullets, the excess is discarded; if less, it is filled to the end. Fill in a non-negative integer number of frames; if it is greater than the total Action duration, it is capped at the total Action duration."] = "Если заполненное количество превышает количество пуль, лишнее будет отброшено; если количество меньше количества пуль, будет заполнен остаток. Заполните неотрицательное целое число номеров кадров. Если оно превышает общую продолжительность действия, оно будет усечено в соответствии с общей продолжительностью действия.",
-    ["Partner Support Introduction"] = "Введение в поддержку партнеров",
+    ["Partner Support Introduction"] = "Описание поддержки партнёров",
     ["After triggering Truth Wave 6 times, automatically cast Starry Dome Judgment."] = "После запуска «Волны Истины» 6 раз автоматически примените «Правосудие Звездного купола».",
     ["Porter's problem is a bit tricky; let's go ask Mentor Derrick. He is experienced and should know how to handle it."] = "Задача Портера немного сложна; пойдем спросим наставника Деррика. Он опытен и должен знать, как с этим справиться.",
     ["Ability Cards Collected:"] = "Собраны карты способностей:",

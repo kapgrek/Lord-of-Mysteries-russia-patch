@@ -51,7 +51,7 @@ return {
     ["Defeat Hard difficulty Offspring Protection, pick up <Highlight>Beyonder Characteristic Fragment</>(%s/%s)"] = "Победите Защиту потомства на высоком уровне сложности, возьмите <Highlight>Фрагмент характеристики Beyond</>(%s/%s)",
     ["Go to Iron Cross Street"] = "Идите на улицу Айрон-Кросс.",
     ["Tang Su"] = "Тан Су",
-    ["%s entered a map where matching is not allowed. Quick match has been automatically canceled."] = "%s ввел карту, на которой совпадение не разрешено. Быстрый матч был автоматически отменен.",
+    ["%s entered a map where matching is not allowed. Quick match has been automatically canceled."] = "%s вошел на карту, на которой подбор игроков не разрешен. Быстрый подбор игроков был автоматически отменен.",
     ["Ma'am, you should lower the reward. Recently, many people have been grabbing any stray cat that looks like a fur ball and trying to claim the reward."] = "Мэм, вам следует снизить награду. В последнее время многие люди хватают бездомных кошек, похожих на меховой комок, и пытаются получить награду.",
     ["Mr. Golding's appraisal skills are the most authoritative in Backlund, his eye is never wrong."] = "Навыки оценки г-на Голдинга являются самыми авторитетными в Баклунде, его взгляд никогда не ошибается.",
     ["Obtain 1 Beyonder material with <Hand of God> trait"] = "Obtain 1 Потусторонний material with <Hand of God> trait",

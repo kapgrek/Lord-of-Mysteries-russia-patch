@@ -3795,217 +3795,217 @@
     "id": "133930",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>240</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>30</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand expired) }</> Monster Specialization increased by <Mark> 240 </>, Pierce decreased by <Mark> 40 </>, Corruption increased by <Mark> 15 </>. \n Corruption effect: When reaching <Mark> 30 </> Corruption, Defense is decreased by <Mark> 30 </>. <Mark>{ 1,4, (Purified) }</>\n Current Corruption: { 2,1,*d,F1690001,Corruption }\n Does not take effect when the set <Mark> Covenant of Iron and Blood </> is active.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>240</>, Пронзание понижается на <Mark>40</>, значение загрязнения повышается на <Mark>15</>.\nЭффект загрязнения: при достижении <Mark>30</> значения загрязнения защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,3,(Срок истёк)}</>Специализация против монстров повышается на <Mark>240</>, Пронзание понижается на <Mark>40</>, значение загрязнения повышается на <Mark>15</>.\nЭффект загрязнения: при достижении <Mark>30</> значения загрязнения защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133931",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>270</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>30</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand expired) }</> Monster Specialization increased by <Mark> 270 </>, Pierce decreased by <Mark> 40 </>, Corruption increased by <Mark> 15 </>. \n Corruption effect: When reaching <Mark> 30 </> Corruption, Defense is decreased by <Mark> 30 </>. <Mark>{ 1,4, (Purified) }</>\n Current Corruption: { 2,1,*d,F1690001,Corruption }\n Does not take effect when the set <Mark> Covenant of Iron and Blood </> is active.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>270</>, Пронзание понижается на <Mark>40</>, значение загрязнения повышается на <Mark>15</>.\nЭффект загрязнения: при достижении <Mark>30</> значения загрязнения защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,3,(Срок истёк)}</>Специализация против монстров повышается на <Mark>270</>, Пронзание понижается на <Mark>40</>, значение загрязнения повышается на <Mark>15</>.\nЭффект загрязнения: при достижении <Mark>30</> значения загрязнения защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133932",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>205</>，面对罗塞尔大帝时怪物专攻额外提高<Mark>60</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand expired) }</> Monster Specialization increased by <Mark> 205 </>, Monster Specialization additionally increased by <Mark> 60 </> when facing Emperor Roselle. \n Does not take effect when the set <Mark> Covenant of Iron and Blood </> is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>205</>, при встрече с Императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Специализация против монстров повышается на <Mark>205</>, при встрече с Императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133933",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>220</>，面对罗塞尔大帝时怪物专攻额外提高<Mark>60</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand expired) }</> Monster Specialization increased by <Mark> 220 </>, Monster Specialization additionally increased by <Mark> 60 </> when facing Emperor Roselle. \n Does not take effect when the set <Mark> Covenant of Iron and Blood </> is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>220</>, при встрече с Императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Специализация против монстров повышается на <Mark>220</>, при встрече с Императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133934",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>120</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>120</>. Using skills and basic attacks will draw the Gaze of 2-049. Once the gaze stacks to three layers, it deals additional damage, triggering at most once every <Mark>4</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>120</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Прорыв защиты повышается на <Mark>120</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133935",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>100</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>100</>. While in combat, increases the entire team's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>100</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Пронзание повышается на <Mark>100</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133936",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>200</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>200</>. After standing still in combat for <Mark>5</> seconds, Monster Specialization decreases by <Mark>25</> for <Mark>5</> seconds; after dodging, Monster Specialization increases by <Mark>25</> for <Mark>15</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>200</>. Если в бою простоять на месте <Mark>5</> секунд, специализация против монстров понижается на <Mark>25</> на <Mark>5</> секунд; после уклонения специализация против монстров повышается на <Mark>25</> на <Mark>15</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Специализация против монстров повышается на <Mark>200</>. Если в бою простоять на месте <Mark>5</> секунд, специализация против монстров понижается на <Mark>25</> на <Mark>5</> секунд; после уклонения специализация против монстров повышается на <Mark>25</> на <Mark>15</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133937",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>145</>。释放技能和普攻会引来2-049的注视，注视叠加三层后造成额外伤害，每<Mark>4</>秒最多触发一次。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>145</>. Using skills and basic attacks will draw the Gaze of 2-049. Once the gaze stacks to three layers, it deals additional damage, triggering at most once every <Mark>4</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>145</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Прорыв защиты повышается на <Mark>145</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133938",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>。处于战斗状态时使全队暴击提高<Mark>30</>、防御降低<Mark>15</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>120</>. While in combat, increases the entire team's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>120</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Пронзание повышается на <Mark>120</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133939",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>230</>。战斗中站立不动<Mark>5</>秒后怪物专攻降低<Mark>25</>，持续<Mark>5</>秒，闪避后怪物专攻提高<Mark>25</>持续<Mark>15</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>230</>. After standing still in combat for <Mark>5</> seconds, Monster Specialization decreases by <Mark>25</> for <Mark>5</> seconds; after dodging, Monster Specialization increases by <Mark>25</> for <Mark>15</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>230</>. Если в бою простоять на месте <Mark>5</> секунд, специализация против монстров понижается на <Mark>25</> на <Mark>5</> секунд; после уклонения специализация против монстров повышается на <Mark>25</> на <Mark>15</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Специализация против монстров повышается на <Mark>230</>. Если в бою простоять на месте <Mark>5</> секунд, специализация против монстров понижается на <Mark>25</> на <Mark>5</> секунд; после уклонения специализация против монстров повышается на <Mark>25</> на <Mark>15</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133940",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>150</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>150</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>150</>, критический удар понижается на <Mark>20</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(Срок истёк)}</>Пронзание повышается на <Mark>150</>, критический удар понижается на <Mark>20</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133941",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>140</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>140</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>140</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Прорыв защиты повышается на <Mark>140</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133942",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>230</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>230</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. Upon entering combat, for every team member who possesses the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>230</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышается на <Mark>230</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133943",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>170</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>170</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>170</>, критический удар понижается на <Mark>20</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Пронзание повышается на <Mark>170</>, критический удар понижается на <Mark>20</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133944",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>160</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>160</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>160</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Прорыв защиты повышается на <Mark>160</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133945",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>260</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>260</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. Upon entering combat, for every team member who possesses the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>260</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышается на <Mark>260</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133946",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>45</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Skill Enhancement increased by <Mark>45</>. Guards nearby teammates, increasing the Skill Block of nearby team members by <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Усиление навыков повышается на <Mark>45</>. Защищает находящихся рядом союзников, повышая блокировку навыков ближайших членов отряда на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Усиление навыков повышается на <Mark>45</>. Защищает находящихся рядом союзников, повышая блокировку навыков ближайших членов отряда на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133947",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>110</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Crit rate increased by <Mark>110</>. After entering combat, Crit rate increases further; every <Mark>5</> seconds, Crit rate increases by <Mark>10</>, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Критический удар повышается на <Mark>110</>, после вступления в бой критический удар дополнительно увеличивается: каждые <Mark>5</> секунд критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Критический удар повышается на <Mark>110</>, после вступления в бой критический удар дополнительно увеличивается: каждые <Mark>5</> секунд критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>."
   },
   {
     "id": "133948",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>210</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>210</>. When attacked, Monster Specialization is increased by an additional <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>210</>. При получении урона дополнительно повышает специализацию против монстров на <Mark>50</>, на 8 сек.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров повышается на <Mark>210</>. При получении урона дополнительно повышает специализацию против монстров на <Mark>50</>, на 8 сек.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133949",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>50</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Skill Enhancement increased by <Mark>50</>. Guards nearby teammates, increasing the Skill Block of nearby team members by <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Усиление навыков повышается на <Mark>50</>. Защищает находящихся рядом союзников, повышая блокирование навыков у ближайших членов отряда на <Mark>10</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Усиление навыков повышается на <Mark>50</>. Защищает находящихся рядом союзников, повышая блокирование навыков у ближайших членов отряда на <Mark>10</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133950",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>120</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Crit rate increased by <Mark>120</>. After entering combat, Crit rate increases further; every <Mark>5</> seconds, Crit rate increases by <Mark>10</>, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Критический удар повышается на <Mark>120</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Критический удар повышается на <Mark>120</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133951",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>225</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>225</>. After being attacked, Monster Specialization is increased by an additional <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>225</>. После получения урона дополнительно повышает специализацию против монстров на <Mark>50</> на <Mark>8</> сек.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров повышается на <Mark>225</>. После получения урона дополнительно повышает специализацию против монстров на <Mark>50</> на <Mark>8</> сек.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133952",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>280</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Attack increased by <Mark>280</>, Skill Enhancement decreased by <Mark>10</>, Corruption increased by <Mark>15</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Crit Resistance increases by <Mark>30</> and Attack decreases by <Mark>45</>. \nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Атака повышается на <Mark>280</>, усиление навыков понижается на <Mark>10</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару повышается на <Mark>30</>, атака понижается на <Mark>45</>.\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Атака повышается на <Mark>280</>, усиление навыков понижается на <Mark>10</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару повышается на <Mark>30</>, атака понижается на <Mark>45</>.\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133953",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>170</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>250</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Crit rate increased by <Mark>170</>, Crit Resistance decreased by <Mark>15</>, Corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>250</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Crit Resistance decreases by <Mark>15</>. <Mark>{1,4, (Purified) }</>\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Критический удар повышается на <Mark>170</>, сопротивление критическому удару понижается на <Mark>15</>, показатель порчи повышается на <Mark>15</>. После использования социального действия <Mark>Приветствие</> эффект повышения критического удара заменяется повышением атаки на <Mark>250</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару понижается на <Mark>15</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Критический удар повышается на <Mark>170</>, сопротивление критическому удару понижается на <Mark>15</>, показатель порчи повышается на <Mark>15</>. После использования социального действия <Mark>Приветствие</> эффект повышения критического удара заменяется повышением атаки на <Mark>250</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару понижается на <Mark>15</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133954",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>295</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>30</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Monster Specialization increased by <Mark>295</>, Piercing decreased by <Mark>40</>, Corruption increased by <Mark>15</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Defense decreases by <Mark>30</>. <Mark>{1,4, (Purified) }</>\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>295</>, пронзание понижается на <Mark>40</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Специализация против монстров повышается на <Mark>295</>, пронзание понижается на <Mark>40</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133955",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>295</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Attack increased by <Mark>295</>, Skill Enhancement decreased by <Mark>10</>, Corruption increased by <Mark>15</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Crit Resistance increases by <Mark>30</> and Attack decreases by <Mark>45</>. <Mark>{1,4, (Purified) }</>\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Атака повышается на <Mark>295</>, усиление навыков понижается на <Mark>10</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару повышается на <Mark>30</>, атака понижается на <Mark>45</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Атака повышается на <Mark>295</>, усиление навыков понижается на <Mark>10</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару повышается на <Mark>30</>, атака понижается на <Mark>45</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133956",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>180</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>265</>。\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Crit rate increased by <Mark>180</>, Crit Resistance decreased by <Mark>15</>, Corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>265</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Crit Resistance decreases by <Mark>15</>. <Mark>{1,4, (Purified) }</>\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Критический удар повышается на <Mark>180</>, сопротивление критическому удару понижается на <Mark>15</>, показатель порчи повышается на <Mark>15</>. После использования социального действия <Mark>Приветствие</> эффект повышения критического удара заменяется повышением атаки на <Mark>265</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару понижается на <Mark>15</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Критический удар повышается на <Mark>180</>, сопротивление критическому удару понижается на <Mark>15</>, показатель порчи повышается на <Mark>15</>. После использования социального действия <Mark>Приветствие</> эффект повышения критического удара заменяется повышением атаки на <Mark>265</>.\nЭффект порчи: при достижении <Mark>30</> порчи сопротивление критическому удару понижается на <Mark>15</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133957",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>310</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>30</>。<Mark>{1,4,（已净化）}</>\n当前污染值：{2,1,*d,F1690001,Corruption}\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired) }</>Monster Specialization increased by <Mark>310</>, Piercing decreased by <Mark>40</>, Corruption increased by <Mark>15</>. \nCorruption Effect: Upon reaching <Mark>30</> Corruption, Defense decreases by <Mark>30</>. <Mark>{1,4, (Purified) }</>\nCurrent Corruption: {2,1,*d,F1690001,Corruption}\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>310</>, пронзание понижается на <Mark>40</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Специализация против монстров повышается на <Mark>310</>, пронзание понижается на <Mark>40</>, показатель порчи повышается на <Mark>15</>.\nЭффект порчи: при достижении <Mark>30</> порчи защита понижается на <Mark>30</>. <Mark>{1,4,(Очищено)}</>\nТекущий показатель порчи: {2,1,*d,F1690001,Corruption}\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133958",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>230</>，面对罗塞尔大帝时怪物专攻额外提高<Mark>60</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>230</>; when facing Emperor Roselle, Monster Specialization increases by an additional <Mark>60</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>230</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров повышается на <Mark>230</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133959",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>245</>，面对罗塞尔大帝时怪物专攻额外提高<Mark>60</>。\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>245</>; when facing Emperor Roselle, Monster Specialization increases by an additional <Mark>60</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>245</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров повышается на <Mark>245</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>."
   },
   {
     "id": "133960",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>150</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>150</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>150</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Пронзание повышается на <Mark>150</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133961",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>抗暴击提高<Mark>160</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Crit Resistance increased by <Mark>160</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Сопротивление критическому удару повышается на <Mark>160</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Сопротивление критическому удару повышается на <Mark>160</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133962",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>100</>，防御提高<Mark>90</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>100</>, Defense increased by <Mark>90</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>100</>, защита повышается на <Mark>90</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышается на <Mark>100</>, защита повышается на <Mark>90</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133963",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>150</>，穿刺提高<Mark>75</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>150</>, Piercing increased by <Mark>75</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>150</>, пронзание повышается на <Mark>75</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака повышается на <Mark>150</>, пронзание повышается на <Mark>75</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133964",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>最大生命提高<Mark>500</>，技能抵挡提高<Mark>50</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Max Health increased by <Mark>500</>, Skill Block increased by <Mark>50</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Максимальное здоровье повышается на <Mark>500</>, блокирование навыков повышается на <Mark>50</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Максимальное здоровье повышается на <Mark>500</>, блокирование навыков повышается на <Mark>50</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133965",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>25</>，技能抵挡提高<Mark>25</>。\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired) }</>Skill Enhancement increased by <Mark>25</>, Skill Block increased by <Mark>25</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Клеймо истекло)}</>Усиление навыков повышается на <Mark>25</>, блокирование навыков повышается на <Mark>25</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Усиление навыков повышается на <Mark>25</>, блокирование навыков повышается на <Mark>25</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>."
   },
   {
     "id": "133966",
@@ -5439,7 +5439,7 @@
     "id": "134204",
     "source_cn": "【专属长椅】玩法介绍",
     "ref_en": "[Exclusive Bench] Gameplay Introduction",
-    "target_ru": "[Эксклюзивная скамья] Введение в игровой процесс"
+    "target_ru": "[Эксклюзивная скамья] Описание игрового процесса"
   },
   {
     "id": "134205",

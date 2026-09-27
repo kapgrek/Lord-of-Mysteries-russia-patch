@@ -75,7 +75,7 @@ return {
     ["Reading Material III"] = "Чтение материала III",
     ["Of course I had to accompany her. Although I am just a 'delicate and sensitive' writer, let her go to her death alone?"] = "Конечно, мне пришлось ее сопровождать. Хоть я и всего лишь «нежный и чувствительный» писатель, но позволить ей идти на смерть одну?",
     ["In the Chapter 1 reality main quest, receive 20,000 soli of pocket money from Audrey"] = "Выполняя основной квест реальности главы 1, получите 20 000 суле карманных денег от Одри.",
-    ["<CostRed>{1, 2, (Imprint has expired)}</>Skill Enhancement increased by <Mark>35</>. Guard nearby teammates, increasing the Skill Block of nearby squad members by <Mark>10</>.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<CostRed>{1, 2, (Imprint has expired)}</>Skill Enhancement increased by <Mark>35</>. Guard nearby teammates, increasing the Skill Block of nearby squad members by <Mark>10</>.\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active."] = "<CostRed>{1,2,(срок истёк)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["City of Cities"] = "Город городов",
     ["Come and show off your dancing skills!"] = "Приходите и покажите свои танцевальные способности!",
     ["My Caravan"] = "Мой Караван",

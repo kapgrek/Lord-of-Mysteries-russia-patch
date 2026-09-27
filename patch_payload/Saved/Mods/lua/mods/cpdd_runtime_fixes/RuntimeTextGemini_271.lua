@@ -243,7 +243,7 @@ return {
     ["What on earth is this?"] = "Это что вообще такое?",
     ["夜色摇篮"] = "Колыбель ночи",
     ["模型体型提升110%"] = "Размер модели увеличен на 110%",
-    ["<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>145</>. Using skills and basic attacks will draw the Gaze of 2-049. Once the gaze stacks to three layers, it deals additional damage, triggering at most once every <Mark>4</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>145</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
+    ["<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>145</>. Using skills and basic attacks will draw the Gaze of 2-049. Once the gaze stacks to three layers, it deals additional damage, triggering at most once every <Mark>4</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Срок истёк)}</>Прорыв защиты повышается на <Mark>145</>. Использование навыков и обычных атак привлекает Взгляд 2-049. После накопления трёх слоёв взгляда наносится дополнительный урон, срабатывает не чаще одного раза в <Mark>4</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["What is Fashion Level used for?"] = "Для чего нужен уровень стиля?",
     ["Report Decoration Plaza"] = "Жалоба на площадь нарядов",
     ["进入<h>天鹅剧场</>"] = "Войти в <h>театр «Лебедь»</>",

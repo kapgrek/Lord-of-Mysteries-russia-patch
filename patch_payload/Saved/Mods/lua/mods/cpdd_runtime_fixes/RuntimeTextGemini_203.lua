@@ -27,7 +27,7 @@ return {
     ["Players need to <Highlight>actively move into the path</> when a teammate is being charged to share the damage."] = "Игрокам необходимо <Highlight> активно двигаться по пути </>, когда товарищ по команде атакует, чтобы разделить урон.",
     ["[Enhanced] After dealing damage with an attack or skill, reduce the target's Defense by <HighLight>45%</> for <HighLight>3</> seconds."] = "[Улучшенное] После нанесения урона атакой или умением снижает защиту цели на <HighLight>45%</> на <HighLight>3</> секунд.",
     ["Quest custom event: Player creates public object based on InstanceID list (does not take effect in open world), listen for countdown in current player step, execute subsequent quest steps after failure with delay."] = "Пользовательское событие квеста: игрок создает общедоступный объект на основе списка InstanceID (не действует в открытом мире), прослушивает обратный отсчет на текущем этапе игрока, выполняет последующие шаги квеста после неудачи с задержкой.",
-    ["Currently in another activity matching queue; cannot start matching."] = "В настоящее время находится в другой очереди сопоставления действий; не могу начать сопоставление.",
+    ["Currently in another activity matching queue; cannot start matching."] = "Сейчас вы находитесь в очереди подбора для другого мероприятия, начать подбор нельзя.",
     ["There are no difficult problems left here, hurry up and meet your..."] = "Сложных задач здесь не осталось, поспешите встретить своего...",
     ["Grand Piano"] = "Рояль",
     ["itemSubmitID = submission configuration ID, itemID1 = item ID, count1 = item quantity."] = "itemSubmitID = идентификатор конфигурации отправки, itemID1 = идентификатор товара, count1 = количество товара.",

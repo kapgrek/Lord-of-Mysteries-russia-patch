@@ -206,7 +206,7 @@ return {
     ["Legendary equipment dropped?"] = "Легендарное снаряжение выпало?",
     ["Empty Sentence"] = "Пустое предложение",
     ["Name Violation"] = "Нарушение имени",
-    ["Upgrade · Food Shop"] = "Улучшение · Продуктовый магазин",
+    ["Upgrade · Food Shop"] = "Улучшение · Лавка Снеди",
     ["Art School (Deprecated)"] = "Художественная школа (устарело)",
     ["Fool's Gambit Hint 6 (Placeholder)"] = "Подсказка к дурацкому гамбиту 6 (заполнитель)",
     ["Aftershock Slow effect increased to 50%."] = "Эффект замедления от афтершока увеличен до 50%.",

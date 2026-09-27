@@ -170,7 +170,7 @@ return {
     ["The hidden name cannot be empty."] = "Скрытое имя не может быть пустым.",
     ["Requiem Poetry Society Invisible Monster"] = "Общество поэзии-реквиема Невидимый монстр",
     ["Spirit vision? Can see hidden things? Let me try..."] = "Духовное видение? Можете ли вы видеть скрытые вещи? Дай мне попробовать...",
-    ["Quick matching is not allowed in your current map."] = "Быстрое сопоставление не разрешено на вашей текущей карте.",
+    ["Quick matching is not allowed in your current map."] = "Быстрый подбор игроков не разрешён на вашей текущей карте.",
     ["Acting Point - Mystery Pryer - Hidden State - 53"] = "Действующий момент - Тайный Прайер - Скрытое состояние - 53",
     ["Slit Skirt"] = "Юбка с разрезом",
     ["[Emoji 81]"] = "[Эмодзи 81]",

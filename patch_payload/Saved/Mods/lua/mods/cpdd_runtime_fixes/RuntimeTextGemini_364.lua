@@ -35,7 +35,7 @@ return {
     ["Pathway tutor?"] = "Репетитор по пути?",
     ["I see. Are you planning to save money by selling newspapers on your own?"] = "Я понимаю. Планируете ли вы сэкономить, продавая газеты самостоятельно?",
     ["Duo: Hug"] = "Дуэт: Обнимаю",
-    ["Gift: Winery failed, this station is not [Winery]"] = "Подарок: Винодельня не удалась, этой станции нет [Винодельня]",
+    ["Gift: Winery failed, this station is not [Winery]"] = "Подарок · Винодельня не сработала, эта станция не [Винодельня]",
     ["{{PlayerName}} {{Sir|Madam}} right, I have recorded it for you here, please sit on the chair opposite and wait."] = "{{PlayerName}} {{Sir|Madam}} верно, я записал это для вас здесь, пожалуйста, сядьте на стул напротив и подождите.",
     ["Roof (Four Points)"] = "Крыша (Четыре точки)",
     ["The waiter has finished serving the dishes"] = "Официант закончил подачу блюд",

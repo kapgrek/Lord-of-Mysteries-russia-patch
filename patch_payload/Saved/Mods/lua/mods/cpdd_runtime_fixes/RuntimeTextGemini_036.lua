@@ -239,7 +239,7 @@ return {
     ["Queue Source Random Point 1"] = "Источник очереди. Случайная точка 1.",
     ["Normal Monster Specialization"] = "Обычная специализация монстров",
     ["Go to Golden Autumn Lake. There, a truth is buried."] = "Отправляйтесь к озеру Золотой Осени. Там истина похоронена.",
-    ["Upgrade · Trading Firm effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]"] = "Улучшение · Торговая фирма вступила в силу, [Синие предметы] повышены до [Охлажденные ломтики снежной скорлупы]",
+    ["Upgrade · Trading Firm effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]"] = "Улучшение · Торговый дом срабатывает, [Синие предметы] повышены до [Охлажденные ломтики снежной скорлупы]",
     ["This time is not an available time for scheduling a battle."] = "Это время недоступно для планирования боя.",
     ["It's much better than you racking your brains and not being able to come up with a new poem! I'm talking seriously!"] = "Это гораздо лучше, чем ломать голову и не придумать нового стихотворения! Я говорю серьёзно!",
     ["The end point of the divination points inside the door."] = "Конечная точка гадания находится внутри двери.",

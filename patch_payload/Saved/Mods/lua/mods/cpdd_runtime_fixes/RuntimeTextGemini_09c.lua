@@ -213,7 +213,7 @@ return {
     ["He just looks decent. Andy from the clothing store has complained to me many times, saying he goes to the store every day to return items for various reasons."] = "Он просто выглядит прилично. Энди из магазина одежды много раз жаловался мне, говоря, что каждый день ходит в магазин, чтобы вернуть вещи по разным причинам.",
     ["Hideout 6"] = "Убежище 6",
     ["<P_Heart>(But... it's better for ordinary people not to get involved in these Beyonder incidents.)</>"] = "<P_Heart>(Но... обычным людям лучше не вмешиваться в эти инциденты с Потусторонним.) </>",
-    ["Tournament Mode Introduction"] = "Введение в режим турнира",
+    ["Tournament Mode Introduction"] = "Описание режима турнира",
     ["Normal replicators can only replicate 1-3 cost pieces!"] = "Обычные репликаторы могут реплицировать только 1-3 стоимостных единицы!",
     ["Of course I have"] = "Конечно, у меня есть",
     ["Warrior Potion"] = "Зелье воина",

@@ -265,7 +265,7 @@ return {
     ["Ask the people over there"] = "Спроси у людей там",
     ["Sit on rocking chair"] = "Сидеть на кресле-качалке",
     ["使用后获得<Highlight>红与黑连衣裙</>"] = "Используйте, чтобы получить <Highlight>платье «Красное и чёрное»</>",
-    ["<CostRed>{1,2,（烙印已失效）}</>After being controlled, gain <Mark>30</> Control Dodge and <Mark>50</> Control Resistance for <Mark>3</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Клеймо утратило силу)}</>После получения контроля дает <Mark>30</> очков уклонения от контроля и <Mark>50</> очков сопротивления контролю на <Mark>3</> сек., срабатывает не чаще одного раза в <Mark>10</> сек.\nНе действует при активации комплекта <Mark>«Отголоски духа и разума»</>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>After being controlled, gain <Mark>30</> Control Dodge and <Mark>50</> Control Resistance for <Mark>3</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок истёк)}</>После получения контроля дает <Mark>30</> очков уклонения от контроля и <Mark>50</> очков сопротивления контролю на <Mark>3</> сек., срабатывает не чаще одного раза в <Mark>10</> сек.\nНе действует при активации комплекта <Mark>«Отголоски духа и разума»</>.",
     ["双牌贯穿前方，同时强化攻击与攻速。"] = "Две карты пронзают врагов впереди и одновременно усиливают атаку и скорость атаки.",
     ["墨仪疏影"] = "Чернильная тень",
     ["Find the <h> troupe leader </>"] = "Найти <h>руководителя труппы</>",

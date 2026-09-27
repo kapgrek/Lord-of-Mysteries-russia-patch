@@ -54,7 +54,7 @@ return {
     ["Beauty poster"] = "Плакат красоты",
     ["Hero-Turtle-Parry-Screen Shatter"] = "Герой-Черепаха-Парирование-Разрушение экрана",
     ["Hydrosol"] = "гидрозоль",
-    ["Directly start the matching phase of the Seven-Day Covenant."] = "Непосредственно начните соответствующую фазу Семидневного Завета.",
+    ["Directly start the matching phase of the Seven-Day Covenant."] = "Непосредственно начните фазу подбора Семидневного Завета.",
     ["Apprentice Pathway | Sequence 3 \"Wanderer\""] = "Путь ученика | Эпизод 3 «Странник»",
     ["Quest tracking"] = "Отслеживание квестов",
     ["Whirlwind Slash Timer Buff"] = "Бафф таймера «Вихревой удар»",

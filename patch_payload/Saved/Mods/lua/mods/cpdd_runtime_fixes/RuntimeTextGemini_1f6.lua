@@ -44,7 +44,7 @@ return {
     ["Chat Channel Add"] = "Добавить канал чата",
     ["Beatrice "] = "Беатрис",
     ["Magic Circle Bombardment"] = "Бомбардировка магическим кругом",
-    ["<Highlight>{1,2,(Brand Expired)}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров повышена на <Mark>150</>. При получении урона специализация против монстров дополнительно повышается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
+    ["<Highlight>{1,2,(Brand Expired)}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров повышена на <Mark>150</>. При получении урона специализация против монстров дополнительно повышается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["Someone is ahead, hide first"] = "Кто-то впереди, спрячься первым",
     ["<Gift>%s</>: Sent <Gift>%s</> a <Gift> Flower Rain Gift + </><Gift>%s points </>!"] = "<Gift>%s</>: отправлен <Gift>%s</> подарок «Цветочный дождь» <Gift> + </><Gift>%s очков </>!",
     ["Damage to Guardians"] = "Урон стражам",

@@ -75,7 +75,7 @@ return {
     ["夏洛特·"] = "Шарлотта ",
     ["好吧......既然你们自寻死路"] = "Что ж... раз вы сами ищете смерти",
     ["好香的茶……"] = "Какой ароматный чай...",
-    ["如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>40</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【双莓果酱】</>"] = "Если следующая остановка — <LightHighlight>【Торговая фирма】</>, получите <LightHighlight>40</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【Двуягодного джема】</>",
+    ["如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>40</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【双莓果酱】</>"] = "Если следующая остановка — <LightHighlight>【Торговый дом】</>, получите <LightHighlight>40</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30304\">【Двуягодного джема】</>",
     ["学员5"] = "Ученик 5",
     ["定位特效4"] = "Эффект позиционирования 4",
     ["家族副本"] = "Подземелье семьи",

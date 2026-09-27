@@ -176,7 +176,7 @@ return {
     ["A Bouquet of Flowers"] = "Букет цветов",
     ["Th, then you..."] = "Э, тогда ты...",
     ["Use Eyes of Mystery Prying"] = "Используйте тайные глаза",
-    ["Regular: Shop activated, received 50% of own [Gilded Vanity Mirror]"] = "Обычное: магазин активирован, получено 50% собственного [Позолоченного косметического зеркала]",
+    ["Regular: Shop activated, received 50% of own [Gilded Vanity Mirror]"] = "Постоянный клиент · Лавка Снеди срабатывает, получено 50% собственного [Позолоченного косметического зеркала]",
     ["Deduction-free victory points"] = "Победные очки без вычетов",
     ["Itai"] = "Итай",
     ["Player after turning around 2"] = "Игрок после поворота 2",

@@ -251,7 +251,7 @@ return {
     ["Then come back tomorrow."] = "Тогда приходи завтра.",
     ["Definitely didn't see him, otherwise you would have brought Godot back with you."] = "Точно не видел его, иначе ты бы притащила Годо с собой.",
     ["Bloodstain effect"] = "Эффект пятна крови",
-    ["Enable PVP matchmaking"] = "Включить PVP-матчмейкинг",
+    ["Enable PVP matchmaking"] = "Включить PVP-подбор игроков",
     ["Can imagine the fragrance"] = "Могу представить аромат",
     ["Squeak, squeak! <P_Heart>(The squirrel's eyes light up, and it raises its front paws to draw a crooked circle in the air.)</>"] = "Писк, скрип! <P_Heart>(Глаза белки загораются, и она поднимает передние лапы, чтобы нарисовать в воздухе изогнутый круг.)</>",
     ["Crimson Will - PVE BOSS"] = "Багровая Воля — PVE БОСС",

@@ -237,7 +237,7 @@ return {
     ["Ran into a little trouble, my brother's lunch disappeared again."] = "Попал в небольшую неприятность, обед моего брата снова пропал.",
     ["I photographed...! "] = "Я сфотографировал...!",
     ["Pacify the restless spirit."] = "Усмирите беспокойный дух.",
-    ["If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>."] = "Если следующая остановка <LightHighlight> не является [Продовольственным магазином] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>.",
+    ["If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>."] = "Если следующая остановка <LightHighlight> не является [Лавкой Снеди] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>.",
     ["Difficult? Of course it's difficult, but that makes us stronger. We have our own rules, our own territory, and even our own \"business\"."] = "Трудный? Конечно, это сложно, но это делает нас сильнее. У нас свои правила, своя территория и даже свой «бизнес».",
     ["Hair fluttering, as if a recitative is being performed to its most emotional point, with all lights focused upon it."] = "Волосы развеваются, как будто речитатив исполняется до самой эмоциональной точки, и на него направлен весь свет.",
     ["Brawler 2"] = "скандалист 2",

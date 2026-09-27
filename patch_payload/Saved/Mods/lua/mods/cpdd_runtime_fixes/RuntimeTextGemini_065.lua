@@ -189,7 +189,7 @@ return {
     ["What a disaster..."] = "Какая катастрофа...",
     ["Lotus Beer, please bring your own glass!"] = "Lotus Beer, пожалуйста, принесите свой бокал!",
     ["Participate in the dungeon <Highlight>Tree of Abundance (Normal)</>. After completing the <Highlight>Misfortune Water Giant Turtle</> phase, there is a chance to obtain the following appearances."] = "Примите участие в подземелье <Highlight>TДрево изобилия (Обычное)</>. После завершения фазы <Highlight>Misfortune Water Giant Turtle</> есть шанс получить следующие облики.",
-    ["Quick matching is prohibited for 10 seconds because you refused to enter this game mode."] = "Быстрое сопоставление запрещено на 10 секунд, поскольку вы отказались войти в этот игровой режим.",
+    ["Quick matching is prohibited for 10 seconds because you refused to enter this game mode."] = "Быстрый подбор запрещен на 10 секунд, поскольку вы отказались войти в этот игровой режим.",
     ["Gravity Field Phase 2 Drag Stun"] = "Гравитационное поле, Фаза 2. Оглушение с помощью перетаскивания",
     ["Come, come and taste your brother's cooking."] = "Приходите, приходите и попробуйте стряпню вашего брата.",
     ["Level insufficient; this function is not unlocked."] = "Уровень недостаточный; эта функция не разблокирована.",

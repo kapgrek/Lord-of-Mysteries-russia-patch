@@ -17,7 +17,7 @@ return {
     ["Draw Badge IK"] = "Достать значок (IK)",
     ["The current achievement point reward has already been claimed and cannot be claimed again!"] = "Награда за очки этого достижения уже получена, ее нельзя забрать повторно!",
     ["To Beyonder \n We are all prisoners of the era, \n but there are always those who try to dance in the cage. \n Squid Who Loves to Dive"] = "Потустороннему:\n    Все мы — узники своей эпохи,\n    но всегда найдутся те, кто пробует танцевать даже в клетке.\n                 Любящий Нырять Кальмар",
-    ["Contract · Food Shop"] = "Договор · Закусочная",
+    ["Contract · Food Shop"] = "Договор · Лавка Снеди",
     ["Every 20 seconds, your feet will briefly manifest the scorching characteristics of the \"Blazing Sun\" pathway, leaving short-term circular Blazing Sun zones on the ground for 10 seconds."] = "Каждые 20 сек. ваши ноги кратковременно проявляют палящие свойства Пути «Солнца», оставляя на земле кратковременные круглые зоны пылающего солнца на 10 сек.",
     ["Coral Dye"] = "Коралловый краситель",
     ["How do I join the club?"] = "Как мне вступить в клуб?",

@@ -216,7 +216,7 @@ return {
     ["Restores <HighLight>5</> Mana after a basic attack."] = "Восстанавливает ману <HighLight>5</> после базовой атаки.",
     ["Bind Gold Pound exchange"] = "Привязка обмена золотого фунта",
     ["Hey, {{ Mr.| Ms.}}, don't say that! You must know that wisdom is also one of the ways to earn money. Of course, of course! It isn't necessarily moral."] = "Эй, {{ Mr.| Ms.}}, не говори так! Вы должны знать, что мудрость – это также один из способов заработка. Конечно, конечно! Это не обязательно морально.",
-    ["Betting · Winery effective, obtain 150% of own [White Maple Pen Holder]"] = "Ставки · Винодельня эффективна, получите 150% собственного [Подставка для ручек из белого клена]",
+    ["Betting · Winery effective, obtain 150% of own [White Maple Pen Holder]"] = "Ставки · Винодельня срабатывает, получите 150% собственного [Подставка для ручек из белого клена]",
     ["Family group chat does not support removal operations."] = "Семейный групповой чат не поддерживает операции удаления.",
     ["5230222 Tingen Plane"] = "5230222 Измерение: Тинген",
     ["724 Milestone Test Server"] = "Тестовый сервер 724 Milestone",

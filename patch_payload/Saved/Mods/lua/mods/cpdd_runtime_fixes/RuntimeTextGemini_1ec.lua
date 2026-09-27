@@ -212,7 +212,7 @@ return {
     ["Central Camera"] = "Центральная камера",
     ["Server preprocessing"] = "Предварительная обработка сервера",
     ["Obtain equipment with 4 Beyonder traits"] = "Получите снаряжение с 4 чертами Потусторонний.",
-    ["Stocking: Non-Shop activated, received 20 [Chilled Snow Scallop Slices]"] = "Запас: активирован без магазина, получено 20 [ломтиков охлажденного снежного гребешка]",
+    ["Stocking: Non-Shop activated, received 20 [Chilled Snow Scallop Slices]"] = "Запас · не Лавка Снеди срабатывает, получено 20 [ломтиков охлажденного снежного гребешка]",
     ["The new personal maid is clumsy; I really miss my Mariana! It's a pity she moved on to better things."] = "Новая личная горничная неуклюжа; Я очень скучаю по своей Мариане! Жаль, что она перешла к лучшему.",
     ["Dragon Hunter Gang Event - Humanoid Monster"] = "Событие «Банда охотников на драконов» — Гуманоидный монстр",
     ["Confirm discarding %s?"] = "Подтвердить удаление %s?",

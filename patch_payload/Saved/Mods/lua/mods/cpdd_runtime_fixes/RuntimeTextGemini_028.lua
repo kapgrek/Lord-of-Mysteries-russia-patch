@@ -207,7 +207,7 @@ return {
     ["Whether it is an ally (excluding self)"] = "Является ли это союзником (исключая себя)",
     ["{{Sir|Madam}}, who do you think is the most fashionable among us?"] = "{{Sir|Madam}}, как ты думаешь, кто из нас самый модный?",
     ["Investigation End Positioning - Daly"] = "Позиционирование завершения расследования - Дейли",
-    ["Prediction: Non-Trading House failed, next stop is [Trading House]"] = "Прогноз: Неторговый дом провалился, следующая остановка - [Торговый дом]",
+    ["Prediction: Non-Trading House failed, next stop is [Trading House]"] = "Прогноз: не Торговый дом не срабатывает, следующая остановка — [Торговый дом]",
     ["Purification is complete... the space is repelling me, is it not over yet?"] = "Очищение полное... пространство меня отталкивает, разве это еще не закончилось?",
     ["Fry's Wraith"] = "Призрак Фрая",
     ["That good? Get me one too."] = "Это хорошо? Принеси мне тоже.",

@@ -32,7 +32,7 @@ return {
     ["<Highlight>%s</> key settings are empty. Please confirm if you need to reset them!"] = "Настройки ключа <Highlight>%s</> пусты. Пожалуйста, подтвердите, если вам нужно их сбросить!",
     ["<P_Heart> (This mother fell into a long silence, seemingly pondering how to say something that the whole world could understand and agree with.) </>"] = "<P_Heart> (Эта мать долго молчала, по-видимому, обдумывая, как сказать что-то, что весь мир мог бы понять и с чем согласился бы.) </>",
     ["Special Cut - Poison Ivy"] = "Специальная версия — Ядовитый плющ",
-    ["Skill System Introduction"] = "Введение в систему навыков",
+    ["Skill System Introduction"] = "Описание системы навыков",
     ["Just an experiment, playing around with them. The first eleven were all quite boring."] = "Просто эксперимент, поигрался с ними. Первые одиннадцать были довольно скучными.",
     ["Use to obtain <Highlight>Brand New Look Bottoms</>"] = "Используйте, чтобы получить <Highlight>Новинки совершенно нового вида</>",
     ["The place where the sun sets in the west... is it really a valley?"] = "Место, где солнце садится на западе... действительно ли это долина?",

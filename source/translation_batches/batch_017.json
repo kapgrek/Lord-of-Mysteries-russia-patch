@@ -339,7 +339,7 @@
     "id": "080056",
     "source_cn": "熟客·食铺生效，获得自身50%的【窖藏拉菲干红】",
     "ref_en": "Regular: Shop activated, received 50% of own [Cellar-Aged Lafite Red Wine]",
-    "target_ru": "Обычный: магазин активирован, получено 50% собственного [лафитового красного вина, выдержанного в погребе]"
+    "target_ru": "Постоянный клиент · Лавка Снеди срабатывает, получено 50% собственного [Выдержанного красного «Лафит»]"
   },
   {
     "id": "080057",
@@ -2247,7 +2247,7 @@
     "id": "080374",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【珍品迷雾香槟】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\"> [Premium Mist Champagne] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\"> [Шампанское Premium Mist] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\"> [Элитное туманное шампанское] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "080375",
@@ -2745,7 +2745,7 @@
     "id": "080457",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>350</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2,（Imprint expired）}</>Pathway Specialization increased by <Mark>350</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличена на <Mark>350</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация Пути увеличена на <Mark>350</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "080458",
@@ -3591,7 +3591,7 @@
     "id": "080598",
     "source_cn": "出场介绍:丽贝卡",
     "ref_en": "Introduction: Rebecca",
-    "target_ru": "Введение: Ребекка"
+    "target_ru": "Описание: Ребекка"
   },
   {
     "id": "080599",
@@ -5925,13 +5925,13 @@
     "id": "080987",
     "source_cn": "<Assistant_Title1>【霍纳奇斯花海】</>\\n<Assistant_Title2>地图简介：</>盛放的花木沿湖岸绵延，与群山相映成趣。这里是热恋中的人们最钟爱的胜地。当你从高空俯视这片草原时，可以看到爱心形状的公路。\\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①原著旧梦：</>\\n{JumpToUI:足迹追寻|1301927}\\n<Assistant_Title3>②世界玩法：</>\\n{JumpToUI:时虫宝藏|1301933}  {JumpToUI:灵体之线|1301930}  {JumpToUI:吟游诗人|1301928}  {JumpToUI:风暴追逐|1301934}  {JumpToUI:风尚沙龙|1301937}  {JumpToUI:诡变宝箱|1301931}  {JumpToUI:异象之物|1301931}  {JumpToUI:非凡扮演|1301977}\\n<Assistant_Title2>【时代任务】：</>\\n{JumpToUI:时代百态|1302439}  {JumpToUI:时代逸闻|1302440}  {JumpToUI:扮演故事|1302441}",
     "ref_en": "<Assistant_Title1> [Hornacis Sea of Flowers] </>\\n<Assistant_Title2> Map Introduction: </> Blooming flowers and trees stretch along the lake shore, complementing the mountains. This is the most beloved destination for people in love. When you look down at this grassland from a high altitude, you can see a heart-shaped road. \\n<Assistant_Title2> [Order World]: </>\\n<Assistant_Title3> ① Old Dreams of the Original Work: </>\\n{JumpToUI: Footprint Tracking | 1301927 } \\n <Assistant_Title3> ② World Gameplay: </>\\n{JumpToUI: Worm of Time Treasure | 1301933 } {JumpToUI: spirit body threads | 1301930 } {JumpToUI: Bard | 1301928 } {JumpToUI: Storm Chasing | 1301934 } {JumpToUI: Fashion Salon | 1301937 } {JumpToUI: Mysterious Treasure Chest | 1301931 } {JumpToUI: Object of Phenomenon | 1301931 } {JumpToUI: Extraordinary Roleplay | 1301977 } \\n <Assistant_Title2> [Era Quests]: </> \\n {JumpToUI: Life in the Era | 1302439 } {JumpToUI: Anecdotes of the Era | 1302440 } {JumpToUI: Acting Story | 1302441 }",
-    "target_ru": "<Assistant_Title1>【Цветочное море Хонакис】</>\n<Assistant_Title2> Введение в карту: </>Цветущие цветы и деревья тянутся вдоль берега озера, контрастируя с горами. Это излюбленное место влюбленных людей. Если посмотреть на этот луг с большой высоты, можно увидеть дорогу в форме сердца. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3>①Original Old Dream: </>\n{JumpToUI: Footprint Pursuit|1301927}\n<Assistant_Title3>②Мировой игровой процесс: </>\n{JumpToUI: Time Bug Сокровище|1301933} {JumpToUI:Spiritual Thread|1301930} {JumpToUI:Бард|1301928} {JumpToUI:Storm Chase|1301934} {JumpToUI:Салон моды|1301937} {JumpToUI:Изменить сундук с сокровищами|1301931} {JumpToUI: Visionary Object|1301931} {JumpToUI:Extraordinary Acting|1301977}\n<Assistant_Title2>【Era Tasks】:</>\n{JumpToUI:Editions|1302439} {JumpToUI:Анекдоты той эпохи|1302440} {JumpToUI:Acting Истории|1302441}"
+    "target_ru": "<Assistant_Title1>【Цветочное море Хонакис】</>\n<Assistant_Title2> Описание карты: </>Пышно цветущие деревья тянутся вдоль берега озера, гармонично сочетаясь с горами. Это самое любимое место для влюблённых пар. Если посмотреть на этот луг с высоты птичьего полёта, можно увидеть дорогу в форме сердца. \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3>① Сны первоисточника: </>\n{JumpToUI: Погоня по следам|1301927}\n<Assistant_Title3>② Мировой геймплей: </>\n{JumpToUI: Сокровище Временного Червя|1301933} {JumpToUI:Нить духовного тела|1301930} {JumpToUI:Бард|1301928} {JumpToUI:Погоня за бурей|1301934} {JumpToUI:Салон моды|1301937} {JumpToUI:Причудливый сундук|1301931} {JumpToUI: Объект феномена|1301931} {JumpToUI:Необычайный отыгрыш|1301977}\n<Assistant_Title2>【Задания эпохи】:</>\n{JumpToUI:Жизнь эпохи|1302439} {JumpToUI:Анекдоты эпохи|1302440} {JumpToUI:Истории отыгрыша|1302441}"
   },
   {
     "id": "080988",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>35</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Imprint has expired)}</>Skill Enhancement increased by <Mark>35</>. Guard nearby teammates, increasing the Skill Block of nearby squad members by <Mark>10</>.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "080989",
@@ -10413,7 +10413,7 @@
     "id": "081735",
     "source_cn": "队伍成员段位差距过大，无法匹配。",
     "ref_en": "The rank gap between team members is too large; cannot match.",
-    "target_ru": "Разрыв в рангах между членами команды слишком велик; не может соответствовать."
+    "target_ru": "Разрыв в рангах между членами команды слишком велик, подбор игроков невозможен."
   },
   {
     "id": "081736",
@@ -10437,7 +10437,7 @@
     "id": "081739",
     "source_cn": "预判·非食铺失效，下一站是【食铺】",
     "ref_en": "Prediction: Non-Shop failed, next stop is [Shop]",
-    "target_ru": "Прогноз: Не-магазин не удался, следующая остановка — [Магазин]"
+    "target_ru": "Прогноз: Не-Лавка Снеди не срабатывает, следующая остановка — [Лавка Снеди]"
   },
   {
     "id": "081740",
@@ -11769,7 +11769,7 @@
     "id": "081961",
     "source_cn": "押宝·食铺生效，获得自身100%的【精品油画小作】",
     "ref_en": "Bet: Shop activated, received 100% of own [Fine Oil Painting Miniatures]",
-    "target_ru": "Ставка: Магазин активирован, получено 100% собственных [Миниатюр масляной живописи]"
+    "target_ru": "Ставка: Лавка Снеди срабатывает, получено 100% собственных [Миниатюр масляной живописи]"
   },
   {
     "id": "081962",
@@ -14889,7 +14889,7 @@
     "id": "082481",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得自身<LightHighlight>50%</>的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\">【起泡甜酒】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain an amount of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Sparkling Sweet Wine] </> equal to <LightHighlight> 50% </> of what you currently possess.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>, равное <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30103\"> [Игристое сладкое вино] </>, равное <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
   },
   {
     "id": "082482",
@@ -15783,7 +15783,7 @@
     "id": "082630",
     "source_cn": "熟客·酒庄失效，本站不是【酒庄】",
     "ref_en": "Regular: Winery failed, this station is not [Winery]",
-    "target_ru": "Обычный: Винодельня вышла из строя, эта станция не [Винодельня]"
+    "target_ru": "Постоянный клиент: Винодельня не срабатывает, эта станция не [Винодельня]"
   },
   {
     "id": "082631",
@@ -16083,13 +16083,13 @@
     "id": "082680",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>40</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2,（Imprint expired）}</>Skill Enhancement increased by <Mark>40</>. Guards nearby teammates, increasing Skill Block for nearby squad members by <Mark>10</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>40</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Улучшение навыка увеличивается <Mark>40</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "082681",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>275</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,2,（Brand has expired）}</> Attack increased by <Mark> 275 </>. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака усилилась <Mark>275</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака усилилась <Mark>275</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "082682",
@@ -16269,7 +16269,7 @@
     "id": "082711",
     "source_cn": "升级·商行",
     "ref_en": "Upgrade · Trading Firm",
-    "target_ru": "Обновление · Торговая фирма"
+    "target_ru": "Обновление · Торговый дом"
   },
   {
     "id": "082712",
@@ -18387,7 +18387,7 @@
     "id": "083064",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>250</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。 \\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</> Pathway Specialization increased by <Mark> 250 </>. After more than <Mark> 2 </> seconds since last taking damage, Armor Break increased by <Mark> 70 </>, lasting <Mark> 5 </> seconds. \\n Does not take effect when activating the set <Mark> Echo of Spirit and Knowledge </>.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация Пути увеличена на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация Пути увеличена на <Mark>250</>. Если оно превысит <Mark>2</> секунд с момента последнего повреждения, прорыв защиты увеличится на <Mark>70</> и продлится <Mark>5</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "083065",
@@ -19185,7 +19185,7 @@
     "id": "083197",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>100</>，途径专防提高<Mark>100</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Pathway Specialization increased by <Mark>100</>, Pathway Special Defense increased by <Mark>100</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</> Специализация Пути увеличена на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</> Специализация Пути увеличена на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
   },
   {
     "id": "083198",
@@ -20811,7 +20811,7 @@
     "id": "083468",
     "source_cn": "可买入站点：<LightHighlight>食铺</>\\n可卖出站点：<LightHighlight>酒庄</>\\n物品类型：<LightHighlight>食品</>",
     "ref_en": "Buyable Stations: <LightHighlight> Food Shop </> \\n Sellable Stations: <LightHighlight> Winery </> \\n Item Type: <LightHighlight> Food </>",
-    "target_ru": "Станции закупки: <LightHighlight>Продуктовая лавка</>\nСтанции продажи: <LightHighlight>Винодельня</>\nТип товара: <LightHighlight>Продукты</>"
+    "target_ru": "Станции закупки: <LightHighlight>Лавка Снеди</>\nСтанции продажи: <LightHighlight>Винодельня</>\nТип товара: <LightHighlight>Продукты</>"
   },
   {
     "id": "083469",
@@ -22677,7 +22677,7 @@
     "id": "083779",
     "source_cn": "畅销·酒庄生效，本站购买价格-75%",
     "ref_en": "Best-Seller · Winery effective, purchase price at this station -75%",
-    "target_ru": "Бестселлер · Действует винодельня, цена покупки на этой станции -75%"
+    "target_ru": "Бестселлер · Винодельня срабатывает, цена покупки на этой станции -75%"
   },
   {
     "id": "083780",
@@ -23235,7 +23235,7 @@
     "id": "083872",
     "source_cn": "序列介绍",
     "ref_en": "Sequence Introduction",
-    "target_ru": "Введение в последовательность"
+    "target_ru": "Описание последовательности"
   },
   {
     "id": "083873",
@@ -23493,7 +23493,7 @@
     "id": "083915",
     "source_cn": "畅销·食铺生效，本站出售价格+125%",
     "ref_en": "Best-Seller · Food Shop effective, selling price at this station +125%",
-    "target_ru": "Бестселлер · Продуктовый магазин действует, цена продажи на этой станции +125%"
+    "target_ru": "Бестселлер · Лавка Снеди срабатывает, цена продажи на этой станции +125%"
   },
   {
     "id": "083916",
@@ -26631,7 +26631,7 @@
     "id": "084438",
     "source_cn": "金印·食铺",
     "ref_en": "Gold Seal · Food Shop",
-    "target_ru": "Золотая печать · Продуктовый магазин"
+    "target_ru": "Золотая печать · Лавка Снеди"
   },
   {
     "id": "084439",
@@ -28011,7 +28011,7 @@
     "id": "084668",
     "source_cn": "议价·食铺生效，本站出售价格+40%",
     "ref_en": "Bargaining · Food Shop effective, selling price at this station +40%",
-    "target_ru": "Торг · Продовольственный магазин действует, цена продажи на этой станции +40%."
+    "target_ru": "Торг · Лавка Снеди срабатывает, цена продажи на этой станции +40%."
   },
   {
     "id": "084669",

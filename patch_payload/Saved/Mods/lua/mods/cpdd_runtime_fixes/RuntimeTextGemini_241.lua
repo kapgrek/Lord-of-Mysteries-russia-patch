@@ -61,7 +61,7 @@ return {
     ["Ahem! But I'm a little curious, why did you want to cause trouble during the final exam?"] = "Кхм! Но мне немного любопытно, почему ты хотел создать проблемы во время выпускного экзамена?",
     ["Activate <h>spirit vision</> to inspect"] = "Активируйте <h>spirit Vision</>, чтобы осмотреть",
     ["Orange Marionette Fragment Selection"] = "Выбор фрагмента оранжевой марионетки",
-    ["Bet: Winery failed, this station is not [Winery]"] = "Ставка: Винодельня провалилась, эта станция не [Винодельня]",
+    ["Bet: Winery failed, this station is not [Winery]"] = "Ставка: Винодельня не срабатывает, эта станция — не [Винодельня]",
     ["Witch hug (FF)"] = "Ведьмины объятия (FF)",
     ["Bullet template ID."] = "Идентификатор шаблона маркера.",
     ["Find the Lightning Express station"] = "Найдите станцию ​​Lightning Express.",

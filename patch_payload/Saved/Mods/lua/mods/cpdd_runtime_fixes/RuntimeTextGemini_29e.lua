@@ -18,7 +18,7 @@ return {
     ["The zealots"] = "Фанатики",
     ["Yes, I've been waiting for you for a long time. I am Jack the Ripper. It's time to get to work."] = "Верно, заждался я тебя. Я и есть Потрошитель Джесс, пора за работу.",
     ["Challenge"] = "Испытание",
-    ["Upgrade · Food Shop activated, all [Blue Items] upgraded to [Gold Medal Royal Ham]."] = "Улучшение «Продуктовая лавка» активно: все 【синие предметы】 улучшены до 【Королевского окорока высшего сорта】",
+    ["Upgrade · Food Shop activated, all [Blue Items] upgraded to [Gold Medal Royal Ham]."] = "«Улучшение: Лавка Снеди» срабатывает: все 【синие предметы】 улучшены до 【Королевского окорока высшего сорта】",
     ["Force That Can Uproot Mountains"] = "Сила, способная сокрушить горы",
     ["Question: How is the food in the cafeteria?"] = "Вопрос: какова еда в столовой?",
     ["Quickly <Highlight>gather to share damage</>. After sharing, <Highlight>observe the connection</> status and <Highlight>avoid dashing and breaking the</> connection."] = "Быстро <Highlight>соберитесь для разделения урона</>. После разделения <Highlight>следите за связывающими линиями</> и <Highlight>не делайте рывков, чтобы не разорвать</> связь",

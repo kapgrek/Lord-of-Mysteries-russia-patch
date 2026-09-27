@@ -267,7 +267,7 @@ return {
     ["[Spellcraft]额外获得35%攻击力，且每次施法：自身获得1.5%攻击力。"] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["远程打击"] = "Дальнобойный удар",
     ["Slow Foot"] = "Медленная нога",
-    ["<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>200</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>Attack increased by <Mark>200</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок истёк)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>.",
     ["Reach \"Acquainted\" favorability with Klein"] = "Достичь уровня отношений «Знакомство» с Клейном",
     ["故事序曲"] = "Увертюра истории",
     ["Layers of Mystery"] = "Клубок тайн",

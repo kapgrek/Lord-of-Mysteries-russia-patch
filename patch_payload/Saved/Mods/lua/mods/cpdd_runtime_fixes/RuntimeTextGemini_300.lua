@@ -245,7 +245,7 @@ return {
     ["Open to receive <Highlight>Bound Sol 4,500</>."] = "Открыт для получения <Highlight>Bound Sol 4,500</>.",
     ["No, I was just a bystander at the time"] = "Нет, я был просто свидетелем в тот момент",
     ["A doorway made of polished solid wood, with a beautiful and harmonious arched curve."] = "Дверной проем из полированного массива дерева, с красивым и гармоничным арочным изгибом.",
-    ["Betting · Food Shop effective, obtain 100% of own [Bronze Candlestick]"] = "Ставки · Продуктовый магазин эффективен, получите 100% собственного [Бронзового подсвечника]",
+    ["Betting · Food Shop effective, obtain 100% of own [Bronze Candlestick]"] = "Ставка · Лавка Снеди срабатывает, получите 100% собственного [Бронзового подсвечника]",
     ["Wraith Possession, difficult to move"] = "Wraith Possession, трудно двигаться.",
     ["Germaphobe"] = "гермафоб",
     ["If you can't get a shot, make it up. No one checks who the \"informed source\" in the newspaper is anyway."] = "Если вы не можете сделать снимок, сделайте это. Кто является «осведомленным источником» в газете, все равно никто не проверяет.",

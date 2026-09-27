@@ -218,7 +218,7 @@ return {
     ["The person inside the door"] = "Человек внутри двери",
     ["In the box! It was just here!"] = "В коробке! Это было только здесь!",
     ["A quarter of an hour later..."] = "Через четверть часа...",
-    ["Gold Seal · Trading Firm"] = "Золотая печать · Торговая фирма",
+    ["Gold Seal · Trading Firm"] = "Золотая печать · Торговый дом",
     ["Searching separately might be faster. Sorry to trouble you."] = "Отдельный поиск может быть быстрее. Извините, что беспокою вас.",
     ["Cannot be used as a save point"] = "Невозможно использовать в качестве точки сохранения.",
     ["Brass Book special teleport trap buff"] = "Специальный бафф «Телепорт-ловушка» из латунной книги",

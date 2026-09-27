@@ -244,7 +244,7 @@ return {
     ["In a team"] = "В команде",
     ["Kim"] = "Ким",
     ["Chaz 2"] = "Чаз 2",
-    ["<CostRed>{1,2,（烙印已失效）}</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок действия бренда истек)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active."] = "<CostRed>{1,2,(Срок истёк)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
     ["Try to recall the guidance of Miss <h>\"Justice\"</>"] = "Попробуйте вспомнить указания <h>мисс Справедливость</>",
     ["Go to the <h> suspicious location </> to lie in wait"] = "Отправиться в <h>подозрительное место</> и устроить засаду",
     ["Tarot Club · Audrey: 7-person tier increment, all allies Damage Increase +1%."] = "Клуб Таро · Одри: прибавка за 7 участников, увеличение урона у всех союзников +1%.",

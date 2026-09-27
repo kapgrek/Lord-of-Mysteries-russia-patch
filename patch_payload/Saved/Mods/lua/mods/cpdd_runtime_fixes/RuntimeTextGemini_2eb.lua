@@ -46,7 +46,7 @@ return {
     ["Go to the specified coordinate to interact and enter the plane; player sends quest item."] = "Перейдите к указанной координате, чтобы взаимодействовать и войти в самолет; игрок отправляет квестовый предмет.",
     ["The healing decay per bounce of <HyperLink stylename=\"M_Link\" u=\"86021060\" color=\"#f4a067\">Mental Guidance</> is reduced by 5%."] = "Замедление исцеления за отскок <HyperLink stylename=\"M_Link\" u=\"86021060\" color=\"#f4a067\">Mental Guidance</> уменьшено на 5%.",
     ["Obsession?"] = "Одержимость?",
-    ["The party has no objective; matchmaking is not allowed."] = "У партии нет цели; сватовство не допускается.",
+    ["The party has no objective; matchmaking is not allowed."] = "У партии нет цели; подбор игроков не допускается.",
     ["Mystery Pryer, well..."] = "Мистер Прайер, ну...",
     ["Completing activity allowance quests grants Peer Emblems, Club activity, and Club funds. \nClub activity is the sum of the individual activity values of current Club members; reaching corresponding values allows you to claim extra rewards.\nActivity allowance rewards will refresh every Monday at 8:00. Please claim your rewards in time."] = "Выполнение заданий фонда активности приносит знаки соратника, очки активности клуба и клубные средства.\nАктивность клуба — это сумма личных очков активности всех действующих членов клуба; при достижении определённых отметок открываются дополнительные награды.\nНаграды фонда активности обновляются каждый понедельник в 08:00, не забудьте забрать их вовремя.",
     ["Evil Punishment."] = "Злое наказание.",

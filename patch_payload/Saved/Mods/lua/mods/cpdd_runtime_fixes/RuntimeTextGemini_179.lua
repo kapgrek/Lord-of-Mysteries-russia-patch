@@ -10,7 +10,7 @@ return {
     ["Does self status exist"] = "Проверка наличия собственного статуса",
     ["Holy Armor Phase 2 (Cast)"] = "Священный доспех, фаза 2 (применение)",
     ["Yeah, yeah, when we were transporting that puppet, in Riel..."] = "Ага, когда мы перевозили ту марионетку, у Рэя...",
-    ["Best-Seller · Trading Firm effective, selling price at this station +125%"] = "Хит продаж: Торговая палата активна: цена продажи на этой станции +125%",
+    ["Best-Seller · Trading Firm effective, selling price at this station +125%"] = "Хит продаж: Торговый дом срабатывает: цена продажи на этой станции +125%",
     ["Character Name"] = "Имя персонажа",
     ["Why is the version I heard different from yours?"] = "Почему версия, которую я слышал, отличается от твоей?",
     ["Thank you for the bread..."] = "Спасибо за хлеб...",

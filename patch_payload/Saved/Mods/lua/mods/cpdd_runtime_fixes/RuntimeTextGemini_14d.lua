@@ -15,7 +15,7 @@ return {
     ["Is that the Vigilante Black Emperor? I heard about his deeds a few years ago. Executing the human trafficker Karpen was truly satisfying!"] = "Так это тот самый благородный разбойник Тёмный Император? Я ещё несколько лет назад слышал о его подвигах. Казнить работорговца Капина — вот это было настоящее правосудие!",
     ["System Notification"] = "Системное уведомление",
     ["Secret Realm Affix - Special - Nebula Aria Adds Mark"] = "Свойство тайного царства: особое — «Ария туманности» накладывает метку",
-    ["Matchmaking interrupted successfully."] = "Поиск матча успешно прерван.",
+    ["Matchmaking interrupted successfully."] = "Подбор игроков успешно прерван.",
     ["The glory and bloodline of the family are finished..."] = "Слава и родословная семьи оборвались...",
     ["5230220 Tingen South District Plane"] = "5230220   Южный район Тингена   Фаза",
     ["Azik Side Quest - Atmosphere Gameplay - Stealth Monster Invincibility Untargetable"] = "Ветка Азика — атмосферный геймплей — невидимый монстр неуязвим и не выбирается целью",

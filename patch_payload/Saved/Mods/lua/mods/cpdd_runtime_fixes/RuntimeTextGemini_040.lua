@@ -210,7 +210,7 @@ return {
     ["Why are you staying in the cannon? Are you stuck and unable to get out?"] = "Почему ты остаешься в пушке? Вы застряли и не можете выбраться?",
     ["He is not at ease and hopes to investigate and assist from other directions to ensure that little Elliott can be safely rescued."] = "Ему не по себе, и он надеется провести расследование и оказать помощь с других сторон, чтобы гарантировать безопасное спасение маленького Эллиота.",
     ["Fury Attack Speed"] = "Скорость атаки ярости",
-    ["Transfer · Food Shop"] = "Трансфер · Продуктовый магазин",
+    ["Transfer · Food Shop"] = "Трансфер · Лавка Снеди",
     ["Ironclad Defense"] = "Железная защита",
     ["Circular area with a radius of 4.5 meters"] = "Круглая область радиусом 4,5 метра",
     ["Thanks to Miss Rozanne."] = "Спасибо мисс Розанне.",

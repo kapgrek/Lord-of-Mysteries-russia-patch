@@ -16,7 +16,7 @@ return {
     ["Sometimes, it's good for everyone to take a break, sit together, and drink coffee and chat."] = "Иногда так приятно просто выкроить время, посидеть всем вместе за чашечкой кофе и поговорить.",
     ["Talk to <h>NPC</>"] = "Поговорить с <h>NPC</>",
     ["Mentor-Disciple"] = "Наставник и ученик",
-    ["Contract · Trading Firm"] = "Контракт · Торговая фирма",
+    ["Contract · Trading Firm"] = "Контракт · Торговый дом",
     ["<Highlight>Craft: </>Pale Silver Dark Pattern\nAs pure as a new moon rising, the silent vow is more fervent than fresh blood."] = "<Highlight> Мастерство: </> Темно-серебряные узоры \n Искренность расцветает, как новая луна, и молчаливая клятва горячее крови.",
     ["Besides, I heard the old man's three biological sons aren't actually his... Looks like this illegitimate son is going to make a fortune. Sigh, the good days for this kid are still ahead."] = "Более того, я слышал, что трое биологических сыновей старика не его... Похоже, его внебрачный сын собирается заработать много денег. Увы, лучшие дни этого мальчика еще впереди.",
     ["Blue Line - Counter-clockwise Carriage B12"] = "Синяя линия — каретка против часовой стрелки B12",

@@ -237,7 +237,7 @@ return {
     ["Basic Equipment rules"] = "Правила базового снаряжения",
     ["Butler_Candelabra effect 5"] = "Батлер_Эффект канделябра 5",
     ["...{{ Mr. | Miss }}, you see, what else can I say?"] = "...{{ Mr. | Miss }}, понимаешь, что еще я могу сказать?",
-    ["If the next stop <LightHighlight> is the [Trading Firm] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Plated Court Tea Set] </>."] = "Если следующей остановкой <LightHighlight> будет [Торговая фирма] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Посеребренный придворный чайный сервиз] </>.",
+    ["If the next stop <LightHighlight> is the [Trading Firm] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Plated Court Tea Set] </>."] = "Если следующей остановкой <LightHighlight> будет [Торговый дом] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Посеребренный придворный чайный сервиз] </>.",
     ["It looks like the owner is someone from the Small Town..."] = "Похоже, владелец - кто-то из Маленького Городка...",
     ["Of course, that's not really news either."] = "Конечно, это тоже не новость.",
     ["[Collection] Eavesdrop"] = "[Коллекция] Подслушивание",

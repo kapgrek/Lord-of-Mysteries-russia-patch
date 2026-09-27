@@ -232,7 +232,7 @@ return {
     ["Lumian Launch"] = "Люмианский запуск",
     ["Rand"] = "Рэнд",
     ["You can quickly view your current outfit here."] = "Здесь вы можете быстро просмотреть свой текущий наряд.",
-    ["Buyable site: <Buff> Food Shop </> \n Buyable site: <Buff> Food Shop </> \n Standard price: <Buff> 30 </>"] = "Доступные объекты: <Buff>Продовольственный магазин</>\n Доступные объекты: <Buff>Продовольственный магазин</>\nСтандартная цена:<Buff>30</>",
+    ["Buyable site: <Buff> Food Shop </> \n Buyable site: <Buff> Food Shop </> \n Standard price: <Buff> 30 </>"] = "Доступные объекты: <Buff>Лавка Снеди</>\n Доступные объекты: <Buff>Лавка Снеди</>\nСтандартная цена:<Buff>30</>",
     ["Toggle Mail Interface N Times"] = "Переключить почтовый интерфейс N раз",
     ["Camera orientation movement mode Tag"] = "Режим движения ориентации камеры Тег",
     ["They simultaneously exude the scent of sun-dried laundry, the smell of alcohol, and the atmosphere of life intertwined with tears and saliva."] = "Они одновременно источают аромат высушенного на солнце белья, запах алкоголя и атмосферу жизни, переплетенную слезами и слюной.",

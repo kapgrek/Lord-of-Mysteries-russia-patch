@@ -194,7 +194,7 @@ return {
     ["The top four <Ranking> clubs in the division </> can advance to the Strategic Server."] = "Четыре лучших клуба <Ranking> в дивизионе </> могут перейти на стратегический сервер.",
     ["Whether in an underground tavern or at the docks of the Southern Continent, bounty hunters are always treated with full respect. After all, no one wants to become the prey, right?"] = "Будь то в подземной таверне или в доках Южного континента, к охотникам за головами всегда относятся с полным уважением. Ведь никто не хочет стать добычей, верно?",
     ["There is a Miss Margaret who comes to the clinic frequently, two or three times a week."] = "В клинику часто приходит мисс Маргарет, два или три раза в неделю.",
-    ["Good Gift · Winery effective, obtain 30 [White Maple Pen Holder]"] = "Хороший подарок · Винодельня эффективна, получите 30 [Подставка для ручек из белого клена]",
+    ["Good Gift · Winery effective, obtain 30 [White Maple Pen Holder]"] = "Подарок · Винодельня срабатывает, получите 30 [Подставка для ручек из белого клена]",
     ["Card Order Mark"] = "Знак заказа карты",
     ["Enum (Social Action Mode)"] = "Enum (режим социальных действий)",
     ["Meg"] = "Мэг",

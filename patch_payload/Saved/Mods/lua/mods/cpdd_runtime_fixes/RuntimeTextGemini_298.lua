@@ -5,7 +5,7 @@ return {
     ["Digestion Complete"] = "Усвоение завершено",
     ["<P_Heart>(That seems wrong, let me try something else.)</>"] = "<P_Heart>（Кажется, не то. Попробую другой вариант.）</>",
     ["Arbiter Suppression"] = "Подавление Арбитра",
-    ["Gold Seal: Shop failed, next station is not [Shop]"] = "Эффект «Золотая печать: Лавка» не сработал: следующая остановка — не 【Лавка】",
+    ["Gold Seal: Shop failed, next station is not [Shop]"] = "Эффект «Золотая печать: Лавка Снеди» не сработал: следующая остановка — не 【Лавка Снеди】",
     ["Tingen Grand Theater Brochure"] = "Брошюра Тингенского Большого театра",
     ["However, her hair was combed very neatly. It seems that even in poverty, she had family who loved her deeply."] = "Впрочем, её волосы были причёсаны очень аккуратно. Похоже, несмотря на бедность, у неё есть семья, которая горячо её любит.",
     ["Use to obtain <Highlight> Apprentice Chest Accessory </>"] = "Используйте, чтобы получить <Highlight>нагрудное украшение Ученика</>",

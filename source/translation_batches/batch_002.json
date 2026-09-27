@@ -81,13 +81,13 @@
     "id": "005013",
     "source_cn": "好礼·商行生效，获得20件【起泡甜酒】",
     "ref_en": "Good Gift · Trading Firm effective, obtain 20 [Sparkling Sweet Wine]",
-    "target_ru": "Эффект «Щедрый подарок · Торговая фирма» активирован, получено 20 шт. 【Сладкое игристое вино】"
+    "target_ru": "«Подарок: Торговый дом» сработал, получено 20 шт. 【Сладкое игристое вино】"
   },
   {
     "id": "005014",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得自身<LightHighlight>50%</>的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\">【盐渍牡蛎】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain an amount of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\"> [Salted Oysters] </> equal to <LightHighlight> 50% </> of what you currently possess.",
-    "target_ru": "Если следующая остановка — <LightHighlight>【Торговая фирма】</>, получите дополнительно <LightHighlight>50%</> от имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\">【Соленых устриц】</>"
+    "target_ru": "Если следующая остановка — <LightHighlight>【Торговый дом】</>, получите дополнительно <LightHighlight>50%</> от имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\">【Соленых устриц】</>"
   },
   {
     "id": "005015",
@@ -501,7 +501,7 @@
     "id": "005083",
     "source_cn": "金印·食铺失效，下一站不是【食铺】",
     "ref_en": "Gold Seal: Shop failed, next station is not [Shop]",
-    "target_ru": "Эффект «Золотая печать: Лавка» не сработал: следующая остановка — не 【Лавка】"
+    "target_ru": "Эффект «Золотая печать: Лавка Снеди» не сработал: следующая остановка — не 【Лавка Снеди】"
   },
   {
     "id": "005084",
@@ -3219,7 +3219,7 @@
     "id": "005536",
     "source_cn": "如果下一站<LightHighlight>不是【商行】</>，获得<LightHighlight>20</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【珍品迷雾香槟】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Trading Firm] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\"> [Premium Mist Champagne] </>.",
-    "target_ru": "Если следующая остановка — <LightHighlight>не 【Торговая фирма】</>, получите <LightHighlight>20</> шт. предмета <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【Редкое шампанское тумана】</>"
+    "target_ru": "Если следующая остановка — <LightHighlight>не 【Торговый дом】</>, получите <LightHighlight>20</> шт. предмета <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【Редкое шампанское тумана】</>"
   },
   {
     "id": "005537",
@@ -3741,7 +3741,7 @@
     "id": "005623",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>受到控制后，获得<Mark>30</>点控制闪避、<Mark>50</>点控制抵挡，持续<Mark>3</>秒，每<Mark>10</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>After being controlled, gain <Mark>30</> Control Dodge and <Mark>50</> Control Resistance for <Mark>3</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Клеймо утратило силу)}</>После получения контроля дает <Mark>30</> очков уклонения от контроля и <Mark>50</> очков сопротивления контролю на <Mark>3</> сек., срабатывает не чаще одного раза в <Mark>10</> сек.\nНе действует при активации комплекта <Mark>«Отголоски духа и разума»</>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>После получения контроля дает <Mark>30</> очков уклонения от контроля и <Mark>50</> очков сопротивления контролю на <Mark>3</> сек., срабатывает не чаще одного раза в <Mark>10</> сек.\nНе действует при активации комплекта <Mark>«Отголоски духа и разума»</>."
   },
   {
     "id": "005624",
@@ -4833,7 +4833,7 @@
     "id": "005805",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得自身<LightHighlight>50%</>的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\">【白桦尼波斯】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain an amount of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Birch Nepos] </> equal to <LightHighlight> 50% </> of what you currently possess.",
-    "target_ru": "Если следующая остановка — <LightHighlight>【Торговая фирма】</>, получите дополнительно <LightHighlight>50%</> от имеющегося запаса <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\">【Берёзового непоса】</>"
+    "target_ru": "Если следующая остановка — <LightHighlight>【Торговый дом】</>, получите дополнительно <LightHighlight>50%</> от имеющегося запаса <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\">【Берёзового непоса】</>"
   },
   {
     "id": "005806",
@@ -9219,7 +9219,7 @@
     "id": "006536",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,把所有的<LightHighlight>【白色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "If the next station <LightHighlight> is [Food Shop] </>, upgrade all <LightHighlight> [White Items] </> to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>",
-    "target_ru": "Если следующая остановка — <LightHighlight>【Закусочная】</>, улучшите все <LightHighlight>【Обычные товары】</> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【Посеребрённого придворного чайного сервиза】</>"
+    "target_ru": "Если следующая остановка — <LightHighlight>【Лавка Снеди】</>, улучшите все <LightHighlight>【Обычные товары】</> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【Посеребрённого придворного чайного сервиза】</>"
   },
   {
     "id": "006537",
@@ -14727,7 +14727,7 @@
     "id": "007454",
     "source_cn": "押宝·酒庄生效，获得自身150%的【鎏银宫廷茶具】",
     "ref_en": "Bet: Winery activated, received 150% of own [Silver-Gilt Court Tea Set]",
-    "target_ru": "Ставка: Винодельня активна: получено 150% от собственного предмета 【Позолоченный дворцовый чайный сервиз】"
+    "target_ru": "Ставка: Винодельня срабатывает, получено 150% от собственного предмета 【Позолоченный дворцовый чайный сервиз】"
   },
   {
     "id": "007455",
@@ -14841,7 +14841,7 @@
     "id": "007473",
     "source_cn": "畅销·商行生效，本站出售价格+125%",
     "ref_en": "Best-Seller · Trading Firm effective, selling price at this station +125%",
-    "target_ru": "Хит продаж: Торговая палата активна: цена продажи на этой станции +125%"
+    "target_ru": "Хит продаж: Торговый дом срабатывает: цена продажи на этой станции +125%"
   },
   {
     "id": "007474",
@@ -20259,7 +20259,7 @@
     "id": "008376",
     "source_cn": "签约·酒庄生效，本局艺术品、食品卖价+25%,本站卖出价-60%",
     "ref_en": "Contract: Winery activated, art and food selling price +25% this round, selling price at this station -60%",
-    "target_ru": "«Договор: Винодельня» активирован: цена продажи произведений искусства и еды в этой партии +25%, цена продажи на этой станции -60%"
+    "target_ru": "«Договор: Винодельня» срабатывает: цена продажи произведений искусства и еды в этой партии +25%, цена продажи на этой станции -60%"
   },
   {
     "id": "008377",
@@ -25911,7 +25911,7 @@
     "id": "009318",
     "source_cn": "升级·酒庄生效，所有的【白色物品】升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "Upgrade · Winery effective, all [White Items] upgraded to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>",
-    "target_ru": "Улучшение: Винодельня активна, все [белые предметы] улучшаются до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【Позолоченный серебряный дворцовый сервиз】</>"
+    "target_ru": "Улучшение: Винодельня срабатывает, все [белые предметы] улучшаются до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【Позолоченный серебряный дворцовый сервиз】</>"
   },
   {
     "id": "009319",
@@ -27651,7 +27651,7 @@
     "id": "009608",
     "source_cn": "畅销·商行失效，本站不是【商行】,购买价格+50%",
     "ref_en": "Best-Seller: Trading House failed, this station is not [Trading House], purchase price +50%",
-    "target_ru": "«Бестселлер: Торговая палата» не действует: эта станция не является 【Торговой палатой】, цена покупки +50%"
+    "target_ru": "«Бестселлер: Торговый дом» не срабатывает: эта станция не является 【Торговым домом】, цена покупки +50%"
   },
   {
     "id": "009609",
@@ -28647,7 +28647,7 @@
     "id": "009774",
     "source_cn": "“安提科勋爵的负债花销和不经营产业是为了维持贵族的体面，这很常见。不允许售卖酒庄里的酒只是因为喜欢美酒，不允许妻子卖酒也可以说成是对妻子的珍视，没有出轨行为，这怎么能算背叛了婚姻呢？”几位律师都是这样的答复。",
     "ref_en": "\"Lord Antigonus's debts and lack of business management were merely to maintain the dignity of a nobleman; this is quite common. Not allowing the sale of wine from the winery was simply because he loved fine wine, and forbidding his wife from selling wine can also be described as cherishing her. There was no infidelity, so how can this be considered a betrayal of marriage?\" These were the replies from several lawyers.",
-    "target_ru": "«Долги и нежелание лорда Антико заниматься хозяйством были вызваны лишь стремлением поддержать дворянское достоинство, что весьма обычно. Запрет на продажу вина из погребов обусловлен лишь его любовью к изысканным напиткам, а запрет жене торговать вином вполне можно истолковать как заботу о ней. Супружеской измены не было, так разве это можно назвать предательством брака?» — примерно так отвечали все юристы."
+    "target_ru": "«Долги и нежелание лорда Антико заниматься хозяйством были вызваны лишь стремлением поддержать дворянское достоинство, что весьма обычно. Запрет на продажу вина из винодельни обусловлен лишь его любовью к изысканным напиткам, а запрет жене торговать вином вполне можно истолковать как заботу о ней. Супружеской измены не было, так разве это можно назвать предательством брака?» — примерно так отвечали все юристы."
   },
   {
     "id": "009775",

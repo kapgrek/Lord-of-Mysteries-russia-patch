@@ -255,7 +255,7 @@
     "id": "115042",
     "source_cn": "缺少当前玩法分包资源，无法进行匹配",
     "ref_en": "Missing sub-package resources for the current mode; cannot matchmake.",
-    "target_ru": "Отсутствуют ресурсы подпакета для текущего режима; не может свататься."
+    "target_ru": "Отсутствуют ресурсы подпакета для текущего режима; подбор невозможен."
   },
   {
     "id": "115043",
@@ -663,7 +663,7 @@
     "id": "115110",
     "source_cn": "封印物系统介绍",
     "ref_en": "Sealed Artifact System Introduction",
-    "target_ru": "Введение в систему запечатанных артефактов"
+    "target_ru": "Описание системы запечатанных артефактов"
   },
   {
     "id": "115111",
@@ -1881,7 +1881,7 @@
     "id": "115313",
     "source_cn": "议价·酒庄失效，本站不是【酒庄】",
     "ref_en": "Bargain: Winery failed, this station is not [Winery]",
-    "target_ru": "Выгодная сделка: Винодельня не удалась, эта станция не [Винодельня]"
+    "target_ru": "Выгодная сделка: Винодельня не срабатывает, эта станция не [Винодельня]"
   },
   {
     "id": "115314",
@@ -5253,7 +5253,7 @@
     "id": "115875",
     "source_cn": "<Assistant_Title1>【记忆的传承】</>\\n<Assistant_Title2>玩法类型：</><Assistant_Property1>5~6人家族副本</>\\n<Assistant_Title2>玩法介绍：</>开启“记忆的传承”仪式后，玩家将进入记忆世界，与过去经历过的强敌再次交锋。与家族成员共同进入时，可获得【誓火共燃】与【血脉盟约】增益。\\n<Assistant_Title2>参与方式：</>点击<Assistant_System>菜单-世界冒险-副本-记忆的传承</>参与。\\n<Assistant_Title2>首领与参与条件：</>\\n    <Assistant_Property1>强尼：</>普通难度39级，推荐非凡评分9359；困难难度61级，推荐非凡评分47716。\\n    <Assistant_Property1>钻头：</>普通难度46级，推荐非凡评分18236；困难难度63级，推荐非凡评分56222。\\n    <Assistant_Property1>邦尼：</>普通难度56级，推荐非凡评分28651；困难难度66级，推荐非凡评分73673。\\n    <Assistant_Property1>战争巨龙：</>普通难度60级，推荐非凡评分45868；困难难度68级，推荐非凡评分77962；噩梦难度70级，推荐非凡评分91225。\\n<Assistant_Title2>开放顺序：</>普通钻头于赛季第2天开放，普通邦尼第4天开放，普通战争巨龙第5天开放；困难强尼第6天开放，困难钻头第8天开放，困难邦尼第12天开放，困难战争巨龙第14天开放；噩梦战争巨龙第22天开放。\\n<Assistant_Title2>挑战说明：</>各首领均支持5~6人组队，并可选择人机模式。不同首领和难度独立开放，请根据角色等级与推荐非凡评分选择挑战目标。",
     "ref_en": "<Assistant_Title1> [Inheritance of Memory] </> \\n <Assistant_Title2> Gameplay Type: </> <Assistant_Property1> 5~6 Player Family Dungeon </> \\n <Assistant_Title2> Gameplay Introduction: </> After starting the \"Inheritance of Memory\" ritual, players will enter the world of memory to clash again with powerful enemies from the past. When entering with family members, you can obtain [Oathfire Combustion] and [Bloodline Covenant] buffs. \\n <Assistant_Title2> How to Participate: </> Click <Assistant_System> Menu - World Adventure - Dungeon - Inheritance of Memory </> to participate. \\n <Assistant_Title2> Bosses and Participation Requirements: </> \\n <Assistant_Property1> Johnny: </> Normal Difficulty Level 39, recommended Beyonder Rating 9359; Hard Difficulty Level 61, recommended Beyonder Rating 47716. \\n <Assistant_Property1> Drill: </> Normal Difficulty Level 46, recommended Beyonder Rating 18236; Hard Difficulty Level 63, recommended Beyonder Rating 56222. \\n <Assistant_Property1> Bonnie: </> Normal Difficulty Level 56, recommended Beyonder Rating 28651; Hard Difficulty Level 66, recommended Beyonder Rating 73673. \\n <Assistant_Property1> War Dragon: </> Normal Difficulty Level 60, recommended Beyonder Rating 45868; Hard Difficulty Level 68, recommended Beyonder Rating 77962; Nightmare Difficulty Level 70, recommended Beyonder Rating 91225. \\n <Assistant_Title2> Opening Order: </> Normal Drill opens on Day 2 of the season, Normal Bonnie on Day 4, Normal War Dragon on Day 5; Hard Johnny opens on Day 6, Hard Drill on Day 8, Hard Bonnie on Day 12, Hard War Dragon on Day 14; Nightmare War Dragon opens on Day 22. \\n <Assistant_Title2> Challenge Instructions: </> All bosses support 5~6 player teams and AI mode. Different bosses and difficulties open independently; please choose your challenge target based on character level and recommended Beyonder Rating.",
-    "target_ru": "<Assistant_Title1>【Наследование памяти】</>\\n<Assistant_Title2> Тип игрового процесса: </><Assistant_Property1>5~Семейная копия из 6 человек </>\\n<Assistant_Title2> Введение в игровой процесс: </> После начала церемонии «Наследование памяти» игроки войдут в мир памяти и снова столкнутся с могущественными врагами, с которыми они сталкивались в прошлом. При входе вместе с членами семьи вы можете получить баффы [Клятвенный огонь, горящий вместе] и [Родословный завет]. \\n<Assistant_Title2>Как принять участие: </>Нажмите <Assistant_System>Меню-Мир приключений-Копирование-Наследование памяти</>, чтобы принять участие. \\n<Assistant_Title2> Лидер и условия участия: </>\\n <Assistant_Property1> Джонни: </> Нормальный уровень сложности 39, рекомендуемый экстраординарный балл 9359; высокий уровень сложности 61, рекомендуемый экстраординарный балл 47716. \\n <Assistant_Property1> Сверло: </> Нормальный уровень сложности 46, рекомендуемый экстраординарный балл 18236; Сложный уровень сложности 63, рекомендуемый экстраординарный балл 56222. \\n <Assistant_Property1> Бонни: </> Обычный уровень сложности — 56, рекомендуемый экстраординарный балл — 28651; высокий уровень сложности — 66, рекомендуемый экстраординарный балл — 73673. \\n <Assistant_Property1> War Dragon: </> Уровень 60 на нормальной сложности, с рекомендуемым экстраординарным баллом 45868; Уровень 68 на высоком уровне сложности, рекомендуемый выдающийся балл 77962; Уровень 70 на сложности «Кошмар», рекомендуемый экстраординарный балл 91225. \\n<Assistant_Title2>Порядок открытия: </>Обычная тренировка открывается на 2-й день сезона, Обычная Бонни открывается на 4-й день, Обычный боевой дракон открывается на 5-й день; Hard Johnny открывается на 6-й день, Hard Drill открывается на 8-й день, Hard Bonnie открывается на 12-й день, Hard War Dragon открывается на 14-й день; Кошмарный Боевой Дракон открывается на 22-й день. \\n<Assistant_Title2>Описание задачи: </>Каждый лидер поддерживает команду из 5–6 человек и может выбрать режим «человек-машина». Различные боссы и сложности открываются самостоятельно. Пожалуйста, выберите цель испытания в соответствии с уровнем персонажа и рекомендованным выдающимся количеством очков."
+    "target_ru": "<Assistant_Title1>【Наследование памяти】</>\\n<Assistant_Title2> Тип игрового процесса: </><Assistant_Property1>5~Семейная копия из 6 человек </>\\n<Assistant_Title2> Описание игрового процесса: </> После начала церемонии «Наследование памяти» игроки войдут в мир памяти и снова столкнутся с могущественными врагами, с которыми они сталкивались в прошлом. При входе вместе с членами семьи вы можете получить баффы [Клятвенный огонь, горящий вместе] и [Родословный завет]. \\n<Assistant_Title2>Как принять участие: </>Нажмите <Assistant_System>Меню-Мир приключений-Копирование-Наследование памяти</>, чтобы принять участие. \\n<Assistant_Title2> Лидер и условия участия: </>\\n <Assistant_Property1> Джонни: </> Нормальный уровень сложности 39, рекомендуемый экстраординарный балл 9359; высокий уровень сложности 61, рекомендуемый экстраординарный балл 47716. \\n <Assistant_Property1> Сверло: </> Нормальный уровень сложности 46, рекомендуемый экстраординарный балл 18236; Сложный уровень сложности 63, рекомендуемый экстраординарный балл 56222. \\n <Assistant_Property1> Бонни: </> Обычный уровень сложности — 56, рекомендуемый экстраординарный балл — 28651; высокий уровень сложности — 66, рекомендуемый экстраординарный балл — 73673. \\n <Assistant_Property1> War Dragon: </> Уровень 60 на нормальной сложности, с рекомендуемым экстраординарным баллом 45868; Уровень 68 на высоком уровне сложности, рекомендуемый выдающийся балл 77962; Уровень 70 на сложности «Кошмар», рекомендуемый экстраординарный балл 91225. \\n<Assistant_Title2>Порядок открытия: </>Обычная тренировка открывается на 2-й день сезона, Обычная Бонни открывается на 4-й день, Обычный боевой дракон открывается на 5-й день; Hard Johnny открывается на 6-й день, Hard Drill открывается на 8-й день, Hard Bonnie открывается на 12-й день, Hard War Dragon открывается на 14-й день; Кошмарный Боевой Дракон открывается на 22-й день. \\n<Assistant_Title2>Описание задачи: </>Каждый лидер поддерживает команду из 5–6 человек и может выбрать режим «человек-машина». Различные боссы и сложности открываются самостоятельно. Пожалуйста, выберите цель испытания в соответствии с уровнем персонажа и рекомендованным выдающимся количеством очков."
   },
   {
     "id": "115876",
@@ -5445,7 +5445,7 @@
     "id": "115907",
     "source_cn": "匹配队友中",
     "ref_en": "Matching Teammates",
-    "target_ru": "Подходящие товарищи по команде"
+    "target_ru": "Подбор товарищей по команде"
   },
   {
     "id": "115908",
@@ -6327,7 +6327,7 @@
     "id": "116054",
     "source_cn": "押宝·酒庄生效，获得自身100%的【珍品迷雾香槟】",
     "ref_en": "Betting · Winery effective, obtain 100% of own [Rare Mist Champagne]",
-    "target_ru": "Ставки · Винодельня эффективна, получите 100% собственного [Редкого шампанского тумана]"
+    "target_ru": "Ставки · Винодельня срабатывает, получите 100% собственного [Редкого шампанского тумана]"
   },
   {
     "id": "116055",
@@ -7713,7 +7713,7 @@
     "id": "116285",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,把所有的<LightHighlight>【紫色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Plated Court Tea Set] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Торговая фирма] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Посеребренный придворный чайный сервиз] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Торговый дом] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Посеребренный придворный чайный сервиз] </>."
   },
   {
     "id": "116286",
@@ -9213,7 +9213,7 @@
     "id": "116535",
     "source_cn": "升级·商行生效，所有的【紫色物品】升级为【鎏银宫廷茶具】",
     "ref_en": "Upgrade: Trading House activated, all [Purple Items] upgraded to [Silver-Gilt Court Tea Set]",
-    "target_ru": "Улучшение: Торговый дом активирован, все [Фиолетовые предметы] улучшены до [Позолоченный серебряный чайный сервиз]"
+    "target_ru": "Улучшение: Торговый дом срабатывает, все [Фиолетовые предметы] улучшены до [Позолоченный серебряный чайный сервиз]"
   },
   {
     "id": "116536",
@@ -9357,7 +9357,7 @@
     "id": "116559",
     "source_cn": "开启PVP匹配",
     "ref_en": "Enable PVP matchmaking",
-    "target_ru": "Включить PVP-матчмейкинг"
+    "target_ru": "Включить PVP-подбор игроков"
   },
   {
     "id": "116560",
@@ -9993,7 +9993,7 @@
     "id": "116665",
     "source_cn": "关系介绍",
     "ref_en": "Relationships Introduction",
-    "target_ru": "Введение в отношения"
+    "target_ru": "Описание отношений"
   },
   {
     "id": "116666",
@@ -10617,7 +10617,7 @@
     "id": "116769",
     "source_cn": "出场介绍:“愚者”",
     "ref_en": "Introduction: \"The Fool\"",
-    "target_ru": "Введение: «Шут»"
+    "target_ru": "Описание: «Шут»"
   },
   {
     "id": "116770",
@@ -12273,7 +12273,7 @@
     "id": "117045",
     "source_cn": "好礼·酒庄生效，获得40件【冰鲜雪贝薄片】",
     "ref_en": "Good Gift · Winery effective, obtain 40 [Chilled Snow Shell Slices]",
-    "target_ru": "Хороший подарок · Винодельня эффективна, получите 40 [Охлажденных ломтиков снежной скорлупы]"
+    "target_ru": "Подарок · Винодельня срабатывает, получите 40 [Охлажденных ломтиков снежной скорлупы]"
   },
   {
     "id": "117046",
@@ -14991,7 +14991,7 @@
     "id": "117498",
     "source_cn": "匹配中 03:20",
     "ref_en": "Matching 03:20",
-    "target_ru": "Соответствие 03:20"
+    "target_ru": "Подбор 03:20"
   },
   {
     "id": "117499",
@@ -16875,7 +16875,7 @@
     "id": "117812",
     "source_cn": "转移·商行生效，酒类、食品金色物品转为【鎏银宫廷茶具】",
     "ref_en": "Transfer: Trading House activated, gold-grade alcohol and food items converted to [Silver-Gilt Court Tea Set]",
-    "target_ru": "Перенос: Торговый дом активирован, алкоголь и продукты питания золотого качества преобразованы в [Позолоченный серебряный чайный сервиз]"
+    "target_ru": "Перенос: Торговый дом срабатывает, алкоголь и продукты питания золотого качества преобразованы в [Позолоченный серебряный чайный сервиз]"
   },
   {
     "id": "117813",
@@ -17097,7 +17097,7 @@
     "id": "117849",
     "source_cn": "七日誓约开启匹配",
     "ref_en": "Seven-Day Covenant Enable Matching",
-    "target_ru": "Семидневное соглашение включает согласование"
+    "target_ru": "Семидневное соглашение включает подбор"
   },
   {
     "id": "117850",
@@ -18063,7 +18063,7 @@
     "id": "118010",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>30</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30101\">【黑麦啤酒】</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, obtain <LightHighlight> 30 </> items of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30101\"> [Rye Beer] </>",
-    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговая фирма] </>, получите <LightHighlight> 30 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30101\"> [Ржаное пиво] </>."
+    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговый дом] </>, получите <LightHighlight> 30 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30101\"> [Ржаное пиво] </>."
   },
   {
     "id": "118011",
@@ -18297,7 +18297,7 @@
     "id": "118049",
     "source_cn": "熟客·食铺生效，获得自身50%的【铜雕烛台】",
     "ref_en": "Regular Customer · Food Shop effective, obtain 50% of own [Bronze Candlestick]",
-    "target_ru": "Постоянный клиент · Продуктовый магазин действует, получите 50% от собственного [Бронзовый подсвечник]"
+    "target_ru": "Постоянный клиент · Лавка Снеди срабатывает, получите 50% от собственного [Бронзовый подсвечник]"
   },
   {
     "id": "118050",
@@ -18489,7 +18489,7 @@
     "id": "118081",
     "source_cn": "队内观众职业最多1个，无法开启匹配。",
     "ref_en": "There can be at most one Spectator class in the team; matchmaking cannot be started.",
-    "target_ru": "В команде может быть не более одного класса Зритель; сватовство не может быть запущено."
+    "target_ru": "В команде может быть не более одного класса Зритель; подбор не может быть запущен."
   },
   {
     "id": "118082",
@@ -21105,7 +21105,7 @@
     "id": "118517",
     "source_cn": "押宝·食铺生效，获得自身150%的【珍品迷雾香槟】",
     "ref_en": "Bet: Shop activated, received 150% of own [Premium Mist Champagne]",
-    "target_ru": "Ставка: Магазин активирован, получено 150% собственного [Премиум-шампанского Mist]"
+    "target_ru": "Ставка: Лавка Снеди срабатывает, получено 150% собственного [Редкого шампанского тумана]"
   },
   {
     "id": "118518",
@@ -23709,7 +23709,7 @@
     "id": "118951",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>325</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,3,（Brand Expired）}</>Crit rate increased by <Mark>325</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,（Purified）}</>\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Критический удар увеличивается на <Mark>325</>, сопротивление критическому удару снижается на <Mark>15</>, а значение загрязнения увеличивается на <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
   },
   {
     "id": "118952",
@@ -25275,7 +25275,7 @@
     "id": "119212",
     "source_cn": "<Assistant_Title1>【神座之争】</>\\n<Assistant_Title2>玩法说明：</><Assistant_System>神座之争</>是<Assistant_Red>6对6激情对战</>玩法，最多可组成<Assistant_Red>6人队伍</>参与匹配。玩法内所有玩家采用与玩法外相同的真实属性进行战斗。\\n<Assistant_Title2>获胜条件：</>限时内击败敌方队伍内所有玩家即可获胜。若对局时间结束时双方队伍均有成员存活，则依次按照<Assistant_Property1>击败人数</>、<Assistant_Property1>存活人数</>、<Assistant_Property1>伤害总量</>、<Assistant_Property1>存活血量</>判定，数值较高的一方获胜。\\n<Assistant_Title2>复活规则：</>在神座之争中，每个队伍拥有<Assistant_Red>2次</>复活死亡队友的机会。\\n<Assistant_Title2>开放时间：</>玩法入口显示开放时间为<Assistant_Red>10:00-1:00</>。\\n<Assistant_Title2>参与方式：</>{JumpToUI:[前往神座之争]|1250123}",
     "ref_en": "<Assistant_Title1>【Battle for the Throne of God】</>\\n<Assistant_Title2>Gameplay Explanation: </><Assistant_System>Battle for the Throne of God</> is a <Assistant_Red>6v6 intense battle</> mode, where you can form a team of up to <Assistant_Red>6 people</> to participate in matchmaking. All players in this mode use the same real attributes as outside the mode. \\n<Assistant_Title2>Victory Conditions: </>Defeat all players on the enemy team within the time limit to win. If both teams have members alive when the time ends, the winner is determined in order by <Assistant_Property1>number of kills</>, <Assistant_Property1>number of survivors</>, <Assistant_Property1>total damage dealt</>, and <Assistant_Property1>remaining HP</>, with the higher value winning. \\n<Assistant_Title2>Resurrection Rules: </>In the Battle for the Throne of God, each team has <Assistant_Red>2 opportunities</> to resurrect fallen teammates. \\n<Assistant_Title2>Opening Hours: </>The gameplay entrance displays the opening hours as <Assistant_Red>10:00-1:00</>. \\n<Assistant_Title2>How to Participate: </>{JumpToUI:[Go to Battle for the Throne of God]|1250123}",
-    "target_ru": "<Assistant_Title1>【Война за Божий трон】</>\\n<Assistant_Title2>Как играть: </><Assistant_System>Битва за Божий трон</> — это страстная битва <Assistant_Red>6 на 6 </>. Для участия в сопоставлении можно сформировать максимум <Assistant_Red>6 команд</>. Все игроки внутри игрового процесса используют для боя те же реальные атрибуты, что и вне игрового процесса. \\n<Assistant_Title2>Условия победы: </>Вы можете победить, победив всех игроков вражеской команды за отведенное время. Если к концу игры в живых останутся члены обеих команд, это будет определяться на основе <Assistant_Property1>количества побежденных</>, <Assistant_Property1>количества выживших</>, <Assistant_Property1>общего количества повреждений</>, <Assistant_Property1>объема выжившей крови</>, и побеждает сторона с более высоким значением. \\n<Assistant_Title2>Правила воскрешения: </>В битве за трон каждая команда имеет <Assistant_Red>2 </> возможностей воскресить мертвых товарищей по команде. \\n<Assistant_Title2> Часы работы: </> На входе в игровой процесс указано, что часы работы <Assistant_Red>10:00-1:00</>. \\n<Assistant_Title2>Как принять участие: </>{JumpToUI:[Отправиться в битву за трон]|1250123}"
+    "target_ru": "<Assistant_Title1>【Война за Божий трон】</>\\n<Assistant_Title2>Как играть: </><Assistant_System>Битва за Божий трон</> — это страстная битва <Assistant_Red>6 на 6 </>. Для участия в подборе можно сформировать максимум <Assistant_Red>6 команд</>. Все игроки внутри игрового процесса используют для боя те же реальные атрибуты, что и вне игрового процесса. \\n<Assistant_Title2>Условия победы: </>Вы можете победить, победив всех игроков вражеской команды за отведенное время. Если к концу игры в живых останутся члены обеих команд, это будет определяться на основе <Assistant_Property1>количества побежденных</>, <Assistant_Property1>количества выживших</>, <Assistant_Property1>общего количества повреждений</>, <Assistant_Property1>объема выжившей крови</>, и побеждает сторона с более высоким значением. \\n<Assistant_Title2>Правила воскрешения: </>В битве за трон каждая команда имеет <Assistant_Red>2 </> возможностей воскресить мертвых товарищей по команде. \\n<Assistant_Title2> Часы работы: </> На входе в игровой процесс указано, что часы работы <Assistant_Red>10:00-1:00</>. \\n<Assistant_Title2>Как принять участие: </>{JumpToUI:[Отправиться в битву за трон]|1250123}"
   },
   {
     "id": "119213",
@@ -25947,7 +25947,7 @@
     "id": "119324",
     "source_cn": "队伍成员%s已取消自动开启下一局匹配。",
     "ref_en": "Team member %s has canceled the automatic start of the next match.",
-    "target_ru": "Участник команды %s отменил автоматический старт следующего матча."
+    "target_ru": "Участник команды %s отменил автоматическое включение подбора на следующий матч."
   },
   {
     "id": "119325",
@@ -27585,7 +27585,7 @@
     "id": "119597",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>320</>。受到攻击后额外提高怪物专攻<Mark>50</>，持续<Mark>8</>秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>320</>. After being attacked, additionally increase Monster Specialization by <Mark>50</>, lasting for <Mark>8</> seconds.\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>320</>. После атаки специализация против монстров будет дополнительно увеличена на <Mark>50</> на <Mark>8</> секунд. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров увеличена на <Mark>320</>. После атаки специализация против монстров будет дополнительно увеличена на <Mark>50</> на <Mark>8</> секунд. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "119598",
@@ -29061,7 +29061,7 @@
     "id": "119843",
     "source_cn": "食铺红包生效，获得25件【精品油画小作】",
     "ref_en": "Food Shop Red Packet activated, obtained 25 [Fine Oil Painting].",
-    "target_ru": "Активирован красный пакет продовольственного магазина, получено 25 [Изысканной масляной живописи]."
+    "target_ru": "Активирован красный пакет Лавки Снеди, получено 25 [Изысканной масляной живописи]."
   },
   {
     "id": "119844",

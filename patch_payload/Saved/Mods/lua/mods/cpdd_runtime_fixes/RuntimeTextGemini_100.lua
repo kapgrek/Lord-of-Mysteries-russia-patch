@@ -261,7 +261,7 @@ return {
     ["开发"] = "Разработка",
     ["PTM₣"] = "PTM₣",
     ["刺客专防_数值"] = "Спецзащита Убийцы (значение)",
-    ["<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>230</>; when facing Emperor Roselle, Monster Specialization increases by an additional <Mark>60</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>230</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>.",
+    ["<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>230</>; when facing Emperor Roselle, Monster Specialization increases by an additional <Mark>60</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров повышается на <Mark>230</>; при встрече с императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>.",
     ["Ink Rhyme"] = "Чернильный мотив",
     ["Dungeon - Special Duty"] = "Подземелье - Особое дежурство",
     ["剧情模式时外观隐藏"] = "Внешний вид скрыт в сюжетном режиме",

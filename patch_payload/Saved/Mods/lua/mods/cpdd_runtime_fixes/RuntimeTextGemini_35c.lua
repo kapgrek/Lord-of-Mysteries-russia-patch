@@ -252,7 +252,7 @@ return {
     ["Height Box"] = "Высота коробки",
     ["Core Gorgeous Treasure Chest"] = "Великолепный сундук с сокровищами Core",
     ["%s system is not currently enabled."] = "Система %s в настоящее время не включена.",
-    ["If the next station <LightHighlight> is [Food Shop] </>, obtain <LightHighlight> 800 </> Chamber Tickets"] = "Если следующей станцией <LightHighlight> будет [Продовольственный магазин] </>, получите <LightHighlight> 800 билетов в палату </>.",
+    ["If the next station <LightHighlight> is [Food Shop] </>, obtain <LightHighlight> 800 </> Chamber Tickets"] = "Если следующей станцией <LightHighlight> будет [Лавка Снеди] </>, получите <LightHighlight> 800 билетов в палату </>.",
     ["Hehe, Arnold has grown up, and I have grown old. Time flies so fast."] = "Хе-хе, Арнольд вырос, а я постарел. Время летит так быстро.",
     ["Table"] = "Стол",
     ["After use, you will automatically obtain the following cosmetic parts based on your gender."] = "После использования вы автоматически получите следующие косметические детали в зависимости от вашего пола.",

@@ -247,7 +247,7 @@ return {
     ["Advancement Quest - Red Sword 4 - Non-Interactable"] = "Квест развития — Красный Меч 4 — Неинтерактивный",
     ["If you have any questions or confusion, Arrodes is here to answer all your questions."] = "Если у вас есть какие-либо вопросы или замешательство, Арродес здесь, чтобы ответить на все ваши вопросы.",
     ["Max Acquisition"] = "Макс. Приобретение",
-    ["If the next station <LightHighlight> is [Trading Firm] </>, upgrade all <LightHighlight> [White Items] </> to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>"] = "Если следующей станцией <LightHighlight> будет [Торговая фирма] </>, обновите все <LightHighlight> [Белые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>.",
+    ["If the next station <LightHighlight> is [Trading Firm] </>, upgrade all <LightHighlight> [White Items] </> to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>"] = "Если следующей станцией <LightHighlight> будет [Торговый дом] </>, обновите все <LightHighlight> [Белые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>.",
     ["No Sunlight-4"] = "Нет солнечного света-4",
     ["Before a Buff is applied to self"] = "Прежде чем усиление будет применено к себе",
     ["You can find many things you want here: news, items, bounties. You'll have to discover the rest yourself."] = "Здесь вы можете найти много всего, что захотите: новости, предметы, награды. Остальное вам придется узнать самостоятельно.",

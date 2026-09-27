@@ -34,7 +34,7 @@ return {
     ["Each hit of Air Bullet increases the duration of Fool's Blessing by 2 seconds, up to a maximum of 30 seconds. Fool's Blessing gains an additional 15% Damage Boost, and Pierce is increased by 50%."] = "Каждое попадание «Воздушной пули» увеличивает продолжительность «Благословени Шута» на 2 секунды, максимум до 30 секунд. «Благословени Шута» дополнительно увеличивает урон на 15%, а «Пронзание» увеличивается на 50%.",
     ["Reach %s rank in Final Hunt"] = "Достигните ранга %s в Final Hunt.",
     ["Exchange Shop Refresh"] = "Обмен Магазин Обновление",
-    ["Food Shop"] = "Продовольственный магазин",
+    ["Food Shop"] = "Лавка Снеди",
     ["Yellow Card Count Mark"] = "Знак подсчета желтой карточки",
     ["No, no, I have to wait for Melissa to eat together."] = "Нет-нет, мне нужно подождать, пока Мелисса поест вместе.",
     ["Currently using <Highlight> %d projection(s) </> to sign up. Are you sure you want to sign up? After signing up, the projection cannot be withdrawn."] = "В настоящее время для регистрации используется проекция(и) <Highlight> %d </>. Вы уверены, что хотите зарегистрироваться? После регистрации проекцию невозможно отозвать.",

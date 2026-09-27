@@ -4431,7 +4431,7 @@
     "id": "095738",
     "source_cn": "出场介绍:弗莱",
     "ref_en": "Introduction: Frye",
-    "target_ru": "Введение: Фрай"
+    "target_ru": "Описание: Фрай"
   },
   {
     "id": "095739",
@@ -4527,7 +4527,7 @@
     "id": "095754",
     "source_cn": "好礼·酒庄生效，获得60件【金牌皇家火腿】",
     "ref_en": "Gift: Winery activated, received 60 [Gold-Grade Royal Ham]",
-    "target_ru": "Подарок: активирована винодельня, получено 60 [Королевской ветчины золотого качества]"
+    "target_ru": "Подарок · Винодельня срабатывает, получено 60 [Королевской ветчины золотого качества]"
   },
   {
     "id": "095755",
@@ -4809,7 +4809,7 @@
     "id": "095801",
     "source_cn": "自定义标点",
     "ref_en": "Custom Mark",
-    "target_ru": "Пользовательский знак"
+    "target_ru": "Пользовательская метка"
   },
   {
     "id": "095802",
@@ -8961,7 +8961,7 @@
     "id": "096493",
     "source_cn": "馈赠·商行生效，获得30件【黑麦啤酒】",
     "ref_en": "Gift · Trading Firm effective, obtain 30 [Rye Beer]",
-    "target_ru": "Подарок · Торговая фирма эффективна, получите 30 [Ржаного пива]"
+    "target_ru": "Подарок · Торговый дом срабатывает, получите 30 [Ржаного пива]"
   },
   {
     "id": "096494",
@@ -9171,7 +9171,7 @@
     "id": "096528",
     "source_cn": "匹配时间",
     "ref_en": "Matching Time",
-    "target_ru": "Соответствующее время"
+    "target_ru": "Время подбора"
   },
   {
     "id": "096529",
@@ -9651,7 +9651,7 @@
     "id": "096608",
     "source_cn": "转移·商行",
     "ref_en": "Transfer · Trading Firm",
-    "target_ru": "Трансфер · Торговая фирма"
+    "target_ru": "Трансфер · Торговый дом"
   },
   {
     "id": "096609",
@@ -13719,7 +13719,7 @@
     "id": "097286",
     "source_cn": "出场介绍:“正义”",
     "ref_en": "Introduction: \"Justice\"",
-    "target_ru": "Введение: «Справедливость»"
+    "target_ru": "Описание: «Справедливость»"
   },
   {
     "id": "097287",
@@ -13869,7 +13869,7 @@
     "id": "097311",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>25</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 25 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Лафитовое красное вино, выдержанное в погребе] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанный красный «Лафит»] </>."
   },
   {
     "id": "097312",
@@ -17607,7 +17607,7 @@
     "id": "097934",
     "source_cn": "好礼·食铺生效，获得20件【铜雕烛台】",
     "ref_en": "Good Gift · Food Shop effective, obtain 20 [Bronze Candlestick]",
-    "target_ru": "Хороший подарок · Продуктовый магазин эффективен, получите 20 [Бронзовый подсвечник]"
+    "target_ru": "Подарок · Лавка Снеди срабатывает, получите 20 [Бронзовый подсвечник]"
   },
   {
     "id": "097935",
@@ -17643,7 +17643,7 @@
     "id": "097940",
     "source_cn": "当前正在PVP/副本玩法匹配中，开启双人模式会中断匹配，是否继续？",
     "ref_en": "Currently matching for PVP/Dungeon mode. Enabling duo mode will interrupt the match. Continue?",
-    "target_ru": "В настоящее время подходит для режима PVP/Dungeon. Включение режима дуэта прервет матч. Продолжать?"
+    "target_ru": "В настоящее время выполняется подбор игроков для режима PVP/Dungeon. Включение режима дуэта прервёт подбор. Продолжать?"
   },
   {
     "id": "097941",
@@ -18087,7 +18087,7 @@
     "id": "098014",
     "source_cn": "<Assistant_Title1>【足迹追寻】</>\\n<Assistant_Title2>介绍：</>\\n你的视觉将暂时剥离于现实的表象。灵性与此地沉淀的历史孔隙产生短暂的共鸣。你的眼前，将浮现出这片土地最有魅力的时刻。\\n<Assistant_Title2>玩法指引</>\\n<Assistant_Title3>1.进入玩法</>\\n可通过以下方式前往【足迹追寻】：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任一教团后，在【秩序世界】中选择玩法【足迹追寻】，选中点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在【世界详情】中查看【足迹追寻】玩法图标，并根据图标指引，在地图中找到对应标识，点击【前往】即可自动寻路。\\n<Assistant_Title3>2.完成交互</>\\n到达目标地点后，根据提示选择【观景】，欣赏这片土地最具美丽的景观之一并拍照留念。\\n<Assistant_Title3>3.解锁记忆</>\\n完成交互后，完成对应记忆的探索，增加所在地图的完成度。",
     "ref_en": "<Assistant_Title1>【Footprint Tracking】</>\\n<Assistant_Title2>Introduction:</>\\nYour vision will temporarily detach from the surface of reality. Your spirituality will resonate briefly with the historical gaps settled in this place. Before your eyes, the most charming moments of this land will emerge.\\n<Assistant_Title2>Gameplay Guide</>\\n<Assistant_Title3>1. Enter the Gameplay</>\\nYou can head to [Footprint Tracking] via the following methods:\\n<Assistant_Property2>TRPG Entrance:</>Open the Menu, enter [TRPG], join any Covenant, select the [Footprint Tracking] gameplay in the [Order World], and click [Go] to initiate Dowsing Rod Navigation.\\n<Assistant_Property1>Map Entrance:</>Open the map, switch to the [Exploration] tab, view the [Footprint Tracking] gameplay icon in [World Details], find the corresponding marker on the map based on the icon's guidance, and click [Go] to initiate Dowsing Rod Navigation.\\n<Assistant_Title3>2. Complete Interaction</>\\nUpon arriving at the target location, follow the prompts to select [View] to appreciate one of the most beautiful landscapes of this land and take a photo as a souvenir.\\n<Assistant_Title3>3. Unlock Memories</>\\nAfter completing the interaction, finish the exploration of the corresponding memory to increase the completion rate of the current map.",
-    "target_ru": "<Assistant_Title1>【Преследование по следам】</>\\n<Assistant_Title2> Введение: </>\\nВаше видение будет временно отделено от реальности. Духовность кратко перекликается с исторической пористостью этого места. Перед вашими глазами предстанут самые очаровательные моменты этой земли. \\n<Assistant_Title2>Как играть в руководство</>\\n<Assistant_Title3>1. Чтобы войти в игровой процесс </>\\nВы можете перейти в [Преследование по следам] следующими способами: \\n<Assistant_Property2>Вход в беговую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите игровой процесс [Преследование по следам] в [Упорядоченный мир], выберите и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Преследование по следам] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Завершите взаимодействие</>\\nПосле прибытия в целевое место выберите [Просмотр] в соответствии с подсказками, чтобы насладиться одним из самых красивых пейзажей этой страны и сделать фотографии. \\n<Assistant_Title3>3. Разблокируйте память</>\\nПосле завершения взаимодействия завершите исследование соответствующей памяти и увеличьте завершение карты."
+    "target_ru": "<Assistant_Title1>【Преследование по следам】</>\\n<Assistant_Title2> Описание: </>\\nВаше видение будет временно отделено от реальности. Духовность кратко перекликается с исторической пористостью этого места. Перед вашими глазами предстанут самые очаровательные моменты этой земли. \\n<Assistant_Title2>Как играть в руководство</>\\n<Assistant_Title3>1. Чтобы войти в игровой процесс </>\\nВы можете перейти в [Преследование по следам] следующими способами: \\n<Assistant_Property2>Вход в беговую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите игровой процесс [Преследование по следам] в [Упорядоченный мир], выберите и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Преследование по следам] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Завершите взаимодействие</>\\nПосле прибытия в целевое место выберите [Просмотр] в соответствии с подсказками, чтобы насладиться одним из самых красивых пейзажей этой страны и сделать фотографии. \\n<Assistant_Title3>3. Разблокируйте память</>\\nПосле завершения взаимодействия завершите исследование соответствующей памяти и увеличьте завершение карты."
   },
   {
     "id": "098015",
@@ -18759,7 +18759,7 @@
     "id": "098126",
     "source_cn": "馈赠·酒庄生效，商会票券数量{1}->{2}",
     "ref_en": "Gift · Winery effective, Chamber of Commerce ticket quantity {1}->{2}",
-    "target_ru": "Подарок · Действует винодельня, количество билетов Торгово-промышленной палаты {1}->{2}"
+    "target_ru": "Подарок · Винодельня срабатывает, количество билетов Торгово-промышленной палаты {1}->{2}"
   },
   {
     "id": "098127",
@@ -24045,7 +24045,7 @@
     "id": "099007",
     "source_cn": "<Assistant_Title1>【好友】</>\\n<Assistant_Title2>开放等级：</>认知等级<Assistant_Red>2级</>\\n<Assistant_Title2>系统入口：</><Assistant_System>菜单-好友</>{JumpToUI:[【前往查看】]|1250030}\\n<Assistant_Title2>系统介绍：</>在好友界面，可以进行查找、添加、管理好友、查看好友个人信息和在线状态，与好友私聊和赠礼等操作。\\n<Assistant_Title2>好友添加：</><Assistant_System>好友-添加</>页签下，输入角色昵称或角色数字ID可以搜索本服和跨服好友。\\n<Assistant_Title2>好友申请：</><Assistant_System>好友-申请</>页签下，可以操作好友申请信息。 \\n<Assistant_Title2>好友推荐：</><Assistant_System>好友-添加</>页签下，系统自动推荐本服好友。\\n<Assistant_Title2>好友弹条设置：</><Assistant_System>设置-社交-信息设置</>中，可以操作是否显示好友申请弹条。\\n<Assistant_Title3>基础功能细节规则：</>{SendAnswer:[好友-好友列表]|1407}，{SendAnswer:[好友-私聊]|1408}，{SendAnswer:[好友-群聊]|1409}，{SendAnswer:[好友-好友度]|1410}，{SendAnswer:[好友-跨服好友]|1411}，{SendAnswer:[好友-删除拉黑]|1412}",
     "ref_en": "<Assistant_Title1>【Friends】</>\\n<Assistant_Title2>Unlock Level: </>Cognition Level <Assistant_Red>2</>\\n<Assistant_Title2>System Access: </><Assistant_System>Menu-Friends</>{JumpToUI:[【Go to View】]|1250030}\\n<Assistant_Title2>System Introduction: </>In the Friends interface, you can search for, add, and manage friends, view their personal information and online status, send private messages, and give gifts.\\n<Assistant_Title2>Adding Friends: </><Assistant_System>Under the Friends-Add</> tab, enter a character nickname or numeric ID to search for friends on the current server or cross-server.\\n<Assistant_Title2>Friend Requests: </><Assistant_System>Under the Friends-Requests</> tab, you can manage friend request notifications. \\n<Assistant_Title2>Friend Recommendations: </><Assistant_System>Under the Friends-Add</> tab, the system will automatically recommend friends from the current server.\\n<Assistant_Title2>Friend Notification Settings: </><Assistant_System>In Settings-Social-Message Settings</>, you can toggle whether to display friend request notifications.\\n<Assistant_Title3>Basic Function Details: </>{SendAnswer:[Friends-Friend List]|1407}, {SendAnswer:[Friends-Private Chat]|1408}, {SendAnswer:[Friends-Group Chat]|1409}, {SendAnswer:[Friends-Friendship Level]|1410}, {SendAnswer:[Friends-Cross-Server Friends]|1411}, {SendAnswer:[Friends-Delete/Block]|1412}",
-    "target_ru": "<Assistant_Title1>[Друзья]</>\\n<Assistant_Title2>Открытый уровень: </>Когнитивный уровень<Assistant_Red>Уровень 2</>\\n<Assistant_Title2>Вход в систему: </><Assistant_System>Menu-Friends</> {JumpToUI:[[Перейти к просмотру]]|1250030}\\n<Assistant_Title2> Введение в систему: </> В интерфейсе друзей вы можете находить, добавлять друзей, управлять ими, просматривать личную информацию друзей и их онлайн-статус, общаться в приватном чате с друзьями и дарить подарки. \\n<Assistant_Title2>Добавление друга: </><Assistant_System>Добавить друга </> Под страницей введите псевдоним персонажа или цифровой идентификатор персонажа для поиска друзей на этом сервере и между серверами. \\n<Assistant_Title2>Приложение друга: </><Assistant_System>Приложение друга</> На этой странице вы можете управлять информацией о приложении друга. \\n<Assistant_Title2>Рекомендация друзей: </><Assistant_System>Друзья - добавьте </> под страницей, система автоматически порекомендует друзей на этом сервере. \\n<Assistant_Title2>Настройки всплывающей панели друзей: </><Assistant_System>Настройки-Настройки социальной информации</>, вы можете управлять отображением всплывающей панели приложения друга. \\n<Assistant_Title3> Основные правила подробностей функций: </>{SendAnswer:[Список друзей-друзей]|1407}, {SendAnswer:[Друзья-частный чат]|1408}, {SendAnswer: [Друзья-групповой чат]|1409}, {SendAnswer:[Степень друзей-другов]|1410}, {SendAnswer:[Друзья-Межсерверные друзья]|1411}, {SendAnswer:[Друзья-Удалить и заблокировать]|1412}"
+    "target_ru": "<Assistant_Title1>[Друзья]</>\\n<Assistant_Title2>Открытый уровень: </>Когнитивный уровень<Assistant_Red>Уровень 2</>\\n<Assistant_Title2>Вход в систему: </><Assistant_System>Menu-Friends</> {JumpToUI:[[Перейти к просмотру]]|1250030}\\n<Assistant_Title2> Описание системы: </> В интерфейсе друзей вы можете находить, добавлять друзей, управлять ими, просматривать личную информацию друзей и их онлайн-статус, общаться в приватном чате с друзьями и дарить подарки. \\n<Assistant_Title2>Добавление друга: </><Assistant_System>Добавить друга </> Под страницей введите псевдоним персонажа или цифровой идентификатор персонажа для поиска друзей на этом сервере и между серверами. \\n<Assistant_Title2>Приложение друга: </><Assistant_System>Приложение друга</> На этой странице вы можете управлять информацией о приложении друга. \\n<Assistant_Title2>Рекомендация друзей: </><Assistant_System>Друзья - добавьте </> под страницей, система автоматически порекомендует друзей на этом сервере. \\n<Assistant_Title2>Настройки всплывающей панели друзей: </><Assistant_System>Настройки-Настройки социальной информации</>, вы можете управлять отображением всплывающей панели приложения друга. \\n<Assistant_Title3> Основные правила подробностей функций: </>{SendAnswer:[Список друзей-друзей]|1407}, {SendAnswer:[Друзья-частный чат]|1408}, {SendAnswer: [Друзья-групповой чат]|1409}, {SendAnswer:[Степень друзей-другов]|1410}, {SendAnswer:[Друзья-Межсерверные друзья]|1411}, {SendAnswer:[Друзья-Удалить и заблокировать]|1412}"
   },
   {
     "id": "099008",
@@ -24717,7 +24717,7 @@
     "id": "099119",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>怪物专攻提高<Mark>270</>，穿刺降低<Mark>40</>，污染值提高<Mark>15</>。造成伤害/治疗时获得一层荒芜之力，每<Mark>2</>秒最多获得一层，使用<Mark>终结技能</>时根据累计的荒芜之力额外造成伤害/治疗。\\n污染效果：达到<Mark>30</>污染值时，荒芜之力会对自身造成少量伤害。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Monster Specialization increased by <Mark>270</>, Piercing decreased by <Mark>40</>, corruption increased by <Mark>15</>. Gain one layer of Power of Desolation when dealing damage/healing, with a maximum of one layer every <Mark>2</> seconds. Using a <Mark>Finisher Skill</> causes additional damage/healing based on the accumulated Power of Desolation. \\ncorruption effect: When reaching <Mark>30</> corruption, Power of Desolation will cause a small amount of damage to the wearer. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</>Специализация против монстров увеличилась <Mark>270</>, Пронзание уменьшилось <Mark>40</>, значение загрязнения увеличилось <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \\nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Специализация против монстров увеличилась <Mark>270</>, Пронзание уменьшилось <Mark>40</>, значение загрязнения увеличилось <Mark>15</>. Получите один слой Силы Пустоши при нанесении урона/исцелении, до одного слоя каждые <Mark>2</> секунд. При использовании завершающих навыков <Mark></> будет наноситься дополнительный урон/исцеление в зависимости от накопленной Силы Опустошения. \\nЭффект загрязнения: при достижении значения загрязнения <Mark>30</> сила опустошения нанесет себе небольшой ущерб. <Mark>{1,4,(очищенный)}</>\\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "099120",
@@ -25497,7 +25497,7 @@
     "id": "099249",
     "source_cn": "\\n若您渴望成为政府雇员，请选择我们的夜间学堂！\\n识字就能来，结业保送市政厅考试！\\n\\n<Highlight>开课详情</>\\n◆每逢二四六夜间授课\\n◆学费1磅12苏勒\\n\\n月月准点发金镑，刮风下雨不下岗。\\n高薪体面又轻松，码头扛包百倍强！\\n\\n<Highlight>水仙花街6号\"金笔杆\"商行</>报名，名额只收<Mark id=\"#159_R\"> 30人 </>，手慢明年挤破头！",
     "ref_en": "\\nIf you aspire to become a government employee, please choose our night school!\\nIf you can read, you can come; graduation guarantees a recommendation for the City Hall exam!\\n\\n<Highlight>Course Details</>\\n◆Classes held at night on Tuesdays, Thursdays, and Saturdays\\n◆Tuition 1 pound 12 soli\\n\\nGet paid in gold pounds on time every month, no layoffs regardless of wind or rain.\\nHigh salary, decent and easy, a hundred times better than carrying bags at the dock!\\n\\nSign up at <Highlight>\"Golden Pen\" Firm, 6 Daffodil Street</>, only <Mark id=\"#159_R\"> 30 spots </> available, if you're slow, you'll be fighting for a spot next year!",
-    "target_ru": "\\n Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в ночное время каждый вторник и субботу \\n◆Стоимость обучения составляет 1 фунт 12 солов\\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговая компания «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
+    "target_ru": "\\n Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в ночное время каждый вторник и субботу \\n◆Стоимость обучения составляет 1 фунт 12 солов\\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговый дом «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
   },
   {
     "id": "099250",
@@ -25713,7 +25713,7 @@
     "id": "099285",
     "source_cn": "出场介绍:赛琳娜",
     "ref_en": "Introduction: Selena",
-    "target_ru": "Введение: Селена"
+    "target_ru": "Описание: Селена"
   },
   {
     "id": "099286",
@@ -25839,7 +25839,7 @@
     "id": "099306",
     "source_cn": "好礼·食铺失效，本站不是【食铺】",
     "ref_en": "Gift: Shop failed, this station is not [Shop]",
-    "target_ru": "Подарок: Магазин не удался, этой станции нет [Магазин]"
+    "target_ru": "Подарок · Лавка Снеди не срабатывает, эта станция — не [Лавка Снеди]"
   },
   {
     "id": "099307",
@@ -27765,7 +27765,7 @@
     "id": "099627",
     "source_cn": "押宝·食铺",
     "ref_en": "Bet · Food Shop",
-    "target_ru": "Ставка · Продуктовый магазин"
+    "target_ru": "Ставка · Лавка Снеди"
   },
   {
     "id": "099628",

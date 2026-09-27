@@ -63,7 +63,7 @@ return {
     ["You can even steal the consciousness of being alive? Are you really just a postman?"] = "Вы даже можете украсть сознание того, что вы живы? Ты правда просто почтальон?",
     ["Zoe, the academy..."] = "Зои, академия...",
     ["See how many options there are"] = "Посмотрите, сколько вариантов",
-    ["Food Shop Red Packet expired, this station is not a [Food Shop]."] = "Срок действия красного пакета продовольственного магазина истек, эта станция не является [продуктовым магазином].",
+    ["Food Shop Red Packet expired, this station is not a [Food Shop]."] = "Срок действия красного пакета Лавки Снеди истек, эта станция не является [Лавкой Снеди].",
     ["Small Score Point 1"] = "Малый балл 1",
     ["Dominator's Clash: Blood Prince"] = "Битва Доминаторов: Кровавый Принц",
     ["Stagnation gameplay 1"] = "Застой геймплея 1",

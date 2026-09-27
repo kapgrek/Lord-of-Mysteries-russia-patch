@@ -21,7 +21,7 @@
     "id": "100003",
     "source_cn": "备货·非商行生效，获得20件【珍品迷雾香槟】",
     "ref_en": "Stocking: Non-Trading House activated, received 20 [Premium Mist Champagne]",
-    "target_ru": "Stocking: активирован неторговый дом, получено 20 [премиум-шампанского Mist]."
+    "target_ru": "Запас: срабатывает, если не Торговый дом, получено 20 [Премиальное туманное шампанское]."
   },
   {
     "id": "100004",
@@ -171,7 +171,7 @@
     "id": "100028",
     "source_cn": "暂无介绍",
     "ref_en": "No introduction",
-    "target_ru": "Без введения"
+    "target_ru": "Пока нет описания"
   },
   {
     "id": "100029",
@@ -753,7 +753,7 @@
     "id": "100125",
     "source_cn": "备货·非酒庄生效，获得60件【珍品迷雾香槟】",
     "ref_en": "Stocking: Non-Winery activated, received 60 [Premium Mist Champagne]",
-    "target_ru": "Запас: активирован не-винный завод, получено 60 [Премиум-шампанское Mist]."
+    "target_ru": "Запас: срабатывает, если не Винодельня, получено 60 [Премиальное туманное шампанское]."
   },
   {
     "id": "100126",
@@ -6705,7 +6705,7 @@
     "id": "101117",
     "source_cn": "出场介绍:尼尔",
     "ref_en": "Introduction: Neil",
-    "target_ru": "Введение: Нил"
+    "target_ru": "Описание: Нил"
   },
   {
     "id": "101118",
@@ -8097,7 +8097,7 @@
     "id": "101349",
     "source_cn": "<Assistant_Title1>【吟游诗人】</>\\n<Assistant_Title2>介绍:</>在各处探索时，偶尔会听到带有明确方向感的低语声在耳边回荡，循着声音逐步接近其来源，便可找到吟游诗人。\\n<Assistant_Title2>玩法指引：</>\\n<Assistant_Title3>1.寻找吟游诗人</>\\n可通过以下任一方式前往吟游诗人：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任意教团后，在【秩序世界】中选择【吟游诗人】，点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在地图中点击吟游诗人图标，即可追踪并自动寻路。\\n<Assistant_Title3>2.聆听旋律</>\\n到达目标地点后，跟随脚下的音波寻找声音来源，与吟游诗人对话，并选择对应的互动方式。\\n<Assistant_Title3>3.完成挑战</>\\n寻找旋律：开启<Assistant_System>灵视</>，寻找附近散落的三个音符，收集完成后即可开启奖励宝箱。\\n哼唱旋律或解析旋律：根据提示完成投掷检定，检定成功即可完成挑战并获得奖励。",
     "ref_en": "<Assistant_Title1>【Bard】</>\\n<Assistant_Title2>Introduction:</>When exploring various places, you will occasionally hear whispers with a clear sense of direction echoing in your ears. Follow the sound to gradually approach its source, and you will find the Bard.\\n<Assistant_Title2>Gameplay Guide:</>\\n<Assistant_Title3>1. Find the Bard</>\\nYou can go to the Bard in any of the following ways:\\n<Assistant_Property2>TRPG Entrance:</>Open the menu to enter 【TRPG】, join any sect, select 【Bard】 in the 【Order World】, and click 【Go】 to automatically pathfind.\\n<Assistant_Property1>Map Entrance:</>Open the map, switch to the 【Exploration】 tab, click the Bard icon on the map to track and automatically pathfind.\\n<Assistant_Title3>2. Listen to the Melody</>\\nAfter arriving at the target location, follow the sound waves at your feet to find the source of the sound, talk to the Bard, and choose the corresponding interaction method.\\n<Assistant_Title3>3. Complete the Challenge</>\\nFind the melody: Turn on <Assistant_System>spirit vision</>, find the three musical notes scattered nearby, and after collecting them, you can open the reward chest.\\nHum the melody or analyze the melody: Complete the throwing check according to the prompts; if the check is successful, you can complete the challenge and receive rewards.",
-    "target_ru": "<Assistant_Title1>【Бард】</>\n<Assistant_Title2>Введение:</>Исследуя повсюду, вы время от времени будете слышать шепот с четким ощущением направления, эхом разносящимся в ваших ушах. Следуйте за звуком и постепенно приближайтесь к его источнику, и вы сможете найти барда. \n<Assistant_Title2>Как играть: </>\n<Assistant_Title3>1. Ищем барда </>\nЗайти к барду можно любым из следующих способов: \n<Assistant_Property2>Вход в бегущую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Бард] в [Упорядоченный мир] и нажмите [Перейти], чтобы автоматически найти путь. \n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование] и щелкните значок барда на карте, чтобы отследить и автоматически найти путь. \n<Assistant_Title3>2. Прослушайте мелодию</>\nПрибыв в целевую локацию, следуйте звуковым волнам под ногами, чтобы найти источник звука, поговорите с бардом и выберите соответствующий метод взаимодействия. \n<Assistant_Title3>3. Выполните задание</>\nНайдите мелодию: включите <Assistant_System>Духовное видение</>, найдите три ноты, разбросанные поблизости, и, собрав их, вы сможете открыть сундук с наградой. \n Напевайте мелодию или анализируйте мелодию: Выполните тест на бросок согласно подсказкам. Если испытание пройдет успешно, вы сможете выполнить задание и получить награду."
+    "target_ru": "<Assistant_Title1>【Бард】</>\n<Assistant_Title2>Описание:</>Исследуя повсюду, вы время от времени будете слышать шепот с четким ощущением направления, эхом разносящимся в ваших ушах. Следуйте за звуком и постепенно приближайтесь к его источнику, и вы сможете найти барда. \n<Assistant_Title2>Как играть: </>\n<Assistant_Title3>1. Ищем барда </>\nЗайти к барду можно любым из следующих способов: \n<Assistant_Property2>Вход в бегущую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Бард] в [Упорядоченный мир] и нажмите [Перейти], чтобы автоматически найти путь. \n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование] и щелкните значок барда на карте, чтобы отследить и автоматически найти путь. \n<Assistant_Title3>2. Прослушайте мелодию</>\nПрибыв в целевую локацию, следуйте звуковым волнам под ногами, чтобы найти источник звука, поговорите с бардом и выберите соответствующий метод взаимодействия. \n<Assistant_Title3>3. Выполните задание</>\nНайдите мелодию: включите <Assistant_System>Духовное видение</>, найдите три ноты, разбросанные поблизости, и, собрав их, вы сможете открыть сундук с наградой. \n Напевайте мелодию или анализируйте мелодию: Выполните тест на бросок согласно подсказкам. Если испытание пройдет успешно, вы сможете выполнить задание и получить награду."
   },
   {
     "id": "101350",
@@ -8325,7 +8325,7 @@
     "id": "101387",
     "source_cn": "匹配中…",
     "ref_en": "Matching...",
-    "target_ru": "Соответствует..."
+    "target_ru": "Подбор игроков..."
   },
   {
     "id": "101388",
@@ -8535,7 +8535,7 @@
     "id": "101422",
     "source_cn": "成员%s缺少当前玩法分包资源，无法进行匹配",
     "ref_en": "Member %s is missing sub-package resources for the current mode; cannot matchmake.",
-    "target_ru": "У члена %s отсутствуют ресурсы подпакета для текущего режима; не может свататься."
+    "target_ru": "У члена %s отсутствуют ресурсы подпакета для текущего режима; подбор невозможен."
   },
   {
     "id": "101423",
@@ -11259,7 +11259,7 @@
     "id": "101876",
     "source_cn": "出场介绍:“倒吊人”",
     "ref_en": "Introduction: \"The Hanged Man\"",
-    "target_ru": "Введение: «Повешенный»."
+    "target_ru": "Описание: «Повешенный»."
   },
   {
     "id": "101877",
@@ -11751,7 +11751,7 @@
     "id": "101958",
     "source_cn": "<Assistant_Title1>【风尚沙龙】</>\\n<Assistant_Title2>介绍：</>在鲁恩王国的上流社会,对时尚的品鉴是身份与数养的象征。绅士淑女们对服饰有着苛刻追求。根据场合、身份与季节,塔配得体的眼装,方能在社交圈中贏得尊重。通过品鉴挑战,展现你的审美,在上流圈声名鹊起。\\n<Assistant_Title2>玩法指引：</>\\n<Assistant_Title3>1. 寻找风尚沙龙</>\\n可通过以下任一方式前往玩法：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任意教团后，在【秩序世界】中选择【风尚沙龙】，点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在【世界详情】中查看【风尚沙龙】玩法图标，并根据图标指引，在地图中找到对应标识，点击【前往】即可自动寻路。\\n<Assistant_Title3>2. 时装搭配PK</>\\n与NPC对话后开启挑战，可以根据风格与评分进行搭配，PK胜利获得对应奖励。\\n<Assistant_Title1>【助手提示】</>\\n风尚沙龙不会计入秩序世界的完成度哟~",
     "ref_en": "<Assistant_Title1>【Fashion Salon】</>\\n<Assistant_Title2>Introduction: </>In the high society of the Loen Kingdom, an appreciation for fashion is a symbol of status and cultivation. Gentlemen and ladies have exacting standards for their attire. By coordinating appropriate outfits according to the occasion, status, and season, you can earn respect in social circles. Show off your aesthetic sense through appreciation challenges and make a name for yourself in high society.\\n<Assistant_Title2>Gameplay Guide: </>\\n<Assistant_Title3>1. Finding the Fashion Salon</>\\nYou can navigate to this activity using either of the following methods:\\n<Assistant_Property2>TTRPG Entry:</>Open the Menu, enter [TTRPG], join any organization, select [Fashion Salon] in the [Orderly World], and click [Go] to start auto-pathing.\\n<Assistant_Property1>Map Entry:</>Open the map, switch to the [Exploration] tab, view the [Fashion Salon] icon in [World Details], find the corresponding marker on the map based on the icon's guidance, and click [Go] to start auto-pathing.\\n<Assistant_Title3>2. Fashion Coordination PK</>\\nStart the challenge after speaking with the NPC; you can coordinate based on style and ratings, and winning the PK will grant corresponding rewards.\\n<Assistant_Title1>【Assistant Tip】</>\\nThe Fashion Salon does not count towards the completion progress of the Orderly World~",
-    "target_ru": "<Assistant_Title1>[Салон модной одежды]</>\n<Assistant_Title2>Введение: </>В высшем сословном обществе Королевства Лоэн признание моды является символом статуса и богатства. Мужчины и дамы строго следят за одеждой. В зависимости от случая, статуса и сезона, только подобрав подходящие очки, можно завоевать уважение в кругу общения. Продемонстрируйте свою эстетику, участвуя в дегустациях, и прославьтесь в высшем обществе. \n<Assistant_Title2>Как играть: </>\n<Assistant_Title3>1. Ищем салон мод </>\n В игровой процесс можно перейти любым из следующих способов: \n<Assistant_Property2>Вход в беговую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Салон мод] в [Мир порядка] и нажмите [Перейти], чтобы автоматически найти путь. \n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Салон моды] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \n<Assistant_Title3>2. Соответствие моде PK</>\n После разговора с NPC начинается испытание. Вы можете соответствовать по стилю и счету. Если вы выиграете ПК, вы получите соответствующую награду. \n<Assistant_Title1>[Советы помощника]</>\nСалон мод не будет засчитан при завершении Мира порядка~"
+    "target_ru": "<Assistant_Title1>[Салон модной одежды]</>\n<Assistant_Title2>Описание: </>В высшем сословном обществе Королевства Лоэн признание моды является символом статуса и богатства. Мужчины и дамы строго следят за одеждой. В зависимости от случая, статуса и сезона, только подобрав подходящие очки, можно завоевать уважение в кругу общения. Продемонстрируйте свою эстетику, участвуя в дегустациях, и прославьтесь в высшем обществе. \n<Assistant_Title2>Как играть: </>\n<Assistant_Title3>1. Ищем салон мод </>\n В игровой процесс можно перейти любым из следующих способов: \n<Assistant_Property2>Вход в беговую группу: </>Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Салон мод] в [Мир порядка] и нажмите [Перейти], чтобы автоматически найти путь. \n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Салон моды] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \n<Assistant_Title3>2. Соответствие моде PK</>\n После разговора с NPC начинается испытание. Вы можете соответствовать по стилю и счету. Если вы выиграете ПК, вы получите соответствующую награду. \n<Assistant_Title1>[Советы помощника]</>\nСалон мод не будет засчитан при завершении Мира порядка~"
   },
   {
     "id": "101959",
@@ -13317,7 +13317,7 @@
     "id": "102219",
     "source_cn": "{{player.name}}在命运的剧本中走遍了每一条岔路，将跑团天赋悉数解锁！这位非凡者，已为中最复杂的迷局做好了万全准备——命运无从设伏，他早已预判了一切。",
     "ref_en": "{{player.name}} has walked through every fork in the road of fate's script and unlocked all their tabletop gaming talents! This Beyonder is fully prepared for the most complex maze—fate cannot set an ambush, as they have already anticipated everything.",
-    "target_ru": "{{player.name}} has walked through every fork in the road of fate's script and unlocked all their tabletop gaming talents! This Потусторонний is fully prepared for the most complex maze—fate cannot set an ambush, as they have already anticipated everything."
+    "target_ru": "{{player.name}} прошёл все развилки в сценарии судьбы и полностью разблокировал таланты «Бегущей группы»! Этот Потусторонний полностью готов к самому сложному лабиринту — судьба не сможет застать его врасплох, ведь он уже всё предвидел."
   },
   {
     "id": "102220",
@@ -13557,7 +13557,7 @@
     "id": "102259",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,把所有的<LightHighlight>【白色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, upgrade all <LightHighlight> [White Items] </> to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>",
-    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговая фирма] </>, обновите все <LightHighlight> [Белые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>."
+    "target_ru": "Если следующей станцией <LightHighlight> будет [Торговый дом] </>, обновите все <LightHighlight> [Белые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>."
   },
   {
     "id": "102260",
@@ -20265,7 +20265,7 @@
     "id": "103377",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,获得<LightHighlight>15</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30102\">【蜂蜜麦酒】</>",
     "ref_en": "If the next station <LightHighlight> is [Food Shop] </>, obtain <LightHighlight> 15 </> items of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30102\"> [Honey Ale] </>",
-    "target_ru": "Если следующей станцией <LightHighlight> будет [Продовольственный магазин] </>, получите <LightHighlight> 15 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30102\"> [Медовый эль] </>."
+    "target_ru": "Если следующей станцией <LightHighlight> будет [Лавка Снеди] </>, получите <LightHighlight> 15 предметов </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30102\"> [Медовый эль] </>."
   },
   {
     "id": "103378",
@@ -25101,7 +25101,7 @@
     "id": "104183",
     "source_cn": "窖藏拉菲干红",
     "ref_en": "Cellared Lafite Dry Red",
-    "target_ru": "Погребальный Лафит Сухой Красный"
+    "target_ru": "Выдержанный красный «Лафит»"
   },
   {
     "id": "104184",
@@ -25317,7 +25317,7 @@
     "id": "104219",
     "source_cn": "<Assistant_Title1>【挑战事件】</>\\n<Assistant_Title2>介绍：</>挑战事件包含首领挑战、竞速挑战及激战·邦尼等多种玩法。完成挑战可获得对应奖励，部分挑战将根据完成表现发放分档奖励。\\n<Assistant_Title2>开启规则：</>\\n1.完成指定前置剧情事件或挑战事件。\\n2.<Assistant_Red>激战·邦尼</>需要达到指定的等级与非凡评分。\\n<Assistant_Title2>助手建议：</>\\n1.可以通过查看首领攻略，反复向敌人发起挑战！\\n2.部分挑战拥有分档奖励，挑战表现越优秀，获得奖励越丰厚。",
     "ref_en": "<Assistant_Title1>【Challenge Event】</>\\n<Assistant_Title2>Introduction: </>Challenge Events include various modes such as Boss Challenges, Speed Challenges, and Fierce Battle · Bonnie. Completing challenges grants corresponding rewards, and some challenges provide tiered rewards based on performance. \\n<Assistant_Title2>Unlock Rules: </>\\n1. Complete the specified prerequisite Story Event or Challenge Event. \\n2. <Assistant_Red>Fierce Battle · Bonnie</> requires reaching the specified level and Beyonder rating. \\n<Assistant_Title2>Assistant's Advice: </>\\n1. You can check boss guides and repeatedly challenge enemies! \\n2. Some challenges have tiered rewards; the better your performance, the more generous the rewards.",
-    "target_ru": "<Assistant_Title1>【Событие «Испытание»】</>\n<Assistant_Title2>Введение: </>Событие «Испытание» включает в себя испытание с боссом, гоночное испытание и жестокую битву Бонни. Выполнение испытаний принесет вам соответствующие награды, а некоторые испытания будут распределяться по уровням в зависимости от ваших результатов. \n<Assistant_Title2>Правила дебюта: </>\n1. Завершите назначенные предварительные сюжетные события или испытания. \n2.<Assistant_Red> Жестокая битва·Бонни</> требует достижения указанного уровня и экстраординарного количества очков. \n<Assistant_Title2>Предложение ассистента: </>\n1. Вы можете неоднократно бросать вызов врагу, проверяя стратегию лидера! \n2. Некоторые испытания имеют многоуровневые награды. Чем лучше вы справитесь с заданием, тем более щедрые награды вы получите."
+    "target_ru": "<Assistant_Title1>【Событие «Испытание»】</>\n<Assistant_Title2>Описание: </>Событие «Испытание» включает в себя испытание с боссом, гоночное испытание и жестокую битву Бонни. Выполнение испытаний принесет вам соответствующие награды, а некоторые испытания будут распределяться по уровням в зависимости от ваших результатов. \n<Assistant_Title2>Правила дебюта: </>\n1. Завершите назначенные предварительные сюжетные события или испытания. \n2.<Assistant_Red> Жестокая битва·Бонни</> требует достижения указанного уровня и экстраординарного количества очков. \n<Assistant_Title2>Предложение ассистента: </>\n1. Вы можете неоднократно бросать вызов врагу, проверяя стратегию лидера! \n2. Некоторые испытания имеют многоуровневые награды. Чем лучше вы справитесь с заданием, тем более щедрые награды вы получите."
   },
   {
     "id": "104220",

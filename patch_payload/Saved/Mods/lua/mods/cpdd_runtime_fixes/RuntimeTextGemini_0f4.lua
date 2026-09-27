@@ -218,7 +218,7 @@ return {
     ["Asynchronous return to the dungeon failed."] = "Асинхронный возврат в подземелье не удался.",
     ["Behind player (locked)"] = "Позади игрока (заблокировано)",
     ["Sound the call! Let the giants' war song echo through the King's Court!"] = "Позвоните! Пусть военная песня гигантов эхом разнесется по королевскому двору!",
-    ["Bargaining · Trading Firm effective, selling price at this station +40%"] = "Торг · Действует торговая фирма, цена продажи на этой станции +40%",
+    ["Bargaining · Trading Firm effective, selling price at this station +40%"] = "Торг · Торговый дом срабатывает, цена продажи на этой станции +40%",
     ["Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 62</> orange or gold quality Equipment, as well as a Trading Contract that can be exchanged in the <Highlight>Trading Market</> for <Highlight>tradable items of the corresponding Item Level</>, <Highlight>tradable</> Gold Thread, Beyonder materials, medicine, food, etc."] = "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получаете случайный предмет <Highlight>Item уровня 62</> оборудования оранжевого или золотого качества, а также торговый контракт, который можно обменять на <Highlight>Trading Market</> на <Highlight>торгуемые предметы соответствующего уровня предмета</>, <Highlight>tradable</> Золотая нить, материалы Потусторонний, лекарства, еду и т. д.",
     ["Regardless, you have obtained what you wanted—"] = "Несмотря ни на что, вы получили то, что хотели…",
     ["Thick Fog"] = "Густой туман",

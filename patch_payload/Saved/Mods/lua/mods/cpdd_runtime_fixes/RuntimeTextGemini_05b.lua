@@ -173,7 +173,7 @@ return {
     ["Companion rank reaches Baron"] = "Ранг компаньона достиг барона",
     ["Guild League auction time"] = "Время аукциона Лиги гильдий",
     ["Trigger interval"] = "Интервал триггера",
-    ["If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 60 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Birch Nepos] </>."] = "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 60 единиц </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Березовый Непос] </>.",
+    ["If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 60 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Birch Nepos] </>."] = "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 60 единиц </> из <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30106\"> [Березовый Непос] </>.",
     ["Paper Figurine Deception"] = "Бумажная фигурка Обман",
     ["Medium Shot Salute"] = "Салют среднего выстрела",
     ["Dungeon Dungeon·Dungeon Vice-Dungeon Dungeon Dungeon Vice"] = "Подземелье Подземелье · Порок подземелья Подземелье Порок подземелья",

@@ -4293,7 +4293,7 @@
     "id": "110715",
     "source_cn": "可买入站点：<LightHighlight>商行</>\\n可卖出站点：<LightHighlight>酒庄、食铺</>\\n物品类型：<LightHighlight>艺术品</>",
     "ref_en": "Buyable Stations: <LightHighlight> Trading Firm </> \\n Sellable Stations: <LightHighlight> Winery, Food Shop </> \\n Item Type: <LightHighlight> Art </>",
-    "target_ru": "Сайты, где можно купить: <LightHighlight>Бизнес-Дом</>\\n Сайты, где можно продать: <LightHighlight>Винодельни, рестораны</>\\nТип предмета:<LightHighlight>Произведение искусства</>"
+    "target_ru": "Сайты, где можно купить: <LightHighlight>Торговый дом</>\\n Сайты, где можно продать: <LightHighlight>Винодельни, Лавки Снеди</>\\nТип предмета:<LightHighlight>Произведение искусства</>"
   },
   {
     "id": "110716",
@@ -6627,7 +6627,7 @@
     "id": "111104",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,把所有的<LightHighlight>【蓝色物品】和【紫色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, upgrade all <LightHighlight> [Blue Items] and [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Торговая фирма] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканная масляная живопись] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Торговый дом] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканная масляная живопись] </>."
   },
   {
     "id": "111105",
@@ -6837,7 +6837,7 @@
     "id": "111139",
     "source_cn": "熟客·商行生效，获得自身50%的【玉米脆片】",
     "ref_en": "Regular Customer · Trading Firm effective, obtain 50% of own [Corn Chips]",
-    "target_ru": "Постоянный клиент · Действует торговая фирма, получите 50% собственных [кукурузных чипсов]"
+    "target_ru": "Постоянный клиент · Торговый дом срабатывает, получите 50% собственных [Кукурузных чипсов]"
   },
   {
     "id": "111140",
@@ -11067,7 +11067,7 @@
     "id": "111844",
     "source_cn": "备货·非食铺",
     "ref_en": "Stocking · Non-Food Shop",
-    "target_ru": "Чулок · Магазин непродовольственных товаров"
+    "target_ru": "Запас · Не Лавка Снеди"
   },
   {
     "id": "111845",
@@ -13443,7 +13443,7 @@
     "id": "112240",
     "source_cn": "当前位面不允许进行快速匹配",
     "ref_en": "Quick matching is not allowed in the current plane.",
-    "target_ru": "Быстрое сопоставление не разрешено в текущей плоскости."
+    "target_ru": "Быстрый подбор игроков не разрешён в текущей плоскости."
   },
   {
     "id": "112241",
@@ -13785,7 +13785,7 @@
     "id": "112297",
     "source_cn": "若您渴望成为政府雇员，请选择我们的夜间学堂！\\n识字就能来，结业保送市政厅考试！\\n\\n<Highlight>开课详情</>\\n◆每逢二四六夜间授课\\n◆学费1磅12苏勒\\n\\n月月准点发金镑，刮风下雨不下岗。\\n高薪体面又轻松，码头扛包百倍强！\\n\\n<Highlight>水仙花街6号\"金笔杆\"商行</>报名，名额只收<Mark id=\"#159_R\"> 30人 </>，手慢明年挤破头！",
     "ref_en": "If you aspire to become a government employee, please choose our night school! \\n If you can read, you can come. Graduation guarantees a recommendation for the City Hall exam! \\n \\n <Highlight> Course Details </> \\n ◆ Classes held on Tuesday, Thursday, and Saturday nights \\n ◆ Tuition: 1 pound 12 soli \\n \\n Receive gold pounds on time every month, no layoffs regardless of wind or rain. \\n High-paying, decent, and easy; a hundred times better than carrying bags at the docks! \\n \\n <Highlight> 6 Daffodil Street, \"Golden Pen\" Firm </> Registration, only <Mark id=\"#159_R\"> 30 spots </>, sign up fast or you'll be squeezed out next year!",
-    "target_ru": "Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\n Вы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в вечернее время каждый вторник и субботу \\n◆Стоимость обучения 1 фунт 12 солов \\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, прилично и спокойно, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговая компания «Золотая Ручка», улица Нарцисс №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
+    "target_ru": "Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\n Вы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в вечернее время каждый вторник и субботу \\n◆Стоимость обучения 1 фунт 12 солов \\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, прилично и спокойно, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговый дом «Золотая Ручка», улица Нарцисс №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
   },
   {
     "id": "112298",
@@ -18705,7 +18705,7 @@
     "id": "113117",
     "source_cn": "可买入站点：<Buff>食铺</>\\n可买入站点：<Buff>食铺</>\\n标准价格：<Buff>30</>",
     "ref_en": "Buyable site: <Buff> Food Shop </> \\n Buyable site: <Buff> Food Shop </> \\n Standard price: <Buff> 30 </>",
-    "target_ru": "Доступные объекты: <Buff>Продовольственный магазин</>\\n Доступные объекты: <Buff>Продовольственный магазин</>\\nСтандартная цена:<Buff>30</>"
+    "target_ru": "Доступные объекты: <Buff>Лавка Снеди</>\\n Доступные объекты: <Buff>Лавка Снеди</>\\nСтандартная цена:<Buff>30</>"
   },
   {
     "id": "113118",
@@ -19455,7 +19455,7 @@
     "id": "113242",
     "source_cn": "升级·食铺生效，所有的【白色物品】升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\">【鎏银宫廷茶具】</>",
     "ref_en": "Upgrade · Food Shop effective, all [White Items] upgraded to <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Silver-Gilt Court Tea Set] </>",
-    "target_ru": "Обновление · Продуктовый магазин вступил в силу, все [Белые предметы] улучшены до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>"
+    "target_ru": "Обновление · Лавка Снеди срабатывает, все [Белые предметы] улучшены до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30508\"> [Позолоченный серебряный чайный сервиз] </>"
   },
   {
     "id": "113243",
@@ -19473,7 +19473,7 @@
     "id": "113245",
     "source_cn": "取消匹配",
     "ref_en": "Cancel Match",
-    "target_ru": "Отменить матч"
+    "target_ru": "Отменить подбор"
   },
   {
     "id": "113246",
@@ -19659,7 +19659,7 @@
     "id": "113276",
     "source_cn": "挑战介绍",
     "ref_en": "Challenge Introduction",
-    "target_ru": "Введение в вызов"
+    "target_ru": "Описание вызова"
   },
   {
     "id": "113277",
@@ -21507,7 +21507,7 @@
     "id": "113584",
     "source_cn": "<Assistant_Title1>【剧情模式】</>\\n<Assistant_Title2>系统设置：</>菜单-设置-视角-剧情模式{JumpToUI:[【前往查看】]|1302534}\\n<Assistant_Title2>系统介绍：</>剧情模式开启后，在剧情位面中，镜头会被拉近为剧情镜头视角，以提升剧情沉浸感。可在屏幕左侧下方拍照按钮下点击开关手动开启/关闭，也可在<Highlight>设置-视角-剧情模式-动态开启剧情模式</>中永久关闭，关闭后再次进入剧情位面将不再开启剧情模式（部分战斗场景除外）。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[剧情模式下外观隐藏]|1324}",
     "ref_en": "<Assistant_Title1>【Story Mode】</>\\n<Assistant_Title2> System Settings: </>Menu-Settings-Camera-Story Mode{JumpToUI:[【Go to View】]|1302534}\\n<Assistant_Title2> System Introduction: </>After Story Mode is enabled, the camera will zoom in to a cinematic perspective within story instances to enhance immersion. You can manually toggle it on/off by clicking the switch under the camera button on the bottom left of the screen, or permanently disable it in <Highlight>Settings-Camera-Story Mode-Enable Story Mode Dynamically</>. Once disabled, Story Mode will not activate when entering story instances again (except for some combat scenes).\\n<Assistant_Title3> Recommended Searches: </>{SendAnswer:[Hiding Appearance in Story Mode]|1324}",
-    "target_ru": "<Assistant_Title1>[Режим истории]</>\\n<Assistant_Title2>Системные настройки: </>Меню-Настройки-Перспектива-Режим истории {JumpToUI:[[Перейти к просмотру]]|1302534}\\n<Assistant_Title2>Введение в систему: </>После включения режима сюжета в плоскости сюжета камера будет увеличена до перспективы объектива сюжета для лучшего погружения в мир сюжет. Вы можете нажать переключатель под кнопкой фотографии в левом нижнем углу экрана, чтобы вручную включить или выключить его, или вы можете навсегда отключить его в <Highlight> Настройки — Точка обзора — Режим истории — Динамическое включение режима истории </>. После его выключения повторный вход в сюжетную плоскость больше не будет включать сюжетный режим (за исключением некоторых батальных сцен). \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Скрытое появление в режиме истории]|1324}"
+    "target_ru": "<Assistant_Title1>[Режим истории]</>\\n<Assistant_Title2>Системные настройки: </>Меню-Настройки-Перспектива-Режим истории {JumpToUI:[[Перейти к просмотру]]|1302534}\\n<Assistant_Title2>Описание системы: </>После включения режима сюжета в плоскости сюжета камера будет увеличена до перспективы объектива сюжета для лучшего погружения в мир сюжет. Вы можете нажать переключатель под кнопкой фотографии в левом нижнем углу экрана, чтобы вручную включить или выключить его, или вы можете навсегда отключить его в <Highlight> Настройки — Точка обзора — Режим истории — Динамическое включение режима истории </>. После его выключения повторный вход в сюжетную плоскость больше не будет включать сюжетный режим (за исключением некоторых батальных сцен). \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Скрытое появление в режиме истории]|1324}"
   },
   {
     "id": "113585",
@@ -22377,7 +22377,7 @@
     "id": "113729",
     "source_cn": "俱乐部宣战玩法介绍",
     "ref_en": "Club Declaration of War Gameplay Introduction",
-    "target_ru": "Клубное объявление войны. Введение в игровой процесс."
+    "target_ru": "Клубное объявление войны. Описание игрового процесса."
   },
   {
     "id": "113730",
@@ -22491,7 +22491,7 @@
     "id": "113748",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\">【玉米脆片】</>数量增加<LightHighlight>150%</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, the quantity of currently held <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Corn Chips] </> increases by <LightHighlight> 150% </>",
-    "target_ru": "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 150% </>"
+    "target_ru": "Если следующей станцией <LightHighlight> является [Торговый дом] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 150% </>"
   },
   {
     "id": "113749",
@@ -25173,7 +25173,7 @@
     "id": "114195",
     "source_cn": "<Assistant_Title1>【瞄准射击】</>\\n<Assistant_Title2>功能介绍：</>所有枪械均可开启瞄准状态，开启方式为使用技能栏的对应技能，再次使用对应技能可退出瞄准状态。\\n<Assistant_Red>请注意</>：<Assistant_Red>手枪</>和<Assistant_Red>狙击枪</>在<Assistant_Red>瞄准状态</>下可命中弱点，造成高额伤害，<Assistant_Property1>霰弹枪</>瞄准状态下不具备该特性。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[射击弱点]|902}",
     "ref_en": "<Assistant_Title1>【Aiming Shot】</>\\n<Assistant_Title2> Function Introduction: </> All firearms can enter an aiming state. To activate, use the corresponding skill in the skill bar; use the skill again to exit the aiming state. \\n<Assistant_Red> Please Note </>: <Assistant_Red>Pistols</> and <Assistant_Red>Sniper Rifles</> can hit weak points in the <Assistant_Red>Aiming State</>, dealing high damage; <Assistant_Property1>Shotguns</> do not possess this trait in the aiming state. \\n<Assistant_Title3> Recommended Searches: </>{SendAnswer:[Shoot Weak Points]|902}",
-    "target_ru": "<Assistant_Title1>[Прицеливайся и стреляй]</>\\n<Assistant_Title2>Введение функции: </>Все огнестрельное оружие может включать состояние прицеливания. Чтобы включить его, используйте соответствующий навык на панели навыков. Используйте соответствующий навык еще раз, чтобы выйти из состояния прицеливания. \\n<Assistant_Red> Обратите внимание </>: пистолет <Assistant_Red> </> и снайперская винтовка <Assistant_Red> </> могут поражать слабые места в состоянии прицеливания <Assistant_Red> </> и наносить большой урон. Ружье <Assistant_Property1> </> не имеет этой функции в состоянии прицеливания. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[слабость стрельбы]|902}"
+    "target_ru": "<Assistant_Title1>[Прицеливайся и стреляй]</>\\n<Assistant_Title2>Описание функции: </>Все огнестрельное оружие может включать состояние прицеливания. Чтобы включить его, используйте соответствующий навык на панели навыков. Используйте соответствующий навык еще раз, чтобы выйти из состояния прицеливания. \\n<Assistant_Red> Обратите внимание </>: пистолет <Assistant_Red> </> и снайперская винтовка <Assistant_Red> </> могут поражать слабые места в состоянии прицеливания <Assistant_Red> </> и наносить большой урон. Ружье <Assistant_Property1> </> не имеет этой функции в состоянии прицеливания. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[слабость стрельбы]|902}"
   },
   {
     "id": "114196",
@@ -25881,7 +25881,7 @@
     "id": "114313",
     "source_cn": "<Assistant_Title1>【理智值】</>\\n<Assistant_Title2>名词介绍：</>在非凡世界中行动时，各类事件将使玩家的理智值发生波动。当理智值持续降低，异常状态将从肉体开始，逐步向以太体、心智体、星灵体、精神体蔓延侵蚀，角色将依次进入不同程度的精神状态，并产生对应的效果。 \\n<Assistant_Title2>理智值档位：</> 理智值分为以下档位，不同档位有不同效果：\\n理智值充足时，角色处于<Assistant_System>「心智锚定」（100-80）</>状态，体力消耗下降且减伤提升；降至正常水平则进入<Assistant_System>「清醒」（60-79）</>状态，该状态没有任何效果。\\n\\n随着理智值进一步下降，角色依次进入<Assistant_System>「心神不宁」（45-59）「自我存疑」（30-44）「低语缠身」（20-29）</>状态，行动速度与冲刺稳定性受到不同程度的削弱，周遭将出现呓语干扰。\\n\\n当理智值降至较低区间，角色进入<Assistant_System>「陷入疯狂」（10-19）</>状态，行动限制完全解除，伤害与受到伤害均有所提升。\\n\\n理智值跌至更低时，角色进入<Assistant_System>「失控边缘」（1-9）</>状态，<Assistant_System>伤害提升</>，但受到伤害同步增加，且受到的治疗效果降低，自身发出红光，视野变得疯狂。\\n\\n当理智值为0，并持续一定时间时，会有<Assistant_Red>恐怖</>的事情发生！",
     "ref_en": "<Assistant_Title1>【Sanity】</>\\n<Assistant_Title2>Term Introduction: </>When acting in the Extraordinary World, various events will cause fluctuations in the player's Sanity. As Sanity continues to decrease, abnormal states will begin from the physical body and gradually spread to erode the Etheric Body, Astral Body, Mental Body, and Spirit Body. The character will enter different levels of mental states in sequence, producing corresponding effects. \\n<Assistant_Title2>Sanity Tiers: </> Sanity is divided into the following tiers, each with different effects: \\nWhen Sanity is sufficient, the character is in the <Assistant_System>\"Mental Anchor\" (100-80) </> state, where stamina consumption is reduced and damage reduction is increased; when it drops to a normal level, the character enters the <Assistant_System>\"Sober\" (60-79) </> state, which has no effects. \\n\\nAs Sanity decreases further, the character enters the <Assistant_System>\"Restlessness\" (45-59), \"Self-Doubt\" (30-44), and \"Whispers Haunting\" (20-29) </> states in sequence. Movement speed and sprint stability are weakened to varying degrees, and whispers will appear to interfere with the surroundings. \\n\\nWhen Sanity drops to a lower range, the character enters the <Assistant_System>\"Falling into Madness\" (10-19) </> state, where movement restrictions are completely lifted, and both damage dealt and damage taken are increased. \\n\\nWhen Sanity drops even lower, the character enters the <Assistant_System>\"Edge of Loss of Control\" (1-9) </> state, where <Assistant_System>Damage Increase </> is active, but damage taken is simultaneously increased, healing effects received are reduced, the character emits a red glow, and their vision becomes frenzied. \\n\\nWhen Sanity reaches 0 and remains there for a certain period, <Assistant_Red>terrifying </> things will happen!",
-    "target_ru": "<Assistant_Title1>[Значение здравомыслия]</>\\n<Assistant_Title2>Введение существительного: </>Когда вы действуете в необычном мире, различные события вызывают колебания значения здравомыслия игрока. Когда значение здравомыслия продолжает снижаться, ненормальное состояние начнется с физического тела и постепенно распространится на эфирное тело, ментальное тело, астральное тело и духовное тело. Персонаж по очереди будет входить в разные уровни психических состояний и производить соответствующие эффекты. \\n<Assistant_Title2> Снаряжение со значением здравомыслия: </> Значение здравомыслия разделено на следующие шестерни, и разные шестерни имеют разные эффекты: \\n Когда значение здравомыслия достаточно, персонаж находится в состоянии <Assistant_System> «психического закрепления» (100-80) </>, при котором физическое потребление снижается, а снижение урона увеличивается; когда он падает до нормального уровня, он входит в состояние <Assistant_System> «бодрствования» (60-79) </>, которое не оказывает никакого эффекта. \\n\\n По мере дальнейшего снижения значения здравомыслия персонаж входит в состояние <Assistant_System> «беспокойство» (45-59), «неуверенность в себе» (30-44), «шепот» (20-29) </>. Скорость действий и спринтерская устойчивость в разной степени ослаблены, а окружающая среда будет журчать. \\n\\nКогда значение здравомыслия падает до нижнего диапазона, персонаж входит в состояние <Assistant_System> «Впадение в безумие» (10-19) </>, при котором ограничения на передвижение полностью снимаются, а получаемый урон и урон увеличиваются. \\n\\n Когда значение здравомыслия падает до более низкого уровня, персонаж входит в состояние <Assistant_System> \"Грань Потери Контроля\" (1-9) </>, <Assistant_System> урон увеличивается </>, но одновременно увеличивается получаемый урон, а эффект лечения снижается, сам персонаж излучает красный свет, а зрение становится сумасшедшим. \\n\\nКогда значение здравомыслия равно 0 и сохраняется в течение определенного периода времени, произойдет что-то <Assistant_Red> страшное</>!"
+    "target_ru": "<Assistant_Title1>[Значение здравомыслия]</>\\n<Assistant_Title2>Описание термина: </>Когда вы действуете в Потустороннем мире, различные события вызывают колебания значения здравомыслия игрока. Когда значение здравомыслия продолжает снижаться, ненормальное состояние начнется с физического тела и постепенно распространится на эфирное тело, ментальное тело, астральное тело и духовное тело. Персонаж по очереди будет входить в разные уровни психических состояний и производить соответствующие эффекты. \\n<Assistant_Title2> Снаряжение со значением здравомыслия: </> Значение здравомыслия разделено на следующие шестерни, и разные шестерни имеют разные эффекты: \\n Когда значение здравомыслия достаточно, персонаж находится в состоянии <Assistant_System> «психического закрепления» (100-80) </>, при котором физическое потребление снижается, а снижение урона увеличивается; когда он падает до нормального уровня, он входит в состояние <Assistant_System> «бодрствования» (60-79) </>, которое не оказывает никакого эффекта. \\n\\n По мере дальнейшего снижения значения здравомыслия персонаж входит в состояние <Assistant_System> «беспокойство» (45-59), «неуверенность в себе» (30-44), «шепот» (20-29) </>. Скорость действий и спринтерская устойчивость в разной степени ослаблены, а окружающая среда будет журчать. \\n\\nКогда значение здравомыслия падает до нижнего диапазона, персонаж входит в состояние <Assistant_System> «Впадение в безумие» (10-19) </>, при котором ограничения на передвижение полностью снимаются, а получаемый урон и урон увеличиваются. \\n\\n Когда значение здравомыслия падает до более низкого уровня, персонаж входит в состояние <Assistant_System> \"Грань Потери Контроля\" (1-9) </>, <Assistant_System> урон увеличивается </>, но одновременно увеличивается получаемый урон, а эффект лечения снижается, сам персонаж излучает красный свет, а зрение становится сумасшедшим. \\n\\nКогда значение здравомыслия равно 0 и сохраняется в течение определенного периода времени, произойдет что-то <Assistant_Red> страшное</>!"
   },
   {
     "id": "114314",
@@ -26523,7 +26523,7 @@
     "id": "114420",
     "source_cn": "随机匹配开始，请跟随牵引线寻找舞伴",
     "ref_en": "Random matching started; please follow the guide line to find a dance partner.",
-    "target_ru": "Началось случайное сопоставление; пожалуйста, следуйте инструкциям, чтобы найти партнера по танцу."
+    "target_ru": "Начался случайный подбор; пожалуйста, следуйте инструкциям, чтобы найти партнера по танцу."
   },
   {
     "id": "114421",
@@ -28443,7 +28443,7 @@
     "id": "114740",
     "source_cn": "是否忽略GTA匹配时间限制",
     "ref_en": "Ignore GTA match time limit?",
-    "target_ru": "Игнорировать ограничение по времени матча GTA?"
+    "target_ru": "Игнорировать ограничение по времени подбора GTA?"
   },
   {
     "id": "114741",
@@ -28605,7 +28605,7 @@
     "id": "114767",
     "source_cn": "签约·食铺生效，酒类、艺术品卖价+25%,卖出价-60%",
     "ref_en": "Contract · Food Shop activated, selling price of alcohol and art +25%, selling price -60%.",
-    "target_ru": "Контракт · Продуктовый магазин активирован, цена продажи алкоголя и предметов искусства +25%, цена продажи -60%."
+    "target_ru": "Контракт · Лавка Снеди срабатывает, цена продажи алкоголя и предметов искусства +25%, цена продажи -60%."
   },
   {
     "id": "114768",
@@ -29589,7 +29589,7 @@
     "id": "114931",
     "source_cn": "队伍成员已开启战场，无法匹配",
     "ref_en": "Team members have already started a battle; cannot matchmake.",
-    "target_ru": "Члены команды уже начали бой; не может свататься."
+    "target_ru": "Члены команды уже начали бой; подбор невозможен."
   },
   {
     "id": "114932",

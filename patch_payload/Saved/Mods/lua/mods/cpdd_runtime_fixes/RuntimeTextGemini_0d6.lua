@@ -238,7 +238,7 @@ return {
     ["Your friendship level with the other person is below 200. You can participate in team activities together to increase your friendship level."] = "Ваш уровень дружбы с другим человеком ниже 200. Вы можете вместе участвовать в командных мероприятиях, чтобы повысить уровень дружбы.",
     ["Under the Bridge"] = "Под мостом",
     ["Error parsing version information. Please check if the version configuration format is correct."] = "Ошибка анализа информации о версии. Пожалуйста, проверьте правильность формата конфигурации версии.",
-    ["Introduction: Frye"] = "Введение: Фрай",
+    ["Introduction: Frye"] = "Описание: Фрай",
     ["Color Parameter R/G/B"] = "Параметр цвета R/G/B",
     ["Peak of the Gods tournament awaits your challenge"] = "Турнир «Пик богов» ждет вашего испытания",
     ["Munk"] = "Мунк",

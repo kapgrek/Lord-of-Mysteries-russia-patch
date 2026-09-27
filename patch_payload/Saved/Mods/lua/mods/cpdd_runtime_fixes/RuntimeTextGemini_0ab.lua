@@ -198,7 +198,7 @@ return {
     ["(This looks like Mr. Azik...)"] = "(Это похоже на господина Азика...)",
     ["Phantom: Flower for Beauty"] = "Фантом: Цветок красоты",
     ["Sword Formation range: Circular area with a radius of 6 meters"] = "Зона строя мечей: круговая область радиусом 6 м",
-    ["Best-Seller · Trading Firm effective, selling price at this station +75%"] = "Бестселлер · Действует торговая фирма, цена продажи на этой станции +75%",
+    ["Best-Seller · Trading Firm effective, selling price at this station +75%"] = "Бестселлер · Торговый дом срабатывает, цена продажи на этой станции +75%",
     ["Next Step"] = "Следующий шаг",
     ["Iron Bastion"] = "Железный Бастион",
     ["Apply scheme"] = "Применить схему",

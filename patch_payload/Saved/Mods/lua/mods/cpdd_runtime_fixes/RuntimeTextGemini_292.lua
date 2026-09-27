@@ -215,7 +215,7 @@ return {
     ["Check Ms. Lorin's Condition"] = "Проверьте состояние госпожи Лорин",
     ["White Tower"] = "Белая Башня",
     ["All States Trigger"] = "Триггер всех состояний",
-    ["Introduction: \"The Hanged Man\""] = "Введение: «Повешенный».",
+    ["Introduction: \"The Hanged Man\""] = "Описание: «Повешенный».",
     ["<Red>Regicide</>: The Evil Spirit views its master as a hostile unit, and when the master enters combat, they will be marked with an Enemy mark lasting 10 seconds. \n<Red>Rejection</>: Every 30 seconds during combat, two random Beyonder material attributes become ineffective for 15 seconds."] = "<Red>Lord Kill</>: Злой дух считает владельца враждебным отрядом, и когда владелец вступает в битву, он будет отмечен меткой врага, которая длится 10 секунд. \n<Red>Отказ</>: Каждые 30 секунд во время битвы атрибуты двух случайных записей экстраординарных материалов становятся недействительными на 15 секунд.",
     ["Ruomo"] = "Руомо",
     ["Stamina - Blue"] = "Выносливость - Синий",

@@ -236,7 +236,7 @@ return {
     ["Sigh, why can't I sell newspapers honestly..."] = "Эх, почему я не могу честно продавать газеты...",
     ["Room List"] = "Список номеров",
     ["Boundary · Trying on clothes"] = "Граница · Примерка одежды",
-    ["Upgrade: Trading House activated, all [Purple Items] upgraded to [Silver-Gilt Court Tea Set]"] = "Улучшение: Торговый дом активирован, все [Фиолетовые предметы] улучшены до [Позолоченный серебряный чайный сервиз]",
+    ["Upgrade: Trading House activated, all [Purple Items] upgraded to [Silver-Gilt Court Tea Set]"] = "Улучшение: Торговый дом срабатывает, все [Фиолетовые предметы] улучшены до [Позолоченный серебряный чайный сервиз]",
     ["[Emoji 110]"] = "[Эмодзи 110]",
     ["[Emoji 114]"] = "[Эмодзи 114]",
     ["The club's new photographer, Palid, wants to record the members' style again..."] = "Новый фотограф клуба Палид хочет снова запечатлеть стиль участников...",

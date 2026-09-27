@@ -246,7 +246,7 @@ return {
     ["Summon Berserk Gears to bombard enemies in front."] = "Призывает Шестерни буйства, обстреливая врагов впереди.",
     ["使用后获得<Highlight>展台动作·耸肩</>\n重复获取将自动分解为绑定金镑×100"] = "После использования вы получите <Highlight>Поза на подиуме: пожатие плечами</>\nПри повторном получении будет автоматически разложено на 100 привязанных золотых фунтов",
     ["Goose Factory"] = "Гусиный завод",
-    ["<CostRed>{1,2, (Brand Expired) }</>Crit Resistance increased by <Mark>160</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Сопротивление критическому удару повышается на <Mark>160</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>.",
+    ["<CostRed>{1,2, (Brand Expired) }</>Crit Resistance increased by <Mark>160</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated."] = "<CostRed>{1,2,(срок истёк)}</>Сопротивление критическому удару повышается на <Mark>160</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>.",
     ["胸口碎钻"] = "Стразы на груди",
     ["成就-军功之巅"] = "Достижение - Вершина воинских заслуг",
     ["Mechanical Mystery #12"] = "Механическая головоломка №12",

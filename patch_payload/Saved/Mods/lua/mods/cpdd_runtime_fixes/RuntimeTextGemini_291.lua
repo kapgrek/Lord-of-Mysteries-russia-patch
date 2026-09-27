@@ -65,7 +65,7 @@ return {
     ["Mentor Path"] = "Путь наставника",
     ["Click to view"] = "Нажмите, чтобы просмотреть",
     ["Connection level increased"] = "Уровень подключения повышен",
-    ["Bet: Trading House activated, received 100% of own [Cellar-Aged Lafite Red Wine]"] = "Ставка: Торговый дом активирован, получил 100% собственного [Лафитового красного вина, выдержанного в погребе]",
+    ["Bet: Trading House activated, received 100% of own [Cellar-Aged Lafite Red Wine]"] = "Ставка: Торговый дом срабатывает, получил 100% собственного [Выдержанного красного «Лафита»]",
     ["Currently, the Goose Kingdom is temporarily <P_Yellow>enjoying favorable weather</>. You can perform <P_Yellow>two</> tasks today. What do you intend to do?"] = "В настоящее время в Гусином королевстве временно <P_Yellow> наблюдается благоприятная погода</>. Вы можете выполнять задачи <P_Yellow>two</> уже сегодня. Что вы намерены делать?",
     ["Moon Paper Figurine negative mark"] = "Бумажная фигурка Луны, отрицательный знак",
     ["Saw it"] = "Видел это",

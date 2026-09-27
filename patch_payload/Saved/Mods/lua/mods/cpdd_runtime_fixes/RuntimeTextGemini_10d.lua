@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 10d/3ff.
 return {
     ["Say it again! Say it again and I'll eat a carrot!"] = "Расскажи ещё раз! Расскажи сказку ещё разок, и я съем морковку!",
-    ["Good Gift · Food Shop effective, obtain 20 [Rare Mist Champagne]"] = "Эффект «Щедрый дар: Закусочная» активирован, получено 20 шт. [Изысканного туманного шампанского]",
+    ["Good Gift · Food Shop effective, obtain 20 [Rare Mist Champagne]"] = "«Подарок: Лавка Снеди» сработал, получено 20 шт. [Изысканного туманного шампанского]",
     ["Should I say it's a pleasure to meet you..."] = "Стоит ли сказать «рад знакомству»...",
     ["Court Acting Voice Room Instructions"] = "Правила голосовой комнаты: Судебный отыгрыш",
     ["<Assistant_Title1>【Undying Grasp】</>\n<Assistant_Title2>Description: </>God-favored Pool Accessory\n<Assistant_Title2>Usage: </>After use, you will obtain the Undying Grasp. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it. \n<Assistant_Title2>Acquisition: Exchange using <Assistant_Red>1</> God-favored Card in the <Assistant_System>Goddess's Gift Shop</>"] = "<Assistant_Title1>【Хватка бессмертия】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Хватку бессмертия». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить её.\n<Assistant_Title2>Получение: обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>",

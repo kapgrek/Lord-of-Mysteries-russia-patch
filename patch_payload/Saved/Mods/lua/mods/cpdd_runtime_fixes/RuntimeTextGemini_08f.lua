@@ -233,7 +233,7 @@ return {
     ["A full ninety thousand pounds in bounty, it must be a sweet dream... sigh, sometimes, I also want to write about Gehrman's deeds."] = "Целых девяносто тысяч фунтов награды, должно быть, это сладкий сон... эх, иногда мне тоже хочется написать о деяниях Германа.",
     ["Whether to listen to all Skills"] = "Прослушивать ли все навыки",
     ["Are you sure you want to delete this comment?"] = "Вы уверены, что хотите удалить этот комментарий?",
-    ["Cancel Match %s"] = "Отменить совпадение %s",
+    ["Cancel Match %s"] = "Отменить подбор %s",
     ["Life Sect: When enemy pieces fall, [Life Sect] pieces gain permanent Health."] = "Секта Жизни: Когда части противника падают, части Секты Жизни получают постоянное здоровье.",
     ["I am innocent... let me out..."] = "Я невиновен... выпустите меня...",
     ["Frye - 2 Star"] = "Фрай — 2 звезды",

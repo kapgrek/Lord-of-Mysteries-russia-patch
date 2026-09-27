@@ -67,7 +67,7 @@ return {
     ["Use to obtain <Highlight>Blood Moon Slaughter Hairstyle</>"] = "Используйте, чтобы получить <Highlight>Прическа «Бойня Кровавой Луны»</>",
     ["The airship industry has been developed for many years, serving both military and civilian purposes."] = "Промышленность дирижаблей развивается уже много лет и служит как военным, так и гражданским целям.",
     ["Countdown to the start of the second round"] = "Обратный отсчет до начала второго раунда",
-    ["Sealed Artifact Introduction"] = "Знакомство с запечатанным артефактом",
+    ["Sealed Artifact Introduction"] = "Описание запечатанного артефакта",
     ["What to do next..."] = "Что делать дальше...",
     ["Kill the mouse in the distance"] = "Убейте мышь на расстоянии",
     ["Original Main Story Chapter 4"] = "Оригинальная основная история, глава 4",

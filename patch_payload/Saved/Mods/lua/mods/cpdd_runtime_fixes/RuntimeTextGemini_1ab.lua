@@ -255,7 +255,7 @@ return {
     ["Butler - BOSS Mark Buff"] = "Батлер — БОСС Марк Бафф",
     ["Use to obtain <Highlight>Blank Verse Top</>"] = "Используйте, чтобы получить <Highlight>Blank Verse Top</>.",
     ["How many times have I told you not to go!"] = "Сколько раз я говорил тебе не идти!",
-    ["Game · Trading Firm"] = "Игра · Торговая фирма",
+    ["Game · Trading Firm"] = "Игра · Торговый дом",
     ["Change Alignment"] = "Изменить выравнивание",
     ["Auto-play Dialog and CutScene"] = "Диалог автоматического воспроизведения и кат-сцена",
     ["5230035 Raphael Cemetery Plane"] = "5230035 Измерение: Кладбище Рафаэля",

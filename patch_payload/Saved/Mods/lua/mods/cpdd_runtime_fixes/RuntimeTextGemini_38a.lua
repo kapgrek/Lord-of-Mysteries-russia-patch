@@ -9,7 +9,7 @@ return {
     ["The Apple Knight selects two players, dealing area damage after a short delay, and <Disable>bounces in a cross pattern to deal area damage again</>. The two selected players will turn into <Disable>exploding apples</>, which will detonate and hit the entire field after the countdown ends."] = "Яблочный рыцарь выбирает двух игроков, нанося урон по области с небольшой задержкой и <Disable>рикошетя крест-накрест с повторным уроном по области</>. Двое выбранных игроков превращаются во <Disable>взрывающиеся яблоки</>, которые по окончании отсчета детонируют по всей арене.",
     ["Ricia"] = "Рисия",
     ["Delete C"] = "Удалить C",
-    ["Bet: Winery activated, received 150% of own [Silver-Gilt Court Tea Set]"] = "Ставка: Винодельня активна: получено 150% от собственного предмета 【Позолоченный дворцовый чайный сервиз】",
+    ["Bet: Winery activated, received 150% of own [Silver-Gilt Court Tea Set]"] = "Ставка: Винодельня срабатывает, получено 150% от собственного предмета 【Позолоченный дворцовый чайный сервиз】",
     ["Kimberly "] = "Кимберли ",
     ["Sika, did you make any sales today?"] = "Сика, у тебя сегодня уже были покупатели?",
     ["Since that's the case, let me teach you a lesson!"] = "Раз так, придётся проучить вас как следует!",

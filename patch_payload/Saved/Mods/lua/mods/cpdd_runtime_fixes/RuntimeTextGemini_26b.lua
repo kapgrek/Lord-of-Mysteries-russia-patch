@@ -205,7 +205,7 @@ return {
     ["Rozanne, do you know where yesterday's case file was put?"] = "Розанна, ты знаешь, куда было отправлено вчерашнее дело?",
     ["Head to the <h>barn</>"] = "Отправляйтесь в <h>barn</>.",
     ["Haha, they can gain much more than just knowledge and grades!"] = "Ха-ха, они могут получить гораздо больше, чем просто знания и оценки!",
-    ["Best-Seller · Winery effective, purchase price at this station -75%"] = "Бестселлер · Действует винодельня, цена покупки на этой станции -75%",
+    ["Best-Seller · Winery effective, purchase price at this station -75%"] = "Бестселлер · Винодельня срабатывает, цена покупки на этой станции -75%",
     ["Slow Dodge_Value"] = "Медленное уклонение_значение",
     ["What does the moon represent?"] = "Что символизирует луна?",
     ["My lord... if you are willing, you can sell it to the paper mill in the south, so you don't have to pay the middleman fee to the Trash King."] = "Милорд... если хотите, можете продать его бумажной фабрике на юге, чтобы вам не пришлось платить посреднику Королю Мусора.",

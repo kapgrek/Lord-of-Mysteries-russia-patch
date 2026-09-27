@@ -242,7 +242,7 @@ return {
     ["[Temporary Placeholder] Klein tries to concentrate and begins to outline a top hat in his mind..."] = "[Временный заполнитель] Клейн пытается сконцентрироваться и начинает мысленно обрисовывать цилиндр...",
     ["Damage to minions"] = "Урон миньонам",
     ["The number of custom markers on the current map has reached the limit."] = "Количество пользовательских маркеров на текущей карте достигло предела.",
-    ["Introduction: Leonard Mitchell"] = "Введение: Леонард Митчелл",
+    ["Introduction: Leonard Mitchell"] = "Описание: Леонард Митчелл",
     ["This {{Sir|Madam}}!"] = "Это {{Sir|Madam}}!",
     ["Greed Factory"] = "Фабрика жадности",
     ["Reimbursement form"] = "Форма возмещения",

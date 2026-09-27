@@ -477,7 +477,7 @@
     "id": "105079",
     "source_cn": "0:空白，1：报名中，2：报名结束，3：匹配中，4：匹配结束，5战斗中 6：战斗结束",
     "ref_en": "0: blank, 1: registering, 2: registration closed, 3: matching, 4: match complete, 5: in battle, 6: battle ended.",
-    "target_ru": "0: пусто, 1: регистрация, 2: регистрация закрыта, 3: совпадение, 4: совпадение завершено, 5: в бою, 6: битва окончена."
+    "target_ru": "0: пусто, 1: регистрация, 2: регистрация закрыта, 3: подбор, 4: подбор завершён, 5: в бою, 6: битва окончена."
   },
   {
     "id": "105080",
@@ -2061,7 +2061,7 @@
     "id": "105343",
     "source_cn": "队伍匹配",
     "ref_en": "Party Matching",
-    "target_ru": "Соответствие вечеринок"
+    "target_ru": "Подбор группы"
   },
   {
     "id": "105344",
@@ -3867,7 +3867,7 @@
     "id": "105644",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [лафитового красного вина погребной выдержки] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанного красного «Лафита»] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "105645",
@@ -6081,7 +6081,7 @@
     "id": "106013",
     "source_cn": "出场介绍:佛尔思",
     "ref_en": "Introduction: Fors",
-    "target_ru": "Введение: Форс"
+    "target_ru": "Описание: Форс"
   },
   {
     "id": "106014",
@@ -8421,7 +8421,7 @@
     "id": "106403",
     "source_cn": "如果下一站<LightHighlight>不是【食铺】</>，获得<LightHighlight>20</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\">【金牌皇家火腿】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>.",
-    "target_ru": "Если следующая остановка <LightHighlight> не является [Продовольственным магазином] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>."
+    "target_ru": "Если следующая остановка <LightHighlight> не является [Лавкой Снеди] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>."
   },
   {
     "id": "106404",
@@ -11115,7 +11115,7 @@
     "id": "106852",
     "source_cn": "预判·非食铺",
     "ref_en": "Prediction · Non-Food Shop",
-    "target_ru": "Прогноз · Магазин непродовольственных товаров"
+    "target_ru": "Прогноз · не Лавка Снеди"
   },
   {
     "id": "106853",
@@ -12351,7 +12351,7 @@
     "id": "107058",
     "source_cn": "有玩家匹配未确认，将为您优先进行匹配。",
     "ref_en": "A player did not confirm the match; you will be given priority for matching.",
-    "target_ru": "Игрок не подтвердил совпадение; вам будет предоставлен приоритет при сопоставлении."
+    "target_ru": "Игрок не подтвердил подбор; вам будет предоставлен приоритет при подборе игроков."
   },
   {
     "id": "107059",
@@ -12669,7 +12669,7 @@
     "id": "107111",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>技能增强提高<Mark>30</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Skill Enhancement increased by <Mark>30</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>30</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Улучшение навыка увеличивается <Mark>30</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "107112",
@@ -14247,7 +14247,7 @@
     "id": "107374",
     "source_cn": "博弈·食铺",
     "ref_en": "Game · Food Shop",
-    "target_ru": "Игра · Продуктовый магазин"
+    "target_ru": "Игра · Лавка Снеди"
   },
   {
     "id": "107375",
@@ -16767,7 +16767,7 @@
     "id": "107794",
     "source_cn": "好礼·商行生效，获得30件【窖藏拉菲干红】",
     "ref_en": "Gift: Trading House activated, received 30 [Cellar-Aged Lafite Red Wine]",
-    "target_ru": "Подарок: активирован Торговый дом, получено 30 [лафитового красного вина, выдержанного в погребе]."
+    "target_ru": "Подарок: Торговый дом сработал, получено 30 [Выдержанный красный «Лафит»]"
   },
   {
     "id": "107795",
@@ -18171,7 +18171,7 @@
     "id": "108028",
     "source_cn": "匹配状态确认",
     "ref_en": "Match Status Confirm",
-    "target_ru": "Подтвердить статус матча"
+    "target_ru": "Подтвердить статус подбора игроков"
   },
   {
     "id": "108029",
@@ -19245,7 +19245,7 @@
     "id": "108207",
     "source_cn": "抽卡系统介绍",
     "ref_en": "Gacha System Introduction",
-    "target_ru": "Введение в систему Gacha"
+    "target_ru": "Описание системы Gacha"
   },
   {
     "id": "108208",
@@ -19821,7 +19821,7 @@
     "id": "108303",
     "source_cn": "出场介绍:苏茜",
     "ref_en": "Introduction: Susie",
-    "target_ru": "Введение: Сьюзи"
+    "target_ru": "Описание: Сьюзи"
   },
   {
     "id": "108304",
@@ -19875,7 +19875,7 @@
     "id": "108312",
     "source_cn": "可买入站点：<LightHighlight>酒庄</>\\n可卖出站点：<LightHighlight>食铺</>\\n物品类型：<LightHighlight>酒类</>",
     "ref_en": "Buyable Stations: <LightHighlight> Winery </> \\n Sellable Stations: <LightHighlight> Food Shop </> \\n Item Type: <LightHighlight> Wine </>",
-    "target_ru": "Сайты, где можно купить: <LightHighlight> Винодельня </>\n Сайты, где можно продать: <LightHighlight> Продуктовый магазин </>\n Тип товара: <LightHighlight> Ликер </>"
+    "target_ru": "Сайты, где можно купить: <LightHighlight> Винодельня </>\n Сайты, где можно продать: <LightHighlight> Лавка Снеди </>\n Тип товара: <LightHighlight> Ликер </>"
   },
   {
     "id": "108313",
@@ -20397,7 +20397,7 @@
     "id": "108399",
     "source_cn": "<Assistant_Title1>【城市暗面】</>\\n<Assistant_Title2>介绍：</>在“正义”小姐指引下，你进入一个由廷根的集体潜意识形成的世界。这里发生的一切，都不会对现实造成直接的影响。但清除潜意识中的恶意会扰动现实源头，深入事件现场，完成剧情、挑战与竞技事件，拯救这座城市。\\n<Assistant_Title2>玩法指引：</>\\n1.完成<Assistant_System>“罪恶廷根”</>剧情解锁系统；打开地图，切换探秘页签，切换“城市暗面“页签，在地图中选中已解锁的事件图标，点击前往自动寻路至目标处。\\n2.到达指定区域，与相关NPC对话等手段开启事件。\\n3.完成{SendAnswer:事件|877}获得相关奖励。\\n<Assistant_Title2>场景特点：</>\\n进入罪恶廷根，车辆操控为真实驾驶模式。\\n<Assistant_Title2>新手建议：</>\\n1.首次进入建议优先完成罪恶廷根内的主线剧情事件解锁更多玩法。\\n2.<Assistant_Red>激战·邦尼</>事件需要达到推荐的非凡评分与等级。\\n3. 每日限时开放多人竞技事件，与其他玩家竞技，赢取排名奖励。",
     "ref_en": "<Assistant_Title1>【City of Shadows】</>\\n<Assistant_Title2>Introduction: </>Under the guidance of Miss Justice, you enter a world formed by the collective subconscious of Tingen. Everything that happens here will not have a direct impact on reality. However, clearing the malice in the subconscious will disturb the source of reality. Delve into the event scenes, complete plot, challenge, and competition events to save this city.\\n<Assistant_Title2>Gameplay Guide: </>\\n1. Complete the <Assistant_System>\"Sinful Tingen\"</> plot to unlock the system; open the map, switch to the Exploration tab, switch to the \"City of Shadows\" tab, select an unlocked event icon on the map, and click to automatically navigate to the target.\\n2. Arrive at the designated area and use methods such as talking to relevant NPCs to start the event.\\n3. Complete to {SendAnswer:event|877}obtain relevant rewards.\\n<Assistant_Title2>Scene Features: </>\\nEntering Sinful Tingen, vehicle control is in realistic driving mode.\\n<Assistant_Title2>Beginner Tips: </>\\n1. It is recommended to prioritize completing the main plot events in Sinful Tingen upon first entry to unlock more gameplay.\\n2. The <Assistant_Red>Fierce Battle · Bonnie</> event requires reaching the recommended Beyonder rating and level.\\n3. Limited-time multiplayer competition events are open daily; compete with other players to win ranking rewards.",
-    "target_ru": "<Assistant_Title1>【Темная сторона города】</>\n<Assistant_Title2> Введение: </> Под руководством Мисс «Справедливость» вы попадаете в мир, созданный коллективным подсознанием Тингена. Ничто из происходящего здесь не окажет прямого влияния на реальность. Но очистка подсознательной злобы позволит нарушить источник реальности, углубиться в место происшествия, завершить сюжет, испытания и соревновательные события и спасти город. \n<Assistant_Title2> Как играть: </>\n1. Завершите сюжет <Assistant_System> «Грешный Тинген» </>, чтобы разблокировать систему; откройте карту, переключитесь на вкладку «Исследование», переключитесь на вкладку «Темная сторона города», выберите значок разблокированного события на карте и нажмите, чтобы автоматически найти путь к цели. \n2. Прибудьте в назначенное место, поговорите с соответствующим NPC и т. д., чтобы начать событие. \n3. Завершите {SendAnswer: event|877}, чтобы получить соответствующие награды. \n<Assistant_Title2>Особенности сцены: </>\nПри въезде в Зинтинген управление автомобилем находится в режиме реального вождения. \n<Assistant_Title2>Рекомендации для новичков: </>\n1. При первом входе рекомендуется отдать приоритет завершению основных сюжетных событий в Sin Tingen, чтобы разблокировать больше игрового процесса. \n2.<Assistant_Red> Событие «Жестокая битва · Бонни </>» должно достичь рекомендованного экстраординарного рейтинга и уровня. \n3. Многопользовательские соревнования открыты каждый день в течение ограниченного времени, соревнуйтесь с другими игроками и выигрывайте рейтинговые награды."
+    "target_ru": "<Assistant_Title1>【Темная сторона города】</>\n<Assistant_Title2> Описание: </> Под руководством Мисс «Справедливость» вы попадаете в мир, созданный коллективным подсознанием Тингена. Ничто из происходящего здесь не окажет прямого влияния на реальность. Но очистка подсознательной злобы позволит нарушить источник реальности, углубиться в место происшествия, завершить сюжет, испытания и соревновательные события и спасти город. \n<Assistant_Title2> Как играть: </>\n1. Завершите сюжет <Assistant_System> «Грешный Тинген» </>, чтобы разблокировать систему; откройте карту, переключитесь на вкладку «Исследование», переключитесь на вкладку «Темная сторона города», выберите значок разблокированного события на карте и нажмите, чтобы автоматически найти путь к цели. \n2. Прибудьте в назначенное место, поговорите с соответствующим NPC и т. д., чтобы начать событие. \n3. Завершите {SendAnswer: event|877}, чтобы получить соответствующие награды. \n<Assistant_Title2>Особенности сцены: </>\nПри въезде в Зинтинген управление автомобилем находится в режиме реального вождения. \n<Assistant_Title2>Рекомендации для новичков: </>\n1. При первом входе рекомендуется отдать приоритет завершению основных сюжетных событий в Sin Tingen, чтобы разблокировать больше игрового процесса. \n2.<Assistant_Red> Событие «Жестокая битва · Бонни </>» должно достичь рекомендованного экстраординарного рейтинга и уровня. \n3. Многопользовательские соревнования открыты каждый день в течение ограниченного времени, соревнуйтесь с другими игроками и выигрывайте рейтинговые награды."
   },
   {
     "id": "108400",
@@ -21219,7 +21219,7 @@
     "id": "108536",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>破防提高<Mark>110</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Armor Break increased by <Mark>110</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>110</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Прорыв защиты увеличивается <Mark>110</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "108537",
@@ -23715,7 +23715,7 @@
     "id": "108952",
     "source_cn": "已取消匹配。",
     "ref_en": "Matching canceled.",
-    "target_ru": "Сопоставление отменено."
+    "target_ru": "Подбор игроков отменён."
   },
   {
     "id": "108953",
@@ -24153,7 +24153,7 @@
     "id": "109025",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>玩法介绍</>\\n竞技之约是支持<Highlight>跨服自由组队</>的PVP房间系统，可邀请好友与同好共聚一堂，体验<Highlight>主宰争锋、神座之争、命运时刻、四方联赛、1v1决斗</>等多种玩法，自定义对局，尽情切磋。",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Gameplay Introduction</>\\nThe Covenant of Competition is a PVP room system that supports <Highlight>cross-server free team formation</>. You can invite friends and like-minded people to gather together to experience various gameplays such as <Highlight>Dominator's Clash, Battle for the Throne of God, Moment of Fate, Four-Way League, and 1v1 Duels</>, customize matches, and spar to your heart's content.",
-    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Введение в игровой процесс</>\nСоревновательное назначение — это система комнат PVP, которая поддерживает <Highlight>межсерверное свободное формирование команд</>. Вы можете пригласить друзей и коллег собраться вместе и принять участие в <Highlight>домашней битве, битве за трон, моменте судьбы, четырехсторонней лиге, дуэли 1 на 1</> и других игровых процессах. Настраивайте игру и наслаждайтесь обсуждением."
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Описание игрового процесса</>\nСоревновательное назначение — это система комнат PVP, которая поддерживает <Highlight>межсерверное свободное формирование команд</>. Вы можете пригласить друзей и коллег собраться вместе и принять участие в <Highlight>домашней битве, битве за трон, моменте судьбы, четырехсторонней лиге, дуэли 1 на 1</> и других игровых процессах. Настраивайте игру и наслаждайтесь обсуждением."
   },
   {
     "id": "109026",
@@ -24603,7 +24603,7 @@
     "id": "109100",
     "source_cn": "签约·食铺生效，本局酒类、艺术品卖价+25%,本站卖出价-60%",
     "ref_en": "Contract: Shop activated, alcohol and art selling price +25% this round, selling price at this station -60%",
-    "target_ru": "Контракт: магазин активирован, цена продажи алкоголя и предметов искусства +25% в этом раунде, цена продажи на этой станции -60%."
+    "target_ru": "Контракт: Лавка Снеди сработала, цена продажи алкоголя и предметов искусства +25% в этом раунде, цена продажи на этой станции -60%."
   },
   {
     "id": "109101",
@@ -25563,7 +25563,7 @@
     "id": "109260",
     "source_cn": "<Assistant_Title1>【记忆的传承】</>\\n<Assistant_Title2>玩法类型：</><Assistant_Property1>5~6人家族副本</>\\n<Assistant_Title2>玩法介绍：</>开启“记忆的传承”仪式后，玩家将进入记忆世界，与过去经历过的强敌再次交锋。与家族成员共同进入时，可获得【誓火共燃】与【血脉盟约】增益。\\n<Assistant_Title2>参与方式：</>点击<Assistant_System>菜单-世界冒险-副本-记忆的传承</>参与。\\n<Assistant_Title2>首领与参与条件：</>\\n    <Assistant_Property1>强尼：</>普通难度39级，推荐非凡评分8779；困难难度61级，推荐非凡评分39842。\\n    <Assistant_Property1>钻头：</>普通难度46级，推荐非凡评分17855；困难难度63级，推荐非凡评分49578。\\n    <Assistant_Property1>邦尼：</>普通难度56级，推荐非凡评分28959；困难难度66级，推荐非凡评分58189。\\n    <Assistant_Property1>战争巨龙：</>普通难度60级，推荐非凡评分38619；困难难度68级，推荐非凡评分69025；噩梦难度70级，推荐非凡评分94338。\\n<Assistant_Title2>开放顺序：</>普通钻头于赛季第2天开放，普通邦尼第4天开放，普通战争巨龙第5天开放；困难强尼第6天开放，困难钻头第8天开放，困难邦尼第12天开放，困难战争巨龙第14天开放；噩梦难度战争巨龙第25天开放。\\n<Assistant_Title2>挑战说明：</>各首领均支持5~6人组队，并可选择人机模式。不同首领和难度独立开放，请根据角色等级与推荐非凡评分选择挑战目标。",
     "ref_en": "<Assistant_Title1>【Inheritance of Memory】</>\\n<Assistant_Title2>Dungeon Type: </><Assistant_Property1>5~6 Person Family Dungeon</>\\n<Assistant_Title2>Introduction: </>After activating the \"Inheritance of Memory\" ritual, players will enter a memory world to face powerful enemies from the past once again. When entering with family members, you can gain the [Burning Vow of Fire] and [Bloodline Covenant] buffs.\\n<Assistant_Title2>How to Participate: </>Click <Assistant_System>Menu - World Adventure - Dungeon - Inheritance of Memory</>to participate.\\n<Assistant_Title2>Bosses and Participation Requirements: </>\\n    <Assistant_Property1>Johnny: </>Normal Level 39, recommended Beyonder Rating 8779; Hard Level 61, recommended Beyonder Rating 39842.\\n    <Assistant_Property1>Drill: </>Normal Level 46, recommended Beyonder Rating 17855; Hard Level 63, recommended Beyonder Rating 49578.\\n    <Assistant_Property1>Bonnie: </>Normal Level 56, recommended Beyonder Rating 28959; Hard Level 66, recommended Beyonder Rating 58189.\\n    <Assistant_Property1>War Dragon: </>Normal Level 60, recommended Beyonder Rating 38619; Hard Level 68, recommended Beyonder Rating 69025; Nightmare Level 70, recommended Beyonder Rating 94338.\\n<Assistant_Title2>Opening Schedule: </>Normal Drill opens on Day 2 of the season, Normal Bonnie on Day 4, Normal War Dragon on Day 5; Hard Johnny on Day 6, Hard Drill on Day 8, Hard Bonnie on Day 12, Hard War Dragon on Day 14; Nightmare War Dragon opens on Day 25.\\n<Assistant_Title2>Challenge Notes: </>All bosses support 5~6 person parties and AI mode. Different bosses and difficulties open independently; please choose your challenge target based on your character level and recommended Beyonder Rating.",
-    "target_ru": "<Assistant_Title1>【Наследование памяти】</>\n<Assistant_Title2> Тип игрового процесса: </><Assistant_Property1>5~Семейная копия из 6 человек </>\n<Assistant_Title2> Введение в игровой процесс: </> После начала церемонии «Наследование памяти» игроки войдут в мир памяти и снова столкнутся с могущественными врагами, с которыми они сталкивались в прошлом. При входе вместе с членами семьи вы можете получить баффы [Клятвенный огонь, горящий вместе] и [Родословный завет]. \n<Assistant_Title2>Как принять участие: </>Нажмите <Assistant_System>Меню-Мир приключений-Копирование-Наследование памяти</>, чтобы принять участие. \n<Assistant_Title2> Лидер и условия участия: </>\n <Assistant_Property1> Джонни: </> Нормальный уровень сложности 39, рекомендуемый экстраординарный балл 8779; высокий уровень сложности 61, рекомендуемый экстраординарный балл 39842. \n <Assistant_Property1> Сверло: </> Нормальный уровень сложности 46, рекомендуемый экстраординарный балл 17855; Сложный уровень сложности 63, рекомендуемый экстраординарный балл 49578. \n <Assistant_Property1> Бонни: </> Обычный уровень сложности — 56, рекомендуемый экстраординарный балл — 28959; высокий уровень сложности — 66, рекомендуемый экстраординарный балл — 58189. \n <Assistant_Property1> War Dragon: </> Нормальный уровень сложности 60, рекомендуемый экстраординарный балл 38619; Сложный уровень сложности 68, рекомендуемый выдающийся балл 69025; Уровень сложности «Кошмар» 70, рекомендованный экстраординарный балл 94338. \n<Assistant_Title2> Порядок открытия: </> Обычная тренировка открывается на 2-й день сезона, обычная Бонни открывается на 4-й день, а обычный Боевой Дракон открывается на 5-й день; Hard Johnny открывается на 6-й день, Hard Drill открывается на 8-й день, Hard Bonnie открывается на 12-й день, Hard War Dragon открывается на 14-й день; Кошмарная сложность War Dragon открывается на 25-й день. \n<Assistant_Title2>Описание задачи: </>Каждый лидер поддерживает команду из 5–6 человек и может выбрать режим «человек-машина». Различные боссы и сложности открываются самостоятельно. Пожалуйста, выберите цель испытания в соответствии с уровнем персонажа и рекомендованным выдающимся количеством очков."
+    "target_ru": "<Assistant_Title1>【Наследование памяти】</>\n<Assistant_Title2> Тип игрового процесса: </><Assistant_Property1>5~Семейная копия из 6 человек </>\n<Assistant_Title2> Описание игрового процесса: </> После начала церемонии «Наследование памяти» игроки войдут в мир памяти и снова столкнутся с могущественными врагами, с которыми они сталкивались в прошлом. При входе вместе с членами семьи вы можете получить баффы [Клятвенный огонь, горящий вместе] и [Родословный завет]. \n<Assistant_Title2>Как принять участие: </>Нажмите <Assistant_System>Меню-Мир приключений-Копирование-Наследование памяти</>, чтобы принять участие. \n<Assistant_Title2> Лидер и условия участия: </>\n <Assistant_Property1> Джонни: </> Нормальный уровень сложности 39, рекомендуемый экстраординарный балл 8779; высокий уровень сложности 61, рекомендуемый экстраординарный балл 39842. \n <Assistant_Property1> Сверло: </> Нормальный уровень сложности 46, рекомендуемый экстраординарный балл 17855; Сложный уровень сложности 63, рекомендуемый экстраординарный балл 49578. \n <Assistant_Property1> Бонни: </> Обычный уровень сложности — 56, рекомендуемый экстраординарный балл — 28959; высокий уровень сложности — 66, рекомендуемый экстраординарный балл — 58189. \n <Assistant_Property1> War Dragon: </> Нормальный уровень сложности 60, рекомендуемый экстраординарный балл 38619; Сложный уровень сложности 68, рекомендуемый выдающийся балл 69025; Уровень сложности «Кошмар» 70, рекомендованный экстраординарный балл 94338. \n<Assistant_Title2> Порядок открытия: </> Обычная тренировка открывается на 2-й день сезона, обычная Бонни открывается на 4-й день, а обычный Боевой Дракон открывается на 5-й день; Hard Johnny открывается на 6-й день, Hard Drill открывается на 8-й день, Hard Bonnie открывается на 12-й день, Hard War Dragon открывается на 14-й день; Кошмарная сложность War Dragon открывается на 25-й день. \n<Assistant_Title2>Описание задачи: </>Каждый лидер поддерживает команду из 5–6 человек и может выбрать режим «человек-машина». Различные боссы и сложности открываются самостоятельно. Пожалуйста, выберите цель испытания в соответствии с уровнем персонажа и рекомендованным выдающимся количеством очков."
   },
   {
     "id": "109261",
@@ -26769,7 +26769,7 @@
     "id": "109461",
     "source_cn": "标点文本信息已变更",
     "ref_en": "Marker text information has changed.",
-    "target_ru": "Текстовая информация маркера изменилась."
+    "target_ru": "Текстовая информация метки изменилась."
   },
   {
     "id": "109462",
@@ -27345,7 +27345,7 @@
     "id": "109557",
     "source_cn": "备货·非酒庄生效，获得50件【窖藏拉菲干红】",
     "ref_en": "Stocking: Non-Winery activated, received 50 [Cellar-Aged Lafite Red Wine]",
-    "target_ru": "Запас: активирован не-винный завод, получено 50 [лафитового красного вина, выдержанного в погребе]"
+    "target_ru": "Запас: не Винодельня сработала, получено 50 [Выдержанный красный «Лафит»]"
   },
   {
     "id": "109558",
@@ -27795,7 +27795,7 @@
     "id": "109632",
     "source_cn": "队伍成员%s未确认，已取消匹配。 ",
     "ref_en": "Party member %s did not confirm, matchmaking canceled.",
-    "target_ru": "Член группы %s не подтвердил, сватовство отменено."
+    "target_ru": "Член группы %s не подтвердил, подбор игроков отменён. "
   },
   {
     "id": "109633",
@@ -28125,7 +28125,7 @@
     "id": "109687",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,获得自身<LightHighlight>50%</>的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30506\">【镀金妆镜】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, obtain an amount of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30506\"> [Gilded Vanity Mirror] </> equal to <LightHighlight> 50% </> of what you currently possess.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, получите количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30506\"> [Позолоченное косметическое зеркало] </>, равное <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, получите количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30506\"> [Позолоченное косметическое зеркало] </>, равное <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
   },
   {
     "id": "109688",
@@ -28557,7 +28557,7 @@
     "id": "109759",
     "source_cn": "(匹配类型:3=3v3,4=5v5) ",
     "ref_en": "(Match type: 3=3v3, 4=5v5).",
-    "target_ru": "(Тип матча: 3=3х3, 4=5х5)."
+    "target_ru": "(Тип подбора игроков: 3=3х3, 4=5х5)."
   },
   {
     "id": "109760",
@@ -28887,13 +28887,13 @@
     "id": "109814",
     "source_cn": "好礼·酒庄",
     "ref_en": "Good Gift · Winery",
-    "target_ru": "Хороший подарок · Винодельня"
+    "target_ru": "Подарок · Винодельня"
   },
   {
     "id": "109815",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得自身<LightHighlight>50%</>的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\">【金牌皇家火腿】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain an amount of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </> equal to <LightHighlight> 50% </> of what you currently possess.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите сумму <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>, равную <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите сумму <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Золотая медаль Royal Ham] </>, равную <LightHighlight> 50% </> от того, что у вас есть в настоящее время."
   },
   {
     "id": "109816",

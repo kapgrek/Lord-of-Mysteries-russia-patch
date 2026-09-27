@@ -633,7 +633,7 @@
     "id": "040105",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>120</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия клейма истёк)}</>Пронзание увеличено на <Mark>120</>, крит. шанс уменьшен на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вейзель.\n<Mark>Добродетель</>: Оружие <Mark>Земля знаний</> дополнительно увеличивает бонус к атаке в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном комплекте <Mark>Завет железа и крови</>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Пронзание увеличено на <Mark>120</>, крит. шанс уменьшен на <Mark>20</>. Наделяет носителя <Mark>Добродетелью</> семьи Вейзель.\n<Mark>Добродетель</>: Оружие <Mark>Земля знаний</> дополнительно увеличивает бонус к атаке в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном комплекте <Mark>Завет железа и крови</>."
   },
   {
     "id": "040106",
@@ -1437,7 +1437,7 @@
     "id": "040239",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>穿刺提高<Mark>120</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Piercing increased by <Mark>120</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок годности марки истек)}</>Пронзание увеличено на <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Пронзание увеличено на <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "040240",
@@ -2415,7 +2415,7 @@
     "id": "040402",
     "source_cn": "如果下一站<LightHighlight>不是【商行】</>，本局<LightHighlight>艺术品、食品</>卖出价<LightHighlight>永久+15%</>",
     "ref_en": "If the next stop <LightHighlight> is not a [Trading Firm] </>, the selling price <LightHighlight> of artworks and food </> for this round <LightHighlight> will be permanently increased by 15% </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> не будет [Торговая фирма] </>, цена продажи <LightHighlight> произведений искусства и продуктов питания </> для этого раунда <LightHighlight> будет постоянно увеличена на 15% </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> не будет [Торговый дом] </>, цена продажи <LightHighlight> произведений искусства и продуктов питания </> для этого раунда <LightHighlight> будет постоянно увеличена на 15% </>."
   },
   {
     "id": "040403",
@@ -8589,7 +8589,7 @@
     "id": "041431",
     "source_cn": "押宝·商行生效，获得自身150%的【玉米脆片】",
     "ref_en": "Betting · Trading Firm effective, obtain 150% of own [Corn Chips]",
-    "target_ru": "Ставки · Торговая фирма эффективна, получите 150% собственных [кукурузных чипсов]"
+    "target_ru": "Ставка · Торговый дом срабатывает, получите 150% собственных [кукурузных чипсов]"
   },
   {
     "id": "041432",
@@ -9213,7 +9213,7 @@
     "id": "041535",
     "source_cn": "匹配确认超时，已自动取消匹配。",
     "ref_en": "Match confirmation timed out; matching has been automatically canceled.",
-    "target_ru": "Тайм-аут подтверждения матча; соответствие было автоматически отменено."
+    "target_ru": "Тайм-аут подтверждения подбора игроков; подбор был автоматически отменён."
   },
   {
     "id": "041536",
@@ -12741,7 +12741,7 @@
     "id": "042123",
     "source_cn": "技能系统介绍",
     "ref_en": "Skill System Introduction",
-    "target_ru": "Введение в систему навыков"
+    "target_ru": "Описание системы навыков"
   },
   {
     "id": "042124",
@@ -17091,7 +17091,7 @@
     "id": "042848",
     "source_cn": "升级·酒庄生效，所有的【蓝色/紫色物品】升级为【窖藏拉菲干红】",
     "ref_en": "Upgrade · Winery effective, all [Blue/Purple Items] upgraded to [Cellared Lafite Dry Red]",
-    "target_ru": "Улучшение · Винодельня действительна, все [Синие/фиолетовые предметы] улучшены до [Сухой красный лафит в погребе]"
+    "target_ru": "Улучшение · Винодельня срабатывает, все [Синие/фиолетовые предметы] улучшены до [Выдержанный красный «Лафит»]"
   },
   {
     "id": "042849",
@@ -17877,7 +17877,7 @@
     "id": "042979",
     "source_cn": "升级·食铺生效，【绿色物品】升级为【精品油画小作】",
     "ref_en": "Upgrade · Food Shop effective, [Green Items] upgraded to [Fine Small Oil Painting]",
-    "target_ru": "Улучшение · Продуктовый магазин эффективен, [Зеленые предметы] повышены до [Маленькая масляная картина]"
+    "target_ru": "Улучшение · Лавка Снеди срабатывает, [Зеленые предметы] повышены до [Маленькая масляная картина]"
   },
   {
     "id": "042980",
@@ -18249,7 +18249,7 @@
     "id": "043041",
     "source_cn": "神座之争最多允许3人组队匹配，当前队伍人数过多！",
     "ref_en": "Battle for the Throne of God allows a maximum party size of 3, current party size is too large!",
-    "target_ru": "В Битве за Трон Божий максимальный размер группы может составлять 3 человека, текущий размер группы слишком велик!"
+    "target_ru": "В Битве за Трон Божий подбор группы допускает не более 3 человек, текущий размер группы слишком велик!"
   },
   {
     "id": "043042",
@@ -18411,7 +18411,7 @@
     "id": "043068",
     "source_cn": "馈赠·食铺失效，本站不是【食铺】",
     "ref_en": "Gift: Shop failed, this station is not [Shop]",
-    "target_ru": "Подарок: Магазин не удался, этой станции нет [Магазин]"
+    "target_ru": "Подарок · Лавка Снеди не срабатывает, эта станция — не [Лавка Снеди]"
   },
   {
     "id": "043069",
@@ -19593,7 +19593,7 @@
     "id": "043265",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>，本局<LightHighlight>酒类、艺术品</>卖出价+25%，但下一站卖出价-60%",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, the selling price of <LightHighlight> Alcohol and Artworks </> for this session is +25%, but the selling price at the next stop is -60%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, цена продажи <LightHighlight> «Алкоголь и произведения искусства </>» для этой сессии составит +25%, но цена продажи на следующей остановке составит -60%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, цена продажи <LightHighlight> «Алкоголь и произведения искусства </>» для этой сессии составит +25%, но цена продажи на следующей остановке составит -60%."
   },
   {
     "id": "043266",
@@ -21111,7 +21111,7 @@
     "id": "043518",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>, имеющихся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>, имеющихся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "043519",
@@ -21237,7 +21237,7 @@
     "id": "043539",
     "source_cn": "押宝·商行生效，获得自身100%的【冰鲜雪贝薄片】",
     "ref_en": "Betting · Trading Firm effective, obtain 100% of own [Chilled Snow Shell Slices]",
-    "target_ru": "Ставки · Торговая фирма эффективна, получите 100% собственных [Охлажденных ломтиков снежной скорлупы]"
+    "target_ru": "Ставка · Торговый дом срабатывает, получите 100% собственных [Охлажденных ломтиков снежной скорлупы]"
   },
   {
     "id": "043540",
@@ -21657,7 +21657,7 @@
     "id": "043609",
     "source_cn": "%s 进入了不允许匹配的地图，已自动取消快速匹配",
     "ref_en": "%s entered a map where matching is not allowed. Quick match has been automatically canceled.",
-    "target_ru": "%s ввел карту, на которой совпадение не разрешено. Быстрый матч был автоматически отменен."
+    "target_ru": "%s вошел на карту, на которой подбор игроков не разрешен. Быстрый подбор игроков был автоматически отменен."
   },
   {
     "id": "043610",
@@ -22221,7 +22221,7 @@
     "id": "043703",
     "source_cn": "系统介绍",
     "ref_en": "System Introduction",
-    "target_ru": "Введение в систему"
+    "target_ru": "Описание системы"
   },
   {
     "id": "043704",
@@ -24483,7 +24483,7 @@
     "id": "044080",
     "source_cn": "有队员在副本中，无法匹配",
     "ref_en": "A party member is in a dungeon, cannot match.",
-    "target_ru": "Член группы находится в подземелье, не может сравниться."
+    "target_ru": "Член группы находится в подземелье, подбор невозможен."
   },
   {
     "id": "044081",
@@ -24819,7 +24819,7 @@
     "id": "044136",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>150</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Monster Specialization increased by <Mark>150</>. When taking damage, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров повышена на <Mark>150</>. При получении урона специализация против монстров дополнительно повышается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров повышена на <Mark>150</>. При получении урона специализация против монстров дополнительно повышается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "044137",
@@ -27237,7 +27237,7 @@
     "id": "044539",
     "source_cn": "备货·非商行",
     "ref_en": "Stocking · Non-Trading Firm",
-    "target_ru": "Складирование · Неторговая фирма"
+    "target_ru": "Запас · Неторговый дом"
   },
   {
     "id": "044540",

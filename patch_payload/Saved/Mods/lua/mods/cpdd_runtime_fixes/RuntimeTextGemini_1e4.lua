@@ -266,6 +266,7 @@ return {
     ["Don't come over here! I haven't bathed in days, I don't taste good!"] = "Не приходи сюда! Я не мылась несколько дней, мне невкусно!",
     ["Picking Up Weapon..."] = "Подбираем оружие...",
     ["Star-Splitting Curio"] = "Звездоколющий диковинный предмет",
+    ["Sober - Imprisonment + Play animation"] = "Протрезветь — обездвиживание + воспроизведение анимации",
     ["以文明之力重踏前方，造成{*d,F1690001,atkMin,2.56}点攻击伤害并击退敌人，自身获得<HighLight>40%</>伤害减免，持续<HighLight>6</>秒。"] = "Силой цивилизации тяжело топает вперёд, нанося {*d,F1690001,atkMin,2.56} ед. урона от атаки и отбрасывая врагов. Получает <HighLight>40%</> снижения урона на <HighLight>6</> сек.",
     ["Factory Worker - Gold Coin"] = "Фабричный рабочий — золотая монета",
     ["+<HighLight>10</> initial Mana, Attack increased by <HighLight>20%</> for <HighLight>15</> seconds. When defeating an enemy, heals <HighLight>1</> ally for <HighLight>10%</> Max Health."] = "+<HighLight>10</> ед. стартовой маны, атака повышена на <HighLight>20%</> на <HighLight>15</> сек. Победив врага, лечит <HighLight>1</> союзника на <HighLight>10%</> макс. здоровья.",

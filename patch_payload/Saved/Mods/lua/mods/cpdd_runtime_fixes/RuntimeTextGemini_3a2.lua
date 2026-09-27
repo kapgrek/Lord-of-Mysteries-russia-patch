@@ -103,7 +103,7 @@ return {
     ["Goodness, how does the teacher distinguish them?"] = "Господи, а как учитель их различает?",
     ["Guidance Arrow"] = "Направляющая стрелка",
     ["massNPC hide range"] = "MassNPC скрыть диапазон",
-    ["Stocking: Non-Trading House activated, received 20 [Premium Mist Champagne]"] = "Stocking: активирован неторговый дом, получено 20 [премиум-шампанского Mist].",
+    ["Stocking: Non-Trading House activated, received 20 [Premium Mist Champagne]"] = "Запас: срабатывает, если не Торговый дом, получено 20 [Премиальное туманное шампанское].",
     ["I wish you a wonderful evening."] = "Желаю вам чудесного вечера.",
     ["Use to obtain <Highlight>Morning Mist Fairytale Neck Accessory</>"] = "Используйте, чтобы получить <Highlight>Сказочный аксессуар на шею «Утренний туман»</>.",
     ["Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 66</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule."] = "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 66-го уровня </> <Highlight>Приключенческий </> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу.",

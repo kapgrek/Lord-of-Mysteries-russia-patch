@@ -38,7 +38,7 @@ return {
     ["Highland Competition Schedule"] = "Расписание соревнований в Хайленде",
     ["Alright, now that you mention it... I really want to try it."] = "Хорошо, раз уж ты об этом упомянул... Я правда хочу попробовать.",
     ["Wall 3"] = "Стена 3",
-    ["Regular: Winery activated, received 50% of own [Honey-Soaked Bacon]"] = "Обычное: активирована винодельня, получено 50% собственного [Пропитанного медом бекона]",
+    ["Regular: Winery activated, received 50% of own [Honey-Soaked Bacon]"] = "Постоянный клиент · Винодельня срабатывает, получено 50% собственного [Пропитанного медом бекона]",
     ["Acting Gameplay"] = "Актерский геймплей",
     ["White Line - Counter-clockwise Carriage B8"] = "Белая линия — каретка против часовой стрелки B8",
     ["Calm down, miss. Where is your home?"] = "Успокойтесь, мисс. Где твой дом?",

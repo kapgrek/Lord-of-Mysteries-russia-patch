@@ -223,7 +223,7 @@ return {
     ["Leave again...?"] = "Опять уйти...?",
     ["For more settings, contact the family chief to modify"] = "Для получения дополнительных настроек обратитесь к главе семьи, чтобы изменить его.",
     ["A <h>flyer</>"] = "<h>флаер</>",
-    ["Good Gift · Winery effective, obtain 50 [Gold Medal Royal Ham]"] = "Хороший подарок · Винодельня эффективна, получите 50 [Золотую медаль Королевской ветчины]",
+    ["Good Gift · Winery effective, obtain 50 [Gold Medal Royal Ham]"] = "Подарок · Винодельня срабатывает, получите 50 [Золотую медаль Королевской ветчины]",
     ["City Dark Side - Newbie Quest - Madman - 1"] = "Темная сторона города - Квест для новичков - Безумец - 1",
     ["Submit Key"] = "Отправить ключ",
     ["Action close-up"] = "Действие крупным планом",

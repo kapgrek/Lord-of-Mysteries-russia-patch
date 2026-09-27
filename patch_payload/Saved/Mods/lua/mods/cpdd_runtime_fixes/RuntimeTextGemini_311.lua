@@ -240,7 +240,7 @@ return {
     ["Heavenly Might"] = "Небесная мощь",
     ["(Solo) Clown Clone spawn material change Super Armor buff"] = "(Соло) Изменение материала появления клона-клоуна Усиление суперброни",
     ["Chanting requires mental focus to avoid being influenced by the audience."] = "Пение требует умственной концентрации, чтобы избежать влияния аудитории.",
-    ["If the next station <LightHighlight> is [Trading Firm] </>, the quantity of currently held <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Corn Chips] </> increases by <LightHighlight> 150% </>"] = "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 150% </>",
+    ["If the next station <LightHighlight> is [Trading Firm] </>, the quantity of currently held <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Corn Chips] </> increases by <LightHighlight> 150% </>"] = "Если следующей станцией <LightHighlight> является [Торговый дом] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 150% </>",
     ["Where would Linda go?"] = "Куда пойдет Линда?",
     ["Reality Main Story Chapter 5"] = "Основная история реальности, глава 5",
     ["This one is useless..."] = "Этот бесполезен...",

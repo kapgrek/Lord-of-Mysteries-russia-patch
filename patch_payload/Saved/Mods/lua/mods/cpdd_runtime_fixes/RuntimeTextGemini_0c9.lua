@@ -211,7 +211,7 @@ return {
     ["Frye Medium"] = "Фрай средний",
     ["So it's best not to try it lightly. Better to get a copy of 'The Ten Unsolved Mysteries of the Second Epoch'. This is the latest masterpiece by the author of 'Things Between Me and Gehrman Sparrow'!"] = "Так что лучше не пробовать легкомысленно. Лучше приобрести экземпляр «Десяти неразгаданных тайн второй эпохи». Это последний шедевр автора «Вещи между мной и Германом Воробьем»!",
     ["Heavenly Eye"] = "Небесный Глаз",
-    ["Regular Customer · Trading Firm effective, obtain 50% of own [Corn Chips]"] = "Постоянный клиент · Действует торговая фирма, получите 50% собственных [кукурузных чипсов]",
+    ["Regular Customer · Trading Firm effective, obtain 50% of own [Corn Chips]"] = "Постоянный клиент · Торговый дом срабатывает, получите 50% собственных [Кукурузных чипсов]",
     ["Nothing else."] = "Ничего больше.",
     ["Upload to Dressing Square"] = "Загрузить на Туалетную площадь",
     ["Curious about the identity of the performer"] = "Интересно узнать личность исполнителя",

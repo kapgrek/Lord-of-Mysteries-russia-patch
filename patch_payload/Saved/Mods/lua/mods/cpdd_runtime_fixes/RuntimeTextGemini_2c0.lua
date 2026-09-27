@@ -42,7 +42,7 @@ return {
     ["Hug (FF)"] = "Обнять (ФФ)",
     ["Chaos World · Initial Platform"] = "Мир Хаоса · Начальная платформа",
     ["Silk flows with a pearly luster; wearing it, you must be the dazzling pearl at the party.</>"] = "Шелк струится жемчужным блеском; в нем вы, должно быть, будете ослепительной жемчужиной на вечеринке.</>",
-    ["Upgrade · Winery effective, all [Blue/Purple Items] upgraded to [Cellared Lafite Dry Red]"] = "Улучшение · Винодельня действительна, все [Синие/фиолетовые предметы] улучшены до [Сухой красный лафит в погребе]",
+    ["Upgrade · Winery effective, all [Blue/Purple Items] upgraded to [Cellared Lafite Dry Red]"] = "Улучшение · Винодельня срабатывает, все [Синие/фиолетовые предметы] улучшены до [Выдержанный красный «Лафит»]",
     ["Letter 4"] = "Письмо 4",
     ["It's dangerous now, you can't go over yet."] = "Сейчас опасно, перебраться пока нельзя.",
     ["Set PVP Team Member Rank"] = "Установить ранг члена PVP-команды",

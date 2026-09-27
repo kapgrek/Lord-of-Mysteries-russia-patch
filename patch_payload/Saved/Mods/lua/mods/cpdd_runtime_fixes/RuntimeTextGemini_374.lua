@@ -90,7 +90,7 @@ return {
     ["Blade Frontline"] = "Клинок Передовой",
     ["Light Hit"] = "Легкий хит",
     ["[Test] One-click development level 35 mid-spender"] = "[Тест] Разработка в один клик, уровень 35, средний расход",
-    ["Best-Seller · Trading Firm"] = "Бестселлер · Торговая фирма",
+    ["Best-Seller · Trading Firm"] = "Бестселлер · Торговый дом",
     ["Already in this Beyonder's castle."] = "Уже в замке этого Потустороннего.",
     ["Bates"] = "Бейтс",
     ["As a result?"] = "Как результат?",

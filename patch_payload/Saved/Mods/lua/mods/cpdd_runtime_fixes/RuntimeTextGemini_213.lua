@@ -200,7 +200,7 @@ return {
     ["（可选）询问<h>老尼尔</>笔记的事"] = "(Необязательно) Спросите <h>Старина Нил</> о заметках.",
     ["Divine Weapon Melee Trigger"] = "Триггер ближнего боя божественного оружия",
     ["Linda won?!"] = "Линда выиграла?!",
-    ["The event has ended; the system automatically canceled matching."] = "Мероприятие завершилось; система автоматически отменила сопоставление.",
+    ["The event has ended; the system automatically canceled matching."] = "Мероприятие завершилось; система автоматически отменила подбор.",
     ["I can hear the discussions coming from the restaurant just by standing here. I wonder if there's some kind of discount event? Let's go join in the fun!"] = "Я слышу разговоры, доносящиеся из ресторана, просто стоя здесь. Интересно, есть ли какая-нибудь акция со скидками? Давайте присоединимся к веселью!",
     ["He... looks older than his actual age. Not because he's old, but because... he worries about too many things."] = "Он... выглядит старше своего возраста. Не потому, что он стар, а потому, что... он беспокоится о слишком многих вещах.",
     ["Scene prop"] = "реквизит сцены",

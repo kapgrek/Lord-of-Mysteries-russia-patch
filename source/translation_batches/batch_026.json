@@ -1689,7 +1689,7 @@
     "id": "125281",
     "source_cn": "熟客·食铺生效，获得自身50%的【蜂蜜麦酒】",
     "ref_en": "Regular Customer · Food Shop effective, obtain 50% of own [Honey Mead]",
-    "target_ru": "Постоянный клиент · Продуктовый магазин работает, получите 50% собственного [Медового меда]"
+    "target_ru": "Постоянный клиент · Лавка Снеди срабатывает, получите 50% собственного [Медового меда]"
   },
   {
     "id": "125282",
@@ -2127,7 +2127,7 @@
     "id": "125354",
     "source_cn": "可买入站点：<LightHighlight>商行</>\\n可卖出站点：<LightHighlight>食铺</>\\n物品类型：<LightHighlight>艺术品</>",
     "ref_en": "Buyable Stations: <LightHighlight> Trading Firm </> \\n Sellable Stations: <LightHighlight> Food Shop </> \\n Item Type: <LightHighlight> Art </>",
-    "target_ru": "Сайты, где можно купить: <LightHighlight>Бизнес-Дом</>\\n Сайты, где можно продать: <LightHighlight>Продуктовый магазин</>\\nТип предмета:<LightHighlight>Произведение</>"
+    "target_ru": "Сайты, где можно купить: <LightHighlight>Торговый дом</>\\n Сайты, где можно продать: <LightHighlight>Лавка Снеди</>\\nТип предмета:<LightHighlight>Произведение</>"
   },
   {
     "id": "125355",
@@ -3519,7 +3519,7 @@
     "id": "125586",
     "source_cn": "<Assistant_Title1>【非凡扮演】</>\\n<Assistant_Title2>介绍：</>蕴含着其他途径能力的<Assistant_Red>光球</>，触碰后可运用不同途径的非凡能力，寻获隐蔽宝箱。\\n<Assistant_Title2>玩法指引：</>\\n<Assistant_Title3>1. 寻找非凡扮演</>\\n可通过以下任一方式前往玩法：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任意教团后，在【秩序世界】中选择【非凡扮演】，点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在【世界详情】中查看【非凡扮演】玩法图标，并根据图标指引，在地图中找到对应标识，点击【前往】即可自动寻路。\\n<Assistant_Title3>2. 扮演序列者</>\\n与光球互动，完成检定后即可进入对应途径的非凡扮演，体验专属非凡能力。\\n<Assistant_Title3>3. 获取奖励</>\\n扮演完毕后，获得隐藏宝箱奖励，增加所在地图的完成度。",
     "ref_en": "<Assistant_Title1>【Extraordinary Roleplay】</>\\n<Assistant_Title2>Introduction: </>Spheres of light containing the abilities of other pathways. <Assistant_Red>Touch </>them to utilize the extraordinary abilities of different pathways and find hidden treasure chests.\\n<Assistant_Title2>Gameplay Guide: </>\\n<Assistant_Title3>1. Finding Extraordinary Roleplay</>\\nYou can navigate to this activity using either of the following methods:\\n<Assistant_Property2>TTRPG Entry:</>Open the Menu, enter [TTRPG], join any organization, select [Extraordinary Roleplay] in the [Orderly World], and click [Go] to start auto-pathing.\\n<Assistant_Property1>Map Entry:</>Open the map, switch to the [Exploration] tab, view the [Extraordinary Roleplay] icon in [World Details], find the corresponding marker on the map based on the icon's guidance, and click [Go] to start auto-pathing.\\n<Assistant_Title3>2. Roleplaying a Sequence Beyonder</>\\nInteract with the sphere of light and complete the check to enter the Extraordinary Roleplay of the corresponding pathway and experience exclusive extraordinary abilities.\\n<Assistant_Title3>3. Obtaining Rewards</>\\nAfter finishing the roleplay, you will receive a hidden treasure chest reward and increase the completion progress of the current map.",
-    "target_ru": "<Assistant_Title1>【Выдающиеся характеристики】</>\\n<Assistant_Title2>Введение: </>Световой шар <Assistant_Red></> содержит способности других каналов. Прикоснувшись, вы сможете использовать необыкновенные способности разных каналов, чтобы найти спрятанные сундуки с сокровищами. \\n<Assistant_Title2>Как играть: </>\\n<Assistant_Title3>1. В поисках необыкновенных ролей </>\\n К игровому процессу можно перейти любым из следующих способов: \\n<Assistant_Property2>Вход в бегущую группу: </> Откройте меню и войдите в [Бегущая группа]. После присоединения к какой-либо религиозной группе выберите [Чрезвычайные роли] в [Мировой порядок] и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1>Вход на карту: </>Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Необыкновенная ролевая игра] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Играйте за секвенсора </>\\n и взаимодействуйте со световым шаром. После завершения испытания вы сможете войти в экстраординарную производительность соответствующего пути и испытать эксклюзивные экстраординарные способности. \\n<Assistant_Title3>3. Получите награды</>\\nПосле выполнения роли вы получите награды из спрятанных сундуков с сокровищами, которые ускорят прохождение карты."
+    "target_ru": "<Assistant_Title1>【Выдающиеся характеристики】</>\\n<Assistant_Title2>Описание: </>Световой шар <Assistant_Red></> содержит способности других каналов. Прикоснувшись, вы сможете использовать необыкновенные способности разных каналов, чтобы найти спрятанные сундуки с сокровищами. \\n<Assistant_Title2>Как играть: </>\\n<Assistant_Title3>1. В поисках необыкновенных ролей </>\\n К игровому процессу можно перейти любым из следующих способов: \\n<Assistant_Property2>Вход в бегущую группу: </> Откройте меню и войдите в [Бегущая группа]. После присоединения к какой-либо религиозной группе выберите [Чрезвычайные роли] в [Мировой порядок] и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1>Вход на карту: </>Откройте карту, переключитесь на вкладку [Исследование], проверьте значок игрового процесса [Необыкновенная ролевая игра] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Играйте за секвенсора </>\\n и взаимодействуйте со световым шаром. После завершения испытания вы сможете войти в экстраординарную производительность соответствующего пути и испытать эксклюзивные экстраординарные способности. \\n<Assistant_Title3>3. Получите награды</>\\nПосле выполнения роли вы получите награды из спрятанных сундуков с сокровищами, которые ускорят прохождение карты."
   },
   {
     "id": "125587",
@@ -3885,7 +3885,7 @@
     "id": "125647",
     "source_cn": "您将随机匹配加入其中一个势力",
     "ref_en": "You will be randomly matched to join one of the factions",
-    "target_ru": "Вы будете случайным образом выбраны для присоединения к одной из фракций."
+    "target_ru": "Вы пройдёте случайный подбор и присоединитесь к одной из фракций."
   },
   {
     "id": "125648",
@@ -7125,7 +7125,7 @@
     "id": "126187",
     "source_cn": "签约·食铺失效，下一站不是【食铺】",
     "ref_en": "Contract: Shop failed, next station is not [Shop]",
-    "target_ru": "Контракт: Магазин не удался, следующей станции нет [Магазин]"
+    "target_ru": "Контракт: Лавка Снеди не сработала, следующей станции нет [Лавка Снеди]"
   },
   {
     "id": "126188",
@@ -7419,7 +7419,7 @@
     "id": "126236",
     "source_cn": "你的非凡评分未达推荐非凡评分，匹配时间可能较长，是否继续匹配？",
     "ref_en": "Your Beyonder rating does not meet the recommended rating, so matching may take longer. Do you want to continue matching?",
-    "target_ru": "Ваш рейтинг Потусторонний не соответствует рекомендуемому рейтингу, поэтому сопоставление может занять больше времени. Хотите продолжить сопоставление?"
+    "target_ru": "Ваш рейтинг Потустороннего не соответствует рекомендуемому рейтингу Потустороннего, поэтому подбор может занять больше времени. Хотите продолжить подбор?"
   },
   {
     "id": "126237",
@@ -11253,7 +11253,7 @@
     "id": "126875",
     "source_cn": "如果下一站<LightHighlight>是【酒庄】</>,把所有的<LightHighlight>【蓝色物品】和【紫色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Winery] </>, upgrade all <LightHighlight> [Blue Items] and [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Винодельня] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Лафитовое красное вино, выдержанное в погребе] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Винодельня] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанный красный «Лафит»] </>."
   },
   {
     "id": "126876",
@@ -11931,7 +11931,7 @@
     "id": "126988",
     "source_cn": "匹配成员",
     "ref_en": "Match Members",
-    "target_ru": "Участники матча"
+    "target_ru": "Участники подбора"
   },
   {
     "id": "126989",
@@ -12021,7 +12021,7 @@
     "id": "127003",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,下一站物产出售价格<LightHighlight>+40%</>",
     "ref_en": "If the next station <LightHighlight> is [Food Shop] </>, next station selling price <LightHighlight> +40% </>",
-    "target_ru": "Если следующая станция <LightHighlight> — [Продовольственный магазин] </>, цена продажи следующей станции <LightHighlight> +40% </>."
+    "target_ru": "Если следующая станция <LightHighlight> — [Лавка Снеди] </>, цена продажи следующей станции <LightHighlight> +40% </>."
   },
   {
     "id": "127004",
@@ -12603,7 +12603,7 @@
     "id": "127100",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>345</>，防御降低<Mark>10</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>10</>。<Mark>{1,4,（已净化）}</>\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired)}</>Attack increased by <Mark>345</>, Defense decreased by <Mark>10</>, Corruption increased by <Mark>15</>.\\nCorruption Effect: When reaching <Mark>30</> Corruption, Defense is decreased by <Mark>10</>.<Mark>{1,4, (Purified)}</>\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Атака увеличена <Mark>345</>, защита уменьшена <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, защита снижается на <Mark>10</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Атака увеличена <Mark>345</>, защита уменьшена <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \\n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, защита снижается на <Mark>10</>. <Mark>{1,4,(очищенный)}</>\\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
   },
   {
     "id": "127101",
@@ -14961,7 +14961,7 @@
     "id": "127493",
     "source_cn": "预判·非酒庄",
     "ref_en": "Prediction · Non-Winery",
-    "target_ru": "Прогноз · Невинный завод"
+    "target_ru": "Прогноз · не Винодельня"
   },
   {
     "id": "127494",
@@ -15183,7 +15183,7 @@
     "id": "127530",
     "source_cn": "匹配取消",
     "ref_en": "Match Cancel",
-    "target_ru": "Матч Отмена"
+    "target_ru": "Отмена подбора"
   },
   {
     "id": "127531",
@@ -17907,7 +17907,7 @@
     "id": "127984",
     "source_cn": "<Assistant_Title1>【事件】</>\\n<Assistant_Title2>事件目标：</>城市暗面中会不断发生各类突发事件。参与并完成事件，即可获得悬赏奖励，并推进玩法进度。\\n<Assistant_Title2>小贴士：</>优先完成{SendAnswer:剧情事件|879}，可逐步解锁更多{SendAnswer:挑战事件|880}与{SendAnswer:竞技事件|881}，体验完整的城市暗面内容。\\n<Assistant_Title2>1.事件类型（包含三种）：</>\\n<Assistant_Title3>①剧情事件：</>推进剧情，解锁更多玩法内容。\\n<Assistant_Title3>②挑战事件：</>完成首领挑战、竞速等玩法，获得丰富奖励，注意：激战·邦尼会根据玩家战力转化属性，影响挑战。\\n<Assistant_Title3>③竞技事件：</>参与资源争夺、追逐战，与其他玩家同场竞技。\\n<Assistant_Title2>2.事件刷新规则：</>仅会显示当前已解锁且满足开启条件的事件。随着剧情推进，将逐步解锁更多事件。\\n<Assistant_Title3>剧情事件：</>完成前置条件后解锁，不会随机刷新。\\n<Assistant_Title3>挑战事件：</>满足开启条件后持续刷新，完成后约10秒重新出现。\\n<Assistant_Title3>竞技事件：</>每日指定时间开放匹配，匹配成功后开启。\\n<Assistant_Title2>3.奖励规则：</>\\n<Assistant_Title3>①剧情事件：</>完成即可领取奖励。\\n<Assistant_Title3>②挑战事件：</>竞速挑战根据排名发放奖励；激战·邦尼根据表现有分档奖励；困难首领事件不设分档奖励。\\n<Assistant_Title3>③竞技事件：</>根据最终排名发放奖励。\\n<Assistant_Title2>4.奖励上限：</>事件奖励领取次数不限，每周可获得的悬赏值存在上限。达到上限后仍可继续参与事件，但不会继续获得悬赏值。\\n<Assistant_Title2>5.失败条件：</>\\n未在规定时间内完成事件目标。\\n事件过程中离开事件区域过远，视为主动放弃。",
     "ref_en": "<Assistant_Title1>【Event】</>\\n<Assistant_Title2> Event Objective: </> Various sudden events will constantly occur in the dark side of the city. Participate in and complete events to receive bounty rewards and advance gameplay progress. \\n<Assistant_Title2> Tips: </> Prioritize completing {SendAnswer: Plot Events | 879 } to gradually unlock more {SendAnswer: Challenge Events | 880 } and {SendAnswer: Competition Events | 881 }, and experience the full content of the city's dark side. \\n<Assistant_Title2> 1. Event Types (includes three): </>\\n<Assistant_Title3> ① Plot Events: </> Advance the plot and unlock more gameplay content. \\n<Assistant_Title3> ② Challenge Events: </> Complete boss challenges, speed runs, and other modes to receive rich rewards. Note: Fierce Battle · Bonnie will convert attributes based on the player's combat power, affecting the challenge. \\n<Assistant_Title3> ③ Competition Events: </> Participate in resource contention and chase battles to compete with other players in the same arena. \\n<Assistant_Title2> 2. Event Refresh Rules: </> Only events that are currently unlocked and meet the activation conditions will be displayed. As the plot progresses, more events will be unlocked. \\n<Assistant_Title3> Plot Events: </> Unlocked after completing prerequisites; they do not refresh randomly. \\n<Assistant_Title3> Challenge Events: </> Continuously refresh after meeting activation conditions; they reappear approximately 10 seconds after completion. \\n<Assistant_Title3> Competition Events: </> Matching opens at designated times every day; starts after successful matching. \\n<Assistant_Title2> 3. Reward Rules: </>\\n<Assistant_Title3> ① Plot Events: </> Receive rewards upon completion. \\n<Assistant_Title3> ② Challenge Events: </> Speed run challenges distribute rewards based on ranking; Fierce Battle · Bonnie has tiered rewards based on performance; difficult boss events do not have tiered rewards. \\n<Assistant_Title3> ③ Competition Events: </> Rewards are distributed based on final ranking. \\n<Assistant_Title2> 4. Reward Limit: </> There is no limit to the number of times event rewards can be claimed, but there is a weekly cap on the bounty value that can be obtained. You can continue to participate in events after reaching the cap, but you will not continue to receive bounty value. \\n<Assistant_Title2> 5. Failure Conditions: </>\\n Failure to complete the event objective within the specified time. \\n Leaving the event area too far during the event is considered a voluntary withdrawal.",
-    "target_ru": "<Assistant_Title1>【Событие】</>\\n<Assistant_Title2>Цель события: </> На темной стороне города будут продолжать происходить различные чрезвычайные ситуации. Участвуйте и завершайте события, чтобы получать награды и продвигать игровой процесс. \\n<Assistant_Title2> Советы: </> Отдайте приоритет завершению {SendAnswer: Story Event|879}, и вы сможете постепенно разблокировать больше {SendAnswer: Challenge Event|880} и {SendAnswer: Competitive Event|881}, чтобы ощутить всю темную сторону городского контента. \\n<Assistant_Title2>1. Типы событий (включая три типа): </>\\n<Assistant_Title3> ① Сюжетные события: </> Продвигайте сюжет и открывайте больше игрового контента. \\n<Assistant_Title3>②События испытаний: </>Выполняйте испытания с боссами, гонки и другие игровые процессы и получайте богатые награды. Примечание. Ожесточённая битва. Бонни преобразует атрибуты в соответствии с боевой мощью игрока, что влияет на задачу. \\n<Assistant_Title3> ③ Соревновательные события: </> Участвуйте в соревновании за ресурсы, гоняйтесь за битвами и соревнуйтесь с другими игроками. \\n<Assistant_Title2>2. Правила обновления событий: </> будет отображать только те события, которые в данный момент разблокированы и соответствуют условиям открытия. По мере развития сюжета постепенно будут открываться новые события. \\n<Assistant_Title3>Сюжетные события: </>Разблокируется после выполнения предварительных условий и не будет обновляться случайным образом. \\n<Assistant_Title3> Событие испытания: </> будет продолжать обновляться после выполнения условий открытия и появится снова примерно через 10 секунд после завершения. \\n<Assistant_Title3> Соревновательные мероприятия: </> Сопоставление открывается в назначенное время каждый день и будет открыто после успешного сопоставления. \\n<Assistant_Title2>3. Правила получения наград: </>\\n<Assistant_Title3> ① Спланируйте события: </> Завершите, чтобы получить награды. \\n<Assistant_Title3> ②Соревнования: </> Гоночные испытания присуждают награды в зависимости от рейтинга; Ожесточенная битва. Бонни имеет уровни наград в зависимости от результатов; Сложные события с боссами не имеют многоуровневых наград. \\n<Assistant_Title3> ③ Соревновательные мероприятия: </> Награды будут выдаваться на основе итогового рейтинга. \\n<Assistant_Title2>4. Верхний предел награды: </> Нет ограничений на количество раз, когда вы можете получать награды за события, и существует верхний предел суммы награды, которую вы можете получать каждую неделю. После достижения верхнего лимита вы все равно сможете продолжать участвовать в мероприятиях, но больше не будете получать награды. \\n<Assistant_Title2>5. Условия сбоя: </>\\n Цель события не была достигнута в течение указанного времени. \\n Если вы покинете зону соревнований слишком далеко во время мероприятия, будет считаться, что вы отказались от участия по собственной инициативе."
+    "target_ru": "<Assistant_Title1>【Событие】</>\\n<Assistant_Title2>Цель события: </> На темной стороне города будут продолжать происходить различные чрезвычайные ситуации. Участвуйте и завершайте события, чтобы получать награды и продвигать игровой процесс. \\n<Assistant_Title2> Советы: </> Отдайте приоритет завершению {SendAnswer: Story Event|879}, и вы сможете постепенно разблокировать больше {SendAnswer: Challenge Event|880} и {SendAnswer: Competitive Event|881}, чтобы ощутить всю темную сторону городского контента. \\n<Assistant_Title2>1. Типы событий (включая три типа): </>\\n<Assistant_Title3> ① Сюжетные события: </> Продвигайте сюжет и открывайте больше игрового контента. \\n<Assistant_Title3>②События испытаний: </>Выполняйте испытания с боссами, гонки и другие игровые процессы и получайте богатые награды. Примечание. Ожесточённая битва. Бонни преобразует атрибуты в соответствии с боевой мощью игрока, что влияет на задачу. \\n<Assistant_Title3> ③ Соревновательные события: </> Участвуйте в соревновании за ресурсы, гоняйтесь за битвами и соревнуйтесь с другими игроками. \\n<Assistant_Title2>2. Правила обновления событий: </> будет отображать только те события, которые в данный момент разблокированы и соответствуют условиям открытия. По мере развития сюжета постепенно будут открываться новые события. \\n<Assistant_Title3>Сюжетные события: </>Разблокируется после выполнения предварительных условий и не будет обновляться случайным образом. \\n<Assistant_Title3> Событие испытания: </> будет продолжать обновляться после выполнения условий открытия и появится снова примерно через 10 секунд после завершения. \\n<Assistant_Title3> Соревновательные мероприятия: </> Подбор открывается в назначенное время каждый день и будет открыто после успешного подбора. \\n<Assistant_Title2>3. Правила получения наград: </>\\n<Assistant_Title3> ① Спланируйте события: </> Завершите, чтобы получить награды. \\n<Assistant_Title3> ②Соревнования: </> Гоночные испытания присуждают награды в зависимости от рейтинга; Ожесточенная битва. Бонни имеет уровни наград в зависимости от результатов; Сложные события с боссами не имеют многоуровневых наград. \\n<Assistant_Title3> ③ Соревновательные мероприятия: </> Награды будут выдаваться на основе итогового рейтинга. \\n<Assistant_Title2>4. Верхний предел награды: </> Нет ограничений на количество раз, когда вы можете получать награды за события, и существует верхний предел суммы награды, которую вы можете получать каждую неделю. После достижения верхнего лимита вы все равно сможете продолжать участвовать в мероприятиях, но больше не будете получать награды. \\n<Assistant_Title2>5. Условия сбоя: </>\\n Цель события не была достигнута в течение указанного времени. \\n Если вы покинете зону соревнований слишком далеко во время мероприятия, будет считаться, что вы отказались от участия по собственной инициативе."
   },
   {
     "id": "127985",
@@ -20319,7 +20319,7 @@
     "id": "128386",
     "source_cn": "<Assistant_Title1>金纺线</>\\n<Assistant_Title2>道具介绍：</>\\n1、使用金纺线可在<Assistant_System>秘偶-获取秘偶-乌托邦剧院</>界面抽选秘偶。\\n2、乌托邦剧院戏台每次<Assistant_Property1>刷新</>会上架<Assistant_Red>3个</>秘偶，可供抽选。若抽选后戏台上只剩<Assistant_Red>紫色</>品质秘偶，戏台会自动刷新。\\n序幕抽选：消耗<Assistant_Property1>金纺线</>*3，从台上3个秘偶中随机获得1个。\\n中幕抽选：消耗<Assistant_Property1>金纺线</>*6，从台上剩余2个秘偶中随机获得1个。\\n落幕抽选：消耗<Assistant_Property1>金纺线</>*12，必定获得台上剩余的1个秘偶。\\n3、可以通过<Assistant_System>商城-百货</>中的各类商店兑换，<Assistant_System>商城-交易所</>购买，<Assistant_System>段位奖励</>等途径获得。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[获取秘偶]|536}",
     "ref_en": "<Assistant_Title1>Gold Spun Thread</>\\n<Assistant_Title2>Item Description:</>\\n1. Use Gold Spun Thread in the <Assistant_System>Marionette - Obtain Marionette - Utopia Theater</> interface to draw marionettes.\\n2. The Utopia Theater stage will <Assistant_Property1>refresh</> and list <Assistant_Red>3</> marionettes available for selection each time. If only <Assistant_Red>Purple</> quality marionettes remain on stage after a draw, the stage will automatically refresh.\\nPrologue Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*3 to randomly obtain 1 of the 3 marionettes on stage.\\nIntermission Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*6 to randomly obtain 1 of the 2 remaining marionettes on stage.\\nCurtain Call Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*12 to guarantee the acquisition of the 1 remaining marionette on stage.\\n3. Can be obtained through various shops in <Assistant_System>Mall - General Store</>, purchases in <Assistant_System>Mall - Exchange</>, <Assistant_System>Rank Rewards</>, and other pathways.\\n<Assistant_Title3>Recommended Searches:</>{SendAnswer:[Obtain Marionette]|536}",
-    "target_ru": "<Assistant_Title1>Золотая прядильная нить</>\\n<Assistant_Title2>Введение реквизита:</>\\n1. Используйте золотую прядильную нить, чтобы выбрать секретную марионетку в интерфейсе <Assistant_System> Secret Puppet-Obtain Secret Puppet-Utopia Theater </>. \\n2. Каждый раз, когда сцена <Assistant_Property1> Театра Утопия обновляется, для рисования будут доступны секретные куклы </>, <Assistant_Red>3 </>. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \\n Лотерея пролога: поглотите <Assistant_Property1>Золотую прядильную нить</>*3 и случайным образом получите 1 марионетку из 3 марионеток на сцене. \\n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \\n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \\n3. Его можно получить через <Assistant_System> универмаг торгового центра </> различные магазины, <Assistant_System> торговый центр </> покупку, <Assistant_System> награду за ранг </> и т. д. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Get Secret Puppet]|536}"
+    "target_ru": "<Assistant_Title1>Золотая прядильная нить</>\\n<Assistant_Title2>Описание предмета:</>\\n1. Используйте золотую прядильную нить, чтобы выбрать секретную марионетку в интерфейсе <Assistant_System> Secret Puppet-Obtain Secret Puppet-Utopia Theater </>. \\n2. Каждый раз, когда сцена <Assistant_Property1> Театра Утопия обновляется, для рисования будут доступны секретные куклы </>, <Assistant_Red>3 </>. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \\n Лотерея пролога: поглотите <Assistant_Property1>Золотую прядильную нить</>*3 и случайным образом получите 1 марионетку из 3 марионеток на сцене. \\n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \\n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \\n3. Его можно получить через <Assistant_System> универмаг торгового центра </> различные магазины, <Assistant_System> торговый центр </> покупку, <Assistant_System> награду за ранг </> и т. д. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Get Secret Puppet]|536}"
   },
   {
     "id": "128387",
@@ -20553,7 +20553,7 @@
     "id": "128425",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканная масляная живопись] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканная масляная живопись] </>, имеющееся в настоящее время, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "128426",
@@ -21855,7 +21855,7 @@
     "id": "128642",
     "source_cn": "金印·商行",
     "ref_en": "Gold Seal · Trading Firm",
-    "target_ru": "Золотая печать · Торговая фирма"
+    "target_ru": "Золотая печать · Торговый дом"
   },
   {
     "id": "128643",
@@ -21909,7 +21909,7 @@
     "id": "128651",
     "source_cn": "<Assistant_Title1>【诡变宝箱】</>\\n<Assistant_Title2>介绍：</>没有哪位经验丰富的探索者，会轻易相信一份毫无来由的财富。它们有的早已失去主人，有的仍处于守护之下，也有一些只是岁月的痕迹。对于非凡者而言，每一次尝试，都意味着一次选择，这一切的谜题，都等着你来揭晓。用武力和欺骗的手段战胜他们，让他们看看谁才是猎物。\\n<Assistant_Title2>玩法指引：</>\\n<Assistant_Title3>1. 寻找诡变宝箱</>\\n可通过以下任一方式前往玩法：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任意教团后，在【秩序世界】中选择【诡变宝箱】，点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在【世界详情】中查看【诡变宝箱】玩法图标，并根据图标指引，在地图中找到对应标识，点击【前往】即可自动寻路。\\n<Assistant_Title3>2. 与宝箱互动</>\\n到达目标地点后，与奇怪的宝箱互动，选择开启宝箱，会惊动宝箱周围的敌人。\\n<Assistant_Title3>3. 应对选择</>\\n被敌人发现后，可选择不同方式应对：\\n<Assistant_Red>正面迎战：</>击败敌人即可获得宝箱奖励。\\n<Assistant_Red>天赋检定：</>通过对应检定，同样可以获得宝箱奖励；若检定失败，则需进入战斗完成挑战。",
     "ref_en": "<Assistant_Title1>【Mysterious Treasure Chest】</>\\n<Assistant_Title2>Introduction: </>No experienced explorer would easily trust wealth that appears out of nowhere. Some have long lost their owners, some remain under guard, and others are merely traces of time. For a Beyonder, every attempt represents a choice, and all these puzzles are waiting for you to solve them. Use force and deception to defeat them and show them who the real prey is.\\n<Assistant_Title2>Gameplay Guide: </>\\n<Assistant_Title3>1. Finding a Mysterious Treasure Chest</>\\nYou can navigate to this activity using either of the following methods:\\n<Assistant_Property2>TTRPG Entry:</>Open the Menu, enter [TTRPG], join any organization, select [Mysterious Treasure Chest] in the [Orderly World], and click [Go] to start auto-pathing.\\n<Assistant_Property1>Map Entry:</>Open the map, switch to the [Exploration] tab, view the [Mysterious Treasure Chest] icon in [World Details], find the corresponding marker on the map based on the icon's guidance, and click [Go] to start auto-pathing.\\n<Assistant_Title3>2. Interacting with the Chest</>\\nAfter arriving at the target location, interact with the strange treasure chest and choose to open it, which will alert the enemies surrounding it.\\n<Assistant_Title3>3. Responding to Choices</>\\nOnce discovered by enemies, you can choose different ways to respond:\\n<Assistant_Red>Head-on Battle:</>Defeat the enemies to obtain the treasure chest reward.\\n<Assistant_Red>Talent Check:</>Pass the corresponding check to also obtain the treasure chest reward; if the check fails, you must enter combat to complete the challenge.",
-    "target_ru": "<Assistant_Title1>【Сундук с сокровищами】</>\\n<Assistant_Title2>Введение: </>Ни один опытный исследователь не поверит с легкостью в необоснованное богатство. Некоторые из них давно потеряли своих владельцев, некоторые до сих пор находятся под охраной, а некоторые представляют собой лишь следы времени. Для неординарных людей каждая попытка означает выбор, и все эти тайны ждут, когда вы их раскроете. Используйте силу и обман, чтобы победить их и показать им, кто является добычей. \\n<Assistant_Title2> Как играть: </>\\n<Assistant_Title3>1. В поисках странного сундука с сокровищами </>\\n Перейти к игровому процессу можно любым из следующих способов: \\n<Assistant_Property2>Вход в бегущую группу: </> Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Странный сундук с сокровищами] в [Упорядоченном мире] и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте игровой значок [Коварный сундук с сокровищами] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Взаимодействуйте с сундуком с сокровищами </>\\n После прибытия в заданное место взаимодействуйте со странным сундуком с сокровищами и выберите открыть сундук с сокровищами, что встревожит врагов вокруг сундука с сокровищами. \\n<Assistant_Title3>3. Варианты ответа</>\\nПосле обнаружения врагом вы можете выбрать разные способы ответа: \\n<Assistant_Red>Сражаться в лоб: </> Победите врага, чтобы получить награду в виде сундука с сокровищами. \\n<Assistant_Red> Проверка таланта: </> Если вы пройдете соответствующий тест, вы также можете получить награду в виде сундука с сокровищами; если вы провалите испытание, вам нужно вступить в бой, чтобы выполнить задание."
+    "target_ru": "<Assistant_Title1>【Сундук с сокровищами】</>\\n<Assistant_Title2>Описание: </>Ни один опытный исследователь не поверит с легкостью в необоснованное богатство. Некоторые из них давно потеряли своих владельцев, некоторые до сих пор находятся под охраной, а некоторые представляют собой лишь следы времени. Для Потусторонних каждая попытка означает выбор, и все эти тайны ждут, когда вы их раскроете. Используйте силу и обман, чтобы победить их и показать им, кто является добычей. \\n<Assistant_Title2> Как играть: </>\\n<Assistant_Title3>1. В поисках странного сундука с сокровищами </>\\n Перейти к игровому процессу можно любым из следующих способов: \\n<Assistant_Property2>Вход в бегущую группу: </> Откройте меню и войдите в [Бегущая группа]. После присоединения к любой религиозной группе выберите [Странный сундук с сокровищами] в [Упорядоченном мире] и нажмите [Перейти], чтобы автоматически найти путь. \\n<Assistant_Property1> Вход на карту: </> Откройте карту, переключитесь на вкладку [Исследование], проверьте игровой значок [Коварный сундук с сокровищами] в [Подробности мира] и следуйте указаниям по значку, чтобы найти соответствующую отметку на карте. Нажмите [Go], чтобы автоматически найти путь. \\n<Assistant_Title3>2. Взаимодействуйте с сундуком с сокровищами </>\\n После прибытия в заданное место взаимодействуйте со странным сундуком с сокровищами и выберите открыть сундук с сокровищами, что встревожит врагов вокруг сундука с сокровищами. \\n<Assistant_Title3>3. Варианты ответа</>\\nПосле обнаружения врагом вы можете выбрать разные способы ответа: \\n<Assistant_Red>Сражаться в лоб: </> Победите врага, чтобы получить награду в виде сундука с сокровищами. \\n<Assistant_Red> Проверка таланта: </> Если вы пройдете соответствующий тест, вы также можете получить награду в виде сундука с сокровищами; если вы провалите испытание, вам нужно вступить в бой, чтобы выполнить задание."
   },
   {
     "id": "128652",
@@ -21921,7 +21921,7 @@
     "id": "128653",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专防提高<Mark>300</>。受到攻击有概率触发邂逅，途径专防提高<Mark>180</>，持续<Mark>10</>秒，每<Mark>30</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Pathway Special Defense increased by <Mark>300</>. Taking damage has a chance to trigger an Encounter, increasing Pathway Special Defense by <Mark>180</> for <Mark>10</> seconds, with a maximum trigger frequency of once every <Mark>30</> seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специальная защита увеличивается на <Mark>300</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \\n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специальная защита увеличивается на <Mark>300</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \\n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "128654",
@@ -25095,7 +25095,7 @@
     "id": "129182",
     "source_cn": "出场介绍:伦纳德·米切尔",
     "ref_en": "Introduction: Leonard Mitchell",
-    "target_ru": "Введение: Леонард Митчелл"
+    "target_ru": "Описание: Леонард Митчелл"
   },
   {
     "id": "129183",
@@ -25467,7 +25467,7 @@
     "id": "129244",
     "source_cn": "畅销·食铺失效，本站不是【食铺】,购买价格+50%",
     "ref_en": "Best-Seller: Shop failed, this station is not [Shop], purchase price +50%",
-    "target_ru": "Бестселлер: магазин провалился, этой станции нет [Магазин], цена покупки +50%."
+    "target_ru": "Бестселлер · Лавка Снеди не срабатывает, если эта станция не [Лавка Снеди], цена покупки +50%."
   },
   {
     "id": "129245",
@@ -26421,7 +26421,7 @@
     "id": "129403",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>280</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Piercing increased by <Mark>280</>, Critical Hit decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wither Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> provides additional attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Клеймо утратило силу)}</>Пронзание увеличено на <Mark>280</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \\n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Пронзание увеличено на <Mark>280</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \\n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \\n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "129404",
@@ -26433,7 +26433,7 @@
     "id": "129405",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>造成伤害后，获得<Mark>90</>点暴击、<Mark>90</>点抗暴击，持续3秒，每5秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>After dealing damage, gain <Mark>90</> Crit rate and <Mark>90</> Crit Resistance for 3 seconds, with a maximum trigger frequency of once every 5 seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \\n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</> После нанесения урона вы получаете <Mark>90</> очков за критические удары и <Mark>90</> очков за сопротивление критическим ударам, которое длится 3 секунды и может срабатывать не чаще одного раза в 5 секунд. \\n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
   },
   {
     "id": "129406",

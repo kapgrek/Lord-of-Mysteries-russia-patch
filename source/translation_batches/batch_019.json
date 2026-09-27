@@ -2061,7 +2061,7 @@
     "id": "090343",
     "source_cn": "备货·非商行失效，下一站是【商行】",
     "ref_en": "Stocking: Non-Trading House failed, next stop is [Trading House]",
-    "target_ru": "Запасы: Неторговый дом провалился, следующая остановка - [Торговый дом]"
+    "target_ru": "Запас: не Торговый дом, не срабатывает, следующая остановка — [Торговый дом]"
   },
   {
     "id": "090344",
@@ -3603,7 +3603,7 @@
     "id": "090600",
     "source_cn": "好礼·食铺生效，获得15件【蜂蜜麦酒】",
     "ref_en": "Good Gift · Food Shop effective, obtain 15 [Honey Mead]",
-    "target_ru": "Хороший подарок · Продуктовый магазин эффективен, получите 15 [Медовый мед]"
+    "target_ru": "Подарок: Лавка Снеди срабатывает, получите 15 [Медовуха]"
   },
   {
     "id": "090601",
@@ -7347,7 +7347,7 @@
     "id": "091224",
     "source_cn": "出场介绍:迪文娜",
     "ref_en": "Introduction: Divina",
-    "target_ru": "Введение: Дивина"
+    "target_ru": "Описание: Дивина"
   },
   {
     "id": "091225",
@@ -8289,7 +8289,7 @@
     "id": "091381",
     "source_cn": "已取消匹配",
     "ref_en": "Matchmaking cancelled",
-    "target_ru": "Сватовство отменено"
+    "target_ru": "Подбор отменён"
   },
   {
     "id": "091382",
@@ -9747,7 +9747,7 @@
     "id": "091624",
     "source_cn": "备货·非酒庄生效，获得25件【窖藏拉菲干红】",
     "ref_en": "Stocking: Non-Winery activated, received 25 [Cellar-Aged Lafite Red Wine]",
-    "target_ru": "Запас: активирован не-винный завод, получено 25 [лафитового красного вина, выдержанного в погребе]"
+    "target_ru": "Запас: не Винодельня — срабатывает, получено 25 [Выдержанный красный «Лафит»]"
   },
   {
     "id": "091625",
@@ -9783,7 +9783,7 @@
     "id": "091630",
     "source_cn": "好礼·食铺生效，获得30件【精品油画小作】",
     "ref_en": "Gift: Shop activated, received 30 [Fine Oil Painting Miniatures]",
-    "target_ru": "Подарок: магазин активирован, получено 30 [прекрасных миниатюрных картин маслом]"
+    "target_ru": "Подарок: Лавка Снеди срабатывает, получено 30 [прекрасных миниатюрных картин маслом]"
   },
   {
     "id": "091631",
@@ -10227,7 +10227,7 @@
     "id": "091704",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>技能增强提高<Mark>35</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Skill Enhancement increased by <Mark>35</>. Guards nearby teammates, increasing Skill Block for nearby squad members by <Mark>10</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок истёк)}</>Улучшение навыка увеличивается <Mark>35</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "091705",
@@ -11649,7 +11649,7 @@
     "id": "091941",
     "source_cn": "预判·非商行失效，下一站是【商行】",
     "ref_en": "Prediction: Non-Trading House failed, next stop is [Trading House]",
-    "target_ru": "Прогноз: Неторговый дом провалился, следующая остановка - [Торговый дом]"
+    "target_ru": "Прогноз: не Торговый дом не срабатывает, следующая остановка — [Торговый дом]"
   },
   {
     "id": "091942",
@@ -13227,7 +13227,7 @@
     "id": "092204",
     "source_cn": "预判·非酒庄失效，下一站是【酒庄】",
     "ref_en": "Prediction: Non-Winery failed, next stop is [Winery]",
-    "target_ru": "Прогноз: Не-Винодельня не удалась, следующая остановка — [Винодельня]"
+    "target_ru": "Прогноз: не Винодельня не срабатывает, следующая остановка — [Винодельня]"
   },
   {
     "id": "092205",
@@ -15945,7 +15945,7 @@
     "id": "092657",
     "source_cn": "备货·非食铺生效，获得25件【金牌皇家火腿】",
     "ref_en": "Stocking: Non-Shop activated, received 25 [Gold-Grade Royal Ham]",
-    "target_ru": "Чулок: активирован без магазина, получено 25 [Королевская ветчина золотого качества]"
+    "target_ru": "Запас: не Лавка Снеди срабатывает, получено 25 [Королевская ветчина золотого качества]"
   },
   {
     "id": "092658",
@@ -17211,7 +17211,7 @@
     "id": "092868",
     "source_cn": "<Assistant_Title1>【睡莲小镇】</>\\n<Assistant_Title2>地图简介：</>临水而建的宁静聚落，一切迹象似乎与睡莲仙女的秘密有关……\\n<Assistant_Title2>【秩序世界】：</>\\n<Assistant_Title3>①原著旧梦：</>\\n{JumpToUI:足迹追寻|1301092}\\n<Assistant_Title3>②世界玩法：</>\\n{JumpToUI:隐秘空间|1301097}  {JumpToUI:时虫宝藏|1301098}  {JumpToUI:风尚沙龙|1301911}  {JumpToUI:诡变宝箱|1301096}  {JumpToUI:异象之物|1301090}  {JumpToUI:非凡扮演|1301961}\\n<Assistant_Title2>【时代任务】：</>\\n{JumpToUI:时代百态|1302435}  {JumpToUI:时代逸闻|1302436}  {JumpToUI:扮演故事|1302437}",
     "ref_en": "<Assistant_Title1>[Water Lily Town]</>\\n<Assistant_Title2>Map Introduction: </>A tranquil settlement built by the water. All signs seem to be related to the secret of the Water Lily Fairy...\\n<Assistant_Title2>[Order World]:</>\\n<Assistant_Title3>① Moments from the Original Work:</>\\n{JumpToUI:Footprint Tracking|1301092}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:Hidden Space|1301097} {JumpToUI:Worm of Time Treasure|1301098} {JumpToUI:Fashion Salon|1301911} {JumpToUI:Mysterious Treasure Chest|1301096} {JumpToUI:Object of Phenomenon|1301090} {JumpToUI:Extraordinary Roleplay|1301961}\\n<Assistant_Title2>[Era Quests]:</>\\n{JumpToUI:Life in the Era|1302435} {JumpToUI:Era Anecdotes|1302436} {JumpToUI:Roleplay Story|1302437}",
-    "target_ru": "<Assistant_Title1>【Город водяных лилий】</>\n<Assistant_Title2> Знакомство с картой: </> Тихое поселение, построенное у воды. Кажется, все знаки связаны с тайной феи водяной лилии... \n<Assistant_Title2>【Мир порядка】: </>\n<Assistant_Title3>①Original Old Dream: </>\n{JumpToUI: Trace Pursuit|1301092}\n<Assistant_Title3>②Мировой игровой процесс: </>\n{JumpToUI: Секретное пространство|1301097} {JumpToUI: Сокровище ошибок времени|1301098} {JumpToUI: Салон моды|1301911} {JumpToUI: Странный сундук с сокровищами|1301096} {JumpToUI: Призрачный объект|1301090} {JumpToUI:Extraordinary Актерское мастерство|1301961}\n<Assistant_Title2>【Задачи эпохи】：</>\n{JumpToUI:Editions|1302435} {JumpToUI:Анекдоты той эпохи|1302436} {JumpToUI:Актерские истории|1302437}"
+    "target_ru": "<Assistant_Title1>【Город водяных лилий】</>\n<Assistant_Title2>Описание карты: </>Тихое поселение, построенное у воды. Кажется, все признаки указывают на связь с тайной феи водяных лилий…\n<Assistant_Title2>【Мир Порядка】: </>\n<Assistant_Title3>① Мгновения из оригинала: </>\n{JumpToUI:Погоня по следам|1301092}\n<Assistant_Title3>② Игровые механики мира: </>\n{JumpToUI:Скрытое пространство|1301097}  {JumpToUI:Сокровище временного червя|1301098}  {JumpToUI:Салон моды|1301911}  {JumpToUI:Загадочный сундук|1301096}  {JumpToUI:Предмет феномена|1301090}  {JumpToUI:Необычайная ролевая игра|1301961}\n<Assistant_Title2>【Задания эпохи】: </>\n{JumpToUI:Жизнь эпохи|1302435}  {JumpToUI:Байки эпохи|1302436}  {JumpToUI:История роли|1302437}"
   },
   {
     "id": "092869",
@@ -17655,7 +17655,7 @@
     "id": "092942",
     "source_cn": "押宝·酒庄生效，获得自身150%的【白枫笔筒】",
     "ref_en": "Betting · Winery effective, obtain 150% of own [White Maple Pen Holder]",
-    "target_ru": "Ставки · Винодельня эффективна, получите 150% собственного [Подставка для ручек из белого клена]"
+    "target_ru": "Ставки · Винодельня срабатывает, получите 150% собственного [Подставка для ручек из белого клена]"
   },
   {
     "id": "092943",
@@ -17841,7 +17841,7 @@
     "id": "092973",
     "source_cn": "议价·商行生效，本站出售价格+40%",
     "ref_en": "Bargaining · Trading Firm effective, selling price at this station +40%",
-    "target_ru": "Торг · Действует торговая фирма, цена продажи на этой станции +40%"
+    "target_ru": "Торг · Торговый дом срабатывает, цена продажи на этой станции +40%"
   },
   {
     "id": "092974",
@@ -18753,7 +18753,7 @@
     "id": "093125",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>暴击提高<Mark>300</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>320</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{ 1, 3, (Brand expired) }</> Crit rate increased <Mark> 300 </>, Anti-crit decreased <Mark> 15 </>, Corruption increased <Mark> 15 </>. After using the social action <Mark> Bow </>, the Crit rate increased effect changes to Attack increased <Mark> 320 </>. \\n Corruption effect: When reaching <Mark> 30 </> Corruption, Anti-crit decreased <Mark> 15 </>. <Mark>{ 1, 4, (Purified) }</>\\n Current Corruption: { 2, 1, *d, F1690001, Corruption }\\n Does not take effect when the set Iron and Blood Covenant <Mark> </> is activated.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Критический удар увеличен на <Mark>300</>, сопротивление критическому удару уменьшено на <Mark>15</>, значение загрязнения увеличено на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>320</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(Срок истёк)}</>Критический удар увеличен на <Mark>300</>, сопротивление критическому удару уменьшено на <Mark>15</>, значение загрязнения увеличено на <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>320</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "093126",
@@ -18783,7 +18783,7 @@
     "id": "093130",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>比赛规则</>\\n赛场使用<Highlight>玩家真实属性</>，<Highlight>装备、封印物、秘偶、人脉、非凡天赋系统效果</>均可生效。玩家将以战队形式进行比赛，每个战队内同途径玩家最多为两名。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>报名规则</>\\n比赛报名开启后，玩家即可组建或加入战队，战队成员<Highlight>达到5名</>后即可报名。\\n开启报名至锁定报名期间，战队队长可自由调整战队成员，成员也可自由离开战队，已报名战队若成员变动导致成员数量小于5名后将自动取消报名。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>锁定规则</>\\n锁定报名期间，已报名战队可以进入准备场地，未报名战队仍可以进行报名操作，玩家也可以加入战队，但不可以主动离开或队长请离战队，已报名战队将不允许取消报名。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>对战规则</>\\n比赛正式开始后，玩家需要<Highlight>停留在准备场地</>以保证正常进入比赛，擅自离开准备场地将导致无法正常参加比赛。\\n小组赛阶段，每轮随机匹配对手进行单局比赛，共进行六轮，根据胜场数选出16支队伍晋级，胜场数相同会根据<Highlight>荣耀值决出晋级者（荣耀值参考击杀数、战斗时长）</>。\\n小组赛结束后进入助力阶段，淘汰赛开始前根据<Highlight>助力值和荣耀值总和</>确定淘汰赛位次，淘汰赛开始后仍可进行助力，但不再影响淘汰赛位次。\\n淘汰赛阶段将进行<Highlight>三局两胜</>来确定胜负，决赛将进行<Highlight>五局三胜</>决出冠军！",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Match Rules </>\\n The arena uses <Highlight> player's real attributes </>, and the effects of <Highlight> equipment, Sealed Artifacts, marionettes, connections, and Beyonder talent systems </> are all effective. Players will compete as a team, with a maximum of two players of the same pathway per team. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Registration Rules </>\\n Once match registration opens, players can form or join a team. Once a team <Highlight> reaches 5 members </>, they can register. \\n From the opening of registration until it is locked, the team leader can freely adjust members, and members can freely leave. If a registered team's member count falls below 5 due to changes, registration will be automatically canceled. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Locking Rules </>\\n During the registration lock period, registered teams can enter the preparation area. Unregistered teams can still register, and players can join teams, but they cannot leave or be removed by the leader. Registered teams cannot cancel their registration. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Battle Rules </>\\n After the match officially begins, players must <Highlight> stay in the preparation area </> to ensure they enter the match normally; leaving the preparation area without authorization will result in being unable to participate. \\n In the group stage, opponents are randomly matched for a single-game match. There are six rounds in total, and 16 teams are selected to advance based on wins. If wins are tied, <Highlight> Glory Value (based on kills and combat duration) </> will determine the advancer. \\n After the group stage, the support phase begins. Before the knockout stage, the knockout bracket is determined based on the <Highlight> sum of support value and Glory Value </>. Support can still be given after the knockout stage begins, but it will no longer affect the bracket. \\n The knockout stage will use a <Highlight> best-of-three </> format to determine the winner, and the final will use a <Highlight> best-of-five </> format to determine the champion!",
-    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила состязания</>\nНа арене действуют <Highlight>реальные характеристики игроков</>, а также эффекты <Highlight>снаряжения, Запечатанных Артефактов, марионеток, связей и талантов Потустороннего</>. Игроки соревнуются в составе команд; в одной команде может быть не более двух представителей одного Пути.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила регистрации</>\nПосле открытия регистрации игроки могут создавать команды или вступать в них. Подать заявку можно, как только в команде <Highlight>наберётся 5 участников</>.\nВ период с открытия регистрации до её закрытия капитан может свободно менять состав, а участники — покидать команду. Если из-за выхода участников численность команды станет меньше 5, заявка будет аннулирована автоматически.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила блокировки заявок</>\nВ период блокировки зарегистрированные команды могут войти в зону подготовки. Незарегистрированные команды ещё могут подать заявку, а свободные игроки — вступить в состав, однако покидать команду или исключать участников уже нельзя, а зарегистрированные команды не могут отозвать заявку.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила сражений</>\nПосле официального начала турнира игрокам необходимо <Highlight>оставаться в зоне подготовки</> для автоматического переноса в матч; самовольный выход из зоны подготовки приведёт к невозможности участия.\nНа групповом этапе в каждом раунде соперники подбираются случайно для одного боя. Всего проводится шесть раундов, по итогам которых в следующий этап выходят 16 лучших команд. При равенстве побед выход определяется по <Highlight>очкам славы (учитывающим убийства и длительность боя)</>.\nПосле группового этапа начинается фаза поддержки. Сетка плей-офф определяется <Highlight>суммой очков поддержки и очков славы</>. Поддерживать команды можно и после старта плей-офф, но на сетку это уже не повлияет.\nМатчи на выбывание проходят в формате <Highlight>до двух побед (Best of 3)</>, а финал — в формате <Highlight>до трёх побед (Best of 5)</>!"
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила состязания</>\nНа арене действуют <Highlight>реальные характеристики игроков</>, а также эффекты <Highlight>снаряжения, Запечатанных Артефактов, марионеток, связей и талантов Потустороннего</>. Игроки соревнуются в составе команд; в одной команде может быть не более двух представителей одного Пути.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила регистрации</>\nПосле открытия регистрации игроки могут создавать команды или вступать в них. Подать заявку можно, как только в команде <Highlight>наберётся 5 участников</>.\nВ период с открытия регистрации до её закрытия капитан может свободно менять состав, а участники — покидать команду. Если из-за выхода участников численность команды станет меньше 5, заявка будет аннулирована автоматически.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила блокировки заявок</>\nВ период блокировки зарегистрированные команды могут войти в зону подготовки. Незарегистрированные команды ещё могут подать заявку, а свободные игроки — вступить в состав, однако покидать команду или исключать участников уже нельзя, а зарегистрированные команды не могут отозвать заявку.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила сражений</>\nПосле официального начала турнира игрокам необходимо <Highlight>оставаться в зоне подготовки</> для автоматического переноса в матч; самовольный выход из зоны подготовки приведёт к невозможности участия.\nНа групповом этапе в каждом раунде происходит случайный подбор соперников для одного боя. Всего проводится шесть раундов, по итогам которых в следующий этап выходят 16 лучших команд. При равенстве побед выход определяется по <Highlight>очкам славы (учитывающим убийства и длительность боя)</>.\nПосле группового этапа начинается фаза поддержки. Сетка плей-офф определяется <Highlight>суммой очков поддержки и очков славы</>. Поддерживать команды можно и после старта плей-офф, но на сетку это уже не повлияет.\nМатчи на выбывание проходят в формате <Highlight>до двух побед (Best of 3)</>, а финал — в формате <Highlight>до трёх побед (Best of 5)</>!"
   },
   {
     "id": "093131",
@@ -18981,7 +18981,7 @@
     "id": "093163",
     "source_cn": "好礼·食铺生效，获得25件【精品油画小作】",
     "ref_en": "Gift: Shop activated, received 25 [Fine Oil Painting Miniatures]",
-    "target_ru": "Подарок: магазин активирован, получено 25 [прекрасных миниатюрных картин маслом]"
+    "target_ru": "Подарок: Лавка Снеди срабатывает, получено 25 [прекрасных миниатюрных картин маслом]"
   },
   {
     "id": "093164",
@@ -19473,7 +19473,7 @@
     "id": "093245",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>技能增强提高<Mark>40</>。守护附近的队友，使附近小队成员技能抵挡增加<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Skill Enhancement increased by <Mark>40</>. Guards nearby teammates, increasing Skill Block for nearby squad members by <Mark>10</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>40</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(Срок истёк)}</>Улучшение навыка увеличивается <Mark>40</>. Защитите ближайших товарищей по команде и увеличьте сопротивление навыкам ближайших членов команды на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "093246",
@@ -20631,7 +20631,7 @@
     "id": "093438",
     "source_cn": "押宝·商行生效，获得自身100%的【起泡甜酒】",
     "ref_en": "Betting · Trading Firm effective, obtain 100% of own [Sparkling Sweet Wine]",
-    "target_ru": "Ставки · Торговая фирма эффективна, получите 100% собственного [Игристого сладкого вина]"
+    "target_ru": "Ставки · Торговый дом срабатывает, получите 100% собственного [Игристого сладкого вина]"
   },
   {
     "id": "093439",
@@ -22419,7 +22419,7 @@
     "id": "093736",
     "source_cn": "签约·商行生效，酒类、食品卖价+25%,卖出价-60%",
     "ref_en": "Contract · Trading Firm activated, selling price of alcohol and food +25%, selling price -60%.",
-    "target_ru": "Контракт · Торговая фирма активирована, цена продажи алкоголя и продуктов питания +25%, цена продажи -60%."
+    "target_ru": "Контракт · Торговый дом срабатывает, цена продажи алкоголя и продуктов питания +25%, цена продажи -60%."
   },
   {
     "id": "093737",
@@ -23457,7 +23457,7 @@
     "id": "093909",
     "source_cn": "金印·商行失效，下一站不是【商行】",
     "ref_en": "Gold Seal: Trading House failed, next station is not [Trading House]",
-    "target_ru": "Золотая печать: Торговый дом провалился, следующей станции нет [Торговый дом]"
+    "target_ru": "Золотая печать: Торговый дом не срабатывает, следующая станция — не [Торговый дом]"
   },
   {
     "id": "093910",
@@ -26499,7 +26499,7 @@
     "id": "094416",
     "source_cn": "食铺红包生效，获得15件【蜂蜜麦酒】",
     "ref_en": "Food shop red envelope takes effect, obtain 15 【Honey Ale】",
-    "target_ru": "Красный конверт продовольственного магазина вступает в силу, получите 15 【Медового эля】"
+    "target_ru": "Красный конверт Лавки Снеди вступает в силу, получите 15 【Медового эля】"
   },
   {
     "id": "094417",
@@ -26931,7 +26931,7 @@
     "id": "094488",
     "source_cn": "押宝·商行失效，本站不是【商行】，物产出售价格-40%",
     "ref_en": "Bet: Trading House failed, this station is not [Trading House], product selling price -40%",
-    "target_ru": "Ставка: Торговый Дом провалился, эта станция не [Торговый Дом], отпускная цена товара -40%."
+    "target_ru": "Ставка: Торговый дом не срабатывает, эта станция не [Торговый дом], отпускная цена товара -40%."
   },
   {
     "id": "094489",
@@ -29103,7 +29103,7 @@
     "id": "094850",
     "source_cn": "升级·酒庄生效，【绿色物品】升级为【金牌皇家火腿】",
     "ref_en": "Upgrade · Winery effective, [Green Items] upgraded to [Gold Medal Royal Ham]",
-    "target_ru": "Улучшение · Винодельня эффективна, [Зеленые предметы] повышены до [Золотая медаль Королевской ветчины]"
+    "target_ru": "Улучшение · Винодельня срабатывает, [Зеленые предметы] повышены до [Золотая медаль Королевской ветчины]"
   },
   {
     "id": "094851",
@@ -29163,7 +29163,7 @@
     "id": "094860",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\">【玉米脆片】</>数量增加<LightHighlight>50%</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, the quantity of currently held <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Corn Chips] </> increases by <LightHighlight> 50% </>",
-    "target_ru": "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 50% </>"
+    "target_ru": "Если следующей станцией <LightHighlight> является [Торговый дом] </>, количество имеющихся в настоящее время <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30302\"> [Кукурузных чипсов] </> увеличивается на <LightHighlight> 50% </>"
   },
   {
     "id": "094861",

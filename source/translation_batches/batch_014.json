@@ -3507,7 +3507,7 @@
     "id": "065584",
     "source_cn": "备货·非食铺生效，获得20件【冰鲜雪贝薄片】",
     "ref_en": "Stocking: Non-Shop activated, received 20 [Chilled Snow Scallop Slices]",
-    "target_ru": "Запас: активирован без магазина, получено 20 [ломтиков охлажденного снежного гребешка]"
+    "target_ru": "Запас · не Лавка Снеди срабатывает, получено 20 [ломтиков охлажденного снежного гребешка]"
   },
   {
     "id": "065585",
@@ -7677,7 +7677,7 @@
     "id": "066279",
     "source_cn": "好礼·商行失效，本站不是【商行】",
     "ref_en": "Gift: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Подарок: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Подарок · Торговый дом не срабатывает, эта станция — не [Торговый дом]"
   },
   {
     "id": "066280",
@@ -9567,7 +9567,7 @@
     "id": "066594",
     "source_cn": "随机匹配开始，请耐心等待舞伴的分配",
     "ref_en": "Random matching started; please wait patiently for the dance partner assignment.",
-    "target_ru": "Началось случайное сопоставление; пожалуйста, терпеливо ждите назначения партнера по танцам."
+    "target_ru": "Начался случайный подбор, пожалуйста, терпеливо ждите назначения партнёра по танцу."
   },
   {
     "id": "066595",
@@ -9591,7 +9591,7 @@
     "id": "066598",
     "source_cn": "<Assistant_Title1>【俱乐部】</>\\n<Assistant_Title2>开放等级：</>认知等级<Assistant_Red>20级</>\\n<Assistant_Title2>系统入口：</><Assistant_System>菜单-俱乐部</>{JumpToUI:[【前往查看】]|1250052}\\n<Assistant_Title2>系统介绍：</>角色等级到达20级，可以选择加入俱乐部或自行创建俱乐部。参与各种俱乐部活动玩法，获取丰厚的活动奖励和同行纹章，同行纹章可在俱乐部商店中兑换奖励道具。\\n<Assistant_Title2>创建俱乐部：</>创建俱乐部需要缴纳创建费用，创建后24小时内响应人数达到4人则创建成功，超时将创建失败。<Assistant_Red>创建失败和主动取消创建，都不会返还创建费用。</>\\n<Assistant_Title2>改名道具：</>可在<Assistant_System>商城 - 秘藏陈列</>中购买更名布告，更改俱乐部的名称和徽章字。\\n<Assistant_Title2>活动限制：</>1.俱乐部成员锁定规则：在以俱乐部为单位的玩法活动（如<Assistant_System>四方联赛、歌剧魅影、猎城战、高原战</>）期间，俱乐部<Assistant_Red>不允许成员的加入和退出。</>\\n2.俱乐部活动途径人数限制：部分俱乐部活动对参与成员的<Assistant_Red>途径人数</>有限制要求，详情可见俱乐部活动说明。\\n3.参与活动前请先确认职位分配情况，<Assistant_Red>部分活动仅支持正式会员参赛</>，正式会员是俱乐部的中坚力量，可以参与俱乐部内的玩法活动；候补成员是俱乐部的储备力量，部分俱乐部活动无法参与，可以保持活跃状态，联系管理转正为会员。\\n<Assistant_Title3>基础功能细节规则：</>{SendAnswer:[俱乐部-俱乐部建筑和资金]|1401}，{SendAnswer:[俱乐部-俱乐部职位]|1402}，{SendAnswer:[俱乐部-俱乐部活跃]|1403}，{SendAnswer:[场景-俱乐部]|567}",
     "ref_en": "<Assistant_Title1>【Club】</>\\n<Assistant_Title2>Unlock Level: </>Cognitive Level <Assistant_Red>20</>\\n<Assistant_Title2>System Entry: </><Assistant_System>Menu-Club</>{JumpToUI:[【View】]|1250052}\\n<Assistant_Title2>System Introduction: </>Once your character reaches Level 20, you can choose to join a club or create your own. Participate in various club activities to earn rich rewards and Peer Emblems, which can be exchanged for reward items in the Club Shop.\\n<Assistant_Title2>Creating a Club: </>Creating a club requires a creation fee. If the number of respondents reaches 4 within 24 hours after creation, the club is successfully established; otherwise, it will fail.<Assistant_Red>Neither failed creation nor voluntary cancellation will result in a refund of the creation fee.</>\\n<Assistant_Title2>Rename Item: </>You can purchase a Renaming Notice in <Assistant_System>Mall - Secret Collection</> to change the club's name and emblem text.\\n<Assistant_Title2>Activity Restrictions: </>1. Club member locking rule: During club-based activities (such as <Assistant_System>Four-Way League, Phantom of the Opera, Hunting City War, Plateau War</>), clubs <Assistant_Red>do not allow members to join or leave.</>\\n2. Club activity pathway participation limit: Some club activities have requirements for the <Assistant_Red>number of participants per Pathway</>. See the club activity description for details.\\n3. Please confirm position assignments before participating in activities. <Assistant_Red>Some activities only support official members to participate</>. Official members are the backbone of the club and can participate in club activities; reserve members are the club's reserve force and cannot participate in some club activities. You can stay active and contact management to be promoted to a full member.\\n<Assistant_Title3>Basic Function Details: </>{SendAnswer:[Club-Club Buildings and Funds]|1401}, {SendAnswer:[Club-Club Positions]|1402}, {SendAnswer:[Club-Club Activity]|1403}, {SendAnswer:[Scene-Club]|567}",
-    "target_ru": "<Assistant_Title1>[Club]</>\n<Assistant_Title2>Открытый уровень:</>Когнитивный уровень<Assistant_Red>Уровень 20</>\n<Assistant_Title2>Вход в систему:</><Assistant_System>Menu -Club</>{JumpToUI:[[Перейти к просмотру]]|1250052}\n<Assistant_Title2> Введение в систему: </> Когда уровень персонажа достигнет 20-го уровня, вы сможете вступить в клуб или создать клуб самостоятельно. Участвуйте в различных клубных мероприятиях и получайте богатые награды событий и эмблемы сверстников. Эмблемы сверстников можно обменять на наградной реквизит в магазине клуба. \n<Assistant_Title2> Создать клуб: </> Чтобы создать клуб, вам необходимо внести плату за создание. Если количество респондентов достигнет 4 в течение 24 часов после создания, создание будет успешным. Если время истечет, создание завершится неудачно. <Assistant_Red> Плата за создание не будет возвращена, если создание не удастся или создание будет активно отменено. </>\n<Assistant_Title2>Реквизит для изменения имени: </> Вы можете приобрести уведомление о смене имени в <Assistant_System> Торговый центр - Секретный стенд </>, чтобы изменить название и значок клуба. \n<Assistant_Title2> Ограничения активности: </>1. Правила блокировки членов клуба: Во время игровых действий в клубе (таких как <Assistant_System> Четырехпартийная лига, Призрак оперы, Война в охотничьем городе, Война на плато </>) клуб <Assistant_Red> не позволяет членам присоединяться или выходить из клуба. </>\n2. Ограничения на количество людей, которые могут получить доступ к клубным мероприятиям. Некоторые клубные мероприятия имеют ограничения на количество людей, участвующих в каналах <Assistant_Red></>. Подробности смотрите в описании деятельности клуба. \n3. Пожалуйста, подтвердите распределение позиций, прежде чем участвовать в мероприятиях. <Assistant_Red> Некоторые действия поддерживают только формальных участников. </> Официальные члены составляют основу клуба и могут участвовать в игровых мероприятиях клуба; Альтернативные члены являются резервным составом клуба и не могут участвовать в некоторых мероприятиях клуба. Они могут оставаться активными и связаться с руководством, чтобы стать полноправными членами. \n<Assistant_Title3>Базовые правила подробностей функций: </>{SendAnswer:[Создание и финансирование клуба-клуба]|1401}, {SendAnswer:[Позиция клуба-клуба]|1402}, {SendAnswer:[Клуб-клуб активен]|1403}, {SendAnswer:[Scene-Club]|567}"
+    "target_ru": "<Assistant_Title1>[Club]</>\n<Assistant_Title2>Открытый уровень:</>Когнитивный уровень<Assistant_Red>Уровень 20</>\n<Assistant_Title2>Вход в систему:</><Assistant_System>Menu -Club</>{JumpToUI:[[Перейти к просмотру]]|1250052}\n<Assistant_Title2>Описание системы: </> Когда уровень персонажа достигнет 20-го уровня, вы сможете вступить в клуб или создать клуб самостоятельно. Участвуйте в различных клубных мероприятиях и получайте богатые награды событий и эмблемы сверстников. Эмблемы сверстников можно обменять на наградной реквизит в магазине клуба. \n<Assistant_Title2> Создать клуб: </> Чтобы создать клуб, вам необходимо внести плату за создание. Если количество респондентов достигнет 4 в течение 24 часов после создания, создание будет успешным. Если время истечет, создание завершится неудачно. <Assistant_Red> Плата за создание не будет возвращена, если создание не удастся или создание будет активно отменено. </>\n<Assistant_Title2>Реквизит для изменения имени: </> Вы можете приобрести уведомление о смене имени в <Assistant_System> Торговый центр - Секретный стенд </>, чтобы изменить название и значок клуба. \n<Assistant_Title2> Ограничения активности: </>1. Правила блокировки членов клуба: Во время игровых действий в клубе (таких как <Assistant_System> Четырехпартийная лига, Призрак оперы, Война в охотничьем городе, Война на плато </>) клуб <Assistant_Red> не позволяет членам присоединяться или выходить из клуба. </>\n2. Ограничения на количество людей, которые могут получить доступ к клубным мероприятиям. Некоторые клубные мероприятия имеют ограничения на количество людей, участвующих в каналах <Assistant_Red></>. Подробности смотрите в описании деятельности клуба. \n3. Пожалуйста, подтвердите распределение позиций, прежде чем участвовать в мероприятиях. <Assistant_Red> Некоторые действия поддерживают только формальных участников. </> Официальные члены составляют основу клуба и могут участвовать в игровых мероприятиях клуба; Альтернативные члены являются резервным составом клуба и не могут участвовать в некоторых мероприятиях клуба. Они могут оставаться активными и связаться с руководством, чтобы стать полноправными членами. \n<Assistant_Title3>Базовые правила подробностей функций: </>{SendAnswer:[Создание и финансирование клуба-клуба]|1401}, {SendAnswer:[Позиция клуба-клуба]|1402}, {SendAnswer:[Клуб-клуб активен]|1403}, {SendAnswer:[Scene-Club]|567}"
   },
   {
     "id": "066599",
@@ -10335,7 +10335,7 @@
     "id": "066722",
     "source_cn": "队伍发生变动，取消匹配。",
     "ref_en": "Party composition changed, matchmaking canceled.",
-    "target_ru": "Состав партии изменен, сватовство отменено."
+    "target_ru": "Состав партии изменен, подбор отменен."
   },
   {
     "id": "066723",
@@ -12927,7 +12927,7 @@
     "id": "067154",
     "source_cn": "好礼·酒庄生效，获得50件【金牌皇家火腿】",
     "ref_en": "Good Gift · Winery effective, obtain 50 [Gold Medal Royal Ham]",
-    "target_ru": "Хороший подарок · Винодельня эффективна, получите 50 [Золотую медаль Королевской ветчины]"
+    "target_ru": "Подарок · Винодельня срабатывает, получите 50 [Золотую медаль Королевской ветчины]"
   },
   {
     "id": "067155",
@@ -13137,7 +13137,7 @@
     "id": "067189",
     "source_cn": "押宝·商行生效，获得自身100%的【窖藏拉菲干红】",
     "ref_en": "Bet: Trading House activated, received 100% of own [Cellar-Aged Lafite Red Wine]",
-    "target_ru": "Ставка: Торговый дом активирован, получил 100% собственного [Лафитового красного вина, выдержанного в погребе]"
+    "target_ru": "Ставка: Торговый дом срабатывает, получил 100% собственного [Выдержанного красного «Лафита»]"
   },
   {
     "id": "067190",
@@ -16545,7 +16545,7 @@
     "id": "067757",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>攻击提高<Mark>345</>，防御降低<Mark>10</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，防御降低<Mark>10</>。<Mark>{1,4,（已净化）}</>\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Attack increased by <Mark>345</>, Defense decreased by <Mark>10</>, corruption increased by <Mark>15</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Defense decreased by <Mark>10</>. <Mark>{1,4,(Purified)}</>\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</>Атака увеличена <Mark>345</>, защита уменьшена <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, защита снижается на <Mark>10</>. <Mark>{1,4,(очищенный)}</>\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Атака увеличена <Mark>345</>, защита уменьшена <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, защита снижается на <Mark>10</>. <Mark>{1,4,(очищенный)}</>\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
   },
   {
     "id": "067758",
@@ -16941,7 +16941,7 @@
     "id": "067823",
     "source_cn": "暂无匹配的玩家",
     "ref_en": "No matching players",
-    "target_ru": "Нет подходящих игроков"
+    "target_ru": "Нет игроков для подбора"
   },
   {
     "id": "067824",
@@ -17283,7 +17283,7 @@
     "id": "067880",
     "source_cn": "你已取消%s匹配",
     "ref_en": "You have cancelled %smatchmaking.",
-    "target_ru": "Вы отменили сватовство %s."
+    "target_ru": "Вы отменили подбор %s."
   },
   {
     "id": "067881",
@@ -19569,7 +19569,7 @@
     "id": "068261",
     "source_cn": "馈赠·商行生效，获得50件【盐渍牡蛎】",
     "ref_en": "Gift · Trading Firm effective, obtain 50 [Salted Oysters]",
-    "target_ru": "Подарок · Торговая фирма эффективна, получите 50 [Соленых устриц]"
+    "target_ru": "Подарок · Торговый дом срабатывает, получите 50 [Соленых устриц]"
   },
   {
     "id": "068262",
@@ -19755,7 +19755,7 @@
     "id": "068292",
     "source_cn": "听听介绍",
     "ref_en": "Listen to the introduction",
-    "target_ru": "Послушайте введение"
+    "target_ru": "Послушайте описание"
   },
   {
     "id": "068293",
@@ -20403,7 +20403,7 @@
     "id": "068400",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>220</>，穿刺降低<Mark>20</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Monster Specialization increased by <Mark>220</>, Piercing decreased by <Mark>20</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличилась на <Mark>220</>, а пронзание уменьшилось на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Специализация против монстров увеличилась на <Mark>220</>, а пронзание уменьшилось на <Mark>20</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "068401",
@@ -22719,7 +22719,7 @@
     "id": "068786",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>怪物专攻提高<Mark>290</>。受到攻击时，额外提高怪物专攻<Mark>50</>，持续8秒。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 2, (Brand has expired)}</>Monster Specialization increased by <Mark>290</>. When attacked, Monster Specialization is additionally increased by <Mark>50</> for 8 seconds. \\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специализация против монстров увеличена на <Mark>290</>. При атаке специализация против монстров дополнительно увеличивается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специализация против монстров увеличена на <Mark>290</>. При атаке специализация против монстров дополнительно увеличивается на <Mark>50</> на 8 секунд. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "068787",
@@ -23361,7 +23361,7 @@
     "id": "068893",
     "source_cn": "由于队伍成员%s已离线，已自动取消%s匹配。",
     "ref_en": "Because team member %s has gone offline, %s matching has been automatically canceled.",
-    "target_ru": "Поскольку участник команды %s отключился от сети, сопоставление %s было автоматически отменено."
+    "target_ru": "Поскольку участник команды %s отключился от сети, подбор %s был автоматически отменен."
   },
   {
     "id": "068894",
@@ -25611,7 +25611,7 @@
     "id": "069268",
     "source_cn": "活动已经结束，系统自动取消匹配。",
     "ref_en": "The event has ended; the system automatically canceled matching.",
-    "target_ru": "Мероприятие завершилось; система автоматически отменила сопоставление."
+    "target_ru": "Мероприятие завершилось; система автоматически отменила подбор."
   },
   {
     "id": "069269",
@@ -26745,7 +26745,7 @@
     "id": "069457",
     "source_cn": "可买入站点：<LightHighlight>食铺</>\\n可卖出站点：<LightHighlight>酒庄、商行</>\\n物品类型：<LightHighlight>食品</>",
     "ref_en": "Buyable Stations: <LightHighlight> Food Shop </> \\n Sellable Stations: <LightHighlight> Winery, Trading Firm </> \\n Item Type: <LightHighlight> Food </>",
-    "target_ru": "Места покупки: <LightHighlight>Продуктовая лавка</>\\nМеста продажи: <LightHighlight>Винодельня, торговая гильдия</>\\nТип товара: <LightHighlight>Продукты питания</>"
+    "target_ru": "Места покупки: <LightHighlight>Лавка Снеди</>\\nМеста продажи: <LightHighlight>Винодельня, Торговый дом</>\\nТип товара: <LightHighlight>Продукты питания</>"
   },
   {
     "id": "069458",
@@ -27309,7 +27309,7 @@
     "id": "069551",
     "source_cn": "<Assistant_Title1>【语音房-常驻房间】</>\\n<Assistant_Title2>系统入口：</><Assistant_System>玩法语音房 - 右下角设置 - 右上方常驻按钮</>{JumpToUI:[【前往查看】]|1250316}\\n<Assistant_Title2>常驻道具：</>可在<Assistant_System>商城 - 秘藏陈列</>中购买常驻契约，使用后可将玩法语音房间转换为常驻房间，并增加30天的常驻时长。单个道具可续时30天，连续续时上限为90天。\\n<Assistant_Title2>功能介绍：</>转换为常驻房间后，在<Assistant_Red>退出常驻语音房间或离线后</>仍可保留语音房间，房主仍可保留房主身份。<Assistant_Red>常驻语音房间无法转让房主。</>\\n<Assistant_Title2>数量限制：</>每个角色最多仅可拥有<Assistant_Red>1个常驻语音房间</>。\\n<Assistant_Title2>解散房间：</>常驻语音房间可由房主主动解散，解散后<Assistant_Red>无法恢复</>；\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[语音房-房主权限]|1395}，{SendAnswer:[语音房-普通语音房]|1396}，{SendAnswer:[语音房-玩法语音房]|1397}",
     "ref_en": "<Assistant_Title1>【Voice Room - Permanent Room】</>\\n<Assistant_Title2>System Access: </><Assistant_System>Play Voice Room - Settings (Bottom Right) - Permanent Button (Top Right)</>{JumpToUI:[【View】]|1250316}\\n<Assistant_Title2>Permanent Item: </>You can purchase a Permanent Contract in the <Assistant_System>Mall - Secret Collection</>. Using it converts a Play Voice Room into a permanent room and adds 30 days of permanent duration. A single item can extend the duration by 30 days, with a maximum cumulative extension of 90 days.\\n<Assistant_Title2>Function Introduction: </>After converting to a permanent room, the voice room will be retained even after you <Assistant_Red>exit the permanent voice room or go offline</>, and the host will retain their host status.<Assistant_Red>Permanent voice rooms cannot have their host status transferred.</>\\n<Assistant_Title2>Quantity Limit: </>Each character can own a maximum of <Assistant_Red>1 permanent voice room</>.\\n<Assistant_Title2>Disbanding the Room: </>A permanent voice room can be disbanded by the host; once disbanded, it <Assistant_Red>cannot be recovered</>;\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Voice Room-Host Permissions]|1395}, {SendAnswer:[Voice Room-Standard]|1396}, {SendAnswer:[Voice Room-Gameplay]|1397}",
-    "target_ru": "<Assistant_Title1>[Голосовая комната-Постоянная комната]</>\n<Assistant_Title2>Вход в систему: </><Assistant_System>Как играть в Голосовую комнату - Настройки в правом нижнем углу - Кнопка резидента в правом верхнем углу</>{JumpToUI:[[Перейти к просмотру]]|1250316}\n<Assistant_Title2>Постоянные реквизиты: </> Доступно в торговом центре <Assistant_System> - Купите резидентский контракт на секретной витрине </>. После его использования вы можете превратить комнату голосового игрового процесса в постоянную комнату и увеличить время пребывания на 30 дней. Один реквизит можно продлить на 30 дней, а верхний предел непрерывного продления составляет 90 дней. \n<Assistant_Title2> Введение в функцию: после того, как </> преобразуется в жилую комнату, </> все еще может сохранять голосовую комнату после того, как <Assistant_Red> выходит из резидентной голосовой комнаты или переходит в автономный режим, и хост все еще может сохранять идентичность хоста. <Assistant_Red>Резидентская голосовая комната не может быть передана владельцу. </>\n<Assistant_Title2>Количество: </>Каждый персонаж может иметь максимум <Assistant_Red>1 постоянную голосовую комнату</>. \n<Assistant_Title2> Расформировать комнату: </> Местную голосовую комнату может расформировать владелец дома. После расформирования <Assistant_Red> не может быть восстановлен </>; \n<Assistant_Title3> Рекомендуемый поиск: </> _{SendAnswer:[Голосовая комната-Разрешения домохозяина]|1395}, {SendAnswer:[Голосовая комната-Обычная голосовая комната]|1396}, {SendAnswer:[Голосовая комната-воспроизведение голосовой комнаты]|1397}"
+    "target_ru": "<Assistant_Title1>[Голосовая комната - Постоянная комната]</>\n<Assistant_Title2>Вход в систему: </><Assistant_System>Голосовая комната геймплея - Настройки в правом нижнем углу - Кнопка «Постоянная» в правом верхнем углу</>{JumpToUI:[Перейти к просмотру]|1250316}\n<Assistant_Title2>Постоянный предмет: </>Приобрести постоянный контракт можно в <Assistant_System>Магазин - Витрина тайных сокровищ</>; после использования голосовая комната геймплея превращается в постоянную комнату, и её постоянная продолжительность увеличивается на 30 дней. Один предмет продлевает срок на 30 дней, максимальный предел последовательного продления — 90 дней.\n<Assistant_Title2>Описание функции: </>После превращения в постоянную комнату голосовая комната сохраняется даже <Assistant_Red>после выхода из постоянной голосовой комнаты или ухода в оффлайн</>, и хозяин комнаты сохраняет статус хозяина. <Assistant_Red>Постоянную голосовую комнату нельзя передать другому владельцу.</>\n<Assistant_Title2>Ограничение количества: </>Каждый персонаж может иметь не более <Assistant_Red>1 постоянной голосовой комнаты</>.\n<Assistant_Title2>Роспуск комнаты: </>Постоянную голосовую комнату может распустить хозяин комнаты; после роспуска её <Assistant_Red>невозможно восстановить</>;\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Голосовая комната-Права хозяина]|1395}, {SendAnswer:[Голосовая комната-Обычная голосовая комната]|1396}, {SendAnswer:[Голосовая комната-Геймплейная голосовая комната]|1397}"
   },
   {
     "id": "069552",
@@ -27657,7 +27657,7 @@
     "id": "069609",
     "source_cn": "已在匹配%s中",
     "ref_en": "Already matching for %s.",
-    "target_ru": "Уже подходит для %s."
+    "target_ru": "Уже в подборе для %s."
   },
   {
     "id": "069610",
@@ -28065,7 +28065,7 @@
     "id": "069677",
     "source_cn": "队伍成员人数过多，无法进行匹配。",
     "ref_en": "Too many party members; unable to match.",
-    "target_ru": "Слишком много членов партии; не в состоянии соответствовать."
+    "target_ru": "Слишком много участников группы; подбор невозможен."
   },
   {
     "id": "069678",

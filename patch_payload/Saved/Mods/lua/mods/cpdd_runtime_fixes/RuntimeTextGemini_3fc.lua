@@ -107,7 +107,7 @@ return {
     ["After receiving the guidance of the Gospel, the nightmares have never appeared again. Praise the Fool!"] = "После получения руководства Евангелия кошмары больше никогда не появлялись. Слава Шуту!",
     ["NPC_Archive Management Spirit"] = "NPC_Дух управления архивом",
     ["Defense Battle Energy Ball Group 3: Frontal Gathering Type"] = "Защитная битва Энергетический шар Группа 3: Тип фронтального сбора",
-    ["Betting · Winery effective, obtain 100% of own [Rare Mist Champagne]"] = "Ставки · Винодельня эффективна, получите 100% собственного [Редкого шампанского тумана]",
+    ["Betting · Winery effective, obtain 100% of own [Rare Mist Champagne]"] = "Ставки · Винодельня срабатывает, получите 100% собственного [Редкого шампанского тумана]",
     ["Sir, you look like a man of extraordinary bearing; you'll surely be able to catch plenty of rats!"] = "Сэр, вы выглядите человеком необыкновенной осанки; вы наверняка сможете поймать много крыс!",
     ["Listen to stories"] = "Слушайте истории",
     ["Check Deer Before Enid Avoids Target Point"] = "Проверьте оленя, прежде чем Энид уйдет от целевой точки",

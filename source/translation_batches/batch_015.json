@@ -1353,7 +1353,7 @@
     "id": "070225",
     "source_cn": "<Assistant_Title1>灵线</>\\n<Assistant_Title2>道具介绍：</>\\n1、使用<Assistant_Property1>灵线</>道具，可以提升游历奖励。\\n2、部分灵线道具可以让游历中的秘偶能自动完成指定区域的<Assistant_Property1>秩序世界探秘</>。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[秘偶游历]|539}",
     "ref_en": "<Assistant_Title1>Spirit Body Threads</>\\n<Assistant_Title2>Item Introduction: </>\\n1. Use <Assistant_Property1>Spirit Body Threads</> items to increase travel rewards.\\n2. Some Spirit Body Thread items allow marionettes during their travels to automatically complete <Assistant_Property1>Order World Exploration</> in designated areas.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Marionette Travel]|539}",
-    "target_ru": "<Assistant_Title1>Духовная нить</>\n<Assistant_Title2>Введение реквизита:</>\n1. Используйте реквизит <Assistant_Property1>Spirit Thread</>, чтобы увеличить награды за путешествия. \n2. Некоторые предметы духовной нити позволяют путешествующим марионеткам автоматически выполнять мировой квест <Assistant_Property1> Ордена</> в определенных местах. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Тайные путешествия кукол]|539}"
+    "target_ru": "<Assistant_Title1>Духовная нить</>\n<Assistant_Title2>Описание предмета:</>\n1. Используйте реквизит <Assistant_Property1>Духовная нить</>, чтобы увеличить награды за путешествия. \n2. Некоторые предметы духовной нити позволяют путешествующим марионеткам автоматически выполнять мировой квест <Assistant_Property1> Ордена</> в определенных местах. \n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Тайные путешествия кукол]|539}"
   },
   {
     "id": "070226",
@@ -3087,7 +3087,7 @@
     "id": "070514",
     "source_cn": "匹配确认中",
     "ref_en": "Matching confirmation in progress",
-    "target_ru": "Подтверждение соответствия находится в процессе"
+    "target_ru": "Подтверждение подбора находится в процессе"
   },
   {
     "id": "070515",
@@ -3777,7 +3777,7 @@
     "id": "070629",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>释放解控技能后，获得<Mark>50</>点技能抵挡，持续<Mark>10</>秒，每<Mark>30</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>After releasing a Cleanse Skill, gain <Mark>50</> Skill Block for <Mark>10</> seconds, with a maximum trigger frequency of once every <Mark>30</> seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>После высвобождения навыка освобождения контроля получите <Mark>50</> очков сопротивления навыку, которое длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>После высвобождения навыка освобождения контроля получите <Mark>50</> очков сопротивления навыку, которое длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>."
   },
   {
     "id": "070630",
@@ -3939,7 +3939,7 @@
     "id": "070656",
     "source_cn": "匹配结束",
     "ref_en": "Matching Ended",
-    "target_ru": "Сопоставление завершено"
+    "target_ru": "Подбор завершён"
   },
   {
     "id": "070657",
@@ -4095,7 +4095,7 @@
     "id": "070682",
     "source_cn": "应用新匹配规则的pvp玩法",
     "ref_en": "PVP gameplay applying new matching rules",
-    "target_ru": "PVP-геймплей с применением новых правил сопоставления"
+    "target_ru": "PVP-геймплей с применением новых правил подбора"
   },
   {
     "id": "070683",
@@ -4503,7 +4503,7 @@
     "id": "070750",
     "source_cn": "队伍成员离线，取消匹配。",
     "ref_en": "Party member is offline, matchmaking canceled.",
-    "target_ru": "Член группы не в сети, сватовство отменено."
+    "target_ru": "Член группы не в сети, подбор отменён."
   },
   {
     "id": "070751",
@@ -5445,7 +5445,7 @@
     "id": "070907",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>攻击提高<Mark>375</>，技能增强降低<Mark>10</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击提高<Mark>30</>，攻击降低<Mark>45</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1, 3, (Brand has expired)}</>Attack Boost <Mark>375</>, Skill Enhancement reduced by <Mark>10</>, corruption increased by <Mark>15</>.\\nCorruption Effect: Upon reaching <Mark>30</> corruption, Crit Resistance increased by <Mark>30</>, Attack reduced by <Mark>45</>.<Mark>{1, 4, (Purified)}</>\\nCurrent Corruption: {2, 1, *d, F1690001, Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is activated.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</> атака увеличена <Mark>375</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</> атака увеличена <Mark>375</>, улучшение навыков уменьшено <Mark>10</>, значение загрязнения увеличено <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическому удару увеличивается на <Mark>30</>, а атака снижается на <Mark>45</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Corruption}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "070908",
@@ -7977,7 +7977,7 @@
     "id": "071329",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,把所有的<LightHighlight>【蓝色物品】和【紫色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\">【金牌皇家火腿】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Blue Items] and [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Gold-Medal Royal Ham] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Продовольственный магазин] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Королевский окорок с золотой медалью] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Лавка Снеди] </>, улучшите все <LightHighlight> [Синие предметы] и [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30307\"> [Королевский окорок с золотой медалью] </>."
   },
   {
     "id": "071330",
@@ -9777,7 +9777,7 @@
     "id": "071629",
     "source_cn": "直接开启七日誓约的匹配阶段",
     "ref_en": "Directly start the matching phase of the Seven-Day Covenant.",
-    "target_ru": "Непосредственно начните соответствующую фазу Семидневного Завета."
+    "target_ru": "Непосредственно начните фазу подбора Семидневного Завета."
   },
   {
     "id": "071630",
@@ -11421,7 +11421,7 @@
     "id": "071903",
     "source_cn": "预判·非酒庄生效，本局酒类、艺术品卖出价+15%",
     "ref_en": "Prediction: Non-Winery activated, alcohol and art selling price +15% this round",
-    "target_ru": "Прогноз: активирован невинный завод, цена продажи алкоголя и произведений искусства + 15% в этом раунде."
+    "target_ru": "Прогноз · Не Винодельня срабатывает, цена продажи алкоголя и произведений искусства в этом раунде +15%"
   },
   {
     "id": "071904",
@@ -11727,7 +11727,7 @@
     "id": "071954",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>20</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные хлопья снежной скорлупы] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные хлопья снежной скорлупы] </>."
   },
   {
     "id": "071955",
@@ -12003,7 +12003,7 @@
     "id": "072000",
     "source_cn": "畅销·酒庄生效，本站购买价格-60%",
     "ref_en": "Best-Seller · Winery effective, purchase price at this station -60%",
-    "target_ru": "Бестселлер · Действует винодельня, цена покупки на этой станции -60%"
+    "target_ru": "Бестселлер · Винодельня срабатывает, цена покупки на этой станции -60%"
   },
   {
     "id": "072001",
@@ -12969,7 +12969,7 @@
     "id": "072161",
     "source_cn": "馈赠·商行生效，获得40件【双莓果酱】",
     "ref_en": "Gift · Trading Firm effective, obtain 40 [Double Berry Jam]",
-    "target_ru": "Подарок · Торговая фирма эффективна, получите 40 [Двойное ягодное варенье]"
+    "target_ru": "Подарок · Торговый дом срабатывает, получите 40 [Двойное ягодное варенье]"
   },
   {
     "id": "072162",
@@ -14277,7 +14277,7 @@
     "id": "072379",
     "source_cn": "玩法匹配成功，自动退出拍照模式。",
     "ref_en": "Gameplay match successful; automatically exited photo mode.",
-    "target_ru": "Геймплейный матч успешен; автоматический выход из режима фото."
+    "target_ru": "Подбор для геймплея выполнен успешно; автоматический выход из режима фото."
   },
   {
     "id": "072380",
@@ -15285,7 +15285,7 @@
     "id": "072547",
     "source_cn": "出场介绍:洛络塔",
     "ref_en": "Introduction: Lorota",
-    "target_ru": "Введение: Лорота"
+    "target_ru": "Описание: Лорота"
   },
   {
     "id": "072548",
@@ -15381,7 +15381,7 @@
     "id": "072563",
     "source_cn": "好礼·酒庄生效，获得30件【白枫笔筒】",
     "ref_en": "Good Gift · Winery effective, obtain 30 [White Maple Pen Holder]",
-    "target_ru": "Хороший подарок · Винодельня эффективна, получите 30 [Подставка для ручек из белого клена]"
+    "target_ru": "Подарок · Винодельня срабатывает, получите 30 [Подставка для ручек из белого клена]"
   },
   {
     "id": "072564",
@@ -15927,7 +15927,7 @@
     "id": "072654",
     "source_cn": "<TMis2>简短介绍%s</>",
     "ref_en": "<TMis2> Brief Introduction %s </>",
-    "target_ru": "<TMis2> Краткое введение %s </>"
+    "target_ru": "<TMis2>Краткое описание %s</>"
   },
   {
     "id": "072655",
@@ -17343,7 +17343,7 @@
     "id": "072890",
     "source_cn": "熟客·商行失效，本站不是【商行】",
     "ref_en": "Regular: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Обычный: Торговый Дом провалился, этой станции нет [Торговый Дом]"
+    "target_ru": "Постоянный клиент: Торговый Дом не срабатывает, этой станции нет [Торговый Дом]"
   },
   {
     "id": "072891",
@@ -17949,7 +17949,7 @@
     "id": "072991",
     "source_cn": "当前系统维护中，临时暂停匹配。",
     "ref_en": "The system is currently under maintenance; matchmaking is temporarily suspended.",
-    "target_ru": "В настоящее время система находится на обслуживании; сватовство временно приостановлено."
+    "target_ru": "В настоящее время система находится на обслуживании; подбор игроков временно приостановлен."
   },
   {
     "id": "072992",
@@ -18411,13 +18411,13 @@
     "id": "073068",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>破防提高<Mark>80</>。受击时，有一定概率获得<Mark>60</>点防御，持续<Mark>5</>秒，每<Mark>10</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Armor Break increased by <Mark>80</>. When taking damage, there is a chance to gain <Mark>60</> Defense for <Mark>5</> seconds, with a maximum trigger frequency of once every <Mark>10</> seconds. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(срок действия бренда истек)}</>Прорыв защиты увеличен на <Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Прорыв защиты увеличен на <Mark>80</>. При атаке существует определенная вероятность получения <Mark>60</> очков защиты, длительностью <Mark>5</> секунд, и может срабатывать не чаще одного раза каждые <Mark>10</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "073069",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>穿刺提高<Mark>140</>，暴击降低<Mark>20</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Piercing increased by <Mark>140</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Пронзание увеличено на <Mark>140</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Пронзание увеличено на <Mark>140</>, критический удар уменьшен на <Mark>20</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "073070",
@@ -20595,7 +20595,7 @@
     "id": "073432",
     "source_cn": "馈赠·食铺生效，商会票券数量{1}->{2}",
     "ref_en": "Gift · Food Shop effective, Chamber of Commerce ticket quantity {1}->{2}",
-    "target_ru": "Подарок · Действителен продуктовый магазин, количество билетов Торгово-промышленной палаты {1}->{2}"
+    "target_ru": "Подарок · Лавка Снеди срабатывает, количество билетов Торгово-промышленной палаты {1}->{2}"
   },
   {
     "id": "073433",
@@ -21825,7 +21825,7 @@
     "id": "073637",
     "source_cn": "押宝·食铺失效，本站不是【食铺】，物产出售价格-40%",
     "ref_en": "Bet: Shop failed, this station is not [Shop], product selling price -40%",
-    "target_ru": "Ставка: Магазин не удался, эта станция не [Магазин], цена продажи товара -40%."
+    "target_ru": "Ставка: Лавка Снеди не срабатывает, эта станция не [Лавка Снеди], цена продажи товара -40%"
   },
   {
     "id": "073638",
@@ -25185,7 +25185,7 @@
     "id": "074197",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>格挡提高<Mark>120</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Block increased by <Mark>120</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Блок увеличен <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Блок увеличен <Mark>120</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "074198",
@@ -26721,7 +26721,7 @@
     "id": "074453",
     "source_cn": "匹配确认中，无法开启新匹配。",
     "ref_en": "Matching is being confirmed; cannot start a new match.",
-    "target_ru": "Соответствие подтверждается; не могу начать новый матч."
+    "target_ru": "Подбор игроков подтверждается, невозможно начать новый подбор."
   },
   {
     "id": "074454",
@@ -28257,7 +28257,7 @@
     "id": "074709",
     "source_cn": "匹配中",
     "ref_en": "Matching",
-    "target_ru": "Соответствие"
+    "target_ru": "Подбор игроков"
   },
   {
     "id": "074710",
@@ -29157,7 +29157,7 @@
     "id": "074859",
     "source_cn": "新匹配规则强制类型",
     "ref_en": "New Matching Rule Forced Type",
-    "target_ru": "Новое правило сопоставления с принудительным типом"
+    "target_ru": "Новое правило подбора с принудительным типом"
   },
   {
     "id": "074860",

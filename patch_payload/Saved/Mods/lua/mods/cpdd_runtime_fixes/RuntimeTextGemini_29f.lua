@@ -266,6 +266,7 @@ return {
     ["Participate in the dungeon <Highlight>Antigonus Notebook (Normal)</> and defeat <Highlight>Clown</> for a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Антигон Notebook (Normal)</> и победите <Highlight>Клоун</>, чтобы получить шанс получить следующие предметы.",
     ["自身8米范围内的区域"] = "Область в радиусе 8 м вокруг себя",
     ["Your pieces gain 12% Life Steal<HighLight></> and 20% Attack Speed<HighLight></>."] = "Ваши фигуры получают 12% вампиризма<HighLight></> и 20% скорости атаки<HighLight></>.",
+    ["Invisibility buff when box disappears"] = "Баф невидимости при исчезновении ящика",
     ["Resonance: 3 Wilderness Monsters | 2 Crimson Believers | 2 Absolute Shields; Main Carry: Giant Wolf 3★, Banshee 3★; Main Tank: Misfortune Water Giant Turtle 3★, Dancing King Baboon Brother 2★ | Rare · Bulwark War Helm; Strategy: Chase 3★ for dual carries; Wilderness strengthens the whole team, back-row Witches provide output."] = "Резонансы: 3 Монстры пустошей | 2 Багровые верующие | 2 Абсолютный щит; основной урон: Исполинский волк 3★, Банши 3★; основной танк: Водяная исполинская черепаха бедствий 3★, Король танца Бабуин 2★ | Редкое · Боевой шлем Оплота; тактика: доведите обе ударные фигуры до 3★; Пустоши усиливают весь отряд, урон наносят ведьмы в заднем ряду",
     ["记录下火车行驶的里程，它见证着每一笔交易，也见证着一位铁路大亨如何诞生。"] = "Фиксирует пройденный поездом путь — он свидетель каждой сделки и того, как рождается железнодорожный магнат.",
     ["2格强化灼烧重伤光环"] = "Аура усиленного ожога и тяжёлого ранения (2 клетки)",

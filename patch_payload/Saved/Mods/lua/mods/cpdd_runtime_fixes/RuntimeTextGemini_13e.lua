@@ -23,7 +23,7 @@ return {
     ["Total Points 123123"] = "Всего очков: 123123",
     ["Brilliant Musical Passage"] = "Каденция",
     ["When Tarot Array deals damage, it applies one stack of Fooling Mark to the target."] = "При нанесении урона «Расклад Таро» накладывает на цель 1 уровень метки «Одурачивание».",
-    ["Matchmaking failed."] = "Матч не удался.",
+    ["Matchmaking failed."] = "Подбор игроков не удался.",
     ["The chandelier is #CanMove rotating #"] = "Люстра #CanMoveвращается#",
     ["You can set a maximum of %d Club Heroes. Currently, %d have been set. After confirming, you will not be able to set them again. Are you sure?"] = "Можно установить до %d героев клуба. В настоящее время установлены биты %d. После подтверждения их нельзя будет установить снова. Хотите подтвердить?",
     ["Mini-map street-West Avenue-Lower Street"] = "Мини-карта улица-Западный проспект-Лоуэр-стрит",

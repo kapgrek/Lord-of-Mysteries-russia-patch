@@ -26,7 +26,7 @@ return {
     ["Strange, who is Arnold talking to?"] = "Странно, с кем разговаривает Арнольд?",
     ["Use to obtain <Highlight>Thrilling District Shoes</>"] = "Используйте, чтобы получить <Highlight>Thrilling District Shoes</>.",
     ["Single Target within 3 grids"] = "Одна цель в пределах 3 клеток",
-    ["Trading Firm"] = "Торговая фирма",
+    ["Trading Firm"] = "Торговый дом",
     ["Then stand still. First, a disclaimer—if I fall into someone's chimney again, remember to keep it a secret for me!"] = "Тогда стойте спокойно. Во-первых, отказ от ответственности: если я снова упаду в чей-то дымоход, не забудьте сохранить это для меня в секрете!",
     ["Trevor 2"] = "Тревор 2",
     ["Dock atmosphere NPC 2"] = "Атмосфера дока NPC 2",

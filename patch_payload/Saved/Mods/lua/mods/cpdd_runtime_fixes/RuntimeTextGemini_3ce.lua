@@ -66,7 +66,7 @@ return {
     ["Random Action 1"] = "Случайное действие 1",
     ["With this lighting and angle, I'll definitely be able to take the most beautiful wedding photo for Xena!"] = "При таком освещении и ракурсе я обязательно смогу сделать для Зены самую красивую свадебную фотографию!",
     ["Ainsley "] = "Эйнсли",
-    ["Prediction: Non-Winery activated, alcohol and art selling price +15% this round"] = "Прогноз: активирован невинный завод, цена продажи алкоголя и произведений искусства + 15% в этом раунде.",
+    ["Prediction: Non-Winery activated, alcohol and art selling price +15% this round"] = "Прогноз · Не Винодельня срабатывает, цена продажи алкоголя и произведений искусства в этом раунде +15%",
     ["Master mysterious knowledge such as magic, witchcraft, and astrology, and understand quite a bit of Ritual Magic. Possess 'Eyes of Mystery Prying', capable of seeing more things that should not be seen; therefore, you must maintain awe for Beyonder power."] = "Овладейте таинственными знаниями, такими как магия, колдовство и астрология, и разберитесь в ритуальной магии. Обладают «Таинственными глазами», способными видеть больше вещей, которые не следует видеть; поэтому вы должны сохранять трепет перед силой Потустороннего.",
     ["Reforge Attribute Selection"] = "Выбор атрибута перековки",
     ["Foreign Traveler"] = "Иностранный путешественник",

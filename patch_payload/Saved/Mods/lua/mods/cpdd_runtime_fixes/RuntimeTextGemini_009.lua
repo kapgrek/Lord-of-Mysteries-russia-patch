@@ -223,7 +223,7 @@ return {
     ["Guide line 4"] = "Направляющая линия 4",
     ["Do you remember what that knight said? If you skip school again, he'll help me keep an eye on you."] = "Помните, что сказал тот рыцарь? Если ты снова прогуляешь школу, он поможет мне присматривать за тобой.",
     ["View the third missing persons case file"] = "Посмотреть материалы дела о третьем пропавшем человеке",
-    ["Prediction: Non-Shop activated, food and alcohol selling price +15% this round"] = "Прогноз: активирован режим «Не-магазин», цена продажи продуктов питания и алкоголя +15% в этом раунде.",
+    ["Prediction: Non-Shop activated, food and alcohol selling price +15% this round"] = "Прогноз: Не-Лавка Снеди срабатывает, цена продажи продуктов питания и алкоголя +15% в этом раунде.",
     ["120 seconds"] = "120 секунд",
     ["Acquisition order"] = "Порядок приобретения",
     ["Spirituality Warning"] = "Предупреждение о духовности",

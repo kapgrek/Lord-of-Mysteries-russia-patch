@@ -230,7 +230,7 @@ return {
     ["Looking at you, perhaps..."] = "Глядя на тебя, возможно...",
     ["This is... the smell of wolf fish canned food! Who is eating this? Don't they know there's a Gehrman-themed event at the dock today? Disturbing the order!"] = "Это... запах консервированной рыбы-волка! Кто это ест? Разве они не знают, что сегодня в доке состоится мероприятие, посвященное Германии? Нарушаем порядок!",
     ["Eye of the Storm"] = "Глаз бури",
-    ["Contract: Shop activated, alcohol and art selling price +25% this round, selling price at this station -60%"] = "Контракт: магазин активирован, цена продажи алкоголя и предметов искусства +25% в этом раунде, цена продажи на этой станции -60%.",
+    ["Contract: Shop activated, alcohol and art selling price +25% this round, selling price at this station -60%"] = "Контракт: Лавка Снеди сработала, цена продажи алкоголя и предметов искусства +25% в этом раунде, цена продажи на этой станции -60%.",
     ["Attacking enemies with less than 40% Health deals additional damage equal to 0.5% of their maximum Health."] = "Атака врагов с уровнем здоровья менее 40% наносит дополнительный урон, равный 0,5% от их максимального здоровья.",
     ["Unmute"] = "Включить звук",
     ["Man Lying at Doorway"] = "Мужчина лежит в дверном проеме",

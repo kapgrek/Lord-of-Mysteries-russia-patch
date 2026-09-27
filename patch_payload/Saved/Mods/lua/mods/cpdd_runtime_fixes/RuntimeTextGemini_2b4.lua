@@ -253,7 +253,7 @@ return {
     ["Portal Invincibility - Damage Immunity"] = "Неуязвимость портала - Иммунитет к урону",
     ["Appearance Conversion"] = "Смена облика",
     ["Open constellation puzzle"] = "Открытая головоломка созвездия",
-    ["Contract: Shop failed, next station is not [Shop]"] = "Контракт: Магазин не удался, следующей станции нет [Магазин]",
+    ["Contract: Shop failed, next station is not [Shop]"] = "Контракт: Лавка Снеди не сработала, следующей станции нет [Лавка Снеди]",
     ["Check on Brandon's condition"] = "Проверить состояние Брэндона",
     ["{{Mr.|Ms.}}, if you see my bird, please leave quietly and don't disturb it."] = "{{Mr.|Ms.}}, если ты увидишь мою птицу, пожалуйста, тихо уйди и не беспокой ее.",
     ["Alchemical Leyline"] = "Алхимическая силовая линия",

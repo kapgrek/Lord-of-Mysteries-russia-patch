@@ -254,7 +254,7 @@ return {
     ["<DecH>Set Text:</>Set Text Set Text Set Text Set Text Set Text Set Text Set Text Set Text"] = "<DecH>Set Text:</>Set Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста",
     ["Attempt to <h>turn on the light</>"] = "Попытка <h> включить свет</>",
     ["This prince is a bit insane, is there anything to make him sober up!"] = "Этот принц немного сумасшедший, есть ли что-нибудь, что его протрезвеет!",
-    ["Whether to enable cross-server PVE matching"] = "Включить ли межсерверное сопоставление PVE",
+    ["Whether to enable cross-server PVE matching"] = "Включить ли межсерверный подбор игроков для PVE",
     ["I know you are not a policeman, but I trust you. This pass will allow you to enter directly."] = "Я знаю, что ты не полицейский, но я тебе доверяю. Этот пропуск позволит вам войти напрямую.",
     ["Eyeball of a Gray Bird Matriarch"] = "Глазное яблоко матриарха серой птицы",
     ["A little to the right, look at the lens!"] = "Чуть правее, посмотрите на линзу!",

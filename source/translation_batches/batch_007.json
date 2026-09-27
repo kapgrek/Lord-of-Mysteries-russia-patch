@@ -5775,7 +5775,7 @@
     "id": "030962",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,获得<LightHighlight>50</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\">【盐渍牡蛎】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, obtain <LightHighlight> 50 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\"> [Salted Oysters] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, получите <LightHighlight> 50 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\"> [Соленые устрицы] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, получите <LightHighlight> 50 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30305\"> [Соленые устрицы] </>."
   },
   {
     "id": "030963",
@@ -6663,7 +6663,7 @@
     "id": "031110",
     "source_cn": "对局匹配",
     "ref_en": "Matchmaking",
-    "target_ru": "Сватовство"
+    "target_ru": "Подбор игроков"
   },
   {
     "id": "031111",
@@ -7875,7 +7875,7 @@
     "id": "031312",
     "source_cn": "<Highlight>{1,3,（烙印已失效）}</>暴击提高<Mark>140</>，抗暴击降低<Mark>15</>，污染值提高<Mark>15</>。使用社交动作<Mark>行礼</>后，暴击提高效果改为攻击提高<Mark>205</>。\\n污染效果：达到<Mark>30</>污染值时，抗暴击降低<Mark>15</>。<Mark>{1,4,（已净化）}</>\\n当前污染值：{2,1,*d,F1690001,Corruption}\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,3,(Brand Expired)}</>Crit rate increased by <Mark>140</>, Crit Resistance decreased by <Mark>15</>, corruption increased by <Mark>15</>. After using the social action <Mark>Salute</>, the Crit rate increase effect is changed to an Attack increase of <Mark>205</>. \\ncorruption effect: When reaching <Mark>30</> corruption, Crit Resistance decreased by <Mark>15</>. <Mark>{1,4,(Purified)}</>\\nCurrent corruption: {2,1,*d,F1690001,Corruption}\\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,3,(Срок действия бренда истек)}</>Критическая атака увеличена <Mark>140</>, сопротивление критической атаке уменьшено <Mark>15</>, значение загрязнения увеличено <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>205</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
+    "target_ru": "<Highlight>{1,3,(срок истёк)}</>Критическая атака увеличена <Mark>140</>, сопротивление критической атаке уменьшено <Mark>15</>, значение загрязнения увеличено <Mark>15</>. После использования социального действия <Mark> для приветствия </> эффект увеличения критического удара меняется на увеличение атаки <Mark>205</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление критическим ударам снижается на <Mark>15</>. <Mark>{1,4,(очищенный)}</>\nТекущее значение загрязнения: {2,1,*d,F1690001,Коррупция}\nНе действует при активации набора<Mark>Пакт железа и крови</>."
   },
   {
     "id": "031313",
@@ -8091,7 +8091,7 @@
     "id": "031348",
     "source_cn": "可买入站点：<LightHighlight>酒庄</>\\n可卖出站点：<LightHighlight>商行</>\\n物品类型：<LightHighlight>酒类</>",
     "ref_en": "Buyable Stations: <LightHighlight> Winery </> \\n Sellable Stations: <LightHighlight> Trading Firm </> \\n Item Type: <LightHighlight> Wine </>",
-    "target_ru": "Места покупки: <LightHighlight>Винодельня</>\nМеста продажи: <LightHighlight>Торговая гильдия</>\nТип предмета: <LightHighlight>Алкоголь</>"
+    "target_ru": "Места покупки: <LightHighlight>Винодельня</>\nМеста продажи: <LightHighlight>Торговый дом</>\nТип предмета: <LightHighlight>Алкоголь</>"
   },
   {
     "id": "031349",
@@ -8685,7 +8685,7 @@
     "id": "031447",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>250</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{1,2, (Brand Expired)}</>Attack increased by <Mark>250</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wetherell family. Upon entering combat, for every team member possessing the <Mark>Virtue</> of the Wetherell family, Attack is increased by an additional <Mark>10</>.\\nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is active.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Атака увеличена <Mark>250</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Атака увеличена <Mark>250</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "031448",
@@ -8949,7 +8949,7 @@
     "id": "031491",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,每2件<LightHighlight>【绿色物品】</>升级为1件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, every 2 units of <LightHighlight> [Green Items] </> are upgraded into 1 unit of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Fine Oil Painting] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, каждые 2 единицы <LightHighlight> [Зеленые предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканной масляной живописи] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, каждые 2 единицы <LightHighlight> [Зеленые предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\"> [Изысканной масляной живописи] </>."
   },
   {
     "id": "031492",
@@ -9093,7 +9093,7 @@
     "id": "031515",
     "source_cn": "押宝·食铺生效，获得自身150%的【蜂蜜麦酒】",
     "ref_en": "Betting · Food Shop effective, obtain 150% of own [Honey Mead]",
-    "target_ru": "Ставки · Продуктовый магазин эффективен, получите 150% собственного [Медового меда]"
+    "target_ru": "Ставка · Лавка Снеди сработала, получите 150% собственного [Медового эля]"
   },
   {
     "id": "031516",
@@ -13779,7 +13779,7 @@
     "id": "032296",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>攻击提高<Mark>180</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Attack increased by <Mark>180</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. Upon entering combat, for every squad member possessing the <Mark>Virtue</> of the Weil Family, Attack is additionally increased by <Mark>10</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Атака увеличена <Mark>180</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Атака увеличена <Mark>180</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "032297",
@@ -15441,7 +15441,7 @@
     "id": "032573",
     "source_cn": "好礼·酒庄失效，本站不是【酒庄】",
     "ref_en": "Gift: Winery failed, this station is not [Winery]",
-    "target_ru": "Подарок: Винодельня не удалась, этой станции нет [Винодельня]"
+    "target_ru": "Подарок · Винодельня не сработала, эта станция не [Винодельня]"
   },
   {
     "id": "032574",
@@ -17001,7 +17001,7 @@
     "id": "032833",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,每2件<LightHighlight>【蓝色物品】</>升级为1件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Trading Firm] </>, every 2 units of <LightHighlight> [Blue Items] </> are upgraded into 1 unit of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговая фирма] </>, каждые 2 единицы <LightHighlight> [Синие предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Торговый дом] </>, каждые 2 единицы <LightHighlight> [Синие предметы] </> улучшаются до 1 единицы <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденных снежных хлопьев] </>."
   },
   {
     "id": "032834",
@@ -17211,7 +17211,7 @@
     "id": "032868",
     "source_cn": "物产简介",
     "ref_en": "Product Introduction",
-    "target_ru": "Введение продукта"
+    "target_ru": "Описание"
   },
   {
     "id": "032869",
@@ -18867,7 +18867,7 @@
     "id": "033144",
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>赛程安排</>\\n<Highlight>首场四方联赛</>将在开服<Highlight>第一周周日中午12:00</>通过对俱乐部的综合评判划分赛区、分组，并于<Highlight>当日晚18:00</>公示赛区以及分组。联赛以<Highlight>每两场对阵为一轮</>，每一轮持续<Highlight>两周</>，开服第一周周日晚<Highlight>20:00</>开启首轮联赛（特殊），后续调整为每周六晚<Highlight>20:00</>开启四方联赛。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>赛制规则</>\\n每轮比赛由两场对阵组成。每轮第一场开始前，本组第1、2名，第3、4名，第5、6名以及第7、8名将分别进入不同的比赛小组，并在满足该规则的前提下<Highlight>随机分配</>。第一场比赛结束后，各比赛小组<Highlight>前2名进入胜者组</>，后2名进入败者组。第二场比赛将分别进行胜者组与败者组对决，并根据比赛结果确定本轮<Highlight>第1至第8名</>。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>晋降级规则</>\\n每轮第二场比赛结束后，将于当周周六21:20进行本轮晋降级：<Highlight>圣名组及圣名组以上</>分组内前两名晋级上一分组，末两名降级至下一分组；<Highlight>英杰组及英杰组以下</>组内第一名晋升两组，第二名晋升一组，第七名降级一组，第八名降级两组。其中<Highlight>传奇组、史诗组、旅者组</>为特殊分组：传奇组第一、二名晋升一组，第六、七名均降一组，第八名降两组；史诗组第一、二名晋升一组，第七名降级一组，第八名降级两组；旅者组第一名晋升两组，第二名晋升一组，第七、八名降级两组；挑战者组第一名晋升两组，第二、三名晋升一组。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>联盟组规则</>\\n排名在旅者组之后的俱乐部将根据<Highlight>俱乐部非凡评分总和</>划分至<Highlight>挑战者组</>（前八名）及后续<Highlight>联盟组</>（<Highlight>联盟组不参与升降级</>）。联盟组的俱乐部将在每场联赛开始前<Highlight>自动匹配</>其它俱乐部组成联盟，以联盟形式参与四方联赛，联盟内<Highlight>所有俱乐部成员</>均可入场参战，联盟中<Highlight>排名最高俱乐部的会长</>将在局内自动获得<Highlight>联赛指挥权限</>。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>赛季重置</>\\n每个新赛季开始时联赛将<Highlight>重新划分赛区</>，届时将按照<Highlight>上一赛季联赛成绩</>重新匹配对手构建新的赛区。\\n",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Schedule </> \\n <Highlight> The first Four-Way League </> will divide regions and groups based on a comprehensive evaluation of clubs <Highlight> on the Sunday of the first week of server opening at 12:00 PM </>, and the regions and groups will be announced <Highlight> at 6:00 PM on the same day </>. The league consists of <Highlight> two matches per round </>, with each round lasting <Highlight> two weeks </>. The first round of the league (special) starts at <Highlight> 8:00 PM </> on the Sunday of the first week of server opening, and subsequent leagues are adjusted to start every Saturday at <Highlight> 8:00 PM </>. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Tournament Rules </> \\n Each round consists of two matches. Before the first match of each round, the 1st and 2nd, 3rd and 4th, 5th and 6th, and 7th and 8th place teams in the group will be assigned to different match groups, and <Highlight> randomly assigned </> while meeting this rule. After the first match, the <Highlight> top 2 </> of each match group enter the winner's bracket, and the bottom 2 enter the loser's bracket. The second match will feature winner's bracket and loser's bracket duels respectively, and the <Highlight> 1st to 8th place </> for the round will be determined based on the match results. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Promotion and Relegation Rules </> \\n After the second match of each round, promotion and relegation for the round will take place at 9:20 PM on that Saturday: <Highlight> For the Saint Name group and above </>, the top two in the group are promoted to the previous group, and the bottom two are relegated to the next group; <Highlight> For the Hero group and below </>, the first in the group is promoted two groups, the second is promoted one group, the seventh is relegated one group, and the eighth is relegated two groups. Among them, <Highlight> the Legend, Epic, and Traveler groups </> are special groups: the first and second in the Legend group are promoted one group, the sixth and seventh are relegated one group, and the eighth is relegated two groups; the first and second in the Epic group are promoted one group, the seventh is relegated one group, and the eighth is relegated two groups; the first in the Traveler group is promoted two groups, the second is promoted one group, and the seventh and eighth are relegated two groups; the first in the Challenger group is promoted two groups, and the second and third are promoted one group. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Alliance Group Rules </> \\n Clubs ranked after the Traveler group will be divided into the <Highlight> Challenger group </> (top eight) and subsequent <Highlight> Alliance groups </> (<Highlight> Alliance groups do not participate in promotion or relegation </>) based on the <Highlight> total club Beyonder score </>. Clubs in the Alliance group will <Highlight> automatically match </> with other clubs to form an alliance before each league starts, participating in the Four-Way League as an alliance. <Highlight> All club members </> in the alliance can enter the battle, and the <Highlight> president of the highest-ranked club </> in the alliance will automatically obtain <Highlight> league command authority </> in the match. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Season Reset </> \\n At the start of each new season, the league will <Highlight> re-divide regions </>, and opponents will be re-matched to build new regions based on <Highlight> the previous season's league results </>. \\n",
-    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расписание</>\n<Highlight>Первая Четырёхсторонняя лига</> разделит дивизионы и группы по итогам комплексной оценки клубов в <Highlight>первое воскресенье после открытия сервера в 12:00</>, а дивизионы и группы будут опубликованы в <Highlight>18:00 того же дня</>. Лига состоит из раундов по <Highlight>два матча в каждом</>, каждый раунд длится <Highlight>две недели</>. Первый раунд лиги (особый) начнётся в первое воскресенье после открытия сервера в <Highlight>20:00</>, а последующие будут проходить каждую субботу в <Highlight>20:00</>.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила проведения</>\nКаждый раунд состоит из двух матчей. Перед первым матчем каждого раунда команды, занявшие в группе 1–2, 3–4, 5–6 и 7–8 места, будут разделены по разным игровым группам и <Highlight>случайно распределены</> с соблюдением этого правила. По итогам первого матча <Highlight>топ-2 каждой группы выходят в сетку победителей</>, а нижние 2 — в сетку проигравших. Во втором матче пройдут поединки в сетках победителей и проигравших соответственно, определяя <Highlight>с 1 по 8 места</> по итогам раунда.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила повышения и выбывания</>\nПосле второго матча каждого раунда в субботу в 21:20 подводятся итоги повышения и понижения: для групп <Highlight>Святого Имени и выше</> две лучшие команды переходят в высшую группу, а две нижние — в низшую; для групп <Highlight>Героев и ниже</> 1-е место повышается на две группы, 2-е место — на одну группу, 7-е понижается на одну, а 8-е — на две группы. При этом группы <Highlight>Легенд, Эпоса и Странников</> являются особыми: в группе Легенд 1–2 места повышаются на одну группу, 6–7 места понижаются на одну, а 8-е — на две группы; в группе Эпоса 1–2 места повышаются на одну группу, 7-е место понижается на одну, а 8-е — на две группы; в группе Странников 1-е место повышается на две группы, 2-е место — на одну группу, а 7–8 места понижаются на две группы; в группе Претендентов 1-е место повышается на две группы, а 2-е и 3-е места — на одну группу.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила группы Альянса</>\nКлубы, занявшие места после группы Странников, разделяются по <Highlight>суммарному Потустороннему рейтингу клуба</> на <Highlight>группу Претендентов</> (топ-8) и последующие <Highlight>группы Альянса</> (<Highlight>группы Альянса не участвуют в повышении и понижении</>). Клубы в группе Альянса перед каждым матчем лиги <Highlight>автоматически объединяются</> с другими клубами в альянс и выступают вместе. В бой могут вступить <Highlight>все участники клубов альянса</>, а <Highlight>глава клуба с наивысшим рейтингом</> в альянсе автоматически получает <Highlight>полномочия командования в лиге</>.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Сброс сезона</>\nВ начале каждого нового сезона лига будет <Highlight>заново распределять дивизионы</>, при этом соперники будут заново подобраны на основе <Highlight>результатов лиги прошлого сезона</>.\n"
+    "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расписание</>\n<Highlight>Первая Четырёхсторонняя лига</> разделит дивизионы и группы по итогам комплексной оценки клубов в <Highlight>первое воскресенье после открытия сервера в 12:00</>, а дивизионы и группы будут опубликованы в <Highlight>18:00 того же дня</>. Лига состоит из раундов по <Highlight>два матча в каждом</>, каждый раунд длится <Highlight>две недели</>. Первый раунд лиги (особый) начнётся в первое воскресенье после открытия сервера в <Highlight>20:00</>, а последующие будут проходить каждую субботу в <Highlight>20:00</>.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила проведения</>\nКаждый раунд состоит из двух матчей. Перед первым матчем каждого раунда команды, занявшие в группе 1–2, 3–4, 5–6 и 7–8 места, будут разделены по разным игровым группам и <Highlight>случайно распределены</> с соблюдением этого правила. По итогам первого матча <Highlight>топ-2 каждой группы выходят в сетку победителей</>, а нижние 2 — в сетку проигравших. Во втором матче пройдут поединки в сетках победителей и проигравших соответственно, определяя <Highlight>с 1 по 8 места</> по итогам раунда.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила повышения и выбывания</>\nПосле второго матча каждого раунда в субботу в 21:20 подводятся итоги повышения и понижения: для групп <Highlight>Святого Имени и выше</> две лучшие команды переходят в высшую группу, а две нижние — в низшую; для групп <Highlight>Героев и ниже</> 1-е место повышается на две группы, 2-е место — на одну группу, 7-е понижается на одну, а 8-е — на две группы. При этом группы <Highlight>Легенд, Эпоса и Странников</> являются особыми: в группе Легенд 1–2 места повышаются на одну группу, 6–7 места понижаются на одну, а 8-е — на две группы; в группе Эпоса 1–2 места повышаются на одну группу, 7-е место понижается на одну, а 8-е — на две группы; в группе Странников 1-е место повышается на две группы, 2-е место — на одну группу, а 7–8 места понижаются на две группы; в группе Претендентов 1-е место повышается на две группы, а 2-е и 3-е места — на одну группу.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила группы Альянса</>\nКлубы, занявшие места после группы Странников, разделяются по <Highlight>суммарному Потустороннему рейтингу клуба</> на <Highlight>группу Претендентов</> (топ-8) и последующие <Highlight>группы Альянса</> (<Highlight>группы Альянса не участвуют в повышении и понижении</>). Клубы в группе Альянса перед каждым матчем лиги <Highlight>автоматически выполняют подбор</> других клубов для объединения в альянс и выступают вместе. В бой могут вступить <Highlight>все участники клубов альянса</>, а <Highlight>глава клуба с наивысшим рейтингом</> в альянсе автоматически получает <Highlight>полномочия командования в лиге</>.\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Сброс сезона</>\nВ начале каждого нового сезона лига будет <Highlight>заново распределять дивизионы</>, при этом соперники будут заново подобраны на основе <Highlight>результатов лиги прошлого сезона</>.\n"
   },
   {
     "id": "033145",
@@ -19113,7 +19113,7 @@
     "id": "033185",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30503\">【铜雕烛台】</>数量增加<LightHighlight>100%</>，否则，物产出售价格-40%",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30503\"> [Bronze Candlestick] </> currently held increases by <LightHighlight> 100% </>; otherwise, the selling price of goods is -40%.",
-    "target_ru": "Если следующей остановкой <LightHighlight> является [Продовольственный магазин] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30503\"> [Бронзовый подсвечник] </>, удерживаемое в данный момент, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
+    "target_ru": "Если следующей остановкой <LightHighlight> является [Лавка Снеди] </>, количество <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30503\"> [Бронзовый подсвечник] </>, удерживаемое в данный момент, увеличивается на <LightHighlight> 100% </>; в противном случае отпускная цена товара составляет -40%."
   },
   {
     "id": "033186",
@@ -19509,7 +19509,7 @@
     "id": "033251",
     "source_cn": "队伍成员不在同组服务器，无法组队匹配该玩法！",
     "ref_en": "Team members are not on the same server; cannot team up for this gameplay!",
-    "target_ru": "Члены команды находятся на разных серверах; не могу объединиться для этого игрового процесса!"
+    "target_ru": "Члены команды находятся на разных серверах; невозможен подбор команды для этого режима игры!"
   },
   {
     "id": "033252",
@@ -20511,7 +20511,7 @@
     "id": "033418",
     "source_cn": "如果下一站<LightHighlight>不是【酒庄】</>，获得<LightHighlight>25</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Winery] </>, obtain <LightHighlight> 25 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>.",
-    "target_ru": "Если следующая остановка <LightHighlight> — не [Винодельня] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [лафитовое красное вино, выдержанное в погребе] </>."
+    "target_ru": "Если следующая остановка <LightHighlight> — не [Винодельня] </>, получите <LightHighlight> 25 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанного красного «Лафита»] </>."
   },
   {
     "id": "033419",
@@ -21171,7 +21171,7 @@
     "id": "033528",
     "source_cn": "出场介绍:博尔吉亚",
     "ref_en": "Introduction: Borgia",
-    "target_ru": "Введение: Борджиа"
+    "target_ru": "Описание: Борджиа"
   },
   {
     "id": "033529",
@@ -23277,7 +23277,7 @@
     "id": "033879",
     "source_cn": "<CostRed>{1,3,（烙印已失效）}</>技能增强提高<Mark>75</>，技能抵挡降低<Mark>5</>，污染值提高<Mark>15</>。\\n污染效果：达到<Mark>30</>污染值时，技能抵挡降低<Mark>5</>。<Mark>{1,4,（已净化）}</>\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{1,3, (Brand Expired)}</>Skill Enhancement increased by <Mark>75</>, Skill Block reduced by <Mark>5</>, Corruption increased by <Mark>15</>. \\nCorruption Effect: Upon reaching <Mark>30</> Corruption, Skill Block is reduced by <Mark>5</>. <Mark>{1,4, (Purified)}</>\\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<CostRed>{1,3,(Срок действия бренда истек)}</>Улучшение навыка увеличивается <Mark>75</>, сопротивление навыку уменьшается <Mark>5</>, а значение загрязнения увеличивается <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление навыку снижается на <Mark>5</>. <Mark>{1,4,(очищенный)}</>\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
+    "target_ru": "<CostRed>{1,3,(срок истёк)}</>Улучшение навыка увеличивается <Mark>75</>, сопротивление навыку уменьшается <Mark>5</>, а значение загрязнения увеличивается <Mark>15</>. \n эффект загрязнения: когда значение загрязнения достигает <Mark>30</>, сопротивление навыку снижается на <Mark>5</>. <Mark>{1,4,(очищенный)}</>\nНе действует при активации набора<Mark>Эхо духа и знаний</>."
   },
   {
     "id": "033880",
@@ -25653,7 +25653,7 @@
     "id": "034275",
     "source_cn": "食铺",
     "ref_en": "Food Shop",
-    "target_ru": "Продовольственный магазин"
+    "target_ru": "Лавка Снеди"
   },
   {
     "id": "034276",
@@ -27975,7 +27975,7 @@
     "id": "034662",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>攻击提高<Mark>200</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2, (Brand has expired) }</>Attack increased by <Mark>200</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Атака увеличена на <Mark>200</>. \n Не действует при активации набора <Mark> «Эхо духа и знаний» </>."
   },
   {
     "id": "034663",
@@ -28899,7 +28899,7 @@
     "id": "034816",
     "source_cn": "人脉介绍",
     "ref_en": "Connections Introduction",
-    "target_ru": "Соединения Введение"
+    "target_ru": "Описание связей"
   },
   {
     "id": "034817",

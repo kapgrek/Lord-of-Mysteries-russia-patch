@@ -74,7 +74,7 @@ return {
     ["<P_Heart> (Embarrassed) </> Shovel? I, I lost it..."] = "<P_Heart> (Смущенно) </> Лопата? Я, я потерял его...",
     ["<HyperLink stylename=\"M_Link\" u=\"86011040\" color=\"#f4a067\">Sun Chaser</> gains the branch skill <HighLight>Light Chaser</>: Quickly thrust towards the target, knocking down the target and surrounding enemies, while applying healing reduction and stagnation effects. The branch skill has 2 charges and a 10-second recharge time."] = "<HyperLink stylename=\"M_Link\" u=\"86011040\" color=\"#f4a067\">Sun Chaser</> получает навык ветки <HighLight>LLight Chaser</>: быстрый рывок к цели, сбивающий с ног цель и окружающих врагов, одновременно применяя эффекты уменьшения лечения и застоя. Навык ветки имеет 2 заряда и время перезарядки 10 секунд.",
     ["Death's Lament Part 1 - Old Rhode Commits Suicide"] = "Плач смерти. Часть 1. Старый Род совершает самоубийство",
-    ["You have entered a map that does not allow quick matching. Current quick match has been automatically canceled."] = "Вы ввели карту, которая не поддерживает быстрое сопоставление. Текущий быстрый матч был автоматически отменен.",
+    ["You have entered a map that does not allow quick matching. Current quick match has been automatically canceled."] = "Вы вошли на карту, которая не поддерживает быстрый подбор игроков. Текущий быстрый подбор был автоматически отменён.",
     ["Bring a cane in the specialization slot."] = "Принесите трость в слот специализации.",
     ["The difference in club levels is too large to declare war"] = "Разница в уровнях клубов слишком велика, чтобы объявлять войну.",
     ["Report the Magic Mirror Incident"] = "Сообщите об инциденте с волшебным зеркалом",

@@ -1,7 +1,7 @@
 -- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 389/3ff.
 return {
-    ["Upgrade · Trading Firm activated, all [Blue Items] upgraded to [Fine Oil Painting]."] = "Действует «Улучшение: Торговая палата»: все [Синие предметы] улучшаются до [Изящного этюда маслом]",
+    ["Upgrade · Trading Firm activated, all [Blue Items] upgraded to [Fine Oil Painting]."] = "«Улучшение: Торговый дом» сработало: все [Синие предметы] улучшаются до [Изящного этюда маслом]",
     ["A little bit of... romantic fun? I thought this place was secluded and no one would hear."] = "Немного... романтики? Я думал, место глухое и нас никто не услышит.",
     ["Aberrant Larva - Normal"] = "Личинка-мутант — обычная",
     ["<P_Heart> (Arrodes said we can bargain, use spirit vision to observe the stall owner's emotions...) </>"] = "<P_Heart>(Арродес сказал, что можно поторговаться и использовать духовное зрение, чтобы следить за настроением торговца...)</>",
@@ -246,6 +246,7 @@ return {
     ["Coincidence"] = "Совпадение",
     ["<HighLight> %d </> items"] = "<HighLight>%d</> шт.",
     ["小心查看<h>笔记</>"] = "Внимательно проверьте примечания <h></>.",
+    ["GVG Tower effect buff - Black Emperor"] = "Эффект башни GVG — Чёрный император",
     ["额外随机获得1个三星5费棋子。"] = "Дополнительно даёт 1 случайную трёхзвёздочную фигуру за 5 золотых.",
     ["思维钝化，意识漂浮。身体进入一种被“托管”的恍惚状态，顺从着外来的指引。"] = "Мышление притупляется, сознание словно плывёт. Тело впадает в транс, будто отданное под «опеку», подчиняясь чужим указаниям.",
     ["封印物任务2"] = "Задание Запечатанного Артефакта 2",

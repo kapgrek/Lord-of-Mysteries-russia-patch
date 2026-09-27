@@ -232,7 +232,7 @@ return {
     ["What's even more outrageous is that some say if you hit the target three times in a row, you can go home..."] = "Еще более возмутительно то, что некоторые говорят, что если поразить цель три раза подряд, то можно идти домой...",
     ["Mount Subtype"] = "Подтип крепления",
     ["I really can't get into this book. Alden doesn't seem to be reading seriously either? No, this must be a unique study method for top students! Better not disturb him."] = "Я правда не могу вникнуть в эту книгу. Олден, похоже, тоже не читает серьезно? Нет, это, должно быть, уникальный метод обучения для лучших учеников! Лучше не беспокойте его.",
-    ["Introduction: \"Justice\""] = "Введение: «Справедливость»",
+    ["Introduction: \"Justice\""] = "Описание: «Справедливость»",
     ["This is the answer."] = "Это ответ.",
     ["Come and take a look! Vegetables for sale, cheap! The freshest and cheapest vegetables in Iron Cross!"] = "Приходите и посмотрите! Продажа овощей, недорого! Самые свежие и дешевые овощи в Iron Cross!",
     ["The requiem process has completely spiraled out of control, {Player1}'s Sanity -{N}, {Player2}'s Sanity -{M}"] = "Процесс реквиема полностью вышел из-под контроля, здравомыслие {Player1} -{N}, здравомыслие {Player2} -{M}",

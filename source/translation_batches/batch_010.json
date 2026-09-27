@@ -4623,7 +4623,7 @@
     "id": "045770",
     "source_cn": "玩法介绍",
     "ref_en": "Gameplay Introduction",
-    "target_ru": "Введение в игровой процесс"
+    "target_ru": "Описание игрового процесса"
   },
   {
     "id": "045771",
@@ -5103,7 +5103,7 @@
     "id": "045850",
     "source_cn": "出场介绍:全剧终",
     "ref_en": "Introduction: The End",
-    "target_ru": "Введение: Конец"
+    "target_ru": "Описание появления: Конец"
   },
   {
     "id": "045851",
@@ -5211,7 +5211,7 @@
     "id": "045868",
     "source_cn": "如果下一站<LightHighlight>是【食铺】</>,把所有的<LightHighlight>【紫色物品】</>升级为<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is the [Food Shop] </>, upgrade all <LightHighlight> [Purple Items] </> into <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующей остановкой <LightHighlight> будет [Продовольственный магазин] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные снежные хлопья] </>."
+    "target_ru": "Если следующей остановкой <LightHighlight> будет [Лавка Снеди] </>, улучшите все <LightHighlight> [Фиолетовые предметы] </> до <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные снежные хлопья] </>."
   },
   {
     "id": "045869",
@@ -6129,7 +6129,7 @@
     "id": "046021",
     "source_cn": "茶壶聊天室简介茶壶聊天室简介茶壶聊天",
     "ref_en": "Teapot Chat Room Introduction Teapot Chat Room Introduction Teapot Chat",
-    "target_ru": "Введение в чат с чайником Введение в чат с чайником Введение в чат с чайником"
+    "target_ru": "Описание чат-комнаты чайника Описание чат-комнаты чайника Чат чайника"
   },
   {
     "id": "046022",
@@ -12573,7 +12573,7 @@
     "id": "047095",
     "source_cn": "熟客·食铺生效，获得自身50%的【镀金妆镜】",
     "ref_en": "Regular: Shop activated, received 50% of own [Gilded Vanity Mirror]",
-    "target_ru": "Обычное: магазин активирован, получено 50% собственного [Позолоченного косметического зеркала]"
+    "target_ru": "Постоянный клиент · Лавка Снеди срабатывает, получено 50% собственного [Позолоченного косметического зеркала]"
   },
   {
     "id": "047096",
@@ -13305,7 +13305,7 @@
     "id": "047217",
     "source_cn": "熟客·酒庄生效，获得自身50%的【蜜浸培根】",
     "ref_en": "Regular: Winery activated, received 50% of own [Honey-Soaked Bacon]",
-    "target_ru": "Обычное: активирована винодельня, получено 50% собственного [Пропитанного медом бекона]"
+    "target_ru": "Постоянный клиент · Винодельня срабатывает, получено 50% собственного [Пропитанного медом бекона]"
   },
   {
     "id": "047218",
@@ -15453,7 +15453,7 @@
     "id": "047575",
     "source_cn": "如果下一站<LightHighlight>是【商行】</>,下一站物产出售价格<LightHighlight>+75%</>",
     "ref_en": "If the next station <LightHighlight> is [Trading Firm] </>, next station selling price <LightHighlight> +75% </>",
-    "target_ru": "Если следующей станцией <LightHighlight> является [Торговая фирма] </>, цена продажи следующей станции <LightHighlight> +75% </>."
+    "target_ru": "Если следующей станцией <LightHighlight> является [Торговый дом] </>, цена продажи следующей станции <LightHighlight> +75% </>."
   },
   {
     "id": "047576",
@@ -16089,7 +16089,7 @@
     "id": "047681",
     "source_cn": "升级·商行失效，本站不是【商行】",
     "ref_en": "Upgrade: Trading House failed, this station is not [Trading House]",
-    "target_ru": "Обновление: Торговый Дом не удался, этой станции нет [Торговый Дом]"
+    "target_ru": "Обновление · Торговый дом не срабатывает, эта станция — не [Торговый дом]"
   },
   {
     "id": "047682",
@@ -17583,7 +17583,7 @@
     "id": "047930",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>破防提高<Mark>130</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Armor Break increased by <Mark>130</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \\n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>130</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Прорыв защиты увеличивается <Mark>130</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "047931",
@@ -22749,7 +22749,7 @@
     "id": "048791",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>途径专防提高<Mark>250</>。受到攻击有概率触发邂逅，途径专防提高<Mark>180</>，持续<Mark>10</>秒，每<Mark>30</>秒最多触发一次。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<CostRed>{ 1, 2, (Brand expired) }</> Pathway-specific Defense increased <Mark> 250 </>. When attacked, there is a chance to trigger an Encounter, increasing Pathway-specific Defense <Mark> 180 </>, lasting <Mark> 10 </> seconds, triggering at most once every <Mark> 30 </> seconds. \\n Does not take effect when the set Echo of Spirit and Knowledge <Mark> </> is activated.",
-    "target_ru": "<CostRed>{1,2,(Срок действия бренда истек)}</>Специальная защита увеличивается на <Mark>250</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Специальная защита увеличивается на <Mark>250</>. Есть шанс вызвать столкновение при нападении. Специальная защита пути увеличена на <Mark>180</>. Он длится <Mark>10</> секунд и может срабатывать не чаще одного раза каждые <Mark>30</> секунд. \n Не действует при активации набора <Mark> Эхо Духа и Знания </>."
   },
   {
     "id": "048792",
@@ -24183,7 +24183,7 @@
     "id": "049030",
     "source_cn": "预判·非商行生效，本局艺术品、食品卖出价+15%",
     "ref_en": "Prediction: Non-Trading House activated, art and food selling price +15% this round",
-    "target_ru": "Прогноз: активирован неторговый дом, цена продажи произведений искусства и еды + 15% в этом раунде."
+    "target_ru": "Прогноз: срабатывает не в Торговом доме, цена продажи произведений искусства и еды +15% в этом раунде."
   },
   {
     "id": "049031",
@@ -24219,7 +24219,7 @@
     "id": "049036",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>攻击提高<Mark>210</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。进入战斗时，每有一个小队成员拥有威瑟尔家族的<Mark>美德</>，攻击额外提高<Mark>10</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Attack increased by <Mark>210</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. Upon entering combat, for every squad member possessing the <Mark>Virtue</> of the Weil Family, Attack is additionally increased by <Mark>10</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Срок действия бренда истек)}</>Атака увеличена <Mark>210</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
+    "target_ru": "<Highlight>{1,2,(срок истёк)}</>Атака увеличена <Mark>210</>, защита уменьшена <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. При выходе в бой каждый член команды обладает <Mark> достоинствами </> семейства Ласок, а атака дополнительно увеличивается на <Mark>10</>. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>."
   },
   {
     "id": "049037",
@@ -24903,7 +24903,7 @@
     "id": "049150",
     "source_cn": "队伍无目标，不允许匹配",
     "ref_en": "The party has no objective; matchmaking is not allowed.",
-    "target_ru": "У партии нет цели; сватовство не допускается."
+    "target_ru": "У партии нет цели; подбор игроков не допускается."
   },
   {
     "id": "049151",
@@ -27165,7 +27165,7 @@
     "id": "049527",
     "source_cn": "队伍人数发生变化，系统自动取消%s匹配。",
     "ref_en": "The number of team members has changed; the system automatically canceled %s matching.",
-    "target_ru": "Изменилось количество членов команды; система автоматически отменила сопоставление %s."
+    "target_ru": "Изменилось количество членов команды; система автоматически отменила подбор %s."
   },
   {
     "id": "049528",
@@ -28197,7 +28197,7 @@
     "id": "049699",
     "source_cn": "如果下一站<LightHighlight>不是【食铺】</>，获得<LightHighlight>20</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 20 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующая остановка <LightHighlight> не является [Продовольственным магазином] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные хлопья снежной скорлупы] </>."
+    "target_ru": "Если следующая остановка <LightHighlight> не является [Лавкой Снеди] </>, получите <LightHighlight> 20 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Охлажденные хлопья снежной скорлупы] </>."
   },
   {
     "id": "049700",

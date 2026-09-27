@@ -435,7 +435,7 @@
     "id": "000072",
     "source_cn": "押宝·酒庄失效，本站不是【酒庄】，物产出售价格-40%",
     "ref_en": "Bet: Winery failed, this station is not [Winery], product selling price -40%",
-    "target_ru": "Ставка на винодельню проиграна: эта станция не является «Винодельней», цена продажи товаров -40%"
+    "target_ru": "Ставка: Винодельня не срабатывает — эта станция не является «Винодельней», цена продажи товаров -40%"
   },
   {
     "id": "000073",
@@ -4683,7 +4683,7 @@
     "id": "000780",
     "source_cn": "<CostRed>{1,2,（烙印已失效）}</>暴击提高<Mark>190</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<CostRed>{ 1, 2, (Brand has expired) }</>Crit rate increased by <Mark>190</>. After entering combat, crit rate is further increased; every <Mark>5</> seconds, crit rate increases by <Mark>10</>, with a maximum additional increase of <Mark>80</>. \\nDoes not take effect when the set <Mark>Covenant of Iron and Blood</> is activated.",
-    "target_ru": "<CostRed>{1,2,(клеймо утратило силу)}</>Критический удар увеличивается на <Mark>190</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. увеличивается на <Mark>10</>, максимум на <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<CostRed>{1,2,(срок истёк)}</>Критический удар увеличивается на <Mark>190</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. увеличивается на <Mark>10</>, максимум на <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "000781",
@@ -8049,7 +8049,7 @@
     "id": "001341",
     "source_cn": "押宝·酒庄生效，获得自身100%的【金牌皇家火腿】",
     "ref_en": "Bet: Winery activated, received 100% of own [Gold-Grade Royal Ham]",
-    "target_ru": "Ставка: активирована «Винодельня», получено 100% собственного [Золотого королевского окорока]"
+    "target_ru": "Ставка: «Винодельня» сработала, получено 100% собственного [Золотого королевского окорока]"
   },
   {
     "id": "001342",
@@ -11211,7 +11211,7 @@
     "id": "001868",
     "source_cn": "好礼·食铺生效，获得20件【珍品迷雾香槟】",
     "ref_en": "Good Gift · Food Shop effective, obtain 20 [Rare Mist Champagne]",
-    "target_ru": "Эффект «Щедрый дар: Закусочная» активирован, получено 20 шт. [Изысканного туманного шампанского]"
+    "target_ru": "«Подарок: Лавка Снеди» сработал, получено 20 шт. [Изысканного туманного шампанского]"
   },
   {
     "id": "001869",
@@ -13941,7 +13941,7 @@
     "id": "002323",
     "source_cn": "议价·食铺失效，本站不是【食铺】",
     "ref_en": "Bargain: Shop failed, this station is not [Shop]",
-    "target_ru": "«Торг: Закусочная» не сработал: эта станция не является 【Закусочной】"
+    "target_ru": "«Торг: Лавка Снеди» не сработал: эта станция не является 【Лавкой Снеди】"
   },
   {
     "id": "002324",
@@ -14661,7 +14661,7 @@
     "id": "002443",
     "source_cn": "熟客·商行生效，获得自身50%的【盐渍牡蛎】",
     "ref_en": "Regular Customer · Trading Firm effective, obtain 50% of own [Salted Oysters]",
-    "target_ru": "Эффект «Постоянный клиент — Торговый дом» активен: вы получаете 50% собственных 【Соленых устриц】"
+    "target_ru": "«Постоянный клиент: Торговый дом» сработал: вы получаете 50% собственных 【Соленых устриц】"
   },
   {
     "id": "002444",
@@ -15639,7 +15639,7 @@
     "id": "002606",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>暴击提高<Mark>80</>，进入战斗后暴击额外提高，每<Mark>5</>秒暴击提高<Mark>10</>，最高额外提高<Mark>80</>。\\n激活套装<Mark>铁与血誓约</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Crit rate increased by <Mark>80</>. After entering combat, Crit rate is additionally increased by <Mark>10</> every <Mark>5</> seconds, up to a maximum additional increase of <Mark>80</>. \\nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Клеймо утратило силу)}</>Шанс крит. удара повышается на <Mark>80</>. После вступления в бой шанс крит. удара дополнительно повышается: каждые <Mark>5</> сек. шанс крит. удара увеличивается на <Mark>10</>, максимум дополнительно до <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
+    "target_ru": "<Highlight>{1,2,(Срок истёк)}</>Шанс крит. удара повышается на <Mark>80</>. После вступления в бой шанс крит. удара дополнительно повышается: каждые <Mark>5</> сек. шанс крит. удара увеличивается на <Mark>10</>, максимум дополнительно до <Mark>80</>.\nНе действует при активации комплекта <Mark>Клятва железа и крови</>."
   },
   {
     "id": "002607",
@@ -16509,13 +16509,13 @@
     "id": "002751",
     "source_cn": "升级·商行生效，所有的【蓝色物品】升级为【精品油画小作】",
     "ref_en": "Upgrade · Trading Firm activated, all [Blue Items] upgraded to [Fine Oil Painting].",
-    "target_ru": "Действует «Улучшение: Торговая палата»: все [Синие предметы] улучшаются до [Изящного этюда маслом]"
+    "target_ru": "«Улучшение: Торговый дом» сработало: все [Синие предметы] улучшаются до [Изящного этюда маслом]"
   },
   {
     "id": "002752",
     "source_cn": "升级·酒庄生效，所有的【蓝色物品】升级为【窖藏拉菲干红】",
     "ref_en": "Upgrade · Winery activated, all [Blue Items] upgraded to [Cellar-Aged Lafite Red Wine].",
-    "target_ru": "Действует «Улучшение: Винодельня»: все [Синие предметы] улучшаются до [Выдержанного сухого красного «Лафит»]"
+    "target_ru": "«Улучшение: Винодельня» сработало: все [Синие предметы] улучшаются до [Выдержанного красного «Лафит»]"
   },
   {
     "id": "002753",
@@ -20403,7 +20403,7 @@
     "id": "003400",
     "source_cn": "熟客·酒庄生效，获得自身50%的【风味乳酪】",
     "ref_en": "Regular Customer · Winery effective, obtain 50% of own [Flavored Cheese]",
-    "target_ru": "Сработал навык «Завсегдатай: Винодельня»: вы получаете 50% от собственного запаса 【ароматного сыра】"
+    "target_ru": "Сработал навык «Постоянный клиент: Винодельня»: вы получаете 50% от собственного запаса 【ароматного сыра】"
   },
   {
     "id": "003401",
@@ -20865,7 +20865,7 @@
     "id": "003477",
     "source_cn": "匹配度",
     "ref_en": "Match Rate",
-    "target_ru": "Совместимость"
+    "target_ru": "Степень подбора"
   },
   {
     "id": "003478",
@@ -23841,7 +23841,7 @@
     "id": "003973",
     "source_cn": "升级·食铺生效，【蓝色物品】升级为【冰鲜雪贝薄片】",
     "ref_en": "Upgrade · Food Shop effective, [Blue Items] upgraded to [Chilled Snow Shell Slices]",
-    "target_ru": "Улучшение: Закусочная активна, 【Синие предметы】 улучшены до 【Ломтики охлаждённого снежного гребешка】"
+    "target_ru": "«Улучшение: Лавка Снеди» сработало, 【Синие предметы】 улучшены до 【Ломтики охлаждённого снежного гребешка】"
   },
   {
     "id": "003974",
@@ -25095,7 +25095,7 @@
     "id": "004182",
     "source_cn": "熟客·商行生效，获得自身50%的【白桦尼波斯】",
     "ref_en": "Regular: Trading House activated, received 50% of own [Birch Nepos]",
-    "target_ru": "Эффект «Постоянный клиент — торговая гильдия» активен: вы получаете 50% от собственного запаса 【берёзовых непосов】"
+    "target_ru": "«Постоянный клиент: Торговый дом» сработал: вы получаете 50% от собственного запаса 【берёзовых непосов】"
   },
   {
     "id": "004183",
@@ -25341,7 +25341,7 @@
     "id": "004223",
     "source_cn": "<Highlight>{1,2,（烙印已失效）}</>途径专攻提高<Mark>350</>。\\n激活套装<Mark>灵与知回响</>时不生效。",
     "ref_en": "<Highlight>{1,2,(Brand Expired)}</>Pathway Specialization increased by <Mark>350</>. \\nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is active.",
-    "target_ru": "<Highlight>{1,2,(Клеймо неактивно)}</>Специализация Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>."
+    "target_ru": "<Highlight>{1,2,(Срок истёк)}</>Специализация Пути повышается на <Mark>350</>.\nНе действует при активации комплекта <Mark>«Эхо духа и познания»</>."
   },
   {
     "id": "004224",
@@ -28485,7 +28485,7 @@
     "id": "004747",
     "source_cn": "如果下一站<LightHighlight>不是【食铺】</>，获得<LightHighlight>30</>件<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>",
     "ref_en": "If the next stop <LightHighlight> is not the [Food Shop] </>, obtain <LightHighlight> 30 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\"> [Chilled Snow Shell Flakes] </>.",
-    "target_ru": "Если следующая станция <LightHighlight>не 【Продуктовая лавка】</>, дает <LightHighlight>30</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【Ломтики ледяной ракушки】</>"
+    "target_ru": "Если следующая станция <LightHighlight>не 【Лавка Снеди】</>, дает <LightHighlight>30</> шт. <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【Ломтики ледяной ракушки】</>"
   },
   {
     "id": "004748",
