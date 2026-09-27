@@ -310,4 +310,11 @@ return {
     ["拖动非凡装备"] = "Перетащите потустороннее снаряжение",
     ["Find the possible cause of the foul odor"] = "Найти возможную причину неприятного запаха",
     ["往昔之书正在锚定历史"] = "Книга Прошлого закрепляет историю.",
+    ["<M_Default>亲爱的非凡者： </>\n    四方联赛拍卖即将开启，由于您未参与本周四方联赛，故无法获得本周拍卖分红，且无法参与拍卖，详细规则信息见四方联赛玩法说明。参与四方联赛可获得丰厚奖励，期待您下次与俱乐部成员一同参与。"] = "<M_Default> Dear Beyonder: </>\n The Four-Way League auction is about to begin. As you did not participate in this week's Four-Way League, you are ineligible to receive this week's auction dividends or participate in the auction. For detailed rules, please refer to the Four-Way League gameplay instructions. Participate in the Four-Way League to earn generous rewards; we look forward to you joining your club members next time.",
+    ["Special Effect When Requieming"] = "Special Effect When Requieming",
+    ["GVG-Western Dragon-Spawn Effect"] = "GVG-Western Dragon-Spawn Effect",
+    ["By the banks of the River of Eternal Darkness, death and eternity dance together; a black-gray crown crowns him in the dead silence."] = "By the banks of the River of Eternal Darkness, death and eternity dance together; a black-gray crown crowns him in the dead silence.",
+    ["塔罗会·伦纳德：基础席位，全体吸血+5%。"] = "Клуб Таро · Леонард: базовое место, вся команда +5% похищения жизни.",
+    ["感谢您的关心 我没事 只是有点疲惫"] = "Благодарю за заботу. Со мной всё в порядке, просто немного устал.",
+    ["In the Extraordinary world, chanting unknown honorific names is very likely to summon unknown dangers. Except for the honorific names of the True Gods and your Tarot Club companions, you must not chant any other honorific names."] = "In the Extraordinary world, chanting unknown honorific names is very likely to summon unknown dangers. Except for the honorific names of the True Gods and your Tarot Club companions, you must not chant any other honorific names.",
 }

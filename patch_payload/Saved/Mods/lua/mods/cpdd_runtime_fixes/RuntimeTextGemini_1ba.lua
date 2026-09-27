@@ -249,5 +249,9 @@ return {
     ["Inner side of trench coat"] = "Внутренняя сторона тренча",
     ["成就-宣战凯旋"] = "Достижение - Триумф объявления войны",
     ["Buy the materials"] = "Купить материалы",
+    ["Then the church deacon took the check to the bank and came back. What was it they all said? Oh right, 'Only the Goddess herself could withdraw money from that check.'"] = "А потом церковный дьякон отнёс чек в банк и вернулся обратно. Что они там говорили? Ах да, «Снять деньги с этого чека может только сама Богиня».",
+    ["你好，你在紧张什么？"] = "Привет, что тебя тревожит?",
+    ["Supports background waiting; you can close the current window"] = "Поддерживается ожидание в фоне, можно закрыть текущее окно",
+    ["Contact the three witnesses and gather clues about the diary's owner"] = "Свяжитесь с тремя свидетелями и соберите зацепки о владельце дневника",
     ["<DecH>Craft: </>Antique Brocade & Secret Covenant Patterns\nA cloak weathered by the passage of time, seemingly recording a forgotten covenant."] = "<DecH>Мастерство: </>Старинная парча · Узоры тайного завета\nПлащ, овеянный дыханием веков, словно хранит память о забытом завете.",
 }

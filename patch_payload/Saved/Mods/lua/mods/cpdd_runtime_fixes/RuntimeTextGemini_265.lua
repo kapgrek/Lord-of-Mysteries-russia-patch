@@ -254,4 +254,8 @@ return {
     ["Special Drink Menu"] = "Специальное меню напитков",
     ["Dine with Milly"] = "Поужинать с Милли",
     ["询问周围的人"] = "Расспросить окружающих",
+    ["伤害加深提高20%"] = "Damage increase raised by 20%.",
+    ["这么厉害？你自己也滑过吗？"] = "Да ну? А ты сам с неё скатывался?",
+    ["我？我……我负责在这里招揽客人，走不开的，走不开的，嘿嘿……"] = "Я? Я... я тут отвечаю за привлечение посетителей, не могу отойти, не могу отойти, хе-хе...",
+    ["Ah... you mean Mr. Lumber from the pumpkin patch next door."] = "Ah... you mean Mr. Lumber from the pumpkin patch next door.",
 }

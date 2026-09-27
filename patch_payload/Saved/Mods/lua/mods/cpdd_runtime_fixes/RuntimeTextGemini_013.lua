@@ -266,6 +266,11 @@ return {
     ["获取发型野玫瑰解锁"] = "Разблокировка причёски «Дикая роза»",
     ["Pious Heart · End"] = "Благочестивое сердце · Конец",
     ["<Chat_Aim>，</>"] = "<Chat_Aim>，</>",
+    ["坚壁结阵：获得12%最大生命值护盾。"] = "Fortress Formation: Gain 12% Max Health Shield.",
+    ["<Assistant_Title1>战功加身</>\n<Assistant_Title2>成就分类：</>以战养战;势力\n<Assistant_Title2>解锁条件：</>本周期内累计战功值达到5000。"] = "<Assistant_Title1>Battle Merit Bestowed</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 5,000 battle merit in this cycle.",
+    ["Hero-Turtle-Sea Wave-Player screen effect"] = "Hero-Turtle-Sea Wave-Player screen effect",
+    ["Which attributes should I cultivate?"] = "Какие характеристики мне нужно развивать?",
+    ["拖拽状态效果至右侧区域设置排序"] = "Перетащите эффект состояния в область справа, чтобы задать порядок сортировки",
     ["提交道具（设置提交参数）  玩家播放仅自己可见的说话文本"] = "Отправить элемент (установить параметры отправки); игрок воспроизводит речевой текст, видимый только ему самому.",
     ["Zaria"] = "Заря",
 }

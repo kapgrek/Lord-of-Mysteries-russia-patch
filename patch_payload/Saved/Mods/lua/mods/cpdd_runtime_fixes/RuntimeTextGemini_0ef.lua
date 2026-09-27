@@ -235,6 +235,11 @@ return {
     ["\"Fatty\" Kalapon"] = "«Толстяк» Калапон",
     ["裙前薄纱"] = "Прозрачная ткань спереди юбки",
     ["Enter the <h> Swan Theater </>"] = "Войти в <h>театр «Лебедь»</>",
+    ["8秒后全体攻速提高20%。"] = "All allies' Attack Speed increases by 20% after 8 seconds.",
+    ["活动时间：2026年8月20日-2026年12月20日"] = "Event Time: August 20, 2026 - December 20, 2026",
+    ["Judge the farthest enemy, dealing <HighLight>200%</> attack damage and stunning them for <HighLight>1</> second, reducing their mana recovery by <HighLight>8</> points for 3 seconds."] = "Judge the farthest enemy, dealing <HighLight>200%</> attack damage and stunning them for <HighLight>1</> second, reducing their mana recovery by <HighLight>8</> points for 3 seconds.",
+    ["哎呀，人以类聚，物以群分，一定有继承了那位侦探优秀能力的后辈。"] = "Ах, подобное притягивает подобное — обязательно найдётся преемник, унаследовавший превосходные способности того детектива.",
+    ["Oh! If you like it, feel free to drink some when it's ready."] = "Oh! If you like it, feel free to drink some when it's ready.",
     ["前往指定坐标交互并进入位面  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Перейдите к указанным координатам, чтобы взаимодействовать и войти в самолет. Игроки создают общедоступные объекты на основе списка InstanceID (недопустимо в большом мире).",
     ["Melly"] = "Мелли",
 }

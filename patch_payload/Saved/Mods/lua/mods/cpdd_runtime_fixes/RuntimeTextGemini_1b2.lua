@@ -270,6 +270,12 @@ return {
     ["共鸣：4黑夜女神教会｜2塔罗会｜6战法；主C：邓恩·史密斯2★、阿尔杰·威尔逊2★｜稀有·智者灵戒、盟约之证；主T：戴莉·西蒙妮3★、伦纳德·米切尔2★｜稀有·暮城铁甲、稀有·隐秘披风；思路：戴莉追3★；战法强化输出，黑夜负责斩杀"] = "Резонансы: 4 Церковь Богини Вечной Ночи | 2 Клуб Таро | 6 Боевая магия; основной урон: Данн Смит 2★, Элджер Уилсон 2★ | Редкое · Духовное кольцо Мудреца, Доказательство завета; основной танк: Дейли Симона 3★, Леонард Митчелл 2★ | Редкое · Железный доспех Сумеречного города, Редкое · Маскировочный плащ; тактика: доведите Дейли до 3★; Боевая магия усиливает урон, Вечная Ночь добивает врагов",
     ["非凡秘法"] = "Потустороннее чародейство",
     ["Sticker · Seer"] = "Стикер · Провидец",
+    ["开战后两排：40%攻速，本场结束清理"] = "Back two rows at start of combat: 40% Attack Speed, cleared at the end of the battle.",
+    ["<Assistant_Title1>【战士抵抗】</>\n受到战士途径的非凡者攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Warrior Resistance】</>\nWhen attacked by a Beyonder of the Warrior pathway, negate their Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["The aroma of wine mingles with smoke, and in the clinking of glasses lie the beginnings of countless stories and the final resting place of countless secrets."] = "Аромат вина смешивается с дымом, а в звоне бокалов скрыты начала бесчисленных историй и приюты бесчисленных тайн.",
+    ["愿贝克兰德芳华永驻！"] = "Пусть красота Бэкланда останется навеки!",
+    ["在竞技玩法中<Highlight>击败</>%s/%s名占卜家"] = "В арене <Highlight>победите</> %s/%s Провидцев",
+    ["Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off."] = "Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off.",
     ["但这么珍贵的东西，一般不会凭空出现。是你最近向愚者祈求了什么吗？"] = "Но столь ценная вещь обычно не появляется из ниоткуда. Ты случайно не молился недавно Господину Шуту?",
     ["“艾拉”"] = "Айла",
 }

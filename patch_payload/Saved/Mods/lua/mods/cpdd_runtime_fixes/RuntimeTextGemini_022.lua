@@ -258,5 +258,9 @@ return {
     ["好友幻影怎么召唤"] = "Как призвать фантома друга?",
     ["Honor Ranking"] = "Рейтинг чести",
     ["Understand <h>Sulia</>'s current situation"] = "Узнать о текущем положении <h>Сулии</>",
+    ["%s与你两情相悦，结成了誓约。"] = "%s и вы полюбили друг друга и заключили Клятву.",
+    ["[Dungeon] The Emperor Returns, 1302352"] = "[Подземелье] Возвращение Императора, 1302352",
+    ["A commotion breaks out on the streets of Backlund, and many people are gathering at a lively spot..."] = "На улицах Бэкланда поднялся шум, и много людей собирается в одном оживлённом месте...",
+    ["Can I join the Dragon Hunter Gang? I want to hunt dragons too! Where is Boss Kevin, I want to find him for an autograph!"] = "Можно мне вступить в банду Охотников на драконов? Я тоже хочу охотиться на драконов! Где босс Кевин, я хочу найти его и взять автограф!",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

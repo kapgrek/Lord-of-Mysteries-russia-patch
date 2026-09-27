@@ -243,4 +243,11 @@ return {
     ["成就-军衔之巅"] = "Достижение - Вершина воинского звания",
     ["去角落整理思绪"] = "Пойти в угол, чтобы собраться с мыслями",
     ["Escape the pursuit of a group of Amons"] = "Оторваться от преследования группы Амонов",
+    ["攻击提高10.5%，伤害加深提高5.25%。"] = "Attack increased by 10.5%, Damage Amplification increased by 5.25%.",
+    ["Singing softly in the dark night, the gentle melody carries sorrow, leading into the depths of the dream."] = "Тихое пение в тёмной ночи, нежная мелодия несёт печаль, увлекая в глубины сна.",
+    ["逃离的脚步与追击的阴影,生死只在一瞬之间。"] = "Шаги бегства и тень погони, жизнь и смерть решаются в одно мгновение.",
+    ["平凡的生活顷刻化为乌有，理智的崩解只在一线之间。这便是非凡的疯狂，一切灾祸的根源。"] = "Обычная жизнь в мгновение ока обращается в ничто, а крах рассудка отделяет лишь тонкая грань. Это и есть безумие Иномирных, корень всех бедствий.",
+    ["Channel faction population limit: <Highlight>100</>/160"] = "Лимит фракции на канале: <Highlight>100</>/160",
+    ["Forget it. After we got married, he changed; he's not as romantic as he used to be."] = "Забудь. После того как мы поженились, он изменился — уже не такой романтичный, как раньше.",
+    ["The time I spent painting with Simon Tot in Tingen back then is truly nostalgic."] = "Время, что я тогда провёл, рисуя с Саймоном Тотом в Тингене, действительно навевает воспоминания.",
 }

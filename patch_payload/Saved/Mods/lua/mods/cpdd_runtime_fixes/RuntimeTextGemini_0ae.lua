@@ -268,5 +268,11 @@ return {
     ["诡变寻宝"] = "Коварные поиски сокровищ",
     ["Investigate the <h> sewer </>"] = "Осмотреть <h>канализацию</>",
     ["Follow the \"boy\" and see"] = "Пойти за \"мальчиком\" и посмотреть",
+    ["<Assistant_Title1>【生命】</>\n角色生命为零时会陷入消散状态，需要自己或他人协助复苏才能继续战斗。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[消散]|1493}"] = "<Assistant_Title1>【Health】</>\nWhen a character's Health reaches zero, they will enter a dissipated state and require assistance from themselves or others to recover before they can continue fighting.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Dissipation]|1493}",
+    ["Applies positive psychological suggestion to the target, immediately restoring a large amount of health and providing a brief damage reduction effect."] = "Applies positive psychological suggestion to the target, immediately restoring a large amount of health and providing a brief damage reduction effect.",
+    ["Base Stats: Health +350, Defense +30"] = "Базовые характеристики: Здоровье +350, Защита +30",
+    ["[Tarot Club] (7) Team +45% Attack +1000 Health +15% Crit Rate"] = "[Клуб Таро] (7) Вся команда +45% к атаке, +1000 здоровья, +15% крит. удара",
+    ["%s：%s\n%s：%s\n%s：%s\n%s：%s"] = "%s：%s\n%s：%s\n%s：%s\n%s：%s",
+    ["It's so painful, hurry up, let Yodora be free."] = "Так больно, скорее, отпустите Йодору на свободу.",
     ["Quest Name:"] = "Название квеста:",
 }

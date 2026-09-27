@@ -271,5 +271,7 @@ return {
     ["欲念七重奏天赋效果"] = "Какой эффект у таланта «Семикратное желание»?",
     ["Emperor's Return: Hard"] = "Возвращение императора · Сложный",
     ["Faded"] = "Выцветание",
+    ["Mr. {{ Ms. |}}, the show starts at seven tonight. You can see it if you walk to the end of Backlund Avenue. Interested?"] = "{{Господин|Госпожа}}, представление начинается в семь вечера. Идите до конца проспекта Бэкланд, и вы его увидите. Интересно?",
+    ["A commotion comes from a corner of Minsk Street. Rumors of ghosts? Gangster intimidation? Or is there something else going on..."] = "Шум доносится с угла Улицы Минск. Слухи о призраках? Угрозы банды? Или дело в чём-то ещё...",
     ["获得指定道具  对象发送AI与场景事件  玩家发送任务道具"] = "Получить указанный предмет; объект отправляет AI и событие сцены; игрок отправляет квестовый предмет.",
 }

@@ -246,6 +246,13 @@ return {
     ["<HighLight> Increases damage dealt </>"] = "<HighLight>Повышает наносимый урон</>",
     ["15%最大生命护盾"] = "Щит на 15% макс. здоровья",
     ["目标4格圆形"] = "Круг радиусом 4 клетки у цели",
+    ["午夜诗篇伤害并安眠敌人，同时提高自身攻速。"] = "",
+    ["Mark_Trinity 02"] = "Mark_Trinity 02",
+    ["Sylvia summons corrupted mushrooms that continuously bombard random locations. After a certain period, a Beyonder must approach to attract the mushrooms to impact them, otherwise, the mushrooms will self-destruct."] = "Сильвия призывает заражённые грибы, которые непрерывно обрушиваются на случайные точки. Через некоторое время Потусторонний должен подойти, чтобы привлечь удар грибов, иначе грибы самоуничтожатся.",
+    ["调整阶段开始后，前五名玩家将被选入比赛"] = "После начала фазы корректировки в матч будут выбраны первые пять игроков",
+    ["贝克兰德街头传来喧嚣声，许多人向一处热闹的地方聚集……"] = "На улицах Бэкланда поднялся шум, и много людей собирается в одном оживлённом месте...",
+    ["I'm very sad... no, I'm very happy."] = "Мне очень грустно... нет, мне очень радостно.",
+    ["The War of the Roses?"] = "The War of the Roses?",
     ["Melvin"] = "Мелвин",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть",
 }

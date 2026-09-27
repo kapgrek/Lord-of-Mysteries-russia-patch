@@ -264,5 +264,10 @@ return {
     ["俱乐部活动"] = "Клубные мероприятия",
     ["Send a letter to Miss <h>Justice</>"] = "Отправить письмо мисс <h>«Справедливость»</>",
     ["跟随冰淇淋的指引寻找"] = "Искать, следуя подсказкам мороженого",
+    ["The Supreme Little Radish is indeed delicious; you feel wind beneath your feet, and Movement Speed increases by 30%."] = "Высшая маленькая редиска и правда вкусная — вы чувствуете лёгкость в ногах, скорость передвижения увеличивается на 30%.",
+    ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight> Monarch's Arrival · Flame</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Владычество · Огонь</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
+    ["最近我家门口天天围着一群人，拿着尺子、图纸、照相机，连卖咖啡的都来了。"] = "В последнее время у моего дома каждый день толпятся люди с линейками, чертежами, фотоаппаратами — даже продавец кофе пришёл.",
+    ["平日里都喜欢做些什么？（最多选%d个）"] = "Что вы обычно любите делать? (выберите до %d)",
+    ["I must have paid some price to gain a long life, living from the end of the Fourth Epoch until now, like a ghost wandering all over the continent..."] = "Должно быть, я заплатил какую-то цену за долгую жизнь, живя с конца Четвёртой эпохи и до сих пор, словно призрак, скитающийся по всему континенту...",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

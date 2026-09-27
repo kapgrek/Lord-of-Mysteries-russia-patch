@@ -263,5 +263,11 @@ return {
     ["Purchase items directly after topping up Purchase items directly after topping up"] = "Покупайте товары сразу после пополнения Покупайте товары сразу после пополнения",
     ["15 minutes"] = "15 минут",
     ["先锋团长"] = "Командир авангарда",
+    ["The brilliance of the astrolabe unfolds slowly under your footsteps. No one knows where your path leads, but the stars are always counting your steps."] = "The brilliance of the astrolabe unfolds slowly under your footsteps. No one knows where your path leads, but the stars are always counting your steps.",
+    ["深夜雾街，迷雾将世界的轮廓变得模糊不堪，仿佛早已置身另种世界。"] = "Туманные улицы глубокой ночью, мгла размывает очертания мира, будто ты уже оказался в ином мире.",
+    ["Base Stats: Health +400, Defense +30"] = "Базовые характеристики: Здоровье +400, Защита +30",
+    ["6名邻格友军提供36防御。"] = "6 союзников в соседних клетках дают 36 защиты.",
+    ["王朝盛时，诸神来贺。整个国境内的欢呼，都被酿成一杯名为昌盛的祝酒。"] = "В расцвете династии боги явились с поздравлениями. Все радостные возгласы по всей стране слились в один тост, названный Процветанием.",
+    ["If you want to open this treasure chest, you have to play a game with me."] = "If you want to open this treasure chest, you have to play a game with me.",
     ["The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",
 }

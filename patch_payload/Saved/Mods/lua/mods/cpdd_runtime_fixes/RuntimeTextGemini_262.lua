@@ -285,4 +285,8 @@ return {
     ["Fabric leather"] = "Ткань и кожа",
     ["Radiant Brilliance"] = "Лучезарное сияние",
     ["虔诚之心·终"] = "Благочестивое сердце · Конец",
+    ["Life is getting harder and harder. The old houses on Red Brick Lane are in disrepair and have become dangerous structures."] = "Жизнь становится всё труднее. Старые дома в Красном Кирпичном переулке давно не ремонтировались и стали аварийными.",
+    ["等？没有，就是出来坐坐。天气不错。"] = "Ждать? Нет, просто вышел посидеть немного. Погода хорошая.",
+    ["她一直将我牢牢护在手心，以至于让我忽视了养母的真面目……"] = "Она всегда крепко оберегала меня, из-за чего я не замечала истинного лица приёмной матери...",
+    ["The news that the Hall Family is a shareholder of our bank is an open secret in the industry, and they possess extensive influence nationwide."] = "Слухи о том, что семья Холл является держателем акций нашего банка, давно стали открытым секретом в отрасли, и они пользуются широким влиянием по всей стране.",
 }

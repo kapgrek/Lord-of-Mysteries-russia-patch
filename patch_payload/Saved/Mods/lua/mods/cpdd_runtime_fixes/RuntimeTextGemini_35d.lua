@@ -257,6 +257,12 @@ return {
     ["<HighLight> Counterattacks surrounding enemies when damaged </>"] = "<HighLight>Контратакует окружающих врагов при получении урона</>",
     ["Refuse_Offspring Protection"] = "Отказ: Страж потомства",
     ["Talk to <h>Emperor Roselle's war projection</>"] = "Поговорить с <h>Боевой проекцией императора Розеля</>",
+    ["吸血提高30%，持续3秒。"] = "Life Steal increased by 30%, lasting 3 seconds.",
+    ["%s正处于城市暗面竞技事件匹配中，暂时无法开启匹配。"] = "%s is currently matching for the City Dark Side Competition event; cannot start matching temporarily.",
+    ["攻击提高35%；每次施放技能后再提高1.5%。"] = "Атака увеличивается на 35%; при каждом применении навыка дополнительно увеличивается на 1.5%.",
+    ["【塔罗会·苏茜】档2增量：+9点最大生命（累计115%）"] = "[Клуб Таро · Сьюзи] Бонус уровня 2: +9 к максимальному здоровью (всего 115%)",
+    ["请在仪式房间内使用【卜杖】技能，否则技能将无法开启。"] = "Пожалуйста, используйте навык [Гадальный жезл] в ритуальной комнате, иначе навык не удастся активировать.",
+    ["Pressing refined sugar into cubes makes it a classic companion for Loenese black tea."] = "Pressing refined sugar into cubes makes it a classic companion for Loenese black tea.",
     ["啊，有冒险精神的客人。"] = "Ах, гость с авантюрным духом.",
     ["The Church has received news that the Sealed Artifact 2-327 \"See Me\" has been stolen. Divination shows that the clues point to Heywood Manor.\n	Baron Heywood is hosting a Ball tonight. We need someone good at observation to sneak into the Ball to investigate—you are a Sequence 9 \"Spectator\", and there is no one more suitable than you.\n	Your identity has been arranged: an emerging businessman from Backlund who heard about investment opportunities at the manor and was invited to the banquet.\n	Remember, the Spectator does not take the stage.\n	Observe, and do not alert the enemy."] = "　　Из Церкви пришли вести: Запечатанный Артефакт 2-327 «Взгляни на меня» похищен. Гадание указывает, что следы ведут в поместье Хейвуд.\n　　Сегодня барон Хейвуд устраивает бал. Нам нужен проницательный наблюдатель, который сможет проникнуть на торжество для расследования. Вы — Последовательность 9 «Зритель», кандидатуры лучше не найти.\n　　Ваша личность подготовлена: начинающий коммерсант из Баклунда, прослышавший об инвестициях в поместье и приглашённый на приём.\n　　Помните: зритель на сцену не выходит.\n　　Наблюдайте и не спугните добычу.",
 }

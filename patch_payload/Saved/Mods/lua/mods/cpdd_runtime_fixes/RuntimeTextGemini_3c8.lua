@@ -253,4 +253,8 @@ return {
     ["Zzzz……"] = "Zzzz……",
     ["Follow the gentleman"] = "Последовать за джентльменом",
     ["去大厅找到邮差"] = "Пойти в зал и найти почтальона",
+    ["Remove <HyperLink stylename=\"M_Link\" u=\"3\">Crowd Control effects</> from yourself, gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, and buffdisc(*id) for *f seconds; deal *d magic damage to surrounding enemies with a <HighLight>100%</> base probability of applying the buffdisc(*id) effect for *f seconds. After casting, you can perform a combo to dash to the enemy target, dealing *d magic damage with a <HighLight>100%</> base probability of <HyperLink stylename=\"M_Link\" u=\"2\">launching</> them into the air."] = "Remove <HyperLink stylename=\"M_Link\" u=\"3\">Crowd Control effects</> from yourself, gain <HyperLink stylename=\"M_Link\" u=\"11\">Super Armor</>, and buffdisc(*id) for *f seconds; deal *d magic damage to surrounding enemies with a <HighLight>100%</> base probability of applying the buffdisc(*id) effect for *f seconds. After casting, you can perform a combo to dash to the enemy target, dealing *d magic damage with a <HighLight>100%</> base probability of <HyperLink stylename=\"M_Link\" u=\"2\">launching</> them into the air.",
+    ["非凡物质的百分比是什么？"] = "Что такое процент материала Бейондера?",
+    ["这又有什么？这又不是报纸鼓吹爱情与浪漫，羡慕因蒂斯的自由风气的时候了？"] = "Что с того? Разве сейчас время, когда газеты воспевают любовь и романтику, восхищаясь свободными нравами Интис?",
+    ["Hmph, you're sensible. My pumpkins are definitely the biggest and sweetest!"] = "Hmph, you're sensible. My pumpkins are definitely the biggest and sweetest!",
 }

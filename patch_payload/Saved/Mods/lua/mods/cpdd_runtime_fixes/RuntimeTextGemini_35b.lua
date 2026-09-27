@@ -281,6 +281,10 @@ return {
     ["Ask about opening hours"] = "Спросить о времени открытия",
     ["询问驯兽师"] = "Спросить дрессировщика",
     ["Observe the <h> monster's corpse </>"] = "Осмотреть <h>труп монстра</>",
+    ["<HighLight>折幕</>的叠加上限提升至<HighLight>10</>层。达到<HighLight>10</>层时，返还<HighLight>3秒</><HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\">空间牢笼</>冷却时间和<HighLight>5秒</><HyperLink stylename=\"M_Link\" u=\"86052010\" color=\"#f4a067\">漫游</>冷却时间，释放<HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\">空间牢笼</>后获得<HighLight>3</>层<HighLight>折幕</>。\n<HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\">空间牢笼</>协同攻击伤害提高<HighLight>100%</>。"] = "The stacking limit of <HighLight> Folding Screen </> is increased to <HighLight> 10 </> layers. Upon reaching <HighLight> 10 </> layers, <HighLight> 3 seconds </> of <HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\"> Space Cage </> cooldown and <HighLight> 5 seconds </> of <HyperLink stylename=\"M_Link\" u=\"86052010\" color=\"#f4a067\"> Roaming </> cooldown are refunded. After releasing <HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\"> Space Cage </>, gain <HighLight> 3 </> layers of <HighLight> Folding Screen </>. \n <HyperLink stylename=\"M_Link\" u=\"86051080\" color=\"#f4a067\"> Space Cage </> coordinated attack damage is increased by <HighLight> 100% </>.",
+    ["时尚就是为有缘的人搭配恰当的服装。"] = "Мода — это подбор подходящей одежды для тех, кому она предназначена судьбой.",
+    ["把手放在桌上——对，就这样。我看到了……一段旅程。"] = "Положи руку на стол — да, вот так. Я вижу... путешествие.",
+    ["Mate, do you have any 'squeaks'?"] = "Приятель, у тебя есть какие-нибудь «пищалки»?",
     ["罗珊和几位市民 \n在中央广场瓦解消散\n失踪地点共三个\n近期失踪者可能还活着"] = "Розанна и несколько горожан\nрастворились на Центральной площади.\nВсего три места исчезновений.\nНедавно пропавшие, возможно, еще живы.",
     ["Adan"] = "Адан",
 }

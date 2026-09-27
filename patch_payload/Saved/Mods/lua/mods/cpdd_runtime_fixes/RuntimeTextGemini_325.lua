@@ -273,5 +273,8 @@ return {
     ["A wall of waves knocks back enemies in front, followed by a Lightning Strike."] = "Стена волн отбрасывает врагов впереди, следом бьёт Удар молнии.",
     ["Lock-on Line and Box Thickness"] = "Толщина линии и рамки захвата",
     ["Unlock Velvet Whisper Salon outfit"] = "Разблокировка наряда «Салон бархатного шёпота»",
+    ["Clear, sweet liquor brings a tipsy feeling; every bubble dances lightly on the tip of the tongue."] = "Clear, sweet liquor brings a tipsy feeling; every bubble dances lightly on the tip of the tongue.",
+    ["You will be satisfied. The registration deposit is only one pound, and subsequent fees are adjusted based on the length you want, the content of the autobiography, and the newspaper sales."] = "Вы точно будете довольны. Регистрационный залог составляет всего один золотой фунт, а дальнейшая оплата зависит от желаемого объёма, содержания автобиографии и продаж газеты.",
+    ["After enabling, the Twilight Mask will apply screen effects and sound effect processing; if disabled, it will not take effect."] = "При включении «Маска Сумерек» будет применять экранные эффекты и обработку звука; при отключении эффект не действует.",
     ["<Chat_AT>Sanjiu:</> Zai zai zai zai zai zai zai zai zai zai zai zai zai zai zai <Chat_PosNeed>Tingen</> to <Chat_NPC>Daly</><Chat_PlayerName>Miss Audrey Hall</><Chat_Default>：Placeholder text</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

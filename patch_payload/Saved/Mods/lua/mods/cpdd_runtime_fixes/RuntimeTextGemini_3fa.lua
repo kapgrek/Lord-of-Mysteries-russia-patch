@@ -290,6 +290,12 @@ return {
     ["Please set your Conquest Vanguard in time"] = "Пожалуйста, вовремя назначьте авангард завоевания",
     ["支持佩帕"] = "Поддержать Пеппу",
     ["在<h>隐蔽处</>构建灵性之墙"] = "Возвести Герметичный Духовный Барьер в <h>укрытии</>",
+    ["<Assistant_Title1>【占卜家抵抗】</>\n受到占卜家途径的非凡者攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Seer Resistance】</>\nWhen attacked by a Beyonder of the Seer pathway, negate their Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["May Manor Garden - Normal - Refuse Mythical Butler Fashion Duel"] = "Сад Майской усадьбы - Обычный - Отказ от модной дуэли: Мифический дворецкий",
+    ["你获得了<Chat_Highlight>%d</>征服声望。"] = "Вы получили <Chat_Highlight>%d</> Престижа завоевания.",
+    ["您听起来病得很严重。"] = "Судя по голосу, вы серьёзно больны.",
+    ["You even calculated this? Incredible, incredible! That's right, I'm pregnant! I plan to wait for him to come back to tell him; it's a surprise!"] = "Вы даже это предугадали? Невероятно, невероятно! Верно, я беременна! Я собираюсь сказать ему об этом, когда он вернётся, — это будет сюрприз!",
+    ["1. You can adjust the maximum number of status effect countdowns displayed in the main interface list.\n2. For status effects that display countdowns on the main interface, you can customize and adjust the display priority. If not set, they will be displayed according to the default priority.\n3. Among the status effects you have obtained, the most recent 15 will be displayed."] = "1. Можно настроить максимальное количество отображаемых в списке обратного отсчёта эффектов состояния на главном экране.\n2. Для эффектов состояния, отображающих обратный отсчёт на главном экране, можно настроить приоритет отображения; если не задано, отображение идёт по умолчанию.\n3. Среди полученных эффектов состояния отображаются не более 15 последних.",
     ["Antonine"] = "Антонина",
     ["任务自定义事件  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

@@ -243,5 +243,13 @@ return {
     ["Return to the <h> ticket booth </>"] = "Вернуться к <h>билетной кассе</>",
     ["Talk to \"myself\""] = "Поговорить с «собой»",
     ["已加入奖池"] = "Добавлено в призовой пул",
+    ["攻速和吸血提高27%"] = "Attack Speed and Life Steal increased by 27%",
+    ["Imaginary Travels of Groselle"] = "Imaginary Travels of Groselle",
+    ["Hello! Could I take a moment of your time? I would like to tell you about our beacon and savior! The Fool firs... Mr. Fool meow!"] = "Hello! Could I take a moment of your time? I would like to tell you about our beacon and savior! The Fool firs... Mr. Fool meow!",
+    ["Mana regeneration prohibited."] = "Восстановление маны запрещено.",
+    ["您这栋宅邸，是建筑大师米格鲁特保存至今的代表作之一，对他们来说，这里就是最好的教材。"] = "Ваш особняк — один из сохранившихся до наших дней шедевров мастера-архитектора Мигрута. Для них это лучший учебный материал.",
+    ["If you really must see it, that's fine—here you go!"] = "Если вы уж очень хотите посмотреть — держите!",
+    ["The number of players in the two camps is too uneven. Please adjust the camp sizes before starting the battle."] = "Разница в численности двух команд слишком велика. Скорректируйте состав команд, затем начните бой.",
+    ["I plan to make a classic sign, da-da-da-da! \"The wind that misses you has blown to the Tarot Club\", how about that?"] = "I plan to make a classic sign, da-da-da-da! \"The wind that misses you has blown to the Tarot Club\", how about that?",
     ["精准报时，人人可享！\n清洁上油，只要六便士！\n发条更换，质优价廉！\n怀表估价，现金收购旧表！\n\n机不可失，铁十字街平价钟表行即将调价！\n速来锁定今日低价！"] = "Точное время доступно каждому!\nЧистка и смазка — всего шесть пенсов!\nЗамена заводной пружины — качественно и недорого!\nОценка карманных часов, выкуп старых часов за наличные!\n\nНе упустите возможность, доступная часовая мастерская на улице Железного Креста скоро меняет цены!\nПоспешите зафиксировать сегодняшние низкие цены!",
 }

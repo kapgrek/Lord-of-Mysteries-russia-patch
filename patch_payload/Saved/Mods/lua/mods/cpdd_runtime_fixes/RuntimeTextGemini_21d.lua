@@ -268,5 +268,13 @@ return {
     ["枪柄"] = "Рукоятка ружья",
     ["Streamer II"] = "Лента II",
     ["Listen to <h>Hungry</>'s request"] = "Выслушать просьбу <h>Хангри</>",
+    ["开战获得10点初始法力，攻击提高20%，持续15秒。"] = "Gain 10 initial Mana at the start of battle, Attack increased by 20% for 15 seconds.",
+    ["<Assistant_Title1>【魔法途径】</>\n魔法途径包括：学徒、观众、窥秘人。\n通常，魔法途径造成的伤害均为魔法伤害。\n魔法途径专攻/专防/压制/抵抗，指对学徒、观众、窥秘人途径的专攻/专防/压制/抵抗。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Magical Pathway】</>\nMagical pathways include: Apprentice, Spectator, Mystery Pryer.\nUsually, damage caused by magical pathways is magical damage.\nMagical pathway Specialization/Special Defense/Suppression/Resistance refers to Specialization/Special Defense/Suppression/Resistance against the Apprentice, Spectator, and Mystery Pryer pathways.\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["前10奖励"] = "Top 10 Rewards",
+    ["基础属性：攻击+30%，吸血+20%，法力恢复+4"] = "Базовые характеристики: Атака +30%, Похищение жизни +20%, Восстановление маны +4",
+    ["Tarot Club · Hugh Dercha: 3-person tier increment, all allies Crit rate +1.4%."] = "Клуб Таро · Сио Дереча: бонус уровня «3 игрока», вся команда +1.4% крит. удара.",
+    ["Attack of the back two rows increased by 24%."] = "Атака двух задних рядов увеличивается на 24%.",
+    ["希望银行能够批准我的贷款申请，不然几百亩农田就要撂荒了。"] = "Надеюсь, банк одобрит мою заявку на кредит, иначе сотни акров полей придётся оставить под паром.",
+    ["But university tuition is too expensive; that's not something I can afford."] = "Но обучение в университете слишком дорогое, я не могу себе этого позволить.",
     ["巨龙后裔"] = "Наследие Дракона",
 }

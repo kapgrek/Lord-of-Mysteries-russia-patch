@@ -271,6 +271,10 @@ return {
     ["4人"] = "4 игрока",
     ["建议同时售卖"] = "Предложить продавать и то, и другое",
     ["Bookmark of Old Memories"] = "Закладка старых воспоминаний",
+    ["途径独立减伤_数值"] = "Pathway Independent Damage Reduction_Value",
+    ["Picked the wrong one! <P_Yellow> Use the skill button </> to eat it"] = "Взяли не то! <P_Yellow> Используйте кнопку умения</>, чтобы съесть это",
+    ["Very correct! How dare you doubt that we can't afford potatoes—stop your questioning gaze; I think this violates my portrait rights."] = "Совершенно верно! Как вы посмели усомниться, что мы не можем себе позволить картофель — прекратите этот подозрительный взгляд, я считаю, что это нарушает моё право на изображение.",
+    ["12 fresh leaves of the Snowy Mountain tea tree..."] = "12 fresh leaves of the Snowy Mountain tea tree...",
     ["施放指定技能  玩家高亮显示技能栏里的指定技能"] = "Примените указанный навык, игрок подсветит указанный навык на панели навыков.",
     ["就算精心制定计划，你父亲也会找到下一件事要求你。"] = "Даже если вы составите тщательный план, ваш отец просто найдет то, что потребует от вас.",
 }

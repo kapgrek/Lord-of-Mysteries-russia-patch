@@ -257,6 +257,12 @@ return {
     ["Time Sand Progress"] = "Прогресс песка времени",
     ["URL"] = "Адрес сайта",
     ["Evil Defeat"] = "Поражение зла",
+    ["歌剧魅影比赛阶段已结束，观战或参赛的玩家可以前往邮箱领取奖励！"] = "The Phantom of the Opera competition stage has ended. Players who watched or participated can go to their mailbox to claim rewards!",
+    ["Roselle Boss - Phase 1&2 - Self-Cleaning Program - Device Monster Permanent Buff Full"] = "Roselle Boss - Phase 1&2 - Self-Cleaning Program - Device Monster Permanent Buff Full",
+    ["开启所有黄铜书，普通副本全通且每场团队复活不超过1次。"] = "Откройте все Медные книги, пройдите все обычные подземелья, используя не более 1 воскрешения отряда за забег.",
+    ["啧，报纸已经售罄了。"] = "Тс, газеты уже все распроданы.",
+    ["Then light a cigarette and puff away."] = "А потом закурил сигарету и попыхтел ею.",
+    ["I might not have the fanciest decor here, but you'll definitely find the most intoxicating drinks!"] = "Может, обстановка тут не самая изысканная, но самые опьяняющие напитки вы точно найдёте здесь!",
     [".p4config and"] = ".p4config и",
     ["Aist"] = "Аист",
 }

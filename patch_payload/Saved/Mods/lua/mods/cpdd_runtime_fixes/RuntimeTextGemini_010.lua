@@ -253,6 +253,9 @@ return {
     ["Go to the Restroom"] = "Сходить в туалет",
     ["胜者宣言大会语音房间说明"] = "Пояснение голосовой комнаты собрания «Декларация победителя»",
     ["Miracles are only temporary, fate is always long."] = "Чудеса лишь временны, а судьба всегда длинна.",
+    ["<Assistant_Title1>【贴纸·窥秘人】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "<Assistant_Title1>【Sticker · Mystery Pryer】</>\n<Assistant_Title2>Description: </>Default Showcase Sticker\n<Assistant_Title2>Usage: </>Click <Assistant_System>Cosmetics - Showcase</> to view and use.\n<Assistant_Title2>Acquisition: </>Unlocked by default",
+    ["Deals *d physical damage to the enemy target, while applying <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> for *f seconds and the effect of buffdisc(*id) for *f seconds."] = "Deals *d physical damage to the enemy target, while applying <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> for *f seconds and the effect of buffdisc(*id) for *f seconds.",
+    ["Captain Dunn's office is full of memories. I often think back to those days too..."] = "Кабинет капитана Данна полон воспоминаний. Я тоже часто вспоминаю те дни...",
     ["Nova"] = "Новая звезда",
     ["据热心市民反映，近期常有来自霍伊大学的学生在墓地做奇怪的事情。"] = "По словам обеспокоенных горожан, студенты Университета Хой в последнее время творят на кладбище странные вещи.",
 }

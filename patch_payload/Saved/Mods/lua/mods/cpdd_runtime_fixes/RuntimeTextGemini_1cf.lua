@@ -239,4 +239,12 @@ return {
     ["Note left by the cook"] = "Записка, оставленная поваром",
     ["Basic Equipment Chest"] = "Сундук с базовым снаряжением",
     ["看看邮差的<h>脚踏车</>"] = "Осмотреть <h>велосипед</> почтальона",
+    ["Milgongen HP Lock - 50%"] = "Milgongen HP Lock - 50%",
+    ["The sweet, cloying scent spreads from the fluffy head, making every Beyonder standing in readiness feel a softness in their heart."] = "The sweet, cloying scent spreads from the fluffy head, making every Beyonder standing in readiness feel a softness in their heart.",
+    ["检查玩家StandardLevel"] = "Проверка StandardLevel игрока",
+    ["Unlock Defense Sealed Artifact - Strategic Beyonder material slot, 1250018"] = "Разблокировать защитный Запечатанный Артефакт — слот для стратегического потустороннего материала, 1250018",
+    ["Enter Heywood Manor [Go to Water Lily Town]"] = "Войдите в усадьбу Хейвуд [Отправиться в Городок Кувшинок]",
+    ["Participate in the Strategic Server rank mode and reach the rank of Marshal."] = "Примите участие в режиме воинских званий на стратегическом сервере и достигните звания маршала.",
+    ["时装搭配比拼大赛时装搭配比拼大赛时装搭配比拼大赛"] = "Конкурс сочетания образовКонкурс сочетания образовКонкурс сочетания образов",
+    ["Third trip! This iron box is getting hotter and hotter! It's not going to explode, is it?"] = "Третий заход! Эта железная коробка становится всё горячее! Она случайно не взорвётся?",
 }

@@ -250,5 +250,12 @@ return {
     ["成就-霜陨初临"] = "Достижение - Начало Морозопада",
     ["Hot Earl Grey Tea"] = "Горячий чай \"Эрл Грей\"",
     ["No historical data available."] = "Пока нет исторических данных",
+    ["Simple but practical newcomer attire."] = "Simple but practical newcomer attire.",
+    ["Base Stats: Attack +20%, Mana Regen +2"] = "Базовые характеристики: атака +20%, восстановление маны +2",
+    ["Is this a teammate relationship with P1 (including P1 themselves)?"] = "Является ли союзником P1 (включая самого P1)?",
+    ["Is a Basic Attack considered a skill?"] = "Является ли обычная атака умением?",
+    ["Strategic skill upgraded to Tier 5 \n Unlock Attack Sealed Artifact - Strategic Beyonder material slot, 1250018"] = "Стратегический навык повышен до 5 уровня\nРазблокировать атакующий Запечатанный Артефакт — слот для стратегического потустороннего материала, 1250018",
+    ["Sounds... like... not bad? How do you charge?"] = "Звучит... как будто... неплохо? Сколько это стоит?",
+    ["Requires one person to go to one end of the field to <Disable> interact with the password console </> to obtain the password, while other Beyonders with numbers fill them into the <Disable> corresponding password devices </>."] = "Один игрок должен подойти к краю поля и <Disable>взаимодействовать с пультом пароля</>, чтобы получить код, а остальные Потусторонние с числами должны ввести их в <Disable>устройства пароля с соответствующей позицией</>.",
     ["等待时间  延迟执行  玩家播放仅自己可见的说话文本  玩家播放2D音效（仅自己可听）  玩家播放仅自己可见的说话文本  延迟执行"] = "Время ожидания Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Игрок воспроизводит 2D звуковой эффект (слышен только для себя) Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение",
 }

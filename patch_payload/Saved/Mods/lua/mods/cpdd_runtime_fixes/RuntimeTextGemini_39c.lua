@@ -263,5 +263,10 @@ return {
     ["神选席位发放"] = "Выдача мест Избранных богом",
     ["Status effects obtained"] = "Полученные эффекты состояния",
     ["No... you can't take it away..."] = "Нет... вы не можете это забрать...",
+    ["Steam Core Persistent Expression-Yellow"] = "Steam Core Persistent Expression-Yellow",
+    ["2 adjacent allies provide 12 Defense."] = "2 союзника в соседних клетках дают 12 защиты.",
+    ["<DecH> Craft: </> Tree of Abundance - Silver Branch Overgrowth \n The forest trees curl into the shape of antlers, condensing the power of growth, emitting a serene light in the night."] = "<DecH>Материал:</> Дерево изобилия · Разрастание серебряных ветвей\nЛесные деревья изгибаются, обретая форму оленьих рогов, накапливая силу роста, и в ночи излучают тихий свет.",
+    ["这家主人允许我帮他们打扫屋顶。"] = "Хозяева этого дома разрешили мне помочь им почистить крышу.",
+    ["Don't be shy, you can ask me anything; this is my job."] = "Не стесняйтесь, спрашивайте меня о чём угодно, это моя работа.",
     ["任务自定义事件  玩家设置灵视状态"] = "Пользовательское событие квеста; игрок устанавливает состояние духовного видения.",
 }

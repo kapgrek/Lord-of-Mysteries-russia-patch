@@ -268,6 +268,10 @@ return {
     ["连续斩击前方矩形范围内的敌人。"] = "Наносит рубящие удары по врагам в прямоугольной области впереди.",
     ["阶段一"] = "Этап 1",
     ["专属名词"] = "Глоссарий",
+    ["\"从胶囊体中心开始算距离\": \"False\",\n\n\"从胶囊体边缘开始算距离\": \"True\"\n\n（法术代理自身无碰撞，故只需要从对方侧算起即可）"] = "\"Считать расстояние от центра капсулы\": \"False\",\n\n\"Считать расстояние от края капсулы\": \"True\"\n\n（Сам агент заклинания не имеет коллизии, поэтому расстояние достаточно считать только от другой стороны）",
+    ["为什么我控不住人？"] = "Почему я не могу контролировать противников?",
+    ["Reach Sanity Level 99 to unlock subsequent plotlines. You can participate in various activities in <HyperLink stylename=\"h\" u=\"1250015\">Plot</>, <HyperLink stylename=\"h\" u=\"1250008\">Dungeon</>, <HyperLink stylename=\"h\" u=\"1250331\">Exploration</>, <HyperLink stylename=\"h\" u=\"1250093\">Competition</>, and <HyperLink stylename=\"h\" u=\"1250163\">Idle Wins</> to gain cognitive experience."] = "Достигните 99 уровня рассудка, чтобы открыть дальнейший сюжет. Вы можете участвовать в различных активностях в разделах <HyperLink stylename=\"h\" u=\"1250015\">Сюжет</>, <HyperLink stylename=\"h\" u=\"1250008\">Подземелье</>, <HyperLink stylename=\"h\" u=\"1250331\">Исследование</>, <HyperLink stylename=\"h\" u=\"1250093\">Соревнование</> и <HyperLink stylename=\"h\" u=\"1250163\">Лёгкая победа</>, чтобы получить опыт познания.",
+    ["If I don't see tomorrow's night, please let the Goddess watch over my family and keep everything safe."] = "Если я не увижу завтрашней ночи, пусть Богиня присмотрит за моей семьёй и сохранит всех в безопасности.",
     ["April"] = "апрель",
     ["Darius"] = "Дариус",
 }

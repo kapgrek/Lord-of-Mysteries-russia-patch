@@ -261,5 +261,11 @@ return {
     ["Deals {*d,F1690001,atkMin,1.93} attack damage to enemies within <HighLight>2</> tiles around self. Self gains <HighLight>20%</> Damage Reduction, lasting for <HighLight>4</> seconds."] = "Наносит врагам в пределах <HighLight>2</> клеток вокруг себя {*d,F1690001,atkMin,1.93} ед. урона от атаки. Получает <HighLight>20%</> снижения урона на <HighLight>4</> сек.",
     ["（%d/%d）"] = "（%d/%d）",
     ["最终敕令"] = "Последний указ",
+    ["攻击降低5%，持续4秒"] = "Attack reduced by 5%, lasts 4 seconds.",
+    ["Bloom three circles of vine thorns at the target location in sequence, each dealing <HighLight>80%</> attack damage; the third circle stuns enemies for <HighLight>1</> second."] = "Bloom three circles of vine thorns at the target location in sequence, each dealing <HighLight>80%</> attack damage; the third circle stuns enemies for <HighLight>1</> second.",
+    ["怎么查看自己的属性？"] = "Как посмотреть свои характеристики?",
+    ["What is the base skill value?"] = "Что такое базовое значение умения?",
+    ["您有兴趣吗，{{英俊的先生|高贵的女士}}？只需要您每天抽出一定时间接受采访，再支付一定的费用，就能以您的名义出版自传。"] = "Вас это интересует, {{красивый господин|благородная госпожа}}? Вам нужно лишь уделять немного времени каждый день для интервью и заплатить определённую сумму — и от вашего имени будет издана автобиография.",
+    ["累计500个非凡者组队通关大帝重临"] = "Суммарно 500 Потусторонних в группах прошли подземелье «Возвращение Императора»",
     ["Tessa"] = "Тесса",
 }

@@ -269,5 +269,9 @@ return {
     ["How do I summon a friend's phantom?"] = "Как призвать фантома друга?",
     ["Interested in the prescription"] = "Заинтересоваться рецептом",
     ["Premium Mist Champagne"] = "Премиальное туманное шампанское",
+    ["Skill Disabled"] = "Skill Disabled",
+    ["从生的伊始到死的终焉，大地见证一切，记录一切，也消弭着一切。"] = "От начала жизни до конца смерти земля видит всё, помнит всё и стирает всё.",
+    ["The fourth is the Intis style. The Intis people are particular about flair; they insist on adding a little tail at the very end, claiming it gives the drink an artistic touch."] = "Четвёртый — это стиль интисцев. Интисцы ценят атмосферу и обязательно добавляют маленький хвостик в конце, говоря, что только так напиток обретает художественный дух.",
+    ["Tomorrow is my wedding day, and Emilia, my beautiful witch of a fiancée, is surely going to be angry again—"] = "Tomorrow is my wedding day, and Emilia, my beautiful witch of a fiancée, is surely going to be angry again—",
     ["哎哟！来来来，年轻人，别害羞！我看你在这相亲角前晃了三圈了，说说，想找什么样的对象？"] = "Ой! Ну-ну, молодой человек, не стесняйтесь! Я уже три раза видел, как ты ходил перед этим сватовским уголком. Скажите, какого партнера вы ищете?",
 }

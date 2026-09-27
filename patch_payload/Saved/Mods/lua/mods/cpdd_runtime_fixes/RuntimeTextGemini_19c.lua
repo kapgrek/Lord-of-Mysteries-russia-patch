@@ -263,6 +263,11 @@ return {
     ["I Am a Big Star"] = "Я большая звезда",
     ["Lucien"] = "Люсьен",
     ["第一环占坑"] = "Первое кольцо (заглушка)",
+    ["Continuously fire multiple air bullets at enemies."] = "Continuously fire multiple air bullets at enemies.",
+    ["Activates astral power, shuttling around to deal damage to enemies in front and applying healing reduction."] = "Activates astral power, shuttling around to deal damage to enemies in front and applying healing reduction.",
+    ["基础属性：攻击+25%、吸血+20%"] = "Базовые характеристики: атака +25%, вампиризм +20%",
+    ["Confirm setting Conquest Vanguard?"] = "Подтвердить назначение Авангарда завоевания?",
+    ["Last time I drank a potion prepared with it, I saw many little people dancing!"] = "В прошлый раз, выпив зелье, приготовленное из него, я увидел множество танцующих человечков!",
     ["所以你知道哪个占卜师最准吗？我让他先给我算晚饭的事，我急着知道！"] = "Итак, вы знаете, какой прорицатель самый точный? Сначала я позволю ему рассчитать для меня ужин, я спешу узнать!",
     ["就是它！谢谢！我能用完美的姿态迎接他了！"] = "Вот и все! Спасибо! Могу поприветствовать его в идеальном состоянии!",
 }

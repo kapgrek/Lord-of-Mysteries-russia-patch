@@ -258,5 +258,7 @@ return {
     ["基础属性：法力恢复+4"] = "Базовые характеристики: Восстановление маны +4",
     ["非凡远击怎么玩"] = "Как играть за «Потустороннего дальнобойщика»?",
     ["Bonnie's Lightning"] = "Молния Бонни",
+    ["Fluffy symmetrical rabbit ears, which of course can also sway gently with movement."] = "Fluffy symmetrical rabbit ears, which of course can also sway gently with movement.",
+    ["Temporarily gained the ability of Invisibility 4 times; lure the Werewolf into the Trap."] = "Временно получите способность невидимости (4 раза) и заманите оборотня в ловушку.",
     ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

@@ -303,5 +303,13 @@ return {
     ["The prestige supported by the crowd"] = "Признание толпы",
     ["心灵灯塔5阶"] = "Маяк разума, 5 ступень",
     ["浮光流金"] = "Плывущее золото",
+    ["已进入敌方命定区域，敌方在该区域内战斗将获得属性加成，我方受到伤害增加。"] = "You have entered the enemy's fated area. The enemy will gain attribute bonuses while fighting in this area, and we will take increased damage.",
+    ["Notarization Certificate"] = "Notarization Certificate",
+    ["High-quality sterling silver jewelry. The style is simple and ancient, highlighting the wearer's low-key yet sophisticated taste."] = "High-quality sterling silver jewelry. The style is simple and ancient, highlighting the wearer's low-key yet sophisticated taste.",
+    ["检测到1血，发送成功消息，并且回满血。"] = "При обнаружении 1 очка здоровья отправляет сообщение об успехе и полностью восстанавливает здоровье.",
+    ["攻击距离固定提高1格，不随击杀成长"] = "Дальность атаки увеличивается фиксированно на 1 клетку, не растёт от количества убийств.",
+    ["What is the difference between the Club dummy and the Training Ground dummy?"] = "В чём разница между манекеном клуба и манекеном тренировочной площадки?",
+    ["对呀，你不觉得……它的眼神，就像宝剑一样锐利吗？"] = "Да, а тебе не кажется... что его взгляд острый, как меч?",
+    ["Meow! Meow meow!"] = "Мяу! Мяу-мяу!",
     ["不管怎样，他们住宫殿，咱们三个人挤一间破房。哪个皇帝关心普通人的生活？"] = "Тем не менее, они живут во дворцах, а мы трое зажаты в разрушенном доме. Какого императора волнует жизнь простых людей?",
 }

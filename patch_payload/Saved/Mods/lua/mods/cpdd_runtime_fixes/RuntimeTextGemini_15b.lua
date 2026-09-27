@@ -261,6 +261,11 @@ return {
     ["Sequence 7: Psychiatrist"] = "Последовательность 7 Психотерапевт",
     ["回到售票亭"] = "Вернуться к билетной кассе",
     ["蒸汽远击"] = "Паровой дальний удар",
+    ["Burning Rage at Dead End"] = "Burning Rage at Dead End",
+    ["被传送后被加上的标记Buff，持有Buff者会被后续团招忽略"] = "Метка-бафф, добавляемая после телепортации; обладатели этого баффа будут игнорироваться последующими групповыми призывами",
+    ["Klein: The Earl's Return is definitely a play worth watching; every show in Backlund is sold out!"] = "Клейн: «Возвращение графа» — это определённо спектакль, который стоит посмотреть, все его показы в Бэкланде проходят с полным залом!",
+    ["Observe the points above Sylvia's head to predict the knockup landing point"] = "Следите за числом над головой Сильвии, чтобы предсказать место падения после подбрасывания.",
+    ["At least he didn't fall on the battlefield, and we had the chance to spend this time together."] = "По крайней мере, он не погиб на поле боя, и у нас был шанс провести это время вместе.",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

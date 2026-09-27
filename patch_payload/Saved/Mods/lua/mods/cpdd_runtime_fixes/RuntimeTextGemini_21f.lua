@@ -246,6 +246,9 @@ return {
     ["四方联赛勇者组补领礼盒"] = "Ящик повторной выдачи: Лига четырёх сторон — группа храбрецов",
     ["战士主线连招引导"] = "Обучение основным комбо: Воин",
     ["提交失败，请稍后重试"] = "Отправка не удалась, повторите попытку позже",
+    ["提高破防180，释放终结技能时，破防额外提高200，持续5秒，每10秒最多触发一次。"] = "Increases Armor Break by 180. When releasing a Finisher Skill, Armor Break is further increased by 200 for 5 seconds. This effect can trigger at most once every 10 seconds.",
+    ["Black Thorn Incident Book 4-Level 4-Experience buff"] = "Black Thorn Incident Book 4-Level 4-Experience buff",
+    ["Sevia's clothes have another hole, where did she run off to?"] = "У Севии в одежде снова дырка, куда она опять убежала?",
     ["Nighthawk: Cyrus Morning \n Requiem Poetry Society."] = "Ночной Ястреб: Сайрус Морнинг\nПоэтическое общество «Реквием»",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）  传送到指定场景的坐标位置"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Телепортируйтесь к указанным координатам сцены.",
 }

@@ -288,6 +288,11 @@ return {
     ["Steam Equipment"] = "Паровое снаряжение",
     ["Sequence 8: Instigator"] = "Последовательность 8 Подстрекатель",
     ["寻找<h>团长</>"] = "Найти <h>руководителя труппы</>",
+    ["The highest honor medal issued by City Hall. This medal is not only the end of exploration but also a commemoration—everything you personally saved to Make Tingen Great Again. In your own way."] = "The highest honor medal issued by City Hall. This medal is not only the end of exploration but also a commemoration—everything you personally saved to Make Tingen Great Again. In your own way.",
+    ["May Manor Garden: Hard Redemption Box"] = "Сад майской усадьбы: Сложный ларец получения",
+    ["Twilight Domain radius increased by 4 meters, number of affected targets increased by 2"] = "Радиус Сумеречного владения увеличен на 4 метра, количество затронутых целей увеличено на 2",
+    ["异变物质非常稀有，非凡物质最多带有2条不同的异变词条，是否确认聚合！"] = "Мутировавшее вещество очень редкое, материал Иноземного может нести не более 2 разных мутационных свойств. Подтвердить объединение!",
+    ["俱乐部会员可以兼任管理职位、分组职位、俱乐部之星；\n管理职位包括会长、外交官、理事。"] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

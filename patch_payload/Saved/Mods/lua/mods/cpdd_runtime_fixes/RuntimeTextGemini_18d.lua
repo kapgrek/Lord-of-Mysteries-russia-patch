@@ -277,6 +277,7 @@ return {
     ["无敌且不可被敌方选中"] = "Неуязвим и не может быть выбран противником в качестве цели",
     ["Hound's Sharp Claws"] = "Острые когти гончей",
     ["Pick up the poster on the ground"] = "Поднять плакат с земли",
+    ["As time passes, only the eternal remains immortal. He crowns you with the title of Emperor, and from this moment on, time itself bows before you."] = "Годы утекают, но вечность нетленна. Он коронует тебя титулом императора, и с этого момента само время склоняется перед тобой.",
     ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Перейти в указанную позицию Trigger: игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Yareli"] = "Ярели",
 }

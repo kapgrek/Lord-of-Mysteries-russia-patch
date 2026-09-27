@@ -258,6 +258,11 @@ return {
     ["巴尼先生与安西娅共同上阵时获得【陪伴】。一方阵亡后，另一方进入【狂暴】，本场伤害加深<HighLight>70%</>。"] = "Мистер Барни и Антея, выставленные вместе, получают 【Вместе】. После гибели одного из них другой впадает в 【Ярость】: получает усиление урона на <HighLight>70%</> до конца боя.",
     ["风尚回廊-新风潮"] = "Галерея моды — Новый тренд",
     ["Board the <h>\"City of Myriad Cities\"</>"] = "Подняться на борт <h>судна «Город Десяти Тысяч Столиц»</>",
+    ["暴击率提高15%，暴击伤害提高25%。"] = "Critical Rate increased by 15%, Critical Damage increased by 25%.",
+    ["The same city, yet a different truth. Everything in the mirror seems familiar, yet everywhere it reveals unsettling deviations."] = "Тот же город, но иная правда. Всё в зеркале кажется знакомым, и всё же повсюду сквозит тревожное искажение.",
+    ["Record 1 stack per skill cast; the 4th cast restores 8 Mana to the entire team."] = "Каждое применение умения добавляет 1 стак; 4-е применение восстанавливает всей команде 8 маны.",
+    ["Eh... no, Lange, do you know them?"] = "Eh... no, Lange, do you know them?",
+    ["I admit... it was my hand that murdered the Master."] = "I admit... it was my hand that murdered the Master.",
     ["提交道具（设置提交参数）"] = "Сдать предмет (настроить параметры сдачи)",
     ["<Chat_AT>三九：</>在在在在在在在在在在在在在在在<Chat_PosNeed>廷根</>对<Chat_NPC>黛丽</><Chat_PlayerName>丽霍尔小姐</><Chat_Default>：位文本</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">申请入团</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

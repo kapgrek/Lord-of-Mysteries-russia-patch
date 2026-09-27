@@ -231,6 +231,11 @@ return {
     ["绝盾减伤"] = "Несокрушимый щит: снижение урона",
     ["Burst Skill"] = "Взрывной навык",
     ["Follow the <h> trio </> to the vegetable patch"] = "Проследовать за <h>троицей</> на овощную грядку",
+    ["<Assistant_Title1>初立军功</>\n<Assistant_Title2>成就分类：</>以战养战;势力\n<Assistant_Title2>解锁条件：</>本周期内首次获得军功值。"] = "<Assistant_Title1>First Military Merit</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Obtain military merit for the first time in this cycle.",
+    ["Steam Core Persistent Expression-Ice Blue"] = "Steam Core Persistent Expression-Ice Blue",
+    ["Base stats: Attack +10%, Mana recovery +1"] = "Базовые характеристики: атака +10%, восстановление маны +1",
+    ["如果你还想支持，最好的赞赏是与我一齐高歌一句：愿贝克兰德芳华永驻！"] = "Если ты всё же хочешь меня поддержать, лучшая награда — это спеть со мной одну строчку: пусть краса Бэкланда пребудет вечно!",
+    ["Go to Tingen Central Plaza to seek out Emperor Roselle's war projection."] = "Отправьтесь на Центральную площадь Тингена, чтобы найти боевую проекцию императора Роселля.",
     ["我得把他的研究找回来，不然没人知道他究竟遇到了什么。"] = "Я должен найти его исследования, иначе никто не узнает, с чем он на самом деле столкнулся.",
     ["与Npc进行对话  玩家跨场景传送到指定Trigger"] = "Поговорите с NPC. Игрок телепортируется между сценами к указанному триггеру.",
 }

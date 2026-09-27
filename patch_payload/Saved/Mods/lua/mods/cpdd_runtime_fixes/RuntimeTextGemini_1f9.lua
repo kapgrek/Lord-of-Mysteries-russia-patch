@@ -286,5 +286,11 @@ return {
     ["聊聊贝迪"] = "Поговорить о Бэди",
     ["Complete one Requiem in a team"] = "Провести Реквием в команде",
     ["Clean Up Trash"] = "Убрать мусор",
+    ["战斗8秒和18秒时眩晕1.5秒。"] = "Stun for 1.5 seconds at 8 seconds and 18 seconds of combat.",
+    ["<Assistant_Title1>【全境雍容】</>\n<Assistant_Title2>描述：</>神眷时装\n<Assistant_Title2>使用：</>使用后获得全境雍容套装，可点击<Assistant_System>外观-换装</>查看并使用，也可兑换为<Assistant_Red>2</>张神眷牌。\n<Assistant_Title2>获取：</>通过<Assistant_System>召唤-灵界焕容</>获得，或在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>2</>张神眷牌兑换"] = "<Assistant_Title1>【Grace of the Realm】</>\n<Assistant_Title2>Description: </>God-Favored Outfit\n<Assistant_Title2>Usage: </>Use to obtain the Grace of the Realm set; click <Assistant_System>Cosmetics - Change Outfit</> to view and equip, or exchange for <Assistant_Red>2</> God-Favored Cards.\n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Summon - Spirit World Refreshment</>, or redeem using <Assistant_System>Goddess's Gift Shop</> <Assistant_Red>2</> God-Favored Cards",
+    ["Look closely, this is the \"Tingen Five-Star Good Citizen.\" Don't mind the gold-plated trash issued by those idiots at City Hall; they don't know anything."] = "Look closely, this is the \"Tingen Five-Star Good Citizen.\" Don't mind the gold-plated trash issued by those idiots at City Hall; they don't know anything.",
+    ["You who meet again in the Kingdom of God will surely have your dreams come true."] = "You who meet again in the Kingdom of God will surely have your dreams come true.",
+    ["Gain a shield equal to <HighLight>16%</> of your maximum health; after 1.2 seconds, deal <HighLight>120%</> attack damage to the surroundings and restore <HighLight>8%</> of maximum health to nearby allies."] = "Gain a shield equal to <HighLight>16%</> of your maximum health; after 1.2 seconds, deal <HighLight>120%</> attack damage to the surroundings and restore <HighLight>8%</> of maximum health to nearby allies.",
+    ["The highest quality currently available is <Quality_3>Common</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_3>Обычное</>",
     ["与人脉完成%d/30次漫步玩法。"] = "Выполните действия %d/30 «Прогулка» с контактами.",
 }

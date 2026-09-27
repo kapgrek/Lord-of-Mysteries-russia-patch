@@ -248,5 +248,10 @@ return {
     ["Gathering and Scattering of Connections"] = "Встречи и расставания",
     ["Viscountess Refuse Fashion Duel"] = "Виконтесса: отказ от модной дуэли",
     ["Dancing King Baboon Brother Refuse Fashion Duel"] = "Король танца братишка Бабуин: отказ от модной дуэли",
+    ["Hour hand back one tick Phantom Shadow"] = "Hour hand back one tick Phantom Shadow",
+    ["基础属性：攻击+15%、法力恢复+3"] = "Базовые характеристики: Атака +15%, Восстановление маны +3",
+    ["在花海处见证爱情与誓约，在此确认彼此真心。"] = "На море цветов станьте свидетелями любви и клятвы, подтвердив здесь искренность друг друга.",
+    ["在竞技玩法中<Highlight>击败</>%s/%s名戏法大师"] = "В соревновательном режиме <Highlight>победите</>%s/%s Трикстеров",
+    ["Please enter a %d-digit numeric password."] = "Введите %d-значный цифровой пароль.",
     ["Back then, I had two choices: become a Beyonder of the Savant pathway, or a Beyonder of the Mystery Pryer pathway. My choice was simple—Savant, a Savant with a complete sequence! To make myself strong and rely on my own power to return to my hometown, rather than pinning my hopes on dangerous external forces. But my choice back then was still too rash. Whether it was Apprentice, Seer, or Marauder, all would have been better. Unfortunately, there is no turning back..."] = "Тогда у меня было два выбора: стать Потусторонним путем Саванта или Потусторонним путем Тайного Прайера. Мой выбор был прост — Савант, Савант с полной последовательностью! Чтобы стать сильным и полагаться на свои силы, чтобы вернуться в свой родной город, а не возлагать надежды на опасные внешние силы. Но мой выбор тогда был еще слишком опрометчивым. Будь то Ученик, Провидец или Мародер, все было бы лучше. К сожалению, пути назад нет...",
 }

@@ -260,5 +260,13 @@ return {
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>1500%</> = {*d,F1690001,atkMin,15}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["Base Stats: Health +600"] = "Базовые характеристики: Здоровье +600",
     ["<Team_Target> [Competition Appointment] </> %s"] = "<Team_Target>[Договор о состязании]</> %s",
+    ["Shadow-Swift Hat Bullet"] = "Shadow-Swift Hat Bullet",
+    ["Specialty textiles of Tingen"] = "Specialty textiles of Tingen",
+    ["目标受到操控效果时周围减速效果的影响半径增加2米。"] = "Когда цель находится под эффектом контроля, радиус действия эффекта замедления вокруг неё увеличивается на 2 метра.",
+    ["But my supervisor is terrible. The manager asked him to explain why sales dropped last month."] = "Но мой начальник просто ужасен. Менеджер попросил его объяснить, почему в прошлом месяце упали продажи.",
+    ["Everything you need to be decent can be satisfied here."] = "Всё, что нужно для достойного вида, вы можете найти здесь.",
+    ["%s阶段默认为自由发言模式，不可进行此操作"] = "Этап «%s» по умолчанию находится в режиме свободного высказывания, это действие невозможно",
+    ["Don't misunderstand, it's not that she thinks I don't clean well; my wife is a follower of the Storm."] = "Don't misunderstand, it's not that she thinks I don't clean well; my wife is a follower of the Storm.",
+    ["She was born in the night, and with two snaps of her fingers, this town was built."] = "She was born in the night, and with two snaps of her fingers, this town was built.",
     ["Mari"] = "Мари",
 }

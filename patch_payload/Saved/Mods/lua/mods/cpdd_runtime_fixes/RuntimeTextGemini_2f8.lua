@@ -255,5 +255,12 @@ return {
     ["Added to the prize pool after a cumulative <Highlight> %d </> summons"] = "Добавляется в призовой пул после <Highlight>%d</> суммарных призывов",
     ["结算期"] = "Период расчёта",
     ["进入死者家中"] = "Войти в дом покойного",
+    ["Flame of Sin Purification"] = "Flame of Sin Purification",
+    ["Experience the side story \"Gentle Piano Sounds Tonight\" to unlock."] = "Разблокируется прохождением побочного сюжета «Сегодня ночью нежно звучит рояль».",
+    ["Base Stats: Crit +30%, Mana Regen +4"] = "Базовые характеристики: Крит. удар +30%, Восстановление маны +4",
+    ["深沉夜色下，切切絮语在沙龙中生长。刚刚，又是谁的雪色绒发拂过了掌心？"] = "В глубокой ночной тьме в салоне зарождается тихий шёпот. Чьи снежно-белые локоны только что коснулись вашей ладони?",
+    ["但那对我而言稍微有些难度。"] = "Но для меня это немного сложно.",
+    ["Are you interested, {{ handsome sir | noble lady }}? You only need to set aside some time every day for an interview and pay a certain fee to have an autobiography published in your name."] = "Вас это интересует, {{красивый господин|благородная госпожа}}? Вам нужно лишь уделять немного времени каждый день для интервью и заплатить определённую сумму — и от вашего имени будет издана автобиография.",
+    ["Well, we're already much better off than those workers in the factories."] = "Что ж, нам уже гораздо лучше, чем тем рабочим на заводах.",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

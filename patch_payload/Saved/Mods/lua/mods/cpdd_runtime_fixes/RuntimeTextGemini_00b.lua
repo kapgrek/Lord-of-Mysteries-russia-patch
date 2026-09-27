@@ -280,4 +280,10 @@ return {
     ["状态切换压力板"] = "Нажимная плита переключения состояния",
     ["Sleeve - One"] = "Рукав 1",
     ["Perfumer"] = "Парфюмер",
+    ["3星累计受到12.1点伤害时恢复1.5法力（阈值为初始最大生命121的1%）"] = "Restore 1.5 Mana when 12.1 total damage is taken at 3 stars (threshold is 1% of initial Max Health 121).",
+    ["<Assistant_Title1>【绒语沙龙】</>\n<Assistant_Title2>描述：</>商城直售时装\n<Assistant_Title2>使用：</>商城购买后获得绒语沙龙套装，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>商城</>获取"] = "<Assistant_Title1>【Velvet Salon】</>\n<Assistant_Title2>Description:</>Mall Direct Sale Fashion\n<Assistant_Title2>Use:</>After purchase in the Mall, obtain the Velvet Salon set. You can click <Assistant_System>Appearance-Outfit</> to view and use it.\n<Assistant_Title2>Acquisition:</>Obtained through <Assistant_System>Mall</>",
+    ["But after the hound was found, it refused to leave Bolgan, and everyone thought this was the best evidence."] = "Но когда гончую нашли, она ни за что не хотела покидать Болгана, и все посчитали это лучшим доказательством.",
+    ["[Competition] Strategic Server Settlement · God-Chosen Honor, 2000072"] = "[Арена] Итоги стратегического сервера · Честь избранного богами, 2000072",
+    ["Overwrite manual temporary save record?"] = "Перезаписать запись, сохранённую вручную?",
+    ["Account restricted; temporarily unable to perform related operations. You can lift the restriction after topping up Gold Pounds/Strategic Gold Pounds/Bound Gold Pounds."] = "Аккаунт ограничен, временно невозможно выполнить это действие. Ограничение будет снято после пополнения Золотых фунтов/Стратегических золотых фунтов/Привязанных золотых фунтов.",
 }

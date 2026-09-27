@@ -274,6 +274,9 @@ return {
     ["Seer Tactical - Puppet Threading Tier 4"] = "Тактика Провидца — Нити марионетки, 4 ступень",
     ["Gun barrel"] = "Ствол ружья",
     ["Defeat the projection summoned by the ritual"] = "Победить проекцию, призванную ритуалом",
+    ["自身击败敌方时，治疗生命百分比最低的2名友军20%最大生命值。"] = "When defeating an enemy, heal the 2 allies with the lowest Health percentage for 20% of their Max Health.",
+    ["命运馈赠是什么"] = "What is a Fate Gift?",
+    ["Go ahead, my true love is in... snore, snore..."] = "Go ahead, my true love is in... snore, snore...",
     ["我怎么什么都没看懂？"] = "Почему я ничего из этого не понял?",
     ["花？好看是好看，顶啥用？一个便士买花儿都算大钱！能花多少？二十便士顶天了吧？"] = "Цветы? Выглядят хорошо, но для чего они нужны? Копейка на цветы – это большие деньги! Сколько это может стоить? Самое большее двадцать пенсов, верно?",
 }

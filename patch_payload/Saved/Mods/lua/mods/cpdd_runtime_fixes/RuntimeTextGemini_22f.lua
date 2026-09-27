@@ -237,6 +237,12 @@ return {
     ["笑里藏刀·终"] = "Нож за улыбкой · Конец",
     ["分享描述"] = "Описание публикации",
     ["窗外是暴风雨"] = "За окном бушует буря",
+    ["A thin mist gathers on the streets, and mystery quietly awakens in the corners of dark alleys."] = "Лёгкий туман окутывает оживлённые улицы, тайна тихо пробуждается в уголках тёмных переулков.",
+    ["Gain 200 Health and 15% Attack when no allies are adjacent."] = "Когда рядом нет союзников, получает 200 здоровья и 15% атаки.",
+    ["本场已触发知识荒野回响。"] = "В этом бою уже сработало Эхо Дикой пустоши знаний.",
+    ["救、救命！有人吗？"] = "П-помогите! Есть кто-нибудь?",
+    ["In competition mode, <Highlight> defeat </> %s/%s Warriors"] = "В арене <Highlight>победите</> %s/%s Воинов",
+    ["There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors."] = "There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors.",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

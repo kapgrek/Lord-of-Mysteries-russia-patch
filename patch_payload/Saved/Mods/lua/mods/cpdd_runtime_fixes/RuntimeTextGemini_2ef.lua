@@ -273,5 +273,10 @@ return {
     ["递火玩法是什么"] = "Что за режим «Передать огонь»?",
     ["Hmm... what do you mean by a very far place..."] = "Хм... очень далёкое место — это...",
     ["快捷表情"] = "Быстрые эмоции",
+    ["Clock Hand Advance One Grid Phantom Shadow"] = "Clock Hand Advance One Grid Phantom Shadow",
+    ["Defenders can freely teleport to the Corridor of War or Fortress Anchorage while out of combat."] = "Обороняющаяся сторона вне боя может свободно телепортироваться в Военный коридор или на Якорную стоянку крепости.",
+    ["Later, a gentleman catching the ferry happened to have a meal there, couldn't stop praising it, and invited me to be the head chef here."] = "Потом один господин, спешивший на паром, случайно у меня поел, не переставал хвалить и пригласил меня сюда шеф-поваром.",
+    ["无法邀请跨服好友成为誓约。"] = "Нельзя пригласить межсерверного друга в Обет.",
+    ["His eyes occasionally scan in a certain direction—not looking at people, as if confirming something."] = "His eyes occasionally scan in a certain direction—not looking at people, as if confirming something.",
     ["非常成功。我身后跟着一支浩浩荡荡的小尾巴，太幸福了！"] = "Очень успешно. За мной следует длинный суетливый хвост – это чистое блаженство!",
 }

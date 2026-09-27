@@ -253,5 +253,9 @@ return {
     ["Model size increased by 160%"] = "Размер модели увеличен на 160%",
     ["Phase Two"] = "Этап 2",
     ["鼠疫蔓延"] = "Чума распространяется",
+    ["时刻沙漏活动"] = "Hourglass of Time Event",
+    ["<HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">窥秘之眼</>的伤害提高幅度增加到53%"] = "The damage increase of <HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">Secret Peeking Eyes</> is increased to 53%",
+    ["Function_Invincible Untargetable"] = "Function_Invincible Untargetable",
+    ["What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?"] = "What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется к указанным координатам сцены.",
 }

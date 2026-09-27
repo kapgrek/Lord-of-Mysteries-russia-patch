@@ -278,5 +278,13 @@ return {
     ["Quality Mode"] = "Режим качества",
     ["人格覆写"] = "Перезапись личности",
     ["My Beyonder Scheme"] = "Мой потусторонний план",
+    ["GVG Tower Effect Buff - Black Emperor"] = "GVG Tower Effect Buff - Black Emperor",
+    ["它背负着湖泊的记忆,时间在龟壳上刻下纹路。"] = "Оно несёт на себе память озера, время выгравировало узоры на панцире.",
+    ["[Death Sect] (3) Team +10% Attack"] = "[Секта смерти] (3) Вся команда +10% к атаке",
+    ["<DecH> Craft: </> Soft Tulle \n Wings stretch in the radiance, metal condenses in the shadows; they are reflections of each other, each complete in its own right."] = "<DecH>Материал:</> Лёгкая вуаль\nКрылья раскрываются в сиянии, металл застывает в тени; они отражают друг друга, каждый по-своему целостен.",
+    ["但是我的主管十分糟糕，经理让他解释上个月的销量为什么下滑。"] = "Но мой начальник просто ужасен. Менеджер попросил его объяснить, почему в прошлом месяце упали продажи.",
+    ["Participate in the Strategic Server rank mode and reach the rank of General."] = "Примите участие в режиме воинских званий на стратегическом сервере и достигните звания генерала.",
+    ["Everyone, I'm late today... My private carriage had a little breakdown, so I had to temporarily switch to another one..."] = "Все, простите за опоздание... Мой личный экипаж немного сломался, пришлось временно пересесть в другой...",
+    ["If we meet again after many years, how should I greet you? With tears, with silence."] = "Если мы встретимся снова через много лет, как мне тебя поприветствовать? Слезами, молчанием.",
     ["<P_Heart>（眼睛一亮）</>哟，今天有货！"] = "<P_Heart> (Глаза загораются) </> Эй, сегодня он в наличии!",
 }

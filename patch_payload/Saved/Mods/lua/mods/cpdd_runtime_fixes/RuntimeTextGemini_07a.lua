@@ -246,5 +246,11 @@ return {
     ["Head to the ticket booth"] = "Отправиться к билетной кассе",
     ["和年轻男子进入<h>房间</>"] = "Войти в <h>комнату</> вместе с молодым человеком",
     ["Honor: Skull of a Loyal Dog"] = "Честь: Череп верного пса",
+    ["场景增伤"] = "Scene Damage Boost",
+    ["<Assistant_Title1>全场最佳</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>获得1次全场最佳。"] = "<Assistant_Title1>MVP</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Obtain MVP 1 time.",
+    ["Judge Positive Emotion to Add Color Point"] = "Judge Positive Emotion to Add Color Point",
+    ["【塔罗会】(3) 全队 +10%攻击 +200生命"] = "[Клуб Таро] (3) Вся команда +10% к атаке, +200 здоровья",
+    ["每次普攻技能Type=2的首技能释放固定恢复10法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 10 маны",
+    ["Of course, only such an imposing manner is enough to attract the pounds from people's pockets."] = "Конечно, только такой внушительный вид способен вытянуть фунты из карманов людей.",
     ["Deidre"] = "Дейдре",
 }

@@ -251,5 +251,11 @@ return {
     ["Hunter's Thorn"] = "Охотничий шип",
     ["胜者宣言分赏席位说明"] = "Пояснение распределения наградных мест «Декларации победителя»",
     ["关注物品已下架"] = "Отслеживаемый товар снят с продажи.",
+    ["<Assistant_Title1>【界面自定义】</>\n<Assistant_Title2>功能入口：</><Assistant_System>菜单-设置-基础-界面自定义</>{JumpToUI:[【前往查看】]|1250082}\n<Assistant_Title2>功能介绍：</>在界面自定义中，可自由调整主界面控件的位置、大小和透明度，也可以设置部分按钮文字的显示或隐藏。若想恢复默认布局，可通过功能顶部的控制面板一键重置。"] = "<Assistant_Title1>【Interface Customization】</>\n<Assistant_Title2>Function Entry:</><Assistant_System>Menu-Settings-Basic-Interface Customization</>{JumpToUI:[【Go to View】]|1250082}\n<Assistant_Title2>Function Introduction:</> In Interface Customization, you can freely adjust the position, size, and transparency of main interface widgets, and also set the display or hiding of some button text. If you want to restore the default layout, you can reset it with one click via the control panel at the top of the function.",
+    ["Function_Already Shot"] = "Function_Already Shot",
+    ["This portrait depicts a Chief who is eternally watching."] = "This portrait depicts a Chief who is eternally watching.",
+    ["Why is the ability evaluation 0?"] = "Почему оценка способностей отображается как 0?",
+    ["安提哥努斯笔记剧情是什么？"] = "В чём заключается сюжет «Записок Антигонуса»?",
+    ["Successfully perform Requiem %d/50 times."] = "Успешно проведите Реквием %d/50 раз.",
     ["Mustafa"] = "Мустафа",
 }

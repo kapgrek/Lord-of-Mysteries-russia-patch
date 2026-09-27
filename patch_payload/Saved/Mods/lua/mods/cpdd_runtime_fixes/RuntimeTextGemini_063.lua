@@ -270,6 +270,13 @@ return {
     ["利刃出鞘·始"] = "Клинок обнажён · Начало",
     ["Last Mark"] = "Последняя метка",
     ["询问<h>周围的人</>"] = "Расспросить <h>окружающих</>",
+    ["第3名"] = "",
+    ["<Assistant_Title1>【固定伤害】</>\n不受进攻属性加成，也不受防御属性减免的伤害。\n<Assistant_Title2>温馨提示：</>通常固定伤害的伤害数值严格等于描述，但部分固定伤害的数值根据进攻方属性存在<Assistant_Red>上限</>。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Fixed Damage】</>\nDamage that is not affected by Attack attribute bonuses or Defense attribute reductions. \n<Assistant_Title2>Tip: </>Usually, the damage value of fixed damage is strictly equal to the description, but some fixed damage values have a <Assistant_Red>cap</> based on the attacker's attributes. \n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}",
+    ["<Assistant_Title1>【沉默抵挡】</>\n降低角色被沉默状态命中后的持续时长，最多使基础时长降低一半，抵消控制来源的沉默增强。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Silence Block】</>\nReduces the duration of silence status effects applied to the character, up to a maximum reduction of half the base duration. This offsets the control source's Silence Enhancement.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["<Assistant_Title1>【学徒专攻】</>\n攻击学徒途径的非凡者时，每点学徒专攻提高自身的攻击1点。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[攻击]|1519}"] = "<Assistant_Title1>【Apprentice Specialization】</>\nWhen attacking a Beyonder of the Apprentice pathway, each point of Apprentice Specialization increases your own Attack by 1.\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Attack]|1519}",
+    ["每层提高2%攻击。"] = "Атака увеличена на 2% за каждый стак.",
+    ["That was Kenley, who recently transferred from a clerical position to a formal Nighthawk."] = "Это был Кенли, который недавно перешёл с канцелярской должности на должность штатного Ночного ястреба.",
+    ["Hmph, nonsense. The quality of rye beer is the key."] = "Хм, ерунда. Главное — качество ржаного пива.",
     ["Gustavo"] = "Густаво",
     ["<MT>来防御</>"] = "<MT> для защиты </>",
 }

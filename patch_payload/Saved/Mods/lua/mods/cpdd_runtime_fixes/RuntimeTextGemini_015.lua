@@ -243,5 +243,10 @@ return {
     ["Leave the underground passage with Vic"] = "Покинуть подземный переход вместе с Виком",
     ["Listen to the voice-over"] = "Прослушать закадровый голос",
     ["Feed the <h> baboon </>"] = "Покормить <h>бабуина</>",
+    ["难度提升！在收益与风险并行的路线上，你将如何下注？"] = "",
+    ["在战略服终末猎杀中，提交猩红遗物可获得征服声望，积累征服声望可提升军衔等级。\n仅在高倍活动时段内，击杀或助攻敌方势力的非凡者可获得战功。"] = "In the Strategic Server's Final Hunt, submitting Scarlet Relics grants Conquest Reputation. Accumulating Conquest Reputation increases your military rank. \nDuring high-multiplier event periods, killing or assisting in the defeat of Beyonders from enemy factions grants Battle Merit.",
+    ["【塔罗会·苏茜】档3增量：+15点最大生命（累计140%）"] = "[Клуб Таро · Сьюзи] Бонус уровня 3: +15 к максимальному здоровью (всего 140%)",
+    ["黄昏降临之日，万物衰败之时。"] = "Настал день сумерек — миг, когда увядает всё сущее.",
+    ["What's this about a haunted ancestral home you mentioned?"] = "What's this about a haunted ancestral home you mentioned?",
     ["前往指定Trigger位置  对象播放指定对白内容"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанный диалог.",
 }

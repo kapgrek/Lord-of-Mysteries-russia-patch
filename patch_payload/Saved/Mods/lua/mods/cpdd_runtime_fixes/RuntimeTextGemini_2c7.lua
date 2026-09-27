@@ -262,4 +262,11 @@ return {
     ["How do I use the Exclusive Bench?"] = "Как пользоваться личной скамьёй?",
     ["进入冒险商店"] = "Войти в магазин приключений",
     ["组队同乘座驾30S"] = "Проехать вместе на транспорте 30 сек. в команде",
+    ["World of Order"] = "",
+    ["增伤提高10%，移动速度提高25%"] = "Damage Boost increased by 10%, movement speed increased by 25%",
+    ["<Assistant_Title1>【物理伤害】</>\n通常，物理途径造成的伤害均为物理伤害。\n物理途径包括：占卜家、歌颂者、战士。\n在进行属性对抗时，对于区分物理/魔法的属性，物理伤害采用双方属性中物理的部分计算。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}，{SendAnswer:[自适应伤害]|1490}"] = "<Assistant_Title1>【Physical Damage】</>\nUsually, damage caused by physical Pathways is Physical Damage. \nPhysical Pathways include: Seer, Bard, Warrior. \nWhen performing attribute confrontations, for attributes that distinguish between physical and magical, Physical Damage is calculated using the physical portion of both parties' attributes. \n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}, {SendAnswer:[Adaptive Damage]|1490}",
+    ["命运的丝线在指尖缠绕，红月将满，预示着一切的伊始与终焉。"] = "Нити судьбы обвивают пальцы, Красная луна почти полна, предвещая начало и конец всего сущего.",
+    ["Life Steal increased by an additional 15% when Health is not above 50%."] = "Вампиризм дополнительно увеличивается на 15%, когда здоровье не выше 50%.",
+    ["奥尔加整天喝酒赌博，还经常动手，幸好她鼓起勇气离开了。"] = "Ольга целыми днями пила и играла в азартные игры, да ещё часто поднимала руку. Хорошо, что она набралась смелости и ушла.",
+    ["是否确认将会长移交给 <Highlight>%s</>？转移会长后，您将被任命为正式会员。"] = "Подтвердить передачу поста главы клуба <Highlight>%s</>? После передачи вы будете назначены рядовым участником.",
 }

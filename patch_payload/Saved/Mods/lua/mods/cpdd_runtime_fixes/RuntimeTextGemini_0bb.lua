@@ -272,6 +272,13 @@ return {
     ["让保镖们冷静一下"] = "Успокоить телохранителей",
     ["Carefully move the <h> coffin </>"] = "Осторожно отодвинуть <h>гроб</>",
     ["Boss fight"] = "Бой с боссом",
+    ["Fires two air cannon shots, each dealing <HighLight>135%</> attack damage; pre-sets a paper figurine, making the user untargetable for a short duration after the next hit, but also unable to move."] = "Fires two air cannon shots, each dealing <HighLight>135%</> attack damage; pre-sets a paper figurine, making the user untargetable for a short duration after the next hit, but also unable to move.",
+    ["通过参与名流盛宴解锁。"] = "Разблокируется участием в «Пиршестве знати».",
+    ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 16.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 16.5 маны",
+    ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 13 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 13 маны",
+    ["(Strange, why does she keep trembling?)"] = "(Странно. Почему она всё время дрожит?)",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>神降仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往协助]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал божественного нисхождения</> в Соборе Святой Селены в Тингене, молясь о взоре и милости Богини Ночи. Отправляйтесь на помощь — возможно, у вас тоже будет шанс получить Её благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться на помощь]</>",
+    ["呵，遗憾什么。我只是贝克兰德一个仓促停留的过客，海上才是我唯一的故乡。"] = "Хех, о чём тут жалеть. Я всего лишь случайный путник, ненадолго заглянувший в Бэкланд, море — вот моя единственная родина.",
     ["与Npc进行对话  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象同场景传送  玩家根据InstanceID列表创建私有对象"] = "Поговорить с NPC; игрок создает публичный объект на основе списка InstanceID (не действует в открытом мире); объект телепортируется в пределах одной сцены; игрок создает приватный объект на основе списка InstanceID.",
     ["播放Dialogue  玩家设置客户端在指定场景显示的天气与时段"] = "Играть в диалог, игрок устанавливает для клиента погоду и время суток в указанной сцене.",
 }

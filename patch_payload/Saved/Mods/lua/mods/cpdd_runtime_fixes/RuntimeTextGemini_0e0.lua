@@ -285,5 +285,10 @@ return {
     ["神选谕令（30天）"] = "Эдикт Богоизбранного (30 дней)",
     ["Magic Duel · Start"] = "Магический поединок · Начало",
     ["和年轻男子进入房间"] = "Войти в комнату с молодым человеком",
+    ["四方联赛守卫组补领礼盒"] = "Four-Way League Guard Group Compensation Gift Box",
+    ["已符合赠礼要求，是否确认消耗<Img tex2d=\"%s\"/>%s赠送外观？"] = "Gift requirements met. Confirm consuming <Img tex2d=\"%s\"/> %s to gift the appearance?",
+    ["已符合赠礼要求，是否确认向<Highlight>%s</>赠送<Highlight>%s</>?"] = "Gift requirements met. Confirm gifting <Highlight> %s </> to <Highlight> %s </>?",
+    ["Time of the Stars' Return"] = "Time of the Stars' Return",
+    ["Increase Family level to obtain the following buffs. <Highlight> Current Family: Level %d </>"] = "Повышение уровня семьи даёт следующие бонусы. <Highlight>Текущая семья: уровень %d</>",
     ["监听指定场景加载完毕  玩家播放情绪音乐（仅自己可听）"] = "Ожидайте завершения загрузки указанной сцены. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

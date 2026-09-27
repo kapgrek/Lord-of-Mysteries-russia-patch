@@ -275,6 +275,8 @@ return {
     ["盗贼据点"] = "Крепость воров",
     ["前往征服宣令"] = "Перейти к Указу о завоевании",
     ["寻找布置仪式的物品"] = "Найти предметы для проведения ритуала",
+    ["Traveler's Door maximum placement distance increased to 30 meters"] = "Максимальная дистанция установки Двери Путешественника увеличена до 30 метров",
+    ["Besides making people grow horns and tails, becoming strong and enduring, and being able to moo...<P_Heart> (gradually feeling guilty) </>, are there any other benefits to crossbreeding humans and cows?"] = "Besides making people grow horns and tails, becoming strong and enduring, and being able to moo...<P_Heart> (gradually feeling guilty) </>, are there any other benefits to crossbreeding humans and cows?",
     ["监听服务器开服天数  玩家跳转系统界面"] = "Отслеживание дней со старта сервера; переход игрока в интерфейс системы",
     ["<InvHighlight>“清晨纯露”</>，也被称为醒神剂——\n\n由<InvHighlight>梦境捕手的心脏</>、精灵花、秋水仙精华调配而成。\n能使服用者保持清醒，或有<Mark id=\"#159\">治疗嗜睡症</>的效果。"] = "<InvHighlight>«Утренняя роса»</>, также именуемая бодрящим снадобьем:——\n\nизготавливается из <InvHighlight>сердца ловца снов</>, цветка эльфов и эссенции безвременника.\nПомогает прогнать сонливость и обладает эффектом <Mark id=\"#159\">исцеления нарколепсии</>.",
     ["Cary"] = "Кэри",

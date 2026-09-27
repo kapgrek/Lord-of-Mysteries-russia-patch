@@ -262,4 +262,7 @@ return {
     ["ᴛop̈"] = "ᴛop̈",
     ["Club Brawl Redemption Box"] = "Ящик повторной выдачи: Клубная потасовка",
     ["沙盘刻名者"] = "Резчик имён на песочном столе",
+    ["Biological Toxin Vial"] = "Biological Toxin Vial",
+    ["Tree of Abundance - Normal - Misfortune Water Giant Turtle Refuse Fashion Duel"] = "Древо изобилия - Обычный - Отказ от поединка стиля «Гигантская черепаха проклятых вод»",
+    ["俱乐部宣言包含不当词汇，请修正"] = "Декларация клуба содержит неприемлемые слова, исправьте её",
 }

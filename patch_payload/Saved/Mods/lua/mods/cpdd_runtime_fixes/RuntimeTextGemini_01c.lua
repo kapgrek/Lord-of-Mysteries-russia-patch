@@ -248,5 +248,10 @@ return {
     ["拒绝风尚决斗-一号信徒"] = "Отклонить модный поединок — Верующий №1",
     ["Robe body"] = "Основная часть мантии",
     ["Auto-remolding stopped"] = "Автоперековка остановлена",
+    ["超凡生物：伤害加深20%。"] = "Beyond Creature: Damage Amplification 20%.",
+    ["After releasing Traveler's Door, summon squad members to teleport to the portal location"] = "После применения Двери Путешественника призывает членов отряда и телепортирует их к порталу",
+    ["The Four Emperors have gathered, but only one can be the final winner. A war capable of changing the world's situation has begun."] = "Четыре Императора собрались вместе, но лишь один сможет стать окончательным победителем — началась война, способная изменить расклад сил во всём мире.",
+    ["Eh? Are you asking me?"] = "А? Вы меня спрашиваете?",
+    ["Go ahead, my true love is... *snore*, *snort*..."] = "Go ahead, my true love is... *snore*, *snort*...",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Собирает предмет с указанным идентификатором шаблона, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанный контент диалога.",
 }

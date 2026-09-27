@@ -280,4 +280,12 @@ return {
     ["Ask about origins"] = "Спросить о происхождении",
     ["心动"] = "Трепет сердца",
     ["No fixed time"] = "Без фиксированного времени",
+    ["<Assistant_Title1>【召唤物专攻】</>\n攻击召唤物时，每点召唤物专攻攻击提高自身的攻击1点。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[攻击]|1519}"] = "<Assistant_Title1>【Summon Specialization】</>\nWhen attacking a Summon, each point of Summon Specialization increases your Attack by 1.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Attack]|1519}",
+    ["Young Viscount · Add Safe Zone Buff to Player"] = "Young Viscount · Add Safe Zone Buff to Player",
+    ["Deep pain crushes the soul, and despair screams silently in the strings."] = "Глубокая боль сокрушает душу, отчаяние беззвучно кричит в звуках струн.",
+    ["Base Stats: Health +400, Defense +20"] = "Базовые характеристики: здоровье +400, защита +20",
+    ["{{targetPlayer.name}}反制了{{player.name}}的魅惑，将其轻松驯服，并感叹魔女的滋味真不错啊。（状态持续<Chat_Highlight>15</>分钟）"] = "{{targetPlayer.name}} противодействовал(а) очарованию {{player.name}}, легко подчинив его, и с удовлетворением отметил(а), что вкус Демоницы весьма недурён. (Статус действует <Chat_Highlight>15</> минут)",
+    ["那位造物主曾说：要有光。于是，祂座下的神性以光环代言。"] = "Тот Создатель некогда сказал: Да будет свет. И тогда божественность у Его престола стала выражаться через ореол.",
+    ["In competition mode, <Highlight> defeat </> %s/%s Mystery Pryers"] = "В арене <Highlight>победите</> %s/%s Соглядатаев",
+    ["If I had read more books when I was a child, would my life have been less difficult?"] = "Если бы я читал больше книг в детстве, была бы моя жизнь не такой трудной?",
 }

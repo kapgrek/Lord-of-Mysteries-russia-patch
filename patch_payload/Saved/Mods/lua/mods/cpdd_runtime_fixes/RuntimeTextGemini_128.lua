@@ -266,5 +266,11 @@ return {
     ["Hidden Space - No Laser Effect (370)"] = "Скрытое пространство – без лазерного эффекта (370)",
     ["Base Stats: Health +300"] = "Базовые характеристики: Здоровье +300",
     ["序列最强者"] = "Сильнейший в Последовательности",
+    ["Golden Wolf Invincibility Shield status01"] = "Golden Wolf Invincibility Shield status01",
+    ["Gold-rimmed thin-framed glasses favored by the Psychiatrist, using a sharp gaze to discern everything hidden."] = "Gold-rimmed thin-framed glasses favored by the Psychiatrist, using a sharp gaze to discern everything hidden.",
+    ["做得不错 特里斯 廷根变得更动荡了……"] = "Отлично сработано, Триси. Тинген стал ещё более неспокойным…",
+    ["Heh, what's there to pity? I'm just a passing traveler in Backlund; the sea is my only home."] = "Хех, о чём тут жалеть. Я всего лишь случайный путник, ненадолго заглянувший в Бэкланд, море — вот моя единственная родина.",
+    ["The 7th Army I belonged to was deadlocked with the Feysac Empire's troops in the Amanda Mountains for a long time."] = "Седьмая армия, в которой я служил, долго держала фронт против войск Империи Фейсак в горах Аманда.",
+    ["But where were they cast? I'm asking you, where were the gold pounds cast?"] = "Но где их отливали? Я тебя спрашиваю: где отливали золотые фунты?",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>60 to open"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }

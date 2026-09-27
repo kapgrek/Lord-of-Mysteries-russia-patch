@@ -280,4 +280,11 @@ return {
     ["Strategic Server Rank"] = "Воинское звание стратегического сервера",
     ["God's Chosen Seat Distribution Explanation"] = "Пояснение распределения мест «Избранных богом»",
     ["The watched item is now available for purchase."] = "Отслеживаемый товар доступен для покупки.",
+    ["Praise the Sun Forbidden"] = "Praise the Sun Forbidden",
+    ["通过以战养战玩法解锁。"] = "Разблокируется в режиме игры «Война войной».",
+    ["最大生命值提高200和10%。"] = "Максимальные Очки Здоровья (ОЗ) увеличиваются на 200 и на 10%.",
+    ["每次普攻技能Type=2的首技能释放固定恢复10.5法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 10.5 маны",
+    ["很少见到有人这样评价贝克兰德的天气。"] = "Редко встретишь человека, который так отзывается о погоде в Бэкланде.",
+    ["但她却一直不见踪影。"] = "Но она до сих пор не появилась.",
+    ["What's this about a haunted ancestral home you're talking about?"] = "What's this about a haunted ancestral home you're talking about?",
 }

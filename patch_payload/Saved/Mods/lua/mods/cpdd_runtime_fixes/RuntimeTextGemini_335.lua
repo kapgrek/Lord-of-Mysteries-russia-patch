@@ -286,6 +286,8 @@ return {
     ["Phantom of the Opera Epic Group Redemption Box"] = "Ящик повторной выдачи: «Призрак оперы» — эпическая группа",
     ["Waiter Irene"] = "Официантка Ирэн",
     ["The Book of the Past is reproducing history."] = "Книга Прошлого воспроизводит историю.",
+    ["Forsaken Land 3 Reserve Extra Damage"] = "Forsaken Land 3 Reserve Extra Damage",
+    ["Display_MaterialTransformation"] = "Display_MaterialTransformation",
     ["这件是我们店里最时兴的款式了，领口的蕾丝是鲁恩王室同款……"] = "Это самый модный стиль в нашем магазине; кружево на воротнике такое же, как у членов королевской семьи Лоен...",
     ["采集指定TemplateID的采集物  传送到指定场景的坐标位置"] = "Собрать предмет с указанным TemplateID, телепортироваться по координатам в указанной сцене.",
 }

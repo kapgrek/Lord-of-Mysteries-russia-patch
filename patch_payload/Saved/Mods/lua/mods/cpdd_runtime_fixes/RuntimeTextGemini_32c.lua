@@ -271,4 +271,10 @@ return {
     ["愚者棋局全国排名头衔"] = "Титул общенационального рейтинга «Гамбита Шута»",
     ["Patch"] = "Заплатка",
     ["Continue searching for the postman"] = "Продолжить искать почтальона",
+    ["Emotion Color Point - Neutral"] = "Emotion Color Point - Neutral",
+    ["Kill Energy Ball Monster"] = "Kill Energy Ball Monster",
+    ["{{player.name}}的神降仪式获得黑夜女神的恩赐——<Chat_Highlight>隐秘之拥</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость Богини Ночи — <Chat_Highlight>Объятие Скрытности</>! Славьте Её! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
+    ["Hello, my name is Lilina, and I usually sell flowers around here."] = "Здравствуйте, меня зовут Лилина, я обычно продаю цветы здесь в округе.",
+    ["好的，祝您生活愉快。"] = "Хорошо, желаю вам приятной жизни.",
+    ["找出路易身上的疑点(提示：将正确的答案填写在空格中）"] = "Найдите подозрительные моменты в рассказе Луи (подсказка: впишите правильный ответ в пропуск)",
 }

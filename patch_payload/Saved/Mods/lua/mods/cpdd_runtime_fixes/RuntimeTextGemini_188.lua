@@ -238,4 +238,9 @@ return {
     ["Eerie Joke"] = "Жуткая шутка",
     ["Memory Thief Ornate Chest Locked"] = "Похититель памяти: роскошный сундук заблокирован",
     ["How do I play Sinful Witch?"] = "Как играть за «Грешную демоницу»?",
+    ["每层提高1.5%攻击。"] = "Атака увеличена на 1,5% за каждый стак.",
+    ["怎么？你觉得我们买不起这么多土豆？"] = "Что? Думаете, мы не можем позволить себе столько картофеля?",
+    ["你的名称传遍世界，属于团长的荣耀加冕于你。"] = "Твоё имя разносится по всему миру, и слава, принадлежащая лидеру, коронует тебя.",
+    ["Shop successfully locked!"] = "Магазин успешно заблокирован!",
+    ["My Lord calls himself \"The Fool.\" In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who wields good luck, and the beacon for every living being seeking eternity."] = "My Lord calls himself \"The Fool.\" In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who wields good luck, and the beacon for every living being seeking eternity.",
 }

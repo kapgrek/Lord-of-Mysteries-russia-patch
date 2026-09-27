@@ -275,6 +275,13 @@ return {
     ["神选炽焰（30天）"] = "Пламя Богоизбранного (30 дней)",
     ["Treacherous Treasure Hunt · Start"] = "Коварные поиски сокровищ · Начало",
     ["Enter the house & Captain and Leonard perform"] = "Войти в дом & выступление капитана и Леонарда",
+    ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 5.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 5.5 маны",
+    ["Unlock all systems, add buff to obtain corresponding level PVP stats, reach level 88"] = "Разблокировать все системы, получить бафф для характеристик PvP соответствующего уровня, достигнуть 88 уровня",
+    ["Is there a private detective nearby?"] = "Здесь недалеко есть частный детектив?",
+    ["原来如此，我就知道自己当初没看走眼。"] = "Вот оно как. Я знал, что не ошибся в своё время.",
+    ["没错，炼钢厂对优质煤炭的需求很高，我们需要先把煤炭处理成焦炭，才能放进高炉中炼铁。"] = "Верно, сталелитейному заводу требуется много качественного угля. Сначала нужно превратить уголь в кокс, только потом его можно закладывать в доменную печь для выплавки железа.",
+    ["Woof, woof, woof!"] = "Woof, woof, woof!",
+    ["Eloise, why don't you leave him? He doesn't understand you at all; he just wants an obedient machine."] = "Eloise, why don't you leave him? He doesn't understand you at all; he just wants an obedient machine.",
     ["Taylor"] = "Тейлор",
     ["使用琉璃吹制工艺，造型华美。适用于每一个值得庆祝的时刻。"] = "Изготовлено с использованием мастерства выдувания стекла и имеет великолепный дизайн. Подходит для каждого момента, который стоит отпраздновать.",
 }

@@ -246,6 +246,11 @@ return {
     ["Passive skill ID"] = "ID пассивного умения",
     ["Collar and cuffs"] = "Воротник и манжеты",
     ["修改全套方案名称"] = "Изменить название полного комплекта",
+    ["伤害公式是什么？"] = "What is the damage formula?",
+    ["Unlock all systems, add buff to obtain corresponding level PVP stats, reach level 80"] = "Разблокировать все системы, получить бафф для характеристик PvP соответствующего уровня, достигнуть 80 уровня",
+    ["这批花是贝克兰德所产，由一名业已退休的宫廷园丁栽培，别的地方根本买不着！"] = "Эта партия цветов выращена в Бэкланде одним уже вышедшим на пенсию придворным садовником — больше их нигде не купишь!",
+    ["I hope to provide a simple resting place for hardworking employees and tired tourists."] = "Я хочу дать простое место для отдыха трудолюбивым работникам и усталым от прогулок туристам.",
+    ["Wake up quickly, do not indulge in a beautiful dream."] = "Скорее пробудись, не погружайся в прекрасный сон.",
     ["开启灵视  玩家设置任务标记"] = "Активировать духовное зрение; игрок устанавливает квестовую метку.",
     ["August 11th, 8 PM, Mrs. Lawis, who made a living making matchboxes on <Tips id=\"#160\">Iron Cross Street Lower Street</>, died of a sudden illness. Died of a sudden illness. \n     Due to the recent number of <Mark id=\"#159\">abnormal death cases</> exceeding the normal value, it has been handed over to the Loen Kingdom."] = "11 августа в 8 часов вечера на <Tips id=\"#160\">Нижней улице Железного Креста</> миссис Лоуис, зарабатывавшая на жизнь клейкой спичечных коробков, скоропостижно скончалась от болезни. Скоропостижно скончалась от болезни.\n     Поскольку за последнее время число <Mark id=\"#159\">подозрительных смертей</> превысило обычную норму, дело было передано Королевской полиции Лоэна.",
 }

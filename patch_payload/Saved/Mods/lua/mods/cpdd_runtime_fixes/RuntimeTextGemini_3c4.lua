@@ -279,6 +279,8 @@ return {
     ["Fun-Fight rank reached Viscount"] = "Ранг Весёлой битвы достиг Виконта",
     ["全套方案覆盖"] = "Применение всего комплекта",
     ["Already on the battlefield."] = "Уже на поле боя",
+    ["Poison ivy entwines with silence, hiding a deadly elegance within the deep dark green."] = "Poison ivy entwines with silence, hiding a deadly elegance within the deep dark green.",
+    ["Restore 10 Mana per Basic Attack. At 1 and 2 stars, restore 30 Mana after defeating the target currently selected by the skill."] = "Каждая обычная атака восстанавливает 10 маны. На 1 и 2 звёздах при уничтожении цели, выбранной этим навыком, восстанавливается 30 маны.",
     ["Monlisa"] = "Монлиза",
     ["播放Dialogue  玩家变身开始"] = "Играть в диалог; начинается трансформация игрока.",
 }

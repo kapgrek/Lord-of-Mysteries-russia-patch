@@ -236,6 +236,13 @@ return {
     ["趣斗段位达到血色亲王"] = "Ранг Весёлой битвы достиг Кровавого принца",
     ["Must go to the Strategic Server to view"] = "Нужно перейти на Стратегический сервер для просмотра",
     ["飞艇带翅膀"] = "Дирижабль с крыльями",
+    ["<Assistant_Title1>【固定基础值伤害】</>\n表示伤害基础值固定，不受与<Assistant_Red>攻击基础值</>、<Assistant_Red>技能基础值</>相关攻防属性对抗的影响，但仍然会受到基础值乘区之外属性对抗的影响。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}，{SendAnswer:[乘区]|1496}"] = "<Assistant_Title1>【Fixed Base Damage】</>\nIndicates that the base damage value is fixed and unaffected by attribute confrontations related to <Assistant_Red>Base Attack</> and <Assistant_Red>Base Skill Value</>, but it is still affected by attribute confrontations outside of the base value multiplier. \n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}, {SendAnswer:[Multiplier]|1496}",
+    ["Werewolf locked target"] = "Werewolf locked target",
+    ["Antigonus Notebook - Normal - Clown Fashion Duel"] = "Записки Антигона - Обычный - Поединок стиля «Клоун»",
+    ["Over 50 club members have earned the \"Make Tingen Great\" and \"Five-Star Good Citizen\" titles in the tabletop RPG mode."] = "Более 50 членов клуба получили звания «Сделаем Тинген великим» и «Пятизвёздочный добропорядочный гражданин» в режиме настольной ролевой игры",
+    ["From the beginning of life to the end of death, the earth witnesses everything, records everything, and erases everything."] = "От начала жизни до конца смерти земля видит всё, помнит всё и стирает всё.",
+    ["终结一击命中时有33%的基础概率击飞目标。"] = "Завершающий удар при попадании имеет базовый шанс 33% подбросить цель в воздух.",
+    ["Arrive at the strategic server Tingen to learn about the military merit and rank system."] = "Прибудьте на стратегический сервер Тинген, чтобы изучить систему военных заслуг и званий.",
     ["将死亡骑士煽动至此，完成一次对“死亡”本身的征服。"] = "Заманите сюда Рыцаря Смерти, совершив победу над самой «Смертью».",
     ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

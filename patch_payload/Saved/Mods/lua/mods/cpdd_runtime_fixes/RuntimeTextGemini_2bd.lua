@@ -252,4 +252,6 @@ return {
     ["0-08的奇妙冒险"] = "Удивительные приключения 0-08",
     ["Max Health increased by 250"] = "Максимальное здоровье повышено на 250",
     ["Refuse Fashion Duel - Riel Bieber"] = "Отклонить модный поединок — Риэль Бибер",
+    ["西尔维娅·丰饶之树（普通）"] = "Сильвия · Древо изобилия (обычный)",
+    ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight>True Knowledge of Holy Light</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
 }

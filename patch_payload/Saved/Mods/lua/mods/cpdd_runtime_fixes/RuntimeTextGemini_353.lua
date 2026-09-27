@@ -254,4 +254,9 @@ return {
     ["夜莺摇篮"] = "Колыбель соловья",
     ["Refuse Fashion Duel - Misfortune Water Giant Turtle"] = "Отклонить модный поединок — Гигантская черепаха злосчастных вод",
     ["思考迪伦的异常"] = "Подумать о странностях Дилана",
+    ["神谕加身，恩赐已至！{{player.name}}开启礼盒获得{{item.name}}。此时此刻，你已荣获神明注视。"] = "The oracle has descended, and grace has arrived! {{player.name}} opened the gift box and obtained {{item.name}}. At this very moment, you have been graced by the gaze of the God.",
+    ["本轮奖励"] = "Current Round Rewards",
+    ["Hero-Player change skill set buff"] = "Hero-Player change skill set buff",
+    ["Ugh, what a strange name..."] = "Фух, какое странное имя...",
+    ["Shopping with a woman is so boring, otherwise I would have already hooked several Tussock fish!"] = "Ходить по магазинам с женщиной так скучно, иначе я бы уже выловил несколько рыб тассок!",
 }

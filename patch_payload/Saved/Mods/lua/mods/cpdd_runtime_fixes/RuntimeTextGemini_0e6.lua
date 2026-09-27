@@ -288,5 +288,11 @@ return {
     ["Record notes"] = "Сделать запись в дневнике",
     ["The Three O'Clock Funeral"] = "Похороны в три часа",
     ["Find <h>Cawood</>"] = "Найти <h>Кавуда</>",
+    ["开战获得20点初始法力，攻击提高30%，持续15秒。"] = "Gain 20 initial Mana at the start of combat; Attack increased by 30% for 15 seconds.",
+    ["我好像明白了。"] = "Кажется, я понял.",
+    ["Goodness, I have no choice but to pray to the Goddess, hoping She can help me pass the interview."] = "Боже, мне остаётся только молиться Богине, надеясь, что Она поможет мне пройти собеседование.",
+    ["需要<Disable> 防护职业</>即使转移罗塞尔仇恨。"] = "Нужно, чтобы <Disable>класс защиты</> немедленно переключил на себя агрессию Розелль.",
+    ["获得<Yellow>【天使之羽】</>\n此为神降仪式的重要材料"] = "Получено <Yellow>«Перо ангела»</>\nЭто важный материал для ритуала схождения бога",
+    ["Perhaps. Yesterday, today, tomorrow—I haven't been keeping track."] = "Perhaps. Yesterday, today, tomorrow—I haven't been keeping track.",
     ["采集指定TemplateID的采集物  玩家跨场景传送到指定Trigger"] = "Соберите указанный элемент TemplateID. Игрок телепортируется между сценами к указанному триггеру.",
 }

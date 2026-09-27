@@ -222,6 +222,10 @@ return {
     ["天赋怎么选"] = "Как выбрать талант?",
     ["Support Peppa"] = "Поддержать Пеппу",
     ["Enter Trading Bazaar"] = "Войти на Торговую площадь",
+    ["丝绒帷幕后响起悠扬舞曲,镀金时代的余韵犹存。"] = "За бархатным занавесом звучит протяжный вальс, всё ещё живо очарование позолоченной эпохи.",
+    ["May Manor Garden - Normal - Ancestor Armor Fashion Duel"] = "Сад Майской усадьбы - Обычный - Модная дуэль: Доспехи предка",
+    ["Little Vera, what legend were they talking about just now?"] = "Маленькая Вера, о какой легенде они только что говорили?",
+    ["Some people even threw the magazine on the ground after reading a few pages, so rude!"] = "Некоторые даже бросали журнал на землю, прочитав несколько страниц, как невежливо!",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

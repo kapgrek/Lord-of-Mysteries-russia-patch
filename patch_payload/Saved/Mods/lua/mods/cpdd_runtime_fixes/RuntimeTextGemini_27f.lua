@@ -237,4 +237,12 @@ return {
     ["<Highlight>%d分钟后</>揭晓最终结果"] = "<Highlight>Через %d мин.</> будут объявлены итоговые результаты",
     ["打开<h>脚踏车锁</>"] = "Открыть <h>замок велосипеда</>",
     ["非凡远击"] = "Потусторонний дальний удар",
+    ["施法后4秒获得25%攻击与8%伤害减免。"] = "Gain 25% Attack and 8% Damage Reduction for 4 seconds after casting a spell.",
+    ["暴击后获得10%伤害加深3秒。"] = "Gain 10% Damage Increased for 3 seconds after a Critical Hit.",
+    ["<M_Default>亲爱的非凡者：</>\n恭喜您所在的俱乐部在本次霜陨领主中获得了势力第二名，您为候补成员，获得了如下奖励，请查收！"] = "<M_Default>Dear Beyonder:</>\nCongratulations to your Club for winning second place in the faction during this Frost-Fall Lord event. As a candidate member, you have received the following rewards. Please collect them!",
+    ["<M_Default>亲爱的非凡者：</>\n恭喜您所在的俱乐部在本次猎城战中获得了势力第一名，您为候补成员，获得了如下奖励，请查收！"] = "<M_Default>Dear Beyonder:</>\nCongratulations to your Club for winning first place in the faction during this Hunting City Battle. As a candidate member, you have received the following rewards. Please collect them!",
+    ["点亮心灯一簇，驱散晦暗之时。"] = "Зажжён огонёк души — миг, когда рассеивается мрак.",
+    ["攻击小猫，阻止逃跑！"] = "Атакуйте котёнка, чтобы не дать ему убежать!",
+    ["Use mobile data to download sub-package resources? This operation may consume a large amount of data."] = "Использовать мобильный трафик для загрузки дополнительных пакетов? Это может израсходовать большой объём трафика.",
+    ["Terrifying... to be able to carve out a world in the Spirit World and build such magnificent architecture, I admire the big shot behind it more and more."] = "Terrifying... to be able to carve out a world in the Spirit World and build such magnificent architecture, I admire the big shot behind it more and more.",
 }

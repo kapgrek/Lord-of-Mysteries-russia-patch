@@ -276,4 +276,9 @@ return {
     ["Equip to gain the [Spellcraft] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
     ["Spectator Main Combo Guide"] = "Обучение основным комбо: Зритель",
     ["Seer Main Combo Guide"] = "Обучение основным комбо: Провидец",
+    ["%d天%d时%d分后活动结束"] = "Event ends in %d days %d hours %d minutes",
+    ["Abandonment"] = "Abandonment",
+    ["But as long as you give me a little more capital, I'll be able to turn things around soon!"] = "Но если дать мне ещё немного капитала, я быстро смогу всё исправить!",
+    ["A person so stupid they can barely walk, yet fortunate enough to be born into a wealthy family that doesn't have to worry about making a living."] = "Человек, настолько глупый, что и шагу ступить не может, но которому посчастливилось родиться в богатой семье, где не нужно беспокоиться о хлебе насущном.",
+    ["Boil... add 150 milliliters of pure milk... stir..."] = "Boil... add 150 milliliters of pure milk... stir...",
 }

@@ -245,5 +245,12 @@ return {
     ["投骰皮肤商店"] = "Магазин скинов для кубика",
     ["Added to the prize pool after %d summons"] = "Добавляется в призовой пул после %d призывов",
     ["Sealed Artifact Illustrated Handbook Explanation"] = "Пояснение к каталогу Запечатанных Артефактов",
+    ["溢出治疗转化为至多15%最大生命值护盾。"] = "Overflow Healing is converted into a Shield of up to 15% of Max Health.",
+    ["<M_Default>亲爱的非凡者：</>\n<M_Default>您已被设置为征服先锋！请及时领取奖励。</>"] = "<M_Default> Dear Beyonder: </>\n <M_Default> You have been set as a Conquest Vanguard! Please claim your rewards in time. </>",
+    ["真知之眼三阶标志。"] = "Знак 3-го ранга Ока Истинного Знания.",
+    ["Defense reduced by 24%, lasts until the end of battle."] = "Защита снижена на 24%, действует до конца боя.",
+    ["普攻是技能吗？"] = "Является ли обычная атака умением?",
+    ["你好，我是圣风大教堂的主教萨博·塔米拉。"] = "Здравствуйте, я епископ Собора Святого Ветра, Сабо Тамира.",
+    ["您好，我是流浪歌手劳伍德，是这美妙的歌声把您吸引过来的吧。"] = "Здравствуйте, я бродячий певец Лавуд. Наверное, вас привлекло это чудесное пение?",
     ["Ximena"] = "Химена",
 }

@@ -257,5 +257,8 @@ return {
     ["Someone is calling you"] = "Кто-то зовёт вас",
     ["Iron Wall Secret Spell Witch"] = "Демоница тайного заклятия железной стены",
     ["关注物品可购买"] = "Отслеживаемый товар доступен для покупки.",
+    ["<Assistant_Title1>初启战端</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>作为会长成功发起俱乐部宣战1次。"] = "<Assistant_Title1>Initiating Hostilities</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Successfully initiate a club declaration of war as a president 1 time.",
+    ["操控效果持续时间增加为2.5秒，受影响的其他敌人在操控效果生效瞬间附加禁锢1秒。"] = "Control effect duration increased to 2.5 seconds, and other affected enemies are Imprisoned for 1 second upon the control effect taking effect.",
+    ["Hour hand forward two ticks Phantom Shadow"] = "Hour hand forward two ticks Phantom Shadow",
     ["前往指定Trigger位置  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放情绪音乐（仅自己可听）"] = "Перейти в указанную точку триггера  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок воспроизводит эмоциональную музыку (слышно только себе)",
 }

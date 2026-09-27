@@ -280,6 +280,13 @@ return {
     ["今天就到这里"] = "На сегодня всё",
     ["%s【%s,%s】"] = "%s【%s,%s】",
     ["Can't get out"] = "Не выйти",
+    ["Lilith's Ring"] = "Lilith's Ring",
+    ["Shock surrounding enemies, dealing <HighLight>120%</> attack damage; gain a shield equal to <HighLight>18%</> of your maximum health and <HighLight>8%</> Damage Reduction, lasting for <HighLight>3</> seconds."] = "Shock surrounding enemies, dealing <HighLight>120%</> attack damage; gain a shield equal to <HighLight>18%</> of your maximum health and <HighLight>8%</> Damage Reduction, lasting for <HighLight>3</> seconds.",
+    ["May I have another dance? May our souls embrace in the final waltz."] = "Позволишь пригласить тебя на ещё один танец? Пусть наши души обнимутся в последнем вальсе.",
+    ["Welcome to the depths of the city's unknown shadows. What awaits you here: sinking into sin, or redeeming each other?"] = "Добро пожаловать в неведомые глубины душевных теней этого города. Что ждёт тебя здесь: погружение в грех или взаимное спасение?",
+    ["Life Steal increased by 6% when Health is below 50%."] = "Когда здоровье ниже 50%, похищение жизни увеличено на 6%.",
+    ["错的是这个世界 你难道不准备做点什么吗？"] = "Виноват этот мир. Неужели ты не собираешься что-то с этим сделать?",
+    ["白天的乌木桌俱乐部的确体面，可等到晚上，真正的交易才正式开始。"] = "Днём клуб «Эбеновый стол» и правда выглядит респектабельно, но с наступлением ночи начинаются настоящие сделки.",
     ["Jani"] = "Яни",
     ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }

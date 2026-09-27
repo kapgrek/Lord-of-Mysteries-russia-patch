@@ -282,5 +282,11 @@ return {
     ["Achievement - Flag-Capturing Vanguard"] = "Достижение - Авангард захвата флага",
     ["Prestige"] = "Престиж",
     ["Meal"] = "Еда",
+    ["<Assistant_Title1>【基础治疗增强】</>\n表示从养成中直接获得的治疗增强。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[治疗增强]|1514}"] = "<Assistant_Title1>【Base Healing Enhancement】</>\nIndicates the Healing Enhancement obtained directly from progression.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Healing Enhancement]|1514}",
+    ["通过公会宣战场景解锁。"] = "Разблокируется через сцену объявления войны гильдией.",
+    ["前两排5人：全队防御提高10。"] = "5 союзников в передних двух рядах: защита всей команды увеличивается на 10.",
+    ["That Creator once said: Let there be light. And so, the divinity beneath His throne acts as an agent through the halo."] = "Тот Создатель некогда сказал: Да будет свет. И тогда божественность у Его престола стала выражаться через ореол.",
+    ["Remember the first time I came here? I didn't want to work at all; I just wanted you to sign something so I could get church relief."] = "Помнишь, как я пришёл в первый раз? Я вовсе не хотел работать, просто хотел, чтобы ты подписал бумагу, чтобы я мог получить церковное пособие.",
+    ["您好，尊敬的客户，有什么能为您服务的吗？"] = "Здравствуйте, уважаемый клиент, чем я могу вам помочь?",
     ["丰饶的气息……或许也是一种扭曲和污染，一种背叛和诅咒……"] = "Аромат изобилия... возможно, это тоже своего рода искажение и порча, своего рода предательство и проклятие...",
 }

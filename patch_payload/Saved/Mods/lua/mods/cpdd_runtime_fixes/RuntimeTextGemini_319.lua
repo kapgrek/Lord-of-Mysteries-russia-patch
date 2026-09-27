@@ -269,5 +269,8 @@ return {
     ["Head to Four-Way League (Not Started)"] = "Перейти в Лигу четырёх сторон (не открыто)",
     ["特别酒单"] = "Специальное меню напитков",
     ["Compliment the weather"] = "Похвалить погоду",
+    ["塔罗会·戴里克：5人档增量，全体伤害减免+0.4%。"] = "Tarot Club · Derrick: 5-person tier increment, all allies Damage Reduction +0.4%.",
+    ["Candlelight, red wine, two people leaning very close to each other."] = "Свечи, красное вино, двое, сидящие очень близко друг к другу.",
+    ["Club members can hold management positions, group positions, and Club Star titles; \nManagement positions include President, Diplomat, and Director."] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
     ["Cullen"] = "Каллен",
 }

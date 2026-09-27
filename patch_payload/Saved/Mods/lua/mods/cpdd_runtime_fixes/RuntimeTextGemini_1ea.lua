@@ -274,5 +274,10 @@ return {
     ["Treasure Department Store"] = "Универмаг сокровищ",
     ["累计召唤<Highlight>%d</>次后加入奖池"] = "Добавляется в призовой пул после <Highlight>%d</> суммарных призывов",
     ["Check the postman's <h>bicycle</>"] = "Осмотреть <h>велосипед</> почтальона",
+    ["永久+10%伤害减免"] = "Permanent +10% Damage Reduction",
+    ["坚壁结阵：追加8%最大生命值护盾。"] = "Fortress Formation: Additional 8% Max Health Shield.",
+    ["1 adjacent ally provides 9 Defense."] = "1 союзник в соседней клетке даёт 9 защиты.",
+    ["Sir! Please calm down, or I'll have to call the police!"] = "Сударь! Пожалуйста, успокойтесь, иначе я вызову полицию!",
+    ["Fresh flowers, fresh flowers!"] = "Свежие цветы, свежие цветы!",
     ["Ruola"] = "Руола",
 }

@@ -273,5 +273,11 @@ return {
     ["再摸摸口袋"] = "Снова проверить карманы",
     ["回去找<h>理查德</>"] = "Вернуться и найти <h>Ричарда</>",
     ["Twilight Mask Audiovisual Performance"] = "Аудиовизуальный эффект «Маска сумерек»",
+    ["圣光净化冷却时长减少10秒。"] = "Holy Light Purification cooldown reduced by 10 seconds.",
+    ["Black Thorn Incident Book 4-Level 4-Leader Zombie Death Add EXP buff"] = "Black Thorn Incident Book 4-Level 4-Leader Zombie Death Add EXP buff",
+    ["哼，那一天你恐怕是等不到了。"] = "Хм, боюсь, до этого дня ты не доживёшь.",
+    ["爸爸，我好想您。"] = "Папа, я так по тебе скучаю.",
+    ["But she has been nowhere to be seen."] = "Но она до сих пор не появилась.",
+    ["The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant."] = "The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant.",
     ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

@@ -293,5 +293,6 @@ return {
     ["Shoe (Lower)"] = "Обувь (низ)",
     ["独珍装备"] = "Уникальное снаряжение",
     ["歌剧魅影动作"] = "Действие «Призрак оперы»",
+    ["The driven will has departed, but the majestic Bark still echoes. \n The loyal eyes are still watching; are this year's apples fragrant?"] = "The driven will has departed, but the majestic Bark still echoes. \n The loyal eyes are still watching; are this year's apples fragrant?",
     ["监听关闭阅读界面  玩家播放仅自己可见的说话文本  延迟执行"] = "Прослушивание интерфейса чтения при закрытии. Плеер воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",
 }

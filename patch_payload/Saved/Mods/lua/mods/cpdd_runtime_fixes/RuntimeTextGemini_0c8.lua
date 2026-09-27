@@ -256,4 +256,11 @@ return {
     ["Water Theater Ticket Inspector"] = "Контролёр Водного театра",
     ["GVG跨服势力第一周积分"] = "Межсерверные очки фракции GVG за 1-ю неделю",
     ["Golden Autumn Trade Wind"] = "Золотой осенний ветер",
+    ["出手阔绰，满场艳羡！{{player.name}}竞得<Chat_Highlight>聚合因子随机礼盒</>，命运之环随之转动，开启后获得了珍稀的{{item.name}}！"] = "A lavish spender, the envy of all! {{player.name}} won the <Chat_Highlight>Aggregation Factor Random Gift Box</>. The Wheel of Fortune turned, and upon opening it, they obtained the rare {{item.name}}!",
+    ["<Assistant_Title1>【观众压制】</>\n攻击观众途径的非凡者时，提高自身的伤害一定百分比。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Spectator Suppression】</>\nWhen attacking a Beyonder of the Spectator pathway, increase your own damage by a certain percentage.\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["途径压制增加*f**。"] = "Подавление Пути увеличивается на *f**.",
+    ["{{PlayerName}}: <P_Heart>(Next, I must be careful using Hermes. I cannot actually summon anything, but I need to cause a certain fluctuation.)</>"] = "{{PlayerName}}: <P_Heart>(Далее нужно осторожно использовать язык Гермеса. Нельзя действительно призвать что-либо, но нужно вызвать определённое колебание.)</>",
+    ["This is a matter of professional dignity. If I need someone to help pull me out every time I get stuck, how can I still print 'Roller the Brave' on the posters!"] = "Это вопрос профессиональной гордости. Если каждый раз, когда я застряну, мне нужна помощь, чтобы меня вытащили, как я тогда могу печатать на афишах «Смельчак Ролл»!",
+    ["Using the currently selected Vitality Sugar will cause your remaining vitality to exceed the limit, and it will no longer naturally recover. Do you wish to continue?"] = "Использование выбранного сахара бодрости приведёт к превышению лимита оставшейся бодрости, и естественное восстановление прекратится. Продолжить?",
+    ["Identify the suspicious points about Louis (Hint: Fill in the correct answer in the blank)"] = "Найдите подозрительные моменты в рассказе Луи (подсказка: впишите правильный ответ в пропуск)",
 }

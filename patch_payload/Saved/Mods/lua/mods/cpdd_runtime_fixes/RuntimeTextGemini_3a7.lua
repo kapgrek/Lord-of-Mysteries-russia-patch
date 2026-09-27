@@ -254,5 +254,11 @@ return {
     ["Dragon Hunt: Witness Treasure Chest"] = "Охота на дракона: Сундук свидетеля",
     ["听听<h>士兵</>的谈话"] = "Послушать разговор <h>солдата</>",
     ["人气值排名"] = "Рейтинг популярности",
+    ["<Assistant_Title1>【击倒闪避】</>\n降低被击倒控制命中的概率，最多使基础命中率降低一半，抵消控制来源的击倒命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Knockdown Dodge】</>\nReduces the probability of being hit by knockdown control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Knockdown Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["<Assistant_Title1>【歌颂者压制】</>\n攻击歌颂者途径的非凡者时，提高自身的伤害一定百分比。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Bard Suppression】</>\nWhen attacking a Beyonder of the Bard pathway, increase your own damage by a certain percentage.\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["伤害怎么算？"] = "How is damage calculated?",
+    ["Monster to Player Generic Marker buff"] = "Monster to Player Generic Marker buff",
+    ["Those who have been turned into apples, come over here!"] = "Те, кого превратили в яблоко, скорее сюда!",
+    ["The first stage of Sword Qi has a 60% base chance to cause Knockback on hit targets."] = "Первая волна Ци меча имеет базовый шанс 60% отбросить попавшую под удар цель.",
     ["Zanna"] = "Занна",
 }

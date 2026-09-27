@@ -257,6 +257,9 @@ return {
     ["60装等非凡橙色装备箱"] = "Оранжевый ящик экипировки Потусторонних (60 ур.)",
     ["华丽落幕·终"] = "Пышный финал · Конец",
     ["Preparing %M:%S"] = "Подготовка %M:%S",
+    ["A replica of the Antigonus Family notes, but other than attracting the holder to write \"Everyone will not die, including me,\" it has no other Beyonder effects."] = "A replica of the Antigonus Family notes, but other than attracting the holder to write \"Everyone will not die, including me,\" it has no other Beyonder effects.",
+    ["当我们的视线暂时从身为秩序阴影的结局转移，无尽的知识洪流也在罗塞尔的生命中谱写了抗争绝唱。"] = "Когда наш взгляд ненадолго отрывается от финала, ставшего тенью Порядка, бескрайний поток знаний также сложил в жизни Розелль последнюю песнь борьбы.",
+    ["如你所见，找个安静的地方，眺望贝克兰德的街景。"] = "Как видишь, нашёл тихое местечко, чтобы любоваться видом улиц Бэкланда.",
     ["是否确认永久删除角色\n（删除后昵称将在开服30天后释放）"] = "Подтверждаете безвозвратное удаление персонажа?\n(После удаления имя персонажа освободится через 30 дней после запуска сервера)",
     ["Hazel"] = "Хейзел",
 }

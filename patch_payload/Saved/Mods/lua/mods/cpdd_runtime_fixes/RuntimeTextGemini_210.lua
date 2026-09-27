@@ -262,6 +262,13 @@ return {
     ["装备任务3"] = "Задание снаряжения 3",
     ["打断"] = "Прерывание",
     ["邪恶失败"] = "Поражение зла",
+    ["车轮碾过石子路，古堡在暮色中沉默伫立，这条环形公路如同一遍遍无止的轮回。"] = "Колёса катятся по каменистой дороге, древний замок молча возвышается в сумерках, а эта кольцевая дорога подобна бесконечному круговороту.",
+    ["If only Father were still here... he was clearly a hero of Backlund."] = "Если бы отец был жив… ведь он был настоящим героем Бэкланда.",
+    ["Input content contains sensitive words; please modify and try again."] = "Введённый текст содержит запрещённые слова, измените его и попробуйте снова",
+    ["My money is all in there! You'll be sorry if you lose!"] = "Все мои деньги там! Проиграешь — пожалеешь!",
+    ["What \"cats and dogs in the shop,\" this is a complete scam!"] = "Что за «кошки и собаки в лавке», это же полное мошенничество!",
+    ["Yes, they use names related to textiles, and only their leader has a decent name, called Hunter."] = "Yes, they use names related to textiles, and only their leader has a decent name, called Hunter.",
+    ["Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration."] = "Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration.",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

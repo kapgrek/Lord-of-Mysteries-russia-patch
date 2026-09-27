@@ -275,6 +275,11 @@ return {
     ["Sword Shadows · Start"] = "Отблески клинков · Начало",
     ["贾斯"] = "Джас",
     ["说明“仪式”需要"] = "Объяснить, что нужно для «ритуала»",
+    ["<Assistant_Title1>【受击状态】</>\n包括打断、击退、击倒、击飞、浮空、僵直、拖拽，是一类拥有<Assistant_Red>固定时长</>和<Assistant_Red>特定表现</>的控制效果，期间无法移动、闪避、跳跃、使用技能。\n<Assistant_Title2>温馨提示：</>受击状态的持续时长是固定的，因此不受<Assistant_Property1>控制增强</>和<Assistant_Property1>控制抵挡</>的影响。\n<Assistant_Title2>控制失手：</>控制效果会被<Assistant_Red>霸体</>免疫，并且存在命中概率。<Assistant_Property1>控制命中</>可以提高自身控制命中的概率，<Assistant_Property2>控制闪避</>可以提高自身闪避他人控制的概率。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Hit State】</>\nIncludes interruption, knockback, knockdown, knockup, aerial, stiffness, and drag. It is a type of crowd control effect with a <Assistant_Red>fixed duration</> and <Assistant_Red>specific performance</>, during which you cannot move, dodge, jump, or use skills.\n<Assistant_Title2>Note: </>The duration of a Hit State is fixed, so it is not affected by <Assistant_Property1>Control Enhancement</> and <Assistant_Property1>Control Block</>.\n<Assistant_Title2>Control Failure: </>Control effects can be immunized by <Assistant_Red>Super Armor</>, and there is a hit probability. <Assistant_Property1>Control Hit</> can increase your own probability of landing control effects, and <Assistant_Property2>Control Dodge</> can increase your own probability of dodging others' control effects.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effect]|1467}",
+    ["Base Stats: Attack +20%, Health +200, Crit +10%"] = "Базовые характеристики: Атака +20%, Здоровье +200, Крит. удар +10%",
+    ["Cleanse crowd control and restore 15% of Max Health the first time Health drops below 40%."] = "При первом падении здоровья ниже 40% снимает контроль и восстанавливает 15% максимального здоровья.",
+    ["解锁所有系统，加buff获取对应等级PVP向属性，达到91级"] = "Разблокировать все системы, получить бафф для характеристик PvP соответствующего уровня, достигнуть 91 уровня",
+    ["暂不支持人脉上传展台，上传后对应人脉角色将被移除。"] = "Загрузка контактов на стенд временно не поддерживается: после загрузки соответствующий персонаж-контакт будет удалён.",
     ["提交道具（设置提交参数）  玩家移除任务道具（全部删除）"] = "Сдать предмет (настройка параметров сдачи)  Игрок удаляет задание (удалить всё)",
     ["Emil"] = "Эмиль",
 }

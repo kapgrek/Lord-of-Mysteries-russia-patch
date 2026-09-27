@@ -264,6 +264,8 @@ return {
     ["Base Stats: Health +200"] = "Базовые характеристики: Здоровье +200",
     ["施法标记"] = "Метка применения заклинания",
     ["Refuse_Sylvia"] = "Отказ_Сильвия",
+    ["当前势力对巨龙累计造成伤害10%"] = "Current faction has dealt 10% total damage to the Dragon",
+    ["Mind you, this isn't just idle social chatter about the weather—"] = "Mind you, this isn't just idle social chatter about the weather—",
     ["Let's bury Andy tonight.\nHe was a good policeman and a good undercover agent. Bring a bouquet of flowers for him on my behalf.\nThe orders from above are: don't ask anything, don't say anything.\nAlso... be careful!"] = "Похороните Энди сегодня ночью.\nОн был хорошим полицейским и преданным агентом под прикрытием. Положите от меня букет цветов на его могилу.\nПриказ сверху: ни о чём не спрашивать и ничего никому не говорить.\nИ ещё... будьте осторожны!",
     ["Sandra"] = "Сандра",
     ["Kinsley"] = "Кинсли",

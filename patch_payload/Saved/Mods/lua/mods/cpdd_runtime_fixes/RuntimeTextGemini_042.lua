@@ -257,5 +257,9 @@ return {
     ["补领商店"] = "Возмещение",
     ["<CostRed>{1,2,（烙印已失效）}</>破防提高<Mark>160</>，防御降低<Mark>15</>。使装备者获得威瑟尔家族的<Mark>美德</>。\n<Mark>美德</>：武器<Mark>知识之乡</>会根据小队成员拥有的<Mark>美德</>额外提高攻击加成效果。\n激活套装<Mark>铁与血誓约</>时不生效。"] = "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>160</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["<CostRed>{1,2, (Brand Expired) }</>Max Health increased by <Mark>500</>, Skill Block increased by <Mark>50</>. \nDoes not take effect when the <Mark>Echo of Spirit and Knowledge</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Максимальное здоровье повышается на <Mark>500</>, блокирование навыков повышается на <Mark>50</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>.",
+    ["攻击提高27%，伤害加深提高13.5%。"] = "Attack increased by 27%, Damage Amplification increased by 13.5%.",
+    ["Mark_Trinity 01"] = "Mark_Trinity 01",
+    ["Sin Purification Amplification"] = "Sin Purification Amplification",
+    ["I used to think it was a bit eerie and cold here."] = "Раньше мне казалось, что здесь как-то жутковато и холодно.",
     ["Salma"] = "Сальма",
 }

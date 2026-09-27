@@ -248,6 +248,10 @@ return {
     ["风尚决斗-先祖铠甲"] = "Дуэль стиля — Доспехи предков",
     ["已在战场中"] = "Уже на поле боя",
     ["I have other things to do, leaving now"] = "У меня есть другие дела, ухожу",
+    ["I shared an Art School scheme %s %s"] = "Я поделился схемой Школы искусства %s %s",
+    ["The bar isn't serving hard liquor for now; go have a drink at the club!"] = "Бар временно не подаёт крепкие напитки — сходите выпить в клуб!",
+    ["Alright, thank you for the trouble."] = "Хорошо, спасибо за беспокойство.",
+    ["Your previous adventure experience must be very rich, aren't you considering re-experiencing an exciting life?"] = "Your previous adventure experience must be very rich, aren't you considering re-experiencing an exciting life?",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

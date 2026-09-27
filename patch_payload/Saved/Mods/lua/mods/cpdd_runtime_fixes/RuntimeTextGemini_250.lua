@@ -254,6 +254,10 @@ return {
     ["命运余音"] = "Отголоски судьбы",
     ["风衣外侧"] = "Внешняя сторона тренча",
     ["交易所说明"] = "Пояснение биржи",
+    ["途径独立减伤"] = "Pathway Independent Damage Reduction",
+    ["<Assistant_Title1>【拖拽】</>\n拥有<Assistant_Red>固定时长</>的控制效果，期间无法移动、闪避、跳跃、使用技能，被拖拽的对象将被<Assistant_Red>强制位移</>，靠近施法方一段距离。\n<Assistant_Title2>控制失手：</>拖拽效果会被<Assistant_Red>霸体</>免疫，并且存在命中概率。<Assistant_Property1>拖拽命中</>可以提高自身拖拽控制命中的概率，<Assistant_Property2>拖拽闪避</>可以提高自身闪避他人拖拽控制的概率。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[受击状态]|1466}"] = "<Assistant_Title1>【Drag】</>\nA control effect with a <Assistant_Red>fixed duration</>, during which you cannot move, dodge, jump, or use skills. The dragged target will be <Assistant_Red>forced into displacement</>, moving a certain distance closer to the caster.\n<Assistant_Title2>Control Failure: </>Drag effects can be immunized by <Assistant_Red>Super Armor</>, and there is a hit probability. <Assistant_Property1>Drag Hit</> can increase your own probability of landing drag control, and <Assistant_Property2>Drag Dodge</> can increase your own probability of dodging others' drag control.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Hit State]|1466}",
+    ["Light Hit Every 2 Seconds"] = "Light Hit Every 2 Seconds",
+    ["I used to be a shallow believer of the Goddess, back when I was on the farm. It's rare to get on land, so it feels nice to come back and take a look."] = "Раньше я был поверхностным верующим богини, когда жил на ферме. Редко выпадает случай побывать на суше, и приятно вернуться и оглядеться.",
     ["Emerson"] = "Эмерсон ·",
     ["但……我不会停留"] = "Но... я не останусь",
 }

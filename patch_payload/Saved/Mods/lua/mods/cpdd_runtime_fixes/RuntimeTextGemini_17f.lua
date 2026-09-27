@@ -254,5 +254,9 @@ return {
     ["Fun-Fight rank reached Blood Prince"] = "Ранг Весёлой битвы достиг Кровавого принца",
     ["幻术表演·终"] = "Иллюзионное представление · Конец",
     ["Witch's"] = "Демоницы",
+    ["<Assistant_Title1>打的就是你</>\n<Assistant_Title2>成就分类：</>以战养战-征伐\n<Assistant_Title2>解锁条件：</>俱乐部宣战参与1次。"] = "<Assistant_Title1>I'm Here to Beat You</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Conquest\n<Assistant_Title2>Unlock Condition: </>Participate in a club declaration of war 1 time.",
+    ["Black Thorn Incident Book 4-Level 4-Wall HP buff"] = "Black Thorn Incident Book 4-Level 4-Wall HP buff",
+    ["买报纸？"] = "Купить газету?",
+    ["Roll a 20! Critical success!"] = "Roll a 20! Critical success!",
     ["等等！小女孩，你叫什么名字？"] = "Ждать! Маленькая девочка, как тебя зовут?",
 }

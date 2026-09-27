@@ -235,4 +235,10 @@ return {
     ["Prohibit corpse burning during the duration"] = "В течение действия эффекта труп нельзя сжечь",
     ["点击<h>此处</>可以打开战略服大地图，前往战略服廷根场景。"] = "Нажмите <h>здесь</>, чтобы открыть карту мира стратегического сервера и перейти на локацию Тинген стратегического сервера.",
     ["分解其余已勾选"] = "Разобрать остальные отмеченные",
+    ["每受到4次普攻，对1格内敌人造成95魔法伤害。"] = "Every 4 basic attacks received, deal 95 magic damage to enemies within 1 tile.",
+    ["<Assistant_Title1>【获得护盾增幅】</>\n获得的护盾量提高一定百分比。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[护盾]|1631}"] = "<Assistant_Title1>【Shield Gain Boost】</>\nIncreases the amount of Shield gained by a certain percentage.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Shield]|1631}",
+    ["战略服荣耀同享奖励"] = "Strategic Server Glory Sharing Reward",
+    ["<DecH> Craft: </> Night Tapestry \n Under the deep night, whispers grow in the salon. Just now, whose snowy fur brushed against my palm?"] = "<DecH>Материал:</> Гобелен ночи\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",
+    ["The determination to protect is the dawn of darkness."] = "Решимость защищать — это и есть рассвет Тьмы.",
+    ["Rather than satisfying requirements, she needs someone who can understand her to be by her side."] = "Rather than satisfying requirements, she needs someone who can understand her to be by her side.",
 }

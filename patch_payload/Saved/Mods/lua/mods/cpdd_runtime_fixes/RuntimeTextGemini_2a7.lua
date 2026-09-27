@@ -293,6 +293,8 @@ return {
     ["摆放<h>香料</>"] = "Разложить <h>специи</>",
     ["Find a place with fewer people"] = "Найти место, где меньше людей",
     ["准备潜入庭院"] = "Подготовиться к проникновению во двор",
+    ["A welfare system established by believers of the Church of The Fool. Thank you to all sectors of society for your support of the Church of The Fool. \n Listen to the \"Sacred Code of The Fool,\" praise The Fool! May the grace of my Lord be with you day and night, becoming the eternal, unextinguishable lamp on your path forward!"] = "A welfare system established by believers of the Church of The Fool. Thank you to all sectors of society for your support of the Church of The Fool. \n Listen to the \"Sacred Code of The Fool,\" praise The Fool! May the grace of my Lord be with you day and night, becoming the eternal, unextinguishable lamp on your path forward!",
+    ["可猎犬终究属于伊文思先生，令人惊讶的是，刚刚破产的波尔甘先生败诉后，决定倾尽积蓄，把猎犬买了过来。"] = "Но гончая всё же принадлежала мистеру Эвансу. Удивительно, но недавно разорившийся мистер Болган, проиграв суд, решил потратить все свои сбережения, чтобы выкупить гончую.",
     ["Gather collection item with specified TemplateID  Object sends scene event"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["我明明是一个人！你侮辱我人格！接招！"] = "Я явно всего лишь один человек! Вы оскорбляете мой характер! Возьми это!",
 }

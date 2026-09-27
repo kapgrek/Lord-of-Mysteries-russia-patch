@@ -281,4 +281,9 @@ return {
     ["Dice Skin Shop"] = "Магазин скинов для кубика",
     ["Divine Descent: Glory Weaving - Finery"] = "Нисхождение Бога: Плетение Славы — Наряд",
     ["\"Old Man\""] = "«Старик»",
+    ["Backlund 2 - Bargaining - Memory Retrace"] = "Бэкланд 2 - Торг - Воспоминание",
+    ["罗塞尔大帝·大帝重临（普通）"] = "Император Роселл · Возвращение императора (обычный)",
+    ["Councilor, I hope you will take the lead in passing the bill on environmental protection, completely banning the use of low-quality coal by government departments."] = "Господин советник, я надеюсь, что вы возглавите принятие законопроекта об охране окружающей среды и полностью запретите использование низкокачественного угля государственными органами.",
+    ["在竞技玩法中<Highlight>击败</>%s/%s名格斗学者"] = "В соревновательном режиме <Highlight>победите</>%s/%s Боевых Учёных",
+    ["获得<PVPHighlight>%s</>点猎杀进度。"] = "Получено <PVPHighlight>%s</> очков прогресса охоты.",
 }

@@ -257,6 +257,8 @@ return {
     ["Promote"] = "Повысить",
     ["勇士失败"] = "Поражение воина",
     ["Over-budget grand burial"] = "Пышные похороны сверх бюджета",
+    ["Rescue Count Marker buff"] = "Rescue Count Marker buff",
+    ["It's alright. No matter when, I am always willing to introduce you to my Lord, the great Mr. Fool."] = "It's alright. No matter when, I am always willing to introduce you to my Lord, the great Mr. Fool.",
     ["对啊！结果我的小猫……叼走了，一下子……一切都没了……"] = "Это верно! В конце концов, мой котёнок... украл его, и вдруг... всё пропало...",
     ["Display Layer:"] = "Слой отображения:",
     ["这是对食物的谋杀！煮过头的卷心菜、干硬的炖莴苣、像水一样的豌豆汤……"] = "Это убийство против еды! Переваренная капуста, сухой и жесткий тушеный салат, гороховый суп со вкусом воды...",

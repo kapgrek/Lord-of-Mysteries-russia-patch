@@ -240,6 +240,11 @@ return {
     ["Sequence 7: Weapon Master"] = "Последовательность 7 Мастер Оружия",
     ["Sequence 7: Witch"] = "Последовательность 7 Ведьма",
     ["1 Invisibility charge remaining."] = "Осталось 1 применение невидимости.",
+    ["Stiffness Every 2 Seconds"] = "Stiffness Every 2 Seconds",
+    ["GVGHonor Exit Inner Area - Unlimited uses, supports multi-player interaction"] = "Выход с арены GVGHonor — неограниченное количество раз, поддерживает взаимодействие нескольких игроков",
+    ["Backlund 8 - Mysterious Miss - Memory Retrace"] = "Бэкланд 8 - Таинственный промах - Воспоминание",
+    ["Faction Battle Report: The <Chat_Highlight>{{eventMessageParams.guildName}}</> Club has joined forces to hunt <Chat_Highlight>{{eventMessageParams.killCount}}</> hostile Beyonders in the <Chat_Highlight>City of Dragon Hunting</> today. Wherever the war banner points, the enemy lines crumble!"] = "Боевая сводка фракции: клуб <Chat_Highlight>{{eventMessageParams.guildName}}</> сегодня совместно убил <Chat_Highlight>{{eventMessageParams.killCount}}</> враждебных Потусторонних в <Chat_Highlight>Городе Охоты на Драконов</>. Куда указывает боевое знамя, там ряды врага рушатся!",
+    ["Sir, please also look at this. The raw material is gum from the Southern Continent, please try it."] = "Сударь, взгляните и на это. Сырьё — жевательная резинка с Южного континента, прошу, попробуйте.",
     ["之前安保公司的伦纳德先生帮助过我。听说他还是一位“贵族诗人”，我抄写了诗歌……能帮忙转交吗？"] = "Раньше мне помогал господин Леонард из охранной компании. Я слышал, что он тоже «благородный поэт», и я скопировал несколько стихов... не могли бы вы помочь мне передать их?",
     ["这个秘密也被你发现了？我还有个小小的神奇物品……"] = "Эту тайну открыли и вы? Еще у меня есть небольшой мистический предмет...",
 }

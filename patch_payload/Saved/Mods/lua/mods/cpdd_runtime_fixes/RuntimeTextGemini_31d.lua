@@ -238,5 +238,11 @@ return {
     ["向<HighLight>全部</>敌方棋子下达拘捕令，对每名目标造成{*d,F1690001,atkMin,50}点攻击伤害，并拉至身前。"] = "Выписывает ордер на арест <HighLight>всех</> вражеских фигур: наносит каждой цели {*d,F1690001,atkMin,50} ед. урона от атаки и притягивает её к себе.",
     ["Gold Pound Contract+"] = "Контракт на золотые фунты+",
     ["Title: Simplicity is Truth"] = "Титул: Простота — вот истина",
+    ["Cultivation is endless, and the star tracks and Tarot never stop. Continue to advance toward the mysteries and divine more enlightenment about the future."] = "Cultivation is endless, and the star tracks and Tarot never stop. Continue to advance toward the mysteries and divine more enlightenment about the future.",
+    ["愚者请帮我注销他的诡秘账号。"] = "Шут, помоги мне закрыть его загадочный аккаунт.",
+    ["基础属性：攻击+20%，法力恢复+2"] = "Базовые характеристики: атака +20%, восстановление маны +2",
+    ["Go, of course I'll go! It's just... I just finished dinner, and exciting activities are bad for the stomach, you know? Medical common sense."] = "Пойду, конечно пойду! Просто... я только доел, а бурная активность плохо влияет на желудок, понимаешь? Элементарная медицина.",
+    ["Is there a problem with the article you wrote?"] = "Есть какие-то проблемы со статьёй, которую вы написали?",
+    ["是否前往花海萨默尔太太处回顾誓约时刻？"] = "Отправиться к госпоже Саммер в Море цветов, чтобы вспомнить момент Обета?",
     ["任务自定义事件  玩家播放情绪音乐（仅自己可听）  对象同场景传送"] = "Пользовательское событие квеста; плеер играет эмоциональную музыку (слышно только ему самому); объект телепортируется в пределах одной сцены.",
 }

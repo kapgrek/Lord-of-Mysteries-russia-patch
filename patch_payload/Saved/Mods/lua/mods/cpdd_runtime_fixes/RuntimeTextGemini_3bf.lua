@@ -283,6 +283,13 @@ return {
     ["<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>120</>. While in combat, increases the entire team's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>120</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["Teleport Confirm"] = "Подтверждение телепортации",
     ["Werewolf successfully returned to position."] = "Оборотень успешно вернулся на позицию.",
+    ["战略服霜陨领主候补奖励"] = "Strategic Server Frost-Fall Lord Candidate Reward",
+    ["Forsaken Land 5 Reserve Damage"] = "Forsaken Land 5 Reserve Damage",
+    ["Footprints Sharpening"] = "Footprints Sharpening",
+    ["Attack increased by 10% per stack, up to 5 stacks."] = "Атака увеличена на 10% за каждый стак, максимум 5 стаков",
+    ["不管怎么样，我喜欢这个双赢的游戏。他们收获了胜利，而我则收获了清净。"] = "В любом случае, мне нравится эта игра, где выигрывают все. Они получают победу, а я — тишину и покой.",
+    ["剩余时间：%d天%d时%d分"] = "Осталось времени: %d дн. %d ч. %d мин.",
+    ["Haha, tastes great, right? It's my family's secret recipe. You won't find such fragrant craft brew even in Intis."] = "Haha, tastes great, right? It's my family's secret recipe. You won't find such fragrant craft brew even in Intis.",
     ["Caravan Location:"] = "Местонахождение каравана:",
     ["与Npc进行对话  玩家根据InstanceID列表创建公有对象（大世界不生效）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Разговор с NPC Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире)",
 }

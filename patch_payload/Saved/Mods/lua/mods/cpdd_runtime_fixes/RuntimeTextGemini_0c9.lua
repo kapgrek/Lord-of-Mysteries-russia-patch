@@ -233,4 +233,8 @@ return {
     ["假好友"] = "Поддельный друг",
     ["Cheers and applause are heard"] = "Раздаются приветственные возгласы и аплодисменты",
     ["退出战略服"] = "Выйти со стратегического сервера",
+    ["基础属性：生命+250、伤害减免+5%"] = "Base stats: Health +250, Damage Reduction +5%",
+    ["Wishing Lamp: Cleanse skill highlight when below 50% HP"] = "Wishing Lamp: Cleanse skill highlight when below 50% HP",
+    ["呃……这是什么……我怎么会知道？"] = "Эм... что это... откуда мне знать?",
+    ["朴实无华的最基础旗帜，创建俱乐部即可使用"] = "Простой, ничем не украшенный базовый флаг. Доступен сразу при создании клуба",
 }

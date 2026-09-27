@@ -289,6 +289,10 @@ return {
     ["晴华锦仪"] = "Солнечная парча",
     ["荣耀展示"] = "Демонстрация славы",
     ["Collect vegetables"] = "Собрать овощи",
+    ["你不是一直都很奇怪 我们的高层为什么都是女性？"] = "Тебе не всегда было интересно, почему всё наше руководство состоит из женщин?",
+    ["改名将在重登后生效。"] = "Изменение имени вступит в силу после повторного входа.",
+    ["Wherever you want to go, I will get you there on time!"] = "Куда бы ты ни хотел поехать, я доставлю тебя туда точно в срок!",
+    ["<P_Heart>(Something unclean? It might be Beyonder power, go take a look with him.)</>"] = "<P_Heart>(Something unclean? It might be Beyonder power, go take a look with him.)</>",
     ["Jelu"] = "Джелу",
     ["Warren"] = "Уоррен",
 }

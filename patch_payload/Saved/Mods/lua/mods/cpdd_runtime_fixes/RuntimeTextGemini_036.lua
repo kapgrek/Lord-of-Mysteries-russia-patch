@@ -256,6 +256,13 @@ return {
     ["Four-Faction 240-Player Large-Scale Battlefield"] = "Масштабное поле боя на 240 игроков для четырёх фракций",
     ["决斗之时"] = "Время дуэли",
     ["记忆结束"] = "Воспоминание закончилось",
+    ["<M_Default>致尊敬的非凡者：</>\n您所在的俱乐部在世界战略服的征战中脱颖而出，赢得了凯旋花车的巡游资格。\n从梧桐大道到中央广场，从金梧桐大街到廷根大桥，城市将为你铺开整条街的欢呼与烟火。这份荣耀，属于每一位并肩征战的成员！\n现在前往俱乐部活动界面，可设置巡游队列，选定时间——整座城市，正等候着你们的凯旋归来。请前往<HyperLink stylename=\"M_Link\" u=\"jump=1250032\">【花车巡游】</>查看。"] = "<M_Default> To the respected Beyonder: </>\n Your club stood out in the strategic server's campaign and won the qualification for the Triumphant Float Parade. \n From Wutong Avenue to Central Plaza, from Golden Wutong Street to Tingen Bridge, the city will unfold a whole street of cheers and fireworks for you. This glory belongs to every member who fought side by side! \n Go to the club event interface now to set the parade queue and select a time—the whole city is waiting for your triumphant return. Please go to <HyperLink stylename=\"M_Link\" u=\"jump=1250032\"> [Float Parade] </> to view.",
+    ["Fire three starlight bullets, dealing <HighLight>60%/60%/90%</> attack damage respectively; the third hit restores <HighLight>6</> mana."] = "Fire three starlight bullets, dealing <HighLight>60%/60%/90%</> attack damage respectively; the third hit restores <HighLight>6</> mana.",
+    ["Knowledge flows between the buildings, and young seekers of truth pursue it here."] = "Знание перетекает между зданиями, молодые искатели истины стремятся сюда за правдой.",
+    ["Lighting a heart lamp, the moment to dispel the gloom."] = "Зажжён огонёк души — миг, когда рассеивается мрак.",
+    ["黄昏领域的半径增加4米，影响人数增加2人"] = "Радиус Сумеречного владения увеличен на 4 метра, количество затронутых целей увеличено на 2",
+    ["可是在那场大雾霾中，为了救更多的人，父亲最终还是被那场可怕的瘟疫夺走了生命。"] = "Но во время того великого смога, пытаясь спасти как можно больше людей, отец в итоге сам пал жертвой той ужасной чумы.",
+    ["Coastline Restaurant is practically my second home..."] = "Ресторан «Костлайн» — это практически мой второй дом...",
     ["我曾经是这片大地的主人，手持火炮、纵横五海。在属于我的年代里，踩在所有国家的头上，何等畅快！"] = "Когда-то я был владыкой этих земель, сжимая пушки и бороздя Пять Морей. В мою эпоху попирать все государства мира — какое же это было упоение!",
     ["……那我们就在领地战斗？"] = "...Тогда будем драться на территории?",
 }

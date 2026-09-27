@@ -254,6 +254,8 @@ return {
     ["Achievement - Sequence Elite"] = "Достижение - Лучший из Последовательности",
     ["打木桩"] = "Удары по манекену",
     ["Secret Peeking · End"] = "Разведка тайн · Конец",
+    ["<Assistant_Title1>【拖拽命中】</>\n提高对目标拖拽控制的命中概率，最多使基础命中率变为2倍，受到目标拖拽闪避的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Drag Hit】</>\nIncreases the hit probability of Drag control effects on the target, at most making the base hit rate 2 times, offset by the target's Drag Dodge.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Control Effect]|1467}",
+    ["Forsaken Land 7 Battle Damage"] = "Forsaken Land 7 Battle Damage",
     ["我真想能有一张十镑的钞票，好向你们展示那位“立国者”——威廉一世！"] = "Как бы мне хотелось иметь десятифунтовую банкноту, чтобы показать вам «Основателя государства» — Уильяма I!",
     ["是那种……看完回去睡不着觉的舞。"] = "Они из тех... которые не дают спать по ночам после того, как ты их увидел.",
 }

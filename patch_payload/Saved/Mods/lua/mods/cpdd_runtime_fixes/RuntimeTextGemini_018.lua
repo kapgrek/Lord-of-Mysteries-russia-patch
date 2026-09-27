@@ -244,6 +244,12 @@ return {
     ["Drop Banana Peel"] = "Бросить банановую кожуру",
     ["分配席位"] = "Назначить места",
     ["简单和<h>威尔</>说明情况"] = "Коротко объяснить ситуацию <h>Уиллу</>",
+    ["Ember Priest Break Expression"] = "Ember Priest Break Expression",
+    ["Increase Beyonder material Inventory capacity by 100 slots."] = "Увеличивает лимит инвентаря необычных материалов на 100 ячеек",
+    ["No more wandering, no more starving, no more being bought and sold, no more getting hurt..."] = "Больше не нужно скитаться, не нужно голодать, не нужно быть проданной, не нужно быть раненой…",
+    ["当然了，我知道有家餐馆，他们的厨师全都来自南大陆，菜肴更是一等一的好。"] = "Конечно, я знаю один ресторан, все повара там с Южного континента, а блюда просто первоклассные.",
+    ["岁月流逝，唯有永恒不朽。祂以皇帝的名号加冕于你，从此时间亦在你面前臣服。"] = "Годы утекают, но вечность нетленна. Он коронует тебя титулом императора, и с этого момента само время склоняется перед тобой.",
+    ["The <Reminder_Orange>%s</> you were selling at the stall has been sold. The review period is <Reminder_Orange>%d</> hours. After the review passes, you can receive <Reminder_Orange>%d</> Strategic Gold Pounds."] = "Ваш товар <Reminder_Orange>%s</>, выставленный на прилавке, продан. Период проверки — <Reminder_Orange>%d</> ч. После прохождения проверки вы получите <Reminder_Orange>%d</> стратегических Золотых фунтов.",
     ["收获%d/100个优质食坊物产。"] = "Соберите %d/100 первоклассных продуктов кулинарной лавки.",
     ["Roxanne"] = "Роксана",
 }

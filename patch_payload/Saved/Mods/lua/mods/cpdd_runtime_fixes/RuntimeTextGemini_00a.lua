@@ -241,6 +241,11 @@ return {
     ["Lost Ruins"] = "Потерянные руины",
     ["披风花纹"] = "Узор плаща",
     ["选手排名"] = "Рейтинг участников",
+    ["The brilliant golden light interweaves with the clear radiance of emeralds, light and shadow floating, chanting a silent hymn."] = "The brilliant golden light interweaves with the clear radiance of emeralds, light and shadow floating, chanting a silent hymn.",
+    ["Crimson Will condenses <HighLight>3</> Crimson Sword Qi, dealing a total of <img id=\"03\" width=\"40\" height=\"40\"/> attack damage <HighLight>210%</>."] = "Crimson Will condenses <HighLight>3</> Crimson Sword Qi, dealing a total of <img id=\"03\" width=\"40\" height=\"40\"/> attack damage <HighLight>210%</>.",
+    ["In the deserted streets, active shadows when you turn around, where the gaze cannot reach, the unknown is peeking."] = "Безлюдные переулки, тени оживают, стоит обернуться, а там, куда не достигает взгляд, наблюдает неведомое.",
+    ["Hey! Don't tell him! This is our secret to getting rich!"] = "Эй! Не говори ему! Это же наш секрет обогащения!",
+    ["And so, we gather here."] = "And so, we gather here.",
     ["<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">布满污迹的纸条上，只剩几行还能辨认的字：</>\n“我终于明白了……”\n“第一轮是<Letter_Highlight_HW>二号</>！二号是<Letter_Highlight_HW>真的</>！”\n“欲念使者说的都是<Letter_Highlight_HW>实话</>，可我们还是会死——”\n<Hide stylename=\"Transparent\" id=\"#161_R\">字迹断了</>，<Hide id=\"#157\">后面是一道擦过的暗色污痕。</>"] = "<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">На покрытой пятнами записке осталось лишь несколько разборчивых строк:</>\n«Я наконец-то понял...»\n«В первом раунде был <Letter_Highlight_HW>Номер Два</>! Номер Два — <Letter_Highlight_HW>настоящий</>!»\n«Вестник Желаний говорил <Letter_Highlight_HW>правду</>, но мы всё равно погибнем...»\n<Hide stylename=\"Transparent\" id=\"#161_R\">Почерк обрывается</>, <Hide id=\"#157\">следом идёт размазанное тёмное пятно.</>",
     ["夫人过奖了。能为您写几个字，是我的荣幸。"] = "Вы мне льстите, мадам. Для меня большая честь написать вам несколько слов.",
 }

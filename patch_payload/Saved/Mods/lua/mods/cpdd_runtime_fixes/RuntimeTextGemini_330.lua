@@ -263,5 +263,11 @@ return {
     ["社交人气商店"] = "Магазин социальной популярности",
     ["50底分"] = "Базовый счёт 50",
     ["%d（+%d%%）"] = "%d (+%d%%)",
+    ["提高破防300，释放终结技能时，破防额外提高200，持续10秒，每10秒最多触发一次。"] = "Increases Armor Break by 300. When releasing a Finisher Skill, Armor Break is further increased by 200 for 10 seconds. This effect can trigger at most once every 10 seconds.",
+    ["生命高于50%时攻击提高6%。"] = "Атака увеличивается на 6%, когда здоровье выше 50%.",
+    ["6名邻格友军提供54防御。"] = "6 союзников в соседних клетках дают 54 защиты.",
+    ["贝迪那个家伙，非要拉着我一块，后来又把我丢到一边。"] = "Этот Беди обязательно потащил меня с собой, а потом бросил в одиночестве.",
+    ["参与战略服军衔玩法，并达到元帅军衔。"] = "Примите участие в режиме воинских званий на стратегическом сервере и достигните звания маршала.",
+    ["This guy who got his ass kicked by a donkey has been here three times this month."] = "Этот лягнутый ослом тип приходил сюда уже три раза в этом месяце.",
     ["If you aspire to become a government employee, please choose our night school!\nIf you can read, you can come; graduation guarantees a recommendation for the City Hall exam!\n\n<Highlight>Course Details</>\n◆Classes held at night on Tuesdays, Thursdays, and Saturdays\n◆Tuition 1 pound 12 soli\n\nGet paid in gold pounds on time every month, no layoffs regardless of wind or rain.\nHigh salary, decent and easy, a hundred times better than carrying bags at the dock!\n\nSign up at <Highlight>\"Golden Pen\" Firm, 6 Daffodil Street</>, only <Mark id=\"#159_R\"> 30 spots </> available, if you're slow, you'll be fighting for a spot next year!"] = "Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \n\n<Highlight>Подробности курса</>\n◆Обучение в ночное время каждый вторник и субботу \n◆Стоимость обучения составляет 1 фунт 12 солов\n\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \n\n<Highlight> Торговая компания «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!",
 }

@@ -262,5 +262,10 @@ return {
     ["Phantom of the Opera Mythical Group Redemption Box"] = "Ящик повторной выдачи: «Призрак оперы» — мифическая группа",
     ["Review Covenant"] = "Просмотр обетов",
     ["Night Combat Tactics"] = "Ночная боевая тактика",
+    ["吸血提高18%，攻击速度提高20%。"] = "Life Steal increased by 18%, Attack Speed increased by 20%.",
+    ["是否使得这次增伤对整个Combo技能生效"] = "Whether to make this damage boost apply to the entire Combo skill",
+    ["旅行家之门的冷却时长缩短30秒"] = "Traveler's Door cooldown reduced by 30 seconds",
+    ["Base Stats: Attack +15%, Life Steal +15%"] = "Базовые характеристики: Атака +15%, Похищение жизни +15%",
+    ["Tarot Club · Leonard: 4-person tier increment, all allies Life Steal +1%."] = "Клуб Таро · Леонард: бонус уровня «4 игрока», вся команда +1% похищения жизни.",
     ["……这群家伙居然在南瓜里下药！"] = "...Эти ребята на самом деле травят тыквы!",
 }

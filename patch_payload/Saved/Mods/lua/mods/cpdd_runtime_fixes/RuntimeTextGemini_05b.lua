@@ -249,5 +249,13 @@ return {
     ["Sylvia Refuse Fashion Duel Activated"] = "Сильвия: отказ от модной дуэли (активировано)",
     ["Exclusive Terminology"] = "Глоссарий",
     ["<Highlight> %d days until </> enters %s"] = "<Highlight>Через %d дн.</> начнётся %s",
+    ["攻速和吸血提高18%"] = "Attack Speed and Life Steal increased by 18%",
+    ["霍纳奇斯的风雪从未停歇，将一切掩埋，也将一切封存。"] = "Метели Хорнакиса никогда не утихают, погребая всё и храня всё в вечном плену.",
+    ["Executed by the Death Domain when Health is below 20%."] = "При падении здоровья ниже 20% казнён Доменом Смерти.",
+    ["How do I obtain Battle Merit on the Strategic Server?"] = "Как получить боевые заслуги в «Финальной охоте» на Стратегическом сервере?",
+    ["Highland Competition registration is open. Click to register."] = "Регистрация на Горное состязание открыта. Нажмите, чтобы зарегистрироваться",
+    ["本次召集响应次数已耗尽，响应召集失败"] = "Число откликов на этот сбор исчерпано, отклик на сбор не удался",
+    ["It is said that the seller was a mysterious collector who disappeared after the handover."] = "Говорят, продавцом был таинственный коллекционер, который исчез после передачи товара.",
+    ["Lelange reminds me of the days when storms raged, but I'm just an old guy now."] = "Леланж напоминает мне о днях, когда бушевали бури, но теперь я всего лишь старик.",
     ["向日葵追随着光明绽放，你找到了生命的真谛。在这金色的祝福下，一切充满可能。"] = "Подсолнух цветет вслед за светом; вы нашли истинный смысл жизни. Под этим золотым благословением все возможно.",
 }

@@ -217,6 +217,13 @@ return {
     ["默认False"] = "По умолчанию ложь",
     ["<M_Default>亲爱的非凡者：</>\n“呼朋唤友·弈决高下”活动已经结束，您未领取奖励已补发到邮箱内，请查收。"] = "<M_Default>Уважаемый Потусторонний!</>\nСобытие «Зови друзей — сыграем партию» завершилось. Неполученные награды отправлены вам на почту.",
     ["连续挥出绯红剑气，横扫前方敌人。"] = "Раз за разом выпускает волны алой энергии меча, сметая врагов впереди.",
+    ["<Assistant_Title1>【首领专攻】</>\n攻击首领时，每点首领专攻提高自身的攻击1点。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[攻击]|1519}"] = "<Assistant_Title1>【Boss Specialization】</>\nWhen attacking a Boss, each point of Boss Specialization increases your Attack by 1.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Attack]|1519}",
+    ["Strengthened No-Darkness"] = "Strengthened No-Darkness",
+    ["进入俱乐部以解锁。"] = "Разблокируется входом в Клуб.",
+    ["而我们……拼尽全力 却最终一无所有"] = "А мы... выкладываемся изо всех сил, но в итоге остаёмся ни с чем.",
+    ["These bottles are from East Balam, using local distillation techniques to relieve fatigue and refresh the mind. The one next to it is a sedative potion prepared by a pharmacist near Tingen."] = "Эти бутылки — из Восточного Балама, изготовлены по местной технологии дистилляции, снимают усталость и бодрят. А вот рядом — успокоительное зелье, приготовленное аптекарем близ Тингена.",
+    ["She always protected me so tightly that I ignored my foster mother's true colors..."] = "Она всегда крепко оберегала меня, из-за чего я не замечала истинного лица приёмной матери...",
+    ["Confirm exiting the Strategic Server?"] = "Подтвердить выход со Стратегического сервера?",
     ["Zarie"] = "Зари",
     ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象同场景传送"] = "Играть в диалог; игрок создает публичный объект на основе списка InstanceID (не действует в открытом мире); объект телепортируется в пределах одной сцены.",
 }

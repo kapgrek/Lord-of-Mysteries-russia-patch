@@ -283,4 +283,11 @@ return {
     ["%s likes you"] = "Вы нравитесь %s",
     ["聊天群组举报"] = "Жалоба на групповой чат",
     ["状态效果显示上限"] = "Лимит отображения эффектов состояния",
+    ["进入狂暴，本场伤害提高70%。"] = "Enter Berserk state, damage increased by 70% for this battle.",
+    ["<Assistant_Title1>【击退闪避】</>\n降低被击退和打断控制命中的概率，最多使基础命中率降低一半，抵消控制来源的击退命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Knockback Dodge】</>\nReduces the probability of being hit by knockback and interrupt control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Knockback Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Gift Entry-Armor-2-2"] = "Gift Entry-Armor-2-2",
+    ["Victory bows its head, the Giant Dragon crawls, and the world will be the fruit of the journey."] = "Victory bows its head, the Giant Dragon crawls, and the world will be the fruit of the journey.",
+    ["Base stats: Attack +35%, Mana recovery +3"] = "Базовые характеристики: атака +35%, восстановление маны +3",
+    ["During auto-remolding, if the total number of <Highlight> Beyonder Affixes and corruption affixes meets the replacement prompt settings above </>, should corruption affixes be automatically purified:"] = "При автоматическом переформировании, если <Highlight>суммарное количество аффиксов Потустороннего и аффиксов загрязнения соответствует настройкам подсказки замены выше</>, автоматически очищать аффиксы загрязнения:",
+    ["This is terrible. I must keep the children away from here."] = "Это ужасно. Мне нужно держать детей подальше отсюда.",
 }

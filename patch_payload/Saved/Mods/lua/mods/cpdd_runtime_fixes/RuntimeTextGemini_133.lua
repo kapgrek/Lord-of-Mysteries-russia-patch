@@ -271,6 +271,11 @@ return {
     ["Resonance Introduction"] = "О резонансах",
     ["<HighLight>伤害削减敌方防御</>"] = "<HighLight>Урон снижает защиту врага</>",
     ["剧情模式期间显示外观"] = "Показывать внешний вид во время сюжетного режима",
+    ["<Assistant_Title1>【格挡】</>\n抵消伤害来源的穿刺，在基础格挡率<Assistant_Red>25%</>的基础上，提高格挡所受伤害的几率。格挡时，受到<Assistant_Red>30%</>伤害且不会触发暴击。\n格挡率存在<Assistant_Red>75%</>的上限和<Assistant_Red>0%</>的下限，提升的格挡超出上阈值或未到下阈值时，无法提升减伤能力。\n实际效果和阈值取决于攻防双方<Assistant_Red>等级</>、与对方<Assistant_Red>穿刺</>属性的对抗结算。\n<Assistant_Title2>温馨提示：</>本属性区分物理和魔法。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Block】</>\nOffsets the attacker's Pierce. Based on a base Block Rate of <Assistant_Red>25%</>, this increases the chance to block incoming damage. When blocking, you take <Assistant_Red>30%</> damage and will not trigger critical hits.\nThe Block Rate has an upper limit of <Assistant_Red>75%</> and a lower limit of <Assistant_Red>0%</>. If the increased Block exceeds the upper threshold or fails to reach the lower threshold, it cannot further improve damage reduction capabilities.\nThe actual effect and thresholds depend on the <Assistant_Red>Level</> of both the attacker and defender, and are calculated against the opponent's <Assistant_Red>Pierce</> attribute.\n<Assistant_Title2>Tip: </>This attribute distinguishes between physical and magical damage.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}",
+    ["关注“诡秘之主游戏”官方公众号，绑定角色即可获得<HighLight>专属时装！</>"] = "Подпишитесь на официальный аккаунт «Lord of the Mysteries: Game» и привяжите персонажа, чтобы получить <HighLight>эксклюзивный костюм!</>",
+    ["Only tracks movement; for other displacements, use AddMoveToEntity"] = "Отслеживает только перемещение; для других видов смещения используйте AddMoveToEntity",
+    ["Hidden Space - Wish Castle - Chain sound effect object"] = "Скрытое пространство - Замок Желаний - Звуковой объект цепи",
+    ["So why did John Thorpe die? Who is the murderer? What was the modus operandi?"] = "Так почему же умер Джон Торп? Кто убийца? Каким способом он это сделал?",
     ["玩家播放主线任务开始展示界面"] = "Отобразить вступительный экран основного задания игрока",
     ["Annah"] = "Анна",
 }

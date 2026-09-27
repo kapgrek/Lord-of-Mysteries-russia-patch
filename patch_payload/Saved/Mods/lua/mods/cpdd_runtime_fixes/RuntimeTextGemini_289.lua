@@ -278,5 +278,13 @@ return {
     ["Exclusive Bench"] = "Эксклюзивная скамья",
     ["点烟"] = "Прикурить",
     ["Uncover the truth behind your amnesia"] = "Раскрыть правду о своей потере памяти",
+    ["<Assistant_Title1>【睡眠闪避】</>\n降低被睡眠控制命中的概率，最多使基础命中率降低一半，抵消控制来源的睡眠命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Sleep Dodge】</>\nReduces the probability of being hit by sleep control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Sleep Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Only broken memories remain, silently fulfilling the promise of a Guard."] = "Only broken memories remain, silently fulfilling the promise of a Guard.",
+    ["Sanity disintegrates within the distorted reality, and the ears are filled with maddening whispers."] = "Разум рассыпается в искажённой реальности, безумный шёпот наполняет уши.",
+    ["隐秘空间-匿影脱笼-封印门常驻3"] = "Скрытое пространство - Побег тени - Постоянная запечатанная дверь 3",
+    ["（害怕）要不我们……我们离开这里吧。"] = "(Испугавшись) Может, нам... нам лучше уйти отсюда.",
+    ["苏利亚留下的一张纸条，边缘还有一些起酥油沾染的透明痕迹。"] = "Записка, оставленная Сулией, на краях которой видны прозрачные следы от выпечного жира.",
+    ["这不是显而易见嘛，我在钓鱼。"] = "Разве не очевидно? Я рыбачу.",
+    ["Why not go buy a pair of shoes to replace them?"] = "Почему бы не купить новую пару туфель на замену?",
     ["最近那出新话剧，你去看过了吗？"] = "Ты уже ходил на новую театральную постановку?",
 }

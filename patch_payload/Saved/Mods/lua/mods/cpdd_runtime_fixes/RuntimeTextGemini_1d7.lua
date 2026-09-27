@@ -255,5 +255,13 @@ return {
     ["荣授勋章"] = "Награждён орденом",
     ["Please enter the dyeing password code"] = "Введите код окрашивания",
     ["获得%d点团长积分"] = "Получено %d очков лидера отряда.",
+    ["3星累计受到27点伤害时恢复1法力（阈值为初始最大生命27的1%）"] = "Restore 1 Mana when 27 total damage is taken at 3 stars (threshold is 1% of initial Max Health 27).",
+    ["阳光穿过玻璃，将这方天地镀上一层温暖的金色，连时间都愿意在此驻足。"] = "Солнечный свет проходит сквозь стекло, покрывая это пространство тёплым золотом — здесь даже время готово остановиться.",
+    ["Poor wretch... you really have a sharp tongue."] = "Бедолага... ну ты и язва.",
+    ["这还躺着个人呢？呃，抱歉，我有急事先走了。"] = "Тут ещё и человек лежит? Ой, прошу прощения, у меня срочное дело, я пойду.",
+    ["1. You must select one custom content item (Action, Expression, Camera Movement, or Music) when uploading.\n2. Currently, only custom content can be uploaded; system actions and preset camera movements cannot be uploaded.\n3. After uploading, you can modify or delete it in [Mine - Select Corresponding Work - Edit]."] = "1. При загрузке необходимо выбрать один из видов пользовательского контента (действие, эмоцию, движение камеры или музыку).\n2. На данный момент можно загружать только пользовательский контент; системные действия и предустановленные движения камеры загружать пока нельзя.\n3. После загрузки можно изменить или удалить контент в разделе [Моё - Выбрать соответствующую работу - Редактировать].",
+    ["Welcome! You've come at just the right time; there's no need to queue now!"] = "Добро пожаловать! Вы пришли в самое подходящее время, очереди сейчас нет!",
+    ["Big sister, I've gotten lost before too, and I cried just as sadly as you."] = "Старшая сестрёнка, я тоже когда-то заблудился и плакал так же горько, как ты.",
+    ["Where to?"] = "Where to?",
     ["关闭时间流逝界面  玩家调用展示时间流逝动画  延迟执行  对象同场景传送"] = "Закрыть интерфейс прохождения времени. Игрок вызывает для отображения анимации хода времени. Отложенное исполнение. Объект телепортируется в пределах одной сцены.",
 }

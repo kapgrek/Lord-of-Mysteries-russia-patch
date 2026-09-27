@@ -265,5 +265,11 @@ return {
     ["Your pieces restore 4% of their maximum Health every 5 seconds."] = "Ваши фигуры восстанавливают 4% от макс. здоровья каждые 5 сек.",
     ["势如劈竹"] = "Неудержимый натиск",
     ["一处记忆被点亮"] = "Одно воспоминание озарилось",
+    ["This is our glory, to defend everything we share!"] = "Это наша слава — защитим всё, что у нас общее!",
+    ["汗水与呐喊在拳台上飞溅,底层的血性在此刻燃烧。"] = "Пот и крики разлетаются на боксёрском ринге, в этот миг горит кровь низов.",
+    ["Experience the side story \"Death Lament\" to unlock."] = "Разблокируется прохождением побочного сюжета «Плач смерти».",
+    ["Tarot Club · Fors: 4-person tier increment, all allies Mana recovery +0.2."] = "Клуб Таро · Форс: бонус уровня «4 игрока», вся команда +0.2 к восстановлению маны.",
+    ["I was only three years old then, and I can't remember many things. I only know that since then, life at home has become increasingly difficult."] = "Тогда мне было всего три года, многого я не помню, знаю только, что с тех пор жизнь в семье становилась всё труднее.",
+    ["Which one to buy..."] = "Какой же выбрать...",
     ["最美的玫瑰，总在暗夜绽放，总在触碰后留下无法愈合的刺痕。"] = "Самая красивая роза всегда цветет темной ночью, всегда оставляя после прикосновения неизлечимые следы шипов.",
 }

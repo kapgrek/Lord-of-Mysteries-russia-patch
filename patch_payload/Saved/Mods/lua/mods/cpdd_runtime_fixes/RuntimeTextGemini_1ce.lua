@@ -266,6 +266,12 @@ return {
     ["The Territory I Conquered"] = "Территория, отвоёванная мной",
     ["春日圆舞曲"] = "Весенний вальс",
     ["清辉疏影"] = "Ясное сияние",
+    ["忽视目标的物理格挡，在基础穿刺率<Highlight>75%</>的基础上，提高物理伤害穿刺（未被格挡）的概率。\n穿刺率存在<Highlight>100%</>的上限和<Highlight>25%</>的下限，提升的穿刺超出上阈值或未到下阈值时，无法提升增伤能力。\n实际效果和阈值取决于攻防双方<Highlight>等级</>、与对方<Highlight>物理格挡</>属性的对抗结算。\n以当前属性攻击<Highlight>同等级</>、无<Highlight>物理格挡</>的敌方，且不考虑概率<Highlight>上下限</>时，攻击的穿刺率为{*.1f**,F1690021,pPierce}。"] = "Ignores the target's Physical Block, increasing the probability of physical damage piercing (not being blocked) based on a base pierce rate of <Highlight>75%</>. \nThere is a <Highlight>100%</> cap and a <Highlight>25%</> floor for the pierce rate. If the increased pierce exceeds the upper threshold or fails to reach the lower threshold, the damage boost capability cannot be increased. \nThe actual effect and threshold depend on the combat calculation between both parties' <Highlight>Level</> and their respective <Highlight>Physical Block</> attributes. \nWhen attacking an enemy of the <Highlight>same level</> with no <Highlight>Physical Block</> using current attributes, and without considering the <Highlight>upper and lower limits of the probability</>, the attack's pierce rate is {*.1f**,F1690021,pPierce}.",
+    ["Ambush the enemy with the lowest health, dealing a total of <HighLight>200%</> attack damage over three strikes; leave behind Black Flame, dealing a total of <HighLight>100%</> attack damage over three hits."] = "Ambush the enemy with the lowest health, dealing a total of <HighLight>200%</> attack damage over three strikes; leave behind Black Flame, dealing a total of <HighLight>100%</> attack damage over three hits.",
+    ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 8.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 8.5 маны",
+    ["谁知道呢？听人说，那狒狒眼睛发红，对着训练师就是一口，咬得都撕下了一块肉来……要不是阻止及时，还想冲下来咬观众呢！"] = "Кто знает? Говорят, у того бабуина глаза покраснели, и он вцепился зубами в дрессировщика, вырвав кусок мяса… Если бы его не остановили вовремя, он бы бросился вниз и укусил зрителей!",
+    ["Go to the Hornacis Mountain Range to check the battlefield."] = "Отправьтесь в горный хребет Хорнакис, чтобы осмотреть поле битвы.",
+    ["It's spacious and cool here, and there's shade from the trees; I'm going to sleep, please leave."] = "Здесь просторно и прохладно, деревья дают тень; я собираюсь поспать, пожалуйста, уйдите.",
     ["Marisol"] = "Марисоль",
     ["<DPS>来输出</>"] = "<DPS>Нужен урон</>",
 }

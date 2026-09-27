@@ -266,4 +266,8 @@ return {
     ["飘带·一"] = "Лента I",
     ["Fist Fighting · End"] = "Кулачный бой · Конец",
     ["购票须知"] = "Памятка по покупке билетов",
+    ["Emperor's Eye"] = "Emperor's Eye",
+    ["Familiar streets twist and deform in the fog; the boundary between reality and illusion has dissolved."] = "Знакомые улицы искажаются и меняют форму в тумане, граница между явью и иллюзией уже растворилась.",
+    ["The recent peace in Tingen City is being quietly broken. Case files of various Beyonder incidents are flooding into 36 Zoutland Street at an unusual frequency. \n The contents of the cases vary, but the duty of the Nighthawks remains the same: control the influence, resolve the crisis, and ensure that when the morning bell rings, Tingen remains as peaceful as ever. \n\n<Notice> The level of monsters in the Dungeon will be consistent with the </><Highlight> average team level </><Notice>. </>"] = "В последнее время спокойствие города Тинген незаметно нарушается. Дела о различных потусторонних происшествиях стекаются на улицу Зотланд, дом 36, с необычной частотой.\nСодержание дел разное, но обязанности Ночных Стражей остаются неизменными: контролировать влияние, разрешать кризисы и делать так, чтобы Тинген оставался таким же спокойным, как всегда, когда звонит утренний колокол.\n\n<Notice>Уровень монстров в подземелье будет соответствовать</><Highlight>среднему уровню команды</><Notice>.</>",
+    ["Where is this? Did we reach the summit?"] = "Where is this? Did we reach the summit?",
 }

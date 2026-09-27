@@ -279,5 +279,11 @@ return {
     ["How do I play May Swift-Hunt?"] = "Как играть за «Майского быстрого охотника»?",
     ["Slot 12"] = "Слот 12",
     ["军需官"] = "Квартирмейстер",
+    ["防御降低25%，持续4秒。"] = "Defense reduced by 25% for 4 seconds.",
+    ["获得250点护盾。"] = "Gain a 250 shield.",
+    ["获得40%最大生命护盾，持续5秒"] = "Gain a Shield equal to 40% of Max Health, lasting 5 seconds",
+    ["Obtain information on all displayed appearance character positions"] = "Получить информацию о позициях всех персонажей с отображаемым внешним видом",
+    ["The club's faction has won the strategic server victory."] = "Фракция клуба одержала победу на Стратегическом сервере",
+    ["我隶属的第七军在安曼达山脉和弗萨克帝国的军队僵持了很久。"] = "Седьмая армия, в которой я служил, долго держала фронт против войск Империи Фейсак в горах Аманда.",
     ["Depose  \r\nExile \r\nMurder"] = "Низложение  \r\nИзгнание \r\nУбийство",
 }

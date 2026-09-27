@@ -236,4 +236,11 @@ return {
     ["Report Red Envelope Cipher"] = "Жалоба на шифр красного конверта",
     ["竞技之约筛选"] = "Фильтр договора о состязании",
     ["Melissa and the others have left"] = "Мелисса и остальные ушли",
+    ["低于40%生命时解控、隐匿1.5秒并恢复20%已损失生命"] = "Cleanse, Stealth for 1.5 seconds, and restore 20% of lost Health when Health is below 40%.",
+    ["<Assistant_Title1>【建筑抵抗】</>\n受到建筑攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Building Resistance】</>\nWhen attacked by a building, negate its Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}",
+    ["<Assistant_Title1>【风采俱乐部·好品味】</>\n<Assistant_Title2>任务类型：</><Assistant_Property2>城市漫游</>\n<Assistant_Title2>任务描述：</>俱乐部新来的摄影师派利德想要记录成员们的风采……\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>19级</>后，前往{Location:[廷根(1034,1078)]|3458;7843;-1859;2;5200002;0}可触发任务，该任务需要加入俱乐部后才可以完成\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、世界冒险秘宝进度、冒险勋章"] = "<Assistant_Title1>【Fashion Club · Good Taste】</>\n<Assistant_Title2>Quest Type: </><Assistant_Property2>City Roaming</>\n<Assistant_Title2>Quest Description: </>The club's new photographer, Palide, wants to record the members' style...\n<Assistant_Title2>How to Accept: </>After reaching Acting Level <Assistant_Red>19</>, head to {Location:[Tingen(1034,1078)]|3458;7843;-1859;2;5200002;0} to trigger the quest. This quest can only be completed after joining a club.\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, bound soli, World Adventure Treasure progress, Adventure Medal",
+    ["露出的左侧第二前磨牙有深龋洞，牙冠近中面可见大面积充填物，右侧牙面初步可判断为三级磨损。更糟糕的是，右下智齿阻生……\"你觉得怎么样？"] = "The exposed second premolar on the left has a deep carious cavity, a large filling is visible on the mesial surface of the tooth crown, and the right tooth surface can be preliminarily judged as grade three wear. Worse still, the lower right wisdom tooth is impacted...\" What do you think?",
+    ["Very... very impressive."] = "Очень… очень впечатляюще.",
+    ["Give him a good beating for me!"] = "Всыпь ему как следует за меня!",
+    ["Should I discuss tomorrow's elective course with Jannie?"] = "Обсудить завтрашний факультатив с Дженни?",
 }

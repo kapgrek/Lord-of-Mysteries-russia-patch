@@ -251,6 +251,13 @@ return {
     ["军中砥柱"] = "Опора армии",
     ["How do I play the Strategic Server's Final Hunt?"] = "Как играть в «Финальную охоту» на стратегическом сервере?",
     ["两个检视子目标"] = "Две подзадачи на осмотр",
+    ["使用后获得<Highlight>丰穰之冠顶饰</>\n也可兑换为<Highlight>1</>张神眷牌"] = "",
+    ["长椅冷却中，请稍后再试。"] = "Bench is on cooldown. Please try again later.",
+    ["(Hero) Clown Clone spawn material change super armor buff"] = "(Hero) Clown Clone spawn material change super armor buff",
+    ["基础属性：生命+250、防御+15、攻击+15%"] = "Базовые характеристики: Здоровье +250, Защита +15, Атака +15%",
+    ["No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!"] = "No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!",
+    ["Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?"] = "Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?",
+    ["Ah?"] = "Ah?",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

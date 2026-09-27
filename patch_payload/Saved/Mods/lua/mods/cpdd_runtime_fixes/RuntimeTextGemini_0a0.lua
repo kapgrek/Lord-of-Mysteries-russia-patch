@@ -261,5 +261,9 @@ return {
     ["心理诊疗"] = "Психологическая терапия",
     ["Rebecca is waiting"] = "Ребекка ждёт",
     ["Excellent Contestant Showcase"] = "Витрина лучших участников",
+    ["It seems this sentence is in the mathematics textbook written by Emperor Roselle..."] = "Кажется, эта фраза есть в учебнике математики, написанном императором Розеллем...",
+    ["My father was Sir Edward Gatling, a famous surgeon in Backlund."] = "Мой отец — сэр Эдвард Гатлинг, знаменитый хирург Бэкланда.",
+    ["What kind of thing is that?"] = "Что это за штука?",
+    ["Rolled a 20! Critical success!"] = "Выпало 20! Критический успех!",
     ["等待时间  玩家开始镜头移动  玩家结束镜头移动"] = "Подождите время. Игрок начинает движение камеры. Игрок прекращает движение камеры.",
 }

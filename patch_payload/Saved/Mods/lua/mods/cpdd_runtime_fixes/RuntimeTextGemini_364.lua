@@ -264,5 +264,8 @@ return {
     ["我的装备方案"] = "Мои схемы снаряжения",
     ["Catch up to Him"] = "Догнать Его",
     ["God's Chosen"] = "Избранный Богом",
+    ["治疗公式"] = "Healing Formula",
+    ["The dark brown liquid rolls with coarse foam, the malt aroma mixed with a smoky scent, leaving a lingering sweetness in the mouth after swallowing."] = "The dark brown liquid rolls with coarse foam, the malt aroma mixed with a smoky scent, leaving a lingering sweetness in the mouth after swallowing.",
+    ["A note left by Suliya, with some transparent traces of shortening stained on the edges."] = "Записка, оставленная Сулией, на краях которой видны прозрачные следы от выпечного жира.",
     ["播放Dialogue  切换HUD顶栏显示模式"] = "Игра «Диалог». Переключить режим отображения верхней панели HUD.",
 }

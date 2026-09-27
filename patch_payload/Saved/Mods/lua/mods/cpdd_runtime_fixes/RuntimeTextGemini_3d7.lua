@@ -281,6 +281,8 @@ return {
     ["<HighLight>施法后恢复法力</>"] = "<HighLight>Восстанавливает ману после применения навыка</>",
     ["挥动藤蔓攻击目标。"] = "Бьёт цель лозами.",
     ["顶奢增益技能"] = "Элитный навык усиления",
+    ["Crown the resister; the immortal flame burns forever upon the throne."] = "Crown the resister; the immortal flame burns forever upon the throne.",
+    ["Nino? Just wait and see, when you eat later, *hic*, you'll have to undo at least three buttons."] = "Нино? Вот погоди, когда поешь позже, *ик*, придётся расстегнуть хотя бы три пуговицы.",
     ["Azriel"] = "Азриэль",
     ["监听界面关闭  玩家跳转系统界面"] = "Слушайте закрытие интерфейса, игрок переходит к системному интерфейсу",
     ["哇，他看起来挺温和的嘛！不知道西迦女士会不会也这么亲切……"] = "Вау, он кажется довольно нежным! Интересно, будет ли госпожа Сига такой же доброй...",

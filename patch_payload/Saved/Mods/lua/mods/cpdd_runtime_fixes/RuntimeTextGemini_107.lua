@@ -266,5 +266,11 @@ return {
     ["军功显赫"] = "Прославленные заслуги",
     ["GVG Cross-Server Faction Week 2 Points"] = "Межсерверные очки фракции GVG за 2-ю неделю",
     ["听听<h>亨格瑞</>的请求"] = "Выслушать просьбу <h>Хангри</>",
+    ["攻速提高15%，防御提高14。"] = "Attack Speed increased by 15%, Defense increased by 14.",
+    ["单次“困难”难度副本中，通关全部BOSS，且BOSS阶段战斗总时长少于960秒（包含失败时长）。"] = "Clear all bosses in a single \"Hard\" difficulty dungeon, with the total boss stage combat time being less than 960 seconds (including time spent on failures).",
+    ["Single-target burst."] = "Single-target burst.",
+    ["Base Stats: Health +150, Defense +15"] = "Базовые характеристики: Здоровье +150, Защита +15",
+    ["When an enemy is defeated, the nearest ally restores 400 Health."] = "Когда враг погибает, ближайший союзник восстанавливает 400 здоровья.",
+    ["It's embarrassing to say, but I want to apply to be an improvisational musician for parties."] = "Стыдно признаться, но я хочу устроиться музыкантом-импровизатором на вечеринки.",
     ["如果你去南大陆，记得两件事：别喝会自己冒泡的泉水，更别和戴彩纹面具的人玩骰子——他们用的骰子，可能是浸过百年执念的旧骨。"] = "Если вы отправитесь на Южный континент, помните две вещи: не пейте родниковую воду, которая пузырится сама по себе, и определенно не играйте в кости с людьми в ярких масках — игральные кости, которые они используют, могут оказаться старыми костями, пропитанными столетием одержимости.",
 }

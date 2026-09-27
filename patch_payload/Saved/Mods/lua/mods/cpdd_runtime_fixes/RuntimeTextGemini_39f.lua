@@ -257,6 +257,8 @@ return {
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}",
     ["<HighLight>提升生命</>"] = "<HighLight>Повышает здоровье</>",
     ["Successfully charm 5 Beyonders"] = "Успешно очаровать 5 Потусторонних",
+    ["每层你可以获得一次在战斗中使用坐骑的机会，持续30秒，上坐骑时你对撞到的敌人造成高额伤害且自身不受控制效果影响。"] = "Each stack grants you one opportunity to use a mount in battle, lasting 30 seconds. When mounting, you deal high damage to enemies you collide with and are immune to control effects.",
+    ["Are you planning to go back later? I hope you're an obedient, good cat."] = "Собираешься вернуться позже? Надеюсь, ты послушная хорошая кошка.",
     ["指定地点附近使用任务道具  玩家播放仅自己可见的说话文本  玩家发送任务道具"] = "Использовать квестовый предмет рядом с указанным местом: игрок воспроизводит текст, видимый только ему самому, игрок отправляет квестовый предмет.",
     ["剩余时间："] = "Оставшееся время:",
 }

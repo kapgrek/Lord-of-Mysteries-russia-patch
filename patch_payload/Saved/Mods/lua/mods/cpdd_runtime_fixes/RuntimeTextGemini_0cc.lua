@@ -258,4 +258,11 @@ return {
     ["道具背包上限增加20格"] = "Увеличивает вместимость инвентаря предметов на 20 ячеек.",
     ["Swan Theater"] = "Театр «Лебедь»",
     ["调查<h>植物</>"] = "Осмотреть <h>растение</>",
+    ["Rapidly slash three times, dealing a total of <HighLight>220%</> attack damage; then gain a shield equal to <HighLight>10%</> of your maximum health, lasting for <HighLight>3</> seconds."] = "Rapidly slash three times, dealing a total of <HighLight>220%</> attack damage; then gain a shield equal to <HighLight>10%</> of your maximum health, lasting for <HighLight>3</> seconds.",
+    ["Sylvia · Tree of Abundance (Normal)"] = "Сильвия · Древо изобилия (обычный)",
+    ["The fanatical believer, the shepherd of the Creator. Forging madness and flesh into the arm of God, until the very end."] = "Одержимый верующий, пастырь Создателя. Кующий безумие и плоть в руку Бога, до самого конца.",
+    ["When do you usually appear?"] = "В какое время вы обычно появляетесь?",
+    ["Use the residual power of the vines to prevent yourself from being knocked back!"] = "Используйте остаточную силу лиан, чтобы не быть отброшенным!",
+    ["%s默认为静默模式，不可进行此操作"] = "%s по умолчанию находится в режиме тишины, это действие невозможно",
+    ["Don't worry, mate, I'll hold it steady from below!"] = "Не волнуйся, приятель, я буду держать снизу крепко!",
 }

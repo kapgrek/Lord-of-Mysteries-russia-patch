@@ -237,5 +237,8 @@ return {
     ["Cast a spell to trigger a three-candle combo."] = "Произносит заклинание и запускает серию трёх свечей.",
     ["金榜8·0"] = "Золотой список 8.0",
     ["Select at most three."] = "Можно выбрать не более трёх одновременно.",
+    ["塔罗会·戴里克：基础席位，全体伤害减免+2%。"] = "Tarot Club · Derrick: Base Seat, all allies Damage Reduction +2%.",
+    ["解锁所有系统，加buff获取对应等级PVP向属性，达到76级"] = "Разблокировать все системы, получить бафф для характеристик PvP соответствующего уровня, достигнуть 76 уровня",
+    ["Where can I go to recruit a reliable head chef again?"] = "Где мне снова найти надёжного шеф-повара?",
     ["RequestCutsceneActorComposite: 找不到 ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",
 }

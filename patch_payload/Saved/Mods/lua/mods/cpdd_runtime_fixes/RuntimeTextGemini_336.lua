@@ -252,6 +252,12 @@ return {
     ["重在参与"] = "Главное — участие",
     ["暂不保存"] = "Не сохранять",
     ["Crafting Distillery"] = "Дистиллятория",
+    ["<Assistant_Title1>【滞涩命中】</>\n提高对目标滞涩控制的命中概率，最多使基础命中率变为2倍，受到目标滞涩闪避的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Stagnation Hit Rate】</>\nIncreases the hit probability of stagnation control effects against targets, up to a maximum of 2x the base hit rate. This is offset by the target's Stagnation Dodge.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Mom will turn into a blue butterfly and kiss Anthea's forehead. From then on, Anthea is no longer afraid of being abandoned by Mom."] = "Mom will turn into a blue butterfly and kiss Anthea's forehead. From then on, Anthea is no longer afraid of being abandoned by Mom.",
+    ["同一座城市，却是另一种真相。镜中的一切似曾相识，又处处透着令人不安的偏差。"] = "Тот же город, но иная правда. Всё в зеркале кажется знакомым, и всё же повсюду сквозит тревожное искажение.",
+    ["每层攻击提高15%，最多5层"] = "Атака увеличена на 15% за каждый стак, максимум 5 стаков",
+    ["In those adventure novels, this is where the two protagonists meet."] = "В тех приключенческих романах это называется встречей двух главных героев.",
+    ["家族等级达到特定等级后，将解锁同行商店内的物品，<Highlight>可兑换专属时装及周边</>。"] = "После того как уровень семьи достигнет определённого значения, откроются предметы в Магазине спутников. <Highlight>Можно обменять их на эксклюзивные костюмы и атрибутику</>.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Собрать ресурс с указанным TemplateID  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)",
     ["<Title>标题</>\r\n正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文<Highlight2>高亮高亮高亮高亮高亮高亮高亮</>正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文<Highlight2>高亮高亮高亮高亮高亮高亮高亮</>\r\n<Title>标题</>\r\n正文正文正文正文正文正文正文正文正文正文正"] = "<Title>Заголовок</>\r\nОсновной текст основной текст основной текст основной текст основной текст основной текст <Highlight2>Выделение выделение выделение выделение</> основной текст основной текст основной текст основной текст основной текст <Highlight2>Выделение выделение выделение выделение</>\r\n<Title>Заголовок</>\r\nОсновной текст основной текст основной текст основной текст",
 }

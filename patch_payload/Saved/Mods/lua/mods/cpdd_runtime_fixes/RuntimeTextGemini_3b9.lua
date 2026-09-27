@@ -270,5 +270,12 @@ return {
     ["Squid's Blessing · Guardian"] = "Благословение кальмара · Хранитель",
     ["Unlock Method"] = "Способ разблокировки",
     ["Cinnamon Powder"] = "Молотая корица",
+    ["<Assistant_Title1>【滞涩增强】</>\n提高角色滞涩状态命中后的持续时长，最多使基础时长变为2倍，受到目标滞涩抵挡的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Stagnation Enhancement】</>\nIncreases the duration of stagnation status effects applied to targets, up to a maximum of 2x the base duration. This is offset by the target's Stagnation Block.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["A melody that didn't reach its end, waiting for a spring that hasn't yet arrived."] = "Мелодия, не дошедшая до конца, ждёт ещё не наступившую весну.",
+    ["贝克兰德是明珠闪亮。"] = "Бэкланд — сияющая жемчужина.",
+    ["But this is a pond without fish."] = "Но в этом пруду нет рыбы.",
+    ["Find me for cards, find little Orphy for orders."] = "За картами — ко мне, за заказами — к малышке Орфи.",
+    ["A toast to the Goddess!"] = "Тост за Богиню!",
+    ["Perhaps it has something to do with the royal family, or perhaps it's an admirer of Earl Lasting, what do you think?"] = "Perhaps it has something to do with the royal family, or perhaps it's an admirer of Earl Lasting, what do you think?",
     ["不过是有位夫人把我从码头区捡回来，授了我这门吃饭的手艺。"] = "Просто женщина забрала меня с причала и научила этому ремеслу, чтобы зарабатывать на жизнь.",
 }

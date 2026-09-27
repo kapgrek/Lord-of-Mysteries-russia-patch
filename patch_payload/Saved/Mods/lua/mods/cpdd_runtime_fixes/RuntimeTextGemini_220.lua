@@ -250,5 +250,10 @@ return {
     ["Net"] = "Сеть",
     ["拒绝_子爵夫人"] = "Отказ: Виконтесса",
     ["成就-历史学者·三"] = "Достижение - Историк · III",
+    ["活动维护中"] = "Event under maintenance.",
+    ["The sound of prayer pierces the dome, turning into a halo, and piety echoes endlessly among the stone pillars of the temple."] = "The sound of prayer pierces the dome, turning into a halo, and piety echoes endlessly among the stone pillars of the temple.",
+    ["……我不太喜欢和人闲聊。如果你非要打扰我的话，不如我们玩个游戏怎么样？"] = "…Я не очень люблю пустую болтовню. Если ты так настойчиво хочешь меня побеспокоить, может, сыграем в игру?",
+    ["We are clearly the 'Four Siblings of the Night'! Let us sing the praises of the Goddess together!"] = "Мы же «Четверо братьев и сестёр ночи»! Давайте вместе воспоём хвалу Богине!",
+    ["Cough, cough... Good heavens, what are you thinking? I, I didn't think of such a bizarre thing at all!"] = "Cough, cough... Good heavens, what are you thinking? I, I didn't think of such a bizarre thing at all!",
     ["<P_Heart>（释然）</> ……原来是这样。  我以为我失约了，我以为时间把我丢在了路上。但它没有，它只是替我走完了另一段路。"] = "<P_Heart>(с облегчением)</>...Так вот как оно есть. Я думал, что нарушил свое обещание, я думал, что время оставило меня позади на дороге. Но этого не произошло; для меня это просто пошел другой путь.",
 }

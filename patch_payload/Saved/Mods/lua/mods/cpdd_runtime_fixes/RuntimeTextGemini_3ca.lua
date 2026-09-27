@@ -287,5 +287,7 @@ return {
     ["Base Stats: Mana Regen +3"] = "Базовые характеристики: Восстановление маны +3",
     ["机械迷局#12"] = "Механическая головоломка №12",
     ["祈誓"] = "Клятва",
+    ["Clear Steam Equipment in-battle buffs and controllers at BATTLE_END of each match."] = "При каждом BATTLE_END очищаются внутрибоевые баффы и контроллеры Паровой экипировки",
+    ["GVGHonor Inner Entrance - Unlimited uses, supports multi-player interaction"] = "Вход на арену GVGHonor — неограниченное количество раз, поддерживает взаимодействие нескольких игроков",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

@@ -258,4 +258,6 @@ return {
     ["Mechanical Mystery #8"] = "Механическая головоломка №8",
     ["Counter-question"] = "Встречный вопрос",
     ["购买<h>门票</>"] = "Купить <h>билет</>",
+    ["Sasrir Special Phase - self indicator mark"] = "Sasrir Special Phase - self indicator mark",
+    ["A high-level replica that will not cause Beyonder characteristics to precipitate. Please feel free to wear it."] = "A high-level replica that will not cause Beyonder characteristics to precipitate. Please feel free to wear it.",
 }

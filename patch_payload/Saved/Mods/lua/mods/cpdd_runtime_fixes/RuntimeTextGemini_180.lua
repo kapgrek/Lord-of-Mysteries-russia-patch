@@ -269,5 +269,12 @@ return {
     ["\"Beggar\""] = "«Нищий»",
     ["%s：%s"] = "%s：%s",
     ["组队中无法观战"] = "Нельзя наблюдать, находясь в команде.",
+    ["20%最大生命护盾5秒"] = "20% Max Health Shield for 5 seconds",
+    ["Effect_Tether 02"] = "Effect_Tether 02",
+    ["Passive_Movement Resource Increase"] = "Passive_Movement Resource Increase",
+    ["每层提高1%攻击。"] = "Атака увеличена на 1% за каждый стак.",
+    ["Slide? God, I'm not going!"] = "Горка? Боже, я туда не пойду!",
+    ["Inspiration indicates a safe tracking range for you. Proceed with caution. (The current perspective is subject to special gameplay restrictions and cannot be zoomed)"] = "Вдохновение указывает вам безопасный радиус слежения, продвигайтесь осторожно. (Текущий ракурс камеры ограничен особенностями режима и не может быть приближен)",
+    ["Uh, anyway, it was a long time ago. He took an oil painting from the castle, which is said to be a portrait of the first Baron Lamud."] = "Э-э, в общем, это было давно. Он забрал из замка картину маслом — говорят, это портрет первого барона Лямуда.",
     ["<P_Heart>（看来队长认识她……对了……）</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
 }

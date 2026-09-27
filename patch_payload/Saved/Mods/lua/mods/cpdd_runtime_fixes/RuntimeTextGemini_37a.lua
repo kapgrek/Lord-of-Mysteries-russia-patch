@@ -275,4 +275,9 @@ return {
     ["Lineup Save/Replace"] = "Сохранить/заменить состав",
     ["获得3词条非凡物质"] = "Получить Потустороннее вещество с 3 характеристиками",
     ["Aristocratic Afternoon Tea"] = "Аристократическое чаепитие",
+    ["<Assistant_Title1>【浮空闪避】</>\n降低被浮空控制命中的概率，最多使基础命中率降低一半，抵消控制来源的浮空命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Airborne Dodge】</>\nReduces the probability of being hit by airborne control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Airborne Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Counter buff"] = "Counter buff",
+    ["Life Sect (4): 20% Attack"] = "Секта Жизни (4): 20% атаки",
+    ["Hidden Space - Shadow Escape - Sealed Door Permanent 3"] = "Скрытое пространство - Побег тени - Постоянная запечатанная дверь 3",
+    ["您取消了语音保存。"] = "Вы отменили сохранение голосового сообщения.",
 }

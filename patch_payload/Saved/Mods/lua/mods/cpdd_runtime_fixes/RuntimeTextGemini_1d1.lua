@@ -273,6 +273,9 @@ return {
     ["How do I complete the 'Smoke' achievement?"] = "Как выполнить достижение «Курение»?",
     ["点烟玩法"] = "Механика прикуривания",
     ["Ask the gardener"] = "Расспросить садовника",
+    ["共同参与队伍/团队副本时可以适用<Highlight>属性补正与额外复活次数</>。特定副本通关时可获取额外<Highlight>奖励</>。"] = "When participating in party/team dungeons together, <Highlight> attribute bonuses and extra resurrection counts </> can be applied. Clearing specific dungeons grants extra <Highlight> rewards </>.",
+    ["Lulota mark buff"] = "Lulota mark buff",
+    ["Position 1 Animation"] = "Position 1 Animation",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }

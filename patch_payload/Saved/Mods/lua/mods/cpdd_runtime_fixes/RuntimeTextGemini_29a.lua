@@ -261,6 +261,13 @@ return {
     ["Beyonder Experience"] = "Опыт Потустороннего",
     ["让<h>保镖们</>冷静一下"] = "Успокоить <h>телохранителей</>",
     ["互动2"] = "Взаимодействие 2",
+    ["<Assistant_Title1>【僵直命中】</>\n提高对目标僵直控制的命中概率，最多使基础命中率变为2倍，受到目标僵直闪避的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Stagger Hit Rate】</>\nIncreases the hit probability of stagger control effects against targets, up to a maximum of 2x the base hit rate. This is offset by the target's Stagger Dodge.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Sasrir Special Phase Safe Zone charge stack buff"] = "Sasrir Special Phase Safe Zone charge stack buff",
+    ["塔罗会·伦纳德：7人档增量，全体吸血+1%。"] = "Таро-клуб · Леонард: прирост за уровень «7 персон» — Похищение жизни всех союзников +1%.",
+    ["Will there be any survivors this time?"] = "Будут ли выжившие на этот раз?",
+    ["咖啡豆当然也都坚持选自原产地，每年我都会亲自去采购。"] = "Кофейные зёрна, конечно, я всегда выбираю только из мест их происхождения — каждый год лично езжу за закупками.",
+    ["So my heart has started to rain; it is so damp, so gloomy."] = "И тогда в моём сердце начался дождь, такой влажный, такой сумрачный.",
+    ["Damn it, let's break up if this continues!"] = "Damn it, let's break up if this continues!",
     ["Paxton"] = "Пакстон",
     ["等待时间  玩家播放单句黑屏字幕  传送到指定场景的坐标位置"] = "Время ожидания, игрок воспроизводит субтитры на черном экране, состоящие из одного предложения, телепортируется в координатную позицию указанной сцены.",
 }

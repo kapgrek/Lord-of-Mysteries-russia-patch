@@ -246,5 +246,12 @@ return {
     ["立即获得<HighLight>6金币</>。<HighLight>每回合</>获得<HighLight>1次免费刷新</>。"] = "Немедленно даёт <HighLight>6 золотых монет</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
     ["如果下一站<LightHighlight>是【食铺】</>，本局<LightHighlight>酒类、艺术品</>卖出价<LightHighlight>+25%</>，但下一站卖出价<LightHighlight>-60%</>"] = "Если следующая станция <LightHighlight>— «Продовольственный магазин»</>, в этой партии цена продажи <LightHighlight>алкоголя и предметов искусства</> <LightHighlight>+25%</>, но цена продажи на следующей станции <LightHighlight>-60%</>",
     ["<CostRed>{1,2,（烙印已失效）}</>穿刺提高<Mark>150</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>150</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>.",
+    ["如果下一站<LightHighlight>是【酒庄】</>，本局<LightHighlight>艺术品、食品</>卖出价<LightHighlight>+25%</>，但下一站卖出价<LightHighlight>-60%</>"] = "",
+    ["<Assistant_Title1>【减速命中】</>\n提高对目标减速控制的命中概率，最多使基础命中率变为2倍，受到目标减速闪避的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Slow Hit Rate】</>\nIncreases the hit probability of slow control effects against targets, up to a maximum of 2x the base hit rate. This is offset by the target's Slow Dodge.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["AuraOnly: Defense reduced by 35%"] = "AuraOnly: Защита снижена на 35%",
+    ["填写公式，优先于Value生效"] = "Заполните формулу, она имеет приоритет перед Value",
+    ["装备的百分比是怎么算的？"] = "Как рассчитывается процент экипировки?",
+    ["Goodness, I wouldn't bear to let my little kitten catch mice, and besides, she's even more afraid of mice than I am."] = "Боже, мне жалко отправлять моего котёнка ловить мышей, к тому же она боится мышей даже больше, чем я.",
+    ["Limited-time access, Monday to Friday 19:00-20:00 \n Saturday, Sunday 12:00-18:00, 19:00-22:00"] = "Ограничено по времени, с понедельника по пятницу 19:00-20:00\nСуббота, воскресенье 12:00-18:00, 19:00-22:00",
     ["Coraline"] = "Коралина",
 }

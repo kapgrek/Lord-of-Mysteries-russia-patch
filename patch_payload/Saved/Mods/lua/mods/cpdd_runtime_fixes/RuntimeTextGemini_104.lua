@@ -256,5 +256,10 @@ return {
     ["Sylvia Fashion Duel"] = "Сильвия: модная дуэль",
     ["你怎么——呕——"] = "Как ты——уф——",
     ["Reversal 1 - Deduction or Trading"] = "Поворот 1 — Дедукция или обмен",
+    ["Rainbow Fart"] = "Rainbow Fart",
+    ["势力战报：<Chat_Highlight>{{eventMessageParams.guildName}}</>俱乐部今日已在<Chat_Highlight>猎龙之城</>合力猎杀<Chat_Highlight>{{eventMessageParams.killCount}}</>名敌对非凡者，战旗所指，敌阵尽溃！"] = "Боевая сводка фракции: клуб <Chat_Highlight>{{eventMessageParams.guildName}}</> сегодня совместно убил <Chat_Highlight>{{eventMessageParams.killCount}}</> враждебных Потусторонних в <Chat_Highlight>Городе Охоты на Драконов</>. Куда указывает боевое знамя, там ряды врага рушатся!",
+    ["别提了，最近写的报道一直无法通过编辑的审查。"] = "Не говорите, статьи, которые я написала недавно, никак не проходят проверку редактора.",
+    ["需要消耗 %s 战略金镑，战略金镑和金镑均不足，是否前往充值？"] = "Требуется %s стратегических золотых фунтов. Стратегических золотых фунтов и золотых фунтов недостаточно. Перейти к пополнению?",
+    ["How many times lost? How many times won? No one remembers. You seem to have fought until the end of the world, the end of the universe."] = "How many times lost? How many times won? No one remembers. You seem to have fought until the end of the world, the end of the universe.",
     ["播放Dialogue  玩家传送到位面"] = "Играйте в диалог, игрок телепортируется в самолет.",
 }

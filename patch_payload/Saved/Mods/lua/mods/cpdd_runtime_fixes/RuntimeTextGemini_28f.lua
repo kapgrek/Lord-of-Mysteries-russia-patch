@@ -249,6 +249,11 @@ return {
     ["战略服拍卖分红"] = "Дивиденды аукциона стратегического сервера",
     ["Writer of History"] = "Летописец истории",
     ["初见保镖"] = "Первая встреча с телохранителем",
+    ["Out-of-control Seer HP Lock"] = "Out-of-control Seer HP Lock",
+    ["The morning sun rises beneath your feet, illuminating the realm of brilliance."] = "The morning sun rises beneath your feet, illuminating the realm of brilliance.",
+    ["The radius of the slow effect around the target affected by control effects is increased by 2 meters."] = "Когда цель находится под эффектом контроля, радиус действия эффекта замедления вокруг неё увеличивается на 2 метра.",
+    ["听起来……似乎……还不错？怎么收费？"] = "Звучит... как будто... неплохо? Сколько это стоит?",
+    ["A big-spending rat catcher has come to town. Everyone is happy, but no one cares what the rats are used for."] = "В город приехал щедрый ловец крыс, и все были рады, но никто не задумался, для чего нужны крысы.",
     ["Miley"] = "Майли",
     ["Lee"] = "Ли",
 }

@@ -287,6 +287,10 @@ return {
     ["First Meeting with the Bodyguard"] = "Первая встреча с телохранителем",
     ["Unlock new scheme new grade: <Quality_4>Signage</>"] = "Разблокирована новая схема нового качества: <Quality_4>Табличка</>",
     ["Watching... blind spot in existence..."] = "Слежу... слепая зона существования...",
+    ["Unlock via dungeon battle."] = "Разблокируется боем в подземелье.",
+    ["Tsk, the newspapers are already sold out."] = "Тс, газеты уже все распроданы.",
+    ["Although the company is on holiday today, I wittily chose to promote our company's timber here."] = "Хотя сегодня у компании выходной, я мудро решил заняться продажей нашего леса именно здесь.",
+    ["A must-visit delicacy in the Dock District, delicious seafood risotto with ginger beer!"] = "Обязательное лакомство в Портовом районе — вкусное ризотто с морепродуктами и имбирным пивом!",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

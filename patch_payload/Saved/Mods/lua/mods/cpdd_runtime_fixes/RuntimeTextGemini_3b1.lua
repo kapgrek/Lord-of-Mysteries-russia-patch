@@ -256,4 +256,11 @@ return {
     ["征服宣令开启提醒"] = "Напоминание о начале указа завоевания",
     ["Check the menu"] = "Посмотреть меню",
     ["Nothing, thanks"] = "Ничего, спасибо",
+    ["<Assistant_Title1>霜陨初临</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>霜陨领主争夺战参与1次。"] = "<Assistant_Title1>Frostfall Arrival</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Participate in the Frostfall Lord Contest 1 time.",
+    ["当前势力对巨龙累计造成伤害20%"] = "Current faction has dealt 20% total damage to the Dragon",
+    ["Trigger Horror every 2 seconds, 5m radius"] = "Trigger Horror every 2 seconds, 5m radius",
+    ["Arcane Badge Aura: Other allies Mana Regeneration +1"] = "Аура Мистического значка: у других союзников Восстановление маны +1",
+    ["警官，您误会了，我正准备送去登记。"] = "Офицер, вы ошибаетесь, я как раз собирался отнести это на регистрацию.",
+    ["需要一个人去场地一端<Disable>交互密码台</>获取密码，其他带有数字的非凡者把数字填到<Disable>位置匹配的密码装置</>上。"] = "Один игрок должен подойти к краю поля и <Disable>взаимодействовать с пультом пароля</>, чтобы получить код, а остальные Потусторонние с числами должны ввести их в <Disable>устройства пароля с соответствующей позицией</>.",
+    ["I've seen the manager less and less these past few years. Perhaps he feels at ease entrusting the bank to young Master Hibbert."] = "Последние годы я вижу управляющего всё реже. Наверное, ему спокойно доверить банк молодому господину Хибберту.",
 }

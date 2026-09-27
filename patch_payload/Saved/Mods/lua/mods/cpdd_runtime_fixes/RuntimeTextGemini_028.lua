@@ -254,4 +254,7 @@ return {
     ["Obtain Klein *1"] = "Получите Клейна *1",
     ["Level 65 Unbound Competition Equipment Chest"] = "Непривязанный ящик состязательной экипировки (65 ур.)",
     ["寻找<h>卡伍德</>"] = "Найти <h>Кавуда</>",
+    ["判断角色当前激活的是哪个ID的天赋分支"] = "Определяет, какая ветвь талантов (по ID) активна у персонажа в данный момент",
+    ["Uh, that thought is indeed not a problem..."] = "Эм, с этой мыслью действительно всё в порядке...",
+    ["Requires Beyonders to adjust their total number by picking up orbs to match the correct answer."] = "Потусторонние должны собирать шары, чтобы подстроить сумму чисел под правильный ответ.",
 }

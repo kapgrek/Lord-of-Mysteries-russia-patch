@@ -258,6 +258,9 @@ return {
     ["Notarization Certificate: Trigger +1 Level Effect"] = "Нотариальное заверение: триггер +1 уровень эффекта.",
     ["最大生命提高200"] = "Максимальное здоровье повышено на 200",
     ["平衡模式"] = "Сбалансированный режим",
+    ["Base Stats: Attack +15%, Mana Regeneration +2"] = "Базовые характеристики: Атака +15%, Восстановление маны +2",
+    ["Steamships, railway laying, urban infrastructure... steel is needed everywhere now!"] = "Паровые суда, прокладка железных дорог, городская инфраструктура... сталь сейчас нужна повсюду!",
+    ["After Mary fell seriously ill, I sold all my family property, but I still couldn't keep her."] = "После того как Мэри серьёзно заболела, я продал всё семейное имущество, но всё равно не смог её спасти.",
     ["成功对其他非凡者施以安魂%d/100次。"] = "Успешно отпейте %d/100 раз другим выдающимся людям.",
     ["Theodora"] = "Теодора",
 }

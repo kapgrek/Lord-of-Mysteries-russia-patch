@@ -239,6 +239,12 @@ return {
     ["<CostRed>{1,2,（烙印已失效）}</>途径专攻提高<Mark>100</>，途径专防提高<Mark>100</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,(Клеймо утратило силу)}</> Специализация Пути увеличивается на <Mark>100</>, специализация пути увеличивается на <Mark>100</>. \n Не действует при активации набора <Mark> Эхо Духа и Знаний </>.",
     ["Grievously injure all enemies and reduce their mana regeneration by 10 points per second for 10 seconds, then restore your own mana to full."] = "Тяжело ранит всех врагов и снижает их восстановление маны на 10 ед. в секунду на 10 сек., затем полностью восстанавливает себе ману.",
     ["Find items to set up the ritual"] = "Найти предметы для проведения ритуала",
+    ["从容举牌，引人艳羡！{{player.name}}竞得<Chat_Highlight>聚合因子随机礼盒</>，开启后好运相随，获得了{{item.name}}！"] = "Bidding with ease, drawing envy! {{player.name}} won the <Chat_Highlight>Aggregation Factor Random Gift Box</>. Good luck followed upon opening it, and they obtained {{item.name}}!",
+    ["贝克兰德8-神秘错过-记忆回溯"] = "Бэкланд 8 - Таинственный промах - Воспоминание",
+    ["That's right, although there are no pastures in the center of Backlund, this milk was transported from the southern suburbs."] = "Верно, хотя в центре Бэкланда нет пастбищ, это молоко я привёз из южных предместий.",
+    ["欢迎来自南大陆的女士和先生们！表演在这边——"] = "Добро пожаловать, дамы и господа с Южного континента! Представление здесь —",
+    ["Not joined a Club; cannot trigger <PVPHighlight> Club Re-roll </>. You can open the Main Menu - Club interface to apply."] = "Вы не состоите в клубе, поэтому не можете запустить <PVPHighlight>Переброс клуба</>. Откройте главное меню — раздел «Клуб», чтобы подать заявку.",
+    ["I'll scout the place these few days, and then pull a job in a few nights!"] = "Я разведаю это место в эти дни, а через несколько ночей провернём дело!",
     ["玩家播放仅自己可见的说话文本"] = "Воспроизведение реплики, видимой только игроку",
     ["前往指定Trigger位置  玩家播放单句黑屏字幕  对象同场景传送  延迟执行"] = "Перейдите в указанное местоположение триггера. Плеер воспроизводит субтитры на черном экране, состоящие из одного предложения. Объект телепортируется в пределах одной сцены. Отложенное исполнение.",
 }

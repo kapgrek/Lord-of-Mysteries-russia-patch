@@ -270,5 +270,13 @@ return {
     ["吸烟玩法"] = "Механика курения",
     ["前往四方联赛（未开启）"] = "Перейти в Лигу четырёх сторон (не открыто)",
     ["A级-特莉丝的过去"] = "Ранг A — прошлое Триси",
+    ["施法后4秒获得50%攻击与18%伤害减免。"] = "Gain 50% Attack and 18% Damage Reduction for 4 seconds after casting a skill.",
+    ["每层8%攻击和攻速，至多3层，本场结束清理"] = "Increase Attack and Attack Speed by 8% per stack; up to 3 stacks, cleared at the end of this battle.",
+    ["When the fog clears, the traveler will find the road beneath their feet softer than imagined; it turns out that the green fields do not only exist in legends."] = "When the fog clears, the traveler will find the road beneath their feet softer than imagined; it turns out that the green fields do not only exist in legends.",
+    ["先让开，别挡住我的视线。"] = "Отойди, не загораживай мне обзор.",
+    ["And in Backlund, we only say: 'It's like autumn.'"] = "А в Бэкланде мы просто говорим: «Как будто пришла осень».",
+    ["嗯？哇！你是怎么上来的！"] = "Хм? Ух! Как ты сюда забрался?!",
+    ["她根本不配被称为母亲，我们只是她攫取利益的道具。她夺走了我的一切，我恨她！"] = "Она вообще не заслуживает называться матерью, мы для неё лишь инструмент для извлечения выгоды. Она забрала у меня всё, я её ненавижу!",
+    ["木偶使瑞尔·比伯无敌，使用控制技能打断木偶！"] = "Марионетка делает Райла Бибера неуязвимым — используйте контролирующее умение, чтобы прервать марионетку!",
     ["前往指定Trigger位置  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Переход к указанной позиции триггера, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанное содержимое диалога",
 }

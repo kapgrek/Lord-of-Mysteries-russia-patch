@@ -250,6 +250,10 @@ return {
     ["基础属性：生命+250"] = "Базовые характеристики: Здоровье +250",
     ["厄水巨龟拒绝风尚决斗激活"] = "Гигантская черепаха проклятых вод: отказ от модной дуэли (активировано)",
     ["Recover Sanity"] = "Восстановление рассудка",
+    ["秘法徽章光环：其他友军法力恢复+1"] = "Аура Мистического значка: у других союзников Восстановление маны +1",
+    ["Gaze through the magnificent throne of the White Maple Palace at the life of that legend. The obsession that could turn against the world was tied only to a late call."] = "Сквозь величественный трон Дворца Белого клёна вглядитесь в жизнь той легенды. Одержимость, способная отвернуть от мира, была привязана лишь к одному опоздавшему зову.",
+    ["Honestly, I kind of want to go back to Midseashire. At least there are a kind old couple there who help me out."] = "Честно говоря, мне немного хочется вернуться в Мидсишир, там хотя бы есть добрая пожилая пара, которая мне помогает.",
+    ["That arson case? I put it away in the archives."] = "Дело о поджоге? Я убрала его в архив.",
     ["Justin"] = "Джастин",
     ["与Npc进行对话  对象看向其他对象"] = "Поговорить с NPC; объект смотрит на другие объекты.",
 }

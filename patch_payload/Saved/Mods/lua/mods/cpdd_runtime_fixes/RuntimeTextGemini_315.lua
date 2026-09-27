@@ -251,4 +251,8 @@ return {
     ["戒指三"] = "Кольцо третье",
     ["帽顶"] = "Верх шляпы",
     ["成就-羞辱大师"] = "Достижение - Мастер унижения",
+    ["<Assistant_Title1>【僵直闪避】</>\n降低被僵直控制命中的概率，最多使基础命中率降低一半，抵消控制来源的僵直命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Stagger Dodge】</>\nReduces the probability of being hit by stagger control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Stagger Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["Amidst the morning mist, spirits have left their traces."] = "Amidst the morning mist, spirits have left their traces.",
+    ["The crystal ball reflects the threads of fate, and revelations emerge silently in the candlelight."] = "Хрустальный шар отражает нити судьбы, откровения безмолвно проступают в свете свечей.",
+    ["This job. I can't. Keep doing it. Really."] = "Эта работа. Я не могу. Продолжать её. Правда.",
 }

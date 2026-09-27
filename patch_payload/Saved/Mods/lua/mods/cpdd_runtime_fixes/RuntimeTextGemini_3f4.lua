@@ -304,4 +304,6 @@ return {
     ["显示详情"] = "Показать подробности",
     ["Cawood"] = "Кавуд",
     ["高原竞逐报名提醒"] = "Напоминание о регистрации на «Высокогорное состязание»",
+    ["I just casually shifted a few positions in her memory, and you couldn't tell the truth from the fake yourselves."] = "Я просто слегка переставил пару моментов в её памяти, а вы сами уже не могли отличить правду от лжи.",
+    ["Powerful order is incredibly dangerous. It will make you struggle in pain, but you can only doubt yourself: Did I do something wrong? You won't be able to perceive the error of the order itself."] = "Powerful order is incredibly dangerous. It will make you struggle in pain, but you can only doubt yourself: Did I do something wrong? You won't be able to perceive the error of the order itself.",
 }

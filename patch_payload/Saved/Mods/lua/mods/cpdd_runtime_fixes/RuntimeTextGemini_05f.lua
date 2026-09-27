@@ -275,6 +275,11 @@ return {
     ["累计获得3次第1名"] = "Занять 1-е место 3 раза в общей сложности",
     ["PVP结算数据/历史举报"] = "Жалоба на данные расчёта PvP/историю",
     ["和<h>葛朗</>对话"] = "Поговорить с <h>Гланом</>",
+    ["Basic Attack: Dunn holds a gun in his right hand and fires; on the third hit, he uses his left hand to strengthen the bullet."] = "Basic Attack: Dunn holds a gun in his right hand and fires; on the third hit, he uses his left hand to strengthen the bullet.",
+    ["Every May, when the trees drift with the rich, fresh fragrance of fruit, welcome to step through the gates of May Manor."] = "Каждый май, когда деревья источают сладкий свежий аромат плодов, добро пожаловать в ворота Майского поместья.",
+    ["I salute you; you are a hero."] = "Отдаю тебе честь, ты герой.",
+    ["你打算待会回去？希望你是只听话的乖猫。"] = "Собираешься вернуться позже? Надеюсь, ты послушная хорошая кошка.",
+    ["Clear as the morning dew in a birch forest, the cold liquor burns with a flame-like stimulation."] = "Clear as the morning dew in a birch forest, the cold liquor burns with a flame-like stimulation.",
     ["我请“魔术师”小姐，找到了最初的手稿，上面还残留着凶手的灵性痕迹。"] = "Я попросил госпожу Волшебницу найти оригинал рукописи, но на ней все еще остались духовные следы убийцы.",
     ["Camille"] = "Камилла",
 }

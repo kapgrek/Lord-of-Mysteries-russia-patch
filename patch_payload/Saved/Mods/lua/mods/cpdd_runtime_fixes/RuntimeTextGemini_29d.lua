@@ -244,4 +244,11 @@ return {
     ["Usually active at %s"] = "Обычно активен %s",
     ["Crowned Above the Starry Sky"] = "Коронованный над звёздным небом",
     ["Rare Tweed Vest"] = "Редкий твидовый жилет",
+    ["亲爱的非凡者：\n      我们留意到，关于1.2版本调研问卷，您已通过您所持有的另一重身份给予了我们宝贵的建议。依照约定，本次的答谢礼将由灵界信使直接为您送至邮箱，请您查收。\n      若您希望以当前的身份再次留下您的意见，也可以继续通过邮件中的隐秘通道传递您的想法，我们始终欢迎您的建议。\n<HyperLink stylename=\"M_Link\" u=\"web=%s\">1.2版本调研问卷</>\n      感谢您对这段旅程的见证，愿灵性为您指引前路。"] = "Dear Beyonder: \n We have noted that you have provided us with valuable suggestions regarding the version 1.2 survey through your other identity. As promised, the thank-you gift will be delivered directly to your mailbox by a Spirit World messenger. Please check it. \n If you wish to leave your feedback again using your current identity, you may continue to pass your thoughts through the secret channel in the email. We always welcome your suggestions. \n<HyperLink stylename=\"M_Link\" u=\"web=%s\">Version 1.2 Survey</>\n Thank you for witnessing this journey. May your spirituality guide your path forward.",
+    ["Hee hee hee, ha ha ha... Why did you leave me, Mother? \n Sleep, sleep soundly. Fragile butterfly, stop wandering."] = "Hee hee hee, ha ha ha... Why did you leave me, Mother? \n Sleep, sleep soundly. Fragile butterfly, stop wandering.",
+    ["Gain gameplay attribute adjustment."] = "Получает корректировку характеристик режима.",
+    ["Hidden Space - Shadow Escape - Permanent State Prompt A Blue"] = "Скрытое пространство - Побег тени - Постоянная подсказка о состоянии A (синяя)",
+    ["烛光，红酒，两个人彼此靠得很近。"] = "Свечи, красное вино, двое, сидящие очень близко друг к другу.",
+    ["但这是个没有鱼的水池。"] = "Но в этом пруду нет рыбы.",
+    ["Don't you think it's depressing, going back and forth between two points every day with the crowd?"] = "Тебе не кажется удручающим каждый день мотаться туда-сюда между двумя точками вместе с толпой?",
 }

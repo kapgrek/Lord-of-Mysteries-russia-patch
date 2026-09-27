@@ -257,6 +257,11 @@ return {
     ["Social: Pope's Dance"] = "Общение: Танец Папы",
     ["Ask <h> Pagnia </>"] = "Расспросить <h>Паркину</>",
     ["Interaction limit reached"] = "Достигнут лимит взаимодействий",
+    ["Wings spread in brilliance, metal condenses in shadow; they are reflections of each other, each complete in itself."] = "Wings spread in brilliance, metal condenses in shadow; they are reflections of each other, each complete in itself.",
+    ["熟悉的街道在雾中扭曲变形，真实与虚幻的边界已然消融。"] = "Знакомые улицы искажаются и меняют форму в тумане, граница между явью и иллюзией уже растворилась.",
+    ["塔罗会·佛尔思：基础席位，全体法力恢复+1点。"] = "Клуб Таро · Форс: базовое место, вся команда +1 к восстановлению маны.",
+    ["暂时获得隐身的能力4次，引导狼人踩入陷阱"] = "Временно получите способность невидимости (4 раза) и заманите оборотня в ловушку.",
+    ["But the pipes at home need fixing too... screw it! Eat something good first!"] = "Но трубы дома тоже нужно починить... а, плевать! Сначала поем чего-нибудь вкусного!",
     ["刹停如一场安眠！"] = "Остановился, как сон!",
     ["玩家传送到指定位面"] = "Телепорт игрока в указанный самолет",
 }

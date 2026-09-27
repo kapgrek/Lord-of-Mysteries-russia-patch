@@ -250,6 +250,13 @@ return {
     ["吃利息"] = "Получение процентов",
     ["木桩在哪"] = "Где найти тренировочный манекен?",
     ["Be careful when moving heavy objects"] = "Осторожно вынести тяжёлый предмет",
+    ["沉默目标，减少目标体力，减少解控冷却"] = "Silence the target, reduce the target's stamina, and reduce the Cooldown of Cleanse.",
+    ["Lock onto the farthest enemy, deal <HighLight>180%</> attack damage, pull them to your front, and Taunt them for <HighLight>1.5</> seconds."] = "Lock onto the farthest enemy, deal <HighLight>180%</> attack damage, pull them to your front, and Taunt them for <HighLight>1.5</> seconds.",
+    ["塔罗会·阿尔杰：6人档增量，全体攻击+1.6%。"] = "Клуб Таро · Алгер: бонус уровня «6 игроков», вся команда +1.6% к атаке.",
+    ["Base Stats: Health +100, Defense +10"] = "Базовые характеристики: Здоровье +100, Защита +10",
+    ["他回来以后我们一定要补一顿烛光晚餐！我等了他整整一个月，信都写了十几封。"] = "Когда он вернётся, мы обязательно устроим ужин при свечах! Я ждала его целый месяц и написала больше десятка писем.",
+    ["是否确定退出战略服？"] = "Подтвердить выход со Стратегического сервера?",
+    ["Happiness that can be bought for a few coins; a favorite for workers after a long day."] = "Happiness that can be bought for a few coins; a favorite for workers after a long day.",
     ["这小家伙，看起来饿坏了……"] = "Этот малыш выглядит так, будто умирает от голода...",
     ["Bobby"] = "Бобби",
 }

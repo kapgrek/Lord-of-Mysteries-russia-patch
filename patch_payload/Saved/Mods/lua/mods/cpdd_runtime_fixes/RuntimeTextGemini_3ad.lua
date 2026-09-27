@@ -244,6 +244,13 @@ return {
     ["掌中笼"] = "Клетка в руке",
     ["Four-Way League Mythical Group Redemption Box"] = "Ящик повторной выдачи: Лига четырёх сторон — мифическая группа",
     ["了解巴伐特银行"] = "Узнать о банке Баварт",
+    ["获得6%最大生命护盾，持续4秒"] = "Gain 6% Max Health Shield, lasts 4 seconds",
+    ["全体攻速提高40%。"] = "All allies' Attack Speed increased by 40%.",
+    ["<M_Default> Dear Beyonder: </>\n You have been appointed to the position of <M_Orange>%s</> in the <M_Orange>%s</> club."] = "<M_Default>Дорогой Потусторонний:</>\nВы были назначены на должность <M_Orange>%s</> в клубе <M_Orange>%s</>.",
+    ["何不两样都卖，让大儿子学着做晴伞、小儿子的遮阳帽加层防水料子。"] = "А почему не продавать и то, и другое: пусть старший сын научится делать зонты от солнца, а к шляпе младшего добавим слой водонепроницаемой ткани.",
+    ["若您有朝一日踏上大海，不妨先来教堂祈祷。"] = "Если однажды вы выйдете в море, не лишним будет сначала прийти в собор и помолиться.",
+    ["He has a beautiful fiancée and has been working hard to save money for their wedding lately."] = "У него красивая невеста, и последнее время он усердно копит деньги на их свадьбу.",
     ["Milo"] = "Майло",
     ["贝尔曼"] = "Беллман",
+    ["Leonard unbuttoned his shirt collar, chuckled, and nodded: \n      \"I'm glad we've reached a consensus.\" \n      \"In those adventure novels, this is called the meeting of two protagonists, and the wheels of history begin to roll forward.\" \n      Shameless! Klein smiled perfunctorily."] = "Леонард расстегнул пуговицу на воротнике рубашки, усмехнулся и кивнул:\n      «Я рад, что мы пришли к согласию».\n      «В этих авантюрных романах это называется встречей двух главных героев, и колесо истории начинает катиться вперёд».\n      Ну и бесстыдник! Клейн натянуто улыбнулся.",
 }

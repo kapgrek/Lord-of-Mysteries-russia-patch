@@ -267,4 +267,10 @@ return {
     ["开启后，可从候选的封印装备中选择1件。"] = "После открытия можно выбрать 1 предмет запечатанного снаряжения из предложенных.",
     ["Default State"] = "Состояние по умолчанию",
     ["The Fool + The Fool + The Fool"] = "Шут + Шут + Шут",
+    ["攻击提高21%，伤害加深提高10.5%。"] = "Attack increased by 21%, Damage Amplification increased by 10.5%.",
+    ["%s%s%s处于冷却中"] = "%s%s%s is on cooldown",
+    ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 7 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7 маны",
+    ["Backlund is a shining pearl."] = "Бэкланд — сияющая жемчужина.",
+    ["The fried eggs at this place are the best..."] = "The fried eggs at this place are the best...",
+    ["Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help."] = "Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help.",
 }

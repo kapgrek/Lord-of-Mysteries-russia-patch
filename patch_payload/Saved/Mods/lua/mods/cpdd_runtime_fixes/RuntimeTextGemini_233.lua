@@ -245,6 +245,8 @@ return {
     ["已达出价上限，无法加价"] = "Достигнут лимит ставки, повысить нельзя",
     ["奇怪的人影"] = "Странная фигура человека",
     ["Play a round of Fight the Evil"] = "Сыграть партию в «Бой со злом»",
+    ["A silver medal issued by the City Hall. It witnesses every place you have walked—the bustle of Iron Cross Street, the steam whistles of the damp docks, the stories behind the residences. Tingen is right under your feet at this moment."] = "A silver medal issued by the City Hall. It witnesses every place you have walked—the bustle of Iron Cross Street, the steam whistles of the damp docks, the stories behind the residences. Tingen is right under your feet at this moment.",
+    ["Me? I... I am responsible for soliciting customers here, I can't leave, I can't leave, hehe..."] = "Я? Я... я тут отвечаю за привлечение посетителей, не могу отойти, не могу отойти, хе-хе...",
     ["Stetson"] = "Стетсон",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект воспроизводит указанное содержимое диалога. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

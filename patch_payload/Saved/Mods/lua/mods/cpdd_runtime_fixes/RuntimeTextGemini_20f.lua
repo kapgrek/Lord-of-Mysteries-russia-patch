@@ -260,4 +260,11 @@ return {
     ["[Aurora Order]"] = "[Орден Авроры]",
     ["编辑失败：棋子已达最大星级"] = "Не удалось изменить: у фигуры максимальная звёздность",
     ["找回身份"] = "Восстановить личность",
+    ["攻击提高12%，伤害加深提高6%。"] = "Attack increased by 12%, Damage Amplification increased by 6%.",
+    ["美神的祝福：攻击决斗失败者时造成巨额伤害。"] = "Blessing of the Goddess of Beauty: Deals massive damage when attacking a duel loser.",
+    ["Nowadays, many noble ladies in Backlund come to her for custom gowns. Who says a woman can't survive without a man?"] = "Теперь многие знатные дамы Бэкланда заказывают у неё платья на заказ. Кто сказал, что женщина не выживет без мужчины?",
+    ["We have no other choice but to ask the city government for help, but no matter how many times the proposal is submitted, it gets rejected by the councilors!"] = "У нас не было другого выхода, кроме как обратиться за помощью в городскую управу, но сколько бы раз мы подавали предложение, депутаты всегда его отклоняли!",
+    ["Hello, are you here to clear your head too?"] = "Привет, ты тоже пришёл сюда, чтобы прочистить голову?",
+    ["我和对街的西蒙斯一块参军入伍，保家卫国，建功立业，没有什么比这更光荣了。"] = "Я и Симмонс с соседней улицы вместе пошли в армию — защищать родину и совершать подвиги, не было ничего более почётного, чем это.",
+    ["时装搭配比拼大赛我的排名时装搭配比拼大赛我的排名"] = "Конкурс сочетания образов Мой рейтингКонкурс сочетания образов Мой рейтинг",
 }

@@ -249,5 +249,8 @@ return {
     ["发射蔓花毒刺，远程攻击当前目标。"] = "Выпускает ядовитый шип лозы, атакуя текущую цель на расстоянии.",
     ["野玫瑰"] = "Дикая роза",
     ["染血旧照"] = "Окровавленное старое фото",
+    ["柚木木质致密，油性充足，不怕潮湿和虫蛀，最适合打造船身甲板、高档家具和长期露天使用的设施。"] = "Teak is dense, rich in oil, and resistant to moisture and insect damage, making it the most suitable for building ship decks, high-end furniture, and facilities used outdoors for long periods.",
+    ["The oath of three people standing side by side is a glimmer of light that burns eternally in the darkness."] = "Клятва троих, стоящих плечом к плечу, — это огонёк, что вечно горит во Тьме.",
+    ["Once, you gazed at the starry sky, seeking the guidance of fate. Now, you stand above the stars, looking down upon this universe with the same gaze that a god once used."] = "Когда-то ты смотрел на звёздное небо, ища знаки судьбы. Теперь ты стоишь над звёздами и взираешь на эту вселенную взором, которым некогда смотрели боги.",
     ["Ayan"] = "Аян",
 }

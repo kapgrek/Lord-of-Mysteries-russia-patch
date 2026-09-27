@@ -262,6 +262,8 @@ return {
     ["Enjoy Freedom"] = "Наслаждение свободой",
     ["Knight Guard"] = "Рыцарь-страж",
     ["周而复始"] = "Цикл за циклом",
+    ["<Assistant_Title1>【快速降低理智值】</>\n前往{Location:[金秋湖(140,121)]|4355;2522;-318;1;5200085;0}，找到<Assistant_Property1>丰饶之树</>。与<Assistant_Property1>丰饶之树</>交互，即可快速降低理智值。"] = "<Assistant_Title1>【Rapidly Reduce Sanity】</>\nGo to {Location:[Golden Autumn Lake (140,121)]|4355;2522;-318;1;5200085;0}, find the <Assistant_Property1>Tree of Abundance</>. Interact with the <Assistant_Property1>Tree of Abundance</> to rapidly reduce Sanity.",
+    ["What stats should I focus on building?"] = "Какие характеристики мне следует развивать?",
     ["Completed:"] = "Завершено:",
     ["Evangeline"] = "Эванджелин",
 }

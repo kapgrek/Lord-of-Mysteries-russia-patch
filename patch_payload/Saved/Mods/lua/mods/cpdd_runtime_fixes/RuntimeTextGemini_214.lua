@@ -261,4 +261,9 @@ return {
     ["装备任务2"] = "Задание снаряжения 2",
     ["收<h>菜心</>"] = "Собрать <h>чойсам</>",
     ["分析现状"] = "Проанализировать ситуацию",
+    ["塔罗会·戴里克：3人档增量，全体伤害减免+0.4%。"] = "Tarot Club · Derrick: 3-person tier increment, all allies Damage Reduction +0.4%.",
+    ["活动介绍"] = "Event Introduction",
+    ["它们怎么突然疯了？！"] = "Почему они вдруг взбесились?!",
+    ["Why do you keep holding an umbrella?"] = "Почему ты всё время держишь зонт открытым?",
+    ["Blackthorn, the Tingen Nighthawk squad disguised as a security company."] = "Блэкторн — отряд «Тинген Найтхок», маскирующийся под охранную компанию.",
 }

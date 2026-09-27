@@ -245,4 +245,11 @@ return {
     ["4-unit circle at target"] = "Круг радиусом 4 клетки у цели",
     ["Serene Court"] = "Безмятежный двор",
     ["回到<h>梅丽莎</>身边"] = "Вернуться к <h>Мелиссе</>",
+    ["重复公会宣战胜利奖励"] = "Duplicate Guild war victory reward.",
+    ["Gift Entry-Brooch-2-3"] = "Gift Entry-Brooch-2-3",
+    ["When the gates of the royal stables open once more, the pace and poise remain as impeccable as ever."] = "When the gates of the royal stables open once more, the pace and poise remain as impeccable as ever.",
+    ["The low echoes of the surging River of Death, where death and rebirth cycle in eternity."] = "Низкое эхо бурлящей Реки Смерти, где смерть и возрождение кружат в вечном цикле.",
+    ["Tombstones stand solemnly in the sunlight, and the living and the dead coexist peacefully at this moment."] = "Надгробия торжественно стоят под солнцем, живые и мёртвые мирно соседствуют в этот миг.",
+    ["每次普攻技能Type=2的首技能释放固定恢复7法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7 маны",
+    ["然后教堂执事拿着支票去了银行，又回来了。他们都怎么说来着？哦对，“只有女神本人才能从那张支票里取出钱来。”"] = "А потом церковный дьякон отнёс чек в банк и вернулся обратно. Что они там говорили? Ах да, «Снять деньги с этого чека может только сама Богиня».",
 }

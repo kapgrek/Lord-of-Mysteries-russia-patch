@@ -262,4 +262,11 @@ return {
     ["暴击额外恢复2法力"] = "Критический удар дополнительно восстанавливает 2 маны.",
     ["查看商人带来的老鼠"] = "Осмотреть крыс, принесённых торговцем",
     ["时装搭配大赛"] = "Конкурс сочетания нарядов",
+    ["施法后强化下一次普攻，冷却4秒"] = "Strengthen the next Basic Attack after casting a skill, Cooldown 4 seconds.",
+    ["Count_Movement Resource"] = "Count_Movement Resource",
+    ["Never ceasing your steps, you trace the past and look toward the future in the museum. Perhaps we are merely silhouettes in the crevices of history."] = "Never ceasing your steps, you trace the past and look toward the future in the museum. Perhaps we are merely silhouettes in the crevices of history.",
+    ["The marionette makes Ray Bieber invincible; use a control skill to interrupt the marionette!"] = "Марионетка делает Райла Бибера неуязвимым — используйте контролирующее умение, чтобы прервать марионетку!",
+    ["The Steam Train is not ready yet; please wait patiently, passengers."] = "Паровой поезд ещё не готов, просим пассажиров подождать терпеливо.",
+    ["But non-formal members are still allowed to use most of the facilities in the club, as long as you pay the annual fee of 30 pounds regularly."] = "Но неформальным членам всё же разрешено пользоваться большинством удобств клуба, если они регулярно платят годовой взнос в размере 30 фунтов.",
+    ["Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold the cup in her hand... tsk tsk, at that time, it was so good."] = "Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold the cup in her hand... tsk tsk, at that time, it was so good.",
 }

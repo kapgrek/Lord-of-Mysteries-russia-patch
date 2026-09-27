@@ -243,6 +243,12 @@ return {
     ["专属长椅"] = "Эксклюзивная скамья",
     ["Please complete the required information before publishing."] = "Заполните обязательную информацию перед публикацией.",
     ["Congratulations to the following Clubs for promoting to the Apocalypse Group"] = "Поздравляем следующие клубы с повышением в группу «Апокалипсис»",
+    ["Mushrooms burst three times in succession, dealing <HighLight>35%/35%/120%</> attack damage; allies in the area recover <HighLight>6%</> of their maximum health."] = "Mushrooms burst three times in succession, dealing <HighLight>35%/35%/120%</> attack damage; allies in the area recover <HighLight>6%</> of their maximum health.",
+    ["即便只是静静坐上一会儿，也能感受到风暴之主庇佑众生的威严与慈悲。"] = "Даже просто посидев здесь тихо какое-то время, можно почувствовать величие и милосердие Повелителя Бурь, оберегающего всех живущих.",
+    ["In competition mode, <Highlight> defeat </> %s/%s Trickmasters"] = "В соревновательном режиме <Highlight>победите</>%s/%s Трикстеров",
+    ["西尔维娅会召唤被污染的蘑菇，蘑菇会不断轰击随机位置，在一定时间后需要非凡者靠近吸引蘑菇撞击，否则蘑菇会进行自爆。"] = "Сильвия призывает заражённые грибы, которые непрерывно обрушиваются на случайные точки. Через некоторое время Потусторонний должен подойти, чтобы привлечь удар грибов, иначе грибы самоуничтожатся.",
+    ["成功打断瑞尔·比伯！"] = "Райл Бибер успешно прерван!",
+    ["My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts."] = "My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts.",
     ["老罗德昨天还念叨着要晒太阳，说晒硬朗了好去背柴。"] = "Старый Род еще вчера говорил о желании погреться на солнце, говоря, что, как только он окрепнет от солнца, он снова вернется к ношению дров.",
     ["2 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

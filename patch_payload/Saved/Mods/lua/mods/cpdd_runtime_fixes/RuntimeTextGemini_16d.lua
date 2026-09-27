@@ -256,6 +256,13 @@ return {
     ["Ability Evaluation"] = "Оценка способностей",
     ["花车巡游"] = "Парад платформ",
     ["Apprentice Main Combo Guide"] = "Обучение основным комбо: Ученик",
+    ["<Assistant_Title1>【沉默闪避】</>\n降低被沉默控制命中的概率，最多使基础命中率降低一半，抵消控制来源的沉默命中。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Silence Dodge】</>\nReduces the probability of being hit by silence control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Silence Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}",
+    ["<Assistant_Title1>势如劈竹</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>单局内己方相连据点数达到4个。"] = "<Assistant_Title1>Splitting Bamboo</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Have 4 connected strongholds in a single match.",
+    ["<Assistant_Title1>军功之巅</>\n<Assistant_Title2>成就分类：</>以战养战;势力\n<Assistant_Title2>解锁条件：</>本周期内累计军功值达到100000。"] = "<Assistant_Title1>Peak of Military Merit</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 100,000 military merit in this cycle.",
+    ["为什么伤害值和描述不一样？"] = "Why is the damage value different from the description?",
+    ["最大生命+8000、攻击+2000、破防+1000、技能增强+500"] = "Макс. здоровье +8000, атака +2000, прорыв защиты +1000, усиление навыков +500",
+    ["（只是 我的秘密恐怕比你想象得更多）"] = "(Просто, боюсь, у меня секретов больше, чем ты можешь представить.)",
+    ["昨晚的事，你有印象？"] = "Ты помнишь, что было прошлой ночью?",
     ["朝向: Pitch:"] = "Ориентация: Шаг:",
     ["播放CutScene  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）  玩家设置客户端在指定场景显示的天气与时段"] = "Запускаем CutScene, объект телепортируется в указанную позицию в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены), игрок устанавливает для клиента погоду и время суток в указанной сцене.",
 }

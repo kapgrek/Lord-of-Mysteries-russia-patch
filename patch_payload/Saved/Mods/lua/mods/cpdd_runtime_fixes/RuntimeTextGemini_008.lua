@@ -264,6 +264,10 @@ return {
     ["存入新词条"] = "Сохранить новую характеристику",
     ["Use <h> spirit vision </> to investigate the <h> room </>"] = "Использовать <h>Истинное Зрение (Духовное)</> для осмотра <h>комнаты</>",
     ["“舞者”"] = "«Танцор»",
+    ["普攻主目标追加1.5%自身最大生命伤害并溅射相邻敌人"] = "Main target of Basic Attack takes an additional 1.5% of self Max Health as damage and splashes to adjacent enemies.",
+    ["子嗣的仪式成功了！\n尽管值夜者查清了贫民区的连续死亡案件，但这并不影响故事的继续。\n在工厂区那日夜累积的怨念滋润下，在那实质般的昏暗和压抑催化下，计划顺利进行……"] = "Ритуал потомства увенчался успехом!\nХотя Ночные дозорные раскрыли серию смертей в трущобах, это не повлияло на продолжение истории.\nПитаемый обидой, копившейся день и ночь в промышленном районе, катализируемый почти материальным мраком и гнётом, план продвигался успешно…",
+    ["How many people can enter one instance of the Strategic Server's Final Hunt?"] = "Сколько игроков может войти в один канал «Финальной охоты» на Стратегическом сервере?",
+    ["<P_Heart>(Let me see, he is holding his head with both hands, his chin buried in his knees, as if resisting the outside world.)</>"] = "<P_Heart>(Let me see, he is holding his head with both hands, his chin buried in his knees, as if resisting the outside world.)</>",
     ["怪物专攻提高<Mark>100</>。距离上次受到伤害超过<Mark>2</>秒后破防提高<Mark>70</>，持续<Mark>5</>秒。"] = "Специализация против монстров повышается на <Mark>100</>. Если с момента последнего получения урона прошло более <Mark>2</> сек., прорыв защиты повышается на <Mark>70</> на <Mark>5</> сек.",
     ["是啊，亲手做的，我们约好要一起做新的。"] = "Да, он сделал его сам, и мы пообещали вместе сделать новый.",
 }

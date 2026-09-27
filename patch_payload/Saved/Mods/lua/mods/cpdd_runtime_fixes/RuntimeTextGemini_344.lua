@@ -284,6 +284,9 @@ return {
     ["Chat with <h> Emma </>"] = "Поговорить с <h>Эммой</>",
     ["安格斯"] = "Ангус",
     ["跟<h>劳维斯</>打个招呼"] = "Поздороваться с <h>Лависом</>",
+    ["<Assistant_Title1>【禁锢】</>\n无法移动、闪避、跳跃。\n<Assistant_Title2>控制失手：</>禁锢效果会被<Assistant_Red>霸体</>免疫，并且存在命中概率。<Assistant_Property1>禁锢命中</>可以提高自身禁锢控制命中的概率，<Assistant_Property2>禁锢闪避</>可以提高自身闪避他人禁锢控制的概率。\n<Assistant_Title2>控制时长：</><Assistant_Property1>禁锢增强</>可以提高自身禁锢控制命中后的时长，<Assistant_Property2>禁锢抵挡</>可以降低受到他人禁锢控制的时长。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Imprisonment】</>\nCannot move, dodge, or jump.\n<Assistant_Title2>Control Failure: </>Imprisonment effects can be immunized by <Assistant_Red>Super Armor</>, and there is a hit probability. <Assistant_Property1>Imprisonment Hit</> can increase your own probability of landing imprisonment control, and <Assistant_Property2>Imprisonment Dodge</> can increase your own probability of dodging others' imprisonment control.\n<Assistant_Title2>Control Duration: </><Assistant_Property1>Imprisonment Enhancement</> can increase the duration of your own imprisonment control after it lands, and <Assistant_Property2>Imprisonment Block</> can reduce the duration of imprisonment control received from others.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effect]|1467}",
+    ["<M_Default>亲爱的非凡者：</>\n您有已完成的躺赢任务奖励未领取，奖励已补发到邮箱内，请查收。"] = "<M_Default> Dear Beyonder: </> \n You have unclaimed rewards from completed carry quests. The rewards have been reissued to your mailbox. Please check them.",
+    ["There have been so many people coming back to return goods after buying them lately... and the reasons are all the same."] = "В последнее время так много людей приходят обратно, чтобы вернуть купленные товары... и причины все одинаковые.",
     ["A\n\nChance"] = "Один\n\nшанс",
     ["等待时间  玩家播放单句黑屏字幕"] = "Подождите время. Плеер воспроизводит однострочные субтитры на черном экране.",
 }

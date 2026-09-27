@@ -248,5 +248,12 @@ return {
     ["女爵特性"] = "Особенность Маркизы",
     ["副本额外增益"] = "Дополнительные бонусы подземелья",
     ["At the Dawn of the Apocalypse"] = "На заре апокалипсиса",
+    ["<Assistant_Title1>【伤害加深】</>\n造成的伤害提高一定百分比，受到目标伤害减免的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Damage Increased】</>\nIncreases the damage dealt by a certain percentage, offset by the target's Damage Reduction.\n<Assistant_Title3>Recommended Search: </>{SendAnswer:[Damage Calculation]|1499}",
+    ["战略服巨龙归属伤害为什么会减少"] = "Why does damage to the Giant Dragon decrease on the Strategic Server?",
+    ["反正我不会再给《贝克兰德邮报》供稿了。"] = "В любом случае, я больше не буду писать для «Бэкландской почты».",
+    ["灵线生效中，至少要保留1个派遣秘偶"] = "«Духовная нить» активна — необходимо оставить в отправке хотя бы 1 марионетку.",
+    ["I understand their feelings very well, and I envy them for still being able to find the mementos of someone important."] = "I understand their feelings very well, and I envy them for still being able to find the mementos of someone important.",
+    ["Yeah, why... why would I do this?"] = "Yeah, why... why would I do this?",
+    ["The day I concocted the potion, Susie opened the door and entered the laboratory, licking a portion of the Spectator potion. Fortunately, I had prepared two sets of materials at the time."] = "The day I concocted the potion, Susie opened the door and entered the laboratory, licking a portion of the Spectator potion. Fortunately, I had prepared two sets of materials at the time.",
     ["虽然它的能力已不足巅峰的十分之一，但毕竟曾是我最骄傲的设计，必须尽早将它压制封印……小家伙们，交给你们了，不要再让绯红降临在大地上。"] = "Хотя его мощность составляет менее одной десятой от максимальной, в конце концов, это была моя самая большая гордость. Его необходимо как можно скорее подавить и запечатать... Малыши, я оставляю это вам. Не позволяйте багровому цвету снова опуститься на землю.",
 }

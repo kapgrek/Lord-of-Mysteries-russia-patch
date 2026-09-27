@@ -258,5 +258,9 @@ return {
     ["Hammer the ground to shock the surroundings; becomes faster the longer the battle lasts."] = "Яростным молотом сотрясает всё вокруг; с каждым полученным ударом атакует всё быстрее.",
     ["心灵灯塔3阶"] = "Маяк разума, 3 ступень",
     ["Refuse Fashion Duel"] = "Отклонить модный поединок",
+    ["战斗开始时额外获得25防御，持续8秒"] = "Gain an additional 25 Defense for 8 seconds at the start of battle.",
+    ["End-Time Pursuit"] = "End-Time Pursuit",
+    ["Processed products of Golden Autumn Lake"] = "Processed products of Golden Autumn Lake",
+    ["Requires Beyonders <Disable> whose total number above their heads equals the target number </> to gather within the range."] = "Потусторонние, <Disable>у которых сумма чисел над головой равна целевому числу</>, должны собраться в зоне.",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

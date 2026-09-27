@@ -284,6 +284,11 @@ return {
     ["询问园丁"] = "Расспросить садовника",
     ["Try to <h>think about what's going on</>"] = "Попробовать <h>подумать, что происходит</>",
     ["Rare Honey-Cured Bacon"] = "Редкий бекон в меду",
+    ["每4秒回复3%最大生命"] = "Restore 3% of Max Health every 4 seconds",
+    ["7名邻格友军提供42防御。"] = "7 союзников в соседних клетках дают 42 защиты.",
+    ["The two inherent Mana regeneration values for this planning period are both 0, retaining the independent spawn Buff configuration slot."] = "В этом периоде планирования оба показателя врождённого восстановления маны равны 0, слот конфигурации отдельного бафа при появлении сохранён",
+    ["What stats should a healer focus on?"] = "Какие характеристики следует развивать хилеру?",
+    ["Hello, I am the wandering singer, Lawood. It must have been this beautiful singing that attracted you, right?"] = "Здравствуйте, я бродячий певец Лавуд. Наверное, вас привлекло это чудесное пение?",
     ["Giovanni"] = "Джованни",
     ["偏见蒙蔽了你的双眼，错误的判断将带来灾难。放下成见，否则你将成为不公的帮凶。"] = "Предрассудки ослепляют ваши глаза; неправильные суждения принесут катастрофу. Откажитесь от своих предубеждений, иначе вы станете соучастником несправедливости.",
 }

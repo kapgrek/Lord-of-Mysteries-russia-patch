@@ -275,5 +275,7 @@ return {
     ["Witness the defeat of the Dragon - Projection"] = "Стать свидетелем поражения Дракона · Проекции",
     ["Find the source of the power"] = "Найти источник силы",
     ["黑夜战法"] = "Ночная боевая тактика",
+    ["一段剑气对命中目标有60%的基础概率造成击退。"] = "Первая волна Ци меча имеет базовый шанс 60% отбросить попавшую под удар цель.",
+    ["你已经有房间了，是否退出当前房间<Highlight>%s</>，加入新房间<Highlight>%s</>？"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
     ["<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">On the stained note, only a few lines remain legible:</>\n\"I finally understand...\"\n\"The first round is <Letter_Highlight_HW>number two</>! Number two is <Letter_Highlight_HW>real</>!\"\n\"What the Desire Messenger said is all <Letter_Highlight_HW>truth</>, but we will still die—\"\n<Hide stylename=\"Transparent\" id=\"#161_R\">The handwriting broke</>, <Hide id=\"#157\">behind it is a dark stain that has been wiped.</>"] = "<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">На покрытой пятнами записке различимы лишь несколько строк:</>\n«Я наконец-то понял...»\n«В первом раунде был <Letter_Highlight_HW>номер два</>! Номер два был <Letter_Highlight_HW>настоящим</>!»\n«Все, что говорил Посланник Желаний — <Letter_Highlight_HW>чистая правда</>, но мы все равно умрем...»\n<Hide stylename=\"Transparent\" id=\"#161_R\">Почерк обрывается</>, <Hide id=\"#157\">дальше идет смазанное темное пятно.</>",
 }

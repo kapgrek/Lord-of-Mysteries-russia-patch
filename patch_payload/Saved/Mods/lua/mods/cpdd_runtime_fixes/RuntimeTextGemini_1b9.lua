@@ -263,5 +263,12 @@ return {
     ["敏锐猎手天赋效果"] = "Какой эффект у таланта «Чуткий охотник»?",
     ["神选谕令"] = "Эдикт избранного богом",
     ["约瑟夫的投影"] = "Проекция Джозефа",
+    ["<Assistant_Title1>【伤害减免】</>\n受到的伤害降低一定百分比，抵消伤害来源的伤害加深。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Damage Reduction】</>\nReduces incoming damage by a certain percentage and offsets the attacker's Damage Deepening.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}",
+    ["神秘学的符号在暗中闪烁,禁忌的知识透出诱惑的光芒。"] = "Оккультные символы мерцают во тьме, запретное знание источает манящий свет.",
+    ["They're everywhere! In the house! In the fields! We have to burn the whole town down!"] = "Они повсюду! В домах! В полях! Нужно сжечь весь городок дотла!",
+    ["获得所有展示外观角色位置的信息"] = "Получить информацию о позициях всех персонажей с отображаемым внешним видом",
+    ["What of it? Isn't this the time when the newspapers are touting love and romance, and envying the free atmosphere of Intis?"] = "Что с того? Разве сейчас время, когда газеты воспевают любовь и романтику, восхищаясь свободными нравами Интис?",
+    ["Kingdom news? The Minister of Internal Affairs' birthday is today, does that count?"] = "Kingdom news? The Minister of Internal Affairs' birthday is today, does that count?",
+    ["High-quality pure silver jewelry. The style is simple and ancient, highlighting the wearer's low-key yet sophisticated taste."] = "High-quality pure silver jewelry. The style is simple and ancient, highlighting the wearer's low-key yet sophisticated taste.",
     ["……\n\nCurrently, the remaining ten people are still missing. After tracking and investigation, relevant clues were found:\n1. The age range of missing children is from eight to fifteen years old.\n2. The last sighting locations of missing children are mainly in the <Mark id=\"#159\"> West District </> and <Mark id=\"#159\"> Factory District </>.\n3. Near the crime scene, someone heard the sound of a suspected <Mark id=\"#159\">flute </>.\n4. ……"] = "......\n\nОставшиеся десять человек по-прежнему пропали без вести. После последующего расследования были обнаружены соответствующие улики: \n1. Возрастной диапазон пропавших детей колеблется от восьми до пятнадцати лет \n2. Последние места появления пропавших детей находятся в основном в <Mark id=\"#159\"> Западном округе </> и <Mark id=\"#159\"> Заводской зоне </>. \n3. Рядом с местом преступления кто-то услышал звук предполагаемой <Mark id=\"#159\"> флейты </>. \n4.……",
 }

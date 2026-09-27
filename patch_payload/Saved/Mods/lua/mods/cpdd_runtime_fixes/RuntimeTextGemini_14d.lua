@@ -265,5 +265,13 @@ return {
     ["The first impact pulls enemies to the center of the area; the second impact causes a Stun."] = "Первый удар стягивает врагов к центру области, второй оглушает.",
     ["建模"] = "Моделирование",
     ["Chat with Emma"] = "Поболтать с Эммой",
+    ["<Assistant_Title1>【力量】</>\n每点力量提高物理破防1.81点，物理途径额外提高技能增强0.6点。\n物理途径包括：占卜家、歌颂者、战士。"] = "<Assistant_Title1>【Strength】</>\nEach point of Strength increases Physical Armor Break by 1.81, and Physical Pathways additionally increase Skill Enhancement by 0.6.\nPhysical Pathways include: Seer, Bard, Warrior.",
+    ["Disable Ride Along and Mounting/Dismounting"] = "Disable Ride Along and Mounting/Dismounting",
+    ["Pathway Suppression increased by *f**."] = "Подавление Пути увеличивается на *f**.",
+    ["Initiate a group summon on the target; once the target accepts, they are teleported to the snapshot position at the time of casting"] = "Инициирует групповой призыв цели; после принятия цель переносится в позицию снимка на момент применения навыка",
+    ["Custom text has been replaced with fixed text; modification is not supported at this time."] = "Пользовательский текст был заменён на фиксированный текст, изменение пока не поддерживается",
+    ["So hungry, Dad comes home very late lately, and the landlord came to ask for rent again."] = "Так голодно, папа последнее время приходит домой очень поздно, а хозяин снова приходил за арендой.",
+    ["The accumulation of wealth is outdated; they should stay safely in a vault. From now on, craftsmanship is the popular trend, and Miss Alice has always had a keen nose for this."] = "The accumulation of wealth is outdated; they should stay safely in a vault. From now on, craftsmanship is the popular trend, and Miss Alice has always had a keen nose for this.",
+    ["He cares for every living being, even if you don't believe in \"The Fool,\" you can still enjoy everything of the Tarot Club."] = "He cares for every living being, even if you don't believe in \"The Fool,\" you can still enjoy everything of the Tarot Club.",
     ["使用指定道具  玩家播放仅自己可见的说话文本"] = "Используя специальный реквизит, игроки воспроизводят говорящий текст, который виден только им самим.",
 }

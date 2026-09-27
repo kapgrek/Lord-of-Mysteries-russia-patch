@@ -261,6 +261,11 @@ return {
     ["烟火市井"] = "Оживлённый рынок",
     ["模型体型提升70%"] = "Размер модели увеличен на 70%",
     ["Ask <h>Alex</> about today's drink menu"] = "Спросить у <h>Алекса</> сегодняшнее меню напитков",
+    ["途径治疗增幅"] = "Pathway Healing Boost",
+    ["Strangles the enemy in front, dealing <HighLight>200%</> attack damage; leaves behind a spider web lasting <HighLight>4</> seconds, reducing enemy movement speed and attack speed by 20%."] = "Strangles the enemy in front, dealing <HighLight>200%</> attack damage; leaves behind a spider web lasting <HighLight>4</> seconds, reducing enemy movement speed and attack speed by 20%.",
+    ["铃兰代表幸福与好运，希望你和你身边的人可以得到幸运的眷顾。"] = "Ландыши символизируют счастье и удачу. Пусть вы и те, кто рядом с вами, будете под покровительством судьбы.",
+    ["Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold her cup steady... tsk tsk, back then, it was so good."] = "Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold her cup steady... tsk tsk, back then, it was so good.",
+    ["<P_Heart> (Something unclean? There might be extraordinary power, go take a look with him.) </>"] = "<P_Heart> (Something unclean? There might be extraordinary power, go take a look with him.) </>",
     ["Malik"] = "Малик",
     ["前往指定Trigger位置  玩家播放仅自己可见的说话文本  延迟执行  对象看向其他对象  玩家播放仅自己可见的说话文本"] = "Перейти к указанному местоположению триггера, игрок воспроизводит текст диалога, видимый только ему, отложенное выполнение, объект смотрит на другой объект, игрок воспроизводит текст диалога, видимый только ему самому",
 }

@@ -244,5 +244,8 @@ return {
     ["正义的裁决强化标记"] = "Метка усиления Вердикта Правосудия",
     ["刺客远程PVE推荐方案"] = "Рекомендуемая сборка Убийцы (дальний бой, PvE)",
     ["Ceiling Decoration"] = "Потолочное украшение",
+    ["【黑夜女神教会】造成伤害时，斩杀生命值低于24%的敌方目标。"] = "[Church of the Evernight Goddess] When dealing damage, execute enemy targets with less than 24% Health.",
+    ["格蕾丝，你太刻薄了。法赫里说了要写论文，别怪他。"] = "Грейс, ты слишком язвительна. Фахри сказал, что должен писать диссертацию, не вини его.",
+    ["Wh-what? He's going to make wine with those grapes. Uh, well, that sounds pretty good... I like to drink!"] = "Wh-what? He's going to make wine with those grapes. Uh, well, that sounds pretty good... I like to drink!",
     ["如同驯服猛兽一般，你以温柔征服了内心的狂暴。真正的强大不在毁灭对方，而在掌控。"] = "Подобно укрощению дикого зверя, вы мягко победили внутреннее безумие. Истинная сила заключается не в уничтожении противника, а в контроле.",
 }

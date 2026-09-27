@@ -258,4 +258,8 @@ return {
     ["Misfortune Water Giant Turtle Fashion Duel Activated"] = "Гигантская черепаха проклятых вод: модная дуэль (активировано)",
     ["%s（%s）"] = "%s（%s）",
     ["Retrieve the ticket snatched away by the parrot"] = "Вернуть билет, украденный попугаем",
+    ["当前可能出现的最高品质为<Quality_4>稀有</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_4>Редкое</>",
+    ["你有什么想了解的吗？"] = "Хотите что-нибудь узнать?",
+    ["Whenever a ship sets sail, there are always people who come to the cathedral to offer a prayer, hoping for a safe voyage and encouraging themselves to have the determination to face the raging seas."] = "Перед каждым отплытием корабля кто-то обязательно приходит в собор молиться, надеясь на безопасное плавание и укрепляя в себе решимость встретить бурные волны.",
+    ["Although music is the dance of the soul, it is not a necessity for life."] = "Музыка — танец души, но не необходимость для жизни.",
 }

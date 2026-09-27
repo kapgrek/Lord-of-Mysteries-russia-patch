@@ -238,5 +238,12 @@ return {
     ["Cape lining"] = "Подкладка плаща",
     ["递烟"] = "Передать сигарету",
     ["\"Worker\""] = "«Рабочий»",
+    ["超凡生物：伤害加深50%。"] = "Beyond Creature: Damage Amplification 50%.",
+    ["<Assistant_Title1>【贴纸·战士】</>\n<Assistant_Title2>描述：</>默认展台表情贴纸\n<Assistant_Title2>使用：</>可点击<Assistant_System>外观-展台</>查看并使用。\n<Assistant_Title2>获取：</>默认解锁"] = "<Assistant_Title1>【Sticker · Warrior】</>\n<Assistant_Title2>Description: </>Default Showcase Sticker\n<Assistant_Title2>Usage: </>Click <Assistant_System>Cosmetics - Showcase</> to view and use.\n<Assistant_Title2>Acquisition: </>Unlocked by default",
+    ["弟弟要左边第二个徽章，妹妹要最后一排第一个面具……"] = "The younger brother wants the second badge on the left, the younger sister wants the first mask in the last row...",
+    ["【塔罗会】(7) 全队 +45%攻击 +1000生命 +15%暴击率"] = "[Клуб Таро] (7) Вся команда +45% к атаке, +1000 здоровья, +15% крит. удара",
+    ["Our club's Conquest Decree attacking the <M_Orange>%s</> club has unfortunately failed, losing <M_Orange>%s</> God-chosen points!"] = "Наш клуб потерпел поражение в Указе о завоевании при атаке на клуб <M_Orange>%s</>, потеряно <M_Orange>%s</> очков Богоизбранного!",
+    ["光线追踪已成功开启，需要重新进入场景后生效"] = "Трассировка лучей успешно включена, изменения вступят в силу после повторного входа в сцену",
+    ["I'm the only one in the house, so the one making the noise must be... something unclean!"] = "I'm the only one in the house, so the one making the noise must be... something unclean!",
     ["Kaya"] = "Кая·",
 }

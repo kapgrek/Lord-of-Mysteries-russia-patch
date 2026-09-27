@@ -240,6 +240,11 @@ return {
     ["Enter the <h> room </> with the young man"] = "Войти в <h>комнату</> вместе с молодым человеком",
     ["Chatty Scab"] = "Болтливый штрейкбрехер",
     ["Officer"] = "Офицер",
+    ["Deal <HighLight>180%</> attack damage to the target area and put enemies to Slumber for <HighLight>1</> second; upon waking, their attack is reduced by <HighLight>12%</> for 4 seconds."] = "Deal <HighLight>180%</> attack damage to the target area and put enemies to Slumber for <HighLight>1</> second; upon waking, their attack is reduced by <HighLight>12%</> for 4 seconds.",
+    ["Yes, so I have to perform on the street, hoping to build some fame and be noticed by those big shots."] = "Да, поэтому мне остаётся только выступать на улице в надежде обрести хоть немного известности и привлечь внимание влиятельных людей.",
+    ["尽管所有人都知道非凡者也会参战，但绝大多数人都不曾见过他们的身影。"] = "Хотя все знали, что Потусторонние тоже участвуют в войне, подавляющее большинство никогда их не видело.",
+    ["Monday to Friday: 19:00-20:00 \n Saturday, Sunday: 12:00-18:00 \n Saturday, Sunday: 19:00-22:00"] = "С понедельника по пятницу: 19:00-20:00\nСуббота, воскресенье: 12:00-18:00\nСуббота, воскресенье: 19:00-22:00",
+    ["Cheers to the newly issued salary!"] = "Тост за только что выданное жалованье!",
     ["完成当前步骤的所有子目标  玩家变身开始"] = "Выполните все подцели текущего шага; начинается трансформация игрока.",
     ["与Npc进行对话  传送回大世界场景"] = "Поговорите с NPC, телепортируйтесь обратно на главную мировую сцену.",
 }

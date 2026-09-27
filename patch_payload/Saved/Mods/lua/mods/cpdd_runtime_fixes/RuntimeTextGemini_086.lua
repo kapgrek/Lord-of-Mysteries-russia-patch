@@ -262,5 +262,6 @@ return {
     ["How do I increase the number of summons?"] = "Как увеличить число призываемых существ?",
     ["Marionette Outfits"] = "Смена наряда марионетки",
     ["Previewing %s"] = "Предпросмотр: %s",
+    ["风尚决斗：决斗胜利者对决斗失败Boss造成巨额伤害"] = "Fashion Duel: The winner of the duel deals massive damage to the defeated Boss",
     ["采集指定TemplateID的采集物  延迟执行  对象播放指定对白内容"] = "Собрать элементы с указанным TemplateID. Отложенное исполнение. Объект воспроизводит указанный диалог.",
 }

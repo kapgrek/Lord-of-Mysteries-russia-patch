@@ -249,5 +249,9 @@ return {
     ["Unlock True Knowledge of Holy Light"] = "Разблокировка истинного знания священного света",
     ["询问开业时间"] = "Спросить о времени открытия",
     ["石块个数"] = "Количество камней",
+    ["<Assistant_Title1>历史学者·三</>\n<Assistant_Title2>成就分类：</>养成-成长\n<Assistant_Title2>解锁条件：</>解锁5个有“原著”标签的关系"] = "<Assistant_Title1>Historian · III</>\n<Assistant_Title2>Achievement Category: </>Cultivation - Growth\n<Assistant_Title2>Unlock Condition: </>Unlock 5 relationships with the \"Original Work\" tag.",
+    ["周一至周五：19:00-20:00\n周六、周日：12:00-18:00\n周六、周日：19:00-22:00"] = "С понедельника по пятницу: 19:00-20:00\nСуббота, воскресенье: 12:00-18:00\nСуббота, воскресенье: 19:00-22:00",
+    ["Only by becoming cheaper can it be bought by more people. As long as enough people buy it, we can define what is fashionable—that is far more valuable than the raw materials."] = "Only by becoming cheaper can it be bought by more people. As long as enough people buy it, we can define what is fashionable—that is far more valuable than the raw materials.",
+    ["I heard a great biologist once crossbred wheat with beef offal. This was a huge evolutionary leap for the species! I've always been curious why I can't find any relevant literature anywhere?"] = "I heard a great biologist once crossbred wheat with beef offal. This was a huge evolutionary leap for the species! I've always been curious why I can't find any relevant literature anywhere?",
     ["Colson"] = "Колсон",
 }

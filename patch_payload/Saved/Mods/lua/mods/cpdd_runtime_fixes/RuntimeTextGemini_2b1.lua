@@ -269,4 +269,11 @@ return {
     ["战功不足"] = "Недостаточно боевых заслуг",
     ["Can claim %d"] = "Доступно к получению: %d",
     ["追踪<h>阿蒙的邮差分身</>"] = "Выследить <h>аватар-почтальона Амона</>",
+    ["受黑夜女神庇佑，受到的所有治疗效果增加<Yellow>*f**</>。"] = "Blessed by the Evernight Goddess, all healing received increased by <Yellow>*f**</>.",
+    ["Hitchcock zoom - Dolly In"] = "Hitchcock zoom - Dolly In",
+    ["当前可能出现的最高品质为<Quality_7>神铸</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_7>Богокованое</>",
+    ["Sister Samina wanted to take me away from Backlund two weeks ago, but I refused her for other reasons."] = "Сестра Самина две недели назад хотела увезти меня из Бэкланда, но я отказалась по другим причинам.",
+    ["土豆……你是说这些包裹里全是土豆？"] = "Картофель... вы хотите сказать, что во всех этих свёртках картофель?",
+    ["Lily of the valley represents happiness and good luck. I hope you and those around you are blessed with good fortune."] = "Ландыши символизируют счастье и удачу. Пусть вы и те, кто рядом с вами, будете под покровительством судьбы.",
+    ["Sigh, shall I go find your true love then?"] = "Sigh, shall I go find your true love then?",
 }

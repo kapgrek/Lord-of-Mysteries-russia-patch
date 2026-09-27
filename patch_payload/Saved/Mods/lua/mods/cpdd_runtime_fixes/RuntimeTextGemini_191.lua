@@ -268,5 +268,11 @@ return {
     ["誓约祈誓"] = "Обет завета",
     ["好团长规则"] = "Правила «Хороший капитан»",
     ["Fight the Evil - Three Players"] = "Бой со злом — 3 игрока",
+    ["罗塞尔召唤八个数字从天上降落，需要非凡者触碰获取信息，落地的数字会造成全团伤害。"] = "Roselle summons eight numbers that descend from the sky. Beyonders must touch them to acquire information. The numbers landing on the ground will deal damage to the entire party.",
+    ["Fors HP Lock 1%"] = "Fors HP Lock 1%",
+    ["塔罗会·休·迪尔查：6人档增量，全体暴击率+1.4%。"] = "Клуб Таро · Сио Дереча: бонус уровня «6 игроков», вся команда +1.4% крит. удара.",
+    ["I have no objection, but you still have to convince Meg. Our club's rule is: for any book purchased jointly, all four people must agree."] = "Я не против, но тебе всё же нужно убедить Мег. Правило нашего клуба таково: если книга покупается совместно, все четверо должны согласиться.",
+    ["在特别执勤模式中，每次进入都会面对不同的案件。"] = "В режиме «Особое дежурство» каждый вход сталкивает вас с новым делом.",
+    ["开启高帧率模式时推荐降低画质，否则容易引起设备发热、耗电增加"] = "При включении режима высокой частоты кадров рекомендуется снизить качество графики, иначе устройство может перегреваться и увеличится расход энергии",
     ["Adler"] = "Адлер",
 }

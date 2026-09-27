@@ -273,5 +273,9 @@ return {
     ["Draft round"] = "Раунд драфта",
     ["Requiem Poetry Society: Official Invitation"] = "Общество поэзии реквиема · Официальное приглашение",
     ["Please select at least one weekday habit."] = "Выберите хотя бы одну будничную привычку.",
+    ["Knowledge settles in the folds, and time lingers on the hem. \n This is the elegance of the old era, and also the silence of the Guardian."] = "Knowledge settles in the folds, and time lingers on the hem. \n This is the elegance of the old era, and also the silence of the Guardian.",
+    ["小薇拉，她们刚才在聊什么传说？"] = "Маленькая Вера, о какой легенде они только что говорили?",
+    ["我现在就去！"] = "Я пойду прямо сейчас!",
+    ["%s点赞了你，额外获得%d点团长积分"] = "%s поставил вам лайк, дополнительно получено %d очков лидера отряда",
     ["铁路大亨变幻远征难度获得%d/5次【铁路大亨】评价。"] = "Получите рейтинг 【Железнодорожный магнат】 %d/5 раз на уровне сложности «Смена экспедиции».",
 }

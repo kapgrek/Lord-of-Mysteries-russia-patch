@@ -242,6 +242,12 @@ return {
     ["[Exclusive Bench] Gameplay Introduction"] = "[Эксклюзивная скамья] Введение в игровой процесс",
     ["巫术斗法·终"] = "Колдовская дуэль · Конец",
     ["战略服终末猎杀玩法介绍"] = "Описание режима «Финальная охота» стратегического сервера",
+    ["On the verge of curse"] = "On the verge of curse",
+    ["Disdaining explanation and having no intention to submit, the rebel will arrive at midnight sharp. The moment of thrill is right now."] = "Disdaining explanation and having no intention to submit, the rebel will arrive at midnight sharp. The moment of thrill is right now.",
+    ["Unlock via Sound-Following gameplay."] = "Разблокируется через режим «По следу звука».",
+    ["Mana recovery adjusted by -2.5, Basic Attack restores an additional 7.5 Mana"] = "Восстановление маны скорректировано на -2.5, обычная атака дополнительно восстанавливает 7.5 маны",
+    ["My eldest son sells umbrellas, and my youngest son sells sun hats. One hopes for a rainy day, the other hopes for a sunny day—but how can this weather satisfy both?!"] = "Мой старший сын продаёт зонты, а младший — шляпы от солнца. Один ждёт дождя, другой — солнца... но разве погода может угодить обоим?!",
+    ["He always works so hard that it worries me... If you meet Porter, remember to tell him to come to the lounge to relax when he has time, and don't put too much pressure on himself."] = "Он всегда так усердно трудится, что меня это тревожит... Если встретишь Портера, передай ему, чтобы заходил в комнату отдыха, когда будет свободное время, и не взваливал на себя слишком много.",
     ["玩家ID:"] = "Идентификатор игрока:",
     ["采集指定TemplateID的采集物  延迟执行  对象播放指定对白内容  对象播动作（拥有状态记录）"] = "Соберите указанный элемент коллекции TemplateID; отложенное исполнение; объект воспроизводит указанное содержимое диалога; объект выполняет действие (имеет запись состояния).",
 }
