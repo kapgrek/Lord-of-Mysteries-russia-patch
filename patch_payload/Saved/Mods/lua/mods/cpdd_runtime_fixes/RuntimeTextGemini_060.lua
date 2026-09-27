@@ -253,7 +253,7 @@ return {
     ["Untargetable and Unselectable"] = "Нельзя выбрать целью и нельзя выделить",
     ["书卷与茶香的午后,年轻的灵魂尚未窥见命运的深渊。"] = "Полдень, полный книг и аромата чая, — юная душа ещё не заглянула в бездну судьбы.",
     ["Manipulating threads, the moment to control fate."] = "Дёрнута нить марионетки — миг, когда судьба берётся под контроль.",
-    ["That guy Spring has a strange temper, but he at least cares for my friend, so let him be."] = "That guy Spring has a strange temper, but he at least cares for my friend, so let him be.",
+    ["That guy Spring has a strange temper, but he at least cares for my friend, so let him be."] = "У этого парня, Спринга, странный характер, но он хотя бы заботится о моём друге, так что пусть будет как есть.",
     ["使用指定道具  玩家发送任务道具  对象播放指定对白内容"] = "Использовать указанный предмет; игрок передает предмет задания; объект воспроизводит указанную реплику",
     ["前往指定Trigger位置  传送到指定场景内的Trigger位置"] = "Перейдите в указанное местоположение триггера. Телепортируйтесь к месту триггера в указанной сцене.",
     ["与Npc进行对话  玩家发送任务道具  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет. Игрок отправляет квестовый предмет.",

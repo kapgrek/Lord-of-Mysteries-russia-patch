@@ -256,7 +256,7 @@ return {
     ["Iron and Blood: Max Health increased by 65%."] = "Кровь и железо: максимум Очков Здоровья (ОЗ) увеличивается на 65%.",
     ["...That really sounds like something a Bard would say."] = "…Действительно похоже на то, что сказал бы бард.",
     ["It worked!"] = "Сработало!",
-    ["{{PlayerName}}。"] = "{{PlayerName}}。",
+    ["{{PlayerName}}。"] = "{{PlayerName}}.",
     ["Orientation: Pitch:"] = "Ориентация: Шаг:",
     ["Galilaia"] = "Галилайя",
     ["采集指定TemplateID的采集物  对象播放指定对白内容  玩家跨场景传送到指定Trigger"] = "Соберите указанный элемент TemplateID. Объект воспроизводит указанное содержимое диалога. Игрок телепортируется между сценами к указанному триггеру.",

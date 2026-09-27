@@ -262,7 +262,7 @@ return {
     ["该部件<Highlight_L>风尚度最高的3套</>染色方案将计入最终风尚度，请留意本次风尚度提升。"] = "Для этой детали в финальный показатель стиля будут засчитаны <Highlight_L>3 схемы окраски с наивысшим показателем стиля</>, обратите внимание на повышение показателя стиля.",
     ["I hope some gentleman hires me today."] = "Надеюсь, сегодня меня наймёт какой-нибудь джентльмен.",
     ["Hold a small bouquet in your hand and harvest a day of happiness!"] = "Держите в руках маленький букет — и соберите целый день счастья!",
-    ["Actually, only a True God can use a three-part honorific name. The honorific names of me and other Tarot Club companions borrow the True God status of Mr. Fool."] = "Actually, only a True God can use a three-part honorific name. The honorific names of me and other Tarot Club companions borrow the True God status of Mr. Fool.",
+    ["Actually, only a True God can use a three-part honorific name. The honorific names of me and other Tarot Club companions borrow the True God status of Mr. Fool."] = "На самом деле только Истинный Бог может использовать трёхчастное титульное имя. Титульные имена мои и других соратников по Таро-клубу заимствуют статус Истинного Бога у господина Шута.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家变身开始  玩家变身结束"] = "Собрать ресурс с указанным TemplateID; игрок создает публичный объект по списку InstanceID (не действует в открытом мире); начало трансформации игрока; окончание трансформации игрока.",
     ["Nehemiah"] = "Неемия",
 }

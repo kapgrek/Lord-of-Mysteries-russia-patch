@@ -247,6 +247,6 @@ return {
     ["你好，我想加入贵战队，一起征战众神之巅，请多指教！"] = "Здравствуйте, я хотел бы присоединиться к вашей команде и вместе покорять Пик Богов, прошу многому научить меня!",
     ["You are not a Club President, Diplomat, or Director; cannot initiate a rally."] = "Вы не президент клуба, не дипломат и не директор, поэтому не можете инициировать сбор.",
     ["今日已经没有占卜次数，明天再来占卜吧。"] = "На сегодня попытки гадания закончились, приходите гадать завтра.",
-    ["It seems the previous owner of this room had an important obsession. What... exactly is \"it\"? \n<P_Yellow>(Obtained clue: Handwriting on the blackboard)</>"] = "It seems the previous owner of this room had an important obsession. What... exactly is \"it\"? \n<P_Yellow>(Obtained clue: Handwriting on the blackboard)</>",
+    ["It seems the previous owner of this room had an important obsession. What... exactly is \"it\"? \n<P_Yellow>(Obtained clue: Handwriting on the blackboard)</>"] = "Похоже, у прежнего владельца этой комнаты была какая-то важная одержимость. Что же... такое «это»? \n<P_Yellow>(Получена улика: Надпись на доске)</>",
     ["完成星座解谜  玩家根据InstanceID列表创建公有对象（大世界不生效）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Полная головоломка созвездия, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), NPC уничтожает себя (не может уничтожать игроков и общедоступных NPC большого мира)",
 }

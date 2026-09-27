@@ -261,6 +261,6 @@ return {
     ["抗暴击提高*d。"] = "Сопротивление критическому удару увеличивается на *d.",
     ["Oh, yes! We're planning to go there—"] = "О, да! Мы как раз собираемся туда—",
     ["As long as you hold your flag high, no matter how far away, thousands of troops will follow."] = "Пока ты держишь флаг высоко, неважно, как далеко — тысячи воинов последуют за тобой.",
-    ["<P_Yellow> Cough, cough, cough, cough, cough, no, I didn't say anything! Please forget it! </>"] = "<P_Yellow> Cough, cough, cough, cough, cough, no, I didn't say anything! Please forget it! </>",
+    ["<P_Yellow> Cough, cough, cough, cough, cough, no, I didn't say anything! Please forget it! </>"] = "<P_Yellow> Кхм, кхм, кхм, кхм, кхм, нет, я ничего не говорил! Пожалуйста, забудьте! </>",
     ["击败指定InstanceID的怪物  对象发送场景事件"] = "Победите монстра с указанным InstanceID. Объект отправляет событие сцены.",
 }

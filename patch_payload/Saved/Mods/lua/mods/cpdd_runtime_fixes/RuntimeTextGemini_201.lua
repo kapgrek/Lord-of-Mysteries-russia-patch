@@ -257,7 +257,7 @@ return {
     ["Base Stats: Health +100, Defense +10"] = "Базовые характеристики: Здоровье +100, Защита +10",
     ["他回来以后我们一定要补一顿烛光晚餐！我等了他整整一个月，信都写了十几封。"] = "Когда он вернётся, мы обязательно устроим ужин при свечах! Я ждала его целый месяц и написала больше десятка писем.",
     ["是否确定退出战略服？"] = "Подтвердить выход со Стратегического сервера?",
-    ["Happiness that can be bought for a few coins; a favorite for workers after a long day."] = "Happiness that can be bought for a few coins; a favorite for workers after a long day.",
+    ["Happiness that can be bought for a few coins; a favorite for workers after a long day."] = "Счастье, которое можно купить за пару монет; любимое лакомство рабочих после долгого дня.",
     ["这小家伙，看起来饿坏了……"] = "Этот малыш выглядит так, будто умирает от голода...",
     ["Bobby"] = "Бобби",
 }

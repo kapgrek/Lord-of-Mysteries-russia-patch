@@ -291,7 +291,7 @@ return {
     ["时空与命运在此交汇,祂端坐于古老长桌之首。赞美愚者！"] = "Здесь пересекаются пространство-время и судьба, Он восседает во главе древнего длинного стола. Слава Шуту!",
     ["Bavart Bank provides basic deposit and withdrawal services for clients, and also offers loan services to individuals."] = "Банк Баварт предоставляет клиентам базовые услуги по вкладам и снятию средств, а также занимается выдачей кредитов физическим лицам.",
     ["I heard Malika's youngest son got into Backlund University?"] = "Слышал, младший сын Малики поступил в Бэкландский университет?",
-    ["If something happens to me, I hope everyone can help take care of my daughter and guard her happiness."] = "If something happens to me, I hope everyone can help take care of my daughter and guard her happiness.",
+    ["If something happens to me, I hope everyone can help take care of my daughter and guard her happiness."] = "Если со мной что-то случится, я надеюсь, что все помогут позаботиться о моей дочери и уберечь её счастье.",
     ["换班时间到了，三号炉的废渣还没清完！谁想替班？每小时多给1便士！"] = "Смена окончена, а шлак из третьей печи еще не выгребли! Кто выйдет на подмену? Дополнительно 1 пенс в час!",
     ["你以前是律师？"] = "Вы раньше были юристом?",
     ["前往指定Trigger位置  玩家移除任务道具（全部删除）  对象同场景传送  玩家移除任务道具（指定数量）"] = "Перейдите в указанное место триггера; игрок удаляет квестовый предмет (удалить все); объект телепортируется в пределах одной сцены; игрок удаляет квестовый предмет (указанное количество).",

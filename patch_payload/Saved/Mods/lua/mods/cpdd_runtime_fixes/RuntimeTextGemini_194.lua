@@ -281,7 +281,7 @@ return {
     ["Statue Charge - Harp"] = "Заряд статуи — Арфа",
     ["当前设备暂不支持开启光线追踪"] = "Текущее устройство не поддерживает включение трассировки лучей",
     ["Exquisite! I can almost smell the cold air from Feynapotter..."] = "Изысканно! Я почти чувствую холодный воздух от Фейнапоттера...",
-    ["Of course, it's a festival in the small town to celebrate the harvest and give thanks to the Earth. Look at the golden pumpkins all over my doorstep; what sweet fruits, what great power of Harvest!"] = "Of course, it's a festival in the small town to celebrate the harvest and give thanks to the Earth. Look at the golden pumpkins all over my doorstep; what sweet fruits, what great power of Harvest!",
+    ["Of course, it's a festival in the small town to celebrate the harvest and give thanks to the Earth. Look at the golden pumpkins all over my doorstep; what sweet fruits, what great power of Harvest!"] = "Конечно, это городской праздник в честь урожая и благодарения Земли. Посмотри на золотые тыквы у моего порога — какие сладкие плоды, какая великая сила Урожая!",
     ["Ethel"] = "Этель",
     ["Melina"] = "Мелина",
     ["前往指定Trigger位置  玩家播放仅自己可见的说话文本"] = "Перейдите в назначенное место триггера. Игрок воспроизводит текст диалога, видимый только ему самому.",

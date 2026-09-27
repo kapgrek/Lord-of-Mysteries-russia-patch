@@ -270,5 +270,5 @@ return {
     ["The marionette makes Ray Bieber invincible; use a control skill to interrupt the marionette!"] = "Марионетка делает Райла Бибера неуязвимым — используйте контролирующее умение, чтобы прервать марионетку!",
     ["The Steam Train is not ready yet; please wait patiently, passengers."] = "Паровой поезд ещё не готов, просим пассажиров подождать терпеливо.",
     ["But non-formal members are still allowed to use most of the facilities in the club, as long as you pay the annual fee of 30 pounds regularly."] = "Но неформальным членам всё же разрешено пользоваться большинством удобств клуба, если они регулярно платят годовой взнос в размере 30 фунтов.",
-    ["Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold the cup in her hand... tsk tsk, at that time, it was so good."] = "Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold the cup in her hand... tsk tsk, at that time, it was so good.",
+    ["Thomas loved to tell jokes, and Eleanor would laugh behind the counter, unable to even hold the cup in her hand... tsk tsk, at that time, it was so good."] = "Томас любил рассказывать шутки, а Элеонор смеялась за стойкой, не в силах даже удержать чашку в руке... эх, тогда всё было так хорошо.",
 }

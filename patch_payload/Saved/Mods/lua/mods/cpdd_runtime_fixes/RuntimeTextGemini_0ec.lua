@@ -262,6 +262,6 @@ return {
     ["Damn it... you... Emperor Roselle said that failure is the mother of success. I will definitely launch successfully!"] = "Чёрт... ты... Император Розелл говорил, что неудача — мать успеха. Я точно смогу успешно запуститься!",
     ["Every brick in this city has heard it. Backlund never refuses anyone's greeting—welcome, young one."] = "Каждый камень этого города уже услышал это. Бэкланд никогда не отказывает никому в приветствии — добро пожаловать, юноша.",
     ["非常正确！你怎敢怀疑我们买不起土豆——停下你质疑的目光，我认为这侵犯了我的肖像。"] = "Совершенно верно! Как вы посмели усомниться, что мы не можем себе позволить картофель — прекратите этот подозрительный взгляд, я считаю, что это нарушает моё право на изображение.",
-    ["But every night, there are strange noises in the house—footsteps, sighs, and someone walking back and forth upstairs."] = "But every night, there are strange noises in the house—footsteps, sighs, and someone walking back and forth upstairs.",
+    ["But every night, there are strange noises in the house—footsteps, sighs, and someone walking back and forth upstairs."] = "Но каждую ночь в доме слышны странные звуки — шаги, вздохи, и кто-то расхаживает туда-сюда наверху.",
     ["Play Dialogue  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Игра «Диалог». Игрок воспроизводит говорящий текст, который виден только ему самому. Отложенное исполнение. Игрок воспроизводит говорящий текст, который виден только ему. Отложенное исполнение.",
 }

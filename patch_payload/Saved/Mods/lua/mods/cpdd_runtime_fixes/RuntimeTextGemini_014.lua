@@ -254,8 +254,8 @@ return {
     ["That guy Bedy insisted on dragging me along, and then he left me aside."] = "Этот Беди обязательно потащил меня с собой, а потом бросил в одиночестве.",
     ["Bavart Bank is one of the most important banks in the Loen Kingdom, with operations across the country, serving citizens while also handling some government affairs."] = "Банк «Баварт» — один из важнейших банков Королевства Лоэн, его деятельность охватывает всю страну: он обслуживает граждан и одновременно выполняет часть государственных функций.",
     ["你在摆摊中出售的<Reminder_Orange>%s</>审核期已结束，共获得<Reminder_Orange>%d</>战略金镑。请在摆摊[出售]界面点击[交易提款]提取战略金镑。"] = "Период проверки для проданного вами на прилавке товара <Reminder_Orange>%s</> завершён, вы получили всего <Reminder_Orange>%d</> стратегических Золотых фунтов. Пожалуйста, нажмите [Вывод средств] на экране прилавка [Продажа], чтобы получить стратегические Золотые фунты.",
-    ["What's even more ridiculous is that some say if you hit it three times in a row, you can go home..."] = "What's even more ridiculous is that some say if you hit it three times in a row, you can go home...",
-    ["Sigh, after Thomas passed, Eleanor's hair turned white overnight."] = "Sigh, after Thomas passed, Eleanor's hair turned white overnight.",
+    ["What's even more ridiculous is that some say if you hit it three times in a row, you can go home..."] = "Ещё нелепее то, что некоторые говорят: если попасть три раза подряд, можно отправиться домой...",
+    ["Sigh, after Thomas passed, Eleanor's hair turned white overnight."] = "Эх, после смерти Томаса волосы Элеонор поседели за одну ночь.",
     ["Vicky"] = "Вики",
     ["选择风格——选择不同风格，生成的建筑群外形、高度、外观也会完全不同。\n\n如何解锁风格——<Highlight>解锁风格下所有家具</>后，自动解锁该风格。\n\n自定义风格——选择自定义风格，可以定制自己想要的建筑形制。"] = "Выбор стиля: при выборе различных стилей форма, высота и внешний вид возводимого архитектурного ансамбля будут полностью отличаться.\n\nКак открыть стиль: стиль становится доступен автоматически после того, как вы <Highlight>откроете всю мебель этого стиля</>.\n\nПользовательский стиль: позволяет гибко настроить желаемые архитектурные формы.",
 }

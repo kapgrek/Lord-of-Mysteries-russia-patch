@@ -272,6 +272,6 @@ return {
     ["%s%s%s处于冷却中"] = "%s%s%s на перезарядке",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 7 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7 маны",
     ["Backlund is a shining pearl."] = "Бэкланд — сияющая жемчужина.",
-    ["The fried eggs at this place are the best..."] = "The fried eggs at this place are the best...",
-    ["Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help."] = "Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help.",
+    ["The fried eggs at this place are the best..."] = "Жареные яйца здесь самые лучшие...",
+    ["Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help."] = "Господин «Шут» — истинный Бог, признанный всеми церквями, и успешное создание Таро-клуба тоже состоялось благодаря его помощи.",
 }

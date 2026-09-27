@@ -250,7 +250,7 @@ return {
     ["In competition mode, <Highlight> defeat </> %s/%s Trickmasters"] = "В соревновательном режиме <Highlight>победите</>%s/%s Трикстеров",
     ["西尔维娅会召唤被污染的蘑菇，蘑菇会不断轰击随机位置，在一定时间后需要非凡者靠近吸引蘑菇撞击，否则蘑菇会进行自爆。"] = "Сильвия призывает заражённые грибы, которые непрерывно обрушиваются на случайные точки. Через некоторое время Потусторонний должен подойти, чтобы привлечь удар грибов, иначе грибы самоуничтожатся.",
     ["成功打断瑞尔·比伯！"] = "Райл Бибер успешно прерван!",
-    ["My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts."] = "My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts.",
+    ["My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts."] = "Моё почётное имя — Святой Дух, видящий всё, Благословенная Короля Жёлтого и Чёрного, странница снов и сердец.",
     ["老罗德昨天还念叨着要晒太阳，说晒硬朗了好去背柴。"] = "Старый Род еще вчера говорил о желании погреться на солнце, говоря, что, как только он окрепнет от солнца, он снова вернется к ношению дров.",
     ["2 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "2 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

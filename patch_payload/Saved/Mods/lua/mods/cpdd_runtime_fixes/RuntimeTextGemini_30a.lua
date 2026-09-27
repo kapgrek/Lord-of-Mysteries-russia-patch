@@ -280,6 +280,6 @@ return {
     ["五月庄园城堡-普通-一号信徒拒绝风尚决斗"] = "Замок усадьбы Мэй - Обычный - Отказ от поединка стиля «Верующий №1»",
     ["除了普通的信徒，还有很多渔民、水手也会来这里祈祷。"] = "Сюда приходят молиться не только обычные верующие, но и многие рыбаки и моряки.",
     ["2非凡词条及以下不进行确认"] = "Без подтверждения при 2 аффиксах Потустороннего и менее",
-    ["Tired? You heard wrong. I meant that this belt is a bit tight. It is my good fortune to be able to touch such precise and perfect machinery."] = "Tired? You heard wrong. I meant that this belt is a bit tight. It is my good fortune to be able to touch such precise and perfect machinery.",
+    ["Tired? You heard wrong. I meant that this belt is a bit tight. It is my good fortune to be able to touch such precise and perfect machinery."] = "Устал? Тебе послышалось. Я имел в виду, что этот ремень немного тесноват. Мне повезло прикоснуться к такому точному и совершенному механизму.",
     ["No update today"] = "Сегодня без обновлений",
 }

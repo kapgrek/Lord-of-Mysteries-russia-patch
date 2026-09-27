@@ -251,7 +251,7 @@ return {
     ["Buying a newspaper?"] = "Купить газету?",
     ["大学生活的确很美好，可毕业之后我才认识到了贝克兰德的另一面——一座无情的大城市。"] = "Университетская жизнь была и правда прекрасна, но только после выпуска я узнала другую сторону Бэкланда — беспощадного большого города.",
     ["End the speech phase early and proceed directly to the seat distribution phase?"] = "Завершить фазу выступлений досрочно и перейти сразу к фазе распределения мест?",
-    ["Dixi pie? Pea stew with lamb? ...Or maybe braised Dagya beef short ribs?"] = "Dixi pie? Pea stew with lamb? ...Or maybe braised Dagya beef short ribs?",
-    ["Rozanne will have a good husband who can accompany her and satisfy all her requirements, the kind who can even drink coffee with pepper added!"] = "Rozanne will have a good husband who can accompany her and satisfy all her requirements, the kind who can even drink coffee with pepper added!",
+    ["Dixi pie? Pea stew with lamb? ...Or maybe braised Dagya beef short ribs?"] = "Пирог Дикси? Гороховое рагу с бараниной? ...А может, тушёные говяжьи рёбрышки Дагья?",
+    ["Rozanne will have a good husband who can accompany her and satisfy all her requirements, the kind who can even drink coffee with pepper added!"] = "У Розанны будет хороший муж, который сможет быть рядом с ней и удовлетворять все её требования — такой, что сможет даже пить кофе с добавленным перцем!",
     ["我患有间歇性失忆症，每天醒来都会忘记昨天的事。"] = "Страдаю периодической амнезией, каждый день просыпаясь, забываю, что произошло вчера.",
 }

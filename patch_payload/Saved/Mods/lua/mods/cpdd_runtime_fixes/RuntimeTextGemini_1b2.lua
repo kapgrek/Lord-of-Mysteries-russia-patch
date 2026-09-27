@@ -277,7 +277,7 @@ return {
     ["The aroma of wine mingles with smoke, and in the clinking of glasses lie the beginnings of countless stories and the final resting place of countless secrets."] = "Аромат вина смешивается с дымом, а в звоне бокалов скрыты начала бесчисленных историй и приюты бесчисленных тайн.",
     ["愿贝克兰德芳华永驻！"] = "Пусть красота Бэкланда останется навеки!",
     ["在竞技玩法中<Highlight>击败</>%s/%s名占卜家"] = "В арене <Highlight>победите</> %s/%s Провидцев",
-    ["Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off."] = "Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off.",
+    ["Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off."] = "Сегодня Розанна подружилась с девушкой, пришедшей с просьбой, и они даже договорились сходить по магазинам в выходной.",
     ["但这么珍贵的东西，一般不会凭空出现。是你最近向愚者祈求了什么吗？"] = "Но столь ценная вещь обычно не появляется из ниоткуда. Ты случайно не молился недавно Господину Шуту?",
     ["“艾拉”"] = "Айла",
 }

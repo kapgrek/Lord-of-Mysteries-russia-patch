@@ -300,7 +300,7 @@ return {
     ["Event Time: August 20, 2026 - December 20, 2026"] = "Время события: 20 августа 2026 г. — 20 декабря 2026 г.",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 14 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 14 маны",
     ["西蒙斯没有回来，他在五十六号高地上救下来了二十二个人，其中也包括我。"] = "Симмонс не вернулся. На высоте номер 56 он спас двадцать два человека, включая меня.",
-    ["My Lord dwells above reality and the Spirit World, his mercy fills the heavens and the earth, and there are six Angels standing by his side..."] = "My Lord dwells above reality and the Spirit World, his mercy fills the heavens and the earth, and there are six Angels standing by his side...",
+    ["My Lord dwells above reality and the Spirit World, his mercy fills the heavens and the earth, and there are six Angels standing by his side..."] = "Мой Господин пребывает над реальностью и Миром Духов, его милость наполняет небеса и землю, и шесть Ангелов стоят подле него...",
     ["采集指定TemplateID的采集物  玩家播放情绪音乐（仅自己可听）  玩家播放剧情对话"] = "Соберите указанный элемент коллекции TemplateID; плеер играет эмоциональную музыку (слышно только ему самому); игрок воспроизводит сюжетный диалог.",
     ["提交道具（设置提交ID）  玩家播放剧情对话"] = "Отправить элемент (установить идентификатор отправки); игрок воспроизводит сюжетный диалог.",
 }

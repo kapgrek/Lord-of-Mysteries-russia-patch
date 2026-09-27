@@ -277,7 +277,7 @@ return {
     ["已加入队伍！"] = "Вы присоединились к отряду!",
     ["您已经为对方点击过喜欢，无需再次操作。"] = "Вы уже поставили лайк этому пользователю, повторное действие не требуется.",
     ["I think pure malt-brewed Lanzi is the most important signature of a tavern, right?"] = "По-моему, чистый солодовый Ланьцзы — самая важная визитная карточка таверны, не так ли?",
-    ["Hehe... it's just that they have all turned into Sealed Artifacts now."] = "Hehe... it's just that they have all turned into Sealed Artifacts now.",
+    ["Hehe... it's just that they have all turned into Sealed Artifacts now."] = "Хе-хе... просто теперь все они превратились в Запечатанные артефакты.",
     ["前往指定坐标位置  玩家传送到位面"] = "Перейти к указанным координатам. Игрок перемещается в фазу.",
     ["参加一次教团-魅惑玩法"] = "Примите участие в одном игровом процессе Faction-Charm.",
     ["Davis"] = "Дэвис",

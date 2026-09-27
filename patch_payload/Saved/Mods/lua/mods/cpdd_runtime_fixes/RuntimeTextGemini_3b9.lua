@@ -279,6 +279,6 @@ return {
     ["But this is a pond without fish."] = "Но в этом пруду нет рыбы.",
     ["Find me for cards, find little Orphy for orders."] = "За картами — ко мне, за заказами — к малышке Орфи.",
     ["A toast to the Goddess!"] = "Тост за Богиню!",
-    ["Perhaps it has something to do with the royal family, or perhaps it's an admirer of Earl Lasting, what do you think?"] = "Perhaps it has something to do with the royal family, or perhaps it's an admirer of Earl Lasting, what do you think?",
+    ["Perhaps it has something to do with the royal family, or perhaps it's an admirer of Earl Lasting, what do you think?"] = "Возможно, это как-то связано с королевской семьёй, а может, это поклонник графа Ластинга, как думаете?",
     ["不过是有位夫人把我从码头区捡回来，授了我这门吃饭的手艺。"] = "Просто женщина забрала меня с причала и научила этому ремеслу, чтобы зарабатывать на жизнь.",
 }

@@ -289,7 +289,7 @@ return {
     ["Unlock all systems, add buff to obtain corresponding level PVP stats, reach level 91"] = "Разблокировать все системы, получить бафф для характеристик PvP соответствующего уровня, достигнуть 91 уровня",
     ["...I'm fine, just feeling sentimental. I'm sorry, let's rest here for a while. If you're still uncomfortable, I'll buy you a new pair of shoes."] = "...Со мной всё в порядке, просто немного грустно. Прости, давай отдохнём здесь немного. Если тебе всё ещё неудобно, я куплю тебе новые туфли.",
     ["Although I am not completely certain yet, I already have some ideas."] = "Хотя я пока не совсем уверен, у меня уже есть кое-какие мысли.",
-    ["I wonder if 'it' is still here... \n<P_Yellow>(Obtained a clue and placed it in the Inventory: Diary Fragment)</>"] = "I wonder if 'it' is still here... \n<P_Yellow>(Obtained a clue and placed it in the Inventory: Diary Fragment)</>",
+    ["I wonder if 'it' is still here... \n<P_Yellow>(Obtained a clue and placed it in the Inventory: Diary Fragment)</>"] = "Интересно, «это» всё ещё здесь... \n<P_Yellow>(Получена улика и помещена в инвентарь: Фрагмент дневника)</>",
     ["塞西莉亚当年要是没病重离开，看到这孩子长大的样子，应该会很欣慰吧。"] = "Если бы Сесилия тогда не ушла из-за тяжелой болезни, она была бы так счастлива увидеть, как вырос этот ребенок.",
     ["Althea"] = "Алтея",
     ["Stacy"] = "Стейси",

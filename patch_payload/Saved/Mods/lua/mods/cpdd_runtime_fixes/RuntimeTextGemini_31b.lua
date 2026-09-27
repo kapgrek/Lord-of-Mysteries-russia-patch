@@ -281,6 +281,6 @@ return {
     ["The match has not started or has already ended; cannot enter the match venue~"] = "Матч ещё не начался или уже завершился, невозможно войти на арену матча~",
     ["This function cannot be used in the Victor's Declaration conference voice room."] = "В голосовой комнате собрания «Декларация победителя» эту функцию использовать нельзя",
     ["We are the newly formed band \"Four Night Siblings,\" please support us!"] = "Мы новая группа «Четверо ночных братьев и сестёр», пожалуйста, поддержите нас!",
-    ["I'll give it a try."] = "I'll give it a try.",
+    ["I'll give it a try."] = "Я попробую.",
     ["Roberto"] = "Роберто",
 }

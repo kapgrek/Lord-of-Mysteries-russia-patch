@@ -245,5 +245,5 @@ return {
     ["点亮心灯一簇，驱散晦暗之时。"] = "Зажжён огонёк души — миг, когда рассеивается мрак.",
     ["攻击小猫，阻止逃跑！"] = "Атакуйте котёнка, чтобы не дать ему убежать!",
     ["Use mobile data to download sub-package resources? This operation may consume a large amount of data."] = "Использовать мобильный трафик для загрузки дополнительных пакетов? Это может израсходовать большой объём трафика.",
-    ["Terrifying... to be able to carve out a world in the Spirit World and build such magnificent architecture, I admire the big shot behind it more and more."] = "Terrifying... to be able to carve out a world in the Spirit World and build such magnificent architecture, I admire the big shot behind it more and more.",
+    ["Terrifying... to be able to carve out a world in the Spirit World and build such magnificent architecture, I admire the big shot behind it more and more."] = "Ужасающе... суметь высечь целый мир в Духовном мире и возвести такую величественную архитектуру — я всё больше восхищаюсь тем, кто за этим стоит.",
 }

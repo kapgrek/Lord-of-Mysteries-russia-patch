@@ -256,9 +256,9 @@ return {
     ["长椅冷却中，请稍后再试。"] = "Скамья на перезарядке, повторите попытку позже.",
     ["(Hero) Clown Clone spawn material change super armor buff"] = "(Герой) Клоун — баф суперброни при смене материала клона",
     ["基础属性：生命+250、防御+15、攻击+15%"] = "Базовые характеристики: Здоровье +250, Защита +15, Атака +15%",
-    ["No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!"] = "No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!",
-    ["Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?"] = "Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?",
-    ["Ah?"] = "Ah?",
+    ["No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!"] = "Нет, это вы первым заговорили об этом... Так, кхм-кхм, с какой целью вы это сказали? Какой у вас мотив? Кто вас подстрекал? Может, вас околдовала какая-то опасная сущность? Пойдёмте со мной!",
+    ["Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?"] = "Пирог «Дайси»? Тушёная баранина с горошком? ...А может, тушёные говяжьи рёбрышки Даргуа?",
+    ["Ah?"] = "А?",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

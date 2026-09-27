@@ -285,7 +285,7 @@ return {
     ["你现在看到的还是教堂附近最幸运的一个倒霉蛋，我同女友求婚被拒后一气之下把我们的纪念物扔进了这里。"] = "А перед вами — самый счастливый неудачник возле церкви: после того как девушка отказала мне, я в гневе выбросил сюда нашу памятную вещь.",
     ["Obtained <Yellow>[Glow Veil]</>\n. This is an important material for the divine descent ritual."] = "Получено <Yellow>«Сияющая вуаль»</>\nЭто важный материал для ритуала схождения бога",
     ["When will my love arrive..."] = "Когда же придёт моя любовь...",
-    ["Please step away from the current clamor and come to my side."] = "Please step away from the current clamor and come to my side.",
+    ["Please step away from the current clamor and come to my side."] = "Прошу, отойди от нынешнего шума и приди ко мне.",
     ["Amaris"] = "Амарис",
     ["预存物资领取记录"] = "Предварительно сохраненная запись о сборе расходных материалов",
     ["Melody"] = "Мелодия",

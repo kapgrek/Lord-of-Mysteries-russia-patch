@@ -247,6 +247,6 @@ return {
     ["获得定制稀有非凡物质，无需聚合"] = "Получить редкий кастомный Потусторонний материал без необходимости агрегации",
     ["No, there's no need. Stay with me and rest for a while; perhaps we can go to the shop together later."] = "Нет, не нужно. Побудь со мной немного, может, потом мы вместе сходим в магазин.",
     ["Currently %s, %d hours left until %s"] = "Сейчас %s, осталось %d ч. до входа в %s",
-    ["Captain? <P_Heart> (Shakes head) </> Rozanne gave me the newcomer's gift pack and told me to walk around Tingen to get familiar with the environment."] = "Captain? <P_Heart> (Shakes head) </> Rozanne gave me the newcomer's gift pack and told me to walk around Tingen to get familiar with the environment.",
+    ["Captain? <P_Heart> (Shakes head) </> Rozanne gave me the newcomer's gift pack and told me to walk around Tingen to get familiar with the environment."] = "Капитан? <P_Heart> (качает головой) </> Розанна дала мне подарочный набор новичка и велела прогуляться по Тингену, чтобы освоиться.",
     ["Gia"] = "Джиа",
 }

@@ -259,6 +259,7 @@ return {
     ["战略增伤+3%、战略减伤+3%、最大生命+3000、攻击+750、技能增强+150、破防+360、穿刺+360、暴击+240"] = "Усиление стратегического урона +3%, снижение стратегического урона +3%, максимальное здоровье +3000, атака +750, усиление умений +150, прорыв защиты +360, пронзание +360, критический удар +240",
     ["全体每秒恢复3点法力。"] = "Все союзники восстанавливают 3 ед. маны в секунду.",
     ["<Assistant_Title1>【Mystery Pryer Resistance】</>\nWhen attacked by a Beyonder of the Mystery Pryer pathway, negate their Suppression. (Reduces the attacker's Suppression to 0 at most)\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Сопротивление Соглядатая】</>\nПри получении атаки от Потустороннего Пути Соглядатая снижает его подавление. (Снижает подавление атакующего максимум до 0)\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
+    ["Event Introduction"] = "О событии",
     ["Four years ago, the Feysac Empire's airships assaulted Backlund, and the war broke out as a result."] = "Четыре года назад воздушные корабли Империи Фейсак атаковали Бэкланд, и с этого началась война.",
     ["Beyonders need to touch the numbers before they land."] = "Потусторонний должен коснуться числа до того, как оно упадёт на землю.",
     [" 我是黑荆棘的值夜者。\n从廷根来到贝克兰德，调查近期发生的失忆事件。"] = "Я — Ночной страж Чёрного шипа.\nЯ прибыл из Тингена в Бэкланд, чтобы расследовать недавние случаи потери памяти.",

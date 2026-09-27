@@ -267,8 +267,8 @@ return {
     ["Input content contains sensitive words; please modify and try again."] = "Введённый текст содержит запрещённые слова, измените его и попробуйте снова",
     ["My money is all in there! You'll be sorry if you lose!"] = "Все мои деньги там! Проиграешь — пожалеешь!",
     ["What \"cats and dogs in the shop,\" this is a complete scam!"] = "Что за «кошки и собаки в лавке», это же полное мошенничество!",
-    ["Yes, they use names related to textiles, and only their leader has a decent name, called Hunter."] = "Yes, they use names related to textiles, and only their leader has a decent name, called Hunter.",
-    ["Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration."] = "Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration.",
+    ["Yes, they use names related to textiles, and only their leader has a decent name, called Hunter."] = "Да, они берут имена, связанные с текстилем, и только у их главаря приличное имя — Хантер.",
+    ["Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration."] = "Отлит из латуни, украшен простыми, но изящными узорами. Подходит для повседневного освещения и декора.",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

@@ -255,6 +255,6 @@ return {
     ["As pure as a new moon rising, the silent vow is more fervent than fresh blood."] = "Чиста, как восход молодого месяца, безмолвная клятва — она горячее свежей крови.",
     ["【塔罗会·苏茜】档6增量：+18点最大生命（累计220%）"] = "[Таро-клуб · Сьюзи] Прирост уровня 6: +18 очков максимального здоровья (всего 220%)",
     ["请输入%d位数字密码。"] = "Введите %d-значный цифровой пароль.",
-    ["Gold medal ham produced by a special royal supplier; the smoked flavor precipitates the deliciousness of time."] = "Gold medal ham produced by a special royal supplier; the smoked flavor precipitates the deliciousness of time.",
+    ["Gold medal ham produced by a special royal supplier; the smoked flavor precipitates the deliciousness of time."] = "Золотая медаль среди окороков, произведённых особым королевским поставщиком; копчёный вкус впитал в себя всю прелесть времени.",
     ["我实在是应付不了这么多人的大场面啊，我宁愿多做几台手术！我现在连演讲大纲都还没头绪。"] = "Я действительно не могу справиться с такой большой толпой. Я лучше сделаю еще несколько операций! Я пока даже понятия не имею о плане лекции.",
 }

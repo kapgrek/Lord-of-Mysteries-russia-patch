@@ -266,7 +266,7 @@ return {
     ["Current faction cumulative damage to the Giant Dragon: 0.001%"] = "Текущий суммарный урон фракции по Гигантскому Дракону: 0.001%",
     ["<M_Default> Dear Beyonder: </>\n Your faction ranked %drd in the final strategic server ranking. Your club obtained a total of %d God-Chosen spots: %d obtained from weekly settlements, %d obtained from the final faction settlement, and %d obtained additionally from the strategic server screening ranking."] = "<M_Default>Дорогой Потусторонний:</>\n  Ваша фракция заняла итоговое %d место на стратегическом сервере. Ваш клуб получил в общей сложности %d мест Избранных богами: %d из них — из еженедельных подведений итогов, %d — из итогового подведения итогов фракции, и %d дополнительно — из рейтинга отбора стратегического сервера.",
     ["Members of the defending Club in this match can use the Teleport function; the attacking side cannot!"] = "Участники обороняющегося клуба в этом матче могут использовать функцию телепортации, атакующая сторона не может телепортироваться!",
-    ["The weather is very bad, a blizzard will definitely arrive within half an hour!"] = "The weather is very bad, a blizzard will definitely arrive within half an hour!",
+    ["The weather is very bad, a blizzard will definitely arrive within half an hour!"] = "Погода очень плохая, метель точно налетит в течение получаса!",
     ["与Npc进行对话  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог с NPC. NPC уничтожает сам себя (нельзя уничтожить игроков и общих NPC открытого мира).",
     ["哈哈哈，这下夏莉要完蛋了。"] = "Ха-ха-ха, Чарли уже заканчивает.",
     ["Judson"] = "Джадсон",

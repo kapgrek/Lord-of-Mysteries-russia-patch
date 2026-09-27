@@ -256,7 +256,7 @@ return {
     ["The freshest milk?"] = "Самое свежее молоко?",
     ["In competition mode, <Highlight> defeat </> %s/%s Clowns"] = "В соревновательном режиме <Highlight>победите</>%s/%s Клоунов",
     ["酒吧暂时不提供烈酒，去俱乐部喝一杯吧！"] = "Бар временно не подаёт крепкие напитки — сходите выпить в клуб!",
-    ["Made by splicing and polishing white maple boards, the style is simple and suitable for daily desk storage."] = "Made by splicing and polishing white maple boards, the style is simple and suitable for daily desk storage.",
+    ["Made by splicing and polishing white maple boards, the style is simple and suitable for daily desk storage."] = "Изготовлен из склеенных и отполированных досок белого клёна, простой по стилю и подходит для повседневного хранения на столе.",
     ["你……全都藏在一条咸鱼里？！"] = "Ты... спрятал все это в соленой рыбе?!",
     ["获得指定道具  玩家播放剧情对话"] = "Получите указанный предмет. Игрок воспроизводит сюжетный диалог.",
 }

@@ -278,5 +278,5 @@ return {
     ["Sister Samina wanted to take me away from Backlund two weeks ago, but I refused her for other reasons."] = "Сестра Самина две недели назад хотела увезти меня из Бэкланда, но я отказалась по другим причинам.",
     ["土豆……你是说这些包裹里全是土豆？"] = "Картофель... вы хотите сказать, что во всех этих свёртках картофель?",
     ["Lily of the valley represents happiness and good luck. I hope you and those around you are blessed with good fortune."] = "Ландыши символизируют счастье и удачу. Пусть вы и те, кто рядом с вами, будете под покровительством судьбы.",
-    ["Sigh, shall I go find your true love then?"] = "Sigh, shall I go find your true love then?",
+    ["Sigh, shall I go find your true love then?"] = "Эх, тогда мне пойти найти твою истинную любовь?",
 }

@@ -275,7 +275,7 @@ return {
     ["And we can also buy ice cubes discarded from the manor's wine cellar, so no matter how hot it gets, the milk won't spoil!"] = "И к тому же мы можем купить лёд, списанный из винного погреба усадьбы — в самую жару молоко не испортится!",
     ["她们说贝克兰德有怪人四处搭话，会抓小孩子做科学实验。"] = "Они сказали, что в Бэкланде объявился чудак, который заговаривает с людьми и ловит детей для научных экспериментов.",
     ["解锁方案需消耗绑定金镑，当前绑定金镑不足，\n是否使用金镑代替？\n\n花费：<Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s"] = "Разблокировка схемы требует Привязанных Золотых фунтов, но их недостаточно.\nИспользовать вместо них Золотые фунты?\n\nСтоимость: <Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s",
-    ["My dear, why do I remember that Emperor Roselle wrote the same poem?"] = "My dear, why do I remember that Emperor Roselle wrote the same poem?",
+    ["My dear, why do I remember that Emperor Roselle wrote the same poem?"] = "Дорогая, почему мне помнится, что Император Розелл писал такое же стихотворение?",
     ["前往指定Trigger位置  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
     ["Modesty"] = "Скромность",
     ["Stefan"] = "Стефан",

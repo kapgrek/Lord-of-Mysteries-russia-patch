@@ -262,7 +262,7 @@ return {
     ["Why should fate take everything from me!"] = "Почему судьба должна забирать у меня всё!",
     ["祈誓系统暂时关闭，请稍后再试。"] = "Система Обета временно закрыта, попробуйте позже.",
     ["Father, do you remember? You planted this tree."] = "Отец, ты помнишь? Ты посадил это дерево.",
-    ["This exhausted her strength, forcing her to fall into a deep sleep, but even now, she is guarding us from the shadows."] = "This exhausted her strength, forcing her to fall into a deep sleep, but even now, she is guarding us from the shadows.",
+    ["This exhausted her strength, forcing her to fall into a deep sleep, but even now, she is guarding us from the shadows."] = "Это истощило её силы, вынудив погрузиться в глубокий сон, но даже сейчас она защищает нас из тени.",
     ["<Favorite1>灵性共鸣</>"] = "<Favorite1>Духовный резонанс</>",
     ["Astrid"] = "Астрид",
 }

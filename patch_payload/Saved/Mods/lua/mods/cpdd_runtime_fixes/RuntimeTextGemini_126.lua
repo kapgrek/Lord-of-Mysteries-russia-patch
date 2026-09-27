@@ -258,7 +258,7 @@ return {
     ["Objection! Rye beer is the cheapest type of alcohol; no tavern can rely solely on it to make money!"] = "Протестую! Ржаное пиво — самый дешёвый вид алкоголя; ни одна таверна не может зарабатывать только на нём!",
     ["It's nice to have money... but it's a bit hard to get used to having money all of a sudden."] = "Хорошо, когда есть деньги... но немного трудно привыкнуть к тому, что деньги внезапно появились.",
     ["My wife always complains that the Castle is too dark, she likes the sunshine, likes the feeling of warmth..."] = "Моя жена всегда жаловалась, что в замке слишком темно, ей нравится солнечный свет, нравится чувство тепла...",
-    ["Branches and leaves form soft steps, letting me walk toward the long sleep at the bottom of the water..."] = "Branches and leaves form soft steps, letting me walk toward the long sleep at the bottom of the water...",
-    ["You ask very tricky questions. You're not very good at chatting."] = "You ask very tricky questions. You're not very good at chatting.",
+    ["Branches and leaves form soft steps, letting me walk toward the long sleep at the bottom of the water..."] = "Ветви и листья образуют мягкие ступени, ведущие меня к долгому сну на дне воды...",
+    ["You ask very tricky questions. You're not very good at chatting."] = "Ты задаёшь очень каверзные вопросы. У тебя не очень хорошо получается болтать.",
     ["pieces"] = "фигуры",
 }

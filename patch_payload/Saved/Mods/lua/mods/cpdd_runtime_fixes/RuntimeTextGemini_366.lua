@@ -241,7 +241,7 @@ return {
     ["What stats should a DPS focus on?"] = "Какие характеристики следует развивать DPS?",
     ["May I ask your name, beautiful lady?"] = "Могу я узнать ваше имя, прекрасная леди?",
     ["When will I be able to become a formal barista? Maybe I should go to the Divination Club after work to get a reading..."] = "Когда же я стану настоящим бариста? Может, пойти после работы в Клуб гадателей на предсказание...",
-    ["Oh, then he should work at the Backlund court, not inherit a publishing house."] = "Oh, then he should work at the Backlund court, not inherit a publishing house.",
+    ["Oh, then he should work at the Backlund court, not inherit a publishing house."] = "О, тогда ему стоило бы работать при дворе Бэкланда, а не наследовать издательский дом.",
     ["Pure water 6000 milliliters\n30 golden mint leaves\n5 deep sleep flowers\n800 grams of night grass\n5 bundles of chamomile"] = "6000 мл дистиллированной воды\n30 листьев золотой мяты\n5 цветков глубокого сна\n800 г ночной травы\n5 пучков ромашки",
     ["Ainara"] = "Айнара",
     ["但并非所有危险都以危险的模样出现，它会伪装，伪装成祝福，伪装成信仰，甚至伪装成一种恩赐。"] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",

@@ -256,7 +256,7 @@ return {
     ["Amon Thorn Overgrowth Connection Buff"] = "Амон — связывающий баф разрастания шипов",
     ["小小把戏，不值一提。"] = "Маленький трюк, не стоящий упоминания.",
     ["Although I am not a Cardinal, I still know more than the average monk or priest."] = "Хотя я не кардинал, но знаю немного больше, чем обычные монахи и священники.",
-    ["His eyes occasionally swept in a certain direction—not looking at people, as if confirming something."] = "His eyes occasionally swept in a certain direction—not looking at people, as if confirming something.",
+    ["His eyes occasionally swept in a certain direction—not looking at people, as if confirming something."] = "Его взгляд иногда скользил в определённом направлении — не на людей, а будто что-то проверяя.",
     ["收集%d/100个异象之物。"] = "Соберите %d/100 объектов феномена.",
     ["Ernesto"] = "Эрнесто",
 }

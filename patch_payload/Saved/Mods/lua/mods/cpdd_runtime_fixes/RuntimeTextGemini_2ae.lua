@@ -267,7 +267,7 @@ return {
     ["全体攻击提高10%。"] = "Общая атака увеличивается на 10%.",
     ["食材完全腐败，请重新拾取！"] = "Ингредиенты полностью испортились, поднимите их снова!",
     ["Ah... this... this, she's just angry..."] = "Ах... это... это, она просто злится...",
-    ["You sit down next to the puppy. It looks at you in confusion, politely stays by your side, and the two of you sit quietly, confronting the noisy card table."] = "You sit down next to the puppy. It looks at you in confusion, politely stays by your side, and the two of you sit quietly, confronting the noisy card table.",
+    ["You sit down next to the puppy. It looks at you in confusion, politely stays by your side, and the two of you sit quietly, confronting the noisy card table."] = "Вы садитесь рядом со щенком. Он озадаченно смотрит на вас, вежливо остаётся рядом, и вы вдвоём тихо сидите, наблюдая за шумным карточным столом.",
     ["快看！这马车真漂亮，像故事里的！"] = "Смотри! Какая красивая карета, прямо как из сказки!",
     ["<Highlight>工艺：</>刺绣锦缎・花簇繁饰\n没人能断言绽放需要多长的等待，但绽放至半的美好已足以让人珍惜。"] = "<Highlight>Мастерство: </><Highlight>Вышитая парча · Цветочное соцветие</>\nНикто не знает, сколько придётся ждать полного цветения, но и полураскрывшийся бутон уже достоин восхищения.",
     ["播放Dialogue  玩家移除任务道具（全部删除）"] = "Воспроизвести диалог, игрок удаляет квестовый предмет (удалить все)",

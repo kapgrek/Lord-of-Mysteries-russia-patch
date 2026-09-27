@@ -244,7 +244,7 @@ return {
     ["Summon a Starlight Cage to attack targets within range, causing imprisonment and slow, with additional stun on the locked target."] = "Призовите Звёздную клетку, чтобы атаковать цели в радиусе действия, вызывая заточение и замедление, а также дополнительное оглушение захваченной цели.",
     ["知识在建筑间流转,年轻的求知者在此追寻真理。"] = "Знание перетекает между зданиями, молодые искатели истины стремятся сюда за правдой.",
     ["安提哥努斯笔记-普通-小丑风尚决斗"] = "Записки Антигона - Обычный - Поединок стиля «Клоун»",
-    ["Oh? Then according to the principle of reciprocity, are you ready to answer His question?"] = "Oh? Then according to the principle of reciprocity, are you ready to answer His question?",
+    ["Oh? Then according to the principle of reciprocity, are you ready to answer His question?"] = "О? Тогда, согласно принципу взаимности, готовы ли вы ответить на Его вопрос?",
     ["Aurelia"] = "Аурелия",
     ["我感受过太多不同的气息了，异样的、疯狂的、邪恶的、诡异的……"] = "Я ощущал слишком много разных аур — странных, безумных, злых, причудливых…",
     ["任务自定义事件  玩家播放主线任务开始展示界面"] = "Пользовательское событие квеста: игрок воспроизводит главный экран начала квеста.",

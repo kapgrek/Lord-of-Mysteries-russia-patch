@@ -244,6 +244,6 @@ return {
     ["【塔罗会】(7) 全队 +45%攻击 +1000生命 +15%暴击率"] = "[Клуб Таро] (7) Вся команда +45% к атаке, +1000 здоровья, +15% крит. удара",
     ["Our club's Conquest Decree attacking the <M_Orange>%s</> club has unfortunately failed, losing <M_Orange>%s</> God-chosen points!"] = "Наш клуб потерпел поражение в Указе о завоевании при атаке на клуб <M_Orange>%s</>, потеряно <M_Orange>%s</> очков Богоизбранного!",
     ["光线追踪已成功开启，需要重新进入场景后生效"] = "Трассировка лучей успешно включена, изменения вступят в силу после повторного входа в сцену",
-    ["I'm the only one in the house, so the one making the noise must be... something unclean!"] = "I'm the only one in the house, so the one making the noise must be... something unclean!",
+    ["I'm the only one in the house, so the one making the noise must be... something unclean!"] = "Я один живу в доме, так что тот, кто издаёт эти звуки, должно быть... что-то нечистое!",
     ["Kaya"] = "Кая·",
 }

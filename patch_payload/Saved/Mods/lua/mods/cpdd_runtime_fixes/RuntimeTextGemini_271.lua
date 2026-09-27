@@ -255,9 +255,9 @@ return {
     ["      Leonard unbuttoned his shirt collar, chuckled, and nodded: \n      \"I'm glad we've reached a consensus.\" \n      \"In those adventure novels, this is called the meeting of two protagonists, and the wheels of history begin to roll forward.\" \n      Shameless! Klein smiled perfunctorily."] = "      Леонард расстегнул пуговицу на воротнике рубашки, усмехнулся и кивнул:\n      «Я рад, что мы пришли к согласию».\n      «В этих авантюрных романах это называется встречей двух главных героев, и колесо истории начинает катиться вперёд».\n      Ну и бесстыдник! Клейн натянуто улыбнулся.",
     ["Indeed, for the city of Backlund."] = "Да уж, для города Бэкланд это неплохо.",
     ["道具不足，可通过<Reminder_Orange>商城-秘藏陈列</>购买获取"] = "Недостаточно предметов. Их можно приобрести в разделе <Reminder_Orange>Магазин — Витрина сокровищ</>.",
-    ["Have you heard of the Trunsoest Brass Book?"] = "Have you heard of the Trunsoest Brass Book?",
-    ["Dogs are born to bark... You lost, old man, don't take your anger from looking after a baby out on the dog."] = "Dogs are born to bark... You lost, old man, don't take your anger from looking after a baby out on the dog.",
-    ["<P_Heart> (Ponders) </> Logically, it should be arranged by the Captain, but this case isn't complicated. I can take you along; consider it an internship."] = "<P_Heart> (Ponders) </> Logically, it should be arranged by the Captain, but this case isn't complicated. I can take you along; consider it an internship.",
+    ["Have you heard of the Trunsoest Brass Book?"] = "Вы слышали о Латунной книге Трансоэста?",
+    ["Dogs are born to bark... You lost, old man, don't take your anger from looking after a baby out on the dog."] = "Собаки рождены, чтобы лаять... Ты проиграл, старик, не срывай на собаке злость от того, что приходится нянчить ребёнка.",
+    ["<P_Heart> (Ponders) </> Logically, it should be arranged by the Captain, but this case isn't complicated. I can take you along; consider it an internship."] = "<P_Heart> (задумывается) </> По логике, это должен поручить капитан, но это дело несложное. Я могу взять вас с собой; считайте это стажировкой.",
     ["但这里本就弱肉强食，疯狂又诡异。战争是永恒的主题，例如那场第四纪的四皇之战……"] = "Но это место по своей сути является местом, где сильные охотятся на слабых, безумных и странных. Война — вечная тема, как, например, Война Четырех Императоров в Четвертой Эпохе…",
     ["Nico"] = "Нико",
 }

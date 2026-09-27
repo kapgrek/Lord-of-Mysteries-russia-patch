@@ -269,6 +269,6 @@ return {
     ["...I don't really like chatting with people. If you must disturb me, how about we play a game?"] = "…Я не очень люблю пустую болтовню. Если ты так настойчиво хочешь меня побеспокоить, может, сыграем в игру?",
     ["Moreover, I have also prepared a substantial environmental protection fund for you at the Bank of Backlund."] = "Кроме того, я подготовил для вас в Банке Бэкланда солидную сумму на нужды охраны окружающей среды.",
     ["Is there... something you want to show me? While we are still in line, you can give it to me now."] = "Может быть... у тебя есть что-то, что ты хочешь мне показать? Пока мы стоим в очереди, можешь подарить прямо сейчас.",
-    ["Here for a drink? We haven't opened for business yet, but you can have a taste first."] = "Here for a drink? We haven't opened for business yet, but you can have a taste first.",
+    ["Here for a drink? We haven't opened for business yet, but you can have a taste first."] = "Пришли выпить? Мы ещё не открылись, но вы можете попробовать первым.",
     ["混乱之力"] = "Сила Хаоса",
 }

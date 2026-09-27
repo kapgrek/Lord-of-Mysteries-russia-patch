@@ -250,7 +250,7 @@ return {
     ["Viscountess-Power Transfer link buff"] = "Виконтесса-Передача силы, связывающий баф",
     ["Ray tracing has been successfully enabled. It will take effect upon entering a designated ray tracing scene."] = "Трассировка лучей успешно включена, изменения вступят в силу при входе в сцену, поддерживающую трассировку лучей",
     ["I looked, behind the windmill, there's something even more terrifying..."] = "Я посмотрел — за мельницей есть что-то ещё более жуткое...",
-    ["Restore full Health"] = "Restore full Health",
+    ["Restore full Health"] = "Полностью восстанавливает здоровье",
     ["任务环ID："] = "ID цепочки заданий:",
     ["Chapter Name:"] = "Название главы:",
     ["月亮仆从的势力未被彻底消灭，仍有能力制造危机。"] = "Силы Лунного Слуги не были полностью уничтожены и все еще обладают способностью создавать кризисы.",

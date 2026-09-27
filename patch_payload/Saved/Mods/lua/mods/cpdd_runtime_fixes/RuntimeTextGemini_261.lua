@@ -269,7 +269,7 @@ return {
     ["Once, the enemy's airships swarmed in, and everyone thought we were done for."] = "Однажды воздушные корабли врага налетели, заполонив всё небо, и все думали, что нам конец.",
     ["However, our company hasn't taken on this type of order before; I need to communicate with the shareholders first."] = "Однако наша компания раньше не занималась подобными заказами, мне нужно сначала обсудить это с акционерами.",
     ["You can argue if you want, but why throw my vegetables..."] = "Спорить можно сколько угодно, но зачем бросать мои овощи...",
-    ["And for us, the best thing we can hope for every day is that someone like you is willing to reach into their pocket and throw us something, asking us to help carry luggage, lead a horse, or deliver a letter."] = "And for us, the best thing we can hope for every day is that someone like you is willing to reach into their pocket and throw us something, asking us to help carry luggage, lead a horse, or deliver a letter.",
+    ["And for us, the best thing we can hope for every day is that someone like you is willing to reach into their pocket and throw us something, asking us to help carry luggage, lead a horse, or deliver a letter."] = "А для нас лучшее, на что мы можем надеяться каждый день, — это что кто-то вроде вас захочет полезть в карман и кинуть нам что-нибудь, попросив помочь донести багаж, провести лошадь или доставить письмо.",
     ["采集指定TemplateID的采集物  传送回大世界场景"] = "Соберите указанный элемент коллекции TemplateID; телепортируйтесь обратно в открытый мир.",
     ["Arielle"] = "Ариэль",
     ["[UIFrame : NewUIManager]二次打开面板 %s"] = "[UIFrame : NewUIManager] Open panel again %s",

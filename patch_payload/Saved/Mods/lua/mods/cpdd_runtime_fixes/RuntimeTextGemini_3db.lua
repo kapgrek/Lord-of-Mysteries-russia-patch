@@ -270,7 +270,7 @@ return {
     ["It only takes five seconds to slide down from the top—five seconds! In those five seconds, your speed is faster than a train!"] = "Скатиться сверху — всего пять секунд, пять секунд! За эти пять секунд ваша скорость будет быстрее, чем у поезда!",
     ["Member changes are temporarily prohibited during the Strategic Server event."] = "На время события Стратегического сервера изменение состава участников временно запрещено",
     ["What do you like to do in your spare time? (Select up to %d)"] = "Что вы обычно любите делать? (выберите до %d)",
-    ["That is the war that happened after the Twenty-Year War and before the War of the Oath-Breakers. It allowed Loen to defeat Intis and become strong again!"] = "That is the war that happened after the Twenty-Year War and before the War of the Oath-Breakers. It allowed Loen to defeat Intis and become strong again!",
+    ["That is the war that happened after the Twenty-Year War and before the War of the Oath-Breakers. It allowed Loen to defeat Intis and become strong again!"] = "Это война, произошедшая после Двадцатилетней войны и до Войны Клятвопреступников. Она позволила Лоэну победить Интис и снова обрести силу!",
     ["Dahlia"] = "Далия",
     ["如同死者聆听天使的号角，你终于准备好面对真实的自己。这是审判的时刻，也是重生的开始。"] = "Словно мертвец, внимающий трубе ангела, вы наконец готовы предстать перед своим истинным «я». Это час суда и начало перерождения.",
     ["Darwin"] = "Дарвин",

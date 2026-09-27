@@ -274,7 +274,7 @@ return {
     ["The roar of the steam engine plays a hymn to labor, and the turning gears push the era forward."] = "Рёв паровых машин исполняет гимн труду, вращение шестерён двигает эпоху вперёд.",
     ["一群人喝了点酒就开始大声说笑，恨不得让整栋房子都听见。"] = "Компания людей немного выпила и начала громко смеяться и болтать, будто хотели, чтобы их услышал весь дом.",
     ["Hmph, this is all my personal experience."] = "Хмф, это всё случилось со мной на самом деле.",
-    ["Look at the craftsmanship of these goods, truly vintage, truly aristocratic taste!"] = "Look at the craftsmanship of these goods, truly vintage, truly aristocratic taste!",
+    ["Look at the craftsmanship of these goods, truly vintage, truly aristocratic taste!"] = "Посмотри на мастерство этих товаров — настоящая классика, истинно аристократический вкус!",
     ["Nayeli"] = "Наели",
     ["Marco"] = "Марко",
 }

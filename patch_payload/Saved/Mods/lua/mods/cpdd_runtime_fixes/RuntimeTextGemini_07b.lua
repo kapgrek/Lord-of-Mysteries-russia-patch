@@ -255,6 +255,6 @@ return {
     ["Sinful Tingen members gain an additional 50% Sinful Aftermath."] = "Члены Греховного Тингена получают дополнительно 50% Греховного отголоска.",
     ["来了！它们来了！"] = "Идут! Они идут!",
     ["Sir, are you drinking at this hour?"] = "Сударь, вы уже пьёте в такой час?",
-    ["Instructor Colin seems to be the most unique among all the instructors."] = "Instructor Colin seems to be the most unique among all the instructors.",
+    ["Instructor Colin seems to be the most unique among all the instructors."] = "Инструктор Колин, похоже, самый необычный среди всех инструкторов.",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

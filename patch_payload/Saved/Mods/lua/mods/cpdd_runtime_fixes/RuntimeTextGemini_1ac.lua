@@ -267,7 +267,7 @@ return {
     ["呵呵，没错。"] = "Хе-хе, верно.",
     ["你好啊，这里风景不错吧？"] = "Привет! Отсюда неплохой вид, правда?",
     ["你是流浪歌手？"] = "Ты бродячий певец?",
-    ["<P_Heart> (He is pretending to be a mushroom!) </>"] = "<P_Heart> (He is pretending to be a mushroom!) </>",
+    ["<P_Heart> (He is pretending to be a mushroom!) </>"] = "<P_Heart> (Он притворяется грибом!) </>",
     ["Rosemary"] = "Розмари",
     ["【大宗师】"] = "【Великий Мастер】",
 }

@@ -256,6 +256,6 @@ return {
     ["时刻沙漏活动"] = "Событие «Песочные часы времени»",
     ["<HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">窥秘之眼</>的伤害提高幅度增加到53%"] = "Увеличение урона <HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">Глаз, Подглядывающих Тайну</> повышено до 53%",
     ["Function_Invincible Untargetable"] = "Функция_Неуязвимость и недосягаемость",
-    ["What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?"] = "What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?",
+    ["What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?"] = "Что за «Таинственное пророчество озера Золотая Осень», о котором ты только что упомянул?",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется к указанным координатам сцены.",
 }

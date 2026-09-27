@@ -264,6 +264,6 @@ return {
     ["1. You must select one custom content item (Action, Expression, Camera Movement, or Music) when uploading.\n2. Currently, only custom content can be uploaded; system actions and preset camera movements cannot be uploaded.\n3. After uploading, you can modify or delete it in [Mine - Select Corresponding Work - Edit]."] = "1. При загрузке необходимо выбрать один из видов пользовательского контента (действие, эмоцию, движение камеры или музыку).\n2. На данный момент можно загружать только пользовательский контент; системные действия и предустановленные движения камеры загружать пока нельзя.\n3. После загрузки можно изменить или удалить контент в разделе [Моё - Выбрать соответствующую работу - Редактировать].",
     ["Welcome! You've come at just the right time; there's no need to queue now!"] = "Добро пожаловать! Вы пришли в самое подходящее время, очереди сейчас нет!",
     ["Big sister, I've gotten lost before too, and I cried just as sadly as you."] = "Старшая сестрёнка, я тоже когда-то заблудился и плакал так же горько, как ты.",
-    ["Where to?"] = "Where to?",
+    ["Where to?"] = "Куда?",
     ["关闭时间流逝界面  玩家调用展示时间流逝动画  延迟执行  对象同场景传送"] = "Закрыть интерфейс прохождения времени. Игрок вызывает для отображения анимации хода времени. Отложенное исполнение. Объект телепортируется в пределах одной сцены.",
 }

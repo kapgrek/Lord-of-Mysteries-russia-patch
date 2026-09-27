@@ -242,5 +242,5 @@ return {
     ["战略服荣耀同享奖励"] = "Награда общей славы стратегического сервера",
     ["<DecH> Craft: </> Night Tapestry \n Under the deep night, whispers grow in the salon. Just now, whose snowy fur brushed against my palm?"] = "<DecH>Материал:</> Гобелен ночи\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",
     ["The determination to protect is the dawn of darkness."] = "Решимость защищать — это и есть рассвет Тьмы.",
-    ["Rather than satisfying requirements, she needs someone who can understand her to be by her side."] = "Rather than satisfying requirements, she needs someone who can understand her to be by her side.",
+    ["Rather than satisfying requirements, she needs someone who can understand her to be by her side."] = "Вместо того чтобы удовлетворять требования, ей нужен тот, кто сможет её понять и быть рядом.",
 }

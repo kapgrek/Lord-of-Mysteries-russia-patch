@@ -249,7 +249,7 @@ return {
     ["true时：充能技能充能中时也会返回true"] = "При true: для заряжаемых навыков также возвращается true во время зарядки",
     ["What attributes should I cultivate for dungeons?"] = "Какие характеристики нужно развивать для подземелий?",
     ["No... nothing!"] = "Ни... ничего особенного!",
-    ["Which carriage do you want to take?"] = "Which carriage do you want to take?",
-    ["Sigh, then shall I go find your true love?"] = "Sigh, then shall I go find your true love?",
+    ["Which carriage do you want to take?"] = "На какой карете вы хотите поехать?",
+    ["Sigh, then shall I go find your true love?"] = "Эх, тогда мне пойти найти твою настоящую любовь?",
     ["任务自定义事件  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Пользовательское событие задачи: объект переносится в указанное место в указанной сцене (игроки поддерживают перенос между сценами, NPC может перемещаться только в одной сцене)",
 }

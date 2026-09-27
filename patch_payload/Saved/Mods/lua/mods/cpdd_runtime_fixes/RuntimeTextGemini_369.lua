@@ -257,5 +257,5 @@ return {
     ["However, the beautiful Ms. Bouie had a change of heart and agreed to marry me! Although I strongly suspect that if I hadn't found that memento, things wouldn't have turned out that way."] = "Но прекрасная мисс Буи снова передумала и согласилась выйти за меня замуж! Хотя я сильно подозреваю, что если бы не нашлась та памятная вещь, всё бы обернулось иначе.",
     ["Am I, am I going to be scolded too?"] = "Я, меня тоже будут ругать?",
     ["A bit deeper, so the roots can take hold firmly!"] = "Чуть глубже, чтобы корни крепко укоренились!",
-    ["Hmm? Nothing. Something's wrong, try activating spirit vision."] = "Hmm? Nothing. Something's wrong, try activating spirit vision.",
+    ["Hmm? Nothing. Something's wrong, try activating spirit vision."] = "Хм? Ничего. Что-то не так, попробуй активировать духовное зрение.",
 }

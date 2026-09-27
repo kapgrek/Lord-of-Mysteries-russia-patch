@@ -271,7 +271,7 @@ return {
     ["通过副本战斗解锁。"] = "Разблокируется боем в подземелье.",
     ["属性有什么用？"] = "Для чего нужны характеристики?",
     ["对方已离开，无法完成双人解约。"] = "Собеседник покинул игру, невозможно завершить совместное расторжение Обета.",
-    ["So your second line of the honorific name is the Blessed of the King of Yellow and Black."] = "So your second line of the honorific name is the Blessed of the King of Yellow and Black.",
+    ["So your second line of the honorific name is the Blessed of the King of Yellow and Black."] = "Значит, вторая строка твоего почётного имени — Благословенная Короля Жёлтого и Чёрного.",
     ["噢，是的！我的笔记本被风吹散了，书页飘得到处都是。"] = "О да! Мой блокнот растрепало ветром, и страницы разлетелись повсюду.",
     ["Participate in one Heavenly Saint Beast Trial, Attack:+"] = "Примите участие в одном испытании Небесного Святого Зверя, Атака:+",
     ["玩家移除任务道具（全部删除）"] = "Игрок Удалить квестовый предмет (Удалить все)",

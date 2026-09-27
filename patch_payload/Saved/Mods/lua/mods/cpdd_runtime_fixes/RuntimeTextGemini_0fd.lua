@@ -258,7 +258,7 @@ return {
     ["Prologue - Stationary Headache"] = "Пролог — головная боль без движения",
     ["清甜的风从荒野尽头而来，自道路彼端而去。所有瑰丽的相遇与别离，都盛开于这片生的原野。"] = "Сладкий свежий ветер приходит с края пустошей и уходит на другой конец дороги. Все прекрасные встречи и расставания расцветают на этом поле жизни.",
     ["The first is the common Loen style. It's written this way all over the streets and alleys of Backlund. It's clear at a glance, and everyone recognizes it."] = "Первый — обычное написание Лоэн, так пишут на всех улицах Бэкланда, всё понятно с первого взгляда, любой узнает",
-    ["For example, you can't see Susie now, but she is indeed lying at your feet enjoying her nap time."] = "For example, you can't see Susie now, but she is indeed lying at your feet enjoying her nap time.",
+    ["For example, you can't see Susie now, but she is indeed lying at your feet enjoying her nap time."] = "Например, сейчас ты не видишь Сьюзи, но она действительно лежит у твоих ног и наслаждается сном.",
     ["Trenton"] = "Трентон",
     ["Kaize"] = "Кайзе",
     ["来，我给你演示演示。"] = "Пойдем, позволь мне продемонстрировать это тебе.",

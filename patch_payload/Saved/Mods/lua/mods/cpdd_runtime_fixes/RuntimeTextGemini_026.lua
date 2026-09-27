@@ -280,6 +280,6 @@ return {
     ["How much longer do I have to wait for that damn train?"] = "Сколько ещё мне ждать этот чёртов поезд?",
     ["Have a cigarette, pair it with a cup of tea, and life just goes on, right?"] = "Сигарета, чашка чая — и жизнь продолжается, верно?",
     ["You are the fool! Mom never lied to me, my wish will come true."] = "Это ты дурак! Мама никогда мне не врала, моё желание исполнится.",
-    ["A beautifully carved wall-mounted vanity mirror. The mirror surface is clear enough to reflect every detail of your makeup."] = "A beautifully carved wall-mounted vanity mirror. The mirror surface is clear enough to reflect every detail of your makeup.",
+    ["A beautifully carved wall-mounted vanity mirror. The mirror surface is clear enough to reflect every detail of your makeup."] = "Красиво резное настенное зеркало для макияжа. Поверхность зеркала достаточно чистая, чтобы отразить каждую деталь макияжа.",
     ["Sabrina"] = "Сабрина",
 }

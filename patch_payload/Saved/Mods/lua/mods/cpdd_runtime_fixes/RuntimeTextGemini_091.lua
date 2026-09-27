@@ -248,7 +248,7 @@ return {
     ["Are you from that Lais Circus?"] = "Вы из того самого цирка Лайс?",
     ["Your personal information is not listed in the Covenant pool; cannot perform divination."] = "Ваша личная информация не размещена в пуле клятв, гадание невозможно.",
     ["I said I was going to the Evil Dragon Bar with Lawrence last week... I haven't had time to go yet, those evil factory owners."] = "Я говорил, что на прошлой неделе пойду с Лоуренсом в бар «Злой дракон»... до сих пор не выбрался, всё из-за этих проклятых владельцев фабрик.",
-    ["Accompanied by Dicy coffee until late at night"] = "Accompanied by Dicy coffee until late at night",
+    ["Accompanied by Dicy coffee until late at night"] = "В компании кофе «Дайси» допоздна",
     ["Griffin"] = "Гриффин",
     ["完成%d/5个隐秘空间。"] = "Пройдите «Скрытые пространства» %d/5.",
 }

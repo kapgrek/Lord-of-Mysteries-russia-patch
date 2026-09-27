@@ -243,7 +243,7 @@ return {
     ["本场已触发知识荒野回响。"] = "В этом бою уже сработало Эхо Дикой пустоши знаний.",
     ["救、救命！有人吗？"] = "П-помогите! Есть кто-нибудь?",
     ["In competition mode, <Highlight> defeat </> %s/%s Warriors"] = "В арене <Highlight>победите</> %s/%s Воинов",
-    ["There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors."] = "There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors.",
+    ["There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors."] = "В истории Четвёртой эпохи слишком много неясностей. Тебе стоит начать исследование с сохранившихся реликвий, чтобы исключить факторы неопределённости.",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

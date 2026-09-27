@@ -254,7 +254,7 @@ return {
     ["当前可能出现的最高品质为<Quality_6>神眷</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_6>Божья милость</>",
     ["The message can be up to 50 characters long."] = "Сообщение можно ввести не более 50 символов.",
     ["No, no, no, the answer is my fish!"] = "Нет, нет, нет, ответ — моя рыба!",
-    ["Your spirituality is truly sharp to be able to find me hiding. \n Why not play a game of hide-and-seek? Find all the treasure chests nearby, and you can open my treasure."] = "Your spirituality is truly sharp to be able to find me hiding. \n Why not play a game of hide-and-seek? Find all the treasure chests nearby, and you can open my treasure.",
+    ["Your spirituality is truly sharp to be able to find me hiding. \n Why not play a game of hide-and-seek? Find all the treasure chests nearby, and you can open my treasure."] = "Твоё чутьё и правда острое, раз ты сумел найти меня в укрытии. \n Почему бы не сыграть в прятки? Найди все сундуки с сокровищами поблизости, и сможешь открыть моё сокровище.",
     ["完成当前步骤的所有子目标  玩家发送任务道具  玩家移除任务道具（全部删除）"] = "Выполните все подцели текущего шага; игрок отправляет квестовый предмет; игрок удаляет квестовый предмет (удалить все).",
     ["流程图路径:"] = "Путь к блок-схеме:",
     ["任务自定义事件  玩家停止自动寻路"] = "Пользовательское событие квеста; игрок прекращает автоматический поиск пути.",

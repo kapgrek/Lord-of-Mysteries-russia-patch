@@ -286,5 +286,5 @@ return {
     ["每次普攻技能Type=2的首技能释放固定恢复10.5法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 10.5 маны",
     ["很少见到有人这样评价贝克兰德的天气。"] = "Редко встретишь человека, который так отзывается о погоде в Бэкланде.",
     ["但她却一直不见踪影。"] = "Но она до сих пор не появилась.",
-    ["What's this about a haunted ancestral home you're talking about?"] = "What's this about a haunted ancestral home you're talking about?",
+    ["What's this about a haunted ancestral home you're talking about?"] = "Что это за разговоры про дом предков с привидениями?",
 }

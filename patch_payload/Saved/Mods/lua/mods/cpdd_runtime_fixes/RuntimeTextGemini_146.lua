@@ -291,7 +291,7 @@ return {
     ["Look in Mirror - Imprisonment + Play Animation"] = "Смотреть в зеркало — обездвиживание + воспроизведение анимации",
     ["Tarot Club · Alger: 6-person tier increment, all allies Attack +1.6%."] = "Клуб Таро · Алгер: бонус уровня «6 игроков», вся команда +1.6% к атаке.",
     ["Am I a physical or magical pathway?"] = "Я физический Путь или магический Путь?",
-    ["As the only high-end department store in Tingen, we have never known who the investor behind it is."] = "As the only high-end department store in Tingen, we have never known who the investor behind it is.",
+    ["As the only high-end department store in Tingen, we have never known who the investor behind it is."] = "Будучи единственным элитным универмагом Тингена, мы так и не узнали, кто стоит за ним в качестве инвестора.",
     ["Hazely"] = "туманный",
     ["【岩石】"] = "【Скала】",
 }

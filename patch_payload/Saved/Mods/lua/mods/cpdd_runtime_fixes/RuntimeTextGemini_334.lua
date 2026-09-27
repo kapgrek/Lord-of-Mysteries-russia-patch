@@ -248,7 +248,7 @@ return {
     ["Investigate potential clues"] = "Расследовать возможные улики",
     ["Deal Percentage Damage to Crystal"] = "Наносит процентный урон кристаллу",
     ["【秘辛】灰雾压制释放瞬间扣除目标的体力值增加至32点。"] = "[Секрет] Значение выносливости, снимаемое у цели при применении Подавления серым туманом, увеличивается до 32 очков.",
-    ["Hey, you stinky kid over there, be quiet when playing with the dog! I can't lose anymore!"] = "Hey, you stinky kid over there, be quiet when playing with the dog! I can't lose anymore!",
+    ["Hey, you stinky kid over there, be quiet when playing with the dog! I can't lose anymore!"] = "Эй, ты, вонючий мальчишка, играй с собакой потише! Я больше не могу проигрывать!",
     ["Go to specified coordinates to interact and enter instance  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейдите к указанным координатам, чтобы взаимодействовать и войти в самолет. Игроки создают общедоступные объекты на основе списка InstanceID (недопустимо в большом мире).",
     ["任务自定义事件  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
     ["Prima"] = "Прима",

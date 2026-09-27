@@ -271,7 +271,7 @@ return {
     ["Max Health +8000, Attack +2000, Armor Break +1000, Skill Enhancement +500"] = "Макс. здоровье +8000, атака +2000, прорыв защиты +1000, усиление навыков +500",
     ["隐秘空间-匿影脱笼-机关1"] = "Скрытое пространство - Побег тени - Механизм 1",
     ["Compared to soft and shiny satin materials, I feel that the use of stiff embroidery and lace is more common here."] = "По сравнению с мягкими блестящими атласными тканями, здесь, кажется, чаще используют жёсткую вышивку и кружево.",
-    ["Classic cellared red wine, deep in color, smooth and full-bodied, worthy of being aged by time."] = "Classic cellared red wine, deep in color, smooth and full-bodied, worthy of being aged by time.",
+    ["Classic cellared red wine, deep in color, smooth and full-bodied, worthy of being aged by time."] = "Классическое выдержанное красное вино насыщенного цвета, мягкое и полнотелое, достойное выдержки временем.",
     ["亡灵的絮语在此低徊指引，是所有死亡归寂的渡口。"] = "Здесь тихо звучит шёпот неупокоенных душ, служащий проводником к переправе, где любая смерть обретает вечный покой.",
     ["Scene ID:"] = "Идентификатор сцены:",
     ["我曾以为我会愤怒，会不甘，会咆哮着控诉命运的不公和众神的狡诈。"] = "Я когда-то думал, что буду злиться, не хотеть и рычать в обвинениях в несправедливости судьбы и хитрости богов.",

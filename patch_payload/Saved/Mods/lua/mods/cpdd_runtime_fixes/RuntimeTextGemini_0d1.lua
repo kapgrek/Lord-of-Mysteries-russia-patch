@@ -265,6 +265,7 @@ return {
     ["Spectator Avatar"] = "Аватар «Зритель»",
     ["离开胜者宣言大会"] = "Покинуть Ассамблею провозглашения победителя",
     ["Stun for 1.5 seconds at 8 seconds and 18 seconds of combat."] = "На 8-й и 18-й секунде боя оглушает на 1.5 сек.",
+    ["In a single \"Normal\" difficulty dungeon, clear all bosses with a total boss combat duration of less than 800 seconds (including time spent on failures, excluding escort duration in the Carriage Defense battle)."] = "В одном подземелье сложности «Обычная» пройдите всех боссов, при этом суммарная длительность боя с боссами составляет менее 800 секунд (включая время неудачных попыток, не считая время сопровождения в бою «Защита кареты»).",
     ["Looking at the carriage outside the window with a sad face every day... she must be fantasizing about an outing."] = "Каждый день с грустным лицом смотрит на карету за окном... наверное, мечтает о прогулке.",
     ["Keanu"] = "Киану",
     ["与人脉完成%d/30次参演玩法。"] = "Выполните действия %d/30 Performance с контактами.",

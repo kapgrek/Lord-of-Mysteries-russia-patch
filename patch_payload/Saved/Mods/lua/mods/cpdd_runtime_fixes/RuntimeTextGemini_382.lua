@@ -275,5 +275,5 @@ return {
     ["Hey, hey, don't go, I'll give you some candy."] = "Эй-эй, не уходите, я дам вам конфет.",
     ["Although everyone knew that Beyonders would also participate in the war, the vast majority of people never saw them."] = "Хотя все знали, что Потусторонние тоже участвуют в войне, подавляющее большинство никогда их не видело.",
     ["Alright, I wish you a pleasant life."] = "Хорошо, желаю вам приятной жизни.",
-    ["Over-word-limit elaborate burial"] = "Over-word-limit elaborate burial",
+    ["Over-word-limit elaborate burial"] = "Изысканные похороны, превышающие лимит слов",
 }

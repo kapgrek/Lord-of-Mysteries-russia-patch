@@ -272,5 +272,5 @@ return {
     ["Do you think it's not good? How about listening to the following passage about the reasoning regarding his periodontium and dental care before making a judgment? I wrote three whole pages!"] = "Думаете, это плохо? Может, сначала дослушаете рассуждения о пародонте и уходе за зубами, а потом решите? Я написал целых три страницы!",
     ["双方阵营人数差距过大，请调整阵营人数后再开启对战。"] = "Разница в численности двух команд слишком велика. Скорректируйте состав команд, затем начните бой.",
     ["If I don't have Fors's novels to read, I won't be able to go on..."] = "Если у меня не будет романов Форса, я не смогу жить дальше...",
-    ["And now..."] = "And now...",
+    ["And now..."] = "А теперь...",
 }

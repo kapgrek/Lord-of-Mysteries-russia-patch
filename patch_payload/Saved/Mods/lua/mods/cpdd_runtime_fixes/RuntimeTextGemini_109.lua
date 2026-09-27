@@ -279,6 +279,6 @@ return {
     ["哼，那一天你恐怕是等不到了。"] = "Хм, боюсь, до этого дня ты не доживёшь.",
     ["爸爸，我好想您。"] = "Папа, я так по тебе скучаю.",
     ["But she has been nowhere to be seen."] = "Но она до сих пор не появилась.",
-    ["The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant."] = "The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant.",
+    ["The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant."] = "Позолоченный серебряный чайный набор украшен великолепными эмблемами, делая послеполуденное чаепитие ещё более изысканным.",
     ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

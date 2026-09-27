@@ -257,6 +257,6 @@ return {
     ["<Assistant_Title1>打的就是你</>\n<Assistant_Title2>成就分类：</>以战养战-征伐\n<Assistant_Title2>解锁条件：</>俱乐部宣战参与1次。"] = "<Assistant_Title1>Именно тебя я и бью</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Завоевание\n<Assistant_Title2>Условие разблокировки: </>Примите участие в объявлении войны клубом 1 раз.",
     ["Black Thorn Incident Book 4-Level 4-Wall HP buff"] = "Дело «Чёрный шип», Книга 4, Уровень 4 — Баф HP стены",
     ["买报纸？"] = "Купить газету?",
-    ["Roll a 20! Critical success!"] = "Roll a 20! Critical success!",
+    ["Roll a 20! Critical success!"] = "Выпало 20! Критический успех!",
     ["等等！小女孩，你叫什么名字？"] = "Ждать! Маленькая девочка, как тебя зовут?",
 }

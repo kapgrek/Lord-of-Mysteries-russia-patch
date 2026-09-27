@@ -295,5 +295,5 @@ return {
     ["这是孩子的一片心意，倘若你不想看，大可以去滑梯上过过瘾。"] = "Это от чистого сердца ребёнка. Если не хочешь смотреть, можешь сходить покататься на горке.",
     ["4非凡词条及以下不进行确认"] = "Не запрашивать подтверждение для 4 аффиксов Потустороннего и меньше",
     ["Go to the shared path and catch your teammate!"] = "Перейдите на общий путь и подхватите товарища по команде!",
-    ["A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning."] = "A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning.",
+    ["A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning."] = "Почётное имя из трёх частей — это не просто имя; оно ближе к взгляду божества, заклинанию призыва.",
 }

@@ -302,7 +302,7 @@ return {
     ["Roselle marks several Beyonders, and after a period of time, releases fan-shaped damage. Gears hit by the fan-shaped damage will be eliminated, and any remaining gears will be <Disable> reclaimed, dealing full-screen damage </>."] = "Розель называет нескольких Потусторонних, и через некоторое время выпускает урон веерной формы. Шестерёнки, попавшие под этот урон, уничтожаются, а оставшиеся неуничтоженные шестерёнки будут <Disable>собраны, нанося урон по всему экрану</>.",
     ["隐秘空间-破晓防线-海神权杖交互物"] = "Скрытое пространство - Линия обороны Рассвета - Объект взаимодействия «Скипетр морского бога»",
     ["You are already in a room. Exit current room <Highlight> %s </> and join new room <Highlight> %s </>?"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
-    ["<P_Heart> (Alert) </> What are you trying to do?"] = "<P_Heart> (Alert) </> What are you trying to do?",
+    ["<P_Heart> (Alert) </> What are you trying to do?"] = "<P_Heart> (Настороженно) </> Что вы пытаетесь сделать?",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

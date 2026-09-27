@@ -259,7 +259,7 @@ return {
     ["Over-budget grand burial"] = "Пышные похороны сверх бюджета",
     ["Gain a Shield equal to 15% of Max Health, lasting 5 seconds."] = "Получает щит, равный 15% максимальных Очков Здоровья (ОЗ), на 5 сек.",
     ["Rescue Count Marker buff"] = "Баф: маркер счётчика спасений",
-    ["It's alright. No matter when, I am always willing to introduce you to my Lord, the great Mr. Fool."] = "It's alright. No matter when, I am always willing to introduce you to my Lord, the great Mr. Fool.",
+    ["It's alright. No matter when, I am always willing to introduce you to my Lord, the great Mr. Fool."] = "Ничего страшного. В любое время я готов представить тебя моему Лорду, великому господину Шуту.",
     ["对啊！结果我的小猫……叼走了，一下子……一切都没了……"] = "Это верно! В конце концов, мой котёнок... украл его, и вдруг... всё пропало...",
     ["Display Layer:"] = "Слой отображения:",
     ["这是对食物的谋杀！煮过头的卷心菜、干硬的炖莴苣、像水一样的豌豆汤……"] = "Это убийство против еды! Переваренная капуста, сухой и жесткий тушеный салат, гороховый суп со вкусом воды...",

@@ -233,5 +233,5 @@ return {
     ["Of course, if you are a premium client of our bank, Bavart Bank is also happy to provide you with exclusive personal wealth management services to help you manage your assets efficiently."] = "Конечно, если вы являетесь привилегированным клиентом нашего банка, банк «Баварт» также с радостью предложит вам эксклюзивные услуги по управлению личными финансами, чтобы помочь эффективно управлять вашими активами.",
     ["<Highlight>“我不是赌神”</>征服声望加成"] = "<Highlight>«Я не игрок»</> — бонус репутации Завоевания",
     ["This reckless fool lost his gun, and I just happened to find it. This time, I'm definitely going to squeeze him for all he's worth."] = "Этот безрассудный дурак потерял свой пистолет, а я как раз его нашёл. На этот раз я точно выжму из него всё до последнего.",
-    ["Mellow honey complemented by smoked pork, an excellent companion for breakfast. Bacon and eggs, my partner."] = "Mellow honey complemented by smoked pork, an excellent companion for breakfast. Bacon and eggs, my partner.",
+    ["Mellow honey complemented by smoked pork, an excellent companion for breakfast. Bacon and eggs, my partner."] = "Насыщенный мёд в сочетании с копчёной свининой — отличное дополнение к завтраку. Бекон и яйца, мой напарник.",
 }

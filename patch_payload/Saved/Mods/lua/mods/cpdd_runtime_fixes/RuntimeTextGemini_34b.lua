@@ -260,5 +260,5 @@ return {
     ["使用“刻印”技能记录当前时间位置！"] = "Используйте умение «Метка», чтобы запомнить текущее время и позицию!",
     ["The Goddess would also allow me to explain it this way, because it really disturbs my state of mind..."] = "Богиня позволила бы мне объяснить это именно так, ведь это действительно тревожит мой душевный покой...",
     ["I don't know where the news came from, saying that if you turn your back to the Fountain of Purification, hold a coin in your right hand, and throw it backward over your left shoulder into the water, you can make your wish come true."] = "Не знаю, откуда пошла эта новость, будто если встать спиной к Фонтану Очищения, взять монету в правую руку и бросить её назад через левое плечо в воду, желание исполнится.",
-    ["Hmph, are you sent by the neighbors to steal pumpkins! It's not that easy to beat me at the Harvest Festival!"] = "Hmph, are you sent by the neighbors to steal pumpkins! It's not that easy to beat me at the Harvest Festival!",
+    ["Hmph, are you sent by the neighbors to steal pumpkins! It's not that easy to beat me at the Harvest Festival!"] = "Хм, тебя соседи подослали воровать тыквы? Не так-то просто меня обыграть на Празднике урожая!",
 }

@@ -248,7 +248,7 @@ return {
     ["What a vulgar statement. How easy it is to obtain bread, and how difficult it is to pluck happiness."] = "Какая пошлая фраза. Как легко добыть хлеб и как трудно обрести счастье.",
     ["The owner of this place allows me to help them clean the roof."] = "Хозяева этого дома разрешили мне помочь им почистить крышу.",
     ["是的，我们最近重新装修了店面，很快就会重新开始营业。"] = "Да, недавно мы сделали ремонт в помещении, скоро снова откроемся.",
-    ["Harold Department Store is not open, why is there still security?"] = "Harold Department Store is not open, why is there still security?",
+    ["Harold Department Store is not open, why is there still security?"] = "Универмаг «Гарольд» ещё не открыт, почему там всё равно охрана?",
     ["玩家发送任务道具  玩家播放单句黑屏字幕  玩家设置灵视状态"] = "Игрок отправляет квестовый предмет; Player Play: однострочные субтитры на черном экране; Состояние состояния духа, установленное игроком",
     ["完成当前步骤的所有子目标  玩家播放剧情对话  玩家播放情绪音乐（仅自己可听）"] = "Выполните все подцели текущего шага. Игрок воспроизводит сюжетный диалог. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

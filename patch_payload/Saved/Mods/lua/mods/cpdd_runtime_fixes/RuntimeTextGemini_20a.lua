@@ -279,7 +279,7 @@ return {
     ["Pink is not necessarily synonymous with gentleness. The heart rotating in the starlight may carry a certain indescribable sharpness."] = "Розовый цвет не всегда означает нежность. Сердце, вращающееся в свете звёзд, может таить в себе неописуемую остроту.",
     ["贝克兰德9-秘偶大师-记忆回溯"] = "Бэкланд 9 - Марионеточник - Воспоминание",
     ["未到花车巡游开放时间：%s"] = "Время открытия парада платформ ещё не наступило: %s",
-    ["Combining the slight bitterness of cocoa with the creaminess of milk, it's more like a dessert than an alcoholic beverage."] = "Combining the slight bitterness of cocoa with the creaminess of milk, it's more like a dessert than an alcoholic beverage.",
+    ["Combining the slight bitterness of cocoa with the creaminess of milk, it's more like a dessert than an alcoholic beverage."] = "Сочетание лёгкой горчинки какао со сливочным вкусом молока — скорее десерт, чем алкогольный напиток.",
     ["Caspian"] = "Каспиан",
     ["播放Dialogue  对象离开座位"] = "Воспроизвести диалог Объект покидает место",
 }

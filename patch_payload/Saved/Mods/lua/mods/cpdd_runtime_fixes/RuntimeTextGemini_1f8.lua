@@ -254,6 +254,6 @@ return {
     ["想想我那重病的妻子和不断累积的外债，我的手指就愈发僵硬。"] = "Как подумаю о тяжело больной жене и о растущих долгах, пальцы становятся всё более скованными.",
     ["一般什么时间出现？"] = "В какое время вы обычно появляетесь?",
     ["Hurry and rescue the dwarf, let the dwarf take you into the air!"] = "Скорее спасите гнома, чтобы он поднял вас в воздух!",
-    ["Understood, thank you. I have learned some more Beyonder knowledge."] = "Understood, thank you. I have learned some more Beyonder knowledge.",
+    ["Understood, thank you. I have learned some more Beyonder knowledge."] = "Понял, спасибо. Я узнал ещё немного знаний о Потусторонних.",
     ["收获%d/500个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/500.",
 }

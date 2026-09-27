@@ -281,5 +281,5 @@ return {
     ["Old Neil-Vision 5m"] = "Старина Нил — обзор 5м",
     ["Unlockable after 21:20 on October 1"] = "Разблокируется после 21:20 1 октября",
     ["需要消耗 %s 金镑，当前金镑不足，是否前往充值？"] = "Требуется %s Золотых фунтов, текущих Золотых фунтов недостаточно. Перейти к пополнению?",
-    ["<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>"] = "<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>",
+    ["<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>"] = "<P_Heart> (Его глаза слегка двигаются — он о чём-то думает, и разум его совершенно ясен.) </>",
 }

@@ -258,5 +258,5 @@ return {
     ["All allies restore 2 Mana per second."] = "Все союзники восстанавливают 2 ед. маны в секунду.",
     ["这么厉害？你自己也滑过吗？"] = "Да ну? А ты сам с неё скатывался?",
     ["我？我……我负责在这里招揽客人，走不开的，走不开的，嘿嘿……"] = "Я? Я... я тут отвечаю за привлечение посетителей, не могу отойти, не могу отойти, хе-хе...",
-    ["Ah... you mean Mr. Lumber from the pumpkin patch next door."] = "Ah... you mean Mr. Lumber from the pumpkin patch next door.",
+    ["Ah... you mean Mr. Lumber from the pumpkin patch next door."] = "А... ты про мистера Ламбера с соседней тыквенной грядки.",
 }
