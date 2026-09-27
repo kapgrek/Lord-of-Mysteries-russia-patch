@@ -258,4 +258,10 @@ return {
     ["Secrets Suppliant"] = "Молящийся о Секретах",
     ["Passive_Skill resource increase"] = "Увеличение ресурса Passive_Skill",
     ["释放哀恸震击，伤害目标及其周围敌人。"] = "Высвобождает удар скорби, нанося урон цели и врагам вокруг неё.",
+    ["Restores {*d,F1690001,maxHp,0.04} health to self and allies within <HighLight>1</> tiles, and increases defense by <HighLight>6</> for <HighLight>4</> seconds. Self randomly gains one of the following effects for <HighLight>6</> seconds: Attack and Attack Speed increased by <HighLight>10%</>; or gain {*d,F1690001,maxHp,0.1} Shield and <HighLight>8</> defense; or restore {*d,F1690001,maxHp,0.06} health and <HighLight>8</> energy, and gain {*d,F1690001,maxHp,0.04} Shield."] = "Восстанавливает себе и союзникам в радиусе <HighLight>1</> клетки {*d,F1690001,maxHp,0.04} ед. здоровья и повышает защиту на <HighLight>6</> на <HighLight>4</> сек. Сам получает случайный эффект на <HighLight>6</> сек.: атака и скорость атаки повышаются на <HighLight>10%</>, либо получает {*d,F1690001,maxHp,0.1} ед. щита и <HighLight>8</> защиты, либо восстанавливает {*d,F1690001,maxHp,0.06} ед. здоровья, <HighLight>8</> маны и получает {*d,F1690001,maxHp,0.04} ед. щита.",
+    ["Snap of fingers"] = "Щелчок пальцами",
+    ["基础属性：吸血+25%"] = "Базовые характеристики: Похищение жизни +25%",
+    ["+15 Attack +15% Crit Rate"] = "+15 к атаке, +15% к критическому удару",
+    ["白枫往事"] = "Прошлое Белого клёна",
+    ["Cocoa Milk Liqueur"] = "Cocoa Milk Liqueur",
 }

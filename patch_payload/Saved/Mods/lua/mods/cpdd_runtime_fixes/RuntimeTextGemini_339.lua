@@ -258,6 +258,8 @@ return {
     ["Descendant Impact"] = "Удар потомка",
     ["<CostRed>{1,2,（烙印已失效）}</>Armor Break increased by <Mark>110</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is acti"] = "<CostRed>{1,2,(Срок действия марки истек)}</>Прорыв защиты увеличивается <Mark>110</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",
     ["抢棋子"] = "Перехват фигур",
+    ["Ming Dynasty"] = "Династия Мин",
+    ["Base Stats: Defense +40"] = "Базовые характеристики: Защита +40",
     ["曾有人说，死而复生便是奇迹。你觉得什么才是真正的奇迹？"] = "Кто-то однажды сказал, что воскресение – это чудо. Что вы считаете настоящим чудом?",
     ["Bria"] = "Бриа",
 }

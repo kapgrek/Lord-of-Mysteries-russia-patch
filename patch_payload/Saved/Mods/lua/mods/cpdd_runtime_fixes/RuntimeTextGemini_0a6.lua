@@ -245,5 +245,9 @@ return {
     ["随机获得1个二星5费棋子。"] = "Случайным образом даёт 1 двухзвёздочную фигуру за 5 золотых.",
     ["Stomp the front with the power of civilization, dealing {*d,F1690001,atkMin,1.77} Attack damage and knocking back enemies, while gaining <HighLight>40%</> Damage Reduction for <HighLight>6</> seconds."] = "Силой цивилизации тяжело топает вперёд, нанося {*d,F1690001,atkMin,1.77} ед. урона от атаки и отбрасывая врагов. Получает <HighLight>40%</> снижения урона на <HighLight>6</> сек.",
     ["连续3回合战斗失利"] = "Проиграть 3 раунда подряд",
+    ["成就-致命一击"] = "Достижение - Смертельный удар",
+    ["Unlock True Knowledge of Holy Light"] = "Разблокировка истинного знания священного света",
+    ["询问开业时间"] = "Спросить о времени открытия",
+    ["石块个数"] = "Number of stones",
     ["Colson"] = "Колсон",
 }

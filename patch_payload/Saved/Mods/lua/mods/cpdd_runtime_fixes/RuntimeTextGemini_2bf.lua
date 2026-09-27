@@ -266,5 +266,11 @@ return {
     ["Butler Appearance"] = "Внешний вид Батлера",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>256%</> = {*d,F1690001,atkMin,2.56}",
     ["Longing for the past, reflected through the water is the shared bright moon from memory. The hometown is never far away; home is right here."] = "Тоска по былому: в отражении воды — та же ясная луна, что и в общих воспоминаниях. Родной край никогда не бывает далеко, дом — здесь.",
+    ["<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>170</>, Crit rate decreased by <Mark>20</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>170</>, критический удар понижается на <Mark>20</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
+    ["Primary Attribute"] = "Основной атрибут",
+    ["Fake player"] = "Поддельный игрок",
+    ["Magnificent Curtain Call · End"] = "Пышный финал · Конец",
+    ["Speak with <h> Count Lucien </>"] = "Поговорить с <h>графом Люсьеном</>",
+    ["签名歪歪扭扭"] = "The signature is crooked",
     ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

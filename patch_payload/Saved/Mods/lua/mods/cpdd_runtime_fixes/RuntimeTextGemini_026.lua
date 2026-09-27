@@ -259,5 +259,11 @@ return {
     ["Equip 1 piece of equipment with a Beyonder affix"] = "Оснастите 1 предмет снаряжения аффиксом Потусторонний.",
     ["Equip to gain the [Spellcasting] bond"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>333%</> = {*d,F1690001,atkMin,3.33}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>333%</> = {*d,F1690001,atkMin,3.33}",
+    ["模型体型提升10%"] = "Размер модели увеличен на 10%",
+    ["Talent Tree ID"] = "ID древа талантов",
+    ["How do I attack the training dummy?"] = "Как атаковать тренировочный манекен?",
+    ["拍照RGB色散"] = "Фото: RGB-дисперсия",
+    ["跳跃恢复"] = "Jump restored.",
+    ["非凡物质评分说明"] = "Beyonder Material Rating Explanation",
     ["Sabrina"] = "Сабрина",
 }

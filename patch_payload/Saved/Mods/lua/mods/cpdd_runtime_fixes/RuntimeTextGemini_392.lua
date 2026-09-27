@@ -257,6 +257,9 @@ return {
     ["Deals {*d,F1690001,atkMin,1} attack damage to surrounding enemies and randomly gains either a shield equal to <HighLight>20%</> of max health or <HighLight>30%</> Damage Reduction, lasting for <HighLight>5</> seconds."] = "Наносит окружающим врагам {*d,F1690001,atkMin,1} ед. урона от атаки и случайно получает щит на <HighLight>20%</> макс. здоровья или <HighLight>30%</> снижения урона на <HighLight>5</> сек.",
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>288%</> = {*d,F1690001,atkMin,2.88}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>288%</> = {*d,F1690001,atkMin,2.88}",
     ["非凡任务选择：<HighLight>%d</>秒"] = "Выбор Потустороннего задания: <HighLight>%d</> сек.",
+    ["神话管家风尚决斗"] = "Модный поединок: Мифический дворецкий",
+    ["Achievement - Stronghold Raid"] = "Достижение - Штурм опорного пункта",
+    ["自制名片"] = "Изготовить визитку",
     ["我已经解除了隔离。"] = "Я снял карантин.",
     ["Lilianna"] = "Лилианна",
 }

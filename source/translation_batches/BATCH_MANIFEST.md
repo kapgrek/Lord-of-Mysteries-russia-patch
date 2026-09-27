@@ -40,3 +40,4 @@ Batch count: **33**
 | Батч 032_stringdb_ui | `batch_032_stringdb_ui.json` | 132583 - 132586 | Готов |
 | Батч 033_autochess_stringdb_2 | `batch_033_autochess_stringdb_2.json` | 132589 - 132958 | Готов |
 | Батч 034_stringdb_s5 | `batch_034_stringdb_s5.json` | 132973 - 133297 | Готов (TASK-019, пачка 1: видно на экране в сессии s5; пачка 2: поля KSBC; TASK-020: 19 строк Автошахмат `BriefDescription`/`SkillDisc`/`Name`, id 133264–133282; 15 шаблонов карточек `GenerateTipsDesc` из пробы, id 133283–133297) |
+| Батч 035_stringdb_s5_ui | `batch_035_stringdb_s5_ui.json` | 133298 - 135699 | В работе (TASK-019, пачка 3: StringDB ui/quest/equip/autochess/loading/formula, сессия s5; переведено 2000 из 2402, остаток 402 — продолжить `-ExportNew`) |

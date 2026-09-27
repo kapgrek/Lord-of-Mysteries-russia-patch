@@ -235,5 +235,7 @@ return {
     ["Wilderness Veins"] = "Жилы пустошей",
     ["跃起裂地，震伤并眩晕周围敌人。"] = "Прыгает и раскалывает землю, раня и оглушая окружающих врагов.",
     ["界面状态效果显示设置"] = "Показ эффектов состояния в интерфейсе",
+    ["Activity Task 1"] = "Задание активности 1",
+    ["<CostRed>{1,2, (Brand Expired) }</>Crit rate increased by <Mark>110</>. After entering combat, Crit rate increases further; every <Mark>5</> seconds, Crit rate increases by <Mark>10</>, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Критический удар повышается на <Mark>110</>, после вступления в бой критический удар дополнительно увеличивается: каждые <Mark>5</> секунд критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["收获%d/200个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/200.",
 }

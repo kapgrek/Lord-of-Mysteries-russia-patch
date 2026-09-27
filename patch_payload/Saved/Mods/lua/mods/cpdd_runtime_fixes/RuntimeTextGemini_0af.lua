@@ -239,4 +239,7 @@ return {
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}",
     ["愚者棋局入口"] = "Вход в «Гамбит Шута»",
     ["Complete 3 player battles in a continuous win-loss alternating fashion."] = "Провести подряд 3 боя с игроками, чередуя победы и поражения",
+    ["神选战旗"] = "Боевое знамя избранного богом",
+    ["承蒙喜爱\n苏利亚"] = "С благодарностью\nСулия",
+    ["You find a room filled with supernatural mysticism in Lamud Town, which turns out to be a crime scene..."] = "You find a room filled with supernatural mysticism in Lamud Town, which turns out to be a crime scene...",
 }

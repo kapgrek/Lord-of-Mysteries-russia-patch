@@ -259,5 +259,9 @@ return {
     ["以闪电射线连续贯穿前方敌人，并在目标区域引爆，全部命中共造成{*d,F1690001,atkMin,7.3}点攻击伤害。"] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,7.3} ед. урона от атаки.",
     ["Relies on star-shining projectiles for continuous attacks and restores health to allies."] = "Непрерывно атакует снарядами звёздного сияния и восстанавливает здоровье союзникам.",
     ["使用音波冲击打击敌人，并为友方提供护盾。"] = "Поражает врагов звуковой волной и даёт союзникам щит.",
+    ["Max Health increased by 100"] = "Максимальное здоровье повышено на 100",
+    ["敏锐猎手天赋效果"] = "Какой эффект у таланта «Чуткий охотник»?",
+    ["神选谕令"] = "Эдикт избранного богом",
+    ["约瑟夫的投影"] = "Проекция Джозефа",
     ["……\n\nCurrently, the remaining ten people are still missing. After tracking and investigation, relevant clues were found:\n1. The age range of missing children is from eight to fifteen years old.\n2. The last sighting locations of missing children are mainly in the <Mark id=\"#159\"> West District </> and <Mark id=\"#159\"> Factory District </>.\n3. Near the crime scene, someone heard the sound of a suspected <Mark id=\"#159\">flute </>.\n4. ……"] = "......\n\nОставшиеся десять человек по-прежнему пропали без вести. После последующего расследования были обнаружены соответствующие улики: \n1. Возрастной диапазон пропавших детей колеблется от восьми до пятнадцати лет \n2. Последние места появления пропавших детей находятся в основном в <Mark id=\"#159\"> Западном округе </> и <Mark id=\"#159\"> Заводской зоне </>. \n3. Рядом с местом преступления кто-то услышал звук предполагаемой <Mark id=\"#159\"> флейты </>. \n4.……",
 }

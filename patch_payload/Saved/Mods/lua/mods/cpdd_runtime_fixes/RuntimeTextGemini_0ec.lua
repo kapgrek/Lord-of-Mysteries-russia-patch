@@ -252,5 +252,9 @@ return {
     ["GTA - Audrey healing - Coffee cup"] = "GTA - Исцеление Одри - Кофейная чашка",
     ["All allies gain <HighLight>10%</> Attack. [Spellcraft] stacks Attack after each skill cast."] = "Все союзники получают <HighLight>10%</> атаки. [Колдовство] накапливает атаку после каждого применения навыка.",
     ["A Sacrifice"] = "Жертва",
+    ["Gᴋ⒌ᴘᴡ"] = "Gᴋ⒌ᴘᴡ",
+    ["Play recording"] = "Воспроизвести запись",
+    ["窥隐探秘·始"] = "Разведка тайн · Начало",
+    ["Analyze the current situation"] = "Проанализировать ситуацию",
     ["Play Dialogue  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Игра «Диалог». Игрок воспроизводит говорящий текст, который виден только ему самому. Отложенное исполнение. Игрок воспроизводит говорящий текст, который виден только ему. Отложенное исполнение.",
 }

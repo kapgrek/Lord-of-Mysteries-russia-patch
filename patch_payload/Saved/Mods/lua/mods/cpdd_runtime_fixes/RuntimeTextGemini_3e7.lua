@@ -275,5 +275,9 @@ return {
     ["[Blood Blade] Gains Critical Rate and Critical Damage. Inflicts Bleed when hitting enemies; Bleed damage increases with tier."] = "【Кровавый клинок】 получает шанс и урон крит. удара. При попадании накладывает Кровотечение, урон от которого растёт со ступенью.",
     ["挥爪连续撕裂目标。"] = "Раз за разом раздирает цель когтями.",
     ["获得20%最大生命护盾，持续5秒"] = "Получает щит на 20% макс. здоровья на 5 сек.",
+    ["Refuse Fashion Duel - Dancing King Baboon Brother"] = "Отклонить модный поединок — Танцующий король-бабуин",
+    ["How do I play May Swift-Hunt?"] = "Как играть за «Майского быстрого охотника»?",
+    ["Slot 12"] = "Слот 12",
+    ["军需官"] = "Квартирмейстер",
     ["Depose  \r\nExile \r\nMurder"] = "Низложение  \r\nИзгнание \r\nУбийство",
 }

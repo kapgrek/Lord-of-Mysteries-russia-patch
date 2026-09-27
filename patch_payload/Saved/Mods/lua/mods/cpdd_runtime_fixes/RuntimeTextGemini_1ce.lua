@@ -263,6 +263,9 @@ return {
     ["一只<h>玩偶</>被留在地上"] = "На земле осталась <h>кукла</>",
     ["On the chessboard, between moves, part the mists of history and wait for the players to decide the outcome."] = "На шахматной доске, между ходами, рассейте туман истории: соперники ждут решающей партии.",
     ["Pounce on the enemy with the lowest health, dealing {*d,F1690001,atkMin,5} Attack damage. When the target's health is no higher than <HighLight>35%</>, the damage increases to {*d,F1690001,atkMin,7}, and you restore {*d,F1690001,maxHp,0.08} of your own Health."] = "Бросается на врага с наименьшим здоровьем и наносит {*d,F1690001,atkMin,5} ед. урона от атаки. Если здоровье цели не выше <HighLight>35%</>, урон возрастает до {*d,F1690001,atkMin,7}, а сама фигура восстанавливает {*d,F1690001,maxHp,0.08} ед. здоровья.",
+    ["The Territory I Conquered"] = "Территория, отвоёванная мной",
+    ["春日圆舞曲"] = "Весенний вальс",
+    ["清辉疏影"] = "Ясное сияние",
     ["Marisol"] = "Марисоль",
     ["<DPS>来输出</>"] = "<DPS>Нужен урон</>",
 }

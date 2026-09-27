@@ -261,5 +261,12 @@ return {
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>328%</> = {*d,F1690001,atkMin,3.28}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>328%</> = {*d,F1690001,atkMin,3.28}",
     ["Cannot open piece details in the shop interface!"] = "В окне магазина нельзя открыть сведения о фигуре!",
     ["Bombard the front and the area around the target in succession; the second stage stuns enemies."] = "Обстреливает по очереди область впереди и вокруг цели; второй залп оглушает врагов.",
+    ["Attack increased by 1%"] = "Атака увеличена на 1%",
+    ["最大生命提高250"] = "Максимальное здоровье повышено на 250",
+    ["初始化商队在101站点"] = "Инициализировать караван на станции 101",
+    ["成就-独占鳌头"] = "Достижение - Единоличное первенство",
+    ["Achievement - Start of War"] = "Достижение - Начало войны",
+    ["Unparalleled War Merit"] = "Непревзойдённые боевые заслуги",
+    ["How do I get potions in the Training Ground?"] = "Как получить зелья на тренировочной площадке?",
     ["Roberto"] = "Роберто",
 }

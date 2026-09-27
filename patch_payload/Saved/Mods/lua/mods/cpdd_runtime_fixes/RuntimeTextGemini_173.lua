@@ -247,5 +247,8 @@ return {
     ["Summon an Axe Knight at the target location to perform a cleave, dealing spellfielddisc(*id) damage to enemies in the area, and with a 70% base probability, inflicting 1 second of <Highlight>Stun</> on enemies in the center area."] = "Призывает в указанную точку рыцаря с тяжёлым топором, который совершает рубящий удар: наносит врагам в области spellfielddisc(*id) ед. урона и с базовой вероятностью 70% накладывает на врагов в эпицентре <Highlight>оглушение</> на 1 сек.",
     ["Death Knight effect circle"] = "Круг эффекта рыцаря смерти",
     ["【神降】荣光织造·羽翼"] = "[Нисхождение божества] Плетение славы · Крылья",
+    ["Cult Talent"] = "Талант культа",
+    ["店员广告"] = "Реклама продавца",
+    ["好团长说明"] = "Good Leader Explanation",
     ["你瞅瞅，这码头上的猫，全给我招来了，赶都赶不走！"] = "Посмотрите, всех кошек на пристани я сюда заманил, я не могу их прогнать!",
 }

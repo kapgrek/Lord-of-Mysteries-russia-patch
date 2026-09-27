@@ -270,6 +270,11 @@ return {
     ["Single-target Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>5000%</> = {*d,F1690001,atkMin,50}"] = "Урон по одной цели: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>5000%</> = {*d,F1690001,atkMin,50}",
     ["Collect three identical pieces to automatically synthesize and upgrade their star level. The higher the star level, the stronger the combat power; three stars is the strongest form."] = "Три одинаковые фигуры автоматически сливаются в фигуру следующей звёздности. Чем больше звёзд, тем сильнее фигура; три звезды — максимальная форма.",
     ["奇迹牌雨轰击目标区域。"] = "Дождь Карт чудес обрушивается на целевую область.",
+    ["Sticker · Spectator"] = "Наклейка · Зритель",
+    ["机械迷局#9"] = "Механическая головоломка №9",
+    ["拳拳到肉·终"] = "Каждый удар в цель · Конец",
+    ["Phantom of the Opera Release"] = "Выпуск «Призрак оперы»",
+    ["邪恶胜利"] = "Победа зла",
     ["奈拉小姐揉眉心是因为里特恩太烦人，不是我。"] = "Мисс Найла потирает лоб потому, что меня раздражает Риттен, а не я.",
     ["At 2:55 PM <InvHighlight>, the butler was in the dining room organizing the silverware when he heard the master and mistress arguing in the bedroom. </>\nAround 3:00 PM <InvHighlight>, he saw the Baroness leave the bedroom with his own eyes. </>Shortly after, Baron Hawkes felt discomfort in his heart and called for the butler to enter the study to deliver medicine. The butler left two minutes later. \n\nAround 3:20 PM <InvHighlight>, the butler went to find Baron Hawkes and discovered that he was not responding, so he called for others to help him break down the door. </>Baron Hawkes was lying next to the desk with spilled tea on the floor."] = "В <InvHighlight>два часа пятьдесят пять минут пополудни</>, дворецкий наводил порядок в столовой и услышал, как в спальне спорят хозяин и хозяйка.\nОколо <InvHighlight>трех часов дня</> он своими глазами видел, как баронесса покинула спальню.\nВскоре барон Хоукс почувствовал покалывание в сердце и позвал дворецкого в кабинет принести лекарство. Спустя две минуты дворецкий удалился.\nОколо <InvHighlight>трех часов двадцати минут</> дворецкий отправился к барону Хоуксу и, не получив ответа, позвал слуг выломать дверь.\nБарон Хоукс лежал бездыханным у письменного стола, а на полу был разлит чай.",
 }

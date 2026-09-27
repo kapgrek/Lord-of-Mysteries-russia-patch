@@ -248,6 +248,11 @@ return {
     ["You have encountered danger multiple times in a short period, but we cannot protect you at all times. You need the ability to protect yourself."] = "Вы сталкивались с опасностью несколько раз за короткий период времени, но мы не можем защитить вас всегда. Вам нужна способность защитить себя.",
     ["№1"] = "№1",
     ["Relies on close-range continuous slashes to suppress enemies."] = "Подавляет врагов непрерывными рубящими ударами вблизи.",
+    ["Trash"] = "Хлам",
+    ["记录仪"] = "Регистратор",
+    ["Go to the Restroom"] = "Сходить в туалет",
+    ["胜者宣言大会语音房间说明"] = "Victor's Declaration Assembly Voice Room Explanation",
+    ["Miracles are only temporary, fate is always long."] = "Miracles are only temporary, fate is always long.",
     ["Nova"] = "Новая звезда",
     ["据热心市民反映，近期常有来自霍伊大学的学生在墓地做奇怪的事情。"] = "По словам обеспокоенных горожан, студенты Университета Хой в последнее время творят на кладбище странные вещи.",
 }

@@ -230,5 +230,7 @@ return {
     ["Combat Workshop"] = "Боевая мастерская",
     ["Layer Erosion"] = "Эрозия слоя",
     ["Obtain Secret Information"] = "Получить секретную информацию",
+    ["Brain-entangled"] = "Мозги набекрень",
+    ["荣耀展示积分"] = "Очки демонстрации славы",
     ["An old, worn-out mirror.\n The surface is almost entirely obscured by stains, no longer able to reflect the face of the viewer."] = "Старинное зеркало.\nЕго поверхность почти сплошь покрыта въевшимися пятнами и больше не способна отразить лицо смотрящего.",
 }

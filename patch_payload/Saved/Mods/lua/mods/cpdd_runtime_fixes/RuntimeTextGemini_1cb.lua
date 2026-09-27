@@ -249,6 +249,10 @@ return {
     ["愚者棋局几个人玩"] = "Сколько игроков в «Гамбите Шута»?",
     ["<HighLight>施法后保护友军</>"] = "<HighLight>Защищает союзников после применения навыка</>",
     ["张弓射击，远程命中当前目标。"] = "Натягивает лук и стреляет, поражая текущую цель на расстоянии.",
+    ["Unlocked after obtaining the True Knowledge of Holy Light wings"] = "Открывается после получения крыльев «Истинное знание священного света»",
+    ["战略服巨龙"] = "Стратегический сервер: Дракон",
+    ["Someone looks very hungry..."] = "Кажется, кто-то сильно проголодался...",
+    ["调查<h>散放的木偶</>"] = "Investigate the <h>scattered puppets</>",
     ["骗子！"] = "Обманщик!",
     ["Summary:\nReceived a report at nine this morning. A young woman named Daisy Elton has fallen into an abnormal <Mark id=\"#159\">Stun</> state. The woman currently resides in a <Letter_Highlight>villa in the northern suburbs of Tingen</>, and is being looked after by the butler and servants at home...\n\nNote:\nSuspected <Mark id=\"#159\">Beyonder incident</>."] = "Краткое описание: \n Сегодня в 9 часов утра было получено сообщение о том, что молодая женщина по имени Дейзи Элтон впала в аномальное состояние <Mark id=\"#159\"> комы </>. В настоящее время женщина проживает на вилле <Letter_Highlight> в северном пригороде города Тинген </>, и за ней присматривают семейная экономка и слуги... \n\n Отмечено: \n Подозрение <Mark id=\"#159\"> Чрезвычайное происшествие </>.",
 }

@@ -258,4 +258,9 @@ return {
     ["Automatically open reading interface"] = "Автоматически открывать интерфейс чтения",
     ["Find three objects of prophecy, glimpse the truth, and escape the nightmare. \n \n One object is lost, and the sound of returning home no longer plays."] = "　　Отыщи три предмета пророчества, узри истину и спасись от кошмара.\n\n　　Один предмет сбился с пути: звук возвращения домой более не звучит.",
     ["音波冲击前方，为附近友军提供护盾。"] = "Звуковая волна бьёт вперёд и даёт щит союзникам рядом.",
+    ["Refuse Fashion Duel - Offspring Protection"] = "Отклонить модный поединок — Защита потомства",
+    ["战争回廊"] = "Коридор войны",
+    ["窥隐探秘·终"] = "Разведка тайн · Конец",
+    ["全套方案切换"] = "Переключение полного набора",
+    ["Enter <h> Asta's home </>"] = "Войти в дом <h>Асты</>",
 }

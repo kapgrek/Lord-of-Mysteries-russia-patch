@@ -256,6 +256,13 @@ return {
     ["Summons Flesh Shadows to provide self-buffs and damage surrounding enemies."] = "Призывает тени плоти, усиливая себя и нанося урон окружающим врагам.",
     ["Two cards pursue the target, randomly strengthening Attack or Attack Speed."] = "Две карты преследуют цель, случайно усиливая атаку или скорость атаки.",
     ["以血焰横扫自身周围<HighLight>1</>格内的全部敌人，造成<HighLight>288%</>攻击伤害。自身攻速提高<HighLight>30%</>，持续<HighLight>4</>秒。"] = "Кровавым пламенем поражает всех врагов в радиусе <HighLight>1</> клетки вокруг себя, нанося <HighLight>288%</> урона от атаки. Скорость атаки увеличивается на <HighLight>30%</>, эффект длится <HighLight>4</> сек.",
+    ["<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>225</>. After being attacked, Monster Specialization is increased by an additional <Mark>50</> for <Mark>8</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>225</>. После получения урона дополнительно повышает специализацию против монстров на <Mark>50</> на <Mark>8</> сек.\nНе действует при активации сета <Mark>Клятва железа и крови</>.",
+    ["Equipment: Corrupted Will"] = "Экипировка: Осквернённая воля",
+    ["GVG Cross-Server Faction Week 1 Points"] = "Межсерверные очки фракции GVG за 1-ю неделю",
+    ["积分场"] = "Рейтинговая комната",
+    ["I Am a Big Star"] = "Я большая звезда",
+    ["Lucien"] = "Люсьен",
+    ["第一环占坑"] = "First ring placeholder",
     ["所以你知道哪个占卜师最准吗？我让他先给我算晚饭的事，我急着知道！"] = "Итак, вы знаете, какой прорицатель самый точный? Сначала я позволю ему рассчитать для меня ужин, я спешу узнать!",
     ["就是它！谢谢！我能用完美的姿态迎接他了！"] = "Вот и все! Спасибо! Могу поприветствовать его в идеальном состоянии!",
 }

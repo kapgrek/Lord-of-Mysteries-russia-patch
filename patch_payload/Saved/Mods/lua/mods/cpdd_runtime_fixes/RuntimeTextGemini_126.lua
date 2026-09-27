@@ -248,5 +248,8 @@ return {
     ["Frye follow-up inquiry camera"] = "Камера слежения за Фраем",
     ["Yellow Card Acquisition Buff"] = "Желтая карточка",
     ["Blade Storm"] = "Вихрь клинков",
+    ["战士战术技能五阶"] = "Воин — Тактический навык, 5 ступень",
+    ["Achievement - Honored with Medal"] = "Достижение - Награждён медалью",
+    ["过去问问<h>小男孩</>"] = "Go over and ask the <h>little boy</>",
     ["pieces"] = "фигуры",
 }

@@ -296,4 +296,11 @@ return {
     ["Continuously pierces enemies in front with Lightning Ray and detonates in the target area, dealing a total of {*d,F1690001,atkMin,15} attack damage if all hits connect."] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,15} ед. урона от атаки.",
     ["Fool's Gambit: Use <Highlight> Right Click </> to move."] = "«Гамбит Шута»: перемещение — <Highlight>правой кнопкой мыши</>.",
     ["Throw a bill to attack distant targets."] = "Швыряет счёт в дальние цели.",
+    ["Eight hundred and eighty a cup"] = "Восемьсот восемьдесят за чашку",
+    ["3-unit circle around self"] = "Круг радиусом 3 клетки вокруг себя",
+    ["上装外侧"] = "Внешняя сторона верха",
+    ["Decorated Medal"] = "Награждён орденом",
+    ["Good Taste"] = "Хороший вкус",
+    ["Report Personal Profile"] = "Жалоба на профиль в визитке",
+    ["Roselle's Corrupted Will"] = "Осквернённая воля Розеля",
 }

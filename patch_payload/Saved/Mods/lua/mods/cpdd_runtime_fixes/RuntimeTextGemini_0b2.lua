@@ -271,6 +271,10 @@ return {
     ["May Manor Badge"] = "Эмблема Поместья Мэй",
     ["Resonance: 5 Steam Era | 2 Tarot Club | 1 Revival of the Great Old One | 2 Long-range Strike; Main Carry: Melissa Moretti 3★, Hugh Dierdre 3★ | Rare · Swift Fate Card; Main Tank: \"Drill\" 2★, Benson Moretti 2★ | Rare · Bulwark War Helm; Strategy: Get core units to 2★ first; Steam provides equipment, Long-range Strike strengthens the back row."] = "Резонансы: 5 Эпоха пара | 2 Клуб Таро | 1 Возрождение Древнего | 2 Дальнобойный удар; основной урон: Мелисса Моретти 3★, Сио Дереча 3★ | Редкое · Карта стремительной жизни; основной танк: «Бур» 2★, Бенсон Моретти 2★ | Редкое · Боевой шлем Оплота; тактика: сначала доведите ключевые фигуры до 2★; Эпоха пара даёт снаряжение, Дальнобойный удар усиливает задний ряд",
     ["<HighLight>恢复法力、残血获得护盾</>"] = "<HighLight>Восстанавливает ману, щит при низком здоровье</>",
+    ["回爐"] = "На переделку",
+    ["快上车 别堵在车门口"] = "Быстрее в карету, не толпитесь у двери",
+    ["Go to Participate"] = "Перейти к участию",
+    ["需前往战略服开启对战内容"] = "Must go to the Strategic Server to start battle content",
     ["Young people!\nDo not let the fire of wisdom be extinguished between your fingers!\n\nAnyone who has received a school admission notice but cannot afford the tuition,\nthe Loen Charity Scholarship Foundation will help you with your studies.\n\nApplication Qualifications:\nMust hold a parish recommendation letter or school admission notice, and family income proof\n\nApplication Method:\nSubmit your self-recommendation letter to the <Highlight>local Evernight Church</>"] = "Юноши и девушки!\nНе дайте пламени мудрости угаснуть в ваших руках!\n\nКаждому, кто получил извещение о зачислении в школу, но не в силах оплатить обучение,\nБлаготворительный стипендиальный фонд Лоэна поможет обрести знания.\n\nТребования к соискателям:\nНеобходимо предоставить рекомендательное письмо прихода или извещение о зачислении в школу, а также справку о доходах семьи.\n\nПодача заявления:\nОпустите рекомендательное письмо в <Highlight>местной церкви Богини Вечной Ночи</>.",
     ["诸位 笑一个吧 感谢你们帮我找到笔记"] = "Все, улыбнитесь. Спасибо, что помогли мне найти записи.",
 }

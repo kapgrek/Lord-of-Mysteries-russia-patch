@@ -262,5 +262,6 @@ return {
     ["Austin"] = "Остин",
     ["Purchase items directly after topping up Purchase items directly after topping up"] = "Покупайте товары сразу после пополнения Покупайте товары сразу после пополнения",
     ["15 minutes"] = "15 минут",
+    ["先锋团长"] = "Командир авангарда",
     ["The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",
 }

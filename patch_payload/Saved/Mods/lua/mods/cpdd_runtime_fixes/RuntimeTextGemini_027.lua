@@ -261,5 +261,13 @@ return {
     ["Previously, someone rode a bicycle and hung it on the Pulse of Life; that offending bicycle is still in the craftsman's room."] = "Раньше кто-то катался на велосипеде и повесил его на «Пульс жизни»; этот оскорбительный велосипед все еще находится в комнате мастера.",
     ["Last year, someone sent a debt collection letter with a gold wax seal. The recipient thought they had discovered an ancient treasure map and went to the agreed location with digging tools."] = "В прошлом году кто-то прислал письмо о взыскании долга с золотой сургучной печатью. Получатель подумал, что нашел древнюю карту сокровищ, и отправился в оговоренное место с инструментами для раскопок.",
     ["Witch battle - Player mood material - Sadness Blue"] = "Битва с Ведьмой — материал настроения игрока — печальный синий",
+    ["Model size increased by 60%"] = "Размер модели увеличен на 60%",
+    ["内衬上"] = "Подкладка, верх",
+    ["幽韵倾城"] = "Безмятежная красавица",
+    ["进入交易所"] = "Войти на Биржу",
+    ["心战为上·始"] = "Психологическая война · Начало",
+    ["Find <h>Sulia</> and talk to him"] = "Найти <h>Сулию</> и поговорить с ним",
+    ["The plague spreads"] = "Чума распространяется",
+    ["离开阿斯塔家"] = "Покинуть дом Асты",
     ["Tingen tourism, choose the 'Very Fun' Hotel!\n\nSpecial Tingen Travel Guide provided in the hotel\nFree admission to the wonderful circus performance at Central Plaza\nEnjoy an 80% discount at delicious restaurants with your hotel receipt!\n\nAlso: The 'Very Fun' Hotel also welcomes travelers with tight pockets,\nas long as you are willing to contribute some time or skills.\n\nInterested parties, please head to:\nWest side of College Avenue, 'Very Fun' Hotel opposite the Tingen Library!"] = "Путешествуете по Тингену? Выбирайте гостиницу «Чудесный отдых»!\n\nФирменный путеводитель по Тингену в каждом номере\nБесплатный вход на захватывающее цирковое представление на Центральной площади\nСкидка 20% в лучших ресторанах по чеку из гостиницы!\n\nКроме того: гостиница «Чудесный отдых» рада путешественникам со скромным бюджетом —\nдостаточно уделить немного времени или применить свои навыки на благо отеля.\n\nЖдем вас:\nЗападная сторона Академической авеню, напротив Тингенской библиотеки — гостиница «Чудесный отдых»!",
 }

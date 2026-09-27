@@ -260,6 +260,8 @@ return {
     ["Withered and dead, fragrance returns"] = "Увядший и мертвый, аромат возвращается",
     ["Launch three waves of Spirit World Bombardment, dealing a total of <Yellow>281</> Attack damage. The second wave applies a <HighLight>4</>-second Grievous Injury Burn, causing enemies to lose <HighLight>1%</> of their maximum health per second, and reducing incoming healing effects by <HighLight>33%</>."] = "Вызывает три волны Бомбардировки Мира Духов, нанося в сумме <Yellow>281</> ед. урона от атаки. Вторая волна накладывает Тяжелое горение на <HighLight>4</> сек., заставляя врагов терять <HighLight>1%</> от максимального здоровья в секунду и снижая получаемое исцеление на <HighLight>33%</>.",
     ["Take out <h>The Fool card</>"] = "Достаньте <h>карту Шута</>",
+    ["风尚决斗-子爵夫人"] = "Модный поединок — Виконтесса",
+    ["霁雪清仪"] = "Снежная чистота",
     ["与Npc进行对话  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог с NPC. NPC уничтожает сам себя (нельзя уничтожить игроков и общих NPC открытого мира).",
     ["哈哈哈，这下夏莉要完蛋了。"] = "Ха-ха-ха, Чарли уже заканчивает.",
     ["Judson"] = "Джадсон",

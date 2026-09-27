@@ -261,5 +261,11 @@ return {
     ["What does Bond mean?"] = "Что такое связь?",
     ["Fool's Gambit: Veteran"] = "«Гамбит Шута»: Ветеран",
     ["Spider Queen Hunting Ground"] = "Угодья паучьей королевы",
+    ["Max Health increased by 200"] = "Максимальное здоровье повышено на 200",
+    ["Defense +12 per stack, up to 4 stacks."] = "Защита +12 за стак, максимум 4 стака",
+    ["得胜是什么意思"] = "Что значит «Победа»?",
+    ["Phantom: Aurora Treasure Chest"] = "Призрак: Сундук северного сияния",
+    ["心战为上·终"] = "Психологическая война · Конец",
+    ["查看商人带来的<h>老鼠</>"] = "Осмотреть <h>крыс</>, принесённых торговцем",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
 }

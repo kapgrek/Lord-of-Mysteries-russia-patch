@@ -259,5 +259,9 @@ return {
     ["【绯红信仰】"] = "【Багряная вера】",
     ["Gain <HighLight> two 1-cost chess pieces </>, <HighLight> two 2-cost chess pieces </>, and <HighLight> one 3-cost chess piece </>."] = "Получите <HighLight> две фигуры стоимостью 1 </>, <HighLight> две фигуры стоимостью 2 </> и <HighLight> одну фигуру стоимостью 3 </>.",
     ["Auto Chess Shop"] = "Магазин Автошахмат",
+    ["前往猎城战"] = "Перейти к Битве за город",
+    ["Strategic Attributes"] = "Стратегические характеристики",
+    ["家族权益"] = "Привилегии семьи",
+    ["Check the <h>Environmental Maintenance Proposal</>"] = "Ознакомиться с <h>Обращением об охране окружающей среды</>",
     ["Ben"] = "Бен",
 }

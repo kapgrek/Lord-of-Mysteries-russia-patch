@@ -247,5 +247,10 @@ return {
     ["Bonnie: Do you know now, {{PlayerName}}?"] = "Бонни: Теперь ты знаешь, {{PlayerName}}?",
     ["I am going to be rich!"] = "Я стану богатым!",
     ["When the battle starts, each adjacent ally<HighLight></> provides 9 Defense to the piece<HighLight></>."] = "В начале боя каждый смежный союзник<HighLight></> даёт фигуре 9 ед. защиты<HighLight></>.",
+    ["The source of the foul smell in the garden is..."] = "Источник зловония в саду — это……",
+    ["成就-序列翘楚"] = "Достижение - Лучший из Последовательности",
+    ["Participation is what matters"] = "Главное — участие",
+    ["Chat with the <h> fat man </>"] = "Поговорить с <h>толстяком</>",
+    ["An aged voice"] = "Старческий голос",
     ["Selsa"] = "Сельса",
 }

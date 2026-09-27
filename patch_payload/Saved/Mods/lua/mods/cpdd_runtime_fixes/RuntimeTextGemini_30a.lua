@@ -269,5 +269,12 @@ return {
     ["Mechanism 1 - BOSS Mark Buff - Used for AI Detection Judgment"] = "Механизм 1 — усиление отметки БОСС — используется для оценки обнаружения ИИ.",
     ["愚者棋局专属名词"] = "Особые термины «Гамбита Шута»",
     ["Good Leader"] = "Хороший лидер",
+    ["刺客抵抗_数值"] = "Сопротивление Убийцы (значение)",
+    ["Scene - Golden Autumn Lake"] = "Сцена - Озеро Золотой осени",
+    ["竞技之约喊话"] = "Клич договора о состязании",
+    ["Replace current only"] = "Заменить только текущий",
+    ["安抚迪伦"] = "Pacify Dylan",
+    ["前往廷根圣赛琳娜教堂前，寻访<h>罗塞尔大帝的战争投影</>。"] = "Head to the front of Saint Selena Cathedral in Tingen to seek out <h>Emperor Roselle's War Projection</>.",
+    ["神选席位，象征着战略服征战中的至高荣誉，唯有战功卓著、为势力立下功勋的非凡者方有资格获此殊荣。席位将由会长亲自授予，以嘉奖并肩征战的功勋之士；若逾期未完成分配，系统将依据战功排名依次发放，让每一份功绩皆有所归，每一段荣耀都不被辜负。"] = "The God-Chosen Seat symbolizes the supreme honor in the Strategic Server's battles, and only Beyonders with outstanding military exploits who have made contributions to the faction are eligible for this honor. The seat will be granted by the president personally to reward the meritorious warriors who fought side-by-side; if the distribution is not completed within the time limit, the system will issue it according to the military exploit ranking, so that every achievement has a place and every piece of glory is not let down.",
     ["No update today"] = "Сегодня без обновлений",
 }

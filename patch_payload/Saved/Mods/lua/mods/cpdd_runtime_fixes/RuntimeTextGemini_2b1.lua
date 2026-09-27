@@ -260,4 +260,13 @@ return {
     ["Blood Fire Mysticism"] = "Мистицизм кровавого огня",
     ["通常伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}点，低生命目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}点"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>180%</> = {*d,F1690001,atkMin,1.8}, урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}",
     ["非凡馈赠：<HighLight>275</>点任务积分"] = "Дар судьбы: <HighLight>275</> очков заданий",
+    ["换物人格空间-占坑"] = "Пространство обмена личностей — заполнитель",
+    ["Offspring Protection Fashion Duel Activated"] = "Страж потомства: модная дуэль (активировано)",
+    ["Waist silk scarf"] = "Шёлковый шарф на поясе",
+    ["What is the effect of the Keen Hunter talent?"] = "Какой эффект у таланта «Чуткий охотник»?",
+    ["攻击+125"] = "Атака +125",
+    ["Player 2"] = "Игрок 2",
+    ["战功不足"] = "Недостаточно боевых заслуг",
+    ["Can claim %d"] = "Доступно к получению: %d",
+    ["追踪<h>阿蒙的邮差分身</>"] = "Track <h>Amon's postman avatar</>",
 }

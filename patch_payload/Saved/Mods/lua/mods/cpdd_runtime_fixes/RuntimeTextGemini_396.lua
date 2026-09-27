@@ -222,6 +222,11 @@ return {
     ["Searching separately might be faster. Sorry to trouble you."] = "Отдельный поиск может быть быстрее. Извините, что беспокою вас.",
     ["Cannot be used as a save point"] = "Невозможно использовать в качестве точки сохранения.",
     ["Brass Book special teleport trap buff"] = "Специальный бафф «Телепорт-ловушка» из латунной книги",
+    ["阵营二"] = "Фракция 2",
+    ["技能结束清理窗口和余数"] = "По окончании умения очищает окно и остаток",
+    ["雅韵流霁"] = "Изящное прояснение",
+    ["Status Effect Display Priority Settings"] = "Настройка приоритета отображения эффектов состояния",
+    ["邮差正等着你"] = "The postman is waiting for you",
     ["Hamza"] = "Хамза",
     ["……\n\nSince the beginning of July, child disappearance incidents in Tingen have occurred many times. The total number of missing persons is <Mark id=\"#159\"> thirteen </>, including five boys and eight girls.\nCurrently, three bodies have been found, and the murderer has been caught and the case closed.\nBut the autopsy determined that the causes of death were all different, belonging to three different realistic ordinary events."] = "……\n\nС начала июля в городе Тинген произошла серия исчезновений детей; общее число пропавших без вести составляет <Mark id=\"#159\"> тринадцать человек </>, в том числе пять мальчиков и восемь девочек.\nК настоящему моменту обнаружены тела трех детей, убийца арестован, и дело закрыто.\nОднако судебно-медицинская экспертиза показала разные причины смерти, относящиеся к трем не связанным между собой бытовым происшествиям.",
 }

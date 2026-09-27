@@ -230,5 +230,11 @@ return {
     ["Release a Fear Echo, dealing {*d,F1690001,atkMin,4.26} Attack damage to surrounding enemies."] = "Высвобождает эхо ужаса, нанося окружающим врагам {*d,F1690001,atkMin,4.26} ед. урона от атаки.",
     ["Wave Wall Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>277.33%</> = {*d,F1690001,atkMin,2.7733}; Lightning Strike Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>138.67%</> = {*d,F1690001,atkMin,1.3867}"] = "Урон стены волн: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>277.33%</> = {*d,F1690001,atkMin,2.7733}, урон от молнии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>138.67%</> = {*d,F1690001,atkMin,1.3867}",
     ["2-4 选秀"] = "2-4 Выбор фигур",
+    ["Morning Flower Market"] = "Утренний цветочный рынок",
+    ["Achievement - Highest Official Rank"] = "Достижение - Высший чин",
+    ["本日剩余%d次"] = "Сегодня осталось: %d",
+    ["小心搬走重物"] = "Осторожно вынести тяжёлый предмет",
+    ["收藏品投放"] = "Выпуск коллекционных предметов",
+    ["利用碎片进行<h>占卜</>"] = "Use the fragments to perform <h>divination</>",
     ["<P_Heart>（呕……）</>"] = "<P_Heart> (Ух...) </>",
 }

@@ -259,6 +259,8 @@ return {
     ["[Revival of the Great Old One]"] = "【Возрождение Древнего】",
     ["愚者棋局-天赋与英雄强化"] = "«Гамбит Шута» — таланты и усиление героев",
     ["闪烁微光的水晶球，仿佛能映出人最真实的内心。"] = "Мерцающий хрустальный шар, будто способный отразить самое истинное сердце человека.",
+    ["贴纸·观众"] = "Наклейка · Зритель",
+    ["%s喜欢你"] = "Вы нравитесь %s",
     ["我记得那里是马厩，那里是水井，那里是士兵的营房，那里开辟出了一片田地，用来种植土豆和红薯……"] = "Я помню: вон там была конюшня, там — колодец, там стояли солдатские казармы, а вон там распахали поле под картофель и батат...",
     ["Respected citizens, for your safety, please do not enter the construction zone without authorization.\n\n\nNew Addition:\nIf you have a need, please shout for help after accidentally falling into the pit.\nIf no one arrives within a quarter of an hour, please remain calm and conserve your energy.\nDo not be anxious; we will rescue you during working hours.\n\n<Note_Normal_HW>This thing is completely useless; over a dozen people have already fallen in this month.</>\n<Note_Normal_HW>Heaven knows how much trouble it is to fish these guys out! Better just send someone to guard it.</>"] = "Уважаемые горожане! В целях вашей безопасности проход на территорию строительных работ строго воспрещён.\n\n\nДополнение:\nВ случае необходимости, если вы случайно упали в котлован, громко зовите на помощь.\nЕсли в течение четверти часа никто не прибудет, сохраняйте спокойствие и берегите силы.\nНе паникуйте — мы вытащим вас в часы работы нашей бригады.\n\n<Note_Normal_HW>Эта табличка до одного места, за этот месяц туда уже больше десятка человек свалилось.</>\n<Note_Normal_HW>Одному Богу известно, сколько мороки их оттуда выуживать! Поставьте уже кого-нибудь на дежурство.</>",
 }

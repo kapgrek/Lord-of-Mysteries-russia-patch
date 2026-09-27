@@ -221,6 +221,12 @@ return {
     ["Lounge"] = "Бездельничать",
     ["Crimson Believer"] = "Багряный верующий",
     ["<HighLight>延迟提升攻击</>"] = "<HighLight>Отложенное повышение атаки</>",
+    ["场景-拉姆德古堡"] = "Сцена - Замок Ламуд",
+    ["Divination Record"] = "История гаданий",
+    ["夜幕猎手"] = "Ночной охотник",
+    ["<Green> %s </> Faction Affiliation"] = "<Green>%s</> принадлежность к фракции",
+    ["Propose a trade to the <h>merchant</>"] = "Предложить сделку <h>торговцу</>",
+    ["封印物图鉴说明"] = "Sealed Artifact Illustrated Handbook Explanation",
     ["My name is Kangxiuna, I'm a clerk at the bookstore, and my job is to stand at the door and smile at everyone.\n\nMy face is a bit stiff from smiling, so I decided to write something.\n\nToday, Inset is still that lazy self, only complaining that the bookstore business is bad.\n\nSigh, hurry up to lunchtime... lunch? Have I eaten... lunch?"] = "Меня зовут Консьена, я работаю в книжной лавке. В мои обязанности входит стоять у входа и приветливо улыбаться всем прохожим.\n\nЛицо уже совсем свело от этой улыбки, поэтому я решила немного пописать.\n\nВинсент и сегодня все такой же лодырь, только и знает, что жаловаться на плохую торговлю.\n\nЭх, поскорее бы уже обед... Обед? А я вообще... обедала?",
     ["与Npc进行对话  玩家移除任务道具（全部删除）"] = "Поговорите с NPC: Игрок удаляет квестовый предмет (удалить все).",
 }

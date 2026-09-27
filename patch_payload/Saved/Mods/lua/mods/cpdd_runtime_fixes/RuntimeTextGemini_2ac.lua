@@ -271,6 +271,11 @@ return {
     ["Player Dance Correct"] = "Игрок танцует правильно",
     ["Uses Knowledge Radiance to deal {*d,F1690001,atkMin,2.7} attack damage to all enemies. Then randomly gains <HighLight>25%</> Attack for <HighLight>6</> seconds, or immediately restores <HighLight>45</> mana."] = "Сиянием знания наносит всем врагам {*d,F1690001,atkMin,2.7} ед. урона от атаки. Затем случайно получает <HighLight>25%</> атаки на <HighLight>6</> сек. или сразу восстанавливает <HighLight>45</> ед. маны.",
     ["Randomly gain pieces with a total value of 18 Gold Coins<HighLight></>, including at least 1 4-cost piece<HighLight></>."] = "Случайным образом даёт фигуры общей стоимостью <HighLight>18 золотых монет</>, включая минимум <HighLight>1 фигуру за 4 золотых</>.",
+    ["下單"] = "Оформить заказ",
+    ["成就-军功显赫"] = "Достижение - Выдающиеся воинские заслуги",
+    ["打副本"] = "Прохождение подземелий",
+    ["Blade Unsheathed · End"] = "Клинок обнажён · Конец",
+    ["前往<h>黑伍德庄园</>"] = "Отправиться в <h>поместье Хейвуд</>",
     ["Canon"] = "Канон",
     ["完成当前步骤的必要子目标和次要子目标  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具"] = "Выполните необходимые подцели и второстепенные подцели текущего шага, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет",
 }

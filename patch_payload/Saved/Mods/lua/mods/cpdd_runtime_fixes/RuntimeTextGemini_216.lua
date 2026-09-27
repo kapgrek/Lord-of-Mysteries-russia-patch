@@ -262,5 +262,6 @@ return {
     ["惊喜礼包+"] = "Неожиданный подарочный набор+",
     ["Sentence the furthest enemy, stunning them and suppressing mana recovery."] = "Выносит приговор самому дальнему врагу, оглушая его и подавляя восстановление маны.",
     ["3-4 Draft"] = "3-4 Выбор фигур",
+    ["与<h>罗塞尔大帝的战争投影</>对话"] = "Talk to <h>Emperor Roselle's war projection</>",
     ["已完成："] = "Завершено:",
 }

@@ -228,6 +228,8 @@ return {
     ["In the folds of the cloak is an entire universe available for roaming."] = "В складках плаща – целая вселенная, доступная для странствий.",
     ["……After all, some people leave nothing behind."] = "……В конце концов, некоторые люди ничего не оставляют после себя.",
     ["Traction Spirit Pendant"] = "Кулон притяжения духов",
+    ["步步惊心"] = "Страх на каждом шагу",
+    ["Ask the <h> people around </>"] = "Расспросить <h>окружающих</>",
     ["(Large areas of gnawed marks) \n \n <Mark id=\"#157\"> May 19, 1155 </>, the eldest daughter of the <InvHighlight> Intis Republic </> was born... Roselle named his beloved daughter <Mark id=\"#157\"> Bernadette Gustav </> ... \n \n ... \n \n (Large areas of gnawed marks)"] = "　　(Обширные следы обгрызенных краев)\n\n　　<Mark id=\"#157\">19 мая 1155 года</>, родилась <InvHighlight>старшая дочь</> Интисской Республики... Розель нарек любимую дочь именем <Mark id=\"#157\">Бернадетт Густав...</>\n\n　　...\n\n　　(Обширные следы обгрызенных краев)",
     ["Atlante"] = "Атлант ·",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Собирая предмет с указанным TemplateID, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире)",

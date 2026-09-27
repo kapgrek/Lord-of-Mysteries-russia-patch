@@ -254,4 +254,8 @@ return {
     ["Damage: Attack × 270% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,2.7}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>270%</> = {*d,F1690001,atkMin,2.7}",
     ["Gain 2 Low-Level Piece Recorders<HighLight></> and 12 Gold Coins<HighLight></>."] = "Даёт <HighLight>2 Регистратора фигур низкого уровня</> и <HighLight>12 золотых монет</>.",
     ["连续发射魅影能量弹打击目标。"] = "Непрерывно выпускает в цель призрачные энергетические снаряды.",
+    ["守夜人的守护强化标记"] = "Метка усиления защиты Стража Ночи",
+    ["What is Hero Strengthening?"] = "Что такое усиление героя?",
+    ["Hero Talent"] = "Талант героя",
+    ["人气值 %d"] = "Популярность %d",
 }

@@ -262,6 +262,12 @@ return {
     ["After dealing a Critical Hit, damage increases by <HighLight>8%</> for <HighLight>5</> seconds, stacking up to <HighLight>4</> times."] = "После нанесения критического удара урон увеличивается на <HighLight>8%</> на <HighLight>5</> сек., максимум <HighLight>4</> ур.",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>365%</> = {*d,F1690001,atkMin,3.65}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>365%</> = {*d,F1690001,atkMin,3.65}",
     ["Neon Attire Special: Collection Ticket Case"] = "Экспресс нарядов · Коллекционный футляр для билетов",
+    ["What is Extraordinary Equipment?"] = "Что такое «Потустороннее снаряжение»?",
+    ["观众头像"] = "Аватар «Зритель»",
+    ["铁与血之歌（30天）"] = "Песнь железа и крови (30 дней)",
+    ["Distribute Seats"] = "Распределить места",
+    ["Use the letter to perform <h> dowsing rod divination </>"] = "Использовать письмо для <h>гадания на лозе</>",
+    ["乘车前往<h>西南区</>"] = "Take a carriage to the <h>Southwest District</>",
     ["指定地点附近使用任务道具  对象播放指定对白内容  玩家发送任务道具"] = "Используйте квестовый предмет рядом с указанным местом. Объект воспроизводит указанное содержимое диалога. Игрок отправляет квестовый предмет.",
     ["来呀来呀！"] = "Иди сюда, иди сюда!",
 }

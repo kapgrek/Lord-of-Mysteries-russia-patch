@@ -258,4 +258,10 @@ return {
     ["Fires a star-shining piercing arrow, dealing {*d,F1690001,atkMin,2.9025} attack damage to enemies in a straight line, and detonates at the target location, dealing {*d,F1690001,atkMin,0.9675} area damage."] = "Выпускает пронзающую стрелу звёздного сияния, нанося врагам на линии {*d,F1690001,atkMin,2.9025} ед. урона от атаки, а в точке цели стрела взрывается и наносит {*d,F1690001,atkMin,0.9675} ед. урона по области.",
     ["Randomly obtain two 1-star 3-cost pieces. Each is randomized independently."] = "Случайным образом даёт 2 однозвёздочные фигуры за 3 золотых. Каждая выбирается независимо.",
     ["Use the Equipment Remolder 3 times in total"] = "Использовать перековщик снаряжения 3 раза",
+    ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>284%</> = {*d,F1690001,atkMin,2.84}; Shield: <img id=\"01\" width=\"40\" height=\"40\"/> Max Health × <HighLight>7%</> = {*d,F1690001,maxHp,0.07}; Three Stars: Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>652%</> = {*d,F1690001,atkMin,6.52}; Shield: <img id=\"01\" width=\"40\" height=\"40\"/> Max Health × <HighLight>7%</> = {*d,F1690001,maxHp,0.07}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>284%</> = {*d,F1690001,atkMin,2.84} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>7%</> = {*d,F1690001,maxHp,0.07} ед. При 3 звёздах: общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>652%</> = {*d,F1690001,atkMin,6.52} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>7%</> = {*d,F1690001,maxHp,0.07} ед.",
+    ["Silent Tears"] = "Безмолвные слёзы",
+    ["攻击提高30%"] = "Атака повышена на 30%",
+    ["Historical Glory"] = "Историческая слава",
+    ["褪色"] = "Выцветание",
+    ["“工人”"] = "«Рабочий»",
 }

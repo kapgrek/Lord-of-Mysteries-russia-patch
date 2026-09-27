@@ -249,4 +249,9 @@ return {
     ["A <h>doll</> has been left on the ground"] = "На земле осталась <h>кукла</>",
     ["Strangles enemies in front with spider limbs, dealing {*d,F1690001,atkMin,2} attack damage. While casting, restores <HighLight>20%</> of self's max health and increases Defense by <HighLight>30</> for <HighLight>4</> seconds."] = "Душит врагов впереди паучьими лапами, нанося {*d,F1690001,atkMin,2} ед. урона от атаки. При применении восстанавливает <HighLight>20%</> макс. здоровья и повышает защиту на <HighLight>30</> на <HighLight>4</> сек.",
     ["Swing Blood Shadow Tentacles to attack nearby targets."] = "Атакует ближайшие цели кровавыми теневыми щупальцами.",
+    ["Hunting City Battle Redemption Box"] = "Ящик повторной выдачи: Битва «Охота на город»",
+    ["Pre-order"] = "Предзаказ",
+    ["Special Drink Menu"] = "Специальное меню напитков",
+    ["Dine with Milly"] = "Поужинать с Милли",
+    ["询问周围的人"] = "Расспросить окружающих",
 }

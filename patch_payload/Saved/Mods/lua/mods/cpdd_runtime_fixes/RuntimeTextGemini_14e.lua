@@ -278,6 +278,11 @@ return {
     ["2 [Spellcasting] gains an additional <HighLight>15%</> Attack, and each time a skill is cast: self gains <HighLight>1%</> Attack."] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
     ["<HighLight>60%</> Max Health Shield, <HighLight>20%</> Damage Reduction."] = "Щит в размере <HighLight>60%</> от макс. здоровья, <HighLight>20%</> снижения урона.",
     ["Bite the target."] = "Кусает цель.",
+    ["Palace nectar wine, one hundred and eight a cup"] = "Дворцовое нефритовое вино, сто восемьдесят за чашку",
+    ["Day at the Castle"] = "День в замке",
+    ["Rapidly reduce sanity"] = "Быстро снижает рассудок",
+    ["Achievement - Pillar of the Army"] = "Достижение - Опора армии",
+    ["记录笔记"] = "Сделать запись в дневнике",
     ["不能，我们哪也不去。"] = "Нет, мы никуда не пойдем.",
     ["采集指定TemplateID的采集物  对象播放指定对白内容"] = "Собрать элементы с указанным TemplateID. Объект воспроизводит указанный диалог.",
 }

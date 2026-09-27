@@ -276,4 +276,8 @@ return {
     ["The thorn of chaos that craves the grooming of the Power of Order"] = "Шип хаоса, жаждущий ухода за Силой Порядка.",
     ["Fine Equipment Chest"] = "Ларец отличного снаряжения",
     ["Sweep with the scythe to heavily damage enemies with low health."] = "Взмахом косы тяжело ранит врагов с низким здоровьем.",
+    ["Id(天赋树ID)"] = "Id (ID древа талантов)",
+    ["状态切换压力板"] = "Нажимная плита переключения состояния",
+    ["Sleeve - One"] = "Рукав 1",
+    ["Perfumer"] = "Парфюмер",
 }

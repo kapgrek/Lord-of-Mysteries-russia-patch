@@ -241,5 +241,10 @@ return {
     ["Very Old Poster 1"] = "Очень старый плакат 1",
     ["Partner Old Neil Skill - Debt Repayment Explosion Tiers 4-5 Damage 3"] = "Навык партнера Старина Нил - Взрыв погашения долга Уровни 4-5, Урон 3",
     ["45% Max Health Shield (3-piece tier)."] = "Щит на 45% макс. здоровья (порог 3 предметов)",
+    ["Riel Bieber Refuse Fashion Duel"] = "Риэл Бибер: отказ от модной дуэли",
+    ["大臂"] = "Плечо",
+    ["Head to the ticket booth"] = "Отправиться к билетной кассе",
+    ["和年轻男子进入<h>房间</>"] = "Войти в <h>комнату</> вместе с молодым человеком",
+    ["Honor: Skull of a Loyal Dog"] = "Honor: Skull of a Loyal Dog",
     ["Deidre"] = "Дейдре",
 }

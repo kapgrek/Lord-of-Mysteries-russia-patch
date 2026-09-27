@@ -256,6 +256,12 @@ return {
     ["Gray Fog Blessing"] = "Благословение Серого Тумана",
     ["When he returns, I will give him a piece of my mind!"] = "Когда он вернётся, я ему всё выскажу!",
     ["Bombards enemy targets in succession and deals damage to enemies around the target."] = "Раз за разом обстреливает цели и наносит урон врагам вокруг них.",
+    ["强化灼烧与重伤"] = "Усиление ожога и тяжёлого ранения",
+    ["拒绝_先祖铠甲"] = "Отказ: Доспехи предков",
+    ["Mission of Light"] = "Миссия света",
+    ["The One Who Entered the Game"] = "Тот, кто вошёл в игру",
+    ["长官"] = "Офицер",
+    ["Explain the requirements for the \"ritual\""] = "Объяснить, что нужно для «ритуала»",
     ["一\n次\n机\n会"] = "Один\n\nшанс",
     ["Reike"] = "Рейке",
 }

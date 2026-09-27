@@ -254,6 +254,9 @@ return {
     ["Issues a final edict, dealing {*d,F1690001,atkMin,30} Attack damage to all enemies and reducing their Mana regeneration by <HighLight>10</> per second for <HighLight>10</> seconds. Subsequently, the unit's own Mana is restored to its maximum."] = "Провозглашает последний указ: наносит всем врагам {*d,F1690001,atkMin,30} ед. урона от атаки и на <HighLight>10</> сек. снижает их восстановление маны на <HighLight>10</> в секунду. Затем мана фигуры восполняется до максимума.",
     ["Win the Fool's Gambit 1 time."] = "Победить в «Гамбите Шута» 1 раз.",
     ["Fire a Knowledge Bullet to attack distant targets."] = "Выпускает Снаряд знаний в дальние цели.",
+    ["前方7.5格扇形"] = "Сектор 7,5 клетки впереди",
+    ["初立军功"] = "Первые воинские заслуги",
+    ["Kill the monster that has lost control"] = "Убить монстра в состоянии Потери Контроля",
     ["可算活着回来了，今晚得好好找个“安慰”。"] = "Наконец-то вернулся живым, сегодня вечером нужно найти себе «утешение».",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное место. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

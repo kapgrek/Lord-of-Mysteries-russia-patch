@@ -252,6 +252,10 @@ return {
     ["Perceive the Spirit World and space, then open a Portal; an Apprentice can travel through this Portal."] = "Ощущая духовный мир и пространство, открывает портал, через который может перемещаться Ученик.",
     ["Gain <HighLight> one Sealed Equipment Casket </>, and randomly gain <HighLight> one 5-cost chess piece </>."] = "Даёт <HighLight> один запечатанный ларец снаряжения </>, и случайным образом даёт <HighLight> одну фигуру за 5 золотых </>.",
     ["Spirit Body Connection"] = "Связь с духовным телом",
+    ["热伯爵红茶"] = "Горячий чай \"Эрл Грей\"",
+    ["购买投骰皮肤"] = "Купить скин для кубика",
+    ["Settlement Period"] = "Период расчёта",
+    ["陆斯恩"] = "Люсьен",
     ["Lelia"] = "Леля",
     ["完成当前步骤的所有子目标  玩家变身开始  玩家播放剧情对话"] = "Выполните все подцели текущего шага; начинается трансформация игрока; игрок воспроизводит сюжетный диалог.",
 }

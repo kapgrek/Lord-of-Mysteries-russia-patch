@@ -266,6 +266,8 @@ return {
     ["Death Carnival"] = "Карнавал смерти",
     ["Continuously swing Crimson Sword Qi to sweep enemies in front."] = "Раз за разом выпускает волны алой энергии меча, сметая врагов впереди.",
     ["Unlocks on September 25"] = "Откроется 25 сентября",
+    ["八人"] = "Восемь игроков",
+    ["Make an offer"] = "Make an offer",
     ["Maxine"] = "Максин",
     ["头好痛，方才不是还在湖里游泳，怎么来到这样的奇异的空间......"] = "Голова болит... Разве я только что не плавала в озере? Как я оказался в таком странном месте...?",
     ["At the start of player combat:\r\nRestore 2 Health to the player."] = "В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку.",

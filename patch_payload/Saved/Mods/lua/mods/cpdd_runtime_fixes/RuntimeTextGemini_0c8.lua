@@ -250,4 +250,10 @@ return {
     ["General Chair Sit (Chair)"] = "Генеральный председатель Сит (председатель)",
     ["总金币"] = "Всего монет",
     ["Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>2000%</> = {*d,F1690001,atkMin,20}; Black Flame Damage per second: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}. Killing the target selected by this ultimate skill restores all Mana."] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, урон Чёрного пламени в секунду: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}. Убийство цели этого навыка полностью восстанавливает ману",
+    ["Basket"] = "Корзина",
+    ["Fashion Duel - Offspring Protection"] = "Модный поединок — Защита потомства",
+    ["Waist bag"] = "Поясная сумка",
+    ["Water Theater Ticket Inspector"] = "Контролёр Водного театра",
+    ["GVG跨服势力第一周积分"] = "Межсерверные очки фракции GVG за 1-ю неделю",
+    ["Golden Autumn Trade Wind"] = "Золотой осенний ветер",
 }

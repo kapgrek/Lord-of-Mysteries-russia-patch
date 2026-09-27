@@ -252,5 +252,9 @@ return {
     ["Defense reduced by <HighLight>16%</> for <HighLight>15</> seconds. Randomly select <HighLight>1</> enemy piece defeated by us in the previous round, charm it with the Witch's Charm, and add it to our side as a <HighLight>1</>-star unit."] = "Защита снижена на <HighLight>16%</> на <HighLight>15</> сек. Каждый раунд случайная <HighLight>1</> вражеская фигура, побеждённая вами в прошлом бою, поддаётся Чарам ведьмы и переходит на вашу сторону <HighLight>1</>-звёздочной.",
     ["Extraordinary Quest Selection: <HighLight>%d</> seconds"] = "Выбор Потустороннего задания: <HighLight>%d</> сек.",
     ["上阵2星梅林·赫尔墨斯进行1场战斗"] = "Выставить 2-звёздочного Мерлина Гермеса и провести 1 бой",
+    ["Mystery Pryer Strategic Skill Tier 5"] = "Жрец Тайн — Стратегический навык, 5 ступень",
+    ["Sylvia Fashion Duel"] = "Сильвия: модная дуэль",
+    ["你怎么——呕——"] = "Как ты——уф——",
+    ["Reversal 1 - Deduction or Trading"] = "Поворот 1 — Дедукция или обмен",
     ["播放Dialogue  玩家传送到位面"] = "Играйте в диалог, игрок телепортируется в самолет.",
 }

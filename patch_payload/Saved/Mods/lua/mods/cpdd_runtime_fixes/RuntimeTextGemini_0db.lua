@@ -245,6 +245,11 @@ return {
     ["[Spellcraft]额外获得<HighLight>35%</>攻击力，且每次施法：自身获得<HighLight>1.5%</>攻击力。"] = "[Колдовство] дает дополнительно <HighLight>35%</> атаки, и при каждом применении навыка: сам персонаж получает <HighLight>1.5%</> атаки.",
     ["Edit failed: Piece already has this Resonance."] = "Не удалось изменить: у фигуры уже есть этот резонанс",
     ["狂乱连斩，连续打击目标。"] = "Неистовая серия ударов, раз за разом поражающая цель.",
+    ["Before the Storm"] = "Перед бурей",
+    ["Edge of leg side"] = "Край боковой части ноги",
+    ["方案覆盖成功"] = "Схема успешно перезаписана",
+    ["Distribute"] = "Распределить",
+    ["寻找团长"] = "Найти руководителя труппы",
     ["嘻嘻，塞西尔，别再逗我啦！你认真的样子……真让人分不清是玩笑还是真的了。"] = "Хи-хи, Сесил, хватит меня дразнить! То, как ты выглядишь таким серьезным... действительно, трудно понять, шутка это или правда.",
     ["I used a bottle of milk you gave me to get the neighbor's child to write this for me. \n Please forgive my presumption; your appearance has become the thing I look forward to most every week—a friend made of fragrance. \n I don't know your name, and I will never know your appearance, but I hope to have a chance to get to know you. \n\n If you are willing, could you stay a little longer next time you come? Let me offer you a glass of water and ask your name?"] = "　　Я отдала бутылку молока, полученную от вас, чтобы соседский ребенок записал эти строки под мою диктовку.\n　　Простите мне эту дерзость, но ваше появление стало для меня главным ожиданием каждой недели — друг, сотканный из благоухания.\n　　Я не знаю вашего имени и никогда не увижу вашего лица, но всем сердцем надеюсь познакомиться с вами поближе.\n\n　　Если вы не против, задержитесь ненадолго в следующий раз, когда придете. Позвольте мне угостить вас стаканом воды и спросить ваше имя.",
 }

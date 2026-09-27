@@ -255,6 +255,8 @@ return {
     ["Triggers stagnation every 2 seconds, 5-meter radius"] = "Вызывает стагнацию каждые 2 секунды, в радиусе 5 метров.",
     ["Viscountess Idle Body Effect"] = "Эффект праздного тела виконтессы",
     ["Time Sand Progress"] = "Прогресс песка времени",
+    ["URL"] = "Адрес сайта",
+    ["Evil Defeat"] = "Поражение зла",
     [".p4config and"] = ".p4config и",
     ["Aist"] = "Аист",
 }

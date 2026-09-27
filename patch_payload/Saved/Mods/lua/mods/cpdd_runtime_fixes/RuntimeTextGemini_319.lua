@@ -265,5 +265,9 @@ return {
     ["Where is the entrance to Fool's Gambit?"] = "Где вход в «Гамбит Шута»?",
     ["吃块蛋糕"] = "Съесть кусочек торта",
     ["<HighLight> Increases Attack range </>"] = "<HighLight>Повышает дальность атаки</>",
+    ["ᴘᴛᴍf¸cи"] = "ᴘᴛᴍf¸cи",
+    ["Head to Four-Way League (Not Started)"] = "Перейти в Лигу четырёх сторон (не открыто)",
+    ["特别酒单"] = "Специальное меню напитков",
+    ["Compliment the weather"] = "Compliment the weather",
     ["Cullen"] = "Каллен",
 }

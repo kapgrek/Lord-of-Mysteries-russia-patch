@@ -247,6 +247,10 @@ return {
     ["<CostRed>{1,2, (Brand has expired)}</> Pierce increased by <Mark>120</>.\nDoes not take effect when the <Mark>Spirit and Knowledge Echo</> set is active."] = "<CostRed>{1,2,(Клеймо утратило силу)}</>Пронзание повышается на <Mark>120</>.\nНе действует при активации комплекта <Mark>Эхо духа и знаний</>.",
     ["Gain the [Crimson Believer] Resonance."] = "Даёт резонанс [Багровые верующие].",
     ["Consume <HighLight>%s</> Quest Points to obtain the following rewards"] = "Потратьте <HighLight>%s</> очков заданий, чтобы получить награды:",
+    ["Under One Person"] = "Одарённые под властью одного",
+    ["军中砥柱"] = "Опора армии",
+    ["How do I play the Strategic Server's Final Hunt?"] = "Как играть в «Финальную охоту» на стратегическом сервере?",
+    ["两个检视子目标"] = "Two inspection sub-objectives",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

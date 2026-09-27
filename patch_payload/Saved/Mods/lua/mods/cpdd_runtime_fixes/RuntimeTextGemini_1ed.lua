@@ -258,6 +258,13 @@ return {
     ["Randomly gain pieces with a total value of 26 Gold Coins<HighLight></>, including at least 1 5-cost piece<HighLight></>."] = "Случайным образом даёт фигуры общей стоимостью <HighLight>26 золотых монет</>, включая минимум <HighLight>1 фигуру за 5 золотых</>.",
     ["原初黑焰"] = "Изначальное чёрное пламя",
     ["连续挥击目标。"] = "Раз за разом бьёт цель.",
+    ["Relying on"] = "Полагаясь на",
+    ["Full Set"] = "Полный комплект",
+    ["Personal Information"] = "Личная информация",
+    ["晚上"] = "Ночь",
+    ["Baboon Brother's Fur"] = "Шерсть братца-павиана",
+    ["守护的黎明"] = "Рассвет защиты",
+    ["Rare Honey Ale"] = "Rare Honey Ale",
     ["Pine needle oil side 😡 Wow, it smells so good 😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["Nolan"] = "Нолан",
 }

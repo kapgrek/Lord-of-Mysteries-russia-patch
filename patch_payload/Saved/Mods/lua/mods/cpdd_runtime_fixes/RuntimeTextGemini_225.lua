@@ -243,6 +243,7 @@ return {
     ["Carefully observe around the <h>flower stand</>"] = "Внимательно осмотрите место вокруг <h>«подставки для цветов»</>",
     ["State identity"] = "Государственная идентичность",
     ["Complete the quest to gain 200 Hunt progress, refreshed daily at 8:00."] = "Выполните задание, чтобы получить 200 ед. прогресса охоты. Обновляется ежедневно в 8:00.",
+    ["Distinguished Military Merit"] = "Прославленные заслуги",
     ["...So that's how it is. Steam Palace, you should be sleeping in history just like me, but why have you suddenly reappeared in the world? Who... wants to use my power, my aura..."] = "...Так вот как оно есть. Steam Palace, ты, как и я, должен был бы спать в истории, но почему ты вдруг снова появился в мире? Кто... хочет использовать мою силу, мою ауру...",
     ["Complete all sub-goals of current step  Player plays speech text visible only to self"] = "Выполните все подцели текущего шага. Игрок воспроизводит речевой текст, видимый только ему самому.",
     ["这……不太好说出口。"] = "Это... нелегко сказать вслух.",

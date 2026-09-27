@@ -270,6 +270,8 @@ return {
     ["Accumulated 5 Gold Coin interest"] = "Получить 5 золотых монет процентов",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>660%</> = {*d,F1690001,atkMin,6.6}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>660%</> = {*d,F1690001,atkMin,6.6}",
     ["<HighLight>残血时获得护盾</>"] = "<HighLight>Щит при низком здоровье</>",
+    ["嘎达达嘎"] = "Га-да-да-га",
+    ["Belt - One"] = "Пояс 1",
     ["She is undoubtedly the most eye-catching person in the room. Her features are so exquisite they are almost \n unreal, and her gray-green eyes carry a casual detachment \n—as if she is enjoying this ball, yet also watching everyone coldly from the sidelines."] = "Она, бесспорно, привлекала к себе больше всего внимания. Черты ее лица были настолько изысканны, что казались почти нереальными, а в серо-зеленых глазах читалась легкая отрешенность — словно она наслаждалась балом, но в то же время безучастно взирала на окружающих со стороны.",
     ["Daxton"] = "Дакстон",
     ["任务自定义事件  玩家移除任务道具（全部删除）  传送回大世界场景"] = "Пользовательское событие квеста, игрок удаляет квестовый предмет (удалить все), телепортируется обратно на основную мировую сцену.",

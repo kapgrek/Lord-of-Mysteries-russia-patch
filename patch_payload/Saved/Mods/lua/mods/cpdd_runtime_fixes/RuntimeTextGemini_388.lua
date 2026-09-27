@@ -252,4 +252,10 @@ return {
     ["You are about to ride your bike to take the newsboy to the next quest location, experiencing the local customs of Tingen's streets, which will take about 1-2 minutes.\n Do you want to choose to travel quickly?"] = "Вы собираетесь покататься на велосипеде, чтобы отвезти газетчика к следующему месту миссии и познакомиться с обычаями и обычаями рынка Тинген. Это займет около 1-2 минут. \n Хотите побыстрее?",
     ["Relying on your own spirituality and using a pendulum containing natural spirituality as a medium, perceive the revelations of fate.\nThe pendulum's direction and speed correspond to different intensities of guidance:\n     ▸Rapid clockwise swing: Strong affirmation, development is smooth\n     ▸Slow clockwise swing: Weak affirmation, development is steady\n     ▸Rapid counter-clockwise swing: Strong negation, huge risk\n     ▸Slow counter-clockwise swing: Weak negation, minor setbacks\n     ▸Stillness: No clear revelation, or interference from fate"] = "Опираясь на собственную духовность и используя маятник с природной духовностью в качестве проводника, считывайте откровения судьбы.\nНаправление и скорость вращения маятника указывают на силу предзнаменования:\n     ▸ Быстрое вращение по часовой стрелке — решительное «да», всё пройдёт гладко\n     ▸ Медленное вращение по часовой стрелке — слабое «да», спокойное развитие событий\n     ▸ Быстрое вращение против часовой стрелки — категорическое «нет», огромный риск\n     ▸ Медленное вращение против часовой стрелки — слабое «нет», небольшие трудности\n     ▸ Неподвижность — нет ясного ответа либо вмешательство сил судьбы",
     ["甲鳞之秘"] = "Тайна чешуйчатой брони",
+    ["刀光剑影·终"] = "Отблески клинков · Конец",
+    ["Story Mode Large Appearance Display"] = "Показ крупных моделей в сюжетном режиме",
+    ["Settlement time for this period: %s"] = "Время расчёта этого периода: %s",
+    ["仅申请家族可见"] = "Видно только подавшим заявку в семью",
+    ["Remaining direct drop counts"] = "Осталось прямых выпадений",
+    ["Go over and ask Dylan"] = "Подойти и спросить Дилана",
 }

@@ -271,6 +271,8 @@ return {
     ["<HighLight> Adds damage and Healing Reduction </>"] = "<HighLight>Дополнительный урон и снижение лечения</>",
     ["A Sonic Impact hits the front, providing a Shield for nearby allies."] = "Звуковая волна бьёт вперёд и даёт щит союзникам рядом.",
     ["霓裳专列·珍藏票匣"] = "Экспресс нарядов · Коллекционный футляр для билетов",
+    ["参加宴席"] = "Участвовать в пиршестве",
+    ["荒野血刃"] = "Wilderness Blood Blade",
     ["Kaile"] = "Кайле",
     ["Set sail, great navigator Roselle Columbus Magellan Gustav, and go verify your hypothesis!"] = "Отправляйтесь в плавание, великий мореплаватель Розель Колумб Магеллан Густав, и отправляйтесь проверить свою гипотезу!",
     ["Misael"] = "Мисаэль",

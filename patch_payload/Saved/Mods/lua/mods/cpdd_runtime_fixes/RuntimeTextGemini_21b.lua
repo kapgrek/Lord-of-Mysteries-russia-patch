@@ -268,6 +268,8 @@ return {
     ["At the start of combat, for <HighLight> every ally chess piece in the first row </>, the entire team gains <HighLight> 50 Health </>."] = "В начале боя за <HighLight> каждую союзную фигуру в первом ряду </> вся команда получает <HighLight> 50 ед. здоровья </>.",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>300%</> = {*d,F1690001,atkMin,3}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>300%</> = {*d,F1690001,atkMin,3}",
     ["进入霸体并连续挥砍周围敌人。"] = "Входит в состояние суперброни и наносит серию рубящих ударов по окружающим врагам.",
+    ["Achievement - Battle Merit Bestowed"] = "Достижение - Обретение боевых заслуг",
+    ["Something is making a sound in your pocket"] = "В кармане что-то звенит",
     ["Ava"] = "Эва",
     ["Teresa"] = "Тереза",
     ["快，趁温热再泡一次冰水，然后开始调味，再静置十五分钟……"] = "Быстро замочите его еще раз в ледяной воде, пока он еще теплый, затем начните приправлять его и оставьте на пятнадцать минут...",

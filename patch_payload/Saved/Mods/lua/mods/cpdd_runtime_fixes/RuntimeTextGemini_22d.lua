@@ -275,5 +275,9 @@ return {
     ["Fool's Gambit: Advancement"] = "«Гамбит Шута»: Рост",
     ["Rank in the top 100 nationally for weekly wins in Fool's Gambit"] = "Войти в топ-100 страны по числу побед за неделю в «Гамбите Шута»",
     ["随机基础装备"] = "Случайное базовое снаряжение",
+    ["“金狼”查理"] = "«Золотой волк» Чарли",
+    ["Achievement - War Declaration Blade · Strategic Server"] = "Достижение - Клинок объявления войны · Стратегический сервер",
+    ["战略服巨龙周几刷新"] = "В какой день недели появляется Гигантский дракон на стратегическом сервере?",
+    ["Tip Hat"] = "Приподнять шляпу",
     ["Converse with NPC  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Разговор с NPC Объект воспроизводит указанный контент диалога NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

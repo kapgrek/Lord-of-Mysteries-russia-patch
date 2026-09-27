@@ -237,6 +237,13 @@ return {
     ["Enter the Chess Game+"] = "Войти в шахматную партию+",
     ["的血量(<HighLight>%d</>)"] = ": здоровье (<HighLight>%d</>)",
     ["引动巨龙吐息，覆盖前方大范围敌人并造成灼烧。"] = "Вызывает дыхание дракона, накрывая большую область впереди и поджигая врагов.",
+    ["The Emperor's Return · Final Challenge"] = "Возвращение Императора · Финальное испытание",
+    ["Boss Dummy"] = "Манекен босса",
+    ["With gratitude\n Suliya"] = "С благодарностью\nСулия",
+    ["Give the letter to <h> Pagnia </>"] = "Передать письмо <h>Паркине</>",
+    ["这里像在举办宴会"] = "Похоже, здесь проходит банкет",
+    ["网络异常，请稍后重试"] = "Network error; please try again later.",
+    ["Monetary temptation"] = "Monetary temptation",
     ["Alowen"] = "Алоуэн",
     ["Miguel"] = "Мигель",
 }

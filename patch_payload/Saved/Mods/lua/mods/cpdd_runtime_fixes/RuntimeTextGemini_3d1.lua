@@ -255,4 +255,7 @@ return {
     ["回到选将区"] = "Вернуться к выбору фигур",
     ["<HighLight>残血解控隐匿</>"] = "<HighLight>При низком здоровье снимает контроль и скрывает</>",
     ["Heart-Speak Interpretation"] = "Толкование голоса сердца",
+    ["Misfortune Water Giant Turtle Fashion Duel Activated"] = "Гигантская черепаха проклятых вод: модная дуэль (активировано)",
+    ["%s（%s）"] = "%s（%s）",
+    ["Retrieve the ticket snatched away by the parrot"] = "Вернуть билет, украденный попугаем",
 }

@@ -255,5 +255,8 @@ return {
     ["Block increased by <Yellow>*d</>."] = "Блок увеличен на <Yellow>*d</>.",
     ["Activate at least 4 types of Resonance and complete 1 combat"] = "Провести 1 бой, активировав минимум 4 резонанса одновременно",
     ["暂未激活任何共鸣"] = "Резонансы не активированы",
+    ["基础属性：法力恢复+4"] = "Базовые характеристики: Восстановление маны +4",
+    ["非凡远击怎么玩"] = "Как играть за «Потустороннего дальнобойщика»?",
+    ["Bonnie's Lightning"] = "Молния Бонни",
     ["Go to specified Trigger location  Player calls animation of time passing  Delayed execution  Player plays speech text visible only to self"] = "Перейти к указанному местоположению триггера. Игрок вызывает анимацию течения времени. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только ему самому.",
 }

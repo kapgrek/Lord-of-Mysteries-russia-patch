@@ -270,5 +270,10 @@ return {
     ["Resonance: 7 Extraordinary World | 1 Death Consul | 4 Arcane; Main Carry: Merlin Hermes 3★, Azik Eggers 2★ | Rare · Sage's Spirit Ring, Proof of Covenant; Main Tank: Rock King 3★, Yodora 2★ | Rare · Bulwark War Helm; Strategy: Chase 3★ for Merlin Hermes and Rock; Extraordinary growth, Arcane strengthens mana regeneration."] = "Резонансы: 7 Потусторонний мир | 1 Консул смерти | 4 Тайное знание; основной урон: Мерлин Гермес 3★, Азик Эггерс 2★ | Редкое · Духовное кольцо Мудреца, Доказательство завета; основной танк: Рок Кинг 3★, Юдора 2★ | Редкое · Боевой шлем Оплота; тактика: доведите Мерлина Гермеса и Рока до 3★; развивайтесь через Потусторонний мир, Тайное знание ускоряет восстановление маны",
     ["阵容保存/替换"] = "Сохранить/заменить состав",
     ["Resonance: Forsaken Land of the Gods·6 | Long-Range Strike·2 | Tarot Club·2\nMain DPS: Bow Knight 3★, Fors 3★\nMain Tank: Derrick 3★, Giant Axe Knight 3★\nStrategy: Fors, Derrick, Giant Axe Knight chase 3★; stack Health in Forsaken Land, Long-Range Strike supplements output"] = "Резонансы: Земли, отвергнутые Богами·6 | Дальнобойный удар·2 | Клуб Таро·2\nОсновной урон: Рыцарь-лучник 3★, Форс 3★\nОсновной танк: Деррик 3★, Рыцарь с секирой 3★\nТактика: доведите Форс, Деррика и Рыцаря с секирой до 3★; Отвергнутые накапливают здоровье, Дальнобойный удар добавляет урон",
+    ["Tingen Witch"] = "Демоница Тингена",
+    ["Appearance: Dancing King Baboon Brother"] = "Внешность: Король танца Бабуин",
+    ["Version 1.2 Survey Questionnaire"] = "Опросник по версии 1.2",
+    ["About yourself"] = "О себе",
+    ["Chat with <h> Susie </>"] = "Поговорить со <h>Сьюзи</>",
     ["与人脉完成%d/50次参演玩法。"] = "Выполните действия %d/50 Performance с контактами.",
 }

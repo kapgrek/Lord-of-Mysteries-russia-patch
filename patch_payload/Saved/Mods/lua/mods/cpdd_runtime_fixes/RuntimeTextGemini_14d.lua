@@ -263,5 +263,7 @@ return {
     ["First Glimpse of Mystery"] = "Первый взгляд на тайну",
     ["Launch three consecutive slashes forward, dealing a total of {*d,F1690001,atkMin,5.75} Attack damage."] = "Наносит вперёд три рассекающих удара подряд, в сумме {*d,F1690001,atkMin,5.75} ед. урона от атаки.",
     ["The first impact pulls enemies to the center of the area; the second impact causes a Stun."] = "Первый удар стягивает врагов к центру области, второй оглушает.",
+    ["建模"] = "Моделирование",
+    ["Chat with Emma"] = "Поболтать с Эммой",
     ["使用指定道具  玩家播放仅自己可见的说话文本"] = "Используя специальный реквизит, игроки воспроизводят говорящий текст, который виден только им самим.",
 }

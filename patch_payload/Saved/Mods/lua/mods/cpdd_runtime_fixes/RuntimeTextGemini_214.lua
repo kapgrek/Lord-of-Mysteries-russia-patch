@@ -258,4 +258,7 @@ return {
     ["The %d round of the Club Brawl you signed up for is about to begin. You can head to the <HyperLink stylename=\"Chat_Hyperlink\" u=\"jump=2000012\"> brawl battlefield [Click to Go] </> to view details."] = "Скоро начнется раунд %d Клубной потасовки, на которую вы подписались. Вы можете перейти на поле битвы <HyperLink stylename=\"Chat_Hyperlink\" u=\"jump=2000012\"> [Click to Go] </>, чтобы просмотреть подробности.",
     ["Can be used after reaching Acting Level 70. Restores 20 Health per second for 60 seconds."] = "Можно использовать после достижения 70-го уровня действия. Восстанавливает 20 единиц здоровья в секунду в течение 60 сек..",
     ["Wrathful Service"] = "Служение гнева",
+    ["装备任务2"] = "Задание снаряжения 2",
+    ["收<h>菜心</>"] = "Собрать <h>чойсам</>",
+    ["分析现状"] = "Проанализировать ситуацию",
 }

@@ -282,6 +282,11 @@ return {
     ["Divinity Burst"] = "Всплеск божественности",
     ["<HighLight> Allies restore Mana </>"] = "<HighLight>Союзники восстанавливают ману</>",
     ["Simplicity is the Truth"] = "Истина в простоте",
+    ["自研"] = "Собственная разработка",
+    ["刺客专防"] = "Спецзащита Убийцы",
+    ["Believer Number One Refuse Fashion Duel"] = "Верующий №1: отказ от модной дуэли",
+    ["Anchoring"] = "Закрепление",
+    ["<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>100</>. While in combat, increases the entire team's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>100</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["Hazely"] = "туманный",
     ["【岩石】"] = "【Скала】",
 }

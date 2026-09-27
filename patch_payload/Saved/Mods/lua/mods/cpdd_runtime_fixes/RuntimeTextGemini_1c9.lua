@@ -290,5 +290,12 @@ return {
     ["Equip to gain the [Spectator] bond."] = "Экипируйте, чтобы получить резонанс [Зритель].",
     ["走近查看篮子里的贺卡"] = "Подход к просмотру открытки в корзине",
     ["Jump and Ground Fracture, dealing {*d,F1690001,atkMin,2.15} Attack damage to surrounding enemies and stunning them for <HighLight>1</> seconds."] = "В прыжке раскалывает землю, нанося окружающим врагам {*d,F1690001,atkMin,2.15} ед. урона от атаки и оглушая их на <HighLight>1</> сек.",
+    ["Died for Love"] = "Умереть от любви",
+    ["What is the draft round?"] = "Что такое раунд выбора героя?",
+    ["四方联赛圣名组补领礼盒"] = "Ящик повторной выдачи: Лига четырёх сторон — группа «Святое имя»",
+    ["Black Throne"] = "Чёрный трон",
+    ["Follow the trio to the vegetable patch"] = "Последовать за троицей на огород",
+    ["给钱问问情况"] = "Дать денег и расспросить о ситуации",
+    ["Explore the \"City of Cities\""] = "Исследовать \"Город Городов\"",
     ["Ronan"] = "Ронан",
 }

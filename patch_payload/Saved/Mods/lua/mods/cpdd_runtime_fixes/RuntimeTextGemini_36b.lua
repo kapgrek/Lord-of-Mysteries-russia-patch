@@ -269,4 +269,11 @@ return {
     ["Ray Bieber has survived a total of 3 combat rounds"] = "Рэй Бибер пережил 3 раунда боя",
     ["随机获得5个二星5费棋子。每个独立随机。"] = "Случайным образом даёт 5 двухзвёздочных фигур за 5 золотых. Каждая выбирается независимо.",
     ["\"律令师\"休·迪尔查"] = "«Адвокат» Сио Дереча",
+    ["Light a fire"] = "Дай прикурить",
+    ["拒绝_子嗣守护"] = "Отказ: Страж потомства",
+    ["<CostRed>{1,2, (Brand Expired) }</>Crit rate increased by <Mark>120</>. After entering combat, Crit rate increases further; every <Mark>5</> seconds, Crit rate increases by <Mark>10</>, up to a maximum additional increase of <Mark>80</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Критический удар повышается на <Mark>120</>. После вступления в бой критический удар дополнительно повышается: каждые <Mark>5</> сек. критический удар повышается на <Mark>10</>, максимальное дополнительное повышение — <Mark>80</>.\nНе действует при активации сета <Mark>Клятва железа и крови</>.",
+    ["How do I light a cigarette?"] = "Как прикурить?",
+    ["Metamorphosis of Beauty"] = "Преображение красоты",
+    ["观察艾玛的状态"] = "Понаблюдать за состоянием Эммы",
+    ["请完善必填信息后发布"] = "Please complete the required information before publishing.",
 }

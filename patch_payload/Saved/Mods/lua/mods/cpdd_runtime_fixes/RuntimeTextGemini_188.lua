@@ -234,4 +234,8 @@ return {
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>162%</> = {*d,F1690001,atkMin,1.62}点，治疗：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>16%</> = {*d,F1690001,maxHp,0.16}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>162%</> = {*d,F1690001,atkMin,1.62}, исцеление: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>16%</> = {*d,F1690001,maxHp,0.16}",
     ["How to start Fool's Gambit"] = "Как начать «Гамбит Шута»",
     ["Release a Mourning Shock, damaging the target and surrounding enemies."] = "Выпускает Скорбный удар, раня цель и врагов вокруг неё.",
+    ["Marionette Task 3"] = "Задание марионетки 3",
+    ["Eerie Joke"] = "Жуткая шутка",
+    ["Memory Thief Ornate Chest Locked"] = "Похититель памяти: роскошный сундук заблокирован",
+    ["How do I play Sinful Witch?"] = "Как играть за «Грешную демоницу»?",
 }

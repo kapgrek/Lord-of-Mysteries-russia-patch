@@ -260,6 +260,13 @@ return {
     ["Inductive Attack hit stacks"] = "Уровни попаданий наводящейся атаки",
     ["Total Combo Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, Black Flame Damage per Second: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}"] = "Общий урон серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>2000%</> = {*d,F1690001,atkMin,20}, урон Чёрного пламени в секунду: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>333.33%</> = {*d,F1690001,atkMin,3.3333}",
     ["重铸失败：棋子正在战斗中"] = "Не удалось перековать: фигура в бою",
+    ["恢复8点法力"] = "Восстанавливает 8 маны",
+    ["Unlock Connections Booth Entry"] = "Разблокировать вход на стенд «Связи»",
+    ["Scene - Hornacis Mountain Range"] = "Сцена - Горный хребет Хорнакис",
+    ["众人拥护的排面怎么完成"] = "Как выполнить достижение «Всеобщее признание»?",
+    ["战士头像"] = "Аватар «Воин»",
+    ["进入阿斯塔家"] = "Войти в дом Асты",
+    ["All the gifts of fate have already been marked with a price in the dark."] = "All the gifts of fate have already been marked with a price in the dark.",
     ["前往指定Trigger位置  玩家变身开始"] = "Перейдите в указанное место триггера; начинается трансформация игрока.",
     ["Maurice"] = "Морис",
 }

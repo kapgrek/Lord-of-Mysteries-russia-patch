@@ -245,6 +245,12 @@ return {
     ["Extraordinary Gift: <HighLight>80</> Quest points"] = "Дар судьбы: <HighLight>80</> очков заданий",
     ["Charge a heavy blow against nearby targets."] = "Наносит ближайшей цели заряженный тяжёлый удар.",
     ["每秒损失1%最大生命，持续4秒"] = "Теряет 1% макс. здоровья в секунду в течение 4 сек.",
+    ["学徒-战略技能4阶"] = "Ученик — Стратегический навык, 4 ступень",
+    ["\"Golden Wolf\" Charlie"] = "«Золотой волк» Чарли",
+    ["Social score"] = "Социальный рейтинг",
+    ["气场"] = "Аура",
+    ["<Highlight>%d分钟后</>进入%s"] = "<Highlight>Через %d мин.</> — вход в %s",
+    ["Find the <h> items </> to set up the ritual"] = "Найти <h>предметы</> для проведения ритуала",
     ["Brill"] = "Брилл",
     ["Post-processing type configuration not found"] = "Конфигурация типа постобработки не найдена",
 }

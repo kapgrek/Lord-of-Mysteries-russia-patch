@@ -234,5 +234,9 @@ return {
     ["Achievement - Deepening into the Extraordinary"] = "Достижение - Углубление в необыкновенное",
     ["Hide-and-seek little girl"] = "Маленькая девочка в прятках",
     ["Randomly gain <HighLight> two basic equipment </>, and gain <HighLight> two Fine Equipment Caskets </>, <HighLight> one Equipment Reforger </>, and <HighLight> 3 Gold Coins </>."] = "Случайным образом даёт <HighLight> два базовых снаряжения </>, а также <HighLight> два ларца с отличным снаряжением </>, <HighLight> один перековщик снаряжения </> и <HighLight> 3 золотые монеты </>.",
+    ["<CostRed>{1,2,（烙印已失效）}</>攻击提高<Mark>150</>，穿刺提高<Mark>75</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>150</>, пронзание повышается на <Mark>75</>.\nНе действует при активации сета <Mark>Отголосок духа и знания</>.",
+    ["Cape lining"] = "Подкладка плаща",
+    ["递烟"] = "Передать сигарету",
+    ["\"Worker\""] = "«Рабочий»",
     ["Kaya"] = "Кая·",
 }

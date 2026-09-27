@@ -273,5 +273,9 @@ return {
     ["Stomps on enemies in front with the power of a giant spirit, dealing {*d,F1690001,atkMin,30} Attack damage and knocking them back. The unit gains <HighLight>70%</> Damage Reduction for <HighLight>6</> seconds."] = "Силой исполинского духа топает по врагам впереди, нанося {*d,F1690001,atkMin,30} ед. урона от атаки и отбрасывая их. Получает <HighLight>70%</> снижения урона на <HighLight>6</> сек.",
     ["Lineup Recommendation"] = "Рекомендуемые составы",
     ["The preparation area is full; cannot add more pieces!"] = "Скамейка запасных заполнена, нельзя добавить фигуру!",
+    ["Genshin"] = "Везунчик",
+    ["Restore 8 Mana."] = "Восстанавливает 8 маны",
+    ["Quality Mode"] = "Режим качества",
+    ["人格覆写"] = "Перезапись личности",
     ["<P_Heart>（眼睛一亮）</>哟，今天有货！"] = "<P_Heart> (Глаза загораются) </> Эй, сегодня он в наличии!",
 }

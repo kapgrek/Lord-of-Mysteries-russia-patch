@@ -247,5 +247,6 @@ return {
     ["激活羁绊：20"] = "Активировано резонансов: 20",
     ["Immune to crowd control effects for the first <HighLight>20</> seconds of combat."] = "Невосприимчивость к эффектам контроля в первые <HighLight>20</> секунд боя.",
     ["Talk to <h>Richard</>"] = "Поговорить с <h>Ричардом</>",
+    ["War Soul Possession · End"] = "Одержимость боевым духом · Конец",
     ["感觉有什么不对……"] = "Что-то кажется неправильным...",
 }

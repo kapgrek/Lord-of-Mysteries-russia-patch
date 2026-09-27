@@ -247,6 +247,8 @@ return {
     ["Enter resonance, piece name"] = "Введите резонанс или имя фигуры",
     ["Make-up Shop"] = "Возмещение",
     ["Increase Attack by <Yellow>mul(*f,Layer)</> and Skill Enhancement by <Yellow>mul(*f,Layer)</>."] = "Повышает атаку на <Yellow>mul(*f,Layer)</> ед. и усиление навыков на <Yellow>mul(*f,Layer)</> ед.",
+    ["模型体型提升40%"] = "Размер модели увеличен на 40%",
+    ["死了，都死了，咳咳——"] = "Умерли, все умерли, кхе-кхе——",
     ["Jacquet"] = "Жаке ·",
     ["播放Dialogue  玩家播放剧情对话  传送回大世界场景"] = "Играть в диалог; игрок воспроизводит сюжетный диалог; телепортируйтесь обратно в открытый мир.",
     ["Rockkin Capital Group · Finance Department \nDebtor: 7th Batch of Resettled Personnel in the Factory District\n\nHousing Rental Fee: 3 pounds 12 soli\nFood Supply Fee: 2 pounds 8 soli\nCommuter Transport Fee: 1 pound 4 soli\n\nAdditional Fees:\nLate Fee (accumulated 89 days): 2 pounds 3 soli\nAdministrative Fee: 15 soli\nCompulsory Insurance Tax: 8 soli\n\nTotal Payable: 9 pounds 10 soli\nNote: According to the \"Regulations on Debt Settlement for Low-income Laborers\", those who fail to pay on time will be subject to the \"Forced Eviction Procedure\"."] = "Финансовая группа «Роккин Кэпитал» · Бухгалтерия \nДолжник: 7-я группа переселенцев Фабричного района\n\nАрендная плата за жилье: 3 фунта 12 солей\nОплата питания: 2 фунта 8 солей\nТранспортные расходы: 1 фунт 4 соли\n\nДополнительные сборы:\nПеня за просрочку (за 89 дней): 2 фунта 3 соли\nАдминистративный сбор: 15 солей\nОбязательный страховой сбор: 8 солей\n\nИтого к оплате: 9 фунтов 10 солей\nПримечание: Согласно «Положению о погашении задолженности низкооплачиваемых рабочих», при неуплате в срок будет начата «процедура принудительного выселения».",

@@ -270,4 +270,9 @@ return {
     ["Immediately randomly gain 1 piece of Fine Equipment<HighLight></>. For the next 3 battle rounds<HighLight></>, gain 1 more piece at the end of each round<HighLight></>."] = "Немедленно даёт 1 случайное отличное снаряжение<HighLight></>. В течение следующих 3 раундов боя<HighLight></> даёт ещё по 1 предмету в конце каждого раунда<HighLight></>.",
     ["战斗开始时，若相邻格内没有友军，则本回合最大生命值提高<HighLight>300</>点，攻击提高<HighLight>15%</>。"] = "В начале боя: если на соседних клетках нет союзников, макс. здоровье в этом раунде увеличивается на <HighLight>300</> ед., а атака — на <HighLight>15%</>.",
     ["Attacks the target, dealing {*d,F1690001,atkMin,7} attack damage. If the target's health is not higher than <HighLight>35%</>, it deals {*d,F1690001,atkMin,10} attack damage instead. Self's Life Steal increases by <HighLight>30%</> for <HighLight>3</> seconds."] = "Атакует цель, нанося {*d,F1690001,atkMin,7} ед. урона от атаки. Если здоровье цели не выше <HighLight>35%</>, наносит вместо этого {*d,F1690001,atkMin,10} ед. урона от атаки. Вампиризм фигуры повышается на <HighLight>30%</> на <HighLight>3</> сек.",
+    ["Activate Echo..."] = "Активация Эха...",
+    ["Refuse_Clown"] = "Отказ_Клоун",
+    ["[Fashion Level] Explanation"] = "[Уровень стиля] Описание",
+    ["骑士护卫"] = "Рыцарь-страж",
+    ["Diving Scab"] = "Ныряющий штрейкбрехер",
 }

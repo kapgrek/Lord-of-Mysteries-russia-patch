@@ -258,6 +258,12 @@ return {
     ["Drag onto a 1-3 cost piece to obtain a 1-star copy of that piece."] = "Перетащите на фигуру стоимостью 1–3, чтобы получить её однозвёздочную копию.",
     ["Random two-star 3-cost chess piece"] = "Случайная двухзвёздочная фигура за 3 золотых",
     ["<HighLight> Provides Shield to allies </>"] = "<HighLight>Даёт щит союзникам</>",
+    ["低生命追击"] = "Погоня при низком здоровье",
+    ["Radiant Gold"] = "Лучистое золото",
+    ["伦纳德-异象之物兑换"] = "Леонард - Обмен аномальных предметов",
+    ["Sanity Loss"] = "Потеря Рассудка",
+    ["荣光织造·盛装"] = "Плетение Славы: Наряд",
+    ["分解所有已勾选"] = "Dismantle all selected",
     ["<Letter_Highlight>Picking herbs</>: Pick iron clematis on the third day of the month, 6 pounds.\n<Letter_Highlight>Short-term employment</>: Hire a bodyguard with sailing experience, for one month, 600 pounds.\n<Letter_Highlight>Golden Elm District Case</>: A vicious home invasion and murder occurred in the Golden Elm District this week. Those who provide relevant clues, once verified as effective, can receive a 10-pound reward.\n<Letter_Highlight>Wanted Bounty</>: Wanted pirate Gus appeared in Tingen, 5 pounds per effective clue.\n<Letter_Highlight>Dog Search Notice</>: Three days ago, my beloved dog Vina was lost on Daffodil Street, all black with a white face. If there are clues, heavy reward!"] = "_\n\n\n<Letter_Highlight>Соберите травы</>: Соберите траву из железных палочек на восходящем солнце третьего месяца, 6 фунтов. \n<Letter_Highlight> Краткосрочная работа</>: Наймите телохранителя с опытом плавания на один месяц, 600 фунтов. \n<Letter_Highlight>Дело в районе Цзиньвутун</>: На этой неделе в районе Цзиньвутон произошло жестокое вторжение в дом, грабеж и убийство. Любой, кто предоставит соответствующие подсказки, получит вознаграждение в размере 10 фунтов после проверки их достоверности. \n<Letter_Highlight>Разыскивается награда</>: Разыскиваемый пират Гас появляется в Тингене. Каждая действительная подсказка стоит 5 фунтов. \n<Letter_Highlight>Уведомление о поиске собаки</>: Три дня назад моя любимая собака Вайнер потерялась на улице Нарцисс. Его тело было черным, а лицо белым. Если найдутся какие-нибудь улики, мы щедро наградим его!",
     ["Jalani"] = "Джалани",
 }

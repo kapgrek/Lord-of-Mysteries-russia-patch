@@ -278,6 +278,12 @@ return {
     ["Cancel Dismantle"] = "Отменить демонтаж",
     ["Only broken memories remain, silently fulfilling the promise of protection."] = "Остаются лишь разбитые воспоминания, молча выполняющие обещание защиты.",
     ["请输入运营思路…"] = "Введите тактику…",
+    ["奇变偶不变"] = "Нечётное меняется, чётное остаётся",
+    ["Gray Fog Transport - Obtain Buff"] = "Перевозка в Сером тумане — получение баффа",
+    ["Elegant Clearing"] = "Изящное прояснение",
+    ["GVG Cross-Server Faction Points"] = "Межсерверные очки фракции GVG",
+    ["Question the newcomer"] = "Расспросить пришедшего",
+    ["Watching... blind spot in existence..."] = "Watching... blind spot in existence...",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

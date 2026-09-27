@@ -270,4 +270,8 @@ return {
     ["Release a Fear Ripple, dealing {*d,F1690001,atkMin,1.6} Attack damage to surrounding enemies; this increases to {*d,F1690001,atkMin,2.4} when enemy health is no higher than <HighLight>35%</>. Upon hitting, reduce their Defense by <HighLight>20%</> for <HighLight>4</> seconds."] = "Высвобождает волну ужаса, нанося окружающим врагам {*d,F1690001,atkMin,1.6} ед. урона от атаки (если здоровье врага не выше <HighLight>35%</> — {*d,F1690001,atkMin,2.4}). Задетые враги теряют <HighLight>20%</> защиты на <HighLight>4</> сек.",
     ["发出三次死灵怒嚎，震击周围敌人，共造成{*d,F1690001,atkMin,1.25}点攻击伤害，自身获得{*d,F1690001,maxHp,0.4}点护盾，持续<HighLight>5</>秒。三星时：发出三次死灵怒嚎，震击周围敌人，共造成{*d,F1690001,atkMin,3.4}点攻击伤害，自身获得{*d,F1690001,maxHp,0.4}点护盾，持续<HighLight>5</>秒。"] = "Трижды издаёт некротический вой, сотрясая окружающих врагов и нанося в сумме {*d,F1690001,atkMin,1.25} ед. урона от атаки. Получает щит на {*d,F1690001,maxHp,0.4} ед. на <HighLight>5</> сек. 3 звезды: в сумме {*d,F1690001,atkMin,3.4} ед. урона от атаки и щит на {*d,F1690001,maxHp,0.4} ед. на <HighLight>5</> сек.",
     ["共鸣组合"] = "Сочетания резонансов",
+    ["Critical hits restore an additional 4 Mana."] = "Критический удар дополнительно восстанавливает 4 маны.",
+    ["拒绝_异化猎犬"] = "Отказ: Мутировавшая гончая",
+    ["God-Chosen War Flag (30 days)"] = "Боевое знамя Богоизбранного (30 дней)",
+    ["镜中知识"] = "Знание в зеркале",
 }

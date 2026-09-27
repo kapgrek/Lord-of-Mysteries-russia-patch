@@ -284,4 +284,8 @@ return {
     ["Exchange voucher produced from the Brass Book Challenge/Adventure."] = "Купон обмена, полученный в испытаниях Латунной книги: Приключения.",
     ["心灵灯塔"] = "Маяк разума",
     ["Gain the [Swift Hunt] Resonance. After each basic attack, Attack Speed is increased by <HighLight>5%</>, stacking up to <HighLight>5</> times."] = "Даёт резонанс [Стремительная охота]. После каждой базовой атаки скорость атаки повышается на <HighLight>5%</>, максимум <HighLight>5</> уровней.",
+    ["基础属性：防御+40"] = "Базовые характеристики: Защита +40",
+    ["Strategic Server City Hunt Command Authority"] = "Право командования охотой на город (стратегический сервер)",
+    ["罗塞尔的分身"] = "Двойник Розеля",
+    ["绯红远击"] = "Crimson Long-Range Strike",
 }

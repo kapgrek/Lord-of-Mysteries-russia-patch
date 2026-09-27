@@ -256,6 +256,11 @@ return {
     ["Auto-Chess Terminology"] = "Термины Автошахмат",
     ["Uses Sonic Impact to strike enemies and provides a shield for allies."] = "Поражает врагов звуковой волной и даёт союзникам щит.",
     ["先祖铠甲登场时：根据先祖铠甲的星级召唤<HighLight>2</>名同星级【骑士护卫】。全体获得<HighLight>5%</>伤害减免，持续<HighLight>6</>秒。"] = "Когда Доспех предков появляется на поле: призывает <HighLight>2</> 【Рыцарей-стражей】 той же звёздности. Все союзники получают <HighLight>5%</> снижения урона на <HighLight>6</> сек.",
+    ["Restore 15 Mana at start of battle."] = "В начале боя восстанавливает 15 маны.",
+    ["War Merit Bestowed"] = "Обретение боевых заслуг",
+    ["我全要了"] = "Я возьму всё",
+    ["艺术学派分享内容"] = "Материалы, которыми поделилась Школа искусства",
+    ["爱吹水的工贼"] = "Болтливый штрейкбрехер",
     ["Thirteenth one, so satisfying! So satisfying! \n    The effect of this gold bullet is too good; with it, why would I still be a hired killer! \n    But that gentleman's conditions are strange enough; no matter who the target is, as long as it's at a specific location, at a specific time, kill... \n    Whatever, anyway, the police won't really catch me; they agreed to it! \n    According to the agreement, tomorrow night, everything will be over."] = "　　Уже тринадцатый! Как же чертовски хорошо! Просто потрясающе!\n　　Действие этой золотой пули превзошло все ожидания... С такой штукой зачем мне вообще горбатиться наёмным убийцей!\n　　Правда, условия того господина более чем странные: плевать, кто жертва, главное — прикончить в строго определённом месте и в назначенное время...\n　　Да какая разница! Полиция всё равно меня не тронет — мы же договорились!\n　　По условиям договора завтра вечером всё будет кончено.",
     ["监听关闭阅读界面  对象播放指定对白内容  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Прослушивание закрытия интерфейса чтения, объект воспроизводит указанное содержимое диалога, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанное содержимое диалога",
 }

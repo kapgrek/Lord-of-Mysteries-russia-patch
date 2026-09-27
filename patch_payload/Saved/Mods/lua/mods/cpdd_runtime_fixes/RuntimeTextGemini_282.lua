@@ -253,5 +253,8 @@ return {
     ["<Highlight> Craft: </> Thorn Surround \n The night and scarlet are thorns entwined around the eternal life of the Kindred; dangerous, beautiful, and piercingly painful."] = "<Highlight>Мастерство:</> терновое кольцо\nНочь и багрянец — шипы, обвивающие бесконечную жизнь вампиров: опасные, прекрасные и мучительно ранящие.",
     ["Equip to gain the [Reader] resonance"] = "Экипируйте, чтобы получить резонанс [Чтец]",
     ["Synthesize a total of 8 three-star pieces in Auto Chess"] = "Собрать в Автошахматах 8 трёхзвёздочных фигур",
+    ["道具·残留意志"] = "Предмет: Остаточная воля",
+    ["进入社交人气商店"] = "Войти в Магазин социальной популярности",
+    ["Check the <h>note</> left by the cook"] = "Осмотреть <h>записку</>, оставленную поваром",
     ["完成当前步骤的所有子目标  玩家清除任务标记"] = "Выполните все подцели текущего шага; игрок завершает квест Марк.",
 }

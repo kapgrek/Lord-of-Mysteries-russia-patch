@@ -262,5 +262,10 @@ return {
     ["共鸣徽章是什么"] = "Что такое эмблема резонанса?",
     ["空气炮先直线贯穿，再以扇形冲击前方敌人。"] = "Воздушная пушка сначала пронзает линию, затем бьёт веером по врагам впереди.",
     ["发射星辉弹，远程攻击当前目标。"] = "Выпускает снаряд звёздного сияния, атакуя текущую цель на расстоянии.",
+    ["迷雾中真相"] = "Истина в тумане",
+    ["学徒-战略技能2阶"] = "Ученик — Стратегический навык, 2 ступень",
+    ["Fashion Duel - Riel Bieber"] = "Модный поединок — Риэль Бибер",
+    ["Plain Snow"] = "Первый снег",
+    ["找个人少的地方"] = "Найти место, где меньше людей",
     ["She and he, he and she, <Hide stylename=\"Transparent\" id=\"#161\">she and she, he and he,</>\npassionate love stories, all at the Tingen Grand Theater!\n\n\n<Note_Normal_HW>** of it, whoever scribbled out the words at the back, I love watching this!</>\n\n<Note_Normal_HW>Forget it, buddy, there are kids nearby, and do you really have the money to buy a ticket to the Tingen Grand Theater?</>\n\n<Note_Normal_HW>As if any of the kids nearby know how to read!</>"] = "Она и он, он и она, <Hide stylename=\"Transparent\" id=\"#161\">она и она, он и он...</>\nПылкие истории любви — только в Большом театре Тингена!\n\n\n<Note_Normal_HW>Черт побери, кто замазал вторую строчку?! Я только ради этого и пришел!</>\n\n<Note_Normal_HW>Да брось, дружище, вокруг же дети крутятся! Да и откуда у тебя вообще деньги на билет в Большой театр Тингена?</>\n\n<Note_Normal_HW>Будто здешние сорванцы хоть слово прочесть умеют!</>",
 }

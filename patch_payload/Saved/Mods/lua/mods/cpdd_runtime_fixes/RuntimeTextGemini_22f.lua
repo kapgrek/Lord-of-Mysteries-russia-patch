@@ -233,6 +233,10 @@ return {
     ["After Cleaning Up"] = "После очистки",
     ["Hainan Province"] = "Провинция Хайнань",
     ["Wilderness Monster"] = "Монстр пустошей",
+    ["Eight Players"] = "Восемь игроков",
+    ["笑里藏刀·终"] = "Нож за улыбкой · Конец",
+    ["分享描述"] = "Описание публикации",
+    ["窗外是暴风雨"] = "There is a storm outside the window",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

@@ -273,4 +273,6 @@ return {
     ["Immediately gain 6 Gold Coins<HighLight></>. Gain 1 free refresh each round<HighLight></><HighLight></>."] = "Немедленно даёт <HighLight>6 золотых монет</>. <HighLight>Каждый раунд</> даёт <HighLight>1 бесплатное обновление</>.",
     ["职业共鸣"] = "Резонанс класса",
     ["Lineup Save/Replace"] = "Сохранить/заменить состав",
+    ["获得3词条非凡物质"] = "Получить Потустороннее вещество с 3 характеристиками",
+    ["Aristocratic Afternoon Tea"] = "Аристократическое чаепитие",
 }

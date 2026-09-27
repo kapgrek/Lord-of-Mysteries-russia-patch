@@ -260,5 +260,9 @@ return {
     ["Toggle deleted/active status of ambient NPCs"] = "Переключить удаленный/активный статус окружающих NPC",
     ["If they're thrown away, they're thrown away. If you remember tomorrow, look for them; if you can't find them, so be it. There's always a way."] = "Если их выбросить, то их выбросят. Если вспомнишь завтра, поищи их; если вы не можете их найти, пусть будет так. Всегда есть способ.",
     ["<Green> %d people </> online"] = "<Green>%d</> человек онлайн",
+    ["魅影·极光宝箱"] = "Призрак: Сундук северного сияния",
+    ["Leave the Golden Rose"] = "Покинуть \"Золотую розу\"",
+    ["时装搭配比拼大赛"] = "Outfit Matching Competition",
+    ["炸弹"] = "Bomb",
     ["Kailanni"] = "Кайланни",
 }

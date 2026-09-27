@@ -255,5 +255,12 @@ return {
     ["Use to obtain <Highlight>Platinum Gold Chain</>.\nDuplicate acquisitions will automatically be dismantled into Bound Gold Pound ×100."] = "Используйте, чтобы получить налобную цепочку <Highlight>«Платиновое золото»</>\nПовторное получение автоматически распыляется на связанные золотые фунты ×100",
     ["Walk towards <h>Crimson Moon</>"] = "Идите к <h>Багровой Луне</>",
     ["Save failed: Maximum number of saved lineups reached."] = "Не удалось сохранить: достигнут лимит сохранённых составов",
+    ["O神"] = "Везунчик",
+    ["刺客抵抗"] = "Сопротивление Убийцы",
+    ["自身3格圆形"] = "Круг радиусом 3 клетки вокруг себя",
+    ["Scene - Hornacis Sea of Flowers"] = "Сцена - Море цветов Хорнакис",
+    ["排场"] = "Представительность",
+    ["关于非凡者"] = "О Потусторонних",
+    ["Honor · Clown Top Hat"] = "Honor · Clown Top Hat",
     ["就是，这次可一根手指头都没碰你。"] = "Точно, в этот раз я даже пальцем к тебе не прикоснулся.",
 }

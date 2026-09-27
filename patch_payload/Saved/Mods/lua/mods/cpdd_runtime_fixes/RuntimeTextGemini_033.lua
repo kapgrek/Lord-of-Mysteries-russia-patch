@@ -270,5 +270,9 @@ return {
     ["Pick up the <h>lamb doll</>"] = "Возьмите куклу-ягненка<h></>.",
     ["Swing the Black Scythe to sweep the front, dealing {*d,F1690001,atkMin,1.8} Attack damage. When the enemy's health is no higher than <HighLight>35%</>, the damage increases to {*d,F1690001,atkMin,2.7}."] = "Взмахом Чёрной косы сметает всё впереди, нанося {*d,F1690001,atkMin,1.8} ед. урона от атаки. Если здоровье врага не выше <HighLight>35%</>, урон возрастает до {*d,F1690001,atkMin,2.7}.",
     ["非凡馈赠：<HighLight>400</>点任务积分"] = "Дар судьбы: <HighLight>400</> очков заданий",
+    ["Night Patrol in the Fog"] = "Ночной дозор в тумане",
+    ["战略服军衔属性五"] = "Атрибут звания стратегического сервера 5",
+    ["前方6格圆形"] = "Круг радиусом 6 клеток впереди",
+    ["被污染的知识"] = "Оскверненное знание",
     ["Camilo"] = "Камило",
 }

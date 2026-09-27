@@ -231,4 +231,8 @@ return {
     ["Gain 2 1-star Giant Wolves<HighLight></>. Their skill is strengthened to: Pursuit the enemy with the lowest Health, and restore own Health upon hitting<HighLight></>. After 5 duel rounds<HighLight></>, gain 2 more Low-Level Piece Recorders<HighLight></>."] = "Даёт 2 1-звёздочных Исполинских волков<HighLight></>. Навык усилен: преследует врага с наименьшим здоровьем и восстанавливает здоровье при ударе<HighLight></>. Через 5 раундов поединка<HighLight></> даёт 2 Регистратора фигур низкого уровня<HighLight></>.",
     ["Immediately gain 4/8 Experience Points<HighLight></> and 2 free refreshes<HighLight></>, and thereafter gain one more at the start of each stage<HighLight></>."] = "Немедленно даёт 4/8 очков опыта<HighLight></> и 2 бесплатных обновления<HighLight></>, а затем ещё по одному в начале каждого этапа<HighLight></>.",
     ["Invisibility buff When Poor Person Disappears"] = "Усиление невидимости при исчезновении бедняка",
+    ["Base Stats: Attack +30%"] = "Базовые характеристики: Атака +30%",
+    ["Prohibit corpse burning during the duration"] = "В течение действия эффекта труп нельзя сжечь",
+    ["点击<h>此处</>可以打开战略服大地图，前往战略服廷根场景。"] = "Click <h>here</> to open the strategic server world map and go to the strategic server Tingen scene.",
+    ["分解其余已勾选"] = "Dismantle other selected",
 }

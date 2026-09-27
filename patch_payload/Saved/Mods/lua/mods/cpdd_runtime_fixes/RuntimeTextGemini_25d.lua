@@ -257,6 +257,8 @@ return {
     ["连续以胜负交替的方式进行2场玩家战斗"] = "Провести подряд 2 боя с игроками, чередуя победы и поражения",
     ["Assault the farthest enemy and leave behind Black Flame; restore Mana after killing the selected target."] = "Бросается на самого дальнего врага и оставляет чёрное пламя; убив выбранную цель, восстанавливает ману.",
     ["挥动巨剑，近身攻击当前目标。"] = "Взмах огромным мечом, атака ближнего боя по текущей цели.",
+    ["Achievement - Impregnable"] = "Достижение - Неприступный",
+    ["Carry a pocket watch through the pages of reality and illusion in the tavern to complete the unfinished purification ritual."] = "Carry a pocket watch through the pages of reality and illusion in the tavern to complete the unfinished purification ritual.",
     ["<P_Heart>(It seems the Captain knows her... Right...)</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
     ["完成拼图解谜  玩家播放2D音效（仅自己可听）"] = "Полное решение головоломки. Игрок воспроизводит 2D-звуковой эффект (слышен только ему самому).",
     ["Hilda"] = "Хильда",

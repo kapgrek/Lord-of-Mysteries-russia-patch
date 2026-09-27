@@ -276,5 +276,8 @@ return {
     ["Rain down Miracle Cards, dealing {*d,F1690001,atkMin,5.02} Attack damage to enemies in the target area."] = "Обрушивает дождь Карт чуда, нанося врагам в целевой области {*d,F1690001,atkMin,5.02} ед. урона от атаки.",
     ["藤蔓横扫"] = "Взмах лоз",
     ["Extraordinary Gift: <HighLight>30</> Quest points"] = "Дар судьбы: <HighLight>30</> очков заданий",
+    ["1.随机四方向选一旋转"] = "1. Поворот в одном из четырёх случайных направлений",
+    ["Iron buckle"] = "Железная пряжка",
+    ["序列7 心理医生"] = "Последовательность 7 Психотерапевт",
     ["Kataleya"] = "Каталея",
 }

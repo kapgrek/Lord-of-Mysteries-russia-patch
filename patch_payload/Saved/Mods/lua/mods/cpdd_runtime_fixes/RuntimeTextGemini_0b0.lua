@@ -246,6 +246,7 @@ return {
     ["A soul-soothing resonance impacts the area, putting enemies into a Slumber."] = "Упокаивающий резонанс бьёт по области и погружает врагов в Сон.",
     ["Edit failed: Piece has reached the maximum star level."] = "Не удалось изменить: у фигуры максимальная звёздность",
     ["Shoot with a gun; the third basic attack uses a strengthened bullet."] = "Стреляет в цель из ружья; каждая третья базовая атака — усиленной пулей.",
+    ["战略服猎城战指挥权限"] = "Право командования охотой на город (стратегический сервер)",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти к указанному триггеру. NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира). NPC уничтожает себя (не может уничтожить игроков и общих NPC открытого мира).",
     ["铁路大亨挑战线路难度获得%d/10次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/10 раз в маршрутах испытаний «Железнодорожный магнат».",
     ["场景ID:"] = "Идентификатор сцены:",

@@ -275,4 +275,11 @@ return {
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>110%</> = {*d,F1690001,atkMin,1.1}",
     ["Recruit chess piece"] = "Призвать фигуру",
     ["卷起浪潮，冲击近身目标。"] = "Поднимает волну и бьёт ближайшие цели.",
+    ["丰穰之冠"] = "Корона изобилия",
+    ["特殊椅子"] = "Особый стул",
+    ["%s：\n      %s"] = "%s：\n      %s",
+    ["返回牌桌"] = "Вернуться за стол",
+    ["God-Chosen Seat Issuance"] = "Выдача мест Избранных богом",
+    ["获得过的状态效果"] = "Status effects obtained",
+    ["This place looks very familiar."] = "This place looks very familiar.",
 }

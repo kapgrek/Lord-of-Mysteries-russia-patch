@@ -249,4 +249,6 @@ return {
     ["【旧日复苏】"] = "【Возрождение Древнего】",
     ["How many players are in Fool's Gambit?"] = "Сколько игроков в «Гамбите Шута»?",
     ["A furious howl shocks the surroundings, providing a Shield for the self."] = "Яростный вой сотрясает всё вокруг и даёт себе щит.",
+    ["Level 69 Unbound Competition Equipment Chest"] = "Непривязанный ящик состязательной экипировки (69 ур.)",
+    ["Normal Custom Marker"] = "Обычная пользовательская метка",
 }

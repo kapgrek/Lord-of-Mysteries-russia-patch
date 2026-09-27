@@ -274,4 +274,6 @@ return {
     ["Activated Resonance: 11"] = "Активировано резонансов: 11",
     ["激活羁绊：16"] = "Активировано резонансов: 16",
     ["Equip to gain the [Spellcraft] resonance"] = "Экипируйте, чтобы получить резонанс [Колдовство]",
+    ["Spectator Main Combo Guide"] = "Обучение основным комбо: Зритель",
+    ["Seer Main Combo Guide"] = "Обучение основным комбо: Провидец",
 }

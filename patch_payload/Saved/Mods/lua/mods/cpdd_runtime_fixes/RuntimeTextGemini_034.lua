@@ -271,4 +271,9 @@ return {
     ["12 seconds<HighLight> after the battle starts</>, your pieces gain 35% Damage Deepening<HighLight></>."] = "Через <HighLight>12 сек.</> после начала боя ваши фигуры получают <HighLight>35% к усилению урона</>.",
     ["<Assistant_Title1>【Undying Grasp】</>\n<Assistant_Title2>Description: </>God-Favored Pool Accessory\n<Assistant_Title2>Usage: </>Use to obtain the Undying Grasp; click <Assistant_System>Cosmetics - Change Outfit</> to view and equip.\n<Assistant_Title2>Acquisition: </>Redeem using <Assistant_System>Goddess's Gift Shop</> <Assistant_Red>1</> God-Favored Card"] = "<Assistant_Title1>【Хватка бессмертия】</>\n<Assistant_Title2>Описание: </>Украшение из пула Благодати\n<Assistant_Title2>Использование: </>После использования вы получите «Хватку бессмертия». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и применить её.\n<Assistant_Title2>Получение: </>обменяйте на <Assistant_Red>1</> карту Благодати в <Assistant_System>магазине даров Богини Красоты</>",
     ["Summons Cookie Rain to deal damage and restore health to allies."] = "Призывает дождь из печенья: наносит урон и восстанавливает здоровье союзникам.",
+    ["延年巨龟天赋效果"] = "Какой эффект у таланта «Долголетняя гигантская черепаха»?",
+    ["称号·沙盘刻名者"] = "Титул: Начертавший имя на песчаном столе",
+    ["Examine the <h>rats</> brought by the merchant"] = "Осмотреть <h>крыс</>, принесённых торговцем",
+    ["偷听三人组对话"] = "Подслушать разговор троицы",
+    ["本期时装"] = "Current Season Fashion",
 }

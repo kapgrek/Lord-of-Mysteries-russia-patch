@@ -268,5 +268,10 @@ return {
     ["Total Damage: Attack × 960% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,9.6}"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>960%</> = {*d,F1690001,atkMin,9.6}",
     ["Uses Wave Riding to sweep forward, dealing area damage and knocking back enemies."] = "Сметает пространство впереди волной, нанося урон по области и отбрасывая врагов.",
     ["获得60%伤害减免，持续5秒"] = "Дает 60% снижения урона на 5 сек.",
+    ["Apprentice Avatar"] = "Аватар «Ученик»",
+    ["Pick Flowers"] = "Собрать цветы",
+    ["Illusion Performance · End"] = "Иллюзионное представление · Конец",
+    ["Give the letter to Parkina"] = "Передать письмо Паркине",
+    ["Chat with the <h> two </>"] = "Поговорить с <h>двоими</>",
     ["Jadir"] = "Джадир",
 }

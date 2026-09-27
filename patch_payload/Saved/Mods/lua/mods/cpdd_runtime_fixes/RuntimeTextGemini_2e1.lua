@@ -245,6 +245,12 @@ return {
     ["保存失败：阵容不能为空"] = "Не удалось сохранить: состав не может быть пустым",
     ["Mystery"] = "Тайна",
     ["15% Max Health Shield"] = "Щит на 15% макс. здоровья",
+    ["肩膀布料"] = "Ткань на плечах",
+    ["成就-固若金汤"] = "Достижение - Неприступный",
+    ["Synergy"] = "Синергия",
+    ["苏打水"] = "Содовая вода",
+    ["摆放香料"] = "Расставить специи",
+    ["歌剧魅影玩法中可获得如下奖励：\n比赛奖励：参与比赛（观战或被选入参赛阵容），并在结算时仍处于俱乐部即可领取奖励，根据本轮累计的胜场和当前场次的胜负情况，奖励的数量会有不同。\n观战奖励：比赛进行时，玩家在魅影长廊每停留1分钟，就能获得一定的同行纹章等道具奖励。\n赛季奖励：每个赛季结束时，俱乐部内参赛场次前五名的玩家会获得称号奖励"] = "In the Phantom of the Opera gameplay, you can obtain the following rewards: \n Competition Rewards: Participate in the competition (spectating or being selected for the lineup) and remain in the club at the time of settlement to receive rewards. The quantity of rewards varies based on the cumulative wins in this round and the win/loss status of the current match. \n Spectator Rewards: While the competition is in progress, for every 1 minute a player stays in the Phantom Corridor, they can receive certain rewards such as Companion Emblems. \n Season Rewards: At the end of each season, the top five players in the club based on the number of matches participated in will receive title rewards.",
     ["Westley"] = "Уэстли",
     ["id:000000 This test is a confidential test and does not represent the final quality of the game. Please do not stream, take screenshots, or record the screen."] = "id:000000 Данный тест является закрытым и не отражает финального качества игры. Пожалуйста, не ведите прямых трансляций, не делайте скриншотов и не записывайте видео.",
 }

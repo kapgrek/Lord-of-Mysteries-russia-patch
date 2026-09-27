@@ -277,6 +277,10 @@ return {
     ["本Saturday 20:45"] = "В эту субботу, 20:45",
     ["战斗开始时，获得相当于最大生命值<HighLight>40%</>的护盾，持续<HighLight>8</>秒。"] = "В начале боя получает щит в размере <HighLight>40%</> от максимального здоровья на <HighLight>8</> сек.",
     ["Megose Combat Duration Timer"] = "Таймер длительности боя с Мегозой",
+    ["Low Health Pursuit"] = "Погоня при низком здоровье",
+    ["咳，好的，咳咳……"] = "Кхм, хорошо, кхе-кхе……",
+    ["Middle"] = "Середина",
+    ["无可使用灵线"] = "No Spirit Threads available.",
     ["　　Failed the exam again... I have lost count of how many times I have failed...\n\n　　Perhaps I was not born to be a government employee. Carefully managing that small meat stall and living with a beautiful wife is the life I should be living.\n\n　　She will wash my clothes, I will stew meat for her, and let her become the woman who has eaten the most meat in all of Tingen.\n\n　　What a beautiful life... I should pull myself together and try hard to find a wife."] = "　　Снова провалился... Я уже со счёта сбился, в который раз...\r\n\r\n　　Наверное, мне на роду не написано быть государственным служащим. Толково заправлять мясной лавкой да жить с красавицей-женой — вот та жизнь, которая мне действительно нужна.\r\n\r\n　　Она стирала бы мне рубашки, а я тушил бы для неё отборное мясо, чтобы она стала женщиной, съевшей больше всего мяса во всём Тингене.\r\n\r\n　　Эх, какая бы это была жизнь... Пора взять себя в руки и пойти искать жену.",
     ["Santino"] = "Сантино",
 }

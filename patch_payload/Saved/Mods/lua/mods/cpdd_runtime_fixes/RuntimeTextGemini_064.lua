@@ -252,6 +252,9 @@ return {
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>127%</> = {*d,F1690001,atkMin,1.27}",
     ["An Air Cannon first pierces in a straight line, then impacts enemies in front in a fan shape."] = "Воздушная пушка сначала пронзает линию, затем бьёт веером по врагам впереди.",
     ["乌贼祝福·财富"] = "Благословение кальмара · Богатство",
+    ["辋丶叶"] = "Сеть",
+    ["You open your eyes"] = "Ты открываешь глаза",
+    ["Chat with <h> Pagnia </>"] = "Поговорить с <h>Паркиной</>",
     ["Daliana"] = "Дарлена",
     ["Use Spirit Vision to find the special tea"] = "Используйте Духовное зрение, чтобы отыскать особый чай",
 }

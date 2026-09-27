@@ -249,5 +249,11 @@ return {
     ["暴击叠加伤害"] = "Криты накапливают урон",
     ["获得3金币。"] = "Даёт 3 золотые монеты.",
     ["How should a beginner play Fool's Gambit?"] = "Как новичку играть в «Гамбит Шута»?",
+    ["碳氮氧氟氖"] = "Углерод, азот, кислород, фтор, неон",
+    ["吸烟椅在哪里"] = "Где находится кресло для курения?",
+    ["拳技相搏·始"] = "Кулачный бой · Начало",
+    ["Added to the prize pool after a cumulative <Highlight> %d </> summons"] = "Добавляется в призовой пул после <Highlight>%d</> суммарных призывов",
+    ["结算期"] = "Период расчёта",
+    ["进入死者家中"] = "Войти в дом покойного",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

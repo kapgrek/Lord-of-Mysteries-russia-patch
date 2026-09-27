@@ -253,6 +253,10 @@ return {
     ["Touch the <h>future fate</>"] = "Прикоснитесь к <h>будущей судьбе</>",
     ["在敌人密集区域召唤藤棘造成范围伤害。"] = "Призывает шипастые лозы в месте скопления врагов, нанося урон по области.",
     ["Battle of Wits and Hearts · Start"] = "Битва умов · Начало",
+    ["裤子主体"] = "Основа брюк",
+    ["贴纸·战士"] = "Наклейка · Воин",
+    ["点击<h>此处</>可以打开战略服大地图，前往战略服猎龙之城场景。"] = "Click <h>here</> to open the strategic server world map and go to the strategic server City of Dragon Hunting scene.",
+    ["Honor: Golden Autumn Sapling"] = "Honor: Golden Autumn Sapling",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Ievette"] = "Иветт",
 }

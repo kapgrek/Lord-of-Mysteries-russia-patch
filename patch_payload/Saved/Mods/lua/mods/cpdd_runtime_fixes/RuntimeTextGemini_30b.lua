@@ -264,5 +264,10 @@ return {
     ["<HighLight>为友方提供护盾</>"] = "<HighLight>Даёт щит союзникам</>",
     ["Swing the scythe to heavily damage targets with low health; the flower field causes Continuous Damage and Slow."] = "Взмахом косы тяжело ранит цели с низким здоровьем; цветочное поле наносит постоянный урон и замедляет.",
     ["向<HighLight>2</>格内当前目标投射暗影弹，造成<HighLight>100%攻击伤害</>。"] = "Выпускает снаряд тени по текущей цели в пределах <HighLight>2</> клеток, нанося <HighLight>100% урона от атаки</>.",
+    ["Model size increased by 120%"] = "Размер модели увеличен на 120%",
+    ["【风尚度】说明"] = "[Уровень стиля] Описание",
+    ["Fashion Corridor - Sefirah Luxury"] = "Галерея моды — Сефира-люкс",
+    ["前往玩法"] = "Перейти в режим",
+    ["Chat with Parkina"] = "Поговорить с Паркиной",
     ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }

@@ -230,4 +230,6 @@ return {
     ["自走棋-子爵夫人亡者之花"] = "Автошахматы — Цветок мёртвых Виконтессы",
     ["Fool's Gambit Talent"] = "Таланты «Гамбита Шута»",
     ["Dragon Might sweeps the front, applying Burn and Grievous Injury while healing allies."] = "Давление дракона сметает врагов впереди, поджигает их и наносит тяжёлые раны, а также лечит союзников.",
+    ["假好友"] = "Поддельный друг",
+    ["退出战略服"] = "Exit Strategic Server",
 }

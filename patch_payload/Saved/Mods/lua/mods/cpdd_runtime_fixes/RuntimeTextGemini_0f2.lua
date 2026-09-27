@@ -247,5 +247,7 @@ return {
     ["<DecH> Craft: </> Dark Raven Feather - Heavy Industry Leather - Gothic Evening Gown \n Brilliant colors flow over deep black, grotesque yet elegant, making all vulgar colors dim."] = "<DecH> Мастерство: </> Темные вороньи перья, тяжелая кожа, готическое вечернее платье \n Блеск струится поверх глубокого черного цвета, жуткий, но элегантный, затмевая все вульгарные цвета.",
     ["[Night Watch Seal]"] = "【Печать Ночного Стража】",
     ["发射蔓花毒刺，远程攻击当前目标。"] = "Выпускает ядовитый шип лозы, атакуя текущую цель на расстоянии.",
+    ["野玫瑰"] = "Дикая роза",
+    ["染血旧照"] = "Окровавленное старое фото",
     ["Ayan"] = "Аян",
 }

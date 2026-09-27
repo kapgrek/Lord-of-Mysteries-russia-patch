@@ -253,6 +253,9 @@ return {
     ["获得<HighLight>22金币</>，利息上限提升至<HighLight>10金币</>。"] = "Даёт <HighLight>22 золотые монеты</>, лимит процентов повышается до <HighLight>10 золотых монет</>.",
     ["Continuously pierce enemies in front with Lightning Rays and detonate in the target area, dealing a total of {*d,F1690001,atkMin,7.3} Attack damage. At 3 stars: Continuously pierce enemies in front with Lightning Rays and detonate in the target area, dealing a total of {*d,F1690001,atkMin,15} Attack damage."] = "Раз за разом пронзает врагов впереди молниями и взрывает их в целевой области; при всех попаданиях наносит в сумме {*d,F1690001,atkMin,7.3} ед. урона от атаки. 3 звезды: при всех попаданиях наносит в сумме {*d,F1690001,atkMin,15} ед. урона от атаки.",
     ["近身狩猎并斩击当前目标。"] = "Атакует текущую цель вблизи и наносит рубящий удар.",
+    ["Four-Faction 240-Player Large-Scale Battlefield"] = "Масштабное поле боя на 240 игроков для четырёх фракций",
+    ["决斗之时"] = "Время дуэли",
+    ["记忆结束"] = "Memory ends",
     ["我曾经是这片大地的主人，手持火炮、纵横五海。在属于我的年代里，踩在所有国家的头上，何等畅快！"] = "Когда-то я был владыкой этих земель, сжимая пушки и бороздя Пять Морей. В мою эпоху попирать все государства мира — какое же это было упоение!",
     ["……那我们就在领地战斗？"] = "...Тогда будем драться на территории?",
 }

@@ -276,4 +276,7 @@ return {
     ["<img id=\"09\" width=\"40\" height=\"40\"/>Damage Reduction: <HighLight>90%</>"] = "<img id=\"09\" width=\"40\" height=\"40\"/>Снижение урона: <HighLight>90%</>",
     ["Uses close-range grabs and Heavy Hammers to deal area damage."] = "Хватает врагов вблизи и наносит урон по области тяжёлым молотом.",
     ["Deploy Klein Moretti and achieve 1st place"] = "Выставить Клейна Моретти и занять 1-е место",
+    ["装备·残留意志"] = "Экипировка: Остаточная воля",
+    ["趣斗段位达到公爵"] = "Ранг Весёлой битвы достиг Герцога",
+    ["Prologue: The Childhood Tragedy"] = "Пролог: Трагедия детства",
 }

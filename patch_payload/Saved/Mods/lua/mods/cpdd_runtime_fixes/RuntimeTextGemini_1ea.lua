@@ -266,5 +266,12 @@ return {
     ["Factory worker - Gold Coin"] = "Фабричный рабочий — золотая монета",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>432%</> = {*d,F1690001,atkMin,4.32}",
     ["Blood Rose Bloom, damaging surrounding enemies."] = "Кровавые розы распускаются и ранят окружающих врагов.",
+    ["Carnival of the Dead"] = "Карнавал мёртвых",
+    ["西尔维娅拒绝风尚决斗激活"] = "Сильвия: отказ от модной дуэли (активировано)",
+    ["Main body of top"] = "Основа верха",
+    ["How is Giant Dragon ownership calculated on the Strategic Server?"] = "Как определяется принадлежность Гигантского дракона на стратегическом сервере?",
+    ["Ask about the report"] = "Спросить о репортаже",
+    ["Treasure Department Store"] = "Универмаг сокровищ",
+    ["累计召唤<Highlight>%d</>次后加入奖池"] = "Добавляется в призовой пул после <Highlight>%d</> суммарных призывов",
     ["Ruola"] = "Руола",
 }

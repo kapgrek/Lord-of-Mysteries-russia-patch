@@ -291,6 +291,8 @@ return {
     ["What Resonances are available in Fool's Gambit?"] = "Какие резонансы есть в «Гамбите Шута»?",
     ["<HighLight> Deals area damage upon death </>"] = "<HighLight>Урон по области при гибели</>",
     ["怒锤震击周围，受击后越战越快。"] = "Яростным молотом сотрясает всё вокруг; с каждым полученным ударом атакует всё быстрее.",
+    ["无声泪水"] = "Безмолвные слёзы",
+    ["Desire never lies, the gambling game draws you in. See through the truth of the bullets, and become the winner of desire."] = "Desire never lies, the gambling game draws you in. See through the truth of the bullets, and become the winner of desire.",
     ["遵循召唤而来 予汝以磐石之试炼"] = "Являюсь на зов твой, дабы подвергнуть тебя испытанию скалы",
     ["前往指定Trigger位置  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
     ["既然院长想让你宣传医院，不如讲讲医院的优势？"] = "Поскольку директор хочет, чтобы вы продвигали больницу, почему бы не рассказать о ее сильных сторонах?",

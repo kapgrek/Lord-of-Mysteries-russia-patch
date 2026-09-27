@@ -259,6 +259,11 @@ return {
     ["Leonard chants the Requiem of the Soul, causing targets within a 6-meter radius to suffer a 70% Grievous Injury effect for 4 seconds, while he gains a Continuous <Highlight>6</> second Tranquility Aura with a radius of <Highlight>6</> meters. The aura allows enemies to buffdisc(*id)."] = "Леонард декламирует Успокоительную поэму, накладывая на цели в радиусе 6 м эффект 70% тяжёлого ранения на 4 сек., а сам получает ауру безмятежности радиусом <Highlight>6</> м на <Highlight>6</> сек., накладывающую на врагов buffdisc(*id).",
     ["One Step"] = "Один шаг",
     ["Rectangle 4 units long and 2 units wide"] = "Прямоугольник 4 клетки в длину и 2 в ширину",
+    ["素雪初霁"] = "Первый снег",
+    ["What does Victory mean?"] = "Что значит «Победа»?",
+    ["歌剧魅影圣名组补领礼盒"] = "Ящик повторной выдачи: «Призрак оперы» — группа «Святое имя»",
+    ["Piercing +60"] = "Пронзание +60",
+    ["Strategic attributes only take effect in the strategic server"] = "Стратегические характеристики действуют только на стратегическом сервере",
     ["Rosemary"] = "Розмари",
     ["【大宗师】"] = "【Великий Мастер】",
 }

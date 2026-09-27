@@ -235,5 +235,6 @@ return {
     ["Drag onto a piece to randomly convert its equipped items into items of the same tier."] = "Перетащите на фигуру, чтобы её снаряжение случайно превратилось в другое снаряжение того же уровня.",
     ["特殊共鸣"] = "Особый резонанс",
     ["Cast a spell to trigger a three-candle combo."] = "Произносит заклинание и запускает серию трёх свечей.",
+    ["金榜8·0"] = "Золотой список 8.0",
     ["RequestCutsceneActorComposite: 找不到 ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",
 }

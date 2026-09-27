@@ -257,6 +257,11 @@ return {
     ["Sampson"] = "Сэмпсон",
     ["A total of 15 enemy pieces have been defeated"] = "Всего погибло 15 вражеских фигур",
     ["挥动武器，攻击近身目标。"] = "Атакует ближайшие цели оружием.",
+    ["战略服军衔属性四"] = "Атрибут звания стратегического сервера 4",
+    ["<CostRed>{1,2, (Brand Expired) }</>Monster Specialization increased by <Mark>230</>. After standing still in combat for <Mark>5</> seconds, Monster Specialization decreases by <Mark>25</> for <Mark>5</> seconds; after dodging, Monster Specialization increases by <Mark>25</> for <Mark>15</> seconds. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>230</>. Если в бою простоять на месте <Mark>5</> секунд, специализация против монстров понижается на <Mark>25</> на <Mark>5</> секунд; после уклонения специализация против монстров повышается на <Mark>25</> на <Mark>15</> секунд.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
+    ["Enjoy Freedom"] = "Наслаждение свободой",
+    ["Knight Guard"] = "Рыцарь-страж",
+    ["周而复始"] = "Cycle after cycle",
     ["Completed:"] = "Завершено:",
     ["Evangeline"] = "Эванджелин",
 }

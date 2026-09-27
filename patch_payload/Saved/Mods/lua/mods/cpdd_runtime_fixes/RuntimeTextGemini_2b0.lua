@@ -262,4 +262,6 @@ return {
     ["Go to Place"] = "Перейти к месту",
     ["Guild League altar being contested"] = "Алтарь Лиги гильдий оспаривается",
     ["恶名"] = "Дурная слава",
+    ["关卡完成"] = "Уровень завершён",
+    ["When releasing a skill, there is a chance to increase Monster Specialization by <Mark>360</> points and Attack by <Mark>3%</> for <Mark>8</> seconds. Cooldown is <Mark>20</> seconds."] = "При использовании навыка есть шанс повысить специализацию против монстров на <Mark>360</> очков и атаку на <Mark>3%</>, на <Mark>8</> сек. Перезарядка <Mark>20</> сек.",
 }

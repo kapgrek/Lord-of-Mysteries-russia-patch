@@ -264,6 +264,11 @@ return {
     ["<Assistant_Title1>【Dragon Hunting Tale】</>\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\n<Assistant_Title2>Quest Description: </>That person over there... do they look familiar? Does it seem like they're in some kind of trouble? \n<Assistant_Title2>How to Accept: </>After completing Main Story Chapter 5 \"Tingen Guardian\" and reaching Acting Level <Assistant_Red>62</>, head to {Location:[Tingen (927,700)]|-7360;-29730;-1330;2;5200002;0} to trigger the quest.\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, bound soli, Invoices, Adventure Medals, World Adventure Treasure Progress"] = "<Assistant_Title1>[История охоты на дракона]</> \n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Люди там... кажутся знакомыми? В какой беде он оказался? \n<Assistant_Title2>Как получить: </>После завершения пятой главы основного сюжета «Страж Тингена» и достижения уровня <Assistant_Red>62</>, перейдите в {Location:[Tingen(927,700) )]|-7360;-29730;-1330;2;5200002;0} можно активировать задания \n<Assistant_Title2>награды за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений.",
     ["Damage: Attack × 174% = <img id=\"03\" width=\"40\" height=\"40\"/><HighLight></>{*d,F1690001,atkMin,1.74}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>174%</> = {*d,F1690001,atkMin,1.74}",
     ["化身剑刃风暴，霸体横扫周围敌人。"] = "Превращается в Бурю клинков и в Суперброне сметает окружающих врагов.",
+    ["Dancing King Baboon Brother Fashion Duel Activated"] = "Король танца братишка Бабуин: модная дуэль (активировано)",
+    ["Achievement - Frostfall Begins"] = "Достижение - Начало Морозопада",
+    ["Fist Fighting · Start"] = "Кулачный бой · Начало",
+    ["Visible to Family applicants only"] = "Видно только подавшим заявку в семью",
+    ["Leave <h> Asta's home </>"] = "Покинуть <h>дом Асты</>",
     ["与Npc进行对话  玩家播放仅自己可见的说话文本"] = "Поговорите с NPC. Игрок воспроизводит текст диалога, видимый только ему самому.",
     ["俱乐部经验+1500"] = "Клубный опыт +1500",
 }

@@ -252,5 +252,11 @@ return {
     ["Position 3 Action"] = "Действие 3-й позиции",
     ["达成3阶段五月庄园共鸣"] = "Активировать резонанс «Поместье Мэй» 3-й ступени",
     ["前方3格120度扇形"] = "Сектор 120° на 3 клетки вперёд",
+    ["Critical hits restore an additional 3 Mana."] = "Критический удар дополнительно восстанавливает 3 маны.",
+    ["Mythical Butler Refuse Fashion Duel"] = "Мифический дворецкий: отказ от модной дуэли",
+    ["Collar side waist"] = "Воротник и бок талии",
+    ["好友幻影怎么召唤"] = "Как призвать фантома друга?",
+    ["Honor Ranking"] = "Рейтинг чести",
+    ["Understand <h>Sulia</>'s current situation"] = "Узнать о текущем положении <h>Сулии</>",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

@@ -240,5 +240,8 @@ return {
     ["塔罗会共鸣效果"] = "Эффект резонанса «Клуб Таро»",
     ["<HighLight> Strengthens Basic Attack damage </>"] = "<HighLight>Усиливает урон базовых атак</>",
     ["Swing a kitchen knife to cleave nearby targets."] = "Рубит ближайшие цели кухонным ножом.",
+    ["Required sum of digits: %s/%s"] = "Требуется сумма цифр: %s/%s",
+    ["Secret Peeking · Start"] = "Разведка тайн · Начало",
+    ["去吧台休息下"] = "Go to the bar to rest",
     ["Avianna"] = "Авианна",
 }

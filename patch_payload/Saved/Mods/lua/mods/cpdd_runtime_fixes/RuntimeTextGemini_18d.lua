@@ -273,6 +273,10 @@ return {
     ["AutoChess Tips – Distance"] = "Подсказка AutoChess – Дистанция",
     ["达成6阶段塔罗会共鸣"] = "Активировать резонанс «Клуб Таро» 6-й ступени",
     ["Combo Resonance: Attack Speed +32%, Damage Amplification +15%."] = "Резонанс серии: скорость атаки +32%, усиление урона +15%.",
+    ["Taboo Temptation"] = "Запретное искушение",
+    ["无敌且不可被敌方选中"] = "Неуязвим и не может быть выбран противником в качестве цели",
+    ["Hound's Sharp Claws"] = "Острые когти гончей",
+    ["Pick up the poster on the ground"] = "Поднять плакат с земли",
     ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Перейти в указанную позицию Trigger: игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Yareli"] = "Ярели",
 }

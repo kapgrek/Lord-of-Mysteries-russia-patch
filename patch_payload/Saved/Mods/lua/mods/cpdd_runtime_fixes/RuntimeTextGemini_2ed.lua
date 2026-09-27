@@ -256,5 +256,7 @@ return {
     ["棋子搭配"] = "Подбор фигур",
     ["Emits a Wolf Howl to attack enemies in front and increases the Attack Speed of nearby allies."] = "Волчьим воем атакует врагов впереди и повышает скорость атаки союзников рядом.",
     ["Hammer the ground to shock the surroundings; becomes faster the longer the battle lasts."] = "Яростным молотом сотрясает всё вокруг; с каждым полученным ударом атакует всё быстрее.",
+    ["心灵灯塔3阶"] = "Маяк разума, 3 ступень",
+    ["Refuse Fashion Duel"] = "Отклонить модный поединок",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

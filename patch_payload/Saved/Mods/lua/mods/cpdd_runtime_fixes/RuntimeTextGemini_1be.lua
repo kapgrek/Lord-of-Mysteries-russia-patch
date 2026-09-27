@@ -275,4 +275,9 @@ return {
     ["After opening, you can choose 1 piece of Sealed Equipment from the candidates."] = "После открытия можно выбрать 1 предмет запечатанного снаряжения из предложенных.",
     ["Player Health is exactly 1."] = "Здоровье игрока — ровно 1",
     ["随机案宗"] = "Случайное дело",
+    ["Spring Finale"] = "Весенний финал",
+    ["Home-grown chives"] = "Выращенный своими руками лук-резанец",
+    ["Ask about origins"] = "Спросить о происхождении",
+    ["心动"] = "Трепет сердца",
+    ["No fixed time"] = "Без фиксированного времени",
 }

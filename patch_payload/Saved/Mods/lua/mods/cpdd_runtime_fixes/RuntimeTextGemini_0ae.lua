@@ -264,5 +264,9 @@ return {
     ["When Trissy enters the field: All enemy Mana recovery reduced by <HighLight>2</> points for <HighLight>6</> seconds."] = "Когда Трисси появляется на поле: восстановление маны всех врагов снижается на <HighLight>2</> ед. на <HighLight>6</> сек.",
     ["突袭最远的敌人并留下黑焰，自身击杀选中目标后恢复法力。"] = "Бросается на самого дальнего врага и оставляет чёрное пламя; убив выбранную цель, восстанавливает ману.",
     ["[Beginner Recommendation] Extraordinary Ranged Strike"] = "【Совет новичкам】Потусторонний дальний удар",
+    ["错过玩法"] = "Пропущенный контент",
+    ["诡变寻宝"] = "Коварные поиски сокровищ",
+    ["Investigate the <h> sewer </>"] = "Осмотреть <h>канализацию</>",
+    ["Follow the \"boy\" and see"] = "Пойти за \"мальчиком\" и посмотреть",
     ["Quest Name:"] = "Название квеста:",
 }

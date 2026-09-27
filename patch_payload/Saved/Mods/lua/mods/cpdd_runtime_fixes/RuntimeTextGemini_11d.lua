@@ -238,6 +238,11 @@ return {
     ["Equip to gain the [Seer] bond"] = "Экипируйте, чтобы получить резонанс [Провидец]",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>965%</> = {*d,F1690001,atkMin,9.65}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>965%</> = {*d,F1690001,atkMin,9.65}",
     ["No resonance activated yet"] = "Резонансы не активированы",
+    ["Equipment Task 3"] = "Задание снаряжения 3",
+    ["Title: Dawn of the Apocalypse"] = "Титул: Рассвет апокалипсиса",
+    ["Purchase Dice Skin"] = "Купить скин для кубика",
+    ["调查<h>下水道</>"] = "Осмотреть <h>канализацию</>",
+    ["关注物品公示期即将结束"] = "The public notice period for the watched item is about to end.",
     ["Venus"] = "Венера·",
     ["Maisie"] = "Мэйси",
 }

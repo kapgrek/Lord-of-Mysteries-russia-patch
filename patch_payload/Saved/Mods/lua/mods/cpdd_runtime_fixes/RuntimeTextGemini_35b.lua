@@ -276,6 +276,11 @@ return {
     ["Attack <Highlight>Mutated Material</> with the affix <Highlight><Hand of God></>: \"All Skill levels +1, Armor Break increased.\""] = "Атакуйте <Highlight>Mutated Material</> с аффиксом <Highlight><Hand of God></>: «Все уровни навыков +1, пробитие брони увеличено».",
     ["Random one-star 3-cost chess piece"] = "Случайная однозвёздочная фигура за 3 золотых",
     ["<HighLight> Damage Reduction when at low Health </>"] = "<HighLight>Снижение урона при низком здоровье</>",
+    ["Riel Bieber Refuse Fashion Duel Activated"] = "Риэл Бибер: отказ от модной дуэли (активировано)",
+    ["Ripple of Fate"] = "Рябь судьбы",
+    ["Ask about opening hours"] = "Спросить о времени открытия",
+    ["询问驯兽师"] = "Спросить дрессировщика",
+    ["Observe the <h> monster's corpse </>"] = "Осмотреть <h>труп монстра</>",
     ["罗珊和几位市民 \n在中央广场瓦解消散\n失踪地点共三个\n近期失踪者可能还活着"] = "Розанна и несколько горожан\nрастворились на Центральной площади.\nВсего три места исчезновений.\nНедавно пропавшие, возможно, еще живы.",
     ["Adan"] = "Адан",
 }

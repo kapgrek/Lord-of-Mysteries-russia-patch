@@ -242,5 +242,11 @@ return {
     ["Randomly obtain three 2-star 5-cost pieces. Each is randomized independently."] = "Случайным образом даёт 3 двухзвёздочные фигуры за 5 золотых. Каждая выбирается независимо.",
     ["Accumulate %d/30 wins in Fool's Gambit."] = "Побед в «Гамбите Шута»: %d/30",
     ["\"Lawyer\" Xio Derecha"] = "«Адвокат» Сио Дереча",
+    ["Who receives the God-Chosen points for the Strategic Server's Giant Dragon?"] = "Кому достаются очки Избранного Богом за Гигантского дракона на стратегическом сервере?",
+    ["Who do I hand the Scarlet Relic to on the Strategic Server?"] = "Кому сдавать Алую реликвию на стратегическом сервере?",
+    ["四方联赛英杰组补领礼盒"] = "Ящик повторной выдачи: Лига четырёх сторон — героическая группа",
+    ["光之使命"] = "Миссия света",
+    ["%s Treasure"] = "Сокровище %s",
+    ["预购成功"] = "Предзаказ оформлен",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

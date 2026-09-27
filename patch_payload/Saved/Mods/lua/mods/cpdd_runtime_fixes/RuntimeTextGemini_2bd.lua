@@ -250,4 +250,6 @@ return {
     ["Mysticism Badge"] = "Эмблема Мистицизма",
     ["Function_Special mechanism_Covering Queue"] = "Функция_Специальный механизм_Покрытие очереди",
     ["0-08的奇妙冒险"] = "Удивительные приключения 0-08",
+    ["Max Health increased by 250"] = "Максимальное здоровье повышено на 250",
+    ["Refuse Fashion Duel - Riel Bieber"] = "Отклонить модный поединок — Риэль Бибер",
 }

@@ -249,5 +249,10 @@ return {
     ["When player speaks"] = "Когда игрок говорит",
     ["Using the origin of the Twilight Giant bloodline, gather power and stomp the ground to trigger a shockwave, kicking up surrounding dust to create a brief visual obstruction."] = "Обращаясь к истокам родословной Сумеречного Гиганта, сконцентрируйте силу и сокрушительно топните по земле, вызывая ударную волну и поднимая клубы пыли, ненадолго скрывающие обзор.",
     ["诗篇使周围敌人安眠，提升自身攻速。"] = "Поэма погружает окружающих врагов в сон и повышает свою скорость атаки.",
+    ["Top outline"] = "Контур верха",
+    ["Reduce Sanity"] = "Снижение Рассудка",
+    ["Dragon Hunt: Witness Treasure Chest"] = "Охота на дракона: Сундук свидетеля",
+    ["听听<h>士兵</>的谈话"] = "Послушать разговор <h>солдата</>",
+    ["人气值排名"] = "Popularity Ranking",
     ["Zanna"] = "Занна",
 }

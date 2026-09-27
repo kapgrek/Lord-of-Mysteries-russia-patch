@@ -260,6 +260,12 @@ return {
     ["Refreshed the shop a total of 8 times"] = "Обновить магазин 8 раз",
     ["防御降低<HighLight>16%</>，持续<HighLight>15</>秒。每回合从上一场被我方击败的敌方棋子中魅惑至多<HighLight>1</>个，以<HighLight>1</>星加入我方。"] = "Снижает защиту на <HighLight>16%</> на <HighLight>15</> сек. Каждый раунд очаровывает до <HighLight>1</> вражеской фигуры из побеждённых вами в прошлом бою, и она присоединяется к вам с <HighLight>1</> звездой.",
     ["风暴不息霸体"] = "Неутихающий шторм: суперброня",
+    ["Attribute Recommendation"] = "Рекомендация характеристик",
+    ["点烟成就怎么做"] = "Как выполнить достижение «Прикурить»?",
+    ["米索尔"] = "Мисор",
+    ["Rum"] = "Ром",
+    ["神降 荣光织造·羽翼"] = "Нисхождение Бога: Плетение Славы — Крылья",
+    ["Go back and check on <h> Pagnia </>"] = "Вернуться и проведать <h>Паркину</>",
     ["The Baroness stated that she had entered the study before <InvHighlight> three o'clock </> in the afternoon. \n Baron Hawkes has been increasingly abnormal mentally recently, insisting on studying that suspicious antique. \n The couple had a fierce argument over the antique, and the Baroness left in anger. \n When she left, Baron Hawkes was still sitting at the desk drinking tea, likely waiting for Dr. Evan to come for a follow-up visit."] = "Баронесса утверждает, что заходила в кабинет <InvHighlight>до трех часов</> пополудни.\nВ последнее время рассудок барона Хоукса все больше помрачался, и он упорно исследовал тот подозрительный антиквариат.\nСупруги яростно поссорились из-за этой вещицы, после чего баронесса в гневе удалилась.\nКогда она уходила, барон Хоукс все еще сидел за письменным столом и пил чай — вероятно, дожидаясь повторного визита доктора Эвана.",
     ["Maeve"] = "Мейв",
 }
