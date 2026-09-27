@@ -236,6 +236,7 @@ return {
     ["Throw two doomsday cards to pierce enemies in front, dealing a total of {*d,F1690001,atkMin,2.6} Attack damage. Then increase Attack Speed by <HighLight>20%</> and Attack by <HighLight>15%</> for <HighLight>4</> seconds."] = "Бросает две карты Судного дня, пронзающие врагов впереди, в сумме {*d,F1690001,atkMin,2.6} ед. урона от атаки. Затем повышает скорость атаки на <HighLight>20%</> и атаку на <HighLight>15%</> на <HighLight>4</> сек.",
     ["普通伤害：<HighLight>300%</>攻击，低生命目标伤害：<HighLight>400%</>攻击。"] = "Обычный урон: <HighLight>300%</> атаки, урон по цели с низким здоровьем: <HighLight>400%</> атаки.",
     ["Shoot at distant targets with a gun."] = "Стреляет из ружья по дальним целям.",
+    ["令血玫在周身绽放，伤害附近敌人。"] = "Заставляет кровавые розы расцвести вокруг себя, нанося урон находящимся поблизости врагам.",
     ["Marcelo"] = "Марсело ·",
     ["采集指定TemplateID的采集物  对象发送场景事件"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["Hugh"] = "Сио ·",

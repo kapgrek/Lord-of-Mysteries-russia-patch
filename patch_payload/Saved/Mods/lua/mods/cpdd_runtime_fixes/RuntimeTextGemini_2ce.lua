@@ -254,6 +254,7 @@ return {
     ["Retrieve that <h>Tarot card</>"] = "Заберите ту <h>карту Таро</>",
     ["Reach the rank of King of Angels in Fool's Gambit."] = "Достигните в «Гамбите Шута» ранга «Король ангелов».",
     ["金币不足，无法购买棋子！"] = "Недостаточно золотых монет для покупки фигуры!",
+    ["引动星空能量，远程攻击当前目标。"] = "Призывает энергию звёздного неба, атакует текущую цель на расстоянии.",
     ["我看不清楚祂真正的模样，只觉得这丰饶的气息似曾相识……"] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
     ["<InvHighlight>\"Morning Dew\"</>, also known as a stimulant—\n\nis concocted from <InvHighlight>the heart of a Dream Catcher</>, spirit flower, and colchicine essence. \nIt can keep the user awake or have the effect of <Mark id=\"#159\">Healing narcolepsy</>."] = "<InvHighlight>«Утренняя роса»</>, также именуемая бодрящим снадобьем:——\n\nизготавливается из <InvHighlight>сердца ловца снов</>, цветка эльфов и эссенции безвременника.\nПомогает прогнать сонливость и обладает эффектом <Mark id=\"#159\">исцеления нарколепсии</>.",
 }

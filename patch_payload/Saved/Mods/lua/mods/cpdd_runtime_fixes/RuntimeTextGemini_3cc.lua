@@ -257,4 +257,5 @@ return {
     ["Did something fall off the Golden Wolf?"] = "Что-то упало с Золотого Волка?",
     ["Secrets Suppliant"] = "Молящийся о Секретах",
     ["Passive_Skill resource increase"] = "Увеличение ресурса Passive_Skill",
+    ["释放哀恸震击，伤害目标及其周围敌人。"] = "Высвобождает удар скорби, нанося урон цели и врагам вокруг неё.",
 }

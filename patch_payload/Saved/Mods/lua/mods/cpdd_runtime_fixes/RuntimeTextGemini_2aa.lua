@@ -268,5 +268,6 @@ return {
     ["I understand. I used to be a nurse and know how cruel war is; the trauma you have suffered cannot be erased."] = "Я понимаю. Раньше я работала медсестрой и знала, насколько жестока война; Травму, которую вы перенесли, невозможно стереть.",
     ["Immobilization before execution"] = "Иммобилизация перед казнью",
     ["Obtain 12 Gold Coin."] = "Даёт 12 золотых монет.",
+    ["失血狂性"] = "Кровожадная ярость",
     ["播放Dialogue  玩家发送任务道具"] = "Игра «Диалог». Игрок отправляет квестовый предмет.",
 }

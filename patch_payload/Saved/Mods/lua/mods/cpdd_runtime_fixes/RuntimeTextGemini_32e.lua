@@ -245,6 +245,7 @@ return {
     ["Day of Conquest"] = "День завоевания",
     ["立即获得<HighLight>6金币</>，此后<HighLight>每个阶段开始时</>再获得<HighLight>6金币</>。"] = "Немедленно даёт <HighLight>6 золотых монет</>, а затем <HighLight>в начале каждого этапа</> — ещё <HighLight>6 золотых монет</>.",
     ["防御降低<HighLight>10%</>，持续<HighLight>10</>秒。"] = "Защита снижена на <HighLight>10%</> на <HighLight>10</> сек.",
+    ["使用后获得<Highlight>喵呜贼顶饰</>\n重复获取将自动分解为绑定金镑×100"] = "После использования вы получите <Highlight>Головной убор «Мяу-воришка»</>\nПри повторном получении будет автоматически разложено на 100 привязанных золотых фунтов",
     ["　　<Letter_Highlight>\"Great Adventurer: Gehrman's Sea Adventures\"</>\n　　Borrower: Danny \n\n　　<Letter_Highlight>\"Fundamentals of Mechanical Engineering\"</>\n　　Borrower: Felix\n　　……\n　　For the normal circulation of books, I hope these readers will return the borrowed books as soon as possible, study the rules and regulations related to borrowing carefully, and comply with them."] = "　　<Letter_Highlight>«Великий авантюрист: Морские приключения Германа»</>\n　　Читатель: Дэнни \n\n　　<Letter_Highlight>«Основы машиностроения»</>\n　　Читатель: Феликс\n　　……\n　　Ради надлежащего библиотечного обращения просим данных читателей как можно скорее вернуть взятые книги, а также внимательно изучить и соблюдать правила пользования библиотекой.",
     ["Annika"] = "Анника",
     ["嘿，这是偷袭！"] = "Эй, это скрытная атака!",

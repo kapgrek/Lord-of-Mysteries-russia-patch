@@ -261,4 +261,5 @@ return {
     ["Atmospheric Pig"] = "Атмосферная свинья",
     ["Go to Place"] = "Перейти к месту",
     ["Guild League altar being contested"] = "Алтарь Лиги гильдий оспаривается",
+    ["恶名"] = "Дурная слава",
 }

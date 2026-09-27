@@ -238,6 +238,7 @@ return {
     ["How is interest calculated in Fool's Gambit?"] = "Как считаются проценты в «Гамбите Шута»?",
     ["Function_Receive Extra Damage from Gold Coin"] = "Function_Дополнительный урон от золотой монеты",
     ["Sealed Equipment Chest"] = "Ларец запечатанного снаряжения",
+    ["对<HighLight>2</>格内当前目标造成<HighLight>100%攻击伤害</>。"] = "Наносит текущей цели в пределах <HighLight>2</> клеток <HighLight>100% урона от атаки</>.",
     ["收获%d/100个优质食坊物产。"] = "Соберите %d/100 первоклассных продуктов кулинарной лавки.",
     ["Roxanne"] = "Роксана",
 }

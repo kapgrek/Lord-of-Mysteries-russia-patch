@@ -246,5 +246,6 @@ return {
     ["2 [Spellcraft]额外获得15%攻击力，且每次施法：自身获得1%攻击力。"] = "2 [Колдовство] дает дополнительно 15% атаки, и при каждом применении навыка: сам персонаж получает 1% атаки.",
     ["<InvDefault>Upon obtaining the outfit, Beyonders will also simultaneously unlock an exclusive avatar.</>"] = "<InvDefault>Вместе с нарядом Потусторонние получат и эксклюзивный аватар.</>",
     ["前方4格×4格矩形"] = "Прямоугольник 4×4 клетки впереди",
+    ["恐惧能量冲击周围敌人，三星时伤害提高。"] = "Энергия страха поражает окружающих врагов, при трёх звёздах урон повышается.",
     ["<Highlight>Craft: </>Flowing Light Silk/Scale Powder Pointing\nAlthough the butterfly has already left at dusk, the phantom of its wings still lingers on the cloak."] = "<Highlight>Мастерство: </>Струящийся шелк · Роспись чешуйчатой пыльцой\nХотя бабочка уже улетела в сумерках, фантом её крыльев всё ещё задерживается на плаще.",
 }

@@ -258,5 +258,6 @@ return {
     ["Immediately gain 6 Gold Coins<HighLight></>, and thereafter gain 6 more Gold Coins at the start of each stage<HighLight></><HighLight></>."] = "Немедленно даёт <HighLight>6 золотых монет</>, а затем <HighLight>в начале каждого этапа</> — ещё <HighLight>6 золотых монет</>.",
     ["Complete a Fool's Gambit game"] = "Сыграть одну партию в «Гамбит Шута»",
     ["进阶线路"] = "Продвинутый маршрут",
+    ["挥动锁链攻击当前目标，并将其牵向身前。"] = "Взмахивает цепью, атакуя текущую цель и притягивая её к себе.",
     ["Mavis"] = "Мэвис",
 }

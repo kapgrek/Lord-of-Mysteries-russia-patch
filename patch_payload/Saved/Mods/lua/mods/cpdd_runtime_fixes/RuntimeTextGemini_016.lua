@@ -267,6 +267,7 @@ return {
     ["Swift-Hunt"] = "Быстрая охота",
     ["Hunt Feedback"] = "Отклик охоты",
     ["After opening, you can choose 1 piece of Excellent Equipment from the candidates."] = "После открытия можно выбрать 1 предмет отличного снаряжения из предложенных.",
+    ["参加愚者棋局玩法可获得，可在棋坛商店中使用。"] = "Можно получить, участвуя в режиме «Гамбит Шута»; используется в магазине Шахматной арены.",
     ["Sequence\r\nWill inevitably lead to loss of control"] = "Порядок\nНеминуемо приведет к Потере Контроля",
     ["Azalea"] = "Азалия",
     ["Brock"] = "Брок",

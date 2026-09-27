@@ -255,6 +255,7 @@ return {
     ["<HighLight> Execution on low-Health enemies </>"] = "<HighLight>Добивает врагов с низким здоровьем</>",
     ["Swing claws to tear at nearby targets."] = "Рвёт когтями и кусает ближайшие цели.",
     ["挑战线路"] = "Маршрут испытания",
+    ["闪电射线贯穿前方敌人，结束时范围爆发。"] = "Луч молнии пронзает врагов впереди, в конце вызывая взрыв по области.",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }
