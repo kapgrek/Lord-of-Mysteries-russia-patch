@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.6-RU"
+local VERSION = "3.0.7-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -3858,6 +3858,36 @@ runtimeFixes.isSingleCjkChar = function(text)
     return type(text) == "string" and text:match("^%s*[\228-\233][\128-\191][\128-\191]%s*$") ~= nil
 end
 
+-- Game terms (mode names) inside user-content widgets (TASK-022 R1):
+-- "Вы инициировали подбор игроков 愚者棋局." Only standalone runs from this
+-- list are replaced by an exact shard hit; nicknames are never looked up.
+runtimeFixes.UserContentTermFragments = { ["愚者棋局"] = true }
+runtimeFixes.translateUserContentTerms = function(value)
+    if type(value) ~= "string" or not hasCjk(value) then return value end
+    local terms = runtimeFixes.UserContentTermFragments
+    local ideograph = "[\228-\233][\128-\191][\128-\191]"
+    local parts, position = {}, 1
+    while true do
+        local first, last = value:find(ideograph, position)
+        if first == nil then break end
+        while true do
+            local nextFirst, nextLast = value:find("^" .. ideograph, last + 1)
+            if nextFirst == nil then break end
+            last = nextLast
+        end
+        parts[#parts + 1] = value:sub(position, first - 1)
+        local run = value:sub(first, last)
+        if terms[run] and runtimeFixes.isStandaloneCjkRun(value, first, last) then
+            local hit = lookupGeminiText(run)
+            if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then run = hit end
+        end
+        parts[#parts + 1] = run
+        position = last + 1
+    end
+    parts[#parts + 1] = value:sub(position)
+    return table.concat(parts)
+end
+
 runtimeFixes.collapseSpacedCharacters = function(text)
     if type(text) ~= "string" or text == "" then return text end
     if #text >= 60 then return text end
@@ -4708,16 +4738,32 @@ local function translateTextWidget(widget, discoveryContext)
     local wName = widgetName:lower()
     local isEscLocked = false
     pcall(function() isEscLocked = (widget.__cpddEscMenuLocked == true) end)
+    local d = runtimeFixes.Diag
+    -- TASK-022 R0: why a text with an exact shard key stayed as is.
+    local function noteSkip(reason)
+        if d and d.NoteTextSkip and currentText ~= nil then
+            local hit = lookupGeminiText(currentText)
+            if hit ~= nil and hit ~= currentText then d.NoteTextSkip(widget, currentText, reason) end
+        end
+    end
     if wName:find("talkcontent") or isEscLocked or (ESC_MENU_LOCKED and wName:find("menubtn")) then
+        noteSkip(wName:find("talkcontent") and "talkcontent" or "esc")
         return 0
     end
 
     local repairedCount = 0
     local translated = nil
-    local d = runtimeFixes.Diag
+    local skipReason = "unchanged"
 
     if currentText ~= nil then
         local collapsedCurrent = runtimeFixes.collapseSpacedCharacters(currentText)
+        if d and d.NoteTextSkip then
+            if visibleTextCache[collapsedCurrent] == collapsedCurrent then
+                skipReason = "cache"
+            elseif runtimeFixes.VisibleMiss.map[collapsedCurrent] ~= nil then
+                skipReason = "miss"
+            end
+        end
         local candidate = translateVisibleText(collapsedCurrent)
         if candidate ~= nil and candidate ~= collapsedCurrent and (runtimeFixes.hasCyrillic(candidate) or candidate ~= currentText) then
             translated = candidate
@@ -4738,9 +4784,19 @@ local function translateTextWidget(widget, discoveryContext)
         if hasCjk(currentText) or hasCjk(translated) then
             if runtimeFixes.isUserContentWidget(widget, widgetName) then
                 -- Player-made text: only a complete translation, never a
-                -- single-character key ("安" → "Энн" inside "晚安").
-                if runtimeFixes.isSingleCjkChar(collapsedCurrent) or hasCjk(translated) then
+                -- single-character key ("安" → "Энн" inside "晚安"). Listed
+                -- game terms only (TASK-022 R1), and only if no Chinese is left.
+                if runtimeFixes.isSingleCjkChar(collapsedCurrent) then
                     translated = currentText
+                    skipReason = "user"
+                elseif hasCjk(translated) then
+                    local terms = runtimeFixes.translateUserContentTerms(translated)
+                    if hasCjk(terms) then
+                        translated = currentText
+                        skipReason = "user"
+                    else
+                        translated = terms
+                    end
                 end
             elseif hasCjk(translated) then
                 translated = runtimeFixes.translateMixedFragments(translated)
@@ -4772,6 +4828,8 @@ local function translateTextWidget(widget, discoveryContext)
             end)
             repairedCount = changed and 1 or 0
             if changed and d then d.NoteTextChange(widget, currentText, translated) end
+        else
+            noteSkip(skipReason)
         end
     end
 

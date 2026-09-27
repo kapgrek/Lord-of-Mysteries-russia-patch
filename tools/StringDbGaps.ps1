@@ -13,6 +13,7 @@
 #   powershell -File tools\StringDbGaps.ps1 -Emit batch_034_stringdb_s5.json -Category ui,text,skill,quest -OnScreen -Logs … -Sid …
 #   powershell -File tools\StringDbGaps.ps1 -EmitData batch_034_stringdb_s5.json -Fields BriefDescription,SkillDisc -Logs … -Sid …
 #   powershell -File tools\StringDbGaps.ps1 -EmitProbe batch_034_stringdb_s5.json -Logs … -Sid …   (шаблоны карточек Автошахмат, TASK-020)
+#   powershell -File tools\StringDbGaps.ps1 -EmitList batch_036_stringdb_s5_p4.json -ListFile temp\t022\emit_list.txt   (строки списком, TASK-022)
 #
 # Пишет только внутри репозитория: CSV в temp\, батчи в source\translation_batches\.
 param(
@@ -25,6 +26,8 @@ param(
     [string]$EmitData,             # имя батча: китайский из данных KSBC (src=data) по полям -Fields (TASK-019)
     [string[]]$Fields,
     [string]$EmitProbe,            # имя батча: шаблоны GenerateTipsDesc из session.json -> probes (TASK-020)
+    [string]$EmitList,             # имя батча: строки из -ListFile (UTF-8, строка на строку, \n — литерал; TASK-022)
+    [string]$ListFile,
     [string]$Aliases,              # имя батча: алиасы для строк, отличающихся от батча регистром/пробелами/тегами
     [string]$Csv                   # по умолчанию temp\stringdb_gaps.csv
 )
@@ -242,7 +245,7 @@ foreach ($p in $Logs) {
         foreach ($f in Get-ChildItem -LiteralPath $full -Recurse -File -Filter 'absru-s*-untranslated-*.jsonl') { $logFiles.Add($f.FullName) }
     } elseif (Test-Path -LiteralPath $full) { $logFiles.Add($full) }
 }
-if ($logFiles.Count -eq 0) { throw "Логи untranslated не найдены: $($Logs -join ', ')" }
+if ($logFiles.Count -eq 0 -and -not $EmitList) { throw "Логи untranslated не найдены: $($Logs -join ', ')" }
 
 $json = New-Object System.Web.Script.Serialization.JavaScriptSerializer
 $json.MaxJsonLength = [int]::MaxValue
@@ -330,7 +333,7 @@ foreach ($r in $rows.Values) {
 $all = @($rows.Values | Sort-Object module, { [decimal]$_.row })
 
 # --- Отчёт ---------------------------------------------------------------------------------------
-if ($Report -or (-not $Emit -and -not $Aliases -and -not $EmitData)) {
+if ($Report -or (-not $Emit -and -not $Aliases -and -not $EmitData -and -not $EmitList)) {
     $csvPath = $(if ($Csv) { Resolve-RepoPath $Csv } else { Join-Path $repo 'temp\stringdb_gaps.csv' })
     New-Item -ItemType Directory -Force (Split-Path $csvPath -Parent) | Out-Null
     $csvText = ($all | Select-Object category, on_screen, module, row, cn, en, alias_key, ru | ConvertTo-Csv -NoTypeInformation) -join "`n"
@@ -490,4 +493,26 @@ if ($EmitProbe) {
     }
     Write-Host ("EmitProbe: session.json {0}; новых шаблонов {1}; известных {2}" -f $sessionFiles.Count, $recs.Count, $known)
     if ($recs.Count -gt 0) { Add-BatchRecords $EmitProbe $recs } else { Write-Host 'Новых строк для записи нет.' }
+}
+
+if ($EmitList) {
+    # Строки списком (TASK-022): WidgetText, который -EmitData не берёт, и английские алиасы Blueprint.
+    # source_cn = строка, ref_en пусто; известные ключи и повторы пропускаются, как в -EmitData.
+    if (-not $ListFile) { throw 'Для -EmitList нужен -ListFile <файл.txt>' }
+    $listPath = Resolve-RepoPath $ListFile
+    if (-not (Test-Path -LiteralPath $listPath)) { throw "Файл списка не найден: $ListFile" }
+    $lines = [IO.File]::ReadAllText($listPath, [Text.Encoding]::UTF8).TrimStart([char]0xFEFF).Replace("`r`n", "`n").Split("`n")
+    $recs = New-Object 'System.Collections.Generic.List[object]'
+    $skipped = @{ known = 0; repeat = 0 }
+    foreach ($line in $lines) {
+        $src = Get-TrimmedKey ($line.Replace('\n', "`n"))
+        if (-not $src) { continue }
+        $hit = Find-ShardTranslation $src
+        if (($null -ne $hit -and $hit -match '[Ѐ-ӿ]') -or $batchKeyInfo.ContainsKey($src)) { $skipped.known++; continue }
+        if (-not $usedKeys.Add($src)) { $skipped.repeat++; continue }
+        $recs.Add([pscustomobject]@{ id = ('{0:D6}' -f $nextId); source_cn = $src; ref_en = ''; target_ru = '' })
+        $nextId++
+    }
+    Write-Host ("EmitList: новых {0}; пропущено: известные {1}, повторы {2}" -f $recs.Count, $skipped.known, $skipped.repeat)
+    if ($recs.Count -gt 0) { Add-BatchRecords $EmitList $recs } else { Write-Host 'Новых строк для записи нет.' }
 }

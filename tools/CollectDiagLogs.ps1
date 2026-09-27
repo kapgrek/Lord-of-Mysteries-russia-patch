@@ -280,7 +280,7 @@ function Get-BatchStatus([string[]]$texts) {
 }
 # Не настоящие промахи: идентификаторы в данных (WEEK, DAY, SUNDAY…) и тексты скрытых виджетов (заглушки макета)
 function Get-UntranslatedGroup([string]$src, [string]$field, [string]$text, $visible) {
-    if ($src -eq 'data' -and $field -match '^(Key|StringValue)$|Limit' -and $text -cmatch '^[A-Z][A-Z0-9_]*$') { return 'identifier' }
+    if ($src -eq 'data' -and $field -match '^(Key|StringValue)$|Limit|(Goods|Part|Station|Effect|Condition)Type$|CompareOperator$|DropActionEnum' -and $text -cmatch '^[A-Z][A-Z0-9_]*$') { return 'identifier' }
     if ($src -eq 'widget' -and $visible -eq $false) { return 'hidden' }
     return ''
 }
@@ -760,6 +760,31 @@ foreach ($sid in $selected) {
         }
     }
 }
+# TASK-022 R0: probes.text_skip — why a text with an exact shard key stayed as is (v3.0.7+).
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('## Пробы TASK-022')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('`text_skip`: текст с точным ключом в шардах остался без перевода. `cache` — `visibleTextCache` вернул исходник, `miss` — `VisibleMiss`, `user` — виджет пользовательского контента, `talkcontent`/`esc` — ранний выход, `unchanged` — прочее.')
+[void]$sb.AppendLine('')
+$skipRows = 0
+foreach ($sid in $selected) {
+    $probes = Get-V $sessions[$sid].Session 'probes'
+    if (-not $probes) { continue }
+    $skips = @(@(Get-V $probes 'text_skip') | Where-Object { $_ })
+    if ($skips.Count -eq 0) { continue }
+    [void]$sb.AppendLine("Сессия ``$sid``, записей: $($skips.Count).")
+    [void]$sb.AppendLine('')
+    [void]$sb.AppendLine('| t | reason | text | path | scope |')
+    [void]$sb.AppendLine('|---|---|---|---|---|')
+    foreach ($k in $skips) {
+        $path = [string](Get-V $k 'path')
+        $path = $path -replace '^/Engine/Transient\.[^:]*:[^.]*\.', ''
+        [void]$sb.AppendLine("| $(Get-V $k 't') | $(Get-V $k 'reason') | $(Cell ([string](Get-V $k 'text'))) | $(Cell $path) | $(Cell ([string](Get-V $k 'scope'))) |")
+        $skipRows++
+    }
+    [void]$sb.AppendLine('')
+}
+if ($skipRows -eq 0) { [void]$sb.AppendLine('Записей `text_skip` нет.') }
 Write-Text (Join-Path $reportDir 'late.md') $sb.ToString()
 
 # 7. Непереведённое --------------------------------------------------------------------------------
@@ -821,7 +846,7 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('')
 [void]$sb.AppendLine("Сессии: $($selected -join ', '). Виджеты и данные: $($untrRows.Count) уникальных (после офлайн-фильтра чисел, плейсхолдеров и аббревиатур). StringDB: $($dbAgg.Count) строк.")
 [void]$sb.AppendLine('Сверка с `source/translation_batches` побайтно, как в рантайме: «перевод есть, не применился» — ключ есть в батче с `target_ru` (значит, текст не прошёл через перевод); «ключ отличается регистром/пробелами» — в батче тот же текст в другом регистре или с другими пробелами, нужен алиас (`tools/StringDbGaps.ps1 -Aliases`); «не переведено в батче» — есть без перевода; «нет в батчах».')
-[void]$sb.AppendLine('Идентификаторы данных (`Key`, `*Limit*`, `StringValue` в ВЕРХНЕМ_РЕГИСТРЕ) и тексты скрытых виджетов (`vis=False`) вынесены в конец: это не промахи перевода.')
+[void]$sb.AppendLine('Идентификаторы данных (`Key`, `*Limit*`, `StringValue`, енумы `GoodsType`/`PartType`/`StationType`/`*EffectType`/`*ConditionType`/`*CompareOperator`/`DropActionEnum` в ВЕРХНЕМ_РЕГИСТРЕ) и тексты скрытых виджетов (`vis=False`) вынесены в конец: это не промахи перевода.')
 [void]$sb.AppendLine('')
 $realRows = @($untrRows | Where-Object { -not $_.group })
 foreach ($status in @('перевод есть, не применился', 'ключ отличается регистром/пробелами', 'не переведено в батче', 'нет в батчах')) {

@@ -1161,6 +1161,41 @@ function D.NoteTipsMissing(tipsString)
     S.flushSoon = true
 end
 
+-- Why a pass left a widget text with an exact shard key as is (TASK-022 R0):
+-- reason talkcontent | esc | cache | miss | user | unchanged; up to 200
+-- unique "path|text|reason" -> session.json probes.text_skip[].
+function D.NoteTextSkip(widget, text, reason)
+    local TEXT_SKIP_MAX, TEXT_SKIP_PATH = 200, 512
+    if S.disabled or type(text) ~= "string" then
+        return
+    end
+    local list = S.probes.text_skip
+    if list ~= nil and #list >= TEXT_SKIP_MAX then
+        return
+    end
+    local path = clip(objectPath(widget) or objectName(widget) or "?", TEXT_SKIP_PATH)
+    local why = tostring(reason or "unchanged")
+    local key = path .. "|" .. text .. "|" .. why
+    S.textSkipSeen = S.textSkipSeen or {}
+    if S.textSkipSeen[key] then
+        return
+    end
+    S.textSkipSeen[key] = true
+    if list == nil then
+        list = array()
+        S.probes.text_skip = list
+    end
+    local top = S.stack[S.depth]
+    list[#list + 1] = {
+        t = stamp("%H:%M:%S"), path = path, text = clip(text, TIPS_PROBE_TEXT), reason = why,
+        scope = type(top) == "table" and top.id or nil,
+    }
+    S.flushSoon = true
+    if #list == 1 then
+        warn("[AbsruDiag] probe textskip n=1")
+    end
+end
+
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
 -- last Refresh of the Settings_*_Item classes (class-level wrappers found on
 -- instances at UIComponent.Open) and each panel pass with its style_changes.

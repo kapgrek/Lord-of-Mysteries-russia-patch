@@ -5,6 +5,8 @@
 #   -ExportNew -BatchFile <батч> [-Count 50]  строки с пустым target_ru чанками (mode = "new", terms + names), TASK-019
 #   -Import   <файл>              ответ { "batch_005:020853": "новый target_ru" } с проверкой канона и разметки
 #   -BuildDoc                     пересобрать docs/GLOSSARY.md из source/glossary/*.json
+#   -Glossary <файл>              глоссарий терминов для -Report/-FixShort/-Export/-ExportNew/-Import (по умолчанию combat_stats.json;
+#                                 имя в source/glossary или путь). Термин с "scan_markup": true ищется и внутри {…}-вставок (TASK-022)
 # Корзины: ok — канон есть, запрещённых вариантов нет; A — короткая подпись, которую можно заменить каноном целиком;
 # B — есть известный неверный вариант; C — ни канона, ни варианта; S — служебный ключ или пустой ref_en;
 # E — перевода нет (target_ru пуст); X — термин только внутри cn_exclude (ложное совпадение).
@@ -18,7 +20,8 @@ param(
     [switch]$BuildDoc,
     [string[]]$Terms = @(),
     [int]$Count = 50,
-    [string]$ReportFile = ''
+    [string]$ReportFile = '',
+    [string]$Glossary = 'combat_stats.json'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -36,6 +39,9 @@ $itemRegex = [regex]::new('\{\s*"id"\s*:\s*"(?<id>[^"]+)"\s*,\s*"source_cn"\s*:\
 $unescapeRegex = [regex]::new('\\(u[0-9a-fA-F]{4}|.)', $ro::Compiled)
 # Разметка, которую маскируем перед поиском терминов в target_ru: теги (с атрибутами) и {…}-вставки
 $markupRegex = [regex]::new('<[^<>]*>|\{[^{}]*\}', $ro::Compiled)
+# Для терминов scan_markup маскируются только теги: {1,2,（烙印已失效）} — видимый текст макроса
+$tagRegex = [regex]::new('<[^<>]*>', $ro::Compiled)
+$macroRegex = [regex]::new('\{\d+,\d+,')
 $serviceRegex = [regex]::new('_(数值|百分比|值)|[A-Za-z0-9]_[A-Za-z0-9]', $ro::Compiled)
 $punctRegex = [regex]::new('[\p{P}\p{S}\s\d]', $ro::Compiled)
 
@@ -66,9 +72,14 @@ function Read-Text([string]$path) {
 }
 
 # --- Глоссарий ---
-$glossary = (Read-Text (Join-Path $glossaryDir 'combat_stats.json')) | ConvertFrom-Json
+$glossaryPath = if ([System.IO.Path]::IsPathRooted($Glossary) -or $Glossary -match '[\\/]') { $Glossary } else { Join-Path $glossaryDir $Glossary }
+if (-not (Test-Path $glossaryPath)) { throw "Глоссарий $Glossary не найден" }
+$glossaryPath = (Resolve-Path $glossaryPath).Path
+$glossaryName = [System.IO.Path]::GetFileName($glossaryPath)
+$glossaryData = (Read-Text $glossaryPath) | ConvertFrom-Json
+if (-not $glossaryData.terms) { throw "В $glossaryName нет массива terms" }
 $entries = @()
-foreach ($t in $glossary.terms) {
+foreach ($t in $glossaryData.terms) {
     $parent = if ($t.parent) { [string]$t.parent } else { [string]$t.cn }
     $entries += [PSCustomObject]@{
         cn = [string]$t.cn; parent = $parent; isBase = -not $t.parent
@@ -78,12 +89,14 @@ foreach ($t in $glossary.terms) {
         forbiddenText = @($t.forbidden | Where-Object { $_ })
         exclude = @($t.cn_exclude | Where-Object { $_ })
         note = [string]$t.note
+        scan = [bool]$t.scan_markup
     }
 }
+$anyScan = @($entries | Where-Object { $_.scan }).Count -gt 0
 $baseEntries = @($entries | Where-Object { $_.isBase })
 $byCn = @{}; foreach ($e in $entries) { $byCn[$e.cn] = $e }
 if ($Terms.Count) {
-    foreach ($t in $Terms) { if (-not $byCn.ContainsKey($t) -or -not $byCn[$t].isBase) { throw "Термина $t нет среди базовых в combat_stats.json" } }
+    foreach ($t in $Terms) { if (-not $byCn.ContainsKey($t) -or -not $byCn[$t].isBase) { throw "Термина $t нет среди базовых в $glossaryName" } }
     $baseEntries = @($baseEntries | Where-Object { $Terms -contains $_.cn })
 }
 
@@ -91,12 +104,15 @@ if ($Terms.Count) {
 # Возвращает объект: базовые термины строки с корзинами, все найденные записи (для чанка), признак подписи
 function Test-Row([string]$cn, [string]$en, [string]$ru) {
     $cnPlain = $markupRegex.Replace($cn, '')
-    $ruMasked = $markupRegex.Replace($ru, ' ')
+    $ruPlain = $markupRegex.Replace($ru, ' ')
+    $cnTags = if ($anyScan) { $tagRegex.Replace($cn, '') } else { $cnPlain }
+    $ruTags = if ($anyScan) { $tagRegex.Replace($ru, ' ') } else { $ruPlain }
     $isService = $serviceRegex.IsMatch($cnPlain) -or [string]::IsNullOrWhiteSpace($en)
     $found = @{}   # base cn -> cn с вырезанными исключениями
     foreach ($b in $baseEntries) {
-        if (-not $cnPlain.Contains($b.cn)) { continue }
-        $cut = $cnPlain
+        $cnScan = if ($b.scan) { $cnTags } else { $cnPlain }
+        if (-not $cnScan.Contains($b.cn)) { continue }
+        $cut = $cnScan
         foreach ($x in $b.exclude) { $cut = $cut.Replace($x, '') }
         $found[$b.cn] = $cut
     }
@@ -108,6 +124,7 @@ function Test-Row([string]$cn, [string]$en, [string]$ru) {
         elseif ($isService) { $bucket = 'S' }
         elseif ([string]::IsNullOrWhiteSpace($ru)) { $bucket = 'E' }
         # канон других терминов этой строки не должен считаться запрещённым вариантом (破甲 «пробивание брони» в строке с 穿刺)
+        $ruMasked = if ($b.scan) { $ruTags } else { $ruPlain }
         $masked = $ruMasked
         foreach ($o in $baseEntries) {
             if ($o.cn -ne $b.cn -and $found.ContainsKey($o.cn) -and $o.match) { $masked = $o.match.Replace($masked, ' ') }
@@ -287,7 +304,8 @@ if ($Export) {
             $cnPlain = $markupRegex.Replace($r.cn, '')
             $chunkTerms = @()
             foreach ($e in $entries) {
-                if (-not $cnPlain.Contains($e.cn)) { continue }
+                $cnScan = if ($byCn[$e.parent].scan) { $tagRegex.Replace($r.cn, '') } else { $cnPlain }
+                if (-not $cnScan.Contains($e.cn)) { continue }
                 $bt = @($r.terms | Where-Object { $_.term -eq $e.parent })
                 if ($bt.Count -eq 0 -or $bt[0].bucket -in 'S', 'X', 'E') { continue }
                 $bf = $byCn[$e.parent]
@@ -343,7 +361,8 @@ if ($ExportNew) {
             $rowTerms = @(Test-Row $r.cn $r.en '')
             $chunkTerms = @()
             foreach ($e in $entries) {
-                if (-not $cnPlain.Contains($e.cn)) { continue }
+                $cnScan = if ($byCn[$e.parent].scan) { $tagRegex.Replace($r.cn, '') } else { $cnPlain }
+                if (-not $cnScan.Contains($e.cn)) { continue }
                 $bt = @($rowTerms | Where-Object { $_.term -eq $e.parent })
                 if ($bt.Count -eq 0 -or $bt[0].bucket -in 'S', 'X') { continue }
                 $bf = $byCn[$e.parent]
@@ -401,7 +420,14 @@ if ($Import) {
         if ($new -ceq $old) { $same++; continue }
         $markup = @(Test-Markup $cn $old $new)
         if ($markup.Count) { $rejected += "$key — разметка: $($markup -join ', ')"; continue }
-        $bad = @(Test-Row $cn $en $new | Where-Object { $_.bucket -notin 'ok', 'S', 'X', 'E' })
+        $rowTerms = @(Test-Row $cn $en $new)
+        # Термин scan_markup: макросы {n,m, — те же числа, что в source_cn; текст внутри может меняться (TASK-022)
+        if (@($rowTerms | Where-Object { $byCn[$_.term].scan }).Count) {
+            $macroCn = (@($macroRegex.Matches($cn) | ForEach-Object { $_.Value }) | Sort-Object) -join '|'
+            $macroNew = (@($macroRegex.Matches($new) | ForEach-Object { $_.Value }) | Sort-Object) -join '|'
+            if ($macroCn -ne $macroNew) { $rejected += "$key — макрос {n,m,: $macroNew вместо $macroCn"; continue }
+        }
+        $bad = @($rowTerms | Where-Object { $_.bucket -notin 'ok', 'S', 'X', 'E' })
         if ($bad.Count) { $rejected += "$key — нет канона: $(($bad | ForEach-Object { "$($_.term) ($($_.bucket)$(if ($_.bad) { ": $($_.bad)" }))" }) -join '; ') → $new"; continue }
         if (-not $changes.ContainsKey($file)) { $changes[$file] = @{} }
         $changes[$file][$id] = $new
@@ -419,6 +445,11 @@ if ($BuildDoc) {
     foreach ($n in 'combat_stats', 'terms_and_items', 'characters_and_factions', 'locations_and_geography', 'pathways_and_sequences') {
         $j[$n] = (Read-Text (Join-Path $glossaryDir "$n.json")) | ConvertFrom-Json
     }
+    # Прочие глоссарии со схемой terms (ui_traintrade.json и т. п., TASK-022) — подразделы раздела 1
+    $extraTerms = @(Get-ChildItem $glossaryDir -Filter '*.json' | Sort-Object Name | Where-Object { $_.BaseName -notin $j.Keys } | ForEach-Object {
+        $g = (Read-Text $_.FullName) | ConvertFrom-Json
+        if ($g.terms) { [PSCustomObject]@{ name = $_.BaseName; data = $g } }
+    })
     $sb = New-Object System.Text.StringBuilder
     function Add([string]$s = '') { [void]$sb.AppendLine($s) }
     function Add-Table($list, [string[]]$extra = @()) {
@@ -446,6 +477,20 @@ if ($BuildDoc) {
         Add "| $name | $($t.ru) | $short | $($t.en) | $bad | $($t.note) |"
     }
     Add
+    foreach ($g in $extraTerms) {
+        $title = if ($g.data.title) { [string]$g.data.title } else { $g.name }
+        Add "### $title (``$($g.name).json``)"
+        Add
+        Add '| 中文 | Русский | Подпись | English | Неверные варианты | Примечание |'
+        Add '|---|---|---|---|---|---|'
+        foreach ($t in $g.data.terms) {
+            $bad = if ($t.forbidden) { (@($t.forbidden) | ForEach-Object { '`' + ($_ -replace '\|', '\|') + '`' }) -join ', ' } else { '' }
+            $short = if ($t.ru_short) { $t.ru_short } else { $t.ru }
+            $name = if ($t.parent) { "&nbsp;&nbsp;$($t.cn)" } else { "**$($t.cn)**" }
+            Add "| $name | $($t.ru) | $short | $($t.en) | $bad | $($t.note) |"
+        }
+        Add
+    }
     Add '## 2. Пути и последовательности'
     Add
     Add '| Путь | Группа | 9 | 8 | 7 | 6 | 5 | 4 | 3 | 2 | 1 | 0 |'
