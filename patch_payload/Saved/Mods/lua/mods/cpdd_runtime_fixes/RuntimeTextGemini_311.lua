@@ -261,5 +261,5 @@ return {
     ["Ancestral Dragon"] = "Праотец-дракон",
     ["ᴛop̈"] = "ᴛop̈",
     ["Club Brawl Redemption Box"] = "Ящик повторной выдачи: Клубная потасовка",
-    ["沙盘刻名者"] = "Name Carver on the Sand Table",
+    ["沙盘刻名者"] = "Резчик имён на песочном столе",
 }

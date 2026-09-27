@@ -251,4 +251,5 @@ return {
     ["A furious howl shocks the surroundings, providing a Shield for the self."] = "Яростный вой сотрясает всё вокруг и даёт себе щит.",
     ["Level 69 Unbound Competition Equipment Chest"] = "Непривязанный ящик состязательной экипировки (69 ур.)",
     ["Normal Custom Marker"] = "Обычная пользовательская метка",
+    ["Bring Will back to the adults"] = "Отвести Уилла обратно к взрослым",
 }

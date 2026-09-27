@@ -268,6 +268,6 @@ return {
     ["ᴘᴛᴍf¸cи"] = "ᴘᴛᴍf¸cи",
     ["Head to Four-Way League (Not Started)"] = "Перейти в Лигу четырёх сторон (не открыто)",
     ["特别酒单"] = "Специальное меню напитков",
-    ["Compliment the weather"] = "Compliment the weather",
+    ["Compliment the weather"] = "Похвалить погоду",
     ["Cullen"] = "Каллен",
 }

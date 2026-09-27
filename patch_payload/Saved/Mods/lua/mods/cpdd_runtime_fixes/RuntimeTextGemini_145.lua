@@ -309,5 +309,5 @@ return {
     ["Clerk advertisement"] = "Реклама продавца",
     ["拖动非凡装备"] = "Перетащите потустороннее снаряжение",
     ["Find the possible cause of the foul odor"] = "Найти возможную причину неприятного запаха",
-    ["往昔之书正在锚定历史"] = "The Book of the Past is anchoring history.",
+    ["往昔之书正在锚定历史"] = "Книга Прошлого закрепляет историю.",
 }

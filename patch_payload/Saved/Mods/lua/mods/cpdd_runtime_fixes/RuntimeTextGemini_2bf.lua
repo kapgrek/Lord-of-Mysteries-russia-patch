@@ -271,6 +271,6 @@ return {
     ["Fake player"] = "Поддельный игрок",
     ["Magnificent Curtain Call · End"] = "Пышный финал · Конец",
     ["Speak with <h> Count Lucien </>"] = "Поговорить с <h>графом Люсьеном</>",
-    ["签名歪歪扭扭"] = "The signature is crooked",
+    ["签名歪歪扭扭"] = "Подпись кривая и неровная",
     ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

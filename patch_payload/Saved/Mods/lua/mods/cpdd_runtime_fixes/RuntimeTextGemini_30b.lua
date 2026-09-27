@@ -269,5 +269,6 @@ return {
     ["Fashion Corridor - Sefirah Luxury"] = "Галерея моды — Сефира-люкс",
     ["前往玩法"] = "Перейти в режим",
     ["Chat with Parkina"] = "Поговорить с Паркиной",
+    ["Unlocked after obtaining the Song of Iron and Blood outfit"] = "Разблокируется после получения костюма «Песнь железа и крови»",
     ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }

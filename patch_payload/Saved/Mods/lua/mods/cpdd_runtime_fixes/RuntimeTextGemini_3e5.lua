@@ -233,6 +233,6 @@ return {
     ["<HighLight>16</> [Evernight Tiles], executes enemies with less than <HighLight>32%</> Health."] = "<HighLight>16</> 【Клеток ночи】, добивают врагов с здоровьем ниже <HighLight>32%</>.",
     ["<CostRed>{1,2, (Brand Expired) }</>Armor Break increased by <Mark>140</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by team members. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Прорыв защиты повышается на <Mark>140</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел.\n<Mark>Добродетель</>: оружие <Mark>Обитель знаний</> дополнительно повышает бонус атаки в зависимости от <Mark>Добродетели</>, которой обладают члены отряда.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["拖拽"] = "Перетаскивание",
-    ["Hehe, Herodotus might be surprised."] = "Hehe, Herodotus might be surprised.",
+    ["Hehe, Herodotus might be surprised."] = "Хе-хе, Геродот будет удивлён.",
     ["只是碰巧走过的地方多了点，见过的事怪了点。"] = "Мне просто довелось исходить чуть больше дорог и повидать чуть больше странностей.",
 }

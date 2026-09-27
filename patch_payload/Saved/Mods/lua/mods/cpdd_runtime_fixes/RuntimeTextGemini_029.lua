@@ -265,5 +265,6 @@ return {
     ["Cookie Rain bombards enemies, healing the ally with the lowest health."] = "Дождь из печенья обрушивается на врагов и лечит союзника с наименьшим здоровьем.",
     ["bmᴣ"] = "bmᴣ",
     ["For example, you, and for example, me."] = "Например, ты, и например, я.",
+    ["First Win Tip"] = "Подсказка о первой победе",
     ["任务自定义事件  玩家开启Letter界面"] = "Пользовательское событие задания; игрок открывает окно писем.",
 }

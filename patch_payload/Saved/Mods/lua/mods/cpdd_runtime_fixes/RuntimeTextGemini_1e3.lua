@@ -246,8 +246,8 @@ return {
     ["Rare · Armor-Eroding Device"] = "Редкое · Бронеразъедающее устройство",
     ["<HighLight> Increases Attack Speed when at low Health </>"] = "<HighLight>Скорость атаки растёт при низком здоровье</>",
     ["风尚决斗-先祖铠甲"] = "Дуэль стиля — Доспехи предков",
-    ["已在战场中"] = "Already on the battlefield.",
-    ["I have other things to do, leaving now"] = "I have other things to do, leaving now",
+    ["已在战场中"] = "Уже на поле боя",
+    ["I have other things to do, leaving now"] = "У меня есть другие дела, ухожу",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

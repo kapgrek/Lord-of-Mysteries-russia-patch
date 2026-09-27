@@ -253,5 +253,5 @@ return {
     ["Phonograph Collection"] = "Коллекция пластинок",
     ["Obtain Klein *1"] = "Получите Клейна *1",
     ["Level 65 Unbound Competition Equipment Chest"] = "Непривязанный ящик состязательной экипировки (65 ур.)",
-    ["寻找<h>卡伍德</>"] = "Find <h>Cawood</>",
+    ["寻找<h>卡伍德</>"] = "Найти <h>Кавуда</>",
 }

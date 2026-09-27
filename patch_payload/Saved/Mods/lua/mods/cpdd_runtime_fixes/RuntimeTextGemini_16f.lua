@@ -270,6 +270,7 @@ return {
     ["When each of your chess pieces' Health first drops below <HighLight> 35% </>, restore <HighLight> 15% of their maximum Health </>."] = "Когда здоровье каждой из ваших фигур впервые падает ниже <HighLight> 35% </>, восстанавливает <HighLight> 15% от их макс. здоровья </>.",
     ["【新手推荐】伟大塔罗会"] = "【Совет новичкам】Великий Клуб Таро",
     ["Lining dark pattern"] = "Тёмный узор подкладки",
+    ["Go to your seat and sit down"] = "Занять своё место и сесть",
     ["任务自定义事件  玩家发送任务道具"] = "Пользовательское событие квеста. Игрок отправляет квестовый предмет.",
     ["Guide: Lis Evans \n Spring Night Ball."] = "Администратор: Лиз Эванс\nВесенний бал",
 }

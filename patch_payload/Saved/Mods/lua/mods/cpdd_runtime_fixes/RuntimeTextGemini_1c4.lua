@@ -257,7 +257,7 @@ return {
     ["Browse Works"] = "Просмотр работ",
     ["序列7 太阳神官"] = "Последовательность 7 Солнечный Жрец",
     ["Crimson Fate"] = "Алая Судьба",
-    ["轮到我了"] = "It's my turn",
+    ["轮到我了"] = "Моя очередь",
     ["Lauren"] = "Лорен",
     ["Butler John watched Baron Hawkes grow up and has taken care of Hawkes for over thirty years. The butler once saved the Baron's life in a hunting accident, and the two had an <InvHighlight> extremely close </> relationship. \n The servant is timid and honest by nature and <InvHighlight> is not good at lying. </> \n Dr. Evan used to <InvHighlight> care very much about </> the Baron's physical condition, but his attitude has become noticeably cold recently."] = "Дворецкий Джон видел, как рос барон Хоукс, и заботился о нем больше тридцати лет. Однажды на охоте дворецкий спас барону жизнь, и их отношения были <InvHighlight>чрезвычайно близкими.</>\nСлуга по натуре робок и простодушен, он <InvHighlight>совершенно не умеет лгать.</>\nДоктор Эван раньше <InvHighlight>очень беспокоился</> о здоровье барона, но в последнее время стал заметно холоднее к нему.",
     ["%s Memory Fragment: %s"] = "%s Фрагмент памяти: %s",

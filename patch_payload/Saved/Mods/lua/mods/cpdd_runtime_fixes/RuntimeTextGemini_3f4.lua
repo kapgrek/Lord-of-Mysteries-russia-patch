@@ -303,5 +303,5 @@ return {
     ["Horror and death are always the best nourishment."] = "Страх и смерть — всегда лучшая пища.",
     ["显示详情"] = "Показать подробности",
     ["Cawood"] = "Кавуд",
-    ["高原竞逐报名提醒"] = "Highland Competition Registration Reminder",
+    ["高原竞逐报名提醒"] = "Напоминание о регистрации на «Высокогорное состязание»",
 }

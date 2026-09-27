@@ -265,5 +265,5 @@ return {
     ["Eternal Slumber Elegy"] = "Элегия вечного сна",
     ["飘带·一"] = "Лента I",
     ["Fist Fighting · End"] = "Кулачный бой · Конец",
-    ["购票须知"] = "Ticket Purchase Notice",
+    ["购票须知"] = "Памятка по покупке билетов",
 }

@@ -252,5 +252,6 @@ return {
     ["Participation is what matters"] = "Главное — участие",
     ["Chat with the <h> fat man </>"] = "Поговорить с <h>толстяком</>",
     ["An aged voice"] = "Старческий голос",
+    ["Covenant Vow"] = "Обет завета",
     ["Selsa"] = "Сельса",
 }

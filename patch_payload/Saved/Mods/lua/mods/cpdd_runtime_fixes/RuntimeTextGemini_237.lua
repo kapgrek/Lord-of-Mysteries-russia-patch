@@ -273,7 +273,7 @@ return {
     ["有尚未完成的铁路大亨存档"] = "Есть незавершённое сохранение «Железнодорожного магната»",
     ["是否视为技能施放"] = "Считать ли применением умения",
     ["人群散开"] = "Толпа расходится",
-    ["伦纳德和威尔出现了"] = "Leonard and Will have appeared",
-    ["飞艇"] = "Airship",
+    ["伦纳德和威尔出现了"] = "Появились Леонард и Уилл",
+    ["飞艇"] = "Дирижабль",
     ["This is still a world I am familiar with. The artifacts you use, the paths you walk, the plays you perform... they are all very good, all the way I once envisioned—steam flowing in the alleys, laws maintaining fairness, ironclad ships and airships standing tall... I told you I was the true protagonist of the era. Before me, all living things lived in ignorance; after me, the waves roll forward. And you, you have already been swept into the torrent of the era."] = "Это все еще мир, с которым я знаком. Артефакты, которые вы используете, пути, по которым вы идете, пьесы, которые вы разыгрываете... все они очень хороши, все так, как я когда-то представлял - пар, струящийся по переулкам, законы, поддерживающие справедливость, высокие броненосные корабли и дирижабли... Я же говорил вам, что я был настоящим героем той эпохи. До меня все живое жило в неведении; за мной волны катятся вперед. А ты, ты уже попал в поток эпохи.",
 }

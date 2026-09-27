@@ -277,6 +277,7 @@ return {
     ["Open Champagne"] = "Открыть шампанское",
     ["与西迦一同打断邪教徒仪式"] = "Прервать ритуал сектантов вместе с Сигой",
     ["结局，解脱，和解"] = "Финал, освобождение, примирение",
+    ["Battle Merit Acquisition Rules"] = "Правила получения боевых заслуг",
     ["Note: Refer to the mechanism-breaking method in \"90 Existing Mechanism Puzzle Solutions for Sealed Artifact 3-888,\" enter the circular space, <InvHighlight> and solve the mechanism puzzles 3 times in a row to break the memory loop </>."] = "Примечания: Обратитесь к методу взлома механизма в «Запечатанный артефакт 3-888 Существующие 90 методов взлома механизмов» и войдите в пространство цикла. <InvHighlight>Разгадывайте 3 головоломки подряд, чтобы разорвать цикл памяти </>.",
     ["播放CutScene  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Воспроизведение CutScene: объект телепортируется в указанное место в указанной сцене (игроки поддерживают телепортацию между сценами, NPC - только в одной сцене).",
     ["I photographed...!"] = "Я сфотографировал...!",

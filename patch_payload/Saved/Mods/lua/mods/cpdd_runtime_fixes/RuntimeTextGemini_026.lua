@@ -263,7 +263,8 @@ return {
     ["Talent Tree ID"] = "ID древа талантов",
     ["How do I attack the training dummy?"] = "Как атаковать тренировочный манекен?",
     ["拍照RGB色散"] = "Фото: RGB-дисперсия",
-    ["跳跃恢复"] = "Jump restored.",
-    ["非凡物质评分说明"] = "Beyonder Material Rating Explanation",
+    ["Modify full set scheme name"] = "Изменить название полного комплекта",
+    ["跳跃恢复"] = "Прыжок восстановлен.",
+    ["非凡物质评分说明"] = "Пояснение к оценке потусторонних материалов",
     ["Sabrina"] = "Сабрина",
 }

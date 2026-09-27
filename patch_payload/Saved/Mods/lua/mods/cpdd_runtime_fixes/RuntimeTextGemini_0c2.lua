@@ -283,7 +283,10 @@ return {
     ["Elegant Clearing"] = "Изящное прояснение",
     ["GVG Cross-Server Faction Points"] = "Межсерверные очки фракции GVG",
     ["Question the newcomer"] = "Расспросить пришедшего",
-    ["Watching... blind spot in existence..."] = "Watching... blind spot in existence...",
+    ["Good Leader Rules"] = "Правила «Хороший капитан»",
+    ["First Meeting with the Bodyguard"] = "Первая встреча с телохранителем",
+    ["Unlock new scheme new grade: <Quality_4>Signage</>"] = "Разблокирована новая схема нового качества: <Quality_4>Табличка</>",
+    ["Watching... blind spot in existence..."] = "Слежу... слепая зона существования...",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

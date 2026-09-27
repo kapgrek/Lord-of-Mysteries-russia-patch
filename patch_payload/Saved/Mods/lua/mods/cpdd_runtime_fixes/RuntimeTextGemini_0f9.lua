@@ -234,7 +234,7 @@ return {
     ["Unlock Wild Rose hairstyle"] = "Разблокировка причёски «Дикая роза»",
     ["勇夺冠军"] = "Одержать победу в чемпионате",
     ["GVG跨服势力第四周积分"] = "Межсерверные очки фракции GVG за 4-ю неделю",
-    ["尝试进行<h>占卜</>"] = "Attempt to perform <h>divination</>",
+    ["尝试进行<h>占卜</>"] = "Попробовать провести <h>гадание</>",
     ["使用指定道具  玩家发送任务道具  玩家播放仅自己可见的说话文本"] = "Использовать указанный предмет, игрок отправляет квестовый предмет, игрок воспроизводит текст диалога, видимый только ему самому",
     ["Respected citizens, please note: \nOur company, in the name of scientific spirit and public health,\nsolemnly acquires all kinds of rodent villains\n—whether gray-whiskered bandits or black-tailed rebels!\n\n<Highlight>*Steam-Powered Rodent Neutralization Box*</>\nSwearing to transform every sewer tyrant into nourishment for the civilized progress of the Loen Kingdom!\n\nRewards are as follows:\n- Complete rat tail: 1/2 penny\n- Live specimen: 3 pence (includes a tin-plated Dignity Termination Chamber)\n\nPlagues and troubles, caught in one net!"] = "Вниманию почтенных горожан:\nНаша компания, во имя духа науки и общественной санитарии,\nсим торжественно скупает всякого рода грызунов-злодеев —\nбудь то седоусые разбойники или чернохвостые бунтовщики!\n\n<Highlight>*Паровая камера безвредной утилизации грызунов*</>\nКлянёмся превратить каждого сточного тирана в удобрение для прогресса цивилизации Королевства Лоэн!\n\nВознаграждение:\n- Целый крысиный хвост: полпенни\n- Живой образец: 3 пенса (прилагается лужёная жестяная капсула лишения достоинства)\n\nЧума и напасти будут искоренены разом!",
 }

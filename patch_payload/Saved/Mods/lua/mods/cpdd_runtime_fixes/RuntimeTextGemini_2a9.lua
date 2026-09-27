@@ -233,6 +233,6 @@ return {
     ["Invisibility buff When Poor Person Disappears"] = "Усиление невидимости при исчезновении бедняка",
     ["Base Stats: Attack +30%"] = "Базовые характеристики: Атака +30%",
     ["Prohibit corpse burning during the duration"] = "В течение действия эффекта труп нельзя сжечь",
-    ["点击<h>此处</>可以打开战略服大地图，前往战略服廷根场景。"] = "Click <h>here</> to open the strategic server world map and go to the strategic server Tingen scene.",
-    ["分解其余已勾选"] = "Dismantle other selected",
+    ["点击<h>此处</>可以打开战略服大地图，前往战略服廷根场景。"] = "Нажмите <h>здесь</>, чтобы открыть карту мира стратегического сервера и перейти на локацию Тинген стратегического сервера.",
+    ["分解其余已勾选"] = "Разобрать остальные отмеченные",
 }

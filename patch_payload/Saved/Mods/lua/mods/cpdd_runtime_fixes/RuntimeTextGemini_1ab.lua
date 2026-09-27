@@ -272,7 +272,7 @@ return {
     ["Obtained in the Emperor's Return Dungeon"] = "Получено в подземелье «Возвращение Императора»",
     ["Smoking gameplay"] = "Механика прикуривания",
     ["在俱乐部和<h>马蒂尼</>共调一杯酒"] = "Смешать коктейль вместе с <h>Мартини</> в клубе",
-    ["带威尔回大人身边"] = "Bring Will back to the adults",
+    ["带威尔回大人身边"] = "Отвести Уилла обратно к взрослым",
     ["Daniela"] = "Даниэла",
     ["I really like the gift you sent last time, thank you. This wooden carved piano might be crudely made, but it fits perfectly on my desk.\n	I heard that after the funeral, you worked without sleep to successfully arrest the murderer. Thank you for your efforts! There is no doubt that you are an excellent police officer; please do not change your original intention because of others' evaluations and pressure.\n	Attached to this letter is a calendar as a return gift; you can use it to Record important things.\n	I wish you success in your work! May you never be late!"] = "Мне очень понравился подарок, который вы прислали в прошлый раз, большое спасибо. Пусть это резное деревянное пианино и сработано простовато, оно превосходно смотрится на моём письменном столе.\n	Я слышала, что после похорон вы без сна и отдыха вели поиски и успешно арестовали убийцу. Спасибо за вашу службу! Вы, вне всяких сомнений, прекрасный полицейский — пожалуйста, не изменяйте своим принципам из-за чужих пересудов и давления.\n	В ответ вкладываю в письмо настольный календарь: в нём удобно отмечать важные дела.\n	Желаю успехов в службе! И никогда не опаздывать!",
     ["铁路大亨挑战线路难度获得%d/15次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/15 раз в маршрутах испытания «Железнодорожный магнат».",

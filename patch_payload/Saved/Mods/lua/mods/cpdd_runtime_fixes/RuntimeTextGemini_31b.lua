@@ -268,5 +268,6 @@ return {
     ["Achievement - Start of War"] = "Достижение - Начало войны",
     ["Unparalleled War Merit"] = "Непревзойдённые боевые заслуги",
     ["How do I get potions in the Training Ground?"] = "Как получить зелья на тренировочной площадке?",
+    ["Dismantle all selected"] = "Разобрать все отмеченные",
     ["Roberto"] = "Роберто",
 }

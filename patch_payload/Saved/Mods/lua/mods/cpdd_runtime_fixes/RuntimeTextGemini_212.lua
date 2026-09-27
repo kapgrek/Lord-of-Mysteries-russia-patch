@@ -244,5 +244,6 @@ return {
     ["知识的掠影"] = "Отблеск знания",
     ["投骰皮肤商店"] = "Магазин скинов для кубика",
     ["Added to the prize pool after %d summons"] = "Добавляется в призовой пул после %d призывов",
+    ["Sealed Artifact Illustrated Handbook Explanation"] = "Пояснение к каталогу Запечатанных Артефактов",
     ["Ximena"] = "Химена",
 }

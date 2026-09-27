@@ -266,7 +266,7 @@ return {
     ["众人拥护的排面怎么完成"] = "Как выполнить достижение «Всеобщее признание»?",
     ["战士头像"] = "Аватар «Воин»",
     ["进入阿斯塔家"] = "Войти в дом Асты",
-    ["All the gifts of fate have already been marked with a price in the dark."] = "All the gifts of fate have already been marked with a price in the dark.",
+    ["All the gifts of fate have already been marked with a price in the dark."] = "Все дары судьбы уже отмечены ценой во тьме.",
     ["前往指定Trigger位置  玩家变身开始"] = "Перейдите в указанное место триггера; начинается трансформация игрока.",
     ["Maurice"] = "Морис",
 }

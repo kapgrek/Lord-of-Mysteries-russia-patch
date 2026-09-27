@@ -218,6 +218,7 @@ return {
     ["Battlefield Faction"] = "Фракция поля боя",
     ["<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>230</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. Upon entering combat, for every team member who possesses the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>230</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["Find the <h> ticket seller </> to buy a ticket"] = "Найти <h>кассира</> и купить билет",
+    ["Wilderness Blood Blade"] = "Кровавый клинок пустоши",
     ["监听关闭阅读界面  玩家发送任务道具  玩家播放仅自己可见的说话文本"] = "Отслеживать закрытие интерфейса чтения  Игрок отправляет предмет задания  Игрок воспроизводит текст речи, видимый только себе",
     ["-----------------------------Start Output-----------------------------"] = "-----------------------------Начало вывода-----------------------------",
     ["还想晒太阳的人，怎么可能想死呢？"] = "Как мог тот, кто все еще хочет греться на солнышке, хотеть умереть?",

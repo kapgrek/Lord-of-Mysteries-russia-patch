@@ -247,4 +247,5 @@ return {
     ["Squid's Blessing · Wealth"] = "Благословение кальмара · Богатство",
     ["Base Stats: Health +250"] = "Базовые характеристики: Здоровье +250",
     ["模型体型提升130%"] = "Размер модели увеличен на 130%",
+    ["Go to the <h>ticket inspector</> to have your ticket checked"] = "Пойти к <h>контролёру</> для проверки билета",
 }

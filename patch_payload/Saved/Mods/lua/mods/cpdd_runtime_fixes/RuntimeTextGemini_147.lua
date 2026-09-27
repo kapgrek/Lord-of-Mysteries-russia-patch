@@ -242,8 +242,8 @@ return {
     ["With gratitude\n Suliya"] = "С благодарностью\nСулия",
     ["Give the letter to <h> Pagnia </>"] = "Передать письмо <h>Паркине</>",
     ["这里像在举办宴会"] = "Похоже, здесь проходит банкет",
-    ["网络异常，请稍后重试"] = "Network error; please try again later.",
-    ["Monetary temptation"] = "Monetary temptation",
+    ["网络异常，请稍后重试"] = "Ошибка сети, повторите попытку позже",
+    ["Monetary temptation"] = "Денежный соблазн",
     ["Alowen"] = "Алоуэн",
     ["Miguel"] = "Мигель",
 }

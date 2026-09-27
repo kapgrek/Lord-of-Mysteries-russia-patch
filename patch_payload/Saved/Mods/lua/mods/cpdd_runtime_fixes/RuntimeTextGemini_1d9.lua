@@ -242,6 +242,6 @@ return {
     ["Swing a kitchen knife to cleave nearby targets."] = "Рубит ближайшие цели кухонным ножом.",
     ["Required sum of digits: %s/%s"] = "Требуется сумма цифр: %s/%s",
     ["Secret Peeking · Start"] = "Разведка тайн · Начало",
-    ["去吧台休息下"] = "Go to the bar to rest",
+    ["去吧台休息下"] = "Отдохнуть у барной стойки",
     ["Avianna"] = "Авианна",
 }

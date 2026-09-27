@@ -251,8 +251,8 @@ return {
     ["Trash"] = "Хлам",
     ["记录仪"] = "Регистратор",
     ["Go to the Restroom"] = "Сходить в туалет",
-    ["胜者宣言大会语音房间说明"] = "Victor's Declaration Assembly Voice Room Explanation",
-    ["Miracles are only temporary, fate is always long."] = "Miracles are only temporary, fate is always long.",
+    ["胜者宣言大会语音房间说明"] = "Пояснение голосовой комнаты собрания «Декларация победителя»",
+    ["Miracles are only temporary, fate is always long."] = "Чудеса лишь временны, а судьба всегда длинна.",
     ["Nova"] = "Новая звезда",
     ["据热心市民反映，近期常有来自霍伊大学的学生在墓地做奇怪的事情。"] = "По словам обеспокоенных горожан, студенты Университета Хой в последнее время творят на кладбище странные вещи.",
 }

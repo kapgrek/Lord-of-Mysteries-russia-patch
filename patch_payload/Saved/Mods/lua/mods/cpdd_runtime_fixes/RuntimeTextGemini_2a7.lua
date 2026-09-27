@@ -292,7 +292,7 @@ return {
     ["Sequence 7: Magician"] = "Последовательность 7 Фокусник",
     ["摆放<h>香料</>"] = "Разложить <h>специи</>",
     ["Find a place with fewer people"] = "Найти место, где меньше людей",
-    ["准备潜入庭院"] = "Prepare to sneak into the courtyard",
+    ["准备潜入庭院"] = "Подготовиться к проникновению во двор",
     ["Gather collection item with specified TemplateID  Object sends scene event"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["我明明是一个人！你侮辱我人格！接招！"] = "Я явно всего лишь один человек! Вы оскорбляете мой характер! Возьми это!",
 }

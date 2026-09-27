@@ -258,7 +258,7 @@ return {
     ["Other methods"] = "Другие способы",
     ["PVP Settlement Data/History Report"] = "Жалоба на данные расчёта PvP/историю",
     ["Examine the stage"] = "Осмотреть сцену",
-    ["The Evernight Goddess, more sublime than the starry sky, more distant than eternity."] = "The Evernight Goddess, more sublime than the starry sky, more distant than eternity.",
+    ["The Evernight Goddess, more sublime than the starry sky, more distant than eternity."] = "Богиня Вечной Ночи, возвышеннее звёздного неба, дальше вечности.",
     ["In the name of the Goddess, spreading the light of compassion\n\n<Letter_Highlight>Food Supply</>\nBlack bread and pea soup\n\n<Letter_Highlight>Night Shelter</>\nHammocks or floor mats provided\n\n<Letter_Highlight>Job Opportunities</>\nSimple and easy manual labor\n\nBeds are limited, queuing is required, maximum stay of five days"] = "Именем Богини, озаряющей светом милосердия\n\n<Letter_Highlight>Раздача пищи</>\nЧерный хлеб и гороховый суп\n\n<Letter_Highlight>Ночной приют</>\nПредоставляются гамаки или матрасы на полу\n\n<Letter_Highlight>Возможности для работы</>\nПростой ручной труд\n\nКоличество мест ограничено, в порядке живой очереди, проживание не более пяти дней",
     ["如果所有计划都实现了，那才叫意外。"] = "Вот если бы все планы сбывались — это действительно стало бы неожиданностью.",
     ["Maritess"] = "Маритесс",

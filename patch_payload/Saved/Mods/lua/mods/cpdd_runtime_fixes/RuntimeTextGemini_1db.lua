@@ -262,6 +262,7 @@ return {
     ["The One Who Entered the Game"] = "Тот, кто вошёл в игру",
     ["长官"] = "Офицер",
     ["Explain the requirements for the \"ritual\""] = "Объяснить, что нужно для «ритуала»",
+    ["Beyonder power restored."] = "Сила Потустороннего восстановлена.",
     ["一\n次\n机\n会"] = "Один\n\nшанс",
     ["Reike"] = "Рейке",
 }

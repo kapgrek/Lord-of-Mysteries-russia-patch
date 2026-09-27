@@ -258,6 +258,7 @@ return {
     ["The Moon is Brightest in My Hometown"] = "Луна ярче над родным краем",
     ["免死恢复"] = "Спасение от смерти",
     ["Burn and Grievous Injury"] = "Ожог и тяжёлое ранение",
+    ["Submission failed; please try again later."] = "Отправка не удалась, повторите попытку позже",
     ["Business is so bad; guarding the stall is just a waste of time.\n\n	Should I try setting up a stall at the \"Lettuce and Meat\" market?\n\n	...\n\n	Forget it, I can't stand competing with that group of people; the way they snatch customers is like red-eyed hyenas seeing prey.\n\n	I'd better work hard to pass the exam and become a government employee. Next year, next year I will definitely succeed!"] = "Торговля идёт из рук вон плохо, сидеть за прилавком — пустая трата времени.\n\nМожет, попробовать встать на рынке «Салат и мясо»?\n\n...\n\nХотя нет, не вынесу я конкуренции с этой оравой: они кидаются на покупателей, словно красноглазые гиены на добычу.\n\nЛучше уж подналечь на учёбу и сдать экзамен на государственную службу. В следующем году мне обязательно повезёт!",
     ["这班火车从贝克兰德来，东西多得很，肯定能挖出点有趣的！"] = "Этот поезд прибыл из Баклунда, он набит вещами, наверняка мы сможем откопать что-нибудь интересное!",
     ["Pandora"] = "Пандора",

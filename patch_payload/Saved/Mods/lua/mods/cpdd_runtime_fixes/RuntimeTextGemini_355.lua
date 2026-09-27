@@ -270,6 +270,6 @@ return {
     ["愚者+愚者"] = "Шут + Шут",
     ["秘偶换装"] = "Смена наряда марионетки",
     ["服务生艾琳"] = "Официантка Ирэн",
-    ["王炸"] = "Rocket",
+    ["王炸"] = "Ракета",
     ["　　……\n　　Families of the missing gathered at the police station to protest, and the police stated that \"all disappearance cases have been registered and processed.\" It is reported that more than ten such incidents have occurred recently, mostly government employees.\n　　……\n\n<Note_Normal_HW>These are our people, what is this guy doing!</>\n<Note_Normal_HW>He's crazy, deal with it quickly, don't leave any evidence!</>\n<Note_Normal_HW>Mr. Charlie is about to run for office, there can't be any scandals at this time!</>"] = "　…\n　 Семьи пропавших без вести людей собрались перед полицейским участком в знак протеста. В полиции заявили, что «все дела о пропаже зарегистрированы и рассмотрены». Сообщается, что за последнее время произошло более десяти подобных инцидентов, в основном с участием государственных служащих. \n　……\n\n<Note_Normal_HW>Это наши люди, что делает этот парень! </>\n<Note_Normal_HW>Он сумасшедший, разберитесь с этим быстро, не оставляйте никаких улик! </>\n<Note_Normal_HW>Г-н. Чарли собирается баллотироваться на выборах, поэтому скандалов сейчас быть не может! </>",
 }

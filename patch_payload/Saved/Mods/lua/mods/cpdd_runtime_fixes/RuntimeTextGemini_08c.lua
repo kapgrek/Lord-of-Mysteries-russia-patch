@@ -235,4 +235,5 @@ return {
     ["Misor"] = "Мисор",
     ["Report Red Envelope Cipher"] = "Жалоба на шифр красного конверта",
     ["竞技之约筛选"] = "Фильтр договора о состязании",
+    ["Melissa and the others have left"] = "Мелисса и остальные ушли",
 }

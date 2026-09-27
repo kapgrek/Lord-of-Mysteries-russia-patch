@@ -255,8 +255,8 @@ return {
     ["Battle of Wits and Hearts · Start"] = "Битва умов · Начало",
     ["裤子主体"] = "Основа брюк",
     ["贴纸·战士"] = "Наклейка · Воин",
-    ["点击<h>此处</>可以打开战略服大地图，前往战略服猎龙之城场景。"] = "Click <h>here</> to open the strategic server world map and go to the strategic server City of Dragon Hunting scene.",
-    ["Honor: Golden Autumn Sapling"] = "Honor: Golden Autumn Sapling",
+    ["点击<h>此处</>可以打开战略服大地图，前往战略服猎龙之城场景。"] = "Нажмите <h>здесь</>, чтобы открыть карту мира стратегического сервера и перейти на локацию Города Охоты на Драконов стратегического сервера.",
+    ["Honor: Golden Autumn Sapling"] = "Честь: Золотой осенний саженец",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Ievette"] = "Иветт",
 }

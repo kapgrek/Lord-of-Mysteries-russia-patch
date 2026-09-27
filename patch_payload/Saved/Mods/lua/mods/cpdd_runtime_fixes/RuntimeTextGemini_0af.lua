@@ -241,5 +241,6 @@ return {
     ["Complete 3 player battles in a continuous win-loss alternating fashion."] = "Провести подряд 3 боя с игроками, чередуя победы и поражения",
     ["神选战旗"] = "Боевое знамя избранного богом",
     ["承蒙喜爱\n苏利亚"] = "С благодарностью\nСулия",
-    ["You find a room filled with supernatural mysticism in Lamud Town, which turns out to be a crime scene..."] = "You find a room filled with supernatural mysticism in Lamud Town, which turns out to be a crime scene...",
+    ["Go to the bar to rest"] = "Отдохнуть у барной стойки",
+    ["You find a room filled with supernatural mysticism in Lamud Town, which turns out to be a crime scene..."] = "Вы находите в городе Ламуд комнату, полную сверхъестественной мистики, которая оказывается местом преступления...",
 }

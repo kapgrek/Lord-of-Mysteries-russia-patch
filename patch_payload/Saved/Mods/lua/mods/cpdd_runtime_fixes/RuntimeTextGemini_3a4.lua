@@ -258,7 +258,7 @@ return {
     ["大帝重临副本开启"] = "Открыто подземелье «Возвращение Императора»",
     ["凑凑热闹，看看发生了什么"] = "Подойти посмотреть, что происходит",
     ["捡起地上的海报"] = "Поднять плакат с земли",
-    ["快过去<h>劝阻芬奇</>"] = "Hurry over and <h>dissuade Finch</>",
+    ["快过去<h>劝阻芬奇</>"] = "Поскорее подойти и <h>отговорить Финча</>",
     ["　　I have some urgent business to attend to, I'll be back in a moment.\n\n　　You can look around the Cafe. There is a stone tablet called the <Mark id=\"#159\">\"Travel Obelisk\"</> in the <Letter_Highlight_HW>Central Plaza</> nearby. It was created by Miss \"Magician\" and the Artisan. Once activated, you can travel between various travel points across the land.\n\n　　It's a good item, much faster than walking.\n\n　　Note: Don't wander too far."] = "　　Появились срочные дела, скоро вернусь.\n\n　　Можешь пока осмотреться вокруг кафе. Рядом на <Letter_Highlight_HW>Центральной площади</> стоит каменная стела — <Mark id=\"#159\">«Обелиск странствий»</>. Её создали мисс Маг и Ремесленник. Активировав её, ты сможешь перемещаться между путевыми точками в разных краях.\n\n　　Отличная вещь, куда быстрее, чем пешком.\n\n　　Примечание: не уходи слишком далеко.",
     ["You... have finally arrived, and you have already taken a big step."] = "Вы... наконец-то пришли и уже сделали огромный шаг вперёд.",
     ["等待时间  玩家播放仅自己可见的说话文本  玩家停止自己播放情绪音乐  玩家离开剧情控制  玩家播放2D音效（仅自己可听）"] = "Подождите время; игрок воспроизводит речевой текст, видимый только ему самому; плеер перестает играть эмоциональную музыку; игрок покидает контроль над сюжетом; игрок воспроизводит 2D звуковой эффект (слышен только ему самому).",

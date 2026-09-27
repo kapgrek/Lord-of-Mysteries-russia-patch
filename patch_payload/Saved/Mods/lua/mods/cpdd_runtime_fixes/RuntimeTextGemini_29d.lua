@@ -242,5 +242,6 @@ return {
     ["Death fade"] = "Затухание при гибели",
     ["【高级场】"] = "[Продвинутый матч]",
     ["Usually active at %s"] = "Обычно активен %s",
-    ["Rare Tweed Vest"] = "Rare Tweed Vest",
+    ["Crowned Above the Starry Sky"] = "Коронованный над звёздным небом",
+    ["Rare Tweed Vest"] = "Редкий твидовый жилет",
 }

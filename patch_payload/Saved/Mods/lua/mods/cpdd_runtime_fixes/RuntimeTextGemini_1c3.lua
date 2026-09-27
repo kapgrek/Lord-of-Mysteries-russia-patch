@@ -263,6 +263,6 @@ return {
     ["HP"] = "Здоровье",
     ["俱乐部活动"] = "Клубные мероприятия",
     ["Send a letter to Miss <h>Justice</>"] = "Отправить письмо мисс <h>«Справедливость»</>",
-    ["跟随冰淇淋的指引寻找"] = "Follow the ice cream's guidance to search",
+    ["跟随冰淇淋的指引寻找"] = "Искать, следуя подсказкам мороженого",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

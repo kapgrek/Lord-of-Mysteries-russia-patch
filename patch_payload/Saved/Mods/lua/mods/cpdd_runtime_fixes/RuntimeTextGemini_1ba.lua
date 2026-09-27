@@ -248,6 +248,6 @@ return {
     ["When Azik Eggers' Spirit World Bombardment hits, it reduces the target's Defense by 40% for 4 seconds."] = "При попадании удара Мира духов Азика Эггерса защита цели снижается на 40% на 4 сек.",
     ["Inner side of trench coat"] = "Внутренняя сторона тренча",
     ["成就-宣战凯旋"] = "Достижение - Триумф объявления войны",
-    ["Buy the materials"] = "Buy the materials",
+    ["Buy the materials"] = "Купить материалы",
     ["<DecH>Craft: </>Antique Brocade & Secret Covenant Patterns\nA cloak weathered by the passage of time, seemingly recording a forgotten covenant."] = "<DecH>Мастерство: </>Старинная парча · Узоры тайного завета\nПлащ, овеянный дыханием веков, словно хранит память о забытом завете.",
 }

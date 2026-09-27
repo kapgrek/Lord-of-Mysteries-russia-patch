@@ -273,5 +273,6 @@ return {
     ["Ask about the report"] = "Спросить о репортаже",
     ["Treasure Department Store"] = "Универмаг сокровищ",
     ["累计召唤<Highlight>%d</>次后加入奖池"] = "Добавляется в призовой пул после <Highlight>%d</> суммарных призывов",
+    ["Check the postman's <h>bicycle</>"] = "Осмотреть <h>велосипед</> почтальона",
     ["Ruola"] = "Руола",
 }

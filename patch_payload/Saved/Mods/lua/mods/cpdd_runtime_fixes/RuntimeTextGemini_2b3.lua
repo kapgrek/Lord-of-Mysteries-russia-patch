@@ -236,5 +236,6 @@ return {
     ["特殊共鸣"] = "Особый резонанс",
     ["Cast a spell to trigger a three-candle combo."] = "Произносит заклинание и запускает серию трёх свечей.",
     ["金榜8·0"] = "Золотой список 8.0",
+    ["Select at most three."] = "Можно выбрать не более трёх одновременно.",
     ["RequestCutsceneActorComposite: 找不到 ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",
 }

@@ -259,7 +259,7 @@ return {
     ["魔法途径"] = "Магический путь",
     ["Backlund Municipal Health Bureau"] = "Городское управление здравоохранения Бэкланда",
     ["植物改造·一"] = "Модификация растений · 1",
-    ["我的非凡方案"] = "My Beyonder Scheme",
+    ["我的非凡方案"] = "Мой потусторонний план",
     ["我看不清楚祂真正的模样，只觉得这丰饶的气息似曾相识……"] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
     ["<InvHighlight>\"Morning Dew\"</>, also known as a stimulant—\n\nis concocted from <InvHighlight>the heart of a Dream Catcher</>, spirit flower, and colchicine essence. \nIt can keep the user awake or have the effect of <Mark id=\"#159\">Healing narcolepsy</>."] = "<InvHighlight>«Утренняя роса»</>, также именуемая бодрящим снадобьем:——\n\nизготавливается из <InvHighlight>сердца ловца снов</>, цветка эльфов и эссенции безвременника.\nПомогает прогнать сонливость и обладает эффектом <Mark id=\"#159\">исцеления нарколепсии</>.",
 }

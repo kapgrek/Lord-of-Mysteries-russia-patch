@@ -262,6 +262,6 @@ return {
     ["Fool's Gambit Lineup"] = "Составы «Гамбита Шута»",
     ["Generates [Evernight Tiles]. [Evernight Goddess Church] units standing on these tiles can execute low-Health enemies. Each tier generates <HighLight>6/10/16</> tiles."] = "Создаёт 【Клетки ночи】: фигуры 【Церкви Богини Вечной Ночи】 на этих клетках могут добивать врагов с низким здоровьем. Ступени создают <HighLight>6/10/16</> клеток.",
     ["前往<h>俱乐部</>,看看酒单"] = "Отправиться в <h>клуб</> и посмотреть меню напитков",
-    ["按“F”对抗呓语"] = "Press \"F\" to resist the whispers",
+    ["按“F”对抗呓语"] = "Нажмите «F», чтобы противостоять шёпоту",
     ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

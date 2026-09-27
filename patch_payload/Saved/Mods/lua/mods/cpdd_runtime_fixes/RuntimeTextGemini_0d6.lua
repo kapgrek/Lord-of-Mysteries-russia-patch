@@ -284,7 +284,8 @@ return {
     ["最大生命提高50"] = "Максимальное здоровье увеличено на 50",
     ["Ride along in a vehicle for 30s while in a team"] = "Проехать вместе на транспорте 30 сек. в команде",
     ["No players available to remove"] = "Пока нет игроков для исключения",
-    ["The greatest dancer in history vs. the greatest dancer in the modern era—who will win?"] = "The greatest dancer in history vs. the greatest dancer in the modern era—who will win?",
+    ["Full set of schemes switched."] = "Полный комплект переключён.",
+    ["The greatest dancer in history vs. the greatest dancer in the modern era—who will win?"] = "Величайший танцор в истории против величайшего танцора современности — кто победит?",
     ["在俱乐部乱斗中累计获得%d/2100分。"] = "Наберите %d/2100 очков в Club Brawl.",
     ["任务自定义事件  玩家播放主线任务开始展示界面  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Пользовательское событие квеста. Игрок воспроизводит интерфейс отображения начала основного квеста. Объект телепортируется в указанное место в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены).",
 }

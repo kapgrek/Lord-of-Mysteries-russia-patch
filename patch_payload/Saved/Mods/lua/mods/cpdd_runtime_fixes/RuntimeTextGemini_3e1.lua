@@ -277,4 +277,7 @@ return {
     ["Web page"] = "Веб-страница",
     ["wᴛ6."] = "wᴛ6.",
     ["Aura"] = "Аура",
+    ["Strategic Server Rank"] = "Воинское звание стратегического сервера",
+    ["God's Chosen Seat Distribution Explanation"] = "Пояснение распределения мест «Избранных богом»",
+    ["The watched item is now available for purchase."] = "Отслеживаемый товар доступен для покупки.",
 }

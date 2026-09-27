@@ -275,4 +275,5 @@ return {
     ["Phantom of the Opera Brave Group Redemption Box"] = "Ящик повторной выдачи: «Призрак оперы» — группа храбрецов",
     ["About the food"] = "О блюдах",
     ["预付10金镑"] = "Заплатить 10 золотых фунтов вперёд",
+    ["The public notice period for the watched item is about to end."] = "Период публикации отслеживаемого товара скоро закончится.",
 }

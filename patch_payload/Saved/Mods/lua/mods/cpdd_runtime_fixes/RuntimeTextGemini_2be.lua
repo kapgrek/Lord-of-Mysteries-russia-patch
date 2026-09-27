@@ -273,5 +273,7 @@ return {
     ["Illusion Performance · End"] = "Иллюзионное представление · Конец",
     ["Give the letter to Parkina"] = "Передать письмо Паркине",
     ["Chat with the <h> two </>"] = "Поговорить с <h>двоими</>",
+    ["Go to <h>Tingen Dock</> to buy a boat ticket"] = "Пойти в <h>порт Тингена</> и купить билет на корабль",
+    ["Attempt to perform <h>divination</>"] = "Попробовать провести <h>гадание</>",
     ["Jadir"] = "Джадир",
 }

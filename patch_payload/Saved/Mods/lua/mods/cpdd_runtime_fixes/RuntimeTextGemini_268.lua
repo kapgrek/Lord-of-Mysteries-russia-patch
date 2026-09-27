@@ -294,7 +294,7 @@ return {
     ["About Saint Wind Cathedral"] = "О соборе Святого Ветра",
     ["Chat about Bedy"] = "Поговорить о Бэди",
     ["Eliminate Opponent"] = "Устранить соперника",
-    ["座驾速度"] = "Vehicle Speed",
+    ["座驾速度"] = "Скорость транспорта",
     ["Brantley"] = "Брантли",
     ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["与Npc进行对话  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет.",

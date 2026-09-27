@@ -275,5 +275,6 @@ return {
     ["How do I light a cigarette?"] = "Как прикурить?",
     ["Metamorphosis of Beauty"] = "Преображение красоты",
     ["观察艾玛的状态"] = "Понаблюдать за состоянием Эммы",
-    ["请完善必填信息后发布"] = "Please complete the required information before publishing.",
+    ["Go to <h>Backlund Amusement Park</>"] = "Отправиться в <h>парк развлечений Бэкланда</>",
+    ["请完善必填信息后发布"] = "Заполните обязательную информацию перед публикацией.",
 }

@@ -269,7 +269,7 @@ return {
     ["令血玫绽放对周身敌人造成范围伤害。"] = "Распускает кровавые розы, нанося урон по области окружающим врагам.",
     ["Flag Remains Standing"] = "Флаг не пал",
     ["Signature Move"] = "Коронный номер",
-    ["买支<h>冰激凌</>尝尝"] = "Buy an <h>ice cream</> to taste",
+    ["买支<h>冰激凌</>尝尝"] = "Купить <h>мороженое</> и попробовать",
     ["Mallory"] = "Мэллори",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
     ["Respected Guest:\n　　Greetings.\n　　This private room has now initiated a private ritual. A distinguished guest is currently having a deep exchange with the roses inside.\n　　Non-invitees, please do not knock, do not peek, and do not listen. Disturbing a soul in intoxication will be considered a desecration of the garden."] = "Глубокоуважаемый гость!\n　　Приветствуем вас.\n　　В этой ложе в настоящий момент проводится закрытый ритуал. Внутри высокий гость ведет глубокое общение с розами.\n　　Не приглашенным просьба не стучать, не подглядывать и не подслушивать. Нарушить покой упоенной души расценивается как осквернение сада.",

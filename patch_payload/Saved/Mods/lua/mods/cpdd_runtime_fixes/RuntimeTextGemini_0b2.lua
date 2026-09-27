@@ -274,7 +274,8 @@ return {
     ["回爐"] = "На переделку",
     ["快上车 别堵在车门口"] = "Быстрее в карету, не толпитесь у двери",
     ["Go to Participate"] = "Перейти к участию",
-    ["需前往战略服开启对战内容"] = "Must go to the Strategic Server to start battle content",
+    ["Rocket"] = "Ракета",
+    ["需前往战略服开启对战内容"] = "Нужно перейти на Стратегический сервер, чтобы открыть боевой контент",
     ["Young people!\nDo not let the fire of wisdom be extinguished between your fingers!\n\nAnyone who has received a school admission notice but cannot afford the tuition,\nthe Loen Charity Scholarship Foundation will help you with your studies.\n\nApplication Qualifications:\nMust hold a parish recommendation letter or school admission notice, and family income proof\n\nApplication Method:\nSubmit your self-recommendation letter to the <Highlight>local Evernight Church</>"] = "Юноши и девушки!\nНе дайте пламени мудрости угаснуть в ваших руках!\n\nКаждому, кто получил извещение о зачислении в школу, но не в силах оплатить обучение,\nБлаготворительный стипендиальный фонд Лоэна поможет обрести знания.\n\nТребования к соискателям:\nНеобходимо предоставить рекомендательное письмо прихода или извещение о зачислении в школу, а также справку о доходах семьи.\n\nПодача заявления:\nОпустите рекомендательное письмо в <Highlight>местной церкви Богини Вечной Ночи</>.",
     ["诸位 笑一个吧 感谢你们帮我找到笔记"] = "Все, улыбнитесь. Спасибо, что помогли мне найти записи.",
 }

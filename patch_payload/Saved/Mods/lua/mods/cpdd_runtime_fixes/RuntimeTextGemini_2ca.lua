@@ -280,6 +280,7 @@ return {
     ["%s：\n      %s"] = "%s：\n      %s",
     ["返回牌桌"] = "Вернуться за стол",
     ["God-Chosen Seat Issuance"] = "Выдача мест Избранных богом",
-    ["获得过的状态效果"] = "Status effects obtained",
-    ["This place looks very familiar."] = "This place looks very familiar.",
+    ["Divination using a mirror"] = "Погадать с помощью зеркала",
+    ["获得过的状态效果"] = "Полученные эффекты состояния",
+    ["This place looks very familiar."] = "Это место выглядит очень знакомым.",
 }

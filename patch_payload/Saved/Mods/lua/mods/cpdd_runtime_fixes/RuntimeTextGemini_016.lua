@@ -271,6 +271,7 @@ return {
     ["Offspring Protection Refuse Fashion Duel Activated"] = "Страж потомства: отказ от модной дуэли (активировано)",
     ["势力归属"] = "Принадлежность фракции",
     ["再逛逛"] = "Прогуляться ещё",
+    ["Pacify Dylan"] = "Успокоить Дилана",
     ["Sequence\r\nWill inevitably lead to loss of control"] = "Порядок\nНеминуемо приведет к Потере Контроля",
     ["Azalea"] = "Азалия",
     ["Brock"] = "Брок",

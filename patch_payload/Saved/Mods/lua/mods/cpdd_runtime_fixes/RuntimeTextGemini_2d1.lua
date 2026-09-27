@@ -259,5 +259,5 @@ return {
     ["祖龍"] = "Дракон-предок",
     ["How do I increase Fashion Level?"] = "Как повысить уровень стиля?",
     ["将<h>蔬菜</>提交给<h>迪克</>"] = "Передать <h>овощи</> <h>Дику</>",
-    ["The person is back, let's go."] = "The person is back, let's go.",
+    ["The person is back, let's go."] = "Человек вернулся, идём.",
 }

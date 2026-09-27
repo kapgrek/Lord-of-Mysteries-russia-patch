@@ -242,4 +242,5 @@ return {
     ["Resonance: Extraordinary World·3 | Tarot Club·2 | Long-Range Strike·2\nMain DPS: Clown 3★, Xio Dercha 3★\nMain Tank: Ray Bieber 2★, Rock King 2★\nStrategy: Clown, Ray Bieber chase 3★; develop Extraordinary World, Long-Range Strike is responsible for output"] = "Резонансы: Потусторонний мир·3 | Клуб Таро·2 | Дальнобойный удар·2\nОсновной урон: Клоун 3★, Сио Дереча 3★\nОсновной танк: Рэй Бибер 2★, Рок Кинг 2★\nТактика: доведите Клоуна и Рэя Бибера до 3★; развивайтесь через Потусторонний мир, урон — через Дальнобойный удар",
     ["成就-军衔之巅"] = "Достижение - Вершина воинского звания",
     ["去角落整理思绪"] = "Пойти в угол, чтобы собраться с мыслями",
+    ["Escape the pursuit of a group of Amons"] = "Оторваться от преследования группы Амонов",
 }

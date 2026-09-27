@@ -257,7 +257,7 @@ return {
     ["Player 3"] = "Игрок 3",
     ["Check the Environmental Maintenance Proposal"] = "Ознакомиться с обращением об охране окружающей среды",
     ["Auto-play: The trio explains"] = "Автовоспроизведение: объяснение троицы",
-    ["加冕星空之上"] = "Crowned Above the Starry Sky",
-    ["已发送至世界频道进行招募"] = "Sent to the world channel for recruitment.",
+    ["加冕星空之上"] = "Коронованный над звёздным небом",
+    ["已发送至世界频道进行招募"] = "Отправлено в мировой канал для набора.",
     ["老人家，你在找什么吗？"] = "Дедушка, вы что-то ищете?",
 }

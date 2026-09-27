@@ -281,6 +281,8 @@ return {
     ["驭浪横扫前方，造成范围伤害并击退敌人。"] = "Сметает пространство впереди волной, нанося урон по области и отбрасывая врагов.",
     ["Eternal Snowstorm"] = "Вечная метель",
     ["<CostRed>{1,2, (Brand Expired) }</>Piercing increased by <Mark>120</>. While in combat, increases the entire team's Crit rate by <Mark>30</> and decreases Defense by <Mark>15</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Пронзание повышается на <Mark>120</>. В бою повышает критический удар всей группы на <Mark>30</> и понижает защиту на <Mark>15</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
+    ["Teleport Confirm"] = "Подтверждение телепортации",
+    ["Werewolf successfully returned to position."] = "Оборотень успешно вернулся на позицию.",
     ["Caravan Location:"] = "Местонахождение каравана:",
     ["与Npc进行对话  玩家根据InstanceID列表创建公有对象（大世界不生效）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Разговор с NPC Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) NPC уничтожает себя (не может уничтожать игроков или общедоступных NPC в открытом мире)",
 }

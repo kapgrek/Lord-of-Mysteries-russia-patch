@@ -246,7 +246,7 @@ return {
     ["胜利笔记"] = "Заметки о победах",
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>215%</> = {*d,F1690001,atkMin,2.15}",
     ["非凡装备是什么"] = "Что такое «Потустороннее снаряжение»?",
-    ["Portrait · Frye"] = "Portrait · Frye",
+    ["Portrait · Frye"] = "Портрет · Фрай",
     ["Deborah"] = "Дебора",
     ["Colby"] = "Колби",
     ["Jazeel"] = "Джазиль",

@@ -263,5 +263,6 @@ return {
     ["Strategic Attributes"] = "Стратегические характеристики",
     ["家族权益"] = "Привилегии семьи",
     ["Check the <h>Environmental Maintenance Proposal</>"] = "Ознакомиться с <h>Обращением об охране окружающей среды</>",
+    ["Talk to Quartermaster <h>Martin Gray</>"] = "Поговорить с интендантом <h>Мартином Греем</>",
     ["Ben"] = "Бен",
 }

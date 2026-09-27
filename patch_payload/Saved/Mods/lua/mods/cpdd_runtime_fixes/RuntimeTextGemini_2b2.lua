@@ -284,5 +284,6 @@ return {
     ["Investigate Asta's room"] = "Осмотреть комнату Асты",
     ["Chat with <h> Asta </>"] = "Поговорить с <h>Астой</>",
     ["Diving Thief Bird"] = "Ныряющая птица-воришка",
+    ["Just now was..."] = "Только что это было…",
     ["Altaf"] = "Альтаф",
 }

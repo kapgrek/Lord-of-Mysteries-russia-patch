@@ -261,6 +261,7 @@ return {
     ["<CostRed>{1,2, (Brand expired) }</> Monster Specialization increased by <Mark> 205 </>, Monster Specialization additionally increased by <Mark> 60 </> when facing Emperor Roselle. \n Does not take effect when the set <Mark> Covenant of Iron and Blood </> is active."] = "<CostRed>{1,2,(Клеймо истекло)}</>Специализация против монстров повышается на <Mark>205</>, при встрече с Императором Розелем специализация против монстров дополнительно повышается на <Mark>60</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["Rapidly Reduce Sanity"] = "Быстрое снижение рассудка",
     ["更换参赛搭配"] = "Сменить наряд для участия",
+    ["Go back to find <h>Richard</>"] = "Вернуться и найти <h>Ричарда</>",
     ["Saria"] = "Сария",
     ["等待时间  对象播动作（拥有状态记录）  玩家播放仅自己可见的说话文本"] = "Подождите время; объект выполняет действие (имеет запись состояния); игрок воспроизводит речевой текст, видимый только ему самому.",
     ["Player ID:"] = "Идентификатор игрока:",

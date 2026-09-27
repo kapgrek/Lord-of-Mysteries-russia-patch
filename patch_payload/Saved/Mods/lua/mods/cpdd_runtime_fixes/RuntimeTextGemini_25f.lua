@@ -261,7 +261,7 @@ return {
     ["披风内下"] = "Плащ, внутренняя нижняя часть",
     ["满员点烟成就"] = "Достижение «Прикурить полным составом»",
     ["猎龙·传奇宝箱"] = "Охота на дракона: Легендарный сундук",
-    ["内容检查失败，请稍后重试"] = "Content check failed; please try again later.",
+    ["内容检查失败，请稍后重试"] = "Проверка содержимого не удалась, повторите попытку позже",
     ["在罪恶廷根不超过140秒完成一次挑战“审判官”布莱克。"] = "Бросьте вызов Блейку, судье в Sinful Тинген, за 140 секунд.",
     ["Lia"] = "Лия",
     ["First month: Prove to my father that I am good at planning my own life.\nFirst year: Honeymoon trip (destination see appendix), Heidi feels happy.\nThird year: Move to a bigger house, Heidi wept with joy when I announced that we had a new property.\n...\nTenth year: The child starts school and gives me and Heidi a sweet kiss on the cheek."] = "Первый месяц: доказать отцу, что я способен сам распоряжаться своей жизнью.\nПервый год: медовый месяц (направление см. в приложении), Хайди счастлива.\nТретий год: переехать в дом попросторнее; Хайди плакала от радости, когда я сообщил о покупке нового дома.\n……\nДесятый год: ребенок пошел в школу, сладко целует нас с Хайди в щеки.",

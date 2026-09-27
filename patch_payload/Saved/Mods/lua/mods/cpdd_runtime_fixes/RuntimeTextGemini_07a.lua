@@ -245,6 +245,6 @@ return {
     ["大臂"] = "Плечо",
     ["Head to the ticket booth"] = "Отправиться к билетной кассе",
     ["和年轻男子进入<h>房间</>"] = "Войти в <h>комнату</> вместе с молодым человеком",
-    ["Honor: Skull of a Loyal Dog"] = "Honor: Skull of a Loyal Dog",
+    ["Honor: Skull of a Loyal Dog"] = "Честь: Череп верного пса",
     ["Deidre"] = "Дейдре",
 }

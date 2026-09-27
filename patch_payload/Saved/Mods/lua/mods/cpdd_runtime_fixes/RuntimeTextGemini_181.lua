@@ -273,5 +273,6 @@ return {
     ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>153%</> = {*d,F1690001,atkMin,1.53}",
     ["Joyful Fight the Landlord"] = "Весёлый Доу Дичжу",
     ["<Red> %s </> Faction Affiliation"] = "<Red>%s</> принадлежность к фракции",
+    ["Resist Parasitism"] = "Сопротивление паразитизму",
     ["Kashidun"] = "Кашидун",
 }

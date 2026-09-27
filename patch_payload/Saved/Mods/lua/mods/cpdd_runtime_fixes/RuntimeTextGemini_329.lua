@@ -282,7 +282,7 @@ return {
     ["Releases triple resentment into the target area, dealing a total of {*d,F1690001,atkMin,3.2} attack damage."] = "Высвобождает в целевую область тройную обиду, нанося в сумме {*d,F1690001,atkMin,3.2} ед. урона от атаки.",
     ["GVG跨服势力第二周积分"] = "Межсерверные очки фракции GVG за 2-ю неделю",
     ["Ask the people around"] = "Расспросить окружающих",
-    ["Honor · Guardian Blade"] = "Honor · Guardian Blade",
+    ["Honor · Guardian Blade"] = "Честь · Клинок Стража",
     ["播放CutScene  玩家移除任务道具（全部删除）  传送到指定场景的坐标位置"] = "Запустите CutScene, игрок удаляет квестовый предмет (удалить все), телепортируется по координатам в указанной сцене.",
     ["Zendaya"] = "Зендая",
     ["Avaya"] = "Авая",

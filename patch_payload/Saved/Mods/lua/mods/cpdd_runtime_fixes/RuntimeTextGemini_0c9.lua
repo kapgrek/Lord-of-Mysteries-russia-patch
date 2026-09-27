@@ -231,5 +231,6 @@ return {
     ["Fool's Gambit Talent"] = "Таланты «Гамбита Шута»",
     ["Dragon Might sweeps the front, applying Burn and Grievous Injury while healing allies."] = "Давление дракона сметает врагов впереди, поджигает их и наносит тяжёлые раны, а также лечит союзников.",
     ["假好友"] = "Поддельный друг",
-    ["退出战略服"] = "Exit Strategic Server",
+    ["Cheers and applause are heard"] = "Раздаются приветственные возгласы и аплодисменты",
+    ["退出战略服"] = "Выйти со стратегического сервера",
 }

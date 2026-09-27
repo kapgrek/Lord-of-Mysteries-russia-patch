@@ -280,7 +280,7 @@ return {
     ["Low Health Pursuit"] = "Погоня при низком здоровье",
     ["咳，好的，咳咳……"] = "Кхм, хорошо, кхе-кхе……",
     ["Middle"] = "Середина",
-    ["无可使用灵线"] = "No Spirit Threads available.",
+    ["无可使用灵线"] = "Нет доступных Духовных нитей.",
     ["　　Failed the exam again... I have lost count of how many times I have failed...\n\n　　Perhaps I was not born to be a government employee. Carefully managing that small meat stall and living with a beautiful wife is the life I should be living.\n\n　　She will wash my clothes, I will stew meat for her, and let her become the woman who has eaten the most meat in all of Tingen.\n\n　　What a beautiful life... I should pull myself together and try hard to find a wife."] = "　　Снова провалился... Я уже со счёта сбился, в который раз...\r\n\r\n　　Наверное, мне на роду не написано быть государственным служащим. Толково заправлять мясной лавкой да жить с красавицей-женой — вот та жизнь, которая мне действительно нужна.\r\n\r\n　　Она стирала бы мне рубашки, а я тушил бы для неё отборное мясо, чтобы она стала женщиной, съевшей больше всего мяса во всём Тингене.\r\n\r\n　　Эх, какая бы это была жизнь... Пора взять себя в руки и пойти искать жену.",
     ["Santino"] = "Сантино",
 }

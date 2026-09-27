@@ -263,8 +263,8 @@ return {
     ["每段伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>1500%</> = {*d,F1690001,atkMin,15}点"] = "Урон за удар серии: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>1500%</> = {*d,F1690001,atkMin,15}",
     ["肉桂粉"] = "Молотая корица",
     ["<Highlight> %d hours until </> enters %s"] = "<Highlight>Через %d ч.</> — вход в %s",
-    ["异变突生"] = "An unexpected change occurs",
-    ["原始股份"] = "Original Shares",
+    ["异变突生"] = "Внезапно происходит непредвиденное",
+    ["原始股份"] = "Изначальные акции",
     ["We are happy to tell everyone that the famous 'Big Eater' Loro has been attracted by the harmonious and peaceful atmosphere of Tingen and has decided to settle here for the time being!\n\nHe once ate 100 Dicy pies in 1 hour! 126 lamb chops!\n\nHe will perform his extraordinary appetite on West Avenue at any time! Everyone is welcome to come and enjoy!"] = "Рады сообщить всем, что знаменитый «Обжора» Лоро, очарованный гармоничной и безмятежной атмосферой Тингена, решил временно обосноваться здесь!\n\nОднажды он всего за 1 час умял 100 дисийских пирогов и 126 бараньих отбивных!\n\nОн в любое время готов продемонстрировать свой сверхчеловеческий аппетит на Западном проспекте! Приглашаем всех полюбоваться этим зрелищем!",
     ["Katalina"] = "Каталина",
 }

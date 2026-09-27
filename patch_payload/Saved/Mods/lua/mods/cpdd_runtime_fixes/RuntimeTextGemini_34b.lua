@@ -250,4 +250,5 @@ return {
     ["暖阳浮金"] = "Тёплое золото",
     ["摊位收益"] = "Доход от прилавка",
     ["<Highlight> %d minutes until </> enters %s"] = "<Highlight>Через %d мин.</> — вход в %s",
+    ["Click <h>here</> to open the strategic server world map and go to the strategic server Tingen scene."] = "Нажмите <h>здесь</>, чтобы открыть карту мира стратегического сервера и перейти на локацию Тинген стратегического сервера.",
 }

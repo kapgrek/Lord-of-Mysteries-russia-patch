@@ -266,8 +266,9 @@ return {
     ["Please enter your operational strategy..."] = "Введите тактику…",
     ["廷根湖畔"] = "На берегу озера Тинген",
     ["冥界边缘"] = "На краю загробного мира",
-    ["Cedar Ronchi"] = "Cedar Ronchi",
-    ["Rare Oil Painting"] = "Rare Oil Painting",
+    ["Chat with <h>Leonard</> while walking"] = "Поговорить с <h>Леонардом</> по пути",
+    ["Cedar Ronchi"] = "Кедровый Рончи",
+    ["Rare Oil Painting"] = "Редкая картина маслом",
     ["Yura"] = "Юра",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

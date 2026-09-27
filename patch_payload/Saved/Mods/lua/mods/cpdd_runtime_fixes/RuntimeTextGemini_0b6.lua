@@ -241,7 +241,7 @@ return {
     ["<CostRed>{1,2, (Brand Expired) }</>Attack increased by <Mark>260</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Wessel Family. Upon entering combat, for every team member who possesses the <Mark>Virtue</> of the Wessel Family, Attack is increased by an additional <Mark>10</>. \nDoes not take effect when the <Mark>Iron and Blood Covenant</> set is activated."] = "<CostRed>{1,2,(Клеймо истекло)}</>Атака повышается на <Mark>260</>, защита понижается на <Mark>15</>. Даёт владельцу <Mark>Добродетель</> семьи Уэссел. При вступлении в бой за каждого члена отряда, обладающего <Mark>Добродетелью</> семьи Уэссел, атака дополнительно повышается на <Mark>10</>.\nНе действует при активном сете <Mark>Клятва Железа и Крови</>.",
     ["[Exclusive Bench] Gameplay Introduction"] = "[Эксклюзивная скамья] Введение в игровой процесс",
     ["巫术斗法·终"] = "Колдовская дуэль · Конец",
-    ["战略服终末猎杀玩法介绍"] = "Strategic Server End-Time Hunt Gameplay Introduction",
+    ["战略服终末猎杀玩法介绍"] = "Описание режима «Финальная охота» стратегического сервера",
     ["玩家ID:"] = "Идентификатор игрока:",
     ["采集指定TemplateID的采集物  延迟执行  对象播放指定对白内容  对象播动作（拥有状态记录）"] = "Соберите указанный элемент коллекции TemplateID; отложенное исполнение; объект воспроизводит указанное содержимое диалога; объект выполняет действие (имеет запись состояния).",
 }

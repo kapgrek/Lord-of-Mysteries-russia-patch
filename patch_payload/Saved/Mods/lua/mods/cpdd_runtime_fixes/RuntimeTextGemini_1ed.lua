@@ -264,7 +264,7 @@ return {
     ["晚上"] = "Ночь",
     ["Baboon Brother's Fur"] = "Шерсть братца-павиана",
     ["守护的黎明"] = "Рассвет защиты",
-    ["Rare Honey Ale"] = "Rare Honey Ale",
+    ["Rare Honey Ale"] = "Редкий медовый эль",
     ["Pine needle oil side 😡 Wow, it smells so good 😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["Nolan"] = "Нолан",
 }
