@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.5-RU"
+local VERSION = "3.0.6-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -1408,6 +1408,7 @@ local runtimeMetrics = {
     TextFitDeferred = 0,
     TextFitNoEffect = 0,
     TextFitNoBudget = 0,
+    TextFitStateRecaptured = 0,
     TextFitMs = 0,
     TextFitMsMax = 0,
     KsbcFallbacks = 0,
@@ -3971,6 +3972,45 @@ do
         return font
     end
 
+    -- widget path -> { size = authored, applied = our last size } (TASK-021):
+    -- a new state for the same UObject (new Lua proxy, collected state) must
+    -- not take the size we set for the authored one (20 -> 22 -> 20 -> 22).
+    local PATHS_MAX = 4096
+    local paths, pathCount = {}, 0
+    TF.Paths = paths
+
+    local function pathEntry(widget, size)
+        local path = nil
+        pcall(function() path = widget:GetPathName() end)
+        if type(path) ~= "string" or path == "" then return nil, size end
+        local entry = paths[path]
+        if entry == nil then
+            if pathCount >= PATHS_MAX then
+                paths, pathCount = {}, 0
+                TF.Paths = paths
+            end
+            entry = { size = size }
+            paths[path] = entry
+            pathCount = pathCount + 1
+            return entry, size
+        end
+        if size ~= nil and entry.applied ~= nil and size == entry.applied and entry.size ~= nil then
+            if size ~= entry.size then
+                local d = runtimeFixes.Diag
+                if d then
+                    runtimeMetrics.TextFitStateRecaptured = runtimeMetrics.TextFitStateRecaptured + 1
+                    if d.NoteFit then
+                        d.NoteFit(widget, { kind = "recapture", size_pre = size, size = entry.size, reason = "path" })
+                    end
+                end
+            end
+            return entry, entry.size
+        end
+        -- The game set a size of its own: that is the authored one now.
+        entry.size, entry.applied = size, nil
+        return entry, size
+    end
+
     function TF.State(widget, font)
         local st = states[widget]
         if st ~= nil then return st end
@@ -3980,8 +4020,16 @@ do
         pcall(function() st.ls = tonumber(font.LetterSpacing) end)
         pcall(function() st.wls = tonumber(widget.LetterSpacing) end)
         pcall(function() st.wrap = widget.AutoWrapText == true end)
+        st.path, st.size = pathEntry(widget, st.size)
         pcall(function() states[widget] = st end)
         return st
+    end
+
+    -- Size this pass leaves on the widget (st.applied and the path registry).
+    function TF.NoteApplied(st, size)
+        size = tonumber(size)
+        st.applied = size
+        if st.path ~= nil then st.path.applied = size end
     end
 
     local function prepass(widget)
@@ -4058,7 +4106,7 @@ do
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end)
         local st = states[widget]
-        if st ~= nil then st.applied = size end
+        if st ~= nil then TF.NoteApplied(st, size) end
     end
 
     -- Width (or, for wrapped text, height) before our SetText; called once per
@@ -4130,6 +4178,7 @@ do
         elseif st.applied ~= nil and math.abs(current - st.applied) > 0.01 and math.abs(current - st.size) > 0.01 then
             st.size = current
             st.fitText, st.run = nil, nil
+            if st.path ~= nil then st.path.size = current end
         end
     end
 
@@ -4333,6 +4382,13 @@ do
     -- wrapping off for titles), kept for one version to compare screens.
     function TF.Legacy(widget, font, textToCheck, hasCyrillic, isTitleName, isSynergyWidget)
         local st = TF.State(widget, font)
+        if not hasCyrillic and textToCheck ~= "" then
+            -- +2 is for Cyrillic only (v2.9.6); digits and Latin keep the
+            -- authored size, so the game's own restyle is not a jump (TASK-021).
+            -- Empty text is still styled ahead for the Russian it will get.
+            if st.size ~= nil then font.Size = st.size end
+            return false
+        end
         if hasCyrillic then
             if widget.SetLetterSpacing ~= nil then widget:SetLetterSpacing(0) end
             if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
@@ -4805,6 +4861,7 @@ local function translateTextWidget(widget, discoveryContext)
                 textFit.NoteHint(widget, widgetName, hintBefore, font.Size)
             end
 
+            textFit.NoteApplied(st, font.Size)
             widget.Font = font
             if widget.SetFont ~= nil then widget:SetFont(font) end
         end
@@ -11693,6 +11750,23 @@ runtimeFixes.LateLabelClasses = {
     FellowPage = { paths = { { "WBP_PartnerSkill", "KGTextBlock_52" } } },
     WorkshopUp_Panel = { paths = { { "Text_Up" } } },
     NPCTalkTextComp = { paths = {}, args = true },
+    -- Settings rows (TASK-021 п.3): the game fills them after Open, the
+    -- delayed pass then changed their size on screen. methods: own patterns;
+    -- inherit: methods of Settings_* bases are wrapped on this class too.
+    Settings_Switch_Item = {
+        paths = { { "Text" }, { "Switcher", "Text_On" }, { "Switcher", "Text_Off" } },
+        methods = { "^Refresh", "^OnRefresh", "^Set" }, inherit = "^Settings_",
+    },
+    Settings_DoubleSwitch_Item = {
+        paths = {
+            { "WBP_SetSwitchItem1", "Text" }, { "WBP_SetSwitchItem1", "Switcher", "Text_On" },
+            { "WBP_SetSwitchItem1", "Switcher", "Text_Off" },
+            { "WBP_SetSwitchItem2", "Text" }, { "WBP_SetSwitchItem2", "Switcher", "Text_On" },
+            { "WBP_SetSwitchItem2", "Switcher", "Text_Off" },
+            { "Text" }, { "Text_On" }, { "Text_Off" },
+        },
+        methods = { "^Refresh", "^OnRefresh", "^Set" }, inherit = "^Settings_",
+    },
 }
 runtimeFixes.LateLabelMethodPatterns = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play" }
 
@@ -11740,28 +11814,64 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
         if runtimeFixes.LateLabelClasses[className] == nil then break end
         if rawget(current, "__cpddLateLabelHook") ~= VERSION then
             rawset(current, "__cpddLateLabelHook", VERSION)
-            local names = {}
-            for name, member in pairs(current) do
-                if type(name) == "string" and type(member) == "function" then
-                    for _, pattern in ipairs(runtimeFixes.LateLabelMethodPatterns) do
-                        if name:find(pattern) then names[#names + 1] = name break end
+            local classSpec = runtimeFixes.LateLabelClasses[className]
+            local patterns = classSpec.methods or runtimeFixes.LateLabelMethodPatterns
+            local names, inherited = {}, {}
+            local function collect(tbl, fromBase)
+                for name, member in pairs(tbl) do
+                    if type(name) == "string" and type(member) == "function" and names[name] == nil
+                        and (not fromBase or rawget(current, name) == nil) then
+                        for _, pattern in ipairs(patterns) do
+                            if name:find(pattern) then
+                                names[name] = true
+                                inherited[name] = fromBase or nil
+                                break
+                            end
+                        end
                     end
                 end
             end
-            table.sort(names)
+            collect(current, false)
+            if classSpec.inherit then
+                -- Methods the class takes from its Settings_* bases: wrapped on
+                -- this class, the base itself stays untouched.
+                local okBase, baseMt = pcall(getmetatable, current)
+                local base = okBase and type(baseMt) == "table" and rawget(baseMt, "__index") or nil
+                local baseDepth = 0
+                while type(base) == "table" and baseDepth < 6
+                    and tostring(rawget(base, "__cname")):find(classSpec.inherit) do
+                    collect(base, true)
+                    local okNext, nextMt = pcall(getmetatable, base)
+                    base = okNext and type(nextMt) == "table" and rawget(nextMt, "__index") or nil
+                    baseDepth = baseDepth + 1
+                end
+            end
+            local sorted = {}
+            for name in pairs(names) do sorted[#sorted + 1] = name end
+            table.sort(sorted)
+            names = sorted
+            local okOwnMt, ownMt = pcall(getmetatable, current)
+            local parentIndex = okOwnMt and type(ownMt) == "table" and rawget(ownMt, "__index") or nil
             for _, name in ipairs(names) do
                 local original = rawget(current, name)
+                if inherited[name] then
+                    -- Resolved at call time: later changes of the base apply.
+                    original = function(self, ...) return parentIndex[name](self, ...) end
+                end
                 local wrapper = runtimeFixes.diagWrap("late-class:" .. className .. "." .. name, "late-class", function(self, ...)
                     local results
-                    if spec.args then
+                    if classSpec.args then
                         local count, args = runtimeFixes.lateLabelArgs(...)
                         results = { original(self, unpack(args, 1, count)) }
                     else
                         results = { original(self, ...) }
                     end
-                    if type(self) == "table" and #spec.paths > 0 and not self.__cpddLateLabelBusy then
+                    -- Paths of the instance's own class (a subclass may share this one).
+                    local ownSpec = type(self) == "table" and runtimeFixes.LateLabelClasses[tostring(rawget(self, "__cname") or self.__cname)] or nil
+                    local repairSpec = ownSpec or classSpec
+                    if type(self) == "table" and #repairSpec.paths > 0 and not self.__cpddLateLabelBusy then
                         self.__cpddLateLabelBusy = true
-                        pcall(runtimeFixes.repairLateLabels, self, spec)
+                        pcall(runtimeFixes.repairLateLabels, self, repairSpec)
                         self.__cpddLateLabelBusy = nil
                     end
                     return unpack(results)

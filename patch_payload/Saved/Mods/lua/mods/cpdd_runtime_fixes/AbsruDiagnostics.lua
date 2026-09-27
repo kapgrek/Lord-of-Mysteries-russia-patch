@@ -1183,7 +1183,12 @@ function D.ProbeSettingsHooks(component, methodName)
         return
     end
     local uid = componentUid(component)
-    if uid == "Settings_Panel" and methodName == "Open" then
+    -- Child components of the panel carry uid "Settings_Panel" too (TASK-021
+    -- п.4): the panel itself is recognised by its class name.
+    local cnameOk, cname = pcall(function() return component.__cname end)
+    cname = cnameOk and cname or nil
+    local isPanel = cname == "Settings_Panel" or (cname == nil and uid == "Settings_Panel")
+    if isPanel and methodName == "Open" then
         if #S.probes.settings < SETTINGS_OPENS_MAX then
             local cur = {
                 t = stamp("%H:%M:%S"), open_ms = nowMs(), refreshes = 0,
