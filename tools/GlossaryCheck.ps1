@@ -1,8 +1,9 @@
 ﻿# GlossaryCheck.ps1 - сверка target_ru с глоссарием боевых характеристик (source/glossary/combat_stats.json), без ИИ
 #   -Report   [-Terms 穿刺,破防]   таблица корзин по батчам + temp/glossary_report.md (+ .json со сводкой)
 #   -FixShort                     корзина A: короткая подпись = канон (печатает «было → стало»)
-#   -Export   [-Count 50]         корзины B + C чанками в temp/glossary_chunk_NNN.json
-#   -ExportNew -BatchFile <батч> [-Count 50]  строки с пустым target_ru чанками (mode = "new", terms + names), TASK-019
+#   -Export   [-Count 50] [-MaxBytes 40000]  корзины B + C чанками в temp/glossary_chunk_NNN.json
+#   -ExportNew -BatchFile <батч> [-Count 50] [-MaxBytes 40000]  строки с пустым target_ru чанками (mode = "new", terms + names), TASK-019
+#                                 Чанк закрывается по -Count строк или когда байты source_cn+ref_en+target_ru превысили бы -MaxBytes (минимум 1 строка)
 #   -Import   <файл>              ответ { "batch_005:020853": "новый target_ru" } с проверкой канона и разметки
 #   -BuildDoc                     пересобрать docs/GLOSSARY.md из source/glossary/*.json
 #   -Glossary <файл>              глоссарий терминов для -Report/-FixShort/-Export/-ExportNew/-Import (по умолчанию combat_stats.json;
@@ -20,6 +21,7 @@ param(
     [switch]$BuildDoc,
     [string[]]$Terms = @(),
     [int]$Count = 50,
+    [int]$MaxBytes = 40000,
     [string]$ReportFile = '',
     [string]$Glossary = 'combat_stats.json'
 )
@@ -291,16 +293,32 @@ if ($FixShort) {
     exit 0
 }
 
+# Чанки для -Export/-ExportNew: не больше -Count строк и -MaxBytes байт source_cn+ref_en+target_ru (строка крупнее
+# -MaxBytes идёт отдельным чанком). 50 строк справки <Assistant_*> давали 142 КБ, и ru-translator зависал на ответе (TASK-022).
+function Split-Chunks($list) {
+    $chunks = New-Object System.Collections.Generic.List[object]
+    $cur = New-Object System.Collections.Generic.List[object]; $bytes = 0
+    foreach ($r in $list) {
+        $b = $utf8NoBom.GetByteCount([string]$r.cn) + $utf8NoBom.GetByteCount([string]$r.en) + $utf8NoBom.GetByteCount([string]$r.ru)
+        if ($cur.Count -gt 0 -and ($cur.Count -ge $Count -or $bytes + $b -gt $MaxBytes)) {
+            $chunks.Add($cur.ToArray()); $cur = New-Object System.Collections.Generic.List[object]; $bytes = 0
+        }
+        $cur.Add($r); $bytes += $b
+    }
+    if ($cur.Count) { $chunks.Add($cur.ToArray()) }
+    return , $chunks
+}
+
 # ============ -Export ============
 if ($Export) {
     $rows = Get-Rows
     Get-ChildItem $tempDir -Filter 'glossary_chunk_*.json' -ErrorAction SilentlyContinue | Remove-Item -Force
     $list = @($rows | Where-Object { (Get-Worst $_) -in 'B', 'C' })
     $chunkNo = 0
-    for ($i = 0; $i -lt $list.Count; $i += $Count) {
+    foreach ($chunk in (Split-Chunks $list)) {
         $chunkNo++
         $items = @()
-        foreach ($r in $list[$i..([Math]::Min($i + $Count, $list.Count) - 1)]) {
+        foreach ($r in $chunk) {
             $cnPlain = $markupRegex.Replace($r.cn, '')
             $chunkTerms = @()
             foreach ($e in $entries) {
@@ -328,7 +346,8 @@ if ($Export) {
 # из остальных глоссариев, чьё cn входит в source_cn ({cn, ru}).
 if ($ExportNew) {
     if (-not $BatchFile) { throw 'Для -ExportNew нужен -BatchFile batch_NNN_*.json' }
-    $batchPath = Join-Path $batchesDir $BatchFile
+    # Полный путь — копия батча вне source/ (проверка инструмента); имя — батч из source/translation_batches.
+    $batchPath = if ([System.IO.Path]::IsPathRooted($BatchFile)) { $BatchFile } else { Join-Path $batchesDir $BatchFile }
     if (-not (Test-Path $batchPath)) { throw "Батч $BatchFile не найден" }
     $names = New-Object System.Collections.Generic.List[object]
     foreach ($n in 'characters_and_factions', 'locations_and_geography', 'terms_and_items') {
@@ -353,10 +372,10 @@ if ($ExportNew) {
     }
     Get-ChildItem $tempDir -Filter 'glossary_chunk_*.json' -ErrorAction SilentlyContinue | Remove-Item -Force
     $chunkNo = 0
-    for ($i = 0; $i -lt $list.Count; $i += $Count) {
+    foreach ($chunk in (Split-Chunks $list)) {
         $chunkNo++
         $items = @()
-        foreach ($r in $list[$i..([Math]::Min($i + $Count, $list.Count) - 1)]) {
+        foreach ($r in $chunk) {
             $cnPlain = $markupRegex.Replace($r.cn, '')
             $rowTerms = @(Test-Row $r.cn $r.en '')
             $chunkTerms = @()

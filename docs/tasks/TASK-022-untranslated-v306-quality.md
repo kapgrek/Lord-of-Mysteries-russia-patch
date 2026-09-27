@@ -177,6 +177,14 @@ v3.0.6-RU, сессия `20260927-133404` (слот s5). Карточки Авт
   - `ShardCompiler` (35 батчей, 135 669 строк, шарды без изменений — batch_035 уже был в git), `VerifyPatch` OK, `VerifyBatch` 0 ERR, `PackageRelease.ps1` без `-Publish` → `build/Lord-of-Mysteries-Russian-Patch-v3.0.7-RU.zip` (68,05 МБ). В шардах zip есть строки batch_035 («Великий клуб Таро», «Потустороннее чародейство»).
 - **Не сделано по плану:** R2 (ждёт `probes.text_skip` следующей сессии), перевод и правки качества (отдельные чаты). Релиз не опубликован.
 
+## Исполнение v3.0.8 (2026-09-28)
+Zip v3.0.7 был собран 27.09 до пачек 4–5 (`8c92590a`, `2dfb0609`, `c332428e`) и правки качества (`92722c06`), поэтому их переводов в нём нет. Пересборка без изменений рантайма.
+- **Инструмент.** `GlossaryCheck.ps1 -Export/-ExportNew -MaxBytes N` (по умолчанию 40000): функция `Split-Chunks` закрывает чанк, если набрано `-Count` строк или следующая строка вывела бы сумму байт `source_cn`+`ref_en`+`target_ru` (UTF-8) за `-MaxBytes`. В чанке минимум 1 строка: строка крупнее лимита идёт отдельным чанком. Причина: 50 строк справки `<Assistant_*>` давали чанк 142 КБ, и `ru-translator` зависал на ответе. `-ExportNew -BatchFile` принимает и полный путь, чтобы проверять копию батча вне `source/`. Строки в SKILL `translate-pack`, `translate-chunk` и в `TRANSLATION_GUIDE.md`.
+- **Проверка инструмента** (копия `batch_036` с пустыми `target_ru` в scratchpad, реальные батчи не менялись; чанки в `temp/` восстановлены): 1721 строка → 38 чанков вместо 35, полезная нагрузка не больше 39 987 байт, в чанке не больше 50 строк (JSON-файл с `terms`/`names` — до 85 КБ). `-MaxBytes 1` → 1721 чанк по 1 строке, `-MaxBytes 100000000` → 35 чанков (как раньше по `-Count`). `-Export -Glossary ui_traintrade.json -MaxBytes 3000` → 140 строк, 29 чанков.
+- **Версия 3.0.8-RU:** AppInfo, AssemblyInfo, app.manifest, Init.lua, VerifyPatch, PackageRelease, README.
+- **Сборка.** `ShardCompiler` (37 батчей, 139 949 строк, шарды без изменений — уже были в git), `VerifyBatch` по всем батчам 0 ERR (только WARN), `PackageRelease.ps1` без `-Publish` (VerifyPatch OK, установщик 3.0.8-RU (Release)) → `build/Lord-of-Mysteries-Russian-Patch-v3.0.8-RU.zip` (69,15 МБ, data zip 68,73 МБ). Подпись Authenticode самоподписанная (`UnknownError`), как раньше.
+- **Шарды zip.** Все строки-образцы `batch_036` (677 из 677 без экранирования, длиной 12–60 символов) и `batch_037` (821 из 821) найдены в Lua-шардах data zip; канон качества «Фильтр меток» и «Выдержанный красный «Лафит»» тоже найден. Релиз не опубликован.
+
 ## Порядок пачек перевода
 0. **Чат исполнения** (код и инструменты, выше) — первым: промпт «Качество» использует `-Glossary`, пачка 4 — `-EmitList`.
 1. **Пачка 4** — `batch_036_stringdb_s5_p4.json`: видимое и новые данные (10 `WidgetText` + 6 EN-алиасов через `-EmitList`, ≈16 полей KSBC через `-EmitData`) + StringDB `skill,buff,assistant,item,mail` (≈1730 строк, 35 чанков).
