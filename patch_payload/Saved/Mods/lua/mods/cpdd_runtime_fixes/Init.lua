@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.3-RU"
+local VERSION = "3.0.4-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -3734,9 +3734,37 @@ end
 -- a run of CJK ideographs, optionally in 【】, at least 2 characters long; it
 -- is replaced only by an exact shard hit without Chinese. Callers must skip
 -- user-content widgets (runtimeFixes.isUserContentWidget).
+-- TASK-020: a bare run is a standalone label only when both sides (past
+-- spaces and ASCII punctuation) are the string edge, "\n", Cyrillic or a
+-- tag; "，持续<HighLight>5</>秒。" is a piece of a Chinese sentence and stays.
+-- Without Cyrillic in the string it is all or nothing: if Chinese remains,
+-- the original is returned.
+runtimeFixes.isStandaloneCjkRun = function(text, first, last)
+    local function edgeOk(position, step)
+        while position >= 1 and position <= #text do
+            local char = text:sub(position, position)
+            if char == "\n" or char == ">" and step < 0 or char == "<" and step > 0 then
+                return true
+            end
+            if not char:find("[ \t%.,:;!%?%(%)\"'%-]") then break end
+            position = position + step
+        end
+        if position < 1 or position > #text then return true end
+        if step < 0 then
+            while position > 1 and text:byte(position) >= 128 and text:byte(position) < 192 do
+                position = position - 1
+            end
+        end
+        local lead = text:byte(position)
+        return lead >= 208 and lead <= 211
+    end
+    return edgeOk(first - 1, -1) and edgeOk(last + 1, 1)
+end
+
 runtimeFixes.translateMixedFragments = function(value)
     if type(value) ~= "string" or not hasCjk(value) then return value end
-    if not (runtimeFixes.hasCyrillic(value) or value:find("<", 1, true)) then return value end
+    local cyrillic = runtimeFixes.hasCyrillic(value)
+    if not (cyrillic or value:find("<", 1, true)) then return value end
     if runtimeFixes.UserContentTexts.map[value] then return value end
     local ideograph = "[\228-\233][\128-\191][\128-\191]"
     local function exact(fragment)
@@ -3770,11 +3798,17 @@ runtimeFixes.translateMixedFragments = function(value)
             last = nextLast
         end
         parts[#parts + 1] = result:sub(position, first - 1)
-        parts[#parts + 1] = replaceRun(result:sub(first, last))
+        local run = result:sub(first, last)
+        if runtimeFixes.isStandaloneCjkRun(result, first, last) then
+            run = replaceRun(run)
+        end
+        parts[#parts + 1] = run
         position = last + 1
     end
     parts[#parts + 1] = result:sub(position)
-    return table.concat(parts)
+    result = table.concat(parts)
+    if not cyrillic and hasCjk(result) then return value end
+    return result
 end
 
 -- Widgets that show player-made text (nicknames, chat, guilds, titles):
@@ -6011,6 +6045,18 @@ local generatedRowRepairAllowlist = {
     "GetMagDetailDataRow",
     "GetFightPropModeDataRow",
     "GetTipsDataRow",
+    -- TrainTrade ("Магнат") tables named by the TASK-019 R0.1 probe (TASK-020).
+    "GetTrainTradeGoodsDataRow",
+    "GetTrainTradeGoodsTypeNameDataRow",
+    "GetTrainStationTypeDataRow",
+    "GetTrainDifficultyDataRow",
+    "GetTrainStrategyCardDataRow",
+    "GetTrainTradeContractDataRow",
+    "GetTrainTradeQuestDataRow",
+    "GetTrainTradeConstDataRow",
+    "GetTrainUpgradeDataRow",
+    "GetTrainTradeWeeklyRewardDataRow",
+    "GetManagedTradeRouteDataRow",
 }
 local generatedRowRepairCache = setmetatable({}, { __mode = "k" })
 
@@ -7174,6 +7220,23 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.DescFormulaHelper", funct
 
     helper.GenerateTipsDesc = runtimeFixes.diagWrap("fix:DescFormulaHelper.GenerateTipsDesc", "fix", function(tipsString, markTag)
         local original = originalGenerateTipsDesc(tipsString, markTag)
+        local d = runtimeFixes.Diag
+        if d and d.WantTipsDescProbe and d.WantTipsDescProbe(tipsString) then
+            -- TASK-020 п.1: what reaches GenerateTipsDesc and whether the
+            -- translated template formats without error.
+            pcall(function()
+                local shard = lookupGeminiText(tipsString)
+                local entry = {
+                    tips = tipsString, result = original, markTag = markTag,
+                    tipsCjk = hasCjk(tipsString), inShards = shard ~= nil, shard = shard,
+                }
+                if type(shard) == "string" and shard ~= tipsString then
+                    local ok, trial = pcall(originalGenerateTipsDesc, shard, markTag)
+                    entry.trialOk, entry.trial = ok, trial
+                end
+                d.ProbeTipsDesc(entry)
+            end)
+        end
         if type(original) ~= "string" then
             return original
         end

@@ -1084,6 +1084,56 @@ function D.ProbeTrainTrade(stage)
     warn("[AbsruDiag] probe traintrade stage=" .. tostring(stage) .. " helpers=" .. table.concat(names, ","))
 end
 
+-- GenerateTipsDesc probe (TASK-020 п.1): the first unique tipsString ->
+-- result pairs of DescFormulaHelper.GenerateTipsDesc with markTag, shard hit
+-- and a trial call on the translated template; session.json -> probes.tips_desc[].
+local TIPS_PROBE_MAX = 20
+local TIPS_PROBE_TEXT = 4096
+
+function D.WantTipsDescProbe(tipsString)
+    if S.disabled or type(tipsString) ~= "string" then
+        return false
+    end
+    local list = S.probes.tips_desc
+    if list ~= nil and #list >= TIPS_PROBE_MAX then
+        return false
+    end
+    S.tipsSeen = S.tipsSeen or {}
+    return not S.tipsSeen[tipsString]
+end
+
+function D.ProbeTipsDesc(entry)
+    if S.disabled or type(entry) ~= "table" or type(entry.tips) ~= "string" then
+        return
+    end
+    S.tipsSeen = S.tipsSeen or {}
+    if S.tipsSeen[entry.tips] then
+        return
+    end
+    S.tipsSeen[entry.tips] = true
+    local list = S.probes.tips_desc
+    if list == nil then
+        list = array()
+        S.probes.tips_desc = list
+    end
+    if #list >= TIPS_PROBE_MAX then
+        return
+    end
+    local function text(value)
+        if type(value) == "string" then return clip(value, TIPS_PROBE_TEXT) end
+        if value == nil then return nil end
+        return tostring(value)
+    end
+    list[#list + 1] = {
+        t = stamp("%H:%M:%S"),
+        tips = text(entry.tips), result = text(entry.result), mark_tag = text(entry.markTag),
+        tips_cjk = entry.tipsCjk, in_shards = entry.inShards, shard = text(entry.shard),
+        trial_ok = entry.trialOk, trial = text(entry.trial),
+    }
+    S.flushSoon = true
+    warn("[AbsruDiag] probe tipsdesc n=" .. tostring(#list))
+end
+
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
 -- last Refresh of the Settings_*_Item classes (class-level wrappers found on
 -- instances at UIComponent.Open) and each panel pass with its style_changes.

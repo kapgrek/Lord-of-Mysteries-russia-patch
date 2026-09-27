@@ -252,4 +252,5 @@ return {
     ["<P_Heart> (It seems these girls are performing astrological divination.) </>"] = "<P_Heart> (Кажется, эти девушки занимаются астрологическими предсказаниями.) </>",
     ["Equip to gain the [Secrets Suppliant] resonance."] = "Экипируйте, чтобы получить резонанс [Молящийся о Секретах].",
     ["Starfall Gravity"] = "Гравитация звездопада",
+    ["发射三枚飞弹，连续攻击当前目标。"] = "Выпускает три снаряда, непрерывно атакуя текущую цель.",
 }

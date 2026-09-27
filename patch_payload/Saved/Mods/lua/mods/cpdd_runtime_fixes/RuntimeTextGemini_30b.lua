@@ -263,5 +263,6 @@ return {
     ["<DecH> Craft: </> Black-Red Light Armor - Sharp Thorn Ring - Strife Hunter Robe \n Power and desire converge in the torrent of the era, and ambition ignites the dark side of society. Walking between desire and darkness, you are the hunter chasing decay, and the sharp sword stirring up the winds."] = "<DecH>Мастерство:</> чёрно-красный лёгкий доспех, шипастый браслет, охотничье одеяние раздора\nЖажда власти бурлит в потоке эпохи, а амбиции зажигают тёмную изнанку общества. Ступая меж желаниями и тьмой, ты и охотник, выслеживающий тлен, и разящий клинок, вершащий судьбы.",
     ["<HighLight>为友方提供护盾</>"] = "<HighLight>Даёт щит союзникам</>",
     ["Swing the scythe to heavily damage targets with low health; the flower field causes Continuous Damage and Slow."] = "Взмахом косы тяжело ранит цели с низким здоровьем; цветочное поле наносит постоянный урон и замедляет.",
+    ["向<HighLight>2</>格内当前目标投射暗影弹，造成<HighLight>100%攻击伤害</>。"] = "Выпускает снаряд тени по текущей цели в пределах <HighLight>2</> клеток, нанося <HighLight>100% урона от атаки</>.",
     ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }
