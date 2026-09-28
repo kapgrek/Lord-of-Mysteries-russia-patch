@@ -257,7 +257,8 @@ return {
     ["Successfully charm 5 Beyonders"] = "Успешно очаровать 5 Потусторонних",
     ["每层你可以获得一次在战斗中使用坐骑的机会，持续30秒，上坐骑时你对撞到的敌人造成高额伤害且自身不受控制效果影响。"] = "Каждый уровень даёт вам одну возможность использовать маунта в бою длительностью 30 секунд. При посадке на маунта вы наносите высокий урон врагам, в которых врезаетесь, и не подвержены эффектам контроля.",
     ["Are you planning to go back later? I hope you're an obedient, good cat."] = "Собираешься вернуться позже? Надеюсь, ты послушная хорошая кошка.",
-    ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on.",
+    ["{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!"] = "{{player.name}} в ходе Потустороннего слияния сгенерировал(а) {{item.name}} с меткой <Chat_Highlight>{{relic_word.name}}</>, получив благословение Жёлто-чёрного короля, повелевающего удачей!",
+    ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
     ["指定地点附近使用任务道具  玩家播放仅自己可见的说话文本  玩家发送任务道具"] = "Использовать квестовый предмет рядом с указанным местом: игрок воспроизводит текст, видимый только ему самому, игрок отправляет квестовый предмет.",
     ["剩余时间："] = "Оставшееся время:",
 }

@@ -274,5 +274,6 @@ return {
     ["Candlelight, red wine, two people leaning very close to each other."] = "Свечи, красное вино, двое, сидящие очень близко друг к другу.",
     ["Club members can hold management positions, group positions, and Club Star titles; \nManagement positions include President, Diplomat, and Director."] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
     ["Dream Come True"] = "Мечта сбылась",
+    ["...<P_Heart> (A Beyonder like Mr. Dunn? No, I am not, and I want to know too.)</>"] = "……<P_Heart>(Потусторонний вроде мистера Данна? Нет, я не такой, я тоже хочу это узнать.)</>",
     ["Cullen"] = "Каллен",
 }

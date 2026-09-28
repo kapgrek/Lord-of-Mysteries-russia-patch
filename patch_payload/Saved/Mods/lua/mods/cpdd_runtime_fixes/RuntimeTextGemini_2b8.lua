@@ -274,7 +274,7 @@ return {
     ["How is the equipment percentage calculated?"] = "Как рассчитывается процент экипировки?",
     ["<P_Heart>（低下头）</>嗯……除去为了生活，我也想学走钢丝，极限刺激，和平时一点都不一样。"] = "<P_Heart>(Опускает голову)</>Хм… Не считая того, что это ради заработка, я тоже хочу научиться ходить по канату — это предельный экстрим, совсем не похожий на обычную жизнь.",
     ["Then you must be from out of town too. I have always believed that those who have lived here all their lives don't know how to judge good weather."] = "Значит, вы тоже приезжий. Я всегда считал, что те, кто живёт здесь всю жизнь, не умеют судить о том, хорошая погода или плохая.",
-    ["一个人常携带的事物往往和他们自身有强烈的关联。通过占卜，可以追踪到主人的位置。"] = "The things a person carries often share a strong connection with them. Through divination, they can be used to track their owner's location.",
+    ["一个人常携带的事物往往和他们自身有强烈的关联。通过占卜，可以追踪到主人的位置。"] = "Вещи, которые человек часто носит с собой, зачастую тесно связаны с ним самим. С помощью гадания по ним можно отследить местонахождение владельца.",
     ["Wait time  Player plays story dialogue"] = "Время ожидания. Игрок воспроизводит сюжетный диалог.",
     ["Eliam"] = "Элиам",
     ["Alyosha"] = "Алеша",

@@ -265,5 +265,5 @@ return {
     ["Use the residual power of the vines to prevent yourself from being knocked back!"] = "Используйте остаточную силу лиан, чтобы не быть отброшенным!",
     ["%s默认为静默模式，不可进行此操作"] = "%s по умолчанию находится в режиме тишины, это действие невозможно",
     ["Don't worry, mate, I'll hold it steady from below!"] = "Не волнуйся, приятель, я буду держать снизу крепко!",
-    ["世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。"] = "When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week.",
+    ["世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。"] = "Когда Мировое Бедствие погибает, Потусторонние, участвовавшие в бою, получают награду. Награду можно получить лишь <Highlight>1 раз</> в неделю.",
 }

@@ -278,5 +278,7 @@ return {
     ["爸爸，我好想您。"] = "Папа, я так по тебе скучаю.",
     ["But she has been nowhere to be seen."] = "Но она до сих пор не появилась.",
     ["The silver-gilt tea set is carved with gorgeous emblems, making afternoon tea time even more elegant."] = "Позолоченный серебряный чайный набор украшен великолепными эмблемами, делая послеполуденное чаепитие ещё более изысканным.",
+    ["He is fighting against the corruption. We need to help him!"] = "Он борется с осквернением, нам нужно ему помочь!",
+    ["<Rank1>\"Level 1\"</> Sealed Artifact only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect"] = "<Rank1>«1 уровня»</> Запечатанный Артефакт действует только на стратегическом сервере, на этом сервере действует эффект <Rank2>«2 уровня»</>",
     ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

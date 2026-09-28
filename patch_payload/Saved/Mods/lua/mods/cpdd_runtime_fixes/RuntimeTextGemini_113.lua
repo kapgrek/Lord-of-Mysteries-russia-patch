@@ -260,6 +260,7 @@ return {
     ["Base Stats: Attack +15%, Mana Regeneration +2"] = "Базовые характеристики: Атака +15%, Восстановление маны +2",
     ["Steamships, railway laying, urban infrastructure... steel is needed everywhere now!"] = "Паровые суда, прокладка железных дорог, городская инфраструктура... сталь сейчас нужна повсюду!",
     ["After Mary fell seriously ill, I sold all my family property, but I still couldn't keep her."] = "После того как Мэри серьёзно заболела, я продал всё семейное имущество, но всё равно не смог её спасти.",
+    ["Obtain 1 Beyonder material with {Chaos Walker} entry"] = "Получите 1 потустороннюю материю с меткой {Странник Хаоса}",
     ["成功对其他非凡者施以安魂%d/100次。"] = "Успешно отпейте %d/100 раз другим выдающимся людям.",
     ["Theodora"] = "Теодора",
 }

@@ -261,5 +261,6 @@ return {
     ["Sin Purification Amplification"] = "Усиление очищения грехов",
     ["I used to think it was a bit eerie and cold here."] = "Раньше мне казалось, что здесь как-то жутковато и холодно.",
     ["Aesthetic Hall"] = "Зал эстетики",
+    ["One-click boost character to mid-spender player stats, unlock systems, advance Sequence, and add potions."] = "Одним нажатием повысить характеристики персонажа до уровня игрока среднего доната, разблокировать системы, повысить Последовательность и добавить снадобья.",
     ["Salma"] = "Сальма",
 }

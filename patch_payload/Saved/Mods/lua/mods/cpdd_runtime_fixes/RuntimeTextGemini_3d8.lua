@@ -255,5 +255,7 @@ return {
     ["<HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">窥秘之眼</>的伤害提高幅度增加到53%"] = "Увеличение урона <HyperLink stylename=\"M_Link\" u=\"86071060\" color=\"#f4a067\">Глаз, Подглядывающих Тайну</> повышено до 53%",
     ["Function_Invincible Untargetable"] = "Функция_Неуязвимость и недосягаемость",
     ["What is the \"Mysterious Prophecy of Golden Autumn Lake\" you just mentioned?"] = "Что за «Таинственное пророчество озера Золотая Осень», о котором ты только что упомянул?",
+    ["A wisp of hazy Beyonder characteristic fragments. The moment it is held in the palm, it carries a heavy weight, as if holding a will that has yet to be fully expressed."] = "Смутный осколок Потусторонней характеристики. В тот момент, когда его сжимаешь в ладони, ощущается тяжёлый вес, будто держишь в руке чью-то недосказанную волю.",
+    ["One-click boost character to standard active player stats, unlock systems, advance Sequence, and add potions."] = "Одним нажатием повышает характеристики персонажа до уровня стандартного активного игрока, разблокирует системы, повышает Последовательность и добавляет зелья.",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: игрок воспроизводит эмоциональную музыку (слышна только самому себе), телепортируется к указанным координатам сцены.",
 }

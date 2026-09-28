@@ -252,8 +252,10 @@ return {
     ["Seems to have remembered something"] = "Кажется, что-то вспомнилось",
     ["<Assistant_Title1>Peak of Military Rank</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Promote military rank to Level 1."] = "<Assistant_Title1>Вершина воинского звания</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Повысить воинское звание до 1 уровня.",
     ["未完成的伟大构想，知识与蒸汽共筑的最佳杰作。"] = "Незавершённый великий замысел — лучший шедевр, созданный знанием и паром.",
-    ["“0”级封印物？！那伦纳德先生昨夜离开……"] = "Grade 0 Sealed Artifact?! Then Mr. Leonard left last night...",
-    ["不传配方ID默认当前序列的下一个序列的配方与材料"] = "If recipe ID is not passed, it defaults to the next sequence's recipe and materials for the current sequence",
+    ["“0”级封印物？！那伦纳德先生昨夜离开……"] = "Запечатанный Артефакт уровня «0»?! Тогда мистер Леонард ушёл прошлой ночью…",
+    ["不传配方ID默认当前序列的下一个序列的配方与材料"] = "Если ID рецепта не передан, по умолчанию используются рецепт и материалы следующей Последовательности относительно текущей",
+    ["<h>Use the brooch for divination</> to confirm the direction"] = "<h>Погадать на броши</>, чтобы определить направление",
+    ["Actively attacking green or yellow-named Beyonders increases loss of control by 10."] = "Активная атака Потусторонних с зелёным или жёлтым именем увеличивает Потерю Контроля на 10.",
     ["无法解锁组件，需要满足条件后再解锁"] = "Невозможно разблокировать компонент: сначала выполните необходимые условия",
     ["要是能摸摸那软软的皮座位，我保证这周都不要糖果了！"] = "Если бы я только мог прикоснуться к этим мягким кожаным сиденьям, обещаю, что не буду просить конфет на этой неделе!",
 }

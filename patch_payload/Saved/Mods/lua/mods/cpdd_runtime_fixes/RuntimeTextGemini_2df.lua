@@ -259,7 +259,7 @@ return {
     ["Hello, strange traveler, is there anything I can help you with?"] = "Привет, странник, чем я могу тебе помочь?",
     ["Character level can continue to increase after reaching level %s."] = "После достижения %s уровня персонажа повышение уровня можно продолжить",
     ["Drag the Mark button onto the object you want to mark."] = "Перетащите кнопку метки на объект, который хотите отметить.",
-    ["【LV1】【秘偶技】寻踪魔弹-代理主技能"] = "[LV1] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
+    ["【LV1】【秘偶技】寻踪魔弹-代理主技能"] = "【LV1】【Навык марионетки】Отслеживающая магическая пуля — основной навык агента",
     ["Brill"] = "Брилл",
     ["Post-processing type configuration not found"] = "Конфигурация типа постобработки не найдена",
 }

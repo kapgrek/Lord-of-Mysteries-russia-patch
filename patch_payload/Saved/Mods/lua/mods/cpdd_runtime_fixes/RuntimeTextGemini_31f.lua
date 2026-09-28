@@ -237,5 +237,6 @@ return {
     ["A group of people started laughing and talking loudly after a few drinks, wishing the whole house could hear them."] = "Компания людей немного выпила и начала громко смеяться и болтать, будто хотели, чтобы их услышал весь дом.",
     ["Yes, we recently renovated the storefront and will be reopening soon."] = "Да, недавно мы сделали ремонт в помещении, скоро снова откроемся.",
     ["小偷相关换物-在警察来临前自证清白"] = "Обмен, связанный с вором — Докажи свою невиновность до прибытия полиции",
+    ["Dear Beyonder: According to the %s event, the dividend you obtained through the faction war auction is %s. Please check it."] = "Дорогой Потусторонний: согласно событию %s, дивиденды, которые вы получили через аукцион войны фракций, составляют %s, пожалуйста, проверьте.",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放情绪音乐（仅自己可听）"] = "Пользовательское событие задания: игрок создает общий объект по списку InstanceID (не действует в открытом мире), воспроизведение атмосферной музыки (слышна только игроку)",
 }

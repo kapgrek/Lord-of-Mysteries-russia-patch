@@ -238,6 +238,7 @@ return {
     ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Hunting Time Event Schedule</>\nThe Final Hunt is open all day.\n<Highlight>High-Multiplier Periods: Monday to Friday 19:00—20:00; Saturday and Sunday 12:00—18:00, 19:00—22:00 (two sessions).</>\nThe period from 18:00—19:00 on weekends is a standard period."] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Время события «Час охоты»</>\nФинальная охота открыта круглосуточно.\n<Highlight>Периоды повышенного множителя: с понедельника по пятницу 19:00—20:00; суббота, воскресенье 12:00—18:00, 19:00—22:00 (два периода).</>\nВ выходные 18:00—19:00 — обычный период.",
     ["哎？在问我吗？"] = "А? Вы меня спрашиваете?",
     ["莱斯警局查案中，未经授权，禁止入内。"] = "Полицейский участок Лиз ведёт расследование. Посторонним вход запрещён.",
-    ["他用“火种”窃取了一件物品里的污染。"] = "He used 'Kindling' to steal the corruption from an item.",
+    ["However, this notebook is currently with the Nighthawks, and... I saw in the Nighthawks' confidential documents that they didn't provide the potion names for Seer Sequence 8 and 7. Could there be some hidden secret inside?"] = "Однако эта записная книжка сейчас тоже находится у организации «Ночные ястребы», и... в секретных материалах «Ночных ястребов», которые я видел раньше, не были указаны названия зелий для Провидца Последовательности 8 и 7. Неужели там скрыта ещё какая-то тайна?",
+    ["他用“火种”窃取了一件物品里的污染。"] = "Он с помощью \"Растопки\" похитил осквернение из одного предмета.",
     ["只是碰巧走过的地方多了点，见过的事怪了点。"] = "Мне просто довелось исходить чуть больше дорог и повидать чуть больше странностей.",
 }

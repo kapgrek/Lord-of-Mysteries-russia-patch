@@ -276,6 +276,8 @@ return {
     ["每层提高2%攻击。"] = "Атака увеличена на 2% за каждый стак.",
     ["That was Kenley, who recently transferred from a clerical position to a formal Nighthawk."] = "Это был Кенли, который недавно перешёл с канцелярской должности на должность штатного Ночного ястреба.",
     ["Hmph, nonsense. The quality of rye beer is the key."] = "Хм, ерунда. Главное — качество ржаного пива.",
+    ["…It is rare for a Beyonder item to break down prematurely."] = "…Редко случается, чтобы Потусторонний предмет разрушился преждевременно.",
+    ["Cast a stone into the lake of the heart, rippling with madness."] = "Бросить камень в озеро сердца — и разойдутся круги, зовущиеся безумием.",
     ["Gustavo"] = "Густаво",
     ["<MT>来防御</>"] = "<MT> для защиты </>",
 }

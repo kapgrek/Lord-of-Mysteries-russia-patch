@@ -285,7 +285,7 @@ return {
     ["Obtained <Yellow>[Glow Veil]</>\n. This is an important material for the divine descent ritual."] = "Получено <Yellow>«Сияющая вуаль»</>\nЭто важный материал для ритуала схождения бога",
     ["When will my love arrive..."] = "Когда же придёт моя любовь...",
     ["Please step away from the current clamor and come to my side."] = "Прошу, отойди от нынешнего шума и приди ко мне.",
-    ["亚巴顿的攻击和攻速提高3%，最多叠加5层。"] = "Abaddon's Attack and Attack Speed increased by 3%, stacking up to 5 times.",
+    ["亚巴顿的攻击和攻速提高3%，最多叠加5层。"] = "Атака и скорость атаки Аваддона увеличены на 3%, максимум 5 стаков.",
     ["Amaris"] = "Амарис",
     ["预存物资领取记录"] = "Предварительно сохраненная запись о сборе расходных материалов",
     ["Melody"] = "Мелодия",

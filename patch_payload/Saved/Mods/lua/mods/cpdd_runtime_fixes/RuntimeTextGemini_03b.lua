@@ -252,5 +252,6 @@ return {
     ["If you still want to support me, the best appreciation is to sing a line with me: May Backlund's beauty last forever!"] = "Если ты всё же хочешь меня поддержать, лучшая награда — это спеть со мной одну строчку: пусть краса Бэкланда пребудет вечно!",
     ["而且，我还为您在贝克兰德银行准备了一笔不菲的环境保护经费。"] = "Кроме того, я подготовил для вас в Банке Бэкланда солидную сумму на нужды охраны окружающей среды.",
     ["The Taste of the Witch is really good"] = "Вкус Ведьмы действительно хорош",
+    ["Claim this gift to receive an outfit or random gold pounds"] = "Заберите этот подарок, чтобы получить внешний вид или случайное количество золотых фунтов",
     ["Camila"] = "Камила",
 }

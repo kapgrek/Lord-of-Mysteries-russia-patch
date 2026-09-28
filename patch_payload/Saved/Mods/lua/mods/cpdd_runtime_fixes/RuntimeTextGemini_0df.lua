@@ -292,7 +292,7 @@ return {
     ["A true winner doesn't give up just because of one downturn."] = "Настоящий победитель не сдаётся из-за одного падения.",
     ["I plan to submit to the Tussock Times or the Backlund Daily later. Regardless, I will insist on exercising my right to supervise."] = "Я планирую в дальнейшем отправлять материалы в «Тассок Таймс» или «Бэкланд Дейли», в любом случае, я буду продолжать отстаивать своё право на общественный контроль.",
     ["The <Reminder_Orange>%d</> %s you were selling at the stall has been sold, and you have received a total of <Reminder_Orange>%d</> Strategic Gold Pounds. Please click [Transaction Withdrawal] in the stall [Sell] interface to withdraw the Strategic Gold Pounds."] = "Проданные вами на прилавке <Reminder_Orange>%d</> шт. %s проданы, вы получили всего <Reminder_Orange>%d</> стратегических Золотых фунтов. Пожалуйста, нажмите [Вывод средств] на экране прилавка [Продажа], чтобы получить стратегические Золотые фунты.",
-    ["<Name>#学徒除了送外卖还能干什么？</>在温暖的午后"] = "<Name>#What can an Apprentice do besides delivering food?</> On a warm afternoon",
+    ["<Name>#学徒除了送外卖还能干什么？</>在温暖的午后"] = "<Name>#Что ещё может Ученик, кроме доставки еды?</>Тёплым днём",
     ["%s次内必出<Quality_6>危险等级1</>封印物"] = "Гарантированный Запечатанный Артефакт <Quality_6>Уровня опасности 1</> в течение %s попыток",
     ["Go to specified Trigger location  Player plays story dialogue"] = "Перейти к указанному триггеру; воспроизведение сюжетного диалога игрока",
     ["Ezekiel"] = "Иезекииль",

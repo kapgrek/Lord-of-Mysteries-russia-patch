@@ -269,6 +269,7 @@ return {
     ["百合代表纯洁的灵魂和对美好生活的向往。选择它的人，心里一定住着温柔与纯粹吧。"] = "Лилии символизируют чистую душу и стремление к прекрасной жизни. У тех, кто выбирает их, в сердце наверняка живут нежность и чистота.",
     ["Yesterday I was just a seed, today I'm about to sprout."] = "Вчера я был просто семечком, а сегодня уже готов прорасти.",
     ["Is my memory getting worse lately?"] = "У меня последнее время память становится хуже?",
+    ["Good afternoon! Miss \"Justice,\" Miss \"Magician,\" Mr. \"The Star,\" why are you all here?"] = "Добрый день! Мисс «Справедливость», мисс «Фокусник», мистер «Звезда», почему вы все здесь?",
     ["Abdir"] = "Абдир",
     ["收获%d/400个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/400.",
     ["RequestCutsceneActorComposite: could not find ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",

@@ -277,6 +277,7 @@ return {
     ["Attack of the back two rows increased by 24%."] = "Атака двух задних рядов увеличивается на 24%.",
     ["希望银行能够批准我的贷款申请，不然几百亩农田就要撂荒了。"] = "Надеюсь, банк одобрит мою заявку на кредит, иначе сотни акров полей придётся оставить под паром.",
     ["But university tuition is too expensive; that's not something I can afford."] = "Но обучение в университете слишком дорогое, я не могу себе этого позволить.",
-    ["【幸运悖论】的作用，灵性充盈时能挡子爵夫人的致命一击。"] = "The effect of [Paradox of Luck]: When spirituality is full, it can block the Viscountess's critical hit.",
+    ["【幸运悖论】的作用，灵性充盈时能挡子爵夫人的致命一击。"] = "Эффект [Парадокса удачи]: при полной Духовности он может заблокировать смертельный удар виконтессы.",
+    ["However, I need to remind you of one thing. If you encounter Beyonder incidents, remember to report them to the Church in time; it's for your own good."] = "Однако мне нужно кое о чём тебе напомнить. Если столкнёшься с Потусторонним происшествием, не забудь вовремя сообщить об этом Церкви — это и в твоих интересах.",
     ["巨龙后裔"] = "Наследие Дракона",
 }

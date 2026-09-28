@@ -265,7 +265,7 @@ return {
     ["Refuse_Sylvia"] = "Отказ_Сильвия",
     ["当前势力对巨龙累计造成伤害10%"] = "Текущий суммарный урон фракции по Гигантскому Дракону: 10%",
     ["Mind you, this isn't just idle social chatter about the weather—"] = "Учти, это не просто светская болтовня о погоде—",
-    ["不过我现在才序列9，可能接收不到……或许把我和灰雾之上那片神秘空间捆绑在一起……"] = "However, I am only Sequence 9 right now and might not be able to receive it... Perhaps if I bind myself to that mysterious space above the gray fog...",
+    ["不过我现在才序列9，可能接收不到……或许把我和灰雾之上那片神秘空间捆绑在一起……"] = "Но сейчас я всего лишь Последовательность 9 и, возможно, не смогу принять это… Может, стоит связать меня с тем таинственным пространством над Серым Туманом…",
     ["Let's bury Andy tonight.\nHe was a good policeman and a good undercover agent. Bring a bouquet of flowers for him on my behalf.\nThe orders from above are: don't ask anything, don't say anything.\nAlso... be careful!"] = "Похороните Энди сегодня ночью.\nОн был хорошим полицейским и преданным агентом под прикрытием. Положите от меня букет цветов на его могилу.\nПриказ сверху: ни о чём не спрашивать и ничего никому не говорить.\nИ ещё... будьте осторожны!",
     ["Sandra"] = "Сандра",
     ["Kinsley"] = "Кинсли",

@@ -269,5 +269,6 @@ return {
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 6 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 6 маны",
     ["He cares for every living being; even if you do not believe in 'The Fool', you can still enjoy everything the Tarot Club has to offer."] = "Он заботится о каждом живом существе; даже если вы не верите в «Шута», вы всё равно можете пользоваться всем, что предлагает Таро-клуб.",
     ["厄运锋芒"] = "Острие Рока",
-    ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "The core root stripped from the main body of a mist treant, possessing great spirituality.",
+    ["10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Cooldown. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times"] = "После нанесения урона с вероятностью 10% повышает собственную Силу на 20 очков, длится 2 сек., максимум 3 стака, без Отката Навыка. После нанесения урона с вероятностью 10% повышает собственную Силу на <Mark>20 очков</> длится 2 сек., максимум 3 стака",
+    ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "Стержневой корень, отделённый от тела Мглистого древня, обладает высокой Духовностью.",
 }

@@ -254,6 +254,6 @@ return {
     ["不过不用担心，这不算非法入侵。"] = "Но не волнуйся, это не считается незаконным проникновением.",
     ["Sigh, after Thomas passed away, Eleanor's hair turned gray overnight."] = "Эх, после того как Томас умер, волосы Элеонор поседели за одну ночь.",
     ["A lucky person who holds good fortune"] = "Везунчик, которому улыбается удача",
-    ["不，她非常警惕，也很强大……至少是序列7的非凡者，追她需要花费一些时间。"] = "No, she is very vigilant and also very powerful... at least a Sequence 7 Extraordinary. It will take some time to track her.",
+    ["不，她非常警惕，也很强大……至少是序列7的非凡者，追她需要花费一些时间。"] = "Нет, она очень бдительна и к тому же очень сильна... по меньшей мере Потусторонний Последовательности 7. Чтобы выследить её, понадобится время.",
     ["Control/Damage"] = "Контроль/Урон",
 }

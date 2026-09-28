@@ -279,4 +279,6 @@ return {
     ["直到一位送牛奶的小孩证明，过去三年，每天照顾猎犬的人都是素不相识的波尔甘，伊文思先生从没牵它出过门。"] = "Пока мальчик-молочник не доказал, что последние три года гончую каждый день выхаживал совершенно незнакомый ей Болган, а мистер Эванс никогда не выводил её на прогулку.",
     ["High image quality mode load is high, which may cause device heating, increased power consumption, or frame rate drops."] = "Режим высокого качества графики создаёт большую нагрузку, что может привести к нагреву устройства, увеличению расхода энергии или снижению частоты кадров",
     ["Cough cough, why is this boiler so choking today!"] = "Кхе-кхе, почему этот котёл сегодня так дымит!",
+    ["Juice naturally exuded from fruits that ripen in July, possessing mild intoxicating properties and spirituality diffusion effects."] = "Сок, естественно выделяющийся из плодов, созревающих в июле, обладает лёгким опьяняющим действием и эффектом распространения Духовности.",
+    ["Obtain 1 Beyonder material with the {Bishop of Fear} entry"] = "Получите 1 материал Потустороннего с записью {Епископ Страха}",
 }

@@ -272,7 +272,7 @@ return {
     ["I have lived in Backlund for too long; its recurring overcast and rain have numbed my nerves."] = "Я слишком долго живу в Бэкланде — его постоянные дожди и пасмурная погода притупили мои чувства.",
     ["In addition to ordinary believers, many fishermen and sailors also come here to pray."] = "Сюда приходят молиться не только обычные верующие, но и многие рыбаки и моряки.",
     ["我，我也要被骂吗？"] = "Я, меня тоже будут ругать?",
-    ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, "] = "Can fill in: LightHit, HitBack, HitDown, HitFloat, HitFly, HitStiff, HitDrag.",
+    ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, "] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, ",
     ["打开证词记录，查看调查中获得的所有陈述。"] = "Открыть протокол показаний и просмотреть все свидетельства, собранные в ходе расследования.",
     ["击败指定InstanceID的怪物  NPC设置阵营"] = "Победить монстра с указанным InstanceID; NPC устанавливает фракцию.",
     ["Plunder Points:"] = "Точки грабежа:",

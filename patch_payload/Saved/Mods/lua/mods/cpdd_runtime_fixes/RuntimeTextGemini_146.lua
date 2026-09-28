@@ -291,6 +291,7 @@ return {
     ["Tarot Club · Alger: 6-person tier increment, all allies Attack +1.6%."] = "Клуб Таро · Алгер: бонус уровня «6 игроков», вся команда +1.6% к атаке.",
     ["Am I a physical or magical pathway?"] = "Я физический Путь или магический Путь?",
     ["As the only high-end department store in Tingen, we have never known who the investor behind it is."] = "Будучи единственным элитным универмагом Тингена, мы так и не узнали, кто стоит за ним в качестве инвестора.",
+    ["A helpful legendary Beyonder—you can make up any story to trick them into helping, and it works every time."] = "Отзывчивый легендарный Потусторонний — придумай любую историю, и его можно обмануть, чтобы он помог, причём безотказно.",
     ["Hazely"] = "туманный",
     ["【岩石】"] = "【Скала】",
 }

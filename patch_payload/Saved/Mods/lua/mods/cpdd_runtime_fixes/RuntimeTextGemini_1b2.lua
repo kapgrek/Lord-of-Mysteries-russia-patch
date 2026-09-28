@@ -276,7 +276,8 @@ return {
     ["愿贝克兰德芳华永驻！"] = "Пусть красота Бэкланда останется навеки!",
     ["在竞技玩法中<Highlight>击败</>%s/%s名占卜家"] = "В арене <Highlight>победите</> %s/%s Провидцев",
     ["Today Rozanne became friends with a girl who came to make a request, and they even made an appointment to go shopping on their day off."] = "Сегодня Розанна подружилась с девушкой, пришедшей с просьбой, и они даже договорились сходить по магазинам в выходной.",
-    ["<Highlight>尽快击破所有分身，</>中止小丑的研究。"] = "<Highlight>Destroy all projections as soon as possible</> to stop the Clown's research.",
+    ["<Highlight>尽快击破所有分身，</>中止小丑的研究。"] = "<Highlight>Как можно скорее уничтожьте все проекции,</> чтобы остановить исследования Клоуна.",
+    ["Both 'Mystery Pryer' and 'Seer' can better master knowledge in the field of mysticism; there might be clues to my home inside."] = "«Жрец Тайн» и «Провидец» — оба могут лучше освоить знания в области мистицизма; возможно, там есть подсказки о том, как мне вернуться домой.",
     ["但这么珍贵的东西，一般不会凭空出现。是你最近向愚者祈求了什么吗？"] = "Но столь ценная вещь обычно не появляется из ниоткуда. Ты случайно не молился недавно Господину Шуту?",
     ["“艾拉”"] = "Айла",
 }

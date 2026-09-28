@@ -258,5 +258,5 @@ return {
     ["Hero-Player change skill set buff"] = "Герой — баф смены набора умений игрока",
     ["Ugh, what a strange name..."] = "Фух, какое странное имя...",
     ["Shopping with a woman is so boring, otherwise I would have already hooked several Tussock fish!"] = "Ходить по магазинам с женщиной так скучно, иначе я бы уже выловил несколько рыб тассок!",
-    ["一枚泛着星空色泽的古老钱币，能够通过精神体响应灵界、星空。上面镌刻着来自亚伯拉罕家族天使绘制的隐秘铭文，每一次使用如同开启一场星空漫游，能够为使用者带来旅途中的见闻与收获。"] = "An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the spirit body. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey.",
+    ["一枚泛着星空色泽的古老钱币，能够通过精神体响应灵界、星空。上面镌刻着来自亚伯拉罕家族天使绘制的隐秘铭文，每一次使用如同开启一场星空漫游，能够为使用者带来旅途中的见闻与收获。"] = "Древняя монета с переливами звёздного неба, способная через духовное тело откликаться на Мир Духов и звёздное небо. На ней выгравированы тайные письмена, начертанные Ангелом рода Авраама; каждое использование подобно началу странствия по звёздам и приносит пользователю впечатления и находки в пути.",
 }

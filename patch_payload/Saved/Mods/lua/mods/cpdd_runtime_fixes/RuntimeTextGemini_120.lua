@@ -250,6 +250,6 @@ return {
     ["基础属性：暴击+25%、法力恢复+2"] = "Базовые характеристики: критический удар +25%, восстановление маны +2",
     ["Gain 150 Health and 20 Defense."] = "Получает 150 здоровья и 20 защиты.",
     ["Would you like a glass of freshly squeezed milk?"] = "Хочешь стакан свежего молока?",
-    ["不过非凡者的道路从来都是危险和疯狂的，走向失控和死亡也是意料中事。"] = "However, the path of a Beyonder is always dangerous and mad; heading toward loss of control and death is also expected.",
-    ["乌托邦剧院中无法进行非凡方案切换"] = "Beyonder loadouts cannot be switched within Utopia Theater.",
+    ["不过非凡者的道路从来都是危险和疯狂的，走向失控和死亡也是意料中事。"] = "Однако путь Потустороннего всегда был опасным и безумным; скатиться к Потере Контроля и смерти — тоже ожидаемо.",
+    ["乌托邦剧院中无法进行非凡方案切换"] = "В Театре Утопии невозможно переключить Потустороннюю конфигурацию",
 }

@@ -285,5 +285,6 @@ return {
     ["Depart immediately for the Hornacis Mountain Range..."] = "Немедленно отправляйтесь к горному хребту Хорнакис...",
     ["The last of the vegetables, selling them cheap!"] = "Последние овощи, продаю дёшево!",
     ["The premise of a family budget plan is to respect the master of the house's opinion."] = "Основа семейного бюджета — уважение к мнению главы семьи.",
+    ["[Marionette Skill] Worm of Star - Ice Flame Breath"] = "[Умение марионетки] Звёздный Червь - Дыхание Ледяного Пламени",
     ["Jadir"] = "Джадир",
 }

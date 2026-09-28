@@ -272,8 +272,9 @@ return {
     ["一群人喝了点酒就开始大声说笑，恨不得让整栋房子都听见。"] = "Компания людей немного выпила и начала громко смеяться и болтать, будто хотели, чтобы их услышал весь дом.",
     ["Hmph, this is all my personal experience."] = "Хмф, это всё случилось со мной на самом деле.",
     ["Look at the craftsmanship of these goods, truly vintage, truly aristocratic taste!"] = "Посмотри на мастерство этих товаров — настоящая классика, истинно аристократический вкус!",
-    ["【超凡生物】棋子造成的伤害提高<HighLight>30%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>15%</>伤害减免。"] = "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>30%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>15%</> Damage Reduction.",
-    ["乔纳尔留下的非凡特性，散发出黄昏般的辉光。"] = "The Beyonder characteristic left behind by Jonar, emitting a twilight-like glow.",
+    ["A reward of 10 pounds, enough to pay the annual fee for the Divination Club."] = "Вознаграждение в 10 фунтов — этого достаточно, чтобы оплатить годовой взнос в Клуб Провидцев.",
+    ["【超凡生物】棋子造成的伤害提高<HighLight>30%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>15%</>伤害减免。"] = "【Сверхъестественное существо】Урон, наносимый фигурами, увеличен на <HighLight>30%</>; после участия в <HighLight>4</> раундах боя с игроком дополнительно получают <HighLight>15%</> снижения урона.",
+    ["乔纳尔留下的非凡特性，散发出黄昏般的辉光。"] = "Потусторонняя характеристика, оставленная Джонаром, излучает сияние, подобное сумеречному.",
     ["Nayeli"] = "Наели",
     ["Marco"] = "Марко",
 }

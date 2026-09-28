@@ -277,7 +277,7 @@ return {
     ["您已经为对方点击过喜欢，无需再次操作。"] = "Вы уже поставили лайк этому пользователю, повторное действие не требуется.",
     ["I think pure malt-brewed Lanzi is the most important signature of a tavern, right?"] = "По-моему, чистый солодовый Ланьцзы — самая важная визитная карточка таверны, не так ли?",
     ["Hehe... it's just that they have all turned into Sealed Artifacts now."] = "Хе-хе... просто теперь все они превратились в Запечатанные артефакты.",
-    ["【浅见】梦魇突袭命中目标后减少目标护盾一定值，若目标不存在护盾，则该技能额外削弱目标技能抵挡。"] = "[Insight] After Nightmare Assault hits a target, it reduces the target's Shield by a certain value. If the target does not have a Shield, this skill additionally weakens the target's Skill Block.",
+    ["【浅见】梦魇突袭命中目标后减少目标护盾一定值，若目标不存在护盾，则该技能额外削弱目标技能抵挡。"] = "[Догадка] После попадания «Внезапного удара Кошмара» по цели снижает щит цели на определённое значение. Если у цели нет щита, этот навык дополнительно ослабляет сопротивление цели навыкам.",
     ["前往指定坐标位置  玩家传送到位面"] = "Перейти к указанным координатам. Игрок перемещается в фазу.",
     ["参加一次教团-魅惑玩法"] = "Примите участие в одном игровом процессе Faction-Charm.",
     ["Davis"] = "Дэвис",

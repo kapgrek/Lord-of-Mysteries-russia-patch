@@ -257,6 +257,7 @@ return {
     ["Black Thorn Incident Book 4-Level 4-Death Knell Cooldown buff"] = "Дело «Чёрный шип», Книга 4, Уровень 4 — Баф перезарядки «Похоронного звона»",
     ["1. There is a weekly cap on Conquest Prestige acquisition, which can be accumulated for two weeks;\n2. Conquest Prestige obtained through the Strategic Server's Final Hunt has a weekly cap and cannot be accumulated."] = "1. Еженедельный лимит получения Престижа завоевания можно накапливать в течение двух недель;\n2. Престиж завоевания, получаемый через Финальную охоту Стратегического сервера, имеет еженедельный лимит и не накапливается.",
     ["Friends, listen to me!"] = "Друзья, послушайте меня!",
+    ["[Auto-Chess] - Sylvia - Basic Attack - Vine Flower Poison Sting"] = "[Автошахматы] - Сильвия - Обычная атака - Ядовитое жало лозоцвета",
     ["采集指定TemplateID的采集物  玩家停止自己播放情绪音乐"] = "Сбор ресурса с указанным TemplateID  Игрок прекращает воспроизведение эмоциональной музыки",
     ["怕啥？拿出点男人样来！你还要不要和玛丽小姐表白了，快去！"] = "Чего ты боишься? Будь мужчиной! Ты собираешься признаться мисс Мэри или как? Иди же!",
 }

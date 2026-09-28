@@ -269,6 +269,6 @@ return {
     ["<DecH> Craft: </> Tree of Abundance - Silver Branch Overgrowth \n The forest trees curl into the shape of antlers, condensing the power of growth, emitting a serene light in the night."] = "<DecH>Материал:</> Дерево изобилия · Разрастание серебряных ветвей\nЛесные деревья изгибаются, обретая форму оленьих рогов, накапливая силу роста, и в ночи излучают тихий свет.",
     ["这家主人允许我帮他们打扫屋顶。"] = "Хозяева этого дома разрешили мне помочь им почистить крышу.",
     ["Don't be shy, you can ask me anything; this is my job."] = "Не стесняйтесь, спрашивайте меня о чём угодно, это моя работа.",
-    ["他家里那么有钱，想要什么都能得到，居然也要去占卜吗？想不到他会问些啥呢……"] = "His family is so rich, he can get whatever he wants, yet he still wants to go for divination? I can't imagine what he would ask...",
+    ["他家里那么有钱，想要什么都能得到，居然也要去占卜吗？想不到他会问些啥呢……"] = "У него дома столько денег, что он может получить всё, что захочет, а он всё равно идёт гадать? Даже не представляю, о чём он будет спрашивать...",
     ["任务自定义事件  玩家设置灵视状态"] = "Пользовательское событие квеста; игрок устанавливает состояние духовного видения.",
 }

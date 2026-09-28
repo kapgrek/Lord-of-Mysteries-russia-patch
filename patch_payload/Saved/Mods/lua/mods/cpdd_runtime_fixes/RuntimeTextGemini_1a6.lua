@@ -293,7 +293,7 @@ return {
     ["<P_Heart> (Voice getting quieter)</> But, what if I fly off halfway down..."] = "<P_Heart>(Голос всё тише)</>Но что если я на середине спуска вылечу с горки?..",
     ["Grandpa used to come here to pray often, and I want to pray for Grandpa too."] = "Дедушка часто приходил сюда молиться, и я тоже хочу помолиться за дедушку.",
     ["My Lord saved the lost city-state abandoned by the gods, led the survivors of that continent out of the \"Forsaken Land of the Gods,\" and rebuilt their home on the island..."] = "Мой Господин спас утраченный город-государство, оставленный богами, вывел выживших того континента из «Покинутой земли богов» и восстановил их дом на острове...",
-    ["什么痕迹也没留下，背后一定有非凡力量的影响和干扰。"] = "No traces were left behind; there must be the influence and interference of Beyonder powers behind it.",
+    ["什么痕迹也没留下，背后一定有非凡力量的影响和干扰。"] = "Не осталось никаких следов — за этим наверняка стоит влияние и вмешательство потусторонней силы.",
     ["我是第一次来，这里……有什么可看的？"] = "Я здесь впервые... есть ли тут что-нибудь интересное?",
     ["前往指定坐标交互并进入位面  延迟执行  对象播放指定对白内容  对象删除Buff"] = "Перейдите к указанным координатам для взаимодействия и входа в плоскость, отложенное выполнение, объект воспроизводит указанное содержимое диалога, объект удаляет бафф.",
 }

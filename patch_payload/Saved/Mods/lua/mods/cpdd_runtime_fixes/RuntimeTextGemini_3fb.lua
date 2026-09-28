@@ -238,8 +238,8 @@ return {
     ["被AddBuff、AddField、AddAura、AddTrap、AddSkillAgent的对象，在相关Buff、Field、Aura、Trap、SkillAgent内部可以调用生效。在其他地方调用此Condition没有意义，一律返回FALSE。"] = "Объекты, к которым применены AddBuff, AddField, AddAura, AddTrap, AddSkillAgent, могут вызывать это внутри соответствующих Buff, Field, Aura, Trap, SkillAgent для получения эффекта. Вызов этого Condition в других местах не имеет смысла и всегда возвращает FALSE.",
     ["找到幕后真凶，夺回自己被窃取的一切"] = "Найдите истинного преступника, стоящего за этим, и верните всё украденное у вас",
     ["A long time ago, there was a guy who would always argue with me until his face turned red... That's a distant memory now."] = "Давным-давно был один парень, который всегда спорил со мной до покраснения лица... Теперь это лишь далёкое воспоминание.",
-    ["【五月庄园】-【一号信徒】- 一阶段减伤Buff移除破碎"] = "[May Manor] - [Believer Number One] - Phase 1 Damage Reduction Buff Removal Break",
-    ["不知是哪条途径的非凡者，如此出众！"] = "I wonder which Pathway this Beyonder belongs to; they are so outstanding!",
+    ["【五月庄园】-【一号信徒】- 一阶段减伤Buff移除破碎"] = "[Поместье Мэй] - [Адепт №1] - Разрушение эффекта снижения урона (этап 1)",
+    ["不知是哪条途径的非凡者，如此出众！"] = "Не знаю, к какому Пути принадлежит этот Потусторонний, но он настолько выдающийся!",
     ["探索卢娜的世界<h></>"] = "Исследуйте мир Луны <h></>",
     ["前往指定坐标位置  玩家镜头朝向指定位置  对象播放指定对白内容"] = "Перейти к указанному координатному местоположению. Камера игрока смотрит в указанное место. Объект воспроизводит указанное содержимое диалога.",
 }

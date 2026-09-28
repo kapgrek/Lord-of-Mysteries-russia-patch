@@ -237,6 +237,7 @@ return {
     ["你为什么一直撑着伞？"] = "Почему ты всё время держишь зонт открытым?",
     ["当前拥有限定金镑，将会使用限定金镑替换金镑，确认并继续？"] = "У вас есть Лимитированные Золотые фунты, они будут использованы вместо Золотых фунтов. Подтвердить и продолжить?",
     ["As you can see, the ending was not a happy one... so he commissioned me to use the girl's mementos and the wedding ring he had prepared to create a brand-new ring, to forever commemorate his early-departed lover."] = "Как видите, конец оказался не счастливым... поэтому он заказал мне использовать памятные вещи девушки и обручальное кольцо, которое он приготовил, чтобы создать совершенно новое кольцо — вечную память об ушедшей слишком рано возлюбленной.",
+    ["Defense <Highlight>Mutated Material</> with the affix <Highlight><Servant of Concealment></>: \"All Skill levels +1, Skill Block increased.\""] = "Защитный <Highlight>Мутировавший материал</> со свойством <Highlight><Слуга Сокрытия></>: «Все уровни навыков +1, увеличивает Блок навыков».",
     ["Gianna"] = "Джанна",
     ["在罪恶廷根以“极佳”成绩完成“激战邦尼”事件。"] = "Завершите событие «Жестокая битва с Бонни» в Грешном Тингене с рейтингом «Отлично».",
     ["Kailun"] = "Кайлун",

@@ -281,5 +281,6 @@ return {
     ["This function cannot be used in the Victor's Declaration conference voice room."] = "В голосовой комнате собрания «Декларация победителя» эту функцию использовать нельзя",
     ["We are the newly formed band \"Four Night Siblings,\" please support us!"] = "Мы новая группа «Четверо ночных братьев и сестёр», пожалуйста, поддержите нас!",
     ["I'll give it a try."] = "Я попробую.",
+    ["I must go to the Evil Dragon Bar and find Mr. Swain to get permission to enter the underground market."] = "Сначала нужно пойти в бар «Злой Дракон» и найти хозяина, господина Свейна, чтобы получить разрешение войти на подпольный рынок.",
     ["Roberto"] = "Роберто",
 }

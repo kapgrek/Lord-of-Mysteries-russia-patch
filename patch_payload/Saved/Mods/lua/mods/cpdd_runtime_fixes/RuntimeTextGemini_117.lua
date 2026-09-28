@@ -259,4 +259,5 @@ return {
     ["When Twilight Domain ends, drag the four enemy players with the lowest Health within range to your front"] = "По окончании действия Сумеречного владения четыре вражеских игрока с наименьшим запасом здоровья в радиусе действия притягиваются к вам",
     ["Some challenges in the Brass Book are under maintenance and cannot be completed at this time."] = "Часть испытаний Латунной книги находится на техобслуживании и временно недоступна",
     ["The farce is over"] = "Фарс окончен",
+    ["The 'Traitor's Ring' is also quite good; it's the original cast from the Backlund Kingdom Theater."] = "«Кольцо предателя» тоже неплохо — это оригинальный состав Королевского театра Бэкланда.",
 }

@@ -247,5 +247,6 @@ return {
     ["<Assistant_Title1>【Building Suppression】</>\nWhen attacking a building, increase your own damage by a certain percentage.\n<Assistant_Title3>Recommended search:</>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Подавление построек】</>\nПри атаке построек повышает собственный урон на определённый процент.\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
     ["格蕾丝，你太刻薄了。法赫里说了要写论文，别怪他。"] = "Грейс, ты слишком язвительна. Фахри сказал, что должен писать диссертацию, не вини его.",
     ["Wh-what? He's going to make wine with those grapes. Uh, well, that sounds pretty good... I like to drink!"] = "Ч-что? Он собирается делать вино из этого винограда. Э-э, ну, звучит неплохо... Я люблю выпить!",
+    ["\"Selina Wood accidentally and coincidentally saw the true incantation for mirror divination from her occult teacher, Haines……\""] = "«Селена Вуд случайно и по совпадению увидела истинное заклинание гадания на волшебном зеркале у своего учителя мистицизма Хейнса...»",
     ["如同驯服猛兽一般，你以温柔征服了内心的狂暴。真正的强大不在毁灭对方，而在掌控。"] = "Подобно укрощению дикого зверя, вы мягко победили внутреннее безумие. Истинная сила заключается не в уничтожении противника, а в контроле.",
 }

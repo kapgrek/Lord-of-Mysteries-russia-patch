@@ -269,8 +269,10 @@ return {
     ["谁知道呢？听人说，那狒狒眼睛发红，对着训练师就是一口，咬得都撕下了一块肉来……要不是阻止及时，还想冲下来咬观众呢！"] = "Кто знает? Говорят, у того бабуина глаза покраснели, и он вцепился зубами в дрессировщика, вырвав кусок мяса… Если бы его не остановили вовремя, он бы бросился вниз и укусил зрителей!",
     ["Go to the Hornacis Mountain Range to check the battlefield."] = "Отправьтесь в горный хребет Хорнакис, чтобы осмотреть поле битвы.",
     ["It's spacious and cool here, and there's shade from the trees; I'm going to sleep, please leave."] = "Здесь просторно и прохладно, деревья дают тень; я собираюсь поспать, пожалуйста, уйдите.",
-    ["{{先生|女士}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes."] = "{{Sir|Madam}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes.",
-    ["【雾林眷族】棋子每次普攻获得<HighLight>1</>层【苔影汲取】，每层获得<HighLight>2%</>吸血和<HighLight>1%</>最大生命，最多叠加<HighLight>6</>层。"] = "Each basic attack from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>2%</> Life Steal and <HighLight>1%</> Max Health, stacking up to <HighLight>6</> times.",
+    ["[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Alpha Wolf\" Luper has gone completely mad and bared his fangs at you."] = "【Сложный уровень】появился, теперь вы можете снова и снова бросать вызов врагам в кошмаре! На этот раз «Вожак стаи» Лупер окончательно обезумел и обнажил перед вами клыки.",
+    ["{{先生|女士}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes."] = "{{Господин|Госпожа}}, когда-то я был фокусником, умел выбираться из клеток на глазах у всех.",
+    ["【雾林眷族】棋子每次普攻获得<HighLight>1</>层【苔影汲取】，每层获得<HighLight>2%</>吸血和<HighLight>1%</>最大生命，最多叠加<HighLight>6</>层。"] = "Фигуры [Сородичи Туманного леса] при каждой автоатаке получают <HighLight>1</> стак [Впитывания тени мха]; каждый стак даёт <HighLight>2%</> похищения жизни и <HighLight>1%</> максимального здоровья, максимум <HighLight>6</> стак(ов).",
+    ["[Rumor] Using the Spirit Mediumship Ritual will summon Dunn's spirit body, providing 10% Acceleration to allies in range and reducing the movement speed of enemies in range by 10%."] = "【Слух】При использовании Ритуала медиумизма призывается духовное тело Дунна, дающее союзникам в радиусе действия 10% ускорения и снижающее скорость передвижения врагов в радиусе на 10%.",
     ["Marisol"] = "Марисоль",
     ["<DPS>来输出</>"] = "<DPS>Нужен урон</>",
 }

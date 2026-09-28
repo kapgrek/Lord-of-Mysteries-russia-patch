@@ -262,6 +262,7 @@ return {
     ["{{player.name}} released \"True Knowledge Protection\" and summoned the <Chat_Highlight>Hall of Fame</>!"] = "{{player.name}} использовал(а) «Покровительство истинного знания» и призвал(а) <Chat_Highlight>Зал Славы</>!",
     ["Hospitalized? Absolutely not! The position of head housekeeper at the Vogel estate opens up this month, and I've waited for three whole years! Three years! I've woken up an hour early every day to polish every silver spoon until it's as clear as a mirror—"] = "Лечь в больницу? Ни за что! В этом месяце освобождается место экономки в доме Фогелей, а я ждала этого целых три года! Три года! Я каждый день встаю на час раньше, чтобы отполировать каждую серебряную ложку до блеска—",
     ["I put on new lipstick today, does it look good?"] = "Я сегодня накрасила губы новой помадой, красиво выглядит?",
+    ["[Insight] When triggering the immediate Health restoration effect below 20%, the target gains an additional 20% Damage Reduction for 5 seconds."] = "[Инсайт] При срабатывании эффекта немедленного восстановления здоровья ниже 20% цель дополнительно получает снижение урона на 20% на 5 секунд.",
     ["Callahan"] = "Каллахан",
     ["收获%d/400个优质酒舍物产。"] = "Собирайте высококачественные продукты таверны %d/400.",
     ["Wait time  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Время ожидания. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя.",

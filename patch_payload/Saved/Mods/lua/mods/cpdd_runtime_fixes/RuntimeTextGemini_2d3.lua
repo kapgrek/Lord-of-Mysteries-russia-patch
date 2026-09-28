@@ -302,7 +302,7 @@ return {
     ["隐秘空间-破晓防线-海神权杖交互物"] = "Скрытое пространство - Линия обороны Рассвета - Объект взаимодействия «Скипетр морского бога»",
     ["You are already in a room. Exit current room <Highlight> %s </> and join new room <Highlight> %s </>?"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
     ["<P_Heart> (Alert) </> What are you trying to do?"] = "<P_Heart> (Настороженно) </> Что вы пытаетесь сделать?",
-    ["完成五月庄园·花园黄铜书挑战【意志污染·困难】"] = "Complete the May Manor · Garden Brass Book challenge [Will Contamination · Hard]",
+    ["完成五月庄园·花园黄铜书挑战【意志污染·困难】"] = "Завершите испытание «Латунная книга сада» усадьбы Мэй [Осквернение воли · Сложный]",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

@@ -263,7 +263,7 @@ return {
     ["What is the equipment percentage?"] = "Что такое процент экипировки?",
     ["可是战争和我想的不一样，很多时候连敌人都没有看见，身旁的队友便已经倒下了。"] = "Но война оказалась не такой, как я думал — часто, даже не увидев врага, товарищ рядом уже падал.",
     ["In competition mode, <Highlight> defeat </> %s/%s Bards"] = "В арене <Highlight>победите</> %s/%s Бардов",
-    ["不要，非凡者很危险，你做文职吧。"] = "No, Beyonders are dangerous, you should do clerical work.",
+    ["不要，非凡者很危险，你做文职吧。"] = "Нет, потусторонние опасны, тебе лучше заняться канцелярской работой.",
     ["Lauren"] = "Лорен",
     ["Butler John watched Baron Hawkes grow up and has taken care of Hawkes for over thirty years. The butler once saved the Baron's life in a hunting accident, and the two had an <InvHighlight> extremely close </> relationship. \n The servant is timid and honest by nature and <InvHighlight> is not good at lying. </> \n Dr. Evan used to <InvHighlight> care very much about </> the Baron's physical condition, but his attitude has become noticeably cold recently."] = "Дворецкий Джон видел, как рос барон Хоукс, и заботился о нем больше тридцати лет. Однажды на охоте дворецкий спас барону жизнь, и их отношения были <InvHighlight>чрезвычайно близкими.</>\nСлуга по натуре робок и простодушен, он <InvHighlight>совершенно не умеет лгать.</>\nДоктор Эван раньше <InvHighlight>очень беспокоился</> о здоровье барона, но в последнее время стал заметно холоднее к нему.",
     ["%s Memory Fragment: %s"] = "%s Фрагмент памяти: %s",

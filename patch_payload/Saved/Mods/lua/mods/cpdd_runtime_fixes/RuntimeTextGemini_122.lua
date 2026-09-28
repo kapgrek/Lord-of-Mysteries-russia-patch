@@ -258,8 +258,8 @@ return {
     ["Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?"] = "Пирог «Дайси»? Тушёная баранина с горошком? ...А может, тушёные говяжьи рёбрышки Даргуа?",
     ["Ah?"] = "А?",
     ["三波灵界轰击，第二波施加重伤灼烧。"] = "Три волны обстрела Миром Духов, вторая волна накладывает Жгучую рану.",
-    ["一定是<P_Yellow>赛琳娜</>寄来的，她说过要邀请我们一家人去参加晚宴，还说学习了新占卜要展示给我看。"] = "It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new divination to show me.",
-    ["不过他们估计也没想到，作为首领的“愚者”，竟然才刚刚消化完“占卜家”魔药。"] = "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Seer' potion.",
+    ["一定是<P_Yellow>赛琳娜</>寄来的，她说过要邀请我们一家人去参加晚宴，还说学习了新占卜要展示给我看。"] = "Это наверняка прислала <P_Yellow>Селена</>. Она говорила, что хочет пригласить всю нашу семью на ужин, а ещё сказала, что выучила новое гадание и хочет мне показать.",
+    ["不过他们估计也没想到，作为首领的“愚者”，竟然才刚刚消化完“占卜家”魔药。"] = "Но они, наверное, не ожидали, что их предводитель «Шут» только что закончил усваивать зелье «Провидца».",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

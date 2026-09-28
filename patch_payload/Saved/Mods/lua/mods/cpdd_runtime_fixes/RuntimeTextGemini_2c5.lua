@@ -244,5 +244,6 @@ return {
     ["Our club's Conquest Decree attacking the <M_Orange>%s</> club has unfortunately failed, losing <M_Orange>%s</> God-chosen points!"] = "Наш клуб потерпел поражение в Указе о завоевании при атаке на клуб <M_Orange>%s</>, потеряно <M_Orange>%s</> очков Богоизбранного!",
     ["光线追踪已成功开启，需要重新进入场景后生效"] = "Трассировка лучей успешно включена, изменения вступят в силу после повторного входа в сцену",
     ["I'm the only one in the house, so the one making the noise must be... something unclean!"] = "Я один живу в доме, так что тот, кто издаёт эти звуки, должно быть... что-то нечистое!",
+    ["Three-Cost Battle Group: Max Health +300, Attack Speed +25%."] = "Отряд стоимостью 3: Максимум ОЗ +300, Скорость атаки +25%.",
     ["Kaya"] = "Кая·",
 }

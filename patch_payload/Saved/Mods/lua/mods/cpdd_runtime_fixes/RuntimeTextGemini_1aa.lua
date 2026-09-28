@@ -233,4 +233,5 @@ return {
     ["<Highlight>“我不是赌神”</>征服声望加成"] = "<Highlight>«Я не игрок»</> — бонус репутации Завоевания",
     ["This reckless fool lost his gun, and I just happened to find it. This time, I'm definitely going to squeeze him for all he's worth."] = "Этот безрассудный дурак потерял свой пистолет, а я как раз его нашёл. На этот раз я точно выжму из него всё до последнего.",
     ["Mellow honey complemented by smoked pork, an excellent companion for breakfast. Bacon and eggs, my partner."] = "Насыщенный мёд в сочетании с копчёной свининой — отличное дополнение к завтраку. Бекон и яйца, мой напарник.",
+    ["When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate..."] = "Когда же я наконец стану настоящим бариста? Может, после работы сходить в Клуб Провидцев и погадать…",
 }

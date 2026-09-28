@@ -248,6 +248,6 @@ return {
     ["Have you heard? About that matter..."] = "Ты слышал? Насчёт того дела...",
     ["Makes sense, but if you lose again, it'll be no different from having your salary docked, heh."] = "Логично, но если ты снова проиграешь, это будет не лучше, чем вычет из жалованья, хе-хе.",
     ["A major discovery, I've made a major discovery!"] = "Важное открытие, я сделал важное открытие!",
-    ["不，我的重点，我的意思是，阁下，我该怎样做才能成为非凡者？"] = "No, my point—what I mean is, Your Excellency, what must I do to become a Beyonder?",
+    ["不，我的重点，我的意思是，阁下，我该怎样做才能成为非凡者？"] = "Нет, я хотел сказать... то есть, Ваше Превосходительство, что мне нужно сделать, чтобы стать Потусторонним?",
     ["<P_Heart>（呕……）</>"] = "<P_Heart> (Ух...) </>",
 }

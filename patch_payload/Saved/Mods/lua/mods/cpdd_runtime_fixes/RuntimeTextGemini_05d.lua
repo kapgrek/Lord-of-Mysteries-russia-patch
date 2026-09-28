@@ -287,5 +287,6 @@ return {
     ["基础属性：生命+150、攻击+10%"] = "Базовые характеристики: Здоровье +150, Атака +10%",
     ["Dungeon_Force display of dungeon HUD data statistics"] = "Подземелье_Принудительно отображать статистику HUD подземелья",
     ["The current share has expired."] = "Текущая ссылка для обмена больше не действительна.",
+    ["Not good... Rozanne's time in Tingen in the Mirror has also reached a critical point, her consciousness has begun to become chaotic."] = "Плохо... время, проведённое Розанной в Зеркальном Тингене, также достигло критической точки, её сознание начинает путаться.",
     ["Demira"] = "Демира",
 }

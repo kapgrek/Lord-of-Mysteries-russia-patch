@@ -268,6 +268,6 @@ return {
     ["<M_Default>Dear Beyonder:</>\nYour Club won third place in the faction during this Hunting City Battle. As a candidate member, you have received the following rewards. Please collect them!"] = "<M_Default>Дорогой Потусторонний:</>\nВаш клуб занял третье место среди фракций в Битве «Охота на город». Как кандидат, вы получили следующую награду, пожалуйста, заберите её!",
     ["Base Stats: Attack +15%, Life Steal +15%"] = "Базовые характеристики: Атака +15%, Похищение жизни +15%",
     ["Tarot Club · Leonard: 4-person tier increment, all allies Life Steal +1%."] = "Клуб Таро · Леонард: бонус уровня «4 игрока», вся команда +1% похищения жизни.",
-    ["他是一位很有前途的占卜师，可惜已经好些年没见到他了。"] = "He was a very promising Seer, but unfortunately, I haven't seen him for several years.",
+    ["他是一位很有前途的占卜师，可惜已经好些年没见到他了。"] = "Он был очень многообещающим предсказателем, но, к сожалению, я не видел его уже много лет.",
     ["……这群家伙居然在南瓜里下药！"] = "...Эти ребята на самом деле травят тыквы!",
 }

@@ -262,6 +262,6 @@ return {
     ["但那对我而言稍微有些难度。"] = "Но для меня это немного сложно.",
     ["Are you interested, {{ handsome sir | noble lady }}? You only need to set aside some time every day for an interview and pay a certain fee to have an autobiography published in your name."] = "Вас это интересует, {{красивый господин|благородная госпожа}}? Вам нужно лишь уделять немного времени каждый день для интервью и заплатить определённую сумму — и от вашего имени будет издана автобиография.",
     ["Well, we're already much better off than those workers in the factories."] = "Что ж, нам уже гораздо лучше, чем тем рабочим на заводах.",
-    ["【LV5】【秘偶技】寻踪魔弹-代理主技能"] = "[LV5] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
+    ["【LV5】【秘偶技】寻踪魔弹-代理主技能"] = "【LV5】【Навык марионетки】Отслеживающая магическая пуля — основной навык агента",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

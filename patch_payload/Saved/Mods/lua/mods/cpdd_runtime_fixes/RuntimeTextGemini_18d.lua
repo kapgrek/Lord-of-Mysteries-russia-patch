@@ -276,6 +276,8 @@ return {
     ["Hound's Sharp Claws"] = "Острые когти гончей",
     ["Pick up the poster on the ground"] = "Поднять плакат с земли",
     ["As time passes, only the eternal remains immortal. He crowns you with the title of Emperor, and from this moment on, time itself bows before you."] = "Годы утекают, но вечность нетленна. Он коронует тебя титулом императора, и с этого момента само время склоняется перед тобой.",
+    ["Generally speaking, the higher the Sequence level, the stronger the Extraordinary abilities one can control, but..."] = "Как правило, чем выше уровень Последовательности, тем сильнее потусторонние способности, которыми можно овладеть, но…",
+    ["When marionettes refresh in the Utopia Theater, if a marionette of the same quality as the Wish Marionette appears, there is an 80% probability that it is the Wish Marionette. If the Wish Marionette does not appear this time, the next one is guaranteed to be the Wish Marionette."] = "При обновлении марионеток Утопического театра, если появляется марионетка того же качества, что и Марионетка желания, с вероятностью 80% это будет именно она. Если в этот раз Марионетка желания не появилась, в следующий раз она появится гарантированно.",
     ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self"] = "Перейти в указанную позицию Trigger: игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Yareli"] = "Ярели",
 }

@@ -250,6 +250,8 @@ return {
     ["柚木木质致密，油性充足，不怕潮湿和虫蛀，最适合打造船身甲板、高档家具和长期露天使用的设施。"] = "Тик обладает плотной древесиной, богат маслом, не боится сырости и жуков-точильщиков, поэтому лучше всего подходит для постройки корабельных палуб, элитной мебели и сооружений для долгого использования на открытом воздухе.",
     ["The oath of three people standing side by side is a glimmer of light that burns eternally in the darkness."] = "Клятва троих, стоящих плечом к плечу, — это огонёк, что вечно горит во Тьме.",
     ["Once, you gazed at the starry sky, seeking the guidance of fate. Now, you stand above the stars, looking down upon this universe with the same gaze that a god once used."] = "Когда-то ты смотрел на звёздное небо, ища знаки судьбы. Теперь ты стоишь над звёздами и взираешь на эту вселенную взором, которым некогда смотрели боги.",
-    ["不知道最近有没有非凡案件要处理，回黑荆棘看看吧。"] = "I wonder if there are any Beyonder cases to handle recently. Let's head back to Blackthorn Security to check.",
+    ["不知道最近有没有非凡案件要处理，回黑荆棘看看吧。"] = "Не знаю, есть ли недавно Потусторонние дела для расследования, загляну-ка в «Чёрный Шип».",
+    ["No traces were left behind; there must be the influence and interference of Beyonder powers behind it."] = "Не осталось никаких следов — за этим наверняка стоит влияние и вмешательство потусторонней силы.",
+    ["An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the spirit body. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey."] = "Древняя монета с переливами звёздного неба, способная через духовное тело откликаться на Мир Духов и звёздное небо. На ней выгравированы тайные письмена, начертанные Ангелом рода Авраама; каждое использование подобно началу странствия по звёздам и приносит пользователю впечатления и находки в пути.",
     ["Ayan"] = "Аян",
 }

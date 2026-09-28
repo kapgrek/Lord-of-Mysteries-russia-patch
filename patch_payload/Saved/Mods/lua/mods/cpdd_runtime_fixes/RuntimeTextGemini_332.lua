@@ -299,4 +299,5 @@ return {
     ["风尚决斗胜利，每次攻击可对首领造成巨量伤害！"] = "Победа в Модной дуэли! Каждая атака наносит боссу огромный урон!",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 7.5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7.5 маны",
     ["Goddess, I pray that my study journey in Backlund goes smoothly."] = "Богиня, молюсь, чтобы моя учёба в Бэкланде прошла гладко.",
+    ["[Marionette Skill] Worm of Star - Exile - Spell Agent"] = "【Навык марионетки】Звёздный червь-Изгнание-Магический агент",
 }

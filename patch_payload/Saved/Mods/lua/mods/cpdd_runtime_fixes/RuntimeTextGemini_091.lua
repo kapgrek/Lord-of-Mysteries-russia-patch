@@ -248,6 +248,7 @@ return {
     ["Your personal information is not listed in the Covenant pool; cannot perform divination."] = "Ваша личная информация не размещена в пуле клятв, гадание невозможно.",
     ["I said I was going to the Evil Dragon Bar with Lawrence last week... I haven't had time to go yet, those evil factory owners."] = "Я говорил, что на прошлой неделе пойду с Лоуренсом в бар «Злой дракон»... до сих пор не выбрался, всё из-за этих проклятых владельцев фабрик.",
     ["Accompanied by Dicy coffee until late at night"] = "В компании кофе «Дайси» допоздна",
+    ["A special totem left behind by Miss Magician Fors after using her space concealment ability to hide parts of the loss of control area."] = "Особый тотем, оставленный госпожой Фокусником Форс, которая с помощью способности пространственной маскировки скрыла часть зоны Потери Контроля.",
     ["Griffin"] = "Гриффин",
     ["完成%d/5个隐秘空间。"] = "Пройдите «Скрытые пространства» %d/5.",
 }

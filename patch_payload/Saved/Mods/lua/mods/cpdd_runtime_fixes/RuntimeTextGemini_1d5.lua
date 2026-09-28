@@ -262,6 +262,7 @@ return {
     ["啧，报纸已经售罄了。"] = "Тс, газеты уже все распроданы.",
     ["Then light a cigarette and puff away."] = "А потом закурил сигарету и попыхтел ею.",
     ["I might not have the fanciest decor here, but you'll definitely find the most intoxicating drinks!"] = "Может, обстановка тут не самая изысканная, но самые опьяняющие напитки вы точно найдёте здесь!",
+    ["Restore sanity to Beyonders who are experiencing or on the verge of loss of control."] = "Восстанавливает рассудок Потусторонним, находящимся в состоянии Потери Контроля или на грани неё",
     [".p4config and"] = ".p4config и",
     ["Aist"] = "Аист",
 }

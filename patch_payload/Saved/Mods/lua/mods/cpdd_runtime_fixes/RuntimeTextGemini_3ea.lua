@@ -266,6 +266,7 @@ return {
     ["Repeatedly coloring, washing, and drying—these inferior pigments are eroding my health."] = "Постоянное окрашивание, стирка и сушка — эти дешёвые красители разрушают моё здоровье.",
     ["I didn't get in line yesterday, I don't know if I'll have the same luck as you today."] = "Вчера я не встал в очередь, не знаю, повезёт ли мне сегодня так же, как тебе.",
     ["Could that lady be a retired female soldier? But even among the believers of the Evernight Goddess, there are very few cases of being drafted into the army..."] = "Может, эта дама — отставная военнослужащая? Хотя даже среди верующих Богини Вечной Ночи призыв в армию встречается очень редко...",
+    ["The Utopia Theater is a Sealed Artifact left by Mr. Fool, but the internal corridors have recently undergone mutations; I hope the \"actors\" inside still recognize their scripts."] = "Утопический театр — это Запечатанный Артефакт, оставленный господином Шутом, но во внутренних коридорах недавно произошли аномальные изменения. Остаётся надеяться, что находящиеся внутри «актёры» всё ещё помнят свои роли.",
     ["前往指定坐标交互并进入位面  玩家播放主线任务开始展示界面"] = "Перейти к указанным координатам для взаимодействия и входа на план; отображается интерфейс начала основного задания.",
     ["Madeline"] = "Мэдлин",
     ["他说廷根有个大学城，坐飞艇能飞到云上。"] = "Он сказал, что в Тингене есть университетский округ, и над облаками можно летать на дирижабле.",

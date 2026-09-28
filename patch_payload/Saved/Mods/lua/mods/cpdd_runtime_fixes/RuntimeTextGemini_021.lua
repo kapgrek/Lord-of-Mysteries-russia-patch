@@ -260,6 +260,7 @@ return {
     ["<M_Default>Dear Beyonder:</>\nCongratulations to your Club for winning second place in the faction during this Frost-Fall Lord event. As a candidate member, you have received the following rewards. Please collect them!"] = "<M_Default>Дорогой Потусторонний:</>\nПоздравляем, ваш клуб занял второе место среди фракций в событии «Повелитель Морозного Обвала». Как кандидат, вы получили следующую награду, пожалуйста, заберите её!",
     ["The Collection system helps players record unique content encountered in the game, such as phonograph collections."] = "Система коллекционирования помогает игрокам фиксировать уникальный контент, встреченный в игре, например архивы граммофона.",
     ["Order an afternoon tea and have a peaceful rest."] = "Заказать послеобеденный чай и спокойно отдохнуть.",
+    ["However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Seer' potion."] = "Но они, наверное, не ожидали, что их предводитель «Шут» только что закончил усваивать зелье «Провидца».",
     ["铁路大亨挑战线路获得%d/5次【铁路大亨】评价。"] = "Получите рейтинг [Железнодорожный магнат] %d/5 раз в маршрутах испытаний «Железнодорожный магнат».",
     ["获取城市暗面玩法悬赏值%d/4000。（黄铜书挑战开启后计数）"] = "Получите %d/4000 очков награды в режиме «Тёмная сторона города». (Отсчёт начинается после открытия испытания Медной книги)",
 }

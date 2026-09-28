@@ -278,7 +278,7 @@ return {
     ["Illegal mining in the Hornacis Mountain Range, child labor exploitation in the ceramic workshops of Tingen's South District..."] = "Незаконная добыча на шахтах в горах Хорнакис, эксплуатация детского труда в керамических цехах южного района Тингена...",
     ["The attributes of marionettes deployed for strategy only take effect at 100% in Strategic Server gameplay; they still only take effect at 35% on the main server."] = "Атрибуты марионеток, развёрнутых для стратегии, действуют на 100% только в режиме Стратегического сервера; на основном сервере они всё так же действуют лишь на 35%.",
     ["No suitable Beyonder available at the moment; please come back for divination later."] = "Пока нет подходящего Потустороннего, зайдите позже, чтобы погадать.",
-    ["不用谢，这只是一个街头魔术师的日常表演。"] = "No need to thank me, this is just a daily performance for a street magician.",
+    ["不用谢，这只是一个街头魔术师的日常表演。"] = "Не стоит благодарности, это всего лишь обычное выступление уличного Фокусника.",
     ["Gwendolyn"] = "Гвендолин",
     ["Arabella"] = "Арабелла",
     ["一位守夜人"] = "Ночной ястреб",

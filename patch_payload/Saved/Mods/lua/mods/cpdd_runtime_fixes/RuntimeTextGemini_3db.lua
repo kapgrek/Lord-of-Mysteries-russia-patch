@@ -270,7 +270,7 @@ return {
     ["Member changes are temporarily prohibited during the Strategic Server event."] = "На время события Стратегического сервера изменение состава участников временно запрещено",
     ["What do you like to do in your spare time? (Select up to %d)"] = "Что вы обычно любите делать? (выберите до %d)",
     ["That is the war that happened after the Twenty-Year War and before the War of the Oath-Breakers. It allowed Loen to defeat Intis and become strong again!"] = "Это война, произошедшая после Двадцатилетней войны и до Войны Клятвопреступников. Она позволила Лоэну победить Интис и снова обрести силу!",
-    ["……这张悲喜剧面具名为“戏剧大师”，对应学徒途径序列8 戏法大师。戴上面具后，使用者会获得相应的序列能力。"] = "…This comedy-tragedy mask is called 'Drama Master,' corresponding to the Apprentice pathway, Sequence 8, Trickmaster. After wearing the mask, the user will gain the corresponding Sequence abilities.",
+    ["……这张悲喜剧面具名为“戏剧大师”，对应学徒途径序列8 戏法大师。戴上面具后，使用者会获得相应的序列能力。"] = "...Эта трагикомическая маска называется \"Мастер Драмы\", соответствует Пути Ученика, Последовательность 8, Трикстер. Надев маску, пользователь получает соответствующие способности Последовательности.",
     ["Dahlia"] = "Далия",
     ["如同死者聆听天使的号角，你终于准备好面对真实的自己。这是审判的时刻，也是重生的开始。"] = "Словно мертвец, внимающий трубе ангела, вы наконец готовы предстать перед своим истинным «я». Это час суда и начало перерождения.",
     ["Darwin"] = "Дарвин",

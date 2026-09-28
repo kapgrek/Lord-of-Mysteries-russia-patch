@@ -245,7 +245,7 @@ return {
     ["Display_HoldingAxe"] = "Отображение_Держит топор",
     ["The ritual for the offspring was a success! \n Although the Nighthawks cleared up the serial deaths in the slums, it didn't affect the continuation of the story. \n Nourished by the resentment accumulated day and night in the factory district, and catalyzed by the tangible gloom and oppression, the plan proceeded smoothly..."] = "Ритуал потомства увенчался успехом!\nХотя Ночные дозорные раскрыли серию смертей в трущобах, это не повлияло на продолжение истории.\nПитаемый обидой, копившейся день и ночь в промышленном районе, катализируемый почти материальным мраком и гнётом, план продвигался успешно…",
     ["Hold 1,000-150,000 to enter this room"] = "Войти в эту комнату можно, если у вас от 1000 до 150 000",
-    ["【本相】梦魇命中敌方目标后令敌方目标在6秒内带有宁静光环，该光环可减少周围敌方目标技能抵挡。"] = "[True Form] After Nightmare hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Skill Block of surrounding enemy targets.",
+    ["【本相】梦魇命中敌方目标后令敌方目标在6秒内带有宁静光环，该光环可减少周围敌方目标技能抵挡。"] = "[Истинная форма] После попадания «Кошмара» по вражеской цели на неё на 6 сек. накладывается аура Спокойствия, которая снижает Блок навыков окружающих вражеских целей.",
     ["Abner"] = "Эбнер",
     ["很精致的帽子。你父母一定很珍惜它。"] = "Очень изысканная шляпа. Твои родители, должно быть, этим дорожили.",
     ["【生命学派】"] = "【Школа мысли Жизни】",

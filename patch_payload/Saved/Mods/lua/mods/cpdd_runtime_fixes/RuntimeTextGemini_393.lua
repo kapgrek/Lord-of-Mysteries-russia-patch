@@ -290,6 +290,6 @@ return {
     ["Understood, thank you."] = "Понятно, спасибо.",
     ["当前为%s，还剩%d小时进入%s"] = "Сейчас %s, осталось %d ч. до входа в %s",
     ["There are projection characters in the team; unable to apply."] = "В группе есть проекции персонажей, заявку подать нельзя",
-    ["他关爱着每位生灵，哪怕你没有信仰“愚者”，依然可以享受塔罗学派的一切。"] = "He cares for every living being; even if you don't believe in the \"Fool\", you can still enjoy everything the Tarot Club has to offer.",
+    ["他关爱着每位生灵，哪怕你没有信仰“愚者”，依然可以享受塔罗学派的一切。"] = "Он заботится о каждом живом существе; даже если ты не веришь в «Шута», ты всё равно можешь пользоваться всем, что предлагает Клуб Таро.",
     ["Bralin"] = "Бралин",
 }

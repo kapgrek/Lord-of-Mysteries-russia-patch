@@ -282,7 +282,7 @@ return {
     ["Sonic waves deal <HighLight>170%</> attack damage to enemies in front and knock them back; gain a shield equal to <HighLight>12%</> of your maximum health, lasting for <HighLight>4</> seconds."] = "Звуковые волны наносят <HighLight>170%</> урона от атаки врагам впереди и отбрасывают их; получите щит, равный <HighLight>12%</> вашего максимального здоровья, действующий <HighLight>4</> сек.",
     ["怎么会呢？允许我向您介绍一下。"] = "Как же так? Позвольте мне вам представить.",
     ["Buy a lamb chop to take home."] = "Купи баранью отбивную домой.",
-    ["代价也挺大，前面好几个序列完全不能打，到序列六都是学者型。"] = "The price was also quite high; the first few sequences were completely unable to fight, and up to Sequence 6, they were all scholar-types.",
+    ["代价也挺大，前面好几个序列完全不能打，到序列六都是学者型。"] = "Цена тоже немалая: первые несколько Последовательностей совсем не боевые, вплоть до Последовательности 6 все учёного типа.",
     ["任务自定义事件  玩家停止自己播放情绪音乐"] = "Пользовательское событие квеста. Плеер перестает воспроизводить эмоциональную музыку.",
     ["The peak Demigod faces the void's scorching heat.. Only the name of the Family is the final Anchor. The peak Demigod faces the void's scorching heat.. Only the name of the Family is the final Anchor"] = "Вершинный Полубог сталкивается с палящим жаром пустоты. Только имя Семьи является последним Якорем. Вершинный Полубог сталкивается с палящим жаром пустоты. Только имя Семьи является последним Якорем.",
     ["播放CutScene  传送到指定场景的坐标位置"] = "Воспроизвести CutScene: телепортироваться к указанным координатам сцены.",

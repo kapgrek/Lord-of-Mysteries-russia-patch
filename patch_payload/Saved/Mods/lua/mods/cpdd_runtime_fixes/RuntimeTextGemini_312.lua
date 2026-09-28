@@ -238,7 +238,7 @@ return {
     ["The wind and waves may not necessarily cease because of this, but faith will accompany you to the other shore."] = "Ветер и волны не обязательно утихнут от этого, но вера будет сопровождать вас до другого берега.",
     ["We're on the street! Doing that would be too contrary to etiquette."] = "Мы на улице! Это было бы слишком неприлично.",
     ["Thank the Goddess, my sister and I convinced Dad, and we can go to school now!"] = "Слава Богине, мы с сестрой убедили папу, и теперь мы можем пойти в школу!",
-    ["不够灵敏的占卜家先生，这个架子明明离我更近，如果不是你挡住了路……"] = "Not-so-sharp Mr. Seer, this shelf is clearly closer to me. If it weren't for you blocking the way...",
-    ["他说，只有非凡者可以发挥它“保护”的力量。"] = "He said only a Beyonder can unleash its power of \"protection\".",
+    ["不够灵敏的占卜家先生，这个架子明明离我更近，如果不是你挡住了路……"] = "Недостаточно проворный господин Провидец, эта полка явно ближе ко мне, если бы не вы, преградивший путь...",
+    ["他说，只有非凡者可以发挥它“保护”的力量。"] = "Он сказал, что только Потусторонний может раскрыть его силу «защиты».",
     ["好吧……我们现在要去哪里？"] = "Хорошо... куда мы сейчас идем?",
 }

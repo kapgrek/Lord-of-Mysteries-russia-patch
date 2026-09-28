@@ -270,5 +270,6 @@ return {
     ["During the day, this place is for drinking tea, reading newspapers, discussing business, and occasionally holding a speech. It looks like a proper club in every way."] = "Днём здесь пьют чай, читают газеты, обсуждают дела, иногда устраивают выступления — со всех сторон выглядит как приличный клуб.",
     ["Selling spices and dried goods from all over, you are welcome to browse."] = "Продаю специи и сушёные товары со всего света, заходите посмотреть.",
     ["This is the most high-end department store in all of Tingen; even when it's closed, many people are watching it!"] = "Это самый роскошный универмаг во всём Тингене; даже когда он закрыт, за ним следит множество людей!",
+    ["Not in the cooldown period for pathway conversion"] = "Не в откате смены Пути",
     ["已完成："] = "Завершено:",
 }

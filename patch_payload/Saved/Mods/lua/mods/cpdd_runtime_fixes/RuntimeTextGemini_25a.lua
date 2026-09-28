@@ -294,5 +294,6 @@ return {
     ["4非凡词条及以下不进行确认"] = "Не запрашивать подтверждение для 4 аффиксов Потустороннего и меньше",
     ["Go to the shared path and catch your teammate!"] = "Перейдите на общий путь и подхватите товарища по команде!",
     ["A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning."] = "Почётное имя из трёх частей — это не просто имя; оно ближе к взгляду божества, заклинанию призыва.",
-    ["上次您帮安娜占卜的事情，已经在俱乐部传开了。"] = "The divination you did for Anna last time has already spread throughout the club.",
+    ["上次您帮安娜占卜的事情，已经在俱乐部传开了。"] = "То, что вы в прошлый раз погадали для Анны, уже разнеслось по всему клубу.",
+    ["[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you."] = "Появился [Сложный уровень]! Вы можете снова и снова бросать вызов врагам из кошмара! На этот раз \"Сдиратель Лиц\" Джонни потерял рассудок и обнажил перед вами свои когти.",
 }

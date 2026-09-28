@@ -280,6 +280,7 @@ return {
     ["明斯克街的一角传来喧闹。闹鬼的传闻？黑帮的胁迫？还是另有隐情……"] = "Шум доносится с угла Улицы Минск. Слухи о призраках? Угрозы банды? Или дело в чём-то ещё...",
     ["<P_Yellow>Cough cough cough cough cough no I didn't say anything! Please forget it!</>"] = "<P_Yellow>Кхм-кхм-кхм-кхм-кхм, нет, я ничего не говорил! Пожалуйста, забудьте!</>",
     ["Back then, the ale Thomas brewed smelled so good it could lure drunks from the next town over. Eleanor's pies were also a specialty, the crust was so flaky it would crumble at a bite."] = "В те времена эль, что варил Томас, пах так хорошо, что мог заманить пьяниц из соседнего города. Пироги Элеонор тоже были особым лакомством — корочка была такой рассыпчатой, что крошилась при первом же укусе.",
+    ["The divination you did for Anna last time has already spread throughout the club."] = "То, что вы в прошлый раз погадали для Анны, уже разнеслось по всему клубу.",
     ["采集指定TemplateID的采集物  玩家播放单句黑屏字幕"] = "Соберите собранные объекты с указанным TemplateID. Плеер воспроизводит одно предложение субтитров на черном экране.",
     ["Malani"] = "Малани",
     ["Piece List"] = "Список фигур",

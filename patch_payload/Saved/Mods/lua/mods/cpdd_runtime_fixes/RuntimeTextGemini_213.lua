@@ -278,6 +278,7 @@ return {
     ["They said there's a weirdo in Backlund who goes around talking to people and will kidnap children for scientific experiments."] = "Они сказали, что в Бэкланде объявился чудак, который заговаривает с людьми и ловит детей для научных экспериментов.",
     ["角色等级达到%s级后可继续提升"] = "После достижения %s уровня персонажа повышение уровня можно продолжить",
     ["The doors of Rollins Bistro are always open for you!"] = "Двери бистро «Роллинс» для вас всегда открыты!",
+    ["……None? It seems we should both rest today. Hmm, this is an revelation one can get without spirituality intuition."] = "...Нет? Похоже, сегодня нам обоим стоит отдохнуть. Хм, это откровение, которое можно получить и без духовной интуиции.",
     ["<P_Heart>（震惊）</>不、不可能……已经过去七十年了？老查克和小柯莱…… 他们已经……"] = "<P_Heart>(в шоке)</> Нет, невозможно... семьдесят лет прошло? Старый Чак и Маленький Колли... Они уже...",
     ["露米代行"] = "Люмианский прокси",
     ["采集指定TemplateID的采集物  玩家传送到位面"] = "Собрать предмет с указанным TemplateID: игрок телепортируется в экземпляр.",

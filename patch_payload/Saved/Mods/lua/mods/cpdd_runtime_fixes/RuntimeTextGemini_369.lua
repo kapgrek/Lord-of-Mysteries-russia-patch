@@ -254,8 +254,8 @@ return {
     ["Am I, am I going to be scolded too?"] = "Я, меня тоже будут ругать?",
     ["A bit deeper, so the roots can take hold firmly!"] = "Чуть глубже, чтобы корни крепко укоренились!",
     ["Hmm? Nothing. Something's wrong, try activating spirit vision."] = "Хм? Ничего. Что-то не так, попробуй активировать духовное зрение.",
-    ["【本相】释放二段技能灰雾加持或者灰雾压制后，降低自身解控技能冷却时间3秒。"] = "[True Form] After releasing the second-stage skill gray fog Blessing or gray fog Suppression, reduce the Cooldown of own Cleanse skills by 3 seconds.",
-    ["【浅见】梦魇命中目标后有30%基础概率附加滞涩，持续3秒，生成的仪式魔法附加5%减速。"] = "[Insight] After Nightmare hits a target, it has a 30% base chance to apply Stagnation for 3 seconds, and the generated Ritual Magic applies a 5% Slow.",
-    ["他们尝试去接触一个非凡物品，那东西具备活着的特性，最终……没有一个人幸存。"] = "They tried to make contact with a Beyonder item. That thing possessed living characteristics, and in the end... not a single person survived.",
-    ["应该都涉及到了非凡领域，得谨慎一些。"] = "Should all involve the Beyonder realm, must be cautious.",
+    ["【本相】释放二段技能灰雾加持或者灰雾压制后，降低自身解控技能冷却时间3秒。"] = "[Истинная форма] После применения второй стадии навыка «Благословение серого тумана» или «Подавление серого тумана» снижает Откат Навыка собственного навыка снятия контроля на 3 сек.",
+    ["【浅见】梦魇命中目标后有30%基础概率附加滞涩，持续3秒，生成的仪式魔法附加5%减速。"] = "[Поверхностное толкование] После попадания «Кошмара» по цели с базовой вероятностью 30% накладывается Вязкость на 3 сек., а созданная ритуальная магия дополнительно накладывает замедление 5%.",
+    ["他们尝试去接触一个非凡物品，那东西具备活着的特性，最终……没有一个人幸存。"] = "Они попытались прикоснуться к потустороннему предмету, обладавшему признаками живого существа, и в итоге... не выжил никто.",
+    ["应该都涉及到了非凡领域，得谨慎一些。"] = "Должно быть, всё это связано с потусторонней сферой, нужно быть осторожнее.",
 }

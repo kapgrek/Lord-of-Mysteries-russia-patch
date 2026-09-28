@@ -228,5 +228,6 @@ return {
     ["Hey! Who are you? Don't talk to my daughter! Get away from here!"] = "Эй! Кто ты такой? Не разговаривай с моей дочерью! Отойди подальше!",
     ["This is the child's good intention. If you don't want to watch, you can go have fun on the slide."] = "Это от чистого сердца ребёнка. Если не хочешь смотреть, можешь сходить покататься на горке.",
     ["我这会儿有很多花呢，您可以随意看看，有什么想要了解的吗？"] = "У меня сейчас много цветов, можете посмотреть — что хотите узнать?",
+    ["A cup of hot tea; someone was just here doing a divination."] = "Чашка горячего чая — кто-то только что гадал здесь.",
     ["Highest Losing Streak:"] = "Макс. серия поражений:",
 }

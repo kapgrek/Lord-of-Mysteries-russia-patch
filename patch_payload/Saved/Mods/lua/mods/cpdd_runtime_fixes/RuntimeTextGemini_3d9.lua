@@ -269,6 +269,7 @@ return {
     ["A new batch of ham has arrived, volcanic smoked ham from Port Damir."] = "Прибыла новая партия ветчины — вулканическая копчёная ветчина из порта Дамир.",
     ["It's fine if you don't have any on hand; come find me when you do!"] = "Ничего, если у тебя сейчас нет под рукой; приходи, когда появятся!",
     ["Acting · Bard"] = "Отыгрыш · Бард",
+    ["He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Sequence 0 \"Black Emperor\"."] = "Он продвинул промышленную революцию, изобрёл паровой двигатель и усовершенствовал множество технологий, свергнул Королевство Интис и основал Республику, позже преобразовал её в Империю и провозгласил себя «Императором Цезарем», в итоге сменил Путь и достиг Последовательности 0 «Чёрный Император».",
     ["但我几乎忘记了，我原本来自于一个和平的年代，不曾沾染战争的气息。或许因为我始终是用一种游戏的心态对待这个世界，到最后，连对待生命的态度都变得轻薄……"] = "Но я почти забыл, что родом из мирной эпохи и никогда не был запятнан запахом войны. Возможно, потому, что я всегда относился к этому миру с игровым складом ума, в конце концов даже мое отношение к жизни стало несерьезным...",
     ["Minian"] = "Миниан",
 }

@@ -258,6 +258,6 @@ return {
     ["I understand their feelings very well, and I envy them for still being able to find the mementos of someone important."] = "Я прекрасно понимаю их чувства и завидую тому, что они всё ещё могут найти памятные вещи важного для них человека.",
     ["Yeah, why... why would I do this?"] = "Да, зачем... зачем мне это делать?",
     ["The day I concocted the potion, Susie opened the door and entered the laboratory, licking a portion of the Spectator potion. Fortunately, I had prepared two sets of materials at the time."] = "В тот день, когда я варила зелье, Сьюзи открыла дверь и вошла в лабораторию, лизнув часть зелья Зрителя. К счастью, у меня тогда было подготовлено два комплекта материалов.",
-    ["为处于失控或失控边缘的非凡者恢复理智"] = "Restore sanity to Beyonders who are experiencing or on the verge of loss of control.",
+    ["为处于失控或失控边缘的非凡者恢复理智"] = "Восстанавливает рассудок Потусторонним, находящимся в состоянии Потери Контроля или на грани неё",
     ["虽然它的能力已不足巅峰的十分之一，但毕竟曾是我最骄傲的设计，必须尽早将它压制封印……小家伙们，交给你们了，不要再让绯红降临在大地上。"] = "Хотя его мощность составляет менее одной десятой от максимальной, в конце концов, это была моя самая большая гордость. Его необходимо как можно скорее подавить и запечатать... Малыши, я оставляю это вам. Не позволяйте багровому цвету снова опуститься на землю.",
 }

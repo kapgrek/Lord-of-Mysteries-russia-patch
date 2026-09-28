@@ -267,7 +267,8 @@ return {
     ["What \"cats and dogs in the shop,\" this is a complete scam!"] = "Что за «кошки и собаки в лавке», это же полное мошенничество!",
     ["Yes, they use names related to textiles, and only their leader has a decent name, called Hunter."] = "Да, они берут имена, связанные с текстилем, и только у их главаря приличное имя — Хантер.",
     ["Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration."] = "Отлит из латуни, украшен простыми, но изящными узорами. Подходит для повседневного освещения и декора.",
-    ["一号信徒一阶段减伤Buff移除破碎"] = "Believer Number One Stage 1 damage reduction buff removal shatter",
+    ["一号信徒一阶段减伤Buff移除破碎"] = "Верующий №1 — этап 1: удаление баффа снижения урона (разрушение)",
+    ["[Deprecated] Spectator Attack Form: 10% Damage Boost against targets with Insight Vulnerability status"] = "[Устарело] Форма атаки «Зрителя»: увеличивает урон на 10% по целям со статусом уязвимости от Проницательности.",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

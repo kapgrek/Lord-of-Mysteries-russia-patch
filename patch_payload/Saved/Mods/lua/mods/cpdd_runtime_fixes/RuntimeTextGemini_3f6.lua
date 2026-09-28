@@ -260,6 +260,7 @@ return {
     ["赶快解救小矮人，让小矮人将你带到空中！"] = "Скорее спасите гнома, чтобы он поднял вас в воздух!",
     ["Hmm... please don't mess with the documents on the desk. Just sweep the floor and clear away the clutter."] = "Хм... пожалуйста, не трогайте документы на столе. Просто подметите пол и уберите мусор.",
     ["Sir, please look at this food, I think it will sell like hotcakes!"] = "Сударь, взгляните на эту еду, думаю, она будет расходиться нарасхват!",
+    ["【Seer】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus."] = "【Провидец】(4) Чем больше дистанция, тем выше урон, максимум +30% бонусного урона от силы атаки в зависимости от дистанции.",
     ["Valeria"] = "Валерия",
     ["Aspen"] = "Аспен",
 }

@@ -293,4 +293,5 @@ return {
     ["Hmm... these seem reasonable enough. Then what about this one without a label?"] = "Хм... это ещё сойдёт. А что насчёт этой бутылки без этикетки?",
     ["Fashion Matching Competition Fashion Matching Competition Fashion Matching Competition"] = "Конкурс сочетания образовКонкурс сочетания образовКонкурс сочетания образов",
     ["It's all local Tingen vegetables, seasonal vegetables."] = "Это всё местные тингенские овощи, сезонные овощи.",
+    ["\"Grade 2\" dangerous object... Dangerous, use with caution and restraint. So, is this action performed because of the special nature of the Sealed Artifact?"] = "Опасный предмет «2» степени... опасно, использовать с осторожностью и умеренностью. Так это действие совершается из-за особенности Запечатанного Артефакта?",
 }

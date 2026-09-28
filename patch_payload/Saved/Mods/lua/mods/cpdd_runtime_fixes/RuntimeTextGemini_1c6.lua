@@ -267,7 +267,7 @@ return {
     ["Participate in <Highlight> Team Performance </>? After participating, you will perform in sync with leader <Highlight> </>."] = "Принять участие в <Highlight>совместном представлении команды</>? После участия вы будете <Highlight>синхронно выступать</> с лидером.",
     ["You go in yourself; I'm going to get the files Xiga asked for."] = "Заходи сам, а я пойду за файлами, которые попросил Сига.",
     ["I was just looking—Klo, help me!!"] = "Я просто смотрел... Кло, помоги мне!!",
-    ["<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果"] = "<Rank1>\"Level 1\"</> Sealed Artifact only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect",
-    ["为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。"] = "To help Azik Eggers recover his past, Klein established a long-term correspondence with him. The letters mostly consist of sharing historical clues, asking about Beyonder knowledge, or informing him of travel plans, serving as an important bond for this mentor-friend relationship.",
+    ["<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果"] = "<Rank1>«1 уровня»</> Запечатанный Артефакт действует только на стратегическом сервере, на этом сервере действует эффект <Rank2>«2 уровня»</>",
+    ["为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。"] = "Чтобы помочь Азику Эггерсу восстановить память о прошлом, Клейн наладил с ним долгую переписку. Письма в основном содержат обмен историческими зацепками, вопросы о потустороннем знании или сведения о планах поездок — это важная связующая нить их отношений наставника и друга.",
     ["完成通用条件表  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Полная таблица общего состояния. Плеер воспроизводит речевой текст, видимый только ему. Отложенное исполнение. Плеер воспроизводит речевой текст, видимый только ему.",
 }

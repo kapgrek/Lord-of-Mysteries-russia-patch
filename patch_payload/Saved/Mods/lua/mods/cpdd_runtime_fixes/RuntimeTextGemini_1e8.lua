@@ -299,6 +299,7 @@ return {
     ["二人世界？嗯，也许……不，没什么。"] = "Мир для двоих? Хм, возможно... нет, ничего.",
     ["Dad, that mask looks good!"] = "Папа, вон та маска красивая!",
     ["It will. It will be taller than me, taller than you, taller than all of us!"] = "Так и будет. Оно станет выше меня, выше тебя, выше нас всех!",
+    ["Secondary sword energy damage increased by 25%. If the secondary hit misses, 10% of the skill's Cooldown is refunded."] = "Урон второй фазы Ци меча увеличен на 25%. Если вторая фаза не попадает по цели, возвращается 10% времени отката навыка.",
     ["Gracie"] = "Грейси",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）"] = "Воспроизвести кат-сцену: игрок воспроизводит эмоциональную музыку (слышно только себе).",
     ["Amberline"] = "Янтарная линия",

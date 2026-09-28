@@ -286,7 +286,9 @@ return {
     ["The two inherent Mana regeneration values for this planning period are both 0, retaining the independent spawn Buff configuration slot."] = "В этом периоде планирования оба показателя врождённого восстановления маны равны 0, слот конфигурации отдельного бафа при появлении сохранён",
     ["What stats should a healer focus on?"] = "Какие характеристики следует развивать хилеру?",
     ["Hello, I am the wandering singer, Lawood. It must have been this beautiful singing that attracted you, right?"] = "Здравствуйте, я бродячий певец Лавуд. Наверное, вас привлекло это чудесное пение?",
-    ["人类想要成为非凡者，并在非凡之路上持续走下去，只能依靠魔药。"] = "Humans who want to become Beyonders and continue on the path of the extraordinary can only rely on potions.",
+    ["人类想要成为非凡者，并在非凡之路上持续走下去，只能依靠魔药。"] = "Люди, желающие стать Потусторонними и продолжать идти по пути сверхъестественного, могут полагаться только на зелья.",
+    ["It's not that simple. I felt the scent of corruption in my dream."] = "Всё не так просто, во сне я почувствовал(а) запах скверны.",
+    ["Not entirely. Generally speaking, colleagues of the 'Seer' pathway will write poetry to digest their potion after becoming 'Midnight Poets'."] = "Не совсем. Как правило, коллеги Последовательности \"Бессонный\", становясь \"Полуночным Поэтом\", начинают писать стихи, чтобы переварить Зелье.",
     ["Giovanni"] = "Джованни",
     ["偏见蒙蔽了你的双眼，错误的判断将带来灾难。放下成见，否则你将成为不公的帮凶。"] = "Предрассудки ослепляют ваши глаза; неправильные суждения принесут катастрофу. Откажитесь от своих предубеждений, иначе вы станете соучастником несправедливости.",
 }

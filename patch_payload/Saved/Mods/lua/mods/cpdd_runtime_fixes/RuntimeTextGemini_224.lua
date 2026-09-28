@@ -267,6 +267,7 @@ return {
     ["<Assistant_Title1>【途径抵抗】</>\n受到玩家和建筑类型的敌方攻击时，抵消其压制。(最多将攻击方压制降为0)\n<Assistant_Title2>温馨提示：</>本属性为集合属性，由多个属性构成。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[伤害计算]|1499}"] = "<Assistant_Title1>【Сопротивление Пути】</>\nПри получении атаки от игроков и построек снижает их подавление. (Снижает подавление атакующего максимум до 0)\n<Assistant_Title2>Совет:</>Эта характеристика является сборной и состоит из нескольких характеристик.\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
     ["带上了金属盒子，在冻僵前终于赶回了黑荆棘……"] = "Взяв металлическую шкатулку, я успел вернуться в Чёрный шип, прежде чем замёрзнуть насмерть...",
     ["%s units of %s are in %s status. Are you sure you want to use them?"] = "%s ед. %s находятся в состоянии %s. Продолжить использование?",
+    ["[True Form] After Nightmare hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Skill Block of surrounding enemy targets."] = "[Истинная форма] После попадания «Кошмара» по вражеской цели на неё на 6 сек. накладывается аура Спокойствия, которая снижает Блок навыков окружающих вражеских целей.",
     ["But before that, please remember me, a soul from a foreign land like you, a person who once wanted to return to his hometown."] = "Но прежде запомните меня: душу из чужих краев, подобную вам, человека, который когда-то отчаянно стремился вернуться домой.",
     ["顺序\r\n必将失控"] = "Порядок\nНеминуемо приведет к Потере Контроля",
     ["Anjela"] = "Анжела",

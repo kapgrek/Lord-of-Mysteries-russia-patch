@@ -279,7 +279,7 @@ return {
     ["Passing on the fire in the name of Tarot, only so that after the end of the world, there is still tomorrow."] = "Передавая огонь во имя Таро, лишь для того, чтобы после конца света всё ещё было завтра.",
     ["%s liked you; obtained an additional %d Leader points."] = "%s поставил вам лайк, дополнительно получено %d очков лидера отряда",
     ["Not yet the opening time for the float parade: %s"] = "Время открытия парада платформ ещё не наступило: %s",
-    ["……普通人调查失控非凡者，你应该庆幸自己还活着。但你的状态……"] = "…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. But your condition…",
+    ["……普通人调查失控非凡者，你应该庆幸自己还活着。但你的状态……"] = "…Обычному человеку расследовать Потустороннего в состоянии Потери Контроля — ты должен радоваться, что всё ещё жив. Но твоё состояние…",
     ["你为什么要杀死男爵?"] = "Зачем ты убил барона?",
     ["Brianna"] = "Брианна",
     ["像这种门，\n锁芯从来不换，\n撬开一次，\n就能打开第二次。"] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",

@@ -262,7 +262,7 @@ return {
     ["[Tarot Club · Derrick Berg] Increment 6 (250% total): +6 Max Health"] = "[Таро-клуб · Дерек Берг] Прирост 6 (всего 250%): +6 очков максимального здоровья",
     ["In the current version, only specialized Sealed Artifacts can be upgraded to \"Level 1\". Upgrades for attack and defense Sealed Artifacts will be gradually opened in subsequent versions. Please stay tuned!"] = "В текущей версии повышение уровня открыто только для специализированных Запечатанных Артефактов — до «1 уровня». Повышение уровня Запечатанных Артефактов атаки и защиты будет открываться постепенно в следующих версиях. Ждите обновлений!",
     ["It's a pity I'm old now, it's better to do less of this kind of adventurous stuff."] = "Жалко, что я постарел — лучше поменьше заниматься такими опасными вещами.",
-    ["原来如此，矫健而有力的动作下，还隐藏了利爪，这就是——猫猫大摆拳！"] = "I see, hidden beneath the agile and powerful movements are sharp claws; this is—the Cat's Great Swing!",
+    ["原来如此，矫健而有力的动作下，还隐藏了利爪，这就是——猫猫大摆拳！"] = "Вот оно что, под ловкими и мощными движениями скрываются острые когти — это же... Кошачий Могучий Взмах!",
     ["变异乌鸦"] = "Мутировавший ворон",
     ["Alexa"] = "Алекса",
     ["　　Hehe, I've got a lead! Time to reward myself with a lemon cake!"] = "　　Хе-хе, есть зацепка! Пора наградить себя кусочком лимонного торта!",

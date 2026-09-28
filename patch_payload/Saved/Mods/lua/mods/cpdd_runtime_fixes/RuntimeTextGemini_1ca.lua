@@ -266,6 +266,6 @@ return {
     ["我并不认为藏着秘密的非凡者就一定是坏蛋"] = "Я не считаю, что Потусторонний, скрывающий секреты, обязательно плохой человек.",
     ["你的姐姐？"] = "Твоя сестра?",
     ["After reaching level 39, you can create a room to start a Competition."] = "После достижения персонажем 39 уровня можно создать комнату для начала состязания.",
-    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал «Нисхождения Бога»</> в Соборе Святой Селены в Тингене, молясь о взгляде и милости господина Шута. Отправляйтесь на помощь — возможно, вы тоже получите Его благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Отправиться на помощь]</>",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

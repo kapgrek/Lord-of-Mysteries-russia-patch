@@ -260,6 +260,6 @@ return {
     ["您看上去不像是女神的信徒。"] = "Вы не похожи на верующего в богиню.",
     ["Your flag stands tall, and your team is united as one."] = "Твой флаг стоит непреклонно, а твоя команда сплочена как единое целое.",
     ["A toast to every little tavern in Tingen!"] = "Тост за каждую таверну в Тингене!",
-    ["Obtain 1 Beyonder material with {欺瞒导师} entry"] = "Obtain 1 Beyonder material with {Mentor of Deceit} entry",
+    ["Obtain 1 Beyonder material with {欺瞒导师} entry"] = "Получите 1 потустороннюю материю с меткой {Наставник обмана}",
     ["消失的幸运星-调查弗洛家"] = "Исчезающая счастливая звезда — Осмотреть дом Фло.",
 }

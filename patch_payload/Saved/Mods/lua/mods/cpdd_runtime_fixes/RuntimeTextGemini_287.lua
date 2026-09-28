@@ -259,7 +259,7 @@ return {
     ["This Club's Strategic Server ranking: <Ranking> No. %d </>, a total of <Ranking> Conquest Vanguard titles can be granted: %d </> people"] = "Рейтинг очков этого клуба на Стратегическом сервере: <Ranking>№%d</>, всего можно присвоить титул «Авангард завоевателей»: <Ranking>%d</> чел.",
     ["Is there any internal material? Just give us a copy to take home and read!"] = "Есть какие-нибудь внутренние материалы? Дайте нам экземпляр, почитать домой!",
     ["It is the hair of his late fiancée. That brave girl passed away in the Feysac War, and my client has been searching for her for many years."] = "Это волосы его покойной невесты. Та храбрая девушка погибла на Фейсакской войне, и мой клиент много лет искал её.",
-    ["……非凡物品提前崩溃，这种情况很少见。"] = "…It is rare for a Beyonder item to break down prematurely.",
+    ["……非凡物品提前崩溃，这种情况很少见。"] = "…Редко случается, чтобы Потусторонний предмет разрушился преждевременно.",
     ["Corbin"] = "Корбин",
     ["消化魔药，最有帮助的办法是?"] = "Какой способ переваривания зелья наиболее полезен?",
     ["任务自定义事件  玩家播放单句黑屏字幕  玩家发送任务道具"] = "Пользовательское событие квеста; проигрыватель воспроизводит однострочные субтитры на черном экране; игрок отправляет квестовый предмет.",

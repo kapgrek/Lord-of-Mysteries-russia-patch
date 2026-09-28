@@ -294,5 +294,6 @@ return {
     ["祈誓失败，请稍后再试。"] = "Обет не удался, попробуйте позже.",
     ["Welcome! Please pick a seat you like and sit down first!"] = "Добро пожаловать! Выберите понравившееся место и присаживайтесь!",
     ["The dock area is a lucrative spot... so many people coming and going every day."] = "Район доков — прибыльное место... каждый день столько людей приходит и уходит.",
+    ["When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week."] = "Когда Мировое Бедствие погибает, Потусторонние, участвовавшие в бою, получают награду. Награду можно получить лишь <Highlight>1 раз</> в неделю.",
     ["Altaf"] = "Альтаф",
 }

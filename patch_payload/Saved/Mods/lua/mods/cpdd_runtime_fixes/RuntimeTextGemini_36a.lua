@@ -226,7 +226,7 @@ return {
     ["May Manor Garden - Normal - Ancestor Armor Fashion Duel"] = "Сад Майской усадьбы - Обычный - Модная дуэль: Доспехи предка",
     ["Little Vera, what legend were they talking about just now?"] = "Маленькая Вера, о какой легенде они только что говорили?",
     ["Some people even threw the magazine on the ground after reading a few pages, so rude!"] = "Некоторые даже бросали журнал на землю, прочитав несколько страниц, как невежливо!",
-    ["他们是贝克兰德教区的同行，护送着封印物“2-049”过来，同时支援我们完成任务。"] = "They are colleagues from the Backlund Diocese, escorting the Sealed Artifact 2-049 here while supporting us in completing the mission.",
+    ["他们是贝克兰德教区的同行，护送着封印物“2-049”过来，同时支援我们完成任务。"] = "Они коллеги из епархии Бэкланда, сопровождают сюда Запечатанный Артефакт «2-049» и одновременно помогают нам выполнить задание.",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

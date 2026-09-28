@@ -287,6 +287,7 @@ return {
     ["It's not stuck! Ahem, as you can see, I am conducting an... experiment that pushes the limits. The circus's upcoming new act, the grand finale: 'The Human Cannonball'!"] = "Я не застрял! Кхм, как видите, я провожу... эксперимент на пределе возможностей. Новый номер, который скоро покажет цирк, — гвоздь программы «Человек-ядро»!",
     ["您还没有保存，需要保存再退出吗？"] = "Вы ещё не сохранили изменения. Сохранить перед выходом?",
     ["未设置时将按默认优先级排序"] = "Если не задано, сортировка выполняется по приоритету по умолчанию",
+    ["A stele left here by someone unknown, recording several regional locations with Beyonder powers."] = "Неизвестно кем оставленный здесь обелиск с помощью Потусторонней силы запечатлел несколько мест в этом регионе.",
     ["Winona"] = "Вайнона·",
     ["Iron Cross Street Affordable Clock and Watch Shop\n\n\"Time belongs to everyone\"\n<Mark id=\"#159_R\">Lowest price</> in all of Tingen! Cash transactions, interest on credit will be calculated separately.\nNo returns or exchanges after repair, opening the cover means accepting the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["你们要<CS_Yellow>永远</>在一起哦"] = "Вы должны <CS_Yellow>навсегда</> быть вместе.",

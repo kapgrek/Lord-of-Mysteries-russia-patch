@@ -286,6 +286,8 @@ return {
     ["They're here! They're here!"] = "Идут! Они идут!",
     ["击败超凡生物，收集猩红遗物"] = "Победите сверхъестественных существ и соберите Алые реликвии.",
     ["Hey—why are you dancing at the toilet door!"] = "Эй, ты чего танцуешь у дверей туалета!",
+    ["Rebecca is investigating the small copper mirror and has obtained clues about another Sealed Artifact, the \"Magic Mirror of Despair.\" Tingen in the Mirror is constructed by the \"Crown of Knowledge\" and is not a true mirror world."] = "Ребекка расследует маленькое бронзовое зеркало и получила зацепку о ещё одном Запечатанном Артефакте — «Зеркале отчаяния». Тинген в зеркале построен «Короной знания» и не является настоящим зеркальным миром.",
+    ["Good afternoon, my name is Angelica, the receptionist of the Divination Club."] = "Добрый день, меня зовут Анджелика, я регистратор Клуба Провидцев.",
     ["开启灵视  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放仅自己可见的说话文本"] = "Активировать Духовное Зрение  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок воспроизводит текст реплики, видимый только ему самому",
     ["Ainsley"] = "Эйнсли",
     ["<Highlight>工艺：</>流光真丝・鳞粉点染\n蝴蝶虽已在黄昏离去，蝶翼的幻影却仍停驻于披风之上。"] = "<Highlight>Мастерство: </>Струящийся шелк · Роспись чешуйчатой пыльцой\nХотя бабочка уже улетела в сумерках, фантом её крыльев всё ещё задерживается на плаще.",

@@ -265,6 +265,7 @@ return {
     ["<Assistant_Title1>【Stagnation Dodge】</>\nReduces the probability of being hit by stagnation control effects, up to a maximum reduction of half the base hit rate. This offsets the control source's Stagnation Hit Rate.\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Control Effects]|1467}"] = "<Assistant_Title1>【Уклонение от вязкости】</>\nСнижает вероятность попадания эффектов вязкости, максимум до половины базового шанса попадания. Компенсирует Точность вязкости источника контроля.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффекты контроля]|1467}",
     ["Black Thorn Incident Book 4-Level 4-Score buff"] = "Дело «Чёрный шип», Книга 4, Уровень 4 — Баф очков",
     ["您已因离开公会失去跨服战略玩法资格"] = "Вы потеряли доступ к межсерверному стратегическому режиму из-за выхода из гильдии.",
+    ["Humans who want to become Beyonders and continue on the path of the extraordinary can only rely on potions."] = "Люди, желающие стать Потусторонними и продолжать идти по пути сверхъестественного, могут полагаться только на зелья.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  玩家跨场景传送到指定Trigger"] = "Сбор ресурса с указанным TemplateID  Игрок создаёт общедоступные объекты на основе списка InstanceID (не действует в открытом мире)  Объект воспроизводит заданные реплики диалога  Игрок телепортируется между сценами к указанному Trigger",
     ["Brinley"] = "Бринли",
     ["操作失败"] = "Операция не удалась.",

@@ -283,5 +283,5 @@ return {
     ["But as long as you give me a little more capital, I'll be able to turn things around soon!"] = "Но если дать мне ещё немного капитала, я быстро смогу всё исправить!",
     ["A person so stupid they can barely walk, yet fortunate enough to be born into a wealthy family that doesn't have to worry about making a living."] = "Человек, настолько глупый, что и шагу ступить не может, но которому посчастливилось родиться в богатой семье, где не нужно беспокоиться о хлебе насущном.",
     ["Boil... add 150 milliliters of pure milk... stir..."] = "Вскипятить... добавить 150 миллилитров чистого молока... помешать...",
-    ["他果然是非凡者……而且那条<P_Yellow>领带</>还是神奇物品。"] = "He really is a Beyonder... and that <P_Yellow> necktie </> is a mystical item.",
+    ["他果然是非凡者……而且那条<P_Yellow>领带</>还是神奇物品。"] = "Он и правда Потусторонний... а тот <P_Yellow>галстук</> ещё и чудесный предмет.",
 }

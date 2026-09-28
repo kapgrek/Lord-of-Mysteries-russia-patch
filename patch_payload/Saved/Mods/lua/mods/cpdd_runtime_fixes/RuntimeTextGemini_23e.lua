@@ -238,5 +238,5 @@ return {
     ["A world for two? Hmm, perhaps... no, it's nothing."] = "Мир для двоих? Хм, возможно... нет, ничего.",
     ["It only takes ten minutes to get up, Tingen news know-it-all!"] = "Всего десять минут — и ты в курсе всех новостей Тинген!",
     ["Fate Intersection"] = "Пересечение судеб",
-    ["什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……"] = "When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate...",
+    ["什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……"] = "Когда же я наконец стану настоящим бариста? Может, после работы сходить в Клуб Провидцев и погадать…",
 }

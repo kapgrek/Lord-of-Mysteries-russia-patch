@@ -250,6 +250,7 @@ return {
     ["Since the Club has no diplomat, you cannot resign."] = "Поскольку в клубе нет дипломата, вы не можете уйти в отставку.",
     ["There are more and more patients, the hospital wards aren't enough anymore."] = "Пациентов становится всё больше, больничных палат уже не хватает.",
     ["The literature room welcomes everyone who yearns for knowledge."] = "Читальный зал рад всем, кто жаждет знаний.",
+    ["Threads of spirituality extracted from the \"gaps of history,\" entwined with countless possible fates."] = "Нити Духовности, извлечённые из «трещин истории», сплетающиеся с бесчисленными возможными судьбами.",
     ["时机如轮\r\n切记"] = "Время подобно колесу,\nпомни об этом.",
     ["Removed %s listed item(s), quantity: %d. Item(s) returned to player"] = "Снято с продажи предметов (%s): %d шт. Предметы возвращены игроку.",
 }

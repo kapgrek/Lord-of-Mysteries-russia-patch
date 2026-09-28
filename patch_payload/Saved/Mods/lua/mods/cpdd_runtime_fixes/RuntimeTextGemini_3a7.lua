@@ -259,6 +259,6 @@ return {
     ["Monster to Player Generic Marker buff"] = "Баф общего маркера монстр→игрок",
     ["Those who have been turned into apples, come over here!"] = "Те, кого превратили в яблоко, скорее сюда!",
     ["The first stage of Sword Qi has a 60% base chance to cause Knockback on hit targets."] = "Первая волна Ци меча имеет базовый шанс 60% отбросить попавшую под удар цель.",
-    ["一瓶非凡药剂，绿色的液体在瓶中缓慢流动，偶尔浮现出一些重叠的符号。"] = "A Beyonder potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols.",
+    ["一瓶非凡药剂，绿色的液体在瓶中缓慢流动，偶尔浮现出一些重叠的符号。"] = "Флакон потустороннего зелья: зелёная жидкость медленно перетекает внутри, иногда на поверхности проступают наложенные друг на друга символы.",
     ["Zanna"] = "Занна",
 }

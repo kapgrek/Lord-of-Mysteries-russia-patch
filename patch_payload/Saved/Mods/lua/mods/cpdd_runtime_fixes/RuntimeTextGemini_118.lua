@@ -266,6 +266,7 @@ return {
     ["开启所有黄铜书，普通副本全通且每场团队复活不超过3次。"] = "Откройте все Медные книги, пройдите все обычные подземелья, используя не более 3 воскрешений отряда за бой.",
     ["Transport the large stone to the yellow circle area!"] = "Доставьте большой камень в жёлтый круг!",
     ["Why did this horse suddenly get spooked and go crazy? Fortunately, I jumped off the carriage in time."] = "Почему эта лошадь вдруг взбесилась и понеслась? Хорошо, что я успел выпрыгнуть из повозки.",
-    ["他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。"] = "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Sequence 0 \"Black Emperor\".",
+    ["他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。"] = "Он продвинул промышленную революцию, изобрёл паровой двигатель и усовершенствовал множество технологий, свергнул Королевство Интис и основал Республику, позже преобразовал её в Империю и провозгласил себя «Императором Цезарем», в итоге сменил Путь и достиг Последовательности 0 «Чёрный Император».",
+    ["Alright, even if someone comes here, they won't be affected by the corruption."] = "Хорошо, теперь даже если кто-то придёт сюда, он не пострадает от скверны.",
     ["Grady"] = "Грейди",
 }

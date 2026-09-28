@@ -291,7 +291,7 @@ return {
     ["已符合赠礼要求，是否确认向<Highlight>%s</>赠送<Highlight>%s</>?"] = "Требования для подарка выполнены. Подтвердить отправку <Highlight>%s</> игроку <Highlight>%s</>?",
     ["Time of the Stars' Return"] = "Время возвращения звёзд",
     ["Increase Family level to obtain the following buffs. <Highlight> Current Family: Level %d </>"] = "Повышение уровня семьи даёт следующие бонусы. <Highlight>Текущая семья: уровень %d</>",
-    ["“猎人”们总攻前最后的休整地，充斥着战意的气息。占领后可攻击战争石碑，固定每分钟获得30点资源。"] = "The final resting place for \"Hunters\" before their all-out attack, filled with the aura of Battle Intent. After occupying it, you can Attack the War Stele to gain 30 resources every minute.",
-    ["产生治疗时，对周身大范围内的敌人造成一次伤害，此效果有2秒内置冷却。"] = "When healing is generated, deal damage to enemies in a large area around you; this effect has a 2-second internal cooldown.",
+    ["“猎人”们总攻前最后的休整地，充斥着战意的气息。占领后可攻击战争石碑，固定每分钟获得30点资源。"] = "Последнее место отдыха «Охотников» перед решающим наступлением, наполненное духом битвы. После захвата можно атаковать Военную стелу, стабильно получая 30 ресурсов в минуту.",
+    ["产生治疗时，对周身大范围内的敌人造成一次伤害，此效果有2秒内置冷却。"] = "При исцелении наносит урон всем врагам в большом радиусе вокруг себя; этот эффект имеет встроенную перезарядку в 2 сек.",
     ["监听指定场景加载完毕  玩家播放情绪音乐（仅自己可听）"] = "Ожидайте завершения загрузки указанной сцены. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

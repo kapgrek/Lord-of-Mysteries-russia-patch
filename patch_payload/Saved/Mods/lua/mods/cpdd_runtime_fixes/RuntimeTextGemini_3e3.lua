@@ -297,7 +297,7 @@ return {
     ["Unlockable after 21:20 on September 24"] = "Разблокируется после 21:20 24 сентября",
     ["Do not confirm for 4 Beyonder Affixes or lower"] = "Не запрашивать подтверждение для 4 аффиксов Потустороннего и меньше",
     ["I'm going to Raphael Cemetery; what kind of flowers should I bring?"] = "Я иду на кладбище Рафаэля; какие цветы мне взять?",
-    ["【幸运悖论】的三层灵性完全充盈，能抵挡子爵夫人的致命一击。"] = "The three layers of spirituality of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow.",
+    ["【幸运悖论】的三层灵性完全充盈，能抵挡子爵夫人的致命一击。"] = "Три слоя Духовности [Парадокса Удачи] полностью заряжены и способны отразить смертельный удар виконтессы.",
     ["播放Dialogue  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог игры: NPC уничтожает себя (не может уничтожать игроков и публичных NPC в основном мире)",
     ["与人脉完成%d/50次漫步玩法。"] = "Выполните действия %d/50 «Прогулка» с контактами.",
 }

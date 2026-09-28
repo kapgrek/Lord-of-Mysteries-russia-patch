@@ -285,4 +285,6 @@ return {
     ["Councilor, I hope you will take the lead in passing the bill on environmental protection, completely banning the use of low-quality coal by government departments."] = "Господин советник, я надеюсь, что вы возглавите принятие законопроекта об охране окружающей среды и полностью запретите использование низкокачественного угля государственными органами.",
     ["在竞技玩法中<Highlight>击败</>%s/%s名格斗学者"] = "В соревновательном режиме <Highlight>победите</>%s/%s Боевых Учёных",
     ["获得<PVPHighlight>%s</>点猎杀进度。"] = "Получено <PVPHighlight>%s</> очков прогресса охоты.",
+    ["A letter and a book entrusted by Miss Magician, to be delivered to Mr. Moon as soon as possible."] = "Письмо и книгу, доверенные госпожой «Фокусник», нужно как можно скорее передать господину «Луна».",
+    ["<P_Heart> (Maybe I can act as a clown and win him some tips...) </>"] = "<P_Heart>(Может, я смогу сыграть Клоуна и выиграть для него награду...)</>",
 }

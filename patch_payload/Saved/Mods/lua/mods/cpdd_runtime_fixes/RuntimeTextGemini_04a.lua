@@ -250,5 +250,6 @@ return {
     ["No... nothing!"] = "Ни... ничего особенного!",
     ["Which carriage do you want to take?"] = "На какой карете вы хотите поехать?",
     ["Sigh, then shall I go find your true love?"] = "Эх, тогда мне пойти найти твою настоящую любовь?",
+    ["From the students of the Tarot Club, that is, you all, I have gained much help that I once struggled to obtain, and have also unraveled many mysteries that I could not solve."] = "От учеников Таро, то есть от вас, я получил немало помощи, которую раньше тщетно искал, а также разгадал множество неразрешимых тайн.",
     ["任务自定义事件  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Пользовательское событие задачи: объект переносится в указанное место в указанной сцене (игроки поддерживают перенос между сценами, NPC может перемещаться только в одной сцене)",
 }

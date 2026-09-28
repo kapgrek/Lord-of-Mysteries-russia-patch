@@ -282,6 +282,7 @@ return {
     ["See?"] = "Вот видишь.",
     ["The other party is currently on the strategic server; temporarily unable to view."] = "Собеседник сейчас на стратегическом сервере, временно невозможно просмотреть",
     ["Daddy... Mommy... save me... I won't be willful anymore..."] = "Папа... Мама... спасите меня... я больше не буду капризничать...",
+    ["...Something happened so soon? You should indeed become a Beyonder so that you can deal with those strange and eerie events more calmly."] = "…Так быстро что-то случилось? Тебе действительно стоит стать Потусторонним, чтобы спокойнее справляться с такими странными и жуткими происшествиями.",
     ["Kaile"] = "Кайле",
     ["Set sail, great navigator Roselle Columbus Magellan Gustav, and go verify your hypothesis!"] = "Отправляйтесь в плавание, великий мореплаватель Розель Колумб Магеллан Густав, и отправляйтесь проверить свою гипотезу!",
     ["Misael"] = "Мисаэль",

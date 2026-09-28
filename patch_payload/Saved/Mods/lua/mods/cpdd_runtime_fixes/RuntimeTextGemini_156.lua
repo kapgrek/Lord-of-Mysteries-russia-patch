@@ -259,4 +259,5 @@ return {
     ["购买<h>门票</>"] = "Купить <h>билет</>",
     ["Sasrir Special Phase - self indicator mark"] = "Сасрир: особая фаза — метка-индикатор для себя",
     ["A high-level replica that will not cause Beyonder characteristics to precipitate. Please feel free to wear it."] = "Высококачественная копия, не вызывающая осаждения черт Иноходца. Носите без опасений.",
+    ["Black Thorn Event 3-Rock King-Tracking Mark-Degradation"] = "Инцидент Чёрного Шипа 3-Рок Кинг-Метка слежения-Деградация",
 }

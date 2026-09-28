@@ -272,7 +272,7 @@ return {
     ["Lamp Genie Awakening"] = "Пробуждение джинна лампы",
     ["未写完的信，从字迹可以看出，备受折磨的阿斯塔曾折磨过她的纸笔。"] = "Недописанное письмо. По почерку видно, что измученная Аста мучила и своё перо с бумагой.",
     ["He said the trains in Backlund are very long and can go all the way to the Snowy Mountain."] = "Он сказал, что поезда в Бэкланде очень длинные и могут доехать до самой Снежной горы.",
-    ["{{player.name}}刚刚完成了一次价值超过两百万的<Chat_Highlight>铁路大亨之旅</>，让我们恭喜这位非凡者，这段由谋略与运气交织而成的故事，才刚刚开始。"] = "{{player.name}} has just completed a <Chat_Highlight>Railroad Tycoon Journey</> worth over two million. Let us congratulate this Beyonder; this story, woven from strategy and luck, has only just begun.",
+    ["{{player.name}}刚刚完成了一次价值超过两百万的<Chat_Highlight>铁路大亨之旅</>，让我们恭喜这位非凡者，这段由谋略与运气交织而成的故事，才刚刚开始。"] = "{{player.name}} только что завершил(а) <Chat_Highlight>Путешествие Железнодорожного Магната</> стоимостью более двух миллионов. Поздравим этого Потустороннего — эта история, сотканная из стратегии и удачи, только начинается.",
     ["Commercial Ticket:"] = "Коммерческий билет:",
     ["……他又迟到了。<P_Heart>  (苦笑)</> 不对，是我又忘了，他已经不会来了。"] = "…Он снова опаздывает. <P_Heart> (горькая улыбка) </> Нет, я опять забыл, он больше не придет.",
     ["Samantha"] = "Саманта",

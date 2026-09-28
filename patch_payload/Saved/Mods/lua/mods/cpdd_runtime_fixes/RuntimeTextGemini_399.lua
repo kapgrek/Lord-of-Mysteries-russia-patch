@@ -287,8 +287,9 @@ return {
     ["The sober lead sheep, the shepherd of the Creator. Beneath the black robe lies the vow to protect the City of Silver, until the very end."] = "Трезвый вожак стада, пастырь Создателя. Под чёрной мантией — клятва защищать Серебряный город до самого конца.",
     ["看开点，马戏团又推了一个新节目“小猪跳圈”，说不定也很有意思呢。"] = "Не унывай, цирк выпустил новый номер «Поросёнок прыгает через обруч» — может, он окажется не менее интересным.",
     ["Your character level does not meet the level requirements for this room; unable to enter."] = "Уровень вашего персонажа не соответствует требованиям этой комнаты, вход невозможен.",
-    ["“2”级封印物，危险，须谨慎且节制地利用……"] = "\"Grade 2\" Sealed Artifact, dangerous, must be used with caution and restraint...",
-    ["【自走棋】-子爵夫人-三连斩-普攻1-新技能案例-子技能-范围Atk1"] = "[Auto Chess] - Viscountess - Triple Slash - Basic Attack 1 - New Skill Case - Sub Skill - Range Atk 1",
+    ["“2”级封印物，危险，须谨慎且节制地利用……"] = "Запечатанный Артефакт «2» степени, опасен, использовать нужно осторожно и умеренно...",
+    ["【自走棋】-子爵夫人-三连斩-普攻1-新技能案例-子技能-范围Atk1"] = "[Автошахматы]-Виконтесса-Тройной разрез-Обычная атака1-Пример нового навыка-Дочерний навык-РадиусAtk1",
+    ["…This comedy-tragedy mask is called 'Drama Master,' corresponding to the Apprentice pathway, Sequence 8, Trickmaster. After wearing the mask, the user will gain the corresponding Sequence abilities."] = "...Эта трагикомическая маска называется \"Мастер Драмы\", соответствует Пути Ученика, Последовательность 8, Трикстер. Надев маску, пользователь получает соответствующие способности Последовательности.",
     ["McKinley"] = "МакКинли",
     ["知识巨擘"] = "Гигант знаний",
 }

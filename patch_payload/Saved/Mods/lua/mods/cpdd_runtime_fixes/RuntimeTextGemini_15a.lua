@@ -229,6 +229,7 @@ return {
     ["角色等级达到39级后，可创建房间开启竞技。"] = "После достижения персонажем 39 уровня можно создать комнату для начала состязания.",
     ["You cannot delete your Covenant partner."] = "Вы не можете удалить партнёра по клятве.",
     ["两次密码不一致，请重新输入"] = "Введённые пароли не совпадают, повторите ввод",
+    ["However, many wild Beyonders are wary of them, so remember to conceal your identity."] = "Однако многие дикие Потусторонние их весьма опасаются, поэтому не забудь скрывать свою личность.",
     ["播放CutScene  延迟执行  玩家停止自己播放情绪音乐  玩家播放主线任务开始展示界面"] = "Воспроизведение CutScene, задержка выполнения, игрок перестает воспроизводить эмоциональную музыку, игрок воспроизводит основной интерфейс начала квеста",
     ["Fires two consecutive Air Cannons forward, each dealing {*d,F1690001,atkMin,15} Attack damage. When taking fatal damage for the first time in a battle, the unit becomes immune to death, clears all control effects, and enters the gray fog for <HighLight>3</> seconds: becoming Invincible and untargetable, while still being able to move and cast skills. After the gray fog ends, the unit restores all"] = "Дважды подряд стреляет вперёд из воздушной пушки, каждый выстрел наносит {*d,F1690001,atkMin,15} ед. урона от атаки. В каждом бою при первом смертельном уроне избегает гибели, снимает контроль и уходит в серый туман на <HighLight>3</> сек.: неуязвим, недоступен для выбора целью, но может двигаться и применять навыки. Когда туман рассеивается, полностью восстанавливает здоровье.",
     ["Pieces List"] = "Список фигур",

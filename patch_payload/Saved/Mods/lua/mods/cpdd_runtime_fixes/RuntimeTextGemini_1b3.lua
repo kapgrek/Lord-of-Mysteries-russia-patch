@@ -300,6 +300,7 @@ return {
     ["清醒的头羊，造主的牧者。黑袍下是守护白银城的誓言，直至终焉。"] = "Трезвый вожак стада, пастырь Создателя. Под чёрной мантией — клятва защищать Серебряный город до самого конца.",
     ["<P_Heart>（在来来往往的行人目光里表现亲昵确实令人尴尬。）</>"] = "<P_Heart>(Проявлять нежность на глазах у идущих мимо прохожих действительно неловко.)</>",
     ["Defeat the summoned extraordinary creatures and seize the <Highlight> Scarlet Relic materials </> they leave behind. Scarlet Relics can be submitted and converted into <Highlight> Conquest Prestige </>."] = "Победите призванных сверхъестественных существ и заберите оставленные ими <Highlight>материалы Алых реликвий</>. Алые реликвии можно передать и превратить в <Highlight>Репутацию завоевателя</>.",
+    ["A heavy, sturdy small box containing some strange materials: tin cans with silver patterns, test tubes filled with black powder, dark vials, and more. The materials are arranged neatly, and the box has a label that reads \"Seer Potion Materials.\""] = "Небольшая тяжёлая на вид шкатулка, в которой лежат странные материалы: оловянные банки с серебряным узором, пробирки с чёрным порошком, тёмные флаконы и прочее. Материалы аккуратно расставлены, а на шкатулке есть табличка с надписью «Материалы для Зелья Провидца».",
     ["Your \r\n per\r\nfor\r\nman\r\nce \r\nnext"] = "Тво\nи\nдаль\nней\nшие\nус\nпе\nхи",
     ["播放Dialogue  对象同场景传送"] = "Игра «Диалог». Объект телепортируется в пределах одной сцены.",
     ["Keegan"] = "Киган",

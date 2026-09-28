@@ -258,6 +258,7 @@ return {
     ["当前处于准备状态，退出房间将自动取消准备并离开房间，是否确认退出？"] = "Вы находитесь в состоянии готовности. Выход из комнаты автоматически отменит готовность и покинет комнату. Подтвердить выход?",
     ["Confirm transferring leadership to <Highlight> %s </>? After transferring, you will be appointed as a regular member."] = "Подтвердить передачу поста главы клуба <Highlight>%s</>? После передачи вы будете назначены рядовым участником.",
     ["It is recommended to lower the graphics quality when enabling high frame rate mode, otherwise it may easily cause the device to overheat and increase power consumption."] = "При включении режима высокой частоты кадров рекомендуется снизить качество графики, иначе устройство может перегреваться и увеличится расход энергии",
+    ["[May Manor] - [Believer Number One] - Phase 1 Damage Reduction Buff Removal Break"] = "[Поместье Мэй] - [Адепт №1] - Разрушение эффекта снижения урона (этап 1)",
     ["前往指定坐标交互并进入位面  玩家发送任务道具"] = "Перейдите к указанной координате, чтобы взаимодействовать и войти в самолет; игрок отправляет квестовый предмет.",
     ["Amitie"] = "дружба",
     ["多么诚实的\r\n贪婪……"] = "Как честно\nЖадность...",

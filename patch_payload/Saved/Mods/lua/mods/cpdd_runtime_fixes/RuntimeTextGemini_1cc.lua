@@ -263,5 +263,8 @@ return {
     ["Should I stack physical or magical attributes?"] = "Мне качать физические характеристики или магические?",
     ["Get out, do you want a beating too?"] = "Пошёл вон, тоже хочешь получить?",
     ["Look closely, Yi, these are Deep-Sleep Flowers and Night-Fragrance Grass."] = "Смотри внимательно, Йи, это Цветы глубокого сна и Ночная душистая трава.",
+    ["…Hey, when you borrow a Sealed Artifact, try to be nice to them… don't let them get rained on."] = "…Эй, когда будешь одалживать Запечатанный Артефакт, постарайся быть с ними подобрее… не дай им промокнуть под дождём.",
+    ["A dusty notebook recording the efforts, passion, madness... and the final ending of a certain mysticism explorer."] = "Покрытый пылью блокнот, в котором записаны усилия, страсть, безумие... и итоговая судьба некоего исследователя мистицизма.",
+    ["He used 'Kindling' to steal the corruption from an item."] = "Он с помощью \"Растопки\" похитил осквернение из одного предмета.",
     ["金狼一挥手，台下数千人同时起立。\n提线早已勒进喉咙。\n这些站起来的，已经不是人了。\n\"你们想要安全，就把意识交给我，\n这是双赢的买卖。\""] = "Цзинь Лан махнул рукой, и тысячи людей в зале одновременно встали. \nНить в горле уже перерезана. \nЭти люди, которые встали, уже не люди. \n\"Если хочешь быть в безопасности, просто отдай мне своё сознание. \nЭто беспроигрышная сделка.\"",
 }

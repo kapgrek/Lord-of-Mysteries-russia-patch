@@ -280,5 +280,6 @@ return {
     ["Unlockable after 21:20 on October 1"] = "Разблокируется после 21:20 1 октября",
     ["需要消耗 %s 金镑，当前金镑不足，是否前往充值？"] = "Требуется %s Золотых фунтов, текущих Золотых фунтов недостаточно. Перейти к пополнению?",
     ["<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>"] = "<P_Heart> (Его глаза слегка двигаются — он о чём-то думает, и разум его совершенно ясен.) </>",
-    ["不如……就按丽贝卡说的，去贝克兰德看看吧。"] = "How about... we do as Rebecca said and go to Backlund to take a look.",
+    ["A stack of yellowed manuscripts recording meditation methods for Mystery Pryers, advanced techniques for spiritual perception, and research on the Hidden Sage."] = "Стопка пожелтевших рукописей, где записаны методы медитации Жрецов Тайн, продвинутые техники восприятия Духовности, а также исследования о Скрытом Мудреце.",
+    ["不如……就按丽贝卡说的，去贝克兰德看看吧。"] = "Пожалуй... сделаем, как сказала Ребекка — съездим в Бэкланд и посмотрим.",
 }

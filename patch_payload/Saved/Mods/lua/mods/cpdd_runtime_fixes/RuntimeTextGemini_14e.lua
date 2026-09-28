@@ -286,6 +286,7 @@ return {
     ["当前场景暂不支持创建竞技之约房间。"] = "В текущей сцене создание комнаты «Договор состязания» пока не поддерживается.",
     ["Little Wish passed the government employee unified examination. I'm so happy for him..."] = "Малыш Виш сдал единый экзамен на госслужащего. Я так рада за него...",
     ["Any news from the sea?"] = "Есть новости с моря?",
+    ["《Lord of Mysteries》 is a Western fantasy novel written by the platinum author of China Literature, Cuttlefish That Loves Diving. It blends Cthulhu style, Western magical elements, the atmosphere of the First Industrial Revolution, and steampunk sentiments. This is a world of steam and machinery, and this is the legend of \"The Fool\". 《Lord of Mysteries》 is a work by the platinum author of China Literature, Cuttlefish That Loves Diving"] = "«Повелитель Тайн» — западный фэнтезийный роман, написанный платиновым Автором издательской группы Yuewen — Кальмаром, Который Любит Нырять. Он сочетает в себе стиль Лавкрафта, элементы западной магии, атмосферу эпохи первой промышленной революции и дух стимпанка. Это мир пара и механизмов, это легенда о «Шуте». «Повелитель Тайн» написан платиновым Автором издательской группы Yuewen — Кальмаром, Который Любит Нырять",
     ["不能，我们哪也不去。"] = "Нет, мы никуда не пойдем.",
     ["采集指定TemplateID的采集物  对象播放指定对白内容"] = "Собрать элементы с указанным TemplateID. Объект воспроизводит указанный диалог.",
 }

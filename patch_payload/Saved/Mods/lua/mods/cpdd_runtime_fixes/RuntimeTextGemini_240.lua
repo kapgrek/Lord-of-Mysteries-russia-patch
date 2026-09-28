@@ -272,6 +272,7 @@ return {
     ["Tarot Club · Fors: 4-person tier increment, all allies Mana recovery +0.2."] = "Клуб Таро · Форс: бонус уровня «4 игрока», вся команда +0.2 к восстановлению маны.",
     ["I was only three years old then, and I can't remember many things. I only know that since then, life at home has become increasingly difficult."] = "Тогда мне было всего три года, многого я не помню, знаю только, что с тех пор жизнь в семье становилась всё труднее.",
     ["Which one to buy..."] = "Какой же выбрать...",
-    ["【施工中】队伍中序列种类数目等于6玩家属性提升"] = "[Under Construction] Player attributes increased when the number of Sequence types in the party equals 6.",
+    ["Advancing to Sequence 8 in one year, Sequence 7 in another, and Sequence 6 in three years—that is a very talented Beyonder."] = "За год повысился до Последовательности 8, ещё через год до Последовательности 7, за три года достиг Последовательности 6 — весьма одарённый Потусторонний.",
+    ["【施工中】队伍中序列种类数目等于6玩家属性提升"] = "[В разработке] Характеристики игрока повышаются, если количество видов Последовательности в отряде равно 6",
     ["最美的玫瑰，总在暗夜绽放，总在触碰后留下无法愈合的刺痕。"] = "Самая красивая роза всегда цветет темной ночью, всегда оставляя после прикосновения неизлечимые следы шипов.",
 }

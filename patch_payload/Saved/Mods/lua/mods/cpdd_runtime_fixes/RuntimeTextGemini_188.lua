@@ -244,4 +244,5 @@ return {
     ["你的名称传遍世界，属于团长的荣耀加冕于你。"] = "Твоё имя разносится по всему миру, и слава, принадлежащая лидеру, коронует тебя.",
     ["Shop successfully locked!"] = "Магазин успешно заблокирован!",
     ["My Lord calls himself \"The Fool.\" In the past, in the present, and in the future, he is the great ruler who dominates the Spirit World, the King of Yellow and Black who wields good luck, and the beacon for every living being seeking eternity."] = "Мой Господин зовёт себя «Шутом». В прошлом, в настоящем и в будущем он — великий властитель, господствующий над Миром Духов, Король Жёлтого и Чёрного, дарующий удачу, и маяк для всякого живого существа, стремящегося к вечности.",
+    ["<Highlight>Destroy all projections as soon as possible</> to stop the Clown's research."] = "<Highlight>Как можно скорее уничтожьте все проекции,</> чтобы остановить исследования Клоуна.",
 }

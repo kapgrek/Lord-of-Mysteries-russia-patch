@@ -268,7 +268,7 @@ return {
     ["我这也是为了贝克兰德洁净的天空和清醒的空气，议员大人深谋远虑，肯定能够明白在下的一片苦心。"] = "Я делаю это ради чистого неба и свежего воздуха Бэкланда. Господин советник — человек предусмотрительный, он наверняка поймёт мои старания.",
     ["The weekly income member limit of 10 has been reached during the Strategic Server period. The quota will refresh on Monday at 8:00."] = "Во время Стратегического сервера еженедельный лимит участников по доходу (10 человек) достигнут. Количество мест обновится в понедельник в 8:00.",
     ["I hope this warehouse has good things in it; if I sell them, I should be able to pay off Swain's usury."] = "Надеюсь, на этом складе найдётся что-то хорошее — если я это продам, смогу расплатиться с лихвой Свейна.",
-    ["【超凡生物】棋子造成的伤害提高<HighLight>20%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>10%</>伤害减免。"] = "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>20%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>10%</> Damage Reduction.",
+    ["【超凡生物】棋子造成的伤害提高<HighLight>20%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>10%</>伤害减免。"] = "[Сверхъестественное существо] урон, наносимый фигурами, повышается на <HighLight>20%</>; после участия в <HighLight>4</> раундах боя с игроками дополнительно получает <HighLight>10%</> снижения урона.",
     ["笨蛋加入灰雾以北，本喵给一次喵∽"] = "Шут присоединяется к Северу Серого Тумана, это мяу даст одно мяу ∽",
     ["香浓丝滑的焦糖布丁，细腻口感，甜蜜享受。"] = "Насыщенный и шелковистый карамельный пудинг, нежная текстура, сладкое наслаждение.",
 }

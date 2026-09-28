@@ -284,6 +284,7 @@ return {
     ["Currently in ready state. Exiting the room will automatically cancel ready and leave the room. Confirm exit?"] = "Вы находитесь в состоянии готовности. Выход из комнаты автоматически отменит готовность и покинет комнату. Подтвердить выход?",
     ["将大石块运送到黄圈范围内！"] = "Доставьте большой камень в жёлтый круг!",
     ["I remember Arnold's foster parents mentioned that he seemed to particularly like a certain kind of bread?"] = "Помню, приёмные родители Арнольда упоминали, что ему особенно нравился какой-то определённый вид хлеба?",
+    ["The three layers of spirituality of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow."] = "Три слоя Духовности [Парадокса Удачи] полностью заряжены и способны отразить смертельный удар виконтессы.",
     ["Eliana"] = "Элиана ·",
     ["Sound effect [%s] does not have corresponding lua configuration information generated yet. Please run the script locally to generate it\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat"] = "Для звукового эффекта [%s] ещё не сгенерирована соответствующая конфигурация Lua. Запустите скрипт локально для её создания:\n //C7/Development/Mainline/Tools/WwiseTools/ProcessAudioResource/ProcessAudioResource.bat",
     ["Bryson"] = "Брайсон",

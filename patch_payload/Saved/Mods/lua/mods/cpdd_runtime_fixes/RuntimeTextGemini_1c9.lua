@@ -303,5 +303,6 @@ return {
     ["滑梯？天哪，我可不去！"] = "Горка? Боже, я туда не пойду!",
     ["Isn't it obvious? I'm fishing."] = "Разве не очевидно? Я рыбачу.",
     ["Report Button on Club Application List"] = "Кнопка жалобы на экране списка заявок в клуб",
+    ["The magician who lost her Tarot cards"] = "Фокусник, потерявшая карты Таро",
     ["Ronan"] = "Ронан",
 }

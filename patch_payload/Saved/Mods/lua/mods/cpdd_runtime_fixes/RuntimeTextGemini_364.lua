@@ -266,6 +266,7 @@ return {
     ["治疗公式"] = "Формула исцеления",
     ["The dark brown liquid rolls with coarse foam, the malt aroma mixed with a smoky scent, leaving a lingering sweetness in the mouth after swallowing."] = "Тёмно-коричневая жидкость покрыта крупной пеной, солодовый аромат смешивается с дымным запахом, оставляя во рту лёгкую сладость после глотка.",
     ["A note left by Suliya, with some transparent traces of shortening stained on the edges."] = "Записка, оставленная Сулией, на краях которой видны прозрачные следы от выпечного жира.",
-    ["一位热心的传奇非凡者，随便编个故事就能骗去帮忙，还从不失手。"] = "A helpful legendary Beyonder—you can make up any story to trick them into helping, and it works every time.",
+    ["…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. Let me check your condition."] = "…Обычному человеку расследовать Потустороннего в состоянии Потери Контроля — ты должен радоваться, что всё ещё жив. Дай мне взглянуть на твоё состояние.",
+    ["一位热心的传奇非凡者，随便编个故事就能骗去帮忙，还从不失手。"] = "Отзывчивый легендарный Потусторонний — придумай любую историю, и его можно обмануть, чтобы он помог, причём безотказно.",
     ["播放Dialogue  切换HUD顶栏显示模式"] = "Игра «Диалог». Переключить режим отображения верхней панели HUD.",
 }
