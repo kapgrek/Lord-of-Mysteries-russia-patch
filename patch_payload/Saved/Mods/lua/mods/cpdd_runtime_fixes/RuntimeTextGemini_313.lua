@@ -58,7 +58,6 @@ return {
     ["Figure out the situation"] = "Разберитесь в ситуации",
     ["Calm Emotions"] = "Спокойные эмоции",
     ["Perform 1 Requiem or Charm"] = "Выполните 1 Реквием или Заклинание.",
-    ["Hero Outer City 3 Material"] = "Материалы Hero Outer City 3",
     ["Examine the other crystal balls."] = "Осмотрите другие хрустальные шары.",
     ["Simultaneous occupation, simultaneous occupation, simultaneous occupation"] = "Одновременная оккупация, одновременная оккупация, одновременная оккупация",
     ["Moral Rapier"] = "Рапира морали",

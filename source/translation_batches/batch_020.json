@@ -5712,12 +5712,6 @@
     "target_ru": "【Точка】Матч начинается"
   },
   {
-    "id": "095957",
-    "source_cn": "【秘偶技】星之虫-日冕裁决",
-    "ref_en": "[Marionette Skill] Worm of Star - Corona Verdict",
-    "target_ru": "[Марионетка Skill] Worm of Star - Corona Verdict"
-  },
-  {
     "id": "095958",
     "source_cn": "三眼乌鸦释放致命打击，保持移动！",
     "ref_en": "The Three-Eyed Crow releases a fatal blow; keep moving!",
@@ -7318,12 +7312,6 @@
     "source_cn": "【增强】每次普攻获得<HighLight>7%</>攻速，最多叠加<HighLight>10</>次。",
     "ref_en": "[Enhanced] Each basic attack grants <HighLight>7%</> Attack Speed, stacking up to <HighLight>10</> times.",
     "target_ru": "[Улучшенное] Каждая базовая атака увеличивает скорость атаки <HighLight>7%</>, суммируясь до <HighLight>10</> раз."
-  },
-  {
-    "id": "096225",
-    "source_cn": "【秘偶技】子爵夫人幽灵",
-    "ref_en": "[Marionette Skill] Viscountess Ghost",
-    "target_ru": "[Марионетка Skill] Viscountess Ghost"
   },
   {
     "id": "096226",
@@ -11244,12 +11232,6 @@
     "target_ru": "...Извини, покупатель, мы только что распродали билеты. Определенно в следующий раз."
   },
   {
-    "id": "096882",
-    "source_cn": "【秘偶技】命运湍流-白",
-    "ref_en": "[Marionette Skill] Fate Turbulence - White",
-    "target_ru": "[Марионетка Skill] Fate Turbulence - White"
-  },
-  {
     "id": "096883",
     "source_cn": "【音符】中央区-唱词2-1",
     "ref_en": "[Note] Central Area - Lyrics 2-1",
@@ -14206,12 +14188,6 @@
     "source_cn": "这就是我们的宿命，这就是神的旨意……",
     "ref_en": "This is our fate; this is the will of God...",
     "target_ru": "Это наша судьба; это воля Божия..."
-  },
-  {
-    "id": "097378",
-    "source_cn": "金梧桐大道马车站脚踏车黄",
-    "ref_en": "Golden Indus Avenue Carriage Station Bicycle (Yellow)",
-    "target_ru": "Велосипед Golden Indus Avenue Carriage Station (желтый)"
   },
   {
     "id": "097379",
@@ -20352,12 +20328,6 @@
     "target_ru": "[В разработке] Советы по фазовому отклику"
   },
   {
-    "id": "098406",
-    "source_cn": "【秘偶技】隐匿刺击LV3",
-    "ref_en": "[Marionette Skill] Hidden Stab LV3",
-    "target_ru": "[Марионетка Skill] Hidden Stab LV3"
-  },
-  {
     "id": "098408",
     "source_cn": "【音符】中央区-唱词2-2",
     "ref_en": "[Note] Central District - Lyrics 2-2",
@@ -26362,12 +26332,6 @@
     "source_cn": "【浅见】明灯的护盾结束时造成一次爆炸，对护盾周围至多2个目标造成伤害。",
     "ref_en": "[Insight] When the Beacon's Shield ends, it causes an Explosion, dealing damage to up to 2 targets around the Shield.",
     "target_ru": "[Проницательность] Когда действие Щита Маяка заканчивается, происходит взрыв, наносящий урон максимум 2 целям вокруг Щита."
-  },
-  {
-    "id": "099411",
-    "source_cn": "【秘偶技】隐匿刺击LV1",
-    "ref_en": "[Marionette Skill] Hidden Stab LV1",
-    "target_ru": "[Марионетка Skill] Hidden Stab LV1"
   },
   {
     "id": "099412",

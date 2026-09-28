@@ -71,7 +71,6 @@ return {
     ["<Suit>Dungeon</> Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon Equipment build Dungeon"] = "<Suit>Подземелье</> Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Строительство оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелье Сборка оборудования Подземелья Сборка оборудования Подземелья",
     ["Shimmering"] = "Мерцающий",
     ["Round %s participants %s"] = "Участники раунда %s %s",
-    ["[LV5] [Marionette Skill] Tracking Magic Bullet - Summon"] = "[LV5] [Марионетка Skill] Tracking Magic Bullet - Summon",
     ["Auto Chess - Sylvia Inner Circle (3-Star)"] = "Автошахматы — Внутренний круг Сильвии (3 звезды)",
     ["Add..."] = "Добавлять...",
     ["Gather to share the damage of the knight's charge!"] = "Соберитесь, чтобы разделить урон от рыцарского натиска!",

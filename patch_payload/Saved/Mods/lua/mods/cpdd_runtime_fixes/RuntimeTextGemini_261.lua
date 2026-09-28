@@ -44,7 +44,6 @@ return {
     ["And some other intelligence, some things about your partners."] = "И еще кое-какие сведения, кое-что о ваших партнерах.",
     ["But for now, you need to get a good, sound sleep."] = "Но сейчас тебе нужно хорошо выспаться.",
     ["Obtained Extraordinary Affix %s\n, saved to history."] = "Получено свойство Потустороннего: %s\nСохранено в истории свойств.",
-    ["【Collect】Divination confirms safety"] = "【Collect】Гадание confirms safety",
     ["5231044 Mysterious Space Single-Player Instance"] = "5231044 Экземпляр Mysterious Space для одиночной игры",
     ["Plan description about sixty chars plan description about sixty chars plan plan description about sixty chars plan description about sixty chars plan description about sixty chars"] = "Описание плана, около шестидесяти символов Описание плана, около шестидесяти символов Описание плана, около шестидесяти символов Описание плана, около шестидесяти символов Описание плана, около шестидесяти символов",
     ["Enemy Score"] = "Оценка врага",

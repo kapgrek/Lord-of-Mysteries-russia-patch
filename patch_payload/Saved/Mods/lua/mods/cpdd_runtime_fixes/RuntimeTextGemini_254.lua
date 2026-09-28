@@ -90,7 +90,6 @@ return {
     ["<P_Heart>（喂，大帝，你的节操呢……）</>"] = "<P_Heart> (Эй, Император, где твоя честность...) </>",
     ["<P_Heart>（大家似乎都在想着什么……）</>"] = "<P_Heart>(Кажется, все о чем-то думают...)</>",
     ["Actor1近景"] = "Актер1 Крупным планом",
-    ["Obtain 1 Beyonder material with <风眷者> trait"] = "Obtain 1 Потусторонний material with <Wind-Blessed> trait",
     ["“南威尔海滩的贝壳吟唱”"] = "«Пение ракушек на пляже Саут-Уилл»",
     ["【任务NPC】波特-屏障"] = "[Квестовый NPC] Поттер-Барьер",
     ["【副本测试】90级属性-中R"] = "[Тест в подземелье] Статистика 90-го уровня – средний расход",
@@ -299,5 +298,6 @@ return {
     ["<Assistant_Title1>Initiating Hostilities</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Faction\n<Assistant_Title2>Unlock Condition: </>Successfully initiate a club declaration of war as a president 1 time."] = "<Assistant_Title1>Начало военных действий</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Успешно инициировать объявление войны клуба в качестве президента 1 раз.",
     ["<Assistant_Title1>Strongest of the Sequence</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Reach the #1 spot for this profession on the battle merit leaderboard."] = "<Assistant_Title1>Сильнейший в Последовательности</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Занять 1-е место своей профессии в рейтинге боевой заслуги.",
     ["The driven will has departed, but the majestic Bark still echoes. \n The loyal eyes are still watching; are this year's apples fragrant?"] = "Неукротимая воля ушла, но величавый лай всё ещё раздаётся эхом. \n Верные глаза всё ещё смотрят; ароматны ли в этом году яблоки?",
+    ["Obtain 1 Beyonder material with <风眷者> trait"] = "Obtain 1 Beyonder material with <Wind-Blessed> trait",
     ["监听关闭阅读界面  玩家播放仅自己可见的说话文本  延迟执行"] = "Прослушивание интерфейса чтения при закрытии. Плеер воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",
 }

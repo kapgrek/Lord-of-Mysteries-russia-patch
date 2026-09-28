@@ -216,7 +216,6 @@ return {
     ["Attempting divination..."] = "Попытка гадания...",
     ["Actually, I'm just passing by"] = "На самом деле я просто прохожу мимо",
     ["Pistol Aiming Shot - Headshot Resolution"] = "Прицельный выстрел из пистолета — разрешение выстрела в голову",
-    ["Enterprise WeChat Follow Gift"] = "Предприятие WeChat Follow Gift",
     ["Was the battle intense?"] = "Была ли битва напряженной?",
     ["Mist Line Chapter 5 Collectible"] = "Линия тумана, глава 5, коллекционная",
     ["Path 5"] = "Путь 5",

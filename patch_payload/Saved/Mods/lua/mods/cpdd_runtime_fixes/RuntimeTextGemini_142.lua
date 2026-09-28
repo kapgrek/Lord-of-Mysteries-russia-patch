@@ -170,7 +170,6 @@ return {
     ["But I haven't even set up the ladder yet!"] = "Но я еще даже лестницу не установил!",
     ["Have you seen a big black and white dog? Vina went out to play two days ago and never came back..."] = "Вы видели большую черно-белую собаку? Вина ушла играть два дня назад и не вернулась...",
     ["Attempt to pick the lock"] = "Попытка взломать замок",
-    ["5230043 Iron Dragon Bar Back Alley Plane"] = "5230043 Самолет Iron Dragon Bar Back Alley",
     ["Samira "] = "Самира",
     ["Jump to specified GVG stage"] = "Перейти к указанному этапу GVG",
     ["Battle Intent Ignited"] = "Боевое намерение воспламенилось",

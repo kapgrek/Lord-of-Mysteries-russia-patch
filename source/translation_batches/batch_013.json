@@ -810,12 +810,6 @@
     "target_ru": "В момент окончания действия эффекта «Электрифицированное тело» цель гарантированно получит один урон от молнии. Если цель — монстр, наносимый урон увеличивается на 75%."
   },
   {
-    "id": "060135",
-    "source_cn": "成就-小诡书旅行博主",
-    "ref_en": "Achievement - Little Mystery Book Travel Blogger",
-    "target_ru": "Достижение - Little Mystery Book Travel Blogger"
-  },
-  {
     "id": "060136",
     "source_cn": "我也这么觉得，也许那些童话传说都是从这个时空传到我们的世界中的。",
     "ref_en": "I think so too. Perhaps those fairy tales and legends were all transmitted from this time and space to our world.",
@@ -3264,12 +3258,6 @@
     "target_ru": "Джованни"
   },
   {
-    "id": "060545",
-    "source_cn": "纯露组摆件1",
-    "ref_en": "Pure Dew Group ornament 1",
-    "target_ru": "Орнамент Pure Dew Group 1"
-  },
-  {
     "id": "060546",
     "source_cn": "纺织工人",
     "ref_en": "Textile worker",
@@ -3460,12 +3448,6 @@
     "source_cn": "5200051   水仙花街2号   副本",
     "ref_en": "5200051 2 Daffodil Street Instance",
     "target_ru": "5200051 Экземпляр 2 Улица Нарциссов"
-  },
-  {
-    "id": "060578",
-    "source_cn": "5231171   王星贻个人测试位面   单人位面",
-    "ref_en": "5231171 Wang Xingyi Personal Test Instance - Single-player Instance",
-    "target_ru": "5231171 Одиночное измерение: Wang Xingyi Personal Test Instance"
   },
   {
     "id": "060579",
@@ -5082,12 +5064,6 @@
     "target_ru": "...Действительно? Ты спас меня, я... доверяю тебе."
   },
   {
-    "id": "060848",
-    "source_cn": "【秘偶技】幻化身形2段",
-    "ref_en": "[Marionette Skill] Phantom Form 2nd Stage",
-    "target_ru": "[Марионетка Skill] Phantom Form 2nd Stage"
-  },
-  {
     "id": "060849",
     "source_cn": "【触发点】百里挑蛋",
     "ref_en": "【Trigger Point】 One in a hundred eggs",
@@ -5886,12 +5862,6 @@
     "target_ru": "[Тест] Разработка в один клик 20 уровня кит"
   },
   {
-    "id": "060982",
-    "source_cn": "【秘偶技】星之虫-放逐-终结",
-    "ref_en": "[Marionette Skill] Worm of Star - Exile - Finish",
-    "target_ru": "[Марионетка Skill] Worm of Star - Exile - Finish"
-  },
-  {
     "id": "060983",
     "source_cn": "【竞技】神选荣耀",
     "ref_en": "【Competition】God's Chosen Glory",
@@ -5914,12 +5884,6 @@
     "source_cn": "上面写着……收件人：亲爱的儿子霍华德·金。",
     "ref_en": "It says... Recipient: Dear son Howard King.",
     "target_ru": "Там написано... Получатель: Дорогой сын Говард Кинг."
-  },
-  {
-    "id": "060987",
-    "source_cn": "不再流浪的期许·污染",
-    "ref_en": "Expectant No Longer Wandering - Corruption",
-    "target_ru": "Expectant No Longer Wandering - Искажение"
   },
   {
     "id": "060988",
@@ -8146,12 +8110,6 @@
     "source_cn": "<P_Heart>（至于猎龙帮……）</>",
     "ref_en": "<P_Heart> (As for the Dragon Hunter Gang...) </>",
     "target_ru": "<P_Heart> (Что касается банды охотников на драконов...) </>"
-  },
-  {
-    "id": "061359",
-    "source_cn": "GTA连环杀手筛选祭品npc",
-    "ref_en": "GTA Serial Killer Filter Sacrifice NPC",
-    "target_ru": "GTA Serial Killer Filter NPC-жертва"
   },
   {
     "id": "061360",
@@ -11398,12 +11356,6 @@
     "source_cn": "花海马车夫",
     "ref_en": "Flower Sea Carriage Driver",
     "target_ru": "Водитель цветочной морской кареты"
-  },
-  {
-    "id": "061902",
-    "source_cn": "英雄外城3材料",
-    "ref_en": "Hero Outer City 3 Material",
-    "target_ru": "Материалы Hero Outer City 3"
   },
   {
     "id": "061903",
@@ -18702,12 +18654,6 @@
     "target_ru": "Лепестковый шепот"
   },
   {
-    "id": "063122",
-    "source_cn": "苹果骑士冲锋表现",
-    "ref_en": "Apple Knight Charge Performance",
-    "target_ru": "Производительность Apple Knight Charge"
-  },
-  {
     "id": "063123",
     "source_cn": "获得枯叶蝶时装解锁",
     "ref_en": "Unlocked upon obtaining the Dead Leaf Butterfly outfit",
@@ -20538,12 +20484,6 @@
     "target_ru": "%s использовал командный навык <PVPHighlight> Телепортация </>."
   },
   {
-    "id": "063429",
-    "source_cn": "5231174   王星贻个人测试位面   单人位面",
-    "ref_en": "5231174 Wang Xingyi Personal Test Instance - Single-player Instance",
-    "target_ru": "5231174 Одиночное измерение: Wang Xingyi Personal Test Instance"
-  },
-  {
     "id": "063430",
     "source_cn": "<Assistant_Title1>【Mail】</>\\n<Assistant_Title2>Mail Instructions: </>\\n1. Click the <Assistant_System>Social - Mail</> icon in the bottom left of the main interface, or the <Assistant_System>Menu - Mail</> sidebar in the top right to open your mailbox.\\n2. Click the star icon to bookmark mail; bookmarked mail goes to the Favorites folder. Mail in Favorites is permanent and can be viewed unless manually cleared (attachments cannot be bookmarked).\\n3. Mail can only be sent by the system or a Club; for communication with friends, use <Assistant_System>Chat</>.\\n<Assistant_Title2>Attachment Instructions: </>\\n1. The mailbox has a capacity limit; mail exceeding this limit will be <Assistant_Red>automatically cleared</>. Please claim your mail promptly.\\n2. Some mail has an <Assistant_Red>expiration date</>; after this time, it will <Assistant_Red>be impossible to claim</>. Please check your mail promptly.\\n3. Once deleted, mail <Assistant_Red>cannot be recovered</> (bookmarked mail can still be viewed in the Favorites folder after deletion).\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[俱乐部群发邮件]|501}",
     "ref_en": "<Assistant_Title1>【Mail】</>\\n<Assistant_Title2>Mail Instructions: </>\\n1. Click the <Assistant_System>Social - Mail</> icon in the bottom left of the main interface, or the <Assistant_System>Menu - Mail</> sidebar in the top right to open your mailbox.\\n2. Click the star icon to bookmark mail; bookmarked mail goes to the Favorites folder. Mail in Favorites is permanent and can be viewed unless manually cleared (attachments cannot be bookmarked).\\n3. Mail can only be sent by the system or a Club; for communication with friends, use <Assistant_System>Chat</>.\\n<Assistant_Title2>Attachment Instructions: </>\\n1. The mailbox has a capacity limit; mail exceeding this limit will be <Assistant_Red>automatically cleared</>. Please claim your mail promptly.\\n2. Some mail has an <Assistant_Red>expiration date</>; after this time, it will <Assistant_Red>be impossible to claim</>. Please check your mail promptly.\\n3. Once deleted, mail <Assistant_Red>cannot be recovered</> (bookmarked mail can still be viewed in the Favorites folder after deletion).\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Club Mass Mail]|501}",
@@ -21334,12 +21274,6 @@
     "source_cn": "“火种”曾属于我的一位朋友……",
     "ref_en": "“Fire Seed” once belonged to a friend of mine……",
     "target_ru": "«Огненное семя» когда-то принадлежало моему другу…"
-  },
-  {
-    "id": "063562",
-    "source_cn": "【自走棋】邓恩-灵性共鸣",
-    "ref_en": "[Auto-Chess] Dunn - Spirituality Resonance",
-    "target_ru": "[Auto-Chess] Dunn - Духовность Resonance"
   },
   {
     "id": "063563",
@@ -22804,12 +22738,6 @@
     "source_cn": "科恩黎·循声玩法",
     "ref_en": "Cornelius - Sound-tracking Gameplay",
     "target_ru": "Корнелиус - Звуковое сопровождение игрового процесса"
-  },
-  {
-    "id": "063809",
-    "source_cn": "窥秘人-肉鸽BD-真理裂隙",
-    "ref_en": "Mystery Pryer - Roguelike BD - Rift of Truth",
-    "target_ru": "Тайноведец - Roguelike BD - Rift of Truth"
   },
   {
     "id": "063810",
@@ -26856,12 +26784,6 @@
     "target_ru": "[Заполнитель] Клейн и Деррик держали меч; Рука Деррика слегка дрожала. Он издал сдержанный всхлип и, сопровождаемый вспышкой молнии в небе, вонзил меч в злого духа своих родителей."
   },
   {
-    "id": "064488",
-    "source_cn": "【介绍途径、序列的cs】",
-    "ref_en": "[CS for introducing pathways and Sequences]",
-    "target_ru": "[CS for introducing pathways and Последовательностьs]"
-  },
-  {
     "id": "064490",
     "source_cn": "不、不用了，我只是陪同他来的。",
     "ref_en": "No, no need, I'm just accompanying him.",
@@ -28680,12 +28602,6 @@
     "target_ru": "Уволить <h>бездомного ребенка Moss</>"
   },
   {
-    "id": "064793",
-    "source_cn": "打开<Highlight>城市暗面</>。",
-    "ref_en": "Open <Highlight>City Dark Side</>.",
-    "target_ru": "Откройте <Highlight>City Dark Side</>."
-  },
-  {
     "id": "064794",
     "source_cn": "护甲增加",
     "ref_en": "Armor Increase",
@@ -29740,12 +29656,6 @@
     "source_cn": "邓恩马车吓人对话",
     "ref_en": "Dunn carriage scary dialogue",
     "target_ru": "Карета Данна, страшный диалог"
-  },
-  {
-    "id": "064970",
-    "source_cn": "金梧桐大道马车站脚踏车蓝",
-    "ref_en": "Golden Indus Avenue Carriage Station Bicycle (Blue)",
-    "target_ru": "Велосипед Golden Indus Avenue Carriage Station (синий)"
   },
   {
     "id": "064971",

@@ -170,7 +170,6 @@ return {
     ["<P_Heart>(\"Dreams come true\"?)</>"] = "<P_Heart>(\"Мечты сбываются\"?)</>",
     ["Curtis "] = "Кертис",
     ["Channel is full; unable to follow."] = "Канал переполнен; не в состоянии следовать.",
-    ["[Marionette Skill] Worm of Star - Sunset Hurricane"] = "[Марионетка Skill] Worm of Star - Sunset Hurricane",
     ["<Assistant_Title1>【First Vow】</>\n<Assistant_Title2>Description: </>Character creation hairstyle.\n<Assistant_Title2>Usage: </>Obtain First Vow after character creation. You can view and equip it by clicking <Assistant_System>Appearance - Outfits</>.\n<Assistant_Title2>Acquisition: </>Choose one hairstyle during character creation; remaining hairstyles can be obtained later via <Assistant_System>Shop</>."] = "<Assistant_Title1>【Первая клятва】</>\n<Assistant_Title2>Описание: </>Причёска при создании персонажа\n<Assistant_Title2>Использование: </>После создания персонажа вы получите причёску «Первая клятва». Нажмите <Assistant_System>Внешний вид — Смена наряда</>, чтобы просмотреть и примерить.\n<Assistant_Title2>Получение: </>При создании персонажа можно выбрать одну причёску; остальные причёски можно приобрести позже в <Assistant_System>магазине</>.",
     ["How does favorability increase?"] = "Как увеличивается благосклонность?",
     ["She didn't say where the tea party was, she only left this brooch behind."] = "Она не сказала, где было чаепитие, оставила только эту брошь.",

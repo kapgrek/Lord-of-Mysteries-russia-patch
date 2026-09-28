@@ -215,7 +215,6 @@ return {
     ["Representation Track ID"] = "Идентификатор отслеживания представления",
     ["Crimson Moon Crown-Corrosion"] = "Коррозия Короны Багровой Луны",
     ["There is no Evil Spirit."] = "Злого Духа нет.",
-    ["[Marionette Skill] Worm of Star - Spinning Slash"] = "[Марионетка Skill] Worm of Star - Spinning Slash",
     ["Pete Footprint 2"] = "След Пита 2",
     ["Believer Number One"] = "Верующий номер один",
     ["300 stone pillars"] = "300 каменных столбов",

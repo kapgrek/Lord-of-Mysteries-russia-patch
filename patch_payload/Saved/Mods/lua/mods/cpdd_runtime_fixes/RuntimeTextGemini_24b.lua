@@ -74,7 +74,6 @@ return {
     ["Slow 20%"] = "Медленно 20%",
     ["Boss, it's bad! R-Riel brother is in trouble!"] = "Босс, это плохо! Брат Р-Риэль в беде!",
     ["A bouquet made of evening primroses; the Goddess will surely love it."] = "Букет из вечерних примул; Богине это наверняка понравится.",
-    ["[Marionette Skill] Worm of Star - Exile - Finish"] = "[Марионетка Skill] Worm of Star - Exile - Finish",
     ["Welcome <h>Benson</> home"] = "Добро пожаловать домой, <h>Бенсон</>",
     ["Musician 1"] = "Музыкант 1",
     ["Corrupted rules are the ladder to chaos."] = "Испорченные правила — это лестница к хаосу.",

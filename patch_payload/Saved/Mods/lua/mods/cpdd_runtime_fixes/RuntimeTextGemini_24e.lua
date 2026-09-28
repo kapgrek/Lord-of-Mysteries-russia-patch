@@ -206,7 +206,6 @@ return {
     ["This shadow overlap consumed a cultivated Sealed Artifact, returning %d containment crystals."] = "Это перекрытие теней поглотило культивированный Запечатанный Артефакт, вернув сдерживающие кристаллы %d.",
     ["Reality Line Chapter 5 - Magic Mirror Barrier effect"] = "Линия реальности Глава 5 — Эффект магического зеркального барьера",
     ["[8] Deep Text Board"] = "[8] Доска глубокого текста",
-    ["Old London Noble Courtyard Restaurant"] = "Ресторан Old London Noble Courtyard",
     ["Recall Level 10"] = "Вспомнить уровень 10",
     ["Don't move! Your bone might be broken; moving around will make it worse!"] = "Не двигайся! Ваша кость может быть сломана; переезд сделает еще хуже!",
     ["The tuition is still a bit expensive."] = "Стоимость обучения все еще немного дорогая.",

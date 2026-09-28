@@ -59,7 +59,6 @@ return {
     ["Hint: Share AOE"] = "Подсказка: поделитесь АОЕ",
     ["Why sell the costumes?"] = "Зачем продавать костюмы?",
     ["First Day Gift Pack"] = "Подарочный набор на первый день",
-    ["5231171 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231171 Одиночное измерение: Wang Xingyi Personal Test Instance",
     ["May beauty and fragrance favor you."] = "Пусть красота и аромат благоприятствуют вам.",
     ["A Heart-Stirring Future - Leonard pats on the shoulder"] = "Душераздирающее будущее - Леонард похлопывает по плечу",
     ["Continuous Percentage Damage"] = "Непрерывный процентный урон",

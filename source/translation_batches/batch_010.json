@@ -7038,12 +7038,6 @@
     "target_ru": "<P_Heart> (ярко смеется) </> Ха-ха, сколько бы у тебя ни было денег, все равно нужно тщательно планировать! Каждая монета должна быть потрачена там, где она того стоит."
   },
   {
-    "id": "046175",
-    "source_cn": "Obtain 1 Beyonder material with <神明之手> trait",
-    "ref_en": "Obtain 1 Beyonder material with <Hand of God> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Hand of God> trait"
-  },
-  {
     "id": "046176",
     "source_cn": "[未识别的语音]",
     "ref_en": "[Unrecognized voice]",
@@ -10416,12 +10410,6 @@
     "target_ru": "[Эффект] Туман 4"
   },
   {
-    "id": "046740",
-    "source_cn": "【秘偶技】星之虫-日暮飓风",
-    "ref_en": "[Marionette Skill] Worm of Star - Sunset Hurricane",
-    "target_ru": "[Марионетка Skill] Worm of Star - Sunset Hurricane"
-  },
-  {
     "id": "046741",
     "source_cn": "【采集】埃莉诺",
     "ref_en": "【Collection】Eleanor",
@@ -12042,12 +12030,6 @@
     "target_ru": "5230024 Измерение: Квартира Франки"
   },
   {
-    "id": "047012",
-    "source_cn": "5231183   沈倩芸个人测试位面   单人位面",
-    "ref_en": "5231183 Shen Qianyun Personal Test Instance - Single-player Instance",
-    "target_ru": "5231183 Одиночное измерение: Shen Qianyun Personal Test Instance"
-  },
-  {
     "id": "047013",
     "source_cn": "<Assistant_Title1>【六只鸽子】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>扮演故事</>\\n<Assistant_Title2>任务描述：</>廷根街头有个疯疯癫癫的老太太，总是说绅士的帽子里有鸽子……\\n<Assistant_Title2>领取方式：</>晋升至序列7，前往{Location:[廷根(890,775)]|-11029;-22567;-1284;2;5200002;0}处，与<Assistant_Red>老妇人</>对话接取任务。\\n<Assistant_Title2>任务奖励</>：认知经验、世界冒险秘宝进度、冒险勋章、发票单据",
     "ref_en": "<Assistant_Title1>【Six Pigeons】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Acting Story</>\\n<Assistant_Title2>Quest Description: </>There is a crazy old lady on the streets of Tingen who always says there are pigeons in a gentleman's hat...\\n<Assistant_Title2>How to Accept: </>Advance to Sequence 7, go to {Location:[Tingen(890,775)]|-11029;-22567;-1284;2;5200002;0}, and speak with the <Assistant_Red>Old Woman</> to accept the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, World Adventure Treasure Progress, Adventure Medal, Invoices",
@@ -12118,12 +12100,6 @@
     "source_cn": "上面是什么地方？",
     "ref_en": "What is that place above?",
     "target_ru": "Что это за место наверху?"
-  },
-  {
-    "id": "047025",
-    "source_cn": "不甘命运的复仇·污染",
-    "ref_en": "Revenge Against Fate - Corruption",
-    "target_ru": "Revenge Against Fate - Искажение"
   },
   {
     "id": "047026",
@@ -18396,12 +18372,6 @@
     "target_ru": "<P_Heart>(Смотрит вверх и вниз)</> Ты здесь прорицатель? Какими гаданиями вы занимаетесь?"
   },
   {
-    "id": "048077",
-    "source_cn": "GTA-机械造物-机制脑袋找躯干",
-    "ref_en": "GTA-Mechanical Creation-Mechanism Head Finds Torso",
-    "target_ru": "GTA-Mechanical Creation-Mechanism Head находит туловище"
-  },
-  {
     "id": "048078",
     "source_cn": "LuaList(LuaTuple(Str(),IdGroup(技能),Str()))",
     "ref_en": "LuaList(LuaTuple(Str(), IdGroup(Skill), Str())).",
@@ -19858,12 +19828,6 @@
     "source_cn": "1407下路兵线",
     "ref_en": "1407 Bottom Lane Minion Wave",
     "target_ru": "1407 Волна миньонов на нижней полосе"
-  },
-  {
-    "id": "048321",
-    "source_cn": "5231172   王星贻个人测试位面   单人位面",
-    "ref_en": "5231172 Wang Xingyi Personal Test Instance - Single-player Instance",
-    "target_ru": "5231172 Одиночное измерение: Wang Xingyi Personal Test Instance"
   },
   {
     "id": "048322",
@@ -26310,12 +26274,6 @@
     "target_ru": "Свежий букет, купленный в цветочном ларьке."
   },
   {
-    "id": "049396",
-    "source_cn": "获得1个带有<神明之手>词条的非凡物质",
-    "ref_en": "Obtain 1 Beyonder material with <Hand of God> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Hand of God> trait"
-  },
-  {
     "id": "049397",
     "source_cn": "菲尔",
     "ref_en": "Phil",
@@ -28702,12 +28660,6 @@
     "source_cn": "<h>阅读失踪案材料</>",
     "ref_en": "<h>Read the missing person case materials</>",
     "target_ru": "<h>Ознакомиться с материалами дела о пропавшем человеке</>"
-  },
-  {
-    "id": "049796",
-    "source_cn": "Obtain 1 Beyonder material with <守护者> trait",
-    "ref_en": "Obtain 1 Beyonder material with <Guardian> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Guardian> trait"
   },
   {
     "id": "049797",

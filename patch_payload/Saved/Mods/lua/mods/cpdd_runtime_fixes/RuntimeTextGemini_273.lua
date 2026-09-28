@@ -221,7 +221,6 @@ return {
     ["Left Steam Group 1"] = "Покинул Steam Group 1",
     ["Becky"] = "Бекки",
     ["Target is too far away."] = "Цель находится слишком далеко.",
-    ["Obtain 1 Beyonder material with <Scourge Avatar> trait"] = "Obtain 1 Потусторонний material with <Scourge Avatar> trait",
     ["One-way wall"] = "Односторонняя стена",
     ["Wake up Cohen"] = "Просыпайся, Коэн",
     ["Flipping through books 2"] = "Листая книги 2.",

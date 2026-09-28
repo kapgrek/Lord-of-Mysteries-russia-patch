@@ -190,7 +190,6 @@ return {
     ["Corrupted Fish"] = "Испорченная рыба",
     ["Your team member %s was detected exhibiting passive behavior. They are currently suspended. You can resume matchmaking in %s seconds."] = "Член вашей команды %s был замечен в пассивном поведении. В настоящее время они приостановлены. Вы можете возобновить подбор игроков через %s секунд.",
     ["___ plus ___ equals 10. What to fill in the first blank?"] = "___ плюс ___ равно 10. Чем заполнить первый пропуск?",
-    ["[Roguelike] Space Slash III"] = "[Рогалик] Space Slash III",
     ["Basic Information"] = "Основная информация",
     ["Each piece of equipment can only possess <EquipHighLight>1</> Holy Ointment affix, and the application effect <EquipHighLight> cannot be reversed </>"] = "Каждая часть снаряжения может иметь только аффикс «Святая мазь» <EquipHighLight>1</>, а эффект применения <EquipHighLight> не может быть отменен </>.",
     ["What is it? It looks like you want to talk about something else."] = "Что это такое? Похоже, вы хотите поговорить о чем-то другом.",

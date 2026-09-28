@@ -214,7 +214,6 @@ return {
     ["Extraordinary Expert"] = "Выдающийся эксперт",
     ["Suburban Wilderness"] = "Пригородная пустыня",
     ["Spirit body threads wall end point initial state"] = "Духовное тело, нити, стена, конечная точка, исходное состояние",
-    ["Mystery Pryer - Roguelike BD - Star Sand Assault"] = "Тайноведец - Roguelike BD - Star Sand Assault",
     ["Don't run!"] = "Не беги!",
     ["Passerby Direction"] = "Направление прохожего",
     ["Welcome to Heywood Manor, {{PlayerName}}{{sir|madam}}. Please enter; the ball is about to begin."] = "Добро пожаловать в поместье Хейвуд, {{PlayerName}}{{sir|madam}}. Пожалуйста, введите; бал вот-вот начнется.",

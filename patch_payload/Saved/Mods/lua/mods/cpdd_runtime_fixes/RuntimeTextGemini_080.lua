@@ -202,7 +202,6 @@ return {
     ["Evil Spirit."] = "Злой дух.",
     ["Defeat monster of specified InstanceID"] = "Победить монстра указанного InstanceID.",
     ["Throw"] = "Бросок",
-    ["Golden Indus Avenue Carriage Station Bicycle (Brown)"] = "Велосипед Golden Indus Avenue Carriage Station (коричневый)",
     ["A certain emperor once left an unfinished sentiment in their diary. After long contemplation, this flavor must have deeply permeated your body and mind."] = "Однажды некий император оставил в своем дневнике незаконченное чувство. После долгого созерцания этот аромат, должно быть, глубоко пропитал ваше тело и разум.",
     ["Justice never looks up; it will wait for the truth to kneel down itself."] = "Справедливость никогда не смотрит вверх; он будет ждать, пока истина сама встанет на колени.",
     ["Material change effect appears intermittently on the monster"] = "Эффект изменения материала периодически появляется на монстре.",

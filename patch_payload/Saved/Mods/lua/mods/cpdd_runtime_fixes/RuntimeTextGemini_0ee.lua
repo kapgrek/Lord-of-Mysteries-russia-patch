@@ -251,7 +251,6 @@ return {
     ["Luxury cars for sale at 10% off!"] = "Продажа элитных автомобилей со скидкой 10%!",
     ["Motion Capture Social Action Status"] = "Статус социального действия захвата движения",
     ["Wait on the side"] = "Подожди на стороне",
-    ["[Marionette Skill] Worm of Star - Corona Verdict"] = "[Марионетка Skill] Worm of Star - Corona Verdict",
     ["Appearance: Believer Number One"] = "Внешность: Верующий номер один",
     ["Restaurant Cautious Worker 2"] = "Осторожный работник ресторана 2",
     ["Arrive 4"] = "Прибытие в 4",

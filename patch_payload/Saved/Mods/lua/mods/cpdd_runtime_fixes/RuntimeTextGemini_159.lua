@@ -219,7 +219,6 @@ return {
     ["I, I am a distinguished trader at the Backlund Stock Exchange..."] = "Я, я выдающийся трейдер на Баклундской фондовой бирже...",
     ["Anthea will continuously summon Mr. Barney to charge during the second phase."] = "На втором этапе Антея будет постоянно вызывать мистера Барни для атаки.",
     ["All Beyonders in the Battle for the Throne of God mode fight using the same real attributes as they do outside the game."] = "Все Потусторонние в режиме «Битва за Трон Бога» сражаются, используя те же реальные атрибуты, что и вне игры.",
-    ["Hero Outer City 1 Material"] = "Материалы Hero Outer City 1",
     ["Hide by Light"] = "Скрытие в лучах света",
     ["In competitive mode, <Highlight>kill </> %s/%s Seers"] = "В соревновательном режиме <Highlight>kill </> %s/%s Провидцы.",
     ["Look at me, 8 pennies is enough for me!"] = "Посмотрите на меня, мне 8 копеек достаточно!",

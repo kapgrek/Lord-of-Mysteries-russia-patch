@@ -29,7 +29,6 @@ return {
     ["White Night"] = "Белая ночь",
     ["Thank you for your dedication, may the Goddess bless Tingen!"] = "Спасибо за вашу преданность делу, пусть Богиня благословит Тинген!",
     ["Today"] = "Сегодня",
-    ["【Text Board】(Middle Road) Lyrics 1-1"] = "【Text Board】(Middle Road) Текст 1-1",
     ["A pity what?"] = "Жаль что?",
     ["The Red Moon sets"] = "Красная Луна садится",
     ["Setting off, stay alert."] = "Отправляясь, будьте начеку.",

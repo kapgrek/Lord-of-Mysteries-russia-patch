@@ -235,7 +235,6 @@ return {
     ["Quickly lure 2-049 to the Clown to control him!"] = "Быстро заманите 2-049 к Клоуну, чтобы контролировать его!",
     ["Hot vegetable soup, drink a bowl and stay energized all day!"] = "Горячий овощной суп, выпейте порцию и будьте бодры на весь день!",
     ["Once there was a young sailor..."] = "Жил-был молодой моряк...",
-    ["Prologue Flow Version-Magic Circle II"] = "Версия Prologue Flow — Magic Circle II",
     ["Introduction: Bernadette Gustav"] = "Описание: Бернадетт Густав",
     ["Use to obtain <Highlight>Butterfly Kiss Headpiece</>"] = "Используйте, чтобы получить <Highlight> Головной убор «Поцелуй бабочки» </>.",
     ["Return from Blackboard"] = "Возвращение с доски",

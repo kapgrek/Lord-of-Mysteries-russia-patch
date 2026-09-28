@@ -26,7 +26,6 @@ return {
     ["Hmm... let's go to the <P_Yellow> lounge </> to discuss it in detail—we've occupied this place for long enough."] = "Хм... пойдем в <P_Yellow>lounge</>, чтобы уточнить - мы занимаем это место достаточно долго.",
     ["Target Area Orientation (Yaw, World Orientation)"] = "Ориентация целевой области (рыскание, ориентация на мир)",
     ["Haven Stone"] = "Хейвен Стоун",
-    ["Factory Ghost Vision Template"] = "Шаблон Factory Ghost Vision",
     ["The nurse left and changed her clothes"] = "Медсестра ушла и переоделась",
     ["Understood, Captain!"] = "Понятно, капитан!",
     ["It's Hornacis! Do you know what the most interesting part is? No burials from this country have been found in the ruins! Why is that?"] = "Это Хорнасис! Знаете, что самое интересное? Никаких захоронений из этой страны в руинах обнаружено не было! Почему это?",

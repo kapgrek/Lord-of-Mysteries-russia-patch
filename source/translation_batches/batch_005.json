@@ -1494,12 +1494,6 @@
     "target_ru": "Велосипедный сюжет замедляется"
   },
   {
-    "id": "020249",
-    "source_cn": "自走棋 克莱恩-纸人监听",
-    "ref_en": "Auto Chess Klein - Paper Figurine Listen",
-    "target_ru": "Мониторинг Auto Chess Klein-Paperman"
-  },
-  {
     "id": "020250",
     "source_cn": "至高无上的黑夜女神！请原谅我的贪心！",
     "ref_en": "Supreme Evernight Goddess! Please forgive my greed!",
@@ -4690,12 +4684,6 @@
     "source_cn": "进门采集物",
     "ref_en": "Collectable at entrance",
     "target_ru": "Соберите предметы у двери"
-  },
-  {
-    "id": "020782",
-    "source_cn": "通用-顶奢翅膀-变天",
-    "ref_en": "General - Top Luxury Wings - Weather Change",
-    "target_ru": "Universal-Top Luxury Wings-Chantian"
   },
   {
     "id": "020783",
@@ -8194,12 +8182,6 @@
     "source_cn": "查看<h>书架</>",
     "ref_en": "Examine the <h>bookshelf</>",
     "target_ru": "Посмотреть<h>книжная полка</>"
-  },
-  {
-    "id": "021366",
-    "source_cn": "模版精英-男树人",
-    "ref_en": "Template Elite - Male Treant",
-    "target_ru": "Шаблон Elite-Male Tree Man"
   },
   {
     "id": "021367",
@@ -16612,12 +16594,6 @@
     "source_cn": "感谢你的喜欢。",
     "ref_en": "Thank you for your appreciation.",
     "target_ru": "Спасибо за ваши лайки."
-  },
-  {
-    "id": "022769",
-    "source_cn": "成就-净万灵",
-    "ref_en": "Achievement - Purifying Ten Thousand Spirits",
-    "target_ru": "Достижение-Pure All Souls"
   },
   {
     "id": "022770",
@@ -29812,12 +29788,6 @@
     "source_cn": "流浪者（白天）",
     "ref_en": "Wanderer (Daytime)",
     "target_ru": "Странник (дневное время)"
-  },
-  {
-    "id": "024970",
-    "source_cn": "灰雾测试PVP专题问卷",
-    "ref_en": "Gray Fog Test PVP Thematic Survey",
-    "target_ru": "Специальная анкета PVP Test Grey Fog Test"
   },
   {
     "id": "024971",

@@ -223,7 +223,6 @@ return {
     ["You emit Spirit World energy, dealing damage to nearby enemies every 3 seconds."] = "Вы излучаете энергию Мира Духов, нанося урон ближайшим врагам каждые 3 сек..",
     ["Attack Power 12%"] = "Сила атаки 12%",
     ["Attack Power 15%"] = "Сила атаки 15%",
-    ["Retrace - Black-Sinking Wilderness 2"] = "Возвращение - Black-Sinking Wilderness 2",
     ["Perform Requiem on Loen citizens."] = "Совершите Реквием по гражданам Лоена.",
     ["Ask Amanda for a glass of milk"] = "Попросите у Аманды стакан молока.",
     ["Children, remember, although we can't afford such meals now, one day we will be sitting there."] = "Дети, помните, хотя сейчас мы не можем позволить себе такую ​​еду, однажды мы будем сидеть там.",

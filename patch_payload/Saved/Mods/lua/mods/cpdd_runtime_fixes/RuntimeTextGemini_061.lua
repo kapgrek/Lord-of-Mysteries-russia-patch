@@ -251,7 +251,6 @@ return {
     ["Brilliant, you really tried very hard to deduce this."] = "Замечательно, вы действительно очень старались это сделать.",
     ["The core has entered a state of Invincibility! Switch targets to the valve!"] = "Ядро перешло в состояние Непобедимости! Переключите цели на клапан!",
     ["Crimson Moon Seed Gestation"] = "Беременность семени Багровой Луны",
-    ["Tingen Chamber of Commerce Personnel"] = "Тинген Chamber of Commerce Personnel",
     ["Baboon Minion"] = "Бабуин Миньон",
     ["Circular area with a 5m radius"] = "Круглая область радиусом 5 м",
     ["End Ritual"] = "Конец Ритуала",

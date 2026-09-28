@@ -225,7 +225,6 @@ return {
     ["Zelda "] = "Зельда",
     ["Let's take a look at the letter he sent me."] = "Давайте посмотрим на письмо, которое он мне прислал.",
     ["Daisy Bouquet 4"] = "Букет Ромашки 4",
-    ["[Marionette Skill] Baboon Blessing - Summon LV1"] = "[Марионетка Skill] Baboon Blessing - Summon LV1",
     ["A Spectator never takes the stage. Once you take the stage, you become part of the drama and can no longer see the truth."] = "Зритель никогда не выходит на сцену. Выйдя на сцену, вы становитесь участником драмы и больше не можете видеть правду.",
     ["Dissolve"] = "Растворить",
     ["How could we be absent?"] = "Как мы могли отсутствовать?",

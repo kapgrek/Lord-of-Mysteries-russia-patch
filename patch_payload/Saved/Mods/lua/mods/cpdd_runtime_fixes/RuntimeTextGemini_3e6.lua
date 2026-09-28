@@ -70,7 +70,6 @@ return {
     ["Complete any challenge among Hard \"Alpha Wolf\", \"Face-Peeler\", \"Drill\", and \"Inquisitor\" without taking damage."] = "Выполните любое испытание из режимов «Альфа-Волк», «Лицочист», «Дрель» и «Инквизитор», не получив повреждений.",
     ["Don't rush, try to remember slowly."] = "Не торопитесь, старайтесь запоминать медленно.",
     ["Yeah, you have no idea how boring being on duty is. I have to stay here guarding the Chanis Gate all the time..."] = "Да, вы даже не представляете, как скучно дежурить. Мне приходится все время оставаться здесь, охраняя Врат Чаниса...",
-    ["Where to Find Beyonder Creatures"] = "Where to Find Потусторонний Creatures",
     ["Qianjun"] = "Цяньцзюнь",
     ["+50 Attack +30% Critical Hit, Critical Damage Boost"] = "+50 Атака +30% Критический удар, Увеличение критического урона",
     ["Requiem of Madness"] = "Реквием безумия",

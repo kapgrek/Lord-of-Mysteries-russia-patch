@@ -108,7 +108,6 @@ return {
     ["Query the current surface type."] = "Запросите текущий тип поверхности.",
     ["Sarcophagus Black Substance 2"] = "Саркофаг Черная субстанция 2",
     ["Until the screaming subsides, she crawls up in a mess in the silence."] = "Пока крик не утих, она в беспорядке ползает в тишине.",
-    ["[Marionette Skill] Viscountess Ghost"] = "[Марионетка Skill] Viscountess Ghost",
     ["Steve (Elite)"] = "Стив (Элита)",
     ["The simple wooden chair has no extra decoration and can be seen in parks and porches."] = "Простой деревянный стул не имеет никакого дополнительного декора, его можно увидеть в парках и на верандах.",
     ["However, could there be multiple masters above the gray fog? I had better add another layer of insurance."] = "Однако могут ли над серым туманом быть несколько мастеров? Мне лучше добавить еще один уровень страховки.",

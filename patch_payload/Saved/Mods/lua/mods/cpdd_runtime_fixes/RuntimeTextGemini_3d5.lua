@@ -80,7 +80,6 @@ return {
     ["No Sunlight — Lv 62 | Apprentice | 2 m | Inspect"] = "Нет солнечного света — 62 ур. | Ученик | 8 м | Осмотреть",
     ["Frame 2"] = "Кадр 2",
     ["Kaize "] = "Кайзе",
-    ["[LV3] [Marionette Skill] Tracking Magic Bullet - Summon"] = "[LV3] [Марионетка Skill] Tracking Magic Bullet - Summon",
     ["Could it have been left at the Cafe?"] = "Могло ли оно быть оставлено в кафе?",
     ["Roselle Boss - Phase 3 - Self-Cleaning Program - Number Monster Buff"] = "Босс Розель — Фаза 3 — Программа самоочистки — Усиление числового монстра",
     ["Effect_Lock_01"] = "Эффект_Блокировка_01",

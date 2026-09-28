@@ -190,7 +190,6 @@ return {
     ["Heal 12% of maximum Health"] = "Восстановите 12% от максимального здоровья",
     ["Immediately restore 15 Mana"] = "Немедленно восстановить 15 маны.",
     ["Goddess, I am willing to lay all my tenderness at her feet!"] = "Богиня, я готов положить к ее ногам всю свою нежность!",
-    ["GTA Serial Killer Filter Sacrifice NPC"] = "GTA Serial Killer Filter NPC-жертва",
     ["...An uninvited guest?"] = "...Незваный гость?",
     ["\"Justice\"."] = "\"Справедливость\".",
     ["Dull color, slightly emitting a sour and stinky smell."] = "Тусклый цвет, слегка издающий кисловатый и вонючий запах.",

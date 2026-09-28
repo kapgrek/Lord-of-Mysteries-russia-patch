@@ -206,7 +206,6 @@ return {
     ["赐福孢子"] = "Благословенные споры",
     ["这只是我从家里随便拿的一本杂志。"] = "Это просто журнал, который я принес из дома.",
     ["这就是我们的宿命，这就是神的旨意……"] = "Это наша судьба; это воля Божия...",
-    ["金梧桐大道马车站脚踏车黄"] = "Велосипед Golden Indus Avenue Carriage Station (желтый)",
     ["陪莉莉回速递站"] = "Сопровождайте Лили обратно на экспресс-станцию.",
     ["雷帕德：你是说脚踏车类型？"] = "Леппард: Вы имеете в виду велосипедный тип?",
     ["预计安装剩余时间 %.0f 分钟"] = "Примерное оставшееся время установки: %.0f минут.",
@@ -263,5 +262,6 @@ return {
     ["Are you interested, {{ handsome sir | noble lady }}? You only need to set aside some time every day for an interview and pay a certain fee to have an autobiography published in your name."] = "Вас это интересует, {{красивый господин|благородная госпожа}}? Вам нужно лишь уделять немного времени каждый день для интервью и заплатить определённую сумму — и от вашего имени будет издана автобиография.",
     ["Well, we're already much better off than those workers in the factories."] = "Что ж, нам уже гораздо лучше, чем тем рабочим на заводах.",
     ["【LV5】【秘偶技】寻踪魔弹-代理主技能"] = "【LV5】【Навык марионетки】Отслеживающая магическая пуля — основной навык агента",
+    ["金梧桐大道马车站脚踏车黄"] = "Golden Indus Avenue Carriage Station Bicycle (Yellow)",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

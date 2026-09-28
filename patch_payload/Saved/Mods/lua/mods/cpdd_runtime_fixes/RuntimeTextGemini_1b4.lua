@@ -258,7 +258,6 @@ return {
     ["Do you want to start the Honor Challenge?"] = "Хотите начать Испытание Чести?",
     ["Brainwashing Beam"] = "Луч «промывания мозгов»",
     ["Vienne"] = "Вьенна",
-    ["South District Avenue Fountain Square Bicycle (Brown)"] = "Велосипед South District Avenue Fountain Square (коричневый)",
     ["Banner Health Increase - 4 Attackers"] = "Увеличение здоровья баннера — 4 атакующих",
     ["Back? But the tickets just sold out. The recent shifts are all full, and tickets for the later ones haven't gone on sale yet."] = "Назад? Но билеты только что были распроданы. Последние смены все заполнены, а билеты на последующие еще не поступили в продажу.",
     ["Release"] = "Выпускать",

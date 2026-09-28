@@ -4332,12 +4332,6 @@
     "target_ru": "Практикуетесь в фехтовании?"
   },
   {
-    "id": "110723",
-    "source_cn": "大远景尤朵拉正面",
-    "ref_en": "Extreme Wide Shot Eudora Front",
-    "target_ru": "Extreme Wide Shot Eudora спереди"
-  },
-  {
     "id": "110724",
     "source_cn": "太累了……",
     "ref_en": "So tired...",
@@ -16284,12 +16278,6 @@
     "target_ru": "ID клуба"
   },
   {
-    "id": "112726",
-    "source_cn": "六月之书  —  Lv 62 | Spectator | 4 m | Inspect",
-    "ref_en": "Book of June  —  Lv 62 | Spectator | 4 m | Inspect",
-    "target_ru": "Book of June  —  Lv 62 | Зритель | 4 m | Inspect"
-  },
-  {
     "id": "112727",
     "source_cn": "共鸣于一颗纯粹而炽热的心，每一次挥击，都是对神明盛大的礼赞。",
     "ref_en": "Resonating with a pure and burning heart, every swing is a grand tribute to the God.",
@@ -20034,12 +20022,6 @@
     "target_ru": "Не столкнитесь с энергией судьбы того же цвета!"
   },
   {
-    "id": "113353",
-    "source_cn": "不许获取占卜结果",
-    "ref_en": "Do not obtain Divination Result",
-    "target_ru": "Do not obtain Гадание Result"
-  },
-  {
     "id": "113354",
     "source_cn": "丢出一块糖果",
     "ref_en": "Toss a piece of candy",
@@ -20746,12 +20728,6 @@
     "source_cn": "“织梦黑匣”将在集体潜意识中，编织一个<P_Yellow>三天前的场景</>。",
     "ref_en": "The \"Dream-Weaving Black Box\" will weave a <P_Yellow>scene from three days ago</> in the collective subconscious.",
     "target_ru": "«Черный ящик, сотканный из снов», сплетет в коллективном подсознании сцену <P_Yellow>, произошедшую три дня назад, </>."
-  },
-  {
-    "id": "113472",
-    "source_cn": "“魔术师”小姐的新书",
-    "ref_en": "Miss \"Magician\"'s new book",
-    "target_ru": "Miss \"Фокусник\"'s new book"
   },
   {
     "id": "113473",

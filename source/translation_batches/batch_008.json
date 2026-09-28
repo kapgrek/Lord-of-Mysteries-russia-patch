@@ -5028,12 +5028,6 @@
     "target_ru": "[Заглушка]"
   },
   {
-    "id": "035839",
-    "source_cn": "【文字板】（中间路）唱词1-1",
-    "ref_en": "【Text Board】(Middle Road) Lyrics 1-1",
-    "target_ru": "【Text Board】(Middle Road) Текст 1-1"
-  },
-  {
     "id": "035841",
     "source_cn": "三百零三，三百零四，三百零五……",
     "ref_en": "Three hundred and three, three hundred and four, three hundred and five...",
@@ -10038,12 +10032,6 @@
     "target_ru": "Привет, {{Mr.|Ms.}}, добро пожаловать в Corner Cafe."
   },
   {
-    "id": "036678",
-    "source_cn": "【Rougue】学徒强普法术代理",
-    "ref_en": "[Roguelike] Apprentice Strong Basic Attack Spell Proxy",
-    "target_ru": "[Roguelike] Apprentice Strong Базовая атака Spell Proxy"
-  },
-  {
     "id": "036679",
     "source_cn": "【占位】链条底端的黄水晶轻轻动了起来，做出顺时针旋转。",
     "ref_en": "【Placeholder】The yellow crystal at the end of the chain moves gently, rotating clockwise.",
@@ -10494,12 +10482,6 @@
     "target_ru": "Есть только один или два куска баранины! Разве это не просто мошенничество?"
   },
   {
-    "id": "036756",
-    "source_cn": "肉鸽日暮飓风冲击波",
-    "ref_en": "Roguelike Sunset Hurricane Shockwave",
-    "target_ru": "Рогалик Sunset Hurricane Shockwave"
-  },
-  {
     "id": "036757",
     "source_cn": "舞会餐车",
     "ref_en": "Ball Food Cart",
@@ -10672,12 +10654,6 @@
     "source_cn": "阿蒙分身本体从场上离开，化成千万阿蒙分身，对玩家<Disable>一齐发动攻击</>。",
     "ref_en": "The Amon Avatar leaves the field and transforms into thousands of Amon Avatars, <Disable>launching a collective attack</> on the players.",
     "target_ru": "Аватар Амона покидает поле и превращается в тысячи Аватаров Амона, <Disable> запуская коллективную атаку</> на игроков."
-  },
-  {
-    "id": "036786",
-    "source_cn": "陷阱转火怪表现",
-    "ref_en": "Trap Aggro Monster Performance",
-    "target_ru": "Ловушка Aggro Monster Performance"
   },
   {
     "id": "036787",
@@ -11662,12 +11638,6 @@
     "source_cn": "【副本测试】46级属性",
     "ref_en": "[Dungeon Test] Level 46 Stats",
     "target_ru": "[Испытание в подземелье] Статистика 46 уровня"
-  },
-  {
-    "id": "036951",
-    "source_cn": "【秘偶技】猎犬冲锋-引用hit",
-    "ref_en": "[Marionette Skill] Hound Charge - Reference Hit",
-    "target_ru": "[Марионетка Skill] Hound Charge - Reference Hit"
   },
   {
     "id": "036952",
@@ -21316,12 +21286,6 @@
     "source_cn": "【宝藏地】高级宝箱-解锁态",
     "ref_en": "[Treasure Location] Advanced treasure chest - Unlocked state",
     "target_ru": "[Местоположение сокровищ] Расширенный сундук с сокровищами — разблокировано."
-  },
-  {
-    "id": "038563",
-    "source_cn": "【秘偶技】星之虫-星云斩击",
-    "ref_en": "[Marionette Skill] Worm of Star - Nebula Slash",
-    "target_ru": "[Марионетка Skill] Worm of Star - Nebula Slash"
   },
   {
     "id": "038564",

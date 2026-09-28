@@ -105,7 +105,6 @@ return {
     ["【三张】"] = "[Три карты]",
     ["【占位-动画】赛琳娜似乎察觉到了什么！她迅速转身，不仅皮肤变得苍白，还长出了尖锐骇人的指甲。"] = "[Placeholder-Animation] Кажется, Селена что-то почувствовала! Она быстро оборачивается, ее кожа не только бледнеет, но и у нее растут острые, устрашающие ногти.",
     ["【采集】查看罐头"] = "【Коллекция】Проверьте консервы",
-    ["【采集】风车-灵性之墙"] = "[Collection] Windmill - Wall of Духовность",
     ["万能药水"] = "Панацея",
     ["上一局"] = "Предыдущий матч",
     ["不安"] = "Непросто",
@@ -282,5 +281,6 @@ return {
     ["I suppose that's the only way. It's just a grievance for my eldest son."] = "Ну, значит, пусть так и будет. Обидно только за моего старшего сына.",
     ["Trading Tutorial - Patients who cannot be cured by a doctor"] = "Обучение обмену — Пациенты, которых не может вылечить врач",
     ["In the [Strategic Server], when the cooperative relationship reaches the extreme (Phase), it can connect to the power of the tributaries of fate. \n Use <Highlight> Tributary Crystal </> to <Highlight> awaken </> it, which can increase the tributary scale, thereby obtaining Echoes of Fate and increasing the Echo Scale. \n The higher the Echo Scale, the more additional attributes you can obtain in the Strategic Server. \n The Tributaries of Fate only appear in the [Strategic Server], and their attributes only take effect in the [Strategic Server]."] = "В [Стратегическом сервере], когда отношения совместного боя достигают предела (Истинная форма), можно подключиться к силе Притоков судьбы.\nИспользуйте <Highlight>Кристалл притока</>, чтобы <Highlight>пробудить</> его — это повышает шкалу притока и позволяет получать Отголоски судьбы, повышая тональность отголосков.\nЧем выше тональность отголосков, тем больше дополнительных характеристик можно получить на Стратегическом сервере.\nПритоки судьбы проявляются только на [Стратегическом сервере], и их характеристики действуют только на [Стратегическом сервере].",
+    ["【采集】风车-灵性之墙"] = "[Collection] Windmill - Wall of Spirituality",
     ["播放Dialogue  玩家发送任务道具"] = "Игра «Диалог». Игрок отправляет квестовый предмет.",
 }

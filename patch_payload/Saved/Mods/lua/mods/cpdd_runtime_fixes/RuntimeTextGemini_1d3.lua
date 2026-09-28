@@ -228,7 +228,6 @@ return {
     ["Text Version TT"] = "Текстовая версия ТТ",
     ["2-049 has escaped into the warehouse, Riel Bieber might be inside, everyone be careful!"] = "2-049 сбежал на склад, внутри может быть Райэль Бибер, будьте осторожны!",
     ["Item Submission Test 1"] = "Тест на отправку предметов 1",
-    ["[Marionette Skill] Baboon Blessing - Summon LV3"] = "[Марионетка Skill] Baboon Blessing - Summon LV3",
     ["...I can tell."] = "...Я могу сказать.",
     ["Submit <h>invitation</>"] = "Отправить <h>invitation</>",
     ["Black-haired boy watching the sea"] = "Черноволосый мальчик смотрит на море",

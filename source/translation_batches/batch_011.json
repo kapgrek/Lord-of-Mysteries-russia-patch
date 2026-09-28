@@ -1758,12 +1758,6 @@
     "target_ru": "Специализация"
   },
   {
-    "id": "050294",
-    "source_cn": "世界频道聊天CD降低",
-    "ref_en": "World channel chat cooldown reduced",
-    "target_ru": "World channel chat Перезарядка reduced"
-  },
-  {
     "id": "050295",
     "source_cn": "为了避免直视星空引发失控，你可以通过观察星象仪内部揭示星空的奥秘，调节旋转和缩放来探寻隐藏的星座。",
     "ref_en": "To avoid loss of control caused by staring directly at the starry sky, you can observe the mysteries of the stars revealed within the planetarium, adjusting rotation and zoom to explore hidden constellations.",
@@ -11352,12 +11346,6 @@
     "target_ru": "Регина"
   },
   {
-    "id": "051901",
-    "source_cn": "被%s只猩红犬魂锁定",
-    "ref_en": "Locked by %s Scarlet Dog Souls",
-    "target_ru": "Заблокировано %s Scarlet Dog Souls"
-  },
-  {
     "id": "051902",
     "source_cn": "解锁社团能力",
     "ref_en": "Unlock Association Ability",
@@ -12424,12 +12412,6 @@
     "source_cn": "【墓园】位面保底复活点",
     "ref_en": "[Cemetery] Plane fallback resurrection point",
     "target_ru": "[Кладбище] Точка воскрешения запасного самолета"
-  },
-  {
-    "id": "052082",
-    "source_cn": "【秘偶技】猎犬冲锋LV1",
-    "ref_en": "[Marionette Skill] Hound Charge LV1",
-    "target_ru": "[Марионетка Skill] Hound Charge LV1"
   },
   {
     "id": "052083",
@@ -14832,12 +14814,6 @@
     "target_ru": "Полукруглый AOE_Slow"
   },
   {
-    "id": "052483",
-    "source_cn": "南区大道喷泉小广场脚踏车黄",
-    "ref_en": "South District Avenue Fountain Square Bicycle (Yellow)",
-    "target_ru": "Велосипед South District Avenue Fountain Square (желтый)"
-  },
-  {
     "id": "052484",
     "source_cn": "占卜者和顾客往来于此，期待以些许金钱换得命运的揭示。",
     "ref_en": "Diviners and customers come and go here, hoping to exchange a small amount of money for a revelation of their fate.",
@@ -16824,12 +16800,6 @@
     "target_ru": "Приобретите модное оборудование"
   },
   {
-    "id": "052815",
-    "source_cn": "观众-梦境编织肉鸽",
-    "ref_en": "Spectator - Dream Weaving Roguelike",
-    "target_ru": "Зритель — Dream Weaving Roguelike"
-  },
-  {
     "id": "052816",
     "source_cn": "警察……罗塞尔大帝说过，国家的兴盛与衰败，每个人都有责任。如果不是体能测试无法通过，我们就是同事了。",
     "ref_en": "Police... Emperor Roselle said that everyone is responsible for the rise and fall of the country. If it weren't for failing the physical fitness test, we would be colleagues.",
@@ -18370,12 +18340,6 @@
     "source_cn": "40镑？这破玩意儿上周还在我家装土豆！",
     "ref_en": "40 pounds? This piece of junk was holding potatoes in my house last week!",
     "target_ru": "40 фунтов? На прошлой неделе этот кусок хлама держал у меня дома картошку!"
-  },
-  {
-    "id": "053073",
-    "source_cn": "5230043   恶龙酒吧后巷   位面",
-    "ref_en": "5230043 Iron Dragon Bar Back Alley Plane",
-    "target_ru": "5230043 Самолет Iron Dragon Bar Back Alley"
   },
   {
     "id": "053074",
@@ -22092,12 +22056,6 @@
     "target_ru": "Урон от разложения увеличен на 300%, а урон от детонации «Урагана света» увеличен на такую ​​же величину."
   },
   {
-    "id": "053696",
-    "source_cn": "观众：绝技治疗筛选6.5",
-    "ref_en": "Spectator: Ultimate Healing Filter 6.5",
-    "target_ru": "Зритель: Ultimate Healing Filter 6.5"
-  },
-  {
     "id": "053697",
     "source_cn": "规则审判",
     "ref_en": "Rule Judgment",
@@ -22258,12 +22216,6 @@
     "source_cn": "Attack映射，将ID为A的技能映射成ID为B的技能（持续）",
     "ref_en": "Attack mapping: Map skill with ID 'A' to skill with ID 'B' (continuous).",
     "target_ru": "Сопоставление атак: сопоставьте навык с идентификатором «A» с навыком с идентификатором «B» (непрерывно)."
-  },
-  {
-    "id": "053724",
-    "source_cn": "GTA-机械造物-回复霸体",
-    "ref_en": "GTA - Mechanical Creation - Restore Super Armor",
-    "target_ru": "GTA - Mechanical Creation - Restore Суперброня"
   },
   {
     "id": "053725",
@@ -24454,12 +24406,6 @@
     "source_cn": "一股神秘的力量指引你前往命运咖啡厅。",
     "ref_en": "A mysterious force guides you to the Fate Café.",
     "target_ru": "Таинственная сила приведет вас в кафе Fate."
-  },
-  {
-    "id": "054092",
-    "source_cn": "上架秘偶已刷新",
-    "ref_en": "Listed marionettes have refreshed.",
-    "target_ru": "Listed Марионеткаs have refreshed."
   },
   {
     "id": "054093",
@@ -28834,12 +28780,6 @@
     "source_cn": "能量线查看提示-1-一样",
     "ref_en": "Energy line view prompt - 1 - Same",
     "target_ru": "Подсказка просмотра энергетической линии - 1 - То же"
-  },
-  {
-    "id": "054822",
-    "source_cn": "舞女机制2全场AOE",
-    "ref_en": "Dancer Mechanic 2 Full-Screen AOE",
-    "target_ru": "Dancer Mechanic 2 Полноэкранный AOE"
   },
   {
     "id": "054823",

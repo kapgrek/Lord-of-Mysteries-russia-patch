@@ -49,7 +49,6 @@ return {
     ["The police lead the two scammers away..."] = "Полиция уводит двух мошенников...",
     ["Death Sect: Accumulate Death equipment based on kinship level."] = "Секта Смерти: накапливайте снаряжение Смерти в зависимости от уровня родства.",
     ["Your hairstyle today is very beautiful."] = "Твоя прическа сегодня очень красивая.",
-    ["5231172 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231172 Одиночное измерение: Wang Xingyi Personal Test Instance",
     ["Eat-the-ball game started."] = "Началась игра «Съешь мяч».",
     ["Program interrupted; Roselle has fallen into a state of weakness!"] = "Программа прервана; Розель впала в состояние слабости!",
     ["Dodge carefully!"] = "Уклоняйтесь осторожно!",

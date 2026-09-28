@@ -73,7 +73,6 @@ return {
     ["That makes sense."] = "Это имеет смысл.",
     ["Having seen so many people's fates, yet waiting for no one to come see her."] = "Видя судьбы стольких людей, но ожидая, что никто не придет к ней.",
     ["Strengthened Star Sand will pull enemies within range to the center with each pulse of damage; Star Sand damage increased by 100%."] = "Усиленный звездный песок будет притягивать врагов в радиусе действия к центру с каждым импульсом урона; Урон от Звездного песка увеличен на 100%.",
-    ["[Marionette Skill] Worm of Star - Punishment"] = "[Марионетка Skill] Worm of Star - Punishment",
     ["Refraction Knowledge"] = "Знания о преломлении",
     ["Interact with the specified Door; player sets spirit vision state; object teleports to the specified location in the specified scene (players support cross-scene teleportation, NPCs can only teleport within the same scene)."] = "Взаимодействуйте с указанной Дверью; игрок устанавливает состояние духовного видения; объект телепортируется в указанное место в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены).",
     ["Panorama 03"] = "Панорама 03",

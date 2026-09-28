@@ -30,7 +30,6 @@ return {
     ["Law-Abiding Citizen"] = "Законопослушный гражданин",
     ["Audrey's room air wall"] = "Воздушная стена в комнате Одри",
     ["Digestion Limit Increased"] = "Предел пищеварения увеличен",
-    ["An astonishing ability—is this Beyonder power?"] = "An astonishing ability—is this Потусторонний power?",
     ["As many have said, Tingen's academic atmosphere is second only to the capital, Backlund."] = "Как многие уже говорили, академическая атмосфера Тингена уступает только столице Баклунду.",
     ["After use, you can advance to Sequence 9: Spectator potion, which contains mysterious power."] = "После использования вы можете перейти к Последовательности 9: Зелье наблюдателя, которое содержит таинственную силу.",
     ["Set Season Level"] = "Установить уровень сезона",

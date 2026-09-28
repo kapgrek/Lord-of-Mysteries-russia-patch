@@ -250,7 +250,6 @@ return {
     ["Hey, hey, have you guys heard the horror legend of St. Samuel Cathedral?"] = "Эй-эй, ребята, вы слышали ужасную легенду о соборе Святого Самуила?",
     ["Fully digested Scroll Professor potion"] = "Полностью переваренное зелье профессора свитка",
     ["Go Mad"] = "Сходить с ума",
-    ["5231136 Backlund Single-Player Instance"] = "5231136 Бэкланд Single-Player Instance",
     ["Because you are a Loen soldier and she is a Feysacian? Or is it because you don't want her to see your cowardice?"] = "Потому что ты солдат Лоен, а она фейсацианка? Или ты не хочешь, чтобы она увидела твою трусость?",
     ["[Spellcraft] gains an additional 35% Attack, and each time a skill is cast: self gains 1.5% Attack."] = "[Колдовство] дает дополнительно 35% атаки, и при каждом применении навыка: сам персонаж получает 1.5% атаки.",
     ["Guardian Power - effect"] = "Сила хранителя — Эффект",

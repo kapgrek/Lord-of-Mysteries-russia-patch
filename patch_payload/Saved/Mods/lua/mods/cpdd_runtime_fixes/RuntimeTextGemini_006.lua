@@ -238,7 +238,6 @@ return {
     ["Remaining <Date>29 days</>"] = "Осталось <Date>29 дней</>",
     ["We have freshly baked mud pies, mud mushroom soup, and mud iced tea!"] = "У нас есть свежеиспеченные грязевые пироги, суп из грязевых грибов и грязевой чай со льдом!",
     ["Damn it, why is this girl so fierce too? Run!"] = "Черт возьми, почему эта девчонка еще и такая жестокая? Бегать!",
-    ["You cannot charm this Beyonder."] = "You cannot charm this Потусторонний.",
     ["Respected {{Mr.| Ms.}}, I walked around here today, and I have never felt so refreshed! Everything here looks better and better."] = "Уважаемый {{Mr.| Ms.}}, я сегодня гулял здесь и никогда не чувствовал себя таким отдохнувшим! Здесь все выглядит все лучше и лучше.",
     ["Hello, {{ Mr. | Ms. } }, we meet again."] = "Привет, {{ Mr. | Ms. } }, мы снова встретились.",
     ["Save and apply"] = "Сохраните и примените",

@@ -230,7 +230,6 @@ return {
     ["Final witness"] = "Последний свидетель",
     ["Later, on his deathbed, he asked me to forget about this tie, saying, \"Do not linger on memories; be brave, and embrace happiness tomorrow.\" So I hid it away, but I never expected that what awaited me was the true colors of that once bright and cheerful gentleman."] = "Позже, на смертном одре, он попросил меня забыть об этом галстуке, сказав: «Не задерживайся в воспоминаниях, будь храбрым и прими счастье завтра». Так что я спрятал его, но никогда не ожидал, что меня ждет истинное лицо этого некогда яркого и веселого господина.",
     ["Audrey path 1"] = "Одри путь 1",
-    ["Beyonders <Highlight>who possess a dance</> need to enter the corresponding <Highlight>dance formation to dance</>."] = "Потустороннийs <Highlight>, обладающие танцем </>, должны войти в соответствующую танцевальную формацию <Highlight>, чтобы танцевать </>.",
     ["I heard this clinic is very effective."] = "Я слышал, что эта клиника очень эффективна.",
     ["Peddler (Female)"] = "Разносчик (женщина)",
     ["What a unique name, I hope the taste will also bring me a surprise!"] = "Какое уникальное имя, надеюсь, вкус меня тоже удивит!",

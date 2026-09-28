@@ -65,7 +65,6 @@ return {
     ["<P_Heart>（这么任性，这就是“皇帝”吗？现在的因蒂斯好像是共和国了。）</>"] = "<P_Heart> (Такой капризный, это что такое «Император»? Кажется, Интис теперь республика.) </>",
     ["……确实能理解他们的反应。"] = "……Я, конечно, могу понять их реакцию.",
     ["【塔罗会·西尔维娅】档7增量(+30%)→累计220%"] = "【Клуб Таро · Сильвия】Прирост 7 уровня (+30%) → совокупно 220%",
-    ["【秘偶技】骑士守护LV2-范围变大"] = "[Марионетка Skill] Knight Guard LV2 - Range Increase",
     ["一个趣味小玩法-事务选择3"] = "Веселая мини-игра: выбор транзакции 3",
     ["上次案件的受害者，我在尝试还原他完整的样貌。"] = "Жертва последнего дела, я пытаюсь восстановить его полный внешний вид.",
     ["不知道奥黛丽小姐近况如何。"] = "Интересно, как мисс Одри поживает в последнее время?",
@@ -203,7 +202,6 @@ return {
     ["<P_Heart> (Smiles faintly) </> The design of this necklace is impressive. In that case, please pack this necklace and all the new arrivals of the season and send them to the Viscount's Mansion—as for the bill, please hand it directly to my head maid to handle."] = "<P_Heart> (слабо улыбается) </> Дизайн этого ожерелья впечатляет. В таком случае, пожалуйста, упакуйте это ожерелье и все новинки сезона и отправьте их в особняк виконта, а счет, пожалуйста, передайте его непосредственно моей старшей горничной.",
     ["Default Spawn Point"] = "Точка появления по умолчанию",
     ["Contamination Infusion"] = "Инфузия загрязнения",
-    ["Light Chaser Wave Song"] = "Песня Light Chaser Wave",
     ["Firmament"] = "Небесный свод",
     ["Chunyuan"] = "Чуньюань",
     ["<Assistant_Title1>Treasure Hunter</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Complete the first Worm of Time Treasure"] = "Достижение: <Assistant_Title1>Искатель сокровищ</>\n<Assistant_Title2>Категория достижения: </>TRPG — Упорядоченный мир\n<Assistant_Title2>Условие открытия: </>Найдите первое сокровище Червей Времени",
@@ -266,6 +264,7 @@ return {
     ["<M_Default> Dear Beyonder: </>\n Congratulations on your faction winning first place in this strategic server. As the %s of the club, you led your members to overcome obstacles and win the crown! Thank you for your dedication to the club and the faction. We have specially prepared the following gifts for you!"] = "<M_Default>Дорогой Потусторонний:</>\nПоздравляем, ваша фракция заняла первое место среди фракций на стратегическом сервере в этот раз. Будучи %s клуба, вы вели членов клуба через все преграды и завоевали корону! Благодарим вас за вклад в клуб и фракцию, специально для вас подготовлены следующие подарки!",
     ["蒸汽轮船、铁轨铺设、城市基建……现在处处都要用到钢铁！"] = "Паровые суда, прокладка железных дорог, городская инфраструктура... сталь сейчас нужна повсюду!",
     ["Fool! It's the uncle of the friend of Milf, your neighbor who lived next door last year!"] = "Дурак! Это дядя друга Милфа, вашего соседа, который жил рядом в прошлом году!",
+    ["【秘偶技】骑士守护LV2-范围变大"] = "[Marionette Skill] Knight Guard LV2 - Range Increase",
     ["Josie"] = "Джози",
     ["一家俱乐部亮灯，打开门欢迎贵族入场。\n侍者：希望这场雨没有给您带来不便。\n贵族：当然，我淋不到一滴雨。"] = "Клуб загорается и открывает свои двери, чтобы приветствовать дворян. \nОфициант: Надеюсь, дождь не причинил вам неудобств. \nБлагородный: Конечно, мне не дождётся ни капли дождя.",
 }

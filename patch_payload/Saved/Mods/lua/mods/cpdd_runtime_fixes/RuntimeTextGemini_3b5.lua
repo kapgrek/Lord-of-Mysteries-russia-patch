@@ -94,7 +94,6 @@ return {
     ["Approach"] = "Подход",
     ["You're a health inspector? Then who am I?"] = "Вы санитарный инспектор? Тогда кто я?",
     ["A Beyonder attempting advancement"] = "Потусторонний пытается продвинуться",
-    ["[Marionette Skill] Fate Turbulence - White"] = "[Марионетка Skill] Fate Turbulence - White",
     ["The one and only Red Moon."] = "Единственная Красная Луна.",
     ["Mili"] = "Мили",
     ["See Sally's diary"] = "Посмотреть дневник Салли",

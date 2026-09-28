@@ -182,7 +182,6 @@ return {
     ["Arrive at University Gate Checkpoint"] = "Прибытие на контрольно-пропускной пункт Университетских ворот.",
     ["The target is still far away."] = "Цель еще далеко.",
     ["If only humans were as quiet as puppets; it's better to stay at home."] = "Если бы только люди были такими же тихими, как марионетки; лучше остаться дома.",
-    ["Connection Topic - Klein 1: About Divination"] = "Connection Topic - Klein 1: About Гадание",
     ["To be honest, in my era, Loen's technology was still chasing the shadow of Intis—of course, this was because of my governance."] = "Честно говоря, в мою эпоху технология Лоэна все еще преследовала тень Интиса — конечно, это произошло из-за моего управления.",
     ["One day, I will make everyone know my name—Annie Bonney! Like Ms. Edwina, I will become part of the legends of the sea!"] = "Однажды я заставлю всех узнать мое имя — Энни Бонни! Как и мисс Эдвина, я стану частью морских легенд!",
     ["Don't you think the damage Warrior is very squishy?"] = "Вам не кажется, что урон Воина очень слабый?",

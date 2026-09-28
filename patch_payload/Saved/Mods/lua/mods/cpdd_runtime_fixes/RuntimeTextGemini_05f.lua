@@ -167,7 +167,6 @@ return {
     ["Chest activated"] = "Сундук активирован",
     ["Automatic Spear"] = "Автоматическое длинное ружье",
     ["Understand the situation with Frye"] = "Посоветуйтесь с Фраем",
-    ["Template Elite - Male Treant"] = "Шаблон Elite-Male Tree Man",
     ["The ultimate form of Flash is \"omnipresence.\""] = "Высшая степень «вспышки» — «везде».",
     ["That's it, let's rest first. When I wake up, I'll go... find Mr. Dunn..."] = "Всё, давай сначала отдохнем. Когда я проснусь, я пойду... к мистеру Данну...",
     ["Close-range biting and uses frontal breath to supplement area damage."] = "Кусайте с близкого расстояния и используйте дыхание вперед, чтобы увеличить урон на расстоянии.",

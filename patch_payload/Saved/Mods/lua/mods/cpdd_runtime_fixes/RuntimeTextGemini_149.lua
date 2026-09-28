@@ -225,7 +225,6 @@ return {
     ["Gameplay preparing"] = "Подготовка геймплея",
     ["Mark_Leap_2"] = "Марк_Прыжок_2",
     ["Club - Club Position"] = "Клуб - Позиция клуба",
-    ["Is this <P_Yellow>Conosan Small Town</>?"] = "Это <P_Yellow>Conosan Small Town</>?",
     ["【Test Boundary】Default Spawn + Noclip"] = "【Граница теста】Появление по умолчанию + Noclip",
     ["Not opening yet-temporary spotlight 1"] = "Пока не открываюсь - временный прожектор 1",
     ["Sasrir [Normal] Charge"] = "Сасрир [Обычный] Натиск",

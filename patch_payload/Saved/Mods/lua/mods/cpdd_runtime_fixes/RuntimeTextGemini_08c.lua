@@ -216,7 +216,6 @@ return {
     ["Ranged output"] = "Диапазон выходного сигнала",
     ["The group leader changed the group announcement to %s."] = "Лидер группы изменил объявление группы на %s.",
     ["It also means having to leave Blackthorn."] = "Это также означает необходимость покинуть Чёрный Чертополох.",
-    ["Book of June  —  Lv 62 | Spectator | 4 m | Inspect"] = "Book of June  —  Lv 62 | Зритель | 4 m | Inspect",
     ["+1 in 03:23:57"] = "+1 в 03:23:57",
     ["Shen Qianyun - Memory Retrace"] = "Шэнь Цяньюнь - Восстановление памяти",
     ["Wine Glass in Hand"] = "Бокал вина в руке",

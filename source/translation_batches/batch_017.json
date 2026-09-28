@@ -462,12 +462,6 @@
     "target_ru": "Свободная строительная площадка"
   },
   {
-    "id": "080077",
-    "source_cn": "英雄外城2材料",
-    "ref_en": "Hero Outer City 2 Material",
-    "target_ru": "Материалы Hero Outer City 2"
-  },
-  {
     "id": "080078",
     "source_cn": "荣耀的传承",
     "ref_en": "Inheritance of Glory",
@@ -2068,12 +2062,6 @@
     "source_cn": "<P_Heart>（压低声音）</>要小心，这个镇子不对劲，一切都在重复。",
     "ref_en": "<P_Heart>(Lowering voice)</> Be careful, this town isn't right. Everything is repeating.",
     "target_ru": "<P_Heart>(Понижая голос)</> Будьте осторожны, этот город не прав. Все повторяется."
-  },
-  {
-    "id": "080346",
-    "source_cn": "<P_Heart>（听起来和非凡有关……）</>好啊。",
-    "ref_en": "<P_Heart>(Sounds like it's related to Beyonders...)</> Sure.",
-    "target_ru": "<P_Heart>(Похоже, это связано с Потустороннийs...)</> Конечно."
   },
   {
     "id": "080347",
@@ -5154,12 +5142,6 @@
     "target_ru": "Меньше часа"
   },
   {
-    "id": "080862",
-    "source_cn": "为<h>老约翰</>占卜",
-    "ref_en": "Divination for <h>Old John</>",
-    "target_ru": "Гадание for <h>Old John</>"
-  },
-  {
     "id": "080863",
     "source_cn": "也就是说，你梦中的阴谋并非不是没有结束，而是——尚未开始。",
     "ref_en": "In other words, the conspiracy in your dream didn't end; rather—it hasn't even begun.",
@@ -8214,12 +8196,6 @@
     "target_ru": "<DecH>Отделка: </>Парча цвета мокко\nПослеполуденное солнце озаряет кофейную чашку, а безмятежное настроение играет красками, словно затейливый узор на пенке."
   },
   {
-    "id": "081374",
-    "source_cn": "<Highlight>拥有舞蹈</>的非凡者，需要进入对应<Highlight>舞阵内跳舞</>。",
-    "ref_en": "Beyonders <Highlight>who possess a dance</> need to enter the corresponding <Highlight>dance formation to dance</>.",
-    "target_ru": "Потустороннийs <Highlight>, обладающие танцем </>, должны войти в соответствующую танцевальную формацию <Highlight>, чтобы танцевать </>."
-  },
-  {
     "id": "081375",
     "source_cn": "<P_Heart>（还有一页，好像是大家的留言？）</>",
     "ref_en": "<P_Heart> (There's another page, it seems to be messages from everyone?) </>",
@@ -9610,12 +9586,6 @@
     "source_cn": "该频道无法发送语音",
     "ref_en": "Cannot send voice in this channel.",
     "target_ru": "Невозможно отправить голос по этому каналу."
-  },
-  {
-    "id": "081607",
-    "source_cn": "调查<h>梦境残影·三</>",
-    "ref_en": "Investigate <h>Dream Remnant III</>",
-    "target_ru": "Исследуйте <h>Dream Remnant III</>"
   },
   {
     "id": "081608",
@@ -12960,18 +12930,6 @@
     "target_ru": "Личная активность на прошлой неделе"
   },
   {
-    "id": "082168",
-    "source_cn": "丰饶之树_5200139_运动会_代理_2_蘑菇+藤蔓+场地污染",
-    "ref_en": "Tree of Abundance_5200139_Sports Meet_Proxy_2_Mushroom+Vine+Field Corruption",
-    "target_ru": "Tree of Abundance_5200139_Sports Meet_Proxy_2_Mushroom+Vine+Field Искажение"
-  },
-  {
-    "id": "082169",
-    "source_cn": "为非凡者恢复理智时累计成功200次",
-    "ref_en": "Successfully restore sanity to Beyonders 200 times in total.",
-    "target_ru": "Successfully restore Рассудок to Потустороннийs 200 times in total."
-  },
-  {
     "id": "082170",
     "source_cn": "他还是你的哥哥",
     "ref_en": "He is still your brother",
@@ -13714,12 +13672,6 @@
     "source_cn": "<h>店主</>似乎有话要说……",
     "ref_en": "The <h> shopkeeper </> seems to have something to say...",
     "target_ru": "Владельцу магазина <h>, </>, кажется, есть что сказать..."
-  },
-  {
-    "id": "082294",
-    "source_cn": "<h>操作角色移动</>，绘制灵性之墙",
-    "ref_en": "<h>Move your character</> to draw a wall of spirituality",
-    "target_ru": "<h>Move your character</> to draw a wall of Духовность"
   },
   {
     "id": "082295",
@@ -15096,12 +15048,6 @@
     "target_ru": "Свет (стол)"
   },
   {
-    "id": "082524",
-    "source_cn": "烬火祭司Break表现",
-    "ref_en": "Ember Priest Break performance",
-    "target_ru": "Выступление Ember Priest Break"
-  },
-  {
     "id": "082525",
     "source_cn": "生命仪式",
     "ref_en": "Life Ritual",
@@ -15400,12 +15346,6 @@
     "source_cn": "你的叫卖……很特别。",
     "ref_en": "Your hawking... is very unique.",
     "target_ru": "Ваша охота... очень уникальна."
-  },
-  {
-    "id": "082575",
-    "source_cn": "使用<h>醒神花露</>",
-    "ref_en": "Use <h>Wake-up Flower Dew</>",
-    "target_ru": "Используйте <h>Wake-up Flower Dew</>"
   },
   {
     "id": "082576",
@@ -19738,12 +19678,6 @@
     "source_cn": " Quest名: ",
     "ref_en": " Quest Name: ",
     "target_ru": "Название квеста:"
-  },
-  {
-    "id": "083300",
-    "source_cn": "5231170   王星贻个人测试位面   单人位面",
-    "ref_en": "5231170 Wang Xingyi Personal Test Instance - Single-player Instance",
-    "target_ru": "5231170 Одиночное измерение: Wang Xingyi Personal Test Instance"
   },
   {
     "id": "083301",
@@ -27466,12 +27400,6 @@
     "source_cn": "击杀谜虫",
     "ref_en": "Kill the Mystery Insect",
     "target_ru": "Убейте загадочное насекомое"
-  },
-  {
-    "id": "084591",
-    "source_cn": "切换<Orange>城市暗面</>。",
-    "ref_en": "Switch <Orange>City Dark Side</>.",
-    "target_ru": "Переключатель <Orange>City Dark Side</>."
   },
   {
     "id": "084592",

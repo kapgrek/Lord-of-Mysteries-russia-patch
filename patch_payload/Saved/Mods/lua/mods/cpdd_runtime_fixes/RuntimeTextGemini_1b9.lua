@@ -47,7 +47,6 @@ return {
     ["Jonah"] = "Иона",
     ["Filthy Spear has appeared! Break it in time!"] = "Появилось Грязное Копье! Разбейте его вовремя!",
     ["Skill Block"] = "Блок навыков",
-    ["5231183 Shen Qianyun Personal Test Instance - Single-player Instance"] = "5231183 Одиночное измерение: Shen Qianyun Personal Test Instance",
     ["Waiting for Generation"] = "Ожидание генерации",
     ["Assist "] = "Помощь",
     ["FSR Frame Generation"] = "Генерация кадров FSR",

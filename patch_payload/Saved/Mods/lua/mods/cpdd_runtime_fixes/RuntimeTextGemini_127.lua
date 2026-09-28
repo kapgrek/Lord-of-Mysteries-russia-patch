@@ -167,7 +167,6 @@ return {
     ["5200260 Antique Shop Multiplayer Scene"] = "5200260 Многопользовательская сцена антикварного магазина",
     ["Monster Point 2"] = "Монстр-пойнт 2",
     ["Family declaration contains sensitive words; please re-enter."] = "Семейное заявление содержит деликатные слова; пожалуйста, введите еще раз.",
-    ["Apple Knight Charge Performance"] = "Производительность Apple Knight Charge",
     ["Azik and the Castle (I)"] = "Азик и Замок (I)",
     ["The goods don't seem to be complete..."] = "Товар видимо не полный...",
     ["<P_Heart> (Smiling gently) </> Taking one every year is our old habit."] = "<P_Heart> (мягко улыбается) </> Принимать по одному каждый год — наша старая привычка.",

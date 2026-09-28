@@ -33,7 +33,6 @@ return {
     ["Connection Chat Topic - Azik 4"] = "Тема чата подключения - Азик 4",
     ["Too bad there's not enough firepower... this pea stewed lamb can't be cooked."] = "Жаль, что огневой мощи не хватает... эту тушеную баранину с горохом приготовить невозможно.",
     ["Afternoon tea snacks are also purchased with this money."] = "На эти деньги также приобретаются закуски к послеобеденному чаю.",
-    ["Carrying this will increase 9 Charm points."] = "Carrying this will increase 9 Оберег points.",
     ["Spark 2 - Li Zixuan"] = "Искра 2 - Ли Цзысюань",
     ["Are you leaving Tingen?"] = "Ты покидаешь Тинген?",
     ["I want to buy some of these loofahs!"] = "Я хочу купить несколько таких люф!",

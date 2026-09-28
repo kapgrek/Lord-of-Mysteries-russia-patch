@@ -214,7 +214,6 @@ return {
     ["Dummy Name"] = "Фиктивное имя",
     ["Violence can be one of the methods of reason."] = "Насилие может быть одним из методов разума.",
     ["Attempt to wave away the thick fog..."] = "Попытайтесь отмахнуться от густого тумана...",
-    ["Mid-level Beyonder Material Pack"] = "Mid-level Потусторонний Material Pack",
     ["Will do my best"] = "сделаю все возможное",
     ["What is the Order weekly cap"] = "Каков недельный лимит заказа",
     ["<P_Heart>(Stuffing the banknotes into Henry's mouth)</> How dare you defile Miss Belle's reputation with filthy money! I will never allow such behavior to happen in front of me."] = "<P_Heart> (засовывает банкноты в рот Генри) </> Как вы смеете осквернять репутацию мисс Белль грязными деньгами! Я никогда не позволю такому поведению случиться на моих глазах.",

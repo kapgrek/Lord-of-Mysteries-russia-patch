@@ -34,7 +34,6 @@ return {
     ["She always comes to buy small bouquets of the brightest flowers, saying she wants to put them on her desk to 'let the boring official documents soak up some sun.' Her words are like little birds, light and numerous; it makes one happy just to listen."] = "Она всегда приходит купить маленькие букетики самых ярких цветов, говоря, что хочет поставить их на свой стол, чтобы «позволить скучным официальным документам понежиться на солнышке». Слова ее подобны птичкам, легкими и многочисленными; просто слушать делает человека счастливым.",
     ["It can let it can let it can"] = "Он может позволить ему может позволить ему позволить",
     ["Poetry club member"] = "Член поэтического клуба",
-    ["Prologue Flow Version-Magic Circle I"] = "Версия Prologue Flow — Magic Circle I",
     ["Unlock all systems, add buffs, adjust skills, reach level 50 of CBT2."] = "Разблокируйте все системы, добавьте усиления, настройте навыки, достигните 50-го уровня ЗБТ2.",
     ["Werewolf Shield"] = "Щит оборотня",
     ["Terrible, he's going a bit mad, must control him first"] = "Ужасно, он немного сходит с ума, надо сначала его контролировать",

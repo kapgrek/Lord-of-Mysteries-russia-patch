@@ -3732,12 +3732,6 @@
     "target_ru": "【Сцена】 Ботаническая живопись"
   },
   {
-    "id": "115622",
-    "source_cn": "【通用】给怪物的霸体",
-    "ref_en": "[General] Super Armor for monsters",
-    "target_ru": "[General] Суперброня for monsters"
-  },
-  {
     "id": "115623",
     "source_cn": "七重试炼将铸就你的锋芒。试问！你，准备好了吗？",
     "ref_en": "The Seven Trials will forge your edge. I ask! Are you ready?",
@@ -5284,12 +5278,6 @@
     "source_cn": "“在那些书籍面前，我感觉自己像只卷毛狒狒。”",
     "ref_en": "\"In front of those books, I feel like a Curly-Haired Baboon.\"",
     "target_ru": "«Перед этими книгами я чувствую себя кудрявым павианом»."
-  },
-  {
-    "id": "115882",
-    "source_cn": "【Rougue】空间斩Ⅲ",
-    "ref_en": "[Roguelike] Space Slash III",
-    "target_ru": "[Рогалик] Space Slash III"
   },
   {
     "id": "115883",
@@ -9832,12 +9820,6 @@
     "source_cn": "【占位-动画】克莱恩沿着楼梯向上走去。突然，一道身影拦在了他的面前。",
     "ref_en": "[Placeholder-Animation] Klein walks up the stairs. Suddenly, a figure blocks his path.",
     "target_ru": "[Анимация заполнителя] Клейн поднимается по лестнице. Внезапно чья-то фигура преграждает ему путь."
-  },
-  {
-    "id": "116640",
-    "source_cn": "【秘偶技】幻化身形",
-    "ref_en": "[Marionette Skill] Phantom Form",
-    "target_ru": "[Марионетка Skill] Phantom Form"
   },
   {
     "id": "116641",
@@ -15576,12 +15558,6 @@
     "target_ru": "…Что за дрянное любовное стихотворение, интересно, смогу ли я найти хозяина, проследив за щенком?"
   },
   {
-    "id": "117602",
-    "source_cn": "【秘偶技】星之虫-梦境分析",
-    "ref_en": "[Marionette Skill] Worm of Star - Dream Analysis",
-    "target_ru": "[Марионетка Skill] Worm of Star - Dream Analysis"
-  },
-  {
     "id": "117604",
     "source_cn": "一旦失误，就会一步步走向失控。现代值夜者体系的创立者，查尼斯大主教曾经说过——",
     "ref_en": "Once a mistake is made, one will step by step move towards loss of control. The founder of the modern Nighthawk system, Archbishop Chanis, once said—",
@@ -18502,12 +18478,6 @@
     "source_cn": "麦凯",
     "ref_en": "McKay",
     "target_ru": "Маккей"
-  },
-  {
-    "id": "118093",
-    "source_cn": "黑荆棘3关卡5-QTE光环",
-    "ref_en": "Black Thorn 3 Stage 5 - QTE Aura",
-    "target_ru": "Black Thorn 3 Этап 5 — QTE Aura"
   },
   {
     "id": "118094",
@@ -21454,12 +21424,6 @@
     "source_cn": "为什么评分没有增长",
     "ref_en": "Why is the rating not increasing",
     "target_ru": "Почему не повышается рейтинг"
-  },
-  {
-    "id": "118587",
-    "source_cn": "为老约翰占卜",
-    "ref_en": "Divination for Old John",
-    "target_ru": "Гадание for Old John"
   },
   {
     "id": "118588",

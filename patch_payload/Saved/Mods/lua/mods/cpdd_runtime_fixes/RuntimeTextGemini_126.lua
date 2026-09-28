@@ -185,7 +185,6 @@ return {
     ["Connection Topic - Frye 2: About Companions"] = "Тема подключения - Фрай 2: О компаньонах",
     ["8, 7:01, 6 locations, 11:10:15"] = "8, 7:01, 6 локаций, 11:10:15",
     ["Cutscene editor Lua environment initialized successfully"] = "Среда Lua редактора катсцен успешно инициализирована",
-    ["Open <Highlight>City Dark Side</>."] = "Откройте <Highlight>City Dark Side</>.",
     ["Thanks again for your help. But why did they all disappear?"] = "Еще раз спасибо за вашу помощь. Но почему они все исчезли?",
     ["New Template Monster - Moon Fish"] = "Новый шаблонный монстр — Лунная рыба",
     ["Your pieces gain 12% Attack Speed."] = "Скорость атаки ваших фигур увеличивается на 12%.",

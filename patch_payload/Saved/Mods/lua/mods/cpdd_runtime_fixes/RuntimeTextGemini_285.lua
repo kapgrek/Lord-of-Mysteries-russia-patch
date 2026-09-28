@@ -181,7 +181,6 @@ return {
     ["测试用寻路到阿罗德斯"] = "Тестовый поиск пути к Арродесу",
     ["混秩湖-秩序湖2-等待传送-水渠开后干涸"] = "Озеро Хаоса и Порядка – Озеро Приказа 2 – Ожидание телепортации – Высыхает после открытия канала",
     ["灯光（桌子）"] = "Свет (стол)",
-    ["烬火祭司Break表现"] = "Выступление Ember Priest Break",
     ["生命仪式"] = "Жизненный Ритуал",
     ["祈祷听取2"] = "Слушаю молитву 2.",
     ["窥视中……"] = "Подглядываю...",
@@ -271,6 +270,7 @@ return {
     ["Tree of Abundance - Normal - Dancing King Baboon Brother Refuse Fashion Duel"] = "Древо изобилия - Обычный - Отказ от поединка стиля «Танцующий король-бабуин»",
     ["Give me the official seal! I'll give you money, I'll introduce you to the kingdom's High Judge, I'll make you an official!"] = "Быстро отдай мне печать! Я дам тебе денег, познакомлю тебя с верховным судьёй королевства, сделаю тебя чиновником!",
     ["You can almost feel the cedar sprouting and breaking through the soil in your mouth, with a lingering, slightly bitter woody fragrance on your lips and tongue."] = "Во рту почти чувствуется, как кедр прорастает сквозь землю — на губах и языке остаётся стойкий, слегка горьковатый древесный аромат.",
+    ["烬火祭司Break表现"] = "Ember Priest Break performance",
     ["得看你要问什么问题，才能挑合适的占卜师。"] = "От того, какой вопрос вы хотите задать, зависит выбор подходящего прорицателя.",
     ["Marie"] = "Мари",
 }

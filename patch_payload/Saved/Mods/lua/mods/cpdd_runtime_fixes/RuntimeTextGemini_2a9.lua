@@ -74,7 +74,6 @@ return {
     ["<img id=\"Tips\" Width=\"40\" Height=\"40\"/>%s：%s/%d次"] = "<img id=\"Tips\" Width=\"40\" Height=\"40\"/>%s: %s/%d раз",
     ["Tab轮选测试配置-距离优先（退化1）-奶妈"] = "Конфигурация теста выбора вкладки — Приоритет расстояния (пониженный 1) — Целитель",
     ["bUseMovableAttack为true且InitRange与EndRange坐标类型相同时，InitShapeType(%s)与EndShapeType(%s)必须一致"] = "Если bUseMovableAttack имеет значение true и типы координат InitRange и EndRange одинаковы, InitShapeType (%s) и EndShapeType (%s) должны быть согласованы.",
-    ["【Rogue】空间斩Ⅲ"] = "[Рогалик] Space Slash III",
     ["【五月庄园】一号信徒-小女孩-传送位置"] = "[May Manor] Верующий номер один — Маленькая девочка — Позиция телепортации",
     ["【塔罗会·异化猎犬】档6增量(+25%)→累计190%"] = "【Клуба Таро · Чужая гончая】Прирост 6 уровня (+25%) → совокупно 190%",
     ["【特莉丝剧情战】邓恩"] = "[История Трисси] Данн",
@@ -243,4 +242,5 @@ return {
     ["<DecH> Craft: </> Night Tapestry \n Under the deep night, whispers grow in the salon. Just now, whose snowy fur brushed against my palm?"] = "<DecH>Материал:</> Гобелен ночи\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",
     ["The determination to protect is the dawn of darkness."] = "Решимость защищать — это и есть рассвет Тьмы.",
     ["Rather than satisfying requirements, she needs someone who can understand her to be by her side."] = "Вместо того чтобы удовлетворять требования, ей нужен тот, кто сможет её понять и быть рядом.",
+    ["【Rogue】空间斩Ⅲ"] = "[Roguelike] Space Slash III",
 }

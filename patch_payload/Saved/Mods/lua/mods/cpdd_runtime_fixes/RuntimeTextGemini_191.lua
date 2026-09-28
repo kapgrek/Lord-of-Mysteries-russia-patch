@@ -245,7 +245,6 @@ return {
     ["Event Framework"] = "Структура событий",
     ["The main structure of the castle retains the architectural features of the end of the Fourth Epoch to the beginning of the Fifth Epoch."] = "Основная структура замка сохраняет архитектурные особенности конца Четвертой – начала Пятой Эпохи.",
     ["Operate Sword-Sealing Coffin"] = "Эксплуатация гроба, запечатанного мечом",
-    ["Mystery Pryer - Roguelike BD - Eye of Insight"] = "Тайноведец - Roguelike BD - Eye of Insight",
     ["The tabletop is intentionally left blank, just to let thoughts unfold smoothly."] = "Столешница намеренно оставлена ​​пустой, просто чтобы мысли могли плавно развиваться.",
     ["Appreciation"] = "Признательность",
     ["Transaction Result"] = "Результат транзакции",

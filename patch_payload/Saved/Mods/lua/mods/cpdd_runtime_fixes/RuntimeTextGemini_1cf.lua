@@ -203,7 +203,6 @@ return {
     ["Drill BOSS"] = "Дрель БОСС",
     ["Daisy Bouquet 1"] = "Букет ромашек 1",
     ["Item Submission Test 0"] = "Тест на отправку предмета 0",
-    ["[Marionette Skill] Baboon Blessing - Summon LV2"] = "[Марионетка Skill] Baboon Blessing - Summon LV2",
     ["Miss Belle, it was you who brought me freedom. What is a little hair compared to that?"] = "Мисс Белль, это вы принесли мне свободу. Что такое маленькие волосы по сравнению с этим?",
     ["This little dive bar doesn't have bounty hunters or host any entertainment, so feel free to come in for a glass of rye beer or Tei-Lang-Chi as you please."] = "В этом маленьком дайв-баре нет охотников за головами и нет развлечений, так что смело заходите на стакан ржаного пива или Тей-Ланг-Чи, когда захотите.",
     ["Passenger 4"] = "Пассажир 4",

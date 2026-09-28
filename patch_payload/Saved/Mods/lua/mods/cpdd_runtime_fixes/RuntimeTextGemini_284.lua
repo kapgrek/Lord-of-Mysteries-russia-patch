@@ -80,7 +80,6 @@ return {
     ["<P_Heart>（松鼠语）</>然后……我就什么都不知道了……"] = "<P_Heart> (Беличий язык) </> А потом... Я уже ничего не знал...",
     ["<P_Heart>（让他得到教训，停止他的花心。）</>"] = "<P_Heart> (Преподайте ему урок и положите конец его развратам.) </>",
     ["<h>店主</>似乎有话要说……"] = "Владельцу магазина <h>, </>, кажется, есть что сказать...",
-    ["<h>操作角色移动</>，绘制灵性之墙"] = "<h>Move your character</> to draw a wall of Духовность",
     ["<h>芬恩</>正在选花"] = "<h>Finn</> выбирает цветы",
     ["Boss_管家"] = "Босс_Батлер",
     ["[数据库错误]角色反序列化失败。"] = "[Ошибка базы данных] Не удалось выполнить десериализацию символов.",
@@ -283,5 +282,6 @@ return {
     ["Dice are dice, and luck is luck. As for why I win every time... it's purely a coincidence."] = "Кости — это кости, удача — это удача. А почему я выигрываю каждый раз... чистое совпадение.",
     ["别想那件事了，现在有比骑马更有趣的事情了，下次我们去飙车吧，就开你那辆敞篷车。"] = "Забудь об этом. Сейчас есть кое-что интереснее верховой езды — в следующий раз давай погоняем, на твоём кабриолете.",
     ["It was that war which occurred after the Twenty Years' War and before the War of the Oathbreakers. It allowed Loen to defeat Intis and become powerful once again!"] = "Это была та война, что произошла после Двадцатилетней войны и до Войны клятвопреступников. Она позволила Лоэну победить Интис и снова стать могущественным!",
+    ["<h>操作角色移动</>，绘制灵性之墙"] = "<h>Move your character</> to draw a wall of spirituality",
     ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

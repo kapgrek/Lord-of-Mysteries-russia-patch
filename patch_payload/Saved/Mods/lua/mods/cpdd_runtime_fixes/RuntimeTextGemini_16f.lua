@@ -214,7 +214,6 @@ return {
     ["The music heard"] = "Музыка услышала",
     ["5200237 Disordered Labyrinth Multiplayer Scene"] = "5200237 Многопользовательская сцена в неупорядоченном лабиринте",
     ["Log in for a total of 7 days"] = "Войти в общей сложности 7 дней",
-    ["【Dungeon】Inheritance of Memory · Corruption, 1302526"] = "【Dungeon】Inheritance of Memory · Искажение, 1302526",
     ["You really don't hold back, do you."] = "Ты действительно не сдерживаешься, не так ли?",
     ["<P_Heart> (Glanced at his pocket watch) </> It's getting late; I need to go prepare."] = "<P_Heart> (взглянул на карманные часы) </> Уже поздно; Мне нужно пойти подготовиться.",
     ["There is danger nearby!"] = "Рядом опасность!",

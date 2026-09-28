@@ -36,7 +36,6 @@ return {
     ["I just wanted... to have a home again."] = "Я просто хотел... снова иметь дом.",
     ["5230144 Veterans Club Plane"] = "5230144 Самолет Клуба ветеранов",
     ["<Highlight>Craft: </>Academy Uniform\nOn the walls of the academy, moss and soil grow alternately in the gaps of the square bricks, one square green, one square brownish-yellow."] = "<Highlight>Мастерство:</> Форма академии\nНа кирпичной ограде академии в стыках плит чередуются мох и сырая земля: полоса сочной зелени, полоса бурой глины.",
-    ["May Manor Garden mechanics"] = "Механика May Manor Garden",
     ["Mystical item Beyonder knowledge level increased"] = "Увеличен уровень знаний мистического предмета Потусторонний.",
     ["Black Emperor"] = "Черный Император",
     ["Ask the tourists"] = "Спроси у туристов",

@@ -5076,12 +5076,6 @@
     "target_ru": "Такой красивый!"
   },
   {
-    "id": "090848",
-    "source_cn": "委托站点：廷根湖",
-    "ref_en": "Commission Station: Tingen Lake",
-    "target_ru": "Commission Station: Тинген Lake"
-  },
-  {
     "id": "090849",
     "source_cn": "完成街头竞速赛事",
     "ref_en": "Complete the street racing event",
@@ -6844,12 +6838,6 @@
     "source_cn": "有龙息标记时追加300伤害，CD4秒",
     "ref_en": "Deal 300 additional damage when target has Dragon Breath Mark, CD 4 seconds",
     "target_ru": "Наносит 300 дополнительного урона, когда цель имеет Метку дыхания дракона, время восстановления 4 секунды."
-  },
-  {
-    "id": "091143",
-    "source_cn": "未装备伙伴、秘偶技能",
-    "ref_en": "No Partner or Marionette Skill equipped",
-    "target_ru": "No Partner or Марионетка Skill equipped"
   },
   {
     "id": "091144",
@@ -11410,12 +11398,6 @@
     "source_cn": "海纳斯梦境一",
     "ref_en": "Haines' Dream 1",
     "target_ru": "Мечта Хейнса 1"
-  },
-  {
-    "id": "091905",
-    "source_cn": "火焰火焰  —  Lv 62 | Seer | 3 m | Inspect",
-    "ref_en": "Flame Fire — Lv 62 | Seer | 3 m | Inspect",
-    "target_ru": "Flame Fire — Lv 62 | Провидец | 3 m | Inspect"
   },
   {
     "id": "091906",
@@ -22398,12 +22380,6 @@
     "target_ru": "Герой - Упражнение - Стеки Monster Overload"
   },
   {
-    "id": "093745",
-    "source_cn": "英雄外城1材料",
-    "ref_en": "Hero Outer City 1 Material",
-    "target_ru": "Материалы Hero Outer City 1"
-  },
-  {
     "id": "093746",
     "source_cn": "获取%d/6000悬赏值",
     "ref_en": "Obtain %d/6000 Bounty Value.",
@@ -24172,12 +24148,6 @@
     "source_cn": "　　当你展开这封信笺时，芬芳的气息已将你包裹。这并非偶然，而是必然的命运——你被选中了。\\n\\n　　在贝克兰德雾气弥漫的街头，在廷根宁静的小巷深处，有这样一群人：他们追求极致的美丽，拥抱命运的无常，在灾厄中翩翩起舞。\\n\\n　　我们是春夜舞会。\\n\\n　　我们侍奉的是不幸与美丽的源头，是将灾难化作艺术的存在。在祂的庇护下，我们明晰了一个真理：\\n\\n　　真正的美，诞生于毁灭与重生之间。\\n\\n　　若你愿意加入我们，请前往\"珠宝店\"门口右侧。\\n\\n　　记住，我们不接受怯懦者，不欢迎虚伪者。唯有敢于凝视深渊，敢于拥抱真实的人，才配得上这场永不落幕的舞会。\\n\\n　　期待你的到来。",
     "ref_en": "　　As you unfold this letter, a fragrant scent already envelops you. This is no coincidence, but an inevitable fate—you have been chosen. \\n\\n　　In the fog-drenched streets of Backlund, deep within the quiet alleys of Tingen, there exists a group of people: they pursue ultimate beauty, embrace the impermanence of fate, and dance gracefully amidst disaster. \\n\\n　　We are the Spring Night Ball. \\n\\n　　We serve the source of misfortune and beauty, the existence that transforms catastrophe into art. Under His shelter, we have realized a truth: \\n\\n　　True beauty is born between destruction and rebirth. \\n\\n　　If you are willing to join us, please head to the right side of the \"Jewelry Store\" entrance. \\n\\n　　Remember, we do not accept the cowardly, nor do we welcome the hypocritical. Only those who dare to gaze into the abyss and dare to embrace the truth are worthy of this ball that never ends. \\n\\n　　Looking forward to your arrival.",
     "target_ru": "　　Когда вы развернёте это послание, вас окутает пьянящий аромат. Это не случайность, а неизбежный рок: вы были избраны.\n\n　　На туманных улицах Баклунда и в тихих закоулках Тингена живут те, кто стремится к совершенной красоте, принимает переменчивость рока и кружится в танце посреди катастроф.\n\n　　Мы — Весенний ночной бал.\n\n　　Мы служим первоисточнику несчастий и красоты — сущности, претворяющей бедствия в искусство. Под Её сенью мы постигли истину:\n\n　　Истинная красота рождается на стыке гибели и возрождения.\n\n　　Если вы желаете присоединиться к нам, ступайте к правому крылу ювелирной лавки.\n\n　　Помните: трусам здесь не место, а лицемерам мы не рады. Лишь те, кто дерзает вглядываться в бездну и принимать правду лицом к лицу, достойны этого нескончаемого бала.\n\n　　Ждём вас."
-  },
-  {
-    "id": "094044",
-    "source_cn": "【秘偶技】星之虫-烈阳颂歌",
-    "ref_en": "[Marionette Skill] Worm of Star - Solar Anthem",
-    "target_ru": "[Марионетка Skill] Worm of Star - Solar Anthem"
   },
   {
     "id": "094045",
@@ -26134,12 +26104,6 @@
     "source_cn": "歌颂者：对罪孽深重目标易伤10%",
     "ref_en": "Bard: 10% Vulnerability to targets with heavy sins",
     "target_ru": "Бард: 10% уязвимости к целям с тяжелыми грехами."
-  },
-  {
-    "id": "094372",
-    "source_cn": "死鹿-QTE前",
-    "ref_en": "Dead Deer-Before QTE",
-    "target_ru": "Dead Deer-до QTE"
   },
   {
     "id": "094373",

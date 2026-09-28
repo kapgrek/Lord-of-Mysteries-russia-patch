@@ -157,7 +157,6 @@ return {
     ["HP Lock 90%"] = "Блокировка ОЗ 90%",
     ["Agate"] = "Агат",
     ["Talent 1-3 Damage Boost (Coordinated Attack)"] = "Талант 1-3 Увеличение урона (скоординированная атака)",
-    ["[Marionette Skill] Hound Charge - Reference Hit"] = "[Марионетка Skill] Hound Charge - Reference Hit",
     ["The badge. The Rose badge. Without it, you won't even touch the first step."] = "Значок. Значок Розы. Без него вы даже не прикоснетесь к первому шагу.",
     ["Achievement: Sequence Advancement"] = "Достижение: Продвижение последовательности",
     ["Persuade <h> Ella </>"] = "Убедить <h> Эллу </>",

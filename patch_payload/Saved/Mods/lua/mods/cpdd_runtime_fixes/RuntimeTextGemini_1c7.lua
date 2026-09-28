@@ -252,7 +252,6 @@ return {
     ["Pan-around ball 2"] = "Панорамный шар 2",
     ["Leave it to Irene to handle"] = "Предоставьте это Ирен.",
     ["Path for grocery shopping"] = "Дорога за продуктами",
-    ["[Marionette Skill] Baboon Blessing - Summon LV4"] = "[Марионетка Skill] Baboon Blessing - Summon LV4",
     ["Allow duplicate outfits"] = "Разрешить дублирование нарядов",
     ["Item Submission Test 2"] = "Тест на отправку предметов 2",
     ["Wait, Madam, why are the needles in your hand so long?"] = "Подождите, мадам, почему иглы в вашей руке такие длинные?",

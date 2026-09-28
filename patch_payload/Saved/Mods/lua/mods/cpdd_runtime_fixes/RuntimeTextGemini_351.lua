@@ -222,7 +222,6 @@ return {
     ["Club Roaming - Wine Tasting"] = "Клубный роуминг - Дегустация вин",
     ["Bellamy"] = "Беллами",
     ["Cough! Nothing! Sit down quickly!"] = "Кашель! Ничего! Садись скорее!",
-    ["[Marionette Skill] Worm of Star - Dream Analysis"] = "[Марионетка Skill] Worm of Star - Dream Analysis",
     ["Restore Record"] = "Восстановить запись",
     ["Return to Morgan"] = "Вернитесь к Моргану",
     ["You will definitely succeed"] = "У тебя обязательно получится",

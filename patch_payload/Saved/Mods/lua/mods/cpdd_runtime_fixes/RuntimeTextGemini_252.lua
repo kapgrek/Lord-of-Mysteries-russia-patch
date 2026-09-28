@@ -195,7 +195,6 @@ return {
     ["Wine Barrel Closed"] = "Винная бочка закрыта",
     ["Is there any news recently?"] = "Есть ли какие-нибудь новости в последнее время?",
     ["That is because, because..."] = "Это потому, потому что...",
-    ["[Marionette Skill] Worm of Star - Solar Anthem"] = "[Марионетка Skill] Worm of Star - Solar Anthem",
     ["[Text] Truth"] = "[Текст] Правда",
     ["You should go to the Factory District and conduct a further investigation. Klein can provide support with divination or Ritual Magic."] = "Вам следует отправиться в Фабричный район и провести дальнейшее расследование. Клейн может оказать поддержку с помощью гадания или ритуальной магии.",
     ["Partner - Leonard - Midnight Poem - Skill Agent Actual"] = "Партнер - Леонард - Полуночная поэма - Навык агента",

@@ -243,7 +243,6 @@ return {
     ["Life - Confession Time"] = "Жизнь - Время исповеди",
     ["Hero - Drill - Lightning Beacon - Charge level display"] = "Герой - Дрель - Световой маяк - Отображение уровня заряда",
     ["After use, increases the <Highlight>Appearance Conquest Progress</> for the <Highlight>Tree of Abundance</> dungeon by 1 point. Once the progress reaches a certain value, you can obtain 1 random common appearance from that dungeon."] = "После использования увеличивает прогресс завоевания <Highlight>Appearance </> для подземелья <Highlight>Tree of Abundance</> на 1 очко. Как только прогресс достигнет определенного значения, вы сможете получить 1 случайный обычный облик из этого подземелья.",
-    ["Retrace - Black-Sinking Wilderness 4"] = "Возвращение — Black-Sinking Wilderness 4",
     ["Use to obtain Body Effect: <Highlight> Eternal Night Thorns: Head </>"] = "Используйте, чтобы получить Эффект тела: <Highlight> Шипы Вечной Ночи: Голова </>.",
     ["Click to open book"] = "Нажмите, чтобы открыть книгу",
     ["But?"] = "Но?",

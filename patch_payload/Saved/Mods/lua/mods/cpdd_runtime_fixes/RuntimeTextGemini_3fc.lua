@@ -63,7 +63,6 @@ return {
     ["Wuaah!"] = "Уаа!",
     ["Armor Break 30"] = "Прорыв брони 30",
     ["Azik said to meet up tomorrow; let's investigate the residents around Lamud Castle first."] = "Азик сказал встретиться завтра; давайте сначала исследуем жителей вокруг замка Ламуд.",
-    ["Order Web Effect TBD 2"] = "Заказать Web Effect TBD 2",
     ["It's quite good; the benefits are generous, and the colleagues seem very friendly."] = "Это довольно хорошо; льготы щедры, а коллеги кажутся очень дружелюбными.",
     ["Blackthorn Incident Book 3 gold coins reset to zero"] = "Золотые монеты Книги происшествий Блэкторна 3 обнулены",
     ["Nighthawk - Xiga"] = "Ночной Ястреб - Сига",

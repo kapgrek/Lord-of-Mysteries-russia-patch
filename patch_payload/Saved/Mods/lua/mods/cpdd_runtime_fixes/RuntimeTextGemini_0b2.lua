@@ -92,7 +92,6 @@ return {
     ["怎么会呢？你再看看，上面写着“追风雪的人”。"] = "Как такое могло быть? Посмотрите еще раз, там написано «Snow Chaser».",
     ["您无法拉黑您的誓约对象。"] = "Вы не можете заблокировать того, кому вы пообещали.",
     ["感谢你的喜欢。"] = "Спасибо за ваши лайки.",
-    ["成就-净万灵"] = "Достижение-Pure All Souls",
     ["我一直希望我能陪他从痛苦中走出来。但他的恐惧超过了一切。"] = "Я всегда надеюсь, что смогу сопровождать его, чтобы избавиться от боли. Но его страх перевесил все.",
     ["我听说了，策划的文案被偷了！"] = "Я слышал, что запланированный экземпляр украли!",
     ["找到<h>管家贝利夫</>"] = "Найден <h>Батлер Беллиф</>",
@@ -282,6 +281,7 @@ return {
     ["Strategic Server Final Hunt Personal Kills"] = "Стратегический сервер: количество личных убийств в финальной охоте",
     ["获得神降道具<Yellow>【神之契约】</>\n开启任务<Yellow>“【神降】荣光织造·灵骑”</>的重要道具"] = "Получен предмет Схождения бога <Yellow>【Завет Бога】</>\nВажный предмет для задания <Yellow>«【Схождение бога】 Ткачество славы: Дух-скакун»</>",
     ["Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Damage Reduction."] = "[Потустороннее существо] Урон, наносимый фигурами, увеличен на <HighLight>50%</>; после участия в <HighLight>4</> раундах боя против игроков дополнительно получает <HighLight>25%</> Снижение урона.",
+    ["成就-净万灵"] = "Achievement - Purifying Ten Thousand Spirits",
     ["Young people!\nDo not let the fire of wisdom be extinguished between your fingers!\n\nAnyone who has received a school admission notice but cannot afford the tuition,\nthe Loen Charity Scholarship Foundation will help you with your studies.\n\nApplication Qualifications:\nMust hold a parish recommendation letter or school admission notice, and family income proof\n\nApplication Method:\nSubmit your self-recommendation letter to the <Highlight>local Evernight Church</>"] = "Юноши и девушки!\nНе дайте пламени мудрости угаснуть в ваших руках!\n\nКаждому, кто получил извещение о зачислении в школу, но не в силах оплатить обучение,\nБлаготворительный стипендиальный фонд Лоэна поможет обрести знания.\n\nТребования к соискателям:\nНеобходимо предоставить рекомендательное письмо прихода или извещение о зачислении в школу, а также справку о доходах семьи.\n\nПодача заявления:\nОпустите рекомендательное письмо в <Highlight>местной церкви Богини Вечной Ночи</>.",
     ["诸位 笑一个吧 感谢你们帮我找到笔记"] = "Все, улыбнитесь. Спасибо, что помогли мне найти записи.",
 }

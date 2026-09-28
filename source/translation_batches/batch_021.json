@@ -1272,12 +1272,6 @@
     "target_ru": "AnimBlur (только шрифты SDF)"
   },
   {
-    "id": "100213",
-    "source_cn": "《非凡生物在哪里》",
-    "ref_en": "Where to Find Beyonder Creatures",
-    "target_ru": "Where to Find Потусторонний Creatures"
-  },
-  {
     "id": "100214",
     "source_cn": "不提这些旧事了，{{先生|女士}}，别让这些影响您欣赏山脚下的景色。",
     "ref_en": "Let's not talk about these old matters, {{Mr.|Ms.}}. Don't let these affect your enjoyment of the scenery at the foot of the mountain.",
@@ -2686,12 +2680,6 @@
     "source_cn": "[SceneCustomSystem]: 当前显示的展台实时数据 = %s",
     "ref_en": "[SceneCustomSystem]: Currently displayed display stand real-time data = %s",
     "target_ru": "[SceneCustomSystem]: текущие отображаемые данные стенда в реальном времени = %s."
-  },
-  {
-    "id": "100450",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV5",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV5",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV5"
   },
   {
     "id": "100451",
@@ -5776,12 +5764,6 @@
     "source_cn": "　　教会传来消息，封印物2-327“看见我”失窃。占卜显示线索指向黑伍德庄园。\\n　　黑伍德男爵今晚举办舞会。我们需要一个善于观察的人混入舞会调查——你是序列9“观众”，没有比你更合适的人选。\\n　　你的身份已安排妥当：贝克兰德来的新兴商人，听闻庄园有投资机会，受邀赴宴。\\n　　记住，观众不登台。\\n　　观察，不要打草惊蛇。",
     "ref_en": "The Church has received news that Sealed Artifact 2-327 \"See Me\" has been stolen. Divination indicates the clues point to Heywood Manor. \\n Baron Heywood is hosting a ball tonight. We need someone good at observing to infiltrate the ball and investigate—you are a Sequence 9 \"Spectator,\" and there is no one more suitable than you. \\n Your identity has been arranged: an emerging merchant from Backlund, invited to the banquet after hearing about investment opportunities in the manor. \\n Remember, the Spectator does not take the stage. \\n Observe, do not alert the enemy.",
     "target_ru": "Из церкви пришло известие, что Запечатанный Артефакт 2-327 «Увидь Меня» был украден. Гадание показывает подсказки, ведущие в поместье Блэквуд. \n　Барон Блэквуд сегодня вечером проводит бал. Нам нужен кто-то, кто хорошо наблюдает, чтобы проникнуть в танцевальное расследование - вы - «аудитория» 9-го эпизода, и нет более подходящего кандидата, чем вы. \n　Ваша личность установлена: новый бизнесмен из Баклунда. Услышав, что в поместье есть инвестиционные возможности, его пригласили на банкет. \n Помните, зрители не на сцене. \n　Следите, не прыгайте на траву и не предупреждайте змею."
-  },
-  {
-    "id": "100968",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV4",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV4",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV4"
   },
   {
     "id": "100969",
@@ -8910,12 +8892,6 @@
     "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Значение здравомыслия</>\nПри игре в необычном мире различные события могут привести к колебаниям значения здравомыслия игрока. Когда значение здравомыслия продолжает снижаться, ненормальное состояние начнется с физического тела и постепенно распространится на эфирное тело, ментальное тело, астральное тело и духовное тело. Персонаж по очереди будет входить в разные уровни психических состояний и производить соответствующие эффекты. \n\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Реквием</>\n Игроки, вступившие в Общество поэм-реквиемов, могут исполнять реквием по другим игрокам, а <Highlight> восстанавливает </> уровень здравомыслия соответствующего игрока. \n\nПосле включения экстрасенсорного зрения нажмите на других игроков, чтобы просмотреть их состояние здравомыслия. Когда значение здравомыслия <Highlight> целевого игрока ниже определенного значения </>, на нем можно запустить Реквием. Вероятность успешного лечения <Highlight> реквиема \n </> зависит от двух факторов: уровня общества <Highlight>, в котором находится реквием </>, и текущего значения здравомыслия <Highlight> реквиема </>. Чем выше уровень общества, тем выше значение здравомыслия противника и тем выше вероятность успешного реквиема. \n Следует отметить, что реквием не лишен риска - <Highlight> Если реквием не удастся </>, здравомыслие обеих участвующих сторон может пошатнуться, что приведет к определенным потерям."
   },
   {
-    "id": "101493",
-    "source_cn": "【秘偶技】隐匿刺击LV5",
-    "ref_en": "[Marionette Skill] Hidden Stab LV5",
-    "target_ru": "[Марионетка Skill] Hidden Stab LV5"
-  },
-  {
     "id": "101494",
     "source_cn": "下眼睑中间",
     "ref_en": "Middle lower eyelid",
@@ -11734,12 +11710,6 @@
     "source_cn": "……这应该就是尤朵拉了。",
     "ref_en": "...This must be Yodora.",
     "target_ru": "...Это, должно быть, Йодора."
-  },
-  {
-    "id": "101965",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV6",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV6",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV6"
   },
   {
     "id": "101966",
@@ -14646,12 +14616,6 @@
     "target_ru": "[16] Забота о счастье"
   },
   {
-    "id": "102452",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV1",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV1",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV1"
-  },
-  {
     "id": "102453",
     "source_cn": "一张沾着污迹的小纸条被压在角落。",
     "ref_en": "A small, stained note was pressed into the corner.",
@@ -16674,12 +16638,6 @@
     "target_ru": "То, что вы видите, — это всего лишь поверхность; то, что вы анализируете, является правдой."
   },
   {
-    "id": "102791",
-    "source_cn": "窥秘人-肉鸽BD-星沙突击",
-    "ref_en": "Mystery Pryer - Roguelike BD - Star Sand Assault",
-    "target_ru": "Тайноведец - Roguelike BD - Star Sand Assault"
-  },
-  {
     "id": "102792",
     "source_cn": "第一赛季第七天，扮演等级大于等于61级，且完成前置任务《成为非凡者》后解锁",
     "ref_en": "Day 7 of the first season, unlocked at Acting level 61 or higher and after completing the prerequisite quest \"Becoming a Beyonder\".",
@@ -16960,12 +16918,6 @@
     "source_cn": "不知道，她从来不跟我们提这些。每年这时候她都去，说是去看一位故人。",
     "ref_en": "No, she never mentions these things to us. She goes away at this time every year, saying she's going to visit an old friend.",
     "target_ru": "Нет, она никогда не упоминает нам об этих вещах. Каждый год она уезжает в это время, говоря, что собирается навестить старого друга."
-  },
-  {
-    "id": "102839",
-    "source_cn": "不要 不要成为非凡者",
-    "ref_en": "Don't, don't become a Beyonder.",
-    "target_ru": "Don't, don't become a Потусторонний."
   },
   {
     "id": "102840",
@@ -20682,12 +20634,6 @@
     "target_ru": "【Подземелье】Театр Утопии · Сложность 8"
   },
   {
-    "id": "103461",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV3",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV3",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV3"
-  },
-  {
     "id": "103462",
     "source_cn": "一顶属于旧时代的童帽。\\n面料虽寻常，针脚却细密整齐，仿佛曾因某种\\n执念而被保存完好。",
     "ref_en": "A child's hat from the old era.\\n Although the fabric is ordinary, the stitches are fine and neat, as if it had been kept well-preserved due to some\\n obsession.",
@@ -22120,12 +22066,6 @@
     "source_cn": "祂笑了。与此同时，医生的嘴角也缓缓扬起。女主人露出了同样的笑容。仆人的呜咽戛然而止。",
     "ref_en": "He smiled. At the same time, the doctor's mouth also slowly curled upward. The hostess revealed the same smile. The servant's whimpering stopped abruptly.",
     "target_ru": "Он улыбнулся. В то же время рот доктора медленно изогнулся вверх. Хозяйка показала ту же улыбку. Всхлипывание слуги резко прекратилось."
-  },
-  {
-    "id": "103702",
-    "source_cn": "离开梦境·定位·卡萝",
-    "ref_en": "Leave Dream·Positioning·Carol",
-    "target_ru": "Оставь Dream·Positioning·Carol"
   },
   {
     "id": "103703",
@@ -23770,12 +23710,6 @@
     "source_cn": "【副本】乌托邦剧院·难度9",
     "ref_en": "【Dungeon】Utopia Theater · Difficulty 9",
     "target_ru": "【Подземелье】Театр Утопии · Сложность 9"
-  },
-  {
-    "id": "103977",
-    "source_cn": "【秘偶技】狒狒祝福-召唤LV2",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Summon LV2",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Summon LV2"
   },
   {
     "id": "103978",
@@ -28864,12 +28798,6 @@
     "source_cn": "什么知识？",
     "ref_en": "What knowledge?",
     "target_ru": "Какие знания?"
-  },
-  {
-    "id": "104828",
-    "source_cn": "企业微信关注礼",
-    "ref_en": "Enterprise WeChat Follow Gift",
-    "target_ru": "Предприятие WeChat Follow Gift"
   },
   {
     "id": "104829",

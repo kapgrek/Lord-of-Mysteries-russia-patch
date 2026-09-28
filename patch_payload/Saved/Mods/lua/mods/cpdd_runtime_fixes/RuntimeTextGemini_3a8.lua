@@ -246,7 +246,6 @@ return {
     ["My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the Traveler of Dreams and Minds."] = "Моё почетное имя — Святой Дух, который видит всё, Благословенный Короля Желтого и Чёрного, Путешественник Снов и Разумов.",
     ["<P_Heart> (Choking with sobs) </> I know you still remember... Why was he so strong usually, yet he couldn't survive this flu?"] = "<P_Heart> (задыхаясь от рыданий) </> Я знаю, ты все еще помнишь... Почему он обычно был таким сильным, но не смог пережить этот грипп?",
     ["Currently in an away status; unable to enter the target scene."] = "В настоящее время в статусе выезда; не может войти в целевую сцену.",
-    ["[Marionette Skill] Fate Turbulence - Black"] = "[Марионетка Skill] Fate Turbulence - Black",
     ["Respawn Point_3"] = "Точка возрождения_3",
     ["Ancient Castle Static Carriage - Grass Bundle"] = "Статическая повозка древнего замка — пучок травы",
     ["He has too many concerns. I've wanted to see him for years, but he always refuses."] = "У него слишком много забот. Я хотел увидеть его много лет, но он всегда отказывался.",

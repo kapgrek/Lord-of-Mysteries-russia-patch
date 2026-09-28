@@ -12168,12 +12168,6 @@
     "target_ru": "Йи Фань"
   },
   {
-    "id": "122034",
-    "source_cn": "不可诱惑当前非凡者哦",
-    "ref_en": "You cannot charm this Beyonder.",
-    "target_ru": "You cannot charm this Потусторонний."
-  },
-  {
     "id": "122035",
     "source_cn": "不抢",
     "ref_en": "Don't Rob",
@@ -18444,12 +18438,6 @@
     "target_ru": "Одно из них верно... но имя, не принадлежащее этой эпохе."
   },
   {
-    "id": "123088",
-    "source_cn": "乌黯魔狼上天-隐藏模型",
-    "ref_en": "Dark Demonic Wolf Ascend-Hidden Model",
-    "target_ru": "Модель Dark Demonic Wolf Ascend-Hidden"
-  },
-  {
     "id": "123089",
     "source_cn": "书信",
     "ref_en": "Letter",
@@ -19900,12 +19888,6 @@
     "source_cn": "……所以，你用愚者福音，交换别人为你完成论文？",
     "ref_en": "...So, you used the Gospel of the Fool to exchange for others to complete your thesis?",
     "target_ru": "...Значит, вы использовали Евангели Шута, чтобы обменять его на других, чтобы завершить свою диссертацию?"
-  },
-  {
-    "id": "123331",
-    "source_cn": "【魔药茶会】寻路占卜1",
-    "ref_en": "[Potion Tea Party] Pathfinding Divination 1",
-    "target_ru": "[Potion Tea Party] Pathfinding Гадание 1"
   },
   {
     "id": "123332",
@@ -24654,12 +24636,6 @@
     "target_ru": "Малая ресурсная точка 21"
   },
   {
-    "id": "124126",
-    "source_cn": "序章流程版-法阵二",
-    "ref_en": "Prologue Flow Version-Magic Circle II",
-    "target_ru": "Версия Prologue Flow — Magic Circle II"
-  },
-  {
     "id": "124127",
     "source_cn": "开启问价时心情表现",
     "ref_en": "Enable mood expression when asking price",
@@ -26742,12 +26718,6 @@
     "target_ru": "【Сцена】 Палатка"
   },
   {
-    "id": "124474",
-    "source_cn": "【秘偶技】河豚子弹-伤害",
-    "ref_en": "[Marionette Skill] Pufferfish Bullet - Damage",
-    "target_ru": "[Марионетка Skill] Pufferfish Bullet - Damage"
-  },
-  {
     "id": "124475",
     "source_cn": "下一站怎么猜",
     "ref_en": "How to guess the next station",
@@ -27394,12 +27364,6 @@
     "source_cn": "【56】不听大事",
     "ref_en": "【56】 Don't listen to big news",
     "target_ru": "【56】 Не слушайте важные новости"
-  },
-  {
-    "id": "124583",
-    "source_cn": "【秘偶技】骑士守护LV1",
-    "ref_en": "[Marionette Skill] Knight Guard LV1",
-    "target_ru": "[Марионетка Skill] Knight Guard LV1"
   },
   {
     "id": "124584",

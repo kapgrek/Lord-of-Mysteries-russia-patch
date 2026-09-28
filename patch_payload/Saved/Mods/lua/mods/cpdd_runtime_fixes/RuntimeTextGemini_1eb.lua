@@ -211,7 +211,6 @@ return {
     ["...There are so many children crying here, it's despairing."] = "...Здесь так много плачущих детей, что это отчаяние.",
     ["(A dialogue to be packaged) Which story's progress do you want to check?"] = "(Диалог, который нужно упаковать) Как продвигается история, которую вы хотите проверить?",
     ["Yes! {{PlayerName}}, Parick, congratulations on completing the first round of the 'Dawn's Hour' challenge."] = "Да! {{PlayerName}}, Парик, поздравляем с завершением первого раунда испытания «Час рассвета».",
-    ["【Advancement】Sequence advancement cap increased to 7, 1250340"] = "【Advancement】Последовательность advancement cap increased to 7, 1250340",
     ["Stepping onto this ground, you feel your blood boiling as the millennium-long entanglement between Assassins and Hunters replays in your mind. (Try sparring with someone of the opposite sex here.)"] = "Ступая на эту землю, вы чувствуете, как ваша кровь кипит, когда в вашем сознании воспроизводится тысячелетняя запутанность между Ассасинами и Охотниками. (Попробуйте здесь спарринг с кем-то противоположного пола.)",
     ["Jack of Spades Projection"] = "Проекция Пикового Валета",
     ["Bet: Shop failed, this station is not [Shop], product selling price -40%"] = "Ставка: Лавка Снеди не срабатывает, эта станция не [Лавка Снеди], цена продажи товара -40%",

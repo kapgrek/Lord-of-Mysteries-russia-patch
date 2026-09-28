@@ -175,7 +175,6 @@ return {
     ["模型待替换"] = "Модель ожидает замены",
     ["活动时间:2025/5/20-2026/3/1"] = "Время активности: 20.05.2025-01.03.2026",
     ["海纳斯梦境一"] = "Мечта Хейнса 1",
-    ["火焰火焰  —  Lv 62 | Seer | 3 m | Inspect"] = "Flame Fire — Lv 62 | Провидец | 3 m | Inspect",
     ["灵摆占卜1"] = "Гадание на маятнике 1",
     ["灵摆逆时针缓缓转动，命运隐约向小弹壳透露出潜在的阻力。尚在可控范围之内，但不可掉以轻心。"] = "Маятник медленно вращается против часовой стрелки; судьба смутно показывает потенциальное сопротивление Смолл Шелл. Оно все еще находится в пределах контролируемого диапазона, но не следует проявлять небрежность.",
     ["灵界伙伴II"] = "Спутник духовного мира II",
@@ -264,6 +263,7 @@ return {
     ["You currently possess Limited Gold Pound, which will be used to replace Gold Pound. Confirm and continue?"] = "У вас есть Лимитированные Золотые фунты, они будут использованы вместо Золотых фунтов. Подтвердить и продолжить?",
     ["【右摇杆模式3】以自身为圆心对前方扇形造成效果，可释放连击技能，连击完成后进入冷却"] = "[Режим правого стика 3] Наносит эффект по секторному радиусу перед собой с центром в себе, можно применить серию комбо-навыков, после завершения серии — Откат Навыка",
     ["Each basic attack from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>3%</> Life Steal and <HighLight>2%</> Max Health, stacking up to <HighLight>6</> times; gain <HighLight>1</> random Fog Forest Kin piece(s) after each player combat."] = "【Сородичи Туманного Леса】Фигуры получают <HighLight>1</> стак [Впитывания Мшистой Тени] за каждую обычную атаку. Каждый стак даёт <HighLight>3%</> похищения жизни и <HighLight>2%</> максимального здоровья, максимум <HighLight>6</> стаков; после каждого боя с игроком фигуры получают <HighLight>1</> случайную фигуру Сородичей Туманного Леса.",
+    ["火焰火焰  —  Lv 62 | Seer | 3 m | Inspect"] = "Flame Fire — Lv 62 | Seer | 3 m | Inspect",
     ["我看不清楚祂真正的模样，只觉得这丰饶的气息似曾相识……"] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
     ["<InvHighlight>\"Morning Dew\"</>, also known as a stimulant—\n\nis concocted from <InvHighlight>the heart of a Dream Catcher</>, spirit flower, and colchicine essence. \nIt can keep the user awake or have the effect of <Mark id=\"#159\">Healing narcolepsy</>."] = "<InvHighlight>«Утренняя роса»</>, также именуемая бодрящим снадобьем:——\n\nизготавливается из <InvHighlight>сердца ловца снов</>, цветка эльфов и эссенции безвременника.\nПомогает прогнать сонливость и обладает эффектом <Mark id=\"#159\">исцеления нарколепсии</>.",
 }

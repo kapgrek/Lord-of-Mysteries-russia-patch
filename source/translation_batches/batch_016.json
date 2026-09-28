@@ -5118,12 +5118,6 @@
     "target_ru": "<DecH>Мастерство: </>Позолоченные украшения · Торжественное облачение гимна\\nПодол мантии утреннего молитвенника окроплен росой и светом; каждый шаг в такт затихающему гимну воспевает безмятежность святилища, обращая ее в живую поэму."
   },
   {
-    "id": "075855",
-    "source_cn": "<HighLight>[%s]</>正式开启“名流盛宴”活动，欢迎所有非凡者参与！",
-    "ref_en": "<HighLight>[%s]</> has officially started the 'Celebrity Feast' event, all Beyonders are welcome to participate!",
-    "target_ru": "<HighLight>[%s]</> официально начал мероприятие «Праздник знаменитостей», к участию приглашаются все Потустороннийs!"
-  },
-  {
     "id": "075856",
     "source_cn": "<Highlight>金色</>的任务为效率更高的任务，推荐优先完成。",
     "ref_en": "<Highlight>Golden</> quests are more efficient and are recommended to be completed first.",
@@ -7240,12 +7234,6 @@
     "source_cn": "Actor1近景",
     "ref_en": "Actor1 Close-up",
     "target_ru": "Актер1 Крупным планом"
-  },
-  {
-    "id": "076210",
-    "source_cn": "Obtain 1 Beyonder material with <风眷者> trait",
-    "ref_en": "Obtain 1 Beyonder material with <Wind-Blessed> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Wind-Blessed> trait"
   },
   {
     "id": "076211",
@@ -11146,12 +11134,6 @@
     "source_cn": "雕像确认",
     "ref_en": "Confirm Statue",
     "target_ru": "Подтвердить статую"
-  },
-  {
-    "id": "076862",
-    "source_cn": "非凡生物在哪里",
-    "ref_en": "Where to Find Beyonder Creatures",
-    "target_ru": "Where to Find Потусторонний Creatures"
   },
   {
     "id": "076863",
@@ -29872,12 +29854,6 @@
     "source_cn": "<Yellow>满月诅咒</>：受到来自<Yellow>8</>米内的敌方伤害时，激活深红月冕，使佩戴者减伤提高<Yellow>*f**</>。对<Yellow>8</>米内攻击过自己的最多<Yellow>3</>个非首领目标维持满月诅咒，使其增伤降低<Yellow>*f**</>；深红月冕效果持续<Yellow>5</>秒，每<Yellow>10</>秒最多被激活<Yellow>1</>次。\\n<Yellow>黑暗法术</>：对敌方目标造成伤害时，获得持续<Yellow>5</>秒的腐蚀之爪效果：增伤提高<Yellow>*f**</>、使受到伤害的敌方单位移动速度降低<Yellow>*f**</>，持续<Yellow>4</>秒（对单目标生效1次）。该效果每<Yellow>10</>秒最多触发<Yellow>1</>次。",
     "ref_en": "<Yellow>Full Moon Curse</>: When receiving damage from enemies within <Yellow>8</> meters, activate Crimson Moon Crown, increasing the wearer's Damage Reduction by <Yellow>*f**</>. Maintain Full Moon Curse on up to <Yellow>3</> non-boss targets within <Yellow>8</> meters that have attacked you, reducing their damage dealt by <Yellow>*f**</>; Crimson Moon Crown effect lasts for <Yellow>5</> seconds and can be activated at most <Yellow>1</> time every <Yellow>10</> seconds. \\n<Yellow>Dark Spell</>: When dealing damage to enemy targets, gain Corrosive Claw effect for <Yellow>5</> seconds: Damage dealt increased by <Yellow>*f**</>, and enemy units taking damage have their movement speed reduced by <Yellow>*f**</> for <Yellow>4</> seconds (takes effect once per single target). This effect can trigger at most <Yellow>1</> time every <Yellow>10</> seconds.",
     "target_ru": "<Yellow>Проклятие полнолуния</>: при получении урона от врагов в радиусе <Yellow>8</> м активирует «Алую лунную корону», повышая снижение урона владельца на <Yellow>*f**</>. Накладывает эффект «Проклятие полнолуния» максимум на <Yellow>3</> атаковавших владельца не являющихся боссами врагов в радиусе <Yellow>8</> м, снижая наносимый ими урон на <Yellow>*f**</>; эффект «Алой лунной короны» длится <Yellow>5</> сек. и активируется не чаще <Yellow>1</> раза в <Yellow>10</> сек.\n<Yellow>Темная магия</>: при нанесении урона вражеским целям дает эффект «Когти разложения» на <Yellow>5</> сек.: наносимый урон повышается на <Yellow>*f**</>, а скорость передвижения пораженных врагов снижается на <Yellow>*f**</> на <Yellow>4</> сек. (срабатывает 1 раз по одной цели). Эффект срабатывает не чаще <Yellow>1</> раза в <Yellow>10</> сек."
-  },
-  {
-    "id": "079988",
-    "source_cn": "<h>询问</>这些序列的信息",
-    "ref_en": "<h>Ask</> about information on these Sequences",
-    "target_ru": "<h>Ask</> about information on these Последовательностьs"
   },
   {
     "id": "079989",

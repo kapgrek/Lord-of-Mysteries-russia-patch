@@ -169,7 +169,6 @@ return {
     ["GTA Mission End: Dialogue with Trevor"] = "Конец миссии GTA: Диалог с Тревором",
     ["After obtaining this mystical item, you will gain the Acting Skill of the Bard Sequence. \n A golden bird feather that emits a warm glow when held in the hand."] = "Заполучив этот мистический предмет, вы освоите навык отыгрыша Последовательности Песнопевца.\nЗолотое птичье перо, мягко согревающее ладонь ровным теплым сиянием.",
     ["Sense"] = "Смысл",
-    ["[CS for introducing pathways and Sequences]"] = "[CS for introducing pathways and Последовательностьs]",
     ["(I just took a little nap, how did it disappear... sigh.)"] = "(Я просто немного вздремнул, как оно исчезло... вздох.)",
     ["The street outside the Blackthorn Gate disappeared and became the Tingen Central Plaza. \nThe player looked up, and the night sky of Tingen was replaced by a surging Torrent of Knowledge.\n The flowing light of knowledge poured into a young girl's brain, and the originally normal person went 'bang'—and dissipated into a torrent."] = "Улица за воротами «Черного терновника» исчезла, сменившись центральной площадью Тингена.\nИгрок поднял взгляд: ночное небо Тингена заслонил бурлящий Поток Знаний.\nСияющий поток знаний хлынул в разум девушки, и еще мгновение назад обычный человек с громким хлопком рассеялся бурным потоком.",
     ["Stacked Mark duration increased to 10 seconds, and maximum stacks increased to 10."] = "Длительность накопленной метки увеличена до 10 секунд, а максимальное количество стаков увеличено до 10.",

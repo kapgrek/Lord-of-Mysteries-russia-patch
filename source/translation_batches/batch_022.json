@@ -7170,12 +7170,6 @@
     "target_ru": "Короткорогая говядина | Золотой картофель Дези Бэй | Красный лук"
   },
   {
-    "id": "106200",
-    "source_cn": "秩序网文字板1",
-    "ref_en": "Order Net Text Board 1",
-    "target_ru": "Заказать Net Text Board 1"
-  },
-  {
     "id": "106201",
     "source_cn": "第一条星轨造成<HighLight>180%</>攻击伤害，第二条造成<HighLight>120%</>；交叉点额外造成<HighLight>60%</>。",
     "ref_en": "The first star track deals <HighLight>180%</> attack damage, the second deals <HighLight>120%</>; the intersection deals an additional <HighLight>60%</>.",
@@ -7992,12 +7986,6 @@
     "target_ru": "Это Клейн Моретти, единственный выживший из троих, но он потерял память."
   },
   {
-    "id": "106338",
-    "source_cn": "逐日/逐光充能次数+3。",
-    "ref_en": "Sun Chaser/Light Chaser charges +3.",
-    "target_ru": "Sun Chaser/Light Chaser заряжается +3."
-  },
-  {
     "id": "106339",
     "source_cn": "通过检查点10",
     "ref_en": "Pass checkpoint 10",
@@ -8476,12 +8464,6 @@
     "source_cn": "战痕威仪",
     "ref_en": "Battle Scar Majesty",
     "target_ru": "Величество Боевого Шрама"
-  },
-  {
-    "id": "106419",
-    "source_cn": "戴纳-草药店街悄悄话",
-    "ref_en": "Dyna-Whispers at Herb Shop Street",
-    "target_ru": "Dyna-Whispers на улице Herb Shop Street"
   },
   {
     "id": "106420",
@@ -10674,12 +10656,6 @@
     "target_ru": "Возможно, именно поэтому преступник напал на них."
   },
   {
-    "id": "106789",
-    "source_cn": "战士-暮色连斩肉鸽",
-    "ref_en": "Warrior - Twilight Combo Slash Roguelike",
-    "target_ru": "Воин — Twilight Combo Slash Roguelike"
-  },
-  {
     "id": "106790",
     "source_cn": "戴莉光",
     "ref_en": "Daly Light",
@@ -12648,12 +12624,6 @@
     "target_ru": "NPC_Житель 1"
   },
   {
-    "id": "107118",
-    "source_cn": "Obtain 1 Beyonder material with <沉默门徒> trait",
-    "ref_en": "Obtain 1 Beyonder material with <Disciple of Silence> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Disciple of Silence> trait"
-  },
-  {
     "id": "107119",
     "source_cn": "club位置",
     "ref_en": "club position",
@@ -13870,12 +13840,6 @@
     "source_cn": "议事厅升级可提升俱乐部等级，提升其它建筑等级上限，建议优先升级。",
     "ref_en": "Upgrading the Council Chamber can increase the Club level and raise the level caps of other buildings; it is recommended to upgrade it first.",
     "target_ru": "Модернизация Зала Совета может повысить уровень Клуба и поднять максимальный уровень других зданий; рекомендуется сначала обновить его."
-  },
-  {
-    "id": "107323",
-    "source_cn": "记忆回溯-黑沉荒野2",
-    "ref_en": "Retrace - Black-Sinking Wilderness 2",
-    "target_ru": "Возвращение - Black-Sinking Wilderness 2"
   },
   {
     "id": "107324",
@@ -17022,12 +16986,6 @@
     "target_ru": "Получите любую 1 марионетку"
   },
   {
-    "id": "107850",
-    "source_cn": "记忆回溯-黑沉荒野3",
-    "ref_en": "Retrace - Black-Sinking Wilderness 3",
-    "target_ru": "Возвращение - Black-Sinking Wilderness 3"
-  },
-  {
     "id": "107851",
     "source_cn": "诶 {{PlayerName}} 你回来啦？",
     "ref_en": "Hey, {{PlayerName}}, you're back?",
@@ -17194,12 +17152,6 @@
     "source_cn": "NPC商店",
     "ref_en": "NPC Store",
     "target_ru": "Магазин НПС"
-  },
-  {
-    "id": "107880",
-    "source_cn": "Obtain 1 Beyonder material with <天灾化身> trait",
-    "ref_en": "Obtain 1 Beyonder material with <Scourge Avatar> trait",
-    "target_ru": "Obtain 1 Потусторонний material with <Scourge Avatar> trait"
   },
   {
     "id": "107881",
@@ -20178,12 +20130,6 @@
     "target_ru": "Перед срабатыванием определенного удара/контроля"
   },
   {
-    "id": "108379",
-    "source_cn": "记忆回溯-黑沉荒野4",
-    "ref_en": "Retrace - Black-Sinking Wilderness 4",
-    "target_ru": "Возвращение — Black-Sinking Wilderness 4"
-  },
-  {
     "id": "108380",
     "source_cn": "请容我打扰一下，护士小姐。这位老先生似乎是肺部不好，他闻到你身上的香水味就会感到不舒服。",
     "ref_en": "Please allow me to interrupt, Miss Nurse. This old gentleman seems to have poor lungs; he feels uncomfortable when he smells the perfume on you.",
@@ -22078,12 +22024,6 @@
     "source_cn": "已申请",
     "ref_en": "Applied",
     "target_ru": "Применяемый"
-  },
-  {
-    "id": "108697",
-    "source_cn": "廷根商会人员",
-    "ref_en": "Tingen Chamber of Commerce Personnel",
-    "target_ru": "Тинген Chamber of Commerce Personnel"
   },
   {
     "id": "108698",
@@ -28516,12 +28456,6 @@
     "source_cn": "【临时占位】大家：干杯！",
     "ref_en": "[Placeholder] Everyone: Cheers!",
     "target_ru": "[Заполнитель] Все: Здравствуйте!"
-  },
-  {
-    "id": "109776",
-    "source_cn": "【秘偶技】星之虫-回旋斩击",
-    "ref_en": "[Marionette Skill] Worm of Star - Spinning Slash",
-    "target_ru": "[Марионетка Skill] Worm of Star - Spinning Slash"
   },
   {
     "id": "109777",

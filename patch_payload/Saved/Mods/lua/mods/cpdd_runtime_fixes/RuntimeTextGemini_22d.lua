@@ -76,7 +76,6 @@ return {
     ["<h>阻止</>老妇人"] = "<h>Stop</> старуха",
     ["Respected {{先生|小姐}}, since you arrived here, I have watched this castle gradually come to life; it is truly gratifying. Look at this rye beer, how fragrant it smells!"] = "Уважаемый {{Sir|Miss}}, с тех пор, как вы прибыли сюда, я наблюдал, как этот замок постепенно оживает; это действительно приятно. Посмотрите на это ржаное пиво, как оно ароматно пахнет!",
     ["【特效】引导1"] = "[Эффект] Руководство 1",
-    ["【秘偶技】星之虫-惩戒"] = "[Марионетка Skill] Worm of Star - Punishment",
     ["【自走棋】-班森-账单投递"] = "[Авто-шахматы] - Бенсон - Доставка счетов",
     ["【运营】中级账号"] = "[Операции] Промежуточный аккаунт",
     ["一个人坐这么久，不会觉得闷吗？"] = "Сидя так долго в одиночестве, тебе не скучно?",
@@ -286,5 +285,6 @@ return {
     ["You are invited into the mental space of a lady suffering from both stomach and heart ailments, only to discover that several different people live here, which the lady herself is unaware of. A massive overwriting is about to occur here, which could either restore her health or plunge her into an even more insane abyss..."] = "Вас пригласили в мысленное пространство женщины, страдающей от болезни желудка и болезни сердца, и вы обнаруживаете, что здесь живут несколько разных людей, о чём сама женщина даже не подозревает. Здесь вскоре произойдёт грандиозная перезапись, которая может либо вернуть ей здоровье, либо низвергнуть её в ещё более безумную бездну…",
     ["持有1000-15万可进入该房间"] = "Войти в эту комнату можно, если у вас от 1000 до 150 000",
     ["No, my point—what I mean is, Your Excellency, what must I do to become a Beyonder?"] = "Нет, я хотел сказать... то есть, Ваше Превосходительство, что мне нужно сделать, чтобы стать Потусторонним?",
+    ["【秘偶技】星之虫-惩戒"] = "[Marionette Skill] Worm of Star - Punishment",
     ["Converse with NPC  Object plays specified dialogue content  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Разговор с NPC Объект воспроизводит указанный контент диалога NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

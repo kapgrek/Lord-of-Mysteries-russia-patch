@@ -175,7 +175,6 @@ return {
     ["碎片三烟雾"] = "Фрагмент Третий Дым",
     ["礼金金额：%s"] = "Сумма подарка: %s",
     ["神父？神父？"] = "Отец? Отец?",
-    ["秩序网特效待定2"] = "Заказать Web Effect TBD 2",
     ["等等，克莱恩！"] = "Подожди, Клейн!",
     ["管家幻象标记"] = "Дворецкий Иллюзионный Знак",
     ["细细密密的，越来越多。"] = "Плотные и многочисленные, всё больше и больше.",
@@ -269,5 +268,6 @@ return {
     ["I'd like to ask what this shop sells."] = "Хотел бы узнать, чем торгует этот магазин.",
     ["Don't make excuses. Tell Mr. Yate that I will grow the biggest and sweetest pumpkins this year, even sweeter than his grapes!"] = "Не оправдывайся. Передай мистеру Йейту, что в этом году я выращу самые большие и сладкие тыквы, слаще даже его винограда!",
     ["{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on."] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
+    ["秩序网特效待定2"] = "Order Web Effect TBD 2",
     ["收集%d/50个异象之物。"] = "Соберите %d/50 объектов феномена.",
 }

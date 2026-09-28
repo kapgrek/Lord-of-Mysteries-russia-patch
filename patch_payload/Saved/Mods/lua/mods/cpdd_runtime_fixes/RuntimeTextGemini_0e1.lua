@@ -178,7 +178,6 @@ return {
     ["Gehrman rabbit black screen white text"] = "Немецкий кролик черный экран белый текст",
     ["Elaine"] = "Элейн",
     ["Watch <h>Memory Fragment IV</>"] = "Смотреть <h>Фрагмент памяти IV</>",
-    ["South District Avenue Fountain Square Bicycle (Yellow)"] = "Велосипед South District Avenue Fountain Square (желтый)",
     ["Dustin"] = "Дастин",
     ["Order area 1 respawn point"] = "Зона заказа 1 точка возрождения",
     ["Spectator Dream Analysis"] = "Анализ снов зрителя",

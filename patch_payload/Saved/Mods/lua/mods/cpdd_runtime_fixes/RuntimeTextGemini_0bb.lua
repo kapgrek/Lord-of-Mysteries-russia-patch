@@ -164,7 +164,6 @@ return {
     ["魔狼狂潮"] = "Бешенство демона-волка",
     ["麦田食坊10级"] = "Ресторан «Пшеничное поле», уровень 10",
     ["黑铁底框"] = "Нижняя рама из черного железа",
-    ["Ms. “Magician”, to you, what kind of existence is Mr. “Fool”?"] = "Ms. “Фокусник”, to you, what kind of existence is Mr. “Fool”?",
     ["Guide Cours"] = "Путеводитель по Куру",
     ["A long pole covered with feathers at the top, which can be used for dusting."] = "Длинный шест, покрытый сверху перьями, которым можно смахивать пыль.",
     ["Listen for all hits"] = "Слушайте все хиты",

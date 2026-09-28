@@ -237,7 +237,6 @@ return {
     ["Default 1.0 means no scaling."] = "Значение по умолчанию 1.0 означает отсутствие масштабирования.",
     ["Successfully purchased %s for %s."] = "Успешно приобретен %s для %s.",
     ["Honey-Glazed Bacon"] = "Бекон в медовой глазури",
-    ["[Marionette Skill] Pufferfish Bullet LV1"] = "[Марионетка Skill] Pufferfish Bullet LV1",
     ["Prologue - Headache in place"] = "Пролог - Головная боль на месте",
     ["Interface Visibility"] = "Видимость интерфейса",
     ["Kira, you must come back safely..."] = "Кира, ты должна вернуться благополучно...",

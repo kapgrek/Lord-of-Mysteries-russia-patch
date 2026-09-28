@@ -84,12 +84,6 @@
     "target_ru": "{ \"Можно пропустить\" }"
   },
   {
-    "id": "025014",
-    "source_cn": "“魔术师”女士，对您来说，“愚者”先生是个什么样的存在？",
-    "ref_en": "Ms. “Magician”, to you, what kind of existence is Mr. “Fool”?",
-    "target_ru": "Ms. “Фокусник”, to you, what kind of existence is Mr. “Fool”?"
-  },
-  {
     "id": "025015",
     "source_cn": "……献上生命与心脏！大功告成！",
     "ref_en": "...Offer your life and heart! Mission accomplished!",
@@ -2194,12 +2188,6 @@
     "source_cn": "{{先生|小姐}} Hello, my name is Liz. Welcome!",
     "ref_en": "{{Sir|Miss}} Hello, my name is Liz. Welcome!",
     "target_ru": "{{Sir|Miss}} Здравствуйте, меня зовут Лиз. Добро пожаловать!"
-  },
-  {
-    "id": "025367",
-    "source_cn": "“0”级封印物……需要注意什么？",
-    "ref_en": "Grade 0 Sealed Artifact... what do I need to pay attention to?",
-    "target_ru": "Grade 0 Запечатанный артефакт... what do I need to pay attention to?"
   },
   {
     "id": "025368",
@@ -9810,12 +9798,6 @@
     "target_ru": "Маленький круглый ковер: классический"
   },
   {
-    "id": "026639",
-    "source_cn": "序章流程版-法阵三",
-    "ref_en": "Prologue Flow Version-Magic Circle III",
-    "target_ru": "Версия Prologue Flow — Magic Circle III"
-  },
-  {
     "id": "026640",
     "source_cn": "当前%s不足，是否前往购买？",
     "ref_en": "Not enough %s. Would you like to go and purchase some?",
@@ -10362,12 +10344,6 @@
     "target_ru": "t Третий фрагмент может упасть"
   },
   {
-    "id": "026731",
-    "source_cn": "【LV1】【秘偶技】寻踪魔弹-召唤",
-    "ref_en": "[LV1] [Marionette Skill] Tracking Magic Bullet - Summon",
-    "target_ru": "[LV1] [Марионетка Skill] Tracking Magic Bullet - Summon"
-  },
-  {
     "id": "026732",
     "source_cn": "【开膛手剧院】剧情描述-布置错误",
     "ref_en": "[Ripper Theater] Plot Description - Incorrect Setup",
@@ -10408,12 +10384,6 @@
     "source_cn": "主线第二章·第一节·初见西迦科恩黎",
     "ref_en": "Main Story Chapter 2, Section 1: First Meeting with Seeka Tron",
     "target_ru": "Основная история, глава 2, раздел 1: Первая встреча с Сикой Трон"
-  },
-  {
-    "id": "026740",
-    "source_cn": "令人惊叹的能力，这就是非凡力量？",
-    "ref_en": "An astonishing ability—is this Beyonder power?",
-    "target_ru": "An astonishing ability—is this Потусторонний power?"
   },
   {
     "id": "026741",
@@ -12180,12 +12150,6 @@
     "target_ru": "Кнопка выполнения"
   },
   {
-    "id": "027035",
-    "source_cn": "外国友人  —  Lv 62 | Apprentice | 8 m | Inspect",
-    "ref_en": "Foreign Friend  —  Lv 62 | Apprentice | 8 m | Inspect",
-    "target_ru": "Foreign Friend  —  Lv 62 | Ученик | 8 m | Inspect"
-  },
-  {
     "id": "027036",
     "source_cn": "夫人，我们早就和您说了，这市长的位子要是给了他可就……",
     "ref_en": "My lady, we told you long ago that if the mayor's seat was given to him, it would...",
@@ -12916,12 +12880,6 @@
     "source_cn": "就是那场事故之后，有些东西再也回不来了。",
     "ref_en": "It's just that after that accident, some things could never come back.",
     "target_ru": "Просто после той аварии некоторые вещи уже не могли вернуться."
-  },
-  {
-    "id": "027159",
-    "source_cn": "工厂女鬼视野模板",
-    "ref_en": "Factory Ghost Vision Template",
-    "target_ru": "Шаблон Factory Ghost Vision"
   },
   {
     "id": "027160",
@@ -13804,12 +13762,6 @@
     "source_cn": "持续伤害提升90%。",
     "ref_en": "Continuous damage increased by 90%.",
     "target_ru": "Непрерывный урон увеличен на 90%."
-  },
-  {
-    "id": "027307",
-    "source_cn": "携带会增加9魅惑点。",
-    "ref_en": "Carrying this will increase 9 Charm points.",
-    "target_ru": "Carrying this will increase 9 Оберег points."
   },
   {
     "id": "027308",
@@ -14890,12 +14842,6 @@
     "source_cn": "【北区氛围】黑夜教堂前扫地",
     "ref_en": "[North District Atmosphere] Sweeper in front of Night Cathedral",
     "target_ru": "[Атмосфера Северного района] Подметальная машина перед Ночным собором"
-  },
-  {
-    "id": "027490",
-    "source_cn": "【秘偶技】-放逐-光环",
-    "ref_en": "【Marionette Skill】 - Exile - Aura",
-    "target_ru": "【Марионетка Skill】 - Exile - Aura"
   },
   {
     "id": "027491",
@@ -24564,12 +24510,6 @@
     "target_ru": "Небольшой разговор с NPC, игрок отправляет квестовый предмет"
   },
   {
-    "id": "029115",
-    "source_cn": "了解具体<h>非凡觉醒内容</>",
-    "ref_en": "Understand the specific <h>Beyonder awakening details</>",
-    "target_ru": "Understand the specific <h>Потусторонний awakening details</>"
-  },
-  {
     "id": "029116",
     "source_cn": "予",
     "ref_en": "Yu",
@@ -25012,12 +24952,6 @@
     "source_cn": "每2秒触发一次恐惧，半径范围5米",
     "ref_en": "Trigger horror every 2 seconds, radius 5 meters",
     "target_ru": "Вызывает ужас каждые 2 секунды, радиус 5 метров."
-  },
-  {
-    "id": "029190",
-    "source_cn": "汗血青五字",
-    "ref_en": "Sweat-Blood Blue (5 characters)",
-    "target_ru": "Sweat-Blood Blue (5 символов)"
   },
   {
     "id": "029191",
@@ -29830,12 +29764,6 @@
     "source_cn": "绝不混合任何昨天的剩菜！",
     "ref_en": "Never mixed with any leftovers from yesterday!",
     "target_ru": "Никогда не смешивайте с остатками вчерашнего дня!"
-  },
-  {
-    "id": "029995",
-    "source_cn": "自走棋 乌龟-圆形AOE",
-    "ref_en": "Auto-Chess Turtle - Circular AOE",
-    "target_ru": "Auto-Chess Turtle — Круговой AOE"
   },
   {
     "id": "029996",

@@ -238,7 +238,6 @@ return {
     ["Countdown: %02d:%02d"] = "Обратный отсчет: %02d:%02d",
     ["Sit down, {{PlayerName}}."] = "Садись, {{PlayerName}}.",
     ["Printed current character customization data"] = "Распечатанные текущие данные настройки персонажа.",
-    ["[General] Super Armor for monsters"] = "[General] Суперброня for monsters",
     ["Backlund... it seems there are still many people going there."] = "Бэкланд... кажется, туда все еще ходит много людей.",
     ["Chapter One · Tombstone Hidden"] = "Глава первая · Надгробие скрыто",
     ["Either we bear the high rent in Tingen ourselves, or we kick those curly-haired baboons from the school committee out of the high-end dorms!"] = "Либо мы сами несем высокую арендную плату в Тингене, либо вышвырнем этих кудрявых павианов из школьного комитета из элитных общежитий!",

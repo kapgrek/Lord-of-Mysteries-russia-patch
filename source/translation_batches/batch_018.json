@@ -3600,12 +3600,6 @@
     "target_ru": "Дарвин"
   },
   {
-    "id": "085601",
-    "source_cn": "这里是<P_Yellow>科诺桑小镇</>？",
-    "ref_en": "Is this <P_Yellow>Conosan Small Town</>?",
-    "target_ru": "Это <P_Yellow>Conosan Small Town</>?"
-  },
-  {
     "id": "085602",
     "source_cn": "进入仓库",
     "ref_en": "Enter the warehouse",
@@ -8466,12 +8460,6 @@
     "target_ru": "[Тест] Разработка в один клик, уровень 35, средний расход"
   },
   {
-    "id": "086415",
-    "source_cn": "【秘偶技】河豚子弹LV3",
-    "ref_en": "[Marionette Skill] Pufferfish Bullet LV3",
-    "target_ru": "[Марионетка Skill] Pufferfish Bullet LV3"
-  },
-  {
     "id": "086416",
     "source_cn": "【金秋湖-困难】-分身连线2",
     "ref_en": "[Golden Autumn Lake-Hard]-Clone Connection 2",
@@ -9166,12 +9154,6 @@
     "source_cn": "不会啊，我绕了几十年了，戴维曾说它像一颗心脏。",
     "ref_en": "That can't be. I've been going around it for decades. David once said it looked like a heart.",
     "target_ru": "Этого не может быть. Я шел вокруг этого десятилетиями. Дэвид однажды сказал, что это похоже на сердце."
-  },
-  {
-    "id": "086532",
-    "source_cn": "中级非凡物质礼包",
-    "ref_en": "Mid-level Beyonder Material Pack",
-    "target_ru": "Mid-level Потусторонний Material Pack"
   },
   {
     "id": "086533",
@@ -9964,12 +9946,6 @@
     "source_cn": "Bonnie: Let {{他|她}} go... only then can we hear more heartbeats.",
     "ref_en": "Bonnie: Let {{him|her}} go... only then can we hear more heartbeats.",
     "target_ru": "Бонни: Отпусти {{him|her}}... только тогда мы сможем услышать больше сердцебиений."
-  },
-  {
-    "id": "086665",
-    "source_cn": "C级-占卜推理祭台",
-    "ref_en": "C-Rank - Divination Reasoning Altar",
-    "target_ru": "C-Rank - Гадание Reasoning Altar"
   },
   {
     "id": "086666",
@@ -12402,12 +12378,6 @@
     "target_ru": "Если bUseMovableAttack имеет значение true и типы координат InitRange и EndRange одинаковы, InitShapeType (%s) и EndShapeType (%s) должны быть согласованы."
   },
   {
-    "id": "087071",
-    "source_cn": "【Rogue】空间斩Ⅲ",
-    "ref_en": "[Roguelike] Space Slash III",
-    "target_ru": "[Рогалик] Space Slash III"
-  },
-  {
     "id": "087072",
     "source_cn": "【五月庄园】一号信徒-小女孩-传送位置",
     "ref_en": "[May Manor] Believer Number One - Little Girl - Teleport Position",
@@ -13204,12 +13174,6 @@
     "source_cn": "【采集】查看罐头",
     "ref_en": "【Collection】Check canned food",
     "target_ru": "【Коллекция】Проверьте консервы"
-  },
-  {
-    "id": "087205",
-    "source_cn": "【采集】风车-灵性之墙",
-    "ref_en": "[Collection] Windmill - Wall of Spirituality",
-    "target_ru": "[Collection] Windmill - Wall of Духовность"
   },
   {
     "id": "087206",
@@ -14890,12 +14854,6 @@
     "source_cn": "“风信子”女士 有人跟踪我",
     "ref_en": "Ms. \"Hyacinth\", someone is following me.",
     "target_ru": "Мисс «Гиацинт», за мной кто-то следит."
-  },
-  {
-    "id": "087486",
-    "source_cn": "【秘偶技】河豚子弹LV1",
-    "ref_en": "[Marionette Skill] Pufferfish Bullet LV1",
-    "target_ru": "[Марионетка Skill] Pufferfish Bullet LV1"
   },
   {
     "id": "087487",
@@ -16684,12 +16642,6 @@
     "source_cn": "……这话听起来怎么像骂人呢？",
     "ref_en": "……Why does that sound like an insult?",
     "target_ru": "……Почему это звучит как оскорбление?"
-  },
-  {
-    "id": "087787",
-    "source_cn": "【副本】记忆的传承·污染,1302526",
-    "ref_en": "【Dungeon】Inheritance of Memory · Corruption, 1302526",
-    "target_ru": "【Dungeon】Inheritance of Memory · Искажение, 1302526"
   },
   {
     "id": "087788",
@@ -18892,12 +18844,6 @@
     "source_cn": "缎带",
     "ref_en": "Satin Ribbon",
     "target_ru": "Атласная лента"
-  },
-  {
-    "id": "088158",
-    "source_cn": "老伦敦贵族庭院餐厅",
-    "ref_en": "Old London Noble Courtyard Restaurant",
-    "target_ru": "Ресторан Old London Noble Courtyard"
   },
   {
     "id": "088159",
@@ -27394,12 +27340,6 @@
     "source_cn": "【副本测试】99级属性-大R",
     "ref_en": "[Dungeon Test] Level 99 Stats - Whale",
     "target_ru": "[Тест в подземелье] Статистика 99 уровня — Кит"
-  },
-  {
-    "id": "089579",
-    "source_cn": "【秘偶技】河豚子弹LV5",
-    "ref_en": "[Marionette Skill] Pufferfish Bullet LV5",
-    "target_ru": "[Марионетка Skill] Pufferfish Bullet LV5"
   },
   {
     "id": "089580",

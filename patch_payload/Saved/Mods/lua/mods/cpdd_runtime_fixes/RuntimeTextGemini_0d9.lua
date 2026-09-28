@@ -185,7 +185,6 @@ return {
     ["Tencent Cloud Stress Test Cross-Server 4"] = "Межсерверный стресс-тест Tencent Cloud 4",
     ["Unshadowed Spear gains 5% Life Steal, which remains effective even in the Soul of the Blazing Sun state."] = "«Незатененное копье» получает 5% вампиризма, который остается эффективным даже в состоянии «Душа пылающего солнца».",
     ["I am the King of Iron Cross Street!"] = "Я король Айрон-Кросс-стрит!",
-    ["[Marionette Skill] Worm of Star - Nebula Slash"] = "[Марионетка Skill] Worm of Star - Nebula Slash",
     ["Participate in Dominator's Clash %d/50 times."] = "Примите участие в Dominator's Clash %d/50 раз.",
     ["avatar Death Count"] = "аватар Количество смертей",
     ["Visibility - Wine barrel"] = "Видимость - Винная бочка",

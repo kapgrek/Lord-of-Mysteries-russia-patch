@@ -1968,12 +1968,6 @@
     "target_ru": "Батлер"
   },
   {
-    "id": "030329",
-    "source_cn": "序章流程版-法阵一",
-    "ref_en": "Prologue Flow Version-Magic Circle I",
-    "target_ru": "Версия Prologue Flow — Magic Circle I"
-  },
-  {
     "id": "030330",
     "source_cn": "异象事件-魔女滋味-与随从交谈",
     "ref_en": "Anomaly Event - The Taste of a Witch - Talking to the Attendant",
@@ -3990,12 +3984,6 @@
     "target_ru": "《Название квеста: максимум десять символов》"
   },
   {
-    "id": "030667",
-    "source_cn": "【塔罗学院氛围】贝克兰德",
-    "ref_en": "[Tarot Academy Atmosphere] Backlund",
-    "target_ru": "[Tarot Academy Atmosphere] Бэкланд"
-  },
-  {
     "id": "030668",
     "source_cn": "【扮演任务】爱的方向",
     "ref_en": "[Acting Mission] Direction of Love",
@@ -5608,12 +5596,6 @@
     "source_cn": "主建筑升级",
     "ref_en": "Main building upgrade",
     "target_ru": "Модернизация главного здания"
-  },
-  {
-    "id": "030938",
-    "source_cn": "五月庄园花园机制",
-    "ref_en": "May Manor Garden mechanics",
-    "target_ru": "Механика May Manor Garden"
   },
   {
     "id": "030939",

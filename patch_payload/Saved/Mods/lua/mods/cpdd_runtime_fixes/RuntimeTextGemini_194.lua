@@ -208,7 +208,6 @@ return {
     ["Use to obtain <Highlight>Brand New Look Shoes</>"] = "Используйте, чтобы получить <Highlight>Новые туфли </>.",
     ["What will Miss Justice's guidance be next?"] = "Какими будут дальнейшие указания Мисс Джастис?",
     ["1. Target 4 players to release Circular AOE; 2. Summon clones; 3. Clones target 1 player to release Rectangular AOE"] = "1. Выбрать 4 цели и применить круговое AOE; 2. Призвать двойников; 3. Двойники выбирают 1 цель и применяют прямоугольное AOE",
-    ["Use <h>Wake-up Flower Dew</>"] = "Используйте <h>Wake-up Flower Dew</>",
     ["Church of the River and Sea"] = "Церковь Реки и Моря",
     ["Thank you for your efforts. He spent a short but happy retirement."] = "Спасибо за ваши усилия. Он провел короткую, но счастливую пенсию.",
     ["Return Outside the Villa"] = "Вернитесь за пределы виллы.",

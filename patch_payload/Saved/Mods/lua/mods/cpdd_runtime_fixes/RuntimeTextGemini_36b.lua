@@ -114,7 +114,6 @@ return {
     ["Burnt Note"] = "Сгоревшая записка",
     ["No, no, I must learn this knowledge first. Only with knowledge will I not be left behind by the times."] = "Нет-нет, сначала я должен усвоить эти знания. Только со знаниями я не отстану от времени.",
     ["Use to obtain <Highlight>Sanctuary Gospel Shoes</>"] = "Используйте, чтобы получить <Highlight>Обувь святилища Евангелия</>.",
-    ["Obtain 1 Beyonder material with <Disciple of Silence> trait"] = "Obtain 1 Потусторонний material with <Disciple of Silence> trait",
     ["Rosemary "] = "Розмари",
     ["Text Board M"] = "Текстовая доска М",
     ["Keep using upgrade skills to push your combat power to the limit!"] = "Продолжайте использовать навыки улучшения, чтобы довести свою боевую мощь до предела!",

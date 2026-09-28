@@ -250,7 +250,6 @@ return {
     ["End the gathering"] = "Завершить сбор",
     ["Display Cabinet: Collection"] = "Шкаф-витрина: Коллекция",
     ["Only listen to the first Skill"] = "Слушайте только первый навык",
-    ["Black Thorn 3 Stage 5 - QTE Aura"] = "Black Thorn 3 Этап 5 — QTE Aura",
     ["S-stop! Let her... go?"] = "С-стоп! Отпусти ее?",
     ["Automatically hides upper floors and roofs when enabled"] = "Автоматически скрывает верхние этажи и крыши при включении.",
     ["Physical Crit_Percentage Bonus"] = "Бонус к физическому криту_проценту",

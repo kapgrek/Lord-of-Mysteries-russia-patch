@@ -187,7 +187,6 @@ return {
     ["Of course, my lord, otherwise why would I rent out my old buddy?"] = "Конечно, милорд, иначе зачем бы мне сдавать в аренду своего старого приятеля?",
     ["General Interaction Item·Eye of True Perception"] = "Общий предмет для взаимодействия · Глаз истинного восприятия",
     ["Parameter 1: inspection type (0: 3D item, 1: 3D scene), parameter 2: inspection ID (configured in inspection table), parameter 3: debug."] = "Параметр 1: тип проверки (0: 3D-элемент, 1: 3D-сцена), параметр 2: идентификатор проверки (настраивается в таблице проверки), параметр 3: отладка.",
-    ["Cross Street Upper Road Trigger"] = "Триггер Cross Street Upper Road",
     ["Light Orb 1"] = "Световой шар 1",
     ["Filthy Spear 1"] = "Грязное копье 1",
     ["Berserker (4) 25% Attack Power, 20% additional Life Steal;"] = "Берсеркер (4) 25% силы атаки, 20% дополнительного вампиризма;",

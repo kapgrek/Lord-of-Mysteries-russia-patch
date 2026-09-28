@@ -197,7 +197,6 @@ return {
     ["[Alternative 3D Inspection] A quaint notebook; as you approach, faint whispers echo in your ears."] = "[Альтернативная 3D-проверка] Причудливый блокнот; Когда вы приближаетесь, в ваших ушах раздается слабый шепот.",
     ["For teleporting into plane"] = "Для телепортации в самолет",
     ["Obtain 1 Beyonder material with the {Disaster Avatar} entry."] = "Получите 1 материал Потусторонний с помощью записи {Disaster Avatar}.",
-    ["Successfully restore sanity to Beyonders 200 times in total."] = "Successfully restore Рассудок to Потустороннийs 200 times in total.",
     ["Aren't you the doctor here?"] = "Разве ты здесь не доктор?",
     ["Your group has exited the alliance."] = "Ваша группа вышла из альянса.",
     ["Bedtime Story-19 [Gather] Whose Voice is in the Mist"] = "Сказка на ночь-19 [Сбор] Чей голос в тумане",

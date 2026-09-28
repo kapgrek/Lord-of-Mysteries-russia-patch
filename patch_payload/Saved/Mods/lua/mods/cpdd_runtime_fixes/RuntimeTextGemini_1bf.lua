@@ -233,7 +233,6 @@ return {
     ["You came at the perfect time!"] = "Вы пришли в идеальное время!",
     ["\"All gifts of fate have their prices marked in the dark...\" The sleepy Sea Spirit mumbles this sentence, feeling irritable inside: Don't disturb the Sea Spirit's slumber!"] = "«Все подарки судьбы имеют цену, отмеченную в темноте...» Сонный Морской Дух бормочет эту фразу, чувствуя внутреннее раздражение: Не тревожьте сон Морского Духа!",
     ["Side Quest: Dreams Come True, Chapter 2, Paragraph 31"] = "Побочный квест: Мечты сбываются, глава 2, параграф 31",
-    ["[Marionette Skill] Baboon Blessing - Summon LV6"] = "[Марионетка Skill] Baboon Blessing - Summon LV6",
     ["Please take us to the \"Haunted House\"."] = "Пожалуйста, отвезите нас в «Дом с привидениями».",
     ["Blood Moon Descent"] = "Сошествие Кровавой Луны",
     ["Brilliant glory, reflecting all phenomena."] = "Блестящая слава, отражающая все явления.",

@@ -73,7 +73,6 @@ return {
     ["The perspective of the Hanged Man allows you to see truths invisible to ordinary people. Maintain this clarity; enlightenment lies at the end of suffering."] = "Ракурс Повешенного позволяет увидеть истины, невидимые для обычных людей. Сохраняйте эту ясность; просветление лежит в конце страдания.",
     ["Actually..."] = "На самом деле...",
     ["Collected all materials for the Marionettist potion"] = "Собраны все материалы для зелья марионетки.",
-    ["Fail to restore sanity to Beyonders 20 times in total."] = "Fail to restore Рассудок to Потустороннийs 20 times in total.",
     ["Dear, thank you for coming to accompany me."] = "Дорогой, спасибо, что пришел сопровождать меня.",
     ["But it went missing a week ago, and someone saw it run into the train station."] = "Но неделю назад он пропал, и кто-то видел, как он вбежал на вокзал.",
     ["No invitation target added"] = "Цель приглашения не добавлена.",

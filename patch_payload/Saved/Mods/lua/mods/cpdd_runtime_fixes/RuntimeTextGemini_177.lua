@@ -38,7 +38,6 @@ return {
     ["Already own this partner."] = "У вас уже есть этот партнер.",
     ["My voice is my personal trademark!"] = "Мой голос – моя личная торговая марка!",
     ["Thank you"] = "Спасибо",
-    ["[Auto-Chess] - Megose - Basic Attack - Mourning Shock"] = "[Auto-Chess] - Megose - Базовая атака - Mourning Shock",
     ["%d months ago"] = "%d месяцев назад",
     ["Node for Hiding Art Components"] = "Узел для сокрытия художественных компонентов",
     ["And that ancient castle is the most famous landmark here. You could say that the name of Lamud Town comes from Lamud Castle."] = "И этот древний замок – самая известная достопримечательность здесь. Можно сказать, что название города Ламуд происходит от замка Ламуд.",

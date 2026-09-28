@@ -29,7 +29,6 @@ return {
     ["The great God of Storms"] = "Великий Бог Штормов",
     ["An honest answer. Perhaps you can find the answer through investigation."] = "Честный ответ. Возможно, вы сможете найти ответ в ходе расследования.",
     ["October 9th"] = "9 октября",
-    ["【Marionette Skill】 - Exile - Aura"] = "【Марионетка Skill】 - Exile - Aura",
     ["Brilliant, brilliant. You make up a reason for being late every time. But Toby, there won't be a next time. I'm tired of hearing these stories."] = "Блестящий, блестящий. Ты каждый раз придумываешь причину опоздания. Но Тоби, следующего раза не будет. Я устал слушать эти истории.",
     ["【Scene】 Dressing Table"] = "【Сцена】 Туалетный столик",
     ["Coordinates: "] = "Координаты:",

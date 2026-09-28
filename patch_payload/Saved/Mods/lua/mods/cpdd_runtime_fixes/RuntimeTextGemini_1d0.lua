@@ -75,7 +75,6 @@ return {
     ["Enum(子技能朝向)"] = "Enum (Ориентация на поднавыки).",
     ["To 战士\n    黄昏是白昼的结束，\n    黎明是夜晚的终点。\n                 爱潜水的乌贼"] = "Воину:\n    Сумерки — это конец дня,\n    а рассвет — конец ночи.\n                 Любящий нырять кальмар",
     ["[UIFrame : UIComponent]:SetImage 设置图片失败 图片资源路径不能为空 %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set image. Image resource path cannot be empty %s %s",
-    ["“魔术师”女士，对您来说，愚者先生是个什么样的存在？"] = "Ms. Фокусник, what kind of existence is Mr. Fool to you?",
     ["【风闻】死亡之爪新增二段技能—死亡之握，对目标造成少量伤害，若目标身上具有死亡侵蚀，伤害提升。"] = "[Слух] «Хватка смерти» добавляет навык второй стадии — «Хватка смерти», наносящий небольшой урон цели. Если на цель действует «Смертельная эрозия», урон увеличивается.",
     ["一切都乱套了！"] = "Все в хаосе!",
     ["七个人？你之前也……"] = "Семь человек? Ты тоже... раньше?",
@@ -291,4 +290,5 @@ return {
     ["Locked rooms, tightly drawn curtains, silent tears, low, muffled sobs..."] = "Запертые комнаты, плотно задёрнутые занавески, беззвучные слёзы, тихие сдавленные всхлипы...",
     ["My cake might not be the most exquisite, but it will definitely make you remember it for the rest of your life."] = "Мой торт, может, не самый изящный, но вы точно запомните его на всю жизнь.",
     ["The Baron is looking at that corner. What's there?"] = "Барон смотрит в тот угол. Что там?",
+    ["“魔术师”女士，对您来说，愚者先生是个什么样的存在？"] = "Ms. Magician, what kind of existence is Mr. Fool to you?",
 }

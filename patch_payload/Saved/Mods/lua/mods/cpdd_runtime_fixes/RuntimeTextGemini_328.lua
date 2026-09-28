@@ -247,7 +247,6 @@ return {
     ["Antigonus Notebook dungeon drop"] = "Блокнот Антигона в подземелье",
     ["Damn it, I didn't expect them to catch up so fast. Hiss, I've been shot, I can't hold on. It's up to you now."] = "Черт возьми, я не ожидал, что они так быстро догонят. Хисс, меня подстрелили, я не могу держаться. Теперь дело за вами.",
     ["What a genius! He gave that poem a soul!"] = "Какой гений! Он дал этому стихотворению душу!",
-    ["[Marionette Skill] Knight Guard LV1"] = "[Марионетка Skill] Knight Guard LV1",
     ["I know! Amy's secret base is at the Passenger Station! Daisy said there's a good place in the ancient castle, but I didn't dare follow, it's too far..."] = "Я знаю! Секретная база Эми находится на Пассажирской станции! Дейзи сказала, что в старинном замке есть хорошее место, но я не осмелилась пойти за ним, это слишком далеко...",
     ["The Requiem Poetry Society is a secret cult composed of devout believers of the Evernight Goddess, who believe that poetry is the language of the soul and can light up hope in the darkness."] = "Общество поэзии-реквиема — это тайный культ, состоящий из преданных верующих в Богиню Вечной Ночи, которые верят, что поэзия — это язык души и может осветить надежду во тьме.",
     ["Blackboard"] = "доска",

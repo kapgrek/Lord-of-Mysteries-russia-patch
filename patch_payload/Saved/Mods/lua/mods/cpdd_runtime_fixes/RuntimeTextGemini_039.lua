@@ -249,7 +249,6 @@ return {
     ["<Contract_Name_Signature_HW>Player Name</>"] = "<Contract_Name_Signature_HW>Имя игрока</>",
     ["Shh, keep your voice down."] = "Тсс, потише.",
     ["The Story Must Go On - Talk to Ladis"] = "История должна продолжаться – поговорите с Ладис",
-    ["Flame Fire — Lv 62 | Seer | 3 m | Inspect"] = "Flame Fire — Lv 62 | Провидец | 3 m | Inspect",
     ["What a young man. I also once thought I was the most special person. But many people study for a lifetime and can only understand a few words on them."] = "Какой молодой человек. Я тоже когда-то думал, что я самый особенный человек. Но многие люди учатся всю жизнь и могут понять по ним лишь несколько слов.",
     ["<Assistant_Title1>【Rose Vine Staff】</>\n<Assistant_Title2>Description: </>Star Coin Pool Accessory\n<Assistant_Title2>Usage: </>After use, you will obtain the Rose Vine Staff. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it. \n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Summon - Astral Wonders</>"] = "<Assistant_Title1>【Трость из розовой лозы】</>\n<Assistant_Title2>Описание: </>\nУкрашение пула Звёздных монет\n<Assistant_Title2>Применение: </>\nПозволяет получить трость из розовой лозы. Можно просмотреть и надеть в меню <Assistant_System>«Внешность — Гардероб»</>.\n<Assistant_Title2>Получение: </>\nМожно получить в меню <Assistant_System>«Призыв — Чудеса астрала»</>",
     ["Spotlight Pool"] = "Прожекторный бассейн",

@@ -95,7 +95,6 @@ return {
     ["巨龟鳞片"] = "Чешуя гигантской черепахи",
     ["已击碎魔狼雕像(5/8)!"] = "Статуя Демона-Волка разбита (5/8)!",
     ["帮会"] = "Банда",
-    ["序章流程版-砍石棺"] = "Версия Prologue Flow — Chop Stone Coffin",
     ["廷根秩序世界完成度达到%d/50%%。 "] = "Уровень завершения Мира Ордена Тингена достиг %d/50%%.",
     ["当然，你也可以选择一直做文职人员，毕竟你已经见到了非凡世界有多危险。"] = "Конечно, вы также можете остаться клерком. Ведь вы уже видели, насколько опасен необыкновенный мир.",
     ["成就-比爱更爱"] = "Достижение – Любить больше, чем любить",
@@ -264,5 +263,6 @@ return {
     ["Father, I miss you so much."] = "Папа, я так по тебе скучаю.",
     ["It's been seven years, and I still can't forget the time Manager Hall pointed out my bookkeeping error."] = "Прошло уже семь лет, а я всё не могу забыть, как управляющий Холл указал мне на ошибку в бухгалтерских записях.",
     ["I don't know where the rumor came from, saying that if you stand with your back to the Fountain of Purification, hold a coin in your right hand, and toss it into the water over your left shoulder, you can make your wish come true."] = "Не знаю, откуда пошёл слух, что если встать спиной к Фонтану Очищения, взять монету в правую руку и бросить её в воду через левое плечо, желание сбудется.",
+    ["序章流程版-砍石棺"] = "Prologue Flow Version-Chop Stone Coffin",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,",
 }

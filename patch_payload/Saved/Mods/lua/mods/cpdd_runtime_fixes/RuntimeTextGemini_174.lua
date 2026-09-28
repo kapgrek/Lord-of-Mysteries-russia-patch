@@ -171,7 +171,6 @@ return {
     ["Display to other players"] = "Показ другим игрокам",
     ["Flower Stand Bell Sound"] = "Подставка для цветов Bell Sound",
     ["Consumable material for upgrading combat skills, obtainable through Sequence advancement."] = "Расходный материал для улучшения боевых навыков, доступный при прохождении последовательностей.",
-    ["Spectator: Ultimate Healing Filter 6.5"] = "Зритель: Ultimate Healing Filter 6.5",
     ["We used to lie in this patch of flowers together and watch the stars."] = "Мы вместе лежали на этом участке цветов и смотрели на звезды.",
     ["Oath Witness"] = "Свидетель присяги",
     ["Woke up"] = "Проснулся",

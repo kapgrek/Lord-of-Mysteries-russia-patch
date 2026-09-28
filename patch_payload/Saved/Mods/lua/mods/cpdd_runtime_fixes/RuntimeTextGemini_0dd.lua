@@ -193,7 +193,6 @@ return {
     ["Nighthawks squad?"] = "Команда Найтхокс?",
     ["I miss my private carriage so much!"] = "Я так скучаю по своей личной карете!",
     ["I haven't finished memorizing grammar and classical literature, and I've only brushed through half of the math and logic problems. I heard that an \"Administrative Aptitude Test\" will be added this year, I'm going crazy!"] = "Я не доучил грамматику и классическую литературу и справился только с половиной задач по математике и логике. Я слышал, что в этом году будет добавлен «Тест на административные способности», я схожу с ума!",
-    ["Letter from Miss Magician"] = "Letter from Miss Фокусник",
     ["The <HighLight>Vulnerability</> effect of <HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\">Spirituality Burst</> is increased by 5%."] = "Эффект <HighLight>Vulnerability</> от <HyperLink stylename=\"M_Link\" u=\"86033020\" color=\"#f4a067\">Духовность Burst</> увеличен на 5%.",
     ["Poor students, nouveau riche, laborers smelling of fish... my Goddess!"] = "Бедные студенты, нувориши, рабочие, пахнущие рыбой... моя Богиня!",
     ["Phantom: Dance Rhythm"] = "Призрак: Танцевальный ритм",

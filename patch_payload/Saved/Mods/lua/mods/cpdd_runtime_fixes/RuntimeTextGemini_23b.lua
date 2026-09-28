@@ -243,7 +243,6 @@ return {
     ["You and the connection character are currently in a ride-along state; the connection character cannot play social actions for now."] = "Вы и персонаж-связчик в настоящее время находитесь в состоянии поездки; персонаж связи на данный момент не может выполнять социальные действия.",
     ["Room Door - Destination - Anti-clipping"] = "Дверь комнаты — пункт назначения — защита от отсечения",
     ["<Assistant_Title1>Let Me Go First!</>\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Quest\n<Assistant_Title2>Unlock Condition: </>Attempt to cut in line to buy tickets in the Chapter 5 main quest."] = "<Assistant_Title1> Позвольте мне пойти первым! </>\n<Assistant_Title2>Категория достижения: </>Сюжет-реальность, основная линия\n<Assistant_Title2>Условия разблокировки: </>Попытка встать в очередь, чтобы купить билеты в пятой главе основной линии.",
-    ["Retrace - Black-Sinking Wilderness 3"] = "Возвращение - Black-Sinking Wilderness 3",
     ["The people in town all praise its fine craftsmanship and precise timekeeping!"] = "Все жители города хвалят его тонкое мастерство и точное хронометрирование!",
     ["Join family email ID"] = "Присоединиться к семейному адресу электронной почты",
     ["And that poor wretch, his eyes only see the gambling table of fate, losing everything around him..."] = "И этот бедняга, его глаза видят только игорный стол судьбы, теряя все вокруг...",

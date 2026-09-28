@@ -20,7 +20,6 @@ return {
     ["NPC price inquiry completed"] = "Запрос цены у NPC завершен",
     ["So you tried to crossbreed a bull and wheat?"] = "И поэтому вы попытались скрестить быка с пшеницей?!",
     ["All Vitality returned"] = "Вся бодрость возвращена",
-    ["Auto Chess Klein - Paper Figurine Listen"] = "Мониторинг Auto Chess Klein-Paperman",
     ["Faction allocation time"] = "Время распределения силы",
     ["A column body built from walnut, with a simple design that is very lively."] = "Колонна из орехового дерева имеет простую и живую форму.",
     ["Attribute Type"] = "Тип недвижимости",

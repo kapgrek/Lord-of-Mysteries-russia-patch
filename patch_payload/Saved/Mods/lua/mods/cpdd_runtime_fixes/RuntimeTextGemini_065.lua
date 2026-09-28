@@ -221,7 +221,6 @@ return {
     ["Harvest %d/500 high-quality art studio products."] = "Собирайте высококачественные продукты художественной студии %d/500.",
     ["NPC dialogue enters plane. NPC Name."] = "Диалог NPC входит в плоскость. Имя НПС.",
     ["Objection! Rye beer is the cheapest type of alcohol; no tavern can make a profit relying solely on it!"] = "Возражаю! Ржаное пиво — самый дешевый вид алкоголя; ни одна таверна не сможет получить прибыль, полагаясь только на это!",
-    ["Ember Priest Break performance"] = "Выступление Ember Priest Break",
     ["Peeking Point"] = "Обзорная точка",
     ["The crimson descends... you have nowhere to run!"] = "Багровый цвет опускается... вам некуда бежать!",
     ["Is something wrong, sir? Is there a problem with the jasmine?"] = "Что-то не так, сэр? Есть ли проблемы с жасмином?",

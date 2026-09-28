@@ -180,7 +180,6 @@ return {
     ["Evernight Goddess, more noble than the starry sky, more eternal than eternity"] = "Богиня вечной ночи, более благородная, чем звездное небо, более вечная, чем вечность.",
     ["<P_Heart> (Hearing a dog laugh, I must have gone crazy.) </>"] = "<P_Heart> (Услышав собачий смех, я, должно быть, сошел с ума.) </>",
     ["An exquisite collar"] = "Изысканный воротник",
-    ["Obtain 1 Beyonder material with <Guardian> trait"] = "Obtain 1 Потусторонний material with <Guardian> trait",
     ["Howls Street, please."] = "На Хаулс-стрит, пожалуйста.",
     ["Golden Indus District Mounted Police Patrol Route"] = "Маршрут конного полицейского патруля района Золотой Инд",
     ["[Text] Question"] = "[Текст] Вопрос",

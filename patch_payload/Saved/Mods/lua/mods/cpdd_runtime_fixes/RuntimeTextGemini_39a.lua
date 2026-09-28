@@ -245,7 +245,6 @@ return {
     ["In the bakery's oven, a small loaf of bread meant for the shopkeeper's child was being kept warm, not yet placed on the counter."] = "В печи булочной хранилась теплая небольшая буханка хлеба, предназначенная для ребенка лавочника, еще не поставленная на прилавок.",
     ["You will be randomly matched to join one of the factions"] = "Вы пройдёте случайный подбор и присоединитесь к одной из фракций.",
     ["Owned: 1000"] = "В собственности: 1000",
-    ["<player>%s</> starts a \"Villa Party\", inviting all Beyonders to attend!"] = "<player>%s</> начинает «Вечеринку на вилле», приглашая всех Потустороннийs принять участие!",
     ["Werewolf Tail"] = "Хвост оборотня",
     ["Advance GVG theater timeline"] = "Предварительный график театра GVG",
     ["Refreshes on the 1st of every month at %s:00"] = "Обновляется 1 числа каждого месяца в %s:00.",

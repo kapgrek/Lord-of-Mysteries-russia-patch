@@ -15,7 +15,6 @@ return {
     ["Radial Blur with Four-Corner Distortion Texture"] = "Радиальное размытие с картой искажения по четырем углам",
     ["Sigh, what's the use of arguing about this? Don't the pounds from building factories and selling grain all go into the King's pocket?"] = "Эх, и о чем тут спорить? Разве эти золотые фунты со строительства заводов и продажи зерна не текут прямиком в карман короля?",
     ["<P_Heart>(Free? The things that are free are the most expensive. If you're so capable, divine that I'm a transmigrator!)</>"] = "<P_Heart> (Бесплатно? Бесплатные вещи самые дорогие. Если у вас есть способности, вы можете сказать мне, что я путешествовал во времени!) </>",
-    ["General - Top Luxury Wings - Weather Change"] = "Universal-Top Luxury Wings-Chantian",
     ["Enable this if the skill requires movement driven by something other than normal walking."] = "Если навык требует движения, вызванного ненормальной ходьбой, его необходимо включить.",
     ["Only by relying on potions and lying on the floor of the Spirit World observation room can I enter a semi-dreaming, semi-awake state."] = "Только полагаясь на лекарство и лежа на полу комнаты наблюдения духовного мира, я могу войти в состояние полусна и полубодрствования.",
     ["Mystery of the Thicket"] = "Тайна шипов",

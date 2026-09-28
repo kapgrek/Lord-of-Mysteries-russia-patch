@@ -24,7 +24,6 @@ return {
     ["Through the ups and downs of time, the knight standing with a broadsword remains loyal."] = "Годы пережили немало взлетов и падений, но рыцарь, стоящий с широким мечом, всегда был верен.",
     ["Scattered Papers"] = "Разбросанные кусочки бумаги",
     ["Trigger - Destination"] = "Триггерный конец",
-    ["Achievement - Purifying Ten Thousand Spirits"] = "Достижение-Pure All Souls",
     ["Champagne Road Atmosphere Carriage"] = "Карета «Атмосферная дорога Шампанского»",
     ["Silk Cotton Textile Mill Level 14"] = "Шелковая хлопчатобумажная фабрика, уровень 14",
     ["Don't be afraid, Will, you can do it!"] = "Не бойся, Уилл, ты сможешь!",

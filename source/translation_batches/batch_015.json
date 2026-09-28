@@ -2544,12 +2544,6 @@
     "target_ru": "При открытии дает один <Highlight>персональный</> предмет комплекта <Highlight>66-го уровня снаряжения</> оранжевого качества (случайного направления: «Приключение» или «Состязание»). Снаряжение гарантированно содержит не менее <Highlight>1 потустороннего свойства</>, а с небольшой вероятностью — <Highlight>2 потусторонних свойства</>.\\nСундук в первую очередь содержит предметы для <Highlight>слотов экипировки, для которых сейчас недоступна перековка</>."
   },
   {
-    "id": "070424",
-    "source_cn": "当然！{{PlayerName}}，快去把这件事告诉佐伊。",
-    "ref_en": "Of course! {{PlayerName}}, go tell Zoe about this immediately.",
-    "target_ru": "Конечно! {{PlayerName}}, go tell Zoe about this immediately."
-  },
-  {
     "id": "070425",
     "source_cn": "您有什么计划？",
     "ref_en": "What is your plan?",
@@ -5482,12 +5476,6 @@
     "source_cn": "……原来海蒂扔戒指时我心口一痛，是戒指掉进了口袋…… ",
     "ref_en": "...So when Heidi threw the ring, my heart ached because the ring had fallen into my pocket...",
     "target_ru": "...Поэтому, когда Хайди бросила кольцо, у меня сжалось сердце, потому что кольцо упало мне в карман..."
-  },
-  {
-    "id": "070914",
-    "source_cn": "【晋升】序列晋升上限提升至7,1250340",
-    "ref_en": "【Advancement】Sequence advancement cap increased to 7, 1250340",
-    "target_ru": "【Advancement】Последовательность advancement cap increased to 7, 1250340"
   },
   {
     "id": "070915",
@@ -8434,12 +8422,6 @@
     "source_cn": "【特效】引导1",
     "ref_en": "[Effect] Guidance 1",
     "target_ru": "[Эффект] Руководство 1"
-  },
-  {
-    "id": "071406",
-    "source_cn": "【秘偶技】星之虫-惩戒",
-    "ref_en": "[Marionette Skill] Worm of Star - Punishment",
-    "target_ru": "[Марионетка Skill] Worm of Star - Punishment"
   },
   {
     "id": "071407",
@@ -15744,12 +15726,6 @@
     "target_ru": "Проявите любопытство"
   },
   {
-    "id": "072627",
-    "source_cn": "观众梦境编织（肉鸽）",
-    "ref_en": "Spectator Dream Weaving (Roguelike)",
-    "target_ru": "Зритель Dream Weaving (Roguelike)"
-  },
-  {
     "id": "072628",
     "source_cn": "解除身份置换，回归现实之身",
     "ref_en": "End the identity swap and return to your physical body.",
@@ -21228,12 +21204,6 @@
     "target_ru": "Отец? Отец?"
   },
   {
-    "id": "073541",
-    "source_cn": "秩序网特效待定2",
-    "ref_en": "Order Web Effect TBD 2",
-    "target_ru": "Заказать Web Effect TBD 2"
-  },
-  {
     "id": "073542",
     "source_cn": "等等，克莱恩！",
     "ref_en": "Wait, Klein!",
@@ -25224,12 +25194,6 @@
     "target_ru": "Центральный книжный червь"
   },
   {
-    "id": "074209",
-    "source_cn": "为非凡者恢复理智时累计失败20次",
-    "ref_en": "Fail to restore sanity to Beyonders 20 times in total.",
-    "target_ru": "Fail to restore Рассудок to Потустороннийs 20 times in total."
-  },
-  {
     "id": "074210",
     "source_cn": "令人心动的未来-布置仪式",
     "ref_en": "A Heart-Stirring Future - Setting up the ritual",
@@ -25938,12 +25902,6 @@
     "target_ru": "Если бы только люди были такими же тихими, как марионетки; лучше остаться дома."
   },
   {
-    "id": "074328",
-    "source_cn": "人脉话题-克莱恩1关于占卜",
-    "ref_en": "Connection Topic - Klein 1: About Divination",
-    "target_ru": "Connection Topic - Klein 1: About Гадание"
-  },
-  {
     "id": "074329",
     "source_cn": "什么？！",
     "ref_en": "What?!",
@@ -26578,12 +26536,6 @@
     "source_cn": "{{PlayerName}}，我可以向你开放我的历史。",
     "ref_en": "{{PlayerName}}, I can open my history to you.",
     "target_ru": "{{PlayerName}}, я могу открыть тебе свою историю."
-  },
-  {
-    "id": "074435",
-    "source_cn": "【LV5】【秘偶技】寻踪魔弹-召唤",
-    "ref_en": "[LV5] [Marionette Skill] Tracking Magic Bullet - Summon",
-    "target_ru": "[LV5] [Марионетка Skill] Tracking Magic Bullet - Summon"
   },
   {
     "id": "074436",

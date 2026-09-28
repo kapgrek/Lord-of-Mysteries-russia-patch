@@ -59,7 +59,6 @@ return {
     ["Dunn Camera"] = "Данн Камера",
     ["Yodora - 2 Star"] = "Йодора — 2 звезды",
     ["Player is immobilized by vines"] = "Игрок обездвижен лозами",
-    ["Ms. Magician, what kind of existence is Mr. Fool to you?"] = "Ms. Фокусник, what kind of existence is Mr. Fool to you?",
     ["Bard Kill Chest"] = "Сундук Барда за убийство",
     ["Grandma Wolf Avatar Afterimage Permanent Material"] = "Постоянный материал послеизображения аватара бабушки волка",
     ["Leave Magic Circle Trigger"] = "Триггер выхода из магического круга",

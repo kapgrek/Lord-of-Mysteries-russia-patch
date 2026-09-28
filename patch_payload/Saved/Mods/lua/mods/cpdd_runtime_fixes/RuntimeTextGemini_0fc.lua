@@ -151,7 +151,6 @@ return {
     ["Then, when you face corpses, don't you feel afraid?"] = "Тогда, когда вы сталкиваетесь с трупами, разве вы не чувствуете страха?",
     ["Appear"] = "Появляться",
     ["[Text board] Play again"] = "[Текстовая доска] Играй еще раз",
-    ["Revenge Against Fate - Corruption"] = "Revenge Against Fate - Искажение",
     ["We cordially invite all Beyonders to join the Family Night Fraudster Association. Our manifesto is: Active partners come play together; we can do dungeons, battlefields, or just leisure. [Click to join]"] = "Мы сердечно приглашаем всех Потусторонние присоединиться к Ассоциации мошенников, проводящих семейные вечера. Наш манифест: Активные партнеры играют вместе; мы можем создавать подземелья, поля сражений или просто отдых. [Нажмите, чтобы присоединиться]",
     ["Stop auto-pathfinding"] = "Остановить автоматический поиск пути",
     ["Remember to buy new bread, only eight pounds. The weather is hot, and too much will spoil easily. Also lamb and peas, remember!"] = "Не забудьте купить новый хлеб, всего восемь фунтов. Погода жаркая, и слишком многое легко испортится. Помните, еще баранина и горох!",

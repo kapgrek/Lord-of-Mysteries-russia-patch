@@ -3936,12 +3936,6 @@
     "target_ru": "Общая неуязвимость воскрешения"
   },
   {
-    "id": "065660",
-    "source_cn": "金梧桐大道马车站脚踏车棕",
-    "ref_en": "Golden Indus Avenue Carriage Station Bicycle (Brown)",
-    "target_ru": "Велосипед Golden Indus Avenue Carriage Station (коричневый)"
-  },
-  {
     "id": "065661",
     "source_cn": "铁路大亨每周会更新一次推荐的物产类型。\\n推荐类型下的所有物产，在初始转化为商会票券和后续的购入卖出过程中，都会获得约为20%的价值增幅。",
     "ref_en": "The Railway Tycoon will update the recommended product types once a week. \\nAll products under the recommended type will receive an approximate 20% value increase during the initial conversion into Chamber of Commerce tickets and subsequent purchases and sales.",
@@ -14994,12 +14988,6 @@
     "target_ru": "«Дрель» перегружена! Потерял сознание!"
   },
   {
-    "id": "067507",
-    "source_cn": "……你占卜的结果是对的吗？",
-    "ref_en": "……Is the result of your divination correct?",
-    "target_ru": "……Is the result of your Гадание correct?"
-  },
-  {
     "id": "067509",
     "source_cn": "【临时】3蓝线",
     "ref_en": "[Temporary] 3 Blue Lines",
@@ -21756,12 +21744,6 @@
     "target_ru": "Этот раунд стабилен..."
   },
   {
-    "id": "068636",
-    "source_cn": "逐光浪歌",
-    "ref_en": "Light Chaser Wave Song",
-    "target_ru": "Песня Light Chaser Wave"
-  },
-  {
     "id": "068637",
     "source_cn": "通关「黑荆棘事件簿·黄金之罪」",
     "ref_en": "Clear \"Blackthorn Case Files: Sin of Gold\"",
@@ -22726,12 +22708,6 @@
     "source_cn": "【占位-动画】接着，他飞快地点燃蜡烛、激活了净化仪式。",
     "ref_en": "[Placeholder-Animation] Next, he quickly lights the candles and activates the purification ritual.",
     "target_ru": "[Заполнитель-анимация] Затем он быстро зажигает свечи и активирует ритуал очищения."
-  },
-  {
-    "id": "068801",
-    "source_cn": "【秘偶技】星之虫-星痕",
-    "ref_en": "[Marionette Skill] Worm of Star - Star Mark",
-    "target_ru": "[Марионетка Skill] Worm of Star - Star Mark"
   },
   {
     "id": "068802",
@@ -24340,12 +24316,6 @@
     "source_cn": "【成为序列9后解锁，尝试扮演战士】\\n在金秋湖畔的木屋边，你看见两个粗暴的混混正在找一个女孩的麻烦……",
     "ref_en": "【Unlocked after becoming Sequence 9, try acting as a Warrior】\\n By the wooden house on the shore of Golden Autumn Lake, you see two rough thugs giving a girl trouble...",
     "target_ru": "【Открывается по достижении Последовательности 9: попробуйте сыграть роль Воина】\\nУ деревянной хижины на берегу озера Золотой Осени вы замечаете двух грубых головорезов, пристающих к девушке..."
-  },
-  {
-    "id": "069070",
-    "source_cn": "【秘偶技】骑士守护LV3~6",
-    "ref_en": "【Marionette Skill】 Knight Guard LV3~6",
-    "target_ru": "【Марионетка Skill】 Knight Guard LV3~6"
   },
   {
     "id": "069071",
@@ -29566,12 +29536,6 @@
     "source_cn": "……唉。",
     "ref_en": "...Sigh.",
     "target_ru": "...Вздох."
-  },
-  {
-    "id": "069943",
-    "source_cn": "【LV3】【秘偶技】寻踪魔弹-召唤",
-    "ref_en": "[LV3] [Marionette Skill] Tracking Magic Bullet - Summon",
-    "target_ru": "[LV3] [Марионетка Skill] Tracking Magic Bullet - Summon"
   },
   {
     "id": "069944",

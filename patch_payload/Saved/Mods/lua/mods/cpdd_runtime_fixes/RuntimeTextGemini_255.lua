@@ -231,7 +231,6 @@ return {
     ["The priest who sacrifices to disaster, the bishop who rules the seas, the elder who bears filth and corruption, the pope who walks in the shadows of mystery, the Hanged Man who fears no sacrifice or dedication."] = "Священник, приносящий жертву катастрофе, епископ, управляющий морями, старейшина, несущий грязь и разложение, папа, ходящий в тени тайны, Повешенный, который не боится ни жертв, ни посвящения.",
     ["And the decent clothes for me and my child\r\nwere all bought half a year ago..."] = "И достойную одежду для меня и моих детей,\n были куплены полгода назад...",
     ["Resources"] = "Ресурсы",
-    ["Leave Dream·Positioning·Carol"] = "Оставь Dream·Positioning·Carol",
     ["Demoness Sect"] = "Секта демониц",
     ["Then why did he become an alcoholic?"] = "Тогда почему он стал алкоголиком?",
     ["Hello, are you a... mushroom?"] = "Привет, ты... гриб?",

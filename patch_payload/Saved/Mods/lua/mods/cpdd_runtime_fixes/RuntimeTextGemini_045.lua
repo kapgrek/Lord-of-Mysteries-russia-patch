@@ -252,7 +252,6 @@ return {
     ["Heavy Bounty"] = "Тяжелая награда",
     ["Melissa celebrates the server launch"] = "Мелисса празднует запуск сервера",
     ["A classic wooden door style that separates an indoor space."] = "Классический стиль деревянной двери, разделяющей внутреннее пространство.",
-    ["[Position] Windmill - Jirel sets up a Wall of Spirituality"] = "[Position] Windmill - Jirel sets up a Wall of Духовность",
     ["Murray"] = "Мюррей",
     ["[Spellcraft]"] = "[Колдовство]",
     ["【神弃之地】"] = "【Заброшенная земля богов】",

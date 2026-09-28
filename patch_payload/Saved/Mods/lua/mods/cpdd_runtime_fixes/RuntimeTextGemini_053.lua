@@ -165,7 +165,6 @@ return {
     ["Hall Bowing Guard Three"] = "Зал, носовой стражник третий",
     ["Obtain Stone Flooring *10 after use."] = "Получите каменный пол *10 после использования.",
     ["Destiny Retribution"] = "Судьба Возмездие",
-    ["[Tarot Academy Atmosphere] Backlund"] = "[Tarot Academy Atmosphere] Бэкланд",
     ["Hehe, you were startled, weren't you?"] = "Хе-хе, ты был поражен, не так ли?",
     ["Open to choose and receive one <Highlight>Item Level 60</> <Highlight>Adventure-oriented</> orange Equipment."] = "Откройте, чтобы выбрать и получить один предмет <Highlight>Уровень 60</> <Highlight>Оранжевое снаряжение </>, ориентированное на приключения.",
     ["Oh, show some respect for the little goat! Or I'll beat your backside with my cane!"] = "О, проявите немного уважения к козлёнку! Или я побью тебя по заднице тростью!",

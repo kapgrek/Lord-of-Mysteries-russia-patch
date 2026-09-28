@@ -172,7 +172,6 @@ return {
     ["Head to \"Sinful Tingen\" and complete events to obtain 1000 \"Performance Ticket Stubs\". <h></>"] = "Отправляйтесь в «Грешный Тинген» и выполняйте мероприятия, чтобы получить 1000 «Корешков билетов на представление». <h></>",
     ["How do I clear Blackthorn?"] = "Как мне очистить Чёрный Чертополох?",
     ["Dungeon_May Manor_Whole City_Default Load_General"] = "Dungeon_May Manor_Весь город_Загрузка по умолчанию_Общие",
-    ["GTA-Mechanical Creation-Mechanism Head Finds Torso"] = "GTA-Mechanical Creation-Mechanism Head находит туловище",
     ["[Roadblock] Central Area Right Side Road Closure"] = "[Контроль] Перекрытие правой стороны дороги в центральном районе",
     ["<P_Heart> (Bitter smile) </> At that time, I really felt cursed, even the weather favored the Feysacians."] = "<P_Heart> (Горькая улыбка) </> В тот момент я действительно чувствовал себя проклятым, даже погода благоприятствовала фейсакианцам.",
     ["I must track down the \"Crown of Knowledge\" to prevent it from further animating. I would like to entrust the task of destroying the \"Magic Mirror of Despair\" to you and Frye."] = "Я должен выследить «Корону знаний», чтобы предотвратить ее дальнейшее оживление. Я хотел бы поручить задачу уничтожения «Волшебного зеркала отчаяния» вам и Фраю.",

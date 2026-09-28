@@ -39,7 +39,6 @@ return {
     ["Overload function state machine 2_Taking damage during this period will lose 84007601 stacks, and 0 stacks will trigger 10 seconds of Armor Break"] = "Конечный автомат функции перегрузки 2_Получение урона в течение этого периода приведет к потере 84007601 стаков, а 0 стаков активируют 10 секунд прорыва защиты.",
     ["<P_Heart>(Whispering)</> If it upsets our stomachs, we can still get reimbursed."] = "<P_Heart>(шепотом)</> Если это расстроит наш желудок, мы все равно сможем получить возмещение.",
     ["Warrior - End of Twilight - Ultimate - Finishing Slash"] = "Воин – Конец сумерек – Ультимейт – Завершающий удар",
-    ["[Marionette Skill] Knight Guard LV2 - Range Increase"] = "[Марионетка Skill] Knight Guard LV2 - Range Increase",
     ["Blackthorn - Arnold"] = "Чёрный Чертополох - Арнольд",
     ["This feature is not yet open."] = "Эта функция еще не открыта.",
     ["Investigate the <h> cemetery </>"] = "Исследуйте кладбище <h> </>.",

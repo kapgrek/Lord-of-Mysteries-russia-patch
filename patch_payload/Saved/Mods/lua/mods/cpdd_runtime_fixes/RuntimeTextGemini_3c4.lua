@@ -71,7 +71,6 @@ return {
     ["A talking cat... are you a true Spectator?"] = "Говорящий кот... ты настоящий Зритель?",
     ["Among the restaurants in Tingen suitable for dates, the one that might feature Southwell red wine is... hmm, not southern food, and the restaurant's characteristics are also distinct... That's it!"] = "Среди ресторанов Тингена, подходящих для свиданий, один, в котором можно попробовать красное вино Southwell, - это... хм, не южная еда, да и характеристики ресторана тоже различимы... Вот и все!",
     ["Pillar · Marble"] = "Столб · Мрамор",
-    ["[Auto-Chess] Dunn - Spirituality Resonance"] = "[Auto-Chess] Dunn - Духовность Resonance",
     ["Displacement time, in seconds."] = "Время перемещения, в секундах.",
     ["Amazing! Last week, Mr. Jessie from the East District naively believed in the gang's investment philosophy. He paid money seven times in three days, and was defrauded of a total of 500 pounds!"] = "Удивительный! На прошлой неделе г-н Джесси из Восточного округа наивно поверил в инвестиционную философию банды. Он платил деньги семь раз за три дня, и в общей сложности у него украли 500 фунтов!",
     ["Back in the day... back in the day, the toilet in my washroom was inlaid with gold and diamonds, now... *hic*."] = "Раньше... раньше унитаз в моей туалетной был инкрустирован золотом и бриллиантами, а теперь... *ик*.",

@@ -40,7 +40,6 @@ return {
     ["August 26th"] = "26 августа",
     ["Spirit Body Poor Old Man"] = "Бедный старик в духовном теле",
     ["50% Discount Coupon"] = "купон на скидку 50%",
-    ["Gray Fog Test PVP Thematic Survey"] = "Специальная анкета PVP Test Grey Fog Test",
     ["Mini-map street-Golden Indus Street-Middle Street"] = "Мини-карта улицы-Улица Золотой Инд-Средняя улица",
     ["Spirituality Extension · Beginner"] = "Расширение духовности · Новичок",
     ["Wait a moment, I am using my soul to perceive its appearance..."] = "Подождите, я использую свою душу, чтобы воспринять его внешний вид...",

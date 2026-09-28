@@ -199,7 +199,6 @@ return {
     ["There is strange energy overflowing in reality, and your abilities have erupted along with it. I was worried that something happened in the dream, so I came in to check."] = "В реальности переполняется странная энергия, и вместе с ней прорываются ваши способности. Я волновалась, что что-то произошло во сне, поэтому зашла проверить.",
     ["First, go hang around the doors of those acquaintances, hehe, make them as jealous as possible."] = "Для начала пойди потусуйся у дверей этих знакомых, хе-хе, заставь их как можно больше завидовать.",
     ["All gifts of fate have their prices marked in the dark."] = "У всех подарков судьбы цена отмечена в темноте.",
-    ["[Marionette Skill] Pufferfish Bullet LV5"] = "[Марионетка Skill] Pufferfish Bullet LV5",
     ["...Dragon?"] = "...Дракон?",
     ["State (1: enable, 0: disable), memoryStackNum (default 5), ip, port (default 127.0.0.1 8081)."] = "Состояние (1: включить, 0: отключить), MemoryStackNum (по умолчанию 5), IP-адрес, порт (по умолчанию 127.0.0.1 8081).",
     ["Lightning Lily - Find a safe place to take shelter first"] = "Молниеносная лилия — сначала найдите безопасное место, где можно укрыться.",

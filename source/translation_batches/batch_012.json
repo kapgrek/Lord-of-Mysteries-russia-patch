@@ -25638,12 +25638,6 @@
     "target_ru": "[UIFrame : UIComponent]:SetImage Failed to set image. Image resource path cannot be empty %s %s"
   },
   {
-    "id": "059291",
-    "source_cn": "“魔术师”女士，对您来说，愚者先生是个什么样的存在？",
-    "ref_en": "Ms. Magician, what kind of existence is Mr. Fool to you?",
-    "target_ru": "Ms. Фокусник, what kind of existence is Mr. Fool to you?"
-  },
-  {
     "id": "059292",
     "source_cn": "【风闻】死亡之爪新增二段技能—死亡之握，对目标造成少量伤害，若目标身上具有死亡侵蚀，伤害提升。",
     "ref_en": "[Rumor] Grasp of Death adds a second-stage skill—Grasp of Death., dealing a small amount of damage to the target. If the target is affected by Death Erosion, the damage is increased.",

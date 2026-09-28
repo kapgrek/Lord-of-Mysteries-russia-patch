@@ -215,7 +215,6 @@ return {
     ["Black Edges"] = "Черные края",
     ["Collection Art Gallery Level 15"] = "Коллекция Картинная Галерея Уровень 15",
     ["Share"] = "Делиться",
-    ["Commission Station: Tingen Lake"] = "Commission Station: Тинген Lake",
     ["Auction bid:"] = "Аукционная ставка:",
     ["This is love..."] = "Это любовь...",
     ["Why did it run away again?"] = "Почему оно снова убежало?",

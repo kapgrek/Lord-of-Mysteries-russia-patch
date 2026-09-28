@@ -834,12 +834,6 @@
     "target_ru": "Перейдите в указанное местоположение триггера. Плеер воспроизводит субтитры на черном экране, состоящие из одного предложения. Объект телепортируется к указанному Триггеру в той же сцене."
   },
   {
-    "id": "040139",
-    "source_cn": "十字街上路触发器",
-    "ref_en": "Cross Street Upper Road Trigger",
-    "target_ru": "Триггер Cross Street Upper Road"
-  },
-  {
     "id": "040140",
     "source_cn": "参战类型错误。",
     "ref_en": "Incorrect combat type.",
@@ -8718,12 +8712,6 @@
     "target_ru": "Хайнц"
   },
   {
-    "id": "041456",
-    "source_cn": "涂鸦空间-扑克魔术-已通关",
-    "ref_en": "Graffiti Space - Poker Magic - Cleared",
-    "target_ru": "Graffiti Space - Poker Magic - очищено"
-  },
-  {
     "id": "041457",
     "source_cn": "湖畔弗拉1-树桩处",
     "ref_en": "Lakeside Fula 1: At the Stump",
@@ -10726,12 +10714,6 @@
     "source_cn": "【点位】前往后台",
     "ref_en": "【Point】Go to backstage",
     "target_ru": "【Point】Перейти за кулисы"
-  },
-  {
-    "id": "041791",
-    "source_cn": "【自走棋】-梅高欧丝-普攻-哀恸震击",
-    "ref_en": "[Auto-Chess] - Megose - Basic Attack - Mourning Shock",
-    "target_ru": "[Auto-Chess] - Megose - Базовая атака - Mourning Shock"
   },
   {
     "id": "041792",
@@ -16938,12 +16920,6 @@
     "target_ru": "【Клуб Таро · Сильвия】Прирост 7 уровня (+30%) → совокупно 220%"
   },
   {
-    "id": "042829",
-    "source_cn": "【秘偶技】骑士守护LV2-范围变大",
-    "ref_en": "[Marionette Skill] Knight Guard LV2 - Range Increase",
-    "target_ru": "[Марионетка Skill] Knight Guard LV2 - Range Increase"
-  },
-  {
     "id": "042830",
     "source_cn": "一个趣味小玩法-事务选择3",
     "ref_en": "A Fun Mini-game: Transaction Choice 3",
@@ -19236,12 +19212,6 @@
     "target_ru": "<P_Heart>(колеблется)</> Возможно, это немного неожиданно... но твоя сила произвела на меня глубокое впечатление. Могу ли я попросить вас помочь мне заставить его появиться?"
   },
   {
-    "id": "043214",
-    "source_cn": "“魔术师”小姐的信件",
-    "ref_en": "Letter from Miss Magician",
-    "target_ru": "Letter from Miss Фокусник"
-  },
-  {
     "id": "043215",
     "source_cn": "【临时占位】克莱恩转过头，看到两位正走进来的线索。为首的先生和善地打了个招呼，而另外一位先生则手里攥着一份报纸。\\n【弹出角色介绍：阿兹克】",
     "ref_en": "[Temporary Placeholder] Klein turns his head and sees two clues walking in. The gentleman in the lead greets him kindly, while the other gentleman is clutching a newspaper. \\n [Pop up character introduction: Azik]",
@@ -20272,12 +20242,6 @@
     "source_cn": "帮会",
     "ref_en": "Gang",
     "target_ru": "Банда"
-  },
-  {
-    "id": "043387",
-    "source_cn": "序章流程版-砍石棺",
-    "ref_en": "Prologue Flow Version-Chop Stone Coffin",
-    "target_ru": "Версия Prologue Flow — Chop Stone Coffin"
   },
   {
     "id": "043388",
@@ -21592,12 +21556,6 @@
     "source_cn": "鲁恩王国主要信仰黑夜女神、风暴之主和大地母神。",
     "ref_en": "The Loen Kingdom mainly believes in the Evernight Goddess, the Lord of Storms, and the Earth Mother.",
     "target_ru": "Королевство Лоэн в основном верит в Богиню Вечной Ночи, Повелителя Штормов и Мать-Землю."
-  },
-  {
-    "id": "043608",
-    "source_cn": "黄铜书挑战商店",
-    "ref_en": "Brass Book Challenge Shop",
-    "target_ru": "Магазин Brass Book Challenge"
   },
   {
     "id": "043609",
@@ -23218,12 +23176,6 @@
     "source_cn": "【晋升至序列7后解锁，尝试扮演巫师】\\n午夜时分，居然还有营业的书店？",
     "ref_en": "【Unlock after advancing to Sequence 7, try acting as a Wizard】 \\n At midnight, there's actually a bookstore still open?",
     "target_ru": "【Открывается после продвижения на Последовательность 7; попробуйте отыгрывать Колдуна】\nВ полночь... и книжный магазин всё ещё открыт?"
-  },
-  {
-    "id": "043880",
-    "source_cn": "【采集】占卜确认安全",
-    "ref_en": "【Collect】Divination confirms safety",
-    "target_ru": "【Collect】Гадание confirms safety"
   },
   {
     "id": "043881",

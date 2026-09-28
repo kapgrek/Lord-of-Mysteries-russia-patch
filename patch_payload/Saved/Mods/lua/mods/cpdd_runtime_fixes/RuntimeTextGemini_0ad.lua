@@ -167,7 +167,6 @@ return {
     ["I stand by the street, playing this ordinary song."] = "Я стоял на улице и играл эту обычную песню.",
     ["Camera Push"] = "Камера Нажмите",
     ["Manage Membership"] = "Управление членством",
-    ["Understand the specific <h>Beyonder awakening details</>"] = "Understand the specific <h>Потусторонний awakening details</>",
     ["Window Wall · Manor · Lower"] = "Окно Стена · Усадьба · Нижняя часть",
     ["Zhangye"] = "Чжанъе",
     ["Message History"] = "История сообщений",

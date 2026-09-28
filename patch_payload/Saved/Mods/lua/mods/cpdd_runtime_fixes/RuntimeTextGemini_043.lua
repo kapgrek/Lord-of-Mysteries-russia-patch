@@ -164,7 +164,6 @@ return {
     ["5231215   Hornacis Mountain Range   Solo Instance"] = "5231215 Одиночное измерение: Хорнакис Mountain Range",
     ["0: Total damage absorbed by the shield buff."] = "0: Общий урон, поглощенный усилением щита.",
     ["Close-up Dunn 2"] = "Крупный план Данна 2",
-    ["Sweat-Blood Blue (5 characters)"] = "Sweat-Blood Blue (5 символов)",
     ["Annie: Grandpa! Grandpa..."] = "Энни: Дедушка! Дедушка...",
     ["Unlocked after completing three Bard locations in the Sea of Flowers"] = "Разблокируется после прохождения трех локаций Барда в Море Цветов.",
     ["Harvest %d/400 high-quality food shop products."] = "Собирайте высококачественные продукты из продовольственного магазина %d/400.",

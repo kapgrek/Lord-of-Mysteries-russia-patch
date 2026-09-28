@@ -183,7 +183,6 @@ return {
     ["My Lady, all it takes is one seed, and everything will be reborn."] = "Моя Леди, достаточно одного семени, и все возродится заново.",
     ["Buy %s price %s%d%%"] = "Купить %s цена %s%d%%",
     ["Password error; <Chat_Red> %s </> attempts remaining today."] = "Ошибка пароля; <Chat_Red> %s </> попыток осталось сегодня.",
-    ["World channel chat cooldown reduced"] = "World channel chat Перезарядка reduced",
     ["Silk Cotton Textile Mill Level 4"] = "Шелко-хлопчатобумажная текстильная фабрика, уровень 4",
     ["Mark_Boss"] = "Марк_Босс",
     ["Damage taken increased by 20%"] = "Получаемый урон увеличен на 20%.",

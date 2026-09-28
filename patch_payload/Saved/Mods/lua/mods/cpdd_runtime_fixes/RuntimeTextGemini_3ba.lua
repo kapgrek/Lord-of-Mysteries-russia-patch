@@ -59,7 +59,6 @@ return {
     ["Level Reward"] = "Награда за уровень",
     ["Speeding Tom"] = "Ускоряющийся Том",
     ["Mrs. Cony"] = "миссис Кони",
-    ["Of course! {{PlayerName}}, go tell Zoe about this immediately."] = "Конечно! {{PlayerName}}, go tell Zoe about this immediately.",
     ["Swing at melee enemies and use Necrotic Howl to deter surrounding enemies."] = "Наносите удары по врагам ближнего боя и используйте Некротический вой, чтобы отпугнуть окружающих врагов.",
     ["Dream-Eating Flower Monster Fragment"] = "Фрагмент цветочного монстра, пожирающего сны",
     ["Orient camera towards skill target."] = "Направьте камеру на цель навыка.",

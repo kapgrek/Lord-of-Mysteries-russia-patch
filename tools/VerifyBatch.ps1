@@ -60,6 +60,11 @@ function Get-NumberBag([string]$text, [bool]$isRu) {
 $enWordRegex = [System.Text.RegularExpressions.Regex]::new('\b[A-Za-z]{3,}\b', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $ruWordRegex = [System.Text.RegularExpressions.Regex]::new('\p{IsCyrillic}+', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $enStripRegex = [System.Text.RegularExpressions.Regex]::new('\{\{.*?\}\}|<[^>]*>|\\[nrt]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+# Chinese source: 3 Latin words are enough; debug sources ([Class] prefix, camelCase fields, LuaList(...)) are skipped
+$cjkRegex = [System.Text.RegularExpressions.Regex]::new('\p{IsCJKUnifiedIdeographs}', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$enDebugRegex = [System.Text.RegularExpressions.Regex]::new('^\s*(?:\[UIFrame|\[[A-Za-z_]+\]|LuaList\(|local\s)|\b[a-z]+[A-Z][A-Za-z]*\b', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+# English plural glued to a Russian word by canon replacement: "<Cyrillic word>s" (TASK-023)
+$enPluralRegex = [System.Text.RegularExpressions.Regex]::new('[\u0410-\u044F\u0401\u0451]s\b', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 $starBrokenRegex =[System.Text.RegularExpressions.Regex]::new('\{?\s*C(?:heckSta\s+r|heckS\s+tar|h\s+eckStar|heckStar\s*\(Type=\\"seal\)|heckStar\s*\(Type=\\"sealed\\"[^}]*?\s+[=,])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 
 # Regex to extract batch items
@@ -253,13 +258,18 @@ foreach ($file in $files) {
         }
 
         # 10. English "translation": machine translation once returned ref_en and the line counts as done (TASK-023)
-        if ($ru -notmatch '^\s*(?:\[UIFrame|local\s)' -and $specRegex.Matches($ru).Count -lt 3) {
+        if ($ru -notmatch '^\s*(?:\[UIFrame|local\s)' -and -not $enDebugRegex.IsMatch($enStripRegex.Replace($cn, ' ')) -and $specRegex.Matches($ru).Count -lt 3) {
             $plain = $enStripRegex.Replace($ru, ' ')
             $latWords = $enWordRegex.Matches($plain).Count
-            if ($latWords -ge 6 -and $latWords -gt 2 * $ruWordRegex.Matches($plain).Count) {
+            $minWords = if ($cjkRegex.IsMatch($cn)) { 3 } else { 6 }
+            if ($latWords -ge $minWords -and $latWords -gt 2 * $ruWordRegex.Matches($plain).Count) {
                 Write-Host "  [WARN $fileName ID:$id] en_target: target_ru is English ($latWords Latin words): $ru" -ForegroundColor Yellow
                 $fileWarnings++
             }
+        }
+        if ($enPluralRegex.IsMatch($ru)) {
+            Write-Host "  [WARN $fileName ID:$id] en_plural: English plural on a Russian word: $ru" -ForegroundColor Yellow
+            $fileWarnings++
         }
     }
 

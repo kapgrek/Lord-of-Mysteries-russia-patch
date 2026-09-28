@@ -54,7 +54,6 @@ return {
     ["Civilization and Order"] = "Цивилизация и порядок",
     ["Use to obtain Body Effect: <Highlight> Golden Branch Forest Shadow: Head </>"] = "Используйте для получения эффекта тела: <Highlight> Золотая ветвь леса. Тень: голова </>.",
     ["Seeks the secrets behind things, and combat is one such thing. Masters many styles of combat, has improved physical fitness, and can use their body to weaken the effects of certain supernatural powers."] = "Ищет секреты вещей, и бой — одна из таких вещей. Владеет многими стилями боя, имеет улучшенную физическую форму и может использовать свое тело для ослабления воздействия определенных сверхъестественных сил.",
-    ["5231174 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231174 Одиночное измерение: Wang Xingyi Personal Test Instance",
     ["Whoa! Wait... there are enemies!"] = "Ого! Подождите... есть враги!",
     ["Mute Mic"] = "Отключить микрофон",
     ["Current Quest step failed, click confirm to restart."] = "Текущий этап квеста не выполнен, нажмите «Подтвердить», чтобы перезапустить.",

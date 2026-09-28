@@ -249,7 +249,6 @@ return {
     ["<P_Heart> (Eyes shining) </> Of course, it's because I want to learn circus arts! I don't like the piano and painting lessons my parents arrange..."] = "<P_Heart> (Глаза сияют) </> Конечно, это потому, что я хочу научиться цирковому искусству! Мне не нравятся уроки игры на фортепиано и рисования, которые устраивают мои родители...",
     ["What is the resurrection Ayla mentioned?"] = "О каком воскрешении упоминает Эйла?",
     ["Dog path"] = "Путь собаки",
-    ["Golden Indus Avenue Carriage Station Bicycle (Yellow)"] = "Велосипед Golden Indus Avenue Carriage Station (желтый)",
     ["Beginner Recommendation"] = "Рекомендация для начинающих",
     ["Check Coffin"] = "Проверить гроб",
     ["Starts in %s"] = "Начинается через %s",

@@ -30,7 +30,6 @@ return {
     ["Peak of the Gods Champion"] = "Пик богов Чемпион",
     ["Auto Chess Skill Effect - 85300562"] = "Эффект навыка Auto Chess — 85300562",
     ["Well done!"] = "Отличная работа!",
-    ["[LV1] [Marionette Skill] Tracking Magic Bullet - Summon"] = "[LV1] [Марионетка Skill] Tracking Magic Bullet - Summon",
     ["Maximum of 60 official members, 12 reserve members."] = "Максимум 60 официальных членов, 12 резервных членов.",
     ["Auto Chess Skill Effect - 85300574"] = "Эффект навыка Auto Chess — 85300574",
     ["<P_Heart> (Is this... a band?) </>"] = "<P_Heart> (Это... группа?) </>",

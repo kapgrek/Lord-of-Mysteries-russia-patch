@@ -199,7 +199,6 @@ return {
     ["Prologue - Auto-Release Dodge"] = "Пролог — Уклонение с автоматическим выпуском",
     ["Goodnight, Tingen"] = "Спокойной ночи, Тинген",
     ["Out-of-Control Bandit"] = "Вышедший из-под контроля бандит",
-    ["[Marionette Skill] Hidden Stab LV1"] = "[Марионетка Skill] Hidden Stab LV1",
     ["Pass checkpoint 7"] = "Пройти КПП 7",
     ["Play dialogue without camera focus at coordinate position"] = "Воспроизведение диалога без фокусировки камеры в координатной позиции",
     ["Golden Indus - Comforting Child"] = "Золотой Инд - Утешающий ребенок",

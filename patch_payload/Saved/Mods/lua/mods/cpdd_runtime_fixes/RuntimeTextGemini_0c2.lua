@@ -219,7 +219,6 @@ return {
     ["Welcome to Coastline Restaurant to taste the flavors of the southern ocean."] = "Добро пожаловать в ресторан Coastline, чтобы попробовать ароматы южного океана.",
     ["If the target player is eligible for Requiem, the <Highlight>Requiem</> button will be displayed. Clicking it will allow you to perform Requiem on them."] = "Если целевой игрок имеет право на участие в «Реквиеме», отобразится кнопка <Highlight>Requiem</>. Нажав на нее, вы сможете исполнить над ними Реквием.",
     ["Add 999,999 HP"] = "Добавьте 999 999 л.с.",
-    ["Obtain 1 Beyonder material with <Wind-Blessed> trait"] = "Obtain 1 Потусторонний material with <Wind-Blessed> trait",
     ["Family Relationship Instructions"] = "Инструкция по семейным отношениям",
     ["Hey, ready to try surfing? The waves on the lake are great today, I'm just about to go for a ride."] = "Эй, готов попробовать заняться серфингом? Волны на озере сегодня отличные, я как раз собираюсь покататься.",
     ["Yes, that's right! This piece is the 'Wedding March'."] = "Да, это так! Это произведение называется «Свадебный марш».",

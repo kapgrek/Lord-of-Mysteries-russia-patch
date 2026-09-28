@@ -7632,12 +7632,6 @@
     "target_ru": "Гнездовая опухоль"
   },
   {
-    "id": "126276",
-    "source_cn": "序章流程版-斧头",
-    "ref_en": "Prologue Flow Version-Axe",
-    "target_ru": "Пролог Flow Version-Axe"
-  },
-  {
     "id": "126277",
     "source_cn": "异变词条-狂袭式",
     "ref_en": "Mutation Entry - Frenzied Assault",
@@ -8806,12 +8800,6 @@
     "source_cn": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>友敌关系</>\\n相同队伍、团队或俱乐部的成员视为友方，<Highlight>其余玩家均为敌对关系</>，可自由攻击。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>团队结算</>\\n击败敌对玩家时，击杀者及最多<Highlight>29名</>符合助攻条件的同团队成员参与本次猩红遗物与段位胜点结算。\\n本次可分配的猩红遗物按参与人数平均分配并向下取整。存在余数时，击杀者优先额外获得1个，其余部分在其他参与者中随机分配，每人最多额外获得1个。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>掠夺规则</>\\n击败敌对玩家后，可从目标处掠夺<Highlight>段位胜点</>与其持有的<Highlight>猩红遗物</>。玩家头顶显示的碎片数量越多，抢夺猩红遗物的比例越高；头顶碎片数每提高<Highlight>500个</>，抢夺比例相应提升。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>段位保护</>\\n段位低于<Highlight>伯爵1阶</>的玩家，被击杀时不扣除段位胜点。\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>段位胜点衰减</>\\n每日<Highlight>01:00—08:00</>，击杀玩家获得的段位胜点调整为正常值的<Highlight>10%</>，猎杀进度提供的段位胜点不受影响。\\n同一玩家在10分钟内重复击杀同一目标时，第1—3次获得100%段位胜点，第4次获得50%，第5次获得20%，第6次及以后不再获得。两项衰减规则同时生效时，最终结果按比例乘算。",
     "ref_en": "<img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Friend/Enemy Relationship </> \\n Members of the same team, group, or Club are considered allies; <Highlight> all other players are hostile </> and can be attacked freely. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Team Settlement </> \\n When defeating a hostile player, the killer and up to <Highlight> 29 </> team members who meet the assist criteria participate in this Crimson Relic and Rank Point settlement. \\n The distributable Crimson Relics are divided equally among the participants and rounded down. If there is a remainder, the killer gets priority for 1 extra, and the rest are distributed randomly among other participants, with each person receiving at most 1 extra. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Plunder Rules </> \\n After defeating a hostile player, you can plunder <Highlight> Rank Points </> and the <Highlight> Crimson Relics </> they hold from the target. The more fragments displayed above a player's head, the higher the percentage of Crimson Relics that can be plundered; for every <Highlight> 500 </> fragments above the head, the plunder percentage increases accordingly. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Rank Protection </> \\n Players with a rank lower than <Highlight> Earl Tier 1 </> will not lose Rank Points when killed. \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Rank Point Decay </> \\n Daily <Highlight> 01:00—08:00 </>, Rank Points obtained from killing players are adjusted to <Highlight> 10% </> of the normal value; Rank Points provided by hunting progress are not affected. \\n When the same player kills the same target repeatedly within 10 minutes, the 1st—3rd times grant 100% Rank Points, the 4th time grants 50%, the 5th time grants 20%, and the 6th time and onwards grant none. When both decay rules are in effect simultaneously, the final result is calculated by multiplying the proportions.",
     "target_ru": "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Отношения друг-враг</>\\nЧлены одной команды, команды или клуба считаются друзьями. <Highlight>Остальные игроки враждебны </> и могут свободно атаковать. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Командное поселение</>\\nПри победе над вражеским игроком убийца и до <Highlight>29 </> членов этой же команды, соответствующие условиям помощи, участвуют в заселении алых реликвий и набирают победные очки. \\nАлые реликвии, которые можно будет раздать в этот раз, будут распределены равномерно по количеству участников и округлены в меньшую сторону. При наличии остатка тот, кто убивает, первым получит 1 дополнительную фигуру, а остальные будут случайным образом распределены между другими участниками, при этом каждый человек получит максимум 1 дополнительную фигуру. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Правила грабежа</>\\nПосле победы над вражеским игроком вы можете украсть <Highlight>Очки рангового выигрыша</> и <Highlight>Алую реликвию</> с цели. Чем больше фрагментов отображается над головой игрока, тем выше процент выхватывания алых реликвий; каждый раз, когда количество осколков над головой игрока увеличивается на <Highlight>500</>, коэффициент выхватывания соответственно увеличивается. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Защита ранга</>\\n У игроков, чей ранг ниже <Highlight>Earl 1</>, не будут вычитаться очки ранга при убийстве. \\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Очки за получение рейтинга уменьшаются</>\\nЕжедневно<Highlight>01:00—08:00</>. Выигрышные очки, полученные за убийства игроков, корректируются до <Highlight>10%</> от обычного значения. На выигрышные очки, полученные в ходе охоты, это не влияет. \\nКогда один и тот же игрок неоднократно убивает одну и ту же цель в течение 10 минут, он получит 100% очков выигрыша ранга с 1-го по 3-й раз, 50% с 4-го раза, 20% с 5-го раза и не более 6-го и последующих раз. Когда одновременно действуют два правила затухания, конечный результат умножается пропорционально."
-  },
-  {
-    "id": "126472",
-    "source_cn": "<player>%s</>开启“别野派对”，邀请各位非凡者参加！",
-    "ref_en": "<player>%s</> starts a \"Villa Party\", inviting all Beyonders to attend!",
-    "target_ru": "<player>%s</> начинает «Вечеринку на вилле», приглашая всех Потустороннийs принять участие!"
   },
   {
     "id": "126474",
@@ -10410,12 +10398,6 @@
     "target_ru": "Участвуйте в подземелье <Highlight>Антигон Notebook (Normal)</> в одиночку, чтобы получить шанс получить испорченное <Highlight>уровня 55~60</> <Highlight>Золотого качества Отпечатанное оборудование</>."
   },
   {
-    "id": "126741",
-    "source_cn": "南区大道喷泉小广场脚踏车棕",
-    "ref_en": "South District Avenue Fountain Square Bicycle (Brown)",
-    "target_ru": "Велосипед South District Avenue Fountain Square (коричневый)"
-  },
-  {
     "id": "126742",
     "source_cn": "南区工厂午休氛围",
     "ref_en": "South District factory lunch break atmosphere",
@@ -11002,12 +10984,6 @@
     "source_cn": "【28】原来……",
     "ref_en": "[28] So it was...",
     "target_ru": "[28] Так и было..."
-  },
-  {
-    "id": "126841",
-    "source_cn": "【秘偶技】命运湍流-黑",
-    "ref_en": "[Marionette Skill] Fate Turbulence - Black",
-    "target_ru": "[Марионетка Skill] Fate Turbulence - Black"
   },
   {
     "id": "126842",
@@ -16150,12 +16126,6 @@
     "source_cn": "穹顶之下",
     "ref_en": "Under the Dome",
     "target_ru": "Под куполом"
-  },
-  {
-    "id": "127702",
-    "source_cn": "窥秘人-肉鸽BD-洞察之眼",
-    "ref_en": "Mystery Pryer - Roguelike BD - Eye of Insight",
-    "target_ru": "Тайноведец - Roguelike BD - Eye of Insight"
   },
   {
     "id": "127703",
@@ -21858,12 +21828,6 @@
     "target_ru": "<Highlight> Мастерство: </> Хлопковое прядение Seiko, интеллектуальное цветочное оформление, униформа натуралиста \\n Продолжайте идти, прослеживая прошлое в музее и глядя в будущее. Возможно, мы всего лишь силуэты в порах истории."
   },
   {
-    "id": "128656",
-    "source_cn": "<Highlight>既是猎手，也是猎物</>——你可击杀他人，<Highlight>夺取遗物材料与段位胜点</>。但亦随时可能沦为其它非凡者的攻击目标，<Highlight>建议组队开启狩猎</>！",
-    "ref_en": "<Highlight>You are both the hunter and the prey</>—you can kill others to <Highlight>seize relic materials and rank points</>. However, you may also become the target of other Beyonders at any time, <Highlight>so it is recommended to form a team to begin your Hunt</>!",
-    "target_ru": "<Highlight>Вы одновременно и охотник, и добыча.</> — вы можете убивать других, чтобы <Highlight>захватывать реликвии и получать очки ранга</>. Однако вы также можете в любой момент стать целью других Потустороннийs, <Highlight>, поэтому рекомендуется сформировать команду, чтобы начать свою Hunt</>!"
-  },
-  {
     "id": "128657",
     "source_cn": "<P_Heart>脑袋怎么突然有点痛。</>",
     "ref_en": "<P_Heart>Why does my head suddenly hurt a bit?</>",
@@ -22606,12 +22570,6 @@
     "source_cn": "……证件也是可以伪造的，在我的家乡，这种劣质的证件两苏勒一个。",
     "ref_en": "...Documents can also be forged. In my hometown, these low-quality documents are two Sol each.",
     "target_ru": "...Документы также могут быть подделаны. В моем родном городе эти некачественные документы стоят по два сола каждый."
-  },
-  {
-    "id": "128781",
-    "source_cn": "【位置】风车-吉瑞尔布置灵性之墙",
-    "ref_en": "[Position] Windmill - Jirel sets up a Wall of Spirituality",
-    "target_ru": "[Position] Windmill - Jirel sets up a Wall of Духовность"
   },
   {
     "id": "128783",
@@ -25612,12 +25570,6 @@
     "source_cn": "30毫升",
     "ref_en": "30 ml",
     "target_ru": "30 мл"
-  },
-  {
-    "id": "129283",
-    "source_cn": "5231136   贝克兰德   单人位面",
-    "ref_en": "5231136 Backlund Single-Player Instance",
-    "target_ru": "5231136 Бэкланд Single-Player Instance"
   },
   {
     "id": "129284",

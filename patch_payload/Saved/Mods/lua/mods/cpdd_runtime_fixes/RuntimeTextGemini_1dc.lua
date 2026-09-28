@@ -80,7 +80,6 @@ return {
     ["trigger4号"] = "Триггер №4",
     ["{{先生|女士}}，你看起来是能够把握命运的那类人。"] = "{{ Mr. | Ms. } }, вы похожи на человека, который может сам разобраться в своей судьбе.",
     ["……真的？你救了我，我……相信你。"] = "...Действительно? Ты спас меня, я... доверяю тебе.",
-    ["【秘偶技】幻化身形2段"] = "[Марионетка Skill] Phantom Form 2nd Stage",
     ["【触发点】百里挑蛋"] = "【Триггерная точка】 Одно яйцо из ста",
     ["一直暧昧，害怕告白"] = "Всегда двусмысленный, боюсь признаться",
     ["下一站物产出售价格+30%"] = "Цена продажи следующей станции +30%",
@@ -206,7 +205,6 @@ return {
     ["<Highlight>【Rank Reward Description】</>\n\n 1. Ranked modes include: Adventure, Companion, Dungeon, Fun Fight, Dominator's Clash, Battle for the Throne of God, Moment of Fate, and Final Hunt.\n\n 2. Playing each mode accumulates corresponding victory points, which increase your rank and grant rank rewards.\n\n 3. Rewards for each rank can be claimed <Highlight>up to three times</>. You can freely choose 3 modes you enjoy; <Highlight>you do not need to play all of them</>.\n\n 4. The system automatically lists the three modes with your highest rank in the primary positions. Click on each module to quickly navigate to the corresponding mode interface.\n\n 5. Rank rewards will reset when the rank resets."] = "<Highlight>【Правила наград за ранг】</>\n\n1. Рейтинговые режимы включают: Приключение, Соратники, Подземелья, Забава, Битва Владык, Битва за Божественный трон, Момент судьбы и Окончательная охота.\n\n2. Участие в каждом из режимов приносит отдельные победные очки, повышая ваш ранг и открывая соответствующие ранговые награды.\n\n3. Награды за каждый достигнутый ранг можно получить <Highlight>не более трех раз</>. Вы вольны сами выбирать 3 любых полюбившихся режима — проходить абсолютно все <Highlight>вовсе не обязательно</>.\n\n4. Три режима с вашим наивысшим рангом автоматически выводятся на главный экран. Коснитесь любого блока, чтобы мгновенно перейти в меню соответствующего испытания.\n\n5. При сезонном сбросе ранга сбрасывается и прогресс получения ранговых наград.",
     ["Check the pool"] = "Проверьте бассейн",
     ["Participate in Fun Brawl mode and reach the Lord of Stars rank."] = "Участвуйте в режиме «Весёлая потасовка» и достигните ранга «Властелин звёзд».",
-    ["[Marionette Skill] Worm of Star - Star Mark"] = "[Марионетка Skill] Worm of Star - Star Mark",
     ["Develop the castle to be more complete—then load the carriage with produce and set off for the next unknown station."] = "Развивайте замок, чтобы сделать его более целостным, а затем загружайте вагон продуктами и отправляйтесь на следующую неизведанную станцию.",
     ["Check Clown limit for team"] = "Проверьте лимит клоунов для команды",
     ["Caravan Stationed"] = "Караван стоит",
@@ -289,6 +287,7 @@ return {
     ["Life Steal increased by 6% when Health is below 50%."] = "Когда здоровье ниже 50%, похищение жизни увеличено на 6%.",
     ["错的是这个世界 你难道不准备做点什么吗？"] = "Виноват этот мир. Неужели ты не собираешься что-то с этим сделать?",
     ["白天的乌木桌俱乐部的确体面，可等到晚上，真正的交易才正式开始。"] = "Днём клуб «Эбеновый стол» и правда выглядит респектабельно, но с наступлением ночи начинаются настоящие сделки.",
+    ["【秘偶技】幻化身形2段"] = "[Marionette Skill] Phantom Form 2nd Stage",
     ["Jani"] = "Яни",
     ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }
