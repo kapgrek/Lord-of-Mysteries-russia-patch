@@ -289,4 +289,5 @@ return {
     ["那位造物主曾说：要有光。于是，祂座下的神性以光环代言。"] = "Тот Создатель некогда сказал: Да будет свет. И тогда божественность у Его престола стала выражаться через ореол.",
     ["In competition mode, <Highlight> defeat </> %s/%s Mystery Pryers"] = "В арене <Highlight>победите</> %s/%s Соглядатаев",
     ["If I had read more books when I was a child, would my life have been less difficult?"] = "Если бы я читал больше книг в детстве, была бы моя жизнь не такой трудной?",
+    ["Bystander Citizen"] = "Случайный горожанин",
 }

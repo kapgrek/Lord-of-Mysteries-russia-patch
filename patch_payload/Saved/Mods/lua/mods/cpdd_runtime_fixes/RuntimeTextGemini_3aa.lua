@@ -271,6 +271,7 @@ return {
     ["All Attack increased by 10%."] = "Общая атака увеличивается на 10%.",
     ["你获得了<Chat_Highlight>%d</>战功。"] = "Вы получили <Chat_Highlight>%d</> Боевых заслуг.",
     ["You must go to the strategic server first to proceed. Talk to Roselle's war projection to go to the strategic server Tingen. The strategic server does not support cross-map quest tracking. If you cannot track, please go to the strategic server Tingen first."] = "Чтобы продолжить, сначала нужно отправиться на стратегический сервер. Поговорите с боевой проекцией Роселля, чтобы перейти на стратегический сервер Тинген. Стратегический сервер не поддерживает отслеживание целей заданий между картами. Если отслеживание не работает, сначала отправьтесь на стратегический сервер Тинген.",
+    ["Steel Phantom"] = "Стальной призрак",
     ["Sarai"] = "Сарай",
     ["消耗%d/200000城堡资产。"] = "Поглотите %d/200 000 активов замка.",
     ["每周我都在这里。您若过来坐坐，我便再为您写一首。只给您一个人。"] = "Я здесь каждую неделю. Если ты придешь и посидишь немного, я напишу тебе еще одно. Только для тебя.",

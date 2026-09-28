@@ -268,5 +268,6 @@ return {
     ["Deal <HighLight>160%</> attack damage to surrounding enemies and gain a shield equal to <HighLight>10%</> of your maximum health, lasting for <HighLight>4</> seconds."] = "Нанесите <HighLight>160%</> урона от атаки окружающим врагам и получите щит, равный <HighLight>10%</> вашего максимального здоровья, действующий <HighLight>4</> сек.",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 6 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 6 маны",
     ["He cares for every living being; even if you do not believe in 'The Fool', you can still enjoy everything the Tarot Club has to offer."] = "Он заботится о каждом живом существе; даже если вы не верите в «Шута», вы всё равно можете пользоваться всем, что предлагает Таро-клуб.",
+    ["厄运锋芒"] = "Острие Рока",
     ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "The core root stripped from the main body of a mist treant, possessing great spirituality.",
 }

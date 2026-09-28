@@ -266,4 +266,5 @@ return {
     ["When releasing a skill, there is a chance to increase Monster Specialization by <Mark>360</> points and Attack by <Mark>3%</> for <Mark>8</> seconds. Cooldown is <Mark>20</> seconds."] = "При использовании навыка есть шанс повысить специализацию против монстров на <Mark>360</> очков и атаку на <Mark>3%</>, на <Mark>8</> сек. Перезарядка <Mark>20</> сек.",
     ["Every 5 seconds, heal other allies within 1 grid for 6% of their lost Health."] = "Каждые 5 сек. лечит других союзников в радиусе 1 клетки на 6% потерянного здоровья.",
     ["Scene Damage Reduction"] = "Снижение урона в сценарии",
+    ["空气炮先以直线贯穿前方敌人，再以扇形冲击同一方向。两击各造成<HighLight>230%</>攻击伤害。"] = "Воздушная пушка сначала пронзает врагов по прямой перед собой, затем наносит веерный удар в том же направлении. Каждый из двух ударов наносит <HighLight>230%</> урона от атаки.",
 }

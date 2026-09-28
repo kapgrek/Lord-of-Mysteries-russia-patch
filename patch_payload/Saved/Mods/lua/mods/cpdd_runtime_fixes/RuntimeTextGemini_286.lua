@@ -256,6 +256,7 @@ return {
     ["Requires %s Bound Gold Pound. Both Bound Gold Pound and Gold Pound are insufficient. Proceed to top up?"] = "Требуется %s Привязанных Золотых фунтов. Привязанных Золотых фунтов и Золотых фунтов недостаточно. Перейти к пополнению?",
     ["The commission Quest for this site has been completed; you can claim it again tomorrow."] = "Задание-поручение этой точки уже выполнено, повторно получить можно завтра",
     ["Which donkey-kicked person dumped the waste in the middle of the road?"] = "Какой лягнутый ослом придурок вывалил мусор посреди дороги?",
+    ["Gift of the Pugilist"] = "Дар Кулачного бойца",
     ["Marlon"] = "Марлон",
     ["得打这个什么守卫"] = "Нужно сразиться с этим охранником.",
     ["下周开组会，我一定会被导师夸的，嘿嘿！看来今年不用延毕咯！"] = "На следующей неделе у меня собрание группы, мой наставник обязательно похвалит меня, хе-хе! Похоже, мне не придется откладывать выпускной в этом году!",

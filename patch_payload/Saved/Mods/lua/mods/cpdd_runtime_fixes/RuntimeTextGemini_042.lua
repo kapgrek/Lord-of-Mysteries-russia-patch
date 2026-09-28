@@ -260,5 +260,6 @@ return {
     ["Mark_Trinity 01"] = "Метка_Триада 01",
     ["Sin Purification Amplification"] = "Усиление очищения грехов",
     ["I used to think it was a bit eerie and cold here."] = "Раньше мне казалось, что здесь как-то жутковато и холодно.",
+    ["Aesthetic Hall"] = "Зал эстетики",
     ["Salma"] = "Сальма",
 }

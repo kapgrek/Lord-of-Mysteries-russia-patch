@@ -293,6 +293,7 @@ return {
     ["Twilight Domain radius increased by 4 meters, number of affected targets increased by 2"] = "Радиус Сумеречного владения увеличен на 4 метра, количество затронутых целей увеличено на 2",
     ["异变物质非常稀有，非凡物质最多带有2条不同的异变词条，是否确认聚合！"] = "Мутировавшее вещество очень редкое, материал Иноземного может нести не более 2 разных мутационных свойств. Подтвердить объединение!",
     ["俱乐部会员可以兼任管理职位、分组职位、俱乐部之星；\n管理职位包括会长、外交官、理事。"] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
+    ["<InvHighlight>男款</><InvDefault>采用</><InvHighlight>黑色立领礼服</><InvDefault>，银灰纹样由领口延伸至前胸。</>"] = "<InvHighlight>Мужской вариант</><InvDefault> — это</><InvHighlight> чёрный фрак с воротником-стойкой</><InvDefault>, серебристо-серый узор идёт от воротника к груди.</>",
     ["“观众”的序列名，会让人误以为这是一个只擅长观察与辅助的途径。但实际上，这也是一种伪装，让人更轻敌的伪装。"] = "The Sequence name \"Spectator\" might lead people to mistakenly think this is a Pathway only good at observation and support. But in reality, it is also a form of disguise, a disguise that makes people underestimate the user.",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",

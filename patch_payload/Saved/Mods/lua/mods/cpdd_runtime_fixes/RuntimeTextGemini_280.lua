@@ -268,6 +268,7 @@ return {
     ["活动时间 %s年%s月%s日-%s年%s月%s日"] = "Время проведения: %s.%s.%s — %s.%s.%s",
     ["Statue Charge - Shield"] = "Заряд статуи — Щит",
     ["Enter the Tingen Lake scene to unlock."] = "Разблокируется входом в локацию «Озеро Тинген».",
+    ["Door to Mid-Sequence"] = "Врата к Среднему Порядку",
     ["【秘偶技】星之虫-星云斩击-满阶充能版"] = "[Marionette Skill] Worm of Star - Nebula Slash - Full Tier Charged Version",
     ["不用害怕，他本来是个正常人，却意外遭受某件封印物力量的波及，变成了可怕的猩猩。"] = "Don't be afraid, he was originally a normal person, but he was accidentally affected by the power of a Sealed Artifact and turned into a terrifying gorilla.",
     ["过度的付出让你忘记了自己。先滋养自己，才能照顾他人。"] = "Чрезмерная самоотдача заставила тебя забыть о себе. Лишь позаботившись о себе, сможешь позаботиться о других.",

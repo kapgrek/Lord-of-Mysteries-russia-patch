@@ -268,5 +268,6 @@ return {
     ["%s阶段默认为自由发言模式，不可进行此操作"] = "Этап «%s» по умолчанию находится в режиме свободного высказывания, это действие невозможно",
     ["Don't misunderstand, it's not that she thinks I don't clean well; my wife is a follower of the Storm."] = "Не поймите неправильно, дело не в том, что она считает, будто я плохо убираюсь; моя жена — последовательница Бури.",
     ["She was born in the night, and with two snaps of her fingers, this town was built."] = "Она родилась в ночи, и двумя щелчками пальцев построила этот город.",
+    ["Treasure Seeker"] = "Искатель сокровищ",
     ["Mari"] = "Мари",
 }

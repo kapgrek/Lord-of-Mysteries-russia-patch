@@ -286,4 +286,5 @@ return {
     ["[Competition] Strategic Server Settlement · God-Chosen Honor, 2000072"] = "[Арена] Итоги стратегического сервера · Честь избранного богами, 2000072",
     ["Overwrite manual temporary save record?"] = "Перезаписать запись, сохранённую вручную?",
     ["Account restricted; temporarily unable to perform related operations. You can lift the restriction after topping up Gold Pounds/Strategic Gold Pounds/Bound Gold Pounds."] = "Аккаунт ограничен, временно невозможно выполнить это действие. Ограничение будет снято после пополнения Золотых фунтов/Стратегических золотых фунтов/Привязанных золотых фунтов.",
+    ["治疗法球1"] = "Сфера лечения 1",
 }

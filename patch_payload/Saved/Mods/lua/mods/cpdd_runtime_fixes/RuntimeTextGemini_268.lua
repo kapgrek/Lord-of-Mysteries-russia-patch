@@ -301,6 +301,7 @@ return {
     ["再消耗<HighLight>%d</>个金纺线后，下次刷新必出橙色秘偶"] = "После использования ещё <HighLight>%d</> Золотых нитей следующее обновление гарантированно даст оранжевую марионетку",
     ["比赛尚未开启或已经结束，无法进入比赛场地~"] = "Матч ещё не начался или уже завершился, невозможно войти на арену матча~",
     ["My first successful investment was in the stocks of a bicycle company. I didn't have enough money to buy the stocks at the time, but my father taught me an investment technique."] = "Моей первой успешной инвестицией были акции велосипедной компании. Тогда у меня не хватало денег на покупку акций, но отец научил меня одному инвестиционному приёму.",
+    ["魔女教派6人破防"] = "Культ Демоницы, прорыв защиты (6 чел.)",
     ["Brantley"] = "Брантли",
     ["Iron Cross Street Affordable Clock Shop \n\n \"Time belongs to everyone\" \n Lowest price in all of Tingen <Mark id=\"#159_R\">! Cash transactions, credit interest calculated separately. </> No refunds for repairs, opening the cover constitutes acceptance of the quote!"] = "Доступная часовая мастерская на улице Железного Креста\n\n«Время принадлежит каждому»\n<Mark id=\"#159_R\">Самые низкие цены</> во всём Тингене! Расчёт наличными, проценты за кредит рассчитываются отдельно.\nПосле ремонта возврату не подлежит; вскрытие крышки означает согласие с ценой!",
     ["与Npc进行对话  玩家发送任务道具"] = "Поговорите с NPC. Игрок отправляет квестовый предмет.",

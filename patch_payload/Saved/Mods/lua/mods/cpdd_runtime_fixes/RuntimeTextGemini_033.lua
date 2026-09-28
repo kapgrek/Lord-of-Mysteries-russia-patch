@@ -283,5 +283,6 @@ return {
     ["By the way, Bedy made a huge fool of himself last night."] = "Кстати, Беди вчера вечером здорово опозорился.",
     ["Dissi pies are delicious too, but I've lost so many teeth... I can't bite into them anymore."] = "Пироги Дисси тоже вкусные, но у меня выпало столько зубов... я больше не могу их прожевать.",
     ["N-nothing! I'm just looking at the styles..."] = "Н-ничего! Я просто смотрю фасоны...",
+    ["Obtain 1 Extraordinary Material with a {愚者} affix"] = "Получите 1 экстраординарный материал с аффиксом {愚者}",
     ["Camilo"] = "Камило",
 }

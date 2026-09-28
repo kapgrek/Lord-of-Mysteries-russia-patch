@@ -270,5 +270,6 @@ return {
     ["Experience the original story to unlock."] = "Разблокируется прохождением сюжета оригинального произведения.",
     ["【塔罗会·苏茜】档7增量：+18点最大生命（累计250%）"] = "[Таро-клуб · Сьюзи] Прирост уровня 7: +18 очков максимального здоровья (всего 250%)",
     ["The total number of people in the %s faction is less than %d; please adjust and try again."] = "Общее количество участников фракции %s меньше %d человек, скорректируйте и попробуйте снова.",
+    ["Burned to Ashes"] = "Сожжён дотла",
     ["　　<Mark id=\"#158\">If only that day, I could have</>"] = "　　<Mark id=\"#158\">Если бы в тот день я только мог...</>",
 }

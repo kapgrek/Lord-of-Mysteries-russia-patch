@@ -242,6 +242,7 @@ return {
     ["%s（<Time>%s</>）"] = "%s（<Time>%s</>）",
     ["基础属性：暴击+15%、攻速+10%"] = "Базовые характеристики: крит. удар +15%, скорость атаки +10%",
     ["音乐虽然是灵魂的舞蹈，但却不是生命的必需品。"] = "Музыка — танец души, но не необходимость для жизни.",
+    ["哇！"] = "Вау!",
     ["下午好，我叫安洁莉卡，占卜家俱乐部的接待员。"] = "Good afternoon, my name is Angelica, the receptionist at the Divination Club.",
     ["Precise timekeeping, available to everyone!\nCleaning and oiling, only 6 pence!\nMainspring replacement, high quality and low price!\nPocket watch appraisal, cash for old watches!\n\nDon't miss this opportunity, the Iron Cross Street affordable clock shop is about to adjust prices!\nCome quickly to lock in today's low prices!"] = "Точное время доступно каждому!\nЧистка и смазка — всего шесть пенсов!\nЗамена заводной пружины — качественно и недорого!\nОценка карманных часов, выкуп старых часов за наличные!\n\nНе упустите возможность, доступная часовая мастерская на улице Железного Креста скоро меняет цены!\nПоспешите зафиксировать сегодняшние низкие цены!",
     ["任务自定义事件  玩家根据InstanceID列表创建私有对象  玩家播放情绪音乐（仅自己可听）"] = "Пользовательское событие задания: игрок создает приватный объект по списку InstanceID; игрок проигрывает музыку настроения (слышно только себе)",

@@ -245,6 +245,7 @@ return {
     ["Unlockable after 08:00 on September 28"] = "Разблокируется после 08:00 28 сентября",
     ["Oh... we're going there to sell potatoes. Yeah, that's it."] = "А... мы едем туда продавать картофель. Ну, вот так.",
     ["确认应用将覆盖当前选中的全套方案"] = "Подтверждение применения перезапишет выбранный полный комплект",
+    ["疾猎徽章攻速层"] = "Слой скорости атаки значка «Быстрая охота»",
     ["不以血缘相连，却以誓言共筑。在这个非凡与疯狂并存的世界里，你选择了最珍贵的事——相信彼此。"] = "Not connected by blood, but built together by oaths. In this world where the extraordinary and madness coexist, you have chosen the most precious thing—trusting each other.",
     ["我明明记得许多贵族都常以家族名义开具支票捐款的呀……"] = "Я хорошо помню, что многие дворяне часто выдавали чеки от имени своих семей для пожертвований...",
 }

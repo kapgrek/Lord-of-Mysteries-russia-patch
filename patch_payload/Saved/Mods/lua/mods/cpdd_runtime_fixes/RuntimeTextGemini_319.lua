@@ -273,5 +273,6 @@ return {
     ["<M_Default> Dear Chamber of Commerce member: </>\n The Railroad Tycoon weekly rewards have been settled. The unclaimed weekly rewards have been sent via mail. Please check them in time."] = "<M_Default>Дорогой участник Торговой палаты:</>\nЕженедельные награды «Железнодорожного магната» подведены, невостребованные награды отправлены по почте, пожалуйста, заберите их вовремя.",
     ["Candlelight, red wine, two people leaning very close to each other."] = "Свечи, красное вино, двое, сидящие очень близко друг к другу.",
     ["Club members can hold management positions, group positions, and Club Star titles; \nManagement positions include President, Diplomat, and Director."] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
+    ["Dream Come True"] = "Мечта сбылась",
     ["Cullen"] = "Каллен",
 }
