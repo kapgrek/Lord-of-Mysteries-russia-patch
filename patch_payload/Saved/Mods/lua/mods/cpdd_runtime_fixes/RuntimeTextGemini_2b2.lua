@@ -30,7 +30,6 @@ return {
     ["Bonnie: You've finally come. My seed, and the shadow of Tingen."] = "_\n\nБонни: Наконец-то здесь. Мое семя и тень Тингена.",
     ["Fog? I don't see any fog."] = "Туман? Я не видел тумана.",
     ["Lock_Fan-shaped AOE 02"] = "Блокировка_сектора AOE02",
-    ["When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week."] = "When the World Calamity dies, Потустороннийs who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week.",
     ["The barren period that comes after the harvest... withered vines would make good decorations."] = "Бесплодный период, который наступает после сбора урожая... увядшие лозы могли бы стать хорошим украшением.",
     ["One thing is certain, the rest is a lie,"] = "Одно несомненно, остальное — ложь,",
     ["Welcome to Tingen, ladies and gentlemen! Would you like a carriage?"] = "Добро пожаловать в Тинген, дамы и господа! Хотите карету?",

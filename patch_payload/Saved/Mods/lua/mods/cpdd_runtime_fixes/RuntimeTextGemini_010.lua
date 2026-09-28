@@ -175,7 +175,6 @@ return {
     ["And marry a local lady with a clean family background, beautiful and virtuous... Hehe."] = "И жениться на местной даме из чистой семьи, красивой и добродетельной... Хе-хе.",
     ["Official Beyonders of the Church of the Lord of Storms, we each handle a part of the incidents in Tingen."] = "Официальные Потусторонние Церкви Повелителя Штормов, каждый из нас занимается частью инцидентов в Тингене.",
     ["[Official Resource] Confessional"] = "[Официальный ресурс] Исповедь",
-    ["I will not take 3-888 away for the time being. But your attempts on Miss Daisy indirectly caused the deaths of two servants and a butler..."] = "3-888 пока убирать не буду. But your attempts on Miss Daisy indirectly caused the deaths of two servants and a butler...",
     ["Harpist"] = "Арфист",
     ["Five Dimensions"] = "Пять измерений",
     ["Cangzhou"] = "Цанчжоу",

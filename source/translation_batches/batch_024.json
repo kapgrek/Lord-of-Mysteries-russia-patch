@@ -4572,12 +4572,6 @@
     "target_ru": "Босс Мэйского поместья № 1"
   },
   {
-    "id": "115762",
-    "source_cn": "人类想要成为非凡者，一般都需要服用魔药。",
-    "ref_en": "Humans who want to become Beyonders generally need to consume potions.",
-    "target_ru": "Humans who want to become Потустороннийs generally need to consume potions."
-  },
-  {
     "id": "115763",
     "source_cn": "传送错误",
     "ref_en": "Teleport Error",
@@ -9864,12 +9858,6 @@
     "target_ru": "Атмосфера восточного округа – пешеходная площадка Анны Джойс"
   },
   {
-    "id": "116644",
-    "source_cn": "主动攻击绿、黄名非凡者增加10失控度",
-    "ref_en": "Actively attacking green or yellow-named Beyonders increases loss of control by 10.",
-    "target_ru": "Actively attacking green or yellow-named Потустороннийs increases loss of control by 10."
-  },
-  {
     "id": "116645",
     "source_cn": "主宰争锋全国排名头衔",
     "ref_en": "Dominator's Clash national ranking title",
@@ -11212,12 +11200,6 @@
     "source_cn": "今天和熟人碰面也太开心了，聊到停不下来！",
     "ref_en": "It's so happy to run into an acquaintance today, couldn't stop chatting!",
     "target_ru": "Так рада сегодня встретить знакомого, не могла оторваться от общения!"
-  },
-  {
-    "id": "116869",
-    "source_cn": "他关爱着每位生灵，哪怕你没有信仰“愚者”，依然可以享受塔罗学派的一切。",
-    "ref_en": "He cares for every living being; even if you don't believe in the \"Fool\", you can still enjoy everything the Tarot Club has to offer.",
-    "target_ru": "He cares for every living being; even if you don't believe in the \"Fool\", you can still enjoy everything the Клуб Таро has to offer."
   },
   {
     "id": "116870",
@@ -12786,12 +12768,6 @@
     "target_ru": "[Тяжелая работа]"
   },
   {
-    "id": "117131",
-    "source_cn": "{{player.name}}对{{targetPlayer.name}}进行了安魂，虽然出于好意，但手法略有欠缺，造成<Chat_Highlight>{{eventMessageParams.N}}</>点理智损失，好心帮了倒忙。",
-    "ref_en": "{{player.name}} performed a Requiem on {{targetPlayer.name}}. Although well-intentioned, the technique was slightly lacking, causing <Chat_Highlight>{{eventMessageParams.N}}</> Sanity points of loss. A good deed that backfired.",
-    "target_ru": "{{player.name}} performed a Requiem on {{targetPlayer.name}}. Although well-intentioned, the technique was slightly lacking, causing <Chat_Highlight>{{eventMessageParams.N}}</> Рассудок points of loss. A good deed that backfired."
-  },
-  {
     "id": "117132",
     "source_cn": "【五月庄园】一号信徒-小女孩-传送位置（退化）",
     "ref_en": "[May Manor] Believer Number One - Little Girl - Teleport Position (Degradation)",
@@ -13456,12 +13432,6 @@
     "source_cn": "丈夫去世得早，两夫妇也没有孩子，只留下这些花给她。",
     "ref_en": "Her husband passed away early, and the couple had no children, leaving only these flowers for her.",
     "target_ru": "Ее муж рано ушел из жизни, а детей у пары не было, оставив ей только эти цветы."
-  },
-  {
-    "id": "117243",
-    "source_cn": "下午好！“正义”小姐、“魔术师”小姐、“星星”先生，你们怎么都在？",
-    "ref_en": "Good afternoon! Miss \"Justice,\" Miss \"Magician,\" Mr. \"The Star,\" why are you all here?",
-    "target_ru": "Good afternoon! Miss \"Justice,\" Miss \"Фокусник,\" Mr. \"The Star,\" why are you all here?"
   },
   {
     "id": "117244",
@@ -15594,12 +15564,6 @@
     "target_ru": "true для разблокировки, false для блокировки."
   },
   {
-    "id": "117599",
-    "source_cn": "“2”级封印物，危险，须谨慎且节制地利用……",
-    "ref_en": "\"Grade 2\" Sealed Artifact, dangerous, must be used with caution and restraint...",
-    "target_ru": "\"Grade 2\" Запечатанный артефакт, dangerous, must be used with caution and restraint..."
-  },
-  {
     "id": "117600",
     "source_cn": "……你想见我的父亲？但工厂已经委托给我管理了，我也不知道盒饭怎么会变成这样。",
     "ref_en": "...You want to see my father? But the factory has already been entrusted to me to manage, and I don't know how the boxed lunches ended up like this either.",
@@ -15616,12 +15580,6 @@
     "source_cn": "【秘偶技】星之虫-梦境分析",
     "ref_en": "[Marionette Skill] Worm of Star - Dream Analysis",
     "target_ru": "[Марионетка Skill] Worm of Star - Dream Analysis"
-  },
-  {
-    "id": "117603",
-    "source_cn": "【自走棋】-子爵夫人-三连斩-普攻1-新技能案例-子技能-范围Atk1",
-    "ref_en": "[Auto Chess] - Viscountess - Triple Slash - Basic Attack 1 - New Skill Case - Sub Skill - Range Atk 1",
-    "target_ru": "[Auto Chess] - Viscountess - Triple Slash - Базовая атака 1 - New Skill Case - Sub Skill - Range Atk 1"
   },
   {
     "id": "117604",
@@ -17118,12 +17076,6 @@
     "target_ru": "Однако у всего есть цена. Если вы, к сожалению, потерпите неудачу, я могу только обидеть вас, превратив и вас в марионетку... Очень выгодная сделка, не так ли?"
   },
   {
-    "id": "117853",
-    "source_cn": "为友方提供助攻次数最多的非凡者",
-    "ref_en": "The Beyonder who provided the most assists to allies.",
-    "target_ru": "The Потусторонний who provided the most assists to allies."
-  },
-  {
     "id": "117854",
     "source_cn": "乘坐渡轮前往南大陆星星高原的乘客，请在这里购票！",
     "ref_en": "Passengers taking the ferry to the Star Plateau in the Southern Continent, please buy your tickets here!",
@@ -17902,12 +17854,6 @@
     "source_cn": "交互按钮",
     "ref_en": "Interaction Button",
     "target_ru": "Кнопка взаимодействия"
-  },
-  {
-    "id": "117984",
-    "source_cn": "他家里那么有钱，想要什么都能得到，居然也要去占卜吗？想不到他会问些啥呢……",
-    "ref_en": "His family is so rich, he can get whatever he wants, yet he still wants to go for divination? I can't imagine what he would ask...",
-    "target_ru": "His family is so rich, he can get whatever he wants, yet he still wants to go for Гадание? I can't imagine what he would ask..."
   },
   {
     "id": "117985",
@@ -19980,12 +19926,6 @@
     "target_ru": "После того, как действие вступит в силу, автоматически запускается процесс монтирования (не в обход таблицы конфликтов статусов; если текущий статус запрещает монтирование, монтирование завершится неудачно)."
   },
   {
-    "id": "118330",
-    "source_cn": "{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。",
-    "ref_en": "{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on.",
-    "target_ru": "{{player.name}} has found a precious {{item.name}} amidst the Потусторонний convergence; their Потусторонний journey extends forward from this point on."
-  },
-  {
     "id": "118331",
     "source_cn": "“愚者”先生为你嫁接的力量中，还包含常用的非凡能力。",
     "ref_en": "The power grafted for you by Mr. Fool also includes some commonly used Beyonder abilities.",
@@ -20812,12 +20752,6 @@
     "source_cn": "　　6月27日上午8点，金梧桐区下水道入口传出阵阵恶臭。根据警方调查，恶臭的源头指向休伯特议员居住的切斯庄园。据悉，休伯特议员家中马桶于6月26日晚发生故障。",
     "ref_en": "　　June 27th, 8:00 AM, a foul stench emanated from the sewer entrance in the Golden Phoenix District. According to police investigations, the source of the stench pointed to Chase Manor, where Councilman Hubert resides. It is reported that the toilet in Councilman Hubert's home malfunctioned on the night of June 26th.",
     "target_ru": "27 июня, 8:00 утра, от входа в канализацию в районе Золотого Феникса исходило зловоние. По данным полицейского расследования, источник зловония указывал на поместье Чейз, где проживает член совета Хьюберт. Сообщается, что туалет в доме советника Хьюберта вышел из строя в ночь на 26 июня."
-  },
-  {
-    "id": "118469",
-    "source_cn": "【本相】梦魇命中敌方目标后令敌方目标在6秒内带有宁静光环，该光环可减少周围敌方目标技能抵挡。",
-    "ref_en": "[True Form] After Nightmare hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Skill Block of surrounding enemy targets.",
-    "target_ru": "[True Form] After Кошмар hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Блок навыков of surrounding enemy targets."
   },
   {
     "id": "118470",
@@ -22302,12 +22236,6 @@
     "target_ru": "[Завершите миссию по продвижению, разблокируйте после повышения до эпизода 7 и попытайтесь сыграть роль волшебника] \\n Действительно ли книжный магазин открыт в полночь?"
   },
   {
-    "id": "118717",
-    "source_cn": "【废弃】观众攻击形态：对带有洞察易伤状态的目标增伤10%",
-    "ref_en": "[Deprecated] Spectator Attack Form: 10% Damage Boost against targets with Insight Vulnerability status",
-    "target_ru": "[Deprecated] Зритель Attack Form: 10% Damage Boost against targets with Insight Vulnerability status"
-  },
-  {
     "id": "118718",
     "source_cn": "一场谋害",
     "ref_en": "A murder",
@@ -22984,12 +22912,6 @@
     "source_cn": "乞丐王",
     "ref_en": "King of Beggars",
     "target_ru": "Король нищих"
-  },
-  {
-    "id": "118831",
-    "source_cn": "亚巴顿的攻击和攻速提高3%，最多叠加5层。",
-    "ref_en": "Abaddon's Attack and Attack Speed increased by 3%, stacking up to 5 times.",
-    "target_ru": "Abaddon's Attack and Скорость атаки increased by 3%, stacking up to 5 times."
   },
   {
     "id": "118832",
@@ -23776,12 +23698,6 @@
     "source_cn": "一罐猪油",
     "ref_en": "A can of lard",
     "target_ru": "Банка сала"
-  },
-  {
-    "id": "118963",
-    "source_cn": "一键将角色提升到小R玩家的属性，并解锁系统，提升序列，添加药品。",
-    "ref_en": "One-click boost character to low-spender player stats, unlock systems, advance Sequence, and add potions.",
-    "target_ru": "One-click boost character to low-spender player stats, unlock systems, advance Последовательность, and add potions."
   },
   {
     "id": "118964",
@@ -25308,12 +25224,6 @@
     "target_ru": "Конечная зона точки D"
   },
   {
-    "id": "119218",
-    "source_cn": "{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[前往协助]</>",
-    "ref_en": "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for the Evernight Goddess's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive Her blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[Go to Assist]</>",
-    "target_ru": "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Тинген, praying for the Evernight Goddess's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive Her blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[Go to Assist]</>"
-  },
-  {
     "id": "119219",
     "source_cn": "【秘辛】加速效果提升至20%，减速效果提升至20%。",
     "ref_en": "[Secret] Acceleration effect increased to 20%, Slow effect increased to 20%.",
@@ -25324,12 +25234,6 @@
     "source_cn": "【表演】灵体山姆3",
     "ref_en": "[Performance] Spirit Sam 3",
     "target_ru": "[Представление] Дух Сэма 3"
-  },
-  {
-    "id": "119221",
-    "source_cn": "不良的生活严重影响了他的健康，看来需要作为心理医生对他进行干预了。",
-    "ref_en": "His poor lifestyle has severely affected his health. It seems I need to intervene as his psychiatrist.",
-    "target_ru": "His poor lifestyle has severely affected his health. It seems I need to intervene as his Психиатр."
   },
   {
     "id": "119222",
@@ -26074,12 +25978,6 @@
     "source_cn": "【音符】（右边路）唱词1-1",
     "ref_en": "[Note] (Right path) Lyrics 1-1",
     "target_ru": "[Примечание] (Правильный путь) Тексты 1-1"
-  },
-  {
-    "id": "119346",
-    "source_cn": "一瓶非凡药剂，绿色的液体在瓶中缓慢流动，偶尔浮现出一些重叠的符号。",
-    "ref_en": "A Beyonder potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols.",
-    "target_ru": "A Потусторонний potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols."
   },
   {
     "id": "119347",
@@ -27634,12 +27532,6 @@
     "source_cn": "【@序列无】绝交是什么姿势",
     "ref_en": "【@Sequence None】What's the posture for breaking off a friendship?",
     "target_ru": "【@Sequence None】Какая поза должна быть при разрыве дружбы?"
-  },
-  {
-    "id": "119606",
-    "source_cn": "【秘偶技】星之虫-窥秘之眼",
-    "ref_en": "[Marionette Skill] Worm of Star - Eyes of Mystery Prying",
-    "target_ru": "[Марионетка Skill] Worm of Star - Eyes of Mystery Prying"
   },
   {
     "id": "119607",
@@ -29842,12 +29734,6 @@
     "source_cn": "【晋升至序列7后解锁，尝试扮演占星人】\\n占星爱好者弗洛最近倒霉透顶，他坚信是星星变了位置导致的。",
     "ref_en": "【Unlock after advancing to Sequence 7, try acting as an Astrologer】 \\n Astrology enthusiast Flo has been having terrible luck lately, and he firmly believes it's because the stars have changed positions.",
     "target_ru": "[Открывается после повышения до Последовательности 7 и попытки сыграть роль астролога] \\n Энтузиасту астрологии Фло в последнее время очень не повезло. Он твердо уверен, что это вызвано изменением положения звезд."
-  },
-  {
-    "id": "119974",
-    "source_cn": "一键将角色提升到月卡战令玩家的属性，并解锁系统，提升序列，添加药品。",
-    "ref_en": "One-click boost character to monthly card/battle pass player stats, unlock systems, advance Sequence, and add potions.",
-    "target_ru": "One-click boost character to monthly card/battle pass player stats, unlock systems, advance Последовательность, and add potions."
   },
   {
     "id": "119975",

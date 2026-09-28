@@ -105,7 +105,6 @@ return {
     ["丧钟"] = "Похоронный Звон",
     ["丰饶之树_5200139_植物改造A_代理_3_随机方向扇形AOE*4"] = "Дерево изобилия_5200139_Модификация растения A_Proxy_3_Случайное направление Веерообразная область действия*4",
     ["主宰争锋达到天使之王段位"] = "Достигните ранга Короля Ангелов в Dominator's Clash.",
-    ["他们是贝克兰德教区的同行，护送着封印物“2-049”过来，同时支援我们完成任务。"] = "They are colleagues from the Бэкланд Diocese, escorting the Запечатанный артефакт 2-049 here while supporting us in completing the mission.",
     ["伙伴技能-罗塞尔-0阶光环减速"] = "Навык партнера - Розель - Аура замедления уровня 0",
     ["传说由你铸就，此令为证。用于嘉奖非凡者在%s的势力战中的英勇表现。"] = "Легенды созданы вами; пусть этот приказ будет доказательством. Используется для награды за героические действия Потусторонние в войнах фракций %s.",
     ["佛尔思传送B"] = "Форс Телепорт Б",
@@ -227,6 +226,7 @@ return {
     ["May Manor Garden - Normal - Ancestor Armor Fashion Duel"] = "Сад Майской усадьбы - Обычный - Модная дуэль: Доспехи предка",
     ["Little Vera, what legend were they talking about just now?"] = "Маленькая Вера, о какой легенде они только что говорили?",
     ["Some people even threw the magazine on the ground after reading a few pages, so rude!"] = "Некоторые даже бросали журнал на землю, прочитав несколько страниц, как невежливо!",
+    ["他们是贝克兰德教区的同行，护送着封印物“2-049”过来，同时支援我们完成任务。"] = "They are colleagues from the Backlund Diocese, escorting the Sealed Artifact 2-049 here while supporting us in completing the mission.",
     ["旅程剩余站点:"] = "Оставшиеся остановки в пути:",
     ["7 At the start of player combat: Restore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком: восстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

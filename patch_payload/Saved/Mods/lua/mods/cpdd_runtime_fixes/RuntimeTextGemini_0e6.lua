@@ -249,7 +249,6 @@ return {
     ["This generous and kind {{Sir|Madam}}, Jenny hopes to share this joy with you. Would you be willing to help me strike a match?"] = "Эта щедрая и добрая Дженни {{Sir|Madam}} надеется разделить эту радость с вами. Не могли бы вы помочь мне зажечь спичку?",
     ["There are two boxes of Demon Hunter Bullet in this shipment..."] = "В этой посылке две коробки с пулями охотника на демонов...",
     ["I recognize this tune!"] = "Я узнаю эту мелодию!",
-    ["The Beyonder characteristic left behind by Jonar, emitting a twilight-like glow."] = "The Потусторонний characteristic left behind by Jonar, emitting a twilight-like glow.",
     ["Favor of the Mother of Desolation"] = "Благосклонность Матери Запустения",
     ["Defeat Normal difficulty Astrolabe User, pick up <Highlight>Old Notebook</>(%s/%s)"] = "Победите пользователя астролябии на нормальной сложности, возьмите <Highlight>Old Notebook</>(%s/%s).",
     ["Value Rebate"] = "Скидка стоимости",

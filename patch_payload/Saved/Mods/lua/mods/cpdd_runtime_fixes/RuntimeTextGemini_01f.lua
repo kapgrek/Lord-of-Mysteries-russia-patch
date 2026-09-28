@@ -266,7 +266,6 @@ return {
     ["Low-level seed, kill the monsters in the scene"] = "Сид низкого уровня, убивайте монстров на сцене.",
     ["In combat, you must hold your breath and focus, keep your attention on the opponent, and then strike when they least expect it!"] = "В бою вы должны задержать дыхание и сосредоточиться, сосредоточить внимание на противнике, а затем нанести удар, когда он меньше всего этого ожидает!",
     ["Indeed, there are no obvious signs of recovery for the time being."] = "Действительно, на данный момент явных признаков выздоровления нет.",
-    ["Liana, my duty is not only to solve the case but also to bring back the Sealed Artifact and eliminate potential dangers."] = "Liana, my duty is not only to solve the case but also to bring back the Запечатанный артефакт and eliminate potential dangers.",
     ["Total Money: "] = "Всего монет: ",
     ["累计获得5金币利息"] = "Получить 5 золотых монет процентов",
     ["持续灼烧前方敌人。"] = "Непрерывно поджигает врагов впереди.",

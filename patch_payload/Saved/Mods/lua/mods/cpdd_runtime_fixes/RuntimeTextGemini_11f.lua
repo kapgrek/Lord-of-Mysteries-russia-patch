@@ -240,7 +240,6 @@ return {
     ["Igniting..."] = "Зажигание...",
     ["Navigator Skill Tier 2"] = "Навык навигатора, уровень 2",
     ["I heard you've lost quite a bit of money playing cards?"] = "Я слышал, ты проиграл немало денег, играя в карты?",
-    ["The answers to the two questions were once on the chair of the divination table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of divination</>?"] = "The answers to the two questions were once on the chair of the Гадание table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of Гадание</>?",
     ["Auto-cremate Corpse"] = "Автосжигание трупов",
     ["Stronghold healing reduction"] = "Уменьшение исцеления в Крепости",
     ["East District Atmosphere - Anna Joyce Walking Point"] = "Атмосфера восточного округа – пешеходная площадка Анны Джойс",

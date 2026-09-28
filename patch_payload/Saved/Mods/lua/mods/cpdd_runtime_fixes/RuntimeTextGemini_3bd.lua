@@ -96,7 +96,6 @@ return {
     ["Studio Promotion"] = "Продвижение студии",
     ["Lay Down Bouquet"] = "Сложить букет",
     ["Ball Male 4"] = "Мяч Мужской 4",
-    ["Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>30%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>15%</> Damage Reduction."] = "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>30%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>15%</> Снижение урона.",
     ["A new wave of the poor has arrived!"] = "Пришла новая волна бедняков!",
     ["Seer Kill Chest"] = "Сундук убийства провидца",
     ["Stand on the correct card!"] = "Встаньте на правильную карту!",

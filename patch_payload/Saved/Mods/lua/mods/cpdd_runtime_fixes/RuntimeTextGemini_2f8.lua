@@ -92,7 +92,6 @@ return {
     ["……那好吧。"] = "……Ну ладно.",
     ["【00】好多告解"] = "【00】Много признаний",
     ["【01】她们隐瞒"] = "[01] Они это спрятали",
-    ["【LV5】【秘偶技】寻踪魔弹-代理主技能"] = "[LV5] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill",
     ["【终末猎杀】-巨龙·投影-火法轰炸-脱手结算"] = "[Последняя охота] — Дракон — Проекция — Огненная бомбардировка — Автоматическое разрешение",
     ["【自走棋】-怪物纹章-1格每秒最大生命AoE"] = "[Авто-шахматы] — Эмблема монстра — 1 сетка в секунду, максимальная область здоровья",
     ["三段：15米内的单体目标"] = "3-й этап: одна цель в пределах 15 метров",
@@ -263,5 +262,6 @@ return {
     ["但那对我而言稍微有些难度。"] = "Но для меня это немного сложно.",
     ["Are you interested, {{ handsome sir | noble lady }}? You only need to set aside some time every day for an interview and pay a certain fee to have an autobiography published in your name."] = "Вас это интересует, {{красивый господин|благородная госпожа}}? Вам нужно лишь уделять немного времени каждый день для интервью и заплатить определённую сумму — и от вашего имени будет издана автобиография.",
     ["Well, we're already much better off than those workers in the factories."] = "Что ж, нам уже гораздо лучше, чем тем рабочим на заводах.",
+    ["【LV5】【秘偶技】寻踪魔弹-代理主技能"] = "[LV5] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

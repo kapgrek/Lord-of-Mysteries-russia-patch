@@ -612,12 +612,6 @@
     "target_ru": "Пожаловаться на игрока"
   },
   {
-    "id": "100102",
-    "source_cn": "什么，你想去塔罗学派？没问题！我可是一名成熟的学徒，传送成功率有足足百分之三十呢！",
-    "ref_en": "What, you want to go to the Tarot Club? No problem! I am a mature Apprentice, and my teleportation success rate is a full thirty percent!",
-    "target_ru": "What, you want to go to the Клуб Таро? No problem! I am a mature Apprentice, and my teleportation success rate is a full thirty percent!"
-  },
-  {
     "id": "100103",
     "source_cn": "仔细检查了周围之后，发现了不少线索啊……",
     "ref_en": "After carefully checking the surroundings, I found quite a few clues...",
@@ -1294,12 +1288,6 @@
     "source_cn": "不！",
     "ref_en": "No!",
     "target_ru": "Нет!"
-  },
-  {
-    "id": "100216",
-    "source_cn": "与其他非凡者较量，在对抗中展现力量与策略。",
-    "ref_en": "Compete with other Beyonders and demonstrate your power and strategy in battle.",
-    "target_ru": "Compete with other Потустороннийs and demonstrate your power and strategy in battle."
   },
   {
     "id": "100217",
@@ -3516,12 +3504,6 @@
     "target_ru": "Сначала я просто продал несколько бракованных вещей, которые не понравились Большому театру Тинген, но они неожиданно пользовались популярностью."
   },
   {
-    "id": "100586",
-    "source_cn": "不够灵敏的占卜家先生，这个架子明明离我更近，如果不是你挡住了路……",
-    "ref_en": "Not-so-sharp Mr. Seer, this shelf is clearly closer to me. If it weren't for you blocking the way...",
-    "target_ru": "Not-so-sharp Mr. Провидец, this shelf is clearly closer to me. If it weren't for you blocking the way..."
-  },
-  {
     "id": "100587",
     "source_cn": "什么醉汉？该死，现在不是开玩笑的时候，来帮把手！",
     "ref_en": "What drunkard? Damn it, this is no time for jokes. Come and give me a hand!",
@@ -3532,12 +3514,6 @@
     "source_cn": "今日不再提示零星/部分恩赐效果",
     "ref_en": "Do not show sporadic/partial blessing effects today",
     "target_ru": "Не показывать сегодня спорадические/частичные эффекты благословения."
-  },
-  {
-    "id": "100589",
-    "source_cn": "他说，只有非凡者可以发挥它“保护”的力量。",
-    "ref_en": "He said only a Beyonder can unleash its power of \"protection\".",
-    "target_ru": "He said only a Потусторонний can unleash its power of \"protection\"."
   },
   {
     "id": "100590",
@@ -5038,12 +5014,6 @@
     "source_cn": "一个人打牌？",
     "ref_en": "Playing cards alone?",
     "target_ru": "Играть в карты в одиночку?"
-  },
-  {
-    "id": "100840",
-    "source_cn": "一个被诡异力量侵蚀的宝箱，正等待净化。完成仪式，驱散污染，看看里面究竟藏着什么。",
-    "ref_en": "A treasure chest eroded by strange power is waiting to be purified. Complete the ritual, dispel the corruption, and see what is hidden inside.",
-    "target_ru": "A treasure chest eroded by strange power is waiting to be purified. Complete the ritual, dispel the Искажение, and see what is hidden inside."
   },
   {
     "id": "100841",
@@ -7362,12 +7332,6 @@
     "target_ru": "...Спасибо, что согласились на мое интервью. Еда на столе — это плата за собеседование."
   },
   {
-    "id": "101227",
-    "source_cn": "不好……罗珊在镜中廷根待的时间也到了临界点，她的意识开始混乱了。",
-    "ref_en": "Not good... Rozanne's time in Tingen in the Mirror has also reached a critical point, her consciousness has begun to become chaotic.",
-    "target_ru": "Not good... Rozanne's time in Тинген in the Mirror has also reached a critical point, her consciousness has begun to become chaotic."
-  },
-  {
     "id": "101228",
     "source_cn": "不得不说，遇见您这样一位活泼风趣的太太，和这样一间面包房，真是让人高兴。",
     "ref_en": "I must say, meeting a lively and humorous lady like you, and such a bakery, is truly a joy.",
@@ -8112,12 +8076,6 @@
     "target_ru": "<Assistant_Title1>Сожгите все оставшиеся благовония</>\n<Assistant_Title2>Категория достижения: </>Бегущая группа – Темная сторона города\n<Assistant_Title2>Условия разблокировки: </>Завершение с оценкой «Отлично» в Синтингене: событие «Битва при Бонни»"
   },
   {
-    "id": "101352",
-    "source_cn": "<Highlight>戴莉·西蒙妮</>，原廷根市值夜者小队队员，是阿霍瓦郡最有名的通灵者，因自行总结出扮演法导致晋升极快而被圣堂注意，后调往贝克兰德。她与邓恩队长的关系似乎非同一般。",
-    "ref_en": "<Highlight>Daly Simone</>, a former member of the Tingen Nighthawks squad, is the most famous Spirit Medium in Awwa County. She was noticed by the Holy Cathedral because she summarized the Acting Method herself, leading to extremely fast advancement, and was later transferred to Backlund. Her relationship with Captain Dunn seems to be unusual.",
-    "target_ru": "<Highlight>Daly Simone</>, a former member of the Тинген Ночные Ястребы squad, is the most famous Spirit Medium in Awwa County. She was noticed by the Holy Cathedral because she summarized the Acting Method herself, leading to extremely fast advancement, and was later transferred to Бэкланд. Her relationship with Captain Dunn seems to be unusual."
-  },
-  {
     "id": "101353",
     "source_cn": "<HyperLink stylename=\"M_Link\" u=\"86061110\" color=\"#f4a067\">巨剑斩击</>对命中目标打断0.5秒，输出形态下对敌人附加2秒沉默，并且额外加6秒<HighLight>衰败</>，对<HighLight>衰败</>状态的敌方造成的伤害增加<HighLight>10%</>。",
     "ref_en": "<HyperLink stylename=\"M_Link\" u=\"86061110\" color=\"#f4a067\">Greatsword Slash</> interrupts hit targets for 0.5 seconds. In Offensive Stance, it applies a 2-second silence to enemies, adds 6 seconds of <HighLight>Decay</>, and increases damage dealt to enemies in the <HighLight>Decay</> state by <HighLight>10%</>.",
@@ -8212,12 +8170,6 @@
     "source_cn": "二段：15米的后撤位移",
     "ref_en": "Phase 2: 15-meter backward displacement",
     "target_ru": "2-я фаза: отскок назад на 15 метров"
-  },
-  {
-    "id": "101369",
-    "source_cn": "产自鲁恩王国间海郡康斯顿城的某座矿山，尽管整座城市受战争摧残严重，但也因此拥有了大量含有灵性的材料。因矿山周围常有一些诡异的传闻，工人们只敢挖掘最外层的燧石。",
-    "ref_en": "Produced from a mine in Coniston, Midseashire, Loen Kingdom. Although the entire city was severely devastated by the war, it possesses a large amount of materials containing spirituality. Because of the strange rumors often surrounding the mine, workers only dare to dig for the flint on the outermost layer.",
-    "target_ru": "Produced from a mine in Coniston, Midseashire, Loen Kingdom. Although the entire city was severely devastated by the war, it possesses a large amount of materials containing Духовность. Because of the strange rumors often surrounding the mine, workers only dare to dig for the flint on the outermost layer."
   },
   {
     "id": "101370",
@@ -9772,12 +9724,6 @@
     "source_cn": "两位小姐，能占用一下您们的时间吗？",
     "ref_en": "Two ladies, could I take a moment of your time?",
     "target_ru": "Две дамы, могу я уделить вам минутку?"
-  },
-  {
-    "id": "101629",
-    "source_cn": "乌托邦剧院中失控秘偶死亡后凝结形成的秘偶精粹，可在精粹收集者商人处换购商品。",
-    "ref_en": "Marionette essence formed after the death of a lost-of-control marionette in Utopia Theater, which can be used to purchase goods from the Essence Collector merchant.",
-    "target_ru": "Марионетка essence formed after the death of a lost-of-control Марионетка in Utopia Theater, which can be used to purchase goods from the Essence Collector merchant."
   },
   {
     "id": "101630",
@@ -12480,12 +12426,6 @@
     "target_ru": "[TBD] Новая основная история"
   },
   {
-    "id": "102080",
-    "source_cn": "【超凡生物】棋子造成的伤害提高<HighLight>30%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>15%</>伤害减免。",
-    "ref_en": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>30%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>15%</> Damage Reduction.",
-    "target_ru": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>30%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>15%</> Снижение урона."
-  },
-  {
     "id": "102081",
     "source_cn": "上架时间",
     "ref_en": "Listing Time",
@@ -12514,12 +12454,6 @@
     "source_cn": "主角外观数据",
     "ref_en": "Main character appearance data",
     "target_ru": "Данные о внешности главного героя"
-  },
-  {
-    "id": "102086",
-    "source_cn": "乔纳尔留下的非凡特性，散发出黄昏般的辉光。",
-    "ref_en": "The Beyonder characteristic left behind by Jonar, emitting a twilight-like glow.",
-    "target_ru": "The Потусторонний characteristic left behind by Jonar, emitting a twilight-like glow."
   },
   {
     "id": "102087",
@@ -15568,12 +15502,6 @@
     "source_cn": "与兰格道别",
     "ref_en": "Say goodbye to Lange",
     "target_ru": "Попрощайтесь с Ланге"
-  },
-  {
-    "id": "102595",
-    "source_cn": "乌黯魔狼拉动所有玩家的灵体之线并将其拉至身边，玩家之间两两被扰乱的灵体之线相连，会不断对对方造成伤害",
-    "ref_en": "The Dark Demonic Wolf pulls the spirit body threads of all players and draws them to its side. The spirit body threads of players connected in pairs are disrupted, continuously dealing damage to each other.",
-    "target_ru": "The Dark Demonic Wolf pulls the Нити духовного тела of all players and draws them to its side. The Нити духовного тела of players connected in pairs are disrupted, continuously dealing damage to each other."
   },
   {
     "id": "102596",
@@ -19320,12 +19248,6 @@
     "target_ru": "Сундуки с сокровищами, содержащие Червей Времени, спрятанных «Богом зла» Амоном, разбросаны повсюду; прикосновение к разломам во времени может вызвать загадки Амона."
   },
   {
-    "id": "103220",
-    "source_cn": "“看见我”源于观众途径序列6催眠师的能力。",
-    "ref_en": "“See Me” originates from the Hypnotist ability of the Spectator Pathway Sequence 6.",
-    "target_ru": "“See Me” originates from the Hypnotist ability of the Зритель Pathway Последовательность 6."
-  },
-  {
     "id": "103221",
     "source_cn": "……左……好的！",
     "ref_en": "...Left... Alright!",
@@ -20080,12 +20002,6 @@
     "source_cn": "不速之音-园丁",
     "ref_en": "Uninvited Sound - Gardener",
     "target_ru": "Незваный звук - Садовник"
-  },
-  {
-    "id": "103347",
-    "source_cn": "与任意非凡者同乘座驾30秒以上",
-    "ref_en": "Ride along with any Beyonder in a vehicle for more than 30 seconds",
-    "target_ru": "Ride along with any Потусторонний in a vehicle for more than 30 seconds"
   },
   {
     "id": "103348",
@@ -21658,12 +21574,6 @@
     "source_cn": "人流控制器",
     "ref_en": "Crowd Controller",
     "target_ru": "Контроллер толпы"
-  },
-  {
-    "id": "103610",
-    "source_cn": "从迷雾树人本体剥离的核心根部，极具灵性。",
-    "ref_en": "The core root stripped from the main body of a mist treant, possessing great spirituality.",
-    "target_ru": "The core root stripped from the main body of a mist treant, possessing great Духовность."
   },
   {
     "id": "103611",
@@ -23926,12 +23836,6 @@
     "source_cn": "予众灵以安宁",
     "ref_en": "Grant peace to all spirits",
     "target_ru": "Даруй мир всем духам"
-  },
-  {
-    "id": "103988",
-    "source_cn": "事情没那么简单，我在梦中感受到了被污染的气息。",
-    "ref_en": "It's not that simple. I felt the scent of corruption in my dream.",
-    "target_ru": "It's not that simple. I felt the scent of Искажение in my dream."
   },
   {
     "id": "103989",
@@ -26790,12 +26694,6 @@
     "target_ru": "«Свидетельство». Когда вы строите полную логическую цепочку, вы должны использовать твердую волю и духовность, чтобы «представить» свой вывод."
   },
   {
-    "id": "104465",
-    "source_cn": "不以血缘相连，却以血为契。从此命脉相系，生死与共。队伍或团队中，3~8人处于同一家族，获得1次额外复活次数，9人及以上处于同一家族，获得2次额外复活次数。离开家族后有24小时的生效冷却期。",
-    "ref_en": "Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour cooldown period after leaving a Family.",
-    "target_ru": "Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour Перезарядка period after leaving a Family."
-  },
-  {
     "id": "104466",
     "source_cn": "不，我可能知道，你刚才提到<P_Yellow>南威尔红葡萄酒</>对吧？",
     "ref_en": "No, I might know. You mentioned <P_Yellow> South Will Red Wine </> just now, right?",
@@ -29650,12 +29548,6 @@
     "source_cn": "<P_Heart>（睁眼，眼眶泛红）</>谢谢你。",
     "ref_en": "<P_Heart> (Opening eyes, eyes rimmed with red) </> Thank you.",
     "target_ru": "<P_Heart> (открывает глаза, глаза обведены красным) </> Спасибо."
-  },
-  {
-    "id": "104942",
-    "source_cn": "<Yellow>锈弹</>：攻击命中主目标时，有概率对其发射一枚墨绿的毒丸，使其身体腐蚀溃烂，每秒造成<Yellow>{CheckStar(Type=\"sealed\",ID=2085028)=1?#占位#}{CheckStar(Type=\"sealed\",ID=2085028)=2?#占位#}{CheckStar(Type=\"sealed\",ID=2085028)=3?#占位#)</>点伤害，持续<Yellow>5</>秒，冷却时间5秒，期间攻击该目标，会触发<Yellow>毒液溅射</>效果，对<Yellow>8</>米范围内的最多6名其他敌对目标造成伤害，每2秒最多造成一次溅射。",
-    "ref_en": "<Yellow>Rust Bullet</>: When an attack hits the main target, there is a chance to fire a dark green venom pellet, causing their body to suffer from Corrosion and Rot, dealing <Yellow>{CheckStar(Type=\"sealed\",ID=2085028)=1?#Placeholder#}{CheckStar(Type=\"sealed\",ID=2085028)=2?#Placeholder#}{CheckStar(Type=\"sealed\",ID=2085028)=3?#Placeholder#)</> damage per second for <Yellow>5</> seconds. Cooldown is 5 seconds. Attacking the target during this period will trigger the <Yellow>Venom Splash</> effect, dealing damage to up to 6 other hostile targets within a <Yellow>8</>-meter radius. Splash damage can occur at most once every 2 seconds.",
-    "target_ru": "<Yellow>Rust Bullet</>: When an attack hits the main target, there is a chance to fire a dark green venom pellet, causing their body to suffer from Corrosion and Rot, dealing <Yellow>{CheckStar(Type=\"sealed\",ID=2085028)=1?#Placeholder#}{CheckStar(Type=\"sealed\",ID=2085028)=2?#Placeholder#}{CheckStar(Type=\"sealed\",ID=2085028)=3?#Placeholder#)</> damage per second for <Yellow>5</> seconds. Перезарядка is 5 seconds. Attacking the target during this period will trigger the <Yellow>Venom Splash</> effect, dealing damage to up to 6 other hostile targets within a <Yellow>8</>-meter radius. Splash damage can occur at most once every 2 seconds."
   },
   {
     "id": "104943",

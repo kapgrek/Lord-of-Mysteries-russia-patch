@@ -121,7 +121,6 @@ return {
     ["<P_Heart>（看起来完全没相信……）</>"] = "<P_Heart> (Кажется, вообще не верит...) </>",
     ["<P_Heart>（若有所思）</> 所以那句话的意思是……"] = "<P_Heart>(Задумчиво)</> Итак, это предложение означает...",
     ["“指证”。当你构建出完整的逻辑链条，就必须以坚定的意志和灵性，将你的推论“呈现”出来。"] = "«Свидетельство». Когда вы строите полную логическую цепочку, вы должны использовать твердую волю и духовность, чтобы «представить» свой вывод.",
-    ["不以血缘相连，却以血为契。从此命脉相系，生死与共。队伍或团队中，3~8人处于同一家族，获得1次额外复活次数，9人及以上处于同一家族，获得2次额外复活次数。离开家族后有24小时的生效冷却期。"] = "Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour Перезарядка period after leaving a Family.",
     ["不，我可能知道，你刚才提到<P_Yellow>南威尔红葡萄酒</>对吧？"] = "Нет, возможно, я знаю. Вы только что упомянули <P_Yellow> South Will Red Wine </>, верно?",
     ["为你高兴"] = "Рад за тебя",
     ["人脉闲聊话题-班森2"] = "Тема чата подключения - Бенсон 2",
@@ -235,7 +234,6 @@ return {
     ["Teleport to spawn point"] = "Телепортироваться к точке возрождения",
     ["Use to obtain <Highlight> Team Background: I Have a Top Hat </>"] = "Используйте, чтобы получить Справочную информацию о команде <Highlight>: У меня есть цилиндр </>.",
     ["Boss Battle_Believer Number One_End"] = "Битва с боссом_Верующий номер один_Конец",
-    ["{{player.name}} performed a Requiem on {{targetPlayer.name}}. Although well-intentioned, the technique was slightly lacking, causing <Chat_Highlight>{{eventMessageParams.N}}</> Sanity points of loss. A good deed that backfired."] = "{{player.name}} performed a Requiem on {{targetPlayer.name}}. Although well-intentioned, the technique was slightly lacking, causing <Chat_Highlight>{{eventMessageParams.N}}</> Рассудок points of loss. A good deed that backfired.",
     ["【Tarot Club · Maid】Tier 5 increment (+25%) → cumulative 165%"] = "【Клуб Таро · Maid】Tier 5 increment (+25%) → cumulative 165%",
     ["The Story Must Go On - Check Speer's Status"] = "История должна продолжаться – проверьте статус Шпеера",
     ["A gesture to keep quiet. The reason is unknown, but in this world, being Cautious is never redundant."] = "Жест, призывающий молчать. Причина неизвестна, но в этом мире осторожность никогда не бывает лишней.",
@@ -262,5 +260,6 @@ return {
     ["Oh, yes! We're planning to go there—"] = "О, да! Мы как раз собираемся туда—",
     ["As long as you hold your flag high, no matter how far away, thousands of troops will follow."] = "Пока ты держишь флаг высоко, неважно, как далеко — тысячи воинов последуют за тобой.",
     ["<P_Yellow> Cough, cough, cough, cough, cough, no, I didn't say anything! Please forget it! </>"] = "<P_Yellow> Кхм, кхм, кхм, кхм, кхм, нет, я ничего не говорил! Пожалуйста, забудьте! </>",
+    ["不以血缘相连，却以血为契。从此命脉相系，生死与共。队伍或团队中，3~8人处于同一家族，获得1次额外复活次数，9人及以上处于同一家族，获得2次额外复活次数。离开家族后有24小时的生效冷却期。"] = "Not connected by blood, but bound by blood. From now on, your lifelines are linked, sharing life and death. When 3-8 people in a party or team are in the same Family, gain 1 extra Resurrection count; when 9 or more are in the same Family, gain 2 extra Resurrection counts. There is a 24-hour cooldown period after leaving a Family.",
     ["击败指定InstanceID的怪物  对象发送场景事件"] = "Победите монстра с указанным InstanceID. Объект отправляет событие сцены.",
 }

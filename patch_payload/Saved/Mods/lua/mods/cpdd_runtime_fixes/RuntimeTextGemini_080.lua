@@ -180,7 +180,6 @@ return {
     ["Descendant of the Antigonus Family"] = "Потомок семьи Антигонов",
     ["There isn't much dust; it seems Frye is a very clean person."] = "Пыли не так много; кажется, Фрай очень чистоплотный человек.",
     ["Select Help Item"] = "Выберите элемент справки",
-    ["Perhaps understanding the Beyonder world under proper guidance is safer than knowing nothing or only knowing half-truths."] = "Perhaps understanding the Потусторонний world under proper guidance is safer than knowing nothing or only knowing half-truths.",
     ["Split Treasure Chest 1"] = "Разделенный сундук с сокровищами 1",
     ["The Captain's sketches are quite good. I suggested he hang the paintings in the Hall, but he was too shy."] = "Эскизы Капитана весьма хороши. Я предложил ему повесить картины в зале, но он постеснялся.",
     ["Increase Attack by <GainNum>500</>. When a Basic Attack hits an enemy, Attack is additionally increased by <GainNum>1350</> for <GainNum>7</> seconds. Activates when there are <GainNum>5</> players from the same Family in the team."] = "Увеличьте атаку на <GainNum>500</>. Когда базовая атака поражает врага, атака дополнительно увеличивается на <GainNum>1350</> на <GainNum>7</> секунд. Активируется, когда в команде есть игроки <GainNum>5</> из одной Семьи.",

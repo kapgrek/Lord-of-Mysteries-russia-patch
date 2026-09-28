@@ -208,7 +208,6 @@ return {
     ["Male University Student"] = "Студент мужского университета",
     ["(Wait, is someone watching me? Sizing me up? Monitoring me?)"] = "(Подождите, кто-нибудь наблюдает за мной? Оценивает меня? Следит за мной?)",
     ["Dungeon 82 Mid-R"] = "Подземелье 82, средний R",
-    ["The things a person carries often share a strong connection with them. Through divination, they can be used to track their owner's location."] = "The things a person carries often share a strong connection with them. Through Гадание, they can be used to track their owner's location.",
     ["The castle gate in the distance is also sealed..."] = "Ворота замка вдалеке тоже запечатаны...",
     ["Fish plate"] = "Рыбная тарелка",
     ["Metal 2"] = "Металл 2",

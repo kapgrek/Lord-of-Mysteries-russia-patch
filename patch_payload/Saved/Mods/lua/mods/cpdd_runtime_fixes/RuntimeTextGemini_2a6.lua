@@ -257,7 +257,6 @@ return {
     ["Frontal rectangular burst."] = "Прямоугольный взрыв перед собой.",
     ["Achievement: Always Just a Spectator"] = "Достижение: Всегда просто зритель",
     ["Dear Niel:\r\nI don't want to..."] = "Дорогой Нил:\nЯ не хочу...",
-    ["Obtain 1 Beyonder material with the {Disciple of Silence} entry"] = "Obtain 1 Потусторонний material with the {Disciple of Silence} entry",
     ["Newsstand Dog"] = "Газетный киоск Собака",
     ["I really want to eat the black pepper steak at Old Will's restaurant..."] = "Я очень хочу съесть стейк с черным перцем в ресторане Олд Уилла...",
     ["The day after tomorrow, Stanny is calling me to go fishing! We bet that whoever catches less treats the other to a meal!"] = "Послезавтра Стэнни зовёт меня на рыбалку! Спорим, кто меньше поймает, тот угостит другого!",

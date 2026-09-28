@@ -3414,12 +3414,6 @@
     "target_ru": "Хороший полицейский. Добро пожаловать обратно в силу."
   },
   {
-    "id": "090569",
-    "source_cn": "一颗仍在跳动的火山，烫穿了持有者的理智。",
-    "ref_en": "A volcano still beating, burning through the holder's sanity.",
-    "target_ru": "A volcano still beating, burning through the holder's Рассудок."
-  },
-  {
     "id": "090570",
     "source_cn": "上衣镶边",
     "ref_en": "Top Trim",
@@ -4882,12 +4876,6 @@
     "source_cn": "“廷根出现了新的危机”",
     "ref_en": "\"A new crisis has emerged in Tingen\"",
     "target_ru": "«В Тингене возник новый кризис»"
-  },
-  {
-    "id": "090814",
-    "source_cn": "【秘偶技】星之虫-火焰吐息-法术代理",
-    "ref_en": "[Marionette Skill] Worm of Star - Flame Breath - Spell Agent",
-    "target_ru": "[Марионетка Skill] Worm of Star - Flame Breath - Spell Agent"
   },
   {
     "id": "090815",
@@ -11016,12 +11004,6 @@
     "target_ru": "Недостаточно «Связанной души», невозможно объединить одним нажатием."
   },
   {
-    "id": "091836",
-    "source_cn": "【右摇杆模式3】以自身为圆心对前方扇形造成效果，可释放连击技能，连击完成后进入冷却",
-    "ref_en": "[Right Stick Mode 3] Deals effects to a fan-shaped area in front with self as the center. Can release combo skills; enters cooldown after the combo is finished.",
-    "target_ru": "[Right Stick Mode 3] Deals effects to a fan-shaped area in front with self as the center. Can release combo skills; enters Перезарядка after the combo is finished."
-  },
-  {
     "id": "091837",
     "source_cn": "【隐迹】每次攻击均有10%概率增加电流效果持续时间1秒，最多增加5秒，每0.5秒最多触发1次。",
     "ref_en": "[Hidden] Each attack has a 10% chance to increase the Current effect duration by 1 second, up to a maximum of 5 seconds, triggering at most once every 0.5 seconds.",
@@ -11736,12 +11718,6 @@
     "target_ru": "Побочным эффектом «Чернил-ластика» является возможность почувствовать запах стертых им слов."
   },
   {
-    "id": "091956",
-    "source_cn": "……<P_Heart>（诡异的笔记，成为值夜者和非凡者……哪件事都没办法跟班森商量。）</>",
-    "ref_en": "...<P_Heart> (The eerie notebook, becoming a Nighthawk and a Beyonder... I can't discuss either of these things with Benson.)</>",
-    "target_ru": "...<P_Heart> (The eerie notebook, becoming a Nighthawk and a Потусторонний... I can't discuss either of these things with Benson.)</>"
-  },
-  {
     "id": "091957",
     "source_cn": "【59】从不计较",
     "ref_en": "【59】Never mind",
@@ -11754,12 +11730,6 @@
     "target_ru": "[Локация квеста] Конференц-зал, Книга 1"
   },
   {
-    "id": "091959",
-    "source_cn": "【秘辛】削弱技能抵挡、滞涩效果的持续时间增加1秒。",
-    "ref_en": "[Secret] Duration of the Skill Block and Stagnation weakening effects increased by 1 second.",
-    "target_ru": "[Secret] Duration of the Блок навыков and Stagnation weakening effects increased by 1 second."
-  },
-  {
     "id": "091960",
     "source_cn": "【自走棋】-巨斧骑士-重击",
     "ref_en": "[Auto Chess] - Axe Knight - Heavy blow",
@@ -11770,12 +11740,6 @@
     "source_cn": "【黑夜女神】对生命值低于18%的敌人造成伤害时，将其立即斩杀。",
     "ref_en": "【Evernight Goddess】When dealing damage to enemies with less than 18% Health, execute them immediately.",
     "target_ru": "【Вечная богиня】При нанесении урона врагам, у которых менее 18% здоровья, немедленно казните их."
-  },
-  {
-    "id": "091962",
-    "source_cn": "一夜的辗转，克莱恩第二天早早醒来，前往占卜俱乐部……",
-    "ref_en": "After a night of tossing and turning, Klein wakes up early the next day and heads to the Divination Club...",
-    "target_ru": "After a night of tossing and turning, Klein wakes up early the next day and heads to the Гадание Club..."
   },
   {
     "id": "091963",
@@ -15042,12 +15006,6 @@
     "target_ru": "Потеря уровня контроля"
   },
   {
-    "id": "092507",
-    "source_cn": "完成五月庄园·花园黄铜书挑战【意志污染·困难】",
-    "ref_en": "Complete the May Manor · Garden Brass Book challenge [Will Contamination · Hard]",
-    "target_ru": "Завершите испытание May Manor · Garden Brass Book [Will Contamination · Hard]"
-  },
-  {
     "id": "092508",
     "source_cn": "完成扮演故事：<Highlight>手心里的太阳</>(%s/%s)",
     "ref_en": "Complete acting story: <Highlight>The Sun in the Palm</>(%s/%s)",
@@ -15738,22 +15696,10 @@
     "target_ru": "[Испытание в подземелье] Статистика 35-го уровня"
   },
   {
-    "id": "092623",
-    "source_cn": "【秘偶技】星之虫-火焰吐息范围攻击",
-    "ref_en": "[Marionette Skill] Worm of Star - Flame Breath Area Attack",
-    "target_ru": "[Марионетка Skill] Worm of Star - Flame Breath Area Attack"
-  },
-  {
     "id": "092624",
     "source_cn": "一张床",
     "ref_en": "A bed",
     "target_ru": "Кровать"
-  },
-  {
-    "id": "092625",
-    "source_cn": "一杯热茶，刚刚还有人在这里占卜。",
-    "ref_en": "A cup of hot tea; someone was just here doing a divination.",
-    "target_ru": "A cup of hot tea; someone was just here doing a Гадание."
   },
   {
     "id": "092626",
@@ -16504,12 +16450,6 @@
     "source_cn": "<P_Heart>（沉迷）</>哦，冰冷的伯爵阁下，您要亲吻我的脖颈吗？",
     "ref_en": "<P_Heart> (Obsessed) </> Oh, cold Count, will you kiss my neck?",
     "target_ru": "<P_Heart> (Одержимый) </> Ох, холодный граф, ты поцелуешь меня в шею?"
-  },
-  {
-    "id": "092751",
-    "source_cn": "<Rate>80%</>概率出现许愿秘偶,若未出现,则下次必定出现",
-    "ref_en": "<Rate>80%</> chance for a Wishing Marionette to appear; if it doesn't appear, it is guaranteed to appear next time",
-    "target_ru": "<Rate>80%</> chance for a Wishing Марионетка to appear; if it doesn't appear, it is guaranteed to appear next time"
   },
   {
     "id": "092752",
@@ -19530,12 +19470,6 @@
     "target_ru": "[Коллекция] Вкус неизвестного растения"
   },
   {
-    "id": "093255",
-    "source_cn": "下午好，我叫安洁莉卡，占卜俱乐部的接待员。",
-    "ref_en": "Good afternoon, my name is Angelica, the receptionist of the Divination Club.",
-    "target_ru": "Good afternoon, my name is Angelica, the receptionist of the Гадание Club."
-  },
-  {
     "id": "093256",
     "source_cn": "不能退缩，真相已经在向你招手了！",
     "ref_en": "You cannot shrink back, the truth is already beckoning to you!",
@@ -20296,12 +20230,6 @@
     "source_cn": "下摆上",
     "ref_en": "Hem - Top",
     "target_ru": "Подол – Верх"
-  },
-  {
-    "id": "093383",
-    "source_cn": "不如……就按丽贝卡说的，去贝克兰德看看吧。",
-    "ref_en": "How about... we do as Rebecca said and go to Backlund to take a look.",
-    "target_ru": "How about... we do as Rebecca said and go to Бэкланд to take a look."
   },
   {
     "id": "093384",
@@ -22776,12 +22704,6 @@
     "target_ru": "Почему нет?"
   },
   {
-    "id": "093796",
-    "source_cn": "为友方提供援护冲锋，解除其受到的弱控和减速，并为其提供减伤和加速增益，自身获得黄昏印记（用于强化怒意猛击和终结技能）。使用后解锁王庭号令。",
-    "ref_en": "Provide support charge to allies, dispelling their soft crowd control and slow, and providing them with damage reduction and acceleration buffs. You gain a Dusk Mark (used to strengthen Angry Slam and finisher skills). Unlocks Royal Court Command after use.",
-    "target_ru": "Provide support charge to allies, dispelling their soft crowd control and slow, and providing them with Снижение урона and acceleration buffs. You gain a Dusk Mark (used to strengthen Angry Slam and finisher skills). Unlocks Royal Court Command after use."
-  },
-  {
     "id": "093797",
     "source_cn": "乔治（夜）",
     "ref_en": "George (Night)",
@@ -24018,12 +23940,6 @@
     "target_ru": "Распустить отряд"
   },
   {
-    "id": "094003",
-    "source_cn": "让我看看？是大奖！恭喜这位幸运观众！",
-    "ref_en": "Let me see? It's the grand prize! Congratulations to this lucky spectator!",
-    "target_ru": "Let me see? It's the grand prize! Congratulations to this lucky Зритель!"
-  },
-  {
     "id": "094004",
     "source_cn": "误导用华丽宝箱",
     "ref_en": "Misleading Ornate Chest",
@@ -24256,12 +24172,6 @@
     "source_cn": "　　当你展开这封信笺时，芬芳的气息已将你包裹。这并非偶然，而是必然的命运——你被选中了。\\n\\n　　在贝克兰德雾气弥漫的街头，在廷根宁静的小巷深处，有这样一群人：他们追求极致的美丽，拥抱命运的无常，在灾厄中翩翩起舞。\\n\\n　　我们是春夜舞会。\\n\\n　　我们侍奉的是不幸与美丽的源头，是将灾难化作艺术的存在。在祂的庇护下，我们明晰了一个真理：\\n\\n　　真正的美，诞生于毁灭与重生之间。\\n\\n　　若你愿意加入我们，请前往\"珠宝店\"门口右侧。\\n\\n　　记住，我们不接受怯懦者，不欢迎虚伪者。唯有敢于凝视深渊，敢于拥抱真实的人，才配得上这场永不落幕的舞会。\\n\\n　　期待你的到来。",
     "ref_en": "　　As you unfold this letter, a fragrant scent already envelops you. This is no coincidence, but an inevitable fate—you have been chosen. \\n\\n　　In the fog-drenched streets of Backlund, deep within the quiet alleys of Tingen, there exists a group of people: they pursue ultimate beauty, embrace the impermanence of fate, and dance gracefully amidst disaster. \\n\\n　　We are the Spring Night Ball. \\n\\n　　We serve the source of misfortune and beauty, the existence that transforms catastrophe into art. Under His shelter, we have realized a truth: \\n\\n　　True beauty is born between destruction and rebirth. \\n\\n　　If you are willing to join us, please head to the right side of the \"Jewelry Store\" entrance. \\n\\n　　Remember, we do not accept the cowardly, nor do we welcome the hypocritical. Only those who dare to gaze into the abyss and dare to embrace the truth are worthy of this ball that never ends. \\n\\n　　Looking forward to your arrival.",
     "target_ru": "　　Когда вы развернёте это послание, вас окутает пьянящий аромат. Это не случайность, а неизбежный рок: вы были избраны.\n\n　　На туманных улицах Баклунда и в тихих закоулках Тингена живут те, кто стремится к совершенной красоте, принимает переменчивость рока и кружится в танце посреди катастроф.\n\n　　Мы — Весенний ночной бал.\n\n　　Мы служим первоисточнику несчастий и красоты — сущности, претворяющей бедствия в искусство. Под Её сенью мы постигли истину:\n\n　　Истинная красота рождается на стыке гибели и возрождения.\n\n　　Если вы желаете присоединиться к нам, ступайте к правому крылу ювелирной лавки.\n\n　　Помните: трусам здесь не место, а лицемерам мы не рады. Лишь те, кто дерзает вглядываться в бездну и принимать правду лицом к лицу, достойны этого нескончаемого бала.\n\n　　Ждём вас."
-  },
-  {
-    "id": "094043",
-    "source_cn": "【LV1】【秘偶技】寻踪魔弹-代理主技能",
-    "ref_en": "[LV1] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
-    "target_ru": "[LV1] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill"
   },
   {
     "id": "094044",
@@ -24994,12 +24904,6 @@
     "source_cn": "【测试】一键养成30级大R",
     "ref_en": "[Test] One-click development level 30 big-spender",
     "target_ru": "[Тест] Разработка в один клик 30 уровня, большие траты"
-  },
-  {
-    "id": "094166",
-    "source_cn": "【雾林眷族】棋子每次普攻获得<HighLight>1</>层【苔影汲取】，每层获得<HighLight>3%</>吸血和<HighLight>2%</>最大生命，最多叠加<HighLight>6</>层；每场玩家对战后获得<HighLight>1</>个随机雾林眷族棋子。",
-    "ref_en": "Each basic attack from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>3%</> Life Steal and <HighLight>2%</> Max Health, stacking up to <HighLight>6</> times; gain <HighLight>1</> random Fog Forest Kin piece(s) after each player combat.",
-    "target_ru": "Each Базовая атака from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>3%</> Вампиризм and <HighLight>2%</> Max Health, stacking up to <HighLight>6</> times; gain <HighLight>1</> random Fog Forest Kin piece(s) after each player combat."
   },
   {
     "id": "094167",
@@ -27268,12 +27172,6 @@
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>恭喜您在趣斗玩法中跻身全国排名前100，特赠荣誉头衔，可前往</><HyperLink stylename=\"M_Link\" u=\"jump=1250011\">【菜单-角色-头衔界面】</><M_Default>使用。</>",
     "ref_en": "<M_Default> Dear Beyonder: </>\\n<M_Default> Congratulations on ranking in the top 100 nationwide in the Fun Fight mode. You have been awarded an honorary title. You can go to </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Menu - Character - Title Interface] </><M_Default> to use it. </>",
     "target_ru": "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Поздравляем с попаданием в топ-100 по стране в режиме «Весёлая потасовка»! Вам присвоен почётный титул, который можно активировать в меню </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\">【Меню — Персонаж — Титулы】</><M_Default>.</>"
-  },
-  {
-    "id": "094545",
-    "source_cn": "Obtain 1 Beyonder material with the {恐惧主教} entry",
-    "ref_en": "Obtain 1 Beyonder material with the {Bishop of Fear} entry",
-    "target_ru": "Obtain 1 Потусторонний material with the {Bishop of Fear} entry"
   },
   {
     "id": "094546",
@@ -29770,12 +29668,6 @@
     "source_cn": "事务繁荣",
     "ref_en": "Prosperous Affairs",
     "target_ru": "Процветающие дела"
-  },
-  {
-    "id": "094962",
-    "source_cn": "人类想要成为非凡者，并在非凡之路上持续走下去，只能依靠魔药。",
-    "ref_en": "Humans who want to become Beyonders and continue on the path of the extraordinary can only rely on potions.",
-    "target_ru": "Humans who want to become Потустороннийs and continue on the path of the extraordinary can only rely on potions."
   },
   {
     "id": "094963",

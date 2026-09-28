@@ -56,7 +56,6 @@ return {
     ["Unlocks <Highlight>Single Social Action: Worry</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "Открывает <Highlight>Одно социальное действие: Worry</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы.",
     ["One last bit of energy is needed."] = "Нужен последний кусочек энергии.",
     ["Stage Mechanism"] = "Сценический механизм",
-    ["However, this notebook is currently with the Nighthawks, and... I saw in the Nighthawks' confidential documents that they didn't provide the potion names for Seer Sequence 8 and 7. Could there be some hidden secret inside?"] = "However, this notebook is currently with the Ночные Ястребы, and... I saw in the Ночные Ястребы' confidential documents that they didn't provide the potion names for Провидец Последовательность 8 and 7. Could there be some hidden secret inside?",
     ["Law Camp South"] = "Юридический лагерь Юг",
     ["Battle for the Throne of God · Advancement"] = "Битва за Трон Божий · Продвижение",
     ["Ahem—I just remembered, I have other matters to attend to later."] = "Кхм, я только что вспомнил, у меня есть другие дела, которыми надо заняться позже.",
@@ -107,7 +106,6 @@ return {
     ["临时"] = "Временный",
     ["乙方：%s"] = "Сторона Б: %s",
     ["亲爱的非凡者：\n祝贺您在%s排行榜中排名前%d%%，现为您奉上丰厚的奖励，希望您再接再厉，在诡秘世界中闯出一番天地。"] = "Дорогой Необыкновенный: \n Поздравляем с первым местом в рейтинге %s %d%%. Теперь мы предлагаем вам щедрые награды. Надеюсь, вы продолжите свои усилия и сделаете себе имя в загадочном мире.",
-    ["他用“火种”窃取了一件物品里的污染。"] = "He used 'Kindling' to steal the Искажение from an item.",
     ["代表命运的黄色卡牌代表命运的黄色卡牌代表命运的黄色卡牌代表命运的黄色卡牌"] = "Желтая карточка, обозначающая судьбу, желтая карточка, обозначающая судьбу, желтая карточка, обозначающая судьбу, желтая карточка, обозначающая судьбу",
     ["会长名称七个字"] = "Имя президента: семь символов",
     ["传送门开始"] = "Портал Старт",
@@ -240,5 +238,6 @@ return {
     ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Hunting Time Event Schedule</>\nThe Final Hunt is open all day.\n<Highlight>High-Multiplier Periods: Monday to Friday 19:00—20:00; Saturday and Sunday 12:00—18:00, 19:00—22:00 (two sessions).</>\nThe period from 18:00—19:00 on weekends is a standard period."] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Время события «Час охоты»</>\nФинальная охота открыта круглосуточно.\n<Highlight>Периоды повышенного множителя: с понедельника по пятницу 19:00—20:00; суббота, воскресенье 12:00—18:00, 19:00—22:00 (два периода).</>\nВ выходные 18:00—19:00 — обычный период.",
     ["哎？在问我吗？"] = "А? Вы меня спрашиваете?",
     ["莱斯警局查案中，未经授权，禁止入内。"] = "Полицейский участок Лиз ведёт расследование. Посторонним вход запрещён.",
+    ["他用“火种”窃取了一件物品里的污染。"] = "He used 'Kindling' to steal the corruption from an item.",
     ["只是碰巧走过的地方多了点，见过的事怪了点。"] = "Мне просто довелось исходить чуть больше дорог и повидать чуть больше странностей.",
 }

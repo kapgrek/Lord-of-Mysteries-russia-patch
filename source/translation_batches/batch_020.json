@@ -540,12 +540,6 @@
     "target_ru": "[Проницательность] Ритуальная магия, созданная «Хваткой смерти», накладывает эффект замедления на 5% и тяжёлого урона на 30% на 4 секунды. Эффект замедления может суммироваться."
   },
   {
-    "id": "095090",
-    "source_cn": "【秘偶技】命运湍流一段-黑",
-    "ref_en": "[Marionette Skill] Fate Turbulence First Stage - Black",
-    "target_ru": "[Марионетка Skill] Fate Turbulence First Stage - Black"
-  },
-  {
     "id": "095091",
     "source_cn": "【黄铜书】【困难】五月庄园外城",
     "ref_en": "[Brass Book] [Hard] May Manor Outer City",
@@ -556,12 +550,6 @@
     "source_cn": "一个骑着自行车的邮差突然刹车停在了你面前。",
     "ref_en": "A postman riding a bicycle suddenly brakes and stops in front of you.",
     "target_ru": "Почтальон на велосипеде внезапно тормозит и останавливается перед вами."
-  },
-  {
-    "id": "095093",
-    "source_cn": "一本附着灵性的旧书，字里行间隐约指向金秋湖，似乎藏着某个耗尽生命也要追寻的“真理”。",
-    "ref_en": "An old book imbued with spirituality. The lines between the words vaguely point toward Golden Autumn Lake, seemingly hiding a \"truth\" that someone exhausted their life to pursue.",
-    "target_ru": "An old book imbued with Духовность. The lines between the words vaguely point toward Golden Autumn Lake, seemingly hiding a \"truth\" that someone exhausted their life to pursue."
   },
   {
     "id": "095094",
@@ -1204,12 +1192,6 @@
     "source_cn": "顶尖投影",
     "ref_en": "Top Projection",
     "target_ru": "Верхняя проекция"
-  },
-  {
-    "id": "095201",
-    "source_cn": "领取该礼金获得外观或随机金磅",
-    "ref_en": "Claim this gift to receive an outfit or random gold pounds",
-    "target_ru": "Claim this gift to receive an outfit or random золотых фунтов"
   },
   {
     "id": "095202",
@@ -2050,12 +2032,6 @@
     "source_cn": "他们文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本占位文本占位文占位文本占位文本本<Letter_Highlight>占位文本</>占位文本占位文占位文本占位文本本占位文本占位文占位<Letter_Epilog>文本占位文本本占位文本占位文占位文本占位文本本占位文本占位文占位文本占位文本本</>",
     "ref_en": "Placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text <Letter_Highlight>placeholder text</> placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text <Letter_Epilog>placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text placeholder text</>",
     "target_ru": "Текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель <Letter_Highlight>Текст-заполнитель</> текст-заполнитель текст-заполнитель текст-заполнитель <Letter_Epilog>текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель</>"
-  },
-  {
-    "id": "095342",
-    "source_cn": "他曾靠吃怪物勉强求生，但积累的毒素扭曲了他的神志和身体。",
-    "ref_en": "He once barely survived by eating monsters, but the accumulated toxins distorted his sanity and body.",
-    "target_ru": "He once barely survived by eating monsters, but the accumulated toxins distorted his Рассудок and body."
   },
   {
     "id": "095343",
@@ -5014,12 +4990,6 @@
     "source_cn": "不仅如此，它竟然连放屁都很动听，不然怎么“屁美”呢？真是头神奇的猪……",
     "ref_en": "Not only that, it even sounds pleasant when it farts, otherwise why would it be called 'Fart Beauty'? What a magical pig...",
     "target_ru": "Мало того, он даже звучит приятно, когда пукает, иначе почему бы его называли «Пердежная красавица»? Какая волшебная свинья..."
-  },
-  {
-    "id": "095836",
-    "source_cn": "不，在现实世界我有很多身份，你如果想找我，可以去鲁恩慈善基金会。至于心理治疗，这是“观众”途径的非凡能力。",
-    "ref_en": "No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Spectator' pathway.",
-    "target_ru": "No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Зритель' pathway."
   },
   {
     "id": "095837",
@@ -8304,12 +8274,6 @@
     "target_ru": "Осталось сообщений на сегодня: <Yellow>%d</> раз."
   },
   {
-    "id": "096384",
-    "source_cn": "从“历史孔隙”中抽取的灵性之线，缠绕着无数可能的命运。",
-    "ref_en": "Threads of spirituality extracted from the \"gaps of history,\" entwined with countless possible fates.",
-    "target_ru": "Threads of Духовность extracted from the \"gaps of history,\" entwined with countless possible fates."
-  },
-  {
     "id": "096385",
     "source_cn": "任务8-回退-战斗等待",
     "ref_en": "Quest 8 - Rollback - Wait for battle",
@@ -9028,18 +8992,6 @@
     "source_cn": "【文字板】中央区-唱词2-1",
     "ref_en": "【Text Board】Central District - Lyrics 2-1",
     "target_ru": "【Текстовая доска】Центральный район - Текст 2-1"
-  },
-  {
-    "id": "096505",
-    "source_cn": "【自走棋】子爵夫人-三连斩-普攻1-新技能案例-主技能",
-    "ref_en": "[Auto Chess] Viscountess - Triple Slash - Basic Attack 1 - New Skill Case - Main Skill",
-    "target_ru": "[Auto Chess] Viscountess - Triple Slash - Базовая атака 1 - New Skill Case - Main Skill"
-  },
-  {
-    "id": "096506",
-    "source_cn": "一旦出现这种情况，非凡力量无法正常稳定使用，你将面临严重危险。",
-    "ref_en": "Once this happens, your Beyonder powers cannot be used normally and stably, and you will face serious danger.",
-    "target_ru": "Once this happens, your Потусторонний powers cannot be used normally and stably, and you will face serious danger."
   },
   {
     "id": "096507",
@@ -12906,12 +12858,6 @@
     "target_ru": "Взаимодействуйте с указанным входом в самолет и войдите в самолет."
   },
   {
-    "id": "097151",
-    "source_cn": "什么？灵性被禁止了——先冲出禁令范围！",
-    "ref_en": "What? Spirituality has been suppressed—rush out of the suppression zone first!",
-    "target_ru": "What? Духовность has been suppressed—rush out of the suppression zone first!"
-  },
-  {
     "id": "097152",
     "source_cn": "今天的整理和打扫工作也都做完了。",
     "ref_en": "Today's tidying and cleaning work are all done too.",
@@ -13576,12 +13522,6 @@
     "source_cn": "【01】她们隐瞒",
     "ref_en": "[01] They hid it",
     "target_ru": "[01] Они это спрятали"
-  },
-  {
-    "id": "097263",
-    "source_cn": "【LV5】【秘偶技】寻踪魔弹-代理主技能",
-    "ref_en": "[LV5] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
-    "target_ru": "[LV5] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill"
   },
   {
     "id": "097264",
@@ -14530,12 +14470,6 @@
     "source_cn": "卡门，其实我对你是有一些失望的，当初把你从墙里拔出来，是希望你能拼一把，快速成长起来……",
     "ref_en": "Carmen, actually I am a little disappointed in you. When I pulled you out of the wall, it was because I hoped you could give it your all and grow up quickly...",
     "target_ru": "Кармен, вообще-то я в тебе немного разочарован. Когда я вытащил тебя из стены, это было потому, что я надеялся, что ты сможешь выложиться на полную и быстро вырасти..."
-  },
-  {
-    "id": "097422",
-    "source_cn": "可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, ",
-    "ref_en": "Can fill in: LightHit, HitBack, HitDown, HitFloat, HitFly, HitStiff, HitDrag.",
-    "target_ru": "Можно заполнить: LightHit, HitBack, HitDown, HitFloat, HitFly, HitStiff, HitDrag."
   },
   {
     "id": "097423",
@@ -17406,12 +17340,6 @@
     "target_ru": "<P_Yellow>Шторм свирепее крепкого алкоголя.</>"
   },
   {
-    "id": "097901",
-    "source_cn": "【自走棋】猎犬普攻二连击-Hit1",
-    "ref_en": "[Auto-Chess] Hound Basic Attack Double Strike - Hit 1",
-    "target_ru": "[Auto-Chess] Hound Базовая атака Double Strike - Hit 1"
-  },
-  {
     "id": "097902",
     "source_cn": "【音符】中央区-唱词2-3",
     "ref_en": "[Note] Central District: Lyrics 2-3",
@@ -19662,12 +19590,6 @@
     "target_ru": "«Прежде чем стать Ночным Ястребом, я мечтал стать художником». Тон Фрая ничуть не изменился. \\n　“Тогда почему бы не осуществить свою мечту?” — с сомнением спросил Кляйн. \\n Фрай отложил карандаш, держа в руках портрет клоуна в смокинге и говоря: \\n «Мой отец — жрец богини, и он надеется, что я тоже стану священником. Это достаточно достойная профессия». \\n «Вы когда-нибудь были священником?» Кляйн снова спросил в шоке. \\n　Ему было трудно представить пастором кого-то с характером и темпераментом Фрая. \\n　«Ну, я неплохо поработал». Фрай ответил с холодным выражением лица, и уголки его рта немного приподнялись: «Позже я кое-что встретил и кое-что испытал, и я стал Ночным Ястребом».\\n\\n　——Том 1 «Джокер», Глава 78 Психологическая Тень"
   },
   {
-    "id": "098277",
-    "source_cn": "一键将角色提升到中R玩家的属性，并解锁系统，提升序列，添加药品。",
-    "ref_en": "One-click boost character to mid-spender player stats, unlock systems, advance Sequence, and add potions.",
-    "target_ru": "One-click boost character to mid-spender player stats, unlock systems, advance Последовательность, and add potions."
-  },
-  {
     "id": "098278",
     "source_cn": "下眼睑内侧",
     "ref_en": "Inner lower eyelid",
@@ -19678,12 +19600,6 @@
     "source_cn": "世界拍卖",
     "ref_en": "World Auction",
     "target_ru": "Мировой аукцион"
-  },
-  {
-    "id": "098280",
-    "source_cn": "两名非凡者集合！将于身前密契门径！",
-    "ref_en": "Two Beyonders gather! A secret path will be formed in front of you!",
-    "target_ru": "Two Потустороннийs gather! A secret path will be formed in front of you!"
   },
   {
     "id": "098281",
@@ -20440,12 +20356,6 @@
     "source_cn": "【秘偶技】隐匿刺击LV3",
     "ref_en": "[Marionette Skill] Hidden Stab LV3",
     "target_ru": "[Марионетка Skill] Hidden Stab LV3"
-  },
-  {
-    "id": "098407",
-    "source_cn": "【自走棋】猎犬普攻二连击-Hit2",
-    "ref_en": "[Auto-Chess] Hound Basic Attack Double Strike - Hit 2",
-    "target_ru": "[Auto-Chess] Hound Базовая атака Double Strike - Hit 2"
   },
   {
     "id": "098408",
@@ -22600,12 +22510,6 @@
     "source_cn": "……我知道了。谢谢你，弗莱先生！",
     "ref_en": "…I see. Thank you, Mr. Frye!",
     "target_ru": "…Я понимаю. Спасибо, мистер Фрай!"
-  },
-  {
-    "id": "098767",
-    "source_cn": "……看起来命运的指点已经降下，今天您还是适合进入俱乐部，找一名真正的占卜师占卜一下。",
-    "ref_en": "...It seems the guidance of fate has already descended. Today, it is still suitable for you to enter the club and find a real divination master to perform a divination.",
-    "target_ru": "...It seems the guidance of fate has already descended. Today, it is still suitable for you to enter the club and find a real Гадание master to perform a Гадание."
   },
   {
     "id": "098768",
@@ -25636,12 +25540,6 @@
     "source_cn": "二楼空气墙",
     "ref_en": "Second Floor Air Wall",
     "target_ru": "Воздушная стена второго этажа"
-  },
-  {
-    "id": "099273",
-    "source_cn": "二段剑气伤害提升25%。若二段未命中目标，返还10%技能冷却。",
-    "ref_en": "Secondary sword energy damage increased by 25%. If the secondary hit misses, 10% of the skill's Cooldown is refunded.",
-    "target_ru": "Secondary sword energy damage increased by 25%. If the secondary hit misses, 10% of the skill's Перезарядка is refunded."
   },
   {
     "id": "099274",

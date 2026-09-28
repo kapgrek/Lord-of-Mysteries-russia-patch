@@ -55,7 +55,6 @@ return {
     ["Alright... <P_Heart>(He mentioned a wooden post just now? There are no wooden posts here?)</>"] = "Хорошо... <P_Heart>(Он только что упомянул деревянный столб? Здесь нет деревянных столбов?)</>",
     ["The patterns on the robe are medals of glory and an undying obsession with battle."] = "Узоры на мантии — это медали славы и бессмертной одержимости битвой.",
     ["Story Fragment"] = "Фрагмент истории",
-    ["A stack of yellowed manuscripts recording meditation methods for Mystery Pryers, advanced techniques for spiritual perception, and research on the Hidden Sage."] = "A stack of yellowed manuscripts recording meditation methods for Подглядывающий за Тайнамиs, advanced techniques for spiritual perception, and research on the Hidden Sage.",
     ["Shane "] = "Шейн",
     ["Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 45</> <Highlight>Adventure-oriented</> gold and purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \n\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>."] = "За каждые <Highlight>20 ед. прогресса</> даётся 1 сундук ресурсов развития. Открыв его, можно случайно получить предмет снаряжения золотого или фиолетового качества <Highlight>45-го ур. снаряжения</> (<Highlight>направленность «Приключения»</>), потусторонние вещества, факторы конвергенции и привязанные соли.\n\n<Highlight>Лимит конвертации</>: максимум до <Highlight>10</> сокровищниц; излишки прогресса <Highlight>автоматически сохраняются</> и после открытия сокровищниц нового уровня снаряжения <Highlight>превратятся в новые сокровища</>.",
     ["Ancient Castle Dynamic Carriage - Flowers"] = "Древний замок Динамическая карета - Цветы",
@@ -114,7 +113,6 @@ return {
     ["一个马桶，干净漂亮，骄傲地伫立在明亮的盥洗室里。"] = "Туалет, чистый и красивый, гордо стоял в светлой умывальной.",
     ["上车"] = "Садись в карету",
     ["下摆上"] = "Подол – Верх",
-    ["不如……就按丽贝卡说的，去贝克兰德看看吧。"] = "How about... we do as Rebecca said and go to Бэкланд to take a look.",
     ["不，那不止是图纸，那是新的机器，新的未来！"] = "Нет, это не просто чертеж, это новая машина, новое будущее!",
     ["五月庄园副本掉落"] = "Добыча из подземелий May Manor",
     ["伦纳德就干过这种蠢事，他在成为“不眠者”的第一天就试图以冲刺的速度下楼。"] = "Леонард делал такие глупости; в свой первый день в качестве «Ночного Ястреба» он попытался спринтерски сбежать по лестнице.",
@@ -282,4 +280,5 @@ return {
     ["Unlockable after 21:20 on October 1"] = "Разблокируется после 21:20 1 октября",
     ["需要消耗 %s 金镑，当前金镑不足，是否前往充值？"] = "Требуется %s Золотых фунтов, текущих Золотых фунтов недостаточно. Перейти к пополнению?",
     ["<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>"] = "<P_Heart> (Его глаза слегка двигаются — он о чём-то думает, и разум его совершенно ясен.) </>",
+    ["不如……就按丽贝卡说的，去贝克兰德看看吧。"] = "How about... we do as Rebecca said and go to Backlund to take a look.",
 }

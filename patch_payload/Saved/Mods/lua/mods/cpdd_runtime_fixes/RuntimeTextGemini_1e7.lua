@@ -249,7 +249,6 @@ return {
     ["Afflicted I"] = "страдающий я",
     ["Iron Art · Courtyard Gate · 1"] = "Железное искусство · Ворота внутреннего двора · 1",
     ["Wind Field"] = "Поле ветра",
-    ["[Hidden] When triggering the immediate Health restoration effect below 20%, the target gains an additional 4 seconds of Super Armor."] = "[Hidden] When triggering the immediate Health restoration effect below 20%, the target gains an additional 4 seconds of Суперброня.",
     ["Send message to general interactive object"] = "Отправить сообщение общему интерактивному объекту",
     ["Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max 68 characters Body text max <HighLight>max 170</>"] = "Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов Основной текст до 68 символов <HighLight>max 170</>",
     ["Hidden Space - Wind resistance draw sword"] = "Скрытое пространство - меч сопротивления ветру",

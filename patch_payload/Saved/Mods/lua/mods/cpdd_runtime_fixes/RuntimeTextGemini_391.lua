@@ -116,7 +116,6 @@ return {
     ["After merging teams, the team points will continue to accumulate based on the original team of the new leader after the merge, and the other team's points will be cleared. Do you want to continue merging?"] = "После слияния команд командные очки будут продолжать накапливаться на основе исходной команды нового лидера после слияния, а очки другой команды будут аннулированы. Хотите продолжить объединение?",
     ["Gain attribute bonuses based on the number of Beyonder material affixes:\n 1 affix: Health +160, Defense +100\n 2 affixes: Health +320, Defense +200\n 3 affixes: Health +480, Defense +300\n 4 affixes: Health +640, Defense +400\n 5 affixes: Health +800, Defense +500\n 6 affixes: Health +960, Defense +600\n<Highlight> Upgrade Beyonder Knowledge level to enhance Beyonder Resonance effects.</>"] = "Получите улучшения атрибутов в зависимости от количества необычных материальных записей: \n1 запись: жизнь +160, защита +100\n2 записи: жизнь +320, защита +200\n3 записи: жизнь +480, защита +300\n4 5 записей: Жизнь +640, Защита +400\n 5 записей: Жизнь +800, Защита +500\n 6 записей: Жизнь +960, Защита +600\n<Highlight> Повышение уровня экстраординарных знаний может усилить эффект экстраординарного резонанса. </>",
     ["Dancing Baboon"] = "Танцующий павиан",
-    ["[Insight] After Nightmare hits a target, it has a 30% base chance to apply Stagnation for 3 seconds, and the generated Ritual Magic applies a 5% Slow."] = "[Insight] After Кошмар hits a target, it has a 30% base chance to apply Stagnation for 3 seconds, and the generated Ritual Magic applies a 5% Slow.",
     ["Follow the Sound to Search"] = "Следуйте за звуком для поиска",
     ["Participate in the dungeon <Highlight>May Manor · Garden (Normal)</>. After defeating <Highlight>Alienated Hound</>, there is a chance to obtain the following items."] = "Принять участие в подземелье <Highlight>Поместье Мэй · Сад (Обычный)</>. После победы над <Highlight>Alienated Hound</> есть шанс получить следующие предметы.",
     ["%s Wins"] = "%s побед",
@@ -134,7 +133,6 @@ return {
     ["上班时间也能这样呼呼大睡吗？真羡慕啊！"] = "Неужели можно так крепко спать в рабочее время? Я так завидую!",
     ["与阿诺德交谈"] = "Поговорите с Арнольдом",
     ["东区氛围-安娜乔伊斯散步点"] = "Атмосфера восточного округа – пешеходная площадка Анны Джойс",
-    ["主动攻击绿、黄名非凡者增加10失控度"] = "Actively attacking green or yellow-named Потустороннийs increases loss of control by 10.",
     ["主宰争锋全国排名头衔"] = "Национальный рейтинговый титул Dominator's Clash",
     ["也许……我们应该直接把老约翰烧了。"] = "Возможно... нам следует просто сжечь Старого Джона.",
     ["仅监听首技能"] = "Слушайте только первый навык",
@@ -263,6 +261,7 @@ return {
     ["A replica of the Antigonus Family notes, but other than attracting the holder to write \"Everyone will not die, including me,\" it has no other Beyonder effects."] = "Копия записей семьи Антигонус, но помимо того, что побуждает владельца написать «Никто не умрёт, включая меня», не обладает никакими другими сверхъестественными эффектами.",
     ["当我们的视线暂时从身为秩序阴影的结局转移，无尽的知识洪流也在罗塞尔的生命中谱写了抗争绝唱。"] = "Когда наш взгляд ненадолго отрывается от финала, ставшего тенью Порядка, бескрайний поток знаний также сложил в жизни Розелль последнюю песнь борьбы.",
     ["如你所见，找个安静的地方，眺望贝克兰德的街景。"] = "Как видишь, нашёл тихое местечко, чтобы любоваться видом улиц Бэкланда.",
+    ["主动攻击绿、黄名非凡者增加10失控度"] = "Actively attacking green or yellow-named Beyonders increases loss of control by 10.",
     ["是否确认永久删除角色\n（删除后昵称将在开服30天后释放）"] = "Подтверждаете безвозвратное удаление персонажа?\n(После удаления имя персонажа освободится через 30 дней после запуска сервера)",
     ["Hazel"] = "Хейзел",
 }

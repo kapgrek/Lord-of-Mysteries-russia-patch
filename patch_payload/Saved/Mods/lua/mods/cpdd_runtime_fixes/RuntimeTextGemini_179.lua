@@ -225,7 +225,6 @@ return {
     ["Xuan Shi"] = "Сюань Ши",
     ["Text block text block text block text block text block text block text block text block text block"] = "Текстовый блок текстовый блок текстовый блок текстовый блок текстовый блок текстовый блок текстовый блок текстовый блок текстовый блок",
     ["Young people these days... sigh, really lacking in enterprising spirit. If you could have half of Roselle's effort..."] = "Молодые люди в наши дни... ох, им действительно не хватает предприимчивости. Если бы ты мог воспользоваться хотя бы половиной усилий Розеллы...",
-    ["He said only a Beyonder can unleash its power of \"protection\"."] = "He said only a Потусторонний can unleash its power of \"protection\".",
     ["Guard 2"] = "Охранник 2",
     ["Investigate?"] = "Расследовать?",
     ["Submit bill"] = "Отправить счет",

@@ -225,7 +225,6 @@ return {
     ["Heart Exclusive Invincibility"] = "Эксклюзивная неуязвимость для сердца",
     ["Fixed Attack Value: White"] = "Фиксированное значение атаки: Белый",
     ["Base Score: "] = "Базовый балл:",
-    ["No, do not embrace the red moon that carries corruption"] = "No, do not embrace the red moon that carries Искажение",
     ["Achievement - Can't Stop Liking"] = "Достижение - Не могу перестать любить",
     ["Lace Sleeve Cover"] = "Кружевной чехол на рукаве",
     ["Test Level 45 Attribute Level Buff - Professional Control"] = "Тестовый уровень 45, усиление уровня атрибута — профессиональный контроль",

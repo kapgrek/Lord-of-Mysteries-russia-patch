@@ -198,7 +198,6 @@ return {
     ["Continue forward and delve into the Dark Wilderness"] = "Продолжайте идти вперед и окунитесь в Темную пустыню.",
     ["Eye-level 21"] = "Уровень глаз 21",
     ["Occultism is my hobby; I can do it for free."] = "Оккультизм — мое хобби; Я могу сделать это бесплатно.",
-    ["Each basic attack from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>2%</> Life Steal and <HighLight>1%</> Max Health, stacking up to <HighLight>6</> times."] = "Each Базовая атака from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>2%</> Вампиризм and <HighLight>1%</> Max Health, stacking up to <HighLight>6</> times.",
     ["%s inventory slot unlock limit reached."] = "Достигнут предел разблокировки слотов инвентаря %s.",
     ["There is nothing here."] = "Здесь ничего нет.",
     ["Move out? Why should it be me? Why don't you move out?"] = "Выехать? Почему это должен быть я? Почему бы тебе не съехать?",

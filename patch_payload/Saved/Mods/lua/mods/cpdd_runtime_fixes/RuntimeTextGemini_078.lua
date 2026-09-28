@@ -202,7 +202,6 @@ return {
     ["Enter the Extraordinary World"] = "Войти",
     ["Roselle: Hardships are just the prelude to a comeback, come on! It's time for the protagonist's cheat to appear!"] = "Розель: Трудности — это всего лишь прелюдия к возвращению, да ладно! Пришло время появиться читу главного героя!",
     ["A historical projection of Leonard Mitchell, recreating the original's form and partial abilities."] = "Историческая проекция Леонарда Митчелла, воссоздающая форму и частичные способности оригинала.",
-    ["The divination you did for Anna last time has already spread throughout the club."] = "The Гадание you did for Anna last time has already spread throughout the club.",
     ["Comedy Mask divination (AI)"] = "Гадание по комедийной маске (ИИ)",
     ["Check the abnormality on the table"] = "Проверьте аномалию на столе.",
     ["Stop loader"] = "Остановить загрузчик",

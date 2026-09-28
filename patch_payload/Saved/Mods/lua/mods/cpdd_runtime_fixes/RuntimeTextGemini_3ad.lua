@@ -66,7 +66,6 @@ return {
     ["When settling remaining products, price increases 30%"] = "При расчете остатка продукции цена увеличивается на 30%",
     ["Heavy Stiffness (Leaning Right, Knockback)"] = "Сильная жесткость (наклон вправо, отбрасывание)",
     ["InPath = effect blueprint path, (sx, sy, sz, sw, px, py, pz) = transform."] = "InPath = путь к проекту эффекта, (sx, sy, sz, sw, px, py, pz) = преобразование.",
-    ["Believer Number One Stage 1 damage reduction buff removal shatter"] = "Believer Number One Stage 1 Снижение урона buff removal shatter",
     ["Lower Half of Face"] = "Нижняя половина лица",
     ["Skill Settings"] = "Настройки навыков",
     ["Hermit School"] = "Школа Отшельника",

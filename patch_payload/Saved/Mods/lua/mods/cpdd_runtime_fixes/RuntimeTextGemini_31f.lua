@@ -209,7 +209,6 @@ return {
     ["Cannot start in party state."] = "Невозможно начать в состоянии вечеринки.",
     ["Stamina restored to <Highlight>%s/%s</> after use"] = "После использования выносливость восстанавливается до <Highlight>%s/%s</>.",
     ["Group Stage Has Ended"] = "Групповой этап завершился",
-    ["Dear Beyonder: According to the %s event, the dividend you obtained through the faction war auction is %s. Please check it."] = "Dear Потусторонний: According to the %s event, the dividend you obtained through the faction war auction is %s. Please check it.",
     ["Thank you for your company, Your Excellency."] = "Спасибо за вашу компанию, Ваше Превосходительство.",
     ["Activate Spirit Vision to investigate the anomaly"] = "Активируйте Духовное зрение, чтобы исследовать аномалию.",
     ["Damage Boost · Competition"] = "Увеличение урона · Соревнование",

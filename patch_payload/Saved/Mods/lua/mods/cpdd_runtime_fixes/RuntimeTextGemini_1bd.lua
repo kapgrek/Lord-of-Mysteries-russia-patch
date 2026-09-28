@@ -61,7 +61,6 @@ return {
     ["<h>墙壁</>在……说话？"] = "Стена <h> </>... разговаривает?",
     ["GTA-机械造物-躯干二层导电表现"] = "GTA - Механическое создание - Эффект проводимости второго слоя туловища",
     ["Yes. {{先生|女士}}, you are the kind of person who lives with money."] = "Да. {{Sir|Madam}}, ты тот человек, который живет деньгами.",
-    ["{{player.name}}在非凡聚合中，凝聚出携有<Chat_Highlight>{{relic_word.name}}</>词条的{{item.name}}，得到了执掌好运的黄黑之王的眷顾！"] = "{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Потусторонний Convergence, receiving the favor of the King of Yellow and Black who wields good luck!",
     ["……请给我点时间，让我再考虑一下吧。"] = "……Пожалуйста, дайте мне немного времени, позвольте мне подумать об этом еще раз.",
     ["【自走棋】-钻头-末段爆发"] = "[Автошахматы] — Упражнение — Финальный взрыв",
     ["一直以来，我都非常感谢你对我的帮助……与救赎。"] = "Все это время я был очень благодарен за вашу помощь... и спасение.",
@@ -247,6 +246,7 @@ return {
     ["Cannot spectate other players at the current stage!"] = "На текущем этапе нельзя наблюдать за другими игроками!",
     ["My sister will be back to cook after she finishes selling flowers! Would you like some sweet iced tea first?"] = "Моя сестра вернётся готовить, как только закончит продавать цветы! Хотите пока сладкого холодного чая?",
     ["That's too philosophical, man! A toast to death!"] = "Слишком философично, приятель! Тост за смерть!",
+    ["{{player.name}}在非凡聚合中，凝聚出携有<Chat_Highlight>{{relic_word.name}}</>词条的{{item.name}}，得到了执掌好运的黄黑之王的眷顾！"] = "{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!",
     ["Sonny"] = "Сонни",
     ["而现在，我只想征服你的心。"] = "И сейчас, я просто хочу покорить твое сердце.",
 }

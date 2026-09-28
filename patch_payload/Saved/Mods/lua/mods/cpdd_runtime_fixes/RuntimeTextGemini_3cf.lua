@@ -29,7 +29,6 @@ return {
     ["<P_Heart> (Hesitating) </> But..."] = "<P_Heart> (Колеблется) </> Но...",
     ["Battle Group Swiftness"] = "Глава Стремительность",
     ["Mirrorless trigger 3"] = "Беззеркальный триггер 3",
-    ["At first, I thought Albert had developed an age-related illness... later, I discovered he was being influenced by the Sealed Artifact."] = "At first, I thought Albert had developed an age-related illness... later, I discovered he was being influenced by the Запечатанный артефакт.",
     ["Digestion Stage"] = "Стадия пищеварения",
     ["Lake of Chaos and Order - Colossus - Worship Successful, Leverages Chaos Energy"] = "Озеро хаоса и порядка – Колосс – успешное поклонение, использование энергии хаоса",
     ["Mysterious palace"] = "Таинственный дворец",

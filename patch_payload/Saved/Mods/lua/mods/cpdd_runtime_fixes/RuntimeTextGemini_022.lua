@@ -220,7 +220,6 @@ return {
     ["No, that's not just a blueprint, that's a new machine, a new future!"] = "Нет, это не просто чертеж, это новая машина, новое будущее!",
     ["Passerby B"] = "Прохожий Б",
     ["The Slow applied by Spray is increased to 60%."] = "Замедление, накладываемое Spray, увеличено до 60%.",
-    ["[Auto-Chess] Hound Basic Attack Double Strike - Hit 2"] = "[Auto-Chess] Hound Базовая атака Double Strike - Hit 2",
     ["Emilia "] = "Эмилия",
     ["Share what I've seen and heard with Marlo"] = "Поделитесь с Марло тем, что я видел и слышал.",
     ["Hello...?"] = "Привет...?",

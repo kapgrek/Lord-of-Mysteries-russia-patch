@@ -54,7 +54,6 @@ return {
     ["You accidentally touched a Tarot card on the bookshelf of the Divination Club and entered a mysterious historical space. It turns out that a famous Seer once committed suicide under strange circumstances, leaving behind this Tarot card. By asking the Tarot card questions, you eventually restored the truth of the matter; all of this stemmed from the deception and resistance against fate."] = "Вы случайно прикоснулись к карте Таро на книжной полке Клуба Гадания и попали в загадочное историческое пространство. Оказывается, знаменитый Провидец однажды при странных обстоятельствах покончил жизнь самоубийством, оставив после себя эту карту Таро. Задавая вопросы картам Таро, вы в конечном итоге восстановили истину; все это произошло от обмана и сопротивления судьбе.",
     ["Cemetery teleport point"] = "Точка телепортации на кладбище",
     ["At home"] = "Дома",
-    ["The “Angel of Life” is the crystallization of wisdom and the undying spirituality within everyone."] = "The “Angel of Life” is the crystallization of wisdom and the undying Духовность within everyone.",
     ["3 Fakes 1 True"] = "3 фейка 1 правда",
     ["12V12 Scene"] = "Сцена 12V12",
     ["Running Speed"] = "Скорость бега",

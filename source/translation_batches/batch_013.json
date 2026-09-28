@@ -2046,12 +2046,6 @@
     "target_ru": "Коврик средней площади: Классический"
   },
   {
-    "id": "060341",
-    "source_cn": "之前塔罗学派工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。",
-    "ref_en": "The mystical item 'Fingers of Dexterity' crafted by the Tarot Club artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard.",
-    "target_ru": "The mystical item 'Fingers of Dexterity' crafted by the Клуб Таро artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard."
-  },
-  {
     "id": "060342",
     "source_cn": "乱斗未开启，俱乐部未达%d级",
     "ref_en": "Brawl not started; club has not reached level %d.",
@@ -10806,12 +10800,6 @@
     "target_ru": "Босс_Трисси"
   },
   {
-    "id": "061801",
-    "source_cn": "Obtain 1 Beyonder material with {混乱行者} entry",
-    "ref_en": "Obtain 1 Beyonder material with {Chaos Walker} entry",
-    "target_ru": "Obtain 1 Потусторонний material with {Chaos Walker} entry"
-  },
-  {
     "id": "061802",
     "source_cn": "[UIFrame : UIComponent]:SetImage 设置材质贴图%s失败 Image控件不能为空 %s %s",
     "ref_en": "[UIFrame : UIComponent]:SetImage Failed to set material texture %s. Image control cannot be empty %s %s",
@@ -11694,12 +11682,6 @@
     "target_ru": "Щит Первосвященника сломан; сосредоточь огонь!"
   },
   {
-    "id": "061949",
-    "source_cn": "丽贝卡在调查小铜镜，得到了另一件封印物“绝望魔镜”的线索。镜中廷根由“知识皇冠”构建，并非是真正的镜中世界。",
-    "ref_en": "Rebecca is investigating the small copper mirror and has obtained clues about another Sealed Artifact, the \"Magic Mirror of Despair.\" Tingen in the Mirror is constructed by the \"Crown of Knowledge\" and is not a true mirror world.",
-    "target_ru": "Rebecca is investigating the small copper mirror and has obtained clues about another Запечатанный артефакт, the \"Magic Mirror of Despair.\" Тинген in the Mirror is constructed by the \"Crown of Knowledge\" and is not a true mirror world."
-  },
-  {
     "id": "061950",
     "source_cn": "乔伊斯跑回镍币书店",
     "ref_en": "Joyce runs back to the Nickel Coin Bookstore",
@@ -12538,12 +12520,6 @@
     "source_cn": "中卫",
     "ref_en": "Zhongwei",
     "target_ru": "Чжунвэй"
-  },
-  {
-    "id": "062090",
-    "source_cn": "也可以自行选择2个非凡物质作为聚合素材，消耗素材生成新的非凡物质，快来试试吧！",
-    "ref_en": "You can also manually select 2 Beyonder materials as aggregation ingredients, consuming them to generate new Beyonder materials. Come and try it!",
-    "target_ru": "You can also manually select 2 Потусторонний materials as aggregation ingredients, consuming them to generate new Потусторонний materials. Come and try it!"
   },
   {
     "id": "062091",
@@ -17310,12 +17286,6 @@
     "target_ru": "Мистер «Шут» — доброжелательный бог, а Тинген — его отправная точка."
   },
   {
-    "id": "062885",
-    "source_cn": "“魔术师”女士佛尔思利用空间隐匿能力将部分失控区域隐藏，留下的特殊图腾。",
-    "ref_en": "A special totem left behind by Miss Magician Fors after using her space concealment ability to hide parts of the loss of control area.",
-    "target_ru": "A special totem left behind by Miss Фокусник Fors after using her space concealment ability to hide parts of the loss of control area."
-  },
-  {
     "id": "062886",
     "source_cn": "……<P_Heart>（这里是哪里？我想做什么？我也想知道……）</>",
     "ref_en": "...<P_Heart> (Where is this? What do I want to do? I want to know too...) </>",
@@ -19818,12 +19788,6 @@
     "target_ru": "Первая победа дня приносит 2x победных очка, осталось <highlight>%s</> раз."
   },
   {
-    "id": "063303",
-    "source_cn": "他是我们俱乐部的一位老朋友，曾经是我们这的占卜家导师。",
-    "ref_en": "He was an old friend of our club and once served as our divination mentor.",
-    "target_ru": "He was an old friend of our club and once served as our Гадание mentor."
-  },
-  {
     "id": "063304",
     "source_cn": "伤害提升40%",
     "ref_en": "Damage increased by 40%",
@@ -22248,12 +22212,6 @@
     "target_ru": "<T_Partners>Войдите в состояние сна, чтобы получить </><T_Partners_2>5.0%</><T_Partners> Щит максимального здоровья. Если щит исчезает раньше времени, он модифицирует </><T_Partners_2>Dream</><T_Partners>, превращая красивый полуурон в Кошмар, просыпается и получает </><T_Partners_2>2027</><T_Partners> урон от заклинаний, а максимальный стек статуса Уязвимость становится 5. Призовите домен Звездных Врат в выбранном месте, и через 5 секунд разряд Энергии нанесет</><T_Partners_2>304</><T_Partners> загадочный урон в области, увеличивающийся на</><T_Partners_2>50%.</>"
   },
   {
-    "id": "063708",
-    "source_cn": "<h>用胸针占卜</>确认方向",
-    "ref_en": "<h>Use the brooch for divination</> to confirm the direction",
-    "target_ru": "<h>Use the brooch for Гадание</> to confirm the direction"
-  },
-  {
     "id": "063709",
     "source_cn": "GVG高塔特效buff黑皇",
     "ref_en": "GVG High Tower Effect Buff Black Emperor",
@@ -22276,12 +22234,6 @@
     "source_cn": "“正义”。",
     "ref_en": "\"Justice\".",
     "target_ru": "\"Справедливость\"."
-  },
-  {
-    "id": "063713",
-    "source_cn": "一个尝试……试试吧，掌握非凡力量的感觉。",
-    "ref_en": "An attempt... let's try it, the feeling of mastering Beyonder powers.",
-    "target_ru": "An attempt... let's try it, the feeling of mastering Потусторонний powers."
   },
   {
     "id": "063714",
@@ -23988,12 +23940,6 @@
     "target_ru": "{\\n\"БЕГ\": \"0\",\\n\"ХОДЬБА\": \"1\",\\n\"СПРИНТ\": \"2\"\\n}"
   },
   {
-    "id": "063998",
-    "source_cn": "一个质感厚重的小箱子，里面装着一些奇异的材料：银色花纹的锡罐、装着黑色粉末的试管、深色小瓶等等。材料们摆得整整齐齐，箱子上有写着“占卜家魔药材料”的标签。",
-    "ref_en": "A heavy, sturdy small box containing some strange materials: tin cans with silver patterns, test tubes filled with black powder, dark vials, and more. The materials are arranged neatly, and the box has a label that reads \"Seer Potion Materials.\"",
-    "target_ru": "A heavy, sturdy small box containing some strange materials: tin cans with silver patterns, test tubes filled with black powder, dark vials, and more. The materials are arranged neatly, and the box has a label that reads \"Провидец Potion Materials.\""
-  },
-  {
     "id": "063999",
     "source_cn": "一切的开端",
     "ref_en": "The Beginning of Everything",
@@ -24792,12 +24738,6 @@
     "target_ru": "……РС. Маргарет совершенно не имеет о тебе таких мыслей; она думает о плате за консультацию и торте."
   },
   {
-    "id": "064132",
-    "source_cn": "……这么快就出事了？你确实应该成为非凡者，这样才能更从容地应对那些古怪诡异的事件。",
-    "ref_en": "...Something happened so soon? You should indeed become a Beyonder so that you can deal with those strange and eerie events more calmly.",
-    "target_ru": "...Something happened so soon? You should indeed become a Потусторонний so that you can deal with those strange and eerie events more calmly."
-  },
-  {
     "id": "064133",
     "source_cn": "【自走棋】-班森-邻近友军恢复与防御",
     "ref_en": "[Auto Chess] - Benson - Nearby Ally Recovery and Defense",
@@ -24814,18 +24754,6 @@
     "source_cn": "一个是凶狠的开膛手，一个是善良无辜的年轻姑娘。",
     "ref_en": "One is a vicious Ripper, the other is a kind and innocent young girl.",
     "target_ru": "Один — злобный Потрошитель, другой — добрая и невинная молодая девушка."
-  },
-  {
-    "id": "064136",
-    "source_cn": "一般来说，序列等级越高，可以掌控的非凡能力越强，但……",
-    "ref_en": "Generally speaking, the higher the Sequence level, the stronger the Extraordinary abilities one can control, but...",
-    "target_ru": "Generally speaking, the higher the Последовательность level, the stronger the Extraordinary abilities one can control, but..."
-  },
-  {
-    "id": "064137",
-    "source_cn": "不用，小事情而已，我们在附近等着就好，灵性会指引它会回到这里的。",
-    "ref_en": "No need, it's just a small matter. We'll just wait nearby; spirituality will guide it back here.",
-    "target_ru": "No need, it's just a small matter. We'll just wait nearby; Духовность will guide it back here."
   },
   {
     "id": "064138",
@@ -26932,12 +26860,6 @@
     "source_cn": "【介绍途径、序列的cs】",
     "ref_en": "[CS for introducing pathways and Sequences]",
     "target_ru": "[CS for introducing pathways and Последовательностьs]"
-  },
-  {
-    "id": "064489",
-    "source_cn": "【风闻】梦魇冲击命中主目标后会引爆暗影能量，造成范围伤害。",
-    "ref_en": "[Rumor] After Nightmare Impact hits the main target, it detonates shadow energy, causing area damage.",
-    "target_ru": "[Rumor] After Кошмар Impact hits the main target, it detonates shadow energy, causing area damage."
   },
   {
     "id": "064490",

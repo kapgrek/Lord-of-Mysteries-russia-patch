@@ -216,7 +216,6 @@ return {
     ["After use, obtain the title: <Highlight>Potion Connoisseur</>"] = "После использования получите титул: <Highlight>Potion Connoisseur</>.",
     ["But it was clearly fine here, how did it break when it got to them..."] = "Но тут явно было хорошо, как же оно сломалось, когда дошло до них...",
     ["Enter Homestead"] = "Войти в усадьбу",
-    ["Complete the May Manor · Garden Brass Book challenge [Will Contamination · Hard]"] = "Завершите испытание May Manor · Garden Brass Book [Will Contamination · Hard]",
     ["May Manor_Offspring Protection_1 Target_Buff84008605"] = "ПоместьеМэй_ЗащитаПотомства_1Цель_Бафф84008605",
     ["Use to obtain <Highlight>Railway Traveler Hairstyle</>"] = "Используйте, чтобы получить <Highlight>Прическа железнодорожного путешественника</>",
     ["Allow mounting during combat and deal damage to targets collided with."] = "Позволяет садиться на ездовое животное в бою и наносить урон целям при столкновении.",

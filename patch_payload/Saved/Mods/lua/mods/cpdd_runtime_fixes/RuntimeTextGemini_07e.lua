@@ -169,7 +169,6 @@ return {
     ["By the way, you said you are a believer of The Fool, and since you've come as well..."] = "Кстати, ты сказал, что веришь в Шута, и раз уж ты тоже пришел...",
     ["The latest volume of \"The Great Adventurer\" sold out last night? Didn't it just arrive the day before yesterday?"] = "Последний том \"Великого авантюриста\" распродан вчера вечером? Разве оно не пришло позавчера?",
     ["How to trade trains more profitably"] = "Как торговать поездами выгоднее",
-    ["After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Beyonder Affix Gifts</>"] = "After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Потусторонний Affix Gifts</>",
     ["After use, you can advance to Sequence 9: Assassin potion, which contains mysterious power."] = "После использования вы можете перейти к последовательности 9: зелье убийцы, которое содержит таинственную силу.",
     ["What's wrong with the Phantom Thief? He looks a bit strange..."] = "Что не так с Призрачным вором? Он выглядит немного странно...",
     ["Unlock 2"] = "Разблокировать 2",

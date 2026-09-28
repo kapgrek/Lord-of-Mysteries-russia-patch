@@ -139,7 +139,6 @@ return {
     ["墨"] = "Мо",
     ["多么炫目、绚丽！只不过自由的鸟儿不会永远停在这里。"] = "Как ослепительно, как великолепно! Просто свободные птицы не останутся здесь навсегда.",
     ["失控度"] = "Потеря уровня контроля",
-    ["完成五月庄园·花园黄铜书挑战【意志污染·困难】"] = "Завершите испытание May Manor · Garden Brass Book [Will Contamination · Hard]",
     ["完成扮演故事：<Highlight>手心里的太阳</>(%s/%s)"] = "Полная актерская история: <Highlight>Солнце на Palm</>(%s/%s)",
     ["对所有敌人造成<HighLight>360%</>攻击伤害；随机获得攻击、减伤或恢复<HighLight>15</>法力，持续6秒。"] = "Наносит <HighLight>360%</> урона от атаки всем врагам; случайным образом получает атаку, уменьшение урона или восстанавливает <HighLight>15</> маны на 6 сек..",
     ["寻找狱友"] = "Найти сокамерника",
@@ -303,6 +302,7 @@ return {
     ["隐秘空间-破晓防线-海神权杖交互物"] = "Скрытое пространство - Линия обороны Рассвета - Объект взаимодействия «Скипетр морского бога»",
     ["You are already in a room. Exit current room <Highlight> %s </> and join new room <Highlight> %s </>?"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
     ["<P_Heart> (Alert) </> What are you trying to do?"] = "<P_Heart> (Настороженно) </> Что вы пытаетесь сделать?",
+    ["完成五月庄园·花园黄铜书挑战【意志污染·困难】"] = "Complete the May Manor · Garden Brass Book challenge [Will Contamination · Hard]",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

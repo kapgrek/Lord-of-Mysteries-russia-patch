@@ -228,7 +228,6 @@ return {
     ["<P_Heart>(Looks you up and down)</> You look like the first civilized person I've seen in these days."] = "<P_Heart>(Смотрит на тебя с ног до головы)</> Ты выглядишь как первый цивилизованный человек, которого я увидел за эти дни.",
     ["Favored by the wind, walking with the wind."] = "Одобренный ветром, идущий с ветром.",
     ["Enter the forest path, avoid obstacles, and continue forward"] = "Выйдите на лесную тропу, избегайте препятствий и продолжайте двигаться вперед.",
-    ["A treasure chest eroded by strange power is waiting to be purified. Complete the ritual, dispel the corruption, and see what is hidden inside."] = "A treasure chest eroded by strange power is waiting to be purified. Complete the ritual, dispel the Искажение, and see what is hidden inside.",
     ["Floor tile 4-9"] = "Напольная плитка 4-9",
     ["<P_Yellow>The detective's assistant</> suddenly rushed out of the crowd and blocked the path in front of the young lady in the Western-style dress."] = "<P_Yellow>Помощник детектива</> внезапно выскочил из толпы и преградил путь перед молодой дамой в платье в западном стиле.",
     ["Patriotic Hygiene Campaign (Part 1) - Asking the vagrant"] = "Акция патриотической гигиены (Часть 1) - Спросить бродягу",

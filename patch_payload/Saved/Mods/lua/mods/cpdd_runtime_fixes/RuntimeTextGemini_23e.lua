@@ -72,7 +72,6 @@ return {
     ["【副本测试】71级属性-中R"] = "[Тест в подземелье] Статистика 71 уровня – средний расход",
     ["【测试】一键养成53级小R"] = "[Тест] Разработка в один клик 53 уровня для мелких транжир",
     ["为什么是“二号”？"] = "Почему это «номер два»?",
-    ["什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……"] = "When will I be able to become a formal barista? Maybe I should go to the Гадание Club after work and calculate...",
     ["什么？不，您幻听了。我是说，我不想，呃，我不想工作了。"] = "Что? Нет, у вас слуховые галлюцинации. Я имею в виду, я не хочу, я не хочу больше работать.",
     ["今夜琴声温柔-玩家回归现实"] = "Gentle Piano Music Tonight - Игрок возвращается в реальность",
     ["仔细思考"] = "Подумайте внимательно",
@@ -238,4 +237,5 @@ return {
     ["“瘦子”：别……别说话！"] = "«Худой»: Не... не говори!",
     ["A world for two? Hmm, perhaps... no, it's nothing."] = "Мир для двоих? Хм, возможно... нет, ничего.",
     ["It only takes ten minutes to get up, Tingen news know-it-all!"] = "Всего десять минут — и ты в курсе всех новостей Тинген!",
+    ["什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……"] = "When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate...",
 }

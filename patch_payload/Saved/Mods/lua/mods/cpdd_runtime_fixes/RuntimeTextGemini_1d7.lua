@@ -206,7 +206,6 @@ return {
     ["Third Platform"] = "Третья платформа",
     ["[Operations] Beginner Account"] = "[Операции] Аккаунт новичка",
     ["Pat it"] = "Погладь это",
-    ["[Marionette Skill] Worm of Star - Solar Anthem - Damage"] = "[Марионетка Skill] Worm of Star - Solar Anthem - Damage",
     ["Participate in the Club Brawl challenge, avatar with the most points."] = "Участвуйте в испытании «Клубная потасовка», аватар с наибольшим количеством очков.",
     ["It's mealtime, please keep quiet!"] = "Время обеда, пожалуйста, помолчите!",
     ["<P_Yellow>His mercy is sprinkled across heaven and earth, like the sunset on this stone wall~</>"] = "<P_Yellow>Его милость разлита по небу и земле, как закат на этой каменной стене~</>",

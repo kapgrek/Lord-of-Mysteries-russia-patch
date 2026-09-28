@@ -36,7 +36,6 @@ return {
     ["Castor"] = "Кастор",
     ["When failing a Dominator's Clash match, this item will be automatically consumed so that this failure <Highlight> will not deduct victory points </>. \n <Highlight> This effect only applies to ranks below \"King of Angels\" </>."] = "При поражении в битве за Превосходство этот предмет будет автоматически израсходован, благодаря чему за поражение <Highlight>не снимутся победные очки</>.\n<Highlight>Эффект действует только для рангов ниже «Короля Ангелов»</>.",
     ["I have money now, I'll take a carriage!"] = "У меня теперь есть деньги, я возьму карету!",
-    ["[Insight] When triggering the immediate Health restoration effect below 20%, the target gains an additional 20% Damage Reduction for 5 seconds."] = "[Insight] When triggering the immediate Health restoration effect below 20%, the target gains an additional 20% Снижение урона for 5 seconds.",
     ["…That's because he was being too annoying, I couldn't forget, is that not allowed?"] = "…Это потому, что он меня слишком раздражал, я не мог забыть, разве это не разрешено?",
     ["What did you say? I didn't hear you clearly just now."] = "Что вы сказали? Я сейчас не расслышал тебя ясно.",
     ["Green Leaf"] = "Зеленый лист",

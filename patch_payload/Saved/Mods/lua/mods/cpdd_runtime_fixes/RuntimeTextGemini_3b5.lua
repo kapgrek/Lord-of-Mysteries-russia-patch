@@ -91,7 +91,6 @@ return {
     ["The boss was defeated by the enemy's %s."] = "Босс был побеждён вражеским %s.",
     ["Coordinates 4, 2"] = "Координаты 4, 2",
     ["Warrior Level 45 Orange Equipment Stats"] = "Характеристики оранжевого снаряжения воина 45-го уровня",
-    ["A volcano still beating, burning through the holder's sanity."] = "A volcano still beating, burning through the holder's Рассудок.",
     ["Approach"] = "Подход",
     ["You're a health inspector? Then who am I?"] = "Вы санитарный инспектор? Тогда кто я?",
     ["A Beyonder attempting advancement"] = "Потусторонний пытается продвинуться",

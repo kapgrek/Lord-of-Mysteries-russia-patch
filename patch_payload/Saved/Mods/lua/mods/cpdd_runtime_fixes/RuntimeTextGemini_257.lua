@@ -202,7 +202,6 @@ return {
     ["Enable trade war caravan upgrade/dispatch function?"] = "Включить функцию обновления/отправки караванов торговой войны?",
     ["Beyonder pathways are also known as divine pathways; once you step into the Demigod stage above Sequence 4, you can display a mythical form to a certain extent."] = "Потусторонние пути также известны как божественные пути; как только вы перейдете на стадию полубога выше эпизода 4, вы сможете в определенной степени отобразить мифическую форму.",
     ["This is the first card of the Tarot deck, The Fool, symbolizing new beginnings and infinite possibilities."] = "Это первая карта колоды Таро, Шут, символизирующая новые начинания и безграничные возможности.",
-    ["I don't know if you have heard of the serial killer who shocked the entire city of Tingen twenty-one years ago."] = "I don't know if you have heard of the serial killer who shocked the entire city of Тинген twenty-one years ago.",
     ["Delete this group?"] = "Удалить эту группу?",
     ["Charisma +2\n<Italic> Some are born to be the focus of all attention, announcing their arrival with fragrance before they even appear.</>"] = "Обаяние +2\n<Italic>Некоторые люди рождены быть в центре внимания — они возвещают о своём появлении ароматом ещё до того, как войдут в зал.</>",
     ["Torrent in the Mirror"] = "Торрент в зеркале",

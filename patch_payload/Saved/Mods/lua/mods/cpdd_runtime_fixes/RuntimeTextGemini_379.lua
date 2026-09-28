@@ -222,7 +222,6 @@ return {
     ["Vision Impairment"] = "Нарушение зрения",
     ["The feeling of Stagnation passes from the fingertips to the heart; is the ring painted with bright oil paint power or shackles?"] = "Ощущение Застоя переходит от кончиков пальцев к сердцу; кольцо покрашено яркой масляной краской power или кандалы?",
     ["Upload the prepared video to the Art Academy; the AI will analyze and review the content."] = "Загрузите подготовленное видео в Академию Искусств; алгоритм проанализирует и проверит содержимое.",
-    ["The Beyonder characteristic left behind by Liana, emitting a soft dawn-like light."] = "The Потусторонний characteristic left behind by Liana, emitting a soft dawn-like light.",
     ["魔女诅咒"] = "Проклятие Демоницы",
     ["攻速和吸血提高3%"] = "Скорость атаки и вампиризм повышаются на 3%",
     ["<ChatTag_Current>%s</>：%s"] = "<ChatTag_Current>%s</>: %s",

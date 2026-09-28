@@ -234,7 +234,6 @@ return {
     ["<P_Heart>(These pumpkins are strange, let's check them first.)</>"] = "<P_Heart>(Эти тыквы странные, давайте сначала их проверим.)</>",
     ["Only by faithfully obeying all the rules and strictly keeping His commandments can one open the door of spirituality and obtain the transcendent truth."] = "Только верно соблюдая все правила и строго соблюдая Его заповеди, можно открыть дверь духовности и обрести трансцендентную истину.",
     ["Mouse Hover Skill Position Selection Instructions"] = "Инструкции по выбору позиции навыка наведения мыши",
-    ["\"Selina Wood accidentally and coincidentally saw the true incantation for mirror divination from her occult teacher, Haines……\""] = "\"Selina Wood accidentally and coincidentally saw the true incantation for mirror Гадание from her occult teacher, Haines……\"",
     ["Playing card position"] = "Положение игральной карты",
     ["Remember, you are not the offspring of an Evil God. Do not forget, do not yield."] = "Помните, вы не отпрыск Злого Бога. Не забывайте, не уступайте.",
     ["Twisting..."] = "Скручивание...",

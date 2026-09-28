@@ -30,7 +30,6 @@ return {
     ["<P_Heart>(Could it be...)</>"] = "<P_Heart> (Можно ли так сказать...) </>",
     ["Bless George's poor soul, may he be healthy and lucky in his next life."] = "Благослови бедную душу Джорджа, и пусть он будет здоров и счастлив в следующей жизни.",
     ["Quick Potion Equip"] = "Экипировка для быстрого зелья",
-    ["[Marionette Skill] Worm of Star - Exile - Spell Agent"] = "[Марионетка Skill] Worm of Star - Exile - Spell Agent",
     ["Xiwo"] = "Сиво",
     ["Spend money or not spend money?"] = "Тратить деньги или не тратить?",
     ["Rule Rewrite Gameplay Button"] = "Кнопка перезаписи правил игрового процесса",

@@ -240,12 +240,6 @@
     "target_ru": "{{ Mr. | Ms. } }, посмотри на этот серебряный кубок для вина! Первый барон Ламуд…"
   },
   {
-    "id": "030040",
-    "source_cn": "“魔术师”女士，我读过您的《暴风山庄》，非常精彩！",
-    "ref_en": "Ms. “Magician”, I have read your “Storm Villa”, it is very wonderful!",
-    "target_ru": "Ms. “Фокусник”, I have read your “Storm Villa”, it is very wonderful!"
-  },
-  {
     "id": "030041",
     "source_cn": "【场景】梳妆台",
     "ref_en": "【Scene】 Dressing Table",
@@ -2488,12 +2482,6 @@
     "source_cn": "【浅见】宁静光环内的友方和自身每次攻击目标可以回复少量生命，1秒最多触发1次，诗意光环半径增加2米。",
     "ref_en": "[Insight] Allies and self within the Tranquility aura can recover a small amount of Health with each attack on a target, triggering at most once per second. The Poetic aura radius is increased by 2 meters.",
     "target_ru": "[Проницательность] Союзники и вы, находящиеся в ауре «Спокойствия», могут восстанавливать небольшое количество здоровья при каждой атаке по цели, срабатывая не чаще одного раза в секунду. Радиус Поэтической ауры увеличен на 2 метра."
-  },
-  {
-    "id": "030415",
-    "source_cn": "【风闻】梦魇命中目标后削弱目标技能抵挡，持续5秒。",
-    "ref_en": "[Rumor] After Nightmare hits a target, it weakens the target's Skill Block for 5 seconds.",
-    "target_ru": "[Rumor] After Кошмар hits a target, it weakens the target's Блок навыков for 5 seconds."
   },
   {
     "id": "030416",
@@ -5596,12 +5584,6 @@
     "source_cn": "一旦进入战斗，厄运布偶就会伺机作祟。技能命中敌人时，布偶会附身到他身上，降低其防御与抗暴击，并随你切换目标转移。它回到你身上时，厄运便由你承担。",
     "ref_en": "Once entering battle, the Misfortune Doll will wait for an opportunity to cause trouble. When a skill hits an enemy, the doll will possess them, reducing their Defense and critical resistance, and transfer as you Switch targets. When it returns to you, you bear the misfortune.",
     "target_ru": "Вступив в бой, Кукла Несчастья будет ждать возможности устроить беду. Когда умение поражает врага, кукла овладевает им, снижая его защиту и сопротивление критическому удару, а также перемещается при переключении целей. Когда оно вернется к вам, вы понесете несчастье."
-  },
-  {
-    "id": "030933",
-    "source_cn": "不知道最近有没有非凡案件要处理，回黑荆棘看看吧。",
-    "ref_en": "I wonder if there are any Beyonder cases to handle recently. Let's head back to Blackthorn Security to check.",
-    "target_ru": "I wonder if there are any Потусторонний cases to handle recently. Let's head back to Blackthorn Security to check."
   },
   {
     "id": "030934",
@@ -11028,22 +11010,10 @@
     "target_ru": "«Этимологическое исследование Гофсаика»"
   },
   {
-    "id": "031838",
-    "source_cn": "《背叛者指环》也不错，是贝克兰德王国大剧院原版阵容。",
-    "ref_en": "The 'Traitor's Ring' is also quite good; it's the original cast from the Backlund Kingdom Theater.",
-    "target_ru": "The 'Traitor's Ring' is also quite good; it's the original cast from the Бэкланд Kingdom Theater."
-  },
-  {
     "id": "031839",
     "source_cn": "一壶热水",
     "ref_en": "A pot of hot water",
     "target_ru": "Кастрюля с горячей водой"
-  },
-  {
-    "id": "031840",
-    "source_cn": "一张蕴含庞大灵性的卡牌，持有者可以此媒介沟通灵界，进行运气与命运的交换，从灵界中获取宝物。",
-    "ref_en": "A card containing vast spirituality. The holder can use this medium to communicate with the Spirit World, exchange luck and fate, and obtain treasures from the Spirit World.",
-    "target_ru": "A card containing vast Духовность. The holder can use this medium to communicate with the Spirit World, exchange luck and fate, and obtain treasures from the Spirit World."
   },
   {
     "id": "031841",
@@ -20340,12 +20310,6 @@
     "target_ru": "Улучшение подключения"
   },
   {
-    "id": "033390",
-    "source_cn": "人脉技能升级的消耗材料，可通过序列晋升获得。",
-    "ref_en": "Consumable material for upgrading Connection Skills, obtainable through Sequence advancement.",
-    "target_ru": "Consumable material for upgrading Connection Skills, obtainable through Последовательность advancement."
-  },
-  {
     "id": "033391",
     "source_cn": "今天的工作顺利吗？",
     "ref_en": "Did work go well today?",
@@ -24078,12 +24042,6 @@
     "target_ru": "{{ Mr. | Ms. }}, хочешь купить хлеба или пирожных?"
   },
   {
-    "id": "034013",
-    "source_cn": "“观众”的序列名，会让人误以为这是一个只擅长观察与辅助的途径。但实际上，这也是一种伪装，让人更轻敌的伪装。",
-    "ref_en": "The Sequence name \"Spectator\" might lead people to mistakenly think this is a Pathway only good at observation and support. But in reality, it is also a form of disguise, a disguise that makes people underestimate the user.",
-    "target_ru": "The Последовательность name \"Зритель\" might lead people to mistakenly think this is a Pathway only good at observation and support. But in reality, it is also a form of disguise, a disguise that makes people underestimate the user."
-  },
-  {
     "id": "034014",
     "source_cn": "【自走棋】星象仪者技能-【普通】-二连踢",
     "ref_en": "[Auto-Chess] Astrolabe User Skill - [Normal] - Double Kick",
@@ -26772,12 +26730,6 @@
     "target_ru": "Мать всех духовных сил..."
   },
   {
-    "id": "034462",
-    "source_cn": "按下 <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> <Orange>放逐</>、<img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>星云咏叹</>、<img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>戏法演绎</>、<img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/> <Orange>灵界穿梭</>、<img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>层叠之门</> 完成连招",
-    "ref_en": "Press <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/> to complete the combo: <Orange>Exile</>, <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Nebula Aria</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>Trick Performance</>, <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/> <Orange>Spirit World Travel</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>Layered Gate</>.",
-    "target_ru": "Нажмите <img id=\"KeyPrompt_3\" width=\"33\" height=\"38\"/>, чтобы завершить комбинацию: <Orange>Exile</>, <img id=\"KeyPrompt_1\" width=\"33\" height=\"38\"/> <Orange>Nebula Aria</>, <img id=\"KeyPrompt_2\" width=\"33\" height=\"38\"/> <Orange>Trick Performance</>, <img id=\"KeyPrompt_4\" width=\"33\" height=\"38\"/> <Orange>Spirit World Travel</>, <img id=\"KeyPrompt_Q\" width=\"33\" height=\"38\"/> <Orange>LLayered Gate</>."
-  },
-  {
     "id": "034463",
     "source_cn": "携带物产",
     "ref_en": "Carried Products",
@@ -28090,12 +28042,6 @@
     "source_cn": "不可饶恕。",
     "ref_en": "Unforgivable.",
     "target_ru": "Непростительно."
-  },
-  {
-    "id": "034682",
-    "source_cn": "丢失的封印物，名为“看见我”，而观众将会看见什么？",
-    "ref_en": "A lost Sealed Artifact named \"See Me\"; what will the Spectator see?",
-    "target_ru": "A lost Запечатанный артефакт named \"See Me\"; what will the Зритель see?"
   },
   {
     "id": "034683",

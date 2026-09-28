@@ -32,7 +32,6 @@ return {
     ["Your inventions have greatly increased the civilization and convenience of society."] = "Ваши изобретения значительно повысили цивилизованность и удобство общества.",
     ["<P_Heart>(Inspiration stirs)</>"] = "<P_Heart>(Вдохновение пробуждает)</>",
     ["Profiteering King"] = "Король-спекулянт",
-    ["[LV3] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill"] = "[LV3] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill",
     ["Official Temporary Cross-Server Central Server"] = "Официальный временный межсерверный центральный сервер",
     ["the Gambit of the Ages has ushered in a mad opening."] = "«Гамбит веков» открыл безумный дебют.",
     ["This Qiqi hunting dragon is still trolling."] = "Этот охотничий дракон Цици все еще занимается троллингом.",

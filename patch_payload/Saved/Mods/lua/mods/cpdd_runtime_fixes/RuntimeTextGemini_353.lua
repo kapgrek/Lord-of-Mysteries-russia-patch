@@ -114,7 +114,6 @@ return {
     ["……小阿诺德这几年，过得怎么样？"] = "...Как себя чувствовал маленький Арнольд последние несколько лет?",
     ["【副本测试】70级属性"] = "[Испытание в подземелье] Статистика 70-го уровня",
     ["一支羽毛笔书写：\n“子嗣的仪式成功了！尽管克莱恩发现了贫民区的连续死亡，但这并不影响故事的继续。"] = "Перо написало: \n «Ритуал Наследника удался! Хоть Кляйн и обнаружил непрерывные смерти в гетто, на продолжение истории это не повлияло.",
-    ["一枚泛着星空色泽的古老钱币，能够通过精神体响应灵界、星空。上面镌刻着来自亚伯拉罕家族天使绘制的隐秘铭文，每一次使用如同开启一场星空漫游，能够为使用者带来旅途中的见闻与收获。"] = "An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the Духовное тело. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey.",
     ["不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了"] = "Никакой компенсации, я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры, без компенсации, Я выхожу из игры",
     ["不用，我认得路。"] = "Не надо, я знаю дорогу.",
     ["与队长/团长不在一个服务器，无法跟随！"] = "Не на том же сервере, что и Капитан/Лидер; не могу следовать!",
@@ -259,4 +258,5 @@ return {
     ["Hero-Player change skill set buff"] = "Герой — баф смены набора умений игрока",
     ["Ugh, what a strange name..."] = "Фух, какое странное имя...",
     ["Shopping with a woman is so boring, otherwise I would have already hooked several Tussock fish!"] = "Ходить по магазинам с женщиной так скучно, иначе я бы уже выловил несколько рыб тассок!",
+    ["一枚泛着星空色泽的古老钱币，能够通过精神体响应灵界、星空。上面镌刻着来自亚伯拉罕家族天使绘制的隐秘铭文，每一次使用如同开启一场星空漫游，能够为使用者带来旅途中的见闻与收获。"] = "An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the spirit body. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey.",
 }

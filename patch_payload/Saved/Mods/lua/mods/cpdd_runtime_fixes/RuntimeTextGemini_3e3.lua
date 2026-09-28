@@ -155,7 +155,6 @@ return {
     ["{{先生|女士}}, come and see the latest masterpiece of the God of Steam and Machinery Church—'Walker'!"] = "{{Sir|Madam}}, приходите посмотреть на последний шедевр Церкви Бога пара и машин — «Уокер»!",
     ["{{先生|女士}}，看看这个？分家产、立遗嘱、写诉状，样样都行。"] = "{{Mr.|Ms.}}, взгляни на это? Разделить имения, составить завещания, написать прошения — все это я умею.",
     ["【28】原来……"] = "[28] Так и было...",
-    ["【幸运悖论】的三层灵性完全充盈，能抵挡子爵夫人的致命一击。"] = "The three layers of Духовность of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow.",
     ["【秘偶技】命运湍流-黑"] = "[Марионетка Skill] Fate Turbulence - Black",
     ["【自走棋】星象仪者技能-【普通】二连踢第二段伤害"] = "[Авто-шахматы] Навык пользователя «Астролябия» — [Обычный] Урон двойного удара на втором этапе",
     ["一张塔罗牌，一种命运，你选择相信何种解读？"] = "Карта Таро, судьба; какой интерпретации вы предпочитаете верить?",
@@ -298,6 +297,7 @@ return {
     ["Unlockable after 21:20 on September 24"] = "Разблокируется после 21:20 24 сентября",
     ["Do not confirm for 4 Beyonder Affixes or lower"] = "Не запрашивать подтверждение для 4 аффиксов Потустороннего и меньше",
     ["I'm going to Raphael Cemetery; what kind of flowers should I bring?"] = "Я иду на кладбище Рафаэля; какие цветы мне взять?",
+    ["【幸运悖论】的三层灵性完全充盈，能抵挡子爵夫人的致命一击。"] = "The three layers of spirituality of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow.",
     ["播放Dialogue  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Диалог игры: NPC уничтожает себя (не может уничтожать игроков и публичных NPC в основном мире)",
     ["与人脉完成%d/50次漫步玩法。"] = "Выполните действия %d/50 «Прогулка» с контактами.",
 }

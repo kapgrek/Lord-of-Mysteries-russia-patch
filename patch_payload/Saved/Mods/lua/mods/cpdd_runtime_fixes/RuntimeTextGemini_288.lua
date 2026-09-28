@@ -204,7 +204,6 @@ return {
     ["鼓掌"] = "Аплодировать",
     ["Plea for Mercy"] = "Мольба о милосердии",
     ["Talk to the Brother and Sister"] = "Поговорите с братом и сестрой",
-    ["\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and corruption, the final possibility of the apocalypse.\""] = "\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and Искажение, the final possibility of the apocalypse.\"",
     ["Complete Specified Quest Loop"] = "Завершить указанный цикл квестов",
     ["Morris"] = "Моррис",
     ["Cannot interact while dead."] = "Невозможно взаимодействовать, пока он мертв.",

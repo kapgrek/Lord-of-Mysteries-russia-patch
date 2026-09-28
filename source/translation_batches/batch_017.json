@@ -684,12 +684,6 @@
     "target_ru": "[Эмодзи 127]"
   },
   {
-    "id": "080114",
-    "source_cn": "“魔术师”小姐的信和托付的书籍，要尽快交给“月亮”先生。",
-    "ref_en": "A letter and a book entrusted by Miss Magician, to be delivered to Mr. Moon as soon as possible.",
-    "target_ru": "A letter and a book entrusted by Miss Фокусник, to be delivered to Mr. Moon as soon as possible."
-  },
-  {
     "id": "080115",
     "source_cn": "……绝望吗？",
     "ref_en": "…Are you in despair?",
@@ -4410,12 +4404,6 @@
     "target_ru": "Письмо? Похоже, оно еще не отправлено."
   },
   {
-    "id": "080735",
-    "source_cn": "一次又一次……他展现的知识，他回应的祈求，他对塔罗会和白银城的庇护……",
-    "ref_en": "Time and time again... the knowledge he displayed, the prayers he answered, his protection of the Tarot Club and Silver City...",
-    "target_ru": "Time and time again... the knowledge he displayed, the prayers he answered, his protection of the Клуб Таро and Silver City..."
-  },
-  {
     "id": "080736",
     "source_cn": "上炮车人数已满，请稍后",
     "ref_en": "The Cannon Carriage is full, please wait.",
@@ -5152,12 +5140,6 @@
     "source_cn": "一片布料",
     "ref_en": "Piece of Fabric",
     "target_ru": "Кусок ткани"
-  },
-  {
-    "id": "080859",
-    "source_cn": "一瓶名为“焦糖炸弹”的神秘饮料让你邂逅了人生中最急促的肠道危机。你闯入盥洗室，却撞见两个虔诚的学生对着马桶颂念尊名。原来“神圣毒药”的受害者不止你一人。你与饮料发明者谢尔敏试图优化这款罪恶甜水。几番折腾，配方越改越神秘，绝望的谢尔敏将残液倒进马桶，马桶竟然变得光洁如新！ 一周后，廷根市民人手一瓶柠檬味清洁药剂，而在盥洗室点蜡烛祈祷的学生，至今仍盼望着“焦糖炸弹”重新归来。",
-    "ref_en": "A mysterious drink called 'Caramel Bomb' leads you to the most urgent intestinal crisis of your life. You rush into the restroom, only to find two devout students chanting a holy name toward the toilet. It turns out you are not the only victim of this 'sacred poison'. You and the drink's inventor, Shermin, try to optimize this sinful sweet water. After several attempts, the formula becomes increasingly mysterious, and a desperate Shermin pours the residue into the toilet—the toilet becomes as clean as new! A week later, every Tingen citizen has a bottle of lemon-scented cleaning agent, while the students who light candles and pray in the restroom are still hoping for the return of the 'Caramel Bomb'.",
-    "target_ru": "A mysterious drink called 'Caramel Bomb' leads you to the most urgent intestinal crisis of your life. You rush into the restroom, only to find two devout students chanting a holy name toward the toilet. It turns out you are not the only victim of this 'sacred poison'. You and the drink's inventor, Shermin, try to optimize this sinful sweet water. After several attempts, the formula becomes increasingly mysterious, and a desperate Shermin pours the residue into the toilet—the toilet becomes as clean as new! A week later, every Тинген citizen has a bottle of lemon-scented cleaning agent, while the students who light candles and pray in the restroom are still hoping for the return of the 'Caramel Bomb'."
   },
   {
     "id": "080860",
@@ -6708,12 +6690,6 @@
     "target_ru": "[Исповедь] Точка возрождения при использовании самолета."
   },
   {
-    "id": "081118",
-    "source_cn": "【本相】梦魇冲击的引爆伤害命中敌人数大于等于3时，生成一个梦魇核心，延迟1秒后梦魇核心发生爆炸，造成范围伤害。",
-    "ref_en": "[True Form] When the detonation damage of Nightmare Impact hits 3 or more enemies, it generates a Nightmare Core. After a 1-second delay, the Nightmare Core explodes, dealing area damage.",
-    "target_ru": "[True Form] When the detonation damage of Кошмар Impact hits 3 or more enemies, it generates a Кошмар Core. After a 1-second delay, the Кошмар Core explodes, dealing area damage."
-  },
-  {
     "id": "081119",
     "source_cn": "一号猪",
     "ref_en": "Pig One",
@@ -6742,12 +6718,6 @@
     "source_cn": "不用管桌上的材料，我还没看完呢。",
     "ref_en": "Don't touch the materials on the table; I haven't finished reading them yet.",
     "target_ru": "Не прикасайтесь к материалам на столе; Я еще не закончил их читать."
-  },
-  {
-    "id": "081124",
-    "source_cn": "不过这本笔记目前也在值夜者组织，而且……之前看到值夜者的保密资料中，没有提供占卜家序列8和7的魔药名称，难道里面还藏着什么秘辛？",
-    "ref_en": "However, this notebook is currently with the Nighthawks, and... I saw in the Nighthawks' confidential documents that they didn't provide the potion names for Seer Sequence 8 and 7. Could there be some hidden secret inside?",
-    "target_ru": "However, this notebook is currently with the Ночные Ястребы, and... I saw in the Ночные Ястребы' confidential documents that they didn't provide the potion names for Провидец Последовательность 8 and 7. Could there be some hidden secret inside?"
   },
   {
     "id": "081125",
@@ -10548,12 +10518,6 @@
     "target_ru": "[Испытание в подземелье] Статистика 99 уровня"
   },
   {
-    "id": "081758",
-    "source_cn": "【秘偶技】星之虫-星云斩击-满阶充能版",
-    "ref_en": "[Marionette Skill] Worm of Star - Nebula Slash - Full Tier Charged Version",
-    "target_ru": "[Марионетка Skill] Worm of Star - Nebula Slash - Full Tier Charged Version"
-  },
-  {
     "id": "081759",
     "source_cn": "一阶",
     "ref_en": "Tier 1",
@@ -10564,12 +10528,6 @@
     "source_cn": "上层（有bug，走旁边传送门）",
     "ref_en": "Upper Level (Bugged, use the portal on the side)",
     "target_ru": "Верхний уровень (прослушивается, используйте боковой портал)"
-  },
-  {
-    "id": "081761",
-    "source_cn": "不用害怕，他本来是个正常人，却意外遭受某件封印物力量的波及，变成了可怕的猩猩。",
-    "ref_en": "Don't be afraid, he was originally a normal person, but he was accidentally affected by the power of a Sealed Artifact and turned into a terrifying gorilla.",
-    "target_ru": "Don't be afraid, he was originally a normal person, but he was accidentally affected by the power of a Запечатанный артефакт and turned into a terrifying gorilla."
   },
   {
     "id": "081762",
@@ -12220,12 +12178,6 @@
     "source_cn": "【剧情调试用】",
     "ref_en": "[For Plot Debugging]",
     "target_ru": "[Для отладки графика]"
-  },
-  {
-    "id": "082037",
-    "source_cn": "【秘偶技】星之虫-烈阳颂歌-伤害",
-    "ref_en": "[Marionette Skill] Worm of Star - Solar Anthem - Damage",
-    "target_ru": "[Марионетка Skill] Worm of Star - Solar Anthem - Damage"
   },
   {
     "id": "082038",
@@ -16152,12 +16104,6 @@
     "target_ru": "...Это мог быть и какой-нибудь джентльмен; мы не можем предположить, что этим журналом интересуются только дамы."
   },
   {
-    "id": "082692",
-    "source_cn": "……非凡物品提前崩溃，这种情况很少见。",
-    "ref_en": "…It is rare for a Beyonder item to break down prematurely.",
-    "target_ru": "…It is rare for a Потусторонний item to break down prematurely."
-  },
-  {
     "id": "082693",
     "source_cn": "【占位-动画】克莱恩（也举杯）：“庆祝未来更好的生活！”",
     "ref_en": "[Placeholder-Animation] Klein (also raising his glass): \"To a better life in the future!\"",
@@ -19236,12 +19182,6 @@
     "target_ru": "Награда за предварительную регистрацию bilibili."
   },
   {
-    "id": "083206",
-    "source_cn": "“魔术师”女士，您小时候……是什么样的？",
-    "ref_en": "Ms. “Magician”, what were you like…… when you were a child?",
-    "target_ru": "Ms. “Фокусник”, what were you like…… when you were a child?"
-  },
-  {
     "id": "083207",
     "source_cn": "……什么时候跑进来的，完全没发现！",
     "ref_en": "……When did you sneak in? I didn't notice you at all!",
@@ -20674,12 +20614,6 @@
     "source_cn": "一件黑色兜帽  ",
     "ref_en": "A black hooded cloak",
     "target_ru": "Черный плащ с капюшоном"
-  },
-  {
-    "id": "083446",
-    "source_cn": "不过，我需要提醒你一点。如果遇见非凡事件，记得及时上报教会，也算是为你自己着想。",
-    "ref_en": "However, I need to remind you of one thing. If you encounter Beyonder incidents, remember to report them to the Church in time; it's for your own good.",
-    "target_ru": "However, I need to remind you of one thing. If you encounter Потусторонний incidents, remember to report them to the Church in time; it's for your own good."
   },
   {
     "id": "083447",
@@ -23832,12 +23766,6 @@
     "target_ru": "Нет. Но ты можешь звать меня граф."
   },
   {
-    "id": "083972",
-    "source_cn": "不要写了，让我先解决你身上的污染。",
-    "ref_en": "Stop writing. Let me deal with the corruption on you first.",
-    "target_ru": "Stop writing. Let me deal with the Искажение on you first."
-  },
-  {
     "id": "083973",
     "source_cn": "不退押金的糟糕房东。",
     "ref_en": "A terrible landlord who doesn't return the deposit.",
@@ -25966,12 +25894,6 @@
     "source_cn": "一言难尽",
     "ref_en": "Hard to describe",
     "target_ru": "Трудно описать"
-  },
-  {
-    "id": "084328",
-    "source_cn": "三费战团：最大生命值+300，攻击速度+25%。",
-    "ref_en": "Three-Cost Battle Group: Max Health +300, Attack Speed +25%.",
-    "target_ru": "Three-Cost Battle Group: Max Health +300, Скорость атаки +25%."
   },
   {
     "id": "084329",
@@ -28260,12 +28182,6 @@
     "target_ru": "«Перестань меня бить, папа… мне больно… так больно……»"
   },
   {
-    "id": "084710",
-    "source_cn": "“眠于红茧的纯白之人，主宰新生与堕落的神子，末日最后的可能性。”",
-    "ref_en": "\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and corruption, the final possibility of the apocalypse.\"",
-    "target_ru": "\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and Искажение, the final possibility of the apocalypse.\""
-  },
-  {
     "id": "084711",
     "source_cn": "【扮演任务·祈光人】祖宅的痕迹",
     "ref_en": "[Acting Mission · Lumian] Traces of the Ancestral Home",
@@ -29850,12 +29766,6 @@
     "target_ru": "Нет, это статья для газеты."
   },
   {
-    "id": "084975",
-    "source_cn": "不知道最近有没有非凡案件要处理，回黑荆棘看看吧。\\r\\n",
-    "ref_en": "I wonder if there are any Beyonder cases to handle recently. Let's go back to Blackthorn and see.",
-    "target_ru": "I wonder if there are any Потусторонний cases to handle recently. Let's go back to Blackthorn and see."
-  },
-  {
     "id": "084976",
     "source_cn": "不要奇怪，和风暴之主教会的那帮家伙不同，在我们这里，女士也是可以口头调戏别人的。",
     "ref_en": "Don't be surprised. Unlike those guys from the Lord of Storms Church, here, ladies can also tease others verbally.",
@@ -29890,12 +29800,6 @@
     "source_cn": "二次出场沙曼",
     "ref_en": "Second appearance of Sharman",
     "target_ru": "Второе появление Шармана"
-  },
-  {
-    "id": "084982",
-    "source_cn": "亲爱的非凡者：很抱歉的通知您，众神之巅玩法由于不可抗力，改为19时准时开始，请各位非凡者下线午休，祝好梦。发件人：系统",
-    "ref_en": "Dear Beyonder: We regret to inform you that, due to circumstances beyond our control, the Peak of the Gods event will now begin promptly at 19. Please log off and take an afternoon break. Sweet dreams. Sender: System",
-    "target_ru": "Dear Потусторонний: We regret to inform you that, due to circumstances beyond our control, the Peak of the Gods event will now begin promptly at 19. Please log off and take an afternoon break. Sweet dreams. Sender: System"
   },
   {
     "id": "084983",

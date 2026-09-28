@@ -233,7 +233,6 @@ return {
     ["Spark 3 - Xu Ziyuan"] = "Искра 3 — Сюй Цзыюань",
     ["50% Discount"] = "Скидка 50%",
     ["Execute specific SystemAction for a specified object ID."] = "Выполнить определенное SystemAction для указанного идентификатора объекта.",
-    ["The \"Antigonus Family Notebook\" is in Riel Bieber's hands, Sealed Artifact 2-049 will lead us to find him."] = "The \"Antigonus Family Notebook\" is in Riel Bieber's hands, Запечатанный артефакт 2-049 will lead us to find him.",
     ["Movement speed reduction effect increased to 50%"] = "Эффект снижения скорости передвижения увеличен до 50%.",
     ["Smart Visibility"] = "Умная видимость",
     ["Seraphina"] = "Серафина",

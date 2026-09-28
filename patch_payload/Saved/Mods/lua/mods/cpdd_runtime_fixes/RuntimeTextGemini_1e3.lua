@@ -59,7 +59,6 @@ return {
     ["6v6AI测试专用buff（62级输出玩家标准属性）"] = "Эксклюзивное усиление теста ИИ 6 на 6 (стандартные характеристики игрока 62-го уровня)",
     ["<M_Default>亲爱的非凡者：</>\n在本次势力战中，决胜战场的<M_Orange>%s</>代表的<M_Orange>%s</>势力获得了完胜，给本战区所有该势力的参与玩家发放如下奖励，请查收"] = "<M_Default>Уважаемый Потусторонний:</>\nВ этой войне фракций представитель <M_Orange>%s</> и его фракция <M_Orange>%s</> одержали полную победу на решающем поле боя. Всем участвовавшим игрокам этой фракции в данной военной зоне высланы следующие награды, пожалуйста, заберите их.",
     ["Boss_特莉丝"] = "Босс_Трисси",
-    ["Obtain 1 Beyonder material with {混乱行者} entry"] = "Obtain 1 Потусторонний material with {Chaos Walker} entry",
     ["[UIFrame : UIComponent]:SetImage 设置材质贴图%s失败 Image控件不能为空 %s %s"] = "[UIFrame : UIComponent]:SetImage Failed to set material texture %s. Image control cannot be empty %s %s",
     ["——摘自罗塞尔大帝日记（疑似）"] = "— Отрывок из дневника императора Розеля (подозреваемого)",
     ["　　<InvDefault_HW>戴莉飞到了它耳边开始歌唱，金色的旋律指引抚平了邓恩有些焦躁的心情，他沿着音符亮起的方向走去。十米，五十米，一百米……眼前仍然没有出现洞口的光亮，戴莉意识到前往出口的代价可能比想象中更多。</>\n\n　　<InvDefault_HW>没有犹豫。</>\n\n　　<InvDefault_HW>它飞得更高了，飞到邓恩根本看不清的地方，歌唱到背上的羽毛所剩无几，她开始下坠。</>\n\n　　<InvDefault_HW>眼前还是没有出现光亮。</>"] = "<InvDefault_HW>Дейли подлетела к его уху и запела. Золотистая мелодия успокоила и рассеяла подступившую тревогу Данна, и он зашагал в сторону, озаренную мерцанием нот. Десять метров, пятьдесят, сто... Впереди по-прежнему не было видно света выхода из пещеры, и Дейли осознала: цена спасения может оказаться непомерно высока.</>\n\n<InvDefault_HW>Ни секунды колебаний.</>\n\n<InvDefault_HW>Она взмыла еще выше, туда, где Данн уже не мог ее различить, и пела до тех пор, пока на ее крыльях почти не осталось перьев, после чего начала стремительно падать.</>\n\n<InvDefault_HW>Впереди все так же не брезжил свет.</>",
@@ -240,7 +239,6 @@ return {
     ["Why are you digging through the trash can?"] = "Зачем ты копаешься в мусорном баке?",
     ["You can obtain <Highlight>New Marionettes</> at the Utopia Theater."] = "Вы можете получить <Highlight>Новые марионетки</> в Театре Утопия.",
     ["Young Master, it really can't be made any looser. A wedding suit must be fitted to be decent."] = "Молодой Мастер, это действительно не может быть ослаблено. Свадебный костюм должен быть приличным.",
-    ["[Marionette Skill] Baboon Blessing - Random Item Throw - Temporarily Unused"] = "[Марионетка Skill] Baboon Blessing - Random Item Throw - Temporarily Unused",
     ["When the Windmill Turns 99002418"] = "Когда ветряная мельница перевернётся 99002418",
     ["Golden Autumn Lake/Tingen interaction Sanity loss - 3"] = "Взаимодействие Озеро Золотой Осени и Тингена Потеря здравомыслия — 3",
     ["Rare · Armor-Eroding Device"] = "Редкое · Бронеразъедающее устройство",
@@ -253,6 +251,7 @@ return {
     ["The bar isn't serving hard liquor for now; go have a drink at the club!"] = "Бар временно не подаёт крепкие напитки — сходите выпить в клуб!",
     ["Alright, thank you for the trouble."] = "Хорошо, спасибо за беспокойство.",
     ["Your previous adventure experience must be very rich, aren't you considering re-experiencing an exciting life?"] = "У тебя наверняка богатый опыт прошлых приключений — не думаешь снова испытать увлекательную жизнь?",
+    ["Obtain 1 Beyonder material with {混乱行者} entry"] = "Obtain 1 Beyonder material with {Chaos Walker} entry",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

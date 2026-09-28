@@ -164,7 +164,6 @@ return {
     ["The lake outside the village has dried up. Utilizing the magic of the lake water, you have returned to the side of the sealed stone coffin."] = "Озеро за деревней высохло. Используя магию озерной воды, вы вернулись к запечатанному каменному гробу.",
     ["Ask the guide again"] = "Спросите гида еще раз",
     ["Hesser"] = "Хессер",
-    ["<Highlight>Destroy all projections as soon as possible</> to stop the Clown's research."] = "<Highlight>Destroy all projections as soon as possible</> to stop the Клоун's research.",
     ["My dear Mercedes, me too."] = "Моя дорогая Мерседес, я тоже.",
     ["<h>Tableware</>"] = "<h>TПосуда</>",
     ["Fraser to Cafe"] = "Фрейзер в кафе",

@@ -3042,12 +3042,6 @@
     "target_ru": "Рыцари первого ранга и выше, отправляйтесь на дуэль к месту боя!"
   },
   {
-    "id": "040507",
-    "source_cn": "不是改变占卜。是改变“解读”塔罗的方式。",
-    "ref_en": "Not changing the divination itself. It's changing the way I \"interpret\" the Tarot.",
-    "target_ru": "Not changing the Гадание itself. It's changing the way I \"interpret\" the Tarot."
-  },
-  {
     "id": "040508",
     "source_cn": "与门交互5",
     "ref_en": "Interact with door 5",
@@ -3784,12 +3778,6 @@
     "source_cn": "上行链路180",
     "ref_en": "Uplink 180",
     "target_ru": "Аплинк 180"
-  },
-  {
-    "id": "040631",
-    "source_cn": "下午好，我叫安洁莉卡，占卜家俱乐部的接待员。",
-    "ref_en": "Good afternoon, my name is Angelica, the receptionist at the Divination Club.",
-    "target_ru": "Good afternoon, my name is Angelica, the receptionist at the Гадание Club."
   },
   {
     "id": "040632",
@@ -7444,12 +7432,6 @@
     "source_cn": "Respected {{先生|女士}}, you can take a long-distance carriage to Hornacis Sea of Flowers here!",
     "ref_en": "Respected {{Sir|Madam}}, you can take a long-distance carriage to Hornacis Sea of Flowers here!",
     "target_ru": "Уважаемый {{Sir|Madam}}, вы можете сесть в междугороднюю повозку к Морю Цветов Хорнациса здесь!"
-  },
-  {
-    "id": "041241",
-    "source_cn": "……普通人调查失控非凡者，你应该庆幸自己还活着。让我看看你的状态。",
-    "ref_en": "…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. Let me check your condition.",
-    "target_ru": "…For an ordinary person to investigate a Потусторонний who has lost control, you should be thankful you are still alive. Let me check your condition."
   },
   {
     "id": "041242",
@@ -11532,12 +11514,6 @@
     "target_ru": "<h> Понимание именования </>"
   },
   {
-    "id": "041922",
-    "source_cn": "……普通人调查失控非凡者，你应该庆幸自己还活着。但你的状态……",
-    "ref_en": "…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. But your condition…",
-    "target_ru": "…For an ordinary person to investigate a Потусторонний who has lost control, you should be thankful you are still alive. But your condition…"
-  },
-  {
     "id": "041923",
     "source_cn": "……没……问题……",
     "ref_en": "...No... problem...",
@@ -12354,12 +12330,6 @@
     "target_ru": "{\n\"Нет\": \"\",\n\"Замедление\": \"Снижение скорости\",\n\"Сон\": \"Сон\",\n\"Заключение\": \"Застрял\",\n\"Головокружение\": \"Головокружение\",\n\"Тишина\": \"Тихо\",\n\"DodgeLimit\": \"DodgeLimit\"\n}"
   },
   {
-    "id": "042059",
-    "source_cn": "“0”级封印物？！那伦纳德先生昨夜离开……",
-    "ref_en": "Grade 0 Sealed Artifact?! Then Mr. Leonard left last night...",
-    "target_ru": "Grade 0 Запечатанный артефакт?! Then Mr. Leonard left last night..."
-  },
-  {
     "id": "042060",
     "source_cn": "“尊敬的阿兹克先生……由于一些复杂的原因，我可能将沉睡很长一段时间，很抱歉，也许很久没法给您写信了……”",
     "ref_en": "\"Respected Mr. Azik…… Due to some complex reasons, I may fall into a deep sleep for a long time. I am very sorry; I might not be able to write to you for a long while……\"",
@@ -12400,12 +12370,6 @@
     "source_cn": "上侧装饰",
     "ref_en": "Upper Side Decoration",
     "target_ru": "Верхняя боковая отделка"
-  },
-  {
-    "id": "042067",
-    "source_cn": "不传配方ID默认当前序列的下一个序列的配方与材料",
-    "ref_en": "If recipe ID is not passed, it defaults to the next sequence's recipe and materials for the current sequence",
-    "target_ru": "If recipe ID is not passed, it defaults to the next Последовательность's recipe and materials for the current Последовательность"
   },
   {
     "id": "042068",
@@ -17700,12 +17664,6 @@
     "target_ru": "Босс_Виконтесса"
   },
   {
-    "id": "042950",
-    "source_cn": "citywalk-河与海教堂祈祷（掉san）",
-    "ref_en": "Citywalk - Pray at the Church of the River and Sea (Sanity Loss)",
-    "target_ru": "Citywalk - Pray at the Church of the River and Sea (Рассудок Loss)"
-  },
-  {
     "id": "042951",
     "source_cn": "“破晓号”的原型是一艘曾航行在海上的船。",
     "ref_en": "The prototype of the \"Dawn\" was a ship that once sailed on the sea.",
@@ -18514,12 +18472,6 @@
     "source_cn": "·激活本开关后，若封印物触发效果需额外按键手动施放，一键辅助启用时将自动释放该效果。\\n·单独开启本开关仅解锁封印物触发效果的自动释放权限，仍需开启一键辅助功能方可正常生效。",
     "ref_en": "· After activating this switch, if a Sealed Artifact's triggered effect requires an additional manual button press, it will be automatically released when One-tap Support is enabled. \\n · Turning on this switch alone only unlocks the automatic release permission for Sealed Artifact triggered effects; you still need to enable the One-tap Support function for it to take effect normally.",
     "target_ru": "· При включении этого переключателя, если эффект Запечатанного Артефакта требует ручной активации отдельной клавишей, он будет автоматически применяться при включённой функции поддержки в одно касание.\n· Включение только этого переключателя лишь разрешает автоматическое применение триггерных эффектов Запечатанного Артефакта; для его работы необходимо также включить функцию поддержки в одно касание."
-  },
-  {
-    "id": "043086",
-    "source_cn": "“%d”级封印物最多生效%d词条效果",
-    "ref_en": "'%d' Grade Sealed Artifact can have at most %d entry effects active",
-    "target_ru": "'%d' Grade Запечатанный артефакт can have at most %d entry effects active"
   },
   {
     "id": "043087",
@@ -20892,12 +20844,6 @@
     "target_ru": "Тема"
   },
   {
-    "id": "043482",
-    "source_cn": "之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。",
-    "ref_en": "The Sealed Artifact 'Dexterous Fingers' crafted by the Tarot Club's artisan can steal thoughts from a person's brain; we could try stealing his desire to strive.",
-    "target_ru": "The Запечатанный артефакт 'Dexterous Fingers' crafted by the Клуб Таро's artisan can steal thoughts from a person's brain; we could try stealing his desire to strive."
-  },
-  {
     "id": "043483",
     "source_cn": "五",
     "ref_en": "Five",
@@ -22462,12 +22408,6 @@
     "source_cn": "一位不愿透露姓名的民俗研究者",
     "ref_en": "A folklore researcher who wishes to remain anonymous",
     "target_ru": "Исследователь фольклора, пожелавший остаться анонимным"
-  },
-  {
-    "id": "043744",
-    "source_cn": "不处于途径转换的冷却期",
-    "ref_en": "Not in the cooldown period for pathway conversion",
-    "target_ru": "Not in the Перезарядка period for pathway conversion"
   },
   {
     "id": "043745",
@@ -25566,12 +25506,6 @@
     "target_ru": "[Майское поместье] — [Верующий номер один] — усиление прерывания соединения 1"
   },
   {
-    "id": "044261",
-    "source_cn": "【秘偶技】星之虫-奇迹牌雨",
-    "ref_en": "[Marionette Skill] Worm of Star - Miracle Card Rain",
-    "target_ru": "[Марионетка Skill] Worm of Star - Miracle Card Rain"
-  },
-  {
     "id": "044262",
     "source_cn": "三级防御跑塔",
     "ref_en": "Level 3 Defense Tower",
@@ -26308,12 +26242,6 @@
     "source_cn": "不错，很听劝，我们分头行动。记住，我们在守护廷根。",
     "ref_en": "Good, very sensible. Let's split up. Remember, we are guarding Tingen.",
     "target_ru": "Хорошо, очень разумно. Давай разделимся. Помните, мы охраняем Тинген."
-  },
-  {
-    "id": "044385",
-    "source_cn": "不，污染还没有彻底消失——画的深处还藏着什么东西！",
-    "ref_en": "No, the corruption hasn't completely disappeared—there is still something hidden deep within the painting!",
-    "target_ru": "No, the Искажение hasn't completely disappeared—there is still something hidden deep within the painting!"
   },
   {
     "id": "044386",
@@ -28528,12 +28456,6 @@
     "source_cn": "ALS走路降速10%",
     "ref_en": "ALS Walking Speed Reduction 10%",
     "target_ru": "Снижение скорости ходьбы при БАС на 10 %"
-  },
-  {
-    "id": "044755",
-    "source_cn": "Obtain 1 Beyonder material with the {天灾化身} entry",
-    "ref_en": "Obtain 1 Beyonder material with the {Scourge Avatar} entry",
-    "target_ru": "Obtain 1 Потусторонний material with the {Scourge Avatar} entry"
   },
   {
     "id": "044756",

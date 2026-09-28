@@ -248,7 +248,6 @@ return {
     ["You can use tokens obtained from gacha and dismantling partner fragments to exchange for items in the shop."] = "Вы можете использовать жетоны, полученные от гачи и разборки партнерских фрагментов, для обмена на предметы в магазине.",
     ["Solar Energy - Defense"] = "Солнечная энергия – оборона",
     ["Phantom Fragrance"] = "Призрачный аромат",
-    ["Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Damage Reduction."] = "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Снижение урона.",
     ["How to clear the Wailing Black Market"] = "Как очистить Воющий Черный Рынок",
     ["Although it's quite interesting to see them become reality..."] = "Хотя довольно интересно видеть, как они становятся реальностью...",
     ["Chase Atmosphere 8"] = "Атмосфера погони 8",

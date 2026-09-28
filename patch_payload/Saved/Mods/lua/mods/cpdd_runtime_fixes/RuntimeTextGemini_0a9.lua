@@ -240,7 +240,6 @@ return {
     ["You do look a bit like the Master."] = "Ты немного похож на Мастера.",
     ["Johnsen"] = "Джонсен",
     ["Nono"] = "Ноно",
-    ["Good afternoon! Miss \"Justice,\" Miss \"Magician,\" Mr. \"The Star,\" why are you all here?"] = "Good afternoon! Miss \"Justice,\" Miss \"Фокусник,\" Mr. \"The Star,\" why are you all here?",
     ["Selsa "] = "Сельса",
     ["Mithril Bastion"] = "Мифриловый бастион",
     ["Ah, Mr. Cours!"] = "Ах, господин Курс!",

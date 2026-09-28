@@ -77,8 +77,6 @@ return {
     ["《谷物法案》废除后，国内恢复了费内波特、马锡、伦堡等国粮食谷物的进口，使农产品价格下降……"] = "После отмены хлебных законов страна возобновила импорт зерна и круп из таких стран, как Фейсак, Масин и Ленбург, что привело к падению цен на сельскохозяйственную продукцию...",
     ["【00】用梦境装下"] = "【00】Содержать мечту",
     ["【自走棋】--乌龟-圆形AOE"] = "[Автошахматы] — Черепаха — Круговой АОЕ",
-    ["【自走棋】-西尔维娅-普攻-蔓花毒刺"] = "[Auto-Chess] - Sylvia - Базовая атака - Vine Flower Poison Sting",
-    ["一叠泛黄的手稿，记载着窥秘人的冥想方法、灵性感知进阶技巧，以及关于隐匿贤者的研究。"] = "A stack of yellowed manuscripts recording meditation methods for Подглядывающий за Тайнамиs, advanced techniques for spiritual perception, and research on the Hidden Sage.",
     ["一名工人跑了过来"] = "Рабочий наезжает",
     ["专为学徒设计"] = "Предназначен для учеников",
     ["东南1"] = "Юго-восток 1",
@@ -274,5 +272,7 @@ return {
     ["I have no objection, but you still have to convince Meg. Our club's rule is: for any book purchased jointly, all four people must agree."] = "Я не против, но тебе всё же нужно убедить Мег. Правило нашего клуба таково: если книга покупается совместно, все четверо должны согласиться.",
     ["在特别执勤模式中，每次进入都会面对不同的案件。"] = "В режиме «Особое дежурство» каждый вход сталкивает вас с новым делом.",
     ["开启高帧率模式时推荐降低画质，否则容易引起设备发热、耗电增加"] = "При включении режима высокой частоты кадров рекомендуется снизить качество графики, иначе устройство может перегреваться и увеличится расход энергии",
+    ["【自走棋】-西尔维娅-普攻-蔓花毒刺"] = "[Auto-Chess] - Sylvia - Basic Attack - Vine Flower Poison Sting",
+    ["一叠泛黄的手稿，记载着窥秘人的冥想方法、灵性感知进阶技巧，以及关于隐匿贤者的研究。"] = "A stack of yellowed manuscripts recording meditation methods for Mystery Pryers, advanced techniques for spiritual perception, and research on the Hidden Sage.",
     ["Adler"] = "Адлер",
 }

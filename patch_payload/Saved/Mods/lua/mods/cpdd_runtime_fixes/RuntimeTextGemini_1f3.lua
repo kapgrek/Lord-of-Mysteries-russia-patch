@@ -65,7 +65,6 @@ return {
     ["VIP徽章\r\n在她手里"] = "VIP-значок\r\nу нее в руках",
     ["gUID  = 想要摧毁的特效"] = "gUID = эффект для уничтожения.",
     ["{\n\"RUN\": \"0\",\n\"WALK\": \"1\",\n\"SPRINT(疾跑)\": \"2\"\n}"] = "{\n\"БЕГ\": \"0\",\n\"ХОДЬБА\": \"1\",\n\"СПРИНТ\": \"2\"\n}",
-    ["一个质感厚重的小箱子，里面装着一些奇异的材料：银色花纹的锡罐、装着黑色粉末的试管、深色小瓶等等。材料们摆得整整齐齐，箱子上有写着“占卜家魔药材料”的标签。"] = "A heavy, sturdy small box containing some strange materials: tin cans with silver patterns, test tubes filled with black powder, dark vials, and more. The materials are arranged neatly, and the box has a label that reads \"Провидец Potion Materials.\"",
     ["一切的开端"] = "Начало всего",
     ["一只布袋"] = "Тканевая сумка",
     ["上次的木雕还在抽屉里，摆出来看看。"] = "Резьба по дереву из прошлого раза все еще в ящике. Давайте выложим и посмотрим.",
@@ -219,7 +218,6 @@ return {
     ["Judge"] = "Судья",
     ["Yanyue"] = "Яньюэ",
     ["Apprentice Level 30 Orange Equipment Stats"] = "Характеристики оранжевого снаряжения ученика 30-го уровня",
-    ["...It seems the guidance of fate has already descended. Today, it is still suitable for you to enter the club and find a real divination master to perform a divination."] = "...It seems the guidance of fate has already descended. Today, it is still suitable for you to enter the club and find a real Гадание master to perform a Гадание.",
     ["Defense +1890, Skill Block +630"] = "Защита +1890, Блокировка навыков +630",
     ["Alright. If only I had kept those notes properly, I miss her so much."] = "Хорошо. Если бы я только вела эти записи должным образом, я так по ней скучаю.",
     ["Level 60 World Boss Normal 10% HP"] = "Мировой босс 60 уровня, нормальный, 10% здоровья.",
@@ -262,5 +260,6 @@ return {
     ["<Assistant_Title1>初启战端</>\n<Assistant_Title2>成就分类：</>以战养战-势力\n<Assistant_Title2>解锁条件：</>作为会长成功发起俱乐部宣战1次。"] = "<Assistant_Title1>Начало военных действий</>\n<Assistant_Title2>Категория достижения: </>Война ради войны - Фракция\n<Assistant_Title2>Условие разблокировки: </>Успешно инициировать объявление войны клуба в качестве президента 1 раз.",
     ["操控效果持续时间增加为2.5秒，受影响的其他敌人在操控效果生效瞬间附加禁锢1秒。"] = "Длительность эффекта контроля увеличивается до 2.5 сек., другие затронутые враги дополнительно получают Заключение на 1 сек. в момент срабатывания эффекта контроля.",
     ["Hour hand forward two ticks Phantom Shadow"] = "Призрачная тень: часовая стрелка вперёд на два деления",
+    ["一个质感厚重的小箱子，里面装着一些奇异的材料：银色花纹的锡罐、装着黑色粉末的试管、深色小瓶等等。材料们摆得整整齐齐，箱子上有写着“占卜家魔药材料”的标签。"] = "A heavy, sturdy small box containing some strange materials: tin cans with silver patterns, test tubes filled with black powder, dark vials, and more. The materials are arranged neatly, and the box has a label that reads \"Seer Potion Materials.\"",
     ["前往指定Trigger位置  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放情绪音乐（仅自己可听）"] = "Перейти в указанную точку триггера  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок воспроизводит эмоциональную музыку (слышно только себе)",
 }

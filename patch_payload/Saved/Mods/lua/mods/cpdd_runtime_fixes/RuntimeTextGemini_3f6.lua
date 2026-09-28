@@ -99,7 +99,6 @@ return {
     ["Item Binding Type"] = "Тип привязки элемента",
     ["Stage curtain normal state"] = "Занавес сцены в нормальном состоянии",
     ["Dragon's Legacy"] = "Наследие Дракона",
-    ["【Seer】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus."] = "【Провидец】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus.",
     ["[Marionette Skill] Druid Spirit Body - Bullet LV1"] = "[Марионетка Skill] Druid Духовное тело - Bullet LV1",
     ["Interface Appearance System"] = "Система внешнего вида интерфейса",
     ["So hungry... Cindy, I'll go home after I finish watching the part where 'Flame' Danitz joins the team and becomes Gehrman's partner!"] = "Так голоден... Синди, я пойду домой после того, как досмотрю ту часть, где «Пламя» Даниц присоединяется к команде и становится партнером Германа!",

@@ -237,7 +237,6 @@ return {
     ["Pass the Parcel"] = "Передать посылку",
     ["%s - Fine Wine Promotion"] = "%s – Акция на изысканное вино",
     ["No group photos yet"] = "Групповых фотографий пока нет",
-    ["[True Form] After releasing the second-stage skill gray fog Blessing or gray fog Suppression, reduce the Cooldown of own Cleanse skills by 3 seconds."] = "[True Form] After releasing the second-stage skill gray fog Blessing or gray fog Suppression, reduce the Перезарядка of own Снятие контроляs by 3 seconds.",
     ["{{PlayerName}}, it's you! What a coincidence!"] = "{{PlayerName}}, это ты! Какое совпадение!",
     ["Railway Tycoon weekly earnings ranking entered provincial top 100 and single-game final performance reached 100,000."] = "Рейтинг еженедельных доходов Railway Tycoon вошел в топ-100 провинции, а итоговые результаты в одной игре достигли 100 000.",
     ["Ice cream brought by \"Good Luck\" is also ice cream that can bring good luck!"] = "Мороженое, принесенное «Удачей» – это тоже мороженое, способное принести удачу!",

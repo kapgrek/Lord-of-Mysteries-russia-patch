@@ -94,7 +94,6 @@ return {
     ["<Highlight>工艺：</>利落剪裁・肃整无饰\n深蓝色经典制服，修长利落的战场剪影，代表秩序的开端。"] = "<Highlight>Мастерство: </>Строгий покрой · Сдержанная лаконичность\nКлассическая тёмно-синяя униформа, подчёркивающая строгий силуэт на поле брани — символ зарождения Порядка.",
     ["<Highlight>引导军团士兵互相撞击</>。"] = "<Highlight>Управляйте солдатами легиона, чтобы они столкнулись друг с другом</>.",
     ["<Highlight>非凡途径</>又称<Highlight>神之途径</>，是一套以魔药为核心的晋升体系。"] = "<Highlight>Потусторонний Pathway</>, также известный как <Highlight>God's Pathway</>, представляет собой систему развития, основанную на зельях.",
-    ["<P_Heart>（1万镑？！按照班森之前的周薪，需要工作208年才能赚到1万镑。这金额即使在贝克兰德，也可以做个富翁了！）</>"] = "<P_Heart> (10,000 pounds?! Based on Benson's previous weekly salary, it would take 208 years to earn 10,000 pounds. This amount of money could make one a rich person even in Бэкланд!) </>",
     ["<h>坐下</>享受美食"] = "<h>Сядьте</> и наслаждайтесь едой",
     ["CBT2世界BOSS39"] = "Мировой босс CBT2 39",
     ["Defense <Highlight>Mutated Material</> with the affix <Highlight><混乱行者></>: \"All Skill levels +1, Health increased.\""] = "Защита <Highlight>Мутированный материал</> с аффиксом <Highlight><Chaos Walker></>: «Все уровни навыков +1, здоровье увеличено».",
@@ -234,7 +233,6 @@ return {
     ["It won't pay attention to you."] = "Оно не обратит на вас внимания.",
     ["Player waypoint"] = "Путевая точка игрока",
     ["Hmm, are the potion formula and materials ready?"] = "Хм, а формула зелья и материалы готовы?",
-    ["Might as well try divination with a dowsing rod."] = "Might as well try Гадание with a dowsing rod.",
     ["以知识辉耀对敌方全体造成<Yellow>208</>点攻击伤害。随后随机获得<HighLight>25%</>攻击，持续<HighLight>6</>秒，或立即恢复<HighLight>45</>点法力。"] = "Озаряет поле Сиянием знаний, нанося <Yellow>208</> ед. урона от атаки всем врагам. Затем случайно получает +<HighLight>25%</> к атаке на <HighLight>6</> сек. или мгновенно восстанавливает <HighLight>45</> ед. маны.",
     ["Each unique <HighLight>3</>-star piece: All allies +<HighLight>3%</> Attack and <HighLight>5</> Defense."] = "Каждая уникальная <HighLight>3</>-звёздочная фигура: всем союзникам +<HighLight>3%</> атаки и <HighLight>5</> защиты.",
     ["随机获得2个二星5费棋子。每个独立随机。"] = "Случайным образом даёт 2 двухзвёздочные фигуры за 5 золотых. Каждая выбирается независимо.",
@@ -251,6 +249,7 @@ return {
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 5 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 5 маны",
     ["pvp应该培养什么属性？"] = "Какие характеристики следует развивать для PvP?",
     ["先生！请您冷静些，否则我就要报警了！"] = "Сударь! Пожалуйста, успокойтесь, иначе я вызову полицию!",
+    ["<P_Heart>（1万镑？！按照班森之前的周薪，需要工作208年才能赚到1万镑。这金额即使在贝克兰德，也可以做个富翁了！）</>"] = "<P_Heart> (10,000 pounds?! Based on Benson's previous weekly salary, it would take 208 years to earn 10,000 pounds. This amount of money could make one a rich person even in Backlund!) </>",
     ["采集指定TemplateID的采集物  玩家播放剧情对话  玩家发送任务道具"] = "Сбор ресурса с указанным TemplateID; воспроизведение сюжетного диалога; отправка квестового предмета игроком",
     ["Command Resources:"] = "Командные ресурсы:",
 }

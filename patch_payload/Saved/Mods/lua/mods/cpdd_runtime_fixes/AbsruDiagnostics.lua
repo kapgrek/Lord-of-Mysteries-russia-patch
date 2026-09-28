@@ -1196,6 +1196,62 @@ function D.NoteTextSkip(widget, text, reason)
     end
 end
 
+-- Arguments of the late-label args hooks (NPCTalkTextComp, TASK-023 R1): a
+-- string (then lateLabelArgs could translate it) or an ID / table (the text
+-- is read inside). Up to 50 unique calls -> session.json probes.npc_args[]:
+-- { method, types = "string,number", args = [{ type, before, after, value, keys }] }.
+function D.NoteNpcArgs(method, count, before, after)
+    local NPC_ARGS_MAX, NPC_ARGS_TEXT, NPC_ARGS_KEYS = 50, 80, 8
+    if S.disabled or type(before) ~= "table" then
+        return
+    end
+    local list = S.probes.npc_args
+    if list ~= nil and #list >= NPC_ARGS_MAX then
+        return
+    end
+    local types, items, first = {}, array(), ""
+    for index = 1, math.min(tonumber(count) or 0, 16) do
+        local value = before[index]
+        local kind = type(value)
+        types[#types + 1] = kind
+        local item = { type = kind }
+        if kind == "string" then
+            item.before = clip(value, NPC_ARGS_TEXT)
+            local changed = type(after) == "table" and after[index] or nil
+            if type(changed) == "string" and changed ~= value then
+                item.after = clip(changed, NPC_ARGS_TEXT)
+            end
+            if first == "" then first = item.before end
+        elseif kind == "number" or kind == "boolean" then
+            item.value = tostring(value)
+        elseif kind == "table" then
+            local keys = array()
+            for key in pairs(value) do
+                keys[#keys + 1] = clip(tostring(key), NPC_ARGS_TEXT)
+                if #keys >= NPC_ARGS_KEYS then break end
+            end
+            item.keys = keys
+        end
+        items[#items + 1] = item
+    end
+    local typeList = table.concat(types, ",")
+    local key = tostring(method) .. "|" .. typeList .. "|" .. first
+    S.npcArgsSeen = S.npcArgsSeen or {}
+    if S.npcArgsSeen[key] then
+        return
+    end
+    S.npcArgsSeen[key] = true
+    if list == nil then
+        list = array()
+        S.probes.npc_args = list
+    end
+    list[#list + 1] = { t = stamp("%H:%M:%S"), method = tostring(method), types = typeList, args = items }
+    S.flushSoon = true
+    if #list == 1 then
+        warn("[AbsruDiag] probe npcargs n=1 " .. tostring(method) .. " (" .. typeList .. ")")
+    end
+end
+
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
 -- last Refresh of the Settings_*_Item classes (class-level wrappers found on
 -- instances at UIComponent.Open) and each panel pass with its style_changes.

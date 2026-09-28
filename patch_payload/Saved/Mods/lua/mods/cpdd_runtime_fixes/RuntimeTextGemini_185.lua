@@ -33,7 +33,6 @@ return {
     ["Various spices are displayed on the wooden rack; one can tell the owner's taste by their consumption."] = "На деревянной стойке выставлены различные специи; по потреблению можно определить вкус владельца.",
     ["Ooh ooh ooh wah wah wah"] = "Ох ох ох ва ва ва",
     ["Sniper Shot"] = "Снайперский выстрел",
-    ["I wonder if there are any Beyonder cases to handle recently. Let's head back to Blackthorn Security to check."] = "I wonder if there are any Потусторонний cases to handle recently. Let's head back to Blackthorn Security to check.",
     ["Inner Mongolia Autonomous Region"] = "Автономный район Внутренняя Монголия",
     ["Fashion Contest grouping"] = "Группа конкурса моды",
     ["Enter spirit body threads search phase"] = "Войдите в фазу поиска нитей духовного тела.",

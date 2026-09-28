@@ -257,7 +257,6 @@ return {
     ["Turn off Street Lamp"] = "Выключить уличный фонарь",
     ["Do not accept this kind of restart."] = "Не принимайте такой перезапуск.",
     ["<M_Default> Dear Beyonder: </>\n<M_Default> Congratulations on ranking in the top 100 nationwide for your profession in the Moment of Fate. You have been awarded an honorary title. You can go to </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Menu - Character - Title Interface] </><M_Default> to use it. </>"] = "<M_Default> Дорогой Необыкновенный: </>\n<M_Default> Поздравляем вас с попаданием в число 100 лучших игроков вашей профессии в национальном рейтинге в игровом процессе Destiny Moment. Вы получите особое почетное звание, которое можно использовать, перейдя в </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Интерфейс Меню-Символ-Титул] </><M_Default>. </>",
-    ["Miss Magician? Are you... alright? Do you need any help?"] = "Miss Фокусник? Are you... alright? Do you need any help?",
     ["An eye of unknown origin, possessing the power to see through the human heart."] = "Глаз неизвестного происхождения, обладающий способностью видеть сквозь человеческое сердце.",
     ["Mr. Mori, what are you doing?"] = "Господин Мори, что вы делаете?",
     ["Wooden Horse Knight?"] = "Деревянный конь-рыцарь?",

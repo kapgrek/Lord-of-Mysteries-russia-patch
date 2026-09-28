@@ -262,7 +262,6 @@ return {
     ["Connection Chat Topic - Old Neil 1"] = "Тема чата Connection - Старина Нил 1",
     ["White line - Counter-clockwise carriage B16"] = "Белая линия — каретка против часовой стрелки B16",
     ["Book Cover"] = "Обложка книги",
-    ["Abaddon's Attack and Attack Speed increased by 3%, stacking up to 5 times."] = "Abaddon's Attack and Скорость атаки increased by 3%, stacking up to 5 times.",
     ["The family now relies entirely on Benson, who works as a clerk, to support us. It's really hard to support two younger siblings who are still in school at the same time..."] = "Теперь семья полностью полагается на Бенсона, который работает клерком. Очень сложно содержать двух младших братьев и сестер, которые одновременно учатся в школе...",
     ["Hunting Loot"] = "Охотничья добыча",
     ["Spawn Point·Arnold's House"] = "Точка появления · Дом Арнольда",

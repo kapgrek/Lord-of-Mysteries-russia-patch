@@ -58,9 +58,7 @@ return {
     ["【副本测试】46级属性"] = "[Испытание в подземелье] Статистика 46 уровня",
     ["【秘偶技】猎犬冲锋-引用hit"] = "[Марионетка Skill] Hound Charge - Reference Hit",
     ["【边界】迷雾起点路段"] = "[Граница] Начальный сегмент пути из тумана",
-    ["一定是<P_Yellow>赛琳娜</>寄来的，她说过要邀请我们一家人去参加晚宴，还说学习了新占卜要展示给我看。"] = "It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new Гадание to show me.",
     ["万都之都号承诺：您将体验全鲁恩最优雅的航行，祝您旅途愉快。"] = "Город городов обещает: вас ждет самое элегантное путешествие во всем Лоене. Приятного путешествия.",
-    ["不过他们估计也没想到，作为首领的“愚者”，竟然才刚刚消化完“占卜家”魔药。"] = "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Провидец' potion.",
     ["为你提供相当于你最大生命值20%的护盾。此护盾每30秒刷新一次。"] = "Обеспечивает щит, эквивалентный 20% вашего максимального здоровья. Этот щит обновляется каждые 30 секунд.",
     ["五月庄园也出现异常   \r\n部分工人失踪\r\n庄园的“夫人”和“管家”\r\n也都是月亮仆从成员"] = "В Поместье Мэй тоже творится неладное...\r\nНесколько рабочих пропали без вести.\r\n«Хозяйка» и «дворецкий» поместья —\r\nтоже сектанты из культа Слуг Луны.",
     ["什么样的梦？我始终相信在黑夜的王国里，梦境通常是女神的昭示。"] = "Что за мечта? Я всегда верил, что в царстве ночи сны – это обычно откровения Богини.",
@@ -259,6 +257,8 @@ return {
     ["No, you were the one who brought it up first... Right, cough cough, what is your purpose in saying this? What is the motive? Who instigated you? Were you bewitched by some dangerous entity? Come with me!"] = "Нет, это вы первым заговорили об этом... Так, кхм-кхм, с какой целью вы это сказали? Какой у вас мотив? Кто вас подстрекал? Может, вас околдовала какая-то опасная сущность? Пойдёмте со мной!",
     ["Dicy pie? Lamb stew with peas? ...Or perhaps braised Dargua beef short ribs?"] = "Пирог «Дайси»? Тушёная баранина с горошком? ...А может, тушёные говяжьи рёбрышки Даргуа?",
     ["Ah?"] = "А?",
+    ["一定是<P_Yellow>赛琳娜</>寄来的，她说过要邀请我们一家人去参加晚宴，还说学习了新占卜要展示给我看。"] = "It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new divination to show me.",
+    ["不过他们估计也没想到，作为首领的“愚者”，竟然才刚刚消化完“占卜家”魔药。"] = "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Seer' potion.",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

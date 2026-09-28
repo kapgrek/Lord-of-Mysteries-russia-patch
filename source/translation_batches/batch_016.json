@@ -3018,12 +3018,6 @@
     "target_ru": "【Клуб Таро · Рыцарь-лучник】Прирост 3-го уровня (+15%) → совокупно 114%"
   },
   {
-    "id": "075503",
-    "source_cn": "【浅见】梦魇突袭命中目标后减少目标护盾一定值，若目标不存在护盾，则该技能额外削弱目标技能抵挡。",
-    "ref_en": "[Insight] After Nightmare Assault hits a target, it reduces the target's Shield by a certain value. If the target does not have a Shield, this skill additionally weakens the target's Skill Block.",
-    "target_ru": "[Insight] After Кошмар Assault hits a target, it reduces the target's Shield by a certain value. If the target does not have a Shield, this skill additionally weakens the target's Блок навыков."
-  },
-  {
     "id": "075504",
     "source_cn": "一次占卜，一个巧合。",
     "ref_en": "A divination, a coincidence.",
@@ -3754,12 +3748,6 @@
     "source_cn": "“正义”女士",
     "ref_en": "Ms. “Justice”",
     "target_ru": "Мисс «Справедливость»"
-  },
-  {
-    "id": "075626",
-    "source_cn": "不以血缘相连，却以誓言共筑。在这个非凡与疯狂并存的世界里，你选择了最珍贵的事——相信彼此。",
-    "ref_en": "Not connected by blood, but built together by oaths. In this world where the extraordinary and madness coexist, you have chosen the most precious thing—trusting each other.",
-    "target_ru": "Not connected by blood, but built together by oaths. In this world where the extraordinary and Безумие coexist, you have chosen the most precious thing—trusting each other."
   },
   {
     "id": "075627",
@@ -5896,12 +5884,6 @@
     "source_cn": "【五月庄园】-【一号信徒】- 移动护盾打碎buff",
     "ref_en": "[May Manor] - [Believer Number One] - Moving Shield Break Buff",
     "target_ru": "[Майское поместье] - [Верующий номер один] - усиление подвижного прорыва щита"
-  },
-  {
-    "id": "075983",
-    "source_cn": "一枚连接着精细链条的水晶吊坠，是灵摆占卜的上佳媒介。",
-    "ref_en": "A crystal pendant connected to a fine chain, an excellent medium for Pendulum Divination.",
-    "target_ru": "A crystal pendant connected to a fine chain, an excellent medium for Pendulum Гадание."
   },
   {
     "id": "075984",
@@ -10470,12 +10452,6 @@
     "target_ru": "[Тест] Разработка в один клик 35 уровня для мелких трат"
   },
   {
-    "id": "076745",
-    "source_cn": "【秘偶技】异化赛琳娜-刺击-代理技能",
-    "ref_en": "[Marionette Skill] Alienated Selena - Stab - Agent Skill",
-    "target_ru": "[Марионетка Skill] Alienated Selena - Stab - Agent Skill"
-  },
-  {
     "id": "076746",
     "source_cn": "【自走棋】-\"钻头\"-普攻-刺击",
     "ref_en": "[Auto-Chess] - \"Drill\" - Basic Attack - Stab",
@@ -11788,12 +11764,6 @@
     "source_cn": "【Rougue】观众-意识操纵",
     "ref_en": "[Roguelike] Spectator - Consciousness Manipulation",
     "target_ru": "[Roguelike] Зритель — Манипуляция сознанием"
-  },
-  {
-    "id": "076965",
-    "source_cn": "上次您帮安娜占卜的事情，已经在俱乐部传开了。",
-    "ref_en": "The divination you did for Anna last time has already spread throughout the club.",
-    "target_ru": "The Гадание you did for Anna last time has already spread throughout the club."
   },
   {
     "id": "076966",
@@ -13222,12 +13192,6 @@
     "source_cn": "“白蔷薇夫人”",
     "ref_en": "“Lady White Rose”",
     "target_ru": "«Леди Белая Роза»"
-  },
-  {
-    "id": "077204",
-    "source_cn": "……<P_Heart>（邓恩先生那样的非凡者？不，我并不是，我也想知道。）</>",
-    "ref_en": "...<P_Heart> (A Beyonder like Mr. Dunn? No, I am not, and I want to know too.)</>",
-    "target_ru": "...<P_Heart> (A Потусторонний like Mr. Dunn? No, I am not, and I want to know too.)</>"
   },
   {
     "id": "077205",
@@ -16024,12 +15988,6 @@
     "source_cn": "<P_Heart>（竟然是预先留给我的信……“魔术师”小姐的非凡能力太惊人了……）</>",
     "ref_en": "<P_Heart>(To think she left a letter for me in advance... Miss Magician's Beyonder abilities are truly astonishing...)</>",
     "target_ru": "<P_Heart>(Подумать только, она заранее оставила мне письмо... Способности Мисс Волшебницы Потустороннего действительно поразительны...)</>"
-  },
-  {
-    "id": "077671",
-    "source_cn": "{{player.name}}刚刚完成了一次价值超过两百万的<Chat_Highlight>铁路大亨之旅</>，让我们恭喜这位非凡者，这段由谋略与运气交织而成的故事，才刚刚开始。",
-    "ref_en": "{{player.name}} has just completed a <Chat_Highlight>Railroad Tycoon Journey</> worth over two million. Let us congratulate this Beyonder; this story, woven from strategy and luck, has only just begun.",
-    "target_ru": "{{player.name}} has just completed a <Chat_Highlight>Railroad Tycoon Journey</> worth over two million. Let us congratulate this Потусторонний; this story, woven from strategy and luck, has only just begun."
   },
   {
     "id": "077672",
@@ -23388,12 +23346,6 @@
     "target_ru": "Время восстановления группы Ковенанта. Повторите попытку позже."
   },
   {
-    "id": "078898",
-    "source_cn": "好了，即使有人来这里，也不会被污染影响了。",
-    "ref_en": "Alright, even if someone comes here, they won't be affected by the corruption.",
-    "target_ru": "Alright, even if someone comes here, they won't be affected by the Искажение."
-  },
-  {
     "id": "078899",
     "source_cn": "子实体ID",
     "ref_en": "Sub-entity ID",
@@ -25492,12 +25444,6 @@
     "source_cn": "【实证】明灯的护盾量增加10%，爆炸伤害增加30%。",
     "ref_en": "[Proof] Beacon's Shield amount increased by 10%, Explosion damage increased by 30%.",
     "target_ru": "[Доказательство] Мощность щита маяка увеличена на 10%, урон от взрыва увеличен на 30%."
-  },
-  {
-    "id": "079249",
-    "source_cn": "【本相】梦魇命中后生成的仪式魔法会扩大两次，造成的伤害也会相应提高。",
-    "ref_en": "[True Form] The Ritual Magic generated after Nightmare hits will expand twice, and the damage dealt will increase accordingly.",
-    "target_ru": "[True Form] The Ritual Magic generated after Кошмар hits will expand twice, and the damage dealt will increase accordingly."
   },
   {
     "id": "079250",

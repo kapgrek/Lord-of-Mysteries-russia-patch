@@ -183,7 +183,6 @@ return {
     ["Mrs. Julia"] = "миссис Джулия",
     ["Hengshui"] = "Хэншуй",
     ["This template has been deleted by the author and cannot be used for now."] = "Этот шаблон был удален автором и на данный момент не может быть использован.",
-    ["A survivor of disaster, a smear of corrupted knowledge. The closer one gets to the truth, the closer one gets to distortion and madness..."] = "A survivor of disaster, a smear of corrupted knowledge. The closer one gets to the truth, the closer one gets to distortion and Безумие...",
     ["Parameter 1: 1 represents enable, 0 or other: represents disable"] = "Параметр 1: 1 означает включение, 0 или другое: означает отключение.",
     ["Put in"] = "Путин",
     ["(And Debbie should get new glasses...)"] = "(И Дебби следует купить новые очки...)",

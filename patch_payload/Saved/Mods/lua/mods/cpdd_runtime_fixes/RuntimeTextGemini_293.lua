@@ -199,7 +199,6 @@ return {
     ["According to the instructions of the Gospel, I have excerpted these historical materials regarding the Sonia Sea."] = "По указанию Евангелия я собрал эти исторические материалы, касающиеся Сонского моря.",
     ["Carefulness, patience, and perseverance are all essential. So, who is going on stage?"] = "Важны осторожность, терпение и настойчивость. Итак, кто выйдет на сцену?",
     ["If this witch is real, I'm going to shove a fish that's been rotting for three days right up her nostrils!"] = "Если эта ведьма реальна, я засуну ей в ноздри гниющую уже три дня рыбу!",
-    ["Threads of spirituality extracted from the \"gaps of history,\" entwined with countless possible fates."] = "Threads of Духовность extracted from the \"gaps of history,\" entwined with countless possible fates.",
     ["Auction Record"] = "Аукционный рекорд",
     ["Use to obtain <Highlight>Astrolabe's Judgment Top</>"] = "Используйте, чтобы получить <Highlight>Правосудие Астролябии Top</>.",
     ["Head to the Police Station"] = "Отправляйтесь в полицейский участок",

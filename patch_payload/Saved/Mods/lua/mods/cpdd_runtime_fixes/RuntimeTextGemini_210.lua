@@ -89,7 +89,6 @@ return {
     ["【五月庄园】-【一号信徒】- 123木头人标记buff"] = "[Поместье Мэй] - [Верующий номер один] - Стань деревом! Марк Бафф",
     ["【位置】家-玛丽琳移动"] = "[Местоположение] Дом - Движение Мэрилин",
     ["【塔罗会·弓箭骑士】档6增量(+25%)→累计190%"] = "【Клуб Таро · Рыцарь-лучник】Прирост 6 уровня (+25%) → совокупно 190%",
-    ["一号信徒一阶段减伤Buff移除破碎"] = "Believer Number One Stage 1 Снижение урона buff removal shatter",
     ["三段：长6米宽3米的矩形区域"] = "3-й этап: прямоугольная область длиной 6 м и шириной 3 м",
     ["上传C7.log至中台服务"] = "Загрузите C7.log в центральную службу.",
     ["不行，这样擦不干净，需要拿东西遮挡一下。"] = "Нет, оно не будет чистым, если я протру его вот так. Мне нужно чем-то прикрыть это.",
@@ -246,7 +245,6 @@ return {
     ["Enter the Mystic World"] = "Войдите в мистический мир",
     ["Feel like my stamina has recovered..."] = "Кажется, моя выносливость восстановилась...",
     ["Loen art—the best in the world—welcome to purchase—"] = "Лоэн art — лучшее в мире — добро пожаловать на покупку —",
-    ["[Deprecated] Spectator Attack Form: 10% Damage Boost against targets with Insight Vulnerability status"] = "[Deprecated] Зритель Attack Form: 10% Damage Boost against targets with Insight Vulnerability status",
     ["Rename Group"] = "Переименовать группу",
     ["Right Side"] = "Правая сторона",
     ["Actually, as a playwright, it's normal to experience emotional fluctuations while creating, but I've never heard of such severe hysteria as the teacher's."] = "Вообще-то, для драматурга нормально испытывать эмоциональные колебания во время творчества, но о такой сильной истерике, как у учителя, я еще не слышал.",
@@ -269,6 +267,7 @@ return {
     ["What \"cats and dogs in the shop,\" this is a complete scam!"] = "Что за «кошки и собаки в лавке», это же полное мошенничество!",
     ["Yes, they use names related to textiles, and only their leader has a decent name, called Hunter."] = "Да, они берут имена, связанные с текстилем, и только у их главаря приличное имя — Хантер.",
     ["Cast in brass, decorated with simple yet elegant patterns. Suitable for daily lighting and decoration."] = "Отлит из латуни, украшен простыми, но изящными узорами. Подходит для повседневного освещения и декора.",
+    ["一号信徒一阶段减伤Buff移除破碎"] = "Believer Number One Stage 1 damage reduction buff removal shatter",
     ["Liva"] = "Лива",
     ["Doors like this,\nthe lock core is never changed.\nOnce picked,\nit can be opened a second time."] = "Для таких дверей \n цилиндр замка никогда не меняется, \n открывает его один раз, а \n может открыть его второй раз.",
 }

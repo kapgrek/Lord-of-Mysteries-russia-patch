@@ -169,7 +169,6 @@ return {
     ["The steam pipe has started spewing fire on a large scale; focus fire on the valve to stop it."] = "Паровая труба начала массово извергать огонь; сосредоточьте огонь на клапане, чтобы остановить его.",
     ["Great Mr. Fool, please bless my thesis to pass!"] = "Великий Мистер Шут, пожалуйста, благословите мою диссертацию на успех!",
     ["Don't mention it, I don't rely on this to make money."] = "Не упоминайте об этом, я не полагаюсь на это, чтобы заработать деньги.",
-    ["The mystical item 'Fingers of Dexterity' crafted by the Tarot Club artisans can steal thoughts from the other person's brain. We can try that."] = "The mystical item 'Fingers of Dexterity' crafted by the Клуб Таро artisans can steal thoughts from the other person's brain. We can try that.",
     ["Summary"] = "Краткое содержание",
     ["Weekly"] = "Еженедельно",
     ["Club Promotion - Notice Board"] = "Акция клуба - Доска объявлений",

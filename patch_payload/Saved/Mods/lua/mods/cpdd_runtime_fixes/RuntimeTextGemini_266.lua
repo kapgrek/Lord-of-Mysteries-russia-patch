@@ -44,7 +44,6 @@ return {
     ["Invincible Brawl King"] = "Непобедимый король ссор",
     ["Bridal Carry (FF)"] = "Свадебная сумка (FF)",
     ["Dungeon - Sin of Gold"] = "Подземелье - Грех золота",
-    ["<P_Yellow>Clown</>: That guy... always thinks he is the master of the extraordinary, unaware that a single mistake is an abyss."] = "<P_Yellow>Клоун</>: That guy... always thinks he is the master of the extraordinary, unaware that a single mistake is an abyss.",
     ["Someone who was sober and healthy yesterday, and who we repeatedly confirmed had no remnants of evil spirits, could potentially strangle themselves at home after some time."] = "Кто-то, кто вчера был трезв и здоров и в ком, как мы неоднократно подтверждали, нет остатков нечистой силы, через некоторое время потенциально мог задушиться дома.",
     ["2nd floor air wall"] = "воздушная стена 2 этажа",
     ["Anthony Stevenson"] = "Энтони Стивенсон",

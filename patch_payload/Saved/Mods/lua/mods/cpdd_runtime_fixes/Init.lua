@@ -11920,6 +11920,9 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
                     local results
                     if classSpec.args then
                         local count, args = runtimeFixes.lateLabelArgs(...)
+                        -- TASK-023 R1: string or ID/table in the arguments (Diag only).
+                        local d = runtimeFixes.Diag
+                        if d and d.NoteNpcArgs then pcall(d.NoteNpcArgs, className .. "." .. name, count, { ... }, args) end
                         results = { original(self, unpack(args, 1, count)) }
                     else
                         results = { original(self, ...) }

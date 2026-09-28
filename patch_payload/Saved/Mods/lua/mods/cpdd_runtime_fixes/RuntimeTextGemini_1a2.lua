@@ -231,7 +231,6 @@ return {
     ["View Family"] = "Посмотреть семью",
     ["Steady Gentleman"] = "Устойчивый джентльмен",
     ["Bring Godot to find the boys"] = "Приведите Годо, чтобы найти мальчиков.",
-    ["“See Me” originates from the Hypnotist ability of the Spectator Pathway Sequence 6."] = "“See Me” originates from the Hypnotist ability of the Зритель Pathway Последовательность 6.",
     ["Crazy woman, what are you doing!"] = "Сумасшедшая женщина, что ты делаешь!",
     ["Ya Qi"] = "Я Ци",
     ["<Assistant_Title1>【Evernight Thorns】</>\n<Assistant_Title2>Description:</>God-Favored Outfit\n<Assistant_Title2>Use:</>After use, obtain the Evernight Thorns set; you can click <Assistant_System>Appearance-Change Outfit</> to view and use it, or exchange it for <Assistant_Red>2</> God-Favored Cards.\n<Assistant_Title2>Acquisition:</>Obtained via <Assistant_System>Summon-Spirit World Renewal</>, or exchanged in the <Assistant_System>Gifts of the Beauty God Shop</> using <Assistant_Red>2</> God-Favored Cards"] = "<Assistant_Title1>【Шипы Вечной Ночи】</>\n<Assistant_Title2>Описание: </>Любимый костюм Бога\n<Assistant_Title2>Использование:</>После использования вы получите костюм «Шипы Вечной Ночи». Вы можете нажать <Assistant_System>Внешний вид-Изменить</>, чтобы просмотреть и использовать ее, или обменять ее на <Assistant_Red>2</> Любимые карты Бога. \n<Assistant_Title2> Получено: </> Получено через <Assistant_System> Омоложение мира призыва-духов </> или погашено с помощью <Assistant_Red>2</> Карты Чжан Шэньфана в <Assistant_System> Магазине подарков «Бог красоты» </>",

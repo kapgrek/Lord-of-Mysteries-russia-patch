@@ -203,7 +203,6 @@ return {
     ["Blessing of War Intent"] = "Благословение военного намерения",
     ["Art Gallery NPC Female 8"] = "Художественная галерея NPC Женщина 8",
     ["Old Will Notice"] = "Старое заметит",
-    ["{{player.name}} has successfully performed a Requiem on {{targetPlayer.name}}. The other party's restless spirituality has returned to tranquility, restoring <Chat_Highlight>{{eventMessageParams.N}}</> points of Sanity. Praise the Goddess, for the destination of all things is peace!"] = "{{player.name}} has successfully performed a Requiem on {{targetPlayer.name}}. The other party's restless Духовность has returned to tranquility, restoring <Chat_Highlight>{{eventMessageParams.N}}</> points of Рассудок. Praise the Goddess, for the destination of all things is peace!",
     ["I am a bit afraid of heights, but I appreciate it."] = "Я немного боюсь высоты, но ценю это.",
     ["Taste the dishes"] = "Попробуйте блюда",
     ["Orianna - Cleaning"] = "Орианна - Уборка",

@@ -263,7 +263,6 @@ return {
     ["Who knows what happened?"] = "Кто знает, что произошло?",
     ["Hahahaha! Loser, loser, the whole world is full of losers!"] = "Ха-ха-ха! Неудачник, неудачник, весь мир полон неудачников!",
     ["Feynapotter northern sun"] = "Фейнапоттер северное солнце",
-    ["The three layers of spirituality of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow."] = "The three layers of Духовность of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow.",
     ["Secret Realm 2 - Minion Fight"] = "Secret Realm 2 — Битва миньонов",
     ["This quest step will automatically end after waiting 10s (this is rollback step 1)"] = "Этот этап квеста автоматически завершится после ожидания 10 секунд (это шаг отката 1).",
     ["At least you have completely eliminated the danger, and no one else will be harmed because of this, right?"] = "По крайней мере, вы полностью устранили опасность, и больше никто из-за этого не пострадает, верно?",

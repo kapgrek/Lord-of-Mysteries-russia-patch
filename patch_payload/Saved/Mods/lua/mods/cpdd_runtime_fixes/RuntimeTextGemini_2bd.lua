@@ -176,7 +176,6 @@ return {
     ["角落里的小盒子"] = "Маленькая коробочка в углу",
     ["触发范围半径, 在该范围内的对象才能接收到，当且仅当SendFlowchartTargetMode为 2 有效"] = "Радиус дальности срабатывания; его могут получить только объекты в этом диапазоне. Допустимо тогда и только тогда, когда SendFlowchartTargetMode имеет значение 2.",
     ["询问……"] = "Спрашиваю...",
-    ["豌豆魔法引导线灵视临时版"] = "Pea Magic Guide Line Spirit Vision Временная версия",
     ["贡献不足，无法购买"] = "Недостаточный вклад; не могу купить.",
     ["贸易战争-山脉药材"] = "Торговая война — горные травы",
     ["超载功能状态机1_初始状态"] = "Конечный автомат функции перегрузки 1_начальное состояние",
@@ -254,4 +253,5 @@ return {
     ["Refuse Fashion Duel - Riel Bieber"] = "Отклонить модный поединок — Риэль Бибер",
     ["西尔维娅·丰饶之树（普通）"] = "Сильвия · Древо изобилия (обычный)",
     ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight>True Knowledge of Holy Light</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
+    ["豌豆魔法引导线灵视临时版"] = "Pea Magic Guide Line Spirit Vision Temporary Version",
 }

@@ -198,7 +198,6 @@ return {
     ["May Manor_Offspring Protection_1 Target_Buff84008606"] = "ПоместьеМэй_ЗащитаПотомства_1Цель_Бафф84008606",
     ["Fanatic Zombie 4"] = "Фанатик-зомби 4",
     ["No more questions"] = "Больше никаких вопросов",
-    ["Claim this gift to receive an outfit or random gold pounds"] = "Claim this gift to receive an outfit or random золотых фунтов",
     ["O merciful deity who governs slumber and silence, You have bestowed this honor upon you—from now on, your name shall fall beyond all clamor."] = "О милосердное божество, управляющее сном и тишиной, Ты удостоил тебя этой чести – отныне твое имя затмевает всякий шум.",
     ["Pray to the Fool"] = "Молитесь Шуту",
     ["Blacklist limit reached!"] = "Достигнут лимит черного списка!",

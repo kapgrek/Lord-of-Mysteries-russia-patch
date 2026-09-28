@@ -183,7 +183,6 @@ return {
     ["Miss Belle! Are you in there?"] = "Мисс Белль! Ты там?",
     ["Excuse me, why are you resting in the Spirit World observation room?"] = "Простите, почему вы отдыхаете в наблюдательной комнате Мира Духов?",
     ["Craft Brewery Level 14"] = "Крафтовая пивоварня Уровень 14",
-    ["Participate in Dungeon, Competition, Identity Roleplay, and other gameplay to consume Vitality and claim rewards such as Equipment and Sealed Artifacts"] = "Participate in Dungeon, Competition, Identity Roleplay, and other gameplay to consume Vitality and claim rewards such as Equipment and Запечатанные артефакты",
     ["Cross the three broken bridges"] = "Пересеките три сломанных моста",
     ["Chongqing"] = "Чунцин",
     ["According to Article 97 of the school rules, no organization or individual is allowed to promote religion in school, let alone engage in religious activities!"] = "Согласно статье 97 школьных правил, ни одна организация или частное лицо не имеет права пропагандировать религию в школе, не говоря уже о том, чтобы заниматься религиозной деятельностью!",

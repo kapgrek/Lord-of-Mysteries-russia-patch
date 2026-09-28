@@ -42,7 +42,6 @@ return {
     ["Anomaly Event - Taste of the Witch - Supplement"] = "Аномальное событие — Вкус ведьмы — Дополнение",
     ["By the way, don't forget tomorrow's occult class."] = "Кстати, не забудь завтрашний урок оккультизма.",
     ["Correct Deduction"] = "Правильный вычет",
-    ["Not in the cooldown period for pathway conversion"] = "Not in the Перезарядка period for pathway conversion",
     ["As Derrick narrates, the history of the City of Silver seems to slowly unfold before Klein's eyes."] = "По словам Деррика, история Серебряного города, кажется, медленно разворачивается перед глазами Клейн.",
     ["Thanks, but I'd rather not."] = "Спасибо, но я бы не хотел.",
     ["ALS Walking Speed Reduction 10%"] = "Снижение скорости ходьбы при БАС на 10 %",

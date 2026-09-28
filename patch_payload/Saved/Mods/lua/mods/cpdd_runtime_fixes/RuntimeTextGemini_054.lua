@@ -211,7 +211,6 @@ return {
     ["Hello, what would you like to order?"] = "Здравствуйте, что бы вы хотели заказать?",
     ["Unlocked after %s"] = "Разблокировано после %s",
     ["Positioning Ball"] = "Позиционирование мяча",
-    ["[LV5] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill"] = "[LV5] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill",
     ["Custom action: lineBuff holder and the object recorded by lineBuff, while simultaneously performing a drag-hit moving towards the center of both."] = "Пользовательское действие: держатель lineBuff и объект, записанный lineBuff, одновременно выполняя перетаскивание, перемещаясь к центру обоих.",
     ["Go to the <h> Roselle Poetry Club </>"] = "Посетите поэтический клуб Розеллы <h> </>.",
     ["According to the formula, we need it to gain weight to 200 kilograms to trigger it."] = "По формуле нам нужно набрать вес до 200 килограммов, чтобы его вызвать.",

@@ -204,7 +204,6 @@ return {
     ["<DecH> Craft: </> Plain Cotton and Linen - Simple and Elegant - Basic Undergarment \n Natural fabric without any dye, symbolizing the initial purity of the soul."] = "<DecH>Отделка: </>Простой лен и хлопок · Скромность и изящество · Простое исподнее\nНатуральная неокрашенная ткань — символ первозданной чистоты души.",
     ["Record InSights File Locally"] = "Запись файла InSights локально",
     ["Observe the trading location"] = "Соблюдайте торговое место",
-    ["I wonder if there are any Beyonder cases to handle recently. Let's go back to Blackthorn and see."] = "I wonder if there are any Потусторонний cases to handle recently. Let's go back to Blackthorn and see.",
     ["Catch up to Pete"] = "Догнать Пита",
     ["Sasrir Special Phase Safe Zone Invisible Monster Range Indicator Buff"] = "Особая фаза Сасрира, безопасная зона, усиление невидимого индикатора дальности монстров",
     ["Walking Atmosphere Waypoint"] = "Путевая точка «Прогулка в атмосфере»",

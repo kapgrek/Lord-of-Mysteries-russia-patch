@@ -81,7 +81,6 @@ return {
     ["……呃。"] = "……Эм-м-м.",
     ["　　……\n　　失踪者家属聚集警局门口抗议，警方表示“失踪案件均已登记处理”。据悉，近期此类事件已发生十余起，多为政府雇员。\n　　……\n\n<Note_Normal_HW>这些是我们的人，这家伙在干嘛！</>\n<Note_Normal_HW>他疯了，赶紧处理掉，不要留下把柄！</>\n<Note_Normal_HW>查理先生马上要参选了，这时候不能出任何丑闻！</>"] = "　　……\n　　Семьи пропавших собрались у полицейского участка на акцию протеста. Полиция заявила, что «все заявления об исчезновении зарегистрированы и расследуются». Как сообщается, за последнее время произошло более десятка подобных случаев, преимущественно среди государственных служащих.\n　　……\n\n<Note_Normal_HW>Это же наши люди, чем он вообще думает?!</>\n<Note_Normal_HW>Он спятил, немедленно разберитесь с ним, не оставляйте никаких улик!</>\n<Note_Normal_HW>Мистер Чарли со дня на день выдвигается на выборах, нам сейчас скандалы ни к чему!</>",
     ["【01】未婚夫"] = "[01] Жених",
-    ["【幸运悖论】的作用，灵性充盈时能挡子爵夫人的致命一击。"] = "The effect of [Paradox of Luck]: When Духовность is full, it can block the Viscountess's critical hit.",
     ["【表演】伊琳捂住胸口，泪水从眼中涌出。"] = "[Выступление] Ирен сжимает грудь, из глаз текут слезы.",
     ["一周后，你正在广场闲逛……"] = "Через неделю вы гуляете по площади...",
     ["一定是你要长脑子了！"] = "Должно быть, это потому, что твой мозг растет!",
@@ -207,7 +206,6 @@ return {
     ["Ancestor's Broken Blade"] = "Сломанный клинок предка",
     ["According to the bet, in this round, I will randomly take away a fake bullet."] = "Согласно ставке, в этом раунде я случайным образом заберу фальшивую пулю.",
     ["Unlock Marionette System"] = "Разблокировать систему марионеток",
-    ["However, I need to remind you of one thing. If you encounter Beyonder incidents, remember to report them to the Church in time; it's for your own good."] = "However, I need to remind you of one thing. If you encounter Потусторонний incidents, remember to report them to the Church in time; it's for your own good.",
     ["I choose, \"Seer\"!"] = "Я выбираю «Провидец»!",
     ["Print character info; enter type."] = "Распечатать информацию о персонаже; введите тип.",
     ["Frail"] = "Хрупкий",
@@ -279,5 +277,6 @@ return {
     ["Attack of the back two rows increased by 24%."] = "Атака двух задних рядов увеличивается на 24%.",
     ["希望银行能够批准我的贷款申请，不然几百亩农田就要撂荒了。"] = "Надеюсь, банк одобрит мою заявку на кредит, иначе сотни акров полей придётся оставить под паром.",
     ["But university tuition is too expensive; that's not something I can afford."] = "Но обучение в университете слишком дорогое, я не могу себе этого позволить.",
+    ["【幸运悖论】的作用，灵性充盈时能挡子爵夫人的致命一击。"] = "The effect of [Paradox of Luck]: When spirituality is full, it can block the Viscountess's critical hit.",
     ["巨龙后裔"] = "Наследие Дракона",
 }

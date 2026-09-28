@@ -47,7 +47,6 @@ return {
     ["<P_Heart> (sighs) </>, I understand that sometimes promises can become shackles, but please think twice, {{先生|女士}}. A unilateral termination will leave a rift between you. Is this really the result you want?"] = "<P_Heart> (вздыхает) </>, я понимаю, что иногда обещания могут стать оковами, но, пожалуйста, подумай дважды, {{Sir|Madam}}. Одностороннее расторжение оставит разрыв между вами. Это действительно тот результат, который вам нужен?",
     ["　　“内部资料”的卖家已经<Letter_Highlight>自首</>，涉事人员已接受相应处理。\n　　同时为保证正常教学秩序和考试公平，历史系将于下周三开启<Letter_Highlight>重考和补考</>。\n　　请同学们引以为戒，认真复习，诚实作答。"] = "　　Торговец «внутренними материалами» <Letter_Highlight>явился с повинной</>, и к причастным лицам уже приняты соответствующие меры.\n　　Вместе с тем, ради поддержания учебного порядка и справедливости оценивания, исторический факультет в следующую среду проведёт <Letter_Highlight>пересдачу и дополнительный экзамен</>.\n　　Студентам надлежит извлечь из этого урок, прилежно готовиться и отвечать честно.",
     ["【五月庄园】-【一号信徒】- 连线打断buff1"] = "[Майское поместье] — [Верующий номер один] — усиление прерывания соединения 1",
-    ["【秘偶技】星之虫-奇迹牌雨"] = "[Марионетка Skill] Worm of Star - Miracle Card Rain",
     ["三级防御跑塔"] = "Защитная башня 3-го уровня",
     ["上传图片"] = "Загрузить изображение",
     ["不了不了，我不怎么会玩……"] = "Нет-нет, я правда не умею играть...",
@@ -269,6 +268,7 @@ return {
     ["Klein: The Earl's Return is definitely a play worth watching; every show in Backlund is sold out!"] = "Клейн: «Возвращение графа» — это определённо спектакль, который стоит посмотреть, все его показы в Бэкланде проходят с полным залом!",
     ["Observe the points above Sylvia's head to predict the knockup landing point"] = "Следите за числом над головой Сильвии, чтобы предсказать место падения после подбрасывания.",
     ["At least he didn't fall on the battlefield, and we had the chance to spend this time together."] = "По крайней мере, он не погиб на поле боя, и у нас был шанс провести это время вместе.",
+    ["【秘偶技】星之虫-奇迹牌雨"] = "[Marionette Skill] Worm of Star - Miracle Card Rain",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

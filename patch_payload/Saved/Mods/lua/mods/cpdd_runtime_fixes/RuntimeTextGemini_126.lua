@@ -216,7 +216,6 @@ return {
     ["Collection Art Gallery Level 13"] = "Коллекционная художественная галерея 13 уровня",
     ["Performance_Connection 02"] = "Производительность_Соединение 02",
     ["Enable Cross-Server Convenient Party?"] = "Включить удобную межсерверную вечеринку?",
-    ["Let me see? It's the grand prize! Congratulations to this lucky spectator!"] = "Let me see? It's the grand prize! Congratulations to this lucky Зритель!",
     ["Invisible to All"] = "Невидимый для всех",
     ["My wife is only you! It will only ever be you!"] = "Моя жена – это только ты! Это всегда будешь только ты!",
     ["You'll understand once you're married."] = "Ты поймешь, когда поженишься.",

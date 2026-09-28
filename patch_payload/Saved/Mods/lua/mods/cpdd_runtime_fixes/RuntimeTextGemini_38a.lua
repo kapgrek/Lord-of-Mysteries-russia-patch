@@ -60,7 +60,6 @@ return {
     ["Kitchen Sink · Daily"] = "Кухонная мойка · Ежедневно",
     ["Zombie Monster"] = "Зомби-монстр",
     ["Successfully perform Requiem on 1 Beyonder"] = "Успешно выполнить Реквием на 1 Потусторонний.",
-    ["The mystical item 'Fingers of Dexterity' crafted by the Tarot Club artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard."] = "The mystical item 'Fingers of Dexterity' crafted by the Клуб Таро artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard.",
     ["Core of the Machine"] = "Ядро машины",
     ["Fundraising Poster"] = "Плакат по сбору средств",
     ["Dog Owner"] = "Владелец собаки",
@@ -126,7 +125,6 @@ return {
     ["与人脉好感度达到上限以后，通过各玩法溢出的好感度转化而来，可在往事陈列馆商店中进行兑换。"] = "Получается путем конвертации благосклонности, перетекающей из различных игровых режимов после достижения максимальной благосклонности к человеку, и может быть обменена в магазине Прошлого выставочного зала.",
     ["于【灾异巢穴】处召唤灾异先锋，将其击败可获得猩红遗物材料。灾异先锋实力强大，建议<Highlight>组队前往挑战</>。"] = "Вызовите авангард Бедствия в [Логово Бедствия]. Победа над ним даст материалы Алой реликвии. Авангард Бедствия силен; <Highlight> рекомендуется сформировать команду, чтобы бросить вызов </>.",
     ["五月庄园1号Boss"] = "Босс Мэйского поместья № 1",
-    ["人类想要成为非凡者，一般都需要服用魔药。"] = "Humans who want to become Потустороннийs generally need to consume potions.",
     ["传送错误"] = "Ошибка телепорта",
     ["传送门_管家入口"] = "Portal_Butler Вход",
     ["你是谁！"] = "Кто ты!",
@@ -275,5 +273,6 @@ return {
     ["住院？绝对不能住院！沃格尔府上女管家的职位就在这个月空出来，我等了整整三年！三年啊，我每日早起一个钟头，把每一把银勺都擦得澄明如镜——"] = "Лечь в больницу? Ни за что! В этом месяце освобождается место экономки в доме Фогелей, а я ждала этого целых три года! Три года! Я каждый день встаю на час раньше, чтобы отполировать каждую серебряную ложку до блеска—",
     ["俱乐部宣战获胜方俱乐部雕像展示"] = "Демонстрация статуи клуба-победителя войны клубов",
     ["Increases the hit probability of sleep control effects on the target, offset by the target's Sleep Dodge. The modification of the control probability has a <Highlight>0.5x</> floor and a <Highlight>2x</> cap. \nIf the increased sleep hit exceeds the upper threshold or fails to reach the lower threshold, the control capability cannot be increased. \nThe actual effect and threshold depend on the combat calculation between both parties' <Highlight>Level</> and their respective <Highlight>Sleep Dodge</> attributes. \nWhen attacking an enemy of the <Highlight>same level</> with no <Highlight>Sleep Dodge</> using current attributes, and without considering the <Highlight>upper and lower limits of the modification</>, the control hit rate is modified to {*.2f,F1690027,SleepAcc} times the base probability."] = "Повышает вероятность попадания контроля сна по цели, компенсируется уклонением цели от сна. Коррекция вероятности контроля имеет нижний предел <Highlight>0.5x</> и верхний предел <Highlight>2x</>.\nЕсли повышенное попадание сна превышает верхний порог или не достигает нижнего порога, способность контроля не может быть повышена.\nФактический эффект и пороги зависят от результата противостояния <Highlight>уровня</> обеих сторон и атрибута <Highlight>уклонения от сна</> противника.\nПри атаке текущими характеристиками на врага <Highlight>того же уровня</> без <Highlight>уклонения от сна</>, без учёта <Highlight>верхнего и нижнего предела</> коррекции, вероятность попадания контроля будет откорректирована до {*.2f,F1690027,SleepAcc} от базовой вероятности.",
+    ["人类想要成为非凡者，一般都需要服用魔药。"] = "Humans who want to become Beyonders generally need to consume potions.",
     ["其一，祈愿织线——通过冥冥之中的眷顾，为你寻找命运织线上的另一端——那个与你灵魂共鸣的人。"] = "Во-первых, Молитвенное Плетение – благодаря милости неизвестного Я найду для тебя другой конец нити судьбы – человека, душа которого резонирует с твоей.",
 }

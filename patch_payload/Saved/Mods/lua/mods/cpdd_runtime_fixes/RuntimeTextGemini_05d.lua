@@ -240,7 +240,6 @@ return {
     ["Navigator: Gain Attack and Damage Reduction for <HighLight>4</> seconds after releasing a skill; recover <HighLight>20</> mana when a skill scores a kill."] = "Навигатор: усиление атаки и Снижение урона на <HighLight>4</> секунд после высвобождения навыка; восстанавливайте ману <HighLight>20</>, когда умение приводит к убийству.",
     ["Network anomaly"] = "Сетевая аномалия",
     ["<P_Heart>(My mentor, Mr. Quentin Cohen, I hope he doesn't blame me for suddenly canceling the interview.)</>"] = "<P_Heart>(Мой наставник, мистер Квентин Коэн, надеюсь, он не винит меня за то, что я внезапно отменил интервью.) </>",
-    ["Not good... Rozanne's time in Tingen in the Mirror has also reached a critical point, her consciousness has begun to become chaotic."] = "Not good... Rozanne's time in Тинген in the Mirror has also reached a critical point, her consciousness has begun to become chaotic.",
     ["Oh, Debbie, don't just stare at the stars, tell us what you see!"] = "О, Дебби, не смотри просто на звезды, расскажи нам, что ты видишь!",
     ["<P_Heart>(Knowledge... knowledge...)</>"] = "<P_Heart>(Знания... знания...)</>",
     ["I kiss you goodbye at the deserted port... let the wind mock me for being unable to rewrite..."] = "Целую тебя на прощание в пустынном порту... пусть ветер издевается надо мной за то, что я не умею переписывать...",

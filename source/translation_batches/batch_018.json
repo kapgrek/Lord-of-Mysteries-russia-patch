@@ -1398,12 +1398,6 @@
     "target_ru": "To Потустороннему\n    Всякое сказанное слово станет явным.\n                 Ныряющий Кальмар"
   },
   {
-    "id": "085233",
-    "source_cn": "……喂，你借封印物的时候，尽量对他们好点……不要淋到雨。",
-    "ref_en": "…Hey, when you borrow a Sealed Artifact, try to be nice to them… don't let them get rained on.",
-    "target_ru": "…Hey, when you borrow a Запечатанный артефакт, try to be nice to them… don't let them get rained on."
-  },
-  {
     "id": "085234",
     "source_cn": "【44】怎么办呢",
     "ref_en": "[44] What to do",
@@ -6000,18 +5994,6 @@
     "target_ru": "{{PlayerName}} {{Sir|Miss}} Иди скорее, здесь так много цветов."
   },
   {
-    "id": "086000",
-    "source_cn": "{{PlayerName}}，辛苦你替教会回收这件封印物。",
-    "ref_en": "{{PlayerName}}, thank you for recovering this Sealed Artifact for the Church.",
-    "target_ru": "{{PlayerName}}, thank you for recovering this Запечатанный артефакт for the Church."
-  },
-  {
-    "id": "086001",
-    "source_cn": "【C级动画占位】玩家通过梦境占卜，看到了一些模糊的画面。",
-    "ref_en": "【C-level animation placeholder】 The player sees some blurry images through dream divination.",
-    "target_ru": "【C-level animation placeholder】 The player sees some blurry images through dream Гадание."
-  },
-  {
     "id": "086002",
     "source_cn": "【自走棋】-风信子-内环",
     "ref_en": "[Auto Chess] - Hyacinth - Inner Ring",
@@ -6784,12 +6766,6 @@
     "source_cn": "【模型】家-倒落的烛台",
     "ref_en": "【Model】 House - Fallen Candlestick",
     "target_ru": "【Модель】 Дом - Упавший подсвечник"
-  },
-  {
-    "id": "086131",
-    "source_cn": "不 不要拥抱那背负污染的红月",
-    "ref_en": "No, do not embrace the red moon that carries corruption",
-    "target_ru": "No, do not embrace the red moon that carries Искажение"
   },
   {
     "id": "086132",
@@ -15798,12 +15774,6 @@
     "target_ru": "<h>Приготовление зелья</>"
   },
   {
-    "id": "087633",
-    "source_cn": "《安提哥努斯家族笔记》在瑞尔·比伯手里，封印物2-049会带我们找到他",
-    "ref_en": "The \"Antigonus Family Notebook\" is in Riel Bieber's hands, Sealed Artifact 2-049 will lead us to find him.",
-    "target_ru": "The \"Antigonus Family Notebook\" is in Riel Bieber's hands, Запечатанный артефакт 2-049 will lead us to find him."
-  },
-  {
     "id": "087634",
     "source_cn": "【场景】果篮",
     "ref_en": "[Scene] Fruit Basket",
@@ -15820,12 +15790,6 @@
     "source_cn": "万事小心，{{PlayerName}}。",
     "ref_en": "Be careful with everything, {{PlayerName}}.",
     "target_ru": "Будь осторожен со всем, {{PlayerName}}."
-  },
-  {
-    "id": "087637",
-    "source_cn": "三脚猫占卜师满地乱跑，我只想要真正可靠的占卜家……",
-    "ref_en": "Amateur diviners are running around everywhere; I only want a truly reliable Seer...",
-    "target_ru": "Amateur diviners are running around everywhere; I only want a truly reliable Провидец..."
   },
   {
     "id": "087638",
@@ -16752,12 +16716,6 @@
     "target_ru": "Просто думаю о том, чтобы поселиться в таком прекрасном городе... Хе-хе, мое старое сердце обрело свою жизненную силу."
   },
   {
-    "id": "087792",
-    "source_cn": "一缕朦胧的非凡特性碎屑，握在手心的瞬间，有一股沉甸甸的重量，像是握住了某种还没说完的意志。",
-    "ref_en": "A wisp of hazy Beyonder characteristic fragments. The moment it is held in the palm, it carries a heavy weight, as if holding a will that has yet to be fully expressed.",
-    "target_ru": "A wisp of hazy Потусторонний characteristic fragments. The moment it is held in the palm, it carries a heavy weight, as if holding a will that has yet to be fully expressed."
-  },
-  {
     "id": "087793",
     "source_cn": "不过他应该与这次的恶性杀人案件无关，他有不在现场的证明，死亡时间内他正在参加另一场拳赛。",
     "ref_en": "However, he shouldn't be related to this vicious murder case. He has an alibi; he was participating in another boxing match at the time of death.",
@@ -17568,12 +17526,6 @@
     "target_ru": "Извини, нет... Я не могу извиняться, можешь меня дважды отругать?"
   },
   {
-    "id": "087928",
-    "source_cn": "不知道你是否听说过，二十一年前轰动了整个廷根市的连环杀手。",
-    "ref_en": "I don't know if you have heard of the serial killer who shocked the entire city of Tingen twenty-one years ago.",
-    "target_ru": "I don't know if you have heard of the serial killer who shocked the entire city of Тинген twenty-one years ago."
-  },
-  {
     "id": "087929",
     "source_cn": "与梅聊聊",
     "ref_en": "Chat with May",
@@ -17590,12 +17542,6 @@
     "source_cn": "丽诺比丽·",
     "ref_en": "Lenobli ",
     "target_ru": "Ленобли"
-  },
-  {
-    "id": "087932",
-    "source_cn": "也是一群 时刻对抗着危险和疯狂的",
-    "ref_en": "and also a group that constantly fights against danger and madness.",
-    "target_ru": "and also a group that constantly fights against danger and Безумие."
   },
   {
     "id": "087933",
@@ -22404,12 +22350,6 @@
     "target_ru": "Не выпущено"
   },
   {
-    "id": "088734",
-    "source_cn": "不知道是不是我的错觉，自从你来了后，周围的非凡事件发生的频率似乎在直线上升。",
-    "ref_en": "I don't know if it's just my imagination, but ever since you arrived, the frequency of Beyonder incidents in the area seems to be skyrocketing.",
-    "target_ru": "I don't know if it's just my imagination, but ever since you arrived, the frequency of Потусторонний incidents in the area seems to be skyrocketing."
-  },
-  {
     "id": "088735",
     "source_cn": "不该翻开的纸页——是厄运，还是毁灭？",
     "ref_en": "A page that should not be turned—is it misfortune, or destruction?",
@@ -23766,12 +23706,6 @@
     "target_ru": "<Highlight>Потусторонний Pathway</>, также известный как <Highlight>God's Pathway</>, представляет собой систему развития, основанную на зельях."
   },
   {
-    "id": "088961",
-    "source_cn": "<P_Heart>（1万镑？！按照班森之前的周薪，需要工作208年才能赚到1万镑。这金额即使在贝克兰德，也可以做个富翁了！）</>",
-    "ref_en": "<P_Heart> (10,000 pounds?! Based on Benson's previous weekly salary, it would take 208 years to earn 10,000 pounds. This amount of money could make one a rich person even in Backlund!) </>",
-    "target_ru": "<P_Heart> (10,000 pounds?! Based on Benson's previous weekly salary, it would take 208 years to earn 10,000 pounds. This amount of money could make one a rich person even in Бэкланд!) </>"
-  },
-  {
     "id": "088962",
     "source_cn": "<h>坐下</>享受美食",
     "ref_en": "<h>Sit down</> and enjoy the food",
@@ -24568,12 +24502,6 @@
     "source_cn": "【触发器】（左侧路）碰壁提示区域",
     "ref_en": "【Trigger】(Left Path) Wall Collision Prompt Area",
     "target_ru": "【Триггер】(Левый путь) Область подсказки при столкновении со стеной"
-  },
-  {
-    "id": "089095",
-    "source_cn": "一个人常携带的事物往往和他们自身有强烈的关联。通过占卜，可以追踪到主人的位置。",
-    "ref_en": "The things a person carries often share a strong connection with them. Through divination, they can be used to track their owner's location.",
-    "target_ru": "The things a person carries often share a strong connection with them. Through Гадание, they can be used to track their owner's location."
   },
   {
     "id": "089096",
@@ -27438,12 +27366,6 @@
     "target_ru": "GTA — Речь Золотого Волка — Взаимодействие «Уехать»"
   },
   {
-    "id": "089573",
-    "source_cn": "Obtain 1 Beyonder material with {战争主教} entry",
-    "ref_en": "Obtain 1 Beyonder material with {Bishop of War} entry",
-    "target_ru": "Obtain 1 Потусторонний material with {Bishop of War} entry"
-  },
-  {
     "id": "089574",
     "source_cn": "cs摄像机1_1",
     "ref_en": "cs camera 1_1",
@@ -28054,12 +27976,6 @@
     "source_cn": "进入键盘决斗",
     "ref_en": "Enter Keyboard Duel",
     "target_ru": "Введите клавиатурную дуэль"
-  },
-  {
-    "id": "089676",
-    "source_cn": "造成伤害后10%概率提高自身20点力量，持续2秒最多叠加3层，无冷却时间时间时间造成伤害后10%概率提高自身<Mark>20点</>力量，持续2秒，最多叠加3层",
-    "ref_en": "10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Cooldown. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times",
-    "target_ru": "10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Перезарядка. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times"
   },
   {
     "id": "089677",
@@ -28762,12 +28678,6 @@
     "source_cn": "询问……",
     "ref_en": "Asking...",
     "target_ru": "Спрашиваю..."
-  },
-  {
-    "id": "089794",
-    "source_cn": "豌豆魔法引导线灵视临时版",
-    "ref_en": "Pea Magic Guide Line Spirit Vision Temporary Version",
-    "target_ru": "Pea Magic Guide Line Spirit Vision Временная версия"
   },
   {
     "id": "089795",
@@ -29716,12 +29626,6 @@
     "source_cn": "一地的纸片，好像是我刚才弄乱的。",
     "ref_en": "Papers all over the floor, it seems I messed them up just now.",
     "target_ru": "Бумаги разбросаны по полу, кажется, я их только что перепутала."
-  },
-  {
-    "id": "089953",
-    "source_cn": "一键将角色提升到标准活跃玩家的属性，并解锁系统，提升序列，添加药品。",
-    "ref_en": "One-click boost character to standard active player stats, unlock systems, advance Sequence, and add potions.",
-    "target_ru": "One-click boost character to standard active player stats, unlock systems, advance Последовательность, and add potions."
   },
   {
     "id": "089954",

@@ -228,7 +228,6 @@ return {
     ["<Assistant_Title1>Cornerstone of Prosperity</>\n<Assistant_Title2>Achievement Category: </>Leisure - May Manor · Castle\n<Assistant_Title2>Unlock Condition: </>Reach a total Castle rating of 3000 points"] = "<Assistant_Title1> Краеугольный камень процветания</>\n<Assistant_Title2>Категория достижения:</>Casual-Castle\n<Assistant_Title2>Условия разблокировки:</>Общий балл замка достигает 3000 очков",
     ["Leave scene"] = "Покинуть сцену",
     ["Play Dialogue, object teleports to the specified position in the specified scene (players support cross-scene teleportation, NPCs can only teleport within the same scene), player sets game camera"] = "Играть в диалог, объект телепортируется в указанную позицию в указанной сцене (игроки поддерживают телепортацию между сценами, NPC могут телепортироваться только в пределах одной сцены), игрок устанавливает игровую камеру",
-    ["\"Magician\": Miss Justice, according to the plan, the door has been opened."] = "\"Фокусник\": Miss Justice, according to the plan, the door has been opened.",
     ["Why can't I switch cults"] = "Почему я не могу сменить культ",
     ["Area 2 Effect"] = "Эффект области 2",
     ["Challenge Introduction"] = "Описание вызова",

@@ -29,7 +29,6 @@ return {
     ["Aim at the enemy for 5 seconds to deal higher shooting damage."] = "Прицеливание во врага в течение 5 сек. наносит повышенный урон от выстрела.",
     ["Hurricane Axe-Roguelike-Stage 2-Add Stun Buff"] = "Ураганный топор-Мясной голубь-Второй этап-Добавить оглушающий бафф",
     ["Let me heal the soul of {{him|her}} tormented by nightmares"] = "Позвольте мне исцелить душу {{его|ее}}, измученную кошмарами",
-    ["Mystery Pryer - Star Sand - Strengthened Version"] = "Secret Peeper-Star Sand-Enhanced Edition Edition",
     ["Goddess Protection, please grant my lover a night of Slumber, hehe."] = "Благослови меня Богиня, пожалуйста, дайте моему возлюбленному хорошо выспаться, ха-ха.",
     ["This... I guarantee, absolutely not, I haven't received any goods sent by Charlie for almost a month."] = "Это... я обещаю, абсолютно нет. Я не получал товаров от Чарли уже почти месяц.",
     ["In the eyes of the Spectator, the other party's mind is reflected, laid bare."] = "В глазах Зрителя отражается, обнажается разум другой стороны.",

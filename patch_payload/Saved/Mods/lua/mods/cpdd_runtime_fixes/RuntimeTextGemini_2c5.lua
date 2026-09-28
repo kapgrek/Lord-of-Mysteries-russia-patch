@@ -75,7 +75,6 @@ return {
     ["Someone is standing on the rooftop, looking very dangerous..."] = "Кто-то стоит на крыше и выглядит очень опасно...",
     ["TextureParams material parameter name cannot be empty"] = "Имя параметра материала TextureParams не может быть пустым.",
     ["Can be possessed"] = "Может быть одержим",
-    ["Three-Cost Battle Group: Max Health +300, Attack Speed +25%."] = "Three-Cost Battle Group: Max Health +300, Скорость атаки +25%.",
     ["Please instruct me."] = "Пожалуйста, проинструктируйте меня.",
     ["Dear Niel:\r\nI still want to..."] = "Дорогой Нил:\r\nЯ всё ещё хочу...",
     ["Brave and fearless, upright and Bravery."] = "Храбрый и бесстрашный, честный и храбрый.",

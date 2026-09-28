@@ -235,7 +235,6 @@ return {
     ["The <h> colleague's </> advice"] = "Совет коллеги по <h> по </>",
     ["5200196 Midnight Church Multiplayer Scene"] = "5200196 Многопользовательская сцена в полуночной церкви",
     ["Total Points"] = "Всего очков",
-    ["[Marionette Skill] Worm of Star - Flame Breath - Spell Agent"] = "[Марионетка Skill] Worm of Star - Flame Breath - Spell Agent",
     ["Heh, my Debbie has been plowing fields for ten years; her stamina is beyond compare."] = "Хех, моя Дебби уже десять лет пашет поля; ее выносливость вне всякого сравнения.",
     ["Be serious, I only have real news here!"] = "Будьте серьезны, у меня здесь только реальные новости!",
     ["I mean, this will let me keep thinking of you."] = "Я имею в виду, это позволит мне продолжать думать о тебе.",

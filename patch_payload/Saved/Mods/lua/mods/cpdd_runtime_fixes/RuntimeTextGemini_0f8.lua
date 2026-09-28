@@ -259,7 +259,6 @@ return {
     ["Text board 1"] = "Текстовая доска 1",
     ["Coffee Atmosphere: Maid Pamir"] = "Кофейная Атмосфера: Горничная Памира",
     ["Yes, it won't take long."] = "Да, это не займет много времени.",
-    ["Should all involve the Beyonder realm, must be cautious."] = "Should all involve the Потусторонний realm, must be cautious.",
     ["Guild bot placeholder"] = "Заполнитель для бота гильдии",
     ["The \"Great Mother\" brings rebirth to the city."] = "«Великая Мать» возрождает город.",
     ["Uh... where is this, it doesn't seem to be the outskirts of the Underworld anymore..."] = "Э-э... где это, кажется, это уже не окраина Подземного мира...",

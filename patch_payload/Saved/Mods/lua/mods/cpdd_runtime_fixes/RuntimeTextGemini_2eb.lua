@@ -259,7 +259,6 @@ return {
     ["Season 1, Day 25"] = "1 сезон, день 25",
     ["Conduct phased reasoning"] = "Проводить поэтапное рассуждение",
     ["Bia"] = "Биа",
-    ["A Beyonder potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols."] = "A Потусторонний potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols.",
     ["Auction failed"] = "Аукцион не пройден",
     ["Blessing of the Guardian God"] = "Благословение Бога-Хранителя",
     ["Listen to <h>Luna's</> tenderness"] = "Послушайте нежность <h>Luna от </>.",

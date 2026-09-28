@@ -93,7 +93,6 @@ return {
     ["GTA-金狼教堂事件-鸣枪4"] = "GTA — Событие «Собор Золотого Волка» — Предупреждающий выстрел 4",
     ["{{先生|女士}}，来看看蒸汽与机械之神教会的最新力作——\"漫行者\" 吧！"] = "{{Mr.|Ms.}}, приходи и взгляни на последний шедевр Церкви Бога пара и машин — «Роумера»!",
     ["【Rougue】观众-意识操纵"] = "[Roguelike] Зритель — Манипуляция сознанием",
-    ["上次您帮安娜占卜的事情，已经在俱乐部传开了。"] = "The Гадание you did for Anna last time has already spread throughout the club.",
     ["不是！<P_Heart>（小声）</>那份“手稿”……你看完了吗？"] = "Нет! <P_Heart>(шепотом)</> Эта «рукопись»… ты дочитал ее?",
     ["不知道杜伦刚才在办公室里听到那些话是什么想法……问问他吧。"] = "Интересно, что подумал Дюрен, услышав эти слова только что в офисе... Давайте спросим его.",
     ["与Npc进行对话  NPC名字  传送回大世界场景  "] = "Поговорите с NPC, укажите имя NPC, телепортируйтесь обратно на главную мировую сцену.",
@@ -278,7 +277,6 @@ return {
     ["Share the table, but please don't share the cake. This piece is mine."] = "Разделите стол, но, пожалуйста, не делите торт. Этот кусок мой.",
     ["Ritual magic can be divided into three parts: the first is the sacrificial part to please or pique the interest of the corresponding entity; the second is the incantation part that describes the specific object of prayer; and the third is the substantive part detailing what help is sought, which needs to be clarified using a formatted corresponding language and certain symbolic signs."] = "Ритуальную магию можно разделить на три части: первая — жертвенная часть, призванная доставить удовольствие или возбудить интерес соответствующей сущности; вторая — заклинательная часть, описывающая конкретный объект молитвы; и третья – содержательная часть, подробно описывающая, за какой помощью обращаются, которую необходимо уточнить с помощью форматированного соответствующего языка и определенных символических знаков.",
     ["Heard you were having a great time, curious to come and see."] = "Слышал, вы прекрасно провели время, интересно было приехать и посмотреть.",
-    ["[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you."] = "[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your Кошмарs! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you.",
     ["What grapes?"] = "Какой виноград?",
     ["Uh, indeed, if you go further south from Lower Street, it's the slums and the factory district."] = "Да, действительно, если пойти дальше на юг от Лоуэр-стрит, это трущобы и фабричный район.",
     ["This match has not ended, cannot claim rewards yet"] = "Этот матч еще не завершен, пока нельзя получить награды.",
@@ -296,4 +294,5 @@ return {
     ["4非凡词条及以下不进行确认"] = "Не запрашивать подтверждение для 4 аффиксов Потустороннего и меньше",
     ["Go to the shared path and catch your teammate!"] = "Перейдите на общий путь и подхватите товарища по команде!",
     ["A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning."] = "Почётное имя из трёх частей — это не просто имя; оно ближе к взгляду божества, заклинанию призыва.",
+    ["上次您帮安娜占卜的事情，已经在俱乐部传开了。"] = "The divination you did for Anna last time has already spread throughout the club.",
 }

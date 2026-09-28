@@ -259,8 +259,6 @@ return {
     ["Each hit of Shuffle Cards deals additional damage to enemy targets, with damage related to the number of fate stacks."] = "Каждое попадание перетасованных карт наносит дополнительный урон вражеским целям, причем урон зависит от количества стеков судьбы.",
     ["Remove Affix"] = "Удалить аффикс",
     ["No, you're wrong..."] = "Нет, ты ошибаешься...",
-    ["Grade B Animation:\nKlein recalled the divination from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations."] = "Grade B Animation:\nKlein recalled the Гадание from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations.",
-    ["He was a very promising Seer, but unfortunately, I haven't seen him for several years."] = "He was a very promising Провидец, but unfortunately, I haven't seen him for several years.",
     ["Check the bookshelf opposite <h></>"] = "Проверьте книжную полку напротив <h></>.",
     ["No bids from players yet"] = "Ставок от игроков пока нет",
     ["Vulnerability_Percentage Bonus"] = "Vulnerability_Percentage Бонус",

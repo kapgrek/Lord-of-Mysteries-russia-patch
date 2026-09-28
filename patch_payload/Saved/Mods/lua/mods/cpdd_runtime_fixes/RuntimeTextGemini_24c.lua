@@ -58,7 +58,6 @@ return {
     ["Keep at least %s defensive/healing \"projection\" teammates."] = "Сохраняйте как минимум защитную/исцеляющую «проекцию» товарищей по команде %s.",
     ["The vow is silent, yet lasts until the end of life."] = "Обет молчаливый, но действует до конца жизни.",
     ["Spectator Healing PVE Recommendation Scheme"] = "Схема рекомендаций по лечению зрителей в PVE",
-    ["An exquisite wallet gifted by Miss Justice, capable of bringing subconscious and spiritual protection, resisting some Beyonder damage. But the negative effect is... generating a strong urge to spend money!"] = "An exquisite wallet gifted by Miss Justice, capable of bringing subconscious and spiritual protection, resisting some Потусторонний damage. But the negative effect is... generating a strong urge to spend money!",
     ["Letter Name"] = "Имя буквы",
     ["\"To our friendship, cheers!\""] = "«За нашу дружбу, ура!»",
     ["Center of upper lip"] = "Центр верхней губы",

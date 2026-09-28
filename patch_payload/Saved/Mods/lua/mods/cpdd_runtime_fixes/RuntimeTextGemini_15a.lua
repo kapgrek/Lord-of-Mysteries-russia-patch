@@ -162,7 +162,6 @@ return {
     ["[General] Invincibility + untargetable for monsters"] = "[Общее] Непобедимость + невозможность нацеливания на монстров",
     ["Local grave-guarding wolf (plot monster)"] = "Местный волк-охранник могил (сюжетный монстр)",
     ["[Test]"] = "[Тест]",
-    ["However, many wild Beyonders are wary of them, so remember to conceal your identity."] = "However, many wild Потустороннийs are wary of them, so remember to conceal your identity.",
     ["Has the person already left?"] = "Человек уже ушел?",
     ["Strengthening Jump Smash"] = "Усиление прыжкового удара",
     ["Unlock all systems, add buffs, adjust skills, reach level 65 of CBT2."] = "Разблокируйте все системы, добавьте баффы, настройте навыки, достигните 65 уровня ЗБТ2.",

@@ -222,7 +222,6 @@ return {
     ["A few slight scratches, like marks left by friction with the skin after long-term wear, as if some... kind of thing from the previous owner still remains."] = "Несколько небольших царапин, как следы от трения о кожу после долгой носки, как будто какая-то вещь от предыдущего владельца еще осталась.",
     ["Stop calling me Your Majesty! Damn it, I almost forgot... My mission is to find and eliminate you, a \"Witch\"!"] = "Перестаньте называть меня Ваше Величество! Блин, чуть не забыл... Моя миссия - найти и устранить тебя, \"Ведьму\"!",
     ["1 Flow Core"] = "1 ядро ​​потока",
-    ["One-click boost character to mid-spender player stats, unlock systems, advance Sequence, and add potions."] = "One-click boost character to mid-spender player stats, unlock systems, advance Последовательность, and add potions.",
     ["Give money"] = "Дайте деньги",
     ["Bring Out Elizabeth"] = "Выведи Элизабет",
     ["Albert!"] = "Альберт!",

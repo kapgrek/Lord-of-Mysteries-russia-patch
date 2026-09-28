@@ -44,7 +44,6 @@ return {
     ["Look, another delivery to that company."] = "Смотри, еще одна поставка в ту компанию.",
     ["Map ID placeholder"] = "Заполнитель идентификатора карты",
     ["Carriage Station"] = "Вагонная станция",
-    ["We are Guardians, and also a group of poor wretches constantly fighting against danger and Madness."] = "We are Guardians, and also a group of poor wretches constantly fighting against danger and Безумие.",
     ["April 8th"] = "8 апреля",
     ["[Emoji 62]"] = "[Эмодзи 62]",
     ["If scores are tied, the player with the higher regional ranking wins"] = "Если результаты равны, побеждает игрок с более высоким региональным рейтингом.",

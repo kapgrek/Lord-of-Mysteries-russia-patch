@@ -27,7 +27,6 @@ return {
     ["Opportunity will not fail those who are prepared. At the moment the government employee exam opened, knowledge became the best aid for ordinary people."] = "Возможности не будут несправедливыми по отношению ко всем, кто к ним готов. С момента открытия экзамена для госслужащих знания станут лучшим подспорьем для простых людей.",
     ["According to the investigation, the butler who caused the Tingen anomaly fled here—May Manor. After the owner, Viscount Avery, died, many anomalies occurred here."] = "По версии следствия, дворецкий, вызвавший аномалию Тингена, скрылся именно сюда — Мэй-Мэнор. После смерти владельца, виконта Эйвери, здесь произошло множество аномалий.",
     ["Item name seven characters"] = "Название предмета семь символов",
-    ["[Right Stick Mode 3] Use self as the center to deal effects to a sector in front, and release a combo skill; enters cooldown after the combo is completed."] = "[Right Stick Mode 3] Use self as the center to deal effects to a sector in front, and release a combo skill; enters Перезарядка after the combo is completed.",
     ["Continue Modification"] = "Продолжить модификацию",
     ["[Placeholder] Klein: To a better life in the future."] = "[Заполнитель] Клейн: К лучшей жизни в будущем.",
     ["P3 Golden Sector"] = "P3 Золотой сектор",

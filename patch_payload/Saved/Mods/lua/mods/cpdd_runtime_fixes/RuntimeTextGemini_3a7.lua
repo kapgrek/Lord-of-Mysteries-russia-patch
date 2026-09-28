@@ -104,7 +104,6 @@ return {
     ["<UpgradGreen>已满足</>"] = "<UpgradGreen> удовлетворен </>",
     ["citywalk-愚者祈祷（补"] = "Прогулка по городу: Молитва Шуту (Дополнение)",
     ["【音符】（右边路）唱词1-1"] = "[Примечание] (Правильный путь) Тексты 1-1",
-    ["一瓶非凡药剂，绿色的液体在瓶中缓慢流动，偶尔浮现出一些重叠的符号。"] = "A Потусторонний potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols.",
     ["一键上阵"] = "Развертывание в один клик",
     ["不在召唤区域内，请前往指定区域后再行召唤。"] = "Не в зоне призыва, пожалуйста, пройдите в назначенное место перед вызовом.",
     ["二十一年前，连杀了五位少女，有的取走心脏，有的拿走胃部的那个“血腥屠夫——开膛手杰斯”！"] = "Двадцать один год назад «Кровавый мясник — Джек-потрошитель», убивший подряд пять молодых девушек, забрав сердца одних и желудки других!",
@@ -260,5 +259,6 @@ return {
     ["Monster to Player Generic Marker buff"] = "Баф общего маркера монстр→игрок",
     ["Those who have been turned into apples, come over here!"] = "Те, кого превратили в яблоко, скорее сюда!",
     ["The first stage of Sword Qi has a 60% base chance to cause Knockback on hit targets."] = "Первая волна Ци меча имеет базовый шанс 60% отбросить попавшую под удар цель.",
+    ["一瓶非凡药剂，绿色的液体在瓶中缓慢流动，偶尔浮现出一些重叠的符号。"] = "A Beyonder potion, green liquid flowing slowly in the bottle, occasionally showing some overlapping symbols.",
     ["Zanna"] = "Занна",
 }

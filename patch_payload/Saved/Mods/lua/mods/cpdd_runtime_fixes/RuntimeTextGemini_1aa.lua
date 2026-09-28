@@ -170,7 +170,6 @@ return {
     ["Hornacis Mountain Range"] = "Горный хребет Хорнацис",
     ["This ranking is based on the highest Beyonder Rating of each Beyonder; the top 50 in the region can make the list"] = "Этот рейтинг основан на самом высоком рейтинге Потустороннего каждого Потустороннего; в список могут попасть 50 лучших в регионе",
     ["No. 3 - Zouteland Shooting Club"] = "№ 3 — Стрелковый клуб Зутеленда",
-    ["When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate..."] = "When will I be able to become a formal barista? Maybe I should go to the Гадание Club after work and calculate...",
     ["Magic Circle Invisible Monster·High Damage"] = "Магический круг Невидимый монстр·Высокий урон",
     ["Not far away, a young man drove a carriage, carrying Miss Daisy quickly towards the player. \nMiss Daisy held a bouquet of daisies. The man drove while teasing Miss Daisy, making her laugh out loud."] = "Неподалеку молодой человек правил экипажем, быстро везя мисс Дейзи в сторону игрока.\nМисс Дейзи держала в руках букет маргариток. Юноша управлял лошадьми и весело шутил, заставляя мисс Дейзи звонко смеяться.",
     ["What's the point of facing a table and a wall?"] = "Какой смысл стоять лицом к столу и стене?",

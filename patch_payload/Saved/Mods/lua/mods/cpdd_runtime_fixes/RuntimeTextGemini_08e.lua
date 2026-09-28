@@ -165,7 +165,6 @@ return {
     ["Lighting"] = "Освещение",
     ["The key should be the God Rabbit with silver fur, which is said to be in the nearby forest."] = "Ключом должен быть Кролик-Бог с серебристым мехом, который, как говорят, находится в ближайшем лесу.",
     ["Participate in the dungeon <Highlight>May Manor · Castle (Normal)</>. There is a chance to obtain <Highlight>Item Level 64</> <Highlight>Orange Quality Imprinted Equipment</>."] = "Принять участие в подземелье <Highlight>Поместье Мэй · Замок (Обычный)</>. Есть шанс получить <Highlight>Уровень предмета 64</> <Highlight>Оранжевое печатное оборудование </>.",
-    ["[Auto-Chess] - Sylvia - Basic Attack - Vine Flower Poison Sting"] = "[Auto-Chess] - Sylvia - Базовая атака - Vine Flower Poison Sting",
     ["Don't let her usual efficient and decisive demeanor at Rose Paradise fool you; <P_Yellow>once she's truly drunk, no one can stop her</>."] = "Не позволяйте ее обычному эффективному и решительному поведению в Rose Paradise обмануть вас; <P_Yellow>Как только она по-настоящему напьется, никто не сможет ее остановить</>.",
     ["Auto Chess Skill Effect - Household Budget"] = "Эффект навыка Auto Chess - Семейный бюджет",
     ["Act as a Magician"] = "Действуй как волшебник",

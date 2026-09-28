@@ -69,7 +69,6 @@ return {
     ["C13-朝主位"] = "C13 — Основное сиденье лицом к лицу",
     ["……总之，后来家里就没了收入，但好在我找到了这份工作，替那边的富家公子卖票。"] = "...Так или иначе, потом семья потеряла доход, но я, к счастью, нашел эту работу, продавая билеты вон тому богатому молодому господину.",
     ["一起<h>去吃工作餐</>"] = "Сходите <h> пообедать на работе</> вместе",
-    ["不，多半会被评估定级，成为封印物。幸好它的负面影响并不严重，经过一些处理，也可以完全避免。"] = "No, it will most likely be evaluated and classified as a Запечатанный артефакт. Fortunately, its negative effects are not severe, and with some processing, they can be completely avoided.",
     ["两者最大点数>=%s即为成功"] = "Если максимальное значение обоих >= %s, это успех.",
     ["乡绅"] = "Сквайр",
     ["仆人协会--凯瑟琳"] = "Ассоциация слуг - Кэтрин",
@@ -265,6 +264,7 @@ return {
     ["凭什么命运要夺走我的一切！"] = "Почему судьба должна забирать у меня всё!",
     ["I am not! I just—"] = "Ничего подобного! Я просто—",
     ["这样，你就可以一直陪我玩了。\n可不能随便离开哦！"] = "Так ты сможешь играть со мной всегда.\nНельзя просто взять и уйти!",
+    ["不，多半会被评估定级，成为封印物。幸好它的负面影响并不严重，经过一些处理，也可以完全避免。"] = "No, it will most likely be evaluated and classified as a Sealed Artifact. Fortunately, its negative effects are not severe, and with some processing, they can be completely avoided.",
     ["击败指定InstanceID的怪物  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Победить монстра с указанным InstanceID; игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Dragon's roar is coming.\nI will not fear heights, fear fire, or retreat. I will not cling to a warm bed, or covet comfort, or bow to horror.\nThis mediocre life of mine is destined to be glorious.\nI will plant the flag at the highest place.\nI am the spear piercing the dragon's heart, the shield in the dragon's fire, the horn in the storm, the light in the darkness.\nOffer my life and heart for dragon hunting!\n\nDragon Hunter: Kevin Stock   Ray Bieber"] = "Приближается драконий рёв.\nЯ не убоюсь высоты, не устрашусь пламени, не отступлю назад. Я не буду нежиться в тёплой постели, не прельщусь покоем, не склонюсь перед страхом.\nМоя заурядная жизнь обречена стать ослепительно яркой.\nЯ водружу знамя на высочайшей вершине.\nЯ — копьё, разящее сердце дракона, несокрушимый щит в драконьем пламени, горн среди бури, луч света во тьме.\nОтдадим жизнь и сердце охоте на драконов!\n\nОхотники на драконов: Кевин Сток, Рэй Бибер",
 }

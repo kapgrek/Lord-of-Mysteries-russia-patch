@@ -174,7 +174,6 @@ return {
     ["Are you sure you want to abandon the current event and proceed to a new one?"] = "Вы уверены, что хотите отказаться от текущего мероприятия и перейти к новому?",
     ["When is a requiem needed"] = "Когда нужен реквием",
     ["Star Worm · Mystery Fragment"] = "Звездный червь · Таинственный фрагмент",
-    ["However, I am only Sequence 9 right now and might not be able to receive it... Perhaps if I bind myself to that mysterious space above the gray fog..."] = "However, I am only Последовательность 9 right now and might not be able to receive it... Perhaps if I bind myself to that mysterious space above the gray fog...",
     ["[Auto Chess] - Swain - Thunder Tide Finish"] = "[Автошахматы] — Суэйн — Финиш «Громового прилива»",
     ["Mr. Herodotus, I've come to return the document."] = "Господин Геродот, я пришел вернуть документ.",
     ["Atmosphere flag 2"] = "Флаг атмосферы 2",

@@ -1494,12 +1494,6 @@
     "target_ru": "Нет, мы никуда не пойдем."
   },
   {
-    "id": "025249",
-    "source_cn": "不，她非常警惕，也很强大……至少是序列7的非凡者，追她需要花费一些时间。",
-    "ref_en": "No, she is very vigilant and also very powerful... at least a Sequence 7 Extraordinary. It will take some time to track her.",
-    "target_ru": "No, she is very vigilant and also very powerful... at least a Последовательность 7 Extraordinary. It will take some time to track her."
-  },
-  {
     "id": "025250",
     "source_cn": "今夜琴声温柔-同事调侃尼尔",
     "ref_en": "Gentle Piano Music Tonight - Colleagues Tease Neil",
@@ -5238,12 +5232,6 @@
     "target_ru": "Нежная фортепианная музыка сегодня вечером - Салли убеждает себя, что резьба по дереву в порядке."
   },
   {
-    "id": "025873",
-    "source_cn": "他在与污染对抗，我们需要帮助他！",
-    "ref_en": "He is fighting against the corruption. We need to help him!",
-    "target_ru": "He is fighting against the Искажение. We need to help him!"
-  },
-  {
     "id": "025874",
     "source_cn": "伙伴梅丽莎技能-暴走齿轮3-5阶伤害（宽区域）",
     "ref_en": "Partner Melissa Skill - Berserk Gear Tiers 3-5 Damage (Wide Area)",
@@ -5896,12 +5884,6 @@
     "source_cn": "不过，感觉还不够精确，最好补充一些<P_Yellow>个人特质</>。",
     "ref_en": "However, it doesn't feel precise enough. It would be best to add some <P_Yellow> personal traits </>.",
     "target_ru": "Однако это не кажется достаточно точным. Было бы лучше добавить некоторые личные черты <P_Yellow> </>."
-  },
-  {
-    "id": "025983",
-    "source_cn": "世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。",
-    "ref_en": "When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week.",
-    "target_ru": "When the World Calamity dies, Потустороннийs who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week."
   },
   {
     "id": "025984",
@@ -9582,12 +9564,6 @@
     "target_ru": "[Тест] Уровень разработки в один клик 40 стандартный активный"
   },
   {
-    "id": "026597",
-    "source_cn": "一开始我以为阿尔伯特得了老年病……后来发现是被封印物影响了。",
-    "ref_en": "At first, I thought Albert had developed an age-related illness... later, I discovered he was being influenced by the Sealed Artifact.",
-    "target_ru": "At first, I thought Albert had developed an age-related illness... later, I discovered he was being influenced by the Запечатанный артефакт."
-  },
-  {
     "id": "026598",
     "source_cn": "一笔画-启动仪式魔法new",
     "ref_en": "One-Stroke Drawing - Start Ritual Magic new",
@@ -10396,12 +10372,6 @@
     "source_cn": "【开膛手剧院】剧情描述-布置错误",
     "ref_en": "[Ripper Theater] Plot Description - Incorrect Setup",
     "target_ru": "[Театр Потрошителей] Описание сюжета – неверная постановка"
-  },
-  {
-    "id": "026733",
-    "source_cn": "【秘偶技】星之虫-放逐-法术代理",
-    "ref_en": "[Marionette Skill] Worm of Star - Exile - Spell Agent",
-    "target_ru": "[Марионетка Skill] Worm of Star - Exile - Spell Agent"
   },
   {
     "id": "026734",
@@ -12486,12 +12456,6 @@
     "target_ru": "Настройки качества эффектов"
   },
   {
-    "id": "027081",
-    "source_cn": "猎杀开启,开启击杀眼前一切敌人,直至灰雾之上的神秘主宰",
-    "ref_en": "Hunt initiated, start killing all enemies in sight, until the mysterious ruler above the gray fog",
-    "target_ru": "Hunt initiated, start killing all enemies in sight, until the mysterious ruler Над Серым Туманом"
-  },
-  {
     "id": "027082",
     "source_cn": "瑞克",
     "ref_en": "Rick",
@@ -14202,12 +14166,6 @@
     "target_ru": "Когда будет исправлена ​​ошибка? Спешите, торопитесь, торопитесь!"
   },
   {
-    "id": "027367",
-    "source_cn": "“非凡物质”数量过少，无法一键聚合",
-    "ref_en": "Insufficient \"Beyonder Material\" quantity, cannot aggregate with one tap",
-    "target_ru": "Insufficient \"Потусторонний Material\" quantity, cannot aggregate with one tap"
-  },
-  {
     "id": "027368",
     "source_cn": "……我送您过去吧，再熟悉的路也可能遇到意外。",
     "ref_en": "...I'll escort you over, even familiar roads can have accidents.",
@@ -14248,12 +14206,6 @@
     "source_cn": "为<h>丹尼斯</>占卜",
     "ref_en": "Divination for <h>Dennis</>",
     "target_ru": "Гадание for <h>Dennis</>"
-  },
-  {
-    "id": "027375",
-    "source_cn": "之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试。",
-    "ref_en": "The Sealed Artifact 'Dexterous Fingers' crafted by the Tarot Club's artisan can steal thoughts from a person's brain; we could try that.",
-    "target_ru": "The Запечатанный артефакт 'Dexterous Fingers' crafted by the Клуб Таро's artisan can steal thoughts from a person's brain; we could try that."
   },
   {
     "id": "027376",
@@ -15694,12 +15646,6 @@
     "source_cn": "《女士审美》杂志？",
     "ref_en": "《Lady's Aesthetics》 magazine?",
     "target_ru": "Журнал «Женская эстетика»?"
-  },
-  {
-    "id": "027616",
-    "source_cn": "【右摇杆模式3】以自身为圆心对前方扇形造成效果，并释放连击技能，连击完成后进入冷却",
-    "ref_en": "[Right Stick Mode 3] Use self as the center to deal effects to a sector in front, and release a combo skill; enters cooldown after the combo is completed.",
-    "target_ru": "[Right Stick Mode 3] Use self as the center to deal effects to a sector in front, and release a combo skill; enters Перезарядка after the combo is completed."
   },
   {
     "id": "027617",
@@ -17454,12 +17400,6 @@
     "target_ru": "Так обидно, ты протыкаешься или нет!"
   },
   {
-    "id": "027909",
-    "source_cn": "不知谁留在这里的尖碑，用非凡力量记录了几个区域地点。",
-    "ref_en": "A stele left here by someone unknown, recording several regional locations with Beyonder powers.",
-    "target_ru": "A stele left here by someone unknown, recording several regional locations with Потусторонний powers."
-  },
-  {
     "id": "027910",
     "source_cn": "与霹雳舞王谈谈",
     "ref_en": "Talk to the Breakdance King",
@@ -18078,12 +18018,6 @@
     "target_ru": "Свет во тьме"
   },
   {
-    "id": "028013",
-    "source_cn": "黑荆棘事件3-洛克·金-跟踪点名-退化",
-    "ref_en": "Black Thorn Event 3-Rock King-Tracking Mark-Degradation",
-    "target_ru": "Событие Black Thorn 3-Rock King-Mark-Tracking-Degradation"
-  },
-  {
     "id": "028014",
     "source_cn": "5230108   廷根   位面",
     "ref_en": "5230108 Tingen Plane",
@@ -18142,12 +18076,6 @@
     "source_cn": "……我准备在你身上尝试一个新的仪式魔法了，你这个恶心的小家伙！",
     "ref_en": "...I am preparing to try a new Ritual Magic on you, you disgusting little thing!",
     "target_ru": "...Я собираюсь испробовать на тебе новую Ритуальную Магию, мерзкая тварь!"
-  },
-  {
-    "id": "028024",
-    "source_cn": "【秘偶技】星之虫-烈阳颂歌-增益",
-    "ref_en": "[Marionette Skill] Worm of Star - Solar Anthem - Buff",
-    "target_ru": "[Марионетка Skill] Worm of Star - Solar Anthem - Buff"
   },
   {
     "id": "028025",
@@ -19806,12 +19734,6 @@
     "target_ru": "[Испытание в подземелье] Статистика 53-го уровня"
   },
   {
-    "id": "028301",
-    "source_cn": "一些痕迹……难道是皮特购买的非凡材料留下的？",
-    "ref_en": "Some traces... could they have been left by the Beyonder material Pete bought?",
-    "target_ru": "Some traces... could they have been left by the Потусторонний material Pete bought?"
-  },
-  {
     "id": "028302",
     "source_cn": "一把长枪飞来，贯穿了你的身体",
     "ref_en": "A long spear flies over and pierces your body",
@@ -20542,12 +20464,6 @@
     "source_cn": "<Assistant_Title1>生产线</>\\n<Assistant_Title2>成就分类：</>休闲-城堡\\n<Assistant_Title2>解锁条件：</>四个工坊等级达到2级",
     "ref_en": "<Assistant_Title1>Production Line</>\\n<Assistant_Title2>Achievement Category: </>Leisure - May Manor · Castle\\n<Assistant_Title2>Unlock Condition: </>Four workshops reach Level 2",
     "target_ru": "<Assistant_Title1>Конвейерная линия</>\\n<Assistant_Title2>Категория достижения:</> Досуг — Поместье Мэй · Замок\\n<Assistant_Title2>Условие открытия:</> Улучшить 4 мастерские до 2-го уровня"
-  },
-  {
-    "id": "028424",
-    "source_cn": "<Name>#学徒除了送外卖还能干什么？</>在温暖的午后",
-    "ref_en": "<Name>#What can an Apprentice do besides delivering food?</> On a warm afternoon",
-    "target_ru": "<Name>#What can an Ученик do besides delivering food?</> On a warm afternoon"
   },
   {
     "id": "028425",
@@ -21450,12 +21366,6 @@
     "target_ru": "NPC_Телепорт_Верующий номер один"
   },
   {
-    "id": "028575",
-    "source_cn": "“猎人”们总攻前最后的休整地，充斥着战意的气息。占领后可攻击战争石碑，固定每分钟获得30点资源。",
-    "ref_en": "The final resting place for \"Hunters\" before their all-out attack, filled with the aura of Battle Intent. After occupying it, you can Attack the War Stele to gain 30 resources every minute.",
-    "target_ru": "The final resting place for \"Охотникs\" before their all-out attack, filled with the aura of Battle Intent. After occupying it, you can Attack the War Stele to gain 30 resources every minute."
-  },
-  {
     "id": "028576",
     "source_cn": "……喵。",
     "ref_en": "...Meow.",
@@ -21508,12 +21418,6 @@
     "source_cn": "乌洛琉斯残影",
     "ref_en": "Ouroboros Shadow",
     "target_ru": "Уроборос Тень"
-  },
-  {
-    "id": "028585",
-    "source_cn": "产生治疗时，对周身大范围内的敌人造成一次伤害，此效果有2秒内置冷却。",
-    "ref_en": "When healing is generated, deal damage to enemies in a large area around you; this effect has a 2-second internal cooldown.",
-    "target_ru": "When healing is generated, deal damage to enemies in a large area around you; this effect has a 2-second internal Перезарядка."
   },
   {
     "id": "028586",
@@ -22332,12 +22236,6 @@
     "target_ru": "Неряшливый"
   },
   {
-    "id": "028722",
-    "source_cn": "他果然是非凡者……而且那条<P_Yellow>领带</>还是神奇物品。",
-    "ref_en": "He really is a Beyonder... and that <P_Yellow> necktie </> is a mystical item.",
-    "target_ru": "He really is a Потусторонний... and that <P_Yellow> necktie </> is a mystical item."
-  },
-  {
     "id": "028723",
     "source_cn": "传送（单位：米）",
     "ref_en": "Teleport (Unit: Meters)",
@@ -23050,12 +22948,6 @@
     "source_cn": "<P_Heart>（不，不能回家！）</>",
     "ref_en": "<P_Heart>(No, I can't go home!)</>",
     "target_ru": "<P_Heart>(Нет, я не могу пойти домой!) </>"
-  },
-  {
-    "id": "028842",
-    "source_cn": "<P_Title><职业者></>邓恩史密斯：蒸汽与机械的浪潮中，谁能触及非凡。历史和黑暗的迷雾里",
-    "ref_en": "<P_Title>< Beyonder ></> Dunn Smith: In the tide of steam and machinery, who can touch the extraordinary? In the fog of history and darkness.",
-    "target_ru": "<P_Title>< Потусторонний ></> Данн Смит: In the tide of steam and machinery, who can touch the extraordinary? In the fog of history and darkness."
   },
   {
     "id": "028843",
@@ -23788,12 +23680,6 @@
     "source_cn": "<P_Heart>（耸肩）</>随你怎么说。反正我是不会花大价钱坐这种花里胡哨的船。",
     "ref_en": "<P_Heart> (Shrugs) </> Say what you want. Anyway, I wouldn't spend a fortune to ride such a flashy ship.",
     "target_ru": "<P_Heart> (пожимает плечами) </> Говори, что хочешь. В любом случае, я бы не стал тратить целое состояние, чтобы покататься на таком роскошном корабле."
-  },
-  {
-    "id": "028965",
-    "source_cn": "“火种二号”，能窃取对方的非凡能力。",
-    "ref_en": "“Fire Seed No. 2”, capable of stealing the target's Beyonder powers.",
-    "target_ru": "“Fire Seed No. 2”, capable of stealing the target's Потусторонний powers."
   },
   {
     "id": "028966",
@@ -24648,12 +24534,6 @@
     "target_ru": "【69】Устал..."
   },
   {
-    "id": "029108",
-    "source_cn": "【LV3】【秘偶技】寻踪魔弹-代理主技能",
-    "ref_en": "[LV3] [Marionette Skill] Tracking Magic Bullet - Agent Main Skill",
-    "target_ru": "[LV3] [Марионетка Skill] Tracking Magic Bullet - Agent Main Skill"
-  },
-  {
     "id": "029109",
     "source_cn": "【特效】落叶",
     "ref_en": "【Effect】 Fallen Leaves",
@@ -24682,12 +24562,6 @@
     "source_cn": "与Npc进行闲话  玩家发送任务道具  ",
     "ref_en": "Small talk with NPC, player sends quest item",
     "target_ru": "Небольшой разговор с NPC, игрок отправляет квестовый предмет"
-  },
-  {
-    "id": "029114",
-    "source_cn": "举个例子，假如你是“占卜家”，就可以考虑去占卜俱乐部，或是到街边支个占卜摊子，替人占卜，收获反馈。",
-    "ref_en": "For example, if you are a \"Seer,\" you could consider going to a Divination Club or setting up a divination stall on the street to divine for others and receive feedback.",
-    "target_ru": "For example, if you are a \"Провидец,\" you could consider going to a Гадание Club or setting up a Гадание stall on the street to divine for others and receive feedback."
   },
   {
     "id": "029115",
@@ -28632,12 +28506,6 @@
     "target_ru": "{{ Mr. | Ms. }}, это твой собственный велосипед?"
   },
   {
-    "id": "029772",
-    "source_cn": "……<P_Heart>（刚才我还在房间里，转眼就出现在这个神秘的地方，难不成……是非凡事件！）</>",
-    "ref_en": "...<P_Heart> (I was just in my room a moment ago, and in the blink of an eye, I appeared in this mysterious place. Could it be... a Beyonder incident!) </>",
-    "target_ru": "...<P_Heart> (I was just in my room a moment ago, and in the blink of an eye, I appeared in this mysterious place. Could it be... a Потусторонний incident!) </>"
-  },
-  {
     "id": "029773",
     "source_cn": "……咳，好重的血腥味。",
     "ref_en": "……Cough, such a heavy smell of blood.",
@@ -28678,12 +28546,6 @@
     "source_cn": "【占位-对话】在罗珊的介绍下，克莱恩和弗莱寒暄了一番。",
     "ref_en": "[Placeholder-Dialogue] Under Rozanne's introduction, Klein exchanges pleasantries with Frye.",
     "target_ru": "[Диалог-заполнитель] При представлении Розанны Клейн обменивается любезностями с Фраем."
-  },
-  {
-    "id": "029780",
-    "source_cn": "【超凡生物】棋子造成的伤害提高<HighLight>10%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>5%</>伤害减免。",
-    "ref_en": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>10%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>5%</> Damage Reduction.",
-    "target_ru": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>10%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>5%</> Снижение урона."
   },
   {
     "id": "029781",

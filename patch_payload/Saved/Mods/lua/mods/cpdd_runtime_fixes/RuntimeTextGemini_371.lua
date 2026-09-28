@@ -86,7 +86,6 @@ return {
     ["Maintain a curious heart for exploring extraordinary knowledge."] = "Сохраняйте любознательность сердца для изучения необыкновенных знаний.",
     ["Student Escape Path Point"] = "Точка пути эвакуации студентов",
     ["Respawn Point_Audrey"] = "Точка возрождения_Одри",
-    ["After a night of tossing and turning, Klein wakes up early the next day and heads to the Divination Club..."] = "After a night of tossing and turning, Klein wakes up early the next day and heads to the Гадание Club...",
     ["What is real? What is a phantom..."] = "Что реально? Что такое фантом...",
     ["Transformation Magic"] = "Трансформационная магия",
     ["What are Equipment entries"] = "Что такое записи об оборудовании",

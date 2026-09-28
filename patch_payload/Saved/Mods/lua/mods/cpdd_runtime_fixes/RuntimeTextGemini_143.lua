@@ -202,7 +202,6 @@ return {
     ["<Assistant_Title1>Gift of the Spirit Medium</>\n<Assistant_Title2>Achievement Category:</>Cultivation - Sealed Artifact\n<Assistant_Title2>Unlock Condition:</>Obtain 1 Extraordinary material with the <Spirit Medium> entry."] = "<Assistant_Title1>Дар Медиума</>\n<Assistant_Title2>Категория достижения: </>Развитие — Запечатанный Артефакт\n<Assistant_Title2>Условие разблокировки: </>Получить 1 потустороннюю субстанцию со свойством <Медиум>",
     ["Daily commission"] = "Ежедневная комиссия",
     ["Elegant Elegant"] = "Элегантный Элегантный",
-    ["He once barely survived by eating monsters, but the accumulated toxins distorted his sanity and body."] = "He once barely survived by eating monsters, but the accumulated toxins distorted his Рассудок and body.",
     ["Imprisonment Dodge_Value"] = "Тюремное заключение Dodge_Value",
     ["Pete Monster-Dodging Waypoint"] = "Путевая точка Пита, уклоняющегося от монстров",
     ["Due to intense combat in the current scene branch <PVPHighlight> </>, submitting Scarlet Relics will provide an additional <PVPHighlight> %s </> points of hunt progress."] = "Из-за интенсивных боев в текущей ветке сцены <PVPHighlight> </> отправка Алых реликвий обеспечит дополнительные <PVPHighlight> %s </> очки прогресса охоты.",

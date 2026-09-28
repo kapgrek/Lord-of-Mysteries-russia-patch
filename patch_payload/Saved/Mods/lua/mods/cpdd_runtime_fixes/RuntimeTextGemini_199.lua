@@ -242,7 +242,6 @@ return {
     ["Placeholder Text 000000"] = "Текст заполнителя 000000",
     ["Parick, guess how much perfume I sold this week? Three times last week's!"] = "Парик, угадай, сколько духов я продал на этой неделе? Три раза на прошлой неделе!",
     ["Tableware"] = "Посуда",
-    ["[True Form] If the immediate Health restoration effect below 20% is not triggered, reduce the skill's Cooldown by an additional 2 seconds."] = "[True Form] If the immediate Health restoration effect below 20% is not triggered, reduce the skill's Перезарядка by an additional 2 seconds.",
     ["<DecH>Crafting: </>Soft Silk - Lace Veil\nA certain emperor once left an unfinished sentiment in his diary. After long appreciation, this flavor must have deeply permeated your body and mind."] = "<DecH> Мастерство: </> Мягкий шелк и кружевная марля \n Однажды император оставил в своем дневнике незаконченную эмоцию. После долгого периода дегустации этот аромат, должно быть, глубоко проник в ваше тело и разум.",
     ["Combat Novice II"] = "Боевой новичок II",
     ["Some people work for money..."] = "Некоторые люди работают ради денег...",

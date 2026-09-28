@@ -234,7 +234,6 @@ return {
     ["[Temporary] 3 Red Lines"] = "[Временно] 3 красных линии",
     [">>>Bond data does not exist, bond ID: "] = ">>>Данные о облигации не существуют, идентификатор облигации:",
     ["Sorry, you did not meet the target for this distribution agreement."] = "К сожалению, вы не достигли цели по этому дистрибьюторскому соглашению.",
-    ["I must go to the Evil Dragon Bar and find Mr. Swain to get permission to enter the underground market."] = "I must go to the Evil бар «Злой Дракон» and find Mr. Swain to get permission to enter the underground market.",
     ["Every drowning person will struggle."] = "Каждый тонущий человек будет бороться.",
     ["Use to obtain <Highlight>Fluffy Folded Rabbit Ear Head Accessory</>"] = "Используйте, чтобы получить <Highlight>Пушистый аксессуар в виде сложенной головы кролика </>",
     ["<Highlight>Craft: </>Dark Night Velvet/Butterfly Dance Flower Ornament/Wide-hem Evening Gown\nIn the Midsummer Night's fairyland, what streaks across the sky is not only the wings of fairies, but also the fluttering of poetic hearts."] = "<Highlight> Мастерство: </> Темный ночной бархат, цветочный декор в виде бабочки, вечернее платье с широким подолом \n В стране чудес Летней Ночи по небу летают не только крылья эльфов, но и танцующие сердца поэзии.",

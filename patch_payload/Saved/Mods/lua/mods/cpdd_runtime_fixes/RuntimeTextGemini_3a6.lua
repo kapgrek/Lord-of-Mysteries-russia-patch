@@ -139,10 +139,8 @@ return {
     ["<DecH>套装文字:</>套装文字套装文字套装文字套装文字套装文字套装文字套装文字套装文字"] = "<DecH>Set Text:</>Set Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста Набор текста",
     ["<P_Heart>（铁十字街真热闹，去其他地方逛逛吧。）</>"] = "<P_Heart> (Улица Айрон-Кросс действительно оживленная, давайте сходим в другие места.) </>",
     ["D点结束区域"] = "Конечная зона точки D",
-    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[前往协助]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Тинген, praying for the Evernight Goddess's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive Her blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[Go to Assist]</>",
     ["【秘辛】加速效果提升至20%，减速效果提升至20%。"] = "[Секрет] Эффект ускорения увеличен до 20%, эффект замедления увеличен до 20%.",
     ["【表演】灵体山姆3"] = "[Представление] Дух Сэма 3",
-    ["不良的生活严重影响了他的健康，看来需要作为心理医生对他进行干预了。"] = "His poor lifestyle has severely affected his health. It seems I need to intervene as his Психиатр.",
     ["不过也很正常，它毕竟算是两百年前的历史文物了。"] = "Но это нормально; в конце концов, это исторический артефакт двухсотлетней давности.",
     ["不过这几天她都没有出现，出什么事了吗？"] = "Но она не появлялась уже несколько дней. Что-то случилось?",
     ["世界没有尽头"] = "У мира нет конца",
@@ -270,5 +268,7 @@ return {
     ["6名邻格友军提供36防御。"] = "6 союзников в соседних клетках дают 36 защиты.",
     ["王朝盛时，诸神来贺。整个国境内的欢呼，都被酿成一杯名为昌盛的祝酒。"] = "В расцвете династии боги явились с поздравлениями. Все радостные возгласы по всей стране слились в один тост, названный Процветанием.",
     ["If you want to open this treasure chest, you have to play a game with me."] = "Если хочешь открыть этот сундук с сокровищами, тебе придётся сыграть со мной в игру.",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷黑夜女神的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[前往协助]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for the Evernight Goddess's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive Her blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},227295011\">[Go to Assist]</>",
+    ["不良的生活严重影响了他的健康，看来需要作为心理医生对他进行干预了。"] = "His poor lifestyle has severely affected his health. It seems I need to intervene as his psychiatrist.",
     ["The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",
 }

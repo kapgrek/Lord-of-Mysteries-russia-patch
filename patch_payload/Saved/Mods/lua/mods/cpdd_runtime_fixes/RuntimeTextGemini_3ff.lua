@@ -115,8 +115,6 @@ return {
     ["上装上"] = "Верх верхней одежды",
     ["不可通过Action的方式手动配置，该Action是程序处理技能表里的后摇配置时，自动生成所依托的模板Action（类似DoFightAction）"] = "Невозможно настроить вручную с помощью действия; это действие представляет собой шаблонное действие (похожее на DoFightAction), автоматически создаваемое, когда программа обрабатывает конфигурацию после качания в таблице навыков.",
     ["主宰争锋规则"] = "Правила Dominator's Clash",
-    ["丽埃娜，我的职责不仅是查清案件，还有带回封印物，消除潜在的危险。"] = "Liana, my duty is not only to solve the case but also to bring back the Запечатанный артефакт and eliminate potential dangers.",
-    ["乌托邦剧院近日出现异常波动。某位外层存在的力量渗透现实，腐化了剧院内部分秘偶的残余意识，这些被腐化的秘偶试图通过与克莱恩相关的记忆物品，建立一条通向愚者精神的隐秘通道。一旦成功，母神将有能力影响愚者的精神，波及整个南大陆。教会需要有人进入曾经的乌托邦小镇，清理失控的秘偶，调查残存的记忆，最终切断污染的来源。"] = "Utopia Theater has recently experienced abnormal fluctuations. The power of an Outer Deity has permeated reality, corrupting the residual consciousness of some Марионеткаs within the theater. These corrupted Марионеткаs are attempting to establish a hidden channel to Шут's spirit through memory items related to Klein. Once successful, the Mother Goddess will have the ability to influence Шут's spirit, affecting the entire Southern Continent. The Church needs someone to enter the former town of Utopia, clear out the out-of-control Марионеткаs, investigate the remaining memories, and ultimately cut off the source of the Искажение.",
     ["他的顾虑太多了。这些年我一直想见他，但他总是拒绝。"] = "У него слишком много забот. Я хотел увидеть его много лет, но он всегда отказывался.",
     ["休息室"] = "Бездельничать",
     ["伟大的智慧，绝妙的启蒙！"] = "Великая мудрость, чудесное просветление!",
@@ -250,4 +248,6 @@ return {
     ["太阳圣徽已激活——净化即将降临！"] = "Священная эмблема Солнца активирована — Очищение неотвратимо приближается!",
     ["提取了%s战略金镑和%s绑定金镑到背包。"] = "Выведено %s стратегических Золотых фунтов и %s привязанных Золотых фунтов в инвентарь.",
     ["Uh, no, still trying... A person must have dreams; otherwise, what's the difference between them and a salted fish?"] = "Э-э, нет, всё ещё пытаюсь... у человека должны быть мечты, иначе чем он отличается от солёной рыбы?",
+    ["丽埃娜，我的职责不仅是查清案件，还有带回封印物，消除潜在的危险。"] = "Liana, my duty is not only to solve the case but also to bring back the Sealed Artifact and eliminate potential dangers.",
+    ["乌托邦剧院近日出现异常波动。某位外层存在的力量渗透现实，腐化了剧院内部分秘偶的残余意识，这些被腐化的秘偶试图通过与克莱恩相关的记忆物品，建立一条通向愚者精神的隐秘通道。一旦成功，母神将有能力影响愚者的精神，波及整个南大陆。教会需要有人进入曾经的乌托邦小镇，清理失控的秘偶，调查残存的记忆，最终切断污染的来源。"] = "Utopia Theater has recently experienced abnormal fluctuations. The power of an Outer Deity has permeated reality, corrupting the residual consciousness of some marionettes within the theater. These corrupted marionettes are attempting to establish a hidden channel to the Fool's spirit through memory items related to Klein. Once successful, the Mother Goddess will have the ability to influence the Fool's spirit, affecting the entire Southern Continent. The Church needs someone to enter the former town of Utopia, clear out the out-of-control marionettes, investigate the remaining memories, and ultimately cut off the source of the corruption.",
 }

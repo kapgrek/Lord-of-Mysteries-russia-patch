@@ -59,7 +59,6 @@ return {
     ["<DecH>工艺：</>防水皮革・雨夜外出装\n身着雨披行于街角，让绵密的水珠从身侧滑落，你就是夜里一盏温暖的灯。"] = "<DecH>Мастерство: </>Водоотталкивающая кожа · Наряд для дождливой ночи\nШагая по переулкам в дождевике, пока струи воды мягко стекают по плечам, вы сами становитесь теплым маяком во тьме.",
     ["<Gift>%s</>:为<Gift>%s</>送出<Gift>粉丝团灯牌+</><Gift>%s分</>！"] = "<Gift>%s</>: отправлено <Gift>%s</> световое табло фан-клуба <Gift> + </><Gift>%s очков </>!",
     ["<P_Yellow>爽文是不同世界不同人民的共同追求！</>"] = "<P_Yellow> «Освежающие» истории — общее занятие разных людей в разных мирах!</>",
-    ["<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果"] = "<Rank1>\"Level 1\"</> Запечатанный артефакт only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect",
     ["LinearColorParams 材质参数名称不可为空"] = "Имя параметра материала LinearColorParams не может быть пустым.",
     ["wave1_真"] = "волна1_True",
     ["{{他|她}} might be the key to awakening the master."] = "{{He|She}} может стать ключом к пробуждению мастера.",
@@ -72,7 +71,6 @@ return {
     ["不在原服务器或与队长不在同一个服，无法进入"] = "Не на исходном сервере или не на том же сервере, что и Капитан; не могу войти.",
     ["不如"] = "Не так хорошо, как",
     ["丛林圆舞·饰品"] = "Джунглевой вальс · Аксессуар",
-    ["为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。"] = "To help Azik Eggers recover his past, Klein established a long-term correspondence with him. The letters mostly consist of sharing historical clues, asking about Потусторонний knowledge, or informing him of travel plans, serving as an important bond for this mentor-friend relationship.",
     ["以晨曦之剑，刺破擅闯者的虚伪！"] = "Мечом Зари сокруши лицемерие нарушителей!",
     ["伤害：<HighLight>120%</>攻击"] = "Урон: атака <HighLight>120%</>.",
     ["你在摆摊中的上架功能已被冻结，如有疑问请询问系统管理员。"] = "Ваша функция размещения объявлений на прилавке была заморожена. Если у вас есть вопросы, задайте их системному администратору.",
@@ -269,5 +267,7 @@ return {
     ["Participate in <Highlight> Team Performance </>? After participating, you will perform in sync with leader <Highlight> </>."] = "Принять участие в <Highlight>совместном представлении команды</>? После участия вы будете <Highlight>синхронно выступать</> с лидером.",
     ["You go in yourself; I'm going to get the files Xiga asked for."] = "Заходи сам, а я пойду за файлами, которые попросил Сига.",
     ["I was just looking—Klo, help me!!"] = "Я просто смотрел... Кло, помоги мне!!",
+    ["<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果"] = "<Rank1>\"Level 1\"</> Sealed Artifact only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect",
+    ["为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。"] = "To help Azik Eggers recover his past, Klein established a long-term correspondence with him. The letters mostly consist of sharing historical clues, asking about Beyonder knowledge, or informing him of travel plans, serving as an important bond for this mentor-friend relationship.",
     ["完成通用条件表  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Полная таблица общего состояния. Плеер воспроизводит речевой текст, видимый только ему. Отложенное исполнение. Плеер воспроизводит речевой текст, видимый только ему.",
 }

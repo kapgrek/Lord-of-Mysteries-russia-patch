@@ -33,7 +33,6 @@ return {
     ["Gana"] = "Гана",
     ["Let me do something, shall I? Director."] = "Позвольте мне что-нибудь сделать? Дин.",
     ["To think you'd come up with something like that."] = "Если вы поместите что-то подобное, вы можете себе это представить.",
-    ["When healing is generated, deal damage to enemies in a large area around you; this effect has a 2-second internal cooldown."] = "When healing is generated, deal damage to enemies in a large area around you; this effect has a 2-second internal Перезарядка.",
     ["Claw Attack"] = "Нападение когтями",
     ["Chat Permission Settings Instructions"] = "Инструкции по настройке разрешений для чата",
     ["Favorites list is full; addition failed."] = "Список избранного заполнен; добавление не удалось.",

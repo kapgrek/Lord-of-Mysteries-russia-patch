@@ -4188,12 +4188,6 @@
     "target_ru": "Никакие изменения не допускаются! Убери руки! Все символы <P_Yellow> </> находятся на своих местах; никому не позволено прерывать это идеальное исполнение!"
   },
   {
-    "id": "110698",
-    "source_cn": "主动释放一次朗基努斯之枪后会使岁月的棋局的冷却时间减少3秒。",
-    "ref_en": "Actively casting Spear of Longinus once will reduce the Cooldown of Gambit of the Ages by 3 seconds.",
-    "target_ru": "Actively casting Spear of Longinus once will reduce the Перезарядка of Gambit of the Ages by 3 seconds."
-  },
-  {
     "id": "110699",
     "source_cn": "亨特的手指被轧断时，那声惨叫连蒸汽管道的漏气声都盖不住…… ",
     "ref_en": "When Hunter's finger was crushed, that scream was louder than the sound of the steam pipe leaking...",
@@ -4932,12 +4926,6 @@
     "target_ru": "Примечание"
   },
   {
-    "id": "110822",
-    "source_cn": "一期《廷根市老实人报》，上面骇人听闻的案件似乎与俱乐部的占卜师有关。",
-    "ref_en": "An issue of the Tingen Honest Newspaper; the shocking case reported seems to be related to the club's diviner.",
-    "target_ru": "An issue of the Тинген Honest Newspaper; the shocking case reported seems to be related to the club's diviner."
-  },
-  {
     "id": "110823",
     "source_cn": "不带你们好好欣赏一下，实在是显得我十分小气。",
     "ref_en": "It would be quite stingy of me not to let you all enjoy it properly.",
@@ -5668,12 +5656,6 @@
     "source_cn": "……那你是难过！",
     "ref_en": "...Then you are sad!",
     "target_ru": "...Тогда тебе грустно!"
-  },
-  {
-    "id": "110945",
-    "source_cn": "一位热心的传奇非凡者，随便编个故事就能骗去帮忙，还从不失手。",
-    "ref_en": "A helpful legendary Beyonder—you can make up any story to trick them into helping, and it works every time.",
-    "target_ru": "A helpful legendary Потусторонний—you can make up any story to trick them into helping, and it works every time."
   },
   {
     "id": "110946",
@@ -6408,12 +6390,6 @@
     "target_ru": "[Хвала Шуту]"
   },
   {
-    "id": "111068",
-    "source_cn": "“2”级危险物……危险、谨慎且节制使用，所以做这个动作是因为封印物的特殊性？",
-    "ref_en": "\"Grade 2\" dangerous object... Dangerous, use with caution and restraint. So, is this action performed because of the special nature of the Sealed Artifact?",
-    "target_ru": "\"Grade 2\" dangerous object... Dangerous, use with caution and restraint. So, is this action performed because of the special nature of the Запечатанный артефакт?"
-  },
-  {
     "id": "111069",
     "source_cn": "　　“在吃的法则里，风味重于一切。”当我吃到库克的菜时，才领会到了这句话的真谛。\\n　　如今，库克将海岸线的美味带到了廷根，和海岸线餐厅一同登上廷根餐厅榜首。",
     "ref_en": "\"In the laws of eating, flavor is more important than anything else.\" It was only when I tasted Cook's cooking that I truly understood the essence of this sentence. \\n Now, Cook has brought the delicious flavors of the coastline to Tingen, and together with Coastline Restaurant, they have topped the Tingen restaurant rankings.",
@@ -7102,12 +7078,6 @@
     "source_cn": "Hello, {{PlayerName}}{{先生|女士}}, happy to be of service.",
     "ref_en": "Hello, {{PlayerName}}{{Sir|Madam}}, happy to be of service.",
     "target_ru": "Здравствуйте, {{PlayerName}}{{Sir|Madam}}, рад быть вам полезен."
-  },
-  {
-    "id": "111184",
-    "source_cn": "……不管怎么说，我不能放任一个超凡生物在外游荡。",
-    "ref_en": "……In any case, I cannot leave a Beyonder creature wandering outside.",
-    "target_ru": "……In any case, I cannot leave a Потусторонний creature wandering outside."
   },
   {
     "id": "111185",
@@ -9456,18 +9426,6 @@
     "target_ru": "...Помнить? Моя музыка однажды помогла тебе решить ту проблему в кафе."
   },
   {
-    "id": "111576",
-    "source_cn": "【本相】释放二段技能灰雾加持或者灰雾压制后，降低自身解控技能冷却时间3秒。",
-    "ref_en": "[True Form] After releasing the second-stage skill gray fog Blessing or gray fog Suppression, reduce the Cooldown of own Cleanse skills by 3 seconds.",
-    "target_ru": "[True Form] After releasing the second-stage skill gray fog Blessing or gray fog Suppression, reduce the Перезарядка of own Снятие контроляs by 3 seconds."
-  },
-  {
-    "id": "111577",
-    "source_cn": "【浅见】梦魇命中目标后有30%基础概率附加滞涩，持续3秒，生成的仪式魔法附加5%减速。",
-    "ref_en": "[Insight] After Nightmare hits a target, it has a 30% base chance to apply Stagnation for 3 seconds, and the generated Ritual Magic applies a 5% Slow.",
-    "target_ru": "[Insight] After Кошмар hits a target, it has a 30% base chance to apply Stagnation for 3 seconds, and the generated Ritual Magic applies a 5% Slow."
-  },
-  {
     "id": "111578",
     "source_cn": "【触发器】（中间路）触发唱词区域2",
     "ref_en": "[Trigger] (Middle path) Trigger chant area 2",
@@ -9502,12 +9460,6 @@
     "source_cn": "为啥不走后处理？",
     "ref_en": "Why not use post-processing?",
     "target_ru": "Почему бы не использовать постобработку?"
-  },
-  {
-    "id": "111584",
-    "source_cn": "他们尝试去接触一个非凡物品，那东西具备活着的特性，最终……没有一个人幸存。",
-    "ref_en": "They tried to make contact with a Beyonder item. That thing possessed living characteristics, and in the end... not a single person survived.",
-    "target_ru": "They tried to make contact with a Потусторонний item. That thing possessed living characteristics, and in the end... not a single person survived."
   },
   {
     "id": "111585",
@@ -9766,12 +9718,6 @@
     "source_cn": "平台Trigger",
     "ref_en": "Platform Trigger",
     "target_ru": "Триггер платформы"
-  },
-  {
-    "id": "111628",
-    "source_cn": "应该都涉及到了非凡领域，得谨慎一些。",
-    "ref_en": "Should all involve the Beyonder realm, must be cautious.",
-    "target_ru": "Should all involve the Потусторонний realm, must be cautious."
   },
   {
     "id": "111629",
@@ -10204,12 +10150,6 @@
     "source_cn": "主宰争锋达到天使之王段位",
     "ref_en": "Reach King of Angels rank in Dominator's Clash",
     "target_ru": "Достигните ранга Короля Ангелов в Dominator's Clash."
-  },
-  {
-    "id": "111701",
-    "source_cn": "他们是贝克兰德教区的同行，护送着封印物“2-049”过来，同时支援我们完成任务。",
-    "ref_en": "They are colleagues from the Backlund Diocese, escorting the Sealed Artifact 2-049 here while supporting us in completing the mission.",
-    "target_ru": "They are colleagues from the Бэкланд Diocese, escorting the Запечатанный артефакт 2-049 here while supporting us in completing the mission."
   },
   {
     "id": "111702",
@@ -14022,12 +13962,6 @@
     "target_ru": "[Авто-шахматы] — «Чудо-призыватель» Мерлин — Базовая атака — Чудо-карта"
   },
   {
-    "id": "112337",
-    "source_cn": "万一他们真是失控非凡者……还是去看看吧",
-    "ref_en": "In case they really are out-of-control Beyonders... better go take a look.",
-    "target_ru": "In case they really are out-of-control Потустороннийs... better go take a look."
-  },
-  {
     "id": "112338",
     "source_cn": "上次你说要搬家，搬了吗？",
     "ref_en": "Last time you said you were moving, did you move?",
@@ -14854,12 +14788,6 @@
     "source_cn": "不堪重负",
     "ref_en": "Overwhelmed",
     "target_ru": "Перегруженный"
-  },
-  {
-    "id": "112476",
-    "source_cn": "两份银白的魔药，两个新生的“观众”。",
-    "ref_en": "Two silver-white potions, two newborn \"Spectators\".",
-    "target_ru": "Two silver-white potions, two newborn \"Зрительs\"."
   },
   {
     "id": "112477",
@@ -17748,12 +17676,6 @@
     "target_ru": "Битва доминаторов · Претендент"
   },
   {
-    "id": "112958",
-    "source_cn": "之前从塔罗会那里拿到了2-049的复制品，应该能在这里派上用场。",
-    "ref_en": "I previously obtained a replica of 2-049 from the Tarot Club; it should come in handy here.",
-    "target_ru": "I previously obtained a replica of 2-049 from the Клуб Таро; it should come in handy here."
-  },
-  {
     "id": "112959",
     "source_cn": "买下衣服",
     "ref_en": "Buy the clothes",
@@ -19338,12 +19260,6 @@
     "target_ru": "Замаскированная личность эксперта — самый известный <P_Yellow>Medium</> в округе Авва."
   },
   {
-    "id": "113223",
-    "source_cn": "两个问题的答案一次在占卜桌的椅子上，一次在桌面……<P_Yellow>线索似乎仍然在指向占卜这件事</>？",
-    "ref_en": "The answers to the two questions were once on the chair of the divination table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of divination</>?",
-    "target_ru": "The answers to the two questions were once on the chair of the Гадание table, and once on the tabletop... <P_Yellow>The clues seem to still be pointing to the act of Гадание</>?"
-  },
-  {
     "id": "113224",
     "source_cn": "乘马车前往铁十字街",
     "ref_en": "Take a carriage to Iron Cross Street.",
@@ -20854,12 +20770,6 @@
     "source_cn": "【47】溜门撬锁",
     "ref_en": "【47】Lockpicking",
     "target_ru": "【47】Взлом замков"
-  },
-  {
-    "id": "113476",
-    "source_cn": "【临时】克莱恩回想着这段时间的占卜，脑中浮现出黄水晶，突然有一些感悟。",
-    "ref_en": "[Placeholder] Klein recalled the divination from this period, and a yellow crystal appeared in his mind; he suddenly had some insights.",
-    "target_ru": "[Placeholder] Klein recalled the Гадание from this period, and a yellow crystal appeared in his mind; he suddenly had some insights."
   },
   {
     "id": "113477",
@@ -24468,12 +24378,6 @@
     "target_ru": "[Статистика] Атрибуты теста ДПС"
   },
   {
-    "id": "114078",
-    "source_cn": "【超凡生物】棋子造成的伤害提高<HighLight>50%</>；参战<HighLight>4</>个玩家对战回合后，额外获得<HighLight>25%</>伤害减免。",
-    "ref_en": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Damage Reduction.",
-    "target_ru": "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Снижение урона."
-  },
-  {
     "id": "114079",
     "source_cn": "【采集物】第一根线",
     "ref_en": "【Collectible】 First line",
@@ -25986,12 +25890,6 @@
     "target_ru": "Сегодня вечером Тинген станет более миролюбивым из-за вашего острого восприятия."
   },
   {
-    "id": "114331",
-    "source_cn": "从塔罗的学员，也就是你们这里，我获得了许多曾经苦求不得的帮助，也解开了许多不得其解的谜团。",
-    "ref_en": "From the students of the Tarot Club, that is, you all, I have gained much help that I once struggled to obtain, and have also unraveled many mysteries that I could not solve.",
-    "target_ru": "From the students of the Клуб Таро, that is, you all, I have gained much help that I once struggled to obtain, and have also unraveled many mysteries that I could not solve."
-  },
-  {
     "id": "114332",
     "source_cn": "他们这是在干什么？",
     "ref_en": "What are they doing?",
@@ -27394,12 +27292,6 @@
     "source_cn": "人脉闲聊话题-老尼尔3",
     "ref_en": "Connection Chat Topic - Old Neil 3",
     "target_ru": "Тема чата Connection - Старина Нил 3"
-  },
-  {
-    "id": "114566",
-    "source_cn": "从塔罗学派获得很多帮助，或许可以经常回去，协助处理一些事件。",
-    "ref_en": "I've received a lot of help from the Tarot Club; perhaps I can return often to assist in handling some events.",
-    "target_ru": "I've received a lot of help from the Клуб Таро; perhaps I can return often to assist in handling some events."
   },
   {
     "id": "114567",

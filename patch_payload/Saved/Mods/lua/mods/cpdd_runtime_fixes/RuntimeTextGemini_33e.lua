@@ -103,7 +103,6 @@ return {
     ["Enter Ride Along"] = "Введите поездку вместе",
     ["Abaddon - 1 Star"] = "Абаддон — 1 звезда",
     ["Little people... haha, so many little people..."] = "Маленькие люди... хаха, так много маленьких людей...",
-    ["[Marionette Skill] Fate Turbulence First Stage - Black"] = "[Марионетка Skill] Fate Turbulence First Stage - Black",
     ["New Divine Favor Arrival"] = "Новое поступление Божественной милости",
     ["Divine Weapon Healing"] = "Божественное исцеление оружием",
     ["Feel it carefully"] = "Почувствуйте это внимательно",

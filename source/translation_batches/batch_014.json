@@ -882,18 +882,6 @@
     "target_ru": "На самом деле я вообще не присутствовал на собеседовании. Я заранее нашел другую работу и начал ее только сегодня с еженедельной зарплатой в три фунта."
   },
   {
-    "id": "065147",
-    "source_cn": "二是通过占卜寻找其它获取“小丑”魔药的途径。",
-    "ref_en": "The second is to find other ways to obtain the 'Clown' potion through divination.",
-    "target_ru": "The second is to find other ways to obtain the 'Клоун' potion through Гадание."
-  },
-  {
-    "id": "065148",
-    "source_cn": "于神战遗迹的隐秘角落，埋藏着诸多失落遗物与禁忌知识。使用<Highlight>叹息之种</>开启仪式，循着指引完成仪式，你将收集到<Highlight>猎杀进度</>与<Highlight>猩红遗物</>。将其呈递给那位自称<Highlight>猎杀管家</>的苍白身影，即可换取<Highlight>属于你的那份非凡馈赠</>。",
-    "ref_en": "In the hidden corners of the Relics of the God War, many lost relics and Forbidden Knowledge are buried. Use <Highlight> Seed of Sighs </> to start the ritual, follow the guidance to complete the ritual, and you will collect <Highlight> Hunting Progress </> and <Highlight> Scarlet Relics </>. Present them to the pale figure who calls himself the <Highlight> Hunting Butler </> to exchange for <Highlight> that Beyonder gift belonging to you </>.",
-    "target_ru": "In the hidden corners of the Relics of the God War, many lost relics and Forbidden Knowledge are buried. Use <Highlight> Seed of Sighs </> to start the ritual, follow the guidance to complete the ritual, and you will collect <Highlight> Hunting Progress </> and <Highlight> Scarlet Relics </>. Present them to the pale figure who calls himself the <Highlight> Hunting Butler </> to exchange for <Highlight> that Потусторонний gift belonging to you </>."
-  },
-  {
     "id": "065149",
     "source_cn": "任务用trigger",
     "ref_en": "Quest Trigger",
@@ -2478,18 +2466,6 @@
     "target_ru": "[Марионетка Skill] Druid Духовное тело LV5"
   },
   {
-    "id": "065413",
-    "source_cn": "一键将角色提升到超R玩家的属性，并解锁系统，提升序列，添加药品。",
-    "ref_en": "One-click boost character to super-whale player stats, unlock systems, advance Sequence, and add potions.",
-    "target_ru": "One-click boost character to super-whale player stats, unlock systems, advance Последовательность, and add potions."
-  },
-  {
-    "id": "065414",
-    "source_cn": "上次调查的结果提交给总部，圣堂的回复是“最深处的污染来自红月之上”。",
-    "ref_en": "The results of the last investigation were submitted to headquarters. The Cathedral's reply was \"the deepest corruption comes from above the Red Moon\".",
-    "target_ru": "The results of the last investigation were submitted to headquarters. The Cathedral's reply was \"the deepest Искажение comes from above the Red Moon\"."
-  },
-  {
     "id": "065415",
     "source_cn": "丰饶之树_5200138_德鲁伊普通_流星代理_6秒",
     "ref_en": "Tree of Abundance_5200138_Druid Normal_Meteor Proxy_6s",
@@ -4060,12 +4036,6 @@
     "source_cn": "Boss战_子爵夫人_就绪",
     "ref_en": "Boss Battle - Viscountess - Ready",
     "target_ru": "Битва с боссом — Виконтесса — Готово"
-  },
-  {
-    "id": "065677",
-    "source_cn": "Obtain 1 Beyonder material with {欺瞒导师} entry",
-    "ref_en": "Obtain 1 Beyonder material with {Mentor of Deceit} entry",
-    "target_ru": "Obtain 1 Потусторонний material with {Mentor of Deceit} entry"
   },
   {
     "id": "065678",
@@ -10458,12 +10428,6 @@
     "target_ru": "**Странный** туалет. Его предыдущий владелец явно проводил здесь какой-то ритуал. Результаты ритуала остаются внутри, источая **странный** запах, и он отказывается признаваться цивилизованным обществом."
   },
   {
-    "id": "066743",
-    "source_cn": "不用谢，这只是一个街头魔术师的日常表演。",
-    "ref_en": "No need to thank me, this is just a daily performance for a street magician.",
-    "target_ru": "No need to thank me, this is just a daily performance for a street Фокусник."
-  },
-  {
     "id": "066744",
     "source_cn": "不错。先闻闻<P_Yellow>“绿色心情”</>，这能让你知晓第一轮比赛题目。",
     "ref_en": "Not bad. First, smell the <P_Yellow>\"Green Mood\"</>, this will let you know the topic of the first round.",
@@ -14334,12 +14298,6 @@
     "target_ru": "NPC (Мужчина)"
   },
   {
-    "id": "067389",
-    "source_cn": "Obtain 1 Beyonder material with the {正义导师} entry",
-    "ref_en": "Obtain 1 Beyonder material with the {Justiciar} entry",
-    "target_ru": "Obtain 1 Потусторонний material with the {Justiciar} entry"
-  },
-  {
     "id": "067390",
     "source_cn": "“未来号”大副，称号“毒素专家”，对生物研究有着极大的兴趣和高超的技术，培养出的神奇蘑菇为神弃之地的人们提供了更好的生存环境。",
     "ref_en": "First mate of the \"Future,\" titled \"Toxin Expert.\" He has a great interest in biological research and possesses superb techniques. The Magic Mushrooms he cultivated have provided a better living environment for the people in the Forsaken Land of the Gods.",
@@ -14374,12 +14332,6 @@
     "source_cn": "不得不说，你父亲对你的培养是有效果的。",
     "ref_en": "I must say, your father's upbringing has been effective.",
     "target_ru": "Надо сказать, воспитание вашего отца было эффективным."
-  },
-  {
-    "id": "067396",
-    "source_cn": "主线组件-加速圈（灵性之跃）",
-    "ref_en": "Main Quest Component - Acceleration Ring (Leap of Spirituality)",
-    "target_ru": "Main Quest Component - Acceleration Ring (Leap of Духовность)"
   },
   {
     "id": "067397",
@@ -15046,12 +14998,6 @@
     "source_cn": "……你占卜的结果是对的吗？",
     "ref_en": "……Is the result of your divination correct?",
     "target_ru": "……Is the result of your Гадание correct?"
-  },
-  {
-    "id": "067508",
-    "source_cn": "……这让我想到罗塞尔日记里，大帝说过的那句话：“占卜家”总是说一半藏一半，从来不把事情讲明白吗？",
-    "ref_en": "……This reminds me of that line from Roselle's diary, where the Emperor said: “Seers” always say half and hide half, never explaining things clearly?",
-    "target_ru": "……This reminds me of that line from Roselle's diary, where the Emperor said: “Провидецs” always say half and hide half, never explaining things clearly?"
   },
   {
     "id": "067509",
@@ -15850,12 +15796,6 @@
     "source_cn": "【塔罗会·弓箭骑士】档6增量(+25%)→累计190%",
     "ref_en": "【Tarot Club · Archer Knight】Tier 6 increment (+25%) → cumulative 190%",
     "target_ru": "【Клуб Таро · Рыцарь-лучник】Прирост 6 уровня (+25%) → совокупно 190%"
-  },
-  {
-    "id": "067642",
-    "source_cn": "一号信徒一阶段减伤Buff移除破碎",
-    "ref_en": "Believer Number One Stage 1 damage reduction buff removal shatter",
-    "target_ru": "Believer Number One Stage 1 Снижение урона buff removal shatter"
   },
   {
     "id": "067643",
@@ -22014,18 +21954,6 @@
     "target_ru": "Деннис хочет избежать большего риска, уйдя в отставку; какой трус."
   },
   {
-    "id": "068669",
-    "source_cn": "乌托邦剧院是“愚者”先生留下的封印物，但内部回廊最近发生了异变，希望里面的“演员”还认得自己的剧本。",
-    "ref_en": "The Utopia Theater is a Sealed Artifact left by Mr. Fool, but the internal corridors have recently undergone mutations; I hope the \"actors\" inside still recognize their scripts.",
-    "target_ru": "The Utopia Theater is a Запечатанный артефакт left by Mr. Fool, but the internal corridors have recently undergone mutations; I hope the \"actors\" inside still recognize their scripts."
-  },
-  {
-    "id": "068670",
-    "source_cn": "乌黯魔狼很擅长躲藏，深谙占卜家途径的生存之道，直到祂遇到愚者。",
-    "ref_en": "The Dark Demonic Wolf is very good at hiding and understands the survival ways of the Seer Pathway, until He met the Fool.",
-    "target_ru": "The Dark Demonic Wolf is very good at hiding and understands the survival ways of the Провидец Pathway, until He met Шут."
-  },
-  {
     "id": "068671",
     "source_cn": "二楼路障",
     "ref_en": "Second Floor Roadblock",
@@ -22708,12 +22636,6 @@
     "source_cn": "<Assistant_Title1>【Water Lily Town】</>\\n<Assistant_Title2>Map Introduction:</>A quiet settlement built by the water; all signs seem to be related to the secret of the Water Lily Fairy...\\n<Assistant_Title2>【Order World】:</>\\n<Assistant_Title3>① Original Work Old Dreams:</>\\n{JumpToUI:足迹追寻|1301092}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:隐秘空间|1301097}  {JumpToUI:时虫宝藏|1301098}  {JumpToUI:风尚沙龙|1301911}  {JumpToUI:诡变宝箱|1301096}  {JumpToUI:异象之物|1301090}  {JumpToUI:非凡扮演|1301961}\\n<Assistant_Title2>【Era Quests】:</>\\n{JumpToUI:时代百态|1302435}  {JumpToUI:时代逸闻|1302436}  {JumpToUI:扮演故事|1302437}",
     "ref_en": "<Assistant_Title1>【Water Lily Town】</>\\n<Assistant_Title2>Map Introduction:</>A quiet settlement built by the water; all signs seem to be related to the secret of the Water Lily Fairy...\\n<Assistant_Title2>【Order World】:</>\\n<Assistant_Title3>① Original Work Old Dreams:</>\\n{JumpToUI:Footprint Pursuit|1301092}\\n<Assistant_Title3>② World Gameplay:</>\\n{JumpToUI:Secret Space|1301097}  {JumpToUI:Time Worm Treasure|1301098}  {JumpToUI:Fashion Salon|1301911}  {JumpToUI:Strange Treasure Chest|1301096}  {JumpToUI:Anomalous Objects|1301090}  {JumpToUI:Beyonder Acting|1301961}\\n<Assistant_Title2>【Era Quests】:</>\\n{JumpToUI:Era Life|1302435}  {JumpToUI:Era Anecdotes|1302436}  {JumpToUI:Acting Story|1302437}",
     "target_ru": "<Assistant_Title1>【Город водяных лилий】</>\n<Assistant_Title2>Введение на карте:</>Тихое поселение, построенное у воды; все знаки, кажется, связаны с тайной Феи Водяной Лилии...\n<Assistant_Title2>【Порядок Мира】:</>\n<Assistant_Title3>① Оригинальная работа Old Dreams:</>\n{JumpToUI:Footprint Pursuit|1301092}\n<Assistant_Title3>② Мир Геймплей:</>\n{JumpToUI:Secret Space|1301097} {JumpToUI:Time Bug Treasure|1301098} {JumpToUI:Салон мод|1301911} {JumpToUI: Странный сундук с сокровищами|1301096} {JumpToUI: Visionary Objects|1301090} {JumpToUI: Extraordinary Play|1301961}\n<Assistant_Title2>【Era Quests】:</>\n{JumpToUI:Разнообразие времен|1302435} {JumpToUI:Анекдоты из тех времен|1302436} {JumpToUI:Игровые истории|1302437}"
-  },
-  {
-    "id": "068785",
-    "source_cn": "<Chat_Telegram>赞美愚者！</>{{player.name}}<Chat_Telegram>被命运眷顾，自灵界召唤获得了</>{{item.name}}<Chat_Telegram>，令风尚之光重现世间！</>",
-    "ref_en": "<Chat_Telegram> Praise the Fool! </>{{player.name}}<Chat_Telegram> has been favored by fate and has summoned </>{{item.name}}<Chat_Telegram> from the Spirit World, bringing the light of fashion back to the world! </>",
-    "target_ru": "<Chat_Telegram> Praise Шут! </>{{player.name}}<Chat_Telegram> has been favored by fate and has summoned </>{{item.name}}<Chat_Telegram> from the Spirit World, bringing the light of fashion back to the world! </>"
   },
   {
     "id": "068786",
@@ -25866,12 +25788,6 @@
     "target_ru": "[01] Жених"
   },
   {
-    "id": "069311",
-    "source_cn": "【幸运悖论】的作用，灵性充盈时能挡子爵夫人的致命一击。",
-    "ref_en": "The effect of [Paradox of Luck]: When spirituality is full, it can block the Viscountess's critical hit.",
-    "target_ru": "The effect of [Paradox of Luck]: When Духовность is full, it can block the Viscountess's critical hit."
-  },
-  {
     "id": "069312",
     "source_cn": "【表演】伊琳捂住胸口，泪水从眼中涌出。",
     "ref_en": "[Performance] Irene clutches her chest, tears streaming from her eyes.",
@@ -27424,12 +27340,6 @@
     "source_cn": "为了家人！为了明天！",
     "ref_en": "For my family! For tomorrow!",
     "target_ru": "Для моей семьи! На завтра!"
-  },
-  {
-    "id": "069571",
-    "source_cn": "乌托邦剧院秘偶刷新时，如果出现与许愿秘偶同品质的秘偶，有80%概率是许愿秘偶。如果本次没有出现许愿秘偶，则下一次必定是许愿秘偶。",
-    "ref_en": "When marionettes refresh in the Utopia Theater, if a marionette of the same quality as the Wish Marionette appears, there is an 80% probability that it is the Wish Marionette. If the Wish Marionette does not appear this time, the next one is guaranteed to be the Wish Marionette.",
-    "target_ru": "When Марионеткаs refresh in the Utopia Theater, if a Марионетка of the same quality as the Wish Марионетка appears, there is an 80% probability that it is the Wish Марионетка. If the Wish Марионетка does not appear this time, the next one is guaranteed to be the Wish Марионетка."
   },
   {
     "id": "069572",
@@ -29680,12 +29590,6 @@
     "source_cn": "不——！",
     "ref_en": "No—!",
     "target_ru": "Нет-!"
-  },
-  {
-    "id": "069947",
-    "source_cn": "主要是鲁恩的钱贬值的厉害！会员可以免费使用俱乐部的会议室和各种占卜房、占卜工具，免费享用我们提供的咖啡和茶水，免费阅读我们订的报纸和杂志。",
-    "ref_en": "Mainly because the Loen currency has depreciated significantly! Members can use the club's conference room and various divination rooms and tools for free, enjoy our provided coffee and tea for free, and read the newspapers and magazines we subscribe to for free.",
-    "target_ru": "Mainly because the Loen currency has depreciated significantly! Members can use the club's conference room and various Гадание rooms and tools for free, enjoy our provided coffee and tea for free, and read the newspapers and magazines we subscribe to for free."
   },
   {
     "id": "069948",

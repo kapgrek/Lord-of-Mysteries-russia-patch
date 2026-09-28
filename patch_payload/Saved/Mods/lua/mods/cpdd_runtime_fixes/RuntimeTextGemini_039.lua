@@ -177,7 +177,6 @@ return {
     ["Open to randomly receive 1 piece of <Highlight>Item Level 66</> <Highlight>Competition-oriented</> orange Equipment."] = "Откройте, чтобы случайным образом получить 1 предмет <Highlight>Предмет 66 уровня </> <Highlight>Оранжевое снаряжение </>, ориентированное на соревнования.",
     ["Give Up Bidding"] = "Откажитесь от торгов",
     ["Temporary Stall Owner"] = "Временный владелец ларька",
-    ["Ms. “Magician”, I have read your “Storm Villa”, it is very wonderful!"] = "Ms. “Фокусник”, I have read your “Storm Villa”, it is very wonderful!",
     ["Monster Marionette - Heavy Axe Knight"] = "Монстр-марионетка - Рыцарь с тяжелым топором",
     ["Dog Language"] = "Язык собаки",
     ["Go on stage to check Irene's condition"] = "Выйдите на сцену, чтобы проверить состояние Ирен.",

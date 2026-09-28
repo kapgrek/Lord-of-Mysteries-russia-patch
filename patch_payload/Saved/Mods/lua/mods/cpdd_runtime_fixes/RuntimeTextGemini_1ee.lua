@@ -60,7 +60,6 @@ return {
     ["<P_Heart> (Blankly) </> Refusing change... stagnation..."] = "<P_Heart> (пусто) </> Отказ от перемен... застой...",
     ["Grace Affix - Hat - 2-2"] = "Модификатор Грейс — Шляпа — 2-2",
     ["That's right, I didn't find any, and the content on the sales record has all been crossed out. The mystical items should really have all been sold."] = "Правильно, я ничего не нашел, а в записи о продажах все вычеркнуто. Все мистические предметы действительно должны были быть проданы.",
-    ["<Yellow>Weakness Attack</>: When the wearer attacks the main target, they can apply the <Yellow>Weakness Exposed</> effect, revealing up to 1 stack per second, for a maximum of <Yellow>30</> stacks. For every <Yellow>15</> stacks consumed, you can pull the trigger of Death Knell, attacking the target's spirit body to deal <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> damage, reduce incoming Healing by <Yellow>70%</> for <Yellow>3 seconds</>, and reduce movement speed by <Yellow>*f**</>. Additionally, there is a <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> base probability to Stun the target for <Yellow>1 second</>. If the target is in a Super Armor state, re-apply <Yellow>3</> stacks of Weakness Exposed to them."] = "<Yellow>Weakness Attack</>: When the wearer attacks the main target, they can apply the <Yellow>Weakness Exposed</> effect, revealing up to 1 stack per second, for a maximum of <Yellow>30</> stacks. For every <Yellow>15</> stacks consumed, you can pull the trigger of Death Knell, attacking the target's Духовное тело to deal <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> damage, reduce incoming Healing by <Yellow>70%</> for <Yellow>3 seconds</>, and reduce Скорость бега by <Yellow>*f**</>. Additionally, there is a <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> base probability to Stun the target for <Yellow>1 second</>. If the target is in a Суперброня state, re-apply <Yellow>3</> stacks of Weakness Exposed to them.",
     ["About weather and Beyonder phenomena"] = "О погоде и явлениях Потусторонний",
     ["12480 Pounds."] = "12480 фунтов.",
     ["Very well, I think I need your help."] = "Очень хорошо, думаю, мне нужна твоя помощь.",
@@ -85,7 +84,6 @@ return {
     ["专有名词"] = "Терминология",
     ["什、什么？我还没说。"] = "Ч-что? Я не закончил.",
     ["今日首胜获得胜点x2，剩余<highlight>%s</>次"] = "Первая победа дня приносит 2x победных очка, осталось <highlight>%s</> раз.",
-    ["他是我们俱乐部的一位老朋友，曾经是我们这的占卜家导师。"] = "He was an old friend of our club and once served as our Гадание mentor.",
     ["伤害提升40%"] = "Урон увеличен на 40%.",
     ["体内流淌着少许巨人血脉，最大生命值提高35%。"] = "Благодаря наличию родословной гигантов максимальное здоровье увеличено на 35%.",
     ["你为什么独自在这里练习？"] = "Почему ты тренируешься здесь один?",
@@ -304,6 +302,7 @@ return {
     ["Simmons didn't come back. He saved twenty-two people on Highland 56, including me."] = "Симмонс не вернулся. На высоте номер 56 он спас двадцать два человека, включая меня.",
     ["But a bolt of lightning shattered the enemy's offensive. The officer said it was extreme weather, but who knows the truth?"] = "Но молния разбила натиск врага. Командир сказал, что это было экстремальное явление погоды, но кто знает правду?",
     ["是否离开胜者宣言大会？"] = "Покинуть Собрание провозглашения победителя?",
+    ["他是我们俱乐部的一位老朋友，曾经是我们这的占卜家导师。"] = "He was an old friend of our club and once served as our divination mentor.",
     ["%s记忆碎片：%s"] = "%s Фрагмент памяти: %s",
     ["<P_Yellow>小丑</>：哈哈！又有人来了！来看笑话？还是来送死的？"] = "<P_Yellow>Клоун</>: Хаха! Здесь кто-то еще! Ты здесь, чтобы посмотреть анекдот? Или умереть?",
 }

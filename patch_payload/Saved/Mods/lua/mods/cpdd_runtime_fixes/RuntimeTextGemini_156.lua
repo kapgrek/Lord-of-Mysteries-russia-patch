@@ -30,7 +30,6 @@ return {
     ["Reveal your identity to <h>Duncan</>"] = "Раскройте свою личность <h>Duncan</>",
     ["Pounce on the enemy with the lowest health, usually dealing <HighLight>180%</> attack damage; if the target's health is not higher than 35%, it changes to <HighLight>260%</> and restores <HighLight>8%</> of max health."] = "Совершает бросок на врага с наименьшим запасом здоровья, нанося <HighLight>180%</> урона от атаки; если здоровье цели не превышает 35%, наносит <HighLight>260%</> урона и восстанавливает <HighLight>8%</> от макс. запаса здоровья.",
     ["Lazy Cat Lady"] = "Ленивая кошатница",
-    ["Black Thorn Event 3-Rock King-Tracking Mark-Degradation"] = "Событие Black Thorn 3-Rock King-Mark-Tracking-Degradation",
     ["Complete one [Dominator's Clash] in a team"] = "Завершите одно [Битву Доминаторов] в команде.",
     ["……Is it alcohol? Go live your life with your alcohol!"] = "……Это алкоголь? Иди, живи своей жизнью со своим алкоголем!",
     ["<P_Heart> (Startled) </> N-no. I was just thinking about something……"] = "<P_Heart> (вздрагивает) </> N-нет. Я просто о чем-то думал……",

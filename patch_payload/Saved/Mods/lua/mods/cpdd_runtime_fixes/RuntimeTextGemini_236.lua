@@ -40,7 +40,6 @@ return {
     ["Use to obtain <Highlight>Fairy Tale Tea Party Socks</>"] = "Используйте, чтобы получить <Highlight>Носки для чаепития «Сказка»</>",
     ["My balcony only has a small hole, just patch it up. 2 soli including labor, how about it?"] = "У меня на балконе только маленькая дырка, надо ее залатать. 8 суле, включая работу, как насчет этого?",
     ["...Anyway, later the family lost its income, but fortunately I found this job, selling tickets for the rich young master over there."] = "...Так или иначе, потом семья потеряла доход, но я, к счастью, нашел эту работу, продавая билеты вон тому богатому молодому господину.",
-    ["[Marionette Skill] Viscountess Ghost - Death Random Target Selection - 2nd Time"] = "[Марионетка Skill] Viscountess Ghost - Death Random Target Selection - 2nd Time",
     ["Do you want to buy fish?"] = "Хотите купить рыбу?",
     ["Stone frames a square of light; the mosaic stained-glass window is dazzling under the sunlight."] = "Камень обрамляет квадрат света; мозаичный витраж ослепляет под солнечным светом.",
     ["Sour lemon juice, a great choice. Let's continue adding something to it."] = "Кислый лимонный сок, отличный выбор. Давайте продолжим что-нибудь добавлять к этому.",

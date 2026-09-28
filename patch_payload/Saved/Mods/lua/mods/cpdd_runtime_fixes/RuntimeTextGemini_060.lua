@@ -161,7 +161,6 @@ return {
     ["<M_Default>Dear Beyonder: </>\n<M_Default>The validity period of the limited-time appearance </><M_Orange>%s</> has ended, and it has been reclaimed; please take note."] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>Срок действия временного облика </><M_Orange>%s</> истёк, предмет был изъят. Пожалуйста, примите к сведению.",
     ["My students are fine, and everything in Backlund is fine."] = "У моих учеников все в порядке, и в Баклунде все в порядке.",
     ["Web of Order - Chaos Greatsword Fixed Loop"] = "Паутина порядка — фиксированный цикл «Большой меч Хаоса»",
-    ["[Marionette Skill] Worm of Star - Miracle Card Rain"] = "[Марионетка Skill] Worm of Star - Miracle Card Rain",
     ["Achievement - Production Line"] = "Достижение — Производственная линия",
     ["What is the impact of changing factions?"] = "Каково влияние смены фракций?",
     ["I need to resolve some matters at the Tarot Academy, and there is someone more familiar with Tingen than I am."] = "Мне нужно решить кое-какие дела в Академии Таро, и есть кто-то, более знакомый с Тингеном, чем я.",

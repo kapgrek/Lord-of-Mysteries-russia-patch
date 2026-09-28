@@ -183,7 +183,6 @@ return {
     ["<Highlight>Craft: </>Azure Cloak\nThe first ray of morning sunlight pierces through the mist, landing on the newly bloomed roses and lilies of the valley."] = "<Highlight>Мастерство: </><Highlight>Лазурный плащ</>\nПервый утренний луч солнца пробивается сквозь дымку тумана, касаясь лепестков распустившихся роз и ландышей.",
     ["是的，我只是一只狗——这正是非凡世界的非凡之处。\n<P_Yellow>（苏茜女士优雅地向你伸出了手。）</>"] = "Да, я всего лишь собака — именно в этом заключается необыкновенная природа мира Потустороннего.\n<P_Yellow>(Мисс Сьюзи изящно протянула вам руку.)</>",
     ["[Hidden Trace]"] = "[Скрытый след]",
-    ["Citywalk - Pray at the Church of the River and Sea (Sanity Loss)"] = "Citywalk - Pray at the Church of the River and Sea (Рассудок Loss)",
     ["Initial State"] = "Исходное состояние",
     ["Bedtime Story-30.3.1 [Dialogue] Feysac-Listen to Skana's Inner Thoughts"] = "Сказка на ночь-30.3.1 [Диалог] Фейсак-Послушайте внутренние мысли Сканы",
     ["Do you know the password for that tavern? The one over there, the one with the old woman guarding the door—"] = "Ты знаешь пароль от этой таверны? Тот, что там, тот, где старуха охраняет дверь…",

@@ -106,7 +106,6 @@ return {
     ["Check the back room"] = "Проверьте заднюю комнату",
     ["Marquis black tea has a lingering fragrance, a mild flavor, and balanced acidity—perfect for a discerning {{sir|madam}} like you."] = "Черный чай Marquis обладает стойким ароматом, мягким вкусом и сбалансированной кислотностью — идеально подходит для таких взыскательных {{sir|madam}}, как вы.",
     ["Berry"] = "Ягода",
-    ["Not-so-sharp Mr. Seer, this shelf is clearly closer to me. If it weren't for you blocking the way..."] = "Not-so-sharp Mr. Провидец, this shelf is clearly closer to me. If it weren't for you blocking the way...",
     ["Mysterious Space - Dialogue"] = "Таинственное пространство - Диалог",
     ["Ugh, mutated food... can't eat it, eating it will make me go mad!"] = "Ух, мутировавшая еда... не могу ее есть, съедая ее, я сойду с ума!",
     ["Visibility Scene Object Component"] = "Компонент объекта сцены видимости",

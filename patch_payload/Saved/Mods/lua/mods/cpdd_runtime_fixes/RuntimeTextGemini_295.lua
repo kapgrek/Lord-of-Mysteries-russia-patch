@@ -229,7 +229,6 @@ return {
     ["Lone Barrier I: Gain 20% maximum Health Shield."] = "Одинокий барьер I: увеличивает максимальный щит здоровья на 20%.",
     ["Probe <h>Fred</>"] = "Зонд <h>Fred</>",
     ["This portrait depicts a young girl proficient in mechanical technology."] = "На этом портрете изображена молодая девушка, владеющая механическими технологиями.",
-    ["[Marionette Skill] Worm of Star - Dream Analysis - Spell Agent Attack 2"] = "[Марионетка Skill] Worm of Star - Dream Analysis - Spell Agent Attack 2",
     ["Trigger·See Carriage"] = "Триггер · См. каретку",
     ["Invite to Dance"] = "Пригласить на танец",
     ["The previous worker fell to his death."] = "Предыдущий рабочий упал насмерть.",

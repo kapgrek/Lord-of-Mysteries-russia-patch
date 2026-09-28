@@ -402,22 +402,10 @@
     "target_ru": "<InvDefault_HW>Серый лось внезапно поднял голову и заревел, а перья на его рогах мягко засияли, взлетая в воздух, продолжая незавершенную песню Дай Ли. Его рога запоминают ноты, хранящиеся в каждом перышке, а его неуклюжая коллекция случайно сохраняет все песни Дейли. </>\\n\\n　<InvDefault_HW> До того момента, как рога коснулись последней ноты, перед глазами также появился свет, и старшая сова отчаянно захлопала крыльями у входа в пещеру, приветствуя возвращение героя. </>\\n\\n　<InvDefault_HW>Дэйли снова проснулся в теплой и сухой куче опавших листьев. </>"
   },
   {
-    "id": "125067",
-    "source_cn": "【占位-QTE】克莱恩飞快地构建起灵性之墙，封死了整个房间。",
-    "ref_en": "[Placeholder-QTE] Klein quickly constructs a wall of spirituality, sealing off the entire room.",
-    "target_ru": "[Placeholder-QTE] Klein quickly constructs a wall of Духовность, sealing off the entire room."
-  },
-  {
     "id": "125068",
     "source_cn": "【采集】后置小猫庇护所",
     "ref_en": "[Collection] Rear Kitten Shelter",
     "target_ru": "[Коллекция] Задний приют для котят"
-  },
-  {
-    "id": "125069",
-    "source_cn": "【隐迹】触发低于20%立即恢复生命效果时目标额外获得4秒霸体。",
-    "ref_en": "[Hidden] When triggering the immediate Health restoration effect below 20%, the target gains an additional 4 seconds of Super Armor.",
-    "target_ru": "[Hidden] When triggering the immediate Health restoration effect below 20%, the target gains an additional 4 seconds of Суперброня."
   },
   {
     "id": "125070",
@@ -1924,12 +1912,6 @@
     "source_cn": "【C占位】一个灵体的妇女出现，在糊制着火柴盒。\\n妇女：胸好闷……\\n慈善医疗虽然是免费的……但要花费一天时间……算了，今天不干活，明天就没饭吃了……",
     "ref_en": "[C Placeholder] A spiritual woman appears, pasting matchboxes. \\n Woman: My chest feels so tight... \\n Although charity medical care is free... it takes a whole day... forget it, if I don't work today, I won't have food tomorrow...",
     "target_ru": "[C Оккупант] Появляется женщина-дух, мастерящая спичечные коробки. \\nЖенщины: У меня сжимает грудь...\\nХотя благотворительная медицинская помощь бесплатна... но она занимает один день... Забудьте об этом, если вы не работаете сегодня, завтра у вас не будет еды..."
-  },
-  {
-    "id": "125321",
-    "source_cn": "一个落满灰尘的笔记本，记录着某位神秘学探索者的努力、热爱、疯狂……与最终的结局。",
-    "ref_en": "A dusty notebook recording the efforts, passion, madness... and the final ending of a certain mysticism explorer.",
-    "target_ru": "A dusty notebook recording the efforts, passion, Безумие... and the final ending of a certain mysticism explorer."
   },
   {
     "id": "125322",
@@ -5098,12 +5080,6 @@
     "source_cn": "“这一局，黑棋先行。”",
     "ref_en": "'In this game, the black pieces move first.'",
     "target_ru": "«В этой игре черные фигуры ходят первыми»."
-  },
-  {
-    "id": "125850",
-    "source_cn": "……这张悲喜剧面具名为“戏剧大师”，对应学徒途径序列8 戏法大师。戴上面具后，使用者会获得相应的序列能力。",
-    "ref_en": "…This comedy-tragedy mask is called 'Drama Master,' corresponding to the Apprentice pathway, Sequence 8, Trickmaster. After wearing the mask, the user will gain the corresponding Sequence abilities.",
-    "target_ru": "…This comedy-tragedy mask is called 'Drama Master,' corresponding to the Apprentice pathway, Последовательность 8, Trickmaster. After wearing the mask, the user will gain the corresponding Последовательность abilities."
   },
   {
     "id": "125851",
@@ -8838,22 +8814,10 @@
     "target_ru": "<player>%s</> начинает «Вечеринку на вилле», приглашая всех Потустороннийs принять участие!"
   },
   {
-    "id": "126473",
-    "source_cn": "Obtain 1 Beyonder material with the {沉默门徒} entry",
-    "ref_en": "Obtain 1 Beyonder material with the {Disciple of Silence} entry",
-    "target_ru": "Obtain 1 Потусторонний material with the {Disciple of Silence} entry"
-  },
-  {
     "id": "126474",
     "source_cn": "This {{先生|女士}}, do you know Godot?",
     "ref_en": "Excuse me, {{sir|madam}}, do you know Godot?",
     "target_ru": "Извините, {{sir|madam}}, вы знаете Годо?"
-  },
-  {
-    "id": "126475",
-    "source_cn": "{{PlayerName}}，你应该察觉到了，知识皇冠造成的污染比我们预想的更加严重。",
-    "ref_en": "{{PlayerName}}, you should have noticed that the corruption caused by the Crown of Knowledge is more serious than we expected.",
-    "target_ru": "{{PlayerName}}, you should have noticed that the Искажение caused by the Crown of Knowledge is more serious than we expected."
   },
   {
     "id": "126476",
@@ -11040,12 +11004,6 @@
     "target_ru": "[28] Так и было..."
   },
   {
-    "id": "126840",
-    "source_cn": "【幸运悖论】的三层灵性完全充盈，能抵挡子爵夫人的致命一击。",
-    "ref_en": "The three layers of spirituality of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow.",
-    "target_ru": "The three layers of Духовность of the [Paradox of Luck] are fully charged, capable of blocking the Viscountess's fatal blow."
-  },
-  {
     "id": "126841",
     "source_cn": "【秘偶技】命运湍流-黑",
     "ref_en": "[Marionette Skill] Fate Turbulence - Black",
@@ -11812,12 +11770,6 @@
     "source_cn": "[表情44]",
     "ref_en": "[Emoji 44]",
     "target_ru": "[Эмодзи 44]"
-  },
-  {
-    "id": "126969",
-    "source_cn": "……我手上有两份序列9的魔药配方，“水手”和“观众”。",
-    "ref_en": "...I have two Sequence 9 potion formulas on hand, \"Sailor\" and \"Spectator\".",
-    "target_ru": "...I have two Последовательность 9 potion formulas on hand, \"Sailor\" and \"Зритель\"."
   },
   {
     "id": "126970",
@@ -12690,12 +12642,6 @@
     "target_ru": "Дорогой Необыкновенный: \\n Поздравляем с первым местом в рейтинге %s %d%%. Теперь мы предлагаем вам щедрые награды. Надеюсь, вы продолжите свои усилия и сделаете себе имя в загадочном мире."
   },
   {
-    "id": "127115",
-    "source_cn": "他用“火种”窃取了一件物品里的污染。",
-    "ref_en": "He used 'Kindling' to steal the corruption from an item.",
-    "target_ru": "He used 'Kindling' to steal the Искажение from an item."
-  },
-  {
     "id": "127116",
     "source_cn": "代表命运的黄色卡牌代表命运的黄色卡牌代表命运的黄色卡牌代表命运的黄色卡牌",
     "ref_en": "Yellow card representing fate, yellow card representing fate, yellow card representing fate, yellow card representing fate",
@@ -13414,12 +13360,6 @@
     "source_cn": "【临时占位】克莱恩尝试着集中注意力，并开始在脑海中勾勒一顶半高礼帽……",
     "ref_en": "[Temporary Placeholder] Klein tries to concentrate and begins to outline a top hat in his mind...",
     "target_ru": "[Временный заполнитель] Клейн пытается сконцентрироваться и начинает мысленно обрисовывать цилиндр..."
-  },
-  {
-    "id": "127236",
-    "source_cn": "不如用卜杖占卜试一试吧。",
-    "ref_en": "Might as well try divination with a dowsing rod.",
-    "target_ru": "Might as well try Гадание with a dowsing rod."
   },
   {
     "id": "127237",
@@ -17208,12 +17148,6 @@
     "target_ru": "…Значит, настоящий друг по переписке — дядя?!"
   },
   {
-    "id": "127868",
-    "source_cn": "【困难难度】已出现，你可以反复向噩梦中的敌人发起挑战！这一次，“剥面人”强尼失去理智，向你亮出了利爪。",
-    "ref_en": "[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you.",
-    "target_ru": "[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your Кошмарs! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you."
-  },
-  {
     "id": "127869",
     "source_cn": "一个趣味小玩法-接取任务",
     "ref_en": "A Fun Mini-game: Accept Mission",
@@ -17230,12 +17164,6 @@
     "source_cn": "一枚警徽，每个黑荆棘安保公司的正式成员都会拥有。",
     "ref_en": "A police badge, which every official member of the Blackthorn Security Company possesses.",
     "target_ru": "Полицейский значок, которым обладает каждый официальный член охранной компании Чёрный Чертополох."
-  },
-  {
-    "id": "127872",
-    "source_cn": "不完全是，一般来说，“不眠者”序列的同事成为“午夜诗人”后，会为了消化魔药去写诗。",
-    "ref_en": "Not entirely. Generally speaking, colleagues of the 'Seer' pathway will write poetry to digest their potion after becoming 'Midnight Poets'.",
-    "target_ru": "Not entirely. Generally speaking, colleagues of the 'Провидец' pathway will write poetry to digest their potion after becoming 'Полуночный Поэтs'."
   },
   {
     "id": "127873",
@@ -19918,12 +19846,6 @@
     "source_cn": "故事不要停-寻找施佩尔",
     "ref_en": "The Story Must Go On - Find Speer",
     "target_ru": "История должна продолжаться – Найдите Шпеера"
-  },
-  {
-    "id": "128320",
-    "source_cn": "故事背景设定在“灰雾之上”的神秘大陆，世界历经混沌纪、黑暗纪、变纪等纪元纪，由神和9大源质构成力量体系。讲述了主角因转运仪式意外进入源堡，伪装成复苏的伪建立塔，他穿越至克莱恩身上破解廷根惨案。",
-    "ref_en": "The story is set on a mysterious continent \"above the gray fog\". The world has gone through eras such as the Chaos Era, the Darkness Era, and the Epoch of Change, with a power system composed of God and 9 great Sefirah. It tells the story of the protagonist who, due to an accident during a Fortune-Turning Ritual., enters Sefirah Castle and disguises himself as the awakened pseudo-Tower. He transmigrates into Klein to solve the Tingen tragedy.",
-    "target_ru": "The story is set on a mysterious continent \"Над Серым Туманом\". The world has gone through eras such as the Chaos Era, the Darkness Era, and the Epoch of Change, with a power system composed of God and 9 great Sefirah. It tells the story of the protagonist who, due to an accident during a Fortune-Turning Ritual., enters Sefirah Castle and disguises himself as the awakened pseudo-Tower. He transmigrates into Клейн to solve the Тинген tragedy."
   },
   {
     "id": "128321",
@@ -22690,12 +22612,6 @@
     "source_cn": "【位置】风车-吉瑞尔布置灵性之墙",
     "ref_en": "[Position] Windmill - Jirel sets up a Wall of Spirituality",
     "target_ru": "[Position] Windmill - Jirel sets up a Wall of Духовность"
-  },
-  {
-    "id": "128782",
-    "source_cn": "【秘偶技】狒狒祝福-随机扔东西-暂时未用",
-    "ref_en": "[Marionette Skill] Baboon Blessing - Random Item Throw - Temporarily Unused",
-    "target_ru": "[Марионетка Skill] Baboon Blessing - Random Item Throw - Temporarily Unused"
   },
   {
     "id": "128783",
@@ -27228,12 +27144,6 @@
     "target_ru": "Текст исключения пули номер 3"
   },
   {
-    "id": "129538",
-    "source_cn": "不同的封印物有着不同的作用。例如隐秘一块区域，或者让目标陷入迷雾迷宫的幻觉。",
-    "ref_en": "Different Sealed Artifacts have different effects. For example, concealing an area, or making the target fall into the hallucination of a foggy maze.",
-    "target_ru": "Different Запечатанный артефактs have different effects. For example, concealing an area, or making the target fall into the hallucination of a foggy maze."
-  },
-  {
     "id": "129539",
     "source_cn": "不确定，看起来能容纳很多人。",
     "ref_en": "Not sure, it looks like it can hold a lot of people.",
@@ -27898,12 +27808,6 @@
     "source_cn": "主宰争锋·竞争者",
     "ref_en": "Dominion Clash: Competitor",
     "target_ru": "Dominion Clash: конкурент"
-  },
-  {
-    "id": "129650",
-    "source_cn": "今天我要把所有占卜法都试一遍！ 占卜师们在哪里？",
-    "ref_en": "Today I'm going to try every divination method! Where are the diviners?",
-    "target_ru": "Today I'm going to try every Гадание method! Where are the diviners?"
   },
   {
     "id": "129651",
@@ -29586,12 +29490,6 @@
     "target_ru": "ПВП Марка 68"
   },
   {
-    "id": "129931",
-    "source_cn": "【五月庄园】-【一号信徒】- 一阶段减伤Buff移除破碎",
-    "ref_en": "[May Manor] - [Believer Number One] - Phase 1 Damage Reduction Buff Removal Break",
-    "target_ru": "[May Manor] - [Believer Number One] - Phase 1 Снижение урона Buff Removal Break"
-  },
-  {
     "id": "129932",
     "source_cn": "【自走棋】-尤朵拉-音波冲击",
     "ref_en": "[Auto-Chess] - Yodora - Sonic Impact",
@@ -29620,12 +29518,6 @@
     "source_cn": "下一次诗社活动我们邀请他一起吧？",
     "ref_en": "Shall we invite him to join our next poetry club event?",
     "target_ru": "Пригласим ли мы его присоединиться к нашему следующему мероприятию поэтического клуба?"
-  },
-  {
-    "id": "129937",
-    "source_cn": "不知是哪条途径的非凡者，如此出众！",
-    "ref_en": "I wonder which Pathway this Beyonder belongs to; they are so outstanding!",
-    "target_ru": "I wonder which Pathway this Потусторонний belongs to; they are so outstanding!"
   },
   {
     "id": "129938",

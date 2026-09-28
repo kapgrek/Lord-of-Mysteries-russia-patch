@@ -69,7 +69,6 @@ return {
     ["Gameplay Settlement - Text Board"] = "Геймплейное поселение — текстовая доска",
     ["Allow character creation when sensitive word server is abnormal"] = "Разрешить создание персонажей, когда конфиденциальный текстовый сервер работает ненормально",
     ["We can even take the train now."] = "Теперь мы даже можем сесть на поезд.",
-    ["The Dark Demonic Wolf is very good at hiding and understands the survival ways of the Seer Pathway, until He met the Fool."] = "The Dark Demonic Wolf is very good at hiding and understands the survival ways of the Провидец Pathway, until He met Шут.",
     ["Distinction Mark_0"] = "Знак отличия_0",
     ["Tassel"] = "кисточка",
     ["HP Deduction 10%"] = "Уменьшение ОЗ 10%",
@@ -131,7 +130,6 @@ return {
     ["上等蓝宝石制成的袖钉，深邃的蓝色光芒犹如夜空星辰。"] = "Запонки из высококачественных сапфиров, светящиеся глубоким синим цветом, напоминающие звезды на ночном небе.",
     ["下一页"] = "Следующая страница",
     ["下次再与你相会吧，美丽的女士。（临时）"] = "Давай встретимся в следующий раз, прекрасная леди. (Временный)",
-    ["不要小瞧比你序列低的人，序列八也可以打败序列五……"] = "Don't look down on people with a lower Последовательность than you; a Последовательность 8 can also defeat a Последовательность 5...",
     ["为什么你的伤害这么低？？？"] = "Почему у тебя такой низкий урон???",
     ["久经舞场"] = "Опытный танцор",
     ["买入高于市场价"] = "Покупайте по цене выше рыночной",
@@ -267,4 +265,5 @@ return {
     ["噗嘶——{{先生|女士}}，是要买书吗？"] = "Пс-с... {{Господин|Госпожа}}, не хотите купить книгу?",
     ["You will shed tears in the future."] = "В будущем вы будете плакать.",
     ["前往廷根中心广场，寻访罗塞尔大帝的战争投影。"] = "Отправьтесь на Центральную площадь Тингена, чтобы найти боевую проекцию императора Роселля.",
+    ["不要小瞧比你序列低的人，序列八也可以打败序列五……"] = "Don't look down on people with a lower Sequence than you; a Sequence 8 can also defeat a Sequence 5...",
 }

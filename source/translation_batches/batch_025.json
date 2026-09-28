@@ -2544,12 +2544,6 @@
     "target_ru": "Дайте угадаю... вы, должно быть, думаете: «Как эти карты будут работать», верно?    \\n Не волнуйтесь, даже если вы не разбираетесь в покере, я не буду над вами смеяться~\\n Как ответственный ведущий, я все равно подготовил эту книгу - «Книга о покере, которую поймут даже дураки»! \\n\\n Так называемый <Letter_Highlight> прямой </> — это пять последовательных чисел, например: 4-5-6-7-8. \\n Ты понимаешь? Вы должны следовать по одному, прыгать нельзя! Ты тоже не можешь отказаться от своего слова <Letter_Highlight>! </>\\n\\n Костюм и цвет? Здесь любовь не имеет различия расы ~ червы, пики, бубны, трефы, можно перепутать! \\n Единственное, что важно, это <Letter_Highlight> числовая последовательность</>, помните? \\n\\n Если ты наступишь не на ту ногу... хе-хе, ты упадешь, упадешь и еще раз упадешь! \\n\\n —— Я люблю тебя, рассказчик, клоун."
   },
   {
-    "id": "120424",
-    "source_cn": "《关于猫其实是非凡生物的论证》",
-    "ref_en": "\"Proof that Cats are Actually Beyonder Creatures\"",
-    "target_ru": "\"Proof that Cats are Actually Потусторонний Creatures\""
-  },
-  {
     "id": "120425",
     "source_cn": "一场战斗测试。放心，这一切都发生在梦境中。",
     "ref_en": "A combat test. Don't worry, this all takes place in a dream.",
@@ -3304,12 +3298,6 @@
     "source_cn": "不过这里的每杯酒都来自恶龙的馈赠。尽享美味吧，{{先生|女士}}。",
     "ref_en": "However, every drink here comes from the gift of the dragon. Enjoy the deliciousness, {{Mr.|Ms.}}.",
     "target_ru": "Однако каждый напиток здесь исходит от дара дракона. Наслаждайтесь вкусом, {{Mr.|Ms.}}."
-  },
-  {
-    "id": "120551",
-    "source_cn": "丢失塔罗牌的女魔术师",
-    "ref_en": "The magician who lost her Tarot cards",
-    "target_ru": "The Фокусник who lost her Tarot cards"
   },
   {
     "id": "120552",
@@ -5470,12 +5458,6 @@
     "source_cn": "中景-摆",
     "ref_en": "Medium Shot - Pose",
     "target_ru": "Средний план — поза"
-  },
-  {
-    "id": "120912",
-    "source_cn": "乔纳尔不知道塔罗学派……现在，我们可以坦诚地聊聊了。",
-    "ref_en": "Jonar doesn't know about the Tarot Club... Now, we can talk honestly.",
-    "target_ru": "Jonar doesn't know about the Клуб Таро... Now, we can talk honestly."
   },
   {
     "id": "120913",
@@ -7752,12 +7734,6 @@
     "target_ru": "Давай встретимся в следующий раз, прекрасная леди. (Временный)"
   },
   {
-    "id": "121292",
-    "source_cn": "不要小瞧比你序列低的人，序列八也可以打败序列五……",
-    "ref_en": "Don't look down on people with a lower Sequence than you; a Sequence 8 can also defeat a Sequence 5...",
-    "target_ru": "Don't look down on people with a lower Последовательность than you; a Последовательность 8 can also defeat a Последовательность 5..."
-  },
-  {
     "id": "121293",
     "source_cn": "为什么你的伤害这么低？？？",
     "ref_en": "Why is your damage so low???",
@@ -8512,12 +8488,6 @@
     "source_cn": "【副本测试】60级属性",
     "ref_en": "[Dungeon Test] Level 60 Stats",
     "target_ru": "[Испытание в подземелье] Статистика 60-го уровня"
-  },
-  {
-    "id": "121419",
-    "source_cn": "【自走棋】-戴莉·西蒙妮-普攻-灵摆冲击",
-    "ref_en": "[Auto-Chess] - Daly Simone - Basic Attack - Pendulum Shock",
-    "target_ru": "[Auto-Chess] - Daly Simone - Базовая атака - Pendulum Shock"
   },
   {
     "id": "121420",
@@ -9910,12 +9880,6 @@
     "source_cn": "丽埃娜？是你提供了这起案件的情报？",
     "ref_en": "Liana? Did you provide the intelligence for this case?",
     "target_ru": "Лиана? Вы предоставили разведданные по этому делу?"
-  },
-  {
-    "id": "121652",
-    "source_cn": "他已经去世有一段时间了。明明是一位很厉害的占卜大师，却也无法探知自己的命运呀。",
-    "ref_en": "He passed away some time ago. Even though he was a very powerful divination master, he couldn't foresee his own fate.",
-    "target_ru": "He passed away some time ago. Even though he was a very powerful Гадание master, he couldn't foresee his own fate."
   },
   {
     "id": "121653",
@@ -12930,12 +12894,6 @@
     "target_ru": "Межличностная удача"
   },
   {
-    "id": "122155",
-    "source_cn": "代价也挺大，前面好几个序列完全不能打，到序列六都是学者型。",
-    "ref_en": "The price was also quite high; the first few sequences were completely unable to fight, and up to Sequence 6, they were all scholar-types.",
-    "target_ru": "The price was also quite high; the first few Последовательностьs were completely unable to fight, and up to Последовательность 6, they were all scholar-types."
-  },
-  {
     "id": "122156",
     "source_cn": "以及，指导我们的新鲜血液。",
     "ref_en": "And to guide our fresh blood.",
@@ -13728,12 +13686,6 @@
     "target_ru": "Защитный <Highlight> изменил материал </> с записью <Highlight><Бестеневой></>: «Увеличенная сила воли»."
   },
   {
-    "id": "122288",
-    "source_cn": "B级动画：\\n克莱恩回想着这段时间的占卜，脑中浮现出黄水晶，突然有一些感悟。",
-    "ref_en": "Grade B Animation:\\nKlein recalled the divination from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations.",
-    "target_ru": "Grade B Animation:\\nKlein recalled the Гадание from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations."
-  },
-  {
     "id": "122289",
     "source_cn": "“正义”女士，您的宠物狗会、会说话？",
     "ref_en": "Ms. Justice, your pet dog can, can it talk?",
@@ -13762,12 +13714,6 @@
     "source_cn": "不是想了解伟大主人的尊名吗？快跟上。",
     "ref_en": "Don't you want to know the honorable name of the great master? Follow me.",
     "target_ru": "Разве вам не хочется узнать почетное имя великого мастера? Подписывайтесь на меня."
-  },
-  {
-    "id": "122294",
-    "source_cn": "乌托邦剧院是和“愚者”先生记忆相关的封印物，母神试图污染它，以影响祂的精神……",
-    "ref_en": "The Utopia Theater is a Sealed Artifact related to Mr. Fool's memories. The Mother Goddess is attempting to corrupt it to influence His spirit...",
-    "target_ru": "The Utopia Theater is a Запечатанный артефакт related to Mr. Fool's memories. The Mother Goddess is attempting to corrupt it to influence His spirit..."
   },
   {
     "id": "122295",
@@ -14536,12 +14482,6 @@
     "source_cn": "“火种”无法再正常使用，算是光荣牺牲了。",
     "ref_en": "“Fire Seed” can no longer be used normally; it can be considered to have sacrificed itself gloriously.",
     "target_ru": "«Огненное семя» больше нельзя использовать обычным способом; можно считать, что оно славно пожертвовало собой."
-  },
-  {
-    "id": "122423",
-    "source_cn": "……也许吧。但据我所知，高序列的材料会更加昂贵。",
-    "ref_en": "……Perhaps. But as far as I know, materials for higher Sequences are even more expensive.",
-    "target_ru": "……Perhaps. But as far as I know, materials for higher Последовательностьs are even more expensive."
   },
   {
     "id": "122424",
@@ -15354,12 +15294,6 @@
     "target_ru": "...Кто-то недавно сообщил о странных звуках, доносящихся с фабрики Лейнер. Может ли это быть оно?"
   },
   {
-    "id": "122559",
-    "source_cn": "【扮演任务·占卜家】带上你的亲爱的",
-    "ref_en": "[Acting Mission · Seer] Bring Your Dear One",
-    "target_ru": "[Acting Mission · Провидец] Bring Your Dear One"
-  },
-  {
     "id": "122560",
     "source_cn": "【采集】舞池",
     "ref_en": "[Collection] Dance floor",
@@ -16108,12 +16042,6 @@
     "source_cn": "<M_Orange> [%s]</>接受了我方俱乐部发起的宣战，决斗将在<M_Orange>[今天%s]</>开启。战火已至，胜负即将揭晓——霍纳奇斯山脉将见证这场决斗的结局。为了共同的荣耀，全员就位。\\n可点击<HyperLink stylename=\"M_Link\" u=\"tipsId=6427619\">【俱乐部宣战玩法攻略】</>查看玩法攻略！",
     "ref_en": "<M_Orange> [%s]</> has accepted the declaration of war initiated by our club. The duel will begin on <M_Orange>[Today%s]</>. The flames of war have arrived, and the outcome is about to be revealed—the Hornacis Mountain Range will witness the end of this duel. For our shared glory, all members, take your positions. \\nYou can click <HyperLink stylename=\"M_Link\" u=\"tipsId=6427619\">【Club Declaration of War Gameplay Guide】</> to view the gameplay guide!",
     "target_ru": "<M_Orange> [%s]</> принял объявление войны, инициированное нашим клубом, и дуэль начнется <M_Orange>[Сегодня%s]</>. Война окончена, и победитель вот-вот определится — горы Хорнакис станут свидетелями исхода этой дуэли. Ради общей славы все на месте. \\nВы можете нажать <HyperLink stylename=\"M_Link\" u=\"tipsId=6427619\"> [Руководство по игровому процессу «Объявление войны в клубе»] </>, чтобы просмотреть руководство по игровому процессу!"
-  },
-  {
-    "id": "122685",
-    "source_cn": "<P_Heart>（也许我能扮演小丑，替他赢得赏钱……）</>",
-    "ref_en": "<P_Heart> (Maybe I can act as a clown and win him some tips...) </>",
-    "target_ru": "<P_Heart> (Maybe I can act as a Клоун and win him some tips...) </>"
   },
   {
     "id": "122686",
@@ -17010,12 +16938,6 @@
     "target_ru": "Однако... в это время я увидел, как дама, мистер Джон и слуга вошли в спальню."
   },
   {
-    "id": "122835",
-    "source_cn": "不错，不从众，和我当年一样有性格。而且足够幸运，占卜家的魔药材料还剩两份，否则就要等很久了。",
-    "ref_en": "Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Seer potion materials left, otherwise you would have to wait a long time.",
-    "target_ru": "Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Провидец potion materials left, otherwise you would have to wait a long time."
-  },
-  {
     "id": "122836",
     "source_cn": "不，他很喜欢讲冷笑话。尤其是关于以前的房东弗兰奇先生的。",
     "ref_en": "No, he likes telling dad jokes. Especially about our former landlord, Mr. Frank.",
@@ -17026,12 +16948,6 @@
     "source_cn": "乖孩子。",
     "ref_en": "Good child.",
     "target_ru": "Хороший ребенок."
-  },
-  {
-    "id": "122838",
-    "source_cn": "五月庄园出现非凡异变，伴随着大量的污染。",
-    "ref_en": "An extraordinary mutation has occurred at May Manor, accompanied by a large amount of corruption.",
-    "target_ru": "An extraordinary mutation has occurred at May Manor, accompanied by a large amount of Искажение."
   },
   {
     "id": "122839",
@@ -20742,12 +20658,6 @@
     "target_ru": "волна1_ложная"
   },
   {
-    "id": "123457",
-    "source_cn": "“赛琳娜伍德偶然间 巧合地从她的神秘学老师海纳斯处看到了魔镜占卜的真正咒文……”",
-    "ref_en": "\"Selina Wood accidentally and coincidentally saw the true incantation for mirror divination from her occult teacher, Haines……\"",
-    "target_ru": "\"Selina Wood accidentally and coincidentally saw the true incantation for mirror Гадание from her occult teacher, Haines……\""
-  },
-  {
     "id": "123458",
     "source_cn": "……没错。",
     "ref_en": "…That's right.",
@@ -22932,12 +22842,6 @@
     "target_ru": "{{ Mr. | Ms. } }, я могу вам чем-нибудь помочь?"
   },
   {
-    "id": "123822",
-    "source_cn": "“魔术师”小姐？您……还好吗？需要帮忙吗？",
-    "ref_en": "Miss Magician? Are you... alright? Do you need any help?",
-    "target_ru": "Miss Фокусник? Are you... alright? Do you need any help?"
-  },
-  {
     "id": "123823",
     "source_cn": "……谢谢……谢谢你，我没事……",
     "ref_en": "...Thank you... thank you, I'm fine...",
@@ -22948,12 +22852,6 @@
     "source_cn": "【自走棋】-梅丽莎-暴走齿轮",
     "ref_en": "[Auto-Chess] - Melissa - Berserk Gear",
     "target_ru": "[Авто-шахматы] - Мелисса - Снаряжение Берсерка"
-  },
-  {
-    "id": "123825",
-    "source_cn": "一开始，我忌惮它。它会剥夺使用者的心智，使其丧失相应的情绪能力，严重者甚至会被污染、死亡。",
-    "ref_en": "At first, I was wary of it. It would strip away the user's sanity, causing them to lose their corresponding emotional capabilities; in severe cases, they could even be corrupted or die.",
-    "target_ru": "At first, I was wary of it. It would strip away the user's Рассудок, causing them to lose their corresponding emotional capabilities; in severe cases, they could even be corrupted or die."
   },
   {
     "id": "123826",
@@ -29034,12 +28932,6 @@
     "target_ru": "Вторичная вкладка"
   },
   {
-    "id": "124839",
-    "source_cn": "于心湖投石，漾开名为疯狂的涟漪。 ",
-    "ref_en": "Cast a stone into the lake of the heart, rippling with madness.",
-    "target_ru": "Cast a stone into the lake of the heart, rippling with Безумие."
-  },
-  {
     "id": "124840",
     "source_cn": "他从未忘记过对你的承诺，即使在他生命的最后一刻，他的心中仍充满了对你的挂念。",
     "ref_en": "He never forgot his promise to you. Even at the last moment of his life, his heart was still full of concern for you.",
@@ -29680,18 +29572,6 @@
     "source_cn": "“太阳”",
     "ref_en": "\"The Sun\"",
     "target_ru": "«Солнце»"
-  },
-  {
-    "id": "124947",
-    "source_cn": "《镜内的世界：魔镜占卜入门》、《灵数，一种神启》、《占卜材料的解析》……都是些难啃的专著。",
-    "ref_en": "\"The World Within the Mirror: Introduction to Magic Mirror Divination\", \"Numerology, A Divine Revelation\", \"Analysis of Divination Materials\"... these are all tough monographs to crack.",
-    "target_ru": "\"The World Within the Mirror: Introduction to Magic Mirror Гадание\", \"Numerology, A Divine Revelation\", \"Analysis of Гадание Materials\"... these are all tough monographs to crack."
-  },
-  {
-    "id": "124948",
-    "source_cn": "【秘偶技】星之虫-梦境分析-法术代理attack2",
-    "ref_en": "[Marionette Skill] Worm of Star - Dream Analysis - Spell Agent Attack 2",
-    "target_ru": "[Марионетка Skill] Worm of Star - Dream Analysis - Spell Agent Attack 2"
   },
   {
     "id": "124949",

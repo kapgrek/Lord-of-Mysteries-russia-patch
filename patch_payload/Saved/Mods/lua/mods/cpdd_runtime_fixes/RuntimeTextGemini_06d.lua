@@ -168,7 +168,6 @@ return {
     ["Magic Board Evil Spirit 3"] = "Магическая доска Злой дух 3",
     ["\"Gentle,\" \"reasonable,\" the two most important words."] = "\"Мягко\", \"разумно\" — два самых важных слова.",
     ["Mom!"] = "Мама!",
-    ["Grade 0 Sealed Artifact?! Then Mr. Leonard left last night..."] = "Grade 0 Запечатанный артефакт?! Then Mr. Leonard left last night...",
     ["5230402 Tingen Lake: Beginning - Copy"] = "5230402 Озеро Тинген: Начало - Копия",
     ["Little Mystery Book Travel Blogger"] = "Маленькая загадочная книга, блоггер-путешественник",
     ["Filthy Spear 5"] = "Грязное копье 5",

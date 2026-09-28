@@ -37,7 +37,6 @@ return {
     ["The future He proclaims shall surely unfold and become reality."] = "Будущее, провозглашенное Им, непременно настанет и воплотится в реальность.",
     ["It hurts, I can't stand up!"] = "Больно, я не могу встать!",
     ["A black sheer long glove reaching the elbow, as if from the royal family, possessing a noble and elegant temperament."] = "Черная прозрачная длинная перчатка до локтя, словно из королевской семьи, обладающая благородным и элегантным темпераментом.",
-    ["Consumable material for upgrading Connection Skills, obtainable through Sequence advancement."] = "Consumable material for upgrading Connection Skills, obtainable through Последовательность advancement.",
     ["The secret ritual to sacrifice to the Mother Goddess of Depravity requires a massive amount of flesh and soul, accompanied by extreme madness and chaos."] = "Тайный ритуал принесения жертвы Богине-Матери Разврата требует огромного количества плоти и души и сопровождается крайним безумием и хаосом.",
     ["Search Range (cm)"] = "Дальность поиска (см)",
     ["Comfort with words"] = "Комфорт со словами",

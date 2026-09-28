@@ -165,7 +165,6 @@ return {
     ["Deployed"] = "Развернуто",
     ["Mr. Benson, you seem to mention Mr. Frank often?"] = "Мистер Бенсон, вы, кажется, часто упоминаете мистера Фрэнка?",
     ["According to the puzzle, go to the correct plant."] = "Согласно головоломке, идите к нужному растению.",
-    ["However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Seer' potion."] = "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Провидец' potion.",
     ["Global challenges are enabled by default and cannot be modified!"] = "Глобальные испытания включены по умолчанию и не могут быть изменены!",
     ["Potted Plant: Bird of Paradise"] = "Горшечное растение: Райская птица",
     ["Daniel"] = "Дэниел",

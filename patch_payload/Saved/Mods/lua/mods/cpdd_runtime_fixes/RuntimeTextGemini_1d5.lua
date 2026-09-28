@@ -55,7 +55,6 @@ return {
     ["Corrosive Ground"] = "Коррозионная земля",
     ["Investigating..."] = "Расследование...",
     ["Bateman"] = "Бейтман",
-    ["Restore sanity to Beyonders who are experiencing or on the verge of loss of control."] = "Restore Рассудок to Потустороннийs who are experiencing or on the verge of loss of control.",
     ["Le-Lena, what are you doing?"] = "Ле-Лена, что ты делаешь?",
     ["The true duty of Blackthorn is to handle Extraordinary events in Tingen."] = "Истинная обязанность Блэкторна — справиться с чрезвычайными событиями в Тингене.",
     ["An ordinary park, nothing special."] = "Обычный парк, ничего особенного.",

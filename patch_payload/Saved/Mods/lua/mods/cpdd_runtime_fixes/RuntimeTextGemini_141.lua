@@ -202,7 +202,6 @@ return {
     ["Tingen City Councilor"] = "Член городского совета Тингена",
     ["The first citizen dissipates."] = "Первый гражданин рассеивается.",
     ["<P_Heart>(Good question! I also want to know the answer...)</>"] = "<P_Heart>(Хороший вопрос! Я тоже хочу знать ответ...)</>",
-    ["…The corruption has been cleared; you may leave."] = "…The Искажение has been cleared; you may leave.",
     ["Mr. Frye's charm... it's time to use it."] = "Очарование мистера Фрая... пора им воспользоваться.",
     ["<P_Heart> (How can I get Carmen down from the wall?) </>"] = "<P_Heart> (Как мне спустить Кармен со стены?) </>",
     ["Neck thickness"] = "Толщина шейки",

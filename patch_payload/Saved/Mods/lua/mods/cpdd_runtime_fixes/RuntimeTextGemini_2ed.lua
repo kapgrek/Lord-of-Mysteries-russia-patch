@@ -104,7 +104,6 @@ return {
     ["[表情100]"] = "[Эмодзи 100]",
     ["【路障】出来大路左边封路"] = "[Контроль] Перекрытие дороги слева от главной дороги",
     ["不仅如此，它竟然连放屁都很动听，不然怎么“屁美”呢？真是头神奇的猪……"] = "Мало того, он даже звучит приятно, когда пукает, иначе почему бы его называли «Пердежная красавица»? Какая волшебная свинья...",
-    ["不，在现实世界我有很多身份，你如果想找我，可以去鲁恩慈善基金会。至于心理治疗，这是“观众”途径的非凡能力。"] = "No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Зритель' pathway.",
     ["与崔佛的影子对话"] = "Поговорите с тенью Тревора",
     ["丧钟：弱点攻击按钮"] = "Похоронный звон: кнопка атаки на слабость.",
     ["任务玩法功能"] = "Квестовый игровой процесс",
@@ -263,5 +262,6 @@ return {
     ["End-Time Pursuit"] = "Стремление к Концу Времён",
     ["Processed products of Golden Autumn Lake"] = "Переработанная продукция озера Золотая Осень",
     ["Requires Beyonders <Disable> whose total number above their heads equals the target number </> to gather within the range."] = "Потусторонние, <Disable>у которых сумма чисел над головой равна целевому числу</>, должны собраться в зоне.",
+    ["不，在现实世界我有很多身份，你如果想找我，可以去鲁恩慈善基金会。至于心理治疗，这是“观众”途径的非凡能力。"] = "No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Spectator' pathway.",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

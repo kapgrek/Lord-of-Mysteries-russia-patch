@@ -10104,12 +10104,6 @@
     "target_ru": "Не упоминайте об этом, я не полагаюсь на это, чтобы заработать деньги."
   },
   {
-    "id": "071684",
-    "source_cn": "不错，这就是初步的窥密之眼，不愧是“占卜家”，只比我当初差一点点。",
-    "ref_en": "Not bad, this is the preliminary Spirit Vision. As expected of a \"Seer,\" only slightly worse than I was back then.",
-    "target_ru": "Not bad, this is the preliminary Spirit Vision. As expected of a \"Провидец,\" only slightly worse than I was back then."
-  },
-  {
     "id": "071685",
     "source_cn": "东北7",
     "ref_en": "Northeast 7",
@@ -10762,12 +10756,6 @@
     "source_cn": "什么声音？不会是<P_Yellow> 老鼠</> 吧！",
     "ref_en": "What was that sound? It couldn't be <P_Yellow> rats </>, could it!",
     "target_ru": "Что это был за звук? Это не могли быть крысы <P_Yellow>, </>, не так ли!"
-  },
-  {
-    "id": "071794",
-    "source_cn": "他应该是在用古老的仪式吸收笔记的力量，就像我们直接服用高序列的魔药一样，这充满危险、也需要时间，他需要呆在一个安全的地方。",
-    "ref_en": "He should be using an ancient ritual to absorb the power of the notebook, just like how we directly consume high-sequence potions. This is full of danger and requires time; he needs to stay in a safe place.",
-    "target_ru": "He should be using an ancient ritual to absorb the power of the notebook, just like how we directly consume high-Последовательность potions. This is full of danger and requires time; he needs to stay in a safe place."
   },
   {
     "id": "071795",
@@ -12370,12 +12358,6 @@
     "source_cn": "个人申请函7天有效期（单位秒）",
     "ref_en": "Personal application letter 7-day validity (in seconds)",
     "target_ru": "Личное письмо-заявка Срок действия 7 дней (в секундах)"
-  },
-  {
-    "id": "072062",
-    "source_cn": "之前塔罗学派工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试。",
-    "ref_en": "The mystical item 'Fingers of Dexterity' crafted by the Tarot Club artisans can steal thoughts from the other person's brain. We can try that.",
-    "target_ru": "The mystical item 'Fingers of Dexterity' crafted by the Клуб Таро artisans can steal thoughts from the other person's brain. We can try that."
   },
   {
     "id": "072063",
@@ -21474,12 +21456,6 @@
     "target_ru": "Почему это «номер два»?"
   },
   {
-    "id": "073579",
-    "source_cn": "什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……",
-    "ref_en": "When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate...",
-    "target_ru": "When will I be able to become a formal barista? Maybe I should go to the Гадание Club after work and calculate..."
-  },
-  {
     "id": "073580",
     "source_cn": "什么？不，您幻听了。我是说，我不想，呃，我不想工作了。",
     "ref_en": "What? No, you have auditory hallucinations. I mean, I don't want to, uh, I don't want to work anymore.",
@@ -22978,12 +22954,6 @@
     "source_cn": "……我家里已经没人了。",
     "ref_en": "……There's no one left in my family.",
     "target_ru": "……В моей семье никого не осталось."
-  },
-  {
-    "id": "073830",
-    "source_cn": "【施工中】队伍中序列种类数目等于6玩家属性提升",
-    "ref_en": "[Under Construction] Player attributes increased when the number of Sequence types in the party equals 6.",
-    "target_ru": "[Under Construction] Player attributes increased when the number of Последовательность types in the party equals 6."
   },
   {
     "id": "073831",
@@ -28852,12 +28822,6 @@
     "source_cn": "“隐者”：这次又失败了。这是第十九次死亡，新生者无法承受更多了。",
     "ref_en": "\"The Hermit\": Failed again this time. This is the nineteenth death; the reborn one cannot bear any more.",
     "target_ru": "«Отшельник»: На этот раз снова провал. Это девятнадцатая смерть; возрожденный не может больше выносить."
-  },
-  {
-    "id": "074809",
-    "source_cn": "……污染已经清除，你可以走了。",
-    "ref_en": "…The corruption has been cleared; you may leave.",
-    "target_ru": "…The Искажение has been cleared; you may leave."
   },
   {
     "id": "074810",

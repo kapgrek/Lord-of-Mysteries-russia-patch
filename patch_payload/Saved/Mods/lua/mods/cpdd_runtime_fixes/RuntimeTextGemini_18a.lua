@@ -163,7 +163,6 @@ return {
     ["铁卫结阵：追加8%最大生命值护盾。"] = "Формирование Железной стражи: Дополнительный щит максимального здоровья на 8%.",
     ["难道你改变了自己的看法？关于“活着”和“死亡”的看法？"] = "Может быть, вы изменили свое мнение? Ваш взгляд на «жизнь» и «смерть»?",
     ["黔西南布依族苗族自治州"] = "Цяньсинань Буэй и Мяо автономная префектура",
-    ["The gift of July, letting spirituality flow like wine."] = "The gift of July, letting Духовность flow like wine.",
     ["Black Thorn Event Book 4-Second Level-Filter 2 Randomly in Spell Field"] = "Книга событий Black Thorn 4-секундный фильтр уровня 2 Случайно в поле заклинания",
     ["I told you! How about it? You're a pig, you're a pig, you're a little Loenese piglet—"] = "Я говорил тебе! Как насчет этого? Ты свинья, ты свинья, ты маленький ленский поросенок...",
     ["High Priestess"] = "Верховная Жрица",

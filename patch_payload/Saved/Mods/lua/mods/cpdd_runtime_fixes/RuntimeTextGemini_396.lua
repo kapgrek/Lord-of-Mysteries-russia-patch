@@ -112,7 +112,6 @@ return {
     ["一张核爆炸的图片，右下角用中文写着“切尔诺贝利”。"] = "Фотография ядерного взрыва с надписью «Чернобыль» на китайском языке в правом нижнем углу.",
     ["一本诡异的人皮书，等待着下一个被选中的人。"] = "Странная книга из человеческой кожи ждет следующего человека, которого выберут.",
     ["丈夫去世得早，两夫妇也没有孩子，只留下这些花给她。"] = "Ее муж рано ушел из жизни, а детей у пары не было, оставив ей только эти цветы.",
-    ["下午好！“正义”小姐、“魔术师”小姐、“星星”先生，你们怎么都在？"] = "Good afternoon! Miss \"Justice,\" Miss \"Фокусник,\" Mr. \"The Star,\" why are you all here?",
     ["不好有敌人来了，准备应战"] = "О нет, враги приближаются, приготовьтесь к бою",
     ["不用一两镑，不用三四镑，只要十苏勒！"] = "Не один-два фунта, не три-четыре фунта, а всего десять суле!",
     ["主界面聊天频道显示筛选"] = "Фильтр отображения канала чата в главном интерфейсе",
@@ -233,6 +232,7 @@ return {
     ["Deal <HighLight>180%</> attack damage to the target area; allies in the area gain a shield equal to <HighLight>8%</> of their maximum health, lasting for <HighLight>4</> seconds."] = "Нанесите <HighLight>180%</> урона от атаки указанной области; союзники в области получают щит, равный <HighLight>8%</> их максимального здоровья, действующий <HighLight>4</> сек.",
     ["基础属性：生命+400，防御+30"] = "Базовые характеристики: здоровье +400, защита +30",
     ["Cannot unstuck in the current state; please try again later."] = "В текущем состоянии невозможно выйти из застревания, повторите попытку позже.",
+    ["下午好！“正义”小姐、“魔术师”小姐、“星星”先生，你们怎么都在？"] = "Good afternoon! Miss \"Justice,\" Miss \"Magician,\" Mr. \"The Star,\" why are you all here?",
     ["Hamza"] = "Хамза",
     ["……\n\nSince the beginning of July, child disappearance incidents in Tingen have occurred many times. The total number of missing persons is <Mark id=\"#159\"> thirteen </>, including five boys and eight girls.\nCurrently, three bodies have been found, and the murderer has been caught and the case closed.\nBut the autopsy determined that the causes of death were all different, belonging to three different realistic ordinary events."] = "……\n\nС начала июля в городе Тинген произошла серия исчезновений детей; общее число пропавших без вести составляет <Mark id=\"#159\"> тринадцать человек </>, в том числе пять мальчиков и восемь девочек.\nК настоящему моменту обнаружены тела трех детей, убийца арестован, и дело закрыто.\nОднако судебно-медицинская экспертиза показала разные причины смерти, относящиеся к трем не связанным между собой бытовым происшествиям.",
 }

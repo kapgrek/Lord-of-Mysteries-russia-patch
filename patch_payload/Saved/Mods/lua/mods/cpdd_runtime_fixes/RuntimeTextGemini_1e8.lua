@@ -257,7 +257,6 @@ return {
     ["Zoe, a letter from the academy. Your project has occupied the research room for too long, it needs to be cleared for a new project."] = "Зоя, письмо из академии. Ваш проект слишком долго занимал исследовательскую комнату, ее необходимо освободить для нового проекта.",
     ["During Phantom Tear skill, Phantom 2 targets the unit carrying this buff"] = "Во время действия навыка «Призрачная слеза» Фантом 2 нацелен на отряд, несущий этот положительный эффект.",
     ["Visual effect of Truth Ray."] = "Визуальный эффект Луча Истины.",
-    ["Secondary sword energy damage increased by 25%. If the secondary hit misses, 10% of the skill's Cooldown is refunded."] = "Secondary sword energy damage increased by 25%. If the secondary hit misses, 10% of the skill's Перезарядка is refunded.",
     ["Text Version B"] = "Текстовая версия Б",
     ["Recover Health for the caster based on the damage of the mushroom explosion; the more targets hit by the explosion, the more Health is recovered."] = "Восстановить здоровье заклинателя в зависимости от урона от взрыва гриба; чем больше целей поражено взрывом, тем больше здоровья восстанавливается.",
     ["Head to the <h>Olsna Street Clinic</>"] = "Отправляйтесь в клинику <h>Olsna Street </>.",

@@ -191,7 +191,6 @@ return {
     ["Worker Spirit 5"] = "Рабочий дух 5",
     ["Support - Dunn"] = "Поддержка – Данн",
     ["Find a Friend"] = "Найдите друга",
-    ["No need, it's just a small matter. We'll just wait nearby; spirituality will guide it back here."] = "No need, it's just a small matter. We'll just wait nearby; Духовность will guide it back here.",
     ["Movement state double-jump animation asset"] = "Актив анимации двойного прыжка в состоянии движения",
     ["Shh, I just want to enjoy the food quietly. The restaurant owner, Harry, was just nearby, I'm afraid he'll recognize me."] = "Тсс, я просто хочу спокойно насладиться едой. Хозяин ресторана Гарри был совсем рядом, боюсь, он меня узнает.",
     ["Jamal"] = "Джамал",

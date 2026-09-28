@@ -206,7 +206,6 @@ return {
     ["Lola"] = "Лола",
     ["Pour in 9 parts acid"] = "Влейте 9 частей кислоты.",
     ["My heart? Do you really not understand? Your Majesty..."] = "Мое сердце? Ты правда не понимаешь? Ваше Величество...",
-    ["[True Form] When the detonation damage of Nightmare Impact hits 3 or more enemies, it generates a Nightmare Core. After a 1-second delay, the Nightmare Core explodes, dealing area damage."] = "[True Form] When the detonation damage of Кошмар Impact hits 3 or more enemies, it generates a Кошмар Core. After a 1-second delay, the Кошмар Core explodes, dealing area damage.",
     ["“Pyromaniac”"] = "«Пироман»",
     ["Accept Vow"] = "Примите клятву",
     ["Said to be an advanced product of small round glasses, wearing them improves concentration even further."] = "Говорят, что это усовершенствованная версия маленьких круглых очков, их ношение еще больше улучшает концентрацию.",

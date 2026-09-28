@@ -233,7 +233,6 @@ return {
     ["[44] Love"] = "[44] Любовь",
     ["<Assistant_Title1>【Manor Ring Bell】</>\n<Assistant_Title2>Description: </>Dungeon Drop Accessory\n<Assistant_Title2>Usage: </>After use, you will obtain the Manor Ring Bell. You can click <Assistant_System>Appearance - Change Outfit</> to view and use it. \n<Assistant_Title2>Acquisition: </>Obtained via <Assistant_System>Dungeon - May Manor · Garden</>"] = "<Assistant_Title1>【Колокольчик поместья】</>\n<Assistant_Title2>Описание: </>Аксессуар, выпадающий в подземелье\n<Assistant_Title2>Применение: </>При использовании даёт аксессуар «Колокольчик поместья». Можно просмотреть и применить в меню <Assistant_System>Облик — Смена наряда</>.\n<Assistant_Title2>Получение: </>Добывается в подземелье <Assistant_System>Подземелье — Поместье Мэй: Сад</>.",
     ["Waypoint 5"] = "Маршрутная точка 5",
-    ["Obtain 1 Beyonder material with {Bishop of War} entry"] = "Obtain 1 Потусторонний material with {Bishop of War} entry",
     ["Alienated Hound - 3 Star"] = "Отчужденная гончая — 3 звезды",
     ["Next, I will demonstrate the fade-in and fade-out function; this function is very common."] = "Далее я продемонстрирую функцию постепенного появления и исчезновения; эта функция очень распространена.",
     ["Find the whereabouts of 3-888."] = "Найдите местонахождение 3-888.",

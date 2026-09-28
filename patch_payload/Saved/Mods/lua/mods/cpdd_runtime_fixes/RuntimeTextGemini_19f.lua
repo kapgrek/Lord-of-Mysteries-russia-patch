@@ -30,7 +30,6 @@ return {
     ["[WoodenPost_Main_Panel] GetDummyTemplateDataRow DummyTemplate row does not exist, dummyMonsterID = %s"] = "[WoodenPost_Main_Panel] GetDummyTemplateDataRow Строка DummyTemplate не существует, dummyMonsterID = %s",
     ["Performance NPC"] = "Производительность NPC",
     ["[EventSystemV2:publishInternal] Callback not found, eventType: %s, callbackName: %s, target: %s, isDestroyed: %s"] = "[EventSystemV2:publishInternal] Обратный вызов не найден, тип события: %s, имя обратного вызова: %s, цель: %s, isDestroyed: %s",
-    ["He really is a Beyonder... and that <P_Yellow> necktie </> is a mystical item."] = "He really is a Потусторонний... and that <P_Yellow> necktie </> is a mystical item.",
     ["Requires 3 people to share the damage"] = "Требуется 3 человека, чтобы разделить ущерб",
     ["Acting Roaming"] = "Действующий роуминг",
     ["It's as if all light will be swallowed, this should be the end."] = "Как будто весь свет поглотится, это должен быть конец.",

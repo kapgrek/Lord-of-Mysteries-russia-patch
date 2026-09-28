@@ -76,7 +76,6 @@ return {
     ["Touch the first memory fragment"] = "Прикоснитесь к первому фрагменту воспоминаний",
     ["Acting without a plan reduces efficiency by more than forty percent."] = "Действия без плана снижают эффективность более чем на сорок процентов.",
     ["Departure Guidance Effect 3"] = "Эффект направления вылета 3",
-    ["Time and time again... the knowledge he displayed, the prayers he answered, his protection of the Tarot Club and Silver City..."] = "Time and time again... the knowledge he displayed, the prayers he answered, his protection of the Клуб Таро and Silver City...",
     ["        但我几乎忘记了，我原本来自于一个和平的年代，不曾沾染战争的气息。或许因为我始终是用一种游戏的心态对待这个世界，到最后，连对待生命的态度都变得轻薄……"] = "Но я почти забыл, что родом из мирной эпохи и никогда не был запятнан запахом войны. Возможно, потому, что я всегда относился к этому миру с игровым складом ума, в конце концов даже мое отношение к жизни стало несерьезным...",
     ["%d分钟后解锁"] = "Разблокировка через %d минут",
     ["1.怪物出生时无敌不可选中。"] = "1. Непобедим и его нельзя выбрать в качестве цели при появлении монстра.",

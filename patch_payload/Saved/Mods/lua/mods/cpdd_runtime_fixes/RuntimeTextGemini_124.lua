@@ -228,7 +228,6 @@ return {
     ["Look on the bright side, although this suitor isn't very loyal in love, he is quite loyal in his faith."] = "Посмотрите на положительную сторону: хотя этот поклонник не очень предан в любви, он весьма верен в своей вере.",
     ["The pacifier who perceives all pain, the dream-maker who holds up beauty in the end times, the spiritual mentor where reality and illusion coexist, justice born from the heart and fairness, the humble healer favored by the Lord of Mysteries."] = "Умиротворитель, воспринимающий всю боль, создатель сновидений, поддерживающий красоту в последние времена, духовный наставник, где сосуществуют реальность и иллюзия, справедливость, рожденная от сердца и честности, скромный целитель, которого любит Господь Тайн.",
     ["Original Work · Curtain Call Dance"] = "Оригинальная работа · Танец под занавес",
-    ["...<P_Heart> (The eerie notebook, becoming a Nighthawk and a Beyonder... I can't discuss either of these things with Benson.)</>"] = "...<P_Heart> (The eerie notebook, becoming a Nighthawk and a Потусторонний... I can't discuss either of these things with Benson.)</>",
     ["Go to the Four-Way League"] = "Перейти в Лигу четырех исходов",
     ["Double Rotation Shadow · Normal"] = "Тень двойного вращения · Нормальный",
     ["Floor · Mystery"] = "Этаж · Тайна",

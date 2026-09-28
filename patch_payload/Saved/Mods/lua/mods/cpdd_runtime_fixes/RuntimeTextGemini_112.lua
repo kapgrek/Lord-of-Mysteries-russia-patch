@@ -24,7 +24,6 @@ return {
     ["Chase atmosphere two"] = "Погоня за атмосферой два",
     ["Pure White Shire Horse"] = "Чисто белая шайрская лошадь",
     ["Use the magic pickaxe to break the mirror and grab the dark shadow!"] = "Используйте волшебную кирку, чтобы разбить зеркало и схватить темную тень!",
-    ["The final resting place for \"Hunters\" before their all-out attack, filled with the aura of Battle Intent. After occupying it, you can Attack the War Stele to gain 30 resources every minute."] = "The final resting place for \"Охотникs\" before their all-out attack, filled with the aura of Battle Intent. After occupying it, you can Attack the War Stele to gain 30 resources every minute.",
     ["Carol - Bird Form"] = "Кэрол - Форма птицы",
     ["I'm looking for light!"] = "Я ищу свет!",
     ["Haowen"] = "Хаовэн",

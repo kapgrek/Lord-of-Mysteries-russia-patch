@@ -58,7 +58,6 @@ return {
     ["<Tag>#占位文本</>占位文本占位文本占位<HyperLink>文</>本占位文本占位文本占位文本占位文本占位文本占位文本占位文本//<Name>转发玩家二</>：这啥呀这是//<Name>转发玩家一</>：这啥呀这是"] = "<Tag>#Текст-заполнитель</> Текст-заполнитель текст-заполнитель заполни<HyperLink>тель</> текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель текст-заполнитель // <Name>Переслал игрок два</>: Что это вообще такое // <Name>Переслал игрок один</>: Что это вообще такое",
     ["<h>观察四周</>"] = "<h>Осмотреть окрестности</>",
     ["{\"Buff类型%i\"}"] = "{\"Тип баффа %i\"}",
-    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Тинген, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>",
     ["{{先生|女士}}，准备好享受赌局了吗？"] = "{{ Mr. | Ms. } }, вы готовы насладиться игрой?",
     ["“祂将在此处诞生新的子嗣。”"] = "«Здесь он родит новое потомство».",
     ["【副本测试】63级属性"] = "[Испытание в подземелье] Статистика 63-го уровня",
@@ -267,5 +266,6 @@ return {
     ["我并不认为藏着秘密的非凡者就一定是坏蛋"] = "Я не считаю, что Потусторонний, скрывающий секреты, обязательно плохой человек.",
     ["你的姐姐？"] = "Твоя сестра?",
     ["After reaching level 39, you can create a room to start a Competition."] = "После достижения персонажем 39 уровня можно создать комнату для начала состязания.",
+    ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

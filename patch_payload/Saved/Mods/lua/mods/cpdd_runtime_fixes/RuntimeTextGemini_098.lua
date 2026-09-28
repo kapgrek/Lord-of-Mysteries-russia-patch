@@ -262,7 +262,6 @@ return {
     ["Waypoint - Arrive during escort (encounter enemies)"] = "Путевая точка — прибудьте во время сопровождения (встретьтесь с врагами)",
     ["Override base weapon"] = "Переопределить базовое оружие",
     ["I'm here?"] = "Я здесь?",
-    ["[Performance] Monterey is dead. Some shiny things (Beyonder characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby."] = "[Performance] Monterey is dead. Some shiny things (Потусторонний characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby.",
     ["Use quest item near the specified location; player sends quest item; player removes quest item (delete all)."] = "Использовать квестовый предмет рядом с указанной локацией; игрок отправляет квестовый предмет; игрок удаляет квестовый предмет (удалить все).",
     ["<P_Heart>(You muster the courage to taste a piece)</>"] = "<P_Heart>(Вы наберетесь смелости попробовать кусочек)</>",
     ["Warrior - Sunset Hurricane - Continuous Damage to Players"] = "Воин — Закатный ураган — постоянный урон игрокам",

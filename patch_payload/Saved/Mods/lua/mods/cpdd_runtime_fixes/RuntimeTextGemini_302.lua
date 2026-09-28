@@ -64,7 +64,6 @@ return {
     ["Patriotic Hygiene Campaign (Part 2) - Asking Leo"] = "Кампания патриотической гигиены (Часть 2) - Спросить Лео",
     ["Don't you sell water lilies here?"] = "Разве вы не продаете здесь кувшинки?",
     ["Existing Character"] = "Существующий персонаж",
-    ["No, it will most likely be evaluated and classified as a Sealed Artifact. Fortunately, its negative effects are not severe, and with some processing, they can be completely avoided."] = "No, it will most likely be evaluated and classified as a Запечатанный артефакт. Fortunately, its negative effects are not severe, and with some processing, they can be completely avoided.",
     ["Enable Streaming Character Count Limit"] = "Включить ограничение количества символов потоковой передачи",
     ["Emma: Th... thank you... I thought I was going to..."] = "Эмма: Э... спасибо... Я думала, что собираюсь...",
     ["Patrol Point 4"] = "Патрульный пункт 4",

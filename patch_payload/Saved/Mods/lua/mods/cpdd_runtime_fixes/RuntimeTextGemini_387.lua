@@ -48,7 +48,6 @@ return {
     ["No wonder, it looks a bit..."] = "Ничего удивительного, это выглядит немного...",
     ["The labor manual mentions that the factory will compensate for work-related injuries."] = "В трудовой книжке указано, что завод будет компенсировать производственные травмы.",
     ["Whenever I play this ordinary song."] = "Всякий раз, когда я играю эту обычную песню.",
-    ["…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. But your condition…"] = "…For an ordinary person to investigate a Потусторонний who has lost control, you should be thankful you are still alive. But your condition…",
     ["Every <Highlight>20 progress</>, obtain 1 growth resource chest. Open to randomly obtain one piece of <Highlight>current level</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol."] = "Каждый прогресс <Highlight>20</> дает 1 сундук с ресурсами роста. Откройте для случайного получения одной части <Highlight> текущего уровня</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или связанного Солнца.",
     ["<h>Knock on the door</>"] = "<h>Постучите в дверь</>",
     ["<M_Red>%s</> Expires in hours and will be automatically <M_Red> deleted </>"] = "<M_Red>%s</> Срок действия истекает через несколько часов и будет автоматически удален. <M_Red> </>.",

@@ -32,7 +32,6 @@ return {
     ["Blank Rat 2"] = "Пустая крыса 2",
     ["Racing is the epitome of the storm. Drive a steam car to gallop through the streets, ride the wind and waves to rush through dangerous shoals, and use the Leap of Spirituality to soar through the air—chase the footsteps of the Lord of Storms and win the glory and gifts that belong only to you."] = "Гонки — это воплощение бури. Управляйте паровой машиной, чтобы скакать по улицам, оседлайте ветер и волны, чтобы пронестись через опасные отмели, и используйте Прыжок Духовности, чтобы парить в воздухе — преследуйте шаги Повелителя Штормов и завоюйте славу и дары, которые принадлежат только вам.",
     ["In the flowerbed"] = "На клумбе",
-    ["A stele left here by someone unknown, recording several regional locations with Beyonder powers."] = "A stele left here by someone unknown, recording several regional locations with Потусторонний powers.",
     ["Che Linpeng - GTA - Golden Wolf Speech Event"] = "Че Линпэн - GTA - Событие «Речь Золотого Волка»",
     ["That thing will destroy everything here!"] = "Эта штука уничтожит здесь все!",
     ["Notarization: Invalid Super Armor"] = "Нотариальное заверение: недействительная суперброня",

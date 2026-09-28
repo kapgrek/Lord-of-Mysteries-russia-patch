@@ -196,7 +196,6 @@ return {
     ["Mr. \"Star\"?"] = "Господин «Звезда»?",
     ["Stage 1: Sector area with a radius of 4.2 meters"] = "1-й этап: секторная область радиусом 4,2 м",
     ["Original Story Subscription"] = "Подписка на оригинальную историю",
-    ["Obtain 1 Beyonder material with {Chaos Walker} entry"] = "Obtain 1 Потусторонний material with {Chaos Walker} entry",
     ["Betrayal"] = "Предательство",
     ["Free View"] = "Бесплатный просмотр",
     ["Brawling Passerby A"] = "Дерущийся прохожий А",

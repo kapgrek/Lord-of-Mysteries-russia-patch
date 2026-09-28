@@ -90,7 +90,6 @@ return {
     ["Sibyl standing inside"] = "Сивилла стоит внутри",
     ["Interpret revelations and guide others toward a better path."] = "Интерпретируйте откровения и направляйте других на лучший путь.",
     ["Max out materials"] = "Максимум материалов",
-    ["Not connected by blood, but built together by oaths. In this world where the extraordinary and madness coexist, you have chosen the most precious thing—trusting each other."] = "Not connected by blood, but built together by oaths. In this world where the extraordinary and Безумие coexist, you have chosen the most precious thing—trusting each other.",
     ["<P_Heart> (Chuckles) </> You mean that tongue?"] = "<P_Heart> (Хихикает) </> Ты имеешь в виду этот язык?",
     ["Gap Trigger"] = "Триггер разрыва",
     ["<DecH> Craft: </> Precision Leather · Crimson Lapel · Nighthawk Robe \n Black is the concealment granted by the night, red is the severity of the commandments. The Goddess's messengers walk for the sake of protection."] = "<DecH>Отделка: </>Тонкая кожа · Алый лацкан · Мантия Ночного Ястреба\nЧерный — сокрытость, дарованная ночью; алый — суровость заповедей. Вестники Богини ступают во имя защиты.",

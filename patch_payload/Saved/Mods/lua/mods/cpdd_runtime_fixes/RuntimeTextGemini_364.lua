@@ -51,7 +51,6 @@ return {
     ["Demon Wolf Statue shattered (1/8)!"] = "Статуя Демона-Волка разрушена (1/8)!",
     ["Frye deals damage to the target enemy and applies a <FaintYellow>Necrotic Mark</>, causing them to take additional damage equal to a percentage of the caster's Attack when hit by the caster."] = "Фрай наносит урон вражеской цели и накладывает на неё <FaintYellow>Некротическую метку</>, из-за чего при атаках заклинателя она получает дополнительный урон в размере доли от силы атаки заклинателя.",
     ["Sorry, did I bump into you?"] = "Простите, я наткнулся на вас?",
-    ["…For an ordinary person to investigate a Beyonder who has lost control, you should be thankful you are still alive. Let me check your condition."] = "…For an ordinary person to investigate a Потусторонний who has lost control, you should be thankful you are still alive. Let me check your condition.",
     ["Collection Level"] = "Уровень сбора",
     ["Boots of the Wind Blessed"] = "Благословенные сапоги ветра",
     ["Gather gatherable object with specified TemplateID"] = "Собрать собираемый объект с указанным TemplateID.",
@@ -119,7 +118,6 @@ return {
     ["<P_Heart>（高兴）</>我记得你，你帮过我的忙，因为猎龙帮抢我的票……哎呦……"] = "<P_Heart> (Счастливый) </> Я помню тебя, ты помог мне, потому что банда охотников на драконов украла мой билет... ой...",
     ["{{先生|女士}}, over there, the Loen people have a lot of say. As long as you wear a formal suit, a top hat, a bow tie, and carry a walking stick, the people around you will be submissive to you."] = "{{Sir|Madam}}, там люди из Лоена могут многое сказать. Пока вы носите строгий костюм, цилиндр, галстук-бабочку и носите с собой трость, люди вокруг вас будут вам покорны.",
     ["……那你是难过！"] = "...Тогда тебе грустно!",
-    ["一位热心的传奇非凡者，随便编个故事就能骗去帮忙，还从不失手。"] = "A helpful legendary Потусторонний—you can make up any story to trick them into helping, and it works every time.",
     ["三个圆形区域，对应三个“预言之物”？放上去试试。"] = "Три круглые области, соответствующие трем «Пророческим объектам»? Давайте попробуем разместить их там.",
     ["不好意思{{先生|女士}}，是我带你进入这里，让你吃到了不干净的食物。"] = "Прости, {{Mr.|Ms.}}, это я привел тебя сюда и заставил есть нечистую пищу.",
     ["不如先问问，是计划有用，还是找到了有用？"] = "Почему бы сначала не спросить: полезен ли план или полезно найти его?",
@@ -268,5 +266,6 @@ return {
     ["治疗公式"] = "Формула исцеления",
     ["The dark brown liquid rolls with coarse foam, the malt aroma mixed with a smoky scent, leaving a lingering sweetness in the mouth after swallowing."] = "Тёмно-коричневая жидкость покрыта крупной пеной, солодовый аромат смешивается с дымным запахом, оставляя во рту лёгкую сладость после глотка.",
     ["A note left by Suliya, with some transparent traces of shortening stained on the edges."] = "Записка, оставленная Сулией, на краях которой видны прозрачные следы от выпечного жира.",
+    ["一位热心的传奇非凡者，随便编个故事就能骗去帮忙，还从不失手。"] = "A helpful legendary Beyonder—you can make up any story to trick them into helping, and it works every time.",
     ["播放Dialogue  切换HUD顶栏显示模式"] = "Игра «Диалог». Переключить режим отображения верхней панели HUD.",
 }

@@ -76,7 +76,6 @@ return {
     ["War Stele · Order"] = "Военная стела · Орден",
     ["Blood-Groove Dual Blades"] = "Двойные лезвия «Кровавая канавка»",
     ["My leg hurts so much..."] = "У меня так нога болит...",
-    ["Amateur diviners are running around everywhere; I only want a truly reliable Seer..."] = "Amateur diviners are running around everywhere; I only want a truly reliable Провидец...",
     ["Yes, he had killed many people before that. That time, he was preparing an evil ritual, which is why he was caught by the Nighthawks."] = "Да, до этого он убил много людей. В тот раз он готовил злой ритуал, из-за чего его поймали Ночные Ястребы.",
     ["Afterimage 3"] = "Остаточное изображение 3",
     ["I just logged on today..."] = "Я только сегодня зашёл...",

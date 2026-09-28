@@ -65,7 +65,6 @@ return {
     ["Scepter 2 item initial state"] = "Исходное состояние предмета Scepter 2",
     ["Gray's Notes"] = "Заметки Грея",
     ["[Rogue] Stacked Mark Detonation"] = "[Разбойник] Взрыв накопленной метки",
-    ["One-click boost character to super-whale player stats, unlock systems, advance Sequence, and add potions."] = "One-click boost character to super-whale player stats, unlock systems, advance Последовательность, and add potions.",
     ["Tingen Newspaper"] = "Газета Тинген",
     ["<P_Heart> (Talking to himself) </> Thomas, someone wants to buy the tavern again today..."] = "<P_Heart> (Разговаривает сам с собой) </> Томас, сегодня кто-то снова хочет купить таверну...",
     ["Due to a sudden blizzard in the Loen Kingdom, the demand for cotton clothes has surged, and the price of <Brown>Muscovy Duck</> has risen by <Brown>72%</>"] = "Из-за внезапной метели в Королевстве Лоен спрос на хлопчатобумажную одежду резко возрос, а цена на <Brown>Muscovy Duck</> выросла на <Brown>72%</>.",
@@ -287,6 +286,6 @@ return {
     ["Prudence"] = "Благоразумие",
     ["Sela"] = "Села",
     ["俱乐部活跃度+1500"] = "Клубная активность +1500",
-    ["于心湖投石，漾开名为疯狂的涟漪。"] = "Cast a stone into the lake of the heart, rippling with Безумие.",
     ["Trey"] = "Трей",
+    ["于心湖投石，漾开名为疯狂的涟漪。"] = "Cast a stone into the lake of the heart, rippling with madness.",
 }

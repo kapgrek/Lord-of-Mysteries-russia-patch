@@ -188,7 +188,6 @@ return {
     ["Read the Missing Persons Case Materials"] = "Ознакомьтесь с материалами дела о пропавших без вести лицах",
     ["Saint"] = "Святой",
     ["He has completely lost his mind."] = "Он полностью потерял рассудок.",
-    ["[Golden Autumn Lake-Hard]-Druid-Mark 3 Any Targets"] = "[Golden Autumn Lake-Hard]-Druid-Mark 3 Любые цели",
     ["How... how on earth can I make the story continue..."] = "Как... как мне, черт возьми, продолжить историю...",
     ["You little bastard, running away before the contract expires, you're a cancer to society!"] = "Ты, маленький ублюдок, сбежавший до истечения срока контракта, ты рак для общества!",
     ["Moments from the Original Work"] = "Моменты из оригинальной работы",

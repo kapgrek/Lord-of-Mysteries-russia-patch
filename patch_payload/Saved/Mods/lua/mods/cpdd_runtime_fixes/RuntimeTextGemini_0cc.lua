@@ -47,7 +47,6 @@ return {
     ["一位议员家中的马桶发生故障，不断传出奇怪的声音。这似乎与廷根的进化浪潮有关……"] = "Туалет в доме депутата неисправен и издает странные звуки. Похоже, это связано с эволюционной волной Тингена...",
     ["不会再次眩晕"] = "Больше не буду ошеломлен",
     ["不过，感觉还不够精确，最好补充一些<P_Yellow>个人特质</>。"] = "Однако это не кажется достаточно точным. Было бы лучше добавить некоторые личные черты <P_Yellow> </>.",
-    ["世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。"] = "When the World Calamity dies, Потустороннийs who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week.",
     ["丰收后就会迎来的荒芜期吗……枯萎的枝藤会是不错的装饰。"] = "Бесплодный период, который наступает после сбора урожая... увядшие лозы могли бы стать хорошим украшением.",
     ["丹妮丝·"] = "Дениз",
     ["买私酒的工人"] = "Рабочий покупает самогон",
@@ -266,4 +265,5 @@ return {
     ["Use the residual power of the vines to prevent yourself from being knocked back!"] = "Используйте остаточную силу лиан, чтобы не быть отброшенным!",
     ["%s默认为静默模式，不可进行此操作"] = "%s по умолчанию находится в режиме тишины, это действие невозможно",
     ["Don't worry, mate, I'll hold it steady from below!"] = "Не волнуйся, приятель, я буду держать снизу крепко!",
+    ["世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。"] = "When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week.",
 }

@@ -221,7 +221,6 @@ return {
     ["By observing the target, gain insight into and grasp their true thoughts."] = "Наблюдая за целью, вы сможете понять и уловить ее истинные мысли.",
     ["Boxing Bell"] = "Боксерский колокол",
     ["Obtain the Top 4 honorary title after participating in Peak of the Gods"] = "Получите почетное звание «Топ-4» после участия в «Пике богов».",
-    ["Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Seer potion materials left, otherwise you would have to wait a long time."] = "Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Провидец potion materials left, otherwise you would have to wait a long time.",
     ["West District Newspaper Girl Chair"] = "Стул газетницы Западного округа",
     ["Psychiatrist Potion"] = "Зелье психиатра",
     ["The Crown of Knowledge activated and escaped due to corruption... Could the power behind the scenes be the Mother Goddess of Depravity?"] = "Корона Знаний активировалась и исчезла из-за порчи... Может ли закулисная сила быть Богиней-Матерью Разврата?",

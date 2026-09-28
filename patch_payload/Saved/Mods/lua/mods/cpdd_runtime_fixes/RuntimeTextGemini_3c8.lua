@@ -129,7 +129,6 @@ return {
     ["citywalk-黑荆棘粉丝-弗莱"] = "Прогулка по городу - Веер Блэкторна - Фрай",
     ["trigger-画外音2"] = "Триггер: Закадровый голос 2",
     ["wave1_假"] = "волна1_ложная",
-    ["“赛琳娜伍德偶然间 巧合地从她的神秘学老师海纳斯处看到了魔镜占卜的真正咒文……”"] = "\"Selina Wood accidentally and coincidentally saw the true incantation for mirror Гадание from her occult teacher, Haines……\"",
     ["……没错。"] = "…Это верно.",
     ["一些记忆片段出现"] = "Появляются некоторые фрагменты памяти",
     ["一束肃穆清幽的花朵。"] = "Букет торжественных и тихих цветов.",
@@ -259,4 +258,5 @@ return {
     ["非凡物质的百分比是什么？"] = "Что такое процент материала Бейондера?",
     ["这又有什么？这又不是报纸鼓吹爱情与浪漫，羡慕因蒂斯的自由风气的时候了？"] = "Что с того? Разве сейчас время, когда газеты воспевают любовь и романтику, восхищаясь свободными нравами Интис?",
     ["Hmph, you're sensible. My pumpkins are definitely the biggest and sweetest!"] = "Хм, ты понимаешь толк. Мои тыквы точно самые большие и сладкие!",
+    ["“赛琳娜伍德偶然间 巧合地从她的神秘学老师海纳斯处看到了魔镜占卜的真正咒文……”"] = "\"Selina Wood accidentally and coincidentally saw the true incantation for mirror divination from her occult teacher, Haines……\"",
 }

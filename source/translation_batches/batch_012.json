@@ -36,12 +36,6 @@
     "target_ru": "{{Mr.|Ms.}}, ты можешь осмотреться и спрашивать, что хочешь. Я гарантирую, что на рынке салата и мяса нет лучшего стейка, чем мой."
   },
   {
-    "id": "055006",
-    "source_cn": "【占位】闪回梦境占卜中温妮失踪前的一幕。",
-    "ref_en": "【Placeholder】 Flashback to the scene before Winnie went missing in the dream divination.",
-    "target_ru": "【Placeholder】 Flashback to the scene before Winnie went missing in the dream Гадание."
-  },
-  {
     "id": "055007",
     "source_cn": "【自走棋】-斯维因-雷潮终结",
     "ref_en": "[Auto Chess] - Swain - Thunder Tide Finish",
@@ -1668,12 +1662,6 @@
     "target_ru": "[Заполнитель] Клейн на мгновение задумался. На этот раз он решает очертить шар света."
   },
   {
-    "id": "055278",
-    "source_cn": "【秘偶技】子爵夫人幽灵-死亡随机选目标-第2次",
-    "ref_en": "[Marionette Skill] Viscountess Ghost - Death Random Target Selection - 2nd Time",
-    "target_ru": "[Марионетка Skill] Viscountess Ghost - Death Random Target Selection - 2nd Time"
-  },
-  {
     "id": "055279",
     "source_cn": "【金秋湖-困难】-德鲁伊-连线德鲁伊",
     "ref_en": "[Golden Autumn Lake-Hard]-Druid-Connect Druid",
@@ -2302,12 +2290,6 @@
     "source_cn": "<Assistant_Title1>获取秘偶</>\\n<Assistant_Title2>玩法说明：</>\\n“愚者”先生赐予的封印物<Assistant_Property1>乌托邦剧院</>，可以帮助非凡者获取并操控秘偶。\\n1、通过<Assistant_System>菜单-秘偶-获取秘偶</>可以进入<Assistant_Property1>乌托邦剧院</>，抽选<Assistant_Property2>秘偶</>，解锁对应秘偶技能。\\n2、乌托邦剧院戏台每次<Assistant_Property1>刷新</>会上架<Assistant_Red>3个</>秘偶，可供抽选。若抽选后戏台上只剩<Assistant_Red>紫色</>品质秘偶，戏台会自动刷新。\\n序幕抽选：消耗<Assistant_Property1>金纺线</>*3，从台上3个秘偶中随机获得1个。\\n中幕抽选：消耗<Assistant_Property1>金纺线</>*6，从台上剩余2个秘偶中随机获得1个。\\n落幕抽选：消耗<Assistant_Property1>金纺线</>*12，必定获得台上剩余的1个秘偶。\\n3、序幕抽选后，也可以主动<Assistant_Property1>放弃</>剩余秘偶，进行刷新。\\n4、进行<Assistant_Property1>秘偶许愿</>，选择特定的秘偶，可以提升该秘偶出现的概率。\\n5、重复获取的秘偶会转化为秘偶碎片，可用来进行<Assistant_Property1>秘偶培养</>，提升角色属性和增强秘偶技能。\\n6、秘偶培养达到上限后，溢出的<Assistant_Property1>秘偶碎片</>会转化为<Assistant_Property1>人偶发条</>，可以到<Assistant_Property1>秘偶商店</>兑换为其他道具。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[秘偶培养]|537}，{SendAnswer:[人偶发条]|543}，{SendAnswer:[秘偶商店]|545}",
     "ref_en": "<Assistant_Title1>Obtain Marionette</>\\n<Assistant_Title2>Gameplay Instructions: </>\\nThe Sealed Artifact <Assistant_Property1>Utopia Theater</> bestowed by Mr. Fool can help Beyonders obtain and control marionettes.\\n1. You can enter the <Assistant_System>Utopia Theater</> via <Assistant_Property1>Menu - Marionette - Obtain Marionette</> to draw <Assistant_Property2>marionettes</> and unlock corresponding Marionette Skills.\\n2. The Utopia Theater stage will <Assistant_Property1>refresh</> and list <Assistant_Red>3</> marionettes available for selection each time. If only <Assistant_Red>Purple</> quality marionettes remain on the stage after drawing, the stage will automatically refresh.\\nPrologue Draw: Consumes <Assistant_Property1>Gold Thread</>*3 to randomly obtain 1 of the 3 marionettes on stage.\\nInterlude Draw: Consumes <Assistant_Property1>Gold Thread</>*6 to randomly obtain 1 of the 2 remaining marionettes on stage.\\nCurtain Call Draw: Consumes <Assistant_Property1>Gold Thread</>*12 to guarantee obtaining the 1 remaining marionette on stage.\\n3. After the Prologue Draw, you can also choose to <Assistant_Property1>give up</> on the remaining marionettes and refresh.\\n4. Perform <Assistant_Property1>Marionette Wish</> and select a specific marionette to increase the probability of that marionette appearing.\\n5. Duplicate marionettes obtained will be converted into Marionette Shards, which can be used for <Assistant_Property1>Marionette Cultivation</> to increase character attributes and enhance Marionette Skills.\\n6. After Marionette Cultivation reaches the limit, excess <Assistant_Property1>Marionette Shards</> will be converted into <Assistant_Property1>Marionette Clockwork</>, which can be exchanged for other items in the <Assistant_Property1>Marionette Shop</>.\\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Marionette Cultivation]|537}, {SendAnswer:[Marionette Clockwork]|543}, {SendAnswer:[Marionette Shop]|545}",
     "target_ru": "<Assistant_Title1>Получение марионетки</>\\n<Assistant_Title2>Как играть: </>\\nЗапечатанный предмет, данный мистером «Шутом»<Assistant_Property1>Театр Утопии</>, может помочь необыкновенным людям получить марионетку и управлять ею. \\n1. Через меню <Assistant_System> - Секретная марионетка - Получить секретную марионетку </> вы можете войти в <Assistant_Property1> Театр Утопии </>, нарисовать <Assistant_Property2> Секретную марионетку </> и разблокировать соответствующие навыки Секретной марионетки. \\n2. Каждый раз, когда <Assistant_Property1> обновляет </> сцену Театра Утопия, марионетки <Assistant_Red>3 </> будут доступны для рисования. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \\n Лотерея пролога: используйте <Assistant_Property1>Золотую прядильную нить</>*3, чтобы случайным образом получить 1 марионетку из 3 марионеток на сцене. \\n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \\n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \\n3. После рисования пролога вы также можете активно <Assistant_Property1> отказаться от </> оставшихся марионеток и обновить их. \\n4. Выполните <Assistant_Property1> «Секретные пожелания марионетки» </> и выберите определенную секретную марионетку, чтобы увеличить вероятность появления этой секретной марионетки. \\n5. Марионетки, полученные повторно, будут преобразованы в фрагменты марионеток, которые можно будет использовать для <Assistant_Property1> тренировки марионеток</>, улучшения характеристик персонажей и улучшения навыков марионеток. \\n6. После того, как обучение марионеток достигнет верхнего предела, переполненные <Assistant_Property1> фрагменты марионеток </> будут преобразованы в <Assistant_Property1> часовой механизм марионеток </>, который можно будет обменять на другие реквизиты в магазине марионеток <Assistant_Property1> </>. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Секретная тренировка кукол]|537}, {SendAnswer:[Кукольный механизм]|543}, {SendAnswer:[Секретный магазин кукол]|545}"
-  },
-  {
-    "id": "055384",
-    "source_cn": "<Highlight>尽快击破所有分身，</>中止小丑的研究。",
-    "ref_en": "<Highlight>Destroy all projections as soon as possible</> to stop the Clown's research.",
-    "target_ru": "<Highlight>Destroy all projections as soon as possible</> to stop the Клоун's research."
   },
   {
     "id": "055385",
@@ -5640,18 +5622,6 @@
     "target_ru": "NPC_Телепорт_Гончая"
   },
   {
-    "id": "055940",
-    "source_cn": "【秘偶技】星之虫-冰霜吐息-法术代理",
-    "ref_en": "[Marionette Skill] Worm of Star - Frost Breath - Spell Agent",
-    "target_ru": "[Марионетка Skill] Worm of Star - Frost Breath - Spell Agent"
-  },
-  {
-    "id": "055941",
-    "source_cn": "【秘偶技】犬魂跃击-猎犬召唤物跳砸",
-    "ref_en": "[Marionette Skill] Hound Soul Leap - Hound Summon Jump Smash",
-    "target_ru": "[Марионетка Skill] Hound Soul Leap - Hound Summon Jump Smash"
-  },
-  {
     "id": "055942",
     "source_cn": "【鲁恩商报】工厂区精炼金属限时促销！",
     "ref_en": "[Loen Business News] Factory District refined metal limited-time promotion!",
@@ -7338,12 +7308,6 @@
     "target_ru": "[Roguelike] Надпись Странника - Периодический урон"
   },
   {
-    "id": "056223",
-    "source_cn": "【秘偶技】星之虫-冰焰吐息",
-    "ref_en": "[Marionette Skill] Worm of Star - Ice Flame Breath",
-    "target_ru": "[Марионетка Skill] Worm of Star - Ice Flame Breath"
-  },
-  {
     "id": "056224",
     "source_cn": "【自走棋】-阿兹克-第三波",
     "ref_en": "[Auto Chess] - Azik - Third Wave",
@@ -8880,12 +8844,6 @@
     "target_ru": "<P_Heart>(Пожалуйста, обычные люди, уйдите, чтобы я мог провести более тщательное расследование.)</>"
   },
   {
-    "id": "056480",
-    "source_cn": "<Yellow>弱点攻击</>：佩戴者攻击主目标时，可对其施加<Yellow>弱点揭露</>效果，每秒最多揭露1层，最多可揭露<Yellow>30</>层。每消耗<Yellow>15</>层，可扣下丧钟的扳机，攻击目标灵体，造成<Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</>点伤害、<Yellow>3秒</>受到治疗增幅降低<Yellow>70%</>和移动速度降低<Yellow>*f**</>效果，另有<Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</>的基础概率使目标眩晕<Yellow>1秒</>。若目标处于霸体状态，则对其重新施加<Yellow>3</>层弱点揭露。",
-    "ref_en": "<Yellow>Weakness Attack</>: When the wearer attacks the main target, they can apply the <Yellow>Weakness Exposed</> effect, revealing up to 1 stack per second, for a maximum of <Yellow>30</> stacks. For every <Yellow>15</> stacks consumed, you can pull the trigger of Death Knell, attacking the target's spirit body to deal <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> damage, reduce incoming Healing by <Yellow>70%</> for <Yellow>3 seconds</>, and reduce movement speed by <Yellow>*f**</>. Additionally, there is a <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> base probability to Stun the target for <Yellow>1 second</>. If the target is in a Super Armor state, re-apply <Yellow>3</> stacks of Weakness Exposed to them.",
-    "target_ru": "<Yellow>Weakness Attack</>: When the wearer attacks the main target, they can apply the <Yellow>Weakness Exposed</> effect, revealing up to 1 stack per second, for a maximum of <Yellow>30</> stacks. For every <Yellow>15</> stacks consumed, you can pull the trigger of Death Knell, attacking the target's Духовное тело to deal <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?*d}{CheckStar(Type=\"sealed\",ID=2085001)=2?*d}{CheckStar(Type=\"sealed\",ID=2085001)=3?*d}</> damage, reduce incoming Healing by <Yellow>70%</> for <Yellow>3 seconds</>, and reduce Скорость бега by <Yellow>*f**</>. Additionally, there is a <Yellow>{CheckStar(Type=\"sealed\",ID=2085001)=1?60%}{CheckStar(Type=\"sealed\",ID=2085001)=2?80%}{CheckStar(Type=\"sealed\",ID=2085001)=3?100%}</> base probability to Stun the target for <Yellow>1 second</>. If the target is in a Суперброня state, re-apply <Yellow>3</> stacks of Weakness Exposed to them."
-  },
-  {
     "id": "056481",
     "source_cn": "[表情140]",
     "ref_en": "[Emoji 140]",
@@ -8904,12 +8862,6 @@
     "target_ru": "[Эмодзи 147]"
   },
   {
-    "id": "056484",
-    "source_cn": "{{player.name}}对{{targetPlayer.name}}成功进行了安魂，对方躁动的灵性重归宁静，恢复了<Chat_Highlight>{{eventMessageParams.N}}</>点理智。赞美女神，一切的归宿是安宁！",
-    "ref_en": "{{player.name}} has successfully performed a Requiem on {{targetPlayer.name}}. The other party's restless spirituality has returned to tranquility, restoring <Chat_Highlight>{{eventMessageParams.N}}</> points of Sanity. Praise the Goddess, for the destination of all things is peace!",
-    "target_ru": "{{player.name}} has successfully performed a Requiem on {{targetPlayer.name}}. The other party's restless Духовность has returned to tranquility, restoring <Chat_Highlight>{{eventMessageParams.N}}</> points of Рассудок. Praise the Goddess, for the destination of all things is peace!"
-  },
-  {
     "id": "056485",
     "source_cn": "{{先生|女士}}, are you looking to rent a house?",
     "ref_en": "{{Sir|Madam}}, are you looking to rent a house?",
@@ -8920,12 +8872,6 @@
     "source_cn": "“我们是一群时刻对抗着危险和疯狂的可怜虫，也是廷根的守护者。”",
     "ref_en": "\"We are a group of poor souls constantly fighting against danger and madness, and we are also the Guardians of Tingen.\"",
     "target_ru": "«Мы — группа бедных душ, постоянно борющихся с опасностью и безумием, а также мы — Стражи Тингена»."
-  },
-  {
-    "id": "056487",
-    "source_cn": "“正义”小姐馈赠的精致钱包，能够带来潜意识和心灵的守护，抵御部分非凡伤害。但负面效果是……产生强烈的花钱冲动！",
-    "ref_en": "An exquisite wallet gifted by Miss Justice, capable of bringing subconscious and spiritual protection, resisting some Beyonder damage. But the negative effect is... generating a strong urge to spend money!",
-    "target_ru": "An exquisite wallet gifted by Miss Justice, capable of bringing subconscious and spiritual protection, resisting some Потусторонний damage. But the negative effect is... generating a strong urge to spend money!"
   },
   {
     "id": "056488",
@@ -11224,12 +11170,6 @@
     "source_cn": "Yes. {{先生|女士}}, you are the kind of person who lives with money.",
     "ref_en": "Yes. {{Sir|Madam}}, you are the kind of person who lives with money.",
     "target_ru": "Да. {{Sir|Madam}}, ты тот человек, который живет деньгами."
-  },
-  {
-    "id": "056871",
-    "source_cn": "{{player.name}}在非凡聚合中，凝聚出携有<Chat_Highlight>{{relic_word.name}}</>词条的{{item.name}}，得到了执掌好运的黄黑之王的眷顾！",
-    "ref_en": "{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!",
-    "target_ru": "{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Потусторонний Convergence, receiving the favor of the King of Yellow and Black who wields good luck!"
   },
   {
     "id": "056872",
@@ -16500,12 +16440,6 @@
     "target_ru": "[Примечание] Заключительный сегмент – Текст 3-2"
   },
   {
-    "id": "057750",
-    "source_cn": "不要，非凡者很危险，你做文职吧。",
-    "ref_en": "No, Beyonders are dangerous, you should do clerical work.",
-    "target_ru": "No, Потустороннийs are dangerous, you should do clerical work."
-  },
-  {
     "id": "057751",
     "source_cn": "不过这些都不重要了，等我们成功，钱财和地位都会有。",
     "ref_en": "But none of that matters anymore. When we succeed, we will have both money and status.",
@@ -18024,12 +17958,6 @@
     "target_ru": "<P_Yellow> «Освежающие» истории — общее занятие разных людей в разных мирах!</>"
   },
   {
-    "id": "058004",
-    "source_cn": "<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果",
-    "ref_en": "<Rank1>\"Level 1\"</> Sealed Artifact only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect",
-    "target_ru": "<Rank1>\"Level 1\"</> Запечатанный артефакт only takes effect in the strategic server, this server takes effect <Rank2>\"Level 2\"</> effect"
-  },
-  {
     "id": "058005",
     "source_cn": "LinearColorParams 材质参数名称不可为空",
     "ref_en": "LinearColorParams material parameter name cannot be empty",
@@ -18100,12 +18028,6 @@
     "source_cn": "丛林圆舞·饰品",
     "ref_en": "Jungle Waltz · Accessory",
     "target_ru": "Джунглевой вальс · Аксессуар"
-  },
-  {
-    "id": "058017",
-    "source_cn": "为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。",
-    "ref_en": "To help Azik Eggers recover his past, Klein established a long-term correspondence with him. The letters mostly consist of sharing historical clues, asking about Beyonder knowledge, or informing him of travel plans, serving as an important bond for this mentor-friend relationship.",
-    "target_ru": "To help Azik Eggers recover his past, Klein established a long-term correspondence with him. The letters mostly consist of sharing historical clues, asking about Потусторонний knowledge, or informing him of travel plans, serving as an important bond for this mentor-friend relationship."
   },
   {
     "id": "058018",
@@ -21324,12 +21246,6 @@
     "target_ru": "{\"Тип баффа %i\"}"
   },
   {
-    "id": "058554",
-    "source_cn": "{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>",
-    "ref_en": "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>",
-    "target_ru": "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Тинген, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>"
-  },
-  {
     "id": "058555",
     "source_cn": "{{先生|女士}}，准备好享受赌局了吗？",
     "ref_en": "{{ Mr. | Ms. } }, are you ready to enjoy the game?",
@@ -23610,12 +23526,6 @@
     "target_ru": "Обеспечить щит и исцеление целям"
   },
   {
-    "id": "058935",
-    "source_cn": "主动释放一次朗基努斯之枪后会使岁月的棋局的冷却时间减少1秒。",
-    "ref_en": "Actively casting Spear of Longinus once reduces the Cooldown of Gambit of the Ages by 1 second.",
-    "target_ru": "Actively casting Spear of Longinus once reduces the Перезарядка of Gambit of the Ages by 1 second."
-  },
-  {
     "id": "058936",
     "source_cn": "仅影响充能技能，改变其充能次数",
     "ref_en": "Only affects charge skills, changing their charge count.",
@@ -24312,12 +24222,6 @@
     "target_ru": "<Yellow>Взор в подземный мир</>: Владелец получает навык <Yellow>Сумеречная маска</>: наденьте маску, чтобы погрузиться на границу яви и подземного мира. Под непрерывным терзанием визга все боевые навыки усиливаются: их скорость атаки возрастает на <Yellow>36%</>, а время перезарядки сокращается на <Yellow>0,24 сек.</> каждую секунду. Владелец может выдерживать это состояние в течение <Yellow>20 секунд</>; каждое убийство или помощь продлевает действие на <Yellow>5 секунд</> (эффект продления срабатывает не более <Yellow>2 раз</>).\\nПерезарядка навыка: 60 сек."
   },
   {
-    "id": "059052",
-    "source_cn": "{{先生|女士}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes.",
-    "ref_en": "{{Sir|Madam}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes.",
-    "target_ru": "{{Sir|Madam}}, I used to be a Фокусник, skilled at escaping from cages in front of everyone's eyes."
-  },
-  {
     "id": "059053",
     "source_cn": "“汪汪！”",
     "ref_en": "\"Woof!\"",
@@ -24334,12 +24238,6 @@
     "source_cn": "【完成主线·时代的浪潮，成为序列9后解锁，尝试扮演战士】\\n在金秋湖畔的木屋边，你看见两个粗暴的混混正在找一个女孩的麻烦……",
     "ref_en": "【Complete Main Quest: Waves of the Era, unlock after becoming Sequence 9, try acting as a Warrior】 \\n Beside the wooden house by Golden Autumn Lake, you see two rough thugs giving a girl trouble...",
     "target_ru": "【Открывается после прохождения основного сюжета «Волна эпохи» и получения Последовательности 9; попробуйте примерить роль Воина】\\nВозле деревянного домика на берегу озера Золотой Осени вы замечаете двух грубых громил, пристающих к беззащитной девушке..."
-  },
-  {
-    "id": "059056",
-    "source_cn": "【雾林眷族】棋子每次普攻获得<HighLight>1</>层【苔影汲取】，每层获得<HighLight>2%</>吸血和<HighLight>1%</>最大生命，最多叠加<HighLight>6</>层。",
-    "ref_en": "Each basic attack from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>2%</> Life Steal and <HighLight>1%</> Max Health, stacking up to <HighLight>6</> times.",
-    "target_ru": "Each Базовая атака from a [Fog Forest Kin] piece grants <HighLight>1</> stack(s) of [Moss Shadow Absorption], with each stack granting <HighLight>2%</> Вампиризм and <HighLight>1%</> Max Health, stacking up to <HighLight>6</> times."
   },
   {
     "id": "059057",
@@ -25174,12 +25072,6 @@
     "source_cn": "不打扰他们了",
     "ref_en": "I won't disturb them",
     "target_ru": "я не буду им мешать"
-  },
-  {
-    "id": "059196",
-    "source_cn": "不知是学艺不精还是运气不佳，本次安魂失败了，你的理智降低了%s。",
-    "ref_en": "Whether due to lack of skill or bad luck, this Requiem failed, and your Sanity decreased by %s.",
-    "target_ru": "Whether due to lack of skill or bad luck, this Requiem failed, and your Рассудок decreased by %s."
   },
   {
     "id": "059197",

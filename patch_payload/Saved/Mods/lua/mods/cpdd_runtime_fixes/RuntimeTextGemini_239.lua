@@ -244,7 +244,6 @@ return {
     ["Frye to Blackthorn Path"] = "Фрай на Тропе Блэкторна",
     ["Dress Fragment"] = "Фрагмент платья",
     ["It moved away or went out of business, which version do you want to hear?"] = "Он переехал или прекратил свою деятельность, какую версию вы хотите услышать?",
-    ["An extraordinary mutation has occurred at May Manor, accompanied by a large amount of corruption."] = "An extraordinary mutation has occurred at May Manor, accompanied by a large amount of Искажение.",
     ["Advancement - Fighter"] = "Продвижение - Боец",
     ["Void Withered Bone"] = "Иссохшая кость Пустоты",
     ["Back to the main point, what do you need me to do for you? Regarding your obsession, does the Captain have any other clues?"] = "Возвращаясь к главному: что мне нужно для вас сделать? Что касается вашей одержимости, есть ли у капитана какие-нибудь еще подсказки?",

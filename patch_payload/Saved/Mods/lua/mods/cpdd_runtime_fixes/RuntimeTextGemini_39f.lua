@@ -49,7 +49,6 @@ return {
     ["Sit on the <h>sofa</>"] = "Сядьте на диван <h></>",
     ["Mm-hmm... of course, dear!"] = "Мм-хм... конечно, дорогая!",
     ["If only Mother were here too... Jenny would give Mother a beautiful necklace, and Mother would give the fattest goose leg to Jenny to eat..."] = "Если бы только мама была здесь... Дженни подарила бы маме красивое ожерелье, а мама дала бы Дженни съесть самую жирную гусиную ножку...",
-    ["{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!"] = "{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Потусторонний Convergence, receiving the favor of the King of Yellow and Black who wields good luck!",
     ["Search Server"] = "Поисковый сервер",
     ["Receive Interface Close Message"] = "Получить сообщение о закрытии интерфейса",
     ["Dungeon_May Manor_Minion_Call for help"] = "Dungeon_May Manor_Minion_Зов о помощи",
@@ -106,7 +105,6 @@ return {
     ["GTA事件"] = "Событие GTA",
     ["PVP投放"] = "ПВП дроп",
     ["action生效后，会自动进行上坐骑流程（不会绕过状态冲突表，如果当前状态禁止上坐骑，则上坐骑会失败）"] = "После того, как действие вступит в силу, автоматически запускается процесс монтирования (не в обход таблицы конфликтов статусов; если текущий статус запрещает монтирование, монтирование завершится неудачно).",
-    ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} has found a precious {{item.name}} amidst the Потусторонний convergence; their Потусторонний journey extends forward from this point on.",
     ["“愚者”先生为你嫁接的力量中，还包含常用的非凡能力。"] = "Сила, переданная вам Мистеромом, также включает в себя некоторые часто используемые способности Потустороннего.",
     ["……对不起，我太冲动了。今天我所有的计划都被打破了，这一点都不符合我的计……"] = "...Прости, я был слишком импульсивен. Все мои планы на сегодня разрушены, это не вписывается в мой план...",
     ["　　特大喜讯！特大喜讯！经过几个月的重新装修，位于廷根市豪尔斯街区的哈罗德百货商店于今日盛大开业！\n　　我们将推出特大优惠，购物每满十镑即减免一镑！整个七月，哈罗德百货惊喜不断、优惠不断，更有大量奖品等您领取！"] = "Отличные новости! Отличные новости! После нескольких месяцев ремонта сегодня торжественно открывается универмаг Harrods в районе Холлс города Тинген! \n　Мы запустим специальное предложение: вы получите скидку один фунт за каждые десять фунтов, потраченные на покупку! В течение июля Harrods предлагает вам сюрпризы, скидки и множество призов!",
@@ -259,6 +257,7 @@ return {
     ["Successfully charm 5 Beyonders"] = "Успешно очаровать 5 Потусторонних",
     ["每层你可以获得一次在战斗中使用坐骑的机会，持续30秒，上坐骑时你对撞到的敌人造成高额伤害且自身不受控制效果影响。"] = "Каждый уровень даёт вам одну возможность использовать маунта в бою длительностью 30 секунд. При посадке на маунта вы наносите высокий урон врагам, в которых врезаетесь, и не подвержены эффектам контроля.",
     ["Are you planning to go back later? I hope you're an obedient, good cat."] = "Собираешься вернуться позже? Надеюсь, ты послушная хорошая кошка.",
+    ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on.",
     ["指定地点附近使用任务道具  玩家播放仅自己可见的说话文本  玩家发送任务道具"] = "Использовать квестовый предмет рядом с указанным местом: игрок воспроизводит текст, видимый только ему самому, игрок отправляет квестовый предмет.",
     ["剩余时间："] = "Оставшееся время:",
 }

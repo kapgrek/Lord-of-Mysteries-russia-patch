@@ -227,7 +227,6 @@ return {
     ["The next evening..."] = "На следующий вечер...",
     ["After use, increases the <Highlight>Appearance Conquest Progress</> for the <Highlight>May Manor · Garden</> dungeon by 1 point. Once the progress reaches a certain value, you can obtain 1 random common appearance from that dungeon."] = "После использования увеличивает прогресс завоевания <Highlight>Appearance Conquest </> для подземелья <Highlight>May Manor · Garden</> на 1 очко. Как только прогресс достигнет определенного значения, вы сможете получить 1 случайный обычный облик из этого подземелья.",
     ["Confirm synthesis of <HighLight>%d</> %s?"] = "Подтвердить синтез <HighLight>%d</> %s?",
-    ["Humans who want to become Beyonders and continue on the path of the extraordinary can only rely on potions."] = "Humans who want to become Потустороннийs and continue on the path of the extraordinary can only rely on potions.",
     ["Product not unlocked."] = "Продукт не разблокирован.",
     ["Have a wonderful afternoon."] = "Желаем вам чудесного дня.",
     ["Tianshui"] = "Тяньшуй",

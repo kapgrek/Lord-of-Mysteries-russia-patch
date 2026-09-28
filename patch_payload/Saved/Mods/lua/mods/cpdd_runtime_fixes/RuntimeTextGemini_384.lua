@@ -114,7 +114,6 @@ return {
     ["Bow Tie"] = "Галстук-бабочка",
     ["Parameter 1: levelID, parameter 2: X, 3: Y, 4: Z, 5: Icon style, 6: scale multiplier, 7: scale time (seconds)."] = "Параметр 1: levelID, параметр 2: X, 3: Y, 4: Z, 5: стиль значка, 6: множитель масштаба, 7: время масштабирования (секунды).",
     ["Bargain · Winery"] = "Выгодная сделка · Винодельня",
-    ["They tried to make contact with a Beyonder item. That thing possessed living characteristics, and in the end... not a single person survived."] = "They tried to make contact with a Потусторонний item. That thing possessed living characteristics, and in the end... not a single person survived.",
     ["It's time for the butler to work."] = "Пришло время дворецкому поработать.",
     ["Chat AI Check Function"] = "Функция проверки чата через ИИ",
     ["My Achievements"] = "Мои достижения",

@@ -145,7 +145,6 @@ return {
     ["Filling 0 means all."] = "Заполнение 0 означает все.",
     ["Increases the chance to block physical or magic damage. After blocking, the character takes only 30% damage, and the blocked hit cannot critically strike (Block Rate cannot exceed 75%).\n\nPhysical Block: <Mark>1393</>\nMagic Block: <Mark>1393</>"] = "Повышает шанс персонажа заблокировать физический или магический урон. После блокирования персонаж получает только 30% урона, и заблокированный удар не может быть критическим (шанс блока не может превышать 75%).\n\nФизический блок: <Mark>1393</>\nМагический блок: <Mark>1393</>",
     ["Simulated Acting: Lumian"] = "Имитация актерского мастерства: Люмиан",
-    ["[Temporary Placeholder] \"Hornacis... Flegrea... Hornacis... Flegrea... Hornacis... Flegrea...\""] = "[Временный заполнитель] «Hornacis… Flegrea… Hornacis… Flegrea… Hornacis… Flegrea…»",
     ["Quest node play cutscene"] = "Кат-сцена с квестовым узлом",
     ["Georgia "] = "Грузия",
     ["The world has no end..."] = "Миру нет конца...",

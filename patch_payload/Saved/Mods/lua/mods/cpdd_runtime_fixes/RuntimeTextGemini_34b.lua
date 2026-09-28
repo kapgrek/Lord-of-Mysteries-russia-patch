@@ -109,7 +109,6 @@ return {
     ["<P_Heart>（阿兹克先生也不知道。）</>"] = "<P_Heart>(Г-н Азик тоже не знает.)</>",
     ["BOSS4-品质-攻击后-右"] = "БОСС 4 — Качество — После атаки — Справа",
     ["[生气]"] = "[Злой]",
-    ["“窥秘人”和“占卜家”都可以更好地掌握神秘学领域的知识，里面可能就有我回家的线索。"] = "Both 'Подглядывающий за Тайнами' and 'Провидец' can better master knowledge in the field of mysticism; there might be clues to my home inside.",
     ["一个<h>苹果</>"] = "<h>яблоко</>",
     ["一个破旧的口琴。"] = "Изношенная гармоника.",
     ["下午茶推荐"] = "Рекомендация послеобеденного чая",
@@ -261,4 +260,5 @@ return {
     ["The Goddess would also allow me to explain it this way, because it really disturbs my state of mind..."] = "Богиня позволила бы мне объяснить это именно так, ведь это действительно тревожит мой душевный покой...",
     ["I don't know where the news came from, saying that if you turn your back to the Fountain of Purification, hold a coin in your right hand, and throw it backward over your left shoulder into the water, you can make your wish come true."] = "Не знаю, откуда пошла эта новость, будто если встать спиной к Фонтану Очищения, взять монету в правую руку и бросить её назад через левое плечо в воду, желание исполнится.",
     ["Hmph, are you sent by the neighbors to steal pumpkins! It's not that easy to beat me at the Harvest Festival!"] = "Хм, тебя соседи подослали воровать тыквы? Не так-то просто меня обыграть на Празднике урожая!",
+    ["“窥秘人”和“占卜家”都可以更好地掌握神秘学领域的知识，里面可能就有我回家的线索。"] = "Both 'Mystery Pryer' and 'Seer' can better master knowledge in the field of mysticism; there might be clues to my home inside.",
 }

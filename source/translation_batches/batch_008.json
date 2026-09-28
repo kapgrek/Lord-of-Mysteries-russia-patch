@@ -4308,12 +4308,6 @@
     "target_ru": "Он пришел не для того, чтобы разрушить это спокойствие; в конце концов, главный герой истории обычно не злодей, хм... но я могу попробовать это в следующей истории."
   },
   {
-    "id": "035718",
-    "source_cn": "他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。",
-    "ref_en": "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Sequence 0 \"Black Emperor\".",
-    "target_ru": "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Последовательность 0 \"Black Emperor\"."
-  },
-  {
     "id": "035719",
     "source_cn": "他比任何人，都希望你能坚强；比任何人，都希望你能获得幸福。",
     "ref_en": "He hopes more than anyone that you can be strong; he hopes more than anyone that you can find happiness.",
@@ -5040,12 +5034,6 @@
     "target_ru": "【Text Board】(Middle Road) Текст 1-1"
   },
   {
-    "id": "035840",
-    "source_cn": "【秘偶技】星之虫-梦境分析-法术代理",
-    "ref_en": "[Marionette Skill] Worm of Star - Dream Analysis - Spell Agent",
-    "target_ru": "[Марионетка Skill] Worm of Star - Dream Analysis - Spell Agent"
-  },
-  {
     "id": "035841",
     "source_cn": "三百零三，三百零四，三百零五……",
     "ref_en": "Three hundred and three, three hundred and four, three hundred and five...",
@@ -5716,12 +5704,6 @@
     "source_cn": "E点触发器",
     "ref_en": "Point E Trigger",
     "target_ru": "Триггер точки E"
-  },
-  {
-    "id": "035953",
-    "source_cn": "{{先生|女士}}，我曾经是一名魔术师，擅长在众目睽睽下逃出笼子。",
-    "ref_en": "{{Mr.|Ms.}}, I used to be a magician, skilled at escaping from cages in front of everyone's eyes.",
-    "target_ru": "{{Mr.|Ms.}}, I used to be a Фокусник, skilled at escaping from cages in front of everyone's eyes."
   },
   {
     "id": "035954",
@@ -7770,12 +7752,6 @@
     "target_ru": "[Текстовая доска] (Средний путь) Тексты 1-2"
   },
   {
-    "id": "036295",
-    "source_cn": "三年前，我意外遭受到一件封印物力量的波及，才变成了这副模样……",
-    "ref_en": "Three years ago, I was accidentally affected by the power of a Sealed Artifact, which is why I became like this...",
-    "target_ru": "Three years ago, I was accidentally affected by the power of a Запечатанный артефакт, which is why I became like this..."
-  },
-  {
     "id": "036296",
     "source_cn": "两个人一起调查会更快，毕竟孩子们等不了太久。",
     "ref_en": "Investigating together will be faster. After all, the children can't wait too long.",
@@ -8794,12 +8770,6 @@
     "source_cn": "我住了许久院，失去了工作、失去了财富，更失去了家庭……",
     "ref_en": "I was hospitalized for a long time, lost my job, lost my wealth, and even lost my family...",
     "target_ru": "Я надолго попал в больницу, потерял работу, потерял богатство и даже потерял семью..."
-  },
-  {
-    "id": "036466",
-    "source_cn": "我是这的掘墓人，你需要挖坟，还是来调查老特勒的？",
-    "ref_en": "I am the gravedigger here. Do you need a grave dug, or are you here to investigate Old Trelle?",
-    "target_ru": "Я здесь могильщик. Do you need a grave dug, or are you here to investigate Old Trelle?"
   },
   {
     "id": "036467",
@@ -10086,12 +10056,6 @@
     "target_ru": "Подарить букет цветов"
   },
   {
-    "id": "036681",
-    "source_cn": "不过非凡者的道路从来都是危险和疯狂的，走向失控和死亡也是意料中事。",
-    "ref_en": "However, the path of a Beyonder is always dangerous and mad; heading toward loss of control and death is also expected.",
-    "target_ru": "However, the path of a Потусторонний is always dangerous and mad; heading toward loss of control and death is also expected."
-  },
-  {
     "id": "036682",
     "source_cn": "两年前，我邀请贝儿小姐共度美好的一夜，却狠狠挨了她一巴掌。",
     "ref_en": "Two years ago, I invited Miss Belle to spend a wonderful night together, but I was slapped hard for it.",
@@ -10102,12 +10066,6 @@
     "source_cn": "为什么在地上睡觉？休息室有更舒服的空间。",
     "ref_en": "Why sleep on the floor? The lounge has more comfortable spaces.",
     "target_ru": "Зачем спать на полу? В гостиной есть более удобные места."
-  },
-  {
-    "id": "036684",
-    "source_cn": "乌托邦剧院中无法进行非凡方案切换",
-    "ref_en": "Beyonder loadouts cannot be switched within Utopia Theater.",
-    "target_ru": "Потусторонний loadouts cannot be switched within Utopia Theater."
   },
   {
     "id": "036685",
@@ -11718,22 +11676,10 @@
     "target_ru": "[Граница] Начальный сегмент пути из тумана"
   },
   {
-    "id": "036953",
-    "source_cn": "一定是<P_Yellow>赛琳娜</>寄来的，她说过要邀请我们一家人去参加晚宴，还说学习了新占卜要展示给我看。",
-    "ref_en": "It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new divination to show me.",
-    "target_ru": "It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new Гадание to show me."
-  },
-  {
     "id": "036954",
     "source_cn": "万都之都号承诺：您将体验全鲁恩最优雅的航行，祝您旅途愉快。",
     "ref_en": "The City of Cities promises: You will experience the most elegant voyage in all of Loen. Have a pleasant Journey.",
     "target_ru": "Город городов обещает: вас ждет самое элегантное путешествие во всем Лоене. Приятного путешествия."
-  },
-  {
-    "id": "036955",
-    "source_cn": "不过他们估计也没想到，作为首领的“愚者”，竟然才刚刚消化完“占卜家”魔药。",
-    "ref_en": "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Seer' potion.",
-    "target_ru": "However, they probably didn't expect that the 'Fool' as the leader had just finished digesting the 'Провидец' potion."
   },
   {
     "id": "036956",
@@ -18390,12 +18336,6 @@
     "target_ru": "«Устал? Значит, мало валялся без дела!» — так выразился пожелавший остаться неизвестным рабочий.\\nПродолжайте участие, чтобы получить дары неких загадочных сущностей."
   },
   {
-    "id": "038065",
-    "source_cn": "“魔术师”小姐的委托完成了，我也离开这里吧。",
-    "ref_en": "Ms. “Magician”'s commission is complete, I should leave here too.",
-    "target_ru": "Ms. “Фокусник”'s commission is complete, I should leave here too."
-  },
-  {
     "id": "038066",
     "source_cn": "……伦纳德先生？伦纳德先生？",
     "ref_en": "...Mr. Leonard? Mr. Leonard?",
@@ -22128,12 +22068,6 @@
     "target_ru": "Давай, я добавлю еще 1000 су!"
   },
   {
-    "id": "038688",
-    "source_cn": "不，我的重点，我的意思是，阁下，我该怎样做才能成为非凡者？",
-    "ref_en": "No, my point—what I mean is, Your Excellency, what must I do to become a Beyonder?",
-    "target_ru": "No, my point—what I mean is, Your Excellency, what must I do to become a Потусторонний?"
-  },
-  {
     "id": "038689",
     "source_cn": "与报酬无关，这只与信仰有关，守护者的信仰。",
     "ref_en": "It has nothing to do with the reward; it is only about faith—the faith of a Guardian.",
@@ -23008,12 +22942,6 @@
     "source_cn": "升级预览",
     "ref_en": "Upgrade Preview",
     "target_ru": "Предварительный просмотр обновления"
-  },
-  {
-    "id": "038835",
-    "source_cn": "原来如此，矫健而有力的动作下，还隐藏了利爪，这就是——猫猫大摆拳！",
-    "ref_en": "I see, hidden beneath the agile and powerful movements are sharp claws; this is—the Cat's Great Swing!",
-    "target_ru": "I see, hidden beneath the agile and powerful movements are sharp claws; это — большие кошачьи качели!"
   },
   {
     "id": "038836",
@@ -25152,22 +25080,10 @@
     "target_ru": "[Собрать] Подождите, прежде чем убить"
   },
   {
-    "id": "039192",
-    "source_cn": "七月成熟的果实自然渗出的汁液，带有轻微醉性与灵性扩散效果。",
-    "ref_en": "Juice naturally exuded from fruits that ripen in July, possessing mild intoxicating properties and spirituality diffusion effects.",
-    "target_ru": "Juice naturally exuded from fruits that ripen in July, possessing mild intoxicating properties and Духовность diffusion effects."
-  },
-  {
     "id": "039193",
     "source_cn": "两个小时后……",
     "ref_en": "Two hours later...",
     "target_ru": "Два часа спустя..."
-  },
-  {
-    "id": "039194",
-    "source_cn": "也许在正确的引导下了解非凡，比一无所知或一知半解更加安全。",
-    "ref_en": "Perhaps understanding the Beyonder world under proper guidance is safer than knowing nothing or only knowing half-truths.",
-    "target_ru": "Perhaps understanding the Потусторонний world under proper guidance is safer than knowing nothing or only knowing half-truths."
   },
   {
     "id": "039195",
@@ -27528,12 +27444,6 @@
     "target_ru": "Не нужно оставлять место для дыхания, малышка, просто до предела подтяни линию талии."
   },
   {
-    "id": "039588",
-    "source_cn": "不过在此之前，我需要使用一些手段，来隔绝封印物3-116的负面影响。",
-    "ref_en": "But before that, I need to use some means to isolate the negative effects of Sealed Artifact 3-116.",
-    "target_ru": "But before that, I need to use some means to isolate the negative effects of Запечатанный артефакт 3-116."
-  },
-  {
     "id": "039589",
     "source_cn": "与Npc进行对话  玩家发送任务道具  玩家播放单句黑屏字幕  延迟执行  玩家播放单句黑屏字幕  ",
     "ref_en": "Converse with NPC; player sends quest item; player plays single-line black screen subtitle; delayed execution; player plays single-line black screen subtitle.",
@@ -29098,12 +29008,6 @@
     "source_cn": "《仪式魔法进阶——向神明祈求之术》",
     "ref_en": "Advanced Ritual Magic: Techniques for Praying to Deities",
     "target_ru": "Продвинутая ритуальная магия: методы молитвы божествам"
-  },
-  {
-    "id": "039850",
-    "source_cn": "【困难难度】已出现，你可以反复向噩梦中的敌人发起挑战！这一次，“头狼”鲁珀彻底疯狂，向你亮出了獠牙。",
-    "ref_en": "[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Alpha Wolf\" Luper has gone completely mad and bared his fangs at you.",
-    "target_ru": "[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your Кошмарs! This time, \"Alpha Wolf\" Luper has gone completely mad and bared his fangs at you."
   },
   {
     "id": "039851",

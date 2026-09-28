@@ -52,7 +52,6 @@ return {
     ["亚伦辱骂：“是啊！疯女人！那和你有什么关系！”"] = "Аарон выругался: «Да! Сумасшедшая женщина! Какое это имеет к тебе отношение!»",
     ["什么狗屁沼泽女巫！全是糊弄人的！"] = "Что за ерунда Болотная Ведьма! Это все мошенничество!",
     ["他并非为了破坏这份宁静而来，毕竟故事的主角一般都不是反派，嗯……但下个故事可以试试看。"] = "Он пришел не для того, чтобы разрушить это спокойствие; в конце концов, главный герой истории обычно не злодей, хм... но я могу попробовать это в следующей истории.",
-    ["他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。"] = "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Последовательность 0 \"Black Emperor\".",
     ["他比任何人，都希望你能坚强；比任何人，都希望你能获得幸福。"] = "Он больше, чем кто-либо другой, надеется, что ты сможешь быть сильным; он больше, чем кто-либо, надеется, что ты сможешь обрести счастье.",
     ["但勿伤害"] = "Но не навреди",
     ["但我一直以为这和他解雇了所有孩子有关，好像、好像是说让他们不要待在工厂，回学校去？"] = "Но я всегда думал, что это связано с тем, что он уволил всех детей; кажется, кажется, он сказал не пускать их на фабрику и отправить обратно в школу?",
@@ -194,7 +193,6 @@ return {
     ["Follow the guidance of the candlelight"] = "Следуйте указаниям света свечей",
     ["Temporary placeholder, activity description for the Battlefield of Gods"] = "Временный заполнитель, описание активности на Поле битвы богов.",
     ["Unlock all systems, add buffs, adjust skills, reach level 74 of CBT2."] = "Разблокируйте все системы, добавьте бафы, настройте навыки, достигните 74 уровня ЗБТ2.",
-    ["Alright, even if someone comes here, they won't be affected by the corruption."] = "Alright, even if someone comes here, they won't be affected by the Искажение.",
     ["Camp Npc 2"] = "Лагерь НПС 2",
     ["At the end of the battle, you are surrounded by a large number of believers, putting up a desperate and powerless counterattack.\n At the critical moment, Leonard recites a poem in Hermes to stop the ritual."] = "Под занавес боя вы оказываетесь в окружении толпы культистов, отчаянно и бессильно отбиваясь.\nВ критический миг Леонард декламирует стихи на герметическом языке, срывая ритуал.",
     ["Wait time  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution  "] = "Время ожидания Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение",
@@ -268,5 +266,6 @@ return {
     ["开启所有黄铜书，普通副本全通且每场团队复活不超过3次。"] = "Откройте все Медные книги, пройдите все обычные подземелья, используя не более 3 воскрешений отряда за бой.",
     ["Transport the large stone to the yellow circle area!"] = "Доставьте большой камень в жёлтый круг!",
     ["Why did this horse suddenly get spooked and go crazy? Fortunately, I jumped off the carriage in time."] = "Почему эта лошадь вдруг взбесилась и понеслась? Хорошо, что я успел выпрыгнуть из повозки.",
+    ["他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。"] = "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Sequence 0 \"Black Emperor\".",
     ["Grady"] = "Грейди",
 }

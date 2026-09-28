@@ -92,7 +92,6 @@ return {
     ["Moon Tear"] = "Лунная слеза",
     ["Eulogy - Acting"] = "Похвальная речь - актерское мастерство",
     ["Loen Commercial News"] = "Лоен Коммерческие новости",
-    ["<Rate>80%</> chance for a Wishing Marionette to appear; if it doesn't appear, it is guaranteed to appear next time"] = "<Rate>80%</> chance for a Wishing Марионетка to appear; if it doesn't appear, it is guaranteed to appear next time",
     ["Sealed Artifact - Notarization Certificate: Notarize random effect bundle (+1/+2/+3)"] = "Запечатанный артефакт — Нотариально заверенное свидетельство: нотариально заверить набор случайных эффектов (+1/+2/+3)",
     ["Displacement within 15 meters"] = "Перемещение в пределах 15 метров",
     ["Hound Appearance"] = "Внешний вид гончей",

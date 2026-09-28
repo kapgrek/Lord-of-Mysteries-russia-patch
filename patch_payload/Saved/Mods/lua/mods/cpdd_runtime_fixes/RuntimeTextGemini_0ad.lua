@@ -195,7 +195,6 @@ return {
     ["Siege Vehicle"] = "Осадная машина",
     ["Sometimes, death is not the end. There are still many traces of memories left in this world."] = "Иногда смерть – это не конец. В этом мире еще осталось много следов воспоминаний.",
     ["Maze wall"] = "Стена лабиринта",
-    ["...Something happened so soon? You should indeed become a Beyonder so that you can deal with those strange and eerie events more calmly."] = "...Something happened so soon? You should indeed become a Потусторонний so that you can deal with those strange and eerie events more calmly.",
     ["It's also possible that you were just mistaken. In any case, I won't believe there are ghosts in the world."] = "Также возможно, что вы просто ошиблись. В любом случае, я не поверю, что на свете существуют призраки.",
     ["Item Level 50-600"] = "Уровень предмета 50-600",
     ["The light of knowledge falls into Bernadette's hands. She watches the light of knowledge quietly until it dims and dissipates... For a long time, she lowers her eyes."] = "Свет знаний попадает в руки Бернадетты. Она спокойно наблюдает за светом знаний, пока он не тускнеет и не рассеивается... Она надолго опускает глаза.",

@@ -84,7 +84,6 @@ return {
     ["Yodra zooms out."] = "Йодра отдаляется.",
     ["Amon [Normal]-Riddle Time skill07-Find pointer"] = "Амон [Обычный] – умение \"Время загадок\" 07 – Найти указатель.",
     ["Shadow Tombstone"] = "Теневое надгробие",
-    ["...<P_Heart> (A Beyonder like Mr. Dunn? No, I am not, and I want to know too.)</>"] = "...<P_Heart> (A Потусторонний like Mr. Dunn? No, I am not, and I want to know too.)</>",
     ["Slow: Circular area with a radius of 5.5 meters"] = "Замедление: круг радиусом 5,5 м",
     ["Not within the target point range; cannot use this item."] = "Не в пределах целевого диапазона; не могу использовать этот предмет.",
     ["In the Chapter 1 main story, sign the contract and join the Blackthorn Security Company."] = "В основной истории главы 1 подпишите контракт и присоединитесь к охранной компании Чёрный Чертополох.",

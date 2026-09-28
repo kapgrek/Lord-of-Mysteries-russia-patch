@@ -84,7 +84,6 @@ return {
     ["与<h>亡灵艾拉</>聊聊"] = "Пообщайтесь с призраком <h> Эллой </>",
     ["临时触发点"] = "Временная триггерная точка",
     ["主题"] = "Тема",
-    ["之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。"] = "The Запечатанный артефакт 'Dexterous Fingers' crafted by the Клуб Таро's artisan can steal thoughts from a person's brain; we could try stealing his desire to strive.",
     ["五"] = "Пять",
     ["伊莎贝尔！还不快感谢诺里斯先生。"] = "Изабель! Поторопитесь и поблагодарите мистера Норриса.",
     ["伊莲娜·"] = "Елена",
@@ -244,7 +243,6 @@ return {
     ["Achievement - Favor of the War Bishop"] = "Достижение - Благосклонность военного епископа",
     ["Keep"] = "Держать",
     ["What is your comeback plan?"] = "Какой у тебя план возвращения?",
-    ["He should be using an ancient ritual to absorb the power of the notebook, just like how we directly consume high-sequence potions. This is full of danger and requires time; he needs to stay in a safe place."] = "He should be using an ancient ritual to absorb the power of the notebook, just like how we directly consume high-Последовательность potions. This is full of danger and requires time; he needs to stay in a safe place.",
     ["Switch location"] = "Сменить местоположение",
     ["Jericho "] = "Иерихон",
     ["General"] = "Общий",
@@ -311,6 +309,7 @@ return {
     ["全套方案覆盖成功"] = "Полный комплект успешно перезаписан",
     ["Teleport Entrance"] = "Портал телепортации",
     ["Leonard is recovering anomalies scattered throughout the area. You can exchange collected Objects of Phenomenon for rewards."] = "Леонард собирает разбросанные повсюду феномены. Собранные Предметы феноменов можно обменять на награды.",
+    ["之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。"] = "The Sealed Artifact 'Dexterous Fingers' crafted by the Tarot Club's artisan can steal thoughts from a person's brain; we could try stealing his desire to strive.",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

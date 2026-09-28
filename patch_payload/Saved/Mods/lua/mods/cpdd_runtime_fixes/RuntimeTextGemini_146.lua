@@ -255,7 +255,6 @@ return {
     ["Right, that notebook!"] = "Да, этот блокнот!",
     ["Increases the healing effect caused by the character. The improvement magnitude depends on the Skill multiplier. \n \n Character Healing Enhancement: {*d,F1690001,HealPlus}"] = "Улучшает лечебный эффект, наносимый персонажем. Степень улучшения зависит от множителя навыка. \n\nУлучшение исцеления персонажа: {*d,F1690001,HealPlus}",
     ["Strengthen any equipment slot once"] = "Усильте любой слот оборудования один раз.",
-    ["A helpful legendary Beyonder—you can make up any story to trick them into helping, and it works every time."] = "A helpful legendary Потусторонний—you can make up any story to trick them into helping, and it works every time.",
     ["Dominator's Clash rank enters city top 100"] = "Ранг Dominator's Clash вошел в сотню лучших городов",
     ["I, I don't know..."] = "Я, я не знаю...",
     ["Clown Note_Initial State"] = "Примечание клоуна_начальное состояние",

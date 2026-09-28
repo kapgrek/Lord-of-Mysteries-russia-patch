@@ -240,7 +240,6 @@ return {
     ["Play Sound Effect/Audio Event"] = "Воспроизвести звуковой эффект/аудио событие",
     ["Go north"] = "Иди на север",
     ["Apprentice Exile Spell Proxy"] = "Прокси-заклинание изгнания ученика",
-    ["{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on."] = "{{player.name}} has found a precious {{item.name}} amidst the Потусторонний convergence; their Потусторонний journey extends forward from this point on.",
     ["Don't rush, you'll have plenty of time later to study and appreciate its extraordinary value."] = "Не торопитесь, позже у вас будет достаточно времени, чтобы изучить и оценить его исключительную ценность.",
     ["Unlocked at level %i"] = "Разблокировано на уровне %i",
     ["Pasha"] = "Паша",

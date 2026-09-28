@@ -240,7 +240,6 @@ return {
     ["The door to the Extraordinary World has been opened for you, please click to enter."] = "Дверь в Необыкновенный Мир открыта для вас, пожалуйста, нажмите, чтобы войти.",
     ["Moon Delivery Failed"] = "Доставка на Луну не удалась",
     ["Single Attack"] = "Одиночная атака",
-    ["\"The World Within the Mirror: Introduction to Magic Mirror Divination\", \"Numerology, A Divine Revelation\", \"Analysis of Divination Materials\"... these are all tough monographs to crack."] = "\"The World Within the Mirror: Introduction to Magic Mirror Гадание\", \"Numerology, A Divine Revelation\", \"Analysis of Гадание Materials\"... these are all tough monographs to crack.",
     ["Why... why can't my sincerity be met with a response? Perhaps Lena has never truly understood me."] = "Почему... почему моя искренность не может быть встречена ответом? Возможно, Лена никогда по-настоящему меня не понимала.",
     ["So hungry."] = "Такой голодный.",
     ["Potion effect"] = "Эффект зелья",

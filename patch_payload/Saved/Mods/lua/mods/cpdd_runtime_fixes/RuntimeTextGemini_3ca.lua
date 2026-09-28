@@ -100,7 +100,6 @@ return {
     ["Insufficient currency."] = "Недостаточно валюты.",
     ["There are skills in the current skill wheel that are not configured in the skill table. ID: %s"] = "В текущем колесе навыков есть навыки, которые не настроены в таблице навыков. Идентификатор: %s",
     ["Activity Time <Time>7 days 13 hours remaining</>"] = "Время активности <Time>7 дней, осталось 13 часов</>",
-    ["No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Spectator' pathway."] = "No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Зритель' pathway.",
     ["Leon, suspected abandoned"] = "Леон, подозреваемый брошенный",
     ["If you like, you can use them all."] = "Если хотите, вы можете использовать их все.",
     ["All things, grow, grow—"] = "Все вещи растут, растут —",

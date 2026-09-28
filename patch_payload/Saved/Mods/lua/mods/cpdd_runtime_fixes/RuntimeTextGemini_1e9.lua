@@ -63,7 +63,6 @@ return {
     ["What is Rozanne tidying?"] = "Что наводит порядок Розанна?",
     ["Rowing Team Captain"] = "Капитан команды по гребле",
     ["Set up the hospital props"] = "Установите больничный реквизит",
-    ["Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>20%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>10%</> Damage Reduction."] = "Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>20%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>10%</> Снижение урона.",
     ["Internet water army"] = "Интернет-водная армия",
     ["Che Linpeng"] = "Че Линпэн",
     ["<P_Heart>(Ancient armor, solemn in posture, silent and motionless.)</>"] = "<P_Heart>(Древние доспехи, торжественная поза, молчаливая и неподвижная.)</>",

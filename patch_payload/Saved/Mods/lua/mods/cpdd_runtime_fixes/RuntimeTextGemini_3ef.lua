@@ -49,7 +49,6 @@ return {
     ["A battle"] = "Битва",
     ["This flower is pretty, that flower is also pretty, this bug is cute, that bug is also cute! Maybe I should go pick some grapes instead..."] = "Этот цветок красивый, тот цветок тоже красивый, этот жук милый, этот жук тоже милый! Может, мне лучше пойти собрать виноград...",
     ["Clear Nighthawk Mode"] = "Пройти режим «Ночного ястреба»",
-    ["{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Tingen, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>"] = "{{player.name}} has initiated a <Chat_Highlight>\"Divine Descent\" ritual</> at Saint Selena Cathedral in Тинген, praying for Mr. Fool's gaze and blessing. Go to assist, and perhaps you too will have a chance to receive His blessing. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Go to Assist]</>",
     ["I'm hard of hearing. What was that new kid shouting about?"] = "Я плохо слышу. О чем кричал этот новенький?",
     ["Gwen "] = "Гвен",
     ["Right, I forgot one thing..."] = "Да, я забыл одну вещь...",

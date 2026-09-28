@@ -249,7 +249,6 @@ return {
     ["<Assistant_Title1>Knowledge Pursuit</>\n<Assistant_Title2>Achievement Category: </>TRPG-Order World\n<Assistant_Title2>Unlock Condition: </>Collect 50 Objects of Phenomenon"] = "<Assistant_Title1>Погоня за знаниями</>\n<Assistant_Title2>Категория достижения: </>Бегущая группа — мир порядка\n<Assistant_Title2>Условия разблокировки: </>Соберите 50 призрачных объектов",
     ["Are you not feeling well? This time I can't see your thoughts."] = "Вы плохо себя чувствуете? На этот раз я не вижу твоих мыслей.",
     ["So, have you thought of a place for your next date with Andor? Would a restaurant be a bit cliché?"] = "Итак, вы уже придумали место для вашего следующего свидания с Андором? Будет ли ресторан немного банальным?",
-    ["[Auto-Chess] - Daly Simone - Basic Attack - Pendulum Shock"] = "[Auto-Chess] - Daly Simone - Базовая атака - Pendulum Shock",
     ["Attribute Value"] = "Значение атрибута",
     ["There are currently three unexplainable contradictions in this case."] = "В этом деле на данный момент имеются три необъяснимых противоречия.",
     ["[Emoji 75]"] = "[Эмодзи 75]",

@@ -201,7 +201,6 @@ return {
     ["Exploration 1"] = "Исследование 1",
     ["Teleport to Haina's Dream"] = "Телепортироваться в Мечту Хайны.",
     ["Bouquet for Love"] = "Букет Любви",
-    ["Defense <Highlight>Mutated Material</> with the affix <Highlight><Servant of Concealment></>: \"All Skill levels +1, Skill Block increased.\""] = "Defense <Highlight>Mutated Material</> with the affix <Highlight><Servant of Concealment></>: \"All Skill levels +1, Блок навыков increased.\"",
     ["One in a hundred eggs - point"] = "Одно яйцо из ста – точка",
     ["The trajectory of stars and the mysteries of Tarot, intertwined, divining enlightenment about the future."] = "Траектории звезд и тайны Таро переплетаются, предсказывая просветление будущего.",
     ["<Assistant_Title1>【Rose Star Heart - Wrist】</>\n<Assistant_Title2>Description: </>Fashion Corridor Accessory\n<Assistant_Title2>Use: </>Use to obtain Rose Star Heart - Wrist. You can view and equip it by clicking <Assistant_System>Appearance - Dress Up</>.\n<Assistant_Title2>Acquisition: </><Assistant_System>Fashion Corridor</> collection progress unlock"] = "<Assistant_Title1>[Розовая звезда-сердце·запястье]</>\n<Assistant_Title2>Описание: </>Модные украшения для коридора\n<Assistant_Title2>Использование: </>После использования вы получите Розовую звезду-сердце·запястье. Вы можете нажать <Assistant_System>Appearance-Change</>, чтобы просмотреть и использовать его. \n<Assistant_Title2> Получите: </><Assistant_System>Модный коридор</>Открывается по прогрессу сбора.",

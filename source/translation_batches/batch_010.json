@@ -3252,12 +3252,6 @@
     "target_ru": "<HyperLink stylename=\"M_Link\" u=\"86011080\" color=\"#f4a067\">Копьё Бестеневого</> получает эффект <HighLight>Божественной кары</>: наносит физический урон в зависимости от доли потерянного здоровья цели и собственной физической атаки. Чем меньше HP у цели, тем выше урон (вплоть до 100% от базовой физ. атаки заклинателя). Эффект <HighLight>«Бестеневой»</> срабатывает по целям с HP ниже 40%;\nУрон навыка <HyperLink stylename=\"M_Link\" u=\"86011040\" color=\"#f4a067\">Погоня за солнцем</> повышается на 15%."
   },
   {
-    "id": "045542",
-    "source_cn": "{{player.name}}对{{targetPlayer.name}}进行了安魂——很显然失败了，自身损失了<Chat_Highlight>{{eventMessageParams.N}}</>点理智。",
-    "ref_en": "{{player.name}} performed a Requiem on {{targetPlayer.name}}—it clearly failed, and they lost <Chat_Highlight>{{eventMessageParams.N}}</> Sanity points.",
-    "target_ru": "{{player.name}} performed a Requiem on {{targetPlayer.name}}—it clearly failed, and they lost <Chat_Highlight>{{eventMessageParams.N}}</> Рассудок points."
-  },
-  {
     "id": "045543",
     "source_cn": "“当红女歌手竟在街边做出此事”！",
     "ref_en": "'Popular female singer actually does this on the street'!",
@@ -4198,12 +4192,6 @@
     "source_cn": "【副本测试】91级属性",
     "ref_en": "[Dungeon Test] Level 91 Stats",
     "target_ru": "[Испытание в подземелье] Статистика 91 уровня"
-  },
-  {
-    "id": "045700",
-    "source_cn": "【浅见】触发低于20%立即恢复生命效果时目标额外获得减伤20%，持续5秒。",
-    "ref_en": "[Insight] When triggering the immediate Health restoration effect below 20%, the target gains an additional 20% Damage Reduction for 5 seconds.",
-    "target_ru": "[Insight] When triggering the immediate Health restoration effect below 20%, the target gains an additional 20% Снижение урона for 5 seconds."
   },
   {
     "id": "045701",
@@ -7068,12 +7056,6 @@
     "target_ru": "[Тест] Разработка в один клик 35-го уровня. Карта месяца и боевой пропуск."
   },
   {
-    "id": "046178",
-    "source_cn": "【秘偶技】命运湍流二段-白",
-    "ref_en": "[Marionette Skill] Fate Turbulence Second Stage - White",
-    "target_ru": "[Марионетка Skill] Fate Turbulence Second Stage - White"
-  },
-  {
     "id": "046179",
     "source_cn": "上阵",
     "ref_en": "Deploy",
@@ -7912,12 +7894,6 @@
     "source_cn": "citywalk-自行车",
     "ref_en": "Citywalk - Bicycle",
     "target_ru": "Citywalk – Велосипед"
-  },
-  {
-    "id": "046319",
-    "source_cn": "“生命天使”是智慧的结晶，是每个人体内永不磨灭的灵性。",
-    "ref_en": "The “Angel of Life” is the crystallization of wisdom and the undying spirituality within everyone.",
-    "target_ru": "The “Angel of Life” is the crystallization of wisdom and the undying Духовность within everyone."
   },
   {
     "id": "046320",
@@ -11256,12 +11232,6 @@
     "target_ru": "<P_Heart>(Он только что так прямо признался в этом?) </>"
   },
   {
-    "id": "046876",
-    "source_cn": "<Yellow>霸体</>，减伤提高50%，并对攻击者反弹<Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</>倍伤害，攻击者超过8米之外时，反弹伤害随距离衰减。",
-    "ref_en": "<Yellow> Super Armor </>, damage reduction increased by 50%, and reflects <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</> times damage to the attacker. If the attacker is more than 8 meters away, reflected damage decays with distance.",
-    "target_ru": "<Yellow> Суперброня </>, Снижение урона increased by 50%, and reflects <Yellow>{CheckStar(Type=\"sealed\",ID=2085010)=1?0.6}{CheckStar(Type=\"sealed\",ID=2085010)=2?0.75}{CheckStar(Type=\"sealed\",ID=2085010)=3?0.9}</> times damage to the attacker. If the attacker is more than 8 meters away, reflected damage decays with distance."
-  },
-  {
     "id": "046877",
     "source_cn": "AI视频创作社交动作开关",
     "ref_en": "AI video creation social action switch",
@@ -13614,12 +13584,6 @@
     "target_ru": "В отличие от меня, мою шерстяную ткань никто не покупает, поэтому я могу только пить..."
   },
   {
-    "id": "047269",
-    "source_cn": "不过，不少野生非凡者很忌惮他们，所以记得隐蔽身份。",
-    "ref_en": "However, many wild Beyonders are wary of them, so remember to conceal your identity.",
-    "target_ru": "However, many wild Потустороннийs are wary of them, so remember to conceal your identity."
-  },
-  {
     "id": "047270",
     "source_cn": "不！我离开莉莉会失去对生活的热爱……吉娜离开我会发疯，她们两个我都无法放弃。",
     "ref_en": "No! If I leave Lily, I will lose my love for life... If Gina leaves me, I will go crazy. I cannot give up either of them.",
@@ -15570,12 +15534,6 @@
     "target_ru": "Достижение: Дар странствующей марионетки."
   },
   {
-    "id": "047595",
-    "source_cn": "我们是守护者，也是一群时刻对抗着危险和疯狂的可怜虫",
-    "ref_en": "We are Guardians, and also a group of poor wretches constantly fighting against danger and Madness.",
-    "target_ru": "We are Guardians, and also a group of poor wretches constantly fighting against danger and Безумие."
-  },
-  {
     "id": "047596",
     "source_cn": "我是“学徒”途径的卡门，刚刚在树上对地面使用了“开门”……结果卡住了。现在还有一个不知名的东西在戳我的屁股……",
     "ref_en": "I am Carmen of the 'Apprentice' pathway. I just used 'Door Opening' on the ground while up in a tree... and ended up getting stuck. Now there is some unknown thing poking my butt...",
@@ -15850,12 +15808,6 @@
     "source_cn": "释放星沙后触发星穹裁决，是否确认选择这项能力？选择后其他2个会消失",
     "ref_en": "Trigger Starry Dome Judgment after releasing Star Sand. Confirm this ability? Choosing it will cause the other 2 to disappear.",
     "target_ru": "Вызывает срабатывание «Правосудия Звездного купола» после высвобождения Звездного песка. Подтвердить эту способность? Выбор этого приведет к исчезновению двух других."
-  },
-  {
-    "id": "047642",
-    "source_cn": "重塑<Highlight>18</>次后，必定出现<Highlight>3非凡词条恩赐</>",
-    "ref_en": "After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Beyonder Affix Gifts</>",
-    "target_ru": "After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Потусторонний Affix Gifts</>"
   },
   {
     "id": "047643",
@@ -16776,12 +16728,6 @@
     "target_ru": "<P_Heart> (кивает) </> Абсолютно! Я хочу вам рассказать много интересного. Кстати, я также привез из Баклунда кое-какие местные деликатесы; Я отдам их тебе, когда мы поедим позже!"
   },
   {
-    "id": "047796",
-    "source_cn": "<P_Yellow>小丑</>：那个家伙…总以为自己是非凡的主宰，不知道一次失误就是万丈深渊。",
-    "ref_en": "<P_Yellow>Clown</>: That guy... always thinks he is the master of the extraordinary, unaware that a single mistake is an abyss.",
-    "target_ru": "<P_Yellow>Клоун</>: That guy... always thinks he is the master of the extraordinary, unaware that a single mistake is an abyss."
-  },
-  {
     "id": "047797",
     "source_cn": "GTA堕落神父破防2",
     "ref_en": "GTA Fallen Priest Armor Break 2",
@@ -16828,12 +16774,6 @@
     "source_cn": "【占】罗塞尔的意志苏醒，汇聚知识洪流凝聚成大炮，轰向屏障，月亮瞬间变成了银白色。",
     "ref_en": "[Placeholder] Roselle's will awakens, gathering a torrent of knowledge into a cannon, which blasts at the barrier, and the moon instantly turns silver-white.",
     "target_ru": "[Заполнитель] Воля Розеллы пробуждается, собирая поток знаний в пушку, которая стреляет по барьеру, и луна мгновенно становится серебристо-белой."
-  },
-  {
-    "id": "047805",
-    "source_cn": "【秘偶技】骑士守护LV6-最终恩泽效果提升",
-    "ref_en": "[Marionette Skill] Knight Guard LV6 - Final Grace Effect Increase",
-    "target_ru": "[Марионетка Skill] Knight Guard LV6 - Final Grace Effect Increase"
   },
   {
     "id": "047806",
@@ -17674,12 +17614,6 @@
     "source_cn": "一二三四五六七",
     "ref_en": "One Two Three Four Five Six Seven",
     "target_ru": "Один Два Три Четыре Пять Шесть Семь"
-  },
-  {
-    "id": "047946",
-    "source_cn": "一瓶非凡药剂，透过玻璃外壁能够看见里面弥漫着的金色烟雾。",
-    "ref_en": "A Beyonder potion, through the outer glass wall, you can see the golden mist permeating inside.",
-    "target_ru": "A Потусторонний potion, through the outer glass wall, you can see the golden mist permeating inside."
   },
   {
     "id": "047947",
@@ -27360,12 +27294,6 @@
     "target_ru": "Проблемы с действиями"
   },
   {
-    "id": "049560",
-    "source_cn": "参与副本、竞技、身份扮演等玩法时，可消耗活力领取装备、封印物等奖励",
-    "ref_en": "Participate in Dungeon, Competition, Identity Roleplay, and other gameplay to consume Vitality and claim rewards such as Equipment and Sealed Artifacts",
-    "target_ru": "Participate in Dungeon, Competition, Identity Roleplay, and other gameplay to consume Vitality and claim rewards such as Equipment and Запечатанные артефакты"
-  },
-  {
     "id": "049561",
     "source_cn": "古堡灵体",
     "ref_en": "Ancient Castle Spirit",
@@ -28840,12 +28768,6 @@
     "source_cn": "与Npc进行对话  延迟执行  对象播放指定对白内容  ",
     "ref_en": "Converse with NPC, delayed execution, object plays specified dialogue content",
     "target_ru": "Разговор с NPC, отложенное выполнение, объект воспроизводит указанное содержимое диалога"
-  },
-  {
-    "id": "049807",
-    "source_cn": "为处于失控或失控边缘的非凡者恢复理智",
-    "ref_en": "Restore sanity to Beyonders who are experiencing or on the verge of loss of control.",
-    "target_ru": "Restore Рассудок to Потустороннийs who are experiencing or on the verge of loss of control."
   },
   {
     "id": "049808",

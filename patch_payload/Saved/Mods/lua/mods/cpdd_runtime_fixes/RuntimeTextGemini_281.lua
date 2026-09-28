@@ -255,7 +255,6 @@ return {
     ["Ray Bieber was just an ordinary person, but under the temptation of extraordinary power, his sanity was completely swallowed. That is a temptation no ordinary human can resist."] = "Рэй Бибер был обычным человеком, но под искушением необычайной силы его рассудок был полностью поглощён. Это искушение, которому не может противостоять ни один обычный человек.",
     ["Faction 2 Portal"] = "Портал фракции 2",
     ["Nothing, goodbye."] = "Ничего, до свидания.",
-    ["His poor lifestyle has severely affected his health. It seems I need to intervene as his psychiatrist."] = "His poor lifestyle has severely affected his health. It seems I need to intervene as his Психиатр.",
     ["Whether to enable cross-server kicking"] = "Включить ли межсерверный кик",
     ["By the way, if you see the homeless man over there—please don't be afraid. Ever since he became mentally unstable, he has slept in that abandoned carriage every day, saying all sorts of strange things. But he never hurts anyone."] = "Кстати, если увидите там бомжа — не бойтесь. С тех пор, как он стал психически неуравновешенным, он каждый день спал в этом заброшенном экипаже, говоря всякие странные вещи. Но он никогда никому не причиняет вреда.",
     ["Return to Center"] = "Вернуться в Центр",

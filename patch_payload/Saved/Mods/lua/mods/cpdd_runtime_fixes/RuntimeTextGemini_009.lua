@@ -159,7 +159,6 @@ return {
     ["Rule Judgment"] = "Правило Суждения",
     ["I recently figured out a new recipe for dried fish, using some special herbs and a smoking technique. I'm extremely satisfied with it, but it's not enough for just me to say it's good."] = "Недавно я придумал новый рецепт сушеной рыбы с использованием специальных трав и техники копчения. Я им очень доволен, но мне недостаточно просто сказать, что это хорошо.",
     ["Storing %s is prohibited."] = "Хранение %s запрещено.",
-    ["[Marionette Skill] Worm of Star - Frost Breath - Spell Agent"] = "[Марионетка Skill] Worm of Star - Frost Breath - Spell Agent",
     ["Attributes <HighLight>100%</> Effective"] = "Атрибуты <HighLight>100%</> Действуют",
     ["The higher the Collection Room level, the higher the weekly dividend bonus."] = "Чем выше уровень комнаты сбора, тем выше еженедельный бонус в виде дивидендов.",
     ["After escaping the dream."] = "После побега из сна.",

@@ -243,7 +243,6 @@ return {
     ["<Highlight>Craft: </>Precision Forged Brass/Rose Entanglement\nAn extremely exquisite artificial rose, said to be an antique ornament left over from the Fourth Epoch, serving as a piece of asymmetrical aesthetics."] = "<Highlight> Мастерство изготовления: </> Прецизионная ковка из латуни, заплетение роз \n Говорят, что чрезвычайно изысканная имитация розы представляет собой старинное украшение, оставшееся с четвертой эпохи, играющее роль в асимметричной эстетике.",
     ["Area 1 Correct Prompt Effect 2"] = "Область 1 Правильный эффект подсказки 2",
     ["Pretend to be Frye looking at the player"] = "Притворитесь Фраем, смотрящим на игрока.",
-    ["[True Form] After Nightmare hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Skill Block of surrounding enemy targets."] = "[True Form] After Кошмар hits an enemy target, it inflicts a Tranquility aura on the enemy target for 6 seconds. This aura reduces the Блок навыков of surrounding enemy targets.",
     ["Add <Highlight>500 Performance Points</> for our members"] = "Добавьте <Highlight>500 баллов производительности</> для наших участников",
     ["spirit body threads Search State"] = "дух тело нити Поиск Состояние",
     ["Rotation settings failed: container node should be named Canvas_Content, class:%s"] = "Не удалось настроить ротацию: узел контейнера должен называться Canvas_Content, класс: %s.",

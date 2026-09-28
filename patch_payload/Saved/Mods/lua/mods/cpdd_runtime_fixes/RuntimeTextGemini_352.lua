@@ -61,7 +61,6 @@ return {
     ["And the main stone?"] = "А главный камень?",
     ["Vampire's Love briefing"] = "Брифинг о любви вампира",
     ["Fate Star"] = "Судьба Звезды",
-    ["The results of the last investigation were submitted to headquarters. The Cathedral's reply was \"the deepest corruption comes from above the Red Moon\"."] = "The results of the last investigation were submitted to headquarters. The Cathedral's reply was \"the deepest Искажение comes from above the Red Moon\".",
     ["Weekly Limit 99999/20000"] = "Недельный лимит 99999/20000",
     ["Although limited by some traditional concepts, their work is mainly clerical, and there is an invisible ceiling for promotion..."] = "Хотя их работа ограничена некоторыми традиционными концепциями, их работа в основном канцелярская, и для продвижения по службе существует невидимый потолок...",
     ["Beyonder Resonance Efficiency"] = "Потусторонняя резонансная эффективность",
@@ -108,7 +107,6 @@ return {
     ["【完成晋升任务，晋升至序列7后解锁，尝试扮演心理医生】\n深夜的街道上，一个年轻人坐在路灯下，眼神空洞，显然已经很久没有好好睡过一觉了。"] = "[Завершите миссию по продвижению, разблокируйте после повышения до Последовательности 7 и попробуйте сыграть роль психиатра] \n На улице поздно вечером молодой человек сидел под уличным фонарем с пустыми глазами. Было очевидно, что он уже давно не спал как следует.",
     ["【测试】一键养成53级超R"] = "[Тест] Разработка в один клик 53 уровня кит",
     ["【自走棋】-阿兹克-普攻-三连飞弹"] = "[Авто-шахматы] — Азик — Базовая атака — Тройная ракета",
-    ["【表演】蒙特利死亡。他的身上析出了一些亮晶晶的东西（门的非凡特性）。给旁边散乱的面具板子一个镜头。"] = "[Performance] Monterey is dead. Some shiny things (Потусторонний characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby.",
     ["一个简易锅？但太久没用，已经坏了。"] = "Простой горшок? Но он слишком давно не использовался, он сломался.",
     ["下水道系统需要持续建设，\r\n使用【】，\r\n才能真正缓解城市污染。"] = "Канализационную систему необходимо продолжать строить;\n использует【】,\n действительно может уменьшить загрязнение городов.",
     ["不会熄灭！"] = "Оно не погаснет!",
@@ -256,6 +254,7 @@ return {
     ["Secret Peeking · End"] = "Разведка тайн · Конец",
     ["<Assistant_Title1>【拖拽命中】</>\n提高对目标拖拽控制的命中概率，最多使基础命中率变为2倍，受到目标拖拽闪避的抵消。\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[控制效果]|1467}"] = "<Assistant_Title1>【Точность затягивания】</>\nПовышает вероятность попадания контроля «Затягивание» по цели, вплоть до 2-кратного увеличения базовой вероятности попадания. Компенсируется параметром «Уклонение от затягивания» цели.\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Эффект контроля]|1467}",
     ["Forsaken Land 7 Battle Damage"] = "Заброшенные земли 7: урон в бою",
+    ["【表演】蒙特利死亡。他的身上析出了一些亮晶晶的东西（门的非凡特性）。给旁边散乱的面具板子一个镜头。"] = "[Performance] Monterey is dead. Some shiny things (Beyonder characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby.",
     ["我真想能有一张十镑的钞票，好向你们展示那位“立国者”——威廉一世！"] = "Как бы мне хотелось иметь десятифунтовую банкноту, чтобы показать вам «Основателя государства» — Уильяма I!",
     ["是那种……看完回去睡不着觉的舞。"] = "Они из тех... которые не дают спать по ночам после того, как ты их увидел.",
 }

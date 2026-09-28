@@ -504,12 +504,6 @@
     "target_ru": "LuaList(IdGroup(Подобъект))"
   },
   {
-    "id": "105084",
-    "source_cn": "{{player.name}}对{{targetPlayer.name}}进行了安魂，但仪式遭遇神秘干扰，过程彻底崩溃，失控的灵性影响彼此，令安魂方的理智值<Chat_Highlight>-{{eventMessageParams.N}}</>，被安魂方的理智值<Chat_Highlight>-{{eventMessageParams.M}}</>。",
-    "ref_en": "{{player.name}} performed a Requiem on {{targetPlayer.name}}, but the ritual encountered mysterious interference. The process collapsed completely, and the out-of-control spirituality affected both parties, causing the Requiem performer's Sanity to decrease by <Chat_Highlight>-{{eventMessageParams.N}}</>, and the target's Sanity to decrease by <Chat_Highlight>-{{eventMessageParams.M}}</>.",
-    "target_ru": "{{player.name}} performed a Requiem on {{targetPlayer.name}}, but the ritual encountered mysterious interference. The process collapsed completely, and the out-of-control Духовность affected both parties, causing the Requiem performer's Рассудок to decrease by <Chat_Highlight>-{{eventMessageParams.N}}</>, and the target's Рассудок to decrease by <Chat_Highlight>-{{eventMessageParams.M}}</>."
-  },
-  {
     "id": "105085",
     "source_cn": "　　\\n　　……人类理性在其知识的某个门类里有一种特殊的命运，就是为一些它无法摆脱的问题所困扰。因为这些问题是由理性自身的本性向自己提出来的，但它又不能回答它们。因为它超越了人类理性的一切能力。\\n　　这种困境并非源于无知，而是源于理性自身的冲动——它渴望超越经验的界限，去追问那些无法被感官验证的终极。于是理性陷入了永久的自我撕裂：它既不能停止追问，又无法给出确证的答案。",
     "ref_en": " \\n ...Human reason has a special fate in a certain category of its knowledge, which is that it is troubled by some problems it cannot escape. Because these problems are proposed to it by the nature of reason itself, yet it cannot answer them. Because they transcend all the capabilities of human reason. \\n This predicament does not stem from ignorance, but from the impulse of reason itself—it longs to transcend the boundaries of experience and question those ultimates that cannot be verified by the senses. Thus, reason falls into a permanent self-tearing: it can neither stop questioning nor provide a confirmed answer.",
@@ -3678,18 +3672,6 @@
     "target_ru": "«Хвала Солнцу» уже здесь. Ух ты, почему на обложке везде написано «Хвалите Солнце»?"
   },
   {
-    "id": "105613",
-    "source_cn": "【占卜家】(4) 距离越远伤害越高，最高追加30%攻击力的距离增伤。",
-    "ref_en": "【Seer】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus.",
-    "target_ru": "【Провидец】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus."
-  },
-  {
-    "id": "105614",
-    "source_cn": "【风闻】使用通灵仪式时会召唤出邓恩的灵体，为范围内的友方提供10%的加速，并降低范围内敌人10%的移动速度。",
-    "ref_en": "[Rumor] Using the Spirit Mediumship Ritual will summon Dunn's spirit body, providing 10% Acceleration to allies in range and reducing the movement speed of enemies in range by 10%.",
-    "target_ru": "[Rumor] Using the Spirit Mediumship Ritual will summon Dunn's Духовное тело, providing 10% Acceleration to allies in range and reducing the Скорость бега of enemies in range by 10%."
-  },
-  {
     "id": "105615",
     "source_cn": "中文标题",
     "ref_en": "Chinese Title",
@@ -3736,12 +3718,6 @@
     "source_cn": "人脉闲聊话题-罗塞尔1",
     "ref_en": "Connection Chat Topic - Roselle 1",
     "target_ru": "Тема чата подключения - Розель 1"
-  },
-  {
-    "id": "105623",
-    "source_cn": "今天有个年轻男人来找你占卜，抱着猫来的。",
-    "ref_en": "A young man came to you for divination today, carrying a cat.",
-    "target_ru": "A young man came to you for Гадание today, carrying a cat."
   },
   {
     "id": "105624",
@@ -5200,12 +5176,6 @@
     "source_cn": "临夏回族自治州",
     "ref_en": "Linxia Hui Autonomous Prefecture",
     "target_ru": "Линься-Хуэйский автономный округ"
-  },
-  {
-    "id": "105867",
-    "source_cn": "为什么选择“占卜家”？提醒你，一旦服用了魔药，就没有后悔的机会了。",
-    "ref_en": "Why choose \"Seer\"? I remind you, once you consume the potion, there is no chance to regret it.",
-    "target_ru": "Why choose \"Провидец\"? I remind you, once you consume the potion, there is no chance to regret it."
   },
   {
     "id": "105868",
@@ -7494,12 +7464,6 @@
     "target_ru": "Дэн Путь движения 3"
   },
   {
-    "id": "106249",
-    "source_cn": "亲爱的非凡者：根据%s活动，您通过势力战拍卖获得的分红是%s，请查收。",
-    "ref_en": "Dear Beyonder: According to the %s event, the dividend you obtained through the faction war auction is %s. Please check it.",
-    "target_ru": "Dear Потусторонний: According to the %s event, the dividend you obtained through the faction war auction is %s. Please check it."
-  },
-  {
     "id": "106250",
     "source_cn": "仅使用该法术场的表现，不使用其逻辑",
     "ref_en": "Use only the visual representation of this spell field, not its logic.",
@@ -8952,22 +8916,10 @@
     "target_ru": "«Одуванчик»… старший брат маленькой девочки во сне!"
   },
   {
-    "id": "106492",
-    "source_cn": "《诡秘之主》是阅文集团白金作家爱潜水的乌贼所著的西方玄幻类小说，融汇了克苏鲁风格、西方魔幻元素、第一次工业革命时代风情和蒸汽朋克情怀。这是一个蒸汽与机械的世界，这是一段“愚者”的传说。《诡秘之主》是阅文集团白金作家爱潜水的乌贼所著",
-    "ref_en": "《Lord of Mysteries》 is a Western fantasy novel written by the platinum author of China Literature, Cuttlefish That Loves Diving. It blends Cthulhu style, Western magical elements, the atmosphere of the First Industrial Revolution, and steampunk sentiments. This is a world of steam and machinery, and this is the legend of \"The Fool\". 《Lord of Mysteries》 is a work by the platinum author of China Literature, Cuttlefish That Loves Diving",
-    "target_ru": "《Повелитель Тайн》 is a Western fantasy novel written by the platinum author of China Literature, Cuttlefish That Loves Diving. It blends Cthulhu style, Western magical elements, the atmosphere of the First Industrial Revolution, and steampunk sentiments. This is a world of steam and machinery, and this is the legend of \"Шут\". 《Повелитель Тайн》 is a work by the platinum author of China Literature, Cuttlefish That Loves Diving"
-  },
-  {
     "id": "106493",
     "source_cn": "【01】两个女人",
     "ref_en": "【01】Two Women",
     "target_ru": "【01】Две женщины"
-  },
-  {
-    "id": "106494",
-    "source_cn": "【增强】战斗开始后<HighLight>25</>秒内获得霸体，免疫控制。",
-    "ref_en": "[Enhanced] Gain Super Armor and immunity to crowd control for <HighLight>25</> seconds after combat starts.",
-    "target_ru": "[Enhanced] Gain Суперброня and immunity to crowd control for <HighLight>25</> seconds after combat starts."
   },
   {
     "id": "106495",
@@ -9228,12 +9180,6 @@
     "target_ru": "Студенты начинают совершать ритуал."
   },
   {
-    "id": "106538",
-    "source_cn": "完成编织仪式魔法布置,当残阳与乌云在穹顶交汇,众神之子将战歌高唱。英灵们将铠甲铸为荣光,战神的祝福为凯旋引航。",
-    "ref_en": "Complete the Ritual Magic arrangement. When the setting sun and dark clouds converge at the dome, the Son of God will sing the war song. The heroic spirits will cast their armor into glory, and the God of Combat's blessing will guide the triumph.",
-    "target_ru": "Complete the Ritual Magic arrangement. When the setting sun and dark clouds converge at the dome, the Son of God will sing the war song. The heroic spirits will cast their armor into glory, and the Бог Битвы's blessing will guide the triumph."
-  },
-  {
     "id": "106539",
     "source_cn": "对了，伦纳德叮嘱我，把那束塞维亚菊交给梅丽莎，你帮我们带给她吧。",
     "ref_en": "By the way, Leonard asked me to give that bouquet of Sevia daisies to Melissa. Could you take them to her for us?",
@@ -9244,12 +9190,6 @@
     "source_cn": "小包裹",
     "ref_en": "Small Package",
     "target_ru": "Малый пакет"
-  },
-  {
-    "id": "106541",
-    "source_cn": "得先去恶龙酒吧找老板斯维因先生，获许进入地下市场。",
-    "ref_en": "I must go to the Evil Dragon Bar and find Mr. Swain to get permission to enter the underground market.",
-    "target_ru": "I must go to the Evil бар «Злой Дракон» and find Mr. Swain to get permission to enter the underground market."
   },
   {
     "id": "106542",
@@ -12720,12 +12660,6 @@
     "target_ru": "позиция в клубе"
   },
   {
-    "id": "107120",
-    "source_cn": "……这张悲喜剧面具名为“戏剧大师”，对应序列8 戏法大师。上面融合了戏剧大师蒙特利死前残留的力量，比较危险。戴上面具后，使用者即可掌握一系列不算强力的戏法，包括刮风、制造雾气、爆发闪光等。但只要把它戴在身上，就会有一定几率迷路。除此之外，使用者在佩戴期间，会越来越觉得自己是一个真正的戏剧大师，身边的人会控制不住地按照自己的意愿去表演一出喜剧或悲剧，所以佩戴时间不得超过两个小时。",
-    "ref_en": "...This tragicomedy mask is called 'Drama Master', corresponding to Sequence 8, Trickmaster. It contains the residual power of the late Drama Master Monterey, making it quite dangerous. Upon wearing the mask, the user gains a series of not-so-powerful tricks, including summoning wind, creating fog, and bursting flashes. However, as long as it is carried on one's person, there is a certain chance of getting lost. Furthermore, while wearing it, the user will increasingly feel like a true drama master, and those around them will uncontrollably perform a comedy or tragedy according to the user's will, so it must not be worn for more than two hours.",
-    "target_ru": "...This tragicomedy mask is called 'Drama Master', corresponding to Последовательность 8, Trickmaster. It contains the residual power of the late Drama Master Monterey, making it quite dangerous. Upon wearing the mask, the user gains a series of not-so-powerful tricks, including summoning wind, creating fog, and bursting flashes. However, as long as it is carried on one's person, there is a certain chance of getting lost. Furthermore, while wearing it, the user will increasingly feel like a true drama master, and those around them will uncontrollably perform a comedy or tragedy according to the user's will, so it must not be worn for more than two hours."
-  },
-  {
     "id": "107121",
     "source_cn": "【临时占位】克莱恩往前走了几步，画面突然发生震动，四周灰雾突然涌起包围形成空气墙。\\n灰雾中一个人踉跄出现，痛苦地哀嚎几声，然后崩溃成怪物。",
     "ref_en": "[Placeholder] Klein took a few steps forward, the screen suddenly shook, and gray fog surged around to form an air wall. \\n A person stumbled out of the gray fog, wailed in pain, and then collapsed into a monster.",
@@ -14602,12 +14536,6 @@
     "source_cn": "混秩湖-秩序剑挂接结束特效",
     "ref_en": "Lake of Chaos - Order Sword Attachment End Effect",
     "target_ru": "Озеро Хаоса - Конечный эффект Приказа Меча"
-  },
-  {
-    "id": "107434",
-    "source_cn": "添加“诡秘之主游戏”官方企微，绑定小程序验证后即可获得<HighLight>专属奖励！</>",
-    "ref_en": "Add the official WeChat for \"Lord of Mysteries\" game, and after verifying via the mini-program, you can receive <HighLight>exclusive rewards!</>",
-    "target_ru": "Add the official WeChat for \"Повелитель Тайн\" game, and after verifying via the mini-program, you can receive <HighLight>exclusive rewards!</>"
   },
   {
     "id": "107435",
@@ -16554,12 +16482,6 @@
     "target_ru": "[Злой]"
   },
   {
-    "id": "107759",
-    "source_cn": "“窥秘人”和“占卜家”都可以更好地掌握神秘学领域的知识，里面可能就有我回家的线索。",
-    "ref_en": "Both 'Mystery Pryer' and 'Seer' can better master knowledge in the field of mysticism; there might be clues to my home inside.",
-    "target_ru": "Both 'Подглядывающий за Тайнами' and 'Провидец' can better master knowledge in the field of mysticism; there might be clues to my home inside."
-  },
-  {
     "id": "107760",
     "source_cn": "一个<h>苹果</>",
     "ref_en": "An <h>apple</>",
@@ -17266,12 +17188,6 @@
     "source_cn": "Boss战_子嗣守护_初始",
     "ref_en": "Boss Battle_Offspring Protection_Initial",
     "target_ru": "Битва с боссом_Защита потомства_Начальная"
-  },
-  {
-    "id": "107878",
-    "source_cn": "B级动画：\\n克莱恩回想着这段时间的占卜，脑中浮现出黄水晶，突然有一些感悟。",
-    "ref_en": "Grade B Animation:\\nKlein recalled the divination from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations.",
-    "target_ru": "Grade B Animation:\nKlein recalled the Гадание from this period, a yellow crystal appeared in his mind, and he suddenly had some realizations."
   },
   {
     "id": "107879",
@@ -18094,12 +18010,6 @@
     "source_cn": "云朵，那位先生已经是第三次看那束向日葵了，他在等什么呢。",
     "ref_en": "Cloud, that gentleman has looked at that bouquet of sunflowers for the third time. What is he waiting for?",
     "target_ru": "Клауд, этот джентльмен уже в третий раз смотрит на этот букет подсолнухов. Чего он ждет?"
-  },
-  {
-    "id": "108016",
-    "source_cn": "他是一位很有前途的占卜师，可惜已经好些年没见到他了。",
-    "ref_en": "He was a very promising Seer, but unfortunately, I haven't seen him for several years.",
-    "target_ru": "He was a very promising Провидец, but unfortunately, I haven't seen him for several years."
   },
   {
     "id": "108017",
@@ -19618,12 +19528,6 @@
     "source_cn": "<P_Heart>（五海之外的……大地之下的……）</>",
     "ref_en": "<P_Heart> (Beyond the Five Seas... beneath the earth...) </>",
     "target_ru": "<P_Heart> (За пятью морями... под землей...) </>"
-  },
-  {
-    "id": "108270",
-    "source_cn": "<P_Heart>（压低声音）</>而且你看，廷根的物价比贝克兰德便宜多了，还是在这里买划算。",
-    "ref_en": "<P_Heart> (lowering voice) </> And look, the cost of living in Tingen is much cheaper than in Backlund; it's more cost-effective to buy here.",
-    "target_ru": "<P_Heart> (lowering voice) </> And look, the cost of living in Тинген is much cheaper than in Бэкланд; it's more cost-effective to buy here."
   },
   {
     "id": "108271",
@@ -21924,12 +21828,6 @@
     "target_ru": "[Авто-шахматы] — Азик — Базовая атака — Тройная ракета"
   },
   {
-    "id": "108654",
-    "source_cn": "【表演】蒙特利死亡。他的身上析出了一些亮晶晶的东西（门的非凡特性）。给旁边散乱的面具板子一个镜头。",
-    "ref_en": "[Performance] Monterey is dead. Some shiny things (Beyonder characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby.",
-    "target_ru": "[Performance] Monterey is dead. Some shiny things (Потусторонний characteristic of the Door) are extracted from his body. Give a shot of the scattered mask boards nearby."
-  },
-  {
     "id": "108655",
     "source_cn": "一个简易锅？但太久没用，已经坏了。",
     "ref_en": "A simple pot? But it's been too long since it was used, it's broken.",
@@ -22662,12 +22560,6 @@
     "target_ru": "Перо написало: \n «Ритуал Наследника удался! Хоть Кляйн и обнаружил непрерывные смерти в гетто, на продолжение истории это не повлияло."
   },
   {
-    "id": "108777",
-    "source_cn": "一枚泛着星空色泽的古老钱币，能够通过精神体响应灵界、星空。上面镌刻着来自亚伯拉罕家族天使绘制的隐秘铭文，每一次使用如同开启一场星空漫游，能够为使用者带来旅途中的见闻与收获。",
-    "ref_en": "An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the spirit body. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey.",
-    "target_ru": "An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the Духовное тело. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey."
-  },
-  {
     "id": "108778",
     "source_cn": "不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了不发补偿退游了",
     "ref_en": "No compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game, no compensation, I'm quitting the game",
@@ -23392,12 +23284,6 @@
     "source_cn": "东北石碑",
     "ref_en": "Northeast Stele",
     "target_ru": "Северо-восточная стела"
-  },
-  {
-    "id": "108899",
-    "source_cn": "主宰争锋公平机制，所有非凡者获得属性平衡。",
-    "ref_en": "Dominator's Clash fairness mechanism, all Beyonders receive attribute balancing.",
-    "target_ru": "Dominator's Clash fairness mechanism, all Потустороннийs receive attribute balancing."
   },
   {
     "id": "108900",
@@ -24882,12 +24768,6 @@
     "target_ru": "Идентификатор (боевая кнопка)"
   },
   {
-    "id": "109147",
-    "source_cn": "“魔术师”：“正义”女士，按照计划，门已打开。",
-    "ref_en": "\"Magician\": Miss Justice, according to the plan, the door has been opened.",
-    "target_ru": "\"Фокусник\": Miss Justice, according to the plan, the door has been opened."
-  },
-  {
     "id": "109148",
     "source_cn": "……不、不好笑吗？",
     "ref_en": "...W-Wasn't it funny?",
@@ -24928,12 +24808,6 @@
     "source_cn": "了解俱乐部",
     "ref_en": "Understand the Club",
     "target_ru": "Поймите клуб"
-  },
-  {
-    "id": "109155",
-    "source_cn": "二段剑气伤害提升20%。若二段未命中目标，返还10%技能冷却。",
-    "ref_en": "Second-stage sword energy damage increased by 20%. If the second stage misses the target, 10% of the skill cooldown is refunded.",
-    "target_ru": "Second-stage sword energy damage increased by 20%. If the second stage misses the target, 10% of the skill Перезарядка is refunded."
   },
   {
     "id": "109156",
@@ -27894,12 +27768,6 @@
     "target_ru": "<P_Heart> (Нельзя быть небрежным, анимированное признание эквивалентно предмету Потусторонний, нужно быть осторожным...) </> Почему вы создали этот сон?"
   },
   {
-    "id": "109649",
-    "source_cn": "Defense <Highlight>Mutated Material</> with the affix <Highlight><隐秘之仆></>: \"All Skill levels +1, Skill Block increased.\"",
-    "ref_en": "Defense <Highlight>Mutated Material</> with the affix <Highlight><Servant of Concealment></>: \"All Skill levels +1, Skill Block increased.\"",
-    "target_ru": "Defense <Highlight>Mutated Material</> with the affix <Highlight><Servant of Concealment></>: \"All Skill levels +1, Блок навыков increased.\""
-  },
-  {
     "id": "109650",
     "source_cn": "citywalk-马车",
     "ref_en": "City Walk - Carriage",
@@ -28648,12 +28516,6 @@
     "source_cn": "【临时占位】大家：干杯！",
     "ref_en": "[Placeholder] Everyone: Cheers!",
     "target_ru": "[Заполнитель] Все: Здравствуйте!"
-  },
-  {
-    "id": "109775",
-    "source_cn": "【本相】若未触发低于20%立即恢复生命效果，则额外降低该技能冷却时间2秒。",
-    "ref_en": "[True Form] If the immediate Health restoration effect below 20% is not triggered, reduce the skill's Cooldown by an additional 2 seconds.",
-    "target_ru": "[True Form] If the immediate Health restoration effect below 20% is not triggered, reduce the skill's Перезарядка by an additional 2 seconds."
   },
   {
     "id": "109776",
@@ -29512,12 +29374,6 @@
     "source_cn": "……抱歉，我失态了。",
     "ref_en": "...Sorry, I lost my composure.",
     "target_ru": "...Извини, я потерял самообладание."
-  },
-  {
-    "id": "109919",
-    "source_cn": "……没有？看来，今天我们都该休息了。嗯，这是不需要灵性直觉也能得到的启示。",
-    "ref_en": "……None? It seems we should both rest today. Hmm, this is an revelation one can get without spirituality intuition.",
-    "target_ru": "……None? It seems we should both rest today. Hmm, this is an revelation one can get without Духовность intuition."
   },
   {
     "id": "109920",

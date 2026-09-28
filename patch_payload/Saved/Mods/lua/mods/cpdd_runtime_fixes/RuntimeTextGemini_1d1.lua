@@ -38,7 +38,6 @@ return {
     ["Social: Greet"] = "Социальное: Приветствие",
     ["Gift on a personal profile to increase the recipient's fame by 50 points. If both parties are friends, friendship increases by an additional 50 points."] = "Подарок на личный профиль для увеличения известности получателя на 50 баллов. Если обе стороны являются друзьями, дружба увеличивается еще на 50 очков.",
     ["This ranking is based on the highest Connections Marionette Rating of each Beyonder; the top 100 can make the list"] = "Этот рейтинг основан на самом высоком рейтинге марионеток-связей каждого Потустороннего; 100 лучших могут попасть в список",
-    ["Beyonder loadouts cannot be switched within Utopia Theater."] = "Потусторонний loadouts cannot be switched within Utopia Theater.",
     ["Connecting Dialogue 1"] = "Соединяющий диалог 1",
     ["Insufficient Acting talent points."] = "Недостаточно очков актерского таланта.",
     ["Profit Sprint"] = "Прибыль Спринт",

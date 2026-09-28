@@ -220,7 +220,6 @@ return {
     ["Damage Received Adjustment (Strictly Prohibited)"] = "Корректировка полученного урона (строго запрещено)",
     ["Using wholehearted piety as a guide, tear the thin barrier between reality and the Sun domain, summoning a beam of Holy Light untainted by any mundane impurities to descend upon oneself."] = "Ведомый искренним благочестием, разрывает хрупкую завесу между реальностью и царством Солнца, призывая на себя луч Священного Света, незапятнанный ни единой частицей мирской скверны.",
     ["The most important thing now is to find <P_Yellow> Arthur </>. Irene, calm down first."] = "Самое главное сейчас — найти <P_Yellow> Артура </>. Ирен, сначала успокойся.",
-    ["……In any case, I cannot leave a Beyonder creature wandering outside."] = "……In any case, I cannot leave a Потусторонний creature wandering outside.",
     ["Bloodstain 3"] = "Пятно крови 3",
     ["Sequence Acting Quest"] = "Последовательность актерского квеста",
     ["Section 1: Ending the meeting"] = "Раздел 1: Завершение встречи",

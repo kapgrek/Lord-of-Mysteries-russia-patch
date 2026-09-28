@@ -56,7 +56,11 @@ function Get-NumberBag([string]$text, [bool]$isRu) {
     foreach ($v in $list) { $parts.Add($v.ToString('R', $invariant)) }
     return [string]::Join(' ', $parts)
 }
-$starBrokenRegex = [System.Text.RegularExpressions.Regex]::new('\{?\s*C(?:heckSta\s+r|heckS\s+tar|h\s+eckStar|heckStar\s*\(Type=\\"seal\)|heckStar\s*\(Type=\\"sealed\\"[^}]*?\s+[=,])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+# English left in target_ru (TASK-023): >= 6 Latin words of 3+ letters and more than 2x the Cyrillic words, markup stripped
+$enWordRegex = [System.Text.RegularExpressions.Regex]::new('\b[A-Za-z]{3,}\b', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$ruWordRegex = [System.Text.RegularExpressions.Regex]::new('\p{IsCyrillic}+', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$enStripRegex = [System.Text.RegularExpressions.Regex]::new('\{\{.*?\}\}|<[^>]*>|\\[nrt]', [System.Text.RegularExpressions.RegexOptions]::Compiled)
+$starBrokenRegex =[System.Text.RegularExpressions.Regex]::new('\{?\s*C(?:heckSta\s+r|heckS\s+tar|h\s+eckStar|heckStar\s*\(Type=\\"seal\)|heckStar\s*\(Type=\\"sealed\\"[^}]*?\s+[=,])', [System.Text.RegularExpressions.RegexOptions]::Compiled)
 
 # Regex to extract batch items
 $itemRegex = [System.Text.RegularExpressions.Regex]::new(
@@ -246,6 +250,16 @@ foreach ($file in $files) {
         if ($ru.EndsWith('b') -and -not $numRef.TrimEnd().EndsWith('b')) {
             Write-Host "  [WARN $fileName ID:$id] target_ru ends with 'b' (corrupted tail?): $ru" -ForegroundColor Yellow
             $fileWarnings++
+        }
+
+        # 10. English "translation": machine translation once returned ref_en and the line counts as done (TASK-023)
+        if ($ru -notmatch '^\s*(?:\[UIFrame|local\s)' -and $specRegex.Matches($ru).Count -lt 3) {
+            $plain = $enStripRegex.Replace($ru, ' ')
+            $latWords = $enWordRegex.Matches($plain).Count
+            if ($latWords -ge 6 -and $latWords -gt 2 * $ruWordRegex.Matches($plain).Count) {
+                Write-Host "  [WARN $fileName ID:$id] en_target: target_ru is English ($latWords Latin words): $ru" -ForegroundColor Yellow
+                $fileWarnings++
+            }
         }
     }
 

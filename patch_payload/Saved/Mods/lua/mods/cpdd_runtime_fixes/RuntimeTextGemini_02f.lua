@@ -231,7 +231,6 @@ return {
     ["Girly"] = "девчачий",
     ["Read the <h>Case Report</> on the table"] = "Прочитайте отчет о деле <h></> на столе.",
     ["Structure Resistance"] = "Структурное сопротивление",
-    ["[Marionette Skill] Worm of Star - Eyes of Mystery Prying"] = "[Марионетка Skill] Worm of Star - Eyes of Mystery Prying",
     ["Lead Baboon"] = "Свинцовый бабуин",
     ["Display Stand - Squatting"] = "Стенд для выставки товаров - на корточках",
     ["Look, aren't the locals all buying things busily?"] = "Посмотрите, разве местные жители не скупают все подряд?",

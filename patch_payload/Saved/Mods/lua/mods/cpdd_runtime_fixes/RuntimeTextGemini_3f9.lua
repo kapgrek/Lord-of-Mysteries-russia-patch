@@ -139,7 +139,6 @@ return {
     ["中01Actor2"] = "Середина 01, актер 2",
     ["为什么是美梦？"] = "Почему это сладкий сон?",
     ["主宰争锋·竞争者"] = "Dominion Clash: конкурент",
-    ["今天我要把所有占卜法都试一遍！ 占卜师们在哪里？"] = "Today I'm going to try every Гадание method! Where are the diviners?",
     ["他很少出门，更喜欢待在家里。不过他偶尔会去大地母神教会的丰收教堂做义工，也许你们能在那里偶遇。"] = "Он редко выходит на улицу и предпочитает оставаться дома. Однако время от времени он работает волонтером в Жатвенной церкви Матери-Земли, возможно, вы сможете встретить его там.",
     ["任务自定义事件  玩家播放主线任务开始展示界面  "] = "Пользовательское событие квеста: игрок воспроизводит главный экран начала квеста.",
     ["你们在聊什么？"] = "О чем вы, ребята, говорите?",
@@ -271,5 +270,6 @@ return {
     ["Mr. Barney continuously slams the ground and gains high <img id=\"09\" width=\"40\" height=\"40\"/> Damage Reduction."] = "Мистер Барни непрерывно бьёт по земле и получает высокое <img id=\"09\" width=\"40\" height=\"40\"/> снижение урона.",
     ["Those rich people don't have to do anything to enjoy their wealth."] = "Эти богачи ничего не делают и просто наслаждаются богатством.",
     ["哎呀，看来还是有耐不住性子的客人找上门了。"] = "Ох, похоже, всё же нашёлся нетерпеливый гость.",
+    ["今天我要把所有占卜法都试一遍！ 占卜师们在哪里？"] = "Today I'm going to try every divination method! Where are the diviners?",
     ["She and he, he and she, <Hide stylename=\"Transparent\" id=\"#161\">she and she, he and he,</>\npassionate love stories, all at the Tingen Grand Theater!\n\n\n<Note_Normal_HW>** of it, whoever scribbled out the words at the back, I love watching this!</>\n\n<Note_Normal_HW>Forget it, buddy, there are kids nearby, and do you really have the money to buy a ticket to the Tingen Grand Theater?</>\n\n<Note_Normal_HW>As if any of the kids nearby know how to read!</>"] = "Она и он, он и она, <Hide stylename=\"Transparent\" id=\"#161\">она и она, он и он...</>\nПылкие истории любви — только в Большом театре Тингена!\n\n\n<Note_Normal_HW>Черт побери, кто замазал вторую строчку?! Я только ради этого и пришел!</>\n\n<Note_Normal_HW>Да брось, дружище, вокруг же дети крутятся! Да и откуда у тебя вообще деньги на билет в Большой театр Тингена?</>\n\n<Note_Normal_HW>Будто здешние сорванцы хоть слово прочесть умеют!</>",
 }

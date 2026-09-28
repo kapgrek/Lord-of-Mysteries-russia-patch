@@ -66,7 +66,6 @@ return {
     ["I have always been here. I just entered your <P_Yellow>dream</> and provided the necessary guidance."] = "Я всегда был здесь. Я только что ввел ваш <P_Yellow>dream</> и предоставил необходимые рекомендации.",
     ["Bring the Hat to \"Ayla\""] = "Отнесите шляпу «Айле».",
     ["Star Sand Disintegration"] = "Распад звездного песка",
-    ["[Marionette Skill] Worm of Star - Ice Flame Breath"] = "[Марионетка Skill] Worm of Star - Ice Flame Breath",
     ["Fanatic A"] = "Фанатик А",
     ["How can I do business like this?"] = "Как я могу вести такой бизнес?",
     ["Long-Long-Short-Long"] = "Длинный-длинный-короткий-длинный",

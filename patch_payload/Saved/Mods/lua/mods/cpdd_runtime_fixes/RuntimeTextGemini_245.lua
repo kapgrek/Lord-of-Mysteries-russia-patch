@@ -53,7 +53,6 @@ return {
     ["Defeat the World Calamity \"Pain Witch\" once"] = "Победите Мировое Бедствие «Ведьму Боли» один раз.",
     ["[Auto Chess] - Azik - Third Wave"] = "[Авто-шахматы] - Азик - Третья волна",
     ["Action Damage Absorption Limit Formula ID"] = "Идентификатор формулы предела поглощения урона действиями",
-    ["{{Sir|Madam}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes."] = "{{Sir|Madam}}, I used to be a Фокусник, skilled at escaping from cages in front of everyone's eyes.",
     ["With the help of the mysterious power sealed in the empty Groselle's Travels, travel through the scattered pages of the world and step into the independent secret realms sealed on each page. \n Come, dear partner, this is your story, this is your legend."] = "С помощью мистической силы, запечатанной в иллюзорных «Путешествиях Гросселя», пройдите сквозь разрозненные по миру страницы и ступите в сокрытые тайные обители каждой из них.\nСмелее, дорогой друг: это твоя история, это твоя легенда.",
     ["I will, and I will tell the other students too."] = "Я сделаю это и расскажу другим ученикам.",
     ["You just obtained new clothing; go to <Orange> Change Outfit </>."] = "Вы только что купили новую одежду; перейдите в <Orange> Сменить наряд </>.",

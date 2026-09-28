@@ -46,7 +46,6 @@ return {
     ["Luna 5"] = "Луна 5",
     ["New Skill - Liquidation: After activation, damage boost is increased by 30% for 10 seconds. Record the total damage dealt during the duration and deal one-time damage equal to the recorded total damage when the effect ends."] = "Новый навык — Ликвидация: после активации усиление урона увеличивается на 30% fили 10 секунд. Запишите общий урон, нанесенный за время действия, и нанесите единовременный урон, равный записанному общему урону, когда эффект закончится.",
     ["A sofa that looks like it's meant for sitting, and the kind that can seat many people."] = "Диван, который выглядит так, будто предназначен для сидения, и на котором может поместиться много людей.",
-    ["Advancing to Sequence 8 in one year, Sequence 7 in another, and Sequence 6 in three years—that is a very talented Beyonder."] = "Advancing to Последовательность 8 in one year, Последовательность 7 in another, and Последовательность 6 in three years—that is a very talented Потусторонний.",
     ["Boo—"] = "Бу-",
     ["Rhythm of Light - Talent - Bonus Damage"] = "Ритм Света — Талант — Дополнительный урон",
     ["Heavy Hit from Rear-Right"] = "Сильный удар сзади справа",
@@ -80,7 +79,6 @@ return {
     ["<P_Heart>（这群小猫似乎正在发生争执，它们战斗的身姿似乎藏着什么秘密）</>"] = "<P_Heart> (Эта группа котят, похоже, дерется, их боевые позы, кажется, скрывают какую-то тайну.) </>",
     ["GVG-西幻龙-出生特效"] = "GVG-Вестерн Фэнтези Эффект порождения дракона",
     ["……我家里已经没人了。"] = "……В моей семье никого не осталось.",
-    ["【施工中】队伍中序列种类数目等于6玩家属性提升"] = "[Under Construction] Player attributes increased when the number of Последовательность types in the party equals 6.",
     ["【测试】一键养成月卡战令"] = "[Тест] Разработка в один клик. Карта месяца и боевой пропуск.",
     ["【自走棋】-\"头狼\"鲁珀-狼嚎"] = "[Авто-шахматы] - «Альфа-волк» Лупо - Вой волка",
     ["【表演】灵体斯嘉丽2"] = "【Представление】 Дух Скарлетт 2",
@@ -274,5 +272,6 @@ return {
     ["Tarot Club · Fors: 4-person tier increment, all allies Mana recovery +0.2."] = "Клуб Таро · Форс: бонус уровня «4 игрока», вся команда +0.2 к восстановлению маны.",
     ["I was only three years old then, and I can't remember many things. I only know that since then, life at home has become increasingly difficult."] = "Тогда мне было всего три года, многого я не помню, знаю только, что с тех пор жизнь в семье становилась всё труднее.",
     ["Which one to buy..."] = "Какой же выбрать...",
+    ["【施工中】队伍中序列种类数目等于6玩家属性提升"] = "[Under Construction] Player attributes increased when the number of Sequence types in the party equals 6.",
     ["最美的玫瑰，总在暗夜绽放，总在触碰后留下无法愈合的刺痕。"] = "Самая красивая роза всегда цветет темной ночью, всегда оставляя после прикосновения неизлечимые следы шипов.",
 }

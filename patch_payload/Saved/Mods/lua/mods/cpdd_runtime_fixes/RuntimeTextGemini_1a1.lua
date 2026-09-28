@@ -189,7 +189,6 @@ return {
     ["About the crisis"] = "О кризисе",
     ["Jumps into dense enemy areas to deal area damage."] = "Прыгает в плотные зоны противника, чтобы нанести урон по площади.",
     ["<P_Heart> (The knocking stopped, and after three breaths, a muffled sound came from behind the tightly closed door.) </>"] = "<P_Heart> (Стук прекратился, и после трех вдохов из-за плотно закрытой двери послышался приглушенный звук.) </>",
-    ["Not bad, this is the preliminary Spirit Vision. As expected of a \"Seer,\" only slightly worse than I was back then."] = "Not bad, this is the preliminary Spirit Vision. As expected of a \"Провидец,\" only slightly worse than I was back then.",
     ["Spectator Dream Weaving (Roguelike)"] = "Зритель Dream Weaving (Roguelike)",
     ["Don't ask me, today is my last day at work. There's no future in working at a jewelry store."] = "Не спрашивайте меня, сегодня мой последний день на работе. У работы в ювелирном магазине нет будущего.",
     ["It's nothing. <P_Heart> (Did he commit a kitchen taboo... a sudden flash of inspiration?) </>"] = "Ничего. <P_Heart> (Он нарушил кухонное табу... внезапная вспышка вдохновения?) </>",

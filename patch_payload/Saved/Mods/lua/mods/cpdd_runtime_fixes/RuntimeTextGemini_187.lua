@@ -204,7 +204,6 @@ return {
     ["Profane Words"] = "Нецензурные слова",
     ["Church of the River and Sea to Central Plaza"] = "Церковь реки и моря на Центральной площади",
     ["Death Data"] = "Данные о смерти",
-    ["[Marionette Skill] Alienated Selena - Stab - Agent Skill"] = "[Марионетка Skill] Alienated Selena - Stab - Agent Skill",
     ["Basic Fuel"] = "Базовое топливо",
     ["Artistic displacement."] = "Художественное перемещение.",
     ["Blade of Order"] = "Клинок Порядка",

@@ -30,7 +30,6 @@ return {
     ["On the dining table, the milk in the silver cup is steaming, the bread is slathered with butter, and the crispy surface of the roast goose is shimmering with a golden glow!"] = "На обеденном столе дымится молоко в серебряной чашке, хлеб намазывается маслом, а хрустящая поверхность жареного гуся переливается золотистым сиянием!",
     ["<P_Heart>(He's pretending to be a mushroom!)</>"] = "<P_Heart>(Он притворяется грибом!)</>",
     ["Shop - Bound Gold Items"] = "Магазин - Связанные золотые предметы",
-    ["No, my point—what I mean is, Your Excellency, what must I do to become a Beyonder?"] = "No, my point—what I mean is, Your Excellency, what must I do to become a Потусторонний?",
     ["It was very hard at the beginning; I had to get up very early every day, and the worst part was not having enough to eat."] = "Вначале было очень тяжело; Мне приходилось каждый день вставать очень рано, и самое ужасное было то, что мне не хватало еды.",
     ["Poetry is the most wonderful thing..."] = "Поэзия – это самое прекрасное, что есть...",
     ["Look closely, this is a 'Tingen Five-Star Good Citizen'. Don't mind the gold-plated trash awarded by those idiots at City Hall; they don't know a damn thing."] = "Посмотрите внимательно, это «Пятизвездочный добропорядочный гражданин Тингена». Не обращайте внимания на позолоченный мусор, врученный этими идиотами в мэрии; они ни черта не знают.",

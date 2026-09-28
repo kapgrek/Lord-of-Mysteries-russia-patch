@@ -41,7 +41,6 @@ return {
     ["Come... eat."] = "Давай... ешь.",
     ["May Manor · Garden · Hard"] = "Мэйская усадьба · Сад · Жесткий",
     ["Zhou Haitao-Draw Pattern Component Start"] = "Чжоу Хайтао-Начало компонента рисунка рисунка",
-    ["Three years ago, I was accidentally affected by the power of a Sealed Artifact, which is why I became like this..."] = "Three years ago, I was accidentally affected by the power of a Запечатанный артефакт, which is why I became like this...",
     ["This is the letter Miss Celeste left behind."] = "Это письмо, которое оставила мисс Селеста.",
     ["Horror Positive Feedback 3"] = "Ужасы Положительный отзыв 3",
     ["Please drink limit reached; cannot use this item."] = "Пожалуйста, достигните лимита выпивки; не могу использовать этот предмет.",

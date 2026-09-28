@@ -242,7 +242,6 @@ return {
     ["Fires 3 missiles at the current target, dealing a total of <color=red>90% attack damage</color>."] = "Выпускает 3 снаряда в текущую цель, нанося суммарно <color=red>90% урона от силы атаки</color>.",
     ["Hero-Turtle-Turtle Shell bullet warning (deprecated)"] = "Предупреждение о пуле «Герой-Черепаха-Черепаха» (устарело)",
     ["Enid, do you hear any strange sounds?"] = "Энид, ты слышишь какие-нибудь странные звуки?",
-    ["[Placeholder-QTE] Klein quickly constructs a wall of spirituality, sealing off the entire room."] = "[Placeholder-QTE] Klein quickly constructs a wall of Духовность, sealing off the entire room.",
     ["Tarot Card Holder"] = "Держатель карт Таро",
     ["Increase *d** Attack and Special Attack"] = "Увеличьте атаку *d** и специальную атаку.",
     ["Visit the Island of Mind"] = "Посетите остров разума",

@@ -51,7 +51,6 @@ return {
     ["Roadblock ahead; focus fire to destroy it!"] = "Впереди блокпост; сфокусируйте огонь, чтобы уничтожить его!",
     ["Brandon Spirit Body 4"] = "Брэндон Духовное Тело 4",
     ["No Frame Rate Drop in Background"] = "Отсутствие падения частоты кадров в фоновом режиме",
-    ["He was an old friend of our club and once served as our divination mentor."] = "He was an old friend of our club and once served as our Гадание mentor.",
     ["Evelyn Marlow has bid"] = "Эвелин Марлоу сделала ставку",
     ["Dennis"] = "Деннис",
     ["Level 6 - Transcendence"] = "Уровень 6 – Трансцендентность",
@@ -78,7 +77,6 @@ return {
     ["七日誓约关系解散"] = "Отношения семидневного завета расторгнуты",
     ["上周您来的时候气色不太好，这周看着好多了。"] = "Когда ты пришел на прошлой неделе, ты выглядел не очень хорошо, но на этой неделе ты выглядишь намного лучше.",
     ["不用客气，我不靠这个赚钱。"] = "Не упоминайте об этом, я не полагаюсь на это, чтобы заработать деньги.",
-    ["不错，这就是初步的窥密之眼，不愧是“占卜家”，只比我当初差一点点。"] = "Not bad, this is the preliminary Spirit Vision. As expected of a \"Провидец,\" only slightly worse than I was back then.",
     ["东北7"] = "Северо-восток 7",
     ["东南12"] = "Юго-восток 12",
     ["中山"] = "Чжуншань",
@@ -244,6 +242,7 @@ return {
     ["救、救命！有人吗？"] = "П-помогите! Есть кто-нибудь?",
     ["In competition mode, <Highlight> defeat </> %s/%s Warriors"] = "В арене <Highlight>победите</> %s/%s Воинов",
     ["There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors."] = "В истории Четвёртой эпохи слишком много неясностей. Тебе стоит начать исследование с сохранившихся реликвий, чтобы исключить факторы неопределённости.",
+    ["不错，这就是初步的窥密之眼，不愧是“占卜家”，只比我当初差一点点。"] = "Not bad, this is the preliminary Spirit Vision. As expected of a \"Seer,\" only slightly worse than I was back then.",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

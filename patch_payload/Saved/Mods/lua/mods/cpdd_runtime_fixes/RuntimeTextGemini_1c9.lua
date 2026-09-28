@@ -278,7 +278,6 @@ return {
     ["Freely explore the world and discover the traces of mystery and the Extraordinary hidden in daily life."] = "Свободно исследуйте мир и обнаруживайте следы тайны и Необыкновенного, скрытые в повседневной жизни.",
     ["Temporary Teleport"] = "Временный телепорт",
     ["When she rejected me, her expression was very calm, without even a polite phrase..."] = "Когда она мне отказала, выражение ее лица было очень спокойное, даже без вежливой фразы...",
-    ["The magician who lost her Tarot cards"] = "The Фокусник who lost her Tarot cards",
     ["27 Combat Test Scene"] = "27 Сцена боевых испытаний",
     ["Yes. If these things are kept in Blackthorn, it makes people feel like that liveliness is still there."] = "Да. Если эти вещи хранятся в Блэкторне, у людей создается впечатление, что оживленность все еще здесь.",
     ["Current location NavMesh loaded."] = "Текущее местоположение NavMesh загружено.",

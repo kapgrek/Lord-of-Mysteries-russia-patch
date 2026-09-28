@@ -106,7 +106,6 @@ return {
     ["Of course. If you ask me, anyone who sees this 'Personal Item Purchase List,' which is actually a 'Personal Item Wish List,' would get a headache."] = "Конечно. Если вы спросите меня, у любого, кто увидит этот «Список покупок личных вещей», который на самом деле является «Списком желаний личных вещей», возникнет головная боль.",
     ["Star Worm · Mind Fragment"] = "Звездный червь · Фрагмент разума",
     ["Action not found."] = "Действие не найдено.",
-    ["In case they really are out-of-control Beyonders... better go take a look."] = "In case they really are out-of-control Потустороннийs... better go take a look.",
     ["The extraction point has been opened; the whole team is about to extract."] = "Точка эвакуации открыта; вся команда собирается эвакуироваться.",
     ["<P_Heart>(Explain the situation)</>President... My inner guidance led me to do this, but those three people who met with disaster..."] = "<P_Heart>(Объясните ситуацию)</>Президент... Мое внутреннее руководство побудило меня сделать это, но те три человека, которые попали в беду...",
     ["Kid, I'm back. Here, you count how many there are. I didn't count them carefully, but there are definitely more than 30."] = "Детка, я вернулся. Вот посчитайте, сколько их. Я их не считал внимательно, но их точно больше 30.",

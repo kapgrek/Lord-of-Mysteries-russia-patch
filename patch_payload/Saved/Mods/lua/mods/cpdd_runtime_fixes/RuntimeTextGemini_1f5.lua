@@ -43,7 +43,6 @@ return {
     ["Reach King of Angels rank in Final Hunt"] = "Достигните ранга Короля Ангелов в Финальной Охоте.",
     ["No Sunlight — Lv 62 | Apprentice | 4 m | Inspect"] = "Нет солнечного света — 62 ур. | Ученик | 8 м | Осмотреть",
     ["You go over there yourself... I still have to continue my shift."] = "Ты сам иди туда... Мне еще дежурить надо.",
-    ["'%d' Grade Sealed Artifact can have at most %d entry effects active"] = "'%d' Grade Запечатанный артефакт can have at most %d entry effects active",
     ["Trigger for teleporting into plane"] = "Триггер для телепортации в самолет",
     ["Friend addition function malfunction; temporarily unavailable. Please wait a moment."] = "Неисправность функции добавления друзей; временно недоступен. Пожалуйста, подождите немного.",
     ["Change Outfit"] = "Сменить наряд",

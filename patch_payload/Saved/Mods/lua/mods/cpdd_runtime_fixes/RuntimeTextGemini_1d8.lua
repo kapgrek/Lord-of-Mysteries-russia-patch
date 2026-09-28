@@ -53,7 +53,6 @@ return {
     ["How to perform Castle visits"] = "Как совершать посещения замка",
     ["{{Mr.|Ms.}}, you'd better leave before the next train arrives—the people getting off will squeeze you like sardines in a can!"] = "{{Mr.|Ms.}}, тебе лучше уйти до прибытия следующего поезда — люди, выходящие, сожмут тебя, как сардины в банке!",
     ["Index the \"TargetSelectionRule\" table; valid if and only if SendFlowchartTargetMode is 3."] = "Индексируйте таблицу TargetSelectionRule; действителен тогда и только тогда, когда SendFlowchartTargetMode равен 3.",
-    ["I see, hidden beneath the agile and powerful movements are sharp claws; this is—the Cat's Great Swing!"] = "I see, hidden beneath the agile and powerful movements are sharp claws; это — большие кошачьи качели!",
     ["You are a friend I cannot forget, and a past I cannot let go of."] = "Ты друг, которого я не могу забыть, и прошлое, от которого я не могу отказаться.",
     ["[Emoji 139]"] = "[Эмодзи 139]",
     ["That's a family heirloom ring! Father stipulated that if I haven't successfully proposed with it by the time I'm twenty-five, I can't inherit the family business, and I turn twenty-five tomorrow!"] = "Это семейное кольцо! Отец поставил условие, что если я не сделаю успешное предложение к двадцати пяти годам, я не смогу унаследовать семейный бизнес, а завтра мне исполнится двадцать пять!",
@@ -89,7 +88,6 @@ return {
     ["上唇中"] = "Центр верхней губы",
     ["不论贫穷或是富贵 不论健康或是疾病"] = "Будь то в бедности или богатстве, в болезни или в здравии,",
     ["中型方毯·古典"] = "Коврик средней площади: Классический",
-    ["之前塔罗学派工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。"] = "The mystical item 'Fingers of Dexterity' crafted by the Клуб Таро artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard.",
     ["乱斗未开启，俱乐部未达%d级"] = "Драка не началась; клуб не достиг уровня %d.",
     ["交给莉莉"] = "Отдай это Лили",
     ["今夜琴声温柔-莎莉丝特答复曼妮"] = "Нежная фортепианная музыка сегодня вечером - Селеста отвечает Мэнни",
@@ -265,6 +263,7 @@ return {
     ["I quite like it, it's like we're participants in the parliament."] = "Мне это даже нравится, будто мы участники парламентского заседания.",
     ["One interview is gifted for every five hundred words. If you need more, five pounds will be added for each interview."] = "На каждые пятьсот слов даётся одно интервью бесплатно. Если нужно больше, каждое дополнительное интервью стоит пять фунтов.",
     ["Fight Evil is a three-player game. At the start of the match, players decide their factions by grabbing the 'Evil'. The two factions fight, and the first to play all their cards wins. The 'Evil' has the priority to play first. Players follow in a counter-clockwise direction, and each player can choose to follow with a larger card set or pass. First, a note on: <Highlight> King Bomb > Bomb > Other card types </>. Below is an introduction to the basic card types in Fight Evil."] = "«Бой со злом» — игра для трёх игроков. В начале партии стороны определяются через захват карты «Зло», после чего стороны сражаются друг с другом, и победу одержит тот, кто первым выложит все карты. Обладатель «Зла» получает приоритет на первый ход, игроки отвечают картами против часовой стрелки, и каждый может выбрать: ответить более сильной комбинацией карт или пропустить ход. Сначала отметим: <Highlight>Джокер-бомба > Бомба > Остальные комбинации</>. Далее — описание основных комбинаций карт в игре «Бой со злом».",
+    ["之前塔罗学派工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。"] = "The mystical item 'Fingers of Dexterity' crafted by the Tarot Club artisans can steal thoughts from the other person's brain. We can try stealing his idea of working hard.",
     ["Mosh"] = "Мош",
     ["Zamir"] = "Замир",
 }

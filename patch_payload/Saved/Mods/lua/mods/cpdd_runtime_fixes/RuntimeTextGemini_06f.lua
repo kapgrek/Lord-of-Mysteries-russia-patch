@@ -162,7 +162,6 @@ return {
     ["Achievement - Domination Proficiency I"] = "Достижение – Мастерство доминирования I",
     ["Don't be discouraged. I saw earlier that the shop at Golden Autumn Lake sells Feysac spirits. At least the problem of strong liquor can be solved."] = "Не расстраивайтесь. Ранее я видел, что в магазине на озере Золотая Осень продаются спиртные напитки Фейсак. По крайней мере, проблему крепких спиртных напитков можно решить.",
     ["Magic circle bell"] = "Колокольчик магического круга",
-    ["{{Mr.|Ms.}}, I used to be a magician, skilled at escaping from cages in front of everyone's eyes."] = "{{Mr.|Ms.}}, I used to be a Фокусник, skilled at escaping from cages in front of everyone's eyes.",
     ["Base rate %s"] = "Базовая ставка %s",
     ["I remember this bouquet... Sevia Chrysanthemums, symbolizing happiness."] = "Я помню этот букет... Хризантемы Севии, символизирующие счастье.",
     ["Participate in the dungeon <Highlight>May Manor Garden (Normal)</>, after completing the stage <Highlight>Ancestor Armor</>, there is a chance to obtain the following items."] = "Участвуйте в подземелье <Highlight>Поместье Мэй Garden (Normal)</>, после прохождения этапа <Highlight>Доспехи предков</> есть шанс получить следующие предметы.",

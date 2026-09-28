@@ -228,7 +228,6 @@ return {
     ["Klein, you speak first."] = "Клейн, ты говоришь первым.",
     ["Basic Operations"] = "Основные операции",
     ["Why isn't it our turn yet? When will it be my turn!"] = "Почему еще не наша очередь? Когда же будет моя очередь!",
-    ["……None? It seems we should both rest today. Hmm, this is an revelation one can get without spirituality intuition."] = "……None? It seems we should both rest today. Hmm, this is an revelation one can get without Духовность intuition.",
     ["Cheryl"] = "Шерил",
     ["Podol Magic Pea Atmosphere"] = "Подол Волшебный горошек Атмосфера",
     ["Waiting for the match to start"] = "Ждем начала матча",

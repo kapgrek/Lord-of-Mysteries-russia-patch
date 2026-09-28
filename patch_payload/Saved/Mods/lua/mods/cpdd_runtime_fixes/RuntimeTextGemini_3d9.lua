@@ -40,7 +40,6 @@ return {
     ["Continue exploring"] = "Продолжить изучение",
     ["The Church has lost a Sealed Artifact, and investigations suggest it may have flowed into the black market."] = "Церковь потеряла запечатанный артефакт, и расследование предполагает, что он мог попасть на черный рынок.",
     ["If two clues are related, a new clue can be deduced."] = "Если две подсказки связаны, можно вывести новую подсказку.",
-    ["He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Sequence 0 \"Black Emperor\"."] = "He pushed for the Industrial Revolution, invented the steam engine, and improved many technologies. He overthrew the Intis Kingdom to establish a Republic, later reformed it into an Empire, self-proclaimed as \"Emperor Caesar,\" and finally switched pathways to advance to Последовательность 0 \"Black Emperor\".",
     ["Reach Level 52"] = "Достигните уровня 52.",
     ["Poetic Temperament"] = "Поэтический темперамент",
     ["The crack in the door on the ground seems to be passable... Perhaps the Shadow of Corruption can do it?"] = "Трещина в двери на земле кажется проходимой... Возможно, Тень Порчи сможет это сделать?",

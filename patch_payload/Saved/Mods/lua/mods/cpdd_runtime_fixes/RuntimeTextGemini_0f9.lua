@@ -44,9 +44,7 @@ return {
     ["……你一个人全都说完了啊！"] = "...Ты сам все сказал!",
     ["……我的一生都在被知识追逐，可我又哪里不是一生都在追逐知识呢？"] = "……Вся моя жизнь была потрачена на погоню за знаниями, но разве я не провел всю свою жизнь в погоне за знаниями?",
     ["《古弗萨克语词源考》"] = "«Этимологическое исследование Гофсаика»",
-    ["《背叛者指环》也不错，是贝克兰德王国大剧院原版阵容。"] = "The 'Traitor's Ring' is also quite good; it's the original cast from the Бэкланд Kingdom Theater.",
     ["一壶热水"] = "Кастрюля с горячей водой",
-    ["一张蕴含庞大灵性的卡牌，持有者可以此媒介沟通灵界，进行运气与命运的交换，从灵界中获取宝物。"] = "A card containing vast Духовность. The holder can use this medium to communicate with the Spirit World, exchange luck and fate, and obtain treasures from the Spirit World.",
     ["上次配制的午夜油膏还缺曼陀罗草，还没有人接我的委托。"] = "В полуночной мази, которую я приготовил в прошлый раз, все еще не хватает мандрагоры, и никто еще не взял мое поручение.",
     ["乞丐的命不值钱，老乞丐的命更不值得救，我只有这一个心愿了……"] = "Жизнь нищего многого не стоит, а жизнь старого нищего и того меньше стоит спасать. Это мое единственное желание, которое осталось...",
     ["传送到前台位置"] = "Телепортироваться на стойку регистрации.",
@@ -248,6 +246,8 @@ return {
     ["当前组队展台方案正在使用，请选择其他方案槽位保存。"] = "Текущая схема демонстрации команды сейчас используется, выберите другой слот для сохранения.",
     ["队伍中存在投影人物，无法申请"] = "В группе есть проекции персонажей, заявку подать нельзя",
     ["You... you can drive that thing out? Great! Let's go, follow me quickly!"] = "Ты... ты можешь изгнать эту тварь? Отлично! Идём, скорее следуй за мной!",
+    ["《背叛者指环》也不错，是贝克兰德王国大剧院原版阵容。"] = "The 'Traitor's Ring' is also quite good; it's the original cast from the Backlund Kingdom Theater.",
+    ["一张蕴含庞大灵性的卡牌，持有者可以此媒介沟通灵界，进行运气与命运的交换，从灵界中获取宝物。"] = "A card containing vast spirituality. The holder can use this medium to communicate with the Spirit World, exchange luck and fate, and obtain treasures from the Spirit World.",
     ["使用指定道具  玩家发送任务道具  玩家播放仅自己可见的说话文本"] = "Использовать указанный предмет, игрок отправляет квестовый предмет, игрок воспроизводит текст диалога, видимый только ему самому",
     ["Respected citizens, please note: \nOur company, in the name of scientific spirit and public health,\nsolemnly acquires all kinds of rodent villains\n—whether gray-whiskered bandits or black-tailed rebels!\n\n<Highlight>*Steam-Powered Rodent Neutralization Box*</>\nSwearing to transform every sewer tyrant into nourishment for the civilized progress of the Loen Kingdom!\n\nRewards are as follows:\n- Complete rat tail: 1/2 penny\n- Live specimen: 3 pence (includes a tin-plated Dignity Termination Chamber)\n\nPlagues and troubles, caught in one net!"] = "Вниманию почтенных горожан:\nНаша компания, во имя духа науки и общественной санитарии,\nсим торжественно скупает всякого рода грызунов-злодеев —\nбудь то седоусые разбойники или чернохвостые бунтовщики!\n\n<Highlight>*Паровая камера безвредной утилизации грызунов*</>\nКлянёмся превратить каждого сточного тирана в удобрение для прогресса цивилизации Королевства Лоэн!\n\nВознаграждение:\n- Целый крысиный хвост: полпенни\n- Живой образец: 3 пенса (прилагается лужёная жестяная капсула лишения достоинства)\n\nЧума и напасти будут искоренены разом!",
 }

@@ -90,7 +90,6 @@ return {
     ["Past Exhibition Hall"] = "Зал воспоминаний",
     ["How is your wife now?"] = "Как сейчас твоя жена?",
     ["But due to a member's negligence, the notebook entered the antique market and was obtained by Welch. Now they have to send people everywhere to track it down."] = "Но из-за халатности одного из членов блокнот попал на антикварный рынок и был приобретен Уэлчем. Теперь им приходится повсюду рассылать людей, чтобы выследить его.",
-    ["10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Cooldown. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times"] = "10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Перезарядка. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times",
     ["Red line-Counter-clockwise-University District"] = "Красная линия – Против часовой стрелки – Университетский округ",
     ["Brave in Narrow Straits: Start"] = "Отважный в узких проливах: Начало",
     ["Wait, look closely, everyone."] = "Подождите, посмотрите внимательно все.",
@@ -123,7 +122,6 @@ return {
     ["五海啊！你们的阴霾，终将归来！"] = "О, Пять Морей! Твоя дымка вернется!",
     ["交付异象之物"] = "Доставьте объект феномена",
     ["人流控制器"] = "Контроллер толпы",
-    ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "The core root stripped from the main body of a mist treant, possessing great Духовность.",
     ["以惊人的怒吼震慑敌人，随后召唤巨人分身猛击地面，造成范围伤害和减速效果。"] = "Устрашает врагов оглушительным Ревом, после чего призывает проекцию великана, сокрушающую землю, нанося урон по площади и замедляя цели.",
     ["伤害和破盾效果提升33%。"] = "Урон и эффекты пробития щитов увеличены на 33%.",
     ["但每在这种时候，我还是需要来教堂，向女神祷告。"] = "Но всякий раз, когда такое случается, мне все равно нужно прийти в собор, чтобы помолиться Богине.",
@@ -270,4 +268,5 @@ return {
     ["Deal <HighLight>160%</> attack damage to surrounding enemies and gain a shield equal to <HighLight>10%</> of your maximum health, lasting for <HighLight>4</> seconds."] = "Нанесите <HighLight>160%</> урона от атаки окружающим врагам и получите щит, равный <HighLight>10%</> вашего максимального здоровья, действующий <HighLight>4</> сек.",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 6 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 6 маны",
     ["He cares for every living being; even if you do not believe in 'The Fool', you can still enjoy everything the Tarot Club has to offer."] = "Он заботится о каждом живом существе; даже если вы не верите в «Шута», вы всё равно можете пользоваться всем, что предлагает Таро-клуб.",
+    ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "The core root stripped from the main body of a mist treant, possessing great spirituality.",
 }

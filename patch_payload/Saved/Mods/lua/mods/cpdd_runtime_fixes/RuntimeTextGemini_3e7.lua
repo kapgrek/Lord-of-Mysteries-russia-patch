@@ -101,7 +101,6 @@ return {
     ["Blood Emperor Flag 6"] = "Флаг Кровавого Императора 6",
     ["Band chairs"] = "Стулья для групп",
     ["Tino"] = "Тино",
-    ["They are colleagues from the Backlund Diocese, escorting the Sealed Artifact 2-049 here while supporting us in completing the mission."] = "They are colleagues from the Бэкланд Diocese, escorting the Запечатанный артефакт 2-049 here while supporting us in completing the mission.",
     ["This is your wandering kingdom."] = "Это ваше странствующее королевство.",
     ["King of Chefs Quest"] = "Квест «Король поваров»",
     ["Bicycle Ride"] = "Велосипедная прогулка",

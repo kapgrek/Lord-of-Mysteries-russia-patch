@@ -184,7 +184,6 @@ return {
     ["Praise the Fool! Praise the gifts of the Fool!"] = "Слава Шуту! Хвалите дары шута!",
     ["Use to obtain Settlement Animation: <Highlight> Monarch: Abyss </>"] = "Используйте для получения анимации поселения: <Highlight> Монарх: Бездна </>.",
     ["Treasure chest 1"] = "Сундук с сокровищами 1",
-    ["A cup of hot tea; someone was just here doing a divination."] = "A cup of hot tea; someone was just here doing a Гадание.",
     ["Gift · Winery effective, Chamber of Commerce ticket quantity {1}->{2}"] = "Подарок · Винодельня срабатывает, количество билетов Торгово-промышленной палаты {1}->{2}",
     ["Kitchen to T"] = "Кухня до Т",
     ["Player dance correct"] = "Игрок танцует правильно",

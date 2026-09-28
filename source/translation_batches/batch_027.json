@@ -882,12 +882,6 @@
     "target_ru": "Но это не важно, у каждого, кто сюда приходит, свои причины."
   },
   {
-    "id": "130147",
-    "source_cn": "丽埃娜留下的非凡特性，散发出晨曦般的柔光。",
-    "ref_en": "The Beyonder characteristic left behind by Liana, emitting a soft dawn-like light.",
-    "target_ru": "The Потусторонний characteristic left behind by Liana, emitting a soft dawn-like light."
-  },
-  {
     "id": "130148",
     "source_cn": "乔凤莹",
     "ref_en": "Qiao Fengying",
@@ -2344,18 +2338,6 @@
     "source_cn": "主宰争锋规则",
     "ref_en": "Dominator's Clash rules",
     "target_ru": "Правила Dominator's Clash"
-  },
-  {
-    "id": "130391",
-    "source_cn": "丽埃娜，我的职责不仅是查清案件，还有带回封印物，消除潜在的危险。",
-    "ref_en": "Liana, my duty is not only to solve the case but also to bring back the Sealed Artifact and eliminate potential dangers.",
-    "target_ru": "Liana, my duty is not only to solve the case but also to bring back the Запечатанный артефакт and eliminate potential dangers."
-  },
-  {
-    "id": "130392",
-    "source_cn": "乌托邦剧院近日出现异常波动。某位外层存在的力量渗透现实，腐化了剧院内部分秘偶的残余意识，这些被腐化的秘偶试图通过与克莱恩相关的记忆物品，建立一条通向愚者精神的隐秘通道。一旦成功，母神将有能力影响愚者的精神，波及整个南大陆。教会需要有人进入曾经的乌托邦小镇，清理失控的秘偶，调查残存的记忆，最终切断污染的来源。",
-    "ref_en": "Utopia Theater has recently experienced abnormal fluctuations. The power of an Outer Deity has permeated reality, corrupting the residual consciousness of some marionettes within the theater. These corrupted marionettes are attempting to establish a hidden channel to the Fool's spirit through memory items related to Klein. Once successful, the Mother Goddess will have the ability to influence the Fool's spirit, affecting the entire Southern Continent. The Church needs someone to enter the former town of Utopia, clear out the out-of-control marionettes, investigate the remaining memories, and ultimately cut off the source of the corruption.",
-    "target_ru": "Utopia Theater has recently experienced abnormal fluctuations. The power of an Outer Deity has permeated reality, corrupting the residual consciousness of some Марионеткаs within the theater. These corrupted Марионеткаs are attempting to establish a hidden channel to Шут's spirit through memory items related to Klein. Once successful, the Mother Goddess will have the ability to influence Шут's spirit, affecting the entire Southern Continent. The Church needs someone to enter the former town of Utopia, clear out the out-of-control Марионеткаs, investigate the remaining memories, and ultimately cut off the source of the Искажение."
   },
   {
     "id": "130393",
