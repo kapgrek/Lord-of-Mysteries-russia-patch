@@ -273,4 +273,5 @@ return {
     ["The fried eggs at this place are the best..."] = "Жареные яйца здесь самые лучшие...",
     ["Mr. “Fool” is a true God recognized by all churches, and the successful construction of the Tarot Club is also thanks to his help."] = "Господин «Шут» — истинный Бог, признанный всеми церквями, и успешное создание Таро-клуба тоже состоялось благодаря его помощи.",
     ["Provide support charge to allies, dispelling their soft crowd control and slow, and providing them with damage reduction and acceleration buffs. You gain a Dusk Mark (used to strengthen Angry Slam and finisher skills). Unlocks Royal Court Command after use."] = "Совершает рывок на помощь союзнику, снимает с него слабый контроль и замедление, а также даёт ему бонусы к снижению урона и ускорению; сам получает Метку Сумерек (используется для усиления Яростного удара и добивающего навыка). После использования разблокирует Приказ Королевского Двора.",
+    ["Mid-level Beyonder Material Pack"] = "Набор потусторонних материалов среднего уровня",
 }

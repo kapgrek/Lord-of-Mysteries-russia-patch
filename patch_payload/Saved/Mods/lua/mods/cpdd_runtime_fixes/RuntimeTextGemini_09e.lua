@@ -315,7 +315,7 @@ return {
     ["If the address for each interview is at a cafe we designate, then I don't need reimbursement."] = "Если место каждого интервью — в указанном нами кафе, то мне не нужно возмещение расходов.",
     ["Hmph, in my next life, may the Goddess bless me to be a merchant! I don't want to suffer like this again."] = "Хмф, в следующей жизни пусть Богиня благословит меня стать торговцем! Не хочу больше так мучиться.",
     ["Ms. “Magician”'s commission is complete, I should leave here too."] = "Поручение госпожи «Фокусник» выполнено, пора и мне уходить отсюда.",
-    ["自走棋 克莱恩-纸人监听"] = "Auto Chess Klein - Paper Figurine Listen",
+    ["自走棋 克莱恩-纸人监听"] = "Автошахматы: Клейн — Бумажная фигурка слушает",
     ["Club Activity +1500"] = "Клубная активность +1500",
     ["此为战场的叹息遗音，亦是命运的必然回响。"] = "Это вздыхающее эхо поля битвы, а также неизбежный резонанс судьбы.",
 }

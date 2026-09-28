@@ -252,5 +252,6 @@ return {
     ["End the speech phase early and proceed directly to the seat distribution phase?"] = "Завершить фазу выступлений досрочно и перейти сразу к фазе распределения мест?",
     ["Dixi pie? Pea stew with lamb? ...Or maybe braised Dagya beef short ribs?"] = "Пирог Дикси? Гороховое рагу с бараниной? ...А может, тушёные говяжьи рёбрышки Дагья?",
     ["Rozanne will have a good husband who can accompany her and satisfy all her requirements, the kind who can even drink coffee with pepper added!"] = "У Розанны будет хороший муж, который сможет быть рядом с ней и удовлетворять все её требования — такой, что сможет даже пить кофе с добавленным перцем!",
+    ["[Marionette Skill] Pufferfish Bullet LV5"] = "【Навык марионетки】Пуля фугу LV5",
     ["我患有间歇性失忆症，每天醒来都会忘记昨天的事。"] = "Страдаю периодической амнезией, каждый день просыпаясь, забываю, что произошло вчера.",
 }

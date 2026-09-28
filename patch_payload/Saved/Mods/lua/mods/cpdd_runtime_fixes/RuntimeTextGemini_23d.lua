@@ -268,6 +268,6 @@ return {
     ["I'd like to ask what this shop sells."] = "Хотел бы узнать, чем торгует этот магазин.",
     ["Don't make excuses. Tell Mr. Yate that I will grow the biggest and sweetest pumpkins this year, even sweeter than his grapes!"] = "Не оправдывайся. Передай мистеру Йейту, что в этом году я выращу самые большие и сладкие тыквы, слаще даже его винограда!",
     ["{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on."] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
-    ["秩序网特效待定2"] = "Order Web Effect TBD 2",
+    ["秩序网特效待定2"] = "Эффект Сети порядка (не определён) 2",
     ["收集%d/50个异象之物。"] = "Соберите %d/50 объектов феномена.",
 }

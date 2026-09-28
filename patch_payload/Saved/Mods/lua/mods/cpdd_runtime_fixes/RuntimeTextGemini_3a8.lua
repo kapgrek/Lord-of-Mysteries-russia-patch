@@ -264,5 +264,6 @@ return {
     ["塔罗会·阿尔杰：3人档增量，全体攻击+1.6%。"] = "Клуб Таро · Алгер: бонус уровня «3 игрока», вся команда +1.6% к атаке.",
     ["Bring to a boil... add 150 milliliters of whole milk... stir..."] = "Довести до кипения... добавить 150 миллилитров цельного молока... помешать...",
     ["Three years ago, I was accidentally affected by the power of a Sealed Artifact, which is why I became like this..."] = "Три года назад я случайно попал под воздействие силы одного Запечатанного Артефакта, из-за чего стал таким...",
+    ["[Marionette Skill] Fate Turbulence - Black"] = "【Техника марионетки】Турбулентность судьбы — Чёрная",
     ["But when all this really happened, what I felt was only... peace."] = "Но когда все это действительно произошло, я почувствовал только… покой.",
 }

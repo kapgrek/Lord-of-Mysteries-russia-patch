@@ -290,6 +290,7 @@ return {
     ["Tsk, the newspapers are already sold out."] = "Тс, газеты уже все распроданы.",
     ["Although the company is on holiday today, I wittily chose to promote our company's timber here."] = "Хотя сегодня у компании выходной, я мудро решил заняться продажей нашего леса именно здесь.",
     ["A must-visit delicacy in the Dock District, delicious seafood risotto with ginger beer!"] = "Обязательное лакомство в Портовом районе — вкусное ризотто с морепродуктами и имбирным пивом!",
+    ["Obtain 1 Beyonder material with <Wind-Blessed> trait"] = "Получите 1 материал Потустороннего с чертой <Ветровая благодать>",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

@@ -273,5 +273,6 @@ return {
     ["Mutated material is extremely rare. Beyonder material can carry at most 2 different mutation traits. Confirm aggregation!"] = "Мутировавшее вещество очень редкое, материал Иноземного может нести не более 2 разных мутационных свойств. Подтвердить объединение!",
     ["Didn't Mr. Morian come because he read that article too?"] = "Разве господин Мориан не пришёл тоже из-за той статьи?",
     ["These guys... do they think I'm a wishing machine?!"] = "Эти ребята... они думают, что я машина, исполняющая желания?!",
+    ["[Marionette Skill] Hidden Stab LV3"] = "【Навык марионетки】Скрытый удар LV3",
     ["就是，这次可一根手指头都没碰你。"] = "Точно, в этот раз я даже пальцем к тебе не прикоснулся.",
 }

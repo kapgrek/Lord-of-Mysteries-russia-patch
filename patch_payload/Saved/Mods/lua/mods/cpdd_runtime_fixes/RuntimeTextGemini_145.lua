@@ -316,5 +316,6 @@ return {
     ["塔罗会·伦纳德：基础席位，全体吸血+5%。"] = "Клуб Таро · Леонард: базовое место, вся команда +5% похищения жизни.",
     ["感谢您的关心 我没事 只是有点疲惫"] = "Благодарю за заботу. Со мной всё в порядке, просто немного устал.",
     ["In the Extraordinary world, chanting unknown honorific names is very likely to summon unknown dangers. Except for the honorific names of the True Gods and your Tarot Club companions, you must not chant any other honorific names."] = "В Сверхъестественном мире произнесение неизвестных почётных имён с большой вероятностью может призвать неведомую опасность. За исключением почётных имён Истинных Богов и твоих товарищей по Клубу Таро, тебе нельзя произносить никакие другие почётные имена.",
-    ["涂鸦空间-扑克魔术-已通关"] = "Graffiti Space - Poker Magic - Cleared",
+    ["涂鸦空间-扑克魔术-已通关"] = "Пространство граффити — Карточные фокусы — Пройдено",
+    ["[Marionette Skill] Hound Charge LV1"] = "[Навык марионетки] Рывок гончей LV1",
 }

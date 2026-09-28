@@ -252,7 +252,7 @@ return {
     ["<DecH> Craft: </> Dark Fabric - Crimson Ruffles - Silver Elder Robe \n The sober lead sheep, the shepherd of the Creator. Beneath the black robe lies the oath to protect the City of Silver, until the very end."] = "<DecH>Материал:</> Тёмная ткань · Тёмно-красные складки · Одеяние Серебряного старейшины\nБодрствующий вожак стада, пастырь Создателя. Под чёрным одеянием скрывается клятва защищать Серебряный город до самого конца.",
     ["What should I do? Should I blackmail the gentleman stunned on the carriage, sell the horse to the gang to escape, or ask the carriage rental company for an installment plan? What should I do about my little Beth..."] = "Что мне делать? Ограбить оглушённого господина в карете, продать лошадь банде, чтобы сбежать, или попросить у компании по прокату карет рассрочку? Что мне делать с моей малышкой Бет...",
     ["It was an instructor named Azik. We were very close. It's been so long since we last spoke; I wonder how he's doing."] = "Это был преподаватель по имени Азик. Мы были очень близки. Мы так давно не общались; интересно, как у него дела.",
-    ["工厂女鬼视野模板"] = "Factory Ghost Vision Template",
+    ["工厂女鬼视野模板"] = "Шаблон обзора призрака с фабрики",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）  延迟执行  对象播放指定对白内容"] = "Пользовательское событие задания: игрок создает публичные объекты по списку InstanceID (не действует в открытом мире); отложенное выполнение; объект проигрывает указанный диалог",
     ["Player removes quest items (delete all)  Player removes quest items (delete all)"] = "Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все)",
     ["Yahil"] = "Яхиль",

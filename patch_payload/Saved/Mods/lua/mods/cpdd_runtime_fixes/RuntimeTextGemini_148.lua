@@ -286,5 +286,5 @@ return {
     ["获得<PVPHighlight>%s</>点猎杀进度。"] = "Получено <PVPHighlight>%s</> очков прогресса охоты.",
     ["A letter and a book entrusted by Miss Magician, to be delivered to Mr. Moon as soon as possible."] = "Письмо и книгу, доверенные госпожой «Фокусник», нужно как можно скорее передать господину «Луна».",
     ["<P_Heart> (Maybe I can act as a clown and win him some tips...) </>"] = "<P_Heart>(Может, я смогу сыграть Клоуна и выиграть для него награду...)</>",
-    ["【自走棋】-梅高欧丝-普攻-哀恸震击"] = "[Auto-Chess] - Megose - Basic Attack - Mourning Shock",
+    ["【自走棋】-梅高欧丝-普攻-哀恸震击"] = "[Автошахматы] — Мегос — Обычная атака — Скорбный удар",
 }

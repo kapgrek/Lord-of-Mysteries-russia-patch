@@ -257,5 +257,6 @@ return {
     ["But during that Great Smog, in order to save more people, my father was ultimately taken by that terrible plague."] = "Но во время того великого смога, пытаясь спасти как можно больше людей, отец в итоге сам пал жертвой той ужасной чумы.",
     ["Requires %s Gold Pound. Current Gold Pound is insufficient. Proceed to top up?"] = "Требуется %s Золотых фунтов, текущих Золотых фунтов недостаточно. Перейти к пополнению?",
     ["As his friend, I really am a bit derelict in my duty. You see, I can't find him again now."] = "Как его друг, я и правда немного пренебрёг своим долгом. Видишь, теперь я не могу его найти.",
+    ["Mystery Pryer - Roguelike BD - Star Sand Assault"] = "Подглядывающий в тайны — Rogue BD — Звёздный песчаный штурм",
     ["你瞅瞅，这码头上的猫，全给我招来了，赶都赶不走！"] = "Посмотрите, всех кошек на пристани я сюда заманил, я не могу их прогнать!",
 }

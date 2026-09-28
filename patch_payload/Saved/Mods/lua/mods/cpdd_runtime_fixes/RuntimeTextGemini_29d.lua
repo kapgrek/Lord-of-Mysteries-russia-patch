@@ -251,5 +251,5 @@ return {
     ["烛光，红酒，两个人彼此靠得很近。"] = "Свечи, красное вино, двое, сидящие очень близко друг к другу.",
     ["但这是个没有鱼的水池。"] = "Но в этом пруду нет рыбы.",
     ["Don't you think it's depressing, going back and forth between two points every day with the crowd?"] = "Тебе не кажется удручающим каждый день мотаться туда-сюда между двумя точками вместе с толпой?",
-    ["这里是<P_Yellow>科诺桑小镇</>？"] = "Is this <P_Yellow>Conosan Small Town</>?",
+    ["这里是<P_Yellow>科诺桑小镇</>？"] = "Это <P_Yellow>городок Коносан</>?",
 }

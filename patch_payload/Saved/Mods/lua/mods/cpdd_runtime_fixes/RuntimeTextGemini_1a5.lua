@@ -265,7 +265,7 @@ return {
     ["Record 1 stack per skill cast; the 4th cast restores 8 Mana to the entire team."] = "Каждое применение умения добавляет 1 стак; 4-е применение восстанавливает всей команде 8 маны.",
     ["Eh... no, Lange, do you know them?"] = "Э-э... нет, Ланж, ты их знаешь?",
     ["I admit... it was my hand that murdered the Master."] = "Я признаю... это моя рука убила Мастера.",
-    ["GTA-机械造物-回复霸体"] = "GTA - Mechanical Creation - Restore Super Armor",
+    ["GTA-机械造物-回复霸体"] = "GTA — Механическое творение — Восстановление суперброни",
     ["提交道具（设置提交参数）"] = "Сдать предмет (настроить параметры сдачи)",
     ["<Chat_AT>三九：</>在在在在在在在在在在在在在在在<Chat_PosNeed>廷根</>对<Chat_NPC>黛丽</><Chat_PlayerName>丽霍尔小姐</><Chat_Default>：位文本</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">申请入团</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

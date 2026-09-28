@@ -264,7 +264,8 @@ return {
     ["<M_Default> Dear Beyonder: </>\n Congratulations on your faction winning first place in this strategic server. As the %s of the club, you led your members to overcome obstacles and win the crown! Thank you for your dedication to the club and the faction. We have specially prepared the following gifts for you!"] = "<M_Default>Дорогой Потусторонний:</>\nПоздравляем, ваша фракция заняла первое место среди фракций на стратегическом сервере в этот раз. Будучи %s клуба, вы вели членов клуба через все преграды и завоевали корону! Благодарим вас за вклад в клуб и фракцию, специально для вас подготовлены следующие подарки!",
     ["蒸汽轮船、铁轨铺设、城市基建……现在处处都要用到钢铁！"] = "Паровые суда, прокладка железных дорог, городская инфраструктура... сталь сейчас нужна повсюду!",
     ["Fool! It's the uncle of the friend of Milf, your neighbor who lived next door last year!"] = "Дурак! Это дядя друга Милфа, вашего соседа, который жил рядом в прошлом году!",
-    ["【秘偶技】骑士守护LV2-范围变大"] = "[Marionette Skill] Knight Guard LV2 - Range Increase",
+    ["【秘偶技】骑士守护LV2-范围变大"] = "[Навык марионетки] Защита рыцаря LV2 — Увеличенная область",
+    ["Light Chaser Wave Song"] = "Песнь волн за светом",
     ["Josie"] = "Джози",
     ["一家俱乐部亮灯，打开门欢迎贵族入场。\n侍者：希望这场雨没有给您带来不便。\n贵族：当然，我淋不到一滴雨。"] = "Клуб загорается и открывает свои двери, чтобы приветствовать дворян. \nОфициант: Надеюсь, дождь не причинил вам неудобств. \nБлагородный: Конечно, мне не дождётся ни капли дождя.",
 }

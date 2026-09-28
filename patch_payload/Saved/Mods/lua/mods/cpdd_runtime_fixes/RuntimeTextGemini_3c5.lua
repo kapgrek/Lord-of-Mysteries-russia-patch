@@ -266,7 +266,7 @@ return {
     ["You know, I still care about my reputation and don't want people to think I'm truly uncompassionate toward the lower classes, right?"] = "Знаете, я всё же забочусь о своей репутации и не хочу, чтобы люди думали, будто мне совсем нет дела до простолюдинов, верно?",
     ["Note, this is not a perfunctory remark about the weather in a social setting—"] = "Заметьте, это не дежурная фраза о погоде в светской беседе—",
     ["As for that... she only likes good children, like those who eat their carrots properly!"] = "Что до этого... она любит только послушных детей, например, тех, кто хорошо ест морковку!",
-    ["乌黯魔狼上天-隐藏模型"] = "Dark Demonic Wolf Ascend-Hidden Model",
+    ["乌黯魔狼上天-隐藏模型"] = "Мрачный демонический волк взлетает — скрытая модель",
     ["<InvHighlight> </> Dream Catcher Net <Mark id=\"#159\">—a fishing net that has become spiritualized through contact with Beyonder material, is an effective way to </> hunt Dream Catchers. \n ... \n The first discoverer was a sailor who woke up from a nightmare to find that his fishing net had caught the <Hide stylename=\"Transparent\" id=\"#161\"> heart </> of a Dream Catcher..."] = "　　<InvHighlight>Ловушка снов</> — рыболовная сеть, пропитанная духовностью от контакта с Потусторонними материалами; действенный способ <Mark id=\"#159\">охоты на ловцов сновидений</>.\n　　……\n　　Первым ее открыл моряк: очнувшись от кошмара, он обнаружил, что сеть поймала <Hide stylename=\"Transparent\" id=\"#161\">сердце</> ловца сновидений...",
     ["我将为您奉上独特的变奏，您永远不知道下一个音符是什么。"] = "Я предложу вам уникальную вариацию; вы никогда не узнаете, какой будет следующая нота.",
 }

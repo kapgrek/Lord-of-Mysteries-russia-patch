@@ -261,5 +261,5 @@ return {
     ["你有什么想了解的吗？"] = "Хотите что-нибудь узнать?",
     ["Whenever a ship sets sail, there are always people who come to the cathedral to offer a prayer, hoping for a safe voyage and encouraging themselves to have the determination to face the raging seas."] = "Перед каждым отплытием корабля кто-то обязательно приходит в собор молиться, надеясь на безопасное плавание и укрепляя в себе решимость встретить бурные волны.",
     ["Although music is the dance of the soul, it is not a necessity for life."] = "Музыка — танец души, но не необходимость для жизни.",
-    ["【秘偶技】骑士守护LV1"] = "[Marionette Skill] Knight Guard LV1",
+    ["【秘偶技】骑士守护LV1"] = "【Техника марионетки】Защита рыцаря, ур. 1",
 }

@@ -283,4 +283,5 @@ return {
     ["A person so stupid they can barely walk, yet fortunate enough to be born into a wealthy family that doesn't have to worry about making a living."] = "Человек, настолько глупый, что и шагу ступить не может, но которому посчастливилось родиться в богатой семье, где не нужно беспокоиться о хлебе насущном.",
     ["Boil... add 150 milliliters of pure milk... stir..."] = "Вскипятить... добавить 150 миллилитров чистого молока... помешать...",
     ["他果然是非凡者……而且那条<P_Yellow>领带</>还是神奇物品。"] = "Он и правда Потусторонний... а тот <P_Yellow>галстук</> ещё и чудесный предмет.",
+    ["South District Avenue Fountain Square Bicycle (Yellow)"] = "Южный район, проспект, площадь с фонтаном, велосипед (жёлтый)",
 }

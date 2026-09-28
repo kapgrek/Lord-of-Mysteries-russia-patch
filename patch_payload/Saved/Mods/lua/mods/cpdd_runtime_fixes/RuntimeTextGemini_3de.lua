@@ -263,7 +263,7 @@ return {
     ["Recently, the City Hall has also begun to attach importance to the protection of ancient trees. We are currently organizing their species, age, and growth conditions, hoping to include them in the protection list."] = "В последнее время мэрия также начала уделять внимание охране древних деревьев. Мы составляем сведения об их видах, возрасте и состоянии, надеясь включить их в охранный список.",
     ["你都卖什么？"] = "Что ты продаёшь?",
     ["齿轮发射器生成之后第一时间<Disable>转火清理</>。"] = "Как только появится Пусковая установка шестерён, немедленно <Disable>переключите огонь, чтобы уничтожить её</>.",
-    ["序章流程版-斧头"] = "Prologue Flow Version-Axe",
+    ["序章流程版-斧头"] = "Версия пролога — Топор",
     ["In the name of the Goddess, spreading the light of compassion\n\n<Letter_Highlight>Food Supply</>\nBlack bread and pea soup\n\n<Letter_Highlight>Night Shelter</>\nHammocks or floor mats provided\n\n<Letter_Highlight>Job Opportunities</>\nSimple and easy manual labor\n\nBeds are limited, queuing is required, maximum stay of five days"] = "Именем Богини, озаряющей светом милосердия\n\n<Letter_Highlight>Раздача пищи</>\nЧерный хлеб и гороховый суп\n\n<Letter_Highlight>Ночной приют</>\nПредоставляются гамаки или матрасы на полу\n\n<Letter_Highlight>Возможности для работы</>\nПростой ручной труд\n\nКоличество мест ограничено, в порядке живой очереди, проживание не более пяти дней",
     ["如果所有计划都实现了，那才叫意外。"] = "Вот если бы все планы сбывались — это действительно стало бы неожиданностью.",
     ["Maritess"] = "Маритесс",

@@ -274,5 +274,6 @@ return {
     ["But Mom is sick now, and I have to..."] = "Но мама сейчас болеет, и мне нужно...",
     ["Professor Cohen is very rigorous academically, and I am very happy to chat with him about my ideas."] = "Профессор Коэн очень строг в научных вопросах, и мне очень приятно обсуждать с ним свои идеи.",
     ["I don't know if you have heard of the serial killer who shocked the entire city of Tingen twenty-one years ago."] = "Не знаю, слышал(а) ли ты о серийном убийце, который двадцать один год назад потряс весь город Тинген.",
+    ["[Marionette Skill] Knight Guard LV2 - Range Increase"] = "[Навык марионетки] Защита рыцаря LV2 — Увеличенная область",
     ["击败指定InstanceID的怪物  NPC设置阵营  玩家播放情绪音乐（仅自己可听）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Победить монстра с указанным InstanceID; NPC устанавливает фракцию; плеер играет эмоциональную музыку (слышно только ему самому); NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

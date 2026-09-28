@@ -282,6 +282,6 @@ return {
     ["Dice are dice, and luck is luck. As for why I win every time... it's purely a coincidence."] = "Кости — это кости, удача — это удача. А почему я выигрываю каждый раз... чистое совпадение.",
     ["别想那件事了，现在有比骑马更有趣的事情了，下次我们去飙车吧，就开你那辆敞篷车。"] = "Забудь об этом. Сейчас есть кое-что интереснее верховой езды — в следующий раз давай погоняем, на твоём кабриолете.",
     ["It was that war which occurred after the Twenty Years' War and before the War of the Oathbreakers. It allowed Loen to defeat Intis and become powerful once again!"] = "Это была та война, что произошла после Двадцатилетней войны и до Войны клятвопреступников. Она позволила Лоэну победить Интис и снова стать могущественным!",
-    ["<h>操作角色移动</>，绘制灵性之墙"] = "<h>Move your character</> to draw a wall of spirituality",
+    ["<h>操作角色移动</>，绘制灵性之墙"] = "<h>Управляйте движением персонажа</>, чтобы нарисовать Духовную стену",
     ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

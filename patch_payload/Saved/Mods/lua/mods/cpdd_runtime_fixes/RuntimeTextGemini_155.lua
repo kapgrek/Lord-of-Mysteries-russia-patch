@@ -308,7 +308,9 @@ return {
     ["Leonard is recovering anomalies scattered throughout the area. You can exchange collected Objects of Phenomenon for rewards."] = "Леонард собирает разбросанные повсюду феномены. Собранные Предметы феноменов можно обменять на награды.",
     ["之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试偷走他奋斗的想法。"] = "Ранее ремесленник Клуба Таро создал чудесный предмет «Ловкие пальцы», способный похищать мысли из чужого разума. Можно попробовать похитить его стремление бороться.",
     ["He should be using an ancient ritual to absorb the power of the notebook, just like how we directly consume high-sequence potions. This is full of danger and requires time; he needs to stay in a safe place."] = "Он, должно быть, поглощает силу дневника с помощью древнего ритуала — так же, как мы напрямую принимаем Зелье высокой Последовательности. Это очень опасно и требует времени, поэтому ему нужно оставаться в безопасном месте.",
-    ["黄铜书挑战商店"] = "Brass Book Challenge Shop",
+    ["黄铜书挑战商店"] = "Магазин испытаний Медной книги",
+    ["Warrior - Twilight Combo Slash Roguelike"] = "Воин — Сумеречная серия ударов (Rogue)",
+    ["[Potion Tea Party] Pathfinding Divination 1"] = "【Чаепитие Зелий】Гадание на поиск пути 1",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

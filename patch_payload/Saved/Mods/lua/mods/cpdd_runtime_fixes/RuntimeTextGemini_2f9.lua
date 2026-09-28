@@ -272,6 +272,7 @@ return {
     ["In addition to ordinary believers, many fishermen and sailors also come here to pray."] = "Сюда приходят молиться не только обычные верующие, но и многие рыбаки и моряки.",
     ["我，我也要被骂吗？"] = "Я, меня тоже будут ругать?",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, "] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag, ",
+    ["Mystery Pryer - Roguelike BD - Rift of Truth"] = "Взыскатель Тайн: рогалик-билд: Разлом Истины",
     ["打开证词记录，查看调查中获得的所有陈述。"] = "Открыть протокол показаний и просмотреть все свидетельства, собранные в ходе расследования.",
     ["击败指定InstanceID的怪物  NPC设置阵营"] = "Победить монстра с указанным InstanceID; NPC устанавливает фракцию.",
     ["Plunder Points:"] = "Точки грабежа:",

@@ -242,4 +242,5 @@ return {
     ["Very... very impressive."] = "Очень… очень впечатляюще.",
     ["Give him a good beating for me!"] = "Всыпь ему как следует за меня!",
     ["Should I discuss tomorrow's elective course with Jannie?"] = "Обсудить завтрашний факультатив с Дженни?",
+    ["Book of June  —  Lv 62 | Spectator | 4 m | Inspect"] = "Книга Июня  —  Ур. 62 | Зритель | 4 м | Осмотреть",
 }

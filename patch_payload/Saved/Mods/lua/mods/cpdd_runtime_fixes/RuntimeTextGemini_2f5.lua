@@ -276,7 +276,7 @@ return {
     ["Hehe, you know, I know, and the Lord of Storms knows."] = "Хе-хе, ты знаешь, я знаю, и Повелитель Бурь знает.",
     ["I think your Oblivion is cyclical, perhaps every few decades, you die once, clearing out your previous memories."] = "Я думаю, ваше Забвение циклично: возможно, раз в несколько десятилетий вы умираете, и это стирает ваши прежние воспоминания.",
     ["He said the train in Backlund is very long, and you can go all the way to the Snowy Mountain."] = "Он сказал, что поезд в Бэкланде очень длинный, и на нём можно доехать до самой Снежной горы.",
-    ["【秘偶技】命运湍流-白"] = "[Marionette Skill] Fate Turbulence - White",
+    ["【秘偶技】命运湍流-白"] = "【Навык марионетки】Турбулентность судьбы — Белая",
     ["与Npc进行对话  玩家播放情绪音乐（仅自己可听）"] = "Поговорить с NPC  Для игрока воспроизводится эмоциональная музыка (слышна только ему)",
     ["Zuli"] = "Зули",
     ["收获%d/2500个优质物产。"] = "Собирайте высококачественную продукцию %d/2500.",

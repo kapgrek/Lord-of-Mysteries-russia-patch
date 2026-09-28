@@ -259,7 +259,7 @@ return {
     ["Character level can continue to increase after reaching level %s."] = "После достижения %s уровня персонажа повышение уровня можно продолжить",
     ["Drag the Mark button onto the object you want to mark."] = "Перетащите кнопку метки на объект, который хотите отметить.",
     ["【LV1】【秘偶技】寻踪魔弹-代理主技能"] = "【LV1】【Навык марионетки】Отслеживающая магическая пуля — основной навык агента",
-    ["【秘偶技】星之虫-烈阳颂歌"] = "[Marionette Skill] Worm of Star - Solar Anthem",
+    ["【秘偶技】星之虫-烈阳颂歌"] = "【Навык марионетки】Звёздный червь — Гимн яркого солнца",
     ["Brill"] = "Брилл",
     ["Post-processing type configuration not found"] = "Конфигурация типа постобработки не найдена",
 }

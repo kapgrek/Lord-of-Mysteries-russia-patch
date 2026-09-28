@@ -255,5 +255,5 @@ return {
     ["Amidst the morning mist, spirits have left their traces."] = "Среди утреннего тумана духи оставили свои следы.",
     ["The crystal ball reflects the threads of fate, and revelations emerge silently in the candlelight."] = "Хрустальный шар отражает нити судьбы, откровения безмолвно проступают в свете свечей.",
     ["This job. I can't. Keep doing it. Really."] = "Эта работа. Я не могу. Продолжать её. Правда.",
-    ["【秘偶技】狒狒祝福-召唤LV4"] = "[Marionette Skill] Baboon Blessing - Summon LV4",
+    ["【秘偶技】狒狒祝福-召唤LV4"] = "【Навык марионетки】Благословение бабуина — Призыв LV4",
 }

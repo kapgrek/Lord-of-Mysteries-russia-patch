@@ -281,6 +281,7 @@ return {
     ["A similar effect already exists in the current scene. You may try another channel, another scene, or try again in %s seconds."] = "В текущей сцене уже действует похожий эффект. Перейдите в другой подканал, другую сцену или повторите попытку через %s сек.",
     ["Poison ivy entwines with silence, hiding a deadly elegance within the deep dark green."] = "Ядовитый плющ сплетается с тишиной, скрывая смертоносное изящество в глубокой тёмной зелени.",
     ["Restore 10 Mana per Basic Attack. At 1 and 2 stars, restore 30 Mana after defeating the target currently selected by the skill."] = "Каждая обычная атака восстанавливает 10 маны. На 1 и 2 звёздах при уничтожении цели, выбранной этим навыком, восстанавливается 30 маны.",
+    ["[Auto-Chess] Dunn - Spirituality Resonance"] = "[Автошахматы] Дунн: Резонанс Духовности",
     ["Monlisa"] = "Монлиза",
     ["播放Dialogue  玩家变身开始"] = "Играть в диалог; начинается трансформация игрока.",
 }

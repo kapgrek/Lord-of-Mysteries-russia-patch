@@ -266,5 +266,5 @@ return {
     ["Biological Toxin Vial"] = "Флакон биологического яда",
     ["Tree of Abundance - Normal - Misfortune Water Giant Turtle Refuse Fashion Duel"] = "Древо изобилия - Обычный - Отказ от поединка стиля «Гигантская черепаха проклятых вод»",
     ["俱乐部宣言包含不当词汇，请修正"] = "Декларация клуба содержит неприемлемые слова, исправьте её",
-    ["【秘偶技】狒狒祝福-召唤LV5"] = "[Marionette Skill] Baboon Blessing - Summon LV5",
+    ["【秘偶技】狒狒祝福-召唤LV5"] = "【Навык марионетки】Благословение бабуина — Призыв LV5",
 }

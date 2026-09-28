@@ -265,7 +265,7 @@ return {
     ["每5秒回复4%最大生命。"] = "Каждые 5 сек. восстанавливает 4% максимального здоровья.",
     ["这……听起来需要住院治疗了。"] = "Это... звучит так, будто нужна госпитализация.",
     ["Player Deflect Tag"] = "Тег отражения игрока",
-    ["“魔术师”女士，对您来说，“愚者”先生是个什么样的存在？"] = "Ms. “Magician”, to you, what kind of existence is Mr. “Fool”?",
+    ["“魔术师”女士，对您来说，“愚者”先生是个什么样的存在？"] = "Госпожа «Фокусник», кем для вас является господин «Шут»?",
     ["　　To provide everyone with a more decent shopping environment, this shop will\n　　suspend business for six weeks starting today for a full renovation.\n\n　✦  Added counters made of imported logs\n　✦  Installed chandeliers throughout the shop\n　✦  Expanded the second-floor VIP lounge\n\n　　The reopening date has not yet been determined, for details please pay attention to the \"Backlund Post\"\n　　Present the newspaper on the day to enjoy a 90% Discount"] = "　Чтобы обеспечить вам более достойные условия для покупок, наш магазин \n　будет приостановлен на шесть недель, и весь магазин будет отремонтирован. \n\n　✦ Добавлен прилавок из импортного бревна\n　✦ Заменены люстры во всем магазине\n　✦ Расширен VIP-зал на втором этаже\n\n　Дата открытия пока не определена, подробности смотрите в «Backlund Post»",
     ["西迦可能在休息区写作。我要去煮咖啡，可以顺便问问。"] = "Сига, возможно, пишет в гостиной. Я собираюсь сварить кофе, могу спросить ее, пока я этим занимаюсь.",
     ["等待时间  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本  延迟执行"] = "Время ожидания Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение",

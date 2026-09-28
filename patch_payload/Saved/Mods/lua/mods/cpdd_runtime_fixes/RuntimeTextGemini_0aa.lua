@@ -256,5 +256,6 @@ return {
     ["People selling tobacco isn't called smuggling, it's called trade."] = "Продажа табака — это не контрабанда, это торговля.",
     ["That guy Helisan, he gets excited as soon as he hears about a bet, what an idiot!"] = "Этот Хелисан, как только услышит о ставке, сразу приходит в возбуждение, вот же идиот!",
     ["You're the idiot! Mother never lied to me; my wish will come true."] = "Сам ты идиот! Мама никогда мне не лгала; моё желание точно сбудется.",
+    ["[Marionette Skill] Worm of Star - Spinning Slash"] = "【Навык марионетки】Звёздный червь — Вращающийся удар",
     ["Skyla"] = "Скайла",
 }

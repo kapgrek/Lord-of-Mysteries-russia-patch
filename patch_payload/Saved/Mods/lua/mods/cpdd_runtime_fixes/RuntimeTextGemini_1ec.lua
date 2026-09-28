@@ -291,6 +291,6 @@ return {
     ["已添加的<Highlight>动作、运镜、音乐、表情</>可以进行<Highlight>替换</>，点击<Highlight>播放</>按钮可以<Highlight>预览</>效果。\n点击<Highlight>开始表演</>，将开始进行表演。"] = "Добавленные <Highlight>действия, движения камеры, музыку и эмоции</> можно <Highlight>заменить</>. Нажмите кнопку <Highlight>Воспроизвести</>, чтобы <Highlight>просмотреть</> эффект.\nНажмите <Highlight>Начать выступление</>, чтобы начать выступление.",
     ["Prices have risen again recently, so my rent can go up too."] = "Цены недавно снова выросли, так что и моя арендная плата может подняться.",
     ["My Goddess, your readers are about to wear out the threshold of the publishing house..."] = "Моя Богиня, ваши читатели уже почти протёрли порог издательства насквозь...",
-    ["苹果骑士冲锋表现"] = "Apple Knight Charge Performance",
+    ["苹果骑士冲锋表现"] = "Эффект атаки Яблочного рыцаря",
     ["采集指定TemplateID的采集物  对象转向坐标"] = "Собрать элемент с указанным TemplateID, объект превращается в координаты",
 }

@@ -267,6 +267,7 @@ return {
     ["University life was indeed wonderful, but it wasn't until after graduation that I realized the other side of Backlund—a ruthless big city."] = "Университетская жизнь была и правда прекрасна, но только после выпуска я узнала другую сторону Бэкланда — беспощадного большого города.",
     ["Edit failed: Summons cannot wear equipment."] = "Ошибка редактирования: призванные существа не могут носить снаряжение",
     ["How many credits are 20 hours?"] = "Сколько кредитов за 20 часов?",
+    ["5231136 Backlund Single-Player Instance"] = "5231136   Бэкланд   Одиночный план",
     ["Hahaha \r\n Hahahaha... \r\n Hahahahahaha... \r\n Hahahahahahaha...!"] = "Хи-хи-ха-ха\r\nХа-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха-ха-ха!..",
     ["收获%d/1000个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/1000.",
     ["Use specified item  Player plays speech text visible only to self  Delayed execution"] = "Использовать указанный элемент. Игрок воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",

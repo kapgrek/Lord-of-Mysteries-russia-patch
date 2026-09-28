@@ -277,5 +277,6 @@ return {
     ["Slide? God, I'm not going!"] = "Горка? Боже, я туда не пойду!",
     ["Inspiration indicates a safe tracking range for you. Proceed with caution. (The current perspective is subject to special gameplay restrictions and cannot be zoomed)"] = "Вдохновение указывает вам безопасный радиус слежения, продвигайтесь осторожно. (Текущий ракурс камеры ограничен особенностями режима и не может быть приближен)",
     ["Uh, anyway, it was a long time ago. He took an oil painting from the castle, which is said to be a portrait of the first Baron Lamud."] = "Э-э, в общем, это было давно. Он забрал из замка картину маслом — говорят, это портрет первого барона Лямуда.",
+    ["【Marionette Skill】 - Exile - Aura"] = "[Навык марионетки] — Изгнание — Аура",
     ["<P_Heart>（看来队长认识她……对了……）</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
 }

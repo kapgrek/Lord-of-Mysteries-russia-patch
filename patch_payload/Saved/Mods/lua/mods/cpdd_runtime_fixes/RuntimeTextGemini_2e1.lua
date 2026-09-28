@@ -256,7 +256,7 @@ return {
     ["可怜的姐姐，希望她能在女神的国度得到安息。"] = "Бедная сестра, надеюсь, она обретёт покой в царстве Богини.",
     ["The current room does not meet the requirements to start the battle. Please wait for more players to join before starting."] = "Количество игроков в комнате не соответствует требованиям для начала боя. Дождитесь присоединения большего числа игроков, затем начните бой.",
     ["Yes, yes, yes! It's the dog-catching-rat competition. Let me tell you, it was so exciting!"] = "Да, да, да! Это соревнование по ловле крыс собаками. Скажу тебе, это было так увлекательно!",
-    ["死鹿-QTE前"] = "Dead Deer-Before QTE",
+    ["死鹿-QTE前"] = "Мёртвый олень — до QTE",
     ["Westley"] = "Уэстли",
     ["id:000000 This test is a confidential test and does not represent the final quality of the game. Please do not stream, take screenshots, or record the screen."] = "id:000000 Данный тест является закрытым и не отражает финального качества игры. Пожалуйста, не ведите прямых трансляций, не делайте скриншотов и не записывайте видео.",
 }

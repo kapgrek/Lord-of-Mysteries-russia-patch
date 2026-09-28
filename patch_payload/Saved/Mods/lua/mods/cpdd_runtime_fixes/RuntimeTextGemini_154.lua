@@ -263,6 +263,6 @@ return {
     ["Father, I miss you so much."] = "Папа, я так по тебе скучаю.",
     ["It's been seven years, and I still can't forget the time Manager Hall pointed out my bookkeeping error."] = "Прошло уже семь лет, а я всё не могу забыть, как управляющий Холл указал мне на ошибку в бухгалтерских записях.",
     ["I don't know where the rumor came from, saying that if you stand with your back to the Fountain of Purification, hold a coin in your right hand, and toss it into the water over your left shoulder, you can make your wish come true."] = "Не знаю, откуда пошёл слух, что если встать спиной к Фонтану Очищения, взять монету в правую руку и бросить её в воду через левое плечо, желание сбудется.",
-    ["序章流程版-砍石棺"] = "Prologue Flow Version-Chop Stone Coffin",
+    ["序章流程版-砍石棺"] = "Пролог, сценарная версия — Рубка саркофага",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,",
 }

@@ -281,6 +281,7 @@ return {
     ["Of course, it's a festival in the small town to celebrate the harvest and give thanks to the Earth. Look at the golden pumpkins all over my doorstep; what sweet fruits, what great power of Harvest!"] = "Конечно, это городской праздник в честь урожая и благодарения Земли. Посмотри на золотые тыквы у моего порога — какие сладкие плоды, какая великая сила Урожая!",
     ["【秘偶技】子爵夫人幽灵-死亡随机选目标-第一次"] = "[Умение марионетки] Призрак Виконтессы - Случайный выбор цели при смерти - Первый раз",
     ["Actively casting Spear of Longinus once will reduce the Cooldown of Gambit of the Ages by 3 seconds."] = "После активного применения «Копья Лонгина» Откат Навыка «Гамбит Веков» уменьшается на 3 сек.",
+    ["Use <h>Wake-up Flower Dew</>"] = "Используйте <h>Пробуждающую цветочную росу</>",
     ["Ethel"] = "Этель",
     ["Melina"] = "Мелина",
     ["前往指定Trigger位置  玩家播放仅自己可见的说话文本"] = "Перейдите в назначенное место триггера. Игрок воспроизводит текст диалога, видимый только ему самому.",

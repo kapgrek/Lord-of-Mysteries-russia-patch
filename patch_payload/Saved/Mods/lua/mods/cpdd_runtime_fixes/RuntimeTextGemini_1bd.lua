@@ -246,6 +246,7 @@ return {
     ["My sister will be back to cook after she finishes selling flowers! Would you like some sweet iced tea first?"] = "Моя сестра вернётся готовить, как только закончит продавать цветы! Хотите пока сладкого холодного чая?",
     ["That's too philosophical, man! A toast to death!"] = "Слишком философично, приятель! Тост за смерть!",
     ["{{player.name}}在非凡聚合中，凝聚出携有<Chat_Highlight>{{relic_word.name}}</>词条的{{item.name}}，得到了执掌好运的黄黑之王的眷顾！"] = "{{player.name}} в ходе Потустороннего слияния сгенерировал(а) {{item.name}} с меткой <Chat_Highlight>{{relic_word.name}}</>, получив благословение Жёлто-чёрного короля, повелевающего удачей!",
+    ["[CS for introducing pathways and Sequences]"] = "[CS: введение в Пути и Последовательности]",
     ["Sonny"] = "Сонни",
     ["而现在，我只想征服你的心。"] = "И сейчас, я просто хочу покорить твое сердце.",
 }

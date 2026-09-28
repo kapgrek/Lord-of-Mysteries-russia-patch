@@ -260,7 +260,7 @@ return {
     ["Hmm... please don't mess with the documents on the desk. Just sweep the floor and clear away the clutter."] = "Хм... пожалуйста, не трогайте документы на столе. Просто подметите пол и уберите мусор.",
     ["Sir, please look at this food, I think it will sell like hotcakes!"] = "Сударь, взгляните на эту еду, думаю, она будет расходиться нарасхват!",
     ["【Seer】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus."] = "【Провидец】(4) Чем больше дистанция, тем выше урон, максимум +30% бонусного урона от силы атаки в зависимости от дистанции.",
-    ["5231136   贝克兰德   单人位面"] = "5231136 Backlund Single-Player Instance",
+    ["5231136   贝克兰德   单人位面"] = "5231136   Бэкланд   Одиночный план",
     ["Valeria"] = "Валерия",
     ["Aspen"] = "Аспен",
 }

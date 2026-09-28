@@ -249,7 +249,7 @@ return {
     ["最大生命+2000、攻击+1000"] = "Макс. здоровье +2000, атака +1000",
     ["My Lord resides above reality and the Spirit World, His benevolence spreads across the heavens and the earth, and there are six angels standing by His side..."] = "Мой Лорд пребывает над реальностью и Духовным миром, Его милость простирается на небеса и землю, и шесть ангелов стоят по Его сторонам...",
     ["Mr. Fool is a true God recognized by all churches, and the successful establishment of the Tarot Club was also thanks to his help."] = "Господин Шут — истинный Бог, признанный всеми церквями, и успешное основание Таро-клуба также состоялось благодаря его помощи.",
-    ["当然！{{PlayerName}}，快去把这件事告诉佐伊。"] = "Of course! {{PlayerName}}, go tell Zoe about this immediately.",
+    ["当然！{{PlayerName}}，快去把这件事告诉佐伊。"] = "Конечно! {{PlayerName}}, скорее расскажи об этом Зои.",
     ["...So that's how it is. Steam Palace, you should be sleeping in history just like me, but why have you suddenly reappeared in the world? Who... wants to use my power, my aura..."] = "...Так вот как оно есть. Steam Palace, ты, как и я, должен был бы спать в истории, но почему ты вдруг снова появился в мире? Кто... хочет использовать мою силу, мою ауру...",
     ["Complete all sub-goals of current step  Player plays speech text visible only to self"] = "Выполните все подцели текущего шага. Игрок воспроизводит речевой текст, видимый только ему самому.",
     ["这……不太好说出口。"] = "Это... нелегко сказать вслух.",

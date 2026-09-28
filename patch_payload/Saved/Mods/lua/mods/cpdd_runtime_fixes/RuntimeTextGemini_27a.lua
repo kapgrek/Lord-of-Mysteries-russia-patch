@@ -257,5 +257,6 @@ return {
     ["5名邻格友军提供30防御。"] = "5 союзников в соседних клетках дают 30 защиты.",
     ["Two tickets really cost a lot of money... I don't know how many more letters I have to deliver to save up for the next 4 soli and 8 pennies..."] = "Два билета обошлись совсем не дёшево… Даже не знаю, сколько ещё писем нужно доставить, чтобы накопить следующие 4 соля и 8 пенсов…",
     ["The bosses aren't here... I'll sleep a while longer..."] = "Начальства нет... посплю ещё немного...",
+    ["[LV5] [Marionette Skill] Tracking Magic Bullet - Summon"] = "[Ур. 5] [Навык марионетки] Ищущая магическая пуля: Призыв",
     ["Selsa"] = "Сельса",
 }

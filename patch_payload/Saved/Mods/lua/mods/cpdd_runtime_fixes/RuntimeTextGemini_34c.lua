@@ -261,7 +261,7 @@ return {
     ["亲爱的，你真的不愿意陪我去坐滑梯吗？我们好不容易来一趟，我可期待了好久呢！"] = "Дорогой, ты правда не хочешь пойти со мной на горку? Мы наконец сюда добрались, а я так долго этого ждала!",
     ["Who in the entire Dock District doesn't know that my seafood is high quality and inexpensive? Hayden is purely slandering me!"] = "Кто во всём Портовом районе не знает, что мои морепродукты качественные и недорогие? Хайден просто клевещет на меня!",
     ["Come and take a look, all the bread was baked fresh today!"] = "Подходите, посмотрите, весь хлеб испечён сегодня свежим!",
-    ["Obtain 1 Beyonder material with <天灾化身> trait"] = "Obtain 1 Beyonder material with <Scourge Avatar> trait",
+    ["Obtain 1 Beyonder material with <天灾化身> trait"] = "Получите 1 потусторонний материал с чертой <Воплощение Бедствия>",
     ["睡觉睡觉。。好累"] = "Спи, спи... так устал.",
     ["播放CutScene  玩家传送到位面"] = "Играть в CutScene: игрок телепортируется в подземелье.",
     ["Uriel"] = "Уриэль",

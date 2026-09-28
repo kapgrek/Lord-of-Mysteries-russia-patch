@@ -268,6 +268,7 @@ return {
     ["Observe the points above Sylvia's head to predict the knockup landing point"] = "Следите за числом над головой Сильвии, чтобы предсказать место падения после подбрасывания.",
     ["At least he didn't fall on the battlefield, and we had the chance to spend this time together."] = "По крайней мере, он не погиб на поле боя, и у нас был шанс провести это время вместе.",
     ["【秘偶技】星之虫-奇迹牌雨"] = "[Умение марионетки] Звёздный Червь - Дождь Карт Чудес",
+    ["<h>Ask</> about information on these Sequences"] = "<h>Расспросить</> об этих Последовательностях",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

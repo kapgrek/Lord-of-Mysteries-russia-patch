@@ -245,7 +245,7 @@ return {
     ["The footsteps of escape and the shadows of Pursuit, life and death are but in an instant."] = "Шаги бегства и тень погони, жизнь и смерть решаются в одно мгновение.",
     ["Cyril, give me more time... Alright, don't let the scenery of Golden Autumn Lake go to waste; let us temporarily forget everything in Backlund."] = "Сирил, дай мне ещё немного времени... Хорошо, не будем растрачивать впустую пейзажи озера Золотая Осень; давай на время забудем обо всём, что осталось в Бэкланде.",
     ["<P_Heart> (Let me see, he is holding his head with both hands, burying his chin in his knees, as if resisting the outside world.) </>"] = "<P_Heart> (Так, посмотрим — он обхватил голову руками, уткнул подбородок в колени, будто сопротивляется внешнему миру.) </>",
-    ["GTA-机械造物-机制脑袋找躯干"] = "GTA-Mechanical Creation-Mechanism Head Finds Torso",
+    ["GTA-机械造物-机制脑袋找躯干"] = "GTA — Механическое творение — Механизм: голова ищет туловище",
     ["播放Dialogue  传送到指定场景内的Trigger位置"] = "Играть в диалог; телепортироваться к месту триггера в указанной сцене.",
     ["采集指定TemplateID的采集物  玩家播放剧情对话  玩家移除公有集团（大世界不生效）"] = "Собрать предмет коллекции с указанным TemplateID. Игрок воспроизводит сюжетный диалог. Игрок удаляет общедоступную группу (не действует в открытом мире).",
     ["Ingrid"] = "Ингрид",

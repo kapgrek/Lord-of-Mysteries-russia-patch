@@ -265,5 +265,6 @@ return {
     ["呵呵，如你所见，和你一样的方法……"] = "Хе-хе, как видишь, тот же способ, что и у тебя…",
     ["Oh my, it seems there are still impatient guests coming to the door."] = "Ох, похоже, всё же нашёлся нетерпеливый гость.",
     ["No Strategic Gold Pounds available for withdrawal at the moment."] = "Пока нет стратегических Золотых фунтов для вывода.",
+    ["[Marionette Skill] Hound Charge - Reference Hit"] = "[Навык марионетки] Рывок гончей — вызов hit",
     ["规则的裂隙在此蔓延，是扭曲一切旧有事物的起点。"] = "Здесь распространились разломы в правилах, отправная точка для искажения всего старого.",
 }

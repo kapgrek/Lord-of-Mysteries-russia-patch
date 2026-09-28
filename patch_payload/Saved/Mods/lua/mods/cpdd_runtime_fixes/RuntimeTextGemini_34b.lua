@@ -260,5 +260,5 @@ return {
     ["I don't know where the news came from, saying that if you turn your back to the Fountain of Purification, hold a coin in your right hand, and throw it backward over your left shoulder into the water, you can make your wish come true."] = "Не знаю, откуда пошла эта новость, будто если встать спиной к Фонтану Очищения, взять монету в правую руку и бросить её назад через левое плечо в воду, желание исполнится.",
     ["Hmph, are you sent by the neighbors to steal pumpkins! It's not that easy to beat me at the Harvest Festival!"] = "Хм, тебя соседи подослали воровать тыквы? Не так-то просто меня обыграть на Празднике урожая!",
     ["“窥秘人”和“占卜家”都可以更好地掌握神秘学领域的知识，里面可能就有我回家的线索。"] = "«Жрец Тайн» и «Провидец» — оба могут лучше освоить знания в области мистицизма; возможно, там есть подсказки о том, как мне вернуться домой.",
-    ["记忆回溯-黑沉荒野3"] = "Retrace - Black-Sinking Wilderness 3",
+    ["记忆回溯-黑沉荒野3"] = "Обратный отсчёт памяти — Чёрная пустошь 3",
 }

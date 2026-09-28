@@ -270,5 +270,5 @@ return {
     ["厄运锋芒"] = "Острие Рока",
     ["10% chance to increase your own Strength by 20 points after dealing damage, Continuous for 2 seconds, stacks up to 3 times, no Cooldown. 10% chance to increase your own Strength by <Mark>20 points</> after dealing damage, Continuous for 2 seconds, stacks up to 3 times"] = "После нанесения урона с вероятностью 10% повышает собственную Силу на 20 очков, длится 2 сек., максимум 3 стака, без Отката Навыка. После нанесения урона с вероятностью 10% повышает собственную Силу на <Mark>20 очков</> длится 2 сек., максимум 3 стака",
     ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "Стержневой корень, отделённый от тела Мглистого древня, обладает высокой Духовностью.",
-    ["离开梦境·定位·卡萝"] = "Leave Dream·Positioning·Carol",
+    ["离开梦境·定位·卡萝"] = "Покинуть сон · Определение · Карол",
 }

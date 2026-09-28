@@ -259,5 +259,6 @@ return {
     ["Branches and leaves form soft steps, letting me walk toward the long sleep at the bottom of the water..."] = "Ветви и листья образуют мягкие ступени, ведущие меня к долгому сну на дне воды...",
     ["You ask very tricky questions. You're not very good at chatting."] = "Ты задаёшь очень каверзные вопросы. У тебя не очень хорошо получается болтать.",
     ["Let me see? It's the grand prize! Congratulations to this lucky spectator!"] = "Дайте-ка взглянуть? Это главный приз! Поздравляем этого удачливого Зрителя!",
+    ["Open <Highlight>City Dark Side</>."] = "Откройте <Highlight>тёмную сторону города</>.",
     ["pieces"] = "фигуры",
 }

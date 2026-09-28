@@ -252,6 +252,6 @@ return {
     ["不知道最近有没有非凡案件要处理，回黑荆棘看看吧。"] = "Не знаю, есть ли недавно Потусторонние дела для расследования, загляну-ка в «Чёрный Шип».",
     ["No traces were left behind; there must be the influence and interference of Beyonder powers behind it."] = "Не осталось никаких следов — за этим наверняка стоит влияние и вмешательство потусторонней силы.",
     ["An ancient coin with the luster of the starry sky, capable of responding to the Spirit World and the cosmos through the spirit body. Engraved with secret inscriptions drawn by an Angel of the Abraham family, each use is like starting a journey through the stars, bringing the user insights and gains from the journey."] = "Древняя монета с переливами звёздного неба, способная через духовное тело откликаться на Мир Духов и звёздное небо. На ней выгравированы тайные письмена, начертанные Ангелом рода Авраама; каждое использование подобно началу странствия по звёздам и приносит пользователю впечатления и находки в пути.",
-    ["五月庄园花园机制"] = "May Manor Garden mechanics",
+    ["五月庄园花园机制"] = "Механика сада поместья Мэй",
     ["Ayan"] = "Аян",
 }

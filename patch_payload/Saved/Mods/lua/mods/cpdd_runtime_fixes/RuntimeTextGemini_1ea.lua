@@ -278,5 +278,7 @@ return {
     ["1 adjacent ally provides 9 Defense."] = "1 союзник в соседней клетке даёт 9 защиты.",
     ["Sir! Please calm down, or I'll have to call the police!"] = "Сударь! Пожалуйста, успокойтесь, иначе я вызову полицию!",
     ["Fresh flowers, fresh flowers!"] = "Свежие цветы, свежие цветы!",
+    ["[Marionette Skill] Pufferfish Bullet LV3"] = "[Навык марионетки] Пуля-фугу, ур. 3",
+    ["Prologue Flow Version-Axe"] = "Версия пролога — Топор",
     ["Ruola"] = "Руола",
 }

@@ -273,6 +273,7 @@ return {
     ["Club members can hold management positions, group positions, and Club Star titles; \nManagement positions include President, Diplomat, and Director."] = "Члены клуба могут одновременно занимать управленческую должность, должность в группе и звание «Звезда клуба».\nУправленческие должности включают Председателя, Дипломата и Директора.",
     ["Dream Come True"] = "Мечта сбылась",
     ["...<P_Heart> (A Beyonder like Mr. Dunn? No, I am not, and I want to know too.)</>"] = "……<P_Heart>(Потусторонний вроде мистера Данна? Нет, я не такой, я тоже хочу это узнать.)</>",
-    ["【秘偶技】隐匿刺击LV5"] = "[Marionette Skill] Hidden Stab LV5",
+    ["Foreign Friend  —  Lv 62 | Apprentice | 8 m | Inspect"] = "Иностранный друг — Lv 62 | Ученик | 8 м | Осмотреть",
+    ["【秘偶技】隐匿刺击LV5"] = "【Навык марионетки】Скрытый удар LV5",
     ["Cullen"] = "Каллен",
 }

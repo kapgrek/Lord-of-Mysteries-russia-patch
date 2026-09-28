@@ -279,7 +279,7 @@ return {
     ["击破瑞尔·比伯护盾，随后使用控制技能阻止致命伤害！"] = "Разбейте щит Райла Бибера, а затем используйте контролирующий навык, чтобы предотвратить смертельный урон!",
     ["Max Health +1500, Attack +375, Skill Enhancement +75, Armor Break +180, Piercing +180, Crit +120"] = "Макс. здоровье +1500, Атака +375, Усиление навыков +75, Прорыв защиты +180, Пронзание +180, Критический удар +120",
     ["Can you perform one?"] = "Можешь исполнить одну песню?",
-    ["十字街上路触发器"] = "Cross Street Upper Road Trigger",
+    ["十字街上路触发器"] = "Триггер верхней дороги Перекрёстной улицы",
     ["Odin"] = "Один",
     ["<Highlight> Craft: </> Friendly Spirit World Creature, the Meow Thief enlightened by the \"Orange Light\" \n (Actively wiggling) (Crawling brightly and moderately) (Advancing generously) \n (Floating with the wind) (Light-footed) (Bathing in sunlight)"] = "<Highlight>Качество изготовления: </>Дружелюбное существо из Мира Духов, кошачий воришка, озаренный «Оранжевым светом»\n(Активно извивается) (Светло и умеренно ползет) (Гордо шагает вперед)\n(Развевается по ветру) (Легкая поступь) (Купается в солнечных лучах)",
     ["Stormy"] = "бурный",

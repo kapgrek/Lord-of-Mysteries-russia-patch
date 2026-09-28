@@ -276,6 +276,7 @@ return {
     ["You must go to the strategic server first to proceed. Talk to Roselle's war projection to go to the strategic server City of Dragon Hunting. The strategic server does not support cross-map quest tracking. If you cannot track, please go to the strategic server City of Dragon Hunting first."] = "Чтобы продолжить, сначала нужно отправиться на стратегический сервер. Поговорите с боевой проекцией Роселля, чтобы перейти на стратегический сервер «Город охоты на драконов». Стратегический сервер не поддерживает отслеживание целей заданий между картами. Если отслеживание не работает, сначала отправьтесь на стратегический сервер «Город охоты на драконов».",
     ["只有俱乐部会长、外交官才能响应宣战！"] = "Только президент клуба или дипломат может ответить на объявление войны!",
     ["Every time I come here, it reminds me of myself back when I used to do parkour..."] = "Каждый раз, приходя сюда, я вспоминаю себя в те времена, когда занимался паркуром...",
+    ["Switch <Orange>City Dark Side</>."] = "Переключите <Orange>тёмную сторону города</>.",
     ["Maxine"] = "Максин",
     ["头好痛，方才不是还在湖里游泳，怎么来到这样的奇异的空间......"] = "Голова болит... Разве я только что не плавала в озере? Как я оказался в таком странном месте...?",
     ["At the start of player combat:\r\nRestore 2 Health to the player."] = "В начале боя с игроком:\r\nВосстанавливает 2 ед. здоровья игроку.",

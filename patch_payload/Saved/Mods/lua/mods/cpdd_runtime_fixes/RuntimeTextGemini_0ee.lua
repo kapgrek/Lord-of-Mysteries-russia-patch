@@ -301,6 +301,7 @@ return {
     ["These days, they'll say anything to sell newspapers, the headlines are getting more and more bizarre."] = "В наши дни ради продажи газет говорят что угодно, заголовки становятся всё более странными.",
     ["My lady, it is said that Earl Hall will also be participating in the next mayoral election with you."] = "Госпожа, говорят, граф Холл тоже будет участвовать с вами в следующих выборах мэра.",
     ["【风闻】梦魇命中目标后削弱目标技能抵挡，持续5秒。"] = "【Слух】После попадания Кошмара по цели ослабляется блок навыков цели на 5 сек.",
+    ["[Marionette Skill] Worm of Star - Corona Verdict"] = "【Навык марионетки】Звёздный червь — Приговор короны",
     ["进步的浪潮，不该中止！"] = "Волну прогресса нельзя останавливать!",
     ["Deandro"] = "Деандро",
     ["共计:"] = "Общий:",

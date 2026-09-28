@@ -290,5 +290,5 @@ return {
     ["Locked rooms, tightly drawn curtains, silent tears, low, muffled sobs..."] = "Запертые комнаты, плотно задёрнутые занавески, беззвучные слёзы, тихие сдавленные всхлипы...",
     ["My cake might not be the most exquisite, but it will definitely make you remember it for the rest of your life."] = "Мой торт, может, не самый изящный, но вы точно запомните его на всю жизнь.",
     ["The Baron is looking at that corner. What's there?"] = "Барон смотрит в тот угол. Что там?",
-    ["“魔术师”女士，对您来说，愚者先生是个什么样的存在？"] = "Ms. Magician, what kind of existence is Mr. Fool to you?",
+    ["“魔术师”女士，对您来说，愚者先生是个什么样的存在？"] = "Госпожа «Фокусник», кем для вас является господин Шут?",
 }

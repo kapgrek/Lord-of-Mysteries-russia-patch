@@ -271,6 +271,7 @@ return {
     ["You currently have no Strategic Gold Pounds available for withdrawal."] = "У вас сейчас нет стратегических Золотых фунтов для вывода.",
     ["Rest, take a break... I'll work again in a while."] = "Отдых, перерыв... через некоторое время снова примусь за работу.",
     ["Don't mention looking after the baby—hurry, hurry, I have to go home in five minutes, there's still time for one more round before then!"] = "Не напоминай мне про ребёнка — скорее, скорее, мне нужно домой через пять минут, но времени ещё хватит на один раунд!",
+    ["[Marionette Skill] Viscountess Ghost"] = "【Навык марионетки】Призрак виконтессы",
     ["我已经解除了隔离。"] = "Я снял карантин.",
     ["Lilianna"] = "Лилианна",
 }

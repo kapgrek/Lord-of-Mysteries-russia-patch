@@ -251,4 +251,5 @@ return {
     ["Forget it. After we got married, he changed; he's not as romantic as he used to be."] = "Забудь. После того как мы поженились, он изменился — уже не такой романтичный, как раньше.",
     ["The time I spent painting with Simon Tot in Tingen back then is truly nostalgic."] = "Время, что я тогда провёл, рисуя с Саймоном Тотом в Тингене, действительно навевает воспоминания.",
     ["不如用卜杖占卜试一试吧。"] = "Может, стоит попробовать погадать с помощью гадательного жезла?",
+    ["Where to Find Beyonder Creatures"] = "Где найти потусторонних существ",
 }

@@ -281,6 +281,7 @@ return {
     ["<DecH> Craft: </> Night Tapestry - Masquerade Ball Attire \n Under the deep night, whispers grow in the salon. Just now, whose snowy fur brushed against my palm?"] = "<DecH>Материал:</> Гобелен ночи · Наряд для маскарада\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",
     ["你当前没有可提取的战略金镑。"] = "У вас сейчас нет стратегических Золотых фунтов для вывода.",
     ["At that time, the malt ale Thomas brewed was so fragrant it could lure drunks from the next town over. Eleanor's pies were also a specialty, the crust was so flaky it would crumble with one bite."] = "В те времена солодовый эль, который варил Томас, был таким ароматным, что мог заманить пьяниц из соседнего города. Пироги Элеонор тоже были особенным блюдом — корочка была такой хрупкой, что рассыпалась от одного укуса.",
+    ["World channel chat cooldown reduced"] = "Снижение задержки чата мирового канала",
     ["Davina"] = "Давина",
     ["已提出申请，请等待对方回应"] = "Заявка отправлена; пожалуйста, подождите ответа.",
     ["Highest Win Streak:"] = "Макс. серия побед:",

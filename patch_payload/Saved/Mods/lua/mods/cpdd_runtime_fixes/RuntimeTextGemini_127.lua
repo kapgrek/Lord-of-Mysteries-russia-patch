@@ -259,4 +259,5 @@ return {
     ["As you can see, we are currently investigating the ancient trees in the Backlund urban area that are worth protecting."] = "Как видите, мы изучаем древние деревья в городской черте Бэкланда, которые стоит сохранить.",
     ["在竞技玩法中<Highlight>击败</>%s/%s名太阳神官"] = "В соревновательном режиме <Highlight>победите</>%s/%s Солнечных Жрецов",
     ["抵达战略服廷根，了解军功与军衔体系。"] = "Прибудьте на стратегический сервер Тинген, чтобы изучить систему военных заслуг и званий.",
+    ["Apple Knight Charge Performance"] = "Эффект атаки Яблочного рыцаря",
 }

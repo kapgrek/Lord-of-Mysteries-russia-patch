@@ -280,7 +280,7 @@ return {
     ["Who can tell me how to choose a charm that suits me?"] = "Кто подскажет мне, как выбрать подходящий амулет?",
     ["The weather is terrible, a blizzard will definitely arrive within half an hour!"] = "Погода ужасная, метель точно накроет нас в течение получаса!",
     ["Today I'm going to try every divination method! Where are the diviners?"] = "Сегодня я испробую все способы гадания! Где же гадатели?",
-    ["【秘偶技】河豚子弹LV1"] = "[Marionette Skill] Pufferfish Bullet LV1",
+    ["【秘偶技】河豚子弹LV1"] = "【Навык марионетки】Пуля фугу LV1",
     ["Canon"] = "Канон",
     ["完成当前步骤的必要子目标和次要子目标  玩家发送任务道具  玩家发送任务道具  玩家发送任务道具"] = "Выполните необходимые подцели и второстепенные подцели текущего шага, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет, игрок отправляет квестовый предмет",
 }

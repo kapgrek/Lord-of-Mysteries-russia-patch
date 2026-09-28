@@ -252,7 +252,7 @@ return {
     ["Your previous adventure experience must be very rich, aren't you considering re-experiencing an exciting life?"] = "У тебя наверняка богатый опыт прошлых приключений — не думаешь снова испытать увлекательную жизнь?",
     ["Obtain 1 Beyonder material with {混乱行者} entry"] = "Получите 1 потустороннюю материю с меткой {Странник Хаоса}",
     ["[Marionette Skill] Baboon Blessing - Random Item Throw - Temporarily Unused"] = "[Навык марионетки] Благословение бабуина - Случайный бросок предмета - Пока не используется",
-    ["英雄外城3材料"] = "Hero Outer City 3 Material",
+    ["英雄外城3材料"] = "Материалы Внешнего города героев 3",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

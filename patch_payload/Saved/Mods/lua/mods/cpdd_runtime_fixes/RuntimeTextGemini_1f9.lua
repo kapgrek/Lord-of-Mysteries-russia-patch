@@ -293,6 +293,6 @@ return {
     ["You who meet again in the Kingdom of God will surely have your dreams come true."] = "Вы, вновь встретившиеся в Царстве Божьем, непременно увидите, как ваши мечты сбудутся.",
     ["Gain a shield equal to <HighLight>16%</> of your maximum health; after 1.2 seconds, deal <HighLight>120%</> attack damage to the surroundings and restore <HighLight>8%</> of maximum health to nearby allies."] = "Получите щит, равный <HighLight>16%</> вашего максимального здоровья; через 1.2 сек. нанесите <HighLight>120%</> урона от атаки окружающим и восстановите <HighLight>8%</> максимального здоровья находящимся рядом союзникам.",
     ["The highest quality currently available is <Quality_3>Common</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_3>Обычное</>",
-    ["打开<Highlight>城市暗面</>。"] = "Open <Highlight>City Dark Side</>.",
+    ["打开<Highlight>城市暗面</>。"] = "Откройте <Highlight>тёмную сторону города</>.",
     ["与人脉完成%d/30次漫步玩法。"] = "Выполните действия %d/30 «Прогулка» с контактами.",
 }

@@ -281,4 +281,5 @@ return {
     ["Don't miss out, fine lemon slices, the perfect companion for black tea!"] = "Не пропустите, отличные лимонные дольки, идеальное дополнение к чёрному чаю!",
     ["Deep breaths, deep breaths! There are no ghosts in this world; it's all a lie."] = "Глубокий вдох, глубокий вдох! В этом мире нет призраков, всё это ложь.",
     ["He said the world outside is vast."] = "Он сказал, что внешний мир огромен.",
+    ["Sweat-Blood Blue (5 characters)"] = "Кровавый пот, синий, пять иероглифов",
 }

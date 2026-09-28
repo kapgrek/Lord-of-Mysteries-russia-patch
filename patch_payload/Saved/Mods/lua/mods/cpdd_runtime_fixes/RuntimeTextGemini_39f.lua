@@ -258,6 +258,7 @@ return {
     ["Are you planning to go back later? I hope you're an obedient, good cat."] = "Собираешься вернуться позже? Надеюсь, ты послушная хорошая кошка.",
     ["{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!"] = "{{player.name}} в ходе Потустороннего слияния сгенерировал(а) {{item.name}} с меткой <Chat_Highlight>{{relic_word.name}}</>, получив благословение Жёлто-чёрного короля, повелевающего удачей!",
     ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
+    ["【Text Board】(Middle Road) Lyrics 1-1"] = "[Текстовая доска] (Средний путь) Песнопение 1-1",
     ["指定地点附近使用任务道具  玩家播放仅自己可见的说话文本  玩家发送任务道具"] = "Использовать квестовый предмет рядом с указанным местом: игрок воспроизводит текст, видимый только ему самому, игрок отправляет квестовый предмет.",
     ["剩余时间："] = "Оставшееся время:",
 }

@@ -289,7 +289,7 @@ return {
     ["The current device does not support enabling ray tracing."] = "Текущее устройство не поддерживает включение трассировки лучей",
     ["Your previous adventure experience must be very rich; aren't you considering re-experiencing an exciting life?"] = "У вас, должно быть, богатый опыт прошлых приключений; не подумываете ли вы снова пережить захватывающую жизнь?",
     ["Don't worry, it's just a photo. It's a memento for myself, and also a gift of gratitude the crow wanted to give you."] = "Не волнуйся, это просто фотография. Память для меня самого, а также подарок благодарности, который ворон хотел тебе подарить.",
-    ["南区大道喷泉小广场脚踏车黄"] = "South District Avenue Fountain Square Bicycle (Yellow)",
+    ["南区大道喷泉小广场脚踏车黄"] = "Южный район, проспект, площадь с фонтаном, велосипед (жёлтый)",
     ["采集指定TemplateID的采集物  玩家移除任务道具（全部删除）"] = "Собрать ресурс с указанным TemplateID. Игрок удаляет предметы задания (удалить все)",
     ["坐标:"] = "Координаты:",
     ["Milina"] = "Милина",
