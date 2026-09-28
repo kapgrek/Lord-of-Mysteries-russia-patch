@@ -127,6 +127,13 @@ v3.0.8-RU, сессия `20260928-150247` (слот s5, 15:02–16:31). Поль
 - **Перенос:** 167 строк из `batch_005`…`batch_026` в `batch_040_retranslate_en2.json` (пустой `target_ru`). Дублей `source_cn` в других батчах нет, round-trip всех 22 батчей совпал. Скрипты: `temp/t023/find_en2.ps1` (список `move_i3.csv` из вывода VerifyBatch `warn_i3.txt`), `temp/t023/move_en2.ps1`.
 - `ShardCompiler` — 1024 шарда; `VerifyBatch` по всем батчам: 140 023 строки, 0 ERR, `en_target` — 2 (ложные, см. выше), `en_plural` — 0. До пачки 3 эти строки показывают `ref_en`.
 
+## Релиз v3.0.9 (2026-09-28)
+В сборке И1–И3, R1 (`e075bb45`, `38361faa`) и пачки 1–3 (`e98f7763`, `5acf4acc`, `ebc83e9a`). Изменения рантайма с v3.0.8 — только R1 (диагностика, при `runtimeFixes.Diag`).
+- **Версия 3.0.9-RU:** AppInfo, AssemblyInfo, app.manifest, Init.lua, VerifyPatch, PackageRelease, README.
+- **Сборка.** `BuildTools` (все 5 утилит), `ShardCompiler` (140 023 строки, шарды без изменений — уже были в git), `VerifyBatch` по всем батчам 0 ERR (только WARN), `PackageRelease.ps1` (VerifyPatch OK, установщик 3.0.9-RU (Release)) → `Lord-of-Mysteries-Russian-Patch-v3.0.9-RU.zip` (69,19 МБ, data zip 68,77 МБ). Подпись Authenticode самоподписанная (`UnknownError`), как раньше.
+- **Шарды zip.** Строки-образцы `target_ru` (12–60 символов, без экранирования) найдены в Lua-шардах data zip: `batch_038` 45 из 45, `batch_039` 27 из 27, `batch_040` 146 из 146.
+- **Публикация:** `PackageRelease.ps1 -Publish` → GitHub Release `v3.0.9-RU` (релизы 3.0.2–3.0.8 не публиковались, заметки описывают изменения с 3.0.1).
+
 ## Чек-лист для пользователя (после v3.0.9)
 1. Экран входа → объявление «Царственное изящество…» и «Баланс Гамбита Шута» по-русски.
 2. Бегущая строка о конвергенции: «… во время Потусторонней конвергенции …» по-русски целиком (ник остаётся как есть).
