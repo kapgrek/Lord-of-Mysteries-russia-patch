@@ -67,7 +67,9 @@ $categoryInfo = [ordered]@{
 $neverEmit = @('service', 'technical', 'clipped', 'known', 'pending')
 $clipBytes = 397   # clip() in AbsruDiagnostics.lua keeps 397..400 bytes of a longer text (TEXT_MAX, logs before v2.9.10)
 $clipBytesDb = 4093 # ... and 4093..4096 bytes for src=stringdb since v2.9.10 (DB_TEXT_MAX)
-function Test-ClippedText([string]$s) {
+# -Clip: поле clip записи src=data (TASK-024 R2). Есть — решает оно; $null (старый лог, TEXT_MAX) — по размеру.
+function Test-ClippedText([string]$s, $Clip = $null) {
+    if ($null -ne $Clip) { return [bool]$Clip }
     $n = $utf8.GetByteCount($s)
     return ($n -ge $clipBytes -and $n -le 400) -or $n -ge $clipBytesDb
 }
@@ -272,6 +274,8 @@ foreach ($file in $logFiles) {
                     $dataRows.Add([pscustomobject]@{
                         module = [string]$o['module']; field = [string]$o['field']
                         original = [string]$o['original']; translated = [string]$o['translated']
+                        # TASK-024 R2: поле clip есть с v3.0.10 (полный текст до DB_TEXT_MAX); $null — старый лог.
+                        clip = $(if ($o.ContainsKey('clip')) { [bool]$o['clip'] } else { $null })
                     })
                 }
             }
@@ -432,7 +436,7 @@ if ($Emit) {
 
 if ($EmitData) {
     # Китайский в полях данных KSBC без StringDB (src=data, TASK-019): новый контент обновления игры.
-    # Не выгружаются: известные ключи, обрезанные (≥ 397 байт), пузыри чата GossipSystem, текст виджетов
+    # Не выгружаются: известные ключи, обрезанные (поле clip; в старых логах ≥ 397 байт), пузыри чата GossipSystem, текст виджетов
     # (WidgetText), StringConst (ники в аргументах), служебные поля Desc.
     $Fields = @($Fields | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim() } | Where-Object { $_ })
     if ($Fields.Count -eq 0) { throw 'Для -EmitData нужен -Fields <поле[,…]>' }
@@ -449,7 +453,9 @@ if ($EmitData) {
         $src = $(if ($d.original -and $cjkRegex.IsMatch($d.original)) { $d.original } else { $d.translated })
         $src = Get-TrimmedKey $src
         if (-not $src -or -not $cjkRegex.IsMatch($src)) { continue }
-        if ($utf8.GetByteCount($src) -ge $clipBytes) { $skipped.clipped++; continue }
+        # Старые логи резали src=data по TEXT_MAX = 400 байт: всё от 397 байт — обрезано.
+        $cut = $(if ($null -ne $d.clip) { Test-ClippedText $src $d.clip } else { $utf8.GetByteCount($src) -ge $clipBytes })
+        if ($cut) { $skipped.clipped++; continue }
         $hit = Find-ShardTranslation $src
         if (($null -ne $hit -and $hit -match '[Ѐ-ӿ]') -or $batchKeyInfo.ContainsKey($src)) { $skipped.known++; continue }
         if (-not $usedKeys.Add($src)) { continue }

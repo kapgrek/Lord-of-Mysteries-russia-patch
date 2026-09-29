@@ -1252,6 +1252,18 @@ function D.NoteNpcArgs(method, count, before, after)
     end
 end
 
+-- Exact-key translation of P_NPCTalk RTB_TalkContent (TASK-024 R1): one C7.log
+-- line on the first hit; the change itself goes to NoteTextChange.
+function D.NoteNpcTalkExact(widget, text)
+    if S.disabled then
+        return
+    end
+    S.npcTalkExact = (S.npcTalkExact or 0) + 1
+    if S.npcTalkExact == 1 then
+        warn("[AbsruDiag] npctalk exact n=1")
+    end
+end
+
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
 -- last Refresh of the Settings_*_Item classes (class-level wrappers found on
 -- instances at UIComponent.Open) and each panel pass with its style_changes.
@@ -1419,7 +1431,7 @@ end
 local UNTRANSLATED_ORDER = {
     "sid", "src", "text", "norm", "panel", "widget", "path", "scope", "vis",
     "module", "class", "field", "record", "row", "original", "translated", "en", "cn",
-    "count", "t",
+    "clip", "count", "t",
 }
 local OVERFLOW_ORDER = {
     "sid", "panel", "widget", "path", "text", "len", "font", "typeface", "size", "size_pre", "cap",
@@ -1769,14 +1781,19 @@ local function processData(entry)
     if record == nil or not emit then
         return
     end
+    -- Full text: long SkillDisc are batch keys too (TASK-024 R2); written once
+    -- per unique text. clip = true marks a text still cut at DB_TEXT_MAX; always
+    -- written, so StringDbGaps tells new logs from old ones (397-byte rule).
+    local original = type(entry.original) == "string" and entry.original or nil
+    local clipped = #translated > DB_TEXT_MAX or (original ~= nil and #original > DB_TEXT_MAX)
     appendRow("untranslated", {
         sid = S.sid, src = "data", module = entry.module and tostring(entry.module) or nil,
         class = entry.class and tostring(entry.class) or nil,
         field = entry.field and tostring(entry.field) or nil,
         record = entry.record ~= nil and tostring(entry.record) or nil,
-        original = type(entry.original) == "string" and clip(entry.original, TEXT_MAX) or nil,
-        translated = clip(translated, TEXT_MAX), norm = norm, scope = entry.scope,
-        count = record.count, t = stamp("%H:%M:%S"),
+        original = original ~= nil and clip(original, DB_TEXT_MAX) or nil,
+        translated = clip(translated, DB_TEXT_MAX), norm = norm, scope = entry.scope,
+        clip = clipped, count = record.count, t = stamp("%H:%M:%S"),
     }, UNTRANSLATED_ORDER)
 end
 

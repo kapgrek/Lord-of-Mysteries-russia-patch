@@ -68,7 +68,7 @@ AbsoluteRU/
 │   │   ├── characters_and_factions.json # Имена, фракции, божества
 │   │   ├── locations_and_geography.json # Города, страны, континенты
 │   │   └── terms_and_items.json         # Артефакты, ритуалы, системные термины
-│   └── translation_batches/   # batch_001.json ... batch_027.json, batch_028_autochess.json ... batch_037_stringdb_s5_p5.json, batch_038_s5_t023.json (TASK-023 пачка 1), batch_039_retranslate_en.json (бывшие «английские» target_ru, TASK-023 пачка 2), batch_040_retranslate_en2.json (короткие «английские» и en_plural, TASK-023 пачка 3)
+│   └── translation_batches/   # batch_001.json ... batch_027.json, batch_028_autochess.json ... batch_037_stringdb_s5_p5.json, batch_038_s5_t023.json (TASK-023 пачка 1), batch_039_retranslate_en.json (бывшие «английские» target_ru, TASK-023 пачка 2), batch_040_retranslate_en2.json (короткие «английские» и en_plural, TASK-023 пачка 3), batch_041_t024.json (TASK-024 пачка 1: EmitList + EmitData s3)
 │       └── BATCH_MANIFEST.md  # Манифест прогресса по всем батчам
 │
 ├── patch_payload/             # Полезная нагрузка патча, внедряемая в клиент игры

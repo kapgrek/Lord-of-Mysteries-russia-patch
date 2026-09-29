@@ -4682,6 +4682,22 @@ do
     end
 end
 
+-- Exact translation for RTB_TalkContent of P_NPCTalk (TASK-024 R1): the whole
+-- text is a shard key and the result has no Chinese. No fragments, no wide
+-- passes; any other talkcontent widget returns nil.
+runtimeFixes.npcTalkExactText = function(widget, text)
+    if type(text) ~= "string" or text == "" or not hasCjk(text) then return nil end
+    local path = nil
+    pcall(function() path = tostring(widget:GetPathName()) end)
+    if type(path) ~= "string" or not path:find("P_NPCTalk", 1, true)
+        or not path:find("WBP_NPCTalk_Text", 1, true) or path:find("Sequence_Panel", 1, true) then
+        return nil
+    end
+    local hit = lookupGeminiText(text)
+    if type(hit) ~= "string" or hit == "" or hit == text or hasCjk(hit) then return nil end
+    return hit
+end
+
 local function translateTextWidget(widget, discoveryContext)
     if widget == nil or (type(widget) ~= "userdata" and type(widget) ~= "table") then
         return 0
@@ -4746,10 +4762,18 @@ local function translateTextWidget(widget, discoveryContext)
             if hit ~= nil and hit ~= currentText then d.NoteTextSkip(widget, currentText, reason) end
         end
     end
-    if wName:find("talkcontent") or isEscLocked or (ESC_MENU_LOCKED and wName:find("menubtn")) then
+    -- NPC interaction window (TASK-024 R1): the line is set whole, so an exact
+    -- shard key is safe. Story dialogues (Sequence_Panel, DialogueTalk) type it
+    -- letter by letter and stay skipped.
+    local npcTalkExact = nil
+    if wName:find("talkcontent") and not isEscLocked then
+        npcTalkExact = runtimeFixes.npcTalkExactText(widget, currentText)
+    end
+    if (wName:find("talkcontent") and npcTalkExact == nil) or isEscLocked or (ESC_MENU_LOCKED and wName:find("menubtn")) then
         noteSkip(wName:find("talkcontent") and "talkcontent" or "esc")
         return 0
     end
+    if npcTalkExact ~= nil and d and d.NoteNpcTalkExact then pcall(d.NoteNpcTalkExact, widget, currentText) end
 
     local repairedCount = 0
     local translated = nil
@@ -4764,7 +4788,7 @@ local function translateTextWidget(widget, discoveryContext)
                 skipReason = "miss"
             end
         end
-        local candidate = translateVisibleText(collapsedCurrent)
+        local candidate = npcTalkExact or translateVisibleText(collapsedCurrent)
         if candidate ~= nil and candidate ~= collapsedCurrent and (runtimeFixes.hasCyrillic(candidate) or candidate ~= currentText) then
             translated = candidate
         elseif repairLiveString then
@@ -11799,15 +11823,17 @@ end
 -- methods, so wrap them at class level (LESSONS "хуки на уровне класса") and
 -- repair only the listed widgets of the instance after each call.
 -- path = widget names from the owner's tree down to the text block.
--- args = true: also translate Chinese string arguments by exact lookup
--- (NPC talk text is printed from the argument; talkcontent widgets are never
--- rewritten after the fact, see translateTextWidget).
+-- args = true: also translate Chinese string arguments by exact lookup.
+-- NPCTalkTextComp.ShowContent gets an NPC ID, not the text (TASK-023 R1), so
+-- its RTB_TalkContent is repaired after the call by exact key only
+-- (runtimeFixes.npcTalkExactText, TASK-024 R1). The component root may be
+-- WBP_NPCTalk_Text itself or P_NPCTalk, hence both paths.
 runtimeFixes.LateLabelClasses = {
     TaskBoardPanel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
     Task_Main_Panel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
     FellowPage = { paths = { { "WBP_PartnerSkill", "KGTextBlock_52" } } },
     WorkshopUp_Panel = { paths = { { "Text_Up" } } },
-    NPCTalkTextComp = { paths = {}, args = true },
+    NPCTalkTextComp = { paths = { { "RTB_TalkContent" }, { "WBP_NPCTalk_Text", "RTB_TalkContent" } }, args = true },
     -- Settings rows (TASK-021 п.3): the game fills them after Open, the
     -- delayed pass then changed their size on screen. methods: own patterns;
     -- inherit: methods of Settings_* bases are wrapped on this class too.
