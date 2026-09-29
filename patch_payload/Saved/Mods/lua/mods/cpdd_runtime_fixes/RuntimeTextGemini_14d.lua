@@ -275,5 +275,6 @@ return {
     ["So hungry, Dad comes home very late lately, and the landlord came to ask for rent again."] = "Так голодно, папа последнее время приходит домой очень поздно, а хозяин снова приходил за арендой.",
     ["The accumulation of wealth is outdated; they should stay safely in a vault. From now on, craftsmanship is the popular trend, and Miss Alice has always had a keen nose for this."] = "Накопление богатства устарело; ему место в надёжном хранилище. Отныне в моде мастерство, и у мисс Элис всегда было тонкое чутьё на это.",
     ["He cares for every living being, even if you don't believe in \"The Fool,\" you can still enjoy everything of the Tarot Club."] = "Он заботится обо всех живых существах, и даже если ты не веришь в «Шута», ты всё равно можешь наслаждаться всем, что даёт Клуб Таро.",
+    ["发射两枚机械眼弹，各造成<HighLight>265%</>攻击伤害。"] = "Выпускает два механических глаза-снаряда, каждый наносит <HighLight>265%</> урона от атаки.",
     ["使用指定道具  玩家播放仅自己可见的说话文本"] = "Используя специальный реквизит, игроки воспроизводят говорящий текст, который виден только им самим.",
 }

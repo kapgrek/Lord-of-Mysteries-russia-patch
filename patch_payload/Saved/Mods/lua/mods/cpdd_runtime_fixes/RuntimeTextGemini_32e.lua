@@ -256,6 +256,7 @@ return {
     ["至少我的画人人看得懂，不像你的，跟打翻了颜料桶似的。"] = "По крайней мере, мои картины понятны всем, не то что твои — будто перевернули банку с краской.",
     ["Pink roses represent first love; there is no experience more beautiful than first love. You can't go wrong choosing them to confess to your lover."] = "Розовые розы символизируют первую любовь — нет ничего прекраснее этого чувства. Если хотите признаться любимому человеку, с ними точно не ошибётесь.",
     ["Spectator seat function is not yet open; please look forward to future versions."] = "Функция мест для зрителей пока не открыта, ждите в следующих версиях.",
+    ["选将回合中征召棋子，先到先得，机不可失。"] = "Призывайте фигуры в раунде выбора героев: кто успел, тот и получил, не упустите шанс.",
     ["　　<Letter_Highlight>\"Great Adventurer: Gehrman's Sea Adventures\"</>\n　　Borrower: Danny \n\n　　<Letter_Highlight>\"Fundamentals of Mechanical Engineering\"</>\n　　Borrower: Felix\n　　……\n　　For the normal circulation of books, I hope these readers will return the borrowed books as soon as possible, study the rules and regulations related to borrowing carefully, and comply with them."] = "　　<Letter_Highlight>«Великий авантюрист: Морские приключения Германа»</>\n　　Читатель: Дэнни \n\n　　<Letter_Highlight>«Основы машиностроения»</>\n　　Читатель: Феликс\n　　……\n　　Ради надлежащего библиотечного обращения просим данных читателей как можно скорее вернуть взятые книги, а также внимательно изучить и соблюдать правила пользования библиотекой.",
     ["Annika"] = "Анника",
     ["嘿，这是偷袭！"] = "Эй, это скрытная атака!",
