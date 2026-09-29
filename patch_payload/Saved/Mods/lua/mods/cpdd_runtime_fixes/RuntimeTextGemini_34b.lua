@@ -84,7 +84,7 @@ return {
     ["Quick, come to my side!"] = "Быстро, иди ко мне!",
     ["Soul Weakness"] = "Слабость души",
     ["Boundary"] = "Граница",
-    ["Summon a marionette transformed from a Worm of Star to unleash Punishment, dealing damage to enemies within the marionette's radius."] = "Призывает марионетку, созданную из Червя Звёзд, обрушивающую «Кару», которая наносит урон врагам в радиусе действия марионетки.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Punishment, dealing damage to enemies within the marionette's radius."] = "Призывает марионетку, созданную из Звёздного червя, обрушивающую «Кару», которая наносит урон врагам в радиусе действия марионетки.",
     ["Single-target hit interval."] = "Интервал попадания по одной цели.",
     ["I'm fine... Haha, I just remembered something important. I'll be going now."] = "Я в порядке... Хаха, я только что вспомнил кое-что важное. Я пойду сейчас.",
     ["You... are all orphans?"] = "Вы... все сироты?",

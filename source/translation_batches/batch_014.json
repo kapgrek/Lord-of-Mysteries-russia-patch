@@ -4437,7 +4437,7 @@
     "id": "065745",
     "source_cn": "星之虫·变化",
     "ref_en": "Star of Stars · Change",
-    "target_ru": "Звезда звезд · Изменение"
+    "target_ru": "Звёздный червь · Изменение"
   },
   {
     "id": "065746",
@@ -12093,7 +12093,7 @@
     "id": "067022",
     "source_cn": "厄水巨龟会在场中召唤3个<Disable>菇毒区域</>。间隔一段时间后，巨龟会在随机3个玩家身上种下<Disable>厄水标记</>，一定时间后，<Disable>厄水</>会在玩家脚底出现。再间隔一段时间后，巨龟在随机3个玩家身上种下<Disable>瑰堡</>标记，一定时间后，<Disable>瑰堡</>会在玩家脚底出现。菇毒区域每间隔一段时间会对<Disable>全场造成伤害</>。厄水区域每间隔一段时间会生成一个<Disable>大嘴鹕或气泡豚</>来攻击玩家。",
     "ref_en": "The Misfortune Water Giant Turtle summons 3 <Disable> Mushroom Poison areas </> in the field. After an interval, the Giant Turtle will plant <Disable> Misfortune Marks </> on 3 random players; after a certain time, <Disable> Misfortune Water </> will appear at the players' feet. After another interval, the Giant Turtle will plant <Disable> Rose Castle </> marks on 3 random players; after a certain time, <Disable> Rose Castle </> will appear at the players' feet. The Mushroom Poison areas will deal damage to the <Disable> entire field </> at intervals. The Misfortune Water areas will generate a <Disable> Pelican or Bubble Puffer </> at intervals to attack players.",
-    "target_ru": "Водяная гигантская черепаха Несчастья призывает на поле 3 области грибного яда <Disable> </>. Через некоторое время Гигантская Черепаха наложит <Disable> Знаки Несчастья </> на 3 случайных игроков; через определенное время у ног игроков появится <Disable> Misfortune Water </>. Спустя еще один интервал Гигантская Черепаха установит знаки <Disable> Rose Castle </> на 3 случайных игроках; через определенное время у ног игроков появится <Disable> Rose Castle </>. Области грибного яда будут периодически наносить урон всему полю <Disable> </>. В зонах «Водные несчастья» через определенные промежутки времени будут генерироваться <Disable> Pelican или Bubble Puffer </> для атаки игроков."
+    "target_ru": "Гигантская черепаха Воды Бедствия призывает на поле 3 <Disable>области грибного яда</>. Через некоторое время черепаха накладывает на 3 случайных игроков <Disable>метки Воды Бедствия</>, и спустя определённое время у ног игроков появляется <Disable>Вода Бедствия</>. Ещё через некоторое время черепаха накладывает на 3 случайных игроков метки <Disable>Замка Роуз</>, и спустя определённое время у ног игроков появляется <Disable>Замок Роуз</>. Области грибного яда периодически наносят <Disable>урон всему полю</>. Области Воды Бедствия периодически создают <Disable>большеклювого пеликана или Пузырчатого фугу</>, которые атакуют игроков."
   },
   {
     "id": "067023",

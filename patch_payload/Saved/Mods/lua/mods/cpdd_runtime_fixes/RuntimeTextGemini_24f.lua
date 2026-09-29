@@ -204,7 +204,7 @@ return {
     ["Covenant level 6"] = "Ковенант 6 уровня",
     ["Free Refresh %d/%d"] = "Бесплатное обновление %d/%d",
     ["Aidan"] = "Эйдан",
-    ["A Star of Stars that has recorded the abilities of the Apprentice pathway."] = "Звезда Звезд, в которой записаны способности Пути Ученика.",
+    ["A Star of Stars that has recorded the abilities of the Apprentice pathway."] = "Звёздный червь, в котором записаны способности Пути Ученика.",
     ["Use spirit vision to examine Irene (AI)"] = "Используйте духовное зрение, чтобы изучить Ирен (ИИ)",
     ["Sigh, they were wandering painters. I even saw their art exhibition last week... many people watched, but no one could spare any extra money for them."] = "Эх, они были странствующими художниками. Я даже видел их выставку на прошлой неделе... Многие смотрели, но никто не мог выделить на них лишних денег.",
     ["{{\"Skill ID%i\", \"Level Increase\"}}"] = "{{\"ID навыка %i\", \"Повышение уровня\"}}",

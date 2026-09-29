@@ -28,7 +28,7 @@ return {
     ["You don't need to be discouraged. A Sequence 7 Beyonder isn't that easy to catch, and you've already done very well."] = "Не нужно впадать в депрессию, Потусторонних в 7-й последовательности не так-то просто поймать, а вы уже неплохо справились.",
     ["As you wish."] = "Как хочешь.",
     ["Your <Chat_Highlight> %s </> dealt <Chat_Red> %d </> points of %s %s damage to the unknown target <Chat_Red> </> <Chat_Highlight> %s </>."] = "Ваш <Chat_Highlight> %s </> нанес <Chat_Red> %d </> очков %s %s урона неизвестной цели <Chat_Red> </> <Chat_Highlight> %s </>.",
-    ["Summon a marionette transformed from a Worm of Star to unleash Solar Anthem, dealing *d damage to enemies within a 12-meter radius of yourself."] = "Призывает марионетку, созданную из Червя Звёзд, исполняющую «Гимн Солнца», наносящий *d ед. урона врагам в радиусе 12 метров от заклинателя.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Solar Anthem, dealing *d damage to enemies within a 12-meter radius of yourself."] = "Призывает марионетку, созданную из Звёздного червя, исполняющую «Гимн Солнца», наносящий *d ед. урона врагам в радиусе 12 метров от заклинателя.",
     ["Lili"] = "Лили",
     ["<P_Heart>(Such events really shouldn't be known by ordinary citizens, but I wonder if the teachers have heard of that notebook?)</>"] = "<P_Heart>(Обычным гражданам действительно не следует знать о таких событиях, но мне интересно, слышали ли учителя об этой тетради?)</>",
     ["No religious order"] = "Никакого религиозного ордена",

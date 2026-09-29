@@ -230,7 +230,7 @@ return {
     ["Go to the designated Trigger location. Player plays dialogue text visible only to themselves."] = "Перейдите в назначенное место триггера. Игрок воспроизводит текст диалога, видимый только ему самому.",
     ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Iron Wall Knight</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Iron Wall Knight</>.",
     ["Ask <h>Luna</>"] = "Спросить <h>Luna</>",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Worm of Star - Slash</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Worm of Star — Slash</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Worm of Star - Slash</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Звёздный червь · Рассечение</>.",
     ["Astrology"] = "Астрология",
     ["player close-up"] = "игрок крупным планом",
     ["Convert remaining products into Chamber tickets"] = "Конвертируйте оставшиеся продукты в билеты Палаты.",

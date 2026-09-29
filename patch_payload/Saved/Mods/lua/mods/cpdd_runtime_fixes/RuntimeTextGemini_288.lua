@@ -15,7 +15,7 @@ return {
     ["What a little sweetheart."] = "Какая лапочка.",
     ["Ray Bieber has summoned Sealed Artifact 2-049! Beware of the Stagnant Area it creates!"] = "Рэй Бибер призвал Запечатанный Артефакт 2-049! Остерегайтесь создаваемой им зоны скованности!",
     ["Hide Audrey's Beer Mug"] = "Скрыть пивную кружку Одри",
-    ["A Star of Stars that has recorded the abilities of the Mystery Pryer pathway."] = "Червь Звезд, запечатлевший способности пути Жреца Тайн.",
+    ["A Star of Stars that has recorded the abilities of the Mystery Pryer pathway."] = "Звёздный червь, запечатлевший способности пути Жреца Тайн.",
     ["CS Clown entrance"] = "Кат-сцена: появление Клоуна",
     ["(No Equipment Required)"] = "(Не требует экипировки)",
     ["In Queue"] = "В очереди",

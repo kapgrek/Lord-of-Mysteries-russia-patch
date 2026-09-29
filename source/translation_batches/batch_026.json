@@ -3711,7 +3711,7 @@
     "id": "125621",
     "source_cn": "召唤星之虫幻化为的秘偶释放星痕技能，展开星门攻击自身前方范围内的敌人。释放时若自身未拥有<HighLight>秘法能量</>，则获得<HighLight>秘法能量</>，持续70秒。若拥有<HighLight>秘法能量</>，则会额外展开一个星门并刷新<HighLight>秘法能量</>的持续时间。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash the Star Trace skill, deploying a Star Gate to attack enemies in a range in front of it. If you do not possess <HighLight>Arcane Energy</> upon casting, you gain <HighLight>Arcane Energy</> for 70 seconds. If you already possess <HighLight>Arcane Energy</>, an additional Star Gate is deployed and the duration of <HighLight>Arcane Energy</> is refreshed.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой. Если при применении у вас нет <HighLight>Тайной энергии</>, вы получаете <HighLight>Тайную энергию</> на 70 сек. Если у вас уже есть <HighLight>Тайная энергия</>, открываются дополнительные Звёздные Врата, а время действия <HighLight>Тайной энергии</> обновляется."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой. Если при применении у вас нет <HighLight>Тайной энергии</>, вы получаете <HighLight>Тайную энергию</> на 70 сек. Если у вас уже есть <HighLight>Тайная энергия</>, открываются дополнительные Звёздные Врата, а время действия <HighLight>Тайной энергии</> обновляется."
   },
   {
     "id": "125622",
@@ -11547,7 +11547,7 @@
     "id": "126935",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得紫色品质的秘偶，<Highlight>气泡豚</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a purple-quality marionette: <Highlight>Bubble Puffer</>.",
-    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку фиолетового качества: <Highlight>Bubble Puffer</>."
+    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку фиолетового качества: <Highlight>Пузырчатый фугу</>."
   },
   {
     "id": "126936",
@@ -13713,7 +13713,7 @@
     "id": "127299",
     "source_cn": "星之虫·心灵",
     "ref_en": "Star of Stars · Mind",
-    "target_ru": "Звезда Звезд · Разум"
+    "target_ru": "Звёздный червь · Разум"
   },
   {
     "id": "127300",
@@ -20211,7 +20211,7 @@
     "id": "128386",
     "source_cn": "<Assistant_Title1>金纺线</>\\n<Assistant_Title2>道具介绍：</>\\n1、使用金纺线可在<Assistant_System>秘偶-获取秘偶-乌托邦剧院</>界面抽选秘偶。\\n2、乌托邦剧院戏台每次<Assistant_Property1>刷新</>会上架<Assistant_Red>3个</>秘偶，可供抽选。若抽选后戏台上只剩<Assistant_Red>紫色</>品质秘偶，戏台会自动刷新。\\n序幕抽选：消耗<Assistant_Property1>金纺线</>*3，从台上3个秘偶中随机获得1个。\\n中幕抽选：消耗<Assistant_Property1>金纺线</>*6，从台上剩余2个秘偶中随机获得1个。\\n落幕抽选：消耗<Assistant_Property1>金纺线</>*12，必定获得台上剩余的1个秘偶。\\n3、可以通过<Assistant_System>商城-百货</>中的各类商店兑换，<Assistant_System>商城-交易所</>购买，<Assistant_System>段位奖励</>等途径获得。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[获取秘偶]|536}",
     "ref_en": "<Assistant_Title1>Gold Spun Thread</>\\n<Assistant_Title2>Item Description:</>\\n1. Use Gold Spun Thread in the <Assistant_System>Marionette - Obtain Marionette - Utopia Theater</> interface to draw marionettes.\\n2. The Utopia Theater stage will <Assistant_Property1>refresh</> and list <Assistant_Red>3</> marionettes available for selection each time. If only <Assistant_Red>Purple</> quality marionettes remain on stage after a draw, the stage will automatically refresh.\\nPrologue Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*3 to randomly obtain 1 of the 3 marionettes on stage.\\nIntermission Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*6 to randomly obtain 1 of the 2 remaining marionettes on stage.\\nCurtain Call Draw: Consumes <Assistant_Property1>Gold Spun Thread</>*12 to guarantee the acquisition of the 1 remaining marionette on stage.\\n3. Can be obtained through various shops in <Assistant_System>Mall - General Store</>, purchases in <Assistant_System>Mall - Exchange</>, <Assistant_System>Rank Rewards</>, and other pathways.\\n<Assistant_Title3>Recommended Searches:</>{SendAnswer:[Obtain Marionette]|536}",
-    "target_ru": "<Assistant_Title1>Золотая прядильная нить</>\\n<Assistant_Title2>Описание предмета:</>\\n1. Используйте золотую прядильную нить, чтобы выбрать секретную марионетку в интерфейсе <Assistant_System> Secret Puppet-Obtain Secret Puppet-Utopia Theater </>. \\n2. Каждый раз, когда сцена <Assistant_Property1> Театра Утопия обновляется, для рисования будут доступны секретные куклы </>, <Assistant_Red>3 </>. Если после розыгрыша на сцене останутся только марионетки <Assistant_Red> фиолетового качества </>, сцена автоматически обновится. \\n Лотерея пролога: поглотите <Assistant_Property1>Золотую прядильную нить</>*3 и случайным образом получите 1 марионетку из 3 марионеток на сцене. \\n Рисунок в середине акта: потратьте <Assistant_Property1> золотую прядящую нить </>*6 и случайным образом получите 1 марионетку из оставшихся 2 марионеток на сцене. \\n Заключительный розыгрыш: потратьте <Assistant_Property1> золотую прядильную нить </>*12, и на сцене обязательно останется 1 секретная марионетка. \\n3. Его можно получить через <Assistant_System> универмаг торгового центра </> различные магазины, <Assistant_System> торговый центр </> покупку, <Assistant_System> награду за ранг </> и т. д. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Get Secret Puppet]|536}"
+    "target_ru": "<Assistant_Title1>Золотая прядильная нить</>\\n<Assistant_Title2>Описание предмета:</>\\n1. Используйте золотую прядильную нить, чтобы выбрать марионетку в разделе <Assistant_System>Марионетка - Получить марионетку - Театр Утопии</>.\\n2. При каждом <Assistant_Property1>обновлении</> сцены Театра Утопии на ней появляются <Assistant_Red>3</> марионетки на выбор. Если после выбора на сцене остаются только марионетки <Assistant_Red>фиолетового</> качества, сцена обновляется автоматически.\\nВыбор пролога: тратит <Assistant_Property1>золотую прядильную нить</>*3, случайно даёт 1 из 3 марионеток на сцене.\\nВыбор середины: тратит <Assistant_Property1>золотую прядильную нить</>*6, случайно даёт 1 из оставшихся 2 марионеток на сцене.\\nВыбор финала: тратит <Assistant_Property1>золотую прядильную нить</>*12, гарантированно даёт оставшуюся 1 марионетку на сцене.\\n3. Можно получить в различных магазинах <Assistant_System>Торгового центра - Универмага</>, при покупке в <Assistant_System>Торговом центре - Бирже</>, в качестве <Assistant_System>наград за ранг</> и другими путями.\\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Получить марионетку]|536}"
   },
   {
     "id": "128387",

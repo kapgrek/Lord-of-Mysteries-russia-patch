@@ -9153,7 +9153,7 @@
     "id": "061533",
     "source_cn": "召唤星之虫幻化为的秘偶释放回旋斩击，对路径上的敌方造成伤害并<HighLight>击退</>。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash a Spinning Slash, dealing damage to enemies in its path and <HighLight>Knockback</>.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для проведения вихревого рассекающего удара, наносящего урон врагам на пути и вызывающего <HighLight>Отбрасывание</>."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для проведения вихревого рассекающего удара, наносящего урон врагам на пути и вызывающего <HighLight>Отбрасывание</>."
   },
   {
     "id": "061534",
@@ -10107,7 +10107,7 @@
     "id": "061692",
     "source_cn": "召唤星之虫幻化为的秘偶释放奇迹牌雨，对目标范围内敌方造成伤害，同时眩晕范围中心的敌方。",
     "ref_en": "Summon the marionette transformed from a Star Worm to release Miracle Card Rain, dealing damage to enemies within the target range while stunning those at the center.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, обрушивающую Дождь Чудесных Карт: наносит урон врагам в целевой области и оглушает врагов в её центре."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, обрушивающую Дождь Чудесных Карт: наносит урон врагам в целевой области и оглушает врагов в её центре."
   },
   {
     "id": "061693",
@@ -13059,7 +13059,7 @@
     "id": "062188",
     "source_cn": "重斧骑士碎片",
     "ref_en": "Axe Knight Fragment",
-    "target_ru": "Фрагмент рыцаря с топором"
+    "target_ru": "Фрагмент Рыцаря с тяжёлым топором"
   },
   {
     "id": "062189",
@@ -18213,7 +18213,7 @@
     "id": "063048",
     "source_cn": "可用于秘偶气泡豚的培养。",
     "ref_en": "Can be used for the cultivation of the marionette Bubble Puffer.",
-    "target_ru": "Можно использовать для выращивания марионетки Бабл Фугу."
+    "target_ru": "Можно использовать для развития марионетки «Пузырчатый фугу»."
   },
   {
     "id": "063049",
@@ -24015,7 +24015,7 @@
     "id": "064023",
     "source_cn": "召唤星之虫幻化的秘偶来释放惩戒，对秘偶周身4米范围内的敌方造成*d点伤害。",
     "ref_en": "Summon a marionette transformed from a Star Worm to release Punishment, dealing *d damage to enemies within 4 meters of the marionette.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, обрушивающую «Кару», которая наносит *d ед. урона врагам в радиусе 4 метров от марионетки."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, обрушивающую «Кару», которая наносит *d ед. урона врагам в радиусе 4 метров от марионетки."
   },
   {
     "id": "064024",
@@ -25323,7 +25323,7 @@
     "id": "064244",
     "source_cn": "<Assistant_Title1>秘偶培养</>\\n<Assistant_Title2>玩法说明：</>\\n1、重复获取的秘偶会转化为<Assistant_Property1>秘偶碎片</>，转化的碎片数量和秘偶品质有关。碎片可用来进行<Assistant_Property1>秘偶培养</>。\\n2、提升秘偶的培养度，会提高秘偶的<Assistant_Property1>属性增益</>。\\n3、培养度达到特定阶段时，秘偶技能也会<Assistant_Property1>升阶</>，获得<Assistant_Red>额外的技能效果</>。\\n<Assistant_Title3>推荐搜索：</>{SendAnswer:[获取秘偶]|536}",
     "ref_en": "<Assistant_Title1>Marionette Cultivation</>\\n<Assistant_Title2>Gameplay Instructions: </>\\n1. Duplicate marionettes obtained will be converted into <Assistant_Property1>Marionette Fragments</>; the number of fragments converted depends on the marionette's quality. Fragments can be used for <Assistant_Property1>Marionette Cultivation</>. \\n2. Increasing the cultivation level of a marionette will increase the marionette's <Assistant_Property1>attribute bonuses</>. \\n3. When the cultivation level reaches a certain stage, the marionette's skills will also <Assistant_Property1>Ascend</>, gaining <Assistant_Red>additional skill effects</>. \\n<Assistant_Title3>Recommended Searches: </>{SendAnswer:[Obtain marionette]|536}",
-    "target_ru": "<Assistant_Title1>Тренировка морских кукол</>\\n<Assistant_Title2>Как играть: </>\\n1. Марионетки, полученные повторно, будут преобразованы в <Assistant_Property1>морские фрагменты</>. Количество трансформированных фрагментов связано с качеством марионетки. Фрагменты можно использовать для выращивания <Assistant_Property1> Марионетки </>. \\n2. Повышение уровня развития секретной марионетки увеличит прирост атрибута <Assistant_Property1></> секретной марионетки. \\n3. Когда уровень развития достигнет определенной стадии, навыки марионетки также будут повышены с <Assistant_Property1> до </> и получат <Assistant_Red> дополнительных эффектов навыков </>. \\n<Assistant_Title3> Рекомендуемый поиск: </>{SendAnswer:[Получить секретную марионетку]|536}"
+    "target_ru": "<Assistant_Title1>Развитие марионеток</>\\n<Assistant_Title2>Как играть: </>\\n1. Повторно полученные марионетки превращаются в <Assistant_Property1>фрагменты марионеток</>; количество фрагментов зависит от качества марионетки. Фрагменты можно использовать для <Assistant_Property1>развития марионеток</>.\\n2. Повышение уровня развития марионетки увеличивает её <Assistant_Property1>прирост характеристик</>.\\n3. Когда уровень развития достигает определённой ступени, навыки марионетки тоже <Assistant_Property1>повышают ранг</> и получают <Assistant_Red>дополнительные эффекты</>.\\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Получить марионетку]|536}"
   },
   {
     "id": "064245",
@@ -26937,7 +26937,7 @@
     "id": "064515",
     "source_cn": "召唤星之虫幻化为的秘偶释放星云斩击，对目标4米范围内敌方造成*d点伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing *d damage to enemies within a 4-meter radius of the target.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для нанесения «Туманного Разреза», наносящего *d ед. урона врагам в радиусе 4 метров от цели."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для нанесения «Туманного Разреза», наносящего *d ед. урона врагам в радиусе 4 метров от цели."
   },
   {
     "id": "064516",
@@ -28365,7 +28365,7 @@
     "id": "064753",
     "source_cn": "召唤星之虫幻化为的秘偶释放星痕技能，展开星门攻击自身前方范围内的敌人。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash the Star Trace skill, deploying a Star Gate to attack enemies in a range in front of it.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой."
   },
   {
     "id": "064754",
@@ -29157,7 +29157,7 @@
     "id": "064886",
     "source_cn": "可用于秘偶重斧骑士的培养。",
     "ref_en": "Can be used for the cultivation of the marionette Heavy Axe Knight.",
-    "target_ru": "Может использоваться для выращивания марионетки Рыцаря Тяжелого Топора."
+    "target_ru": "Может использоваться для выращивания марионетки Рыцаря с тяжёлым топором."
   },
   {
     "id": "064887",

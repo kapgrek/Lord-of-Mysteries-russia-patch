@@ -14,7 +14,7 @@ return {
     ["About to leave the current plane and head to Requiem. Continue?"] = "Вы собираетесь покинуть текущую фазу и отправиться в «Реквием». Продолжить?",
     ["Please go and participate in the Hunting City Battle"] = "Пожалуйста, отправляйтесь на Битву за охотничий город",
     ["Arrodes is about to start asking questions, please be prepared, Beyonders"] = "Арродес вот-вот начнет задавать вопросы. Потусторонние, приготовьтесь!",
-    ["Summon a marionette transformed from a Worm of Star to randomly unleash either Flame Breath or Frost Breath. \nFlame Breath: Deals damage to enemies in its path and applies Grievous Injury. \nFrost Breath: Deals damage to enemies in its path and applies Slow."] = "Призывает марионетку в облике Червя Звезд, которая случайным образом применяет Огненное или Ледяное дыхание.\nОгненное дыхание: наносит урон врагам на пути и накладывает тяжелое ранение.\nЛедяное дыхание: наносит урон врагам на пути и накладывает замедление.",
+    ["Summon a marionette transformed from a Worm of Star to randomly unleash either Flame Breath or Frost Breath. \nFlame Breath: Deals damage to enemies in its path and applies Grievous Injury. \nFrost Breath: Deals damage to enemies in its path and applies Slow."] = "Призывает марионетку в облике Звёздного червя, которая случайным образом применяет Огненное или Ледяное дыхание.\nОгненное дыхание: наносит урон врагам на пути и накладывает тяжелое ранение.\nЛедяное дыхание: наносит урон врагам на пути и накладывает замедление.",
     ["You're cute"] = "Ты очень милый",
     ["Do you want to remove <Highlight>%s</> from the position of <Highlight>%s</>?"] = "Снять игрока <Highlight>%s</> с должности <Highlight>%s</>?",
     ["Textile worker (female)"] = "Ткачиха",

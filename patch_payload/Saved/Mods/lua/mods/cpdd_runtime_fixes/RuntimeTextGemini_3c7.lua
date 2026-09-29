@@ -92,7 +92,7 @@ return {
     ["No, I really don't know, goodbye."] = "Нет, я правда не знаю, до свидания.",
     ["Text Board T"] = "Текстовая доска Т",
     ["I also saw a man and a woman walking by here. That man's attire really reminds me of the serial killer case that once shocked the entire Tingen City!"] = "Я также видел, как здесь проходили мужчина и женщина. Одежда этого человека действительно напоминает мне дело о серийном убийце, которое когда-то потрясло весь Тинген-Сити!",
-    ["Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing damage to enemies within the target range."] = "Призывает марионетку, созданную из Червя Звёзд, для нанесения «Туманного Разреза», наносящего урон врагам в целевой области.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing damage to enemies within the target range."] = "Призывает марионетку, созданную из Звёздного червя, для нанесения «Туманного Разреза», наносящего урон врагам в целевой области.",
     ["Withered Vine Domain"] = "Домен засохшей лозы",
     ["View the diagram"] = "Посмотреть диаграмму",
     ["Please note, our <PVPHighlight> top lane Tier 2 Tower </> has been destroyed."] = "Обратите внимание, что наша башня </> уровня 2 на верхней полосе <PVPHighlight> была разрушена.",

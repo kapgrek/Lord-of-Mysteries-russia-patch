@@ -4,7 +4,7 @@ return {
     ["Leonard (After Conversation)"] = "Леонард (после разговора)",
     ["The lady opposite who is clearly of noble birth and I also have our own resources and connections. Perhaps one day, we can also help you handle some small matters."] = "У сидящей напротив благородной дамы и у меня есть собственные ресурсы и связи. Быть может, однажды мы сумеем помочь вам в каких-то делах.",
     ["Carol light effect 3"] = "Световой эффект Кэрол 3",
-    ["[Marionette Skill] Worm of Star - Nebula Slash - Spell Agent"] = "【Навык марионетки】Червь Звезд — Разрез туманности — Магический агент",
+    ["[Marionette Skill] Worm of Star - Nebula Slash - Spell Agent"] = "【Навык марионетки】Звёздный червь — Разрез туманности — Магический агент",
     ["\"Color School\" sparks discussion!"] = "«Школа цвета» вызывает бурные споры!",
     ["Click to fill in the Beyonder materials."] = "Нажмите, чтобы заполнить Потусторонними веществами.",
     ["Defeat the Clown phantom"] = "Победить фантом Клоуна",

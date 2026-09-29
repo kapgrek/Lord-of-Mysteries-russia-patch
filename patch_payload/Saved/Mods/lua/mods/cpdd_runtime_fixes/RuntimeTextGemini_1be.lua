@@ -265,7 +265,7 @@ return {
     ["Dream Space"] = "Пространство мечты",
     ["Thank you for your concern, I was just... have you ever confused today with yesterday when waking up from a dream at midnight?"] = "Спасибо за беспокойство, я просто... ты когда-нибудь путал сегодняшнее со вчерашним днем, когда просыпался в полночь от сна?",
     ["Head in the direction of the Dowsing Rod Navigation"] = "Направляйтесь в направлении навигационной стержня.",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a purple-quality marionette: <Highlight>Bubble Puffer</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку фиолетового качества: <Highlight>Bubble Puffer</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a purple-quality marionette: <Highlight>Bubble Puffer</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку фиолетового качества: <Highlight>Пузырчатый фугу</>.",
     ["Can effectively defend against most attacks and reduce damage. If released exactly when the enemy's attack hits, you can counter and push the enemy away."] = "Эффективно защищает от большинства атак и снижает урон. Если активировать защиту точно в момент вражеской атаки, контратакует и отталкивает противника.",
     ["Target object"] = "Целевой объект",
     ["Accounts for %s of the rate %s"] = "Счета для %s курса %s",

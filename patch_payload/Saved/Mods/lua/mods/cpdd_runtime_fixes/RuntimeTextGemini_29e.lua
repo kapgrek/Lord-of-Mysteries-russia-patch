@@ -62,7 +62,7 @@ return {
     ["That seems to be the version I heard as well..."] = "Кажется, я тоже слышал такую ​​версию...",
     ["The turntable is about to explode, evacuate the area immediately!"] = "Проигрыватель вот-вот взорвется, немедленно покиньте территорию!",
     ["Flower vendor's walking path point"] = "Прогулочная тропа продавца цветов",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Mystery</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Worm of Star — Mystery</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Mystery</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Звёздный червь · Тайна</>.",
     ["Devil"] = "Дьявол",
     ["Mother Three 8 Citizen"] = "Мать Трое 8 Гражданин",
     ["To be able to play such beautiful music in a place like the poorhouse."] = "Иметь возможность играть такую ​​прекрасную музыку в таком месте, как богадельня.",

@@ -244,7 +244,7 @@ return {
     ["Take a peek inside"] = "Загляните внутрь",
     ["<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Knowledge Pursuit</> grants 10 additional <HighLight>Mysterious Knowledge</>;\n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Star Sand</> damage is increased by 90%, grants 10 additional <HighLight>Mysterious Knowledge</>, and applies a stronger Pierce reduction;\n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">Refraction of Light</> deals 15% increased damage to monsters."] = "<HyperLink stylename=\"M_Link\" u=\"86071010\" color=\"#f4a067\">Знания в погоне за людьми</>Получите дополнительные 10 очков<HighLight>Таинственные знания</>; \n<HyperLink stylename=\"M_Link\" u=\"86071030\" color=\"#f4a067\">Урон Звездного песка</> увеличивается на 90% и получаются дополнительные 10 очков <HighLight>Таинственное знание</>, что усиливает снижение Пронзания цели; \n<HyperLink stylename=\"M_Link\" u=\"86071020\" color=\"#f4a067\">Преломление света</>Если целью атаки является монстр, урон увеличивается на 15%.",
     ["After use, obtain the title: <Highlight>Tingen Guardian</>"] = "После использования получите титул: <Highlight>Тинген Guardian</>.",
-    ["Star of Stars · Cornerstone"] = "Звезда звезд · Краеугольный камень",
+    ["Star of Stars · Cornerstone"] = "Звёздный червь · Краеугольный камень",
     ["Number of Players Reaching Target Area"] = "Количество игроков, достигших целевой области",
     ["Escape Trick"] = "Фокус с побегом",
     ["Earth Surge"] = "Земной всплеск",

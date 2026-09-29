@@ -43,7 +43,7 @@ return {
     ["You must be Klein Moretti? Little Rozanne just said you are very polite."] = "Вы, должно быть, Клейн Моретти? Маленькая Розанна только что сказала, что ты очень вежливый.",
     ["……Where is Rozanne in such a hurry to go?"] = "……Куда Розанна так спешит?",
     ["\"Master\"? \"Your Majesty\"? No, forget it. I always feel both ashamed and guilty..."] = "\"Владелец\"? «Ваше Величество»? Нет, забудь об этом. Я всегда чувствую и стыд, и вину...",
-    ["Can be used for the cultivation of the marionette Forsaken Land of the Gods Monster."] = "Может использоваться для выращивания марионетки Земля, Покинутая Богами Monster.",
+    ["Can be used for the cultivation of the marionette Forsaken Land of the Gods Monster."] = "Может использоваться для развития марионетки «Воображаемый монстр».",
     ["<Assistant_Title1>【莫尔斯小镇】</>\n<Assistant_Title2>描述：</>商城直售时装\n<Assistant_Title2>使用：</>商城购买后获得莫尔斯小镇套装，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>商城</>获取"] = "<Assistant_Title1>【Городок Морс】</>\n<Assistant_Title2>Описание: </>Наряд из магазина\n<Assistant_Title2>Использование: </>После покупки в магазине дарует комплект «Городок Морс», который можно примерить в меню <Assistant_System>Внешность — Гардероб</>.\n<Assistant_Title2>Как получить: </>Приобретается в меню <Assistant_System>Магазин</>",
     ["<P_Heart>（他过于焦虑了，是时候帮他卸下一些心里负担了！）</>"] = "<P_Heart>(Он слишком обеспокоен; пришло время помочь ему облегчить часть его умственного груза!) </>",
     ["<P_Heart>（微笑）</>我的选择和你一样。这也是我成为塔罗学派导师的原因。"] = "<P_Heart> (Улыбаясь) </> Мой выбор такой же, как и ваш. По этой же причине я стал наставником Клуба Таро.",

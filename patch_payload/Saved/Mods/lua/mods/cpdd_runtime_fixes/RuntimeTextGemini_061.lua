@@ -193,7 +193,7 @@ return {
     ["Left the coffee on the table halfway through, didn't think to drink it again even after it got cold."] = "Оставила кофе на столе на полпути и не подумала пить его снова, даже когда он остыл.",
     ["The current appearance is not unlocked."] = "Текущий внешний вид не разблокирован.",
     ["Where is the mailbox"] = "Где почтовый ящик",
-    ["Summon a marionette transformed from a Worm of Star to unleash Corona Verdict, swinging a sword beam that deals *d damage to enemies in a range in front, followed by a thrusting sword beam that deals *d damage to enemies in its path."] = "Призывает марионетку, созданную из Червя Звёзд, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую *d ед. урона врагам перед собой, после чего выпад волной наносит *d ед. урона врагам на своём пути.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Corona Verdict, swinging a sword beam that deals *d damage to enemies in a range in front, followed by a thrusting sword beam that deals *d damage to enemies in its path."] = "Призывает марионетку, созданную из Звёздного червя, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую *d ед. урона врагам перед собой, после чего выпад волной наносит *d ед. урона врагам на своём пути.",
     ["You don't seem to feel regret or pain about your own death."] = "Кажется, ты не чувствуешь сожаления или боли по поводу собственной смерти.",
     ["Ando 2"] = "Андо 2",
     ["Shepherd"] = "Пасти",

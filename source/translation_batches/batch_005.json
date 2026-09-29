@@ -10701,7 +10701,7 @@
     "id": "021786",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得金色品质的秘偶，<Highlight>星之虫·术</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Worm of Star - Art</>.",
-    "target_ru": "Возможность активировать эффект Театра Утопии и подключаться к определенным марионеткам в городе марионеток. После его использования вы сможете получить марионетку золотого качества <Highlight>Star Insect·Art</>."
+    "target_ru": "Активирует эффект Театра Утопии и подключается к определённым марионеткам из Городка марионеток. После использования вы получите марионетку золотого качества <Highlight>Звёздный червь · Искусство</>."
   },
   {
     "id": "021787",
@@ -11391,7 +11391,7 @@
     "id": "021901",
     "source_cn": "秘偶上阵有什么用",
     "ref_en": "What is the use of deploying a marionette",
-    "target_ru": "Какая польза от Секретной Марионетки?"
+    "target_ru": "Какая польза от выхода марионетки в бой?"
   },
   {
     "id": "021902",
@@ -17967,7 +17967,7 @@
     "id": "022998",
     "source_cn": "可用于秘偶星之虫·基石的培养。",
     "ref_en": "Can be used for the cultivation of the marionette Star Worm · Cornerstone.",
-    "target_ru": "Его можно использовать для выращивания Жука Тайной Марионеточной Звезды и Краеугольного Камня."
+    "target_ru": "Можно использовать для развития марионетки «Звёздный червь · Краеугольный камень»."
   },
   {
     "id": "022999",
@@ -22233,7 +22233,7 @@
     "id": "023710",
     "source_cn": "空想异怪碎片",
     "ref_en": "Imaginary Creature Fragment",
-    "target_ru": "Фрагменты фантазии"
+    "target_ru": "Фрагмент Воображаемого монстра"
   },
   {
     "id": "023711",

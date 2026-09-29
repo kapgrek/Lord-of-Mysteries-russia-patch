@@ -235,7 +235,7 @@ return {
     ["Wait, I'd like to try again, is that allowed?"] = "Подожди, я хочу попробовать еще раз, это разрешено?",
     ["Perhaps that is some kind of gift, or perhaps it is an unspeakable whisper, who knows?"] = "Может быть, это какой-то дар, а может быть, невыразимый шепот, кто знает?",
     ["I, a true Spirit Medium."] = "Я, истинный Духовный Медиум.",
-    ["Summon a marionette transformed from a Worm of Star to unleash Corona Verdict, swinging a sword beam that deals damage to enemies in a range in front, followed by a thrusting sword beam that deals damage to enemies in its path."] = "Призывает марионетку, созданную из Червя Звёзд, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую урон врагам перед собой, а последующий выпад волной наносит урон врагам на своём пути.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Corona Verdict, swinging a sword beam that deals damage to enemies in a range in front, followed by a thrusting sword beam that deals damage to enemies in its path."] = "Призывает марионетку, созданную из Звёздного червя, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую урон врагам перед собой, а последующий выпад волной наносит урон врагам на своём пути.",
     ["Pioneer's Gift (Inactive)"] = "Дар пионера (неактивный)",
     ["Open daily from 12:00 to 24:00"] = "Открыт ежедневно с 12:00 до 24:00.",
     ["Control him, three seconds!"] = "Контролируй его, три секунды!",

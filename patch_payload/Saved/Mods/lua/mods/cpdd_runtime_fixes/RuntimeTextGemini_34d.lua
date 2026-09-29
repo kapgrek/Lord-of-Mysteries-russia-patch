@@ -23,7 +23,7 @@ return {
     ["Hidden Space Placeholder - Poker J"] = "Секретная космическая ловушка-Poker J",
     ["Crowther"] = "Кроутер",
     ["Use to build a connection with Old Neil."] = "После его использования вы сможете подружиться со Старым Нилом.",
-    ["Imaginary Creature Fragment"] = "Фрагменты фантазии",
+    ["Imaginary Creature Fragment"] = "Фрагмент Воображаемого монстра",
     ["Daly Simone - 3 Star"] = "Дэйли Симона - 3 звезды",
     ["Use to obtain <Highlight>Untold Poem Top</>"] = "Используйте, чтобы получить <Highlight>Untold Poem Top</>.",
     ["Black blood, body temperature abnormally high."] = "Черная кровь, аномально высокая температура тела.",

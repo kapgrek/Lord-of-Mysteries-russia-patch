@@ -18441,7 +18441,7 @@
     "id": "038088",
     "source_cn": "召唤星之虫幻化为的秘偶释放窥秘之眼，移除秘偶周身范围内敌方部分护盾，并造成伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Eyes of Mystery Prying, removing a portion of the Shields of enemies within the marionette's radius and dealing damage.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, призывающую Око Тайноведа, которое снимает часть щитов с врагов в радиусе действия марионетки и наносит им урон."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, призывающую Око Тайноведа, которое снимает часть щитов с врагов в радиусе действия марионетки и наносит им урон."
   },
   {
     "id": "038089",
@@ -21153,7 +21153,7 @@
     "id": "038540",
     "source_cn": "记录了元素法术能力的星之虫。",
     "ref_en": "A Star of Stars that has recorded elemental spell abilities.",
-    "target_ru": "Звезда Звезд, зафиксировавшая способности стихийных заклинаний."
+    "target_ru": "Звёздный червь, зафиксировавший способности стихийных заклинаний."
   },
   {
     "id": "038541",
@@ -21453,7 +21453,7 @@
     "id": "038591",
     "source_cn": "在目标位置召唤重斧骑士使用劈击，对范围内敌人造成spellfielddisc(*id)伤害，并对中心区域的敌人70%概率造成<Highlight>眩晕</>。",
     "ref_en": "Summon an Axe Knight at the target location to perform a cleave, dealing spellfielddisc(*id) damage to enemies in range, with a 70% chance to <Highlight>Stun</> enemies in the center area.",
-    "target_ru": "Призывает Рыцаря Тяжёлого Топора в целевую точку для нанесения рубящего удара, причиняющего spellfielddisc(*id) ед. урона врагам в области действия и с вероятностью 70% вызывающего <Highlight>Оглушение</> врагов в центральной зоне."
+    "target_ru": "Призывает Рыцаря с тяжёлым топором в целевую точку для нанесения рубящего удара, причиняющего spellfielddisc(*id) ед. урона врагам в области действия и с вероятностью 70% вызывающего <Highlight>Оглушение</> врагов в центральной зоне."
   },
   {
     "id": "038592",

@@ -287,7 +287,7 @@ return {
     ["There's something wrong with my heel; it's pinching me and causing pain."] = "У меня проблема с каблуком, он натирает так, что больно.",
     ["One-click replacement will overwrite the current full set scheme"] = "Замена одним нажатием перезапишет текущий полный комплект",
     ["状态效果倒计时显示设置说明"] = "Пояснение к настройке отображения таймера эффектов состояния",
-    ["<Rate>80%</> chance for a Wishing marionette to appear. If it does not appear, it is guaranteed to appear next time."] = "<Rate>80%</> шанс появления Куклы желаний. Если она не появится, в следующий раз появление гарантировано",
+    ["<Rate>80%</> chance for a Wishing marionette to appear. If it does not appear, it is guaranteed to appear next time."] = "<Rate>80%</> шанс появления Марионетки желаний. Если она не появится, в следующий раз появление гарантировано",
     ["However, the path of a Beyonder is always dangerous and mad; heading toward loss of control and death is also expected."] = "Однако путь Потустороннего всегда был опасным и безумным; скатиться к Потере Контроля и смерти — тоже ожидаемо.",
     ["[Marionette Skill] Pufferfish Bullet LV1"] = "【Навык марионетки】Пуля фугу LV1",
     ["　　近日，廷根市警察局多次接到报案，有青少年在公共盥洗室内点燃蜡烛，向自称“盥洗室之主”的未知神灵进行祈祷。警方提醒市民：请树立正确信仰，远离一切非正统祈祷活动。"] = "Недавно в полицейское управление города Тинген поступило множество сообщений о том, что подростки зажигают свечи в общественных туалетах и ​​молятся неизвестному божеству, называющему себя «Повелителем туалета». Полиция напоминает гражданам: пожалуйста, придерживайтесь правильных убеждений и держитесь подальше от всех неортодоксальных молитвенных действий.",

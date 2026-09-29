@@ -23,7 +23,7 @@ return {
     ["Abyss Demon Mark Buff"] = "Бафф метки демона Бездны",
     ["<Highlight>Craft: </>Royal Satin・Supreme Armor・Peak King's Attire\nWhen the King arrives, an era is paved for him; when the King stands, power and strength bow before him."] = "<Highlight> Мастерство: </> Королевский шелк, превосходные доспехи, пиковая королевская униформа \n Когда придет король, эра откроется; когда царь утвердится, власть и власть преклонятся перед ним.",
     ["Key Skill"] = "Ключевые навыки",
-    ["What is the use of deploying a marionette"] = "Какая польза от Секретной Марионетки?",
+    ["What is the use of deploying a marionette"] = "Какая польза от выхода марионетки в бой?",
     ["Respawn point middle"] = "В центре точки возрождения",
     ["Water Lily Fairy Trilogy! Classic Reissue! \n 'The Birth of the Water Lily Fairy' \n She was born in the night, the lake water wove her robes, and the town's legend began here. \n 'The Dedication of the Water Lily Fairy' \n For joy and happiness, she exchanged everything for eternal daylight. \n 'The Slumber of the Water Lily Fairy' \n She sank into the heart of the lake, waiting in deep sleep for the next story to begin..."] = "Трилогия о фее кувшинок! Классическое переиздание!\n«Рождение феи кувшинок»\nОна родилась под покровом ночи, озерные воды соткали ее одеяние — так зародилась легенда городка.\n«Самопожертвование феи кувшинок»\nРади всеобщей радости и счастья она отдала все, чтобы обрести вечный день.\n«Сон феи кувшинок»\nОна опустилась на самое дно озера, погрузившись в глубокий сон в ожидании новой истории...",
     ["5230270 Two-Room Residence Plane"] = "5230270 Двухкомнатный жилой самолет",

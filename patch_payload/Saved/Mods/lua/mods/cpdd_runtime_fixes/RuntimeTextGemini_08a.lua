@@ -189,7 +189,7 @@ return {
     ["Add the official \"Lord of Mysteries Game\" corporate WeChat and bind your character to receive <HighLight> exclusive rewards!</>"] = "Добавьте официальную корпоративную игру «Властелин тайн» в корпоративный WeChat и привяжите своего персонажа, чтобы получать эксклюзивные награды <HighLight>!</>",
     ["[15] Caring About Happiness"] = "[15] Забота о счастье",
     ["GVG High Tower Effect Buff Black Emperor"] = "GVG Эффект высокой башни Бафф Черный император",
-    ["Summon a marionette transformed from a Worm of Star to unleash the Star Trace skill, deploying a Star Gate to attack enemies in a range in front of it."] = "Призывает марионетку, созданную из Червя Звёзд, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой.",
+    ["Summon a marionette transformed from a Worm of Star to unleash the Star Trace skill, deploying a Star Gate to attack enemies in a range in front of it."] = "Призывает марионетку, созданную из Звёздного червя, для применения навыка «Звёздный След»: распахивает Звёздные Врата, атакуя врагов в области перед собой.",
     ["Holy Light Purification-AOE Damage"] = "Очищение священного света — урон по площади",
     ["5230176 Kitchen Plane"] = "5230176 Измерение: Кухня",
     ["Should I try—the 'Gou' trio first?"] = "Стоит ли мне попробовать сначала трио «Гоу»?",

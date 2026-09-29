@@ -244,7 +244,7 @@ return {
     ["I-I'm sorry. Who are you?"] = "Я-мне жаль. Кто ты?",
     ["Whether to open the Fashion Corridor"] = "Стоит ли открывать Модный коридор",
     ["A visitor from beyond the sky, the remains after falling."] = "Гость из-за неба, останки после падения.",
-    ["Star of Stars · Slash"] = "Звезда звезд · Слэш",
+    ["Star of Stars · Slash"] = "Звёздный червь · Рассечение",
     ["Northwest 14"] = "Северо-Запад 14",
     ["Basic Condiments"] = "Основные приправы",
     ["I'm playing hide-and-seek with Billy! He definitely wouldn't guess that I could run this far in the time it takes him to count to one hundred."] = "Я играю в прятки с Билли! Он определенно не догадался, что я смогу пробежать так далеко за время, необходимое ему, чтобы сосчитать до ста.",

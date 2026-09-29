@@ -54,7 +54,7 @@ return {
     ["Captain, Captain Carol, this appearance... Have you been inside the Sealed Artifact all this time?"] = "Капитан, капитан Кэрол, это появление... Вы все это время находились внутри Запечатанного Артефакта?",
     ["Elevator console - Mildly damaged"] = "Консоль лифта - Слегка повреждена",
     ["How to act"] = "Как действовать",
-    ["Star of Stars · Stagnation"] = "Звезда звезд · Застой",
+    ["Star of Stars · Stagnation"] = "Звёздный червь · Застой",
     ["Brothers, the factory has owed us a month's wages, I discussed it with Leo and Santo, we won't start work today until they give us an explanation!"] = "Братцы, завод нам задолжал зарплату за месяц, я обсудил это с Лео и Санто, мы сегодня не начнем работу, пока они нам не объяснят!",
     ["You're right, perhaps... I think I should wait a little longer."] = "Возможно, ты прав... Я думаю, мне стоит подождать еще немного.",
     ["Contaminated Selena"] = "Загрязненная Селена",

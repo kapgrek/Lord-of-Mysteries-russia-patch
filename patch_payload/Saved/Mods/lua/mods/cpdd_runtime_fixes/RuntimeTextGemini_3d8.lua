@@ -95,7 +95,7 @@ return {
     ["Roselle Boss - Knowledge Extraction - Spellbook - Phase 3"] = "Босс Розеллы – Извлечение знаний – Книга заклинаний – Фаза 3",
     ["KeyboardShortcutUtils.GetShortcutKeyData: could not find the corresponding shortcut key configuration, shortcut: %s"] = "KeyboardShortcutUtils.GetShortcutKeyData: не удалось найти соответствующую конфигурацию сочетания клавиш, ярлык: %s",
     ["Only equipment of orange quality or higher can be reshaped"] = "Изменить форму можно только экипировке оранжевого качества или выше.",
-    ["A Star of Stars that has recorded the abilities of the Warrior pathway."] = "Звезда Звезд, запечатлевшая способности пути Воина.",
+    ["A Star of Stars that has recorded the abilities of the Warrior pathway."] = "Звёздный червь, запечатлевший способности Пути Воина.",
     ["What strange thing?"] = "Что странного?",
     ["Soul of the Blazing Sun"] = "Душа Вечно Пылающего Солнца",
     ["Create_Bullet"] = "Создание_Снаряд",

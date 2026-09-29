@@ -178,7 +178,7 @@ return {
     ["Beer and pudding"] = "Пиво и пудинг",
     ["Put away codex"] = "Уберите кодекс",
     ["(......... I'll ask for a few days off first, then go find Pete to clarify some things.)"] = "(...Сначала я попрошу несколько выходных, а потом найду Пита, чтобы прояснить кое-что.)",
-    ["Can be used for the cultivation of the marionette Heavy Axe Knight."] = "Может использоваться для выращивания марионетки Рыцаря Тяжелого Топора.",
+    ["Can be used for the cultivation of the marionette Heavy Axe Knight."] = "Может использоваться для выращивания марионетки Рыцаря с тяжёлым топором.",
     ["Intermediate seed, summons 1 monster after use"] = "Промежуточное семя, после использования призывает 1 монстра.",
     ["Thank you for your hard work, kind {{Mr.|Ms.}}!"] = "Спасибо за ваш труд, добрый {{Mr.|Ms.}}!",
     ["It's not the same, this one is missing a piece on the edge, it's special."] = "Это не то же самое, у этого не хватает кусочка с края, оно особенное.",

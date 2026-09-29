@@ -3945,7 +3945,7 @@
     "id": "025660",
     "source_cn": "召唤星之虫幻化为的秘偶释放烈阳颂歌，对自身12米范围内的敌方造成*d点伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Solar Anthem, dealing *d damage to enemies within a 12-meter radius of yourself.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, исполняющую «Гимн Солнца», наносящий *d ед. урона врагам в радиусе 12 метров от заклинателя."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, исполняющую «Гимн Солнца», наносящий *d ед. урона врагам в радиусе 12 метров от заклинателя."
   },
   {
     "id": "025661",
@@ -10959,7 +10959,7 @@
     "id": "026836",
     "source_cn": "记录了歌颂者途径能力的星之虫。",
     "ref_en": "A Star of Stars that has recorded the abilities of the Bard pathway.",
-    "target_ru": "Звезда Звезд, запечатлевшая способности пути Барда."
+    "target_ru": "Звёздный червь, запечатлевший способности пути Барда."
   },
   {
     "id": "026837",

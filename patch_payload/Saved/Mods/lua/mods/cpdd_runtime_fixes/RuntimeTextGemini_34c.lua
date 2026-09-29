@@ -13,7 +13,7 @@ return {
     ["The man lying in the flower field is waiting for a true love's kiss."] = "Мужчина, лежащий на цветочном поле, ждет поцелуя истинной любви.",
     ["Here, Mary, today I'm giving you the left boot; it matches the right one you received last year perfectly!"] = "Вот, Мэри, сегодня дарю тебе левый сапог — как раз в пару к тому правому, что ты получила в прошлом году!",
     ["Such a refreshing scent..."] = "Какой освежающий аромат...",
-    ["Can be used for the cultivation of the marionette Star Worm · Concealment."] = "Используется для развития марионетки «Червь Звезд: Хранение тайн».",
+    ["Can be used for the cultivation of the marionette Star Worm · Concealment."] = "Используется для развития марионетки «Звёздный червь · Хранение тайн».",
     ["Black and White Portrait"] = "Черно-белый портрет",
     ["Need to re-reason these suspicious points."] = "Нужно заново сопоставить все эти подозрительные улики.",
     ["Mechanism - Interactive"] = "Механизм — Интерактивный",

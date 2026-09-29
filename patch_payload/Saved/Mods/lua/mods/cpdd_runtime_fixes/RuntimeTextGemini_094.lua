@@ -193,7 +193,7 @@ return {
     ["<P_Heart> (Tilts head, tone surprised) </> A noble lady wants to learn this too? I thought only poor girls like me, who don't want to be laundry maids, would think of coming to the circus to find a way out."] = "<P_Heart> (наклоняет голову, удивленный тон) </> Благородная дама тоже хочет этому научиться? Я думала, что только бедные девушки вроде меня, которые не хотят быть прачками, подумают прийти в цирк, чтобы найти выход.",
     ["Xianyang"] = "Сяньян",
     ["<P_Heart> (Poor Emperor Roselle, being used by unscrupulous merchants to make up stories again...) </>"] = "<P_Heart> (Бедный император Розель, которого недобросовестные торговцы снова используют для сочинения историй...) </>",
-    ["Star of Stars · Change"] = "Звезда звезд · Изменение",
+    ["Star of Stars · Change"] = "Звёздный червь · Изменение",
     ["Hit Level"] = "Уровень попадания",
     ["Collected all materials for the Trickmaster potion"] = "Собраны все материалы для зелья Мастер Трикстер.",
     ["Positive Effect"] = "Положительный эффект",

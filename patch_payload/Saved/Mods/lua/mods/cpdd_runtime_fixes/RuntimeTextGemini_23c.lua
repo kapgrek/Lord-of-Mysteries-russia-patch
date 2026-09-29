@@ -197,7 +197,7 @@ return {
     ["First Encounter"] = "Первая встреча",
     ["Who is Rosen?"] = "Кто такой Розен?",
     ["<Assistant_Title1>【Slumber】</>\n<Assistant_Title2>Description: </>Store Direct-Purchase Fashion\n<Assistant_Title2>Usage: </>After purchasing in the store, you will obtain the Slumber set. You can click <Assistant_System>Appearance - Dress Up</> to view and use it. \n<Assistant_Title2>Obtain: </>Obtained via <Assistant_System>Store</>"] = "<Assistant_Title1>【Вечный сон】</>\n<Assistant_Title2>Описание: </>Наряд прямой покупки в магазине\n<Assistant_Title2>Применение: </>После покупки в магазине даёт комплект «Вечный сон». Можно просмотреть и применить в меню <Assistant_System>Облик — Смена наряда</>.\n<Assistant_Title2>Получение: </>Приобретается в <Assistant_System>магазине</>.",
-    ["Worm of Star"] = "Червь Звезды",
+    ["Worm of Star"] = "Звёздный червь",
     ["Instantly condense three Scarlet Hound Shadows in a fan-shaped area in front of you, launching a Bite together to deal *d damage."] = "Мгновенно материализует тени трёх алых псов в секторной области перед собой, совершая совместный укус с нанесением *d ед. урона.",
     ["Copy this to send to the loli and mature woman."] = "Скопируйте это и отправьте лоли и зрелой женщине.",
     ["That is truly shameless!"] = "Это действительно бесстыдно!",

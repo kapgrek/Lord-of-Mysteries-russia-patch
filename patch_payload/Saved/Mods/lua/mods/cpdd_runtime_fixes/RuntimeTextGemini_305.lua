@@ -85,7 +85,7 @@ return {
     ["Year %d Month %02d Day %02d"] = "Год %d Месяц %02d День %02d",
     ["Nielsen "] = "Нильсен",
     ["The Plateau battle has begun. Who will achieve victory?"] = "Битва на Плато началась. Кто добьется победы?",
-    ["Heavy Axe Knight Slow"] = "Тяжелый топор Рыцарь Медленный",
+    ["Heavy Axe Knight Slow"] = "Замедление: Рыцарь с тяжёлым топором",
     ["Current Max Health Change_Value"] = "Текущее максимальное здоровье Change_Value",
     ["Blooms three rings of thorns at the target location in sequence, each dealing <HighLight>160%</> attack damage; the third ring stuns enemies for <HighLight>1</> second."] = "Последовательно расцветает три кольца шипов в выбранном месте, каждое из которых наносит <HighLight>160%</> урона от атаки; третье кольцо оглушает врагов на <HighLight>1</> сек..",
     ["What book are you reading?"] = "Какую книгу ты читаешь?",

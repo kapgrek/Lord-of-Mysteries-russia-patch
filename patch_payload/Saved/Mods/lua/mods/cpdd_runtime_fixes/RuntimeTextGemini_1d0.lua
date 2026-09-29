@@ -16,7 +16,7 @@ return {
     ["Transfer specified stacks of a random Buff from multiple Buffs on self to target"] = "Переносит указанное количество стаков 1 случайного баффа с себя на цель",
     ["Quest: Sacred Poison World"] = "Задание: Священный яд открытого мира",
     ["Third Electric Ball"] = "Третья электрическая сфера",
-    ["[Marionette Skill] Worm of Star - Exile"] = "【Навык марионетки】 Червь Звезд: Изгнание",
+    ["[Marionette Skill] Worm of Star - Exile"] = "【Навык марионетки】 Звёздный червь: Изгнание",
     ["Alfie, I saw Bill!"] = "Алфи, я видел(а) Билла!",
     ["An exquisitely carved wall-mounted vanity mirror. The surface is clear enough to reflect every detail of one's makeup."] = "Изящно декорированное настенное трюмо. Поверхность зеркала кристально чиста и отражает каждую деталь наряда и макияжа.",
     ["<h>Ask about</> the progress of repairing the simple pot"] = "<h>Спросить</> об успехах починки простого котелка",

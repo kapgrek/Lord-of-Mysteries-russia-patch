@@ -210,7 +210,7 @@ return {
     ["Obtain %d/6000 Bounty Value."] = "Получите награду %d/6000.",
     ["Yet I forget that I cannot compose poetry."] = "Однако я забываю, что не умею сочинять стихи.",
     ["Complete 2 \"Worm of Time Treasure\""] = "Завершите 2 задания «Сокровище червя времени».",
-    ["Summon a marionette transformed from a Star Worm to release Dream Analysis, creating a domain with a 6-meter radius that continuously heals allies within the domain, restoring *d Health per second for <HighLight>6</> seconds."] = "Призывает марионетку, созданную из Червя Звёзд, проводящую «Анализ Сновидений»: создаёт поле радиусом 6 метров, непрерывно исцеляющее союзников внутри него и восстанавливающее по *d ед. здоровья в секунду на протяжении <HighLight>6</> сек.",
+    ["Summon a marionette transformed from a Star Worm to release Dream Analysis, creating a domain with a 6-meter radius that continuously heals allies within the domain, restoring *d Health per second for <HighLight>6</> seconds."] = "Призывает марионетку, созданную из Звёздного червя, проводящую «Анализ Сновидений»: создаёт поле радиусом 6 метров, непрерывно исцеляющее союзников внутри него и восстанавливающее по *d ед. здоровья в секунду на протяжении <HighLight>6</> сек.",
     ["It seems you are a sensible person."] = "Похоже, вы разумный человек.",
     ["Ash of Life"] = "Пепел жизни",
     ["Emblem"] = "Эмблема",

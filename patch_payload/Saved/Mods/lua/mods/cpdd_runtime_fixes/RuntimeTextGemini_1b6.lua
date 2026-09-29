@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 1b6/3ff.
 return {
     ["The sound of humming and gears turning... Listen closely, it seems to be coming from here..."] = "Гул и скрежет вращающихся шестеренок... Если прислушаться, кажется, будто звук доносится отсюда...",
-    ["A Star of Stars that has recorded war song amplification abilities."] = "Червь Звезд, запечатлевший способность усиления боевой песней.",
+    ["A Star of Stars that has recorded war song amplification abilities."] = "Звёздный червь, запечатлевший способность усиления боевой песней.",
     ["Craft Brewery Level 1"] = "Крафтовая пивоварня ур. 1",
     ["Equip to gain the [Beyonder Creature] bond; gain <HighLight>5%</> Attack."] = "После экипировки дает связь 【Сверхъестественное существо】; атака персонажа увеличивается на <HighLight>5%</>.",
     ["Just pretend to be spirit-mediumized."] = "Просто сделай вид, будто тебя вызвали спиритизмом.",

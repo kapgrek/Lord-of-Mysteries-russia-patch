@@ -52,7 +52,7 @@ return {
     ["'Grade 3' Somewhat dangerous"] = "«Уровень 3» Несколько опасен",
     ["Giant Dragon Subjugation Rules"] = "Правила покорения гигантского дракона",
     ["Pay attention to the orientation of the spirit avatar and the warning prompt effects."] = "Обратите внимание на ориентацию духовного аватара и эффекты предупреждающих подсказок.",
-    ["Star of Stars · Art"] = "Звезда звезд · Искусство",
+    ["Star of Stars · Art"] = "Звёздный червь · Искусство",
     ["2 Days"] = "2 дня",
     ["You have a point. Dr. Jonar, how is Miss Daisy's condition?"] = "У вас есть точка зрения. Доктор Джонар, как состояние мисс Дейзи?",
     ["Evening Primrose Bouquet"] = "Букет вечерней примулы",

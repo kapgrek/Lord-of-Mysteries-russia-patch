@@ -11,7 +11,7 @@ return {
     ["Alright, alright, ma'am, do you have a handkerchief? Clean yourself up first... Hey, I think I've seen you before!"] = "Ладно, ладно... Мисс, у вас есть платок? Сначала вытритесь... Эй, кажется, я вас где-то видел!",
     ["Dragon Hunter Gang? Frye has investigated them before, they've been quite honest these past two years."] = "Банда Драконоборцев? Фрай расследовал их дела — в последние пару лет они вели себя смирно.",
     ["What should I do? I can't finish writing! Why aren't you anxious at all?"] = "Что же делать? Я не успеваю дописать! Почему ты совсем не волнуешься?!",
-    ["You can only change appearance after shapeshifting into a Star Worm. Please shapeshift first."] = "Сменить облик можно только после перевоплощения в Червя Звезд, сначала совершите перевоплощение",
+    ["You can only change appearance after shapeshifting into a Star Worm. Please shapeshift first."] = "Сменить облик можно только после перевоплощения в Звёздного червя, сначала совершите перевоплощение",
     ["Loen Socialite"] = "Душа общества Лоэна",
     ["Defeat the monster with the specified InstanceID. Player plays speech text visible only to themselves. Delayed execution. Player plays speech text visible only to themselves."] = "Победить монстра с указанным InstanceID; игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["A legend of successful revenge."] = "Легенда об успешной мести",

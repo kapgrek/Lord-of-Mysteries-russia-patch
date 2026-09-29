@@ -215,7 +215,7 @@ return {
     ["Drag Dodge_Value"] = "Перетащите Dodge_Value",
     ["No, she never mentions these things to us. She goes away at this time every year, saying she's going to visit an old friend."] = "Нет, она никогда не упоминает нам об этих вещах. Каждый год она уезжает в это время, говоря, что собирается навестить старого друга.",
     ["Bard Soul of the Blazing Sun"] = "Бард Душа Пылающего Солнца",
-    ["Summon a marionette transformed from a Worm of Star to unleash Dream Analysis, creating a peaceful Dream Realm that continuously restores the Health of friendly units within the area."] = "Призывает марионетку, созданную из Червя Звёзд, проводящую «Анализ Сновидений»: создаёт безмятежное Поле Снов, непрерывно восстанавливающее здоровье союзников внутри него.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Dream Analysis, creating a peaceful Dream Realm that continuously restores the Health of friendly units within the area."] = "Призывает марионетку, созданную из Звёздного червя, проводящую «Анализ Сновидений»: создаёт безмятежное Поле Снов, непрерывно восстанавливающее здоровье союзников внутри него.",
     ["Mechanism 2 - Sprint mark buff - Dance 2"] = "Механизм 2 — усиление оценки спринта — танец 2",
     ["Preload - Messenger appearance"] = "Предварительная загрузка - Внешний вид Мессенджера",
     ["The cloak blends into the darkness, every inch soaked in restrained madness."] = "Плащ сливается с тьмой, каждый дюйм пропитан сдержанным безумием.",

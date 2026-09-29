@@ -303,7 +303,7 @@
     "id": "070050",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得橙色品质的秘偶，<Highlight>星之虫·神秘</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Mystery</>.",
-    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Worm of Star — Mystery</>."
+    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Звёздный червь · Тайна</>."
   },
   {
     "id": "070051",
@@ -13521,7 +13521,7 @@
     "id": "072259",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得金色品质的秘偶，<Highlight>星之虫·咏</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Worm of Star - Chant</>.",
-    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Worm of Star — Chant</>."
+    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Звёздный червь · Напев</>."
   },
   {
     "id": "072260",
@@ -16587,7 +16587,7 @@
     "id": "072771",
     "source_cn": "获得秘偶",
     "ref_en": "Obtain Marionette",
-    "target_ru": "Приручить"
+    "target_ru": "Получить марионетку"
   },
   {
     "id": "072772",

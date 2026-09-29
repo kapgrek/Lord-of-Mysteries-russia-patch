@@ -5937,7 +5937,7 @@
     "id": "090992",
     "source_cn": "星之虫",
     "ref_en": "Worm of Star",
-    "target_ru": "Червь Звезды"
+    "target_ru": "Звёздный червь"
   },
   {
     "id": "090993",
@@ -20313,7 +20313,7 @@
     "id": "093400",
     "source_cn": "召唤星之虫幻化的秘偶来释放惩戒，对秘偶周身范围内的敌方造成伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Punishment, dealing damage to enemies within the marionette's radius.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, обрушивающую «Кару», которая наносит урон врагам в радиусе действия марионетки."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, обрушивающую «Кару», которая наносит урон врагам в радиусе действия марионетки."
   },
   {
     "id": "093401",
@@ -21177,7 +21177,7 @@
     "id": "093544",
     "source_cn": "召唤星之虫幻化的秘偶来释放窥秘之眼，移除秘偶周身范围内敌方spellfielddisc(*id)点护盾，并造成spellfielddisc(*id)点伤害。",
     "ref_en": "Summon a marionette transformed from a Star Worm to release Eyes of Mystery Prying, removing spellfielddisc(*id) shield from enemies within the marionette's range and dealing spellfielddisc(*id) damage.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, призывающую Око Тайноведа: снимает spellfielddisc(*id) ед. щита у врагов в радиусе действия марионетки и наносит spellfielddisc(*id) ед. урона."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, применяющую Око Тайноведа: снимает spellfielddisc(*id) ед. щита у врагов в радиусе действия марионетки и наносит spellfielddisc(*id) ед. урона."
   },
   {
     "id": "093545",
@@ -27759,7 +27759,7 @@
     "id": "094649",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得橙色品质的秘偶，<Highlight>星之虫·变化</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Change</>.",
-    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Worm of Star — Change</>."
+    "target_ru": "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Звёздный червь · Изменение</>."
   },
   {
     "id": "094650",
@@ -29805,7 +29805,7 @@
     "id": "094991",
     "source_cn": "召唤星之虫幻化的秘偶来释放梦境分析，创建半径6米的领域，持续治疗领域范围内友方，每秒回复友方*d点生命，持续<HighLight>6</>秒。",
     "ref_en": "Summon a marionette transformed from a Star Worm to release Dream Analysis, creating a domain with a 6-meter radius that continuously heals allies within the domain, restoring *d Health per second for <HighLight>6</> seconds.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, проводящую «Анализ Сновидений»: создаёт поле радиусом 6 метров, непрерывно исцеляющее союзников внутри него и восстанавливающее по *d ед. здоровья в секунду на протяжении <HighLight>6</> сек."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, проводящую «Анализ Сновидений»: создаёт поле радиусом 6 метров, непрерывно исцеляющее союзников внутри него и восстанавливающее по *d ед. здоровья в секунду на протяжении <HighLight>6</> сек."
   },
   {
     "id": "094992",

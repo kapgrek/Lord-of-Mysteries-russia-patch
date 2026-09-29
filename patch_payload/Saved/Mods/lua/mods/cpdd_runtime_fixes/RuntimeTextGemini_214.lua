@@ -207,7 +207,7 @@ return {
     ["Exiting the Dungeon will cause you to leave the party. Continue? \n You may choose to leave the Dungeon temporarily."] = "Выход из подземелья приведет к выходу из группы. Продолжить?\nВы можете временно покинуть подземелье.",
     ["Will he really change?"] = "Он действительно изменится?",
     ["Those are not easy people to persuade. I can fully imagine your difficult situation. May the Goddess bless you!"] = "Таких людей нелегко убедить. Я вполне могу представить вашу трудную ситуацию. Пусть Богиня благословит вас!",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Heavy Axe Knight</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Heavy Axe Knight</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain a gold-quality marionette: <Highlight>Heavy Axe Knight</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку золотого качества: <Highlight>Рыцарь с тяжёлым топором</>.",
     ["Edgeless Greatsword"] = "Безграничный большой меч",
     ["You, you, you... playing dirty! This isn't fair!"] = "Ты, ты, ты... играешь грязно! Это несправедливо!",
     ["Answer revealed!"] = "Ответ раскрыт!",

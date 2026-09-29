@@ -39,7 +39,7 @@ return {
     ["Oh Goddess, I confess to You."] = "О Богиня, я признаюсь Тебе.",
     ["Find someone in the room + dialogue flow"] = "Найдите кого-нибудь в комнате + ход диалога",
     ["Acting level reached %d"] = "Уровень актерского мастерства достиг %d.",
-    ["A Star of Stars that has recorded the abilities of the Spectator pathway."] = "Звезда Звезд, зафиксировавшая способности пути Зрителя.",
+    ["A Star of Stars that has recorded the abilities of the Spectator pathway."] = "Звёздный червь, зафиксировавший способности пути Зрителя.",
     ["Head to <h>Frankie Apartment</>"] = "Отправляйтесь в квартиру <h>Фрэнки</>.",
     ["Arrange rotations within the family."] = "Организуйте ротацию внутри семьи.",
     ["All players dead or left dungeon"] = "Все игроки мертвы или покинули подземелье",

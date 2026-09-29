@@ -7689,7 +7689,7 @@
     "id": "101290",
     "source_cn": "星之虫·咏",
     "ref_en": "Star of Stars · Chant",
-    "target_ru": "Звезда звезд · Напев"
+    "target_ru": "Звёздный червь · Напев"
   },
   {
     "id": "101291",
@@ -8019,7 +8019,7 @@
     "id": "101345",
     "source_cn": "\\n\\n\\n\\n<InvHighlight>5月18日 晴</>\\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……\\n\\n\\n\\n",
     "ref_en": "\\n\\n\\n\\n<InvHighlight>May 18th, Sunny</>\\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">What is a marionette</>...\\n\\n\\n\\n",
-    "target_ru": "\n\n\n\n<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...\n\n\n\n"
+    "target_ru": "\n\n\n\n<InvHighlight>18 мая, солнечно</>\n　　Что такое <Hide stylename=\"InvDefault_HW\" id=\"#157\">марионетка</>…\n\n\n\n"
   },
   {
     "id": "101346",
@@ -8289,7 +8289,7 @@
     "id": "101392",
     "source_cn": "召唤星之虫幻化为的秘偶释放星云斩击，对目标范围内敌方造成伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing damage to enemies within the target range.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для нанесения «Туманного Разреза», наносящего урон врагам в целевой области."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для нанесения «Туманного Разреза», наносящего урон врагам в целевой области."
   },
   {
     "id": "101393",
@@ -23301,7 +23301,7 @@
     "id": "103908",
     "source_cn": "星之虫分身的弱小版，被称为小星虫，只能记录少量的力量。",
     "ref_en": "A weaker version of the Star of Stars avatar, known as a small star bug, which can only record a small amount of power.",
-    "target_ru": "Более слабая версия аватара Звезды Звезд, известная как маленький звездный жук, которая может записывать лишь небольшое количество энергии."
+    "target_ru": "Более слабая версия аватара Звёздного червя, называемая малым звёздным червём, способна записывать лишь небольшое количество силы."
   },
   {
     "id": "103909",
@@ -28917,7 +28917,7 @@
     "id": "104848",
     "source_cn": "召唤星之虫幻化的秘偶来释放梦境分析，创建祥和的梦境领域，持续回复领域中友方生命值。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Dream Analysis, creating a peaceful Dream Realm that continuously restores the Health of friendly units within the area.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, проводящую «Анализ Сновидений»: создаёт безмятежное Поле Снов, непрерывно восстанавливающее здоровье союзников внутри него."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, проводящую «Анализ Сновидений»: создаёт безмятежное Поле Снов, непрерывно восстанавливающее здоровье союзников внутри него."
   },
   {
     "id": "104849",

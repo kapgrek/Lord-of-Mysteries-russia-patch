@@ -63,7 +63,7 @@ return {
     ["Flower Scattering"] = "Цветочное рассеяние",
     ["Already applied to the target family recently, please do not repeat the operation."] = "Вы уже недавно обращались к целевой семье, пожалуйста, не повторяйте операцию.",
     ["Prologue walkthrough version - Stone sarcophagus more shattered"] = "Версия прохождения пролога — Каменный саркофаг более разрушен",
-    ["Axe Knight Fragment"] = "Фрагмент рыцаря с топором",
+    ["Axe Knight Fragment"] = "Фрагмент Рыцаря с тяжёлым топором",
     ["Retro Sofa"] = "Ретро Диван",
     ["I know, sweetheart, you love me, right! I love you too!"] = "Я знаю, дорогая, ты меня любишь, правда! Я тоже тебя люблю!",
     ["Equipment - Armor Break Aura - 3 Tiles"] = "Снаряжение — Аура пробивания брони — 3 плитки",

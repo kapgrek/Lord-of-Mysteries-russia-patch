@@ -13,7 +13,7 @@ return {
     ["You killed a Feysac recruit; is that the source of your fear?"] = "Ты убил новобранца из Фейсака, неужели в этом источник твоего страха?",
     ["Lena"] = "Лена",
     ["No, the information you checked isn't authoritative enough..."] = "Нет, найденные тобой сведения недостаточно авторитетны...",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Cornerstone</>."] = "Активирует эффект театра Утопии, связывая с определённой марионеткой из Городка Марионеток. При использовании даёт марионетку оранжевого качества: <Highlight>Червь Звезды: Краеугольный камень</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Cornerstone</>."] = "Активирует эффект театра Утопии, связывая с определённой марионеткой из Городка Марионеток. При использовании даёт марионетку оранжевого качества: <Highlight>Звёздный червь · Краеугольный камень</>.",
     ["Confession Time! Listening to Confessions in the Confessional"] = "Время исповеди! Выслушать исповедь в исповедальне",
     ["Floor Tile 8-3"] = "Плитка пола 8-3",
     ["<Gift>%s</>: Sent <Gift>%s</> a <Gift> Prank Moment - </><Gift>%s points </>!"] = "<Gift>%s</>: отправляет <Gift>%s</> подарок <Gift>«Время шалостей» — </><Gift>%s очк.</>!",

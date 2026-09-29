@@ -104,7 +104,7 @@ return {
     ["Have you noticed that since that outsider named Sylvia came, strange things have been happening constantly!"] = "Вы заметили, что с тех пор, как пришла та чужачка по имени Сильвия, постоянно происходят странные вещи!",
     ["Changing Expedition"] = "Изменение экспедиции",
     ["Swan"] = "Лебедь",
-    ["\n\n\n\n<InvHighlight>May 18th, Sunny</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">What is a marionette</>...\n\n\n\n"] = "\n\n\n\n<InvHighlight>18 мая, солнечно</>\n　<Hide stylename=\"InvDefault_HW\" id=\"#157\">Мариголд</>Что такое...\n\n\n\n",
+    ["\n\n\n\n<InvHighlight>May 18th, Sunny</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">What is a marionette</>...\n\n\n\n"] = "\n\n\n\n<InvHighlight>18 мая, солнечно</>\n　　Что такое <Hide stylename=\"InvDefault_HW\" id=\"#157\">марионетка</>…\n\n\n\n",
     ["Maximum number of group switches"] = "Максимальное количество групповых переключений",
     ["Our club's score is %s points lower than the opposing club; we have lost the war!"] = "Оценка нашего клуба на %s баллов ниже, чем у клуба-соперника; мы проиграли войну!",
     ["1.吸引AOE;\n2.场地污染;\n3.蘑菇圆形AOE+藤曼矩形AOE;\n4.持续位置跟随AOE"] = "1. Привлечь АОЕ; \n2. Загрязнение территории; \n3. Гриб круглый АОЕ + Вайнман прямоугольный АОЕ; \n4. Непрерывное положение после AOE",

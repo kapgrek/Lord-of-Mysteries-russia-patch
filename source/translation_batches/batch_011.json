@@ -1125,7 +1125,7 @@
     "id": "050188",
     "source_cn": "召唤星之虫幻化为的秘偶释放日冕裁决，挥出剑气对前方范围内的敌人造成*d点伤害，随后推出剑气对路径上的敌人造成*d点伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Corona Verdict, swinging a sword beam that deals *d damage to enemies in a range in front, followed by a thrusting sword beam that deals *d damage to enemies in its path.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую *d ед. урона врагам перед собой, после чего выпад волной наносит *d ед. урона врагам на своём пути."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для применения «Приговора Солнечной Короны»: взмах клинка выпускает волну энергии, наносящую *d ед. урона врагам перед собой, после чего выпад волной наносит *d ед. урона врагам на своём пути."
   },
   {
     "id": "050189",
@@ -17211,7 +17211,7 @@
     "id": "052884",
     "source_cn": "召唤星之虫幻化的秘偶来释放日暮飓风，持续打击秘偶周身4.5米范围内敌方，每<Highlight>0.4</>秒对周身范围内敌方造成*d点伤害与1.2秒<Highlight>25%</>减速，持续<Highlight>5</>秒。",
     "ref_en": "Summon a marionette transformed from a Star Worm to release a Sunset Hurricane, continuously striking enemies within 4.5 meters of the marionette. Every <Highlight>0.4</> seconds, it deals *d damage and applies a 1.2-second <Highlight>25%</> Slow to enemies in the area, lasting <Highlight>5</> seconds.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для вызова «Сумеречного Урагана», непрерывно поражающего врагов в радиусе 4,5 метров от марионетки: каждые <Highlight>0.4</> сек. наносит *d ед. урона и накладывает <Highlight>25%</> замедление на 1,2 сек. Длительность: <Highlight>5</> сек."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для вызова «Сумеречного Урагана», непрерывно поражающего врагов в радиусе 4,5 метров от марионетки: каждые <Highlight>0.4</> сек. наносит *d ед. урона и накладывает <Highlight>25%</> замедление на 1,2 сек. Длительность: <Highlight>5</> сек."
   },
   {
     "id": "052885",
@@ -23673,7 +23673,7 @@
     "id": "053968",
     "source_cn": "重斧骑士-法术代理",
     "ref_en": "Axe Knight - Spell Agent",
-    "target_ru": "Рыцарь Топора - Агент заклинаний"
+    "target_ru": "Рыцарь с тяжёлым топором - Агент заклинаний"
   },
   {
     "id": "053969",
@@ -25533,7 +25533,7 @@
     "id": "054280",
     "source_cn": "气泡豚",
     "ref_en": "Bubble Puffer",
-    "target_ru": "Пузырьковый пуховик"
+    "target_ru": "Пузырчатый фугу"
   },
   {
     "id": "054281",

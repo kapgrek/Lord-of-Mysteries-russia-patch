@@ -202,7 +202,7 @@ return {
     ["<P_Heart>(Marlow isn't reacting. Could it be that only I can see it?)</>"] = "<P_Heart>(Марлоу не реагирует. Может быть, только я это вижу?)</>",
     ["<P_Heart> (Staring at you for a long time again) </> ..."] = "<P_Heart> (снова долго смотрит на тебя) </>...",
     ["Side Quest: Dreams Come True, Chapter 3, Paragraph 3"] = "Побочный квест: Мечты сбываются, глава 3, абзац 3",
-    ["Star of Stars · Mystery"] = "Звезда звезд · Тайна",
+    ["Star of Stars · Mystery"] = "Звёздный червь · Тайна",
     ["Water Blade Grass Two"] = "Водяная Лезвие Травы Два",
     ["%s modified the club manifesto."] = "%s изменил манифест клуба.",
     ["Callista "] = "Каллиста",

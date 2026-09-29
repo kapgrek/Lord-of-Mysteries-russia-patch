@@ -157,7 +157,7 @@ return {
     ["Defeat the <h>thugs</> bullying the workers"] = "Победите <h>thugs</>, издевающихся над рабочими.",
     ["What a coincidence, you're here too."] = "Какое совпадение, ты тоже здесь.",
     ["Star Positioning"] = "Определение по звездам",
-    ["Obtain marionette"] = "Приручить",
+    ["Obtain marionette"] = "Получить марионетку",
     ["It's much bigger than Hoy University, where should I go... I'll ask the staff."] = "Он намного больше, чем Университет Хой, куда мне идти... Я спрошу у сотрудников.",
     ["Go to Black Box trigger"] = "Перейти к триггеру черного ящика",
     ["<Assistant_Title1>Brave One Who Reverses Fate</>\n<Assistant_Title2>Achievement Category: </>War-Driven - Competition\n<Assistant_Title2>Unlock Condition: </>Win a game of Moment of Fate while trailing by more than 1,500 points"] = "<Assistant_Title1>Герой, обративший судьбу вспять</>\n<Assistant_Title2>Категория достижения: </><Assistant_Property2>Война питает войну — Состязание</>\n<Assistant_Title2>Условие открытия: </>Победить в режиме «Миг судьбы», отставая более чем на 1500 очков",

@@ -39,7 +39,7 @@ return {
     ["Ask the furious Spectator."] = "Спросите разъяренного Зрителя.",
     ["When bOverrideAttackerSlomoTime is true, the attacker's SlomoTime must be configured and greater than 1e-4, current value: %s"] = "Если bOverrideAttackerSlomoTime имеет значение true, SlomoTime злоумышленника должно быть настроено и быть больше 1e-4, текущее значение: %s.",
     ["Male Student Vest"] = "Мужской студенческий жилет",
-    ["Axe Knight - Spell Agent"] = "Рыцарь Топора - Агент заклинаний",
+    ["Axe Knight - Spell Agent"] = "Рыцарь с тяжёлым топором - Агент заклинаний",
     ["Participate in 5 \"Dominator's Clash\" sessions"] = "Примите участие в 5 сеансах «Битвы Доминаторов».",
     ["Dim the lights"] = "Приглушите свет",
     ["How to play the marionette system"] = "Как играть в систему марионеток",

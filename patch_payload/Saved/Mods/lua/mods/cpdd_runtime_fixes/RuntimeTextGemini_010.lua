@@ -208,7 +208,7 @@ return {
     ["Right side"] = "Правая сторона",
     ["Oh no! I forgot there's still a princess waiting for me to save her!"] = "О, нет! Я забыл, что принцесса все еще ждет, пока я ее спасу!",
     ["Southwest 21"] = "Юго-Запад 21",
-    ["<Highlight>Star Worm</> type marionettes can <Highlight>Transform</> into other Beyonders. After transforming, you can <Highlight>freely dress up</>."] = "<Highlight>Star WormМарионетки типа </> могут <Highlight>Трансформировать </> в других Потусторонних. После трансформации вы можете свободно нарядить <Highlight> в </>.",
+    ["<Highlight>Star Worm</> type marionettes can <Highlight>Transform</> into other Beyonders. After transforming, you can <Highlight>freely dress up</>."] = "Марионетки типа <Highlight>Звёздный червь</> могут <Highlight>преображаться</> в других Потусторонних. После преображения можно <Highlight>свободно наряжать</> их.",
     ["<P_Heart>(Thoughtful)</> Just keep it moderate?"] = "<P_Heart>(Задумчиво)</> Просто сохранять умеренность?",
     ["However, hiding here is really too scary... I'd better go back and find Billy, and hide somewhere else next time."] = "Однако прятаться здесь действительно слишком страшно... Мне лучше вернуться и найти Билли, а в следующий раз спрятаться где-нибудь в другом месте.",
     ["Dungeon System ID occupation."] = "Занятие с идентификатором системы подземелий.",

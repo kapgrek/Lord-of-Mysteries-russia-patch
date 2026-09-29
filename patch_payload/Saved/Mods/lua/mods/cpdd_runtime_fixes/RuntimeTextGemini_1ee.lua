@@ -262,7 +262,7 @@ return {
     ["Thank you! Oh! My ri... wait, this isn't my ring!"] = "Спасибо! Ой! Мой ри... подожди, это не мое кольцо!",
     ["Gift limit reached for this item."] = "Для этого предмета достигнут лимит подарков.",
     ["Take a sip"] = "Сделай глоток",
-    ["Summon an Axe Knight at the target location to deal damage to enemies in range and Stun those in the center."] = "Призывает Рыцаря Тяжёлого Топора в целевую точку: наносит урон врагам в области действия и оглушает врагов в центре.",
+    ["Summon an Axe Knight at the target location to deal damage to enemies in range and Stun those in the center."] = "Призывает Рыцаря с тяжёлым топором в целевую точку: наносит урон врагам в области действия и оглушает врагов в центре.",
     ["Knight \n Tier 3"] = "Рыцарь\nУровень 3",
     ["Skip button (temporary)"] = "Кнопка «Пропустить» (временно)",
     ["<Highlight>{1,2,(Brand Expired)}</>Armor Break increased by <Mark>110</>, Defense decreased by <Mark>15</>. Grants the wearer the <Mark>Virtue</> of the Weil Family. \n<Mark>Virtue</>: The weapon <Mark>Land of Knowledge</> will provide additional Attack bonuses based on the <Mark>Virtue</> possessed by squad members. \nDoes not take effect when the <Mark>Covenant of Iron and Blood</> set is active."] = "<Highlight>{1,2,(срок истёк)}</>Прорыв защиты увеличивается <Mark>110</>, а защита снижается <Mark>15</>. Дает владельцу добродетель <Mark></> Домашней ласки. \n<Mark>Добродетель</>: Оружие<Mark>Земля знаний</> дополнительно увеличит эффект бонуса атаки на основе <Mark>Добродетели</>, принадлежащего членам команды. \n Не действует при активации набора <Mark> «Пакт железа и крови» </>.",

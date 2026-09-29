@@ -6201,7 +6201,7 @@
     "id": "006033",
     "source_cn": "召唤星之虫幻化为的秘偶向前方直线区域随机释放火焰吐息或者冰霜吐息。\\n火焰吐息：对路径上的敌方造成*d点伤害，并对敌方玩家附加*d秒<HighLight>68%</>的<HyperLink stylename=\"M_Link\" u=\"10\">重伤</>。\\n冰霜吐息：对路径上的敌方造成*d点伤害，并有70%概率使敌方buffdisc(*id)，持续*f秒。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to randomly unleash either Ice Flame Breath or Frost Breath in a straight line ahead. \\nIce Flame Breath: Deals *d damage to enemies in its path and inflicts <HyperLink stylename=\"M_Link\" u=\"10\">Grievous Injury</> for <HighLight>68%</> of *d seconds. \\nFrost Breath: Deals *d damage to enemies in its path and has a 70% chance to apply buffdisc(*id) to the enemy for *f seconds.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, которая случайным образом выпускает перед собой по прямой линии дыхание пламени или морозное дыхание.\nДыхание пламени: наносит *d ед. урона врагам на пути и накладывает на вражеских игроков эффект <HyperLink stylename=\"M_Link\" u=\"10\">Тяжёлое ранение</> на *d сек. с эффективностью <HighLight>68%</>.\nМорозное дыхание: наносит *d ед. урона врагам на пути и с вероятностью 70% накладывает на противника buffdisc(*id) на *f сек."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, которая случайным образом выпускает перед собой по прямой линии дыхание пламени или морозное дыхание.\nДыхание пламени: наносит *d ед. урона врагам на пути и накладывает на вражеских игроков эффект <HyperLink stylename=\"M_Link\" u=\"10\">Тяжёлое ранение</> на *d сек. с эффективностью <HighLight>68%</>.\nМорозное дыхание: наносит *d ед. урона врагам на пути и с вероятностью 70% накладывает на противника buffdisc(*id) на *f сек."
   },
   {
     "id": "006034",
@@ -7695,7 +7695,7 @@
     "id": "006282",
     "source_cn": "召唤星之虫幻化为的秘偶释放回旋斩击，对路径上的敌方造成伤害并击退。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash a Spinning Slash, dealing damage to enemies in its path and Knockback.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для кругового рубящего удара, наносящего урон врагам на пути и отбрасывающего их."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для кругового рубящего удара, наносящего урон врагам на пути и отбрасывающего их."
   },
   {
     "id": "006283",
@@ -8955,7 +8955,7 @@
     "id": "006492",
     "source_cn": "【秘偶技】星之虫-吸附",
     "ref_en": "[Marionette Skill] Worm of Star - Adsorption",
-    "target_ru": "【Навык марионетки】Червь Звёзд: притягивание"
+    "target_ru": "【Навык марионетки】Звёздный червь: притягивание"
   },
   {
     "id": "006493",
@@ -9123,7 +9123,7 @@
     "id": "006520",
     "source_cn": "召唤星之虫幻化的秘偶来释放奇迹牌雨，对目标4.5米范围内敌方造成spellfielddisc(*id)点伤害，同时以*f**的基础概率<HyperLink stylename=\"M_Link\" u=\"6\">眩晕</>范围中心的敌方0.8秒，最多<HighLight>眩晕</>2人。",
     "ref_en": "Summon a marionette transformed from a Star Worm to release Miracle Card Rain, dealing spellfielddisc(*id) damage to enemies within 4.5 meters of the target, with a base probability of *f** to <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> enemies at the center of the area for 0.8 seconds, up to <HighLight>Stun</> 2 people.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, для применения «Дождя карт чудес», наносящего spellfielddisc(*id) ед. урона врагам в радиусе 4,5 м от цели и с базовой вероятностью *f** накладывающего <HyperLink stylename=\"M_Link\" u=\"6\">Оглушение</> на врагов в центре зоны на 0,8 сек. (максимум <HighLight>оглушает</> до 2 противников)."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, для применения «Дождя карт чудес», наносящего spellfielddisc(*id) ед. урона врагам в радиусе 4,5 м от цели и с базовой вероятностью *f** накладывающего <HyperLink stylename=\"M_Link\" u=\"6\">Оглушение</> на врагов в центре зоны на 0,8 сек. (максимум <HighLight>оглушает</> до 2 противников)."
   },
   {
     "id": "006521",
@@ -11421,7 +11421,7 @@
     "id": "006903",
     "source_cn": "可用于秘偶星之虫·停滞的培养。",
     "ref_en": "Can be used for the cultivation of the marionette Star Worm · Stagnation.",
-    "target_ru": "Используется для развития марионетки Червь Звёзд · Застой."
+    "target_ru": "Используется для развития марионетки «Звёздный червь · Застой»."
   },
   {
     "id": "006904",
@@ -26961,7 +26961,7 @@
     "id": "009493",
     "source_cn": "能够激活乌托邦剧院效果，连接秘偶小镇的特定秘偶。使用后可以获得橙色品质的秘偶，<Highlight>星之虫·基石</>。",
     "ref_en": "Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Cornerstone</>.",
-    "target_ru": "Активирует эффект театра Утопии, связывая с определённой марионеткой из Городка Марионеток. При использовании даёт марионетку оранжевого качества: <Highlight>Червь Звезды: Краеугольный камень</>."
+    "target_ru": "Активирует эффект театра Утопии, связывая с определённой марионеткой из Городка Марионеток. При использовании даёт марионетку оранжевого качества: <Highlight>Звёздный червь · Краеугольный камень</>."
   },
   {
     "id": "009494",

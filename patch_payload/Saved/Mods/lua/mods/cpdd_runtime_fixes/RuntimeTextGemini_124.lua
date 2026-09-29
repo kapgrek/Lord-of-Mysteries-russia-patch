@@ -9,7 +9,7 @@ return {
     ["For an ordinary family like ours, a stable income is very important."] = "Для такой простой семьи, как наша, стабильный доход — это самое главное.",
     ["<Color_Spectator>Support Healing</>"] = "<Color_Spectator>Поддержка и лечение</>",
     ["On the opening day of the drama festival, a massive portrait will be hung from the airship."] = "В день открытия театрального фестиваля на дирижабле вывесят огромный портрет.",
-    ["Can be used for the cultivation of the marionette Star Worm · Stagnation."] = "Используется для развития марионетки Червь Звёзд · Застой.",
+    ["Can be used for the cultivation of the marionette Star Worm · Stagnation."] = "Используется для развития марионетки «Звёздный червь · Застой».",
     ["Envelope"] = "Конверт",
     ["Contains high-quality items. Confirm dismantling? %s"] = "Среди выбранного есть предметы высокого качества, подтвердить распыление? %s",
     ["Little Lina"] = "Малышка Лина",

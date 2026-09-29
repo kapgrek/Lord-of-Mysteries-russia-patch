@@ -170,7 +170,7 @@ return {
     ["Trade War"] = "Торговая война",
     ["You read my article carefully! That's right, not only that, the amount of oil has also been strictly proportioned, making it both delicious and healthy!"] = "Вы внимательно прочтите мою статью! Все верно, мало того, количество масла еще и строго пропорционально, что делает его одновременно вкусным и полезным!",
     ["A Pursuit 1022"] = "Погоня 1022",
-    ["Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing *d damage to enemies within a 4-meter radius of the target."] = "Призывает марионетку, созданную из Червя Звёзд, для нанесения «Туманного Разреза», наносящего *d ед. урона врагам в радиусе 4 метров от цели.",
+    ["Summon a marionette transformed from a Worm of Star to unleash Nebula Slash, dealing *d damage to enemies within a 4-meter radius of the target."] = "Призывает марионетку, созданную из Звёздного червя, для нанесения «Туманного Разреза», наносящего *d ед. урона врагам в радиусе 4 метров от цели.",
     ["Ball Female 2"] = "Мяч женский 2",
     ["Ahem, everyone has different concepts. Lange always teaches us not to steal; in fact, I also understand that as an orphan, sometimes stealing is a last resort."] = "Кхм, у всех разные понятия. Ланге всегда учит нас не воровать; на самом деле я тоже понимаю, что будучи сиротой, иногда воровать – это последнее средство.",
     ["Cannot enter the School of Art in the current scene."] = "Невозможно войти в Школу искусств в текущей сцене.",

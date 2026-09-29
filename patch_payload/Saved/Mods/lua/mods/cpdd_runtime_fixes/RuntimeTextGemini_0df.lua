@@ -8,7 +8,7 @@ return {
     ["Joseph"] = "Джозеф",
     ["Why are you dodging? Fight!"] = "Чего ты уворачиваешься? Бей!",
     ["This is Arnold Bishop. He might have been involved in the recent child abduction cases."] = "Это Арнольд Бишоп. Возможно, он замешан в недавних делах об исчезновении детей.",
-    ["Summon a marionette transformed from a Worm of Star to unleash a Spinning Slash, dealing damage to enemies in its path and Knockback."] = "Призывает марионетку, созданную из Червя Звёзд, для кругового рубящего удара, наносящего урон врагам на пути и отбрасывающего их.",
+    ["Summon a marionette transformed from a Worm of Star to unleash a Spinning Slash, dealing damage to enemies in its path and Knockback."] = "Призывает марионетку, созданную из Звёздного червя, для кругового рубящего удара, наносящего урон врагам на пути и отбрасывающего их.",
     ["The sky... suddenly turned crimson, obscuring everything..."] = "Небо... внезапно стало багровым, заслонив собою всё...",
     ["Xia Tianle - Hidden Space Entrance"] = "Ся Тяньлэ — Вход в скрытое пространство",
     ["Base salary 10,000 Soles"] = "Базовое жалованье: 10 000 су",

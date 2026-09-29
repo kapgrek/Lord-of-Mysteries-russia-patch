@@ -208,7 +208,7 @@ return {
     ["Dragon Horn - Front"] = "Рог Дракона — спереди",
     ["Noble Youth"] = "Благородная молодежь",
     ["Mysterious guidance; read to navigate to the nearest Moments from the Original Work gameplay."] = "Таинственное руководство; прочитайте, чтобы перейти к ближайшим моментам игрового процесса Original Work.",
-    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Change</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Worm of Star — Change</>.",
+    ["Activates the Utopia Theater effect, connecting to a specific marionette from the Marionette Small Town. Upon use, you will obtain an orange-quality marionette: <Highlight>Worm of Star - Change</>."] = "Активирует эффект Театра Утопии, подключаясь к определенной марионетке из Маленького Городка Марионеток. При использовании вы получите марионетку оранжевого качества: <Highlight>Звёздный червь · Изменение</>.",
     ["It doesn't matter if the ring can't be found; what's important is that you once had it."] = "Не имеет значения, если кольцо невозможно найти; важно то, что оно когда-то было у вас.",
     ["Team Preview"] = "Предварительный просмотр команды",
     ["lookat use"] = "посмотреть использование",

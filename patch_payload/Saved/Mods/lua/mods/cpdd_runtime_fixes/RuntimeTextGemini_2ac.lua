@@ -57,7 +57,7 @@ return {
     ["But there is a sign here that says 'No Trespassing, Violators Will Be Severely Punished'..."] = "Но здесь висит табличка: «Посторонним вход воспрещен, нарушители будут строго наказаны»…",
     ["Follow Player"] = "Следовать за игроком",
     ["Roselle Boss - Phase 1&2 - Middle Laser Damage"] = "Босс Розеллы — фазы 1 и 2 — средний лазерный урон",
-    ["Summon a marionette transformed from a Star Worm to release Punishment, dealing *d damage to enemies within 4 meters of the marionette."] = "Призывает марионетку, созданную из Червя Звёзд, обрушивающую «Кару», которая наносит *d ед. урона врагам в радиусе 4 метров от марионетки.",
+    ["Summon a marionette transformed from a Star Worm to release Punishment, dealing *d damage to enemies within 4 meters of the marionette."] = "Призывает марионетку, созданную из Звёздного червя, обрушивающую «Кару», которая наносит *d ед. урона врагам в радиусе 4 метров от марионетки.",
     ["Go Home Trigger"] = "Триггер «Иди домой»",
     ["Chapter 2 · Arnold falling down positioning"] = "Глава 2 · Позиция Арнольда при падении",
     ["Panoramic view of Tingen City \n The rain falls steadily, and the tolling of the clock echoes."] = "Панорама города Тинген\nНепрерывно моросит дождь, разносится гулкий бой городских часов.",

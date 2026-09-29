@@ -174,7 +174,7 @@ return {
     ["New face? Hello!"] = "Новое лицо? Привет!",
     ["Flag has been transferred to sub-line 2, click the bottom right to Switch sub-lines"] = "Флаг перенесен в подстроку 2. Нажмите в правом нижнем углу, чтобы переключить подстроку.",
     ["Never mind, having drive is a good thing. Let's roll up our sleeves and work hard together!"] = "Неважно, иметь драйв – это хорошо. Давайте засучить рукава и усердно работать вместе!",
-    ["A Star of Stars that has recorded elemental spell abilities."] = "Звезда Звезд, зафиксировавшая способности стихийных заклинаний.",
+    ["A Star of Stars that has recorded elemental spell abilities."] = "Звёздный червь, зафиксировавший способности стихийных заклинаний.",
     ["It's up to you, I... have no strength left..."] = "Решать тебе, у меня... сил не осталось...",
     ["Then why are you dancing by the altar?"] = "Тогда почему ты танцуешь у алтаря?",
     ["Main heading style, can only be paired with a paragraph of text, no images included."] = "Стиль основного заголовка может сочетаться только с абзацем текста, без изображений.",

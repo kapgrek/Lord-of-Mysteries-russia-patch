@@ -5835,7 +5835,7 @@
     "id": "080978",
     "source_cn": "重斧骑士减速",
     "ref_en": "Heavy Axe Knight Slow",
-    "target_ru": "Тяжелый топор Рыцарь Медленный"
+    "target_ru": "Замедление: Рыцарь с тяжёлым топором"
   },
   {
     "id": "080979",
@@ -12825,7 +12825,7 @@
     "id": "082150",
     "source_cn": "<Highlight>星之虫</>类型的秘偶，可以<Highlight>幻化</>成其他非凡者。幻化后可以<Highlight>自由装扮</>。",
     "ref_en": "<Highlight>Star Worm</> type marionettes can <Highlight>Transform</> into other Beyonders. After transforming, you can <Highlight>freely dress up</>.",
-    "target_ru": "<Highlight>Star WormМарионетки типа </> могут <Highlight>Трансформировать </> в других Потусторонних. После трансформации вы можете свободно нарядить <Highlight> в </>."
+    "target_ru": "Марионетки типа <Highlight>Звёздный червь</> могут <Highlight>преображаться</> в других Потусторонних. После преображения можно <Highlight>свободно наряжать</> их."
   },
   {
     "id": "082151",
@@ -19887,7 +19887,7 @@
     "id": "083335",
     "source_cn": "召唤星之虫幻化为的秘偶释放烈阳颂歌，造成范围伤害。",
     "ref_en": "Summon a marionette transformed from a Worm of Star to unleash Solar Anthem, dealing area damage.",
-    "target_ru": "Призывает марионетку, созданную из Червя Звёзд, исполняющую «Гимн Солнца» и наносящую урон по площади."
+    "target_ru": "Призывает марионетку, созданную из Звёздного червя, исполняющую «Гимн Солнца» и наносящую урон по площади."
   },
   {
     "id": "083336",

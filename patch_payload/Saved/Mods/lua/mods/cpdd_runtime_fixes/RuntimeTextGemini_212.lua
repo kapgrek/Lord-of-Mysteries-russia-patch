@@ -193,7 +193,7 @@ return {
     ["<h>Luna</> has something to say"] = "<h>Luna</> есть что сказать",
     ["Deals *d physical damage to the enemy target, while applying <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> for *f seconds and, for *f seconds, the effect of buffdisc(*id)."] = "Наносит *d физ. урона вражеской цели, одновременно применяя <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> на *f сек. и на *f сек. эффект buffdisc(*id).",
     ["【30】Abandon Scar"] = "【30】Оставить шрам",
-    ["A Star of Stars that has recorded battle-breaking slash abilities."] = "Звезда Звезд, обладающая разрушительными рубящими способностями.",
+    ["A Star of Stars that has recorded battle-breaking slash abilities."] = "Звёздный червь, записавший способность рассекающего удара, пробивающего строй.",
     ["Rainy Night Stealth"] = "Дождливая ночь Стелс",
     ["Raid Dungeon Reward Explanation"] = "Объяснение наград в рейдовых подземельях",
     ["Text text text text text <DarkHighlight>text text text</> text text text text text text text text text"] = "Текст текст текст текст текст <DarkHighlight>текст текст</> текст текст текст текст текст текст текст текст текст",

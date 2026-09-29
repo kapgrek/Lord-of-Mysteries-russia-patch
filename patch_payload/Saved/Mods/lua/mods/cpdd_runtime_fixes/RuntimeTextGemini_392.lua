@@ -116,7 +116,7 @@ return {
     ["Perhaps his birth spirituality met the requirements, or perhaps he is the last descendant of the Antigonus Family. There are too many possibilities..."] = "Возможно, духовность его рождения соответствовала требованиям, или, возможно, он последний потомок семьи Антигон. Слишком много возможностей...",
     ["Yesterday I was a seed, today I am going to sprout."] = "Вчера я был семенем, сегодня я прорасту.",
     ["The Wraith flashes to the center of the scene and releases <Disable>toxin bottles</> over a large area in all directions."] = "Призрак появляется в центре сцены и выпускает бутылки с токсином <Disable></> на большую площадь во всех направлениях.",
-    ["Star of Stars · Chant"] = "Звезда звезд · Напев",
+    ["Star of Stars · Chant"] = "Звёздный червь · Напев",
     ["Herbs shop announcement"] = "Объявление о магазине трав",
     ["The Door of Key is a little boy."] = "Дверь Ключа — маленький мальчик.",
     ["Whether to ignore armor break lock."] = "Игнорировать ли блокировку прорыва защиты.",

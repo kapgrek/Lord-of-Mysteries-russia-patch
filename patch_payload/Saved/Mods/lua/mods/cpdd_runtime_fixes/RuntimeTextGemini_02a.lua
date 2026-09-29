@@ -255,7 +255,7 @@ return {
     ["<Assistant_Title1>【Water Lily Town Roaming Guide】</>\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Anecdotes of the Era</>\n<Assistant_Title2>Quest Description: </>Welcome to Water Lily Town.\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 64</>, head to {Location:[Water Lily Town(134,-14)]|3733;-11328;-3242;2;5200052;0} and <Assistant_Red> read the notes </> to accept the quest.\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, invoices, Adventure Medals, World Adventure Treasure progress"] = "<Assistant_Title1>【Руководство по роумингу в Городе водяных лилий】</>\n<Assistant_Title2>Тип квеста: </><Assistant_Property2>Анекдоты эпохи</>\n<Assistant_Title2>Описание квеста: </>Добро пожаловать в Город водяных лилий.\n<Assistant_Title2>Как принять: </>После достижения уровня актерского мастерства <Assistant_Red>Уровень 64</>, отправляйтесь в {Местоположение:[Город водяных лилий(134,-14)]|3733;-11328;-3242;2;5200052;0} и <Assistant_Red> прочитайте заметки </>, чтобы принять квест.\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, счета, медали приключений, прогресс сокровищ мира",
     ["Food Interaction Point"] = "Точка взаимодействия с едой",
     ["【CS-1.2】 Daisy Falls - Second Cycle"] = "【CS-1.2】 Дейзи Фолс — второй цикл",
-    ["Star of Stars · Secrecy"] = "Звезда звезд · Тайна",
+    ["Star of Stars · Secrecy"] = "Звёздный червь · Хранение тайны",
     ["Yaw, unit °."] = "Отклонение от курса, единица °.",
     ["Skill One"] = "Навык первый",
     ["Queue Source Random Point 2"] = "Источник очереди. Случайная точка 2.",

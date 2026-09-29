@@ -221,7 +221,7 @@ return {
     ["[Performance] Paper - Down"] = "[Производительность] Бумага — вниз",
     ["Railroad Tycoon - Strategy Cards and Routes"] = "Railroad Tycoon — Стратегические карты и маршруты",
     ["Lightning Lily - Accompany Lily back to the express station"] = "Молниеносная Лили — Сопроводите Лили обратно на экспресс-станцию.",
-    ["Summon a marionette transformed from a Star Worm to release Eyes of Mystery Prying, removing spellfielddisc(*id) shield from enemies within the marionette's range and dealing spellfielddisc(*id) damage."] = "Призывает марионетку, созданную из Червя Звёзд, призывающую Око Тайноведа: снимает spellfielddisc(*id) ед. щита у врагов в радиусе действия марионетки и наносит spellfielddisc(*id) ед. урона.",
+    ["Summon a marionette transformed from a Star Worm to release Eyes of Mystery Prying, removing spellfielddisc(*id) shield from enemies within the marionette's range and dealing spellfielddisc(*id) damage."] = "Призывает марионетку, созданную из Звёздного червя, применяющую Око Тайноведа: снимает spellfielddisc(*id) ед. щита у врагов в радиусе действия марионетки и наносит spellfielddisc(*id) ед. урона.",
     ["However, I am not a \"Balam\" of the present; the country I belonged to was the Balam Empire."] = "Однако я не «Балам» настоящего; страной, к которой я принадлежал, была Империя Балам.",
     ["Location to go find Jed"] = "Место, где можно найти Джеда",
     ["Death Knell: Weakness attack button"] = "Похоронный звон: кнопка атаки на слабость.",

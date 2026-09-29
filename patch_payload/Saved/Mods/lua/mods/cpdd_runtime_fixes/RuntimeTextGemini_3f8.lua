@@ -113,7 +113,7 @@ return {
     ["Hubei"] = "Хубэй",
     ["Giant Corpse - Mount Tai Pressing Down - Spell Proxy"] = "Гигантский труп - Давление горы Тай - Прокси для заклинаний",
     ["Performance-Hide overhead information"] = "Производительность: скрыть служебную информацию",
-    ["Star of Stars · Mind"] = "Звезда Звезд · Разум",
+    ["Star of Stars · Mind"] = "Звёздный червь · Разум",
     ["Flame Jump 1"] = "Перемещение по пламени 1",
     ["Dance for a total of over 240 hours at any Dance Point in Tingen."] = "Танцуйте в общей сложности более 240 часов в любой танцевальной точке Тингена.",
     ["5231245   拉姆德古堡   单人位面"] = "5231245 Экземпляр замка Ламуд для одиночной игры",
