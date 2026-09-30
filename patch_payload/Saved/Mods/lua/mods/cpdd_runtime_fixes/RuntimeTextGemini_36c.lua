@@ -274,5 +274,6 @@ return {
     ["The system will automatically assign clubs that have not selected a faction after <Highlight> %s </>."] = "Через <Highlight>%s</> система автоматически распределит клубы, которые не выбрали фракцию",
     ["黄铜书部分挑战维护中，暂时无法完成"] = "Часть испытаний Латунной книги находится на техобслуживании и временно недоступна",
     ["William Haywood, the host of this ball, does not look like a true host. His face, in his early thirties, should have been imposing, but a faint layer of fatigue hung between his brows."] = "Уильям Хейвуд, хозяин этого бала, не выглядит настоящим хозяином. Его лицо, лицо человека лет тридцати с небольшим, должно было бы выглядеть внушительно, но между бровей залегла едва заметная тень усталости.",
+    ["<InvDefault>毛绒头饰俏皮而魅惑。渐变裙摆层叠璀璨，透出夜色的神秘。</>"] = "<InvDefault>Пушистый головной убор игрив и обольстителен. Многослойный градиентный подол переливается, выдавая тайну ночи.</>",
     ["Kailanni"] = "Кайланни",
 }

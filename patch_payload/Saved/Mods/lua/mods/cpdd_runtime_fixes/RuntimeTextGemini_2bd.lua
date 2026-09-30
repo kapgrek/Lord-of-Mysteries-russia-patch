@@ -254,4 +254,5 @@ return {
     ["西尔维娅·丰饶之树（普通）"] = "Сильвия · Древо изобилия (обычный)",
     ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight>True Knowledge of Holy Light</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["豌豆魔法引导线灵视临时版"] = "Гороховая направляющая линия магии — Истинное Зрение (Духовное), временная версия",
+    ["<InvHighlight>女款时装</><InvDefault>为轻奢晚礼裙，以</><InvHighlight>香槟金、夜蓝紫</><InvDefault>为主调。</>"] = "<InvHighlight>Женский костюм</><InvDefault> — лёгкое роскошное вечернее платье в основных тонах </><InvHighlight>шампанского золота и ночного сине-фиолетового</><InvDefault>.</>",
 }

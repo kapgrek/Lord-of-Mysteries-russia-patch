@@ -306,4 +306,5 @@ return {
     ["高原竞逐报名提醒"] = "Напоминание о регистрации на «Высокогорное состязание»",
     ["I just casually shifted a few positions in her memory, and you couldn't tell the truth from the fake yourselves."] = "Я просто слегка переставил пару моментов в её памяти, а вы сами уже не могли отличить правду от лжи.",
     ["Powerful order is incredibly dangerous. It will make you struggle in pain, but you can only doubt yourself: Did I do something wrong? You won't be able to perceive the error of the order itself."] = "Могущественный порядок невероятно опасен. Он заставит вас мучиться в боли, но вы сможете лишь сомневаться в себе: «Разве я сделал что-то не так?» Вы не сможете разглядеть ошибку самого порядка.",
+    ["沙龙华宴，茸耳盛装赴约！全新时装亮相"] = "Пир в салоне: наденьте пушистые ушки и приходите при параде! Представлен новый костюм",
 }

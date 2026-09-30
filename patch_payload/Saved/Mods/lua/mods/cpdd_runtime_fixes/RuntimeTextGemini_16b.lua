@@ -304,6 +304,7 @@ return {
     ["或许你应该放松，音乐是使人轻松、愉悦的魔法。"] = "Может, тебе стоит расслабиться, музыка — это магия, дарящая лёгкость и радость.",
     ["“生命天使”是智慧的结晶，是每个人体内永不磨灭的灵性。"] = "«Ангел Жизни» — кристаллизация мудрости, неугасимая Духовность внутри каждого человека.",
     ["An old book imbued with spirituality. The lines between the words vaguely point toward Golden Autumn Lake, seemingly hiding a \"truth\" that someone exhausted their life to pursue."] = "Старая книга, пропитанная Духовностью. Строки между строк смутно указывают на Озеро Золотой Осени, словно скрывая некую «истину», ради поиска которой кто-то отдал всю жизнь.",
+    ["<InvHighlight>10月1日（星期四）</>"] = "<InvHighlight>1 октября (четверг)</>",
     ["Removed %s listed item(s), quantity: %d"] = "Удалены выставленные товары %s, количество: %d",
     ["Go to specified Trigger location  Player plays speech text visible only to self  Delayed execution"] = "Перейти к указанному местоположению триггера. Игрок воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",
     ["没办法 只能继续逃跑了"] = "Выбора нет, надо продолжать бежать.",

@@ -244,6 +244,7 @@ return {
     ["There is too much uncertainty regarding the history of the Fourth Epoch. You should start your research from existing relics to eliminate uncertain factors."] = "В истории Четвёртой эпохи слишком много неясностей. Тебе стоит начать исследование с сохранившихся реликвий, чтобы исключить факторы неопределённости.",
     ["He was an old friend of our club and once served as our divination mentor."] = "Он старый друг нашего клуба, когда-то был у нас наставником Провидцев.",
     ["不错，这就是初步的窥密之眼，不愧是“占卜家”，只比我当初差一点点。"] = "Неплохо, это и есть начальный уровень «Ока, видящего тайны» — недаром ты «Провидец», лишь чуть слабее, чем был я в своё время.",
+    ["<InvDefault>获取时装后，各位非凡者还将同步解锁</><InvHighlight>专属头像</><InvDefault>。</>"] = "<InvDefault>Получив костюм, Потусторонние также разблокируют </><InvHighlight>эксклюзивный аватар</><InvDefault>.</>",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",
 }

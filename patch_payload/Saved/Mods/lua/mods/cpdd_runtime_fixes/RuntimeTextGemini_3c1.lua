@@ -290,6 +290,7 @@ return {
     ["It must be from <P_Yellow>Selena</>. She said she wanted to invite our family to a dinner party and also said she learned a new divination to show me."] = "Это наверняка прислала <P_Yellow>Селена</>. Она говорила, что хочет пригласить всю нашу семью на ужин, а ещё сказала, что выучила новое гадание и хочет мне показать.",
     ["[Marionette Skill] Hound Soul Leap - Hound Summon Jump Smash"] = "[Умение марионетки] Прыжок Душа Пса - Прыжковый удар призванной гончей",
     ["【扮演任务·占卜家】带上你的亲爱的"] = "[Ролевое задание · Провидец] Возьми с собой своего любимого человека",
+    ["<InvDefault>全新时装</><InvHighlight>【绒语沙龙】</><InvDefault>将上架商城，</><InvHighlight>直售价【2580金镑】</><InvDefault>。</>"] = "<InvDefault>Новый костюм </><InvHighlight>【Салон плюшевого шёпота】</><InvDefault> появится в магазине, </><InvHighlight>цена прямой продажи: 2580 золотых фунтов</><InvDefault>.</>",
     ["Chapter Two"] = "Глава 2",
     ["跟随娜拉前往金秋湖南瓜园"] = "Следуйте за Нарой к тыквенной грядке у озера Золотой Осени.",
     ["Georgina"] = "Джорджина",
