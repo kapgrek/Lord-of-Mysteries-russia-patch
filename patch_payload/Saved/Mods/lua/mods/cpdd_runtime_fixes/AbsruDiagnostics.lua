@@ -1264,6 +1264,71 @@ function D.NoteNpcTalkExact(widget, text)
     end
 end
 
+-- Late-label class probes (TASK-025 R3, probe = "loading" for Loading_Panel):
+-- session.json -> probes.<probe>.methods = { Class = [function names] } for
+-- the class and its bases up to UIComponent, and probes.<probe>.calls[] (first
+-- 30) = { t, method, before, after, repaired }: text of the first path widget
+-- before the call, after the game's method and after our repair.
+local LateProbe = { CALLS_MAX = 30, TEXT = 256, LOG_MAX = 5 }
+
+function LateProbe.entry(probe)
+    local entry = S.probes[probe]
+    if entry == nil then
+        entry = { methods = {}, calls = array() }
+        S.probes[probe] = entry
+    end
+    return entry
+end
+
+function D.ProbeLateMethods(probe, class)
+    if S.disabled or type(class) ~= "table" then
+        return
+    end
+    local entry = LateProbe.entry(tostring(probe))
+    local current, depth = class, 0
+    while type(current) == "table" and depth < 12 do
+        local name = tostring(rawget(current, "__cname"))
+        if name == "UIComponent" or entry.methods[name] ~= nil then
+            break
+        end
+        local names = array()
+        for key, member in pairs(current) do
+            if type(key) == "string" and type(member) == "function" then
+                names[#names + 1] = key
+            end
+        end
+        table.sort(names)
+        entry.methods[name] = names
+        local okParent, parentMt = pcall(getmetatable, current)
+        current = okParent and type(parentMt) == "table" and rawget(parentMt, "__index") or nil
+        depth = depth + 1
+    end
+    S.flushSoon = true
+end
+
+function D.NoteLateProbe(probe, method, before, after, repaired)
+    if S.disabled then
+        return
+    end
+    local entry = LateProbe.entry(tostring(probe))
+    local changed = before ~= after
+    if #entry.calls < LateProbe.CALLS_MAX then
+        entry.calls[#entry.calls + 1] = {
+            t = stamp("%H:%M:%S"), method = tostring(method),
+            before = before and clip(before, LateProbe.TEXT) or nil,
+            after = after and clip(after, LateProbe.TEXT) or nil,
+            repaired = repaired and clip(repaired, LateProbe.TEXT) or nil,
+        }
+        S.flushSoon = true
+    end
+    if changed then
+        S.lateProbeLogged = (S.lateProbeLogged or 0) + 1
+        if S.lateProbeLogged <= LateProbe.LOG_MAX then
+            warn("[AbsruDiag] probe " .. tostring(probe) .. " tip method=" .. tostring(method) .. " changed=1")
+        end
+    end
+end
+
 -- Settings timeline (TASK-019 R0.3): per Settings_Panel open, the first and
 -- last Refresh of the Settings_*_Item classes (class-level wrappers found on
 -- instances at UIComponent.Open) and each panel pass with its style_changes.

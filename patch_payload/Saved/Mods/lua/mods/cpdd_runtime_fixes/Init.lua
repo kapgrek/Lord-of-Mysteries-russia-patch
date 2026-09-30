@@ -10853,6 +10853,14 @@ local extendedPanelRepairDelays = {
     -- TASK-011: 0.50 / 1.00 here and all of TaskBoardPanel / NewbieGuide_MainPanel
     -- changed no label in 8-9 sessions (26-36 runs each).
     Shops_Panel = { 0.25, 2.00 },
+    -- TASK-025 R2: the loading tip is written after Open; loads last 9-17 s.
+    P_LoadingDefault = { 1.0, 2.5, 4.0, 6.0, 8.0, 10.0, 13.0, 16.0, 20.0 },
+}
+
+-- Panels whose extended passes are queued again on every Open, even when the
+-- state was not cleared by Close (a reused loading screen, TASK-025 R2).
+runtimeFixes.ExtendedEveryOpenUids = {
+    P_LoadingDefault = true,
 }
 
 -- Current-session telemetry showed that these panels translated useful text
@@ -11043,6 +11051,10 @@ function panelTextRepair:ProcessOnce(component, reason)
     if alreadyScanned then
         if not classHooked then
             self:Queue(component, true)
+        end
+        if reason == "Open" and uid ~= nil and runtimeFixes.ExtendedEveryOpenUids[tostring(uid)] then
+            state.ExtendedQueued = nil
+            self:QueueExtended(component)
         end
         return 0
     end
@@ -11851,24 +11863,45 @@ runtimeFixes.LateLabelClasses = {
         },
         methods = { "^Refresh", "^OnRefresh", "^Set" }, inherit = "^Settings_",
     },
+    -- Loading screen tip (TASK-025 R1): the game writes RTB_Tips after Open
+    -- (timer or async), past the panel's single delayed pass. probe: Diag
+    -- records the tip text around each call (probes.loading, TASK-025 R3).
+    Loading_Panel = {
+        paths = { { "RTB_Tips" } },
+        methods = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play", "Tip", "Timer", "^On" },
+        probe = "loading",
+    },
 }
 runtimeFixes.LateLabelMethodPatterns = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play" }
 
-runtimeFixes.repairLateLabels = function(comp, spec)
+runtimeFixes.findLateLabel = function(comp, path)
     local root = comp.userWidget or comp.widget
-    for _, path in ipairs(spec.paths) do
-        local node = nil
-        for index, name in ipairs(path) do
-            local owner = node or (index == 1 and (comp.view or root)) or nil
-            local found = owner and getNamedWidget(owner, name)
-            if found == nil and index == 1 and root ~= nil and owner ~= root then
-                found = getNamedWidget(root, name)
-            end
-            node = found
-            if node == nil then break end
+    local node = nil
+    for index, name in ipairs(path) do
+        local owner = node or (index == 1 and (comp.view or root)) or nil
+        local found = owner and getNamedWidget(owner, name)
+        if found == nil and index == 1 and root ~= nil and owner ~= root then
+            found = getNamedWidget(root, name)
         end
+        node = found
+        if node == nil then break end
+    end
+    return node
+end
+
+runtimeFixes.repairLateLabels = function(comp, spec)
+    for _, path in ipairs(spec.paths) do
+        local node = runtimeFixes.findLateLabel(comp, path)
         if node ~= nil then translateTextWidget(node) end
     end
+end
+
+-- Text of the spec's first path widget, for Diag probes only.
+runtimeFixes.lateLabelText = function(comp, spec)
+    local node = runtimeFixes.findLateLabel(comp, spec.paths[1])
+    if node == nil then return nil end
+    local ok, value = pcall(function() return node:GetText() end)
+    return ok and value ~= nil and tostring(value) or nil
 end
 
 runtimeFixes.lateLabelArgs = function(...)
@@ -11944,6 +11977,13 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
                 end
                 local wrapper = runtimeFixes.diagWrap("late-class:" .. className .. "." .. name, "late-class", function(self, ...)
                     local results
+                    -- TASK-025 R3: tip text before the call (Diag only).
+                    local probeDiag = classSpec.probe and runtimeFixes.Diag
+                    local probeBefore = nil
+                    if probeDiag and probeDiag.NoteLateProbe and type(self) == "table" then
+                        local okText, text = pcall(runtimeFixes.lateLabelText, self, classSpec)
+                        probeBefore = okText and text or nil
+                    end
                     if classSpec.args then
                         local count, args = runtimeFixes.lateLabelArgs(...)
                         -- TASK-023 R1: string or ID/table in the arguments (Diag only).
@@ -11956,10 +11996,20 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
                     -- Paths of the instance's own class (a subclass may share this one).
                     local ownSpec = type(self) == "table" and runtimeFixes.LateLabelClasses[tostring(rawget(self, "__cname") or self.__cname)] or nil
                     local repairSpec = ownSpec or classSpec
+                    local probeAfter = nil
+                    if probeDiag and probeDiag.NoteLateProbe and type(self) == "table" then
+                        local okText, text = pcall(runtimeFixes.lateLabelText, self, classSpec)
+                        probeAfter = okText and text or nil
+                    end
                     if type(self) == "table" and #repairSpec.paths > 0 and not self.__cpddLateLabelBusy then
                         self.__cpddLateLabelBusy = true
                         pcall(runtimeFixes.repairLateLabels, self, repairSpec)
                         self.__cpddLateLabelBusy = nil
+                    end
+                    if probeDiag and probeDiag.NoteLateProbe and type(self) == "table" then
+                        local okText, repaired = pcall(runtimeFixes.lateLabelText, self, classSpec)
+                        pcall(probeDiag.NoteLateProbe, classSpec.probe, className .. "." .. name,
+                            probeBefore, probeAfter, okText and repaired or nil)
                     end
                     return unpack(results)
                 end)
@@ -11967,6 +12017,10 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
             end
             reportInstalled("installed late-label class hook " .. className .. ": "
                 .. (#names > 0 and table.concat(names, ",") or "<none>"))
+            local d = runtimeFixes.Diag
+            if classSpec.probe and d and d.ProbeLateMethods then
+                pcall(d.ProbeLateMethods, classSpec.probe, current)
+            end
         end
         local okParent, parentMt = pcall(getmetatable, current)
         current = okParent and type(parentMt) == "table" and rawget(parentMt, "__index") or nil
