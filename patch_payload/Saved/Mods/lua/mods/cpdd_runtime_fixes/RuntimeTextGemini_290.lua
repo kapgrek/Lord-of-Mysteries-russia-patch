@@ -282,6 +282,7 @@ return {
     ["My principle is, I absolutely do not allow late rent payments!"] = "Мой принцип таков: я категорически не допускаю задержек с оплатой аренды!",
     ["[Right Stick Mode 3] Use self as the center to deal effects to a sector in front, and release a combo skill; enters cooldown after the combo is completed."] = "【Режим правого стика 3】С собой в качестве центра оказывает эффект на сектор перед собой и высвобождает комбо-навык; после завершения комбо начинается перезарядка",
     ["Black Thorn 3 Stage 5 - QTE Aura"] = "Чёрный Терновник 3, этап 5 — QTE-аура",
+    ["参与副本<Highlight>安提哥努斯笔记（普通）</>，有概率获得<Highlight>55~60装等</>的<Highlight>金色品质烙印装备</>。"] = "Участвуйте в подземелье <Highlight>«Блокнот Антигона» (обычный)</>, чтобы с некоторым шансом получить <Highlight>золотое клеймёное снаряжение</> с <Highlight>уровнем экипировки 55~60</>.",
     ["\"Travel Weekly\" Editor Andy Cairns"] = "Редактор «Еженедельника путешествий» Энди Кейнс",
     ["　　<Mark id=\"#158\">如果那天，我能</>"] = "　　<Mark id=\"#158\">Если бы в тот день я только мог...</>",
     ["经典配方迪西馅饼"] = "Классический рецепт пирога Дези",

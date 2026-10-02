@@ -212,7 +212,7 @@ return {
     ["However, the only lesson humans learn from history is that humans do not learn lessons from history."] = "Однако единственный урок, который люди извлекают из истории, заключается в том, что люди не извлекают уроков из истории.",
     ["Please develop the photos normally."] = "Пожалуйста, проявите фотографии как обычно.",
     ["Black Guard, sealing what should not be released."] = "Черный Страж, запечатывающий то, что не следует выпускать.",
-    ["Chamber of Commerce"] = "торговая палата",
+    ["Chamber of Commerce"] = "Торговая палата",
     ["Mr. Barney gains a Shield. Before the <Disable> Shield </> is broken, he will <Disable> continuously move toward Anthea </>, dealing continuous damage to his surroundings during the movement."] = "Мистер Барни получает Щит. Прежде чем щит <Disable> </> будет сломан, он будет <Disable> непрерывно двигаться к Антее </>, нанося непрерывный урон своему окружению во время движения.",
     ["[May Manor-Simple] Summon Butler Phantom to Summon Chasing Dog - Filter Any 2"] = "[May Manor-Simple] Вызов призрака дворецкого, чтобы вызвать преследующую собаку - фильтровать любые 2",
     ["Women should take their father's and husband's words as the first principle."] = "Женщины должны принимать слова своего отца и мужа как главный принцип.",

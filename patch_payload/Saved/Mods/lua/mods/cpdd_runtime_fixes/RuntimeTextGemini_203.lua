@@ -251,6 +251,7 @@ return {
     ["I looked, behind the windmill, there's something even more terrifying..."] = "Я посмотрел — за мельницей есть что-то ещё более жуткое...",
     ["Restore full Health"] = "Полностью восстанавливает здоровье",
     ["Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Seer potion materials left, otherwise you would have to wait a long time."] = "Неплохо, не поддаваться толпе — точно как я в своё время, с характером. К тому же тебе повезло: материалов для Зелья Провидца осталось ещё две порции, иначе пришлось бы долго ждать.",
+    ["已成功购买<Reminder_Orange>%d</>个%s，总共花费<Reminder_Orange>%d</>战略金镑"] = "Успешно куплено: <Reminder_Orange>%d</> шт. (%s). Всего потрачено: <Reminder_Orange>%d</> стратегических золотых фунтов",
     ["任务环ID："] = "ID цепочки заданий:",
     ["Chapter Name:"] = "Название главы:",
     ["月亮仆从的势力未被彻底消灭，仍有能力制造危机。"] = "Силы Лунного Слуги не были полностью уничтожены и все еще обладают способностью создавать кризисы.",

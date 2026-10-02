@@ -253,6 +253,7 @@ return {
     ["The ingredients here are much more lavish than in the East District. Mussels and conch from the Midseashire, cod and tuna from the Sonia Sea—as long as they arrive at the port that day, the kitchen can prepare them."] = "Продукты здесь куда роскошнее, чем в Восточном районе. Мидии и раковины из Мидсишира, треска и тунец из моря Сония — если они прибывают в порт в тот же день, кухня может их приготовить.",
     ["Personal Covenant information removed successfully."] = "Личная информация клятвы успешно снята.",
     ["[Auto Chess] - Viscountess - Triple Slash - Basic Attack 1 - New Skill Case - Sub Skill - Range Atk 1"] = "[Автошахматы]-Виконтесса-Тройной разрез-Обычная атака1-Пример нового навыка-Дочерний навык-РадиусAtk1",
+    ["<Highlight>工艺：</>湖光细纱・丰饶祝福\n纱翼飞舞着唱诵赞歌，它说大地的赐福就在每一次收获与播种之中，就如母亲的轻吻总伴随在孩童之侧。"] = "<Highlight>Ремесло:</> Озёрная тонкая вуаль · Благословение изобилия\nКрылышки вуали порхают, напевая гимн: благословение земли — в каждом урожае и каждом посеве, как лёгкий материнский поцелуй всегда рядом с ребёнком.",
     ["Giovanna"] = "Джованна",
     ["I cannot see His true appearance clearly, I only feel that this scent of abundance is familiar..."] = "Я не мог ясно разглядеть, как он выглядел на самом деле, я просто чувствовал, что эта богатая аура показалась мне знакомой...",
     ["Marci"] = "Марси",
