@@ -4022,7 +4022,7 @@ do
             entry = { size = size }
             paths[path] = entry
             pathCount = pathCount + 1
-            return entry, size
+            return entry, size, path
         end
         if size ~= nil and entry.applied ~= nil and size == entry.applied and entry.size ~= nil then
             if size ~= entry.size then
@@ -4034,12 +4034,27 @@ do
                     end
                 end
             end
-            return entry, entry.size
+            return entry, entry.size, path
         end
         -- The game set a size of its own: that is the authored one now.
         entry.size, entry.applied = size, nil
-        return entry, size
+        return entry, size, path
     end
+
+    -- Drop-cap titles (TASK-027): WBP_ComFirstBigText / WBP_ComDIYText /
+    -- KText_TitleDrug draw the first letter in Text_First, larger than the
+    -- rest in Text_Affix. They keep the size the game set.
+    local DROP_CAP_HOSTS = { "ComFirstBigText", "ComDIYText", "KText_TitleDrug" }
+    local function isDropCap(path)
+        if type(path) ~= "string" then return false end
+        local name = path:match("([^%.:]+)$")
+        if name ~= "Text_First" and name ~= "Text_Affix" then return false end
+        for _, host in ipairs(DROP_CAP_HOSTS) do
+            if path:find(host, 1, true) then return true end
+        end
+        return false
+    end
+    TF.IsDropCap = isDropCap
 
     function TF.State(widget, font)
         local st = states[widget]
@@ -4050,7 +4065,9 @@ do
         pcall(function() st.ls = tonumber(font.LetterSpacing) end)
         pcall(function() st.wls = tonumber(widget.LetterSpacing) end)
         pcall(function() st.wrap = widget.AutoWrapText == true end)
-        st.path, st.size = pathEntry(widget, st.size)
+        local path
+        st.path, st.size, path = pathEntry(widget, st.size)
+        st.dropCap = isDropCap(path)
         pcall(function() states[widget] = st end)
         return st
     end
@@ -4424,6 +4441,11 @@ do
             if widget.LetterSpacing ~= nil then widget.LetterSpacing = 0 end
             font.LetterSpacing = 0
         end
+        if st.dropCap then
+            -- Drop cap: no +2 / thresholds, the letter stays larger (TASK-027).
+            if st.size ~= nil then font.Size = st.size end
+            return false
+        end
         local orig = st.size or 18
         if orig > 36 then orig = 18 end
         local baseSize = orig + 2
@@ -4476,7 +4498,7 @@ do
         local cap = tonumber(font.Size)
         st.cap = cap
         st.applied = cap
-        if not hasCyrillic or cap == nil or text == "" then
+        if not hasCyrillic or cap == nil or text == "" or st.dropCap then
             st.run = nil
             return nil
         end
