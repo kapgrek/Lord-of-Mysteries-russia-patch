@@ -175,7 +175,6 @@ return {
     ["Outgoing Voice Volume"] = "Плеер отправляет громкость голоса",
     ["(Pointing towards the waterfall) She is right over there. I'll take you there, big brother/big sister."] = "(Указывая в сторону водопада) Она там. Я хочу взять своего старшего брата/старшую сестру, чтобы найти ее.",
     ["One-Stroke Start Point Activated State"] = "Состояние активации начальной точки одного хода",
-    ["Force"] = "#CanMoveforce#",
     ["Item"] = "Элемент",
     ["Title · Blood Prince"] = "Титул · Кровавый принц",
     ["Really? I feel like I'm dreaming. If I wake up... where else can Jem and I go? We... we can't go back."] = "Действительно? Я чувствую, что сплю. Если я проснусь... куда еще мы с Джемом сможем пойти? Мы... мы не можем вернуться.",

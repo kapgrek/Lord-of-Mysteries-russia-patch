@@ -20,7 +20,6 @@ return {
     ["Each hit of Air Bullet increases the duration of Fool's Blessing by 2 seconds (up to a maximum of 30 seconds), increases Fool's Blessing Damage Boost by 15%, and increases piercing value by 1.5x."] = "Каждое попадание «Воздушной пули» продлевает благословение Шута на 2 сек. (не более 30 сек. максимум), повышает бонус урона благословения Шута на 15% и увеличивает показатель пронзания в 1.5 раза.",
     ["Undead Disappear Trigger"] = "Триггер исчезновения нежити",
     ["<P_Heart> (Whispering) </> The young lady... she might have just walked further away to enjoy the scenery..."] = "<P_Heart>(Шёпотом)</> Барышня... возможно, она просто отошла подальше полюбоваться видами...",
-    ["Above the gray fog, is the true me."] = "Над #CanMove Grey Fog# — настоящая я.",
     ["Component Limit:"] = "Крышка компонента:",
     ["Combat Area Air Wall"] = "Воздушная стена района боевых действий",
     ["Amani "] = "Амани",

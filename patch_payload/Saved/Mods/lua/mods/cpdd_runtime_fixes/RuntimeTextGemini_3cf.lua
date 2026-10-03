@@ -3,7 +3,6 @@
 return {
     ["Damage taken reduced by *f**, movement speed increased by *f**."] = "Получаемый урон снижен на *f**, скорость передвижения повышена на *f**.",
     ["Quarter-finals (Best of 3)"] = "1/4 финала (до двух побед)",
-    ["Revenge"] = "#CanMoveМесть#",
     ["Aren't you going home yet? It's getting dark."] = "Вы еще не идете домой? Скоро стемнеет.",
     ["　　Today, Harold Department Store has stocked new ladies' dresses, men's shirt and trouser suits, as well as silk top hats and gold-inlaid canes that every gentleman must have. Regarding this, the boss said: \"These goods are the latest styles imported from overseas. Everyone is welcome to come and shop.\"..."] = "　　Сегодня в универмаг «Гарольд» поступили новые женские платья, мужские комплекты из рубашек и брюк, а также обязательные для каждого джентльмена шелковые цилиндры и трости с золотым набалдашником. Владелец заявил: «Все эти товары — новейшие фасоны, доставленные из-за океана. Приглашаем всех за покупками...»",
     ["Upgrading the Archives can activate more training projects and increase the level cap for training."] = "Улучшение архива открывает больше направлений тренировок и повышает максимальный уровень развития.",
@@ -39,6 +38,7 @@ return {
     ["Silver Rapier 5"] = "Серебряная рапира 5",
     ["Why can't I get down?"] = "Почему я не могу спуститься?",
     ["Click to view the <Orange> Vehicle </> you just obtained."] = "Нажмите, чтобы просмотреть только что полученный автомобиль <Orange> </>.",
+    ["Revenge"] = "Месть",
     ["Your combat skills still need some remedial lessons."] = "Ваши боевые навыки все еще нуждаются в некоторых уроках.",
     ["Ancient Divine Melody"] = "Древняя божественная мелодия",
     ["Passerby Smelling Flowers"] = "Прохожий, нюхающий цветы",

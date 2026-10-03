@@ -5,7 +5,6 @@ return {
     ["Lena! My brain and my heart, every organ in my body! They are all saying—I love you!"] = "Лина! Мой разум и мое сердце, каждая клеточка, каждый орган моего тела — всё кричит о том, как я люблю тебя!",
     ["Consumed 10 shared spiritual power, successfully strengthened the Spirit World creature to level 2!"] = "Потрачено 10 ед. общей духовности: существо духовного мира усилено до 2-го уровня!",
     ["Because it is no longer our era; it is yours, and even more so, the era of technology. Think about it, isn't shooting more important for you police officers than hand-to-hand combat?"] = "Потому что наше время уже прошло. Теперь настал ваш век — и век технологий. Подумай сам, разве для вас, полицейских, стрельба не важнее рукопашного боя?",
-    ["At"] = "#CanMoveВ#",
     ["Rye Tea"] = "Ржаной чай",
     ["Empty shot 1"] = "План без персонажей 1",
     ["Rare: Pearl Caviar"] = "Редк. · Жемчужная икра",
@@ -38,6 +37,7 @@ return {
     ["Little Mouse 3"] = "Маленький мышонок 3",
     ["Interact with door 5"] = "Взаимодействуйте с дверью 5.",
     ["Angie Walk 1"] = "Энджи Уок 1",
+    ["At"] = "В",
     ["        祂还没有放弃污染我、利用我，哪怕只是一抹被遗留在非凡特性里的残存意识……"] = "Он еще не отказался от развращения и использования меня, даже если это всего лишь остаток сознания, оставшийся в чертах Потустороннего...",
     ["-分线99"] = "-Подлиния 99",
     ["0表示不设置命中最小间隔"] = "0 означает, что минимальный интервал попадания не установлен.",
@@ -269,6 +269,7 @@ return {
     ["At least he didn't fall on the battlefield, and we had the chance to spend this time together."] = "По крайней мере, он не погиб на поле боя, и у нас был шанс провести это время вместе.",
     ["【秘偶技】星之虫-奇迹牌雨"] = "[Умение марионетки] Звёздный Червь - Дождь Карт Чудес",
     ["<h>Ask</> about information on these Sequences"] = "<h>Расспросить</> об этих Последовательностях",
+    ["进入持续*f秒的<HighLight>烈阳</>状态，获得*f秒<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>。\n获得被动效果<HighLight>烈阳之魂</>。\n\n<FaintYellow>烈阳</>：自身移动速度增加*f**，战斗技能获取<HighLight>太阳能量</>的效率增加，<HighLight>正义审判</>与<HighLight>异端裁决</>的触发难度降低；普通攻击<HighLight>烈阳斩</>、<HighLight>无暗之枪</>和<HighLight>惩戒</>获得强化。\n<FaintYellow>烈阳之魂</>：自身受到致命伤害时，保留1点生命并获得*f秒<HyperLink stylename=\"M_Link\" u=\"1\">无敌</>，解除所受的<HyperLink stylename=\"M_Link\" u=\"3\">控制效果</>。期间增伤提升*f**（每多1名敌人，增伤额外提升*f**，最大提升mul(*f**,*d)），<HighLight>无暗之枪</>的冷却时长缩减为0，同时每0.25秒获得5点<HighLight>太阳能量</>。自身获得<HighLight>80%</>的<HyperLink stylename=\"M_Link\" u=\"10\">重伤</>效果，每击败1名敌人<HyperLink stylename=\"M_Link\" u=\"16\">固定回复</>20%生命。<HighLight>烈阳之魂</>拥有*f秒内置冷却。"] = "Входит в состояние <HighLight>Палящего солнца</> на *f сек. и получает <HyperLink stylename=\"M_Link\" u=\"11\">суперброню</> на *f сек.\nПолучает пассивный эффект <HighLight>Душа палящего солнца</>.\n\n<FaintYellow>Палящее солнце</>: скорость передвижения увеличивается на *f**, боевые навыки эффективнее накапливают <HighLight>энергию Солнца</>, срабатывание <HighLight>Праведного суда</> и <HighLight>Приговора еретикам</> облегчается; обычные атаки <HighLight>Удар палящего солнца</>, <HighLight>Копьё без тьмы</> и <HighLight>Возмездие</> усиливаются.\n<FaintYellow>Душа палящего солнца</>: при получении смертельного урона сохраняет 1 ед. здоровья, получает <HyperLink stylename=\"M_Link\" u=\"1\">неуязвимость</> на *f сек. и снимает действующие <HyperLink stylename=\"M_Link\" u=\"3\">эффекты контроля</>. В это время урон повышается на *f** (за каждого дополнительного врага повышается ещё на *f**, максимум mul(*f**,*d)), перезарядка <HighLight>Копья без тьмы</> сокращается до 0, а каждые 0,25 сек. персонаж получает 5 ед. <HighLight>энергии Солнца</>. Персонаж получает <HighLight>80%</> эффекта <HyperLink stylename=\"M_Link\" u=\"10\">тяжёлого ранения</>, а за каждого побеждённого врага <HyperLink stylename=\"M_Link\" u=\"16\">фиксированно восстанавливает</> 20% здоровья. У <HighLight>Души палящего солнца</> есть встроенная перезарядка *f сек.",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

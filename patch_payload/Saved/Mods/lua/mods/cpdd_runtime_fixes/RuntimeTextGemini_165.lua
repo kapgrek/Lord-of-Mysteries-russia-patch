@@ -289,6 +289,7 @@ return {
     ["These hateful seagulls seem to only want to do this one thing for their whole lives."] = "Кажется, эти несносные чайки всю свою жизнь хотят заниматься только одним делом.",
     ["[Rumor] After Nightmare hits a target, it weakens the target's Skill Block for 5 seconds."] = "【Слух】После попадания Кошмара по цели ослабляется блок навыков цели на 5 сек.",
     ["{{player.name}}对{{targetPlayer.name}}进行了安魂——很显然失败了，自身损失了<Chat_Highlight>{{eventMessageParams.N}}</>点理智。"] = "{{player.name}} провёл Отпевание над {{targetPlayer.name}} — очевидно, неудачно, и сам потерял <Chat_Highlight>{{eventMessageParams.N}}</> очков рассудка.",
+    ["别随便往楼下泼水啊！"] = "Не выплёскивайте воду вниз с лестницы!",
     ["Wells"] = "Уэллс",
     ["教会活动上，主教送给我们蜡烛。那蜡烛不用点燃就能发光，惨白惨白的，省下一大笔蜡烛钱……可用久了，心里总是发冷。"] = "На церковном мероприятии архиерей подарил нам свечи. Свечи светились, не зажигаясь, бледно-белые, экономя много денег на свечи... но после долгого их использования у меня всегда было холодно на сердце.",
 }

@@ -248,5 +248,6 @@ return {
     ["What's this about a haunted ancestral home you mentioned?"] = "Что там за история с родовым домом с призраками, о которой ты упоминал?",
     ["Grade 0 Sealed Artifact... what do I need to pay attention to?"] = "Запечатанный артефакт 0-го уровня... на что нужно обратить внимание?",
     ["……Is the result of your divination correct?"] = "...Ваше предсказание верно?",
+    ["分线选择"] = "Выбор линии",
     ["前往指定Trigger位置  对象播放指定对白内容"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанный диалог.",
 }

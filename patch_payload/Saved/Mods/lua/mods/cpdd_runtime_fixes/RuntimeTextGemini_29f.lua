@@ -57,7 +57,6 @@ return {
     ["How many baskets of cotton yarn are left?"] = "Сколько корзин хлопчатобумажной пряжи осталось?",
     ["Clock Face"] = "Циферблат",
     ["Huanggang"] = "Хуанган",
-    ["Rich Man"] = "#CanMoveБогач#",
     ["Products from the workshop can be <Highlight>Sold</> in the market to convert into castle assets."] = "Продукты из мастерской можно <Highlight>Sold</> продать на рынке и конвертировать в активы замка.",
     ["Sealed Artifact Upgrade Material"] = "Материал для улучшения Запечатанного Артефакта",
     ["Obtain Item 2005497"] = "Получить предмет 2005497",

@@ -24,7 +24,6 @@ return {
     ["Function_Damage Deepening"] = "Функция_Усиление урона",
     ["Observing the Butler"] = "Наблюдайте за экономкой",
     ["Damn it! I submitted my course selection form the first moment it opened. Why was I rejected!"] = "Черт возьми! Я, очевидно, сразу же подал заявку на выбор курса, так почему же я все равно потерпел неудачу!",
-    ["Power"] = "#CanMovePower#",
     ["Thank you. I heard that something happened to the servant, and it troubled you to retrieve these books for us."] = "Спасибо. Я слышал, что что-то случилось со слугой, и тебя побеспокоило вернуть нам эти книги.",
     ["Valdo"] = "Вальдо",
     ["At the same time, she was also a kind and generous mother."] = "В то же время она была доброй и щедрой матерью.",

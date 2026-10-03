@@ -26,7 +26,6 @@ return {
     ["Street - South District Avenue - West"] = "Улица-Южный район Авеню-Запад",
     ["By the way, I met the butler of May Manor. He is recruiting short-term workers to prune the apple orchard."] = "Кстати, я встретил дворецкого Мэй-Мэнора. Он набирает краткосрочных рабочих для обрезки яблоневого сада.",
     ["Is the treasure chest yours to open? Did you ask our Dragon Hunter Gang?"] = "Сундук с сокровищами вам предстоит открыть? Вы спрашивали нашу банду охотников на драконов?",
-    ["Is"] = "#CanMoveЭто#",
     ["XeSS Frame Generation"] = "Генерация кадров XeSS",
     ["Iron Guard"] = "Железный страж",
     ["Confession Time! The Confessional's Final Confession"] = "Время исповеди! Последняя исповедь исповедника",

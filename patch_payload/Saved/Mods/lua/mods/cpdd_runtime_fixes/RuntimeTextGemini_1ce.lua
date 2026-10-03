@@ -273,6 +273,7 @@ return {
     ["{{先生|女士}}, I used to be a Magician, skilled at escaping from cages in front of everyone's eyes."] = "{{Господин|Госпожа}}, когда-то я был фокусником, умел выбираться из клеток на глазах у всех.",
     ["【雾林眷族】棋子每次普攻获得<HighLight>1</>层【苔影汲取】，每层获得<HighLight>2%</>吸血和<HighLight>1%</>最大生命，最多叠加<HighLight>6</>层。"] = "Фигуры [Сородичи Туманного леса] при каждой автоатаке получают <HighLight>1</> стак [Впитывания тени мха]; каждый стак даёт <HighLight>2%</> похищения жизни и <HighLight>1%</> максимального здоровья, максимум <HighLight>6</> стак(ов).",
     ["[Rumor] Using the Spirit Mediumship Ritual will summon Dunn's spirit body, providing 10% Acceleration to allies in range and reducing the movement speed of enemies in range by 10%."] = "【Слух】При использовании Ритуала медиумизма призывается духовное тело Дунна, дающее союзникам в радиусе действия 10% ускорения и снижающее скорость передвижения врагов в радиусе на 10%.",
+    ["猫！猫！猫！到处都是猫！"] = "Кошки! Кошки! Кошки! Кругом кошки!",
     ["Marisol"] = "Марисоль",
     ["<DPS>来输出</>"] = "<DPS>Нужен урон</>",
 }
