@@ -1991,6 +1991,69 @@ local function noteImage(job, widget, brush)
     }, IMAGE_ORDER)
 end
 
+-- Texts only the walk sees (TASK-028 R3): Init.lua reports every widget path
+-- translateTextWidget gets (D.NoteSeenPath, up to 8192). A walked text with
+-- an exact shard key whose translation has no CJK is still on screen as is ->
+-- session.json probes.walk_exact[] (unique "path|text", up to 100):
+-- { t, panel, path, text, walk = seconds after Open, seen = path reached our passes }.
+local WalkExact = { MAX = 100, PATH = 512, TEXT = 256, SEEN_MAX = 8192 }
+
+function D.NoteSeenPath(path)
+    if S.disabled or type(path) ~= "string" then
+        return
+    end
+    local seen = S.seenPaths
+    if seen == nil then
+        seen = {}
+        S.seenPaths = seen
+        S.seenPathCount = 0
+    end
+    if seen[path] or S.seenPathCount >= WalkExact.SEEN_MAX then
+        return
+    end
+    seen[path] = true
+    S.seenPathCount = S.seenPathCount + 1
+end
+
+function WalkExact.note(job, widget, text)
+    local lookup = S.lookupText
+    if lookup == nil then
+        return
+    end
+    local list = S.probes.walk_exact
+    if list ~= nil and #list >= WalkExact.MAX then
+        return
+    end
+    local cjk, _, latin = classify(text)
+    if not (cjk or latin) then
+        return
+    end
+    local ok, hit = pcall(lookup, text)
+    if not ok or type(hit) ~= "string" or hit == "" or hit == text or (classify(hit)) then
+        return
+    end
+    local path = objectPath(widget) or objectName(widget) or "?"
+    local key = path .. "|" .. text
+    S.walkExactSeen = S.walkExactSeen or {}
+    if S.walkExactSeen[key] then
+        return
+    end
+    S.walkExactSeen[key] = true
+    if list == nil then
+        list = array()
+        S.probes.walk_exact = list
+    end
+    list[#list + 1] = {
+        t = stamp("%H:%M:%S"), panel = job.uid, path = clip(path, WalkExact.PATH),
+        text = clip(text, WalkExact.TEXT), walk = job.walk,
+        seen = S.seenPaths ~= nil and S.seenPaths[path] == true,
+    }
+    S.flushSoon = true
+    if #list == 1 then
+        warn("[AbsruDiag] probe walkexact n=1")
+    end
+end
+
 local function visitWidget(job, widget)
     local getText = nil
     pcall(function() getText = widget.GetText end)
@@ -2000,6 +2063,7 @@ local function visitWidget(job, widget)
             local text = ok and value ~= nil and tostring(value) or nil
             if text ~= nil and text ~= "" then
                 processTextWidget(widget, text, nil, nil, job.uid, "panel:" .. job.uid .. ":walk", "walk")
+                WalkExact.note(job, widget, text)
             end
         end
         return
@@ -2117,7 +2181,9 @@ local function processDelayed(now)
             if component ~= nil then
                 if #S.walkJobs < WALK_JOBS_MAX then
                     local started = nowMs()
-                    S.walkJobs[#S.walkJobs + 1] = newWalkJob(component, entry.uid)
+                    local job = newWalkJob(component, entry.uid)
+                    job.walk = entry.delay and entry.delay / 1000 or nil
+                    S.walkJobs[#S.walkJobs + 1] = job
                     track("walk", started)
                 else
                     S.dropped.walk_jobs = S.dropped.walk_jobs + 1
@@ -2164,7 +2230,7 @@ function D.OnPanelOpen(component)
                     S.dropped.delayed = S.dropped.delayed + 1
                 else
                     walks = walks + 1
-                    S.delayed[#S.delayed + 1] = { due = now + delay, ref = keep(component), uid = uid }
+                    S.delayed[#S.delayed + 1] = { due = now + delay, ref = keep(component), uid = uid, delay = delay }
                 end
             end
         end
@@ -2946,13 +3012,14 @@ function D.Start(loader, runtimeFixes, version)
     return true
 end
 
--- helpers = { getWidgetList = fn, runtimeMetrics = table } from Init.lua.
+-- helpers = { getWidgetList = fn, runtimeMetrics = table, lookupText = fn } from Init.lua.
 function D.Attach(helpers)
     if type(helpers) ~= "table" then
         return
     end
     S.getWidgetList = helpers.getWidgetList
     S.getNamedWidget = helpers.getNamedWidget
+    S.lookupText = helpers.lookupText
     S.metrics = helpers.runtimeMetrics
     if not S.disabled and type(S.metrics) == "table" and (cfg.Untranslated or cfg.Hooks) then
         S.metrics.CaptureDataAssignment = D.CaptureDataAssignment

@@ -62,6 +62,7 @@ public class FastShardCompiler {
         int translatedCount = 0;
         int enMappedCount = 0;
         int enSkippedNoLetter = 0;
+        int enSkippedMarker = 0;
 
         Regex itemRegex = new Regex(@"""source_cn""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""ref_en""\s*:\s*""((?:\\""|[^""])*)""\s*,\s*""target_ru""\s*:\s*""((?:\\""|[^""])*)""", RegexOptions.Compiled);
         // Keys with leading/trailing whitespace: the runtime trims only the looked-up string, not the key (TASK-012 A3).
@@ -95,8 +96,12 @@ public class FastShardCompiler {
                 // Also map English reference to Russian translation so text rendered
                 // from CPDD English overlays or baked text gets translated to Russian.
                 // Only keys with a letter: "3" from "3个" -> "3 шт." would hit every bare number in UI (TASK-016).
+                // Marker strings ("#CanMove我#" with ref_en "I") and single Latin letters would turn
+                // key prompts like "I" into "#CanMoveЯ#" (TASK-028 R1).
                 if (!string.IsNullOrEmpty(en) && !string.IsNullOrEmpty(ru) && !HasLetter(en)) {
                     enSkippedNoLetter++;
+                } else if (!string.IsNullOrEmpty(en) && !string.IsNullOrEmpty(ru) && IsMarkerOrSingleLetterEn(cn, en)) {
+                    enSkippedMarker++;
                 } else if (!string.IsNullOrEmpty(en) && !string.IsNullOrEmpty(ru)) {
                     string keyEn = ComputeSourceKey(en);
                     string shardEn = GetShardPrefix(keyEn);
@@ -376,7 +381,7 @@ public class FastShardCompiler {
             }
         }
 
-        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ", обрезанных ключей: " + trimmedCount + ", EN-ключей без букв пропущено: " + enSkippedNoLetter + ")");
+        Console.WriteLine("Загружено строк: " + totalLoaded + " (переведено на русский: " + translatedCount + ", EN->RU алиасов: " + enMappedCount + ", обрезанных ключей: " + trimmedCount + ", EN-ключей без букв пропущено: " + enSkippedNoLetter + ", enSkippedMarker: " + enSkippedMarker + ")");
         Console.WriteLine("Запись в 1024 Lua-шарда...");
 
         // UTF-8 without BOM, LF line endings (AGENTS.md §5)
@@ -415,6 +420,12 @@ public class FastShardCompiler {
                 .Replace(@"\u003e", ">")
                 .Replace(@"\u0027", "'")
                 .Replace(@"\u0026", "&");
+    }
+
+    private static bool IsMarkerOrSingleLetterEn(string cn, string en) {
+        if (cn != null && cn.IndexOf("#CanMove", StringComparison.Ordinal) >= 0 && en.IndexOf("#CanMove", StringComparison.Ordinal) < 0) return true;
+        string t = en.Trim();
+        return t.Length == 1 && ((t[0] >= 'A' && t[0] <= 'Z') || (t[0] >= 'a' && t[0] <= 'z'));
     }
 
     private static bool HasLetter(string s) {

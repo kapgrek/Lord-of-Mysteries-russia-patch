@@ -2505,7 +2505,7 @@ local function walkWidgetDescendants(owner, visited, visitor)
         walkWidgetDescendants(widget, visited, visitor)
     end
 end
-if runtimeFixes.Diag then runtimeFixes.Diag.Attach({ getWidgetList = getWidgetList, getNamedWidget = getNamedWidget, runtimeMetrics = runtimeMetrics }) end
+if runtimeFixes.Diag then runtimeFixes.Diag.Attach({ getWidgetList = getWidgetList, getNamedWidget = getNamedWidget, runtimeMetrics = runtimeMetrics, lookupText = lookupGeminiText }) end
 
 runtimeFixes.normalizeLocalizedLargeNumbers = function(value)
     if type(value) ~= "string" then
@@ -4796,6 +4796,27 @@ local function translateTextWidget(widget, discoveryContext)
         return 0
     end
     if npcTalkExact ~= nil and d and d.NoteNpcTalkExact then pcall(d.NoteNpcTalkExact, widget, currentText) end
+
+    -- TASK-028 R3: paths our passes reach, for probes.walk_exact (Diag only).
+    local widgetPath = nil
+    if d and d.NoteSeenPath then
+        pcall(function() widgetPath = tostring(widget:GetPathName()) end)
+        if widgetPath ~= nil then pcall(d.NoteSeenPath, widgetPath) end
+    end
+    -- Key prompts (TASK-028 R2): Latin key names ("I", "Enter", "Home") hit EN
+    -- keys of unrelated strings. Chinese labels ("空格") are still translated.
+    if currentText ~= nil and #currentText <= 24 and not hasCjk(currentText) then
+        local isKeyPrompt = wName == "text_key_lua"
+        -- The path is read only when an exact key would change the text.
+        if not isKeyPrompt and (widgetPath ~= nil or lookupGeminiText(currentText) ~= nil) then
+            if widgetPath == nil then pcall(function() widgetPath = tostring(widget:GetPathName()) end) end
+            isKeyPrompt = type(widgetPath) == "string" and widgetPath:find("WBP_KeyPrompt", 1, true) ~= nil
+        end
+        if isKeyPrompt then
+            noteSkip("keyprompt")
+            return 0
+        end
+    end
 
     local repairedCount = 0
     local translated = nil
@@ -11864,7 +11885,13 @@ end
 -- WBP_NPCTalk_Text itself or P_NPCTalk, hence both paths.
 runtimeFixes.LateLabelClasses = {
     TaskBoardPanel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
-    Task_Main_Panel = { paths = { { "WBP_Task_StoryBtn", "Text_Name" } } },
+    -- probe (TASK-028 R3): "Plot Overview" stays English with OnRefresh
+    -- hooked; Diag records the class methods and Text_Name around each call.
+    Task_Main_Panel = {
+        paths = { { "WBP_Task_StoryBtn", "Text_Name" } },
+        methods = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^On", "Story", "Tab" },
+        probe = "taskstory",
+    },
     FellowPage = { paths = { { "WBP_PartnerSkill", "KGTextBlock_52" } } },
     WorkshopUp_Panel = { paths = { { "Text_Up" } } },
     NPCTalkTextComp = { paths = { { "RTB_TalkContent" }, { "WBP_NPCTalk_Text", "RTB_TalkContent" } }, args = true },

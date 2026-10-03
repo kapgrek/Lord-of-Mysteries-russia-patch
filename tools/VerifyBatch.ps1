@@ -271,6 +271,17 @@ foreach ($file in $files) {
             Write-Host "  [WARN $fileName ID:$id] en_plural: English plural on a Russian word: $ru" -ForegroundColor Yellow
             $fileWarnings++
         }
+
+        # 11. ref_en unusable as an EN key: ShardCompiler skips it (enSkippedMarker), e.g. "#CanMove我#" with ref_en "I" (TASK-028 R1)
+        if (-not [string]::IsNullOrEmpty($en) -and -not [string]::IsNullOrEmpty($ru)) {
+            if ($cn.Contains('#CanMove') -and -not $en.Contains('#CanMove')) {
+                Write-Host "  [WARN $fileName ID:$id] en_marker: source_cn has #CanMove but ref_en does not: '$en'" -ForegroundColor Yellow
+                $fileWarnings++
+            } elseif ($en.Trim() -cmatch '^[A-Za-z]$') {
+                Write-Host "  [WARN $fileName ID:$id] en_single_letter: ref_en is a single Latin letter '$($en.Trim())' (no EN key)" -ForegroundColor Yellow
+                $fileWarnings++
+            }
+        }
     }
 
     $statusColor = if ($fileErrors -gt 0) { "Red" } elseif ($fileWarnings -gt 0) { "Yellow" } else { "Green" }

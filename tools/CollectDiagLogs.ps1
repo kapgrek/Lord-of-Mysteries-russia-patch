@@ -785,6 +785,53 @@ foreach ($sid in $selected) {
     [void]$sb.AppendLine('')
 }
 if ($skipRows -eq 0) { [void]$sb.AppendLine('Записей `text_skip` нет.') }
+# TASK-028 R3: probes.walk_exact — text with an exact shard key seen only by the walk; probes.taskstory — Task_Main_Panel late hook.
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('## Пробы TASK-028')
+[void]$sb.AppendLine('')
+[void]$sb.AppendLine('`walk_exact`: обход диагностики видит текст с точным ключом (перевод без CJK), а текст не изменён. `seen = True` — путь хоть раз приходил в `translateTextWidget` (текст ставится позже проходов); `False` — наши проходы до виджета не доходят. `walk` — секунды после `Open`.')
+[void]$sb.AppendLine('')
+$walkRows = 0
+foreach ($sid in $selected) {
+    $probes = Get-V $sessions[$sid].Session 'probes'
+    if (-not $probes) { continue }
+    $walks = @(@(Get-V $probes 'walk_exact') | Where-Object { $_ })
+    if ($walks.Count -gt 0) {
+        [void]$sb.AppendLine("Сессия ``$sid``, записей: $($walks.Count).")
+        [void]$sb.AppendLine('')
+        [void]$sb.AppendLine('| seen | walk | panel | text | path |')
+        [void]$sb.AppendLine('|---|---|---|---|---|')
+        foreach ($w in $walks) {
+            $path = [string](Get-V $w 'path')
+            $path = $path -replace '^/Engine/Transient\.[^:]*:[^.]*\.', ''
+            [void]$sb.AppendLine("| $(Get-V $w 'seen') | $(Get-V $w 'walk') | $(Cell ([string](Get-V $w 'panel'))) | $(Cell ([string](Get-V $w 'text'))) | $(Cell $path) |")
+            $walkRows++
+        }
+        [void]$sb.AppendLine('')
+    }
+    $story = Get-V $probes 'taskstory'
+    if ($story) {
+        $methods = Get-V $story 'methods'
+        if ($methods) {
+            foreach ($prop in $methods.PSObject.Properties) {
+                [void]$sb.AppendLine("- ``$sid`` методы ``$($prop.Name)``: $(@($prop.Value) -join ', ')")
+            }
+            [void]$sb.AppendLine('')
+        }
+        $calls = @(@(Get-V $story 'calls') | Where-Object { $_ })
+        if ($calls.Count -gt 0) {
+            [void]$sb.AppendLine("``taskstory`` (``Task_Main_Panel``, ``Text_Name`` до вызова / после метода игры / после нашего ремонта; пусто — ``findLateLabel`` не нашёл виджет), ``$sid``:")
+            [void]$sb.AppendLine('')
+            [void]$sb.AppendLine('| t | method | before | after | repaired |')
+            [void]$sb.AppendLine('|---|---|---|---|---|')
+            foreach ($c in $calls) {
+                [void]$sb.AppendLine("| $(Get-V $c 't') | $(Cell ([string](Get-V $c 'method'))) | $(Cell ([string](Get-V $c 'before'))) | $(Cell ([string](Get-V $c 'after'))) | $(Cell ([string](Get-V $c 'repaired'))) |")
+            }
+            [void]$sb.AppendLine('')
+        }
+    }
+}
+if ($walkRows -eq 0) { [void]$sb.AppendLine('Записей `walk_exact` нет.') }
 Write-Text (Join-Path $reportDir 'late.md') $sb.ToString()
 
 # 7. Непереведённое --------------------------------------------------------------------------------
