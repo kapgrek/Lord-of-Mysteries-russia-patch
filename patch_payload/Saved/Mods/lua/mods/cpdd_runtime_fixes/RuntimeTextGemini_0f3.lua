@@ -190,7 +190,7 @@ return {
     ["Camera watching the two leave"] = "Камера наблюдает за тем, как двое уходят",
     ["5231282 Sinful Tingen Single-Player Instance"] = "5231282 Одиночное измерение: Sinful Тинген",
     ["A paint bucket? There's still some red paint inside. It seems this is what the prankster used."] = "Ведро с краской? Внутри еще осталось немного красной краски. Кажется, этим и воспользовался шутник.",
-    ["Savant"] = "Савант",
+    ["Savant"] = "Знаток",
     ["I'm sorry, I don't have any work to introduce to you."] = "Извините, у меня нет работы, которую я мог бы вам представить.",
     ["You took my full damage, it must hurt"] = "Ты взял на себя весь мой урон, это должно быть больно",
     ["Unlock character creation"] = "Разблокировать создание персонажа",

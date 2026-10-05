@@ -154,7 +154,7 @@ return {
     ["Players in a state of Stagnation cannot move or use skills. <Highlight>You can speed up the removal of this state by pressing buttons</>."] = "Игроки в состоянии стагнации не могут двигаться и использовать навыки. <Highlight> Ускорить удаление этого состояния можно нажатием кнопок </>.",
     ["Super Arrow Tower"] = "Башня Супер Стрел",
     ["What is the use of Order attributes"] = "Как используются атрибуты заказа",
-    ["Witch Sect"] = "Секта ведьм",
+    ["Witch Sect"] = "Секта Демониц",
     ["It's been a long time since I... Aurora... has she forgotten me?"] = "Давно я... Аврора... она меня забыла?",
     ["Deals *d damage, with damage increased to *d in the center area."] = "Наносит *d ед. урона; урон в центральной зоне увеличивается до *d ед.",
     ["Oh no, I might have sprinkled <P_Yellow>Biological Growth Agent</> on the cake instead of shredded coconut!"] = "О нет, я мог бы посыпать торт <P_Yellow>биологическим агентом роста </> вместо тертого кокоса!",

@@ -67,7 +67,7 @@ return {
     ["InPath = effect blueprint path, (sx, sy, sz, sw, px, py, pz) = transform."] = "InPath = путь к проекту эффекта, (sx, sy, sz, sw, px, py, pz) = преобразование.",
     ["Lower Half of Face"] = "Нижняя половина лица",
     ["Skill Settings"] = "Настройки навыков",
-    ["Hermit School"] = "Школа Отшельника",
+    ["Hermit School"] = "Школа Тайн",
     ["Is it in use? If so, check if parameters need to be refactored \n (Used extensively in boss mechanics)."] = "Используется ли? Если да, проверить, требуется ли изменить параметры\n(активно используется в механиках боссов)",
     ["Mentioned you: %s"] = "Вас упомянул: %s",
     ["I understand... Jonar, please let me talk to {{him|her}}<P_Yellow> alone</>."] = "Я понимаю... Джонар, пожалуйста, позволь мне поговорить с {{him|her}}<P_Yellow> наедине</>.",

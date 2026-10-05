@@ -242,7 +242,7 @@ return {
     ["Zhuzhou"] = "Чжучжоу",
     ["Pain Burst"] = "Боль",
     ["Still haven't found any formal and effective Ritual Magic today..."] = "Сегодня до сих пор не найдено формальной и эффективной Ритуальной Магии...",
-    ["Berserker"] = "Берсеркер",
+    ["Berserker"] = "Берсерк",
     ["By then, I will offer all the lambs of Tingen City to the Lord."] = "К тому времени я принесу в жертву Господу всех ягнят города Тинген.",
     ["Final Trigger 4"] = "Финальный триггер 4",
     ["Preece"] = "Прис",

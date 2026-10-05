@@ -23,7 +23,7 @@ return {
     ["The sky turned into a torrent... The young girl suddenly disappeared..."] = "Небо превратилось в поток... девушка вдруг исчезла...",
     ["I owe my success to one person, and that is—"] = "Я могу дойти до этого благодаря одному человеку, и это——",
     ["Zihang"] = "Цзиханг",
-    ["Bond"] = "Связь",
+    ["Bond"] = "Резонанс",
     ["Quest use - Range"] = "Использование в квесте - Диапазон",
     ["Shop carefully"] = "Делайте покупки осторожно",
     ["Horse"] = "Лошадь",

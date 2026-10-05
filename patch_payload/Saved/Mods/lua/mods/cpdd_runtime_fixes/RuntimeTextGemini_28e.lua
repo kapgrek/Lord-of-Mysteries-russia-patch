@@ -220,7 +220,7 @@ return {
     ["Introduced by a friend"] = "Представлено другом",
     ["Rifts in the rules spread here, the starting point for distorting all old things."] = "Здесь распространились разломы в правилах, отправная точка для искажения всего старого.",
     ["Materials required for upgrading Connection Skills."] = "Материалы, необходимые для улучшения навыков соединения.",
-    ["Law Enforcer"] = "Правоохранитель",
+    ["Law Enforcer"] = "Юрист",
     ["Only the party leader can set the target."] = "Только лидер партии может установить цель.",
     ["Initial Action"] = "Первоначальное действие",
     ["Is it an enemy?"] = "Это враг?",
