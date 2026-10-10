@@ -3861,9 +3861,13 @@ end
 -- Game terms (mode names) inside user-content widgets (TASK-022 R1):
 -- "Вы инициировали подбор игроков 愚者棋局." Only standalone runs from this
 -- list are replaced by an exact shard hit; nicknames are never looked up.
+-- TASK-030: only inside a translated (Cyrillic) template; a bare "愚者棋局"
+-- in Manor_Order/Text_Name is a nickname and stays.
 runtimeFixes.UserContentTermFragments = { ["愚者棋局"] = true }
+runtimeFixes.UserContentTermReported = {}
 runtimeFixes.translateUserContentTerms = function(value)
     if type(value) ~= "string" or not hasCjk(value) then return value end
+    if not runtimeFixes.hasCyrillic(value) then return value end
     local terms = runtimeFixes.UserContentTermFragments
     local ideograph = "[\228-\233][\128-\191][\128-\191]"
     local parts, position = {}, 1
@@ -3879,7 +3883,13 @@ runtimeFixes.translateUserContentTerms = function(value)
         local run = value:sub(first, last)
         if terms[run] and runtimeFixes.isStandaloneCjkRun(value, first, last) then
             local hit = lookupGeminiText(run)
-            if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then run = hit end
+            if type(hit) == "string" and hit ~= "" and not hasCjk(hit) then
+                if not runtimeFixes.UserContentTermReported[run] then
+                    runtimeFixes.UserContentTermReported[run] = true
+                    reportVerbose("user-content term " .. run)
+                end
+                run = hit
+            end
         end
         parts[#parts + 1] = run
         position = last + 1
