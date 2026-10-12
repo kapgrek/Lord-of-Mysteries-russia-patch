@@ -3457,6 +3457,13 @@ stepFull = function()
     end
     stepCalib(J, now)
     stepTimeline(J, now)
+    -- AssetExport.RewalkMs: re-walk the open panel on a timer, for panels whose
+    -- content changes without a signature change (map zoom levels, TASK-018 map).
+    if cfg.RewalkMs ~= nil and J.walk == nil and #J.pendingWalks == 0
+        and now - (J.lastRewalk or J.openedMs) >= cfg.RewalkMs then
+        J.lastRewalk = now
+        J.pendingWalks[1] = { reason = "timer", at = now }
+    end
     stepWalks(J, now)
     stepSnapshot(J, now)
     stepPoll(J, now)
@@ -3575,6 +3582,7 @@ function E.Start(loader, runtimeFixes, version, diag)
     cfg.SnapshotBudgetMs = tonumber(flags.SnapshotBudgetMs) or 12
     cfg.MaxFiles = tonumber(flags.MaxFiles) or K.FILES_MAX
     cfg.MaxMB = tonumber(flags.MaxMB) or K.MB_MAX
+    cfg.RewalkMs = tonumber(flags.RewalkMs)
     if type(flags.Panels) == "table" then
         for _, name in ipairs(flags.Panels) do
             cfg.Panels[#cfg.Panels + 1] = tostring(name)
