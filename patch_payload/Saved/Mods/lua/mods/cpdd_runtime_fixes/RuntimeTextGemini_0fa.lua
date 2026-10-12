@@ -251,6 +251,7 @@ return {
     ["Restore 2% of Max Health every 2 seconds; increases to 4% when Health is at or below 50%."] = "Каждые 2 сек. восстанавливает 2% максимального здоровья; если здоровье не выше 50%, восстановление увеличивается до 4%.",
     ["Archer Knight - Charged Shot Release Settlement"] = "Рыцарь-лучник — расчёт выпуска заряженного выстрела",
     ["Once the Family level reaches <Highlight> level 2, 6 </>, an exclusive display stand will be unlocked in the Family display area."] = "Когда уровень семьи достигнет <Highlight>2 и 6 уровня</>, на подиуме семьи откроется эксклюзивный подиум.",
+    ["传送之门"] = "Врата телепортации",
     ["飞高一点！告诉那个老头——再不回家，帽子破了没人补！"] = "Лети выше! Скажи этому старику: если он скоро не придет домой, никто не починит его рваную шапку!",
     ["A literary classic returns! A reprint of the masterpiece by \"The Great Adventurer\" author Ms. Fors Wall, taking you to appreciate a different kind of suspenseful romance!"] = "　 литературной классики! Переиздание шедевра госпожи Форс Уолл, автора «Великого авантюриста», откроет для вас мир таинственной романтики!",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容  延迟执行  对象播放指定对白内容"] = "Собрать элемент коллекции с указанным TemplateID, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанное содержимое диалога, отложенное выполнение, объект воспроизводит указанное содержимое диалога",
