@@ -2862,18 +2862,49 @@ runtimeFixes.AutoChessSkillTemplates = {
     ["After the first skill cast in each battle, Mana recovery increases by {0} for {1} seconds."] = "После первого применения навыка в каждом бою восстановление маны увеличивается на {0} ед. на {1} сек.",
 }
 
+-- Russian plural form for the first number in a token ("3", "<HighLight>3</>").
+-- A table field, not a top-level local: Init.lua keeps its locals under the limit.
+runtimeFixes.ruPlural = function(token, one, few, many)
+    local n = tonumber(tostring(token):match("(%d+)")) or 0
+    local n10, n100 = n % 10, n % 100
+    if n10 == 1 and n100 ~= 11 then return one end
+    if n10 >= 2 and n10 <= 4 and (n100 < 12 or n100 > 14) then return few end
+    return many
+end
+
+-- TASK-031 R2: a multi-hit macro (spellfielddisc) expands in game code to
+-- "9次<Highlight>1368</>" ("9 hits of 1368"), so no batch key can match it.
+-- Only this form was seen in the logs; anything else is returned unchanged.
+runtimeFixes.translateHitCount = function(value)
+    if type(value) ~= "string" or value:find("[\208\209][\128-\191]") then
+        return value
+    end
+    local count, rest = value:match("^(%d+)次(<Highlight>[^<]*</>)$")
+    if count == nil then
+        count, rest = value:match("^(%d+)次(%d[%d%.]*%%?)$")
+    end
+    if count == nil then
+        return value
+    end
+    return count .. " " .. runtimeFixes.ruPlural(count, "раз", "раза", "раз") .. " по " .. rest
+end
+
+-- TASK-031 R3: dungeon entrance counter (GameplayIntegration_DungeonEntrance_Item)
+-- is built in game code as "共次数奖励：" .. n .. "/" .. m, so no batch key matches.
+runtimeFixes.translateAttemptRewards = function(value)
+    local done, total = value:match("^共次数奖励：(%d+)/(%d+)$")
+    if done == nil then
+        return nil
+    end
+    return "Общие награды за попытки: " .. done .. "/" .. total
+end
+
 -- AutoChess Extraordinary Quest conditions and gifts (TASK-014, batch_033: 132770-132799).
 -- The game substitutes the number before the text reaches the widget (AutoChess_Reward_Choice_Item),
 -- and templates run before the shard lookup, so they must read the same as the batch rows for any number.
 -- A function template receives the matched tokens and picks the Russian plural form.
 do
-    local function ruPlural(token, one, few, many)
-        local n = tonumber(tostring(token):match("(%d+)")) or 0
-        local n10, n100 = n % 10, n % 100
-        if n10 == 1 and n100 ~= 11 then return one end
-        if n10 >= 2 and n10 <= 4 and (n100 < 12 or n100 > 14) then return few end
-        return many
-    end
+    local ruPlural = runtimeFixes.ruPlural
     local function defeats(t)
         return "Проиграть " .. t[1] .. " " .. ruPlural(t[1], "раунд", "раунда", "раундов") .. " подряд"
     end
@@ -3036,6 +3067,12 @@ local function translateVisibleText(value)
         local result = "Активированный резонанс: " .. actResCount
         visibleTextCache[value] = result
         return result
+    end
+
+    local attemptRewards = runtimeFixes.translateAttemptRewards(value)
+    if attemptRewards ~= nil then
+        visibleTextCache[value] = attemptRewards
+        return attemptRewards
     end
 
     -- AutoChess dynamic "For every X Resonance activated..."
@@ -7386,9 +7423,9 @@ Loader.AfterLoad("Gameplay.LogicSystem.SkillCustomizer.SkillBuffDescUtils", func
         if type(original) ~= "string" then
             return original
         end
-        local translated = repairLiveString(
+        local translated = runtimeFixes.translateHitCount(repairLiveString(
             "SkillBuffDescUtils", id, "AssembleDescString.return", original
-        )
+        ))
         runtimeMetrics.CaptureTranslationAssignment(
             self, "SkillBuffDescUtils", "SkillBuffDescUtils",
             "Description", original, translated
@@ -11930,7 +11967,19 @@ runtimeFixes.LateLabelClasses = {
         methods = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play", "Tip", "Timer", "^On" },
         probe = "loading",
     },
+    -- Russell's diary (TASK-031 R1): Text_Content / Text_Content_1 get one
+    -- page of the diary, and the page boundary moved between sessions, so no
+    -- page key can match. The panel script is not in reference/. args: a full
+    -- diary text passed to a method is translated by its exact key (batch_019)
+    -- before the game splits it. probe: Diag records the methods, their
+    -- arguments (probes.npc_args) and Text_Content around each call.
+    RussellDiary_Panel = {
+        paths = { { "Text_Content" }, { "Text_Content_1" } },
+        methods = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^On", "^Init", "Page", "Diary", "Content" },
+        args = true, argsReport = "diary full text translated", probe = "diary",
+    },
 }
+runtimeFixes.LateArgsReported = {}
 runtimeFixes.LateLabelMethodPatterns = { "^Refresh", "^OnRefresh", "^Update", "^Show", "^Set", "^Play" }
 
 runtimeFixes.findLateLabel = function(comp, path)
@@ -12048,6 +12097,16 @@ runtimeFixes.installLateLabelClassHooks = function(comp)
                         -- TASK-023 R1: string or ID/table in the arguments (Diag only).
                         local d = runtimeFixes.Diag
                         if d and d.NoteNpcArgs then pcall(d.NoteNpcArgs, className .. "." .. name, count, { ... }, args) end
+                        if classSpec.argsReport and not runtimeFixes.LateArgsReported[className] then
+                            for index = 1, count do
+                                local before = select(index, ...)
+                                if type(before) == "string" and args[index] ~= before then
+                                    runtimeFixes.LateArgsReported[className] = true
+                                    reportVerbose(classSpec.argsReport .. " len=" .. #before)
+                                    break
+                                end
+                            end
+                        end
                         results = { original(self, unpack(args, 1, count)) }
                     else
                         results = { original(self, ...) }

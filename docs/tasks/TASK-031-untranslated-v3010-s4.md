@@ -72,11 +72,18 @@
 ### R5. Релиз v3.0.11
 После R1–R4: `PackageRelease.ps1 -Publish` → v3.0.11-RU (в сборку входят TASK-027…031). Если R1 затянется (нужна выгрузка скрипта), выпустить без него, а R1 доделать в v3.0.12.
 
+## Статус выполнения (2026-10-12, чат исполнения)
+- **R1 — частично, упёрлось в выгрузку скрипта.** Инструмента распаковки паков в проекте нет (`tools/`, `reference/tools/`), скрипт `RussellDiary_Panel` выгрузить не удалось. Сделан запасной путь из R1.1: `LateLabelClasses.RussellDiary_Panel` (`Init.lua`, рядом с `Loading_Panel`): `args = true` — китайский полный текст, если панель получает его аргументом метода, переводится по точному ключу (`batch_019:090446`) до разбиения на страницы; `probe = "diary"` — методы класса, аргументы (`probes.npc_args`, `method = RussellDiary_Panel.<метод>`) и `Text_Content` до/после вызова; один раз `diary full text translated len=<байт>` (`reportVerbose`). Описано в `docs/DIAGNOSTICS.md` («Проба TASK-031 R1»). Если текст приходит не строкой (ID / таблица) — дневник останется китайским; доделать в v3.0.12 по данным `probes.diary` / `probes.npc_args`.
+- **R2 — сделано.** `runtimeFixes.ruPlural` вынесена из блока шаблонов на уровень файла (поле таблицы, не top-level local: лимит локальных Init.lua), блок пользуется ею же. `runtimeFixes.translateHitCount` в хуке `utils:AssembleDescString`: `^(%d+)次(<Highlight>[^<]*</>)$` и форма без тега. По `untranslated-*.jsonl` всех сессий в `reference/logs` других форм развёрнутого макроса нет (`#次…` внутри китайских шаблонов — это непереведённые шаблоны, не результат макроса).
+- **R3 — сделано.** `runtimeFixes.translateAttemptRewards` в `translateVisibleText` (`共次数奖励：n/m` → `Общие награды за попытки: n/m`; во всех сессиях только эта форма, 123 записи). `batch_003:27322` `臣服于%s` → `Во власти: %s`; ShardCompiler изменил 2 шарда (CN и EN-ключ `Submit to %s`).
+- Проверки: мок `temp/t031/mock_t031.lua` (Lua 5.4, функции вырезаются из Init.lua) — 17/17 OK; luaparse 5.1 и компиляция Lua 5.4 — OK; VerifyPatch — OK (179 top-level locals); ShardCompiler — OK; VerifyBatch batch_003 — 0 ERR.
+- **R5 — ждёт R4** (пачка `batch_046_t031` ещё не закоммичена). Релиз v3.0.11 выпускать без полного R1.
+
 ## Проверка
 - Автоматическая: моки R2/R3, `VerifyPatch`, `ShardCompiler`, `VerifyBatch` 0 ERR.
 - Чек-лист для пользователя (после установки v3.0.11, с `absoluteru_dev.lua`):
   1. `C7.log`: `[CPDDRuntimeFix] v3.0.11-RU active`.
-  2. Дневник Рассела: все страницы по-русски, листание работает; в `C7.log` — `diary full text translated`.
+  2. Дневник Рассела: открыть и пролистать все страницы. Если страницы по-русски и листание работает, в `C7.log` будет `diary full text translated`. Если текст китайский, то после сессии нужно собрать `CollectDiagLogs.ps1`: в `session.json` должны быть `probes.diary` и `probes.npc_args` с `RussellDiary_Panel.*` (по ним делается v3.0.12); в `C7.log` — `installed late-label class hook RussellDiary_Panel: …`.
   3. Фамильяр «Ловия» (окно спутника): `…нанося противникам 9 раз по 1368 ед. урона…`.
   4. Вход в подземелье из «Интеграции»: подпись `Общие награды за попытки: 0/6`.
   5. Подсказки сундуков «打开后概率…», осколки марионеток (Карл Эдгар, Вожак, Виконтесса, Юдора…), навык «Врата телепортации», титул `Во власти: Мастер марионеток Рейнетт` — по-русски.

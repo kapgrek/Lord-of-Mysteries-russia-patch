@@ -16,7 +16,7 @@ return {
     ["Skana monster"] = "Монстр Сканы",
     ["Distance includes collision radius"] = "Дистанция включает радиус столкновения",
     ["Dunn Nightmare Target Filter"] = "Данн: Кошмар: Выбор цели",
-    ["Submit to %s"] = "Покориться %s",
+    ["Submit to %s"] = "Во власти: %s",
     ["Personal Maid"] = "Личная горничная",
     ["Cross"] = "Распятие",
     ["Look carefully again. Who knows how many new people have been buried in this tiny place over the past three years."] = "Поищи повнимательнее. Кто знает, сколько новых покойников закопали в этом крошечном местечке за последние три года.",

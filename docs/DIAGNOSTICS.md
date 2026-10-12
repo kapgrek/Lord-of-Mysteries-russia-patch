@@ -125,6 +125,12 @@ return {
   - `probes.loading.methods` — `{ <класс>: [имена функций] }` для `Loading_Panel` и его базовых классов до `UIComponent` (при первой установке хука, `D.ProbeLateMethods`).
   - `probes.loading.calls[]` — первые 30 вызовов обёрнутых методов (`D.NoteLateProbe`): `t`, `method` (`Loading_Panel.<метод>`), `before` — текст `RTB_Tips` до вызова, `after` — после метода игры, `repaired` — после нашего перевода (≤ 256 байт; нет поля — виджет не найден или пуст).
   - В C7.log на первые 5 смен текста методом (`before ≠ after`): `[AbsruDiag] probe loading tip method=<метод> changed=1`.
+
+### Проба TASK-031 R1 (v3.0.11)
+- **Дневник Рассела (`probes.diary`).** `LateLabelClasses.RussellDiary_Panel` (`probe = "diary"`, `args = true`) оборачивает методы класса по шаблонам `^Refresh ^OnRefresh ^Update ^Show ^Set ^On ^Init Page Diary Content`; после каждого вызова переводит `Text_Content` / `Text_Content_1`, китайские строковые аргументы переводит по точному ключу шарда.
+  - `probes.diary.methods` / `probes.diary.calls[]` — как у `probes.loading` (текст `Text_Content` до и после вызова).
+  - Аргументы методов — в общем списке `probes.npc_args[]` (`method` = `RussellDiary_Panel.<метод>`): по ним видно, получает ли панель полный текст (строка) или ID / таблицу.
+  - В C7.log (с `DiagnosticsMode`) один раз: `[CPDDRuntimeFix] diary full text translated len=<байт>`, если аргумент-строку удалось перевести.
   - Как читать: метод с `changed=1` и русским `repaired` — хук ловит смену совета; `repaired` китайский — ключа нет в шардах (текст в пачку перевода через `-EmitList`); китайский совет на экране без записи `changed=1` — совет ставится не методом класса (таймер/другой компонент), его закрывают extended-проходы `P_LoadingDefault` (1–20 с, `panel:P_LoadingDefault:extended-*` в `hooks.json`).
 
 ### Проба TASK-028 (v3.0.11)
