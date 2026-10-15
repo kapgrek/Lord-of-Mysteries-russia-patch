@@ -1,5 +1,5 @@
 param (
-    [string]$Version = "v3.0.11-RU",
+    [string]$Version = "v3.1.0-RU",
     [switch]$Publish,          # Upload build artifacts as GitHub Release assets (gh CLI)
     [switch]$WhatIfPublish,    # Only look the release up and print the gh commands -Publish would run (no build, no upload)
     [string]$NotesFile = '',   # Release notes for a newly created release
@@ -88,6 +88,12 @@ $bridgeSha = (Get-FileHash "$payloadDir\bridge\LaunchInstance.native-bridge.padd
 if ($bridgeSha -ne $supported.launch_block.installed_sha256) {
     throw "Bridge block sha256 $bridgeSha does not match installer/supported_game.json installed_sha256"
 }
+if ($supported.cache_launch) {
+    $cacheSha = (Get-FileHash (Join-Path $payloadDir $supported.cache_launch.payload) -Algorithm SHA256).Hash.ToLower()
+    if ($cacheSha -ne $supported.cache_launch.installed_sha256) {
+        throw "Cache bridge block sha256 $cacheSha does not match installer/supported_game.json cache_launch.installed_sha256"
+    }
+}
 
 # Owned files: everything the installer copies into the game (Binaries/, Saved/). The installer checks them
 # before installing, removes files of the previous version that are gone, and uninstalls only these files.
@@ -149,6 +155,7 @@ $releaseInfo = @{
     game_build = $supported.game_build
     supported_base_paks = @($supported.supported_base_paks)
     launch_block = $supported.launch_block
+    cache_launch = $supported.cache_launch
     owned_files = @($ownedFiles)
 }
 

@@ -1,6 +1,6 @@
 <img src="installer/icon.png" width="128" alt="Иконка русификатора" align="right">
 
-# Lord of the Mysteries — Русский патч локализации (v3.0.11-RU)
+# Lord of the Mysteries — Русский патч локализации (v3.1.0-RU)
 
 Проект полной русской локализации игры **Lord of the Mysteries** (кодовое имя: **C7**, движок: **Unreal Engine 5**).
 

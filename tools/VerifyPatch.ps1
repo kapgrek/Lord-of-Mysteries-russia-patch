@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
-Write-Host "=== Валидатор целостности патча Lord of the Mysteries v3.0.11-RU ===" -ForegroundColor Cyan
+Write-Host "=== Валидатор целостности патча Lord of the Mysteries v3.1.0-RU ===" -ForegroundColor Cyan
 
 $payload = Join-Path $Root "patch_payload"
 $errors = 0
@@ -25,6 +25,49 @@ if (Test-Path $bridge) {
 } else {
     Write-Error "[ERROR] Файл моста не найден: $bridge"
     $errors++
+}
+
+# 1b. Мост для кеша обновления (Saved/kscache/<ver>/pakchunk0) по installer/supported_game.json
+$supported = [System.IO.File]::ReadAllText((Join-Path $Root "installer\supported_game.json")) | ConvertFrom-Json
+if ($supported.cache_launch) {
+    $cacheBridge = Join-Path $payload ($supported.cache_launch.payload -replace '/', '\')
+    $cacheHash = if (Test-Path $cacheBridge) { (Get-FileHash $cacheBridge -Algorithm SHA256).Hash.ToLower() } else { '' }
+    if ($cacheHash -eq $supported.cache_launch.installed_sha256 -and (Get-Item $cacheBridge).Length -eq $supported.cache_launch.size) {
+        Write-Host "[OK] Мост кеша обновления ($($supported.cache_launch.payload), $($supported.cache_launch.size) байт) - OK." -ForegroundColor Green
+    } else {
+        Write-Error "[ERROR] Блок моста для кеша не совпадает с supported_game.json cache_launch: $cacheBridge"
+        $errors++
+    }
+} else {
+    Write-Warning "[WARN] В supported_game.json нет cache_launch: мост в Saved/kscache не ставится."
+}
+
+# 1c. Байткод-компаньоны *.lua.compat.luac: годятся, только пока наш .lua равен CPDD-шному (vendor/cpdd/companions.json)
+$registryPath = Join-Path $Root "vendor\cpdd\companions.json"
+$registry = if (Test-Path $registryPath) { [System.IO.File]::ReadAllText($registryPath) | ConvertFrom-Json } else { $null }
+$known = @{}
+if ($registry) { foreach ($prop in $registry.PSObject.Properties) { $known[$prop.Name] = $prop.Value } }
+$companionErrors = 0
+foreach ($file in Get-ChildItem -Path $payload -Recurse -File -Filter "*.lua.compat.luac") {
+    $rel = $file.FullName.Substring((Resolve-Path $payload).Path.Length + 1).Replace('\', '/')
+    $lua = $file.FullName.Substring(0, $file.FullName.Length - '.compat.luac'.Length)
+    if (-not $known.ContainsKey($rel)) {
+        Write-Host "[ERROR] Компаньон не записан в vendor/cpdd/companions.json: $rel" -ForegroundColor Red
+        $companionErrors++
+    } elseif (-not (Test-Path $lua) -or (Get-FileHash $lua -Algorithm SHA256).Hash.ToLower() -ne $known[$rel]) {
+        Write-Host "[ERROR] Исходник изменён после синхронизации с CPDD, компаньон устарел: $rel (запустите tools/SyncCpdd.ps1 -Apply)" -ForegroundColor Red
+        $companionErrors++
+    }
+    $known.Remove($rel)
+}
+foreach ($rel in $known.Keys) {
+    Write-Host "[ERROR] Компаньон из vendor/cpdd/companions.json отсутствует в patch_payload: $rel" -ForegroundColor Red
+    $companionErrors++
+}
+if ($companionErrors -eq 0) {
+    Write-Host "[OK] Байткод-компаньоны *.compat.luac совпадают со своими .lua ($(@($registry.PSObject.Properties).Count) шт.)." -ForegroundColor Green
+} else {
+    $errors += $companionErrors
 }
 
 # 2. Проверка ключевых скриптов bootstrap.lua, CPDDTranslation.lua, Init.lua

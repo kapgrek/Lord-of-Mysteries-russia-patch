@@ -33,7 +33,41 @@ namespace LotmRussianPatcher
         public long Size;
     }
 
-    // Supported game state, the same fields as CPDD release.json (supported_base_paks + launch_block).
+    // Launch block of a hotpatch pakchunk0 in Saved/kscache/<ver>/ (CPDD release.json external_bridge.cache_launch).
+    // The offset is not fixed: the block is found by its first 64 bytes and checked by sha256.
+    public class CacheLaunch
+    {
+        public string ManifestSha256;
+        public string PakName = "pakchunk0-Windows.pak";
+        public int Size;
+        public string CleanSha256;
+        public string InstalledSha256;
+        public string Payload = "bridge/cache-startup.oodle";
+        public string OriginalHeadHex;
+        public string InstalledHeadHex;
+    }
+
+    // State of the hotpatch pakchunk0 in Saved/kscache (it overrides the launch block of the base pak).
+    public enum CacheState
+    {
+        NoCachePak,       // no Saved/kscache/<ver>/pakchunk0: only the base pak counts
+        UnsupportedBuild, // the cache pak exists, but its manifest is not the one cache_launch was made for
+        Clean,            // exactly one clean launch block found
+        Installed,        // exactly one bridge block found
+        NotFound,         // supported manifest, but no block
+        Ambiguous         // more than one candidate block
+    }
+
+    public class CacheInfo
+    {
+        public CacheState State = CacheState.NoCachePak;
+        public string Version;
+        public string PakPath;
+        public long Offset = -1;
+        public string Detail = "";
+    }
+
+    // Supported game state, the same fields as CPDD release.json (supported_base_paks + launch_block + cache_launch).
     public class SupportedGame
     {
         public const string FileName = "supported_game.json";
@@ -49,6 +83,7 @@ namespace LotmRussianPatcher
         public string InstalledBlockSha256;
         public string InstalledPakSha256;
         public long InstalledPakSize;
+        public CacheLaunch Cache;   // null: the release knows no hotpatch pakchunk0
 
         public static SupportedGame Parse(string json)
         {
@@ -89,6 +124,30 @@ namespace LotmRussianPatcher
             {
                 throw new InvalidDataException("supported_game.json: incomplete supported_base_paks / launch_block");
             }
+
+            object clObj;
+            var cl = root.TryGetValue("cache_launch", out clObj) ? clObj as Dictionary<string, object> : null;
+            if (cl != null)
+            {
+                var c = new CacheLaunch();
+                c.ManifestSha256 = GetString(cl, "manifest_sha256").ToLowerInvariant();
+                string pakName = GetString(cl, "pak_name");
+                if (!string.IsNullOrEmpty(pakName)) c.PakName = pakName;
+                c.Size = (int)GetLong(cl, "size");
+                c.CleanSha256 = GetString(cl, "clean_sha256").ToLowerInvariant();
+                c.InstalledSha256 = GetString(cl, "installed_sha256").ToLowerInvariant();
+                string payload = GetString(cl, "payload");
+                if (!string.IsNullOrEmpty(payload)) c.Payload = payload;
+                c.OriginalHeadHex = GetString(cl, "original_head_hex").ToLowerInvariant();
+                c.InstalledHeadHex = GetString(cl, "installed_head_hex").ToLowerInvariant();
+                if (c.ManifestSha256.Length != 64 || c.Size < 64 || c.CleanSha256.Length != 64 || c.InstalledSha256.Length != 64
+                    || c.OriginalHeadHex.Length != 128 || c.InstalledHeadHex.Length != 128
+                    || c.PakName.IndexOfAny(new[] { '/', '\\', ':' }) >= 0 || c.Payload.Contains(".."))
+                {
+                    throw new InvalidDataException("supported_game.json: incomplete cache_launch");
+                }
+                game.Cache = c;
+            }
             return game;
         }
 
@@ -124,7 +183,20 @@ namespace LotmRussianPatcher
             sb.Append("    \"clean_sha256\": \"").Append(CleanBlockSha256).Append("\",\n");
             sb.Append("    \"installed_sha256\": \"").Append(InstalledBlockSha256).Append("\",\n");
             sb.Append("    \"installed_pak_sha256\": \"").Append(InstalledPakSha256).Append("\",\n");
-            sb.Append("    \"installed_pak_size\": ").Append(InstalledPakSize).Append("\n  }\n}\n");
+            sb.Append("    \"installed_pak_size\": ").Append(InstalledPakSize).Append("\n  }");
+            if (Cache != null)
+            {
+                sb.Append(",\n  \"cache_launch\": {\n");
+                sb.Append("    \"manifest_sha256\": \"").Append(Cache.ManifestSha256).Append("\",\n");
+                sb.Append("    \"pak_name\": \"").Append(Escape(Cache.PakName)).Append("\",\n");
+                sb.Append("    \"size\": ").Append(Cache.Size).Append(",\n");
+                sb.Append("    \"clean_sha256\": \"").Append(Cache.CleanSha256).Append("\",\n");
+                sb.Append("    \"installed_sha256\": \"").Append(Cache.InstalledSha256).Append("\",\n");
+                sb.Append("    \"payload\": \"").Append(Escape(Cache.Payload)).Append("\",\n");
+                sb.Append("    \"original_head_hex\": \"").Append(Cache.OriginalHeadHex).Append("\",\n");
+                sb.Append("    \"installed_head_hex\": \"").Append(Cache.InstalledHeadHex).Append("\"\n  }");
+            }
+            sb.Append("\n}\n");
             return sb.ToString();
         }
 
@@ -162,6 +234,9 @@ namespace LotmRussianPatcher
         public const string InitRel = @"Saved\Mods\lua\mods\cpdd_runtime_fixes\Init.lua";
         public const string BridgeBlockPayloadRel = @"bridge\LaunchInstance.native-bridge.padded.oodle";
         public const string BakedTextRel = @"Saved\Mods\BakedText";
+        public const string KsCacheRel = @"Saved\kscache";
+        public const string AssetsVersionName = "AssetsVersion.txt";
+        public const string CacheBackupPrefix = "cache-launch-";
 
         private static readonly string[] PayloadRoots = { "Binaries", "Saved" };
 
@@ -184,6 +259,303 @@ namespace LotmRussianPatcher
         public string BlockBackupPath { get { return Path.Combine(BackupDir, BlockBackupName); } }
         public string InstalledListPath { get { return Path.Combine(BackupDir, InstalledListName); } }
         private string Game(string rel) { return Path.Combine(gameDir, rel); }
+        private string CacheBackupPath(string version) { return Path.Combine(BackupDir, CacheBackupPrefix + version + ".block"); }
+        private string CacheRecordPath(string version) { return Path.Combine(BackupDir, CacheBackupPrefix + version + ".json"); }
+
+        // ------------------------------------------------------------ kscache (hotpatch pakchunk0)
+
+        // Saved/kscache/AssetsVersion.txt = "1.<manifest>.<cache version>.Online_Shipping".
+        // Returns the cache pak path when it exists, otherwise null.
+        public static string FindCachePak(string gameDir, string pakName, out string version, out string manifestId)
+        {
+            version = null;
+            manifestId = null;
+            string ks = Path.Combine(gameDir, KsCacheRel);
+            string verFile = Path.Combine(ks, AssetsVersionName);
+            if (!File.Exists(verFile)) return null;
+            string[] parts = File.ReadAllText(verFile).Trim().Split('.');
+            if (parts.Length < 3 || !IsDigits(parts[1]) || !IsDigits(parts[2])) return null;
+            manifestId = parts[1];
+            version = parts[2];
+            string pak = Path.Combine(ks, version, pakName ?? "pakchunk0-Windows.pak");
+            return File.Exists(pak) ? pak : null;
+        }
+
+        public CacheInfo InspectCache()
+        {
+            var info = new CacheInfo();
+            string version, manifestId;
+            string pak = FindCachePak(gameDir, game.Cache != null ? game.Cache.PakName : null, out version, out manifestId);
+            info.Version = version;
+            if (pak == null) return info;
+            info.PakPath = pak;
+
+            // A bridge we wrote ourselves: the record keeps the offset, so no scan is needed.
+            long recorded = ReadCacheRecordOffset(version, pak);
+            if (recorded >= 0) { info.State = CacheState.Installed; info.Offset = recorded; return info; }
+
+            CacheLaunch c = game.Cache;
+            if (c == null)
+            {
+                info.State = CacheState.UnsupportedBuild;
+                info.Detail = "в сведениях о версии нет блока запуска для кеша обновления";
+                return info;
+            }
+            string manifest = Path.Combine(gameDir, KsCacheRel, "package_" + manifestId + ".manifest");
+            if (!File.Exists(manifest) || FileSha256(manifest) != c.ManifestSha256)
+            {
+                info.State = CacheState.UnsupportedBuild;
+                info.Detail = "манифест package_" + manifestId + ".manifest не совпадает с поддерживаемым";
+                return info;
+            }
+
+            byte[] originalHead = FromHex(c.OriginalHeadHex);
+            byte[] installedHead = FromHex(c.InstalledHeadHex);
+            List<long>[] hits = FindAll(pak, new[] { originalHead, installedHead });
+            var clean = new List<long>();
+            var installed = new List<long>();
+            using (var fs = new FileStream(pak, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                foreach (long at in hits[0]) { byte[] b = ReadAt(fs, at, c.Size); if (b != null && Sha256(b) == c.CleanSha256) clean.Add(at); }
+                foreach (long at in hits[1]) { byte[] b = ReadAt(fs, at, c.Size); if (b != null && Sha256(b) == c.InstalledSha256) installed.Add(at); }
+            }
+            int total = clean.Count + installed.Count;
+            if (total == 0)
+            {
+                info.State = CacheState.NotFound;
+                info.Detail = "блок запуска не найден в " + KsCacheRel + "\\" + version + "\\" + c.PakName;
+            }
+            else if (total > 1)
+            {
+                info.State = CacheState.Ambiguous;
+                info.Detail = "найдено " + total + " подходящих блоков запуска в " + KsCacheRel + "\\" + version + "\\" + c.PakName;
+            }
+            else
+            {
+                info.State = clean.Count == 1 ? CacheState.Clean : CacheState.Installed;
+                info.Offset = clean.Count == 1 ? clean[0] : installed[0];
+            }
+            return info;
+        }
+
+        // Offset from Saved/RussianPatchBackups/cache-launch-<ver>.json when the bridge is still there, otherwise -1.
+        private long ReadCacheRecordOffset(string version, string pak)
+        {
+            CacheRecord r = ReadCacheRecord(CacheRecordPath(version));
+            if (r == null || !string.Equals(Game(r.Pak), pak, StringComparison.OrdinalIgnoreCase)) return -1;
+            using (var fs = new FileStream(pak, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                byte[] b = ReadAt(fs, r.Offset, r.Size);
+                return b != null && Sha256(b) == r.InstalledSha256 ? r.Offset : -1;
+            }
+        }
+
+        private class CacheRecord
+        {
+            public string Version, Pak, CleanSha256, InstalledSha256;
+            public long Offset;
+            public int Size;
+        }
+
+        private static CacheRecord ReadCacheRecord(string path)
+        {
+            if (!File.Exists(path)) return null;
+            try
+            {
+                var d = new JavaScriptSerializer().Deserialize<Dictionary<string, object>>(File.ReadAllText(path, Encoding.UTF8));
+                var r = new CacheRecord
+                {
+                    Version = Convert.ToString(d["version"]),
+                    Pak = Convert.ToString(d["pak"]).Replace('/', '\\'),
+                    Offset = Convert.ToInt64(d["offset"]),
+                    Size = Convert.ToInt32(d["size"]),
+                    CleanSha256 = Convert.ToString(d["clean_sha256"]).ToLowerInvariant(),
+                    InstalledSha256 = Convert.ToString(d["installed_sha256"]).ToLowerInvariant()
+                };
+                // A tampered record must not point outside Saved\kscache.
+                if (!IsSafeRelativePath(r.Pak) || !r.Pak.StartsWith(KsCacheRel + "\\", StringComparison.OrdinalIgnoreCase)
+                    || r.Offset < 0 || r.Size <= 0 || r.CleanSha256.Length != 64 || r.InstalledSha256.Length != 64) return null;
+                return r;
+            }
+            catch (Exception) { return null; }
+        }
+
+        private void WriteCacheRecord(CacheInfo cache)
+        {
+            string rel = cache.PakPath.Substring(gameDir.TrimEnd('\\').Length + 1).Replace('\\', '/');
+            var sb = new StringBuilder();
+            sb.Append("{\n  \"version\": \"").Append(cache.Version).Append("\",\n");
+            sb.Append("  \"pak\": \"").Append(rel.Replace("\"", "\\\"")).Append("\",\n");
+            sb.Append("  \"offset\": ").Append(cache.Offset).Append(",\n");
+            sb.Append("  \"size\": ").Append(game.Cache.Size).Append(",\n");
+            sb.Append("  \"clean_sha256\": \"").Append(game.Cache.CleanSha256).Append("\",\n");
+            sb.Append("  \"installed_sha256\": \"").Append(game.Cache.InstalledSha256).Append("\"\n}\n");
+            File.WriteAllText(CacheRecordPath(cache.Version), sb.ToString(), new UTF8Encoding(false));
+        }
+
+        // Writes the cache bridge over the clean block found by InspectCache; the original goes to the backup first.
+        private bool WriteCacheBlock(CacheInfo cache, byte[] bridge, out string failReason)
+        {
+            failReason = "";
+            CacheLaunch c = game.Cache;
+            byte[] original;
+            using (var fs = new FileStream(cache.PakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.Read))
+            {
+                original = ReadAt(fs, cache.Offset, c.Size);
+                if (original == null || Sha256(original) != c.CleanSha256)
+                {
+                    failReason = "Блок запуска в кеше обновления изменился во время установки. Файлы игры не изменены.";
+                    return false;
+                }
+                Directory.CreateDirectory(BackupDir);
+                File.WriteAllBytes(CacheBackupPath(cache.Version), original);
+                WriteCacheRecord(cache);
+
+                fs.Position = cache.Offset;
+                fs.Write(bridge, 0, bridge.Length);
+                fs.Flush(true);
+            }
+            if (ReadBlockSha256(cache.PakPath, cache.Offset, c.Size) != c.InstalledSha256)
+            {
+                WriteBlock(cache.PakPath, cache.Offset, original);
+                DeleteFile(CacheRecordPath(cache.Version));
+                DeleteFile(CacheBackupPath(cache.Version));
+                failReason = "После записи моста в кеш обновления блок не совпал с installed_sha256; оригинальный блок возвращён.";
+                return false;
+            }
+            log("  -> Мост записан в " + KsCacheRel + "\\" + cache.Version + "\\" + c.PakName + " (смещение " + cache.Offset
+                + "). Резервная копия блока: " + BackupDirRel + "\\" + CacheBackupPrefix + cache.Version + ".block");
+            return true;
+        }
+
+        // Restores every cache block recorded in Saved/RussianPatchBackups. true when nothing of ours is left in the cache.
+        private bool RestoreCacheBlocks()
+        {
+            if (!Directory.Exists(BackupDir)) return true;
+            bool ok = true;
+            foreach (string recordPath in Directory.GetFiles(BackupDir, CacheBackupPrefix + "*.json"))
+            {
+                string blockPath = Path.ChangeExtension(recordPath, ".block");
+                CacheRecord r = ReadCacheRecord(recordPath);
+                if (r == null) { log("  -> Повреждена запись " + Path.GetFileName(recordPath) + ": кеш не изменён."); ok = false; continue; }
+                string pak = Game(r.Pak);
+                if (!File.Exists(pak))
+                {
+                    log("  -> Кеш обновления " + r.Version + " удалён игрой: восстанавливать нечего.");
+                    DeleteFile(recordPath);
+                    DeleteFile(blockPath);
+                    continue;
+                }
+                string current = ReadBlockSha256(pak, r.Offset, r.Size);
+                if (current == r.CleanSha256)
+                {
+                    log("  -> Блок запуска в кеше " + r.Version + " уже оригинальный.");
+                    DeleteFile(recordPath);
+                    DeleteFile(blockPath);
+                    continue;
+                }
+                if (current != r.InstalledSha256)
+                {
+                    log("  -> В кеше " + r.Version + " неизвестные данные на месте блока запуска (игра перекачала пак?): кеш не изменён.");
+                    ok = false;
+                    continue;
+                }
+                byte[] original = File.Exists(blockPath) ? File.ReadAllBytes(blockPath) : null;
+                if (original == null || original.Length != r.Size || Sha256(original) != r.CleanSha256)
+                {
+                    log("  -> Нет корректной резервной копии блока кеша " + r.Version + ": кеш не изменён. Для отката используйте «Проверить файлы» в лаунчере.");
+                    ok = false;
+                    continue;
+                }
+                WriteBlock(pak, r.Offset, original);
+                if (ReadBlockSha256(pak, r.Offset, r.Size) != r.CleanSha256)
+                {
+                    log("  -> ОШИБКА: после восстановления блок кеша " + r.Version + " не совпал с оригиналом.");
+                    ok = false;
+                    continue;
+                }
+                log("  -> Оригинальный блок запуска в кеше " + r.Version + " восстановлен.");
+                DeleteFile(recordPath);
+                DeleteFile(blockPath);
+            }
+            return ok;
+        }
+
+        // Positions of every pattern (all of the same length) in the file, streamed in 1 MB chunks (the cache pak is ~112 MB).
+        private static List<long>[] FindAll(string path, byte[][] patterns)
+        {
+            var hits = new List<long>[patterns.Length];
+            int m = patterns[0].Length;
+            for (int p = 0; p < patterns.Length; p++)
+            {
+                if (patterns[p].Length != m) throw new ArgumentException("patterns of different length");
+                hits[p] = new List<long>();
+            }
+            byte[] buf = new byte[(1 << 20) + m];
+            int carry = 0;
+            long bufStart = 0;
+            using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite, 1 << 16))
+            {
+                while (true)
+                {
+                    int n = fs.Read(buf, carry, buf.Length - carry);
+                    if (n <= 0) break;
+                    int len = carry + n;
+                    for (int p = 0; p < patterns.Length; p++)
+                    {
+                        byte[] pat = patterns[p];
+                        // Positions up to len - m only: the rest is scanned again with the next chunk.
+                        int last = len - m;
+                        byte first = pat[0];
+                        for (int i = 0; i <= last; i++)
+                        {
+                            if (buf[i] != first) continue;
+                            int j = 1;
+                            while (j < pat.Length && buf[i + j] == pat[j]) j++;
+                            if (j == pat.Length) hits[p].Add(bufStart + i);
+                        }
+                    }
+                    int keep = Math.Min(m - 1, len);
+                    Buffer.BlockCopy(buf, len - keep, buf, 0, keep);
+                    bufStart += len - keep;
+                    carry = keep;
+                }
+            }
+            return hits;
+        }
+
+        private static string ReadBlockSha256(string path, long offset, int size)
+        {
+            using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
+            {
+                byte[] b = ReadAt(fs, offset, size);
+                return b == null ? null : Sha256(b);
+            }
+        }
+
+        private static void WriteBlock(string path, long offset, byte[] data)
+        {
+            using (var fs = new FileStream(path, FileMode.Open, FileAccess.Write, FileShare.Read))
+            {
+                fs.Position = offset;
+                fs.Write(data, 0, data.Length);
+                fs.Flush(true);
+            }
+        }
+
+        private static bool IsDigits(string s)
+        {
+            if (string.IsNullOrEmpty(s)) return false;
+            foreach (char ch in s) if (ch < '0' || ch > '9') return false;
+            return true;
+        }
+
+        private static byte[] FromHex(string hex)
+        {
+            byte[] b = new byte[hex.Length / 2];
+            for (int i = 0; i < b.Length; i++) b[i] = Convert.ToByte(hex.Substring(i * 2, 2), 16);
+            return b;
+        }
 
         // ------------------------------------------------------------ state
 
@@ -224,8 +596,16 @@ namespace LotmRussianPatcher
             string bridgeDisabled = bridge + ".disabled";
             string bootstrap = Game(BootstrapRel);
 
+            // A hotpatch pakchunk0 in Saved/kscache overrides the base pak: the bridge counts only there.
             bool bridgeInPak = false;
-            try { bridgeInPak = ReadLaunchBlockSha256() == game.InstalledBlockSha256; } catch (IOException) { }
+            try
+            {
+                CacheInfo cache = InspectCache();
+                bridgeInPak = cache.State == CacheState.NoCachePak
+                    ? ReadLaunchBlockSha256() == game.InstalledBlockSha256
+                    : cache.State == CacheState.Installed;
+            }
+            catch (IOException) { }
             bool modsPresent = (File.Exists(bridge) || File.Exists(bridgeDisabled)) && File.Exists(bootstrap);
             if (!bridgeInPak && !modsPresent) return GamePatchStatus.NotInstalled;
 
@@ -257,12 +637,24 @@ namespace LotmRussianPatcher
                 failReason = "Блок моста в пакете не совпадает с supported_game.json (размер " + bridge.Length + ", sha256 " + Sha256(bridge) + ").";
                 return false;
             }
+            byte[] cacheBridge = null;
+            if (game.Cache != null)
+            {
+                string cacheFile = Path.Combine(payloadDir, game.Cache.Payload.Replace('/', '\\'));
+                if (!File.Exists(cacheFile)) { failReason = "В пакете нет блока моста для кеша обновления: " + cacheFile; return false; }
+                cacheBridge = File.ReadAllBytes(cacheFile);
+                if (cacheBridge.Length != game.Cache.Size || Sha256(cacheBridge) != game.Cache.InstalledSha256)
+                {
+                    failReason = "Блок моста для кеша обновления в пакете не совпадает с supported_game.json (размер " + cacheBridge.Length + ").";
+                    return false;
+                }
+            }
             List<string> files = GetPayloadFiles(payloadDir);
             if (files.Count == 0) { failReason = "В пакете нет файлов Binaries/ и Saved/."; return false; }
             if (!VerifyOwnedFiles(payloadDir, files, out failReason)) return false;
 
             // 2. Game version: never write anything into an unknown pak.
-            log("[1/5] Проверка версии игры (SHA-256 всего pakchunk0)...");
+            log("[1/6] Проверка версии игры (SHA-256 всего pakchunk0)...");
             PakState state = InspectPak();
             if (state == PakState.Missing) { failReason = "Файл не найден: " + PakPath; return false; }
             if (state == PakState.Unknown)
@@ -276,13 +668,55 @@ namespace LotmRussianPatcher
                 ? "  -> Чистая поддерживаемая сборка игры " + game.GameBuild + "."
                 : "  -> Мост уже установлен (pakchunk0 = установленное состояние), блок не перезаписывается.");
 
+            // 3. Hotpatch pakchunk0 in Saved/kscache: all checks before anything is written.
+            log("[2/6] Проверка кеша обновления (" + KsCacheRel + ")...");
+            CacheInfo cache = InspectCache();
+            switch (cache.State)
+            {
+                case CacheState.NoCachePak:
+                    log("  -> В кеше обновления нет pakchunk0: мост нужен только в базовом pakchunk0.");
+                    break;
+                case CacheState.UnsupportedBuild:
+                    failReason = "Игра обновилась, нужна новая версия русификатора (" + cache.Detail + "). Файлы игры не изменены.";
+                    log("ОТКАЗ: " + failReason);
+                    return false;
+                case CacheState.NotFound:
+                case CacheState.Ambiguous:
+                    failReason = "Версия игры не поддерживается: " + cache.Detail + ". Файлы игры не изменены. Проверьте файлы игры в лаунчере.";
+                    log("ОТКАЗ: " + failReason);
+                    return false;
+                case CacheState.Clean:
+                    log("  -> Чистый блок запуска найден в " + KsCacheRel + "\\" + cache.Version + " (смещение " + cache.Offset + ").");
+                    break;
+                case CacheState.Installed:
+                    log("  -> Мост уже установлен в " + KsCacheRel + "\\" + cache.Version + ", блок не перезаписывается.");
+                    break;
+            }
+
             MigrateLegacyBackup();
 
-            // 3. Launch block.
-            log("[2/5] Блок запуска в pakchunk0...");
+            // 4. Launch blocks: the cache first, the base pak second; a failed base write rolls the cache back.
+            log("[3/6] Блоки запуска...");
+            if (cache.State == CacheState.Clean)
+            {
+                if (!WriteCacheBlock(cache, cacheBridge, out failReason)) return false;
+            }
             if (state == PakState.CleanSupported)
             {
-                if (!WriteBridgeBlock(bridge, out failReason)) return false;
+                bool written;
+                string why;
+                try { written = WriteBridgeBlock(bridge, out why); }
+                catch (Exception ex) { written = false; why = "Ошибка записи pakchunk0: " + ex.Message; }
+                if (!written)
+                {
+                    failReason = why;
+                    if (cache.State == CacheState.Clean)
+                    {
+                        RestoreCacheBlocks();
+                        failReason += " Блок в кеше обновления возвращён.";
+                    }
+                    return false;
+                }
             }
             else if (!HasValidBlockBackup())
             {
@@ -290,7 +724,7 @@ namespace LotmRussianPatcher
             }
 
             // 4. Files: copy the new set, then delete files of the previous version that are gone now.
-            log("[3/5] Копирование файлов русификатора (" + files.Count + ")...");
+            log("[4/6] Копирование файлов русификатора (" + files.Count + ")...");
             List<string> previous = ReadInstalledList();
             foreach (string rel in files) CopyFile(Path.Combine(payloadDir, rel), Game(rel));
             DeleteFile(Game(BridgeRel) + ".disabled");
@@ -308,13 +742,13 @@ namespace LotmRussianPatcher
             File.WriteAllText(Path.Combine(BackupDir, SupportedGame.FileName), game.ToJson(), new UTF8Encoding(false));
 
             // 5. BakedText.
-            log("[4/5] BakedText (IoStore)...");
+            log("[5/6] BakedText (IoStore)...");
             if (!PatchBakedText(Path.Combine(payloadDir, BakedTextRel)))
             {
                 log("  -> Предупреждение: часть блоков BakedText пропущена (контейнер другой версии или уже изменён).");
             }
 
-            log("[5/5] Финальная проверка...");
+            log("[6/6] Финальная проверка...");
             if (!VerifyInstallation())
             {
                 failReason = "Финальная проверка установленного патча не прошла.";
@@ -391,6 +825,12 @@ namespace LotmRussianPatcher
         public bool VerifyInstallation()
         {
             if (ReadLaunchBlockSha256() != game.InstalledBlockSha256) { log("Проверка: в pakchunk0 нет блока моста."); return false; }
+            CacheInfo cache = InspectCache();
+            if (cache.State != CacheState.NoCachePak && cache.State != CacheState.Installed)
+            {
+                log("Проверка: в кеше обновления " + KsCacheRel + "\\" + cache.Version + " нет блока моста (" + cache.State + ").");
+                return false;
+            }
             foreach (string rel in new[] { BridgeRel, BootstrapRel, InitRel })
             {
                 string path = Game(rel);
@@ -402,7 +842,8 @@ namespace LotmRussianPatcher
             {
                 if (!File.Exists(Game(rel))) { log("Проверка: нет файла " + rel); return false; }
             }
-            log("  -> Проверено: мост в pakchunk0, файлов русификатора: " + installed.Count);
+            log("  -> Проверено: мост в pakchunk0" + (cache.State == CacheState.Installed ? " и в кеше обновления " + cache.Version : "")
+                + ", файлов русификатора: " + installed.Count);
             return true;
         }
 
@@ -423,7 +864,8 @@ namespace LotmRussianPatcher
             }
             RestoreBakedText(bakedDir);
 
-            log("[2/3] Блок запуска в pakchunk0...");
+            log("[2/3] Блоки запуска (кеш обновления и pakchunk0)...");
+            if (!RestoreCacheBlocks()) ok = false;
             bool blockClean = RestoreLaunchBlock();
             if (!blockClean) ok = false;
 

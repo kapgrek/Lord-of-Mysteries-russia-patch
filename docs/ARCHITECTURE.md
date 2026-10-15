@@ -3,11 +3,11 @@
 Техническое описание механизмов загрузки, подмены данных, блочного патчинга и рантайм-перехвата в русской версии патча.
 
 ```
-[Официальный pakchunk0-Windows.pak]
-             │
-             ▼ (Смещение 427225161: 4 660 байт моста Oodle)
-[LaunchInstance.native-bridge.padded.oodle]
-             │
+[Официальный pakchunk0-Windows.pak]          [Saved/kscache/<ver>/pakchunk0-Windows.pak]
+             │                                   (если хотпатч принёс свой pakchunk0, он главнее)
+             ▼ (427225161: 4 660 байт)           ▼ (смещение ищется: 5 258 байт)
+[LaunchInstance.native-bridge.padded.oodle]  [cache-startup.oodle]
+             └──────────────┬────────────────────┘
              ▼ (Запуск внешнего скрипта)
 [Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua]
              │
@@ -33,6 +33,8 @@
    * Патченый SHA-256: `c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9`.
    * Патчит стартовый модуль `LaunchInstance.lua`, добавляя строку вызова внешнего моста `CPDDTranslation.lua`.
 
+   * **Мост в кеше обновления (TASK-032).** Хотпатч может записать свой `Saved/kscache/<ver>/pakchunk0-Windows.pak` (версия из `Saved/kscache/AssetsVersion.txt`, третье число). Такой пак перекрывает базовый, поэтому мост нужен и в нём. Параметры лежат в `installer/supported_game.json → cache_launch` (из CPDD `external_bridge.cache_launch`): `manifest_sha256` (sha `Saved/kscache/package_<id>.manifest`), размер 5 258, `clean_sha256`, `installed_sha256`, первые 64 байта оригинала и моста. Установщик ищет блок потоково по этим 64 байтам и проверяет sha256. Писать можно, только если манифест совпал и блок найден ровно один раз; иначе статус «Игра обновилась, нужна новая версия русификатора» или «Версия не поддерживается», и ничего не пишется. Оригинал блока и смещение сохраняются в `Saved/RussianPatchBackups/cache-launch-<ver>.block/.json`; удаление возвращает блок, только если там всё ещё наш мост. Мост считается активным по кешу, если в кеше есть `pakchunk0`, иначе по базовому паку.
+
 2. **Мост инициализации `CPDDTranslation.lua`:**
    * Получает путь к директории сохранения: `ProjectSavedDir() .. "/Mods/bootstrap.lua"`.
    * Выполняет `bootstrap.lua` в изолированной среде `xpcall`.
@@ -42,9 +44,10 @@
 ## 2. Мод-лоадер `bootstrap.lua`
 
 * Регистрирует кастомный поисковик `external_searcher` на 1-ю позицию в `package.loaders`.
-* Реализует два типа подмены:
-  1. **Alias (полная подмена модуля):** подменяет `Launch.I18n.zh`, `DebugConst.lua` и другие конфигурационные скрипты на файлы из `Saved/Mods/lua/`.
-  2. **Overlay (динамическое наложение):** загружает оригинальный файл игры, после чего поверх таблицы `.data` накатывает строки из локализованной базы данных. Это предотвращает потерю служебных системных ключей при обновлениях игры.
+* **Exact-source policy (с v3.1.0, как в CPDD 2.7.1):** модули `cpdd_translation.*` (ID-оверлеи CPDD с английским текстом) не загружаются, алиасы из `deniedTranslationAliases` (`Launch.I18n.zh`, `Shared.language_zhs`, `DebugConst`…) запрещены: все они вели на английский байткод CPDD и ломались бы при каждом сдвиге ID в новой сборке.
+* **Overlay (наложение по тексту):** оригинальный модуль данных игры загружается как есть, а `merge_overlay` проходит по его строкам и подставляет русский перевод по **китайскому значению** текущей сборки (`translator(nil, cn, key, name)`). Новых ключей не добавляет, без перевода оставляет китайский.
+* **Чтение чанков (`Loader.ReadCompatibleChunk`):** сначала байткод-компаньон `<file>.lua.compat.luac`, если его встроенный исходник побайтно равен `.lua` рядом (маршрут `companion`), затем `loadfile` и `load`. Маршрут пишется в `Loader.ChunkRoutes`. На старте `Loader.CompileProbe()` проверяет, компилирует ли VM исходник: строка `[LOMModLoader] compile probe startup=ok|fail (...)` в `C7.log`.
+* **Данные без компиляции:** шарды, `LanguageSourceIndex_*` и `WidgetNameIndex` грузятся через `runtimeFixes.loadDataModule`: `require`, а если VM отказалась компилировать, — `File.LoadFile` и собственный парсер таблиц-литералов (`runtimeFixes.parseDataLiteral`). Первый шард пишет `[CPDDRuntimeFix] shard load path=<require|companion|loadfile|data|failed> compile=... startup=...`. Эквивалентность парсера проверена офлайн `tools/LuaDataCheck.exe` (порт на C# по семантике Lua 5.1) на всех 1281 файлах.
 
 ---
 

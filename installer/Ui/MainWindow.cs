@@ -58,7 +58,14 @@ namespace LotmRussianPatcher
         {
             public GamePatchStatus Status;
             public PakState Pak;
+            public CacheInfo Cache;
             public string GameBuild;
+            // The update cache (Saved/kscache) holds a pakchunk0 this release does not know.
+            public bool GameUpdated { get { return Cache != null && Cache.State == CacheState.UnsupportedBuild; } }
+            public bool Unsupported
+            {
+                get { return Pak == PakState.Unknown || (Cache != null && (Cache.State == CacheState.NotFound || Cache.State == CacheState.Ambiguous)); }
+            }
             public string InstalledVersion;
             public bool BridgeFileMissing;
             public bool HasOwnFiles;
@@ -307,7 +314,11 @@ namespace LotmRussianPatcher
             gameDir = normalized;
             state = read;
 
-            if (read.Pak == PakState.Unknown)
+            if (read.GameUpdated)
+                SetFolderLine("✗ Игра обновилась (кеш обновления " + read.Cache.Version + "), нужна новая версия русификатора. Дождитесь обновления русификатора.", "ErrorBrush");
+            else if (read.Unsupported && read.Pak != PakState.Unknown)
+                SetFolderLine("✗ Версия игры не поддерживается: " + read.Cache.Detail + ". Проверьте файлы игры в лаунчере.", "ErrorBrush");
+            else if (read.Pak == PakState.Unknown)
                 SetFolderLine("✗ Версия игры не поддерживается (русификатор рассчитан на сборку " + (read.GameBuild ?? "?") + "). Дождитесь обновления русификатора.", "ErrorBrush");
             else
                 SetFolderLine("✓ Сборка игры " + (read.GameBuild ?? "?") + " — поддерживается", "OkBrush");
@@ -325,6 +336,7 @@ namespace LotmRussianPatcher
             string build;
             st.Pak = PatcherBackend.InspectPak(dir, out build);
             st.GameBuild = build;
+            st.Cache = PatcherBackend.InspectCache(dir);
             st.Status = PatcherBackend.InspectGameStatus(dir);
             st.InstalledVersion = PatcherBackend.InstalledVersion(dir);
             st.BridgeFileMissing = !File.Exists(System.IO.Path.Combine(dir, InstallerCore.BridgeRel));
@@ -369,7 +381,8 @@ namespace LotmRussianPatcher
             if (blocker != null) SetStatus("ИГРА ЗАПУЩЕНА", "ErrorBrush", "ErrorSoftBrush");
             else if (gameDir == null || state == null) SetStatus("ВЫБЕРИТЕ ПАПКУ ИГРЫ", "MutedBrush", "MutedSoftBrush");
             else if (NeedsRepair) SetStatus("НУЖНО ВОССТАНОВИТЬ ЗАПУСК", "WarnBrush", "WarnSoftBrush");
-            else if (state.Pak == PakState.Unknown) SetStatus("ВЕРСИЯ ИГРЫ НЕ ПОДДЕРЖИВАЕТСЯ", "ErrorBrush", "ErrorSoftBrush");
+            else if (state.GameUpdated) SetStatus("ИГРА ОБНОВИЛАСЬ — НУЖНА НОВАЯ ВЕРСИЯ", "ErrorBrush", "ErrorSoftBrush");
+            else if (state.Unsupported) SetStatus("ВЕРСИЯ ИГРЫ НЕ ПОДДЕРЖИВАЕТСЯ", "ErrorBrush", "ErrorSoftBrush");
             else if (UpdateAvailable) SetStatus("ДОСТУПНО ОБНОВЛЕНИЕ " + target, "GoldBrush", "GoldSoftBrush");
             else if (state.Status == GamePatchStatus.InstalledActive) SetStatus("РУССКИЙ УСТАНОВЛЕН", "OkBrush", "OkSoftBrush");
             else SetStatus("ГОТОВ К УСТАНОВКЕ", "GoldBrush", "GoldSoftBrush");
@@ -392,7 +405,7 @@ namespace LotmRussianPatcher
         {
             bool ready = !busy && gameDir != null && state != null && blocker == null;
             bool installed = state != null && state.Status == GamePatchStatus.InstalledActive;
-            mainButton.IsEnabled = ready && state.Pak != PakState.Unknown;
+            mainButton.IsEnabled = ready && !state.Unsupported && !state.GameUpdated;
             applyButton.IsEnabled = ready && installed && writtenOptions != null && !CurrentOptions().SameAs(writtenOptions);
             uninstallButton.IsEnabled = ready && state.HasOwnFiles;
             launchMeterButton.IsEnabled = !busy && gameDir != null && dpsExternal.IsChecked == true && new GameOptions(gameDir, null).CombatMeterExists;

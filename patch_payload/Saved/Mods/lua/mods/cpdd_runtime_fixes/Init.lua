@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.0.11-RU"
+local VERSION = "3.1.0-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -2057,6 +2057,183 @@ local function getShardPrefix(value)
     return SHARD_PREFIXES[bit.band(bit.rshift(hash, 22), 0x3ff)]
 end
 
+-- Data modules without compilation (TASK-032). The generated data files (RuntimeTextGemini_*,
+-- LanguageSourceIndex_*, WidgetNameIndex) are plain table literals: "--" comment lines, "return {",
+-- ["key"] = value entries or list items; values are strings, numbers or { ... } of those. The game VM may
+-- stop compiling Lua source after startup, so when require fails the file is read with File.LoadFile and
+-- parsed here instead. String escapes: \" \\ \n \r \t \a \b \f \v \' \ddd (ShardCompiler writes \\ \" \r \n).
+-- tools/LuaDataCheck.cs mirrors this parser and checks every shard and index against a Lua 5.1 reader.
+do
+    local ESCAPES = {
+        n = "\n", r = "\r", t = "\t", a = "\a", b = "\b", f = "\f", v = "\v",
+        ["\\"] = "\\", ['"'] = '"', ["'"] = "'",
+    }
+
+    local function parse(text)
+        local pos, len = 1, #text
+        local function fail(message) error(message .. " at byte " .. tostring(pos), 0) end
+        local function skip()
+            while true do
+                local s = text:find("[^ \t\r\n]", pos)
+                if not s then pos = len + 1 return end
+                pos = s
+                if text:sub(pos, pos + 1) ~= "--" then return end
+                local e = text:find("\n", pos, true)
+                pos = e and e + 1 or len + 1
+            end
+        end
+        local function parseString()
+            local parts, n = {}, 0
+            pos = pos + 1
+            while true do
+                local s = text:find('["\\\r\n]', pos)
+                if not s then fail("unfinished string") end
+                if s > pos then n = n + 1 parts[n] = text:sub(pos, s - 1) end
+                local c = text:byte(s)
+                if c == 34 then
+                    pos = s + 1
+                    return table.concat(parts)
+                elseif c ~= 92 then
+                    pos = s
+                    fail("unfinished string")
+                end
+                local mapped = ESCAPES[text:sub(s + 1, s + 1)]
+                if mapped then
+                    n = n + 1 parts[n] = mapped
+                    pos = s + 2
+                else
+                    local digits = text:match("^%d%d?%d?", s + 1)
+                    local code = digits and tonumber(digits)
+                    if not code or code > 255 then pos = s fail("invalid escape sequence") end
+                    n = n + 1 parts[n] = string.char(code)
+                    pos = s + 1 + #digits
+                end
+            end
+        end
+        local parseValue
+        local function expect(byte, name)
+            skip()
+            if text:byte(pos) ~= byte then fail("'" .. name .. "' expected") end
+            pos = pos + 1
+        end
+        local function parseTable()
+            pos = pos + 1
+            local result, index = {}, 0
+            while true do
+                skip()
+                local c = text:byte(pos)
+                if c == 125 then pos = pos + 1 return result end
+                if c == 91 then
+                    pos = pos + 1
+                    skip()
+                    local key = parseValue()
+                    if key == nil then fail("table index is nil") end
+                    expect(93, "]")
+                    expect(61, "=")
+                    skip()
+                    result[key] = parseValue()
+                else
+                    index = index + 1
+                    result[index] = parseValue()
+                end
+                skip()
+                c = text:byte(pos)
+                if c == 44 or c == 59 then
+                    pos = pos + 1
+                elseif c ~= 125 then
+                    fail("'}' expected")
+                end
+            end
+        end
+        parseValue = function()
+            local c = text:byte(pos)
+            if c == 34 then return parseString() end
+            if c == 123 then return parseTable() end
+            local word = text:match("^%-?[%w%.]+", pos)
+            if not word then fail("unexpected symbol") end
+            pos = pos + #word
+            if word == "true" then return true end
+            if word == "false" then return false end
+            local number = tonumber(word)
+            if number == nil then fail("malformed number '" .. word .. "'") end
+            return number
+        end
+
+        skip()
+        if text:sub(pos, pos + 5) ~= "return" or text:find("^[%w_]", pos + 6) then fail("'return' expected") end
+        pos = pos + 6
+        skip()
+        local value = parseValue()
+        skip()
+        if text:byte(pos) == 59 then pos = pos + 1 skip() end
+        if pos <= len then fail("'<eof>' expected") end
+        return value
+    end
+
+    -- Returns the value of a table literal or nil, message.
+    function runtimeFixes.parseDataLiteral(text)
+        if type(text) ~= "string" then return nil, "no data" end
+        local ok, value = pcall(parse, text)
+        if not ok then return nil, tostring(value) end
+        return value
+    end
+
+    local fileLibrary = nil
+    -- require first; on failure the literal parser. Returns value, route
+    -- ("companion" | "loadfile" | "load" | "require" | "data") or nil, message.
+    function runtimeFixes.loadDataModule(moduleName)
+        local relative = "lua/" .. (moduleName:gsub("%.", "/")) .. ".lua"
+        local ok, loaded = pcall(require, moduleName)
+        if ok and type(loaded) == "table" then
+            local routes = Loader.ChunkRoutes
+            return loaded, type(routes) == "table" and routes[relative] or "require"
+        end
+        if fileLibrary == nil then
+            local okImport, library = pcall(import, "LuaFunctionLibrary")
+            fileLibrary = okImport and library or false
+        end
+        if not fileLibrary or type(Loader.Root) ~= "string" then
+            return nil, tostring(loaded)
+        end
+        local okRead, source = pcall(fileLibrary.LoadFile, Loader.Root .. relative)
+        if not okRead or type(source) ~= "string" or source == "" then
+            return nil, tostring(loaded) .. "; data: missing " .. relative
+        end
+        local value, message = runtimeFixes.parseDataLiteral(source)
+        if type(value) ~= "table" then
+            return nil, tostring(loaded) .. "; data: " .. tostring(message)
+        end
+        package.loaded[moduleName] = value
+        return value, "data"
+    end
+
+    -- Dev only: parse a module the VM already loaded and compare it with the parser result.
+    function runtimeFixes.selfCheckDataModule(moduleName, loaded)
+        if not fileLibrary then
+            local okImport, library = pcall(import, "LuaFunctionLibrary")
+            fileLibrary = okImport and library or false
+        end
+        if not fileLibrary or type(loaded) ~= "table" then return nil end
+        local relative = "lua/" .. (moduleName:gsub("%.", "/")) .. ".lua"
+        local okRead, source = pcall(fileLibrary.LoadFile, Loader.Root .. relative)
+        local parsed, message = runtimeFixes.parseDataLiteral(okRead and source or nil)
+        if type(parsed) ~= "table" then return "parse failed: " .. tostring(message) end
+        local entries, mismatches = 0, 0
+        local function same(a, b)
+            if type(a) ~= "table" or type(b) ~= "table" then return a == b end
+            for k, v in pairs(a) do if b[k] ~= v then return false end end
+            for k in pairs(b) do if a[k] == nil then return false end end
+            return true
+        end
+        for k, v in pairs(loaded) do
+            entries = entries + 1
+            if not same(v, parsed[k]) then mismatches = mismatches + 1 end
+        end
+        for k in pairs(parsed) do if loaded[k] == nil then mismatches = mismatches + 1 end end
+        return "entries=" .. entries .. " mismatches=" .. mismatches
+    end
+end
+
 local geminiTextCache = {
     Shards = {},
     Missing = {},
@@ -2082,14 +2259,25 @@ local function lookupGeminiText(value)
     if shard == nil then
         local moduleName = "mods.cpdd_runtime_fixes.RuntimeTextGemini_" .. prefix
         local started = nowMilliseconds()
-        local ok, loaded = pcall(require, moduleName)
+        local loaded, route = runtimeFixes.loadDataModule(moduleName)
         local elapsed = nowMilliseconds() - started
         runtimeMetrics.GeminiShardLoadMillis = runtimeMetrics.GeminiShardLoadMillis
             + elapsed
-        if not ok or type(loaded) ~= "table" then
+        if not geminiTextCache.RouteReported then
+            -- One line in every mode (TASK-032): how shards load and whether the VM still compiles source.
+            geminiTextCache.RouteReported = true
+            local probe = type(Loader.CompileProbe) == "function" and Loader.CompileProbe() or "unknown"
+            report("shard load path=" .. tostring(loaded and route or "failed") .. " compile=" .. probe
+                .. " startup=" .. tostring(Loader.CompileProbeStartup))
+            if loaded and route ~= "data" and runtimeFixes.Diag then
+                report("data parser selfcheck " .. prefix .. " "
+                    .. tostring(runtimeFixes.selfCheckDataModule(moduleName, loaded)))
+            end
+        end
+        if type(loaded) ~= "table" then
             geminiTextCache.Missing[prefix] = true
             geminiTextCache.Lookups[value] = false
-            report("Gemini runtime text shard unavailable " .. prefix .. ": " .. tostring(loaded))
+            report("Gemini runtime text shard unavailable " .. prefix .. ": " .. tostring(route))
             return nil
         end
         shard = loaded
@@ -5080,12 +5268,12 @@ local function loadGeneratedWidgetProbeNames()
     end
     for _, name in ipairs(criticalWidgetProbeNames) do append(name) end
     if not generatedWidgetProbeUnavailable then
-        local ok, names = pcall(require, "mods.cpdd_runtime_fixes.WidgetNameIndex")
-        if ok and type(names) == "table" then
+        local names, route = runtimeFixes.loadDataModule("mods.cpdd_runtime_fixes.WidgetNameIndex")
+        if type(names) == "table" then
             for _, name in ipairs(names) do append(name) end
         else
             generatedWidgetProbeUnavailable = true
-            report("generated widget-name index unavailable: " .. tostring(names))
+            report("generated widget-name index unavailable: " .. tostring(route))
         end
     end
     generatedWidgetProbeNames = output
@@ -5371,8 +5559,9 @@ local function getDirectTable(tag)
     end
 
     local suffix = tag and ("_" .. tag) or ""
+    -- Exact-source policy (TASK-032): the CPDD table cpdd_translation.*StringDB_CN_Data is keyed by IDs of an
+    -- older build, so it is not used. The game tables below come from the current build.
     for _, candidate in ipairs({
-        { "cpdd_translation.Data.Excel.LanguageData.StringDB_CN_Data" .. suffix, true },
         { "Data.Excel.LanguageData.StringDB_EN_Data" .. suffix, false },
         { "Data.Excel.LanguageData.StringDB_CN_Data" .. suffix, false },
     }) do
@@ -5445,11 +5634,11 @@ local function sourceIndexLookup(key)
 
     local moduleName = "mods.cpdd_runtime_fixes.LanguageSourceIndex_" .. prefix
     local started = nowMilliseconds()
-    local ok, loaded = pcall(require, moduleName)
-    if not ok or type(loaded) ~= "table" then
+    local loaded, route = runtimeFixes.loadDataModule(moduleName)
+    if type(loaded) ~= "table" then
         missingSourceShards[prefix] = true
         runtimeMetrics.SourceShardMisses = runtimeMetrics.SourceShardMisses + 1
-        report("language source shard unavailable " .. prefix .. ": " .. tostring(loaded))
+        report("language source shard unavailable " .. prefix .. ": " .. tostring(route))
         return nil
     end
     sourceShardCache[prefix] = loaded

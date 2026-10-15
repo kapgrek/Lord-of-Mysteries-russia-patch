@@ -229,6 +229,15 @@ namespace LotmRussianPatcher
             return core.InspectPak();
         }
 
+        // Hotpatch pakchunk0 in Saved/kscache against the cache_launch built into this installer (scans ~112 MB: off the UI thread).
+        public static CacheInfo InspectCache(string gameDir)
+        {
+            SupportedGame game = LoadSupportedGame(null, null);
+            if (game == null) return new CacheInfo();
+            try { return new InstallerCore(gameDir, game, null).InspectCache(); }
+            catch (IOException) { return new CacheInfo(); }
+        }
+
         // VERSION of the installed Init.lua ("2.9.10-RU"), or null.
         public static string InstalledVersion(string gameDir)
         {
@@ -284,6 +293,9 @@ namespace LotmRussianPatcher
             try
             {
                 using (new FileStream(pakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)) { }
+                string cacheVersion, manifestId;
+                string cachePak = InstallerCore.FindCachePak(gameDir, null, out cacheVersion, out manifestId);
+                if (cachePak != null) using (new FileStream(cachePak, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite)) { }
             }
             catch (Exception ex)
             {
@@ -386,6 +398,9 @@ namespace LotmRussianPatcher
             if (core != null)
             {
                 Console.WriteLine("Состояние pakchunk0: " + core.InspectPak() + " (CleanSupported / Installed / Unknown)");
+                CacheInfo cache = InspectCache(norm);
+                Console.WriteLine("Кеш обновления (Saved\\kscache): " + cache.State + (cache.Version != null ? " версия " + cache.Version : "")
+                    + (cache.Offset >= 0 ? " смещение " + cache.Offset : "") + (cache.Detail.Length > 0 ? " (" + cache.Detail + ")" : ""));
                 Console.WriteLine("Статус патча: " + core.InspectStatus());
                 Console.WriteLine("Версия русификатора: " + (InstalledVersion(norm) ?? "-"));
             }

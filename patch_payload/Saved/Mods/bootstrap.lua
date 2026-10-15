@@ -3,7 +3,7 @@ local Paths = import("BlueprintPathsLibrary")
 local root = File.GetFilePath(Paths.ProjectSavedDir()) .. "/Mods/"
 
 local Loader = {
-    Version = "0.4.5-RU",
+    Version = "0.4.6-RU",
     Language = "ru",
     RussianLocalization = true,
     Root = root,
@@ -11,6 +11,7 @@ local Loader = {
     Overlays = {},
     OverlayApplied = {},
     OverlayTargets = {},
+    OverlaySources = {},
     ExternalLoaded = {},
     ExternalLoading = {},
     Hooks = {},
@@ -63,19 +64,52 @@ local function report(message)
     if logger and logger.Error then logger.Error("[LOMModLoader] " .. tostring(message)) end
 end
 
+-- Route of every chunk read_chunk returned: "companion", "loadfile" or "load" (by relative path).
+Loader.ChunkRoutes = {}
+
 local function read_chunk(relative, chunk_name)
     local path = root .. relative
-    if type(loadfile) == "function" then
-        local chunk, message = loadfile(path)
-        if chunk then return chunk, path end
-    end
     local source = File.LoadFile(path)
     if source == nil or source == "" then
         return nil, "missing " .. path
     end
+    -- The shipping VM can disable source compilation after startup (CPDD 2.7). A CPDD bytecode companion
+    -- "<file>.compat.luac" returns (source, chunk) and is used only while that source equals the .lua bytes.
+    -- Unlike CPDD, a missing or mismatching companion is not an error: our own files have none, so the
+    -- source is compiled as before.
+    if type(loadfile) == "function" then
+        local ok, companion = pcall(loadfile, path .. ".compat.luac")
+        if ok and type(companion) == "function" then
+            local valid, original, chunk = pcall(companion)
+            if valid and original == source and type(chunk) == "function" then
+                Loader.ChunkRoutes[relative] = "companion"
+                return chunk, path, "companion"
+            end
+        end
+        local okSource, chunk = pcall(loadfile, path)
+        if okSource and type(chunk) == "function" then
+            Loader.ChunkRoutes[relative] = "loadfile"
+            return chunk, path, "loadfile"
+        end
+    end
     local chunk, message = load(source, "@" .. (chunk_name or path))
     if not chunk then return nil, message end
-    return chunk, path
+    Loader.ChunkRoutes[relative] = "load"
+    return chunk, path, "load"
+end
+Loader.ReadCompatibleChunk = read_chunk
+
+-- "ok" while the VM still compiles Lua source, otherwise "fail (<reason>)". Logged once at startup;
+-- Init.lua repeats it with the first shard load to show whether compilation was disabled later.
+function Loader.CompileProbe()
+    local ok, chunk, message = pcall(load, "return 1", "=LOMCompileProbe")
+    if ok and type(chunk) == "function" then return "ok" end
+    return "fail (" .. tostring(message or chunk) .. ")"
+end
+Loader.CompileProbeStartup = Loader.CompileProbe()
+do
+    local logger = Log or LaunchLog
+    if logger and logger.Info then logger.Info("[LOMModLoader] compile probe startup=" .. Loader.CompileProbeStartup) end
 end
 
 local function apply_feature_settings(settings)
@@ -165,6 +199,9 @@ local function module_relative(name)
 end
 
 function Loader.LoadExternal(name)
+    if type(name) == "string" and name:sub(1, 17) == "cpdd_translation." then
+        return nil, "Unverified translation module disabled by exact-source policy"
+    end
     if Loader.ExternalLoaded[name] ~= nil then return Loader.ExternalLoaded[name] end
     if Loader.ExternalLoading[name] then return nil, "cyclic external load " .. tostring(name) end
     local relative = module_relative(name)
@@ -359,29 +396,17 @@ local function find_original_chunk(name)
     return nil
 end
 
-local overlay_chunks = {}
-
-local function read_overlay_chunk(name)
-    local cached = overlay_chunks[name]
-    if cached ~= nil then
-        Loader.Telemetry.OverlayReadHits = Loader.Telemetry.OverlayReadHits + 1
-        return cached.Chunk, cached.Message
-    end
-    local overlay = Loader.Overlays[name]
-    local relative = overlay and module_relative(overlay)
-    if not relative then return nil, "invalid external overlay name " .. tostring(overlay) end
-    Loader.Telemetry.OverlayReads = Loader.Telemetry.OverlayReads + 1
-    local chunk, message = read_chunk(relative, overlay)
-    overlay_chunks[name] = { Chunk = chunk, Message = message }
-    return chunk, message
-end
-
+-- Exact-source policy (CPDD 2.7.0, TASK-032): the ID-keyed tables cpdd_translation.* are never read.
+-- Numeric row IDs moved in game updates, and ID-matched English showed unrelated text. Loader.Overlays only
+-- names the game StringDB modules to translate: each row of the current build is translated from its own
+-- Chinese value (Loader.TranslateDatabaseString -> shards by source text); rows without a translation keep
+-- the Chinese, and no rows are inserted.
 local function overlay_target(name, originalValue)
     local originalData = type(originalValue) == "table" and originalValue.data or nil
     return type(originalData) == "table" and Loader.OverlayTargets[name] == originalData
 end
 
-local function merge_overlay(name, originalValue, environment, translatedChunk, force)
+local function merge_overlay(name, originalValue, force)
     local originalData = type(originalValue) == "table" and originalValue.data or nil
     if type(originalData) ~= "table" then
         report("translation overlay " .. name .. " has an invalid original module shape")
@@ -391,36 +416,28 @@ local function merge_overlay(name, originalValue, environment, translatedChunk, 
 
     Loader.OverlayOriginals = Loader.OverlayOriginals or {}
     local originals = Loader.OverlayOriginals[name]
-    if not originals then
+    if not originals or Loader.OverlaySources[name] ~= originalData then
         originals = {}
         for k, v in pairs(originalData) do originals[k] = v end
         Loader.OverlayOriginals[name] = originals
+        Loader.OverlaySources[name] = originalData
     end
 
-    setfenv(translatedChunk, environment or _G)
-    Loader.Telemetry.OverlayExecutes = Loader.Telemetry.OverlayExecutes + 1
-    local ok, translatedValue = xpcall(function() return translatedChunk(name) end, debug.traceback)
-    local translatedData = ok and type(translatedValue) == "table" and translatedValue.data or nil
-    if type(translatedData) ~= "table" then
-        report("translation overlay " .. name .. " has an invalid translated module shape: " .. tostring(translatedValue))
-        return originalValue
-    end
-    local external = Loader.Overlays[name]
-    if external then Loader.ExternalLoaded[external] = translatedValue end
-
-    local count = 0
+    -- Init.lua registers the translator; until then the table stays Chinese and Init reapplies with force.
     local translator = Loader.TranslateDatabaseString
-    if type(translator) == "function" then
-        for key, value in pairs(translatedData) do
-            local origCn = originals[key]
-            local ru = translator(value, origCn, key, name)
-            originalData[key] = ru ~= nil and ru or value
-            count = count + 1
-        end
-    else
-        for key, value in pairs(translatedData) do
-            originalData[key] = value
-            count = count + 1
+    if type(translator) ~= "function" then return originalValue end
+
+    Loader.Telemetry.OverlayExecutes = Loader.Telemetry.OverlayExecutes + 1
+    local count = 0
+    for key, cn in pairs(originals) do
+        if type(cn) == "string" then
+            local ru = translator(nil, cn, key, name)
+            if ru ~= nil then
+                originalData[key] = ru
+                count = count + 1
+            else
+                originalData[key] = cn
+            end
         end
     end
     Loader.OverlayTargets[name] = originalData
@@ -432,14 +449,12 @@ end
 function Loader.ReapplyOverlay(name, force)
     local overlay = Loader.Overlays[name]
     if not overlay then return false end
-    local originalValue, environment, loaded
+    local originalValue, loaded
     if Game and Game.loaded and Game.loaded[name] then
         loaded = Game.loaded[name]
         originalValue = loaded.Ret ~= nil and loaded.Ret or loaded.ENV
-        environment = loaded.ENV
     elseif package.loaded[name] ~= nil then
         originalValue = package.loaded[name]
-        environment = _G
     else
         return false
     end
@@ -447,12 +462,7 @@ function Loader.ReapplyOverlay(name, force)
         Loader.Telemetry.OverlaySkipped = Loader.Telemetry.OverlaySkipped + 1
         return true
     end
-    local translatedChunk, message = read_overlay_chunk(name)
-    if not translatedChunk then
-        report("translation overlay " .. name .. " -> " .. overlay .. " failed: " .. tostring(message))
-        return false
-    end
-    local merged = merge_overlay(name, originalValue, environment, translatedChunk, force)
+    local merged = merge_overlay(name, originalValue, force)
     if loaded and loaded.Ret ~= nil then loaded.Ret = merged end
     if package.loaded[name] ~= nil then package.loaded[name] = merged end
     return Loader.OverlayTargets[name] ~= nil
@@ -466,26 +476,41 @@ function Loader.ReapplyOverlays(force)
     return applied
 end
 
+-- CPDD 2.7.1 aliases that replace whole game modules with English ID-based copies.
+local deniedTranslationAliases = {
+    ["Data.Config.Ksbc.KsbcIgnore"] = true,
+    ["Data.Config.StringConst.Language_zhs"] = true,
+    ["Data.Excel.RoleCreateQandAData"] = true,
+    ["Gameplay.Debug.DebugConst"] = true,
+    ["Gameplay.LogicSystem.CreateRole.CreateRoleAnswer_Panel"] = true,
+    ["Launch.I18n.zh"] = true,
+    ["Shared.language_zhs"] = true,
+}
+
 local function external_searcher(name)
-    local overlay = Loader.Overlays[name]
-    if overlay then
-        local translatedChunk, message = read_overlay_chunk(name)
+    if type(name) == "string" and name:sub(1, 17) == "cpdd_translation." then
+        return function() error("Unverified translation module disabled by exact-source policy", 0) end
+    end
+    if Loader.Overlays[name] then
         local originalChunk = find_original_chunk(name)
-        if translatedChunk and originalChunk then
+        if originalChunk then
             return function(...)
                 local environment = getfenv(1)
                 setfenv(originalChunk, environment)
                 local originalValue = originalChunk(...)
-                originalValue = merge_overlay(name, originalValue, environment, translatedChunk)
+                originalValue = merge_overlay(name, originalValue)
                 if Loader.Hooks[name] then return Loader.Apply(name, originalValue, environment) end
                 return originalValue
             end
         end
-        report("translation overlay " .. name .. " -> " .. overlay .. " failed: " .. tostring(message))
-        return "\n\ttranslation overlay unavailable for " .. tostring(name)
+        return "\n\toriginal module unavailable for translation overlay " .. tostring(name)
     end
 
     local mapped = Loader.Aliases[name]
+    if deniedTranslationAliases[name]
+        or (type(mapped) == "string" and mapped:sub(1, 17) == "cpdd_translation.") then
+        mapped = nil
+    end
     if mapped == nil and name:sub(1, 5) == "mods." then mapped = name end
     if mapped then
         local relative = module_relative(mapped)

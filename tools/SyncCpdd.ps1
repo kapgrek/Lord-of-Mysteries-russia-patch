@@ -66,24 +66,33 @@ function Get-CpddRelease([string]$tag) {
         Write-Host "Extracting $zip ..." -ForegroundColor Cyan
         Expand-Archive -LiteralPath $zip -DestinationPath $unpacked -Force
     }
-    [pscustomobject]@{ Tag = $tag; Dir = $dir; Release = $release; Game = (Join-Path $unpacked 'payload\bridge\game'); Block = (Join-Path $unpacked 'payload\bridge\LaunchInstance.native-bridge.padded.oodle') }
+    [pscustomobject]@{ Tag = $tag; Dir = $dir; Release = $release; Game = (Join-Path $unpacked 'payload\bridge\game'); Block = (Join-Path $unpacked 'payload\bridge\LaunchInstance.native-bridge.padded.oodle'); CacheBlock = (Join-Path $unpacked 'payload\cache-startup.oodle') }
 }
 
 # Relative path (as in patch_payload, '/'-separated) -> absolute path inside a release / patch_payload.
 $blockRel = 'bridge/LaunchInstance.native-bridge.padded.oodle'
-function Get-FileMap($gameRoot, $blockPath) {
+$cacheBlockRel = 'bridge/cache-startup.oodle'
+function Get-FileMap($release) {
     $map = @{}
-    $base = (Resolve-Path $gameRoot).Path
+    $base = (Resolve-Path $release.Game).Path
     Get-ChildItem -LiteralPath $base -Recurse -File | ForEach-Object {
         $map[$_.FullName.Substring($base.Length + 1).Replace('\', '/')] = $_.FullName
     }
-    if ($blockPath -and (Test-Path $blockPath)) { $map[$blockRel] = $blockPath }
+    if ($release.Block -and (Test-Path $release.Block)) { $map[$blockRel] = $release.Block }
+    if ($release.CacheBlock -and (Test-Path $release.CacheBlock)) { $map[$cacheBlockRel] = $release.CacheBlock }
     $map
 }
 
+# CPDD 2.7+ ships "<file>.lua.compat.luac" bytecode companions. A companion is bound to the exact bytes of the
+# .lua next to it: it belongs to that file's component and is copied only while our .lua equals CPDD's.
+$companionSuffix = '.compat.luac'
+function Test-Companion([string]$rel) { $rel.EndsWith($companionSuffix, [StringComparison]::OrdinalIgnoreCase) }
+function Get-CompanionSource([string]$rel) { $rel.Substring(0, $rel.Length - $companionSuffix.Length) }
+
 function Get-Component([string]$rel) {
+    if (Test-Companion $rel) { return Get-Component (Get-CompanionSource $rel) }
     $name = [IO.Path]::GetFileName($rel)
-    if ($rel -eq $blockRel -or $rel -like 'Binaries/*') { return 'bridge' }
+    if ($rel -eq $blockRel -or $rel -eq $cacheBlockRel -or $rel -like 'Binaries/*') { return 'bridge' }
     if ($rel -eq 'Saved/Mods/manifest.lua' -or $rel -eq 'Saved/Mods/translation-overrides.lua') { return 'loader' }
     if ($rel -eq 'Saved/Mods/bootstrap.lua') { return 'runtime' }
     if ($rel -eq 'Saved/Mods/translation-overrides.state.json') { return 'state' }
@@ -190,36 +199,62 @@ if ($Tag -eq 'latest') {
     $Tag = (& gh release view -R $Repo --json tagName --jq '.tagName').Trim()
     if (-not $Tag) { throw 'Cannot resolve the latest CPDD release tag' }
 }
-Write-Host "=== SyncCpdd: base $($baseInfo.tag) -> $Tag ===" -ForegroundColor Cyan
-$vendorBase = Join-Path $vendorDir $baseInfo.tag
-if ((Get-Sha (Join-Path $vendorBase 'release.json')) -ne $baseInfo.release_json_sha256) { throw "vendor/cpdd/$($baseInfo.tag)/release.json does not match BASE.json" }
+# Base per sync key: BASE.json "tag" is the default; "component_bases" holds components (or runtime file paths)
+# that stay on an older CPDD release, e.g. Init.lua or shards not merged yet. Every base tag keeps
+# vendor/cpdd/<tag>/release.json (sha in "release_sha256").
+$runtimeRels = @('Saved/Mods/bootstrap.lua', 'Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua')
+$componentBases = @{}
+if ($baseInfo.component_bases) { foreach ($p in $baseInfo.component_bases.PSObject.Properties) { $componentBases[$p.Name] = $p.Value } }
+$releaseShas = @{ $baseInfo.tag = $baseInfo.release_json_sha256 }
+if ($baseInfo.release_sha256) { foreach ($p in $baseInfo.release_sha256.PSObject.Properties) { $releaseShas[$p.Name] = $p.Value } }
+function Get-SyncKey([string]$rel, [string]$comp) {
+    $src = if (Test-Companion $rel) { Get-CompanionSource $rel } else { $rel }
+    if ($comp -eq 'runtime' -and $runtimeRels -contains $src) { return $src }
+    $comp
+}
+function Get-BaseTag([string]$key) { if ($componentBases.ContainsKey($key)) { $componentBases[$key] } else { $baseInfo.tag } }
 
-$base = Get-CpddRelease $baseInfo.tag
+$baseTags = @(@($baseInfo.tag) + @($componentBases.Values) | Sort-Object -Unique)
+Write-Host "=== SyncCpdd: base $($baseTags -join ', ') -> $Tag ===" -ForegroundColor Cyan
+$bases = @{}; $baseMaps = @{}
+foreach ($bt in $baseTags) {
+    if (-not $releaseShas.ContainsKey($bt)) { throw "BASE.json has no release_sha256 for base $bt" }
+    if ((Get-Sha (Join-Path $vendorDir "$bt\release.json")) -ne $releaseShas[$bt]) { throw "vendor/cpdd/$bt/release.json does not match BASE.json" }
+    $bases[$bt] = Get-CpddRelease $bt
+    $baseMaps[$bt] = Get-FileMap $bases[$bt]
+}
+$base = $bases[$baseInfo.tag]
 $theirs = Get-CpddRelease $Tag
-$baseMap = Get-FileMap $base.Game $base.Block
-$theirsMap = Get-FileMap $theirs.Game $theirs.Block
+$theirsMap = Get-FileMap $theirs
 
+$allRels = New-Object System.Collections.Generic.List[string]
+foreach ($m in @($baseMaps.Values) + @($theirsMap)) { foreach ($k in $m.Keys) { $allRels.Add($k) } }
 $rows = New-Object System.Collections.Generic.List[object]
-foreach ($rel in (@($baseMap.Keys) + @($theirsMap.Keys) | Sort-Object -Unique)) {
+foreach ($rel in ($allRels | Sort-Object -Unique)) {
     $comp = Get-Component $rel
+    $key = Get-SyncKey $rel $comp
+    $baseTag = Get-BaseTag $key
+    $baseMap = $baseMaps[$baseTag]
+    $companion = Test-Companion $rel
     $bSha = if ($baseMap.ContainsKey($rel)) { Get-Sha $baseMap[$rel] } else { $null }
     $tSha = if ($theirsMap.ContainsKey($rel)) { Get-Sha $theirsMap[$rel] } else { $null }
-    $oSha = if ($comp -eq 'shards') { $null } else { Get-Sha (Get-OursPath $rel) }
+    if (-not $bSha -and -not $tSha) { continue }
+    $oSha = if ($comp -eq 'shards' -and -not $companion) { $null } else { Get-Sha (Get-OursPath $rel) }
     $upstream = if ($bSha -eq $tSha) { 'same' } elseif (-not $bSha) { 'added' } elseif (-not $tSha) { 'removed' } else { 'changed' }
     $note = ''
     if ($comp -eq 'unknown') { $note = 'no sync rule for this path' }
-    elseif ($verbatimComponents -contains $comp -and $bSha -and $oSha -ne $bSha -and $oSha -ne $tSha) { $note = 'ours differs from CPDD base (local edit of a verbatim file)' }
-    $rows.Add([pscustomobject]@{ Rel = $rel; Component = $comp; Upstream = $upstream; Base = $bSha; Theirs = $tSha; Ours = $oSha; Note = $note })
+    elseif (-not $companion -and $verbatimComponents -contains $comp -and $bSha -and $oSha -ne $bSha -and $oSha -ne $tSha) { $note = 'ours differs from CPDD base (local edit of a verbatim file)' }
+    $rows.Add([pscustomobject]@{ Rel = $rel; Component = $comp; Key = $key; BaseTag = $baseTag; Companion = $companion; Upstream = $upstream; Base = $bSha; Theirs = $tSha; Ours = $oSha; Note = $note })
 }
 
 # merge3 dry run for the runtime files
 $merge = @{}
-foreach ($r in $rows | Where-Object { $_.Component -eq 'runtime' -and $_.Upstream -ne 'same' }) {
-    $vendorFile = Join-Path $vendorBase ([IO.Path]::GetFileName($r.Rel))
+foreach ($r in $rows | Where-Object { $_.Component -eq 'runtime' -and -not $_.Companion -and $_.Upstream -ne 'same' }) {
+    $vendorFile = Join-Path $vendorDir (Join-Path $r.BaseTag ([IO.Path]::GetFileName($r.Rel)))
     if ((Get-Sha $vendorFile) -ne $r.Base) { $r.Note = 'vendor base copy does not match CPDD base'; continue }
     $out = Join-Path $theirs.Dir ('sync\' + [IO.Path]::GetFileName($r.Rel) + '.merged')
     New-Item -ItemType Directory -Path (Split-Path $out) -Force | Out-Null
-    $merged = & git merge-file -p -L ours -L "cpdd-$($baseInfo.tag)" -L "cpdd-$Tag" (Get-OursPath $r.Rel) $vendorFile $theirsMap[$r.Rel]
+    $merged = & git merge-file -p -L ours -L "cpdd-$($r.BaseTag)" -L "cpdd-$Tag" (Get-OursPath $r.Rel) $vendorFile $theirsMap[$r.Rel]
     $conflicts = $LASTEXITCODE
     [IO.File]::WriteAllText($out, (($merged -join "`n") + "`n"), $utf8)
     $merge[$r.Rel] = [pscustomobject]@{ Conflicts = $conflicts; Output = $out }
@@ -230,8 +265,8 @@ foreach ($r in $rows | Where-Object { $_.Component -eq 'runtime' -and $_.Upstrea
 $shardAdded = New-Object System.Collections.Generic.List[object]
 $shardChanged = New-Object System.Collections.Generic.List[object]
 $shardRemoved = New-Object System.Collections.Generic.List[object]
-foreach ($r in $rows | Where-Object { $_.Component -eq 'shards' -and $_.Upstream -ne 'same' }) {
-    $b = if ($r.Base) { Read-Shard $baseMap[$r.Rel] } else { @{} }
+foreach ($r in $rows | Where-Object { $_.Component -eq 'shards' -and -not $_.Companion -and $_.Upstream -ne 'same' }) {
+    $b = if ($r.Base) { Read-Shard $baseMaps[$r.BaseTag][$r.Rel] } else { @{} }
     $t = if ($r.Theirs) { Read-Shard $theirsMap[$r.Rel] } else { @{} }
     foreach ($k in $t.Keys) {
         if (-not $b.ContainsKey($k)) { $shardAdded.Add([pscustomobject]@{ Cn = $k; En = $t[$k] }) }
@@ -257,11 +292,38 @@ foreach ($k in $bridgeKeys) {
 }
 
 # supported_game.json expected content (gamestate component)
-function Get-SupportedGameJson($release, [string]$tag) {
+function Get-SupportedGameJson($release, [string]$tag, [string]$cacheBlockPath) {
     $lb = $release.external_bridge.launch_block
     $paks = @($release.supported_base_paks)
     $build = if ($paks.Count -gt 0 -and $paks[0].name -match '(\d+\.\d+\.\d+)\s*$') { $Matches[1] } else { '' }
     $pakLines = foreach ($p in $paks) { "    { `"name`": $(ConvertTo-JsonString $p.name), `"sha256`": `"$($p.sha256)`", `"size`": $($p.size) }" }
+    # Hotpatch pakchunk0 in Saved/kscache/<ver>/ (CPDD 2.7.1+): the block is found by content, so only its
+    # sha and the first 64 bytes of the original (search key) are kept; the offset is resolved on the PC.
+    $cacheJson = ''
+    $cl = $release.external_bridge.cache_launch
+    if ($cl -and $cl.block) {
+        $orig = [byte[]]@($cl.original | ForEach-Object { [byte]$_ })
+        if ($orig.Length -ne $cl.block.size) { throw "cache_launch.original has $($orig.Length) bytes, block.size $($cl.block.size)" }
+        $sha = [Security.Cryptography.SHA256]::Create()
+        if (([BitConverter]::ToString($sha.ComputeHash($orig)) -replace '-', '').ToLower() -ne $cl.block.clean_sha256) { throw 'cache_launch.original does not match clean_sha256' }
+        $head = ([BitConverter]::ToString($orig, 0, 64) -replace '-', '').ToLower()
+        $inst = [IO.File]::ReadAllBytes($cacheBlockPath)
+        if ($inst.Length -ne $cl.block.size -or ([BitConverter]::ToString($sha.ComputeHash($inst)) -replace '-', '').ToLower() -ne $cl.block.installed_sha256) { throw "$cacheBlockPath does not match cache_launch.installed_sha256" }
+        $instHead = ([BitConverter]::ToString($inst, 0, 64) -replace '-', '').ToLower()
+        $cacheJson = @"
+,
+  "cache_launch": {
+    "manifest_sha256": "$($cl.manifest_sha256)",
+    "pak_name": "pakchunk0-Windows.pak",
+    "size": $($cl.block.size),
+    "clean_sha256": "$($cl.block.clean_sha256)",
+    "installed_sha256": "$($cl.block.installed_sha256)",
+    "payload": "$cacheBlockRel",
+    "original_head_hex": "$head",
+    "installed_head_hex": "$instHead"
+  }
+"@
+    }
     @"
 {
   "source": "CPDD $tag release.json",
@@ -277,12 +339,12 @@ $($pakLines -join ",`n")
     "installed_sha256": "$($lb.installed_sha256)",
     "installed_pak_sha256": "$($lb.installed_pak_sha256)",
     "installed_pak_size": $($lb.installed_pak_size)
-  }
+  }$cacheJson
 }
 "@ -replace "`r`n", "`n"
 }
 $supportedPath = Join-Path $root 'installer\supported_game.json'
-$supportedWanted = (Get-SupportedGameJson $theirs.Release $Tag) + "`n"
+$supportedWanted = (Get-SupportedGameJson $theirs.Release $Tag $theirs.CacheBlock) + "`n"
 $supportedCurrent = if (Test-Path $supportedPath) { [IO.File]::ReadAllText($supportedPath, $utf8) } else { '' }
 $gamestateChanged = ($supportedCurrent -replace '"source":[^\n]*', '') -ne ($supportedWanted -replace '"source":[^\n]*', '')
 
@@ -291,7 +353,7 @@ $changedRows = @($rows | Where-Object { $_.Upstream -ne 'same' -and $_.Component
 $problemRows = @($rows | Where-Object { $_.Note })
 $byComp = $rows | Group-Object Component | Sort-Object Name
 $md = New-Object System.Text.StringBuilder
-[void]$md.AppendLine("# CPDD sync report: $($baseInfo.tag) -> $Tag")
+[void]$md.AppendLine("# CPDD sync report: $($baseTags -join ', ') -> $Tag")
 [void]$md.AppendLine('')
 [void]$md.AppendLine("Generated by tools/SyncCpdd.ps1 on $(Get-Date -Format 'yyyy-MM-dd HH:mm'). Changelog $($Tag):")
 foreach ($c in @($theirs.Release.changelog)) { [void]$md.AppendLine("- $c") }
@@ -337,11 +399,13 @@ Write-Host "Report: $reportPath" -ForegroundColor Green
 if ($Apply) {
     Write-Host "`n=== Applying components: $($Components -join ', ') ===" -ForegroundColor Cyan
     $pending = New-Object System.Collections.Generic.List[string]
-    foreach ($r in $rows | Where-Object { $_.Upstream -ne 'same' }) {
-        if ($Components -notcontains $r.Component -or $r.Component -eq 'unknown') { if ($r.Component -ne 'shards') { $pending.Add($r.Rel) }; continue }
+    $pendingKeys = @{}
+    function Add-Pending($r) { $pendingKeys[$r.Key] = $true; if ($r.Component -ne 'shards') { $pending.Add($r.Rel) } }
+    foreach ($r in $rows | Where-Object { $_.Upstream -ne 'same' -and -not $_.Companion }) {
+        if ($Components -notcontains $r.Component -or $r.Component -eq 'unknown') { Add-Pending $r; continue }
         $ours = Get-OursPath $r.Rel
         if ($verbatimComponents -contains $r.Component) {
-            if ($r.Note) { $pending.Add($r.Rel); Write-Warning "Skipped $($r.Rel): $($r.Note)"; continue }
+            if ($r.Note) { Add-Pending $r; Write-Warning "Skipped $($r.Rel): $($r.Note)"; continue }
             if ($r.Upstream -eq 'removed') { Remove-Item -LiteralPath $ours -Force -ErrorAction SilentlyContinue; Write-Host "  deleted  $($r.Rel)" }
             else {
                 New-Item -ItemType Directory -Path (Split-Path $ours) -Force | Out-Null
@@ -351,7 +415,7 @@ if ($Apply) {
             }
         } elseif ($r.Component -eq 'runtime') {
             $m = $merge[$r.Rel]
-            if (-not $m -or $m.Conflicts -ne 0) { $pending.Add($r.Rel); Write-Warning "Not merged $($r.Rel): $($r.Note)"; continue }
+            if (-not $m -or $m.Conflicts -ne 0) { Add-Pending $r; Write-Warning "Not merged $($r.Rel): $($r.Note)"; continue }
             Copy-Item -LiteralPath $m.Output -Destination $ours -Force
             Write-Host "  merged   $($r.Rel)"
         } elseif ($r.Component -eq 'state') {
@@ -359,6 +423,37 @@ if ($Apply) {
             Write-Host "  state    $($r.Rel) (RU ids)"
         }
     }
+
+    # Companions after their .lua: copy only while our .lua is byte-equal to CPDD's, otherwise remove a stale one
+    # (bootstrap.lua read_chunk falls back to the source). vendor/cpdd/companions.json records the .lua sha
+    # each companion was copied for; VerifyPatch.ps1 fails when the .lua changed later.
+    $registryPath = Join-Path $vendorDir 'companions.json'
+    $registry = @{}
+    if (Test-Path $registryPath) { foreach ($p in ([IO.File]::ReadAllText($registryPath, $utf8) | ConvertFrom-Json).PSObject.Properties) { $registry[$p.Name] = $p.Value } }
+    $companionSkipped = @{}
+    foreach ($r in $rows | Where-Object { $_.Companion }) {
+        if ($Components -notcontains $r.Component) { if ($r.Upstream -ne 'same') { Add-Pending $r }; continue }
+        $ours = Get-OursPath $r.Rel
+        $srcRel = Get-CompanionSource $r.Rel
+        $theirsSrc = if ($theirsMap.ContainsKey($srcRel)) { Get-Sha $theirsMap[$srcRel] } else { $null }
+        $oursSrc = Get-Sha (Get-OursPath $srcRel)
+        if ($r.Theirs -and $theirsSrc -and $oursSrc -eq $theirsSrc) {
+            if ((Get-Sha $ours) -ne $r.Theirs) {
+                Copy-Item -LiteralPath $theirsMap[$r.Rel] -Destination $ours -Force
+                if ((Get-Sha $ours) -ne $r.Theirs) { throw "Copy verification failed for $($r.Rel)" }
+                Write-Host "  companion $($r.Rel)"
+            }
+            $registry[$r.Rel] = $oursSrc
+        } else {
+            if (Test-Path -LiteralPath $ours) { Remove-Item -LiteralPath $ours -Force; Write-Host "  removed  $($r.Rel) (our .lua differs from CPDD)" }
+            $registry.Remove($r.Rel)
+            $companionSkipped[$r.Component] = 1 + [int]$companionSkipped[$r.Component]
+        }
+    }
+    foreach ($k in @($registry.Keys)) { if (-not (Test-Path -LiteralPath (Get-OursPath $k))) { $registry.Remove($k) } }
+    $regLines = foreach ($k in ($registry.Keys | Sort-Object)) { "  $(ConvertTo-JsonString $k): `"$($registry[$k])`"" }
+    Write-Utf8Lf $registryPath ("{`n" + ($regLines -join ",`n") + "`n}`n")
+    foreach ($c in $companionSkipped.Keys) { Write-Host "  skipped  $($companionSkipped[$c]) companion(s) of [$c]: our .lua differs from CPDD" }
 
     if ($Components -contains 'shards' -and $shardNew.Count -gt 0) {
         if (-not $BatchName) {
@@ -390,23 +485,36 @@ if ($Apply) {
     if ($Components -contains 'gamestate' -and $gamestateChanged) {
         Write-Utf8Lf $supportedPath $supportedWanted
         Write-Host "  gamestate installer/supported_game.json"
-    } elseif ($gamestateChanged) { $pending.Add('installer/supported_game.json') }
+    } elseif ($gamestateChanged) { $pending.Add('installer/supported_game.json'); $pendingKeys['gamestate'] = $true }
+    foreach ($r in $rows | Where-Object { $_.Note -like 'merge conflicts*' -or $_.Note -like 'vendor*' -or $_.Component -eq 'unknown' }) { $pendingKeys[$r.Key] = $true }
 
-    if ($pending.Count -eq 0 -and -not $hasProblems) {
-        # Everything upstream is applied: CPDD $Tag becomes the new base.
-        $newVendor = Join-Path $vendorDir $Tag
+    # Every sync key without pending upstream changes moves to $Tag; the rest keeps its old base.
+    $effective = @{}
+    foreach ($p in $componentBases.GetEnumerator()) { $effective[$p.Key] = $p.Value }
+    foreach ($k in @(@($rows | ForEach-Object { $_.Key }) + 'gamestate' | Sort-Object -Unique)) {
+        if ($k -eq 'unknown') { continue }
+        $effective[$k] = if ($pendingKeys.ContainsKey($k)) { Get-BaseTag $k } else { $Tag }
+    }
+    $default = ($effective.Values | Group-Object | Sort-Object Count -Descending | Select-Object -First 1).Name
+    $usedTags = @(@($default) + @($effective.Values) | Sort-Object -Unique)
+    $newVendor = Join-Path $vendorDir $Tag
+    if ($usedTags -contains $Tag) {
         New-Item -ItemType Directory -Path $newVendor -Force | Out-Null
         Copy-Item -LiteralPath (Join-Path $theirs.Dir 'release.json') -Destination $newVendor -Force
-        foreach ($rel in 'Saved/Mods/bootstrap.lua', 'Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua', 'Saved/Mods/translation-overrides.state.json') {
+        foreach ($rel in $runtimeRels + 'Saved/Mods/translation-overrides.state.json') {
             Copy-Item -LiteralPath $theirsMap[$rel] -Destination $newVendor -Force
         }
-        $relSha = Get-Sha (Join-Path $newVendor 'release.json')
-        Write-Utf8Lf (Join-Path $vendorDir 'BASE.json') "{`n  `"tag`": `"$Tag`",`n  `"release_json_sha256`": `"$relSha`",`n  `"note`": `"CPDD release that patch_payload is based on. Updated by tools/SyncCpdd.ps1 -Apply.`"`n}`n"
-        if ($baseInfo.tag -ne $Tag) { Remove-Item -LiteralPath $vendorBase -Recurse -Force }
-        Write-Host "  base     vendor/cpdd -> $Tag" -ForegroundColor Green
-    } else {
-        Write-Warning "Base stays $($baseInfo.tag): not applied: $($pending -join ', ')"
+        $releaseShas[$Tag] = Get-Sha (Join-Path $newVendor 'release.json')
     }
+    $overrideLines = foreach ($k in ($effective.Keys | Sort-Object)) { if ($effective[$k] -ne $default) { "    $(ConvertTo-JsonString $k): `"$($effective[$k])`"" } }
+    $shaLines = foreach ($t in ($usedTags | Where-Object { $_ -ne $default })) { "    `"$t`": `"$($releaseShas[$t])`"" }
+    $json = "{`n  `"tag`": `"$default`",`n  `"release_json_sha256`": `"$($releaseShas[$default])`",`n"
+    if ($overrideLines) { $json += "  `"component_bases`": {`n$($overrideLines -join ",`n")`n  },`n  `"release_sha256`": {`n$($shaLines -join ",`n")`n  },`n" }
+    $json += "  `"note`": `"CPDD release that patch_payload is based on; component_bases are sync keys (component or runtime file) still on an older release. Updated by tools/SyncCpdd.ps1 -Apply.`"`n}`n"
+    Write-Utf8Lf (Join-Path $vendorDir 'BASE.json') $json
+    foreach ($d in Get-ChildItem $vendorDir -Directory) { if ($usedTags -notcontains $d.Name) { Remove-Item -LiteralPath $d.FullName -Recurse -Force } }
+    Write-Host "  base     vendor/cpdd -> $default$(if ($overrideLines) { '; older: ' + (($overrideLines | ForEach-Object { $_.Trim() }) -join ', ') })" -ForegroundColor Green
+    if ($pending.Count) { Write-Warning "Not applied: $($pending -join ', ')" }
 }
 
 if ($hasProblems) { exit 2 }

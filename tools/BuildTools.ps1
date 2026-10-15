@@ -13,7 +13,7 @@ if (-not (Test-Path $csc)) {
     throw "csc.exe not found!"
 }
 
-$tools = @('ShardCompiler', 'FixCapitalization', 'MergeOldTranslation', 'MergeTranslated', 'InstallerCoreTests')
+$tools = @('ShardCompiler', 'FixCapitalization', 'MergeOldTranslation', 'MergeTranslated', 'InstallerCoreTests', 'LuaDataCheck')
 if ($Only.Count -gt 0) { $tools = $tools | Where-Object { $Only -contains $_ } }
 
 # Extra sources compiled into a tool (paths relative to the repository root)

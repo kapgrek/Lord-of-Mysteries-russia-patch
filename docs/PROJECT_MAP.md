@@ -10,7 +10,7 @@
 | :--- | :--- | :--- |
 | **Логика перехвата UI, шрифты, хуки строк** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua` | Хуки `TranslateDatabaseString`, вычисление FNV-1a хешей, загрузка шардов, автоисправление верстки UMG; размер текста — подгонка замером `runtimeFixes.TextFit` (TASK-011) |
 | **Мод-лоадер / перехватчик `package.loaders`** | `patch_payload/Saved/Mods/bootstrap.lua` | Точка входа модов, подмена модулей (`external_searcher`), `merge_overlay`, флаг `DiagnosticsMode` |
-| **Нативный загрузчик (Bridge)** | `patch_payload/bridge/LaunchInstance.native-bridge.padded.oodle`<br>`patch_payload/Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua` | 4660-байтный патч-блок для `pakchunk0` и скрипт первичной инициализации |
+| **Нативный загрузчик (Bridge)** | `patch_payload/bridge/LaunchInstance.native-bridge.padded.oodle`<br>`patch_payload/bridge/cache-startup.oodle`<br>`patch_payload/Binaries/Win64/lua/Launch/Base/CPDDTranslation.lua` | 4660-байтный патч-блок для базового `pakchunk0`, 5258-байтный блок для `Saved/kscache/<ver>/pakchunk0` (хотпатч, `supported_game.json → cache_launch`, TASK-032) и скрипт первичной инициализации |
 | **Исходные тексты для перевода** | `source/translation_batches/batch_*.json`<br>`source/translation_batches/BATCH_MANIFEST.md` | Батчи строк (`target_ru`, `source_cn`, `ref_en`): `batch_001…027` (основной массив), `batch_028_autochess` (энциклопедия Автошахмат, EN-ключи с приоритетом), `batch_029_cpdd_264`, `batch_030_stringdb_aliases` (алиасы ключей StringDB), `batch_031_autochess_stringdb`, `batch_032_stringdb_ui`, `batch_033_autochess_stringdb_2`, `batch_034_stringdb_s5` (TASK-019: строки, видимые в сессии s5). **Source of Truth** для текстов |
 | **Канон терминов и глоссарии** | `source/glossary/*.json`<br>`docs/GLOSSARY.md` | Пути, Последовательности, персонажи, артефакты, географические названия |
 | **Компиляция строк в шарды игры** | `tools/ShardCompiler.cs` (+ `.ps1`) | Распределение строк из `batch_*.json` по 1024 шардам `RuntimeTextGemini_*.lua`. `.exe` собирается `tools/BuildTools.ps1` |
@@ -22,8 +22,8 @@
 | **Текстуры и виджеты IoStore** | `patch_payload/Saved/Mods/BakedText/blocks.bin`<br>`patch_payload/Saved/Mods/BakedText/manifest.json`<br>`tools/BakedTextManager.ps1` | 39 МБ пропатченных блоков для `.ucas` файлов контейнеров UE5 |
 | **Движок и графический инсталлятор** | `installer/Program.cs`<br>`installer/PatcherBackend.cs`<br>`installer/InstallerCore.cs`<br>`installer/GameOptions.cs`<br>`installer/PayloadSource.cs`<br>`installer/AppInfo.cs`<br>`installer/supported_game.json` | `Program.cs`: `Main`, CLI, `--payload`. `PatcherBackend.cs`: поиск папки игры (диски × пути CPDD, реестр, последняя папка в `%LOCALAPPDATA%\LotmRussianPatch\settings.json`), статус, установка/удаление, запуск Combat Meter. `InstallerCore.cs`: проверка версии игры (sha256 всего `pakchunk0`), блок моста, бэкап в `Saved/RussianPatchBackups/`, установка и удаление только своих файлов (`installed_files.json`), BakedText; `.disabled` после старого переключения RU↔EN чинится установкой. `GameOptions.cs`: `cpdd_patcher_settings.lua` в формате CPDD, блок Visual Clarity в `Engine.ini`. `PayloadSource.cs`: `--payload` → zip рядом с exe (точное имя) → релиз GitHub (sha256 по `release.json`) → проверенный кеш. `AppInfo.cs`: версия и репозиторий |
 | **Окно установщика (WPF)** | `installer/Ui/*.xaml`, `installer/Ui/*.cs`<br>`installer/links.json`<br>`installer/HowToPlay.md`, `installer/howto/*.png` | XAML без `x:Class`, встраивается ресурсом и грузится `XamlReader` (сборка `csc`, без .NET SDK); события подключаются в `MainWindow.cs` по `ElementNames`. `Theme.xaml` — общая тёмная тема, `UiKit.cs` — диалоги и тёмный заголовок, `FolderPicker.cs` — `IFileOpenDialog`. Ссылки соцсетей — `links.json` (только https на t.me, boosty.to, discord.gg, github.com). «Как играть» — `HowToPlay.md` → `FlowDocument` |
-| **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore`, `GameOptions`, `PayloadSource`, разметки окон, `links.json` и `HowToPlay.md` на поддельных pak из случайных байт в `temp/installer-tests/`; `--check-payload <dir>` проверяет распакованный zip данных |
-| **Синхронизация с CPDD** | `tools/SyncCpdd.ps1`<br>`vendor/cpdd/` | Скачать релиз CPDD → сравнить с базой (`vendor/cpdd/BASE.json`) и `patch_payload/` → отчёт `reference/cpdd/<tag>/SYNC_REPORT.md` → `-Apply` выбранных компонентов (verbatim, 3-way merge `Init.lua`/`bootstrap.lua`, `state.json`, новые строки шардов в батч, `supported_game.json`) |
+| **Тесты установщика** | `tools/InstallerCoreTests.cs` | Сценарии `InstallerCore`, `GameOptions`, `PayloadSource`, разметки окон, `links.json` и `HowToPlay.md` на поддельных pak из случайных байт в `temp/installer-tests/` (включая поддельный `Saved/kscache`: установка, удаление, неизвестный манифест, два совпадения, откат); `--check-payload <dir>` проверяет распакованный zip данных |
+| **Синхронизация с CPDD** | `tools/SyncCpdd.ps1`<br>`vendor/cpdd/` | Скачать релиз CPDD → сравнить с базой (`vendor/cpdd/BASE.json`) и `patch_payload/` → отчёт `reference/cpdd/<tag>/SYNC_REPORT.md` → `-Apply` выбранных компонентов (verbatim, 3-way merge `Init.lua`/`bootstrap.lua`, `state.json`, новые строки шардов в батч, `supported_game.json` с `cache_launch`, `bridge/cache-startup.oodle`, байткод-компаньоны `*.lua.compat.luac` только для файлов, равных CPDD-шным, реестр `vendor/cpdd/companions.json`). База задаётся по компонентам: `BASE.json → component_bases` держит ключи, оставшиеся на старом релизе (сейчас `Init.lua`, шарды и BakedText на v2.6.4) |
 | **Сборка и публикация релиза** | `tools/PackageRelease.ps1`<br>`installer/build_installer.ps1`<br>`tools/BuildTools.ps1` | Установщик, `lom-russian-patch-data.zip` (+ `supported_game.json`, `owned_files.json` в корне zip), `release.json` (+ `supported_base_paks`, `launch_block`, `owned_files`) и bundle в `build/`. `-DataOnly -BuildDir temp\x` собирает только zip данных. С `-Publish`: черновик → загрузка assets (`--clobber`, повторяемо) → публикация как latest; `-WhatIfPublish` только печатает поиск релиза (через `gh api`, с черновиками) и команды `gh` |
 | **Диагностика для разработки** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruDiagnostics.lua`<br>`tools/CollectDiagLogs.ps1`<br>`docs/DIAGNOSTICS.md` | Модуль сбора (хуки, непереведённое, переполнение, шрифты, текстуры); включается только файлом `Saved/Mods/lua/absoluteru_dev.lua` в игре. `CollectDiagLogs` копирует логи ИЗ игры в `reference/logs/<дата>/` и строит отчёты в `report/` |
 | **Выгрузка ассетов «Божий путь» (TASK-018)** | `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruAssetExport.lua`<br>`tools/GodWayExport.ps1`<br>`docs/DIAGNOSTICS.md` (раздел AssetExport) | Dev-only (флаг `AssetExport` в `absoluteru_dev.lua`): пробы (`Probe = true` / `"retainer"`) и полная выгрузка текстур, атласов, материалов, раскладки, дорожки и кадров RetainerBox из памяти игры. `GodWayExport.ps1` копирует ИЗ игры в `reference/godway_export/raw/`, режет спрайты, пишет `manifest.json` и `summary.md` |
@@ -73,7 +73,8 @@ AbsoluteRU/
 │
 ├── patch_payload/             # Полезная нагрузка патча, внедряемая в клиент игры
 │   ├── bridge/
-│   │   └── LaunchInstance.native-bridge.padded.oodle # 4660-байтный патч для pakchunk0
+│   │   ├── LaunchInstance.native-bridge.padded.oodle # 4660-байтный патч для pakchunk0
+│   │   └── cache-startup.oodle # 5258-байтный мост для pakchunk0 в Saved/kscache/<ver>/
 │   ├── Binaries/Win64/lua/Launch/Base/
 │   │   └── CPDDTranslation.lua # Стартовый шлюз входа в Mods/bootstrap.lua
 │   └── Saved/Mods/            # Основной каталог модификаций
@@ -107,7 +108,7 @@ AbsoluteRU/
 │   ├── BatchHelper.ps1        # Экспорт чанков в temp/, импорт переводов, статистика
 │   ├── ShardCompiler.cs/.ps1  # Компилятор батчей в 1024 шарда RuntimeText
 │   ├── VerifyBatch.ps1        # Валидатор плейсхолдеров и тегов в батчах
-│   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (Init.lua + AbsruDiagnostics.lua)
+│   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (мосты, компаньоны *.compat.luac, Init.lua + AbsruDiagnostics.lua)
 │   ├── CollectDiagLogs.ps1    # Логи диагностики ИЗ игры -> reference/logs/<дата>/, отчёты в report/
 │   ├── GlossaryCheck.ps1      # Сверка перевода с глоссарием: -Report/-FixShort/-Export/-ExportNew/-Import/-BuildDoc [-Glossary]
 │   ├── StringDbGaps.ps1       # Промахи StringDB из логов диагностики -> категории, -Report, -Emit [-OnScreen]/-EmitData/-EmitProbe/-EmitList/-Aliases в батч
@@ -118,6 +119,7 @@ AbsoluteRU/
 │   ├── MergeTranslated.cs     # Слияние переведенных чанков
 │   ├── SyncCpdd.ps1           # Сверка с релизом CPDD: отчёт и применение компонентов
 │   ├── InstallerCoreTests.cs  # Тесты InstallerCore на поддельных папках игры в temp/
+│   ├── LuaDataCheck.cs        # Офлайн-сверка парсера данных Init.lua (parseDataLiteral) с семантикой Lua 5.1 на всех шардах и индексах
 │   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release, -DataOnly)
 │
 ├── installer/                 # Исходный код автономного установщика (*.exe не в git)
@@ -134,7 +136,7 @@ AbsoluteRU/
 │   ├── build_installer.ps1    # Сборка EXE (csc + WPF, XAML/тексты как ресурсы; по умолчанию в build/)
 │   └── AssemblyInfo.cs, app.ico, app.manifest
 │
-├── vendor/cpdd/               # Нетронутая база CPDD для 3-way merge (BASE.json, <tag>/Init.lua, bootstrap.lua, state.json, release.json)
+├── vendor/cpdd/               # Нетронутая база CPDD для 3-way merge (BASE.json с component_bases, <tag>/Init.lua, bootstrap.lua, state.json, release.json; companions.json — sha .lua для скопированных компаньонов)
 │
 ├── build/                     # [не в git] Результаты PackageRelease: exe, payload zip, release.json, bundle
 ├── reference/                 # [не в git, не очищается] Внешние материалы

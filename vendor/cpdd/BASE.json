@@ -1,5 +1,13 @@
 {
-  "tag": "v2.6.4",
-  "release_json_sha256": "5c3b61b356a6650124ebedf02abfdc9cbd283745248311aa0d05e32db2fe36c2",
-  "note": "CPDD release that patch_payload is based on. Updated by tools/SyncCpdd.ps1 -Apply."
+  "tag": "v2.7.1",
+  "release_json_sha256": "0c596643fbb469148171027d29478ca7a65bf1d5112612a51e6f01eefc169a69",
+  "component_bases": {
+    "bakedtext": "v2.6.4",
+    "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua": "v2.6.4",
+    "shards": "v2.6.4"
+  },
+  "release_sha256": {
+    "v2.6.4": "5c3b61b356a6650124ebedf02abfdc9cbd283745248311aa0d05e32db2fe36c2"
+  },
+  "note": "CPDD release that patch_payload is based on; component_bases are sync keys (component or runtime file) still on an older release. Updated by tools/SyncCpdd.ps1 -Apply."
 }

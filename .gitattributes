@@ -19,3 +19,5 @@ patch_payload/Saved/Mods/lua/cpdd_translation/** binary
 *.png    binary
 *.uasset binary
 *.oodle  binary
+# CPDD bytecode companions (<file>.lua.compat.luac), bound to the exact bytes of the .lua next to them
+*.luac   binary

@@ -1,5 +1,5 @@
 {
-  "source": "CPDD v2.6.4 release.json",
+  "source": "CPDD v2.7.1 release.json",
   "game_build": "1.2018737.2044036",
   "supported_base_paks": [
     { "name": "BiliBili C7 1.2018737.2044036", "sha256": "abbadeeaec029807c6547d7faa9788f38da0099e8ea05ee20ff0167c0f5686d8", "size": 446910011 }
@@ -12,5 +12,15 @@
     "installed_sha256": "c031726986e09358bb18ff8a2b8ee5f0b4e65ce8ae8331eed2d7575c80b7efa9",
     "installed_pak_sha256": "1712e55db2b9b4b6c8ff86e5a11b7ac56b9602951a08cbdb8c5face2687c6bd1",
     "installed_pak_size": 446910011
+  },
+  "cache_launch": {
+    "manifest_sha256": "6d23b1cf198b17efe9e2e132d1f6420d2f6dfdf439ba8d61534901d1f6d00b24",
+    "pak_name": "pakchunk0-Windows.pak",
+    "size": 5258,
+    "clean_sha256": "3124ee28ea3b4db83666da313d5e022eaef882d191356d5e38b86d94c6173084",
+    "installed_sha256": "ee48b48a77ab0f5a1335c6cbb28db6ffde920d7aad2058ed18138b4f6c15766c",
+    "payload": "bridge/cache-startup.oodle",
+    "original_head_hex": "8c060014848814821b4c4a820836402e40545c12c78bc8c236e94fcff9fccfe9a6fcb7f24bfe87f77972b567dcecfe492804084927ffff4ffffffd3e980befaf",
+    "installed_head_hex": "8c0600146f88146d1b4c4a820836402e40510812158bc8c22b4d29f9ff3f99fd34df96fe49733d3fba94b95ab3ee767f249402042493ffffa7fffffe9f4c05f7"
   }
 }
