@@ -1,5 +1,5 @@
-# Stop hook: if source/translation_batches/batch_*.json changed since the last run,
-# recompile RuntimeTextGemini shards (tools/ShardCompiler.exe) and validate batches (tools/VerifyBatch.ps1).
+# Stop hook: if source/translation_batches/batch_*.json or source/stringdb/stringdb_keys.json changed since the last
+# run, recompile RuntimeTextGemini shards and StringDB packs (tools/ShardCompiler.exe) and validate batches (tools/VerifyBatch.ps1).
 # On validation failure Claude is sent back to fix the batch (once per stop cycle).
 $ErrorActionPreference = 'Stop'
 
@@ -12,10 +12,13 @@ $stamp = Join-Path $tempDir '.shard_compile_stamp'
 
 $batches = @(Get-ChildItem -Path $batchesDir -Filter 'batch_*.json' -File -ErrorAction SilentlyContinue)
 if ($batches.Count -eq 0) { exit 0 }
+# StringDB keys (TASK-033): ShardCompiler rebuilds the StringDbPack*.lua packs from them; VerifyBatch skips this file.
+$keysFile = Get-Item (Join-Path $root 'source\stringdb\stringdb_keys.json') -ErrorAction SilentlyContinue
+if ($keysFile) { $batches += $keysFile }
 $newest = ($batches | Measure-Object -Property LastWriteTimeUtc -Maximum).Maximum
 
 $ErrorActionPreference = 'Continue'
-$dirty = @(git -C $root status --porcelain -- 'source/translation_batches/batch_*.json' 2>$null)
+$dirty = @(git -C $root status --porcelain -- 'source/translation_batches/batch_*.json' 'source/stringdb/stringdb_keys.json' 2>$null)
 $ErrorActionPreference = 'Stop'
 if (Test-Path $stamp) {
     $since = (Get-Item $stamp).LastWriteTimeUtc

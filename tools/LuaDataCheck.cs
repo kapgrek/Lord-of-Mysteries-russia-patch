@@ -2,7 +2,7 @@
 //
 //   tools/LuaDataCheck.exe [-Root <repo>] [-Dir <folder with .lua data files>]
 //
-// Every RuntimeTextGemini_*.lua, LanguageSourceIndex_*.lua and WidgetNameIndex.lua is read twice:
+// Every RuntimeTextGemini_*.lua, LanguageSourceIndex_*.lua, StringDbPack*.lua and WidgetNameIndex.lua is read twice:
 //   1. LuaReader  - a reader with Lua 5.1 lexer/constructor semantics (llex.c read_string, strtod numbers,
 //                   long strings and comments, positional fields flushed every 50 items like OP_SETLIST);
 //   2. PortParser - a line-by-line port of runtimeFixes.parseDataLiteral from Init.lua.
@@ -31,6 +31,7 @@ public static class LuaDataCheck {
         List<string> files = new List<string>();
         files.AddRange(Directory.GetFiles(dir, "RuntimeTextGemini_*.lua"));
         files.AddRange(Directory.GetFiles(dir, "LanguageSourceIndex_*.lua"));
+        files.AddRange(Directory.GetFiles(dir, "StringDbPack*.lua"));  // StringDB packs and their index (TASK-033)
         if (File.Exists(Path.Combine(dir, "WidgetNameIndex.lua"))) files.Add(Path.Combine(dir, "WidgetNameIndex.lua"));
         files.Sort(StringComparer.Ordinal);
 

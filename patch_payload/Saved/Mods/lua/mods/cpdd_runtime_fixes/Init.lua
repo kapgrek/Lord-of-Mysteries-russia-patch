@@ -2062,6 +2062,18 @@ local function getShardPrefix(value)
     return SHARD_PREFIXES[bit.band(bit.rshift(hash, 22), 0x3ff)]
 end
 
+-- StringDB packs (TASK-033 stage 2B): per merged module, pack = step 3 of TranslateDatabaseString precomputed by
+-- tools/ShardCompiler.cs. Live counts one merge pass, Last keeps the finished pass for the diagnostics line.
+local stringDbPackState = { Index = nil, Packs = {}, LoadMillis = {}, Live = {}, Last = {}, Stale = {} }
+
+local function stringDbPackLine(moduleName, stats)
+    local pack, keys = stringDbPackState.Packs[moduleName], 0
+    if type(pack) == "table" then for _ in pairs(pack) do keys = keys + 1 end end
+    return "stringdb pack module=" .. moduleName .. " keys=" .. keys .. " hits=" .. stats.Hits
+        .. " false=" .. stats.False .. " unknown=" .. stats.Unknown .. " unknown_shards=" .. stats.UnknownShards
+        .. " pack_ms=" .. math.floor(stringDbPackState.LoadMillis[moduleName] or 0)
+end
+
 -- Data modules without compilation (TASK-032). The generated data files (RuntimeTextGemini_*,
 -- LanguageSourceIndex_*, WidgetNameIndex) are plain table literals: "--" comment lines, "return {",
 -- ["key"] = value entries or list items; values are strings, numbers or { ... } of those. The game VM may
@@ -2245,6 +2257,11 @@ do
             .. " read_ms=" .. runtimeMetrics.DataReadMillis
             .. " parse_ms=" .. runtimeMetrics.DataParseMillis
             .. " shard_ms=" .. runtimeMetrics.GeminiShardLoadMillis)
+        local names = {}
+        for name in pairs(stringDbPackState.Last) do names[#names + 1] = name end
+        table.sort(names)
+        for _, name in ipairs(names) do report(stringDbPackLine(name, stringDbPackState.Last[name])) end
+        stringDbPackState.StatsReported = true
     end
 
     -- Dev only: parse a module the VM already loaded and compare it with the parser result.
@@ -12617,6 +12634,57 @@ runtimeFixes.resolveStringDbText = function(cnValue)
     return lookupGeminiText(cnValue) or runtimeFixes.lookupGeminiTextFuzzy(cnValue)
 end
 
+-- Lazy, once per module: the pack table or false (no pack -> step 3 reads the shards as before). Only modules
+-- listed in StringDbPackIndex.lua (always shipped) are loaded, so a missing pack never reaches the log.
+local function stringDbPack(moduleName)
+    if type(moduleName) ~= "string" then return false end
+    local pack = stringDbPackState.Packs[moduleName]
+    if pack ~= nil then return pack end
+    pack = false
+    local index = stringDbPackState.Index
+    if index == nil then
+        local loaded, route = runtimeFixes.loadDataModule("mods.cpdd_runtime_fixes.StringDbPackIndex")
+        index = type(loaded) == "table" and loaded or false
+        stringDbPackState.Index = index
+        if not index then
+            local message = "stringdb pack index unavailable: " .. tostring(route)
+            if tostring(route):find("data: missing", 1, true) then
+                if runtimeFixes.Diag then report(message) else reportVerbose(message) end
+            else
+                report(message)
+            end
+        end
+    end
+    local suffix = index and index[moduleName]
+    if type(suffix) == "string" then
+        local started = nowMilliseconds()
+        local loaded, route = runtimeFixes.loadDataModule("mods.cpdd_runtime_fixes.StringDbPack" .. suffix)
+        stringDbPackState.LoadMillis[moduleName] = nowMilliseconds() - started
+        if type(loaded) == "table" then
+            pack = loaded
+        else
+            -- Listed in the index but unreadable: a broken build, one line in every mode.
+            report("stringdb pack " .. moduleName .. " unavailable: " .. tostring(route))
+        end
+    end
+    stringDbPackState.Packs[moduleName] = pack
+    return pack
+end
+
+-- bootstrap.lua merge_overlay calls this after each pass over a module.
+Loader.OnOverlayMerged = function(moduleName)
+    local stats = stringDbPackState.Live[moduleName]
+    if not stats then return end
+    stringDbPackState.Live[moduleName] = nil
+    stringDbPackState.Last[moduleName] = stats
+    if stats.UnknownShards >= 64 and not stringDbPackState.Stale[moduleName] then
+        stringDbPackState.Stale[moduleName] = true
+        report("stringdb pack stale " .. moduleName .. " unknown=" .. stats.Unknown .. " shards=" .. stats.UnknownShards
+            .. " (new StringDbDump needed, docs/DIAGNOSTICS.md)")
+    end
+    if runtimeFixes.Diag and stringDbPackState.StatsReported then report(stringDbPackLine(moduleName, stats)) end
+end
+
 Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
     local hasEn = type(enValue) == "string" and enValue ~= ""
     local hasCn = type(cnValue) == "string" and cnValue ~= ""
@@ -12638,10 +12706,38 @@ Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
         end
     end
 
-    -- 3. Exact direct shard lookup for Chinese original string (primary canonical source in shards)
+    -- 3. Exact direct shard lookup for Chinese original string (primary canonical source in shards).
+    -- The module pack holds this result: a string, or false when step 3 finds nothing; nil (cn unknown to the
+    -- pack, e.g. after a game update) falls back to the shards.
     if hasCn then
-        local ruCn = runtimeFixes.resolveStringDbText(cnValue)
-        if ruCn ~= nil then return ruCn end
+        local pack = stringDbPack(moduleName)
+        local packed = nil
+        local stats = nil
+        if pack then
+            packed = pack[cnValue]
+            stats = stringDbPackState.Live[moduleName]
+            if not stats then
+                stats = { Hits = 0, False = 0, Unknown = 0, UnknownShards = 0, Shards = {} }
+                stringDbPackState.Live[moduleName] = stats
+            end
+        end
+        if type(packed) == "string" then
+            stats.Hits = stats.Hits + 1
+            return packed
+        elseif packed == false then
+            stats.False = stats.False + 1
+        else
+            if stats then
+                stats.Unknown = stats.Unknown + 1
+                local prefix = getShardPrefix(cnValue)
+                if not stats.Shards[prefix] then
+                    stats.Shards[prefix] = true
+                    stats.UnknownShards = stats.UnknownShards + 1
+                end
+            end
+            local ruCn = runtimeFixes.resolveStringDbText(cnValue)
+            if ruCn ~= nil then return ruCn end
+        end
     end
 
     -- 4. Direct shard lookup for English reference string

@@ -443,6 +443,8 @@ local function merge_overlay(name, originalValue, force)
     Loader.OverlayTargets[name] = originalData
     Loader.OverlayApplied[name] = count
     Loader.Telemetry.OverlayMerges = Loader.Telemetry.OverlayMerges + 1
+    -- Init.lua: StringDB pack counters of this pass (TASK-033).
+    if type(Loader.OnOverlayMerged) == "function" then pcall(Loader.OnOverlayMerged, name) end
     return originalValue
 end
 

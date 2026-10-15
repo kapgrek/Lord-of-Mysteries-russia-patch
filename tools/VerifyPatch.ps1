@@ -115,6 +115,52 @@ if ($indexShards -eq 256) {
     Write-Warning "[WARN] Обнаружено $indexShards / 256 шардов индексов!"
 }
 
+# 4b. Пакеты StringDB (TASK-033): по одному на модуль из source/stringdb/stringdb_keys.json, game_build как у ключей
+$packIndex = Join-Path $shardsDir "StringDbPackIndex.lua"
+$keysPath = Join-Path $Root "source\stringdb\stringdb_keys.json"
+$packHeader = '^-- StringDB pack (\S+) game_build=(\S*) '
+if (-not (Test-Path $packIndex)) {
+    Write-Host "[ERROR] Нет StringDbPackIndex.lua (запустите tools/ShardCompiler.exe)" -ForegroundColor Red
+    $errors++
+} elseif (-not (Test-Path $keysPath)) {
+    Write-Warning "[WARN] Нет source/stringdb/stringdb_keys.json: пакетов StringDB нет, на старте читаются все шарды (TASK-033)."
+} else {
+    Add-Type -AssemblyName System.Web.Extensions
+    $serializer = New-Object System.Web.Script.Serialization.JavaScriptSerializer
+    $serializer.MaxJsonLength = [int]::MaxValue
+    $keysData = $serializer.DeserializeObject([System.IO.File]::ReadAllText($keysPath))
+    $keysBuild = [string]$keysData['game_build']
+    $indexed = @{}
+    foreach ($line in [System.IO.File]::ReadAllLines($packIndex)) {
+        if ($line -match '^\s*\["([^"]+)"\] = "([A-Za-z0-9_]*)",$') { $indexed[$Matches[1]] = $Matches[2] }
+    }
+    $packErrors = 0
+    foreach ($module in $keysData['modules'].Keys) {
+        if (-not $indexed.ContainsKey($module)) {
+            Write-Host "[ERROR] Модуль без пакета в StringDbPackIndex.lua: $module" -ForegroundColor Red
+            $packErrors++
+            continue
+        }
+        $packPath = Join-Path $shardsDir ("StringDbPack" + $indexed[$module] + ".lua")
+        $header = if (Test-Path $packPath) { [System.IO.File]::ReadLines($packPath) | Select-Object -First 1 } else { '' }
+        if ($header -notmatch $packHeader -or $Matches[1] -ne $module -or $Matches[2] -ne $keysBuild) {
+            Write-Host "[ERROR] Пакет не собран или устарел (game_build ключей $keysBuild): $packPath" -ForegroundColor Red
+            $packErrors++
+        }
+    }
+    if ($indexed.Count -ne $keysData['modules'].Count) {
+        Write-Host "[ERROR] В StringDbPackIndex.lua $($indexed.Count) модулей, в stringdb_keys.json $($keysData['modules'].Count)" -ForegroundColor Red
+        $packErrors++
+    }
+    if ($packErrors -eq 0) {
+        Write-Host "[OK] Пакеты StringDB: $($indexed.Count) модулей, game_build=$keysBuild." -ForegroundColor Green
+    }
+    $errors += $packErrors
+    if ($keysBuild -ne [string]$supported.game_build) {
+        Write-Warning "[WARN] Ключи StringDB сняты на билде $keysBuild, а supported_game.json game_build = $($supported.game_build). Если игра обновилась, нужна новая выгрузка (docs/DIAGNOSTICS.md)."
+    }
+}
+
 # 5. Проверка баз данных Excel
 $excelDir = Join-Path $payload "Saved\Mods\lua\cpdd_translation\Data\Excel\LanguageData"
 $dbCount = (Get-ChildItem -Path $excelDir -Filter "StringDB_CN_Data*.lua").Count

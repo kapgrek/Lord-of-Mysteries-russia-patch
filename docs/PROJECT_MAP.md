@@ -14,6 +14,7 @@
 | **Исходные тексты для перевода** | `source/translation_batches/batch_*.json`<br>`source/translation_batches/BATCH_MANIFEST.md` | Батчи строк (`target_ru`, `source_cn`, `ref_en`): `batch_001…027` (основной массив), `batch_028_autochess` (энциклопедия Автошахмат, EN-ключи с приоритетом), `batch_029_cpdd_264`, `batch_030_stringdb_aliases` (алиасы ключей StringDB), `batch_031_autochess_stringdb`, `batch_032_stringdb_ui`, `batch_033_autochess_stringdb_2`, `batch_034_stringdb_s5` (TASK-019: строки, видимые в сессии s5). **Source of Truth** для текстов |
 | **Канон терминов и глоссарии** | `source/glossary/*.json`<br>`docs/GLOSSARY.md` | Пути, Последовательности, персонажи, артефакты, географические названия |
 | **Компиляция строк в шарды игры** | `tools/ShardCompiler.cs` (+ `.ps1`) | Распределение строк из `batch_*.json` по 1024 шардам `RuntimeTextGemini_*.lua`. `.exe` собирается `tools/BuildTools.ps1` |
+| **Пакеты StringDB (быстрый старт, TASK-033)** | `source/stringdb/stringdb_keys.json`<br>`tools/ShardCompiler.cs` (`StringDbPacks`)<br>`Init.lua` (`stringDbPack`) | Ключи cn всех модулей StringDB из игры (`StringDbGaps.ps1 -ImportKeys`) → `StringDbPack<суффикс>.lua` = готовый итог шага 3 `TranslateDatabaseString` (C#-порт `lookupGeminiText` ∘ `lookupGeminiTextFuzzy`), плюс всегда `StringDbPackIndex.lua`. Сверка порта с игрой: `ShardCompiler.exe -CheckResolved reference\stringdb_dump\<билд>\resolved.json` (0 расхождений). После обновления игры — `docs/DIAGNOSTICS.md` |
 | **Нарезка чанков и импорт переводов** | `tools/BatchHelper.ps1` | `-Action Export` (чанк в `temp/temp_chunk.json`), `Import` (с автокомпиляцией шардов), `Stats`, `Dashboard`; батч по номеру `-Batch N` или имени `-BatchFile batch_031_….json` |
 | **Термины и глоссарий** | `tools/GlossaryCheck.ps1`, `source/glossary/combat_stats.json` | Сверка `target_ru` с боевыми характеристиками: `-Report`, `-FixShort`, `-Export`/`-Import` (чанки для агента `ru-translator`), `-ExportNew -BatchFile` (новые строки, `mode = "new"`, `terms` + `names` из глоссариев), `-Glossary <файл>` (другой глоссарий со схемой `terms`, по умолчанию `combat_stats.json`; `scan_markup: true` — искать внутри `{…}`, TASK-022), `-BuildDoc` (пересборка `docs/GLOSSARY.md`, включая все глоссарии со схемой `terms`); скиллы `/glossary-check`, `/translate-chunk` (сценарий «Новые строки») |
 | **Непереведённые строки StringDB** | `tools/StringDbGaps.ps1` | Промахи `src=stringdb` из логов диагностики, сверка побайтно с семантикой ShardCompiler, категории (Автошахматы, UI, навыки…), `-Report`, `-Emit <батч> -Category … [-OnScreen]`, `-EmitData <батч> -Fields …` (китайский из данных KSBC), `-EmitProbe <батч>` (шаблоны карточек Автошахмат из `session.json → probes`, TASK-020), `-EmitList <батч> -ListFile <txt>` (строки списком: `WidgetText`, английские алиасы Blueprint, TASK-022), `-Aliases <батч>` |
@@ -68,6 +69,8 @@ AbsoluteRU/
 │   │   ├── characters_and_factions.json # Имена, фракции, божества
 │   │   ├── locations_and_geography.json # Города, страны, континенты
 │   │   └── terms_and_items.json         # Артефакты, ритуалы, системные термины
+│   ├── stringdb/
+│   │   └── stringdb_keys.json # Ключи cn модулей StringDB текущего билда (StringDbGaps -ImportKeys; коммитится; из него ShardCompiler строит пакеты)
 │   └── translation_batches/   # batch_001.json ... batch_027.json, batch_028_autochess.json ... batch_037_stringdb_s5_p5.json, batch_038_s5_t023.json (TASK-023 пачка 1), batch_039_retranslate_en.json (бывшие «английские» target_ru, TASK-023 пачка 2), batch_040_retranslate_en2.json (короткие «английские» и en_plural, TASK-023 пачка 3), batch_041_t024.json (TASK-024 пачка 1: EmitList + EmitData s3), batch_042_t025.json (TASK-025: совет Автошахмат на экране загрузки, EmitList)
 │       └── BATCH_MANIFEST.md  # Манифест прогресса по всем батчам
 │
@@ -101,17 +104,18 @@ AbsoluteRU/
 │                   ├── ServerScheduleFix.lua# Коррекция серверных таймеров
 │                   ├── WidgetNameIndex.lua  # Индекс виджетов интерфейса
 │                   ├── RuntimeTextGemini_000.lua ... _3ff.lua # [1024 ШАРДА] (Генерируются!)
+│                   ├── StringDbPack*.lua    # Пакеты StringDB по модулям + StringDbPackIndex.lua (Генерируются ShardCompiler, TASK-033)
 │                   └── LanguageSourceIndex_00.lua ... _ff.lua  # [256 ИНДЕКСОВ] (Генерируются!)
 │
 ├── tools/                     # Утилиты автоматизации (*.exe не в git — собирает BuildTools.ps1)
 │   ├── BuildTools.ps1         # Сборка всех tools/*.exe из .cs (csc .NET 4)
 │   ├── BatchHelper.ps1        # Экспорт чанков в temp/, импорт переводов, статистика
-│   ├── ShardCompiler.cs/.ps1  # Компилятор батчей в 1024 шарда RuntimeText
+│   ├── ShardCompiler.cs/.ps1  # Компилятор батчей в 1024 шарда RuntimeText и пакеты StringDbPack*.lua (-CheckResolved <resolved.json>)
 │   ├── VerifyBatch.ps1        # Валидатор плейсхолдеров и тегов в батчах
 │   ├── VerifyPatch.ps1        # Полная проверка синтаксиса и целостности патча (мосты, компаньоны *.compat.luac, Init.lua + AbsruDiagnostics.lua)
 │   ├── CollectDiagLogs.ps1    # Логи диагностики ИЗ игры -> reference/logs/<дата>/, отчёты в report/
 │   ├── GlossaryCheck.ps1      # Сверка перевода с глоссарием: -Report/-FixShort/-Export/-ExportNew/-Import/-BuildDoc [-Glossary]
-│   ├── StringDbGaps.ps1       # Промахи StringDB из логов диагностики -> категории, -Report, -Emit [-OnScreen]/-EmitData/-EmitProbe/-EmitList/-Aliases в батч
+│   ├── StringDbGaps.ps1       # Промахи StringDB из логов диагностики -> категории, -Report, -Emit [-OnScreen]/-EmitData/-EmitProbe/-EmitList/-Aliases в батч; -ImportKeys (выгрузка StringDbDump -> source/stringdb/stringdb_keys.json)
 │   ├── BakedTextManager.ps1   # Управление блоками BakedText для IoStore
 │   ├── AutoTranslate.ps1      # Машинный перевод батчей (Google Translate / DeepL Free API)
 │   ├── FixCapitalization.cs/.ps1 # Исправление регистра первой буквы
@@ -119,7 +123,7 @@ AbsoluteRU/
 │   ├── MergeTranslated.cs     # Слияние переведенных чанков
 │   ├── SyncCpdd.ps1           # Сверка с релизом CPDD: отчёт и применение компонентов
 │   ├── InstallerCoreTests.cs  # Тесты InstallerCore на поддельных папках игры в temp/
-│   ├── LuaDataCheck.cs        # Офлайн-сверка парсера данных Init.lua (parseDataLiteral) с семантикой Lua 5.1 на всех шардах и индексах
+│   ├── LuaDataCheck.cs        # Офлайн-сверка парсера данных Init.lua (parseDataLiteral) с семантикой Lua 5.1 на всех шардах, индексах и пакетах StringDB
 │   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release, -DataOnly)
 │
 ├── installer/                 # Исходный код автономного установщика (*.exe не в git)
@@ -160,6 +164,7 @@ AbsoluteRU/
 ```json
 "Excludes": [
   "**/RuntimeTextGemini_*",
+  "**/StringDbPack*",
   "**/LanguageSourceIndex_*",
   "**/BakedText/**",
   "temp/**",

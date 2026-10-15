@@ -1,5 +1,6 @@
 # Search exclusions for ripgrep-based tools (generated shards, binaries, scratch)
 **/RuntimeTextGemini_*
+**/StringDbPack*
 **/LanguageSourceIndex_*
 **/BakedText/
 temp/

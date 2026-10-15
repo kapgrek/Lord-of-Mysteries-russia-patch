@@ -36,9 +36,12 @@ public class FastShardCompiler {
         // Repository root: -Root <path>, otherwise the parent of the exe folder (tools/).
         string root = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ".."));
         string batchesArg = null;
+        string checkResolvedPath = null;
         for (int i = 0; i < args.Length; i++) {
             if (string.Equals(args[i], "-Root", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) {
                 root = Path.GetFullPath(args[++i]);
+            } else if (string.Equals(args[i], "-CheckResolved", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) {
+                checkResolvedPath = Path.GetFullPath(args[++i]);  // reference/stringdb_dump/<build>/resolved.json (TASK-033 2B)
             } else if (batchesArg == null && Directory.Exists(args[i])) {
                 batchesArg = args[i];  // legacy positional argument: batches folder
             }
@@ -407,6 +410,9 @@ public class FastShardCompiler {
         }
 
         Console.WriteLine("Все 1024 шарда успешно обновлены!");
+
+        int packCode = StringDbPacks.Build(root, shardsDir, shardMap, checkResolvedPath);
+        if (packCode != 0) Environment.Exit(packCode);
     }
 
     private static string UnescapeJson(string s) {
@@ -440,11 +446,271 @@ public class FastShardCompiler {
         return s.Trim(' ', '\t', '\n', '\v', '\f', '\r');
     }
 
-    private static string EscapeLua(string s) {
+    internal static string EscapeLua(string s) {
         if (s == null) return "";
         return s.Replace(@"\", @"\\")
                 .Replace(@"""", @"\""")
                 .Replace("\r", @"\r")
                 .Replace("\n", @"\n");
+    }
+}
+
+// TASK-033 stage 2B: StringDB packs. For every cn of source/stringdb/stringdb_keys.json the pack holds the result
+// of step 3 of Loader.TranslateDatabaseString (lookupGeminiText(cn) or lookupGeminiTextFuzzy(cn), Init.lua) over
+// the shards just built: ["cn"] = "ru" or ["cn"] = false. Lua strings are bytes, and the fuzzy patterns match
+// single bytes of UTF-8 ("：" and "【】" sit in byte classes), so the port runs on byte strings: one char per byte
+// (Latin-1), the same trick as LuaDataCheck.cs. Steps and recursion follow lookupGeminiTextFuzzy line by line.
+public static class StringDbPacks {
+    const string ModuleMarker = "StringDB_CN_Data";
+    static readonly Encoding Latin1 = Encoding.GetEncoding(28591);
+    static Dictionary<string, string> exact;  // byte key -> byte value, all shards
+
+    public static string ToBytes(string s) { return Latin1.GetString(Encoding.UTF8.GetBytes(s)); }
+
+    public static string ByteSourceKey(string bytes) {
+        uint hash = 2166136261u;
+        for (int i = 0; i < bytes.Length; i++) {
+            hash ^= (byte)bytes[i];
+            hash = (uint)((int)hash + ((int)hash << 1) + ((int)hash << 4) + ((int)hash << 7) + ((int)hash << 8) + ((int)hash << 24));
+        }
+        return bytes.Length.ToString() + ":" + hash.ToString("x8");
+    }
+
+    // Lua %s (LuaJIT lj_char: \t \n \v \f \r and space; bytes >= 0x80 are never spaces or digits)
+    static bool IsSpace(char c) { return c == ' ' || (c >= '\t' && c <= '\r'); }
+    static bool IsDigit(char c) { return c >= '0' && c <= '9'; }
+    // [:：%-%?%.]  ： = EF BC 9A
+    static bool IsPunct(char c) { return c == ':' || c == '-' || c == '?' || c == '.' || c == '\xEF' || c == '\xBC' || c == '\x9A'; }
+    // [%[%{%(【] and [%]%}%)】]  【 = E3 80 90, 】 = E3 80 91
+    static bool IsOpenBracket(char c) { return c == '[' || c == '{' || c == '(' || c == '\xE3' || c == '\x80' || c == '\x90'; }
+    static bool IsCloseBracket(char c) { return c == ']' || c == '}' || c == ')' || c == '\xE3' || c == '\x80' || c == '\x91'; }
+
+    // lookupGeminiText: exact shard lookup, "" -> nil
+    static string Lookup(string v) {
+        if (v.Length == 0) return null;
+        string t;
+        return exact.TryGetValue(v, out t) ? t : null;
+    }
+
+    // value:match("^(%s*)(.-)(%s*)$"): greedy leading spaces, the rest without its trailing spaces
+    static void SplitSpace(string v, out string leading, out string trimmed, out string trailing) {
+        int a = 0;
+        while (a < v.Length && IsSpace(v[a])) a++;
+        int b = v.Length;
+        while (b > a && IsSpace(v[b - 1])) b--;
+        leading = v.Substring(0, a);
+        trimmed = v.Substring(a, b - a);
+        trailing = v.Substring(b);
+    }
+
+    // value:match("^[Ll]...") prefix check helper
+    static bool StartsLv(string v, string tail, int at) {
+        if (v.Length < at + tail.Length) return false;
+        if (v[0] != 'L' && v[0] != 'l') return false;
+        return string.CompareOrdinal(v, at, tail, 0, tail.Length) == 0;
+    }
+
+    // "%s*(%d+)$" from position p: the digits or null
+    static string SpacesDigitsToEnd(string v, int p) {
+        while (p < v.Length && IsSpace(v[p])) p++;
+        int d = p;
+        while (p < v.Length && IsDigit(v[p])) p++;
+        if (p == d || p != v.Length) return null;
+        return v.Substring(d);
+    }
+
+    static readonly string LevelRu = ToBytes("Уровень ");
+    static readonly string LvRu = ToBytes("Ур. ");
+    static readonly string LvColonRu = ToBytes("Ур: ");
+
+    // runtimeFixes.lookupGeminiTextFuzzy
+    static string Fuzzy(string value) {
+        if (value.Length == 0) return null;
+        string direct = Lookup(value);
+        if (direct != null) return direct;
+
+        if (value.IndexOf('\r') >= 0) {
+            string normalized = value.Replace("\r\n", "\n").Replace("\r", "\n");
+            string normDirect = Lookup(normalized);
+            if (normDirect != null) return normDirect;
+            string nl, nt, nr;
+            SplitSpace(normalized, out nl, out nt, out nr);
+            if (nt.Length > 0 && nt != normalized) {
+                string t = Lookup(nt);
+                if (t != null) return nl + t + nr;
+            }
+        }
+
+        // 1. trim
+        string leading, trimmed, trailing;
+        SplitSpace(value, out leading, out trimmed, out trailing);
+        if (trimmed.Length > 0 && trimmed != value) {
+            string t = Lookup(trimmed);
+            if (t != null) return leading + t + trailing;
+        }
+
+        // 2. ^(<[^>]+>)(.-)(</>)$  — the tag ends at the first '>' and needs one byte inside
+        if (value.Length > 0 && value[0] == '<') {
+            int gt = value.IndexOf('>', 1);
+            if (gt >= 2 && value.Length >= gt + 1 + 3 && value.EndsWith("</>", StringComparison.Ordinal)) {
+                string tagInner = value.Substring(gt + 1, value.Length - (gt + 1) - 3);
+                if (tagInner.Length > 0) {
+                    string t = Fuzzy(tagInner);
+                    if (t != null) return value.Substring(0, gt + 1) + t + "</>";
+                }
+            }
+        }
+
+        // 3. ^(.-)([:：%-%?%.]+)%s*$  — the shortest stem: the whole punctuation run before trailing spaces
+        {
+            int e = value.Length;
+            while (e > 0 && IsSpace(value[e - 1])) e--;
+            int s = e;
+            while (s > 0 && IsPunct(value[s - 1])) s--;
+            if (s < e && s > 0) {
+                string t = Fuzzy(value.Substring(0, s));
+                if (t != null) return t + value.Substring(s, e - s);
+            }
+        }
+
+        // 4. ^([%[%{%(【])(.-)([%]%}%)】])$  — one byte each side
+        if (value.Length >= 3 && IsOpenBracket(value[0]) && IsCloseBracket(value[value.Length - 1])) {
+            string t = Fuzzy(value.Substring(1, value.Length - 2));
+            if (t != null) return value.Substring(0, 1) + t + value.Substring(value.Length - 1);
+        }
+
+        // 5. ^[Ll]evel%s*(%d+)$, ^[Ll]v%.?%s*(%d+)$, ^[Ll]v%.?[:：]%s*(%d+)$
+        if (StartsLv(value, "evel", 1)) {
+            string n = SpacesDigitsToEnd(value, 5);
+            if (n != null) return LevelRu + n;
+        }
+        if (StartsLv(value, "v", 1)) {
+            int p = 2;
+            if (p < value.Length && value[p] == '.') p++;
+            string n = SpacesDigitsToEnd(value, p);
+            if (n != null) return LvRu + n;
+            if (p < value.Length && (value[p] == ':' || value[p] == '\xEF' || value[p] == '\xBC' || value[p] == '\x9A')) {
+                n = SpacesDigitsToEnd(value, p + 1);
+                if (n != null) return LvColonRu + n;
+            }
+        }
+        return null;
+    }
+
+    // runtimeFixes.resolveStringDbText on a byte string
+    public static string Resolve(string cnBytes) {
+        return Lookup(cnBytes) ?? Fuzzy(cnBytes);
+    }
+
+    static object ReadJson(string path) {
+        var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+        serializer.MaxJsonLength = int.MaxValue;
+        return serializer.DeserializeObject(File.ReadAllText(path, new UTF8Encoding(false)));
+    }
+
+    public static int Build(string root, string shardsDir, Dictionary<string, Dictionary<string, string>> shardMap, string checkResolvedPath) {
+        exact = new Dictionary<string, string>(StringComparer.Ordinal);
+        foreach (var shard in shardMap.Values)
+            foreach (var kv in shard) exact[ToBytes(kv.Key)] = ToBytes(kv.Value);
+
+        if (checkResolvedPath != null) {
+            int code = CheckResolved(checkResolvedPath);
+            if (code != 0) return code;
+        }
+
+        string keysPath = Path.Combine(root, "source", "stringdb", "stringdb_keys.json");
+        var written = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+        var index = new SortedDictionary<string, string>(StringComparer.Ordinal);  // module -> suffix
+        string gameBuild = "";
+        if (!File.Exists(keysPath)) {
+            Console.WriteLine("ВНИМАНИЕ: нет " + keysPath + " — пакеты StringDB не собраны, StringDB на старте читает все шарды (TASK-033).");
+        } else {
+            var keysFile = (Dictionary<string, object>)ReadJson(keysPath);
+            gameBuild = Convert.ToString(keysFile["game_build"]);
+            var modules = (Dictionary<string, object>)keysFile["modules"];
+            int totalKeys = 0, totalHits = 0;
+            foreach (var mod in modules) {
+                string module = mod.Key;
+                int marker = module.LastIndexOf(ModuleMarker, StringComparison.Ordinal);
+                string suffix = marker < 0 ? null : module.Substring(marker + ModuleMarker.Length);
+                if (suffix == null || !Regex.IsMatch(suffix, "^[A-Za-z0-9_]*$")) {
+                    Console.WriteLine("ВНИМАНИЕ: модуль без суффикса " + ModuleMarker + " пропущен: " + module);
+                    continue;
+                }
+                var keys = (object[])((Dictionary<string, object>)mod.Value)["keys"];
+                var byteKeys = new List<string>(keys.Length);
+                foreach (object k in keys) {
+                    string cn = Convert.ToString(k);
+                    if (!string.IsNullOrEmpty(cn)) byteKeys.Add(ToBytes(cn));
+                }
+                byteKeys.Sort(StringComparer.Ordinal);
+                int hits = 0, misses = 0;
+                var body = new StringBuilder(byteKeys.Count * 160);
+                string previous = null;
+                foreach (string cn in byteKeys) {
+                    if (cn == previous) continue;
+                    previous = cn;
+                    string ru = Resolve(cn);
+                    body.Append("    [\"").Append(FastShardCompiler.EscapeLua(cn)).Append("\"] = ");
+                    if (ru != null) { body.Append('"').Append(FastShardCompiler.EscapeLua(ru)).Append("\",\n"); hits++; }
+                    else { body.Append("false,\n"); misses++; }
+                }
+                string fileName = "StringDbPack" + suffix + ".lua";
+                // Byte strings are written 1:1 (Latin-1), so the file holds the exact UTF-8 bytes the runtime sees.
+                string text = "-- StringDB pack " + module + " game_build=" + gameBuild + " keys=" + (hits + misses)
+                    + " hits=" + hits + " false=" + misses + "\n"
+                    + "-- Generated by tools/ShardCompiler.exe from source/stringdb/stringdb_keys.json (TASK-033).\n"
+                    + "return {\n" + body.ToString() + "}\n";
+                File.WriteAllText(Path.Combine(shardsDir, fileName), text, Latin1);
+                written.Add(fileName);
+                index[module] = suffix;
+                totalKeys += hits + misses;
+                totalHits += hits;
+                Console.WriteLine("  " + fileName + ": keys=" + (hits + misses) + " hits=" + hits + " false=" + misses);
+            }
+            Console.WriteLine("Пакетов StringDB: " + index.Count + " (game_build=" + gameBuild + ", ключей " + totalKeys + ", с переводом " + totalHits + ")");
+        }
+
+        // The index is always written: Init.lua loads only listed packs, so a missing pack never logs an error.
+        var idx = new StringBuilder();
+        idx.Append("-- StringDB pack index game_build=" + gameBuild + " packs=" + index.Count + "\n");
+        idx.Append("-- Generated by tools/ShardCompiler.exe (TASK-033): module -> StringDbPack<suffix>.lua.\n");
+        idx.Append("return {\n");
+        foreach (var kv in index) idx.Append("    [\"" + kv.Key + "\"] = \"" + kv.Value + "\",\n");
+        idx.Append("}\n");
+        File.WriteAllText(Path.Combine(shardsDir, "StringDbPackIndex.lua"), idx.ToString(), new UTF8Encoding(false));
+        written.Add("StringDbPackIndex.lua");
+
+        foreach (string stale in Directory.GetFiles(shardsDir, "StringDbPack*.lua")) {
+            if (written.Contains(Path.GetFileName(stale))) continue;
+            File.Delete(stale);
+            Console.WriteLine("Удалён устаревший пакет: " + Path.GetFileName(stale));
+        }
+        return 0;
+    }
+
+    // sourceKey(resolve(cn)) against res from the game (StringDbGaps -ImportKeys). Valid only while the shards
+    // equal the build the dump was made on.
+    static int CheckResolved(string path) {
+        if (!File.Exists(path)) { Console.Error.WriteLine("-CheckResolved: нет файла " + path); return 2; }
+        var resolved = (Dictionary<string, object>)((Dictionary<string, object>)ReadJson(path))["resolved"];
+        int total = 0, mismatches = 0, hits = 0;
+        foreach (var kv in resolved) {
+            if (string.IsNullOrEmpty(kv.Key)) continue;
+            total++;
+            string ru = Resolve(ToBytes(kv.Key));
+            string mine = ru == null ? null : ByteSourceKey(ru);
+            string game = kv.Value == null ? null : Convert.ToString(kv.Value);
+            if (game != null) hits++;
+            if (mine == game) continue;
+            mismatches++;
+            if (mismatches <= 20) {
+                string shown = kv.Key.Length > 120 ? kv.Key.Substring(0, 120) + "…" : kv.Key;
+                Console.WriteLine("  расхождение: cn=" + shown.Replace("\n", "\\n").Replace("\r", "\\r")
+                    + " game=" + (game ?? "nil") + " port=" + (mine ?? "nil"));
+            }
+        }
+        Console.WriteLine("CheckResolved: cn=" + total + " с переводом в игре=" + hits + " расхождений=" + mismatches);
+        return mismatches == 0 ? 0 : 3;
     }
 }

@@ -153,6 +153,11 @@
 7. Документация: `docs/PROJECT_MAP.md` (пакеты, `source/stringdb/`, `-ImportKeys`, `-CheckResolved`), `docs/DIAGNOSTICS.md` (`StringDbDump`, поток `stringdb`), процедура после обновления игры (ниже).
 8. Проверка: `ShardCompiler.exe -CheckResolved` = 0, `LuaDataCheck.exe` = 0, `VerifyPatch.ps1`, `InstallerCoreTests.exe`; сборка без `-Publish` до проверки пользователем.
 
+**Ход 2B (15.10, чат исполнения).** Выгрузки в логах ещё нет: последний запуск игры (19:28) раньше сборки 2A (19:49), в `reference/logs/2026-10-15_2004` нет `absru-s*-stringdb-*.jsonl` и строки `stringdb dump done`. По решению пользователя код 2B сделан и закоммичен без пакетов; импорт, `-CheckResolved`, пакеты и релиз — после dev-сессии.
+- Сделано: порт и генерация (`StringDbPacks` в `ShardCompiler.cs`), `-CheckResolved`, `Init.lua` (`stringDbPack`, шаг 3, `Loader.OnOverlayMerged`, строки `stringdb pack …`), `LuaDataCheck`, `VerifyPatch`, `SyncCpdd`, `.ignore`, Stop-хук, документы. Порт проверен на синтетических ключах (trim, CRLF, теги, пунктуация `：`, скобки `【】` с разрезом байтов, `Level`/`Lv`), `-CheckResolved` ловит расхождение (код 3), `LuaDataCheck` 0 расхождений, `VerifyPatch` ловит устаревший `game_build`, `InstallerCoreTests` 319/0.
+- Отступление от плана: всегда пишется `StringDbPackIndex.lua`, и `Init.lua` грузит только перечисленные в нём пакеты. Иначе при включённой компиляции поиск отсутствующего пакета логирует `external mapping … failed` (`bootstrap.lua:529`) в обычном режиме. Счётчики прохода закрывает новый вызов `Loader.OnOverlayMerged(name)` в конце `merge_overlay` (`bootstrap.lua`).
+- Открытый вопрос: `supported_game.json → game_build` = базовый билд `1.2018737.2044036`, а выгрузка снимается на хотпатче 2218968 — WARN `VerifyPatch` о `game_build` будет всегда, пока в `supported_game.json` нет версии кеша.
+
 #### 2C. Только по замеру: догрузка шардов в фоне
 После 2B шарды грузятся при первом UI-поиске по префиксу (≈ 1 мс тёплый, ≈ 8 мс холодный). Если в диагностике (`shard_ms` за первые 120 с после `after_main`) или в игре заметны рывки на первых экранах — догружать по 4–8 шардов за тик таймера (`AddTimerWithFunction`, как в `Init.lua:4629`) после главного меню. Без замера не делать.
 
