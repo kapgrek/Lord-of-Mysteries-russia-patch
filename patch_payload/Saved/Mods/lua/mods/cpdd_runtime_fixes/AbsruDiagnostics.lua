@@ -26,6 +26,9 @@ local DEFAULTS = {
     -- SaveStringContentToFile encoding of non-ASCII text is unverified, so
     -- JSON escapes every non-ASCII character as \uXXXX by default.
     AsciiJson = true,
+    -- TASK-033 2A: dump the unique Chinese values of every Loader.Overlays module
+    -- (stream stringdb, StringDbGaps.ps1 -ImportKeys). Loads all modules: dev sessions only.
+    StringDbDump = false,
 }
 local LIMITS = {
     FrameBudgetMs = { 0.2, 50 },
@@ -2708,12 +2711,197 @@ function D.Flush(force)
     return true
 end
 
+-- StringDB key dump (TASK-033 2A) ----------------------------------------------
+-- StringDbDump = true: after after_main each Loader.Overlays module is loaded
+-- (require, unless bootstrap already merged it) and every unique Chinese value
+-- of Loader.OverlayOriginals[name] is written once with the sourceKey hash of
+-- its step-3 result (runtimeFixes.resolveStringDbText; absent res = no hit).
+-- Full text (no DB_TEXT_MAX), own stream and cap (not SessionMB), FrameBudgetMs.
+
+-- One table: the main chunk is near the Lua 5.1 local limit (VerifyPatch).
+local Dump = {
+    STREAM = "stringdb",
+    BYTES_MAX = 64 * 1048576,
+    LINE_MAX = 65536,
+    KEY_ORDER = { "src", "sid", "module", "cn", "res" },
+    SUMMARY_ORDER = {
+        "src", "sid", "module", "rows", "unique", "written", "skipped_long", "lossy", "capped", "failed",
+        "error", "version",
+    },
+    REPLACEMENT_UTF8 = "\239\191\189",
+}
+
+-- force: summary rows are written past the cap, so the importer sees every module.
+function Dump.appendLine(job, line, force)
+    local size = #line + 1
+    if not force and job.bytes + size > Dump.BYTES_MAX then
+        return false
+    end
+    local current = stream(Dump.STREAM)
+    if current.bytes > 0 and current.bytes + size > cfg.PartKB * 1024 then
+        closePart(current)
+    end
+    current.lines[#current.lines + 1] = line
+    current.bytes = current.bytes + size
+    current.dirty = true
+    current.count = current.count + 1
+    job.bytes = job.bytes + size
+    return true
+end
+
+function Dump.newJob()
+    local overlays = type(S.loader) == "table" and S.loader.Overlays or nil
+    local names = {}
+    if type(overlays) == "table" then
+        for name in pairs(overlays) do
+            if type(name) == "string" then
+                names[#names + 1] = name
+            end
+        end
+    end
+    table.sort(names)
+    return {
+        names = names, index = 0, module = nil, bytes = 0, started = nowMs(), done = false,
+        modules = 0, failedModules = 0, keys = 0, skipped_long = 0, lossy = 0, capped = 0, failed = 0,
+    }
+end
+
+function Dump.originals(name)
+    local originals = S.loader.OverlayOriginals
+    return type(originals) == "table" and originals[name] or nil
+end
+
+function Dump.openModule(name)
+    local module = {
+        name = name, keys = {}, count = 0, pos = 0, rows = 0,
+        written = 0, skipped_long = 0, lossy = 0, capped = 0, failed = 0,
+    }
+    local originals = Dump.originals(name)
+    if type(originals) ~= "table" then
+        local ok, result = pcall(require, name)
+        if not ok then
+            module.error = tostring(result)
+        end
+        originals = Dump.originals(name)
+        if type(originals) ~= "table" and type(S.loader.ReapplyOverlay) == "function" then
+            pcall(S.loader.ReapplyOverlay, name, false)
+            originals = Dump.originals(name)
+        end
+    end
+    if type(originals) ~= "table" then
+        module.error = module.error or "no overlay originals"
+        return module
+    end
+    module.error = nil
+    local seen = {}
+    for _, value in pairs(originals) do
+        if type(value) == "string" then
+            module.rows = module.rows + 1
+            if value ~= "" and not seen[value] then
+                seen[value] = true
+                module.count = module.count + 1
+                module.keys[module.count] = value
+            end
+        end
+    end
+    return module
+end
+
+function Dump.key(job, module, resolve, hash, cn)
+    local okResolve, ru = pcall(resolve, cn)
+    if not okResolve then
+        module.failed = module.failed + 1
+        noteError("item", ru)
+        return
+    end
+    local res = nil
+    if type(ru) == "string" then
+        res = hash(ru)
+    end
+    local line = encodeValue({
+        src = "stringdb_key", sid = S.sid, module = module.name, cn = cn, res = res,
+    }, 0, Dump.KEY_ORDER)
+    if #line + 1 > Dump.LINE_MAX then
+        module.skipped_long = module.skipped_long + 1
+    elseif line:find("\\ufffd", 1, true) and not cn:find(Dump.REPLACEMENT_UTF8, 1, true) then
+        -- Invalid UTF-8 cannot round-trip through AsciiJson: the key would be wrong.
+        module.lossy = module.lossy + 1
+    elseif Dump.appendLine(job, line, false) then
+        module.written = module.written + 1
+    else
+        module.capped = module.capped + 1
+    end
+end
+
+function Dump.closeModule(job, module)
+    Dump.appendLine(job, encodeValue({
+        src = "stringdb_key_summary", sid = S.sid, module = module.name, rows = module.rows,
+        unique = module.count, written = module.written, skipped_long = module.skipped_long,
+        lossy = module.lossy, capped = module.capped, failed = module.failed,
+        error = module.error, version = S.version,
+    }, 0, Dump.SUMMARY_ORDER), true)
+    if module.error ~= nil then
+        job.failedModules = job.failedModules + 1
+        warn("[AbsruDiag] stringdb dump module=" .. module.name .. " error: " .. module.error)
+    else
+        job.modules = job.modules + 1
+    end
+    job.keys = job.keys + module.written
+    job.skipped_long = job.skipped_long + module.skipped_long
+    job.lossy = job.lossy + module.lossy
+    job.capped = job.capped + module.capped
+    job.failed = job.failed + module.failed
+end
+
+-- Returns true when every module is written.
+function Dump.step(job, deadline)
+    local fixes = S.fixes
+    local resolve = type(fixes) == "table" and fixes.resolveStringDbText or nil
+    local hash = type(fixes) == "table" and fixes.sourceKey or nil
+    if type(resolve) ~= "function" or type(hash) ~= "function" then
+        job.error = "runtimeFixes.resolveStringDbText/sourceKey unavailable"
+        return true
+    end
+    while nowMs() < deadline do
+        local module = job.module
+        if module == nil then
+            if job.index >= #job.names then
+                return true
+            end
+            job.index = job.index + 1
+            local started = nowMs()
+            job.module = Dump.openModule(job.names[job.index])
+            track("db", started)
+        elseif module.pos < module.count then
+            module.pos = module.pos + 1
+            local cn = module.keys[module.pos]
+            module.keys[module.pos] = nil
+            Dump.key(job, module, resolve, hash, cn)
+        else
+            Dump.closeModule(job, module)
+            job.module = nil
+        end
+    end
+    return false
+end
+
+function Dump.finish(job)
+    job.done = true
+    warn(string.format(
+        "[AbsruDiag] stringdb dump done modules=%.0f keys=%.0f skipped_long=%.0f lossy=%.0f capped=%.0f"
+            .. " failed=%.0f failed_modules=%.0f overlays=%.0f bytes=%.0f ms=%.0f%s",
+        job.modules, job.keys, job.skipped_long, job.lossy, job.capped, job.failed, job.failedModules,
+        #job.names, job.bytes, nowMs() - job.started, job.error and (" error: " .. job.error) or ""))
+    D.Flush(false)
+end
+
 -- Tick -------------------------------------------------------------------------
 
 local function busy()
     return S.qhead <= S.qtail or #S.walkJobs > 0 or #S.delayed > 0
         or S.dataDone < #S.data or S.dbDone < S.dbCount
         or S.hooksJob ~= nil or S.hooksPending ~= nil
+        or (S.dump ~= nil and not S.dump.done)
 end
 
 local onTimer
@@ -2817,6 +3005,18 @@ local function tickBody()
         S.dbDone = 0
     end
 
+    if S.dump ~= nil and not S.dump.done and nowMs() < deadline then
+        local job = S.dump
+        local ok, result = pcall(Dump.step, job, deadline)
+        if not ok then
+            noteError("item", result)
+            job.error = tostring(result)
+        end
+        if not ok or result then
+            Dump.finish(job)
+        end
+    end
+
     -- hooks.json: build the job, encode records within the budget, write once.
     if S.hooksJob == nil and S.hooksPending ~= nil and nowMs() < deadline then
         local itemStarted = nowMs()
@@ -2911,7 +3111,7 @@ end
 
 local function flagSummary()
     local names = {}
-    for _, key in ipairs({ "Hooks", "Untranslated", "Overflow", "Fonts", "Images", "PanelWalk" }) do
+    for _, key in ipairs({ "Hooks", "Untranslated", "Overflow", "Fonts", "Images", "PanelWalk", "StringDbDump" }) do
         if cfg[key] then
             names[#names + 1] = key
         end
@@ -2924,6 +3124,10 @@ local function afterMain()
     S.afterMain = true
     S.flushSoon = false
     pcall(D.ProbeTrainTrade, "after_main")
+    if cfg.StringDbDump and S.dump == nil then
+        S.dump = Dump.newJob()
+        warn("[AbsruDiag] stringdb dump start overlays=" .. tostring(#S.dump.names))
+    end
     D.Flush(true)
     schedule()
 end

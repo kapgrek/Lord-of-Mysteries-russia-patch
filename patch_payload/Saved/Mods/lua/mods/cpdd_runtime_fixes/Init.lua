@@ -2038,6 +2038,7 @@ local function sourceKey(value)
     end
     return tostring(#value) .. ":" .. bit.tohex(hash)
 end
+runtimeFixes.sourceKey = sourceKey
 
 local SHARD_PREFIXES = {}
 for i = 0, 1023 do
@@ -12611,6 +12612,11 @@ end)
 
 -- Register database translation hook for bootstrap.lua merge_overlay
 -- This translates the Excel StringDB database in memory at load time (0ms runtime latency).
+-- Step 3 depends only on cn and the shards (TASK-033 stage 2: StringDbPack precomputes it).
+runtimeFixes.resolveStringDbText = function(cnValue)
+    return lookupGeminiText(cnValue) or runtimeFixes.lookupGeminiTextFuzzy(cnValue)
+end
+
 Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
     local hasEn = type(enValue) == "string" and enValue ~= ""
     local hasCn = type(cnValue) == "string" and cnValue ~= ""
@@ -12634,7 +12640,7 @@ Loader.TranslateDatabaseString = function(enValue, cnValue, rowId, moduleName)
 
     -- 3. Exact direct shard lookup for Chinese original string (primary canonical source in shards)
     if hasCn then
-        local ruCn = lookupGeminiText(cnValue) or runtimeFixes.lookupGeminiTextFuzzy(cnValue)
+        local ruCn = runtimeFixes.resolveStringDbText(cnValue)
         if ruCn ~= nil then return ruCn end
     end
 

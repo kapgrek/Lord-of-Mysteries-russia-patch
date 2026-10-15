@@ -14,8 +14,10 @@
 #   powershell -File tools\StringDbGaps.ps1 -EmitData batch_034_stringdb_s5.json -Fields BriefDescription,SkillDisc -Logs … -Sid …
 #   powershell -File tools\StringDbGaps.ps1 -EmitProbe batch_034_stringdb_s5.json -Logs … -Sid …   (шаблоны карточек Автошахмат, TASK-020)
 #   powershell -File tools\StringDbGaps.ps1 -EmitList batch_036_stringdb_s5_p4.json -ListFile temp\t022\emit_list.txt   (строки списком, TASK-022)
+#   powershell -File tools\StringDbGaps.ps1 -ImportKeys -Logs reference\logs\<дата> -Sid <sid> -GameBuild <билд>   (ключи StringDB, TASK-033)
 #
-# Пишет только внутри репозитория: CSV в temp\, батчи в source\translation_batches\.
+# Пишет только внутри репозитория: CSV в temp\, батчи в source\translation_batches\,
+# -ImportKeys: source\stringdb\stringdb_keys.json и reference\stringdb_dump\<билд>\resolved.json.
 param(
     [string[]]$Logs,               # файлы .jsonl или папки; по умолчанию reference\logs\*\Saved\Mods\logs
     [string]$Sid,                  # только одна сессия диагностики
@@ -29,7 +31,9 @@ param(
     [string]$EmitList,             # имя батча: строки из -ListFile (UTF-8, строка на строку, \n — литерал; TASK-022)
     [string]$ListFile,
     [string]$Aliases,              # имя батча: алиасы для строк, отличающихся от батча регистром/пробелами/тегами
-    [string]$Csv                   # по умолчанию temp\stringdb_gaps.csv
+    [string]$Csv,                  # по умолчанию temp\stringdb_gaps.csv
+    [switch]$ImportKeys,           # выгрузка StringDbDump (absru-s*-stringdb-*.jsonl) -> source\stringdb\stringdb_keys.json (TASK-033 2A)
+    [string]$GameBuild             # -ImportKeys: билд игры, на котором сделана выгрузка
 )
 
 $ErrorActionPreference = 'Stop'
@@ -87,6 +91,154 @@ function Resolve-RepoPath([string]$path) {
         throw "Путь вне репозитория: $path"
     }
     return $full
+}
+
+# --- -ImportKeys: выгрузка ключей StringDB (TASK-033 2A) -----------------------------------------
+# Строки src=stringdb_key { sid, module, cn, res } и src=stringdb_key_summary { module, rows, unique, written,
+# skipped_long, lossy, capped, failed, error, version } из AbsruDiagnostics.lua (StringDbDump = true).
+# res = sourceKey(resolveStringDbText(cn)) в игре, нет поля — шаг 3 не нашёл перевод.
+$keyJsonRegex = New-Object regex '["\\\x00-\x1f]', 'Compiled'
+$keyJsonEscape = [System.Text.RegularExpressions.MatchEvaluator]{
+    param($m)
+    switch ([int][char]$m.Value) {
+        34 { return '\"' }
+        92 { return '\\' }
+        10 { return '\n' }
+        13 { return '\r' }
+        9 { return '\t' }
+        default { return ('\u{0:x4}' -f [int][char]$m.Value) }
+    }
+}
+function Format-KeyJson([string]$s) {
+    return '"' + $keyJsonRegex.Replace($s, $keyJsonEscape) + '"'
+}
+function Get-SortedOrdinal($items) {
+    $array = [string[]]@($items)
+    [Array]::Sort($array, [StringComparer]::Ordinal)
+    return ,$array
+}
+
+if ($ImportKeys) {
+    if (-not $Sid) { throw '-ImportKeys: нужен -Sid (сессия с StringDbDump = true)' }
+    if ($GameBuild -notmatch '^[\w\.\-]+$') { throw "-ImportKeys: нужен -GameBuild (буквы, цифры, точка, дефис): '$GameBuild'" }
+    if (-not $Logs -or $Logs.Count -eq 0) { $Logs = @(Join-Path $repo 'reference\logs') }
+    $dumpFiles = New-Object 'System.Collections.Generic.SortedSet[string]' ([StringComparer]::OrdinalIgnoreCase)
+    foreach ($p in $Logs) {
+        $full = Resolve-RepoPath $p
+        if (Test-Path -LiteralPath $full -PathType Container) {
+            foreach ($f in Get-ChildItem -LiteralPath $full -Recurse -File -Filter 'absru-s*-stringdb-*.jsonl') { [void]$dumpFiles.Add($f.FullName) }
+        } elseif (Test-Path -LiteralPath $full) { [void]$dumpFiles.Add($full) }
+    }
+    if ($dumpFiles.Count -eq 0) { throw "Выгрузка StringDB (absru-s*-stringdb-*.jsonl) не найдена: $($Logs -join ', ')" }
+
+    $json = New-Object System.Web.Script.Serialization.JavaScriptSerializer
+    $json.MaxJsonLength = [int]::MaxValue
+    $sidMarker = '"sid":"' + $Sid + '"'
+    $moduleKeys = New-Object 'System.Collections.Generic.Dictionary[string,object]' ($ordinal)   # module -> HashSet[cn]
+    $summaries = New-Object 'System.Collections.Generic.Dictionary[string,object]' ($ordinal)
+    $resolved = New-Object 'System.Collections.Generic.Dictionary[string,object]' ($ordinal)     # cn -> res | $null
+    $resolvedConflicts = 0
+    $lines = 0
+    foreach ($file in $dumpFiles) {
+        foreach ($line in [IO.File]::ReadLines($file, $utf8)) {
+            if (-not $line -or -not $line.Contains($sidMarker)) { continue }
+            $o = $json.DeserializeObject($line)
+            if ([string]$o['sid'] -ne $Sid) { continue }
+            $lines++
+            $module = [string]$o['module']
+            if ($o['src'] -eq 'stringdb_key_summary') {
+                $summaries[$module] = $o
+                continue
+            }
+            if ($o['src'] -ne 'stringdb_key') { continue }
+            $cn = [string]$o['cn']
+            if (-not $moduleKeys.ContainsKey($module)) {
+                $moduleKeys[$module] = New-Object 'System.Collections.Generic.HashSet[string]' ($ordinal)
+            }
+            [void]$moduleKeys[$module].Add($cn)
+            $res = $(if ($o.ContainsKey('res') -and $null -ne $o['res']) { [string]$o['res'] } else { $null })
+            if ($resolved.ContainsKey($cn)) {
+                if ($resolved[$cn] -ne $res) { $resolvedConflicts++ }
+            } else {
+                $resolved[$cn] = $res
+            }
+        }
+    }
+    if ($lines -eq 0) { throw "В $($dumpFiles.Count) файлах нет строк сессии $Sid" }
+
+    # Проверка полноты: у каждого модуля есть итог, число ключей совпадает с written.
+    $problems = New-Object 'System.Collections.Generic.List[string]'
+    $warnings = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($module in $moduleKeys.Keys) {
+        if (-not $summaries.ContainsKey($module)) { $problems.Add("$module : нет строки stringdb_key_summary (выгрузка не закончена?)") }
+    }
+    $patch = ''
+    $outModules = New-Object 'System.Collections.Generic.List[string]'
+    foreach ($module in (Get-SortedOrdinal $summaries.Keys)) {
+        $s = $summaries[$module]
+        if ($s['version']) { $patch = [string]$s['version'] }
+        if ($s['error']) { $warnings.Add("$module : модуль не выгружен: $($s['error'])"); continue }
+        $count = $(if ($moduleKeys.ContainsKey($module)) { $moduleKeys[$module].Count } else { 0 })
+        if ($count -ne [int]$s['written']) { $problems.Add("$module : ключей $count, а written=$($s['written'])") }
+        foreach ($field in @('skipped_long', 'lossy', 'capped', 'failed')) {
+            if ([int]$s[$field] -gt 0) { $warnings.Add("$module : $field=$($s[$field]) (эти cn пойдут через шарды)") }
+        }
+        $outModules.Add($module)
+    }
+    foreach ($w in $warnings) { Write-Warning $w }
+    if ($resolvedConflicts -gt 0) { Write-Warning "res одного cn различается между модулями: $resolvedConflicts" }
+    if ($problems.Count -gt 0) { throw ("Выгрузка неполная:`n  " + ($problems -join "`n  ")) }
+    if ($outModules.Count -eq 0) { throw 'Нет ни одного выгруженного модуля' }
+
+    $sb = New-Object System.Text.StringBuilder
+    [void]$sb.Append("{`n  `"game_build`": " + (Format-KeyJson $GameBuild) + ",`n  `"patch`": " + (Format-KeyJson $patch) +
+        ",`n  `"sid`": " + (Format-KeyJson $Sid) + ",`n  `"modules`": {")
+    $totalKeys = 0
+    for ($i = 0; $i -lt $outModules.Count; $i++) {
+        $module = $outModules[$i]
+        $keys = $(if ($moduleKeys.ContainsKey($module)) { Get-SortedOrdinal $moduleKeys[$module] } else { [string[]]@() })
+        $totalKeys += $keys.Count
+        [void]$sb.Append("`n    " + (Format-KeyJson $module) + ": {`n      `"rows`": " + [int]$summaries[$module]['rows'] + ",`n      `"keys`": [")
+        for ($k = 0; $k -lt $keys.Count; $k++) {
+            [void]$sb.Append("`n        " + (Format-KeyJson $keys[$k]))
+            if ($k -lt $keys.Count - 1) { [void]$sb.Append(',') }
+        }
+        [void]$sb.Append($(if ($keys.Count -gt 0) { "`n      ]`n    }" } else { "]`n    }" }))
+        if ($i -lt $outModules.Count - 1) { [void]$sb.Append(',') }
+    }
+    [void]$sb.Append("`n  }`n}`n")
+    $keysDir = Join-Path $repo 'source\stringdb'
+    New-Item -ItemType Directory -Force $keysDir | Out-Null
+    $keysPath = Join-Path $keysDir 'stringdb_keys.json'
+    [IO.File]::WriteAllText($keysPath, $sb.ToString(), $utf8)
+
+    $rb = New-Object System.Text.StringBuilder
+    [void]$rb.Append("{`n  `"game_build`": " + (Format-KeyJson $GameBuild) + ",`n  `"patch`": " + (Format-KeyJson $patch) +
+        ",`n  `"sid`": " + (Format-KeyJson $Sid) + ",`n  `"resolved`": {")
+    $cns = Get-SortedOrdinal $resolved.Keys
+    $hits = 0
+    for ($k = 0; $k -lt $cns.Count; $k++) {
+        $res = $resolved[$cns[$k]]
+        if ($null -ne $res) { $hits++ }
+        [void]$rb.Append("`n    " + (Format-KeyJson $cns[$k]) + ': ' + $(if ($null -ne $res) { Format-KeyJson $res } else { 'null' }))
+        if ($k -lt $cns.Count - 1) { [void]$rb.Append(',') }
+    }
+    [void]$rb.Append("`n  }`n}`n")
+    $resolvedDir = Join-Path $repo ('reference\stringdb_dump\' + $GameBuild)
+    New-Item -ItemType Directory -Force $resolvedDir | Out-Null
+    $resolvedPath = Join-Path $resolvedDir 'resolved.json'
+    [IO.File]::WriteAllText($resolvedPath, $rb.ToString(), $utf8)
+
+    Write-Host ("ImportKeys: sid={0} build={1} patch={2} files={3} lines={4}" -f $Sid, $GameBuild, $patch, $dumpFiles.Count, $lines)
+    foreach ($module in $outModules) {
+        $count = $(if ($moduleKeys.ContainsKey($module)) { $moduleKeys[$module].Count } else { 0 })
+        Write-Host ("  {0}: rows={1} keys={2}" -f $module, $summaries[$module]['rows'], $count)
+    }
+    Write-Host ("Модулей {0}, ключей {1}, уникальных cn {2} (попаданий шага 3: {3}, нет перевода: {4})" -f
+        $outModules.Count, $totalKeys, $cns.Count, $hits, ($cns.Count - $hits))
+    Write-Host "-> $keysPath ($((Get-Item -LiteralPath $keysPath).Length) байт)"
+    Write-Host "-> $resolvedPath"
+    exit 0
 }
 
 # --- Батчи с семантикой ShardCompiler.cs -----------------------------------------------------------
