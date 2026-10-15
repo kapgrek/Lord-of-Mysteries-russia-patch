@@ -566,6 +566,8 @@ Loader.On("after_main", function()
             .. " merges=" .. tostring(Loader.Telemetry.OverlayMerges)
             .. " skipped=" .. tostring(Loader.Telemetry.OverlaySkipped))
     end
+    -- Init.lua reports data module load phases here in diagnostics mode only (TASK-033).
+    if type(Loader.DataLoadStats) == "function" then pcall(Loader.DataLoadStats) end
 end, 1000000, "loader.translation_overlays.main")
 
 Loader.AfterLoad("Gameplay.GameInit.Main", function(value)

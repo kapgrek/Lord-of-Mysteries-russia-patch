@@ -1368,6 +1368,10 @@ end
 local runtimeMetrics = {
     GeminiLoads = 0,
     GeminiShardLoadMillis = 0,
+    DataLoads = 0,
+    DataRequireMillis = 0,
+    DataReadMillis = 0,
+    DataParseMillis = 0,
     GeminiShardEvictions = 0,
     GeminiShardReloads = 0,
     GeminiLookupCacheHits = 0,
@@ -2179,14 +2183,32 @@ do
     end
 
     local fileLibrary = nil
-    -- require first; on failure the literal parser. Returns value, route
+    -- TASK-033: once the VM refuses source compilation, require only re-reads the file twice and logs two
+    -- stacks per module before the literal parser runs, so data modules skip require entirely.
+    local dataOnly = nil
+    -- require first (unless dataOnly); on failure the literal parser. Returns value, route
     -- ("companion" | "loadfile" | "load" | "require" | "data") or nil, message.
     function runtimeFixes.loadDataModule(moduleName)
         local relative = "lua/" .. (moduleName:gsub("%.", "/")) .. ".lua"
-        local ok, loaded = pcall(require, moduleName)
-        if ok and type(loaded) == "table" then
-            local routes = Loader.ChunkRoutes
-            return loaded, type(routes) == "table" and routes[relative] or "require"
+        local routes = Loader.ChunkRoutes
+        local cached = package.loaded[moduleName]
+        if type(cached) == "table" then
+            return cached, type(routes) == "table" and routes[relative] or "require"
+        end
+        if dataOnly == nil then
+            dataOnly = type(Loader.CompileProbe) == "function" and Loader.CompileProbe() ~= "ok"
+        end
+        runtimeMetrics.DataLoads = runtimeMetrics.DataLoads + 1
+        local loaded = "compile disabled"
+        if not dataOnly then
+            local started = nowMilliseconds()
+            local ok
+            ok, loaded = pcall(require, moduleName)
+            runtimeMetrics.DataRequireMillis = runtimeMetrics.DataRequireMillis + nowMilliseconds() - started
+            if ok and type(loaded) == "table" then
+                return loaded, type(routes) == "table" and routes[relative] or "require"
+            end
+            if tostring(loaded):find("text mode is not supported", 1, true) then dataOnly = true end
         end
         if fileLibrary == nil then
             local okImport, library = pcall(import, "LuaFunctionLibrary")
@@ -2195,16 +2217,33 @@ do
         if not fileLibrary or type(Loader.Root) ~= "string" then
             return nil, tostring(loaded)
         end
+        local started = nowMilliseconds()
         local okRead, source = pcall(fileLibrary.LoadFile, Loader.Root .. relative)
+        local parseStarted = nowMilliseconds()
+        runtimeMetrics.DataReadMillis = runtimeMetrics.DataReadMillis + parseStarted - started
         if not okRead or type(source) ~= "string" or source == "" then
             return nil, tostring(loaded) .. "; data: missing " .. relative
         end
         local value, message = runtimeFixes.parseDataLiteral(source)
+        runtimeMetrics.DataParseMillis = runtimeMetrics.DataParseMillis + nowMilliseconds() - parseStarted
         if type(value) ~= "table" then
             return nil, tostring(loaded) .. "; data: " .. tostring(message)
         end
         package.loaded[moduleName] = value
         return value, "data"
+    end
+
+    -- Diagnostics only (TASK-033): bootstrap calls this after the first overlay pass; one line per session.
+    local dataStatsReported = false
+    function Loader.DataLoadStats()
+        if dataStatsReported or not runtimeFixes.Diag then return end
+        dataStatsReported = true
+        report("data load stats loads=" .. runtimeMetrics.DataLoads
+            .. " data_only=" .. tostring(dataOnly)
+            .. " require_ms=" .. runtimeMetrics.DataRequireMillis
+            .. " read_ms=" .. runtimeMetrics.DataReadMillis
+            .. " parse_ms=" .. runtimeMetrics.DataParseMillis
+            .. " shard_ms=" .. runtimeMetrics.GeminiShardLoadMillis)
     end
 
     -- Dev only: parse a module the VM already loaded and compare it with the parser result.
