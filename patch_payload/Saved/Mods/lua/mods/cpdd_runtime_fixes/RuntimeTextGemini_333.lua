@@ -236,7 +236,7 @@ return {
     ["不许在人群中暴露自己的非凡能力，这点规矩我还是懂的。"] = "Нельзя раскрывать свои сверхъестественные способности при людях — это правило я знаю твёрдо.",
     ["The next sowing season is coming, but I can't even scrape together the money to buy seeds."] = "Скоро наступит новый посевной сезон, но я не могу собрать даже денег на семена.",
     ["在竞技玩法中<Highlight>击败</>%s/%s名祈光人"] = "В соревновательном режиме <Highlight>победите</>%s/%s Молящихся о Свете",
-    ["65 戴里克白银城"] = "65 Derrick Silver City",
+    ["65 戴里克白银城"] = "65 Серебряный город Дерика",
     ["好团长系统历史配置道具，当前版本不再提供获取与使用途径。"] = "Good Leader system historical configuration item; the current version no longer provides ways to obtain or use it.",
     ["开启可随机获得一件<Highlight>68装等</>或<Highlight>69装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾尘埃（用于将64装等或以上装等冒险胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。"] = "Open to randomly obtain one piece of <Highlight>item level 68</> or <Highlight>69</> <Highlight>Adventure-leaning</> orange or gold quality Equipment, Beyonder material, aggregation factor, or bound soli. There is a certain probability of obtaining 1 gray fog dust (used to upgrade Adventure brooches of item level 64 or higher to Mythical quality). You can obtain up to 3 per week, and unobtained quantities can be carried over to the next week.",
     ["触碰<h>迪伦</>"] = "Touch <h>Dylan</>",

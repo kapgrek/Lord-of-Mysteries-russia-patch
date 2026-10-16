@@ -269,8 +269,8 @@ return {
     ["瓶口没有税务封蜡，也没有药剂许可证编号，这可不像是什么正经货。"] = "На горлышке нет налоговой печати, и номера лицензии на зелье тоже нет. Это не похоже на честный товар.",
     ["<InvDefault>获取时装后，各位非凡者还将同步解锁</><InvHighlight>专属动态头像</><InvDefault>、</><InvHighlight>花式待机</><InvDefault>以及</><InvHighlight>结算动画</><InvDefault>。</>"] = "<InvDefault>После получения наряда все Потусторонние также разблокируют</><InvHighlight>эксклюзивную анимированную аватарку</><InvDefault>, </><InvHighlight>особую анимацию ожидания</><InvDefault> и </><InvHighlight>анимацию завершения боя</><InvDefault>.</>",
     ["获得<HighLight>1个侍女</>。其技能强化为：<HighLight>连续斩击，获得基于最大生命值的短时护盾</>。"] = "Вы получаете <HighLight>1 служанку</>. Её умение усиливается: <HighLight>серия рубящих ударов, дающая кратковременный щит на основе максимальных ОЗ</>.",
-    ["<P_Heart>（但他明明是个成年男士……这里的人都在演戏？）</>"] = "<P_Heart>(But he is clearly an adult man... Are the people here all acting?)</>",
-    ["使用后可获得<Highlight>占卜家头像</>，若拥有对应限时外观，可解除限时限制。"] = "Use to obtain the <Highlight>Seer Avatar</>. If you already own the corresponding limited-time appearance, the time limit will be removed.",
+    ["<P_Heart>（但他明明是个成年男士……这里的人都在演戏？）</>"] = "<P_Heart>(Но ведь он явно взрослый мужчина… Неужели все здесь играют роли?)</>",
+    ["使用后可获得<Highlight>占卜家头像</>，若拥有对应限时外观，可解除限时限制。"] = "После использования вы получите <Highlight>аватар Провидца</>. Если у вас есть соответствующий временный облик, ограничение по времени будет снято.",
     ["停，你到底想说什么？"] = "Stop, what exactly are you trying to say?",
     ["对，黑荆棘安保公司。你们就是他的妹妹和哥哥？"] = "Yes, Blackthorn Security Company. Are you his sister and brother?",
     ["换物buff5"] = "Exchange Item Buff 5",
@@ -282,4 +282,5 @@ return {
     ["Npc对话进入位面  延迟执行  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）  玩家变身结束"] = "Диалоги NPC выходят на плоскость; отложенное исполнение; объект телепортируется в указанное место в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены); Трансформация игрока заканчивается.",
     ["Barbara"] = "Барбара",
     ["指定地点附近使用任务道具  玩家发送任务道具"] = "Использовать квестовый предмет рядом с указанным местом: игрок отправляет квестовый предмет.",
+    ["\"Regarding that evil god, I am glad I don't know much. But I can feel the danger and horror of that knowledge...\"\n        \"The crimson corruption is eroding me more and more frequently. In a trance, I heard... that voice... not Ted, not Helena, not Helga... not any human... it seems to originate from that 'Great Mother'. She is calling, commanding, bewitching, deceiving...\"\n        \"She needs more living lives, more souls longing for rebirth, more... sacrifices.\""] = "«О том злом боге я рад, что знаю немного. Но я чувствую опасность и ужас этих знаний...»\n«Алая скверна разъедает меня всё чаще, и в забытьи я услышал... тот голос... Это не Тед, не Хелена, не Хельга... не кто-либо из людей... Кажется, он исходит от той «Великой Матери». Она зовёт, приказывает, соблазняет, обманывает...»\n«Ей нужно больше живых жизней, больше душ, жаждущих нового рождения, больше... жертв.»",
 }

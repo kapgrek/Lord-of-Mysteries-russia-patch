@@ -277,6 +277,7 @@ return {
     ["Uploading connection characters to the display stand is currently not supported. The corresponding connection character will be automatically removed after upload. Please confirm before proceeding."] = "В настоящее время загрузка персонажей связей на подставку для демонстрации не поддерживается. После загрузки соответствующий персонаж связи будет автоматически удалён. Пожалуйста, подтвердите перед загрузкой.",
     ["倒计时截止前引导所有心魔碎片至心魔除引爆"] = "До окончания отсчёта времени направьте все осколки Внутреннего демона к Внутреннему демону, чтобы взорвать их.",
     ["\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and corruption, the final possibility of the apocalypse.\""] = "«Чистейше-белый, спящий в алом коконе, божественное дитя, повелевающее возрождением и падением, последняя возможность конца света».",
+    ["#CanMove Amnesia Incident#"] = "#CanMove Случай с потерей памяти#",
     ["早夭的儿子"] = "The son who died young",
     ["棋子固有回蓝·弗兰克·李"] = "Piece Innate Mana Regen: Frank Lee",
     ["波"] = "Wave",

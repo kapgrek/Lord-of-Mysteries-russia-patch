@@ -248,7 +248,7 @@ return {
     ["格蕾丝，你太刻薄了。法赫里说了要写论文，别怪他。"] = "Грейс, ты слишком язвительна. Фахри сказал, что должен писать диссертацию, не вини его.",
     ["Wh-what? He's going to make wine with those grapes. Uh, well, that sounds pretty good... I like to drink!"] = "Ч-что? Он собирается делать вино из этого винограда. Э-э, ну, звучит неплохо... Я люблю выпить!",
     ["\"Selina Wood accidentally and coincidentally saw the true incantation for mirror divination from her occult teacher, Haines……\""] = "«Селена Вуд случайно и по совпадению увидела истинное заклинание гадания на волшебном зеркале у своего учителя мистицизма Хейнса...»",
-    ["你想起什么了？"] = "What did you remember?",
+    ["你想起什么了？"] = "Что ты вспомнил?",
     ["击退脚踏车"] = "Repel the bicycle",
     ["对了，昨天是不是有个警官来找过您？听口音不像本地人，应该是从廷根来的。"] = "By the way, did a police officer come to see you yesterday? Judging by the accent, they weren't a local; they must have come from Tingen.",
     ["我不能确定我的推荐能让您百分之两百的满意，但这个柜台里的都还不错。"] = "I cannot guarantee that my recommendation will satisfy you two hundred percent, but everything in this display case is quite good.",

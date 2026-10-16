@@ -289,7 +289,7 @@ return {
     ["人类想要成为非凡者，并在非凡之路上持续走下去，只能依靠魔药。"] = "Люди, желающие стать Потусторонними и продолжать идти по пути сверхъестественного, могут полагаться только на зелья.",
     ["It's not that simple. I felt the scent of corruption in my dream."] = "Всё не так просто, во сне я почувствовал(а) запах скверны.",
     ["Not entirely. Generally speaking, colleagues of the 'Seer' pathway will write poetry to digest their potion after becoming 'Midnight Poets'."] = "Не совсем. Как правило, коллеги Последовательности \"Бессонный\", становясь \"Полуночным Поэтом\", начинают писать стихи, чтобы переварить Зелье.",
-    ["Level1开启对话"] = "Level 1 Start Dialogue",
+    ["Level1开启对话"] = "Уровень 1: диалог начала",
     ["我的家里，有着纸和油墨的味道，\r\n那是爸爸妈妈身上的味道，\r\n也是幸福的味道。"] = "My home has the scent of paper and ink,\nThat is the scent of my father and mother,\nAnd also the scent of happiness.",
     ["星辉莲印"] = "Starlight Lotus Seal",
     ["每拥有<HighLight>1个3星棋子</>，全队获得<HighLight>5%伤害加深</>，上限为<HighLight>15%</>。"] = "For every <HighLight>1 unit at 3 stars</>, the entire team gains <HighLight>5% increased damage dealt</>, up to <HighLight>15%</>.",

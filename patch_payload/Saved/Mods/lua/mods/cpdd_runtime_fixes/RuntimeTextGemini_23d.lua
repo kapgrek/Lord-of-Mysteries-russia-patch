@@ -269,7 +269,7 @@ return {
     ["Don't make excuses. Tell Mr. Yate that I will grow the biggest and sweetest pumpkins this year, even sweeter than his grapes!"] = "Не оправдывайся. Передай мистеру Йейту, что в этом году я выращу самые большие и сладкие тыквы, слаще даже его винограда!",
     ["{{player.name}} has found a precious {{item.name}} amidst the Beyonder convergence; their Beyonder journey extends forward from this point on."] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
     ["秩序网特效待定2"] = "Эффект Сети порядка (не определён) 2",
-    ["1.4替换人脉任务2"] = "1.4 Replacement Connection Quest 2",
+    ["1.4替换人脉任务2"] = "1.4 Замена задания «Связи» 2",
     ["使用后获得<Highlight>绒语沙龙下装</>"] = "Use to obtain <Highlight>Whispering Fur Salon Bottoms</>",
     ["哈哈，还是看他们聊天有趣。"] = "Haha, it's still more interesting to watch them chat.",
     ["没有希望了……"] = "There is no Hope left...",
@@ -280,5 +280,5 @@ return {
     ["终末猎杀-草丛01合并隐匿03（含5块原范围）"] = "End-of-Days Hunt - Bush 01 Combined Concealment 03 (includes 5 original areas)",
     ["终末猎杀-草丛18逐簇隐匿07"] = "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 07",
     ["收集%d/50个异象之物。"] = "Соберите %d/50 объектов феномена.",
-    ["“而现在，那枚镜子中，只残存她的痛苦、绝望、扭曲、疯狂、恐惧和憎恨……”"] = "\"And now, within that mirror, only her pain, despair, distortion, madness, horror, and hatred remain...\"",
+    ["“而现在，那枚镜子中，只残存她的痛苦、绝望、扭曲、疯狂、恐惧和憎恨……”"] = "«А теперь в том зеркале остались лишь её боль, отчаяние, искажение, безумие, страх и ненависть...»",
 }

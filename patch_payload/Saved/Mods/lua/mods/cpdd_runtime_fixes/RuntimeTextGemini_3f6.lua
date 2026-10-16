@@ -262,7 +262,7 @@ return {
     ["【Seer】(4) The further the distance, the higher the damage, up to 30% Attack Power distance damage bonus."] = "【Провидец】(4) Чем больше дистанция, тем выше урон, максимум +30% бонусного урона от силы атаки в зависимости от дистанции.",
     ["5231136   贝克兰德   单人位面"] = "5231136   Бэкланд   Одиночный план",
     ["组队模式参加副本<Highlight>大帝重临（普通）</>，可以参与公共掉落的分配与拍卖。有概率获得可交易的道具。"] = "Проходя подземелье <Highlight>«Император возвращается» (обычный)</> в режиме команды, вы можете участвовать в распределении и аукционе общей добычи. С некоторым шансом можно получить обмениваемые предметы.",
-    ["什……什么意思？"] = "W-what do you mean?",
+    ["什……什么意思？"] = "Ч-что это значит?",
     ["参与任意竞技玩法1次"] = "Participate in any Competition gameplay 1 time",
     ["大、大哥，怎么感觉有点冷？"] = "B-big brother, why does it feel a bit cold?",
     ["帕金娜，你身上带着的那个东西……有些不对劲。"] = "Pakina, that thing you're carrying... there's something wrong with it.",
@@ -272,5 +272,5 @@ return {
     ["终末猎杀-草丛10逐簇隐匿07"] = "End Hunt - Bush 10 Cluster-by-Cluster Concealment 07",
     ["Valeria"] = "Валерия",
     ["Aspen"] = "Аспен",
-    ["那是或许平凡乏味但再也回不去的人生。\n        故乡啊……"] = "That was a life that might have been ordinary and dull, but one that can never be returned to.\n        My homeland...",
+    ["那是或许平凡乏味但再也回不去的人生。\n        故乡啊……"] = "та жизнь, быть может, была обычной и скучной, но к ней уже не вернуться.\nРодина моя...",
 }

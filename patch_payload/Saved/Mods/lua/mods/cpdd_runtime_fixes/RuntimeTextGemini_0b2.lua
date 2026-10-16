@@ -282,6 +282,8 @@ return {
     ["获得神降道具<Yellow>【神之契约】</>\n开启任务<Yellow>“【神降】荣光织造·灵骑”</>的重要道具"] = "Получен предмет Схождения бога <Yellow>【Завет Бога】</>\nВажный предмет для задания <Yellow>«【Схождение бога】 Ткачество славы: Дух-скакун»</>",
     ["Damage dealt by [Supernatural Creature] pieces is increased by <HighLight>50%</>; after participating in <HighLight>4</> player combat rounds, gain an additional <HighLight>25%</> Damage Reduction."] = "[Потустороннее существо] Урон, наносимый фигурами, увеличен на <HighLight>50%</>; после участия в <HighLight>4</> раундах боя против игроков дополнительно получает <HighLight>25%</> Снижение урона.",
     ["成就-净万灵"] = "Достижение — Очищение тысяч духов",
+    ["...No, it can't be, could it be that?"] = "...Н-не может быть, неужели это то самое?",
+    ["You are a little faster than I thought."] = "Ты оказался чуть быстрее, чем я думал.",
     ["尊敬的阿兹克先生"] = "Respected Mr. Azik",
     ["现实线第六章-战斗后安抚芬奇"] = "Reality Line Chapter 6 - Pacify Finch after the battle",
     ["返回<h>花海</>"] = "Return to the <h>sea of flowers</>.",

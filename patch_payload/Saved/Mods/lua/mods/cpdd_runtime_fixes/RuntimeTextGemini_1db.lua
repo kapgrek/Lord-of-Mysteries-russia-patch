@@ -272,6 +272,7 @@ return {
     ["In competition mode, <Highlight> defeat </> %s/%s Astrologers"] = "В соревновательном режиме <Highlight>победите</>%s/%s Астрологов",
     ["发布个人祈誓信息成功。"] = "Личная информация клятвы успешно опубликована.",
     ["[Marionette Skill] Baboon Blessing - Summon LV1"] = "【Навык марионетки】Благословение бабуина — Призыв LV1",
+    ["Why submit and live within someone else's fate?"] = "Зачем покоряться и жить в чужой судьбе?",
     ["呜嘎，输了，我，舞步，跟不上，呜呜。"] = "Wuga, I lost. My, dance steps, couldn't keep up, wuwu.",
     ["蒸汽时代·护目礼帽技能开始"] = "Steam Era: Goggle Top Hat Skill Start",
     ["血量隐形怪"] = "HP Stealth Monster",

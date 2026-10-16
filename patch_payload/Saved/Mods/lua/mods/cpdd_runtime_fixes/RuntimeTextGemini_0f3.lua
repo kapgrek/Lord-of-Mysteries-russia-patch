@@ -279,6 +279,7 @@ return {
     ["爸爸，那个面具好看！"] = "Папа, вон та маска красивая!",
     ["Praise... praise the Goddess! You... hello, do you want to take a look?"] = "Хвала... хвала Богине! Вы... здравствуйте, не желаете взглянуть?",
     ["And she looks quite frail. Perhaps she is a civilian staff member?"] = "И выглядит она довольно слабой. Может, она гражданская служащая?",
+    ["You, that sturdy gentleman! You've stepped on the magic circle!"] = "Эй, вы, крепкий господин! Вы наступили на магический круг!",
     ["先祖的荣耀"] = "Glory of the Ancestors",
     ["塔身静立，雾气终年不散，据说登顶远望能看见七道净光。"] = "The tower stands silent, shrouded in perpetual mist. It is said that from the summit, one can see the seven rays of pure light.",
     ["点击<Highlight>此处</>即可在本站<Highlight>进行交易</>。购买当地的<Highlight>低价</>物品，并前往其他<Highlight>高价地区</>出售，即可从中赚取利润。"] = "Click <Highlight>here</> to <Highlight>trade</> on this site. Purchase local <Highlight>low-priced</> items and travel to other <Highlight>high-priced regions</> to sell them for a profit.",

@@ -254,6 +254,7 @@ return {
     ["Personal Covenant information removed successfully."] = "Личная информация клятвы успешно снята.",
     ["[Auto Chess] - Viscountess - Triple Slash - Basic Attack 1 - New Skill Case - Sub Skill - Range Atk 1"] = "[Автошахматы]-Виконтесса-Тройной разрез-Обычная атака1-Пример нового навыка-Дочерний навык-РадиусAtk1",
     ["<Highlight>工艺：</>湖光细纱・丰饶祝福\n纱翼飞舞着唱诵赞歌，它说大地的赐福就在每一次收获与播种之中，就如母亲的轻吻总伴随在孩童之侧。"] = "<Highlight>Ремесло:</> Озёрная тонкая вуаль · Благословение изобилия\nКрылышки вуали порхают, напевая гимн: благословение земли — в каждом урожае и каждом посеве, как лёгкий материнский поцелуй всегда рядом с ребёнком.",
+    ["Relay Pulse"] = "Ретранслирующий импульс",
     ["做鬼脸"] = "Make a face",
     ["忠侍之刃"] = "Loyal Servant's Blade",
     ["想咨询其他事"] = "I would like to consult on other matters.",

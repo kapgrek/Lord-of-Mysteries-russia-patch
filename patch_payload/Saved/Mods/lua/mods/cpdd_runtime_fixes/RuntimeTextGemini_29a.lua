@@ -268,6 +268,7 @@ return {
     ["咖啡豆当然也都坚持选自原产地，每年我都会亲自去采购。"] = "Кофейные зёрна, конечно, я всегда выбираю только из мест их происхождения — каждый год лично езжу за закупками.",
     ["So my heart has started to rain; it is so damp, so gloomy."] = "И тогда в моём сердце начался дождь, такой влажный, такой сумрачный.",
     ["Damn it, let's break up if this continues!"] = "Чёрт, если так будет продолжаться, давай расстанемся!",
+    ["To come to Backlund, you sold everything you could sell, and you were reciting the protagonist's lines even in your dreams!"] = "Чтобы приехать в Бэкланд, ты продал всё, что можно, и даже во сне зубрил реплики главного героя!",
     ["勇者对决采用1对1单挑，双方使用自身真实属性。"] = "The Brave's Duel is a 1v1 match where both sides use their own true attributes.",
     ["只是，这个计划出了些意外……"] = "It's just that this plan encountered some accidents...",
     ["召唤<HighLight>3</>星【月之污染】。"] = "Summon <HighLight>3</>-star [Moon Corruption].",

@@ -272,6 +272,8 @@ return {
     ["That... that's just a little trinket consigned by a customer."] = "Это... это просто безделушка, которую один клиент оставил на продажу.",
     ["账号受限，暂时无法进行相关操作，可在补齐金镑/战略金镑/绑定金镑后解除限制。"] = "Аккаунт ограничен, временно невозможно выполнить это действие. Ограничение будет снято после пополнения Золотых фунтов/Стратегических золотых фунтов/Привязанных золотых фунтов.",
     ["【占位】闪回梦境占卜中温妮失踪前的一幕。"] = "[Плейсхолдер] Флешбэк во сне-гадании к моменту перед исчезновением Винни.",
+    ["1-Star, 2-Star Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>356%</> = {*d,F1690001,atkMin,3.56} points, 3-Star Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>960%</> = {*d,F1690001,atkMin,9.6} points"] = "Урон 1–2 звёзд: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>356%</> = {*d,F1690001,atkMin,3.56} ед., урон 3 звёзд: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>960%</> = {*d,F1690001,atkMin,9.6} ед.",
+    ["You drank too much last night. I told you not to touch the gin from that place. You insisted you'd only have a little, but before long, you were so drunk you couldn't even stand, and you were shouting about wanting to go out for some fresh air."] = "Ты вчера вечером слишком много выпил. Я же говорил тебе, что у них нельзя трогать джин. Ты твердил, что выпьешь чуть-чуть, а вскоре уже еле стоял на ногах и рвался выйти подышать воздухом.",
     ["使用后获得<Highlight>头像・班森</>"] = "Use to obtain <Highlight>Avatar: Benson</>",
     ["您好，请问您是芬顿吗？我捡到了您的牙科病历。"] = "Hello, are you Fenton? I found your dental records.",
     ["我找到一些丢失的东西，冰淇淋果然能带来好运。"] = "I found some lost things; ice cream really does bring good luck.",

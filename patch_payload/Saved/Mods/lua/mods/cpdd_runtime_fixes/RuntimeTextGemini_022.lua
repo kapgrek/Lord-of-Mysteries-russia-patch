@@ -262,6 +262,7 @@ return {
     ["A commotion breaks out on the streets of Backlund, and many people are gathering at a lively spot..."] = "На улицах Бэкланда поднялся шум, и много людей собирается в одном оживлённом месте...",
     ["Can I join the Dragon Hunter Gang? I want to hunt dragons too! Where is Boss Kevin, I want to find him for an autograph!"] = "Можно мне вступить в банду Охотников на драконов? Я тоже хочу охотиться на драконов! Где босс Кевин, я хочу найти его и взять автограф!",
     ["[Auto-Chess] Hound Basic Attack Double Strike - Hit 2"] = "【Автошахматы】Гончая — двойная обычная атака — Hit 2",
+    ["The competition has escalated! New routes, new stations, new markets. Ladies and gentlemen, are you ready to establish a foothold in this silent war?\nLook forward to it; at the top of this competition, will there be a place for you? By the end of this week, the clubs at the top of the leaderboard will be able to obtain stations!"] = "Конкуренция обостряется! Новые маршруты, новые станции, новые рынки. Дамы и господа, готовы ли вы обосноваться в этой безмолвной войне?\nЖдите с нетерпением: найдётся ли среди лидеров этой борьбы место для вас? К концу этой недели клубы из верха таблицы лидеров смогут получить станции!",
     ["家族获利"] = "Family Profit",
     ["对了，伦纳德先生还告诉我，“愚者”先生、阿蒙本体和另一位神明做过一个交易……"] = "By the way, Mr. Leonard also told me that Mr. The Fool, the original Amon, and another God had made a deal...",
     ["放心，我会的。"] = "Don't worry, I will.",

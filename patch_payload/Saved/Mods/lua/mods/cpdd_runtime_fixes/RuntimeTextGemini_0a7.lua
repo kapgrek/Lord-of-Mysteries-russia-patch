@@ -256,7 +256,9 @@ return {
     ["哦，是的！我们正打算去那边——"] = "О, да! Мы как раз собираемся туда—",
     ["模版精英-男树人"] = "Шаблон элиты — Мужчина-древень",
     ["Dark Demonic Wolf Ascend-Hidden Model"] = "Мрачный демонический волк взлетает — скрытая модель",
-    ["<P_Heart>（打扮华丽，却趴在地上当乞丐……是有钱人的特殊癖好？）</>"] = "<P_Heart>(Dressed so extravagantly, yet lying on the ground begging... Is this some special hobby of the rich?)</>",
+    ["<P_Heart>（打扮华丽，却趴在地上当乞丐……是有钱人的特殊癖好？）</>"] = "<P_Heart>(Разодет пышно, а лежит на земле и просит милостыню... Особая причуда богачей?)</>",
+    ["<P_Yellow>Clown</>: How interesting..."] = "<P_Yellow>Клоун</>: Как любопытно…",
+    ["You will live the life you want."] = "Ты будешь жить так, как хочешь.",
     ["太感谢你了，{{先生|女士}}，要不是你出手拦住他，我这条命都不一定保得住。"] = "Thank you so much, {{Sir|Madam}}. If you hadn't stepped in to stop him, I might not have even kept my life.",
     ["才不要。我不要得到一片不特别的叶子和一张不完整的纸页。"] = "No way. I don't want to get a leaf that isn't special and a page that isn't complete.",
     ["破空长枪"] = "Void-Piercing Spear",
@@ -267,4 +269,5 @@ return {
     ["松针大油边😡我去好香啊😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",
     ["反隐"] = "Анти-невидимость",
     ["哎——你身上有表吗？卖不卖？"] = "Эй, у тебя есть часы? Вы продаете его?",
+    ["\"I dreamed of Helga. The knowledge about her made me dream of her... I can feel her despair, that desire to just be shattered, to just self-destruct, to just be freed from the corruption... Even in Tingen in the Mirror, protected by the crimson barrier, she has been sending out thoughts of wanting to die. But she also hasn't forgotten to help her best friend—Viscountess Helena of May Manor—complete that wish shrouded in crimson and blood...\""] = "«Мне приснилась Хельга, знания о ней заставили меня увидеть её во сне... Я чувствую её отчаяние, желание быть разбитой, уничтожить себя, освободиться от скверны... Даже в Тингене в Зеркале, под защитой алого барьера, она всё время посылала мысли о смерти. Но она не забыла помочь своей лучшей подруге, виконтессе Хелене из Майского поместья, исполнить то желание, окутанное алым и кровью...»",
 }

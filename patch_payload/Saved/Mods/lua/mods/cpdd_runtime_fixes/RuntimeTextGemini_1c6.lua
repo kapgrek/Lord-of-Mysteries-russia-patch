@@ -269,6 +269,8 @@ return {
     ["I was just looking—Klo, help me!!"] = "Я просто смотрел... Кло, помоги мне!!",
     ["<Rank1>\"1级\"</>封印物仅在战略服生效，本服生效<Rank2>“2级”</>效果"] = "<Rank1>«1 уровня»</> Запечатанный Артефакт действует только на стратегическом сервере, на этом сервере действует эффект <Rank2>«2 уровня»</>",
     ["为帮助阿兹克·艾格斯找回过去，克莱恩与他建立了长期的书信联系。信件内容多为分享历史线索、询问非凡知识或告知行程，是维系这段亦师亦友关系的重要纽带。"] = "Чтобы помочь Азику Эггерсу восстановить память о прошлом, Клейн наладил с ним долгую переписку. Письма в основном содержат обмен историческими зацепками, вопросы о потустороннем знании или сведения о планах поездок — это важная связующая нить их отношений наставника и друга.",
+    ["<Highlight>Introduction</>: A weapon traded by Derrick to Klein.\n<Highlight>Holder</>: Derrick.\n<Highlight>Corresponding Pathway</>: Sailor pathway.\n<Highlight>Appearance</>: Iron-black throughout, thick and sturdy, with a sharp edge. The surface of the axe also has many symbolic signs and magical markings embedded within it, turning into patterns of lightning and Hurricane."] = "<Highlight>Описание</>: Оружие, которое Дерик обменял Клейну.\n<Highlight>Владелец</>: Дерик.\n<Highlight>Соответствующий Путь</>: Путь Моряка.\n<Highlight>Внешний вид</>: Целиком железно-чёрный, массивный и прочный, с острым лезвием. На поверхности топора множество символов и магических знаков, вросших внутрь и превратившихся в узоры, подобные молниям и ураганам.",
+    ["No, I don't want to... I don't want to let my brother..."] = "Нет, я не хочу... Я не хочу, чтобы брат...",
     ["初始对话"] = "Initial Dialogue",
     ["来自知识的力量？有趣。"] = "Power from knowledge? Interesting.",
     ["点击武器外观进行切换或预览。"] = "Click on a weapon appearance to Switch or preview it.",

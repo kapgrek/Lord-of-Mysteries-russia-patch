@@ -270,7 +270,7 @@ return {
     ["Sleep Every 2 Seconds, 5m Radius"] = "Сон каждые 2 секунды, радиус 5 м",
     ["%s%s has modified the Club emblem; everyone can open the Club interface to view it!"] = "%s%s изменил(а) эмблему клуба — все могут открыть экран клуба, чтобы посмотреть!",
     ["Do... do you want to buy flowers? I have... I have quite a few."] = "Хо... хотите купить цветы? У меня... у меня их немало.",
-    ["一锅端-滚烫的大石块UI提示"] = "One Pot Sweep - Scorching Large Stone UI Prompt",
+    ["一锅端-滚烫的大石块UI提示"] = "Одним махом: подсказка о раскалённом валуне",
     ["使用后获得<Highlight>动态头像・苍白之冕</>"] = "Use to obtain <Highlight>Animated Avatar: Pale Crown</>",
     ["先不说这个，我看到那封信了，你要离开？靠什么生活？那高达几十苏勒的存款？"] = "Setting that aside, I saw the letter. You're leaving? How will you make a living? On those savings of several dozen soli?",
     ["再次和混混对话，提交<h>受诅咒的苏勒</>"] = "Talk to the thug again and hand over the <h>cursed soli</>.",

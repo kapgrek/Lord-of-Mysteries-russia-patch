@@ -252,7 +252,7 @@ return {
     ["Restore full Health"] = "Полностью восстанавливает здоровье",
     ["Not bad, not following the crowd, you have character just like I did back then. And you're lucky enough, there are two portions of Seer potion materials left, otherwise you would have to wait a long time."] = "Неплохо, не поддаваться толпе — точно как я в своё время, с характером. К тому же тебе повезло: материалов для Зелья Провидца осталось ещё две порции, иначе пришлось бы долго ждать.",
     ["已成功购买<Reminder_Orange>%d</>个%s，总共花费<Reminder_Orange>%d</>战略金镑"] = "Успешно куплено: <Reminder_Orange>%d</> шт. (%s). Всего потрачено: <Reminder_Orange>%d</> стратегических золотых фунтов",
-    ["世界拍卖分红"] = "World Auction Dividend",
+    ["世界拍卖分红"] = "Дивиденды Мирового аукциона",
     ["尝试激活压力板"] = "Attempt to activate the pressure plate",
     ["拨弄时光的指针，遨游命运的影子，欺诈与恶作剧的化身。"] = "Twiddle the hands of time, roam the shadows of fate, the avatar of fraud and mischief.",
     ["爆单·商行生效，卖价+150%"] = "Explosion Order: Trading Firm active; selling price +150%.",

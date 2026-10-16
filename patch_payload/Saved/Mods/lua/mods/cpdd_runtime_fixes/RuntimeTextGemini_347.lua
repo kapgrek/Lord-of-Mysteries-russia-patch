@@ -236,7 +236,7 @@ return {
     ["Current cognition experience has reached the limit; cannot continue to gain cognition experience."] = "Текущий опыт познания уже достиг предела, дальнейшее получение опыта познания невозможно.",
     ["Don't misunderstand, it's not that she thinks I don't clean well; my wife is a believer of the Storm."] = "Не пойми неправильно, дело не в том, что она считает, будто я плохо убираюсь; моя жена — верующая Шторма.",
     ["记忆回溯-黑沉荒野2"] = "Обратный отсчёт памяти — Чёрная пустошь 2",
-    ["人头鸟妖……听起来很不妙啊。"] = "Harpy... that sounds very ominous.",
+    ["人头鸟妖……听起来很不妙啊。"] = "Птица-демон с человеческой головой... звучит очень зловеще.",
     ["塔罗·戴里克·伯格·档6增量"] = "Tarot·Derrick·Berg·Save 6 Incremental",
     ["如果没有超凡因素的影响，你认为劳维斯太太会有怎样的结局？"] = "If there were no Beyonder factors involved, what do you think would have been Mrs. Lowis's fate?",
     ["打开后随机获得1件<Highlight>66装等</>的<Highlight>竞技倾向</>橙色装备。"] = "Open to randomly receive 1 piece of <Highlight>Competition-oriented</> orange Equipment with <Highlight>Item Level 66</>.",

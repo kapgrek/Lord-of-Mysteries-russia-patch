@@ -260,8 +260,9 @@ return {
     ["Some challenges in the Brass Book are under maintenance and cannot be completed at this time."] = "Часть испытаний Латунной книги находится на техобслуживании и временно недоступна",
     ["The farce is over"] = "Фарс окончен",
     ["The 'Traitor's Ring' is also quite good; it's the original cast from the Backlund Kingdom Theater."] = "«Кольцо предателя» тоже неплохо — это оригинальный состав Королевского театра Бэкланда.",
-    ["一个答案引出更多疑问，秘密的面纱层层叠叠。"] = "One answer leads to more questions, as the veil of secrets is layered upon layer.",
-    ["但廷根来的船，晚点了一整夜，早上才到！她已经赶不上了……"] = "But the ship from Tingen was delayed by an entire night and only arrived in the morning! She couldn't make it in time anymore...",
+    ["<M_Default>Respected Beyonder:</>\n  <M_Default>This Four-Way League has come to an end, and this Club has obtained %s Strategic Server screening points. Thank you all for fighting side by side. May we continue to move forward together and achieve even better results in the journey ahead!</>\n  <M_Default>You can go to the</><HyperLink stylename=\"M_Link\" u=\"jump=1302324\">【Strategic Server】</><M_Default>interface to view.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n  <M_Default>Этот матч Лиги четырёх сторон завершён, клуб получил %s отборочных очков стратегического сервера. Благодарим всех за совместную борьбу, пусть мы и дальше идём вперёд плечом к плечу и добьёмся новых успехов на предстоящем пути!</>\n  <M_Default>Посмотреть можно в окне</><HyperLink stylename=\"M_Link\" u=\"jump=1302324\">[Стратегический сервер]</><M_Default>.</>",
+    ["一个答案引出更多疑问，秘密的面纱层层叠叠。"] = "Один ответ рождает новые вопросы, а завеса тайн становится всё плотнее.",
+    ["但廷根来的船，晚点了一整夜，早上才到！她已经赶不上了……"] = "Но корабль из Тингена опоздал на целую ночь и пришёл только утром! Она уже не успеет...",
     ["使用后获得环身特效:<Highlight>红与黑・手部</>"] = "Use to obtain aura effect: <Highlight>Red and Black・Hand</>",
     ["噢，只是卡尔用过的东西的灰烬。"] = "Oh, it's just the ashes of things Carl used.",
     ["我向您祈求，不会融化的冰块的线索……"] = "I pray to you for a clue about the ice that never melts...",
@@ -270,5 +271,5 @@ return {
     ["装备平均精炼度达到75%"] = "Average Equipment refinement level reaches 75%",
     ["通过模拟活动2-阿蒙表情包解锁"] = "Unlocked via Simulation Event 2 - Amon Emoticon",
     ["副本"] = "",
-    ["只要还有人记得我的名字，只要我的故事还在流传，只要这个世界还在使用我留下的发明和律法……我就从未真正离开。等着吧，总有一天，你们会听到那句话——\n        因蒂斯的子民们，你们的皇帝，回来了！"] = "As long as there is someone who remembers my name, as long as my story is still being told, as long as this world still uses the inventions and laws I left behind... I have never truly left. Just wait, one day, you will hear those words—\n        People of Intis, your Emperor has returned!",
+    ["只要还有人记得我的名字，只要我的故事还在流传，只要这个世界还在使用我留下的发明和律法……我就从未真正离开。等着吧，总有一天，你们会听到那句话——\n        因蒂斯的子民们，你们的皇帝，回来了！"] = "Пока кто-то помнит моё имя, пока мою историю рассказывают, пока этот мир пользуется оставленными мной изобретениями и законами... я никогда по-настоящему не уйду. Ждите, однажды вы услышите эти слова:\nПодданные Интиса, ваш император вернулся!",
 }

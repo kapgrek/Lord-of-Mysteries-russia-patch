@@ -279,7 +279,7 @@ return {
     ["好的，期待你的好消息。"] = "Хорошо, жду от вас хороших новостей.",
     ["Hey, want a glass of Highland?"] = "Эй, хочешь бокал «Хайленда»?",
     ["Participate in Dungeon, Competition, Identity Roleplay, and other gameplay to consume Vitality and claim rewards such as Equipment and Sealed Artifacts"] = "Участвуя в подземельях, состязаниях, ролевых играх и других режимах, можно тратить Энергию, чтобы получать награды: снаряжение, Запечатанные Артефакты и другое",
-    ["“今天我成为你，明天你成为我，命运的巧手拨弄所有。”"] = "\"Today I become you, tomorrow you become me; the deft hands of fate manipulate all.\"",
+    ["“今天我成为你，明天你成为我，命运的巧手拨弄所有。”"] = "«Сегодня я становлюсь тобой, завтра ты становишься мной, и искусная рука судьбы играет всеми».",
     ["前往贸易地图 >>"] = "Go to the trade map >>",
     ["更换好友"] = "Change Friend",
     ["灵界·左转楼梯"] = "Spirit World · Turn Left Staircase",

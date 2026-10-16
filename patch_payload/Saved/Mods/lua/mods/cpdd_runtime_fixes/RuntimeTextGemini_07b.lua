@@ -256,6 +256,7 @@ return {
     ["来了！它们来了！"] = "Идут! Они идут!",
     ["Sir, are you drinking at this hour?"] = "Сударь, вы уже пьёте в такой час?",
     ["Instructor Colin seems to be the most unique among all the instructors."] = "Инструктор Колин, похоже, самый необычный среди всех инструкторов.",
+    ["<P_Heart>(Sudden amnesia? Let me use spirit vision to take a look.)</>"] = "<P_Heart>（Внезапная потеря памяти? Посмотрю с помощью Истинного Зрения.）</>",
     ["前往购买"] = "Go to purchase",
     ["占卜表现"] = "Divination performance",
     ["历史赛季"] = "Historical Seasons",

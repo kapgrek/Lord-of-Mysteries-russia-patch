@@ -277,7 +277,8 @@ return {
     ["为什么我控不住人？"] = "Почему я не могу контролировать противников?",
     ["Reach Sanity Level 99 to unlock subsequent plotlines. You can participate in various activities in <HyperLink stylename=\"h\" u=\"1250015\">Plot</>, <HyperLink stylename=\"h\" u=\"1250008\">Dungeon</>, <HyperLink stylename=\"h\" u=\"1250331\">Exploration</>, <HyperLink stylename=\"h\" u=\"1250093\">Competition</>, and <HyperLink stylename=\"h\" u=\"1250163\">Idle Wins</> to gain cognitive experience."] = "Достигните 99 уровня рассудка, чтобы открыть дальнейший сюжет. Вы можете участвовать в различных активностях в разделах <HyperLink stylename=\"h\" u=\"1250015\">Сюжет</>, <HyperLink stylename=\"h\" u=\"1250008\">Подземелье</>, <HyperLink stylename=\"h\" u=\"1250331\">Исследование</>, <HyperLink stylename=\"h\" u=\"1250093\">Соревнование</> и <HyperLink stylename=\"h\" u=\"1250163\">Лёгкая победа</>, чтобы получить опыт познания.",
     ["If I don't see tomorrow's night, please let the Goddess watch over my family and keep everything safe."] = "Если я не увижу завтрашней ночи, пусть Богиня присмотрит за моей семьёй и сохранит всех в безопасности.",
-    ["“命运如无尽长河，从不肯为谁停留……”"] = "\"Fate is like an Endless river, never willing to pause for anyone...\"",
+    ["“命运如无尽长河，从不肯为谁停留……”"] = "«Судьба подобна бесконечной реке и никогда не остановится ни ради кого...»",
+    ["<Highlight>Introduction</>: Originates from the Disaster Queen, combining part of the Disaster Queen's Beyonder characteristics. An item taken by Laetitia, a member of the Moses Ascetic Order, from the ruins of the \"Sea God.\"\n<Highlight>Holder</>: Goushinam → Laetitia → Church of Storms → Alger.\n<Highlight>Corresponding Characteristic</>: Sailor pathway.\n<Highlight>Appearance</>: A brownish-yellow parchment book with a line of words written on the surface in Elvish: \"Book of Calamity.\""] = "<Highlight>Описание</>: Происходит от Королевы Бедствий и содержит часть её потусторонних характеристик. Предмет, который член Ордена Мозеса Летиция забрала из руин «Бога Морей».\n<Highlight>Владелец</>: Гоушинам → Летиция → Церковь Бурь → Алджер.\n<Highlight>Соответствующая характеристика</>: Путь Моряка.\n<Highlight>Внешний вид</>: Желтовато-коричневая пергаментная книга, на обложке которой эльфийским языком написана строка: «Книга Бедствий».",
     ["再次偶遇这位邮差"] = "Encounter this postman again",
     ["安西娅在木头人期间需要3人到达终点才会停止游戏。蝴蝶会自动追寻目标，一半的玩家会获得注视能力，通过注视的目光可以使蝴蝶保持静止。"] = "During the wooden man phase of Anthea, 3 people must reach the finish line for the game to stop. The butterfly will automatically pursue targets. Half of the players will gain the Gaze ability, and through their gaze, they can keep the butterfly stationary.",
     ["抵挡减少"] = "Block Damage Reduction",
@@ -291,5 +292,5 @@ return {
     ["鬼魂出生"] = "Ghost Spawn",
     ["April"] = "апрель",
     ["Darius"] = "Дариус",
-    ["<P_Yellow>{{CustomText}}</>的风尚度在值夜者里都快成传奇了。"] = "<P_Yellow>{{CustomText}}</>'s sense of fashion has almost become a legend among the Nighthawks.",
+    ["<P_Yellow>{{CustomText}}</>的风尚度在值夜者里都快成传奇了。"] = "<P_Yellow>{{CustomText}}</>: чувство стиля среди Стражей Ночи уже почти стало легендой.",
 }

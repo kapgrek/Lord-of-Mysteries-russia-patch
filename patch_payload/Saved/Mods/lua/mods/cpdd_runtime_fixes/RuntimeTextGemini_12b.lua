@@ -260,6 +260,7 @@ return {
     ["<DecH>工艺：</>暗色织帛\n清醒的头羊，造主的牧者。黑袍下是守护白银城的誓言，直至终焉。"] = "<DecH>Материал:</> Тёмная ткань\nБодрствующий вожак стада, пастырь Создателя. Под чёрным одеянием скрывается клятва защищать Серебряный город до самого конца.",
     ["“魔术师”小姐的委托完成了，我也离开这里吧。"] = "Поручение госпожи «Фокусник» выполнено, пора и мне уходить отсюда.",
     ["Stop writing. Let me deal with the corruption on you first."] = "Хватит писать, дай мне сначала разобраться с твоей скверной.",
+    ["[Amnesia]"] = "[Амнезия]",
     ["使用后获得称号:<Highlight>神陨新主（30天）</>"] = "Use to obtain the title: <Highlight>New Master of the Fallen God (30 days)</>",
     ["占据他身体的“我”，被窃取了追踪邮差的念头？！"] = "The \"me\" that occupied his body had the thought of tracking the postman stolen?!",
     ["名利法则"] = "Law of Fame and Fortune",

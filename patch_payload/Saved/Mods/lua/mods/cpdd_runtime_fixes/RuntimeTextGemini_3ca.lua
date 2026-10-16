@@ -292,7 +292,7 @@ return {
     ["Clear Steam Equipment in-battle buffs and controllers at BATTLE_END of each match."] = "При каждом BATTLE_END очищаются внутрибоевые баффы и контроллеры Паровой экипировки",
     ["GVGHonor Inner Entrance - Unlimited uses, supports multi-player interaction"] = "Вход на арену GVGHonor — неограниченное количество раз, поддерживает взаимодействие нескольких игроков",
     ["No, I have many identities in the real world. If you want to find me, you can go to the Loen Charity Foundation. As for psychotherapy, this is an Extraordinary ability of the 'Spectator' pathway."] = "Нет, в реальном мире у меня много личностей. Если хочешь меня найти, отправляйся в Благотворительный фонд Лоэн. Что касается психотерапии, это Потусторонняя способность Пути «Зрителя».",
-    ["丧钟连射3级"] = "Death Knell Rapid Fire Level 3",
+    ["丧钟连射3级"] = "Скорострельность Погребального звона, ур. 3",
     ["挂坠"] = "Pendant",
     ["无法查看该动态"] = "Cannot view this update",
     ["是啊，刚好有人退票。你去贝克兰德做什么？"] = "Yeah, someone just returned a ticket. What are you going to Backlund for?",

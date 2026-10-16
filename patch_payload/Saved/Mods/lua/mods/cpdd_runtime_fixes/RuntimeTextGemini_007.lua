@@ -253,6 +253,8 @@ return {
     ["通过循声玩法解锁。"] = "Разблокируется через режим «По следу звука».",
     ["Unlock strategic skill \n Strategic attributes only take effect in the strategic server"] = "Разблокировать стратегический навык\nСтратегические характеристики действуют только на стратегическом сервере",
     ["9月24日21:20后可解锁"] = "Разблокируется после 21:20 24 сентября",
+    ["<P_Heart>（Need to find an excuse to get to know them）</> Hello, is your name Melissa?"] = "<P_Heart>(Нужно найти повод познакомиться с ними)</>Здравствуйте, вас зовут Мелисса?",
+    ["Band Member 01"] = "Участник оркестра 01",
     ["可是——"] = "But—",
     ["在镜中廷根，绝望魔镜破碎时，也是祂用非凡能力让时间暂停，我才能帮你们避开危险。"] = "In Tingen in the Mirror, when the Magic Mirror of Despair shattered, it was also He who used Beyonder powers to pause time, allowing me to help you avoid danger.",
     ["我怎么知道！"] = "How should I know!",

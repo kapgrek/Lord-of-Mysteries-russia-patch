@@ -269,7 +269,7 @@ return {
     ["How many people can enter one instance of the Strategic Server's Final Hunt?"] = "Сколько игроков может войти в один канал «Финальной охоты» на Стратегическом сервере?",
     ["<P_Heart>(Let me see, he is holding his head with both hands, his chin buried in his knees, as if resisting the outside world.)</>"] = "<P_Heart>(Так, посмотрим: он держит голову обеими руками, уткнувшись подбородком в колени, будто сопротивляется внешнему миру.)</>",
     ["Citywalk - Pray at the Church of the River and Sea (Sanity Loss)"] = "Прогулка по городу - молитва в Церкви Реки и Моря (потеря рассудка)",
-    ["一键下麦"] = "One-click Mic Off",
+    ["一键下麦"] = "Отключить всех от микрофона",
     ["使用后获得环身特效:<Highlight>苍白之冕・手部</>"] = "Use to obtain aura effect: <Highlight>Pale Crown・Hand</>",
     ["去脚踏车店找伊莲娜"] = "Go to the bicycle shop to find Elena",
     ["天快黑的时候，那位警官就往餐厅那边去了，好像约了什么人见面，别的我就不知道了。"] = "When it was getting dark, that police officer headed toward the restaurant, as if he had an appointment to meet someone; I don't know anything else.",

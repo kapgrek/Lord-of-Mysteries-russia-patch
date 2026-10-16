@@ -278,6 +278,7 @@ return {
     ["Registration for the Faction War: Highland Battle is now open. The intense battle will begin tonight at 20:45. Participate to win generous rewards and Faction War auction dividends. <HyperLink stylename=\"Chat_Hyperlink\" u=\"jump=1250323\">[Go to Register]</>"] = "Регистрация на «Войну фракций · Нагорную битву» открыта, жаркая битва начнётся сегодня вечером в 20:45. Участвуйте и получите щедрые награды, а также дивиденды аукциона Войны фракций. <HyperLink stylename=\"Chat_Hyperlink\" u=\"jump=1250323\">[Зарегистрироваться]</>",
     ["一段剑气对命中目标有60%的基础概率造成击退。"] = "Первая волна Ци меча имеет базовый шанс 60% отбросить попавшую под удар цель.",
     ["你已经有房间了，是否退出当前房间<Highlight>%s</>，加入新房间<Highlight>%s</>？"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
+    ["Upper garment top"] = "Верх верхней одежды",
     ["使用后获得称号:<Highlight>荣耀团长</>"] = "Use to obtain the title: <Highlight>Glory Commander</>",
     ["塔罗·伦纳德·米切尔·档6增量"] = "Tarot - Leonard Mitchell - Tier 6 Increment",
     ["心灵安抚"] = "Pacify Mind",

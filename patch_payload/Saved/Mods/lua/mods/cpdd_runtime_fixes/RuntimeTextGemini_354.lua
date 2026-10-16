@@ -265,6 +265,7 @@ return {
     ["You'd better go home and find your mother!"] = "Лучше иди домой и найди свою мать!",
     ["主宰争锋公平机制，所有非凡者获得属性平衡。"] = "Механизм честности режима «Схватка Владык»: все Потусторонние получают выравнивание характеристик.",
     ["特殊采购凭证，凭证可<Highlight>免费兑换任意商城直售外观</>。"] = "Особый закупочный талон. Его можно <Highlight>бесплатно обменять на любой внешний вид, продаваемый напрямую в магазине</>.",
+    ["After use, it can temporarily change the time of the Castle."] = "После использования можно временно изменить время в Замке",
     ["使用后获得环身特效:<Highlight>铁与血之歌・头部</>"] = "Grants the following body effect upon use: <Highlight>Song of Iron and Blood・Head</>",
     ["半神列阵"] = "Demigod Array",
     ["咒术徽章"] = "Spell Badge",
@@ -276,4 +277,5 @@ return {
     ["贝克兰德大桥？"] = "Backlund Bridge?",
     ["Lelia"] = "Леля",
     ["完成当前步骤的所有子目标  玩家变身开始  玩家播放剧情对话"] = "Выполните все подцели текущего шага; начинается трансформация игрока; игрок воспроизводит сюжетный диалог.",
+    ["\"She is still alive, at least a part of her is still alive, living in a deformed way in the mirror. Her name is Helga, the close friend of Viscountess Helena. During the long years of revenge, they shared bloody secrets, drinking together under the crimson moonlight... until Helga was also corrupted by the crimson.\"\n        \"The corruption eroded her, twisted her, tormented her... She mistakenly thought that advancement to a higher Sequence could suppress the corruption, but she failed during the advancement to Sequence 3 Unaging Witch, wandering on the edge of loss of control and collapse... Helena ended her life with her own hands, using the sickle that Helga had gifted her.\"\n        \"Helga's Beyonder characteristic merged with the mirror... This mirror is a gift Helena carefully selected for her...\""] = "«Она ещё жива, по крайней мере частично жива, уродливо живёт в зеркале. Её зовут Хельга, она близкая подруга виконтессы Хелены. В долгие годы мести они делили кровавые тайны и поднимали бокалы под алым лунным светом... пока Хельга тоже не поддалась алой скверне.»\n«Скверна разъедала её, искажала, мучила... Она ошибочно решила, что продвижение на более высокую Последовательность подавит скверну, но потерпела неудачу при продвижении на Последовательность 3, Нестареющую Демоницу, и застряла на грани потери контроля и распада... Хелена собственными руками оборвала её жизнь той самой косой, которую подарила Хельга.»\n«Потусторонняя характеристика Хельги слилась с зеркалом... Это зеркало — подарок, который Хелена тщательно для неё выбрала...»",
 }

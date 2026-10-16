@@ -263,7 +263,7 @@ return {
     ["对了，贝迪昨晚可是闹了个大笑话。"] = "Кстати, Беди вчера вечером здорово опозорился.",
     ["%s part locked; modification will consume more Mechanical Seals."] = "Часть %s заблокирована, переоборудование потребует больше Механических печатей.",
     ["I'll pass; I need to take the newcomer to get registered first, the Captain is still waiting."] = "Я, пожалуй, откажусь — мне нужно сначала отвести новичка на регистрацию, капитан всё ещё ждёт.",
-    ["从未喝过的味道。"] = "A taste I have never had before.",
+    ["从未喝过的味道。"] = "Вкус, которого я никогда не пробовал.",
     ["安妮：奶、奶奶……"] = "Annie: Gr-Grandma...",
     ["展开半径 3 米的防护罩，使范围内玩家获得【祈光庇护】，抵御【光辉震荡】的击飞效果。离开防护罩后效果消失。"] = "Deploys a protective shield with a radius of 3 meters, granting players within range [Shelter of Light] to resist the knockup effect of [Radiant Tremor]. The effect disappears upon leaving the protective shield.",
     ["当前已无快速到达次数，次日8点恢复"] = "No fast travel attempts remaining; they will reset at 8:00 AM the next day.",

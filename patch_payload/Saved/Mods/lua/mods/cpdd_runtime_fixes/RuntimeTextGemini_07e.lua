@@ -273,6 +273,7 @@ return {
     ["商店锁定成功！"] = "Магазин успешно заблокирован!",
     ["Cannot invite cross-server friends to become a Covenant."] = "Нельзя пригласить межсерверного друга в Обет.",
     ["After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Beyonder Affix Gifts</>"] = "После <Highlight>18</> переформовок гарантированно появится <Highlight>Дар с 3 записями Потустороннего</>",
+    ["Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>102%</> = {*d,F1690001,atkMin,1.02} points, Shield: <img id=\"01\" width=\"40\" height=\"40\"/>Max Health × <HighLight>10%</> = {*d,F1690001,maxHp,0.1} points, Healing: <img id=\"01\" width=\"40\" height=\"40\"/>Max Health × <HighLight>3%</> = {*d,F1690001,maxHp,0.03} points"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>102%</> = {*d,F1690001,atkMin,1.02} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>10%</> = {*d,F1690001,maxHp,0.1} ед., лечение: <img id=\"01\" width=\"40\" height=\"40\"/>Макс. здоровье × <HighLight>3%</> = {*d,F1690001,maxHp,0.03} ед.",
     ["参与副本<Highlight>大帝重临（普通）</>，完成阶段<Highlight>污染意志</>后，有概率获得下列道具。"] = "Participate in the <Highlight>Emperor's Return (Normal)</> dungeon and complete the <Highlight>Corrupted Will</> stage for a chance to obtain the following items.",
     ["已经谈好了吗？"] = "Have you finished talking?",
     ["弗兰克好感度达到4级解锁"] = "Unlocked when Frye's Favorability reaches Level 4",

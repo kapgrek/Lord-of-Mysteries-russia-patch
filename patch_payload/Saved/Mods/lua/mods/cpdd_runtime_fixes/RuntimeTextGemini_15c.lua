@@ -251,6 +251,7 @@ return {
     ["成功打断瑞尔·比伯！"] = "Райл Бибер успешно прерван!",
     ["My honorific name is—The Holy Spirit who sees all, the Blessed of the King of Yellow and Black, the traveler of dreams and hearts."] = "Моё почётное имя — Святой Дух, видящий всё, Благословенная Короля Жёлтого и Чёрного, странница снов и сердец.",
     ["不，污染还没有彻底消失——画的深处还藏着什么东西！"] = "Нет, порча ещё не исчезла полностью — в глубине картины скрывается что-то ещё!",
+    ["Hungry"] = "Хангри",
     ["使用后获得<Highlight>动态头像・圣光的真知</>"] = "Use to obtain <Highlight>Animated Avatar: True Knowledge of Holy Light</>",
     ["使用后获得<Highlight>头像·克莱恩</>"] = "Use to obtain <Highlight>Avatar: Klein</>",
     ["变异阿蒙"] = "Mutated Amon",

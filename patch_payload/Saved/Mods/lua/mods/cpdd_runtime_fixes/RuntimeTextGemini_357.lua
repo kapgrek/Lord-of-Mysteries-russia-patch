@@ -267,6 +267,8 @@ return {
     ["Once the Gear Launcher is generated, <Disable> switch fire to clear it </> immediately."] = "Как только появится Пусковая установка шестерён, немедленно <Disable>переключите огонь, чтобы уничтожить её</>.",
     ["Yeah, why... why did I do it?"] = "Да, почему... почему я это сделал?",
     ["What's there to be afraid of? I wouldn't play any pranks, at least not now."] = "Чего бояться? Я не стану устраивать никаких шалостей, по крайней мере, сейчас.",
+    ["\"The Swan Falls\"?"] = "«Падение лебедя»?",
+    ["Don't feel too much pressure; you are still a newcomer to the Extraordinary World. Before you grow up, we won't let you face those terrifying existences."] = "Не переживай так сильно, ты ещё новичок в Потустороннем мире. Пока ты не окрепнешь, мы не позволим тебе столкнуться с теми ужасными существами.",
     ["剩余时间:%s"] = "Remaining time: %s",
     ["失去真神位格 前往星空"] = "Lost the status of a True God and headed to the cosmos",
     ["对啊。你想加入吗？"] = "Yeah. Do you want to join?",

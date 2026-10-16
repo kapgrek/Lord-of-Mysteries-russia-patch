@@ -298,6 +298,8 @@ return {
     ["3非凡词条及以下不进行确认"] = "Без подтверждения при 3 аффиксах Потустороннего и менее",
     ["撤下个人祈誓信息成功。"] = "Личная информация клятвы успешно снята.",
     ["Slogans are so cool, why does Mr. Tamang always refuse to let me chant them?"] = "Лозунги — это так круто, почему господин Таманг всегда запрещает мне их выкрикивать?",
+    ["<Assistant_Title1>【Endless Master】</>\n<Assistant_Title2>Title Description:</> Exclusive cumulative recharge title.\n<Assistant_Title2>Acquisition Method:</> Obtained through cumulative recharge.\n<Assistant_Title2>Title Effect:</> Unique appearance display, can be equipped on your personal profile."] = "<Assistant_Title1>【Бесконечный владыка】</>\n<Assistant_Title2>Описание титула:</> Эксклюзивный титул за накопленное пополнение.\n<Assistant_Title2>Способ получения:</> Накопленное пополнение.\n<Assistant_Title2>Эффект титула:</> Уникальное отображение внешности, можно надеть в личном профиле.",
+    ["<Highlight>Holder</>: Danitz.\n<Highlight>Appearance</>: Black cloak.\n<Highlight>Beyonder Ability</>: Hiding within shadows."] = "<Highlight>Владелец</>: Данитц.\n<Highlight>Внешний вид</>: чёрный плащ.\n<Highlight>Потусторонняя способность</>: скрываться в тенях.",
     ["勇者之歌"] = "Song of the Brave",
     ["安宁归宿"] = "Peaceful Resting Place",
     ["小镇主理人"] = "Small Town Manager",

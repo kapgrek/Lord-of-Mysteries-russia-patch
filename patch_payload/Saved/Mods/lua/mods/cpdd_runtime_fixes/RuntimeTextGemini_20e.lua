@@ -241,6 +241,7 @@ return {
     ["My dear, don't you want to restore the family's glory? The reputation and wealth lost in the war can only be regained in Backlund's upper society."] = "Дорогой, ты больше не хочешь вернуть славу нашей семье? Репутацию и богатство, потерянные во время войны, можно вернуть только в высшем свете Бэкланда.",
     ["Obtain 1 Beyonder material with the {正义导师} entry"] = "Получите 1 потустороннюю материю с меткой {Наставник справедливости}",
     ["主线组件-加速圈（灵性之跃）"] = "Компонент основного сюжета — Кольцо ускорения (Прыжок Духовности)",
+    ["Orchestra Member 18"] = "Участник оркестра 18",
     ["受到伤害后，对<HighLight>1</>格内的敌人造成<HighLight>60</>点伤害，冷却时间为<HighLight>2</>秒。"] = "After taking damage, deal <HighLight>60</> damage to enemies within <HighLight>1</> tile. Cooldown: <HighLight>2</> seconds.",
     ["在竞技玩法中<Highlight>击败</>1名格斗学者"] = "<Highlight>Defeat</> 1 Melee Scholar in Competition mode",
     ["增加防护值"] = "Increase Protection",

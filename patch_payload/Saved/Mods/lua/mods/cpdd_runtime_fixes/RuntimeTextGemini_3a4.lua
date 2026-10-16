@@ -267,6 +267,7 @@ return {
     ["Rozanne has become talkative again recently; she has been training the new clerk very well."] = "Розанна снова стала разговорчивой в последнее время; она очень хорошо обучает нового продавца.",
     ["[Marionette Skill] Knight Guard LV6 - Final Grace Effect Increase"] = "[Умение марионетки] Страж-рыцарь LV6 - усиление финального эффекта Благодати",
     ["一键将角色提升到小R玩家的属性，并解锁系统，提升序列，添加药品。"] = "Одним нажатием повысить характеристики персонажа до уровня малоплатящего игрока, разблокировать системы, повысить Последовательность, добавить препараты.",
+    ["Price Trend"] = "Динамика цен",
     ["对守卫/建筑造成伤害最高的非凡者"] = "The Beyonder who deals the most damage to guards/buildings",
     ["库恩特尔"] = "Kuentel",
     ["开启可随机获得一件<Highlight>66装等</>或<Highlight>68装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率额外获得一件符合秘宝装等的烙印装备，开启20次该秘宝后必定获得。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。"] = "Open to randomly obtain one piece of <Highlight>Competition-leaning</> orange or gold quality Equipment with <Highlight>item level 66</> or <Highlight>item level 68</>, Beyonder material, aggregation factor, or bound soli. There is a certain probability to additionally obtain one piece of Brand Equipment matching the treasure's item level; it is guaranteed after opening this treasure 20 times. There is a certain probability to obtain 1 gray fog crystal gravel (used to upgrade Competition brooches of item level 64 or higher to Mythical quality). You can obtain at most 3 per week, and unobtained amounts can be accumulated to the following week.",

@@ -278,6 +278,7 @@ return {
     ["<Highlight>尽快击破所有分身，</>中止小丑的研究。"] = "<Highlight>Как можно скорее уничтожьте все проекции,</> чтобы остановить исследования Клоуна.",
     ["Both 'Mystery Pryer' and 'Seer' can better master knowledge in the field of mysticism; there might be clues to my home inside."] = "«Жрец Тайн» и «Провидец» — оба могут лучше освоить знания в области мистицизма; возможно, там есть подсказки о том, как мне вернуться домой.",
     ["May Manor Garden mechanics"] = "Механика сада поместья Мэй",
+    ["……I've wanted to quit for a long time. I suspect that when I was making this amulet, my desire to quit was so strong that it caused you to be suspended."] = "...Я давно хотел уволиться. Подозреваю, что, когда я делал этот амулет, моё желание уйти было так сильно, что из-за него тебя отстранили от работы.",
     ["光影随行"] = "Light and Shadow Follow",
     ["克莱恩，我刚刚赢了2苏勒8便士。"] = "Klein, I just won 2 soli and 8 pence.",
     ["击杀失控怪物可收集异常灵性痕迹，帮助值夜者<Highlight>追踪卡尔·埃德加</>。"] = "Kill monsters that have suffered a loss of control to collect abnormal spirituality traces and help the Nighthawks <Highlight>track Karl Edgar</>.",

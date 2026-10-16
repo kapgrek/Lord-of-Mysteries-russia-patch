@@ -263,6 +263,8 @@ return {
     ["I guess Martin is outside. If you see him, help me pass on a message: If you want advancement, you must face your fear."] = "Думаю, Мартин снаружи. Если увидите его, передайте от меня сообщение: чтобы продвинуться, нужно встретить свой страх лицом к лицу.",
     ["好了，即使有人来这里，也不会被污染影响了。"] = "Хорошо, теперь даже если кто-то придёт сюда, он не пострадает от скверны.",
     ["{{PlayerName}}, you should have noticed that the corruption caused by the Crown of Knowledge is more serious than we expected."] = "{{PlayerName}}, ты наверняка заметил, что осквернение, вызванное Короной Знания, оказалось серьёзнее, чем мы предполагали.",
+    ["<P_Heart>(An invisible force? Could there be more to this than meets the eye?)</>"] = "<P_Heart>(Невидимая сила? Неужели за этим кроется что-то ещё.)</>",
+    ["...I remembered another memory; I met Dylan on the ship, and the postman was there too."] = "...Вспомнился ещё один эпизод: на корабле я познакомился с Диланом, и почтальон тоже был там.",
     ["使用后获得<Highlight>圣咏录披风</>"] = "Use to obtain <Highlight>Canticle Collection Cape</>",
     ["使用后获得称号:<Highlight>铁旗团长</>"] = "Use to obtain the title: <Highlight>Iron Flag Commander</>",
     ["列队6人"] = "Queue 6 people",

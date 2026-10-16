@@ -263,6 +263,8 @@ return {
     ["Requires %s Strategic Gold Pound. Both Strategic Gold Pound and Gold Pound are insufficient. Proceed to top up?"] = "Требуется %s стратегических золотых фунтов. Стратегических золотых фунтов и золотых фунтов недостаточно. Перейти к пополнению?",
     ["Don't be angry... I heard that flipping a coin increases good luck, and people with overflowing luck can get extraordinary rewards in the Fountain of Purification!"] = "Не сердись... я слышал, что подбрасывание монеты увеличивает удачу, и тем, у кого её в избытке, Фонтан Очищения может дать необычайную награду!",
     ["不好……罗珊在镜中廷根待的时间也到了临界点，她的意识开始混乱了。"] = "Плохо... время, проведённое Розанной в Зеркальном Тингене, также достигло критической точки, её сознание начинает путаться.",
+    ["Personal Profit Ranking"] = "Рейтинг личной прибыли",
+    ["Harpy... that sounds very ominous."] = "Птица-демон с человеческой головой... звучит очень зловеще.",
     ["即将进入英雄阶段"] = "About to enter the Hero phase",
     ["友军守护"] = "Allied Protection",
     ["它一直让您放弃回去？"] = "It keeps making you give up on going back?",

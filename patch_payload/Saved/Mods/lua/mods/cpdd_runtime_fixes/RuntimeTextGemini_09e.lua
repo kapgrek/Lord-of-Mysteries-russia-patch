@@ -316,8 +316,9 @@ return {
     ["Hmph, in my next life, may the Goddess bless me to be a merchant! I don't want to suffer like this again."] = "Хмф, в следующей жизни пусть Богиня благословит меня стать торговцем! Не хочу больше так мучиться.",
     ["Ms. “Magician”'s commission is complete, I should leave here too."] = "Поручение госпожи «Фокусник» выполнено, пора и мне уходить отсюда.",
     ["自走棋 克莱恩-纸人监听"] = "Автошахматы: Клейн — Бумажная фигурка слушает",
-    ["一念即命运？"] = "Is a single thought fate?",
-    ["从旁边的隔间走！那里有通往二楼的传送仪式！"] = "Go through the compartment next to us! There is a Teleport ritual there that leads to the second floor!",
+    ["一念即命运？"] = "Одна мысль — и есть судьба?",
+    ["Confront Elena"] = "Противостоять Элеане",
+    ["从旁边的隔间走！那里有通往二楼的传送仪式！"] = "Идите через соседнюю комнату! Там ритуал телепортации на второй этаж!",
     ["使用后获得<Highlight>头像框・蒸汽之子</>"] = "Use to obtain <Highlight>Avatar Frame: Child of Steam</>",
     ["千金一掷排名前100名"] = "Top 100 in Spend Like Water",
     ["恭喜本赛区以下俱乐部荣耀晋级天启组，获得战略服参与资格！"] = "Congratulations to the following clubs in this division for gloriously advancing to the Apocalypse Group and earning qualification for the strategic server!",
@@ -328,5 +329,5 @@ return {
     ["邦尼：这是我唯一能对死去之人，许下的承诺。"] = "Bonnie: This is the only promise I can make to the dead.",
     ["Club Activity +1500"] = "Клубная активность +1500",
     ["此为战场的叹息遗音，亦是命运的必然回响。"] = "Это вздыхающее эхо поля битвы, а также неизбежный резонанс судьбы.",
-    ["竞争升级了！新路线，新站点，新市场。女士先生们，准备好在这场无声的战争里建立据点了吗？\n    尽情期待吧，在这场竞争的顶端，会不会有你们的位置？这周结束时，排行榜前列的俱乐部将能获得站点！"] = "The competition has escalated! New routes, new stations, new markets. Ladies and gentlemen, are you ready to establish a foothold in this silent war?\nLook forward to it; at the top of this competition, will there be a place for you? By the end of this week, the clubs at the top of the leaderboard will be able to obtain stations!",
+    ["竞争升级了！新路线，新站点，新市场。女士先生们，准备好在这场无声的战争里建立据点了吗？\n    尽情期待吧，在这场竞争的顶端，会不会有你们的位置？这周结束时，排行榜前列的俱乐部将能获得站点！"] = "Конкуренция обостряется! Новые маршруты, новые станции, новые рынки. Дамы и господа, готовы ли вы обосноваться в этой безмолвной войне?\nЖдите с нетерпением: найдётся ли среди лидеров этой борьбы место для вас? К концу этой недели клубы из верха таблицы лидеров смогут получить станции!",
 }

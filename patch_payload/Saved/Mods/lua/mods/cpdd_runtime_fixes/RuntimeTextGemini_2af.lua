@@ -275,6 +275,8 @@ return {
     ["Your sister?"] = "Твоя сестра?",
     ["不知道你是否听说过，二十一年前轰动了整个廷根市的连环杀手。"] = "Не знаю, слышал(а) ли ты о серийном убийце, который двадцать один год назад потряс весь город Тинген.",
     ["也是一群 时刻对抗着危险和疯狂的"] = "а также группа тех, кто постоянно противостоит опасности и безумию",
+    ["10 soli for one?! You're not joking, are you? The rats in this town—"] = "10 солей за одну?! Вы же не шутите? Крысы в этом городке...",
+    ["May Manor Order World completion reached 30%%"] = "Прогресс мира порядка Майского поместья достиг 30%%",
     ["使用后获得<Highlight>踏浪而来发型</>"] = "Use to obtain <Highlight>Wave-Treading Hairstyle</>",
     ["使用后获得<Highlight>野玫瑰发型</>\n也可兑换为<Highlight>1</>张神眷牌"] = "Obtain <Highlight>Wild Rose Hairstyle</> after use\nCan also be exchanged for <Highlight>1</> God's Favor Card",
     ["刚出炉的烤土豆，秘制酱汁，味美价廉！"] = "Freshly baked potatoes with secret sauce, delicious and affordable!",

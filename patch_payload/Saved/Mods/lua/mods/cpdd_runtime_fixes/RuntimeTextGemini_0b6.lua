@@ -248,7 +248,7 @@ return {
     ["He always works so hard that it worries me... If you meet Porter, remember to tell him to come to the lounge to relax when he has time, and don't put too much pressure on himself."] = "Он всегда так усердно трудится, что меня это тревожит... Если встретишь Портера, передай ему, чтобы заходил в комнату отдыха, когда будет свободное время, и не взваливал на себя слишком много.",
     ["The Sequence name \"Spectator\" might lead people to mistakenly think this is a Pathway only good at observation and support. But in reality, it is also a form of disguise, a disguise that makes people underestimate the user."] = "Название Последовательности «Зритель» заставляет думать, что это Путь, годный лишь для наблюдения и поддержки. Но на самом деле это тоже маскировка — маскировка, заставляющая недооценивать её обладателя.",
     ["I don't know if it's just my imagination, but ever since you arrived, the frequency of Beyonder incidents in the area seems to be skyrocketing."] = "Не знаю, кажется мне это или нет, но с тех пор, как ты появился(-лась), частота Потусторонних происшествий вокруг, похоже, резко возросла.",
-    ["上次见黛拉还是半年前，她更美了。"] = "The last time I saw Della was half a year ago; she has become even more beautiful.",
+    ["上次见黛拉还是半年前，她更美了。"] = "Последний раз я видел Деллу полгода назад, она стала ещё красивее.",
     ["使用后获得<Highlight>聊天气泡・幽烛低语</>"] = "Use to obtain the <Highlight>Chat Bubble: Whispers of the Ghost Candle</>",
     ["厚重皮椅"] = "Heavy leather chair",
     ["可获得3个<Highlight>精纯·非凡物质</>、12个<Highlight>蓝山晶石</>、60个<Highlight>聚合因子</>、6个<Highlight>金纺线</>"] = "Can obtain 3 <Highlight>Pure Beyonder material</>, 12 <Highlight>Blue Mountain Crystals</>, 60 <Highlight>Aggregation Factors</>, 6 <Highlight>Gold Thread</>",

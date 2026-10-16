@@ -264,6 +264,8 @@ return {
     ["你对女神的怀疑纯属无稽之谈，是大不敬！之前妹妹生病，我们向黑夜女神祈祷后，她很快就康复了！"] = "Твои сомнения насчёт богини — чистая нелепица, настоящее святотатство! Когда моя сестра болела, мы молились Богине Вечной Ночи, и она быстро выздоровела!",
     ["He always works so hard that it worries me... If you meet Potter, remember to tell him to come to the lounge to relax when he has time, and not to put too much pressure on himself."] = "Он всегда так усердно работает, что это меня тревожит... Если встретите Поттера, не забудьте сказать ему, чтобы он заходил в комнату отдыха, когда будет время, и не слишком давил на себя.",
     ["He once barely survived by eating monsters, but the accumulated toxins distorted his sanity and body."] = "Он когда-то с трудом выживал, питаясь монстрами, но накопленные токсины исказили его разум и тело.",
+    ["Is his spirituality being drained away?"] = "Из него вытягивают духовность?",
+    ["What exactly have you forgotten? I can't remember either."] = "Что же ты на самом деле забыл? Я тоже не могу вспомнить.",
     ["嘿，你成年了吗？"] = "Hey, are you of legal age?",
     ["对哦，我们又打不过{{他|她}}。"] = "That's right, we can't beat {{him|her}} anyway.",
     ["打开大门B"] = "Open Door B",

@@ -275,7 +275,8 @@ return {
     ["一位灾难的幸存者，一抹被污染的知识。越接近真相，就越接近扭曲和疯狂……"] = "Выживший после катастрофы, частица оскверненного знания. Чем ближе к истине, тем ближе к искажению и безумию…",
     ["<Highlight>工艺：</>丰饶之木・银枝蔓生\n林木卷曲着生出鹿角的姿态，凝集着生长的力量，在夜色中泛起幽静的光。"] = "<Highlight>Материал:</> Дерево изобилия · Разрастание серебряных ветвей\nЛесные деревья изгибаются, обретая форму оленьих рогов, накапливая силу роста, и в ночи излучают тихий свет.",
     ["集齐15个可以获得秘偶重斧骑士，也可用于秘偶重斧骑士的培养。"] = "Соберите 15, чтобы получить марионетку «Рыцарь с тяжёлым топором»; также используется для её развития.",
-    ["你哪来的票？你刚才不是已经……"] = "Where did you get the ticket? Didn't you just...",
+    ["A very sturdy long table made of black walnut; it has witnessed many people creating works upon it."] = "Очень прочный длинный стол из чёрного ореха. Он видел, как за ним творили многие.",
+    ["你哪来的票？你刚才不是已经……"] = "Откуда у тебя билет? Ты же только что...",
     ["使用后获得环身特效:<Highlight>踏浪而来・头部</>"] = "Use to obtain aura effect: <Highlight>Coming with the Waves・Head</>",
     ["怎么，警察得罪你了？"] = "What, did the police offend you?",
     ["系统复活无敌Buff-宣战专用"] = "System Resurrection Invincibility Buff - War Declaration Exclusive",
@@ -289,5 +290,5 @@ return {
     ["Emeline"] = "Эмелин",
     ["让我帮你一起找吧。"] = "Позвольте мне помочь вам найти его вместе.",
     ["可您拥有月光般的皮肤、宝石似的红瞳……"] = "Но у тебя кожа, как лунный свет, красные глаза, как драгоценные камни...",
-    ["“我没想到，我还能活下来。我像是……又要死了？”\n        “我一度以为那只是噩梦或幻觉，就像最初接触非凡奥秘时那样，醒来就能恢复理智。但直到一群强大的非凡者拯救了廷根，和我……”\n        “他们说，灾难暂时平息，很多幸存者被污染、被知识灌输——我是其中之一，最幸运最不幸，最特殊也最麻烦的一个。我被灌输的，霉菌般生长的知识中，包含这场灾难背后最危险的秘密……”"] = "\"I didn't expect that I could still be alive. Am I... dying again?\"\n        \"I once thought it was just a nightmare or hallucination, just like when I first came into contact with Beyonder mysteries, and I would regain my sanity upon waking up. But it wasn't until a group of powerful Beyonders saved Tingen, and me...\"\n        \"They said the disaster had temporarily subsided, and many survivors were corrupted and infused with knowledge—I am one of them, the luckiest and unluckiest, the most special and most troublesome one. The knowledge that grew like mold inside me contains the most dangerous secret behind this disaster...\"",
+    ["“我没想到，我还能活下来。我像是……又要死了？”\n        “我一度以为那只是噩梦或幻觉，就像最初接触非凡奥秘时那样，醒来就能恢复理智。但直到一群强大的非凡者拯救了廷根，和我……”\n        “他们说，灾难暂时平息，很多幸存者被污染、被知识灌输——我是其中之一，最幸运最不幸，最特殊也最麻烦的一个。我被灌输的，霉菌般生长的知识中，包含这场灾难背后最危险的秘密……”"] = "«Не думал, что смогу остаться в живых. Кажется... я опять умираю?»\n«Какое-то время я считал, что это лишь кошмар или галлюцинация, как при первом знакомстве с тайнами Потусторонних: проснёшься и рассудок вернётся. Но потом группа могущественных Потусторонних спасла Тинген и меня...»\n«Они сказали, что бедствие на время утихло, а многие выжившие заражены скверной и им внушили знания. Я один из них: самый счастливый и несчастный, самый особенный и самый проблемный. Среди внушённых мне знаний, разросшихся как плесень, есть самая опасная тайна, стоящая за этим бедствием...»",
 }

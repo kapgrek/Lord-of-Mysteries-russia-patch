@@ -273,6 +273,8 @@ return {
     ["实在抱歉，下次您光临就可以点餐了。"] = "Мне очень жаль, в следующий раз, когда вы придёте, вы сможете сделать заказ.",
     ["Who are you...?"] = "Ты.....?",
     ["Can you introduce some to me?"] = "Можешь представить меня кому-нибудь?",
+    ["Has everything faded away?"] = "Всё поблекло?",
+    ["Seven-hit Combo, restores own Health."] = "После семи ударов подряд восстанавливает здоровье.",
     ["再战奖励"] = "Rematch Reward",
     ["别听她的，我叫詹姆斯，你好。"] = "Don't listen to her. My name is James. Hello.",
     ["安提哥努斯笔记模式首通强者已加入队伍。一切失控与诅咒，将在此终结。"] = "Antigonus Notebook Mode First Clear Champion has joined the team. All loss of control and Curse will Finish here.",
@@ -284,4 +286,5 @@ return {
     ["终末猎杀-草丛24合并隐匿02（含2块原范围）"] = "Final Hunt - Bush 24 Merged Concealment 02 (Includes 2 original areas)",
     ["前往斯林面包房，找到斯林太太，询问她是否想到新的线索。"] = "Отправляйтесь в пекарню Слин, найдите миссис Слин и спросите, не вспомнила ли она новых зацепок.",
     ["Marjorie"] = "Марджори",
+    ["\"At that moment, I seemed to understand. The Knowledge Crown and the Magic Mirror of Despair... are actually the same kind of tragedy. Roselle missed his hometown and daughter, Helga longed to protect her close friend in despair... they both failed, they were twisted by the corruption of the evil god, becoming tools for destruction and sacrifice. My mind... is simultaneously carrying two pieces of knowledge about corruption, the torrent of information and the haze of despair—they are merging, mutating...\"\n        \"Knowledge is a curse, despair is the destination, and I... am both infused with knowledge and shrouded in despair...\""] = "«На мгновение мне показалось, что я понял. Корона Знаний и Зеркало Отчаяния... на самом деле одна и та же трагедия. Расселл тосковал по родине и дочери, Хельга в отчаянии хотела защитить близкую подругу... Оба потерпели неудачу, были искажены скверной злого бога и стали орудиями разрушения и жертвоприношения. В моей голове... одновременно два знания о скверне, поток информации и мгла отчаяния. Они сливаются, мутируют...»\n«Знание — это проклятие, отчаяние — пристанище, а я... и пропитан знаниями, и окутан отчаянием...»",
 }

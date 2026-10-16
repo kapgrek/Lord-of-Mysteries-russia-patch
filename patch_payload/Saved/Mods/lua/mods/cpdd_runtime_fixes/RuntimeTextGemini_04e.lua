@@ -274,6 +274,8 @@ return {
     ["I will try every fragrance material and repeatedly adjust the proportions until I prove she is wrong."] = "Я перепробую все ароматические компоненты, буду снова и снова подбирать пропорции, пока не докажу её ошибку.",
     ["Let's begin!"] = "Начнём!",
     ["After fresh milk is fermented, it forms a unique texture and leaves an alluring aroma, quite popular with cats and mice."] = "Сброженное свежее молоко обретает особую текстуру и манящий аромат, весьма популярное у кошек и мышей.",
+    ["<Highlight>Holder</>: Utravsky.\n<Highlight>Corresponding Characteristic</>: Apothecary Pathway.\n<Highlight>Appearance</>: A combination of a needle, a flexible tube, and a container.\n<Highlight>Ability</>: Extracts the user's blood and re-infuses it at critical moments. It can eliminate the user's fatigue, illness, and reduce injuries, providing a brief but significant boost to strength, speed, balance, and other physical qualities."] = "<Highlight>Владелец</>: Утравски.\n<Highlight>Соответствующая характеристика</>: Путь Аптекаря.\n<Highlight>Внешний вид</>: нечто вроде сочетания иглы, шланга и ёмкости.\n<Highlight>Способность</>: выкачивает кровь пользователя и в решающий момент вливает обратно; снимает усталость и болезни, облегчает раны, а сила, скорость, равновесие и другие качества ненадолго, но сильно возрастают.",
+    ["20% Health Shield."] = "Щит 20% здоровья",
     ["使用后获得结算动画:<Highlight>君临・圣辉</>"] = "Grants the following settlement animation upon use: <Highlight>Arrival・Holy Radiance</>",
     ["俱乐部等级未达到%s级，无法发起宣战！"] = "The Club has not reached level %s; cannot initiate a declaration of war!",
     ["可玛丽奶奶，您现在是要去哪呢？"] = "But Grandma Mary, where are you going now?",

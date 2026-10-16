@@ -274,7 +274,7 @@ return {
     ["I really love those exquisite and beautiful dolls in the display window."] = "Мне очень нравятся эти изящные красивые куклы в витрине.",
     ["I wonder if there are any Beyonder cases to handle recently. Let's head back to Blackthorn Security to check."] = "Не знаю, есть ли недавно Потусторонние дела для расследования, загляну-ка в «Чёрный Шип».",
     ["组队模式参加副本<Highlight>大帝重临（普通）</>，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Проходя подземелье <Highlight>«Император возвращается» (обычный)</> в режиме команды, вы можете участвовать в распределении и аукционе общей добычи. С некоторым шансом можно получить обмениваемое снаряжение.",
-    ["　　比星空更崇高，比永恒更久远的黑夜女神，祂是隐秘之母，厄难与恐惧的女皇，安眠和寂静的领主。"] = "The Evernight Goddess, who is more sublime than the starry sky and more eternal than eternity, is the Mother of Concealment, the Empress of Calamity and Horror, and the Lord of Slumber and Silence.",
+    ["　　比星空更崇高，比永恒更久远的黑夜女神，祂是隐秘之母，厄难与恐惧的女皇，安眠和寂静的领主。"] = "　　Более возвышенная, чем звёздное небо, и более древняя, чем вечность, Богиня Ночи — Мать Сокровенного, Императрица Бедствий и Страха, Владычица Покоя и Тишины.",
     ["廷根东北前往廷根车站"] = "Tingen Northeast to Tingen Station",
     ["恭喜，你刚才已经加入阿蒙家族了。"] = "Congratulations, you have just joined the Amon Family.",
     ["梦占"] = "Dream Divination",

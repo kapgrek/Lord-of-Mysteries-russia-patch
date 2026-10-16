@@ -283,6 +283,8 @@ return {
     ["Hero-Turtle-Charge mark tag-Player overhead mark"] = "Герой-Черепаха-Заряд, метка — метка над игроком",
     ["两个月前，一位自称银行基层业务员的年轻人向我推销证券，声称一个月后双倍奉还！"] = "Два месяца назад молодой человек, назвавшийся рядовым сотрудником банка, продал мне ценные бумаги, обещая, что через месяц я получу выплату вдвое больше!",
     ["5231172   王星贻个人测试位面   单人位面"] = "5231172   Личный тестовый план Ван Синъи   Одиночный план",
+    ["Amusement Sacrifice of the Dead"] = "Жертвоприношение потехи мертвых",
+    ["The number of daily trade commissions completed has reached the limit."] = "Достигнут дневной лимит выполненных торговых поручений",
     ["定位炸弹眩晕效果"] = "Targeting Bomb Stun effect",
     ["序列5……（思索）星空可是很危险的，贸然接触很可能被污染……"] = "Sequence 5... (Thinking) The starry sky is very dangerous; rash contact is likely to lead to corruption...",
     ["我们也分头去找，我正准备把这束花送给他。"] = "Let's split up to look for him as well; I was just about to give him this bouquet of flowers.",

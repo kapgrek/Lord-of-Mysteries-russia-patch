@@ -280,7 +280,9 @@ return {
     ["观察西尔维娅头顶的点数，预测击飞落点"] = "Следите за числом над головой Сильвии, чтобы предсказать место падения после подбрасывания.",
     ["该外观已永久解锁，无法使用限时外观道具，请分解或丢弃！"] = "Этот внешний вид уже разблокирован навсегда, использовать предмет временного внешнего вида невозможно, разберите его или выбросьте!",
     ["Obtained <Yellow>[Angel Feather]</>\n. This is an important material for the divine descent ritual."] = "Получено <Yellow>«Перо ангела»</>\nЭто важный материал для ритуала схождения бога",
-    ["伦纳德先生，“纯粹”的黑暗是不是与黑夜的权柄有关？"] = "Mr. Leonard, is \"pure\" Darkness related to the authority of the Night?",
+    ["\"Open Door\"【Open or Not】"] = "«Открыть дверь»【Открывать или нет】",
+    ["伦纳德先生，“纯粹”的黑暗是不是与黑夜的权柄有关？"] = "Господин Леонард, «чистая» Тьма связана с полномочием Ночи?",
+    ["You look pale. Are you sick?"] = "У тебя плохой цвет лица, ты заболел?",
     ["入局之人-战略服雪山-罗塞尔"] = "Person in the Game - Strategy Server Snowy Mountain - Roselle",
     ["命运的流向"] = "The Flow of Fate",
     ["大佬求带"] = "Big shot, please carry me",
@@ -289,4 +291,5 @@ return {
     ["音乐厅"] = "Music Hall",
     ["前往指定Trigger位置  对象同场景传送"] = "Перейти к указанному триггеру; телепортация объекта в той же локации",
     ["那当然，票我都让人买好了，双人连座。"] = "Конечно, я уже попросил кого-то купить билеты на два места вместе.",
+    ["\"Wandering on the edge of hallucinations, madness, and distortion, I finally regained some sanity... Thanks to the help of that gentleman in the Red Gloves.\"\n        \"He brought a young and lively girl, the second person I have seen here... She wants to know about the 'Magic Mirror of Despair'.\"\n        \"Magic Mirror of Despair, a Sealed Artifact without a number, which means it has never been held by the Church or the official authorities... It is the product of the Beyonder characteristic of a Sequence 4 Despair Witch of the Assassin Pathway combined with a unique mirror and alienated—but I prefer to use 'her' to refer to it, because—\""] = "«Блуждая на грани галлюцинаций, безумия и искажения, я наконец вернул себе немного рассудка... Спасибо за помощь тому господину в красных перчатках.»\n«Он привёл молодую живую девушку, второго человека, которого я здесь увидел... Она хотела узнать о «Зеркале Отчаяния».»\n«Зеркало Отчаяния — Запечатанный Артефакт без номера, а значит, Церковь или официальные власти никогда им не владели... Это порождение Потусторонней характеристики Демоницы Отчаяния, Последовательности 4 Пути Убийцы, которая соединилась с особым зеркалом и переродилась. Но я предпочитаю называть его «она», потому что...»",
 }

@@ -225,6 +225,7 @@ return {
     ["These bottles are from East Balam, using local distillation techniques to relieve fatigue and refresh the mind. The one next to it is a sedative potion prepared by a pharmacist near Tingen."] = "Эти бутылки — из Восточного Балама, изготовлены по местной технологии дистилляции, снимают усталость и бодрят. А вот рядом — успокоительное зелье, приготовленное аптекарем близ Тингена.",
     ["She always protected me so tightly that I ignored my foster mother's true colors..."] = "Она всегда крепко оберегала меня, из-за чего я не замечала истинного лица приёмной матери...",
     ["Confirm exiting the Strategic Server?"] = "Подтвердить выход со Стратегического сервера?",
+    ["<P_Heart>（Whispering）</> As a former \"Marauder,\" do you think I should... steal it over?"] = "<P_Heart>(Шёпотом)</>Раз уж я бывший «Мародёр», как думаешь, может, мне пойти и... украсть это?",
     ["使用后获得<Highlight>弗朗明戈上装</>"] = "Use to obtain <Highlight>Flamenco Top</>",
     ["努力思考"] = "Thinking hard",
     ["廷根西北"] = "Tingen Northwest",

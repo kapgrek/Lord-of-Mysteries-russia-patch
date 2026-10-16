@@ -267,7 +267,8 @@ return {
     ["Are you here to sit too? Their baked meal for two seems to be on special."] = "Вы тоже пришли посидеть? Кажется, их выпечка на двоих сейчас со скидкой.",
     ["Sigh... really worrying."] = "Эх... это действительно тревожно.",
     ["The most urgent thing right now is to find a place for us to stay tonight. Minister of Foreign Affairs, you are familiar with this area of the Tingen market. Do you have any good ideas?"] = "Сейчас самое срочное — найти нам место для ночлега. Министр иностранных дел, вы хорошо знаете этот район рынка Тинген. У вас есть хорошие идеи?",
-    ["临时笔记"] = "Temporary Note",
+    ["<Highlight>Craft:</> Vegetation Patterns\nFrom the beginning of life to the end of death, the earth witnesses everything, Records everything, and also erases everything."] = "<Highlight>Мастерство:</> Растительный узор\nОт начала жизни до конца смерти земля свидетельствует обо всём, записывает всё и стирает всё.",
+    ["临时笔记"] = "Временная заметка",
     ["噢，这张票是我太太露丝的，她在音乐厅工作。"] = "Oh, this ticket belongs to my wife, Ruth; she works at the music hall.",
     ["回灵链坠普攻回蓝"] = "Spirit-Returning Pendant Basic Attack mana recovery",
     ["因此，祂被称为欺诈之神、恶作剧之神、时天使……以及“渎神者”。"] = "Therefore, He is known as the God of Deceit, the God of Mischief, the Angel of Time... and \"The Blasphemer\".",
@@ -280,4 +281,5 @@ return {
     ["这首歌的歌词选自《夜之启示录》，我们重新编写了旋律。"] = "Текст этой песни взят из «Revelations of the Night», а мелодию мы переписали.",
     ["等待时间  玩家播放仅自己可见的说话文本  玩家播放指定镜头后效  玩家进入剧情控制  对象播动作（没有状态记录）  玩家播放2D音效（仅自己可听）"] = "Подождите время; игрок воспроизводит речевой текст, видимый только ему самому; игрок воспроизводит указанный пост-эффект камеры; игрок входит в управление сюжетом; объект выполняет действие (нет записи состояния); игрок воспроизводит 2D звуковой эффект (слышен только ему самому).",
     ["提交道具（设置提交ID）"] = "Отправить элемент (установить идентификатор отправки).",
+    ["Two cards? Just like me..."] = "Две карты? Как и у меня…",
 }

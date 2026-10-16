@@ -233,6 +233,7 @@ return {
     ["灵感为你指示出安全的跟踪范围，小心地前进吧。（当前视角受到玩法的特殊限制，无法缩放）"] = "Вдохновение указывает вам безопасный радиус слежения, продвигайтесь осторожно. (Текущий ракурс камеры ограничен особенностями режима и не может быть приближен)",
     ["Don't be rude!"] = "Не груби!",
     ["I really don't know what this empty shop has... ahem, welcome!"] = "Даже не знаю, что есть в этом пустом магазине... кхм, добро пожаловать!",
+    ["...How are you even more black-hearted than a rat?"] = "...Как ты можешь быть чернее даже крысы?",
     ["使用后获得<Highlight>圣咏录上装</>"] = "Use to obtain <Highlight>Canticle Collection Top</>",
     ["在一切尚未成形之前，世界是什么样子的？也许，就是这里。"] = "What did the world look like before everything took shape? Perhaps, it is here.",
     ["安西陪伴"] = "Anxi's Company",

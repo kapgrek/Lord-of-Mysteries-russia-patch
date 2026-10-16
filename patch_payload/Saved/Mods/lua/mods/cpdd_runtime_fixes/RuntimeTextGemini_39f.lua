@@ -259,7 +259,7 @@ return {
     ["{{player.name}} condensed a {{item.name}} carrying the <Chat_Highlight>{{relic_word.name}}</> affix during a Beyonder Convergence, receiving the favor of the King of Yellow and Black who wields good luck!"] = "{{player.name}} в ходе Потустороннего слияния сгенерировал(а) {{item.name}} с меткой <Chat_Highlight>{{relic_word.name}}</>, получив благословение Жёлто-чёрного короля, повелевающего удачей!",
     ["{{player.name}}在非凡聚合中，觅得珍贵{{item.name}}，属于他的非凡征途，自此向前延伸。"] = "{{player.name}} во время Потустороннего слияния обрёл драгоценный {{item.name}} — его потусторонний путь продолжается отсюда.",
     ["【Text Board】(Middle Road) Lyrics 1-1"] = "[Текстовая доска] (Средний путь) Песнопение 1-1",
-    ["万能钥匙"] = "Skeleton Key",
+    ["万能钥匙"] = "Отмычка",
     ["共鸣：4神弃｜4远击｜3蒸汽；主C：佛尔思3★、弓骑士3★｜稀有·迅捷命牌；主T：戴里克3★、尸骸3★｜稀有·凶煞星仪、稀有·生命晶坠；思路：优先凑齐4神弃保证成长性，后续补足远击共鸣提升输出强度，灵活补足3蒸汽获取强力装备。"] = "Resonance: 4 Forsaken Land | 4 Long-range | 3 Steam; Main Carry: Fors 3★, Bow Knight 3★ | Rare Swift Fate Card; Main Tank: Derrick 3★, Corpse 3★ | Rare Fierce Star Instrument, Rare Health Crystal Pendant; Strategy: Prioritize gathering 4 Forsaken Land to ensure growth, then supplement with Long-range Resonance to increase output intensity, and flexibly add 3 Steam to obtain powerful Equipment.",
     ["周四/周日8点刷新"] = "Refreshes at 8:00 on Thursday/Sunday",
     ["我会注意的。有了“霜之匣”，晋升仪式所需的材料就都准备好了。谢谢伦纳德先生！"] = "I'll keep that in mind. With the 'Casket of Frost,' all the materials needed for the advancement ritual are ready. Thank you, Mr. Leonard!",

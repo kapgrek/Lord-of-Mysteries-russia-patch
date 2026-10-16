@@ -279,6 +279,8 @@ return {
     ["土豆……你是说这些包裹里全是土豆？"] = "Картофель... вы хотите сказать, что во всех этих свёртках картофель?",
     ["Lily of the valley represents happiness and good luck. I hope you and those around you are blessed with good fortune."] = "Ландыши символизируют счастье и удачу. Пусть вы и те, кто рядом с вами, будете под покровительством судьбы.",
     ["Sigh, shall I go find your true love then?"] = "Эх, тогда мне пойти найти твою истинную любовь?",
+    ["[Placeholder] Combat"] = "[Заглушка] Бой",
+    ["<Highlight>Sefirah Castle</>, the Sefirah corresponding to one of the three Pillar, encompasses the three pathways of The Fool, Error, and Door. More information is beyond your current level."] = "<Highlight>Замок Источника</> — Источник одного из трёх столпов, объединяющий три Пути: Шута, Ошибки и Двери. Остальные сведения вам на нынешнем уровне недоступны.",
     ["喫"] = "Eat",
     ["天鹅跌落任务接取后"] = "After accepting The Fallen Swan quest",
     ["当然是真的。队长问我失踪案的跟进报告写完没有，我说快了，其实连标题都没写。"] = "Of course it's true. The captain asked me if I had finished the follow-up report on the missing persons case, and I said almost, even though I hadn't even written the title yet.",

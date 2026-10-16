@@ -282,6 +282,8 @@ return {
     ["<P_Heart>（压低声音）</>而且你看，廷根的物价比贝克兰德便宜多了，还是在这里买划算。"] = "<P_Heart>(понизив голос)</>И посмотри, цены в Тингене намного ниже, чем в Бэкланде, так что выгоднее покупать здесь.",
     ["<h>Move your character</> to draw a wall of spirituality"] = "<h>Управляйте движением персонажа</>, чтобы нарисовать Духовную стену",
     ["记忆回溯-黑沉荒野4"] = "Обратный отсчёт памяти — Чёрная пустошь 4",
+    ["July 13, 1354, 11:53 PM"] = "13 июля 1354 г., 23:53",
+    ["What do you want to say?"] = "Что ты хочешь сказать?",
     ["使用后获得<Highlight>头像・窥秘人</>"] = "Use to obtain <Highlight>Avatar: Mystery Pryer</>",
     ["棋子固有回蓝·厄水巨龟·2星"] = "Chess Piece Innate Mana Regen: Misfortune Water Giant Turtle 2-Star",
     ["额外获得<HighLight>80</>点防御，前<HighLight>10</>秒再提高<HighLight>30%</>。"] = "Gain an additional <HighLight>80</> Defense, increased by another <HighLight>30%</> for the first <HighLight>10</> seconds.",

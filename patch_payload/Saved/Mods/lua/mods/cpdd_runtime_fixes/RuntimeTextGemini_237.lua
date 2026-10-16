@@ -277,7 +277,7 @@ return {
     ["飞艇"] = "Дирижабль",
     ["身处我方命定区域内，获得伤害提升与受到伤害减免"] = "Находясь в нашей предначертанной зоне, получаете повышение урона и снижение получаемого урона",
     ["攻击提高25%，持续6秒"] = "Атака увеличивается на 25%, длится 6 сек.",
-    ["使用后在自身周围生成半径3米、持续跟随自身移动的照明区域。隐藏怪物受到光域持续照射2秒后，将被显形并变为可选中状态，同时陷入6秒眩晕。显形后的怪物不会再次进入隐藏状态；若持续照射在2秒完成前中断，则需要重新累计照射时间。"] = "After use, it generates an illumination area with a radius of 3 meters around you that continuously follows your movement. When hidden monsters are continuously illuminated by the light field for 2 seconds, they will be revealed and become targetable, while also falling into a 6-second Stun. Once revealed, monsters will not enter a hidden state again; if the continuous illumination is interrupted before the 2 seconds are completed, the illumination time must be re-accumulated.",
+    ["使用后在自身周围生成半径3米、持续跟随自身移动的照明区域。隐藏怪物受到光域持续照射2秒后，将被显形并变为可选中状态，同时陷入6秒眩晕。显形后的怪物不会再次进入隐藏状态；若持续照射在2秒完成前中断，则需要重新累计照射时间。"] = "После использования вокруг вас создаётся область света радиусом 3 м, которая постоянно следует за вами. Скрытые монстры, на которые свет действует непрерывно 2 сек., проявляются и становятся доступны для выбора, а также оглушаются на 6 сек. Проявленные монстры больше не скрываются; если непрерывное освещение прервётся до истечения 2 сек., время освещения нужно накапливать заново.",
     ["右边……是迪伦的意识！"] = "On the right... is Dylan's consciousness!",
     ["呼……看了这么多，有些头绪了。整理一下吧。"] = "Phew... having seen so much, I have some leads now. Let me organize them.",
     ["在竞技玩法中<Highlight>助攻击败</>1名心理医生"] = "<Highlight>Assist in defeating</> 1 Psychiatrist in Competition mode",

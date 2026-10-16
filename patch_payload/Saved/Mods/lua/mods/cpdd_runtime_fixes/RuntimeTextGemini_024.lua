@@ -260,6 +260,7 @@ return {
     ["<Assistant_Title1>【Summon Resistance】</>\nWhen attacked by a Summon, this offsets their Suppression. (Can reduce the attacker's Suppression to a minimum of 0.)\n<Assistant_Title3>Recommended search: </>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Сопротивление призывам】</>\nПри получении урона от призванного существа компенсирует его Подавление. (Снижает Подавление атакующего минимум до 0)\n<Assistant_Title3>Рекомендуемый поиск: </>{SendAnswer:[Расчёт урона]|1499}",
     ["You have collected all the scattered chapters. This knowledge is pieced together in your mind, constructing a Roselle Gustav more real than any history book."] = "Вы собрали все разрозненные главы. Эти знания сложились в вашем сознании, создав образ Розелля Густава более реальный, чем в любой книге по истории.",
     ["使用后获得<Highlight>大帝的辉光披风</>\n若已拥有此外观，则可选择分解获得10万绑定苏勒"] = "После использования вы получите <Highlight>плащ «Сияние Императора»</>\nЕсли эта внешность уже есть, её можно разобрать и получить 100 тыс. привязанных сулей",
+    ["Trio explains"] = "Объяснение троицы",
     ["品尝冰淇淋"] = "Taste ice cream",
     ["它正在成型。但还差最后一步——神明的祝福。"] = "It is taking shape. But it is still missing the final step—the blessing of a God.",
     ["我受邀来贝克兰德，原计划昨晚到，休息一夜，今早去游乐场的水上剧场演出。"] = "I was invited to Backlund. I originally planned to arrive last night, rest for the night, and perform at the amusement park's water theater this morning.",

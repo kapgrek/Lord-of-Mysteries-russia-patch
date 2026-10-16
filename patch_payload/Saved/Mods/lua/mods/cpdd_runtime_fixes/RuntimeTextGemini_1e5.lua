@@ -273,6 +273,7 @@ return {
     ["俱乐部申请列表界面举报按键"] = "Кнопка жалобы на экране списка заявок в клуб",
     ["你的旗帜屹立不倒，你的团队凝聚一心。"] = "Твой флаг стоит непреклонно, а твоя команда сплочена как единое целое.",
     ["也可以自行选择2个非凡物质作为聚合素材，消耗素材生成新的非凡物质，快来试试吧！"] = "Также можно самостоятельно выбрать 2 потусторонние материи в качестве материалов для слияния — потратив их, вы получите новую потустороннюю материю. Попробуйте прямо сейчас!",
+    ["For CD calculation"] = "Для расчёта перезарядки",
     ["去一旁<h>整理信息</>"] = "Step aside to <h>organize the information</>.",
     ["展台・比心"] = "Display Stand: Finger Heart",
     ["我准备了十年！这是我离主角最近的一次，我要让所有人记住，有个来自廷根，名叫迪伦的演员！"] = "I've been preparing for ten years! This is the closest I've ever been to being a protagonist. I want everyone to remember that there was an actor from Tingen named Dylan!",

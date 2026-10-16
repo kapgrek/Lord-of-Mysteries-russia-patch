@@ -276,7 +276,7 @@ return {
     ["在竞技玩法中<Highlight>助攻击败</>%s/%s名读心者"] = "В соревновательном режиме <Highlight>помогите победить</>%s/%s Чтецов Мыслей",
     ["接触三位证人，收集日记主人的线索"] = "Свяжитесь с тремя свидетелями и соберите зацепки о владельце дневника",
     ["Beautiful fresh flowers! Flowers picked just this morning!"] = "Прекрасные свежие цветы! Цветы, собранные только этим утром!",
-    ["<Highlight>源堡</>，三支柱之一对应源质，涵盖了愚者、错误、门三个途径。更多的信息是你现在的层次无法接触的。"] = "<Highlight>Sefirah Castle</>, the Sefirah corresponding to one of the three Pillar, encompasses the three pathways of The Fool, Error, and Door. More information is beyond your current level.",
+    ["<Highlight>源堡</>，三支柱之一对应源质，涵盖了愚者、错误、门三个途径。更多的信息是你现在的层次无法接触的。"] = "<Highlight>Замок Источника</> — Источник одного из трёх столпов, объединяющий три Пути: Шута, Ошибки и Двери. Остальные сведения вам на нынешнем уровне недоступны.",
     ["冰淇淋？！当然可以。丽贝卡你真好！"] = "Ice cream?! Of course. You're so kind, Rebecca!",
     ["向<h>邓恩</>报告"] = "Report to <h>Dunn</>",
     ["安抚<h>迪伦</>"] = "Pacify <h>Dylan</>",

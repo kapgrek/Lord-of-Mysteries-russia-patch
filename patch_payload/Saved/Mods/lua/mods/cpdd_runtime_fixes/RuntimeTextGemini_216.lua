@@ -271,6 +271,7 @@ return {
     ["Selling spices and dried goods from all over, you are welcome to browse."] = "Продаю специи и сушёные товары со всего света, заходите посмотреть.",
     ["This is the most high-end department store in all of Tingen; even when it's closed, many people are watching it!"] = "Это самый роскошный универмаг во всём Тингене; даже когда он закрыт, за ним следит множество людей!",
     ["Not in the cooldown period for pathway conversion"] = "Не в откате смены Пути",
+    ["<Assistant_Title1>【Morning Star Angel】</>\n<Assistant_Title2>Title Description:</> Exclusive cumulative recharge title.\n<Assistant_Title2>Acquisition Method:</> Obtained through cumulative recharge.\n<Assistant_Title2>Title Effect:</> Unique appearance display, can be equipped on your personal profile."] = "<Assistant_Title1>【Ангел Утренней звезды】</>\n<Assistant_Title2>Описание титула:</> Эксклюзивный титул за накопленное пополнение.\n<Assistant_Title2>Способ получения:</> Накопленное пополнение.\n<Assistant_Title2>Эффект титула:</> Уникальное отображение внешности, можно надеть в личном профиле.",
     ["使用后获得环身特效:<Highlight>铁与血之歌・手部</>"] = "Grants the following body effect upon use: <Highlight>Song of Iron and Blood・Hand</>",
     ["您打算用什么作为基酒呢？"] = "What do you intend to use as the base liquor?",
     ["我懂了，完全说得通。"] = "I understand now; it makes perfect sense.",

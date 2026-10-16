@@ -282,6 +282,8 @@ return {
     ["%s %s领取了你的%s * %s， 获得%s * %s 和 %s * %s"] = "%s %s забрал(а) ваш %s * %s, получив %s * %s и %s * %s",
     ["Although the case is closed, I have a vague feeling that something was missed, so I want to investigate further."] = "Хотя дело закрыто, у меня смутное чувство, что что-то было упущено, поэтому я хочу расследовать дальше.",
     ["No... she finally moved to the Gold Phoenix District and lived the life of her dreams. I'm happy for her, hahahaha!"] = "Нет... она наконец переехала в район Золотого Феникса и живёт жизнью своей мечты. Я рад за неё, ха-ха-ха!",
+    ["[%s] (About to leave)"] = "[%s] (скоро уйдёт)",
+    ["<Highlight>Craft:</> Night Brocade - Masquerade Costume\nUnder the deep night, whispers grow in the salon. Just now, whose snowy velvet hair brushed against the palm?"] = "<Highlight>Отделка:</> Ночная парча · Костюм для маскарада\nВ глубокой ночи в салоне растёт шёпот. Чьи же снежные пушистые волосы только что скользнули по ладони?",
     ["修改技能的强化阶段黑板值（单次）"] = "Modify the Strengthening stage blackboard value of the Skill (Single instance).",
     ["全体伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>5000%</> = {*d,F1690001,atkMin,50}点"] = "All-unit damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>5000%</> = {*d,F1690001,atkMin,50} points",
     ["可获得4个<Highlight>精纯·非凡物质</>、20个<Highlight>蓝山晶石</>、100个<Highlight>聚合因子</>、10个<Highlight>金纺线</>"] = "Can obtain 4 <Highlight>Pure Beyonder material</>, 20 <Highlight>Blue Mountain Crystals</>, 100 <Highlight>Aggregation Factors</>, 10 <Highlight>Gold Thread</>",

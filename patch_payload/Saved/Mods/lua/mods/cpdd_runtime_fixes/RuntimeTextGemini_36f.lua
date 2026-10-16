@@ -265,6 +265,8 @@ return {
     ["这里的食材可比东区阔气多了。间海的贻贝、海螺，苏尼亚海的鳕鱼、金枪鱼，只要当天到港，厨房都能做。"] = "Продукты здесь куда роскошнее, чем в Восточном районе. Мидии и раковины из Мидсишира, треска и тунец из моря Сония — если они прибывают в порт в тот же день, кухня может их приготовить.",
     ["To tell you the truth, I want to win everyone's surprise and applause at the next recital. It's very quiet here, isn't it?"] = "Сказать по правде, я хочу удивить всех и заслужить овации на следующем концерте. Здесь очень тихо, правда?",
     ["万一他们真是失控非凡者……还是去看看吧"] = "На случай, если они действительно Потусторонние в состоянии Потери Контроля... лучше сходить проверить.",
+    ["After <HighLight>losing a battle</>, gain <HighLight>2 Gold</> and <HighLight>1 free refresh</>."] = "После <HighLight>поражения в бою</> вы получаете <HighLight>2 золота</> и <HighLight>1 бесплатное обновление</>.",
+    ["Use the power of the giant spirit to stomp on enemies in front, dealing {*d,F1690001,atkMin,50} points of Attack damage and knocking them back. You gain <HighLight>70%</> Damage Reduction for <HighLight>6</> seconds."] = "Тяжело топчет врагов впереди силой великана, нанося {*d,F1690001,atkMin,50} ед. урона атаки и отбрасывая их. Вы получаете <HighLight>70%</> снижение урона на <HighLight>6</> сек.",
     ["使用后获得称号:<Highlight>神铸之主</>"] = "Grants the following title upon use: <Highlight>Master of God-Forging</>",
     ["天哪，{{先生|女士}}，您调出了我最喜欢的一款酒！"] = "Goodness, {{gentleman|lady}}, you have mixed my favorite drink!",
     ["已加入共演"] = "Joined co-performance",

@@ -259,6 +259,7 @@ return {
     ["Is there any internal material? Just give us a copy to take home and read!"] = "Есть какие-нибудь внутренние материалы? Дайте нам экземпляр, почитать домой!",
     ["It is the hair of his late fiancée. That brave girl passed away in the Feysac War, and my client has been searching for her for many years."] = "Это волосы его покойной невесты. Та храбрая девушка погибла на Фейсакской войне, и мой клиент много лет искал её.",
     ["……非凡物品提前崩溃，这种情况很少见。"] = "…Редко случается, чтобы Потусторонний предмет разрушился преждевременно.",
+    ["……Boss, buy an ice cream. I want……"] = "...Хозяин, дайте мороженое. Мне...",
     ["升至<HighLight>6级</>时，获得<HighLight>1个精良装备宝匣</>。升至<HighLight>8级</>时，获得<HighLight>1个封印装备宝匣</>。"] = "Upon reaching <HighLight>level 6</>, gain <HighLight>1 Fine Equipment Chest</>. Upon reaching <HighLight>level 8</>, gain <HighLight>1 Sealed Equipment Chest</>.",
     ["友谊至上"] = "Friendship Above All",
     ["坚守防线_7前排"] = "Hold the Line_7 Front Row",

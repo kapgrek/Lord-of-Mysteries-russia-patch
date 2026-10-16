@@ -255,6 +255,7 @@ return {
     ["引导电磁力场消除齿轮！"] = "Направьте электромагнитное поле, чтобы уничтожить шестерни!",
     ["Guide the electromagnetic field to eliminate the gears!"] = "Направьте электромагнитное поле, чтобы уничтожить шестерни!",
     ["重伤灼烧"] = "Жгучая рана",
+    ["<Highlight>Introduction</>: Originates from an ancient prince of the Southern Continent. It does not directly correspond to any specific pathway or sequence; it is closer to a product of the irregular aggregation of similar characteristics, like the \"King of the North\" Ulyssan.\n<Highlight>Holder</>: Ludwell.\n<Highlight>Appearance</>: Iron-black throughout, with the tip absorbing the surrounding light, turning into a dark, heavy point.\n<Highlight>Ability</>: Brings absolute destruction to whatever it pierces."] = "<Highlight>Описание</>: Происходит от древнего принца Южного континента. Не соответствует напрямую ни одному Пути или Последовательности; скорее это продукт беспорядочного слияния схожих характеристик, как у «Короля Севера» Юлиссиана.\n<Highlight>Владелец</>: Людвиль.\n<Highlight>Внешний вид</>: Целиком железно-чёрный; остриё поглощает окружающий свет и превращается в тёмную тяжёлую точку.\n<Highlight>Способность</>: Несёт абсолютное разрушение всему, что пронзит.",
     ["使用后获得<Highlight>动态头像·全境雍容</>"] = "Use to obtain <Highlight>Dynamic Avatar: All-Encompassing Elegance</>",
     ["光耀冲击"] = "Radiant Impact",
     ["塔罗·阿尔杰·威尔逊·基础"] = "Tarot·Alger·Wilson·Base",

@@ -229,6 +229,7 @@ return {
     ["This is the child's good intention. If you don't want to watch, you can go have fun on the slide."] = "Это от чистого сердца ребёнка. Если не хочешь смотреть, можешь сходить покататься на горке.",
     ["我这会儿有很多花呢，您可以随意看看，有什么想要了解的吗？"] = "У меня сейчас много цветов, можете посмотреть — что хотите узнать?",
     ["A cup of hot tea; someone was just here doing a divination."] = "Чашка горячего чая — кто-то только что гадал здесь.",
+    ["<P_Yellow>Clown</>: Play a game with me, and I'll break the seal."] = "<P_Yellow>Клоун</>: Сыграй со мной партию, и я сниму печать.",
     ["单价：%s"] = "Unit Price: %s",
     ["可补领错过的<Highlight>五月庄园花园·普通副本</>奖励，开启后可获得下列奖励"] = "Can claim missed <Highlight>May Manor Garden·Normal Dungeon</> rewards. Opening this will grant the following rewards:",
     ["是否确认互换 异化赛琳娜 和 星之虫·神秘 的培养度？"] = "Are you sure you want to swap the cultivation progress of Alienated Selina and Worm of Star·Mysterious?",

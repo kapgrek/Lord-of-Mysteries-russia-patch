@@ -264,6 +264,7 @@ return {
     ["传送之门已开启，是否确认传送至传送门位置？"] = "Портал открыт. Подтвердить телепортацию к месту портала?",
     ["[Placeholder-QTE] Klein quickly constructs a wall of spirituality, sealing off the entire room."] = "[Заглушка-QTE] Клейн быстро возводит Герметичный Духовный Барьер, запечатывая всю комнату.",
     ["逐光浪歌"] = "Песнь волн за светом",
+    ["Band Member 11"] = "Участник оркестра 11",
     ["是否以低价出售%s×%d？预计回收<img id=\"2001897\" width=\"40\" height=\"40\"/><BrickRedLight>%s联盟货钞</>"] = "Do you want to sell %s×%d at a low price? Estimated recovery <img id=\"2001897\" width=\"40\" height=\"40\"/><BrickRedLight>%s Alliance Currency</>",
     ["是这位先生是我的老顾客，之前我们交易过好几次，一直没出过岔子。"] = "Yes, this gentleman is a regular customer of mine. We've traded several times before, and there has never been any trouble.",
     ["狂热线路"] = "Fanatic Route",

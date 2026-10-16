@@ -237,6 +237,8 @@ return {
     ["能来一首吗？"] = "Можешь исполнить одну песню?",
     ["Hoey University is full of polite young people."] = "Университет Хоуи полон вежливой молодёжи.",
     ["一颗仍在跳动的火山，烫穿了持有者的理智。"] = "Всё ещё бьющийся вулкан, прожёгший разум своего обладателя насквозь.",
+    ["<DecH>Craftsmanship:</> Sea-Blue Gauze · Wave Weave\nStepping in from the tide under the moonlight, the sea and sky are dyed like the ebb and flow. The long skirt hem splashes with fragments of moonlight, the waves never ceasing."] = "<DecH>Работа:</>морская синяя вуаль · узор «Пена волн»\nОна пришла по приливу под лунным светом, море и небо окрашены, как волны прилива; подол длинной юбки разбрызгивает осколки лунного света, и пена не знает покоя.",
+    ["<Highlight>Negative Effects</>: It will randomly and irregularly cause the wearer to give up thinking and lose their sanity. Losing sanity is not losing rationality; it won't lead to sudden violent outbursts, but the person will appear very dull and stupid, acting on instinct."] = "<Highlight>Негативный эффект</>: случайно и непредсказуемо заставляет владельца перестать думать и терять рассудок. Потеря рассудка — не потеря разума, внезапной агрессии не будет, но человек выглядит тупым и заторможенным и действует по инстинкту.",
     ["入局之人-战略服猎龙-管家"] = "Person in the Game - Strategy Server Dragon Hunter - Butler",
     ["您也不是，哎那可怎么办才好？"] = "You aren't either, oh, what should we do then?",
     ["我会的，很抱歉今天让你错过了演出，下次来马戏团，我请你看演出！"] = "I will. I'm very sorry you missed the show today; next time you come to the circus, I'll treat you to a performance!",

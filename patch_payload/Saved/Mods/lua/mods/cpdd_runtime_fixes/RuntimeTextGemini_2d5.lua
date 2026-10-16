@@ -278,6 +278,7 @@ return {
     ["My Lord will not force people to convert, nor does He mind if one's faith is pure. Simply put, He doesn't mind if people believe in Him while believing in other gods."] = "Мой Лорд не станет принуждать людей к обращению, и Его не заботит чистота веры. Проще говоря, Он не против, если люди верят в Него, одновременно веря в других богов.",
     ["If recipe ID is not passed, it defaults to the next sequence's recipe and materials for the current sequence"] = "Если ID рецепта не передан, по умолчанию используются рецепт и материалы следующей Последовательности относительно текущей",
     ["<Rate>80%</>概率出现许愿秘偶,若未出现,则下次必定出现"] = "С вероятностью <Rate>80%</> появляется Загадывающая желание Марионетка; если не появится, в следующий раз появится гарантированно",
+    ["But I became a Beyonder to protect them, not... to become a monster."] = "Но Потусторонним я стал, чтобы защищать их, а не... чтобы превратиться в чудовище.",
     ["使用后获得<Highlight>入队动效・提灯而来</>"] = "Use to obtain <Highlight>Join Animation: Arriving with a Lantern</>",
     ["再也不用恐惧、害怕，成为永恒的，完美的……"] = "No longer need to feel Horror or fear, becoming eternal, perfect...",
     ["妈妈！我要看！"] = "Mom! I want to see!",

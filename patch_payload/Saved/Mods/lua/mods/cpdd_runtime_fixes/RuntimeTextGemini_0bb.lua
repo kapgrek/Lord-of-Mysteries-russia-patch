@@ -280,7 +280,7 @@ return {
     ["呵，遗憾什么。我只是贝克兰德一个仓促停留的过客，海上才是我唯一的故乡。"] = "Хех, о чём тут жалеть. Я всего лишь случайный путник, ненадолго заглянувший в Бэкланд, море — вот моя единственная родина.",
     ["Ms. “Magician”, to you, what kind of existence is Mr. “Fool”?"] = "Госпожа «Фокусник», кем для вас является господин «Шут»?",
     ["对<HighLight>3</>格内当前目标发射齿轮光束，造成<HighLight>365%</>攻击伤害。"] = "Выпускает шестерёнчатый луч в текущую цель в пределах <HighLight>3</> клеток, нанося <HighLight>365%</> урона от атаки.",
-    ["<Highlight>工艺：</>熔金浇筑・精工雕饰\n顶级私人拍卖会的入场证明。将黑与金的熔流饰于面颊，就是用财富与威势铸成了防线。"] = "<Highlight>Craftsmanship:</> Molten Gold Casting · Fine Engraving\nAdmission proof for a top-tier private auction. Adorning the cheeks with a fusion of black and gold is to forge a line of defense with wealth and power.",
+    ["<Highlight>工艺：</>熔金浇筑・精工雕饰\n顶级私人拍卖会的入场证明。将黑与金的熔流饰于面颊，就是用财富与威势铸成了防线。"] = "<Highlight>Мастерство:</> Литьё из расплавленного золота · Тонкая резьба\nПропуск на элитный закрытый аукцион. Украсить щёки потоками чёрного и золотого — значит возвести оборонительный рубеж из богатства и могущества.",
     ["俱乐部宣战后在本俱乐部清理过香蕉皮3次"] = "Clean up banana peels in your own club 3 times after a Club War",
     ["倒吊人浪击"] = "The Hanged Man's Wave Strike",
     ["委托所需"] = "Quest requirements",

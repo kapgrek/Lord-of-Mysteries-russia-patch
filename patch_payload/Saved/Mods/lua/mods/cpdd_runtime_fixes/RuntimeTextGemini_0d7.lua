@@ -260,6 +260,7 @@ return {
     ["The Evernight Goddess, who is more noble than the stars and more eternal than eternity"] = "Богиня Вечной Ночи, что благороднее звёзд и вечнее самой вечности",
     ["“非凡物质”数量过少，无法一键聚合"] = "«Потустороннее вещество»: количество слишком мало, невозможно объединить одним нажатием",
     ["之前塔罗学院工匠打造的神奇物品“灵巧之指”能够窃取对方大脑中的念头，可以试试。"] = "Прежде мастер Клуба Таро создал чудесный предмет «Ловкие пальцы», способный красть мысли из чужого разума. Можно попробовать.",
+    ["Use to obtain the <Highlight>Bard Avatar</>. If you already own the corresponding limited-time appearance, the time limit will be removed."] = "После использования вы получите <Highlight>аватар Барда</>. Если у вас есть соответствующий временный облик, ограничение по времени будет снято.",
     ["参与副本<Highlight>大帝重临（困难）</>，完成阶段<Highlight>污染意志</>后，有概率获得下列外观。"] = "Participate in the dungeon <Highlight>The Emperor's Return (Hard)</>, and after completing the <Highlight>Corrupted Will</> phase, you have a chance to obtain the following appearances.",
     ["四方联赛及拍卖期间暂时禁止进行成员变更"] = "Member changes are temporarily prohibited during the Four-Way League and auction period.",
     ["因为今天是圣赛琳娜教堂的神职人员休息日。"] = "Because today is the rest day for the clergy of Saint Selena Cathedral.",

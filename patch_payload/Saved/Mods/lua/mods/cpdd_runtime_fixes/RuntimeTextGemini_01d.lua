@@ -251,6 +251,8 @@ return {
     ["The number of players in the two camps is too uneven. Please adjust the camp sizes before starting the battle."] = "Разница в численности двух команд слишком велика. Скорректируйте состав команд, затем начните бой.",
     ["I plan to make a classic sign, da-da-da-da! \"The wind that misses you has blown to the Tarot Club\", how about that?"] = "Я планирую сделать классическую вывеску, та-да-да-да! «Ветер, что скучает по тебе, дует к Таро-клубу» — как вам?",
     ["[Roguelike] Space Slash III"] = "【Rogue】Пространственный рассекающий удар III",
+    ["<P_Yellow>The audience would rather play cards off-stage than watch my performance. Forget it.</>"] = "<P_Yellow>Зрители предпочитают играть в карты за сценой для вида, лишь бы не смотреть на моё выступление. Ладно, забудем.</>",
+    ["But remember, the real battle is not over yet."] = "Но помни, настоящий бой ещё не закончен.",
     ["使用后获得<Highlight>荒野脉络发饰</>"] = "Obtain <Highlight>Wilderness Vein Hair Accessory</> after use",
     ["死亡执政官双防击碎"] = "Death Consul Dual Defense Shatter",
     ["猎犬酒馆有一份高额酬劳的委托，要求在葬礼上，刺杀一个人。 "] = "The Hound Tavern has a high-paying commission: assassinate someone at a funeral.",

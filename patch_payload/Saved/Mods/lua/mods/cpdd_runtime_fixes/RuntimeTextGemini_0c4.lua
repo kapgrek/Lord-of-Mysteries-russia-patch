@@ -266,6 +266,8 @@ return {
     ["这……听起来需要住院治疗了。"] = "Это... звучит так, будто нужна госпитализация.",
     ["Player Deflect Tag"] = "Тег отражения игрока",
     ["“魔术师”女士，对您来说，“愚者”先生是个什么样的存在？"] = "Госпожа «Фокусник», кем для вас является господин «Шут»?",
+    ["{{PlayerName}}, we meet again. Did you come here by yourself?"] = "{{PlayerName}}, снова встретились. Ты пришёл сам?",
+    ["Cannot invite members in the team to spectate"] = "Нельзя приглашать участников команды наблюдать",
     ["定时跟随伤害"] = "Timed follow damage",
     ["来吧，跳吧！我的孩子们，我意志的延伸！"] = "Come, dance! My children, extensions of my will!",
     ["问问<h>小男孩</>"] = "Ask the <h>Little Boy</>",

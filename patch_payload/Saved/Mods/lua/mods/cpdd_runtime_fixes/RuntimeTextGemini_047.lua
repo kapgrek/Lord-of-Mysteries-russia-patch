@@ -259,7 +259,7 @@ return {
     ["Restore 1 Mana when 15.12 total damage is taken at 2 stars (threshold is 1% of initial Max Health 1512)."] = "2 звезда: при накоплении 15.12 полученного урона восстанавливает 1 ед. маны (порог — 1% начального максимального здоровья, 1512).",
     ["托妮小姐，请问你有什么推荐吗？"] = "Мисс Тони, у вас есть какие-нибудь рекомендации?",
     ["Complete the May Manor · Garden Brass Book challenge [Will Contamination · Hard]"] = "Завершите испытание «Латунная книга сада» усадьбы Мэй [Осквернение воли · Сложный]",
-    ["买入价变化情况"] = "Changes in buying price",
+    ["买入价变化情况"] = "Изменение цены покупки",
     ["使用后获得<Highlight>展台动作・转腕</>"] = "Use to obtain <Highlight>Display Action: Wrist Turn</>",
     ["大石头-交互按钮挂载"] = "Large Stone - Interaction Button Mount",
     ["测试用3"] = "Test Use 3",

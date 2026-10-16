@@ -293,7 +293,7 @@ return {
     ["Simulated Acting · Bard"] = "Имитация отыгрыша · Бард",
     ["His family is so rich, he can get whatever he wants, yet he still wants to go for divination? I can't imagine what he would ask..."] = "У него дома столько денег, что он может получить всё, что захочет, а он всё равно идёт гадать? Даже не представляю, о чём он будет спрашивать...",
     ["……我手上有两份序列9的魔药配方，“水手”和“观众”。"] = "...У меня на руках два рецепта Зелья Последовательности 9 — \"Моряк\" и \"Зритель\".",
-    ["乌贼祝福・好运"] = "Squid's Blessing - Good Luck",
+    ["乌贼祝福・好运"] = "Благословение Кальмара: удача",
     ["完成所有试炼"] = "Complete all trials",
     ["我曾在噩梦中掌控过一把绯红色的武器，它让我短暂拥有了不灭之力。"] = "I once controlled a crimson weapon in a Nightmare, and it granted me Undying Power for a brief moment.",
     ["滑轨障碍"] = "Slide Rail Obstacle",
@@ -307,4 +307,5 @@ return {
     ["Third-person camera information:"] = "Информация о камере от третьего лица:",
     ["听着，卢娜。我是罗塞尔·古斯塔夫，我征服过王国，改变过历史。"] = "Послушай, Луна. Я Розель Густав, я покоряла королевства и меняла историю.",
     ["完成通用条件表  切换HUD顶栏显示模式"] = "Заполните таблицу общих условий. Переключить режим отображения верхней панели HUD.",
+    ["Charles, counting the time, he should have passed away by now. Death is a gift; I hope he was able to spend a happy life as an ordinary person. This is a peace that none of the rest of us could ever obtain...\n        Bernadette... damn God of Steam and Machinery, don't let me catch you! And Zaratul and \"Door,\" once I am resurrected, I will definitely visit you one by one! My child should have lived freely and wantonly, not as a puppet of the gods! I wonder if, in her pure divinity, there is even a little bit of love for me, her father... just a little would be enough.\n        My beloved Bernadette, Zaratul's prophecy has come true; she ultimately hated, abandoned, and left me. I wonder what happened to her after I was assassinated..."] = "Шарль... если посчитать, он уже должен был умереть. Смерть — это дар; надеюсь, он прожил счастливую жизнь обычным человеком. Это покой, недоступный всем остальным из нас...\nБонуа... проклятый Бог Пара и Машин, только попадись мне! И Заратул, и «Дверь»! Когда я воскресну, я непременно навещу вас всех по очереди! Мой ребёнок должен жить свободно и вольно, а не быть марионеткой богов! Интересно, есть ли в его чистой божественности хоть капля любви ко мне, его отцу... Хватит и капли.\nМилая Бернадетт, пророчество Заратула сбылось: в конце концов она возненавидела меня, отвернулась и ушла. Интересно, что с ней стало после моего убийства...",
 }

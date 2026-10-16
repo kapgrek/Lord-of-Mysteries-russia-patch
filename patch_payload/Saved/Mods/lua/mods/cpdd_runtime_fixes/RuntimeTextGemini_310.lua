@@ -256,6 +256,8 @@ return {
     ["Megose Max HP Modification_1% Reduction Per Stack"] = "Мегоз: изменение макс. HP_снижение на 1% за стак",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 1 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 1 маны",
     ["The bank's security is guarded by me."] = "Охрану банка обеспечиваю я.",
+    ["<P_Heart>（I want to Guard Tingen and the people around me, just like everyone at Blackthorn.）</>"] = "<P_Heart>(Я хочу защищать Тинген и людей вокруг, как все в «Чёрном шипе».)</>",
+    ["A rather inconspicuous constellation. Let me check the records..."] = "Не слишком приметное созвездие. Дайте-ка я посмотрю записи...",
     ["收购丝绸礼帽"] = "Acquiring silk top hats",
     ["终极飞升"] = "Ultimate Ascension",
     ["终末猎杀-草丛06合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 06 Merged Concealment 02 (Includes 2 original areas)",

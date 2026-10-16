@@ -248,6 +248,7 @@ return {
     ["A silver medal issued by the City Hall. It witnesses every place you have walked—the bustle of Iron Cross Street, the steam whistles of the damp docks, the stories behind the residences. Tingen is right under your feet at this moment."] = "Серебряная медаль, выдаваемая мэрией. Она свидетельствует о каждом месте, где вы побывали, — оживлённой улице Железного Креста, паровых гудках сырых доков, историях за фасадами домов. Тинген сейчас лежит прямо у ваших ног.",
     ["Me? I... I am responsible for soliciting customers here, I can't leave, I can't leave, hehe..."] = "Я? Я... я тут отвечаю за привлечение посетителей, не могу отойти, не могу отойти, хе-хе...",
     ["5231174 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231174   Личный тестовый план Ван Синъи   Одиночный план",
+    ["It wasn't just me who did it; it could have been other versions of me—to be precise, a group of \"us\"."] = "Это сделал не только я, а, возможно, и другие «я». Точнее, целая группа «нас».",
     ["异常之后"] = "After the Anomaly",
     ["我有一个猜测。"] = "I have a guess.",
     ["拟真驾驶"] = "Realistic Driving",

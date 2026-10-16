@@ -268,6 +268,7 @@ return {
     ["进入廷根湖场景以解锁。"] = "Разблокируется входом в локацию «Озеро Тинген».",
     ["所以，躺在这里，听着不远处隐隐约约的音乐，才是最惬意的享受。"] = "Поэтому лежать здесь и слушать доносящуюся издалека музыку — вот истинное удовольствие.",
     ["先生，这会就在喝酒了吗？"] = "Сударь, вы уже пьёте в такой час?",
+    ["Your bicycle is quite vintage. Does it creak when you ride it?"] = "У твоего велосипеда уже солидный возраст. Он, наверное, скрипит, когда едешь?",
     ["复制邓恩过肩镜头"] = "Copy Dunn's over-the-shoulder shot",
     ["康纳德子爵这段时间都没来，我想，应该也是受不了这里的气味。我们还是走吧。"] = "Viscount Conrad hasn't come by lately. I think he probably couldn't stand the smell here either. Let's go.",
     ["灰雾之上的力量，帮助你看透虚假。"] = "The power above the gray fog helps you see through falsehoods.",

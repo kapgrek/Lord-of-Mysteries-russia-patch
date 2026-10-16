@@ -285,6 +285,8 @@ return {
     ["团长，我们愿意跟着你走！这是团长的第一步，也是好团长的开始。"] = "Лидер, мы готовы идти за тобой! Это первый шаг лидера и начало пути хорошего лидера.",
     ["是否取消战队招募？"] = "Отменить набор в отряд?",
     ["主动释放一次朗基努斯之枪后会使岁月的棋局的冷却时间减少1秒。"] = "После активного применения «Копья Лонгина» откат навыка «Гамбита эпох» уменьшается на 1 сек.",
+    ["The night after two days"] = "Вечером через два дня",
+    ["You are the core of the God's transaction, someone who has the potential to change fate. I can spare some time to play with you."] = "Ты — центр сделки с богом, человек, способный изменить судьбу. Я могу потратить немного времени и поиграть с тобой.",
     ["别听那些无谓的嘲笑，一步步向前，总有一天，命运会眷顾你。"] = "Don't listen to those pointless taunts. Keep moving forward step by step, and one day, fate will favor you.",
     ["古堡里的家族继承了那位执政官的血脉，不知道他们会不会也总是弄丢自己的记忆……"] = "The Family in the old castle inherited the bloodline of that magistrate. I wonder if they, too, are always losing their memories...",
     ["啊？！邮差可能是序列3分身？"] = "Huh?! Could the postman be a Sequence 3 clone?",

@@ -240,7 +240,7 @@ return {
     ["莱斯警局查案中，未经授权，禁止入内。"] = "Полицейский участок Лиз ведёт расследование. Посторонним вход запрещён.",
     ["However, this notebook is currently with the Nighthawks, and... I saw in the Nighthawks' confidential documents that they didn't provide the potion names for Seer Sequence 8 and 7. Could there be some hidden secret inside?"] = "Однако эта записная книжка сейчас тоже находится у организации «Ночные ястребы», и... в секретных материалах «Ночных ястребов», которые я видел раньше, не были указаны названия зелий для Провидца Последовательности 8 и 7. Неужели там скрыта ещё какая-то тайна?",
     ["他用“火种”窃取了一件物品里的污染。"] = "Он с помощью \"Растопки\" похитил осквернение из одного предмета.",
-    ["乐团成员25"] = "Orchestra Member 25",
+    ["乐团成员25"] = "Участник оркестра 25",
     ["单次副本挑战中，完成全部Boss专属的黄铜书挑战，且战斗所用的总时长少于960秒（战斗失败用时也会计入）。"] = "In a single dungeon challenge, complete all boss-exclusive Brass Book challenges, and the total combat duration is less than 960 seconds (time spent on failed battles is also counted).",
     ["历史委托"] = "Historical Commissions",
     ["可恶！已经出不去，只能陪他玩玩了……"] = "Damn it! I can't get out anymore, I have no choice but to play along with him...",

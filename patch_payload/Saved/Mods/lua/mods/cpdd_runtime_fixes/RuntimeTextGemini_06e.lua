@@ -278,6 +278,7 @@ return {
     ["开启后，黄昏面具会应用屏幕特效以及声音效果处理，关闭则不生效。"] = "При включении «Маска Сумерек» будет применять экранные эффекты и обработку звука; при отключении эффект не действует.",
     ["The difference in the number of players between the %s camp and other camps exceeds %d. Please adjust and try again."] = "Разница в численности команды %s и других команд превышает %d человек. Скорректируйте и повторите попытку.",
     ["Jonar doesn't know about the Tarot Club... Now, we can talk honestly."] = "Джонар не знает о Клубе Таро... Теперь мы можем поговорить откровенно.",
+    ["Still, that's what makes it interesting. Since that person is willing to intervene, I can't bear to end it so quickly. As for the rest, you'll have to go and get it yourself."] = "Но так даже интереснее. Раз уж тот господин решил вмешаться, мне не хочется заканчивать так быстро. Остальное тебе придётся забрать самому.",
     ["参与副本<Highlight>丰饶之树（困难）</>，击败<Highlight>厄水巨龟</>后，有概率获得下列装备。"] = "Participate in the dungeon <Highlight>Tree of Abundance (Hard)</>, and after defeating the <Highlight>Misfortune Water Giant Turtle</>, you have a chance to obtain the following equipment.",
     ["可获得<Highlight>非凡掌舵手</>称号、1个<Highlight>珊瑚染料</>、100个<Highlight>焕彩纯露</>"] = "Can obtain the <Highlight>Extraordinary Helmsman</> title, 1 <Highlight>Coral Dye</>, 100 <Highlight>Colorful Dew</>",
     ["喵喵……"] = "Meow, meow...",

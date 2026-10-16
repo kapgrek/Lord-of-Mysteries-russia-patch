@@ -271,6 +271,7 @@ return {
     ["Kingdom news? The Minister of Internal Affairs' birthday is today, does that count?"] = "Новости королевства? Сегодня день рождения министра внутренних дел, это считается?",
     ["High-quality pure silver jewelry. The style is simple and ancient, highlighting the wearer's low-key yet sophisticated taste."] = "Высококачественные украшения из чистого серебра. Простой, старинный стиль подчёркивает сдержанный, но изысканный вкус владельца.",
     ["5231183 Shen Qianyun Personal Test Instance - Single-player Instance"] = "5231183   Личный тестовый план Шэнь Цяньюнь   Одиночный план",
+    ["Are you looking for someone who knows how to exorcise ghosts? I happen to know a thing or two."] = "Вы ищете того, кто умеет изгонять духов? Я как раз немного в этом разбираюсь.",
     ["前往<h>音乐厅</>"] = "Go to the <h>Music</> hall",
     ["嗯，你做得很好。"] = "Yes, you did very well.",
     ["大厨啊大厨，你在哪……"] = "Oh chef, my chef, where are you...",

@@ -245,7 +245,7 @@ return {
     ["我受够报纸的捏造与编排了！我们应该离开贝克兰德，去到淳朴的乡下，只有仆人和我们，没有那么多探究的视线！"] = "Я устала от газетных выдумок и манипуляций! Нам следует уехать из Бэкланда в простую деревню, где рядом будут только слуги и мы, без стольких пытливых взглядов!",
     ["I heard Duval doesn't do parkour anymore either... he's started planting flowers on the rooftop, which is nice."] = "Слышал, Дюваль тоже больше не занимается паркуром... он начал разводить цветы на крыше, это приятно.",
     ["[Marionette Skill] Worm of Star - Frost Breath - Spell Agent"] = "[Умение марионетки] Звёздный Червь - Дыхание Мороза - Агент заклинания",
-    ["丈夫去世"] = "Husband passed away",
+    ["丈夫去世"] = "Муж скончался",
     ["使用后获得<Highlight>动态名片主题・铁与血之歌</>"] = "Use to obtain <Highlight>Animated Namecard Theme: Song of Iron and Blood</>",
     ["向前方释放两次音波冲击，共造成{*d,F1690001,atkMin,3}点攻击伤害，自身及附近<HighLight>2</>格内友军获得{*d,F1690001,maxHp,0.07}点护盾，持续<HighLight>4</>秒。三星时：两次音波的总伤害提高至{*d,F1690001,atkMin,6.8}点。"] = "Releases two Sonic Impacts forward, dealing a total of {*d,F1690001,atkMin,3} Attack damage. Self and allies within <HighLight>2</> tiles gain {*d,F1690001,maxHp,0.07} Shield, lasting for <HighLight>4</> seconds. At 3 stars: Total damage of the two sonic waves is increased to {*d,F1690001,atkMin,6.8}.",
     ["宣战中累计承受30万玩家伤害"] = "Sustain a cumulative total of 300,000 damage from players during a war declaration.",

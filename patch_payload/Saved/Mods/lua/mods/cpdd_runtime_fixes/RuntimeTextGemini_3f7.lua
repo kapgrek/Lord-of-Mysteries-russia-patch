@@ -259,6 +259,8 @@ return {
     ["生命低于20%时被死亡领域处决。"] = "При падении здоровья ниже 20% казнён Доменом Смерти.",
     ["I will not repeat my sister's mistakes. I am going to leave this place; this was also my sister's final wish."] = "Я не повторю ошибку сестры, я уйду отсюда — это и есть последнее желание сестры.",
     ["You were not selected for the %s you participated in the auction for; the %d Strategic Pounds/Pounds you used for the auction have been refunded."] = "Лот «%s», в аукционе на который вы участвовали, не выпал вам, возвращено %d Стратегических золотых фунтов/золотых фунтов",
+    ["Band Member 05"] = "Участник оркестра 05",
+    ["Equipped quantity <HighLight>%s/%s</>"] = "Надето: <HighLight>%s/%s</>",
     ["已开启共演"] = "Co-performance enabled",
     ["已选好友-%d人"] = "Selected friends - %d people",
     ["恐惧波纹伤害周围敌人，重创残血并降低防御。"] = "Fear Ripple damages surrounding enemies, deals heavy damage to those with low Health, and reduces Defense.",

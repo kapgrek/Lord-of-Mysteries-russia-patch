@@ -261,6 +261,7 @@ return {
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 20 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 20 маны",
     ["Each Basic Attack Skill Type=2 first skill cast restores a fixed 2 Mana."] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 2 маны",
     ["Then... let's go to the docks and see the real thing!"] = "Тогда… пойдём в порт и посмотрим на настоящих!",
+    ["However, he is skilled at Parasitism and deception; he might be using other clones to hide himself."] = "Но он мастер паразитирования и обмана и может прятаться за другими своими двойниками.",
     ["停用羁绊"] = "Deactivate Bond",
     ["在烈日中冷静判断正确的位置"] = "Calmly judge the correct position under the scorching sun",
     ["总状态时长（必填）"] = "Total Status Duration (Required)",

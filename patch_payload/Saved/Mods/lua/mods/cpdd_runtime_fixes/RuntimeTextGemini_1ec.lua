@@ -292,7 +292,10 @@ return {
     ["Prices have risen again recently, so my rent can go up too."] = "Цены недавно снова выросли, так что и моя арендная плата может подняться.",
     ["My Goddess, your readers are about to wear out the threshold of the publishing house..."] = "Моя Богиня, ваши читатели уже почти протёрли порог издательства насквозь...",
     ["苹果骑士冲锋表现"] = "Эффект атаки Яблочного рыцаря",
-    ["你好，芬奇！打扮成这样，差点认不出来了。"] = "Hello, Finch! You're dressed like that, I almost didn't recognize you.",
+    ["Non-Healing branch"] = "Ветвь без лечения",
+    ["Abundance Merchant Group - Core"] = "Торговая компания Изобилия · Ядро",
+    ["你好，芬奇！打扮成这样，差点认不出来了。"] = "Здравствуй, Финч! В таком наряде тебя почти не узнать.",
+    ["Have you never heard the story of picking apples in the forest?"] = "Ты не слышал историю о сборе яблок на лесной дороге?",
     ["去<h>黑荆棘</>值班"] = "Go on duty at <h>Blackthorn</>.",
     ["后两排棋子以<HighLight>当前生命值的80%</>开始战斗，并获得<HighLight>16%伤害加深</>。"] = "Units in the back two rows start combat at <HighLight>80% of their current Health</> and gain <HighLight>16% increased damage dealt</>.",
     ["密令收购黑珍珠鱼子酱"] = "Secret order to purchase black pearl caviar",
@@ -306,5 +309,5 @@ return {
     ["【自走棋】-陪伴的彼此-安西娅死亡时寻找巴尼先生"] = "[Auto Chess] Companions - Search for Mr. Barney when Anthea is Dead",
     ["普通-苹果骑士-保护罩2号（6.5m）"] = "Normal - Apple Knight - Protective Shield 2 (6.5m)",
     ["采集指定TemplateID的采集物  对象转向坐标"] = "Собрать элемент с указанным TemplateID, объект превращается в координаты",
-    ["“信徒们以为自己在侍奉神明，在参与伟大的事业……但他们只是棋子，是阴谋的牺牲品……但也有人发现真相却无法回头，有人一开始就了解真相却暗中操纵一切……但他们终将被吞噬，成为那个所谓新生的一部分。但他们自己呢？他们渴望拯救的亲人呢……都不复存在了吧。”\n        “我忽然想到一件危险的事……月亮仆从要创造或寻找一位邪神子嗣……关于这个阴谋，有太多我无法言说的奥秘……我不知道，我无法描述，我会因此而死亡，但这很重要……我尽量……尽量……写下来……”"] = "\"The believers think they are serving a god, participating in a great cause... but they are just pawns, victims of a conspiracy... but there are also those who discover the truth but cannot turn back, and some who knew the truth from the beginning and manipulated everything in secret... but they will eventually be devoured, becoming a part of that so-called new birth. But what about them? What about the relatives they long to save... they are all gone, right?\"\n        \"I suddenly thought of a dangerous thing... the Moon Servants want to create or find an offspring of an evil god... regarding this conspiracy, there are too many mysteries I cannot speak of... I don't know, I cannot describe it, I will die because of this, but this is very important... I will try... try... to write it down...\"",
+    ["“信徒们以为自己在侍奉神明，在参与伟大的事业……但他们只是棋子，是阴谋的牺牲品……但也有人发现真相却无法回头，有人一开始就了解真相却暗中操纵一切……但他们终将被吞噬，成为那个所谓新生的一部分。但他们自己呢？他们渴望拯救的亲人呢……都不复存在了吧。”\n        “我忽然想到一件危险的事……月亮仆从要创造或寻找一位邪神子嗣……关于这个阴谋，有太多我无法言说的奥秘……我不知道，我无法描述，我会因此而死亡，但这很重要……我尽量……尽量……写下来……”"] = "«Верующие думают, что служат божеству и участвуют в великом деле... но они лишь пешки, жертвы заговора... Однако есть и те, кто узнал правду, но не может повернуть назад, и те, кто с самого начала знал правду и тайно управлял всем... Но в конце концов все они будут поглощены и станут частью так называемого нового рождения. А что с ними самими? А с их близкими, которых они жаждали спасти... их ведь уже нет.»\n«Я вдруг подумал о кое-чём опасном... Слуги Луны хотят создать или найти дитя злого бога... У этого заговора слишком много тайн, о которых я не могу говорить... Я не знаю, не могу описать, я умру из-за этого, но это очень важно... Я постараюсь... постараюсь... записать...»",
 }

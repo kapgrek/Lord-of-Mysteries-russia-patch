@@ -268,6 +268,7 @@ return {
     ["Let's go to the cafe; the black tea and snacks Mrs. Lula brought today are really good..."] = "Пойдёмте в кафе — чёрный чай и закуски, которые сегодня принесла миссис Лула, просто отличные...",
     ["Hehe... You'll understand when you end up like me."] = "Хе-хе... ты поймёшь, когда сам окажешься в таком же положении, как я.",
     ["5231170   王星贻个人测试位面   单人位面"] = "5231170   Личный тестовый план Ван Синъи   Одиночный план",
+    ["It will definitely work!"] = "Обязательно получится!",
     ["可以让自身以及指定目标进入完美闪避时缓效果。对纯客户端单位如MassNPC、MassVehicle车辆、物理环境生效"] = "Allows yourself and a designated target to enter a perfect Dodge slow-motion effect. Effective on pure client-side units such as MassNPCs, MassVehicle vehicles, and the physical environment.",
     ["圣乔治区最近有幽灵出没的传言，去那儿找找线索吧。"] = "There are rumors of ghosts haunting the St. George District recently; go there and look for clues.",
     ["廠"] = "Factory",

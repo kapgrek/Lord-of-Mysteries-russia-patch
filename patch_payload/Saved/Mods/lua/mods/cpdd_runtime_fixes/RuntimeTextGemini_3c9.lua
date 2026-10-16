@@ -224,7 +224,7 @@ return {
     ["What type of damage does the Connection Skill deal?"] = "Какой урон наносит Умение связей?",
     ["Besides the goods, there is much more we need to pay attention to. Product display, architectural design..."] = "Помимо самого товара, нужно уделять внимание многому другому: оформлению витрин, архитектурному дизайну...",
     ["Those over there are chamomile and golden hand-oranges."] = "А вон там — ромашка и золотистые «рукастые» апельсины.",
-    ["乐团成员22"] = "Orchestra Member 22",
+    ["乐团成员22"] = "Участник оркестра 22",
     ["复苏之风1"] = "Wind of Recovery 1",
     ["子任务（新增"] = "Sub-quest (New",
     ["您是位很特别的小丑，您微笑的眼神中，有一丝哀伤。"] = "You are a very special Clown; there is a hint of sorrow in your smiling eyes.",

@@ -286,7 +286,7 @@ return {
     ["决斗失败者：受到决斗胜利者的伤害大幅提高。"] = "Проигравший дуэль: получает значительно больше урона от победителя дуэли.",
     ["Obstruction"] = "Препятствие",
     ["The overture plays, and the opening dance lifts the curtain of the feast. The first wisp of the evening breeze caresses the hem, and the night is breathing softly."] = "Звучит увертюра, и первый танец поднимает занавес праздника. Первое дуновение вечернего ветра касается подола, и ночь дышит тихо.",
-    ["使用后可获得<Highlight>夜幕猎手专用展台场景</>"] = "Use to obtain the <Highlight>Nightfall Hunter Exclusive Display Stand Scene</>.",
+    ["使用后可获得<Highlight>夜幕猎手专用展台场景</>"] = "После использования вы получите <Highlight>сцену витрины для Ночного охотника</>",
     ["使用后获得<Highlight>头像・晨雾仙踪</>"] = "Use to obtain <Highlight>Avatar: Morning Mist Fairyland</>",
     ["使用后获得环身特效:<Highlight>全境雍容・手部</>"] = "Use to obtain aura effect: <Highlight>All-Realm Elegance・Hand</>",
     ["使用后获得称号:<Highlight>终结后裔的诅咒</>"] = "Grants the following title upon use: <Highlight>Curse of the Finish Descendants</>",

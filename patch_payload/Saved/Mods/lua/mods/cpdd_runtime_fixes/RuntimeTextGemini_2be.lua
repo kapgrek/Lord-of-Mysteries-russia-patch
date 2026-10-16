@@ -286,6 +286,7 @@ return {
     ["The last of the vegetables, selling them cheap!"] = "Последние овощи, продаю дёшево!",
     ["The premise of a family budget plan is to respect the master of the house's opinion."] = "Основа семейного бюджета — уважение к мнению главы семьи.",
     ["[Marionette Skill] Worm of Star - Ice Flame Breath"] = "[Умение марионетки] Звёздный Червь - Дыхание Ледяного Пламени",
+    ["You're welcome! *Hiccup*—"] = "Не за что! Ик—",
     ["使用后获得<Highlight>头像・生如夏花</>"] = "Use to obtain <Highlight>Avatar: Life Like Summer Flowers</>",
     ["使用后获得<Highlight>顶顶好运顶饰</>"] = "Use to obtain <Highlight>Top-Tier Luck Headpiece</>",
     ["圣赛缪尔教堂氛围"] = "Saint Samuel Cathedral Atmosphere",

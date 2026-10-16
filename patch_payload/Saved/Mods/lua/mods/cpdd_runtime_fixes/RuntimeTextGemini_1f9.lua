@@ -295,8 +295,10 @@ return {
     ["The highest quality currently available is <Quality_3>Common</>"] = "Максимальное качество, которое может выпасть в данный момент: <Quality_3>Обычное</>",
     ["打开<Highlight>城市暗面</>。"] = "Откройте <Highlight>тёмную сторону города</>.",
     ["在2.7秒内向锁定目标持续发射空气子弹，造成5次bulletdisc(*id)点物理伤害并<HyperLink stylename=\"M_Link\" u=\"2\">打断</>敌方怪物；施法过程中可以移动，并在释放时获得*f秒的<HyperLink stylename=\"M_Link\" u=\"11\">霸体</>和1.2秒的*d**加速。施法结束后获得一点<HighLight>卡牌能量</>和一张<HighLight>灵性蓝牌</>。\n\n<FaintYellow>命运黄牌</>/<FaintYellow>灵性蓝牌</>：获得三张<HighLight>命运黄牌</>/<HighLight>灵性蓝牌</>时消耗所有卡牌，使<HighLight>终结技能洗牌</>切换至<HighLight>命运愚弄</>/<HighLight>灵性爆发</>。\n<FaintYellow>卡牌能量</>：最多持有5点，达到5点时<HighLight>终结技能</>切换并锁定为<HighLight>洗牌</>"] = "В течение 2,7 сек. непрерывно стреляет воздушными пулями в цель, нанося 5 раз по bulletdisc(*id) ед. физического урона и <HyperLink stylename=\"M_Link\" u=\"2\">прерывая</> вражеских монстров. Во время применения можно двигаться; при использовании даёт <HyperLink stylename=\"M_Link\" u=\"11\">суперброню</> на *f сек. и ускорение *d** на 1,2 сек. После применения даёт 1 ед. <HighLight>энергии карт</> и одну <HighLight>синюю карту духовности</>.\n\n<FaintYellow>Жёлтая карта судьбы</>/<FaintYellow>Синяя карта духовности</>: при получении трёх <HighLight>жёлтых карт судьбы</>/<HighLight>синих карт духовности</> расходуются все карты, и <HighLight>завершающий навык «Тасование»</> меняется на <HighLight>«Обман судьбы»</>/<HighLight>«Всплеск духовности»</>.\n<FaintYellow>Энергия карт</>: максимум 5 ед.; при достижении 5 ед. <HighLight>завершающий навык</> меняется и фиксируется на <HighLight>«Тасование»</>",
-    ["上装上部"] = "Upper garment top",
-    ["伦纳德近景镜头"] = "Leonard close-up shot.",
+    ["<Assistant_Title1>【Crit Damage Reduction】</>\nReduces the damage multiplier of received critical hits, offsetting the attacker's crit damage. The final multiplier for critical damage will not exceed 250% or fall below 125%.\nIf the increased Crit Damage Reduction exceeds the upper threshold or fails to reach the lower threshold, the damage reduction capability cannot be improved.\n<Assistant_Title2>Tip:</> This attribute distinguishes between physical and magical.\n<Assistant_Title3>Recommended Search:</>{SendAnswer:[Damage Calculation]|1499}"] = "<Assistant_Title1>【Снижение крит. урона】</>\nМножитель получаемого критического урона уменьшается, нивелируя крит. урон источника. Итоговый множитель критического урона не превысит 250% и не опустится ниже 125%.\nЕсли повышенное снижение крит. урона выходит за верхний порог или не достигает нижнего, способность снижать урон не растёт.\n<Assistant_Title2>Подсказка:</> Эта характеристика различает физическую и магическую.\n<Assistant_Title3>Рекомендуемый поиск:</>{SendAnswer:[Расчёт урона]|1499}",
+    ["The same."] = "То же самое",
+    ["上装上部"] = "Верх верхней одежды",
+    ["伦纳德近景镜头"] = "Крупный план Леонарда",
     ["守夜护印"] = "Nightwatch Warding Seal",
     ["己方棋子每5秒回复4%最大生命。"] = "Allied units recover 4% of maximum Health every 5 seconds.",
     ["已停止共演"] = "Co-performance stopped",
@@ -305,4 +307,5 @@ return {
     ["获得<HighLight>1个秘法徽章</>。激活秘法后，每名秘法棋子每场战斗<HighLight>第4次施法</>时，使全队回复<HighLight>8点法力</>。"] = "Gain <HighLight>1 Arcane Arts Emblem</>. With Arcane Arts active, each Arcane Arts unit's <HighLight>4th skill cast</> each battle restores <HighLight>8 Mana</> to the entire team.",
     ["八翼翅膀-老爷车飞行"] = "Eight-Winged Wings - Vintage Car Flight",
     ["与人脉完成%d/30次漫步玩法。"] = "Выполните действия %d/30 «Прогулка» с контактами.",
+    ["The Tingen disaster plotted by the previous secret organization, and the Fallen Creator..."] = "Катастрофа в Тингене, задуманная прежней тайной организацией, и Падший Создатель...",
 }
