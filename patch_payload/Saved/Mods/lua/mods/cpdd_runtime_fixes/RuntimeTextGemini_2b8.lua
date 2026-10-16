@@ -279,6 +279,8 @@ return {
     ["<P_Heart>（我想起来了……这段记忆被窃取了，又是邮差……）</>"] = "<P_Heart>(Я вспомнил... Это воспоминание украли, опять этот почтальон...)</>",
     ["<P_Yellow>My name is Dylan, an extra who dreams of punching the protagonist, kicking the director, and standing in the spotlight!</>"] = "<P_Yellow>Меня зовут Дилан, я статист, который мечтает врезать главному герою, пнуть режиссёра и встать под свет софитов!</>",
     ["主宰"] = "Владыка",
+    ["The Club has not reached level %s; cannot initiate a declaration of war!"] = "Уровень клуба ниже %s, объявить войну нельзя!",
+    ["Tarot·Susie·Save 2 Incremental"] = "Таро · Сьюзи · Ступень 2, прирост",
     ["我就在这儿等你。先缓一缓，等你清醒点了，我们一起回去。"] = "I'll wait for you right here. Take a moment to catch your breath, and once you're clearer-headed, we'll go back together.",
     ["星盘占卜。我需要你未婚夫的名字、外貌特征、居住地址和出生的年月日。"] = "Astrolabe divination. I need your fiancé's name, physical appearance, residential address, and date of Spawn.",
     ["正义的裁决暴击"] = "Justice's Judgment Critical Hit",

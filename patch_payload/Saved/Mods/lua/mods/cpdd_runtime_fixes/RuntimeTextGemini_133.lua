@@ -279,6 +279,8 @@ return {
     ["1354年7月9日，凌晨3时42分"] = "9 июля 1354 г., 3:42 ночи",
     ["Successfully defend the Banner until the settlement once as a defender."] = "Успешно защитить знамя до подсчёта итогов 1 раз в роли защитника",
     ["Your time ends here."] = "Твоё время на этом заканчивается.",
+    ["Klein Mini Figurine"] = "Клейн — мини-фигурка",
+    ["Phew... it finally stopped. My mind feels much clearer."] = "Фух... наконец-то прекратилось, голова стала намного яснее.",
     ["昨天有个从外地来的警官，专门来调查这件事。从上午一直问到傍晚，把这一片街上的店几乎都跑遍了，逢人就打听最近有没有类似的情况。"] = "A police officer from out of town came yesterday specifically to investigate this matter. They spent from morning until evening asking questions, visiting almost every shop in this area, and inquiring with everyone they met about whether there had been any similar incidents recently.",
     ["获得阿兹克*1"] = "Obtain Azik *1",
     ["玩家播放主线任务开始展示界面"] = "Отобразить вступительный экран основного задания игрока",

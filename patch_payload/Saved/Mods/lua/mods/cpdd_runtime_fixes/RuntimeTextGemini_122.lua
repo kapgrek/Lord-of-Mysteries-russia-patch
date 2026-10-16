@@ -264,6 +264,7 @@ return {
     ["【新手推荐】荒野魔女"] = "[Для новичков] Демоница пустошей",
     ["[Auto Chess] Lambert Noose 3-Star 5-Cost - Select the 15 furthest enemies"] = "[Автошахматы] Удавка Ламберта, 3 звезды, 5 ед. — выбор 15 самых дальних врагов",
     ["You have the favor of Mr. The Fool, after all. Completing the ritual under the Shelter and gaze of a powerful God, nothing will go wrong."] = "За тобой ведь благосклонность господина Шута, и ты совершаешь ритуал под покровом и взором могущественного божества, всё пройдёт хорошо.",
+    ["Only how much?"] = "Всего сколько?",
     ["当然认识，你在这卖票一年了，你不在，售票亭都只能自助售票！"] = "Of course I know you; you've been selling tickets here for a year. If you weren't here, the ticket booth would only be able to offer self-service!",
     ["您看看我手里的这把？"] = "Would you like to take a look at the one in my hand?",
     ["旅行箱"] = "Travel Trunk",

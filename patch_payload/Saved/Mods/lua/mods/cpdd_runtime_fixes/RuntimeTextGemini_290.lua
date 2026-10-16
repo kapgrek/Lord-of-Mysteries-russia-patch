@@ -287,6 +287,7 @@ return {
     ["<Highlight>简介</>：克莱恩为“丧钟”所定制的特殊子弹。\n<Highlight>持有者</>：克莱恩。\n<Highlight>能力</>：铭刻有太阳领域的标识和符号，形成了完整的符咒，可以有效净化鬼魂类怪物，伤害到较为强力的怨魂和幽影。"] = "<Highlight>Описание</>: особая пуля, изготовленная Клейном для «Похоронного звона».\n<Highlight>Владелец</>: Клейн.\n<Highlight>Способность</>: на ней выгравированы знаки и символы области Солнца, образующие полноценный талисман. Эффективно очищает призраков и ранит довольно сильных озлобленных душ и теней.",
     ["两侧"] = "По бокам",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>550%</> = {*d,F1690001,atkMin,5.5}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>550%</> = {*d,F1690001,atkMin,5.5} ед.",
+    ["Grants the following title upon use: <Highlight>The World is a Stage</>"] = "После использования вы получите титул: <Highlight>Весь мир — сцена</>",
     ["曾经坚信的一切开始动摇，真假难辨的世界令人迷惘。"] = "Everything once firmly believed begins to waver; the world, where truth and falsehood are indistinguishable, is bewildering.",
     ["神弃之地4人成长"] = "Forsaken Land of the Gods 4-Player Growth",
     ["花车巡游烟花-天空"] = "Float Parade Fireworks - Sky",

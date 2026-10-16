@@ -278,6 +278,8 @@ return {
     ["倒计时截止前引导所有心魔碎片至心魔除引爆"] = "До окончания отсчёта времени направьте все осколки Внутреннего демона к Внутреннему демону, чтобы взорвать их.",
     ["\"The pure white one sleeping in the red cocoon, the divine child who rules over rebirth and corruption, the final possibility of the apocalypse.\""] = "«Чистейше-белый, спящий в алом коконе, божественное дитя, повелевающее возрождением и падением, последняя возможность конца света».",
     ["#CanMove Amnesia Incident#"] = "#CanMove Случай с потерей памяти#",
+    ["Heh, to think a Sequence 3 could be locked onto so quickly?"] = "Хм, неужели даже Последовательность 3 так быстро берут на прицел?",
+    ["Inner Coat"] = "Внутренняя сторона пальто",
     ["早夭的儿子"] = "The son who died young",
     ["棋子固有回蓝·弗兰克·李"] = "Piece Innate Mana Regen: Frank Lee",
     ["波"] = "Wave",

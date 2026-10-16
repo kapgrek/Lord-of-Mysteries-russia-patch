@@ -269,6 +269,7 @@ return {
     ["<P_Heart>（金玫瑰……他在迎接客人？这么小的孩子……）</>"] = "<P_Heart>（«Золотая роза»… Он встречает гостей? Такой маленький ребёнок…）</>",
     ["丧钟普攻"] = "Обычная атака Погребального звона",
     ["Look towards the bow of the ship—that bridge is the famous Backlund Bridge."] = "Посмотрите в сторону носа корабля: этот мост — знаменитый Бэклендский мост.",
+    ["Joyce at the Door"] = "Джойс у двери",
     ["棋子固有回蓝·先祖铠甲·2星"] = "Chess Piece Innate Mana Regen: Ancestor Armor 2-Star",
     ["棋逢挚友"] = "A Match Against a Dear Friend",
     ["艾玛：谢、谢谢你……我还以为我要……"] = "Emma: Th-thank you... I thought I was going to...",

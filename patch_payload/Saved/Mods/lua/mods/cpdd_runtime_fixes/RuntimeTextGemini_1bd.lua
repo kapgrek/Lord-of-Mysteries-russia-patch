@@ -255,6 +255,7 @@ return {
     ["不过，恭喜你！“学徒”是最了解星空的途径。你具体想知道什么？"] = "Но поздравляю! «Ученик» — Путь, лучше всех постигающий звёздное небо. Что именно ты хочешь узнать?",
     ["I came out to relax today. If I keep working, what's the difference between me and a Curly-Haired Baboon?"] = "Сегодня вышел развеяться. Если всё время работать, чем я отличаюсь от кудрявого павиана?",
     ["Sell at a low price"] = "Продать дёшево",
+    ["Can claim missed <Highlight>May Manor Garden·Normal Dungeon</> rewards. Opening this will grant the following rewards:"] = "Можно получить пропущенные награды за <Highlight>Майское поместье, сад·обычное подземелье</>. После открытия вы получите следующие награды",
     ["石阶向左盘旋而上，连接建筑的不同楼层。"] = "The stone stairs spiral upward to the left, connecting the different floors of the building.",
     ["神威惩戒3"] = "Divine Might Punishment 3",
     ["离家很近了，我却依然胆怯，辜负了佛尔思小姐的好意。"] = "I am so close to home, yet I still feel Timidity, failing to live up to Miss Fors's kindness.",

@@ -268,7 +268,7 @@ return {
     ["<Highlight>Introduction</>: Left behind after the death of an elder in the City of Silver 1,300 years ago.\n<Highlight>Holder</>: City of Silver.\n<Highlight>Corresponding Characteristic</>: Warrior pathway, Sequence 4 Demon Hunter.\n<Highlight>Appearance</>: A straight sword with a hilt topped by a cyclopean mouth.\n<Highlight>Ability</>:\n1) Can hide one's malice and certain behaviors, effectively interfering with divination and prophecy."] = "<Highlight>Описание</>: осталось после смерти старейшины Серебряного города тысячу триста лет назад.\n<Highlight>Владелец</>: Серебряный город.\n<Highlight>Соответствующая характеристика</>: Путь Воина, Последовательность 4 Охотник на Демонов.\n<Highlight>Внешний вид</>: прямой меч, на навершии рукояти — одноглазая пасть.\n<Highlight>Способность</>:\n1) Скрывает собственную злобу и некоторые действия, эффективно мешая гаданию и пророчеству.",
     ["Apple Product Bundle"] = "Набор товаров Apple",
     ["佛爾思"] = "Форс",
-    ["到了，阿斯塔！阿斯塔——"] = "We're here, Asta! Asta—",
+    ["到了，阿斯塔！阿斯塔——"] = "Мы на месте, Аста! Аста!..",
     ["对敌方玩家使用误导性暗示，使其精神错乱。"] = "Use a misleading suggestion on an enemy player to cause Mental Derangement.",
     ["祂生而为神 藐视人性与道德 天性喜欢冒险 寻求刺激 擅长欺诈"] = "He was born a God, despising humanity and morality. He is naturally fond of adventure, seeks thrills, and excels at deception.",
     ["筛选符合条件的非凡物质两两分组，根据评分由高到低排序。可以通过滑条选择聚合次数，也可以通过右侧是否勾选来选择聚合的分组。"] = "Filter eligible Beyonder materials into pairs and sort them by rating from high to low. You can select the number of aggregations using the slider, or choose which groups to aggregate by checking the boxes on the right.",

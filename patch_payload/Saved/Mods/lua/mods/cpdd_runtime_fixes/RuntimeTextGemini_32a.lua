@@ -274,7 +274,9 @@ return {
     ["集齐15个可以获得秘偶头狼，也可用于秘偶头狼的培养。"] = "Соберите 15 штук, чтобы получить марионетку «Вожак». Также используется для её развития.",
     ["A universe that can be held in the palm of a hand also contains countless questions about fate."] = "Вселенная, умещающаяся на ладони, вмещает и бесчисленные вопросы к судьбе.",
     ["万都之都场景任务占位"] = "Город городов: заглушка сюжетного задания",
-    ["使用后获得<Highlight>动态名片主题・圣堂</>"] = "Use to obtain <Highlight>Animated Namecard Theme: Cathedral</>",
+    ["使用后获得<Highlight>动态名片主题・圣堂</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Святилище»</>",
+    ["Inner Veil"] = "Внутренняя вуаль",
+    ["Selling price markup in progress - Intensity <HighLight>%s%%</>"] = "Накрутка цены продажи: интенсивность <HighLight>%s%%</>",
     ["机巧疯帽"] = "Mechanical Mad Hatter",
     ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Roselle Boss - Password Phase - Check if 84015136 is present on player",
 }

@@ -292,7 +292,9 @@ return {
     ["<P_Heart>(Confused)</>What was that you were talking about?"] = "<P_Heart>(Растерянно)</>О чём это говорили старшие коллеги?",
     ["Next star level"] = "След. звёздный уровень",
     ["乐团成员24"] = "Участник оркестра 24",
-    ["坐到<h>椅子</>上"] = "Sit on the <h>chair</>",
+    ["In the same match, reach a deposit of 250 or more."] = "За один матч накопите 250 и более.",
+    ["Prank of Fate"] = "Злая шутка судьбы",
+    ["坐到<h>椅子</>上"] = "Сядьте на <h>стул</>",
     ["盟约"] = "Covenant",
     ["高伤点名"] = "High-Damage Targeted Attack",
 }

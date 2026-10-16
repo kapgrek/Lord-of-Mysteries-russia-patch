@@ -275,6 +275,10 @@ return {
     ["专属订购"] = "Эксклюзивный заказ",
     ["也许诵念女神的尊名，能让她知道我没有恶意？"] = "Может, если произнести имя Богини, она поймёт, что я не желаю зла?",
     ["A mini figurine modeled after Leonard. His casual expression carries a poet's romance, giving off an air of being both laid-back and dashingly unrestrained."] = "Мини-фигурка по образу Леонарда. В его непринуждённом выражении лица есть поэтичная романтика, придающая ему вид беззаботный и раскованный.",
-    ["可他还是停不下来。"] = "But he still couldn't stop.",
+    ["可他还是停不下来。"] = "Но он всё равно не мог остановиться.",
+    ["Talk to Irene the waitress"] = "Поговорить с официанткой Айрин",
+    ["Castle Distant View"] = "Вид на замок издали",
+    ["Great, then there is only one condition left—an ice cube that doesn't melt under normal circumstances. What kind of ice cube wouldn't melt..."] = "Отлично, тогда остаётся только одно условие — лёд, который в обычных условиях не тает. Какой же лёд не тает...",
+    ["Strange... where on earth did I drop it?"] = "Странно... Куда же я это дел?",
     ["终末猎杀-草丛11逐簇隐匿06"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 06",
 }

@@ -263,7 +263,7 @@ return {
     ["领取该礼金获得外观或随机金磅"] = "Заберите этот подарок, чтобы получить внешний вид или случайное количество золотых фунтов",
     ["伦纳德往前走两步"] = "Леонард делает два шага вперёд",
     ["Do you remember roughly what time it was?"] = "Ты помнишь, примерно в котором часу это было?",
-    ["使用后获得结算动画:<Highlight>君临・火焰</>"] = "Grants the following settlement animation upon use: <Highlight>Arrival・Flame</>",
+    ["使用后获得结算动画:<Highlight>君临・火焰</>"] = "После использования вы получите анимацию итогов: <Highlight>Явление・Пламя</>",
     ["想吃冰淇淋有什么错？我只是个孩子，正处于发育关键期。"] = "What's wrong with wanting ice cream? I'm just a child, and I'm in a critical stage of development.",
     ["既然你懂得，就去帮我们看看到底是真的有鬼，还是有人搞鬼！"] = "Since you understand, go and help us see if there really is a ghost, or if someone is playing tricks!",
     ["老特勒活着的时候是个老混蛋，死了以后也不让人消停，死了还出来蹦跶，还没有找到。"] = "Old Kohler was an old bastard when he was alive, and he doesn't let anyone have peace even after death. He's still out there causing trouble, and we still haven't found him.",

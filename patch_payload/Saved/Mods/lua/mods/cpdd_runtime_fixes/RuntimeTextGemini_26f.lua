@@ -276,8 +276,11 @@ return {
     ["You have done well; it is time to move on to the next step."] = "Вы хорошо поработали, пора переходить к следующему шагу.",
     ["你们说阿蒙本体在星空？祂怎么不来处理分身？"] = "Вы говорите, что истинное тело Амона находится в звёздном небе? Почему Он не придёт разобраться со Своими аватарами?",
     ["You know someone is waiting for you."] = "Ты знаешь, что тебя кто-то ждёт.",
-    ["俱乐部税收榜"] = "Club Tax Ranking",
-    ["她是我的好朋友，也是舞剧演员，平时喜欢研究些神秘学知识。"] = "She is a good friend of mine and a dancer; she usually enjoys studying occult knowledge.",
+    ["俱乐部税收榜"] = "Рейтинг налогов клубов",
+    ["Go to find Mrs. <h>Orianna</>"] = "Найти госпожу <h>Орианну</>",
+    ["Saint Samuel Cathedral Atmosphere"] = "Атмосфера церкви Святого Самуэля",
+    ["Tarot - Leonard Mitchell - Tier 5 Increment"] = "Таро: Леонард Митчелл, прирост ур. 5",
+    ["她是我的好朋友，也是舞剧演员，平时喜欢研究些神秘学知识。"] = "Она моя хорошая подруга и танцовщица, в свободное время любит изучать мистические знания.",
     ["条件组%s条件%s数据异常，"] = "Data for condition group %s, condition %s is abnormal,",
     ["还没呢，听说票不太好买。"] = "Пока нет, я слышал, что билеты купить непросто.",
 }

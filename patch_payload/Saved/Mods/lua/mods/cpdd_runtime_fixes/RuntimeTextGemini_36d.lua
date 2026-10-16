@@ -260,7 +260,7 @@ return {
     ["<Highlight>Introduction</>: Also known as Leymano's Travels.\n<Highlight>Holder</>: Abraham family → Fors.\n<Highlight>Corresponding Characteristic</>: Apprentice pathway, Sequence 6 Scribe.\n<Highlight>Appearance</>: A notebook the size of a palm with a hard, copper-green cover that looks quite ancient."] = "<Highlight>Описание</>: также называется магической книгой Лэймана.\n<Highlight>Владелец</>: семья Авраам → Форс.\n<Highlight>Соответствующая характеристика</>: Путь Ученика, Последовательность 6 Скриб.\n<Highlight>Внешний вид</>: блокнот размером с ладонь с твёрдой на вид обложкой цвета патины, выглядит довольно древним.",
     ["<P_Yellow>Thank you, Director. It's my honor, and I will certainly not let you down.</>"] = "<P_Yellow>Спасибо, режиссёр, для меня это честь. Я обязательно оправдаю ваши ожидания.</>",
     ["The pavilion is quiet and windless, the corner of the entire courtyard closest to the Spirit World."] = "В беседке тихо и безветренно, это уголок двора, ближайший к Миру Духов.",
-    ["啧，这破池子连一般的鱼都不一定能养活……"] = "Tsk, this lousy pond probably can't even keep common fish alive...",
+    ["啧，这破池子连一般的鱼都不一定能养活……"] = "Цк, в этом жалком пруду даже обычная рыба не выживет...",
     ["开启一次8人组队对战。"] = "Start an 8-player team battle.",
     ["往昔之书：你很聪明，却善良过头。没发现伊洛只是个幌子吗？他早就因污染消散了。"] = "Book of the Past: You are clever, but you are too kind. Didn't you realize that Ilo was just a front? He had long since dissipated due to corruption.",
     ["战略服参与战斗即可提升军衔，获得提升和奖励"] = "Participate in battles on the Strategic Server to increase your military rank and obtain upgrades and rewards.",

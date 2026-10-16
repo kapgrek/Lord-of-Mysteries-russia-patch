@@ -243,6 +243,8 @@ return {
     ["Yo, a college student? You must be pretty rich then."] = "Ого, студент? Тогда у тебя, должно быть, неплохо с деньгами.",
     ["Complete one joint performance in the Art School while in a team"] = "Выполните совместное выступление в Школе искусств в составе группы",
     ["Come on, you want me to work all day like a donkey turning a mill in the wind, rain, and sun?"] = "Да ладно, ты хочешь, чтобы я весь день крутился, как осёл на мельнице, под ветром, дождём и солнцем?",
+    ["Use to obtain <Highlight>Display Action: Model Hands on Hips</>"] = "После использования вы получите <Highlight>Действие стенда: Руки в боки</>",
+    ["A brand new way to take a bow? Why isn't that Clown wearing a monocle?"] = "Новый способ откланяться? Почему этот Клоун без монокля?",
     ["尝试在历史投影激活压力板前，到达移动平台等待"] = "Try to reach the moving platform and wait before the projection activates the pressure plate",
     ["我打赌输了，我杀死了自己，我输了，我杀死了自己……"] = "I lost the bet, I killed myself, I lost, I killed myself...",
     ["表现_大石头"] = "Performance_Big Rock",

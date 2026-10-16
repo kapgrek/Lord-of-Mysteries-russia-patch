@@ -284,7 +284,7 @@ return {
     ["集齐15个可以获得秘偶星之虫·斩，也可用于秘偶星之虫·斩的培养。"] = "Соберите 15, чтобы получить марионетку «Звёздный червь · Рассечение»; также используется для её развития.",
     ["（临时：把灰烬撒到窗外）暴风雨是冒险家的勋章！"] = "(Временно: развеять пепел за окном) Буря — медаль искателя приключений!",
     ["The key to the <Highlight>Trade War</> gameplay is to conduct <Highlight>Trade</> between various stations to <Highlight>earn profits</>. After starting the trade, you will depart from a <Highlight>random station</>."] = "Главное в режиме <Highlight>Торговая война</> — вести <Highlight>торговлю</> между станциями и <Highlight>получать прибыль</>. После начала торговли вы отправитесь с <Highlight>случайной станции</>.",
-    ["使用技能：<Highlight>灵摆占卜</>1次"] = "Use Skill: <Highlight>Pendulum Divination</> 1 time.",
+    ["使用技能：<Highlight>灵摆占卜</>1次"] = "Используйте навык: <Highlight>Гадание с маятником</> (1 раз)",
     ["延年巨龟"] = "Longevity Giant Tortoise",
     ["往昔之书"] = "Book of the Past",
     ["我的利润本来就被你压到只有——"] = "My profit margin was already squeezed by you to only—",

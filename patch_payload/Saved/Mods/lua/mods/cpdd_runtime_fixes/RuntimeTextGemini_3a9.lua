@@ -252,7 +252,7 @@ return {
     ["[Long-range Strike] Deal additional damage when dealing damage. The further the distance to the target, the higher the additional damage."] = "[Дальний удар] При нанесении урона наносит дополнительный урон. Чем дальше цель, тем выше дополнительный урон.",
     ["<P_Heart>（可如果“她”真是被卖掉的小女孩呢……先顺便帮“她”一下吧。）</>"] = "<P_Heart>(Но что, если «она» и правда проданная девочка?.. Заодно помогу «ей».)</>",
     ["他是谁?你朋友吗？"] = "Кто он? Твой друг?",
-    ["利落保镖基础"] = "Efficient Bodyguard Basic",
+    ["利落保镖基础"] = "Основа: Ловкий телохранитель",
     ["是否开启QTE振动"] = "Enable QTE vibration?",
     ["策略卡将<Orange>按顺序逐个</>站点生效（剩<Orange>%d</>次）"] = "Strategy cards will take effect at stations <Orange>one by one in order</> (remaining: <Orange>%d</>)",
     ["【自走棋】朗伯·绞索 - 普攻2连"] = "[Auto Chess] Lambert Noose - Basic Attack 2-Hit Combo",

@@ -258,6 +258,8 @@ return {
     ["The bank's security is guarded by me."] = "Охрану банка обеспечиваю я.",
     ["<P_Heart>（I want to Guard Tingen and the people around me, just like everyone at Blackthorn.）</>"] = "<P_Heart>(Я хочу защищать Тинген и людей вокруг, как все в «Чёрном шипе».)</>",
     ["A rather inconspicuous constellation. Let me check the records..."] = "Не слишком приметное созвездие. Дайте-ка я посмотрю записи...",
+    ["When you are ready, pick up the gun on the table. The challenge will begin immediately."] = "Когда будете готовы, возьмите со стола ружьё. Испытание начнётся немедленно.",
+    ["Return to Miss Justice's side"] = "Вернуться к мисс Справедливости",
     ["收购丝绸礼帽"] = "Acquiring silk top hats",
     ["终极飞升"] = "Ultimate Ascension",
     ["终末猎杀-草丛06合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 06 Merged Concealment 02 (Includes 2 original areas)",

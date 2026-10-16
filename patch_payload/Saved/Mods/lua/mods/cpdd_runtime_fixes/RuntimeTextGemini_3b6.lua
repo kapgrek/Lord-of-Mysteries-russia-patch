@@ -262,7 +262,7 @@ return {
     ["VIP · Trading Firm active: Alcohol and food shipment volume +75%, and gain 25% Chamber of Commerce Tickets."] = "VIP · Торговый дом активен: объём отгрузки алкоголя и продуктов +75%, получение 25% купонов торговой палаты",
     ["万都之都号二"] = "«Город городов II»",
     ["He is Dylan, I am not. I am... I am here to find the postman. He is right upstairs, smiling at me."] = "Он — Дилан, а я нет. Я... Я пришёл искать почтальона. Он наверху и улыбается мне.",
-    ["呃……可以这么说。请问发生了什么？"] = "Uh... you could say that. May I ask what happened?",
+    ["呃……可以这么说。请问发生了什么？"] = "Э-э... можно и так сказать. Позвольте спросить, что случилось?",
     ["小镇南驿商路"] = "Small Town South Merchant Route",
     ["水池景观"] = "Pool Landscape",
     ["生病了吗？我来给你开上一副传统草药。"] = "Are you sick? Let me prescribe you some traditional Herbs.",

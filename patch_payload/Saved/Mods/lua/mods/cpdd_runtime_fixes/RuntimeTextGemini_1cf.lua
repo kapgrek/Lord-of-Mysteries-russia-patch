@@ -248,8 +248,11 @@ return {
     ["Third trip! This iron box is getting hotter and hotter! It's not going to explode, is it?"] = "Третий заход! Эта железная коробка становится всё горячее! Она случайно не взорвётся?",
     ["不知是学艺不精还是运气不佳，本次安魂失败了，你的理智降低了%s。"] = "Не знаю, то ли не хватило мастерства, то ли просто не повезло, но Реквием на этот раз не удался, и ваш рассудок снизился на %s.",
     ["[Marionette Skill] Baboon Blessing - Summon LV2"] = "【Навык марионетки】Благословение бабуина — Призыв LV2",
-    ["凌视"] = "Gaze",
-    ["取来盒子"] = "Retrieve the box",
+    ["Use to obtain the <Highlight>Web Weaver Hairstyle</>\nCan also be exchanged for <Highlight>1</> God-Favored Card"] = "После использования вы получите <Highlight>Причёска Ткача сетей</>\nТакже можно обменять на <Highlight>1</> Карту Божьей милости",
+    ["凌视"] = "Властный взгляд",
+    ["Go find <h>Finch</>."] = "Найти <h>Финча</>",
+    ["取来盒子"] = "Принести шкатулку",
+    ["Headache..."] = "Голова болит...",
     ["我已经得到女神的启示，祂将赐福于你，许可你使用祂存于历史中的力量。"] = "I have received the revelation of the Goddess; She will bestow blessings upon you and permit you to use the power She has stored in history.",
     ["鸣声已至"] = "The Sound Has Arrived",
 }

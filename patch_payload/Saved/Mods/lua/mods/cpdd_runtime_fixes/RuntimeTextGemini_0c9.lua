@@ -239,6 +239,7 @@ return {
     ["朴实无华的最基础旗帜，创建俱乐部即可使用"] = "Простой, ничем не украшенный базовый флаг. Доступен сразу при создании клуба",
     ["21米圆形敌方玩家减益区域；与己方庇护共用范围和护罩表现"] = "Круглая зона ослабления для вражеских игроков радиусом 21 м; радиус и вид щита совпадают с союзным покровом",
     ["你认识赫莲娜女士？她可是有名的音乐家！"] = "Ты знаешь госпожу Хелену? Она известная музыкантша!",
+    ["Hey, young man—do you know what all the most fun games have in common?"] = "Эй, молодой человек, знаешь, что общего у всех самых интересных игр?",
     ["寻欢场所……可你还是个孩子？！"] = "A place of pleasure... but you're still just a child?!",
     ["是的！昨天的表演中，有一股无形的力量拉扯着我，阻碍了我的行动。"] = "Yes! During yesterday's performance, an invisible force was pulling at me, hindering my movements.",
     ["棋手不妨囤些金币——回合结算的利息，积少成多。"] = "Players might want to hoard some Gold Coins—the interest from round settlements adds up over time.",

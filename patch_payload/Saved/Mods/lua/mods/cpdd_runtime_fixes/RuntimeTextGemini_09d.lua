@@ -244,7 +244,7 @@ return {
     ["This time, what I've painted is a masterpiece!"] = "На этот раз я нарисовал настоящий шедевр!",
     ["{{Sir|Miss}}, as a contributor who travels frequently, I highly recommend you go there once. Regardless, it will leave you with a valuable experience."] = "{{господин|госпожа}}, как автор, часто бывающий в разъездах, настоятельно советую вам съездить туда. В любом случае это станет для вас ценным опытом.",
     ["两人组队，且均赢得前6名。"] = "Команда из двух человек, оба должны войти в топ-6.",
-    ["像我们这样富有的纳税人，是不会每天在工厂里数钱的。我正因为不知道他偷了什么，才着急啊！"] = "Wealthy taxpayers like us don't spend our days counting money in a factory. It's precisely because I don't know what he stole that I'm so anxious!",
+    ["像我们这样富有的纳税人，是不会每天在工厂里数钱的。我正因为不知道他偷了什么，才着急啊！"] = "Такие богатые налогоплательщики, как мы, не проводят дни на фабрике, пересчитывая деньги. Я так тревожусь именно потому, что не знаю, что он украл!",
     ["开启后，10秒内伤害加深提高30%。记录期间你对敌人造成的总伤害，在效果结束时对范围内目标造成一次性伤害，伤害量等于记录总伤害的50%。"] = "After activation, damage amplification increases by 30% for 10 seconds. The total damage you deal to enemies during the Record period is calculated, and when the effect ends, a one-time damage is dealt to targets within range, equal to 50% of the total recorded damage.",
     ["本次登录是否自动拒绝其他玩家的安魂请求？"] = "Would you like to automatically reject Requiem requests from other players for this login session?",
     ["毒雾爆发·唤"] = "Poison Fog Burst: Summon",

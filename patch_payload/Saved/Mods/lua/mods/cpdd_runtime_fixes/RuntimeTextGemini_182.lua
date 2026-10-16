@@ -273,6 +273,7 @@ return {
     ["<Assistant_Title1>【Starry Sky Overseer】</>\n<Assistant_Title2>Title Description:</> Exclusive cumulative recharge title.\n<Assistant_Title2>Acquisition Method:</> Obtained through cumulative recharge.\n<Assistant_Title2>Title Effect:</> Unique appearance display, can be equipped on your personal profile."] = "<Assistant_Title1>【Наблюдатель звёздного неба】</>\n<Assistant_Title2>Описание титула:</> Эксклюзивный титул за накопленное пополнение.\n<Assistant_Title2>Способ получения:</> Накопленное пополнение.\n<Assistant_Title2>Эффект титула:</> Уникальное отображение внешности, можно надеть в личном профиле.",
     ["……我、我真的不是明星？"] = "...Я-я правда не звезда?",
     ["What did you remember?"] = "Что ты вспомнил?",
+    ["Gambit: Winery active. This station's purchase price -75%."] = "Азарт: Винодельня действует, цена покупки на этой станции -75%",
     ["我也要一支坚果冰淇淋。"] = "I want a nut ice cream cone too.",
     ["立即获得<HighLight>1件随机封印装备</>，此后每完成<HighLight>10个战斗回合</>，再获得<HighLight>1件随机封印装备</>。"] = "Immediately gain <HighLight>1 random piece of Sealed Equipment</>. After every <HighLight>10 combat rounds</>, gain another <HighLight>1 random piece of Sealed Equipment</>.",
     ["考伊姆公司\r\n<LeonSubTitle size=\"38\">Coim Corp</>"] = "Coim Corp\r\n<LeonSubTitle size=\"38\">Coim Corp</>",

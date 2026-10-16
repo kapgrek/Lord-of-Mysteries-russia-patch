@@ -269,6 +269,7 @@ return {
     ["<HyperLink stylename=\"M_Link\" u=\"86061030\" color=\"#f4a067\">日暮飓风</>的首次攻击会给命中玩家附加2秒<HighLight>滞涩</>，并且自身在<HighLight>日暮飓风</>持续期间获得<HighLight>20%</>的减伤。\n<HyperLink stylename=\"M_Link\" u=\"86061110\" color=\"#f4a067\">巨剑斩击</>剑阵爆炸后残留黄昏之力，对范围内敌人造成持续吸附效果，持续2秒。"] = "Первая атака <HyperLink stylename=\"M_Link\" u=\"86061030\" color=\"#f4a067\">Закатного урагана</> накладывает на пораженных игроков <HighLight>скованность</> на 2 сек., а сам заклинатель на время действия <HighLight>Закатного урагана</> получает <HighLight>20%</> снижения урона.\nПосле взрыва мечевого строя <HyperLink stylename=\"M_Link\" u=\"86061110\" color=\"#f4a067\">Удара великого меча</> остаётся сила сумерек, которая в течение 2 сек. непрерывно притягивает врагов в зоне действия.",
     ["你，这位结实的先生！你踩到法阵了！"] = "Эй, вы, крепкий господин! Вы наступили на магический круг!",
     ["你向%s赠送了%s~"] = "Вы подарили %s: %s~",
+    ["Tell Tom and your other colleagues that for their safety, they should not come to the garden at night anymore. I will handle the matter of the shadow."] = "Передай Тому и остальным коллегам: ради их безопасности пусть больше не приходят в сад по ночам. С чёрной тенью я разберусь сам.",
     ["尤瑟夫大夫今天在吗？"] = "Is Dr. Yusuf in today?",
     ["我、我是谁？"] = "I, who am I?",
     ["我收购活的老鼠，一只10苏勒。"] = "I am buying live rats, 10 soli each.",

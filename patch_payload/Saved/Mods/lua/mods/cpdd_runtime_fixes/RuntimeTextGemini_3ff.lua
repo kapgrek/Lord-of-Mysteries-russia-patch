@@ -256,7 +256,7 @@ return {
     ["VIP·商行"] = "VIP · Торговый дом",
     ["Band Member 07"] = "Участник оркестра 07",
     ["Codename 00-01"] = "Кодовое имя 00-01",
-    ["咒术共鸣"] = "Spellcasting Resonance",
+    ["咒术共鸣"] = "Резонанс проклятий",
     ["宽限？你的时间一便士不值，现在，从我眼前消失！"] = "Grace? Your time isn't worth a penny. Now, disappear from my sight!",
     ["挺眼熟……好像在哪见过……"] = "It looks quite familiar... I feel like I've seen it somewhere before...",
     ["棋子固有回蓝·\"剥面人\"强尼"] = "Chess Piece Innate Mana Regen: \"Faceless\" Johnny",

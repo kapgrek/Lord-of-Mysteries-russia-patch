@@ -253,6 +253,7 @@ return {
     ["感谢您的关心，咳咳，不过是有一些咳嗽和头晕，外加耳鸣，外加咽喉肿痛，外加身体发颤罢了。"] = "Спасибо за заботу, кхе-кхе, но это всего лишь небольшой кашель и головокружение, плюс звон в ушах, плюс боль в горле, плюс дрожь в теле.",
     ["Submit Scarlet Relics to participate in the Dragon Crusade"] = "Передайте Алые реликвии, чтобы принять участие в походе против дракона.",
     ["<DecH>工艺：</>银白丝缎・钻光华彩・无瑕礼服\n祂的神国高悬于天际，祂的呓语缥缈在云端。唯有祈祷回响于大地之上，记录于圣典之间。"] = "<DecH>Работа:</>серебристо-белый шёлковый атлас · бриллиантовое сияние · безупречное платье\nЕго божественное царство высоко парит в небесах, его бормотание тает в облаках. Лишь молитвы отзываются эхом над землёй и записаны в священных книгах.",
+    ["Use to obtain <Highlight>Baptism Hairstyle</>\nCan also be exchanged for <Highlight>1</> God's Favored Card"] = "После использования вы получите <Highlight>Причёску Крещения</>\nМожно также обменять на <Highlight>1</> карту Божьей милости",
     ["最高的这一座常年静默，据说曾有净光在塔顶停留过。"] = "The tallest one remains silent all year round; it is said that pure light once lingered at the top of the tower.",
     ["本森，收收你那粉丝心态，宣传的时候说得那么夸张，现场她就平平无奇地走下了台阶！"] = "Benson, calm down with your fanboy attitude. You exaggerated so much when promoting her, but she just walked down the steps in such an ordinary way at the scene!",
     ["集齐15个可以获得秘偶舞王狒哥，也可用于秘偶舞王狒哥的培养。"] = "Collect 15 to obtain the marionette Dancing King Baboon Brother; they can also be used to upgrade the marionette Dancing King Baboon Brother.",

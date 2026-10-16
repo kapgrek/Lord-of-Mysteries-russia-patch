@@ -302,6 +302,7 @@ return {
     ["……算我多说。"] = "...Забудьте, что я сказал.",
     ["QTE+表演"] = "QTE + представление",
     ["Rebecca? You are in Backlund too?"] = "Ребекка? Ты тоже в Бэкланде?",
+    ["After use, gain the fancy idle animation: <Highlight>Ascending the Throne</>"] = "После использования вы получите особую анимацию ожидания: <Highlight>Восхождение на трон</>",
     ["棋子固有回蓝·弗莱"] = "Piece Innate Mana Regen: Frye",
     ["现实线第八章-时间飞速流转"] = "Reality Line Chapter 8 - Time flows rapidly",
     ["真是有趣的旅途，就是有点麻烦。他的东西都湿透了。"] = "What an interesting journey, though it's a bit troublesome. All his things are soaked through.",

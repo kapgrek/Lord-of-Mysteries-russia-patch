@@ -272,7 +272,8 @@ return {
     ["30% Health Shield"] = "Щит 30% здоровья",
     ["Prince"] = "Принц крови",
     ["You remembered?!"] = "Ты вспомнил?!",
-    ["叫他老头。"] = "Call him Old Man.",
+    ["叫他老头。"] = "Назвать его стариком.",
+    ["If you can swap, why bother growing? It would be so interesting for a beggar and a billionaire to simply swap places."] = "Если можно меняться, зачем взрослеть? Нищий и богач просто меняются местами — как забавно.",
     ["我必须记住自己是谁，记住自己该做什么，不能被迪伦取代……"] = "I must remember who I am, remember what I am supposed to do, and not be replaced by Dylan...",
     ["摧毁祭坛"] = "Destroy the altar",
     ["没错。而操纵这场恶作剧的序列3阿蒙分身，来源于一个交易。"] = "That's right. And the Sequence 3 Amon Avatar who orchestrated this prank originated from a deal.",
@@ -283,5 +284,5 @@ return {
     ["Tatum"] = "Татум",
     ["啊，理解理解！活动持续整月，欢迎随时来试！黄色结实，蓝色迅捷，棕色安静！"] = "Ах, понял, понял! Акция продлится весь месяц, присоединяйтесь в любое время! Желтый – крепкий, синий – быстрый, коричневый – тихий!",
     ["穿长裙的少女惊慌逃窜，残忍的开膛手正如阴影般死死跟踪……"] = "Девушка в длинном платье в панике убежала, жестокий Потрошитель преследовал ее, как тень...",
-    ["回去找露比"] = "Go back to find Ruby",
+    ["回去找露比"] = "Вернуться к Руби",
 }

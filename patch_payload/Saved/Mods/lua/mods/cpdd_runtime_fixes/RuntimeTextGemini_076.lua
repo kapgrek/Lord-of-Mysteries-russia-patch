@@ -297,6 +297,7 @@ return {
     ["LuaList(Id(Scene Type))"] = "LuaList(Id(场景类型))",
     ["The heavy rain last week washed away my farm; the barn and the livestock shed were completely destroyed!"] = "Ливень на прошлой неделе смыл мою ферму, амбар и хлев полностью разрушены!",
     ["中央车站补给"] = "Припасы Центрального вокзала",
+    ["Fine, fine, I'll take you."] = "Хорошо, хорошо, отведу тебя.",
     ["待响应"] = "Awaiting response",
     ["愚者揭示旅程的开端，世界见证旅途的圆满。\n\n非凡者完成双端登录，将分别领取奖励。而当两端齐聚时，将获得特别馈赠。"] = "The Fool reveals the beginning of the journey, and the World witnesses the completion of the Journey.\n\nBeyonders who complete the Login on both ends will receive rewards for each. When both ends are gathered, a Special Gift will be obtained.",
     ["是否删除当前选中的一键辅助方案？"] = "Delete the currently selected one-click Support scheme?",

@@ -262,6 +262,8 @@ return {
     ["<Highlight>Craft:</> Pitch-Black Velvet · Court Gown\nIn the height of the dynasty, the Gods came to offer congratulations. The cheers throughout the entire realm were brewed into a toast called Prosperity."] = "<Highlight>Мастерство:</> Чёрный как смоль бархат · Придворный наряд\nВ расцвет династии боги явились с поздравлениями. Ликование всего государства было сварено в тост под названием «Процветание».",
     ["VIP · Trading Firm inactive; the next stop is not a [Trading Firm]."] = "VIP · Торговый дом неактивен, следующая станция не [Торговый дом]",
     ["他利用我召唤出许多历史投影，那些投影却用靠垫闷死了他，还把他推下了楼！"] = "Он использовал меня, чтобы призвать множество исторических проекций, а эти проекции задушили его подушками и столкнули с лестницы!",
+    ["Go to the underground market"] = "Отправиться на подпольный рынок",
+    ["Participate in the dungeon <Highlight>The Emperor's Return (Hard)</>, and after completing the <Highlight>Corrupted Will</> phase, you have a chance to obtain the following equipment."] = "Пройдите подземелье <Highlight>Возвращение Императора (сложное)</> и завершите этап <Highlight>Оскверненная воля</>, чтобы с некоторым шансом получить следующее снаряжение.",
     ["Orientation: Pitch:"] = "Ориентация: Шаг:",
     ["Galilaia"] = "Галилайя",
     ["采集指定TemplateID的采集物  对象播放指定对白内容  玩家跨场景传送到指定Trigger"] = "Соберите указанный элемент TemplateID. Объект воспроизводит указанное содержимое диалога. Игрок телепортируется между сценами к указанному триггеру.",

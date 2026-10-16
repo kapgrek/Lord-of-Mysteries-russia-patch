@@ -250,7 +250,7 @@ return {
     ["<DecH>工艺：</>铂金织锦・珠钻刺绣\n水晶灯影下，觥筹交错间，你如铂金般闪耀。"] = "<DecH>Работа:</>платиновая парча · вышивка жемчугом и бриллиантами\nВ отблесках хрустальных люстр, среди звона бокалов ты сияешь, как платина.",
     ["But I think that {{gentleman|lady}} bringing up the rear is the real expert!"] = "Но, по-моему, {{господин|госпожа}}, прикрывающий отход, и есть настоящий мастер!",
     ["He almost ran into us just now; he might be hiding near King's Avenue."] = "Он только что чуть не столкнулся с нами, сейчас он, возможно, прячется возле Королевской аллеи.",
-    ["可补领错过的<Highlight>黑荆棘事件簿副本</>奖励，开启后可获得下列奖励"] = "You can claim missed <Highlight>Blackthorn Incident Log Dungeon</> rewards. Opening this will grant you the following rewards.",
+    ["可补领错过的<Highlight>黑荆棘事件簿副本</>奖励，开启后可获得下列奖励"] = "Можно получить пропущенные награды <Highlight>подземелья Дела Чёрного Тёрна</>. После открытия вы получите следующие награды.",
     ["码头初遇芬奇"] = "First meeting Finch at the Dock",
     ["迅捷命牌同装分档路由"] = "Swift Fate Card Same-Set Tier Route",
     ["终末猎杀-草丛17合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 17 Merged Concealment 02 (Includes 2 Original Ranges)",

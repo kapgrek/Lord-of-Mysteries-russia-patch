@@ -263,6 +263,8 @@ return {
     ["[Beginner Recommendation] Evernight Tarot"] = "[Для новичков] Таро Чёрной Ночи",
     ["Why, why did I forget? Why did I only remember after the performance ended?"] = "Почему, почему я забыл? Почему вспомнил только после конца представления?",
     ["It can also be interpreted as unfavorable and favorable. I'll give this pendulum to you; you can experience the finer details yourself."] = "Это можно истолковать и как неудачу, и как удачу. Этот маятник я дарю тебе, а подробности узнаешь сам.",
+    ["Epic Duel"] = "Эпическая дуэль",
+    ["It will hold up the inevitably arriving revelation, guiding fate to reveal the next unknown card."] = "Он возвысит неизбежно грядущее откровение и направит судьбу открыть следующую неизвестную карту.",
     ["爆炸伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>260%</> = {*d,F1690001,atkMin,2.6}点，菌丝总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>240%</> = {*d,F1690001,atkMin,2.4}点"] = "Explosion Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>260%</> = {*d,F1690001,atkMin,2.6} points, Total Mycelium Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>240%</> = {*d,F1690001,atkMin,2.4} points",
     ["脚下生风"] = "Wind at one's heels",
     ["获得<HighLight>2个随机共鸣徽章</>，1个装备重铸器和2金币。"] = "Gain <HighLight>2 random Resonance Emblems</>, 1 Equipment Reforger, and 2 Gold.",

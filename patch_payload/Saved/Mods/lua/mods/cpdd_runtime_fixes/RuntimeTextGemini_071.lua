@@ -263,6 +263,8 @@ return {
     ["<Highlight>Crafting:</> Silvery-White Silk - Diamond Radiance\nHis divine kingdom hangs high in the sky, and His whispers drift among the clouds. Only prayers echo above the earth, recorded within the sacred scriptures."] = "<Highlight>Мастерство:</> Серебристо-белый шёлковый атлас · Алмазное великолепие\nЕго божественное царство высоко парит в небе, Его бормотание мерцает в облаках. Лишь молитвы отзываются эхом над землёй и записаны в священных книгах.",
     ["<P_Heart>（天台上似乎有人想要 从高处跳下，希望他可以想通吧。）</>"] = "<P_Heart>(Кажется, на крыше кто-то собирается спрыгнуть вниз. Надеюсь, он передумает.)</>",
     ["<P_Heart>（思索）</>我相信你们，但是恶臭并没有消失。"] = "<P_Heart>(Задумчиво)</>Я вам верю, но вонь никуда не делась.",
+    ["Rematch Chest · Astrolabe User · Hard"] = "Сундук реванша · Владелец астролябии · Сложно",
+    ["Yes, you did very well."] = "Да, ты отлично справился.",
     ["我再也不演小丑了，每次演出都是自己杀死自己。"] = "I will never play the Clown again; every performance is like killing myself.",
     ["瞬移至技能射程内"] = "Teleport within the skill's range",
     ["礼堂又空又乱……"] = "The auditorium is empty and messy...",

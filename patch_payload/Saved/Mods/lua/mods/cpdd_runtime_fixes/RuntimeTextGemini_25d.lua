@@ -267,7 +267,7 @@ return {
     ["The president of the top-ranked club in the winning faction will personally hold the power of bestowal, granting glory to the meritorious who have accompanied them here, and distributing God-Chosen seats to the various clubs in this strategic server. If the distribution is not completed by the deadline, the God-Chosen seats will be issued automatically by the system."] = "Президент клуба, занявшего первое место в победившей фракции, лично возьмёт на себя право награждения, дарует славу заслуженным соратникам, прошедшим этот путь, и распределит места Избранных Богом между клубами этого стратегического сервера. Если распределение не будет завершено к сроку, места Избранных Богом будут выданы автоматически системой.",
     ["00-01经治疗后稍有恢复，但仍有<Warning>失控风险</>，建议本次问询后，暂停<Warning>一切</>直接接触。"] = "00-01 после лечения немного поправился, но всё ещё существует <Warning>риск потери контроля</>. После этого допроса рекомендуется приостановить <Warning>любой</> прямой контакт.",
     ["Actor4过肩"] = "Актёр 4: вид через плечо",
-    ["完全正确！"] = "Absolutely correct!",
+    ["完全正确！"] = "Совершенно верно!",
     ["巨人王庭战斧相邻溅射"] = "Giant King's Court Battle Axe Adjacent Splash",
     ["无尽主宰怎么获得"] = "How to obtain the Endless Master?",
     ["爆单·食铺失效，下一站不是【食铺】，物产出售价格-40%"] = "Explosion Order: Food Shop expired. The next stop is not a [Food Shop]; product selling price -40%.",

@@ -290,6 +290,8 @@ return {
     ["One-click generate test bot"] = "Создать тестового бота",
     ["亲切的模样令人倍感熟悉。仿佛只要有他在，再忙碌的日子，也能在一家人的闲谈中变得轻松。"] = "Его приветливый облик кажется до боли знакомым. Словно с ним рядом даже самые хлопотливые дни становятся легче в семейной беседе.",
     ["But I must also be extra careful; after all, I am still using Dylan's identity."] = "Но нужно быть особенно осторожным: ведь на мне всё ещё личность Дилана.",
+    ["Kalapon: Scum of Iron Cross Street—it is time to clear the area!"] = "Калапон: Отбросы с улицы Железного Креста — пора очистить территорию!",
+    ["The Hoarding Merchant who only sets off upon smelling the fragrance of flowers"] = "Торговый дом-накопитель, выступающий в путь, лишь учуяв аромат цветов",
     ["廷根西北站长"] = "Tingen Northwest Station Master",
     ["追星"] = "Star-chasing",
     ["Camilo"] = "Камило",

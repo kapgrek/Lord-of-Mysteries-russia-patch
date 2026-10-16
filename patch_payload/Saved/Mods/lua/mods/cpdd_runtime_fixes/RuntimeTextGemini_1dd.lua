@@ -292,6 +292,7 @@ return {
     ["<Highlight>Craft:</> Crimson Velvet · Magnificent Train · Court Gown\nIn the height of the dynasty, the Gods came to offer congratulations. The cheers throughout the entire realm were brewed into a toast called Prosperity."] = "<Highlight>Мастерство:</> Тёмно-красный бархат · Роскошный шлейф · Придворный наряд\nВ расцвет династии боги явились с поздравлениями. Ликование всего государства было сварено в тост под названием «Процветание».",
     ["他报复之后又会有怎样的结果？"] = "Чем обернётся его месть?",
     ["你入戏了……咳咳，都怪那瓶烈酒，我有点头疼。"] = "Ты вжился в роль... кхм-кхм, это всё из-за той бутылки крепкого, у меня немного болит голова.",
+    ["Intruder detected! Repeat, intruder detected! All units, tighten the perimeter!"] = "Обнаружен нарушитель! Повторяю, обнаружен нарушитель! Всем подразделениям, сужайте кольцо окружения!",
     ["挥动藤蔓横扫前方敌人。"] = "Swing the vines to sweep enemies in front.",
     ["被动技能列表"] = "Passive Skill List",
     ["败局补偿"] = "Compensation for Defeat",

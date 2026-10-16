@@ -274,7 +274,7 @@ return {
     ["<Highlight>Abilities</>: It can possess targets, influence inanimate objects, and initially control those mystical items that are not held by anyone and have not been infused with spirituality.\n<Highlight>Negative Effects</>: It must be fed with the holder's own flesh and blood during normal times, otherwise it will gradually grow eyes. Once this Sealed Artifact is intact, it will transform into an Evil Spirit. that crazily hunts down its original owner and hates all humans."] = "<Highlight>Способность</>: вселяется в цель, воздействует на неживые предметы и способна на первичный контроль над волшебными предметами, у которых нет владельца и которые не наполнены Духовностью.\n<Highlight>Негативный эффект</>: обычно её должен кормить владелец собственной плотью и кровью, иначе у неё постепенно вырастут глаза. А когда этот Запечатанный Артефакт цел, он превращается в безумного злого духа, преследующего прежнего хозяина и ненавидящего всех людей.",
     ["丽贝卡，黑夜女神教会值夜者小队，队员；由伦纳德全程陪同。"] = "Ребекка, участница отряда Ночных Ястребов Церкви Богини Вечной Ночи; Леонард сопровождает её всё время.",
     ["他原本的能力，都会因位格而增强，达到序列2甚至序列1。"] = "Все его прежние способности усилятся благодаря положению и достигнут Последовательности 2 или даже Последовательности 1.",
-    ["去<h>角落</>整理思绪"] = "Go to the <h>corner</> to gather your thoughts.",
+    ["去<h>角落</>整理思绪"] = "Отойти в <h>угол</> и собраться с мыслями",
     ["正义的裁决增幅"] = "Judgment of Justice Amplification",
     ["获取秘偶星象仪者"] = "Obtain marionette Astrolabe User",
     ["铁血徽章范围伤害"] = "Iron and Blood Badge Area Damage",

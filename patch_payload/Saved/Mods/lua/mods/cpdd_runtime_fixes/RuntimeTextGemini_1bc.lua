@@ -288,6 +288,8 @@ return {
     ["Yesterday the butler told me he had found a new garden villa; I want to rent it for a year first to see..."] = "Вчера дворецкий сказал, что нашёл новую усадьбу с садом; хочу сначала снять её на год, чтобы посмотреть...",
     ["<InvHighlight>女款</><InvDefault>以</><InvHighlight>红色束身礼裙</><InvDefault>为主，暗纹铺陈，白色领口褶边衔接胸前镂空纹饰。</>"] = "<InvHighlight>Женский вариант</><InvDefault> — это прежде всего</><InvHighlight> красное облегающее вечернее платье</><InvDefault>, украшенное тёмным узором, белая рюшевая отделка воротника соединяется с ажурным узором на груди.</>",
     ["使用后可获得<Highlight>战士头像</>，若拥有对应限时外观，可解除限时限制。"] = "После использования вы получите <Highlight>аватар Воина</>. Если у вас есть соответствующий временный облик, ограничение по времени будет снято.",
+    ["Use to obtain <Highlight>Avatar Frame: Child of Steam</>"] = "После использования вы получите <Highlight>Рамка аватара: Дитя пара</>",
+    ["Use to obtain <Highlight>Platinum Essence Set</>"] = "После использования вы получите <Highlight>Платиновый комплект</>",
     ["我当年是怕连累你们才……"] = "Back then, I was only trying to avoid implicating you all when I...",
     ["神威灼烧3"] = "Divine Might Burn 3",
     ["设置队列"] = "Set queue",

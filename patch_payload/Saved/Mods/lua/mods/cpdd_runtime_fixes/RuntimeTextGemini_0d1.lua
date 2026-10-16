@@ -271,6 +271,7 @@ return {
     ["No... Dylan!"] = "Нет... Дилан!",
     ["Temporary Description"] = "Временное описание",
     ["任意一方棋子阵亡时，罪恶廷根棋子回复<HighLight>3%</>最大生命值。"] = "Когда погибает фишка любой из сторон, фишки Порочного Тингена восстанавливают <HighLight>3%</> макс. ОЗ.",
+    ["The tower stands silent, shrouded in perpetual mist. It is said that from the summit, one can see the seven rays of pure light."] = "Башня безмолвно стоит, окутанная вечным туманом. Говорят, с её вершины можно увидеть семь лучей чистого света.",
     ["小枪触发debuff"] = "Small gun triggers debuff",
     ["终于有人不嫌弃我刺耳的腔调，来听我唠叨一番了。"] = "Finally, someone who doesn't mind my grating tone and is willing to listen to me ramble.",
     ["这里也是命运咖啡厅？"] = "Is this also the Fate Café?",

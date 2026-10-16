@@ -271,6 +271,8 @@ return {
     ["[Serial Number] 135407-00-01-0124"] = "[Номер] 135407-00-01-0124",
     ["...I plan to return to the old street."] = "...Я собираюсь вернуться на Старую улицу.",
     ["1.可快捷更换当前同框角色。\n2.列表中仅显示当前符合标准、可邀请进入同框的好友，确认选择后将直接完成更换。\n3.若邀请的好友符合羁绊特权，将自动使用羁绊特权的名额。"] = "1. Можно быстро заменить текущего персонажа в кадре.\n2. В списке показаны только друзья, которые соответствуют условиям и могут быть приглашены в кадр; после подтверждения выбора замена выполняется сразу.\n3. Если приглашённый друг соответствует привилегии уз, автоматически используется место по привилегии уз.",
+    ["Use the ability of the \"Book of the Past\" to reach the opposite side of the second floor"] = "Используйте способность «Книги Прошлого», чтобы добраться до противоположной стороны второго этажа",
+    ["Huh? Who is Miss Anna? Are you talking to me?"] = "А? Кто такая госпожа Анна? Ты со мной разговариваешь?",
     ["就选它吧。"] = "Let's choose this one.",
     ["没关系的，阁下。冒昧问一句，您并非帕金娜的粉丝吧？我看您对她，似乎没有那种见到偶像时该有的热切。 "] = "It's alright, Your Excellency. May I ask, you aren't a fan of Pakina, are you? I noticed that you don't seem to have the kind of enthusiasm one should have when meeting their idol.",
     ["灵性重压"] = "Spirituality Pressure",

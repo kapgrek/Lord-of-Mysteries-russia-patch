@@ -273,7 +273,7 @@ return {
     ["<P_Heart>（恶臭、深夜的秘密行动和呓语……很可能是非凡事件。）</>"] = "<P_Heart>(Вонь, тайные ночные дела и бормотание... Скорее всего, это потустороннее происшествие.)</>",
     ["伟大的主宰"] = "Великий Повелитель",
     ["Do you really want to know? My name is somewhat dangerous."] = "Ты правда хочешь знать? Моё имя довольно опасно.",
-    ["城堡升级后，铁路大亨也能选择更难的路线，风险和收益都更高"] = "After the Castle is upgraded, the Railway Tycoon can also choose more difficult routes, with both higher risks and higher rewards.",
+    ["城堡升级后，铁路大亨也能选择更难的路线，风险和收益都更高"] = "После улучшения замка Железнодорожный магнат сможет выбирать более трудные маршруты: и риск, и награда выше",
     ["拳课100"] = "Boxing Lesson 100",
     ["米莉小姐，你们已经停止施肥了吗？"] = "Miss Milly, have you stopped fertilizing?",
     ["草丛隐匿光环-草丛11"] = "Bush Concealment Aura - Bush 11",

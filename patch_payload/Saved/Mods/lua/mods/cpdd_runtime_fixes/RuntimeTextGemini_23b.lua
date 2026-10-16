@@ -284,7 +284,7 @@ return {
     ["<P_Heart>（Angelica's reaction seems normal. Let me observe the others a bit more.）</>"] = "<P_Heart>（Реакция Анжелики кажется нормальной. Понаблюдаю за остальными.）</>",
     ["2层死亡领域：495cm，处决低于20%生命的敌人"] = "Область смерти ур. 2: 495 см, казнь врагов с здоровьем ниже 20%",
     ["万都之都cs占位"] = "Город городов (заглушка CS)",
-    ["前往音乐厅"] = "Go to the concert hall",
+    ["前往音乐厅"] = "Отправиться в концертный зал",
     ["巨龟护佑"] = "Giant Turtle Protection",
     ["当前站点暂无俱乐部归属，无法修改税率"] = "The current station is not affiliated with any Club; the tax rate cannot be modified.",
     ["愿女神庇佑你。如果还有什么想问的，不必拘谨。"] = "May the Goddess protect you. If there is anything else you wish to ask, do not hesitate.",

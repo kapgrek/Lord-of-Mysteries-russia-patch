@@ -275,6 +275,7 @@ return {
     ["也没那么厉害。"] = "Он не так уж и силён.",
     ["Bestowing blessings at birth, and granting Slumber at parting. In the era when the Kingdom of God truly hung high in the sky, all living beings were bathed in grace from the moment of their baptism."] = "Даруя благословение при рождении и покой при расставании. В эпоху, когда Царство Божье и впрямь возвышалось в небесах, все живое с момента крещения пребывало в лучах милости.",
     ["Are you Ilo, the one who sent the letter?"] = "Ты Ило, который прислал письмо?",
+    ["In a single match, have Klein Moretti trigger ten Resonances."] = "За один матч активируйте десять резонансов Клейна Моретти.",
     ["神秘商店收购彩绘花瓶"] = "Mysterious Shop acquires Painted Vase",
     ["那可以试试朗齐休息日的特别酒单。"] = "Then you could try the special drink menu on Lonzi's day off.",
     ["邮差 邮差 邮差"] = "Postman Postman Postman",

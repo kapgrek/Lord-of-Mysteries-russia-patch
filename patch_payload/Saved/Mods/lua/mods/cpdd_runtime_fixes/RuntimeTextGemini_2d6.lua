@@ -267,6 +267,8 @@ return {
     ["与比自己高2个小段位的队友，一起匹配10次。"] = "Сыграйте 10 матчей с товарищем, чей ранг на 2 малые ступени выше вашего.",
     ["中景-右"] = "Средний план — справа",
     ["After use, there is a <Highlight>very small chance to obtain a Zero-Yuan Purchase Voucher</> or God's Descent materials: <Highlight>God's Contract, Spirit World Stardust, Angel's Feather, Wind Spirit's Breath, Mythical Cocoon, Cocoon Silk</>. There is a chance to obtain one of the following items: <Highlight>Supreme Beyonder Material, Holy Grail, Holy Grail (Bound), Viscountess Fragment, Viscountess, Ring: I Am Not the God of Gamblers, Strategic Pound, Historical Echo, Historical Crystal</>."] = "После использования есть <Highlight>крайне малый шанс получить чек на нулевую покупку</> или материалы нисхождения бога: <Highlight>Договор с богом, Звёздная пыль Мира Духов, Перо ангела, Дыхание духа ветра, Мифический кокон, Нить кокона</>. Есть шанс получить один из следующих предметов: <Highlight>Чистейшее потустороннее вещество, Святой Грааль, Святой Грааль (привяз.), Осколок виконтессы, Виконтесса, Кольцо: Я не бог азарта, Стратегический золотой фунт, Эхо истории, Кристалл истории</>.",
+    ["But he still couldn't stop."] = "Но он всё равно не мог остановиться.",
+    ["Complete a %s trade at <Chat_Highlight>%s</> for a profit of <Chat_Highlight>%s</>, earning <Chat_Highlight>%s%%</> at a unit price of <Chat_Highlight>%s</>"] = "Совершите в <Chat_Highlight>%s</> сделку «%s» с прибылью <Chat_Highlight>%s</>, заработав <Chat_Highlight>%s%%</> при цене за единицу <Chat_Highlight>%s</>",
     ["我在一家安保公司工作。"] = "I work at a security company.",
     ["拿走拿走，都归你了。"] = "Take it, take it all, it's all yours.",
     ["查看<h>剧场公告</>"] = "Examine <h>theater announcement</>",

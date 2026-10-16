@@ -270,6 +270,8 @@ return {
     ["But I haven't been on the job for long, I've only heard a few things about Klein..."] = "Но я и сам недавно на этой работе, слышал лишь немного о Клейне...",
     ["Changes in buying price"] = "Изменение цены покупки",
     ["于%s售卖出%d件%s"] = "В %s продано %d шт. %s",
+    ["Just now, a clear tributary of fate appeared in my chest. Only by finding the real Dylan can I reclaim my fate!"] = "У меня в груди только что появился чёткий приток судьбы. Только найдя настоящего Дилана, я смогу вернуть свою судьбу!",
+    ["That's great! Thank you, Captain Frye!"] = "Замечательно! Спасибо вам, капитан Фрай!",
     ["已获得本轮附加赛资格"] = "Qualified for this round of playoffs",
     ["您给我家送过面包！我哥亨利的学费，还是您补上的！"] = "You delivered Bread to my house! You even paid the tuition for my brother, Henry!",
     ["想找乐子，就去找桃乐丝小姐！"] = "If you want to find some fun, go look for Miss Dorothy!",

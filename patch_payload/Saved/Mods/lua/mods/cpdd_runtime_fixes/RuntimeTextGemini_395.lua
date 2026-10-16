@@ -253,6 +253,8 @@ return {
     ["<P_Heart>（赫密斯语）</>徘徊于界限彼方的无形之物啊，听我之名，让气息在此流动——"] = "<P_Heart>（На гермесском）</>О бесплотные, что блуждаете по ту сторону границы, услышьте моё имя и пусть здесь потечёт дыхание—",
     ["人偶店招聘："] = "Набор в лавку кукол:",
     ["A taste I have never had before."] = "Вкус, которого я никогда не пробовал.",
+    ["Tarot Klein Moretti Save 7 Increment"] = "Таро · Клейн Моретти · Ступень 7, прирост",
+    ["Celestial Amber - Fog"] = "Небесный янтарь · Туман",
     ["心灵灯塔无敌"] = "Mental Beacon Invincibility",
     ["我相信这种搭配会成为经典的！"] = "I believe this combination will become a classic!",
     ["我要一支草莓冰淇淋。"] = "I want a strawberry ice cream cone.",

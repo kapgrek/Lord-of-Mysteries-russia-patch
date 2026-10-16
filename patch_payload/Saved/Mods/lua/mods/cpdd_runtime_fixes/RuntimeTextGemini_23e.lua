@@ -243,6 +243,7 @@ return {
     ["买支<h>冰淇淋</>尝尝"] = "Купить <h>мороженое</>, попробовать",
     ["以洛薇雅为原型制作的迷你人偶，沉静的神态中透着坚定。无论长夜如何漫长，她都仍在为白银城寻觅着一线曙光的机会。"] = "Мини-фигурка по образу Ловии: в спокойном выражении лица чувствуется решимость. Как бы ни была длинна ночь, она всё ещё ищет для Серебряного города проблеск рассвета.",
     ["What is your name? Are you not with an adult?"] = "Как тебя зовут? Ты не с взрослыми?",
+    ["Tarot - Hugh, the Imperative Mage - Dilcha - Base"] = "Таро: «Законник» Сио Дереча, база",
     ["敌人阵亡时，距离其<HighLight>最近的己方棋子</>回复<HighLight>400点生命值</>。"] = "When an enemy dies, the <HighLight>nearest allied unit</> recovers <HighLight>400 Health</>.",
     ["星座的选择"] = "Choice of Constellation",
     ["梦境占卜图片2"] = "Dream Divination Image 2",

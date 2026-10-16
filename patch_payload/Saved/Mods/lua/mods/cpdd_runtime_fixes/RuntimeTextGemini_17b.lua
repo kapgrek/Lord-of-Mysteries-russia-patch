@@ -242,6 +242,8 @@ return {
     ["七星共鸣"] = "Резонанс семи звёзд",
     ["Talk to the \"Book of the Past\""] = "Поговорить с «Книгой прошлого»",
     ["But my divination tells me that these cases are not influenced by Beyonder factors."] = "Но моё гадание говорит, что на эти дела не влияют сверхъестественные факторы.",
+    ["The Hanged Man's Wave Strike"] = "Волновой удар Повешенного",
+    ["Law of Fame and Fortune"] = "Закон славы и богатства",
     ["爸爸不是一个好皇帝，也不是一个好父亲。我做出了太多错误的选择，伤害了太多我爱的人。但如果重来一次，我还是会选择保护你，哪怕你看不到，哪怕你恨我。\n        还有夏尔、博诺瓦……我的孩子们。愿你们能在这个我亲手改变过的世界里，找到属于自己的幸福。\n        我也许又要沉眠了。我不知道，哪一次道别，会成为真正的告别。但不要悲伤。我，罗塞尔·古斯塔夫，黄涛——即使死亡，也要死得轰轰烈烈！况且……谁说我真的死了呢？"] = "I was not a good emperor, nor was I a good father. I made too many errors in judgment and hurt too many people I loved. But if I could do it all over again, I would still choose to protect you, even if you couldn't see it, even if you hated me.\n        And Charles, Bernadette... my children. May you find your own happiness in this world I changed with my own hands.\n        I may have to slumber again. I don't know which farewell will become the final one. But do not feel Sadness. I, Roselle Gustav, Huang Tao—even in Dead, I will die with a bang! Besides... who says I'm truly dead?",
     ["——直到遇见本杰明。\n原来，父亲是非凡者。\n原来，父亲不是丢下自己和家人离开。\n那就交给本杰明吧，一个和父亲一样，具有“守护”意志的人。"] = "——Until meeting Benjamin.\nSo, Father was a Beyonder.\nSo, Father didn't leave by abandoning me and the family.\nThen, let's leave it to Benjamin, a person who, just like Father, possesses the will of a \"Guardian\".",
     ["【自走棋】-休·迪尔查-Location位移验证"] = "[Auto Chess] - Xio Derecha - Location Displacement Verification",

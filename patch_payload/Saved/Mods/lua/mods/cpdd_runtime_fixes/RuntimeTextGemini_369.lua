@@ -261,6 +261,7 @@ return {
     ["2 stacks of Death Domain: 495cm, Execution of enemies with less than 20% Health."] = "Область смерти ур. 2: 495 см, казнь врагов с здоровьем ниже 20%",
     ["But 'what' exactly? Right, tickets returned by others are fine too; I'm not picky about the seat."] = "Но что? Кстати, билеты, которые вернули другие, тоже подойдут, мне всё равно, какое место.",
     ["The champion who first cleared May Manor · Garden on Hard Mode has joined the party. Deep within the flower path, they vow to cleanse all sins."] = "Сильнейший первого прохождения Майского поместья · Сада на сложном режиме присоединился к отряду. В глубине цветочной тропы он клянется искоренить все грехи.",
+    ["Rematch Chest · Alienated Hound · Normal"] = "Сундук реванша · Мутировавшая гончая · Обычно",
     ["战略服凯旋公会：{{eventMessageParams.guildName}} 已开启花车巡游，<HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[前往庆祝]</>"] = "Strategic Server Triumphant Guild: {{eventMessageParams.guildName}} has started a float parade, <HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[Go to Celebrate]</>",
     ["贸易战完成3次委托"] = "Complete 3 commissions in Trade War",
     ["雪山北部"] = "North Snowy Mountain",

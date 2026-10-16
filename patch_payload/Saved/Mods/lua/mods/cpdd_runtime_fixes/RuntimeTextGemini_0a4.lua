@@ -254,7 +254,7 @@ return {
     ["<HighLight>Sell all units</>. Gain <HighLight>2 random Resonance Emblems</> and <HighLight>15 free refreshes</>."] = "<HighLight>Продать все фигуры</>, получить <HighLight>2 случайных значка резонанса</> и <HighLight>15 бесплатных обновлений</>.",
     ["...So I used to be an extraordinary person."] = "...Оказывается, когда-то я был необыкновенным человеком.",
     ["You should go back; I don't want to see another Apprentice repeat the same mistakes."] = "Возвращайся, не хочу, чтобы ещё один Ученик повторил ту же ошибку.",
-    ["咳咳，抱歉，它不是骂你，票还你。"] = "Ahem, sorry, it wasn't swearing at you. Here's your ticket back.",
+    ["咳咳，抱歉，它不是骂你，票还你。"] = "Кхм, простите, это не ругательство в ваш адрес. Вот ваш билет.",
     ["沙发区邓恩问伦纳德"] = "Sofa area, Dunn asking Leonard",
     ["没错！逃离旧命运，寻找新命运。说得太好了，干杯！"] = "That's right! Escape the old fate, seek a new fate. Well said, cheers!",
     ["Ismael"] = "Исмаил",

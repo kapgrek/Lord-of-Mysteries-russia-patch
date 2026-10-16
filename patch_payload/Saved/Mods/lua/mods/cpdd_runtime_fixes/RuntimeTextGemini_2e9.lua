@@ -280,6 +280,7 @@ return {
     ["他曾靠吃怪物勉强求生，但积累的毒素扭曲了他的神志和身体。"] = "Он когда-то с трудом выживал, питаясь монстрами, но накопленные токсины исказили его разум и тело.",
     ["Miss \"Ruby\" appears"] = "Появляется госпожа «Рубин»",
     ["Your consideration is correct. The Darkness of \"No Light\" and the Darkness of \"Purity\" are two different concepts."] = "Ты рассудил верно. Тьма «без света» и Тьма «чистая» — это два разных понятия.",
+    ["Mom, this uncle is amazing!"] = "Мама, этот дядя такой крутой!",
     ["怎么啦？"] = "What's wrong?",
     ["思考晋升序列"] = "Pondering advancement Sequence",
     ["有意思，你在同情他们？那你自己又在为什么而挣扎呢？"] = "Interesting, you're sympathizing with them? Then what are you struggling for yourself?",

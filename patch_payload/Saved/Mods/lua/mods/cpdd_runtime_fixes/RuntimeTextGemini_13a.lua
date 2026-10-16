@@ -273,6 +273,7 @@ return {
     ["<P_Heart>(Coughing awkwardly)</>We are very likely responsible for the stench the garden operator mentioned."] = "<P_Heart>(Неловко кашляет)</>Вонь, о которой говорил управляющий садом, вполне возможно, наших рук дело.",
     ["66/68 Equipment Level Brand Equipment Random Box"] = "Случайный ящик клеймёного снаряжения 66/68 ур.",
     ["Obtain all titles and honorifics with one click; BY_GRANT types expire after seven days by default."] = "Получить все звания и титулы разом. Тип BY_GRANT по умолчанию истекает через семь дней",
+    ["Use to obtain <Highlight>Dynamic Namecard Theme: Chanis Gate</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Врата Чанис»</>",
     ["幽邃"] = "Abyssal",
     ["您好，我是马蒂尼，是这儿的侍酒师。"] = "Hello, I am Martini, the sommelier here.",
     ["战功排行榜登顶本途径第一名"] = "Reach Rank 1 in this Pathway on the Battle Merit Leaderboard",

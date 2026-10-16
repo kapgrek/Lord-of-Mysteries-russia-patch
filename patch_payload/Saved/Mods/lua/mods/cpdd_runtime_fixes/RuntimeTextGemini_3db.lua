@@ -273,6 +273,8 @@ return {
     ["……这张悲喜剧面具名为“戏剧大师”，对应学徒途径序列8 戏法大师。戴上面具后，使用者会获得相应的序列能力。"] = "...Эта трагикомическая маска называется \"Мастер Драмы\", соответствует Пути Ученика, Последовательность 8, Трикстер. Надев маску, пользователь получает соответствующие способности Последовательности.",
     ["[Placeholder] Go to the Water Theater to check tickets"] = "[Заглушка] Проверить билеты в Водном театре",
     ["“火花”"] = "«Искра»",
+    ["Ahem! No problem, it's just that this job is quite troublesome. We need to make some preparations first, and you..."] = "Кхм! Без проблем, только работа хлопотная, нам надо сперва подготовиться, а вы пока...",
+    ["Alright, I will."] = "Хорошо, я так и сделаю.",
     ["疾风骤雨"] = "Violent storm",
     ["立即获得<HighLight>每种1费棋子各1个</>。"] = "Immediately gain <HighLight>1 of every 1-cost unit</>.",
     ["车队等级达到24级"] = "Caravan level reaches 24",

@@ -256,6 +256,8 @@ return {
     ["Dear Beyonder:\nYou have not committed any further violations after paying the security deposit. The previously paid security deposit has been converted into an equivalent amount of Bound Gold Pound and returned to your mailbox."] = "Дорогой Потусторонний!\nВы не допускали повторных нарушений после внесения залога, поэтому внесенный ранее залог преобразован в равное количество привязанных золотых фунтов и возвращен на вашу почту.",
     ["你不是说自己刚见过他？"] = "Разве ты не говорил, что только что его видел?",
     ["你真是伟大的救星！"] = "Ты поистине великий спаситель!",
+    ["Chamber of Revelation"] = "Палата Откровения",
+    ["Alright, you look like you're in good spirits."] = "Хорошо, выглядишь бодрым.",
     ["幽灵画框"] = "Ghostly Picture Frame",
     ["短时间内无法再次触发小枪"] = "Cannot trigger the small gun again for a short period",
     ["禁止非凡伤人"] = "Beyonder attacks on others prohibited",

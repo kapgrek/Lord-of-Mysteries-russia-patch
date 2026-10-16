@@ -246,6 +246,7 @@ return {
     ["        That was a life that might have been ordinary and dull, but one that can never be returned to.\n        My homeland..."] = "та жизнь, быть может, была обычной и скучной, но к ней уже не вернуться.\nРодина моя...",
     ["s%的车库"] = "Гараж s%",
     ["不是约好在咖啡厅外见面吗？"] = "Разве мы не договорились встретиться возле кофейни?",
+    ["Use to obtain <Highlight>Avatar: Seer</>"] = "После использования вы получите <Highlight>аватар «Провидец»</>",
     ["我明白了，死者因窒息而死，坠楼只是伪装！"] = "I understand now. The deceased died of suffocation; the fall was merely a disguise!",
     ["晋升任务-光之祭司-进入战斗前"] = "Advancement Quest - Priest of Light - Before entering combat",
     ["精良机械"] = "Fine Machinery",

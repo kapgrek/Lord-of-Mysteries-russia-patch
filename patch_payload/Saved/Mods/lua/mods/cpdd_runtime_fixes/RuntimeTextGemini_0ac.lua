@@ -247,7 +247,7 @@ return {
     ["Sir, please also look at this. The raw material is gum from the Southern Continent, please try it."] = "Сударь, взгляните и на это. Сырьё — жевательная резинка с Южного континента, прошу, попробуйте.",
     ["No, that's not it."] = "Н-нет, это не так.",
     ["他们是被……魅惑了？看来是魔女力量的影响。先打败他们！"] = "Их... очаровали? Похоже, это влияние силы Демоницы. Сначала победим их!",
-    ["使用相机"] = "Use Camera",
+    ["使用相机"] = "Использовать камеру",
     ["您的语音房身份标签已被设置为%s"] = "Your voice room identity tag has been set to %s",
     ["战法徽章生命切换"] = "Tactics Badge Health Switch",
     ["等待脚踏车现身"] = "Wait for the bicycle to appear",

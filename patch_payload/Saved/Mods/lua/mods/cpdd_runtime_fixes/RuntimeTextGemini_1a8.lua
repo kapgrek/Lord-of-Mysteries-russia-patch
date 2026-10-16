@@ -263,6 +263,8 @@ return {
     ["<P_Heart>(Now I remember! I saw him in the fog of history! He is Mr. Fool's teacher at Hoy University—Azik Eggers!)</>"] = "<P_Heart>(Вспомнил! Я видел его в тумане истории! Это учитель господина «Шута» в Университете Хой, Азик Эггерс!)</>",
     ["<P_Heart>（扶额）</>难道天上真的会掉迪西馅饼吗？"] = "<P_Heart>(Хватается за лоб)</>Неужели пироги Диси и правда падают с неба?",
     ["Death Knell Weakness Pursuit"] = "Преследование слабости Погребального звона",
+    ["Creator of all, God Almighty and Omniscient, we are here, waiting once again for Your light to shine upon the earth."] = "Творец всего сущего, всеведущий и всемогущий Господь, мы здесь и вновь ждём, когда Твой свет озарит землю.",
+    ["If the next stop <LightHighlight>is [Food Shop]</>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">[Fine Oil Painting]</> currently held increases by <LightHighlight>100%</>; otherwise, the selling price of goods is <LightHighlight>-40%</>."] = "Если следующая остановка <LightHighlight>— [Лавка еды]</>, количество имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">[Небольших изысканных картин маслом]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
     ["您也是一位“学徒”？"] = "Are you also an Apprentice?",
     ["您是一位序列1的天使？！"] = "You are a Sequence 1 Angel?!",
     ["感谢食堂的朋友们一直以来的支持！而我希望更多人吃到我做的菜，所以在廷根城内支起了一个小摊，女神庇佑，我们会再次相见！"] = "Thank you to my friends at the cafeteria for your continued support! I hope more people can taste my cooking, so I've set up a small stall in Tingen. May the Goddess protect you, and we shall meet again!",

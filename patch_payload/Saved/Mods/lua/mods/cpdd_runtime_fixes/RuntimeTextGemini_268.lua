@@ -311,6 +311,7 @@ return {
     ["<P_Heart>（这就是引起灵性直觉的来源……的确，它并没什么恶意。既然这样，就不打扰它了。）</>"] = "<P_Heart>（Вот источник моей духовной интуиции… Да, злого умысла в нём нет. Тогда не буду его тревожить.）</>",
     ["Amusement Health Gift of the Dead"] = "Дар жизни потехи мертвых",
     ["Using fantasy as ink and Inspiration as a guide, whatever is written becomes a story."] = "Фантазия — чернила, вдохновение — проводник: всё, что выведет перо, станет историей.",
+    ["Primordial Black Flame Healing Prohibition"] = "Запрет лечения изначальным чёрным пламенем",
     ["打开后随机获得1件<Highlight>68装等</>的<Highlight>竞技倾向</>橙色装备。"] = "Open to randomly receive 1 piece of <Highlight>Competition-oriented</> orange Equipment with <Highlight>Item Level 68</>.",
     ["本周期内首次获得征服声望值"] = "Obtain Conquest Prestige points for the first time within this cycle.",
     ["棋子固有回蓝·戴里克·伯格·2星"] = "Piece Innate Mana Regen: Derrick Berg 2-Star",

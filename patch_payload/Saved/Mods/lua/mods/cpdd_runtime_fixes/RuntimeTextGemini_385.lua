@@ -268,6 +268,7 @@ return {
     ["{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>君临·火焰</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Владычество · Огонь</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["{{player.name}}的神降仪式获得了愚者先生的恩赐——<Chat_Highlight>圣光的真知</>！赞美祂！<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[前往赞美]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["[Marionette Skill] Worm of Star - Punishment"] = "[Навык марионетки] Звёздный червь: Кара",
+    ["Original Work: Life of Oblivion"] = "Первоисточник: Забытая жизнь",
     ["对不起！对不起！卡尔！我只能当群演！我……我改变不了命运！"] = "I'm sorry! I'm sorry! Karl! I can only be an extra! I... I cannot change fate!",
     ["思绪随旋律飘荡，在回忆与现实间游走。"] = "Thoughts drift with the melody, wandering between memories and reality.",
     ["邓恩好感度达到4级解锁"] = "Unlocked when Dunn's favorability reaches level 4.",

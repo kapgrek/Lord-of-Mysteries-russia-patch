@@ -300,7 +300,7 @@ return {
     ["Obtain 1 Beyonder material with <Hand of God> trait"] = "Получите 1 Потусторонний материал со свойством <Рука бога>",
     ["<Highlight>Holder</>: Church of the Night.\n<Highlight>Ability</>: Can erase others' memories or observe the internal situation of 1-80.\n<Highlight>Negative Effect</>: Degenerates into an \"amnesiac\" who has to relearn how to eat and drink."] = "<Highlight>Владелец</>: Церковь Ночи.\n<Highlight>Способность</>: может стирать чужие воспоминания или наблюдать за обстановкой внутри 1-80.\n<Highlight>Негативный эффект</>: деградация до «потерявшего память», которому приходится заново учиться есть и пить.",
     ["丝绒帷幕后响起悠扬舞曲，镀金时代的余韵犹存。"] = "За бархатным занавесом звучит напевная танцевальная мелодия, отзвук Позолоченного века всё ещё жив.",
-    ["使用后获得<Highlight>动态名片主题·铁与血之歌</>"] = "Use to obtain <Highlight>Dynamic Namecard Theme: Song of Iron and Blood</>",
+    ["使用后获得<Highlight>动态名片主题·铁与血之歌</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Песнь железа и крови»</>",
     ["点击此处穿戴神话武器外观。"] = "Click here to equip a Mythical Weapon appearance.",
     ["罗塞尔Boss困难-1&2阶段-计算结算AOE"] = "Roselle Boss Hard - Stages 1 & 2 - Calculation Settlement AOE",
     ["终末猎杀-草丛02逐簇隐匿04"] = "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 04",

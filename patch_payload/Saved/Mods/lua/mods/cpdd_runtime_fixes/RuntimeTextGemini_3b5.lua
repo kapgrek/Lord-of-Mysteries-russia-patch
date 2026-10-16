@@ -262,6 +262,7 @@ return {
     ["但有人告诉我，如果没有配角，戏剧就无法成立，小角色有小角色的魅力。"] = "Но мне говорили, что без второстепенных ролей пьеса не состоится, и у маленьких ролей есть своё очарование.",
     ["你怎么了？发生什么事了吗，芬奇？"] = "Что с тобой? Что-то случилось, Финч?",
     ["You push a Push Cart at the coal plant during the day, move props backstage at the theater after dark, and practice your acting in front of a Mirror in the middle of the night... is it useful?"] = "Днём ты толкаешь тележки на угольном заводе, с наступлением темноты таскаешь реквизит за кулисами театра, а посреди ночи возвращаешься домой и репетируешь игру перед зеркалом... Есть ли в этом толк?",
+    ["If the next stop <LightHighlight>is [Trading Post]</>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">[Chilled Snow Shell Slices]</> currently held increases by <LightHighlight>150%</>; otherwise, the selling price of goods is <LightHighlight>-40%</>."] = "Если следующая остановка <LightHighlight>— [Торговый дом]</>, количество имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">[Охлаждённых ломтиков снежного моллюска]</> увеличивается на <LightHighlight>150%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
     ["弗莱-迷你人偶"] = "Frye Mini-Figurine",
     ["时空之门3"] = "Door of Space-Time 3",
     ["真是位细心的{{先生|女士}}。你在疑惑，脱离了粉丝的身份，我为什么要帮助一位陌生人？"] = "What a thoughtful {{gentleman|lady}}. You're wondering, now that I'm no longer a fan, why would I help a stranger?",

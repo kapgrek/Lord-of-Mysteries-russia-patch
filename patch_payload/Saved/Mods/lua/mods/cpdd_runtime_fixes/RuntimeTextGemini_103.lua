@@ -258,7 +258,7 @@ return {
     ["<Assistant_Title1>【踏浪而来】</>\n<Assistant_Title2>描述：</>神眷时装\n<Assistant_Title2>使用：</>使用后获得踏浪而来套装，可点击<Assistant_System>外观-换装</>查看并使用，也可兑换为<Assistant_Red>2</>张神眷牌。\n<Assistant_Title2>获取：</>通过<Assistant_System>召唤-灵界焕容</>获得，或在<Assistant_System>美神馈赠商店</>中使用<Assistant_Red>2</>张神眷牌兑换"] = "<Assistant_Title1>【Прибытие с волнами】</>\n<Assistant_Title2>Описание:</>костюм Божьей милости\n<Assistant_Title2>Использование:</>после использования вы получите комплект «Прибытие с волнами»; его можно посмотреть и надеть через <Assistant_System>Внешность — Переодевание</>, а также обменять на <Assistant_Red>2</> Карты Божьей милости.\n<Assistant_Title2>Получение:</>выпадает в <Assistant_System>Призыв — Преображение Мира Духов</> или обменивается в <Assistant_System>Магазине даров Богини Красоты</> на <Assistant_Red>2</> Карты Божьей милости",
     ["仿古希腊式的方石柱，端正挺拔，稳稳承托高处的重量。"] = "Квадратная каменная колонна в духе Древней Греции, стройная и прямая, надёжно держащая вес наверху.",
     ["Use to befriend Klein Moretti."] = "После использования можно подружиться с Клейном Моретти.",
-    ["使用后获得<Highlight>动态头像・红与黑</>"] = "Use to obtain <Highlight>Animated Avatar: Red and Black</>",
+    ["使用后获得<Highlight>动态头像・红与黑</>"] = "Использовать, чтобы получить <Highlight>анимированный аватар «Красное и чёрное»</>",
     ["已退出共演"] = "Exited co-performance",
     ["我们挤在破公寓里想过无数次，攒够钱就坐游轮去贝克兰德，看看塔索克河的风景。"] = "We huddled in a dilapidated Apartment and thought countless times about saving enough money to take a cruise to Backlund and see the scenery of the Tussock River.",
     ["棋子固有回蓝·卡尔·埃德加"] = "Chess Piece Innate Mana Regen: Karl Edgar",

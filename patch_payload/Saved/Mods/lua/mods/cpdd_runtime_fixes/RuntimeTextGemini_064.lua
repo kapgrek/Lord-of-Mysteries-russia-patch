@@ -273,6 +273,8 @@ return {
     ["After the President sets the parade fleet list, the mounts currently equipped by the members will be used directly to participate in the float parade. If members need to change the mount for the float parade, please be sure to equip the correct mount before the President confirms the parade fleet list."] = "После того как президент задаст список колонны парада, участники выйдут на парад платформ на своих текущих экипированных транспортных средствах. Если участнику нужно сменить транспорт для парада, обязательно экипируйте нужный до того, как президент подтвердит список колонны.",
     ["体术"] = "Боевые искусства",
     ["You never said you had amnesia..."] = "Ты никогда не говорил, что потерял память...",
+    ["Ahem, is there something you need, {{playername}}?"] = "Кхм, что-то случилось, {{playername}}?",
+    ["Sitting here, I remembered many things. I remembered the first time I held her, remembered how small she was, her tiny hand clutching my finger, smiling at me."] = "Сидя здесь, я вспомнил многое. Вспомнил, как впервые взял её на руки, какой она была крошечной, как её маленькая ручка сжимала мой палец, а она мне улыбалась.",
     ["那我们先去问问马戏团的人！"] = "Then let's go ask the circus people first!",
     ["三星死亡领域二阶"] = "Three-Star Dead Domain Tier 2",
     ["Daliana"] = "Дарлена",

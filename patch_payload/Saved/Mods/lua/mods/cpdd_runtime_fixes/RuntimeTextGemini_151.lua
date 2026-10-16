@@ -293,6 +293,7 @@ return {
     ["{{PlayerName}}：等等！呃，头好痛，历史投影变成了……我？！"] = "{{PlayerName}}: постойте! Ох, голова так болит... историческая проекция превратилась в... меня?!",
     ["Form a team of two, and both must finish in the top 6."] = "Команда из двух человек, оба должны войти в топ-6.",
     ["你请我吃冰淇淋，我也请你“吃”个冰淇淋。"] = "Ты угостил меня мороженым, а я «угощу» мороженым тебя.",
+    ["Will said that Amon's true body is the second son of the Ancient Sun God, born as a King of Angels of the Error Pathway."] = "Уилл сказал, что истинное тело Амона — второй сын Древнего бога Солнца, с рождения король ангелов неверного Пути Ошибки.",
     ["寻找马的踪迹"] = "Find traces of the horse",
     ["怪物_西迦"] = "Monster_Xiga",
     ["战法8人开战增益"] = "Tactics 8-Person Battle Start Buff",

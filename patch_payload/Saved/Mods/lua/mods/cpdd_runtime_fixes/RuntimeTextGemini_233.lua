@@ -249,6 +249,7 @@ return {
     ["Me? I... I am responsible for soliciting customers here, I can't leave, I can't leave, hehe..."] = "Я? Я... я тут отвечаю за привлечение посетителей, не могу отойти, не могу отойти, хе-хе...",
     ["5231174 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231174   Личный тестовый план Ван Синъи   Одиночный план",
     ["It wasn't just me who did it; it could have been other versions of me—to be precise, a group of \"us\"."] = "Это сделал не только я, а, возможно, и другие «я». Точнее, целая группа «нас».",
+    ["Use to obtain <Highlight>Join Animation: Ripple of Fate</>"] = "Использовать, чтобы получить <Highlight>анимацию входа в отряд «Рябь судьбы»</>",
     ["异常之后"] = "After the Anomaly",
     ["我有一个猜测。"] = "I have a guess.",
     ["拟真驾驶"] = "Realistic Driving",

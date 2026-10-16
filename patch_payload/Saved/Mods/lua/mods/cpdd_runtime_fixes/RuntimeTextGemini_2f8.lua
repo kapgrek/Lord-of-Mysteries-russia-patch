@@ -266,6 +266,7 @@ return {
     ["（回忆）晋升仪式要求选择、观察并绘制一个星座的全幅图景，还要掌握对应的全部神秘学知识。"] = "(Воспоминание) Ритуал продвижения требует выбрать созвездие, понаблюдать за ним и нарисовать его полную картину, а также освоить все связанные с ним оккультные знания.",
     ["……我来了。"] = "...Я пришёл.",
     ["3 stacks of Death Domain: 440cm, execute enemies with less than 25% Health"] = "3 слоя Области Смерти: 440 см, казнь врагов с запасом здоровья ниже 25%",
+    ["Go and call Lawis in"] = "Позвать Лависа",
     ["当前客户端拥有tab锁定目标"] = "The current client has a tab-locked target.",
     ["当然！还为您搭配了刚出炉的烤土豆……"] = "Of course! I've also paired it with freshly baked potatoes for you...",
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>300%</> = {*d,F1690001,atkMin,3}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>7%</> = {*d,F1690001,maxHp,0.07}点"] = "Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>300%</> = {*d,F1690001,atkMin,3}, Shield: <img id=\"01\" width=\"40\" height=\"40\"/>Max Health × <HighLight>7%</> = {*d,F1690001,maxHp,0.07}",

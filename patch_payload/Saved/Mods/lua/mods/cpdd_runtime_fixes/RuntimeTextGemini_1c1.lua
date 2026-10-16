@@ -283,6 +283,7 @@ return {
     ["丽贝卡午后"] = "Ребекка после полудня",
     ["以巨灵之力重踏前方敌人，造成{*d,F1690001,atkMin,50}点攻击伤害并击退，自身获得<HighLight>70%</>伤害减免，持续<HighLight>6</>秒。"] = "Тяжело топчет врагов впереди силой великана, нанося {*d,F1690001,atkMin,50} ед. урона атаки и отбрасывая их. Вы получаете <HighLight>70%</> снижение урона на <HighLight>6</> сек.",
     ["佩戴数量<HighLight>1/3</>"] = "Надето: <HighLight>1/3</>",
+    ["Anthem of Courage Tier 3 Mark"] = "Метка 3-го уровня «Гимна отваги»",
     ["歌女已然变为一名强壮的反抗者男性"] = "The songstress has transformed into a strong, rebellious man.",
     ["毛绒绒的兔耳装饰，带来与众不同的灵动与可爱。"] = "The fluffy rabbit ear decoration brings a unique sense of liveliness and cuteness.",
     ["洗衣妇、裁缝学徒、钟表匠......他们的失忆，是否和我失忆有关联？"] = "Washerwoman, Apprentice tailor, clockmaker... Is their amnesia related to my own?",

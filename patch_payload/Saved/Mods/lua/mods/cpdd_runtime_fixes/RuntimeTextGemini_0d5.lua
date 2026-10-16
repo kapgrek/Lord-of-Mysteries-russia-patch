@@ -254,6 +254,8 @@ return {
     ["It was an instructor named Azik. We were very close. It's been so long since we last spoke; I wonder how he's doing."] = "Это был преподаватель по имени Азик. Мы были очень близки. Мы так давно не общались; интересно, как у него дела.",
     ["工厂女鬼视野模板"] = "Шаблон обзора призрака с фабрики",
     ["[Brawl Report] Your projection <PVPHighlight>%s</> defeated <PVPHighlight>%s</>'s projection <PVPHighlight>%s</>, gaining <PVPHighlight>%s</> points"] = "[Сводка схватки] Ваша проекция <PVPHighlight>%s</> победила проекцию <PVPHighlight>%s</> игрока <PVPHighlight>%s</> и получила очков: <PVPHighlight>%s</>",
+    ["Rematch"] = "Реванш",
+    ["Oh chef, my chef, where are you..."] = "Повар, ох, повар, где ты...",
     ["当前参与人数未达到最大参与队列人数，是否确认开启巡游？"] = "The current number of participants has not reached the maximum queue size. Confirm to start the tour?",
     ["我认识你，但你假装不认识我。咳咳——"] = "I know you, but you are pretending not to know me. *Cough, cough*—",
     ["抱歉，但请我吃冰淇淋，你会有好运的。"] = "Sorry, but if you treat me to ice cream, you will have good luck.",

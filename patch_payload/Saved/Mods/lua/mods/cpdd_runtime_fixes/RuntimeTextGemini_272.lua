@@ -252,6 +252,8 @@ return {
     ["英雄外城2材料"] = "Материалы Внешнего города героев 2",
     ["...Mm!"] = "...Угу!",
     ["似乎理清了状况，冰淇淋帮了大忙。"] = "Кажется, ситуация прояснилась. Мороженое очень помогло.",
+    ["Tangible Fate"] = "Судьба обретает форму",
+    ["Lost Musical Note - Find Frye"] = "Потерянная нота: найти Фрая",
     ["彩绘花瓶运输"] = "Painted Vase Transport",
     ["我叫{{PlayerName}} ，克莱恩·莫雷蒂先生指引过我。"] = "My name is {{PlayerName}}, and I was guided by Mr. Klein Moretti.",
     ["正常服饰油麦家族小丑演员芬奇，朝游乐场方向跑去；\n男演员迪伦提着箱子，下船后朝金玫瑰方向离开；\n《伯爵归来》音乐版乐团，指挥赫莲娜和主唱琼斯及其他乐团成员依次登上马车，朝音乐厅方向离开。"] = "Finch, a Clown actor from the Normal Attire Omai Family, runs toward the amusement park;\nMale actor Dylan, carrying a suitcase, leaves toward the Golden Rose after getting off the ship;\nThe \"Return of the Count\" musical troupe, conductor Helena, lead singer Jones, and other troupe members board the Carriage one by one and leave toward the concert hall.",

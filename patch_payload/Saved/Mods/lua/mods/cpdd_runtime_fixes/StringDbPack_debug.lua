@@ -750,7 +750,7 @@ return {
     ["切形态2-治疗切输出"] = "Форма разреза 2 – обработка нарезки",
     ["剥面人"] = "Стриппер для лица",
     ["剥面人-法术代理"] = "Монстр, раздевающий лицо - Агент заклинаний",
-    ["勇气赞歌"] = "Anthem of Courage",
+    ["勇气赞歌"] = "Гимн отваги",
     ["勇气赞歌1阶法术代理"] = "Anthem of Courage Tier 1 Spell Proxy",
     ["勇气赞歌2阶法术代理"] = "Anthem of Courage Tier 2 Spell Proxy",
     ["勇气赞歌3阶法术代理"] = "Anthem of Courage Tier 3 Spell Proxy",

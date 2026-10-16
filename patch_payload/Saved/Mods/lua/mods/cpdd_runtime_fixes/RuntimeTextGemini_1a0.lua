@@ -267,6 +267,7 @@ return {
     ["5230043   恶龙酒吧后巷   位面"] = "5230043   Задний переулок бара «Злой дракон»   План",
     ["[Strategy Server] In progress. Once any of your cooperative relationships reach their peak, you can unlock [Fate Tributary]. Activating [Fate Tributary] will grant more attributes.\nNote: The attributes of the Fate Tributary only take effect on the Strategy Server."] = "На [стратегическом сервере]. Когда любые ваши отношения совместного боя достигнут предела, открывается [приток судьбы]. Активация [притока судьбы] даёт больше характеристик.\nВнимание: характеристики притока судьбы действуют только на стратегическом сервере.",
     ["不知道，总不至于是一篇小说。"] = "Не знаю, не может же это быть роман.",
+    ["Use to obtain <Highlight>Display Action: Leisurely Stroll</>\nDuplicate acquisitions will be automatically converted into 100 Bound Gold Pounds"] = "После использования вы получите <Highlight>Действие стенда: Неспешная прогулка</>\nПовторное получение автоматически превратится в привязанные золотые фунты ×100",
     ["我……我刚才……阿蒙他？！"] = "I... I just... Amon, he?!",
     ["现在也不是咱们谈好价格的日子呀。"] = "Now is not the day for us to discuss the price either.",
     ["芒果"] = "Mango",

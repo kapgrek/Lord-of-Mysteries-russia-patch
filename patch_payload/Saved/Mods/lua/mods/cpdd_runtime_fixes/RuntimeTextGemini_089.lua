@@ -257,6 +257,8 @@ return {
     ["(The smell of Lower Street... the stench of sweat, the damp smell of mold, and the scent of burning coal and firewood"] = "(Запах Нижней улицы… вонь пота, сырая плесень и запах горящего угля и дров",
     ["……H-hello?"] = "...З-здравствуйте?",
     ["For yourself and allies within <HighLight>1</> tile, restore <Yellow>24</> Health and increase Defense by <HighLight>6</> for <HighLight>4</> seconds. You randomly gain a surplus benefit for <HighLight>6</> seconds: increase Attack and Attack Speed by <HighLight>10%</>; or gain a <Yellow>60</> Shield and <HighLight>8</> Defense; or restore <Yellow>36</> Health and <HighLight>8</> Mana and gain a <Yellow>24</> Shield."] = "Восстанавливает себе и союзникам в радиусе <HighLight>1</> клетки <Yellow>24</> ед. здоровья и повышает защиту на <HighLight>6</> ед. на <HighLight>4</> сек. Сам получает случайный бонус на <HighLight>6</> сек.: атака и скорость атаки повышаются на <HighLight>10%</>, или <Yellow>60</> ед. щита и <HighLight>8</> ед. защиты, или восстановление <Yellow>36</> ед. здоровья, <HighLight>8</> ед. маны и <Yellow>24</> ед. щита.",
+    ["Obtain <Pass>%d</> more performance to surpass\nfriend's <Pass>%d</>th place <Pass>%s</>"] = "Наберите ещё <Pass>%d</> очков заслуг, чтобы обогнать\nместо <Pass>%d</> среди друзей <Pass>%s</>",
+    ["Spellcasting Growth for 2 people"] = "Колдовство: рост заклинания на 2 игроков",
     ["我真的很羡慕他。"] = "I really envy him.",
     ["点击使用，可使用推荐阵容"] = "Click to use, you can use the recommended lineup",
     ["看见刚刚离开剧场的那位绅士了吗？他有意为剧场出资，你之前想要的那些舞台道具都能换新的了……"] = "Do you see that gentleman who just left the theater? He intends to fund the theater, so all those stage props you wanted before can be replaced with new ones...",
