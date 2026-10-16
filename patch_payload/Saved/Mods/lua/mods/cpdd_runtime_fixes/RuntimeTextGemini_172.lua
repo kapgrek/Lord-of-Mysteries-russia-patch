@@ -283,7 +283,7 @@ return {
     ["He is laughing at me for signing the contract for Dylan. What did I sign? An extra's contract. Why did I sign a contract?"] = "Он смеётся надо мной за то, что я подписал контракт вместо Дилана. Что я подписал? Контракт статиста. Почему я вообще подписал контракт?",
     ["可天气太坏了，万都之都号航行受阻，只能靠岸等暴风雨过去，所以现在才到。"] = "Но погода была слишком плохой, «Город городов» не мог плыть дальше и встал у берега пережидать бурю, поэтому только сейчас прибыл.",
     ["Four-Way League Spawn Point Protection Aura"] = "Аура защиты точки возрождения Лиги четырёх сторон",
-    ["暮城铁甲防御层"] = "Twilight City Iron Armor Defense Layer",
+    ["暮城铁甲防御层"] = "Защитный слой железных доспехов Сумеречного города",
     ["罗塞尔Boss困难-3阶段-镜像数据-数字显示"] = "Roselle Boss Hard - Phase 3 - Mirror Data - Digital Display",
     ["观察图书馆结构"] = "Observe the Library structure",
     ["终末猎杀-草丛22合并隐匿04（含2块原范围）"] = "Final Hunt - Bush 22 Merged Concealment 04 (Includes 2 original areas)",

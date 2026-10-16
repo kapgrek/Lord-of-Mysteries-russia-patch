@@ -273,6 +273,8 @@ return {
     ["召集冷却"] = "Откат сбора",
     ["啧，原来是演尸体的，这就是传说中的躺着赚钱？哈哈哈哈。"] = "Цк, так ты изображаешь труп? Это и есть легендарный заработок лёжа? Ха-ха-ха-ха.",
     ["如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">【珍品迷雾香槟】</>数量增加<LightHighlight>100%</>，否则，物产出售价格<LightHighlight>-40%</>"] = "Если следующая остановка <LightHighlight>— [Лавка еды]</>, количество имеющегося <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">[Редкого туманного шампанского]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
+    ["Stop reading those outdated fairy tales."] = "Поменьше читайте эти замшелые сказки.",
+    ["Tingen Port"] = "Порт Тингена",
     ["热情的火焰高涨，小心别被灼伤。"] = "The flames of passion are rising high; be careful not to get burned.",
     ["疾猎"] = "Swift Hunt",
     ["【普通】童话故事-dj搜索出所有的舞伴机器人"] = "[Normal] Fairy Tale-dj search for all Dance Partner robots",

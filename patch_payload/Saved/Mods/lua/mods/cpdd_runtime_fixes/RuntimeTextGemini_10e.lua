@@ -272,6 +272,8 @@ return {
     ["使用后获得<Highlight>绒语沙龙上装</>"] = "После использования вы получите <Highlight>Верх салона «Шёпот пуха»</>",
     ["Ancient Castle-Tingen Loop"] = "Кольцо Старый замок — Тинген",
     ["Library Curator"] = "Хранитель библиотеки",
+    ["I cannot guarantee that my recommendation will satisfy you two hundred percent, but everything in this display case is quite good."] = "Не могу обещать, что моя рекомендация удовлетворит вас на двести процентов, но всё на этом прилавке весьма неплохо.",
+    ["Do I really have to take the paper home to throw it away just because I blew my nose?"] = "Мне что, нужно уносить бумагу домой, чтобы выбросить, если я просто вытер нос?",
     ["深渊主宰"] = "Abyssal Master",
     ["肯定能行的，汉姆。只要你别再一发工资就跑去斗邪恶。"] = "It will definitely work, Hamm. As long as you stop running off to fight evil the moment you get your paycheck.",
     ["英雄强化·209法力差额"] = "Hero Strengthening · 209 Mana Difference",

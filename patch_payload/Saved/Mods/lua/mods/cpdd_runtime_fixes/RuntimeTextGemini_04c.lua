@@ -272,6 +272,8 @@ return {
     ["A behemoth that only appears after the market has matured"] = "Исполин, появляющийся лишь после зрелости рынка",
     ["命运有形"] = "Судьба обретает форму",
     ["塔罗·戴里克·伯格·基础"] = "Таро · Дерик Берг · Основа",
+    ["The Beyonder who deals the most damage to guards/buildings"] = "Потусторонний, нанёсший наибольший урон стражам/постройкам",
+    ["Handkerchief"] = "Носовой платок",
     ["神弃之地2人成长"] = "Forsaken Land of the Gods 2-Player Growth",
     ["这不是黑荆棘的标志吗？你怎么有黑荆棘的车？"] = "Isn't this the Blackthorn emblem? How do you have a Blackthorn carriage?",
     ["这就是答案"] = "This is the answer.",

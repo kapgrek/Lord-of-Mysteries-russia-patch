@@ -288,7 +288,7 @@ return {
     ["使用后获得花式待机动作:<Highlight>圣光巡礼</>"] = "После использования вы получите особую анимацию ожидания: <Highlight>Паломничество священного света</>",
     ["Go <h>next to</> Will and ask him."] = "Подойти <h>поближе</> и расспросить Уилла",
     ["到最后一幕剧了，所有人都要参演。"] = "Последний акт пьесы, все должны участвовать в актёрской игре.",
-    ["战斗开始<HighLight>8</>秒后，【绯月之辉】对敌方全体造成真实伤害，并使我方全体获得攻速。"] = "<HighLight>8</> seconds after the battle begins, [Crimson Moon Radiance] deals true damage to all enemies and grants all allies Attack Speed.",
+    ["战斗开始<HighLight>8</>秒后，【绯月之辉】对敌方全体造成真实伤害，并使我方全体获得攻速。"] = "Через <HighLight>8</> сек. после начала боя «Сияние Алой луны» наносит всем врагам истинный урон и даёт всей нашей команде скорость атаки.",
     ["滚烫的大石块"] = "Scalding Large Boulder",
     ["蒸汽时代·余热斗篷"] = "Steam Era: Residual Heat Cloak",
     ["车辆漂移"] = "Vehicle Drift",

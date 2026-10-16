@@ -288,7 +288,7 @@ return {
     ["两侧"] = "По бокам",
     ["伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>550%</> = {*d,F1690001,atkMin,5.5}点"] = "Урон: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>550%</> = {*d,F1690001,atkMin,5.5} ед.",
     ["Grants the following title upon use: <Highlight>The World is a Stage</>"] = "После использования вы получите титул: <Highlight>Весь мир — сцена</>",
-    ["曾经坚信的一切开始动摇，真假难辨的世界令人迷惘。"] = "Everything once firmly believed begins to waver; the world, where truth and falsehood are indistinguishable, is bewildering.",
+    ["曾经坚信的一切开始动摇，真假难辨的世界令人迷惘。"] = "Всё, во что ты верил, начинает шататься, а мир, где правду не отличить ото лжи, сбивает с толку.",
     ["神弃之地4人成长"] = "Forsaken Land of the Gods 4-Player Growth",
     ["花车巡游烟花-天空"] = "Float Parade Fireworks - Sky",
     ["隐秘空间-永夜雪原"] = "Hidden Space - Snowy Plains of Eternal Night",

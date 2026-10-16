@@ -267,6 +267,7 @@ return {
     ["单人近景"] = "Одиночный крупный план",
     ["失落的音符-找弗莱"] = "Потерянная нота: найти Фрая",
     ["奶香黄油运输任务"] = "Задание: перевозка сливочного масла",
+    ["Above the ruins of the Great Old One's city, hidden behind thick fog, reflects a golden sun—that is the unreachable homeland."] = "Над руинами города Древних, за плотной пеленой тумана, отражается золотой диск. Это недосягаемая родина.",
     ["现实线第八章-仪式再现"] = "Reality Line Chapter 8 - Ritual Reenactment",
     ["助攻"] = "",
     ["奖励预览"] = "",

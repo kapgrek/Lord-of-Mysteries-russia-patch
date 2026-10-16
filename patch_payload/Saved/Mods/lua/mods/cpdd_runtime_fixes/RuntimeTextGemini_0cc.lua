@@ -273,8 +273,10 @@ return {
     ["Number of people on the same server"] = "Игроков на сервере",
     ["向前方发动三次连斩，共造成<Yellow>288</>点攻击伤害。"] = "Наносит три рубящих удара вперёд, всего <Yellow>288</> ед. урона атакой.",
     ["啊，这是……我？我的一部分自我意识？"] = "Ах, это... я? Часть моего самосознания?",
-    ["思维迟缓会造成高额减疗和引爆伤害，及时更换承伤对象！"] = "Slowness of Thought causes high Healing Reduction and detonation damage. Switch the target taking the damage in time!",
-    ["棋局生涯中，完成全部多重共鸣图鉴。"] = "Complete the entire Multiple Resonance collection in your gambit career.",
+    ["思维迟缓会造成高额减疗和引爆伤害，及时更换承伤对象！"] = "Замедление мышления наносит большой урон от подрыва и сильно снижает лечение. Вовремя меняйте цель, принимающую урон!",
+    ["A New Era Begins"] = "Начало новой эры",
+    ["棋局生涯中，完成全部多重共鸣图鉴。"] = "За карьеру в гамбите завершите всю коллекцию множественных резонансов.",
+    ["Partner of Justice"] = "Соратник справедливости",
     ["臭味肯定是那群异教徒搞出来的！"] = "The stench must have been caused by those heretics!",
     ["迪伦的身体承载了我的命运和身份，他应该去追邮差才对，为什么安心在这儿斗邪恶？"] = "Dylan's body bears my fate and identity. He should be chasing the postman, so why is he contentedly fighting evil here?",
 }

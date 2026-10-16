@@ -270,7 +270,7 @@ return {
     ["可补领错过的<Highlight>秘宝宝箱</>奖励，开启后可获得下列奖励"] = "Можно получить пропущенные награды <Highlight>Сундука тайных сокровищ</>. После открытия вы получите следующие награды.",
     ["复兴晚宴"] = "Пир возрождения",
     ["That's amazing... How did you do that?"] = "Потрясающе... Как вам это удалось?",
-    ["我明明不认识他……码头人群混杂，下船就遇到骗子？"] = "I clearly don't know him... The dock crowd is mixed, did I run into a swindler right after getting off the ship?",
+    ["我明明不认识他……码头人群混杂，下船就遇到骗子？"] = "Я же его не знаю... В порту толпа разношёрстная. Неужели, едва сойдя с корабля, я наткнулся на мошенника?",
     ["谢谢你，这是个……冰淇淋玩具？"] = "Thank you, is this... an ice cream toy?",
     ["身处敌方阵营，自身受到伤害增加"] = "When in the enemy camp, damage taken is increased",
     ["问问威尔"] = "Ask Will",

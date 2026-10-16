@@ -295,6 +295,10 @@ return {
     ["In the same match, reach a deposit of 250 or more."] = "За один матч накопите 250 и более.",
     ["Prank of Fate"] = "Злая шутка судьбы",
     ["坐到<h>椅子</>上"] = "Сядьте на <h>стул</>",
+    ["I have Dylan's thoughts in my head, and Dylan's memories. But I am not Dylan; I am—"] = "В моей голове мысли Дилана и воспоминания Дилана. Но я не Дилан, я...",
+    ["Hug 2_4 adjacent grid"] = "Объятие 2_4, соседние клетки",
+    ["Pick up this lamp; it will provide you with the correct guidance."] = "Возьми эту лампу, она даст тебе верное направление.",
+    ["Heading to"] = "Направляетесь в",
     ["盟约"] = "Covenant",
     ["高伤点名"] = "High-Damage Targeted Attack",
 }

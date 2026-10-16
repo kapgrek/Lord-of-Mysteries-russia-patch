@@ -251,7 +251,9 @@ return {
     ["嘿！姑娘们，我们怎么可以不支持佛尔思小姐的新作品？"] = "Эй! Девушки, как мы можем не поддержать новую работу госпожи Форс?",
     ["奢华的飞艇阵列，廷根上空的飞艇也来为表演者助阵"] = "Роскошный строй дирижаблей: дирижабли над Тингеном тоже пришли поддержать артистов",
     ["Where is security? Did no one notify security? Take this... whatever it is, and drag it out of here!"] = "Где охрана? Никто не вызвал охрану? Вытащите это... что бы это ни было, прочь отсюда!",
-    ["我能做的，是留住眼前的美好，阻止可能的悲剧。"] = "What I can do is hold onto the beauty before me and prevent potential tragedies.",
+    ["Tingen Station"] = "Вокзал Тингена",
+    ["Thought pop-up"] = "Всплывающая мысль",
+    ["我能做的，是留住眼前的美好，阻止可能的悲剧。"] = "Что я могу, так это сохранить красоту перед глазами и предотвратить возможные трагедии.",
     ["组队模式参加副本<Highlight>五月庄园·城堡（普通）</>，击败<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Participate in the Dungeon <Highlight>May Manor · Castle (Normal)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment.",
     ["收获%d/200个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/200.",
 }

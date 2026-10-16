@@ -292,7 +292,7 @@ return {
     ["First clear of May Manor · Castle on Hard Mode champion"] = "Майское поместье · Замок: сильнейший первого прохождения на сложном режиме",
     ["In the same match, finish with 10 Health remaining upon winning the championship."] = "За один матч победите, имея в конце 10 Очков Здоровья.",
     ["If you don't want a repeat of what happened on Iron Cross Street, make your heart impenetrable."] = "Если не хотите повторения случившегося на улице Железного Креста, сделайте своё сердце несокрушимым.",
-    ["无法无天"] = "Lawless",
+    ["无法无天"] = "Беззаконие",
     ["艺术品出售价格："] = "Artwork Sale Price:",
     ["血刃6档暴击"] = "Blood Blade Tier 6 crit",
     ["雪山南部巡游"] = "Snowy Mountain Southern Cruise",

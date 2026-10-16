@@ -273,7 +273,7 @@ return {
     ["俱乐部获利值"] = "Значение прибыли клуба",
     ["Only despicable villains can change this world..."] = "Лишь подлые злодеи способны изменить этот мир…",
     ["The master is strange too... I have something to do, where is your master?"] = "Господин тоже странный... У меня есть дело. Где ваш господин?",
-    ["宣判最远敌人，造成<Yellow>293</>点攻击伤害并使其眩晕<HighLight>1</>秒，法力恢复降低<HighLight>8</>点，持续<HighLight>3</>秒。"] = "Passes judgment on the farthest enemy, dealing <Yellow>293</> Attack damage and stunning them for <HighLight>1</> second. Reduces their Mana recovery by <HighLight>8</> for <HighLight>3</> seconds.",
+    ["宣判最远敌人，造成<Yellow>293</>点攻击伤害并使其眩晕<HighLight>1</>秒，法力恢复降低<HighLight>8</>点，持续<HighLight>3</>秒。"] = "Выносит приговор самому дальнему врагу, нанося <Yellow>293</> ед. урона атаки и оглушая его на <HighLight>1</> сек. Восстановление маны снижается на <HighLight>8</> ед. на <HighLight>3</> сек.",
     ["现实线第六章-抓紧时间问问芬奇"] = "Reality Line Chapter 6 - Seize the time to ask Finch",
     ["看看时间"] = "Check the time",
     ["血族伯爵盛宴攻击"] = "Sanguine Earl's Feast Attack",

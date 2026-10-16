@@ -265,6 +265,8 @@ return {
     ["Use to obtain aura effect: <Highlight>Red and Black・Head</>"] = "После использования вы получите эффект ауры: <Highlight>Красное и чёрное・Голова</>",
     ["Rematch Chest · Alienated Hound · Hard"] = "Сундук реванша · Мутировавшая гончая · Сложно",
     ["呃......"] = "Э-э......",
+    ["Exited co-performance"] = "Вы вышли из совместного выступления",
+    ["Struggling is futile. Why not surrender yourself completely to me? Let me bear your hatred."] = "Сопротивление бесполезно. Почему бы не отдаться мне целиком? Позволь мне принять на себя вашу ненависть.",
     ["鲁恩商道活动补发奖励"] = "Loen Trade Route Event Compensation Reward",
     ["【自走棋】骑士-普攻1-挥击"] = "[Auto Chess] Knight - Basic Attack 1 - Swing",
     ["终末猎杀-草丛17逐簇隐匿05"] = "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 05",

@@ -277,7 +277,7 @@ return {
     ["去找检票员检票"] = "Найти контролёра для проверки билета",
     ["Where can I test my DPS?"] = "Где можно проверить урон в секунду",
     ["在竞技玩法中<Highlight>击败</>1名戏法大师"] = "<Highlight>Победите</> 1 Трикстера в соревновательном режиме",
-    ["已经分不清是不是指南针的负面效果，阻止我面对那扇门了。"] = "I can no longer tell if it's the negative effect of the compass preventing me from facing that Door.",
+    ["已经分不清是不是指南针的负面效果，阻止我面对那扇门了。"] = "Уже не понять, не отрицательный ли эффект компаса мешает мне встретиться лицом к лицу с той дверью.",
     ["询问<h>乔伊斯</>"] = "Ask <h>Joyce</>",
     ["邦尼：我用二十年，追逐力量，从本杰明变成邦尼……但还是输了。"] = "Bonnie: I spent twenty years chasing power, changing from Benjamin to Bonnie... but I still lost.",
     ["Profession ID:"] = "ID профессии:",

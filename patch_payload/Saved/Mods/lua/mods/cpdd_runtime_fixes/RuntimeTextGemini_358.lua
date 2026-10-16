@@ -269,6 +269,10 @@ return {
     ["Assassin Acting treasure chest - eyes open."] = "Убийца в роли сундука: глаза открыты",
     ["Remaining time <Highlight>%s</>"] = "Осталось времени <Highlight>%s</>",
     ["可获得3个<Highlight>圣杯·绑</>、5个<Highlight>体力恢复包</>"] = "Можно получить 3 <Highlight>Святых Грааля (привяз.)</>, 5 <Highlight>наборов восстановления выносливости</>",
+    ["Allied units recover 4% of maximum Health every 5 seconds."] = "Союзные фигуры каждые 5 сек. восстанавливают 4% макс. здоровья.",
+    ["Current Level: 70 (7)"] = "Текущий уровень: 70 (7)",
+    ["I'll have another strawberry ice cream cone as well."] = "Мне тоже ещё один рожок клубничного мороженого.",
+    ["I must flee, leave the Oumai Family, and seek a new life of my own."] = "Я должен бежать, покинуть семью Юмай и найти свою новую жизнь.",
     ["造成伤害后，使目标的防御降低<HighLight>30%</>，持续<HighLight>3</>秒。"] = "After dealing damage, reduces the target's Defense by <HighLight>30%</> for <HighLight>3</> seconds.",
     ["Mustafa"] = "Мустафа",
 }

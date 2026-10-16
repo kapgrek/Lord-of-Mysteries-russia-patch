@@ -258,7 +258,9 @@ return {
     ["可买数量"] = "Доступно для покупки",
     ["Tarot·Susie·Save 6 Incremental"] = "Таро · Сьюзи · Ступень 6, прирост",
     ["好了，你买到了贝克兰德最好的塞维亚菊。"] = "Готово, вы купили лучшую севийскую хризантему в Бэкланде.",
-    ["我们守的货，真是美人鱼？这得值多少金镑啊。"] = "Is the cargo we're guarding really a mermaid? How many pounds must this be worth?",
-    ["暗影之刃"] = "Shadow Blade",
+    ["我们守的货，真是美人鱼？这得值多少金镑啊。"] = "Груз, который мы охраняем, — и правда русалка? Сколько же золотых фунтов она стоит.",
+    ["I'm leaving, I'm leaving right now. Please, have mercy and give me a few more minutes. I haven't begged for enough money for a meal yet—"] = "Ухожу, сейчас же ухожу. Смилуйтесь, дайте ещё пару минут, я ещё не насобирал на еду…",
+    ["The \"Magic Mirror of Despair\" mentioned in the report was destroyed by the Nighthawks during the disaster in Tingen in the Mirror, and its fragments are sealed behind the Chanis Gate."] = "«Зеркало отчаяния», упомянутое в отчёте, было уничтожено Ночными Ястребами во время катастрофы в Тингене в Зазеркалье. Его осколки запечатаны за вратами Чаниса.",
+    ["暗影之刃"] = "Теневой клинок",
     ["灵魂随乐声起舞，死亡是一场欢快的庆典。"] = "The soul dances to the music; death is a joyous celebration.",
 }

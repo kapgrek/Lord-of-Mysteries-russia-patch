@@ -283,6 +283,7 @@ return {
     ["Fate as a Stream"] = "Судьба как ручей",
     ["哦吼！你好！又来新人啦！"] = "О-хо! Здравствуйте! Опять новичок!",
     ["Because you sealed it in time, there were not many casualties. The Church has approved your short-term borrowing of the \"Casket of Frost.\""] = "Потому что вы вовремя запечатали его, жертв было немного. Церковь одобрила ваше временное использование «Ларца Мороза».",
+    ["Submission failed"] = "Не удалось подать",
     ["纸人庇护（外置CD控制，免得卸被动清CD）"] = "Paper Figurine Protection (External CD control to prevent clearing CD when unequipping Passive)",
     ["还有新鲜的苹果派，冷吃猪肉派！"] = "There's also fresh apple pie and cold pork pie!",
     ["封印物-星之杖：冲刺标记判定"] = "Sealed Artifact - Star Staff: Dash Mark judgment",

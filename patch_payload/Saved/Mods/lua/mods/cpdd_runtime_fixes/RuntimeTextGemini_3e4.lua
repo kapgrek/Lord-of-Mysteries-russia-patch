@@ -298,7 +298,7 @@ return {
     ["Tarot Audrey Hall Save 5 Increment"] = "Таро · Одри Холл · Ступень 5, прирост",
     ["Alright, don't lose the ice cream toy."] = "Ладно, только не потеряй игрушечное мороженое.",
     ["完成所有试炼"] = "Пройти все испытания",
-    ["我曾在噩梦中掌控过一把绯红色的武器，它让我短暂拥有了不灭之力。"] = "I once controlled a crimson weapon in a Nightmare, and it granted me Undying Power for a brief moment.",
+    ["我曾在噩梦中掌控过一把绯红色的武器，它让我短暂拥有了不灭之力。"] = "Когда-то в кошмаре я управлял алым оружием, и оно ненадолго даровало мне неугасимую силу.",
     ["滑轨障碍"] = "Slide Rail Obstacle",
     ["王庭之剑"] = "Sword of the Royal Court",
     ["结交阿兹克"] = "Befriend Azik",

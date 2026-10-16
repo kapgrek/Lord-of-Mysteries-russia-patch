@@ -277,6 +277,6 @@ return {
     ["使用后获得<Highlight>动态名片主题・圣堂</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Святилище»</>",
     ["Inner Veil"] = "Внутренняя вуаль",
     ["Selling price markup in progress - Intensity <HighLight>%s%%</>"] = "Накрутка цены продажи: интенсивность <HighLight>%s%%</>",
-    ["机巧疯帽"] = "Mechanical Mad Hatter",
+    ["机巧疯帽"] = "Механический Безумный Шляпник",
     ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Roselle Boss - Password Phase - Check if 84015136 is present on player",
 }

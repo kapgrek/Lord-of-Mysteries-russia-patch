@@ -307,6 +307,7 @@ return {
     ["参与副本<Highlight>大帝重临（困难）</>，完成阶段<Highlight>污染意志</>后，有概率获得下列装备。"] = "Пройдите подземелье <Highlight>Возвращение Императора (сложное)</> и завершите этап <Highlight>Оскверненная воля</>, чтобы с некоторым шансом получить следующее снаряжение.",
     ["Thank you, Madam. What are they..."] = "Благодарю, госпожа. Они же...",
     ["Quest requirements"] = "Требуется для задания",
+    ["Secret order to purchase black pearl caviar"] = "Тайный заказ на закупку чёрной жемчужной икры",
     ["盐，很多人认为撒盐可以驱魔，这瓶海盐正好可以用来画出法阵。"] = "Salt; many believe that scattering salt can exorcise demons. This bottle of sea salt is perfect for drawing a ritual circle.",
     ["看起来已经稳定，我不会被迪伦完全取代了。"] = "It seems stable now; I won't be completely replaced by Dylan.",
     ["草丛隐匿光环-草丛24"] = "Bush Concealment Aura - Bush 24",

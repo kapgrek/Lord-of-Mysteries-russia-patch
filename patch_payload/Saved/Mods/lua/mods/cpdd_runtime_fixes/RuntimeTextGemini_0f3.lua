@@ -284,6 +284,7 @@ return {
     ["先祖的荣耀"] = "Слава предков",
     ["Hmm... that's right. Let's just treat it as a secret!"] = "Хм... Верно. Пусть это будет секретом!",
     ["塔身静立，雾气终年不散，据说登顶远望能看见七道净光。"] = "Башня безмолвно стоит, окутанная вечным туманом. Говорят, с её вершины можно увидеть семь лучей чистого света.",
+    ["Achieve a total of 100 victories in your gambit career."] = "За карьеру в Гамбите одержите в сумме 100 побед.",
     ["点击<Highlight>此处</>即可在本站<Highlight>进行交易</>。购买当地的<Highlight>低价</>物品，并前往其他<Highlight>高价地区</>出售，即可从中赚取利润。"] = "Click <Highlight>here</> to <Highlight>trade</> on this site. Purchase local <Highlight>low-priced</> items and travel to other <Highlight>high-priced regions</> to sell them for a profit.",
     ["等等，你知道他是谁？要是弄醒他，外面的人听见动静怎么办？"] = "Wait, you know who he is? If we wake him up, what if the people outside hear the commotion?",
     ["罗塞尔Boss困难-1&2阶段-计算标记1"] = "Roselle Boss Hard - Stages 1 & 2 - Calculation Mark 1",

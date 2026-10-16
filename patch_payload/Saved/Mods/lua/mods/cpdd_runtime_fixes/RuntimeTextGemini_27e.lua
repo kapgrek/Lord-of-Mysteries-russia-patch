@@ -280,5 +280,7 @@ return {
     ["Castle Distant View"] = "Вид на замок издали",
     ["Great, then there is only one condition left—an ice cube that doesn't melt under normal circumstances. What kind of ice cube wouldn't melt..."] = "Отлично, тогда остаётся только одно условие — лёд, который в обычных условиях не тает. Какой же лёд не тает...",
     ["Strange... where on earth did I drop it?"] = "Странно... Куда же я это дел?",
+    ["Pondering clues about the Amon Avatar"] = "Размышления о следах аватара Амона",
+    ["This grand ceremony runs concurrently with the league, consisting of four rounds over eight weeks per season. The first week of each round features one match, while the second week features two matches. Matching for each match opens two days in advance, giving the Club President and Diplomat an opportunity to adjust the battle order before the match begins."] = "Это торжество проходит синхронно с лигой: каждый сезон состоит из четырёх раундов по восемь недель. На первой неделе каждого раунда проходит один матч, на второй неделе проходят два матча. Подбор для каждого матча открывается за два дня, и перед началом матча председатель и дипломат могут изменить порядок выхода бойцов.",
     ["终末猎杀-草丛11逐簇隐匿06"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 06",
 }

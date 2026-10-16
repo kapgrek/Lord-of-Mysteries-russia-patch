@@ -303,6 +303,7 @@ return {
     ["再战宝箱·星象仪者·困难"] = "Сундук реванша · Владелец астролябии · Сложно",
     ["Original Work: Long, Beautiful Dream"] = "Первоисточник: Долгий прекрасный сон",
     ["嘿，我们都听到了哦。"] = "Эй, мы всё слышали.",
+    ["Proceed directly to the finish line?"] = "Отправиться сразу к финишу?",
     ["直踢伤害提升效果提高至3倍。"] = "The Straight Kick Damage Increase effect is increased to 3 times.",
     ["若<HighLight>第一排恰好有2名己方棋子</>，两者均获得<HighLight>150点生命值</>和<HighLight>20点防御</>。"] = "If <HighLight>exactly 2 allied units are in the front row</>, both gain <HighLight>150 Health</> and <HighLight>20 Defense</>.",
     ["跟上<h>玛丽</>"] = "Follow <h>Mary</>.",

@@ -290,7 +290,7 @@ return {
     ["Use to obtain <Highlight>Display Stand Action: Meow Meow Meow</>"] = "После использования вы получите <Highlight>Действие витрины: Мяу-мяу-мяу</>",
     ["Reserved ID range 85012000-85012099"] = "Занят диапазон ID 85012000-85012099",
     ["Where would such a good thing happen? Even if we are heading toward destruction, it shouldn't be boring; it should be full of adventure and excitement."] = "Откуда такое счастье? Даже если идти к гибели, это не должно быть скучно, а должно быть полно приключений и острых ощущений.",
-    ["小偷？你这个小孩，说话有点怪怪的？"] = "A thief? You child, you speak a bit strangely, don't you?",
+    ["小偷？你这个小孩，说话有点怪怪的？"] = "Вор? Ты, малец, как-то странно говоришь, не так ли?",
     ["污染……和命运……不可抗拒！"] = "Corruption... and fate... are irresistible!",
     ["点击此处或按<img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/>可<Highlight>自动寻路</>。"] = "Click here or press <img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/> for <Highlight>Auto-Pathfinding</>.",
     ["贝克兰德最近发生了什么？"] = "What has happened in Backlund recently?",

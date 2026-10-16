@@ -280,6 +280,8 @@ return {
     ["参与副本<Highlight>丰饶之树（困难）</>，击败<Highlight>厄水巨龟</>后，有概率获得下列外观。"] = "Пройдите подземелье <Highlight>Древо изобилия (сложное)</> и победите <Highlight>Черепаху бедственных вод</>, чтобы с некоторым шансом получить следующие облики.",
     ["圣咏录"] = "Книга Песнопений",
     ["奥黛丽：这枚徽章，现在属于你了。"] = "Одри: этот значок теперь принадлежит тебе.",
+    ["Search, Hit, and Withdraw Gameplay"] = "Режим «Поиск, бой, отход»",
+    ["Don't worry, this was exchanged for four ice creams."] = "Не волнуйся, это обменяно на четыре порции мороженого.",
     ["灵佑晶坠护盾"] = "Spirit Blessing Crystal Pendant Shield",
     ["牵引灵坠"] = "Spirit-Traction Pendant",
     ["纨绔敞篷车"] = "Playboy Convertible",

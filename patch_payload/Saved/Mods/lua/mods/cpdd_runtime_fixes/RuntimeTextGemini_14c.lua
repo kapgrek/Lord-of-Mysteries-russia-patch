@@ -282,6 +282,8 @@ return {
     ["VIP·酒庄失效，下一站不是【酒庄】"] = "VIP · Винодельня неактивна, следующая станция не [Винодельня]",
     ["Understand Amon"] = "Узнать об Амоне",
     ["你高举的不只是旗帜，更是众人的信念。银羽为冠，万众归心，这是属于好团长的最高荣耀。"] = "Ты высоко поднимаешь не только знамя, но и веру всех этих людей. Серебряные перья как венец, сердца множества людей едины: это высшая слава для хорошего капитана отряда.",
+    ["Warrior Sequence 7 GvG Talent Points"] = "Очки талантов Воина Последовательности 7 (GvG)",
+    ["Chess Piece Innate Mana Regen: Leonard Mitchell"] = "Врожд. восст. маны фигуры·Леонард Митчелл",
     ["灵性蓝牌"] = "Spirituality Blue Card",
     ["第二次回到船上-芬奇与阿蒙对话"] = "Second time returning to the ship - conversation between Finch and Amon",
     ["终末猎杀-草丛22合并隐匿05（含2块原范围）"] = "Final Hunt - Bush 22 Merged Concealment 05 (Includes 2 original areas)",

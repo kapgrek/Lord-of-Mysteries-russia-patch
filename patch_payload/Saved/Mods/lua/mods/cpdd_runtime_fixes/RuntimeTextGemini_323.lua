@@ -263,7 +263,7 @@ return {
     ["凯旋大道\r\n<LeonSubTitle size=\"38\">Triumphal Avenue</>"] = "Триумфальный проспект\n<LeonSubTitle size=\"38\">Triumphal Avenue</>",
     ["分析死亡的情景。"] = "Проанализируйте обстоятельства смерти.",
     ["Front-row Damage Reduction"] = "Снижение урона переднего ряда",
-    ["押宝·商行生效，获得自身75%的【冰鲜雪贝薄片】"] = "Betting · Firm takes effect, gain 75% of your own [Iced Sorbet Flakes]",
+    ["押宝·商行生效，获得自身75%的【冰鲜雪贝薄片】"] = "Ставка · Торговый дом сработал, получите 75% своего [Охлаждённые снежные ломтики моллюска]",
     ["激活共鸣"] = "Activate Resonance",
     ["稀有·破甲法器伤害监听"] = "Rare Armor Break Artifact Damage Monitor",
     ["该特产暂未解锁"] = "This specialty is not yet unlocked",

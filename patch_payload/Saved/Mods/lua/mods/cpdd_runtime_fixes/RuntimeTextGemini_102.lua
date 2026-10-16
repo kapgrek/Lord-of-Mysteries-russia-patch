@@ -264,7 +264,7 @@ return {
     ["Borrowing a shot of the player looking at the bookshelf"] = "Кадр с заимствованным ракурсом: игрок смотрит на книжную полку",
     ["Don't worry, I just submitted my manuscript, and I'm free as a bird."] = "Не волнуйся, я только что сдал рукопись, и теперь на душе легко.",
     ["Oh my god, it's a parade float! If I had known, I would have brought my camera out..."] = "Ах, это карнавальная платформа! Знал бы — взял бы с собой камеру...",
-    ["战意法杖攻击层"] = "Battle Intent Staff Attack Layer",
+    ["战意法杖攻击层"] = "Слой атаки посоха боевого духа",
     ["现实线第六章-去水上剧场检票"] = "Reality Route Chapter 6 - Go to the Water Theater to Have the Ticket Checked",
     ["秘法4人额外回蓝"] = "Arcane 4-Person Additional Mana Recovery",
     ["贸"] = "Trade",

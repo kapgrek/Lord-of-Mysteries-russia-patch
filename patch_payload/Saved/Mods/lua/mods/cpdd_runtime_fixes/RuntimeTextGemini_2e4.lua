@@ -295,7 +295,7 @@ return {
     ["出售食品类物品数量累计10000个-之二"] = "Продать 10000 пищевых предметов (всего) — часть 2",
     ["姐、姐姐！"] = "С-сестра!",
     ["Sub-quest (New"] = "Подзадача (новая",
-    ["我们都没搬走，大家都记得您，您这次回来，还会离开吗？"] = "None of us have moved away, and everyone remembers you. Now that you're back, will you be leaving again?",
+    ["我们都没搬走，大家都记得您，您这次回来，还会离开吗？"] = "Никто из нас не съехал, все помнят вас. Теперь, когда вы вернулись, вы снова уйдете?",
     ["糞"] = "Excrement",
     ["贸易战结算获得前四排名"] = "Achieve a top 4 rank in the Trade War settlement",
     ["【自走棋英雄强化】- 蛛后猎场；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Spider Queen's Hunting Ground; export enabled, pending in-game verification",

@@ -273,6 +273,7 @@ return {
     ["冰淇淋球"] = "Шарик мороженого",
     ["叒唻给菜圎浇渁孒。"] = "Снова пришёл поливать огород.",
     ["Uh... good evening."] = "Э-э... добрый вечер.",
+    ["The compass is right behind her..."] = "Компас прямо у неё за спиной…",
     ["爆炸苹果头浮空解除"] = "Explosion Apple Head levitation removed.",
     ["特别援助"] = "Special Assistance",
     ["狙击枪子弹生成中"] = "Sniper rifle bullet generating...",

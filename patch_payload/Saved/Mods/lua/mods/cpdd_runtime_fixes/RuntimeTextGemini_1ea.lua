@@ -285,7 +285,9 @@ return {
     ["You have already found the first <P_Yellow>Error</>. Very good, but there is more than one here. Find them all, and I will return your belongings to you."] = "Вы уже нашли первую <P_Yellow>Ошибку</>. Отлично, но здесь их не одна. Найдите все, и я верну вам ваши вещи.",
     ["使用后获得<Highlight>动态头像・铃兰与骑士</>"] = "Использовать, чтобы получить <Highlight>анимированный аватар «Ландыш и рыцарь»</>",
     ["Use to obtain <Highlight>Avatar: Frank</>"] = "После использования вы получите <Highlight>аватар «Франк»</>",
-    ["我一定能签下主角合同！"] = "I will definitely be able to sign a protagonist contract!",
+    ["我一定能签下主角合同！"] = "Я обязательно подпишу контракт на главную роль!",
+    ["Piece Innate Mana Regen: Great Sword Knight"] = "Врожд. восст. маны фигуры·Рыцарь с огромным мечом",
+    ["Everyone wearing a monocle will praise me; they are having a great time, including this avatar."] = "Каждый, кто надел монокль, будет меня хвалить: им очень весело, включая этого двойника.",
     ["绯红命运【需要替换CS"] = "Crimson fate [Needs CS replacement",
     ["Ruola"] = "Руола",
 }

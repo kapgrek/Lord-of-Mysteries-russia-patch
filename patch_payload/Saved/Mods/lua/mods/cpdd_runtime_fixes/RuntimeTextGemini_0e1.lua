@@ -290,6 +290,7 @@ return {
     ["出售酒类物品数量累计10000个-之二"] = "Продать 10000 алкогольных предметов (всего) — часть 2",
     ["Talk to <h>postman</>"] = "Поговорить с <h>почтальоном</>",
     ["While within the enemy faction's protected area, Damage Reduction is lowered by 20%. Effect expires upon leaving the area."] = "В защитной зоне вражеской фракции снижение урона уменьшается на 20%. Эффект пропадает при выходе из зоны.",
-    ["战法8人"] = "Tactics 8-Person",
-    ["棋子固有回蓝·洛薇雅·蒂芙尼·3星"] = "Piece Innate Mana Regen: Lovia Tiffany 3-Star",
+    ["Display Stand: Devotee"] = "Подиум: верующий",
+    ["战法8人"] = "Тактика: 8 чел.",
+    ["棋子固有回蓝·洛薇雅·蒂芙尼·3星"] = "Врожд. восст. маны фигуры: Ловия Тиффани, 3 зв.",
 }

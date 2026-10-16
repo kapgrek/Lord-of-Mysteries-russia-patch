@@ -260,6 +260,8 @@ return {
     ["原著线·第八章·伦纳德推理前"] = "Линия первоисточника: глава 8, до выводов Леонарда",
     ["Bulwark Badge Battle Defense"] = "Боевая защита знака Оплота",
     ["完成一次五月庄园·花园·困难"] = "Пройти 1 раз «Майское поместье · Сад · Сложный»",
+    ["How could I have forgotten! How could I forget? Forget my dream of being a protagonist and sign such a garbage contract instead?!"] = "Как я мог забыть! Как я мог забыть свою мечту о главной роли и подписать такой мусорный контракт?!",
+    ["Ouma"] = "Оума",
     ["罗塞尔Boss-灼热目光-点名标记"] = "Roselle Boss - Scorching Gaze - Target Mark",
     ["谢谢导演，这是我的荣幸，我肯定不辜负导演的期望。"] = "Thank you, Director. It is my honor, and I will certainly live up to your expectations.",
     ["还是同样的结局。对他们那种家庭而言，死亡随时可能降临。"] = "It's the same ending again. For a family like theirs, Death could descend at any moment.",

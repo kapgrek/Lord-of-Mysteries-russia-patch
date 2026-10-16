@@ -282,6 +282,7 @@ return {
     ["前去找<h>奥利安娜</>太太"] = "Найти госпожу <h>Орианну</>",
     ["Gambit: Trading Firm active. This station's selling price +125%."] = "Азарт: Торговый дом действует, цена продажи на этой станции +125%",
     ["So many moving platforms, but it doesn't matter, I can help you control their movement!"] = "Столько движущихся платформ, но ничего страшного, я помогу вам управлять их движением!",
+    ["Tactician 2-Person Battle Start Buff"] = "Тактика: 2 чел., бонус начала боя",
     ["罗塞尔Boss困难-2阶段-镜像数据-护盾表现"] = "Roselle Boss Hard - Phase 2 - Mirror Data - Shield Visual Effect",
     ["过热1"] = "Overheat 1",
     ["与Npc进行对话  玩家播放仅自己可见的说话文本"] = "Поговорите с NPC. Игрок воспроизводит текст диалога, видимый только ему самому.",

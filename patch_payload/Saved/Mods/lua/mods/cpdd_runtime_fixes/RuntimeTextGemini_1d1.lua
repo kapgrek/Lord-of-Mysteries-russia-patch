@@ -287,8 +287,11 @@ return {
     ["古堡三站巡游"] = "Обход трёх станций Древнего замка",
     ["嗯……奇变偶不变的下一句？"] = "Хм... а что идёт дальше после «нечётное меняется, чётное нет»?",
     ["如果下一站<LightHighlight>是【食铺】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">【精品油画小作】</>数量增加<LightHighlight>100%</>，否则，物产出售价格<LightHighlight>-40%</>"] = "Если следующая остановка <LightHighlight>— [Лавка еды]</>, количество имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30507\">[Небольших изысканных картин маслом]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
-    ["已达到使用上限，无法继续使用"] = "Usage limit reached; cannot continue to use",
-    ["每天四种口味任选，好吃到不想回家乡！"] = "Four flavors available every day; so delicious you won't want to go back home!",
+    ["已达到使用上限，无法继续使用"] = "Достигнут лимит использования, продолжить нельзя",
+    ["During this phase, only members of the Club ranked first in influence may enter the inner field."] = "На этом этапе во внутреннюю зону могут войти только члены клуба, занимающего первое место по влиянию",
+    ["Get on the microphone"] = "Занять место у микрофона",
+    ["A storm is the adventurer's medal!"] = "Буря - награда для искателей приключений!",
+    ["每天四种口味任选，好吃到不想回家乡！"] = "Каждый день на выбор четыре вкуса, такие вкусные, что не захочется возвращаться домой!",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }

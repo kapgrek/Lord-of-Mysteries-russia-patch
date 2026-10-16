@@ -266,6 +266,7 @@ return {
     ["Caught them all, the rats are gone, who cares anymore? Your business will be finished after one go."] = "Всех выловили, крыс больше нет, кому теперь есть дело? Твоё дело закончится после одного раза.",
     ["出售工艺类物品数量累计10000个-之二"] = "Продать 10000 ремесленных предметов (всего) — часть 2",
     ["地刺"] = "Шипы из земли",
+    ["Let me see... this doesn't quite look like a medical record, as it also notes the patient's dental care habits."] = "Посмотрим... это не очень похоже на историю болезни: здесь записаны даже привычки пациента по уходу за зубами.",
     ["洛尔迦"] = "Lorga",
     ["灵性的丝线不会欺骗你。跟随它，它会带你去往……祂希望你抵达的地方。"] = "The threads of spirituality will not deceive you. Follow them, and they will lead you to... the place He wishes you to reach.",
     ["组队模式参加副本<Highlight>丰饶之树（困难）</>，击败<Highlight>厄水巨龟</>后，可以参与公共掉落的分配与拍卖。有概率获得下列外观。"] = "Participate in the Dungeon <Highlight>Tree of Abundance (Hard)</> in party mode. After defeating the <Highlight>Misfortune Water Giant Turtle</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances.",

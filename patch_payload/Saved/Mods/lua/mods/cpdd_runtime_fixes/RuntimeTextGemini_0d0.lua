@@ -290,6 +290,7 @@ return {
     ["Use to obtain the settlement animation: <Highlight>True Knowledge of the Holy Light</>"] = "После использования вы получите анимацию итогов: <Highlight>Истинное знание священного света</>",
     ["Use Skill: <Highlight>Holy Light Favor</> 1 time."] = "Используйте навык: <Highlight>Милость священного света</> (1 раз)",
     ["If the next stop <LightHighlight>is [Winery]</>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">[Premium Mist Champagne]</> currently held increases by <LightHighlight>100%</>; otherwise, the selling price of goods is <LightHighlight>-40%</>."] = "Если следующая остановка <LightHighlight>— [Винодельня]</>, количество имеющегося <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">[Редкого туманного шампанского]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
+    ["Me! I came here to investigate the postman, how did I end up playing cards in a private room?!"] = "Я! Я пришёл сюда расследовать дело почтальона, как же я оказался в отдельной комнате за игрой в карты?!",
     ["灵界·水池一点"] = "Spirit World · Pool Point",
     ["遇特莉丝CS"] = "Encounter Trissy CS",
     ["隐秘空间入口-昔影重现"] = "Hidden Space Entrance-Reappearance of Past Shadows",

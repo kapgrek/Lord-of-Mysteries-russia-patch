@@ -270,6 +270,7 @@ return {
     ["Using this grants <Highlight>Seventh Squad Uniform Shoes</>"] = "После использования вы получите <Highlight>Обувь формы Седьмой группы</>",
     ["别，先生！我不是你爸爸，我不认识你啊！"] = "Нет, сэр! Я не ваш отец, я вас не знаю!",
     ["失落的音符-要战斗"] = "Потерянная нота: к бою",
+    ["I was startled when I discovered it had Disappear-ed."] = "Когда я обнаружил, что оно исчезло, я испугался.",
     ["测试属性buff91"] = "Test Attribute Buff 91",
     ["现实线第六章-跟梅丽莎和班森打招呼"] = "Reality Line Chapter 6 - Greet Melissa and Benson",
     ["米勒先生，你负责躺回棺材里，无论发生什么都别动。"] = "Mr. Miller, you are responsible for lying back in the coffin. No matter what happens, do not move.",

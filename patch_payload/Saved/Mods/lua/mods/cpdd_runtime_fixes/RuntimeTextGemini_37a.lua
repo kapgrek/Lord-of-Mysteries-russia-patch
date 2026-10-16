@@ -288,8 +288,10 @@ return {
     ["再战宝箱·子爵夫人·普通"] = "Сундук реванша · Виконтесса · Обычно",
     ["单局内己方相连据点数达到4个"] = "Число соединённых союзных опорных пунктов за один матч достигло 4",
     ["古堡西部"] = "Запад Старого замка",
-    ["寻找<h>迪伦</>"] = "Find <h>Dylan</>",
-    ["库存：%s"] = "Inventory: %s",
-    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}, Shield: <img id=\"01\" width=\"40\" height=\"40\"/>Max Health × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
+    ["寻找<h>迪伦</>"] = "Найти <h>Дилана</>",
+    ["库存：%s"] = "Запас: %s",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>340%</> = {*d,F1690001,atkMin,3.4} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25} ед.",
+    ["Tactician 6-Person"] = "Тактика: 6 чел.",
+    ["Merrill"] = "Мерил",
     ["污染追踪"] = "Corruption Tracking",
 }

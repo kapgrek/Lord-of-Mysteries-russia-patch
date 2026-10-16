@@ -271,6 +271,8 @@ return {
     ["和服务生艾琳交谈（可选）"] = "Поговорить с официанткой Айрин (необязательно)",
     ["圣风大教堂\r\n<LeonSubTitle size=\"38\">Cathedral of Holy Wind</>"] = "Собор Святого Ветра\n<LeonSubTitle size=\"38\">Cathedral of Holy Wind</>",
     ["Completing Spring Night Ball cult activities will grant Spring Night Ball action points. Accumulate action points and strive to increase your rank within the cult!"] = "За выполнение мероприятий ордена Весеннего бала начисляются очки действий ордена. Копите очки действий и повышайте свой ранг в ордене!",
+    ["I was just passing by and saw you acting sneakily—you wouldn't happen to be a thief, would you?"] = "Я просто проходил мимо и увидел, что ты крадешься. Уж не вор ли ты?",
+    ["Are you sure you want to swap the cultivation progress of %s and %s?"] = "Обменять степень развития %s и %s?",
     ["罗塞尔Boss困难-2阶段-自清洁程序-数字怪buff"] = "Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Number Monster Buff",
     ["至于明天……啊，快看，我们种下的娃娃菜终于发芽了！"] = "As for tomorrow... ah, look, the napa cabbage we planted has finally sprouted!",
     ["等待时间  延迟执行  玩家播放仅自己可见的说话文本  玩家播放2D音效（仅自己可听）  玩家播放仅自己可见的说话文本  延迟执行"] = "Время ожидания Отложенное выполнение Игрок воспроизводит речевой текст, видимый только для себя Игрок воспроизводит 2D звуковой эффект (слышен только для себя) Игрок воспроизводит речевой текст, видимый только для себя Отложенное выполнение",

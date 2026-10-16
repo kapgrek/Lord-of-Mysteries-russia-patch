@@ -284,7 +284,8 @@ return {
     ["Do not harm the Crow; we are just being dragged into this!"] = "Не трогайте Ворона, мы просто оказались втянуты в это!",
     ["Fires a gear beam at a target within <HighLight>3</> tiles, dealing <Yellow>259</> Attack damage."] = "Выпускает луч шестерёнок, нанося цели в радиусе <HighLight>3</> клеток <Yellow>259</> ед. урона от атаки.",
     ["另一种纹样的石头地板，肌理粗犷，沉稳踏实。"] = "Каменный пол с другим узором, грубой, прочной и основательной фактуры.",
-    ["已加入队伍。一切失控与诅咒，将在此终结。"] = "Joined the team. All loss of control and Curse will reach their Finish here.",
-    ["已向%s发送换位请求"] = "Swap request sent to %s",
+    ["已加入队伍。一切失控与诅咒，将在此终结。"] = "Вы в команде. Здесь закончатся все Потери Контроля и проклятия.",
+    ["已向%s发送换位请求"] = "Запрос на обмен местами отправлен игроку %s",
+    ["Must-wear"] = "Обязательно надеть",
     ["Hehehe\nHahahahaha...\nHahahahahahaha...\nHahahahahahahaha...!"] = "Хи-хи-ха-ха\nХа-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха...\nХа-ха-ха-ха-ха-ха-ха-ха!..",
 }

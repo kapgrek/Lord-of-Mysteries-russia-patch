@@ -298,7 +298,7 @@ return {
     ["外侧纱"] = "Внешняя вуаль",
     ["The seventh of the Major Arcana, The Chariot. Driving the chariot and holding the sword, facing all hardships head-on, an unwavering will is the only support for a Warrior to reach the promised land."] = "Седьмая карта Старших арканов — Колесница. Мчаться на колеснице с мечом в руке, встречая лицом к лицу все невзгоды: непоколебимая воля — единственная опора Воина на пути в землю обетованную.",
     ["Dawn of the Guard - Inside the Hidden Space"] = "Рассвет стража — в скрытом пространстве",
-    ["已解锁%s，可在聊天表情面板查看"] = "%s unlocked, you can view it in the chat emoji panel",
+    ["已解锁%s，可在聊天表情面板查看"] = "%s разблокировано, можно посмотреть в панели смайлов чата",
     ["现实线第六章-询问冰淇淋的真相"] = "Reality Line Chapter 6 - Ask about the truth behind the ice cream",
     ["确认更换"] = "Confirm change",
     ["罪恶廷根终档开局脉冲"] = "Sinful Tingen Final Tier Starting Pulse",

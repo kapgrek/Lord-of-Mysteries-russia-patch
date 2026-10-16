@@ -278,8 +278,8 @@ return {
     ["双旦活动-提交点-已提交"] = "Событие «Двойной праздник»: пункт сдачи — сдано",
     ["向目标区域释放三重怨念，共造成{*d,F1690001,atkMin,10.8}点攻击伤害。"] = "Выпускает в целевую область тройную злобу, всего нанося {*d,F1690001,atkMin,10.8} ед. урона атакой.",
     ["好啦，不要吵了，我们给它取个名字怎么样？"] = "Ну хватит спорить, давайте дадим ему имя?",
-    ["庆祝花车巡游后，获得的庆祝奖励。"] = "Celebration rewards obtained after the celebratory float parade.",
-    ["我喊你半天，你头也不回。怎么？以为签了合同，《夜色金玫瑰》的角色就稳了？"] = "I've been calling you for ages, and you didn't even turn your head. What? Do you think that just because you signed the contract, your role in \"The Golden Rose of the Night\" is secure?",
+    ["庆祝花车巡游后，获得的庆祝奖励。"] = "Праздничные награды, полученные после шествия праздничных платформ.",
+    ["我喊你半天，你头也不回。怎么？以为签了合同，《夜色金玫瑰》的角色就稳了？"] = "Я столько тебя звал, а ты даже не обернулся. Что? Думаешь, раз подписал контракт, роль в «Золотой розе ночи» у тебя в кармане?",
     ["湖岸南路补给"] = "Lakeside South Road Supplies",
     ["齿轮发射器距离过近，将持续对附近造成伤害！"] = "The Gear Launcher is too close, it will cause Continuous damage to the surroundings!",
 }

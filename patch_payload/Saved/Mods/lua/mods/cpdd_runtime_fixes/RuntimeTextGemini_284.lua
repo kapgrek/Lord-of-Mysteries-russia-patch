@@ -289,6 +289,8 @@ return {
     ["Use to obtain <Highlight>Avatar Frame: Imaginary Dog</>"] = "После использования вы получите <Highlight>Рамка аватара: Пёс грёз</>",
     ["回到正义小姐身边"] = "Вернуться к мисс Справедливости",
     ["If the next station <LightHighlight>is [Food Shop]</>, the shipment volume of <LightHighlight>alcohol and artwork</> for this round is <LightHighlight>+75%</>, and you will receive 25% of your current Chamber of Commerce tickets."] = "Если следующая остановка <LightHighlight>— [Лавка еды]</>, в этом заезде объём поставок <LightHighlight>напитков и предметов искусства</> <LightHighlight>+75%</>, и вы получаете 25% текущих торговых билетов",
+    ["Patrol 2"] = "Патруль 2",
+    ["Melissa, you're treating me like a child. {{He|She}} bought me ice cream."] = "Мелисса, ты считаешь меня ребёнком. {{Он|Она}} угостил(а) меня мороженым.",
     ["神迹荫蔽下的空间，命盘与星光指引未来的轨迹。"] = "A space sheltered by divine miracles, where the fate plate and Starlight guide the trajectory of the future.",
     ["紧急收购黄油啤酒"] = "Urgent acquisition of Butterbeer",
     ["计算成功0/2，全队攻速大幅降低！"] = "Calculation success 0/2, team Attack Speed significantly reduced!",

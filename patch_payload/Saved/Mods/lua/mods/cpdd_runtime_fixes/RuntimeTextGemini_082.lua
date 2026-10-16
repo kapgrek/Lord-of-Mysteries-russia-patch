@@ -240,7 +240,7 @@ return {
     ["Teleport to the defeated club 1 time after a Club War"] = "Телепортироваться в побеждённый клуб 1 раз после объявления войны клубов",
     ["候补会员数量已满，请在会员候补快捷调整中进行操作。"] = "Резерв участников заполнен, внесите изменения в окне быстрой настройки резерва участников.",
     ["傲慢不是作恶的理由！你知道普通人需要多大勇气，才敢诞生反抗命运的念头吗！"] = "Высокомерие не оправдывает зло! Знаешь ли ты, сколько мужества нужно простому человеку, чтобы просто зародить мысль о бунте против судьбы!",
-    ["我的一镑钱或许比西摩斯先生的十镑钱轻上一些，但我的虔诚和底气并不比他的轻。"] = "My one pound might be a little lighter than Mr. Seamos's ten pounds, but my piety and confidence are not any lighter than his.",
+    ["我的一镑钱或许比西摩斯先生的十镑钱轻上一些，但我的虔诚和底气并不比他的轻。"] = "Мой один фунт, возможно, легче десяти фунтов господина Симоса, но моя набожность и уверенность ничуть не легче его.",
     ["用镜占卜"] = "Perform divination using a mirror",
     ["第一次总是最难的，记住这种痛苦，它会让你变强。"] = "The first time is always the hardest. Remember this pain; it will make you stronger.",
     ["那个能完成复仇的——“她”。"] = "The one who can complete the revenge—\"She\".",

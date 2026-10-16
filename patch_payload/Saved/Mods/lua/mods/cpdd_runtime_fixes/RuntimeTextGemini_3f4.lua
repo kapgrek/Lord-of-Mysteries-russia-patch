@@ -318,6 +318,9 @@ return {
     ["But your shop is located in Backlund..."] = "Но ваша лавка находится в Бэкланде...",
     ["Fallen Flute"] = "Падшая флейта",
     ["塔罗·伦纳德·米切尔·档2增量"] = "Таро: Леонард Митчелл, прирост ур. 2",
-    ["廷根南前往廷根东南"] = "Tingen South to Tingen Southeast",
+    ["By the way, Mr. Leonard, it seems like there's always a bell toll whenever you appear? I've heard loud bell tolls a few times before; did those also come from you?"] = "Кстати, господин Леонард, при вашем появлении, кажется, всегда раздаётся колокольный звон? Я и раньше несколько раз слышал гулкий звон колокола, он тоже исходил от вас?",
+    ["廷根南前往廷根东南"] = "Юг Тингена → Юго-восток Тингена",
+    ["A powerful alliance"] = "Объединение сильных",
+    ["My name is Louis, I am from East Balam, and I am currently studying abroad at <P_Yellow>Backlund University</>. I originally thought Backlund was a suitable place for study, but who knew that only two weeks after arriving, I would run into such bad luck."] = "Меня зовут Луи, я из Восточного Балама и сейчас учусь по обмену в <P_Yellow>Университете Бэкланда</>. Я думал, что Бэкланд — подходящее место для учёбы, но не прошло и двух недель после приезда, как мне так не повезло.",
     ["生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>12%</>的护盾，持续<HighLight>5</>秒。"] = "When Health first drops below <HighLight>40%</>, gain a Shield equivalent to <HighLight>12%</> of your maximum Health, lasting for <HighLight>5</> seconds.",
 }

@@ -272,6 +272,8 @@ return {
     ["So cold, I need to take it away and contain it quickly..."] = "Как холодно, надо скорее забрать это и поместить на хранение...",
     ["好烫！但痛觉一点都没被削弱，反而更清晰了。"] = "Как горячо! Но боль нисколько не ослабла, а стала даже яснее.",
     ["完成【保持距离】"] = "Выполнить «Сохранять дистанцию»",
+    ["Theater Poster"] = "Театральная афиша",
+    ["Examine urn"] = "Осмотреть урну с прахом",
     ["稀有·牵引灵坠暴击监听"] = "Rare Traction Spirit Pendant Critical Hit Monitor",
     ["隐藏的武器槽位"] = "Hidden weapon slot",
     ["高级染收集奖励"] = "Advanced Dye Collection Reward",

@@ -289,6 +289,8 @@ return {
     ["Summon Believer Number One, Anthea, to apply a blessing to the target and protect their life."] = "Призывает Первого последователя, Антею, чтобы наложить на цель покровительство, защищающее жизнь.",
     ["Weekly Limit %s/%s rounds"] = "Лимит в неделю: %s/%s раундов",
     ["The fate endgame, the challenge continues"] = "Финал судьбы, испытание продолжается",
+    ["From Tingen Station to Tingen Central"] = "Вокзал Тингена → центр Тингена",
+    ["After collecting a Scarlet Relic, go to the designated submission point of the corresponding faction and hand it to the Hunt Butler to obtain Conquest Reputation."] = "Собрав Алую реликвию, отнесите её в постоянный пункт сдачи своей фракции и передайте Охотничьему управляющему, чтобы получить репутацию завоевания.",
     ["Davina"] = "Давина",
     ["已提出申请，请等待对方回应"] = "Заявка отправлена; пожалуйста, подождите ответа.",
     ["Highest Win Streak:"] = "Макс. серия побед:",

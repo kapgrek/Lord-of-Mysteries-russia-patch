@@ -263,6 +263,8 @@ return {
     ["在竞技玩法中<Highlight>击败</>1名窥秘人"] = "<Highlight>Победите</> 1 Заглядывающего в Тайны в соревновательном режиме",
     ["大阿卡纳中位居第七，战车牌。驱车持剑，直面所有磨难，坚定不移的意志是战士抵达应许之地的唯一支撑。"] = "Седьмая карта Старших арканов — Колесница. Мчаться на колеснице с мечом в руке, встречая лицом к лицу все невзгоды: непоколебимая воля — единственная опора Воина на пути в землю обетованную.",
     ["Completing Requiem Poetry Society cult activities will grant Requiem Poetry Society action points. Accumulate action points and strive to increase your rank within the cult!"] = "За выполнение мероприятий ордена Поэтического общества Реквиема начисляются очки действий ордена. Копите очки действий и повышайте свой ранг в ордене!",
+    ["At the start of combat, <HighLight>for every 1 allied unit in the front row</>, the entire team gains <HighLight>50 Health</>."] = "В начале боя за <HighLight>каждую союзную фишку в первом ряду</> вся команда получает <HighLight>50 ОЗ</>.",
+    ["Friend, what do you think?"] = "Друг, что ты думаешь?",
     ["英勇的战士冲锋陷阵，荣耀在刀刃上闪光。"] = "The brave Warrior charges into battle, glory gleaming on the blade.",
     ["虽然我今天才认识你，但……也祝你度过“非凡”一天。"] = "Although I only just met you today, I... still wish you an \"extraordinary\" day.",
     ["警官{{先生|女士}}，您还有什么想问的吗？"] = "Officer {{gentleman|lady}}, is there anything else you would like to ask?",

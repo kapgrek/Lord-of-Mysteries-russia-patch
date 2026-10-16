@@ -276,6 +276,8 @@ return {
     ["Use to obtain <Highlight>Display Stand Action: Aria</>\nDuplicate acquisitions will be automatically dismantled into Bound Gold Pound ×100"] = "После использования вы получите <Highlight>Действие витрины: Ария</>\nПовторное получение автоматически превратится в привязанные золотые фунты ×100",
     ["呜嘎，输了，我，舞步，跟不上，呜呜。"] = "У-у-га, проиграл я, шаги танца, не поспел, у-у.",
     ["Tell a joke to Rebecca"] = "Пошутить с Ребеккой",
+    ["Barney's Companionship"] = "Компания Барни",
+    ["Advancement Quest - Priest of Light - Before entering combat"] = "Задание на повышение: Жрец Света — перед боем",
     ["蒸汽时代·护目礼帽技能开始"] = "Steam Era: Goggle Top Hat Skill Start",
     ["血量隐形怪"] = "HP Stealth Monster",
     ["该死 我的船票呢？"] = "Damn it, where is my ticket?",

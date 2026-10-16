@@ -236,6 +236,7 @@ return {
     ["<P_Yellow>没有我的名字……我的名字在哪里，我是……迪伦？</>"] = "<P_Yellow>Моего имени нет... Где моё имя? Я... Дилан?</>",
     ["不仅是我做的，也可能是另一些我，准确地说，是一群“我们”。"] = "Это сделал не только я, а, возможно, и другие «я». Точнее, целая группа «нас».",
     ["You know me! I knew it, I am—"] = "Ты меня знаешь! Я так и знал, я точно Мин—",
+    ["Piece Innate Mana Regen: Astrolabe User"] = "Врожд. восст. маны фигуры: Пользователь астролябии",
     ["血猎披风"] = "Blood Hunter Cloak",
     ["邦尼：哈哈哈哈哈，不错，你和花种融合得非常完美，但是……"] = "Bonnie: Hahahaha, not bad. You and the flower seed have fused perfectly, but...",
     ["终末猎杀-草丛19逐簇隐匿07"] = "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 07",

@@ -289,8 +289,10 @@ return {
     ["Use Camera"] = "Использовать камеру",
     ["劝阻<h>迪伦</>"] = "Отговорить <h>Дилана</>",
     ["始终放不下"] = "Не могу отпустить",
-    ["怪物波次_3_1"] = "Monster Wave_3_1",
-    ["战斗开始时，<HighLight>与友军相邻</>的棋子获得<HighLight>300点护盾</>，持续<HighLight>8秒</>。"] = "At the start of combat, units <HighLight>adjacent to an ally</> gain a <HighLight>300 shield</> for <HighLight>8 seconds</>.",
+    ["Bui"] = "Буи",
+    ["A signal from Mr. Pallez? They have a lead?"] = "Сигнал от господина Паллеза? У них есть зацепка?",
+    ["怪物波次_3_1"] = "Волна монстров_3_1",
+    ["战斗开始时，<HighLight>与友军相邻</>的棋子获得<HighLight>300点护盾</>，持续<HighLight>8秒</>。"] = "В начале боя фигуры, <HighLight>стоящие рядом с союзником</>, получают <HighLight>щит на 300 ед.</> на <HighLight>8 сек.</>.",
     ["跟丽贝卡进咖啡厅"] = "Enter the Cafe with Rebecca",
     ["输入名称或数字id"] = "Enter name or numeric ID",
 }

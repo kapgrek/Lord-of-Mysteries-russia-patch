@@ -290,6 +290,7 @@ return {
     ["Wells, that coward, is sleeping like a baby... No, get up!"] = "Один лишь Уэллс, этот трус, спит как младенец... Нет, так не пойдет, вставай!",
     ["内侧纱"] = "Внутренняя вуаль",
     ["Approach and check on The Fallen Swan"] = "Падение лебедя: подойти и посмотреть",
+    ["By the way, Mr. Leonard also told me that Mr. The Fool, the original Amon, and another God had made a deal..."] = "Кстати, господин Леонард ещё сказал мне, что господин «Шут», истинный Амон и другой бог заключили сделку...",
     ["生与死的界限在此混淆，古老的领域静默而庄严。"] = "The boundary between life and death is blurred here; the ancient realm is silent and solemn.",
     ["罗塞尔Boss-1&2阶段-圆形700"] = "Roselle Boss-Stages 1&2-Circle 700",
     ["罗塞尔Boss困难-2阶段-磁电回收点名"] = "Roselle Boss Hard - Stage 2 - Electromagnetic Recovery Target",

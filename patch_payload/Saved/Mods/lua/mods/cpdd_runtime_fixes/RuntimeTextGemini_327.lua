@@ -265,6 +265,8 @@ return {
     ["Can obtain 1 <Highlight>Beyonder material</>, 5 <Highlight>Blue Mountain Crystals</>"] = "Можно получить 1 <Highlight>необыкновенную субстанцию</>, 5 <Highlight>кристаллов Голубой горы</>",
     ["圣赛缪尔教堂氛围-给新娘送花"] = "Атмосфера церкви Святого Самуэля: подарить цветы невесте",
     ["坚壁徽章"] = "Знак Оплота",
+    ["I told you so, those few drinks last night were bound to cause trouble. You can't even recognize an acquaintance now."] = "Я же говорил: вчерашние стаканчики рано или поздно до добра не доведут. Ты теперь даже знакомых не узнаёшь.",
+    ["Share your championship victory record 3 times after winning a game."] = "После победы в партии поделитесь рекордом чемпионства 3 раза.",
     ["玩家战斗开始时：回复玩家<HighLight>2</>点生命。"] = "At the start of player combat: restores <HighLight>2</> player Health.",
     ["进入宴会厅二楼搜寻线索"] = "Enter the second floor of the banquet hall to search for clues",
     ["黄黑之咪"] = "Yellow-Black Kitty",

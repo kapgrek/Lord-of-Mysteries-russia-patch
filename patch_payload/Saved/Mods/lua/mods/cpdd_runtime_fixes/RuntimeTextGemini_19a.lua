@@ -289,6 +289,8 @@ return {
     ["同一局中，获得20回合连胜。"] = "За один матч одержите 20 побед подряд.",
     ["Uh... am I to accept the fate of being the offspring of an evil God again?"] = "Э-э... мне снова придётся принять судьбу отпрыска злого бога?",
     ["Tsk, this lousy pond probably can't even keep common fish alive..."] = "Цк, в этом жалком пруду даже обычная рыба не выживет...",
+    ["Special tax rate set: <highlight>%s</>/%s"] = "Особая налоговая ставка установлена: <highlight>%s</>/%s",
+    ["None of us have moved away, and everyone remembers you. Now that you're back, will you be leaving again?"] = "Никто из нас не съехал, все помнят вас. Теперь, когда вы вернулись, вы снова уйдете?",
     ["海浪隐形怪"] = "Sea Wave Stealth Monster",
     ["规则很简单：拿起桌上的训练手枪，在六十秒内尽可能击中更多目标。"] = "The rules are simple: pick up the training pistol on the table and hit as many targets as possible within sixty seconds.",
     ["邦尼：至于你……我能感觉到你体内“种子”的跳动。"] = "Bonnie: As for you... I can feel the beating of the \"seed\" inside your body.",

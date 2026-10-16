@@ -292,6 +292,7 @@ return {
     ["在你每次升级时获得1个2星弈子和1金币。这个弈子的费用位阶是你的等级减4(最大值：5费)。"] = "При каждом повышении уровня вы получаете 1 двухзвёздочную фигуру и 1 монету. Стоимость этой фигуры равна вашему уровню минус 4 (максимум: 5).",
     ["塔罗·“律令师”休·迪尔查·档6增量"] = "Таро: «Законник» Сио Дереча, прирост ур. 6",
     ["Losing patience"] = "Терпение иссякает",
+    ["We've been chatting the whole way, and I consider you a friend, so I'll play along with your act one more time—"] = "Мы болтали всю дорогу, я считаю тебя другом, так что сыграю с тобой еще раз —",
     ["煤气灯点亮夜色街道，月光与雾气编织着城市的梦境。"] = "Gas lamps light up the night streets, as moonlight and fog weave the city's dream.",
     ["花海南部小镇"] = "South Flower Sea Small Town",
     ["都动起来啊伙计们！今天怎么了？平时也没见你们食欲不振啊……"] = "Get moving, guys! What's wrong with you today? I've never seen you lose your appetite like this before...",

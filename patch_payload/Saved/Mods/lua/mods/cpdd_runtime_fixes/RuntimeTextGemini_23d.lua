@@ -274,6 +274,7 @@ return {
     ["Use Skill: <Highlight>Poised to Strike</> 1 time"] = "Используйте навык: <Highlight>Готовность к удару</> (1 раз)",
     ["哈哈，还是看他们聊天有趣。"] = "Ха-ха, всё же интереснее смотреть, как они болтают.",
     ["So hot! But the pain hasn't been Weaken at all; if anything, it's even clearer."] = "Как горячо! Но боль нисколько не ослабла, а стала даже яснее.",
+    ["Examine <h>a stack of dog-eared scripts</>"] = "Осмотреть <h>стопку потрёпанных сценариев</>",
     ["没有希望了……"] = "There is no Hope left...",
     ["狮心护戒12%生命护盾"] = "Lionheart Ring 12% Health Shield",
     ["神铸之主"] = "Lord of Divine Forging",

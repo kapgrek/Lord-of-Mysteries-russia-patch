@@ -241,7 +241,7 @@ return {
     ["使用后获得<Highlight>头像・占卜家</>"] = "После использования вы получите <Highlight>аватар «Провидец»</>",
     ["塔罗牌：战车"] = "Карта Таро: Колесница",
     ["Alright! Thank you very much."] = "Хорошо! Огромное спасибо.",
-    ["我想起来了！刚才的敌人，是特里斯案件期间、在黑荆棘门口遇见过的少女。"] = "I remember now! The enemy from just now was the young girl I met at the gate of Blackthorn during the Trissy case.",
+    ["我想起来了！刚才的敌人，是特里斯案件期间、在黑荆棘门口遇见过的少女。"] = "Я вспомнил! Враг, который только что был здесь, — та девушка, которую я встретил у ворот Блэкторна во время дела Трисси.",
     ["石块垒砌的墙体严实合缝，安静地围出室内的空间。"] = "The stone-built wall is seamless, quietly enclosing the interior space.",
     ["终末猎杀草丛隐身;草丛组09"] = "Final Hunt Bush Invisibility; Bush Group 09",
     ["终末猎杀草丛隐身;草丛组15"] = "Final Hunt Bush Invisibility; Bush Group 15",

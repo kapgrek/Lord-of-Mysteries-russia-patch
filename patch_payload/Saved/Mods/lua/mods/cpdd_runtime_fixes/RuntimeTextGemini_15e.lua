@@ -286,6 +286,7 @@ return {
     ["I can't stay calm... I want to go back to school to study..."] = "Не могу успокоиться... Хочу вернуться в школу учиться...",
     ["Sword Point Designation"] = "Меч-указатель",
     ["守夜圣印"] = "Священная печать стража ночи",
+    ["I will. I'm very sorry you missed the show today; next time you come to the circus, I'll treat you to a performance!"] = "Обязательно. Простите, что сегодня вы пропустили представление. В следующий раз приходите в цирк, я приглашаю вас на выступление!",
     ["灵界……不是现实……不要迷失方向……"] = "The Spirit World... is not reality... do not get Lost...",
     ["稀有·回灵链坠"] = "Rare · Spirit-Returning Pendant",
     ["罗塞尔Boss-密码阶段判断身上是否有84015115"] = "Roselle Boss - Password Phase - Check if 84015115 is present on player",

@@ -300,9 +300,9 @@ return {
     ["Use to obtain <Highlight>Animated Chat Bubble: Gentle Melody</>"] = "После использования вы получите <Highlight>анимированный пузырь чата «Нежный звук лютни»</>",
     ["使用后获得<Highlight>灰烬之网套装</>"] = "После использования вы получите <Highlight>Комплект Пепельной паутины</>",
     ["Velvet Glove Transport"] = "Перевозка в бархатных перчатках",
-    ["已选<NumYellow>1</>/1"] = "Selected <NumYellow>1</>/1",
-    ["希望之地 万都之都——"] = "Land of Hope, City of Ten Thousand—",
-    ["死亡过程"] = "Death Process",
+    ["已选<NumYellow>1</>/1"] = "Выбрано <NumYellow>1</>/1",
+    ["希望之地 万都之都——"] = "Земля надежды, город десяти тысяч —",
+    ["死亡过程"] = "Процесс смерти",
     ["铁盔"] = "Iron Helmet",
     ["%s太美了！好看！"] = "%s такой красивый! Удивительный!",
 }

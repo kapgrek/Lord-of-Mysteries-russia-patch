@@ -292,7 +292,9 @@ return {
     ["But I must also be extra careful; after all, I am still using Dylan's identity."] = "Но нужно быть особенно осторожным: ведь на мне всё ещё личность Дилана.",
     ["Kalapon: Scum of Iron Cross Street—it is time to clear the area!"] = "Калапон: Отбросы с улицы Железного Креста — пора очистить территорию!",
     ["The Hoarding Merchant who only sets off upon smelling the fragrance of flowers"] = "Торговый дом-накопитель, выступающий в путь, лишь учуяв аромат цветов",
-    ["廷根西北站长"] = "Tingen Northwest Station Master",
+    ["廷根西北站长"] = "Начальник станции «Северо-запад Тингена»",
+    ["Let's split up to look for him as well; I was just about to give him this bouquet of flowers."] = "Мы тоже пойдем искать его по отдельности, я как раз собиралась подарить ему этот букет.",
+    ["Open to randomly receive 1 piece of <Highlight>Competition-oriented</> orange Equipment with <Highlight>Item Level 68</>."] = "После открытия случайно выдаёт 1 оранжевую единицу снаряжения с <Highlight>уровнем предмета 68</> и <Highlight>соревновательным уклоном</>.",
     ["追星"] = "Star-chasing",
     ["Camilo"] = "Камило",
 }

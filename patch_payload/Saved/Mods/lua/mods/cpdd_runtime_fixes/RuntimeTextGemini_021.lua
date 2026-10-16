@@ -269,6 +269,7 @@ return {
     ["古堡西部前往古堡南部"] = "С запада Старого замка на юг",
     ["啊！时间要到了，我先走了！"] = "Ах! Время вышло, я побежал!",
     ["Chronos Crystal · Morning"] = "Кристалл времени · Утро",
+    ["Shield Formula"] = "Формула щита",
     ["生命值低于<HighLight>50%</>时，受到的伤害降低<HighLight>20%</>。"] = "When Health is below <HighLight>50%</>, damage taken is reduced by <HighLight>20%</>.",
     ["神秘商店收购琥珀虾干"] = "Mysterious Shop acquires Dried Amber Shrimp",
     ["给苏勒降下诅咒"] = "Place a Curse on soli",

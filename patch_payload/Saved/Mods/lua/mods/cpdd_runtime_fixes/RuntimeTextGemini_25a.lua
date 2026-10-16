@@ -301,8 +301,9 @@ return {
     ["He only has the body of a child, but in reality, he is still the 'Mercury Angel' of The Fool church."] = "У него лишь тело ребёнка, а на самом деле он по-прежнему «Ртутный ангел» церкви Шута.",
     ["十磅？你说得轻易，你这该死的黑心肠的家伙！"] = "Десять фунтов? Тебе легко говорить, проклятый ты бессердечный негодяй!",
     ["多个圆形AOE"] = "Несколько круговых зон AOE",
-    ["是你命运中的 可能性"] = "It is the possibilities in your fate",
-    ["棋子固有回蓝·弓箭骑士"] = "Piece Innate Mana Regen: Bow Knight",
+    ["Open the treasure chest and leave the mental space with the singer."] = "Открыть сундук и покинуть пространство мыслей вместе с певицей",
+    ["是你命运中的 可能性"] = "Это возможности в твоей судьбе",
+    ["棋子固有回蓝·弓箭骑士"] = "Врожд. восст. маны фигуры: Рыцарь-лучник",
     ["获得<HighLight>1个风信子</>。每场战斗中，咒术棋子<HighLight>前2次施法</>后均获得<HighLight>10%攻速</>和<HighLight>8%伤害加深</>，持续<HighLight>4秒</>。"] = "Gain <HighLight>1 Hyacinth</>. After each of their <HighLight>first 2 skill casts</> each battle, Hexcraft units gain <HighLight>10% Attack Speed</> and <HighLight>8% increased damage dealt</> for <HighLight>4 seconds</>.",
     ["魔毯"] = "Magic Carpet",
 }

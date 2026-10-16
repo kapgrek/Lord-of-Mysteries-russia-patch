@@ -243,8 +243,11 @@ return {
     ["同一局中，刷新20次商店。"] = "За один матч обновите магазин 20 раз.",
     ["Tarot - Hugh, the Imperative Mage - Dilcha - Tier 4 Increment"] = "Таро: «Законник» Сио Дереча, прирост ур. 4",
     ["完美构筑"] = "Идеальная сборка",
-    ["掠过夜空的兽影拥抱金属的冰冷，让面孔的温度隐于甲胄之后。你的心中是否也潜藏有野兽的嗥叫？"] = "The beastly shadow skimming across the night sky embraces the coldness of metal, hiding the warmth of a face behind armor. Does a beast's howl also lurk within your heart?",
-    ["本赛季不再提示"] = "Do not show again this season.",
+    ["Tingen South"] = "Юг Тингена",
+    ["掠过夜空的兽影拥抱金属的冰冷，让面孔的温度隐于甲胄之后。你的心中是否也潜藏有野兽的嗥叫？"] = "Звериная тень, скользящая по ночному небу, обнимает холод металла, пряча тепло лица за доспехами. А не таится ли и в твоём сердце звериный вой?",
+    ["Deduce cause of death"] = "Установить причину смерти",
+    ["Since the postman is an Amon Avatar, why not capture him?"] = "Раз почтальон — аватар Амона, почему его не поймать?",
+    ["本赛季不再提示"] = "Больше не напоминать в этом сезоне",
     ["歌颂者：勇气之歌4筛选"] = "Bard: Song of Courage 4 Filter",
     ["终末猎杀-草丛13逐簇隐匿01"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 01",
 }

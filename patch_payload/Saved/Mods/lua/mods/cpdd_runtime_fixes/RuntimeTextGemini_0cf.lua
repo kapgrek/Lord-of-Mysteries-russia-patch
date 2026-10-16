@@ -272,6 +272,8 @@ return {
     ["Ahem... fortunately, He didn't come! Don't forget, the personality and abilities of an avatar all originate from the original body."] = "Кхм... К счастью, Он не пришёл! Не забывай: характер и способности аватара происходят от оригинала.",
     ["Hold the Line_3 Front Row"] = "Удержание рубежа_3 передний ряд",
     ["The Fallen Swan: Talk to the theater manager"] = "Падение лебедя: поговорить с управляющим театра",
+    ["Book of the Past: Thank you for helping me disrupt the Ritual Magic the old man used to seal the Library!"] = "Книга былого: Спасибо, что помог мне разрушить ритуальную магию, которой старик запечатывал библиотеку!",
+    ["I am just coming from there."] = "Я как раз оттуда.",
     ["还是你想，用你那微薄的薪水，也在金玫瑰找点乐子？"] = "Or do you want to find some fun at the Golden Rose with your meager salary too?",
     ["这位警官处理过很多神秘事件，也许能帮到你。"] = "This police officer has handled many mysterious incidents and might be able to help you.",
     ["Client Reload at"] = "Перезагрузка клиента в",

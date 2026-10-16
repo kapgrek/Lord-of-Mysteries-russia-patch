@@ -253,7 +253,8 @@ return {
     ["1.3 Replacement marionette Quest 2"] = "1.3 Замена задания «Тайная марионетка» 2",
     ["咒术4人施法成长"] = "Колдовство: рост заклинания на 4 игроков",
     ["Detonate mushrooms in a dense area of enemies, dealing {*d,F1690001,atkMin,2.6} Attack damage and leaving behind a mycelium ground for <HighLight>4</> seconds. Enemies within the area take {*d,F1690001,atkMin,0.6} Attack damage per second, their Attack Speed is reduced by <HighLight>50%</>, and their movement speed is reduced by <HighLight>25%</>."] = "Взрывает грибы в месте скопления врагов, нанося {*d,F1690001,atkMin,2.6} ед. урона атаки и оставляя на <HighLight>4</> сек. почву с мицелием. Враги в области каждую секунду получают {*d,F1690001,atkMin,0.6} ед. урона атаки, скорость атаки у них снижается на <HighLight>50%</>, скорость передвижения — на <HighLight>25%</>.",
-    ["寂静"] = "Silence",
-    ["毀"] = "Destroy",
+    ["寂静"] = "Тишина",
+    ["Armament Workshop"] = "Военная мастерская",
+    ["毀"] = "Разрушение",
     ["<P_Heart>（呕……）</>"] = "<P_Heart> (Ух...) </>",
 }

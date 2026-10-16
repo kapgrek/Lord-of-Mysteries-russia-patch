@@ -280,6 +280,8 @@ return {
     ["Don't... don't speak!"] = "Не... не говори!",
     ["Danger lurks in the shadows, and battle is imminent."] = "Опасность таится во тьме, бой вот-вот начнётся.",
     ["原初黑焰禁疗"] = "Запрет лечения изначальным чёрным пламенем",
+    ["Recover memories"] = "Вернуть воспоминания",
+    ["When an enemy dies, the <HighLight>nearest allied unit</> recovers <HighLight>400 Health</>."] = "Когда враг погибает, <HighLight>ближайшая к нему союзная фигура</> восстанавливает <HighLight>400 ОЗ</>.",
     ["水晶球映照着命运的丝线，启示在烛火中无声浮现。"] = "The Crystal ball reflects the threads of fate, and revelations emerge silently within the candlelight.",
     ["获得<HighLight>1个侍女</>。其技能强化为：<HighLight>连续斩击，攻击后获得基于最大生命值的短时护盾</>。"] = "Gain <HighLight>1 Maid</>. Their Skill is strengthened to: <HighLight>Continuous Slash, gain a short-term shield based on Max Health after attacking</>.",
     ["这不是结束，而是你承载神子命运的开端。"] = "This is not the end, but the beginning of you bearing the fate of the God's child.",

@@ -297,6 +297,7 @@ return {
     ["个人不这么认为。"] = "Лично я так не считаю.",
     ["他们竟然是……梅丽莎和班森？！"] = "Они оказались... Мелиссой и Бенсоном?!",
     ["Use to obtain the <Highlight>Seer Avatar</>. If you already own the corresponding limited-time appearance, the time limit will be removed."] = "После использования вы получите <Highlight>аватар Провидца</>. Если у вас есть соответствующий временный облик, ограничение по времени будет снято.",
+    ["This ailment of mine has been dragging on for two weeks now."] = "Эта хворь тянется у меня уже две недели.",
     ["演出结束，再次伴随喷泉、喝彩、烟花彩带等——\n小丑们在芬奇带领下站成一排，向观众席谢幕。"] = "The performance ends, accompanied once again by fountains, cheers, fireworks, and ribbons—\nLed by Finch, the Clowns stand in a row and bow to the Spectator seating area.",
     ["确认希克斯的身份"] = "Confirm Hicks's identity",
     ["神威灼烧2"] = "Divine Might Burn 2",

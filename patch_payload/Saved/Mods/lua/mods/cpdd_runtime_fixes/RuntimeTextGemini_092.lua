@@ -264,6 +264,7 @@ return {
     ["Kindness is a luxury that can get people killed..."] = "Доброта — роскошь, которая может погубить...",
     ["在您伟岸的身姿和雄厚的财富面前，所有人都是孩子。"] = "Перед вашим величественным обликом и огромным богатством все — лишь дети.",
     ["夜间的墓园寂静无声，一切生灵或灵魂，都将在此回归安宁的国度。"] = "Ночью на кладбище царит тишина: все живые существа и души обретут здесь возвращение в край покоя.",
+    ["It is very likely that the postman is manipulating all of this from the shadows. How can I find him and return everything to normal?"] = "Скорее всего, всем этим тайно управляет почтальон. Как найти его и всё вернуть в норму?",
     ["等待到两天后的晚上"] = "Wait until the night two days later",
     ["结算销售剩余物产时，价格额外提升5%"] = "When settling the remaining products for sale, the price is increased by an additional 5%",
     ["芙洛拉"] = "Flora",

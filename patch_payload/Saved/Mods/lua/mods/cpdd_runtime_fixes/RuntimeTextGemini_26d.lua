@@ -275,6 +275,8 @@ return {
     ["Ask the band about the two"] = "Расспросить оркестр об этих двоих",
     ["It doesn't matter if I tell you; my body is host to an Angel of the same Pathway as Amon through Parasitism."] = "Тебе можно и сказать: в моём теле паразитирует Ангел того же Пути, что и Амон.",
     ["Actual recovery amount = WardMax * Rate"] = "Фактическое восстановление = WardMax * Rate",
+    ["Controlling emotions requires some practice. Would you like to try again?"] = "Управление эмоциями требует практики. Попробовать ещё раз?",
+    ["Traveler's Pack"] = "Дорожная котомка",
     ["真是被这个每天出门都得带伞的城市打败了……"] = "I'm truly defeated by this city where you have to carry an umbrella every time you go out...",
     ["罗塞尔Boss-1&2阶段-镜像数据-脱手子技能"] = "Roselle Boss - Phases 1 & 2 - Mirror Data - Detached Sub-skill",
     ["向好友出售%d/10000个300%%+收益率物产。"] = "Продайте друзьям %d/10000 товаров с доходностью 300%%+.",

@@ -290,6 +290,7 @@ return {
     ["Use to obtain <Highlight>Wave-Treading Face Accessory</>"] = "После использования вы получите <Highlight>Украшение для лица «Идущий по волнам»</>",
     ["Share to Club"] = "Поделиться в клубе",
     ["塔罗·克莱恩·莫雷蒂·档2增量"] = "Таро · Клейн Моретти · Ступень 2, прирост",
+    ["Open the Inventory and complete the inspection of the <h>medicine bottle</>."] = "Открыть рюкзак и осмотреть <h>флакон с лекарством</>",
     ["生命潮汐"] = "Tide of Life",
     ["答得不错，蒙对的？算了，我不在乎。不过……"] = "Not a bad answer. Did you guess it right? Forget it, I don't care. However...",
     ["蒸汽时代·护目礼帽技能窗口"] = "Steam Era: Goggle Top Hat Skill Window",

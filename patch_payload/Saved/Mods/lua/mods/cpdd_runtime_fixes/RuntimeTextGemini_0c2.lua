@@ -300,6 +300,7 @@ return {
     ["Feel your <h>pockets</> again"] = "Ещё раз пошарить по <h>карманам</>",
     ["Report to <h>Dunn</>"] = "Доложить <h>Данну</>",
     ["命运洗牌"] = "Тасование судьбы",
+    ["Derrick - City of Silver"] = "Дерик, Серебряный город",
     ["治疗分支"] = "Healing Branch",
     ["纯白之视"] = "Vision of Pure White",
     ["达西已经迟到十分钟了……咖啡都凉了。"] = "Darcy is already ten minutes late... The coffee has gone cold.",

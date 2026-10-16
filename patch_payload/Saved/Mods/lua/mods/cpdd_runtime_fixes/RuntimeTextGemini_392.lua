@@ -278,6 +278,8 @@ return {
     ["交换培养度"] = "Обмен прогрессом развития",
     ["Use to obtain <Highlight>Whispering Fur Salon Hairstyle</>"] = "После использования вы получите <Highlight>Причёска салона «Шёпот пуха»</>",
     ["向后闪现"] = "Рывок назад",
+    ["Quietly take out the ruby... don't alert Ruby!"] = "Тихо достать рубин... Не разбуди Руби!",
+    ["Chess Piece Innate Mana Regen: \"Lawyer\" Xio"] = "Врожд. восст. маны фигуры·«Законник» Хью",
     ["玻璃大炮II"] = "Glass Cannon II",
     ["直线斩击"] = "Linear Slash",
     ["顶级图鉴"] = "Top-tier Illustrated Handbook",

@@ -271,6 +271,7 @@ return {
     ["Use to obtain the <Highlight>Ashen Web Set</>"] = "После использования вы получите <Highlight>Комплект Пепельной паутины</>",
     ["Use to obtain <Highlight>Platinum Necklace</>"] = "После использования вы получите <Highlight>Платиновое ожерелье</>",
     ["Are you ready? The sandbox of the world has already opened for you. Enter the game!"] = "Готовы? Песочница мира открыта для вас. Вступайте в игру!",
+    ["Piece of cake. Do you have any more for today?"] = "Пустяки. Сегодня ещё есть?",
     ["进入金星餐厅，找到艾琳，收集日记主人的线索"] = "Enter Venus Restaurant, find Irene, and collect clues about the diary's owner.",
     ["选人"] = "Select character",
     ["隐秘空间破晓之前-丧钟武器神威buff-3级-灼烧"] = "Hidden Space Before Dawn - Death Knell Weapon God Might Buff - Level 3 - Burn",

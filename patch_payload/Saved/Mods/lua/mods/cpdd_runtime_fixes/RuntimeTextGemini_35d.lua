@@ -269,6 +269,7 @@ return {
     ["The countdown has begun. Watch out for your companions; don't let anyone be left alone."] = "Обратный отсчет начался. Следите за товарищами, не позволяйте никому остаться в одиночестве.",
     ["利用“往昔之书”的能力解开灵性之墙"] = "Используйте способность «Книги Прошлого», чтобы разрушить Герметичный Духовный Барьер",
     ["Members participating in this parade queue"] = "Участники этого парада",
+    ["Piece Innate Mana Regen: Mr. Barney 3-Star"] = "Врожд. восст. маны фигуры: Мистер Барни, 3 зв.",
     ["评论了你的诡秘圈:%s"] = "Commented on your Mystery Circle post: %s",
     ["钟声吓走了那群阿蒙分身，而威尔在危急关头使用了“重启”，让时间回到了你成为阿蒙分身以前。"] = "The bell toll scared away the group of Amon Avatars, and Will used \"Restart\" at the critical moment, turning time back to before you became an Amon Avatar.",
     ["啊，有冒险精神的客人。"] = "Ах, гость с авантюрным духом.",

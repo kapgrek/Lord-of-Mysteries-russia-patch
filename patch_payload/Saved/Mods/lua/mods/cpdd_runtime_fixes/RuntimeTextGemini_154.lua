@@ -274,6 +274,8 @@ return {
     ["Extra! Extra! The Great Smog of Backlund has caused heavy casualties!"] = "Экстренный выпуск! Великий смог в Бэкланде привёл к тяжёлым жертвам!",
     ["咳咳，宫廷玉液酒，下一句是什么？"] = "Кхм, «Дворцовое яшмовое вино»... какая там следующая строчка?",
     ["因为神明的交易，阿蒙分身承担了我本该承受的污染和命运。"] = "Из-за сделки с божеством аватар Амона принял на себя скверну и судьбу, которые должен был вынести я.",
+    ["Luckily, Ice Cream has been warning me! Is the displacement of my identity also part of the postman's prank?!"] = "К счастью, Мороженое всё время предупреждало! Подмена моей личности — тоже часть шутки почтальона?!",
+    ["I announce—this noble gentleman has won this item with a bid of three hundred thousand gold pounds!"] = "Объявляю: этот благородный господин купил лот за триста тысяч золотых фунтов!",
     ["炸弹！我赢了！"] = "Bomb! I won!",
     ["现实线第八章-命运咖啡厅分店"] = "Reality Line Chapter 8 - Fate Café Branch",
     ["那您听听这句台词。"] = "Then listen to this line.",

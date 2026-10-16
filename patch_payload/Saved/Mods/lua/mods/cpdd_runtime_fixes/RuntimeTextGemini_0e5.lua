@@ -251,6 +251,8 @@ return {
     ["嗯……没错。就当它是一个秘密吧！"] = "Хм... Верно. Пусть это будет секретом!",
     ["Leave a time mark at the current location"] = "Оставить временную метку в текущей позиции",
     ["Watchman's Breastplate"] = "Нагрудник дозорного",
+    ["You delivered Bread to my house! You even paid the tuition for my brother, Henry!"] = "Вы приносили хлеб в наш дом! И плату за учёбу моего брата Генри тоже внесли вы!",
+    ["Death Penalty"] = "Смертная казнь",
     ["永不枯竭的毒药"] = "Never-Ending Poison",
     ["还是算了，我的份也给你们吧。"] = "Never mind, you can have my share too.",
     ["【普通】童话故事-dj搜索出所有的的玩家"] = "[Normal] Fairy Tale-dj search for all players",

@@ -263,5 +263,7 @@ return {
     ["哎？你想跟我说什么来着？"] = "А? Что ты хотел мне сказать?",
     ["在当前位置留下时间印记"] = "Оставить временную метку в текущей позиции",
     ["坐到沙发上"] = "Сядьте на диван",
+    ["Are you satisfied? This batch is just a sample; we are still raising several colonies of rats in town."] = "Вы довольны? Это лишь образец, в городе мы выращиваем ещё несколько крысиных стай.",
+    ["Destroy the puppet"] = "Уничтожить марионетку",
     ["迷幻风铃树？"] = "Psychedelic Wind-Chime Tree?",
 }

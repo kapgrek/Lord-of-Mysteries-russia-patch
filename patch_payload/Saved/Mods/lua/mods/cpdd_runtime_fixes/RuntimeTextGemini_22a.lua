@@ -265,7 +265,7 @@ return {
     ["After use, you can obtain the <Highlight>Sound of the Sea Exclusive Display Stand Scene</>."] = "После использования вы получите <Highlight>сцену витрины «Голос моря»</>",
     ["使用后获得<Highlight>红与黑披风</>"] = "После использования вы получите <Highlight>Плащ «Красное и чёрное»</>",
     ["塔罗·佛尔思·沃尔·档4增量"] = "Таро: Форс Уолл, прирост ур. 4",
-    ["展台・睥睨"] = "Display Stand: Look Down",
+    ["展台・睥睨"] = "Подиум: взгляд свысока",
     ["警官{{先生|女士}}，你昨天说要继续调查，后来怎么样了？"] = "Officer {{gentleman|lady}}, you said yesterday you would continue the investigation. What happened after that?",
     ["饕餮成长体型3档"] = "Gluttony Growth Stage 3",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",

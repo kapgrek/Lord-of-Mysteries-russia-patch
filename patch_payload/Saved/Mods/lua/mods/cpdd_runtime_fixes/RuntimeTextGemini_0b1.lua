@@ -294,6 +294,7 @@ return {
     ["Hold the Line_4 Front Row"] = "Удержание рубежа_4 передний ряд",
     ["Tarot Audrey Hall Base"] = "Таро · Одри Холл · Основа",
     ["Feast"] = "Пир горой",
+    ["Betting: Food Shop takes effect, granting 75% of your [Treasured Mist Champagne]."] = "Ставка · Лавка еды сработала, получите 75% своего [Драгоценное туманное шампанское]",
     ["破空战刃固定射程效果"] = "Void-Piercing War Blade Fixed Range Effect",
     ["记忆窃取"] = "Memory Theft",
     ["这只臭鸟每天在售票亭顶等我下班。"] = "This stinking bird waits for me to get off work on top of the ticket booth every day.",

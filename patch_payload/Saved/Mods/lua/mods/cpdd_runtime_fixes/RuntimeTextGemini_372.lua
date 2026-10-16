@@ -263,6 +263,8 @@ return {
     ["Mr. Leonard, is \"pure\" Darkness related to the authority of the Night?"] = "Господин Леонард, «чистая» Тьма связана с полномочием Ночи?",
     ["Huh? Good morning, Officer."] = "О? Доброе утро, офицер.",
     ["坚守防线_6前排"] = "Удержание рубежа_6 передний ряд",
+    ["Have I heard the name Dylan here before?"] = "Я где-то здесь слышал имя Дилана?",
+    ["Every distinct <HighLight>3</>-star piece strengthens the entire team. At higher tiers, gain <HighLight>1</> random wilderness monster piece after each player battle."] = "Каждая разная <HighLight>3</>-звёздочная фишка усиливает всю команду. На высоких уровнях после каждого боя с игроком вы получаете <HighLight>1</> случайную фишку дикого монстра.",
     ["相关人物"] = "Related Characters",
     ["蒸汽时代徽章击杀成长"] = "Steam Era Badge Kill Growth",
     ["那倒不会，虽然它没你的车新，但骑起来很顺畅。"] = "That won't happen. Although it's not as new as your car, it rides very smoothly.",

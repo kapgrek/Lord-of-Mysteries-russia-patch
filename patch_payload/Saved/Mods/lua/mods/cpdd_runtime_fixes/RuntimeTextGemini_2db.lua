@@ -290,8 +290,10 @@ return {
     ["召唤<HighLight>2</>星【月之污染】。"] = "Призывает [Лунную скверну] <HighLight>2</>-звёздочного уровня.",
     ["But the boss said he was going to send the coffin into the crematorium—"] = "Но хозяин сказал отправить гроб в печь крематория...",
     ["塔罗·奥黛丽·霍尔·基础"] = "Таро · Одри Холл · Основа",
-    ["当然知道，他是殡仪馆新来的学徒，跟外面不是一伙。"] = "Of course I know him; he is the new Apprentice at the funeral home and is not with the people outside.",
-    ["每次普攻恢复<HighLight>4</>点法力值；造成暴击时，额外恢复<HighLight>6</>点法力值。"] = "Each Basic Attack restores <HighLight>4</> Mana; when dealing a critical hit, restore an additional <HighLight>6</> Mana.",
+    ["Guided Ray hit stacks"] = "Число попаданий направляющего луча",
+    ["当然知道，他是殡仪馆新来的学徒，跟外面不是一伙。"] = "Конечно знаю, он новый ученик в похоронном бюро и не из той компании, что снаружи.",
+    ["Acting Point - Assassin"] = "Точка отыгрыша: Убийца",
+    ["每次普攻恢复<HighLight>4</>点法力值；造成暴击时，额外恢复<HighLight>6</>点法力值。"] = "Каждая обычная атака восстанавливает <HighLight>4</> ед. маны; при критическом ударе дополнительно восстанавливается <HighLight>6</> ед. маны.",
     ["贝克兰德沙盘"] = "Backlund Sandbox",
     ["车队等级达到12级"] = "Caravan level reaches 12",
 }

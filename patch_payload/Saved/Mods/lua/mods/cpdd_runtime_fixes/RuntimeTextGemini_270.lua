@@ -231,7 +231,7 @@ return {
     ["使用后获得<Highlight>聊天气泡・巅峰之语</>"] = "После использования вы получите <Highlight>Пузырь чата・Слова вершины</>",
     ["Grants the following title upon use: <Highlight>Garden Condemner</>"] = "После использования вы получите титул: <Highlight>Обвинитель сада</>",
     ["分享到俱乐部"] = "Поделиться в клубе",
-    ["极品飞车"] = "Need for Speed",
+    ["极品飞车"] = "Жажда скорости",
     ["流光"] = "Flowing Light",
     ["蒸汽时代·护目礼帽技能结束"] = "Steam Era: Goggle Top Hat Skill End",
     ["这样的搭配让人想起冬天火炉前的闲话时光。"] = "Such a combination reminds one of idle chatter in front of a fireplace in winter.",

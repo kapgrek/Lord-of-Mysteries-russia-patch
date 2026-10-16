@@ -274,6 +274,8 @@ return {
     ["Classic cellared red wine, deep in color, smooth and full-bodied, worthy of being aged by time."] = "Классическое выдержанное красное вино насыщенного цвета, мягкое и полнотелое, достойное выдержки временем.",
     ["<Highlight>Craftsmanship:</> Sea Blue Brocade · Sea Foam Weave\nStepping in with the tide under the moonlight, the sea and sky are dyed like the tides. The cuffs roll up a thousand layers of snow-white waves, and the spray never ceases."] = "<Highlight>Отделка:</> Морская лазурная парча · Узор морской пены\nПод лунным светом он ступает вслед за приливом, море и небо расцвечены, как волны прилива, рукава вздымают тысячи слоёв снежных волн, и пена никогда не утихает.",
     ["先进去"] = "Сначала войти",
+    ["Tactician 2-Person"] = "Тактика: 2 чел.",
+    ["Dream Divination Image 4"] = "Изображение гадания по снам 4",
     ["聊聊其他话题"] = "Talk about other topics",
     ["这几天有一个走私美人鱼的团伙经过廷根，教会想趁机剿灭他们。"] = "A gang smuggling mermaids has been passing through Tingen these past few days, and the Church wants to take this opportunity to wipe them out.",
     ["次数"] = "",

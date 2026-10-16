@@ -288,6 +288,8 @@ return {
     ["Dissuade <h>Dylan</>"] = "Отговорить <h>Дилана</>",
     ["That guy Karl... honestly... getting rained on and he's still unhappy..."] = "Этот Карл... ну надо же... даже под дождём ему не угодишь...",
     ["塔罗·佛尔思·沃尔·档5增量"] = "Таро: Форс Уолл, прирост ур. 5",
+    ["Stop talking nonsense, don't waste any more time, come with us now!"] = "Хватит болтать, не тратьте время, идёмте с нами!",
+    ["This week %d/%d"] = "На этой неделе %d/%d",
     ["获得星辉翅膀后解锁"] = "Unlock after obtaining Starlight Wings",
     ["Gemma"] = "Джемма",
     ["Brooklyn"] = "Бруклин",

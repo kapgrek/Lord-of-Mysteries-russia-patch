@@ -256,6 +256,8 @@ return {
     ["使用后获得<Highlight>全境雍容发型</>"] = "После использования вы получите <Highlight>прическу «Царственное изящество»</>",
     ["(Wink) Try praying to Mr. The Fool; perhaps you'll find some inspiration."] = "(Подмигивает) Попробуй помолиться господину Шуту, возможно, придёт озарение.",
     ["<P_Yellow>我是……</>"] = "<P_Yellow>Я...</>",
+    ["Candle of Mental Demon"] = "Свеча кошмара разума",
+    ["Collect all 5-cost 3-star entries in your gambit career."] = "За карьеру в Гамбите соберите все трёхзвёздочные записи стоимости 5.",
     ["警察已经在附近注意到你的行为，想办法搪塞过去！"] = "The police have noticed your actions nearby; find a way to talk your way out of it!",
     ["转交"] = "Forward",
     ["Ximena"] = "Химена",

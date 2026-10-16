@@ -259,8 +259,11 @@ return {
     ["Talk to \"Dylan\""] = "Поговорить с «Диланом»",
     ["好香啊……但是尸体上长的菜……"] = "Как пахнет... но овощи, растущие на трупе...",
     ["如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>数量增加<LightHighlight>75%</>，否则，物产出售价格<LightHighlight>-40%</>"] = "Если следующая остановка <LightHighlight>— [Торговый дом]</>, количество имеющихся <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">[Охлаждённых ломтиков снежного моллюска]</> увеличивается на <LightHighlight>75%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
-    ["总之小心点，阿蒙是个强大又恐怖的名字。"] = "In any case, be careful. Amon is a powerful and terrifying name.",
-    ["查尼斯门？"] = "Chanis Gate?",
+    ["Mental Beacon Tier 3 Mark"] = "Метка Маяка разума 3 ранга",
+    ["总之小心点，阿蒙是个强大又恐怖的名字。"] = "Будь осторожен: Амон — могущественное и ужасающее имя.",
+    ["No Bystanders"] = "Без наблюдателей",
+    ["Yes, yes! Before you go to see Miss Dorothy, check your pockets. It's best to make your waistband jingle with the sound of Gold Coins."] = "Да-да! Перед встречей с госпожой Дороти проверь карманы, лучше, чтобы пояс звенел золотыми монетами.",
+    ["查尼斯门？"] = "Врата Чанис?",
     ["真实诅咒"] = "True Curse",
     ["<HighLight>%s秒</>后开始下一局匹配"] = "Следующий подбор начнется через <HighLight>%s сек.</>",
 }

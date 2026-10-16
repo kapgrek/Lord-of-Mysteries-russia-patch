@@ -276,6 +276,7 @@ return {
     ["The gorgeous dance steps spin like a flower, and a noble temperament flows through the melody."] = "Роскошные па кружатся, словно цветок, а благородство струится в мелодии.",
     ["卡拉彭：铁十字街的渣滓们——是时候清场了！"] = "Калапон: Отбросы с улицы Железного Креста — пора очистить территорию!",
     ["和我交谈"] = "Поговорить со мной",
+    ["Maximum Protection_Value"] = "Макс. защита_значение",
     ["没礼貌还要教坏小朋友的臭小子！"] = "You rude brat, trying to be a bad influence on the children!",
     ["终于等到你了<P_Yellow>{{CustomText}}</>，美神眷顾之人不该为琐事停留，障碍已清除，请继续前进！ "] = "I've finally waited for you <P_Yellow>{{CustomText}}</>, one favored by the God of Beauty should not be delayed by trivial matters. The obstacles have been cleared, please continue forward!",
     ["罗塞尔Boss困难-2阶段-自清洁程序-装置怪常驻buff满"] = "Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Device Monster Permanent Buff Full",

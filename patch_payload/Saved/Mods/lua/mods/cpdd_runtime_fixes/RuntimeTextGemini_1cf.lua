@@ -253,6 +253,8 @@ return {
     ["Go find <h>Finch</>."] = "Найти <h>Финча</>",
     ["取来盒子"] = "Принести шкатулку",
     ["Headache..."] = "Голова болит...",
-    ["我已经得到女神的启示，祂将赐福于你，许可你使用祂存于历史中的力量。"] = "I have received the revelation of the Goddess; She will bestow blessings upon you and permit you to use the power She has stored in history.",
+    ["You are a very special Clown; there is a hint of sorrow in your smiling eyes."] = "Вы очень необычный Клоун: в вашем улыбающемся взгляде есть тень печали.",
+    ["我已经得到女神的启示，祂将赐福于你，许可你使用祂存于历史中的力量。"] = "Богиня дала мне откровение: Она благословит тебя и позволит использовать Её силу, хранящуюся в истории.",
+    ["Open to randomly obtain one piece of <Highlight>Item Level 35</> gold or purple-quality equipment, as well as a Contract of Trade that can be used at the <Highlight>Trading Bazaar</> to exchange for <Highlight>tradable items</>, such as <Highlight>tradable</> Gold Thread, Beyonder materials, medicines, food, etc.\n\n<Highlight>Conversion Limit</>: Up to <Highlight>10</> treasures can be converted. Progress beyond this will be <Highlight>automatically stored</>, and once treasures of a new item level are unlocked, they will be <Highlight>converted into new treasures</>."] = "Откройте, чтобы случайно получить одну единицу снаряжения золотого или фиолетового качества с <Highlight>уровнем предмета 35</>, а также Договор торговли, который можно обменять на <Highlight>обмениваемые предметы</> на <Highlight>Торговом базаре</>: <Highlight>обмениваемую</> Золотую нить, Потусторонние материалы, лекарства, еду и т. д.\n\n<Highlight>Лимит преобразования</>: можно преобразовать не более <Highlight>10</> тайных сокровищ, прогресс сверх этого будет <Highlight>сохранён автоматически</>, а после открытия тайных сокровищ нового уровня предметов он <Highlight>преобразуется в новые тайные сокровища</>.",
     ["鸣声已至"] = "The Sound Has Arrived",
 }

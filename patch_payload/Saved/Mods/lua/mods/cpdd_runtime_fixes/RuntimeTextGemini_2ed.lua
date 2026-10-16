@@ -273,8 +273,11 @@ return {
     ["West of the Ancient Castle"] = "Запад Старого замка",
     ["只要不让他们仔细检查棺材，目的就达成了。总比什么都不做更有希望。"] = "Если они не станут тщательно осматривать гроб, цель будет достигнута. Это всё же лучше, чем ничего не делать.",
     ["<Highlight>Defeat</> 1 Melee Scholar in Competition mode"] = "<Highlight>Победите</> 1 Боевого Учёного в соревновательном режиме",
-    ["对弈回合获胜后，获得<HighLight>2点经验</>。失败后，获得<HighLight>3点经验</>"] = "After winning a round, gain <HighLight>2 XP</>. After losing, gain <HighLight>3 XP</>.",
-    ["您还记得他长什么样吗？"] = "Do you still remember what he looks like?",
+    ["Yeah. Do you want to join?"] = "Ага. Хочешь вступить?",
+    ["对弈回合获胜后，获得<HighLight>2点经验</>。失败后，获得<HighLight>3点经验</>"] = "После победы в раунде Игры вы получаете <HighLight>2 ед. опыта</>. После поражения — <HighLight>3 ед. опыта</>",
+    ["您还记得他长什么样吗？"] = "Вы помните, как он выглядел?",
+    ["I keep thinking... if only she could remember me once, just once, that would be enough."] = "Я всё думаю... если бы она вспомнила меня хоть раз, всего один раз, этого было бы достаточно.",
+    ["Piece Innate Mana Regen: Old Neil"] = "Врожд. восст. маны фигуры: Старый Нил",
     ["这个点……如果是今天的话，应该要到了吧？"] = "At this hour... if it's today, they should be arriving soon, right?",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

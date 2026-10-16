@@ -284,6 +284,8 @@ return {
     ["因为你封印及时，没有造成太多伤亡。教会批准了你对“霜之匣”的短暂借用。"] = "Потому что вы вовремя запечатали его, жертв было немного. Церковь одобрила ваше временное использование «Ларца Мороза».",
     ["Cathedral of Holy Wind"] = "Собор Святого Ветра",
     ["Tarot·Derrick·Berg·Save 7 Incremental"] = "Таро · Дерик Берг · Ступень 7, прирост",
+    ["After enabling, member parking spots will be displayed in the Club scene"] = "После включения в сцене клуба будут отображаться парковочные места участников",
+    ["Orange-red"] = "Оранжево-красный",
     ["管家·五月庄园（困难）"] = "Butler · May Manor (Hard)",
     ["终末猎杀-日常任务"] = "End-Times Hunt - Daily Quest",
     ["罗塞尔Boss困难-灼热目光-点名标记"] = "Roselle Boss Hard - Scorching Gaze - Target Mark",

@@ -279,6 +279,7 @@ return {
     ["Use to obtain <Highlight>Platinum Shoes</>"] = "После использования вы получите <Highlight>Платиновую обувь</>",
     ["Traveling to other locations consumes <Highlight>Stamina</> and a certain amount of <Highlight>real-world time</>. The <Highlight>farther</> the location, the <Highlight>more</> Stamina and time it will take."] = "Поездка на другие станции требует <Highlight>выносливости</> и некоторого <Highlight>реального времени</>. Чем <Highlight>дальше</> станция, тем <Highlight>больше</> уходит выносливости и времени.",
     ["Countdown to loss of control"] = "Обратный отсчёт до Потери Контроля",
+    ["The postman opposite..."] = "Почтальон напротив…",
     ["气氛都烘托到位了，就算是摔死，也要把表演完成啊。"] = "The atmosphere has been perfectly set; even if I were to fall to my death, I must finish the performance.",
     ["真遗憾。本来还以为，那位不会亲自看你一眼，看来我还是低估了你。"] = "What a pity. I had thought that He wouldn't personally glance at you, but it seems I still underestimated you.",
     ["神威惩戒1"] = "Divine Might Punishment 1",

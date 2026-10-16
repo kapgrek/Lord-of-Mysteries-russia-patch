@@ -277,6 +277,8 @@ return {
     ["The truth is revealed."] = "Вся правда раскрыта",
     ["Use to obtain <Highlight>Canticle Collection Bottom</>"] = "После использования вы получите <Highlight>низ «Книги песнопений»</>",
     ["冰淇淋，纯手工，冰冰凉凉，味道哇塞！"] = "Мороженое ручной работы, холодное-прехолодное, вкус просто потрясающий!",
+    ["That's right, we can't beat {{him|her}} anyway."] = "Ах да, мы всё равно не сможем победить {{его|её}}.",
+    ["Tons of attributes!"] = "Тонны характеристик!",
     ["激光消失"] = "Laser Disappear",
     ["终极飞升基础效果"] = "Ultimate Ascension Basic Effect",
     ["谢谢，我想一个人静静。"] = "Thank you, I'd like to be alone for a while.",

@@ -302,6 +302,7 @@ return {
     ["先<h>离开</>嘈杂的码头"] = "Сначала <h>покинуть</> шумный порт",
     ["Care about Adonis"] = "Позаботиться об Адонисе",
     ["Angel feather is the main ingredient, and the breath of a wind spirit is also needed as a secondary ingredient; all of these must be prepared."] = "Перо ангела — основной материал, также нужно Дыхание ветряного духа как дополнительный материал. Всё это необходимо подготовить.",
+    ["Taking this brief, beautiful night,"] = "Эту короткую чудесную ночь",
     ["蒸汽秘囊"] = "Steam Secret Pouch",
     ["邦尼：你赢了，小种子。"] = "Bonnie: You win, little seed.",
     ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛非T3人"] = "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter non-T3 people",

@@ -265,6 +265,8 @@ return {
     ["Participate in the <Highlight>Emperor's Return (Hard)</> dungeon for a chance to obtain <Highlight>Item Level 69</> <Highlight>Orange-quality Equipment</>."] = "Пройдите подземелье <Highlight>Возвращение Императора (сложное)</>, чтобы с некоторым шансом получить <Highlight>оранжевое снаряжение</> <Highlight>69 уровня предмета</>.",
     ["告诉<h>伦纳德</>准备好了"] = "Сказать <h>Леонарду</>, что вы готовы",
     ["If the next stop <LightHighlight>is [Food Shop]</>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">[Premium Mist Champagne]</> currently held increases by <LightHighlight>100%</>; otherwise, the selling price of goods is <LightHighlight>-40%</>."] = "Если следующая остановка <LightHighlight>— [Лавка еды]</>, количество имеющегося <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30108\">[Редкого туманного шампанского]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
+    ["I'm sorry! We came to fertilize in the middle of the night and made the whole greenhouse stink."] = "Простите! Мы пришли удобрять посреди ночи, и во всей теплице теперь воняет.",
+    ["Check your <h>pocket</>"] = "Проверить <h>карман</>",
     ["王室典仪"] = "Royal Ceremony",
     ["稀有·狂猎大剑"] = "Rare Wild Hunt Greatsword",
     ["等等……音乐厅也有些异常，露丝和爱丽丝还在那里。"] = "Wait... the Music hall is also showing some abnormalities, and Ruth and Alice are still there.",

@@ -272,6 +272,7 @@ return {
     ["Use to obtain <Highlight>Display Stand Action: Double Lock</>"] = "После использования вы получите <Highlight>Действие витрины: Двойная блокировка</>",
     ["使用后获得<Highlight>展台动作・笃定</>"] = "После использования вы получите <Highlight>Действие стенда: Уверенность</>",
     ["Use to obtain <Highlight>Whispering Fur Salon Shoes</>"] = "После использования вы получите <Highlight>Обувь салона «Шёпот пуха»</>",
+    ["Monster_Abaddon"] = "Монстр_Абаддон",
     ["看来必须先调查一下格兰特先生的死因了。"] = "It seems I must first investigate the cause of Mr. Grant's death.",
     ["知识荒野已触发"] = "Knowledge Wilderness triggered",
     ["行程中...即将到达【%s】"] = "In transit... arriving soon at [%s]",

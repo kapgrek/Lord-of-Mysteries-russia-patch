@@ -257,6 +257,8 @@ return {
     ["Over there. I really should go find the adult; after all, I'm just a child."] = "Вон там. Видимо, надо идти искать взрослого, ведь я всего лишь ребенок.",
     ["备弹已满，暂停生成弹药"] = "Боезапас полон, создание боеприпасов приостановлено",
     ["May the Goddess be above, Langqi is also off today."] = "Да пребудет с нами Богиня, Лангци сегодня тоже отдыхает.",
+    ["Sensing the power of some kind of mystics..."] = "Ощущение силы некоего тайного искусства…",
+    ["Normal damage: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1200%</> = {*d,F1690001,atkMin,12} points, damage to low Health targets: <img id=\"03\" width=\"40\" height=\"40\"/> Attack × <HighLight>1400%</> = {*d,F1690001,atkMin,14} points"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>1200%</> = {*d,F1690001,atkMin,12} ед., урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>1400%</> = {*d,F1690001,atkMin,14} ед.",
     ["现实线第八章-狂风暴雨停歇了"] = "Reality Line Chapter 8 - The storm has ceased",
     ["罗塞尔Boss困难-1&2阶段-重力法则-引力场"] = "Roselle Boss Hard - Stages 1 & 2 - Law of Gravity - Gravitational Field",
     ["Milo"] = "Майло",

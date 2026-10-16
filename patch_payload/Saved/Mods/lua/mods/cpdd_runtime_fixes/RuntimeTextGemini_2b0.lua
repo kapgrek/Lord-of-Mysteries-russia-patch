@@ -276,7 +276,8 @@ return {
     ["后期研修：最大生命值和攻速+12%。"] = "Углублённая подготовка: макс. ОЗ и скорость атаки +12%.",
     ["Look ahead"] = "Посмотреть вперёд",
     ["嘘！不要告诉菲尔尼克我躲在这里。"] = "Тсс! Не говори Филнику, что я прячусь здесь.",
-    ["对，我不是迪伦，我必须让我的意识稳定下来……"] = "Yes, I am not Dylan. I must stabilize my consciousness...",
-    ["打开后随机获得1件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色装备，有较低概率额外获得1件非绑的<Highlight>60装等</>的<Highlight>竞技倾向</>装备。"] = "Open to randomly receive 1 piece of <Highlight>60 item level</> <Highlight>Competition-oriented</> orange equipment, with a lower probability of additionally receiving 1 unbound piece of <Highlight>60 item level</> <Highlight>Competition-oriented</> equipment.",
+    ["对，我不是迪伦，我必须让我的意识稳定下来……"] = "Да, я не Дилан, я должен стабилизировать своё сознание...",
+    ["打开后随机获得1件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色装备，有较低概率额外获得1件非绑的<Highlight>60装等</>的<Highlight>竞技倾向</>装备。"] = "После открытия случайно выдаёт 1 оранжевую единицу снаряжения с <Highlight>уровнем предмета 60</> и <Highlight>соревновательным уклоном</>; с небольшим шансом дополнительно выдаёт 1 непривязанную единицу снаряжения с <Highlight>уровнем предмета 60</> и <Highlight>соревновательным уклоном</>.",
+    ["Attack Speed decreased"] = "Скорость атаки снижена",
     ["结合已经知道的信息……"] = "Combining the information already known...",
 }

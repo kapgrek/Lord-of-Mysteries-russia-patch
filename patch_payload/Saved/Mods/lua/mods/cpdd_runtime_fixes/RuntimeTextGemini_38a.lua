@@ -283,6 +283,7 @@ return {
     ["初次看演出的大朋友，也可享受八折优惠！"] = "Взрослые, впервые пришедшие на представление, тоже получат скидку 20%!",
     ["前往<h>走私团伙的藏身处</>"] = "Отправиться в <h>укрытие контрабандистов</>",
     ["Spellcasting Resonance"] = "Резонанс проклятий",
+    ["I have something to tell you too! The underground trash can at the intersection ahead keeps making sighs and strange noises!"] = "У меня тоже есть что сказать! В подземном мусорном баке на ближайшем перекрёстке всё время слышны вздохи и странные звуки!",
     ["灵界·拱形墙"] = "Spirit World · Arched Wall",
     ["神血之躯"] = "Body of Divine Blood",
     ["若投票过的选手最终进入本服前%s，活动结束可获得"] = "If a contestant you voted for finishes in the top %s of this server, you will receive the following upon the event's conclusion:",

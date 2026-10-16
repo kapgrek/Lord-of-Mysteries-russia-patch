@@ -294,6 +294,7 @@ return {
     ["使用后获得<Highlight>荒野脉络发型</>"] = "После использования вы получите <Highlight>Причёска «Жилы Пустоши»</>",
     ["命运咏叹调"] = "Ария судьбы",
     ["哪里可以测秒伤"] = "Где можно проверить урон в секунду",
+    ["Deliver the letter to Elena"] = "Передать письмо Елене",
     ["第一个水晶球的谜题：\n<InvHighlight>α乘以β</>等于<InvHighlight>12</>\n\n第二个水晶球的谜题：\n水晶球的位置<InvHighlight>(β减2,α减2)</>为<InvHighlight>(1,2)</>\n\n第三个水晶球的谜题：\n水晶球的位置<InvHighlight>(α,ω加1)</>为<InvHighlight>(4,3)</>"] = "Puzzle of the first Crystal ball:\n<InvHighlight>α multiplied by β</> equals <InvHighlight>12</>\n\nPuzzle of the second Crystal ball:\nThe position of the Crystal ball <InvHighlight>(β minus 2, α minus 2)</> is <InvHighlight>(1, 2)</>\n\nPuzzle of the third Crystal ball:\nThe position of the Crystal ball <InvHighlight>(α, ω plus 1)</> is <InvHighlight>(4, 3)</>",
     ["联合作战4"] = "Joint Operation 4",
     ["艺术学派分享应用"] = "Art School Sharing Application",

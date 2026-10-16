@@ -277,8 +277,8 @@ return {
     ["Bloom three rings of vine thorns in a dense area of enemies, dealing area damage and reducing the enemies' Attack."] = "Выпускает три кольца шипастых лоз в месте скопления врагов, нанося урон по области и снижая атаку врагов.",
     ["女士们，先生们，猜猜有几个球？"] = "Дамы и господа, угадайте, сколько здесь шаров?",
     ["她从命运的启示中得知你即将晋升，特意为你带来一个信息。 "] = "Из откровения судьбы она узнала, что ты скоро повысишь свою ступень, и специально принесла тебе весть. ",
-    ["改变命运要付出的代价太大了，我还想成为那个最强大的我呢！"] = "The price to pay for changing fate is too high, and I still want to become the most powerful version of myself!",
-    ["无表现标记-附加火属性"] = "No visual Mark - adds Fire attribute.",
+    ["改变命运要付出的代价太大了，我还想成为那个最强大的我呢！"] = "Цена за изменение судьбы слишком велика, а я ещё хочу стать самым могущественным собой!",
+    ["无表现标记-附加火属性"] = "Без визуальной метки — добавляет огненный элемент",
     ["稀有·机巧疯帽周期震荡"] = "Rare Mechanical Mad Hatter Periodic Oscillation",
     ["The practitioner's task therefore becomes clear: it is not to fantasize about breaking the limit, but to approach it within the limit."] = "　　Задача практика отныне кристально ясна: не тешить себя грезами о преодолении предела, но вплотную подойти к нему, оставаясь в дозволенных границах.",
 }

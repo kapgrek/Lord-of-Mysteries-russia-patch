@@ -280,7 +280,8 @@ return {
     ["Refreshes at 8:00 on Thursday/Sunday"] = "Обновление в четверг/воскресенье в 8:00",
     ["哦——他啊！他冲上去刺死父亲的时候，的确震撼。"] = "О, он! Когда он бросился и убил отца ударом ножа, это и правда потрясло.",
     ["Angelica Dialogue 1"] = "Диалог с Анжеликой 1",
-    ["捡起信件"] = "Pick up the letter",
+    ["捡起信件"] = "Подобрать письмо",
+    ["In other words, he is on the path to destruction and wouldn't mind dragging everyone down with him."] = "Иными словами, на пути к гибели он не прочь погубить заодно и всех остальных.",
     ["要跟我们一起去吗？这可是露丝弄到的内部福利。"] = "Do you want to come with us? This is an internal perk that Ruth managed to get.",
     ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Backlund Pleasure Gardens\r\n<LeonSubTitle size=\"38\">Backlund Pleasure Gardens</>",
 }

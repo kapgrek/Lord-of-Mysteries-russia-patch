@@ -283,7 +283,7 @@ return {
     ["Use to obtain <Highlight>Dynamic Namecard Theme: True Knowledge of the Holy Light</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Истинное знание святого света»</>",
     ["In the same match, end with 7 three-star pieces."] = "За один матч завершите игру с 7 трёхзвёздочными фигурами.",
     ["商行金库"] = "Хранилище торгового дома",
-    ["指南针有怎样的非凡能力？"] = "What kind of Beyonder powers does the compass have?",
+    ["指南针有怎样的非凡能力？"] = "Какими необыкновенными способностями обладает компас?",
     ["知识荒野施法监听"] = "Knowledge Wilderness spellcasting monitor",
     ["策略卡狂热使用次数为2\n结算销售剩余物产时，价格额外提升5%"] = "Strategy card Fanaticism usage count is 2\nWhen settling the sale of remaining products, the price increases by an additional 5%",
     ["获得【坚壁】共鸣。战斗开始时，额外获得<HighLight>25</>点防御，持续<HighLight>8</>秒。"] = "Gain Bulwark Resonance. At the start of combat, gain an additional <HighLight>25</> Defense, lasting for <HighLight>8</> seconds.",

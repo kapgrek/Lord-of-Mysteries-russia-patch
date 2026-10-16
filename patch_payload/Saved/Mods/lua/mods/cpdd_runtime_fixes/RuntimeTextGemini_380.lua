@@ -260,6 +260,8 @@ return {
     ["Forgot your money again? Even a child can't eat for free every time!"] = "Опять без денег? Даже ребёнку нельзя каждый раз есть бесплатно!",
     ["大锅-倒计时2秒后自动卸载身上的配料-滚烫大石头"] = "Котёл — через 2 сек. после отсчёта автоматически выгружает ингредиенты — Раскалённый большой камень",
     ["孤行圣护"] = "Священная защита одинокого странника",
+    ["Tactics Sharpness"] = "Решимость тактики",
+    ["Lambert Noose-3 Star"] = "Петля Ламберта — 3 звезды",
     ["组队模式参加副本<Highlight>五月庄园·花园（困难）</>，击败<Highlight>异化猎犬</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Participate in the Dungeon <Highlight>May Manor · Garden (Hard)</> in party mode. After defeating the <Highlight>Alienated Hound</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment.",
     ["进入房间收集线索(提示：附身老鼠进入房间内）"] = "Enter the room to collect clues (Hint: Possess a rat to enter the room).",
     ["退伍军官俱乐部\r\n<LeonSubTitle size=\"28\">Veterans Club</>"] = "Veterans Club\r\n<LeonSubTitle size=\"28\">Veterans Club</>",

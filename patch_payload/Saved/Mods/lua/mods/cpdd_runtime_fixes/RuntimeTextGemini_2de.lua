@@ -269,8 +269,9 @@ return {
     ["……我也是，我不能永远演被嘲讽、被忽略的配角。名字没人记得，比不上主角露一次脸。"] = "...Я тоже. Я не могу вечно играть второстепенного героя, над которым смеются и которого не замечают. Моё имя никто не помнит, мне не сравниться с главным героем, который хоть раз показал лицо.",
     ["不过，血液也是液体，记得不要在里面浪费太多时间。"] = "Но кровь тоже жидкость, не трать на неё слишком много времени.",
     ["Rewards for challenging the Hard difficulty Astrolabe User again: you can obtain corresponding Equipment, Beyonder material, and marionette fragment rewards."] = "Награда за повторное прохождение уровня «Сложно» с Владельцем астролябии: можно получить соответствующее снаряжение, необычные материалы и фрагменты тайных кукол.",
-    ["把偷走的东西还给我。"] = "Give me back what you stole.",
-    ["横踢造成的硬直效果时间延长至1秒，直踢伤害提升效果改为目标生命低于50%时生效。"] = "The stun effect duration from the side kick is extended to 1 second, and the straight kick's Damage Increase effect is changed to take effect when the target's Health is below 50%.",
+    ["把偷走的东西还给我。"] = "Верни то, что украл.",
+    ["Mark - Magic Cauldron"] = "Метка - Волшебный котёл",
+    ["横踢造成的硬直效果时间延长至1秒，直踢伤害提升效果改为目标生命低于50%时生效。"] = "Длительность оглушения от бокового удара увеличивается до 1 сек., а усиление урона прямого удара теперь действует, когда ОЗ цели ниже 50%.",
     ["活尸尸油在市面上很少见，我只听说它越新鲜就越危险，没想到是这种危险，我可不敢留了，得尽快出手……"] = "Living corpse fat is rare on the market. I've only heard that the fresher it is, the more dangerous it becomes. I didn't expect it to be this kind of danger. I don't dare keep it; I need to get rid of it as soon as possible...",
     ["绝望之蚀"] = "Eclipse of Despair",
     ["询问安娜"] = "Ask Anna",
@@ -279,5 +280,5 @@ return {
     ["母亲，请别这样说，赛斯他很特别。他善良、正直，而且……"] = "Мама, пожалуйста, не говори так, Сет особенный. Он добрый, честный и...",
     ["与Npc进行对话  玩家根据InstanceID列表创建私有对象"] = "Диалог с NPC; игрок создает приватный объект по списку InstanceID",
     ["监听关闭阅读界面  玩家播放仅自己可见的说话文本"] = "Слушайте закрытие интерфейса чтения. Плеер воспроизводит речевой текст, видимый только ему самому.",
-    ["是啊。之前听人说过，活尸是被痛苦钉在世上的尸体，死不掉，必须一遍遍感受死亡的痛苦。"] = "Yeah. I heard someone say before that a Zombie is a corpse nailed to this world by pain; it cannot die, and it must experience the agony of death over and over again.",
+    ["是啊。之前听人说过，活尸是被痛苦钉在世上的尸体，死不掉，必须一遍遍感受死亡的痛苦。"] = "Да. Когда-то слышал: живой мертвец — это труп, пригвождённый к миру болью. Он не может умереть и должен снова и снова переживать муки смерти.",
 }

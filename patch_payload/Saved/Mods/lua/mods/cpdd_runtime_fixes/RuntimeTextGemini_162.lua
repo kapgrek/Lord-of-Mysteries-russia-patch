@@ -309,7 +309,7 @@ return {
     ["使用后获得<Highlight>动态名片主题・弗萨克王冕</>"] = "Использовать, чтобы получить <Highlight>анимированную тему визитки «Корона Фейсака»</>",
     ["原著线·第八章·占卜俱乐部提交会费后"] = "Линия первоисточника: глава 8, после уплаты взноса в Клубе Провидцев",
     ["Can instantly process emotions; use it at critical moments."] = "Мгновенно справляется с эмоциями, используйте в критический момент",
-    ["我还要准备炸鸡，就不送你了。"] = "I still have to prepare fried chicken, so I won't see you out.",
+    ["我还要准备炸鸡，就不送你了。"] = "Мне ещё нужно приготовить жареную курицу, так что провожать не буду.",
     ["污染之触"] = "Touch of Corruption",
     ["能量无限，自身伤害提高30%，周围敌人超过3名后，每多1名敌人则自身伤害再提高5%，总计不超过60%"] = "Unlimited Energy. Your damage increases by 30%. When there are more than 3 enemies nearby, each additional 1 enemy increases your damage by another 5%, up to a total of 60%.",
     ["表现-滚烫的大石头"] = "Visual - Scalding Large Stone",
