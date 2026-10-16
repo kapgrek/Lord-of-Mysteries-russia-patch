@@ -247,4 +247,12 @@ return {
     ["I'm planning to make a classic sign, da-da-da-da! 'The wind that misses you has finally blown to the Tarot Club', how about that?"] = "Я планирую сделать классическую вывеску, та-да-да-да! «Ветер, что скучал по тебе, наконец подул к Таро-клубу», как вам такое?",
     ["[Marionette Skill] Worm of Star - Nebula Slash - Full Tier Charged Version"] = "[Навык Марионетки] Звёздный Червь — Рассечение Туманности — Полностью заряженная версия",
     ["Two Beyonders gather! A secret path will be formed in front of you!"] = "Два Потусторонних встретились! Перед вами откроется тайная тропа!",
+    ["两个人之间连接着一条河水般的支流，这也许代表他们互换了身份和命运？"] = "A river-like tributary connects the two people; perhaps this represents that they have swapped identities and fate?",
+    ["你会过上你想要的生活。"] = "You will live the life you want.",
+    ["使用后获得<Highlight>动态头像・诡咪之主</>"] = "Use to obtain <Highlight>Animated Avatar: Lord of Mysteries</>",
+    ["可买数量"] = "Available Quantity",
+    ["好了，你买到了贝克兰德最好的塞维亚菊。"] = "There, you've bought the best Sevia Chrysanthemums in Backlund.",
+    ["我们守的货，真是美人鱼？这得值多少金镑啊。"] = "Is the cargo we're guarding really a mermaid? How many pounds must this be worth?",
+    ["暗影之刃"] = "Shadow Blade",
+    ["灵魂随乐声起舞，死亡是一场欢快的庆典。"] = "The soul dances to the music; death is a joyous celebration.",
 }

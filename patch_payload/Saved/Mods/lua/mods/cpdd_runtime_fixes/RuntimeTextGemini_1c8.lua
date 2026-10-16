@@ -286,4 +286,9 @@ return {
     ["I think this snack will sell like hotcakes..."] = "Думаю, эта закуска будет расходиться как горячие пирожки...",
     ["疾猎攻速"] = "Скорость атаки «Быстрой охоты»",
     ["A jinx peeking at bad luck"] = "Неудачник, накликающий беду",
+    ["<P_Heart>（没人觉得不对，台上的人在跳舞，台下的人在鼓掌……）</>"] = "<P_Heart>(No one thinks anything is wrong; the people on stage are Dancing, and the people off stage are applauding...)</>",
+    ["无法无天"] = "Lawless",
+    ["艺术品出售价格："] = "Artwork Sale Price:",
+    ["血刃6档暴击"] = "Blood Blade Tier 6 crit",
+    ["雪山南部巡游"] = "Snowy Mountain Southern Cruise",
 }

@@ -291,4 +291,12 @@ return {
     ["My cake might not be the most exquisite, but it will definitely make you remember it for the rest of your life."] = "Мой торт, может, не самый изящный, но вы точно запомните его на всю жизнь.",
     ["The Baron is looking at that corner. What's there?"] = "Барон смотрит в тот угол. Что там?",
     ["“魔术师”女士，对您来说，愚者先生是个什么样的存在？"] = "Госпожа «Фокусник», кем для вас является господин Шут?",
+    ["先生，要来份今天的早报吗？"] = "Sir, would you like a copy of today's morning paper?",
+    ["当你看得越多，越会发现这个世界远比你想象的复杂。看似在打量别人，实则也是在确认自身的边界。"] = "The more you see, the more you will realize that this world is far more complex than you imagined. While it may seem like you are observing others, you are actually confirming the boundaries of yourself.",
+    ["当前副本还未有首通，现在进入怪物属性会获得大幅提升，是否进入并开启首通挑战？"] = "This Dungeon has not been cleared for the first time yet. Entering now will significantly increase the monsters' attributes. Do you wish to enter and start the first-clear challenge?",
+    ["我想到个东西，正好能帮上你。"] = "I thought of something that might just be able to help you.",
+    ["战功排行榜进入本途径前100名"] = "Reach the Top 100 in this Pathway on the Battle Merit Leaderboard",
+    ["放心吧，游戏结束了。我已经没兴趣继续拿着那些无聊的记忆了。"] = "Rest assured, the game is over. I'm no longer interested in holding onto those boring memories.",
+    ["现在你想起来了，你一定可以成为全新的自己。"] = "Now that you remember, you can definitely become a brand new version of yourself.",
+    ["隐秘空间-记忆窃贼"] = "Hidden Space - Memory Thief",
 }

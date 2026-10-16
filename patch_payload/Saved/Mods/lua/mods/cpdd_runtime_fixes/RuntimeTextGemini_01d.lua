@@ -251,5 +251,12 @@ return {
     ["The number of players in the two camps is too uneven. Please adjust the camp sizes before starting the battle."] = "Разница в численности двух команд слишком велика. Скорректируйте состав команд, затем начните бой.",
     ["I plan to make a classic sign, da-da-da-da! \"The wind that misses you has blown to the Tarot Club\", how about that?"] = "Я планирую сделать классическую вывеску, та-да-да-да! «Ветер, что скучает по тебе, дует к Таро-клубу» — как вам?",
     ["[Roguelike] Space Slash III"] = "【Rogue】Пространственный рассекающий удар III",
+    ["使用后获得<Highlight>荒野脉络发饰</>"] = "Obtain <Highlight>Wilderness Vein Hair Accessory</> after use",
+    ["死亡执政官双防击碎"] = "Death Consul Dual Defense Shatter",
+    ["猎犬酒馆有一份高额酬劳的委托，要求在葬礼上，刺杀一个人。 "] = "The Hound Tavern has a high-paying commission: assassinate someone at a funeral.",
+    ["移动射线-怪物周身伤害"] = "Moving Ray - Damage around the monster",
+    ["稀有·灵佑晶坠战斗效果"] = "Rare Spirit Blessing Crystal Pendant Combat Effect",
+    ["追猎臂铠"] = "Pursuit Gauntlets",
+    ["重新记录"] = "Re-Record",
     ["精准报时，人人可享！\n清洁上油，只要六便士！\n发条更换，质优价廉！\n怀表估价，现金收购旧表！\n\n机不可失，铁十字街平价钟表行即将调价！\n速来锁定今日低价！"] = "Точное время доступно каждому!\nЧистка и смазка — всего шесть пенсов!\nЗамена заводной пружины — качественно и недорого!\nОценка карманных часов, выкуп старых часов за наличные!\n\nНе упустите возможность, доступная часовая мастерская на улице Железного Креста скоро меняет цены!\nПоспешите зафиксировать сегодняшние низкие цены!",
 }

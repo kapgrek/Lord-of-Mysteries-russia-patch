@@ -281,6 +281,10 @@ return {
     ["Doing volunteer work balances our labor contributions, and my wife and I don't argue about it anymore."] = "Волонтёрская работа уравновешивает наш трудовой вклад, и мы с женой больше из-за этого не ссоримся.",
     ["Put it away for now and explore other places. \n<P_Yellow>(Placed in Inventory: Mechanical Hut Puzzle Manual)</>"] = "Пока уберу это и осмотрю другие места. \n<P_Yellow>(Помещено в инвентарь: Руководство по головоломке механической хижины)</>",
     ["A survivor of disaster, a smear of corrupted knowledge. The closer one gets to the truth, the closer one gets to distortion and madness..."] = "Выживший после катастрофы, частица оскверненного знания. Чем ближе к истине, тем ближе к искажению и безумию…",
+    ["你们先去，这个迪伦可能有隐藏剧情，我试试能不能触发。"] = "You guys go ahead first. This Dylan might have a hidden plot; I'll see if I can trigger it.",
+    ["奇迹重启"] = "Miracle Reborn",
+    ["我还是个孩子，组织语言很累的。等见到伦纳德，他会说清楚的。"] = "I'm still just a child, and organizing my words is exhausting. When we see Leonard, he will explain everything clearly.",
+    ["勇气赞歌5阶castattack"] = "Anthem of Courage Tier 5 castattack",
     ["Player removes quest items (delete all)  Player removes quest items (delete all)  Player removes quest items (delete all)  Player removes quest items (delete all)"] = "Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все)",
     ["播放CutScene  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Поиграйте в КатСцену. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

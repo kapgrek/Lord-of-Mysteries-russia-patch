@@ -287,4 +287,10 @@ return {
     ["What's this about a haunted ancestral home you're talking about?"] = "Что это за разговоры про дом предков с привидениями?",
     ["and also a group that constantly fights against danger and madness."] = "а также группа тех, кто постоянно противостоит опасности и безумию",
     ["<P_Heart> (lowering voice) </> And look, the cost of living in Tingen is much cheaper than in Backlund; it's more cost-effective to buy here."] = "<P_Heart>(понизив голос)</>И посмотри, цены в Тингене намного ниже, чем в Бэкланде, так что выгоднее покупать здесь.",
+    ["{{PlayerName}}，非常感谢你的帮助，等风波过去，希望你能来剧场看我的表演，我会为你预留最好的位置。"] = "{{PlayerName}}, thank you very much for your help. Once the storm passes, I hope you can come to the theater to watch my performance. I will reserve the best seat for you.",
+    ["<HighLight>上阵人数上限+1</>，随机获得<HighLight>1个4费棋子</>。"] = "<HighLight>Deployment limit +1</>. Gain <HighLight>1 random 4-cost unit</>.",
+    ["乐团成员24"] = "Orchestra Member 24",
+    ["坐到<h>椅子</>上"] = "Sit on the <h>chair</>",
+    ["盟约"] = "Covenant",
+    ["高伤点名"] = "High-Damage Targeted Attack",
 }

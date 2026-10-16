@@ -264,6 +264,10 @@ return {
     ["请在仪式房间内使用【卜杖】技能，否则技能将无法开启。"] = "Пожалуйста, используйте навык [Гадальный жезл] в ритуальной комнате, иначе навык не удастся активировать.",
     ["Pressing refined sugar into cubes makes it a classic companion for Loenese black tea."] = "Рафинированный сахар, спрессованный в кубики, — классическое дополнение к лоэнскому чёрному чаю.",
     ["已幻形"] = "Преображён",
+    ["　　我就知道你能扒出这张纸，这里不安全了，有东西在盯我。\n　　工厂见！小心行事。"] = "I knew you could dig out this paper. It's not safe here; something is watching me.\nSee you at the factory! Be careful.",
+    ["利用“往昔之书”的能力解开灵性之墙"] = "Use the ability of the \"Book of the Past\" to undo the wall of spirituality.",
+    ["评论了你的诡秘圈:%s"] = "Commented on your Mystery Circle post: %s",
+    ["钟声吓走了那群阿蒙分身，而威尔在危急关头使用了“重启”，让时间回到了你成为阿蒙分身以前。"] = "The bell toll scared away the group of Amon Avatars, and Will used \"Restart\" at the critical moment, turning time back to before you became an Amon Avatar.",
     ["啊，有冒险精神的客人。"] = "Ах, гость с авантюрным духом.",
     ["The Church has received news that the Sealed Artifact 2-327 \"See Me\" has been stolen. Divination shows that the clues point to Heywood Manor.\n	Baron Heywood is hosting a Ball tonight. We need someone good at observation to sneak into the Ball to investigate—you are a Sequence 9 \"Spectator\", and there is no one more suitable than you.\n	Your identity has been arranged: an emerging businessman from Backlund who heard about investment opportunities at the manor and was invited to the banquet.\n	Remember, the Spectator does not take the stage.\n	Observe, and do not alert the enemy."] = "　　Из Церкви пришли вести: Запечатанный Артефакт 2-327 «Взгляни на меня» похищен. Гадание указывает, что следы ведут в поместье Хейвуд.\n　　Сегодня барон Хейвуд устраивает бал. Нам нужен проницательный наблюдатель, который сможет проникнуть на торжество для расследования. Вы — Последовательность 9 «Зритель», кандидатуры лучше не найти.\n　　Ваша личность подготовлена: начинающий коммерсант из Баклунда, прослышавший об инвестициях в поместье и приглашённый на приём.\n　　Помните: зритель на сцену не выходит.\n　　Наблюдайте и не спугните добычу.",
 }

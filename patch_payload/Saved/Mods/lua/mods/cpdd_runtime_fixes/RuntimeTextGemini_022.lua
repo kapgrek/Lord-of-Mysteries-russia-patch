@@ -262,5 +262,11 @@ return {
     ["A commotion breaks out on the streets of Backlund, and many people are gathering at a lively spot..."] = "На улицах Бэкланда поднялся шум, и много людей собирается в одном оживлённом месте...",
     ["Can I join the Dragon Hunter Gang? I want to hunt dragons too! Where is Boss Kevin, I want to find him for an autograph!"] = "Можно мне вступить в банду Охотников на драконов? Я тоже хочу охотиться на драконов! Где босс Кевин, я хочу найти его и взять автограф!",
     ["[Auto-Chess] Hound Basic Attack Double Strike - Hit 2"] = "【Автошахматы】Гончая — двойная обычная атака — Hit 2",
+    ["家族获利"] = "Family Profit",
+    ["对了，伦纳德先生还告诉我，“愚者”先生、阿蒙本体和另一位神明做过一个交易……"] = "By the way, Mr. Leonard also told me that Mr. The Fool, the original Amon, and another God had made a deal...",
+    ["放心，我会的。"] = "Don't worry, I will.",
+    ["棋子固有回蓝·洛薇雅·蒂芙尼·2星"] = "Piece Innate Mana Regen: Lovia Tiffany 2-Star",
+    ["歌剧魅影比赛阶段已经开始，欢迎各位前来观看俱乐部成员的盛装表演，参与比赛或观赛达到足够时长即可领取奖励！"] = "The Phantom of the Opera competition stage has begun. Everyone is welcome to come and watch the Club members' grand performances. Participate in the competition or watch for a sufficient duration to claim rewards!",
+    ["终末猎杀-草丛01逐簇隐匿03"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 03",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

@@ -272,6 +272,12 @@ return {
     ["You can almost feel the cedar sprouting and breaking through the soil in your mouth, with a lingering, slightly bitter woody fragrance on your lips and tongue."] = "Во рту почти чувствуется, как кедр прорастает сквозь землю — на губах и языке остаётся стойкий, слегка горьковатый древесный аромат.",
     ["烬火祭司Break表现"] = "Эффект Break Жреца углей",
     ["Reset All"] = "Сбросить всё",
+    ["<P_Heart>（尴尬）</>啊，好的。谢谢您的推荐！"] = "<P_Heart>（Awkward）</> Ah, okay. Thank you for your recommendation!",
+    ["再战宝箱·先祖铠甲·困难"] = "Rematch Chest · Ancestor Armor · Hard",
+    ["去和伦纳德<h>汇合</>"] = "Go <h>meet up</> with Leonard.",
+    ["塔罗·苏茜·档4增量"] = "Tarot·Susie·Save 4 Incremental",
+    ["罪恶廷根基础属性"] = "Sinful Tingen Base Attributes",
+    ["隐秘空间-跳跃-水晶球默认状态4"] = "Hidden Space-Jump-Crystal Ball Default State 4",
     ["得看你要问什么问题，才能挑合适的占卜师。"] = "От того, какой вопрос вы хотите задать, зависит выбор подходящего прорицателя.",
     ["Marie"] = "Мари",
 }

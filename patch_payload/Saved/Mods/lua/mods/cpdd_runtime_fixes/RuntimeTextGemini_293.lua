@@ -251,6 +251,12 @@ return {
     ["There are more and more patients, the hospital wards aren't enough anymore."] = "Пациентов становится всё больше, больничных палат уже не хватает.",
     ["The literature room welcomes everyone who yearns for knowledge."] = "Читальный зал рад всем, кто жаждет знаний.",
     ["Threads of spirituality extracted from the \"gaps of history,\" entwined with countless possible fates."] = "Нити Духовности, извлечённые из «трещин истории», сплетающиеся с бесчисленными возможными судьбами.",
+    ["伦纳德-迷你人偶"] = "Leonard Mini Figurine",
+    ["战斗开始时，<HighLight>每名相邻友军</>为棋子提供<HighLight>6点防御</>。"] = "At the start of combat, <HighLight>each adjacent ally</> grants a unit <HighLight>6 Defense</>.",
+    ["抓住我的手，我送你出去。"] = "Take my hand, and I will send you out.",
+    ["现实线第六章-见到花摊前的梅丽莎班森"] = "Reality Line Chapter 6 - Saw Melissa Benson in front of the flower stall",
+    ["罗塞尔Boss-锋利的知识-点名标记"] = "Roselle Boss - Sharp Knowledge - Target Mark",
+    ["高价收购金黄枫糖"] = "High-price Acquisition: Golden Maple Syrup",
     ["时机如轮\r\n切记"] = "Время подобно колесу,\nпомни об этом.",
     ["Removed %s listed item(s), quantity: %d. Item(s) returned to player"] = "Снято с продажи предметов (%s): %d шт. Предметы возвращены игроку.",
 }

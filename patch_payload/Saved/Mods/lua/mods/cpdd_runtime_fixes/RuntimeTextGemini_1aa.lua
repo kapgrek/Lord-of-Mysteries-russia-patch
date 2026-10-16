@@ -234,4 +234,10 @@ return {
     ["This reckless fool lost his gun, and I just happened to find it. This time, I'm definitely going to squeeze him for all he's worth."] = "Этот безрассудный дурак потерял свой пистолет, а я как раз его нашёл. На этот раз я точно выжму из него всё до последнего.",
     ["Mellow honey complemented by smoked pork, an excellent companion for breakfast. Bacon and eggs, my partner."] = "Насыщенный мёд в сочетании с копчёной свининой — отличное дополнение к завтраку. Бекон и яйца, мой напарник.",
     ["When will I be able to become a formal barista? Maybe I should go to the Divination Club after work and calculate..."] = "Когда же я наконец стану настоящим бариста? Может, после работы сходить в Клуб Провидцев и погадать…",
+    ["同一局中，刷新20次商店。"] = "In a single match, refresh the shop 20 times.",
+    ["完美构筑"] = "Perfect Build",
+    ["掠过夜空的兽影拥抱金属的冰冷，让面孔的温度隐于甲胄之后。你的心中是否也潜藏有野兽的嗥叫？"] = "The beastly shadow skimming across the night sky embraces the coldness of metal, hiding the warmth of a face behind armor. Does a beast's howl also lurk within your heart?",
+    ["本赛季不再提示"] = "Do not show again this season.",
+    ["歌颂者：勇气之歌4筛选"] = "Bard: Song of Courage 4 Filter",
+    ["终末猎杀-草丛13逐簇隐匿01"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 01",
 }

@@ -293,5 +293,11 @@ return {
     ["Once your Military Rank reaches Major or higher and you have equipped the \"I Am Not the God of Gamblers\" body ring, you will receive additional Conquest Prestige when gaining Battle Merit. Conquest Prestige obtained in this way does not count toward the cap."] = "Когда воинское звание достигает майора и выше, а на кольцо тела экипировано «Я не бог азарта», при получении Боевых заслуг вы дополнительно получаете Престиж завоевания. Престиж завоевания, полученный таким способом, не учитывается в лимите.",
     ["Sir, what are you doing sneaking around down there?"] = "Сударь, что вы там крадётесь внизу?",
     ["The \"Angel of Punishment,\" He is the Lord's thunder, the Lord's wrath, the Lord's palm; He is the judge and executioner of all the fallen and the unclean."] = "«Ангел Кары» — Он гром Лорда, гнев Лорда, длань Лорда; Он судья и палач всех падших и нечистых.",
+    ["佩戴数量<HighLight>%s/%s</>"] = "Equipped quantity <HighLight>%s/%s</>",
+    ["使用后获得<Highlight>灰烬之网套装</>"] = "Use to obtain the <Highlight>Ashen Web Set</>",
+    ["已选<NumYellow>1</>/1"] = "Selected <NumYellow>1</>/1",
+    ["希望之地 万都之都——"] = "Land of Hope, City of Ten Thousand—",
+    ["死亡过程"] = "Death Process",
+    ["铁盔"] = "Iron Helmet",
     ["%s太美了！好看！"] = "%s такой красивый! Удивительный!",
 }

@@ -295,6 +295,10 @@ return {
     ["<InvHighlight>男款</><InvDefault>采用</><InvHighlight>黑色立领礼服</><InvDefault>，银灰纹样由领口延伸至前胸。</>"] = "<InvHighlight>Мужской вариант</><InvDefault> — это</><InvHighlight> чёрный фрак с воротником-стойкой</><InvDefault>, серебристо-серый узор идёт от воротника к груди.</>",
     ["“观众”的序列名，会让人误以为这是一个只擅长观察与辅助的途径。但实际上，这也是一种伪装，让人更轻敌的伪装。"] = "Название Последовательности «Зритель» заставляет думать, что это Путь, годный лишь для наблюдения и поддержки. Но на самом деле это тоже маскировка — маскировка, заставляющая недооценивать её обладателя.",
     ["Gray Fog Test PVP Thematic Survey"] = "Тематический опрос по PvP серого тумана",
+    ["{{PlayerName}}，你还好吗？"] = "{{PlayerName}}, are you alright?",
+    ["<Highlight>对应特性</>：歌颂者途径。\n<Highlight>非凡能力</>：能让佩戴者成为光的使者，太阳的侍从，免疫诸多疾病，掌握神圣之力。佩戴者能召唤耀眼光束，能使用不少太阳领域的法术，能净化五十米范围内的死灵，是这类生物的克星。通过这枚戒指，佩戴者认可的，将获得提高，不赞成的，将受到削弱。"] = "<Highlight>Corresponding Characteristic</>: Bard Pathway.\n<Highlight>Beyonder Ability</>: Allows the wearer to become a messenger of light and a servant of the Sun, granting immunity to many diseases and mastery over holy power. The wearer can Summon dazzling beams of light and use many spells of the Sun domain. It can Purification undead within a fifty-meter radius, acting as a bane to such creatures. Through this ring, those approved by the wearer will be enhanced, while those disapproved will be Weaken.",
+    ["他还喜欢讲冒险故事，即使自己从没离开过廷根。"] = "He also likes to tell adventure stories, even though he has never left Tingen himself.",
+    ["会长设置巡游车队名单后，将直接使用成员当前装配的坐骑参与花车巡游，如果成员需要修改参与花车巡游的坐骑，请务必在会长确认巡游车队名单前装配正确的坐骑。"] = "After the President sets the parade fleet list, the mounts currently equipped by the members will be used directly to participate in the float parade. If members need to change the mount for the float parade, please be sure to equip the correct mount before the President confirms the parade fleet list.",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

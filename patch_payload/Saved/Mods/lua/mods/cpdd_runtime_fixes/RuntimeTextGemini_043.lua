@@ -282,4 +282,12 @@ return {
     ["Deep breaths, deep breaths! There are no ghosts in this world; it's all a lie."] = "Глубокий вдох, глубокий вдох! В этом мире нет призраков, всё это ложь.",
     ["He said the world outside is vast."] = "Он сказал, что внешний мир огромен.",
     ["Sweat-Blood Blue (5 characters)"] = "Кровавый пот, синий, пять иероглифов",
+    ["<Assistant_Title1>【兽纹铁面】</>\n<Assistant_Title2>描述：</>段位奖励饰品\n<Assistant_Title2>使用：</>使用后获得兽纹铁面，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</><Assistant_System>躺赢-段位阶梯</>达到一定爵位获取"] = "<Assistant_Title1>【Beast-Patterned Iron Mask】</>\n<Assistant_Title2>Description:</> Rank reward accessory.\n<Assistant_Title2>Usage:</> After use, you will obtain the Beast-Patterned Iron Mask. You can click <Assistant_System>Appearance-Dress Up</> to view and use it.\n<Assistant_Title2>Acquisition:</> Obtained upon reaching a certain title in <Assistant_System>Easy Win-Rank Ladder</>.",
+    ["你可别瞧不起私家侦探！我一直相信，所有伟大的侦探，在事业起步阶段都干过找猫捉奸的单子。"] = "Don't look down on private detectives! I have always believed that all great detectives have taken on jobs like finding a lost Cat or catching a cheating spouse during the early stages of their careers.",
+    ["使用后获得<Highlight>展台动作・祈祷</>"] = "Use to obtain <Highlight>Display Action: Prayer</>",
+    ["使用后获得<Highlight>展台动作・邀请</>"] = "Use to obtain <Highlight>Display Action: Invite</>",
+    ["测试用2"] = "Test Use 2",
+    ["猩红遗物——那是这片沙盘中最特殊的战利品，只有真正的战场胜者才能获得。"] = "Scarlet Relic—that is the most special trophy in this sandbox, which can only be obtained by the true victors of the battlefield.",
+    ["自助买票"] = "Self-Service Ticket Purchase",
+    ["这瓶尸油的灵性很活跃，或许他是受到了影响。"] = "The spirituality of this bottle of corpse oil is very active; perhaps he was affected by it.",
 }

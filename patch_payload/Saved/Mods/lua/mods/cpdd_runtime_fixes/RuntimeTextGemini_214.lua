@@ -267,4 +267,13 @@ return {
     ["它们怎么突然疯了？！"] = "Почему они вдруг взбесились?!",
     ["Why do you keep holding an umbrella?"] = "Почему ты всё время держишь зонт открытым?",
     ["Blackthorn, the Tingen Nighthawk squad disguised as a security company."] = "Блэкторн — отряд «Тинген Найтхок», маскирующийся под охранную компанию.",
+    ["<P_Heart>（在命运面前，所有人都无能为力。但我想为他们带来笑容，哪怕只有一瞬……）</>"] = "<P_Heart>(Everyone is powerless before fate. But I want to bring a smile to their faces, even if only for a moment...)</>",
+    ["亚多尼斯看上去伤势不重，用最基础的药剂也可以治好。"] = "Adonis doesn't look seriously injured; he can be healed with the most basic potion.",
+    ["召唤【月之污染】协助参与作战，星级随档位提升。"] = "Summon [Moon Corruption] to assist in combat; the star level increases with the gear level.",
+    ["号外号外！贝克兰德大雾霾造成惨重伤亡！"] = "Extra! Extra! The Great Smog of Backlund has caused heavy casualties!",
+    ["来人啊！警卫！"] = "Someone help! Guards!",
+    ["草丛隐匿光环-草丛01"] = "Bush Concealment Aura - Bush 01",
+    ["製作"] = "Craft",
+    ["那我是否可以说，劳维斯太太和索尔斯都是注定在近期死亡的人。"] = "Then can I say that Mrs. Lawis and Solis are both people destined to be dead in the near future?",
+    ["铁路大亨每局开始时的商会票券分成两部分：\n1：每个线路初始赠送的票券，根据线路难度，商会会给予一定的额度\n2：工坊物产带来的额外票券，物产的等级越高，能提供的票券数量越多，最多可以携带三类物产，携带的最大总量由火车升级的等级决定"] = "The Chamber of Commerce tickets at the start of each Railway Tycoon game are divided into two parts:\n1: Tickets initially granted for each route, with the amount provided by the Chamber of Commerce based on the route's difficulty.\n2: Additional tickets brought by workshop products. The higher the level of the product, the more tickets it can provide. You can carry up to three types of products, and the maximum total quantity you can carry is determined by the train's upgrade level.",
 }

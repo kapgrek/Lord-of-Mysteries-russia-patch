@@ -237,4 +237,12 @@ return {
     ["Wishing Lamp: Cleanse skill highlight when below 50% HP"] = "Лампа желаний: подсветка навыка очищения при HP ниже 50%",
     ["呃……这是什么……我怎么会知道？"] = "Эм... что это... откуда мне знать?",
     ["朴实无华的最基础旗帜，创建俱乐部即可使用"] = "Простой, ничем не украшенный базовый флаг. Доступен сразу при создании клуба",
+    ["21米圆形敌方玩家减益区域；与己方庇护共用范围和护罩表现"] = "21-meter circular enemy player debuff zone; shares the same range and shield visual effects as the friendly Shelter",
+    ["你认识赫莲娜女士？她可是有名的音乐家！"] = "You know Ms. Helena? She is a famous musician!",
+    ["寻欢场所……可你还是个孩子？！"] = "A place of pleasure... but you're still just a child?!",
+    ["是的！昨天的表演中，有一股无形的力量拉扯着我，阻碍了我的行动。"] = "Yes! During yesterday's performance, an invisible force was pulling at me, hindering my movements.",
+    ["棋手不妨囤些金币——回合结算的利息，积少成多。"] = "Players might want to hoard some Gold Coins—the interest from round settlements adds up over time.",
+    ["每<Highlight>20进度</>获得1个养成资源箱，打开可随机获得一件<Highlight>66装等</>的橙色或金色品质装备，以及可在<Highlight>交易集市</>兑换<Highlight>可交易物品</>的交易之契，<Highlight>可交易</>非凡橙色装备箱、灰雾尘埃匣、灰雾晶砾匣、金纺线、非凡物质、药品食物等。"] = "Gain 1 Development Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>66 Item Level</> orange or golden quality Equipment, as well as a Contract of Trade that can be used in the <Highlight>Trading Bazaar</> to exchange for <Highlight>tradable items</>, including <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder materials, medicine, food, etc.",
+    ["美人鱼"] = "Mermaid",
+    ["花车巡游末段发奖"] = "Float Parade Final Stage Reward Distribution",
 }

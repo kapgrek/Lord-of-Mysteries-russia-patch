@@ -258,4 +258,12 @@ return {
     ["Has a 50% base chance to Knockup enemies hit by Charge."] = "Имеет базовый шанс 50% подбросить в воздух врагов, попавших под Рывок.",
     ["点击关注<HyperLink stylename=\"h\" u=\"1302514\">\"诡秘之主游戏\"</>公众号，了解更多原著主线信息"] = "Нажмите, чтобы подписаться на официальный аккаунт <HyperLink stylename=\"h\" u=\"1302514\">«Игра Lord of the Mysteries»</>, чтобы узнать больше об основной сюжетной линии оригинального произведения",
     ["需要消耗绑定金镑，当前绑定金镑不足，\n是否使用战略金镑或金镑代替（优先使用战略金镑）？\n\n花费：<Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s"] = "Требуется потратить Привязанные Золотые фунты, но их недостаточно.\nИспользовать вместо них Стратегические золотые фунты или Золотые фунты (приоритет — Стратегические золотые фунты)?\n\nСтоимость: <Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s",
+    ["（这就是引起灵性直觉的来源……的确，它并没什么恶意。既然这样，就不打扰它了。）"] = "(This is the source that triggered my spirituality intuition... Indeed, it holds no malice. In that case, I won't disturb it.)",
+    ["<DecH>工艺：</>火红丝绒・层叠褶饰\n衣摆如烈焰燃烧，每一步踏着生命的节拍，热情在旋转中迸发。"] = "<DecH>Craftsmanship:</> Fiery Velvet · Layered Pleats\nThe hem burns like a raging flame, every step beating to the rhythm of Health, passion bursting forth in every spin.",
+    ["再来一次生效，再次生效了策略卡{%s}"] = "Effect triggered again, strategy card {%s} has taken effect once more",
+    ["壁垒战盔开战护盾"] = "Bastion Helmet Combat Start Shield",
+    ["迅捷命牌"] = "Swift Fate Card",
+    ["进入观战失败"] = "Failed to enter spectator mode",
+    ["阿蒙、威尔交谈，邮差站在一边乖巧看手里的信。"] = "Amon and Will are talking, while the postman stands to the side, obediently looking at the letter in his hand.",
+    ["马仩僦能阣菿家乡菜了！"] = "I'll be able to eat hometown food right away!",
 }

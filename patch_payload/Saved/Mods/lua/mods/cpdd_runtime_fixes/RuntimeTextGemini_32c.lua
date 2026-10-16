@@ -279,4 +279,13 @@ return {
     ["Hello, my name is Lilina, and I usually sell flowers around here."] = "Здравствуйте, меня зовут Лилина, я обычно продаю цветы здесь в округе.",
     ["好的，祝您生活愉快。"] = "Хорошо, желаю вам приятной жизни.",
     ["找出路易身上的疑点(提示：将正确的答案填写在空格中）"] = "Найдите подозрительные моменты в рассказе Луи (подсказка: впишите правильный ответ в пропуск)",
+    ["使用后获得<Highlight>展台动作・催眠</>\n重复获取将自动分解为绑定金镑×100"] = "Use to obtain <Highlight>Display Stand Action: Hypnosis</>\nDuplicate acquisitions will be automatically dismantled into Bound Gold Pound ×100",
+    ["光之门敞开，所邀者皆为贵客。\n\n改变自身所在大世界场景的天空，持续5分钟，并召唤<HighLight>“名流之殿”</>入口，持续30分钟。"] = "The Door of Light opens, and all who are invited are honored guests.\n\nChanges the sky of the current major world scene for 5 minutes, and summons the entrance to the <HighLight>\"Hall of Fame\"</> for 30 minutes.",
+    ["全体每秒恢复法力。【秘法】恢复更多。"] = "All allies recover Mana each second. [Arcane Arts] units recover more.",
+    ["全部场次"] = "All Sessions",
+    ["共次数奖励：%d/%d"] = "Total count rewards: %d/%d",
+    ["展台・从容致意"] = "Display Stand: Calm Greeting",
+    ["弗蘭克"] = "Frank",
+    ["怒意连斩，获得护盾。"] = "Perform a Combo of wrathful slashes and Gain Shield.",
+    ["看看<h>时间</>"] = "Check the <h>Time</>",
 }

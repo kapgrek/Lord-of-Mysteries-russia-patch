@@ -269,5 +269,10 @@ return {
     ["因为从这里再往前走几步，就是风暴之主教会的圣风大教堂。"] = "Потому что если пройти отсюда ещё немного вперёд, окажешься у Собора Святого Ветра Церкви Повелителя Бурь.",
     ["Restore the %s currently being previewed? \n (Current scheme is not temporarily saved and will be unrecoverable)"] = "Восстановить просматриваемый %s?\n (Текущая схема не сохранена и будет невозможно восстановить)",
     ["My feet are a bit stiff from standing for so long..."] = "Ноги немного затекли от долгого стояния...",
+    ["%s第%s名车"] = "%s, the %s luxury car",
+    ["你们说阿蒙本体在星空？祂怎么不来处理分身？"] = "You say Amon's true body is in the starry sky? Why doesn't He come to deal with His avatars?",
+    ["俱乐部税收榜"] = "Club Tax Ranking",
+    ["她是我的好朋友，也是舞剧演员，平时喜欢研究些神秘学知识。"] = "She is a good friend of mine and a dancer; she usually enjoys studying occult knowledge.",
+    ["条件组%s条件%s数据异常，"] = "Data for condition group %s, condition %s is abnormal,",
     ["还没呢，听说票不太好买。"] = "Пока нет, я слышал, что билеты купить непросто.",
 }

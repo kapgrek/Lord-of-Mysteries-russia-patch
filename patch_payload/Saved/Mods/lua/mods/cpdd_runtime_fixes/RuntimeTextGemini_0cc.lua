@@ -267,4 +267,11 @@ return {
     ["Don't worry, mate, I'll hold it steady from below!"] = "Не волнуйся, приятель, я буду держать снизу крепко!",
     ["世界灾厄死亡时，参与战斗的非凡者可获得奖励。奖励每周仅可获得<Highlight>1次</>。"] = "Когда Мировое Бедствие погибает, Потусторонние, участвовавшие в бою, получают награду. Награду можно получить лишь <Highlight>1 раз</> в неделю.",
     ["集齐15个可以获得秘偶星之虫·咏，也可用于秘偶星之虫·咏的培养。"] = "Соберите 15, чтобы получить марионетку «Звёздный червь · Напев»; также используется для её развития.",
+    ["“万都之都”号……又回来了。"] = "The \"City of Cities\"... it's back again.",
+    ["向前方发动三次连斩，共造成<Yellow>288</>点攻击伤害。"] = "Slashes forward three times, dealing a total of <Yellow>288</> Attack damage.",
+    ["啊，这是……我？我的一部分自我意识？"] = "Ah, is this... me? A part of my own consciousness?",
+    ["思维迟缓会造成高额减疗和引爆伤害，及时更换承伤对象！"] = "Slowness of Thought causes high Healing Reduction and detonation damage. Switch the target taking the damage in time!",
+    ["棋局生涯中，完成全部多重共鸣图鉴。"] = "Complete the entire Multiple Resonance collection in your gambit career.",
+    ["臭味肯定是那群异教徒搞出来的！"] = "The stench must have been caused by those heretics!",
+    ["迪伦的身体承载了我的命运和身份，他应该去追邮差才对，为什么安心在这儿斗邪恶？"] = "Dylan's body bears my fate and identity. He should be chasing the postman, so why is he contentedly fighting evil here?",
 }

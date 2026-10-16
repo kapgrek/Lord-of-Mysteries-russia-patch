@@ -292,6 +292,12 @@ return {
     ["A must-visit delicacy in the Dock District, delicious seafood risotto with ginger beer!"] = "Обязательное лакомство в Портовом районе — вкусное ризотто с морепродуктами и имбирным пивом!",
     ["Obtain 1 Beyonder material with <Wind-Blessed> trait"] = "Получите 1 материал Потустороннего с чертой <Ветровая благодать>",
     ["我还有些工作要处理，你可以随便看看。"] = "Мне ещё нужно закончить кое-какие дела, а ты можешь пока осмотреться.",
+    ["不同意"] = "Disagree",
+    ["使用后解锁<Highlight>单人社交动作·脱帽致意</>，重复获取使用后自动分解为绑定苏勒。"] = "After use, unlock the <Highlight>Single Social Action: Tip Hat</>. If obtained again, it will automatically decompose into bound soli.",
+    ["命运洗牌"] = "Shuffle of Fate",
+    ["治疗分支"] = "Healing Branch",
+    ["纯白之视"] = "Vision of Pure White",
+    ["达西已经迟到十分钟了……咖啡都凉了。"] = "Darcy is already ten minutes late... The coffee has gone cold.",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

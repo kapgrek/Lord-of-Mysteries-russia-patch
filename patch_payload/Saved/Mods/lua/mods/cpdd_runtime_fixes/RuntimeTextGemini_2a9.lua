@@ -243,4 +243,11 @@ return {
     ["The determination to protect is the dawn of darkness."] = "Решимость защищать — это и есть рассвет Тьмы.",
     ["Rather than satisfying requirements, she needs someone who can understand her to be by her side."] = "Вместо того чтобы удовлетворять требования, ей нужен тот, кто сможет её понять и быть рядом.",
     ["【Rogue】空间斩Ⅲ"] = "【Rogue】Пространственный рассекающий удар III",
+    ["s%的车库"] = "s%'s garage",
+    ["不是约好在咖啡厅外见面吗？"] = "Weren't we supposed to meet outside the Cafe?",
+    ["我明白了，死者因窒息而死，坠楼只是伪装！"] = "I understand now. The deceased died of suffocation; the fall was merely a disguise!",
+    ["晋升任务-光之祭司-进入战斗前"] = "Advancement Quest - Priest of Light - Before entering combat",
+    ["精良机械"] = "Fine Machinery",
+    ["隐秘空间-昔影重现-推理"] = "Hidden Space - Reenactment of Past Shadows - Deduction",
+    ["终末猎杀-草丛23逐簇隐匿05"] = "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 05",
 }

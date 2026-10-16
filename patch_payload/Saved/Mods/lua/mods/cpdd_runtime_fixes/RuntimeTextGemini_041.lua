@@ -273,4 +273,9 @@ return {
     ["不过玫瑰卖得最快，晚来一会儿，说不定就没了。"] = "Правда розы продаются быстрее всего, придёте немного позже — их может не остаться.",
     ["This appearance is already permanently unlocked; cannot use limited-time appearance items. Please dismantle or discard them!"] = "Этот внешний вид уже разблокирован навсегда, использовать предмет временного внешнего вида невозможно, разберите его или выбросьте!",
     ["This texture... it feels like wood? And this one is... sponge?"] = "Эта текстура... на ощупь как дерево? А эта... губка?",
+    ["丰饶馈赠"] = "Gift of Abundance",
+    ["战争石碑・永眠"] = "War Stele - Eternal Sleep",
+    ["永恒皇帝怎么获得"] = "How to obtain the Eternal Emperor",
+    ["阿爸远望"] = "Dad Looking into the Distance",
+    ["钟表匠威廉也来过这里，他就坐在椅子上，一声不吭。我问他是否需要帮助，他只是摇头，说有人告诉他，只要到这里来，就可以帮他减轻一些负担。"] = "William the Clockmaker has also been here; he sat on the chair without saying a word. When I asked if he needed help, he simply shook his head, saying that someone told him that as long as he came here, he could have some of his burdens lightened.",
 }

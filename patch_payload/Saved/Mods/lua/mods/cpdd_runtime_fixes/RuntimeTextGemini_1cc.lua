@@ -266,5 +266,12 @@ return {
     ["…Hey, when you borrow a Sealed Artifact, try to be nice to them… don't let them get rained on."] = "…Эй, когда будешь одалживать Запечатанный Артефакт, постарайся быть с ними подобрее… не дай им промокнуть под дождём.",
     ["A dusty notebook recording the efforts, passion, madness... and the final ending of a certain mysticism explorer."] = "Покрытый пылью блокнот, в котором записаны усилия, страсть, безумие... и итоговая судьба некоего исследователя мистицизма.",
     ["He used 'Kindling' to steal the corruption from an item."] = "Он с помощью \"Растопки\" похитил осквернение из одного предмета.",
+    ["俱乐部宣战参与成功抢夺敌方旗帜1次"] = "Successfully capture an enemy Flag 1 time during a Club War",
+    ["军衔提升至将军"] = "Military rank promoted to General",
+    ["我只是个孩子，但同时也是序列1的水银之蛇，掌握命运和重启的能力。"] = "I am just a child, but I am also a Sequence 1 Mercury Snake, possessing the power of fate and restart.",
+    ["破坏"] = "Destroy",
+    ["继续对付这群<h>“阿蒙”</>"] = "Continue dealing with this group of <h>\"Amon\"</>",
+    ["绯红神子"] = "Crimson Child of God",
+    ["集齐15个可以获得秘偶星之虫·停滞，也可用于秘偶星之虫·停滞的培养。"] = "Collect 15 to obtain the marionette Worm of Star: Stasis; they can also be used to upgrade the marionette Worm of Star: Stasis.",
     ["金狼一挥手，台下数千人同时起立。\n提线早已勒进喉咙。\n这些站起来的，已经不是人了。\n\"你们想要安全，就把意识交给我，\n这是双赢的买卖。\""] = "Цзинь Лан махнул рукой, и тысячи людей в зале одновременно встали. \nНить в горле уже перерезана. \nЭти люди, которые встали, уже не люди. \n\"Если хочешь быть в безопасности, просто отдай мне своё сознание. \nЭто беспроигрышная сделка.\"",
 }

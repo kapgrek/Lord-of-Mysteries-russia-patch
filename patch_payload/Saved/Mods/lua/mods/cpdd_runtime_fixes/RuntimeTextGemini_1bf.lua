@@ -284,4 +284,11 @@ return {
     ["Miss Tony, do you have any recommendations?"] = "Мисс Тони, у вас есть какие-нибудь рекомендации?",
     ["您一定会满意的，注册定金只要一金镑，随后的收费，根据您想要的篇幅长短，自传内容，和报刊售后来调整。"] = "Вы точно будете довольны. Регистрационный залог составляет всего один золотой фунт, а дальнейшая оплата зависит от желаемого объёма, содержания автобиографии и продаж газеты.",
     ["[Marionette Skill] Baboon Blessing - Summon LV6"] = "【Навык марионетки】Благословение бабуина — Призыв LV6",
+    ["伤害提高10%。"] = "Damage Increased 10%.",
+    ["小偷？你这个小孩，说话有点怪怪的？"] = "A thief? You child, you speak a bit strangely, don't you?",
+    ["污染……和命运……不可抗拒！"] = "Corruption... and fate... are irresistible!",
+    ["点击此处或按<img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/>可<Highlight>自动寻路</>。"] = "Click here or press <img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/> for <Highlight>Auto-Pathfinding</>.",
+    ["贝克兰德最近发生了什么？"] = "What has happened in Backlund recently?",
+    ["饕餮成长体型19档"] = "Gluttony Growth Stage 19",
+    ["终末猎杀-草丛04逐簇隐匿04"] = "Final Hunt - Bush 04 Cluster Concealment 04",
 }

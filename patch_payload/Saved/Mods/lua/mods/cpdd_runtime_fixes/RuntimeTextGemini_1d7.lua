@@ -265,5 +265,12 @@ return {
     ["Big sister, I've gotten lost before too, and I cried just as sadly as you."] = "Старшая сестрёнка, я тоже когда-то заблудился и плакал так же горько, как ты.",
     ["Where to?"] = "Куда?",
     ["[Marionette Skill] Worm of Star - Solar Anthem - Damage"] = "[Навык Марионетки] Звёздный Червь — Гимн Палящего Солнца — Урон",
+    ["<P_Heart>（恍然）</>确实如此！很可怕的能力，不仅能迷惑非凡者，而且它的根系发达，覆盖了整个花园，我们脚下全是遗骸。这或许能解释蔬菜惊人的生长速度。"] = "<P_Heart>(Realizing)</>Exactly! A terrifying ability. Not only can it bewilder Beyonders, but its extensive roots cover the entire garden. There are remains everywhere beneath our feet. That might explain how the vegetables grow so astonishingly fast.",
+    ["1.4替换秘偶任务2"] = "1.4 Replacement marionette Quest 2",
+    ["他就是这么个人。闲不住，也怕寂寞。"] = "That's just the kind of person he is. He can't sit still, and he's afraid of loneliness.",
+    ["怎么样，花园的臭味已经消失了吧？"] = "How about it? The stench in the garden has Disappear-ed, right?",
+    ["本站点设置的特殊税率俱乐部已达上限"] = "The number of Clubs with special tax rates set for this station has reached the limit.",
+    ["男守卫"] = "Male Guard",
+    ["鼓点与欢笑穿透夜空，生命在死亡面前尽情歌唱。"] = "The drumbeats and laughter pierce the night sky; life sings to its heart's content in the face of death.",
     ["关闭时间流逝界面  玩家调用展示时间流逝动画  延迟执行  对象同场景传送"] = "Закрыть интерфейс прохождения времени. Игрок вызывает для отображения анимации хода времени. Отложенное исполнение. Объект телепортируется в пределах одной сцены.",
 }

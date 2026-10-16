@@ -270,4 +270,9 @@ return {
     ["The recent peace in Tingen City is being quietly broken. Case files of various Beyonder incidents are flooding into 36 Zoutland Street at an unusual frequency. \n The contents of the cases vary, but the duty of the Nighthawks remains the same: control the influence, resolve the crisis, and ensure that when the morning bell rings, Tingen remains as peaceful as ever. \n\n<Notice> The level of monsters in the Dungeon will be consistent with the </><Highlight> average team level </><Notice>. </>"] = "В последнее время спокойствие города Тинген незаметно нарушается. Дела о различных потусторонних происшествиях стекаются на улицу Зотланд, дом 36, с необычной частотой.\nСодержание дел разное, но обязанности Ночных Стражей остаются неизменными: контролировать влияние, разрешать кризисы и делать так, чтобы Тинген оставался таким же спокойным, как всегда, когда звонит утренний колокол.\n\n<Notice>Уровень монстров в подземелье будет соответствовать</><Highlight>среднему уровню команды</><Notice>.</>",
     ["Where is this? Did we reach the summit?"] = "Где это? Мы добрались до вершины?",
     ["调查<h>梦境残影·三</>"] = "Исследуйте <h>Остаток сна III</>",
+    ["[点击应用]"] = "[Click to Apply]",
+    ["专属订购"] = "Exclusive Order",
+    ["也许诵念女神的尊名，能让她知道我没有恶意？"] = "Perhaps if I chant the Goddess's honorific name, she will know I mean no harm?",
+    ["可他还是停不下来。"] = "But he still couldn't stop.",
+    ["终末猎杀-草丛11逐簇隐匿06"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 06",
 }

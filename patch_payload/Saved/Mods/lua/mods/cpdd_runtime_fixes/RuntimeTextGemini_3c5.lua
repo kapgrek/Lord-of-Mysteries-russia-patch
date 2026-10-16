@@ -267,6 +267,13 @@ return {
     ["Note, this is not a perfunctory remark about the weather in a social setting—"] = "Заметьте, это не дежурная фраза о погоде в светской беседе—",
     ["As for that... she only likes good children, like those who eat their carrots properly!"] = "Что до этого... она любит только послушных детей, например, тех, кто хорошо ест морковку!",
     ["乌黯魔狼上天-隐藏模型"] = "Мрачный демонический волк взлетает — скрытая модель",
+    ["<Highlight>能力</>：能附身目标，影响无生命的东西，并能初步掌控那些无人持有，且未被灌注灵性的神奇物品。\n<Highlight>负面效果</>：平时必须由持有者用自身的血肉喂养，否则它会逐渐长出眼睛。而这封印物一旦完好，就会化身为疯狂追杀原本主人的恶灵，并憎恶所有人类。"] = "<Highlight>Abilities</>: It can possess targets, influence inanimate objects, and initially control those mystical items that are not held by anyone and have not been infused with spirituality.\n<Highlight>Negative Effects</>: It must be fed with the holder's own flesh and blood during normal times, otherwise it will gradually grow eyes. Once this Sealed Artifact is intact, it will transform into an Evil Spirit. that crazily hunts down its original owner and hates all humans.",
+    ["参与副本<Highlight>大帝重临（困难）</>，有概率获得<Highlight>69装等</>的<Highlight>橙色品质装备</>。"] = "Participate in the <Highlight>Emperor's Return (Hard)</> dungeon for a chance to obtain <Highlight>Item Level 69</> <Highlight>Orange-quality Equipment</>.",
+    ["现实线第六章-继续询问阿蒙的细节"] = "Reality Line Chapter 6 - Continue asking for details about Amon",
+    ["礼帽增伤"] = "Top Hat Damage Boost",
+    ["稀有·光蚀护手生命分支"] = "Rare · Light-Erosion Gauntlets Health Branch",
+    ["佛尔思-玩家集合获得传送门显示"] = "Fors - Player collection obtains Portal display",
+    ["蠕动的饥饿：粉碎灵魂退化目标"] = "Creeping Hunger: Soul Crush degradation target",
     ["<InvHighlight> </> Dream Catcher Net <Mark id=\"#159\">—a fishing net that has become spiritualized through contact with Beyonder material, is an effective way to </> hunt Dream Catchers. \n ... \n The first discoverer was a sailor who woke up from a nightmare to find that his fishing net had caught the <Hide stylename=\"Transparent\" id=\"#161\"> heart </> of a Dream Catcher..."] = "　　<InvHighlight>Ловушка снов</> — рыболовная сеть, пропитанная духовностью от контакта с Потусторонними материалами; действенный способ <Mark id=\"#159\">охоты на ловцов сновидений</>.\n　　……\n　　Первым ее открыл моряк: очнувшись от кошмара, он обнаружил, что сеть поймала <Hide stylename=\"Transparent\" id=\"#161\">сердце</> ловца сновидений...",
     ["我将为您奉上独特的变奏，您永远不知道下一个音符是什么。"] = "Я предложу вам уникальную вариацию; вы никогда не узнаете, какой будет следующая нота.",
 }

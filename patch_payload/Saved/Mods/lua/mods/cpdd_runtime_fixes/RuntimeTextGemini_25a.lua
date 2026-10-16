@@ -296,4 +296,10 @@ return {
     ["A three-part honorific name is not just a name; it is closer to a gaze of divinity, a spell for summoning."] = "Почётное имя из трёх частей — это не просто имя; оно ближе к взгляду божества, заклинанию призыва.",
     ["上次您帮安娜占卜的事情，已经在俱乐部传开了。"] = "То, что вы в прошлый раз погадали для Анны, уже разнеслось по всему клубу.",
     ["[Hard Difficulty] has appeared. You can repeatedly challenge the enemies in your nightmares! This time, \"Face-Peeler\" Johnny has lost his mind and bared his claws at you."] = "Появился [Сложный уровень]! Вы можете снова и снова бросать вызов врагам из кошмара! На этот раз \"Сдиратель Лиц\" Джонни потерял рассудок и обнажил перед вами свои когти.",
+    ["十磅？你说得轻易，你这该死的黑心肠的家伙！"] = "Ten pounds? You say that so easily, you damned black-hearted fellow!",
+    ["多个圆形AOE"] = "Multiple Circular AOE",
+    ["是你命运中的 可能性"] = "It is the possibilities in your fate",
+    ["棋子固有回蓝·弓箭骑士"] = "Piece Innate Mana Regen: Bow Knight",
+    ["获得<HighLight>1个风信子</>。每场战斗中，咒术棋子<HighLight>前2次施法</>后均获得<HighLight>10%攻速</>和<HighLight>8%伤害加深</>，持续<HighLight>4秒</>。"] = "Gain <HighLight>1 Hyacinth</>. After each of their <HighLight>first 2 skill casts</> each battle, Hexcraft units gain <HighLight>10% Attack Speed</> and <HighLight>8% increased damage dealt</> for <HighLight>4 seconds</>.",
+    ["魔毯"] = "Magic Carpet",
 }

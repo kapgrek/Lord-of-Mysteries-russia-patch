@@ -293,5 +293,11 @@ return {
     ["Increase Family level to obtain the following buffs. <Highlight> Current Family: Level %d </>"] = "Повышение уровня семьи даёт следующие бонусы. <Highlight>Текущая семья: уровень %d</>",
     ["“猎人”们总攻前最后的休整地，充斥着战意的气息。占领后可攻击战争石碑，固定每分钟获得30点资源。"] = "Последнее место отдыха «Охотников» перед решающим наступлением, наполненное духом битвы. После захвата можно атаковать Военную стелу, стабильно получая 30 ресурсов в минуту.",
     ["产生治疗时，对周身大范围内的敌人造成一次伤害，此效果有2秒内置冷却。"] = "При исцелении наносит урон всем врагам в большом радиусе вокруг себя; этот эффект имеет встроенную перезарядку в 2 сек.",
+    ["<P_Heart>（看来不陪他们打牌，是没法继续沟通了……）</>"] = "<P_Heart>(It seems I won't be able to continue communicating unless I play cards with them...)</>",
+    ["兽纹铁面"] = "Beast-Patterned Iron Mask",
+    ["同一局中，同时上阵奥黛丽和苏茜。"] = "In the same match, deploy Audrey and Susie simultaneously.",
+    ["棋子固有回蓝·尤朵拉"] = "Piece Innate Mana Regen: Yodora",
+    ["现实线第四章-工人减速"] = "Reality Line Chapter 4 - Worker Slow",
+    ["罗塞尔Boss困难-3阶段-自清洁程序-数字怪buff"] = "Roselle Boss Hard - Phase 3 - Self-Cleaning Program - Digital Monster Buff",
     ["监听指定场景加载完毕  玩家播放情绪音乐（仅自己可听）"] = "Ожидайте завершения загрузки указанной сцены. Плеер воспроизводит эмоциональную музыку (слышна только самому себе).",
 }

@@ -279,5 +279,12 @@ return {
     ["Later, a gentleman catching the ferry happened to have a meal there, couldn't stop praising it, and invited me to be the head chef here."] = "Потом один господин, спешивший на паром, случайно у меня поел, не переставал хвалить и пригласил меня сюда шеф-поваром.",
     ["无法邀请跨服好友成为誓约。"] = "Нельзя пригласить межсерверного друга в Обет.",
     ["His eyes occasionally scan in a certain direction—not looking at people, as if confirming something."] = "Его взгляд время от времени скользит в определённом направлении — не на людей, а будто он что-то проверяет.",
+    ["（脸色惨白）这，这是怎么回事？"] = "(Pale-faced) This, what is going on?",
+    ["三枚相同的棋子相遇，将凝成更强大的历史投影。"] = "When three identical chess pieces meet, they will coalesce into a more powerful historical projection.",
+    ["处决之手"] = "Hand of Execution",
+    ["奈拉小姐同款香水！只要二十苏勒！"] = "The same perfume as Miss Naila! Only twenty soli!",
+    ["情绪值(%s)<30"] = "Emotion Value(%s)<30",
+    ["赫莲娜女士，设备检查完了，演出服也整理好了。"] = "Ms. Helena, the equipment check is complete, and the costumes have been organized.",
+    ["阿斯塔？"] = "Asta?",
     ["非常成功。我身后跟着一支浩浩荡荡的小尾巴，太幸福了！"] = "Очень успешно. За мной следует длинный суетливый хвост – это чистое блаженство!",
 }

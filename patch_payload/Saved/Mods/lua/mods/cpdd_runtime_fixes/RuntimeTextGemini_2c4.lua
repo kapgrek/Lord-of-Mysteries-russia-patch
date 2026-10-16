@@ -237,5 +237,13 @@ return {
     ["能来一首吗？"] = "Можешь исполнить одну песню?",
     ["Hoey University is full of polite young people."] = "Университет Хоуи полон вежливой молодёжи.",
     ["一颗仍在跳动的火山，烫穿了持有者的理智。"] = "Всё ещё бьющийся вулкан, прожёгший разум своего обладателя насквозь.",
+    ["入局之人-战略服猎龙-管家"] = "Person in the Game - Strategy Server Dragon Hunter - Butler",
+    ["您也不是，哎那可怎么办才好？"] = "You aren't either, oh, what should we do then?",
+    ["我会的，很抱歉今天让你错过了演出，下次来马戏团，我请你看演出！"] = "I will. I'm very sorry you missed the show today; next time you come to the circus, I'll treat you to a performance!",
+    ["我是非凡者……我治愈过几百个病人……"] = "I am a Beyonder... I have healed hundreds of patients...",
+    ["战法4人开战增益"] = "Tactician 4-Person Battle Start Buff",
+    ["所以 祂被称为欺诈之神 恶作剧之神 时天使"] = "Therefore, He is known as the God of Deceit, the God of Pranks, and the Angel of Time",
+    ["所以，安息吧……由我来成为那个怪物。"] = "So, rest in peace... Let me be the monster.",
+    ["神秘力量在空气中涌动，古老的秘密正在苏醒。"] = "Mysterious power surges in the air, and ancient secrets are awakening.",
     ["我要输了。但我仍然认为数字远比文字更为深奥、迷人。\n\n蒙特不认同。所以我们各自打开一本隐秘的书，冒着死去或变成木偶的风险，从这两件封印物中寻找证明。\n\n不幸读到这里的人——你可能和我有着相同的命运。这本书吞噬了数字和信息。而<InvHighlight>三个水晶球是再次封印它的唯一方式 </>。三，几何学里最小的封闭结构。在数字本身被隐去后，你所能依靠的只有数字之间的关系，这是你唯一的希望。\n\n请记住：<InvHighlight>α等于“失序之书”书名的字数 </>，是第一个内藏关系的数字，在它之前的数字都是不可被分割的整体。\n\n<InvHighlight> α</>等于<InvHighlight>4</> \n<InvHighlight> β</>等于<InvHighlight>3</> \n<InvHighlight> ω</>等于<InvHighlight>2</>"] = "Я проигрываю. Но я все еще убежден, что числа куда глубже и прекраснее слов.\n\nМонте не согласен. Поэтому мы оба открыли по тайной книге, рискуя погибнуть или превратиться в марионеток, дабы отыскать подтверждение в этих двух Запечатанных Артефактах.\n\nТот несчастный, кто читает эти строки, — вероятно, тебя ждет та же участь. Эта книга пожирает числа и сведения. И <InvHighlight>три хрустальных шара — единственный способ запечатать ее вновь</>. Три — наименьшая замкнутая фигура в геометрии. Когда сами числа сокрыты, ты можешь уповать лишь на соотношения между ними: это твоя единственная надежда.\n\nЗапомни: <InvHighlight>α равна числу символов в названии «Книга Беспорядка» в оригинале</> — это первое число, несущее в себе скрытую связь; все числа перед ним представляют собой неделимое целое.\n\n<InvHighlight>α</> равна <InvHighlight>4</>\n<InvHighlight>β</> равна <InvHighlight>3</>\n<InvHighlight>ω</> равна <InvHighlight>2</>",
 }

@@ -1,0 +1,3008 @@
+[
+  {
+    "id": "140429",
+    "source_cn": "【五月庄园-困难】召唤管家幻影召唤追人小狗-筛3远程",
+    "ref_en": "[May Manor-Hard] Summon Butler Phantom, summon chasing puppy-filter 3 Ranged",
+    "target_ru": ""
+  },
+  {
+    "id": "140430",
+    "source_cn": "【五月庄园-困难】召唤管家幻影召唤追人小狗-筛任意3人",
+    "ref_en": "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter any 3 people",
+    "target_ru": ""
+  },
+  {
+    "id": "140431",
+    "source_cn": "【五月庄园-困难】召唤管家幻影召唤追人小狗-筛非T3人",
+    "ref_en": "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter non-T3 people",
+    "target_ru": ""
+  },
+  {
+    "id": "140466",
+    "source_cn": "【战略技能】学徒-传送之门",
+    "ref_en": "[Strategic Skill] Apprentice-Teleport Door",
+    "target_ru": ""
+  },
+  {
+    "id": "140467",
+    "source_cn": "【战略技能】学徒传送之门-A端传B端",
+    "ref_en": "[Strategic Skill] Apprentice Teleport Door-Point A to Point B",
+    "target_ru": ""
+  },
+  {
+    "id": "140468",
+    "source_cn": "【战略技能】学徒传送之门-B端传A端",
+    "ref_en": "[Strategic Skill] Apprentice Teleport Door - End B to End A",
+    "target_ru": ""
+  },
+  {
+    "id": "140482",
+    "source_cn": "【普通】童话故事-dj搜索出所有的的玩家",
+    "ref_en": "[Normal] Fairy Tale-dj search for all players",
+    "target_ru": ""
+  },
+  {
+    "id": "140483",
+    "source_cn": "【普通】童话故事-dj搜索出所有的舞伴机器人",
+    "ref_en": "[Normal] Fairy Tale-dj search for all Dance Partner robots",
+    "target_ru": ""
+  },
+  {
+    "id": "140484",
+    "source_cn": "【普通】童话故事-dj搜索出所有的舞台区域隐形怪",
+    "ref_en": "[Normal] Fairy Tale-dj search for all Stealth monsters in the stage area",
+    "target_ru": ""
+  },
+  {
+    "id": "140485",
+    "source_cn": "【普通】童话故事-丢蛋糕机制超时清除所有相关buff",
+    "ref_en": "[Normal] Fairy Tale-Throw Cake mechanism timeout clears all related buffs",
+    "target_ru": ""
+  },
+  {
+    "id": "140486",
+    "source_cn": "【普通】童话故事-丢蛋糕-预警器预瞄准",
+    "ref_en": "[Normal] Fairy Tale-Throw Cake-pre-warning device pre-aiming",
+    "target_ru": ""
+  },
+  {
+    "id": "140487",
+    "source_cn": "【普通】童话故事-多个舞台区域轮询自己的跳舞玩家",
+    "ref_en": "[Normal] Fairy Tale-multiple stage areas poll for their own Dance players",
+    "target_ru": ""
+  },
+  {
+    "id": "140488",
+    "source_cn": "【普通】童话故事-捡蛋糕-移除餐车1层buff",
+    "ref_en": "[Normal] Fairy Tale-Pick up Cake-remove 1 layer of buff from the food cart",
+    "target_ru": ""
+  },
+  {
+    "id": "140489",
+    "source_cn": "【普通】童话故事-推餐车-筛选出餐车",
+    "ref_en": "[Normal] Fairy Tale-Push Food Cart-filter out food carts",
+    "target_ru": ""
+  },
+  {
+    "id": "140490",
+    "source_cn": "【普通】童话故事-服务员筛选出出生餐车",
+    "ref_en": "[Normal] Fairy Tale - Waiter selects Spawn food cart",
+    "target_ru": ""
+  },
+  {
+    "id": "140491",
+    "source_cn": "【普通】童话故事-筛选出灰姑娘",
+    "ref_en": "[Normal] Fairy Tale - Select Cinderella",
+    "target_ru": ""
+  },
+  {
+    "id": "140492",
+    "source_cn": "【普通】童话故事-苹果骑士-Boss筛选",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Boss selection",
+    "target_ru": ""
+  },
+  {
+    "id": "140493",
+    "source_cn": "【普通】童话故事-苹果骑士-冲锋分散圈选没被点名的玩家",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Charge dispersion circle selection for players not marked",
+    "target_ru": ""
+  },
+  {
+    "id": "140494",
+    "source_cn": "【普通】童话故事-苹果骑士-冲锋目标玩家1",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Charge target player 1",
+    "target_ru": ""
+  },
+  {
+    "id": "140495",
+    "source_cn": "【普通】童话故事-苹果骑士-冲锋目标玩家2",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Charge target player 2",
+    "target_ru": ""
+  },
+  {
+    "id": "140496",
+    "source_cn": "【普通】童话故事-苹果骑士-冲锋筛选最远两名玩家（非奶）",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Charge selection for two furthest players (non-healer)",
+    "target_ru": ""
+  },
+  {
+    "id": "140497",
+    "source_cn": "【普通】童话故事-苹果骑士-找飞天的玩家",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Find airborne players",
+    "target_ru": ""
+  },
+  {
+    "id": "140498",
+    "source_cn": "【普通】童话故事-苹果骑士-找飞天的苹果",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Find airborne apples",
+    "target_ru": ""
+  },
+  {
+    "id": "140499",
+    "source_cn": "【普通】童话故事-苹果骑士-旋风追踪目标",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Whirlwind tracking target",
+    "target_ru": ""
+  },
+  {
+    "id": "140500",
+    "source_cn": "【普通】童话故事-苹果骑士-更改追踪目标",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Change tracking target",
+    "target_ru": ""
+  },
+  {
+    "id": "140501",
+    "source_cn": "【普通】童话故事-苹果骑士-筛所有玩家",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Select all players",
+    "target_ru": ""
+  },
+  {
+    "id": "140502",
+    "source_cn": "【普通】童话故事-苹果骑士-筛选一个人添加环形炸弹",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Select one person to add ring bomb",
+    "target_ru": ""
+  },
+  {
+    "id": "140503",
+    "source_cn": "【普通】童话故事-苹果骑士-筛选剩下的人添加扇形炸弹",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Select remaining people to add fan-shaped bomb",
+    "target_ru": ""
+  },
+  {
+    "id": "140504",
+    "source_cn": "【普通】童话故事-苹果骑士-筛选最远两名玩家（全选）",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Select two furthest players (select all)",
+    "target_ru": ""
+  },
+  {
+    "id": "140505",
+    "source_cn": "【普通】童话故事-苹果骑士-苹果炸弹两个目标（只点DPS）",
+    "ref_en": "[Normal] Fairy Tale - Apple Knight - Apple Bomb two targets (DPS only)",
+    "target_ru": ""
+  },
+  {
+    "id": "140506",
+    "source_cn": "【普通】童话故事-青蛙王子-牵肠挂肚\n分buff、召法术场的位置",
+    "ref_en": "[Normal] Fairy Tale - Frog Prince - Deep Attachment\nDistribute buffs, summon Spell Field locations",
+    "target_ru": ""
+  },
+  {
+    "id": "140507",
+    "source_cn": "【普通】童话故事-青蛙王子-牵肠挂肚反向点名一次",
+    "ref_en": "[Normal] Fairy Tale - Frog Prince - Deep Attachment reverse mark once",
+    "target_ru": ""
+  },
+  {
+    "id": "140508",
+    "source_cn": "【普通】童话故事-青蛙王子-舞伴连连看-没标记剩下人",
+    "ref_en": "[Normal] Fairy Tale - Frog Prince - Dance Partner Match - Remaining unmarked people",
+    "target_ru": ""
+  },
+  {
+    "id": "140509",
+    "source_cn": "【普通】童话故事-青蛙王子-舞伴连连看-清除所有人连线",
+    "ref_en": "[Normal] Fairy Tale - Frog Prince - Dance Partner Match - Clear all connections",
+    "target_ru": ""
+  },
+  {
+    "id": "140510",
+    "source_cn": "【普通】童话故事-青蛙王子-舞伴连连看-随机连活人",
+    "ref_en": "[Normal] Fairy Tale - Frog Prince - Dance Partner Match - Randomly match with a living person",
+    "target_ru": ""
+  },
+  {
+    "id": "140520",
+    "source_cn": "【自走棋】-\"律令师\"休·迪尔查-囚禁",
+    "ref_en": "[Auto Chess] - \"Lawyer\" Xio Derecha - Imprisonment",
+    "target_ru": ""
+  },
+  {
+    "id": "140521",
+    "source_cn": "【自走棋】-\"律令师\"休·迪尔查-普攻-单段",
+    "ref_en": "[Auto Chess]-\"Justiciar\" Xio Derecha-Basic Attack-Single Hit",
+    "target_ru": ""
+  },
+  {
+    "id": "140522",
+    "source_cn": "【自走棋】亚巴顿-三星专属技能",
+    "ref_en": "[Auto Chess] Abaddon - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140523",
+    "source_cn": "【自走棋】亡者的助兴-半径2200内全体",
+    "ref_en": "[Auto Chess] Dead Man's Entertainment - All units within 2200 radius",
+    "target_ru": ""
+  },
+  {
+    "id": "140524",
+    "source_cn": "【自走棋】-休·迪尔查-Location位移验证",
+    "ref_en": "[Auto Chess] - Xio Derecha - Location Displacement Verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140525",
+    "source_cn": "【自走棋】先祖铠甲-三星专属技能",
+    "ref_en": "[Auto Chess] Ancestor Armor - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140526",
+    "source_cn": "【自走棋】先祖骑士小兵-文明重踏（QB骨骼适配）",
+    "ref_en": "[Auto Chess] Ancestor Knight Minion - Civilized Stomp (QB skeleton adaptation)",
+    "target_ru": ""
+  },
+  {
+    "id": "140527",
+    "source_cn": "【自走棋】克莱恩·莫雷蒂-三星专属技能",
+    "ref_en": "[Auto Chess] Klein Moretti - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140528",
+    "source_cn": "【自走棋】-全场友军最低生命1名",
+    "ref_en": "[Auto Chess] - 1 ally with the lowest Health on the field",
+    "target_ru": ""
+  },
+  {
+    "id": "140529",
+    "source_cn": "【自走棋】-全场友军最低生命2名",
+    "ref_en": "[Auto Chess] - 2 allies with the lowest Health on the field",
+    "target_ru": ""
+  },
+  {
+    "id": "140530",
+    "source_cn": "【自走棋】-奥黛丽-最低生命友军治疗",
+    "ref_en": "[Auto Chess] - Audrey - Healing for ally with lowest Health",
+    "target_ru": ""
+  },
+  {
+    "id": "140531",
+    "source_cn": "【自走棋】子爵夫人-四段斩-普攻1-新技能案例-主技能",
+    "ref_en": "[Auto Chess] Viscountess - Four-Stage Slash - Basic Attack 1 - New Skill Case - Main Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140532",
+    "source_cn": "【自走棋】-子爵夫人-四段斩-普攻1-新技能案例-子技能-范围Atk1",
+    "ref_en": "[Auto Chess] - Viscountess - Four-Stage Slash - Basic Attack 1 - New Skill Case - Sub-skill - Area Atk 1",
+    "target_ru": ""
+  },
+  {
+    "id": "140533",
+    "source_cn": "【自走棋】-尤朵拉-邻近友军护盾",
+    "ref_en": "[Auto Chess] - Yodora - Shield for adjacent allies",
+    "target_ru": ""
+  },
+  {
+    "id": "140534",
+    "source_cn": "【自走棋】-弓箭骑士-蓄力射击-脱手代理",
+    "ref_en": "[Auto Chess] - Archer Knight - Charged Shot - Off-hand Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "140535",
+    "source_cn": "【自走棋】-弓箭骑士-蓄力射击-脱手结算",
+    "ref_en": "[Auto Chess] - Archer Knight - Charged Shot - Off-hand Resolution",
+    "target_ru": ""
+  },
+  {
+    "id": "140536",
+    "source_cn": "【自走棋】战法-全场最低生命友军1名",
+    "ref_en": "[Auto Chess] Combat Tactic - 1 ally with lowest Health on the field",
+    "target_ru": ""
+  },
+  {
+    "id": "140537",
+    "source_cn": "【自走棋】战法-全场最低生命友军2名",
+    "ref_en": "[Auto Chess] Combat Tactic - 2 allies with lowest Health on the field",
+    "target_ru": ""
+  },
+  {
+    "id": "140538",
+    "source_cn": "【自走棋】-月之污染-普攻-斩击",
+    "ref_en": "[Auto Chess] - Moon Corruption - Basic Attack - Slash",
+    "target_ru": ""
+  },
+  {
+    "id": "140539",
+    "source_cn": "【自走棋】-月之污染-绯红剑气",
+    "ref_en": "[Auto Chess] - Moon Corruption - Crimson Sword Qi",
+    "target_ru": ""
+  },
+  {
+    "id": "140540",
+    "source_cn": "【自走棋】-月之花-普攻",
+    "ref_en": "[Auto Chess] - Moon Flower - Basic Attack",
+    "target_ru": ""
+  },
+  {
+    "id": "140541",
+    "source_cn": "【自走棋】-月之花-藤蔓横扫",
+    "ref_en": "[Auto Chess] - Moon Flower - Vine Sweep",
+    "target_ru": ""
+  },
+  {
+    "id": "140542",
+    "source_cn": "【自走棋】-月亮仆从徽章-固定100追伤",
+    "ref_en": "[Auto Chess] - Moon Servant Badge - Fixed 100 bonus damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140543",
+    "source_cn": "【自走棋】朗伯·绞索 - 普攻2连",
+    "ref_en": "[Auto Chess] Lambert Noose - Basic Attack 2-Hit Combo",
+    "target_ru": ""
+  },
+  {
+    "id": "140544",
+    "source_cn": "【自走棋】朗伯·绞索-三星专属技能",
+    "ref_en": "[Auto Chess] Lambert Noose - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140545",
+    "source_cn": "【自走棋】-朗伯-最远牵引",
+    "ref_en": "[Auto Chess] - Lambert - Pull farthest target",
+    "target_ru": ""
+  },
+  {
+    "id": "140546",
+    "source_cn": "【自走棋】朗伯绞索3星5费-筛选全部敌人（上限15）",
+    "ref_en": "[Auto Chess] Lambert's Noose 3-Star 5-Cost - Select all enemies (Max 15)",
+    "target_ru": ""
+  },
+  {
+    "id": "140548",
+    "source_cn": "【自走棋】-畸变侍从-普攻",
+    "ref_en": "[Auto Chess] - Aberrant Servant - Basic Attack",
+    "target_ru": ""
+  },
+  {
+    "id": "140549",
+    "source_cn": "【自走棋】-畸变侍从-狂乱连斩",
+    "ref_en": "[Auto Chess] - Aberrant Servant - Frenzy Multi-Slash",
+    "target_ru": ""
+  },
+  {
+    "id": "140550",
+    "source_cn": "【自走棋】-痛苦魔女-怨念诅咒",
+    "ref_en": "[Auto Chess] - Pain Witch - Resentment Curse",
+    "target_ru": ""
+  },
+  {
+    "id": "140551",
+    "source_cn": "【自走棋】-痛苦魔女-普攻-哀恸震击",
+    "ref_en": "[Auto Chess] - Pain Witch - Basic Attack - Mourning Shock",
+    "target_ru": ""
+  },
+  {
+    "id": "140552",
+    "source_cn": "【自走棋】-痛苦魔女-第三脉冲",
+    "ref_en": "[Auto Chess] - Pain Witch - Third Pulse",
+    "target_ru": ""
+  },
+  {
+    "id": "140553",
+    "source_cn": "【自走棋】-痛苦魔女-第二脉冲",
+    "ref_en": "[Auto Chess] - Pain Witch - Second Pulse",
+    "target_ru": ""
+  },
+  {
+    "id": "140554",
+    "source_cn": "【自走棋】-绯红信徒羁绊-全屏伤害150",
+    "ref_en": "[Auto Chess] - Crimson Believer Bond - 150 Full-screen Damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140555",
+    "source_cn": "【自走棋】-绯红信徒羁绊-全屏伤害300",
+    "ref_en": "[Auto Chess] - Crimson Believer Bond - 300 Full-screen Damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140556",
+    "source_cn": "【自走棋】-绯红信徒羁绊-全屏伤害450",
+    "ref_en": "[Auto Chess] Crimson Believer Bond - 450 global damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140557",
+    "source_cn": "【自走棋】罗塞尔·古斯塔夫-三星专属技能",
+    "ref_en": "[Auto Chess] Roselle Gustav - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140558",
+    "source_cn": "【自走棋】-老尼尔-最低生命友军治疗",
+    "ref_en": "[Auto Chess] Old Neil - Heal ally with lowest Health",
+    "target_ru": ""
+  },
+  {
+    "id": "140559",
+    "source_cn": "【自走棋】-苏茜-最低生命友军治疗",
+    "ref_en": "[Auto Chess] Susie - Heal ally with lowest Health",
+    "target_ru": ""
+  },
+  {
+    "id": "140560",
+    "source_cn": "【自走棋】-血刃徽章-当前生命20%追伤",
+    "ref_en": "[Auto Chess] Blood Blade Badge - 20% current Health bonus damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140561",
+    "source_cn": "【自走棋】-血蚊-普攻",
+    "ref_en": "[Auto Chess] Blood Mosquito - Basic Attack",
+    "target_ru": ""
+  },
+  {
+    "id": "140562",
+    "source_cn": "【自走棋】-血蚊-血翼震荡",
+    "ref_en": "[Auto Chess] Blood Mosquito - Blood Wing Shock",
+    "target_ru": ""
+  },
+  {
+    "id": "140563",
+    "source_cn": "【自走棋】西尔维娅-三星专属技能",
+    "ref_en": "[Auto Chess] Sylvia - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140564",
+    "source_cn": "【自走棋】-邪神子嗣-瞬身猎杀",
+    "ref_en": "[Auto Chess] Offspring of Evil God - Flash Hunt",
+    "target_ru": ""
+  },
+  {
+    "id": "140565",
+    "source_cn": "【自走棋】-铁血徽章-1格最多3人-每2秒1%最大生命",
+    "ref_en": "[Auto Chess] Iron and Blood Badge - Max 3 units in 1 grid - 1% max Health every 2 seconds",
+    "target_ru": ""
+  },
+  {
+    "id": "140566",
+    "source_cn": "【自走棋】阿兹克·艾格斯-三星专属技能",
+    "ref_en": "[Auto Chess] Azik Eggers - 3-Star Exclusive Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "140567",
+    "source_cn": "【自走棋】-阿尔杰-浪击",
+    "ref_en": "[Auto Chess] Alger - Wave Strike",
+    "target_ru": ""
+  },
+  {
+    "id": "140568",
+    "source_cn": "【自走棋】-陪伴的彼此-安西娅死亡时寻找巴尼先生",
+    "ref_en": "[Auto Chess] Companions - Search for Mr. Barney when Anthea is Dead",
+    "target_ru": ""
+  },
+  {
+    "id": "140569",
+    "source_cn": "【自走棋】-陪伴的彼此-巴尼先生死亡时寻找安西娅",
+    "ref_en": "[Auto Chess] Companions - Search for Anthea when Mr. Barney is Dead",
+    "target_ru": ""
+  },
+  {
+    "id": "140570",
+    "source_cn": "【自走棋】骑士-普攻1-挥击",
+    "ref_en": "[Auto Chess] Knight - Basic Attack 1 - Swing",
+    "target_ru": ""
+  },
+  {
+    "id": "140571",
+    "source_cn": "【自走棋】骑士-普攻2-重击",
+    "ref_en": "[Auto Chess] Knight - Basic Attack 2 - Heavy blow",
+    "target_ru": ""
+  },
+  {
+    "id": "140572",
+    "source_cn": "【自走棋】-黑夜女神教会徽章-当前生命30%追伤",
+    "ref_en": "[Auto Chess] Evernight Goddess Church Badge - 30% current Health bonus damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140573",
+    "source_cn": "【自走棋三星五费】- 原初黑焰；本次大招目标击杀回蓝80；突袭位移与隐身窗口需接入技能轴",
+    "ref_en": "[Auto Chess 3-Star 5-Cost] - Primordial Black Flame; Ultimate Skill target kill restores 80 mana; raid displacement and invisibility window need to be integrated into the skill timeline",
+    "target_ru": ""
+  },
+  {
+    "id": "140574",
+    "source_cn": "【自走棋内部效果技能】- 丰饶的赐福-敌方全体圣痕",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Gift of Abundance - All enemies Stigmata",
+    "target_ru": ""
+  },
+  {
+    "id": "140575",
+    "source_cn": "【自走棋内部效果技能】- 日炎棋盘-敌方全体灼烧与重伤",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Solar Flare Board - All enemies Burn and Grievous Injury",
+    "target_ru": ""
+  },
+  {
+    "id": "140576",
+    "source_cn": "【自走棋内部效果技能】- 治疗法球1-敌方全体阵亡监听",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Healing Orb 1 - All enemies death monitor",
+    "target_ru": ""
+  },
+  {
+    "id": "140577",
+    "source_cn": "【自走棋内部效果技能】- 治疗法球2-敌方全体阵亡监听",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Healing Orb 2 - All enemies death monitor",
+    "target_ru": ""
+  },
+  {
+    "id": "140578",
+    "source_cn": "【自走棋内部效果技能】- 雷霆之慑-敌方全体立即眩晕1.5秒",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Thunderous Dread - All enemies immediately Stun for 1.5 seconds",
+    "target_ru": ""
+  },
+  {
+    "id": "140579",
+    "source_cn": "【自走棋内部效果技能】- 魔女教派2人-敌方全体破防",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Demoness Sect 2-Unit - All enemies Armor Break",
+    "target_ru": ""
+  },
+  {
+    "id": "140580",
+    "source_cn": "【自走棋内部效果技能】- 魔女教派4人-敌方全体破防",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Demoness Sect 4-Unit - All enemies Armor Break",
+    "target_ru": ""
+  },
+  {
+    "id": "140581",
+    "source_cn": "【自走棋内部效果技能】- 魔女教派6人-敌方全体破防",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Demoness Sect 6-Unit - All enemies Armor Break",
+    "target_ru": ""
+  },
+  {
+    "id": "140582",
+    "source_cn": "【自走棋内部效果技能】- 魔女的诅咒-敌方全体降低法力恢复",
+    "ref_en": "[Auto Chess Internal Effect Skill] - Curse of the Demoness - All enemies reduced mana regeneration",
+    "target_ru": ""
+  },
+  {
+    "id": "140583",
+    "source_cn": "【自走棋天赋】1格内全部敌人",
+    "ref_en": "[Auto Chess Talent] All enemies within 1 grid",
+    "target_ru": ""
+  },
+  {
+    "id": "140584",
+    "source_cn": "【自走棋天赋】1格内其他友军",
+    "ref_en": "[Auto Chess Talent] Other allies within 1 grid",
+    "target_ru": ""
+  },
+  {
+    "id": "140585",
+    "source_cn": "【自走棋天赋】全场最近的1名敌人",
+    "ref_en": "[Auto Chess Talent] The 1 nearest enemy on the battlefield",
+    "target_ru": ""
+  },
+  {
+    "id": "140586",
+    "source_cn": "【自走棋英雄强化】- 亡者之花；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Flower of the Dead; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140587",
+    "source_cn": "【自走棋英雄强化】- 吞咬护佑，单体333%攻击伤害并为己方全体提供15%最大生命护盾5秒",
+    "ref_en": "[Auto Chess Hero Strengthening] - Devouring Protection, deals 333% Attack damage to a Single Target and provides a Shield equal to 15% of Max Health to all allies for 5 seconds",
+    "target_ru": ""
+  },
+  {
+    "id": "140588",
+    "source_cn": "【自走棋英雄强化】- 好戏开场；弹道穿透范围已补齐，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Showtime; projectile penetration range has been completed, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140589",
+    "source_cn": "【自走棋英雄强化】- 怒意侍奉；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Service of Wrath; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140590",
+    "source_cn": "【自走棋英雄强化】- 狂暴冲击；按冲刺攻击与地面冲击包装，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Berserk Impact; packaged as dash attack and ground Impact, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140591",
+    "source_cn": "【自走棋英雄强化】- 破晓壁垒；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Dawn Barrier; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140592",
+    "source_cn": "【自走棋英雄强化】- 蘑菇农场；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Mushroom Farm; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140593",
+    "source_cn": "【自走棋英雄强化】- 蛛后猎场；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Spider Queen's Hunting Ground; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140594",
+    "source_cn": "【自走棋英雄强化】- 血月追猎；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Blood Moon Hunt; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140595",
+    "source_cn": "【自走棋英雄强化】- 陨石引力；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Meteorite Gravity; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140596",
+    "source_cn": "【自走棋英雄强化】- 风暴不息；已启用导出，待实机验收",
+    "ref_en": "[Auto Chess Hero Strengthening] - Unceasing Storm; export enabled, pending in-game verification",
+    "target_ru": ""
+  },
+  {
+    "id": "140597",
+    "source_cn": "【自走棋英雄强化】-欲念七重奏，每次命中恢复自身2%最大生命",
+    "ref_en": "[Auto Chess Hero Strengthening] - Septet of Desire, restores 2% of own Max Health upon each hit",
+    "target_ru": ""
+  },
+  {
+    "id": "140598",
+    "source_cn": "【自走棋英雄强化】-欲念七重奏-结束后最低生命比例其他友方治疗",
+    "ref_en": "[Auto Chess Hero Strengthening] - Septet of Desire - Heals the Other ally with the lowest Health percentage after completion",
+    "target_ru": ""
+  },
+  {
+    "id": "140599",
+    "source_cn": "【自走棋英雄强化内部子技能】- 巨剑骑士 - 风暴收束回血",
+    "ref_en": "[Auto Chess Hero Strengthening Internal Sub-skill] - Sword Knight - Storm Convergence Heal",
+    "target_ru": ""
+  },
+  {
+    "id": "140600",
+    "source_cn": "【自走棋英雄强化内部子技能】- 戴里克·伯格 - 破晓壁垒伤害",
+    "ref_en": "[Auto Chess Hero Strengthening Internal Sub-skill] - Derrick Berg - Dawn Barrier Damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140601",
+    "source_cn": "【自走棋英雄强化内部子技能】- 戴里克·伯格 - 破晓壁垒治疗",
+    "ref_en": "[Auto Chess Hero Strengthening Internal Sub-skill] - Derrick Berg - Dawn Barrier Healing",
+    "target_ru": ""
+  },
+  {
+    "id": "140602",
+    "source_cn": "【自走棋英雄强化内部子技能】- 星象仪者 - 陨石二次冲击",
+    "ref_en": "[Auto Chess Hero Strengthening Internal Sub-skill] - Astrolabe User - Meteorite secondary Impact",
+    "target_ru": ""
+  },
+  {
+    "id": "140603",
+    "source_cn": "【自走棋英雄强化内部子技能】- 瑞尔·比伯 - 地面冲击",
+    "ref_en": "[Auto Chess Hero Strengthening Internal Sub-skill] - Ray Bieber - Ground Impact",
+    "target_ru": ""
+  },
+  {
+    "id": "140604",
+    "source_cn": "【自走棋蒸汽装备】全场距离最近的两名其他友军",
+    "ref_en": "[Auto Chess Steam Equipment] The two nearest Other allies on the battlefield",
+    "target_ru": ""
+  },
+  {
+    "id": "140605",
+    "source_cn": "【自走棋装备】1格内最多3名敌人",
+    "ref_en": "[Auto Chess Equipment] Up to 3 enemies within 1 grid",
+    "target_ru": ""
+  },
+  {
+    "id": "140606",
+    "source_cn": "【自走棋装备】1格内生命比例最低的其他友军",
+    "ref_en": "[Auto Chess Equipment] Other ally with the lowest Health percentage within 1 grid",
+    "target_ru": ""
+  },
+  {
+    "id": "140607",
+    "source_cn": "【自走棋装备】2格内全部敌人",
+    "ref_en": "[Auto Chess Equipment] All enemies within 2 grids",
+    "target_ru": ""
+  },
+  {
+    "id": "140608",
+    "source_cn": "【自走棋装备】全场全部友军（含自己）",
+    "ref_en": "[Auto Chess Equipment] All allies on the field (including self)",
+    "target_ru": ""
+  },
+  {
+    "id": "140609",
+    "source_cn": "【自走棋装备】全场最大生命最高的其他友军",
+    "ref_en": "[Auto Chess Equipment] Other ally with the highest Max Health on the field",
+    "target_ru": ""
+  },
+  {
+    "id": "140610",
+    "source_cn": "【自走棋装备】全场生命比例最低友军（含自己）",
+    "ref_en": "[Auto Chess Equipment] Ally with the lowest Health percentage on the field (including self)",
+    "target_ru": ""
+  },
+  {
+    "id": "140611",
+    "source_cn": "【自走棋装备】巨人王庭战斧相邻溅射",
+    "ref_en": "[Auto Chess Equipment] Giant King's Court Battle Axe adjacent splash",
+    "target_ru": ""
+  },
+  {
+    "id": "140612",
+    "source_cn": "【自走棋装备】海之言击杀1格爆发",
+    "ref_en": "[Auto Chess Equipment] Sea God's Scepter kill 1-grid Burst",
+    "target_ru": ""
+  },
+  {
+    "id": "140613",
+    "source_cn": "【自走棋装备】疯狂的盔甲周期范围60伤害",
+    "ref_en": "[Auto Chess Equipment] Armor of Madness periodic 60 area damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140614",
+    "source_cn": "【自走棋装备】疯狂的盔甲神话周期范围90伤害",
+    "ref_en": "[Auto Chess Equipment] Mythical Armor of Madness periodic 90 area damage",
+    "target_ru": ""
+  },
+  {
+    "id": "140615",
+    "source_cn": "【自走棋装备】苍白的死亡阵亡2格爆发",
+    "ref_en": "[Auto Chess Equipment] Pale Death on-death 2-grid Burst",
+    "target_ru": ""
+  },
+  {
+    "id": "141242",
+    "source_cn": "goulu-新毒雾爆发疫-点4人（不优先筛T）",
+    "ref_en": "goulu-New Poison Fog Burst Plague-Target 4 people (do not prioritize filtering T)",
+    "target_ru": ""
+  },
+  {
+    "id": "141247",
+    "source_cn": "GTA灰雾押运手枪",
+    "ref_en": "GTA Gray Fog Escort Pistol",
+    "target_ru": ""
+  },
+  {
+    "id": "141248",
+    "source_cn": "GTA灰雾押运狙击枪",
+    "ref_en": "GTA Gray Fog Escort Sniper Rifle",
+    "target_ru": ""
+  },
+  {
+    "id": "141249",
+    "source_cn": "GTA灰雾押运霰弹枪",
+    "ref_en": "GTA Gray Fog Escort Shotgun",
+    "target_ru": ""
+  },
+  {
+    "id": "141285",
+    "source_cn": "Tab轮选测试配置-血量优先-仅怪物",
+    "ref_en": "Tab Selection Test Config - HP Priority - Monsters Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141286",
+    "source_cn": "Tab轮选测试配置-血量优先-仅玩家",
+    "ref_en": "Tab Selection Test Config - HP Priority - Players Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141287",
+    "source_cn": "Tab轮选测试配置-距离优先（退化1）-仅怪物",
+    "ref_en": "Tab Selection Test Config - Distance Priority (Degradation 1) - Monsters Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141288",
+    "source_cn": "Tab轮选测试配置-距离优先（退化1）-仅玩家",
+    "ref_en": "Tab Selection Test Config - Distance Priority (Degradation 1) - Players Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141289",
+    "source_cn": "Tab轮选测试配置-距离优先（退化2）-仅怪物",
+    "ref_en": "Tab Selection Test Config - Distance Priority (Degradation 2) - Monsters Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141290",
+    "source_cn": "Tab轮选测试配置-距离优先（退化2）-仅玩家",
+    "ref_en": "Tab Selection Test Config - Distance Priority (Degradation 2) - Players Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141291",
+    "source_cn": "Tab轮选测试配置-距离优先-仅怪物",
+    "ref_en": "Tab Selection Test Config - Distance Priority - Monsters Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141292",
+    "source_cn": "Tab轮选测试配置-距离优先-仅玩家",
+    "ref_en": "Tab Selection Test Config - Distance Priority - Players Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141293",
+    "source_cn": "Tab轮选测试配置-镜头优先-仅怪物",
+    "ref_en": "Tab Selection Test Config - Camera Priority - Monsters Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141294",
+    "source_cn": "Tab轮选测试配置-镜头优先-仅玩家",
+    "ref_en": "Tab Selection Test Config - Camera Priority - Players Only",
+    "target_ru": ""
+  },
+  {
+    "id": "141384",
+    "source_cn": "三星死亡领域一阶",
+    "ref_en": "Three-Star Dead Domain Tier 1",
+    "target_ru": ""
+  },
+  {
+    "id": "141385",
+    "source_cn": "三星死亡领域三阶",
+    "ref_en": "Three-Star Dead Domain Tier 3",
+    "target_ru": ""
+  },
+  {
+    "id": "141386",
+    "source_cn": "三星死亡领域二阶",
+    "ref_en": "Three-Star Dead Domain Tier 2",
+    "target_ru": ""
+  },
+  {
+    "id": "141854",
+    "source_cn": "伙伴克莱恩技能-二段技能-灰雾压制（永远的守护者羁绊）",
+    "ref_en": "Partner Klein Skill - Second-Stage Skill - gray fog Suppression (Eternal Guardian Bond)",
+    "target_ru": ""
+  },
+  {
+    "id": "141934",
+    "source_cn": "佛尔思-玩家集合获得传送门显示",
+    "ref_en": "Fors - Player collection obtains Portal display",
+    "target_ru": ""
+  },
+  {
+    "id": "142624",
+    "source_cn": "八翼翅膀-灵性之跃提升",
+    "ref_en": "Eight-Winged Wings - Leap of Spirituality Boost",
+    "target_ru": ""
+  },
+  {
+    "id": "142625",
+    "source_cn": "八翼翅膀-老爷车飞行",
+    "ref_en": "Eight-Winged Wings - Vintage Car Flight",
+    "target_ru": ""
+  },
+  {
+    "id": "142910",
+    "source_cn": "勇气赞歌1阶法术代理",
+    "ref_en": "Anthem of Courage Tier 1 Spell Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "142912",
+    "source_cn": "勇气赞歌2阶法术代理",
+    "ref_en": "Anthem of Courage Tier 2 Spell Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "142914",
+    "source_cn": "勇气赞歌3阶法术代理",
+    "ref_en": "Anthem of Courage Tier 3 Spell Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "142916",
+    "source_cn": "勇气赞歌4阶法术代理",
+    "ref_en": "Anthem of Courage Tier 4 Spell Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "142917",
+    "source_cn": "勇气赞歌5阶castattack",
+    "ref_en": "Anthem of Courage Tier 5 castattack",
+    "target_ru": ""
+  },
+  {
+    "id": "142974",
+    "source_cn": "占卜家：战术技能筛选",
+    "ref_en": "Seer: Tactical Skill Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "142975",
+    "source_cn": "占卜家-战术技能",
+    "ref_en": "Seer - Tactical Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "142976",
+    "source_cn": "占卜家-操控灵体之线-减速效果",
+    "ref_en": "Seer - Control spirit body threads - Slow effect",
+    "target_ru": ""
+  },
+  {
+    "id": "142977",
+    "source_cn": "占卜家-操控灵体之线-减速禁锢效果",
+    "ref_en": "Seer - Control spirit body threads - Slow and Imprisonment effect",
+    "target_ru": ""
+  },
+  {
+    "id": "143091",
+    "source_cn": "双生余烬镭射判定区域-385",
+    "ref_en": "Twin Embers Laser Hitbox-385",
+    "target_ru": ""
+  },
+  {
+    "id": "143092",
+    "source_cn": "双生余烬镭射判定区域-585",
+    "ref_en": "Twin Embers Laser Hitbox-585",
+    "target_ru": ""
+  },
+  {
+    "id": "143556",
+    "source_cn": "四方联赛-出生点庇护",
+    "ref_en": "Four-Way League - Spawn Point Shelter",
+    "target_ru": ""
+  },
+  {
+    "id": "143559",
+    "source_cn": "四方联赛-敌方庇护压制",
+    "ref_en": "Four-Way League - Enemy Shelter Suppression",
+    "target_ru": ""
+  },
+  {
+    "id": "143771",
+    "source_cn": "塔罗学院-戴里克-分摊点名-任意1人",
+    "ref_en": "Tarot Academy - Derrick - Share Damage Target - Any 1 person",
+    "target_ru": ""
+  },
+  {
+    "id": "143772",
+    "source_cn": "塔罗学院-戴里克-分摊点名-任意非T1人",
+    "ref_en": "Tarot Academy - Derrick - Shared Targeted Attack - Any non-T1 player",
+    "target_ru": ""
+  },
+  {
+    "id": "143773",
+    "source_cn": "塔罗学院-黑水小怪-黑水点名-任意3人",
+    "ref_en": "Tarot Academy - Black Water Minion - Black Water Target - Any 3 people",
+    "target_ru": ""
+  },
+  {
+    "id": "143774",
+    "source_cn": "塔罗学院-黑水小怪-黑水点名-任意非T3人",
+    "ref_en": "Tarot Academy - Blackwater Minion - Blackwater Target - Any non-T3 player",
+    "target_ru": ""
+  },
+  {
+    "id": "143926",
+    "source_cn": "奥黛丽-心锚",
+    "ref_en": "Audrey - Mental Anchor",
+    "target_ru": ""
+  },
+  {
+    "id": "143927",
+    "source_cn": "奥黛丽-筛2个",
+    "ref_en": "Audrey - Filter 2",
+    "target_ru": ""
+  },
+  {
+    "id": "143928",
+    "source_cn": "奥黛丽-筛2个非T",
+    "ref_en": "Audrey - Filter 2 non-T",
+    "target_ru": ""
+  },
+  {
+    "id": "143929",
+    "source_cn": "奥黛丽-筛一个最远的玩家",
+    "ref_en": "Audrey - Filter the farthest player",
+    "target_ru": ""
+  },
+  {
+    "id": "144060",
+    "source_cn": "学徒：筛选队伍",
+    "ref_en": "Apprentice: Filter Team",
+    "target_ru": ""
+  },
+  {
+    "id": "144218",
+    "source_cn": "封印物-星之杖：三段冲刺",
+    "ref_en": "Sealed Artifact - Star Staff: Three-stage dash",
+    "target_ru": ""
+  },
+  {
+    "id": "144219",
+    "source_cn": "封印物-星之杖：冲刺标记判定",
+    "ref_en": "Sealed Artifact - Star Staff: Dash Mark judgment",
+    "target_ru": ""
+  },
+  {
+    "id": "144221",
+    "source_cn": "封印物-蠕动的饥饿检测技能-对玩家",
+    "ref_en": "Sealed Artifact - Creeping Hunger Detection Skill - for Player",
+    "target_ru": ""
+  },
+  {
+    "id": "144222",
+    "source_cn": "封印物-蠕动的饥饿-脱手技能对玩家",
+    "ref_en": "Sealed Artifact - Creeping Hunger - Unequip Skill for Player",
+    "target_ru": ""
+  },
+  {
+    "id": "144633",
+    "source_cn": "征服宣令进攻方安全区",
+    "ref_en": "Conquest Decree Attacker Safe Zone",
+    "target_ru": ""
+  },
+  {
+    "id": "144716",
+    "source_cn": "怪物密偶-重斧骑士 改 测试验证用",
+    "ref_en": "Monster Marionette - Axe Knight Modified Test Verification",
+    "target_ru": ""
+  },
+  {
+    "id": "145131",
+    "source_cn": "战士战略技能二阶",
+    "ref_en": "Warrior Strategic Skill Tier 2",
+    "target_ru": ""
+  },
+  {
+    "id": "145132",
+    "source_cn": "战士战略技能五阶",
+    "ref_en": "Warrior Strategic Skill Tier 5",
+    "target_ru": ""
+  },
+  {
+    "id": "145133",
+    "source_cn": "战士战略技能本体",
+    "ref_en": "Warrior Strategic Skill Base",
+    "target_ru": ""
+  },
+  {
+    "id": "145134",
+    "source_cn": "战士-黄昏领域-战略技能",
+    "ref_en": "Warrior - Twilight Domain - Strategic Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "145488",
+    "source_cn": "救赎圣典_5200145_萨斯利尔_普通_远距离玩家4名",
+    "ref_en": "Code of Redemption_5200145_Sasrir_Normal_4 Long-range Players",
+    "target_ru": ""
+  },
+  {
+    "id": "145705",
+    "source_cn": "普通-旋转菜刀",
+    "ref_en": "Normal - Rotating Kitchen Knife",
+    "target_ru": ""
+  },
+  {
+    "id": "145706",
+    "source_cn": "普通-狼外婆-扔进锅里冲击波",
+    "ref_en": "Normal - Grandma Wolf - Throw Into the Pot Shockwave",
+    "target_ru": ""
+  },
+  {
+    "id": "145707",
+    "source_cn": "普通-苹果骑士-保护罩1号（7.5m）",
+    "ref_en": "Normal - Apple Knight - Protective Shield 1 (7.5m)",
+    "target_ru": ""
+  },
+  {
+    "id": "145708",
+    "source_cn": "普通-苹果骑士-保护罩2号（6.5m）",
+    "ref_en": "Normal - Apple Knight - Protective Shield 2 (6.5m)",
+    "target_ru": ""
+  },
+  {
+    "id": "145709",
+    "source_cn": "普通-苹果骑士-冲锋光环",
+    "ref_en": "Normal - Apple Knight - Charge Aura",
+    "target_ru": ""
+  },
+  {
+    "id": "145711",
+    "source_cn": "普通-魔法大锅-一锅端-持续吸引",
+    "ref_en": "Normal - Magic Cauldron - One Pot Sweep - Continuous Attraction",
+    "target_ru": ""
+  },
+  {
+    "id": "146047",
+    "source_cn": "歌颂者：勇气之歌1筛选",
+    "ref_en": "Bard: Song of Courage 1 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "146048",
+    "source_cn": "歌颂者：勇气之歌2筛选",
+    "ref_en": "Bard: Song of Courage 2 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "146049",
+    "source_cn": "歌颂者：勇气之歌3筛选",
+    "ref_en": "Bard: Song of Courage 3 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "146050",
+    "source_cn": "歌颂者：勇气之歌4筛选",
+    "ref_en": "Bard: Song of Courage 4 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "146051",
+    "source_cn": "歌颂者：勇气之歌5筛选",
+    "ref_en": "Bard: Song of Courage 5 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "146052",
+    "source_cn": "歌颂者-勇气之歌1阶",
+    "ref_en": "Bard - Song of Courage Tier 1",
+    "target_ru": ""
+  },
+  {
+    "id": "146053",
+    "source_cn": "歌颂者-勇气之歌2阶",
+    "ref_en": "Bard - Song of Courage Tier 2",
+    "target_ru": ""
+  },
+  {
+    "id": "146054",
+    "source_cn": "歌颂者-勇气之歌3阶",
+    "ref_en": "Bard - Song of Courage Tier 3",
+    "target_ru": ""
+  },
+  {
+    "id": "146055",
+    "source_cn": "歌颂者-勇气之歌4阶",
+    "ref_en": "Bard - Song of Courage Tier 4",
+    "target_ru": ""
+  },
+  {
+    "id": "146086",
+    "source_cn": "死亡领域一阶",
+    "ref_en": "Death Domain Tier 1",
+    "target_ru": ""
+  },
+  {
+    "id": "146087",
+    "source_cn": "死亡领域三阶",
+    "ref_en": "Death Domain Tier 3",
+    "target_ru": ""
+  },
+  {
+    "id": "146088",
+    "source_cn": "死亡领域二阶",
+    "ref_en": "Death Domain Tier 2",
+    "target_ru": ""
+  },
+  {
+    "id": "146367",
+    "source_cn": "潜在候选目标（友方和敌方和中立）的筛选",
+    "ref_en": "Screening of potential candidate targets (friendly, hostile, and neutral)",
+    "target_ru": ""
+  },
+  {
+    "id": "146385",
+    "source_cn": "灰雾押运-马车弹药QTE光环",
+    "ref_en": "Gray Fog Escort - Carriage Ammunition QTE Aura",
+    "target_ru": ""
+  },
+  {
+    "id": "146586",
+    "source_cn": "玩家秘偶-奇迹牌雨 改 测试验证用",
+    "ref_en": "Player marionette - Miracle Card Rain (Modified for test verification)",
+    "target_ru": ""
+  },
+  {
+    "id": "146745",
+    "source_cn": "白银城垒甲-2格敌人动态计数",
+    "ref_en": "City of Silver Bastion Armor - 2-Tile Enemy Dynamic Counter",
+    "target_ru": ""
+  },
+  {
+    "id": "146746",
+    "source_cn": "白银城垒甲神话-2格敌人动态计数",
+    "ref_en": "City of Silver Bastion Armor Mythical-2 Tile Enemy Dynamic Count",
+    "target_ru": ""
+  },
+  {
+    "id": "146864",
+    "source_cn": "破妄之眼筛选目标-优先给队伍中无BUFF的-低级不覆盖高级",
+    "ref_en": "Eye of Truth target selection - prioritize team members without buffs - low-level does not overwrite high-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146865",
+    "source_cn": "破妄之眼筛选目标-优先给队伍中无BUFF的-高级可覆盖低级",
+    "ref_en": "Eye of Truth target selection - prioritize team members without buffs - high-level can overwrite low-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146866",
+    "source_cn": "破妄之眼筛选目标-再给团队中无BUFF的-低级不覆盖高级",
+    "ref_en": "Eye of Truth target selection - then to team members without buffs - low-level does not overwrite high-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146867",
+    "source_cn": "破妄之眼筛选目标-再给团队中无BUFF的-高级可覆盖低级",
+    "ref_en": "Eye of Truth target selection - then to team members without buffs - high-level can overwrite low-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146868",
+    "source_cn": "破妄之眼筛选目标-团队兜底-低级不覆盖高级",
+    "ref_en": "Eye of Truth target selection - team fallback - low-level does not overwrite high-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146869",
+    "source_cn": "破妄之眼筛选目标-团队兜底-高级可覆盖低级",
+    "ref_en": "Eye of Truth target selection - team fallback - high-level can overwrite low-level",
+    "target_ru": ""
+  },
+  {
+    "id": "146984",
+    "source_cn": "秘偶-先祖庇护-移速",
+    "ref_en": "Marionette-Ancestral Protection-Movement Speed",
+    "target_ru": ""
+  },
+  {
+    "id": "146997",
+    "source_cn": "秘法徽章-1格其他友军法力恢复",
+    "ref_en": "Arcane Badge - 1 tile other ally mana regeneration",
+    "target_ru": ""
+  },
+  {
+    "id": "147100",
+    "source_cn": "窥秘人-岁月的棋局-击飞",
+    "ref_en": "Mystery Pryer - Gambit of the Ages - Knockup",
+    "target_ru": ""
+  },
+  {
+    "id": "147101",
+    "source_cn": "窥秘人-真知之眼",
+    "ref_en": "Mystery Pryer - Eye of True Knowledge",
+    "target_ru": ""
+  },
+  {
+    "id": "147123",
+    "source_cn": "童话故事-筛小红帽",
+    "ref_en": "Fairy Tale - Filter Little Red Riding Hood",
+    "target_ru": ""
+  },
+  {
+    "id": "147124",
+    "source_cn": "童话故事-苹果骑士-冲锋分散圈选没被点名的玩家",
+    "ref_en": "Fairy Tale - Apple Knight - Charge and spread out to select players who were not targeted",
+    "target_ru": ""
+  },
+  {
+    "id": "147125",
+    "source_cn": "童话故事-苹果骑士-冲锋筛选最远两名玩家（非奶）",
+    "ref_en": "Fairy Tale - Apple Knight - Charge and filter the two furthest players (non-healers)",
+    "target_ru": ""
+  },
+  {
+    "id": "147126",
+    "source_cn": "童话故事-苹果骑士-找飞天的玩家",
+    "ref_en": "Fairy Tale - Apple Knight - Find flying players",
+    "target_ru": ""
+  },
+  {
+    "id": "147127",
+    "source_cn": "童话故事-苹果骑士-找飞天的苹果",
+    "ref_en": "Fairy Tale - Apple Knight - Find flying apples",
+    "target_ru": ""
+  },
+  {
+    "id": "147128",
+    "source_cn": "童话故事-苹果骑士-筛所有玩家",
+    "ref_en": "Fairy Tale - Apple Knight - Filter all players",
+    "target_ru": ""
+  },
+  {
+    "id": "147129",
+    "source_cn": "童话故事-苹果骑士-筛选最远两名玩家（全选）",
+    "ref_en": "Fairy Tale - Apple Knight - Filter the two furthest players (Select all)",
+    "target_ru": ""
+  },
+  {
+    "id": "147130",
+    "source_cn": "童话故事-苹果骑士-苹果炸弹两个目标（只点DPS）",
+    "ref_en": "Fairy Tale - Apple Knight - Apple Bomb two targets (Target DPS only)",
+    "target_ru": ""
+  },
+  {
+    "id": "147226",
+    "source_cn": "米尔贡根-王庭之剑-代理",
+    "ref_en": "Milgongen-Sword of the Royal Court-Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147227",
+    "source_cn": "米尔贡根-王庭之剑-随机点6-DPS不够点剩下的",
+    "ref_en": "Milgongen-Sword of the Royal Court-Random Point 6-Insufficient DPS to clear remaining points",
+    "target_ru": ""
+  },
+  {
+    "id": "147228",
+    "source_cn": "米尔贡根-王庭之剑-随机点6-优先DPS",
+    "ref_en": "Milgongen-Sword of the Royal Court-Random 6 targets-Prioritize DPS",
+    "target_ru": ""
+  },
+  {
+    "id": "147229",
+    "source_cn": "米尔贡根-王庭之琴-代理（TODO）",
+    "ref_en": "Milgongen-Lyre of the Royal Court-Agent (TODO)",
+    "target_ru": ""
+  },
+  {
+    "id": "147230",
+    "source_cn": "米尔贡根-王庭之盾-代理",
+    "ref_en": "Milgongen-Shield of the Royal Court-Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147231",
+    "source_cn": "米尔贡根-王庭之盾-随机分buff-2个DPS（退化坦克，再退化DPS）：第3层",
+    "ref_en": "Milgongen-Shield of the Royal Court-Random buff distribution-2 DPS (Degrade Tank, then degrade DPS): Layer 3",
+    "target_ru": ""
+  },
+  {
+    "id": "147232",
+    "source_cn": "米尔贡根-王庭之盾-随机分buff-2个坦克（退化坦克，再退化DPS）：第2层",
+    "ref_en": "Milgongen-Shield of the Royal Court-Random buff distribution-2 Tanks (Degrade Tank, then degrade DPS): Layer 2",
+    "target_ru": ""
+  },
+  {
+    "id": "147233",
+    "source_cn": "米尔贡根-王庭之盾-随机分buff-2个奶妈（退化坦克，再退化DPS）：第1层",
+    "ref_en": "Milgongen-Shield of the Royal Court-Random buff distribution-2 Healers (Degrade Tank, then degrade DPS): Layer 1",
+    "target_ru": ""
+  },
+  {
+    "id": "147234",
+    "source_cn": "米尔贡根-王庭之螺-代理（TODO）",
+    "ref_en": "Milgongen-Conch of the Royal Court-Agent (TODO)",
+    "target_ru": ""
+  },
+  {
+    "id": "147236",
+    "source_cn": "米尔贡根-符文-连线",
+    "ref_en": "Milgongen-Rune-Link",
+    "target_ru": ""
+  },
+  {
+    "id": "147237",
+    "source_cn": "米尔贡根-连线-代理",
+    "ref_en": "Milgongen-Link-Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147341",
+    "source_cn": "终末猎杀-草丛01合并隐匿01（含3块原范围）",
+    "ref_en": "End-of-Days Hunt - Bush 01 Combined Concealment 01 (includes 3 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147342",
+    "source_cn": "终末猎杀-草丛01合并隐匿03（含5块原范围）",
+    "ref_en": "End-of-Days Hunt - Bush 01 Combined Concealment 03 (includes 5 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147343",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿02",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147344",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿03",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147345",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿05",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147346",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿06",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147347",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿07",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147348",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿08",
+    "ref_en": "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147349",
+    "source_cn": "终末猎杀-草丛01逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 01 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147350",
+    "source_cn": "终末猎杀-草丛02合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 02 Merged Concealment 01 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147351",
+    "source_cn": "终末猎杀-草丛02合并隐匿02（含6块原范围）",
+    "ref_en": "Final Hunt - Bush 02 Merged Concealment 02 (Includes 6 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147352",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147353",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147354",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147355",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147356",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147357",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147358",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147359",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿10",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 10",
+    "target_ru": ""
+  },
+  {
+    "id": "147360",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿11",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 11",
+    "target_ru": ""
+  },
+  {
+    "id": "147361",
+    "source_cn": "终末猎杀-草丛02逐簇隐匿12",
+    "ref_en": "Final Hunt - Bush 02 Cluster-by-Cluster Concealment 12",
+    "target_ru": ""
+  },
+  {
+    "id": "147362",
+    "source_cn": "终末猎杀-草丛03合并隐匿01（含8块原范围）",
+    "ref_en": "Final Hunt - Bush 03 Merged Concealment 01 (Includes 8 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147363",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147364",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147365",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147366",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147367",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147368",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147369",
+    "source_cn": "终末猎杀-草丛03逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 03 Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147370",
+    "source_cn": "终末猎杀-草丛04合并隐匿01（含6块原范围）",
+    "ref_en": "Final Hunt - Bush 04 Merged Concealment 01 (Includes 6 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147371",
+    "source_cn": "终末猎杀-草丛04合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 04 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147372",
+    "source_cn": "终末猎杀-草丛04合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 04 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147373",
+    "source_cn": "终末猎杀-草丛04合并隐匿04（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 04 Merged Concealment 04 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147374",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147375",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147376",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147377",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147378",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147379",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿10",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 10",
+    "target_ru": ""
+  },
+  {
+    "id": "147380",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿11",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 11",
+    "target_ru": ""
+  },
+  {
+    "id": "147381",
+    "source_cn": "终末猎杀-草丛04逐簇隐匿12",
+    "ref_en": "Final Hunt - Bush 04 Cluster Concealment 12",
+    "target_ru": ""
+  },
+  {
+    "id": "147382",
+    "source_cn": "终末猎杀-草丛05合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 05 Merged Concealment 01 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147383",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147384",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147385",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147386",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147387",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147388",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 05 Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147389",
+    "source_cn": "终末猎杀-草丛05逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 05 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147390",
+    "source_cn": "终末猎杀-草丛06合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 06 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147391",
+    "source_cn": "终末猎杀-草丛06合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 06 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147392",
+    "source_cn": "终末猎杀-草丛06合并隐匿05（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 06 Merged Concealment 05 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147393",
+    "source_cn": "终末猎杀-草丛06逐簇隐匿01",
+    "ref_en": "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147394",
+    "source_cn": "终末猎杀-草丛06逐簇隐匿04",
+    "ref_en": "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147395",
+    "source_cn": "终末猎杀-草丛06逐簇隐匿05",
+    "ref_en": "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147396",
+    "source_cn": "终末猎杀-草丛06逐簇隐匿06",
+    "ref_en": "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147397",
+    "source_cn": "终末猎杀-草丛06逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147398",
+    "source_cn": "终末猎杀-草丛07合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 07 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147399",
+    "source_cn": "终末猎杀-草丛07合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 07 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147400",
+    "source_cn": "终末猎杀-草丛07合并隐匿04（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 07 Merged Concealment 04 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147401",
+    "source_cn": "终末猎杀-草丛07逐簇隐匿01",
+    "ref_en": "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147402",
+    "source_cn": "终末猎杀-草丛07逐簇隐匿04",
+    "ref_en": "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147403",
+    "source_cn": "终末猎杀-草丛07逐簇隐匿06",
+    "ref_en": "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147404",
+    "source_cn": "终末猎杀-草丛07逐簇隐匿07",
+    "ref_en": "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147405",
+    "source_cn": "终末猎杀-草丛07逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 07 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147406",
+    "source_cn": "终末猎杀-草丛08合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 08 Merged Concealment 01 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147407",
+    "source_cn": "终末猎杀-草丛08合并隐匿02（含3块原范围）",
+    "ref_en": "Final Hunt-Bush 08 Merged Concealment 02 (Includes 3 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147408",
+    "source_cn": "终末猎杀-草丛08合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 08 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147409",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147410",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147411",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147412",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147413",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147414",
+    "source_cn": "终末猎杀-草丛08逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147415",
+    "source_cn": "终末猎杀-草丛09合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 09 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147416",
+    "source_cn": "终末猎杀-草丛09合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 09 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147417",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147418",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147419",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147420",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147421",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147422",
+    "source_cn": "终末猎杀-草丛09逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147423",
+    "source_cn": "终末猎杀-草丛10合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 10 Merged Concealment 01 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147424",
+    "source_cn": "终末猎杀-草丛10合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 10 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147425",
+    "source_cn": "终末猎杀-草丛10合并隐匿03（含3块原范围）",
+    "ref_en": "Final Hunt - Bush 10 Merged Concealment 03 (Includes 3 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147426",
+    "source_cn": "终末猎杀-草丛10逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147427",
+    "source_cn": "终末猎杀-草丛10逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147428",
+    "source_cn": "终末猎杀-草丛10逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147429",
+    "source_cn": "终末猎杀-草丛10逐簇隐匿07",
+    "ref_en": "End Hunt - Bush 10 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147430",
+    "source_cn": "终末猎杀-草丛10逐簇隐匿08",
+    "ref_en": "End Hunt - Bush 10 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147431",
+    "source_cn": "终末猎杀-草丛11合并隐匿01（含6块原范围）",
+    "ref_en": "End Hunt - Bush 11 Merged Concealment 01 (Includes 6 Original Areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147432",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿02",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147433",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿03",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147434",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿04",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147435",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿05",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147436",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿06",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147437",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿07",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147438",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿08",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147439",
+    "source_cn": "终末猎杀-草丛11逐簇隐匿09",
+    "ref_en": "End Hunt - Bush 11 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147440",
+    "source_cn": "终末猎杀-草丛12合并隐匿01（含2块原范围）",
+    "ref_en": "End Hunt - Bush 12 Merged Concealment 01 (Includes 2 Original Areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147441",
+    "source_cn": "终末猎杀-草丛12合并隐匿02（含3块原范围）",
+    "ref_en": "End Hunt - Bush 12 Merged Concealment 02 (Includes 3 Original Areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147442",
+    "source_cn": "终末猎杀-草丛12合并隐匿04（含2块原范围）",
+    "ref_en": "End Hunt - Bush 12 Merged Concealment 04 (Includes 2 Original Areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147443",
+    "source_cn": "终末猎杀-草丛12逐簇隐匿03",
+    "ref_en": "End Hunt - Bush 12 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147444",
+    "source_cn": "终末猎杀-草丛12逐簇隐匿04",
+    "ref_en": "End Hunt - Bush 12 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147445",
+    "source_cn": "终末猎杀-草丛12逐簇隐匿05",
+    "ref_en": "End Hunt - Bush 12 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147446",
+    "source_cn": "终末猎杀-草丛12逐簇隐匿07",
+    "ref_en": "End Hunt - Bush 12 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147447",
+    "source_cn": "终末猎杀-草丛12逐簇隐匿08",
+    "ref_en": "End Hunt - Bush 12 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147448",
+    "source_cn": "终末猎杀-草丛13合并隐匿03（含2块原范围）",
+    "ref_en": "End Hunt - Bush 13 Merged Concealment 03 (Includes 2 Original Areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147449",
+    "source_cn": "终末猎杀-草丛13合并隐匿05（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 13 Merged Concealment 05 (Includes 2 original range blocks)",
+    "target_ru": ""
+  },
+  {
+    "id": "147450",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147451",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147452",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147453",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147454",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147455",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147456",
+    "source_cn": "终末猎杀-草丛13逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147457",
+    "source_cn": "终末猎杀-草丛14合并隐匿05（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 14 Merged Concealment 05 (Includes 2 original range blocks)",
+    "target_ru": ""
+  },
+  {
+    "id": "147458",
+    "source_cn": "终末猎杀-草丛14合并隐匿06（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 14 Merged Concealment 06 (Includes 2 original range blocks)",
+    "target_ru": ""
+  },
+  {
+    "id": "147459",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147460",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147461",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147462",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147463",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147464",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147465",
+    "source_cn": "终末猎杀-草丛14逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147466",
+    "source_cn": "终末猎杀-草丛15合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 15 Merged Concealment 01 (Includes 2 original range blocks)",
+    "target_ru": ""
+  },
+  {
+    "id": "147467",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 15 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147468",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 15 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147469",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿04",
+    "ref_en": "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147470",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿05",
+    "ref_en": "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147471",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿06",
+    "ref_en": "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147472",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿07",
+    "ref_en": "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147473",
+    "source_cn": "终末猎杀-草丛15逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 15 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147474",
+    "source_cn": "终末猎杀-草丛16合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 16 Merged Concealment 01 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147475",
+    "source_cn": "终末猎杀-草丛16合并隐匿05（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 16 Merged Concealment 05 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147476",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿02",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147477",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿03",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147478",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿04",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147479",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿05",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147480",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿07",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147481",
+    "source_cn": "终末猎杀-草丛16逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147482",
+    "source_cn": "终末猎杀-草丛17合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 17 Merged Concealment 01 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147483",
+    "source_cn": "终末猎杀-草丛17合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 17 Merged Concealment 02 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147484",
+    "source_cn": "终末猎杀-草丛17合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt-Bush 17 Merged Concealment 03 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147485",
+    "source_cn": "终末猎杀-草丛17逐簇隐匿02",
+    "ref_en": "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147486",
+    "source_cn": "终末猎杀-草丛17逐簇隐匿05",
+    "ref_en": "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147487",
+    "source_cn": "终末猎杀-草丛17逐簇隐匿06",
+    "ref_en": "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147488",
+    "source_cn": "终末猎杀-草丛17逐簇隐匿07",
+    "ref_en": "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147489",
+    "source_cn": "终末猎杀-草丛17逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 17 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147490",
+    "source_cn": "终末猎杀-草丛18合并隐匿01（含3块原范围）",
+    "ref_en": "Final Hunt - Bush 18 Merged Concealment 01 (Includes 3 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147491",
+    "source_cn": "终末猎杀-草丛18合并隐匿02（含4块原范围）",
+    "ref_en": "Final Hunt - Bush 18 Merged Concealment 02 (Includes 4 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147492",
+    "source_cn": "终末猎杀-草丛18合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 18 Merged Concealment 03 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147493",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147494",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147495",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147496",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147497",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147498",
+    "source_cn": "终末猎杀-草丛18逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147499",
+    "source_cn": "终末猎杀-草丛19合并隐匿02（含4块原范围）",
+    "ref_en": "Final Hunt - Bush 19 Merged Concealment 02 (Includes 4 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147500",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147501",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147502",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147503",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147504",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147505",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147506",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147507",
+    "source_cn": "终末猎杀-草丛19逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147508",
+    "source_cn": "终末猎杀-草丛20合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 20 Merged Concealment 01 (Includes 2 Original Ranges)",
+    "target_ru": ""
+  },
+  {
+    "id": "147509",
+    "source_cn": "终末猎杀-草丛20合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 20 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147510",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147511",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147512",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147513",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147514",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147515",
+    "source_cn": "终末猎杀-草丛20逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147516",
+    "source_cn": "终末猎杀-草丛21合并隐匿02（含4块原范围）",
+    "ref_en": "Final Hunt - Bush 21 Merged Concealment 02 (Includes 4 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147517",
+    "source_cn": "终末猎杀-草丛21合并隐匿04（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 21 Merged Concealment 04 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147518",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147519",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿03",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 03",
+    "target_ru": ""
+  },
+  {
+    "id": "147520",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147521",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147522",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿07",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147523",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147524",
+    "source_cn": "终末猎杀-草丛21逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147525",
+    "source_cn": "终末猎杀-草丛22合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 22 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147526",
+    "source_cn": "终末猎杀-草丛22合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 22 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147527",
+    "source_cn": "终末猎杀-草丛22合并隐匿04（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 22 Merged Concealment 04 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147528",
+    "source_cn": "终末猎杀-草丛22合并隐匿05（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 22 Merged Concealment 05 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147529",
+    "source_cn": "终末猎杀-草丛22合并隐匿06（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 22 Merged Concealment 06 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147530",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿01",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 01",
+    "target_ru": ""
+  },
+  {
+    "id": "147531",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147532",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147533",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147534",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿10",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 10",
+    "target_ru": ""
+  },
+  {
+    "id": "147535",
+    "source_cn": "终末猎杀-草丛22逐簇隐匿11",
+    "ref_en": "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 11",
+    "target_ru": ""
+  },
+  {
+    "id": "147536",
+    "source_cn": "终末猎杀-草丛23合并隐匿01（含4块原范围）",
+    "ref_en": "Final Hunt - Bush 23 Merged Concealment 01 (Includes 4 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147537",
+    "source_cn": "终末猎杀-草丛23合并隐匿02（含3块原范围）",
+    "ref_en": "Final Hunt - Bush 23 Merged Concealment 02 (Includes 3 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147538",
+    "source_cn": "终末猎杀-草丛23合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 23 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147539",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿02",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 02",
+    "target_ru": ""
+  },
+  {
+    "id": "147540",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147541",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿05",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147542",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿06",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147543",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿08",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147544",
+    "source_cn": "终末猎杀-草丛23逐簇隐匿09",
+    "ref_en": "Final Hunt - Bush 23 Cluster-by-Cluster Concealment 09",
+    "target_ru": ""
+  },
+  {
+    "id": "147545",
+    "source_cn": "终末猎杀-草丛24合并隐匿01（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 24 Merged Concealment 01 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147546",
+    "source_cn": "终末猎杀-草丛24合并隐匿02（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 24 Merged Concealment 02 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147547",
+    "source_cn": "终末猎杀-草丛24合并隐匿03（含2块原范围）",
+    "ref_en": "Final Hunt - Bush 24 Merged Concealment 03 (Includes 2 original areas)",
+    "target_ru": ""
+  },
+  {
+    "id": "147548",
+    "source_cn": "终末猎杀-草丛24逐簇隐匿04",
+    "ref_en": "Final Hunt - Bush 24 Cluster-by-Cluster Concealment 04",
+    "target_ru": ""
+  },
+  {
+    "id": "147549",
+    "source_cn": "终末猎杀-草丛24逐簇隐匿05",
+    "ref_en": "Final Hunt-Bush 24 Cluster Invisibility 05",
+    "target_ru": ""
+  },
+  {
+    "id": "147550",
+    "source_cn": "终末猎杀-草丛24逐簇隐匿06",
+    "ref_en": "Final Hunt-Bush 24 Cluster Invisibility 06",
+    "target_ru": ""
+  },
+  {
+    "id": "147551",
+    "source_cn": "终末猎杀-草丛24逐簇隐匿07",
+    "ref_en": "Final Hunt-Bush 24 Cluster Invisibility 07",
+    "target_ru": ""
+  },
+  {
+    "id": "147552",
+    "source_cn": "终末猎杀-草丛24逐簇隐匿08",
+    "ref_en": "Final Hunt-Bush 24 Cluster Invisibility 08",
+    "target_ru": ""
+  },
+  {
+    "id": "147662",
+    "source_cn": "罗塞尔Boss-1&2阶段-灼热目光-点名6个",
+    "ref_en": "Roselle Boss - Phases 1 & 2 - Scorching Gaze - Target 6 Players",
+    "target_ru": ""
+  },
+  {
+    "id": "147663",
+    "source_cn": "罗塞尔Boss-1&2阶段-磁电回收-扇形范围",
+    "ref_en": "Roselle Boss - Phases 1 & 2 - Electromagnetic Recovery - Fan-shaped Area",
+    "target_ru": ""
+  },
+  {
+    "id": "147664",
+    "source_cn": "罗塞尔Boss-1&2阶段-重力圆点名",
+    "ref_en": "Roselle Boss - Phases 1 & 2 - Gravity Circle Targeting",
+    "target_ru": ""
+  },
+  {
+    "id": "147666",
+    "source_cn": "罗塞尔Boss-1&2阶段-镜像数据-脱手子技能",
+    "ref_en": "Roselle Boss - Phases 1 & 2 - Mirror Data - Detached Sub-skill",
+    "target_ru": ""
+  },
+  {
+    "id": "147669",
+    "source_cn": "罗塞尔Boss-3阶段-磁电回收-扇形法术代理",
+    "ref_en": "Roselle Boss - Phase 3 - Electromagnetic Recovery - Fan-shaped Spell Proxy",
+    "target_ru": ""
+  },
+  {
+    "id": "147670",
+    "source_cn": "罗塞尔Boss-3阶段-磁电回收点名",
+    "ref_en": "Roselle Boss - Phase 3 - Electromagnetic Recovery Targeting",
+    "target_ru": ""
+  },
+  {
+    "id": "147678",
+    "source_cn": "罗塞尔Boss-3阶段-镜像数据-脱手子技能",
+    "ref_en": "Roselle Boss - Phase 3 - Mirror Data - Detached Sub-skill",
+    "target_ru": ""
+  },
+  {
+    "id": "147679",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-圆形600",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Circular 600",
+    "target_ru": ""
+  },
+  {
+    "id": "147682",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-灼热目光-点名6个",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Scorching Gaze - Target 6",
+    "target_ru": ""
+  },
+  {
+    "id": "147685",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-自清洁程序-范围伤害",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Self-Cleaning Program - Area Damage",
+    "target_ru": ""
+  },
+  {
+    "id": "147688",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-选Boss",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Select Boss",
+    "target_ru": ""
+  },
+  {
+    "id": "147689",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-重力圆点名",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Gravity Point Target",
+    "target_ru": ""
+  },
+  {
+    "id": "147690",
+    "source_cn": "罗塞尔Boss困难-1&2阶段-重力法则-引力场",
+    "ref_en": "Roselle Boss Hard - Stages 1 & 2 - Law of Gravity - Gravitational Field",
+    "target_ru": ""
+  },
+  {
+    "id": "147693",
+    "source_cn": "罗塞尔Boss困难-2阶段-磁电回收-扇形法术代理",
+    "ref_en": "Roselle Boss Hard - Stage 2 - Electromagnetic Recovery - Sector Spell Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147694",
+    "source_cn": "罗塞尔Boss困难-2阶段-磁电回收点名",
+    "ref_en": "Roselle Boss Hard - Stage 2 - Electromagnetic Recovery Target",
+    "target_ru": ""
+  },
+  {
+    "id": "147703",
+    "source_cn": "罗塞尔Boss困难-2阶段-锋利的知识-悬浮齿轮",
+    "ref_en": "Roselle Boss Hard - Phase 2 - Sharp Knowledge - Floating Gear",
+    "target_ru": ""
+  },
+  {
+    "id": "147704",
+    "source_cn": "罗塞尔Boss困难-2阶段-锋利的知识-法术场",
+    "ref_en": "Roselle Boss Hard - Phase 2 - Sharp Knowledge - Spell Field",
+    "target_ru": ""
+  },
+  {
+    "id": "147716",
+    "source_cn": "罗塞尔Boss困难-2阶段-镜像数据-脱手子技能",
+    "ref_en": "Roselle Boss Hard - Phase 2 - Mirror Data - Detached Sub-Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "147717",
+    "source_cn": "罗塞尔Boss困难-3阶段-圆形700",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Circular 700",
+    "target_ru": ""
+  },
+  {
+    "id": "147718",
+    "source_cn": "罗塞尔Boss困难-3阶段-恶意俯冲-扩散波法术代理",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Malicious Dive - Diffusion Wave Spell Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147719",
+    "source_cn": "罗塞尔Boss困难-3阶段-恶意俯冲选最远玩家",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Malicious Dive Targets Farthest Player",
+    "target_ru": ""
+  },
+  {
+    "id": "147721",
+    "source_cn": "罗塞尔Boss困难-3阶段-磁电回收-扇形法术代理",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Electromagnetic Recovery - Fan-Shaped Spell Agent",
+    "target_ru": ""
+  },
+  {
+    "id": "147722",
+    "source_cn": "罗塞尔Boss困难-3阶段-磁电回收点名",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Electromagnetic Recovery Target Selection",
+    "target_ru": ""
+  },
+  {
+    "id": "147727",
+    "source_cn": "罗塞尔Boss困难-3阶段-自清洁程序-范围伤害",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Self-Cleaning Program - AoE Damage",
+    "target_ru": ""
+  },
+  {
+    "id": "147733",
+    "source_cn": "罗塞尔Boss困难-3阶段-锋利的知识-悬浮齿轮",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Sharp Knowledge - Floating Gear",
+    "target_ru": ""
+  },
+  {
+    "id": "147736",
+    "source_cn": "罗塞尔Boss困难-3阶段-锋利的知识-选第二轮",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Sharp Knowledge - Select Second Round",
+    "target_ru": ""
+  },
+  {
+    "id": "147744",
+    "source_cn": "罗塞尔Boss困难-3阶段-镜像数据-脱手子技能",
+    "ref_en": "Roselle Boss Hard - Phase 3 - Mirror Data - Released Sub-Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "148147",
+    "source_cn": "蠕动的饥饿：粉碎灵魂优先筛主目标（有灵魂压制Buff的）",
+    "ref_en": "Creeping Hunger: Soul Crush prioritizes the main target (those with the Suppression buff).",
+    "target_ru": ""
+  },
+  {
+    "id": "148148",
+    "source_cn": "蠕动的饥饿：粉碎灵魂退化目标",
+    "ref_en": "Creeping Hunger: Soul Crush degradation target",
+    "target_ru": ""
+  },
+  {
+    "id": "148215",
+    "source_cn": "装备-痛饮之铠-2格",
+    "ref_en": "Equipment - Armor of Gluttony - 2 Slots",
+    "target_ru": ""
+  },
+  {
+    "id": "148216",
+    "source_cn": "装备-痛饮之铠神话-2格",
+    "ref_en": "Equipment - Armor of Gluttony Mythical - 2 Slots",
+    "target_ru": ""
+  },
+  {
+    "id": "148217",
+    "source_cn": "装备-破灭重锤-2格",
+    "ref_en": "Equipment - Heavy Hammer of Ruin - 2 Slots",
+    "target_ru": ""
+  },
+  {
+    "id": "148218",
+    "source_cn": "装备-破灭重锤神话-2格",
+    "ref_en": "Equipment - Heavy Hammer of Ruin Mythical - 2 Slots",
+    "target_ru": ""
+  },
+  {
+    "id": "148246",
+    "source_cn": "观众：心灵灯塔1筛选",
+    "ref_en": "Spectator: Beacon of the Soul 1 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "148247",
+    "source_cn": "观众：心灵灯塔2筛选",
+    "ref_en": "Spectator: Beacon of the Soul 2 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "148248",
+    "source_cn": "观众：心灵灯塔3筛选",
+    "ref_en": "Spectator: Beacon of Destiny 3 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "148249",
+    "source_cn": "观众：心灵灯塔4筛选",
+    "ref_en": "Spectator: Beacon of Destiny 4 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "148250",
+    "source_cn": "观众：心灵灯塔5筛选",
+    "ref_en": "Spectator: Beacon of Destiny 5 Filter",
+    "target_ru": ""
+  },
+  {
+    "id": "148854",
+    "source_cn": "通用-神降翅膀-变天",
+    "ref_en": "General-Divine Descent Wings-Weather Change",
+    "target_ru": ""
+  },
+  {
+    "id": "148855",
+    "source_cn": "通用-神降翅膀-范围加增益",
+    "ref_en": "General-Divine Descent Wings-Area Buff",
+    "target_ru": ""
+  },
+  {
+    "id": "148856",
+    "source_cn": "通用-神降衣服-变天",
+    "ref_en": "General-Divine Descent Clothing-Weather Change",
+    "target_ru": ""
+  },
+  {
+    "id": "148857",
+    "source_cn": "通用-神降龙-范围加增益",
+    "ref_en": "General-Divine Descent Dragon-Area Buff",
+    "target_ru": ""
+  },
+  {
+    "id": "149159",
+    "source_cn": "附近玩家可卸载配料-大石头",
+    "ref_en": "Nearby players can unload ingredient - Large Stone",
+    "target_ru": ""
+  },
+  {
+    "id": "149160",
+    "source_cn": "附近玩家可卸载配料-滚烫大石头",
+    "ref_en": "Nearby players can unload ingredient - Scalding Large Stone",
+    "target_ru": ""
+  },
+  {
+    "id": "149213",
+    "source_cn": "隐秘空间-人格再叙-打开窃影相机",
+    "ref_en": "Hidden Space - Personality Renarration - Open Shadow-Stealing Camera",
+    "target_ru": ""
+  },
+  {
+    "id": "149217",
+    "source_cn": "隐秘空间-午夜诊所-占位",
+    "ref_en": "Hidden Space - Midnight Clinic - Placeholder",
+    "target_ru": ""
+  },
+  {
+    "id": "149273",
+    "source_cn": "隐秘空间-查看日记",
+    "ref_en": "Hidden Space - View Diary",
+    "target_ru": ""
+  },
+  {
+    "id": "149286",
+    "source_cn": "隐秘空间-留下标记",
+    "ref_en": "Hidden Space - Leave Mark",
+    "target_ru": ""
+  },
+  {
+    "id": "149301",
+    "source_cn": "隐秘空间-破晓防线-笔记武器激光目标筛选1级",
+    "ref_en": "Hidden Space-Dawn Defense Line-Note Weapon Laser Target Selection Level 1",
+    "target_ru": ""
+  },
+  {
+    "id": "149302",
+    "source_cn": "隐秘空间-破晓防线-笔记武器激光目标筛选2级",
+    "ref_en": "Hidden Space-Dawn Defense Line-Note Weapon Laser Target Selection Level 2",
+    "target_ru": ""
+  },
+  {
+    "id": "149327",
+    "source_cn": "隐秘空间-跳跃测试-平台状态切换技能",
+    "ref_en": "Hidden Space - Jump Test - Platform State Switch Skill",
+    "target_ru": ""
+  },
+  {
+    "id": "149335",
+    "source_cn": "隐秘空间-返回标记",
+    "ref_en": "Hidden Space - Return Mark",
+    "target_ru": ""
+  },
+  {
+    "id": "149559",
+    "source_cn": "黄铜书_子嗣守护_1目标_Buff84007624",
+    "ref_en": "Brass Book_Offspring Protection_1 Target_Buff84007624",
+    "target_ru": ""
+  }
+]

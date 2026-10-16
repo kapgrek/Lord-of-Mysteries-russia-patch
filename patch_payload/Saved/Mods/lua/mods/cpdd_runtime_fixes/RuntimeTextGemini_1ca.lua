@@ -268,5 +268,12 @@ return {
     ["After reaching level 39, you can create a room to start a Competition."] = "После достижения персонажем 39 уровня можно создать комнату для начала состязания.",
     ["{{player.name}}在廷根的圣赛琳娜教堂开启了<Chat_Highlight>“神降”仪式</>，祈祷“愚者”先生的注视与恩赐。前往协助，或许也有机会获得祂的祝福。<HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[前往协助]</>"] = "{{player.name}} начал(а) <Chat_Highlight>ритуал «Нисхождения Бога»</> в Соборе Святой Селены в Тингене, молясь о взгляде и милости господина Шута. Отправляйтесь на помощь — возможно, вы тоже получите Его благословение. <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680\">[Отправиться на помощь]</>",
     ["使用后获得<Highlight>全境雍容上装</>"] = "После использования вы получите <Highlight>верх «Царственное изящество»</>",
+    ["众将听令"] = "All generals, heed my command",
+    ["伤害测试"] = "Damage Test",
+    ["地面冲击"] = "Ground Impact",
+    ["座驾保存拍照中…"] = "Saving vehicle photo...",
+    ["环上无缺口，正如神选无退路。"] = "There are no gaps in the ring, just as there is no retreat for the God's chosen.",
+    ["等级排序"] = "Sort by level",
+    ["终有归途"] = "The Long Road Home",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

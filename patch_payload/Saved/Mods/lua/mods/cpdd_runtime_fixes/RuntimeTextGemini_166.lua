@@ -253,4 +253,11 @@ return {
     ["雏菊代表深藏在心底的爱。要是有些话说不出口，就让花替你传达吧。"] = "Ромашки символизируют любовь, глубоко скрытую в сердце. Если некоторые слова невозможно произнести, пусть цветы передадут их за вас.",
     ["连续攻击当前目标<HighLight>2</>次，共造成<HighLight>77%攻击伤害</>。"] = "Наносит удары по текущей цели <HighLight>2</> раза подряд, в сумме нанося <HighLight>77% урона от атаки</>.",
     ["【浅见】触发低于20%立即恢复生命效果时目标额外获得减伤20%，持续5秒。"] = "[Инсайт] При срабатывании эффекта немедленного восстановления здоровья ниже 20% цель дополнительно получает снижение урона на 20% на 5 секунд.",
+    ["<Assistant_Title1>【凌视】</>\n<Assistant_Title2>描述：</>战令奖励饰品\n<Assistant_Title2>使用：</>使用后获得凌视，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>战令解锁"] = "<Assistant_Title1>【Spirit Sight】</>\n<Assistant_Title2>Description:</> Battle Pass reward accessory.\n<Assistant_Title2>Usage:</> After use, you will obtain Spirit Sight. You can click <Assistant_System>Appearance-Dress Up</> to view and use it.\n<Assistant_Title2>Acquisition:</> Battle Pass unlock.",
+    ["使用技能：<Highlight>隐秘之言</>1次"] = "Use Skill: <Highlight>Secret Words</> 1 time",
+    ["前往黑市商人购买药品"] = "Go to the black market merchant to buy medicine",
+    ["哎？你想跟我说什么来着？"] = "Eh? What was it you wanted to tell me?",
+    ["在当前位置留下时间印记"] = "Leave a time mark at the current location",
+    ["坐到沙发上"] = "Sit on the sofa",
+    ["迷幻风铃树？"] = "Psychedelic Wind-Chime Tree?",
 }

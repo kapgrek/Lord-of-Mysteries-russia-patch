@@ -286,5 +286,13 @@ return {
     ["The last of the vegetables, selling them cheap!"] = "Последние овощи, продаю дёшево!",
     ["The premise of a family budget plan is to respect the master of the house's opinion."] = "Основа семейного бюджета — уважение к мнению главы семьи.",
     ["[Marionette Skill] Worm of Star - Ice Flame Breath"] = "[Умение марионетки] Звёздный Червь - Дыхание Ледяного Пламени",
+    ["使用后获得<Highlight>头像・生如夏花</>"] = "Use to obtain <Highlight>Avatar: Life Like Summer Flowers</>",
+    ["使用后获得<Highlight>顶顶好运顶饰</>"] = "Use to obtain <Highlight>Top-Tier Luck Headpiece</>",
+    ["圣赛缪尔教堂氛围"] = "Saint Samuel Cathedral Atmosphere",
+    ["塔罗·伦纳德·米切尔·基础"] = "Tarot - Leonard Mitchell - Base",
+    ["宝箱之秘"] = "Secret of the Treasure Chest",
+    ["棋子固有回蓝·巨型尸骸·3星"] = "Piece Innate Mana Regen: Giant Corpse 3-Star",
+    ["草丛隐匿稳定控制"] = "Bush Concealment Stable Control",
+    ["GTA灰雾押运手枪"] = "GTA Gray Fog Escort Pistol",
     ["Jadir"] = "Джадир",
 }

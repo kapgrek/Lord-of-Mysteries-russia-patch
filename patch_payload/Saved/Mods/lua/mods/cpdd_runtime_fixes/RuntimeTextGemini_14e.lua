@@ -287,6 +287,12 @@ return {
     ["Little Wish passed the government employee unified examination. I'm so happy for him..."] = "Малыш Виш сдал единый экзамен на госслужащего. Я так рада за него...",
     ["Any news from the sea?"] = "Есть новости с моря?",
     ["《Lord of Mysteries》 is a Western fantasy novel written by the platinum author of China Literature, Cuttlefish That Loves Diving. It blends Cthulhu style, Western magical elements, the atmosphere of the First Industrial Revolution, and steampunk sentiments. This is a world of steam and machinery, and this is the legend of \"The Fool\". 《Lord of Mysteries》 is a work by the platinum author of China Literature, Cuttlefish That Loves Diving"] = "«Повелитель Тайн» — западный фэнтезийный роман, написанный платиновым Автором издательской группы Yuewen — Кальмаром, Который Любит Нырять. Он сочетает в себе стиль Лавкрафта, элементы западной магии, атмосферу эпохи первой промышленной революции и дух стимпанка. Это мир пара и механизмов, это легенда о «Шуте». «Повелитель Тайн» написан платиновым Автором издательской группы Yuewen — Кальмаром, Который Любит Нырять",
+    ["<DecH>工艺：</>铂金织锦・珠钻刺绣・晚宴礼服\n水晶灯影下，觥筹交错间，你如铂金般闪耀。"] = "<DecH>Craftsmanship:</> Platinum Brocade · Pearl and Diamond Embroidery · Evening Gown\nUnder the shadows of the Crystal chandelier, amidst the clinking of glasses, you shine like platinum.",
+    ["不错，但这个花瓶之前是长这个样子的吗。。我似乎忘了什么。"] = "Not bad, but did this vase look like this before... I seem to have forgotten something.",
+    ["和威尔说明情况"] = "Explain the situation to Will",
+    ["未拥有指定秘偶，无法使用置换"] = "Do not possess the specified marionette; cannot use displacement.",
+    ["警官，他连我这个大明星都不认识，就让他和亲亲狒狒待在一起吧！"] = "Officer, he doesn't even recognize a big star like me. Just let him stay with the baboons!",
+    ["这场过家家的游戏，该结束了！"] = "This game of house ends now!",
     ["不能，我们哪也不去。"] = "Нет, мы никуда не пойдем.",
     ["采集指定TemplateID的采集物  对象播放指定对白内容"] = "Собрать элементы с указанным TemplateID. Объект воспроизводит указанный диалог.",
 }

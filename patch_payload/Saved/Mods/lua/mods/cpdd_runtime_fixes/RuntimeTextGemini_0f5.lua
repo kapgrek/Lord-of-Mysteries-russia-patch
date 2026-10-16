@@ -281,4 +281,12 @@ return {
     ["Cough cough, why is this boiler so choking today!"] = "Кхе-кхе, почему этот котёл сегодня так дымит!",
     ["Juice naturally exuded from fruits that ripen in July, possessing mild intoxicating properties and spirituality diffusion effects."] = "Сок, естественно выделяющийся из плодов, созревающих в июле, обладает лёгким опьяняющим действием и эффектом распространения Духовности.",
     ["Obtain 1 Beyonder material with the {Bishop of Fear} entry"] = "Получите 1 материал Потустороннего с записью {Епископ Страха}",
+    ["<Highlight>简介</>：巨人王后欧弥贝拉死后遗骸形成。\n<Highlight>持有者</>：白银城。\n<Highlight>对应特性</>：耕种者途径。\n<Highlight>能力</>：让周围的区域长出黑面草，活化一定范围的区域。\n<Highlight>负面效果</>：使覆盖范围内的人背负起被诅咒的命运，只有被直系亲属弑杀的人才不会变成可怕的恶灵。"] = "<Highlight>Introduction</>: Formed from the remains of the Giant Queen Omebella after her death.\n<Highlight>Holder</>: City of Silver.\n<Highlight>Corresponding Pathway</>: Planter pathway.\n<Highlight>Ability</>: Causes Black-Faced Grass to grow in the surrounding area and animates the area within a certain range.\n<Highlight>Negative Effect</>: Causes people within the coverage area to bear a cursed fate; only those killed by direct relatives will not turn into terrifying Evil Spirit.s.",
+    ["情绪值120<(%s)<280"] = "Emotion Value 120<(%s)<280",
+    ["是……沉浸感？"] = "Is it... immersion?",
+    ["组队模式参加副本<Highlight>丰饶之树（普通）</>，击败<Highlight>厄水巨龟</>后，可以参与公共掉落的分配与拍卖。有概率获得下列外观。"] = "Participate in the Dungeon <Highlight>Tree of Abundance (Normal)</> in party mode. After defeating the <Highlight>Misfortune Water Giant Turtle</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances.",
+    ["騙"] = "Deceive",
+    ["鳴潮"] = "Wuthering Waves",
+    ["终末猎杀-草丛10合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 10 Merged Concealment 01 (Includes 2 original areas)",
+    ["终末猎杀-草丛14逐簇隐匿01"] = "Final Hunt - Bush 14 Cluster-by-Cluster Concealment 01",
 }

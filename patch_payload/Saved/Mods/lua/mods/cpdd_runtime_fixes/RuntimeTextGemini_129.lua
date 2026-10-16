@@ -296,5 +296,9 @@ return {
     ["Merciful God who governs Slumber and silence, He bestows this honor upon you—from now on, your name falls outside all clamor."] = "Милостивый Бог, повелевающий Дрёмой и безмолвием, дарует вам эту честь — отныне ваше имя останется вне всякого шума.",
     ["<DecH>工艺：</>夜色织锦・变装舞会服\n深沉夜色下，切切絮语在沙龙中生长。刚刚，又是谁的雪色绒发拂过了掌心？"] = "<DecH>Материал:</> Гобелен ночи · Наряд для маскарада\nВ глубокой ночи в салоне рождаются тихие шептания. Чей снежно-белый пушистый мех только что коснулся ладони?",
     ["Obtain 1 Beyonder material with <Guardian> trait"] = "Получите 1 Потусторонний материал со свойством <Хранитель>",
+    ["先<h>离开</>嘈杂的码头"] = "First <h>leave</> the noisy Dock",
+    ["蒸汽秘囊"] = "Steam Secret Pouch",
+    ["邦尼：你赢了，小种子。"] = "Bonnie: You win, little seed.",
+    ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛非T3人"] = "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter non-T3 people",
     ["与Npc进行对话  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Поговорить с NPC. Объект телепортируется в указанную точку указанной сцены (игрок поддерживает межсценарную телепортацию, NPC — только в пределах сцены).",
 }

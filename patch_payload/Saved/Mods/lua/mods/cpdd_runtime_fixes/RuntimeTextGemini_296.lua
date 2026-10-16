@@ -286,6 +286,12 @@ return {
     ["Insufficient \"Beyonder Material\" quantity, cannot aggregate with one tap"] = "«Потустороннее вещество»: количество слишком мало, невозможно объединить одним нажатием",
     ["No need to thank me, this is just a daily performance for a street magician."] = "Не стоит благодарности, это всего лишь обычное выступление уличного Фокусника.",
     ["切换<Orange>城市暗面</>。"] = "Переключите <Orange>тёмную сторону города</>.",
+    ["一楼右侧"] = "Right side of the first floor",
+    ["不用谦虚，“梦境行者”的晋升仪式是这样的——"] = "No need to be modest, the advancement ritual for a Dreamwalker is like this—",
+    ["仿古希腊式的圆石柱，青色的柱身呼应着海洋与水的主题。"] = "A round stone pillar in the style of ancient Greece, with a cyan shaft that echoes the theme of the ocean and water.",
+    ["使用后获得头衔:<Highlight>神选席位（30天）</>"] = "Obtain title after use: <Highlight>God's Chosen Seat (30 days)</>",
+    ["未知的恐惧在脚步声中逼近，每一秒都考验着勇气。"] = "An unknown Horror approaches with the sound of footsteps, testing your courage with every passing second.",
+    ["组队模式参加副本<Highlight>五月庄园·城堡（困难）</>，击败<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Participate in the Dungeon <Highlight>May Manor · Castle (Hard)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment.",
     ["　　6月28日，正在改编《伯爵归来》的剧作家施佩尔忽然罹患严重的精神疾病。根据心理诊所的初步检查，诊断为精神压力和工作习惯导致的妄想性障碍。"] = "28 июня драматург Шпеер, экранизировавший «Возвращение графа», внезапно заболел тяжелым психическим заболеванием. По предварительному обследованию в психологической клинике у него диагностировано бредовое расстройство, вызванное психическим напряжением и трудовыми привычками.",
     ["Wheat | Berries | Carrots | Parsley"] = "Пшеница | Ягоды | Морковь | Петрушка",
 }

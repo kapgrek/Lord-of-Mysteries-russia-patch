@@ -295,5 +295,12 @@ return {
     ["Welcome! Please pick a seat you like and sit down first!"] = "Добро пожаловать! Выберите понравившееся место и присаживайтесь!",
     ["The dock area is a lucrative spot... so many people coming and going every day."] = "Район доков — прибыльное место... каждый день столько людей приходит и уходит.",
     ["When the World Calamity dies, Beyonders who participated in the battle can receive rewards. Rewards can only be obtained <Highlight>once</> per week."] = "Когда Мировое Бедствие погибает, Потусторонние, участвовавшие в бою, получают награду. Награду можно получить лишь <Highlight>1 раз</> в неделю.",
+    ["使用后获得<Highlight>动态名片主题·查尼斯门</>"] = "Use to obtain <Highlight>Dynamic Namecard Theme: Chanis Gate</>",
+    ["失落的音符-藏身处"] = "Lost Musical Note - Hideout",
+    ["巨大的直角五边形挂墙旗帜，其上的金色纹路含义不明。"] = "A huge right-angled pentagonal wall-hanging flag with golden patterns of unknown meaning.",
+    ["情绪值计数30"] = "Emotion Value Count 30",
+    ["我叫迪伦，我兼职了十年群演。"] = "My name is Dylan, and I have been working as a part-time extra for ten years.",
+    ["询问“正义”小姐"] = "Ask Miss Justice",
+    ["贸易战升级车辆18次"] = "Upgrade vehicles 18 times in Trade War",
     ["Altaf"] = "Альтаф",
 }

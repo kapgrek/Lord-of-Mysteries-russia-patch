@@ -255,5 +255,12 @@ return {
     ["The ultimate point-to-point contest; the true powerhouse is born here."] = "Финальное состязание один на один — здесь рождаются истинные сильнейшие.",
     ["Can you imagine? According to my teacher's estimation, this tree has been rooted here for longer than the Saint Wind Cathedral has been built."] = "Можете себе представить? По оценке моего учителя, это дерево укоренилось здесь, вероятно, раньше, чем был построен Собор Святого Ветра.",
     ["Find the mastermind and reclaim everything that was stolen from you"] = "Найдите истинного преступника, стоящего за этим, и верните всё украденное у вас",
+    ["本次庆祝奖励已领取，无法重复领取。"] = "The celebration reward has already been claimed and cannot be claimed again.",
+    ["每周一8:00刷新任务"] = "Quests refresh every Monday at 8:00.",
+    ["给予技能——护身盾"] = "Grant Skill—Protective Shield",
+    ["那件非凡物品吸引来的某种特殊存在，让霍克斯男爵察觉了异常，导致了霍克斯男爵的死亡。"] = "A certain special existence attracted by that Beyonder item made Baron Hawkes notice the anomaly, which led to Baron Hawkes's Dead.",
+    ["那位先生没来？真遗憾，我还想再听听他对命运的见解呢。"] = "That gentleman didn't come? What a pity, I wanted to hear his insights on fate again.",
+    ["预计分得站点"] = "Estimated Site Allocation",
+    ["丧钟回响"] = "",
     ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>召唤次数获取</>\n可通过以下方式获得召唤次数：\n<Highlight>每日刷新</>：每日可获得【灾异先锋】、【命运人偶】各1次召唤次数；\n<Highlight>领取猎杀进度奖励</>：解锁猎杀进度档位并领取奖励，可额外获得召唤次数。\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>重置规则</>\n召唤次数<Highlight>可在当周累积</>，每周一<Highlight>早上8:00</>统一重置。"] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Получите количество призывов</>\nВы можете получить количество призывов следующими способами: \n<Highlight>Ежедневное обновление</>: вы можете получить по 1 счетчику призывов для каждого из [Disaster Vanguard] и [Destiny Doll] каждый день; \n<Highlight>Получайте награды за прогресс охоты</>: разблокируйте снаряжение для прогресса охоты и получите награды. Вы можете получить дополнительное время призыва. \n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Сброс правил</>\nКоличество вызовов <Highlight> может быть накоплено </> на текущей неделе и будет сбрасываться каждый понедельник <Highlight> 8:00 </>.",
 }

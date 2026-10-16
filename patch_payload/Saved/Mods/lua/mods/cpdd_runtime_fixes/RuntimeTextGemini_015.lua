@@ -249,5 +249,10 @@ return {
     ["Grade 0 Sealed Artifact... what do I need to pay attention to?"] = "Запечатанный артефакт 0-го уровня... на что нужно обратить внимание?",
     ["……Is the result of your divination correct?"] = "...Ваше предсказание верно?",
     ["分线选择"] = "Выбор линии",
+    ["但是不斗邪恶的话，剩下三个轮子的钱我要从哪里赢过来？"] = "But if I don't fight evil, where am I going to win the money for the remaining three wheels?",
+    ["我即太阳"] = "I am the Sun",
+    ["群鸦，回应我吧！"] = "Crows, answer my call!",
+    ["街景风情"] = "Street Scenery",
+    ["衣摆如烈焰燃烧，每一步踏着生命的节拍，热情在旋转中迸发。"] = "The hem of the garment burns like flames, each step beating to the rhythm of life, passion bursting forth in the rotation.",
     ["前往指定Trigger位置  对象播放指定对白内容"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанный диалог.",
 }

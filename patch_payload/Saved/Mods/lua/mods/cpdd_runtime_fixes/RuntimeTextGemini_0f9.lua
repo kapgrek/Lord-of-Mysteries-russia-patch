@@ -248,6 +248,13 @@ return {
     ["You... you can drive that thing out? Great! Let's go, follow me quickly!"] = "Ты... ты можешь изгнать эту тварь? Отлично! Идём, скорее следуй за мной!",
     ["《背叛者指环》也不错，是贝克兰德王国大剧院原版阵容。"] = "«Кольцо предателя» тоже неплохо — это оригинальный состав Королевского театра Бэкланда.",
     ["一张蕴含庞大灵性的卡牌，持有者可以此媒介沟通灵界，进行运气与命运的交换，从灵界中获取宝物。"] = "Карта, содержащая огромную Духовность; владелец может использовать её как медиум для связи с Миром Духов, обмена удачей и судьбой, а также получения сокровищ из Мира Духов.",
+    ["圆形伤害"] = "Circular Damage",
+    ["怪物獵人"] = "Monster Hunter",
+    ["总税金"] = "Total Tax",
+    ["我们不如去问团长，他总该认识自己团里的明星人物！"] = "Why don't we go ask the captain? He should at least know the star of his own troupe!",
+    ["邦尼：它在告诉我，你很想了解我——真正的我。"] = "Bonnie: It's telling me that you really want to understand me—the real me.",
+    ["項目"] = "Project",
     ["使用指定道具  玩家发送任务道具  玩家播放仅自己可见的说话文本"] = "Использовать указанный предмет, игрок отправляет квестовый предмет, игрок воспроизводит текст диалога, видимый только ему самому",
     ["Respected citizens, please note: \nOur company, in the name of scientific spirit and public health,\nsolemnly acquires all kinds of rodent villains\n—whether gray-whiskered bandits or black-tailed rebels!\n\n<Highlight>*Steam-Powered Rodent Neutralization Box*</>\nSwearing to transform every sewer tyrant into nourishment for the civilized progress of the Loen Kingdom!\n\nRewards are as follows:\n- Complete rat tail: 1/2 penny\n- Live specimen: 3 pence (includes a tin-plated Dignity Termination Chamber)\n\nPlagues and troubles, caught in one net!"] = "Вниманию почтенных горожан:\nНаша компания, во имя духа науки и общественной санитарии,\nсим торжественно скупает всякого рода грызунов-злодеев —\nбудь то седоусые разбойники или чернохвостые бунтовщики!\n\n<Highlight>*Паровая камера безвредной утилизации грызунов*</>\nКлянёмся превратить каждого сточного тирана в удобрение для прогресса цивилизации Королевства Лоэн!\n\nВознаграждение:\n- Целый крысиный хвост: полпенни\n- Живой образец: 3 пенса (прилагается лужёная жестяная капсула лишения достоинства)\n\nЧума и напасти будут искоренены разом!",
+    ["两张？和我一样……"] = "Two cards? Just like me...",
 }

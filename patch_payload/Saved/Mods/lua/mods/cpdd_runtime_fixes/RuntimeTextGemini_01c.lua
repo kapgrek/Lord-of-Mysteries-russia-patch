@@ -253,5 +253,12 @@ return {
     ["The Four Emperors have gathered, but only one can be the final winner. A war capable of changing the world's situation has begun."] = "Четыре Императора собрались вместе, но лишь один сможет стать окончательным победителем — началась война, способная изменить расклад сил во всём мире.",
     ["Eh? Are you asking me?"] = "А? Вы меня спрашиваете?",
     ["Go ahead, my true love is... *snore*, *snort*..."] = "Давай, моя истинная любовь... *храп*, *фырк*...",
+    ["代价？我什么代价都不怕！"] = "The price? I fear no price!",
+    ["原著线·第八章·伦纳德推理前"] = "Original Storyline - Chapter 8 - Before Leonard's Deduction",
+    ["完成一次五月庄园·花园·困难"] = "Complete May Manor · Garden · Hard once",
+    ["罗塞尔Boss-灼热目光-点名标记"] = "Roselle Boss - Scorching Gaze - Target Mark",
+    ["谢谢导演，这是我的荣幸，我肯定不辜负导演的期望。"] = "Thank you, Director. It is my honor, and I will certainly live up to your expectations.",
+    ["还是同样的结局。对他们那种家庭而言，死亡随时可能降临。"] = "It's the same ending again. For a family like theirs, Death could descend at any moment.",
+    ["这不是我今天带出来的那把。"] = "This isn't the one I brought out today.",
     ["采集指定TemplateID的采集物  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Собирает предмет с указанным идентификатором шаблона, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанный контент диалога.",
 }

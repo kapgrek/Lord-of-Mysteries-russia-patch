@@ -260,4 +260,11 @@ return {
     ["在竞技玩法中<Highlight>击败</>%s/%s名太阳神官"] = "В соревновательном режиме <Highlight>победите</>%s/%s Солнечных Жрецов",
     ["抵达战略服廷根，了解军功与军衔体系。"] = "Прибудьте на стратегический сервер Тинген, чтобы изучить систему военных заслуг и званий.",
     ["Apple Knight Charge Performance"] = "Эффект атаки Яблочного рыцаря",
+    ["{{PlayerName}}：首先准备好卷轴材料。"] = "{{PlayerName}}: First, prepare the scroll materials.",
+    ["圣赛缪尔教堂\r\n<LeonSubTitle size=\"38\">Church of Saint Samuel</>"] = "Saint Samuel Cathedral\r\n<LeonSubTitle size=\"38\">Church of Saint Samuel</>",
+    ["如果您见过，可以告诉我们吗？"] = "If you have seen it, could you tell us?",
+    ["当你积攒了足够的军功，也可以来我这里兑换相应的回报。记住，胜利永远属于勇敢者。"] = "When you have accumulated enough military merit, you can also come to me to exchange for corresponding rewards. Remember, victory always belongs to the brave.",
+    ["我是佩妮啊！"] = "I am Penny!",
+    ["车队等级达到1级"] = "Caravan level reaches 1",
+    ["【自走棋装备】疯狂的盔甲周期范围60伤害"] = "[Auto Chess Equipment] Armor of Madness periodic 60 area damage",
 }

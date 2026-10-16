@@ -284,4 +284,8 @@ return {
     ["Boil... add 150 milliliters of pure milk... stir..."] = "Вскипятить... добавить 150 миллилитров чистого молока... помешать...",
     ["他果然是非凡者……而且那条<P_Yellow>领带</>还是神奇物品。"] = "Он и правда Потусторонний... а тот <P_Yellow>галстук</> ещё и чудесный предмет.",
     ["South District Avenue Fountain Square Bicycle (Yellow)"] = "Южный район, проспект, площадь с фонтаном, велосипед (жёлтый)",
+    [" 两张？和我一样……"] = " Two cards? Just like me...",
+    ["出售酒类物品数量累计10000个-之二"] = "Cumulative sales of 10,000 alcoholic items - Part 2",
+    ["战法8人"] = "Tactics 8-Person",
+    ["棋子固有回蓝·洛薇雅·蒂芙尼·3星"] = "Piece Innate Mana Regen: Lovia Tiffany 3-Star",
 }

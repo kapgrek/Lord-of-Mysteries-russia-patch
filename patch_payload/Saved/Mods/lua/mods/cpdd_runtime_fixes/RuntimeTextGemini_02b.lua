@@ -288,4 +288,11 @@ return {
     ["Intis is my hometown, and Loen is my second home."] = "Интис — моя родина, а Лоэн — мой второй дом.",
     ["My Lord calls himself 'The Fool'. In the past, in the present, and in the future, He is the great master who dominates the Spirit World, the King of Yellow and Black who holds good luck, and the beacon for every living being seeking eternity."] = "Мой Лорд называет себя «Шутом». В прошлом, в настоящем и в будущем Он — великий владыка, властвующий над Духовным миром, Король Жёлтого и Чёрного, хранящий удачу, и маяк для каждого живого существа, ищущего вечность.",
     ["[Golden Autumn Lake-Hard]-Druid-Mark 3 Any Targets"] = "[Золотое Осеннее озеро - Сложный] - Друид - Назвать 3 любые цели",
+    ["不过对方的实力暂时不清楚。克莱恩，你等会在远处支援，我会尝试将她拉入梦境。"] = "However, the opponent's strength is currently unclear. Klein, you provide support from a distance; I will attempt to pull her into a dream.",
+    ["什么？！廷根那场灾难，只是堕落母神偷渡阿蒙分身的幌子？"] = "What?! That disaster in Tingen was just a cover for the Mother Goddess of Depravity to smuggle in an Amon Avatar?",
+    ["参与副本<Highlight>丰饶之树（普通）</>，击败<Highlight>厄水巨龟</>后，有概率获得下列装备。"] = "Participate in the dungeon <Highlight>Tree of Abundance (Normal)</>, and after defeating the <Highlight>Misfortune Water Giant Turtle</>, you have a chance to obtain the following equipment.",
+    ["棋子固有回蓝·伦纳德·米切尔"] = "Chess Piece Innate Mana Regen: Leonard Mitchell",
+    ["测试用4"] = "Test Use 4",
+    ["阿蒙本体"] = "Amon's Main Body",
+    ["终末猎杀-草丛22逐簇隐匿10"] = "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 10",
 }

@@ -261,6 +261,11 @@ return {
     ["限时接取，周一至周五19:00-20:00\n周六、周日12:00-18:00、19:00-22:00"] = "Ограничено по времени, с понедельника по пятницу 19:00-20:00\nСуббота, воскресенье 12:00-18:00, 19:00-22:00",
     ["<Title> Faction Pre-allocation </> \n After the theater screening is completed, faction pre-allocation will be finished by <Highlight> %s </>. \n \n <Title> Faction Adjustment </> \n After pre-allocation is completed, you can manually adjust your faction according to the rules; <Highlight> %s </> Faction adjustment ends and the final faction is determined. During the adjustment period, <Highlight> the 1st place club in each division will be locked and cannot adjust their faction </>. Subsequently, the faction battle will be completed with the fixed factions assigned for one month."] = "<Title>Предварительное распределение фракций</>\nПосле завершения отбора по дивизионам предварительное распределение фракций будет завершено к <Highlight>%s</>.\n\n<Title>Корректировка фракции</>\nПосле предварительного распределения можно вручную скорректировать свою фракцию по правилам; <Highlight>%s</> корректировка фракций завершится, и будет определена итоговая фракция. Во время корректировки <Highlight>клуб, занявший 1-е место в каждом дивизионе, будет заблокирован и не может корректировать фракцию</>. В дальнейшем битва фракций будет проходить в течение месяца с закреплёнными фракциями.",
     ["It's possible. With so many street food stalls on Iron Cross Street, maybe someone adds something magical to their food."] = "Возможно. На улице Железного Креста столько уличных лотков с едой, может, кто-то добавляет в еду что-то магическое.",
+    ["使用后获得<Highlight>红与黑披风</>"] = "Use to obtain <Highlight>Red and Black Cape</>",
+    ["塔罗·佛尔思·沃尔·档4增量"] = "Tarot Fors Wall Save 4 Increment",
+    ["展台・睥睨"] = "Display Stand: Look Down",
+    ["警官{{先生|女士}}，你昨天说要继续调查，后来怎么样了？"] = "Officer {{gentleman|lady}}, you said yesterday you would continue the investigation. What happened after that?",
+    ["饕餮成长体型3档"] = "Gluttony Growth Stage 3",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Ievette"] = "Иветт",
 }

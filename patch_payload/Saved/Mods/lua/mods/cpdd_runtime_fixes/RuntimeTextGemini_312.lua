@@ -240,5 +240,12 @@ return {
     ["Thank the Goddess, my sister and I convinced Dad, and we can go to school now!"] = "Слава Богине, мы с сестрой убедили папу, и теперь мы можем пойти в школу!",
     ["不够灵敏的占卜家先生，这个架子明明离我更近，如果不是你挡住了路……"] = "Недостаточно проворный господин Провидец, эта полка явно ближе ко мне, если бы не вы, преградивший путь...",
     ["他说，只有非凡者可以发挥它“保护”的力量。"] = "Он сказал, что только Потусторонний может раскрыть его силу «защиты».",
+    ["序列3分身通过寄生，制造了其他大批携带污染的分身。"] = "The Sequence 3 clone used Parasitism to create a large number of other clones carrying corruption.",
+    ["开启相机"] = "Turn on Camera",
+    ["我怎么能忘，怎么会来这里完成演出？！"] = "How could I forget, how could I have come here to finish the performance?!",
+    ["现实线第六章-邮差落座"] = "Reality Line Chapter 6 - The postman takes a seat",
+    ["还记得我认识的心理医生吗？她或许能给你答案。"] = "Do you remember the Psychiatrist I know? She might be able to give you an answer.",
+    ["隐秘空间破晓之前-丧钟武器连射2buff"] = "Hidden Space Before Dawn - Death Knell Weapon Rapid Fire 2 Buff",
+    ["推荐方案"] = "",
     ["好吧……我们现在要去哪里？"] = "Хорошо... куда мы сейчас идем?",
 }

@@ -233,6 +233,11 @@ return {
     ["基础属性：生命+400，防御+30"] = "Базовые характеристики: здоровье +400, защита +30",
     ["Cannot unstuck in the current state; please try again later."] = "В текущем состоянии невозможно выйти из застревания, повторите попытку позже.",
     ["下午好！“正义”小姐、“魔术师”小姐、“星星”先生，你们怎么都在？"] = "Добрый день! Мисс «Справедливость», мисс «Фокусник», мистер «Звезда», почему вы все здесь?",
+    ["<P_Yellow>没有我的名字……我的名字在哪里，我是……迪伦？</>"] = "<P_Yellow>There's no name for me... Where is my name? Am I... Dylan?</>",
+    ["不仅是我做的，也可能是另一些我，准确地说，是一群“我们”。"] = "It wasn't just me who did it; it could have been other versions of me—to be precise, a group of \"us\".",
+    ["血猎披风"] = "Blood Hunter Cloak",
+    ["邦尼：哈哈哈哈哈，不错，你和花种融合得非常完美，但是……"] = "Bonnie: Hahahaha, not bad. You and the flower seed have fused perfectly, but...",
+    ["终末猎杀-草丛19逐簇隐匿07"] = "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 07",
     ["Hamza"] = "Хамза",
     ["……\n\nSince the beginning of July, child disappearance incidents in Tingen have occurred many times. The total number of missing persons is <Mark id=\"#159\"> thirteen </>, including five boys and eight girls.\nCurrently, three bodies have been found, and the murderer has been caught and the case closed.\nBut the autopsy determined that the causes of death were all different, belonging to three different realistic ordinary events."] = "……\n\nС начала июля в городе Тинген произошла серия исчезновений детей; общее число пропавших без вести составляет <Mark id=\"#159\"> тринадцать человек </>, в том числе пять мальчиков и восемь девочек.\nК настоящему моменту обнаружены тела трех детей, убийца арестован, и дело закрыто.\nОднако судебно-медицинская экспертиза показала разные причины смерти, относящиеся к трем не связанным между собой бытовым происшествиям.",
 }

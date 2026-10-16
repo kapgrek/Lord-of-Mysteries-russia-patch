@@ -255,5 +255,12 @@ return {
     ["What is the plot of the Antigonus Notebook?"] = "В чём заключается сюжет «Записок Антигонуса»?",
     ["我计划找一位私家侦探，调查奇诺出轨的证据，让他净身出户！"] = "Я планирую найти частного детектива, чтобы собрать доказательства измены Чино, и заставить его уйти без гроша!",
     ["是否确认设置征服先锋？"] = "Подтвердить назначение Авангарда завоевания?",
+    ["<Highlight>工艺：</>夜色织锦・野性绒饰・变装舞会裙\n深沉夜色下，切切絮语在沙龙中生长。刚刚，又是谁的雪色绒发拂过了掌心？"] = "<Highlight>Craft:</> Night Brocade · Wild Fur Trim · Masquerade Dress\nIn the deep of night, hushed whispers fill the salon. Whose snow-white locks just brushed across your palm?",
+    ["为设计他死亡的姿势，我写了很长的人物小传，背下了全部剧本！"] = "To design the posture of his Dead, I wrote a very long character biography and memorized the entire script!",
+    ["当前的目标"] = "Current target",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>5000%</> = {*d,F1690001,atkMin,50}点"] = "Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>5000%</> = {*d,F1690001,atkMin,50}",
+    ["是随机性！"] = "It's randomness!",
+    ["迷之996"] = "Mysterious 996",
+    ["霜陨领主争夺战参与1次"] = "Participate in the Frost-Fall Lord Battle 1 time",
     ["Adali"] = "Адали",
 }

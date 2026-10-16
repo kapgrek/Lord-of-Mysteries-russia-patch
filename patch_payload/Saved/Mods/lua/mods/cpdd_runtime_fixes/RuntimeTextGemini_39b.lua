@@ -267,5 +267,12 @@ return {
     ["累计500个非凡者组队通关大帝重临"] = "Суммарно 500 Потусторонних в группах прошли подземелье «Возвращение Императора»",
     ["为友方提供助攻次数最多的非凡者"] = "Потусторонний с наибольшим числом помощи союзникам.",
     ["Achievement - Purifying Ten Thousand Spirits"] = "Достижение — Очищение тысяч духов",
+    ["一个过于热情，一个过于沉静……我都看见了。"] = "One is too enthusiastic, the other is too quiet... I have seen them both.",
+    ["使用后，可以让商队立刻到达本次行程的终点"] = "Upon use, allows the caravan to immediately reach the destination of the current journey.",
+    ["使用后获得<Highlight>圣咏录鞋子</>"] = "Use to obtain <Highlight>Canticle Collection Shoes</>",
+    ["头痛……"] = "Headache...",
+    ["已达单次最大购买数量"] = "Maximum single purchase quantity reached",
+    ["镜像服本服"] = "Mirror Server Local Server",
+    ["黄金马桶（仿）"] = "Golden Toilet (Replica)",
     ["Tessa"] = "Тесса",
 }

@@ -263,6 +263,13 @@ return {
     ["Then light a cigarette and puff away."] = "А потом закурил сигарету и попыхтел ею.",
     ["I might not have the fanciest decor here, but you'll definitely find the most intoxicating drinks!"] = "Может, обстановка тут не самая изысканная, но самые опьяняющие напитки вы точно найдёте здесь!",
     ["Restore sanity to Beyonders who are experiencing or on the verge of loss of control."] = "Восстанавливает рассудок Потусторонним, находящимся в состоянии Потери Контроля или на грани неё",
+    ["人性分身"] = "Humanity Avatar",
+    ["你把迪伦变成了自己的分身？该死！"] = "You turned Dylan into your own avatar? Damn it!",
+    ["信使包裹"] = "Messenger Parcel",
+    ["周一8点刷新"] = "Refreshes at 8:00 on Monday",
+    ["观战席位已满"] = "Spectator seats are full",
+    ["詐騙"] = "Fraud",
+    ["风尚度最高玩家表现buff"] = "Fashion Rating highest player performance buff",
     [".p4config and"] = ".p4config и",
     ["Aist"] = "Аист",
 }

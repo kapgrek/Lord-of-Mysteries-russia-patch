@@ -283,5 +283,13 @@ return {
     ["别想那件事了，现在有比骑马更有趣的事情了，下次我们去飙车吧，就开你那辆敞篷车。"] = "Забудь об этом. Сейчас есть кое-что интереснее верховой езды — в следующий раз давай погоняем, на твоём кабриолете.",
     ["It was that war which occurred after the Twenty Years' War and before the War of the Oathbreakers. It allowed Loen to defeat Intis and become powerful once again!"] = "Это была та война, что произошла после Двадцатилетней войны и до Войны клятвопреступников. Она позволила Лоэну победить Интис и снова стать могущественным!",
     ["<h>操作角色移动</>，绘制灵性之墙"] = "<h>Управляйте движением персонажа</>, чтобы нарисовать Духовную стену",
+    ["【PVP测试】84级属性-标准"] = "[PVP Test] Level 84 Attributes - Standard",
+    ["回到正义小姐身边"] = "Return to Miss Justice's side",
+    ["神迹荫蔽下的空间，命盘与星光指引未来的轨迹。"] = "A space sheltered by divine miracles, where the fate plate and Starlight guide the trajectory of the future.",
+    ["紧急收购黄油啤酒"] = "Urgent acquisition of Butterbeer",
+    ["计算成功0/2，全队攻速大幅降低！"] = "Calculation success 0/2, team Attack Speed significantly reduced!",
+    ["领主"] = "Lord",
+    ["弗莱"] = "",
+    ["双生余烬镭射判定区域-585"] = "Twin Embers Laser Hitbox-585",
     ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

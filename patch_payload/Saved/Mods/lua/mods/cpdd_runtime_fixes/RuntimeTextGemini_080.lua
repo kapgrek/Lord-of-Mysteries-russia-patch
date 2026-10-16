@@ -275,6 +275,11 @@ return {
     ["由于俱乐部没有外交官，您无法辞职"] = "Поскольку в клубе нет дипломата, вы не можете уйти в отставку.",
     ["Perhaps understanding the Beyonder world under proper guidance is safer than knowing nothing or only knowing half-truths."] = "Возможно, познавать Потустороннее под правильным руководством безопаснее, чем ничего не знать или знать лишь половину.",
     ["Golden Indus Avenue Carriage Station Bicycle (Brown)"] = "Каретная станция на Золотой Платановой аллее: велосипед (коричневый)",
+    ["<Highlight>简介</>：阿尔杰向工匠夏尔夫预定制作的神奇物品。\n<Highlight>持有者</>：阿尔杰。\n<Highlight>非凡能力</>：只要出现目光的交触，就能让目标浑身麻痹，像是被石化一样。\n<Highlight>负面效果</>：\n1）如果戴着照镜子，会让自己也麻痹；\n2）身体将变得沉重，行动不够敏捷。"] = "<Highlight>Introduction</>: A mystical item Alger ordered an Artisan to create.\n<Highlight>Holder</>: Alger.\n<Highlight>Beyonder Ability</>: As long as eye contact is made, it can cause the target to suffer from full-body Paralysis, as if petrified.\n<Highlight>Negative Effect</>:\n1) If worn while looking in a mirror, it will cause the wearer to be paralyzed as well;\n2) The body will become heavy, and movements will lack agility.",
+    ["使用后获得<Highlight>头像・夜帷盛宴</>"] = "Use to obtain <Highlight>Avatar: Night Veil Feast</>",
+    ["前去找<h>奥利安娜</>太太"] = "Go to find Mrs. <h>Orianna</>",
+    ["罗塞尔Boss困难-2阶段-镜像数据-护盾表现"] = "Roselle Boss Hard - Phase 2 - Mirror Data - Shield Visual Effect",
+    ["过热1"] = "Overheat 1",
     ["与Npc进行对话  玩家播放仅自己可见的说话文本"] = "Поговорите с NPC. Игрок воспроизводит текст диалога, видимый только ему самому.",
     ["俱乐部经验+1500"] = "Клубный опыт +1500",
 }

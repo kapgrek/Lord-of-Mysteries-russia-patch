@@ -266,6 +266,12 @@ return {
     ["原著剧情持续更新中，关注“诡秘之主游戏”官方公众号，第一时间了解更新信息；绑定角色，领专属时装！"] = "Сюжет по оригинальному роману продолжает обновляться. Подпишитесь на официальный аккаунт WeChat «Игра Lord of the Mysteries», чтобы первыми узнавать об обновлениях; привяжите персонажа и получите эксклюзивный костюм!",
     ["曾经，你仰望星空，寻找命运的指引。如今，你立于星空之上，以神明曾凝视过的目之所及，俯视这片宇宙。"] = "Когда-то ты смотрел на звёздное небо, ища знаки судьбы. Теперь ты стоишь над звёздами и взираешь на эту вселенную взором, которым некогда смотрели боги.",
     ["It's been a long time since I've felt this love at first sight, I'm so happy."] = "Давно не испытывал такой любви с первого взгляда, я так счастлив.",
+    ["<Assistant_Title1>【弗朗明戈】</>\n<Assistant_Title2>描述：</>战令奖励时装\n<Assistant_Title2>使用：</>使用后获得弗朗明戈套装，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>战令解锁"] = "<Assistant_Title1>【Flamenco】</>\n<Assistant_Title2>Description:</> Battle Pass reward outfit.\n<Assistant_Title2>Usage:</> After use, you will obtain the Flamenco set. You can click <Assistant_System>Appearance-Dress Up</> to view and use it.\n<Assistant_Title2>Acquisition:</> Battle Pass unlock.",
+    ["68装等烙印装备随机箱"] = "68 Equipment Level Brand Equipment Random Box",
+    ["他刚才差点和我们遇上，现在可能隐藏在国王大道附近。"] = "He almost ran into us just now; he might be hiding near King's Avenue.",
+    ["体术"] = "Physical Combat",
+    ["那我们先去问问马戏团的人！"] = "Then let's go ask the circus people first!",
+    ["三星死亡领域二阶"] = "Three-Star Dead Domain Tier 2",
     ["Daliana"] = "Дарлена",
     ["Use Spirit Vision to find the special tea"] = "Используйте Духовное зрение, чтобы отыскать особый чай",
 }

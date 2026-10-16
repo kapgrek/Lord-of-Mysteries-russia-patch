@@ -303,6 +303,13 @@ return {
     ["You are already in a room. Exit current room <Highlight> %s </> and join new room <Highlight> %s </>?"] = "У вас уже есть комната. Выйти из текущей комнаты <Highlight>%s</> и присоединиться к новой комнате <Highlight>%s</>?",
     ["<P_Heart> (Alert) </> What are you trying to do?"] = "<P_Heart> (Настороженно) </> Что вы пытаетесь сделать?",
     ["完成五月庄园·花园黄铜书挑战【意志污染·困难】"] = "Завершите испытание «Латунная книга сада» усадьбы Мэй [Осквернение воли · Сложный]",
+    ["<Assistant_Title1>【执事摇铃】</>\n<Assistant_Title2>描述：</>副本掉落饰品\n<Assistant_Title2>使用：</>使用后获得执事摇铃，可点击<Assistant_System>外观-换装</>查看并使用。\n<Assistant_Title2>获取：</>通过<Assistant_System>副本-五月庄园·花园</>获取"] = "<Assistant_Title1>【Butler's Bell】</>\n<Assistant_Title2>Description:</> Dungeon drop accessory.\n<Assistant_Title2>Usage:</> After use, you will obtain the Butler's Bell. You can click <Assistant_System>Appearance-Dress Up</> to view and use it.\n<Assistant_Title2>Acquisition:</> Obtained via <Assistant_System>Dungeon-May Manor · Garden</>.",
+    ["使用后获得环身特效:<Highlight>永夜荆棘・手部</>"] = "Use to obtain aura effect: <Highlight>Evernight Thorns・Hand</>",
+    ["展台・催眠"] = "Display Stand: Hypnosis",
+    ["执行中"] = "Executing",
+    ["狂热"] = "Fanaticism",
+    ["芬奇，你在练习？没打扰你吧。"] = "Finch, are you practicing? I hope I'm not disturbing you.",
+    ["输出天赋序列7gvg专用"] = "Offensive Stance Talent Sequence 7 GVG Exclusive",
     ["Palik:\n\n　　Are you okay? A few days ago, Phyllis and I went back to Konoson Small Town.\nMr. Brandon is still the same, teaching children to read at the Nickel Bookstore, just like when he taught us to read back then.\n　　How have you been lately? When will you come back to visit? We miss you very much."] = "Палик!\n\n　　Как ты поживаешь? На днях мы с Филлис наведались в наш городок Коносон.\nМистер Брэндон всё такой же: учит ребятишек читать в книжной лавке «Никель» — точно так же, как когда-то учил грамоте нас.\n　　Как твои дела? Когда выберешься проведать нас? Мы очень соскучились.",
     ["Warenly"] = "Варенли",
 }

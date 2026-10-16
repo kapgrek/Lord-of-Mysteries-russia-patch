@@ -278,5 +278,12 @@ return {
     ["她根本不配被称为母亲，我们只是她攫取利益的道具。她夺走了我的一切，我恨她！"] = "Она вообще не заслуживает называться матерью, мы для неё лишь инструмент для извлечения выгоды. Она забрала у меня всё, я её ненавижу!",
     ["木偶使瑞尔·比伯无敌，使用控制技能打断木偶！"] = "Марионетка делает Райла Бибера неуязвимым — используйте контролирующее умение, чтобы прервать марионетку!",
     ["他曾靠吃怪物勉强求生，但积累的毒素扭曲了他的神志和身体。"] = "Он когда-то с трудом выживал, питаясь монстрами, но накопленные токсины исказили его разум и тело.",
+    ["怎么啦？"] = "What's wrong?",
+    ["思考晋升序列"] = "Pondering advancement Sequence",
+    ["有意思，你在同情他们？那你自己又在为什么而挣扎呢？"] = "Interesting, you're sympathizing with them? Then what are you struggling for yourself?",
+    ["猩红遗物，那些红色的碎片。我杀死那些召唤出来的超凡生物，辛辛苦苦地收集。"] = "Scarlet Relics, those red fragments. I killed those summoned Beyonder creatures and collected them with great difficulty.",
+    ["获得<HighLight>13%</>伤害减免，每层+<HighLight>18%</>攻速。"] = "Gain <HighLight>13%</> Damage Reduction, and +<HighLight>18%</> Attack Speed per stack.",
+    ["评论了你的作品"] = "Commented on your work",
+    ["终末猎杀-草丛19合并隐匿02（含4块原范围）"] = "Final Hunt - Bush 19 Merged Concealment 02 (Includes 4 Original Ranges)",
     ["前往指定Trigger位置  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象播放指定对白内容"] = "Переход к указанной позиции триггера, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), объект воспроизводит указанное содержимое диалога",
 }

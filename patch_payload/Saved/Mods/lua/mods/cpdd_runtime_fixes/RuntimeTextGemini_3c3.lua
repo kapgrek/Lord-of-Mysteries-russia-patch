@@ -277,6 +277,12 @@ return {
     ["12 fresh leaves of the Snowy Mountain tea tree..."] = "12 свежих листьев чайного дерева со Снежной горы...",
     ["不错，不从众，和我当年一样有性格。而且足够幸运，占卜家的魔药材料还剩两份，否则就要等很久了。"] = "Неплохо, не поддаваться толпе — точно как я в своё время, с характером. К тому же тебе повезло: материалов для Зелья Провидца осталось ещё две порции, иначе пришлось бы долго ждать.",
     ["五月庄园出现非凡异变，伴随着大量的污染。"] = "В Поместье Мэй произошла потусторонняя мутация, сопровождающаяся сильным осквернением.",
+    ["        “但我是被强行灌注知识的，理智又在失控边缘，我残存的理智还能掌控多少呢？”\n        “月亮仆从——最初起源于一个充满宝藏传说的小岛，信仰原始月亮，依靠传说吸引和劫掠贪婪的寻宝者。但短短两年，由于那位邪神的神谕，月亮仆从骤然发展壮大，在大陆上活跃起来，盘踞在鲁恩王国的廷根和贝克兰德……他们领受神谕，直接信仰那位‘伟大母亲’，寻觅和培育一颗颗扭曲的‘种子’……”\n        “绯红神谕——一个漫长的秘密，一场浩荡的阴谋，我不敢窥视，不敢思索，不敢……”"] = "        \"But I was forcibly infused with knowledge, and my sanity is on the edge of loss of control. How much can my remaining sanity still control?\"\n        \"Moon Servant—originally originating from a small island full of treasure legends, believing in the Primordial Moon, relying on legends to attract and plunder greedy treasure hunters. But in just two years, due to the oracle of that evil god, the Moon Servants suddenly developed and grew, becoming active on the continent, entrenched in Tingen and Backlund of the Loen Kingdom... They receive oracles, directly believe in that 'Great Mother', and seek and cultivate twisted 'seeds'...\"\n        \"Crimson Oracle—a long secret, a grand conspiracy, I dare not peek, dare not think, dare not...\"",
+    ["一锅端-大石块个数"] = "One Pot Sweep - Number of large stones",
+    ["古堡北部前往古堡西部"] = "Ancient Castle North to Ancient Castle West",
+    ["接下来挑选合适的星座吧。"] = "Next, choose a suitable constellation.",
+    ["赌你……就要迎来无法改变的命运了。"] = "I bet you... are about to face an unchangeable fate.",
+    ["终末猎杀-草丛04逐簇隐匿11"] = "Final Hunt - Bush 04 Cluster Concealment 11",
     ["施放指定技能  玩家高亮显示技能栏里的指定技能"] = "Примените указанный навык, игрок подсветит указанный навык на панели навыков.",
     ["就算精心制定计划，你父亲也会找到下一件事要求你。"] = "Даже если вы составите тщательный план, ваш отец просто найдет то, что потребует от вас.",
 }

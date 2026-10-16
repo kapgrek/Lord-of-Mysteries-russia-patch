@@ -275,5 +275,11 @@ return {
     ["The fourth is the Intis style. The Intis people are particular about flair; they insist on adding a little tail at the very end, claiming it gives the drink an artistic touch."] = "Четвёртый — это стиль интисцев. Интисцы ценят атмосферу и обязательно добавляют маленький хвостик в конце, говоря, что только так напиток обретает художественный дух.",
     ["Tomorrow is my wedding day, and Emilia, my beautiful witch of a fiancée, is surely going to be angry again—"] = "Завтра день моей свадьбы, и Эмилия, моя прекрасная невеста-ведьма, наверняка снова будет злиться—",
     ["An astonishing ability—is this Beyonder power?"] = "Поразительная способность. Так вот она какая, потусторонняя сила?",
+    ["嗯！掌握了人头鸟妖的习性和召唤咒文，感觉有底气了很多。"] = "Yeah! Having mastered the habits and the Summoning incantation of the Harpy, I feel much more confident.",
+    ["在城市的夜色中，人人都在为自己打算，红与黑沾染了野心，平庸才是罪恶。"] = "In the city's night, everyone is planning for themselves; red and black are stained with ambition, and mediocrity is the only sin.",
+    ["战争石碑・秩序"] = "War Stele - Order",
+    ["玫瑰人生"] = "La Vie en Rose",
+    ["联合作战18"] = "Joint Operation 18",
+    ["陪<h>玛丽</>回家"] = "Accompany <h>Mary</> home",
     ["哎哟！来来来，年轻人，别害羞！我看你在这相亲角前晃了三圈了，说说，想找什么样的对象？"] = "Ой! Ну-ну, молодой человек, не стесняйтесь! Я уже три раза видел, как ты ходил перед этим сватовским уголком. Скажите, какого партнера вы ищете?",
 }

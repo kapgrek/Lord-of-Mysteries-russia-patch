@@ -287,4 +287,13 @@ return {
     ["Overwrite manual temporary save record?"] = "Перезаписать запись, сохранённую вручную?",
     ["Account restricted; temporarily unable to perform related operations. You can lift the restriction after topping up Gold Pounds/Strategic Gold Pounds/Bound Gold Pounds."] = "Аккаунт ограничен, временно невозможно выполнить это действие. Ограничение будет снято после пополнения Золотых фунтов/Стратегических золотых фунтов/Привязанных золотых фунтов.",
     ["治疗法球1"] = "Сфера лечения 1",
+    ["不是每一个星座都适合观测。有的星座背后藏着危险，观测它们会引来注视。"] = "Not every constellation is suitable for observation. Some constellations hide dangers behind them, and observing them will attract attention.",
+    ["使用后可获得<Highlight>展台·启示之间</>和<Highlight>组件·命运有形</>\n也可兑换为<Highlight>1</>张神眷牌"] = "After use, you can obtain <Highlight>Display Stand: Chamber of Revelation</> and <Highlight>Component: Tangible Fate</>.\nIt can also be exchanged for <Highlight>1</> God's Favor Card.",
+    ["古堡廷根环线"] = "Ancient Castle-Tingen Loop",
+    ["尤瑟夫……等等，尤瑟夫先生告假了，那我的面试官会是谁？"] = "Yusuf... wait, Mr. Yusuf has taken leave, so who will be my interviewer?",
+    ["展台・自信"] = "Display Stand: Confidence",
+    ["本周已获得战略随机礼盒%d/%d"] = "Strategic Random Gift Box obtained this week %d/%d",
+    ["繁星教堂\r\n<LeonSubTitle size=\"38\">Church of Stars</>"] = "Church of Stars\r\n<LeonSubTitle size=\"38\">Church of Stars</>",
+    ["距离警察赶到现场还有25秒！"] = "25 seconds until the police arrive at the scene!",
+    ["隐秘空间破晓之前-丧钟武器爆发3buff"] = "Hidden Space Before Dawn - Death Knell Weapon Burst 3 Buff",
 }

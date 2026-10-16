@@ -252,4 +252,11 @@ return {
     ["Tombstones stand solemnly in the sunlight, and the living and the dead coexist peacefully at this moment."] = "Надгробия торжественно стоят под солнцем, живые и мёртвые мирно соседствуют в этот миг.",
     ["每次普攻技能Type=2的首技能释放固定恢复7法力"] = "Каждое применение первого навыка обычной атаки (Type=2) восстанавливает фиксированно 7 маны",
     ["然后教堂执事拿着支票去了银行，又回来了。他们都怎么说来着？哦对，“只有女神本人才能从那张支票里取出钱来。”"] = "А потом церковный дьякон отнёс чек в банк и вернулся обратно. Что они там говорили? Ах да, «Снять деньги с этого чека может только сама Богиня».",
+    ["切换到<Orange>武器</>页签。"] = "Switch to the <Orange>Weapon</> tab.",
+    ["呃，感觉脑子昏昏沉沉的，我也有些被影响了……"] = "Uh, my head feels dizzy, I've been affected a bit too...",
+    ["咒术6人施法成长"] = "Spellcasting Growth for 6 people",
+    ["棋局生涯中，集齐全部三星五费图鉴。"] = "Collect all 5-cost 3-star entries in your gambit career.",
+    ["爆单·食铺生效，卖价+150%"] = "Explosion Order: Food Shop active; selling price +150%.",
+    ["累计500个非凡者组队通关大帝重临·困难"] = "Clear Emperor's Return (Hard) in a team with a cumulative total of 500 Beyonders",
+    ["该站点将于10月22日8点解锁"] = "This site will be unlocked at 8:00 AM on October 22nd",
 }

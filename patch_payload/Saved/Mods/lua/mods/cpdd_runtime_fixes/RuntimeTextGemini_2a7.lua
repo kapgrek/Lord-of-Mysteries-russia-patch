@@ -295,6 +295,13 @@ return {
     ["可猎犬终究属于伊文思先生，令人惊讶的是，刚刚破产的波尔甘先生败诉后，决定倾尽积蓄，把猎犬买了过来。"] = "Но гончая всё же принадлежала мистеру Эвансу. Удивительно, но недавно разорившийся мистер Болган, проиграв суд, решил потратить все свои сбережения, чтобы выкупить гончую.",
     ["Some traces... could they have been left by the Beyonder material Pete bought?"] = "Какие-то следы... неужели их оставил Потусторонний материал, купленный Питом?",
     ["Good afternoon, my name is Angelica, the receptionist at the Divination Club."] = "Добрый день, меня зовут Анджелика, я администратор Клуба Провидцев.",
+    ["<Highlight>工艺：</>暗色织帛・深红褶边・白银长老袍\n清醒的头羊，造主的牧者。黑袍下是守护白银城的誓言，直至终焉。"] = "<Highlight>Craft:</> Dark Woven Silk · Crimson Ruffles · Silver Elder Robe\nThe sober lead sheep, the shepherd of the Creator. Beneath the black robe lies the vow to Guard the City of Silver, until the very end.",
+    ["使用后获得<Highlight>绒语沙龙披风</>"] = "Use to obtain <Highlight>Velvet Whisper Salon Cape</>",
+    ["推荐60秒内，超出可剪辑"] = "Recommended within 60 seconds, can be edited if exceeded",
+    ["检修的工人排查过了，警察也来过了，什么都没有！现在告示已经发了，帕金娜，我不可能为你胡乱的猜测再多花一苏勒！"] = "The maintenance workers have checked, and the police have been here too—there's nothing! The notice has already been posted, Pakina. I won't spend another soli on your wild guesses!",
+    ["答辯"] = "Defense",
+    ["语音房赠礼"] = "Voice Room Gift",
+    ["赛季团队副本奖励说明"] = "Seasonal Dungeon reward description",
     ["Gather collection item with specified TemplateID  Object sends scene event"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["我明明是一个人！你侮辱我人格！接招！"] = "Я явно всего лишь один человек! Вы оскорбляете мой характер! Возьми это!",
 }

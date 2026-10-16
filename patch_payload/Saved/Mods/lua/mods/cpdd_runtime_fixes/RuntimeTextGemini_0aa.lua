@@ -257,5 +257,8 @@ return {
     ["That guy Helisan, he gets excited as soon as he hears about a bet, what an idiot!"] = "Этот Хелисан, как только услышит о ставке, сразу приходит в возбуждение, вот же идиот!",
     ["You're the idiot! Mother never lied to me; my wish will come true."] = "Сам ты идиот! Мама никогда мне не лгала; моё желание точно сбудется.",
     ["[Marionette Skill] Worm of Star - Spinning Slash"] = "【Навык марионетки】Звёздный червь — Вращающийся удар",
+    ["{{PlayerName}}，我想起来了！"] = "{{PlayerName}}, I remembered!",
+    ["用灵视检查一下"] = "Check with spirit vision",
+    ["罗塞尔Boss困难-3阶段-镜像数据-脱手子技能"] = "Roselle Boss Hard - Phase 3 - Mirror Data - Released Sub-Skill",
     ["Skyla"] = "Скайла",
 }

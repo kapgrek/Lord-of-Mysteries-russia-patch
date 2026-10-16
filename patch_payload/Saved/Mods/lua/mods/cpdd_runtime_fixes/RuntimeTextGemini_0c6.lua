@@ -255,5 +255,13 @@ return {
     ["Sigh, after Thomas passed away, Eleanor's hair turned gray overnight."] = "Эх, после того как Томас умер, волосы Элеонор поседели за одну ночь.",
     ["A lucky person who holds good fortune"] = "Везунчик, которому улыбается удача",
     ["不，她非常警惕，也很强大……至少是序列7的非凡者，追她需要花费一些时间。"] = "Нет, она очень бдительна и к тому же очень сильна... по меньшей мере Потусторонний Последовательности 7. Чтобы выследить её, понадобится время.",
+    ["从有“天气博物馆”之称的班西港中记录的一小段天象，使用后，能将城堡的天气暂时切换为雨天，持续30分钟。"] = "A short segment of weather phenomena recorded from Pritz Harbor, known as the \"Weather Museum.\" Upon use, it can temporarily Switch the Castle's weather to rainy, lasting for 30 minutes.",
+    ["使用技能：<Highlight>虔诚祷祝</>1次"] = "Use Skill: <Highlight>Pious Prayer</> 1 time",
+    ["我恐怕要先找到图书馆的馆长格兰特先生，才能净化这个空间，离开这里。"] = "I am afraid I must find Mr. Grant, the curator of the Library, before I can perform a Purification of this space and leave here.",
+    ["晚点再去和露丝汇合，看《伯爵归来》音乐版彩排。"] = "Meet up with Ruth later to watch the rehearsal of the musical \"The Count Returns\".",
+    ["棋子固有回蓝·风信子"] = "Piece Innate Mana Regen: Hyacinth",
+    ["特别订购"] = "Special Order",
+    ["跪地"] = "Kneel",
+    ["领取6次躺赢奖励"] = "Claim Idle Rewards 6 times",
     ["Control/Damage"] = "Контроль/Урон",
 }

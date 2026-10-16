@@ -258,4 +258,13 @@ return {
     ["这属于职业尊严问题，如果每次卡住都需要别人帮忙拽出来，我怎么还能够在海报上印“勇敢者罗尔”！"] = "Это вопрос профессиональной гордости. Если каждый раз, когда я застряну, мне нужна помощь, чтобы меня вытащили, как я тогда могу печатать на афишах «Смельчак Ролл»!",
     ["This row is herbal essence from Midseashire, specifically for colds and coughs. This bottle is a painkiller produced in Ahoava County; hunters and miners love to buy it."] = "В этом ряду — травяная эссенция из Мидсишира, специально от простуды и кашля. А это — обезболивающее из графства Ахоава, его любят покупать охотники и шахтёры.",
     ["The password device is located under the throne, it needs one person to operate it!"] = "Устройство с паролем находится под троном, для управления нужен один человек!",
+    ["<h>玛丽</>不愿再谈"] = "<h>Mary</> is unwilling to talk further",
+    ["你......认识我?"] = "You... know me?",
+    ["使用后获得<Highlight>圣咏录套装</>"] = "Use to obtain <Highlight>Canticle Collection Outfit</>",
+    ["战斗开始时，<HighLight>第一排每有1名己方棋子</>，全队获得<HighLight>50点生命值</>。"] = "At the start of combat, <HighLight>for every 1 allied unit in the front row</>, the entire team gains <HighLight>50 Health</>.",
+    ["晋升任务-光之祭司-灵视找盒子"] = "Advancement Quest - Priest of Light - Use spirit vision to find the box",
+    ["每日8:00刷新任务"] = "Quests refresh daily at 8:00.",
+    ["菲尔尼克"] = "Fernick",
+    ["货物"] = "Cargo",
+    ["那个家伙……总以为自己是非凡的主宰，不知道一次失误就是万丈深渊。"] = "That guy... he always thinks he's the master of the extraordinary, not realizing that a single mistake is an abyss.",
 }

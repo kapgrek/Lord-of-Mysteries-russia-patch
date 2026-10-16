@@ -285,6 +285,13 @@ return {
     ["A crystal pendant connected to a fine chain, an excellent medium for Pendulum Divination."] = "Хрустальный кулон на тонкой цепочке — отличный медиум для маятниковых гаданий.",
     ["5231183   沈倩芸个人测试位面   单人位面"] = "5231183   Личный тестовый план Шэнь Цяньюнь   Одиночный план",
     ["不甘命运的复仇·污染"] = "Месть непокорной судьбы · Осквернение",
+    ["使用后获得<Highlight>头像・野玫瑰</>"] = "Use to obtain <Highlight>Avatar: Wild Rose</>",
+    ["寂静领主怎么获得"] = "How do I obtain the Lord of Silence?",
+    ["寻找封印物"] = "Find the Sealed Artifact",
+    ["当香气充盈着你鼻腔的那一瞬间，脸上火辣辣的感觉已经不是疼了，而是爽。"] = "The moment the aroma fills your nostrils, the burning sensation on your face is no longer pain, but pleasure.",
+    ["律令突袭"] = "Command Raid",
+    ["车队等级达到34级"] = "Caravan level reaches 34",
+    ["奥黛丽-筛2个非T"] = "Audrey - Filter 2 non-T",
     ["奈拉小姐揉眉心是因为里特恩太烦人，不是我。"] = "Мисс Найла потирает лоб потому, что меня раздражает Риттен, а не я.",
     ["At 2:55 PM <InvHighlight>, the butler was in the dining room organizing the silverware when he heard the master and mistress arguing in the bedroom. </>\nAround 3:00 PM <InvHighlight>, he saw the Baroness leave the bedroom with his own eyes. </>Shortly after, Baron Hawkes felt discomfort in his heart and called for the butler to enter the study to deliver medicine. The butler left two minutes later. \n\nAround 3:20 PM <InvHighlight>, the butler went to find Baron Hawkes and discovered that he was not responding, so he called for others to help him break down the door. </>Baron Hawkes was lying next to the desk with spilled tea on the floor."] = "В <InvHighlight>два часа пятьдесят пять минут пополудни</>, дворецкий наводил порядок в столовой и услышал, как в спальне спорят хозяин и хозяйка.\nОколо <InvHighlight>трех часов дня</> он своими глазами видел, как баронесса покинула спальню.\nВскоре барон Хоукс почувствовал покалывание в сердце и позвал дворецкого в кабинет принести лекарство. Спустя две минуты дворецкий удалился.\nОколо <InvHighlight>трех часов двадцати минут</> дворецкий отправился к барону Хоуксу и, не получив ответа, позвал слуг выломать дверь.\nБарон Хоукс лежал бездыханным у письменного стола, а на полу был разлит чай.",
 }

@@ -270,6 +270,13 @@ return {
     ["William Heywood, the host of this ball, doesn't look like a real host. His face in his early thirties should have been heroic, but there is a faint layer of fatigue between his brows."] = "Уильям Хейвуд, хозяин этого бала, не выглядит как настоящий хозяин. В свои неполные тридцать его лицо должно было бы выглядеть мужественным, но между бровей залегла едва заметная усталость.",
     ["The Dark Demonic Wolf, Sequence 2 \"Miracle Invoker\", hid here for thousands of years before finally being expelled by my Lord."] = "Тёмный Демонический Волк, Последовательность 2 «Мастер Чудес», Он прятался здесь тысячи лет, пока наконец не был изгнан моим Господином.",
     ["Marionette essence formed after the death of a lost-of-control marionette in Utopia Theater, which can be used to purchase goods from the Essence Collector merchant."] = "Эссенция марионетки, образовавшаяся после гибели марионетки, впавшей в Потерю Контроля, в Театре Утопии; можно обменять на товары у торговца-Коллекционера Эссенций.",
+    ["<Highlight>简介</>：基本等于“海神权杖”的全面弱化版，有活着的特性。\n<Highlight>持有者</>：夏尔夫→阿尔杰→克莱恩。\n<Highlight>对应特性</>：水手途径 序列5海洋歌者。\n<Highlight>外形</>：深黑色镶嵌银白金属的手杖。\n<Highlight>能力</>：\n1）能对瞄准的目标释放闪电，挥舞击打的时候会附加风刃；"] = "<Highlight>Introduction</>: Basically a fully weakened version of the \"Sea God Scepter,\" it has living characteristics.\n<Highlight>Holder</>: Sharf → Alger → Klein.\n<Highlight>Corresponding Pathway</>: Sailor pathway, Sequence 5 Ocean Songster.\n<Highlight>Appearance</>: A deep black cane inlaid with silver-white metal.\n<Highlight>Ability</>:\n1) Can release lightning at a targeted objective, and adds Wind Blade when swung to Strike.",
+    ["但野生植株移栽和培育在野地有很多困难，于是我们借助了花园的温湿度条件。"] = "However, there are many difficulties in transplanting and cultivating wild plants in the field, so we utilized the temperature and humidity conditions of the garden.",
+    ["使用后获得<Highlight>动态头像・踏浪而来</>"] = "Use to obtain <Highlight>Animated Avatar: Riding the Waves</>",
+    ["同样的 我也希望你用类似的态度看待我"] = "Likewise, I hope you view me with a similar attitude.",
+    ["灵界·小屋"] = "Spirit World - Small House",
+    ["罗塞尔Boss困难-2阶段-自清洁程序-锁链buff"] = "Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Chain Buff",
+    ["获得<HighLight>10次免费刷新</>。升至<HighLight>9级</>时，再获得<HighLight>2次免费刷新</>和<HighLight>1个高级棋子记录仪</>。"] = "Gain <HighLight>10 free refreshes</>. Upon reaching <HighLight>level 9</>, gain another <HighLight>2 free refreshes</> and <HighLight>1 Advanced Piece Recorder</>.",
     ["Schmuel"] = "Шмуэль",
     ["收获%d/200个优质酒舍物产。"] = "Собирайте высококачественные продукты таверны %d/200.",
 }

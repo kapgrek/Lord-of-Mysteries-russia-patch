@@ -254,6 +254,10 @@ return {
     ["Gaze through the magnificent throne of the White Maple Palace at the life of that legend. The obsession that could turn against the world was tied only to a late call."] = "Сквозь величественный трон Дворца Белого клёна вглядитесь в жизнь той легенды. Одержимость, способная отвернуть от мира, была привязана лишь к одному опоздавшему зову.",
     ["Honestly, I kind of want to go back to Midseashire. At least there are a kind old couple there who help me out."] = "Честно говоря, мне немного хочется вернуться в Мидсишир, там хотя бы есть добрая пожилая пара, которая мне помогает.",
     ["That arson case? I put it away in the archives."] = "Дело о поджоге? Я убрала его в архив.",
+    ["我真的很羡慕他。"] = "I really envy him.",
+    ["点击使用，可使用推荐阵容"] = "Click to use, you can use the recommended lineup",
+    ["看见刚刚离开剧场的那位绅士了吗？他有意为剧场出资，你之前想要的那些舞台道具都能换新的了……"] = "Do you see that gentleman who just left the theater? He intends to fund the theater, so all those stage props you wanted before can be replaced with new ones...",
+    ["背水一战的决心，每一滴血都为胜利而流。"] = "The determination to make a last stand; every drop of blood is shed for Victory.",
     ["Justin"] = "Джастин",
     ["与Npc进行对话  对象看向其他对象"] = "Поговорить с NPC; объект смотрит на другие объекты.",
 }

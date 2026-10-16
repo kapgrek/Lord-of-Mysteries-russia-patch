@@ -239,4 +239,12 @@ return {
     ["It only takes ten minutes to get up, Tingen news know-it-all!"] = "Всего десять минут — и ты в курсе всех новостей Тинген!",
     ["Fate Intersection"] = "Пересечение судеб",
     ["什么时候才能成为正式的咖啡师呢？要不下班后去占卜俱乐部算算……"] = "Когда же я наконец стану настоящим бариста? Может, после работы сходить в Клуб Провидцев и погадать…",
+    ["买支<h>冰淇淋</>尝尝"] = "Buy some <h>ice cream</> to try.",
+    ["以洛薇雅为原型制作的迷你人偶，沉静的神态中透着坚定。无论长夜如何漫长，她都仍在为白银城寻觅着一线曙光的机会。"] = "A mini figurine modeled after Lovia, whose calm expression reveals her determination. No matter how long the long night may be, she is still searching for a glimmer of hope for the City of Silver.",
+    ["敌人阵亡时，距离其<HighLight>最近的己方棋子</>回复<HighLight>400点生命值</>。"] = "When an enemy dies, the <HighLight>nearest allied unit</> recovers <HighLight>400 Health</>.",
+    ["星座的选择"] = "Choice of Constellation",
+    ["梦境占卜图片2"] = "Dream Divination Image 2",
+    ["累计完成100次秘仪奉献"] = "Complete 100 Arcane Offerings in total",
+    ["高品质深烘咖啡豆与香甜葡萄味的完美结合，提神却不失口感。"] = "A perfect blend of high-quality dark roast coffee beans and sweet grape flavor—invigorating without sacrificing taste.",
+    ["【自走棋】-月之污染-普攻-斩击"] = "[Auto Chess] - Moon Corruption - Basic Attack - Slash",
 }

@@ -301,6 +301,8 @@ return {
     ["西蒙斯没有回来，他在五十六号高地上救下来了二十二个人，其中也包括我。"] = "Симмонс не вернулся. На высоте номер 56 он спас двадцать два человека, включая меня.",
     ["My Lord dwells above reality and the Spirit World, his mercy fills the heavens and the earth, and there are six Angels standing by his side..."] = "Мой Господин пребывает над реальностью и Миром Духов, его милость наполняет небеса и землю, и шесть Ангелов стоят подле него...",
     ["Letter from Miss Magician"] = "Письмо от госпожи «Фокусник»",
+    ["月色下踏潮而来，海天如潮汐晕染，袖口卷起千层雪浪，浪花永不停歇。"] = "Arriving with the tide under the moonlight, the sea and sky are stained like the tides, the cuffs rolled up with a thousand layers of snowy waves, the spray never ceasing.",
+    ["额外获得<HighLight>65%</>最大生命值。"] = "Gain an additional <HighLight>65%</> of maximum Health.",
     ["采集指定TemplateID的采集物  玩家播放情绪音乐（仅自己可听）  玩家播放剧情对话"] = "Соберите указанный элемент коллекции TemplateID; плеер играет эмоциональную музыку (слышно только ему самому); игрок воспроизводит сюжетный диалог.",
     ["提交道具（设置提交ID）  玩家播放剧情对话"] = "Отправить элемент (установить идентификатор отправки); игрок воспроизводит сюжетный диалог.",
 }

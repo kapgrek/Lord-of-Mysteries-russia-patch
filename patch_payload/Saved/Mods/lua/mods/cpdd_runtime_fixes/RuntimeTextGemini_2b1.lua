@@ -279,4 +279,11 @@ return {
     ["土豆……你是说这些包裹里全是土豆？"] = "Картофель... вы хотите сказать, что во всех этих свёртках картофель?",
     ["Lily of the valley represents happiness and good luck. I hope you and those around you are blessed with good fortune."] = "Ландыши символизируют счастье и удачу. Пусть вы и те, кто рядом с вами, будете под покровительством судьбы.",
     ["Sigh, shall I go find your true love then?"] = "Эх, тогда мне пойти найти твою истинную любовь?",
+    ["喫"] = "Eat",
+    ["天鹅跌落任务接取后"] = "After accepting The Fallen Swan quest",
+    ["当然是真的。队长问我失踪案的跟进报告写完没有，我说快了，其实连标题都没写。"] = "Of course it's true. The captain asked me if I had finished the follow-up report on the missing persons case, and I said almost, even though I hadn't even written the title yet.",
+    ["询问露比"] = "Ask Ruby",
+    ["这是最好的时代，鲁恩大陆的“大陆贸易联盟”，将贸易站点和商机铺开在这片大陆上。\n完成每日、每周与当期贸易任务，解锁阶段宝箱与累计奖励。争夺站点，运送货物；翻开商报，判断瞬息万变的行情，寻找时机，搅动市场的起伏。让贸易再次伟大！"] = "This is the best of times. The Continental Trade Alliance of the Loen continent has spread trade outposts and business opportunities across this land.\nComplete daily, weekly, and current trade Quests to unlock stage chests and cumulative rewards. Compete for outposts, transport goods, flip through the business news, judge the ever-changing market trends, look for opportunities, and stir up the market's fluctuations. Let's make trade great again!",
+    ["金秋湖东"] = "East Golden Autumn Lake",
+    ["隐秘空间-跳跃-水晶球默认状态9"] = "Hidden Space-Jump-Crystal Ball Default State 9",
 }

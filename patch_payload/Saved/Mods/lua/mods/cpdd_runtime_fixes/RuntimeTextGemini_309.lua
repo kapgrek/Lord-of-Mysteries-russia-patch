@@ -311,5 +311,13 @@ return {
     ["对呀，你不觉得……它的眼神，就像宝剑一样锐利吗？"] = "Да, а тебе не кажется... что его взгляд острый, как меч?",
     ["Meow! Meow meow!"] = "Мяу! Мяу-мяу!",
     ["【秘偶技】隐匿刺击LV1"] = "【Навык марионетки】Скрытый удар LV1",
+    ["<Highlight>工艺：</>夜色织锦\n深沉夜色下，切切絮语在沙龙中生长。刚刚，又是谁的雪色绒发拂过了掌心？"] = "<Highlight>Craft:</> Night Brocade\nIn the deep of night, hushed whispers fill the salon. Whose snow-white locks just brushed across your palm?",
+    ["完成移动端登录"] = "Complete mobile login",
+    ["巡逻1"] = "Patrol 1",
+    ["必穿"] = "Must-wear",
+    ["您打算用什么增添风味呢？"] = "What do you intend to use to add flavor?",
+    ["玩家战斗开始时：回复玩家<HighLight>2</>点生命。获胜后获得<HighLight>50</>点【任务积分】。"] = "At the start of player combat: restores <HighLight>2</> player Health. Winning grants <HighLight>50</> [Mission Points].",
+    ["获得<HighLight>10点经验值</>。"] = "Gain <HighLight>10 XP</>.",
+    ["要是满意这些成品药剂，欢迎下次再来，回头客免费定制草药一方。"] = "If you are satisfied with these finished potions, you are welcome to come again. Returning customers get a free custom herbal prescription.",
     ["不管怎样，他们住宫殿，咱们三个人挤一间破房。哪个皇帝关心普通人的生活？"] = "Тем не менее, они живут во дворцах, а мы трое зажаты в разрушенном доме. Какого императора волнует жизнь простых людей?",
 }

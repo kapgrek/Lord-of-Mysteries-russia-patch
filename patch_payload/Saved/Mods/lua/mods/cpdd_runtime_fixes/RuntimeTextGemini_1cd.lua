@@ -285,6 +285,13 @@ return {
     ["团长，我们愿意跟着你走！这是团长的第一步，也是好团长的开始。"] = "Лидер, мы готовы идти за тобой! Это первый шаг лидера и начало пути хорошего лидера.",
     ["是否取消战队招募？"] = "Отменить набор в отряд?",
     ["主动释放一次朗基努斯之枪后会使岁月的棋局的冷却时间减少1秒。"] = "После активного применения «Копья Лонгина» откат навыка «Гамбита эпох» уменьшается на 1 сек.",
+    ["别听那些无谓的嘲笑，一步步向前，总有一天，命运会眷顾你。"] = "Don't listen to those pointless taunts. Keep moving forward step by step, and one day, fate will favor you.",
+    ["古堡里的家族继承了那位执政官的血脉，不知道他们会不会也总是弄丢自己的记忆……"] = "The Family in the old castle inherited the bloodline of that magistrate. I wonder if they, too, are always losing their memories...",
+    ["啊？！邮差可能是序列3分身？"] = "Huh?! Could the postman be a Sequence 3 clone?",
+    ["是吗？那你看我像不像一位议长，或者一个天使？"] = "Is that so? Then do I look like a Speaker or an Angel to you?",
+    ["朱塞佩"] = "Giuseppe",
+    ["海马之形的雕像盘踞于此，据说原型来自灵界深处的居民。"] = "A seahorse-shaped statue sits here; it is said that its prototype comes from the inhabitants of the deep Spirit World.",
+    ["这里是……黑荆棘？"] = "Is this... Blackthorn?",
     ["你这些诗比外面许多人好。愿意换个地方写吗？"] = "Ваши стихи лучше, чем у многих людей. Хотели бы вы написать куда-нибудь еще?",
     ["采集指定TemplateID的采集物  玩家播放指定镜头后效  延迟执行  玩家播放指定镜头后效  延迟执行  玩家播放指定镜头后效  延迟执行  玩家播放指定镜头后效"] = "Собрать элемент сбора с указанным TemplateID, игрок воспроизводит указанный пост-эффект камеры, отложенное выполнение, игрок воспроизводит указанный пост-эффект камеры, отложенное выполнение, игрок воспроизводит указанный пост-эффект камеры, отложенное выполнение, игрок воспроизводит указанный пост-эффект камеры",
 }

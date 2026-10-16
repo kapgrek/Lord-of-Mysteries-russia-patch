@@ -283,4 +283,11 @@ return {
     ["……唉，但我并不想要这样。亲爱的，你不想重振家族的荣光了吗？为了你的目标，我们要更小心些。"] = "...Эх, но я не хочу так. Дорогая, разве ты не хочешь возродить славу семьи? Ради твоей цели нам нужно быть осторожнее.",
     ["编辑失败：召唤物无法穿戴装备"] = "Ошибка редактирования: призванные существа не могут носить снаряжение",
     ["Obtain 1 Beyonder material with <Disciple of Silence> trait"] = "Получите 1 потусторонний материал с чертой <Ученик Безмолвия>",
+    ["<P_Heart>（捂鼻子）</>奇怪，还是很臭，像什么东西暗中腐烂的气味。"] = "<P_Heart>(Covering nose)</> Strange, it still smells awful, like something rotting in the dark.",
+    ["劝阻<h>迪伦</>"] = "Dissuade <h>Dylan</>",
+    ["始终放不下"] = "Unable to let go",
+    ["怪物波次_3_1"] = "Monster Wave_3_1",
+    ["战斗开始时，<HighLight>与友军相邻</>的棋子获得<HighLight>300点护盾</>，持续<HighLight>8秒</>。"] = "At the start of combat, units <HighLight>adjacent to an ally</> gain a <HighLight>300 shield</> for <HighLight>8 seconds</>.",
+    ["跟丽贝卡进咖啡厅"] = "Enter the Cafe with Rebecca",
+    ["输入名称或数字id"] = "Enter name or numeric ID",
 }

@@ -257,6 +257,13 @@ return {
     ["Deals *d physical damage to the enemy target, while applying <HyperLink stylename=\"M_Link\" u=\"6\">Stun</> for *f seconds and the effect of buffdisc(*id) for *f seconds."] = "Наносит *d физического урона вражеской цели, накладывая <HyperLink stylename=\"M_Link\" u=\"6\">Оглушение</> на *f сек. и эффект buffdisc(*id) на *f сек.",
     ["Captain Dunn's office is full of memories. I often think back to those days too..."] = "Кабинет капитана Данна полон воспоминаний. Я тоже часто вспоминаю те дни...",
     ["I will not take 3-888 away for the time being. But your attempts on Miss Daisy indirectly caused the deaths of two servants and a butler..."] = "Я пока не заберу 3-888. Но ваши эксперименты над мисс Дейзи косвенно привели к гибели двух слуг и дворецкого…",
+    ["丰饶护袍开战护盾"] = "Robe of Abundance Battle Start Shield",
+    ["使用后，有<Highlight>极小概率获得零元购凭证</>或神降材料：<Highlight>神之契约、灵界星尘、天使之羽、风灵之息、神话织茧、织茧游丝</>。有概率获得如下物品之一：<Highlight>绑定苏勒、战略金镑、极粹·非凡物质、圣杯·绑、子爵夫人碎片、历史回响、历史结晶</>。"] = "After use, there is a <Highlight>very small chance to obtain a Zero-Yuan Purchase Voucher</> or God's Descent materials: <Highlight>God's Contract, Spirit World Stardust, Angel's Feather, Wind Spirit's Breath, Mythical Cocoon, Cocoon Silk</>. There is a chance to obtain one of the following items: <Highlight>bound soli, Strategic Pound, Supreme Beyonder Material, Holy Grail (Bound), Viscountess Fragment, Historical Echo, Historical Crystal</>.",
+    ["女神保佑……总不至于有这样大胆的恶鬼，敢在教堂附近作怪。"] = "May the Goddess bless us... surely there wouldn't be such a bold evil spirit daring to cause trouble near the church.",
+    ["末裔冲击"] = "Last Descendant's Impact",
+    ["真好吃，外脆里嫩，<P_Heart>（嚼嚼）</>麻辣鲜香，太香了。"] = "It's delicious, crispy on the outside and tender on the inside, <P_Heart>(chew chew)</> spicy and savory, it's so fragrant.",
+    ["神话组俱乐部参与"] = "Mythical Group Club participation",
+    ["这个很简单，首先你要……"] = "This is very simple. First, you need to...",
     ["Nova"] = "Новая звезда",
     ["据热心市民反映，近期常有来自霍伊大学的学生在墓地做奇怪的事情。"] = "По словам обеспокоенных горожан, студенты Университета Хой в последнее время творят на кладбище странные вещи.",
 }

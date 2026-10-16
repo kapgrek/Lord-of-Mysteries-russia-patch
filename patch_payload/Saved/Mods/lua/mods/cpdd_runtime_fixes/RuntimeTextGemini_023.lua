@@ -225,6 +225,13 @@ return {
     ["These bottles are from East Balam, using local distillation techniques to relieve fatigue and refresh the mind. The one next to it is a sedative potion prepared by a pharmacist near Tingen."] = "Эти бутылки — из Восточного Балама, изготовлены по местной технологии дистилляции, снимают усталость и бодрят. А вот рядом — успокоительное зелье, приготовленное аптекарем близ Тингена.",
     ["She always protected me so tightly that I ignored my foster mother's true colors..."] = "Она всегда крепко оберегала меня, из-за чего я не замечала истинного лица приёмной матери...",
     ["Confirm exiting the Strategic Server?"] = "Подтвердить выход со Стратегического сервера?",
+    ["使用后获得<Highlight>弗朗明戈上装</>"] = "Use to obtain <Highlight>Flamenco Top</>",
+    ["努力思考"] = "Thinking hard",
+    ["廷根西北"] = "Tingen Northwest",
+    ["拥抱1_5邻格"] = "Hug 1_5 adjacent grid",
+    ["范围恢复SAN值，提升学识、武力、魅力、直觉，并添加<HighLight>龙之体魄</>和<HighLight>龙之怒意</>。"] = "Restores SAN value in an area, increases Knowledge, Strength, Charisma, and Intuition, and adds <HighLight>Dragon's Physique</> and <HighLight>Dragon's Fury</>.",
+    ["蝠翼描边"] = "Bat Wing Outline",
+    ["阿兹克召唤白骨信使的死亡之爪对锁定目标进行拍击，对锁定目标及其周围最多3个其他目标造成伤害。死亡之爪同时会为锁定目标附加<HighLight>死亡侵蚀</>效果。"] = "Azik summons the Death Claw of the Bone Messenger to slap the locked target, dealing damage to the locked target and up to 3 other targets around it. The Death Claw also applies the <HighLight>Death Erosion</> effect to the locked target.",
     ["Zarie"] = "Зари",
     ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象同场景传送"] = "Играть в диалог; игрок создает публичный объект на основе списка InstanceID (не действует в открытом мире); объект телепортируется в пределах одной сцены.",
 }

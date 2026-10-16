@@ -268,6 +268,12 @@ return {
     ["你是流浪歌手？"] = "Ты бродячий певец?",
     ["<P_Heart> (He is pretending to be a mushroom!) </>"] = "<P_Heart> (Он притворяется грибом!) </>",
     ["[LV1] [Marionette Skill] Tracking Magic Bullet - Summon"] = "[LV1] [Навык марионетки] Следящий магический снаряд — Призыв",
+    ["使用后获得<Highlight>动态聊天气泡・藤萝雨</>"] = "Use to obtain <Highlight>Animated Chat Bubble: Wisteria Rain</>",
+    ["光之赞歌"] = "Hymn of Light",
+    ["参与副本<Highlight>五月庄园·花园（困难）</>，击败<Highlight>异化猎犬</>后，有概率获得下列外观。"] = "Participate in the dungeon <Highlight>May Manor · Garden (Hard)</>, and after defeating the <Highlight>Alienated Hound</>, you have a chance to obtain the following appearances.",
+    ["扮演点-刺客-扮演完成"] = "Acting Point - Assassin - Acting Complete",
+    ["认真的神态间藏着对机械的好奇，如同在时刻琢磨着身边物件运转的秘密。"] = "Hidden within their serious expression is a curiosity about machinery, as if they are constantly pondering the secrets of how the objects around them function.",
+    ["终末猎杀-草丛08逐簇隐匿06"] = "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 06",
     ["Rosemary"] = "Розмари",
     ["【大宗师】"] = "【Великий Мастер】",
 }

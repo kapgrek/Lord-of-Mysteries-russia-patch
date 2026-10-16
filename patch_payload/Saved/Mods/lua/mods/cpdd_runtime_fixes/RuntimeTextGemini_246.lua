@@ -290,4 +290,12 @@ return {
     ["我想打听一下这家店是卖什么的。"] = "Хотел бы узнать, чем торгует этот магазин.",
     ["Is there anyone else?"] = "Есть кто-то ещё?",
     ["The \"Antigonus Family Notebook\" is in Riel Bieber's hands, Sealed Artifact 2-049 will lead us to find him."] = "«Записки семьи Антигон» находятся у Риэля Бибера, Запечатанный Артефакт 2-049 приведёт нас к нему",
+    ["价格更新倒计时：<highlight>%s</>"] = "Price update countdown: <highlight>%s</>",
+    ["你拿走了指南针，对吗？"] = "You took the compass, didn't you?",
+    ["包括投资，也包括那个护身符？"] = "Including the investment, and also that amulet?",
+    ["我不是迪伦。我是……我是来找邮差的。他就在楼上，对着我笑。"] = "I am not Dylan. I am... I am here to find the postman. He is right upstairs, smiling at me.",
+    ["我会的，非常期待。"] = "I will, I'm very much looking forward to it.",
+    ["注意分摊恐惧，恐惧会让情绪低落"] = "Be sure to share the Horror, as Horror will lower your mood.",
+    ["蒸汽单车·琥珀"] = "",
+    ["终末猎杀-草丛11逐簇隐匿08"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 08",
 }

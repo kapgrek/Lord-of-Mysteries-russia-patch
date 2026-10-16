@@ -299,5 +299,13 @@ return {
     ["<Assistant_Title1>Strongest of the Sequence</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Reach the #1 spot for this profession on the battle merit leaderboard."] = "<Assistant_Title1>Сильнейший в Последовательности</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Занять 1-е место своей профессии в рейтинге боевой заслуги.",
     ["The driven will has departed, but the majestic Bark still echoes. \n The loyal eyes are still watching; are this year's apples fragrant?"] = "Неукротимая воля ушла, но величавый лай всё ещё раздаётся эхом. \n Верные глаза всё ещё смотрят; ароматны ли в этом году яблоки?",
     ["Obtain 1 Beyonder material with <风眷者> trait"] = "Получите 1 материал Потустороннего с чертой <Ветровая благодать>",
+    ["【占位-动画】\n清脆的自行车铃声响起。\n你忽然扶住太阳穴，记忆片段涌入脑海。\n画面如老电影般褪色，滋滋闪烁雪花条纹等。"] = "[Placeholder - Animation]\nA crisp bicycle bell rings.\nYou suddenly clutch your temples as fragments of memory flood your mind.\nThe image fades like an old film, flickering with static and snow.",
+    ["你可以去查邮差，也许有所帮助，但小心再次成为他的玩具。"] = "You could look into the postman; it might be helpful, but be careful not to become his toy again.",
+    ["你的老朋友们要是听到这些，一定都替你难过。"] = "If your old friends heard this, they would surely feel sad for you.",
+    ["使用后获得环身特效:<Highlight>全境雍容·手部</>"] = "Obtain aura effect after use: <Highlight>Grace of the Realm · Hand</>",
+    ["使用后获得环身特效:<Highlight>苍白之冕・头部</>"] = "Use to obtain aura effect: <Highlight>Pale Crown・Head</>",
+    ["准备好接受挑战了吗？"] = "Are you ready to accept the challenge?",
+    ["没关系，事情过去很多年了，谢谢你记得他。"] = "It's alright, many years have passed since then. Thank you for remembering him.",
+    ["连续攻击目标<HighLight>7</>次，共造成{*d,F1690001,atkMin,9}点攻击伤害，施法期间共恢复自身<HighLight>20%</>最大生命。"] = "Attack the target <HighLight>7</> times in succession, dealing a total of {*d,F1690001,atkMin,9} Attack damage, and restore a total of <HighLight>20%</> of your maximum Health during the casting period.",
     ["监听关闭阅读界面  玩家播放仅自己可见的说话文本  延迟执行"] = "Прослушивание интерфейса чтения при закрытии. Плеер воспроизводит речевой текст, видимый только самому себе. Отложенное выполнение.",
 }

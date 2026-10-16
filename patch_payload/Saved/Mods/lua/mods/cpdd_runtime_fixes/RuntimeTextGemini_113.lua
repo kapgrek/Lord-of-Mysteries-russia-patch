@@ -261,6 +261,9 @@ return {
     ["Steamships, railway laying, urban infrastructure... steel is needed everywhere now!"] = "Паровые суда, прокладка железных дорог, городская инфраструктура... сталь сейчас нужна повсюду!",
     ["After Mary fell seriously ill, I sold all my family property, but I still couldn't keep her."] = "После того как Мэри серьёзно заболела, я продал всё семейное имущество, но всё равно не смог её спасти.",
     ["Obtain 1 Beyonder material with {Chaos Walker} entry"] = "Получите 1 потустороннюю материю с меткой {Странник Хаоса}",
+    ["不同的升级选项会带来不同的增益效果！"] = "Different upgrade options will provide different buff effects!",
+    ["店员一位\n需要一定外貌条件 男女不限\n工作内容：整理、导购，统计与记录\n薪资面议，工作时间面议"] = "Shop Assistant Wanted\nMust meet certain appearance requirements. Gender neutral.\nJob duties: Organizing, sales guidance, statistics, and Record keeping.\nSalary negotiable, working hours negotiable.",
+    ["灵魂不会偶然相遇，除了非凡聚合定律之外，还有我们彼此默契的吸引力。"] = "Souls do not meet by chance; beyond the Law of Beyonder Characteristics Convergence, there is also the mutual attraction of our tacit understanding.",
     ["成功对其他非凡者施以安魂%d/100次。"] = "Успешно отпейте %d/100 раз другим выдающимся людям.",
     ["Theodora"] = "Теодора",
 }

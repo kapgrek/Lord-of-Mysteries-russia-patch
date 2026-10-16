@@ -273,5 +273,13 @@ return {
     ["商店锁定成功！"] = "Магазин успешно заблокирован!",
     ["Cannot invite cross-server friends to become a Covenant."] = "Нельзя пригласить межсерверного друга в Обет.",
     ["After <Highlight>18</> remoldings, you are guaranteed to obtain <Highlight>3 Beyonder Affix Gifts</>"] = "После <Highlight>18</> переформовок гарантированно появится <Highlight>Дар с 3 записями Потустороннего</>",
+    ["参与副本<Highlight>大帝重临（普通）</>，完成阶段<Highlight>污染意志</>后，有概率获得下列道具。"] = "Participate in the <Highlight>Emperor's Return (Normal)</> dungeon and complete the <Highlight>Corrupted Will</> stage for a chance to obtain the following items.",
+    ["已经谈好了吗？"] = "Have you finished talking?",
+    ["弗兰克好感度达到4级解锁"] = "Unlocked when Frye's Favorability reaches Level 4",
+    ["战意法杖伤害成长"] = "Battle Intent Staff Damage Growth",
+    ["投票评选"] = "Voting",
+    ["车队等级达到26级"] = "Caravan level reaches 26",
+    ["骗子？有悬念的转折！但别演了，我得去化妆准备演出了。"] = "A swindler? A twist with suspense! But stop acting, I need to go put on makeup and prepare for the show.",
+    ["米尔贡根-王庭之盾-随机分buff-2个奶妈（退化坦克，再退化DPS）：第1层"] = "Milgongen-Shield of the Royal Court-Random buff distribution-2 Healers (Degrade Tank, then degrade DPS): Layer 1",
     ["城市暗面玩法悬赏值达到%d/2000。"] = "Достигните награды в размере %d/2000 в игровом процессе «Темная сторона города».",
 }

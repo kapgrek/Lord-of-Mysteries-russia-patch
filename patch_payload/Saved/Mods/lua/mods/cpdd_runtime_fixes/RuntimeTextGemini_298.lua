@@ -277,5 +277,10 @@ return {
     ["……我没事，只是伤感。对不起，我们在这里休息一段时间吧，如果还是不舒服，我为你买一双新鞋回来。"] = "...Со мной всё в порядке, просто немного грустно. Прости, давай отдохнём здесь немного. Если тебе всё ещё неудобно, я куплю тебе новые туфли.",
     ["咳，一个好心的、不小心听到你们谈话的贝克兰德市民。"] = "Кхм, просто добрый житель Бэкланда, случайно услышавший ваш разговор.",
     ["自定义文本已被替换为固定文本，暂不支持修改"] = "Пользовательский текст был заменён на фиксированный текст, изменение пока не поддерживается",
+    ["假如命运指引你走向毁灭，你会欢欣地迎接死亡吗？"] = "If fate guides you toward destruction, would you joyfully embrace death?",
+    ["当然，我走之前一定给你做一个新的护身符，这次一定不会出意外，我已经精心挑选了适合的日期和时间……"] = "Of course, I will definitely make you a new amulet before I leave. This time there will definitely be no accident; I have carefully selected the suitable date and time...",
+    ["血刃3人流血监听"] = "Blood Blade 3-player Bleed monitoring",
+    ["诶，演出快开始了，等结束我们再聊。"] = "Hey, the performance is about to start. Let's talk after it's over.",
+    ["饕餮成长体型14档"] = "Gluttony Growth Stage 14",
     ["Hershel"] = "Гершель",
 }

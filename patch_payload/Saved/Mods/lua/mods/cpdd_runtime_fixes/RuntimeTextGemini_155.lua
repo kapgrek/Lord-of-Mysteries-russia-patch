@@ -311,6 +311,12 @@ return {
     ["黄铜书挑战商店"] = "Магазин испытаний Медной книги",
     ["Warrior - Twilight Combo Slash Roguelike"] = "Воин — Сумеречная серия ударов (Rogue)",
     ["[Potion Tea Party] Pathfinding Divination 1"] = "【Чаепитие Зелий】Гадание на поиск пути 1",
+    ["1.组建12人团队，通过组队模式申请对应副本玩法。需要2只队伍，每只队伍都建议配置战士、观众、以及4名可以提供输出火力的非凡序列者。\n2.单人玩家可以通过人机模式申请副本玩法，人机模式下队友非凡者的强度和玩家的非凡评分相关，如玩家评分远低于推荐评分，整体队伍实力可能无法通过挑战。\n3.组队模式和人机模式中，可获得的个人奖励次数是共享上限的。组队模式下团队可额外获得公共奖励，公共奖励会以竞拍和分配的方式发放。"] = "1. Form a 12-person team and apply for the corresponding Dungeon gameplay through team mode. 2 teams are required, and each team is recommended to be configured with a Warrior, a Spectator, and 4 Beyonders who can provide offensive firepower.\n2. Solo players can apply for Dungeon gameplay through AI mode. In AI mode, the strength of the teammate Beyonders is related to the player's Beyonder rating. If the player's rating is far below the recommended rating, the overall team strength may not be able to pass the challenge.\n3. In both team mode and AI mode, the number of personal rewards that can be obtained shares a common cap. In team mode, the team can obtain additional public rewards, which will be distributed through bidding and allocation.",
+    ["当前处于联赛及拍卖期间不可进行职位变更"] = "Position changes are not allowed during leagues and auctions.",
+    ["梦境占卜-糊火柴盒"] = "Dream Divination - Pasting Matchboxes",
+    ["贸易站错误，请前往指定贸易站提交委托"] = "Trade station Error, please proceed to the designated trade station to submit your commission",
+    ["【自走棋】-痛苦魔女-怨念诅咒"] = "[Auto Chess] - Pain Witch - Resentment Curse",
+    ["终末猎杀-草丛12合并隐匿02（含3块原范围）"] = "End Hunt - Bush 12 Merged Concealment 02 (Includes 3 Original Areas)",
     ["<InvHighlight>5月18日 晴</>\n　　<Hide stylename=\"InvDefault_HW\" id=\"#157\">秘偶</>是什么……"] = "<InvHighlight>18 мая, солнечно</>\n　　Что такое <Hide stylename=\"InvDefault_HW\" id=\"#157\">марионетка</>…",
     ["我好像做了个很长的梦……"] = "Такое ощущение, что мне приснился очень длинный сон...",
 }

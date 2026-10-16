@@ -266,6 +266,12 @@ return {
     ["向目标区域释放三重怨念脉冲。"] = "Высвобождает в целевой области тройной импульс злобы.",
     ["一个被诡异力量侵蚀的宝箱，正等待净化。完成仪式，驱散污染，看看里面究竟藏着什么。"] = "Сундук с сокровищами, поражённый странной силой, ждёт очищения. Завершите ритуал, рассейте скверну и узнайте, что скрывается внутри.",
     ["高倍时段20-21点"] = "Час повышенных множителей 20:00–21:00",
+    ["令25米内小队成员获得<HighLight>愈心标记</>，持续*f秒。<HighLight>愈心标记</>的持有者与施法者之间的距离超过70米时，持有者将失去<HighLight>愈心标记</>。使用此技能也会使小队成员的愈心和读心进入20秒冷却。\n仅<HighLight>空想姿态</>可用，<HighLight>噩梦姿态</>下切换为<HighLight>狂乱</>。\n\n<FaintYellow>愈心标记</>：持有者获得*d**减伤。当标记的施法者使用战斗技能造成治疗效果时，标记的持有者回复效果量80%的生命（受目标减疗影响）。"] = "Grants squad members within 25 meters a <HighLight>Heart Healing Mark</>, lasting *f seconds. If the distance between the holder of the <HighLight>Heart Healing Mark</> and the caster exceeds 70 meters, the holder will lose the <HighLight>Heart Healing Mark</>. Using this skill also puts the squad members' Heart Healing and Mind Reading on a 20-second Cooldown.\nOnly available in <HighLight>Imagination Stance</>; switches to <HighLight>Frenzy</> while in <HighLight>Nightmare Stance</>.\n\n<FaintYellow>Heart Healing Mark</>: The holder gains *d** Damage Reduction. When the caster of the mark uses a combat skill to cause a Healing effect, the holder of the mark recovers Health equal to 80% of the effect amount (affected by the target's Healing Reduction).",
+    ["使用后获得<Highlight>展台动作・笃定</>"] = "Use to obtain <Highlight>Display Action: Certainty</>",
+    ["看来必须先调查一下格兰特先生的死因了。"] = "It seems I must first investigate the cause of Mr. Grant's death.",
+    ["知识荒野已触发"] = "Knowledge Wilderness triggered",
+    ["行程中...即将到达【%s】"] = "In transit... arriving soon at [%s]",
+    ["贸易货物"] = "Trade goods",
     ["弗莱队长通常在办公室，我可以帮你转交。"] = "Капитан Фрай обычно в офисе, и я могу передать это вам.",
     ["收获%d/200个优质食坊物产。"] = "Собирайте высококачественные продукты из продовольственного магазина %d/200.",
 }

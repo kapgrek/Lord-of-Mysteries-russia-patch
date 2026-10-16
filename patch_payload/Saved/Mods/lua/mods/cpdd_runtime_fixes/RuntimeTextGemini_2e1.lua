@@ -257,6 +257,13 @@ return {
     ["The current room does not meet the requirements to start the battle. Please wait for more players to join before starting."] = "Количество игроков в комнате не соответствует требованиям для начала боя. Дождитесь присоединения большего числа игроков, затем начните бой.",
     ["Yes, yes, yes! It's the dog-catching-rat competition. Let me tell you, it was so exciting!"] = "Да, да, да! Это соревнование по ловле крыс собаками. Скажу тебе, это было так увлекательно!",
     ["死鹿-QTE前"] = "Мёртвый олень — до QTE",
+    ["（我想起了一段记忆？“万都之都”号上的记忆？）"] = "(Did I recall a memory? A memory from the 'City of Cities' ship?)",
+    ["<Highlight>格尔曼·斯帕罗</>是“愚者”座下最重要的眷者，一位实力强大、冷酷疯狂却又恪守原则的顶级冒险家。"] = "<Highlight>Gehrman Sparrow</> is the most important Blessed under \"The Fool\", a top-tier adventurer who is powerful, cold, and crazy, yet adheres to his principles.",
+    ["使用后获得<Highlight>入队动效・命运涟漪</>"] = "Use to obtain <Highlight>Join Animation: Ripple of Fate</>",
+    ["使用后获得<Highlight>头像・血月杀戮</>"] = "Use to obtain <Highlight>Avatar: Blood Moon Slaughter</>",
+    ["战斗的火花在空中迸发，勇气与力量在此刻交锋。"] = "Sparks of battle erupt in the Aerial, where courage and strength clash in this moment.",
+    ["本周期内累计战功值达到5000"] = "Accumulate 5000 Battle Merit points within this cycle.",
+    ["罗塞尔Boss-1&2阶段-磁电回收-扇形范围"] = "Roselle Boss - Phases 1 & 2 - Electromagnetic Recovery - Fan-shaped Area",
     ["Westley"] = "Уэстли",
     ["id:000000 This test is a confidential test and does not represent the final quality of the game. Please do not stream, take screenshots, or record the screen."] = "id:000000 Данный тест является закрытым и не отражает финального качества игры. Пожалуйста, не ведите прямых трансляций, не делайте скриншотов и не записывайте видео.",
 }

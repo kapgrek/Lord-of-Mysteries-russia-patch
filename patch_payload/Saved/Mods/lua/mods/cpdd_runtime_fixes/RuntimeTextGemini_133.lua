@@ -276,6 +276,9 @@ return {
     ["Only tracks movement; for other displacements, use AddMoveToEntity"] = "Отслеживает только перемещение; для других видов смещения используйте AddMoveToEntity",
     ["Hidden Space - Wish Castle - Chain sound effect object"] = "Скрытое пространство - Замок Желаний - Звуковой объект цепи",
     ["So why did John Thorpe die? Who is the murderer? What was the modus operandi?"] = "Так почему же умер Джон Торп? Кто убийца? Каким способом он это сделал?",
+    ["1354年7月9日，凌晨3时42分"] = "July 9, 1354, 3:42 AM",
+    ["昨天有个从外地来的警官，专门来调查这件事。从上午一直问到傍晚，把这一片街上的店几乎都跑遍了，逢人就打听最近有没有类似的情况。"] = "A police officer from out of town came yesterday specifically to investigate this matter. They spent from morning until evening asking questions, visiting almost every shop in this area, and inquiring with everyone they met about whether there had been any similar incidents recently.",
+    ["获得阿兹克*1"] = "Obtain Azik *1",
     ["玩家播放主线任务开始展示界面"] = "Отобразить вступительный экран основного задания игрока",
     ["Annah"] = "Анна",
 }

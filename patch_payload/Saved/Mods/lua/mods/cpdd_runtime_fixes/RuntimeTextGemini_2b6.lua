@@ -242,6 +242,13 @@ return {
     ["The second is the Ancient Hermes style. Those old pedants who studied mysticism in the Fourth Epoch always loved writing it like this, as if the older the script, the richer the flavor."] = "Второй вариант — это написание на древнегермесском языке. Старые учёные-мистики Четвёртой Эпохи всегда любили писать именно так, будто чем древнее иероглифы, тем притягательнее их вкус.",
     ["Untargetable + Stealth"] = "Недоступность выбора целью + скрытность",
     ["Ha, I'm indeed not anymore. But by the Storm, I'm not here to cause trouble."] = "Ха, я действительно уже не верующий. Но клянусь Штормом, я не пришёл сюда, чтобы устроить скандал.",
+    ["（克莱恩的妹妹和哥哥？对……他们在贝克兰德。）"] = "(Klein's sister and brother? Right... they are in Backlund.)",
+    ["<Highlight>简介</>：佛尔思从安丽萨太太处得到的神奇物品，手链上的石头能进行灵界穿梭，原本手链上有五颗暗青色石头，用一次消耗一颗，佛尔思借此躲过了飓风中将齐林格斯的追杀。\n<Highlight>持有者</>：安丽萨太太→佛尔思。\n<Highlight>对应途径</>：学徒途径。\n<Highlight>外形</>：手链，串着暗青色石头，它凹凸不平，表面充满烧灼的痕迹。"] = "<Highlight>Introduction</>: A mystical item Fors obtained from Mrs. Anlisa. The stones on the bracelet can perform Spirit World Travel. Originally, the bracelet had five dark cyan stones, each consumed upon one use. Fors used this to escape the pursuit of Admiral Hurricane Qilangos.\n<Highlight>Holder</>: Mrs. Anlisa → Fors.\n<Highlight>Corresponding Pathway</>: Apprentice pathway.\n<Highlight>Appearance</>: A bracelet strung with dark cyan stones; it is uneven and its surface is covered in burn marks.",
+    ["使用后获得<Highlight>聊天气泡・神选谕令（限时30天）</>"] = "Use to obtain the <Highlight>Chat Bubble: God-Chosen Decree (30-day limit)</>",
+    ["吸血值_百分比加成"] = "Life Steal Percentage Bonus",
+    ["啥？原来你喜欢压力？"] = "What? So you actually like pressure?",
+    ["场景褪色效果"] = "Scene Fade Effect",
+    ["小姐 您没事吧？"] = "Miss, are you alright?",
     ["　　有点急事，待会回来。\n\n　　你可以在咖啡馆周围看看，旁边<Letter_Highlight_HW>中央广场</>上有一个叫做<Mark id=\"#159\">“旅行尖碑”</>的石碑，那是“魔术师”小姐和工匠制作的，开启后，就能在各地的旅行点之间穿梭。\n\n　　好东西，比走路快。\n\n　　注：不要走太远。"] = "　　Появились срочные дела, скоро вернусь.\n\n　　Можешь пока осмотреться вокруг кафе. Рядом на <Letter_Highlight_HW>Центральной площади</> стоит каменная стела — <Mark id=\"#159\">«Обелиск странствий»</>. Её создали мисс Маг и Ремесленник. Активировав её, ты сможешь перемещаться между путевыми точками в разных краях.\n\n　　Отличная вещь, куда быстрее, чем пешком.\n\n　　Примечание: не уходи слишком далеко.",
     ["收获%d/400个优质食坊物产。"] = "Собирайте высококачественные продукты из продовольственного магазина %d/400.",
 }

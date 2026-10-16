@@ -247,5 +247,10 @@ return {
     ["确认应用将覆盖当前选中的全套方案"] = "Подтверждение применения перезапишет выбранный полный комплект",
     ["疾猎徽章攻速层"] = "Слой скорости атаки значка «Быстрая охота»",
     ["不以血缘相连，却以誓言共筑。在这个非凡与疯狂并存的世界里，你选择了最珍贵的事——相信彼此。"] = "Не кровные узы связывают вас, а совместно данная клятва. В этом мире, где сосуществуют потустороннее и безумие, вы выбрали самое ценное — верить друг другу.",
+    ["<DecH>工艺：</>铂金织锦・珠钻刺绣\n水晶灯影下，觥筹交错间，你如铂金般闪耀。"] = "<DecH>Craftsmanship:</> Platinum Brocade · Pearl and Diamond Embroidery\nUnder the shadows of the Crystal chandelier, amidst the clinking of glasses, you shine like platinum.",
+    ["可补领错过的<Highlight>黑荆棘事件簿副本</>奖励，开启后可获得下列奖励"] = "You can claim missed <Highlight>Blackthorn Incident Log Dungeon</> rewards. Opening this will grant you the following rewards.",
+    ["码头初遇芬奇"] = "First meeting Finch at the Dock",
+    ["迅捷命牌同装分档路由"] = "Swift Fate Card Same-Set Tier Route",
+    ["终末猎杀-草丛17合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 17 Merged Concealment 02 (Includes 2 Original Ranges)",
     ["我明明记得许多贵族都常以家族名义开具支票捐款的呀……"] = "Я хорошо помню, что многие дворяне часто выдавали чеки от имени своих семей для пожертвований...",
 }

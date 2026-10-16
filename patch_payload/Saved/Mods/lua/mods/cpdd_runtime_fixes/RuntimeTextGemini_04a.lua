@@ -251,5 +251,13 @@ return {
     ["Which carriage do you want to take?"] = "На какой карете вы хотите поехать?",
     ["Sigh, then shall I go find your true love?"] = "Эх, тогда мне пойти найти твою настоящую любовь?",
     ["From the students of the Tarot Club, that is, you all, I have gained much help that I once struggled to obtain, and have also unraveled many mysteries that I could not solve."] = "От учеников Таро, то есть от вас, я получил немало помощи, которую раньше тщетно искал, а также разгадал множество неразрешимых тайн.",
+    ["平凡的生活似乎也没那么糟糕了。"] = "An ordinary life doesn't seem so bad after all.",
+    ["您是第二个找我签名的人，谢谢！祝我好运！"] = "You are the second person to ask for my autograph, thank you! Wish me luck!",
+    ["热伯爵红茶配白朗姆做底，加柠檬、糖和肉豆蔻。这更接近茶而不是酒，在休息日颇受欢迎。"] = "Hot Earl Grey tea with a white rum base, plus lemon, sugar, and nutmeg. This is closer to tea than alcohol and is quite popular on days off.",
+    ["赋予8米内至多6名友方成员<HyperLink stylename=\"M_Link\" u=\"21\">净化</>能力(优先小队成员)，持续4秒。\n拥有勇气赞歌的成员击败敌方玩家时，短时间后将<HyperLink stylename=\"M_Link\" u=\"21\">净化</>目标，该效果最多生效2次。"] = "Grants up to 6 friendly members within 8 meters the <HyperLink stylename=\"M_Link\" u=\"21\">Purification</> ability (prioritizing squad members), lasting for 4 seconds.\nWhen a member with Hymn of Courage defeats an enemy player, they will <HyperLink stylename=\"M_Link\" u=\"21\">Purify</> the target after a short delay. This effect can trigger up to 2 times.",
+    ["那是调查结束后的事，并且，是你自己说要喝酒的，怎么现在倒问起我来了？"] = "That was after the investigation concluded, and besides, you were the one who said you wanted to drink. Why are you asking me about it now?",
+    ["风衣"] = "Trench Coat",
+    ["cs占位"] = "",
+    ["终末猎杀-草丛01逐簇隐匿09"] = "Final Hunt - Bush 01 Cluster-by-Cluster Concealment 09",
     ["任务自定义事件  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Пользовательское событие задачи: объект переносится в указанное место в указанной сцене (игроки поддерживают перенос между сценами, NPC может перемещаться только в одной сцене)",
 }

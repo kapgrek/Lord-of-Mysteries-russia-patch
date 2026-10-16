@@ -259,6 +259,12 @@ return {
     ["Dogs are born to bark... You lost, old man, don't take your anger from looking after a baby out on the dog."] = "Собаки рождены, чтобы лаять... Ты проиграл, старик, не срывай на собаке злость от того, что приходится нянчить ребёнка.",
     ["<P_Heart> (Ponders) </> Logically, it should be arranged by the Captain, but this case isn't complicated. I can take you along; consider it an internship."] = "<P_Heart> (задумывается) </> По логике, это должен поручить капитан, но это дело несложное. Я могу взять вас с собой; считайте это стажировкой.",
     ["施放除普攻外的战斗技能后，会获得1层持续*f秒的<HighLight>足迹</>。\n施放除普攻、解控与终结技能外的战斗技能后，会获得1点<HighLight>星空能量</>。\n\n<FaintYellow>星空能量</>\n<HighLight>星空能量</>最多拥有5点。拥有3点<HighLight>星空能量</>时解锁<HighLight>终结技能层叠之门</>。施放<HighLight>层叠之门</>时会消耗<HighLight>星空能量</>，使其效果获得强化。\n<FaintYellow>足迹</>\n<HighLight>足迹</>最多叠加3层。施放普通攻击<HighLight>闪击</>时消耗所有<HighLight>足迹</>，使其效果获得强化。（若未命中则不会消耗<HighLight>足迹</>。）"] = "После применения боевого навыка, кроме обычной атаки, даёт 1 заряд <HighLight>Следов</> на *f сек.\nПосле применения боевого навыка, кроме обычной атаки, снятия контроля и завершающего навыка, даёт 1 ед. <HighLight>звёздной энергии</>.\n\n<FaintYellow>Звёздная энергия</>\nМаксимум <HighLight>звёздной энергии</> — 5 ед. При 3 ед. <HighLight>звёздной энергии</> открывается <HighLight>завершающий навык «Врата наслоения»</>. При применении <HighLight>Врат наслоения</> расходуется <HighLight>звёздная энергия</>, и их эффект усиливается.\n<FaintYellow>Следы</>\n<HighLight>Следы</> суммируются до 3 раз. При применении обычной атаки <HighLight>Молниеносный удар</> расходуются все <HighLight>Следы</>, и её эффект усиливается. (Если удар не попал, <HighLight>Следы</> не расходуются.)",
+    ["亲爱的非凡者：\n根据%s活动，您通过势力战拍卖获得的分红是%s，请查收。"] = "Dear Beyonder:\nAccording to the %s event, the dividend you obtained through the faction war auction is %s; please check it.",
+    ["使用后获得<Highlight>圣咏录帽子</>"] = "Use to obtain <Highlight>Canticle Collection Hat</>",
+    ["使用后获得<Highlight>展台动作・绑头发</>"] = "Use to obtain <Highlight>Display Action: Tie Hair</>",
+    ["时间紧迫，快拿着它！想象它像伞一样被撑开……"] = "Time is tight, take this quickly! Imagine it opening up like an umbrella...",
+    ["请前往战略服查看"] = "Please go to the strategy server to view",
+    ["财富印坊"] = "Wealth Mint",
     ["但这里本就弱肉强食，疯狂又诡异。战争是永恒的主题，例如那场第四纪的四皇之战……"] = "Но это место по своей сути является местом, где сильные охотятся на слабых, безумных и странных. Война — вечная тема, как, например, Война Четырех Императоров в Четвертой Эпохе…",
     ["Nico"] = "Нико",
 }

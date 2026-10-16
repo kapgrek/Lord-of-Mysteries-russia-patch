@@ -247,6 +247,13 @@ return {
     ["That's too philosophical, man! A toast to death!"] = "Слишком философично, приятель! Тост за смерть!",
     ["{{player.name}}在非凡聚合中，凝聚出携有<Chat_Highlight>{{relic_word.name}}</>词条的{{item.name}}，得到了执掌好运的黄黑之王的眷顾！"] = "{{player.name}} в ходе Потустороннего слияния сгенерировал(а) {{item.name}} с меткой <Chat_Highlight>{{relic_word.name}}</>, получив благословение Жёлто-чёрного короля, повелевающего удачей!",
     ["[CS for introducing pathways and Sequences]"] = "[CS: введение в Пути и Последовательности]",
+    ["<HighLight>{2}</>急需<HighLight>{0}份{1}</>，获<img id=\"2001897\" width=\"40\" height=\"40\"/><Highlight>{3}</>"] = "<HighLight>{2}</> urgently needs <HighLight>{0} units of {1}</>, gain <img id=\"2001897\" width=\"40\" height=\"40\"/><Highlight>{3}</>",
+    ["一段时光被存放于此，使用后，能将城堡的时间暂时切换为深夜，持续30分钟。"] = "A fragment of time is stored here. When used, it can temporarily Switch the Castle's time to late night, lasting for 30 minutes.",
+    ["不过，恭喜你！“学徒”是最了解星空的途径。你具体想知道什么？"] = "However, congratulations! The Apprentice is the Pathway that understands the starry sky the best. What exactly do you want to know?",
+    ["石阶向左盘旋而上，连接建筑的不同楼层。"] = "The stone stairs spiral upward to the left, connecting the different floors of the building.",
+    ["神威惩戒3"] = "Divine Might Punishment 3",
+    ["离家很近了，我却依然胆怯，辜负了佛尔思小姐的好意。"] = "I am so close to home, yet I still feel Timidity, failing to live up to Miss Fors's kindness.",
+    ["过弯时，按下<Highlight>“漂移”</>（PC端为空格），可使车辆进入漂移状态。\n漂移状态下可以更方便地调整车头方向，随后按下<Highlight>“氮气加速”</>（PC端为Shift），可退出漂移状态并向前加速。"] = "When cornering, press <Highlight>\"Drift\"</> (Space on PC) to enter the drift state.\nIn the drift state, you can adjust the vehicle's heading more easily. Then, press <Highlight>\"Acceleration\"</> (Shift on PC) to exit the drift state and accelerate forward.",
     ["Sonny"] = "Сонни",
     ["而现在，我只想征服你的心。"] = "И сейчас, я просто хочу покорить твое сердце.",
 }

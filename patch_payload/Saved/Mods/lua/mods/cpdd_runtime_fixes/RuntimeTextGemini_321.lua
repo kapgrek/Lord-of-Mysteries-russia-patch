@@ -279,5 +279,13 @@ return {
     ["确认取消发布当前招募信息吗？取消后其他玩家将无法搜索到本战队。"] = "Подтвердить отмену публикации текущего объявления о наборе? После отмены другие игроки не смогут найти этот отряд.",
     ["战略服期间每周收入成员人数已达到上限10人，名额将于周一8：00刷新"] = "Во время Стратегического сервера еженедельный лимит участников по доходу (10 человек) достигнут. Количество мест обновится в понедельник в 8:00.",
     ["【秘偶技】狒狒祝福-召唤LV1"] = "【Навык марионетки】Благословение бабуина — Призыв LV1",
+    ["使用后解锁<Highlight>单人社交动作·执杖响指</>"] = "Unlocks the <Highlight>Single Social Action: Staff Snap</> upon use.",
+    ["导演，我没——"] = "Director, I didn't—",
+    ["播放占卜dialog"] = "Play divination dialog",
+    ["无暗之枪在非秩序审判状态下也会对附近的异端目标掷出小枪，小枪伤害提升100%且不触发内置冷却。"] = "When not in the Order Judgment state, the Unshadowed Spear will also throw small spears at nearby Heresy targets. The small spears' Damage Increase is 100% and they do not trigger an internal Cooldown.",
+    ["棋子固有回蓝·子爵夫人"] = "Piece Innate Mana Regen: Viscountess",
+    ["点击查看全部外观"] = "Click to view all appearances",
+    ["询问<h>威尔</>"] = "Ask <h>Will</>",
+    ["【自走棋】-\"律令师\"休·迪尔查-囚禁"] = "[Auto Chess] - \"Lawyer\" Xio Derecha - Imprisonment",
     ["Dawson"] = "Доусон",
 }

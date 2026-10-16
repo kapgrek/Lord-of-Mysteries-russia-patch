@@ -278,5 +278,13 @@ return {
     ["Inspiration indicates a safe tracking range for you. Proceed with caution. (The current perspective is subject to special gameplay restrictions and cannot be zoomed)"] = "Вдохновение указывает вам безопасный радиус слежения, продвигайтесь осторожно. (Текущий ракурс камеры ограничен особенностями режима и не может быть приближен)",
     ["Uh, anyway, it was a long time ago. He took an oil painting from the castle, which is said to be a portrait of the first Baron Lamud."] = "Э-э, в общем, это было давно. Он забрал из замка картину маслом — говорят, это портрет первого барона Лямуда.",
     ["【Marionette Skill】 - Exile - Aura"] = "[Навык марионетки] — Изгнание — Аура",
+    ["<Assistant_Title1>【木桩训练场】</>\n<Assistant_Title2>说明：</>训练场提供<Assistant_Property1>首领木桩</>与<Assistant_Property1>治疗木桩</>，可实时查看每秒伤害与每秒治疗量，用于测试配装与技能循环。\n<Assistant_Title2>位置：</>{Location:[廷根(1512,1037)]|51324;3594;-1357;2;5200002;0}\n<Assistant_Title2>介绍：</>对话<Assistant_Red>穆穆</>可进入木桩训练场。进入后打开设置界面，可自由切换木桩类型、修改木桩名称与外观。\n<Assistant_Title2>免费增益：</>训练场内可免费试用属性增益药品，每周各<Assistant_Red>10</>次，且仅在训练场内生效。"] = "<Assistant_Title1>[Training Dummy Arena]</>\n<Assistant_Title2>Overview:</> The arena provides <Assistant_Property1>boss dummies</> and <Assistant_Property1>healing dummies</>. View damage and healing per second in real time to test equipment builds and skill rotations.\n<Assistant_Title2>Location:</> {Location:[Tingen(1512,1037)]|51324;3594;-1357;2;5200002;0}\n<Assistant_Title2>Getting Started:</> Speak to <Assistant_Red>Mumu</> to enter the Training Dummy Arena. Inside, open Settings to change the dummy type, name, and appearance.\n<Assistant_Title2>Free Buffs:</> Try stat-boosting consumables for free, up to <Assistant_Red>10</> times per type each week. Their effects apply only inside the arena.\n",
+    ["做得很好，你已经明白了晋升的意义，去完成仪式吧。"] = "Very well done. You have already understood the meaning of advancement. Go and complete the ritual.",
+    ["命运轮转"] = "Wheel of Fate",
+    ["嗅到花香才动身的囤货商行"] = "The Hoarding Merchant who only sets off upon smelling the fragrance of flowers",
+    ["塔罗·克莱恩·莫雷蒂·档7增量"] = "Tarot Klein Moretti Save 7 Increment",
+    ["稀有·血色之戒"] = "Rare Blood-Colored Ring",
+    ["门内传来了亚多尼斯的声音……"] = "Adonis's voice came from behind the Door...",
+    ["隐秘空间-跳跃测试-红平台默认状态"] = "Hidden Space - Jump Test - Red Platform Default State",
     ["<P_Heart>（看来队长认识她……对了……）</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
 }

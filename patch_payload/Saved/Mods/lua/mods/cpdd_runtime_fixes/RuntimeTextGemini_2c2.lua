@@ -273,6 +273,13 @@ return {
     ["梅格每次都那么正式。"] = "Мег всегда так официальна.",
     ["Right, Jerry?"] = "Верно, Джерри?",
     ["<HighLight>上阵人数上限+2</>，但棋手<HighLight>最大生命值降低50点</>。"] = "<HighLight>Лимит фигур на поле +2</>, но <HighLight>макс. ОЗ игрока снижается на 50 ед.</>.",
+    ["以克莱恩为原型制作的迷你人偶，正如占卜家从不把话说全，他认真的神态间透着的几分神秘值得品味。"] = "A mini figurine modeled after Klein. Just as a Seer never says everything, the touch of mystery in his serious expression is worth savoring.",
+    ["刺客扮演宝箱-睁眼"] = "Assassin Acting treasure chest - eyes open.",
+    ["在“不死者”的阶段，确实会有和我相似的情况。不过我的状态，并不是恩赐，而是一种诅咒。"] = "During the \"Undying\" stage, there are indeed situations similar to mine. However, my condition is not a gift, but a curse.",
+    ["我想，不要小看神灵的祝福，他会选择你，一定是有他的原因。"] = "I think you should not underestimate the blessing of a God; He must have had His reasons for choosing you.",
+    ["战法4人"] = "Tactician 4-Person",
+    ["给你提个醒，你才是真正的猎物……"] = "Let me give you a reminder: you are the real prey...",
+    ["芬奇不想做小丑，迪伦想演主角，这些念头对他们来说很重要，足以改变命运！"] = "Finch doesn't want to be a Clown, and Dylan wants to play the lead role. These thoughts are very important to them—enough to change their fate!",
     ["这次，我又睡了多久？这股熟悉的气息……外面的世界发生了什么，吵闹到足以将我唤醒。"] = "На этот раз, как долго я снова спал? Этот знакомый запах... То, что произошло во внешнем мире, было достаточно шумным, чтобы разбудить меня.",
     ["与Npc进行对话  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Разговор с NPC NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

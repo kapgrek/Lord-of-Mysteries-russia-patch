@@ -275,6 +275,9 @@ return {
     ["But the hound ultimately belonged to Mr. Evans. Surprisingly, after the recently bankrupt Mr. Bolgan lost the lawsuit, he decided to exhaust his savings to buy the hound."] = "Но гончая всё же принадлежала мистеру Эвансу. Удивительно, но недавно разорившийся мистер Болган, проиграв суд, решил потратить все свои сбережения, чтобы выкупить гончую.",
     ["虽然今天公司休假，但我机智地选择在此地推销我司的木料。"] = "Хотя сегодня у компании выходной, я мудро решил заняться продажей нашего леса именно здесь.",
     ["He said the outside world is very big."] = "Он сказал, что внешний мир очень большой.",
+    ["第三环氛围"] = "Third Ring Atmosphere",
+    ["组队模式参加副本<Highlight>五月庄园·花园（普通）</>，击败<Highlight>异化猎犬</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Participate in the Dungeon <Highlight>May Manor · Garden (Normal)</> in party mode. After defeating the <Highlight>Alienated Hound</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment.",
+    ["随机获得<HighLight>2件防御型精良装备</>。"] = "Gain <HighLight>2 random pieces of defensive Fine Equipment</>.",
     ["精选招牌套餐"] = "Отборный фирменный сет",
     ["播放Dialogue  玩家播放情绪音乐（仅自己可听）  玩家传送到位面"] = "Воспроизвести диалог, игрок воспроизводит эмоциональную музыку (слышно только самому себе), игрок телепортируется в самолет.",
 }

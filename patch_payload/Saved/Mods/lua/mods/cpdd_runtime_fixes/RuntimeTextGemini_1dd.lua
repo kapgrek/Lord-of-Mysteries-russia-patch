@@ -289,6 +289,12 @@ return {
     ["【秘偶技】星之虫-放逐-终结"] = "[Навык марионетки] Звёздный червь: Изгнание, Завершение",
     ["不再流浪的期许·污染"] = "Надежда больше не скитаться: Осквернение",
     ["全套方案"] = "Полный набор",
+    ["他报复之后又会有怎样的结果？"] = "What kind of outcome will there be after his retaliation?",
+    ["你入戏了……咳咳，都怪那瓶烈酒，我有点头疼。"] = "You're getting too into character... *cough cough*, it's all that bottle of strong liquor's fault, I have a bit of a headache.",
+    ["挥动藤蔓横扫前方敌人。"] = "Swing the vines to sweep enemies in front.",
+    ["被动技能列表"] = "Passive Skill List",
+    ["败局补偿"] = "Compensation for Defeat",
+    ["钻头守护"] = "",
     ["前往指定Trigger位置  玩家发送任务道具"] = "Перейдите в указанное место триггера; игрок отправляет квестовый предмет.",
     ["铁路大亨变幻远征难度获得%d/15次【铁路大亨】评价。"] = "Получите рейтинг 【Железнодорожный магнат】 %d/15 раз на уровне сложности «Смена экспедиции».",
 }

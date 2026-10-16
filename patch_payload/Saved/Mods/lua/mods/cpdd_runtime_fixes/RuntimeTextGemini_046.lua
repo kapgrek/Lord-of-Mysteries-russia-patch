@@ -254,6 +254,11 @@ return {
     ["贝克兰德街头传来喧嚣声，许多人向一处热闹的地方聚集……"] = "На улицах Бэкланда поднялся шум, и много людей собирается в одном оживлённом месте...",
     ["I'm very sad... no, I'm very happy."] = "Мне очень грустно... нет, мне очень радостно.",
     ["The War of the Roses?"] = "Война роз?",
+    ["一段时光被存放于此，使用后，能将城堡的时间暂时切换为黄昏，持续30分钟。"] = "A fragment of time is stored here. When used, it can temporarily Switch the Castle's time to dusk, lasting for 30 minutes.",
+    ["你想起来了？！"] = "You remembered?!",
+    ["可获得1个<Highlight>圣杯·绑</>、2个<Highlight>体力恢复包</>"] = "Can obtain 1 <Highlight>Holy Grail (Bound)</>, 2 <Highlight>Stamina Recovery Packs</>",
+    ["怎么进来个路人？这也是策划的小巧思？"] = "How did a passerby get in here? Is this another one of the developers' clever little ideas?",
+    ["痛痛痛！再使使劲……我可以出来！"] = "It hurts, it hurts, it hurts! Push a little harder... I can get out!",
     ["Melvin"] = "Мелвин",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть",
 }

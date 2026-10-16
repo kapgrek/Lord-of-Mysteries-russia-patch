@@ -283,6 +283,13 @@ return {
     ["Clear as the morning dew in a birch forest, the cold liquor burns with a flame-like stimulation."] = "Прозрачный, как утренняя роса в берёзовом лесу, холодный напиток обжигает подобно пламени.",
     ["[Marionette Skill] Worm of Star - Flame Breath - Spell Agent"] = "[Навык Марионетки] Звёздный Червь — Огненное дыхание — Заклинание-агент",
     ["Template Elite - Male Treant"] = "Шаблон элиты — Мужчина-древень",
+    ["五月庄园·城堡困难模式首通强者已加入队伍。这段被“母亲”注视的悲剧，终将宣告落幕。"] = "The champion who first cleared May Manor · Castle on Hard Mode has joined the party. This tragedy, watched by the \"Mother,\" will finally reach its Curtain Call.",
+    ["使用后获得<Highlight>展台动作・盛情登场</>\n重复获取将自动分解为绑定金镑×100"] = "Use to obtain <Highlight>Display Action: Grand Entrance</>\nDuplicate acquisitions will be automatically converted into Bound Gold Pound ×100",
+    ["又是这样……先生，女士，下一个身份会是谁？"] = "This again... Sir, madam, whose identity will come next?",
+    ["很多人的命运被弄得一片混乱，阿蒙分身们还随意寄生他人，传播污染……"] = "The fates of many people have been thrown into chaos, and the Amon Avatars are parasitizing others at will, spreading corruption...",
+    ["白色"] = "White",
+    ["新手"] = "",
+    ["【普通】童话故事-青蛙王子-牵肠挂肚\n分buff、召法术场的位置"] = "[Normal] Fairy Tale - Frog Prince - Deep Attachment\nDistribute buffs, summon Spell Field locations",
     ["我请“魔术师”小姐，找到了最初的手稿，上面还残留着凶手的灵性痕迹。"] = "Я попросил госпожу Волшебницу найти оригинал рукописи, но на ней все еще остались духовные следы убийцы.",
     ["Camille"] = "Камилла",
 }

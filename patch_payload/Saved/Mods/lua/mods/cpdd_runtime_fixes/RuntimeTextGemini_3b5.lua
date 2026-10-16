@@ -256,5 +256,13 @@ return {
     ["Gold medal ham produced by a special royal supplier; the smoked flavor precipitates the deliciousness of time."] = "Золотая медаль среди окороков, произведённых особым королевским поставщиком; копчёный вкус впитал в себя всю прелесть времени.",
     ["A volcano still beating, burning through the holder's sanity."] = "Всё ещё бьющийся вулкан, прожёгший разум своего обладателя насквозь.",
     ["[Marionette Skill] Fate Turbulence - White"] = "【Навык марионетки】Турбулентность судьбы — Белая",
+    ["　　阿兹克含糊着低笑了一声：\n　　“很多很多不同的梦，有时候，我会梦见黑暗的陵寝内部，梦见一具具古老的棺材，里面的尸体趴着，背后长出了一根根白色的羽毛，有时候，我梦见我是一名穿全身盔甲的骑士，端着三米的长枪，冲向了敌人。”\n　　“有时候，我梦见我是一个领主，有着丰饶的庄园，有着漂亮的妻子和三个孩子，有时候，我梦见我是流浪汉，淋着雨，走在泥泞的路上，又冷又饿。”\n　　“有时候，我梦见我有个女儿，和之前那几个孩子不一样的女儿，她长着柔顺的黑发，喜欢坐我亲手做的秋千，总是向我讨要糖果，有时候，我梦见我站在绞刑架旁，冷冷地仰望着上面飘荡的尸体……”\n\n　　——第一卷《小丑》第一百一十二章 阿兹克的解释"] = "　　Azik chuckled vaguely:\n　　\"Many, many different dreams. Sometimes, I dream of the interior of a dark mausoleum, dreaming of ancient coffins where the corpses lie prone, with white feathers growing from their backs. Sometimes, I dream that I am a knight in full plate armor, holding a three-meter lance, charging at the enemy.\"\n　　\"Sometimes, I dream that I am a lord with a fertile manor, a beautiful wife, and three children. Sometimes, I dream that I am a vagrant, walking in the rain on a muddy road, cold and hungry.\"\n　　\"Sometimes, I dream that I have a daughter, a daughter different from those previous children. She has soft black hair, likes to sit on the swing I made by hand, and is always asking me for candy. Sometimes, I dream that I am standing beside a gallows, coldly looking up at the corpse swaying above...\"\n\n　　—Volume One \"Clown\", Chapter 112: Azik's Explanation",
+    ["但有人告诉我，如果没有配角，戏剧就无法成立，小角色有小角色的魅力。"] = "But someone told me that without supporting characters, a play cannot exist; small roles have their own charm.",
+    ["你怎么了？发生什么事了吗，芬奇？"] = "What's wrong with you? Did something happen, Finch?",
+    ["弗莱-迷你人偶"] = "Frye Mini-Figurine",
+    ["时空之门3"] = "Door of Space-Time 3",
+    ["真是位细心的{{先生|女士}}。你在疑惑，脱离了粉丝的身份，我为什么要帮助一位陌生人？"] = "What a thoughtful {{gentleman|lady}}. You're wondering, now that I'm no longer a fan, why would I help a stranger?",
+    ["金秋湖西站长"] = "Golden Autumn Lake West Station Master",
+    ["终末猎杀-草丛02合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 02 Merged Concealment 01 (Includes 2 original areas)",
     ["我实在是应付不了这么多人的大场面啊，我宁愿多做几台手术！我现在连演讲大纲都还没头绪。"] = "Я действительно не могу справиться с такой большой толпой. Я лучше сделаю еще несколько операций! Я пока даже понятия не имею о плане лекции.",
 }

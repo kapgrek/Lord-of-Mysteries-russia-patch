@@ -273,4 +273,9 @@ return {
     ["双方阵营人数差距过大，请调整阵营人数后再开启对战。"] = "Разница в численности двух команд слишком велика. Скорректируйте состав команд, затем начните бой.",
     ["If I don't have Fors's novels to read, I won't be able to go on..."] = "Если у меня не будет романов Форса, я не смогу жить дальше...",
     ["And now..."] = "А теперь...",
+    ["他们说，煤厂、铅厂、纺织厂……工人放弃健康，出卖劳力，勉强苟活，你也一无所有，谈什么梦想。"] = "They said, coal plants, lead factories, textile mills... workers sacrifice their health, sell their labor, and barely scrape by, and you have nothing either, so what are you talking about dreams for.",
+    ["哦——他啊！他冲上去刺死父亲的时候，的确震撼。"] = "Oh—him! When he rushed up to stab his father to death, it was truly shocking.",
+    ["捡起信件"] = "Pick up the letter",
+    ["要跟我们一起去吗？这可是露丝弄到的内部福利。"] = "Do you want to come with us? This is an internal perk that Ruth managed to get.",
+    ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Backlund Pleasure Gardens\r\n<LeonSubTitle size=\"38\">Backlund Pleasure Gardens</>",
 }

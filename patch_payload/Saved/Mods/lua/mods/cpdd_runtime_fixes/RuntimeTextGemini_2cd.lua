@@ -240,5 +240,11 @@ return {
     ["Once we officially open tomorrow, I'm afraid I won't have time to sit here and enjoy tea leisurely."] = "Когда завтра мы официально откроемся, боюсь, уже не будет времени сидеть здесь и спокойно наслаждаться чаем.",
     ["Hey, I say, doesn't this count as slacking off? Watch out for your salary being docked."] = "Слушай, а это не считается бездельем? Смотри, вычтут из жалованья.",
     ["提高穿刺185，释放人脉技能、秘偶技能时，穿刺额外提高205，持续5秒，每10秒最多触发一次。"] = "Повышает пронзание на 185. При использовании техники связей или техники тайного партнёра пронзание дополнительно повышается на 205 на 5 сек. Срабатывает не чаще раза в 10 сек.",
+    ["【PVP测试】80级-战略服"] = "[PVP Test] Level 80 - Strategy Server",
+    ["入画一刻"] = "Moment of Entering the Painting",
+    ["我决定同明斯特结婚了。"] = "I have decided to marry Munster.",
+    ["搜打撤玩法"] = "Search, Hit, and Withdraw Gameplay",
+    ["诅咒的低语"] = "Whispers of the Curse",
+    ["询问安杰洛"] = "Ask Angelo",
     ["<P_Heart>（笑）</>你这双手，我怎么舍得让你受累呢。"] = "<P_Heart>（С улыбкой）</> Разве могу я позволить таким нежным рукам трудиться?",
 }

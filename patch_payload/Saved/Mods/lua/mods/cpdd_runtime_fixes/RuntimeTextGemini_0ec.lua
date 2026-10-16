@@ -263,5 +263,13 @@ return {
     ["Every brick in this city has heard it. Backlund never refuses anyone's greeting—welcome, young one."] = "Каждый камень этого города уже услышал это. Бэкланд никогда не отказывает никому в приветствии — добро пожаловать, юноша.",
     ["非常正确！你怎敢怀疑我们买不起土豆——停下你质疑的目光，我认为这侵犯了我的肖像。"] = "Совершенно верно! Как вы посмели усомниться, что мы не можем себе позволить картофель — прекратите этот подозрительный взгляд, я считаю, что это нарушает моё право на изображение.",
     ["But every night, there are strange noises in the house—footsteps, sighs, and someone walking back and forth upstairs."] = "Но каждую ночь в доме слышны странные звуки — шаги, вздохи, и кто-то расхаживает туда-сюда наверху.",
+    ["公示剩余时间：%d天%d时%d分"] = "Remaining time for public notice: %d days %d hours %d minutes",
+    ["单次“普通”难度副本中，通关全部BOSS，且BOSS阶段战斗总时长少于800秒（包含失败时长，不含马车保卫战的护送时长）。"] = "Clear all BOSSes in a single \"Normal\" difficulty Dungeon, with a total BOSS phase combat time of less than 800 seconds (including time spent on failures, excluding escort time in the Carriage defense battle).",
+    ["小镇西部前往小镇东部"] = "From Small Town West to Small Town East",
+    ["断指"] = "Severed Finger",
+    ["是啊！这味道不知道什么时候有的，一天比一天臭，熏得客人们都不来了！"] = "Yeah! I don't know when this smell started, but it's getting worse every day, stinking up the place so much that customers don't even come anymore!",
+    ["金秋湖北站长"] = "Golden Autumn Lake North Station Master",
+    ["隐秘空间-火把"] = "Hidden Space - Torch",
+    ["秩序世界"] = "",
     ["Play Dialogue  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Игра «Диалог». Игрок воспроизводит говорящий текст, который виден только ему самому. Отложенное исполнение. Игрок воспроизводит говорящий текст, который виден только ему. Отложенное исполнение.",
 }

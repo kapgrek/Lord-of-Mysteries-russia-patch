@@ -280,6 +280,13 @@ return {
     ["观察西尔维娅头顶的点数，预测击飞落点"] = "Следите за числом над головой Сильвии, чтобы предсказать место падения после подбрасывания.",
     ["该外观已永久解锁，无法使用限时外观道具，请分解或丢弃！"] = "Этот внешний вид уже разблокирован навсегда, использовать предмет временного внешнего вида невозможно, разберите его или выбросьте!",
     ["Obtained <Yellow>[Angel Feather]</>\n. This is an important material for the divine descent ritual."] = "Получено <Yellow>«Перо ангела»</>\nЭто важный материал для ритуала схождения бога",
+    ["伦纳德先生，“纯粹”的黑暗是不是与黑夜的权柄有关？"] = "Mr. Leonard, is \"pure\" Darkness related to the authority of the Night?",
+    ["入局之人-战略服雪山-罗塞尔"] = "Person in the Game - Strategy Server Snowy Mountain - Roselle",
+    ["命运的流向"] = "The Flow of Fate",
+    ["大佬求带"] = "Big shot, please carry me",
+    ["挂接眼镜"] = "Equip glasses",
+    ["棋子周围<HighLight>2</>格内每有一名敌人，自身防御提高<HighLight>8</>点，最多叠加<HighLight>4</>层。"] = "For every enemy within <HighLight>2</> tiles of the piece, self Defense increases by <HighLight>8</> points, stacking up to <HighLight>4</> times.",
+    ["音乐厅"] = "Music Hall",
     ["前往指定Trigger位置  对象同场景传送"] = "Перейти к указанному триггеру; телепортация объекта в той же локации",
     ["那当然，票我都让人买好了，双人连座。"] = "Конечно, я уже попросил кого-то купить билеты на два места вместе.",
 }

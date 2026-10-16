@@ -280,5 +280,8 @@ return {
     ["Fresh flowers, fresh flowers!"] = "Свежие цветы, свежие цветы!",
     ["[Marionette Skill] Pufferfish Bullet LV3"] = "[Навык марионетки] Пуля-фугу, ур. 3",
     ["Prologue Flow Version-Axe"] = "Версия пролога — Топор",
+    ["使用后获得<Highlight>动态头像・铃兰与骑士</>"] = "Use to obtain <Highlight>Animated Avatar: Lily of the Valley and Knight</>",
+    ["我一定能签下主角合同！"] = "I will definitely be able to sign a protagonist contract!",
+    ["绯红命运【需要替换CS"] = "Crimson fate [Needs CS replacement",
     ["Ruola"] = "Руола",
 }

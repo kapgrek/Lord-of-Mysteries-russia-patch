@@ -258,4 +258,9 @@ return {
     ["【浅见】梦魇命中目标后有30%基础概率附加滞涩，持续3秒，生成的仪式魔法附加5%减速。"] = "[Поверхностное толкование] После попадания «Кошмара» по цели с базовой вероятностью 30% накладывается Вязкость на 3 сек., а созданная ритуальная магия дополнительно накладывает замедление 5%.",
     ["他们尝试去接触一个非凡物品，那东西具备活着的特性，最终……没有一个人幸存。"] = "Они попытались прикоснуться к потустороннему предмету, обладавшему признаками живого существа, и в итоге... не выжил никто.",
     ["应该都涉及到了非凡领域，得谨慎一些。"] = "Должно быть, всё это связано с потусторонней сферой, нужно быть осторожнее.",
+    ["战略服凯旋公会：{{eventMessageParams.guildName}} 已开启花车巡游，<HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[前往庆祝]</>"] = "Strategic Server Triumphant Guild: {{eventMessageParams.guildName}} has started a float parade, <HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[Go to Celebrate]</>",
+    ["贸易战完成3次委托"] = "Complete 3 commissions in Trade War",
+    ["雪山北部"] = "North Snowy Mountain",
+    ["罗塞尔Boss-3阶段-磁电回收-扇形法术代理"] = "Roselle Boss - Phase 3 - Electromagnetic Recovery - Fan-shaped Spell Proxy",
+    ["观众：心灵灯塔4筛选"] = "Spectator: Beacon of Destiny 4 Filter",
 }

@@ -255,4 +255,10 @@ return {
     ["The divine descent ritual of {{player.name}} has received the grace of Mr. Fool—<Chat_Highlight>True Knowledge of Holy Light</>! Praise Him! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Go to Praise]</>"] = "Ритуал божественного нисхождения {{player.name}} получил милость господина Шута — <Chat_Highlight>Истинное знание Святого света</>! Славьте Его! <HyperLink stylename=\"Chat_Hyperlink\" u=\"luxuryNavigation={{eventMessageParams.worldID}},444460680,{{eventMessageParams.expireTime}}\">[Отправиться славить]</>",
     ["豌豆魔法引导线灵视临时版"] = "Гороховая направляющая линия магии — Истинное Зрение (Духовное), временная версия",
     ["<InvHighlight>女款时装</><InvDefault>为轻奢晚礼裙，以</><InvHighlight>香槟金、夜蓝紫</><InvDefault>为主调。</>"] = "<InvHighlight>Женский костюм</><InvDefault> — лёгкое роскошное вечернее платье в основных тонах </><InvHighlight>шампанского золота и ночного сине-фиолетового</><InvDefault>.</>",
+    ["<P_Heart>（我想守护廷根和身边的人，就像黑荆棘的大家一样。）</>"] = "<P_Heart>（I want to Guard Tingen and the people around me, just like everyone at Blackthorn.）</>",
+    ["先看看<h>时间</>"] = "Check the <h>time</> first",
+    ["感谢女神！只要能吃饱肚子，我愿意信仰任何东西。"] = "Thank the Goddess! As long as I can fill my stomach, I am willing to believe in anything.",
+    ["没想到一阵狂风吹开了窗户，雨水灌进来，行李都湿了……"] = "I didn't expect a gust of wind to blow the window open; the rain poured in, and my luggage got soaked...",
+    ["没有，罗斯先生。宴会即将开始，请您跟我来。"] = "No, Mr. Ross. The banquet is about to begin; please come with me.",
+    ["【自走棋内部效果技能】- 治疗法球2-敌方全体阵亡监听"] = "[Auto Chess Internal Effect Skill] - Healing Orb 2 - All enemies death monitor",
 }

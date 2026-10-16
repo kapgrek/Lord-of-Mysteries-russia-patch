@@ -245,6 +245,13 @@ return {
     ["Backlund 8 - Mysterious Miss - Memory Retrace"] = "Бэкланд 8 - Таинственный промах - Воспоминание",
     ["Faction Battle Report: The <Chat_Highlight>{{eventMessageParams.guildName}}</> Club has joined forces to hunt <Chat_Highlight>{{eventMessageParams.killCount}}</> hostile Beyonders in the <Chat_Highlight>City of Dragon Hunting</> today. Wherever the war banner points, the enemy lines crumble!"] = "Боевая сводка фракции: клуб <Chat_Highlight>{{eventMessageParams.guildName}}</> сегодня совместно убил <Chat_Highlight>{{eventMessageParams.killCount}}</> враждебных Потусторонних в <Chat_Highlight>Городе Охоты на Драконов</>. Куда указывает боевое знамя, там ряды врага рушатся!",
     ["Sir, please also look at this. The raw material is gum from the Southern Continent, please try it."] = "Сударь, взгляните и на это. Сырьё — жевательная резинка с Южного континента, прошу, попробуйте.",
+    ["他们是被……魅惑了？看来是魔女力量的影响。先打败他们！"] = "Have they been... Charmed? It seems to be the influence of a Witch's power. Defeat them first!",
+    ["使用相机"] = "Use Camera",
+    ["您的语音房身份标签已被设置为%s"] = "Your voice room identity tag has been set to %s",
+    ["战法徽章生命切换"] = "Tactics Badge Health Switch",
+    ["等待脚踏车现身"] = "Wait for the bicycle to appear",
+    ["花海假日"] = "Flower Sea Holiday",
+    ["获得爆发"] = "Gain Burst.",
     ["之前安保公司的伦纳德先生帮助过我。听说他还是一位“贵族诗人”，我抄写了诗歌……能帮忙转交吗？"] = "Раньше мне помогал господин Леонард из охранной компании. Я слышал, что он тоже «благородный поэт», и я скопировал несколько стихов... не могли бы вы помочь мне передать их?",
     ["这个秘密也被你发现了？我还有个小小的神奇物品……"] = "Эту тайну открыли и вы? Еще у меня есть небольшой мистический предмет...",
 }

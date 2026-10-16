@@ -259,5 +259,10 @@ return {
     ["Why is the ability evaluation 0?"] = "Почему оценка способностей отображается как 0?",
     ["安提哥努斯笔记剧情是什么？"] = "В чём заключается сюжет «Записок Антигонуса»?",
     ["Successfully perform Requiem %d/50 times."] = "Успешно проведите Реквием %d/50 раз.",
+    ["……不，不要提我们的菜。<P_Heart>（欲呕）</>我们的菜是在尸体上长出来的！"] = "...No, don't mention our food. <P_Heart>(Gagging)</> Our food is grown on corpses!",
+    ["使用后获得<Highlight>展台动作・自信</>"] = "Use to obtain <Highlight>Display Action: Confidence</>",
+    ["击退保镖托德"] = "Repel Bodyguard Todd",
+    ["可获得3个<Highlight>圣杯·绑</>、5个<Highlight>体力恢复包</>"] = "Can obtain 3 <Highlight>Holy Grail (Bound)</>, 5 <Highlight>Stamina Recovery Packs</>",
+    ["造成伤害后，使目标的防御降低<HighLight>30%</>，持续<HighLight>3</>秒。"] = "After dealing damage, reduces the target's Defense by <HighLight>30%</> for <HighLight>3</> seconds.",
     ["Mustafa"] = "Мустафа",
 }

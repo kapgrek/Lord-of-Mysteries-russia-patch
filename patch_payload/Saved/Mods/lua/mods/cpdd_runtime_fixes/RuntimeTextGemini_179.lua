@@ -272,6 +272,8 @@ return {
     ["Is it here... Heavens..."] = "Это здесь... Боже...",
     ["Extracting juice from fruits from the Southern Continent, then adding sugar and milk to form a special solid..."] = "Выжимаем сок из фруктов Южного континента, затем добавляем сахар и молоко, чтобы получить особое твёрдое лакомство...",
     ["He said only a Beyonder can unleash its power of \"protection\"."] = "Он сказал, что только Потусторонний может раскрыть его силу «защиты».",
+    ["后两排棋子以<HighLight>当前生命值的80%</>开始战斗，并获得<HighLight>25%伤害加深</>。"] = "Units in the back two rows start combat at <HighLight>80% of their current Health</> and gain <HighLight>25% increased damage dealt</>.",
+    ["累充称号有哪些"] = "What are the cumulative top-up titles?",
     ["我的诗，好像只肯生在这里的灯光下。换个地方，我怕就写不出来了。"] = "Мои стихи словно рождаются лишь под этим светом. Боюсь, в другом месте я уже не смогу ничего написать.",
     ["别说了，听了那些故事，我一整晚都没睡好。"] = "Хватит болтать, я плохо спал всю ночь после того, как услышал эти истории.",
     ["That damn Pinoia deceived me!\n\n	He took 3 pounds from me, but didn't help me pass the exam!\n\n	Damn rat! Thief! I will never let him go!"] = "Проклятый Пинойя обманул меня!\n\n	Он забрал у меня целых 3 золотых фунта, но так и не помог мне сдать экзамен!\n\n	Чёртова крыса! Вор! Я ни за что его не прощу!",

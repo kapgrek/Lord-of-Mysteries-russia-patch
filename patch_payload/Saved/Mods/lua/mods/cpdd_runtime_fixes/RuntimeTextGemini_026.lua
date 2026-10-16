@@ -281,5 +281,13 @@ return {
     ["Have a cigarette, pair it with a cup of tea, and life just goes on, right?"] = "Сигарета, чашка чая — и жизнь продолжается, верно?",
     ["You are the fool! Mom never lied to me, my wish will come true."] = "Это ты дурак! Мама никогда мне не врала, моё желание исполнится.",
     ["A beautifully carved wall-mounted vanity mirror. The mirror surface is clear enough to reflect every detail of your makeup."] = "Красиво резное настенное зеркало для макияжа. Поверхность зеркала достаточно чистая, чтобы отразить каждую деталь макияжа.",
+    ["一言難盡"] = "It's a long story.",
+    ["圣徽净化"] = "Holy Emblem Purification",
+    ["如果俱乐部能做出一点改变就好了……"] = "If only the Club could make a few changes...",
+    ["当然！我打开门窗，用排气扇猛吹，还在观赏区喷洒了香水。但那都只能管一小会，第二天还是那么臭！"] = "Of course! I opened the doors and windows, blasted the exhaust fan, and even sprayed perfume in the viewing area. But that only worked for a little while; it was just as smelly the next day!",
+    ["月光下诞生的美丽错误，堕落命运中的完美欺诈，绯红眷顾的时之化身。"] = "A beautiful Error born under the moonlight, a perfect deception in a fallen fate, the avatar of time favored by the crimson.",
+    ["爆单·食铺"] = "Explosion Order: Food Shop",
+    ["非凡战况"] = "Extraordinary Combat Situation",
+    ["终末猎杀-草丛01逐簇隐匿02"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 02",
     ["Sabrina"] = "Сабрина",
 }

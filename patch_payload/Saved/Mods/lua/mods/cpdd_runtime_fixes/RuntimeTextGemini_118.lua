@@ -269,5 +269,12 @@ return {
     ["他推动工业革命，发明蒸汽机并改良多项技术，推翻因蒂斯王国建立共和国，后改制为帝国自封“凯撒大帝”，最终转途径晋升序列0“黑皇帝” 。"] = "Он продвинул промышленную революцию, изобрёл паровой двигатель и усовершенствовал множество технологий, свергнул Королевство Интис и основал Республику, позже преобразовал её в Империю и провозгласил себя «Императором Цезарем», в итоге сменил Путь и достиг Последовательности 0 «Чёрный Император».",
     ["Alright, even if someone comes here, they won't be affected by the corruption."] = "Хорошо, теперь даже если кто-то придёт сюда, он не пострадает от скверны.",
     ["<InvHighlight>【绒语沙龙】</><InvDefault>专属神眷发型</><InvHighlight>【魅语者】</><InvDefault>也将上线美神馈赠商店，</>"] = "<InvHighlight>【Салон плюшевого шёпота】</><InvDefault> — эксклюзивная причёска Божьей милости </><InvHighlight>【Чаровник】</><InvDefault> также появится в Магазине даров Богини Красоты,</>",
+    ["……干脆进咖啡厅歇一会好了，实在是等累了。"] = "...I might as well go into the Cafe and rest for a while; I'm truly tired of waiting.",
+    ["得快点找出源头，用灵视看看吧。"] = "I need to find the source quickly; let me use spirit vision to take a look.",
+    ["拥抱2_1邻格"] = "Hug 2_1 adjacent grid",
+    ["既可以消化魔药，又可以种出家乡的味道，我最喜欢种菜了！"] = "I can digest my potion and grow the flavors of my hometown at the same time; I love gardening the most!",
+    ["污染……引诱……不要回应……"] = "corruption... temptation... do not respond...",
+    ["费伊女士，您来了？"] = "Ms. Faye, you've arrived?",
+    ["那边有熟悉的身影"] = "There is a familiar figure over there.",
     ["Grady"] = "Грейди",
 }

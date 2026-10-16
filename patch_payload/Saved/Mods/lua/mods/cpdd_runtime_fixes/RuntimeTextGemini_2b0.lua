@@ -267,4 +267,11 @@ return {
     ["Scene Damage Reduction"] = "Снижение урона в сценарии",
     ["空气炮先以直线贯穿前方敌人，再以扇形冲击同一方向。两击各造成<HighLight>230%</>攻击伤害。"] = "Воздушная пушка сначала пронзает врагов по прямой перед собой, затем наносит веерный удар в том же направлении. Каждый из двух ударов наносит <HighLight>230%</> урона от атаки.",
     ["老伦敦贵族庭院餐厅"] = "Ресторан «Дворик старолондонской знати»",
+    ["……又想起来一段记忆，我在船上认识了迪伦，邮差也在。"] = "...I remembered another memory; I met Dylan on the ship, and the postman was there too.",
+    ["出现后尽快远离拉断连线。"] = "Move away as soon as it appears and break the connection.",
+    ["后期研修：最大生命值和攻速+12%。"] = "Advanced Training: Max Health and Attack Speed +12%.",
+    ["嘘！不要告诉菲尔尼克我躲在这里。"] = "Shh! Don't tell Philnick that I'm hiding here.",
+    ["对，我不是迪伦，我必须让我的意识稳定下来……"] = "Yes, I am not Dylan. I must stabilize my consciousness...",
+    ["打开后随机获得1件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色装备，有较低概率额外获得1件非绑的<Highlight>60装等</>的<Highlight>竞技倾向</>装备。"] = "Open to randomly receive 1 piece of <Highlight>60 item level</> <Highlight>Competition-oriented</> orange equipment, with a lower probability of additionally receiving 1 unbound piece of <Highlight>60 item level</> <Highlight>Competition-oriented</> equipment.",
+    ["结合已经知道的信息……"] = "Combining the information already known...",
 }

@@ -263,6 +263,13 @@ return {
     ["Thick gold-rimmed square glasses, reminiscent of a serious and disciplined archivist in a university library."] = "Толстые квадратные очки в золотой оправе — напоминание о серьёзном и дисциплинированном архивариусе университетской библиотеки.",
     ["一个愚蠢到寸步难行的人，却有幸出生在一个不用为了生计发愁的富贵人家。"] = "Человек, настолько глупый, что и шагу ступить не может, но которому посчастливилось родиться в богатой семье, где не нужно беспокоиться о хлебе насущном.",
     ["I won't be submitting to the Backlund Post anymore, anyway."] = "В любом случае, я больше не буду писать для «Бэкландской почты».",
+    ["五月庄园徽章"] = "May Manor Badge",
+    ["偷跑服四区"] = "Early Access Server Zone 4",
+    ["可是，老大说……"] = "But, the boss said...",
+    ["君临・深渊"] = "Monarch - Abyss",
+    ["打开后可从指定的<Highlight>66装等</>橙色烙印装备中自选获得一件。"] = "Open to choose one piece of orange Brand Equipment from the specified <Highlight>Item Level 66</> items.",
+    ["简介/尊名"] = "Introduction/Honorific Name",
+    ["雪山古堡商路"] = "Snowy Mountain Ancient Castle Trade Route",
     ["但是妈妈不让我和芬妮一起玩。"] = "Но моя мать не разрешила мне играть с Фанни.",
     ["等待时间  对象同场景传送到指定Trigger"] = "Время ожидания; объект телепортируется к указанному триггеру в той же сцене",
 }

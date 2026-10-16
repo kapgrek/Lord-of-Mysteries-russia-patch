@@ -283,4 +283,13 @@ return {
     ["Hidden Space - Shadow Escape - Sealed Door Permanent 3"] = "Скрытое пространство - Побег тени - Постоянная запечатанная дверь 3",
     ["您取消了语音保存。"] = "Вы отменили сохранение голосового сообщения.",
     ["提高穿刺310，释放人脉技能、秘偶技能时，穿刺额外提高205，持续10秒。每10秒最多触发一次。"] = "Повышает пронзание на 310. При использовании техники связей или техники тайного партнёра пронзание дополнительно повышается на 205 на 10 сек. Срабатывает не чаще раза в 10 сек.",
+    ["<P_Yellow>小丑</>：看见那个倒霉蛋了吗？想救他，就来找我吧！"] = "<P_Yellow>Clown</>: See that poor soul? If you want to save him, come find me!",
+    ["俱乐部宣战单场个人积分达到200分"] = "Reach 200 individual points in a single Club War match",
+    ["再战宝箱·子爵夫人·普通"] = "Rematch Chest · Viscountess · Normal",
+    ["单局内己方相连据点数达到4个"] = "Connect 4 friendly strongholds in a single match",
+    ["古堡西部"] = "West of the Ancient Castle",
+    ["寻找<h>迪伦</>"] = "Find <h>Dylan</>",
+    ["库存：%s"] = "Inventory: %s",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}, Shield: <img id=\"01\" width=\"40\" height=\"40\"/>Max Health × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}",
+    ["污染追踪"] = "Corruption Tracking",
 }

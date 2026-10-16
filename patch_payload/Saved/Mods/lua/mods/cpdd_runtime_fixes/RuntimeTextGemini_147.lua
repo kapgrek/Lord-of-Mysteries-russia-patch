@@ -252,6 +252,10 @@ return {
     ["Flowers, flowers, fresh flowers from outside Tingen city!"] = "Цветы, цветы, свежие цветы из-за города Тинген!",
     ["Reasonable prices, large quantities accepted, anyone selling rats, come over here!"] = "Разумные цены, принимаю в больших количествах, кто продаёт крыс — подходите сюда!",
     ["Oh bastard, you've almost won all the money I made selling vegetables today, this is the last round."] = "Ах ты негодяй, ты почти выиграл все деньги, что я заработал сегодня на продаже овощей, это последний раунд.",
+    ["发动冲锋盾击，随后借势跳砸，对敌人附加衰败（持续造成伤害）并造成伤害和控制，对敌方玩家额外造成减疗，对友方玩家解除弱控附加减伤，自身获得黄昏印记（用于强化怒意猛击和终结技能）。使用后解锁王庭号令。"] = "Perform a Charge Shield Bash, followed by a momentum-based Jump Smash, applying Decay (continuous damage) to enemies while dealing damage and crowd control. It deals additional Healing Reduction to enemy players and removes Soft Crowd Control while adding Damage Reduction to allied players. You gain a Twilight Mark (used to Strengthen Angry Slam and Finisher Skill). Unlocks Royal Court Command after use.",
+    ["周日8点刷新"] = "Refreshes at 8:00 on Sunday",
+    ["【自走棋装备】海之言击杀1格爆发"] = "[Auto Chess Equipment] Sea God's Scepter kill 1-grid Burst",
+    ["终末猎杀-草丛22合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 22 Merged Concealment 03 (Includes 2 original areas)",
     ["Alowen"] = "Алоуэн",
     ["Miguel"] = "Мигель",
 }

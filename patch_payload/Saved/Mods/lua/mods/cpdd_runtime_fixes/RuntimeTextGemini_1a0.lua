@@ -265,6 +265,12 @@ return {
     ["这样，你就可以一直陪我玩了。\n可不能随便离开哦！"] = "Так ты сможешь играть со мной всегда.\nНельзя просто взять и уйти!",
     ["不，多半会被评估定级，成为封印物。幸好它的负面影响并不严重，经过一些处理，也可以完全避免。"] = "Нет, скорее всего его оценят и присвоят уровень, сделав Запечатанным Артефактом. К счастью, его негативное воздействие не так серьёзно, и после некоторой обработки его можно полностью избежать.",
     ["5230043   恶龙酒吧后巷   位面"] = "5230043   Задний переулок бара «Злой дракон»   План",
+    ["不知道，总不至于是一篇小说。"] = "I don't know, it surely can't be a novel.",
+    ["我……我刚才……阿蒙他？！"] = "I... I just... Amon, he?!",
+    ["现在也不是咱们谈好价格的日子呀。"] = "Now is not the day for us to discuss the price either.",
+    ["芒果"] = "Mango",
+    ["部分飞升效果"] = "Partial Ascension effect",
+    ["【自走棋】-子爵夫人-四段斩-普攻1-新技能案例-子技能-范围Atk1"] = "[Auto Chess] - Viscountess - Four-Stage Slash - Basic Attack 1 - New Skill Case - Sub-skill - Area Atk 1",
     ["击败指定InstanceID的怪物  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Победить монстра с указанным InstanceID; игрок воспроизводит текст реплики, видимый только себе; задержка выполнения; игрок воспроизводит текст реплики, видимый только себе",
     ["Dragon's roar is coming.\nI will not fear heights, fear fire, or retreat. I will not cling to a warm bed, or covet comfort, or bow to horror.\nThis mediocre life of mine is destined to be glorious.\nI will plant the flag at the highest place.\nI am the spear piercing the dragon's heart, the shield in the dragon's fire, the horn in the storm, the light in the darkness.\nOffer my life and heart for dragon hunting!\n\nDragon Hunter: Kevin Stock   Ray Bieber"] = "Приближается драконий рёв.\nЯ не убоюсь высоты, не устрашусь пламени, не отступлю назад. Я не буду нежиться в тёплой постели, не прельщусь покоем, не склонюсь перед страхом.\nМоя заурядная жизнь обречена стать ослепительно яркой.\nЯ водружу знамя на высочайшей вершине.\nЯ — копьё, разящее сердце дракона, несокрушимый щит в драконьем пламени, горн среди бури, луч света во тьме.\nОтдадим жизнь и сердце охоте на драконов!\n\nОхотники на драконов: Кевин Сток, Рэй Бибер",
 }

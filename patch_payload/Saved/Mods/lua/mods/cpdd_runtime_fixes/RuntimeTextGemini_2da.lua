@@ -282,4 +282,9 @@ return {
     ["<P_Heart> (His eyeballs are moving slightly; he is thinking about something, and he is very clear-headed.) </>"] = "<P_Heart> (Его глаза слегка двигаются — он о чём-то думает, и разум его совершенно ясен.) </>",
     ["A stack of yellowed manuscripts recording meditation methods for Mystery Pryers, advanced techniques for spiritual perception, and research on the Hidden Sage."] = "Стопка пожелтевших рукописей, где записаны методы медитации Жрецов Тайн, продвинутые техники восприятия Духовности, а также исследования о Скрытом Мудреце.",
     ["不如……就按丽贝卡说的，去贝克兰德看看吧。"] = "Пожалуй... сделаем, как сказала Ребекка — съездим в Бэкланд и посмотрим.",
+    ["守护的黎明-准备好了"] = "Dawn of the Guard - Ready",
+    ["月亮仆从徽章追伤"] = "Moon Servant Badge Bonus Damage",
+    ["艾登，看来你已经想明白了。怎么，终于有话想问我了？"] = "Aiden, it seems you've figured it out. What's the matter? Finally have something you want to ask me?",
+    ["要不你也来试试？集中注意力。"] = "Why don't you give it a try? Focus your attention.",
+    ["附近玩家可卸载配料-大石头"] = "Nearby players can unload ingredient - Large Stone",
 }

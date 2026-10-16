@@ -290,4 +290,12 @@ return {
     ["In competition mode, <Highlight> defeat </> %s/%s Mystery Pryers"] = "В арене <Highlight>победите</> %s/%s Соглядатаев",
     ["If I had read more books when I was a child, would my life have been less difficult?"] = "Если бы я читал больше книг в детстве, была бы моя жизнь не такой трудной?",
     ["Bystander Citizen"] = "Случайный горожанин",
+    ["前去调查"] = "Go to investigate",
+    ["四皇的战争……历史的记忆……"] = "The war of the Four Emperors... the memories of history...",
+    ["太好了，终于没有人来打扰我了。"] = "Great, finally no one is here to disturb me.",
+    ["如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">【冰鲜雪贝薄片】</>数量增加<LightHighlight>150%</>，否则，物产出售价格<LightHighlight>-40%</>"] = "If the next stop <LightHighlight>is [Trading Post]</>, the quantity of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30308\">[Chilled Snow Shell Slices]</> currently held increases by <LightHighlight>150%</>; otherwise, the selling price of goods is <LightHighlight>-40%</>.",
+    ["用灵视调查"] = "Investigate with spirit vision",
+    ["铠甲金属"] = "Armor Metal",
+    ["风衣领口"] = "Trench Coat Collar",
+    ["高级种子，使用后召唤命运人偶"] = "Advanced Seed, use to Summon a Fate Marionette",
 }

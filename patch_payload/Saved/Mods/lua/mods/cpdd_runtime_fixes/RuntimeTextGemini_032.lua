@@ -279,5 +279,12 @@ return {
     ["Am I Dylan?"] = "Я — Дилан?",
     ["The other party is currently in a cross-server scene and cannot respond to the request."] = "Собеседник сейчас находится в межсерверной сцене и не может ответить на запрос",
     ["The two passwords do not match. Please re-enter."] = "Введённые пароли не совпадают, повторите ввод",
+    ["1、参与战略服玩法，可获得征服声望和战功；\n2、征服声望达到对应值，可提高个人征服军衔等级，获得对应奖励并解锁对应功能；\n3、军衔等级九至四为自动升级，军衔等级三至一需手动升级；\n4、10月11日胜者宣言大会后将无法再获得征服声望；\n5、每累计获得200战功，可获得1个战略随机礼包，每周至多获得20个。"] = "1. Participate in Strategic Server modes to earn Conquest Reputation and Battle Merits.\n2. Reach the corresponding Conquest Reputation to increase your personal Conquest Rank, obtain rewards, and unlock features.\n3. Ranks 9 through 4 upgrade automatically; Ranks 3 through 1 require manual upgrading.\n4. Conquest Reputation can no longer be earned after the Victor's Declaration assembly on October 11th.\n5. For every 200 Battle Merits accumulated, you can obtain 1 Strategic Random Gift Box, up to a maximum of 20 per week.",
+    ["功能_不可选中+不受伤害"] = "Function_Untargetable + Invulnerable",
+    ["我进来以后，遇到的每个人都不对劲，他们的外形、身份，甚至性别都错位了……"] = "Ever since I came in, everyone I've met has been wrong. Their appearance, identity, and even their gender are all mismatched...",
+    ["拥抱1_7邻格"] = "Hug 1_7 adjacent grid",
+    ["普通-表现-飞刀"] = "Normal - Performance - Flying Dagger",
+    ["隐秘空间-小丑3-黑桃A"] = "Hidden Space-Clown 3-Ace of Spades",
+    ["隐秘空间-跳跃测试-蓝平台默认状态(缩小)"] = "Hidden Space-Jump Test-Blue Platform Default State (Shrunk)",
     ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
 }

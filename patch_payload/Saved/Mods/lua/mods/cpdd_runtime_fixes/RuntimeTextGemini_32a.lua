@@ -272,4 +272,8 @@ return {
     ["从迷雾树人本体剥离的核心根部，极具灵性。"] = "Стержневой корень, отделённый от тела Мглистого древня, обладает высокой Духовностью.",
     ["离开梦境·定位·卡萝"] = "Покинуть сон · Определение · Карол",
     ["集齐15个可以获得秘偶头狼，也可用于秘偶头狼的培养。"] = "Соберите 15 штук, чтобы получить марионетку «Вожак». Также используется для её развития.",
+    ["万都之都场景任务占位"] = "City of Cities Scene Quest Placeholder",
+    ["使用后获得<Highlight>动态名片主题・圣堂</>"] = "Use to obtain <Highlight>Animated Namecard Theme: Cathedral</>",
+    ["机巧疯帽"] = "Mechanical Mad Hatter",
+    ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Roselle Boss - Password Phase - Check if 84015136 is present on player",
 }

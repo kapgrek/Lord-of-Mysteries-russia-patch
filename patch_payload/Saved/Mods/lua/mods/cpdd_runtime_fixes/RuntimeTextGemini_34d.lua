@@ -269,5 +269,12 @@ return {
     ["Tarot Club · Leonard: 4-person tier increment, all allies Life Steal +1%."] = "Клуб Таро · Леонард: бонус уровня «4 игрока», вся команда +1% похищения жизни.",
     ["他是一位很有前途的占卜师，可惜已经好些年没见到他了。"] = "Он был очень многообещающим предсказателем, но, к сожалению, я не видел его уже много лет.",
     ["5231171 Wang Xingyi Personal Test Instance - Single-player Instance"] = "5231171   Личный тестовый план Ван Синъи   Одиночный план",
+    ["<Highlight>持有者</>：伦纳德→克莱恩。\n<Highlight>外形</>：红色手套。\n<Highlight>非凡能力</>：\n1）能提高使用者的魅力，让他的话语具备极强的说服力；\n2）能在50米范围内窃取目标的一项非凡能力，对目标越了解，越容易窃取到想要的那项，越无知，越接近随机，依赖运气。"] = "<Highlight>Holder</>: Leonard → Klein.\n<Highlight>Appearance</>: Red gloves.\n<Highlight>Beyonder Ability</>:\n1) Can increase the user's charm, making their words possess extremely strong persuasiveness;\n2) Can steal a Beyonder ability from a target within 50 meters. The more one knows about the target, the easier it is to steal the desired ability; the more ignorant one is, the more random it becomes, relying on luck.",
+    ["塔罗·克莱恩·莫雷蒂·基础"] = "Tarot Klein Moretti Base",
+    ["就像……我明明想回家，却因为它，不断放弃，变得胆怯。"] = "It's just like... I clearly want to go home, but because of it, I keep giving up and becoming filled with Timidity.",
+    ["想要闪避"] = "Want to Dodge",
+    ["找个人少的地方【可能改自定义】"] = "Find a secluded spot [Subject to custom change]",
+    ["时间不多，行动起来吧！"] = "Time is running out, let's move!",
+    ["黄铜书_子嗣守护_1目标_Buff84007624"] = "Brass Book_Offspring Protection_1 Target_Buff84007624",
     ["……这群家伙居然在南瓜里下药！"] = "...Эти ребята на самом деле травят тыквы!",
 }

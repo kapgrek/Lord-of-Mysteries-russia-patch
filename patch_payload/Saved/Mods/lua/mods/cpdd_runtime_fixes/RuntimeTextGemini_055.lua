@@ -275,5 +275,10 @@ return {
     ["<Assistant_Title1>Unrivaled Battle Merit</>\n<Assistant_Title2>Achievement Category: </>War-Driven; Faction\n<Assistant_Title2>Unlock Condition: </>Accumulate 20,000 battle merit in this cycle."] = "<Assistant_Title1>Несравненная боевая заслуга</>\n<Assistant_Title2>Категория достижения: </>Война ради войны; Фракция\n<Assistant_Title2>Условие разблокировки: </>Накопить 20 000 очков боевой заслуги в этом цикле.",
     ["Mr. {{ Ms. |}}, the show starts at seven tonight. You can see it if you walk to the end of Backlund Avenue. Interested?"] = "{{Господин|Госпожа}}, представление начинается в семь вечера. Идите до конца проспекта Бэкланд, и вы его увидите. Интересно?",
     ["A commotion comes from a corner of Minsk Street. Rumors of ghosts? Gangster intimidation? Or is there something else going on..."] = "Шум доносится с угла Улицы Минск. Слухи о призраках? Угрозы банды? Или дело в чём-то ещё...",
+    ["一只手掌就能托住的宇宙，也装下了无数对命运的发问。"] = "A universe that can be held in the palm of a hand also contains countless questions about fate.",
+    ["可获得30000个<Highlight>联盟货钞</>"] = "Can obtain 30,000 <Highlight>Alliance Currency</>",
+    ["在这个城市里，只有怪物能活下去，只有怪物，能拥有想要的一切。"] = "In this city, only monsters can survive; only monsters can possess everything they desire.",
+    ["战意点燃"] = "Battle Intent Ignited",
+    ["花海三站商路"] = "Flower Sea Three-Station Trade Route",
     ["获得指定道具  对象发送AI与场景事件  玩家发送任务道具"] = "Получить указанный предмет; объект отправляет AI и событие сцены; игрок отправляет квестовый предмет.",
 }

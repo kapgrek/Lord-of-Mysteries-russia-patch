@@ -256,5 +256,13 @@ return {
     ["势力关系：同势力为友方，其他势力为敌方。\n分线人数：每条分线单个势力最多160人。\n战略服讨伐巨龙：每周四、周六\n　　19:00—20:00开放，19:10现身。\n现身地点：猎龙城王城中心。"] = "Отношения фракций: одна фракция — союзники, другие фракции — враги.\nЧисленность канала: на каждом канале не более 160 человек от одной фракции.\nОхота на дракона на стратегическом сервере: каждый четверг и субботу\n　　открыта с 19:00 по 20:00, дракон появляется в 19:10.\nМесто появления: центр королевской столицы Города охоты на драконов.",
     ["As expected of a student from the Mechanical College..."] = "Как и ожидалось от студента Механического колледжа...",
     ["Prologue Flow Version-Magic Circle II"] = "Версия пролога — Магический круг II",
+    ["san药"] = "SAN Potion",
+    ["使用后获得<Highlight>动态名片主题・黄黑之咪</>"] = "Use to obtain <Highlight>Animated Namecard Theme: Yellow-Black Kitty</>",
+    ["往昔之书：谢谢你，帮我破坏了老头子封印图书馆的仪式魔法！"] = "Book of the Past: Thank you for helping me disrupt the Ritual Magic the old man used to seal the Library!",
+    ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>715%</> = {*d,F1690001,atkMin,7.15}点"] = "Total Damage: <img id=\"03\" width=\"40\" height=\"40\"/>Attack × <HighLight>715%</> = {*d,F1690001,atkMin,7.15}",
+    ["战略服势力调整提醒"] = "Strategic Server Faction Adjustment Reminder",
+    ["找个<h>人少的地方</>"] = "Find a <h>secluded spot</>",
+    ["爆单·酒庄生效，卖价+150%"] = "Explosion Order: Winery active; selling price +150%.",
+    ["玩家秘偶-奇迹牌雨 改 测试验证用"] = "Player marionette - Miracle Card Rain (Modified for test verification)",
     ["<Highlight>Craft: </>Flowing Light Silk/Scale Powder Pointing\nAlthough the butterfly has already left at dusk, the phantom of its wings still lingers on the cloak."] = "<Highlight>Мастерство: </>Струящийся шелк · Роспись чешуйчатой пыльцой\nХотя бабочка уже улетела в сумерках, фантом её крыльев всё ещё задерживается на плаще.",
 }

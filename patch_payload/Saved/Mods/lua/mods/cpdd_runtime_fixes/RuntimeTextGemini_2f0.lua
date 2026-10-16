@@ -278,6 +278,13 @@ return {
     ["Event Rules"] = "Правила события",
     ["Go ahead, my true love is in... snore, snore..."] = "Давай, моя настоящая любовь в... храп, храп...",
     ["【秘偶技】子爵夫人幽灵"] = "【Навык марионетки】Призрак виконтессы",
+    ["{{PlayerName}}，你应该去找邮差，想办法把自己和迪伦的身份换回来！"] = "{{PlayerName}}, you should go find the postman and find a way to switch your identity back with Dylan's!",
+    ["<Assistant_Title1>【幽邃亲王】</>\n<Assistant_Title2>称号描述：</>专属累充称号。\n<Assistant_Title2>获取途径：</>累计充值获取。\n<Assistant_Title2>称号效果：</>独特外观展示，可在个人主页中佩戴。"] = "<Assistant_Title1>【Prince of the Abyss】</>\n<Assistant_Title2>Title Description:</> Exclusive cumulative recharge title.\n<Assistant_Title2>Acquisition Method:</> Obtained through cumulative recharge.\n<Assistant_Title2>Title Effect:</> Unique appearance display, can be equipped on your personal profile.",
+    ["偷窃者自身增加值"] = "Stealer's own bonus value",
+    ["我当然收了，但{{他|她}}把烛台放回来了！"] = "I certainly accepted it, but {{he|she}} put the candlestick back!",
+    ["没错，你不是迪伦，我才是你。"] = "That's right, you aren't Dylan; I am you.",
+    ["罗塞尔Boss困难-2阶段-镜像数据-护盾击中"] = "Roselle Boss Hard - Phase 2 - Mirror Data - Shield Hit",
+    ["车队等级达到27级"] = "Caravan level reaches 27",
     ["我怎么什么都没看懂？"] = "Почему я ничего из этого не понял?",
     ["花？好看是好看，顶啥用？一个便士买花儿都算大钱！能花多少？二十便士顶天了吧？"] = "Цветы? Выглядят хорошо, но для чего они нужны? Копейка на цветы – это большие деньги! Сколько это может стоить? Самое большее двадцать пенсов, верно?",
 }

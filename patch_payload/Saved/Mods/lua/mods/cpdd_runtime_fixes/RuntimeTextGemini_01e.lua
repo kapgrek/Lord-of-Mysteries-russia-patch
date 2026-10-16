@@ -288,5 +288,12 @@ return {
     ["That Creator once said: Let there be light. And so, the divinity beneath His throne acts as an agent through the halo."] = "Тот Создатель некогда сказал: Да будет свет. И тогда божественность у Его престола стала выражаться через ореол.",
     ["Remember the first time I came here? I didn't want to work at all; I just wanted you to sign something so I could get church relief."] = "Помнишь, как я пришёл в первый раз? Я вовсе не хотел работать, просто хотел, чтобы ты подписал бумагу, чтобы я мог получить церковное пособие.",
     ["您好，尊敬的客户，有什么能为您服务的吗？"] = "Здравствуйте, уважаемый клиент, чем я могу вам помочь?",
+    ["1、<Highlight>上榜规则</>：当前赛季神铸名车改装风尚值达到3000分，且该车辆风尚度在俱乐部排名前6的，即可获得俱乐部车位展示资格。\n2、<Highlight>刷新时机</>：装配车辆、加入或退出俱乐部时，将刷新车辆排名及展示资格。"] = "1. <Highlight>Ranking Rules</>: If the current season's Divine Forged car modification style value reaches 3000 points, and the vehicle's style rating is in the top 6 of the Club, you can obtain the qualification for Club parking space display.\n2. <Highlight>Refresh Timing</>: When equipping a vehicle, joining, or exiting a Club, the vehicle ranking and display qualification will be refreshed.",
+    ["双旦活动-提交点-未提交"] = "Double Festival Event - Submission Point - Not Submitted",
+    ["如果不是……就找机会问清楚。"] = "If it's not... then find an opportunity to clarify.",
+    ["安东尼&文森特"] = "Anthony & Vincent",
+    ["情绪场"] = "Emotion Field",
+    ["结束窃影玩法"] = "End Shadow Stealing gameplay",
+    ["非凡！非凡！"] = "Extraordinary! Extraordinary!",
     ["丰饶的气息……或许也是一种扭曲和污染，一种背叛和诅咒……"] = "Аромат изобилия... возможно, это тоже своего рода искажение и порча, своего рода предательство и проклятие...",
 }

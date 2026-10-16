@@ -268,6 +268,12 @@ return {
     ["进入廷根湖场景以解锁。"] = "Разблокируется входом в локацию «Озеро Тинген».",
     ["所以，躺在这里，听着不远处隐隐约约的音乐，才是最惬意的享受。"] = "Поэтому лежать здесь и слушать доносящуюся издалека музыку — вот истинное удовольствие.",
     ["先生，这会就在喝酒了吗？"] = "Сударь, вы уже пьёте в такой час?",
+    ["复制邓恩过肩镜头"] = "Copy Dunn's over-the-shoulder shot",
+    ["康纳德子爵这段时间都没来，我想，应该也是受不了这里的气味。我们还是走吧。"] = "Viscount Conrad hasn't come by lately. I think he probably couldn't stand the smell here either. Let's go.",
+    ["灰雾之上的力量，帮助你看透虚假。"] = "The power above the gray fog helps you see through falsehoods.",
+    ["破甲法器"] = "Armor Break Artifact",
+    ["评论和@"] = "Comments and @mentions",
+    ["轻快的节奏如春日微风，快乐在每个音符中跳跃。"] = "The light rhythm is like a spring breeze, with joy jumping in every note.",
     ["Kingston"] = "Кингстон",
     ["4 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }
