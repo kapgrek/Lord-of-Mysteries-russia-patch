@@ -40,7 +40,7 @@ return {
     ["The secret ritual to sacrifice to the Mother Goddess of Depravity requires a massive amount of flesh and soul, accompanied by extreme madness and chaos."] = "Тайный ритуал принесения жертвы Богине-Матери Разврата требует огромного количества плоти и души и сопровождается крайним безумием и хаосом.",
     ["Search Range (cm)"] = "Дальность поиска (см)",
     ["Comfort with words"] = "Комфорт со словами",
-    ["Blackthorn reception"] = "Чёрный Чертополох прием",
+    ["Blackthorn reception"] = "Ресепшен «Чёрный Терновник»",
     ["Find Ella's <h> hat </>"] = "Найдите шляпу <h> Эллы </>.",
     ["Accumulate %d/80 successful charms on Beyonders"] = "Накопите успешные талисманы %d/80 на Потусторонние.",
     ["Thank you for your help. Please, you must find Karl."] = "Спасибо за помощь. Пожалуйста, вы должны найти Карла.",

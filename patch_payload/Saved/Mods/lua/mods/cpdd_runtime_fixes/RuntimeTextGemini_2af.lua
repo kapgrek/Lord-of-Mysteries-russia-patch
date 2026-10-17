@@ -1,7 +1,7 @@
 -- Generated for Lord of the Mysteries Russian Translation (v2.6-RU)
 -- Lazy exact-text shard 2af/3ff.
 return {
-    ["Unlocks <Highlight>Emote: Smile</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "При использовании открывает <Highlight>эмоцию «Улыбка»</>; при повторном получении автоматически распыляется на привязанные сули.",
+    ["Unlocks <Highlight>Emote: Smile</> upon use; duplicate acquisitions will automatically decompose into bound Soles."] = "При использовании открывает <Highlight>эмоцию «Улыбка»</>; при повторном получении автоматически распыляется на привязанные суле.",
     ["The surroundings are shrouded in fog"] = "Все вокруг окутано туманом.",
     ["A Living Legend—Emperor Roselle"] = "Живая легенда — Император Розель",
     ["Play Interactive Cutscene"] = "Воспроизвести интерактивную кат-сцену",
@@ -209,7 +209,7 @@ return {
     ["血棘之誓环"] = "Клятвы кольца кровавого шипа",
     ["裁决之剑"] = "Меч Правосудия",
     ["解锁所有系统，加buff调技能，达到CBT2的60级"] = "Разблокируйте все системы, добавьте усиления, настройте навыки, достигните 60-го уровня ЗБТ2.",
-    ["赞美罗塞尔大帝，他简直是一位超越时代的巨人。"] = "Слава императору Розелле, он просто гигант, вышедший за пределы эпохи.",
+    ["赞美罗塞尔大帝，他简直是一位超越时代的巨人。"] = "Слава императору Розелю, он просто гигант, вышедший за пределы эпохи.",
     ["越肩模式1（测试）"] = "Режим «через плечо» 1 (тестовый)",
     ["迎击第一波尸潮(1/3)"] = "Вступите в бой с первой волной орды зомби (1/3)",
     ["还不能立即确定，但库克不会承认这一失误。可能只有擅闯后厨这个办法了……"] = "Это невозможно подтвердить сразу, но Кук не признает этой ошибки. Возможно, единственный способ - пробраться на кухню...",
@@ -275,7 +275,7 @@ return {
     ["Your sister?"] = "Твоя сестра?",
     ["不知道你是否听说过，二十一年前轰动了整个廷根市的连环杀手。"] = "Не знаю, слышал(а) ли ты о серийном убийце, который двадцать один год назад потряс весь город Тинген.",
     ["也是一群 时刻对抗着危险和疯狂的"] = "а также группа тех, кто постоянно противостоит опасности и безумию",
-    ["10 soli for one?! You're not joking, are you? The rats in this town—"] = "10 солей за одну?! Вы же не шутите? Крысы в этом городке...",
+    ["10 soli for one?! You're not joking, are you? The rats in this town—"] = "10 суле за одну?! Вы же не шутите? Крысы в этом городке...",
     ["May Manor Order World completion reached 30%%"] = "Прогресс мира порядка Майского поместья достиг 30%%",
     ["Use to obtain <Highlight>Avatar: Old Neil</>"] = "После использования вы получите <Highlight>Аватар: Старый Нил</>",
     ["使用后获得<Highlight>踏浪而来发型</>"] = "После использования вы получите <Highlight>Причёску «Идущий по волнам»</>",
@@ -290,7 +290,7 @@ return {
     ["Reality Line Chapter 6 - The postman takes a seat"] = "Реальная линия, глава 6 - Почтальон садится",
     ["Business? Good, good, good! Tell me!"] = "Дело? Отлично, отлично! Рассказывайте!",
     ["Check it with <h>spirit vision</>"] = "Проверить с помощью <h>Истинного Зрения (Духовного)</>",
-    ["Final Hunt Bush Invisibility; Bush Group 24"] = "Охота «Конец времён»: невидимость в траве; группа травы 24",
+    ["Final Hunt Bush Invisibility; Bush Group 24"] = "«Финальная охота»: невидимость в траве; группа травы 24",
     ["Veterans Club\r\n<LeonSubTitle size=\"28\">Veterans Club</>"] = "Клуб отставных офицеров\n<LeonSubTitle size=\"28\">Veterans Club</>",
     ["Gain an additional <HighLight>55</> points of Defense, with an extra <HighLight>20%</> for the first <HighLight>10</> seconds."] = "Дополнительно получает <HighLight>55</> ед. защиты, в первые <HighLight>10</> сек. ещё на <HighLight>20%</> больше.",
     ["Deceive"] = "Обман",

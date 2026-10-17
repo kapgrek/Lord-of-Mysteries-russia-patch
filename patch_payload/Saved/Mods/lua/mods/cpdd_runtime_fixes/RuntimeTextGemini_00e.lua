@@ -2,7 +2,7 @@
 -- Lazy exact-text shard 00e/3ff.
 return {
     ["Fool's Dream - Player Transform Sight"] = "Сон Шута: обзор превращения игрока",
-    ["Use to unlock <Highlight> single social action: Coin Divination </>; if obtained repeatedly, it will automatically decompose into bound Soli."] = "Используйте, чтобы открыть <Highlight>одиночное действие: «Гадание на монете»</>. При повторном получении автоматически распыляется на персональные соли.",
+    ["Use to unlock <Highlight> single social action: Coin Divination </>; if obtained repeatedly, it will automatically decompose into bound Soli."] = "Используйте, чтобы открыть <Highlight>одиночное действие: «Гадание на монете»</>. При повторном получении автоматически распыляется на привязанные суле.",
     ["Huh? We are Beyonders!"] = "А? Мы ведь Потусторонние!",
     ["Respected {{Mr.|Ms.}}, you can take a long-distance carriage to Tingen Lake here!"] = "Уважаемый {{господин|госпожа}}, здесь можно сесть на междугородный экипаж до озера Тинген!",
     ["-1表示保持原速"] = "-1 означает сохранение исходной скорости.",
@@ -154,7 +154,7 @@ return {
     ["Possess outstanding body control, capable of making exaggerated expressions and comical movements. The body is like a blank sheet of paper, capable of transformation. Master abilities like Paper Figurine Substitute and Flame Jump to elegantly escape danger."] = "Выдающийся контроль над собственным телом позволяет принимать гротескные выражения лица и совершать комичные движения. Тело податливо, словно чистый лист бумаги: овладев «Бумажным заместителем», «Прыжком через пламя» и другими способностями, вы сможете изящно избегать любых опасностей.",
     ["Is the textile factory a prison?"] = "Неужели текстильная фабрика — это тюрьма?",
     ["Subsequent quests will open in %d hours and %d minutes."] = "Следующие задания откроются через %d ч. %d мин.",
-    ["Return to <h>Blackthorn Security Company</>"] = "Вернуться в <h>охранную компанию «Черный Шип»</>",
+    ["Return to <h>Blackthorn Security Company</>"] = "Вернуться в <h>охранную компанию «Чёрный Терновник»</>",
     ["Leonard Partner Skill - Tier 1 Special Attack Aura"] = "Навык спутника Леонарда — Аура спецатаки 1-го ранга",
     ["Current Rank: 9187"] = "Текущий ранг: 9187",
     ["Can obtain 10 <Highlight> Beyonder material </>, 15 <Highlight> Gear Sealing Wax - Competition </>"] = "Можно получить 10 ед. <Highlight>потустороннего вещества</> и 15 ед. <Highlight>шестереночного сургуча (состязания)</>",

@@ -53,7 +53,7 @@ return {
     ["1. <Highlight> Rapport and Level: </> Complete weekly Family quests to gain Rapport and increase the Family level. The weekly Rapport acquisition cap is <Highlight> 2000 points </>. \n 2. <Highlight> Weekly Quests: </> Family members can form teams to participate in corresponding gameplay to earn Rapport. Completing each quest for the first <Highlight> several times </> in the current week grants <Highlight> high-multiplier Rapport </>. After exceeding the high-multiplier count, only standard Rapport bonuses can be obtained. Quests <Highlight> refresh weekly </>."] = "1. <Highlight>Слаженность и уровень: </>выполняйте еженедельные задания семьи, чтобы накапливать слаженность и повышать уровень семьи (не более <Highlight>2000 очков</> в неделю).\n2. <Highlight>Еженедельные задания: </>члены семьи в составе группы могут зарабатывать очки слаженности в соответствующих активностях. За первые <Highlight>несколько</> прохождений каждого задания начисляется <Highlight>повышенная слаженность</>, далее — стандартная прибавка. Задания <Highlight>обновляются каждую неделю</>.",
     ["Current face data has not been saved. Confirm exiting smart face-shaping mode?"] = "Текущие данные о лице не сохранены. Подтвердить выход из режима умной коррекции лица?",
     ["What is your expectation?"] = "Чего вы ожидаете?",
-    ["Alger Partner Skill - Vortex Slow"] = "Алжирский партнерский навык — Vortex Slow",
+    ["Alger Partner Skill - Vortex Slow"] = "Партнерский навык Элджера — Замедление вихрем",
     ["Skirt Armor"] = "Юбка Броня",
     ["Performance Target: <PerformanceRed>1000</>/<PerformanceNum>3000</>"] = "Цель производительности: <PerformanceRed>1000</>/<PerformanceNum>3000</>.",
     ["Are you looking for me?"] = "Ты ищешь меня?",

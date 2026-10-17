@@ -205,7 +205,7 @@ return {
     ["Critical Hit Breath Recovery"] = "Восстановление дыхания при критическом ударе",
     ["10 Gold Coin Draw"] = "Розыгрыш 10 золотых монет",
     ["Achievement - Treasure Seeker"] = "Достижение - Искатель сокровищ",
-    ["That's because I've already applied to exchange my merit for other things. Blackthorn needs some new Equipment, as well as various extra charms and materials."] = "Это потому, что я уже подал заявку на обмен своих заслуг на другие вещи. Блэкторну нужно новое снаряжение, а также различные дополнительные амулеты и материалы.",
+    ["That's because I've already applied to exchange my merit for other things. Blackthorn needs some new Equipment, as well as various extra charms and materials."] = "Это потому, что я уже подал заявку на обмен своих заслуг на другие вещи. «Чёрному Терновнику» нужно новое снаряжение, а также различные дополнительные амулеты и материалы.",
     ["Sword 1 interactable"] = "Меч 1 интерактивный",
     ["Obtain Footprints"] = "Получить следы",
     ["Exploration Reward"] = "Награда за исследование",

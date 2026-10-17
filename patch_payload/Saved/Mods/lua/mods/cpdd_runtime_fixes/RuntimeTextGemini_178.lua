@@ -15,7 +15,7 @@ return {
     ["“Artisan”…… This is Sequence 6 of the “Savant” Pathway, capable of crafting mechanical marvels and mystical items."] = "«Ремесленник»... Это Последовательность 6 Пути «Чтеца Знаний», позволяющая создавать механические диковины и потусторонние предметы.",
     ["Brady"] = "Брэди",
     ["Talk with Mrs. Meg"] = "Поговорить с госпожой Мег",
-    ["How did I end up as a government employee, searching in the sewers? This does not conform to Emperor Roselle's aesthetics!"] = "Как я мог превратиться в государственного служащего, обыскивающего канализацию? Это не соответствует эстетике императора Рассела!",
+    ["How did I end up as a government employee, searching in the sewers? This does not conform to Emperor Roselle's aesthetics!"] = "Как я мог превратиться в государственного служащего, обыскивающего канализацию? Это не соответствует эстетике императора Розеля!",
     ["I'm sorry... I brought up a painful subject for you."] = "Извините… говорю о вашей печали.",
     ["Ladies and gentlemen, welcome to Mr. Speer's Theater of Inspiration!"] = "Дамы и господа, добро пожаловать в Театр Вдохновения г-на Шпеера!",
     ["Destroy Trap Monster"] = "Уничтожить монстра-ловушку",

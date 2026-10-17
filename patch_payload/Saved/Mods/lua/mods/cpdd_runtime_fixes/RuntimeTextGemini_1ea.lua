@@ -24,7 +24,7 @@ return {
     ["Lost Side Quest - Remaining Sealed Artifact Information"] = "Второстепенное задание «Заблудшие»: Оставшиеся сведения о Запечатанном Артефакте",
     ["Complete all hard dungeons with no more than 1 team resurrection per run."] = "Пройти все сложные подземелья, использовав не более 1 командного воскрешения за бой.",
     ["Some scents cannot be given a price tag..."] = "Некоторым ароматам просто невозможно назначить цену...",
-    ["Black Thorn Incident Book 4-Level 2-Stage 1 Admission buff"] = "Дела Черного шиповника 4 — Уровень 2 — Фаза 1 бафф доступа",
+    ["Black Thorn Incident Book 4-Level 2-Stage 1 Admission buff"] = "Дела «Чёрного Терновника» 4 — Уровень 2 — Фаза 1 бафф доступа",
     ["Auction starts in %M:%S"] = "Аукцион начнётся через %M:%S",
     ["What about you?"] = "А вы?",
     ["Thank you for taking care of my guest. She gave me a tip, so I should also give you a tip."] = "Спасибо за заботу о моих гостях. Она дала мне чаевые, значит, я должен дать чаевые и тебе.",

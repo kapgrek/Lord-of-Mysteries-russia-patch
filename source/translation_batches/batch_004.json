@@ -1377,7 +1377,7 @@
     "id": "015229",
     "source_cn": "\\n◆鲱鱼（新鲜）\\n每桶50条 3桶 10苏勒/桶 <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13苏勒\\n\\n◆鳕鱼（盐渍）\\n每箱20磅 2箱 1金镑/箱 2金镑\\n\\n◆牡蛎 \\n每篮100只 5篮 5苏勒/篮 55苏勒\\n\\n     合计  <Delete id=\"#158\">4金镑15苏勒 </>3金镑8苏勒",
     "ref_en": "\\n◆Herring (fresh)\\n50 per barrel, 3 barrels, 10 sous/barrel <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13 sous\\n\\n◆Cod (salted)\\n20 pounds per box, 2 boxes, 1 pound/box, 2 pounds\\n\\n◆Oysters \\n100 per basket, 5 baskets, 5 sous/basket, 55 sous\\n\\n     Total  <Delete id=\"#158\">4 pounds 15 sous </>3 pounds 8 sous",
-    "target_ru": "\n◆Сельдь (свежая)\nПо 50 шт. в бочке, 3 бочки, 10 соли/бочка <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13 соли\n\n◆Треска (соленая)\nПо 20 фунтов в ящике, 2 ящика, 1 фунт/ящик, 2 фунта\n\n◆Устрицы \nПо 100 шт. в корзине, 5 корзин, 5 соли/корзина, 55 соли\n\n     Итого  <Delete id=\"#158\">4 фунта 15 соли </>3 фунта 8 соли"
+    "target_ru": "\n◆Сельдь (свежая)\nПо 50 шт. в бочке, 3 бочки, 10 суле/бочка <Delete id=\"#158\">103</> <Delete id=\"#158\">15 </>13 суле\n\n◆Треска (соленая)\nПо 20 фунтов в ящике, 2 ящика, 1 фунт/ящик, 2 фунта\n\n◆Устрицы \nПо 100 шт. в корзине, 5 корзин, 5 суле/корзина, 55 суле\n\n     Итого  <Delete id=\"#158\">4 фунта 15 суле </>3 фунта 8 суле"
   },
   {
     "id": "015230",
@@ -2121,7 +2121,7 @@
     "id": "015353",
     "source_cn": "5230242   黑荆棘安保公司   位面",
     "ref_en": "5230242 Blackthorn Security Company Plane",
-    "target_ru": "5230242 Измерение «Охранная компания „Черный шиповник“»"
+    "target_ru": "5230242 Измерение «Охранная компания „Чёрный Терновник“»"
   },
   {
     "id": "015354",
@@ -3573,7 +3573,7 @@
     "id": "015595",
     "source_cn": "黑荆棘事件簿4-第二关-安全区",
     "ref_en": "Black Thorn Casebook 4 - Stage 2 - Safe Zone",
-    "target_ru": "Дела «Черного шиповника» 4: Этап 2 — Безопасная зона"
+    "target_ru": "Дела «Чёрного Терновника» 4: Этап 2 — Безопасная зона"
   },
   {
     "id": "015596",
@@ -4041,7 +4041,7 @@
     "id": "015673",
     "source_cn": "现在，走出门，看看黑荆棘安保公司门外。",
     "ref_en": "Now, walk out the door and look outside the Blackthorn Security Company.",
-    "target_ru": "А теперь выйдите за дверь и посмотрите, что творится у входа в охранную компанию «Черный шиповник»."
+    "target_ru": "А теперь выйдите за дверь и посмотрите, что творится у входа в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "015674",
@@ -4527,7 +4527,7 @@
     "id": "015754",
     "source_cn": "听好了，本周的熔炉班，每天工作12小时，一天1苏勒，干不干？竞争的人有很多。",
     "ref_en": "Listen up. This week's furnace shift is 12 hours a day for 1 Sol. Want it? Plenty of people are competing for the job.",
-    "target_ru": "Слушай внимательно: смена у плавильной печи на этой неделе — 12 часов в день по 1 соли за смену. Берешься? Желающих на твое место хоть отбавляй."
+    "target_ru": "Слушай внимательно: смена у плавильной печи на этой неделе — 12 часов в день по 1 суле за смену. Берешься? Желающих на твое место хоть отбавляй."
   },
   {
     "id": "015755",
@@ -6051,7 +6051,7 @@
     "id": "016008",
     "source_cn": "你就是黑荆棘安保公司的人？听说你们经常处理一些……特别的案子。",
     "ref_en": "Are you from the Blackthorn Security Company? I heard you often handle some... special cases.",
-    "target_ru": "Вы из охранной компании «Черный шиповник»? Я слышал, вы частенько беретесь за... особые дела."
+    "target_ru": "Вы из охранной компании «Чёрный Терновник»? Я слышал, вы частенько беретесь за... особые дела."
   },
   {
     "id": "016009",
@@ -7029,7 +7029,7 @@
     "id": "016171",
     "source_cn": "开启可随机获得一件<Highlight>68装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Opening it grants a random piece of <Highlight>Level 68</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week.",
-    "target_ru": "При открытии случайным образом дает предмет оранжевого или золотого качества <Highlight>68-го ур. снаряжения</> <Highlight>состязательной направленности</>, потусторонние вещества, факторы конвергенции и привязанные сули. С определенной вероятностью можно получить 1 крупицу кристаллов серого тумана (используется для улучшения состязательной броши 64-го ур. снаряжения и выше до мифического качества). Не более 3 в неделю; неполученное количество переносится на следующую неделю."
+    "target_ru": "При открытии случайным образом дает предмет оранжевого или золотого качества <Highlight>68-го ур. снаряжения</> <Highlight>состязательной направленности</>, потусторонние вещества, факторы конвергенции и привязанные суле. С определенной вероятностью можно получить 1 крупицу кристаллов серого тумана (используется для улучшения состязательной броши 64-го ур. снаряжения и выше до мифического качества). Не более 3 в неделю; неполученное количество переносится на следующую неделю."
   },
   {
     "id": "016172",
@@ -7431,7 +7431,7 @@
     "id": "016238",
     "source_cn": "黑荆棘事件簿4-关卡2-阶段1准入buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Stage 1 Admission buff",
-    "target_ru": "Дела Черного шиповника 4 — Уровень 2 — Фаза 1 бафф доступа"
+    "target_ru": "Дела «Чёрного Терновника» 4 — Уровень 2 — Фаза 1 бафф доступа"
   },
   {
     "id": "016239",
@@ -9111,7 +9111,7 @@
     "id": "016518",
     "source_cn": "作为边框的繁花装饰，以盛放的姿态温柔环绕，在边缘处静听微风与花香的呢喃。\\n重复获取将自动分解为绑定苏勒×10000。",
     "ref_en": "Floral decorations as a frame, gently surrounding in a blooming posture, listening to the whispers of the breeze and floral fragrance at the edges. \\nRepeated acquisition will automatically decompose into Bound Sol ×10000.",
-    "target_ru": "Рамка из пышных цветов нежно обрамляет портрет, ловя шепот легкого ветра и аромат лепестков.\nПри повторном получении автоматически распыляется на привязанные сули ×10 000."
+    "target_ru": "Рамка из пышных цветов нежно обрамляет портрет, ловя шепот легкого ветра и аромат лепестков.\nПри повторном получении автоматически распыляется на привязанные суле ×10 000."
   },
   {
     "id": "016519",
@@ -9609,7 +9609,7 @@
     "id": "016601",
     "source_cn": "5200067   黑荆棘废墟   大世界",
     "ref_en": "5200067 Blackthorn Ruins Open World",
-    "target_ru": "5200067   Руины «Черного шиповника»   Открытый мир"
+    "target_ru": "5200067   Руины «Чёрного Терновника»   Открытый мир"
   },
   {
     "id": "016602",
@@ -9921,7 +9921,7 @@
     "id": "016653",
     "source_cn": "对方的苏勒不足，无法完成双人解除誓约。",
     "ref_en": "The other party's Sol is insufficient, cannot complete two-player Covenant dissolution.",
-    "target_ru": "У второй стороны недостаточно сулей, невозможно расторгнуть парную клятву."
+    "target_ru": "У второй стороны недостаточно суле, невозможно расторгнуть парную клятву."
   },
   {
     "id": "016654",
@@ -10437,7 +10437,7 @@
     "id": "016739",
     "source_cn": "黑荆棘事件3-洛克·金-扇形点名-优先点T",
     "ref_en": "Black Thorn Event 3-Rock King-Fan-Shaped Mark-Priority Mark T",
-    "target_ru": "Дела Черного шиповника 3 — Лок Кинг — секторная метка — приоритет танку"
+    "target_ru": "Дела «Чёрного Терновника» 3 — Лок Кинг — секторная метка — приоритет танку"
   },
   {
     "id": "016740",
@@ -10503,7 +10503,7 @@
     "id": "016750",
     "source_cn": "<Title>巨龙现身</>\\n巨龙·投影于每周五、周日晚的猎杀时刻开启<Highlight>10分钟后</>，即<Highlight>19:10</>，现身<Highlight>猎龙城王城中心</>。若20:00前未被击退，巨龙将离开，且不触发击杀结算。\\n\\n<Title>归属伤害</>\\n仅在巨龙周围<Highlight>40米</>内存活并对其造成伤害时，伤害才会计入玩家当前所在团队。巨龙被击退时，<Highlight>当前有效归属伤害最高的团队</>获得最终归属及拍卖奖励。靠近巨龙后，可实时查看当前归属伤害。\\n\\n<Title>伤害衰减</>\\n玩家死亡、离开巨龙讨伐范围、切换分线或离开团队后，该玩家已为团队累计的归属伤害将开始衰减，并同步影响团队当前的有效归属伤害。\\n\\n触发衰减后的<Highlight>前5秒</>，归属伤害保持不变；从第6秒开始，<Highlight>每6秒减少原累计归属伤害的5%</>，持续120秒后归零。\\n\\n重新进入<Highlight>巨龙讨伐范围</>并恢复参战后，衰减停止。当前剩余的归属伤害将被保留，并在此基础上继续累计新造成的伤害。\\n\\n<Title>拍卖奖励</>\\n击退巨龙后，将根据激战值开启对应档位的拍卖。<Highlight>激战值越高，可开启的拍卖奖励档位越高</>。\\n\\n<Title>资格限制</>\\n每次猎杀时刻活动中，每名玩家至多获得<Highlight>1次</>巨龙·投影的终末猎杀拍卖资格；已取得资格的玩家，本次活动内无法再次取得。",
     "ref_en": "<Title>Dragon Appearance</>\\nThe Dragon - Projection appears at the <Highlight>center of the Dragon Hunting City Royal City</> <Highlight>10 minutes after</> the start of the Hunting Time on Friday and Sunday nights, which is <Highlight>19:10</>. If it is not repelled before 20:00, the dragon will leave, and no kill settlement will be triggered. \\n\\n<Title>Ownership Damage</>\\nDamage is only counted toward the player's current team if they are alive and dealing damage within <Highlight>40 meters</> of the dragon. When the dragon is repelled, the <Highlight>team with the highest current effective ownership damage</> receives the final ownership and auction rewards. You can view the current ownership damage in real-time after approaching the dragon. \\n\\n<Title>Damage Decay</>\\nAfter a player dies, leaves the dragon crusade range, switches channels, or leaves the team, the ownership damage that player has accumulated for the team will begin to decay, which will simultaneously affect the team's current effective ownership damage. \\n\\nFor the <Highlight>first 5 seconds</> after decay is triggered, the ownership damage remains unchanged. Starting from the 6th second, it <Highlight>decreases by 5% of the original accumulated ownership damage every 6 seconds</>, reaching zero after 120 seconds. \\n\\nIf you re-enter the <Highlight>Dragon Crusade Range</> and resume combat, the decay will stop. The remaining ownership damage will be preserved, and new damage dealt will continue to accumulate on top of this base. \\n\\n<Title>Auction Rewards</>\\nAfter repelling the dragon, auctions for corresponding tiers will be opened based on the Intense Battle Value. <Highlight>The higher the Intense Battle Value, the higher the tier of auction rewards that can be unlocked</>. \\n\\n<Title>Qualification Restrictions</>\\nIn each Hunting Time event, each player can obtain at most <Highlight>1</> qualification for the Dragon - Projection final hunt auction; players who have already obtained the qualification cannot obtain it again during the same event.",
-    "target_ru": "<Title>Появление дракона</>\nПроекция дракона появляется в <Highlight>центре королевского города Драконьей Охоты</> через <Highlight>10 минут</> после начала Часа охоты в пятницу и воскресенье вечером, то есть в <Highlight>19:10</>. Если дракон не будет изгнан до 20:00, он улетит без начисления наград за убийство.\n\n<Title>Зачетный урон</>\nУрон засчитывается текущей группе игрока только в том случае, если игрок жив и наносит урон в радиусе <Highlight>40 метров</> от дракона. После изгнания дракона <Highlight>группа с наибольшим эффективным зачетным уроном</> получает право на награду и аукцион. Приблизившись к дракону, можно отслеживать урон в реальном времени.\n\n<Title>Убывание урона</>\nПосле гибели игрока, его выхода из зоны охоты, смены канала или выхода из группы накопленный им зачетный урон начинает убывать, что напрямую снижает общий эффективный урон группы.\n\nВ течение <Highlight>первых 5 секунд</> после начала убывания зачетный урон остается прежним; начиная с 6-й секунды <Highlight>каждые 6 секунд теряется по 5% от исходного накопленного урона</>, достигая нуля через 120 секунд.\n\nПри возвращении в <Highlight>зону охоты на дракона</> и возобновлении боя убывание прекращается. Оставшийся урон сохраняется, и новый урон суммируется поверх него.\n\n<Title>Награды аукциона</>\nПосле изгнания дракона открывается аукцион соответствующего уровня на основе очков яростного боя. <Highlight>Чем выше очки яростного боя, тем выше категория наград на аукционе</>.\n\n<Title>Ограничения участия</>\nВ каждом событии «Час охоты» игрок может получить право на финальный аукцион проекции дракона не более <Highlight>1 раза</>; повторное получение права в рамках того же события невозможно."
+    "target_ru": "<Title>Появление дракона</>\nПроекция дракона появляется в <Highlight>центре королевского города Драконьей Охоты</> через <Highlight>10 минут</> после начала Часа охоты в пятницу и воскресенье вечером, то есть в <Highlight>19:10</>. Если дракон не будет изгнан до 20:00, он улетит без начисления наград за убийство.\n\n<Title>Зачетный урон</>\nУрон засчитывается текущей группе игрока только в том случае, если игрок жив и наносит урон в радиусе <Highlight>40 метров</> от дракона. После изгнания дракона <Highlight>группа с наибольшим эффективным зачетным уроном</> получает право на награду и аукцион. Приблизившись к дракону, можно отслеживать урон в реальном времени.\n\n<Title>Убывание урона</>\nПосле гибели игрока, его выхода из зоны охоты, смены канала или выхода из группы накопленный им зачетный урон начинает убывать, что напрямую снижает общий эффективный урон группы.\n\nВ течение <Highlight>первых 5 секунд</> после начала убывания зачетный урон остается прежним; начиная с 6-й секунды <Highlight>каждые 6 секунд теряется по 5% от исходного накопленного урона</>, достигая нуля через 120 секунд.\n\nПри возвращении в <Highlight>зону охоты на дракона</> и возобновлении боя убывание прекращается. Оставшийся урон сохраняется, и новый урон суммируется поверх него.\n\n<Title>Награды аукциона</>\nПосле изгнания дракона открывается аукцион соответствующего уровня на основе очков яростного боя. <Highlight>Чем выше очки яростного боя, тем выше категория наград на аукционе</>.\n\n<Title>Ограничения участия</>\nВ каждом событии «Час охоты» игрок может получить право на аукцион «Финальной охоты» проекции дракона не более <Highlight>1 раза</>; повторное получение права в рамках того же события невозможно."
   },
   {
     "id": "016751",
@@ -11745,7 +11745,7 @@
     "id": "016957",
     "source_cn": "汇率(金镑/苏勒)",
     "ref_en": "Exchange Rate (Gold Pound/soli)",
-    "target_ru": "Курс обмена (золотые фунты / соли)"
+    "target_ru": "Курс обмена (золотые фунты / суле)"
   },
   {
     "id": "016958",
@@ -11919,7 +11919,7 @@
     "id": "016986",
     "source_cn": "苏勒/金镑 兑换比例",
     "ref_en": "Soli/Pound Exchange Rate",
-    "target_ru": "Курс обмена соли / золотой фунт"
+    "target_ru": "Курс обмена суле / золотой фунт"
   },
   {
     "id": "016987",
@@ -12819,7 +12819,7 @@
     "id": "017136",
     "source_cn": "黑荆棘事件簿4-关卡2-体力恢复减少buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Stamina Recovery Reduction buff",
-    "target_ru": "Хроники «Черного шиповника» 4 — Уровень 2 — Бафф снижения восстановления выносливости"
+    "target_ru": "Хроники «Чёрного Терновника» 4 — Уровень 2 — Бафф снижения восстановления выносливости"
   },
   {
     "id": "017137",
@@ -13695,7 +13695,7 @@
     "id": "017282",
     "source_cn": "他月初从南大陆回来，就一直留在廷根，等罗塞尔戏剧节开幕。",
     "ref_en": "He returned from the Southern Continent at the beginning of the month and has been staying in Tingen, waiting for the opening of the Roselle Drama Festival.",
-    "target_ru": "Он вернулся с Южного континента в начале месяца и с тех пор оставался в Тингене, дожидаясь открытия Театрального фестиваля имени Розелля."
+    "target_ru": "Он вернулся с Южного континента в начале месяца и с тех пор оставался в Тингене, дожидаясь открытия Театрального фестиваля имени Розеля."
   },
   {
     "id": "017283",
@@ -13779,7 +13779,7 @@
     "id": "017296",
     "source_cn": "你还真是崇拜罗、伟大的罗塞尔大帝啊。",
     "ref_en": "You really do worship the, uh, great Emperor Roselle.",
-    "target_ru": "Ты и впрямь боготворишь Ро... великого императора Розелля."
+    "target_ru": "Ты и впрямь боготворишь Ро... великого императора Розеля."
   },
   {
     "id": "017297",
@@ -14577,7 +14577,7 @@
     "id": "017429",
     "source_cn": "　　为筹备今年的冬礼日，<Highlight>黑夜女神教会</>开始招收唱诗班成员。希望您是黑夜女神的虔诚信徒，有一定的歌唱或朗诵基础。\\n　　前往圣赛琳娜教堂面试，教会将给予3苏勒交通和餐饮补贴。",
     "ref_en": "In preparation for this year's Winter Festival, the <Highlight> Evernight Goddess Church </> has begun recruiting choir members. We hope you are a devout believer of the Evernight Goddess and have some singing or recitation foundation. \\n Go to Saint Selena Cathedral for an interview; the church will provide a 3-sol transport and meal subsidy.",
-    "target_ru": "　　В преддверии праздника Зимнего Солнцестояния <Highlight>Церковь Богини Вечной Ночи</> объявляет набор в церковный хор. Приглашаются благочестивые прихожане с навыками пения или декламации.\n　　Собеседование проводится в соборе Святой Селены. Церковь предоставляет компенсацию на транспорт и питание в размере 3 соли."
+    "target_ru": "　　В преддверии праздника Зимнего Солнцестояния <Highlight>Церковь Богини Вечной Ночи</> объявляет набор в церковный хор. Приглашаются благочестивые прихожане с навыками пения или декламации.\n　　Собеседование проводится в соборе Святой Селены. Церковь предоставляет компенсацию на транспорт и питание в размере 3 суле."
   },
   {
     "id": "017430",
@@ -15315,7 +15315,7 @@
     "id": "017552",
     "source_cn": "黑荆棘事件簿4-关卡2-火焰条带维持buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Flame Strip Maintenance buff",
-    "target_ru": "Хроники «Черного шиповника» 4 — Уровень 2 — Бафф удержания огненной полосы"
+    "target_ru": "Хроники «Чёрного Терновника» 4 — Уровень 2 — Бафф удержания огненной полосы"
   },
   {
     "id": "017553",
@@ -15519,7 +15519,7 @@
     "id": "017586",
     "source_cn": "使用后解锁<Highlight>单人社交动作·行礼</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Salute</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Используйте, чтобы открыть <Highlight>одиночное социальное действие: Поклон</>. При повторном получении автоматически распыляется на персональные соли."
+    "target_ru": "Используйте, чтобы открыть <Highlight>одиночное социальное действие: Поклон</>. При повторном получении автоматически распыляется на привязанные суле."
   },
   {
     "id": "017587",
@@ -17583,7 +17583,7 @@
     "id": "017930",
     "source_cn": "黑荆棘事件簿4-关卡4-释放权杖技能buff",
     "ref_en": "Black Thorn Casebook 4 - Level 4 - Release Scepter Skill buff",
-    "target_ru": "Хроники «Черного шиповника» 4 — Уровень 4 — Бафф применения навыка скипетра"
+    "target_ru": "Хроники «Чёрного Терновника» 4 — Уровень 4 — Бафф применения навыка скипетра"
   },
   {
     "id": "017931",
@@ -19005,7 +19005,7 @@
     "id": "018167",
     "source_cn": "获得500绑定苏勒。墨绿泛白的钞票，是鲁恩王国货币体系中较为常见的货币。",
     "ref_en": "Obtain 500 bound Sol. These dark green and white banknotes are a common currency in the Loen Kingdom's monetary system.",
-    "target_ru": "Получено 500 персональных соли. Темно-зеленоватые бумажные банкноты — весьма распространенная валюта в денежной системе королевства Лоэн."
+    "target_ru": "Получено 500 привязанных суле. Темно-зеленоватые бумажные банкноты — весьма распространенная валюта в денежной системе королевства Лоэн."
   },
   {
     "id": "018168",
@@ -19167,7 +19167,7 @@
     "id": "018194",
     "source_cn": "<Assistant_Title1>【死亡咏叹】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>黑荆棘安保公司接到一桩复杂的寻人委托，弗莱希望你加入一起调查。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>61级</>后，在任务栏可接取支线任务。\\n<Assistant_Title2>任务说明：</>在跟随烛光的指引前进步骤中，第一个烛火坐标{Location:[冥界之门(33663,61051)]|33663;61051;145;2;5231160;0}，第二个烛火坐标{Location:[冥界之门(31670,63540)]|31670;63540;453;2;5231160;0}，第三个烛火坐标{Location:[冥界之门(33690,66955)]|33690;66955;343;2;5231160;0}，第四个烛火坐标{Location:[冥界之门(38130,66653)]|38130;66653;400;2;5231160;0}，第五个烛火坐标{Location:[冥界之门(45100,66387)]|45100;66387;380;2;5231160;0}。\\n<Assistant_Title2>任务奖励：</>绑定金镑、金纺线、绑定苏勒、认知经验、腰饰【永暗蜡烛】、称号",
     "ref_en": "<Assistant_Title1>【Death's Aria】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Blackthorn Security Company has received a complex missing person case, and Frye hopes you will join the investigation.\\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 61</>, you can accept this side quest in the quest log.\\n<Assistant_Title2>Quest Instructions: </>During the steps of following the candlelight's guidance, the first candle coordinate {Location:[Gate of the Underworld(33663,61051)]|33663;61051;145;2;5231160;0}, the second candle coordinate {Location:[Gate of the Underworld(31670,63540)]|31670;63540;453;2;5231160;0}, the third candle coordinate {Location:[Gate of the Underworld(33690,66955)]|33690;66955;343;2;5231160;0}, the fourth candle coordinate {Location:[Gate of the Underworld(38130,66653)]|38130;66653;400;2;5231160;0}, the fifth candle coordinate {Location:[Gate of the Underworld(45100,66387)]|45100;66387;380;2;5231160;0}.\\n<Assistant_Title2>Quest Rewards:</>Bound Gold Pound, Gold Thread, Bound Sol, Cognition EXP, Waist Accessory [Everdark Candle], Title",
-    "target_ru": "<Assistant_Title1>【Песнь смерти】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Доп. задание</>\n<Assistant_Title2>Описание задания: </>Охранная компания «Черный шиповник» получила запутанное поручение по поиску человека. Фрай надеется, что вы присоединитесь к расследованию.\n<Assistant_Title2>Как получить: </>после достижения уровня лицедейства <Assistant_Red>61</> задание можно принять на панели заданий.\n<Assistant_Title2>Пояснение к заданию: </>следуя указаниям света свечи: координаты первой свечи — {Location:[Врата Подземного Мира(33663,61051)]|33663;61051;145;2;5231160;0}, координаты второй свечи — {Location:[Врата Подземного Мира(31670,63540)]|31670;63540;453;2;5231160;0}, координаты третьей свечи — {Location:[Врата Подземного Мира(33690,66955)]|33690;66955;343;2;5231160;0}, координаты четвертой свечи — {Location:[Врата Подземного Мира(38130,66653)]|38130;66653;400;2;5231160;0}, координаты пятой свечи — {Location:[Врата Подземного Мира(45100,66387)]|45100;66387;380;2;5231160;0}.\n<Assistant_Title2>Награда за задание: </>персональные золотые фунты, золотая пряжа, персональные соли, опыт познания, поясное украшение 【Свеча Вечной Тьмы】, титул"
+    "target_ru": "<Assistant_Title1>【Песнь смерти】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Доп. задание</>\n<Assistant_Title2>Описание задания: </>Охранная компания «Чёрный Терновник» получила запутанное поручение по поиску человека. Фрай надеется, что вы присоединитесь к расследованию.\n<Assistant_Title2>Как получить: </>после достижения уровня лицедейства <Assistant_Red>61</> задание можно принять на панели заданий.\n<Assistant_Title2>Пояснение к заданию: </>следуя указаниям света свечи: координаты первой свечи — {Location:[Врата Подземного Мира(33663,61051)]|33663;61051;145;2;5231160;0}, координаты второй свечи — {Location:[Врата Подземного Мира(31670,63540)]|31670;63540;453;2;5231160;0}, координаты третьей свечи — {Location:[Врата Подземного Мира(33690,66955)]|33690;66955;343;2;5231160;0}, координаты четвертой свечи — {Location:[Врата Подземного Мира(38130,66653)]|38130;66653;400;2;5231160;0}, координаты пятой свечи — {Location:[Врата Подземного Мира(45100,66387)]|45100;66387;380;2;5231160;0}.\n<Assistant_Title2>Награда за задание: </>персональные золотые фунты, золотая пряжа, привязанные суле, опыт познания, поясное украшение 【Свеча Вечной Тьмы】, титул"
   },
   {
     "id": "018195",
@@ -19323,7 +19323,7 @@
     "id": "018220",
     "source_cn": "使用后解锁<Highlight>单人社交动作·下班休息</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Use to unlock <Highlight> single social action: Get off work </>; if obtained repeatedly, it will automatically decompose into bound Soli.",
-    "target_ru": "Используйте, чтобы открыть <Highlight>одиночное социальное действие: Отдых после работы</>. При повторном получении автоматически распыляется на персональные соли."
+    "target_ru": "Используйте, чтобы открыть <Highlight>одиночное социальное действие: Отдых после работы</>. При повторном получении автоматически распыляется на привязанные суле."
   },
   {
     "id": "018221",
@@ -20823,7 +20823,7 @@
     "id": "018470",
     "source_cn": "5231233   黑荆棘安保公司   单人位面",
     "ref_en": "5231233   Blackthorn Security Company   Solo Instance",
-    "target_ru": "5231233   Охранная компания «Черный шиповник»   Одиночное измерение"
+    "target_ru": "5231233   Охранная компания «Чёрный Терновник»   Одиночное измерение"
   },
   {
     "id": "018471",
@@ -20841,7 +20841,7 @@
     "id": "018473",
     "source_cn": "<Assistant_Title1>【谁是恶龙】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>城市漫游</>\\n<Assistant_Title2>任务描述：</>猎龙帮除了龙什么都猎，这次他们猎到你了。\\n<Assistant_Title2>领取方式：</>完成主线剧情第二章《时代的浪潮》且扮演等级达到<Assistant_Red>19级</>后，前往{Location:[廷根(939,1337)]|-6790;34457;-2533;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒",
     "ref_en": "<Assistant_Title1>[Who is the Dragon]</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>City Roaming</>\\n<Assistant_Title2>Quest Description: </>The Dragon Hunter Gang hunts everything except dragons, and this time they've hunted you.\\n<Assistant_Title2>How to Accept: </>After completing Chapter 2 of the main storyline, \"Tides of the Era,\" and reaching an Acting Level of <Assistant_Red>19</>, head to {Location:[Tingen(939,1337)]|-6790;34457;-2533;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sols",
-    "target_ru": "<Assistant_Title1>【Кто здесь злой дракон?】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Городские странствия</>\n<Assistant_Title2>Описание задания: </>Банда драконоборцев охотится на всё, кроме драконов, и на этот раз их добычей стали вы.\n<Assistant_Title2>Как получить: </>после завершения главы 2 основного сюжета «Приливы эпохи» и достижения уровня лицедейства <Assistant_Red>19</> отправляйтесь в {Location:[Тинген(939,1337)]|-6790;34457;-2533;2;5200002;0}, чтобы начать задание\n<Assistant_Title2>Награда за задание: </>опыт познания, персональные соли"
+    "target_ru": "<Assistant_Title1>【Кто здесь злой дракон?】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Городские странствия</>\n<Assistant_Title2>Описание задания: </>Банда драконоборцев охотится на всё, кроме драконов, и на этот раз их добычей стали вы.\n<Assistant_Title2>Как получить: </>после завершения главы 2 основного сюжета «Приливы эпохи» и достижения уровня лицедейства <Assistant_Red>19</> отправляйтесь в {Location:[Тинген(939,1337)]|-6790;34457;-2533;2;5200002;0}, чтобы начать задание\n<Assistant_Title2>Награда за задание: </>опыт познания, привязанные суле"
   },
   {
     "id": "018474",
@@ -25341,7 +25341,7 @@
     "id": "019223",
     "source_cn": "<Assistant_Title1>【魔女的滋味真不错】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>近日的廷根并不太平。作为值夜者小队的新人，你也被分派了一桩奇异的案件。而它指向的，是廷根北区的某个沙龙，以及留驻其中的神秘倩影……\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>50级</>后，可在任务面板手动领取\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯、装备、挂画·春夜之邀、双人·牵手、称号",
     "ref_en": "<Assistant_Title1>【Taste of the Witch】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Recent times in Tingen have not been peaceful. As a newcomer to the Nighthawks squad, you have been assigned a strange case. It points toward a certain salon in Tingen's North District and the mysterious beauty lingering within...\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>50</>, you can manually accept it in the quest panel.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon, Equipment, Hanging Painting: Invitation of Spring Night, Duo: Holding Hands, Title",
-    "target_ru": "<Assistant_Title1>【Вкус Ведьмы действительно хорош】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное</>\n<Assistant_Title2>Описание задания: </>В последнее время в Тингене неспокойно. Вам, как новичку отряда Ночных Ястребов, поручили странное дело. Нити ведут в салон в Северном районе Тингена, к прекрасной таинственной незнакомке...\n<Assistant_Title2>Способ получения: </>По достижении <Assistant_Red>50-го уровня</> лицедейства можно взять вручную на панели заданий\n<Assistant_Title2>Награды задания</>: Опыт познания, привязанные соли, привязанные золотые фунты, маяк истории, снаряжение, настенная картина «Приглашение весенней ночи», парное действие «Держаться за руки», титул"
+    "target_ru": "<Assistant_Title1>【Вкус Ведьмы действительно хорош】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное</>\n<Assistant_Title2>Описание задания: </>В последнее время в Тингене неспокойно. Вам, как новичку отряда Ночных Ястребов, поручили странное дело. Нити ведут в салон в Северном районе Тингена, к прекрасной таинственной незнакомке...\n<Assistant_Title2>Способ получения: </>По достижении <Assistant_Red>50-го уровня</> лицедейства можно взять вручную на панели заданий\n<Assistant_Title2>Награды задания</>: Опыт познания, привязанные суле, привязанные золотые фунты, маяк истории, снаряжение, настенная картина «Приглашение весенней ночи», парное действие «Держаться за руки», титул"
   },
   {
     "id": "019224",
@@ -27783,7 +27783,7 @@
     "id": "019630",
     "source_cn": "<Assistant_Title1>【烟囱里的孩子】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>工厂附近传来醉汉的责骂声和孩子的哭声，发生了什么事？\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>64级</>后，前往{Location:[廷根(974,1173)]|-2552;17366;-1828;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【The Child in the Chimney】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Era Variety</>\\n<Assistant_Title2>Quest Description: </>Drunken scolding and a child's crying are coming from near the factory. What happened?\\n<Assistant_Title2>How to Accept: </>After reaching Acting Level <Assistant_Red>64</>, go to {Location:[Tingen(974,1173)]|-2552;17366;-1828;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soule, Invoices, Adventure Medal, World Adventure Treasure progress.",
-    "target_ru": "<Assistant_Title1>【Дитя из дымохода】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Облик эпохи</>\n<Assistant_Title2>Описание задания: </>Возле фабрики доносятся пьяная брань и детский плач. Что там стряслось?\n<Assistant_Title2>Как получить: </>После достижения 64-го уровня лицедейства <Assistant_Red>ур. 64</> отправляйтесь в {Location:[Тинген(974,1173)]|-2552;17366;-1828;2;5200002;0}, чтобы запустить задание\n<Assistant_Title2>Награды задания</>: Опыт познания, привязанные соли, квитанции, медаль за приключения, прогресс сокровищ мировых приключений"
+    "target_ru": "<Assistant_Title1>【Дитя из дымохода】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Облик эпохи</>\n<Assistant_Title2>Описание задания: </>Возле фабрики доносятся пьяная брань и детский плач. Что там стряслось?\n<Assistant_Title2>Как получить: </>После достижения 64-го уровня лицедейства <Assistant_Red>ур. 64</> отправляйтесь в {Location:[Тинген(974,1173)]|-2552;17366;-1828;2;5200002;0}, чтобы запустить задание\n<Assistant_Title2>Награды задания</>: Опыт познания, привязанные суле, квитанции, медаль за приключения, прогресс сокровищ мировых приключений"
   },
   {
     "id": "019631",
@@ -27819,7 +27819,7 @@
     "id": "019636",
     "source_cn": "<Title>巨龙现身</>\\n巨龙·投影于每周五晚的猎杀时刻开启<Highlight>10分钟后</>，即<Highlight>19:10</>，现身<Highlight>猎龙城王城中心</>。若20:00前未被击退，巨龙将离开，且不触发击杀结算。\\n\\n<Title>归属伤害</>\\n仅在巨龙周围<Highlight>40米</>内存活并对其造成伤害时，伤害才会计入玩家当前所在团队。巨龙被击退时，<Highlight>当前有效归属伤害最高的团队</>获得最终归属及拍卖奖励。靠近巨龙后，可实时查看当前归属伤害。\\n\\n<Title>伤害衰减</>\\n玩家死亡、离开巨龙讨伐范围、切换分线或离开团队后，该玩家已为团队累计的归属伤害将开始衰减，并同步影响团队当前的有效归属伤害。\\n\\n触发衰减后的<Highlight>前5秒</>，归属伤害保持不变；从第6秒开始，<Highlight>每6秒减少原累计归属伤害的5%</>，持续120秒后归零。\\n\\n重新进入<Highlight>巨龙讨伐范围</>并恢复参战后，衰减停止。当前剩余的归属伤害将被保留，并在此基础上继续累计新造成的伤害。\\n\\n<Title>拍卖奖励</>\\n击退巨龙后，将根据激战值开启对应档位的拍卖。<Highlight>激战值越高，可开启的拍卖奖励档位越高</>。\\n\\n<Title>资格限制</>\\n每次猎杀时刻活动中，每名玩家至多获得<Highlight>1次</>巨龙·投影的终末猎杀拍卖资格；已取得资格的玩家，本次活动内无法再次取得。",
     "ref_en": "<Title>Giant Dragon Appearance</>\\nThe Giant Dragon - Projection appears at the <Highlight>center of the Dragon Hunting City Royal City</> 10 minutes after the <Highlight>Hunting Time</> starts on Friday night, which is <Highlight>19:10</>. If it is not repelled before 20:00, the Giant Dragon will leave, and the kill settlement will not be triggered. \\n\\n<Title>Attribution Damage</>\\nDamage is only counted towards the player's current team if they are alive within <Highlight>40 meters</> of the Giant Dragon and dealing damage to it. When the Giant Dragon is repelled, the <Highlight>team with the highest current effective attribution damage</> receives the final attribution and auction rewards. After approaching the Giant Dragon, you can view the current attribution damage in real-time. \\n\\n<Title>Damage Decay</>\\nAfter a player dies, leaves the Giant Dragon crusade range, switches channels, or leaves the team, the attribution damage that player has accumulated for the team will begin to decay, and this will synchronously affect the team's current effective attribution damage. \\n\\nFor the <Highlight>first 5 seconds</> after decay is triggered, the attribution damage remains unchanged; starting from the 6th second, <Highlight>it decreases by 5% of the original accumulated attribution damage every 6 seconds</>, and reaches zero after 120 seconds. \\n\\nAfter re-entering the <Highlight>Giant Dragon crusade range</> and resuming combat, the decay stops. The current remaining attribution damage will be retained, and new damage dealt will continue to be accumulated on this basis. \\n\\n<Title>Auction Rewards</>\\nAfter repelling the Giant Dragon, auctions for corresponding tiers will be opened based on the Intense Battle Value. <Highlight>The higher the Intense Battle Value, the higher the tier of auction rewards that can be opened</>. \\n\\n<Title>Qualification Restrictions</>\\nIn each Hunting Time event, each player can obtain the qualification for the Giant Dragon - Projection's Final Hunt auction at most <Highlight>1 time</>; players who have already obtained the qualification cannot obtain it again during this event.",
-    "target_ru": "<Title>Появление дракона</>\nПроекция дракона появляется в <Highlight>центре столицы Города Охоты на Драконов</> через <Highlight>10 минут</> после начала «Часа охоты» в пятницу вечером, а именно в <Highlight>19:10</>. Если до 20:00 дракон не будет изгнан, он улетит, а награды за убийство не начисляются.\n\n<Title>Принадлежность урона</>\nУрон засчитывается текущей группе игрока только в том случае, если игрок жив, находится в радиусе <Highlight>40 метров</> от дракона и наносит ему урон. Когда дракон повержен, <Highlight>группа с наивысшим текущим эффективным уроном</> получает право на финальную добычу и аукцион. Приблизившись к дракону, можно в реальном времени видеть текущий засчитанный урон.\n\n<Title>Убывание урона</>\nЕсли игрок погибает, покидает зону битвы с драконом, меняет канал или выходит из группы, накопленный им урон начинает убывать, синхронно снижая эффективный урон всей группы.\n\nВ течение <Highlight>первых 5 секунд</> после начала убывания урон остается неизменным; начиная с 6-й секунды, <Highlight>каждые 6 секунд списывается 5% от первоначального накопленного урона</>, достигая нуля через 120 секунд.\n\nПри возвращении в <Highlight>зону битвы с драконом</> и возобновлении боя убывание прекращается. Оставшийся урон сохраняется, и новый наносимый урон прибавляется к нему.\n\n<Title>Награды аукциона</>\nПосле изгнания дракона открывается аукцион соответствующего уровня в зависимости от очков ожесточенного боя. <Highlight>Чем выше очки боя, тем более ценные награды доступны на аукционе</>.\n\n<Title>Ограничения участия</>\nВ каждом событии «Час охоты» каждый игрок может получить допуск к финальному аукциону охоты на Проекцию дракона не более <Highlight>1 раза</>; игроки, уже получившие допуск, не могут получить его повторно в рамках этого же события."
+    "target_ru": "<Title>Появление дракона</>\nПроекция дракона появляется в <Highlight>центре столицы Города Охоты на Драконов</> через <Highlight>10 минут</> после начала «Часа охоты» в пятницу вечером, а именно в <Highlight>19:10</>. Если до 20:00 дракон не будет изгнан, он улетит, а награды за убийство не начисляются.\n\n<Title>Принадлежность урона</>\nУрон засчитывается текущей группе игрока только в том случае, если игрок жив, находится в радиусе <Highlight>40 метров</> от дракона и наносит ему урон. Когда дракон повержен, <Highlight>группа с наивысшим текущим эффективным уроном</> получает право на финальную добычу и аукцион. Приблизившись к дракону, можно в реальном времени видеть текущий засчитанный урон.\n\n<Title>Убывание урона</>\nЕсли игрок погибает, покидает зону битвы с драконом, меняет канал или выходит из группы, накопленный им урон начинает убывать, синхронно снижая эффективный урон всей группы.\n\nВ течение <Highlight>первых 5 секунд</> после начала убывания урон остается неизменным; начиная с 6-й секунды, <Highlight>каждые 6 секунд списывается 5% от первоначального накопленного урона</>, достигая нуля через 120 секунд.\n\nПри возвращении в <Highlight>зону битвы с драконом</> и возобновлении боя убывание прекращается. Оставшийся урон сохраняется, и новый наносимый урон прибавляется к нему.\n\n<Title>Награды аукциона</>\nПосле изгнания дракона открывается аукцион соответствующего уровня в зависимости от очков ожесточенного боя. <Highlight>Чем выше очки боя, тем более ценные награды доступны на аукционе</>.\n\n<Title>Ограничения участия</>\nВ каждом событии «Час охоты» каждый игрок может получить допуск к аукциону «Финальной охоты» на Проекцию дракона не более <Highlight>1 раза</>; игроки, уже получившие допуск, не могут получить его повторно в рамках этого же события."
   },
   {
     "id": "019637",
@@ -28443,7 +28443,7 @@
     "id": "019740",
     "source_cn": "阅读罗塞尔大帝的报道",
     "ref_en": "Read the report on Emperor Roselle",
-    "target_ru": "Прочесть заметку об императоре Розелле"
+    "target_ru": "Прочесть заметку об императоре Розеле"
   },
   {
     "id": "019741",
@@ -28503,7 +28503,7 @@
     "id": "019750",
     "source_cn": "<Assistant_Title1>【成为非凡者】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>工作的事情总算搞定了，带梅丽莎吃顿好的庆祝一下吧！\\n<Assistant_Title2>领取方式：</>第一赛季第五天解锁。完成原著剧情《黑荆棘安保公司》，且扮演等级达到<Assistant_Red>56级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯",
     "ref_en": "<Assistant_Title1>【Becoming a Beyonder】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story</>\\n<Assistant_Title2>Quest Description: </>Work is finally settled; take Melissa out for a good meal to celebrate!\\n<Assistant_Title2>How to Accept: </>Unlocked on the fifth day of the first season. Automatically accepted after completing the original story \"Blackthorn Security Company\" and reaching Acting Level <Assistant_Red>56</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon",
-    "target_ru": "<Assistant_Title1>【Стать Потусторонним】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Оригинальный сюжет</>\n<Assistant_Title2>Описание задания: </>Вопрос с работой наконец решён, пора сводить Мелиссу вкусно поесть и отпраздновать!\n<Assistant_Title2>Способ получения: </>Открывается на 5-й день 1-го сезона. Принимается автоматически после завершения оригинального сюжета «Охранная компания „Чёрный шип“» и достижения <Assistant_Red>56-го уровня</> лицедейства.\n<Assistant_Title2>Награда за задание</>: опыт познания, персональные соли, персональные золотые фунты, Светоч истории"
+    "target_ru": "<Assistant_Title1>【Стать Потусторонним】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Оригинальный сюжет</>\n<Assistant_Title2>Описание задания: </>Вопрос с работой наконец решён, пора сводить Мелиссу вкусно поесть и отпраздновать!\n<Assistant_Title2>Способ получения: </>Открывается на 5-й день 1-го сезона. Принимается автоматически после завершения оригинального сюжета «Охранная компания „Чёрный Терновник“» и достижения <Assistant_Red>56-го уровня</> лицедейства.\n<Assistant_Title2>Награда за задание</>: опыт познания, привязанные суле, персональные золотые фунты, Светоч истории"
   },
   {
     "id": "019751",
@@ -28917,7 +28917,7 @@
     "id": "019819",
     "source_cn": "怀疑主义、形而上学、社会罗塞尔主义……",
     "ref_en": "Skepticism, metaphysics, social Roselleism...",
-    "target_ru": "Скептицизм, метафизика, социальный розеллизм..."
+    "target_ru": "Скептицизм, метафизика, социальное учение Розеля..."
   },
   {
     "id": "019820",
@@ -29055,7 +29055,7 @@
     "id": "019842",
     "source_cn": "梅丽莎：雇佣搬家的马车至少需要10苏勒，略等于我们一周的房租了。",
     "ref_en": "Melissa: Hiring a moving carriage costs at least 5 soli, which is almost equal to our rent for a week.",
-    "target_ru": "Мелисса: Нанять повозку для переезда обойдётся как минимум в 10 солей — почти неделя нашей арендной платы."
+    "target_ru": "Мелисса: Нанять повозку для переезда обойдётся как минимум в 10 суле — почти неделя нашей арендной платы."
   },
   {
     "id": "019843",
@@ -29361,7 +29361,7 @@
     "id": "019893",
     "source_cn": "        在罗塞尔大帝的末年，反对他的力量逐渐集结强大，他似乎被神明和时代厌倦。\\n        英雄也会陨落，正如每天的太阳都会落下。1198年，他被刺杀，陨落于白枫宫。\\n        这是一个传奇皇帝的一生，一个时代主角的一生。属于他的时代结束了，但人们还在传唱着他所著的诗歌，使用着他的发明，航行在他开辟的航道中……生活在被他颁布的律法与制度影响的城市中。\\n        罗塞尔·古斯塔夫，永远的罗塞尔大帝。",
     "ref_en": "        In the later years of Emperor Roselle, the forces opposing him gradually gathered and became strong, and he seemed to be tired of by the gods and the era. \\n Heroes will also fall, just as the sun sets every day. In 1198, he was assassinated and fell in the White Maple Palace. \\n This is the life of a legendary emperor, the life of a protagonist of an era. The era that belonged to him has ended, but people are still singing the poems he wrote, using his inventions, sailing the shipping lanes he opened... living in cities influenced by the laws and systems he promulgated. \\n Roselle Gustav, the eternal Emperor Roselle.",
-    "target_ru": "        На закате дней императора Розелла противостоящие ему силы сплотились и окрепли; казалось, и боги, и сама эпоха отвернулись от него.\n        Герои тоже смертны — так же, как каждый день заходит солнце. В 1198 году он пал от руки наёмного убийцы в Белокленовом дворце.\n        Такова была жизнь легендарного императора, жизнь главного героя эпохи. Его время подошло к концу, но люди по-прежнему декламируют его стихи, пользуются его изобретениями, ходят по открытым им морским путям... живут в городах, на которые повлияли установленные им законы и порядки.\n        Розелл Густав — вечный император Розелл."
+    "target_ru": "        На закате дней императора Розеля противостоящие ему силы сплотились и окрепли; казалось, и боги, и сама эпоха отвернулись от него.\n        Герои тоже смертны — так же, как каждый день заходит солнце. В 1198 году он пал от руки наёмного убийцы в Белокленовом дворце.\n        Такова была жизнь легендарного императора, жизнь главного героя эпохи. Его время подошло к концу, но люди по-прежнему декламируют его стихи, пользуются его изобретениями, ходят по открытым им морским путям... живут в городах, на которые повлияли установленные им законы и порядки.\n        Розель Густав — вечный император Розель."
   },
   {
     "id": "019894",
@@ -29979,7 +29979,7 @@
     "id": "019996",
     "source_cn": "罗塞尔·古斯塔夫",
     "ref_en": "Roselle Gustav",
-    "target_ru": "Розелл Густав"
+    "target_ru": "Розель Густав"
   },
   {
     "id": "019997",

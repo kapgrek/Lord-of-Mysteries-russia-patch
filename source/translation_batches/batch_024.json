@@ -495,7 +495,7 @@
     "id": "115082",
     "source_cn": "人脉闲聊话题-阿尔杰5",
     "ref_en": "Connection Chat Topic - Alger 5",
-    "target_ru": "Тема чата для связи — Алжир 5"
+    "target_ru": "Тема чата для связи — Элджер 5"
   },
   {
     "id": "115083",
@@ -717,7 +717,7 @@
     "id": "115119",
     "source_cn": "开启可随机获得一件<Highlight>66装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly receive one piece of <Highlight>Item Level 66</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight>Предмета 66-го уровня </> <Highlight>Приключенческого </> Снаряжения оранжевого или золотого качества, материалов Потусторонний, Факторов агрегации и Привязанной души."
+    "target_ru": "Открыв, можно случайным образом получить один предмет <Highlight>66-го уровня</> с <Highlight>уклоном в приключения</> оранжевого или золотого качества, необычные материалы, факторы агрегации и привязанные суле."
   },
   {
     "id": "115120",
@@ -891,7 +891,7 @@
     "id": "115148",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>64装等</>或<Highlight>66装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 64</> or <Highlight>Item Level 66</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. There is a certain probability of obtaining 1 Gray Fog Crystal Shard (used to upgrade Competition Brooches of Item Level 64 or higher to Mythical quality); you can obtain at most 3 per week, and any unobtained amount can be accumulated to the following week.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Item уровня 64</> или <Highlight>Item уровня 66</> <Highlight>Оранжевого или золотого качества, ориентированного на соревнования </>, материалы Потусторонний, факторы агрегации и связанную душу. Существует определенная вероятность получить 1 Осколок серого туманного кристалла (используется для улучшения соревновательной броши уровня предмета 64 или выше до мифического качества); вы можете получить максимум 3 в неделю, а любую недостающую сумму можно накопить до следующей недели."
+    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Item уровня 64</> или <Highlight>Item уровня 66</> <Highlight>Оранжевого или золотого качества, ориентированного на соревнования </>, материалы Потусторонний, факторы агрегации и привязанные суле. Существует определенная вероятность получить 1 Осколок серого туманного кристалла (используется для улучшения соревновательной броши уровня предмета 64 или выше до мифического качества); вы можете получить максимум 3 в неделю, а любую недостающую сумму можно накопить до следующей недели."
   },
   {
     "id": "115149",
@@ -1107,7 +1107,7 @@
     "id": "115184",
     "source_cn": "连续好几篇罗塞尔大帝的报道了，我都要开始怀疑《廷根老实人报》被因蒂斯暗中收购了……",
     "ref_en": "That's several articles about Emperor Roselle in a row now. I'm starting to suspect that the Tingen Honest Reporter has been secretly bought out by Intis...",
-    "target_ru": "Вот уже несколько статей об императоре Розелле подряд. Я начинаю подозревать, что \"Честный репортер Тингена\" был тайно выкуплен Интисом..."
+    "target_ru": "Вот уже несколько статей об императоре Розеле подряд. Я начинаю подозревать, что \"Честный репортер Тингена\" был тайно выкуплен Интисом..."
   },
   {
     "id": "115185",
@@ -1185,7 +1185,7 @@
     "id": "115197",
     "source_cn": "<Assistant_Title1>【镜中的廷根】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>越来越多的市民失踪了，必须尽快查出灾祸源头……先去梦中的诡异湖边看看。\\n<Assistant_Title2>领取方式：</>第一赛季第四天解锁。完成主线剧情第三章《暗涌的危机》，且扮演等级达到<Assistant_Red>52级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、星币、魔药主材料、武器箱、中级深红精粹、中级狂暴药剂",
     "ref_en": "<Assistant_Title1>【Tingen in the Mirror】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Reality Main Story </>\\n<Assistant_Title2>Quest Description: </>More and more citizens are going missing; the source of the disaster must be found as soon as possible... First, go and check the strange lakeside in your dream. \\n<Assistant_Title2>How to Accept: </>Unlocked on the fourth day of the first season. Automatically accepted after completing Chapter 3 of the main story, \"Crisis of Dark Currents,\" and reaching <Assistant_Red>Acting Level 52</>. \\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soule, Bound Gold Pound, Star Coin, Potion Main Materials, Weapon Box, Intermediate Crimson Essence, Intermediate Berserk Potion",
-    "target_ru": "<Assistant_Title1>[Тинген в зеркале]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Основная линия реальности</>\\n<Assistant_Title2>Описание миссии: </>Все больше и больше граждан пропадают, и источник катастрофы должен быть найден как можно скорее... Сначала отправляйтесь к странному озеру во сне, чтобы посмотреть. \\n<Assistant_Title2>Как получить: </>Открывается на четвёртый день первого сезона. Завершите третью главу основной сюжетной линии «Подводное течение кризиса» и автоматически достигните уровня <Assistant_Red>52</>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, связанный Сулер, связанные золотые фунты, звездные монеты, основные материалы для зелий, ящик с оружием, промежуточная малиновая эссенция, среднее жестокое зелье."
+    "target_ru": "<Assistant_Title1>[Тинген в зеркале]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Основная линия реальности</>\\n<Assistant_Title2>Описание миссии: </>Все больше и больше граждан пропадают, и источник катастрофы должен быть найден как можно скорее... Сначала отправляйтесь к странному озеру во сне, чтобы посмотреть. \\n<Assistant_Title2>Как получить: </>Открывается на четвёртый день первого сезона. Завершите третью главу основной сюжетной линии «Подводное течение кризиса» и автоматически достигните уровня <Assistant_Red>52</>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, привязанные суле, связанные золотые фунты, звездные монеты, основные материалы для зелий, ящик с оружием, промежуточная малиновая эссенция, среднее жестокое зелье."
   },
   {
     "id": "115198",
@@ -1329,7 +1329,7 @@
     "id": "115221",
     "source_cn": "使用后解锁<Highlight>单人社交动作·招手</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Wave</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Wave</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "После использования открывает <Highlight>Одиночное социальное действие: Помахать рукой</>, повторное получение автоматически преобразуется в привязанные суле."
   },
   {
     "id": "115222",
@@ -2157,7 +2157,7 @@
     "id": "115359",
     "source_cn": "副本-黑荆棘事件簿",
     "ref_en": "Dungeon - Blackthorn Incident Book",
-    "target_ru": "Подземелье - Книга происшествий Блэкторна"
+    "target_ru": "Подземелье - Книга происшествий «Чёрного Терновника»"
   },
   {
     "id": "115360",
@@ -2595,7 +2595,7 @@
     "id": "115432",
     "source_cn": "终末猎杀·统治者",
     "ref_en": "Final Hunt: Ruler",
-    "target_ru": "Последняя охота: Правитель"
+    "target_ru": "Финальная охота: Правитель"
   },
   {
     "id": "115433",
@@ -3783,7 +3783,7 @@
     "id": "115631",
     "source_cn": "人脉闲聊话题-阿尔杰4",
     "ref_en": "Connection Chat Topic - Alger 4",
-    "target_ru": "Тема чата подключения — Алжир 4"
+    "target_ru": "Тема чата подключения — Элджер 4"
   },
   {
     "id": "115632",
@@ -4029,7 +4029,7 @@
     "id": "115672",
     "source_cn": "开启可随机获得一件<Highlight>45装等</>的<Highlight>冒险倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 45</> <Highlight>Adventure-oriented</> gold and purple-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. \\n\\n<Highlight>Conversion limit</>: Can be converted into a maximum of <Highlight>10</> Secret Treasures; progress exceeding this will be <Highlight>automatically stored</>, and will be <Highlight>converted into new Secret Treasures</> once the new level's Secret Treasures are unlocked.",
-    "target_ru": "Откройте его, чтобы случайным образом получить снаряжение <Highlight>45 уровня</> <Highlight>Adventure Tendency</> золотого и фиолетового качества, экстраординарную материю, коэффициент агрегации, привязку Сулера. \\n\\n<Highlight> верхний предел преобразования </>: максимум может быть преобразован в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
+    "target_ru": "Откройте его, чтобы случайным образом получить снаряжение <Highlight>45 уровня</> <Highlight>склонности к приключениям</> золотого и фиолетового качества, экстраординарную материю, коэффициент агрегации, привязанные суле. \\n\\n<Highlight> верхний предел преобразования </>: максимум может быть преобразован в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
   },
   {
     "id": "115673",
@@ -4323,7 +4323,7 @@
     "id": "115721",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·窥秘的角落</>，可以参与公共掉落的分配与拍卖。有概率获得下列道具。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · A Corner of Mysteries</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following items.",
-    "target_ru": "Участие в подземелье <Highlight>Чёрный Чертополох Журнал происшествий · Уголок тайн</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
+    "target_ru": "Участие в подземелье <Highlight>«Чёрный Терновник» Журнал происшествий · Уголок тайн</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
   },
   {
     "id": "115722",
@@ -4443,7 +4443,7 @@
     "id": "115741",
     "source_cn": "\\n半高礼帽（黑）   一顶 …… 五苏勒六便士\\n\\n小　计  ……………… 五苏勒六便士\\n新顾客折让  ………… 减  三 便士\\n应　收  ………………五苏勒三便士\\n\\n收　到  ………………  六苏勒\\n找　零  ………………  九便士\\n\\n· 礼帽如有褶皱、污渍，凭此单回店免费修整一次。\\n· 非人为损坏，三日内可换。\\n\\n维尔克尔衣帽店",
     "ref_en": "\\nHalf-top hat (black)   One …… 5 Sol 6 Pence\\n\\nSubtotal  ……………… 5 Sol 6 Pence\\nNew Customer Discount  ………… Minus 3 Pence\\nTotal Due  ……………… 5 Sol 3 Pence\\n\\nReceived  ………………  6 Sol\\nChange  ………………  9 Pence\\n\\n· If the hat has creases or stains, bring this receipt back to the store for one free repair.\\n· Non-human damage can be exchanged within three days.\\n\\nWilker Hat & Clothing Store",
-    "target_ru": "\\n Полуцилиндра (черного)... Пять солей и шесть пенсов\\n\\nПромежуточный итог......... Пять солей и шесть пенсов\\nСкидка для нового клиента......... Минус три пенса\\n Дебиторская задолженность....... Пять солей и три пенса\\n\\nПолучено......... Шесть солей\\n Изменение......... Девять пенсов\\n\\n· Если на шляпе есть морщины или пятна, вы можете вернуться в магазин для бесплатного ремонта с этим чеком. \\n· Если он не поврежден человеком, его можно заменить в течение трех дней. \\n\\nМагазин одежды Wilker"
+    "target_ru": "\\n Полуцилиндра (черного)... Пять суле и шесть пенсов\\n\\nПромежуточный итог......... Пять суле и шесть пенсов\\nСкидка для нового клиента......... Минус три пенса\\n Дебиторская задолженность....... Пять суле и три пенса\\n\\nПолучено......... Шесть суле\\n Изменение......... Девять пенсов\\n\\n· Если на шляпе есть морщины или пятна, вы можете вернуться в магазин для бесплатного ремонта с этим чеком. \\n· Если он не поврежден человеком, его можно заменить в течение трех дней. \\n\\nМагазин одежды Wilker"
   },
   {
     "id": "115742",
@@ -5055,7 +5055,7 @@
     "id": "115844",
     "source_cn": "罗塞尔Boss-1&2阶段-自清洁程序-玩家buff",
     "ref_en": "Roselle Boss - Stages 1 & 2 - Self-Cleaning Program - Player buff",
-    "target_ru": "Босс Розеллы — этапы 1 и 2 — программа самоочистки — усиление игрока"
+    "target_ru": "Босс Розеля — этапы 1 и 2 — программа самоочистки — усиление игрока"
   },
   {
     "id": "115845",
@@ -5541,7 +5541,7 @@
     "id": "115926",
     "source_cn": "完成主线第一章《加入黑荆棘》",
     "ref_en": "Complete Main Story Chapter 1: \"Join the Nighthawks\"",
-    "target_ru": "Завершите главу 1 основного сюжета: «Присоединяйтесь к Ночным Ястребам»."
+    "target_ru": "Завершите главу 1 основного сюжета: «Присоединяйтесь к «Чёрному Терновнику»»."
   },
   {
     "id": "115927",
@@ -5871,7 +5871,7 @@
     "id": "115981",
     "source_cn": "邓恩的邀请实在令人心动，去黑荆棘安保公司看看吧，人总是要工作的。",
     "ref_en": "Dunn's invitation is truly tempting. Let's go check out Blackthorn Security Company; one always needs a job.",
-    "target_ru": "Приглашение Данна действительно заманчиво. Давайте проверим охранную компанию Чёрный Чертополох; человеку всегда нужна работа."
+    "target_ru": "Приглашение Данна действительно заманчиво. Давайте проверим охранную компанию «Чёрный Терновник»; человеку всегда нужна работа."
   },
   {
     "id": "115982",
@@ -6285,7 +6285,7 @@
     "id": "116050",
     "source_cn": "我感觉我一直活在罗塞尔大帝的影子里。",
     "ref_en": "I feel like I've always lived in the shadow of Emperor Roselle.",
-    "target_ru": "У меня такое чувство, будто я всегда жил в тени императора Розеллы."
+    "target_ru": "У меня такое чувство, будто я всегда жил в тени императора Розеля."
   },
   {
     "id": "116051",
@@ -6531,7 +6531,7 @@
     "id": "116091",
     "source_cn": "终末猎杀段位职业排名进入全国前100名",
     "ref_en": "Endless Hunt rank professional ranking enters national top 100",
-    "target_ru": "Профессиональный рейтинг ранга Endless Hunt вошел в 100 лучших национальных рейтингов"
+    "target_ru": "Профессиональный рейтинг ранга в «Финальной охоте» вошел в 100 лучших национальных рейтингов"
   },
   {
     "id": "116092",
@@ -7353,7 +7353,7 @@
     "id": "116228",
     "source_cn": "重置当前选中气息等级可获得此前共鸣时消耗的%d%%的封印裂片，以及%d%%的绑定苏勒。本次重置将返还%d个封印裂片和%d绑定苏勒",
     "ref_en": "Resetting the currently selected aura level will return the %d%% of Sealed Fragments consumed during previous Resonance, as well as the %d%% of bound Sols. This reset will return %d Sealed Fragments and %d bound Sols.",
-    "target_ru": "Сброс текущего выбранного уровня ауры вернет %d%% запечатанных фрагментов, израсходованных во время предыдущего Резонанса, а также %d%% связанных Солов. Этот сброс вернет запечатанные фрагменты %d и связанные с %d солы."
+    "target_ru": "Сброс текущего выбранного уровня ауры вернет %d%% запечатанных фрагментов, израсходованных во время предыдущего Резонанса, а также %d%% привязанных суле. Этот сброс вернет запечатанные фрагменты %d и привязанные суле %d."
   },
   {
     "id": "116229",
@@ -8103,7 +8103,7 @@
     "id": "116353",
     "source_cn": "老维尔先生，我是黑荆棘安保公司的{{PlayerName}} ，有些事——",
     "ref_en": "Old Mr. Will, I am {{PlayerName}} from the Blackthorn Security Company, there are some things—",
-    "target_ru": "Старый мистер Уилл, я {{PlayerName}} из охранной компании Чёрный Чертополох, есть кое-что…"
+    "target_ru": "Старый мистер Уилл, я {{PlayerName}} из охранной компании «Чёрный Терновник», есть кое-что…"
   },
   {
     "id": "116354",
@@ -8289,7 +8289,7 @@
     "id": "116384",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>恭喜您在终末猎杀玩法中跻身本职业全国排名前100，特赠荣誉头衔，可前往</><HyperLink stylename=\"M_Link\" u=\"jump=1250011\">【菜单-角色-头衔界面】</><M_Default>使用。</>",
     "ref_en": "<M_Default> Dear Beyonder: </>\\n<M_Default> Congratulations on ranking in the top 100 nationwide for your profession in the Final Hunt. You have been awarded an honorary title. You can go to </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Menu - Character - Title Interface] </><M_Default> to use it. </>",
-    "target_ru": "<M_Default> Дорогой Необыкновенный: </>\\n<M_Default> Поздравляем вас с попаданием в число 100 лучших в национальном рейтинге вашей профессии в игровом процессе терминальной охоты. Вам будет присвоен особый почетный титул, который можно будет использовать по адресу </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Интерфейс Меню-Символ-Название] </><M_Default>. </>"
+    "target_ru": "<M_Default> Дорогой Необыкновенный: </>\\n<M_Default> Поздравляем вас с попаданием в число 100 лучших в национальном рейтинге вашей профессии в игровом процессе «Финальной охоты». Вам будет присвоен особый почетный титул, который можно будет использовать по адресу </><HyperLink stylename=\"M_Link\" u=\"jump=1250011\"> [Интерфейс Меню-Символ-Название] </><M_Default>. </>"
   },
   {
     "id": "116385",
@@ -8973,7 +8973,7 @@
     "id": "116498",
     "source_cn": "<DecH>工艺：</>部落编织・粗犷宝饰\\n具有荒野风情的奇异披风，据说是罗塞尔大帝开辟航道之旅的战利品之一。",
     "ref_en": "<DecH>Craftsmanship: </>Tribal Weaving · Rugged Jewelry\\nA strange cape with a wilderness style, said to be one of the spoils of Emperor Roselle's journey to open up shipping routes.",
-    "target_ru": "<DecH> Мастерство: </> Племенное плетение и прочные украшения \\n Странный плащ в диком стиле. Говорят, что это один из трофеев путешествия императора Рассела по открытию морского пути."
+    "target_ru": "<DecH> Мастерство: </> Племенное плетение и прочные украшения \\n Странный плащ в диком стиле. Говорят, что это один из трофеев путешествия императора Розеля по открытию морского пути."
   },
   {
     "id": "116499",
@@ -9693,7 +9693,7 @@
     "id": "116618",
     "source_cn": "这一沓有10000绑定苏勒。",
     "ref_en": "This stack contains 10,000 bound Sol.",
-    "target_ru": "Этот стек содержит 10 000 связанных Солов."
+    "target_ru": "Этот стек содержит 10 000 привязанных суле."
   },
   {
     "id": "116619",
@@ -9729,7 +9729,7 @@
     "id": "116624",
     "source_cn": "那，我们先回黑荆棘吧。",
     "ref_en": "Then, let's head back to Blackthorn first.",
-    "target_ru": "Тогда давайте сначала вернемся в Чёрный Чертополох."
+    "target_ru": "Тогда давайте сначала вернемся в «Чёрный Терновник»."
   },
   {
     "id": "116625",
@@ -9933,7 +9933,7 @@
     "id": "116660",
     "source_cn": "使用后解锁<Highlight>单人社交动作·轻咳</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Cough</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Кашель</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: Кашель</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "116661",
@@ -10179,7 +10179,7 @@
     "id": "116701",
     "source_cn": "暂无可提取苏勒。",
     "ref_en": "No Sol available for withdrawal.",
-    "target_ru": "Нет Сола, доступного для вывода."
+    "target_ru": "Нет суле, доступных для вывода."
   },
   {
     "id": "116702",
@@ -10635,7 +10635,7 @@
     "id": "116777",
     "source_cn": "咳！安多还晕着，要不我们先回黑荆棘再说？",
     "ref_en": "Ahem! Andor is still unconscious, why don't we head back to Blackthorn first?",
-    "target_ru": "Кхм! Андор все еще без сознания, почему бы нам сначала не вернуться в Чёрный Чертополох?"
+    "target_ru": "Кхм! Андор все еще без сознания, почему бы нам сначала не вернуться в «Чёрный Терновник»?"
   },
   {
     "id": "116778",
@@ -11949,7 +11949,7 @@
     "id": "116997",
     "source_cn": "黑荆棘移动案例",
     "ref_en": "Blackthorn Moving Case",
-    "target_ru": "Кейс для переезда Чёрный Чертополох"
+    "target_ru": "Кейс для переезда «Чёрный Терновник»"
   },
   {
     "id": "116998",
@@ -12675,7 +12675,7 @@
     "id": "117118",
     "source_cn": "黑荆棘事件簿4-关卡2-连续地火标记buff",
     "ref_en": "Blackthorn Incident Book 4 - Level 2 - Continuous ground fire mark buff",
-    "target_ru": "Книга происшествий в Блэкторне 4 — Уровень 2 — усиление метки непрерывного наземного огня"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — Уровень 2 — усиление метки непрерывного наземного огня"
   },
   {
     "id": "117119",
@@ -13383,7 +13383,7 @@
     "id": "117237",
     "source_cn": "　　\\n\\n　　……\\n\\n　　罗塞尔相貌俊美，落魄贵族的出身更为之增添了深沉气质与勇往无前的生命力。\\n\\n　　出色的相貌与更为出色的学识与行动力，使之从青年起就成为了因蒂斯适婚男女的梦中爱侣。\\n\\n　　……\\n\\n　　（大片被啃食的痕迹）\\n\\n　　……与之相伴一生的眷侣玛蒂尔达女士，来自阿贝多家族……\\n\\n　　（大片被啃食的痕迹）",
     "ref_en": "\\n \\n ... \\n \\n Roselle was handsome, and his background as a fallen noble added a deep temperament and an indomitable vitality to him. \\n \\n His outstanding appearance and even more outstanding knowledge and drive made him the dream lover of marriageable men and women in Intis from his youth. \\n \\n ... \\n \\n (Large areas of gnawed marks) \\n \\n ... Lady Matilda, his companion for life, came from the Abedo family... \\n \\n (Large areas of gnawed marks)",
-    "target_ru": "​\\n\\n　……\\n\\n Рассел красива внешне, а ее происхождение как бедной дворянки добавляет ей глубокого темперамента и смелой жизненной силы. \\n\\n　Обладая выдающейся внешностью, а также еще лучшими знаниями и мобильностью, он с юных лет стал любовником мечты мужчин и женщин Интиса на выданье. \\n\\n　…\\n\\n　(Признаки поедания большой площади) \\n\\n　…Мисс. Матильда, супруга, которая была с ним всю его жизнь, происходит из семьи Альбедо…\\n\\n　(Большая площадь съедена)"
+    "target_ru": "​\\n\\n　……\\n\\n Розель красив внешне, а его происхождение как обедневшего дворянина добавляет ему глубокого темперамента и смелой жизненной силы. \\n\\n　Обладая выдающейся внешностью, а также еще лучшими знаниями и мобильностью, он с юных лет стал любовником мечты мужчин и женщин Интиса на выданье. \\n\\n　…\\n\\n　(Признаки поедания большой площади) \\n\\n　…Мисс. Матильда, супруга, которая была с ним всю его жизнь, происходит из семьи Альбедо…\\n\\n　(Большая площадь съедена)"
   },
   {
     "id": "117238",
@@ -13629,7 +13629,7 @@
     "id": "117279",
     "source_cn": "完成任务“<Highlight>【神降】荣光织造·灵骑</>”所需要的仪式材料。\\n可交易的该道具上架<Highlight>商城—交易所</>时，推荐售价<Highlight>1500万苏勒</>。",
     "ref_en": "Ritual materials needed to complete the quest \"<Highlight>[God's Descent] Glory Weaving · Spirit Mount</>\". \\n When this tradable item is listed on the <Highlight>Mall—Exchange</>, the recommended price is <Highlight>15,000,000 Sol </>.",
-    "target_ru": "Ритуальные материалы, необходимые для выполнения миссии «<Highlight>[Божье нисхождение] Славное плетение·Духовная езда</>». \\n Когда предмет торговли будет помещен на полки <Highlight> Mall-Exchange </>, рекомендуемая цена составит <Highlight> 15 миллионов сулеров </>."
+    "target_ru": "Ритуальные материалы, необходимые для выполнения миссии «<Highlight>[Божье нисхождение] Славное плетение·Духовная езда</>». \\n Когда предмет торговли будет помещен на полки <Highlight> Mall-Exchange </>, рекомендуемая цена составит <Highlight> 15 миллионов суле </>."
   },
   {
     "id": "117280",
@@ -14037,7 +14037,7 @@
     "id": "117347",
     "source_cn": "<P_Heart>（班森的周薪才1镑10苏勒，钱可真不禁花啊……嗯，我得尽快工作赚钱。）</>",
     "ref_en": "<P_Heart> (Benson's weekly salary is only 1 pound and 10 shillings; money really doesn't last long... hmm, I must work and earn money as soon as possible.) </>",
-    "target_ru": "<P_Heart> (Недельная зарплата Бенсона составляет всего 1 фунт и 10 шиллингов; денег действительно не хватает надолго... хм, мне нужно как можно скорее работать и зарабатывать деньги.) </>"
+    "target_ru": "<P_Heart> (Недельная зарплата Бенсона составляет всего 1 фунт и 10 суле; денег действительно не хватает надолго... хм, мне нужно как можно скорее работать и зарабатывать деньги.) </>"
   },
   {
     "id": "117348",
@@ -14295,7 +14295,7 @@
     "id": "117390",
     "source_cn": "廷根对你来说还太陌生，黑荆棘是你暂时的避风港。",
     "ref_en": "Tingen is still too strange to you, Blackthorn is your temporary safe haven.",
-    "target_ru": "Тинген все еще слишком чужой для тебя, Чёрный Чертополох — твое временное убежище."
+    "target_ru": "Тинген все еще слишком чужой для тебя, «Чёрный Терновник» — твое временное убежище."
   },
   {
     "id": "117391",
@@ -15579,7 +15579,7 @@
     "id": "117607",
     "source_cn": "伙伴罗塞尔技能-不败旌旗",
     "ref_en": "Partner Roselle Skill - Invincible Flag",
-    "target_ru": "Навык партнера Розеллы — Непобедимый флаг"
+    "target_ru": "Навык партнера Розеля — Непобедимый флаг"
   },
   {
     "id": "117608",
@@ -15759,7 +15759,7 @@
     "id": "117637",
     "source_cn": "弗莱去黑荆棘路径",
     "ref_en": "Frye to Blackthorn Path",
-    "target_ru": "Фрай на Тропе Блэкторна"
+    "target_ru": "Фрай на Тропе «Чёрного Терновника»"
   },
   {
     "id": "117638",
@@ -16203,7 +16203,7 @@
     "id": "117711",
     "source_cn": "4苏勒零8便士，我攒了两周的钱，为此每天都要多接好几单浣洗衣物的订单…",
     "ref_en": "4 shillings and 8 pence. I've been saving for two weeks, and for this, I've had to take on several extra laundry orders every day...",
-    "target_ru": "4 шиллинга и 8 пенсов. Я копила две недели, и для этого мне приходилось каждый день брать на себя несколько дополнительных заказов на стирку..."
+    "target_ru": "4 суле и 8 пенсов. Я копила две недели, и для этого мне приходилось каждый день брать на себя несколько дополнительных заказов на стирку..."
   },
   {
     "id": "117712",
@@ -16239,7 +16239,7 @@
     "id": "117717",
     "source_cn": "【副本】罗塞尔意志",
     "ref_en": "【Dungeon】Roselle's Will",
-    "target_ru": "【Подземелье】Воля Розеллы"
+    "target_ru": "【Подземелье】Воля Розеля"
   },
   {
     "id": "117718",
@@ -17523,7 +17523,7 @@
     "id": "117932",
     "source_cn": "终末猎杀全国排名头衔",
     "ref_en": "Endless Hunt national ranking title",
-    "target_ru": "Национальный рейтинговый титул «Бесконечная охота»"
+    "target_ru": "Национальный рейтинговый титул «Финальная охота»"
   },
   {
     "id": "117933",
@@ -17955,7 +17955,7 @@
     "id": "118005",
     "source_cn": "回到<h>黑荆棘</>",
     "ref_en": "Return to <h>Blackthorn Security Company</>",
-    "target_ru": "Вернуться в <h>Охранная компания «Чёрный Чертополох»</>"
+    "target_ru": "Вернуться в <h>Охранная компания «Чёрный Терновник»</>"
   },
   {
     "id": "118006",
@@ -18027,7 +18027,7 @@
     "id": "118017",
     "source_cn": "开启可随机获得一件<Highlight>64装等</>或<Highlight>66装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 64</> or <Highlight>level 66</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. There is a certain chance to obtain 1 Gray Fog Crystal (used to upgrade level 64 or higher competition brooches to Mythical quality). You can obtain at most 3 per week; unobtained amounts can be accumulated to the following week.",
-    "target_ru": "Откройте, чтобы случайным образом получить одну часть <Highlight>уровня 64</> или <Highlight>уровня 66</> <Highlight>Оранжевого или золотого качества, ориентированного на соревнования </>, материалов Потусторонний, Факторов агрегации или связанного Сола. Существует определенный шанс получить 1 Кристалл Серого Тумана (используется для улучшения соревновательных брошей 64-го уровня или выше до мифического качества). Вы можете получить максимум 3 в неделю; неполученные суммы можно накопить до следующей недели."
+    "target_ru": "Откройте, чтобы случайным образом получить одну часть снаряжения <Highlight>64 уровня</> или <Highlight>66 уровня</> <Highlight>соревновательной направленности</> оранжевого или золотого качества, экстраординарную материю, коэффициент агрегации или привязанные суле. Существует определенный шанс получить 1 Кристалл Серого Тумана (используется для улучшения соревновательных брошей 64-го уровня или выше до мифического качества). Вы можете получить максимум 3 в неделю; неполученные суммы можно накопить до следующей недели."
   },
   {
     "id": "118018",
@@ -18039,7 +18039,7 @@
     "id": "118019",
     "source_cn": "当周未达到获取上限时，打开后可获得1个灰雾晶砾。\\n灰雾晶砾是铸造神话品质胸针<Highlight>（竞技倾向）</>的关键材料。\\n\\n铸造需消耗<Highlight>15</>个灰雾晶砾，得到64装等<Highlight>竞技倾向</>神话品质胸针。\\n随赛季进程，将开放竞技倾向神话胸针的装等提升，提升时消耗一定数量的<Highlight>灰雾晶砾</>。\\n\\n每周可通过终末猎杀、四方联赛、猎城战/高原战、以战养战秘宝<Highlight>直接获取</>至多<Highlight>3</>个灰雾晶砾。未获取个数可累计至下周，至多累计至<Highlight>15</>个。",
     "ref_en": "When the weekly acquisition limit has not been reached, opening this grants 1 Gray Fog Crystal. \\nGray Fog Crystal is a key material for forging Mythical-quality brooches <Highlight>(Competitive-leaning)</>. \\n\\nForging consumes <Highlight>15</> Gray Fog Crystals to obtain a Gear Level 64 <Highlight>Competitive-leaning</> Mythical-quality brooch. \\nAs the season progresses, Gear Level Increases for Competitive-leaning Mythical brooches will be unlocked, consuming a certain amount of <Highlight>Gray Fog Crystals</> upon upgrade. \\n\\nYou can obtain up to <Highlight>3</> Gray Fog Crystals directly each week through Terminal Hunt, Four-Way League, City Hunt/Highland Battle, and War-for-War Treasures <Highlight>directly obtained</>. Unclaimed amounts can accumulate to the following week, up to a maximum of <Highlight>15</>.",
-    "target_ru": "Если максимальный лимит приобретения не достигнут в течение недели, вы можете получить 1 Гравий Серого Тумана после его открытия. \\n Кристалл серого тумана является основным материалом для отливки броши мифического качества <Highlight> (конкурентная тенденция) </>. \\n\\n Для кастинга требуются <Highlight>15</> кристаллы серого тумана, чтобы получить брошь мифического качества <Highlight>Competitive Tendency</> 64-го уровня. \\n По ходу сезона уровень снаряжения открытой соревновательной мифической броши будет повышаться. При обновлении будет израсходовано определенное количество кристаллов серого тумана <Highlight> </>. \\n\\nВы можете напрямую получать от </> до <Highlight>3</> кристаллов серого тумана каждую неделю посредством терминальной охоты, четырехпартийной лиги, городской охотничьей войны/войны на плато и борьбы за секретные сокровища <Highlight>. Количество недополученных предметов можно накопить до следующей недели, до <Highlight>15</>."
+    "target_ru": "Если максимальный лимит приобретения не достигнут в течение недели, вы можете получить 1 Кристалл Серого Тумана после его открытия. \\nКристалл Серого Тумана является ключевым материалом для ковки брошей мифического качества <Highlight>(соревновательной направленности)</>. \\n\\nДля ковки требуется <Highlight>15</> кристаллов Серого Тумана, чтобы получить мифическую брошь <Highlight>соревновательной направленности</> 64-го уровня. \\nПо ходу сезона будет открыто повышение уровня соревновательных мифических брошей; при повышении расходуется определенное количество <Highlight>кристаллов Серого Тумана</>. \\n\\nКаждую неделю через «Финальную охоту», Лигу четырёх сторон, городскую охоту/войну на плато и секретные сокровища «война кормит войну» можно <Highlight>напрямую получить</> до <Highlight>3</> кристаллов Серого Тумана. Неполученные кристаллы можно накопить до следующей недели, максимум до <Highlight>15</>."
   },
   {
     "id": "118020",
@@ -19101,7 +19101,7 @@
     "id": "118197",
     "source_cn": "鲁恩的首都是贝克兰德，人们称之为伟大的“万都之都”。我曾听一个自称罗塞尔大帝同乡的非凡者说，贝克兰德很像“伦敦”。",
     "ref_en": "The capital of Loen is Backlund, which people call the great \"City of Cities\". I once heard a Beyonder who claimed to be a fellow townsman of Emperor Roselle say that Backlund is very much like \"London\".",
-    "target_ru": "Столица Лоена — Баклунд, который люди называют великим «Городом городов». Однажды я слышал, как некий Потусторонний, утверждавший, что является земляком императора Розеллы, сказал, что Баклунд очень похож на «Лондон»."
+    "target_ru": "Столица Лоена — Баклунд, который люди называют великим «Городом городов». Однажды я слышал, как некий Потусторонний, утверждавший, что является земляком императора Розеля, сказал, что Баклунд очень похож на «Лондон»."
   },
   {
     "id": "118198",
@@ -19383,7 +19383,7 @@
     "id": "118244",
     "source_cn": "好了，线索收集得差不多了，该回黑荆棘问问小阿诺德，关于他这位“朋友”的事了。",
     "ref_en": "Alright, the clues have been gathered. It's time to go back to Blackthorn and ask little Arnold about this \"friend\" of his.",
-    "target_ru": "Ура, улики собраны. Пришло время вернуться в Чёрный Чертополох и расспросить маленького Арнольда об этом его «друге»."
+    "target_ru": "Ура, улики собраны. Пришло время вернуться в «Чёрный Терновник» и расспросить маленького Арнольда об этом его «друге»."
   },
   {
     "id": "118245",
@@ -20493,7 +20493,7 @@
     "id": "118430",
     "source_cn": "罗塞尔的意志",
     "ref_en": "Roselle's Will",
-    "target_ru": "Воля Розеллы"
+    "target_ru": "Воля Розеля"
   },
   {
     "id": "118431",
@@ -20679,7 +20679,7 @@
     "id": "118461",
     "source_cn": "<Assistant_Title1>【最好的武器】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>扮演故事</>\\n<Assistant_Title2>任务描述：</>集市上有人出售锈迹斑斑的旧枪，摊主说只能当装饰品。你慧眼识枪，挑出一把看似报废的老枪，当场修复撞针并一枪命中，惊艳全场。\\n<Assistant_Title2>领取方式：</>完成晋升任务，晋升至序列7，前往{Location:[廷根(757,1118)]|-24012;11883;-2064;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒",
     "ref_en": "<Assistant_Title1>【The Best Weapon】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Acting Story</>\\n<Assistant_Title2>Quest Description: </>Someone is selling rusty old guns at the market, and the stall owner says they are only for decoration. You have a keen eye for guns, pick out an old gun that looks like it's scrapped, fix the firing pin on the spot, and hit the target with one shot, stunning everyone present.\\n<Assistant_Title2>How to Accept: </>Complete the promotion quest, promote to Sequence 7, and head to {Location:[Tingen(757,1118)]|-24012;11883;-2064;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sol",
-    "target_ru": "<Assistant_Title1>[Лучшее оружие]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Игровая история</>\\n<Assistant_Title2>Описание миссии: </>Кто-то продает на рынке ржавое старое оружие. Владелец ларька сказал, что их можно использовать только как украшение. Вы хорошо разбираетесь в оружии, выбрали старое ружье, которое, казалось, было сдано в металлолом, починили на месте ударник и поразили цель одним выстрелом, ошеломив публику. \\n<Assistant_Title2>Как получить: </>Завершите задачу продвижения, получите повышение до Последовательности 7, перейдите в {Location:[Tingen(757,1118)]|-24012;11883;-2064;2;5200002;0}, чтобы активировать задачу \\n<Assistant_Title2>Награда за задачу</>: когнитивная опыт, связывающий Сулера"
+    "target_ru": "<Assistant_Title1>[Лучшее оружие]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Игровая история</>\\n<Assistant_Title2>Описание миссии: </>Кто-то продает на рынке ржавое старое оружие. Владелец ларька сказал, что их можно использовать только как украшение. Вы хорошо разбираетесь в оружии, выбрали старое ружье, которое, казалось, было сдано в металлолом, починили на месте ударник и поразили цель одним выстрелом, ошеломив публику. \\n<Assistant_Title2>Как получить: </>Завершите задачу продвижения, получите повышение до Последовательности 7, перейдите в {Location:[Tingen(757,1118)]|-24012;11883;-2064;2;5200002;0}, чтобы активировать задачу \\n<Assistant_Title2>Награда за задачу</>: когнитивный опыт, привязанные суле"
   },
   {
     "id": "118462",
@@ -20961,7 +20961,7 @@
     "id": "118509",
     "source_cn": "当本俱乐部玩家在终末猎杀地图被其他俱乐部玩家击败时，将会增加对该俱乐部的血仇值。",
     "ref_en": "When players of this club are defeated by players of other clubs in the Final Hunt map, the Blood Feud value against that club will increase.",
-    "target_ru": "Когда игроки этого клуба терпят поражение от игроков других клубов на карте «Последняя охота», значение «Кровной мести» против этого клуба увеличивается."
+    "target_ru": "Когда игроки этого клуба терпят поражение от игроков других клубов на карте «Финальной охоты», значение «Кровной мести» против этого клуба увеличивается."
   },
   {
     "id": "118510",
@@ -21687,7 +21687,7 @@
     "id": "118631",
     "source_cn": "廷根似乎笼罩在一百多年前的时代浪潮中，到处都是罗塞尔的报道和信息。",
     "ref_en": "Tingen seems to be shrouded in the tides of an era from over a hundred years ago, with reports and information about Roselle everywhere.",
-    "target_ru": "Тинген, кажется, окутан событиями эпохи, произошедшей более ста лет назад, повсюду отчеты и информация о Розелле."
+    "target_ru": "Тинген, кажется, окутан событиями эпохи, произошедшей более ста лет назад, повсюду отчеты и информация о Розеле."
   },
   {
     "id": "118632",
@@ -22593,7 +22593,7 @@
     "id": "118783",
     "source_cn": "终末猎杀·星辰之主",
     "ref_en": "Final Hunt: Lord of Stars",
-    "target_ru": "Последняя охота: Повелитель звезд"
+    "target_ru": "Финальная охота: Повелитель звезд"
   },
   {
     "id": "118784",
@@ -24069,7 +24069,7 @@
     "id": "119031",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>35装等</>的<Highlight>冒险倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 35</> <Highlight>Adventure-oriented</> gold and purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. При открытии вы можете случайным образом получить часть экипировки <Highlight>35 уровня</> <Highlight>склонности к приключениям</> золотого и фиолетового качества, необычный материал, коэффициент агрегации и связывающий сулер. \\n\\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
+    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. При открытии вы можете случайным образом получить часть экипировки <Highlight>35 уровня</> <Highlight>склонности к приключениям</> золотого и фиолетового качества, необычный материал, коэффициент агрегации и привязанные суле. \\n\\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
   },
   {
     "id": "119032",
@@ -24459,7 +24459,7 @@
     "id": "119096",
     "source_cn": "也看不出你有什么特别的，居然是伦纳德亲自带你去黑荆棘的。",
     "ref_en": "I don't see anything special about you, yet Leonard actually took you to Blackthorn himself.",
-    "target_ru": "Я не вижу в тебе ничего особенного, но Леонард на самом деле сам отвез тебя в Чёрный Чертополох."
+    "target_ru": "Я не вижу в тебе ничего особенного, но Леонард на самом деле сам отвез тебя в «Чёрный Терновник»."
   },
   {
     "id": "119097",
@@ -24513,7 +24513,7 @@
     "id": "119105",
     "source_cn": "使用后，开启任务“<Highlight>【神降】荣光织造·灵骑</>”，开启任务不会消耗该道具。\\n可交易的该道具上架<Highlight>商城—交易所</>时，推荐售价<Highlight>40000万苏勒</>。",
     "ref_en": "After use, starts the quest \"<Highlight>[God's Descent] Glory Weaving · Spirit Mount</>\". Starting the quest will not consume this item. \\n When this tradable item is listed on the <Highlight>Mall—Exchange</>, the recommended price is <Highlight>400,000,000 Sol </>.",
-    "target_ru": "После его использования начните миссию «<Highlight>[Божье нисхождение] Славное плетение·Духовная езда</>». При запуске миссии этот реквизит не будет расходоваться. \\n Когда торгуемый предмет попадает на полки <Highlight> Mall-Exchange </>, рекомендуемая цена продажи составляет <Highlight> 400 миллионов сулеров </>."
+    "target_ru": "После его использования начните миссию «<Highlight>[Божье нисхождение] Славное плетение·Духовная езда</>». При запуске миссии этот реквизит не будет расходоваться. \\n Когда торгуемый предмет попадает на полки <Highlight> Mall-Exchange </>, рекомендуемая цена продажи составляет <Highlight> 400 миллионов суле </>."
   },
   {
     "id": "119106",
@@ -24771,7 +24771,7 @@
     "id": "119148",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×4500</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 4,500</>.",
-    "target_ru": "Открыт для получения <Highlight>Bound Sol 4,500</>."
+    "target_ru": "После открытия вы получите <Highlight>привязанные суле ×4500</>."
   },
   {
     "id": "119149",
@@ -25125,7 +25125,7 @@
     "id": "119207",
     "source_cn": "1345年4月12日 \\n第一次摸到父亲的工具。锤子比想象中沉，手抖得厉害，把银片敲变形了。\\n\\n1345年8月3日 \\n学会了辨认红宝石和石榴石的区别。\\n\\n1346年2月18日 \\n母亲咳嗽又重了。周薪涨到12苏勒，买了些润喉的草药。\\n\\n1346年7月9日 \\n独立完成了一枚银戒指的抛光。主顾是个码头工人，给未婚妻的。\\n\\n1347年3月15日 \\n正式成为匠人学徒。父亲说我手稳，适合吃这碗饭。\\n\\n1347年11月2日 \\n学会了镶嵌月光石。父亲点头了。\\n\\n1348年6月3日 \\n周薪涨到1镑5苏勒。母亲炖了肉汤。\\n\\n1348年9月14日 \\n第一次接定制单。顾客要一枚带苹果花纹的胸针，说送给妻子。画了三遍草图才满意。\\n\\n1349年1月20日 \\n整理铺子旧物，发现一张泛黄的家谱图。有些名字被涂掉了。\\n\\n1349年3月8日 \\n母亲的药粉快吃完了。这周多接些修活的单子。\\n\\n1349年6月28日 \\n收到了一本奇怪的笔记。翻开第一页，那些符号……好像在哪里见过。",
     "ref_en": "April 12, 1345 \\n First time touching father's tools. The hammer was heavier than expected, my hand shook so much I deformed the silver sheet. \\n\\n August 3, 1345 \\n Learned to distinguish between rubies and garnets. \\n\\n February 18, 1346 \\n Mother's cough worsened. Weekly wage rose to 12 sous, bought some throat-soothing herbs. \\n\\n July 9, 1346 \\n Independently finished polishing a silver ring. The client was a dock worker, for his fiancée. \\n\\n March 15, 1347 \\n Officially became a craftsman's apprentice. Father said my hands are steady, suitable for this trade. \\n\\n November 2, 1347 \\n Learned to set moonstones. Father nodded. \\n\\n June 3, 1348 \\n Weekly wage rose to 1 pound 5 sous. Mother made meat stew. \\n\\n September 14, 1348 \\n First custom order. Customer wanted a brooch with an apple pattern, said it was for his wife. Drew the sketch three times before he was satisfied. \\n\\n January 20, 1349 \\n Sorting through old items in the shop, found a yellowed family tree. Some names were crossed out. \\n\\n March 8, 1349 \\n Mother's herbal powder is almost gone. Need to take more repair jobs this week. \\n\\n June 28, 1349 \\n Received a strange notebook. Opened the first page, those symbols... I feel like I've seen them somewhere.",
-    "target_ru": "12 апреля 1345 г. \\n впервые прикоснулся к инструменту своего отца. Молоток оказался тяжелее, чем я ожидал, а моя рука дрожала так сильно, что серебряный предмет деформировался. \\n\\n 3 августа 1345 г. \\n научился определять разницу между рубином и гранатом. \\n\\n18 февраля 1346 г. \\nКашель матери снова стал сильным. Еженедельную зарплату увеличили до 12 солей, и я купил трав для успокоения горла. \\n\\n 9 июля 1346 г. \\n самостоятельно завершил полировку серебряного кольца. Заказчик — докер, и это для его невесты. \\n\\n15 марта 1347 года \\n официально стал учеником мастера. Мой отец сказал, что мои руки устойчивы и подходят для того, чтобы есть эту миску риса. \\n\\n2 ноября 1347 г. \\n Научился закреплять лунный камень. Отец кивнул. \\n\\n 3 июня 1348 г. \\n Недельное жалованье было увеличено до 1 фунта 5 соли. Мать варила бульон. \\n\\n 14 сентября 1348 г. \\n впервые получил индивидуальный заказ. Заказчик попросил брошь с узором яблоко в подарок жене. Потребовалось три эскиза, прежде чем я был удовлетворен. \\n\\n 20 января 1349 года \\n разбирал старые вещи в магазине и нашел пожелтевшее генеалогическое древо. Некоторые имена зачеркнуты. \\n\\n8 марта 1349 г. \\nПорошок Матери почти закончился. На этой неделе принимайте больше заказов на ремонтные работы. \\n\\n 28 июня 1349 г. \\n получил странную записку. Перевернув первую страницу, эти символы... казалось, где-то были замечены."
+    "target_ru": "12 апреля 1345 г. \\n впервые прикоснулся к инструменту своего отца. Молоток оказался тяжелее, чем я ожидал, а моя рука дрожала так сильно, что серебряный предмет деформировался. \\n\\n 3 августа 1345 г. \\n научился определять разницу между рубином и гранатом. \\n\\n18 февраля 1346 г. \\nКашель матери снова стал сильным. Еженедельную зарплату увеличили до 12 суле, и я купил трав для успокоения горла. \\n\\n 9 июля 1346 г. \\n самостоятельно завершил полировку серебряного кольца. Заказчик — докер, и это для его невесты. \\n\\n15 марта 1347 года \\n официально стал учеником мастера. Мой отец сказал, что мои руки устойчивы и подходят для того, чтобы есть эту миску риса. \\n\\n2 ноября 1347 г. \\n Научился закреплять лунный камень. Отец кивнул. \\n\\n 3 июня 1348 г. \\n Недельное жалованье было увеличено до 1 фунта 5 суле. Мать варила бульон. \\n\\n 14 сентября 1348 г. \\n впервые получил индивидуальный заказ. Заказчик попросил брошь с узором яблоко в подарок жене. Потребовалось три эскиза, прежде чем я был удовлетворен. \\n\\n 20 января 1349 года \\n разбирал старые вещи в магазине и нашел пожелтевшее генеалогическое древо. Некоторые имена зачеркнуты. \\n\\n8 марта 1349 г. \\nПорошок Матери почти закончился. На этой неделе принимайте больше заказов на ремонтные работы. \\n\\n 28 июня 1349 г. \\n получил странную записку. Перевернув первую страницу, эти символы... казалось, где-то были замечены."
   },
   {
     "id": "119208",
@@ -25593,7 +25593,7 @@
     "id": "119287",
     "source_cn": "灰雾阿尔杰",
     "ref_en": "Gray Fog Alger",
-    "target_ru": "Серый Туман Алжира"
+    "target_ru": "Серый Туман Элджера"
   },
   {
     "id": "119288",
@@ -26757,13 +26757,13 @@
     "id": "119482",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n    您上周参与终末猎杀有未领取的猎杀进度奖励，现已自动发放至您的邮箱，请注意查收。",
     "ref_en": "<M_Default> Dear Beyonder: </>\\n You have unclaimed progress rewards from last week's participation in the Final Hunt. They have now been automatically sent to your mailbox; please check them.",
-    "target_ru": "<M_Default> Дорогой Необыкновенный: </>\\n Вы участвовали в терминальной охоте на прошлой неделе и получили невостребованные награды за прогресс охоты. Они были автоматически отправлены на ваш почтовый ящик, пожалуйста, проверьте их."
+    "target_ru": "<M_Default> Дорогой Необыкновенный: </>\\n Вы участвовали в «Финальной охоте» на прошлой неделе и получили невостребованные награды за прогресс охоты. Они были автоматически отправлены на ваш почтовый ящик, пожалуйста, проверьте их."
   },
   {
     "id": "119483",
     "source_cn": "<P_Heart>（热情）</>您好，{{先生|女士}}！这里是黑荆棘安保公司。",
     "ref_en": "<P_Heart> (Enthusiastic) </> Hello, {{Mr.|Ms.}}! This is Blackthorn Security Company.",
-    "target_ru": "<P_Heart> (с энтузиазмом) </> Привет, {{Mr.|Ms.}}! Это охранная компания Чёрный Чертополох."
+    "target_ru": "<P_Heart> (с энтузиазмом) </> Привет, {{Mr.|Ms.}}! Это охранная компания «Чёрный Терновник»."
   },
   {
     "id": "119484",
@@ -27255,7 +27255,7 @@
     "id": "119565",
     "source_cn": "终末猎杀段位达到血色亲王。",
     "ref_en": "Reach the rank of Blood Prince in Final Hunt.",
-    "target_ru": "Достигните ранга Кровавого принца в «Последней охоте»."
+    "target_ru": "Достигните ранга Кровавого принца в «Финальной охоте»."
   },
   {
     "id": "119566",
@@ -27549,7 +27549,7 @@
     "id": "119615",
     "source_cn": "乘马车返回<h>黑荆棘</>",
     "ref_en": "Take a carriage back to <h>Blackthorn</>",
-    "target_ru": "Вернитесь на карете в <h>Чёрный Чертополох</>."
+    "target_ru": "Вернитесь на карете в <h>«Чёрный Терновник»</>."
   },
   {
     "id": "119616",
@@ -28257,7 +28257,7 @@
     "id": "119733",
     "source_cn": "使用后获得<Highlight>荒诞马戏套装</>\\n若已拥有此外观，则可选择分解获得10万绑定苏勒",
     "ref_en": "Use to obtain <Highlight>Absurd Circus Set</>\\nIf you already own this appearance, you may choose to dismantle it to receive 100,000 Bound Soules",
-    "target_ru": "После использования вы получите <Highlight> Абсурдный цирковой костюм</>\\n. Если этот внешний вид у вас уже есть, вы можете разобрать его, чтобы получить 100 000 связанных сулеров."
+    "target_ru": "После использования вы получите <Highlight> Абсурдный цирковой костюм</>\\n. Если этот внешний вид у вас уже есть, вы можете разобрать его, чтобы получить 100 000 привязанных суле."
   },
   {
     "id": "119734",
@@ -29457,7 +29457,7 @@
     "id": "119933",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·亡者疑踪</>，可以参与公共掉落的分配与拍卖。有概率获得下列装备。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · Traces of the Dead</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following equipment.",
-    "target_ru": "Участие в подземелье <Highlight>Чёрный Чертополох Журнал происшествий · Следы мертвых</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение."
+    "target_ru": "Участие в подземелье <Highlight>«Чёрный Терновник» Журнал происшествий · Следы мертвых</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение."
   },
   {
     "id": "119934",

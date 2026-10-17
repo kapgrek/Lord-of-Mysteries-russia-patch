@@ -250,7 +250,7 @@ return {
     ["Other people"] = "Другие",
     ["占卜“找到马的线索”"] = "Гадание: «Зацепки о лошади»",
     ["Slashes forward three times, dealing a total of <Yellow>288</> Attack damage."] = "Наносит три рубящих удара вперёд, всего <Yellow>288</> ед. урона атакой.",
-    ["Tarot·Alger·Wilson·Save 4 Incremental"] = "Таро · Алджер Уилсон · Ступень 4, прирост",
+    ["Tarot·Alger·Wilson·Save 4 Incremental"] = "Таро · Элджер Уилсон · Ступень 4, прирост",
     ["墙面装饰"] = "Украшение стен",
     ["I know what you want to ask; this is safer."] = "Я знаю, о чём ты хочешь спросить. Так безопаснее.",
     ["我认识那位小丑，他不太正常，我得去找找他。"] = "Я знаю этого Клоуна, он какой-то ненормальный, надо его найти.",

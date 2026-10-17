@@ -300,7 +300,7 @@ return {
     ["Shuffle of Fate"] = "Тасование судьбы",
     ["Ah, is this... me? A part of my own consciousness?"] = "Ах, это... я? Часть моего самосознания?",
     ["想问其他事"] = "Хочу спросить о другом",
-    ["It is said that the dishes inside were passed down from Emperor Roselle!"] = "Говорят, блюда там пошли от императора Рассела!",
+    ["It is said that the dishes inside were passed down from Emperor Roselle!"] = "Говорят, блюда там пошли от императора Розеля!",
     ["灵界穿梭石手链"] = "Браслет из камня перехода в Мир Духов",
     ["Zealous Nighthawk"] = "Ревностный Ночной Страж",
     ["罗塞尔Boss困难-3阶段-锋利的知识-齿轮装置常驻buff"] = "Босс Розель (сложный) - 3 фаза - Острое знание - Постоянный бафф механизма-шестерни",

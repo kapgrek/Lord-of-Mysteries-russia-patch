@@ -27,7 +27,7 @@ return {
     ["Very profitable, right? We also want to make money, which is why we want to buy your ticket."] = "Очень выгодно, правда? Мы тоже хотим заработать денег, поэтому нам придется купить вам билеты.",
     ["Flower Stall Owner"] = "Владелец цветочного ларька",
     ["The most dangerous place is the safest; who would come to search near the church?"] = "Самое опасное место – самое безопасное. Кто будет искать возле церкви?",
-    ["Old Will Restaurant is near the Blackthorn Security Company and provides classic delicacies such as sausages, mashed potatoes, beef pudding, and custard."] = "Ресторан Old Vail расположен недалеко от охранного предприятия Blackthorn и предлагает классические блюда, такие как сосиски, картофельное пюре, говяжий пудинг и заварной крем.",
+    ["Old Will Restaurant is near the Blackthorn Security Company and provides classic delicacies such as sausages, mashed potatoes, beef pudding, and custard."] = "Ресторан «Старый Вейл» расположен недалеко от охранной компании «Чёрный Терновник» и предлагает классические блюда, такие как сосиски, картофельное пюре, говяжий пудинг и заварной крем.",
     ["Would {{Mr.|Ms.}} like to buy a newspaper?"] = "{{Сэр | Мадам}} Хотите газету?",
     ["Aunt faints, <h>go help</>"] = "Тетя теряет сознание, <h>иди помоги</>",
     ["What a successful <h>[Railroad Tycoon]</>"] = "Поистине успешный <h>【Железнодорожный магнат】</>",

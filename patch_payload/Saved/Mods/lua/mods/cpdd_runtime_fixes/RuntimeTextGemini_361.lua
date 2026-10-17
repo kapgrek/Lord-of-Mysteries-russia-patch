@@ -31,7 +31,7 @@ return {
     ["Achievement: A New Sealed Artifact?"] = "Достижения – Новые Запечатанные Артефакты?",
     ["The yellow crystal pendant rotates clockwise, moving quickly. \n... The answer is a very strong affirmation..."] = "Кулон с цитрином вращается по часовой стрелке и очень быстро. \n…Ответ – однозначно да…",
     ["This Club's world server ranking: <Ranking>1st</>, total Club Hero titles that can be granted: <Ranking>15</>"] = "Мировой рейтинг серверных очков клуба: <Ranking> первое место</>, всего <Ranking>15</> человек, которым может быть присвоено звание героя клуба",
-    ["Roselle Path"] = "Розель Путь",
+    ["Roselle Path"] = "Путь Розанны",
     ["Spring Night Ball reaches level 7"] = "Весенний ночной бал достигает 7 уровня",
     ["You can only choose one character from one server for the return. \n The Beyonder can currently claim [%s] \n. Are you sure you want to use the current character to claim it?"] = "Для возврата средств можно выбрать только одного персонажа на одном сервере.\nПотусторонний в данный момент может получить: 【%s】.\nПодтвердить получение текущим персонажем?",
     ["Time begins to flow, and everyone gathers around the pale-faced Frye.\n Frye: Cough... cough cough... you... are all...\n Frye slowly opens his eyes, scans the people around him, and slowly reveals a smile; everyone relaxes."] = "Время вновь потекло, и все окружили бледного Фрая.\nФрай: Кхе... кхе-кхе... вы... все... здесь...\nФрай медленно приоткрыл глаза, обвел собравшихся слабым взглядом и улыбнулся; вокруг все с облегчением выдохнули.",

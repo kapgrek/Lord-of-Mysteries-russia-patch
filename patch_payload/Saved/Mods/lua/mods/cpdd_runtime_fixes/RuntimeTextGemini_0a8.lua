@@ -237,7 +237,7 @@ return {
     ["Main interface chat channel display filter"] = "Фильтр отображения канала чата в главном интерфейсе",
     ["The old problem is acting up again... sigh."] = "Старая проблема снова обострилась... вздох.",
     ["Say goodbye to Liana and her husband."] = "Попрощайтесь с Лианой и ее мужем.",
-    ["City Walk - Blackthorn Fan - Involved in Argument"] = "Прогулка по городу - фанат Блэкторна - вовлечен в спор",
+    ["City Walk - Blackthorn Fan - Involved in Argument"] = "Прогулка по городу - фанат «Чёрного Терновника» - вовлечен в спор",
     ["Participate in the Hunting City drill battlefield."] = "Участвуйте в строевых боях Охотничьего города.",
     ["Reach the depths of the target's mind."] = "Достигните глубин разума цели.",
     ["<M_Orange> [%s]</> has accepted the declaration of war initiated by our club. The duel will begin on <M_Orange>[Today%s]</>. The flames of war have arrived, and the outcome is about to be revealed—the Hornacis Mountain Range will witness the end of this duel. For our shared glory, all members, take your positions. \nYou can click <HyperLink stylename=\"M_Link\" u=\"tipsId=6427619\">【Club Declaration of War Gameplay Guide】</> to view the gameplay guide!"] = "<M_Orange> [%s]</> принял объявление войны, инициированное нашим клубом, и дуэль начнется <M_Orange>[Сегодня%s]</>. Война окончена, и победитель вот-вот определится — горы Хорнакис станут свидетелями исхода этой дуэли. Ради общей славы все на месте. \nВы можете нажать <HyperLink stylename=\"M_Link\" u=\"tipsId=6427619\"> [Руководство по игровому процессу «Объявление войны в клубе»] </>, чтобы просмотреть руководство по игровому процессу!",

@@ -218,7 +218,7 @@ return {
     ["随州"] = "Суйчжоу",
     ["青海省"] = "Провинция Цинхай",
     ["非常感谢"] = "Большое спасибо",
-    ["Arrive at Blackthorn Security Company."] = "Прибытие в охранную компанию Чёрный Чертополох.",
+    ["Arrive at Blackthorn Security Company."] = "Прибытие в охранную компанию «Чёрный Терновник».",
     ["...Run."] = "...Бегать.",
     ["Damn Feynapotters, they launched a sneak attack on Backlund four years ago, causing the war. Praise the Goddess, we still won."] = "Чертовы Фейнапоттеры, четыре года назад они начали тайное нападение на Бэкланд, вызвав войну. Слава Богине, мы все равно победили.",
     ["Useless trash, useless trash!"] = "Бесполезный мусор, бесполезный мусор!",

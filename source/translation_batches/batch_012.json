@@ -315,7 +315,7 @@
     "id": "055053",
     "source_cn": "完成主线《加入黑荆棘》后解锁商店",
     "ref_en": "Unlock the shop after completing the main quest 'Joining the Nighthawks'.",
-    "target_ru": "Разблокируйте магазин после завершения основного квеста «Присоединение к Ночным Ястребам»."
+    "target_ru": "Разблокируйте магазин после завершения основного квеста «Присоединение к Чёрному Терновнику»."
   },
   {
     "id": "055054",
@@ -1011,7 +1011,7 @@
     "id": "055169",
     "source_cn": "原著-黑荆棘安保公司",
     "ref_en": "Original Work - Blackthorn Security Company.",
-    "target_ru": "Оригинальная работа - Охранная компания Чёрный Чертополох."
+    "target_ru": "Оригинальная работа - Охранная компания «Чёрный Терновник»."
   },
   {
     "id": "055170",
@@ -2115,7 +2115,7 @@
     "id": "055354",
     "source_cn": "罗塞尔大帝有句诗是怎么说的来着？“许多人曾爱过你美丽的青春，当你老去，我却依旧爱你脸上的皱纹”……",
     "ref_en": "How did that poem by Emperor Roselle go? \"Many have loved your beautiful youth, but when you grow old, I still love the wrinkles on your face\"...",
-    "target_ru": "Как прошло стихотворение императора Розеллы? «Многие любили твою прекрасную молодость, но когда ты состаришься, мне все еще нравятся морщины на твоем лице»…"
+    "target_ru": "Как прошло стихотворение императора Розеля? «Многие любили твою прекрасную молодость, но когда ты состаришься, мне все еще нравятся морщины на твоем лице»…"
   },
   {
     "id": "055355",
@@ -2259,7 +2259,7 @@
     "id": "055378",
     "source_cn": "黑荆棘事件簿4-关卡2-烟尘效果",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Smoke Effect",
-    "target_ru": "Книга происшествий с Черным Шипом, 4 уровня, 2 эффекта дыма"
+    "target_ru": "Хроники «Чёрного Терновника» 4 — уровень 2 — эффект дыма"
   },
   {
     "id": "055379",
@@ -3135,13 +3135,13 @@
     "id": "055525",
     "source_cn": "黑荆棘事件3-洛克·金-跟踪点名-随机取1名非T玩家",
     "ref_en": "Black Thorn Event 3-Rock King-Tracking Mark-Randomly Take 1 Non-T Player",
-    "target_ru": "Событие Black Thorn 3-Rock King-Mark Tracking Mark-случайно возьмите 1 игрока, не являющегося игроком T"
+    "target_ru": "Событие «Чёрного Терновника» 3 — Лок Кин — отметка преследования — случайно выберите 1 игрока, не являющегося танком"
   },
   {
     "id": "055526",
     "source_cn": "黑荆棘事件簿新副本窥秘的角落开启",
     "ref_en": "Black Thorn Case File new dungeon A Corner of Mysteries opened",
-    "target_ru": "Дело «Черного Шипа» открылось новое подземелье «Уголок тайн»"
+    "target_ru": "Хроники «Чёрного Терновника»: открылось новое подземелье «Уголок тайн»"
   },
   {
     "id": "055527",
@@ -3525,7 +3525,7 @@
     "id": "055590",
     "source_cn": "已成功购买<Reminder_Orange>%d</>个%s，总共花费<Reminder_Orange>%d</>苏勒",
     "ref_en": "Successfully purchased <Reminder_Orange> %d </> units of %s, for a total cost of <Reminder_Orange> %d </> Sol.",
-    "target_ru": "Успешно приобретены блоки <Reminder_Orange> %d </> для %s на общую стоимость <Reminder_Orange> %d </> Sol."
+    "target_ru": "Успешно куплено <Reminder_Orange> %d </> шт. %s на общую сумму <Reminder_Orange> %d </> суле."
   },
   {
     "id": "055591",
@@ -3921,7 +3921,7 @@
     "id": "055656",
     "source_cn": "赞美罗塞尔大帝！要不是有斗邪恶，我都不知道怎么消磨时间！来切牌！",
     "ref_en": "Praise Emperor Roselle! If it weren't for Fighting Evil, I wouldn't know how to kill time! Let's cut cards!",
-    "target_ru": "Слава императору Розелле! Если бы не «Борьба со злом», я бы не знал, как убить время! Давайте разрежем карты!"
+    "target_ru": "Слава императору Розелю! Если бы не «Борьба со злом», я бы не знал, как убить время! Давайте разрежем карты!"
   },
   {
     "id": "055657",
@@ -4107,7 +4107,7 @@
     "id": "055687",
     "source_cn": "一苏勒",
     "ref_en": "One Soule",
-    "target_ru": "Одна душа"
+    "target_ru": "Один суле"
   },
   {
     "id": "055688",
@@ -5385,7 +5385,7 @@
     "id": "055900",
     "source_cn": "获得罗塞尔时装解锁",
     "ref_en": "Unlocked upon obtaining the Roselle outfit",
-    "target_ru": "Разблокируется после получения наряда Розеллы."
+    "target_ru": "Разблокируется после получения наряда Розеля."
   },
   {
     "id": "055901",
@@ -5553,7 +5553,7 @@
     "id": "055928",
     "source_cn": "黑荆棘就是一支正式的雇佣兵小队，你们经常去出一些非官方的任务。嗯，能赚点外快，又能帮助人们解决困难，双赢。",
     "ref_en": "Blackthorn is a formal mercenary squad. You often go out to take some unofficial quests. Hmm, you can earn some extra money and help people solve difficulties; it's a win-win.",
-    "target_ru": "Чёрный Чертополох — формальный отряд наёмников. Вы часто выходите выполнять неофициальные квесты. Хм, ты можешь подзаработать и помочь людям решить трудности; это беспроигрышный вариант."
+    "target_ru": "«Чёрный Терновник» — формальный отряд наёмников. Вы часто выходите выполнять неофициальные квесты. Хм, ты можешь подзаработать и помочь людям решить трудности; это беспроигрышный вариант."
   },
   {
     "id": "055929",
@@ -6387,7 +6387,7 @@
     "id": "056069",
     "source_cn": "<Assistant_Title1>【厨王之王】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>廷根最火爆的海岸线餐厅门前排起了长队，美食评论家马西莫的一篇《厨王之王》让主厨库克名声大噪。\\n<Assistant_Title2>领取方式：</>完成主线剧情第二章《时代的浪潮》且扮演等级达到<Assistant_Red>59级</>后，前往{Location:[廷根(973,844)]|-2653;-15305;-1390;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【King of Chefs】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Tides of the Era</>\\n<Assistant_Title2>Quest Description: </>A long line has formed in front of the Coastline Restaurant, the hottest spot in Tingen. A piece titled \"King of Chefs\" by food critic Massimo has made Chef Cook famous.\\n<Assistant_Title2>How to Accept: </>After completing Chapter 2 of the main storyline, \"Tides of the Era,\" and reaching Acting Level <Assistant_Red>59</>, head to {Location:[Tingen(973,844)]|-2653;-15305;-1390;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive EXP, Bound Soules, Invoices, Adventure Medals, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>【Король кухонь】</>\\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>В разное время</>\\n<Assistant_Title2>Описание задачи: </>Перед самым популярным прибрежным рестораном в Тингене стоит длинная очередь. Статья кулинарного критика Массимо «Король кухонь» принесла шеф-повару известность. \\n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red>уровня 59</>, перейдите в {Location:[Tinggen(973,844) ]|-2653;-15305;-1390;2;5200002;0} можно активировать задание \\n<Assistant_Title2>награда за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Король кухонь】</>\\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>В разное время</>\\n<Assistant_Title2>Описание задачи: </>Перед самым популярным прибрежным рестораном в Тингене стоит длинная очередь. Статья кулинарного критика Массимо «Король кухонь» принесла шеф-повару известность. \\n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red>уровня 59</>, перейдите в {Location:[Tinggen(973,844) ]|-2653;-15305;-1390;2;5200002;0} можно активировать задание \\n<Assistant_Title2>награда за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
   },
   {
     "id": "056070",
@@ -7791,7 +7791,7 @@
     "id": "056304",
     "source_cn": "罗塞尔日记（初见）",
     "ref_en": "Roselle's Diary (First Encounter)",
-    "target_ru": "Дневник Розеллы (первая встреча)"
+    "target_ru": "Дневник Розеля (первая встреча)"
   },
   {
     "id": "056305",
@@ -8439,7 +8439,7 @@
     "id": "056412",
     "source_cn": "时代的浪潮正席卷廷根，骑上黑荆棘新员工的脚踏车，到处逛逛吧。",
     "ref_en": "The tide of the era is sweeping through Tingen; hop on the bicycle of a new Blackthorn employee and go for a ride.",
-    "target_ru": "Волна эпохи проносится по Тингену; садитесь на велосипед нового сотрудника Чёрный Чертополох и отправляйтесь кататься."
+    "target_ru": "Волна эпохи проносится по Тингену; садитесь на велосипед нового сотрудника «Чёрного Терновника» и отправляйтесь кататься."
   },
   {
     "id": "056413",
@@ -8949,7 +8949,7 @@
     "id": "056500",
     "source_cn": "你在剧院的长椅上捡到罗塞尔写下的《美女与野兽》，这是一本能自主写作的神奇物品，它向你发起挑战，看看你是否能像罗塞尔一样，写出足以流传后世的精彩故事。你灵感大发，大胆改编《美女与野兽》，导演出了更吸引眼球的《魔女与野兽》！",
     "ref_en": "You picked up \"Beauty and the Beast\" written by Roselle on a bench in the theater. This is a mystical item capable of autonomous writing. It challenges you to see if you can write a brilliant story that will be passed down to future generations, just like Roselle. You are struck by inspiration and boldly adapt \"Beauty and the Beast,\" directing an even more eye-catching \"Witch and the Beast\"!",
-    "target_ru": "Вы прочитали «Красавицу и чудовище», написанную Розеллой, на скамейке в театре. Это мистический предмет, способный к автономному письму. Вам предстоит выяснить, сможете ли вы написать блестящую историю, которая будет передана будущим поколениям, как Розель. Вас охватывает вдохновение, и вы смело адаптируете «Красавицу и чудовище», сняв еще более захватывающую «Ведьму и чудовище»!"
+    "target_ru": "Вы прочитали «Красавицу и чудовище», написанную Розелем, на скамейке в театре. Это мистический предмет, способный к автономному письму. Вам предстоит выяснить, сможете ли вы написать блестящую историю, которая будет передана будущим поколениям, как Розель. Вас охватывает вдохновение, и вы смело адаптируете «Красавицу и чудовище», сняв еще более захватывающую «Ведьму и чудовище»!"
   },
   {
     "id": "056501",
@@ -9015,7 +9015,7 @@
     "id": "056511",
     "source_cn": "受邀回到黑荆棘喝咖啡，却听说老尼尔的人生中，曾有一个淡绿色的春天。",
     "ref_en": "Invited back to Blackthorn for coffee, you hear that there was once a pale green spring in Old Neil's life.",
-    "target_ru": "Когда вас снова приглашают в Чёрный Чертополох на кофе, вы слышите, что когда-то в жизни Старины Нила была бледно-зеленая весна."
+    "target_ru": "Когда вас снова приглашают в «Чёрный Терновник» на кофе, вы слышите, что когда-то в жизни Старины Нила была бледно-зеленая весна."
   },
   {
     "id": "056512",
@@ -9231,7 +9231,7 @@
     "id": "056547",
     "source_cn": "杰西解开共感手镯，并将魔女带回黑荆棘安保公司...",
     "ref_en": "Jesse untied the empathy bracelet and brought the witch back to Blackthorn Security Company...",
-    "target_ru": "Джесси развязал браслет эмпатии и вернул ведьму в охранную компанию Чёрный Чертополох..."
+    "target_ru": "Джесси развязал браслет эмпатии и вернул ведьму в охранную компанию «Чёрный Терновник»..."
   },
   {
     "id": "056548",
@@ -9567,7 +9567,7 @@
     "id": "056603",
     "source_cn": "<Assistant_Title1>【黑占卜】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>一次占卜，一个巧合。\\n<Assistant_Title2>领取方式：</>第一赛季第十一天解锁。完成原著剧情《安提哥努斯笔记》，且扮演等级达到<Assistant_Red>64级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯、装备",
     "ref_en": "<Assistant_Title1>【Black Divination】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story</>\\n<Assistant_Title2>Quest Description: </>A divination, a coincidence.\\n<Assistant_Title2>How to Accept: </>Unlocked on the eleventh day of the first season. Automatically accepted after completing the original story \"Antigonus Notebook\" and reaching Acting Level <Assistant_Red>64</>.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sol, Bound Gold Pound, Historical Beacon, Equipment",
-    "target_ru": "<Assistant_Title1>【Черное гадание】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет первоисточника</>\\n<Assistant_Title2>Описание задания: </>Одно гадание, одно совпадение.\\n<Assistant_Title2>Как принять: </>Открывается на 11-й день первого сезона. Выдается автоматически после завершения сюжетной линии «Дневник Антигона» и достижения <Assistant_Red>64-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, персональные соли, персональные золотые фунты, Светоч истории, снаряжение"
+    "target_ru": "<Assistant_Title1>【Черное гадание】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет первоисточника</>\\n<Assistant_Title2>Описание задания: </>Одно гадание, одно совпадение.\\n<Assistant_Title2>Как принять: </>Открывается на 11-й день первого сезона. Выдается автоматически после завершения сюжетной линии «Дневник Антигона» и достижения <Assistant_Red>64-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, персональные золотые фунты, Светоч истории, снаряжение"
   },
   {
     "id": "056604",
@@ -9933,7 +9933,7 @@
     "id": "056664",
     "source_cn": "开启可随机获得一件<Highlight>当前开启装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>current level</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight> текущего уровня</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или связанного Солнца."
+    "target_ru": "Откройте для случайного получения одной части <Highlight> текущего уровня</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или привязанных суле."
   },
   {
     "id": "056665",
@@ -10359,7 +10359,7 @@
     "id": "056735",
     "source_cn": "黑荆棘搬救兵",
     "ref_en": "Blackthorn Calling for Reinforcements",
-    "target_ru": "Чёрный Чертополох вызывает подкрепление"
+    "target_ru": "«Чёрный Терновник» вызывает подкрепление"
   },
   {
     "id": "056736",
@@ -10839,7 +10839,7 @@
     "id": "056815",
     "source_cn": "没错！上面记载了罗塞尔大帝创造的神秘符文，里面藏着神秘的力量！",
     "ref_en": "That's right! It records the mysterious runes created by Emperor Roselle, which contain mysterious power!",
-    "target_ru": "Это верно! В нем записаны таинственные руны, созданные императором Розеллой, которые содержат в себе таинственную силу!"
+    "target_ru": "Это верно! В нем записаны таинственные руны, созданные императором Розелем, которые содержат в себе таинственную силу!"
   },
   {
     "id": "056816",
@@ -12063,7 +12063,7 @@
     "id": "057020",
     "source_cn": "回黑荆棘·转视角参考坐标",
     "ref_en": "Return to Blackthorn·View Angle Reference Coordinates",
-    "target_ru": "Вернуться к координатам угла обзора Чёрный Чертополох·View"
+    "target_ru": "Вернуться в «Чёрный Терновник» · эталонные координаты смены ракурса"
   },
   {
     "id": "057021",
@@ -12465,7 +12465,7 @@
     "id": "057087",
     "source_cn": "罗塞尔护符",
     "ref_en": "Roselle's Charm",
-    "target_ru": "Очарование Розеллы"
+    "target_ru": "Очарование Розеля"
   },
   {
     "id": "057088",
@@ -12663,7 +12663,7 @@
     "id": "057120",
     "source_cn": "5230105   黑荆棘安保公司   位面",
     "ref_en": "5230105 Blackthorn Security Company Plane",
-    "target_ru": "5230105 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230105 Плоскость охранной компании «Чёрный Терновник»"
   },
   {
     "id": "057121",
@@ -12681,7 +12681,7 @@
     "id": "057123",
     "source_cn": "<Assistant_Title1>【火柴微光】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>廷根铁十字街下街传来虚弱的呼喊，似乎是个女孩的声音。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>60级</>后，前往{Location:[廷根(763,1244)]|-23665;24457;-2004;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Matchstick Glimmer】</>\\n<Assistant_Title2> Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2> Quest Description: </>A weak cry, sounding like a girl's voice, comes from Lower Street on Iron Cross Street in Tingen.\\n<Assistant_Title2> How to Accept: </>After reaching Acting Level <Assistant_Red>60</>, head to {Location:[Tingen(763,1244)]|-23665;24457;-2004;2;5200002;0} to trigger the quest.\\n<Assistant_Title2> Quest Rewards</>: Cognition EXP, Bound Soules, Invoices, Adventure Medals, World Adventure Treasure Progress.",
-    "target_ru": "<Assistant_Title1>[Проблеск спички]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Разнообразие времен</>\\n<Assistant_Title2>Описание миссии: </>С нижней улицы Тинген-Айрон-Кросс-стрит донесся слабый крик, который, казалось, был голосом девушки. \\n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>60</>, перейдите в {Location:[Tinggen(763,1244)]|-23665 ;24457;-2004;2;5200002;0} Можно запускать задачи \\n<Assistant_Title2>Task Награды</>: познавательный опыт, переплет Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>[Проблеск спички]</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Разнообразие времен</>\\n<Assistant_Title2>Описание миссии: </>С нижней улицы Тинген-Айрон-Кросс-стрит донесся слабый крик, который, казалось, был голосом девушки. \\n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>60</>, перейдите в {Location:[Tinggen(763,1244)]|-23665 ;24457;-2004;2;5200002;0} Можно запускать задачи \\n<Assistant_Title2>Награды за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
   },
   {
     "id": "057124",
@@ -14187,7 +14187,7 @@
     "id": "057374",
     "source_cn": "<Assistant_Title1>【第一次正式委托】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>新的一天，新的工作，从一套新衣服开始！\\n<Assistant_Title2>领取方式：</>第一赛季第七天解锁。完成原著剧情第四章《成为非凡者》，且扮演等级达到<Assistant_Red>61级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯",
     "ref_en": "<Assistant_Title1>【First Official Commission】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story</>\\n<Assistant_Title2>Quest Description: </>A new day, a new job, starting with a new set of clothes!\\n<Assistant_Title2>How to Accept: </>Unlocked on the seventh day of the first season. Automatically accepted after completing Chapter 4 of the original story, \"Becoming a Beyonder,\" and reaching an Acting Level of <Assistant_Red>61</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon",
-    "target_ru": "<Assistant_Title1>【Первое официальное поручение】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет первоисточника</>\\n<Assistant_Title2>Описание задания: </>Новый день, новая работа — и все начинается с нового костюма!\\n<Assistant_Title2>Как принять: </>Открывается на 7-й день первого сезона. Выдается автоматически после завершения главы 4 сюжета первоисточника «Становление Потусторонним» и достижения <Assistant_Red>61-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, персональные соли, персональные золотые фунты, Светоч истории"
+    "target_ru": "<Assistant_Title1>【Первое официальное поручение】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет первоисточника</>\\n<Assistant_Title2>Описание задания: </>Новый день, новая работа — и все начинается с нового костюма!\\n<Assistant_Title2>Как принять: </>Открывается на 7-й день первого сезона. Выдается автоматически после завершения главы 4 сюжета первоисточника «Становление Потусторонним» и достижения <Assistant_Red>61-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, персональные золотые фунты, Светоч истории"
   },
   {
     "id": "057375",
@@ -14865,7 +14865,7 @@
     "id": "057487",
     "source_cn": "队长熟悉的地方……黑荆棘安保公司，或者圣赛琳娜教堂？",
     "ref_en": "Places the Captain was familiar with... Blackthorn Security Company, or Saint Selena Cathedral?",
-    "target_ru": "Места, которые были знакомы капитану… Охранная компания «Чёрный Чертополох» или собор Святой Селены?"
+    "target_ru": "Места, которые были знакомы капитану… Охранная компания «Чёрный Терновник» или собор Святой Селены?"
   },
   {
     "id": "057488",
@@ -14931,7 +14931,7 @@
     "id": "057498",
     "source_cn": "<Assistant_Title1>【暗涌的危机】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>根据现有线索，和伦纳德弗莱分头行动，协助调查从警察厅移交过来的失踪案。\\n<Assistant_Title2>领取方式：</>第一赛季第三天解锁。完成主线剧情第二章《时代的浪潮》，且扮演等级达到<Assistant_Red>46级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、星币、45品武器箱、初级深红精粹、初级狂暴药剂、中级生命纯露",
     "ref_en": "<Assistant_Title1>【Undercurrent Crisis】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Reality Main Story</>\\n<Assistant_Title2>Quest Description: </>Based on existing clues, split up with Leonard and Frye to assist in investigating the missing persons case transferred from the police department.\\n<Assistant_Title2>How to Accept: </>Unlocked on the third day of the first season. Automatically accepted after completing Chapter 2 of the main story, \"Tides of the Era,\" and reaching an Acting Level of <Assistant_Red>46</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Star Coin, Level 45 Weapon Box, Primary Crimson Essence, Primary Berserk Potion, Intermediate Life Dew",
-    "target_ru": "<Assistant_Title1>【Скрытый кризис】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания: </>Опираясь на найденные зацепки, разделитесь с Леонардом и Фраем, чтобы помочь в расследовании дела о пропаже людей, переданного полицейским управлением.\\n<Assistant_Title2>Как принять: </>Открывается на третий день первого сезона. Выдается автоматически после завершения главы 2 основного сюжета «Волна эпохи» и достижения <Assistant_Red>46-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, персональные соли, персональные золотые фунты, звездные монеты, ящик с оружием 45-го ранга, малая багровая эссенция, малое зелье ярости, средняя роса жизни"
+    "target_ru": "<Assistant_Title1>【Скрытый кризис】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания: </>Опираясь на найденные зацепки, разделитесь с Леонардом и Фраем, чтобы помочь в расследовании дела о пропаже людей, переданного полицейским управлением.\\n<Assistant_Title2>Как принять: </>Открывается на третий день первого сезона. Выдается автоматически после завершения главы 2 основного сюжета «Волна эпохи» и достижения <Assistant_Red>46-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, персональные золотые фунты, звездные монеты, ящик с оружием 45-го ранга, малая багровая эссенция, малое зелье ярости, средняя роса жизни"
   },
   {
     "id": "057499",
@@ -15051,7 +15051,7 @@
     "id": "057518",
     "source_cn": "使用后解锁<Highlight>单人社交动作·执杖响指</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Cane Snap</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: трость Snap</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: трость Snap</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "057519",
@@ -15369,7 +15369,7 @@
     "id": "057571",
     "source_cn": "本次一键聚合累计聚合%d次、共消耗%d聚合因子、%d绑定苏勒。",
     "ref_en": "This one-click aggregation aggregated %d times in total, consuming %d aggregation factors and %d bound Gold Pounds.",
-    "target_ru": "Эта агрегация в один клик суммировала в общей сложности %d раз, потребляя коэффициенты агрегации %d и привязанные к %d фунты золота."
+    "target_ru": "Эта агрегация в один клик суммировала в общей сложности %d раз, потребляя %d факторов агрегации и %d привязанных суле."
   },
   {
     "id": "057572",
@@ -15699,7 +15699,7 @@
     "id": "057626",
     "source_cn": "使用后可获得<Highlight>对应展台贴纸</>\\n重复获取将自动分解为绑定苏勒×10000",
     "ref_en": "Use to obtain the <Highlight>corresponding display-stand sticker</>.\\nDuplicates are automatically dismantled into 10000 Bound Soule.",
-    "target_ru": "При использовании дает <Highlight>соответствующую наклейку для подиума</>.\\nПовторные экземпляры автоматически распыляются на персональные соли ×10 000."
+    "target_ru": "При использовании дает <Highlight>соответствующую наклейку для подиума</>.\\nПовторные экземпляры автоматически распыляются на привязанные суле ×10 000."
   },
   {
     "id": "057627",
@@ -16311,7 +16311,7 @@
     "id": "057728",
     "source_cn": "靠近黑荆棘门口",
     "ref_en": "Approach Blackthorn doorway",
-    "target_ru": "Подойдите к двери Блэкторна."
+    "target_ru": "Подойдите к двери «Чёрного Терновника»."
   },
   {
     "id": "057729",
@@ -16485,7 +16485,7 @@
     "id": "057758",
     "source_cn": "伦纳德通知了警察处理后续的事情，然后返回了黑荆棘安保公司……",
     "ref_en": "Leonard notifies the police to handle the aftermath, then returns to Blackthorn Security Company...",
-    "target_ru": "Леонард уведомляет полицию, чтобы она разобралась с последствиями, а затем возвращается в охранную компанию Чёрный Чертополох..."
+    "target_ru": "Леонард уведомляет полицию, чтобы она разобралась с последствиями, а затем возвращается в охранную компанию «Чёрный Терновник»..."
   },
   {
     "id": "057759",
@@ -17157,7 +17157,7 @@
     "id": "057870",
     "source_cn": "<P_Heart>（明天休息半天……正好上午去占卜俱乐部扮演，下午回黑荆棘继续神秘学课程。）</>",
     "ref_en": "<P_Heart> (Half a day off tomorrow... It's perfect to go to the Divination Club in the morning to Act, and return to Blackthorn in the afternoon to continue my occult studies.) </>",
-    "target_ru": "<P_Heart> (Завтра полдня выходного... Идеально пойти в Клуб гадания утром, чтобы действовать, а днем ​​вернуться в Чёрный Чертополох, чтобы продолжить свои оккультные исследования.) </>"
+    "target_ru": "<P_Heart> (Завтра полдня выходного... Идеально пойти в Клуб гадания утром, чтобы действовать, а днем вернуться в «Чёрный Терновник», чтобы продолжить свои оккультные исследования.) </>"
   },
   {
     "id": "057871",
@@ -18363,7 +18363,7 @@
     "id": "058073",
     "source_cn": "查尼斯门后传出异动，请非凡者前往黑荆棘安保公司传出异动",
     "ref_en": "An anomaly has been reported behind the Chanis Gate. Please have a Beyonder head to the Blackthorn Security Company.",
-    "target_ru": "Сообщается об аномалии за воротами Чанис. Пожалуйста, отправьте Потустороннего в охранную компанию Чёрный Чертополох."
+    "target_ru": "Сообщается об аномалии за воротами Чанис. Пожалуйста, отправьте Потустороннего в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "058074",
@@ -18675,7 +18675,7 @@
     "id": "058125",
     "source_cn": "\\n洛克金氏资本集团 · 财务部 \\n债务人：工厂区第7批安置人员\\n\\n住房租赁费：3镑12苏勒\\n饮食供应费：2镑8苏勒\\n通勤运输费 ：1镑4苏勒\\n\\n附加费用：\\n滞纳金(累计89天)：2镑3苏勒\\n行政管理费：15苏勒\\n强制保险税：8苏勒\\n\\n应付总额：9镑10苏勒\\n注：根据《底层劳动者债务清偿条例》，逾期未付者，将启动\"强制清退程序\"。",
     "ref_en": "\\nRockkin Capital Group · Finance Department \\nDebtor: 7th Batch of Resettled Personnel in the Factory District\\n\\nHousing Rental Fee: 3 pounds 12 soli\\nFood Supply Fee: 2 pounds 8 soli\\nCommuter Transport Fee: 1 pound 4 soli\\n\\nAdditional Fees:\\nLate Fee (accumulated 89 days): 2 pounds 3 soli\\nAdministrative Fee: 15 soli\\nCompulsory Insurance Tax: 8 soli\\n\\nTotal Payable: 9 pounds 10 soli\\nNote: According to the \"Regulations on Debt Settlement for Low-income Laborers\", those who fail to pay on time will be subject to the \"Forced Eviction Procedure\".",
-    "target_ru": "\\nФинансовая группа «Роккин Кэпитал» · Бухгалтерия \\nДолжник: 7-я группа переселенцев Фабричного района\\n\\nАрендная плата за жилье: 3 фунта 12 солей\\nОплата питания: 2 фунта 8 солей\\nТранспортные расходы: 1 фунт 4 соли\\n\\nДополнительные сборы:\\nПеня за просрочку (за 89 дней): 2 фунта 3 соли\\nАдминистративный сбор: 15 солей\\nОбязательный страховой сбор: 8 солей\\n\\nИтого к оплате: 9 фунтов 10 солей\\nПримечание: Согласно «Положению о погашении задолженности низкооплачиваемых рабочих», при неуплате в срок будет начата «процедура принудительного выселения»."
+    "target_ru": "\\nФинансовая группа «Роккин Кэпитал» · Бухгалтерия \\nДолжник: 7-я группа переселенцев Фабричного района\\n\\nАрендная плата за жилье: 3 фунта 12 суле\\nОплата питания: 2 фунта 8 суле\\nТранспортные расходы: 1 фунт 4 суле\\n\\nДополнительные сборы:\\nПеня за просрочку (за 89 дней): 2 фунта 3 суле\\nАдминистративный сбор: 15 суле\\nОбязательный страховой сбор: 8 суле\\n\\nИтого к оплате: 9 фунтов 10 суле\\nПримечание: Согласно «Положению о погашении задолженности низкооплачиваемых рабочих», при неуплате в срок будет начата «процедура принудительного выселения»."
   },
   {
     "id": "058126",
@@ -18693,7 +18693,7 @@
     "id": "058128",
     "source_cn": "<Assistant_Title1>【暗涌的危机】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>根据现有线索，和伦纳德弗莱分头行动，协助调查从警察厅移交过来的失踪案。\\n<Assistant_Title2>领取方式：</>第一赛季第三天解锁。完成主线剧情第二章《时代的浪潮》，且扮演等级达到<Assistant_Red>46级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、星币、武器箱",
     "ref_en": "<Assistant_Title1>【Undercurrent Crisis】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Reality Main Story</>\\n<Assistant_Title2>Quest Description: </>Based on existing clues, split up with Leonard and Frye to assist in investigating the missing persons case transferred from the police department.\\n<Assistant_Title2>How to Accept: </>Unlocked on the third day of the first season. Automatically accepted after completing Chapter 2 of the main story, \"Tides of the Era,\" and reaching an Acting Level of <Assistant_Red>46</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Star Coin, Weapon Box",
-    "target_ru": "<Assistant_Title1>【Скрытый кризис】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания: </>Опираясь на найденные зацепки, разделитесь с Леонардом и Фраем, чтобы помочь в расследовании дела о пропаже людей, переданного полицейским управлением.\\n<Assistant_Title2>Как принять: </>Открывается на третий день первого сезона. Выдается автоматически после завершения главы 2 основного сюжета «Волна эпохи» и достижения <Assistant_Red>46-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, персональные соли, персональные золотые фунты, звездные монеты, ящик с оружием"
+    "target_ru": "<Assistant_Title1>【Скрытый кризис】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания: </>Опираясь на найденные зацепки, разделитесь с Леонардом и Фраем, чтобы помочь в расследовании дела о пропаже людей, переданного полицейским управлением.\\n<Assistant_Title2>Как принять: </>Открывается на третий день первого сезона. Выдается автоматически после завершения главы 2 основного сюжета «Волна эпохи» и достижения <Assistant_Red>46-го уровня</> Лицедейства.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, персональные золотые фунты, звездные монеты, ящик с оружием"
   },
   {
     "id": "058129",
@@ -19023,7 +19023,7 @@
     "id": "058183",
     "source_cn": "弗莱队长在黑荆棘办公室",
     "ref_en": "Captain Frye is at the Blackthorn office",
-    "target_ru": "Капитан Фрай в офисе Блэкторна."
+    "target_ru": "Капитан Фрай в офисе «Чёрного Терновника»."
   },
   {
     "id": "058184",
@@ -19521,7 +19521,7 @@
     "id": "058266",
     "source_cn": "阅读第一页罗塞尔日记",
     "ref_en": "Read the first page of Roselle's diary",
-    "target_ru": "Прочтите первую страницу дневника Розеллы."
+    "target_ru": "Прочтите первую страницу дневника Розеля."
   },
   {
     "id": "058267",
@@ -19587,13 +19587,13 @@
     "id": "058277",
     "source_cn": "<Assistant_Title1>【异象之物】</>\\n<Assistant_Title2>介绍：</>受当地非凡事件影响而形成的沾染灵性之物，<Assistant_Red>触碰</>即可收集。积累一定数量后可前往某位值夜者处兑换奖励。\\n<Assistant_Title2>玩法指引：</>\\n<Assistant_Title3>1. 收集异象之物</>\\n探索过程中，可留意散发光芒的晶状物，靠近并触碰即可完成收集。\\n也可通过以下方式寻找异象之物：\\n<Assistant_Property2>跑团入口：</>打开菜单进入【跑团】，加入任意教团后，在【秩序世界】中选择【异象之物】，点击【前往】即可自动寻路。\\n<Assistant_Property1>地图入口：</>打开地图，切换至【探秘】页签，在【世界详情】中查看【异象之物】玩法图标，并根据图标指引，在地图中找到对应标识，点击【前往】即可自动寻路。\\n<Assistant_Title3>2. 兑换奖励</>\\n收集足够数量的异象之物后，前往<Assistant_Red>黑荆棘安保公司</>附近，与<Assistant_Red>伦纳德</>对话即可兑换奖励。",
     "ref_en": "<Assistant_Title1>【Object of Phenomenon】</>\\n<Assistant_Title2>Introduction: </>Items contaminated by spirituality formed under the influence of local Beyonder incidents. <Assistant_Red>Touch </>them to collect them. After accumulating a certain amount, you can exchange them for rewards at a Nighthawk.\\n<Assistant_Title2>Gameplay Guide: </>\\n<Assistant_Title3>1. Collecting Objects of Phenomenon</>\\nDuring exploration, keep an eye out for glowing crystalline objects; approach and touch them to complete collection.\\nYou can also find them using the following methods:\\n<Assistant_Property2>TTRPG Entry:</>Open the Menu, enter [TTRPG], join any organization, select [Object of Phenomenon] in the [Orderly World], and click [Go] to start auto-pathing.\\n<Assistant_Property1>Map Entry:</>Open the map, switch to the [Exploration] tab, view the [Object of Phenomenon] icon in [World Details], find the corresponding marker on the map based on the icon's guidance, and click [Go] to start auto-pathing.\\n<Assistant_Title3>2. Exchanging Rewards</>\\nAfter collecting enough Objects of Phenomenon, go to the vicinity of the <Assistant_Red>Blackthorn Security Company</> and speak with <Assistant_Red>Leonard</> to exchange them for rewards.",
-    "target_ru": "<Assistant_Title1>【Аномальные предметы】</>\\n<Assistant_Title2>Описание: </>Предметы, пропитанные духовностью под влиянием местных сверхъестественных инцидентов. <Assistant_Red>Прикоснитесь</> к ним, чтобы собрать. Накопив определенное количество, их можно обменять на награды у Ночного Ястреба.\\n<Assistant_Title2>Руководство: </>\\n<Assistant_Title3>1. Сбор аномальных предметов</>\\nВо время исследования обращайте внимание на сияющие кристаллы — подойдите ближе и коснитесь их для сбора.\\nТакже искать аномальные предметы можно следующими способами:\\n<Assistant_Property2>Через настольную игру: </>Откройте меню, выберите 【Настольная игра】, вступите в любую общину, выберите 【Аномальные предметы】 в разделе 【Упорядоченный мир】 и нажмите 【Перейти】 для автопоиска пути.\\n<Assistant_Property1>Через карту: </>Откройте карту, перейдите на вкладку 【Исследование】, найдите значок 【Аномальные предметы】 в описании мира, отыщите соответствующую метку на карте и нажмите 【Перейти】 для автопоиска пути.\\n<Assistant_Title3>2. Обмен наград</>\\nСобрав достаточное количество аномальных предметов, отправляйтесь к <Assistant_Red>Охранной компании «Черный чертополох»</> и поговорите с <Assistant_Red>Леонардом</>, чтобы получить награду."
+    "target_ru": "<Assistant_Title1>【Аномальные предметы】</>\\n<Assistant_Title2>Описание: </>Предметы, пропитанные духовностью под влиянием местных сверхъестественных инцидентов. <Assistant_Red>Прикоснитесь</> к ним, чтобы собрать. Накопив определенное количество, их можно обменять на награды у Ночного Ястреба.\\n<Assistant_Title2>Руководство: </>\\n<Assistant_Title3>1. Сбор аномальных предметов</>\\nВо время исследования обращайте внимание на сияющие кристаллы — подойдите ближе и коснитесь их для сбора.\\nТакже искать аномальные предметы можно следующими способами:\\n<Assistant_Property2>Через настольную игру: </>Откройте меню, выберите 【Настольная игра】, вступите в любую общину, выберите 【Аномальные предметы】 в разделе 【Упорядоченный мир】 и нажмите 【Перейти】 для автопоиска пути.\\n<Assistant_Property1>Через карту: </>Откройте карту, перейдите на вкладку 【Исследование】, найдите значок 【Аномальные предметы】 в описании мира, отыщите соответствующую метку на карте и нажмите 【Перейти】 для автопоиска пути.\\n<Assistant_Title3>2. Обмен наград</>\\nСобрав достаточное количество аномальных предметов, отправляйтесь к <Assistant_Red>Охранной компании «Чёрный Терновник»</> и поговорите с <Assistant_Red>Леонардом</>, чтобы получить награду."
   },
   {
     "id": "058278",
     "source_cn": "<Assistant_Title1>【送你一朵塞维亚菊】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>伦纳德先生请你帮他接待一位“故人”的妹妹，在黑荆棘附近寻找一下吧。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>35级</>后，前往{Location:[廷根(868,927)]|-13241;-7214;-1586;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Sending You a Sevia Daisy】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>Mr. Leonard asks you to help him receive the younger sister of an \"old friend.\" Try searching near Blackthorn.\\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 35</>, head to {Location:[Tingen(868,927)]|-13241;-7214;-1586;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soles, Invoices, Adventure Medals, World Adventure Treasure progress.",
-    "target_ru": "<Assistant_Title1>【Отправлю вам севильскую хризантему】</>\\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Разное время</>\\n<Assistant_Title2>Описание задачи: </>Mr. Леонард просит помочь ему принять сестру «старого друга» и найти ее возле черного шипа. \\n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>35</>, перейдите в {Location:[Tinggen(868,927)]|-13241 ;-7214;-1586;2;5200002;0} Можно запускать задачи \\n<Assistant_Title2>Task Награды</>: познавательный опыт, переплет Суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Отправлю вам севильскую хризантему】</>\\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Разное время</>\\n<Assistant_Title2>Описание задачи: </>Мистер Леонард просит помочь ему принять сестру «старого друга» и найти ее возле «Чёрного Терновника». \\n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>35</>, перейдите в {Location:[Tinggen(868,927)]|-13241 ;-7214;-1586;2;5200002;0} Можно запускать задачи \\n<Assistant_Title2>Награды за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
   },
   {
     "id": "058279",
@@ -20301,7 +20301,7 @@
     "id": "058396",
     "source_cn": "靠近<h>罗塞尔虚影</>",
     "ref_en": "Approach the <h>phantom shadow of Roselle</>",
-    "target_ru": "Подойдите к фантомной тени Розеллы <h></>."
+    "target_ru": "Подойдите к <h>призраку Розеля</>."
   },
   {
     "id": "058397",
@@ -20625,7 +20625,7 @@
     "id": "058450",
     "source_cn": "回到黑荆棘",
     "ref_en": "Return to Blackthorn",
-    "target_ru": "Вернитесь в Чёрный Чертополох"
+    "target_ru": "Вернитесь в «Чёрный Терновник»"
   },
   {
     "id": "058451",
@@ -21033,7 +21033,7 @@
     "id": "058518",
     "source_cn": "终末猎杀段位达到天使之王。",
     "ref_en": "Reach the rank of King of Angels in Final Hunt.",
-    "target_ru": "Достигните ранга Короля Ангелов в «Последней охоте»."
+    "target_ru": "Достигните ранга Короля Ангелов в «Финальной охоте»."
   },
   {
     "id": "058519",
@@ -21441,7 +21441,7 @@
     "id": "058587",
     "source_cn": "嗯，作为值夜者，我们永远相信队友，黑荆棘的同伴永远是最好的。",
     "ref_en": "Well, as Nighthawks, we always trust our teammates. The companions of Blackthorn are always the best.",
-    "target_ru": "Что ж, мы, «Ночные ястребы», всегда доверяем нашим товарищам по команде. Спутники Блэкторна всегда лучшие."
+    "target_ru": "Что ж, мы, «Ночные ястребы», всегда доверяем нашим товарищам по команде. Спутники «Чёрного Терновника» всегда лучшие."
   },
   {
     "id": "058588",
@@ -21873,7 +21873,7 @@
     "id": "058659",
     "source_cn": "规则很简单：在这首罗塞尔大帝未做完的诗上，补上最后一句——如果你能做得到的话。 ",
     "ref_en": "The rules are simple: add the final line to this unfinished poem by Emperor Roselle—if you can.",
-    "target_ru": "Правила просты: добавьте последнюю строчку к неоконченному стихотворению императора Розеллы — если можете."
+    "target_ru": "Правила просты: добавьте последнюю строчку к неоконченному стихотворению императора Розеля — если можете."
   },
   {
     "id": "058660",
@@ -22149,7 +22149,7 @@
     "id": "058705",
     "source_cn": "像房屋租赁合同这种，六便士一份；遗嘱和诉状，至少一苏勒，你得告诉我你的情况，才能判断。",
     "ref_en": "Something like a housing lease contract is six pence; wills and petitions are at least one sol. You'll have to tell me your situation before I can judge.",
-    "target_ru": "Что-то вроде договора аренды жилья стоит шесть пенсов; завещания и прошения составляют не менее одного сол. Вам придется рассказать мне о своей ситуации, прежде чем я смогу судить."
+    "target_ru": "Что-то вроде договора аренды жилья стоит шесть пенсов; завещания и прошения составляют не менее одного суле. Вам придется рассказать мне о своей ситуации, прежде чем я смогу судить."
   },
   {
     "id": "058706",
@@ -24627,7 +24627,7 @@
     "id": "059121",
     "source_cn": "当然，我这是在践行罗塞尔大帝的话。三十年足以让命运的河道从东到西，不要轻视贫穷的年轻人！",
     "ref_en": "Of course, I am practicing the words of Emperor Roselle. Thirty years is enough for the river of fate to flow from east to west; do not underestimate poor young people!",
-    "target_ru": "Конечно, я воплощаю в жизнь слова императора Розеллы. Тридцати лет достаточно, чтобы река судьбы потекла с востока на запад; не стоит недооценивать бедную молодежь!"
+    "target_ru": "Конечно, я воплощаю в жизнь слова императора Розеля. Тридцати лет достаточно, чтобы река судьбы потекла с востока на запад; не стоит недооценивать бедную молодежь!"
   },
   {
     "id": "059122",
@@ -25011,7 +25011,7 @@
     "id": "059185",
     "source_cn": "5200179   黑荆棘_弗莱_办公室   副本",
     "ref_en": "5200179 Blackthorn_Frye_Office Dungeon",
-    "target_ru": "5200179 Blackthorn_Frye_Office Подземелье"
+    "target_ru": "5200179 Чёрный Терновник_Фрай_Офис Подземелье"
   },
   {
     "id": "059186",
@@ -25041,7 +25041,7 @@
     "id": "059190",
     "source_cn": "<Title>神选席位</>\\n战略服势力对战阶段，神选席位由<Highlight>每周排名结算席位</>与<Highlight>最终排名结算席位</>共同组成。每周将根据战略服各势力的周排名，以及俱乐部在所属势力内的排名发放席位，排名越高，可获得的席位越多；战略服结算时，将根据各势力的最终排名，为势力内俱乐部发放最终排名结算席位。俱乐部获得的神选席位由俱乐部管理在俱乐部内部分配。\\n\\n<Title>奖励内容</>\\n神选奖励包括<Highlight>战略服专属外观奖励、养成道具、苏勒、绑定金镑</>等。\\n\\n<Title>限时顶奢</>\\n战略服结算时，最终排名第一的势力中，四个俱乐部的<Highlight>会长、副会长、理事</>可获得限时30天的顶奢时装<Highlight>铁与血之歌</>。\\n\\n<Title>奖励发放</>\\n奖励将于<Highlight>战略服胜者宣言大会结束后</>统一发放。",
     "ref_en": "<Title> Divine Selection Seats </> \\n During the Strategic Server faction battle phase, Divine Selection Seats are composed of <Highlight> Weekly Ranking Settlement Seats </> and <Highlight> Final Ranking Settlement Seats </>. Every week, seats will be distributed based on the weekly rankings of each faction on the Strategic Server and the club's ranking within its faction; the higher the ranking, the more seats can be obtained. Upon the Strategic Server settlement, Final Ranking Settlement Seats will be distributed to clubs within the faction based on the final rankings of each faction. The Divine Selection Seats obtained by a club are distributed internally by the club management. \\n \\n <Title> Reward Content </> \\n Divine Selection rewards include <Highlight> Strategic Server exclusive cosmetic rewards, cultivation items, Soules, Bound Pounds </>, etc. \\n \\n <Title> Limited-Time Top Luxury </> \\n Upon the Strategic Server settlement, the <Highlight> President, Vice President, and Council Members </> of the four clubs in the faction that ranks first overall can obtain the 30-day limited-time top luxury outfit <Highlight> Song of Iron and Blood </>. \\n \\n <Title> Reward Distribution </> \\n Rewards will be distributed uniformly <Highlight> after the Strategic Server Victory Declaration Ceremony concludes </>.",
-    "target_ru": "<Title>Места Божественного избранника</>\\nВ период фракционных войн на Стратегическом сервере места Божественного избранника складываются из <Highlight>мест за еженедельный рейтинг</> и <Highlight>мест за итоговый расчет сезона</>. Каждую неделю места распределяются по итогам рейтинга фракций и места клуба внутри своей фракции: чем выше позиция, тем больше квот получает клуб. При итоговом расчете Стратегического сервера финальные места распределяются по итогам положения каждой фракции. Полученные клубом места распределяются руководством внутри клуба по своему усмотрению.\\n\\n<Title>Награды</>\\nНаграды Избранников включают <Highlight>эксклюзивные облики Стратегического сервера, предметы прокачки, соли, персональные золотые фунты</> и многое другое.\\n\\n<Title>Временная роскошь</>\\nПри закрытии сезона Стратегического сервера <Highlight>глава, заместитель главы и старейшины</> четырех сильнейших клубов фракции-победителя получают роскошный наряд <Highlight>Песнь железа и крови</> сроком на 30 дней.\\n\\n<Title>Выдача наград</>\\nВсе награды выдаются централизованно <Highlight>после церемонии провозглашения победителей Стратегического сервера</>."
+    "target_ru": "<Title>Места Божественного избранника</>\\nВ период фракционных войн на Стратегическом сервере места Божественного избранника складываются из <Highlight>мест за еженедельный рейтинг</> и <Highlight>мест за итоговый расчет сезона</>. Каждую неделю места распределяются по итогам рейтинга фракций и места клуба внутри своей фракции: чем выше позиция, тем больше квот получает клуб. При итоговом расчете Стратегического сервера финальные места распределяются по итогам положения каждой фракции. Полученные клубом места распределяются руководством внутри клуба по своему усмотрению.\\n\\n<Title>Награды</>\\nНаграды Избранников включают <Highlight>эксклюзивные облики Стратегического сервера, предметы прокачки, суле, персональные золотые фунты</> и многое другое.\\n\\n<Title>Временная роскошь</>\\nПри закрытии сезона Стратегического сервера <Highlight>глава, заместитель главы и старейшины</> четырех сильнейших клубов фракции-победителя получают роскошный наряд <Highlight>Песнь железа и крови</> сроком на 30 дней.\\n\\n<Title>Выдача наград</>\\nВсе награды выдаются централизованно <Highlight>после церемонии провозглашения победителей Стратегического сервера</>."
   },
   {
     "id": "059191",
@@ -25755,7 +25755,7 @@
     "id": "059311",
     "source_cn": "克莱恩：小姐，您没事吧？\\n女士：感谢您的关心，我没事，只是有点疲惫。\\n后面的人：快下车，别堵在车门口。\\n克莱恩和这位女士擦肩而过。\\n克莱恩：没来得及用灵视检查下。算了，先回黑荆棘。",
     "ref_en": "Klein: Miss, are you alright? \\n Lady: Thank you for your concern, I am fine, just a little tired. \\n Person behind: Get off quickly, don't block the carriage door. \\n Klein brushes past this lady. \\n Klein: I didn't have time to use spirit vision to check. Forget it, let's head back to Blackthorn first.",
-    "target_ru": "Клейн: Мисс, вы в порядке?\\nДама: Спасибо за беспокойство, все хорошо, просто немного устала.\\nГолос сзади: Быстрее выходите, не задерживайте у дверей экипажа!\\nКлейн разминулся с незнакомкой.\\nКлейн: Не успел проверить ее духовным зрением. Ладно, сначала вернусь в «Черный чертополох»."
+    "target_ru": "Клейн: Мисс, вы в порядке?\\nДама: Спасибо за беспокойство, все хорошо, просто немного устала.\\nГолос сзади: Быстрее выходите, не задерживайте у дверей экипажа!\\nКлейн разминулся с незнакомкой.\\nКлейн: Не успел проверить ее духовным зрением. Ладно, сначала вернусь в «Чёрный Терновник»."
   },
   {
     "id": "059312",
@@ -27273,7 +27273,7 @@
     "id": "059564",
     "source_cn": "【B占位】马车驶向黑荆棘门口，克莱恩下车，正好遇到一个美丽的女子准备上车。\\n她甜美温顺、黑色长发，白皙的皮肤，不知道是不是因为冷，身体有一点点颤抖，但还是显得楚楚可人。\\n克莱恩：（不得不承认，这真是我穿越以来见过颜值最高的女孩了。奇怪，她怎么一直在颤抖？）",
     "ref_en": "[Placeholder B] The carriage drives toward the entrance of Blackthorn. Klein gets off and happens to encounter a beautiful woman preparing to board. \\n She is sweet and gentle, with long black hair and fair skin. Perhaps due to the cold, her body is trembling slightly, yet she still appears quite charming. \\n Klein: (I have to admit, this is truly the most beautiful girl I have seen since I transmigrated. Strange, why does she keep trembling?)",
-    "target_ru": "【Заглушка B】Экипаж подъезжает ко входу в «Черный чертополох». Клейн выходит и сталкивается с прекрасной девушкой, которая собирается сесть в карету.\\nОна милая, кроткая, с длинными темными волосами и бледной кожей. Возможно, из-за холода ее тело едва заметно подрагивает, но это лишь придает ей трогательного очарования.\\nКлейн: (Должен признать, это самая красивая девушка, которую я встречал со времени перемещения в этот мир. Странно, почему она так дрожит?)"
+    "target_ru": "【Заглушка B】Экипаж подъезжает ко входу в «Чёрный Терновник». Клейн выходит и сталкивается с прекрасной девушкой, которая собирается сесть в карету.\\nОна милая, кроткая, с длинными темными волосами и бледной кожей. Возможно, из-за холода ее тело едва заметно подрагивает, но это лишь придает ей трогательного очарования.\\nКлейн: (Должен признать, это самая красивая девушка, которую я встречал со времени перемещения в этот мир. Странно, почему она так дрожит?)"
   },
   {
     "id": "059565",
@@ -28839,7 +28839,7 @@
     "id": "059825",
     "source_cn": "<Assistant_Title1>【俱乐部秘仪奉献】</>\\n<Assistant_Title2>玩法说明：</><Assistant_System>秘仪奉献</>可在<Assistant_Property1>菜单-俱乐部-活动</>点击参与即可前往，秘仪奉献<Assistant_Red>每日8点</>刷新。\\n<Assistant_Title2>参与条件：</>非凡者达到<Assistant_Red>20级</>并加入俱乐部后即可解锁<Assistant_System>秘仪奉献</>。\\n<Assistant_Title2>提交物资：</>提交需求的物资可获得<Assistant_System>苏勒、同行徽章</>等奖励；当日提交<Assistant_Red>3个及以上货物</>后，可花费活力领取额外奖励。\\n<Assistant_Title2>求助他人：</>可以在俱乐部频道求助他人帮助提交。\\n<Assistant_Title2>帮助他人：</>帮助他人界面可添加非绑道具，完成他人求助后可领取<Assistant_System>苏勒</>奖励。",
     "ref_en": "<Assistant_Title1>【Club Arcane Offering】</>\\n<Assistant_Title2>Gameplay Instructions:</><Assistant_System>Arcane Offering</> can be accessed by clicking Participate in the <Assistant_Property1>Menu - Club - Activities</> section. Arcane Offering <Assistant_Red>refreshes daily at 8:00 AM</>.\\n<Assistant_Title2>Participation Requirements:</>Unlocked once a Beyonder reaches <Assistant_Red>Level 20</> and joins a club, allowing access to <Assistant_System>Arcane Offering</>.\\n<Assistant_Title2>Submitting Supplies:</>Submit the requested supplies to earn rewards such as <Assistant_System>Sols and Peer Badges</>. After submitting <Assistant_Red>3 or more items</> on the same day, you can spend Vitality to claim additional rewards.\\n<Assistant_Title2>Requesting Help:</>You can request help from others in the club channel to submit items.\\n<Assistant_Title2>Helping Others:</>In the Help Others interface, you can add non-bound items. After fulfilling someone else's request, you can claim <Assistant_System>Sol</> rewards.",
-    "target_ru": "<Assistant_Title1>【Тайное подношение клуба】</>\\n<Assistant_Title2>Описание: </>К событию «Тайное подношение» можно перейти через <Assistant_Property1>Меню — Клуб — События</>, нажав «Участвовать». Подношения обновляются <Assistant_Red>ежедневно в 8:00 утра</>.\\n<Assistant_Title2>Условия участия: </>Разблокируется после достижения <Assistant_Red>20-го уровня</> и вступления в клуб.\\n<Assistant_Title2>Сдача припасов: </>Сдавая запрашиваемые ресурсы, вы получаете <Assistant_System>соли, эмблемы соратника</> и другие награды; после сдачи <Assistant_Red>3 и более партий товаров</> за день можно потратить бодрость и забрать дополнительную награду.\\n<Assistant_Title2>Просьба о помощи: </>В канале клуба можно попросить товарищей помочь со сдачей припасов.\\n<Assistant_Title2>Помощь соратникам: </>В интерфейсе помощи можно передать неперсональные предметы; за выполнение чужой заявки начисляются <Assistant_System>соли</>."
+    "target_ru": "<Assistant_Title1>【Тайное подношение клуба】</>\\n<Assistant_Title2>Описание: </>К событию «Тайное подношение» можно перейти через <Assistant_Property1>Меню — Клуб — События</>, нажав «Участвовать». Подношения обновляются <Assistant_Red>ежедневно в 8:00 утра</>.\\n<Assistant_Title2>Условия участия: </>Разблокируется после достижения <Assistant_Red>20-го уровня</> и вступления в клуб.\\n<Assistant_Title2>Сдача припасов: </>Сдавая запрашиваемые ресурсы, вы получаете <Assistant_System>суле, эмблемы соратника</> и другие награды; после сдачи <Assistant_Red>3 и более партий товаров</> за день можно потратить бодрость и забрать дополнительную награду.\\n<Assistant_Title2>Просьба о помощи: </>В канале клуба можно попросить товарищей помочь со сдачей припасов.\\n<Assistant_Title2>Помощь соратникам: </>В интерфейсе помощи можно передать неперсональные предметы; за выполнение чужой заявки начисляются <Assistant_System>суле</>."
   },
   {
     "id": "059826",
@@ -29151,7 +29151,7 @@
     "id": "059877",
     "source_cn": "我要听罗塞尔的故事！",
     "ref_en": "I want to hear the story of Roselle!",
-    "target_ru": "Я хочу услышать историю Розеллы!"
+    "target_ru": "Я хочу услышать историю Розеля!"
   },
   {
     "id": "059878",

@@ -13,7 +13,7 @@ return {
     ["Won by bye this round"] = "Победа в этом раунде без боя",
     ["<P_Heart> (If this kind of person isn't taught a lesson, it seems he won't learn.) </>"] = "<P_Heart>(Похоже, пока такому не преподашь урок, он ничему не научится.)</> ",
     ["Fish Catch 5"] = "Уловка 5",
-    ["Roselle Boss - Phase 3 - Self-Cleaning Program - Device Monster Buff"] = "_\n\nRussell Boss-3 Stage-Программа самоочистки-Устройство Monster Buff",
+    ["Roselle Boss - Phase 3 - Self-Cleaning Program - Device Monster Buff"] = "Розель, босс, 3-я стадия: программа самоочистки, усиление монстров-устройств",
     ["Obtain 50 Triumph Badges, which can be exchanged for various rewards in the Triumph Shop."] = "Заработайте 50 значков Триумфа, которые можно обменять на различные награды в магазине Триумфа.",
     ["Support the poet"] = "Поддержите поэта",
     ["Bonus Effect"] = "Бонусный эффект",

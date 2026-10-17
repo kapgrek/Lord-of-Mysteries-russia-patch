@@ -1221,7 +1221,7 @@
     "id": "100204",
     "source_cn": "黑荆棘安保公司文职人员。\\n曾是值夜者正式队员，后来年纪大了，身体衰弱，未能晋升，不再适应处理案件。不愿转为内部“看守者”或在家休养，只希望与文献典籍为伴。于是担任武器库和文献库管理员，擅长配制魔药，教授神秘学知识。",
     "ref_en": "A civilian staff member at Blackthorn Security Company. \\n He was once an official Nighthawk, but as he aged and his physical condition declined, he could no longer advance or adapt to handling cases. Unwilling to transfer to an internal \"Gatekeeper\" role or retire at home, he only wished to be accompanied by documents and classics. Thus, he serves as the keeper of the armory and the archives, skilled in potion preparation and teaching occult knowledge.",
-    "target_ru": "Гражданский сотрудник охранной компании Blackthorn. \n раньше был постоянным участником Nighthawks. Позже он состарился, стал физически слабым, его не удалось повысить по службе, и он больше не был пригоден для ведения дел. Я не хочу становиться внутренним «смотрителем» или восстанавливать силы дома, я просто хочу быть с литературой и классикой. Так он служил администратором склада оружия и литературной библиотеки, хорошо готовил зелья и преподавал оккультные знания."
+    "target_ru": "Гражданский сотрудник охранной компании «Чёрный Терновник». \n раньше был постоянным участником Nighthawks. Позже он состарился, стал физически слабым, его не удалось повысить по службе, и он больше не был пригоден для ведения дел. Я не хочу становиться внутренним «смотрителем» или восстанавливать силы дома, я просто хочу быть с литературой и классикой. Так он служил администратором склада оружия и литературной библиотеки, хорошо готовил зелья и преподавал оккультные знания."
   },
   {
     "id": "100205",
@@ -1479,7 +1479,7 @@
     "id": "100249",
     "source_cn": "唤醒罗塞尔的残存意志",
     "ref_en": "Awaken Roselle's residual will",
-    "target_ru": "Пробудить остатки воли Розеллы"
+    "target_ru": "Пробудить остатки воли Розеля"
   },
   {
     "id": "100250",
@@ -2649,7 +2649,7 @@
     "id": "100444",
     "source_cn": "<Assistant_Title1>【露台求爱】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>城市漫游</>\\n<Assistant_Title2>任务描述：</>红月亮街上，有人在当街大喊我爱你。\\n<Assistant_Title2>领取方式：</>完成主线剧情第二章《时代的浪潮》且扮演等级达到<Assistant_Red>19级</>后，前往{Location:[廷根(945,903)]|-5921;-9567;-1668;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Terrace Courtship】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>City Roaming</>\\n<Assistant_Title2>Quest Description: </>On Red Moon Street, someone is shouting \"I love you\" in the middle of the street.\\n<Assistant_Title2>How to Accept: </>After completing Chapter 2 of the main story, \"Tides of the Era,\" and reaching an Acting Level of <Assistant_Red>19</>, head to {Location:[Tingen(945,903)]|-5921;-9567;-1668;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Invoice Receipt, Adventure Medal, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>【Ухаживание во внутреннем дворике】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Роуминг по городу</>\n<Assistant_Title2>Описание миссии: </>На улице Красной Луны кто-то крикнул на улице «Я люблю тебя». \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red>уровня 19</> перейдите в {Location:[Tinggen(945,903 )]|-5921;-9567;-1668;2;5200002;0} можно активировать задания \n<Assistant_Title2>награды за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Ухаживание во внутреннем дворике】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Роуминг по городу</>\n<Assistant_Title2>Описание миссии: </>На улице Красной Луны кто-то крикнул на улице «Я люблю тебя». \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red>уровня 19</> перейдите в {Location:[Tinggen(945,903 )]|-5921;-9567;-1668;2;5200002;0} можно активировать задания \n<Assistant_Title2>награды за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
   },
   {
     "id": "100445",
@@ -3135,7 +3135,7 @@
     "id": "100526",
     "source_cn": "毛绒绒的兔耳装饰，带来与众不同的灵动与可爱。\\n重复获取将自动分解为绑定苏勒×10000。",
     "ref_en": "Fluffy rabbit ear decoration, bringing a unique agility and cuteness. \\n Duplicate acquisition will be automatically decomposed into Bound Soule x10000.",
-    "target_ru": "Плюшевые украшения для ушей кролика придают ему уникальную ловкость и привлекательность. \n Повторные приобретения будут автоматически разложены на связанные suler × 10000."
+    "target_ru": "Плюшевые украшения для ушей кролика придают ему уникальную ловкость и привлекательность. \n Повторные приобретения будут автоматически разложены на привязанные суле × 10000."
   },
   {
     "id": "100527",
@@ -3411,7 +3411,7 @@
     "id": "100572",
     "source_cn": "黑荆棘事件簿4-关卡2-火焰条带",
     "ref_en": "Blackthorn Incident Book 4 - Level 2 - Flame Strip",
-    "target_ru": "Книга происшествий в Блэкторне. 4. Уровень 2. Пламенная полоса."
+    "target_ru": "Книга происшествий в «Чёрном Терновнике». 4. Уровень 2. Пламенная полоса."
   },
   {
     "id": "100573",
@@ -3543,7 +3543,7 @@
     "id": "100596",
     "source_cn": "使用后解锁<Highlight>双人社交动作·公主抱</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Dual Social Action: Bridal Carry</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "При использовании открывает доступ к <Highlight>Dual Social Action: Bridal Carry</>; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "При использовании открывает доступ к <Highlight>парному социальному действию: Принцесса на руках</>; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "100597",
@@ -3567,7 +3567,7 @@
     "id": "100600",
     "source_cn": "前往<h>罗塞尔诗社</>",
     "ref_en": "Go to the <h> Roselle Poetry Club </>",
-    "target_ru": "Посетите поэтический клуб Розеллы <h> </>."
+    "target_ru": "Посетите <h>поэтический клуб Розеля</>."
   },
   {
     "id": "100601",
@@ -4095,7 +4095,7 @@
     "id": "100688",
     "source_cn": "1. 在部分副本中，队伍人数没有组满时可发布求援\\n2. 成功完成他人的求援帮助可获得一定的绑定苏勒奖励\\n3. 应援失败也会获得少量绑定苏勒奖励",
     "ref_en": "1. In some dungeons, if the team is not full, you can post a request for help. \\n 2. Successfully helping others with their requests grants a certain amount of bound Gold Pounds. \\n 3. Failing to provide support also grants a small amount of bound Gold Pounds.",
-    "target_ru": "1. В некоторых подземельях просьба о помощи может быть выдана, когда команда не заполнена\n2. Успешное выполнение просьбы других людей о помощи приведет к получению определенного количества наград Binding Suler\n3. Неспособность помочь также приведет к получению небольшого количества наград Bind Suler."
+    "target_ru": "1. В некоторых подземельях просьба о помощи может быть выдана, когда команда не заполнена\n2. Успешное выполнение просьбы других людей о помощи приведет к получению определенного количества привязанных суле\n3. Неспособность помочь также приведет к получению небольшого количества привязанных суле."
   },
   {
     "id": "100689",
@@ -4821,7 +4821,7 @@
     "id": "100809",
     "source_cn": "请稍等！您是黑荆棘安保公司的{{先生|女士}}吧？可以帮个小忙吗？",
     "ref_en": "Please wait! You are from the Blackthorn Security Company, {{ Mr. | Ms. } }, right? Can you do me a small favor?",
-    "target_ru": "Пожалуйста, подождите! Вы из охранной компании Чёрный Чертополох, {{ Mr. | Ms. } }, верно? Можешь оказать мне небольшую услугу?"
+    "target_ru": "Пожалуйста, подождите! Вы из охранной компании «Чёрный Терновник», {{ Mr. | Ms. } }, верно? Можешь оказать мне небольшую услугу?"
   },
   {
     "id": "100810",
@@ -7107,7 +7107,7 @@
     "id": "101192",
     "source_cn": "终末猎杀段位排名进入全国前100名",
     "ref_en": "Endless Hunt rank enters national top 100",
-    "target_ru": "Ранг «Бесконечная охота» вошел в сотню лучших в стране"
+    "target_ru": "Ранг в «Финальной охоте» вошел в сотню лучших в стране"
   },
   {
     "id": "101193",
@@ -7377,7 +7377,7 @@
     "id": "101238",
     "source_cn": "使用后解锁<Highlight>单人社交动作·敬礼</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Salute 2</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Приветствие 2</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: Приветствие 2</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "101239",
@@ -8049,7 +8049,7 @@
     "id": "101350",
     "source_cn": "<Assistant_Title1>【魔女的滋味真不错】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>近日的廷根并不太平。作为值夜者小队的新人，你也被分派了一桩奇异的案件。而它指向的，是廷根北区的某个沙龙，以及留驻其中的神秘倩影……\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>50级</>后，可在任务面板手动领取\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯、装备、挂画·春夜之邀、双人·牵手",
     "ref_en": "<Assistant_Title1>【Taste of the Witch】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Recent times in Tingen have not been peaceful. As a newcomer to the Nighthawks squad, you have been assigned a strange case. It points toward a certain salon in Tingen's North District and the mysterious beauty lingering within...\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>50</>, you can manually accept it in the quest panel.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon, Equipment, Hanging Painting: Invitation of the Spring Night, Duo: Holding Hands",
-    "target_ru": "<Assistant_Title1>【Ведьма очень вкусная】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Ветка</>\n<Assistant_Title2>Описание миссии: </>Тингген в наши дни не мирный. Вам, как новому члену команды «Ночные ястребы», тоже поручено странное дело. И это указывает на некий салон в Северном округе Тингена и таинственную фигуру, которая там проживает... \n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>50</>, вы можете вручную получить \n<Assistant_Title2>награды за выполнение заданий</> на панели задач: познавательный опыт, привязка Сулера, привязка золотых фунтов, исторические фонари, снаряжение, подвешивание картины · Приглашение на весеннюю ночь, два человека · держась за руки"
+    "target_ru": "<Assistant_Title1>【Ведьма очень вкусная】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Ветка</>\n<Assistant_Title2>Описание миссии: </>Тингген в наши дни не мирный. Вам, как новому члену команды «Ночные ястребы», тоже поручено странное дело. И это указывает на некий салон в Северном округе Тингена и таинственную фигуру, которая там проживает... \n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>50</>, вы можете вручную получить \n<Assistant_Title2>награды за выполнение заданий</> на панели задач: познавательный опыт, привязанные суле, привязка золотых фунтов, исторические фонари, снаряжение, подвешивание картины · Приглашение на весеннюю ночь, два человека · держась за руки"
   },
   {
     "id": "101351",
@@ -8115,7 +8115,7 @@
     "id": "101362",
     "source_cn": "　　随着<Highlight>罗塞尔大帝</>戏剧节临近，廷根各大报纸争相重温他的光辉历史。这位一百多年前的异国皇帝，曾推动工业革命的时代浪潮席卷北大陆各国。\\n　　蒸汽轰鸣的时代，伟大的罗塞尔大帝的时代，仿佛又回来了！",
     "ref_en": "As the <Highlight> Emperor Roselle </> Drama Festival approaches, major newspapers in Tingen are competing to revisit his glorious history. This foreign emperor from over a hundred years ago once pushed the tides of the Industrial Revolution to sweep across the countries of the Northern Continent. \\n The era of roaring steam, the era of the great Emperor Roselle, seems to have returned!",
-    "target_ru": "По мере приближения театрального фестиваля <Highlight> «Император Рассел</>» крупные газеты Тингена пытаются заново пережить его славную историю. Этот иностранный император более ста лет назад пронес волну промышленной революции по странам Северного континента. \n Эпоха ревущего пара, эпоха великого Императора Рассела, кажется, снова вернулась!"
+    "target_ru": "По мере приближения театрального фестиваля <Highlight> «Император Розель</>» крупные газеты Тингена пытаются заново пережить его славную историю. Этот иностранный император более ста лет назад пронес волну промышленной революции по странам Северного континента. \n Эпоха ревущего пара, эпоха великого Императора Розеля, кажется, снова вернулась!"
   },
   {
     "id": "101363",
@@ -8967,7 +8967,7 @@
     "id": "101506",
     "source_cn": "值夜者们追踪宣扬罗塞尔大帝的宣传单，在中央广场发现了一个污染入口。",
     "ref_en": "The Nighthawks tracked the flyers promoting Emperor Roselle and discovered a corruption entrance in the Central Plaza.",
-    "target_ru": "«Ночные ястребы» отследили листовки, рекламирующие императора Розеллу, и обнаружили коррупционный вход на Центральной площади."
+    "target_ru": "«Ночные ястребы» отследили листовки, рекламирующие императора Розеля, и обнаружили коррупционный вход на Центральной площади."
   },
   {
     "id": "101507",
@@ -9777,7 +9777,7 @@
     "id": "101642",
     "source_cn": "占ID段85006200-85006299_黑荆棘事件3",
     "ref_en": "ID Segment 85006200-85006299_Black Thorn Incident 3",
-    "target_ru": "Идентификатор сегмента 85006200-85006299_Инцидент с Black Thorn 3"
+    "target_ru": "Идентификатор сегмента 85006200-85006299_Инцидент с «Чёрным Терновником» 3"
   },
   {
     "id": "101643",
@@ -10563,7 +10563,7 @@
     "id": "101773",
     "source_cn": "因为我已经申请把功勋换成了别的东西，黑荆棘需要一些新设备，以及各种额外的符咒和材料。",
     "ref_en": "That's because I've already applied to exchange my merit for other things. Blackthorn needs some new Equipment, as well as various extra charms and materials.",
-    "target_ru": "Это потому, что я уже подал заявку на обмен своих заслуг на другие вещи. Блэкторну нужно новое снаряжение, а также различные дополнительные амулеты и материалы."
+    "target_ru": "Это потому, что я уже подал заявку на обмен своих заслуг на другие вещи. «Чёрному Терновнику» нужно новое снаряжение, а также различные дополнительные амулеты и материалы."
   },
   {
     "id": "101774",
@@ -10587,7 +10587,7 @@
     "id": "101777",
     "source_cn": "奇怪的邮差，诡异的梦境，为我驱散梦魇的黑荆棘。",
     "ref_en": "A strange postman, eerie dreams, and the Blackthorn that dispels nightmares for me.",
-    "target_ru": "Странный почтальон, жуткие сны и Терновник, рассеивающий для меня кошмары."
+    "target_ru": "Странный почтальон, жуткие сны и «Чёрный Терновник», рассеивающий для меня кошмары."
   },
   {
     "id": "101778",
@@ -11013,7 +11013,7 @@
     "id": "101848",
     "source_cn": "黑荆棘事件簿4-关卡1-积分buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 1 - Score Buff",
-    "target_ru": "Журнал происшествий в Блэкторне, 4 — уровень 1 — усиление очков"
+    "target_ru": "Журнал происшествий в «Чёрном Терновнике», 4 — уровень 1 — усиление очков"
   },
   {
     "id": "101849",
@@ -11619,7 +11619,7 @@
     "id": "101949",
     "source_cn": "资金充足时，这里可没有那么多垃圾。罗塞尔大帝在爱国卫生运动中做出的努力，全都白费了！",
     "ref_en": "When there is sufficient funding, there isn't this much trash here. All the efforts Emperor Roselle made in the Patriotic Health Campaign have gone to waste!",
-    "target_ru": "Когда есть достаточное финансирование, здесь не так много мусора. Все усилия императора Розеллы, предпринятые в рамках Патриотической кампании за здоровье, пропали даром!"
+    "target_ru": "Когда есть достаточное финансирование, здесь не так много мусора. Все усилия императора Розеля, предпринятые в рамках Патриотической кампании за здоровье, пропали даром!"
   },
   {
     "id": "101950",
@@ -11865,7 +11865,7 @@
     "id": "101991",
     "source_cn": "在终末猎杀中召唤一次怪物",
     "ref_en": "Summon a monster in End-Time Hunt",
-    "target_ru": "Призвать монстра в игре «Охота последнего времени»."
+    "target_ru": "Призвать монстра в «Финальной охоте»."
   },
   {
     "id": "101992",
@@ -11925,7 +11925,7 @@
     "id": "102001",
     "source_cn": "就这么决定。那么，该先去黑荆棘公司了。",
     "ref_en": "That's decided. Now, I should head to the Blackthorn Company first.",
-    "target_ru": "Это решено. Теперь мне следует сначала отправиться в компанию Чёрный Чертополох."
+    "target_ru": "Это решено. Теперь мне следует сначала отправиться в компанию «Чёрный Терновник»."
   },
   {
     "id": "102002",
@@ -12135,7 +12135,7 @@
     "id": "102036",
     "source_cn": "终末猎杀讨伐巨龙<Highlight>【团队拍卖】</>:%d月%d日（本周五）19：10开启",
     "ref_en": "End-of-Days Hunt: Slay Dragon <Highlight> [Team Auction] </>: Month %d Day %d (This Friday) 19:10 Start",
-    "target_ru": "Охота в конце дня: Slay Dragon <Highlight> [Командный аукцион] </>: Месяц %d День %d (в эту пятницу) 19:10 Начало"
+    "target_ru": "«Финальная охота»: Убийство дракона <Highlight> [Командный аукцион] </>: Месяц %d День %d (в эту пятницу) 19:10 Начало"
   },
   {
     "id": "102037",
@@ -12153,7 +12153,7 @@
     "id": "102039",
     "source_cn": "罗塞尔Boss-知识抽取-法术书-三阶段",
     "ref_en": "Roselle Boss - Knowledge Extraction - Spellbook - Phase 3",
-    "target_ru": "Босс Розеллы – Извлечение знаний – Книга заклинаний – Фаза 3"
+    "target_ru": "Босс Розеля – Извлечение знаний – Книга заклинаний – Фаза 3"
   },
   {
     "id": "102040",
@@ -12501,7 +12501,7 @@
     "id": "102099",
     "source_cn": "前往<h>黑荆棘安保公司</>",
     "ref_en": "Head to <h>Blackthorn Security Company</>",
-    "target_ru": "Отправляйтесь в <h>Охранная компания «Чёрный Чертополох»</>"
+    "target_ru": "Отправляйтесь в <h>Охранная компания «Чёрный Терновник»</>"
   },
   {
     "id": "102100",
@@ -12933,7 +12933,7 @@
     "id": "102171",
     "source_cn": "终末猎杀段位胜点怎么算",
     "ref_en": "How are Final Hunt rank points calculated",
-    "target_ru": "Как рассчитываются очки ранга Final Hunt"
+    "target_ru": "Как рассчитываются очки ранга «Финальной охоты»"
   },
   {
     "id": "102172",
@@ -13809,7 +13809,7 @@
     "id": "102317",
     "source_cn": "\\n　　<Letter_Highlight_HW>梅丽莎</>今天从贝克兰德回来，本来该我去接她的。\\n　　但教会临时有点事，辛苦你帮我去黑荆棘接待一下。\\n　　你在“愚者”先生的历史里见过她，虽然过了几年，她可能也长高了，但模样应该变化不大。\\n　　给你个机会，好好表现！",
     "ref_en": "\\n　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\\n　　Giving you a chance, perform well!",
-    "target_ru": "\n　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!"
+    "target_ru": "\n　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в «Чёрный Терновник» и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!"
   },
   {
     "id": "102318",
@@ -15153,7 +15153,7 @@
     "id": "102542",
     "source_cn": "终末猎杀全国职业排名头衔",
     "ref_en": "Endless Hunt national professional ranking title",
-    "target_ru": "Национальный профессиональный рейтинг «Бесконечная охота»"
+    "target_ru": "Национальный профессиональный рейтинг «Финальной охоты»"
   },
   {
     "id": "102543",
@@ -15411,7 +15411,7 @@
     "id": "102585",
     "source_cn": "<Yellow>苏勒防身</>：携带者受到伤害降低<Yellow>*f**</>。\\n<Yellow>苦难财富</>：携带者受到伤害时，根据累积受到伤害值提高防御，持续<Yellow>30秒</>，防御最多提高<Yellow>*d</>点。",
     "ref_en": "<Yellow>Sule's Protection</>: Damage taken by the carrier is reduced by <Yellow>*f**</>. \\n<Yellow>Suffering Wealth</>: When the carrier takes damage, Defense is increased based on the accumulated damage taken, lasting <Yellow>30 seconds</>, with Defense increasing by up to <Yellow>*d</> points.",
-    "target_ru": "<Yellow>Самооборона Сулера</>: урон, получаемый носителем, уменьшен <Yellow>*f**</>. \n<Yellow>Богатство страданий</>: Когда владелец получает урон, защита увеличивается в соответствии с накопленным значением урона, длительностью <Yellow>30 секунд</>, а защита увеличивается до <Yellow>*d</> пунктов."
+    "target_ru": "<Yellow>Самооборона суле</>: урон, получаемый носителем, уменьшен <Yellow>*f**</>. \n<Yellow>Богатство страданий</>: Когда владелец получает урон, защита увеличивается в соответствии с накопленным значением урона, длительностью <Yellow>30 секунд</>, а защита увеличивается до <Yellow>*d</> пунктов."
   },
   {
     "id": "102586",
@@ -15645,7 +15645,7 @@
     "id": "102625",
     "source_cn": "在第二章现实主线中，在罗塞尔大帝的巨幅海报上签名",
     "ref_en": "In the Chapter 2 reality main quest, sign your name on the giant poster of Emperor Roselle",
-    "target_ru": "В главном квесте реальности главы 2 подпишите свое имя на гигантском плакате императора Розеллы."
+    "target_ru": "В главном квесте реальности главы 2 подпишите свое имя на гигантском плакате императора Розеля."
   },
   {
     "id": "102626",
@@ -16281,7 +16281,7 @@
     "id": "102731",
     "source_cn": "使用后解锁<Highlight>单人社交动作·调整发型</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Adjust Hair</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: корректировка прически</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: корректировка прически</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "102732",
@@ -16839,7 +16839,7 @@
     "id": "102825",
     "source_cn": "<Assistant_Title1>【戒指夺回计划】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>霍纳奇斯花海，约会和度假的圣地。在你散步时，从天而降的物品是——\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>62级</>后，前往{Location:[霍纳奇斯花海(255,221)]|15702.22;12017.58;17403;2;5202005;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Ring Retrieval Plan】</>\\n<Assistant_Title2> Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2> Quest Description: </>Hornacis Sea of Flowers, a sanctuary for dating and vacations. While you were taking a walk, the item that fell from the sky was—\\n<Assistant_Title2> How to Accept: </>After reaching Acting Level <Assistant_Red>62</>, head to {Location:[Hornacis Sea of Flowers(255,221)]|15702.22;12017.58;17403;2;5202005;0} to trigger the quest.\\n<Assistant_Title2> Quest Rewards</>: Cognition EXP, Bound Soules, Invoices, Adventure Medals, World Adventure Treasure Progress.",
-    "target_ru": "<Assistant_Title1>[План поиска кольца]</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Различные стили времени</>\n<Assistant_Title2>Описание миссии: </>Цветочное море Хонакиса, святое место для свиданий и отдыха. Когда вы идете, предметы, падающие с неба: — \n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>62</>, перейдите в {Местоположение:[Хонакис Цветочное море (255,221)] |15702.22;12017.58;17403;2;5202005;0} может вызвать срабатывание задания \n<Assistant_Title2>награды за задание</>: Познавательный опыт, привязка Сулера, счета-фактуры, приключенческие медали, мировые приключения, прогресс секретных сокровищ"
+    "target_ru": "<Assistant_Title1>[План поиска кольца]</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Различные стили времени</>\n<Assistant_Title2>Описание миссии: </>Цветочное море Хонакиса, святое место для свиданий и отдыха. Когда вы идете, предметы, падающие с неба: — \n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>62</>, перейдите в {Местоположение:[Хонакис Цветочное море (255,221)] |15702.22;12017.58;17403;2;5202005;0} может вызвать срабатывание задания \n<Assistant_Title2>награды за задание</>: Познавательный опыт, привязанные суле, счета-фактуры, приключенческие медали, мировые приключения, прогресс секретных сокровищ"
   },
   {
     "id": "102826",
@@ -17757,7 +17757,7 @@
     "id": "102979",
     "source_cn": "他也像个老师了啊。也对，他如果没有成为黑荆棘的员工，也会是个很好的老师。",
     "ref_en": "He has become like a teacher too. That's right, if he hadn't become an employee of Blackthorn, he would have been a great teacher.",
-    "target_ru": "Он тоже стал похож на учителя. Правильно, если бы он не стал сотрудником Блэкторна, он был бы отличным учителем."
+    "target_ru": "Он тоже стал похож на учителя. Правильно, если бы он не стал сотрудником «Чёрного Терновника», он был бы отличным учителем."
   },
   {
     "id": "102980",
@@ -19263,7 +19263,7 @@
     "id": "103231",
     "source_cn": "传送黑荆棘中",
     "ref_en": "Teleporting to Blackthorn...",
-    "target_ru": "Телепортируемся в Чёрный Чертополох..."
+    "target_ru": "Телепортируемся в «Чёрный Терновник»..."
   },
   {
     "id": "103232",
@@ -20001,7 +20001,7 @@
     "id": "103355",
     "source_cn": "使用后解锁<Highlight>单人社交动作·舞蹈</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Dance</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Single Social Action: Dance</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одиночное социальное действие: Танец</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "103356",
@@ -21249,7 +21249,7 @@
     "id": "103564",
     "source_cn": "罗塞尔终局之战",
     "ref_en": "Roselle Final Battle",
-    "target_ru": "Последняя битва Розеллы"
+    "target_ru": "Последняя битва Розеля"
   },
   {
     "id": "103565",
@@ -21441,7 +21441,7 @@
     "id": "103596",
     "source_cn": "<InvDefault>1.为了提升游戏公平性，【礼金】功能调整了的每日领取上限，以便让更多非凡者领取到礼金。</>\\n<InvDefault>2.【副本】</>\\n<InvDefault>1）修复了副本【记忆的传承·强尼】中替罪羔羊技能伤害区域提示不够明显的问题。</>\\n<InvDefault>2）下调了副本【黑荆棘事件簿·亡者疑踪】中【亡者隘口】关卡中僵尸群的移动速度。</>\\n<InvDefault>3）下调了副本【黑荆棘事件簿·亡者疑踪】中【破晓防线】关卡中僵尸的攻击力。</>\\n<InvDefault>4）增加了副本【黑荆棘事件簿·亡者疑踪】中【破晓防线】关卡中僵尸的攻击间隔。</>\\n<InvDefault>5）下调了副本【乌托邦剧院·普通】和【乌托邦剧院·困难】整体难度，并下调了首领【亵渎魔女】的伤害。</>\\n<InvDefault>3.【剧情】</>\\n<InvDefault>1）修复了特殊情况下原著主线《意外的访客》中邓恩表现异常的问题 。</>\\n<InvDefault>2）提高了现实主线第四章《镜中的廷根》异变狼人战斗中，玩家【霰弹枪】技能、【手枪射击】的伤害。</>\\n<InvDefault>4.【跑团】</>\\n<InvDefault>1）修复了特定情况下【秩序世界】玩法中【非凡扮演】因交互物消失导致流程停滞的问题。</>\\n<InvDefault>2）优化了【城市暗面】剧情事件【血色谢幕】中邦尼加冕仪式的玩法指引，并下调了玩法难度。</>\\n<InvDefault>3）修复了特定情况下【秩序世界】霍纳奇斯花海地图，坐标【518,316】处的异象之物无法正常显示获取的问题，非凡者可前往对应点位正常获取异象之物。</>\\n<InvDefault>5.【装备】</>\\n<InvDefault>1）修复了武器恩赐【铁火铸就的盟约】中，铁火状态伤害频率描述错误的问题。</>\\n<InvDefault>2）修复了装备词条中，格挡属性的描述错误的问题。</>\\n<InvDefault>6.修复了特殊情况下【占卜家】获取卡牌时，卡牌颜色显示异常的问题 。</>\\n<InvDefault>7.优化了【家族】系统招募相关提示文本。</>\\n<InvDefault>8.修复了特殊情况下【学徒】无法获得足迹的问题。</>\\n<InvDefault>9.修复了少数情况下，【秘偶许愿】保底不生效的问题，完成数据核查后，将根据受影响的次数补偿对应的【金纺线】道具。 </>\\n<InvDefault>10.修复了小部分时装染色后表现不一致的问题。</>\\n<InvDefault>11.修复了PC端异常出现移动端壁纸的问题。</>\\n<InvDefault>12.修复了特殊情况下【命运时刻】、【主宰争锋】、【神座之争】实际段位分变化正常但结算面板段位分变化显示异常的问题。</>\\n<InvDefault>13.修复了使用不同词条数的非凡物质聚合时获得<愚者>词条保底值异常偏低的问题，后续会对之前进行过不同词条数聚合（例如六词条与二词条、五词条与三词条等）的非凡者补发缺失的<愚者>词条保底进度。</>\\n<InvDefault>14.修复了【人脉好感度】中佛尔思邀约对话称呼错误的问题。</>\\n<InvDefault>15.修复了少数情况下【交易所】抢购商品失败时不返还苏勒的情况，完成数据核查后，将全额退还未返还的苏勒。</>\\n<InvDefault>16.修复了极少数情况下鸿蒙平台切换渠道登录不生效的问题。</>\\n<InvDefault>17.优化了【观众】部分技能的施放速度和手感，相应地略微下调治疗效果，保证整体治疗效率不变。</>",
     "ref_en": "<InvDefault>1. To improve game fairness, the daily claim limit for 【Gift Money】 has been adjusted so more Beyonders can receive it.</>\\n<InvDefault>2.【Dungeons】</>\\n<InvDefault>1）Fixed an issue where the damage-area indicator for the Scapegoat skill was insufficiently visible in 【Legacy of Memory · Johnny】.</>\\n<InvDefault>2）Reduced the movement speed of zombie groups in the 【Dead Man's Pass】 stage of 【Blackthorn Casebook · Mystery of the Dead】.</>\\n<InvDefault>3）Reduced zombie attack power in the 【Dawn Defense Line】 stage of 【Blackthorn Casebook · Mystery of the Dead】.</>\\n<InvDefault>4）Increased the interval between zombie attacks in the 【Dawn Defense Line】 stage of 【Blackthorn Casebook · Mystery of the Dead】.</>\\n<InvDefault>5）Reduced the overall difficulty of 【Utopia Theatre · Normal】 and 【Utopia Theatre · Hard】, and reduced the damage dealt by the boss 【Blasphemy Sorceress】.</>\\n<InvDefault>3.【Story】</>\\n<InvDefault>1）Fixed Dunn behaving incorrectly under special circumstances in the original-story main quest 《An Unexpected Visitor》.</>\\n<InvDefault>2）Increased the damage of the player's 【Shotgun】 skill and 【Pistol Shot】 during the mutated werewolf battle in Chapter Four of the real-world main quest 《Tingen in the Mirror》.</>\\n<InvDefault>4.【TRPG】</>\\n<InvDefault>1）Fixed an issue where 【Beyonder Acting】 could become stuck when an interactive object disappeared in 【World of Order】.</>\\n<InvDefault>2）Improved the gameplay guidance for Bonnie's coronation ritual in the 【Crimson Curtain Call】 story event of 【Dark Side of the City】, and reduced its difficulty.</>\\n<InvDefault>3）Fixed an Anomaly Item at coordinates 【518,316】 on the Hornacis Flower Sea map in 【World of Order】 not appearing or being obtainable correctly. Beyonders can now visit the location to obtain it normally.</>\\n<InvDefault>5.【Equipment】</>\\n<InvDefault>1）Fixed an incorrect description of the Ironfire state's damage frequency for the weapon boon 【Covenant Forged in Iron and Fire】.</>\\n<InvDefault>2）Fixed an incorrect description of the Block attribute on equipment affixes.</>\\n<InvDefault>6. Fixed card colors displaying incorrectly when a 【Seer】 obtained cards under special circumstances.</>\\n<InvDefault>7. Improved recruitment-related text in the 【Family】 system.</>\\n<InvDefault>8. Fixed an issue where 【Apprentice】 could not obtain Footprints under special circumstances.</>\\n<InvDefault>9. Fixed the pity guarantee for 【Marionette Wish】 not activating in rare cases. After data verification, affected players will receive the corresponding 【Golden Spun Thread】 items based on the number of affected attempts.</>\\n<InvDefault>10. Fixed minor inconsistencies in the appearance of some dyed outfits.</>\\n<InvDefault>11. Fixed mobile wallpapers appearing unexpectedly on PC.</>\\n<InvDefault>12. Fixed the settlement panel incorrectly displaying ranked-point changes in 【Moment of Destiny】, 【Battle for Supremacy】, and 【Throne War】 under special circumstances, despite the actual ranked-point changes being correct.</>\\n<InvDefault>13. Fixed the <​The Fool> affix pity value being abnormally low when combining Beyonder materials with different affix counts. Beyonders who previously combined materials with different affix counts, such as six-affix with two-affix or five-affix with three-affix materials, will receive the missing <​The Fool> affix pity progress.</>\\n<InvDefault>14. Fixed an incorrect form of address in Fors's invitation dialogue under 【Contact Affinity】.</>\\n<InvDefault>15. Fixed rare cases where soli were not returned after a failed rush purchase on the 【Exchange】. After data verification, all unreturned soli will be refunded.</>\\n<InvDefault>16. Fixed channel switching at login occasionally failing on the HarmonyOS platform.</>\\n<InvDefault>17. Improved the casting speed and feel of some 【Spectator】 skills while slightly reducing their healing effects, keeping overall healing efficiency unchanged.</>",
-    "target_ru": "<InvDefault>1. Чтобы повысить честность игры, дневной лимит сбора функции [Подарочные деньги] был скорректирован, чтобы позволить большему числу выдающихся людей получать подарочные деньги. </>\n<InvDefault>2. [Подземелье] </>\n<InvDefault>1) Исправлена ​​проблема, из-за которой подсказка о зоне повреждения навыка козла отпущения в копии [Наследие памяти·Джонни] не была достаточно очевидной. </>\n<InvDefault>2) Скорость передвижения группы зомби на уровне [Мертвый проход] в подземелье [Книга происшествий Блэкторн ·След мертвецов] была снижена. </>\n<InvDefault>3) Сила атаки зомби на уровне [Линия защиты Рассвета] в копии [Книга происшествий в Блэкторне ·След мертвецов] была уменьшена. </>\n<InvDefault>4) Увеличен интервал атаки зомби на уровне «Линия защиты Рассвета» в копии «Книга происшествий в Блэкторне ·След мертвецов». </>\n<InvDefault>5) Общая сложность подземелий [Театр Утопии·Нормальный] и [Театр Утопии·Сложный] была снижена, а также уменьшен урон босса [Оскверненная Ведьма]. </>\n<InvDefault>3. [Сюжет] </>\n<InvDefault>1) Исправлена ​​проблема ненормальной работы Данна в оригинальной основной истории «Неожиданный гость» при особых обстоятельствах. </>\n<InvDefault>2) Улучшен урон навыка игрока [Дробовик] и [Стрельба из пистолета] в битве с мутировавшими оборотнями в Главе 4 основной линии реальности «Тинген в зеркале». </>\n<InvDefault>4. [Бегущая группа] </>\n<InvDefault>1) Исправлена ​​проблема [Чрезвычайной роли] в игровом процессе [Мир порядка] из-за исчезновения интерактивных объектов при определенных обстоятельствах, что приводило к застою процесса. </>\n<InvDefault>2) Оптимизировано руководство по игровому процессу церемонии коронации Бонни в сюжетном событии «Темная сторона города» «Кровавый занавес» и снижена сложность игрового процесса. </>\n<InvDefault>3) Исправлена ​​проблема, из-за которой при определенных обстоятельствах на карте моря цветов Хорнакиса в [Мире порядка] призрачные объекты по координатам [518,316] не могли нормально отображаться и получаться. Выдающиеся люди могут пойти в соответствующие точки, чтобы получить призрачные предметы обычным способом. </>\n<InvDefault>5. [Снаряжение] </>\n<InvDefault>1) Исправлена ​​проблема в оружейном подарке [Завет, созданный железным огнём], из-за которой неверно описывалась частота урона в состоянии железного огня. </>\n<InvDefault>2) Исправлена ​​проблема с некорректным описанием атрибутов блокировки в записях об оборудовании. </>\n<InvDefault>6. Исправлена ​​ошибка, из-за которой цвет карты отображался ненормально, когда [Прорицатель] получал карту при особых обстоятельствах. </>\n<InvDefault>7. Оптимизирован текст подсказки, связанной с набором персонала в системе [Семья]. </>\n<InvDefault>8. Исправлена ​​ошибка, из-за которой [Ученик] не мог получить следы при особых обстоятельствах. </>\n<InvDefault>9. Исправлена ​​ошибка, из-за которой в некоторых случаях гарантия [Тайное желание марионетки] не действовала. После завершения проверки данных соответствующая опора [Золотая прядящая нить] будет компенсирована в зависимости от количества затронутых случаев. </>\n<InvDefault>10. Исправлена ​​проблема с нестабильной производительностью небольшого количества модных предметов после покраски. </>\n<InvDefault>11. Исправлена ​​проблема, из-за которой мобильные обои на ПК отображались ненормально. </>\n<InvDefault>12. Исправлена ​​проблема, из-за которой при особых обстоятельствах фактическое изменение рейтинга в [Момент судьбы], [Противостояние за господство] и [Борьба за Божий трон] является нормальным, но изменения ранга на панели поселений отображаются ненормально. </>\n<InvDefault>13. Исправлена ​​проблема аномально низкого гарантированного значения записи <愚者> при агрегировании необычных веществ с разным количеством записей. В будущем недостающий гарантированный прогресс записей <愚者> будет перевыдан Экстраординарам, которые ранее объединили другое количество записей (например, шесть записей и две записи, пять записей и три записи и т. д.). </>\n<InvDefault>14. Исправлена ​​проблема с неправильным названием диалога приглашения Форси в [Предпочтительность соединения]. </>\n<InvDefault>15. Исправлено несколько случаев, когда [Обмен] не возвращал Сулера, если спешка с покупкой товаров не удалась. После завершения проверки данных невозвращенный Suler будет полностью возвращен. </>\n<InvDefault>16. Исправлена ​​проблема, из-за которой в редких случаях вход в систему переключения каналов платформы Hongmeng не вступал в силу. </>\n<InvDefault>17. Оптимизирована скорость применения и ощущение некоторых навыков [Аудитории] и, соответственно, немного уменьшен эффект лечения, чтобы общая эффективность лечения оставалась неизменной. </>"
+    "target_ru": "<InvDefault>1. Чтобы повысить честность игры, дневной лимит сбора функции [Подарочные деньги] был скорректирован, чтобы позволить большему числу выдающихся людей получать подарочные деньги. </>\n<InvDefault>2. [Подземелье] </>\n<InvDefault>1) Исправлена проблема, из-за которой подсказка о зоне повреждения навыка козла отпущения в копии [Наследие памяти·Джонни] не была достаточно очевидной. </>\n<InvDefault>2) Скорость передвижения группы зомби на уровне [Мертвый проход] в подземелье [Книга происшествий «Чёрного Терновника»·След мертвецов] была снижена. </>\n<InvDefault>3) Сила атаки зомби на уровне [Линия защиты Рассвета] в копии [Книга происшествий «Чёрного Терновника»·След мертвецов] была уменьшена. </>\n<InvDefault>4) Увеличен интервал атаки зомби на уровне «Линия защиты Рассвета» в копии «Книга происшествий «Чёрного Терновника»·След мертвецов». </>\n<InvDefault>5) Общая сложность подземелий [Театр Утопии·Нормальный] и [Театр Утопии·Сложный] была снижена, а также уменьшен урон босса [Оскверненная Ведьма]. </>\n<InvDefault>3. [Сюжет] </>\n<InvDefault>1) Исправлена проблема ненормальной работы Данна в оригинальной основной истории «Неожиданный гость» при особых обстоятельствах. </>\n<InvDefault>2) Улучшен урон навыка игрока [Дробовик] и [Стрельба из пистолета] в битве с мутировавшими оборотнями в Главе 4 основной линии реальности «Тинген в зеркале». </>\n<InvDefault>4. [Бегущая группа] </>\n<InvDefault>1) Исправлена проблема [Чрезвычайной роли] в игровом процессе [Мир порядка] из-за исчезновения интерактивных объектов при определенных обстоятельствах, что приводило к застою процесса. </>\n<InvDefault>2) Оптимизировано руководство по игровому процессу церемонии коронации Бонни в сюжетном событии «Темная сторона города» «Кровавый занавес» и снижена сложность игрового процесса. </>\n<InvDefault>3) Исправлена проблема, из-за которой при определенных обстоятельствах на карте моря цветов Хорнакиса в [Мире порядка] призрачные объекты по координатам [518,316] не могли нормально отображаться и получаться. Выдающиеся люди могут пойти в соответствующие точки, чтобы получить призрачные предметы обычным способом. </>\n<InvDefault>5. [Снаряжение] </>\n<InvDefault>1) Исправлена проблема в оружейном подарке [Завет, созданный железным огнём], из-за которой неверно описывалась частота урона в состоянии железного огня. </>\n<InvDefault>2) Исправлена проблема с некорректным описанием атрибутов блокировки в записях об оборудовании. </>\n<InvDefault>6. Исправлена ошибка, из-за которой цвет карты отображался ненормально, когда [Прорицатель] получал карту при особых обстоятельствах. </>\n<InvDefault>7. Оптимизирован текст подсказки, связанной с набором персонала в системе [Семья]. </>\n<InvDefault>8. Исправлена ошибка, из-за которой [Ученик] не мог получить следы при особых обстоятельствах. </>\n<InvDefault>9. Исправлена ошибка, из-за которой в некоторых случаях гарантия [Тайное желание марионетки] не действовала. После завершения проверки данных соответствующая опора [Золотая прядящая нить] будет компенсирована в зависимости от количества затронутых случаев. </>\n<InvDefault>10. Исправлена проблема с нестабильной производительностью небольшого количества модных предметов после покраски. </>\n<InvDefault>11. Исправлена проблема, из-за которой мобильные обои на ПК отображались ненормально. </>\n<InvDefault>12. Исправлена проблема, из-за которой при особых обстоятельствах фактическое изменение рейтинга в [Момент судьбы], [Противостояние за господство] и [Борьба за Божий трон] является нормальным, но изменения ранга на панели поселений отображаются ненормально. </>\n<InvDefault>13. Исправлена проблема аномально низкого гарантированного значения записи <Шут> при агрегировании необычных веществ с разным количеством записей. В будущем недостающий гарантированный прогресс записей <Шут> будет перевыдан Экстраординарам, которые ранее объединили другое количество записей (например, шесть записей и две записи, пять записей и три записи и т. д.). </>\n<InvDefault>14. Исправлена проблема с неправильным названием диалога приглашения Форси в [Предпочтительность соединения]. </>\n<InvDefault>15. Исправлено несколько случаев, когда [Обмен] не возвращал суле, если спешка с покупкой товаров не удалась. После завершения проверки данных невозвращенные суле будут полностью возвращены. </>\n<InvDefault>16. Исправлена проблема, из-за которой в редких случаях вход в систему переключения каналов платформы Hongmeng не вступал в силу. </>\n<InvDefault>17. Оптимизирована скорость применения и ощущение некоторых навыков [Аудитории] и, соответственно, немного уменьшен эффект лечения, чтобы общая эффективность лечения оставалась неизменной. </>"
   },
   {
     "id": "103597",
@@ -22275,7 +22275,7 @@
     "id": "103737",
     "source_cn": "【自走棋】-阿尔杰·威尔逊-驭浪",
     "ref_en": "[Auto-Chess] - Alger Wilson - Wave Riding",
-    "target_ru": "[Авто-шахматы] - Алджер Уилсон - Катание на волнах"
+    "target_ru": "[Авто-шахматы] - Элджер Уилсон - Катание на волнах"
   },
   {
     "id": "103738",
@@ -22293,7 +22293,7 @@
     "id": "103740",
     "source_cn": "不用担心，我也算是黑荆棘的老朋友。",
     "ref_en": "Don't worry, I'm also an old friend of Blackthorn.",
-    "target_ru": "Не волнуйтесь, я еще и старый друг Блэкторна."
+    "target_ru": "Не волнуйтесь, я еще и старый друг «Чёрного Терновника»."
   },
   {
     "id": "103741",
@@ -22311,7 +22311,7 @@
     "id": "103743",
     "source_cn": "与罗塞尔对话",
     "ref_en": "Talk to Roselle",
-    "target_ru": "Поговорите с Розеллой"
+    "target_ru": "Поговорите с Розелем"
   },
   {
     "id": "103744",
@@ -24189,7 +24189,7 @@
     "id": "104058",
     "source_cn": "绑定苏勒不足。",
     "ref_en": "Insufficient bound Sol.",
-    "target_ru": "Недостаточная связанность Sol."
+    "target_ru": "Недостаточно привязанных суле."
   },
   {
     "id": "104059",
@@ -24765,7 +24765,7 @@
     "id": "104154",
     "source_cn": "抱歉，我刚刚从舞会上偷溜出来。身上一苏勒都没有，就随便坐了一个空位。",
     "ref_en": "Sorry, I just snuck out of the ball. I don't have a single sou on me, so I just sat in an empty seat.",
-    "target_ru": "Извини, я только что улизнул с мяча. У меня с собой нет ни единого су, поэтому я просто сел на свободное место."
+    "target_ru": "Извини, я только что улизнул с бала. У меня с собой нет ни одного суле, поэтому я просто сел на свободное место."
   },
   {
     "id": "104155",
@@ -24963,7 +24963,7 @@
     "id": "104187",
     "source_cn": "终末猎杀玩法未解锁。",
     "ref_en": "The Final Hunt gameplay is not unlocked.",
-    "target_ru": "Геймплей Final Hunt не разблокирован."
+    "target_ru": "Режим «Финальная охота» не разблокирован."
   },
   {
     "id": "104188",
@@ -26337,7 +26337,7 @@
     "id": "104416",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>66装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 66</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 66-го уровня </> <Highlight>Приключенческий </> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу."
+    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 66-го уровня </> <Highlight>Приключенческий </> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и привязанные суле."
   },
   {
     "id": "104417",
@@ -26679,7 +26679,7 @@
     "id": "104474",
     "source_cn": "你在摆摊中出售的<Reminder_Orange>%s</>已售出，审核期为<Reminder_Orange>%d</>小时，审核通过后可获得<Reminder_Orange>%d</>苏勒。",
     "ref_en": "The <Reminder_Orange> %s </> you were selling at the stall has been sold. The review period is <Reminder_Orange> %d </> hours. Once approved, you will receive <Reminder_Orange> %d </> Sol.",
-    "target_ru": "<Reminder_Orange> %s </>, который вы продавали на прилавке, продан. Период проверки составляет <Reminder_Orange> %d </> часов. После одобрения вы получите <Reminder_Orange> %d </> Sol."
+    "target_ru": "<Reminder_Orange> %s </>, который вы продавали на прилавке, продан. Период проверки составляет <Reminder_Orange> %d </> часов. После одобрения вы получите <Reminder_Orange> %d </> суле."
   },
   {
     "id": "104475",
@@ -26847,7 +26847,7 @@
     "id": "104502",
     "source_cn": "奥黛丽给你的钱包，里面有1万绑定苏勒资金。",
     "ref_en": "Wallet given to you by Audrey, containing 10,000 bound soli.",
-    "target_ru": "Кошелек, подаренный вам Одри, содержит 10 000 переплетенных суле."
+    "target_ru": "Кошелек, подаренный вам Одри, содержит 10 000 привязанных суле."
   },
   {
     "id": "104503",
@@ -27477,7 +27477,7 @@
     "id": "104607",
     "source_cn": "唤醒罗塞尔的残存意志3",
     "ref_en": "Awaken Roselle's residual will 3",
-    "target_ru": "Остаток Пробуждения Розеллы составит 3."
+    "target_ru": "Остаток Пробуждения Розеля составит 3."
   },
   {
     "id": "104608",
@@ -28299,7 +28299,7 @@
     "id": "104744",
     "source_cn": "开启可随机获得一件<Highlight>当前开启装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>current level</> <Highlight>Adventure-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight> текущего уровня</> <Highlight>Приключенческого </> оранжевого или золотого снаряжения, материалов Потусторонний, Факторов агрегации или связанного Сола."
+    "target_ru": "Откройте для случайного получения одной части <Highlight> текущего уровня</> <Highlight>Приключенческого </> оранжевого или золотого снаряжения, материалов Потусторонний, Факторов агрегации или привязанных суле."
   },
   {
     "id": "104745",
@@ -29445,7 +29445,7 @@
     "id": "104936",
     "source_cn": "5230012   黑荆棘安保公司   位面",
     "ref_en": "5230012 Blackthorn Security Company - Plane",
-    "target_ru": "5230012 Охранная компания Чёрный Чертополох - Самолет"
+    "target_ru": "5230012 Охранная компания «Чёрный Терновник» - Самолет"
   },
   {
     "id": "104937",
@@ -29517,7 +29517,7 @@
     "id": "104949",
     "source_cn": "【终末猎杀】-巨龙·投影-火法轰炸-脱手代理",
     "ref_en": "[Final Hunt]-Dragon - Projection-Fire Bombardment-Manual Proxy",
-    "target_ru": "[Последняя охота]-Дракон - Проекция-Огненная бомбардировка-Ручной прокси"
+    "target_ru": "[Финальная охота]-Дракон - Проекция-Огненная бомбардировка-Ручной прокси"
   },
   {
     "id": "104950",

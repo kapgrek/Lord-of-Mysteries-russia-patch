@@ -46,7 +46,7 @@ return {
     ["She fell down and stood up again... it doesn't look fake."] = "Она упала и снова встала... это не выглядит фальшиво.",
     ["Movement Path: Lizzie Ends"] = "Путь движения: Лиззи Эндс",
     ["Achievement: Hard - Viscountess"] = "Достижение: Сложное - Виконтесса",
-    ["Rozanne suggests that new employees of the Blackthorn Security Company familiarize themselves with Tingen as soon as possible; the newcomer's manual will be quite helpful."] = "Розанна предлагает новым сотрудникам охранной компании «Чёрный Чертополох» как можно скорее ознакомиться с Тингеном; Руководство для новичков будет весьма полезно.",
+    ["Rozanne suggests that new employees of the Blackthorn Security Company familiarize themselves with Tingen as soon as possible; the newcomer's manual will be quite helpful."] = "Розанна предлагает новым сотрудникам охранной компании «Чёрный Терновник» как можно скорее ознакомиться с Тингеном; Руководство для новичков будет весьма полезно.",
     ["Megose is about to release her final curse."] = "Мегосе собирается высвободить свое последнее проклятие.",
     ["Hmm, you broke into an evil ritual involving sacrifice and prayer to an evil god."] = "Хм, вы вторглись в злой ритуал, включающий жертвоприношения и молитвы злому богу.",
     ["Knights never break their oaths."] = "Рыцари никогда не нарушают своих клятв.",

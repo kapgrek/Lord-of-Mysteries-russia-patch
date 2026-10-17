@@ -160,7 +160,7 @@ return {
     ["Bread and Love Pre-requisite Atmosphere"] = "Предусловие атмосферы «Хлеб и любовь»",
     ["Advance to <HighLight>Sequence 7 Astrologer</>"] = "Продвинуться до <HighLight>Последовательности 7: Астролог</>",
     ["Friends - Friend List"] = "Друзья: Список друзей",
-    ["03_Blackthorn"] = "03_Черный_Шип",
+    ["03_Blackthorn"] = "03_Чёрный Терновник",
     ["Drink recommendation"] = "Рекомендации напитков",
     ["Failure ending"] = "Концовка с поражением",
     ["Poetry doesn't distinguish between high and low, as long as the content is good enough, it will definitely be loved by people."] = "У поэзии нет сословий: если стихи хороши, люди непременно их полюбят.",

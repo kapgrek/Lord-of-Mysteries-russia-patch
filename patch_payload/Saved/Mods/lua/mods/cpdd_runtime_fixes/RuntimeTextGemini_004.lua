@@ -241,7 +241,7 @@ return {
     ["Have you heard? An adventurer has appeared at the Evil Dragon Bar, and he's carrying a mysterious object from the sea."] = "Вы слышали? В баре ««Злой Дракон»» появился искатель приключений, несущий из моря загадочный предмет.",
     ["Click the button to break the Cage of Knowledge!"] = "Нажмите кнопку, чтобы сломать клетку знаний!",
     ["Mr. Moretti, we want to divine the whereabouts of someone. His name is Ince Zangwill, and he has swindled over 10,000 pounds."] = "Мистер Моретти, мы хотим узнать чье-то местонахождение. Его зовут Инс Зангвилл, и он выманил более 10 000 фунтов стерлингов.",
-    ["Join the Nighthawks"] = "Присоединяйтесь к «Ночным ястребам»",
+    ["Join the Nighthawks"] = "Присоединяйтесь к «Чёрному Терновнику»",
     ["The fallen wandering souls chase the evil thoughts of the traitors."] = "Падшие блуждающие души преследуют злые помыслы предателей.",
     ["【CS-2.3】 Daisy Fragrance - Third Cycle"] = "【CS-2.3】 Аромат ромашки — третий цикл",
     ["Put Back Storybook"] = "Положите обратно сборник рассказов",

@@ -203,7 +203,7 @@ return {
     ["Custard"] = "Заварной крем",
     ["The orphans of Iron Cross Street"] = "Сироты Айрон-Кросс-стрит",
     ["<h>Try divination</>"] = "<h>Try Гадание</>",
-    ["Atmosphere NPC Alger"] = "Атмосфера NPC Алжира",
+    ["Atmosphere NPC Alger"] = "Атмосфера NPC Элджера",
     ["You forgot the quest and got lost in this Rose Paradise..."] = "Вы забыли квест и потерялись в этом розовом раю...",
     ["Church of the River and Sea Notice"] = "Церковь Реки и Моря",
     ["C1-Main Seat Side"] = "C1-сторона основного сиденья",

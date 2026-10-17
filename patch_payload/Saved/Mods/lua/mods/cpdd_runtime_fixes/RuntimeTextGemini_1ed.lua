@@ -291,7 +291,7 @@ return {
     ["This will display the current station's <Highlight>tax rate</> and your <Highlight>load</>. After purchasing supplies, your load cannot exceed the limit. Upgrading your Carriage later can reduce the tax rate and increase the load limit."] = "Здесь отображаются <Highlight>налоговая ставка</> текущей станции и ваша <Highlight>грузоподъёмность</>. После покупки припасов нагрузка не должна превышать лимит. Улучшив карету, вы сможете снизить налоговую ставку и повысить лимит нагрузки.",
     ["Knowledge Wilderness triggered"] = "Пустошь знаний активирована",
     ["Arcane Badge"] = "Значок тайного искусства",
-    ["终末猎杀草丛隐身;草丛组19"] = "Охота «Конец времён»: невидимость в траве; группа травы 19",
+    ["终末猎杀草丛隐身;草丛组19"] = "«Финальная охота»: невидимость в траве; группа травы 19",
     ["At least a 2-person team, and both must finish in the top 6."] = "Команда минимум из 2 человек, оба должны войти в топ-6.",
     ["选取敌人最密集的区域，连续冲击两次，共造成{*d,F1690001,atkMin,7}点攻击伤害。第一次命中将敌人牵引至区域中心，第二次命中使敌人眩晕<HighLight>1</>秒。"] = "Выбирает область с наибольшим скоплением врагов и дважды подряд наносит удар, в сумме причиняя {*d,F1690001,atkMin,7} ед. урона атаки. Первое попадание стягивает врагов к центру области, второе оглушает врагов на <HighLight>1</> сек.",
     ["That's for sure. I don't think it'll be long before there are new crops to harvest."] = "Ещё бы. Думаю, скоро снова будет что собирать с грядок.",

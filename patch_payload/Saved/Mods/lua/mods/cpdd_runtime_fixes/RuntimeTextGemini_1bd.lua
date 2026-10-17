@@ -183,7 +183,7 @@ return {
     ["<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Highland Competition Battleground Schedule</>\nNon-Faction War Weeks: Registration opens Wednesday and Saturday from 19:00 – 20:30; the battleground opens from 20:45 – 21:15.\n<Highlight>Faction War Weeks: Registration opens Wednesday from 19:00 – 20:30; the battleground opens from 20:45 – 21:15.</>"] = "<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Расписание поля боя «Битва нагорья»</>\nНедели без войны фракций: регистрация открыта в среду и субботу с 19:00 до 20:30; поле боя открыто с 20:45 до 21:15.\n<Highlight>Недели войны фракций: регистрация открыта в среду с 19:00 до 20:30; поле боя открыто с 20:45 до 21:15.</>",
     ["How is this possible... How is this possible! You shouldn't have broken the cage! You shouldn't have escaped!"] = "Как это возможно... Как это возможно! Тебе не следовало ломать клетку! Ты не должен был бежать!",
     ["Dungeon 79"] = "Подземелье 79",
-    ["5231134 Blackthorn Security Company Single-Player Instance"] = "5231134 Экземпляр Охранная компания «Чёрный Чертополох» для одиночной игры",
+    ["5231134 Blackthorn Security Company Single-Player Instance"] = "5231134 Экземпляр Охранная компания «Чёрный Терновник» для одиночной игры",
     ["Oh, I suddenly feel full of energy again!"] = "О, я вдруг снова чувствую себя полным сил!",
     ["I won't!"] = "Я не буду!",
     ["What does Albert usually do in the backyard?"] = "Что Альберт обычно делает на заднем дворе?",

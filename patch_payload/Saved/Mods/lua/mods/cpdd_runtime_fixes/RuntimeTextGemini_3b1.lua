@@ -88,7 +88,7 @@ return {
     ["Left, right... which way is it?"] = "Налево, направо... в какую сторону?",
     ["Switch Group Loadout"] = "Загрузка группы переключения",
     ["Minimum Magic Attack"] = "Минимальная магическая атака",
-    ["I didn't have time to check with spirit vision. Forget it, I'll head back to Blackthorn first."] = "У меня не было времени проверить духовным зрением. Забудь об этом, сначала я вернусь в Чёрный Чертополох.",
+    ["I didn't have time to check with spirit vision. Forget it, I'll head back to Blackthorn first."] = "У меня не было времени проверить духовным зрением. Забудь об этом, сначала я вернусь в «Чёрный Терновник».",
     ["Set Server Loading Voxel and Navmesh"] = "Установите загрузку сервера Voxel и Navmesh",
     ["John➡️BillyTrigger"] = "Джон➡️БиллиТриггер",
     ["Tail Shadow"] = "Хвостовая тень",

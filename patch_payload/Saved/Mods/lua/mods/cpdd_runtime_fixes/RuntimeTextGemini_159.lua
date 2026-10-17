@@ -237,7 +237,7 @@ return {
     ["Young master?"] = "Молодой господин?",
     ["Pick up the lamb doll<h></>"] = "Возьмите куклу-ягненка<h></>.",
     ["Appearance Pack"] = "Пакет внешнего вида",
-    ["<DecH>Craftsmanship: </>Tribal Weaving · Rugged Jewelry\nA strange cape with a wilderness style, said to be one of the spoils of Emperor Roselle's journey to open up shipping routes."] = "<DecH> Мастерство: </> Племенное плетение и прочные украшения \n Странный плащ в диком стиле. Говорят, что это один из трофеев путешествия императора Рассела по открытию морского пути.",
+    ["<DecH>Craftsmanship: </>Tribal Weaving · Rugged Jewelry\nA strange cape with a wilderness style, said to be one of the spoils of Emperor Roselle's journey to open up shipping routes."] = "<DecH> Мастерство: </> Племенное плетение и прочные украшения \n Странный плащ в диком стиле. Говорят, что это один из трофеев путешествия императора Розеля по открытию морского пути.",
     ["Black Emperor to Blood Emperor"] = "Черный император — Кровавому императору",
     ["Radio"] = "Радиоприемник",
     ["Howls Street"] = "Хаулс-стрит",

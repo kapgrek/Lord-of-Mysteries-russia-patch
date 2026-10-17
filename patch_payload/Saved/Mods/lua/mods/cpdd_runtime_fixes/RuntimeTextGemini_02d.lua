@@ -134,7 +134,7 @@ return {
     ["魔法板人类7"] = "Магическая доска: человек 7",
     ["麦田食坊11级"] = "Закусочная на пшеничном поле ур. 11",
     ["Top K Opponents Defeated as Charm Initiator"] = "Лучшие соперники, побеждённые в качестве зачинщика очарования",
-    ["Exit Blackthorn Spawn Point"] = "Точка возрождения у выхода из «Чёрного шипа»",
+    ["Exit Blackthorn Spawn Point"] = "Точка возрождения у выхода из «Чёрного Терновника»",
     ["Good evening, detective.\nSomeone just died here.\nWould you like to play a game?"] = "Добрый вечер, детектив.\nЗдесь как раз умер один человек.\nНе желаете сыграть в игру?",
     ["Oath System Dialogue - Click Mutual Dissolution"] = "Диалог системы завета — Расторжение завета по обоюдному согласию",
     ["GVG Slow"] = "GVG: Замедление",

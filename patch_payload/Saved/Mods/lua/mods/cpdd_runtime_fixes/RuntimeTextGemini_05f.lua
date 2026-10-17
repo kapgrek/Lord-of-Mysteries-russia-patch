@@ -176,7 +176,7 @@ return {
     ["Taste of the Witch - Supplementary Dialogue - Temporary Placeholder for Night of Passion"] = "Вкус ведьмы — Дополнительный диалог — Временный заполнитель для «Ночи страсти»",
     ["Bend and stretch arms"] = "Сгибать и вытягивать руки",
     ["Basically, yes. However, we still need to confirm Miss Daisy's state again."] = "В принципе, да. Однако нам все еще нужно еще раз подтвердить состояние мисс Дейзи.",
-    ["Roselle Boss - Hand Orb"] = "Босс Розеллы — Сфера в руке",
+    ["Roselle Boss - Hand Orb"] = "Босс Розеля — Сфера в руке",
     ["Athena "] = "Афина",
     ["Castle map data is loading; cannot enter construction mode."] = "Данные карты замка загружаются; не могу войти в режим строительства.",
     ["Reduce movement speed; reaching 5 stacks may lead to more serious consequences."] = "Снизить скорость передвижения; достижение 5 стаков может привести к более серьезным последствиям.",

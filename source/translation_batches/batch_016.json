@@ -819,7 +819,7 @@
     "id": "075136",
     "source_cn": "黑荆棘事件簿3金币归零",
     "ref_en": "Blackthorn Incident Book 3 gold coins reset to zero",
-    "target_ru": "Золотые монеты Книги происшествий Блэкторна 3 обнулены"
+    "target_ru": "Золотые монеты Книги происшествий «Чёрного Терновника» 3 обнулены"
   },
   {
     "id": "075137",
@@ -1443,7 +1443,7 @@
     "id": "075240",
     "source_cn": "通关「黑荆棘事件簿·哀嚎黑市」",
     "ref_en": "Clear \"Blackthorn Case Files: Wailing Black Market\"",
-    "target_ru": "Очистить «Досье дела Блэкторна: плачущий черный рынок»"
+    "target_ru": "Очистить «Досье дела «Чёрного Терновника»: плачущий черный рынок»"
   },
   {
     "id": "075241",
@@ -1521,7 +1521,7 @@
     "id": "075253",
     "source_cn": "5231148   黑荆棘安保公司   单人位面",
     "ref_en": "5231148 Blackthorn Security Company Single-Player Instance",
-    "target_ru": "5231148 Экземпляр Охранная компания «Чёрный Чертополох» для одиночной игры"
+    "target_ru": "5231148 Экземпляр Охранная компания «Чёрный Терновник» для одиночной игры"
   },
   {
     "id": "075254",
@@ -2043,7 +2043,7 @@
     "id": "075340",
     "source_cn": "终末猎杀·晋阶成长",
     "ref_en": "Final Hunt · Advancement",
-    "target_ru": "Последняя охота · Продвижение"
+    "target_ru": "«Финальная охота» · Продвижение"
   },
   {
     "id": "075341",
@@ -2217,7 +2217,7 @@
     "id": "075369",
     "source_cn": "黑荆棘传入出生点",
     "ref_en": "Blackthorn teleport spawn point",
-    "target_ru": "Точка появления телепорта Чёрный Чертополох"
+    "target_ru": "Точка появления телепорта «Чёрный Терновник»"
   },
   {
     "id": "075370",
@@ -2283,7 +2283,7 @@
     "id": "075380",
     "source_cn": "……是啊，我发誓要守护罗塞尔大帝发明的下水道系统。",
     "ref_en": "...Yeah, I swore to guard the sewer system invented by Emperor Roselle.",
-    "target_ru": "...Да, я поклялся охранять канализационную систему, изобретенную императором Розеллой."
+    "target_ru": "...Да, я поклялся охранять канализационную систему, изобретенную императором Розелем."
   },
   {
     "id": "075381",
@@ -2775,7 +2775,7 @@
     "id": "075462",
     "source_cn": "罗塞尔Boss-1&2阶段-知识抽取-晕眩打断交互",
     "ref_en": "Roselle Boss - Phase 1&2 - Knowledge Extraction - Stun Interrupt Interaction",
-    "target_ru": "Босс Розеллы — фазы 1 и 2 — извлечение знаний — взаимодействие с оглушающим прерыванием"
+    "target_ru": "Босс Розеля — фазы 1 и 2 — извлечение знаний — взаимодействие с оглушающим прерыванием"
   },
   {
     "id": "075463",
@@ -3249,7 +3249,7 @@
     "id": "075542",
     "source_cn": "开启可随机获得一件<Highlight>45装等</>的<Highlight>竞技倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 45</> <Highlight>Competition-oriented</> gold and purple-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. \\n\\n<Highlight>Conversion limit</>: Can be converted into a maximum of <Highlight>10</> Secret Treasures; progress exceeding this will be <Highlight>automatically stored</>, and will be <Highlight>converted into new Secret Treasures</> once the new level's Secret Treasures are unlocked.",
-    "target_ru": "При открытии дает случайный предмет экипировки <Highlight>45-го уровня</> золотого или фиолетового качества с <Highlight>уклоном в PvP</>, Потусторонние вещества, Факторы схождения или персональные соли.\n\n<Highlight>Лимит преобразования</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохранен автоматически</>, а после открытия сокровищ нового уровня снаряжения <Highlight>преобразуется в новые тайные сокровища</>."
+    "target_ru": "При открытии дает случайный предмет экипировки <Highlight>45-го уровня</> золотого или фиолетового качества с <Highlight>уклоном в PvP</>, Потусторонние вещества, Факторы схождения или привязанные суле.\n\n<Highlight>Лимит преобразования</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохранен автоматически</>, а после открытия сокровищ нового уровня снаряжения <Highlight>преобразуется в новые тайные сокровища</>."
   },
   {
     "id": "075543",
@@ -3459,7 +3459,7 @@
     "id": "075577",
     "source_cn": "瑞尔·比伯是一个廷根珠宝匠人，周薪1镑15苏勒左右。",
     "ref_en": "Ray Bieber is a Tingen jeweler with a weekly salary of about 1 pound and 15 shillings.",
-    "target_ru": "Рэй Бибер — ювелир из Тингена с еженедельной зарплатой около 1 фунта 15 шиллингов."
+    "target_ru": "Рэй Бибер — ювелир из Тингена с еженедельной зарплатой около 1 фунта 15 суле."
   },
   {
     "id": "075578",
@@ -3771,7 +3771,7 @@
     "id": "075630",
     "source_cn": "两镑四苏勒。做工扎实，不出风头。",
     "ref_en": "Two pounds and four shillings. Solid craftsmanship, nothing too flashy.",
-    "target_ru": "Два фунта и четыре шиллинга. Твердая работа, ничего лишнего."
+    "target_ru": "Два фунта и четыре суле. Твердая работа, ничего лишнего."
   },
   {
     "id": "075631",
@@ -4725,7 +4725,7 @@
     "id": "075789",
     "source_cn": "抵达黑荆棘安保公司",
     "ref_en": "Arrive at Blackthorn Security Company.",
-    "target_ru": "Прибытие в охранную компанию Чёрный Чертополох."
+    "target_ru": "Прибытие в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "075790",
@@ -4917,7 +4917,7 @@
     "id": "075821",
     "source_cn": "老尼尔，黑荆棘资历最深的老前辈之一。他会教你冥想、灵视，还会教你在报销单上如何“合理”填数字。他欠账三十镑时，也能对捡来的三百镑钱包分文不动。\\n“为所欲为，但勿伤害”，是他恪守一生的格言。\\n他曾是正式值夜者，但离晋升始终差了那么一步。年纪渐长，教会让他转做“看守者”或回家休养，他拒绝了。他只愿留在黑荆棘，守着那些泛黄的典籍，为大家点亮一盏灯。\\n在平常幽默风趣的相处中，没人知道，老尼尔一直在节省资金，试图用禁忌的“生命炼成”仪式复活亡妻。他在需要鲜血材料的配方旁写道：“可以考虑抽取我的。”——他宁愿用自己的血，也不愿伤害任何人。\\n直到隐匿贤者的低语吞没他，队友亲手送别他……当值夜者们翻开老尼尔的日记，看见最后一页写着：“如果不能拯救她，那就去陪伴她。”时，他们终于明白了老尼尔最后的坚守。\\n他想用余生为年轻人照亮一小段路，然后用生命，践行一句无人知晓的誓言。",
     "ref_en": "Old Neil, one of the most senior veterans of Blackthorn. He would teach you meditation and spirit vision, and he would also teach you how to \"reasonably\" fill in numbers on expense reports. When he owed thirty pounds, he could also leave a three-hundred-pound wallet he found untouched. \\n \"Do what you will, but do no harm\" was the motto he upheld his whole life. \\n He was once an official Nighthawk, but he was always one step away from promotion. As he grew older, the Church asked him to become a \"Gatekeeper\" or retire at home, but he refused. He only wished to stay at Blackthorn, guarding those yellowed classics and lighting a lamp for everyone. \\n In their usual humorous interactions, no one knew that Old Neil had been saving money, trying to resurrect his late wife with the forbidden \"Life Creation\" ritual. Next to the formula that required blood materials, he wrote: \"Can consider extracting mine.\"—He would rather use his own blood than hurt anyone. \\n Until the whispers of the Hidden Sage engulfed him, and his teammates sent him off with their own hands... When the Nighthawks opened Old Neil's diary and saw the last page written: \"If I cannot save her, then I will accompany her,\" they finally understood Old Neil's final persistence. \\n He wanted to illuminate a short path for the young people with the rest of his life, and then use his life to practice a vow that no one knew.",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "Старик Нил — один из самых опытных ветеранов «Чёрного Терновника». Он научит вас медитации и духовному зрению, а ещё тому, как «разумно» вписывать цифры в отчёты о расходах. Задолжав тридцать фунтов, он не притронулся бы и к найденному кошельку с тремя сотнями фунтов.\n«Делай что хочешь, но не причиняй вреда» — девиз, которому он следовал всю жизнь.\nОн был штатным Ночным Ястребом, но до повышения ему всегда не хватало одного шага. С возрастом Церковь предложила ему стать «Смотрителем» или уйти на покой домой, но он отказался. Он хотел лишь остаться в «Чёрном Терновнике», охранять пожелтевшие фолианты и зажигать для всех лампу.\nВ повседневном шутливом общении никто не знал, что старик Нил копил деньги, пытаясь запретным ритуалом «Создание жизни» воскресить покойную жену. Рядом с рецептом, требующим кровавых материалов, он написал: «Можно рассмотреть мою». — Он скорее пожертвовал бы своей кровью, чем причинил вред кому-либо.\nПока шёпот Скрытого Мудреца не поглотил его, а товарищи не проводили его собственными руками... Когда Ночные Ястребы открыли дневник старика Нила и увидели на последней странице: «Если я не смогу спасти её, то буду рядом с ней», — они наконец поняли, в чём была последняя стойкость старика Нила.\nОн хотел остаток жизни освещать молодым короткий отрезок пути, а затем жизнью исполнить клятву, о которой никто не знал."
   },
   {
     "id": "075822",
@@ -5907,7 +5907,7 @@
     "id": "075988",
     "source_cn": "人脉话题-阿尔杰2关于风暴教会",
     "ref_en": "Connection Topic - Alger 2: About the Church of Storms",
-    "target_ru": "Тема подключения — Алжир 2: О Церкви Штормов"
+    "target_ru": "Тема подключения — Элджер 2: О Церкви Штормов"
   },
   {
     "id": "075989",
@@ -6111,7 +6111,7 @@
     "id": "076022",
     "source_cn": "完成主线《加入黑荆棘》后解锁。",
     "ref_en": "Unlocked after completing the main quest \"Joining the Nighthawks\".",
-    "target_ru": "Разблокируется после выполнения основного квеста «Присоединение к Ночным Ястребам»."
+    "target_ru": "Разблокируется после выполнения основного квеста «Присоединение к Чёрному Терновнику»."
   },
   {
     "id": "076023",
@@ -6489,7 +6489,7 @@
     "id": "076085",
     "source_cn": "难道又是噩梦？不行，得立刻回黑荆棘报告！",
     "ref_en": "Could it be another nightmare? No, I must return to Blackthorn Security Company immediately to report!",
-    "target_ru": "Может ли это быть еще один кошмар? Нет, я должен немедленно вернуться в охранную компанию «Чёрный Чертополох» и сообщить об этом!"
+    "target_ru": "Может ли это быть еще один кошмар? Нет, я должен немедленно вернуться в охранную компанию «Чёрный Терновник» и сообщить об этом!"
   },
   {
     "id": "076086",
@@ -6519,7 +6519,7 @@
     "id": "076090",
     "source_cn": "（罗塞尔）我的外交委员会的先生们都是蠢驴！\\n（克莱恩）不管是学徒 还是占卜家 偷盗者 都更加地好",
     "ref_en": "(Roselle) The gentlemen on my diplomatic committee are all donkeys! \\n (Klein) Whether it's an Apprentice, a Seer, or a Marauder, they are all much better",
-    "target_ru": "【Мастер Марионеток】"
+    "target_ru": "(Розель) Господа из моего дипломатического комитета — все ослы!\n(Клейн) Будь то Ученик, Провидец или Вор — все гораздо лучше"
   },
   {
     "id": "076091",
@@ -7269,7 +7269,7 @@
     "id": "076216",
     "source_cn": "与3人及以上的俱乐部成员组织<Time>%d</>/1支队伍通关黑荆棘事件簿",
     "ref_en": "Organize <Time>%d</>/1 team with 3 or more Club members to clear the Blackthorn Incident Log",
-    "target_ru": "Организуйте команду <Time>%d</>/1 из 3 или более членов Клуба, чтобы очистить журнал происшествий в Блэкторне."
+    "target_ru": "Организуйте команду <Time>%d</>/1 из 3 или более членов Клуба, чтобы очистить журнал происшествий «Чёрного Терновника»."
   },
   {
     "id": "076217",
@@ -7731,7 +7731,7 @@
     "id": "076293",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>55装等</>的<Highlight>冒险倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 55</> <Highlight>Adventure-oriented</> gold and purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "За каждые <Highlight>20 очков прогресса</> дается 1 сундук ресурсов развития, при открытии которого можно случайно получить золотое или фиолетовое снаряжение <Highlight>55-го ур. снаряжения</> с <Highlight>направленностью на приключения</>, Потусторонние материалы, факторы агрегации и привязанные сулы.\n\n<Highlight>Лимит конвертации</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохраняться автоматически</>, а после открытия сокровищ нового уровня снаряжения — <Highlight>конвертироваться в новые сокровища</>."
+    "target_ru": "За каждые <Highlight>20 очков прогресса</> дается 1 сундук ресурсов развития, при открытии которого можно случайно получить золотое или фиолетовое снаряжение <Highlight>55-го ур. снаряжения</> с <Highlight>направленностью на приключения</>, Потусторонние материалы, факторы агрегации и привязанные суле.\n\n<Highlight>Лимит конвертации</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохраняться автоматически</>, а после открытия сокровищ нового уровня снаряжения — <Highlight>конвертироваться в новые сокровища</>."
   },
   {
     "id": "076294",
@@ -8103,13 +8103,13 @@
     "id": "076355",
     "source_cn": "5231134   黑荆棘安保公司   单人位面",
     "ref_en": "5231134 Blackthorn Security Company Single-Player Instance",
-    "target_ru": "5231134 Экземпляр Охранная компания «Чёрный Чертополох» для одиночной игры"
+    "target_ru": "5231134 Экземпляр Охранная компания «Чёрный Терновник» для одиночной игры"
   },
   {
     "id": "076356",
     "source_cn": "<Assistant_Title1>【闪电莉莉】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>廷根出现一位传奇送货员——闪电莉莉，速度快到难以想象！\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>61级</>后，前往{Location:[廷根(808,1125)]|-18931;12326;-1979;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Lightning Lily】</>\\n<Assistant_Title2>Quest Type:</><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description:</>A legendary delivery person has appeared in Tingen—Lightning Lily, whose speed is unimaginably fast!\\n<Assistant_Title2>How to Accept:</>After reaching <Assistant_Red>Level 61</> in Acting, head to {Location:[Tingen(808,1125)]|-18931;12326;-1979;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards:</>Cognition EXP, Bound Soule, Invoices, Adventure Medals, World Adventure Treasure progress.",
-    "target_ru": "<Assistant_Title1>【Молниеносная Лилия】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Разнообразие времен</>\n<Assistant_Title2>Описание миссии: </>В Тингене появляется легендарный доставщик-Молниеносная Лилия, скорость невообразимая! \n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>61</>, перейдите в {Location:[Tinggen(808,1125)]|-18931 ;12326;-1979;2;5200002;0} Можно запускать задачи \n<Assistant_Title2>Task Награды</>: познавательный опыт, переплет Суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Молниеносная Лилия】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Нравы эпохи</>\n<Assistant_Title2>Описание задания: </>В Тингене появился легендарный курьер — Молниеносная Лилия, скорость которой невообразима!\n<Assistant_Title2>Как принять: </>После достижения <Assistant_Red>61-го уровня</> Отыгрыша отправляйтесь в {Location:[廷根(808,1125)]|-18931;12326;-1979;2;5200002;0}, чтобы запустить задание.\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, счета-фактуры, медали приключений, прогресс мировых тайных сокровищ приключений"
   },
   {
     "id": "076357",
@@ -8883,7 +8883,7 @@
     "id": "076485",
     "source_cn": "<Highlight>黑荆棘商店</>兑换获得",
     "ref_en": "Obtained by exchanging at the <Highlight> Blackthorn Shop </>",
-    "target_ru": "Получается путем обмена в магазине <Highlight> Чёрный Чертополох Shop </>."
+    "target_ru": "Получается путем обмена в магазине <Highlight> «Чёрный Терновник» </>."
   },
   {
     "id": "076486",
@@ -9045,7 +9045,7 @@
     "id": "076512",
     "source_cn": "使用后，有概率获得<Highlight>零元购凭证</>、300金镑代金券、100金镑代金券、60金镑代金券或绑定苏勒。",
     "ref_en": "Use for a chance to obtain a <Highlight>Zero-Cost Voucher</>, a 300 Gold Pound Voucher, a 100 Gold Pound Voucher, a 60 Gold Pound Voucher, or Bound Soles.",
-    "target_ru": "Используйте его, чтобы получить шанс получить ваучер <Highlight> с нулевой стоимостью</>, ваучер на 300 золотых фунтов, ваучер на 100 золотых фунтов, ваучер на 60 золотых фунтов или связанные подошвы."
+    "target_ru": "Используйте его, чтобы получить шанс получить ваучер <Highlight> с нулевой стоимостью</>, ваучер на 300 золотых фунтов, ваучер на 100 золотых фунтов, ваучер на 60 золотых фунтов или привязанные суле."
   },
   {
     "id": "076513",
@@ -9123,7 +9123,7 @@
     "id": "076525",
     "source_cn": "回<h>黑荆棘</>，报告苜蓿号事件",
     "ref_en": "Return to <h>Blackthorn</> and report the Clover incident",
-    "target_ru": "Вернитесь к <h>Чёрный Чертополох</> и сообщите об инциденте с Клевером."
+    "target_ru": "Вернитесь к <h>«Чёрному Терновнику»</> и сообщите об инциденте с Клевером."
   },
   {
     "id": "076526",
@@ -9639,7 +9639,7 @@
     "id": "076611",
     "source_cn": "<Assistant_Title1>【总有明天】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>扮演故事</>\\n<Assistant_Title2>任务描述：</>工厂区又一次发生了命案。一位女士因目击案件而崩溃哭泣，负责案件的警官认出你是调查特殊案件的专家，请求你帮忙安抚证人。\\n<Assistant_Title2>领取方式：</>完成主线剧情第二章《时代的浪潮》且扮演等级达到<Assistant_Red>19级</>后，前往{Location:[廷根(1050,1200)]|4930;20236;-1942;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒",
     "ref_en": "<Assistant_Title1>【There is Always Tomorrow】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Acting Story</>\\n<Assistant_Title2>Quest Description: </>Another murder has occurred in the factory district. A lady is crying in a breakdown after witnessing the crime. The officer in charge of the case recognizes you as an expert in investigating special cases and asks you to help pacify the witness. \\n<Assistant_Title2>How to Accept: </>After completing Chapter 2 of the main story, \"Tides of the Era,\" and reaching Acting level <Assistant_Red>Level 19</>, go to {Location:[Tingen (1050,1200)]|4930;20236;-1942;2;5200002;0} to trigger the quest. \\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soules",
-    "target_ru": "<Assistant_Title1>【Всегда наступает завтра】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Игровая история</>\n<Assistant_Title2>Описание миссии: </>На территории фабрики произошло еще одно убийство. Женщина не выдерживает и плачет, став свидетельницей происшествия. Сотрудник полиции, ведущий дело, признает вас экспертом в расследовании особых случаев и просит вас помочь успокоить свидетеля. \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения уровня <Assistant_Red> 19</> перейдите в {Location:[ting Root(1050,1200)]|4930;20236;-1942;2;5200002;0} можно активировать задание \n<Assistant_Title2>награда за задание</>: познавательный опыт, связывание Сулера"
+    "target_ru": "<Assistant_Title1>【Всегда наступает завтра】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Игровая история</>\n<Assistant_Title2>Описание миссии: </>На территории фабрики произошло еще одно убийство. Женщина не выдерживает и плачет, став свидетельницей происшествия. Сотрудник полиции, ведущий дело, признает вас экспертом в расследовании особых случаев и просит вас помочь успокоить свидетеля. \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения уровня <Assistant_Red> 19</> перейдите в {Location:[Тинген(1050,1200)]|4930;20236;-1942;2;5200002;0} можно активировать задание \n<Assistant_Title2>награда за задание</>: познавательный опыт, привязанные суле"
   },
   {
     "id": "076612",
@@ -10371,7 +10371,7 @@
     "id": "076733",
     "source_cn": "黑荆棘事件3-洛克·金-黑水点名-随机取1名非T玩家",
     "ref_en": "Black Thorn Event 3-Rock King-Black Water Mark-Randomly Take 1 Non-T Player",
-    "target_ru": "Событие Black Thorn 3 — Король камней — Черный водяной знак — Случайным образом выберите 1 игрока, не являющегося игроком T"
+    "target_ru": "Событие «Чёрный Терновник» 3 — Король камней — Черный водяной знак — Случайным образом выберите 1 игрока, не являющегося игроком T"
   },
   {
     "id": "076734",
@@ -10713,7 +10713,7 @@
     "id": "076791",
     "source_cn": "将魔女交给黑荆棘安保公司",
     "ref_en": "Hand the witch over to the Blackthorn Security Company.",
-    "target_ru": "Передайте ведьму охранной компании «Чёрный Чертополох»."
+    "target_ru": "Передайте ведьму охранной компании «Чёрный Терновник»."
   },
   {
     "id": "076792",
@@ -11289,7 +11289,7 @@
     "id": "076888",
     "source_cn": "使用后解锁<Highlight>单人社交动作·鼓掌</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Clap</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Clap</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одиночное социальное действие · Аплодисменты</> при использовании; при повторном получении автоматически разлагается на привязанные суле."
   },
   {
     "id": "076889",
@@ -11583,7 +11583,7 @@
     "id": "076937",
     "source_cn": "终末猎杀·顶级猎手",
     "ref_en": "Final Hunt · Top Hunter",
-    "target_ru": "Последняя охота · Лучший охотник"
+    "target_ru": "Финальная охота · Лучший охотник"
   },
   {
     "id": "076938",
@@ -12177,7 +12177,7 @@
     "id": "077037",
     "source_cn": "氛围npc阿尔杰",
     "ref_en": "Atmosphere NPC Alger",
-    "target_ru": "Атмосфера NPC Алжира"
+    "target_ru": "Атмосфера NPC Элджера"
   },
   {
     "id": "077038",
@@ -12933,7 +12933,7 @@
     "id": "077163",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·值夜模式</>，可以参与公共掉落的分配与拍卖。有概率获得下列装备。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · Nighthawk Mode</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following equipment.",
-    "target_ru": "Участие в подземелье <Highlight>Журнал происшествий Чёрный Чертополох · Режим Ночной Ястреб</> в режиме вечеринки позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение."
+    "target_ru": "Участие в подземелье <Highlight>Журнал происшествий «Чёрный Терновник» · Режим Ночной Ястреб</> в режиме вечеринки позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение."
   },
   {
     "id": "077164",
@@ -13095,13 +13095,13 @@
     "id": "077190",
     "source_cn": "马车-配黑荆棘门口车夫",
     "ref_en": "Carriage - Match Blackthorn entrance coachman",
-    "target_ru": "Карета — Матч Чёрный Чертополох, входной кучер"
+    "target_ru": "Карета — кучер у входа в «Чёрный Терновник»"
   },
   {
     "id": "077191",
     "source_cn": "黑荆棘工作手册",
     "ref_en": "Blackthorn Work Manual",
-    "target_ru": "Руководство по работе с Блэкторном"
+    "target_ru": "Рабочее руководство «Чёрного Терновника»"
   },
   {
     "id": "077192",
@@ -15867,7 +15867,7 @@
     "id": "077653",
     "source_cn": "这一箱有60000苏勒。",
     "ref_en": "This box contains 60,000 Sol.",
-    "target_ru": "В этой коробке находится 60 000 Сол."
+    "target_ru": "В этой коробке находится 60 000 суле."
   },
   {
     "id": "077654",
@@ -15933,7 +15933,7 @@
     "id": "077664",
     "source_cn": "黑荆棘贡献",
     "ref_en": "Blackthorn Contribution",
-    "target_ru": "Вклад Блэкторна"
+    "target_ru": "Вклад «Чёрного Терновника»"
   },
   {
     "id": "077665",
@@ -19017,7 +19017,7 @@
     "id": "078179",
     "source_cn": "<InvDefault>1.因“非凡之路，感谢同行”福利计划，我们本周新增了【零元购凭证】的更多获取途径，修改内容如下：</>\\n<InvDefault>【神降惊喜礼盒福利加码】</>\\n<InvDefault>1）新增奖励内容：原秘宝箱子中获取的</><InvHighlight>神降惊喜礼盒稀有概率不变，新增了零元购凭证、多种金镑代金券奖励类型</><InvDefault>，且未获得稀有奖励时必定获得一定数量的绑定苏勒。</>\\n<InvDefault>2）修改开启方式：</><InvHighlight>神降惊喜礼盒从默认自动开启修改为需手动确认开启</><InvDefault>。</>\\n<InvDefault>3）我们将为符合情况的对应非凡者，发送本周已开启的神降惊喜礼盒对应数量的新增奖励礼盒，包括：概率获取的零元购凭证、多种金镑代金券和一定数量的绑定苏勒，之后将通过邮件形式发放，请非凡者关注后续邮件。</>\\n<InvDefault>2.【剧情】</>\\n<InvDefault>1）修复了特殊情况下，达到指定等级未正常开启主线任务的问题。</>\\n<InvDefault>2）修复了现实主线《廷根守护者》中部分步骤黑屏时间过长的问题。</>\\n<InvDefault>3）修复了特殊情况下现实主线《暗涌的危机》中无法找到伦纳德、弗莱的问题。</>\\n<InvDefault>4）优化了部分主线动画的跳过节奏。</>\\n<InvDefault>3.【副本】</>\\n<InvDefault>1）下调了副本【黑荆棘事件簿·黄金之罪】中“洛克·金”骗局陷阱和债务之护机制处理失败后的技能伤害。</>\\n<InvDefault>2）下调了副本【乌托邦剧院】困难和噩梦难度下，双人模式中怪物的伤害。</>\\n<InvDefault>4.优化了【座驾】中车辆【留声机】的播放规则，若下车前已经暂停或者关闭留声机，再次上车会记录留声机状态，不会默认播放。</>\\n<InvDefault>5.修复了【廷根】的【马车】和【骑警】的音效问题以及移动表现问题。</>\\n<InvDefault>6.修复了特殊情况下，【原著瞬间】等【秩序世界】玩法物件消失无法交互，导致玩法无法完成的问题，非凡者可以回到原点位正常完成玩法。</>\\n<InvDefault>7.修复了学徒技能【记录】和【漫游】在网络波动环境下触发异常的问题。</>",
     "ref_en": "<InvDefault>1. As part of the ‘Path of the Beyonder, Thank You for the Journey’ benefit program, more ways to obtain 【Zero-Cost Vouchers】 have been added this week, with the following changes:</>\\n<InvDefault>【Divine Descent Surprise Gift Box Bonus】</>\\n<InvDefault>1）New rewards: the original Treasure Chest's </><InvHighlight>rare-drop rate for Divine Descent Surprise Gift Boxes is unchanged, while Zero-Cost Vouchers and several pound-voucher reward types have been added</><InvDefault>. A quantity of bound soli is guaranteed whenever no rare reward is obtained.</>\\n<InvDefault>2）Opening method changed: </><InvHighlight>Divine Descent Surprise Gift Boxes now require manual confirmation instead of opening automatically by default</><InvDefault>.</>\\n<InvDefault>3）Eligible Beyonders will receive additional reward boxes matching the number of Divine Descent Surprise Gift Boxes opened this week. These may grant Zero-Cost Vouchers, several kinds of pound vouchers, and a quantity of bound soli. They will be delivered by mail; please watch for future messages.</>\\n<InvDefault>2.【Story】</>\\n<InvDefault>1）Fixed the main quest not starting normally upon reaching the required level under special circumstances.</>\\n<InvDefault>2）Fixed excessively long black screens during some steps of the real-world main quest 《Guardian of Tingen》.</>\\n<InvDefault>3）Fixed Leonard and Frye being impossible to find under special circumstances in the real-world main quest 《Undercurrent Crisis》.</>\\n<InvDefault>4）Improved the Skip pacing of some main-story cinematics.</>\\n<InvDefault>3.【Dungeons】</>\\n<InvDefault>1）Reduced skill damage after failing the Locke King scam-trap and Debt Protection mechanics in 【Blackthorn Casebook · Sin of Gold】.</>\\n<InvDefault>2）Reduced monster damage in two-player mode on Hard and Nightmare difficulties in 【Utopia Theatre】.</>\\n<InvDefault>4. Improved the playback rules for the 【Gramophone】 vehicle feature under 【Mounts】. If the gramophone was paused or switched off before dismounting, its state is now remembered when mounting again instead of playback starting automatically.</>\\n<InvDefault>5. Fixed sound and movement issues affecting 【Carriages】 and 【Mounted Police】 in 【Tingen】.</>\\n<InvDefault>6. Fixed 【World of Order】 objects such as 【Original-Story Moments】 disappearing and becoming non-interactive under special circumstances, preventing completion. Beyonders can now return to the original location and finish normally.</>\\n<InvDefault>7. Fixed abnormal triggering of the Apprentice skills 【Record】 and 【Wander】 during network instability.</>",
-    "target_ru": "<InvDefault>1. В рамках бонусной программы «Путь Потустороннего: спасибо, что вы с нами» на этой неделе добавлены новые способы получения 【Купонов бесплатной покупки】. Список изменений:</>\n<InvDefault>【Улучшение подарочной коробки «Божественное снисхождение»】</>\n<InvDefault>1) Новые награды: базовая вероятность выпадения редких наград из </><InvHighlight>подарочной коробки «Божественное снисхождение» не изменилась, но добавлены купоны бесплатной покупки и различные виды купонов на золотые фунты</><InvDefault>, а при неполучении редкой награды гарантированно выдается определенное количество привязанных сулов.</>\n<InvDefault>2) Изменен способ открытия: </><InvHighlight>подарочные коробки «Божественное снисхождение» теперь открываются вручную, а не автоматически по умолчанию</><InvDefault>.</>\n<InvDefault>3) Потусторонним, выполнившим условия, будет отправлено соответствующее число новых наградных коробок за все открытые на этой неделе коробки «Божественное снисхождение». Они могут содержать купоны бесплатной покупки, купоны на золотые фунты и привязанные сулы. Награды будут доставлены по внутриигровой почте, следите за новыми письмами.</>\n<InvDefault>2. 【Сюжет】</>\n<InvDefault>1) Исправлена ошибка, из-за которой при определенных обстоятельствах сюжетное задание не открывалось вовремя после достижения нужного уровня.</>\n<InvDefault>2) Исправлена ошибка с чрезмерно долгим черным экраном на отдельных этапах сюжетной линии реальности «Хранитель Тингена».</>\n<InvDefault>3) Исправлена редкая ошибка, из-за которой в сюжете реальности «Нарастающий кризис» невозможно было найти Леонарда и Фрая.</>\n<InvDefault>4) Оптимизирован темп пропуска некоторых сюжетных кат-сцен.</>\n<InvDefault>3. 【Подземелья】</>\n<InvDefault>1) Снижен урон от умений при провале механик ловушки Локка Голда и защиты долга в подземелье 【Хроники Черного терновника: Золотой грех】.</>\n<InvDefault>2) Снижен урон монстров в режиме для двоих на высоком и кошмарном уровнях сложности в подземелье 【Театр Утопии】.</>\n<InvDefault>4. Оптимизирована логика работы 【Граммофона】 в 【Транспорте】: если перед спешиванием воспроизведение было приостановлено или выключено, это состояние сохраняется при повторной посадке и не запускается автоматически.</>\n<InvDefault>5. Исправлены звуковые эффекты и анимации движения 【Экипажей】 и 【Конной полиции】 в 【Тингене】.</>\n<InvDefault>6. Исправлена ошибка, из-за которой в особых случаях интерактивные объекты режимов 【Мира Порядка】 (например, 【Каноничные моменты】) исчезали, препятствуя прохождению. Теперь можно вернуться на исходную позицию и завершить режим в обычном порядке.</>\n<InvDefault>7. Исправлена некорректная работа умений Ученика 【Запись】 и 【Странствие】 при нестабильном сетевом соединении.</>"
+    "target_ru": "<InvDefault>1. В рамках бонусной программы «Путь Потустороннего: спасибо, что вы с нами» на этой неделе добавлены новые способы получения 【Купонов бесплатной покупки】. Список изменений:</>\n<InvDefault>【Улучшение подарочной коробки «Божественное снисхождение»】</>\n<InvDefault>1) Новые награды: базовая вероятность выпадения редких наград из </><InvHighlight>подарочной коробки «Божественное снисхождение» не изменилась, но добавлены купоны бесплатной покупки и различные виды купонов на золотые фунты</><InvDefault>, а при неполучении редкой награды гарантированно выдается определенное количество привязанных суле.</>\n<InvDefault>2) Изменен способ открытия: </><InvHighlight>подарочные коробки «Божественное снисхождение» теперь открываются вручную, а не автоматически по умолчанию</><InvDefault>.</>\n<InvDefault>3) Потусторонним, выполнившим условия, будет отправлено соответствующее число новых наградных коробок за все открытые на этой неделе коробки «Божественное снисхождение». Они могут содержать купоны бесплатной покупки, купоны на золотые фунты и привязанные суле. Награды будут доставлены по внутриигровой почте, следите за новыми письмами.</>\n<InvDefault>2. 【Сюжет】</>\n<InvDefault>1) Исправлена ошибка, из-за которой при определенных обстоятельствах сюжетное задание не открывалось вовремя после достижения нужного уровня.</>\n<InvDefault>2) Исправлена ошибка с чрезмерно долгим черным экраном на отдельных этапах сюжетной линии реальности «Хранитель Тингена».</>\n<InvDefault>3) Исправлена редкая ошибка, из-за которой в сюжете реальности «Нарастающий кризис» невозможно было найти Леонарда и Фрая.</>\n<InvDefault>4) Оптимизирован темп пропуска некоторых сюжетных кат-сцен.</>\n<InvDefault>3. 【Подземелья】</>\n<InvDefault>1) Снижен урон от умений при провале механик ловушки Локка Голда и защиты долга в подземелье 【Хроники «Чёрного Терновника»: Золотой грех】.</>\n<InvDefault>2) Снижен урон монстров в режиме для двоих на высоком и кошмарном уровнях сложности в подземелье 【Театр Утопии】.</>\n<InvDefault>4. Оптимизирована логика работы 【Граммофона】 в 【Транспорте】: если перед спешиванием воспроизведение было приостановлено или выключено, это состояние сохраняется при повторной посадке и не запускается автоматически.</>\n<InvDefault>5. Исправлены звуковые эффекты и анимации движения 【Экипажей】 и 【Конной полиции】 в 【Тингене】.</>\n<InvDefault>6. Исправлена ошибка, из-за которой в особых случаях интерактивные объекты режимов 【Мира Порядка】 (например, 【Каноничные моменты】) исчезали, препятствуя прохождению. Теперь можно вернуться на исходную позицию и завершить режим в обычном порядке.</>\n<InvDefault>7. Исправлена некорректная работа умений Ученика 【Запись】 и 【Странствие】 при нестабильном сетевом соединении.</>"
   },
   {
     "id": "078180",
@@ -19035,7 +19035,7 @@
     "id": "078182",
     "source_cn": "<P_Heart>（如果是在黑荆棘附近，或许是神秘学力量在发挥作用呢。）</>",
     "ref_en": "<P_Heart> (If it's near Blackthorn, perhaps mysterious powers are at play.) </>",
-    "target_ru": "<P_Heart> (Если это рядом с Блэкторном, возможно, здесь действуют таинственные силы.) </>"
+    "target_ru": "<P_Heart> (Если это рядом с «Чёрным Терновником», возможно, здесь действуют таинственные силы.) </>"
   },
   {
     "id": "078183",
@@ -19989,7 +19989,7 @@
     "id": "078341",
     "source_cn": "使用后解锁<Highlight>单人社交动作·担忧</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Worry</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Worry</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одиночное социальное действие · Беспокойство</> при использовании; при повторном получении автоматически разлагается на привязанные суле."
   },
   {
     "id": "078342",
@@ -20505,7 +20505,7 @@
     "id": "078427",
     "source_cn": "黑荆棘事件簿4-关卡4-中型僵尸死亡加经验buff",
     "ref_en": "Black Thorn Incident Book 4-Level 4-Medium Zombie Death Add EXP buff",
-    "target_ru": "Книга происшествий «Черный шип» 4-уровень 4-средняя смерть зомби Добавить бафф опыта"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4-уровень 4-средняя смерть зомби Добавить бафф опыта"
   },
   {
     "id": "078428",
@@ -21123,7 +21123,7 @@
     "id": "078530",
     "source_cn": "花费<Highlight>绑定苏勒</>进行配方生产。",
     "ref_en": "Spend <Highlight>Bound Gold Pounds</> to produce the recipe.",
-    "target_ru": "Потратьте <Highlight>Связанных золотых фунтов </>, чтобы получить рецепт."
+    "target_ru": "Потратьте <Highlight>привязанные суле</>, чтобы получить рецепт."
   },
   {
     "id": "078531",
@@ -21321,7 +21321,7 @@
     "id": "078563",
     "source_cn": "【终末猎杀】-巨龙·投影-砸地",
     "ref_en": "[Final Hunt] - Dragon - Projection - Ground Smash",
-    "target_ru": "[Последняя охота] - Дракон - Проекция - Удар по земле"
+    "target_ru": "[Финальная охота] - Дракон - Проекция - Удар по земле"
   },
   {
     "id": "078564",
@@ -21507,7 +21507,7 @@
     "id": "078594",
     "source_cn": "在第一章现实主线中，领取属于黑荆棘新员工的脚踏车",
     "ref_en": "In the Chapter 1 reality main quest, collect the bicycle belonging to a new Blackthorn employee",
-    "target_ru": "В главном квесте реальности главы 1 соберите велосипед, принадлежащий новому сотруднику Чёрный Чертополох."
+    "target_ru": "В главном квесте реальности главы 1 соберите велосипед, принадлежащий новому сотруднику «Чёрного Терновника»."
   },
   {
     "id": "078595",
@@ -22455,7 +22455,7 @@
     "id": "078752",
     "source_cn": "她……她说黑荆棘总是会让她想起她的哥哥，所以就不进来了。",
     "ref_en": "She... she said Blackthorn always reminds her of her brother, so she didn't come in.",
-    "target_ru": "Она... она сказала, что Чёрный Чертополох всегда напоминает ей о брате, поэтому не вошла."
+    "target_ru": "Она... она сказала, что «Чёрный Терновник» всегда напоминает ей о брате, поэтому не вошла."
   },
   {
     "id": "078753",
@@ -23085,7 +23085,7 @@
     "id": "078857",
     "source_cn": "【终末猎杀】-巨龙·投影-左右横扫1",
     "ref_en": "[Final Hunt] - Dragon - Projection - Left/Right Sweep 1",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо 1"
+    "target_ru": "[Финальная охота] — Дракон — Проекция — Взмах влево/вправо 1"
   },
   {
     "id": "078858",
@@ -23739,7 +23739,7 @@
     "id": "078967",
     "source_cn": "黑荆棘·门口马车",
     "ref_en": "Blackthorn · Carriage at the door",
-    "target_ru": "Терновник · Карета у дверей"
+    "target_ru": "«Чёрный Терновник» · Карета у дверей"
   },
   {
     "id": "078968",
@@ -24675,7 +24675,7 @@
     "id": "079123",
     "source_cn": "两张票可真是用了不少钱…也不知还要再多送多少封信，才能攒出下一份4苏勒零8便士…",
     "ref_en": "Two tickets really cost a lot... I don't know how many more letters I'll have to deliver to save up the next 4 shillings and 8 pence...",
-    "target_ru": "Два билета действительно стоят очень дорого... Я не знаю, сколько еще писем мне придется доставить, чтобы накопить следующие 4 шиллинга и 8 пенсов..."
+    "target_ru": "Два билета действительно стоят очень дорого... Я не знаю, сколько еще писем мне придется доставить, чтобы накопить следующие 4 суле и 8 пенсов..."
   },
   {
     "id": "079124",
@@ -25317,7 +25317,7 @@
     "id": "079230",
     "source_cn": "隶属于“黑夜教会”，廷根市值夜者小队队长、黑荆棘安保公司成员。30岁左右。调查韦尔奇和娜娅自杀案时认识克莱恩并邀请他加入值夜者小队，是克莱恩成为非凡者的引路人。最终以生命为代价启用圣遗物阻止邪神降临，保护了廷根。",
     "ref_en": "Affiliated with the 'Church of Evernight', captain of the Tingen Nighthawks squad and a member of the Blackthorn Security Company. Around 30 years old. He met Klein while investigating the suicide case of Welch and Naya and invited him to join the Nighthawks squad. He is the guide who led Klein to become a Beyonder. Ultimately, he sacrificed his life to activate a sealed artifact to prevent the descent of an evil god, protecting Tingen.",
-    "target_ru": "Связан с «Церковью Вечной Ночи», капитан отряда «Тинген Найтхокс» и член охранной компании «Чёрный Чертополох». Около 30 лет. Он встретил Клейн во время расследования дела о самоубийстве Уэлча и Найи и предложил ему присоединиться к отряду «Ночные ястребы». Он проводник, который привел Клейн к тому, чтобы стать Потусторонним. В конце концов, он пожертвовал своей жизнью, чтобы активировать запечатанный артефакт, чтобы предотвратить падение злого бога, защищающего Тингена."
+    "target_ru": "Связан с «Церковью Вечной Ночи», капитан отряда «Тинген Найтхокс» и член охранной компании «Чёрный Терновник». Около 30 лет. Он встретил Клейн во время расследования дела о самоубийстве Уэлча и Найи и предложил ему присоединиться к отряду «Ночные ястребы». Он проводник, который привел Клейн к тому, чтобы стать Потусторонним. В конце концов, он пожертвовал своей жизнью, чтобы активировать запечатанный артефакт, чтобы предотвратить падение злого бога, защищающего Тингена."
   },
   {
     "id": "079231",
@@ -26793,7 +26793,7 @@
     "id": "079477",
     "source_cn": "询问罗塞尔日记",
     "ref_en": "Ask about Roselle's diary",
-    "target_ru": "Спросить о дневнике Розеллы"
+    "target_ru": "Спросить о дневнике Розеля"
   },
   {
     "id": "079478",
@@ -27069,7 +27069,7 @@
     "id": "079523",
     "source_cn": "传送黑荆棘",
     "ref_en": "Teleport to Blackthorn",
-    "target_ru": "Телепортироваться в Чёрный Чертополох"
+    "target_ru": "Телепортироваться в «Чёрный Терновник»"
   },
   {
     "id": "079524",
@@ -27513,7 +27513,7 @@
     "id": "079597",
     "source_cn": "罗塞尔Boss-1&2阶段-知识辉耀-晕眩",
     "ref_en": "Roselle Boss - Phase 1&2 - Knowledge Radiance - Stun",
-    "target_ru": "Босс Розеллы — фазы 1 и 2 — Сияние знаний — Оглушение"
+    "target_ru": "Босс Розеля — фазы 1 и 2 — Сияние знаний — Оглушение"
   },
   {
     "id": "079598",
@@ -27651,7 +27651,7 @@
     "id": "079620",
     "source_cn": "黑荆棘事件簿4笔记武器激光目标筛选3级",
     "ref_en": "Black Thorn Event Book 4 Note Weapon Laser Target Filter Level 3",
-    "target_ru": "Книга событий Black Thorn 4. Примечание. Фильтр лазерной цели для оружия, уровень 3."
+    "target_ru": "Книга событий «Чёрного Терновника» 4. Примечание. Фильтр лазерной цели для оружия, уровень 3."
   },
   {
     "id": "079621",
@@ -28473,13 +28473,13 @@
     "id": "079757",
     "source_cn": "黑荆棘事件簿4-关卡4-权杖冷却buff",
     "ref_en": "Blackthorn Incident Book 4 - Level 4 - Scepter Cooldown Buff",
-    "target_ru": "Книга происшествий в Блэкторне, 4 – уровень 4 – усиление перезарядки скипетра"
+    "target_ru": "Книга происшествий «Чёрного Терновника», 4 – уровень 4 – усиление перезарядки скипетра"
   },
   {
     "id": "079758",
     "source_cn": "黑荆棘推理2",
     "ref_en": "Blackthorn Deduction 2",
-    "target_ru": "Чёрный Чертополох Дедукция 2"
+    "target_ru": "«Чёрный Терновник» Дедукция 2"
   },
   {
     "id": "079759",
@@ -28503,7 +28503,7 @@
     "id": "079762",
     "source_cn": "5200216   黑荆棘安保公司   副本",
     "ref_en": "5200216 Blackthorn Security Company Dungeon",
-    "target_ru": "5200216 Подземелье охранной компании Чёрный Чертополох"
+    "target_ru": "5200216 Подземелье охранной компании «Чёрный Терновник»"
   },
   {
     "id": "079763",
@@ -29103,7 +29103,7 @@
     "id": "079862",
     "source_cn": "铜镜来源于罗塞尔戏剧节签名活动的赠品\\r\\n也可能有其他来源途径\\r\\n市民应该很容易获取",
     "ref_en": "The copper mirror originated from a giveaway at the Roselle Drama Festival. It could also have other sources. It should be quite easy for citizens to obtain.",
-    "target_ru": "Медное зеркало было получено в результате розыгрыша на фестивале драмы в Розелле. У него могут быть и другие источники. Гражданам должно быть довольно легко его получить."
+    "target_ru": "Медное зеркало было получено в результате розыгрыша на фестивале драмы Розеля. У него могут быть и другие источники. Гражданам должно быть довольно легко его получить."
   },
   {
     "id": "079863",
@@ -29679,7 +29679,7 @@
     "id": "079958",
     "source_cn": "聊聊罗塞尔",
     "ref_en": "Talk about Roselle",
-    "target_ru": "Поговорим о Розелле"
+    "target_ru": "Поговорим о Розеле"
   },
   {
     "id": "079959",
@@ -29811,7 +29811,7 @@
     "id": "079980",
     "source_cn": "黑荆棘事件簿4-关卡4-升级表现buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 4 - Upgrade Performance Buff",
-    "target_ru": "Журнал происшествий в Блэкторне 4 – уровень 4 – улучшение производительности"
+    "target_ru": "Журнал происшествий «Чёрного Терновника» 4 – уровень 4 – улучшение производительности"
   },
   {
     "id": "079981",

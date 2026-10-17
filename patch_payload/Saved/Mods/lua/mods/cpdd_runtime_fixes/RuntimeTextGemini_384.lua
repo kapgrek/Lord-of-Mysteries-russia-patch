@@ -9,7 +9,7 @@ return {
     ["[41] Decent Clothes"] = "【41】Приличная одежда",
     ["Doors need to be placed in suitable door frames"] = "Дверь необходимо поместить в подходящий дверной проем",
     ["Switch weapon type."] = "Сменить тип оружия",
-    ["Fiddling with the hands of time, wandering in the shadows of fate, the avatar of deception and pranks—what does this have to do with a crow? \nRepeated acquisition will automatically decompose into Bound Sol ×10000."] = "Передвигать стрелки времени, странствовать в тенях судьбы, воплощение обмана и озорства — какое все это имеет отношение к ворону?\nПовторное получение автоматически распыляется на персональные су ×10000.",
+    ["Fiddling with the hands of time, wandering in the shadows of fate, the avatar of deception and pranks—what does this have to do with a crow? \nRepeated acquisition will automatically decompose into Bound Sol ×10000."] = "Передвигать стрелки времени, странствовать в тенях судьбы, воплощение обмана и озорства — какое все это имеет отношение к ворону?\nПовторное получение автоматически распыляется на привязанные суле ×10000.",
     ["The baboons have hidden the sheet music; don't let them escape!"] = "Павианы спрятали ноты, не дайте им сбежать!",
     ["Spice Stall Owner"] = "Торговец пряностями",
     ["Regional Ranking"] = "Региональный рейтинг",

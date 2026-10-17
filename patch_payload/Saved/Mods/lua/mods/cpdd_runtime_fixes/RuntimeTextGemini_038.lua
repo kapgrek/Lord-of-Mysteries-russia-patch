@@ -197,7 +197,7 @@ return {
     ["You guy, you really <P_Yellow>know how to joke</>..."] = "Парень, ты, <P_Yellow>, действительно умеешь шутить</>...",
     ["Dyeing will be available soon"] = "Окраска скоро будет доступна",
     ["Romantic Murder: The Fatal Love at Golden Autumn Lake"] = "Романтическое убийство: Роковая любовь на озере Золотой Осени",
-    ["Then why did you leave Blackthorn?"] = "Тогда почему ты покинул Чёрный Чертополох?",
+    ["Then why did you leave Blackthorn?"] = "Тогда почему ты покинул «Чёрный Терновник»?",
     ["<Red>Mutation</>: For every 1 point of Life Energy consumed, the bearer accumulates 1 stack of Mutation, reducing movement speed by 5% and defense by 5%. Mutation effects can stack up to 10 times. After exiting combat or standing still, Mutation will gradually dissipate over time. \n<Red>Rejection</>: Every 30 seconds during combat, two random Beyonder material attribute entries become ineffective for 15 seconds."] = "<Red>Мутация</>: за каждую потраченную единицу жизненной энергии тело владельца накапливает 1 уровень мутации, снижая скорость передвижения на 5% и защиту на 5% (эффект суммируется до 10 раз). Вне боя или при неподвижности мутация со временем рассеивается.\n<Red>Отторжение</>: в бою каждые 30 секунд случайные 2 свойства мистической материи временно отключаются на 15 секунд.",
     ["Obtained %d points"] = "Получено баллов %d.",
     ["Arresting me? May I ask why? I have never committed any act against the law."] = "Меня арестовывают? Могу я спросить, почему? Я никогда не совершал никаких действий, противоречащих закону.",

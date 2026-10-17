@@ -235,7 +235,7 @@ return {
     ["Carriage injury buff"] = "Усиление травм от перевозки",
     ["Participating in the dungeon <Highlight>May Manor · Castle (Normal)</> in party mode and completing the stage <Highlight>Offspring Protection</> allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "Участие в подземелье <Highlight>Поместье Мэй · Замок (Обычный)</> в режиме вечеринки и прохождение этапа <Highlight>Защита потомков</> позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие проявления.",
     ["Did you summon me?"] = "Ты вызвал меня?",
-    ["[Final Hunt] - Dragon - Projection - Fly Away Performance"] = "[Последняя охота] - Дракон - Проекция - Представление «Улет»",
+    ["[Final Hunt] - Dragon - Projection - Fly Away Performance"] = "[Финальная охота] - Дракон - Проекция - Представление «Улет»",
     ["This season's phantom projections"] = "Фантомные прогнозы этого сезона",
     ["Masquerade Ball"] = "Бал-маскарад",
     ["Use to obtain <Highlight> Museum Romance Hat </>"] = "Используйте, чтобы получить <Highlight> Музейная романтическая шляпа </>.",

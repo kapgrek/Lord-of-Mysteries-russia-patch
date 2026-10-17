@@ -206,7 +206,7 @@ return {
     ["Right, I remember now!"] = "Точно, теперь я вспомнил!",
     ["Well said, even the water of the Hoy River changes its course. We will make it big one day too!"] = "Хорошо сказано, даже вода реки Хой меняет свое русло. Однажды мы тоже добьемся успеха!",
     ["Arm length"] = "Длина руки",
-    ["Roselle running to Frye waypoint"] = "Розель бежит к путевой точке Фрая",
+    ["Roselle running to Frye waypoint"] = "Розанна бежит к путевой точке Фрая",
     ["If the next stop <LightHighlight> is not the [Winery] </>, obtain <LightHighlight> 50 </> units of <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Cellar-Aged Lafite Red Wine] </>."] = "Если следующей остановкой <LightHighlight> является не [Винодельня] </>, получите <LightHighlight> 50 единиц </> <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\"> [Выдержанный красный «Лафит»] </>.",
     ["Strange... I dug you out of the wreckage... I saw with my own eyes that you had stopped breathing, yet here you are, standing before me perfectly fine..."] = "Странно... Я откопал тебя из-под обломков... Я видел своими глазами, что ты перестал дышать, а ты стоишь передо мной в полном порядке...",
     ["[Rumor] Imperial Flag Health increased by 15%."] = "[Слух] Здоровье Имперского флага увеличено на 15%.",

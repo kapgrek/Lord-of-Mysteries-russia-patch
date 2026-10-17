@@ -15,7 +15,7 @@
     "id": "090002",
     "source_cn": "开启可随机获得一件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 60</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. There is a certain chance to obtain 1 Gray Fog Crystal (used to upgrade level 64 or higher competition brooches to Mythical quality). You can obtain at most 3 per week; unobtained amounts can be accumulated to the following week.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight>уровня 60</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или связанного Солнца. Существует определенный шанс получить 1 Кристалл Серого Тумана (используется для улучшения соревновательных брошей 64-го уровня или выше до мифического качества). Вы можете получить максимум 3 в неделю; неполученные суммы можно накопить до следующей недели."
+    "target_ru": "Откройте для случайного получения одной части <Highlight>уровня 60</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или привязанных суле. Существует определенный шанс получить 1 Кристалл Серого Тумана (используется для улучшения соревновательных брошей 64-го уровня или выше до мифического качества). Вы можете получить максимум 3 в неделю; неполученные суммы можно накопить до следующей недели."
   },
   {
     "id": "090003",
@@ -855,7 +855,7 @@
     "id": "090142",
     "source_cn": "我赌三个苏勒！囤囤的宝藏藏在最粗的树后面！",
     "ref_en": "I bet three soli! The hoarder's treasure is hidden behind the thickest tree!",
-    "target_ru": "Ставлю три соло! Сокровище накопителя спрятано за самым толстым деревом!"
+    "target_ru": "Ставлю три суле! Сокровище накопителя спрятано за самым толстым деревом!"
   },
   {
     "id": "090143",
@@ -939,7 +939,7 @@
     "id": "090156",
     "source_cn": "歌颂罗塞尔大帝",
     "ref_en": "Praise Emperor Roselle",
-    "target_ru": "Слава императору Розелле"
+    "target_ru": "Слава императору Розелю"
   },
   {
     "id": "090157",
@@ -1209,7 +1209,7 @@
     "id": "090201",
     "source_cn": "<Assistant_Title1>【机械迷局】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>进入这座尘封已久的机械小屋，破解它的谜团——在一切崩解之前。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>45级</>后，前往{Location:[廷根(816,1138)]|-18412;13849;-1958;2;5200002;0}可触发任务。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒等",
     "ref_en": "<Assistant_Title1>【Mechanical Mystery】</>\\n<Assistant_Title2>Quest Type:</><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description:</>Enter this long-sealed mechanical hut and solve its mystery—before everything collapses.\\n<Assistant_Title2>How to Accept:</>After reaching <Assistant_Red>Level 45</> in Acting, head to {Location:[Tingen(816,1138)]|-18412;13849;-1958;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards:</>Cognition EXP, Bound Soule, etc.",
-    "target_ru": "<Assistant_Title1>【Механическая тайна】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Войдите в эту пыльную механическую кабину и разгадайте ее тайну - прежде, чем все рухнет. \n<Assistant_Title2>Как получить: </>После того, как ваш игровой уровень достигнет <Assistant_Red>45</>, перейдите в {Location:[Tinggen(816,1138)]|-18412;13849;-1958;2;5200002;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за задание</>: познавательный опыт, связывание Сулера и т. д."
+    "target_ru": "<Assistant_Title1>【Механическая тайна】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Войдите в эту пыльную механическую кабину и разгадайте ее тайну - прежде, чем все рухнет. \n<Assistant_Title2>Как получить: </>После того, как ваш игровой уровень достигнет <Assistant_Red>45</>, перейдите в {Location:[Tinggen(816,1138)]|-18412;13849;-1958;2;5200002;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за задание</>: познавательный опыт, привязанные суле и т. д."
   },
   {
     "id": "090202",
@@ -1251,7 +1251,7 @@
     "id": "090208",
     "source_cn": "【终末猎杀】-巨龙·投影-火法轰炸-结束AOE",
     "ref_en": "[Final Hunt] - Dragon - Projection - Fire Bombardment - Ending AOE",
-    "target_ru": "[Последняя охота] - Дракон - Проекция - Огненная бомбардировка - Концовка по площади"
+    "target_ru": "[Финальная охота] - Дракон - Проекция - Огненная бомбардировка - Концовка по площади"
   },
   {
     "id": "090209",
@@ -1509,7 +1509,7 @@
     "id": "090251",
     "source_cn": "开启可随机获得一件<Highlight>25装等</>的<Highlight>竞技倾向</>紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 25</> <Highlight>Competition-oriented</> purple-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. \\n\\n<Highlight>Conversion limit</>: Can be converted into a maximum of <Highlight>10</> Secret Treasures; progress exceeding this will be <Highlight>automatically stored</>, and will be <Highlight>converted into new Secret Treasures</> once the new level's Secret Treasures are unlocked.",
-    "target_ru": "При открытии случайным образом даёт фиолетовое снаряжение <Highlight>25-го уровня</> <Highlight>(соревновательного типа)</>, потусторонние материалы, факторы схождения или персональные сули.\n\n<Highlight>Лимит преобразования</>: преобразуется максимум в <Highlight>10</> тайных сокровищ; избыточный прогресс будет <Highlight>сохранён автоматически</> и <Highlight>превратится в новые сокровища</> после открытия сокровищ более высокого уровня снаряжения."
+    "target_ru": "При открытии случайным образом даёт фиолетовое снаряжение <Highlight>25-го уровня</> <Highlight>(соревновательного типа)</>, потусторонние материалы, факторы схождения или привязанные суле.\n\n<Highlight>Лимит преобразования</>: преобразуется максимум в <Highlight>10</> тайных сокровищ; избыточный прогресс будет <Highlight>сохранён автоматически</> и <Highlight>превратится в новые сокровища</> после открытия сокровищ более высокого уровня снаряжения."
   },
   {
     "id": "090252",
@@ -1929,7 +1929,7 @@
     "id": "090321",
     "source_cn": "<Highlight>刺杀齐林格斯</>：受阿尔杰的委托，奥黛丽联合佛尔思、休一同调查“飓风中将”齐林格斯。后来，奥黛丽在舞会上识破其伪装，成功阻止他刺杀尼根公爵的计划。最终齐林格斯在逃亡途中被阿兹克截杀，他持有的非凡物品“蠕动的饥饿”被转赠给克莱恩。",
     "ref_en": "<Highlight>Assassinate Xilings</>: Commissioned by Alger, Audrey joined forces with Fors and Xio to investigate the 'Admiral of Hurricane' Xilings. Later, Audrey saw through his disguise at a ball and successfully prevented his plan to assassinate Duke Negan. Eventually, Xilings was intercepted and killed by Azik while fleeing, and the Beyonder item he held, 'Creeping Hunger', was gifted to Klein.",
-    "target_ru": "<Highlight>Убить Силинга </>: По поручению Алджера Одри объединила усилия с Форсом и Ксио, чтобы расследовать действия «Адмирала урагана» Силинга. Позже Одри разглядела его маскировку на балу и успешно предотвратила его план убийства герцога Нигана. В конце концов, Силингс был перехвачен и убит Азиком во время бегства, а предмет Потустороннего, который он держал, «Ползучий голод», был подарен Клейну."
+    "target_ru": "<Highlight>Убить Силинга </>: По поручению Элджера Одри объединила усилия с Форсом и Ксио, чтобы расследовать действия «Адмирала урагана» Силинга. Позже Одри разглядела его маскировку на балу и успешно предотвратила его план убийства герцога Нигана. В конце концов, Силингс был перехвачен и убит Азиком во время бегства, а предмет Потустороннего, который он держал, «Ползучий голод», был подарен Клейну."
   },
   {
     "id": "090322",
@@ -2559,7 +2559,7 @@
     "id": "090426",
     "source_cn": "记录着晋升至序列4的魔药配方的羊皮纸，消化进度达到一定程度后由黑荆棘安保公司提供给活跃成员。",
     "ref_en": "A parchment recording the potion formula for advancement to Sequence 4, provided by the Blackthorn Security Company to active members after reaching a certain level of digestion progress.",
-    "target_ru": "Пергамент с формулой зелья для перехода к Последовательности 4, предоставляемый Охранной компанией Чёрный Чертополох активным членам после достижения определенного уровня пищеварения."
+    "target_ru": "Пергамент с формулой зелья для перехода к Последовательности 4, предоставляемый Охранной компанией «Чёрный Терновник» активным членам после достижения определенного уровня пищеварения."
   },
   {
     "id": "090427",
@@ -3465,7 +3465,7 @@
     "id": "090578",
     "source_cn": "使用后可获得<Highlight>对应展台组件</>\\n若已拥有此外观，则可选择分解获得3万绑定苏勒",
     "ref_en": "Use to obtain <Highlight> corresponding display stand component </>. \\n If you already own this appearance, you may choose to dismantle it to obtain 30,000 Bound Soles.",
-    "target_ru": "При использовании даёт <Highlight>соответствующий элемент витрины</>\nЕсли данный облик уже открыт, его можно распылить на 30 000 персональных сулей"
+    "target_ru": "При использовании даёт <Highlight>соответствующий элемент витрины</>\nЕсли данный облик уже открыт, его можно распылить на 30 000 привязанных суле"
   },
   {
     "id": "090579",
@@ -4095,7 +4095,7 @@
     "id": "090683",
     "source_cn": "<Assistant_Title1>【世界灾厄】</>\\n<Assistant_Title2>玩法说明：</>世界灾厄是周期性出现的世界级首领<Assistant_System>斯蒂姆之心</>。拥有独特的机制与奖励。\\n<Assistant_Title2>参与方式：</>非凡者在<Assistant_Red>20级</>后，通过<Assistant_System>菜单-世界冒险-世界灾厄</>参与。每天12:00到24:00开放，推荐组队前往。每天<Assistant_Red>20:00~21:00</>参与可额外获得积分奖励。\\n<Assistant_Title2>玩法奖励：</>每周进度积分奖励（每周重置），达到指定积分档位可领取<Assistant_System>世界冒险宝箱、绑定苏勒、非凡物质、蓝山晶石、星币</>等奖励。",
     "ref_en": "<Assistant_Title1>【World Calamity】</>\\n<Assistant_Title2> Gameplay Description: </> World Calamity is a periodic world-level boss, <Assistant_System>Heart of Steam</>. It has unique mechanics and rewards.\\n<Assistant_Title2> How to Participate: </> After reaching <Assistant_Red>Level 20</>, Beyonders can participate via <Assistant_System>Menu - World Adventure - World Calamity</>. It is open daily from 12:00 to 24:00, and teaming up is recommended. Participating daily from <Assistant_Red>20:00 to 21:00</> grants additional point rewards.\\n<Assistant_Title2> Gameplay Rewards: </> Weekly progress point rewards (reset weekly). Reaching specified point tiers allows you to claim <Assistant_System>World Adventure Chests, Bound Gold Pounds, Beyonder Materials, Blue Mountain Crystals, Star Coins,</> etc.",
-    "target_ru": "<Assistant_Title1>【Мировое бедствие】</>\n<Assistant_Title2>Описание режима: </>Мировое бедствие — это периодически появляющийся мировой босс <Assistant_System>Сердце Пара</> с уникальными механиками и наградами.\n<Assistant_Title2>Как участвовать: </>Потусторонние, достигшие <Assistant_Red>20-го уровня</>, могут перейти в <Assistant_System>Меню — Мировые приключения — Мировое бедствие</>. Босс доступен ежедневно с 12:00 до 24:00, рекомендуется идти группой. Участие ежедневно с <Assistant_Red>20:00 до 21:00</> приносит дополнительные очки.\n<Assistant_Title2>Награды режима: </>Еженедельные награды за шкалу очков (сбрасываются каждый понедельник). При достижении определённых этапов очков выдаются <Assistant_System>сундуки мировых приключений, персональные сули, потусторонние материалы, кристаллы Голубой горы, звёздные монеты</> и др."
+    "target_ru": "<Assistant_Title1>【Мировое бедствие】</>\n<Assistant_Title2>Описание режима: </>Мировое бедствие — это периодически появляющийся мировой босс <Assistant_System>Сердце Пара</> с уникальными механиками и наградами.\n<Assistant_Title2>Как участвовать: </>Потусторонние, достигшие <Assistant_Red>20-го уровня</>, могут перейти в <Assistant_System>Меню — Мировые приключения — Мировое бедствие</>. Босс доступен ежедневно с 12:00 до 24:00, рекомендуется идти группой. Участие ежедневно с <Assistant_Red>20:00 до 21:00</> приносит дополнительные очки.\n<Assistant_Title2>Награды режима: </>Еженедельные награды за шкалу очков (сбрасываются каждый понедельник). При достижении определённых этапов очков выдаются <Assistant_System>сундуки мировых приключений, привязанные суле, потусторонние материалы, кристаллы Голубой горы, звёздные монеты</> и др."
   },
   {
     "id": "090684",
@@ -5541,7 +5541,7 @@
     "id": "090926",
     "source_cn": "5230009   黑荆棘安保公司   位面",
     "ref_en": "5230009 Blackthorn Security Company - Plane",
-    "target_ru": "5230009 Охранное предприятие Чёрный Чертополох - Самолет"
+    "target_ru": "5230009 Охранная компания «Чёрный Терновник» - Плоскость"
   },
   {
     "id": "090927",
@@ -6063,7 +6063,7 @@
     "id": "091013",
     "source_cn": "终末猎杀-禁止使用种子区域",
     "ref_en": "Final Hunt - Seed Forbidden Zone",
-    "target_ru": "Последняя охота — Запретная зона семян"
+    "target_ru": "Финальная охота — Запретная зона семян"
   },
   {
     "id": "091014",
@@ -6165,7 +6165,7 @@
     "id": "091030",
     "source_cn": "这是第几次了？！上次是玫瑰，上上次是蜡烛，这次又是什么？你以为自己是罗塞尔大帝写的情诗男主角吗？！",
     "ref_en": "How many times is this?! Last time it was roses, the time before that it was candles, what is it this time? Do you think you're the male lead of a romance novel written by Emperor Roselle?!",
-    "target_ru": "Сколько раз это?! В прошлый раз это были розы, в прошлый раз — свечи, а что на этот раз? Думаешь, ты главный герой любовного романа, написанного императором Розеллой?!"
+    "target_ru": "Сколько раз это?! В прошлый раз это были розы, в прошлый раз — свечи, а что на этот раз? Думаешь, ты главный герой любовного романа, написанного императором Розелем?!"
   },
   {
     "id": "091031",
@@ -6231,7 +6231,7 @@
     "id": "091041",
     "source_cn": "黑荆棘事件簿4-关卡4-快速僵尸死亡加经验buff",
     "ref_en": "Black Thorn Incident Book 4-Level 4-Fast Zombie Death Add EXP buff",
-    "target_ru": "Книга происшествий «Черный Шип» 4 уровня 4 быстрой смерти зомби Добавить бафф опыта"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — Уровень 4 — Бафф опыта за смерть быстрых зомби"
   },
   {
     "id": "091042",
@@ -6321,7 +6321,7 @@
     "id": "091056",
     "source_cn": "【终末猎杀】-巨龙·投影-飞走表演",
     "ref_en": "[Final Hunt] - Dragon - Projection - Fly Away Performance",
-    "target_ru": "[Последняя охота] - Дракон - Проекция - Представление «Улет»"
+    "target_ru": "[Финальная охота] - Дракон - Проекция - Представление «Улет»"
   },
   {
     "id": "091057",
@@ -6333,7 +6333,7 @@
     "id": "091058",
     "source_cn": "中央广场至黑荆棘",
     "ref_en": "Central Plaza to Blackthorn",
-    "target_ru": "Центральная площадь до Блэкторна"
+    "target_ru": "Центральная площадь до «Чёрного Терновника»"
   },
   {
     "id": "091059",
@@ -6663,7 +6663,7 @@
     "id": "091113",
     "source_cn": "张宸铭-黑荆棘4-玩法机关",
     "ref_en": "Zhang Chenming - Blackthorn 4 - Gameplay Mechanism",
-    "target_ru": "Чжан Ченмин - Чёрный Чертополох 4 - Механизм игрового процесса"
+    "target_ru": "Чжан Ченмин - «Чёрный Терновник» 4 - Механизм игрового процесса"
   },
   {
     "id": "091114",
@@ -6987,7 +6987,7 @@
     "id": "091168",
     "source_cn": "罗塞尔日记攻防",
     "ref_en": "Roselle's Diary Attack/Defense",
-    "target_ru": "Дневник Розеллы Атака/Защита"
+    "target_ru": "Дневник Розеля Атака/Защита"
   },
   {
     "id": "091169",
@@ -7905,7 +7905,7 @@
     "id": "091321",
     "source_cn": "黑荆棘事件簿4-关卡2-法术场维持buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Spell Field Maintenance buff",
-    "target_ru": "Книга происшествий с Черным шипом, 4 уровня, 2 заклинания, усиление полевого обслуживания"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — Уровень 2 — Бафф поддержания поля заклинаний"
   },
   {
     "id": "091322",
@@ -8547,7 +8547,7 @@
     "id": "091428",
     "source_cn": "罗塞尔大帝的残留意志……不太对劲。",
     "ref_en": "Emperor Roselle's residual will... something is not right.",
-    "target_ru": "Остаточная воля императора Розеллы... что-то не так."
+    "target_ru": "Остаточная воля императора Розеля... что-то не так."
   },
   {
     "id": "091429",
@@ -8739,7 +8739,7 @@
     "id": "091460",
     "source_cn": "5230239   黑荆棘安保公司   位面",
     "ref_en": "5230239 Blackthorn Security Company Plane",
-    "target_ru": "5230239 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230239 Плоскость охранной компании «Чёрный Терновник»"
   },
   {
     "id": "091461",
@@ -9291,13 +9291,13 @@
     "id": "091552",
     "source_cn": "绑定苏勒",
     "ref_en": "Bound Soule",
-    "target_ru": "Связанная душа"
+    "target_ru": "Привязанные суле"
   },
   {
     "id": "091553",
     "source_cn": "绑定苏勒不足,无法切换领域类型。",
     "ref_en": "Insufficient bound Sol; cannot switch domain type.",
-    "target_ru": "Недостаточное количество связанных Сол; не могу переключить тип домена."
+    "target_ru": "Недостаточно привязанных суле; невозможно переключить тип домена."
   },
   {
     "id": "091554",
@@ -10911,7 +10911,7 @@
     "id": "091822",
     "source_cn": "黑荆棘接到委托，廷根中央广场出现了来历不明的金雨。背后有着一双资本家的手在暗自操控着一切——他压榨工人，设立“斩杀线”淘汰完不成定额的人。黄金无罪。有罪的，是把黄金当成神明的人，而你是解开这场悲剧的关键。",
     "ref_en": "Blackthorn received a commission: mysterious golden rain has appeared in Tingen's Central Plaza. Behind it, a capitalist's hand is secretly manipulating everything—he exploits workers and sets a \"slaughter line\" to eliminate those who cannot complete their quotas. Gold is innocent. What is guilty are those who treat gold as a god, and you are the key to unraveling this tragedy.",
-    "target_ru": "Чёрный Чертополох получил заказ: на Центральной площади Тингена пошел загадочный золотой дождь. За этим всем тайно манипулирует рука капиталиста: он эксплуатирует рабочих и устанавливает «линию убоя», чтобы устранить тех, кто не может выполнить свои нормы. Золото невинно. Виновны те, кто относится к золоту как к богу, а вы — ключ к разгадке этой трагедии."
+    "target_ru": "«Чёрный Терновник» получил заказ: на Центральной площади Тингена пошел загадочный золотой дождь. За этим всем тайно манипулирует рука капиталиста: он эксплуатирует рабочих и устанавливает «линию убоя», чтобы устранить тех, кто не может выполнить свои нормы. Золото невинно. Виновны те, кто относится к золоту как к богу, а вы — ключ к разгадке этой трагедии."
   },
   {
     "id": "091823",
@@ -10989,7 +10989,7 @@
     "id": "091835",
     "source_cn": "“绑定苏勒”不足，无法一键聚合",
     "ref_en": "Insufficient \"Bound Soule\", cannot aggregate with one tap",
-    "target_ru": "Недостаточно «Связанной души», невозможно объединить одним нажатием."
+    "target_ru": "Недостаточно «привязанных суле», невозможно объединить одним нажатием."
   },
   {
     "id": "091837",
@@ -11055,7 +11055,7 @@
     "id": "091847",
     "source_cn": "你与弗莱队长离开安全屋，突破重重阻拦赶往中央广场，见到绯红满月降临，献祭仪式开始，异变市民化为洪流被吞噬。在神秘女士贝尔纳黛的指引下，你们进入各个隐藏空间收集罗塞尔的残存意志——故乡、女儿、时代，大帝的残存意志苏醒，一击打破污染屏障，你们趁势摧毁绝望魔镜，打断了献祭，伦纳德在停滞的时间中救下众人，再一次拯救廷根。然而调查报告揭示，月亮仆从的势力未被根除，五月庄园的邪神子嗣仍在孕育，真正的危机尚未解除……",
     "ref_en": "You and Captain Frye leave the safe house, break through numerous obstacles, and rush to Central Plaza, where you see the crimson full moon descend and the Sacrifice Ritual begin, with mutated citizens turning into a torrent and being swallowed. Under the guidance of the mysterious lady Bernadette, you enter various hidden spaces to collect Roselle's residual will—hometown, daughter, era. The Emperor's residual will awakens, breaking the corruption barrier with one strike. You take the opportunity to destroy the Magic Mirror of Despair, interrupting the sacrifice. Leonard saves everyone in the stagnant time, saving Tingen once again. However, the investigation report reveals that the forces of the Moon Servant have not been eradicated, the offspring of the evil god in May Manor is still gestating, and the true crisis has not yet been resolved...",
-    "target_ru": "Вы и капитан Фрай покидаете убежище, преодолеваете многочисленные препятствия и мчитесь к Центральной площади, где вы видите, как опускается малиновая полная луна и начинается ритуал жертвоприношения, когда мутировавшие граждане превращаются в поток и поглощаются. Под руководством таинственной леди Бернадетт вы входите в различные потайные места, чтобы собрать оставшуюся волю Розеллы — родной город, дочь, эпоху. Остаточная воля Императора пробуждается, преодолевая коррупционный барьер одним ударом. Вы пользуетесь возможностью уничтожить Волшебное Зеркало Отчаяния, прервав жертвоприношение. Леонард спасает всех в застоявшееся время, в очередной раз спасая Тингена. Однако отчет о расследовании показывает, что силы Лунного Слуги не были уничтожены, потомство злого бога в Мэй-Мэноре все еще вынашивается, а настоящий кризис еще не разрешен..."
+    "target_ru": "Вы и капитан Фрай покидаете убежище, преодолеваете многочисленные препятствия и мчитесь к Центральной площади, где вы видите, как опускается малиновая полная луна и начинается ритуал жертвоприношения, когда мутировавшие граждане превращаются в поток и поглощаются. Под руководством таинственной леди Бернадетт вы входите в различные потайные места, чтобы собрать оставшуюся волю Розеля — родной город, дочь, эпоху. Остаточная воля Императора пробуждается, преодолевая коррупционный барьер одним ударом. Вы пользуетесь возможностью уничтожить Волшебное Зеркало Отчаяния, прервав жертвоприношение. Леонард спасает всех в застоявшееся время, в очередной раз спасая Тингена. Однако отчет о расследовании показывает, что силы Лунного Слуги не были уничтожены, потомство злого бога в Мэй-Мэноре все еще вынашивается, а настоящий кризис еще не разрешен..."
   },
   {
     "id": "091848",
@@ -11499,7 +11499,7 @@
     "id": "091922",
     "source_cn": "致命的再会-黑荆棘位面入口",
     "ref_en": "Fatal Reunion-Blackthorn Plane Entrance",
-    "target_ru": "Фатальное воссоединение — вход в самолет Чёрный Чертополох"
+    "target_ru": "Фатальное воссоединение — вход в самолет «Чёрный Терновник»"
   },
   {
     "id": "091923",
@@ -11667,7 +11667,7 @@
     "id": "091950",
     "source_cn": "<Assistant_Title1>【加入黑荆棘】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>在明亮的咖啡厅醒来，眼前是一位贵族少女，和一只……金毛大狗？\\n<Assistant_Title2>领取方式：</>第一赛季第一天解锁。完成序章《一切的起始》，且扮演等级达到<Assistant_Red>9级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、值夜典袍、脚踏车·胡桃、社交·下班休息、装备、秘晶·归来、初级生命纯露、精致钱包",
     "ref_en": "<Assistant_Title1>【Join Blackthorn】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Main Story (Reality)</>\\n<Assistant_Title2>Quest Description: </>Waking up in a bright cafe, before your eyes is a noble young lady and a... golden retriever?\\n<Assistant_Title2>How to Accept: </>Unlocked on the first day of the first season. Automatically accepted after completing the prologue \"The Beginning of Everything\" and reaching Acting Level <Assistant_Red>9</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Nighthawk Robe, Bicycle·Walnut, Social·Get off work, Equipment, Secret Crystal·Return, Beginner Health Potion, Exquisite Wallet",
-    "target_ru": "<Assistant_Title1>【Вступление в «Чёрный шиповник»】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет (реальность)</>\n<Assistant_Title2>Описание задания: </>Очнувшись в светлом кафе, вы видите перед собой юную аристократку и... огромного золотистого ретривера?\n<Assistant_Title2>Как принять: </>Открывается в первый день 1-го сезона. Принимается автоматически после завершения пролога «Начало всего» и достижения <Assistant_Red>9-го уровня</> Отыгрыша.\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные соли, привязанные золотые фунты, мантия Ночного Ястреба, велосипед «Орех», жест общения «После работы», снаряжение, тайный кристалл «Возвращение», малый эликсир жизни, изящный кошелёк"
+    "target_ru": "<Assistant_Title1>【Вступление в «Чёрный Терновник»】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Основной сюжет (реальность)</>\n<Assistant_Title2>Описание задания: </>Очнувшись в светлом кафе, вы видите перед собой юную аристократку и... огромного золотистого ретривера?\n<Assistant_Title2>Как принять: </>Открывается в первый день 1-го сезона. Принимается автоматически после завершения пролога «Начало всего» и достижения <Assistant_Red>9-го уровня</> Отыгрыша.\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, привязанные золотые фунты, мантия Ночного Ястреба, велосипед «Орех», жест общения «После работы», снаряжение, тайный кристалл «Возвращение», малый эликсир жизни, изящный кошелёк"
   },
   {
     "id": "091951",
@@ -11763,13 +11763,13 @@
     "id": "091969",
     "source_cn": "人脉话题-阿尔杰5关于航海冒险",
     "ref_en": "Connection Topic - Alger 5: About Nautical Adventures",
-    "target_ru": "Тема подключения - Алжир 5: О морских приключениях"
+    "target_ru": "Тема подключения - Элджер 5: О морских приключениях"
   },
   {
     "id": "091970",
     "source_cn": "伙伴-阿尔杰·威尔逊-驭浪",
     "ref_en": "Partner - Alger Wilson - Wave Riding",
-    "target_ru": "Партнер - Алджер Уилсон - Верховая езда на волнах"
+    "target_ru": "Партнер - Элджер Уилсон - Верховая езда на волнах"
   },
   {
     "id": "091971",
@@ -12135,7 +12135,7 @@
     "id": "092031",
     "source_cn": "海报邮票明信片，赞美罗塞尔大帝！",
     "ref_en": "Posters, stamps, postcards—praise Emperor Roselle!",
-    "target_ru": "Плакаты, марки, открытки — слава императору Розелле!"
+    "target_ru": "Плакаты, марки, открытки — слава императору Розелю!"
   },
   {
     "id": "092032",
@@ -12429,7 +12429,7 @@
     "id": "092080",
     "source_cn": "<P_Heart>（报告给值夜者……等下，这里去黑荆棘来回要30分钟，万一事情恶化……）</>",
     "ref_en": "<P_Heart>(Report to the Nighthawks... wait, it takes 30 minutes to go to Blackthorn and back, what if things get worse...)</>",
-    "target_ru": "<P_Heart>(Сообщите Ночным Ястребам... подождите, дорога до Блэкторна и обратно занимает 30 минут, что, если ситуация ухудшится...)</>"
+    "target_ru": "<P_Heart>(Сообщите Ночным Ястребам... подождите, дорога до «Чёрного Терновника» и обратно занимает 30 минут, что, если ситуация ухудшится...)</>"
   },
   {
     "id": "092081",
@@ -13137,7 +13137,7 @@
     "id": "092198",
     "source_cn": "阿罗德斯悄悄抛给你%s俱乐部贡献，%s绑定苏勒",
     "ref_en": "Alger Wilson quietly tossed you %s club contribution and %s bound Pounds.",
-    "target_ru": "Алджер Уилсон незаметно бросил вам вклад в клуб %s и фунты, связанные с %s."
+    "target_ru": "Ародес незаметно подбросил вам %s вклада в клуб и %s привязанных суле."
   },
   {
     "id": "092199",
@@ -13905,7 +13905,7 @@
     "id": "092326",
     "source_cn": "阅读第二页罗塞尔日记",
     "ref_en": "Read the second page of Roselle's diary",
-    "target_ru": "Прочтите вторую страницу дневника Розеллы."
+    "target_ru": "Прочтите вторую страницу дневника Розеля."
   },
   {
     "id": "092327",
@@ -14547,7 +14547,7 @@
     "id": "092433",
     "source_cn": "罗塞尔Boss-1&2阶段-镜像数据-护盾减伤80%",
     "ref_en": "Roselle Boss - Stages 1 & 2 - Mirror Data - Shield Damage Reduction 80%",
-    "target_ru": "Босс Розеллы — этапы 1 и 2 — зеркальные данные — уменьшение урона по щиту на 80 %"
+    "target_ru": "Босс Розеля — этапы 1 и 2 — зеркальные данные — уменьшение урона по щиту на 80 %"
   },
   {
     "id": "092434",
@@ -15375,7 +15375,7 @@
     "id": "092572",
     "source_cn": "罗塞尔大帝的诗集，被放在最显眼的位置。",
     "ref_en": "Emperor Roselle's poetry collection, placed in the most conspicuous position.",
-    "target_ru": "Сборник стихов императора Розелле, помещенный на самое видное место."
+    "target_ru": "Сборник стихов императора Розеля, помещенный на самое видное место."
   },
   {
     "id": "092573",
@@ -16209,7 +16209,7 @@
     "id": "092713",
     "source_cn": "罗塞尔的残存意志1",
     "ref_en": "Roselle's Residual Will 1",
-    "target_ru": "Остаточная воля Розеллы 1"
+    "target_ru": "Остаточная воля Розеля 1"
   },
   {
     "id": "092714",
@@ -17547,7 +17547,7 @@
     "id": "092937",
     "source_cn": "成就-黑荆棘安保公司",
     "ref_en": "Achievement: Blackthorn Security Company",
-    "target_ru": "Достижение: Охранная компания Чёрный Чертополох"
+    "target_ru": "Достижение: Охранная компания «Чёрный Терновник»"
   },
   {
     "id": "092938",
@@ -18057,7 +18057,7 @@
     "id": "093022",
     "source_cn": "亲爱的非凡者：\\n    “势力战”已经拉开帷幕，通过对您俱乐部的综合评判，星星高原战场静候您的到来。\\n    请及时在以战养战-势力-高原战界面查看赛程赛制，准时报名参与。\\n    参与高原战，即可收获人脉和秘偶抽取道具、苏勒分红、战场称号等馈赠。\\n    愿您在四皇注视下主宰战场，稍后再见！",
     "ref_en": "Dear Beyonder: \\n    The \"Faction War\" has begun. Based on a comprehensive evaluation of your Club, the Star Plateau battlefield awaits your arrival. \\n    Please check the schedule and rules in the War-by-War - Faction - Plateau War interface in time and sign up to participate on time. \\n    Participate in the Plateau War to receive gifts such as connections, marionette drawing items, Sol dividends, and battlefield titles. \\n    May you dominate the battlefield under the gaze of the Four Emperors, see you later!",
-    "target_ru": "Уважаемый Потусторонний!\n    «Война фракций» началась! По результатам комплексной оценки вашего клуба поле боя Звёздного плато ждёт вашего прибытия.\n    Пожалуйста, своевременно ознакомьтесь с расписанием и правилами в меню «Война войной — Фракция — Битва на плато» и вовремя подайте заявку на участие.\n    Участвуя в Битве на плато, вы сможете получить знакомства, предметы призыва марионеток, дивиденды в солях, боевые титулы и другие награды.\n    Да возобладаете вы на поле боя под взором Четырёх Императоров! До скорой встречи!"
+    "target_ru": "Уважаемый Потусторонний!\n    «Война фракций» началась! По результатам комплексной оценки вашего клуба поле боя Звёздного плато ждёт вашего прибытия.\n    Пожалуйста, своевременно ознакомьтесь с расписанием и правилами в меню «Война войной — Фракция — Битва на плато» и вовремя подайте заявку на участие.\n    Участвуя в Битве на плато, вы сможете получить знакомства, предметы призыва марионеток, дивиденды в суле, боевые титулы и другие награды.\n    Да возобладаете вы на поле боя под взором Четырёх Императоров! До скорой встречи!"
   },
   {
     "id": "093023",
@@ -18915,7 +18915,7 @@
     "id": "093165",
     "source_cn": "子爵夫人boss战，黑荆棘成员并肩作战",
     "ref_en": "Viscountess boss fight, Nighthawks fight side by side",
-    "target_ru": "Битва с боссом виконтессы, Ночные ястребы сражаются плечом к плечу"
+    "target_ru": "Битва с боссом виконтессы, члены «Чёрного Терновника» сражаются плечом к плечу"
   },
   {
     "id": "093166",
@@ -19059,7 +19059,7 @@
     "id": "093189",
     "source_cn": "打赏1苏勒",
     "ref_en": "Tip 1 Soule",
-    "target_ru": "Совет 1 Соул"
+    "target_ru": "Чаевые 1 суле"
   },
   {
     "id": "093190",
@@ -19389,7 +19389,7 @@
     "id": "093244",
     "source_cn": "黑夜女神教会值夜者，黑荆棘安保公司成员，黑荆棘值夜小队队长。",
     "ref_en": "Member of the Church of the Evernight Goddess, member of the Blackthorn Security Company, and captain of the Blackthorn Nighthawk team.",
-    "target_ru": "Член Церкви Богини Вечной Ночи, член Охранной компании Чёрный Чертополох и капитан команды Чёрный Чертополох Ночной Ястреб."
+    "target_ru": "Член Церкви Богини Вечной Ночи, член Охранной компании «Чёрный Терновник» и капитан команды «Чёрный Терновник» Ночной Ястреб."
   },
   {
     "id": "093245",
@@ -19971,7 +19971,7 @@
     "id": "093342",
     "source_cn": "罗珊归",
     "ref_en": "Roselle Returns",
-    "target_ru": "Розель возвращается"
+    "target_ru": "Розанна возвращается"
   },
   {
     "id": "093343",
@@ -21921,7 +21921,7 @@
     "id": "093668",
     "source_cn": "你当前没有可提取的苏勒。",
     "ref_en": "You currently have no Sol to withdraw.",
-    "target_ru": "В настоящее время у вас нет Сол, которые можно было бы вывести."
+    "target_ru": "В настоящее время у вас нет суле, которые можно было бы вывести."
   },
   {
     "id": "093669",
@@ -22347,7 +22347,7 @@
     "id": "093739",
     "source_cn": "罗塞尔的残存意志3",
     "ref_en": "Roselle's Residual Will 3",
-    "target_ru": "Остаточная воля Розеллы 3"
+    "target_ru": "Остаточная воля Розеля 3"
   },
   {
     "id": "093740",
@@ -23619,7 +23619,7 @@
     "id": "093953",
     "source_cn": "开启可随机获得一件<Highlight>64装等</>或<Highlight>65装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly receive one piece of <Highlight>Item Level 64</> or <Highlight>Item Level 65</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight>Item Level 64</> или <Highlight>Item Level 65</> <Highlight>Приключенческого </> Снаряжения оранжевого или золотого качества, материалов Потусторонний, Факторов агрегации и Привязанной души."
+    "target_ru": "Открыв, вы случайным образом получите одну вещь оранжевого или золотого качества с уровнем снаряжения <Highlight>64</> или <Highlight>65</> и <Highlight>приключенческим уклоном</>, а также потусторонние материалы, факторы схождения и привязанные суле."
   },
   {
     "id": "093954",
@@ -23871,7 +23871,7 @@
     "id": "093995",
     "source_cn": "终末猎杀·新生猎手",
     "ref_en": "Final Hunt · New Hunter",
-    "target_ru": "Последняя охота · Новый охотник"
+    "target_ru": "«Финальная охота» · Новый охотник"
   },
   {
     "id": "093996",
@@ -24111,7 +24111,7 @@
     "id": "094036",
     "source_cn": "<Title>神选席位</>\\n战略服势力对战阶段，神选席位由<Highlight>每周排名结算席位</>与<Highlight>最终排名结算席位</>共同组成。每周将根据战略服各势力的周排名，以及俱乐部在所属势力内的排名发放席位，排名越高，可获得的席位越多；战略服结算时，将根据各势力的最终排名，为势力内俱乐部发放最终排名结算席位。俱乐部获得的神选席位由俱乐部管理在俱乐部内部分配。\\n\\n<Title>奖励内容</>\\n神选奖励包括<Highlight>战略服专属外观奖励、养成道具、苏勒、绑定金镑</>等。\\n\\n<Title>限时神降</>\\n战略服结算时，最终排名第一的势力中，四个俱乐部的<Highlight>会长、副会长、理事</>可获得限时30天的神降时装<Highlight>铁与血之歌</>。\\n\\n<Title>奖励发放</>\\n奖励将于<Highlight>战略服胜者宣言大会结束后</>统一发放。",
     "ref_en": "<Title>Divine Selection Seats</>\\nDuring the strategic server faction battle phase, Divine Selection Seats are composed of <Highlight>weekly ranking settlement seats</> and <Highlight>final ranking settlement seats</>. Every week, seats will be distributed based on the weekly ranking of each faction on the strategic server and the Club's ranking within its faction; the higher the ranking, the more seats can be obtained. Upon strategic server settlement, final ranking settlement seats will be distributed to Clubs within the faction based on the final ranking of each faction. The Divine Selection Seats obtained by a Club are distributed internally by the Club management. \\n\\n<Title>Reward Content</>\\nDivine Selection rewards include <Highlight>strategic server exclusive cosmetic rewards, cultivation items, Sol, bound Gold Pounds</>, etc. \\n\\n<Title>Limited-Time Divine Descent</>\\nUpon strategic server settlement, the <Highlight>President, Vice President, and Directors</> of the four Clubs in the faction ranked first overall can obtain the limited-time 30-day Divine Descent outfit <Highlight>Song of Iron and Blood</>. \\n\\n<Title>Reward Distribution</>\\nRewards will be distributed uniformly <Highlight>after the strategic server Victor's Declaration ceremony ends</>.",
-    "target_ru": "<Title>Богоизбранные места</>\nНа этапе битвы фракций стратегического сервера богоизбранные места складываются из <Highlight>мест по итогам еженедельного рейтинга</> и <Highlight>мест по итогам финального рейтинга</>. Каждую неделю места распределяются согласно еженедельному рейтингу фракций на стратегическом сервере и положению клуба внутри своей фракции: чем выше ранг, тем больше мест. При финальном подведении итогов места распределяются между клубами фракции в зависимости от её итогового места. Полученные богоизбранные места распределяются руководством внутри клуба.\n\n<Title>Состав наград</>\nНаграды включают <Highlight>эксклюзивные облики стратегического сервера, предметы развития, соли, привязанные золотые фунты</> и др.\n\n<Title>Временное снисхождение</>\nПо итогам сезона стратегического сервера <Highlight>президенты, вице-президенты и распорядители</> четырёх лучших клубов фракции, занявшей 1-е место, получают временный (на 30 дней) божественный облик <Highlight>«Песнь железа и крови»</>.\n\n<Title>Выдача наград</>\nНаграды будут централизованно отправлены <Highlight>после завершения церемонии провозглашения победителей стратегического сервера</>."
+    "target_ru": "<Title>Богоизбранные места</>\nНа этапе битвы фракций стратегического сервера богоизбранные места складываются из <Highlight>мест по итогам еженедельного рейтинга</> и <Highlight>мест по итогам финального рейтинга</>. Каждую неделю места распределяются согласно еженедельному рейтингу фракций на стратегическом сервере и положению клуба внутри своей фракции: чем выше ранг, тем больше мест. При финальном подведении итогов места распределяются между клубами фракции в зависимости от её итогового места. Полученные богоизбранные места распределяются руководством внутри клуба.\n\n<Title>Состав наград</>\nНаграды включают <Highlight>эксклюзивные облики стратегического сервера, предметы развития, суле, привязанные золотые фунты</> и др.\n\n<Title>Временное снисхождение</>\nПо итогам сезона стратегического сервера <Highlight>президенты, вице-президенты и распорядители</> четырёх лучших клубов фракции, занявшей 1-е место, получают временный (на 30 дней) божественный облик <Highlight>«Песнь железа и крови»</>.\n\n<Title>Выдача наград</>\nНаграды будут централизованно отправлены <Highlight>после завершения церемонии провозглашения победителей стратегического сервера</>."
   },
   {
     "id": "094037",
@@ -24921,7 +24921,7 @@
     "id": "094174",
     "source_cn": "伙伴罗塞尔技能-帝国旗帜",
     "ref_en": "Partner Roselle Skill - Imperial Flag",
-    "target_ru": "Навык партнера Розеллы — Имперский флаг"
+    "target_ru": "Навык партнера Розеля — Имперский флаг"
   },
   {
     "id": "094175",
@@ -25437,7 +25437,7 @@
     "id": "094260",
     "source_cn": "终末猎杀怎么玩",
     "ref_en": "How to play Final Hunt",
-    "target_ru": "Как играть в «Последнюю охоту»"
+    "target_ru": "Как играть в «Финальную охоту»"
   },
   {
     "id": "094261",
@@ -25449,7 +25449,7 @@
     "id": "094262",
     "source_cn": "罗塞尔的残存意志2",
     "ref_en": "Roselle's Residual Will 2",
-    "target_ru": "Остаточная воля Розеллы 2"
+    "target_ru": "Остаточная воля Розеля 2"
   },
   {
     "id": "094263",
@@ -26865,7 +26865,7 @@
     "id": "094499",
     "source_cn": "每<Highlight>10进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>25装等</>的<Highlight>竞技倾向</>紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>10 progress</>. Opening it grants a random piece of <Highlight>Item Level 25</> <Highlight>Competition-oriented</> purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "За каждые <Highlight>10 очков прогресса</> вы получаете 1 сундук ресурсов развития. Открыв его, вы случайным образом получите фиолетовое снаряжение <Highlight>25-го ур. снаряжения</> с <Highlight>соревновательным уклоном</>, потусторонние материалы, факторы схождения и привязанные соли.\n\n<Highlight>Предел конвертации</>: можно преобразовать максимум в <Highlight>10</> сокровищ; избыточный прогресс будет <Highlight>сохранён автоматически</>, а после открытия сокровищ нового уровня снаряжения они будут <Highlight>преобразованы в новые сокровища</>."
+    "target_ru": "За каждые <Highlight>10 очков прогресса</> вы получаете 1 сундук ресурсов развития. Открыв его, вы случайным образом получите фиолетовое снаряжение <Highlight>25-го ур. снаряжения</> с <Highlight>соревновательным уклоном</>, потусторонние материалы, факторы схождения и привязанные суле.\n\n<Highlight>Предел конвертации</>: можно преобразовать максимум в <Highlight>10</> сокровищ; избыточный прогресс будет <Highlight>сохранён автоматически</>, а после открытия сокровищ нового уровня снаряжения они будут <Highlight>преобразованы в новые сокровища</>."
   },
   {
     "id": "094500",
@@ -27105,7 +27105,7 @@
     "id": "094539",
     "source_cn": "<Assistant_Title1>【今夜琴声温柔】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>受邀回到黑荆棘喝咖啡，却听说老尼尔的人生中，曾有一个淡绿色的春天。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>53级</>后，在任务栏可接取支线任务。\\n<Assistant_Title2>任务奖励</>：金纺线、绑定金镑、展台摆件等",
     "ref_en": "<Assistant_Title1>【Gentle Piano Music Tonight】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Invited back to Blackthorn to have coffee, only to hear that there was once a pale green spring in Old Neil's life.\\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 53</>, you can accept this side quest in the quest log.\\n<Assistant_Title2>Quest Rewards</>: Gold Threads, Bound Gold Pounds, display ornaments, etc.",
-    "target_ru": "<Assistant_Title1>【Нежные звуки пианино этой ночью】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Второстепенное</>\n<Assistant_Title2>Описание задания: </>Вас пригласили в «Чёрный шиповник» выпить кофе, и там вы услышали, что в жизни старого Нила когда-то была нежно-зелёная весна...\n<Assistant_Title2>Как принять: </>Когда уровень Отыгрыша достигнет <Assistant_Red>53-го уровня</>, задание можно будет взять в журнале заданий.\n<Assistant_Title2>Награды за задание</>: золотая пряжа, привязанные золотые фунты, украшения для витрины и др."
+    "target_ru": "<Assistant_Title1>【Нежные звуки пианино этой ночью】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Второстепенное</>\n<Assistant_Title2>Описание задания: </>Вас пригласили в «Чёрный Терновник» выпить кофе, и там вы услышали, что в жизни старого Нила когда-то была нежно-зелёная весна...\n<Assistant_Title2>Как принять: </>Когда уровень Отыгрыша достигнет <Assistant_Red>53-го уровня</>, задание можно будет взять в журнале заданий.\n<Assistant_Title2>Награды за задание</>: золотая пряжа, привязанные золотые фунты, украшения для витрины и др."
   },
   {
     "id": "094540",
@@ -27117,7 +27117,7 @@
     "id": "094541",
     "source_cn": "<Assistant_Title1>【美梦成真】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>我和你在一起，就是“最佳搭档”。\\n<Assistant_Title2>领取方式：</>完成支线剧情《美梦成真（上）》，且扮演等级达到<Assistant_Red>42级</>后，可在任务面板手动领取\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、金纺线、夜莺银哨、装备、肩饰、称号",
     "ref_en": "<Assistant_Title1>【Dreams Come True】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Being with you makes us the \"best partners.\"\\n<Assistant_Title2>How to Accept: </>After completing the side story \"Dreams Come True (Part 1)\" and reaching an Acting Level of <Assistant_Red>42</>, you can manually accept it in the quest panel.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Gold Thread, Nightingale Silver Whistle, Equipment, Shoulder Accessory, Title",
-    "target_ru": "<Assistant_Title1>【Сбывшиеся сны】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Второстепенное</>\n<Assistant_Title2>Описание задания: </>Когда мы вместе, мы — идеальная пара напарников.\n<Assistant_Title2>Как принять: </>После прохождения задания «Сбывшиеся сны (ч. 1)» и достижения <Assistant_Red>42-го уровня</> Отыгрыша можно вручную взять задание на панели заданий.\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные соли, привязанные золотые фунты, золотая пряжа, серебряный свисток соловья, снаряжение, наплечник, титул"
+    "target_ru": "<Assistant_Title1>【Сбывшиеся сны】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Второстепенное</>\n<Assistant_Title2>Описание задания: </>Когда мы вместе, мы — идеальная пара напарников.\n<Assistant_Title2>Как принять: </>После прохождения задания «Сбывшиеся сны (ч. 1)» и достижения <Assistant_Red>42-го уровня</> Отыгрыша можно вручную взять задание на панели заданий.\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, привязанные золотые фунты, золотая пряжа, серебряный свисток соловья, снаряжение, наплечник, титул"
   },
   {
     "id": "094542",
@@ -28521,7 +28521,7 @@
     "id": "094776",
     "source_cn": "终末猎杀达到血色亲王段位",
     "ref_en": "Reach Blood Prince rank in Final Hunt",
-    "target_ru": "Достигните ранга Кровавого принца в «Последней охоте»."
+    "target_ru": "Достигните ранга Кровавого принца в «Финальной охоте»."
   },
   {
     "id": "094777",
@@ -28887,7 +28887,7 @@
     "id": "094837",
     "source_cn": "伦纳德先生请你帮他接待一位“故人”的妹妹，在黑荆棘附近寻找一下吧。",
     "ref_en": "Mr. Leonard asks you to help him receive the younger sister of an \"old friend.\" Look for her near Blackthorn.",
-    "target_ru": "Мистер Леонард просит вас помочь ему принять младшую сестру «старого друга». Ищите ее возле Блэкторна."
+    "target_ru": "Мистер Леонард просит вас помочь ему принять младшую сестру «старого друга». Ищите ее возле «Чёрного Терновника»."
   },
   {
     "id": "094838",

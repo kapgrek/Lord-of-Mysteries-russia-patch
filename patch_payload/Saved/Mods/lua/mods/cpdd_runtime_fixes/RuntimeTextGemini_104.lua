@@ -185,7 +185,7 @@ return {
     ["Darkness-Dispelling Brooch"] = "Брошь, рассеивающая тьму",
     ["Bronze Mirror (Spiritual Retrospection Point)"] = "Бронзовое зеркало (точка духовного обзора)",
     ["Costa "] = "Коста",
-    ["Roselle Boss - Phase 3 - Sharp Knowledge - Gear Mechanism Passive Buff"] = "Босс Розеллы — Фаза 3 — Острые знания — Пассивное усиление механизма шестерни",
+    ["Roselle Boss - Phase 3 - Sharp Knowledge - Gear Mechanism Passive Buff"] = "Босс Розеля — Фаза 3 — Острые знания — Пассивное усиление механизма шестерни",
     ["Raven"] = "ворон",
     ["Let me think, Ken loves to slack off the most, he's probably in the lounge, and Sarah should be helping to clean the President's office..."] = "Дай подумать, Кен больше всего любит бездельничать, он, наверное, в гостиной, а Сара должна помогать с уборкой в ​​кабинете президента...",
     ["I see you have a heart of gold."] = "Я вижу, у тебя золотое сердце.",

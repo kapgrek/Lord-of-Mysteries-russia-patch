@@ -459,7 +459,7 @@
     "id": "105076",
     "source_cn": "黑荆棘事件簿4-关卡4-武器升级需要经验值buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 4 - Weapon Upgrade Requires EXP buff",
-    "target_ru": "Журнал происшествий в Блэкторне, 4 — уровень 4 — для улучшения оружия требуется усиление опыта"
+    "target_ru": "Журнал происшествий «Чёрного Терновника», 4 — уровень 4 — для улучшения оружия требуется усиление опыта"
   },
   {
     "id": "105077",
@@ -639,7 +639,7 @@
     "id": "105107",
     "source_cn": "唤醒罗塞尔的残存意志2",
     "ref_en": "Awaken Roselle's residual will 2",
-    "target_ru": "Остаток Пробуждения Розеллы будет равен 2."
+    "target_ru": "Остаток Пробуждения Розеля будет равен 2."
   },
   {
     "id": "105108",
@@ -717,7 +717,7 @@
     "id": "105120",
     "source_cn": "完成主线任务：《加入黑荆棘》后解锁。",
     "ref_en": "Unlocked after completing the main quest: \"Join the Nighthawks\".",
-    "target_ru": "Разблокируется после выполнения основного квеста: «Присоединяйтесь к Ночным Ястребам»."
+    "target_ru": "Разблокируется после выполнения основного квеста: «Присоединяйтесь к «Чёрному Терновнику»»."
   },
   {
     "id": "105121",
@@ -1047,7 +1047,7 @@
     "id": "105175",
     "source_cn": "罗塞尔Boss-1&2阶段-下激光",
     "ref_en": "Roselle Boss - Phase 1 & 2 - Downward Laser",
-    "target_ru": "Босс Розеллы — Фаза 1 и 2 — Нисходящий лазер"
+    "target_ru": "Босс Розеля — Фаза 1 и 2 — Нисходящий лазер"
   },
   {
     "id": "105176",
@@ -1209,7 +1209,7 @@
     "id": "105202",
     "source_cn": "阿尔杰",
     "ref_en": "Alger",
-    "target_ru": "Алжир"
+    "target_ru": "Элджер"
   },
   {
     "id": "105203",
@@ -2409,7 +2409,7 @@
     "id": "105402",
     "source_cn": "完成原著线第三章《黑荆棘安保公司》",
     "ref_en": "Complete Chapter 3 of the original work: Blackthorn Security Company",
-    "target_ru": "Завершить главу 3 оригинального произведения: Охранная компания «Чёрный Чертополох»."
+    "target_ru": "Завершить главу 3 оригинального произведения: Охранная компания «Чёрный Терновник»."
   },
   {
     "id": "105403",
@@ -2637,7 +2637,7 @@
     "id": "105440",
     "source_cn": "猎杀进度只可通过在<Highlight>终末猎杀玩法中</>向<Highlight>「猎杀管家」</>提交<Highlight>猩红遗物</>兑换获取。",
     "ref_en": "Hunt progress can only be obtained by submitting <Highlight>Scarlet Relics</> to the <Highlight>\"Hunt Butler\"</> in the <Highlight>End-of-Days Hunt mode</>.",
-    "target_ru": "Прогресс охоты можно получить, только отправив <Highlight>Scarlet Relics</> <Highlight> \"Hunt Butler\" </> в режиме <Highlight> «Охота в конце дня» </>."
+    "target_ru": "Прогресс охоты можно получить, только сдав <Highlight>багровые реликвии</> <Highlight>«Управляющему охотой»</> в режиме <Highlight>«Финальная охота»</>."
   },
   {
     "id": "105441",
@@ -2871,7 +2871,7 @@
     "id": "105479",
     "source_cn": "5231212   黑荆棘安保公司   单人位面",
     "ref_en": "5231212   Blackthorn Security Company   Solo Instance",
-    "target_ru": "5231212 Одиночный экземпляр компании Охранная компания «Чёрный Чертополох»"
+    "target_ru": "5231212 Охранная компания «Чёрный Терновник» Одиночный экземпляр"
   },
   {
     "id": "105480",
@@ -3453,7 +3453,7 @@
     "id": "105576",
     "source_cn": "终末猎杀·天使之王",
     "ref_en": "Final Hunt: King of Angels",
-    "target_ru": "Последняя охота: Король ангелов"
+    "target_ru": "Финальная охота: Король ангелов"
   },
   {
     "id": "105577",
@@ -3465,7 +3465,7 @@
     "id": "105578",
     "source_cn": "罗塞尔大帝的一项发明。据说灵感源于家乡的提神配方。以薄荷精油为底，混入七种对抗腐败气息的草本——传言这个名字对应了“七位正神”。装于金属小瓶，随取随用，只需开瓶凑近鼻端，那股清冽的气味便能在一瞬间驱散腐败带来的头脑迷糊。\\n\\n无论何时何地，它都如此有效，并不昂贵的价格，却总能在最狼狈的时候救得了人。 ",
     "ref_en": "An invention of Emperor Roselle. It is said that the inspiration came from a refreshing formula from his hometown. With peppermint essential oil as the base, mixed with seven herbs that fight against the aura of corruption—rumor has it that this name corresponds to the \"Seven Orthodox Gods.\" Packed in a small metal bottle, it can be used at any time; just open the bottle and bring it close to your nose, and that crisp scent can instantly dispel the mental confusion brought about by corruption. \\n\\n No matter when or where, it is always so effective, and at an inexpensive price, it can always save someone at their most disheveled moment.",
-    "target_ru": "Изобретение императора Рассела. Говорят, что освежающий рецепт вдохновлен домом. Он основан на эфирном масле перечной мяты и смешан с семью видами трав, которые противостоят запаху порчи. Ходят слухи, что название соответствует «Семи праведным богам». Он упакован в небольшой металлический флакон и может быть использован в любое время. Просто откройте бутылку и поднесите ее к носу. Освежающий запах может мгновенно рассеять замешательство, вызванное порчей. \n\nНе важно, когда и где, это очень эффективно. Это не дорого, но всегда может спасти людей в самые неловкие моменты."
+    "target_ru": "Изобретение императора Розеля. Говорят, что освежающий рецепт вдохновлен домом. Он основан на эфирном масле перечной мяты и смешан с семью видами трав, которые противостоят запаху порчи. Ходят слухи, что название соответствует «Семи праведным богам». Он упакован в небольшой металлический флакон и может быть использован в любое время. Просто откройте бутылку и поднесите ее к носу. Освежающий запах может мгновенно рассеять замешательство, вызванное порчей. \n\nНе важно, когда и где, это очень эффективно. Это не дорого, но всегда может спасти людей в самые неловкие моменты."
   },
   {
     "id": "105579",
@@ -3825,7 +3825,7 @@
     "id": "105641",
     "source_cn": "唤醒罗塞尔的残存意志1",
     "ref_en": "Awaken Roselle's residual will 1",
-    "target_ru": "Остаток Пробуждения Розеллы будет равен 1."
+    "target_ru": "Остаток Пробуждения Розеля будет равен 1."
   },
   {
     "id": "105642",
@@ -4131,7 +4131,7 @@
     "id": "105692",
     "source_cn": "看看罗塞尔的子嗣情况",
     "ref_en": "Look at Roselle's offspring situation",
-    "target_ru": "Посмотрите на ситуацию с потомством Розеллы."
+    "target_ru": "Посмотрите на ситуацию с потомством Розеля."
   },
   {
     "id": "105693",
@@ -6579,7 +6579,7 @@
     "id": "106101",
     "source_cn": "<Assistant_Title1>【廷根守护者】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>我们是一群时刻对抗着危险和疯狂的可怜虫，也是廷根的守护者。\\n<Assistant_Title2>领取方式：</>第一赛季第六天解锁。完成主线剧情第四章《镜中的廷根》，且扮演等级达到<Assistant_Red>60级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、星币、称号·廷根守护者、烤羊腿肉、牡蛎汤",
     "ref_en": "<Assistant_Title1>【Tingen Guardian】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Reality Main Quest</>\\n<Assistant_Title2>Quest Description: </>We are a group of poor wretches who are always fighting against danger and madness, and we are also the guardians of Tingen.\\n<Assistant_Title2>How to Obtain: </>Unlocked on the 6th day of the first season. Automatically accepted after completing Main Story Chapter 4 \"Tingen in the Mirror\" and reaching Acting Level <Assistant_Red>60</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soles, Bound Gold Pounds, Star Coins, Title: Tingen Guardian, Roasted Lamb Leg, Oyster Soup",
-    "target_ru": "<Assistant_Title1>【Стражи Тингена】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Основная линия реальности</>\n<Assistant_Title2>Описание задачи: </>Мы — группа бедных людей, которые всегда борются с опасностью и безумием, а также мы являемся стражами Тингена. \n<Assistant_Title2>Как получить: </> Разблокируется на шестой день первого сезона. Завершите четвертую главу основного сюжета «Тинген в зеркале» и автоматически доберитесь до уровня <Assistant_Red>60</>. \n<Assistant_Title2>Награды за миссию</>: Познавательный опыт, связанный сулер, связанный золотой фунт, звездные монеты, титул Тинген-Хранитель, жареная баранья нога, устричный суп"
+    "target_ru": "<Assistant_Title1>【Стражи Тингена】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Основная линия реальности</>\n<Assistant_Title2>Описание задачи: </>Мы — группа бедных людей, которые всегда борются с опасностью и безумием, а также мы являемся стражами Тингена. \n<Assistant_Title2>Как получить: </> Разблокируется на шестой день первого сезона. Завершите четвертую главу основного сюжета «Тинген в зеркале» и автоматически доберитесь до уровня <Assistant_Red>60</>. \n<Assistant_Title2>Награды за миссию</>: Познавательный опыт, привязанные суле, связанный золотой фунт, звездные монеты, титул Тинген-Хранитель, жареная баранья нога, устричный суп"
   },
   {
     "id": "106102",
@@ -7347,7 +7347,7 @@
     "id": "106230",
     "source_cn": "0级封印物“知识皇冠”在廷根失踪，它是罗塞尔被刺杀后的遗物，有堕落母神污染的残留。 ",
     "ref_en": "The Grade 0 Sealed Artifact \"Knowledge Moor\" has gone missing in Tingen. It is a relic from after Roselle's assassination and contains residual corruption from the Mother Goddess of Depravity.",
-    "target_ru": "Запечатанный артефакт 0-го уровня «Мавр Знаний» пропал в Тингене. Это реликвия, оставшаяся после убийства Розеллы, и содержит остатки порчи Матери-Богини Разврата."
+    "target_ru": "Запечатанный артефакт 0-го уровня «Мавр Знаний» пропал в Тингене. Это реликвия, оставшаяся после убийства Розеля, и содержит остатки порчи Матери-Богини Разврата."
   },
   {
     "id": "106231",
@@ -8043,7 +8043,7 @@
     "id": "106348",
     "source_cn": "黑荆棘事件簿2_太阳冲击扩散波（玩家用）",
     "ref_en": "Blackthorn Incident Book 2_Sun Impact Diffusion Wave (For Player)",
-    "target_ru": "Книга происшествий в Блэкторне 2_Диффузионная волна солнечного удара (для игрока)"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 2_Диффузионная волна солнечного удара (для игрока)"
   },
   {
     "id": "106349",
@@ -8781,7 +8781,7 @@
     "id": "106472",
     "source_cn": "邓恩·史密斯，廷根市值夜者小队队长，性格沉稳，灰色的眼睛深邃冷静，就像古老森林里乏人问津的湖泊。\\n队员们总笑话他健忘，有交代不完的事。可他记得每一个队员的名字，每一段并肩的过往。\\n值夜者，守护黑夜之人，行走于安静的夜晚，战斗在大众看不到的地方，对抗着危险，彼此守护着对方的后背。\\n邓恩舍不得他们。\\n小伊特第一次出任务，吓得当场崩溃；阿德莱德曾替他挡下诅咒；道恩总爱用文字记下每个人的故事；科恩黎比伦纳德更像一个诗人，会在巡逻间隙弹起七弦琴，让琴声在廷根潮湿的夜风里飘散……这些人，这些事，邓恩一件都没忘。\\n他做了一个在非凡者看来近乎疯狂的决定——将牺牲队员的非凡特性逐一服食，让他们的灵魂以另一种形式继续留在他身边。\\n“这是一个自私的决定。”他曾对克莱恩说，“我并不确定……这是否是他们想要的。”\\n可他一向如此。把所有人的悲伤扛在自己肩上，将队员牢牢护在身后。\\n因此，面对无法战胜的敌人，他依然选择了守护。那时，他望向克莱恩，露出了一如往昔的温和笑容，就像每次任务结束后，他站在黑荆棘窗边，对归来的队员说“辛苦了”时一样。\\n当廷根的黎明到来时，他已成为了那道光的一部分。",
     "ref_en": "Dunn Smith, captain of the Tingen Nighthawks, had a steady personality. His gray eyes were deep and calm, like an unfrequented lake in an ancient forest.\\n His teammates always joked about his forgetfulness and how he had endless things to remind them of. But he remembered the name of every teammate and every past they had shared.\\n Nighthawks, guardians of the night, walking in the quiet night, fighting in places the public could not see, confronting danger, and guarding each other's backs.\\n Dunn could not bear to let them go.\\n When Little Ite went on his first mission, he collapsed in terror; Adelaide had once blocked a curse for him; Dawn always loved to record everyone's stories in writing; Kenley was more like a poet than Leonard, playing the lyre during patrols and letting the music drift into the damp night wind of Tingen... Dunn had not forgotten a single one of these people or these events.\\n He made a decision that seemed almost insane to other Beyonders—to consume the Beyonder characteristics of his sacrificed teammates one by one, allowing their souls to remain by his side in another form.\\n \"This is a selfish decision,\" he once told Klein. \"I'm not sure... if this is what they wanted.\"\\n But he had always been this way. Carrying everyone's sadness on his own shoulders, keeping his teammates firmly behind him.\\n Therefore, facing an invincible enemy, he still chose to guard them. At that moment, he looked at Klein and revealed the same gentle smile as always, just like when he stood by the Blackthorn window after every mission and said \"Thank you for your hard work\" to the returning team.\\n When the dawn of Tingen arrived, he had already become a part of that light.",
-    "target_ru": "Данн Смит, капитан эскадрильи «Ночные ястребы» в Тинген-Сити, обладает спокойным характером, а его серые глаза глубокие и спокойные, как неизведанное озеро в древнем лесу. \nЧлены команды всегда шутили, что он забывчив и ему нужно объяснять бесконечное количество вещей. Но он помнит имена каждого члена команды и каждый прошлый совместный опыт. \n Ночные ястребы, те, кто охраняют ночь, ходят в тихой ночи, сражаются там, где никто не видит, борются с опасностью и охраняют спины друг друга. \n Данн не мог оставить их. \n Маленький Итте впервые отправился на задание и так испугался, что рухнул на месте; Аделаида однажды блокировала для него проклятие; Дон всегда любила записывать словами истории каждого; Коэн был больше похож на поэта, чем на Леонарда, и играл на лире во время перерывов в патрулях, позволяя звукам фортепиано разноситься во влажном ночном ветру Тингена... Данн не забыл ни единой вещи об этих людях и этих вещах. \nОн принял решение, которое показалось Необыкновенному почти безумным - забрать Необыкновенные характеристики принесенных в жертву членов команды одного за другим, позволив их душам продолжать оставаться с ним в другой форме. \n «Это эгоистичное решение». Однажды он сказал Кляйну: «Я не уверен... хотят ли они этого». \n Но он всегда был таким. Несите горе каждого на своих плечах и твердо защищайте своих товарищей по команде позади себя. \n Поэтому, столкнувшись с непобедимым врагом, он всё равно предпочёл защищаться. В этот момент он посмотрел на Кляйна и показал ту же нежную улыбку, что и раньше, точно так же, как когда он стоял у окна Блэкторна после каждой миссии и говорил «Спасибо за вашу тяжелую работу» вернувшимся членам команды. \n Когда в Тингене наступил рассвет, он стал частью этого света."
+    "target_ru": "Данн Смит, капитан эскадрильи «Ночные ястребы» в Тинген-Сити, обладает спокойным характером, а его серые глаза глубокие и спокойные, как неизведанное озеро в древнем лесу. \nЧлены команды всегда шутили, что он забывчив и ему нужно объяснять бесконечное количество вещей. Но он помнит имена каждого члена команды и каждый прошлый совместный опыт. \n Ночные ястребы, те, кто охраняют ночь, ходят в тихой ночи, сражаются там, где никто не видит, борются с опасностью и охраняют спины друг друга. \n Данн не мог оставить их. \n Маленький Итте впервые отправился на задание и так испугался, что рухнул на месте; Аделаида однажды блокировала для него проклятие; Дон всегда любила записывать словами истории каждого; Коэн был больше похож на поэта, чем на Леонарда, и играл на лире во время перерывов в патрулях, позволяя звукам фортепиано разноситься во влажном ночном ветру Тингена... Данн не забыл ни единой вещи об этих людях и этих вещах. \nОн принял решение, которое показалось Необыкновенному почти безумным - забрать Необыкновенные характеристики принесенных в жертву членов команды одного за другим, позволив их душам продолжать оставаться с ним в другой форме. \n «Это эгоистичное решение». Однажды он сказал Кляйну: «Я не уверен... хотят ли они этого». \n Но он всегда был таким. Несите горе каждого на своих плечах и твердо защищайте своих товарищей по команде позади себя. \n Поэтому, столкнувшись с непобедимым врагом, он всё равно предпочёл защищаться. В этот момент он посмотрел на Кляйна и показал ту же нежную улыбку, что и раньше, точно так же, как когда он стоял у окна «Чёрного Терновника» после каждой миссии и говорил «Спасибо за вашу тяжелую работу» вернувшимся членам команды. \n Когда в Тингене наступил рассвет, он стал частью этого света."
   },
   {
     "id": "106473",
@@ -9405,7 +9405,7 @@
     "id": "106580",
     "source_cn": "设置单次一键聚合消耗的绑定苏勒上限",
     "ref_en": "Set the upper limit of bound Sol consumed for a single one-click aggregation.",
-    "target_ru": "Установите верхний предел связанного количества Sol, потребляемого за одну агрегацию в один клик."
+    "target_ru": "Установите верхний предел привязанных суле, потребляемых за одну агрегацию в один клик."
   },
   {
     "id": "106581",
@@ -11061,7 +11061,7 @@
     "id": "106857",
     "source_cn": "<Assistant_Title1>【时代的浪潮】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>时代的浪潮正席卷廷根，骑上黑荆棘新员工的脚踏车，到处逛逛吧。\\n<Assistant_Title2>领取方式：</>第一赛季第二天解锁。完成主线剧情第一章《加入黑荆棘》，且扮演等级达到<Assistant_Red>39级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、天赋点、星币、停转的银色怀表、35品武器箱",
     "ref_en": "<Assistant_Title1> [Tides of the Era] </> \\n <Assistant_Title2> Quest Type: </> <Assistant_Property2> Reality Main Quest </> \\n <Assistant_Title2> Quest Description: </> The tides of the era are sweeping through Tingen. Hop on the new Blackthorn employee's bicycle and go for a ride. \\n <Assistant_Title2> How to Accept: </> Unlocks on the second day of the first season. Automatically accepted after completing Chapter 1 of the main story, \"Joining Blackthorn,\" and reaching <Assistant_Red> Level 39 </> in Acting Level. \\n <Assistant_Title2> Quest Rewards </>: Cognition EXP, Bound Soles, Bound Gold Pounds, Talent Points, Star Coins, Stopped Silver Pocket Watch, Level 35 Weapon Box",
-    "target_ru": "<Assistant_Title1>【Волна времени】</>\n<Assistant_Title2>Тип квеста: </><Assistant_Property2>Реалистичная основная линия</>\n<Assistant_Title2>Описание миссии: </>Волна времени проносится по Тингену, прокатитесь на велосипеде нового сотрудника Blackthorn и объезжайте его. \n<Assistant_Title2>Как получить: </>Открывается на второй день первого сезона. Завершите первую главу основного сюжета «Присоединение к Блэкторну» и автоматически достигните уровня <Assistant_Red>39</>. \n<Assistant_Title2>Награды за миссию</>: Познавательный опыт, связанный Сулер, связанный фунт золота, очки талантов, звездные монеты, остановленные серебряные карманные часы, ящик с оружием 35-го класса."
+    "target_ru": "<Assistant_Title1>【Волна времени】</>\n<Assistant_Title2>Тип квеста: </><Assistant_Property2>Реалистичная основная линия</>\n<Assistant_Title2>Описание миссии: </>Волна времени проносится по Тингену, прокатитесь на велосипеде нового сотрудника «Чёрного Терновника» и объезжайте его. \n<Assistant_Title2>Как получить: </>Открывается на второй день первого сезона. Завершите первую главу основного сюжета «Присоединение к «Чёрному Терновнику»» и автоматически достигните уровня <Assistant_Red>39</>. \n<Assistant_Title2>Награды за миссию</>: Познавательный опыт, привязанные суле, связанный фунт золота, очки талантов, звездные монеты, остановленные серебряные карманные часы, ящик с оружием 35-го класса."
   },
   {
     "id": "106858",
@@ -11115,7 +11115,7 @@
     "id": "106866",
     "source_cn": "《罗塞尔诗集选》",
     "ref_en": "Selected Poems of Roselle",
-    "target_ru": "Избранные стихи Розеллы"
+    "target_ru": "Избранные стихи Розеля"
   },
   {
     "id": "106867",
@@ -11313,7 +11313,7 @@
     "id": "106899",
     "source_cn": "出生点·黑荆棘",
     "ref_en": "Spawn Point·Blackthorn",
-    "target_ru": "Точка появления · Чёрный Чертополох"
+    "target_ru": "Точка появления · «Чёрный Терновник»"
   },
   {
     "id": "106900",
@@ -12291,7 +12291,7 @@
     "id": "107062",
     "source_cn": "每<Highlight>10进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>25装等</>的<Highlight>冒险倾向</>紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>10 progress</>. Opening it grants a random piece of <Highlight>Item Level 25</> <Highlight>Adventure-oriented</> purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "За каждый <Highlight>10 прогресс</> вы получаете 1 коробку ресурсов для развития. Открыв его, вы можете случайным образом получить часть экипировки <Highlight>25 уровня</> <Highlight>склонности к приключениям</> фиолетового качества, необычный материал, коэффициент агрегации и связывающий сулер. \n\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
+    "target_ru": "За каждый <Highlight>10 прогресс</> вы получаете 1 коробку ресурсов для развития. Открыв его, вы можете случайным образом получить часть экипировки <Highlight>25 уровня</> <Highlight>склонности к приключениям</> фиолетового качества, необычный материал, коэффициент агрегации и привязанные суле. \n\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
   },
   {
     "id": "107063",
@@ -13293,7 +13293,7 @@
     "id": "107231",
     "source_cn": "\\n本月阅读活动主题为“艺术熏陶”。\\n\\n推荐阅读书目：《鲁恩早期古典诗歌集》《罗塞尔诗选》\\n推荐戏剧欣赏：《伯爵归来》《傲慢者》《背叛者指环》",
     "ref_en": "\\nThis month's reading activity theme is \"Artistic Cultivation\".\\n\\nRecommended reading list: \"Collection of Early Loen Classical Poetry\", \"Selected Poems of Roselle\"\\nRecommended drama appreciation: \"The Count's Return\", \"The Arrogant\", \"The Traitor's Ring\"",
-    "target_ru": "\nТема чтения в этом месяце — «Влияние искусства». \n\n Рекомендуемые книги для чтения: «Сборник ранних классических стихотворений Луна» и «Избранные стихотворения Рассела». \n Рекомендуемые драматические произведения: «Возвращение графа», «Высокомерный» и «Кольцо предателя»."
+    "target_ru": "\nТема чтения в этом месяце — «Влияние искусства». \n\n Рекомендуемые книги для чтения: «Сборник ранних классических стихотворений Луна» и «Избранные стихотворения Розеля». \n Рекомендуемые драматические произведения: «Возвращение графа», «Высокомерный» и «Кольцо предателя»."
   },
   {
     "id": "107232",
@@ -14589,7 +14589,7 @@
     "id": "107449",
     "source_cn": "罗塞尔Boss-1&2阶段-自清洁程序-玩家标记buff1",
     "ref_en": "Roselle Boss - Phase 1&2 - Self-Cleaning Program - Player Mark Buff 1",
-    "target_ru": "Босс Розеллы — фазы 1 и 2 — программа самоочистки — усиление метки игрока 1"
+    "target_ru": "Босс Розеля — фазы 1 и 2 — программа самоочистки — усиление метки игрока 1"
   },
   {
     "id": "107450",
@@ -14763,7 +14763,7 @@
     "id": "107478",
     "source_cn": "黑荆棘外\\n伦纳德倚墙整理好手套，\\n朝咖啡馆的位置微微侧头，感受到心理治疗已经成功，微笑离开",
     "ref_en": "Outside Blackthorn \\n Leonard leans against the wall to adjust his gloves, \\n tilts his head slightly toward the cafe, feels that the psychotherapy has been successful, and leaves with a smile.",
-    "target_ru": "За пределами «Черного шипа» \n Леонард прислонился к стене и поправил перчатки, \n слегка наклонил голову в сторону кафе, чувствуя, что психологическое лечение прошло успешно, и ушел с улыбкой"
+    "target_ru": "За пределами «Чёрного Терновника» \n Леонард прислонился к стене и поправил перчатки, \n слегка наклонил голову в сторону кафе, чувствуя, что психологическое лечение прошло успешно, и ушел с улыбкой"
   },
   {
     "id": "107479",
@@ -15699,7 +15699,7 @@
     "id": "107634",
     "source_cn": "　　25日晚7点15分，查理参加廷根大剧院罗塞尔戏剧节晚宴，9点宴毕与蒙特利会谈，约10点独自离开后失踪。查理经营南北大陆贸易20年，是罗塞尔忠实崇拜者。经查曾贩卖违禁材料，由地下摊主保罗代售。",
     "ref_en": "　　June 25th, 7:15 PM, Charlie attended the Tingen Grand Theater Roselle Drama Festival banquet, had a meeting with Monterey after the banquet at 9:00 PM, and went missing after leaving alone around 10:00 PM. Charlie had been operating trade between the North and South continents for 20 years and was a loyal admirer of Roselle. Investigation shows he had sold contraband materials, which were sold on his behalf by underground stall owner Paul.",
-    "target_ru": "25 июня, 19:15, Чарли присутствовал на банкете Фестиваля драмы Розеллы в Большом театре Тингена, встретился с Монтереем после банкета в 21:00 и пропал, уйдя один около 22:00. Чарли вел торговлю между Северным и Южным континентами в течение 20 лет и был преданным поклонником Розеллы. Расследование показывает, что он продавал контрабандные материалы, которые от его имени продавал владелец подземного ларька Пол."
+    "target_ru": "25 июня, 19:15, Чарли присутствовал на банкете Фестиваля драмы Розеля в Большом театре Тингена, встретился с Монтереем после банкета в 21:00 и пропал, уйдя один около 22:00. Чарли вел торговлю между Северным и Южным континентами в течение 20 лет и был преданным поклонником Розеля. Расследование показывает, что он продавал контрабандные материалы, которые от его имени продавал владелец подземного ларька Пол."
   },
   {
     "id": "107635",
@@ -16299,7 +16299,7 @@
     "id": "107734",
     "source_cn": "这是黑荆棘安保公司，有什么能为您服务的吗？",
     "ref_en": "This is Blackthorn Security Company. Is there anything I can do for you?",
-    "target_ru": "Это охранная компания Чёрный Чертополох. Могу ли я что-нибудь сделать для тебя?"
+    "target_ru": "Это охранная компания «Чёрный Терновник». Могу ли я что-нибудь сделать для тебя?"
   },
   {
     "id": "107735",
@@ -16917,7 +16917,7 @@
     "id": "107838",
     "source_cn": "罗珊和丹尼等人正准备进入镜子时，一阵铃声响起。\\n管家从绯红色的知识洪流特效中走出来，向众人微微欠身。",
     "ref_en": "Just as Rozanne and Dunn were preparing to enter the mirror, a bell rang.\\n The butler walked out from the crimson torrent of knowledge effect and bowed slightly to everyone.",
-    "target_ru": "Когда Роксана, Дэнни и другие собирались войти в зеркало, раздался звонок. \nЭкономка вышла из багрового потока спецэффектов знаний и слегка поклонилась всем."
+    "target_ru": "Когда Розанна, Дэнни и другие собирались войти в зеркало, раздался звонок. \nЭкономка вышла из багрового потока спецэффектов знаний и слегка поклонилась всем."
   },
   {
     "id": "107839",
@@ -17979,7 +17979,7 @@
     "id": "108019",
     "source_cn": "使用后获得<Highlight>子爵夫人套装</>\\n女性角色外观，可在【百货-外观转换商店】中与对应男性角色外观<Highlight>先祖铠甲</>互相兑换\\n若已拥有此外观，则可选择分解获得10万绑定苏勒",
     "ref_en": "Use to obtain <Highlight> Viscountess Set </> \\n Female character appearance, can be exchanged with the corresponding male character appearance <Highlight> Ancestor Armor </> in the [Department Store - Appearance Conversion Shop] \\n If you already own this appearance, you can choose to decompose it to obtain 100,000 bound Soles",
-    "target_ru": "После использования вы получите <Highlight> Костюм виконтессы</>\n внешний вид женского персонажа, который можно обменять на соответствующий внешний вид мужского персонажа <Highlight> Доспехи предков </> в [Отдел отдела — Магазин конверсий внешнего вида] \n Если у вас уже есть этот внешний вид, вы можете разобрать его, чтобы получить 100 000 связанных сулеров."
+    "target_ru": "После использования вы получите <Highlight> Костюм виконтессы</>\n внешний вид женского персонажа, который можно обменять на соответствующий внешний вид мужского персонажа <Highlight> Доспехи предков </> в [Отдел отдела — Магазин конверсий внешнего вида] \n Если у вас уже есть этот внешний вид, вы можете разобрать его, чтобы получить 100 000 привязанных суле."
   },
   {
     "id": "108020",
@@ -18231,7 +18231,7 @@
     "id": "108061",
     "source_cn": "您的单人解契冷静期结束，缴纳50000绑定苏勒后可以正式解除誓约，确定解契吗？",
     "ref_en": "Your individual cooling-off period for dissolving the Covenant has ended. You may formally dissolve the Covenant after paying 50,000 bound soli. Are you sure you want to dissolve the Covenant?",
-    "target_ru": "Ваш индивидуальный период обдумывания роспуска Ковенанта закончился. Вы можете официально расторгнуть Ковенант, заплатив 50 000 связанных соло. Вы уверены, что хотите расторгнуть Ковенант?"
+    "target_ru": "Ваш индивидуальный период обдумывания роспуска Ковенанта закончился. Вы можете официально расторгнуть Ковенант, заплатив 50 000 привязанных суле. Вы уверены, что хотите расторгнуть Ковенант?"
   },
   {
     "id": "108062",
@@ -18813,7 +18813,7 @@
     "id": "108158",
     "source_cn": "他会指引你加入<P_Yellow>黑荆棘安保公司</>的。",
     "ref_en": "He will guide you to join the <P_Yellow>Blackthorn Security Company</>.",
-    "target_ru": "Он поможет вам присоединиться к <P_Yellow>Охранная компания «Чёрный Чертополох»</>."
+    "target_ru": "Он поможет вам присоединиться к <P_Yellow>охранной компании «Чёрный Терновник»</>."
   },
   {
     "id": "108159",
@@ -19305,7 +19305,7 @@
     "id": "108240",
     "source_cn": "终末猎杀全国排名头衔奖励",
     "ref_en": "End-of-Days Hunt National Ranking Title Rewards",
-    "target_ru": "Награды за титул в национальном рейтинге «Охоты в конце дней»"
+    "target_ru": "Награды за титул в национальном рейтинге «Финальной охоты»"
   },
   {
     "id": "108241",
@@ -19383,7 +19383,7 @@
     "id": "108253",
     "source_cn": "阿尔杰·威尔逊，“幽蓝复仇者”号的船长，塔罗会的“倒吊人”。他出身风暴之主教会，从水手一步步成长为船长，深谙海上生存法则和非凡者世界的残酷。\\n他沉稳、谨慎，善于观察，从不轻易暴露真实想法。在塔罗会创立之初，他抱着获取资源和信息的目的加入，对“愚者”保持着试探和交易的心态。\\n然而，随着一次次见证“愚者”展现的力量，阿尔杰逐渐从质疑者变成了最虔诚的信徒。他开始用“这是我们的荣幸”代替讨价还价，用“遵从您的意志”回应“愚者”的每一个指示。\\n但与此同时，他依然是那个会在船长室里冷静处理各种事件的船长，是那个会唱跑调“冲激”诗歌的海上冒险家，是置身于风暴之主教会与愚者教会之间的那位独特存在。",
     "ref_en": "Alger Wilson, captain of the \"Blue Avenger,\" is the \"The Hanged Man\" of the Tarot Club. Originating from the Church of the Lord of Storms, he rose from a sailor to a captain, deeply understanding the laws of survival at sea and the cruelty of the Beyonder world. \\n He is composed, cautious, and observant, never easily revealing his true thoughts. At the inception of the Tarot Club, he joined with the goal of acquiring resources and information, maintaining a mindset of testing and bargaining toward \"The Fool.\" \\n However, as he witnessed the power displayed by \"The Fool\" time and again, Alger gradually transformed from a skeptic into one of the most devout believers. He began replacing bargaining with \"It is our honor\" and responding to every instruction from \"The Fool\" with \"As you wish.\" \\n Yet, at the same time, he remains the captain who calmly handles various incidents in his cabin, the maritime adventurer who sings off-key \"Surge\" poems, and that unique existence positioned between the Church of the Lord of Storms and the Church of The Fool.",
-    "target_ru": "Алджер Уилсон, капитан «Синего мстителя» и «Повешенный» Общества Таро. Он родился в Церкви Повелителя Штормов, шаг за шагом вырос от моряка до капитана и прекрасно разбирается в законах выживания на море и жестокости мира необыкновенных людей. \nОн спокоен, осторожен, наблюдателен и никогда легко не раскрывает свои истинные мысли. Когда Общество Таро было впервые основано, он присоединился к нему с целью получения ресурсов и информации и придерживался менталитета тестирования и торговли по отношению к «Шуту». \n Однако, становясь свидетелем силы, проявленной «Шутом», снова и снова, Алджер постепенно превратился из сомневающегося в самого набожного верующего. Он стал заменять торг на «Наше удовольствие» и на каждое указание «Шута» отвечал «Такова ваша воля». \nНо в то же время он по-прежнему капитан, способный спокойно справляться с различными происшествиями в капитанской каюте, морской авантюрист, умеющий фальшиво петь «импульсивные» стихи, и уникальное существование между Церковью Повелителя Штормов и Церковью Шута."
+    "target_ru": "Элджер Уилсон, капитан «Синего мстителя» и «Повешенный» Общества Таро. Он родился в Церкви Повелителя Штормов, шаг за шагом вырос от моряка до капитана и прекрасно разбирается в законах выживания на море и жестокости мира необыкновенных людей. \nОн спокоен, осторожен, наблюдателен и никогда легко не раскрывает свои истинные мысли. Когда Общество Таро было впервые основано, он присоединился к нему с целью получения ресурсов и информации и придерживался менталитета тестирования и торговли по отношению к «Шуту». \n Однако, становясь свидетелем силы, проявленной «Шутом», снова и снова, Элджер постепенно превратился из сомневающегося в самого набожного верующего. Он стал заменять торг на «Наше удовольствие» и на каждое указание «Шута» отвечал «Такова ваша воля». \nНо в то же время он по-прежнему капитан, способный спокойно справляться с различными происшествиями в капитанской каюте, морской авантюрист, умеющий фальшиво петь «импульсивные» стихи, и уникальное существование между Церковью Повелителя Штормов и Церковью Шута."
   },
   {
     "id": "108254",
@@ -19425,7 +19425,7 @@
     "id": "108260",
     "source_cn": "黑荆棘事件簿怎么玩",
     "ref_en": "How does the Blackthorn Incident Book work?",
-    "target_ru": "Как работает Книга происшествий Блэкторна?"
+    "target_ru": "Как работает Книга происшествий «Чёрного Терновника»?"
   },
   {
     "id": "108261",
@@ -19533,7 +19533,7 @@
     "id": "108279",
     "source_cn": "【采集】回到黑荆棘",
     "ref_en": "[Collectible] Return to Blackthorn",
-    "target_ru": "[Коллекционный] Возвращение в Чёрный Чертополох"
+    "target_ru": "[Коллекционный] Возвращение в «Чёрный Терновник»"
   },
   {
     "id": "108280",
@@ -19803,7 +19803,7 @@
     "id": "108324",
     "source_cn": "定位·进入黑荆棘·克莱恩",
     "ref_en": "Positioning · Enter Blackthorn · Klein",
-    "target_ru": "Позиционирование · Входит Чёрный Чертополох · Клейн"
+    "target_ru": "Позиционирование · Входит «Чёрный Терновник» · Клейн"
   },
   {
     "id": "108325",
@@ -19815,7 +19815,7 @@
     "id": "108326",
     "source_cn": "对了，咖啡的价格是<P_Yellow>1苏勒</>。",
     "ref_en": "By the way, the price of the coffee is <P_Yellow>1 Soule</>.",
-    "target_ru": "Кстати, цена кофе <P_Yellow>1 Soule</>."
+    "target_ru": "Кстати, цена кофе <P_Yellow>1 суле</>."
   },
   {
     "id": "108327",
@@ -20073,7 +20073,7 @@
     "id": "108369",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·哀嚎黑市</>，可以参与公共掉落的分配与拍卖。有概率获得下列道具。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · Wailing Black Market</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following items.",
-    "target_ru": "Участие в подземелье <Highlight>Журнал происшествий Чёрный Чертополох · Wailing Black Market</> в режиме вечеринки позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
+    "target_ru": "Участие в подземелье <Highlight>Журнал происшествий «Чёрного Терновника» · Воющий чёрный рынок</> в режиме вечеринки позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
   },
   {
     "id": "108370",
@@ -20223,7 +20223,7 @@
     "id": "108395",
     "source_cn": "1金榜=%d苏勒",
     "ref_en": "1 Gold Pound = %d Soles",
-    "target_ru": "1 фунт золота = подошвы %d"
+    "target_ru": "1 золотой фунт = %d суле"
   },
   {
     "id": "108396",
@@ -20505,7 +20505,7 @@
     "id": "108442",
     "source_cn": "同场景2人以上组队通关黑荆棘事件簿",
     "ref_en": "Clear Blackthorn Security Case File in a squad of 2+ in the same scene",
-    "target_ru": "Завершите дело службы безопасности Чёрный Чертополох в отряде из 2+ человек в одной сцене."
+    "target_ru": "Завершите дело службы безопасности «Чёрный Терновник» в отряде из 2+ человек в одной сцене."
   },
   {
     "id": "108443",
@@ -20865,7 +20865,7 @@
     "id": "108502",
     "source_cn": "罗塞尔意志狂暴",
     "ref_en": "Roselle's Residual Will Berserk",
-    "target_ru": "Остаточная воля Розеллы в ярости"
+    "target_ru": "Остаточная воля Розеля в ярости"
   },
   {
     "id": "108503",
@@ -21039,7 +21039,7 @@
     "id": "108531",
     "source_cn": "\\n\\n\\n　　我之所见是否为真实？金币的正面描摹着辉煌的光景，背面却沾满泥泞。飞速旋转的轴承，无情地将这个时代卷入蜕变的剧痛。\\n\\n　　罗塞尔·古斯塔夫的蒸汽机与改良火炮，图兰尼·冯·赫尔莫修因的第三代差分机，再精密的机械，其构成也不过是金属、热力与尘埃。然而这惊奇的人造物，不知疲倦地吞噬生命，在汗与泪中催化着一个不再需要星空照亮的时代。那只沾满油污的手，伤痕累累的手，不断向前伸出，而后缓慢地、坚定地，拨开了人类前路的迷雾……",
     "ref_en": "\\n \\n \\n Is what I see real? The front of the gold coin depicts a glorious scene, but the back is covered in mud. The rapidly rotating bearings ruthlessly roll this era into the excruciating pain of transformation. \\n \\n Roselle Gustav's steam engine and improved artillery, Turani von Helmosin's third-generation difference engine—no matter how precise the machine, its composition is nothing more than metal, heat, and dust. However, this amazing man-made object tirelessly devours life, catalyzing an era that no longer needs the starry sky to illuminate it in sweat and tears. That oil-stained hand, that scarred hand, keeps reaching forward, and then slowly, firmly, pushes away the fog on the path ahead of humanity...",
-    "target_ru": "\n\n\n　Правда ли то, что я вижу? На лицевой стороне золотой монеты изображена великолепная сцена, но оборотная сторона покрыта грязью. Быстро вращающиеся подшипники безжалостно погружают эту эпоху в боль трансформации. \n\n Паровой двигатель Рассела Густава и улучшенная артиллерия, разностная машина третьего поколения Турани фон Гермотуина, независимо от того, насколько точны механизмы, их состав — не что иное, как металл, тепло и пыль. Однако эта удивительная рукотворная вещь неустанно поглощает жизнь, в поте и слезах катализируя эпоху, которая больше не нуждается в освещении звездного неба. Эта маслянистая и покрытая шрамами рука продолжала тянуться вперед, а затем медленно и твердо отодвинула туман будущего человечества..."
+    "target_ru": "\n\n\n　Правда ли то, что я вижу? На лицевой стороне золотой монеты изображена великолепная сцена, но оборотная сторона покрыта грязью. Быстро вращающиеся подшипники безжалостно погружают эту эпоху в боль трансформации. \n\n Паровой двигатель Розеля Густава и улучшенная артиллерия, разностная машина третьего поколения Турани фон Гермотуина, независимо от того, насколько точны механизмы, их состав — не что иное, как металл, тепло и пыль. Однако эта удивительная рукотворная вещь неустанно поглощает жизнь, в поте и слезах катализируя эпоху, которая больше не нуждается в освещении звездного неба. Эта маслянистая и покрытая шрамами рука продолжала тянуться вперед, а затем медленно и твердо отодвинула туман будущего человечества..."
   },
   {
     "id": "108532",
@@ -21723,7 +21723,7 @@
     "id": "108645",
     "source_cn": "<P_Heart>  1万苏勒？？  这么便宜，说不定是骗子，占卜下看看</>",
     "ref_en": "<P_Heart> 10,000 Gold Pounds?? So cheap, maybe it's a scam, let's do a divination to see. </>",
-    "target_ru": "<P_Heart> 10 000 золотых фунтов?? Так дешево, возможно это развод, давайте погадаем, чтобы убедиться. </>"
+    "target_ru": "<P_Heart> 10 000 суле?? Так дешево, возможно это развод, давайте погадаем, чтобы убедиться. </>"
   },
   {
     "id": "108646",
@@ -22989,7 +22989,7 @@
     "id": "108859",
     "source_cn": "罗塞尔Boss-3阶段-自清洁程序-装置怪常驻buff空",
     "ref_en": "Roselle Boss - Phase 3 - Self-Cleaning Program - Device Monster Permanent Buff Empty",
-    "target_ru": "Босс Розеллы — Фаза 3 — Программа самоочистки — Постоянное усиление Device Monster пусто"
+    "target_ru": "Босс Розеля — Фаза 3 — Программа самоочистки — Постоянное усиление монстра-механизма пусто"
   },
   {
     "id": "108860",
@@ -23085,7 +23085,7 @@
     "id": "108875",
     "source_cn": "邓恩先生说……去佐特兰街36号2楼<P_Yellow>黑荆棘安保公司</>找他。",
     "ref_en": "Mr. Dunn said... go to 36 Zoutland Street, 2nd floor, <P_Yellow>Blackthorn Security Company</> to find him.",
-    "target_ru": "Мистер Данн сказал... идите по адресу Заутланд-стрит, 36, 2-й этаж, <P_Yellow>Охранная компания «Чёрный Чертополох»</>, чтобы найти его."
+    "target_ru": "Мистер Данн сказал... идите по адресу Заутланд-стрит, 36, 2-й этаж, <P_Yellow>охранная компания «Чёрный Терновник»</>, чтобы найти его."
   },
   {
     "id": "108876",
@@ -23133,7 +23133,7 @@
     "id": "108883",
     "source_cn": "黑荆棘事件簿4-关卡1buff号段尾",
     "ref_en": "Black Thorn Incident Book 4-Level 1 buff ID Segment End",
-    "target_ru": "Книга происшествий Black Thorn 4, уровень 1, усиление ID, конец сегмента"
+    "target_ru": "Книга происшествий «Чёрный Терновник» 4, уровень 1, усиление ID, конец сегмента"
   },
   {
     "id": "108884",
@@ -23967,7 +23967,7 @@
     "id": "109023",
     "source_cn": "<P_Heart>（犹豫）</>你手头还宽裕吗？我听说黑荆棘会按月发抚恤金。",
     "ref_en": "<P_Heart>(Hesitant)</> Are you still doing well financially? I heard Blackthorn pays a monthly pension.",
-    "target_ru": "<P_Heart>(колеблется)</> У тебя все еще все хорошо в финансовом отношении? Я слышал, что Чёрный Чертополох платит ежемесячную пенсию."
+    "target_ru": "<P_Heart>(колеблется)</> У тебя все еще все хорошо в финансовом отношении? Я слышал, что «Чёрный Терновник» платит ежемесячную пенсию."
   },
   {
     "id": "109024",
@@ -24111,7 +24111,7 @@
     "id": "109047",
     "source_cn": "历史的潮流，将以罗塞尔为名！",
     "ref_en": "The tide of history shall be named after Roselle!",
-    "target_ru": "Волна истории будет названа в честь Розеллы!"
+    "target_ru": "Волна истории будет названа в честь Розеля!"
   },
   {
     "id": "109048",
@@ -25203,7 +25203,7 @@
     "id": "109231",
     "source_cn": "离开<h>黑荆棘安保公司</>",
     "ref_en": "Leave <h>Blackthorn Security Company</>",
-    "target_ru": "Покинуть <h>Охранная компания «Чёрный Чертополох»</>"
+    "target_ru": "Покинуть <h>охранную компанию «Чёрный Терновник»</>"
   },
   {
     "id": "109232",
@@ -25509,7 +25509,7 @@
     "id": "109282",
     "source_cn": "使用后解锁<Highlight>单人动作·欢喜</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "After use, unlock the <Highlight>solo action: Joy</>. If obtained repeatedly, it will automatically be dismantled into bound Sol upon use.",
-    "target_ru": "После использования разблокируйте индивидуальное действие <Highlight>: Joy</>. Если его получить повторно, он будет автоматически разобран на связанный Сол при использовании."
+    "target_ru": "После использования разблокируйте <Highlight>Одиночное действие · Радость</>. Если его получить повторно, он будет автоматически разобран на привязанные суле при использовании."
   },
   {
     "id": "109283",
@@ -26103,7 +26103,7 @@
     "id": "109381",
     "source_cn": "黑荆棘·门口马车传送",
     "ref_en": "Blackthorn · Entrance carriage teleport",
-    "target_ru": "Чёрный Чертополох · Телепорт входной кареты"
+    "target_ru": "«Чёрный Терновник» · Телепорт входной кареты"
   },
   {
     "id": "109382",
@@ -26175,7 +26175,7 @@
     "id": "109393",
     "source_cn": "不早了，赶快去黑荆棘安保公司找邓恩先生……",
     "ref_en": "It's getting late, hurry to Blackthorn Security Company to find Mr. Dunn...",
-    "target_ru": "Уже поздно, спешите в охранную компанию Чёрный Чертополох, чтобы найти мистера Данна..."
+    "target_ru": "Уже поздно, спешите в охранную компанию «Чёрный Терновник», чтобы найти мистера Данна..."
   },
   {
     "id": "109394",
@@ -26847,7 +26847,7 @@
     "id": "109505",
     "source_cn": "黑荆棘事件簿4-关卡2-阶段2准入buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Stage 2 Admission buff",
-    "target_ru": "Книга происшествий «Черный Шип» 4-уровень 2-этап 2 входной бафф"
+    "target_ru": "Книга происшествий «Чёрный Терновник» 4-уровень 2-этап 2 входной бафф"
   },
   {
     "id": "109506",
@@ -26985,7 +26985,7 @@
     "id": "109528",
     "source_cn": "伙伴技能-阿尔杰-漩涡隐身怪",
     "ref_en": "Partner Skill - Alger - Vortex Stealth Monster",
-    "target_ru": "Навык партнера — Алжир — Вихревой невидимый монстр"
+    "target_ru": "Навык партнера — Элджер — Вихревой невидимый монстр"
   },
   {
     "id": "109529",
@@ -27591,7 +27591,7 @@
     "id": "109629",
     "source_cn": "那道香草白酱煎肉真不错，{{PlayerName}}下次来黑荆棘，我们一起吃饭吧。",
     "ref_en": "That Pan-Seared Meat with Herb White Sauce was really good, {{PlayerName}}, let's eat together next time you come to Blackthorn.",
-    "target_ru": "Обжаренное мясо с белым соусом из трав было действительно вкусным, {{PlayerName}}, давай поедим вместе, когда в следующий раз приедешь в Чёрный Чертополох."
+    "target_ru": "Обжаренное мясо с белым соусом из трав было действительно вкусным, {{PlayerName}}, давай поедим вместе, когда в следующий раз приедешь в «Чёрный Терновник»."
   },
   {
     "id": "109630",
@@ -27657,7 +27657,7 @@
     "id": "109640",
     "source_cn": "        在因蒂斯共和国越发强盛时，罗塞尔·古斯塔夫不再将野心局限在国家内部，而是将目光投向了整片大陆。\\n        他南征北战，利用自己的各种发明，带领军队让鲁恩王国、费内波特王国、弗萨克帝国等北大陆强国相继低头，将伦堡等小国纳入保护范围。他还在狂暴海之中开辟了新航道，找到了南大陆，殖民时代从此开始。\\n        他不再满足执政官的位置。1192年，罗塞尔·古斯塔夫将因蒂斯共和国重新改为帝国，自称“凯撒大帝”。\\n        他成为一位真正的帝王，一位逐渐威严冷酷的帝王。",
     "ref_en": "        As the Intis Republic became more and more powerful, Roselle Gustav no longer limited his ambition to the interior of the country, but set his sights on the entire continent. \\n He fought north and south, using his various inventions to lead his army to make powerful nations of the Northern Continent such as the Loen Kingdom, Feynapotter Kingdom, and Feysac Empire bow their heads one after another, and brought small countries like Lenburg under his protection. He also opened up new shipping lanes in the Berserk Sea and found the Southern Continent, and the colonial era began from then on. \\n He was no longer satisfied with the position of Consul. In 1192, Roselle Gustav changed the Intis Republic back into an Empire and proclaimed himself \"Emperor Caesar.\" \\n He became a true monarch, a monarch who gradually became majestic and cold.",
-    "target_ru": "По мере того как Республика Интис становилась все более могущественной, Рассел Густав больше не ограничивал свои амбиции страной, а вместо этого нацелился на весь континент. \n Он сражался на севере и юге, используя свои различные изобретения, чтобы возглавить армию, чтобы заставить могущественные страны северного континента, такие как Королевство Лоен, Королевство Фенбо и Империя Фейсак, склонить головы одну за другой, и включил в сферу защиты небольшие страны, такие как Лунберг. Он также открыл новый канал в Бушующем море и нашел Южный континент, и началась колониальная эра. \n Его больше не устраивало положение консула. В 1192 году Рассел Густав превратил Республику Интис в империю и назвал себя «Цезарем». \n Он стал настоящим императором, императором, который постепенно становился все более величественным и жестоким."
+    "target_ru": "По мере того как Республика Интис становилась все более могущественной, Розель Густав больше не ограничивал свои амбиции страной, а вместо этого нацелился на весь континент. \n Он сражался на севере и юге, используя свои различные изобретения, чтобы возглавить армию, чтобы заставить могущественные страны северного континента, такие как Королевство Лоен, Королевство Фенбо и Империя Фейсак, склонить головы одну за другой, и включил в сферу защиты небольшие страны, такие как Лунберг. Он также открыл новый канал в Бушующем море и нашел Южный континент, и началась колониальная эра. \n Его больше не устраивало положение консула. В 1192 году Розель Густав превратил Республику Интис в империю и назвал себя «Цезарем». \n Он стал настоящим императором, императором, который постепенно становился все более величественным и жестоким."
   },
   {
     "id": "109641",
@@ -27669,7 +27669,7 @@
     "id": "109642",
     "source_cn": "5200004   黑荆棘安保公司   大世界",
     "ref_en": "5200004 Blackthorn Security Company Open World",
-    "target_ru": "5200004 Охранная компания Чёрный Чертополох Открытый мир"
+    "target_ru": "5200004 Охранная компания «Чёрный Терновник» Открытый мир"
   },
   {
     "id": "109643",
@@ -27813,7 +27813,7 @@
     "id": "109667",
     "source_cn": "使用后解锁<Highlight>表情·害怕</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Emote: Fear</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает эмоцию <Highlight>Emote: Fear</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Эмоцию · Страх</> при использовании; повторно полученный предмет автоматически разбирается на привязанные суле."
   },
   {
     "id": "109668",
@@ -29061,7 +29061,7 @@
     "id": "109877",
     "source_cn": "获得10000绑定苏勒。墨绿泛白的钞票，是鲁恩王国货币体系中较为常见的货币。",
     "ref_en": "Obtain 10,000 bound Sol. These dark green and white banknotes are a common currency in the Loen Kingdom's monetary system.",
-    "target_ru": "Получите 10 000 связанных Солов. Эти темно-зеленые и белые банкноты являются общепринятой валютой в денежной системе Королевства Лоен."
+    "target_ru": "Получите 10 000 привязанных суле. Эти темно-зеленые и белые банкноты являются общепринятой валютой в денежной системе Королевства Лоен."
   },
   {
     "id": "109878",
@@ -29217,7 +29217,7 @@
     "id": "109903",
     "source_cn": "阿尔杰隐秘羁绊奖励",
     "ref_en": "Alger secret bond reward.",
-    "target_ru": "Награда за секретные облигации Алжира."
+    "target_ru": "Награда за тайную связь Элджера."
   },
   {
     "id": "109904",

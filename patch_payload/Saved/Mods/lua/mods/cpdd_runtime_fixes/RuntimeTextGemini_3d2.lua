@@ -79,7 +79,7 @@ return {
     ["Second"] = "Второй",
     ["Unfollow"] = "Отписаться",
     ["Are these red things... stars?"] = "Это красные штучки... звезды?",
-    ["Roselle's Diary Attack/Defense"] = "Дневник Розеллы Атака/Защита",
+    ["Roselle's Diary Attack/Defense"] = "Дневник Розеля Атака/Защита",
     ["Storm above, I'm sorry."] = "Буря наверху, извини.",
     ["Glay"] = "Глей",
     ["No, no, I must learn this knowledge first. Only with knowledge will I not be eliminated by the era."] = "Нет-нет, сначала я должен усвоить эти знания. Только со знанием меня не устранит эпоха.",

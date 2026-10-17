@@ -435,7 +435,7 @@
     "id": "085072",
     "source_cn": "罗塞尔日记",
     "ref_en": "Roselle's Diary",
-    "target_ru": "Дневник Розеллы"
+    "target_ru": "Дневник Розеля"
   },
   {
     "id": "085073",
@@ -609,7 +609,7 @@
     "id": "085101",
     "source_cn": "黑荆棘克雷斯泰氛围",
     "ref_en": "Blackthorn Crest Atmosphere",
-    "target_ru": "Атмосфера Чёрный Чертополох Крест"
+    "target_ru": "Атмосфера «Чёрного Терновника» Крест"
   },
   {
     "id": "085102",
@@ -1353,7 +1353,7 @@
     "id": "085225",
     "source_cn": "<Assistant_Title1>【终末猎杀】</>\\n<Assistant_Title2>玩法说明：</><Assistant_System>终末猎杀</>是发生在<Assistant_Property1>猎龙之城</>的野外<Assistant_Red>500人混战</>玩法。你可以击败超凡生物或敌对玩家，获得<Assistant_Property1>猩红遗物材料</>与段位胜点。\\n<Assistant_Title2>核心目标：</>将<Assistant_Property1>猩红遗物材料</>提交给<Assistant_System>猎杀管家</>，推进猎杀进度并解锁阶段奖励。猩红遗物仅在猎龙之城内有效，离开后将自动失效并清除。\\n<Assistant_Title2>猎杀时刻：</>玩法全天开放；每日<Assistant_Red>19:00—20:00</>为猎杀时刻，周六、周日额外开放<Assistant_Red>14:00—15:00</>。猎杀时刻期间，击杀或被击杀时涉及的段位胜点数量翻倍。\\n<Assistant_Title2>王城事件：</>每周五晚的猎杀时刻开启10分钟后，即<Assistant_Red>19:10</>，王城中心刷新巨龙·投影；除周五晚场外，其他猎杀时刻开始10分钟后刷新王城守卫者。\\n<Assistant_Title2>团队结算：</>击杀者及最多29名符合助攻条件的同团队成员参与奖励结算。猩红遗物按参与人数平均分配，余数优先分配给击杀者1个，其余在其他参与者中随机分配。\\n<Assistant_Title2>掠夺规则：</>玩家头顶显示的碎片数量越多，抢夺猩红遗物的比例越高；头顶碎片数每提高500个，抢夺比例相应提升。\\n<Assistant_Title2>段位规则：</>段位低于<Assistant_Red>伯爵1阶</>时，被击杀不会损失段位胜点。每日01:00—08:00及短时间内重复击杀同一目标时，击杀玩家获得的段位胜点将按规则衰减。\\n<Assistant_Title2>参与方式：</>{JumpToUI:[前往终末猎杀]|1250342}",
     "ref_en": "<Assistant_Title1>【Final Hunt】</>\\n<Assistant_Title2>Gameplay Description:</><Assistant_System>Final Hunt</> is a <Assistant_Property1>City of Dragon Hunting</> open-world <Assistant_Red>500-player melee</> mode. You can defeat supernatural creatures or hostile players to obtain <Assistant_Property1>Scarlet Relic Materials</> and Rank Points.\\n<Assistant_Title2>Core Objective:</> Submit <Assistant_Property1>Scarlet Relic Materials</> to the <Assistant_System>Hunting Butler</> to advance the hunt progress and unlock stage rewards. Scarlet Relics are only effective within the City of Dragon Hunting; they will automatically expire and be cleared upon leaving.\\n<Assistant_Title2>Hunting Time:</> The mode is open all day; daily <Assistant_Red>19:00—20:00</> is Hunting Time, with additional sessions on Saturday and Sunday from <Assistant_Red>14:00—15:00</>. During Hunting Time, the number of Rank Points involved in kills or deaths is doubled.\\n<Assistant_Title2>Royal City Event:</> 10 minutes after the start of the Friday night Hunting Time, i.e., at <Assistant_Red>19:10</>, a Dragon - Projection will spawn in the center of the Royal City; outside of the Friday night session, a Royal City Guardian will spawn 10 minutes after the start of other Hunting Times.\\n<Assistant_Title2>Team Settlement:</> The killer and up to 29 team members who meet the assist criteria participate in the reward settlement. Scarlet Relics are distributed equally among participants, with the remainder given to the killer first, and the rest distributed randomly among other participants.\\n<Assistant_Title2>Plunder Rules:</> The more fragments displayed above a player's head, the higher the percentage of Scarlet Relics that can be plundered; for every 500 fragments increased, the plunder percentage increases accordingly.\\n<Assistant_Title2>Rank Rules:</> When your rank is below <Assistant_Red>Count Tier 1</>, you will not lose Rank Points upon being killed. Rank Points gained from killing players will decay according to the rules between 01:00—08:00 daily and when killing the same target repeatedly within a short period.\\n<Assistant_Title2>How to Participate:</>{JumpToUI:[Go to Final Hunt]|1250342}",
-    "target_ru": "<Assistant_Title1>【Последняя охота】</>\n<Assistant_Title2>Как играть: </><Assistant_System>Завершить охоту</> — это <Assistant_Red>500 геймплей ближнего боя </>, действие которого происходит в <Assistant_Property1>Dragon Hunting City</> в дикой природе. Вы можете побеждать необычных существ или вражеских игроков, чтобы получить <Assistant_Property1> алые реликвии </> и заработать победные очки. \n<Assistant_Title2> Основная цель: </> Отправьте <Assistant_Property1> алый реликтовый материал </> охотничьему дворецкому <Assistant_System> </>, чтобы ускорить прогресс охоты и разблокировать награды за этапы. Алая реликвия действительна только в Городе Охоты на Драконов и автоматически станет недействительной и очистится после выхода из нее. \n<Assistant_Title2>Время охоты: </>Геймплей открыт весь день; <Assistant_Red>19:00-20:00</> — время охоты каждый день, дополнительно открыт по субботам и воскресеньям <Assistant_Red>14:00-15:00</>. Во время Часа охоты количество очков ранга, затрачиваемых на убийство или быть убитым, удваивается. \n<Assistant_Title2> Инцидент в Королевском городе: </> Через 10 минут после начала охоты каждую пятницу вечером, то есть <Assistant_Red>19:10</>, проекция дракона обновляется в центре Королевского города; За исключением вечера пятницы, защитники Кинг-Сити обновляются через 10 минут после начала времени охоты. \n<Assistant_Title2>Командный расчет: </>В расчете вознаграждения участвуют убийца и до 29 членов той же команды, отвечающих условиям помощи. Алые реликвии распределяются равномерно по количеству участников, при этом оставшаяся сначала отдается убийце, а остальные случайным образом распределяются между другими участниками. \n<Assistant_Title2>Правила грабежа: </>Чем больше фрагментов отображается над головой игрока, тем выше процент ограблений алых реликвий; каждый раз, когда количество осколков над головой игрока увеличивается на 500, соответственно увеличивается и коэффициент грабежа. Правила ранга \n<Assistant_Title2>: Когда ранг </> ниже, чем <Assistant_Red> граф 1-го уровня </>, в случае убийства очки ранга не теряются. Если одна и та же цель убивается неоднократно между 01:00 и 08:00 каждый день или в течение короткого периода времени, очки ранга, полученные игроком, убившим игрока, будут уменьшены в соответствии с правилами. \n<Assistant_Title2>Как принять участие: </>{JumpToUI:[Перейти к поиску терминала]|1250342}"
+    "target_ru": "<Assistant_Title1>【Финальная охота】</>\n<Assistant_Title2>Как играть: </><Assistant_System>Финальная охота</> — это <Assistant_Red>500 геймплей ближнего боя </>, действие которого происходит в <Assistant_Property1>Городе охоты на драконов</> в дикой природе. Вы можете побеждать необычных существ или вражеских игроков, чтобы получить <Assistant_Property1> алые реликвии </> и заработать победные очки. \n<Assistant_Title2> Основная цель: </> Отправьте <Assistant_Property1> алый реликтовый материал </> охотничьему дворецкому <Assistant_System> </>, чтобы ускорить прогресс охоты и разблокировать награды за этапы. Алая реликвия действительна только в Городе Охоты на Драконов и автоматически станет недействительной и очистится после выхода из нее. \n<Assistant_Title2>Время охоты: </>Геймплей открыт весь день; <Assistant_Red>19:00-20:00</> — время охоты каждый день, дополнительно открыт по субботам и воскресеньям <Assistant_Red>14:00-15:00</>. Во время Часа охоты количество очков ранга, затрачиваемых на убийство или быть убитым, удваивается. \n<Assistant_Title2> Инцидент в Королевском городе: </> Через 10 минут после начала охоты каждую пятницу вечером, то есть <Assistant_Red>19:10</>, проекция дракона обновляется в центре Королевского города; За исключением вечера пятницы, защитники Кинг-Сити обновляются через 10 минут после начала времени охоты. \n<Assistant_Title2>Командный расчет: </>В расчете вознаграждения участвуют убийца и до 29 членов той же команды, отвечающих условиям помощи. Алые реликвии распределяются равномерно по количеству участников, при этом оставшаяся сначала отдается убийце, а остальные случайным образом распределяются между другими участниками. \n<Assistant_Title2>Правила грабежа: </>Чем больше фрагментов отображается над головой игрока, тем выше процент ограблений алых реликвий; каждый раз, когда количество осколков над головой игрока увеличивается на 500, соответственно увеличивается и коэффициент грабежа. Правила ранга \n<Assistant_Title2>: Когда ранг </> ниже, чем <Assistant_Red> граф 1-го уровня </>, в случае убийства очки ранга не теряются. Если одна и та же цель убивается неоднократно между 01:00 и 08:00 каждый день или в течение короткого периода времени, очки ранга, полученные игроком, убившим игрока, будут уменьшены в соответствии с правилами. \n<Assistant_Title2>Как принять участие: </>{JumpToUI:[Перейти к «Финальной охоте»]|1250342}"
   },
   {
     "id": "085226",
@@ -1953,7 +1953,7 @@
     "id": "085326",
     "source_cn": "毛绒绒的猫耳装饰，带来令人卸下心防的活泼与俏皮。\\n重复获取将自动分解为绑定苏勒×10000。",
     "ref_en": "Fluffy Cat ear decorations, bringing a liveliness and playfulness that makes one let down their guard. \\nRepeated acquisition will automatically decompose into Bound Sol ×10000.",
-    "target_ru": "Пушистые кошачьи ушки, дарящие образу непосредственность и игривое очарование.\nПри повторном получении автоматически распыляются на привязанные сулы ×10 000."
+    "target_ru": "Пушистые кошачьи ушки, дарящие образу непосредственность и игривое очарование.\nПри повторном получении автоматически распыляются на привязанные суле ×10 000."
   },
   {
     "id": "085327",
@@ -2025,13 +2025,13 @@
     "id": "085338",
     "source_cn": "等级提升受限中，需完成主线剧情《加入黑荆棘》，解锁等级限制。",
     "ref_en": "Level advancement is restricted. You must complete the main quest \"Joining the Nighthawks\" to unlock the level cap.",
-    "target_ru": "Повышение уровня ограничено. Вы должны выполнить основной квест «Присоединение к Ночным Ястребам», чтобы разблокировать максимальный уровень."
+    "target_ru": "Повышение уровня ограничено. Вы должны выполнить основной квест «Присоединение к Чёрному Терновнику», чтобы разблокировать максимальный уровень."
   },
   {
     "id": "085339",
     "source_cn": "终末猎杀累计获得猎杀进度%d/20000点",
     "ref_en": "Accumulate %d/20000 hunting progress in Final Hunt.",
-    "target_ru": "Накопите прогресс охоты %d/20000 в Final Hunt."
+    "target_ru": "Накопите прогресс охоты %d/20000 в «Финальной охоте»."
   },
   {
     "id": "085340",
@@ -3015,7 +3015,7 @@
     "id": "085503",
     "source_cn": "你就是那个刚加入黑荆棘的新人？",
     "ref_en": "Are you the newcomer who just joined Blackthorn?",
-    "target_ru": "Вы новичок, который только что присоединился к Чёрный Чертополох?"
+    "target_ru": "Вы новичок, который только что присоединился к «Чёрному Терновнику»?"
   },
   {
     "id": "085504",
@@ -5019,7 +5019,7 @@
     "id": "085838",
     "source_cn": "罗塞尔残存意志复苏",
     "ref_en": "Roselle's residual will revives",
-    "target_ru": "Остаток Розеллы оживет"
+    "target_ru": "Остаток Розеля оживет"
   },
   {
     "id": "085839",
@@ -8511,7 +8511,7 @@
     "id": "086424",
     "source_cn": "使用后获得称号:<Highlight>终末猎杀·天使之王</>",
     "ref_en": "Use to obtain the title: <Highlight> Final Hunt: King of Angels </>",
-    "target_ru": "Используйте, чтобы получить титул: <Highlight> Последняя охота: Король ангелов </>."
+    "target_ru": "Используйте, чтобы получить титул: <Highlight> Финальная охота: Король ангелов </>."
   },
   {
     "id": "086425",
@@ -10065,7 +10065,7 @@
     "id": "086685",
     "source_cn": "前往黑荆棘安保公司入职，克莱恩成为了一名值夜者，页认识了公司许多友善又去的新同事。在这个过程中，克莱恩意外读到了罗塞尔打的的日记，发现他竟然是以为穿越者！在这个过程中，克莱恩意外读到了罗",
     "ref_en": "After joining the Blackthorn Security Company, Klein became a Nighthawk and met many friendly and interesting new colleagues. During this process, Klein accidentally read Roselle's diary and discovered that he was actually a transmigrator! During this process, Klein accidentally read Ro...",
-    "target_ru": "Придя в компанию Чёрный Чертополох Security, Клейн стал «Ночным ястребом» и встретил много дружелюбных и интересных новых коллег. Во время этого процесса Клейн случайно прочитал дневник Розеллы и обнаружил, что на самом деле он был переселенцем! Во время этого процесса Клейн случайно прочитал Ро..."
+    "target_ru": "Придя в охранную компанию «Чёрный Терновник», Клейн стал «Ночным ястребом» и встретил много дружелюбных и интересных новых коллег. Во время этого процесса Клейн случайно прочитал дневник Розеля и обнаружил, что на самом деле он был переселенцем! Во время этого процесса Клейн случайно прочитал Ро..."
   },
   {
     "id": "086686",
@@ -10857,7 +10857,7 @@
     "id": "086817",
     "source_cn": "参与终末猎杀玩法，并达到血色亲王段位。",
     "ref_en": "Participate in the Final Hunt challenge and reach the Bloody Prince rank.",
-    "target_ru": "Примите участие в испытании «Последняя охота» и получите ранг «Кровавый принц»."
+    "target_ru": "Примите участие в испытании «Финальная охота» и получите ранг «Кровавый принц»."
   },
   {
     "id": "086818",
@@ -11721,7 +11721,7 @@
     "id": "086961",
     "source_cn": "前往黑荆棘",
     "ref_en": "Go to Blackthorn",
-    "target_ru": "Иди в Чёрный Чертополох"
+    "target_ru": "Иди в «Чёрный Терновник»"
   },
   {
     "id": "086962",
@@ -12315,7 +12315,7 @@
     "id": "087060",
     "source_cn": "黑荆棘事件簿3-关卡5-交互QTE",
     "ref_en": "Black Thorn Incident Book 3-Level 5-Interaction QTE",
-    "target_ru": "Книга происшествий Black Thorn, 3 уровня, 5 взаимодействий, QTE"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 3 — Уровень 5 — Взаимодействие QTE"
   },
   {
     "id": "087061",
@@ -13251,7 +13251,7 @@
     "id": "087218",
     "source_cn": "使用后解锁<Highlight>单人社交动作·掸灰尘</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Dust Off</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: смахнуть пыль с </> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: смахнуть пыль с </> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "087219",
@@ -14769,7 +14769,7 @@
     "id": "087471",
     "source_cn": "黑荆棘事件簿4-第二关-法术场-小",
     "ref_en": "Black Thorn Event Book 4 - Stage 2 - Spell Field - Small",
-    "target_ru": "Книга событий «Черный Шип» 4 — Этап 2 — Поле заклинаний — Маленькое"
+    "target_ru": "Книга событий «Чёрного Терновника» 4 — Этап 2 — Поле заклинаний — Маленькое"
   },
   {
     "id": "087472",
@@ -14823,7 +14823,7 @@
     "id": "087480",
     "source_cn": "<h>离开</>黑荆棘安保公司",
     "ref_en": "<h>Leave</> Blackthorn Security Company",
-    "target_ru": "<h>Leave</> Охранная компания Чёрный Чертополох"
+    "target_ru": "<h>Покинуть</> охранную компанию «Чёрный Терновник»"
   },
   {
     "id": "087481",
@@ -15621,7 +15621,7 @@
     "id": "087614",
     "source_cn": "黑荆棘事件簿4-关卡1-非凡能力封印",
     "ref_en": "Blackthorn Casebook 4 - Level 1 - Beyonder ability seal",
-    "target_ru": "Книга дел Блэкторна 4 — Уровень 1 — Печать способности Потусторонний"
+    "target_ru": "Книга дел «Чёрного Терновника» 4 — Уровень 1 — Печать потусторонних способностей"
   },
   {
     "id": "087615",
@@ -15951,7 +15951,7 @@
     "id": "087671",
     "source_cn": "哦……赞美罗塞尔大帝，他穿越了狂暴海，发现了那本来只存在于古书里的南大陆。",
     "ref_en": "Oh... praise Emperor Roselle. He crossed the Berserk Sea and discovered the Southern Continent, which originally only existed in ancient books.",
-    "target_ru": "Ох... хвала императору Розелле. Он пересек Море Берсерка и открыл Южный континент, который изначально существовал только в древних книгах."
+    "target_ru": "Ох... хвала императору Розелю. Он пересек Море Берсерка и открыл Южный континент, который изначально существовал только в древних книгах."
   },
   {
     "id": "087672",
@@ -16551,7 +16551,7 @@
     "id": "087771",
     "source_cn": "黑荆棘周边氛围",
     "ref_en": "Blackthorn surrounding atmosphere",
-    "target_ru": "Окружающая атмосфера Блэкторна"
+    "target_ru": "Окружающая атмосфера «Чёрного Терновника»"
   },
   {
     "id": "087772",
@@ -18081,7 +18081,7 @@
     "id": "088030",
     "source_cn": "赞美罗塞尔大帝，他简直是一位超越时代的巨人。",
     "ref_en": "Praise Emperor Roselle, he is simply a giant who transcended the era.",
-    "target_ru": "Слава императору Розелле, он просто гигант, вышедший за пределы эпохи."
+    "target_ru": "Слава императору Розелю, он просто гигант, вышедший за пределы эпохи."
   },
   {
     "id": "088031",
@@ -19173,7 +19173,7 @@
     "id": "088213",
     "source_cn": "你再次遇到报童汤姆，发现罗塞尔大帝的风潮正席卷廷根。你骑车带他到大剧院，围观戏剧节售票活动，了解罗塞尔生平，成功阻止抢票的猎龙帮混混，受邀在罗塞尔画像上签名，并获赠铜镜。你送汤姆去工厂区，发现他的哥哥杰克被解雇后，决定去五月庄园打短工。你返回黑荆棘，在伦纳德引导下喝下序列9魔药，战胜潜意识中的未知存在，成为真正的非凡者。最后你见到弗莱队长，了解知识皇冠失踪案，分析各种线索后三人分头调查。",
     "ref_en": "You meet the newsboy Tom again and discover that the trend of Emperor Roselle is sweeping through Tingen. You take him to the Grand Theater by bike, watch the theater festival ticket sales event, learn about Roselle's life, successfully stop the Dragon Hunter Gang thugs from grabbing tickets, are invited to sign on Roselle's portrait, and are gifted a bronze mirror. You take Tom to the factory district and discover that after his brother Jack was fired, he decided to do odd jobs at May Manor. You return to Blackthorn, drink the Sequence 9 potion under Leonard's guidance, defeat the Unknown Existence in your subconscious, and become a true Beyonder. Finally, you meet Captain Frye, learn about the Knowledge Crown disappearance case, and after analyzing various clues, the three of you split up to investigate.",
-    "target_ru": "Вы снова встречаете газетчика Тома и обнаруживаете, что тенденция Императора Розеллы распространяется по Тингену. Вы отвозите его в Большой театр на велосипеде, наблюдаете за продажей билетов на театральный фестиваль, узнаете о жизни Розеллы, успешно не даете головорезам из банды охотников на драконов захватить билеты, вас приглашают расписаться на портрете Розеллы и дарят бронзовое зеркало. Вы берете Тома в фабричный район и обнаруживаете, что после того, как его брата Джека уволили, он решил подрабатывать в Мэй-Мэнор. Вы возвращаетесь в Чёрный Чертополох, выпиваете зелье Последовательности 9 под руководством Леонарда, побеждаете Неизвестное Существование в своем подсознании и становитесь настоящим Потусторонним. Наконец, вы встречаете капитана Фрая, узнаете о деле об исчезновении Короны Знаний и, проанализировав различные улики, вы втроем расходитесь для расследования."
+    "target_ru": "Вы снова встречаете газетчика Тома и обнаруживаете, что тенденция Императора Розеля распространяется по Тингену. Вы отвозите его в Большой театр на велосипеде, наблюдаете за продажей билетов на театральный фестиваль, узнаете о жизни Розеля, успешно не даете головорезам из банды охотников на драконов захватить билеты, вас приглашают расписаться на портрете Розеля и дарят бронзовое зеркало. Вы берете Тома в фабричный район и обнаруживаете, что после того, как его брата Джека уволили, он решил подрабатывать в Мэй-Мэнор. Вы возвращаетесь в «Чёрный Терновник», выпиваете зелье Последовательности 9 под руководством Леонарда, побеждаете Неизвестное Существование в своем подсознании и становитесь настоящим Потусторонним. Наконец, вы встречаете капитана Фрая, узнаете о деле об исчезновении Короны Знаний и, проанализировав различные улики, вы втроем расходитесь для расследования."
   },
   {
     "id": "088214",
@@ -20493,7 +20493,7 @@
     "id": "088433",
     "source_cn": "终末猎杀讨伐巨龙<Highlight>[团队拍卖]</>:%d月%d日（今日）19：10开启",
     "ref_en": "End-Time Hunt Slay Giant Dragon <Highlight> [Team Auction] </>: Starts at 19:10 on %d/%d (Today)",
-    "target_ru": "Охота Конца Времени, победи гигантского дракона <Highlight> [Командный аукцион] </>: начало в 19:10 на %d/%d (сегодня)"
+    "target_ru": "«Финальная охота», победи гигантского дракона <Highlight> [Командный аукцион] </>: начало в 19:10 на %d/%d (сегодня)"
   },
   {
     "id": "088434",
@@ -21279,7 +21279,7 @@
     "id": "088564",
     "source_cn": "黑荆棘事件簿4-关卡1-玩家被控效果",
     "ref_en": "Black Thorn Incident Book 4-Level 1-Player Controlled Effect",
-    "target_ru": "Книга происшествий Black Thorn, 4 уровня, эффект, управляемый 1 игроком"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — Уровень 1 — Эффект контроля игрока"
   },
   {
     "id": "088565",
@@ -21861,7 +21861,7 @@
     "id": "088661",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>62装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 62</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. There is a certain probability of obtaining 1 Gray Fog Crystal Shard (used to upgrade Competition Brooches of Item Level 64 or higher to Mythical quality); you can obtain at most 3 per week, and any unobtained amount can be accumulated to the following week.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 62-го уровня </> <Highlight>Ориентированный на соревнования</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу. Существует определенная вероятность получить 1 Осколок серого туманного кристалла (используется для улучшения соревновательной броши уровня предмета 64 или выше до мифического качества); вы можете получить максимум 3 в неделю, а любую недостающую сумму можно накопить до следующей недели."
+    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 62-го уровня </> <Highlight>Ориентированный на соревнования</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и привязанные суле. Существует определенная вероятность получить 1 Осколок серого туманного кристалла (используется для улучшения соревновательной броши уровня предмета 64 или выше до мифического качества); вы можете получить максимум 3 в неделю, а любую недостающую сумму можно накопить до следующей недели."
   },
   {
     "id": "088662",
@@ -23073,7 +23073,7 @@
     "id": "088864",
     "source_cn": "单人解除誓约所需苏勒不足。",
     "ref_en": "Insufficient Sol required for single-player Covenant dissolution.",
-    "target_ru": "Для роспуска Ковенанта в одиночной игре требуется недостаточное количество Сол."
+    "target_ru": "Для роспуска Ковенанта в одиночной игре недостаточно суле."
   },
   {
     "id": "088865",
@@ -23613,7 +23613,7 @@
     "id": "088954",
     "source_cn": "<Assistant_Title1>一点零花钱</>\\n<Assistant_Title2>成就分类：</>剧情-现实主线\\n<Assistant_Title2>解锁条件：</>在第一章主线中，获得奥黛丽赠送的2万苏勒零花钱。",
     "ref_en": "<Assistant_Title1>A Bit of Pocket Money</>\\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Story\\n<Assistant_Title2>Unlock Condition: </>During the Chapter 1 main story, receive 20,000 pounds in pocket money gifted by Audrey.",
-    "target_ru": "<Assistant_Title1>Немного на карманные расходы</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Реальный мир\n<Assistant_Title2>Условие получения: </>В 1-й главе основного сюжета получите от Одри 20 000 сулей на карманные расходы."
+    "target_ru": "<Assistant_Title1>Немного на карманные расходы</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Реальный мир\n<Assistant_Title2>Условие получения: </>В 1-й главе основного сюжета получите от Одри 20 000 суле на карманные расходы."
   },
   {
     "id": "088955",
@@ -23781,7 +23781,7 @@
     "id": "088983",
     "source_cn": "使用后获得称号:<Highlight>终末猎杀·血色亲王</>",
     "ref_en": "Use to obtain the title: <Highlight> Final Hunt: Bloody Prince </>",
-    "target_ru": "Используйте, чтобы получить титул: <Highlight> Последняя охота: Кровавый принц </>"
+    "target_ru": "Используйте, чтобы получить титул: <Highlight> Финальная охота: Кровавый принц </>"
   },
   {
     "id": "088984",
@@ -24723,7 +24723,7 @@
     "id": "089141",
     "source_cn": "开启可随机获得一件<Highlight>62装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 62</> <Highlight>Adventure-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Откройте, чтобы случайным образом получить одну часть <Highlight>уровня 62</> <Highlight>Приключенческого </> оранжевого или золотого снаряжения, материалов Потусторонний, Факторов агрегации или связанного Сола."
+    "target_ru": "Откройте, чтобы случайным образом получить одну часть <Highlight>уровня 62</> <Highlight>Приключенческого </> оранжевого или золотого снаряжения, материалов Потусторонний, Факторов агрегации или привязанных суле."
   },
   {
     "id": "089142",
@@ -26397,7 +26397,7 @@
     "id": "089420",
     "source_cn": "让你背诵的《罗塞尔诗选》怎样了？毕竟，“午夜诗人”需要使用不同风格的诗篇，才能对周围生灵产生不同的影响。",
     "ref_en": "How is your memorization of the \"Roselle Poetry Collection\" coming along? After all, a Midnight Poet needs to use different styles of poetry to exert different influences on the surrounding living beings.",
-    "target_ru": "Как продвигается ваше заучивание «Сборника стихов Розеллы»? Ведь Полуночному Поэту необходимо использовать разные стили поэзии, чтобы оказывать различное влияние на окружающих живых существ."
+    "target_ru": "Как продвигается ваше заучивание «Сборника стихов Розеля»? Ведь Полуночному Поэту необходимо использовать разные стили поэзии, чтобы оказывать различное влияние на окружающих живых существ."
   },
   {
     "id": "089421",
@@ -27279,7 +27279,7 @@
     "id": "089567",
     "source_cn": "<InvDefault>1.因“非凡之路，感谢同行”福利计划，我们本周新增了【零元购凭证】的更多获取途径，修改内容如下：</>\\n<InvDefault>【神降惊喜礼盒福利加码】</>\\n<InvDefault>1）新增奖励内容：原秘宝箱子中获取的</><InvHighlight>神降惊喜礼盒稀有概率不变，新增了零元购凭证、多种金镑代金券奖励类型</><InvDefault>，且未获得稀有奖励时必定获得一定数量的绑定苏勒。</>\\n<InvDefault>2）修改开启方式：</><InvHighlight>神降惊喜礼盒从默认自动开启修改为需手动确认开启</><InvDefault>。</>\\n<InvDefault>3）我们将为符合情况的对应非凡者，发送本周已开启的神降惊喜礼盒对应数量的新增奖励礼盒，包括：概率获取的零元购凭证、多种金镑代金券和一定数量的绑定苏勒，之后将通过邮件形式发放，请非凡者关注后续邮件。</>\\n<InvDefault>2.【剧情】</>\\n<InvDefault>1）修复了特殊情况下，达到指定等级未正常开启主线任务的问题。</>\\n<InvDefault>2）修复了现实主线《廷根守护者》中部分步骤黑屏时间过长的问题。</>\\n<InvDefault>3）修复了特殊情况下现实主线《暗涌的危机》中无法找到伦纳德、弗莱的问题。</>\\n<InvDefault>4）优化了部分主线动画的Skip节奏。</>\\n<InvDefault>3.【副本】</>\\n<InvDefault>1）下调了副本【黑荆棘事件簿·黄金之罪】中“洛克·金”骗局陷阱和债务之护机制处理失败后的技能伤害。</>\\n<InvDefault>2）下调了副本【乌托邦剧院】困难和噩梦难度下，双人模式中怪物的伤害。</>\\n<InvDefault>4.优化了【座驾】中车辆【留声机】的播放规则，若下车前已经暂停或者关闭留声机，再次上车会记录留声机状态，不会默认播放。</>\\n<InvDefault>5.修复了【廷根】的【马车】和【骑警】的音效问题以及移动表现问题。</>\\n<InvDefault>6.修复了特殊情况下，【原著瞬间】等【秩序世界】玩法物件消失无法交互，导致玩法无法完成的问题，非凡者可以回到原点位正常完成玩法。</>\\n<InvDefault>7.修复了学徒技能【记录】和【漫游】在网络波动环境下触发异常的问题。</>",
     "ref_en": "<InvDefault>1. As part of the ‘Path of the Beyonder, Thank You for the Journey’ benefit program, more ways to obtain 【Zero-Cost Vouchers】 have been added this week, with the following changes:</>\\n<InvDefault>【Divine Descent Surprise Gift Box Bonus】</>\\n<InvDefault>1）New rewards: the original Treasure Chest's </><InvHighlight>rare-drop rate for Divine Descent Surprise Gift Boxes is unchanged, while Zero-Cost Vouchers and several pound-voucher reward types have been added</><InvDefault>. A quantity of bound soli is guaranteed whenever no rare reward is obtained.</>\\n<InvDefault>2）Opening method changed: </><InvHighlight>Divine Descent Surprise Gift Boxes now require manual confirmation instead of opening automatically by default</><InvDefault>.</>\\n<InvDefault>3）Eligible Beyonders will receive additional reward boxes matching the number of Divine Descent Surprise Gift Boxes opened this week. These may grant Zero-Cost Vouchers, several kinds of pound vouchers, and a quantity of bound soli. They will be delivered by mail; please watch for future messages.</>\\n<InvDefault>2.【Story】</>\\n<InvDefault>1）Fixed the main quest not starting normally upon reaching the required level under special circumstances.</>\\n<InvDefault>2）Fixed excessively long black screens during some steps of the real-world main quest 《Guardian of Tingen》.</>\\n<InvDefault>3）Fixed Leonard and Frye being impossible to find under special circumstances in the real-world main quest 《Undercurrent Crisis》.</>\\n<InvDefault>4）Improved the Skip pacing of some main-story cinematics.</>\\n<InvDefault>3.【Dungeons】</>\\n<InvDefault>1）Reduced skill damage after failing the Locke King scam-trap and Debt Protection mechanics in 【Blackthorn Casebook · Sin of Gold】.</>\\n<InvDefault>2）Reduced monster damage in two-player mode on Hard and Nightmare difficulties in 【Utopia Theatre】.</>\\n<InvDefault>4. Improved the playback rules for the 【Gramophone】 vehicle feature under 【Mounts】. If the gramophone was paused or switched off before dismounting, its state is now remembered when mounting again instead of playback starting automatically.</>\\n<InvDefault>5. Fixed sound and movement issues affecting 【Carriages】 and 【Mounted Police】 in 【Tingen】.</>\\n<InvDefault>6. Fixed 【World of Order】 objects such as 【Original-Story Moments】 disappearing and becoming non-interactive under special circumstances, preventing completion. Beyonders can now return to the original location and finish normally.</>\\n<InvDefault>7. Fixed abnormal triggering of the Apprentice skills 【Record】 and 【Wander】 during network instability.</>",
-    "target_ru": "<InvDefault>1. В рамках программы благодарности «Путь Потустороннего: спасибо, что вы с нами» на этой неделе расширены способы получения «Купонов бесплатной покупки». Подробности изменений:</>\n<InvDefault>【Дополнительные награды из подарочной шкатулки нисхождения божества】</>\n<InvDefault>1) Новые награды: в подарочной шкатулке нисхождения божества, получаемой из сундуков с тайными сокровищами, </><InvHighlight>шанс выпадения редких наград остался прежним, но добавлены купоны бесплатной покупки и различные типы ваучеров на золотые фунты</><InvDefault>. Если редкая награда не выпала, гарантированно выдаётся определённое количество персональных сулей.</>\n<InvDefault>2) Изменение способа открытия: </><InvHighlight>шкатулка нисхождения божества теперь открывается вручную с подтверждением, а не автоматически по умолчанию</><InvDefault>.</>\n<InvDefault>3) Потусторонним, открывавшим подарочные шкатулки нисхождения божества на этой неделе, будет отправлено соответствующее число подарочных шкатулок с новыми наградами (шанс на получение купонов бесплатной покупки, ваучеров на золотые фунты и гарантированных персональных сулей). Награды придут на игровую почту — пожалуйста, проверяйте письма.</>\n<InvDefault>2. 【Сюжет】</>\n<InvDefault>1) Исправлена ошибка, из-за которой при определённых условиях основное задание не начиналось при достижении требуемого уровня.</>\n<InvDefault>2) Исправлено излишне долгое отображение чёрного экрана на некоторых этапах сюжетного задания реального мира «Страж Тингена».</>\n<InvDefault>3) Исправлена редкая ошибка в сюжетном задании реального мира «Скрытый кризис», из-за которой невозможно было найти Леонарда и Фрая.</>\n<InvDefault>4) Оптимизирован тайминг кнопки пропуска в некоторых сюжетных роликах.</>\n<InvDefault>3. 【Подземелья】</>\n<InvDefault>1) Снижен урон от механик «Ловушка обмана» и «Долговая защита» босса Локк Голд в подземелье «Хроники инцидентов «Чёрного терновника»: Золотой грех» при неудачном выполнении.</>\n<InvDefault>2) Снижен урон от монстров в совместном режиме на двоих на высокой и кошмарной сложностях в подземелье «Театр «Утопия»».</>\n<InvDefault>4. Оптимизированы правила воспроизведения «Граммофона» в меню «Транспорт»: если перед выходом из транспорта воспроизведение было приостановлено или выключено, при повторной посадке это состояние сохранится и музыка не заиграет автоматически.</>\n<InvDefault>5. Исправлены звуковые эффекты и анимация движения карет и конной полиции в Тингене.</>\n<InvDefault>6. Исправлена редкая ошибка, из-за которой объекты активностей «Мира порядка» (например, «Моменты канона») пропадали или становились неинтерактивными. Теперь можно вернуться на исходную точку и завершить активность в штатном режиме.</>\n<InvDefault>7. Исправлена некорректная работа навыков Ученика «Запись» и «Странствие» при нестабильном сетевом соединении.</>"
+    "target_ru": "<InvDefault>1. В рамках программы благодарности «Путь Потустороннего: спасибо, что вы с нами» на этой неделе расширены способы получения «Купонов бесплатной покупки». Подробности изменений:</>\n<InvDefault>【Дополнительные награды из подарочной шкатулки нисхождения божества】</>\n<InvDefault>1) Новые награды: в подарочной шкатулке нисхождения божества, получаемой из сундуков с тайными сокровищами, </><InvHighlight>шанс выпадения редких наград остался прежним, но добавлены купоны бесплатной покупки и различные типы ваучеров на золотые фунты</><InvDefault>. Если редкая награда не выпала, гарантированно выдаётся определённое количество привязанных суле.</>\n<InvDefault>2) Изменение способа открытия: </><InvHighlight>шкатулка нисхождения божества теперь открывается вручную с подтверждением, а не автоматически по умолчанию</><InvDefault>.</>\n<InvDefault>3) Потусторонним, открывавшим подарочные шкатулки нисхождения божества на этой неделе, будет отправлено соответствующее число подарочных шкатулок с новыми наградами (шанс на получение купонов бесплатной покупки, ваучеров на золотые фунты и гарантированных привязанных суле). Награды придут на игровую почту — пожалуйста, проверяйте письма.</>\n<InvDefault>2. 【Сюжет】</>\n<InvDefault>1) Исправлена ошибка, из-за которой при определённых условиях основное задание не начиналось при достижении требуемого уровня.</>\n<InvDefault>2) Исправлено излишне долгое отображение чёрного экрана на некоторых этапах сюжетного задания реального мира «Страж Тингена».</>\n<InvDefault>3) Исправлена редкая ошибка в сюжетном задании реального мира «Скрытый кризис», из-за которой невозможно было найти Леонарда и Фрая.</>\n<InvDefault>4) Оптимизирован тайминг кнопки пропуска в некоторых сюжетных роликах.</>\n<InvDefault>3. 【Подземелья】</>\n<InvDefault>1) Снижен урон от механик «Ловушка обмана» и «Долговая защита» босса Локк Голд в подземелье «Хроники инцидентов «Чёрного терновника»: Золотой грех» при неудачном выполнении.</>\n<InvDefault>2) Снижен урон от монстров в совместном режиме на двоих на высокой и кошмарной сложностях в подземелье «Театр «Утопия»».</>\n<InvDefault>4. Оптимизированы правила воспроизведения «Граммофона» в меню «Транспорт»: если перед выходом из транспорта воспроизведение было приостановлено или выключено, при повторной посадке это состояние сохранится и музыка не заиграет автоматически.</>\n<InvDefault>5. Исправлены звуковые эффекты и анимация движения карет и конной полиции в Тингене.</>\n<InvDefault>6. Исправлена редкая ошибка, из-за которой объекты активностей «Мира порядка» (например, «Моменты канона») пропадали или становились неинтерактивными. Теперь можно вернуться на исходную точку и завершить активность в штатном режиме.</>\n<InvDefault>7. Исправлена некорректная работа навыков Ученика «Запись» и «Странствие» при нестабильном сетевом соединении.</>"
   },
   {
     "id": "089568",
@@ -27291,7 +27291,7 @@
     "id": "089569",
     "source_cn": "<P_Heart>（明天休息半天……正好上午去占卜家俱乐部扮演，下午回黑荆棘继续神秘学课程。）</>",
     "ref_en": "<P_Heart>(Half a day off tomorrow... perfect for acting at the Divination Club in the morning and returning to Blackthorn for occult lessons in the afternoon.)</>",
-    "target_ru": "<P_Heart>(Завтра полдня выходного... идеально подходит для выступления в Клубе Гадания утром и возвращения в Чёрный Чертополох для уроков оккультизма во второй половине дня.)</>"
+    "target_ru": "<P_Heart>(Завтра полдня выходного... идеально подходит для выступления в Клубе Гадания утром и возвращения в «Чёрный Терновник» для уроков оккультизма во второй половине дня.)</>"
   },
   {
     "id": "089570",
@@ -28773,7 +28773,7 @@
     "id": "089820",
     "source_cn": "<P_Heart>（他们似乎忘记了罗塞尔大帝……这是个扮演歌颂者的好机会。）</>",
     "ref_en": "<P_Heart> (They seem to have forgotten Emperor Roselle... This is a good opportunity to act as a Bard.) </>",
-    "target_ru": "<P_Heart> (Кажется, они забыли Императора Розеллу... Это хорошая возможность выступить в роли Барда.) </>"
+    "target_ru": "<P_Heart> (Кажется, они забыли Императора Розеля... Это хорошая возможность выступить в роли Барда.) </>"
   },
   {
     "id": "089821",

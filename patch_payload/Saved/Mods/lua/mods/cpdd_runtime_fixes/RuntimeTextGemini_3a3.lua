@@ -58,7 +58,7 @@ return {
     ["\"Best Model Worker\" Medal"] = "Медаль «Лучший образцовый работник»",
     ["Woven from soft Feynapotter wool, suitable for placing between the study sofa and the fireplace."] = "Сплетен из мягкой шерсти Фейнапоттер, подходит для размещения между рабочим диваном и камином.",
     ["Fire a pistol shot at the current target within 3 grids, dealing <color=red>90% attack damage</color>."] = "Производит выстрел из пистолета по текущей цели в пределах 3 клеток, нанося <color=red>90% урона от силы атаки</color>.",
-    ["5230245 Blackthorn Security Company Plane"] = "5230245 Самолет охранной компании Чёрный Чертополох",
+    ["5230245 Blackthorn Security Company Plane"] = "5230245 Измерение охранной компании «Чёрный Терновник»",
     ["Follow the rhythm of the room and move in the correct direction!"] = "Следуйте ритму комнаты и двигайтесь в правильном направлении!",
     ["Complete the \"Psychological Treatment\" event."] = "Завершите мероприятие «Психологическое лечение».",
     ["Warrior - Roleplay Skill - Absorb Afterimage"] = "Воин — навык ролевой игры — поглощение остаточного изображения",

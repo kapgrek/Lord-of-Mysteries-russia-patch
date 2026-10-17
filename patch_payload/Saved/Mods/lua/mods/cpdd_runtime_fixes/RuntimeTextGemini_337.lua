@@ -33,7 +33,7 @@ return {
     ["Complete %d/3 challenge events"] = "Завершите испытания %d/3.",
     ["Group scheme successfully overwritten"] = "Групповая схема успешно перезаписана",
     ["……I want to be a Steam Mechanic."] = "……Я хочу быть паровым механиком.",
-    ["Roselle's Residual Will - 2 Star"] = "Остаточная воля Розеллы — 2 звезды",
+    ["Roselle's Residual Will - 2 Star"] = "Остаточная воля Розеля — 2 звезды",
     ["Diagnostic record"] = "Диагностическая запись",
     ["Uninvited Sound - Couple by the Lake"] = "Незваный звук - Пара у озера",
     ["Page of Pentacles"] = "Паж Пентаклей",

@@ -35,7 +35,7 @@ return {
     ["Extend Left Hand"] = "Вытяните левую руку",
     ["My lady with cracks like tear stains... you are heartbreakingly beautiful today."] = "Моя леди, с трещинами, как слезные пятна... ты сегодня душераздирающе красива.",
     ["Hunt Butler dialogue"] = "Диалог Ханта Батлера",
-    ["Roselle Pointing Direction Action Before Turning Positioning"] = "Розель указывает направление действия перед поворотом",
+    ["Roselle Pointing Direction Action Before Turning Positioning"] = "Розанна указывает путь: поворот и позиционирование перед действием",
     ["Land of End - Return to the world of Lord of Mysteries sequence pending"] = "Земля Края — ожидается последовательность возвращения в мир «Повелителя тайн»",
     ["Pull out the sealed sword"] = "Вытащите запечатанный меч",
     ["←  Red"] = "← Красный",

@@ -129,7 +129,7 @@
     "id": "020021",
     "source_cn": "随便看，十苏勒一把。当装饰挂墙上挺好看的。",
     "ref_en": "Take a look at whatever you want, ten soli each. They look quite nice as decorations on the wall.",
-    "target_ru": "Вы только посмотрите: десять солей за горсть. Он отлично смотрится, если повесить его на стену в качестве украшения."
+    "target_ru": "Вы только посмотрите: десять суле за горсть. Он отлично смотрится, если повесить его на стену в качестве украшения."
   },
   {
     "id": "020022",
@@ -507,7 +507,7 @@
     "id": "020084",
     "source_cn": "弗莱队长和我说过了，小罗珊也到这个年纪了啊！",
     "ref_en": "Captain Frye has already told me, little Rozanne has reached this age too!",
-    "target_ru": "Капитан Фрай сказал мне, что маленькая Роксана достигла этого возраста!"
+    "target_ru": "Капитан Фрай сказал мне, что маленькая Розанна достигла этого возраста!"
   },
   {
     "id": "020085",
@@ -867,7 +867,7 @@
     "id": "020144",
     "source_cn": " 吃下，惊喜……嘿嘿，10苏勒，颗。",
     "ref_en": "Eat it, surprise... hehe, 10 soli, per piece.",
-    "target_ru": "Съешь, сюрприз... Хе-хе, 10 солей, одна штука."
+    "target_ru": "Съешь, сюрприз... Хе-хе, 10 суле, одна штука."
   },
   {
     "id": "020145",
@@ -885,7 +885,7 @@
     "id": "020147",
     "source_cn": "<Assistant_Title1>【值夜模式】</>\\n<Assistant_Title2>玩法类型：</><Assistant_Property1>黑荆棘事件簿</>\\n<Assistant_Title2>参与方式：</>非凡者在<Assistant_Property1>57级</>后，点击<Assistant_System>菜单-世界冒险-副本-黑荆棘事件簿-值夜模式</>参与。\\n<Assistant_Title2>参与人数：</>5~6人组队，或选择人机模式前往。\\n<Assistant_Title2>玩法奖励：</>60装等金色装备、非凡物质等。每日1次奖励次数<Assistant_Red>（黑荆棘事件簿共享奖励次数）</>。\\n<Assistant_Title2>首领攻略：</>{JumpToUI:[值夜模式]|1302142}",
     "ref_en": "<Assistant_Title1>【Nighthawk Mode】</>\\n<Assistant_Title2>Gameplay Type: </><Assistant_Property1>Blackthorn Incident Log</>\\n<Assistant_Title2>How to Participate: </>After Beyonders reach <Assistant_Property1>Level 57</>, click <Assistant_System>Menu - World Adventure - Dungeon - Blackthorn Incident Log - Nighthawk Mode</> to participate.\\n<Assistant_Title2>Number of Participants: </>Form a team of 5-6 people, or choose AI mode.\\n<Assistant_Title2>Gameplay Rewards: </>Level 60 Gold Equipment, Beyonder materials, etc. 1 reward attempt per day <Assistant_Red>(shared with Blackthorn Incident Log reward attempts)</>.\\n<Assistant_Title2>Boss Strategy: </>{JumpToUI:[Nighthawk Mode]|1302142}",
-    "target_ru": "<Assistant_Title1>【Ночной режим】</>\n<Assistant_Title2>Тип игры: </><Assistant_Property1>Книга событий Black Thorn</>\n<Assistant_Title2>Как принять участие: </>Необычайно после <Assistant_Property1>уровня 57</>, нажмите <Assistant_System>Меню-Мир приключений-Копировать-Книга событий Black Thorn-Ночной режим </> принять участие. \n<Assistant_Title2> Количество участников: </> Объединитесь в команду из 5–6 человек или выберите для игры режим «человек-компьютер». \n<Assistant_Title2> Игровые награды: </>60 золотое снаряжение уровня экипировки, необычные материалы и т. д. Количество наград в день <Assistant_Red> (количество наград, разделяемых в Книге событий Black Thorn) </>. \n<Assistant_Title2>Гид по боссу: </>{JumpToUI:[Ночной режим]|1302142}"
+    "target_ru": "<Assistant_Title1>【Ночной режим】</>\n<Assistant_Title2>Тип игры: </><Assistant_Property1>Книга событий «Чёрный Терновник»</>\n<Assistant_Title2>Как принять участие: </>Необычайно после <Assistant_Property1>уровня 57</>, нажмите <Assistant_System>Меню-Мир приключений-Копировать-Книга событий «Чёрный Терновник»-Ночной режим </> принять участие. \n<Assistant_Title2> Количество участников: </> Объединитесь в команду из 5–6 человек или выберите для игры режим «человек-компьютер». \n<Assistant_Title2> Игровые награды: </>60 золотое снаряжение уровня экипировки, необычные материалы и т. д. Количество наград в день <Assistant_Red> (количество наград, разделяемых в Книге событий «Чёрный Терновник») </>. \n<Assistant_Title2>Гид по боссу: </>{JumpToUI:[Ночной режим]|1302142}"
   },
   {
     "id": "020148",
@@ -1377,7 +1377,7 @@
     "id": "020229",
     "source_cn": "火车站至黑荆棘",
     "ref_en": "Train Station to Blackthorn",
-    "target_ru": "Железнодорожный вокзал в Блэкторн"
+    "target_ru": "Железнодорожный вокзал в «Чёрный Терновник»"
   },
   {
     "id": "020230",
@@ -1467,7 +1467,7 @@
     "id": "020244",
     "source_cn": "终末猎杀周获取上限：<Highlight>234</>/1000",
     "ref_en": "End-of-Term Hunt weekly limit: <Highlight>234</>/1000",
-    "target_ru": "Лимит приобретения последней недели охоты: <Highlight>234</>/1000."
+    "target_ru": "Недельный лимит получения в «Финальной охоте»: <Highlight>234</>/1000."
   },
   {
     "id": "020245",
@@ -1785,13 +1785,13 @@
     "id": "020298",
     "source_cn": "使用后解锁<Highlight>单人社交动作·含怒抱臂</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Angry Arms Folded</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "После использования он будет разблокирован <Highlight> Социальное действие для одного игрока · Держать руки в гневе </>. Он будет автоматически разложен на связанный Сулер после повторного использования."
+    "target_ru": "После использования он будет разблокирован <Highlight> Социальное действие для одного игрока · Держать руки в гневе </>. Он будет автоматически разложен на привязанные суле после повторного использования."
   },
   {
     "id": "020299",
     "source_cn": "使用后解锁<Highlight>单人社交动作·邀请</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Invite</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "После использования открывает <Highlight> социальное действие-приглашение </> для одиночной игры. Он будет автоматически разложен на связанный Сулер после повторного использования."
+    "target_ru": "После использования открывает <Highlight> социальное действие-приглашение </> для одиночной игры. Он будет автоматически разложен на привязанные суле после повторного использования."
   },
   {
     "id": "020300",
@@ -3513,7 +3513,7 @@
     "id": "020586",
     "source_cn": "安多&罗珊",
     "ref_en": "Ando & Rozanne",
-    "target_ru": "Андор и Роксана"
+    "target_ru": "Андор и Розанна"
   },
   {
     "id": "020587",
@@ -4119,7 +4119,7 @@
     "id": "020687",
     "source_cn": "你出发调查失踪案途中，偶遇梦中那对兄妹，追踪途中被“风信子”带人阻拦。在丽贝卡的帮助下，你们成功击退他们，并了解月亮仆从的信息。商议后，你继续调查清洗工卡尔、富商查理和纺织女工珍妮失踪案。但在用占卜寻找珍妮来到中央广场后，却意外看见罗珊瓦解为信息洪流消散。你立即回黑荆棘报告，并与弗莱和伦纳德汇总分析线索，发现失踪案与铜镜和知识皇冠有关。你们三人分头行动，分别前往三个失踪点处理和进一步调查。",
     "ref_en": "On your way to investigate the missing persons case, you encounter that pair of siblings from your dream and are blocked by \"Hyacinth\" and his men while tracking them. With Rebecca's help, you successfully repel them and learn information about the Moon Servant. After discussion, you continue to investigate the missing persons cases of the cleaner Karl, the wealthy merchant Charlie, and the textile worker Jenny. But after using divination to find Jenny and arriving at Central Plaza, you accidentally see Rozanne disintegrate into a Torrent of Information and dissipate. You immediately return to Blackthorn to report, and after summarizing and analyzing the clues with Frye and Leonard, you discover that the missing persons case is related to the bronze mirror and the Knowledge Crown. The three of you split up to go to the three disappearance points to handle the situation and investigate further.",
-    "target_ru": "По пути расследования дела об исчезновении вы встречаете во сне брата и сестру. Однако во время преследования вас останавливают «Гиацинт» и другие. С помощью Ребекки вы успешно отбиваетесь от них и узнаете о слугах Луны. После обсуждения вы продолжаете расследовать исчезновение уборщика Карла, богатого бизнесмена Чарли и текстильщицы Дженни. Но прибегнув к гаданию, чтобы найти Дженни, и придя на центральную площадь, он неожиданно увидел, как Роксана распадается на поток информации. Вы немедленно сообщаете Блэкторну, анализируете улики вместе с Фраем и Леонардом и обнаруживаете, что исчезновение связано с Бронзовым Зеркалом и Короной Знаний. Вы втроем разделились и отправились к трем недостающим точкам, чтобы разобраться и продолжить расследование."
+    "target_ru": "По пути расследования дела об исчезновении вы встречаете во сне брата и сестру. Однако во время преследования вас останавливают «Гиацинт» и другие. С помощью Ребекки вы успешно отбиваетесь от них и узнаете о слугах Луны. После обсуждения вы продолжаете расследовать исчезновение уборщика Карла, богатого бизнесмена Чарли и текстильщицы Дженни. Но прибегнув к гаданию, чтобы найти Дженни, и придя на центральную площадь, он неожиданно увидел, как Розанна распадается на поток информации. Вы немедленно сообщаете «Чёрному Терновнику», анализируете улики вместе с Фраем и Леонардом и обнаруживаете, что исчезновение связано с Бронзовым Зеркалом и Короной Знаний. Вы втроем разделились и отправились к трем недостающим точкам, чтобы разобраться и продолжить расследование."
   },
   {
     "id": "020688",
@@ -5031,7 +5031,7 @@
     "id": "020840",
     "source_cn": "帮罗珊捡<h>报销单</>",
     "ref_en": "Help Rozanne pick up the <h>reimbursement forms</>",
-    "target_ru": "Помогите Ло Шаню получить <h> формы возмещения </>."
+    "target_ru": "Помогите Розанне получить <h> формы возмещения </>."
   },
   {
     "id": "020841",
@@ -5313,13 +5313,13 @@
     "id": "020887",
     "source_cn": "罗珊，你太了不起了……",
     "ref_en": "Rozanne, you are amazing...",
-    "target_ru": "Роксана, ты потрясающая…"
+    "target_ru": "Розанна, ты потрясающая…"
   },
   {
     "id": "020888",
     "source_cn": "罗珊：希望邓恩队长别等急了。",
     "ref_en": "Rozanne: I hope Captain Dunn isn't waiting impatiently.",
-    "target_ru": "Роксана: Надеюсь, капитан Данн не будет больше ждать."
+    "target_ru": "Розанна: Надеюсь, капитан Данн не будет больше ждать."
   },
   {
     "id": "020889",
@@ -5937,7 +5937,7 @@
     "id": "020991",
     "source_cn": "格罗塞尔游记",
     "ref_en": "Groselle's Travels",
-    "target_ru": "Путешествия Гросселла"
+    "target_ru": "Путешествия Грозеля"
   },
   {
     "id": "020992",
@@ -6945,13 +6945,13 @@
     "id": "021159",
     "source_cn": "黑荆棘事件簿3卷王外观",
     "ref_en": "Blackthorn Incident Book 3 - Overachiever Appearance",
-    "target_ru": "Книга происшествий в Блэкторне, том 3. Появление короля"
+    "target_ru": "Книга происшествий в «Чёрном Терновнике», том 3. Появление короля"
   },
   {
     "id": "021160",
     "source_cn": "<Assistant_Title1>【迷失塔罗】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>占卜俱乐部的书架上，似乎有灵性波动……\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>51级</>后，前往{Location:[占卜俱乐部(112,94)]|923;-505;152;2;5200009;0}可触发任务。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Lost Tarot】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>There seems to be spiritual fluctuations on the bookshelf at the Divination Club... \\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 51</>, go to {Location:[Divination Club (112,94)]|923;-505;152;2;5200009;0} to trigger the quest. \\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Soules, Invoices, Adventure Medals, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>【Потерянное Таро】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Разнообразие времен</>\n<Assistant_Title2>Описание задания: </>На книжной полке клуба гаданий, кажется, происходят духовные колебания...\n<Assistant_Title2> Как получить: </> После достижения вашего игрового уровня <Assistant_Red>51</>, перейдите в {Местоположение:[Клуб гадания (112,94)]|923;-505;152;2;5200009;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за выполнение заданий</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Потерянное Таро】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Разнообразие времен</>\n<Assistant_Title2>Описание задания: </>На книжной полке клуба гаданий, кажется, происходят духовные колебания...\n<Assistant_Title2> Как получить: </> После достижения вашего игрового уровня <Assistant_Red>51</>, перейдите в {Местоположение:[Клуб гадания (112,94)]|923;-505;152;2;5200009;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за выполнение заданий</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
   },
   {
     "id": "021161",
@@ -7095,7 +7095,7 @@
     "id": "021184",
     "source_cn": "原著·黑荆棘安保公司",
     "ref_en": "Original Work: Blackthorn Security Company",
-    "target_ru": "Оригинальная работа · Охранное предприятие Blackthorn"
+    "target_ru": "Оригинальная работа · Охранное предприятие «Чёрный Терновник»"
   },
   {
     "id": "021185",
@@ -7299,7 +7299,7 @@
     "id": "021218",
     "source_cn": "新增-前往黑荆棘",
     "ref_en": "New - Head to Blackthorn",
-    "target_ru": "Новинка: отправляйтесь в Блэкторн."
+    "target_ru": "Новинка: отправляйтесь в «Чёрный Терновник»."
   },
   {
     "id": "021219",
@@ -7815,7 +7815,7 @@
     "id": "021304",
     "source_cn": "使用后解锁<Highlight>单人社交动作·圆圈舞</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Circle Dance</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "После использования открывает <Highlight> однопользовательское социальное действие·хоровод </>. Он будет автоматически разложен на связанный Сулер после повторного использования."
+    "target_ru": "После использования открывает <Highlight> однопользовательское социальное действие·хоровод </>. Он будет автоматически разложен на привязанные суле после повторного использования."
   },
   {
     "id": "021305",
@@ -8445,7 +8445,7 @@
     "id": "021410",
     "source_cn": "黑荆棘的值夜者们常常来此散步，花香会给予他们安宁的拥抱。",
     "ref_en": "The Nighthawks of Blackthorn often come here for a walk; the fragrance of flowers gives them a peaceful hug.",
-    "target_ru": "Сюда часто приходят на прогулки Ночные Ястребы Терновника, а аромат цветов дарит им мирные объятия."
+    "target_ru": "Сюда часто приходят на прогулки Ночные Ястребы «Чёрного Терновника», а аромат цветов дарит им мирные объятия."
   },
   {
     "id": "021411",
@@ -9417,7 +9417,7 @@
     "id": "021572",
     "source_cn": "你现在需要休息，我先带你回黑荆棘。",
     "ref_en": "You need to rest now. I'll take you back to Blackthorn first.",
-    "target_ru": "Тебе сейчас нужно отдохнуть. Сначала я отвезу тебя обратно в Блэкторн."
+    "target_ru": "Тебе сейчас нужно отдохнуть. Сначала я отвезу тебя обратно в «Чёрный Терновник»."
   },
   {
     "id": "021573",
@@ -9495,7 +9495,7 @@
     "id": "021585",
     "source_cn": "参与「终末猎杀」玩法并于猎杀管家处提交材料",
     "ref_en": "Participate in the \"End-Time Hunt\" gameplay and submit materials to the Butler",
-    "target_ru": "Участвуйте в игровом процессе «Последняя охота» и отправляйте материалы Охотничьему дворецкому."
+    "target_ru": "Участвуйте в игровом процессе «Финальная охота» и отправляйте материалы Охотничьему дворецкому."
   },
   {
     "id": "021586",
@@ -9573,7 +9573,7 @@
     "id": "021598",
     "source_cn": "就像罗塞尔大帝说过的——“所有罪恶的行为总有一天会发现，即使地上所有的泥土把它们遮掩！”",
     "ref_en": "Just as Emperor Roselle said—'All evil deeds will be discovered one day, even if all the soil on earth covers them!'",
-    "target_ru": "Как говорил император Рассел – «Все злые дела однажды будут раскрыты, даже если вся грязь на земле их покроет!»"
+    "target_ru": "Как говорил император Розель – «Все злые дела однажды будут раскрыты, даже если вся грязь на земле их покроет!»"
   },
   {
     "id": "021599",
@@ -10071,7 +10071,7 @@
     "id": "021681",
     "source_cn": "<Assistant_Title1>【消失的午餐】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>大学城有片著名的野餐地，去那吃午餐吧。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>43级</>后，前往{Location:[廷根(1458,1018)]|45628;1862;-1442;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励：</>认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度\\n<Assistant_Title2>找到尖叫的人：</>任务位面内，前往{Location:[廷根(1572,940)]|56963;-6150;-1265;2;5230070;0}，可找到蹲下尖叫的法西尔\\n<Assistant_Title2>找到蒸汽与机械系的同学：</>任务位面内，前往{Location:[廷根(1564,907)]|56278;-9000;-1265;2;5230070;0}，可找到在看雕像的拉斯特拉\\n<Assistant_Title2>寻找小猫的踪迹：</>任务位面内，前往{Location:[廷根(1464,1016)]|46435;1652;-1315;2;5230070;0}，可找到来自小猫的信使",
     "ref_en": "<Assistant_Title1>[The Vanishing Lunch]</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>There's a famous picnic spot in the University District. Go there for lunch.\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>43</>, head to {Location:[Tingen(1458,1018)]|45628;1862;-1442;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards: </>Cognitive Experience, Bound Sols, Invoice Receipt, Adventure Medal, World Adventure Treasure Progress\\n<Assistant_Title2>Find the person screaming: </>Inside the quest instance, head to {Location:[Tingen(1572,940)]|56963;-6150;-1265;2;5230070;0} to find Fasil crouching and screaming.\\n<Assistant_Title2>Find the student from the Department of Steam and Machinery: </>Inside the quest instance, head to {Location:[Tingen(1564,907)]|56278;-9000;-1265;2;5230070;0} to find Lastra looking at the statue.\\n<Assistant_Title2>Find traces of the kitten: </>Inside the quest instance, head to {Location:[Tingen(1464,1016)]|46435;1652;-1315;2;5230070;0} to find the messenger from the kitten.",
-    "target_ru": "<Assistant_Title1>【Исчезающий обед】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разное время</>\n<Assistant_Title2>Описание миссии: </>В университетском городке есть знаменитое место для пикника. Пойдем туда на обед. \n<Assistant_Title2> Как получить: </> После достижения <Assistant_Red>уровня 43</> перейдите в {Location:[Tinggen(1458,1018)]|45628;1862;-1442;2;5200002;0}, чтобы активировать задание \n <Assistant_Title2> Награды за миссию: </> Познавательный опыт, связывание Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений \n<Assistant_Title2> Найдите кричащего человека: </> В самолете миссии перейдите в {Местоположение:[Tingen(1572,940)]|56963;-6150;- 1265;2;5230070;0}, вы можете найти Фазиля, приседающего и кричащего. \n<Assistant_Title2> Найдите студентов факультета пара и машиностроения: </> В самолете миссии перейдите в {Местоположение:[Tingen(1564,907)]|56278;-9000;-1265;2;52300 70;0}, вы можете найти Растру, смотрящего на статую \n<Assistant_Title2> Ищете следы котенка: </> В самолете миссии перейдите в {Location:[Tingen(1464,1016)]|46435;1652;-1315;2;5230070;0}, чтобы найти посланника от котенка."
+    "target_ru": "<Assistant_Title1>【Исчезающий обед】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разное время</>\n<Assistant_Title2>Описание миссии: </>В университетском городке есть знаменитое место для пикника. Пойдем туда на обед. \n<Assistant_Title2> Как получить: </> После достижения <Assistant_Red>уровня 43</> перейдите в {Location:[Tinggen(1458,1018)]|45628;1862;-1442;2;5200002;0}, чтобы активировать задание \n <Assistant_Title2> Награды за миссию: </> Познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений \n<Assistant_Title2> Найдите кричащего человека: </> В самолете миссии перейдите в {Местоположение:[Tingen(1572,940)]|56963;-6150;- 1265;2;5230070;0}, вы можете найти Фазиля, приседающего и кричащего. \n<Assistant_Title2> Найдите студентов факультета пара и машиностроения: </> В самолете миссии перейдите в {Местоположение:[Tingen(1564,907)]|56278;-9000;-1265;2;52300 70;0}, вы можете найти Растру, смотрящего на статую \n<Assistant_Title2> Ищете следы котенка: </> В самолете миссии перейдите в {Location:[Tingen(1464,1016)]|46435;1652;-1315;2;5230070;0}, чтобы найти посланника от котенка."
   },
   {
     "id": "021682",
@@ -10689,7 +10689,7 @@
     "id": "021784",
     "source_cn": "罗塞尔大帝说的对，山峰之外有更高的山峰……",
     "ref_en": "Emperor Roselle was right, beyond the mountains there are higher mountains...",
-    "target_ru": "Император Рассел прав, за горными вершинами есть горы повыше..."
+    "target_ru": "Император Розель прав, за горными вершинами есть горы повыше..."
   },
   {
     "id": "021785",
@@ -10743,7 +10743,7 @@
     "id": "021793",
     "source_cn": "触发器·离开黑荆棘",
     "ref_en": "Trigger-Leave Blackthorn",
-    "target_ru": "Триггер·Покидая Терновник"
+    "target_ru": "Триггер·Покидая «Чёрный Терновник»"
   },
   {
     "id": "021794",
@@ -10851,7 +10851,7 @@
     "id": "021811",
     "source_cn": "\\n\\n由一根根豌豆藤蔓构筑起的青绿森林，摇晃的秋千不知勾起了谁的童年回忆。\\n\\n在众多童话故事中，“杰克与豌豆”被罗塞尔赋予了蒸汽与机械的奇想。他将平凡的豌豆藤描绘成由齿轮驱动的奇迹，让杰克用智慧改造巨人的城堡，将吃人的怪物变为烤蛋糕的伙伴。那也是贝尔纳黛好奇心最重的时候，“爸爸，巨人是弗萨克人吗？”“城堡怎么建在云上的呢，云不是水吗？”“要多高才能看到城堡呀，坐飞空艇能够看到吗？我想上去看看！”……\\n\\n多么古怪的问题都会获得回应，多么天真的想法都会得到满足。",
     "ref_en": "\\n\\nA green forest constructed from beanstalks; the swaying swing brings back someone's childhood memories.\\n\\nAmong the many fairy tales, \"Jack and the Beanstalk\" was imbued with steam and mechanical whimsy by Roselle. He depicted the ordinary beanstalk as a miracle driven by gears, letting Jack use his wisdom to renovate the giant's castle and turn the man-eating monster into a partner who bakes cakes. That was also when Bernadette was most curious. \"Papa, is the giant a Feynapotter?\" \"How is the castle built on the clouds? Aren't clouds water?\" \"How high do you have to be to see the castle? Can you see it if you take an airship? I want to go up and see!\"...\\n\\nNo matter how strange the questions, they would receive a response; no matter how naive the thoughts, they would be satisfied.",
-    "target_ru": "\n\nЗеленый лес из гороховых лоз и покачивающиеся качели навевали детские воспоминания. \n\n Среди многих сказок Рассел дал «Джеку на горошине» причуду пара и машин. Он изображает обычные гороховые лозы как чудеса, приводимые в движение шестеренками, позволяет Джеку использовать свою мудрость, чтобы преобразовывать замки великанов, и превращает монстров-людоедов в товарищей по выпечке тортов. Это было также время, когда Бернадетт было очень любопытно: «Папа, а гиганты из Фюсака?» «Как можно построить замок на облаках? Разве облака не являются водой?» \"Как высоко нужно подняться, чтобы увидеть замок? Можно ли его увидеть, летая на дирижабле? Я хочу подняться и посмотреть!\"...\n\n Каким бы странным ни был вопрос, на него будет дан ответ, и какой бы наивной ни была идея, она будет удовлетворена."
+    "target_ru": "\n\nЗеленый лес из гороховых лоз и покачивающиеся качели навевали детские воспоминания. \n\n Среди многих сказок Розель дал «Джеку на горошине» причуду пара и машин. Он изображает обычные гороховые лозы как чудеса, приводимые в движение шестеренками, позволяет Джеку использовать свою мудрость, чтобы преобразовывать замки великанов, и превращает монстров-людоедов в товарищей по выпечке тортов. Это было также время, когда Бернадетт было очень любопытно: «Папа, а гиганты из Фюсака?» «Как можно построить замок на облаках? Разве облака не являются водой?» \"Как высоко нужно подняться, чтобы увидеть замок? Можно ли его увидеть, летая на дирижабле? Я хочу подняться и посмотреть!\"...\n\n Каким бы странным ни был вопрос, на него будет дан ответ, и какой бы наивной ни была идея, она будет удовлетворена."
   },
   {
     "id": "021812",
@@ -10863,7 +10863,7 @@
     "id": "021813",
     "source_cn": "5231105   黑荆棘安保公司   单人位面",
     "ref_en": "5231105 Blackthorn Security Company Single-Player Instance",
-    "target_ru": "5231105 Одиночный самолет охранной компании Blackthorn"
+    "target_ru": "5231105 Одиночный самолет охранной компании «Чёрный Терновник»"
   },
   {
     "id": "021814",
@@ -10893,7 +10893,7 @@
     "id": "021818",
     "source_cn": "　　阅览后发现，还真不是荒诞的随笔。时空逆转后，罗塞尔大帝与乔治三世灵魂互换，成为了鲁恩国王，他在1350年的战争中获得大胜，创造了无数跨时代的发明，但他仍解不开蒸汽教会的纠缠，最终度过了复杂的一生。\\n　　乔治三世坐上罗塞尔的位置后，反而低调异常，直到晚年在疯狂中死去。\\n　　命运如一条狡猾的蛇！真是一对传奇帝王啊！",
     "ref_en": "After reading it, I found it really wasn't just an absurd essay. After space-time was reversed, Emperor Roselle and George III swapped souls, and he became the King of Loen. He won a great victory in the war of 1350 and created countless epoch-making inventions, but he still couldn't untangle the entanglement of the Church of Steam, and eventually lived a complex life.\\nAfter George III sat in Roselle's position, he was unusually low-key until he died in madness in his later years.\\nFate is like a cunning snake! What a legendary pair of emperors!",
-    "target_ru": "Прочитав его, я обнаружил, что это действительно не абсурдное эссе. После поворота времени и пространства император Рассел обменялся душами с Георгом III и стал королем Лоэна. Он одержал великую победу в войне 1350 года и создал бесчисленное количество изобретений, переживших века. Однако он так и не смог развязать сети Церкви Пара и в конечном итоге прожил непростую жизнь. \nПосле того, как Георг III занял позицию Рассела, он вел себя необычайно сдержанно, пока не умер от безумия в последние годы своей жизни. \n　Судьба подобна хитрой змее! Какая пара легендарных императоров!"
+    "target_ru": "Прочитав его, я обнаружил, что это действительно не абсурдное эссе. После поворота времени и пространства император Розель обменялся душами с Георгом III и стал королем Лоэна. Он одержал великую победу в войне 1350 года и создал бесчисленное количество изобретений, переживших века. Однако он так и не смог развязать сети Церкви Пара и в конечном итоге прожил непростую жизнь. \nПосле того, как Георг III занял позицию Розеля, он вел себя необычайно сдержанно, пока не умер от безумия в последние годы своей жизни. \n　Судьба подобна хитрой змее! Какая пара легендарных императоров!"
   },
   {
     "id": "021819",
@@ -11181,7 +11181,7 @@
     "id": "021866",
     "source_cn": "广场上举办“百里挑蛋”挑战赛，支付1苏勒即可参与，从100枚鸡蛋中找出“幸运蛋”即获10000苏勒奖励。你仔细观察蛋壳的裂纹与斑点，却一无所获。最终依靠灵摆占卜锁定目标，与神秘的画家达文西并列获胜。而这位能记住几千颗鸡蛋每一处细节的画家，却只是一个热爱观察的普通人。",
     "ref_en": "A \"Pick One of a Hundred Eggs\" challenge is being held in the square. Pay 1 Soule to participate, and if you find the \"Lucky Egg\" among the 100, you win a 10,000 Soule prize. You carefully observe the cracks and spots on the shells but find nothing. Finally, you rely on pendulum divination to lock onto the target, tying for the win with the mysterious painter Da Vinci. Yet, this painter, who can remember every detail of thousands of eggs, is just an ordinary person who loves to observe.",
-    "target_ru": "На площади проводится конкурс «Сбор яиц». Вы можете принять участие, заплатив 1 соло. Если вы найдете «счастливое яйцо» среди 100 яиц, вы получите награду в размере 10 000 солей. Вы внимательно рассматриваете трещины и пятна на яичной скорлупе, но ничего не находите. В конце концов, он прибег к гаданию маятника, чтобы зафиксировать цель, и связал победу с загадочным художником Леонардо да Винчи. Но этот художник, который может запомнить каждую деталь тысяч яиц, — всего лишь обычный человек, любящий наблюдение."
+    "target_ru": "На площади проводится конкурс «Сбор яиц». Вы можете принять участие, заплатив 1 суле. Если вы найдете «счастливое яйцо» среди 100 яиц, вы получите награду в размере 10 000 суле. Вы внимательно рассматриваете трещины и пятна на яичной скорлупе, но ничего не находите. В конце концов, он прибег к гаданию маятника, чтобы зафиксировать цель, и связал победу с загадочным художником Леонардо да Винчи. Но этот художник, который может запомнить каждую деталь тысяч яиц, — всего лишь обычный человек, любящий наблюдение."
   },
   {
     "id": "021867",
@@ -11445,13 +11445,13 @@
     "id": "021910",
     "source_cn": "罗塞尔大帝似乎说过，富贵都藏在危险的求索中……<P_Heart>（艰难抉择）</>先去看看吧。",
     "ref_en": "Emperor Roselle seemed to say that wealth is hidden in dangerous pursuits... <P_Heart> (a difficult choice) </> Let's go take a look first.",
-    "target_ru": "Император Рассел словно говорил, что богатство таится в опасных занятиях... <P_Heart> (сложный выбор) </> Пойдем сначала посмотрим."
+    "target_ru": "Император Розель словно говорил, что богатство таится в опасных занятиях... <P_Heart> (сложный выбор) </> Пойдем сначала посмотрим."
   },
   {
     "id": "021911",
     "source_cn": "罗塞尔：你老爹我果然是这个世界上最出色的“工匠”！",
     "ref_en": "Roselle: Your old man is indeed the most outstanding 'Artisan' in this world!",
-    "target_ru": "Рассел: Мы с твоим отцом действительно самые выдающиеся «мастера» в мире!"
+    "target_ru": "Розель: Мы с твоим отцом действительно самые выдающиеся «мастера» в мире!"
   },
   {
     "id": "021912",
@@ -11625,13 +11625,13 @@
     "id": "021940",
     "source_cn": "黑荆棘事件簿4-第二关-僵尸距离检测",
     "ref_en": "Blackthorn Event Log 4-Second Level-Zombie Distance Detection",
-    "target_ru": "_\n\nКнига событий Blackthorn 4 уровня 2 обнаружения зомби на расстоянии"
+    "target_ru": "Книга событий «Чёрный Терновник» 4, уровень 2: проверка расстояния до зомби"
   },
   {
     "id": "021941",
     "source_cn": "黑荆棘事件簿新副本哀嚎黑市开启",
     "ref_en": "Black Thorn Case File new dungeon Wailing Black Market opened",
-    "target_ru": "Открывается новый экземпляр Книги происшествий в Блэкторне, «Вопящий черный рынок»."
+    "target_ru": "Открывается новый экземпляр Книги происшествий в «Чёрном Терновнике», «Вопящий черный рынок»."
   },
   {
     "id": "021942",
@@ -11691,7 +11691,7 @@
     "id": "021951",
     "source_cn": "　　罗珊新购入了一些手磨咖啡，味道不错，和几年前一样，欢迎回黑荆棘品尝。\\n　　放心，不需要执行任务。",
     "ref_en": "Roselle has purchased some new hand-ground coffee; it tastes good, just like a few years ago. Welcome back to Blackthorn to have a taste.\\nDon't worry, no mission execution required.",
-    "target_ru": "Ло Шань купил новый кофе, молотый вручную, он очень вкусный. Как и несколько лет назад, добро пожаловать обратно в Блэкторн, чтобы попробовать его. \n　Не волнуйтесь, выполнять задание нет необходимости."
+    "target_ru": "Розанна купила новый кофе, молотый вручную, он очень вкусный. Как и несколько лет назад, добро пожаловать обратно в «Чёрный Терновник», чтобы попробовать его. \n　Не волнуйтесь, выполнять задание нет необходимости."
   },
   {
     "id": "021952",
@@ -11769,7 +11769,7 @@
     "id": "021964",
     "source_cn": "使用后解锁<Highlight>单人社交动作·写诗</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Write Poem</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Разблокируется после использования <Highlight> однопользовательского социального действия · написание стихов </>, которое будет автоматически разложено на связанный Сулер после повторного использования."
+    "target_ru": "Разблокируется после использования <Highlight> однопользовательского социального действия · написание стихов </>, которое будет автоматически разложено на привязанные суле после повторного использования."
   },
   {
     "id": "021965",
@@ -12321,7 +12321,7 @@
     "id": "022056",
     "source_cn": "黑荆棘门口-想接下来的安排",
     "ref_en": "Blackthorn entrance - thinking about next steps",
-    "target_ru": "Blackthorn Gate-думаем о следующих аранжировках"
+    "target_ru": "Вход в «Чёрный Терновник» — думаем о следующих планах"
   },
   {
     "id": "022057",
@@ -12543,7 +12543,7 @@
     "id": "022093",
     "source_cn": "克莱恩发现罗珊不在的范围",
     "ref_en": "Range where Klein discovers Rozanne is missing",
-    "target_ru": "Кляйн узнал, что Роксаны не было поблизости."
+    "target_ru": "Кляйн узнал, что Розанны не было поблизости."
   },
   {
     "id": "022094",
@@ -12825,7 +12825,7 @@
     "id": "022140",
     "source_cn": "打开后获得30000绑定苏勒，增加100灵性，可超出上限累计，超上限后活力将不再随时间恢复。",
     "ref_en": "Open to receive 30,000 bound Sol, increase spirituality by 100 (can exceed the cap; once exceeded, Vitality will no longer recover over time).",
-    "target_ru": "_\n\nПосле открытия вы получите 30 000 связанных сулеров, что повысит вашу духовность на 100. Накопить ее можно за пределами верхнего предела. После превышения верхнего предела ваши жизненные силы со временем уже не будут восстанавливаться."
+    "target_ru": "После открытия вы получите 30 000 привязанных суле, что повысит вашу духовность на 100. Накопить ее можно за пределами верхнего предела. После превышения верхнего предела ваши жизненные силы со временем уже не будут восстанавливаться."
   },
   {
     "id": "022141",
@@ -12861,7 +12861,7 @@
     "id": "022146",
     "source_cn": "是否开启终末猎杀拍卖",
     "ref_en": "Whether to enable End-of-Days Hunt Auction",
-    "target_ru": "Включить ли аукцион Финала"
+    "target_ru": "Включить ли аукцион «Финальной охоты»"
   },
   {
     "id": "022147",
@@ -13173,7 +13173,7 @@
     "id": "022198",
     "source_cn": "5230160   黑荆棘安保公司   位面",
     "ref_en": "5230160 Blackthorn Security Company Plane",
-    "target_ru": "5230160 Самолет охранной компании Blackthorn"
+    "target_ru": "5230160 Самолет охранной компании «Чёрный Терновник»"
   },
   {
     "id": "022199",
@@ -13245,7 +13245,7 @@
     "id": "022210",
     "source_cn": "一张价值5便士的长途邮票，画面主体是蒸汽列车头。\\n罗塞尔大帝站在一旁，似乎正望向烟囱中的滚滚浓烟。",
     "ref_en": "A long-distance stamp worth 5 pence, with a steam train engine as the main image. \\n Emperor Roselle stands to the side, seemingly looking at the billowing smoke from the chimney.",
-    "target_ru": "Междугородняя марка стоимостью 5 пенсов, основной сюжет картины — паровоз. \n Император Рассел стоял в стороне и, казалось, смотрел на клубящийся дым в трубе."
+    "target_ru": "Междугородняя марка стоимостью 5 пенсов, основной сюжет картины — паровоз. \n Император Розель стоял в стороне и, казалось, смотрел на клубящийся дым в трубе."
   },
   {
     "id": "022211",
@@ -13293,7 +13293,7 @@
     "id": "022218",
     "source_cn": "作为商人，我很高兴收到一大叠苏勒。",
     "ref_en": "As a merchant, I am very happy to receive a large stack of Sol.",
-    "target_ru": "Я как бизнесмен был рад получить пачку сулера."
+    "target_ru": "Я как бизнесмен был рад получить пачку суле."
   },
   {
     "id": "022219",
@@ -13947,7 +13947,7 @@
     "id": "022327",
     "source_cn": "5230266   黑荆棘公司   位面",
     "ref_en": "5230266 Blackthorn Security Company Plane",
-    "target_ru": "5230266 Самолет компании Blackthorn"
+    "target_ru": "5230266 Самолет компании «Чёрный Терновник»"
   },
   {
     "id": "022328",
@@ -15225,7 +15225,7 @@
     "id": "022540",
     "source_cn": "罗塞尔Boss-3阶段-自清洁程序-装置怪buff",
     "ref_en": "Roselle Boss - Phase 3 - Self-Cleaning Program - Device Monster Buff",
-    "target_ru": "_\n\nRussell Boss-3 Stage-Программа самоочистки-Устройство Monster Buff"
+    "target_ru": "Розель, босс, 3-я стадия: программа самоочистки, усиление монстров-устройств"
   },
   {
     "id": "022541",
@@ -16701,7 +16701,7 @@
     "id": "022787",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>64装等</>或<Highlight>65装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Every <Highlight>20 progress </>, receive 1 growth resource chest. Opening it grants a random piece of <Highlight>Level 64</> or <Highlight>Level 65</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week.",
-    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. Открыв его, вы можете случайным образом получить часть экипировки <Highlight>64 уровня</> или <Highlight>65 уровня экипировки</> <Highlight>конкурентные тенденции</> оранжевого или золотого качества, экстраординарной материи, коэффициента агрегации и обязательного сулера. Существует определенная вероятность получить 1 кристалл серого тумана (используется для улучшения соревновательной броши экипировки 64 уровня или выше до мифического качества). Вы можете получать до 3 штук каждую неделю, а неполученную сумму можно копить до следующей недели."
+    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. Открыв его, вы можете случайным образом получить часть экипировки <Highlight>64 уровня</> или <Highlight>65 уровня экипировки</> <Highlight>конкурентные тенденции</> оранжевого или золотого качества, экстраординарной материи, коэффициента агрегации и привязанных суле. Существует определенная вероятность получить 1 кристалл серого тумана (используется для улучшения соревновательной броши экипировки 64 уровня или выше до мифического качества). Вы можете получать до 3 штук каждую неделю, а неполученную сумму можно копить до следующей недели."
   },
   {
     "id": "022788",
@@ -16821,7 +16821,7 @@
     "id": "022807",
     "source_cn": "罗塞尔Boss-1&2阶段-中激光",
     "ref_en": "Roselle Boss - Phase 1 & 2 - Middle Laser",
-    "target_ru": "Средне-стадийный лазер Russell Boss-1&2"
+    "target_ru": "Розель, босс, стадии 1 и 2: средний лазер"
   },
   {
     "id": "022808",
@@ -16965,7 +16965,7 @@
     "id": "022831",
     "source_cn": "黑荆棘事件簿4-关卡4-丧钟武器buff",
     "ref_en": "Blackthorn Incident Book 4 - Level 4 - Death Knell weapon buff",
-    "target_ru": "Книга событий Блэкторна 4 уровня 4 усиления оружия «Похоронный звон»"
+    "target_ru": "Книга событий «Чёрного Терновника» 4 уровня 4 усиления оружия «Похоронный звон»"
   },
   {
     "id": "022832",
@@ -16977,7 +16977,7 @@
     "id": "022833",
     "source_cn": "\\n岁月如棋，落子无悔，一步踏错，便是百年。\\n\\n一副古老的棋盘静置于案，被放缓的时间里，隐约能看到一只大手和一只小手下棋的旧影。罗塞尔曾与贝尔纳黛对弈，谈起“烂柯棋局”的传说——那山中樵夫观棋片刻，人间已过百年。\\n\\n那时贝尔纳黛听不懂什么是烂柯，不懂为什么父亲总会把棋子下在交叉点上，也不懂什么是“观棋不语真君子，落子无悔大丈夫”，她只记得耍赖悔棋时父亲会轻拍她的头顶，手掌宽厚而温暖。",
     "ref_en": "\\nYears are like a game of chess; once a piece is placed, there is no turning back. One wrong step, and a century passes.\\n\\nAn ancient chessboard sat quietly on the desk. In the slowed time, one could vaguely see the old shadows of a large hand and a small hand playing chess. Roselle once played against Bernadette and spoke of the legend of the \"Rotten Axe Chess Game\"—the woodcutter watched the game for a moment, and a century had passed in the human world.\\n\\nBack then, Bernadette didn't understand what a \"rotten axe\" was, didn't understand why her father always placed his pieces on the intersections, and didn't understand what it meant to be \"a true gentleman who watches in silence and a real man who never regrets his move.\" She only remembered that when she tried to cheat or take back a move, her father would gently pat her head, his palm broad and warm.",
-    "target_ru": "\nВремя как шахматная фигура: если сделаешь ход, не пожалеешь, но если сделаешь один неверный ход, пройдет сто лет. \n\n На полке тихо стоит старинная шахматная доска. В замедленном времени смутно можно увидеть старые тени большой руки и маленькой руки, играющих в шахматы. Рассел однажды играл в шахматы с Бернадеттой и рассказывал о легенде «Шахматной игры Лан Ке» — лесоруб в горах на мгновение наблюдал за шахматами, и в этом мире прошло сто лет. \n\n В то время Бернадетт не понимала, что такое плохие шахматы, почему ее отец всегда расставлял шахматные фигуры на перекрестках и что значит быть «настоящим джентльменом, который смотрит шахматы, ничего не говоря, и человеком, который не сожалеет, когда делает ход». Она помнила только, что отец слегка гладил ее по голове, когда она сожалела о том, что играла в шахматы, своими щедрыми и теплыми ладонями."
+    "target_ru": "\nВремя как шахматная фигура: если сделаешь ход, не пожалеешь, но если сделаешь один неверный ход, пройдет сто лет. \n\n На полке тихо стоит старинная шахматная доска. В замедленном времени смутно можно увидеть старые тени большой руки и маленькой руки, играющих в шахматы. Розель однажды играл в шахматы с Бернадеттой и рассказывал о легенде «Шахматной игры Лан Ке» — лесоруб в горах на мгновение наблюдал за шахматами, и в этом мире прошло сто лет. \n\n В то время Бернадетт не понимала, что такое плохие шахматы, почему ее отец всегда расставлял шахматные фигуры на перекрестках и что значит быть «настоящим джентльменом, который смотрит шахматы, ничего не говоря, и человеком, который не сожалеет, когда делает ход». Она помнила только, что отец слегка гладил ее по голове, когда она сожалела о том, что играла в шахматы, своими щедрыми и теплыми ладонями."
   },
   {
     "id": "022834",
@@ -17805,7 +17805,7 @@
     "id": "022971",
     "source_cn": "【自走棋】-罗塞尔的残留意志-知识辉耀",
     "ref_en": "[Auto-Chess] - Roselle's Residual Will - Knowledge Radiance",
-    "target_ru": "【Автошахматы】-Остаток воли Розеллы-Слава знаний"
+    "target_ru": "【Автошахматы】-Остаток воли Розеля-Слава знаний"
   },
   {
     "id": "022972",
@@ -17841,7 +17841,7 @@
     "id": "022977",
     "source_cn": "他本来就一直仰慕罗塞尔大帝，特别是最近他缺乏灵感，迟迟写不出满意的作品……",
     "ref_en": "He has always admired Emperor Roselle, especially recently, as he lacks inspiration and has been unable to write a satisfactory work...",
-    "target_ru": "Он всегда восхищался императором Расселом, особенно в последнее время, потому что ему не хватало вдохновения и он не мог писать удовлетворительные произведения..."
+    "target_ru": "Он всегда восхищался императором Розелем, особенно в последнее время, потому что ему не хватало вдохновения и он не мог писать удовлетворительные произведения..."
   },
   {
     "id": "022978",
@@ -18003,7 +18003,7 @@
     "id": "023004",
     "source_cn": "回罗珊身边",
     "ref_en": "Return to Rozanne",
-    "target_ru": "Вернитесь к Роксане"
+    "target_ru": "Вернитесь к Розанне"
   },
   {
     "id": "023005",
@@ -18159,7 +18159,7 @@
     "id": "023030",
     "source_cn": "我又怎么会沦落到做政府雇员，在下水道搜查？这不符合罗塞尔大帝的美学！",
     "ref_en": "How did I end up as a government employee, searching in the sewers? This does not conform to Emperor Roselle's aesthetics!",
-    "target_ru": "Как я мог превратиться в государственного служащего, обыскивающего канализацию? Это не соответствует эстетике императора Рассела!"
+    "target_ru": "Как я мог превратиться в государственного служащего, обыскивающего канализацию? Это не соответствует эстетике императора Розеля!"
   },
   {
     "id": "023031",
@@ -18705,7 +18705,7 @@
     "id": "023121",
     "source_cn": "<P_Yellow>罗珊</>？这个时间，你不是应该在工作吗？",
     "ref_en": "<P_Yellow>Rozanne</>? Shouldn't you be at work at this hour?",
-    "target_ru": "<P_Yellow>Роксана</>? Разве ты не должен работать в это время?"
+    "target_ru": "<P_Yellow>Розанна</>? Разве ты не должен работать в это время?"
   },
   {
     "id": "023122",
@@ -19227,7 +19227,7 @@
     "id": "023209",
     "source_cn": "老维尔餐厅在黑荆棘安保公司附近，提供香肠、土豆泥、牛肉布丁、乳蛋羹等经典美食。",
     "ref_en": "Old Will Restaurant is near the Blackthorn Security Company and provides classic delicacies such as sausages, mashed potatoes, beef pudding, and custard.",
-    "target_ru": "Ресторан Old Vail расположен недалеко от охранного предприятия Blackthorn и предлагает классические блюда, такие как сосиски, картофельное пюре, говяжий пудинг и заварной крем."
+    "target_ru": "Ресторан «Старый Вейл» расположен недалеко от охранной компании «Чёрный Терновник» и предлагает классические блюда, такие как сосиски, картофельное пюре, говяжий пудинг и заварной крем."
   },
   {
     "id": "023210",
@@ -19371,7 +19371,7 @@
     "id": "023233",
     "source_cn": "        罗塞尔·古斯塔夫已经死去一百五十多年了，但他的名字从未被遗忘。\\n        在因蒂斯的首都特里尔，他的雕像依然矗立在广场中央。每年他的诞辰，人们都会举行盛大的活动来纪念他。鲁恩王国的工厂里，工人们使用着他发明的机器，孩子们在学校里学习着他推行的知识。迷雾海的商船沿着他开辟的航道航行，南大陆的殖民地里，冒险者们讲述着他的传说。\\n        他是一个穿越者，一个异乡人，一个永远回不去故乡的游子。但他也是蒸汽之子，因蒂斯共和国的执政官，凯撒大帝，罗塞尔大帝，一个强大的非凡者，一个父亲——一个改变了整个世界的人。\\n        他犯过错，走过弯路，被污染，被背叛，最终陨落于白枫宫。但他也创造过，保护过，爱过，留下过一个时代的辉煌与文明。\\n        也许正如他在日记中写的那样：如果能够重来，他或许会选择做一个普通人，回到那个有炸鸡和可乐的世界，陪在父母身边，过着平凡而温暖的一生。但历史没有如果。罗塞尔·古斯塔夫无可选择地成为时代的主角。\\n        我们对罗塞尔大帝的一生了解得还不够多，但我们知道他是——一个时代的开端，一个闪耀的传奇，一个永不褪色的名字。",
     "ref_en": "Roselle Gustav has been dead for over one hundred and fifty years, but his name has never been forgotten. \\n In Trier, the capital of Intis, his statue still stands in the center of the square. Every year on his birthday, people hold grand events to commemorate him. In the factories of the Loen Kingdom, workers use the machines he invented, and children learn the knowledge he promoted in schools. Merchant ships in the Fog Sea sail along the routes he pioneered, and in the colonies of the Southern Continent, adventurers recount his legends. \\n He was a transmigrator, a foreigner, a wanderer who could never return to his homeland. But he was also the Son of Steam, the Consul of the Intis Republic, Caesar the Great, Emperor Roselle, a powerful Beyonder, a father—a man who changed the entire world. \\n He made mistakes, took detours, was corrupted, and was betrayed, eventually falling in the White Maple Palace. But he also created, protected, loved, and left behind the brilliance and civilization of an era. \\n Perhaps as he wrote in his diary: if he could do it all over again, he might have chosen to be an ordinary person, returning to that world with fried chicken and cola, staying by his parents' side, and living an ordinary and warm life. But history has no 'ifs.' Roselle Gustav had no choice but to become the protagonist of the era. \\n We do not know enough about Emperor Roselle's life, but we know what he was—the beginning of an era, a shining legend, a name that never fades.",
-    "target_ru": "Рассел Густав умер уже более ста пятидесяти лет назад, но его имя никогда не было забыто. \n В Трире, столице Интиса, его статуя до сих пор стоит в центре площади. Каждый год в его день рождения люди устраивают грандиозные мероприятия, чтобы почтить его память. На фабриках Королевства Лоен рабочие используют изобретенные им машины, а дети изучают знания, которые он пропагандировал в школах. Торговые корабли в Море Тумана плавали по открытым им каналам, а в колониях на южном континенте искатели приключений рассказывали его легенду. \n Он путешественник во времени, незнакомец, странник, который никогда не сможет вернуться в свой родной город. Но он также был Сыном Стима, Архонтом Республики Интис, Юлием Цезарем, Расселом Великим, могущественным Потусторонним, отцом – человеком, изменившим весь мир. \n Он совершал ошибки, ходил в обход, был заражен, предан и, наконец, попал во Дворец Белого Клена. Но он также создал, защитил, любил и оставил после себя славу и цивилизацию своей эпохи. \n Возможно, как он написал в своем дневнике: Если бы он мог вернуться снова, он мог бы выбрать быть обычным человеком, вернуться в мир жареной курицы и колы, остаться со своими родителями и жить обычной и теплой жизнью. Но в истории нет «если». Расселу Гюставу ничего не оставалось, как стать главным героем эпохи. \n Мы недостаточно знаем о жизни императора Рассела, но знаем, что он — начало эпохи, яркая легенда и имя, которое никогда не исчезнет."
+    "target_ru": "Розель Густав умер уже более ста пятидесяти лет назад, но его имя никогда не было забыто. \n В Трире, столице Интиса, его статуя до сих пор стоит в центре площади. Каждый год в его день рождения люди устраивают грандиозные мероприятия, чтобы почтить его память. На фабриках Королевства Лоен рабочие используют изобретенные им машины, а дети изучают знания, которые он пропагандировал в школах. Торговые корабли в Море Тумана плавали по открытым им каналам, а в колониях на южном континенте искатели приключений рассказывали его легенду. \n Он путешественник во времени, незнакомец, странник, который никогда не сможет вернуться в свой родной город. Но он также был Сыном Стима, Архонтом Республики Интис, Юлием Цезарем, Розелем Великим, могущественным Потусторонним, отцом – человеком, изменившим весь мир. \n Он совершал ошибки, ходил в обход, был заражен, предан и, наконец, попал во Дворец Белого Клена. Но он также создал, защитил, любил и оставил после себя славу и цивилизацию своей эпохи. \n Возможно, как он написал в своем дневнике: Если бы он мог вернуться снова, он мог бы выбрать быть обычным человеком, вернуться в мир жареной курицы и колы, остаться со своими родителями и жить обычной и теплой жизнью. Но в истории нет «если». Розелю Густаву ничего не оставалось, как стать главным героем эпохи. \n Мы недостаточно знаем о жизни императора Розеля, но знаем, что он — начало эпохи, яркая легенда и имя, которое никогда не исчезнет."
   },
   {
     "id": "023234",
@@ -21327,7 +21327,7 @@
     "id": "023559",
     "source_cn": "根据当前序列，随机获得一个魔药材料奖励箱或者一定数量的绑定苏勒。（副本、竞技、游历中获得的可交易魔药材料共上限。）",
     "ref_en": "Based on your current Sequence, randomly receive a Potion Material Reward Box or a certain amount of Bound Soule. (There is a shared weekly limit for tradable potion materials obtained from Dungeons, Competition, and Travel.)",
-    "target_ru": "В зависимости от текущей последовательности вы случайным образом получите коробку с материалами для зелий или определенное количество связанных сулеров. (Общее количество продаваемых материалов для зелий, полученных в подземельях, соревнованиях и путешествиях, ограничено.)"
+    "target_ru": "В зависимости от текущей последовательности вы случайным образом получите коробку с материалами для зелий или определенное количество привязанных суле. (Общее количество продаваемых материалов для зелий, полученных в подземельях, соревнованиях и путешествиях, ограничено.)"
   },
   {
     "id": "023560",
@@ -21369,7 +21369,7 @@
     "id": "023566",
     "source_cn": "游戏中，存在金镑和苏勒两种货币。",
     "ref_en": "In the game, there are two currencies: gold pounds and soli.",
-    "target_ru": "В игре есть две валюты: золотые фунты и сулеры."
+    "target_ru": "В игре есть две валюты: золотые фунты и суле."
   },
   {
     "id": "023567",
@@ -21645,7 +21645,7 @@
     "id": "023612",
     "source_cn": "黑荆棘文职",
     "ref_en": "Blackthorn clerical staff",
-    "target_ru": "Блэкторн Гражданский"
+    "target_ru": "«Чёрный Терновник» — гражданский персонал"
   },
   {
     "id": "023613",
@@ -21843,7 +21843,7 @@
     "id": "023645",
     "source_cn": "包含罗塞尔大帝内容相关的资源",
     "ref_en": "Contains resources related to the Emperor Roselle content",
-    "target_ru": "Содержит ресурсы, связанные с контентом Emperor Roselle."
+    "target_ru": "Содержит ресурсы, связанные с контентом императора Розеля."
   },
   {
     "id": "023646",
@@ -22251,19 +22251,19 @@
     "id": "023713",
     "source_cn": "罗塞尔Boss-1&2阶段-自清洁程序-层数buff",
     "ref_en": "Roselle Boss - Stage 1&2 - Self-Cleaning Program - Layer buff",
-    "target_ru": "Russell Boss-1&2 Этап-самоочищающаяся программа-слой Buff"
+    "target_ru": "Розель Босс-1&2 Этап-Программа самоочистки-Усиление по слоям"
   },
   {
     "id": "023714",
     "source_cn": "罗塞尔大帝登上月球时，并未乘坐这座蒸汽之城——但斯蒂姆宫为此而生，又为此沉寂。有些伟大的构想，即使未被选择，也值得被铭记。",
     "ref_en": "When Emperor Roselle ascended to the moon, he did not ride this City of Steam—but the Steam Palace was born for it, and fell silent for it. Some great concepts, even if not chosen, are worth remembering.",
-    "target_ru": "Когда император Рассел высадился на Луну, он не катался в этом паровом городе – но для этого был построен дворец Стим и для этого хранил молчание. Некоторые великие идеи, даже если они не выбраны, заслуживают того, чтобы их помнили."
+    "target_ru": "Когда император Розель высадился на Луну, он не катался в этом паровом городе – но для этого был построен дворец Стим и для этого хранил молчание. Некоторые великие идеи, даже если они не выбраны, заслуживают того, чтобы их помнили."
   },
   {
     "id": "023715",
     "source_cn": "罗塞尔：所以说，抓住人们内心深处最原始、最朴素、最浓烈的感情，才是一部作品成功的关键。",
     "ref_en": "Roselle: Therefore, grasping the most primitive, simple, and intense emotions deep in people's hearts is the key to a work's success.",
-    "target_ru": "_\n\nРассел: Итак, запечатлеть самые примитивные, простые и сильные эмоции глубоко в сердцах людей — это ключ к успеху произведения."
+    "target_ru": "Розель: Итак, запечатлеть самые примитивные, простые и сильные эмоции глубоко в сердцах людей — это ключ к успеху произведения."
   },
   {
     "id": "023716",
@@ -22473,7 +22473,7 @@
     "id": "023750",
     "source_cn": "<P_Heart>（小声）</>又是这无赖……上个月讹了我五苏勒。",
     "ref_en": "<P_Heart> (Whispering) </> This scoundrel again... he swindled me out of five soli last month.",
-    "target_ru": "<P_Heart> (Тихо) </> Это снова этот негодяй... в прошлом месяце он шантажировал меня на пять солов."
+    "target_ru": "<P_Heart> (Тихо) </> Это снова этот негодяй... в прошлом месяце он шантажировал меня на пять суле."
   },
   {
     "id": "023751",
@@ -22965,7 +22965,7 @@
     "id": "023832",
     "source_cn": "瑞安娜女士是我们这的常驻占卜大师，擅长塔罗占卜，梦境占卜，星盘占卜。每次1苏勒。",
     "ref_en": "Ms. Riana is our resident divination master, specializing in Tarot divination, dream divination, and astrology. She charges 1 sol per session.",
-    "target_ru": "Г-жа Рианна — наш постоянный мастер гадания, специализирующийся на гадании Таро, гадании во сне и гадании по астролябии. 1 подошва каждый раз."
+    "target_ru": "Г-жа Рианна — наш постоянный мастер гадания, специализирующийся на гадании Таро, гадании во сне и гадании по астролябии. 1 суле каждый раз."
   },
   {
     "id": "023833",
@@ -22995,7 +22995,7 @@
     "id": "023837",
     "source_cn": "罗塞尔Boss-3阶段-自清洁程序-玩家buff",
     "ref_en": "Roselle Boss - Stage 3 - Self-Cleaning Program - Player buff",
-    "target_ru": "Программа самоочистки сцены Russell Boss-3 и усиление игрока"
+    "target_ru": "Розель Босс-3 Этап-Программа самоочистки-Усиление игрока"
   },
   {
     "id": "023838",
@@ -23451,7 +23451,7 @@
     "id": "023913",
     "source_cn": "大世界黑荆棘点位",
     "ref_en": "Big World Blackthorn Point",
-    "target_ru": "Точка черного шипа большого мира"
+    "target_ru": "Точка «Чёрного Терновника» большого мира"
   },
   {
     "id": "023914",
@@ -23793,7 +23793,7 @@
     "id": "023970",
     "source_cn": "罗塞尔Boss-1&2阶段-镜像数据-层数标记",
     "ref_en": "Roselle Boss - Stages 1 & 2 - Mirror Data - Layer Mark",
-    "target_ru": "Знак уровня данных Russell Boss-1&2 Stage-Mirror"
+    "target_ru": "Розель Босс-1&2 Этап-Зеркальные данные-Метка слоя"
   },
   {
     "id": "023971",
@@ -24027,7 +24027,7 @@
     "id": "024009",
     "source_cn": "5231092   黑荆棘安保公司   单人位面",
     "ref_en": "5231092 Blackthorn Security Company Single-Player Instance",
-    "target_ru": "5231092 Одиночный самолет охранной компании Blackthorn"
+    "target_ru": "5231092 Одиночный план охранной компании «Чёрный Терновник»"
   },
   {
     "id": "024010",
@@ -24651,7 +24651,7 @@
     "id": "024113",
     "source_cn": "获得阿尔杰*1",
     "ref_en": "Obtain Alger *1",
-    "target_ru": "Получить Алжир*1"
+    "target_ru": "Получить Элджер*1"
   },
   {
     "id": "024114",
@@ -25275,7 +25275,7 @@
     "id": "024217",
     "source_cn": "是罗塞尔！是伟大的罗塞尔大帝！你知道吗？罗塞尔发明了蒸汽机，是他带领世界前进……",
     "ref_en": "It's Roselle! It's the great Emperor Roselle! Do you know? Roselle invented the steam engine; he led the world forward...",
-    "target_ru": "Это Рассел! Это великий император Рассел! Вы знали? Рассел изобрел паровой двигатель и повёл мир вперёд..."
+    "target_ru": "Это Розель! Это великий император Розель! Вы знали? Розель изобрел паровой двигатель и повёл мир вперёд..."
   },
   {
     "id": "024218",
@@ -26091,7 +26091,7 @@
     "id": "024353",
     "source_cn": "终末猎杀携带碎片",
     "ref_en": "Final Hunt Fragment Carrying",
-    "target_ru": "Терминальная охота с обломками"
+    "target_ru": "Ношение осколков «Финальной охоты»"
   },
   {
     "id": "024354",
@@ -26103,7 +26103,7 @@
     "id": "024355",
     "source_cn": "罗塞尔Boss-3阶段-隐身",
     "ref_en": "Roselle Boss - Phase 3 - Invisibility",
-    "target_ru": "Рассел Босс-3 Этап-Скрытность"
+    "target_ru": "Розель Босс-3 Этап-Скрытность"
   },
   {
     "id": "024356",
@@ -27057,7 +27057,7 @@
     "id": "024514",
     "source_cn": "GTA-黑荆棘门口交接魔女",
     "ref_en": "GTA - Hand Over the Witch at the Blackthorn Security Company Entrance",
-    "target_ru": "GTA-Сдать ведьму у дверей Блэкторна"
+    "target_ru": "GTA-Сдать ведьму у дверей «Чёрного Терновника»"
   },
   {
     "id": "024515",
@@ -27159,7 +27159,7 @@
     "id": "024531",
     "source_cn": "使用后获得<Highlight>苍白余韵发型</>\\n若已拥有此外观，则可选择分解获得360万绑定苏勒",
     "ref_en": "Use to obtain <Highlight>Pale Afterglow Hairstyle</>\\nIf you already own this appearance, you can choose to dismantle it to obtain 3,600,000 Bound Soules",
-    "target_ru": "После использования вы получите <Highlight>Прическа с бледным послевкусием</>\nЕсли у вас уже есть этот внешний вид, вы можете разложить его, чтобы получить 3,6 миллиона связанных сулеров."
+    "target_ru": "После использования вы получите <Highlight>Прическа с бледным послевкусием</>\nЕсли у вас уже есть этот внешний вид, вы можете разложить его, чтобы получить 3,6 миллиона привязанных суле."
   },
   {
     "id": "024532",
@@ -27627,7 +27627,7 @@
     "id": "024609",
     "source_cn": "这是脚踏车钥匙。罗塞尔大帝说过，要与时代潮流一同前进！",
     "ref_en": "This is a bicycle key. Emperor Roselle said, one must move forward with the trends of the era!",
-    "target_ru": "Это ключ от велосипеда. Император Рассел сказал, что мы должны идти вперед в соответствии с веяниями времени!"
+    "target_ru": "Это ключ от велосипеда. Император Розель сказал, что мы должны идти вперед в соответствии с веяниями времени!"
   },
   {
     "id": "024610",
@@ -27813,7 +27813,7 @@
     "id": "024640",
     "source_cn": "三苏勒，我全部的钱了……或许能为她买到一条项链？",
     "ref_en": "Three soli, all my money... perhaps I can buy her a necklace?",
-    "target_ru": "_\n\nСамсуле, все мои деньги... может, я куплю ей ожерелье?"
+    "target_ru": "Три суле, все мои деньги... может, я куплю ей ожерелье?"
   },
   {
     "id": "024641",
@@ -29349,7 +29349,7 @@
     "id": "024896",
     "source_cn": "{{PlayerName}}，你有一份黑荆棘安保公司的包裹。",
     "ref_en": "{{PlayerName}}, you have a package from Blackthorn Security Company.",
-    "target_ru": "{{PlayerName}}, у вас есть посылка от Blackthorn Security."
+    "target_ru": "{{PlayerName}}, у вас есть посылка от охранной компании «Чёрный Терновник»."
   },
   {
     "id": "024897",
@@ -29469,7 +29469,7 @@
     "id": "024916",
     "source_cn": "偶遇罗珊",
     "ref_en": "Encountering Rozanne",
-    "target_ru": "Встреча с Роксаной"
+    "target_ru": "Встреча с Розанной"
   },
   {
     "id": "024917",

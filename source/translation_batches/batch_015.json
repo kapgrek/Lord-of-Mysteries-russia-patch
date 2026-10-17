@@ -1317,7 +1317,7 @@
     "id": "070219",
     "source_cn": "黑荆棘事件簿4-第四关海神1权杖交互物",
     "ref_en": "Black Thorn Casebook 4 - Stage 4 Sea God 1 Scepter Interaction Object",
-    "target_ru": "Книга дел Black Thorn 4 — Этап 4. Объект взаимодействия с морским богом 1 — скипетром."
+    "target_ru": "Книга дел «Чёрного Терновника» 4 — Этап 4. Объект взаимодействия с морским богом 1 — скипетром."
   },
   {
     "id": "070220",
@@ -1965,7 +1965,7 @@
     "id": "070327",
     "source_cn": "罗塞尔意志",
     "ref_en": "Roselle's Will",
-    "target_ru": "Воля Розеллы"
+    "target_ru": "Воля Розеля"
   },
   {
     "id": "070328",
@@ -3129,7 +3129,7 @@
     "id": "070522",
     "source_cn": "和罗塞尔有关的女士……不可抗拒的魅力……难道……",
     "ref_en": "A lady related to Roselle... irresistible charm... could it be...",
-    "target_ru": "Дама, родственница Розеллы... непреодолимое обаяние... неужели..."
+    "target_ru": "Дама, связанная с Розелем... непреодолимое обаяние... неужели..."
   },
   {
     "id": "070523",
@@ -3159,7 +3159,7 @@
     "id": "070527",
     "source_cn": "在一个血月格外明亮的夜晚，廷根突然出现了大量有关“罗塞尔大帝”的知识，历史课本，杂志，报纸，似乎都回到了一百多年前，罗塞尔最辉煌的那个时刻。",
     "ref_en": "On a night when the Blood Moon was exceptionally bright, Tingen suddenly saw a surge of knowledge regarding \"Emperor Roselle.\" History textbooks, magazines, and newspapers all seemed to have returned to over a hundred years ago, to the moment of Roselle's greatest glory.",
-    "target_ru": "В ночь, когда Кровавая Луна была исключительно яркой, Тинген внезапно увидел прилив знаний об «Императоре Розелле». Учебники по истории, журналы и газеты, казалось, вернулись более чем на сто лет назад, к моменту величайшей славы Розеллы."
+    "target_ru": "В ночь, когда Кровавая Луна была исключительно яркой, Тинген внезапно увидел прилив знаний об «Императоре Розеле». Учебники по истории, журналы и газеты, казалось, вернулись более чем на сто лет назад, к моменту величайшей славы Розеля."
   },
   {
     "id": "070528",
@@ -3537,7 +3537,7 @@
     "id": "070590",
     "source_cn": "离开黑荆棘后",
     "ref_en": "After leaving Blackthorn",
-    "target_ru": "После ухода из Блэкторна"
+    "target_ru": "После ухода из «Чёрного Терновника»"
   },
   {
     "id": "070591",
@@ -4719,7 +4719,7 @@
     "id": "070787",
     "source_cn": "使用后获得<Highlight>雾之余晖帽子</>\\n女性角色外观，可在【百货-外观转换商店】中与对应男性角色外观<Highlight>遗失的荣耀</>互相兑换\\n若已拥有此外观，则可选择分解获得10万绑定苏勒",
     "ref_en": "Use to obtain <Highlight>Mist's Afterglow Hat</>\\nFemale character appearance, can be exchanged for the corresponding male character appearance <Highlight>Lost Glory</> in the [General Store - Appearance Conversion Shop]\\n If you already own this appearance, you can choose to dismantle it to obtain 100,000 Bound Soules",
-    "target_ru": "Используйте, чтобы получить шляпу <Highlight>«Закатный отблеск тумана»</>.\\nОблик для женских персонажей. В разделе 【Универмаг — Магазин обмена обликов】 его можно обменять на аналогичный мужской облик <Highlight>«Утраченная слава»</>.\\nЕсли у вас уже есть этот облик, его можно распылить на 100 000 персональных солей."
+    "target_ru": "Используйте, чтобы получить шляпу <Highlight>«Закатный отблеск тумана»</>.\\nОблик для женских персонажей. В разделе 【Универмаг — Магазин обмена обликов】 его можно обменять на аналогичный мужской облик <Highlight>«Утраченная слава»</>.\\nЕсли у вас уже есть этот облик, его можно распылить на 100 000 привязанных суле."
   },
   {
     "id": "070788",
@@ -6357,7 +6357,7 @@
     "id": "071061",
     "source_cn": "使用后解锁<Highlight>单人社交动作·打招呼</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Greet</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Приветствие</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: Приветствие</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "071062",
@@ -7065,7 +7065,7 @@
     "id": "071179",
     "source_cn": "可在百货使用绑定苏勒、苏勒等直接购买商品。",
     "ref_en": "You can use Bound Sol and Sol to purchase items directly at the Department Store.",
-    "target_ru": "Вы можете использовать Bound Sol и Sol для покупки товаров непосредственно в универмаге."
+    "target_ru": "Вы можете использовать привязанные суле и суле для покупки товаров непосредственно в универмаге."
   },
   {
     "id": "071180",
@@ -7209,7 +7209,7 @@
     "id": "071203",
     "source_cn": "开启可随机获得一件<Highlight>68装等</>或<Highlight>69装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Opening it grants a random piece of <Highlight>Level 68</> or <Highlight>Level 69</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week.",
-    "target_ru": "Открыв его, вы получите случайную часть <Highlight>LLevel 68</> или <Highlight>LLevel 69</> <Highlight>Оранжевого или золотого качества, ориентированного на соревнования </>, материалов Потусторонний, факторов полимеризации и связанных подошв. Существует определенный шанс получить 1 фрагмент кристалла серого тумана (используется для улучшения соревновательных брошей уровня 64 или выше до мифического качества). В неделю можно получить максимум 3, а неполученные суммы можно перенести на следующую неделю."
+    "target_ru": "При открытии можно случайным образом получить один предмет оранжевого или золотого качества <Highlight>68-го ур.</> или <Highlight>69-го ур.</> снаряжения <Highlight>соревновательного направления</>, потусторонние материалы, факторы агрегации или привязанные суле. С определенной вероятностью можно получить 1 осколок серого кристалла тумана (используется для улучшения соревновательной броши 64-го ур. снаряжения и выше до мифического качества); максимум 3 в неделю, неполученное количество переносится на следующую неделю."
   },
   {
     "id": "071204",
@@ -7371,13 +7371,13 @@
     "id": "071230",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>68装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Every <Highlight>20 progress </>, receive 1 growth resource chest. Opening it grants a random piece of <Highlight>Level 68</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week.",
-    "target_ru": "За каждый прогресс <Highlight>20 на </> вы получаете 1 сундук с ресурсами роста. Открыв его, вы получите случайную часть <Highlight>LLevel 68</> <Highlight>Ориентированное на соревнования </> оранжевого или золотого качества Снаряжения, материалов Потусторонний, факторов полимеризации и связанных подошв. Существует определенный шанс получить 1 фрагмент кристалла серого тумана (используется для улучшения соревновательных брошей уровня 64 или выше до мифического качества). В неделю можно получить максимум 3, а неполученные суммы можно перенести на следующую неделю."
+    "target_ru": "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 коробку ресурсов развития. При открытии можно случайным образом получить один предмет оранжевого или золотого качества <Highlight>68-го ур. снаряжения</> <Highlight>соревновательного направления</>, потусторонние материалы, факторы агрегации или привязанные суле. С определенной вероятностью можно получить 1 осколок серого кристалла тумана (используется для улучшения соревновательной броши 64-го ур. снаряжения и выше до мифического качества); максимум 3 в неделю, неполученное количество переносится на следующую неделю."
   },
   {
     "id": "071231",
     "source_cn": "氛围·黑荆棘·奥菲莉亚",
     "ref_en": "Atmosphere: Blackthorn - Ophelia",
-    "target_ru": "Атмосфера: Чёрный Чертополох - Офелия"
+    "target_ru": "Атмосфера: «Чёрный Терновник» - Офелия"
   },
   {
     "id": "071232",
@@ -8001,7 +8001,7 @@
     "id": "071335",
     "source_cn": "开启后，以下交易相关行为需要进行密码锁的二次确认：交易所道具上架、下架、购买，拍卖出价，可交易道具的消耗，其他任意金镑和苏勒的消耗等。",
     "ref_en": "When enabled, the following trading-related actions require secondary confirmation via a password lock: listing, delisting, or purchasing items on the Exchange, bidding in auctions, consuming tradable items, and any other consumption of Pounds and Soles.",
-    "target_ru": "Если эта функция включена, следующие действия, связанные с торговлей, требуют вторичного подтверждения с помощью блокировки паролем: листинг, исключение из списка или покупка предметов на бирже, участие в торгах на аукционах, потребление торгуемых предметов и любое другое потребление фунтов и подошв."
+    "target_ru": "Если эта функция включена, следующие действия, связанные с торговлей, требуют вторичного подтверждения с помощью блокировки паролем: листинг, исключение из списка или покупка предметов на бирже, участие в торгах на аукционах, потребление торгуемых предметов и любое другое потребление фунтов и суле."
   },
   {
     "id": "071336",
@@ -8271,7 +8271,7 @@
     "id": "071380",
     "source_cn": "跟随<h>弗莱</>回到黑荆棘",
     "ref_en": "Follow <h>Frye</> back to Blackthorn",
-    "target_ru": "Следуйте за <h>Фрай</> обратно в Чёрный Чертополох."
+    "target_ru": "Следуйте за <h>Фрай</> обратно в «Чёрный Терновник»."
   },
   {
     "id": "071381",
@@ -8445,7 +8445,7 @@
     "id": "071410",
     "source_cn": "今夜琴声温柔-黑荆棘一起喝咖啡",
     "ref_en": "Gentle Piano Music Tonight - The Blackthorn Security Company drinks coffee together",
-    "target_ru": "Нежная фортепианная музыка сегодня вечером - компания Охранная компания «Чёрный Чертополох» вместе пьет кофе"
+    "target_ru": "Нежная фортепианная музыка сегодня вечером - «Чёрный Терновник» вместе пьет кофе"
   },
   {
     "id": "071411",
@@ -8559,7 +8559,7 @@
     "id": "071429",
     "source_cn": "发钱，2W绑定苏勒，奖励表内",
     "ref_en": "Grant 2W Bound Sol, as listed in the reward table.",
-    "target_ru": "Выдайте 2W Bound Sol, как указано в таблице наград."
+    "target_ru": "Выдайте 2W привязанных суле, как указано в таблице наград."
   },
   {
     "id": "071430",
@@ -10155,7 +10155,7 @@
     "id": "071696",
     "source_cn": "使用后解锁<Highlight>双人社交动作·华尔兹</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Dual Social Action: Waltz</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "При использовании открывает <Highlight>Dual Social Action: Waltz</>; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "При использовании открывает <Highlight>Парное социальное действие: Вальс</>; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "071697",
@@ -10179,7 +10179,7 @@
     "id": "071700",
     "source_cn": "加入<h>黑荆棘安保公司</>",
     "ref_en": "Join <h>Blackthorn Security Company</>",
-    "target_ru": "Присоединяйтесь к <h>Охранная компания «Чёрный Чертополох»</>"
+    "target_ru": "Присоединяйтесь к <h>охранной компании «Чёрный Терновник»</>"
   },
   {
     "id": "071701",
@@ -10455,7 +10455,7 @@
     "id": "071746",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>64装等</>或<Highlight>66装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 64</> or <Highlight>Item Level 66</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Item Level 64</> или <Highlight>Item Level 66</> <Highlight>Приключенческое снаряжение </> оранжевого или золотого качества, материалы Потусторонний, факторы агрегации и связанную душу."
+    "target_ru": "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 коробку ресурсов развития. При открытии можно случайным образом получить один предмет оранжевого или золотого качества <Highlight>64-го ур.</> или <Highlight>66-го ур.</> снаряжения <Highlight>приключенческого направления</>, потусторонние материалы, факторы агрегации или привязанные суле."
   },
   {
     "id": "071747",
@@ -10767,7 +10767,7 @@
     "id": "071799",
     "source_cn": "使用后可结交阿尔杰·威尔逊。",
     "ref_en": "Use to build a connection with Alger Wilson.",
-    "target_ru": "Используйте, чтобы установить связь с Алджером Уилсоном."
+    "target_ru": "Используйте, чтобы установить связь с Элджером Уилсоном."
   },
   {
     "id": "071800",
@@ -10959,7 +10959,7 @@
     "id": "071831",
     "source_cn": "廷根出现大量有关“罗塞尔大帝”的异常知识，造成了污染。廷根警察局向值夜者小队转交了部分异常案件。",
     "ref_en": "A large amount of abnormal knowledge regarding \"Emperor Roselle\" appeared in Tingen, causing corruption. The Tingen Police Department transferred some of the abnormal cases to the Nighthawks squad.",
-    "target_ru": "В Тингене появилось большое количество аномальных знаний об «Императоре Розелле», что привело к Искажения. Полицейское управление Тингена передало часть аномальных дел отряду «Ночные ястребы»."
+    "target_ru": "В Тингене появилось большое количество аномальных знаний об «Императоре Розеле», что привело к искажению. Полицейское управление Тингена передало часть аномальных дел отряду «Ночные ястребы»."
   },
   {
     "id": "071832",
@@ -12027,7 +12027,7 @@
     "id": "072009",
     "source_cn": "罗塞尔隐秘羁绊奖励",
     "ref_en": "Roselle secret bond reward.",
-    "target_ru": "Награда за секретный залог Розеллы."
+    "target_ru": "Награда за скрытую связь Розеля."
   },
   {
     "id": "072010",
@@ -12477,7 +12477,7 @@
     "id": "072085",
     "source_cn": "在一个血月格外明亮的夜晚，廷根突然出现了大量有关\"罗塞尔大帝\"的知识，历史课本，杂志，报纸，似乎都回到了一百多年前，罗塞尔最辉煌的那个时刻。",
     "ref_en": "On a night when the blood moon was exceptionally bright, a large amount of knowledge about \"Emperor Roselle\" suddenly appeared in Tingen. History textbooks, magazines, and newspapers all seemed to have returned to over a hundred years ago, to the moment of Roselle's greatest glory.",
-    "target_ru": "В ночь, когда кровавая луна была исключительно яркой, в Тингене внезапно появилось большое количество знаний об «Императоре Розелле». Учебники истории, журналы и газеты, казалось, вернулись более чем на сто лет назад, к моменту величайшей славы Розеллы."
+    "target_ru": "В ночь, когда кровавая луна была исключительно яркой, в Тингене внезапно появилось большое количество знаний об «Императоре Розеле». Учебники истории, журналы и газеты, казалось, вернулись более чем на сто лет назад, к моменту величайшей славы Розеля."
   },
   {
     "id": "072086",
@@ -13677,7 +13677,7 @@
     "id": "072285",
     "source_cn": "（沉思）这场危机还涉及知识与罗塞尔大帝，那我大概猜到那位女士的身份了。",
     "ref_en": "(Contemplating) This crisis also involves knowledge and Emperor Roselle, so I think I can guess the identity of that lady.",
-    "target_ru": "(Размышляя) Этот кризис также затрагивает знания и императора Розеллу, так что я думаю, что могу догадаться, кто эта женщина."
+    "target_ru": "(Размышляя) Этот кризис также затрагивает знания и императора Розеля, так что я думаю, что могу догадаться, кто эта женщина."
   },
   {
     "id": "072286",
@@ -13881,7 +13881,7 @@
     "id": "072319",
     "source_cn": "参与「终末猎杀」玩法并使用一次叹息之种",
     "ref_en": "Participate in the \"End-Time Hunt\" mode and use one Seed of Sighs",
-    "target_ru": "Примите участие в режиме «Охота последних времен» и используйте одно Семя вздохов."
+    "target_ru": "Примите участие в режиме «Финальная охота» и используйте одно Семя вздохов."
   },
   {
     "id": "072320",
@@ -14067,7 +14067,7 @@
     "id": "072350",
     "source_cn": "我的苏勒",
     "ref_en": "My Sols",
-    "target_ru": "Мои Солы"
+    "target_ru": "Мои суле"
   },
   {
     "id": "072351",
@@ -14385,7 +14385,7 @@
     "id": "072403",
     "source_cn": "触发器·黑荆棘",
     "ref_en": "Trigger: Blackthorn",
-    "target_ru": "Триггер: Чёрный Чертополох"
+    "target_ru": "Триггер: «Чёрный Терновник»"
   },
   {
     "id": "072404",
@@ -14433,7 +14433,7 @@
     "id": "072411",
     "source_cn": "通过黑荆棘工作手册获取",
     "ref_en": "Acquired through Blackthorn Security Company handbook",
-    "target_ru": "Можно получить из справочника компании Охранная компания «Чёрный Чертополох»."
+    "target_ru": "Можно получить из справочника охранной компании «Чёрный Терновник»."
   },
   {
     "id": "072412",
@@ -14877,7 +14877,7 @@
     "id": "072485",
     "source_cn": "有关黑荆棘",
     "ref_en": "About Blackthorn",
-    "target_ru": "О Блэкторне"
+    "target_ru": "О «Чёрном Терновнике»"
   },
   {
     "id": "072486",
@@ -15081,13 +15081,13 @@
     "id": "072519",
     "source_cn": "黑荆棘事件簿2_太阳冲击扩散波-机器人用",
     "ref_en": "Blackthorn Incident Book 2_Sun Impact Diffusion Wave - For Robot",
-    "target_ru": "Книга происшествий в Блэкторне 2_Диффузионная волна при воздействии Солнца - для робота"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 2_Диффузионная волна при воздействии Солнца - для робота"
   },
   {
     "id": "072520",
     "source_cn": "黑荆棘接工厂工人失踪案，弗莱委托你前往拉姆德古堡调查第三名失踪者亚瑟。你抵达后触发灵视，目睹阿兹克从棺材中苏醒。他正调查“永暗蜡烛”引发的自杀潮，已救下六人。你发现亚瑟被蜡烛污染企图自杀，阿兹克救治后资助他回家。线索指向蜡烛工坊学徒芬恩，他告诉你幕后黑手将在墓地广场举行死亡庆典。庆典上，你与阿兹克揭穿主持者托马斯神父——他扭曲黑夜女神教义，妄图用永暗蜡烛逃避死亡。托马斯失控逃入冥界，你随阿兹克追击。阿兹克点亮蜡烛驱散黑暗，击败托马斯。芬恩用老师维斯塔的蜡烛替换了邪异蜡烛，救了众人。阿兹克看着烛光，回忆起人性中明亮温暖的片段，点出了死亡与生命的意义。",
     "ref_en": "Blackthorn takes on a case of missing factory workers, and Frye entrusts you to go to Lamud Castle to investigate the third missing person, Arthur. Upon arrival, you trigger spirit vision and witness Azik waking up from a coffin. He is investigating the suicide wave caused by the \"Evernight Candle\" and has already saved six people. You discover that Arthur was contaminated by the candle and attempted suicide; after Azik treats him, he provides funds for him to return home. The clues point to the apprentice Finn of the candle workshop, who tells you that the mastermind will hold a death celebration at the cemetery square. At the celebration, you and Azik expose Father Thomas, the host—he distorted the teachings of the Evernight Goddess, attempting to use the Evernight Candle to escape death. Thomas loses control and flees into the Underworld, and you pursue him with Azik. Azik lights the candle to dispel the darkness and defeats Thomas. Finn replaces the evil candle with his teacher Vista's candle, saving everyone. Looking at the candlelight, Azik recalls the bright and warm fragments of humanity, pointing out the meaning of death and life.",
-    "target_ru": "Чёрный Чертополох берется за дело о пропавших без вести рабочих фабрики, а Фрай поручает вам отправиться в замок Ламуд, чтобы расследовать дело о третьем пропавшем человеке, Артуре. По прибытии вы активируете призрачное видение и видите, как Азик просыпается из гроба. Он расследует волну самоубийств, вызванную «Вечной свечой», и уже спас шесть человек. Вы обнаруживаете, что Артур был заражен свечой и попытался покончить жизнь самоубийством; после того, как Азик его вылечит, он дает ему средства на возвращение домой. Подсказки указывают на ученика Финна из свечной мастерской, который сообщает вам, что вдохновитель устроит празднование смерти на кладбищенской площади. На празднике вы с Азиком разоблачаете отца Томаса, ведущего — он исказил учение Богини Вечной Ночи, пытаясь использовать Свечу Вечной Ночи, чтобы избежать смерти. Томас теряет контроль и убегает в Подземный мир, а вы преследуете его вместе с Азиком. Азик зажигает свечу, чтобы рассеять тьму, и побеждает Томаса. Финн заменяет злую свечу свечой своего учителя Висты, спасая всех. Глядя на свет свечей, Азик вспоминает яркие и теплые фрагменты человечества, указывая на смысл смерти и жизни."
+    "target_ru": "«Чёрный Терновник» берется за дело о пропавших без вести рабочих фабрики, а Фрай поручает вам отправиться в замок Ламуд, чтобы расследовать дело о третьем пропавшем человеке, Артуре. По прибытии вы активируете призрачное видение и видите, как Азик просыпается из гроба. Он расследует волну самоубийств, вызванную «Вечной свечой», и уже спас шесть человек. Вы обнаруживаете, что Артур был заражен свечой и попытался покончить жизнь самоубийством; после того, как Азик его вылечит, он дает ему средства на возвращение домой. Подсказки указывают на ученика Финна из свечной мастерской, который сообщает вам, что вдохновитель устроит празднование смерти на кладбищенской площади. На празднике вы с Азиком разоблачаете отца Томаса, ведущего — он исказил учение Богини Вечной Ночи, пытаясь использовать Свечу Вечной Ночи, чтобы избежать смерти. Томас теряет контроль и убегает в Подземный мир, а вы преследуете его вместе с Азиком. Азик зажигает свечу, чтобы рассеять тьму, и побеждает Томаса. Финн заменяет злую свечу свечой своего учителя Висты, спасая всех. Глядя на свет свечей, Азик вспоминает яркие и теплые фрагменты человечества, указывая на смысл смерти и жизни."
   },
   {
     "id": "072521",
@@ -15561,7 +15561,7 @@
     "id": "072599",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>35装等</>的<Highlight>竞技倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 35</> <Highlight>Competition-oriented</> gold and purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "Каждые <Highlight>20 очков прогресса</> дают 1 ящик ресурсов развития. Открыв его, можно случайно получить предмет снаряжения <Highlight>35-го уровня</> золотого или фиолетового качества с <Highlight>уклоном в PvP</>, Потусторонние вещества, Факторы схождения и персональные соли.\n\n<Highlight>Лимит преобразования</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохранен автоматически</>, а после открытия сокровищ нового уровня снаряжения <Highlight>преобразуется в новые тайные сокровища</>."
+    "target_ru": "Каждые <Highlight>20 очков прогресса</> дают 1 ящик ресурсов развития. Открыв его, можно случайно получить предмет снаряжения <Highlight>35-го уровня</> золотого или фиолетового качества с <Highlight>уклоном в PvP</>, Потусторонние вещества, Факторы схождения и привязанные суле.\n\n<Highlight>Лимит преобразования</>: максимум до <Highlight>10</> сокровищ. Избыточный прогресс будет <Highlight>сохранен автоматически</>, а после открытия сокровищ нового уровня снаряжения <Highlight>преобразуется в новые тайные сокровища</>."
   },
   {
     "id": "072600",
@@ -15681,7 +15681,7 @@
     "id": "072619",
     "source_cn": "罗塞尔Boss-1&2阶段-镜像数据-点名标记",
     "ref_en": "Roselle Boss - Stage 1&2 - Mirror Data - Target Mark",
-    "target_ru": "Босс Розеллы — этапы 1 и 2 — зеркальные данные — целевая метка"
+    "target_ru": "Босс Розеля — этапы 1 и 2 — зеркальные данные — целевая метка"
   },
   {
     "id": "072620",
@@ -15939,7 +15939,7 @@
     "id": "072663",
     "source_cn": "之前和弗莱队长调查廷根中央广场时，曾进入罗塞尔相关的知识空间。难道这里也存在一个知识空间？",
     "ref_en": "When I was investigating the Central Plaza of Tingen with Captain Frye, I entered a knowledge space related to Roselle. Could there be a knowledge space here too?",
-    "target_ru": "Когда я исследовал Центральную площадь Тингена вместе с капитаном Фраем, я вошел в пространство знаний, связанное с Розеллой. Может ли здесь быть пространство знаний?"
+    "target_ru": "Когда я исследовал Центральную площадь Тингена вместе с капитаном Фраем, я вошел в пространство знаний, связанное с Розелем. Может ли здесь быть пространство знаний?"
   },
   {
     "id": "072664",
@@ -17727,7 +17727,7 @@
     "id": "072961",
     "source_cn": "使用后解锁<Highlight>单人社交动作·赞同</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Agree</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Согласиться</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: Согласиться</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "072962",
@@ -18567,7 +18567,7 @@
     "id": "073101",
     "source_cn": "地板上有一些脚印的痕迹，看来黑荆棘的生意还不错。",
     "ref_en": "There are some footprints on the floor. It seems business at Blackthorn is quite good.",
-    "target_ru": "На полу какие-то следы. Кажется, дела у Блэкторна идут неплохо."
+    "target_ru": "На полу какие-то следы. Кажется, дела у «Чёрного Терновника» идут неплохо."
   },
   {
     "id": "073102",
@@ -18753,7 +18753,7 @@
     "id": "073132",
     "source_cn": "您的绑定苏勒不足，无法发起双人解除誓约。",
     "ref_en": "Your bound soli is insufficient to initiate a mutual dissolution of the Covenant.",
-    "target_ru": "Вашей связанной суле недостаточно, чтобы инициировать взаимный роспуск Ковенанта."
+    "target_ru": "Ваших привязанных суле недостаточно, чтобы инициировать взаимный роспуск Ковенанта."
   },
   {
     "id": "073133",
@@ -19551,7 +19551,7 @@
     "id": "073265",
     "source_cn": "最近黑荆棘人手紧张，这位新员工……",
     "ref_en": "Blackthorn is short-handed recently, this new employee...",
-    "target_ru": "В Чёрный Чертополох в последнее время не хватает рабочих рук, этот новый сотрудник..."
+    "target_ru": "В «Чёрном Терновнике» в последнее время не хватает рабочих рук, этот новый сотрудник..."
   },
   {
     "id": "073266",
@@ -19917,7 +19917,7 @@
     "id": "073326",
     "source_cn": "黑荆棘事件3-洛克·金-扇形点名-退化点任意敌人",
     "ref_en": "Black Thorn Event 3-Rock King-Fan-Shaped Mark-Degradation Mark Any Enemy",
-    "target_ru": "Событие «Черный шип» 3 — Король камней — Веерообразная метка — Метка деградации любого врага"
+    "target_ru": "Событие «Чёрный Терновник» 3 — Король камней — Веерообразная метка — Метка деградации любого врага"
   },
   {
     "id": "073327",
@@ -20445,7 +20445,7 @@
     "id": "073414",
     "source_cn": "终末猎杀·竞争者",
     "ref_en": "Final Hunt: Competitor",
-    "target_ru": "Последняя охота: конкурент"
+    "target_ru": "«Финальная охота»: конкурент"
   },
   {
     "id": "073415",
@@ -20571,7 +20571,7 @@
     "id": "073435",
     "source_cn": "黑荆棘车夫",
     "ref_en": "Blackthorn carriage driver",
-    "target_ru": "Машинист кареты Чёрный Чертополох"
+    "target_ru": "Машинист кареты «Чёрного Терновника»"
   },
   {
     "id": "073436",
@@ -20613,7 +20613,7 @@
     "id": "073442",
     "source_cn": "<Assistant_Title1>【美梦成真】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>我和你在一起，就是“最佳搭档”。\\n<Assistant_Title2>领取方式：</>完成支线剧情《美梦成真（上）》，且扮演等级达到<Assistant_Red>42级</>后，可在任务面板手动领取\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、金纺线、夜莺银哨、圣洁道袍",
     "ref_en": "<Assistant_Title1>【Dreams Come True】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Being with you makes us the \"best partners.\"\\n<Assistant_Title2>How to Accept: </>After completing the side story \"Dreams Come True (Part 1)\" and reaching an Acting Level of <Assistant_Red>42</>, you can manually accept it in the quest panel.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Gold Thread, Nightingale Silver Whistle, Holy Robe",
-    "target_ru": "<Assistant_Title1>【Мечты сбываются】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное задание</>\n<Assistant_Title2>Описание задания: </>Когда мы вместе, мы — «лучшие напарники».\n<Assistant_Title2>Как принять: </>После завершения побочного сюжета «Мечты сбываются (часть 1)» и достижения <Assistant_Red>42-го уровня</> Отыгрыша можно вручную принять задание в панели заданий.\n<Assistant_Title2>Награды за задание:</> Опыт познания, персональные соли, персональные золотые фунты, Золотая нить, Серебряный свисток соловья, Священное одеяние"
+    "target_ru": "<Assistant_Title1>【Мечты сбываются】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное задание</>\n<Assistant_Title2>Описание задания: </>Когда мы вместе, мы — «лучшие напарники».\n<Assistant_Title2>Как принять: </>После завершения побочного сюжета «Мечты сбываются (часть 1)» и достижения <Assistant_Red>42-го уровня</> Отыгрыша можно вручную принять задание в панели заданий.\n<Assistant_Title2>Награды за задание:</> Опыт познания, привязанные суле, персональные золотые фунты, Золотая нить, Серебряный свисток соловья, Священное одеяние"
   },
   {
     "id": "073443",
@@ -20691,7 +20691,7 @@
     "id": "073455",
     "source_cn": "传送到黑荆棘安保公司的休息室。",
     "ref_en": "Teleport to the lounge of the Blackthorn Security Company.",
-    "target_ru": "Телепортироваться в комнату отдыха Охранной компании «Чёрный шип»."
+    "target_ru": "Телепортироваться в комнату отдыха Охранной компании «Чёрный Терновник»."
   },
   {
     "id": "073456",
@@ -21231,7 +21231,7 @@
     "id": "073546",
     "source_cn": "罗塞尔单BOSS团本-史诗",
     "ref_en": "Roselle Single-Boss Raid — Epic",
-    "target_ru": "Рейд с одним боссом Розеллы — эпический"
+    "target_ru": "Рейд с одним боссом Розеля — эпический"
   },
   {
     "id": "073547",
@@ -21387,7 +21387,7 @@
     "id": "073572",
     "source_cn": "<P_Heart>（嗯？是我的错觉吗，这位女士似乎在看向我？咳咳……是时候展现罗塞尔的魅力了。）</>",
     "ref_en": "<P_Heart>(Hmm? Is it my imagination, or is this lady looking at me? Cough, cough... it's time to show Roselle's charm.)</>",
-    "target_ru": "<P_Heart>(Хм? Это мне кажется, или эта дама смотрит на меня? Кхе-кхе... пришло время показать очарование Розеллы.) </>"
+    "target_ru": "<P_Heart>(Хм? Это мне кажется, или эта дама смотрит на меня? Кхе-кхе... пришло время показать очарование Розеля.) </>"
   },
   {
     "id": "073573",
@@ -23133,7 +23133,7 @@
     "id": "073865",
     "source_cn": "嘿，作为值夜者，我们永远相信队友，黑荆棘的同伴永远是最好的。",
     "ref_en": "Hey, as Nighthawks, we always trust our teammates. Our companions in the Blackthorn are always the best.",
-    "target_ru": "Эй, мы, «Ночные ястребы», всегда доверяем нашим товарищам по команде. Наши товарищи в Блэкторне всегда лучшие."
+    "target_ru": "Эй, мы, «Ночные ястребы», всегда доверяем нашим товарищам по команде. Наши товарищи в «Чёрном Терновнике» всегда лучшие."
   },
   {
     "id": "073866",
@@ -23505,7 +23505,7 @@
     "id": "073927",
     "source_cn": "终末猎杀·跃升高处",
     "ref_en": "Final Hunt · Rising High",
-    "target_ru": "Последняя охота · Возвышение"
+    "target_ru": "«Финальная охота» · Возвышение"
   },
   {
     "id": "073928",
@@ -23811,7 +23811,7 @@
     "id": "073978",
     "source_cn": "二十多次的尝试，终于见证到你的奇迹。欢迎新成员加入黑荆棘， 有什么问题，都可以问我，或者弗莱。",
     "ref_en": "After more than twenty attempts, I have finally witnessed your miracle. Welcome to the Nighthawks, new member. If you have any questions, feel free to ask me or Frye.",
-    "target_ru": "После более чем двадцати попыток я наконец стал свидетелем вашего чуда. Добро пожаловать в Ночные Ястребы, новый участник. Если у вас есть какие-либо вопросы, не стесняйтесь задавать их мне или Фраю."
+    "target_ru": "После более чем двадцати попыток я наконец стал свидетелем вашего чуда. Добро пожаловать в «Чёрный Терновник», новый участник. Если у вас есть какие-либо вопросы, не стесняйтесь задавать их мне или Фраю."
   },
   {
     "id": "073979",
@@ -24885,7 +24885,7 @@
     "id": "074157",
     "source_cn": "罗塞尔的残留意志-3星",
     "ref_en": "Roselle's Residual Will - 3 Star",
-    "target_ru": "Остаточная воля Розеллы — 3 звезды"
+    "target_ru": "Остаточная воля Розеля — 3 звезды"
   },
   {
     "id": "074158",
@@ -25731,7 +25731,7 @@
     "id": "074299",
     "source_cn": "这是穿越者罗塞尔·古斯塔夫用简体中文写成的私人日记，记录了他的心路历程、非凡见闻与历史隐秘。对克莱恩而言，它是探寻世界真相与“回家”之路的关键线索。",
     "ref_en": "This is a private diary written in Simplified Chinese by the transmigrator Roselle Gustav, recording his inner journey, Beyonder experiences, and historical secrets. For Klein, it is a key clue to exploring the truth of the world and the path \"home\".",
-    "target_ru": "Это личный дневник, написанный на упрощенном китайском языке переселенцем Розеллой Густавом, в котором записаны его внутреннее путешествие, опыт Потустороннего мира и исторические тайны. Для Клейн это ключевой ключ к познанию истины о мире и пути «дома»."
+    "target_ru": "Это личный дневник, написанный на упрощенном китайском языке переселенцем Розелем Густавом, в котором записаны его внутреннее путешествие, опыт Потустороннего мира и исторические тайны. Для Клейна это ключевой ключ к познанию истины о мире и пути «дома»."
   },
   {
     "id": "074300",
@@ -28041,7 +28041,7 @@
     "id": "074686",
     "source_cn": "……哦，想要加入罗塞尔大帝的探索队，当然要好好准备。",
     "ref_en": "……Oh, if you want to join Emperor Roselle's Exploration team, you must prepare well.",
-    "target_ru": "……О, если ты хочешь присоединиться к исследовательской команде императора Розеллы, ты должен хорошо подготовиться."
+    "target_ru": "……О, если ты хочешь присоединиться к исследовательской команде императора Розеля, ты должен хорошо подготовиться."
   },
   {
     "id": "074687",
@@ -28059,7 +28059,7 @@
     "id": "074689",
     "source_cn": "【自走棋】-阿尔杰·威尔逊-普攻-浪击",
     "ref_en": "[Auto-Chess] - Alger Wilson - Basic Attack - Wave Strike",
-    "target_ru": "[Авто-шахматы] — Алджер Уилсон — Базовая атака — Волновой удар"
+    "target_ru": "[Авто-шахматы] — Элджер Уилсон — Базовая атака — Волновой удар"
   },
   {
     "id": "074690",
@@ -29865,7 +29865,7 @@
     "id": "074991",
     "source_cn": "罗塞尔Boss-3阶段-锋利的知识-悬浮齿轮",
     "ref_en": "Roselle Boss - Phase 3 - Sharp Knowledge - Floating Gear",
-    "target_ru": "Босс Розеллы — Фаза 3 — Острые знания — Плавающее снаряжение"
+    "target_ru": "Босс Розеля — Фаза 3 — Острые знания — Плавающее снаряжение"
   },
   {
     "id": "074992",

@@ -229,7 +229,7 @@ return {
     ["Drunken Fist - Peeking Collection"] = "Пьяный кулак - подглядывающая коллекция",
     ["Dancer 15"] = "Танцор 15",
     ["Didn't expect that, did you? I'm playing this elf myself!"] = "Не ожидал этого, не так ли? Я сам играю этого эльфа!",
-    ["I heard that Tarot cards were just a game invented by Emperor Roselle and don't actually have the function of divination?"] = "Я слышал, что карты Таро были всего лишь игрой, придуманной императором Розеллой, и на самом деле не имеют функции гадания?",
+    ["I heard that Tarot cards were just a game invented by Emperor Roselle and don't actually have the function of divination?"] = "Я слышал, что карты Таро были всего лишь игрой, придуманной императором Розелем, и на самом деле не имеют функции гадания?",
     ["Number of Assists"] = "Количество передач",
     ["Jeffke"] = "Джеффке",
     ["Process monsters that need to be cleared on Platform 2"] = "Технологические монстры, которых необходимо очистить на Платформе 2",

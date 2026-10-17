@@ -190,7 +190,7 @@ return {
     ["No one will fight me."] = "Никто не будет сражаться со мной.",
     ["As you said, history is largely caused by conflicts between a minority of people seeking change, while most people only applaud and cheer for the victors, considering themselves the drivers of history."] = "Как вы сказали, история во многом вызвана конфликтами между меньшинством людей, стремящихся к переменам, в то время как большинство людей только аплодируют и подбадривают победителей, считая себя движущими силами истории.",
     ["Settlement on %s/%s/%s at %s:00"] = "Расчет по %s/%s/%s в %s:00",
-    ["<P_Heart> (If it's near Blackthorn, perhaps mysterious powers are at play.) </>"] = "<P_Heart> (Если это рядом с Блэкторном, возможно, здесь действуют таинственные силы.) </>",
+    ["<P_Heart> (If it's near Blackthorn, perhaps mysterious powers are at play.) </>"] = "<P_Heart> (Если это рядом с «Чёрным Терновником», возможно, здесь действуют таинственные силы.) </>",
     ["Is this also a Beyonder ability?"] = "Это тоже способность Потустороннего?",
     ["Can mail today: %s letters"] = "Могу отправить сегодня: письма %s",
     ["Gentle Piano Music Tonight - A spring wedding in a hallucination"] = "Нежная фортепианная музыка сегодня вечером - Весенняя свадьба в галлюцинации",

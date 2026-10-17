@@ -245,7 +245,7 @@ return {
     ["Little girl: \"Brother called me! Little lamb, little lamb, be good and sleep here, I'll play with you again when I come back.\""] = "Маленькая девочка: «Братишка меня позвал! Овечка, овечка, будь хорошей и спи здесь, я снова поиграю с тобой, когда вернусь».",
     ["Really!? That's great!"] = "Действительно!? Замечательно!",
     ["Mental Corruption"] = "Психическое разложение",
-    ["Positioning · Enter Blackthorn · Klein"] = "Позиционирование · Входит Чёрный Чертополох · Клейн",
+    ["Positioning · Enter Blackthorn · Klein"] = "Позиционирование · Входит «Чёрный Терновник» · Клейн",
     ["Heilongjiang"] = "Хэйлунцзян",
     ["After 7 days, character data will be permanently erased, and the character name will be archived."] = "Через 7 дней данные персонажа будут безвозвратно стерты, а имя персонажа заархивировано.",
     ["Ask for age"] = "Спросить возраст",

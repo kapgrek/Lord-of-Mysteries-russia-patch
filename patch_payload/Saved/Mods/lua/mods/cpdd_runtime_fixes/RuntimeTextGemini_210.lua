@@ -49,7 +49,7 @@ return {
     ["Confess"] = "Признаваться",
     ["Bugs... stay away from the bugs..."] = "Ошибки... держитесь подальше от ошибок...",
     ["If it weren't for the follow-up letters urging me to finish my manuscript, there would be nothing more perfect in the world."] = "Если бы не последующие письма, призывающие меня закончить рукопись, в мире не было бы ничего более совершенного.",
-    ["Take a carriage back to Blackthorn."] = "Возьмите карету обратно в Чёрный Чертополох.",
+    ["Take a carriage back to Blackthorn."] = "Возьмите карету обратно в «Чёрный Терновник».",
     ["Ground Boss"] = "Наземный босс",
     ["Check team member reward progress"] = "Проверьте прогресс вознаграждения членов команды",
     ["On the first night, a beautiful lady appeared in Gehrman's dream, begging him to save this town."] = "В первую ночь Герману во сне явилась прекрасная женщина, умоляющая его спасти этот город.",

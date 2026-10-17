@@ -23,7 +23,7 @@ return {
     ["Click here to view more details about the gameplay."] = "Более подробную информацию о том, как играть, вы можете найти здесь",
     ["Take damage and use a smash attack to hit surrounding enemies."] = "Получайте урон и наносите удары ближайшим врагам.",
     ["Gourmet man"] = "Гурман",
-    ["Blackthorn Incident Book 3 - Overachiever Appearance"] = "Книга происшествий в Блэкторне, том 3. Появление короля",
+    ["Blackthorn Incident Book 3 - Overachiever Appearance"] = "Книга происшествий в «Чёрном Терновнике», том 3. Появление короля",
     ["Mr. Henry, do you have any acceptance speech?"] = "Мистер Генри, у вас есть какая-нибудь благодарственная речь?",
     ["That one?"] = "Тот?",
     ["Are you sure?"] = "Вы уверены?",

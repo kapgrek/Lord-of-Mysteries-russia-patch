@@ -321,7 +321,7 @@
     "id": "080053",
     "source_cn": "活动规则：\\n1. 支付<Letter_Highlight>1苏勒</>即可获得挑战资格。\\n2. 主办方将展示一枚<Letter_Highlight>“幸运蛋” </>，请仔细观察它的纹路、色泽与形态。\\n3. 在规定时间内，从100枚鸡蛋中找出它——你就是赢家！\\n\\n最终胜者奖励：<Letter_Highlight>10000苏勒</>！\\n比赛可以重复参与！下一个“万镑户”就是你！\\n\\n（每位参与者离场时均可获赠<Letter_Highlight>新鲜鸡蛋</>一枚，愿大地母神赐福于你。） ",
     "ref_en": "Event Rules: \\n1. Pay <Letter_Highlight>1 Soule</> to qualify for the challenge.\\n2. The organizer will display a <Letter_Highlight>\"Lucky Egg\"</>; please observe its patterns, color, and shape carefully.\\n3. Find it among 100 eggs within the allotted time—and you are the winner!\\n\\nFinal Winner's Reward: <Letter_Highlight>10,000 Soules</>!\\nThe competition can be entered repeatedly! The next \"ten-thousand-pounder\" could be you!\\n\\n(Every participant will receive a <Letter_Highlight>fresh egg</> upon leaving. May the Earth Mother bless you.)",
-    "target_ru": "Правила события:\n1. Заплатите <Letter_Highlight>1 сул</>, чтобы получить допуск к испытанию.\n2. Организаторы покажут вам <Letter_Highlight>«Счастливое яйцо»</> — внимательно запомните его скорлупу, цвет и форму.\n3. Отыщите его среди 100 яиц за отведенное время — и вы победитель!\n\nНаграда главному победителю: <Letter_Highlight>10 000 сулов</>!\nВ состязании можно участвовать многократно! Следующим «богачом на десять тысяч фунтов» можете стать именно вы!\n\n(Каждый участник при выходе получает в подарок <Letter_Highlight>свежее яйцо</>. Да благословит вас Матерь-Земля.)"
+    "target_ru": "Правила события:\n1. Заплатите <Letter_Highlight>1 суле</>, чтобы получить допуск к испытанию.\n2. Организаторы покажут вам <Letter_Highlight>«Счастливое яйцо»</> — внимательно запомните его скорлупу, цвет и форму.\n3. Отыщите его среди 100 яиц за отведенное время — и вы победитель!\n\nНаграда главному победителю: <Letter_Highlight>10 000 суле</>!\nВ состязании можно участвовать многократно! Следующим «богачом на десять тысяч фунтов» можете стать именно вы!\n\n(Каждый участник при выходе получает в подарок <Letter_Highlight>свежее яйцо</>. Да благословит вас Матерь-Земля.)"
   },
   {
     "id": "080054",
@@ -417,7 +417,7 @@
     "id": "080069",
     "source_cn": "终末猎杀累计获得猎杀进度%d/30000点",
     "ref_en": "Accumulate %d/30000 hunting progress in Final Hunt.",
-    "target_ru": "Накопите прогресс охоты %d/30000 в Final Hunt."
+    "target_ru": "Накопите прогресс охоты %d/30000 в «Финальной охоте»."
   },
   {
     "id": "080070",
@@ -831,7 +831,7 @@
     "id": "080140",
     "source_cn": "嘿，朋友，你听说过罗塞尔大帝的风流往事吗？",
     "ref_en": "Hey, friend, have you heard of the romantic affairs of Emperor Roselle?",
-    "target_ru": "Эй, друг, ты слышал о романтических похождениях императора Розеллы?"
+    "target_ru": "Эй, друг, ты слышал о романтических похождениях императора Розеля?"
   },
   {
     "id": "080141",
@@ -1317,7 +1317,7 @@
     "id": "080221",
     "source_cn": "黑荆棘推理1",
     "ref_en": "Blackthorn Deduction 1",
-    "target_ru": "Чёрный Чертополох Удержание 1"
+    "target_ru": "«Чёрный Терновник» Дедукция 1"
   },
   {
     "id": "080222",
@@ -1371,7 +1371,7 @@
     "id": "080230",
     "source_cn": "<h>离开</>黑荆棘",
     "ref_en": "<h>Leave</> Blackthorn",
-    "target_ru": "<h>Leave</> Чёрный Чертополох"
+    "target_ru": "<h>Покинуть</> «Чёрный Терновник»"
   },
   {
     "id": "080231",
@@ -1551,7 +1551,7 @@
     "id": "080260",
     "source_cn": "在第一章现实主线中，签署合同并加入黑荆棘安保公司",
     "ref_en": "In the Chapter 1 main story, sign the contract and join the Blackthorn Security Company.",
-    "target_ru": "В основной истории главы 1 подпишите контракт и присоединитесь к охранной компании Чёрный Чертополох."
+    "target_ru": "В основной истории главы 1 подпишите контракт и присоединитесь к охранной компании «Чёрный Терновник»."
   },
   {
     "id": "080261",
@@ -1785,7 +1785,7 @@
     "id": "080299",
     "source_cn": "消耗%d铜苏勒，修改会长雕像成功",
     "ref_en": "Consumed %d Copper Soles; president statue modified successfully.",
-    "target_ru": "Использованные медные подошвы %d; Статуя президента успешно модифицирована."
+    "target_ru": "Потрачено %d медных суле; статуя президента успешно модифицирована."
   },
   {
     "id": "080300",
@@ -1905,7 +1905,7 @@
     "id": "080319",
     "source_cn": "致命的再会-黑荆棘追踪1",
     "ref_en": "Fatal Reunion - Black Thorn Tracking 1",
-    "target_ru": "Фатальное воссоединение - выслеживание Black Thorn 1"
+    "target_ru": "Фатальное воссоединение - выслеживание «Чёрного Терновника» 1"
   },
   {
     "id": "080320",
@@ -2043,7 +2043,7 @@
     "id": "080342",
     "source_cn": "<Assistant_Title1>【机械迷局】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>进入这座尘封已久的机械小屋，破解它的谜团——在一切崩解之前。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>45级</>后，前往{Location:[廷根(816,1138)]|-18412;13849;-1958;2;5200002;0}可触发任务。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Mechanical Mystery】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Era Life</>\\n<Assistant_Title2>Quest Description: </>Enter this long-sealed Mechanical Hut and solve its mysteries—before everything falls apart.\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>45</>, head to {Location:[Tingen(816,1138)]|-18412;13849;-1958;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Invoice Receipt, Adventure Medals, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>【Механическая тайна】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Войдите в эту пыльную механическую кабину и разгадайте ее тайну - прежде, чем все рухнет. \n<Assistant_Title2>Как получить: </>После того, как ваш игровой уровень достигнет <Assistant_Red>45</>, перейдите в {Location:[Tinggen(816,1138)]|-18412;13849;-1958;2;5200002;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за выполнение заданий</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>【Механическая тайна】</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В разные времена</>\n<Assistant_Title2>Описание миссии: </>Войдите в эту пыльную механическую кабину и разгадайте ее тайну - прежде, чем все рухнет. \n<Assistant_Title2>Как получить: </>После того, как ваш игровой уровень достигнет <Assistant_Red>45</>, перейдите в {Location:[Тинген(816,1138)]|-18412;13849;-1958;2;5200002;0}, чтобы запустить миссию. \n<Assistant_Title2>Награды за выполнение заданий</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в секретных сокровищах мировых приключений."
   },
   {
     "id": "080343",
@@ -2079,7 +2079,7 @@
     "id": "080349",
     "source_cn": "【终末猎杀】-巨龙·投影-左右横扫2",
     "ref_en": "[Final Hunt] - Dragon - Projection - Left/Right Sweep 2",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Взмах влево/вправо 2"
+    "target_ru": "[Финальная охота] — Дракон — Проекция — Взмах влево/вправо 2"
   },
   {
     "id": "080350",
@@ -3381,7 +3381,7 @@
     "id": "080566",
     "source_cn": "阿尔杰属于哪个途径？",
     "ref_en": "Which pathway does Alger belong to?",
-    "target_ru": "К какому пути принадлежит Алжир?"
+    "target_ru": "К какому пути принадлежит Элджер?"
   },
   {
     "id": "080567",
@@ -3633,7 +3633,7 @@
     "id": "080608",
     "source_cn": "只要一苏勒，您就能无限次体验，想坐就坐。",
     "ref_en": "For just one sou, you can experience it unlimited times. Sit whenever you want.",
-    "target_ru": "Всего за один су вы можете испытать это неограниченное количество раз. Садитесь, когда захотите."
+    "target_ru": "Всего за один суле вы можете испытать это неограниченное количество раз. Садитесь, когда захотите."
   },
   {
     "id": "080609",
@@ -4329,7 +4329,7 @@
     "id": "080724",
     "source_cn": "<P_Heart>（不好意思）</>这是我们黑荆棘安保公司的传统，守护廷根，是我们的职责！",
     "ref_en": "<P_Heart>(Embarrassed)</> This is the tradition of our Blackthorn Security Company, guarding Tingen is our duty!",
-    "target_ru": "<P_Heart> (Смущенно) </> Это традиция нашей охранной компании Чёрный Чертополох: охрана Тингена — наш долг!"
+    "target_ru": "<P_Heart> (Смущенно) </> Это традиция нашей охранной компании «Чёрный Терновник»: охрана Тингена — наш долг!"
   },
   {
     "id": "080725",
@@ -4431,7 +4431,7 @@
     "id": "080742",
     "source_cn": "他昨天晚上在黑荆棘地下的宁静室待了一整夜，似乎在调查什么，还搬了张办公桌过去。",
     "ref_en": "He spent the whole night in the Chanis Gate's sleep room yesterday. He seems to be investigating something and even moved a desk over there.",
-    "target_ru": "Вчера он провел всю ночь в спальне Чанисских ворот. Кажется, он что-то расследует и даже передвинул туда стол."
+    "target_ru": "Вчера ночью он целую ночь провёл в комнате тишины под «Чёрным Терновником». Кажется, он что-то расследует и даже перенёс туда рабочий стол."
   },
   {
     "id": "080743",
@@ -4947,7 +4947,7 @@
     "id": "080828",
     "source_cn": "致命的再会-黑荆棘追踪2",
     "ref_en": "Deadly Reunion - Blackthorn Tracking 2",
-    "target_ru": "Смертельное воссоединение - Выслеживание Блэкторна 2"
+    "target_ru": "Смертельное воссоединение - Выслеживание «Чёрного Терновника» 2"
   },
   {
     "id": "080829",
@@ -5019,7 +5019,7 @@
     "id": "080840",
     "source_cn": "阿尔杰站在甲板上，手上托着一个古怪的玻璃瓶，自言自语：“还差鬼鲨的血……”",
     "ref_en": "Alger stands on the deck, holding a strange glass bottle, muttering to himself: \"Still missing the blood of a Ghost Shark...\"",
-    "target_ru": "Алджер стоит на палубе, держа странную стеклянную бутылку, и бормочет себе под нос: «Все еще не хватает крови Призрачной Акулы...»"
+    "target_ru": "Элджер стоит на палубе, держа странную стеклянную бутылку, и бормочет себе под нос: «Все еще не хватает крови Призрачной Акулы...»"
   },
   {
     "id": "080841",
@@ -5757,7 +5757,7 @@
     "id": "080965",
     "source_cn": "苏勒/金磅 兑换比例",
     "ref_en": "Sol / Gold Pound Exchange Rate",
-    "target_ru": "Обменный курс соль / фунт золота"
+    "target_ru": "Обменный курс суле / фунт золота"
   },
   {
     "id": "080966",
@@ -5829,7 +5829,7 @@
     "id": "080977",
     "source_cn": "那就试试罗塞尔大帝的《小星星》吧。",
     "ref_en": "Then let's try Emperor Roselle's 'Twinkle Twinkle Little Star'.",
-    "target_ru": "Тогда давайте попробуем «Мерцай, мерцай, маленькая звездочка» императора Розеллы."
+    "target_ru": "Тогда давайте попробуем «Мерцай, мерцай, маленькая звездочка» императора Розеля."
   },
   {
     "id": "080978",
@@ -6771,7 +6771,7 @@
     "id": "081136",
     "source_cn": "使用后解锁<Highlight>单人动作·害怕</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "After use, unlock the <Highlight>solo action: Fear</>. If obtained repeatedly, it will automatically be dismantled into bound Sol upon use.",
-    "target_ru": "После использования разблокируйте одиночное действие <Highlight>: Fear</>. Если его получить повторно, он будет автоматически разобран на связанный Сол при использовании."
+    "target_ru": "После использования разблокируйте одиночное действие <Highlight>: Fear</>. Если его получить повторно, он будет автоматически разобран на привязанные суле при использовании."
   },
   {
     "id": "081137",
@@ -7185,7 +7185,7 @@
     "id": "081205",
     "source_cn": "看看罗塞尔的辉煌事迹",
     "ref_en": "Look at Roselle's glorious deeds",
-    "target_ru": "Посмотрите на славные дела Розеллы"
+    "target_ru": "Посмотрите на славные дела Розеля"
   },
   {
     "id": "081206",
@@ -8013,7 +8013,7 @@
     "id": "081343",
     "source_cn": "赞美罗塞尔大帝！没有斗邪恶我都不知道该怎么消磨时间！",
     "ref_en": "Praise Emperor Roselle! I wouldn't know how to kill time without Fight Evil!",
-    "target_ru": "Слава императору Розелле! Я бы не знал, как убить время без Fight Evil!"
+    "target_ru": "Слава императору Розелю! Я бы не знал, как убить время без Fight Evil!"
   },
   {
     "id": "081344",
@@ -8211,7 +8211,7 @@
     "id": "081377",
     "source_cn": "<h>离开黑荆棘安保公司</>",
     "ref_en": "<h>Leave Blackthorn Security Company</>",
-    "target_ru": "<h>Покинуть охранную компанию Чёрный Чертополох</>"
+    "target_ru": "<h>Покинуть охранную компанию «Чёрный Терновник»</>"
   },
   {
     "id": "081378",
@@ -8577,7 +8577,7 @@
     "id": "081438",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>62装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 62</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получаете случайный предмет <Highlight>Предмет 62</> <Highlight>Приключенческий</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу."
+    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получаете случайный предмет <Highlight>Предмет 62</> <Highlight>Приключенческий</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и привязанные суле."
   },
   {
     "id": "081439",
@@ -8721,7 +8721,7 @@
     "id": "081462",
     "source_cn": "罗塞尔Boss-3阶段-最终失控玩家记忆特效",
     "ref_en": "Roselle Boss - Phase 3 - Final Loss of Control Player Memory Effect",
-    "target_ru": "Босс Розеллы — Фаза 3 — Эффект памяти игрока «Последняя потеря контроля»"
+    "target_ru": "Босс Розеля — Фаза 3 — Эффект памяти игрока «Последняя потеря контроля»"
   },
   {
     "id": "081463",
@@ -8871,7 +8871,7 @@
     "id": "081487",
     "source_cn": "黑荆棘事件3-洛克·金-黑水点名-随机取2名非T玩家",
     "ref_en": "Black Thorn Event 3-Rock King-Black Water Mark-Randomly Take 2 Non-T Players",
-    "target_ru": "Событие Black Thorn 3 — Король камней — Черный водяной знак — Случайным образом возьмите 2 игроков, не являющихся игроками T"
+    "target_ru": "Событие «Чёрный Терновник» 3 — Король камней — Черный водяной знак — Случайным образом возьмите 2 игроков, не являющихся игроками T"
   },
   {
     "id": "081488",
@@ -10461,7 +10461,7 @@
     "id": "081753",
     "source_cn": "……这里有一行中文批注，是罗塞尔写的：“我看过那么多<P_Yellow>爽文</>，早摸清套路了……”",
     "ref_en": "...There is a line of Chinese annotations here, written by Roselle: \"I've read so many <P_Yellow>web novels</>, I figured out the tropes long ago...\"",
-    "target_ru": "...Здесь есть строка китайских аннотаций, написанных Розеллой: «Я прочитала так много веб-романов <P_Yellow></>, я давно разобралась в этих клише...»"
+    "target_ru": "...Здесь есть строка китайских аннотаций, написанных Розелем: «Я прочитала так много веб-романов <P_Yellow></>, я давно разобралась в этих клише...»"
   },
   {
     "id": "081754",
@@ -10803,7 +10803,7 @@
     "id": "081812",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×4000</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 4,000</>.",
-    "target_ru": "Откройте для получения <Highlight>Bound Sol 4,000</>."
+    "target_ru": "Откройте для получения <Highlight>привязанные суле ×4000</>."
   },
   {
     "id": "081813",
@@ -11025,7 +11025,7 @@
     "id": "081849",
     "source_cn": "第二章·回黑荆棘马车传送点位",
     "ref_en": "Chapter Two · Return to Blackthorn Carriage Teleport Point",
-    "target_ru": "Глава вторая · Возвращение к точке телепортации кареты Чёрный Чертополох"
+    "target_ru": "Глава вторая · Возвращение к точке телепортации кареты «Чёрный Терновник»"
   },
   {
     "id": "081850",
@@ -11229,7 +11229,7 @@
     "id": "081883",
     "source_cn": "5230268   黑荆棘安保公司   位面",
     "ref_en": "5230268 Blackthorn Security Company Plane",
-    "target_ru": "5230268 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230268 Самолет охранной компании «Чёрный Терновник»"
   },
   {
     "id": "081884",
@@ -11601,7 +11601,7 @@
     "id": "081945",
     "source_cn": "好不容易找到的……怎么偏偏赶上阿尔杰先生回来，哎……",
     "ref_en": "I finally found it... why did it have to coincide with Mr. Alger's return, sigh...",
-    "target_ru": "Наконец-то я нашел его... почему это должно было совпасть с возвращением мистера Алджера, вздох..."
+    "target_ru": "Наконец-то я нашел его... почему это должно было совпасть с возвращением мистера Элджера, вздох..."
   },
   {
     "id": "081946",
@@ -12027,7 +12027,7 @@
     "id": "082016",
     "source_cn": "黑荆棘贡献商店",
     "ref_en": "Blackthorn Contribution Shop",
-    "target_ru": "Магазин пожертвований Чёрный Чертополох"
+    "target_ru": "Магазин пожертвований «Чёрный Терновник»"
   },
   {
     "id": "082017",
@@ -12141,7 +12141,7 @@
     "id": "082035",
     "source_cn": "《罗塞尔诗选》",
     "ref_en": "Selected Poems of Roselle",
-    "target_ru": "Избранные стихи Розеллы"
+    "target_ru": "Избранные стихи Розеля"
   },
   {
     "id": "082036",
@@ -12693,7 +12693,7 @@
     "id": "082128",
     "source_cn": "进步浪潮-黑荆棘入口",
     "ref_en": "Wave of Progress - Blackthorn Entrance",
-    "target_ru": "Волна прогресса — вход в Чёрный Чертополох"
+    "target_ru": "Волна прогресса — вход в «Чёрный Терновник»"
   },
   {
     "id": "082129",
@@ -12747,7 +12747,7 @@
     "id": "082137",
     "source_cn": "阿尔杰·威尔逊-1星",
     "ref_en": "Alger Wilson - 1 Star",
-    "target_ru": "Алджер Уилсон — 1 звезда"
+    "target_ru": "Элджер Уилсон — 1 звезда"
   },
   {
     "id": "082138",
@@ -12813,7 +12813,7 @@
     "id": "082148",
     "source_cn": "<Assistant_Title1>【美梦成真】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>角落里落灰的礼物盒，不知珍藏着谁的心意……\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>28级</>后，可在任务面板手动领取\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、金纺线、解读护符",
     "ref_en": "<Assistant_Title1>【Dreams Come True】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>A dusty gift box in the corner, holding someone's hidden feelings...\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>28</>, you can manually accept it in the quest panel.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Gold Thread, Interpretation Charm",
-    "target_ru": "<Assistant_Title1>【Мечты сбываются】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное</>\n<Assistant_Title2>Описание задания: </>Покрытая пылью подарочная коробка в углу хранит чьи-то искренние чувства...\n<Assistant_Title2>Как принять: </>Достигнув <Assistant_Red>28-го уровня</> отыгрыша роли, вы можете взять задание вручную в панели заданий\n<Assistant_Title2>Награды за задание</>: опыт познания, привязанные сулы, привязанные золотые фунты, золотые нити, амулет толкования"
+    "target_ru": "<Assistant_Title1>【Мечты сбываются】</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Побочное</>\n<Assistant_Title2>Описание задания: </>Покрытая пылью подарочная коробка в углу хранит чьи-то искренние чувства...\n<Assistant_Title2>Как принять: </>Достигнув <Assistant_Red>28-го уровня</> отыгрыша роли, вы можете взять задание вручную в панели заданий\n<Assistant_Title2>Награды за задание</>: опыт познания, привязанные суле, привязанные золотые фунты, золотые нити, амулет толкования"
   },
   {
     "id": "082149",
@@ -14271,7 +14271,7 @@
     "id": "082394",
     "source_cn": "罗塞尔大帝有句名言，来都来了。",
     "ref_en": "Emperor Roselle has a famous saying: since we're already here.",
-    "target_ru": "У императора Розеллы есть знаменитая поговорка: раз мы уже здесь."
+    "target_ru": "У императора Розеля есть знаменитая поговорка: раз мы уже здесь."
   },
   {
     "id": "082395",
@@ -14469,7 +14469,7 @@
     "id": "082427",
     "source_cn": "<Assistant_Title1>【告解时间到！】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>支线</>\\n<Assistant_Title2>任务描述：</>听八卦有些可耻，但讲八卦只讲一半更可耻！\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>59级</>后，前往{Location:[廷根(936,990)]|-6317;-903;-1611;2;5200002;0}与<Assistant_Red>丹</>对话接取任务。\\n<Assistant_Title2>任务奖励</>：金纺线、绑定金镑、认知经验、绑定苏勒、称号",
     "ref_en": "<Assistant_Title1>【Confession Time!】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Side Quest</>\\n<Assistant_Title2>Quest Description: </>Listening to gossip is a bit shameful, but telling only half of it is even more shameful!\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>59</>, head to {Location:[Tingen(936,990)]|-6317;-903;-1611;2;5200002;0} and talk to <Assistant_Red>Dan</> to accept the quest.\\n<Assistant_Title2>Quest Rewards</>: Gold Thread, Bound Gold Pound, Cognition EXP, Bound Sol, Title",
-    "target_ru": "<Assistant_Title1>【Время исповеди истекло! 】</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Ответ</>\n<Assistant_Title2>Описание задачи: </>Стыдно слушать сплетни, но еще стыднее рассказывать только половину сплетен! \n<Assistant_Title2> Как получить: </> После того, как ваш игровой уровень достигнет <Assistant_Red>59</>, перейдите в {Location:[Tinggen(936,990)]|-6317;-903;-1611;2;5200002;0}, чтобы поговорить с <Assistant_Red>Dan</> и получить задание. \n<Assistant_Title2>Награды за задание</>: золотая прядящая нить, связка золотого фунта, познавательный опыт, перевязка Сулера, титул"
+    "target_ru": "<Assistant_Title1>【Время исповеди истекло! 】</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Ответ</>\n<Assistant_Title2>Описание задачи: </>Стыдно слушать сплетни, но еще стыднее рассказывать только половину сплетен! \n<Assistant_Title2> Как получить: </> После того, как ваш игровой уровень достигнет <Assistant_Red>59</>, перейдите в {Location:[Tinggen(936,990)]|-6317;-903;-1611;2;5200002;0}, чтобы поговорить с <Assistant_Red>Dan</> и получить задание. \n<Assistant_Title2>Награды за задание</>: золотая прядящая нить, связка золотого фунта, познавательный опыт, привязанные суле, титул"
   },
   {
     "id": "082428",
@@ -14907,7 +14907,7 @@
     "id": "082500",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×66666</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 66,666</>.",
-    "target_ru": "Открыт для получения <Highlight>, связанного с 66 666</>."
+    "target_ru": "Открыт для получения <Highlight>привязанные суле ×66 666</>."
   },
   {
     "id": "082501",
@@ -16359,7 +16359,7 @@
     "id": "082745",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×50000</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 50,000</>.",
-    "target_ru": "Открыт для получения <Highlight>Bound Sol 50,000</>."
+    "target_ru": "Открыт для получения <Highlight>привязанные суле ×50 000</>."
   },
   {
     "id": "082746",
@@ -16395,7 +16395,7 @@
     "id": "082751",
     "source_cn": "未设置绑定苏勒消耗，无法一键聚合",
     "ref_en": "No binding Sol consumption set; cannot perform one-click aggregation.",
-    "target_ru": "Нет привязки к настройке расхода суле; не может выполнить агрегацию в один клик."
+    "target_ru": "Расход привязанных суле не задан, агрегация в один клик невозможна."
   },
   {
     "id": "082752",
@@ -17121,7 +17121,7 @@
     "id": "082872",
     "source_cn": "没来得及用灵视检查。算了，先回黑荆棘。",
     "ref_en": "I didn't have time to check with spirit vision. Forget it, I'll head back to Blackthorn first.",
-    "target_ru": "У меня не было времени проверить духовным зрением. Забудь об этом, сначала я вернусь в Чёрный Чертополох."
+    "target_ru": "У меня не было времени проверить духовным зрением. Забудь об этом, сначала я вернусь в «Чёрный Терновник»."
   },
   {
     "id": "082873",
@@ -17373,7 +17373,7 @@
     "id": "082914",
     "source_cn": "黑荆棘相机·门口马车",
     "ref_en": "Blackthorn Camera · Carriage at the door",
-    "target_ru": "Камера Чёрный Чертополох · Карета у двери"
+    "target_ru": "Камера «Чёрный Терновник» · Карета у двери"
   },
   {
     "id": "082915",
@@ -18339,7 +18339,7 @@
     "id": "083075",
     "source_cn": "与誓约组队完成各类日常玩法即可获得誓约值与同行纹章，誓约值可用于自动提升誓约等级。\\n誓约等级共设多级，达到指定等级可领取等级奖励。\\n非凡者每日与单个誓约最多可获取600誓约值，每周最多可获取2000誓约值。与誓约对象组队参与指定活动，还可额外获得同行纹章。\\n与誓约对象组队参与乌托邦剧院双人模式，会获得更多誓约值与同行纹章，玩法中还会有额外能力加成。\\n同行纹章可用于在同行商店购买物品（誓约相关的奖励需要与誓约的等级达到指定要求）。\\n非凡者可点击更换展台，进入与对应誓约对象的主页编辑功能，非凡者可更换自己角色的动作（不可编辑对方的），更换双人主页的展台，摆放摆件。\\n非凡者可以在萨默尔太太处申请单人解契，申请后会开始为期24小时的冷静期，冷静期结束后可以正式在萨默尔太太处缴纳苏勒解除誓约，冷静期间发起申请的非凡者可以取消解契。\\n非凡者也可组队前往萨默尔太太处申请双人解除解约，申请后会开始为期24小时的冷静期，冷静期结束后可以正式在萨默尔太太处缴纳少量苏勒解除誓约，冷静期间双方可以取消解契。",
     "ref_en": "Form a team with your Oath partner to complete various daily activities to earn Oath Points and Companion Emblems. Oath Points can be used to automatically increase your Oath Level. \\n There are multiple Oath Levels, and you can claim level rewards upon reaching specified levels. \\n A Beyonder can earn a maximum of 600 Oath Points per day with a single Oath partner, and a maximum of 2000 per week. Participate in designated activities while teamed up with your Oath partner to earn additional Companion Emblems. \\n Teaming up with your Oath partner for the Utopia Theater Duo Mode will grant more Oath Points and Companion Emblems, along with additional ability bonuses during the activity. \\n Companion Emblems can be used to purchase items in the Companion Shop (Oath-related rewards require your Oath Level to meet specific requirements). \\n Beyonders can click to change the display stand to enter the homepage editing function for the corresponding Oath partner. Beyonders can change their own character's actions (you cannot edit the other person's), change the display stand on the duo homepage, and place ornaments. \\n Beyonders can apply for a solo Oath dissolution at Mrs. Sammer's. After applying, a 24-hour cooling-off period will begin. Once the cooling-off period ends, you can officially pay the Soules at Mrs. Sammer's to dissolve the Oath. During the cooling-off period, the Beyonder who initiated the application can Cancel the dissolution. \\n Beyonders can also team up to go to Mrs. Sammer's to apply for a duo Oath dissolution. After applying, a 24-hour cooling-off period will begin. Once the cooling-off period ends, both parties can officially pay a small amount of Soules at Mrs. Sammer's to dissolve the Oath. During the cooling-off period, both parties can Cancel the dissolution.",
-    "target_ru": "Объединяйтесь в группу с партнером по клятве для прохождения ежедневных активностей, чтобы получать очки клятвы и Эмблемы соратников. Очки клятвы автоматически повышают уровень клятвы.\nУровень клятвы разделен на несколько рангов; при достижении определенного ранга можно забрать награду.\nС одним партнером по клятве Потусторонний может получать до 600 очков клятвы в день и до 2000 очков в неделю. Участвуя в назначенных активностях вместе с партнером, вы также получаете дополнительные Эмблемы соратников.\nПрохождение парного режима театра «Утопия» вместе с партнером по клятве приносит еще больше очков клятвы и Эмблем соратников, а также дает дополнительное усиление способностей во время игры.\nЭмблемы соратников можно обменивать на предметы в Магазине соратников (для наград, связанных с клятвой, уровень клятвы должен соответствовать требованиям).\nНажав «Сменить витрину», Потусторонний может перейти к настройке совместной страницы: можно менять позу своего персонажа (но не партнера), оформление витрины и расставлять украшения.\nПотусторонний может обратиться к госпоже Саммер для подачи заявки на расторжение клятвы в одностороннем порядке. После подачи начнется 24-часовой период ожидания; по его окончании можно официально расторгнуть клятву у госпожи Саммер, заплатив пошлину в сулах. В течение периода ожидания подавший заявку игрок может отозвать ее.\nПотусторонние также могут прийти к госпоже Саммер в группе для обоюдного расторжения клятвы. После подачи начнется 24-часовой период ожидания; по его завершении обе стороны смогут официально расторгнуть клятву у госпожи Саммер, заплатив уменьшенную пошлину в сулах. В течение периода ожидания любая из сторон вправе отозвать заявку."
+    "target_ru": "Объединяйтесь в группу с партнером по клятве для прохождения ежедневных активностей, чтобы получать очки клятвы и Эмблемы соратников. Очки клятвы автоматически повышают уровень клятвы.\nУровень клятвы разделен на несколько рангов; при достижении определенного ранга можно забрать награду.\nС одним партнером по клятве Потусторонний может получать до 600 очков клятвы в день и до 2000 очков в неделю. Участвуя в назначенных активностях вместе с партнером, вы также получаете дополнительные Эмблемы соратников.\nПрохождение парного режима театра «Утопия» вместе с партнером по клятве приносит еще больше очков клятвы и Эмблем соратников, а также дает дополнительное усиление способностей во время игры.\nЭмблемы соратников можно обменивать на предметы в Магазине соратников (для наград, связанных с клятвой, уровень клятвы должен соответствовать требованиям).\nНажав «Сменить витрину», Потусторонний может перейти к настройке совместной страницы: можно менять позу своего персонажа (но не партнера), оформление витрины и расставлять украшения.\nПотусторонний может обратиться к госпоже Саммер для подачи заявки на расторжение клятвы в одностороннем порядке. После подачи начнется 24-часовой период ожидания; по его окончании можно официально расторгнуть клятву у госпожи Саммер, заплатив пошлину в суле. В течение периода ожидания подавший заявку игрок может отозвать ее.\nПотусторонние также могут прийти к госпоже Саммер в группе для обоюдного расторжения клятвы. После подачи начнется 24-часовой период ожидания; по его завершении обе стороны смогут официально расторгнуть клятву у госпожи Саммер, заплатив уменьшенную пошлину в суле. В течение периода ожидания любая из сторон вправе отозвать заявку."
   },
   {
     "id": "083076",
@@ -20043,7 +20043,7 @@
     "id": "083361",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×6666</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 6,666</>.",
-    "target_ru": "Открыт для получения <Highlight>Bound Sol 6,666</>."
+    "target_ru": "Открыт для получения <Highlight>привязанные суле ×6666</>."
   },
   {
     "id": "083362",
@@ -20259,7 +20259,7 @@
     "id": "083397",
     "source_cn": "罗塞尔？！我变成了罗塞尔大帝？",
     "ref_en": "Roselle?! I've become Emperor Roselle?",
-    "target_ru": "Розель?! Я стал императором Розеллой?"
+    "target_ru": "Розель?! Я стал императором Розелем?"
   },
   {
     "id": "083398",
@@ -20343,7 +20343,7 @@
     "id": "083411",
     "source_cn": "说来，“愚者”先生也曾是黑荆棘的一员呢。",
     "ref_en": "Speaking of which, Mr. 'Fool' was also once a member of Blackthorn.",
-    "target_ru": "Кстати говоря, мистер «Шут» тоже когда-то был членом Чёрный Чертополох."
+    "target_ru": "Кстати говоря, мистер «Шут» тоже когда-то был членом «Чёрного Терновника»."
   },
   {
     "id": "083412",
@@ -21111,7 +21111,7 @@
     "id": "083540",
     "source_cn": "等我晋升到高序列，是不是就不用再为几镑几苏勒发愁了呢。",
     "ref_en": "Once I advance to a high Sequence, will I no longer have to worry about a few pounds or shillings?",
-    "target_ru": "Как только я перейду на более высокую последовательность, мне больше не придется беспокоиться о нескольких фунтах или шиллингах?"
+    "target_ru": "Как только я перейду на более высокую последовательность, мне больше не придется беспокоиться о нескольких фунтах или суле?"
   },
   {
     "id": "083541",
@@ -21123,7 +21123,7 @@
     "id": "083542",
     "source_cn": "终末猎杀周获取上限：<Highlight>%d</>/%d",
     "ref_en": "Terminal Hunting Week acquisition limit: <Highlight> %d </> / %d",
-    "target_ru": "Лимит приобретения в рамках Недели охоты за терминалами: <Highlight> %d </> / %d"
+    "target_ru": "Лимит приобретения в рамках Недели «Финальной охоты»: <Highlight> %d </> / %d"
   },
   {
     "id": "083543",
@@ -24975,7 +24975,7 @@
     "id": "084185",
     "source_cn": "阁楼只要一苏勒的租金，六便士的面包，至少还能留下半瓶酒……",
     "ref_en": "The attic only costs one sol in rent, six pence for bread, at least I can still have half a bottle of wine left...",
-    "target_ru": "Чердак стоит всего один соль за аренду, шесть пенсов за хлеб, по крайней мере, у меня еще останется полбутылки вина..."
+    "target_ru": "Чердак стоит всего один суле за аренду, шесть пенсов за хлеб, по крайней мере, у меня еще останется полбутылки вина..."
   },
   {
     "id": "084186",
@@ -25491,7 +25491,7 @@
     "id": "084271",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>68装等</>或<Highlight>69装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Every <Highlight>20 progress </>, receive 1 growth resource chest. Opening it grants a random piece of <Highlight>Level 68</> or <Highlight>Level 69</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles. There is a certain chance to obtain 1 Gray Fog Crystal Fragment (used to upgrade Competition brooches of Level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the next week.",
-    "target_ru": "За каждый прогресс <Highlight>20 на </> вы получаете 1 сундук с ресурсами роста. Открыв его, вы получаете случайную часть <Highlight>LLevel 68</> или <Highlight>LLevel 69</> <Highlight>Оранжевого или золотого качества </>, ориентированного на соревнования, материалов Потусторонний, факторов полимеризации и связанных подошв. Существует определенный шанс получить 1 фрагмент кристалла серого тумана (используется для улучшения соревновательных брошей уровня 64 или выше до мифического качества). В неделю можно получить максимум 3, а неполученные суммы можно перенести на следующую неделю."
+    "target_ru": "За каждые <Highlight>20 прогресса</> вы получаете 1 ящик ресурсов развития. При открытии можно случайным образом получить предмет снаряжения <Highlight>68 уровня</> или <Highlight>69 уровня</> <Highlight>соревновательной направленности</> оранжевого или золотого качества, потусторонние материалы, факторы полимеризации и привязанные суле. Существует определенный шанс получить 1 фрагмент кристалла серого тумана (используется для улучшения соревновательных брошей уровня 64 или выше до мифического качества). В неделю можно получить максимум 3, а неполученные суммы можно перенести на следующую неделю."
   },
   {
     "id": "084272",
@@ -26955,7 +26955,7 @@
     "id": "084516",
     "source_cn": "春夜沙龙中，神秘女士的画像引得众人神魂颠倒。为了调查画像，你意外进入了画中世界、化身成罗塞尔大帝，还在其间邂逅了仰慕大帝的佳人卢娜。在一连串的引逗与追逐后，你惊奇地发现了卢娜的另一面，揭开了她惹人怜爱的身世和苦恼，更得到了与她共度良宵的机会。谁知，良宵过后，镜中的卢娜竟然展露了男性的脸庞——他其实是一名男人变成的魔女！最终，你清醒过来，击败了卢娜，也烧毁了那幅危险的画像。",
     "ref_en": "In the Spring Night Salon, the portrait of a mysterious lady leaves everyone infatuated. To investigate the portrait, you accidentally enter the world within the painting, transforming into Emperor Roselle, and encounter Luna, a beauty who admires the Emperor. After a series of teases and chases, you are surprised to discover another side of Luna, uncovering her pitiful background and troubles, and even gaining the opportunity to spend a night with her. Who would have thought that after the night, the Luna in the mirror would reveal a man's face—he was actually a Witch transformed from a man! In the end, you wake up, defeat Luna, and burn the dangerous portrait.",
-    "target_ru": "В салоне «Весенняя ночь» портрет загадочной дамы сводит всех с ума. Чтобы исследовать портрет, вы случайно попадаете в мир внутри картины, превращаясь в Императора Розеллу, и встречаете Луну, красавицу, которая восхищается Императором. После серии поддразниваний и погонь вы с удивлением обнаруживаете другую сторону Луны, раскрываете ее жалкое прошлое и проблемы и даже получаете возможность провести с ней ночь. Кто бы мог подумать, что после ночи Луна в зеркале покажет человеческое лицо — на самом деле это была ведьма, превратившаяся из человека! В конце концов вы просыпаетесь, побеждаете Луну и сжигаете опасный портрет."
+    "target_ru": "В салоне «Весенняя ночь» портрет загадочной дамы сводит всех с ума. Чтобы исследовать портрет, вы случайно попадаете в мир внутри картины, превращаясь в Императора Розеля, и встречаете Луну, красавицу, которая восхищается Императором. После серии поддразниваний и погонь вы с удивлением обнаруживаете другую сторону Луны, раскрываете ее жалкое прошлое и проблемы и даже получаете возможность провести с ней ночь. Кто бы мог подумать, что после ночи Луна в зеркале покажет человеческое лицо — на самом деле это была ведьма, превратившаяся из человека! В конце концов вы просыпаетесь, побеждаете Луну и сжигаете опасный портрет."
   },
   {
     "id": "084517",
@@ -27231,7 +27231,7 @@
     "id": "084562",
     "source_cn": "黑荆棘门口马车夫",
     "ref_en": "Blackthorn Entrance Coachman",
-    "target_ru": "Кучер у подъезда Блэкторна"
+    "target_ru": "Кучер у подъезда «Чёрного Терновника»"
   },
   {
     "id": "084563",
@@ -27699,7 +27699,7 @@
     "id": "084641",
     "source_cn": "无用之人不配追随罗塞尔的脚步。",
     "ref_en": "Useless people are not worthy of following in Roselle's footsteps.",
-    "target_ru": "Бесполезные люди не достойны идти по стопам Розеллы."
+    "target_ru": "Бесполезные люди не достойны идти по стопам Розеля."
   },
   {
     "id": "084642",
@@ -28143,7 +28143,7 @@
     "id": "084716",
     "source_cn": "一苏勒的钞票，色泽墨绿泛白，印着鲁恩国王乔治三世严肃的脸。",
     "ref_en": "A one-sol note, greenish-white in color, printed with the stern face of King George III of Loen.",
-    "target_ru": "Банкнота в один соль, зеленовато-белого цвета, с изображением сурового лица короля Георга III Лоэнского."
+    "target_ru": "Банкнота в один суле, зеленовато-белого цвета, с изображением сурового лица короля Георга III Лоэнского."
   },
   {
     "id": "084717",
@@ -29373,7 +29373,7 @@
     "id": "084921",
     "source_cn": "真·离开黑荆棘踩点",
     "ref_en": "True - Leave Blackthorn spot",
-    "target_ru": "Верно — покинуть место Блэкторна."
+    "target_ru": "Верно — покинуть место «Чёрного Терновника»."
   },
   {
     "id": "084922",
@@ -29649,7 +29649,7 @@
     "id": "084967",
     "source_cn": "<Assistant_Title1>【餐食改良计划】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>铁十字街人头攒动，似乎正在举办什么活动。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>64级</>后，前往{Location:[廷根(771,1144)]|-22840;14440;-2220;2;5200002;0}使用动作表情【四处观察】可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Meal Improvement Plan】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>Iron Cross Street is bustling with people; it seems some kind of event is being held.\\n<Assistant_Title2>How to Accept: </>After your Acting level reaches <Assistant_Red>Level 64</>, head to {Location:[Tingen(771,1144)]|-22840;14440;-2220;2;5200002;0} and use the emote [Look Around] to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sol, invoices, Adventure Medals, World Adventure Treasure progress",
-    "target_ru": "<Assistant_Title1>[План улучшения питания]</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>В разное время</>\n<Assistant_Title2>Описание задачи: </>Айрон-Кросс-стрит переполнена, и кажется, что проводится какое-то мероприятие. \n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>64</>, перейдите в {Location:[Tinggen(771,1144)]|-22840;14440 ;-2220;2;5200002;0} Используйте выражение действия [Оглянитесь вокруг], чтобы запустить задачу \n<Assistant_Title2>Награда за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>[План улучшения питания]</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>В разное время</>\n<Assistant_Title2>Описание задачи: </>Айрон-Кросс-стрит переполнена, и кажется, что проводится какое-то мероприятие. \n<Assistant_Title2>Как получить: </>После того, как уровень роли достигнет <Assistant_Red>64</>, перейдите в {Location:[Tinggen(771,1144)]|-22840;14440 ;-2220;2;5200002;0} Используйте выражение действия [Оглянитесь вокруг], чтобы запустить задачу \n<Assistant_Title2>Награда за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
   },
   {
     "id": "084968",

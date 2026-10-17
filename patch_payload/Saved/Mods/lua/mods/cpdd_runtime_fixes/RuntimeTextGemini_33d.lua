@@ -49,7 +49,7 @@ return {
     ["It should be that they eat, drink, and relieve themselves all here."] = "Надо бы, чтобы они ели, пили и справляли нужду все здесь.",
     ["Words Carved on Tree"] = "Слова, вырезанные на дереве",
     ["Look Up at the Sky"] = "Посмотрите на небо",
-    ["Ouch—you bumped into me! My leg won't move! Pay up! Five soli!"] = "Ой, ты наткнулся на меня! Моя нога не двигается! Плати! Пять соло!",
+    ["Ouch—you bumped into me! My leg won't move! Pay up! Five soli!"] = "Ой, ты наткнулся на меня! Моя нога не двигается! Плати! Пять суле!",
     ["General Comment Function"] = "Общая функция комментариев",
     ["Remove the following entries (any one)"] = "Удалите следующие записи (любые)",
     ["Golden Indus District Atmosphere - River and Sea Note"] = "Атмосфера района Золотого Инда – нота реки и моря",

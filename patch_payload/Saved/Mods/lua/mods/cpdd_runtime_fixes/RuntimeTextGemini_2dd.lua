@@ -5,7 +5,7 @@ return {
     ["Stun without effect"] = "Оглушение без анимации",
     ["After setting a friend as pinned, that friend will be displayed at the top of the friend list regardless of whether they are online or not."] = "Если закрепить друга, он будет отображаться вверху списка друзей независимо от того, находится ли он в сети.",
     ["Wind it up; it can help you finish the path after your rationality collapses."] = "Заведи пружину: она поможет тебе пройти оставшийся путь после того, как рассудок рухнет в бездну.",
-    ["Roselle Boss - Phase Transition Disable Skill"] = "Босс Розелл: смена фазы — отключение навыков",
+    ["Roselle Boss - Phase Transition Disable Skill"] = "Босс Розель: смена фазы — отключение навыков",
     ["Grave robbing trigger"] = "Триггер разграбления могил",
     ["Long speech cancelled!"] = "Длинная речь отменяется!",
     ["Church of the God of Steam and Machinery"] = "Церковь Бога Пара и Машин",

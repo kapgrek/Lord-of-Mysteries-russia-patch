@@ -126,7 +126,7 @@ return {
     ["领域共鸣"] = "Резонанс сферы",
     ["风场通用交互物-前往山崖"] = "Интерактивный объект ветрового потока — Отправиться к утесу",
     ["魔药材料收集完毕"] = "Ингредиенты для зелья собраны",
-    ["5230307 Blackthorn Security Company - Copy"] = "5230307   Охранная компания «Черный Шип»   Текстовая копия",
+    ["5230307 Blackthorn Security Company - Copy"] = "5230307   Охранная компания «Чёрный Терновник»   Текстовая копия",
     ["Contains resources related to World Calamity - Steam Palace"] = "Содержит ресурсы, связанные с контентом Бедствия мира — Дворец Стим",
     ["Hidden Space Entrance - House of Wraiths - Residential Rune - Appearance pending change"] = "Вход в скрытое пространство: Дом злых духов: Руна жилого дома (внешний вид на доработке)",
     ["<Assistant_Title1>Change of Mood</>\n<Assistant_Title2>Achievement Category: </>Social-Profile Card\n<Assistant_Title2>Unlock Condition: </>Switch your personal profile theme for the first time"] = "<Assistant_Title1>Смена настроения</>\n<Assistant_Title2>Категория достижения: </>Общение — Визитка профиля\n<Assistant_Title2>Условие получения: </>Впервые смените тему личного профиля",

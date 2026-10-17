@@ -253,7 +253,7 @@ return {
     ["Continuous dialogue with NPC"] = "Непрерывный диалог с NPC",
     ["Whether to enable PVP specific rank server-wide messages"] = "Включить ли сообщения определенного ранга PVP на уровне всего сервера",
     ["Sell %d/4000 items with 300%%+ yield in my castle"] = "Продавайте предметы %d/4000 с доходностью 300%%+ в моем замке.",
-    ["Take another route to Blackthorn Security Company"] = "Идите другим путем к охранной компании Чёрный Чертополох.",
+    ["Take another route to Blackthorn Security Company"] = "Идите другим путем к охранной компании «Чёрный Терновник».",
     ["Hall Entrance Trigger"] = "Триггер входа в зал",
     ["The cafe is just a disguise. This place is favored by fate, so only special people can push open the door."] = "Кафе - это всего лишь маскировка. Этому месту благоволит судьба, поэтому открыть дверь смогут только особенные люди.",
     ["Resonance Agitation"] = "Волнение резонанса",

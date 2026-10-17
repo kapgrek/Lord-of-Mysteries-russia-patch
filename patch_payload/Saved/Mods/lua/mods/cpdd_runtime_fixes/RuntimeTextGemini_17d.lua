@@ -181,7 +181,7 @@ return {
     ["<M_Default>Dear Beyonder: </>\n<M_Default>You have reached the rank of Emperor of Conquest in the Final Hunt. Below are your title rewards.</>"] = "<M_Default>Уважаемый Потусторонний!</>\n<M_Default>В режиме «Финальная охота» вы достигли ранга «Император-завоеватель». Ниже указаны ваши титульные награды.</>",
     ["Second Meow"] = "Второе мяу",
     ["Outfit Slot"] = "Слот для экипировки",
-    ["After completing the first chapter of the main story, \"Joining Blackthorn Security Company,\" you can create a room to start a competition."] = "После завершения первой главы основного сюжета «Присоединение к компании Чёрный Чертополох Security» вы сможете создать комнату для начала соревнования.",
+    ["After completing the first chapter of the main story, \"Joining Blackthorn Security Company,\" you can create a room to start a competition."] = "После завершения первой главы основного сюжета «Присоединение к Чёрному Терновнику» вы сможете создать комнату для начала соревнования.",
     ["{{PlayerName}}, I heard you have accumulated enough merit to advance."] = "{{PlayerName}}, я слышал, что ты накопил достаточно заслуг, чтобы продвинуться вперед.",
     ["Modify collectible category points"] = "Изменить коллекционные очки категории",
     ["Thank you for your understanding, I will definitely find a better way to make students truly fall in love with history."] = "Спасибо за понимание, я обязательно найду лучший способ заставить студентов по-настоящему полюбить историю.",

@@ -242,7 +242,7 @@ return {
     ["Base Color 1"] = "Базовый цвет 1",
     ["You have been banned until %s/%s/%s %s:%s:%s. If you have any questions, please contact customer support."] = "Вы забанены до %s/%s/%s %s:%s:%s. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь со службой поддержки клиентов.",
     ["Voice quiz rewards have been sent to your inventory."] = "Награды за голосовую викторину отправлены в ваш инвентарь.",
-    ["How does the Blackthorn Incident Book work?"] = "Как работает Книга происшествий Блэкторна?",
+    ["How does the Blackthorn Incident Book work?"] = "Как работает Книга происшествий «Чёрного Терновника»?",
     ["Enter different states based on different layers."] = "Введите разные состояния на основе разных слоев.",
     ["Astrid "] = "Астрид",
     ["Road-blocking Stone"] = "Камень, блокирующий дорогу",

@@ -105,7 +105,7 @@
     "id": "095017",
     "source_cn": "您选择了单人解除七日誓约关系，缴纳10000绑定苏勒可以正式解除誓约，确定解契吗？",
     "ref_en": "You have chosen to individually dissolve the Seven-Day Covenant relationship. You may formally dissolve the Covenant after paying 10,000 bound soli. Are you sure you want to dissolve the Covenant?",
-    "target_ru": "Вы решили индивидуально расторгнуть отношения Семидневного Завета. Вы можете официально расторгнуть Ковенант, заплатив 10 000 связанных суле. Вы уверены, что хотите расторгнуть Ковенант?"
+    "target_ru": "Вы решили индивидуально расторгнуть отношения Семидневного Завета. Вы можете официально расторгнуть Ковенант, заплатив 10 000 привязанных суле. Вы уверены, что хотите расторгнуть Ковенант?"
   },
   {
     "id": "095018",
@@ -1209,7 +1209,7 @@
     "id": "095204",
     "source_cn": "黑荆棘安保公司",
     "ref_en": "Blackthorn Security Company",
-    "target_ru": "Охранная компания Чёрный Чертополох"
+    "target_ru": "Охранная компания «Чёрный Терновник»"
   },
   {
     "id": "095205",
@@ -1719,7 +1719,7 @@
     "id": "095289",
     "source_cn": "终末猎杀安全区光环",
     "ref_en": "End Hunt Safe Zone Aura",
-    "target_ru": "Аура безопасной зоны окончания охоты"
+    "target_ru": "Аура безопасной зоны «Финальной охоты»"
   },
   {
     "id": "095290",
@@ -2469,7 +2469,7 @@
     "id": "095415",
     "source_cn": "终末猎杀击杀数量",
     "ref_en": "End-Times Hunt Kill Count",
-    "target_ru": "Счетчик убийств на охоте последних времен"
+    "target_ru": "Счетчик убийств в «Финальной охоте»"
   },
   {
     "id": "095416",
@@ -3423,7 +3423,7 @@
     "id": "095574",
     "source_cn": "<M_Default>亲爱的非凡者：</>\\n<M_Default>您在终末猎杀中达到天使之王段位，以下是您的称号奖励。</>",
     "ref_en": "<M_Default>Dear Beyonder: </>\\n<M_Default>You have reached the rank of King of Angels in the Final Hunt. Below are your title rewards.</>",
-    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\\n<M_Default>В «Последней охоте» вы достигли ранга «Король Ангелов». Ниже указана ваша награда за титул.</>"
+    "target_ru": "<M_Default>Уважаемый Потусторонний!</>\\n<M_Default>В «Финальной охоте» вы достигли ранга «Король Ангелов». Ниже указана ваша награда за титул.</>"
   },
   {
     "id": "095575",
@@ -3441,7 +3441,7 @@
     "id": "095577",
     "source_cn": "<P_Heart>（或许我可以在塔罗会发布寻找罗塞尔大帝日记的委托任务……）</>",
     "ref_en": "<P_Heart>(Perhaps I can post a quest to find Emperor Roselle's diary at the Tarot Club...)</>",
-    "target_ru": "<P_Heart>(Возможно, я смогу опубликовать квест по поиску дневника императора Розеллы в Клубе Таро...)</>"
+    "target_ru": "<P_Heart>(Возможно, я смогу опубликовать квест по поиску дневника императора Розеля в Клубе Таро...)</>"
   },
   {
     "id": "095578",
@@ -3483,7 +3483,7 @@
     "id": "095584",
     "source_cn": "他的女儿罗珊，现在是黑荆棘安保公司的文职人员。呵呵，是一个话很多的姑娘，我跟邓恩都有些头疼。",
     "ref_en": "Her daughter, Rozanne, is now a civilian staff member at Blackthorn Security Company. Hehe, she is a girl who talks a lot; both Dunn and I get a bit of a headache from her.",
-    "target_ru": "Ее дочь Розанна сейчас работает гражданским сотрудником в компании Охранная компания «Чёрный Чертополох». Хе-хе, она девушка, которая много говорит; У нас с Данном от нее немного болит голова."
+    "target_ru": "Ее дочь Розанна сейчас работает гражданским сотрудником в Охранной компании «Чёрный Терновник». Хе-хе, она девушка, которая много говорит; У нас с Данном от нее немного болит голова."
   },
   {
     "id": "095585",
@@ -4779,7 +4779,7 @@
     "id": "095800",
     "source_cn": "罗塞尔大帝副本开启",
     "ref_en": "Roselle the Great dungeon opened",
-    "target_ru": "Открыто подземелье Розеллы Великой"
+    "target_ru": "Открыто подземелье Розеля Великого"
   },
   {
     "id": "095801",
@@ -7227,7 +7227,7 @@
     "id": "096210",
     "source_cn": "黑荆棘门口脚踏车棕",
     "ref_en": "Blackthorn Entrance Bicycle (Brown)",
-    "target_ru": "Входной велосипед Чёрный Чертополох (коричневый)"
+    "target_ru": "Входной велосипед «Чёрный Терновник» (коричневый)"
   },
   {
     "id": "096211",
@@ -7611,7 +7611,7 @@
     "id": "096275",
     "source_cn": "好了，线索收集得差不多了，该回黑荆棘问问小阿诺德关于他这位“朋友”的事了。",
     "ref_en": "Alright, the clues are mostly collected. It's time to go back to Blackthorn and ask little Arnold about his 'friend'.",
-    "target_ru": "Хорошо, улики в основном собраны. Пришло время вернуться в Чёрный Чертополох и расспросить маленького Арнольда о его «друге»."
+    "target_ru": "Хорошо, улики в основном собраны. Пришло время вернуться в «Чёрный Терновник» и расспросить маленького Арнольда о его «друге»."
   },
   {
     "id": "096276",
@@ -9657,7 +9657,7 @@
     "id": "096619",
     "source_cn": "<Assistant_Title1>【奥黛丽的下午茶】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>城市漫游</>\\n<Assistant_Title2>任务描述：</>奥黛丽小姐每隔一段时间会去命运咖啡厅享用下午茶，现在去咖啡厅，也许能偶遇她。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>19级</>后，前往{Location:[命运咖啡厅(717,87)]|67116;-1171;2;2;5200178;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、世界冒险秘宝进度、冒险勋章",
     "ref_en": "<Assistant_Title1>【Audrey's Afternoon Tea】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>City Roaming</>\\n<Assistant_Title2>Quest Description: </>Miss Audrey goes to the Fate Café for afternoon tea every so often. If you go to the café now, you might run into her.\\n<Assistant_Title2>How to Accept: </>After reaching Acting Level <Assistant_Red>19</>, head to {Location:[Fate Café(717,87)]|67116;-1171;2;2;5200178;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive EXP, Bound Soules, World Adventure Treasure Progress, Adventure Medals",
-    "target_ru": "<Assistant_Title1>【Послеобеденный чай Одри】</>\\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>Роуминг по городу</>\\n<Assistant_Title2>Описание миссии: </>Мисс Одри время от времени будет ходить в кафе Destiny, чтобы насладиться послеобеденным чаем. Если вы сейчас пойдете в кафе, то можете случайно столкнуться с ней. \\n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>уровня 19</>, перейдите в {Местоположение:[Destiny Cafe(717,87)]|67116;-1171;2;2;5200178;0}, чтобы активировать задание \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, связывание Суле, прогресс в секретных сокровищах мира приключений, медаль приключений"
+    "target_ru": "<Assistant_Title1>【Чаепитие Одри】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Прогулка по городу</>\\n<Assistant_Title2>Описание задания: </>Мисс Одри время от времени ходит пить послеобеденный чай в кафе «Судьба». Если зайти туда сейчас, можно случайно встретить её.\\n<Assistant_Title2>Как получить: </>После достижения <Assistant_Red>19-го уровня</> Отыгрыша отправляйтесь в {Location:[Кафе «Судьба»(717,87)]|67116;-1171;2;2;5200178;0}, чтобы запустить задание.\\n<Assistant_Title2>Награды за задание</>: Опыт познания, привязанные суле, прогресс мирового сокровища приключений, медаль приключений"
   },
   {
     "id": "096620",
@@ -10167,7 +10167,7 @@
     "id": "096704",
     "source_cn": "现在的年轻人啊……哎，真是缺乏进取精神啊，你要是能有罗塞尔一半的努力……",
     "ref_en": "Young people these days... sigh, really lacking in enterprising spirit. If you could have half of Roselle's effort...",
-    "target_ru": "Молодые люди в наши дни... ох, им действительно не хватает предприимчивости. Если бы ты мог воспользоваться хотя бы половиной усилий Розеллы..."
+    "target_ru": "Молодые люди в наши дни... ох, им действительно не хватает предприимчивости. Если бы ты мог воспользоваться хотя бы половиной усилий Розеля..."
   },
   {
     "id": "096705",
@@ -10233,7 +10233,7 @@
     "id": "096715",
     "source_cn": "罗塞尔大帝的传记？好厚……翻翻目录吧。",
     "ref_en": "A biography of Emperor Roselle? It's so thick... Let me flip through the table of contents.",
-    "target_ru": "Биография императора Розеллы? Она такая толстая... Давайте я пролистаю оглавление."
+    "target_ru": "Биография императора Розеля? Она такая толстая... Давайте я пролистаю оглавление."
   },
   {
     "id": "096716",
@@ -10617,7 +10617,7 @@
     "id": "096779",
     "source_cn": "加入黑荆棘",
     "ref_en": "Join the Nighthawks",
-    "target_ru": "Присоединяйтесь к «Ночным ястребам»"
+    "target_ru": "Присоединяйтесь к «Чёрному Терновнику»"
   },
   {
     "id": "096780",
@@ -10695,7 +10695,7 @@
     "id": "096792",
     "source_cn": "将信件交给<h>罗珊</>",
     "ref_en": "Give the letter to <h>Rozanne</>",
-    "target_ru": "Отдайте письмо <h>Rozanne</>."
+    "target_ru": "Отдайте письмо <h>Розанне</>."
   },
   {
     "id": "096793",
@@ -11307,7 +11307,7 @@
     "id": "096895",
     "source_cn": "使用后解锁<Highlight>单人社交动作·我？</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Me?</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Me?</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>одиночное социальное действие «Я?»</> при использовании; повторные копии автоматически превращаются в привязанные суле."
   },
   {
     "id": "096896",
@@ -12495,7 +12495,7 @@
     "id": "097093",
     "source_cn": "罗塞尔的残留意志-1星",
     "ref_en": "Roselle's Residual Will - 1 Star",
-    "target_ru": "Остаточная воля Розеллы — 1 звезда"
+    "target_ru": "Остаточная воля Розеля — 1 звезда"
   },
   {
     "id": "097094",
@@ -12987,7 +12987,7 @@
     "id": "097176",
     "source_cn": "太便宜了！给我换成50苏勒的！我女儿的同学会问起价格的！",
     "ref_en": "Too cheap! Change it to 50 shillings for me! My daughter's classmates will ask about the price!",
-    "target_ru": "Слишком дешево! Поменяйте мне это на 50 шиллингов! Одноклассники моей дочери спросят о цене!"
+    "target_ru": "Слишком дешево! Поменяйте мне это на 50 суле! Одноклассники моей дочери спросят о цене!"
   },
   {
     "id": "097177",
@@ -13293,7 +13293,7 @@
     "id": "097227",
     "source_cn": "罗塞尔四处征战，成就大帝之名，同时曾作为知识皇帝的他，收集了有关战争的历史，其中最为庞杂丰富的便是第四纪的四皇之战。\\n在罗塞尔大帝陨落之后，祂的知识与意志并未消散，而是与王冠结合，成为了知识王冠。其中蕴含着最为丰富的一处知识，承载着祂对\"四皇之战\"的全部记忆——那些血与火的岁月、征服与被征服的史诗、王朝兴衰的轨迹，被知识皇冠的光芒永久镌刻。\\n末日降临，母神的威胁逼近，祂影响了知识皇冠让其权柄自行运转，以知识带来\"创造\"，于是，一个前所未有的存在诞生了——\\n「战略服」，一个由罗塞尔的战争记忆与知识皇冠的历史推演能力，共同编织的平行空间集合体。\\n\"战略服，等你入局。\"",
     "ref_en": "Roselle fought everywhere, achieving the name of Great Emperor. At the same time, as the Knowledge Emperor, he collected history related to war, the most complex and rich of which was the War of the Four Emperors in the Fourth Epoch.\\nAfter the fall of Emperor Roselle, His knowledge and will did not dissipate, but combined with the crown to become the Knowledge Crown. It contains the richest piece of knowledge, carrying all His memories of the \"War of the Four Emperors\"—those years of blood and fire, the epics of conquering and being conquered, and the trajectories of the rise and fall of dynasties were permanently engraved by the light of the Knowledge Crown.\\nThe apocalypse descended, and the threat of the Mother Goddess approached. She influenced the Knowledge Crown to make its authority operate on its own, bringing \"creation\" through knowledge. Thus, an unprecedented existence was born—\\n\"Strategic Server\", a collection of parallel spaces woven together by Roselle's war memories and the historical deduction ability of the Knowledge Crown.\\n\"Strategic Server, waiting for you to enter the game.\"",
-    "target_ru": "Рассел сражался повсюду и стал Великим Императором. В то же время, как Император Знаний, он собирал историю войн. Самой сложной и насыщенной была Война Четырех Императоров в Четвертой Эпохе. \\nПосле падения императора Рассела его знания и воля не рассеялись, а соединились с короной и стали венцом знаний. Он содержит богатейшие знания, несущие в себе все его воспоминания о «Войне Четырех Императоров» — тех годах крови и огня, эпопеях завоеваний и завоеваний, а также траектории взлета и падения династий, которые навсегда запечатлены светом Короны Знаний. \\n Приближается конец света и приближается угроза со стороны Богини-Матери. Она повлияла на Корону Знаний, чтобы позволить ее власти действовать самостоятельно, принося «творение» со знанием. Таким образом, родилось беспрецедентное существование — \\n «Стратегическая служба», совокупность параллельных пространств, сотканных воедино военной памятью Рассела и способностью исторической дедукции Короны Знаний. \\n\"Стратегический сервер, ждёт вашего присоединения к игре.\""
+    "target_ru": "Розель сражался повсюду и стал Великим Императором. В то же время, как Император Знаний, он собирал историю войн. Самой сложной и насыщенной была Война Четырех Императоров в Четвертой Эпохе. \\nПосле падения императора Розеля его знания и воля не рассеялись, а соединились с короной и стали венцом знаний. Он содержит богатейшие знания, несущие в себе все его воспоминания о «Войне Четырех Императоров» — тех годах крови и огня, эпопеях завоеваний и завоеваний, а также траектории взлета и падения династий, которые навсегда запечатлены светом Короны Знаний. \\n Приближается конец света и приближается угроза со стороны Богини-Матери. Она повлияла на Корону Знаний, чтобы позволить ее власти действовать самостоятельно, принося «творение» со знанием. Таким образом, родилось беспрецедентное существование — \\n «Стратегическая служба», совокупность параллельных пространств, сотканных воедино военной памятью Розеля и способностью исторической дедукции Короны Знаний. \\n\"Стратегический сервер, ждёт вашего присоединения к игре.\""
   },
   {
     "id": "097228",
@@ -13317,7 +13317,7 @@
     "id": "097231",
     "source_cn": "自费的工作餐？会送到黑荆棘安保公司的那种吗？",
     "ref_en": "Self-paid work meals? Will they be delivered to Blackthorn Security Company?",
-    "target_ru": "Самооплачиваемое рабочее питание? Будут ли они доставлены в охранную компанию Чёрный Чертополох?"
+    "target_ru": "Самооплачиваемое рабочее питание? Будут ли они доставлены в охранную компанию «Чёрный Терновник»?"
   },
   {
     "id": "097232",
@@ -13509,7 +13509,7 @@
     "id": "097264",
     "source_cn": "【终末猎杀】-巨龙·投影-火法轰炸-脱手结算",
     "ref_en": "[Final Hunt] - Dragon - Projection - Fire Bombardment - Auto-Resolve",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Огненная бомбардировка — Автоматическое разрешение"
+    "target_ru": "[Финальная охота] — Дракон — Проекция — Огненная бомбардировка — Автоматическое разрешение"
   },
   {
     "id": "097265",
@@ -13599,7 +13599,7 @@
     "id": "097279",
     "source_cn": "使用后获得<Highlight>小兔巴尼背饰</>\\n若已拥有此外观，则可选择分解获得3万绑定苏勒",
     "ref_en": "Use to obtain <Highlight>Bunny Barney Back Accessory</>\\nIf you already own this appearance, you can choose to dismantle it to obtain 30,000 Bound Soules",
-    "target_ru": "После использования вы получите <Highlight> Украшение на спину кролика Барни </>\\n Если у вас уже есть этот внешний вид, вы можете разложить его, чтобы получить 30 000 связанных сулеров."
+    "target_ru": "После использования вы получите <Highlight> Украшение на спину кролика Барни </>\\n Если у вас уже есть этот внешний вид, вы можете разложить его, чтобы получить 30 000 привязанных суле."
   },
   {
     "id": "097280",
@@ -14121,7 +14121,7 @@
     "id": "097366",
     "source_cn": "苏勒不足，请通过秘仪奉献或者前去<Reminder_Orange>商城-寄售</>等方式获取",
     "ref_en": "Insufficient Sol, please obtain it through Mystical Offering or by going to the <Reminder_Orange> Mall - Consignment </> and other methods.",
-    "target_ru": "Недостаточно Сола, пожалуйста, получите его через Мистическое Предложение или перейдя в Торговый центр <Reminder_Orange> - Комиссионный </> и другими способами."
+    "target_ru": "Недостаточно суле, пожалуйста, получите их через Мистическое Предложение или перейдя в Торговый центр <Reminder_Orange> - Комиссионный </> и другими способами."
   },
   {
     "id": "097367",
@@ -14559,7 +14559,7 @@
     "id": "097441",
     "source_cn": "当前绑定苏勒不足，是否使用苏勒代替？\\n\\n花费：<Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s",
     "ref_en": "Insufficient Bound Sol, use Sol instead? \\n\\n Cost: <Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s",
-    "target_ru": "Текущая привязка Сулера недостаточна. Должен ли я вместо этого использовать Suler? \\n\\n Стоимость: <Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s"
+    "target_ru": "Текущих привязанных суле недостаточно. Использовать вместо них суле? \\n\\n Стоимость: <Img tex2d=\"%s\"/>%s<Img tex2d=\"%s\"/>%s"
   },
   {
     "id": "097442",
@@ -14799,7 +14799,7 @@
     "id": "097481",
     "source_cn": "肖像·阿尔杰",
     "ref_en": "Portrait: Alger",
-    "target_ru": "Портрет: Алжир"
+    "target_ru": "Портрет: Элджер"
   },
   {
     "id": "097482",
@@ -14931,7 +14931,7 @@
     "id": "097503",
     "source_cn": "<Assistant_Title1>【黑占卜】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>一次占卜，一个巧合。\\n<Assistant_Title2>领取方式：</>第一赛季第十一天解锁。完成原著剧情《安提哥努斯笔记》，且扮演等级达到<Assistant_Red>64级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯",
     "ref_en": "<Assistant_Title1>【Black Divination】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story</>\\n<Assistant_Title2>Quest Description: </>A divination, a coincidence.\\n<Assistant_Title2>How to Accept: </>Unlocked on the eleventh day of the first season. Automatically accepted after completing the original story \"Antigonus Notebook\" and reaching Acting Level <Assistant_Red>64</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon",
-    "target_ru": "<Assistant_Title1>[Черное гадание]</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Исходная основная линия</>\\n<Assistant_Title2>Описание задания: </>Гадание, совпадение. \\n<Assistant_Title2>Как получить: </>Открывается в одиннадцатый день первого сезона. Завершите оригинальный сюжет «Записки Антигона» и автоматически достигните <Assistant_Red>64 уровня </>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, Связывание Сулера, Связывание золотых фунтов, Исторический маяк"
+    "target_ru": "<Assistant_Title1>[Черное гадание]</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Исходная основная линия</>\\n<Assistant_Title2>Описание задания: </>Гадание, совпадение. \\n<Assistant_Title2>Как получить: </>Открывается в одиннадцатый день первого сезона. Завершите оригинальный сюжет «Записки Антигона» и автоматически достигните <Assistant_Red>64 уровня </>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, привязанные суле, Связывание золотых фунтов, Исторический маяк"
   },
   {
     "id": "097504",
@@ -14943,7 +14943,7 @@
     "id": "097505",
     "source_cn": "<P_Heart>（不知从哪掏出一个小罐子）</>悄悄告诉你，都是多亏了这玩意，罗塞尔大帝才有了风流的本钱。",
     "ref_en": "<P_Heart> (Taking out a small jar from somewhere) </> Let me tell you quietly, it's all thanks to this thing that Emperor Roselle had the capital for romance.",
-    "target_ru": "<P_Heart> (достает откуда-то маленькую баночку) </> Позвольте мне сказать вам спокойно, именно благодаря этой штуке у императора Розеллы была столица романтики."
+    "target_ru": "<P_Heart> (достает откуда-то маленькую баночку) </> Позвольте мне сказать вам спокойно, именно благодаря этой штуке у императора Розеля была столица романтики."
   },
   {
     "id": "097506",
@@ -15609,7 +15609,7 @@
     "id": "097616",
     "source_cn": "返回黑荆棘罗珊",
     "ref_en": "Return to Blackthorn Rosanne",
-    "target_ru": "Вернитесь к Блэкторну Розанне."
+    "target_ru": "Вернитесь к Розанне из «Чёрного Терновника»."
   },
   {
     "id": "097617",
@@ -15789,7 +15789,7 @@
     "id": "097646",
     "source_cn": "一个地铺每周1苏勒，这样我们每周只要支付2苏勒10便士……",
     "ref_en": "A floor mat is 1 shilling a week, so we only need to pay 2 shillings and 10 pence a week...",
-    "target_ru": "Коврик стоит 1 шиллинг в неделю, поэтому нам нужно платить всего 2 шиллинга и 10 пенсов в неделю..."
+    "target_ru": "Коврик стоит 1 суле в неделю, поэтому нам нужно платить всего 2 суле и 10 пенсов в неделю..."
   },
   {
     "id": "097647",
@@ -15813,7 +15813,7 @@
     "id": "097650",
     "source_cn": "亲爱的非凡者：\\n系统检测到您近期副本%s中参与的拍卖涉及线下交易或苏勒转移（道具<M_Link>%s</>，总计交易金额<M_Link>%s</>），未通过审核。现已封禁副本拍卖到%s。您可以在副本拍卖界面通过缴纳保证金%s金镑提前解冻。如有疑问，请通过用户中心-联系客服反馈详细情况。",
     "ref_en": "Dear Beyonder: \\n The system has detected that the auction you participated in during the dungeon %s involved offline trading or gold transfer (Items <M_Link>%s</>, total transaction amount <M_Link>%s</>) and has failed the review. Dungeon auctions have been banned until %s. You can unfreeze them early by paying a security deposit of %s pounds in the dungeon auction interface. If you have any questions, please provide detailed information via User Center - Contact Customer Service.",
-    "target_ru": "Дорогой экстраординарный человек! Система \\n обнаружила, что аукцион, в котором вы участвовали в последней копии %s, включал автономные транзакции или переводы Sule (реквизит <M_Link>%s</>, общая сумма транзакции <M_Link>%s</>), и не прошел проверку. Запрещенная копия теперь продана с аукциона %s. Вы можете разморозить его заранее, внеся депозит в размере %s золотых фунтов в интерфейсе аукциона копий. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами через Центр пользователей и обратитесь в службу поддержки клиентов."
+    "target_ru": "Дорогой экстраординарный человек! Система \\n обнаружила, что аукцион, в котором вы участвовали в последней копии %s, включал автономные транзакции или переводы суле (реквизит <M_Link>%s</>, общая сумма транзакции <M_Link>%s</>), и не прошел проверку. Запрещенная копия теперь продана с аукциона %s. Вы можете разморозить его заранее, внеся депозит в размере %s золотых фунтов в интерфейсе аукциона копий. Если у вас есть какие-либо вопросы, пожалуйста, свяжитесь с нами через Центр пользователей и обратитесь в службу поддержки клиентов."
   },
   {
     "id": "097651",
@@ -16623,7 +16623,7 @@
     "id": "097785",
     "source_cn": "使用后解锁<Highlight>单人社交动作·警惕</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Vigilant</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Vigilant</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "После использования открывает <Highlight>одиночное социальное действие: Настороженность</>; повторно полученные предметы автоматически разлагаются на привязанные суле."
   },
   {
     "id": "097786",
@@ -17325,7 +17325,7 @@
     "id": "097903",
     "source_cn": "一本《罗塞尔诗选》，大家最喜欢的诗集之一。",
     "ref_en": "A copy of 'Roselle's Poetry Collection', one of everyone's favorite poetry books.",
-    "target_ru": "Экземпляр «Сборника стихов Розеллы», одного из любимых поэтических сборников каждого."
+    "target_ru": "Экземпляр «Сборника стихов Розеля», одного из любимых поэтических сборников каждого."
   },
   {
     "id": "097904",
@@ -19473,7 +19473,7 @@
     "id": "098261",
     "source_cn": "黑荆棘事件簿4-关卡4-笔记增伤叠层buff",
     "ref_en": "Black Thorn Incident Book 4-Level 4-Notebook Damage Boost Stack buff",
-    "target_ru": "Книга происшествий «Черный шип» 4-уровневый 4-блокнот с усилением стека урона"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — уровень 4 — бафф накопления усиления урона от блокнота"
   },
   {
     "id": "098262",
@@ -20283,7 +20283,7 @@
     "id": "098398",
     "source_cn": "黑荆棘事件簿4-关卡2-技能载体隐身怪标记buff",
     "ref_en": "Black Thorn Incident Book 4-Level 2-Skill Carrier Stealth Monster Marker buff",
-    "target_ru": "Книга происшествий «Черный Шип» 4 уровня, 2 навыка, усиление маркера скрытности монстра-носителя"
+    "target_ru": "Книга происшествий «Чёрного Терновника» 4 — уровень 2 — бафф метки невидимого монстра-носителя навыка"
   },
   {
     "id": "098399",
@@ -20337,7 +20337,7 @@
     "id": "098409",
     "source_cn": "一、二、三……呼，已经攒了两镑零五苏勒，离三金镑就差一点了。",
     "ref_en": "One, two, three... Phew, I've already saved two pounds and five shillings. I'm just a little bit away from three gold pounds.",
-    "target_ru": "Раз, два, три... Уф, я уже сэкономил два фунта и пять шиллингов. Мне осталось совсем немного до трёх золотых фунтов."
+    "target_ru": "Раз, два, три... Уф, я уже сэкономил два фунта и пять суле. Мне осталось совсем немного до трёх золотых фунтов."
   },
   {
     "id": "098410",
@@ -21099,7 +21099,7 @@
     "id": "098536",
     "source_cn": "亲爱的非凡者：\\n     众神之巅已经开放报名，尊贵称号、绑定金镑、苏勒、绑定苏勒、凯旋徽章等丰厚奖励等你来拿，赛区冠军还可获得荣誉雕像展示！<HyperLink stylename=\"M_Link\" u=\"jump=1250113\">【点击前往报名】</>",
     "ref_en": "Dear Beyonder:\\n Registration for the Peak of the Gods is now open. Prestigious titles, bound gold pounds, Soles, bound Soles, Triumph Badges, and other generous rewards are waiting for you. The regional champion can also have an honorary statue displayed!<HyperLink stylename=\"M_Link\" u=\"jump=1250113\"> [Click to Register] </>",
-    "target_ru": "Дорогой экстраординарный! \\n Регистрация на Саммит Богов уже открыта. Вас ждут щедрые награды, такие как дворянские титулы, связанные золотые фунты, сулеры, связанные сулеры и триумфальные значки. Чемпион соревновательной зоны также может получить почетную статую! <HyperLink stylename=\"M_Link\" u=\"jump=1250113\">【Нажмите, чтобы зарегистрироваться】</>"
+    "target_ru": "Дорогой экстраординарный! \\n Регистрация на Саммит Богов уже открыта. Вас ждут щедрые награды, такие как дворянские титулы, связанные золотые фунты, суле, привязанные суле и триумфальные значки. Чемпион соревновательной зоны также может получить почетную статую! <HyperLink stylename=\"M_Link\" u=\"jump=1250113\">【Нажмите, чтобы зарегистрироваться】</>"
   },
   {
     "id": "098537",
@@ -21285,7 +21285,7 @@
     "id": "098567",
     "source_cn": "开启可随机获得一件<Highlight>68装等</>或<Highlight>69装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Opening it grants a random piece of <Highlight>Level 68</> or <Highlight>Level 69</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, polymerization factors, and bound Soles.",
-    "target_ru": "Открыв его, вы получаете случайную часть <Highlight>LLevel 68</> или <Highlight>LLevel 69</> <Highlight>Приключенческого </> оранжевого или золотого качества, материалов Потусторонний, факторов полимеризации и связанных подошв."
+    "target_ru": "Открыв его, вы получаете случайную часть снаряжения <Highlight>68 ур.</> или <Highlight>69 ур.</> оранжевого или золотого качества с <Highlight>уклоном в приключения</>, экстраординарные материалы, факторы полимеризации и привязанные суле."
   },
   {
     "id": "098568",
@@ -21447,7 +21447,7 @@
     "id": "098594",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>55装等</>的<Highlight>竞技倾向</>金色和紫色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 55</> <Highlight>Competition-oriented</> gold and purple quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. There is a certain probability of obtaining 1 Gray Fog Crystal Shard (used to upgrade Competition Brooches of Item Level 64 or higher to Mythical quality); you can obtain at most 3 per week, and any unobtained amount can be accumulated to the following week. \\n\\n<Highlight>Conversion Limit</>: Can be converted into a maximum of <Highlight>10</> Treasures; if the progress is exceeded, it will be <Highlight>automatically stored</>, and after the new Item Level Treasures are unlocked, they will be <Highlight>converted into new Treasures</>.",
-    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. Открыв его, вы можете случайным образом получить часть снаряжения <Highlight>55 уровня</> <Highlight>конкурентные тенденции</> золотого и фиолетового качества, экстраординарную материю, коэффициент агрегации и обязательный сулер. Существует определенная вероятность получить 1 кристалл серого тумана (используется для улучшения соревновательной броши экипировки 64 уровня или выше до мифического качества). Вы можете получать до 3 штук каждую неделю, а неполученную сумму можно копить до следующей недели. \\n\\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
+    "target_ru": "Получайте 1 коробку ресурсов разработки за каждый <Highlight>20 прогресс</>. Открыв его, вы можете случайным образом получить часть снаряжения <Highlight>55 уровня</> <Highlight>конкурентные тенденции</> золотого и фиолетового качества, экстраординарную материю, коэффициент агрегации и привязанные суле. Существует определенная вероятность получить 1 кристалл серого тумана (используется для улучшения соревновательной броши экипировки 64 уровня или выше до мифического качества). Вы можете получать до 3 штук каждую неделю, а неполученную сумму можно копить до следующей недели. \\n\\n<Highlight> верхний предел конвертации </>: максимум можно конвертировать в <Highlight>10</> секретные сокровища. Если прогресс превышен, <Highlight> будет автоматически сохранен в </>. После того, как секретные сокровища нового уровня снаряжения будут разблокированы, <Highlight> будет преобразован в новые секретные сокровища </>."
   },
   {
     "id": "098595",
@@ -21651,7 +21651,7 @@
     "id": "098628",
     "source_cn": "5230065   黑荆棘安保公司   位面",
     "ref_en": "5230065 Blackthorn Security Company Plane",
-    "target_ru": "5230065 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230065 Плоскость охранной компании «Чёрный Терновник»"
   },
   {
     "id": "098629",
@@ -21813,7 +21813,7 @@
     "id": "098655",
     "source_cn": "去黑荆棘",
     "ref_en": "Go to Blackthorn",
-    "target_ru": "Иди в Чёрный Чертополох"
+    "target_ru": "Иди в «Чёрный Терновник»"
   },
   {
     "id": "098656",
@@ -22227,7 +22227,7 @@
     "id": "098724",
     "source_cn": "立即获得绑定苏勒×50000。",
     "ref_en": "Immediately obtain Bound Sol ×50,000.",
-    "target_ru": "Немедленно получите Bound Sol ×50,000."
+    "target_ru": "Немедленно получите привязанные суле ×50 000."
   },
   {
     "id": "098725",
@@ -22959,7 +22959,7 @@
     "id": "098847",
     "source_cn": "罗珊站着",
     "ref_en": "Roselle standing",
-    "target_ru": "Розель стоит"
+    "target_ru": "Розанна стоит"
   },
   {
     "id": "098848",
@@ -23139,7 +23139,7 @@
     "id": "098877",
     "source_cn": "黑荆棘事件簿4-关卡2-扑击僵尸材质buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 2 - Pounce Zombie Material buff",
-    "target_ru": "Журнал происшествий в Блэкторне, 4 — уровень 2 — усиление материала «Набросившийся зомби»"
+    "target_ru": "Журнал происшествий «Чёрного Терновника», 4 — уровень 2 — усиление материала «Набросившийся зомби»"
   },
   {
     "id": "098878",
@@ -23295,7 +23295,7 @@
     "id": "098903",
     "source_cn": "使用后解锁<Highlight>单人社交动作·叹气</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Sigh</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Sigh</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>одиночное социальное действие: Вздох</> при использовании; повторно полученные предметы автоматически разлагаются на привязанные суле."
   },
   {
     "id": "098904",
@@ -23895,13 +23895,13 @@
     "id": "099003",
     "source_cn": "黑荆棘事件簿4-关卡4-城墙血量buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 4 - City Wall Health Buff",
-    "target_ru": "Журнал происшествий в Блэкторне, 4 – уровень 4 – усиление здоровья городской стены"
+    "target_ru": "Журнал происшествий «Чёрного Терновника», 4 – уровень 4 – усиление здоровья городской стены"
   },
   {
     "id": "099004",
     "source_cn": "        我是罗塞尔·古斯塔夫，但我要记得我真正的姓名——黄涛。\\n        这封日记写于我自己的陵墓中，现在的我既没有活着、也没有死去，只是偶尔会获得短暂的清醒。我似乎迷失了很久，只能一遍又一遍回想我挂念的那些东西，让我不要真的被疯狂与污染控制。\\n        可笑的是，我曾经拼命搏来的那些荣誉，什么蒸汽机、狗屎蒸汽之子，这些原本就不属于我的东西对稳定认知一点用都没有，只会反噬我。\\n        我这辈子真正挂念的，是我的孩子们……\\n        夏尔，算算时间他应该已经去世了。死亡是一份礼物，希望他能作为普通人去度过幸福的一生。这是我们其他所有人都无法获得的平静……\\n        博诺瓦……该死的蒸汽与机械之神，别让我逮到你！还有查拉图和“门”，等我复活了，我绝对一个个上门好好拜访！我的孩子应当肆意自由地活着，而不是成为神明的傀儡！不知道他那纯粹的神性中，有没有那么一点对我这个父亲的爱……一点点就够了。\\n        心爱的贝尔纳黛，应验了查拉图的预言，她终究憎恨、厌弃和离开了我。不知道我被刺杀后她怎么样了……\\n        头开始疼了，那家伙的呓语声真是难听。我又得睡了，我不会将这份污染带到这个世界上，这里还有我想守护的东西。哈哈，就跟我一起被封印在这里吧！\\n        但我终会归来，只要我的子民还在信仰我，只要我留下的文明与规则没有消逝，只要这个世界还有人记得我的名字……连归来的口号我都想好了——因蒂斯的子民们，你们的皇帝回来了！\\n        但在又一次的沉眠前，我似乎看到了一些被我遗忘了许久的东西……炸鸡、可乐、游戏机、家，和好像老去了一些的爸妈……\\n        那是或许平凡乏味但再也回不去的人生。\\n        故乡啊……",
     "ref_en": "I am Roselle Gustav, but I must remember my real name—Huang Tao. \\n This diary was written in my own mausoleum. Right now, I am neither alive nor dead; I only occasionally gain brief moments of clarity. I seem to have been lost for a long time, and I can only recall the things I care about over and over again so that I am not truly controlled by madness and corruption. \\n It is ridiculous that the honors I once fought for, all that steam engine stuff, that bullshit Son of Steam, these things that never belonged to me are of no use in stabilizing my cognition and will only backfire on me. \\n What I truly care about in this life are my children... \\n Charles, calculating the time, he should have passed away by now. Death is a gift; I hope he can spend a happy life as an ordinary person. This is the peace that none of the rest of us can obtain... \\n Bernadette... damn God of Steam and Machinery, don't let me catch you! And Zaratul and the \"Door,\" once I am resurrected, I will definitely visit each of you! My children should live freely and wantonly, not become puppets of the gods! I don't know if there is even a little bit of love for me, their father, in that pure divinity of his... a little bit is enough. \\n Beloved Bernadette, the prophecy of Zaratul has come true; she eventually hated, abandoned, and left me. I don't know how she is after I was assassinated... \\n My head is starting to hurt; that guy's gibberish is really unpleasant. I have to sleep again. I will not bring this corruption into this world; there are still things I want to protect here. Haha, just be sealed here with me! \\n But I will eventually return, as long as my people still believe in me, as long as the civilization and rules I left behind have not faded, as long as there is still someone in this world who remembers my name... I have even thought of the slogan for my return—Citizens of Intis, your Emperor has returned! \\n But before falling into another slumber, I seem to have seen some things I had forgotten for a long time... fried chicken, cola, game consoles, home, and my parents who seem to have aged a bit... \\n That is a life that might have been ordinary and dull but can never be returned to. \\n Hometown...",
-    "target_ru": "Я Рассел Густав, но я хочу запомнить свое настоящее имя — Хуан Тао. \\n Этот дневник был написан в моем мавзолее. Сейчас я ни жив, ни мертв, но лишь изредка ко мне приходят краткие моменты ясности. Кажется, я уже давно потерялся и могу думать только о вещах, которые мне не хватает, снова и снова, чтобы на самом деле меня не контролировали безумие и загрязнение. \\n Что забавно, так это то, что почести, за которые я так упорно боролся, такие как паровой двигатель и сын дерьма пара, эти вещи, которые изначально мне не принадлежали, не влияют на стабилизацию моего сознания и только вернутся, чтобы укусить меня. \\n Чего мне действительно не хватает в этой жизни, так это моих детей... \\n Чарльз, считая время, он должен был умереть. Смерть – это подарок. Я надеюсь, что он сможет прожить счастливую жизнь как обычный человек. Это тот мир, который ускользает от всех остальных из нас... \\n Бонуа... Проклятый бог пара и машин, не дай мне поймать тебя! Еще есть Заратул и «Врата». Когда я воскресну, я обязательно нанесу визит каждому из них! Мои дети должны жить свободно и свободно, а не становиться марионетками богов! Я не знаю, есть ли в его чистой божественности хоть немного любви ко мне как к отцу... Немного достаточно. \\n Моя возлюбленная Бернадетта исполнила пророчество Заратула. В конце концов она возненавидела, бросила и бросила меня. Я не знаю, что с ней случилось после того, как меня убили... \\n У меня начала болеть голова, болтовня этого парня была очень неприятной. Мне снова нужно спать. Я не принесу это загрязнение в этот мир. Есть еще вещи, которые я хочу защитить здесь. Ха-ха, просто будь здесь со мной! \\n Но в конце концов я вернусь, пока мои люди все еще верят в меня, пока цивилизация и правила, которые я оставил после себя, не исчезли, пока в этом мире еще есть люди, которые помнят мое имя... Я даже придумал лозунг для моего возвращения - Люди Интиса, ваш император вернулся! \\n Но прежде чем снова заснуть, я, казалось, увидел некоторые вещи, о которых давно забыл... жареную курицу, колу, игровые приставки, дом и моих родителей, которые казались старше... \\n Это была жизнь, которая могла быть обычной и скучной, но никогда не вернуться назад. \\n Мой родной город..."
+    "target_ru": "Я Розель Густав, но я хочу запомнить свое настоящее имя — Хуан Тао. \\n Этот дневник был написан в моем мавзолее. Сейчас я ни жив, ни мертв, но лишь изредка ко мне приходят краткие моменты ясности. Кажется, я уже давно потерялся и могу думать только о вещах, которые мне не хватает, снова и снова, чтобы на самом деле меня не контролировали безумие и загрязнение. \\n Что забавно, так это то, что почести, за которые я так упорно боролся, такие как паровой двигатель и сын дерьма пара, эти вещи, которые изначально мне не принадлежали, не влияют на стабилизацию моего сознания и только вернутся, чтобы укусить меня. \\n Чего мне действительно не хватает в этой жизни, так это моих детей... \\n Чарльз, считая время, он должен был умереть. Смерть – это подарок. Я надеюсь, что он сможет прожить счастливую жизнь как обычный человек. Это тот мир, который ускользает от всех остальных из нас... \\n Бонуа... Проклятый бог пара и машин, не дай мне поймать тебя! Еще есть Заратул и «Врата». Когда я воскресну, я обязательно нанесу визит каждому из них! Мои дети должны жить свободно и свободно, а не становиться марионетками богов! Я не знаю, есть ли в его чистой божественности хоть немного любви ко мне как к отцу... Немного достаточно. \\n Моя возлюбленная Бернадетта исполнила пророчество Заратула. В конце концов она возненавидела, бросила и бросила меня. Я не знаю, что с ней случилось после того, как меня убили... \\n У меня начала болеть голова, болтовня этого парня была очень неприятной. Мне снова нужно спать. Я не принесу это загрязнение в этот мир. Есть еще вещи, которые я хочу защитить здесь. Ха-ха, просто будь здесь со мной! \\n Но в конце концов я вернусь, пока мои люди все еще верят в меня, пока цивилизация и правила, которые я оставил после себя, не исчезли, пока в этом мире еще есть люди, которые помнят мое имя... Я даже придумал лозунг для моего возвращения - Люди Интиса, ваш император вернулся! \\n Но прежде чем снова заснуть, я, казалось, увидел некоторые вещи, о которых давно забыл... жареную курицу, колу, игровые приставки, дом и моих родителей, которые казались старше... \\n Это была жизнь, которая могла быть обычной и скучной, но никогда не вернуться назад. \\n Мой родной город..."
   },
   {
     "id": "099005",
@@ -25143,7 +25143,7 @@
     "id": "099211",
     "source_cn": "罗塞尔Boss-1&2阶段-锋利的知识-悬浮齿轮",
     "ref_en": "Roselle Boss - Phase 1 & 2 - Sharp Knowledge - Floating Gear",
-    "target_ru": "Босс Розеллы — фазы 1 и 2 — острые знания — плавающее снаряжение"
+    "target_ru": "Босс Розеля — фазы 1 и 2 — острые знания — плавающее снаряжение"
   },
   {
     "id": "099212",
@@ -25359,7 +25359,7 @@
     "id": "099247",
     "source_cn": "黑荆棘事件簿4-关卡2-瞄准表现",
     "ref_en": "Blackthorn Incident Book 4 - Level 2 - Aiming Performance",
-    "target_ru": "Книга происшествий в Блэкторне. Книга 4. Уровень 2. Прицеливание"
+    "target_ru": "Книга происшествий «Чёрного Терновника». Книга 4. Уровень 2. Прицеливание"
   },
   {
     "id": "099248",
@@ -25371,7 +25371,7 @@
     "id": "099249",
     "source_cn": "\\n若您渴望成为政府雇员，请选择我们的夜间学堂！\\n识字就能来，结业保送市政厅考试！\\n\\n<Highlight>开课详情</>\\n◆每逢二四六夜间授课\\n◆学费1磅12苏勒\\n\\n月月准点发金镑，刮风下雨不下岗。\\n高薪体面又轻松，码头扛包百倍强！\\n\\n<Highlight>水仙花街6号\"金笔杆\"商行</>报名，名额只收<Mark id=\"#159_R\"> 30人 </>，手慢明年挤破头！",
     "ref_en": "\\nIf you aspire to become a government employee, please choose our night school!\\nIf you can read, you can come; graduation guarantees a recommendation for the City Hall exam!\\n\\n<Highlight>Course Details</>\\n◆Classes held at night on Tuesdays, Thursdays, and Saturdays\\n◆Tuition 1 pound 12 soli\\n\\nGet paid in gold pounds on time every month, no layoffs regardless of wind or rain.\\nHigh salary, decent and easy, a hundred times better than carrying bags at the dock!\\n\\nSign up at <Highlight>\"Golden Pen\" Firm, 6 Daffodil Street</>, only <Mark id=\"#159_R\"> 30 spots </> available, if you're slow, you'll be fighting for a spot next year!",
-    "target_ru": "\\n Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в ночное время каждый вторник и субботу \\n◆Стоимость обучения составляет 1 фунт 12 солов\\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговый дом «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
+    "target_ru": "\\n Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \\nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \\n\\n<Highlight>Подробности курса</>\\n◆Обучение в ночное время каждый вторник и субботу \\n◆Стоимость обучения составляет 1 фунт 12 суле\\n\\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \\nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \\n\\n<Highlight> Торговый дом «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!"
   },
   {
     "id": "099250",
@@ -25473,7 +25473,7 @@
     "id": "099266",
     "source_cn": "　　廷根著名占卜者，俱乐部常驻导师，擅长各种占卜方式，每次收费<Hide stylename=\"Transparent\" id=\"#161\"> 4苏勒</>。",
     "ref_en": "A famous diviner in Tingen, a resident mentor at the Club, skilled in various divination methods, 4 sol <Hide stylename=\"Transparent\" id=\"#161\"> </> per session.",
-    "target_ru": "Известный прорицатель в Тингене, постоянный наставник Клуба, владеющий различными методами гадания, 4 соль <Hide stylename=\"Transparent\" id=\"#161\"> </> за сеанс."
+    "target_ru": "Известный прорицатель в Тингене, постоянный наставник Клуба, владеющий различными методами гадания, 4 суле <Hide stylename=\"Transparent\" id=\"#161\"> </> за сеанс."
   },
   {
     "id": "099267",
@@ -25989,7 +25989,7 @@
     "id": "099353",
     "source_cn": "没错。每天上午十点半和下午三点，老维尔餐厅会派服务生到黑荆棘去。",
     "ref_en": "That's right. Every day at 10:30 AM and 3:00 PM, Old Will's Restaurant will send a waiter to Blackthorn.",
-    "target_ru": "Это верно. Каждый день в 10:30 и 15:00 ресторан Old Will's будет отправлять в Чёрный Чертополох официанта."
+    "target_ru": "Это верно. Каждый день в 10:30 и 15:00 ресторан Old Will's будет отправлять в «Чёрный Терновник» официанта."
   },
   {
     "id": "099354",
@@ -26667,7 +26667,7 @@
     "id": "099467",
     "source_cn": "弗莱并不是一个话多的人，也不喜欢凑热闹，连爱好也是待在角落安静地画画。\\n他曾经梦想成为一位画家，过一种安稳平凡的生活。\\n不过后来，他听从家人的建议，成为了一位体面的牧师，做得还不赖。\\n再后来，他加入了黑荆棘，成为了序列9的收尸人。\\n明明也算充满波澜的人生，但在他的叙述中，这一切平淡得像一杯温水——或者说，冷水。\\n\\n作为一名“收尸人”，他皮肤苍白，气质阴冷，少言少笑，日常工作是和尸体打交道，天然难让人产生亲近感，但相处久了才知道，他会在克莱恩害怕尸体的时候，默默给他练习的机会；他会在伦纳德迟到的时候，帮他打掩护；他会在任务结束后，默默帮队友善后。\\n他很少说什么，但每次有人需要帮助的时候，他永远在。\\n\\n这个想法一直延续到弗莱成为队长后。\\n“我想留在黑荆棘，一直保护这里。”\\n就这样，他拒绝了继续晋升，拒绝了远行，选择留在熟悉的佐特兰街36号，除了日常出任务外，偶尔还会画几张画。\\n在他的画里，所有离开的人都不曾离开，并且各自有一个不错的结局：邓恩队长终于鼓起勇气向戴莉女士告白，老尼尔与恋人为他们弹琴祝贺，克莱恩完成了一个非常赚钱的委托，伦纳德写出了人生中第一首诗，洛耀西迦科恩黎罗珊在研究一种新的四人方块牌，据说也来自罗塞尔大帝，叫什么斗麻雀……\\n而他弗莱，则在角落里，安静地画着这些瞬间。\\n在这个疯狂的世界里，不是每个人都想要成为传奇，有的人只是想守着一方天地，静静度过每一天。",
     "ref_en": "Frye is not a talkative person, nor does he like to join in the fun; even his hobby is staying in a corner and painting quietly. \\n He once dreamed of becoming a painter and living a stable and ordinary life. \\n But later, he followed his family's advice and became a decent priest, and he wasn't bad at it. \\n Later still, he joined Blackthorn and became a Sequence 9 Corpse Collector. \\n Although it could be considered a life full of ups and downs, in his narration, everything was as plain as a cup of warm water—or rather, cold water. \\n \\n As a \"Corpse Collector,\" he is pale, cold, and quiet. His daily work involves dealing with corpses, which naturally makes it hard for people to feel close to him. But after spending time with him, you realize that when Klein is afraid of corpses, he silently gives him opportunities to practice; when Leonard is late, he helps him cover; and after a mission, he silently helps his teammates clean up. \\n He rarely says anything, but whenever someone needs help, he is always there. \\n \\n This thought continued until Frye became captain. \\n \"I want to stay at Blackthorn and always protect this place.\" \\n Just like that, he refused further promotion, refused to travel far, and chose to stay at 36 Zoutland Street. Besides his daily missions, he would occasionally paint a few pictures. \\n In his paintings, all those who left never really left, and each had a good ending: Captain Dunn finally gathered the courage to confess to Ms. Daly, Old Neil played the piano for them with his lover, Klein completed a very profitable commission, Leonard wrote the first poem of his life, and Luo Yao, Xiga, Cohen, and Rosanne were studying a new four-person block game, which was said to also come from Emperor Roselle and was called something like Mahjong... \\n And he, Frye, was in the corner, quietly painting these moments. \\n In this crazy world, not everyone wants to be a legend; some people just want to guard a piece of heaven and earth and spend every day quietly.",
-    "target_ru": "Фрай неразговорчивый человек и не любит участвовать в веселье. Его хобби — стоять в углу и тихо рисовать. \\nКогда-то он мечтал стать художником и жить стабильной и обычной жизнью. \\nНо позже он последовал совету своей семьи и стал достойным пастором, и он проделал довольно хорошую работу. \\n Позже он присоединился к «Черному шипу» и стал сборщиком трупов в эпизоде ​​9. \\n Очевидно, это была жизнь, полная взлетов и падений, но в его повествовании она была такой же простой, как стакан теплой воды — или, другими словами, холодной воды. \\n\\n Как «сборщик трупов», он имеет бледную кожу, холодный темперамент, редко разговаривает и улыбается, а его повседневная работа — иметь дело с трупами. Естественно, людям трудно чувствовать себя рядом с ним. Однако, прожив долгое время, мы знаем, что он молча даст Кляйну возможность попрактиковаться, когда тот боится трупов; он прикроет Леонарда, когда тот опоздает; и он будет молча помогать своим товарищам по команде быть дружелюбными после завершения миссии. \\nОн редко что-то говорит, но каждый раз, когда кому-то нужна помощь, он всегда рядом. \\n\\nЭта идея продолжалась до тех пор, пока Фрай не стал капитаном. \\n «Я хочу остаться в Блэкторне и все время защищать его». \\n Таким образом он отказался от дальнейшего продвижения по службе и отправился далеко, решив остановиться на знакомой улице Зотланд, 36. Помимо повседневных дел, он иногда рисовал несколько картин. \\nВ его картинах все, кто ушел, никогда не уходили, и у каждой был хороший конец: капитан Данн наконец набрался смелости признаться мисс Дейли, Старый Нил и его возлюбленная играли на пианино, чтобы поздравить их, а Кляйн выполнил очень выгодную миссию. Спасибо, Леонард написал первое в своей жизни стихотворение, Ло Ёшицзякорн и Ли Луошань изучали новую ромбовидную карту из четырех человек, которая, как говорят, пришла от императора Рассела, под названием «Воробьиный бой»…\\n А он, Фрай, сидел в углу и тихо рисовал эти моменты. \\n В этом безумном мире не каждый хочет стать легендой. Некоторые люди просто хотят охранять свой мир и проводить каждый день спокойно."
+    "target_ru": "Фрай неразговорчивый человек и не любит участвовать в веселье. Его хобби — стоять в углу и тихо рисовать. \\nКогда-то он мечтал стать художником и жить стабильной и обычной жизнью. \\nНо позже он последовал совету своей семьи и стал достойным пастором, и он проделал довольно хорошую работу. \\n Позже он присоединился к «Чёрному Терновнику» и стал сборщиком трупов в эпизоде 9. \\n Очевидно, это была жизнь, полная взлетов и падений, но в его повествовании она была такой же простой, как стакан теплой воды — или, другими словами, холодной воды. \\n\\n Как «сборщик трупов», он имеет бледную кожу, холодный темперамент, редко разговаривает и улыбается, а его повседневная работа — иметь дело с трупами. Естественно, людям трудно чувствовать себя рядом с ним. Однако, прожив долгое время, мы знаем, что он молча даст Кляйну возможность попрактиковаться, когда тот боится трупов; он прикроет Леонарда, когда тот опоздает; и он будет молча помогать своим товарищам по команде быть дружелюбными после завершения миссии. \\nОн редко что-то говорит, но каждый раз, когда кому-то нужна помощь, он всегда рядом. \\n\\nЭта идея продолжалась до тех пор, пока Фрай не стал капитаном. \\n «Я хочу остаться в «Чёрном Терновнике» и все время защищать его». \\n Таким образом он отказался от дальнейшего продвижения по службе и отправился далеко, решив остановиться на знакомой улице Зотланд, 36. Помимо повседневных дел, он иногда рисовал несколько картин. \\nВ его картинах все, кто ушел, никогда не уходили, и у каждой был хороший конец: капитан Данн наконец набрался смелости признаться мисс Дейли, Старый Нил и его возлюбленная играли на пианино, чтобы поздравить их, а Кляйн выполнил очень выгодную миссию. Спасибо, Леонард написал первое в своей жизни стихотворение, Ло Яо, Сицзя, Коэн, Ли и Розанна изучали новую ромбовидную карту из четырех человек, которая, как говорят, пришла от императора Розеля, под названием «Воробьиный бой»…\\n А он, Фрай, сидел в углу и тихо рисовал эти моменты. \\n В этом безумном мире не каждый хочет стать легендой. Некоторые люди просто хотят охранять свой мир и проводить каждый день спокойно."
   },
   {
     "id": "099468",
@@ -26841,7 +26841,7 @@
     "id": "099496",
     "source_cn": "等待罗塞尔表现",
     "ref_en": "Wait for Roselle's performance",
-    "target_ru": "Ждите выступления Розеллы"
+    "target_ru": "Ждите выступления Розеля"
   },
   {
     "id": "099497",
@@ -27075,7 +27075,7 @@
     "id": "099535",
     "source_cn": "黑荆棘外\\n黑荆棘外面，伦纳德倚着墙或者路灯，做出刚好戴完手套的姿势。\\n他朝咖啡馆位置微微侧头，还是不放心你自己过来，于是离开。",
     "ref_en": "Outside Blackthorn \\nOutside Blackthorn, Leonard leans against a wall or street lamp, posing as if he has just finished putting on his gloves. \\nHe tilts his head slightly toward the cafe, still worried about you coming alone, so he leaves.",
-    "target_ru": "За пределами «Черного шипа» \\n За пределами «Черного шипа» Леонард прислонился к стене или уличному фонарю, делая жест, как будто он только что закончил надевать перчатки. \\nОн слегка наклонил голову в сторону кафе, все еще не веря, что ты придешь один, и ушел."
+    "target_ru": "За пределами «Чёрного Терновника» \\n За пределами «Чёрного Терновника» Леонард прислонился к стене или уличному фонарю, делая жест, как будто он только что закончил надевать перчатки. \\nОн слегка наклонил голову в сторону кафе, все еще не веря, что ты придешь один, и ушел."
   },
   {
     "id": "099536",
@@ -27183,7 +27183,7 @@
     "id": "099553",
     "source_cn": "　　……\\n　　第五纪1173年，罗塞尔以上校身份平复了叛乱，推翻了腐朽的索伦王室的统治。\\n　　他担任执政官，将<InvHighlight>因蒂斯王国</>改为<InvHighlight>因蒂斯共和国</>，带领这个伟大的国度正式踏入最为辉煌的罗塞尔时代。\\n　　……（大片被啃食的痕迹）\\n　　由于执着于对船只的改良与世界的探索，罗塞尔大帝除了自身热衷于探险之外，还积极组建<Mark id=\"#159\">探索队</>，他于狂暴海的风暴与乱流中开辟了通向<InvHighlight>南大陆</>的航道，让这片尘封于历史隔绝于世的广阔土地沐浴了新时代的阳光。\\n　　……（大片被啃食的痕迹）",
     "ref_en": "... \\n In 1173 of the Fifth Epoch, Roselle quelled the rebellion as a colonel and overthrew the rule of the corrupt Solon royal family. \\n He served as Consul and changed the <InvHighlight> Kingdom of Intis </> to the <InvHighlight> Intis Republic </>, leading this great nation to officially step into the most glorious Roselle era. \\n ... (Large areas of gnawed marks) \\n Because of his obsession with the improvement of ships and the exploration of the world, in addition to his own enthusiasm for adventure, Emperor Roselle also actively organized <Mark id=\"#159\"> exploration teams </>. He opened up the shipping route to the <InvHighlight> Southern Continent </> amidst the storms and turbulence of the Berserk Sea, allowing this vast land, which had been sealed off from history and isolated from the world, to bathe in the sunshine of the new era. \\n ... (Large areas of gnawed marks)",
-    "target_ru": "……\\n В 1173 году Пятой Эпохи Рассел в звании полковника подавил восстание и сверг правление упадочной королевской семьи Саурона. \\n　Он служил консулом и превратил <InvHighlight> Королевство Интис</> в <InvHighlight> Республику Интис</>, что привело эту великую страну к официальному вступлению в самую славную эпоху Рассела. \\n　…(большие обглоданные следы)\\n　 Из-за своей одержимости улучшением кораблей и исследованием мира, император Рассел, помимо своей страсти к исследованиям, также активно сформировал исследовательскую команду <Mark id=\"#159\"></>. В шторме и бурях бушующего моря он открыл канал к <InvHighlight>Южному континенту</>, позволив этой огромной земле, которая была изолирована в истории, купаться в солнечном свете новой эры. \\n　……(большие участки следов поедания)"
+    "target_ru": "……\\n В 1173 году Пятой Эпохи Розель в звании полковника подавил восстание и сверг правление упадочной королевской семьи Саурона. \\n　Он служил консулом и превратил <InvHighlight> Королевство Интис</> в <InvHighlight> Республику Интис</>, что привело эту великую страну к официальному вступлению в самую славную эпоху Розеля. \\n　…(большие обглоданные следы)\\n　 Из-за своей одержимости улучшением кораблей и исследованием мира, император Розель, помимо своей страсти к исследованиям, также активно сформировал исследовательскую команду <Mark id=\"#159\"></>. В шторме и бурях бушующего моря он открыл канал к <InvHighlight>Южному континенту</>, позволив этой огромной земле, которая была изолирована в истории, купаться в солнечном свете новой эры. \\n　……(большие участки следов поедания)"
   },
   {
     "id": "099554",
@@ -27573,7 +27573,7 @@
     "id": "099618",
     "source_cn": "您认识罗珊？她可是我们这儿最开心的客人啦！没见人先听到她声音——“早上好呀！今天有什么太阳一样的花吗？” ",
     "ref_en": "You know Roselle? She is our happiest customer! You hear her voice before you see her—'Good morning! Do you have any flowers like sunshine today?'",
-    "target_ru": "Ты знаешь Розель? Она наш самый счастливый клиент! Вы слышите ее голос прежде, чем видите ее: «Доброе утро!» Есть ли у тебя сегодня цветы, похожие на солнечный свет?"
+    "target_ru": "Ты знаешь Розанну? Она наш самый счастливый клиент! Вы слышите ее голос прежде, чем видите ее: «Доброе утро!» Есть ли у тебя сегодня цветы, похожие на солнечный свет?"
   },
   {
     "id": "099619",
@@ -28017,13 +28017,13 @@
     "id": "099692",
     "source_cn": "<Highlight>【廷根旧梦】</>为限时结交人脉活动。\\n活动期间，<Highlight>克莱恩·莫雷蒂</>结交概率大幅提升。当获得传说人脉时，80%概率为克莱恩·莫雷蒂。如果本次结交的传说人脉不是克莱恩·莫雷蒂，则下次结交获得传说人脉时必定为克莱恩·莫雷蒂。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>概率信息</>\\n<Highlight>[传说]</>品质人脉：基础概率为1.5%，综合概率（含保底）为3.74%\\n包含：克莱恩·莫雷蒂、奥黛丽·霍尔、伦纳德·米切尔、佛尔思·沃尔、邓恩·史密斯、戴莉·西蒙妮、阿尔杰·威尔逊\\n\\n<Highlight>[史诗]</>品质人脉：基础概率为10%，综合概率（含保底）为22.56%\\n包含：苏茜、洛薇雅·蒂芙尼、老尼尔、弗莱、弗兰克·李、班森·莫雷蒂、梅丽莎·莫雷蒂\\n\\n<Highlight>[常规道具]相关</>：基础概率为88.5%，综合概率（含保底）为73.70%\\n包含：基础物质、聚合因子\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>结交细则</>\\n1、每5次结交，必定获得一位史诗或以上的人脉。\\n\\n2、如果连续24次结交未获得传说人脉，则后续概率逐渐提升。\\n每40次结交必定获得传说人脉。\\n获得传说人脉后计数重置，概率恢复为基础概率。\\n\\n3、【廷根旧梦】的保底次数会一直累积在限时结交活动中，与常驻结交活动独立计算互不影响。\\n\\n4、限时结交活动每日可获得100次结交次数，最多可累计至700次。\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>重复获得人脉</>\\n重复获得相同传说人脉时，将转化为1个对应人脉提升材料和10个投影片段。如果该传说人脉已经达到极致或材料足以提升至极致，多余的提升材料会转化为40个投影片段。\\n重复获得相同史诗人脉时，将转化为1个对应人脉提升材料和2个投影片段。如果该史诗人脉已经达到极致或材料足以提升至极致，多余的提升材料会转化为2个投影片段。\\n投影片段可用于在人脉商店兑换道具。",
     "ref_en": "<Highlight> [Tingen Old Dreams] </> is a limited-time Befriending Connections activity. \\n During the activity, the Befriending probability of <Highlight> Klein Moretti </> is greatly increased. When you obtain a Legendary Connection, there is an 80% probability that it is Klein Moretti. If the Legendary Connection obtained this time is not Klein Moretti, the next Legendary Connection obtained is guaranteed to be Klein Moretti. \\n \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Probability Information </> \\n <Highlight> [Legendary] </> Quality Connection: Base probability is 1.5%, comprehensive probability (including pity) is 3.74%. \\n Includes: Klein Moretti, Audrey Hall, Leonard Mitchell, Fors Wall, Dunn Smith, Daly Simone, Alger Wilson. \\n \\n <Highlight> [Epic] </> Quality Connection: Base probability is 10%, comprehensive probability (including pity) is 22.56%. \\n Includes: Susie, Lovia Tiffany, Old Neil, Frye, Frank Lee, Benson Moretti, Melissa Moretti. \\n \\n <Highlight> [General Items] Related </>: Base probability is 88.5%, comprehensive probability (including pity) is 73.70%. \\n Includes: Basic Materials, Aggregation Factors. \\n \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Befriending Details </> \\n 1. Every 5 Befriending attempts, you are guaranteed to obtain a Connection of Epic quality or higher. \\n \\n 2. If you do not obtain a Legendary Connection in 24 consecutive Befriending attempts, the subsequent probability will gradually increase. \\n You are guaranteed to obtain a Legendary Connection every 40 Befriending attempts. \\n After obtaining a Legendary Connection, the count resets, and the probability returns to the base probability. \\n \\n 3. The pity count for [Tingen Old Dreams] will always accumulate in the limited-time Befriending activity and is calculated independently of the permanent Befriending activity, not affecting each other. \\n \\n 4. In the limited-time Befriending activity, you can obtain 100 Befriending attempts per day, which can be accumulated up to 700 times. \\n \\n <img id=\"Tips\" width=\"30\" height=\"46\"/> <Title> Repeatedly Obtaining Connections </> \\n When you repeatedly obtain the same Legendary Connection, it will be converted into 1 corresponding Connection improvement material and 10 Projection Fragments. If that Legendary Connection has already reached the ultimate level or the materials are sufficient to upgrade it to the ultimate level, the excess improvement materials will be converted into 40 Projection Fragments. \\n When you repeatedly obtain the same Epic Connection, it will be converted into 1 corresponding Connection improvement material and 2 Projection Fragments. If that Epic Connection has already reached the ultimate level or the materials are sufficient to upgrade it to the ultimate level, the excess improvement materials will be converted into 2 Projection Fragments. \\n Projection Fragments can be used to exchange for items in the Connection Shop.",
-    "target_ru": "<Highlight>[Tinggen Old Dream]</> — это сетевое мероприятие, ограниченное по времени. Во время события \\n вероятность подружиться с <Highlight> Кляйном Моретти </> значительно увеличивается. При приобретении легендарных связей есть вероятность 80%, что это будет Кляйн Моретти. Если легендарная связь, которую вы установили в этот раз, — это не Кляйн Моретти, то в следующий раз, когда вы установите легендарную связь и получите легендарную связь, это определенно будет Кляйн Моретти. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Информация о вероятности</>\\n<Highlight>[Легендарный]</>Качественные соединения: базовая вероятность 1,5%, комплексная вероятность (включая гарантию) 3,74%\\nВключает: Кляйн Моретти, Одри Холл, Леонард Митчелл, Форт Уолл, Данн Смит, Дейли Симон, Алджер Wilson\\n\\n<Highlight>[Epic]</>Качественные связи: базовая вероятность составляет 10%, а полная вероятность (включая гарантию) — 22,56%\\nВключает в себя: Сьюзи, Ловию Тиффани, Олд Нил, Фрай, Фрэнк Ли, Бенсон Моретти, Мелиссу Моретти\\n\\n<Highlight>[обычный реквизит] связанные</>: Основная вероятность 88,5%, комплексная. Вероятность совпадения (включая минимальную гарантию) составляет 73,70%\\nВ том числе: основные материалы, коэффициенты агрегирования\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Подробности о том, как завести друзей</>\\n1. Каждые 5 раз, когда вы заводите друзей, вы обязательно получите связь эпического или выше уровня. \\n\\n2. Если вы заведете 24 друзей подряд, не получив легендарных связей, вероятность последующего постепенно увеличится. \\n Каждые 40 раз, когда вы заводите друзей, вы обязательно приобретете легендарные связи. \\n После получения легендарных связей счётчик сбрасывается и вероятность возвращается к базовой вероятности. \\n\\n3. Гарантированное количество [Tingen Old Dream] всегда будет накапливаться в ограниченной по времени дружбе, оно будет рассчитываться независимо от постоянной дружбы и не будет влиять друг на друга. \\n\\n4. В ограниченной по времени активности дружбы вы можете получить 100 дружеских связей в день, а максимальное количество дружеских связей может быть накоплено до 700. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Повторное приобретение связей </>\\n Когда одни и те же легендарные связи будут получены повторно, они будут преобразованы в 1 соответствующий материал для улучшения связи и 10 фрагментов проекции. Если легендарное соединение достигло предела или материалов достаточно для его улучшения до предела, лишние материалы улучшения будут конвертированы в 40 фрагментов проекции. \\n При повторном получении одной и той же эпической связи она преобразуется в 1 соответствующий материал улучшения связи и 2 фрагмента проекции. Если эпическая связь достигла крайности или материалов достаточно для ее улучшения до крайности, лишние материалы улучшения будут конвертированы в 2 фрагмента проекции. \\n Фрагменты проекции можно использовать для выкупа реквизита в магазине контактов."
+    "target_ru": "<Highlight>[Tinggen Old Dream]</> — это сетевое мероприятие, ограниченное по времени. Во время события \\n вероятность подружиться с <Highlight> Кляйном Моретти </> значительно увеличивается. При приобретении легендарных связей есть вероятность 80%, что это будет Кляйн Моретти. Если легендарная связь, которую вы установили в этот раз, — это не Кляйн Моретти, то в следующий раз, когда вы установите легендарную связь и получите легендарную связь, это определенно будет Кляйн Моретти. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Информация о вероятности</>\\n<Highlight>[Легендарный]</>Качественные соединения: базовая вероятность 1,5%, комплексная вероятность (включая гарантию) 3,74%\\nВключает: Кляйн Моретти, Одри Холл, Леонард Митчелл, Форт Уолл, Данн Смит, Дейли Симон, Элджер Уилсон\\n\\n<Highlight>[Epic]</>Качественные связи: базовая вероятность составляет 10%, а полная вероятность (включая гарантию) — 22,56%\\nВключает в себя: Сьюзи, Ловию Тиффани, Олд Нил, Фрай, Фрэнк Ли, Бенсон Моретти, Мелиссу Моретти\\n\\n<Highlight>[обычный реквизит] связанные</>: Основная вероятность 88,5%, комплексная. Вероятность совпадения (включая минимальную гарантию) составляет 73,70%\\nВ том числе: основные материалы, коэффициенты агрегирования\\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title>Подробности о том, как завести друзей</>\\n1. Каждые 5 раз, когда вы заводите друзей, вы обязательно получите связь эпического или выше уровня. \\n\\n2. Если вы заведете 24 друзей подряд, не получив легендарных связей, вероятность последующего постепенно увеличится. \\n Каждые 40 раз, когда вы заводите друзей, вы обязательно приобретете легендарные связи. \\n После получения легендарных связей счётчик сбрасывается и вероятность возвращается к базовой вероятности. \\n\\n3. Гарантированное количество [Tingen Old Dream] всегда будет накапливаться в ограниченной по времени дружбе, оно будет рассчитываться независимо от постоянной дружбы и не будет влиять друг на друга. \\n\\n4. В ограниченной по времени активности дружбы вы можете получить 100 дружеских связей в день, а максимальное количество дружеских связей может быть накоплено до 700. \\n\\n<img id=\"Tips\" width=\"30\" height=\"46\"/><Title> Повторное приобретение связей </>\\n Когда одни и те же легендарные связи будут получены повторно, они будут преобразованы в 1 соответствующий материал для улучшения связи и 10 фрагментов проекции. Если легендарное соединение достигло предела или материалов достаточно для его улучшения до предела, лишние материалы улучшения будут конвертированы в 40 фрагментов проекции. \\n При повторном получении одной и той же эпической связи она преобразуется в 1 соответствующий материал улучшения связи и 2 фрагмента проекции. Если эпическая связь достигла крайности или материалов достаточно для ее улучшения до крайности, лишние материалы улучшения будут конвертированы в 2 фрагмента проекции. \\n Фрагменты проекции можно использовать для выкупа реквизита в магазине контактов."
   },
   {
     "id": "099693",
     "source_cn": "<Highlight>黑荆棘安保公司</>，看似是一个安保公司，实则为黑夜女神教会下属的官方非凡者组织“值夜者”在廷根市的分部，主要承担处理超凡事件的职责。",
     "ref_en": "<Highlight>Blackthorn Security Company</>, which appears to be a security company, is actually the Tingen branch of the 'Nighthawks', an official Beyonder organization under the Church of the Evernight Goddess, primarily responsible for handling supernatural events.",
-    "target_ru": "<Highlight>Blackthorn Security Company</>, которая выглядит как охранная компания, на самом деле является тингенским филиалом «Ночных ястребов», официальной организации Потусторонних при Церкви Богини Вечной Ночи, которая в первую очередь отвечает за управление сверхъестественными событиями."
+    "target_ru": "<Highlight>Охранная компания «Чёрный Терновник»</>, которая выглядит как охранная компания, на самом деле является тингенским филиалом «Ночных ястребов», официальной организации Потусторонних при Церкви Богини Вечной Ночи, которая в первую очередь отвечает за управление сверхъестественными событиями."
   },
   {
     "id": "099694",
@@ -28389,7 +28389,7 @@
     "id": "099754",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×30000</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 30,000</>.",
-    "target_ru": "Открыт для получения <Highlight>Bound Sol 30,000</>."
+    "target_ru": "Открыт для получения <Highlight>привязанных суле ×30000</>."
   },
   {
     "id": "099755",
@@ -28809,7 +28809,7 @@
     "id": "099824",
     "source_cn": "<Assistant_Title1>【灰雾之上】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>原著主线</>\\n<Assistant_Title2>任务描述：</>关于这枚古怪的金币，似乎还有别的秘密……\\n<Assistant_Title2>领取方式：</>第一赛季第一天解锁。扮演等级达到<Assistant_Red>20级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、历史明灯、装备、封印物",
     "ref_en": "<Assistant_Title1>【Above the Gray Fog】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Original Main Story </>\\n<Assistant_Title2>Quest Description: </>Regarding this strange gold coin, there seem to be other secrets... \\n<Assistant_Title2>How to Accept: </>Unlocked on the first day of the first season. Automatically accepted after reaching <Assistant_Red>Acting Level 20</>. \\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Historical Beacon, Equipment, Sealed Artifact",
-    "target_ru": "<Assistant_Title1>[Над серым туманом]</>\\n<Assistant_Title2>Тип квеста: </><Assistant_Property2>Оригинальная основная линия</>\\n<Assistant_Title2>Описание квеста: </>Кажется, есть и другие секреты об этой странной золотой монете... \\n<Assistant_Title2>Как ее получить: </>Открывается в первый день первого сезона. Он будет автоматически принят после того, как уровень ролевой игры достигнет <Assistant_Red> и уровня 20</>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, связанный Сулер, связанный фунт золота, историческая лампа, оборудование, запечатанный объект."
+    "target_ru": "<Assistant_Title1>[Над серым туманом]</>\\n<Assistant_Title2>Тип квеста: </><Assistant_Property2>Оригинальная основная линия</>\\n<Assistant_Title2>Описание квеста: </>Кажется, есть и другие секреты об этой странной золотой монете... \\n<Assistant_Title2>Как ее получить: </>Открывается в первый день первого сезона. Он будет автоматически принят после того, как уровень ролевой игры достигнет <Assistant_Red> и уровня 20</>. \\n<Assistant_Title2>Награды за задание</>: Познавательный опыт, привязанные суле, связанный фунт золота, историческая лампа, оборудование, запечатанный объект."
   },
   {
     "id": "099825",
@@ -29841,7 +29841,7 @@
     "id": "099996",
     "source_cn": "听说塔罗牌只是罗塞尔大帝发明出来的游戏，其实并不具备占卜的功能？",
     "ref_en": "I heard that Tarot cards were just a game invented by Emperor Roselle and don't actually have the function of divination?",
-    "target_ru": "Я слышал, что карты Таро были всего лишь игрой, придуманной императором Розеллой, и на самом деле не имеют функции гадания?"
+    "target_ru": "Я слышал, что карты Таро были всего лишь игрой, придуманной императором Розелем, и на самом деле не имеют функции гадания?"
   },
   {
     "id": "099997",

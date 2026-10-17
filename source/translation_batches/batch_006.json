@@ -393,7 +393,7 @@
     "id": "025066",
     "source_cn": "您的双人解契冷静期结束，缴纳10000绑定苏勒后可以正式解除誓约，确定解契吗？",
     "ref_en": "Your mutual cooling-off period for dissolving the Covenant has ended. You may formally dissolve the Covenant after paying 10,000 bound soli. Are you sure you want to dissolve the Covenant?",
-    "target_ru": "Ваш период взаимного охлаждения по поводу роспуска Ковенанта закончился. Вы можете официально расторгнуть Ковенант, заплатив 10 000 связанных суле. Вы уверены, что хотите расторгнуть Ковенант?"
+    "target_ru": "Ваш период взаимного охлаждения по поводу роспуска Ковенанта закончился. Вы можете официально расторгнуть Ковенант, заплатив 10 000 привязанных суле. Вы уверены, что хотите расторгнуть Ковенант?"
   },
   {
     "id": "025067",
@@ -537,7 +537,7 @@
     "id": "025090",
     "source_cn": "氛围·黑荆棘·弗莱",
     "ref_en": "Atmosphere: Blackthorn - Frye",
-    "target_ru": "Атмосфера: Чёрный Чертополох - Фрай"
+    "target_ru": "Атмосфера: «Чёрный Терновник» - Фрай"
   },
   {
     "id": "025091",
@@ -1461,7 +1461,7 @@
     "id": "025244",
     "source_cn": "一个异想天开的实验和一个偶然出现的失误\\n（克莱恩声音渐弱，罗塞尔声音出现）",
     "ref_en": "A whimsical experiment and an accidental mistake\\n (Klein's voice fades, Roselle's voice appears)",
-    "target_ru": "Причудливый эксперимент и непредвиденная ошибка...\\n(Голос Клейна затихает, начинает звучать голос Розелла)"
+    "target_ru": "Причудливый эксперимент и непредвиденная ошибка...\\n(Голос Клейна затихает, начинает звучать голос Розеля)"
   },
   {
     "id": "025245",
@@ -1611,7 +1611,7 @@
     "id": "025270",
     "source_cn": "嘿你算是问对人了，我这还有两页罗塞尔大帝的笔记，这可是稀缺货！",
     "ref_en": "Hey, you've asked the right person. I also have two pages of Emperor Roselle's notes here. These are rare goods!",
-    "target_ru": "Эй, ты спросил у правильного человека. У меня также есть две страницы заметок императора Розеллы. Это редкие товары!"
+    "target_ru": "Эй, ты спросил у правильного человека. У меня также есть две страницы заметок императора Розеля. Это редкие товары!"
   },
   {
     "id": "025271",
@@ -2277,7 +2277,7 @@
     "id": "025382",
     "source_cn": "你收到黑荆棘的任务，前往黑伍德庄园调查封印物失窃案。混入舞会后，你观察到一个举止惹眼的神秘女子、一位行为僵硬的黑伍德男爵，以及他身边那位戴着特殊眼镜的老管家。随着调查深入，你发现管家被封印物“看见我”侵蚀了记忆，而男爵早已识破一切，正等待幕后黑手现身……最终你协助男爵击退了隐藏的欺诈师，见证了一段跨越时光的主仆深情。",
     "ref_en": "You receive a quest from Blackthorn to investigate the theft of a Sealed Artifact at Heywood Manor. After infiltrating the ball, you observe a mysterious woman with eye-catching behavior, a stiff-acting Baron Heywood, and the old butler wearing special glasses by his side. As the investigation deepens, you discover the butler's memory has been eroded by the Sealed Artifact 'See Me', and the Baron has long seen through everything, waiting for the mastermind to appear... In the end, you assist the Baron in repelling the hidden Faceless and witness a deep bond between master and servant that transcends time.",
-    "target_ru": "Вы получаете от Блэкторна задание расследовать кражу запечатанного артефакта в поместье Хейвуд. Проникнув на бал, вы наблюдаете загадочную женщину с привлекательным поведением, чопорного барона Хейвуда и старого дворецкого в специальных очках рядом с ним. По мере углубления расследования вы обнаруживаете, что память дворецкого была стерта запечатанным артефактом «Увидь меня», а барон уже давно все видел насквозь, ожидая появления вдохновителя... В конце концов, вы помогаете барону отразить скрытых Безликих и становится свидетелем глубокой связи между хозяином и слугой, превосходящей время."
+    "target_ru": "Вы получаете от «Чёрного Терновника» задание расследовать кражу запечатанного артефакта в поместье Хейвуд. Проникнув на бал, вы наблюдаете загадочную женщину с привлекательным поведением, чопорного барона Хейвуда и старого дворецкого в специальных очках рядом с ним. По мере углубления расследования вы обнаруживаете, что память дворецкого была стерта запечатанным артефактом «Увидь меня», а барон уже давно все видел насквозь, ожидая появления вдохновителя... В конце концов, вы помогаете барону отразить скрытых Безликих и становится свидетелем глубокой связи между хозяином и слугой, превосходящей время."
   },
   {
     "id": "025383",
@@ -3615,7 +3615,7 @@
     "id": "025605",
     "source_cn": "罗珊路径",
     "ref_en": "Roselle Path",
-    "target_ru": "Розель Путь"
+    "target_ru": "Путь Розанны"
   },
   {
     "id": "025606",
@@ -3765,7 +3765,7 @@
     "id": "025630",
     "source_cn": "黑荆棘事件簿4-关卡4-经验值buff",
     "ref_en": "Blackthorn Incident Log 4 - Level 4 - EXP buff",
-    "target_ru": "Журнал происшествий в Блэкторне 4 — уровень 4 — усиление опыта"
+    "target_ru": "Журнал происшествий «Чёрного Терновника» 4 — уровень 4 — усиление опыта"
   },
   {
     "id": "025631",
@@ -4485,7 +4485,7 @@
     "id": "025750",
     "source_cn": "使用后解锁<Highlight>单人社交动作·默念尊名</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Chant Honorific Name</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: повторять почетное имя</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: повторять почетное имя</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "025751",
@@ -5913,7 +5913,7 @@
     "id": "025990",
     "source_cn": "你在黑荆棘安保公司打扫卫生时，发现角落里的一个礼物盒。打开后，灰雾将你拉入历史孔隙。你先后进入邓恩与戴莉的视角：邓恩在生日当天被队员们吵醒，外出看望前队长卡萝的儿子阿诺德，发现阿诺德与神秘人接触，用梦境能力救下他并带回公司；戴莉奉命回收封印物“夜莺银哨”，发现其中残留着前队长卡萝的意识。卡萝希望找到自己的执念，戴莉带着她的灵体在廷根游历，偶遇邓恩。两人决定合作调查儿童失踪案。",
     "ref_en": "While cleaning at Blackthorn Security Company, you find a gift box in the corner. After opening it, the gray fog pulls you into a gap in history. You enter the perspectives of Dunn and Daly in succession: Dunn is woken up by his team members on his birthday and goes out to visit Arnold, the son of former captain Daly, discovering that Arnold is in contact with a mysterious person. He uses his dream ability to save him and brings him back to the company. Daly is ordered to recover the Sealed Artifact \"Nightingale Silver Whistle\" and discovers the consciousness of former captain Daly lingering within. Daly hopes to find her obsession, so she takes her spirit body to travel through Tingen, where she happens to meet Dunn. The two decide to cooperate to investigate the child abduction case.",
-    "target_ru": "Во время уборки в охранной компании Чёрный Чертополох вы обнаруживаете в углу подарочную коробку. Открыв его, серый туман затягивает вас в пропасть истории. Вы последовательно входите в перспективы Данна и Дейли: Данн будится членами своей команды в день его рождения и отправляется навестить Арнольда, сына бывшего капитана Дейли, обнаруживая, что Арнольд находится в контакте с загадочным человеком. Он использует способность своей мечты, чтобы спасти его и вернуть в компанию. Дейли приказано вернуть запечатанный артефакт «Соловьиный серебряный свисток», и он обнаруживает, что внутри находится сознание бывшего капитана Дейли. Дейли надеется найти свою одержимость, поэтому берет свое духовное тело в путешествие через Тинген, где случайно встречает Данна. Они решают сотрудничать в расследовании дела о похищении ребенка."
+    "target_ru": "Во время уборки в охранной компании «Чёрный Терновник» вы обнаруживаете в углу подарочную коробку. Открыв его, серый туман затягивает вас в пропасть истории. Вы последовательно входите в перспективы Данна и Дейли: Данн будится членами своей команды в день его рождения и отправляется навестить Арнольда, сына бывшего капитана Дейли, обнаруживая, что Арнольд находится в контакте с загадочным человеком. Он использует способность своей мечты, чтобы спасти его и вернуть в компанию. Дейли приказано вернуть запечатанный артефакт «Соловьиный серебряный свисток», и он обнаруживает, что внутри находится сознание бывшего капитана Дейли. Дейли надеется найти свою одержимость, поэтому берет свое духовное тело в путешествие через Тинген, где случайно встречает Данна. Они решают сотрудничать в расследовании дела о похищении ребенка."
   },
   {
     "id": "025991",
@@ -6141,7 +6141,7 @@
     "id": "026028",
     "source_cn": "我想去黑荆棘安保公司",
     "ref_en": "I want to go to Blackthorn Security Company",
-    "target_ru": "Я хочу пойти в охранную компанию Чёрный Чертополох."
+    "target_ru": "Я хочу пойти в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "026029",
@@ -8115,7 +8115,7 @@
     "id": "026357",
     "source_cn": "半高礼帽（黑）   一顶 …… 五苏勒六便士\\n\\n小　计  ……………… 五苏勒六便士\\n新顾客折让  ………… 减  三 便士\\n应　收  ………………五苏勒三便士\\n\\n收　到  ………………  六苏勒\\n找　零  ………………  九便士\\n\\n· 礼帽如有褶皱、污渍，凭此单回店免费修整一次。\\n· 非人为损坏，三日内可换。\\n\\n维尔克尔衣帽店",
     "ref_en": "Top Hat (Black)   One ... Five Soles Six Pence \\n \\n Subtotal ............... Five Soles Six Pence \\n New Customer Discount ............. Minus Three Pence \\n Total Due ............... Five Soles Three Pence \\n \\n Received ............... Six Soles \\n Change ............... Nine Pence \\n \\n · If the top hat has creases or stains, bring this slip back to the shop for one free repair. \\n · Non-human damage, can be exchanged within three days. \\n \\n Wilker Clothing & Hat Shop",
-    "target_ru": "Котелок (черный)   1 шт. …… 5 соли 6 пенсов\\n\\nИтого  ……………………… 5 соли 6 пенсов\\nСкидка новому клиенту … Минус 3 пенса\\nК оплате  ………………… 5 соли 3 пенса\\n\\nПолучено  ………………… 6 соли\\nСдача  ……………………… 9 пенсов\\n\\n· При появлении складок или пятен предъявите чек для однократной бесплатной чистки и правки формы.\\n· При отсутствии следов преднамеренной порчи обмен возможен в течение 3 дней.\\n\\nМагазин готового платья и шляп Уилкера"
+    "target_ru": "Котелок (черный)   1 шт. …… 5 суле 6 пенсов\\n\\nИтого  ……………………… 5 суле 6 пенсов\\nСкидка новому клиенту … Минус 3 пенса\\nК оплате  ………………… 5 суле 3 пенса\\n\\nПолучено  ………………… 6 суле\\nСдача  ……………………… 9 пенсов\\n\\n· При появлении складок или пятен предъявите чек для однократной бесплатной чистки и правки формы.\\n· При отсутствии следов преднамеренной порчи обмен возможен в течение 3 дней.\\n\\nМагазин готового платья и шляп Уилкера"
   },
   {
     "id": "026358",
@@ -8469,7 +8469,7 @@
     "id": "026416",
     "source_cn": "罗塞尔的意志被红月侵蚀，彻底失控！",
     "ref_en": "Roselle's will has been eroded by the Red Moon; he has completely lost control!",
-    "target_ru": "Воля Розеллы была подорвана Красной Луной; он полностью потерял контроль!"
+    "target_ru": "Воля Розеля была подорвана Красной Луной; он полностью потерял контроль!"
   },
   {
     "id": "026417",
@@ -9537,7 +9537,7 @@
     "id": "026594",
     "source_cn": "　　<InvHighlight>罗塞尔·古斯塔夫</>，与其简单称之为“大帝”，更应称之为一个时代，一个传奇。\\n\\n　　历史孕育了不计其数名留青史的统治者，却只出现了一个罗塞尔·古斯塔夫，他的学识、品味、创造心、行动力堪称神赐——他的出现所造福的并不只是因蒂斯，更是这个世界、这个时代！",
     "ref_en": "<InvHighlight> Roselle Gustav </>, rather than simply calling him \"Emperor,\" he should be called an era, a legend. \\n \\n History has nurtured countless rulers who have left their names in history, but there has only been one Roselle Gustav. His knowledge, taste, creativity, and drive can be called god-given—the benefits brought by his appearance are not just for Intis, but for this world, this era!",
-    "target_ru": "　　<InvHighlight>Розелл Густав</> — вместо того чтобы звать его просто «Императором», справедливее назвать его целой эпохой, живой легендой.\\n\\n　　История породила бессчетное множество правителей, вписавших свои имена в скрижали веков, но Розелл Густав был лишь один. Его эрудиция, утонченный вкус, изобретательность и непреклонная воля казались даром самих богов. Его явление осчастливило не только Интис, но и весь этот мир, всю эту эпоху!"
+    "target_ru": "　　<InvHighlight>Розель Густав</> — вместо того чтобы звать его просто «Императором», справедливее назвать его целой эпохой, живой легендой.\\n\\n　　История породила бессчетное множество правителей, вписавших свои имена в скрижали веков, но Розель Густав был лишь один. Его эрудиция, утонченный вкус, изобретательность и непреклонная воля казались даром самих богов. Его явление осчастливило не только Интис, но и весь этот мир, всю эту эпоху!"
   },
   {
     "id": "026595",
@@ -10089,7 +10089,7 @@
     "id": "026688",
     "source_cn": "罗塞尔意志·英雄",
     "ref_en": "Roselle's Will - Hero",
-    "target_ru": "Воля Розеллы - Герой"
+    "target_ru": "Воля Розеля - Герой"
   },
   {
     "id": "026689",
@@ -10287,7 +10287,7 @@
     "id": "026721",
     "source_cn": "黑荆棘事件簿4-第四关丧钟1交互物",
     "ref_en": "Black Thorn Casebook 4 - Stage 4 Death Knell 1 Interaction Object",
-    "target_ru": "Журнал событий Black Thorn 4 — Этап 4. Похоронный звон 1. Объект взаимодействия."
+    "target_ru": "Журнал событий «Чёрного Терновника» 4 — Этап 4. Похоронный звон 1. Объект взаимодействия."
   },
   {
     "id": "026722",
@@ -11001,7 +11001,7 @@
     "id": "026843",
     "source_cn": "踏入沙盘的第一批征服者，尚未在罗塞尔的注视下留名。四皇之战的历史回响在耳边轰鸣，而你只是无数棋子中的一枚。",
     "ref_en": "The first batch of conquerors to step into the sandbox have yet to make a name for themselves under Roselle's gaze. The historical echoes of the War of the Four Emperors roar in your ears, and you are but one of countless chess pieces.",
-    "target_ru": "Первая партия завоевателей, вошедшая в песочницу, еще не сделала себе имя под пристальным взглядом Розеллы. Исторические отголоски Войны Четырех Императоров гремят в ваших ушах, и вы всего лишь одна из бесчисленных шахматных фигур."
+    "target_ru": "Первая партия завоевателей, вошедшая в песочницу, еще не сделала себе имя под пристальным взглядом Розеля. Исторические отголоски Войны Четырех Императоров гремят в ваших ушах, и вы всего лишь одна из бесчисленных шахматных фигур."
   },
   {
     "id": "026844",
@@ -11883,7 +11883,7 @@
     "id": "026990",
     "source_cn": "<P_Heart>（喂，我不是许愿机啊。等下，他说的白银之城，之前在罗塞尔大帝的日记中也有提到过，先了解下。）</>",
     "ref_en": "<P_Heart>(Hey, I'm not a wish-granting machine. Wait, the City of Silver he mentioned was also mentioned in Emperor Roselle's diary before. Let me learn about it first.)</>",
-    "target_ru": "<P_Heart>(Эй, я не машина, исполняющая желания. Подождите, упомянутый им Серебряный Город также упоминался в дневнике императора Розеллы раньше. Позвольте мне сначала узнать об этом.) </>"
+    "target_ru": "<P_Heart>(Эй, я не машина, исполняющая желания. Подождите, упомянутый им Серебряный Город также упоминался в дневнике императора Розеля раньше. Позвольте мне сначала узнать об этом.) </>"
   },
   {
     "id": "026991",
@@ -12651,7 +12651,7 @@
     "id": "027120",
     "source_cn": "<Assistant_Title1>【愚者福音】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>愚者教会的福音宣传……为什么会出现在大学城？\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>60级</>后，前往{Location:[廷根(1568,976)]|56840;-2330;-1360;2;5200002;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒",
     "ref_en": "<Assistant_Title1>[Gospel of the Fool]</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Life in the Era</>\\n<Assistant_Title2>Quest Description: </>Gospel propaganda from the Church of the Fool... why would it appear in the University District?\\n<Assistant_Title2>How to Accept: </>Once your Acting Level reaches <Assistant_Red>60</>, head to {Location:[Tingen(1568,976)]|56840;-2330;-1360;2;5200002;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognitive Experience, Bound Sols",
-    "target_ru": "<Assistant_Title1>【Евангели Шута】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Различные времена</>\\n<Assistant_Title2>Описание задания: </>Евангельская пропаганда Церк Шута... Почему оно появляется в университетском городке? \\n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>уровня 60</>, перейдите в {Location:[Tinggen(1568,976)]|56840;-2330;-1360;2;5200002;0}, чтобы запустить задание \\n<Assistant_Title2>Task награда</>: познавательный опыт, связывающий Сулера"
+    "target_ru": "<Assistant_Title1>【Евангелие Шута】</>\\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Различные времена</>\\n<Assistant_Title2>Описание задания: </>Евангельская пропаганда Церкви Шута... Почему оно появляется в университетском городке? \\n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>уровня 60</>, перейдите в {Location:[Tinggen(1568,976)]|56840;-2330;-1360;2;5200002;0}, чтобы запустить задание \\n<Assistant_Title2>Награда за задание</>: познавательный опыт, привязанные суле"
   },
   {
     "id": "027121",
@@ -13107,7 +13107,7 @@
     "id": "027197",
     "source_cn": "累计500个非凡者组队通关罗塞尔意志",
     "ref_en": "Cumulative 500 Beyonders clear Roselle's Will in a party",
-    "target_ru": "Совокупно 500 Потусторонние очищают волю Розеллы в группе."
+    "target_ru": "Совокупно 500 Потусторонние очищают волю Розеля в группе."
   },
   {
     "id": "027198",
@@ -13227,7 +13227,7 @@
     "id": "027217",
     "source_cn": "通关2次「黑荆棘事件簿·值夜模式」",
     "ref_en": "Clear \"Blackthorn Security Case File: Nighthawk Mode\" 2 times",
-    "target_ru": "Пройти «Дело службы безопасности Чёрный Чертополох: Режим ночного ястреба» 2 раза."
+    "target_ru": "Пройти «Дело службы безопасности Чёрный Терновник: Режим ночного ястреба» 2 раза."
   },
   {
     "id": "027218",
@@ -13923,7 +13923,7 @@
     "id": "027334",
     "source_cn": "罗塞尔Boss-手部法球",
     "ref_en": "Roselle Boss - Hand Orb",
-    "target_ru": "Босс Розеллы — Сфера в руке"
+    "target_ru": "Босс Розеля — Сфера в руке"
   },
   {
     "id": "027335",
@@ -14733,7 +14733,7 @@
     "id": "027471",
     "source_cn": "邓恩的邀请令人心动，去黑荆棘安保公司看看，人总是要工作的。",
     "ref_en": "Dunn's invitation is tempting. Go to Blackthorn Security Company and take a look; one always needs a job.",
-    "target_ru": "Приглашение Данна заманчиво. Отправляйтесь в охранную компанию Чёрный Чертополох и осмотрите; человеку всегда нужна работа."
+    "target_ru": "Приглашение Данна заманчиво. Отправляйтесь в охранную компанию «Чёрный Терновник» и осмотритесь; человеку всегда нужна работа."
   },
   {
     "id": "027472",
@@ -15147,7 +15147,7 @@
     "id": "027541",
     "source_cn": "开启可随机获得一件<Highlight>64装等</>或<Highlight>66装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 64</> or <Highlight>level 66</> <Highlight>Adventure-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Откройте, чтобы случайным образом получить одну часть <Highlight>уровня 64</> или <Highlight>уровня 66</> <Highlight>Приключенческого </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или связанного Сола."
+    "target_ru": "Откройте, чтобы случайным образом получить одну часть <Highlight>уровня 64</> или <Highlight>уровня 66</> <Highlight>Приключенческого </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или привязанных суле."
   },
   {
     "id": "027542",
@@ -15213,7 +15213,7 @@
     "id": "027552",
     "source_cn": "打开后可获得<Highlight>绑定苏勒×3500</>。",
     "ref_en": "Open to receive <Highlight>Bound Sol 3,500</>.",
-    "target_ru": "Открыт для получения <Highlight>Bound Sol 3,500</>."
+    "target_ru": "Открыв, вы получите <Highlight>привязанные суле ×3500</>."
   },
   {
     "id": "027553",
@@ -15705,7 +15705,7 @@
     "id": "027635",
     "source_cn": "使用后解锁<Highlight>单人社交动作·害怕</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Fear</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Single Social Action: Fear</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одиночное социальное действие: страх</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "027636",
@@ -16191,7 +16191,7 @@
     "id": "027716",
     "source_cn": "罗塞尔的日记",
     "ref_en": "Roselle's diary",
-    "target_ru": "дневник Розеллы"
+    "target_ru": "дневник Розеля"
   },
   {
     "id": "027717",
@@ -16317,7 +16317,7 @@
     "id": "027737",
     "source_cn": "那是——罗塞尔大帝的影像！",
     "ref_en": "That is—an image of Emperor Roselle!",
-    "target_ru": "Это — образ императора Розеллы!"
+    "target_ru": "Это — образ императора Розеля!"
   },
   {
     "id": "027738",
@@ -16371,7 +16371,7 @@
     "id": "027746",
     "source_cn": "黑荆棘事件簿4-关卡1-黑暗笼罩",
     "ref_en": "Blackthorn Case File 4 - Level 1 - Darkness Shrouds",
-    "target_ru": "Досье Блэкторна 4 – Уровень 1 – Покровы тьмы"
+    "target_ru": "Досье «Чёрного Терновника» 4 – Уровень 1 – Покровы тьмы"
   },
   {
     "id": "027747",
@@ -17031,7 +17031,7 @@
     "id": "027856",
     "source_cn": "用300绑定苏勒定金换来的钥匙，可以打开弗兰奇公寓的房门。",
     "ref_en": "A key obtained in exchange for a 300-pound deposit, which can open the door to the Frankie Apartment.",
-    "target_ru": "Ключ, полученный в обмен на залог в 300 фунтов, который сможет открыть дверь в квартиру Фрэнки."
+    "target_ru": "Ключ, полученный в обмен на залог в 300 привязанных суле, который сможет открыть дверь в квартиру Фрэнки."
   },
   {
     "id": "027857",
@@ -17139,7 +17139,7 @@
     "id": "027874",
     "source_cn": "蠢鱼偏爱重金<P_Yellow>属</>，要认罗塞尔做教<P_Yellow>父</>？",
     "ref_en": "Stupid fish prefers heavy met<P_Yellow>als</>, wanting to acknowledge Roselle as godf<P_Yellow>ather</>?",
-    "target_ru": "Глупая рыба предпочитает тяжелый мет<P_Yellow>als</>, желая признать Розеллу богомf<P_Yellow>ather</>?"
+    "target_ru": "Глупая рыба предпочитает тяжёлые метал<P_Yellow>лы</>, желая признать Розеля крёстным от<P_Yellow>цом</>?"
   },
   {
     "id": "027875",
@@ -17409,7 +17409,7 @@
     "id": "027920",
     "source_cn": "关于黑荆棘",
     "ref_en": "About Blackthorn",
-    "target_ru": "О Блэкторне"
+    "target_ru": "О «Чёрном Терновнике»"
   },
   {
     "id": "027921",
@@ -18159,7 +18159,7 @@
     "id": "028047",
     "source_cn": "参与终末猎杀玩法，并达到征服皇帝段位。",
     "ref_en": "Participate in the Final Hunt challenge and reach the Conqueror Emperor rank.",
-    "target_ru": "Примите участие в испытании «Последняя охота» и получите ранг «Император-завоеватель»."
+    "target_ru": "Примите участие в испытании «Финальная охота» и получите ранг «Император-завоеватель»."
   },
   {
     "id": "028048",
@@ -18729,7 +18729,7 @@
     "id": "028142",
     "source_cn": "\\n桃花林的尽头，是一旦离开便再也寻不到的归途。\\n\\n在因蒂斯郊外的桃花林中，罗塞尔常携小贝尔纳黛漫步。纷飞的桃花瓣下，他低声讲述着一个关于“桃花源”的古老传说——那是一片隐藏在桃林尽头的净土，生活在那里的人无忧无虑，可一旦离开，就再也找不到回去的路。\\n\\n贝尔纳黛那时懵懂，只觉得既然如此，那就不要离开。\\n\\n直到多年后，她才懂得人总会离开，才明白父亲口中的“桃花源”，是再也无法触及的旧日幻梦。",
     "ref_en": "\\n The end of the peach blossom forest is a path of no return once you leave. \\n\\n In the peach blossom forest on the outskirts of Intis, Roselle often strolled with little Bernadette. Under the fluttering peach petals, he whispered an ancient legend about a \"Peach Blossom Spring\"—a pure land hidden at the end of the peach forest where people lived without a care, but once they left, they could never find their way back. \\n\\n Bernadette was naive then and felt that if that were the case, she simply wouldn't leave. \\n\\n It wasn't until many years later that she understood people always leave, and realized the \"Peach Blossom Spring\" in her father's words was a dream of the Great Old Ones that could never be reached again.",
-    "target_ru": "\\nКрай цветущих персиков — это тропа, на которую невозможно вернуться, однажды покинув ее.\\n\\nВ персиковом саду в предместьях Интиса Розелл часто прогуливался с маленькой Бернадетт. Под кружащимися лепестками он негромко поведал ей старинное предание о Персиковом источнике — сокрытой в глубине цветущего леса благословенной земле, где люди жили без бед и забот, но всякий ушедший оттуда уже никогда не мог найти дорогу назад.\\n\\nМалышка Бернадетт тогда наивно решила: раз так, значит, уходить попросту не нужно.\\n\\nЛишь много лет спустя она поняла, что уходить приходится каждому, и осознала: «Персиковый источник» из сказок отца был невозвратимой грезой о давно минувших Древних Днях."
+    "target_ru": "\\nКрай цветущих персиков — это тропа, на которую невозможно вернуться, однажды покинув ее.\\n\\nВ персиковом саду в предместьях Интиса Розель часто прогуливался с маленькой Бернадетт. Под кружащимися лепестками он негромко поведал ей старинное предание о Персиковом источнике — сокрытой в глубине цветущего леса благословенной земле, где люди жили без бед и забот, но всякий ушедший оттуда уже никогда не мог найти дорогу назад.\\n\\nМалышка Бернадетт тогда наивно решила: раз так, значит, уходить попросту не нужно.\\n\\nЛишь много лет спустя она поняла, что уходить приходится каждому, и осознала: «Персиковый источник» из сказок отца был невозвратимой грезой о давно минувших Древних Днях."
   },
   {
     "id": "028143",
@@ -19071,7 +19071,7 @@
     "id": "028199",
     "source_cn": "咳咳咳，你就是黑荆棘新来的员工吗？",
     "ref_en": "Cough, cough, cough, are you the new employee at Blackthorn?",
-    "target_ru": "Кашель, кашель, кашель, ты новый сотрудник в Чёрный Чертополох?"
+    "target_ru": "Кашель, кашель, кашель, ты новый сотрудник «Чёрного Терновника»?"
   },
   {
     "id": "028200",
@@ -19443,7 +19443,7 @@
     "id": "028261",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·黄金之罪</>，可以参与公共掉落的分配与拍卖。有概率获得下列道具。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · Sin of Gold</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following items.",
-    "target_ru": "Участие в подземелье <Highlight>Чёрный Чертополох Журнал инцидентов · Sin of Gold</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
+    "target_ru": "Участие в подземелье <Highlight>«Чёрный Терновник» Журнал инцидентов · Грех золота</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
   },
   {
     "id": "028262",
@@ -19665,7 +19665,7 @@
     "id": "028298",
     "source_cn": "citywalk-黑荆棘粉丝-西迦返回",
     "ref_en": "City Walk - Blackthorn Fan - Royale Returns",
-    "target_ru": "Прогулка по городу - Веер Блэкторна - Возвращение Royale"
+    "target_ru": "Прогулка по городу — фанат «Чёрного Терновника» — Возвращение Сицзя"
   },
   {
     "id": "028299",
@@ -20187,7 +20187,7 @@
     "id": "028386",
     "source_cn": "罗塞尔Boss-1&2阶段-锋利的知识-齿轮冲刺伤害",
     "ref_en": "Roselle Boss - Phase 1 & 2 - Sharp Knowledge - Gear Charge Damage",
-    "target_ru": "Босс Розеллы — фазы 1 и 2 — Острые знания — Урон от заряда снаряжения"
+    "target_ru": "Босс Розеля — фазы 1 и 2 — Острые знания — Урон от рывка шестерён"
   },
   {
     "id": "028387",
@@ -20373,13 +20373,13 @@
     "id": "028417",
     "source_cn": "黑荆棘事件簿4-关卡4-笔记强化buff",
     "ref_en": "Black Thorn Incident Book 4-Level 4-Notebook Enhancement buff",
-    "target_ru": "Книга происшествий с Черным Шипом, 4 уровня, усиление для 4 тетрадей"
+    "target_ru": "Досье «Чёрного Терновника» 4 — Уровень 4 — бафф усиления заметок"
   },
   {
     "id": "028418",
     "source_cn": "黑荆棘标志",
     "ref_en": "Blackthorn symbol",
-    "target_ru": "Символ терновника"
+    "target_ru": "Символ «Чёрного Терновника»"
   },
   {
     "id": "028419",
@@ -20979,7 +20979,7 @@
     "id": "028519",
     "source_cn": "离开黑荆棘安保公司",
     "ref_en": "Leave Blackthorn Security Company",
-    "target_ru": "Покинуть охранную компанию Чёрный Чертополох"
+    "target_ru": "Покинуть охранную компанию «Чёрный Терновник»"
   },
   {
     "id": "028520",
@@ -21237,7 +21237,7 @@
     "id": "028562",
     "source_cn": "黑荆棘工作手册获取",
     "ref_en": "Blackthorn Security Company handbook acquisition",
-    "target_ru": "Приобретение справочника компании Охранная компания «Чёрный Чертополох»"
+    "target_ru": "Получение рабочего справочника охранной компании «Чёрный Терновник»"
   },
   {
     "id": "028563",
@@ -21297,7 +21297,7 @@
     "id": "028572",
     "source_cn": "<P_Heart>（院长居然是因蒂斯的皇长女？是罗塞尔大帝的亲女儿？）</>",
     "ref_en": "<P_Heart>(To think the Dean is the eldest princess of Intis? Emperor Roselle's own daughter?)</>",
-    "target_ru": "<P_Heart>(Думать, что декан — старшая принцесса Интиса? Собственная дочь императора Розеллы?)</>"
+    "target_ru": "<P_Heart>(Думать, что декан — старшая принцесса Интиса? Собственная дочь императора Розеля?)</>"
   },
   {
     "id": "028573",
@@ -21837,7 +21837,7 @@
     "id": "028664",
     "source_cn": "组队模式参加副本<Highlight>黑荆棘事件簿·亡者疑踪</>，可以参与公共掉落的分配与拍卖。有概率获得下列道具。",
     "ref_en": "Participating in the dungeon <Highlight>Blackthorn Incident Log · Traces of the Dead</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following items.",
-    "target_ru": "Участие в подземелье <Highlight>Чёрный Чертополох Журнал происшествий · Следы мертвых</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
+    "target_ru": "Участие в подземелье <Highlight>«Чёрный Терновник» Журнал происшествий · Следы мертвых</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующие предметы."
   },
   {
     "id": "028665",
@@ -21897,7 +21897,7 @@
     "id": "028674",
     "source_cn": "西区黑荆棘周边氛围",
     "ref_en": "West District Blackthorn surrounding atmosphere",
-    "target_ru": "Окружающая атмосфера Западного округа Чёрный Чертополох"
+    "target_ru": "Окружающая атмосфера «Чёрного Терновника» в Западном округе"
   },
   {
     "id": "028675",
@@ -22023,7 +22023,7 @@
     "id": "028695",
     "source_cn": "随机重温一件已经归档的黑荆棘事件。",
     "ref_en": "Randomly revisit an archived Nighthawk event.",
-    "target_ru": "Случайно посетите архивное событие Ночной Ястреб."
+    "target_ru": "Случайно посетите архивное событие «Чёрного Терновника»."
   },
   {
     "id": "028696",
@@ -23097,7 +23097,7 @@
     "id": "028876",
     "source_cn": "哦、那个、我是黑荆棘的员工，替伦纳德先生来接待你。我、我看过你的相片。",
     "ref_en": "Oh, that, I'm an employee at Blackthorn, here to receive you on behalf of Mr. Leonard. I... I've seen your photo.",
-    "target_ru": "О, это я сотрудник Чёрный Чертополох, здесь, чтобы принять вас от имени мистера Леонарда. Я... я видел твое фото."
+    "target_ru": "О, это я сотрудник «Чёрного Терновника», здесь, чтобы принять вас от имени мистера Леонарда. Я... я видел твое фото."
   },
   {
     "id": "028877",
@@ -23415,7 +23415,7 @@
     "id": "028929",
     "source_cn": "罗塞尔大帝的身影再次重现于世间，昔日伟岸的身影却染上了扭曲的绯色……",
     "ref_en": "The figure of Emperor Roselle reappears in the world, but the once-majestic figure is stained with a distorted crimson...",
-    "target_ru": "Фигура императора Розеллы вновь появляется в мире, но некогда величественная фигура окрашена в искаженный малиновый цвет..."
+    "target_ru": "Фигура императора Розеля вновь появляется в мире, но некогда величественная фигура окрашена в искаженный малиновый цвет..."
   },
   {
     "id": "028930",
@@ -24597,7 +24597,7 @@
     "id": "029130",
     "source_cn": "剩下的调查就交给我们。你在黑荆棘大厅休息下，调查有结果之后，我会通知你。",
     "ref_en": "Leave the rest of the investigation to us. You rest in the Blackthorn Hall, and I will notify you once there are results from the investigation.",
-    "target_ru": "Оставшуюся часть расследования оставьте нам. Вы отдыхаете в Чёрный Чертополох-холле, и я сообщу вам, как только будут результаты расследования."
+    "target_ru": "Оставшуюся часть расследования оставьте нам. Вы отдыхаете в холле «Чёрного Терновника», и я сообщу вам, как только будут результаты расследования."
   },
   {
     "id": "029131",
@@ -24669,7 +24669,7 @@
     "id": "029142",
     "source_cn": "因为我是黑荆棘安保公司的老员工，很快就满两年了。",
     "ref_en": "Because I am an old employee of Blackthorn Security Company, it will be two years soon.",
-    "target_ru": "Поскольку я старый сотрудник охранной компании Чёрный Чертополох, скоро исполнится два года."
+    "target_ru": "Поскольку я старый сотрудник охранной компании «Чёрный Терновник», скоро исполнится два года."
   },
   {
     "id": "029143",
@@ -25347,7 +25347,7 @@
     "id": "029256",
     "source_cn": "他一直那样，一个人在那里画鸡蛋，还会对着鸡蛋说些奇奇怪怪的话……算了不管其他人，今天那一万苏勒一定是我的！",
     "ref_en": "He's always like that, drawing eggs there by himself, and he even says strange things to the eggs... Forget about the others, that ten thousand Sol gold must be mine today!",
-    "target_ru": "Он всегда такой, сам рисует там яйца, и даже говорит с яйцами странные вещи... Забудьте об остальных, эти десять тысяч солов сегодня должны быть моими!"
+    "target_ru": "Он всегда такой, сам рисует там яйца, и даже говорит с яйцами странные вещи... Забудьте об остальных, эти десять тысяч суле сегодня должны быть моими!"
   },
   {
     "id": "029257",
@@ -25749,7 +25749,7 @@
     "id": "029323",
     "source_cn": "看看罗塞尔有关物品",
     "ref_en": "Check items related to Roselle",
-    "target_ru": "Проверьте товары, связанные с Розеллой"
+    "target_ru": "Проверьте товары, связанные с Розелем"
   },
   {
     "id": "029324",
@@ -27591,7 +27591,7 @@
     "id": "029630",
     "source_cn": "通关「黑荆棘事件簿·亡者疑踪」",
     "ref_en": "Clear \"Blackthorn Case Files: Traces of the Dead\"",
-    "target_ru": "Очистить «Дело Блэкторна: Следы мертвых»"
+    "target_ru": "Очистить «Дело Чёрного Терновника: Следы мертвых»"
   },
   {
     "id": "029631",
@@ -27633,7 +27633,7 @@
     "id": "029637",
     "source_cn": "10000~100000苏勒，根据工作表现浮动。（测试文本）",
     "ref_en": "10,000~100,000 Soles, floating based on work performance. (Test text)",
-    "target_ru": "10 000–100 000 подошв, плавающая в зависимости от производительности труда. (Тестовый текст)"
+    "target_ru": "10 000–100 000 суле, плавающая в зависимости от производительности труда. (Тестовый текст)"
   },
   {
     "id": "029638",
@@ -27645,7 +27645,7 @@
     "id": "029639",
     "source_cn": "<Assistant_Title1>【廷根守护者】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>现实主线</>\\n<Assistant_Title2>任务描述：</>我们是一群时刻对抗着危险和疯狂的可怜虫，也是廷根的守护者。\\n<Assistant_Title2>领取方式：</>第一赛季第六天解锁。完成主线剧情第四章《镜中的廷根》，且扮演等级达到<Assistant_Red>60级</>后自动接取。\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、绑定金镑、星币、称号、烤羊腿肉、牡蛎汤",
     "ref_en": "<Assistant_Title1>【Tingen Guardian】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>Reality Main Quest</>\\n<Assistant_Title2>Quest Description: </>We are a group of poor wretches who are always fighting against danger and madness, and we are also the guardians of Tingen.\\n<Assistant_Title2>How to Obtain: </>Unlocked on the 6th day of the first season. Automatically accepted after completing Main Story Chapter 4 \"Tingen in the Mirror\" and reaching Acting Level <Assistant_Red>60</>.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Bound Gold Pound, Star Coin, Title, Roasted Lamb Leg, Oyster Soup",
-    "target_ru": "<Assistant_Title1>【Стражи Тингена】</>\\n<Assistant_Title2>Тип задания:</> <Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания:</> Мы — лишь горстка жалких безумцев, вечно борющихся с опасностью и скверной, но мы же — хранители и стражи Тингена.\\n<Assistant_Title2>Как получить:</> Открывается на 6-й день первого сезона. Выдается автоматически после завершения 4-й главы основного сюжета «Тинген в зазеркалье» по достижении <Assistant_Red>60-го уровня</> Действия.\\n<Assistant_Title2>Награда за задание:</> Опыт познания, привязанные соли, привязанные золотые фунты, звездные монеты, титул, жареная баранья ножка, суп из устриц"
+    "target_ru": "<Assistant_Title1>【Стражи Тингена】</>\\n<Assistant_Title2>Тип задания:</> <Assistant_Property2>Основной сюжет реальности</>\\n<Assistant_Title2>Описание задания:</> Мы — лишь горстка жалких безумцев, вечно борющихся с опасностью и скверной, но мы же — хранители и стражи Тингена.\\n<Assistant_Title2>Как получить:</> Открывается на 6-й день первого сезона. Выдается автоматически после завершения 4-й главы основного сюжета «Тинген в зазеркалье» по достижении <Assistant_Red>60-го уровня</> Действия.\\n<Assistant_Title2>Награда за задание:</> Опыт познания, привязанные суле, привязанные золотые фунты, звездные монеты, титул, жареная баранья ножка, суп из устриц"
   },
   {
     "id": "029640",
@@ -28035,7 +28035,7 @@
     "id": "029704",
     "source_cn": "本月阅读活动主题为“艺术熏陶”。\\n\\n推荐阅读书目：《鲁恩早期古典诗歌集》《罗塞尔诗选》\\n推荐戏剧欣赏：《伯爵归来》《傲慢者》《背叛者指环》",
     "ref_en": "The theme for this month's reading event is \"Artistic Cultivation\". \\n\\n Recommended reading list: \"Collection of Early Loen Classical Poetry\", \"Roselle's Poetry Selection\". \\n Recommended drama appreciation: \"The Return of the Count\", \"The Arrogant\", \"The Traitor's Ring\".",
-    "target_ru": "Тема книжного клуба в этом месяце: «Приобщение к прекрасному».\\n\\nРекомендованные книги: «Сборник ранней классической поэзии Лоэна», «Избранные стихи Розелла».\\nРекомендованные пьесы: «Возвращение графа», «Гордец», «Перстень предателя»."
+    "target_ru": "Тема книжного клуба в этом месяце: «Приобщение к прекрасному».\\n\\nРекомендованные книги: «Сборник ранней классической поэзии Лоэна», «Избранные стихи Розеля».\\nРекомендованные пьесы: «Возвращение графа», «Гордец», «Перстень предателя»."
   },
   {
     "id": "029705",
@@ -28185,7 +28185,7 @@
     "id": "029729",
     "source_cn": "终末猎杀开启限时活动",
     "ref_en": "Final Hunt limited-time event enabled",
-    "target_ru": "Включено ограниченное по времени событие «Последняя охота»"
+    "target_ru": "Включено ограниченное по времени событие «Финальная охота»"
   },
   {
     "id": "029730",
@@ -29355,7 +29355,7 @@
     "id": "029926",
     "source_cn": "你在摆摊中出售的<Reminder_Orange>%s</>审核期已结束，共获得<Reminder_Orange>%d</>苏勒。请在摆摊[出售]界面点击[交易提款]提取苏勒。",
     "ref_en": "The review period for the <Reminder_Orange> %s </> you were selling at the stall has ended. You have received a total of <Reminder_Orange> %d </> Sol. Please go to the [Sell] interface of the stall and click [Withdraw] to collect your Sol.",
-    "target_ru": "Период проверки для <Reminder_Orange> %s </>, который вы продавали на прилавке, закончился. Всего вы получили <Reminder_Orange> %d </> Sol. Пожалуйста, перейдите в интерфейс [Продать] киоска и нажмите [Вывести], чтобы забрать свои Sol."
+    "target_ru": "Период проверки для <Reminder_Orange> %s </>, который вы продавали на прилавке, закончился. Всего вы получили <Reminder_Orange> %d </> суле. Пожалуйста, перейдите в интерфейс [Продать] киоска и нажмите [Вывести], чтобы забрать свои суле."
   },
   {
     "id": "029927",

@@ -132,7 +132,7 @@ return {
     ["魔女滋味"] = "Вкус Ведьмы",
     ["（自由的声音）我承诺永远行于路上 永远追逐自由"] = "(Голос свободы) Я обещаю вечно оставаться в пути, вечно стремиться к свободе",
     ["Test for save recovery issue when moving from Plane 1 to Plane 2 and back to Plane 1"] = "Тест восстановления сохранения при переходе из фазы 1 в фазу 2 и обратно в фазу 1",
-    ["Black Thorn Incident Book 4-Level 4-Death Knell Enhancement buff"] = "Хроники «Черного Шипа» 4 — этап 4 — бафф усиления «Погребального Колокола»",
+    ["Black Thorn Incident Book 4-Level 4-Death Knell Enhancement buff"] = "Хроники «Чёрного Терновника» 4 — этап 4 — бафф усиления «Погребального Колокола»",
     ["Extraordinary materials with higher ratings exist. Confirm selection?"] = "Есть потусторонние вещества с более высокой оценкой, подтвердить выбор?",
     ["The veiled colossus whispers: \"Only when Chaos and Order intersect... can you obtain... the recognition of me and the sword...\""] = "От исполина с сокрытым ликом донесся шепот: «Лишь когда сойдутся Хаос и Порядок... обретешь признание... меня и моего клинка...»",
     ["You can have mine. I can wait outside for you and act as a witness."] = "Возьмите мою. Я могу подождать вас снаружи и засвидетельствовать за вас.",

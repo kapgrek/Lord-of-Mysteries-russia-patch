@@ -43,7 +43,7 @@ return {
     ["That's what others call me randomly. I am clearly a crossbreeder and agricultural improver."] = "Так меня случайно называют другие. Я явно занимаюсь скрещиванием и улучшением сельского хозяйства.",
     ["A wave of intense dizziness strikes..."] = "Накатывает волна сильного головокружения...",
     ["One-Stroke Component Impassable Grid"] = "Непроходимая сетка с одним ударом",
-    ["Blackthorn Entrance"] = "Вход в Чёрный Чертополох",
+    ["Blackthorn Entrance"] = "Вход в «Чёрный Терновник»",
     ["Pete's bicycle"] = "Велосипед Пита",
     ["Fors has lost her patience!"] = "Форс потеряла терпение!",
     ["+30攻 处决<12%"] = "+30 Атака, Исполнение < 12%",

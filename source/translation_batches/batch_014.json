@@ -849,7 +849,7 @@
     "id": "065141",
     "source_cn": "【终末猎杀】-巨龙·投影-普攻",
     "ref_en": "[Final Hunt] - Dragon - Projection - Basic Attack",
-    "target_ru": "[Последняя охота] — Дракон — Проекция — Базовая атака"
+    "target_ru": "[Финальная охота] — Дракон — Проекция — Базовая атака"
   },
   {
     "id": "065142",
@@ -969,7 +969,7 @@
     "id": "065163",
     "source_cn": "加入黑荆棘后，我先成为了非凡者，又去调查失踪案，后来还进了镜中廷根……",
     "ref_en": "After joining the Nighthawks, I first became a Beyonder, then went to investigate missing persons cases, and later even entered Tingen in the Mirror...",
-    "target_ru": "Присоединившись к Ночным Ястребам, я сначала стал Потусторонним, затем отправился расследовать дела о пропавших без вести, а позже даже вошел в Тинген в Зеркале..."
+    "target_ru": "Присоединившись к «Чёрному Терновнику», я сначала стал Потусторонним, затем отправился расследовать дела о пропавших без вести, а позже даже вошел в Тинген в Зеркале..."
   },
   {
     "id": "065164",
@@ -1683,7 +1683,7 @@
     "id": "065282",
     "source_cn": "黑荆棘事件簿4-关卡4-大型僵尸死亡加经验buff",
     "ref_en": "Black Thorn Incident Book 4-Level 4-Large Zombie Death Add EXP buff",
-    "target_ru": "Книга происшествий «Черный шип» 4-уровень 4-большая смерть зомби Добавить бафф опыта"
+    "target_ru": "Журнал происшествий «Чёрный Терновник» 4 — Этап 4 — Бафф опыта за смерть большого зомби"
   },
   {
     "id": "065283",
@@ -1845,7 +1845,7 @@
     "id": "065309",
     "source_cn": "使用后解锁<Highlight>单人社交动作·扇风</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Fan Self</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Fan Self</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: обмахивание веером</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "065310",
@@ -1947,7 +1947,7 @@
     "id": "065326",
     "source_cn": "定位·进入黑荆棘·阿诺德",
     "ref_en": "Location - Enter Blackthorn - Arnold",
-    "target_ru": "Местоположение — Введите Чёрный Чертополох — Арнольд."
+    "target_ru": "Местоположение — вход в «Чёрный Терновник» — Арнольд"
   },
   {
     "id": "065327",
@@ -2355,7 +2355,7 @@
     "id": "065394",
     "source_cn": "那您为什么会离开黑荆棘？",
     "ref_en": "Then why did you leave Blackthorn?",
-    "target_ru": "Тогда почему ты покинул Чёрный Чертополох?"
+    "target_ru": "Тогда почему ты покинул «Чёрный Терновник»?"
   },
   {
     "id": "065395",
@@ -3189,7 +3189,7 @@
     "id": "065535",
     "source_cn": "黑荆棘事件簿3-关卡1-乾坤一掷标记buff",
     "ref_en": "Black Thorn Incident Book 3-Level 1-All-or-Nothing Marker buff",
-    "target_ru": "Книга происшествий «Черный Шип», 3 уровня, усиление маркера «1 все или ничего»"
+    "target_ru": "Журнал происшествий «Чёрный Терновник» 3 — Этап 1 — Бафф метки «Всё или ничего»"
   },
   {
     "id": "065536",
@@ -5331,7 +5331,7 @@
     "id": "065894",
     "source_cn": "铁十字街尽头有家水果摊，傍晚六点之后去。老板急着收摊，一苏勒能买一大袋。",
     "ref_en": "There is a fruit stand at the end of Iron Cross Street; go after six in the evening. The owner is in a hurry to close, and you can buy a big bag for one sol.",
-    "target_ru": "В конце Айрон-Кросс-стрит есть фруктовый киоск; идти после шести вечера. Владелец торопится закрыться, и за один соль можно купить большую сумку."
+    "target_ru": "В конце Айрон-Кросс-стрит есть фруктовый киоск; идти после шести вечера. Владелец торопится закрыться, и за 1 суле можно купить большую сумку."
   },
   {
     "id": "065895",
@@ -5745,7 +5745,7 @@
     "id": "065963",
     "source_cn": "是否确认一键聚合？确认将使用非凡者已有的非凡物质、聚合因子与绑定苏勒，按默认规则完成聚合。",
     "ref_en": "Are you sure you want to perform one-click aggregation? Confirming will use the Beyonder's existing Beyonder materials, aggregation factors, and bound Sule to complete the aggregation according to default rules.",
-    "target_ru": "Вы уверены, что хотите выполнить агрегацию в один клик? При подтверждении будут использоваться существующие материалы Потусторонний, коэффициенты агрегации и привязанный Sule для завершения агрегации в соответствии с правилами по умолчанию."
+    "target_ru": "Подтвердить агрегацию в один клик? Будут использованы имеющиеся у Потустороннего необыкновенные материалы, факторы агрегации и привязанные суле, агрегация пройдёт по правилам по умолчанию."
   },
   {
     "id": "065964",
@@ -5775,7 +5775,7 @@
     "id": "065968",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>60装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 60</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 60-го уровня</> <Highlight>Приключенческий</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу."
+    "target_ru": "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 ящик ресурсов развития. При открытии выпадает случайный предмет снаряжения оранжевого или золотого качества <Highlight>60 ур. снаряжения</> со <Highlight>склонностью к приключениям</>, а также необыкновенные материалы, факторы агрегации и привязанные суле."
   },
   {
     "id": "065969",
@@ -6393,7 +6393,7 @@
     "id": "066071",
     "source_cn": "时间差不多了，该回黑荆棘安保公司了。",
     "ref_en": "It's about time; I should head back to Blackthorn Security Company.",
-    "target_ru": "Пришло время; Мне пора возвращаться в охранную компанию Чёрный Чертополох."
+    "target_ru": "Пришло время; Мне пора возвращаться в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "066072",
@@ -6543,7 +6543,7 @@
     "id": "066096",
     "source_cn": "立即获得绑定苏勒×24000，并增加100活力，可超出上限累积。",
     "ref_en": "Immediately obtain Bound Sol ×24,000 and increase Vitality by 100, which can accumulate beyond the cap.",
-    "target_ru": "Немедленно получите Bound Sol ×24,000 и увеличьте живучесть на 100, которая может накапливаться за пределами лимита."
+    "target_ru": "Немедленно получите привязанные суле ×24000 и увеличьте живучесть на 100, которая может накапливаться за пределами лимита."
   },
   {
     "id": "066097",
@@ -7179,7 +7179,7 @@
     "id": "066202",
     "source_cn": "知识改变命运，跟上罗塞尔大帝的革命节奏！",
     "ref_en": "Knowledge changes fate; keep up with Emperor Roselle's revolutionary rhythm!",
-    "target_ru": "Знание меняет судьбу; не отставайте от революционного ритма императора Розелле!"
+    "target_ru": "Знание меняет судьбу; не отставайте от революционного ритма императора Розеля!"
   },
   {
     "id": "066203",
@@ -7317,7 +7317,7 @@
     "id": "066225",
     "source_cn": "阿尔杰·威尔逊-3星",
     "ref_en": "Alger Wilson - 3 Star",
-    "target_ru": "Алджер Уилсон — 3 звезды"
+    "target_ru": "Элджер Уилсон — 3 звезды"
   },
   {
     "id": "066226",
@@ -7365,7 +7365,7 @@
     "id": "066233",
     "source_cn": "<Assistant_Title1>【截稿日】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>城市漫游</>\\n<Assistant_Title2>任务描述：</>恶龙酒吧的老板说，最近佛尔思小姐好像在因为什么事情而苦恼。\\n<Assistant_Title2>领取方式：</>完成主线剧情第二章《时代的浪潮》且扮演等级达到<Assistant_Red>19级</>后，前往{Location:[恶龙酒吧(163,108)]|6383;865;0;2;5200050;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Deadline】</>\\n<Assistant_Title2>Quest Type: </><Assistant_Property2>City Roaming</>\\n<Assistant_Title2>Quest Description: </>The owner of the Evil Dragon Bar says that Miss Fors seems to have been troubled by something recently.\\n<Assistant_Title2>How to Accept: </>After completing Chapter 2 of the main story, \"Tides of the Era,\" and reaching an Acting Level of <Assistant_Red>19</>, head to {Location:[Evil Dragon Bar(163,108)]|6383;865;0;2;5200050;0} to trigger the quest.\\n<Assistant_Title2>Quest Rewards</>: Cognition EXP, Bound Sol, Invoice Receipt, Adventure Medal, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>[Срок]</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Городской роуминг</>\n<Assistant_Title2>Описание задачи: </>Владелица Dragon Bar сказала, что мисс Форси, похоже, недавно что-то беспокоила. \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red> уровня 19</> перейдите в {Местоположение:[Evil Dragon Bar(163 ,108)]|6383;865;0;2;5200050;0} можно активировать задание \n<Assistant_Title2>награда за задание</>: познавательный опыт, привязка Сулера, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
+    "target_ru": "<Assistant_Title1>[Срок]</>\n<Assistant_Title2>Тип задачи: </><Assistant_Property2>Городской роуминг</>\n<Assistant_Title2>Описание задачи: </>Хозяин бара «Злой дракон» сказал, что мисс Форси, похоже, недавно что-то беспокоила. \n<Assistant_Title2>Как получить: </>После завершения второй главы основного сюжета «Прилив времени» и достижения <Assistant_Red> уровня 19</> перейдите в {Местоположение:[Evil Dragon Bar(163 ,108)]|6383;865;0;2;5200050;0} можно активировать задание \n<Assistant_Title2>награда за задание</>: познавательный опыт, привязанные суле, счета-фактуры, медали приключений, прогресс в тайных сокровищах мировых приключений."
   },
   {
     "id": "066234",
@@ -7905,7 +7905,7 @@
     "id": "066323",
     "source_cn": "终末猎杀活动说明",
     "ref_en": "End-Times Hunt Event Instructions",
-    "target_ru": "Инструкции по событию «Охота последних времен»"
+    "target_ru": "Инструкции по событию «Финальная охота»"
   },
   {
     "id": "066324",
@@ -8025,7 +8025,7 @@
     "id": "066343",
     "source_cn": "通关黑荆棘事件簿《哀嚎黑市》",
     "ref_en": "Clear Blackthorn Incident Log: \"Wailing Black Market\"",
-    "target_ru": "Очистить журнал инцидентов в Блэкторне: «Вопящий черный рынок»"
+    "target_ru": "Очистить журнал инцидентов «Чёрного Терновника»: «Вопящий черный рынок»"
   },
   {
     "id": "066344",
@@ -8709,7 +8709,7 @@
     "id": "066457",
     "source_cn": "记录着晋升至序列6的魔药配方的羊皮纸，消化进度达到一定程度后由黑荆棘安保公司提供给活跃成员。",
     "ref_en": "A parchment recording the potion formula for advancement to Sequence 6, provided by the Blackthorn Security Company to active members after reaching a certain level of digestion progress.",
-    "target_ru": "Пергамент с формулой зелья для перехода к Последовательности 6, предоставляемый Охранной компанией Чёрный Чертополох активным членам после достижения определенного уровня пищеварения."
+    "target_ru": "Пергамент с формулой зелья для перехода к Последовательности 6, предоставляемый охранной компанией «Чёрный Терновник» активным членам после достижения определенного уровня пищеварения."
   },
   {
     "id": "066458",
@@ -8859,7 +8859,7 @@
     "id": "066482",
     "source_cn": "5230148   黑荆棘安保公司   位面",
     "ref_en": "5230148 Blackthorn Security Company Plane",
-    "target_ru": "5230148 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230148 Измерение охранной компании «Чёрный Терновник»"
   },
   {
     "id": "066483",
@@ -11883,7 +11883,7 @@
     "id": "066987",
     "source_cn": "5200203   黑荆棘安保公司   副本",
     "ref_en": "5200203 Blackthorn Security Company Dungeon",
-    "target_ru": "5200203 Подземелье охранной компании Чёрный Чертополох"
+    "target_ru": "5200203 Подземелье охранной компании «Чёрный Терновник»"
   },
   {
     "id": "066988",
@@ -12513,7 +12513,7 @@
     "id": "067092",
     "source_cn": "蒸汽文明的火漆印章，罗塞尔大帝改革中法律文书与蒸汽技术并重，这枚火漆印章就是最好的凭证。",
     "ref_en": "A wax seal of the steam civilization. During Emperor Roselle's reforms, legal documents were treated with as much importance as steam technology, and this wax seal is the best proof of that.",
-    "target_ru": "Восковая печать паровой цивилизации. Во время реформ императора Розелле юридическим документам придавалось такое же значение, как и паровой технологии, и эта сургучная печать — лучшее тому подтверждение."
+    "target_ru": "Восковая печать паровой цивилизации. Во время реформ императора Розеля юридическим документам придавалось такое же значение, как и паровой технологии, и эта сургучная печать — лучшее тому подтверждение."
   },
   {
     "id": "067093",
@@ -12699,7 +12699,7 @@
     "id": "067123",
     "source_cn": "<Yellow>苏勒防身</>：携带者减伤提高<Yellow>*f**</>。\\n<Yellow>苦难财富</>：携带者受到伤害时，根据累积受到伤害值提高防御，持续<Yellow>30秒</>，防御最多提高<Yellow>*d</>点。",
     "ref_en": "<Yellow>Sule's Self-Defense</>: The carrier's Damage Reduction is increased by <Yellow>*f**</>. \\n<Yellow>Wealth of Misery</>: When the carrier takes damage, Defense is increased based on the cumulative damage received, lasting <Yellow>30 seconds</>, with Defense increasing by up to <Yellow>*d</> points.",
-    "target_ru": "<Yellow>Самозащита Солями</>：снижение урона носителя увеличивается на <Yellow>*f**</>.\n<Yellow>Богатство невзгод</>：когда носитель получает урон, защита увеличивается пропорционально накопленному урону на <Yellow>30 сек.</>, максимум до <Yellow>*d</> ед. защиты."
+    "target_ru": "<Yellow>Самозащита суле</>：снижение урона носителя увеличивается на <Yellow>*f**</>.\n<Yellow>Богатство невзгод</>：когда носитель получает урон, защита увеличивается пропорционально накопленному урону на <Yellow>30 сек.</>, максимум до <Yellow>*d</> ед. защиты."
   },
   {
     "id": "067124",
@@ -12777,7 +12777,7 @@
     "id": "067136",
     "source_cn": "使用后解锁<Highlight>单人社交动作·四处观察</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Look Around</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: осмотритесь </> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: осмотритесь </> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "067137",
@@ -14253,7 +14253,7 @@
     "id": "067382",
     "source_cn": "5231291   黑荆棘安保公司   单人位面",
     "ref_en": "5231291 Blackthorn Security Company Single-Player Instance",
-    "target_ru": "5231291 Экземпляр Охранная компания «Чёрный Чертополох» для одиночной игры"
+    "target_ru": "5231291 Одиночное измерение охранной компании «Чёрный Терновник»"
   },
   {
     "id": "067383",
@@ -14355,7 +14355,7 @@
     "id": "067401",
     "source_cn": "使用后获得<Highlight>永夜残纱面饰</>\\n若已拥有此外观，则可选择分解获得3万绑定苏勒",
     "ref_en": "Use to obtain <Highlight>Eternal Night Residue Veil Face Accessory</>\\nIf you already own this appearance, you can choose to dismantle it to obtain 30,000 Bound Soules",
-    "target_ru": "Используйте, чтобы получить <Highlight>украшение для лица «Вуаль Вечной Ночи»</>\nЕсли эта внешность уже открыта, ее можно распылить на 30 000 персональных солей."
+    "target_ru": "Используйте, чтобы получить <Highlight>украшение для лица «Вуаль Вечной Ночи»</>\nЕсли эта внешность уже открыта, ее можно распылить на 30 000 привязанных суле."
   },
   {
     "id": "067402",
@@ -14937,7 +14937,7 @@
     "id": "067498",
     "source_cn": "5230245   黑荆棘安保公司   位面",
     "ref_en": "5230245 Blackthorn Security Company Plane",
-    "target_ru": "5230245 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230245 Измерение охранной компании «Чёрный Терновник»"
   },
   {
     "id": "067499",
@@ -15033,7 +15033,7 @@
     "id": "067516",
     "source_cn": "人脉话题-阿尔杰1关于愚者先生",
     "ref_en": "Connection Topic - Alger 1 regarding Mr. Fool",
-    "target_ru": "Тема подключения - Алжир 1 относительно мистера Шута"
+    "target_ru": "Тема подключения - Элджер 1 относительно мистера Шута"
   },
   {
     "id": "067517",
@@ -15639,7 +15639,7 @@
     "id": "067617",
     "source_cn": "阿尔杰·威尔逊的历史投影，重现了原主的形态与部分能力。",
     "ref_en": "A historical projection of Alger Wilson, recreating the original's form and partial abilities.",
-    "target_ru": "Историческая проекция Алджера Уилсона, воссоздающая форму и частичные способности оригинала."
+    "target_ru": "Историческая проекция Элджера Уилсона, воссоздающая форму и частичные способности оригинала."
   },
   {
     "id": "067618",
@@ -16953,7 +16953,7 @@
     "id": "067837",
     "source_cn": "神秘指引，阅读后可以前往黑荆棘事件簿。",
     "ref_en": "Mysterious guidance; read to navigate to the Blackthorn Casebook.",
-    "target_ru": "Таинственное руководство; прочитайте, чтобы перейти к журналу дел Чёрный Чертополох."
+    "target_ru": "Таинственное руководство; прочитайте, чтобы перейти к журналу дел «Чёрный Терновник»."
   },
   {
     "id": "067838",
@@ -17151,7 +17151,7 @@
     "id": "067870",
     "source_cn": "黑荆棘事件簿4-文字版a",
     "ref_en": "Blackthorn Incident Log 4-Text Version a",
-    "target_ru": "Журнал происшествий в Чёрный Чертополох, 4-текстовая версия a"
+    "target_ru": "Журнал происшествий «Чёрный Терновник», 4-текстовая версия a"
   },
   {
     "id": "067871",
@@ -17223,7 +17223,7 @@
     "id": "067882",
     "source_cn": "使用后解锁<Highlight>单人社交动作·打哈欠</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Yawn</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: зевок</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: зевок</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "067883",
@@ -18801,7 +18801,7 @@
     "id": "068145",
     "source_cn": "500绑定苏勒",
     "ref_en": "500 Bound Soles",
-    "target_ru": "500 связанных подошв"
+    "target_ru": "500 привязанных суле"
   },
   {
     "id": "068146",
@@ -19011,7 +19011,7 @@
     "id": "068180",
     "source_cn": "占ID段85007200-85007299_黑荆棘事件簿3_关卡4",
     "ref_en": "ID Segment 85007200-85007299_Black Thorn Incident Book 3_Level 4",
-    "target_ru": "Идентификационный номер сегмента 85007200-85007299_Книга происшествий Black Thorn 3_Уровень 4"
+    "target_ru": "Идентификационный номер сегмента 85007200-85007299_Книга происшествий «Чёрного Терновника» 3_Уровень 4"
   },
   {
     "id": "068181",
@@ -20889,7 +20889,7 @@
     "id": "068493",
     "source_cn": "罗珊1",
     "ref_en": "Roselle 1",
-    "target_ru": "Розель 1"
+    "target_ru": "Розанна 1"
   },
   {
     "id": "068494",
@@ -21663,7 +21663,7 @@
     "id": "068622",
     "source_cn": "终末猎杀拍卖分红",
     "ref_en": "End-of-Days Hunt Auction Dividends",
-    "target_ru": "Дивиденды на аукционе «Охота в конце дня»"
+    "target_ru": "Дивиденды на аукционе «Финальной охоты»"
   },
   {
     "id": "068623",
@@ -21747,7 +21747,7 @@
     "id": "068637",
     "source_cn": "通关「黑荆棘事件簿·黄金之罪」",
     "ref_en": "Clear \"Blackthorn Case Files: Sin of Gold\"",
-    "target_ru": "Очистить «Досье дела Блэкторна: Грех золота»"
+    "target_ru": "Очистить «Досье Чёрного Терновника: Грех золота»"
   },
   {
     "id": "068638",
@@ -21987,7 +21987,7 @@
     "id": "068679",
     "source_cn": "使用后解锁<Highlight>单人社交动作·锻炼</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Exercise</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "Открывает <Highlight>Одно социальное действие: Упражнение</> при использовании; дубликаты приобретений автоматически разложатся на связанные подошвы."
+    "target_ru": "Открывает <Highlight>Одно социальное действие: Упражнение</> при использовании; дубликаты приобретений автоматически разложатся на привязанные суле."
   },
   {
     "id": "068680",
@@ -22539,7 +22539,7 @@
     "id": "068771",
     "source_cn": "阅读第三页罗塞尔日记",
     "ref_en": "Read the third page of Roselle's diary",
-    "target_ru": "Прочтите третью страницу дневника Розеллы."
+    "target_ru": "Прочтите третью страницу дневника Розеля."
   },
   {
     "id": "068772",
@@ -22581,7 +22581,7 @@
     "id": "068778",
     "source_cn": "黑荆棘事件簿4-第二关-法术场范围内筛玩家触发",
     "ref_en": "Black Thorn Event Book 4-Second Level-Filter Player Trigger in Spell Field Range",
-    "target_ru": "Книга событий Black Thorn 4-секундный триггер игрока с фильтром по уровню в диапазоне поля заклинаний"
+    "target_ru": "Книга дел «Чёрного Терновника» 4 — 2-й уровень — триггер по фильтру игроков в зоне магического поля"
   },
   {
     "id": "068779",
@@ -23049,7 +23049,7 @@
     "id": "068858",
     "source_cn": "开启可随机获得一件<Highlight>25装等</>的<Highlight>冒险倾向</>紫色品质装备，非凡物质、聚合因子、绑定苏勒。\\n\\n<Highlight>转化上限</>：最多转化为<Highlight>10</>个秘宝，超过进度将<Highlight>自动存储</>，新装等的秘宝解锁后<Highlight>转化为新秘宝</>。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 25</> <Highlight>Adventure-oriented</> purple-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. \\n\\n<Highlight>Conversion limit</>: Can be converted into a maximum of <Highlight>10</> Secret Treasures; progress exceeding this will be <Highlight>automatically stored</>, and will be <Highlight>converted into new Secret Treasures</> once the new level's Secret Treasures are unlocked.",
-    "target_ru": "При открытии можно случайным образом получить один предмет фиолетового качества <Highlight>25-го ур. снаряжения</> <Highlight>направления «Приключение»</>, потусторонние материалы, факторы агрегации или персональные соли.\\n\\n<Highlight>Предел преобразования</>: можно преобразовать максимум в <Highlight>10</> тайных сокровищ; избыточный прогресс будет <Highlight>автоматически сохранен</>, а после открытия тайных сокровищ нового уровня снаряжения — <Highlight>преобразован в новые тайные сокровища</>."
+    "target_ru": "При открытии можно случайным образом получить один предмет фиолетового качества <Highlight>25-го ур. снаряжения</> <Highlight>направления «Приключение»</>, потусторонние материалы, факторы агрегации или привязанные суле.\\n\\n<Highlight>Предел преобразования</>: можно преобразовать максимум в <Highlight>10</> тайных сокровищ; избыточный прогресс будет <Highlight>автоматически сохранен</>, а после открытия тайных сокровищ нового уровня снаряжения — <Highlight>преобразован в новые тайные сокровища</>."
   },
   {
     "id": "068859",
@@ -23313,7 +23313,7 @@
     "id": "068902",
     "source_cn": "终末猎杀-安全区",
     "ref_en": "Final Hunt - Safe Zone",
-    "target_ru": "Последняя охота — Безопасная зона"
+    "target_ru": "Финальная охота — Безопасная зона"
   },
   {
     "id": "068903",
@@ -23739,7 +23739,7 @@
     "id": "068973",
     "source_cn": "开启可随机获得一件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 60</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Откройте для случайного получения одной части <Highlight>уровня 60</> <Highlight>Ориентированного на соревнования </> оранжевого или золотого оборудования, материалов Потусторонний, Факторов агрегации или связанного Солнца."
+    "target_ru": "При открытии можно случайным образом получить один предмет оранжевого или золотого качества <Highlight>60-го ур. снаряжения</> <Highlight>соревновательного направления</>, потусторонние материалы, факторы агрегации или привязанные суле."
   },
   {
     "id": "068974",
@@ -23865,7 +23865,7 @@
     "id": "068994",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>60装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 60</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule. There is a certain probability of obtaining 1 Gray Fog Crystal Shard (used to upgrade Competition Brooches of Item Level 64 or higher to Mythical quality); you can obtain at most 3 per week, and any unobtained amount can be accumulated to the following week.",
-    "target_ru": "Получите 1 коробку ресурсов для разработки за каждый прогресс <Highlight>20</>. Открыв его, вы получите случайный предмет <Highlight>Предмет 60-го уровня</> <Highlight>Ориентированный на соревнования</> Снаряжения оранжевого или золотого качества, материалы Потусторонний, Факторы агрегации и Связанную душу. Существует определенная вероятность получить 1 Осколок серого туманного кристалла (используется для улучшения соревновательной броши уровня предмета 64 или выше до мифического качества); вы можете получить максимум 3 в неделю, а любую недостающую сумму можно накопить до следующей недели."
+    "target_ru": "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 коробку ресурсов развития. При открытии можно случайным образом получить один предмет оранжевого или золотого качества <Highlight>60-го ур. снаряжения</> <Highlight>соревновательного направления</>, потусторонние материалы, факторы агрегации или привязанные суле. С определенной вероятностью можно получить 1 осколок серого кристалла тумана (используется для улучшения соревновательной броши 64-го ур. снаряжения и выше до мифического качества); максимум 3 в неделю, неполученное количество переносится на следующую неделю."
   },
   {
     "id": "068995",
@@ -24891,7 +24891,7 @@
     "id": "069166",
     "source_cn": "返回<h>黑荆棘</>",
     "ref_en": "Return to <h>Blackthorn</>",
-    "target_ru": "Вернуться в <h>Чёрный Чертополох</>"
+    "target_ru": "Вернуться в <h>«Чёрный Терновник»</>"
   },
   {
     "id": "069167",
@@ -24903,7 +24903,7 @@
     "id": "069168",
     "source_cn": "这些案件从警察厅移交到黑荆棘处理……",
     "ref_en": "These cases were transferred from the police department to Nighthawks for handling...",
-    "target_ru": "Эти дела были переданы из полицейского управления в Найтхокс для рассмотрения..."
+    "target_ru": "Эти дела были переданы из полицейского управления «Чёрному Терновнику» на рассмотрение..."
   },
   {
     "id": "069169",
@@ -25827,7 +25827,7 @@
     "id": "069323",
     "source_cn": "亲爱的非凡者：\\n系统检测到您近期交易涉嫌线下交易或苏勒转移（道具<M_Link>%s</>，总计交易金额<M_Link>%s</>），未通过审核。该笔订单苏勒已永久扣除。如有疑问，请通过用户中心-联系客服反馈详细情况。",
     "ref_en": "Dear Beyonder: \\n The system has detected that your recent transaction is suspected of being an offline trade or gold transfer (Items <M_Link>%s</>, total transaction amount <M_Link>%s</>) and has failed the review. The gold for this order has been permanently deducted. If you have any questions, please provide detailed information via User Center - Contact Customer Service.",
-    "target_ru": "Уважаемый Потусторонний:\\nСистема обнаружила, что ваша недавняя сделка подозревается в нелегальной внеигровой торговле или переливе солей (предмет <M_Link>%s</>, общая сумма сделки <M_Link>%s</>), и отклонила ее. Соли по данной сделке были списаны безвозвратно. Если у вас возникли вопросы, обратитесь в раздел «Центр пользователя — Связаться со службой поддержки» для уточнения деталей."
+    "target_ru": "Уважаемый Потусторонний:\\nСистема обнаружила, что ваша недавняя сделка подозревается в нелегальной внеигровой торговле или переводе суле (предмет <M_Link>%s</>, общая сумма сделки <M_Link>%s</>), и отклонила ее. Суле по данной сделке были списаны безвозвратно. Если у вас возникли вопросы, обратитесь в раздел «Центр пользователя — Связаться со службой поддержки» для уточнения деталей."
   },
   {
     "id": "069324",
@@ -26985,7 +26985,7 @@
     "id": "069516",
     "source_cn": "立即获得绑定苏勒×24000和苏勒×5000。",
     "ref_en": "Immediately obtain Bound Sol ×24,000 and Sol ×5,000.",
-    "target_ru": "Немедленно получите Привязанное Солнце ×24,000 и Сол ×5,000."
+    "target_ru": "Немедленно получите привязанные суле ×24,000 и суле ×5,000."
   },
   {
     "id": "069517",
@@ -27249,7 +27249,7 @@
     "id": "069560",
     "source_cn": "【副本】罗塞尔意志·困难",
     "ref_en": "【Dungeon】Roselle's Will · Hard",
-    "target_ru": "【Подземелье】Воля Розеллы · Сложный"
+    "target_ru": "【Подземелье】Воля Розеля · Сложный"
   },
   {
     "id": "069561",
@@ -27441,7 +27441,7 @@
     "id": "069593",
     "source_cn": "啊，一位新朋友。您也对罗塞尔大帝的诗篇感兴趣吗？欢迎一起来交流。",
     "ref_en": "Ah, a new friend. Are you also interested in Emperor Roselle's poems? Welcome, let's discuss them together.",
-    "target_ru": "Ах, новый друг. Вас тоже интересуют стихи императора Розеллы? Добро пожаловать, давайте обсудим их вместе."
+    "target_ru": "Ах, новый друг. Вас тоже интересуют стихи императора Розеля? Добро пожаловать, давайте обсудим их вместе."
   },
   {
     "id": "069594",
@@ -27789,7 +27789,7 @@
     "id": "069651",
     "source_cn": "终末猎杀累计获得猎杀进度%d/10000点",
     "ref_en": "Accumulate %d/10000 hunting progress in Final Hunt.",
-    "target_ru": "Накопите %d/10000 прогресса охоты в Final Hunt."
+    "target_ru": "Накопите %d/10000 прогресса охоты в «Финальной охоте»."
   },
   {
     "id": "069652",
@@ -27993,7 +27993,7 @@
     "id": "069685",
     "source_cn": "<Assistant_Title1>【观众席位】</>\\n<Assistant_Title2>任务类型：</><Assistant_Property2>时代百态</>\\n<Assistant_Title2>任务描述：</>黑荆棘来了两位恩马特港的值夜者同事，似乎有事求助。\\n<Assistant_Title2>领取方式：</>扮演等级达到<Assistant_Red>64级</>后，前往{Location:[黑荆棘安保公司(100,106)]|15;460;-1;2;5200004;0}可触发任务\\n<Assistant_Title2>任务奖励</>：认知经验、绑定苏勒、发票单据、冒险勋章、世界冒险秘宝进度",
     "ref_en": "<Assistant_Title1>【Spectator Seats】</>\\n<Assistant_Title2> Quest Type: </><Assistant_Property2>Era Life</>\\n<Assistant_Title2> Quest Description: </> Two Nighthawk colleagues from Pritz Harbor have come to Blackthorn, and they seem to need help. \\n<Assistant_Title2> How to Accept: </> After reaching Acting Level <Assistant_Red> 64 </>, head to {Location: [Blackthorn Security Company (100,106)] | 15;460;-1;2;5200004;0 } to trigger the quest. \\n<Assistant_Title2> Quest Rewards </>: Cognition EXP, Bound Soule, Invoices, Adventure Medals, World Adventure Treasure Progress",
-    "target_ru": "<Assistant_Title1>[Места для зрителей]</>\n<Assistant_Title2>Тип миссии: </><Assistant_Property2>В зависимости от времени</>\n<Assistant_Title2>Описание миссии: </>Два коллеги Ночного Ястреба из порта Энмат прибыли на «Черный Шип», и им, похоже, нужна была помощь. \n<Assistant_Title2>Как получить: </>После того, как игровой уровень достигнет <Assistant_Red>64</>, перейдите в {Местоположение:[Blackthorn Security Company (100,106)] |15;460;-1;2;5200004;0}Триггерные задачи \n<Assistant_Title2>Награды за задания</>: Познавательные опыт, переплет Сулера, счетные документы, приключенческие медали, прогресс в секретных сокровищах мира приключений"
+    "target_ru": "<Assistant_Title1>[Места для зрителей]</>\n<Assistant_Title2>Тип задания: </><Assistant_Property2>Облик эпохи</>\n<Assistant_Title2>Описание задания: </>В «Чёрный Терновник» приехали двое коллег из «Ночных ястребов» из порта Энмат, похоже, им нужна помощь.\n<Assistant_Title2>Как получить: </>После достижения <Assistant_Red>64</> уровня роли отправляйтесь в {Location:[Охранная компания «Чёрный Терновник»(100,106)]|15;460;-1;2;5200004;0}, чтобы запустить задание\n<Assistant_Title2>Награда за задание</>: опыт познания, привязанные суле, счета-фактуры, медали приключений, прогресс тайных сокровищ мира приключений"
   },
   {
     "id": "069686",
@@ -28569,7 +28569,7 @@
     "id": "069781",
     "source_cn": "终末猎杀玩法段位胜点，可通过<Highlight>领取每周猎杀进度档位奖励</>或<Highlight>击杀其他敌对玩家掠夺</>获取。",
     "ref_en": "Victory points for the Final Hunt mode, which can be obtained by <Highlight> claiming weekly hunting progress tier rewards </> or <Highlight> plundering them by killing other hostile players </>.",
-    "target_ru": "Победные очки в режиме «Последняя охота», которые можно получить, <Highlight>, требуя еженедельные награды уровня прогресса охоты </> или <Highlight>, грабя их, убивая других враждебных игроков </>."
+    "target_ru": "Победные очки ранга в режиме «Финальная охота», которые можно получить, <Highlight>забрав еженедельную награду за уровень прогресса охоты</> или <Highlight>отобрав их у других враждебных игроков при убийстве</>."
   },
   {
     "id": "069782",
@@ -28695,7 +28695,7 @@
     "id": "069802",
     "source_cn": "       梅丽莎微皱眉头道：\\n       “为什么要坐公共马车？到学校得4个便士，来回就是8便士，算上你和班森，我们一天就要在公共马车上花费24便士，整整2苏勒，一周，嗯，不算周日，就是12苏勒，略等于我们的房租了！”\\n       停停停，不要炫耀你的数学水平……克莱恩好笑地压了下手。\\n       梅丽莎先是停顿，接着又补充了一句：\\n       “我走路去学校挺好的，老师说每个人都要经常锻炼，而且我还能在路上捡到一些破损的零件。”\\n\\n       ——第一卷《小丑》第三十九章 有趣的技巧",
     "ref_en": "Melissa frowned slightly and said: \\n “Why take a public carriage? It costs 4 pence to get to school, 8 pence for a round trip. Counting you and Benson, we would spend 24 pence on public carriages a day, a full 2 Soles. A week, well, not counting Sunday, is 12 Soles, which is slightly equal to our rent!” \\n Stop, stop, stop, don’t show off your math skills… Klein pressed his hand down amusedly. \\n Melissa paused first, then added: \\n “I think it’s fine to walk to school. The teacher said everyone should exercise frequently, and I can pick up some damaged parts on the way.” \\n \\n —— Volume 1: Clown, Chapter 39: Interesting Technique",
-    "target_ru": "       Мелисса слегка нахмурилась и сказала:\\n       «Зачем ехать на общественном экипаже? До школы — четыре пенса, туда и обратно — восемь. А если посчитать тебя и Бенсона, мы потратим на экипажи целых двадцать четыре пенса в день! Это же целых два соля! В неделю, гм, не считая воскресенья, выходит двенадцать солей — почти столько же, сколько мы платим за жилье!»\\n       Постой, постой, прекрати хвастаться своими математическими познаниями... — со смехом остановил ее Клейн.\\n       Мелисса запнулась, а затем упрямо добавила:\\n       «Мне и пешком дойти не трудно. Учитель говорит, что регулярные прогулки полезны для здоровья. К тому же по дороге я иногда нахожу занятные сломанные шестеренки».\\n\\n       —— Том 1: «Паяц», Глава 39: «Занимательный трюк»"
+    "target_ru": "       Мелисса слегка нахмурилась и сказала:\\n       «Зачем ехать на общественном экипаже? До школы — четыре пенса, туда и обратно — восемь. А если посчитать тебя и Бенсона, мы потратим на экипажи целых двадцать четыре пенса в день! Это же целых два суле! В неделю, гм, не считая воскресенья, выходит двенадцать суле — почти столько же, сколько мы платим за жилье!»\\n       Постой, постой, прекрати хвастаться своими математическими познаниями... — со смехом остановил ее Клейн.\\n       Мелисса запнулась, а затем упрямо добавила:\\n       «Мне и пешком дойти не трудно. Учитель говорит, что регулярные прогулки полезны для здоровья. К тому же по дороге я иногда нахожу занятные сломанные шестеренки».\\n\\n       —— Том 1: «Паяц», Глава 39: «Занимательный трюк»"
   },
   {
     "id": "069803",
@@ -28707,7 +28707,7 @@
     "id": "069804",
     "source_cn": "<Assistant_Title1>【亡者疑踪】</>\\n<Assistant_Title2>玩法类型：</><Assistant_Property1>黑荆棘事件簿</>\\n<Assistant_Title2>参与方式：</>非凡者在<Assistant_Property1>53级</>后，点击<Assistant_System>菜单-世界冒险-副本-黑荆棘事件簿-亡者疑踪</>参与。\\n<Assistant_Title2>参与人数：</>5~6人组队，或选择人机模式前往。\\n<Assistant_Title2>玩法奖励：</>60装等金色装备、非凡物质等。每日1次奖励次数<Assistant_Red>（黑荆棘事件簿共享奖励次数）</>。\\n<Assistant_Title2>首领攻略：</>{JumpToUI:[亚巴顿]|1302138}",
     "ref_en": "<Assistant_Title1>【Traces of the Dead】</>\\n<Assistant_Title2>Gameplay Type: </><Assistant_Property1>Blackthorn Incident Log</>\\n<Assistant_Title2>Participation Method: </>Beyonders who have reached <Assistant_Property1>Level 53</> can participate by clicking <Assistant_System>Menu-World Adventure-Dungeon-Blackthorn Incident Log-Traces of the Dead</>.\\n<Assistant_Title2>Number of Participants: </>5~6 player party, or choose AI mode.\\n<Assistant_Title2>Gameplay Rewards: </>Level 60 Gold Equipment, Extraordinary materials, etc. 1 reward count per day <Assistant_Red>(shared reward count for Blackthorn Incident Log)</>.\\n<Assistant_Title2>Boss Strategy: </>{JumpToUI:[Abaddon]|1302138}",
-    "target_ru": "<Assistant_Title1>[След мертвецов]</>\n<Assistant_Title2>Тип игры: </><Assistant_Property1>Книга событий Blackthorn</>\n<Assistant_Title2>Как принять участие: </>Необыкновенно после достижения <Assistant_Property1>уровня 53</>, нажмите <Assistant_System>Меню-Мир приключений-Копировать-Книга событий Blackthorn-След Dead</> примет участие. \n<Assistant_Title2> Количество участников: </> Объединитесь в команду из 5–6 человек или выберите для игры режим «человек-компьютер». \n<Assistant_Title2> Игровые награды: </>60 золотое снаряжение уровня экипировки, необычные материалы и т. д. Количество наград в день <Assistant_Red> (количество наград, разделяемых в Книге событий Black Thorn) </>. \n<Assistant_Title2>Гид по боссу: </>{JumpToUI:[Abaddon]|1302138}"
+    "target_ru": "<Assistant_Title1>[След мертвецов]</>\n<Assistant_Title2>Тип режима: </><Assistant_Property1>Досье «Чёрного Терновника»</>\n<Assistant_Title2>Как участвовать: </>Потусторонние от <Assistant_Property1>53 уровня</> могут участвовать: нажмите <Assistant_System>Меню — Мир приключений — Подземелья — Досье «Чёрного Терновника» — След мертвецов</>.\n<Assistant_Title2>Участники: </>команда из 5–6 человек или режим «человек-компьютер».\n<Assistant_Title2>Награды: </>золотое снаряжение 60-го ур., потусторонние материалы и т. д. Награда 1 раз в день <Assistant_Red>(общее число наград для досье «Чёрного Терновника»)</>.\n<Assistant_Title2>Гид по боссу: </>{JumpToUI:[Абаддон]|1302138}"
   },
   {
     "id": "069805",
@@ -28857,7 +28857,7 @@
     "id": "069829",
     "source_cn": "使用后获得称号:<Highlight>终末猎杀·星辰之主</>",
     "ref_en": "Use to obtain the title: <Highlight> Final Hunt: Lord of Stars </>",
-    "target_ru": "Используйте, чтобы получить титул: <Highlight> Последняя охота: Повелитель звезд </>."
+    "target_ru": "Используйте, чтобы получить титул: <Highlight> Финальная охота: Повелитель звезд </>."
   },
   {
     "id": "069830",
@@ -29499,7 +29499,7 @@
     "id": "069936",
     "source_cn": "5230153   黑荆棘安保公司   位面",
     "ref_en": "5230153 Blackthorn Security Company Plane",
-    "target_ru": "5230153 Самолет охранной компании Чёрный Чертополох"
+    "target_ru": "5230153 Охранная компания «Чёрный Терновник», измерение"
   },
   {
     "id": "069937",

@@ -260,7 +260,7 @@ return {
     ["Quickly click the babble to eliminate it"] = "Быстро щелкните лепет, чтобы устранить его",
     ["Hero - Drill - Lightning Beacon - Player and beacon connection"] = "Герой - Дрель - Маяк-молния - Соединение игрока и маяка",
     ["Care · Two"] = "Уход · Два",
-    ["Participating in the dungeon <Highlight>Blackthorn Incident Log · Sin of Gold</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following equipment."] = "Участие в подземелье <Highlight>Чёрный Чертополох Журнал инцидентов · Sin of Gold</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение.",
+    ["Participating in the dungeon <Highlight>Blackthorn Incident Log · Sin of Gold</> in party mode allows you to participate in the distribution and auction of public drops. There is a chance to obtain the following equipment."] = "Участие в подземелье <Highlight>Журнал происшествий «Чёрного Терновника» · Золотой грех</> в режиме группы позволяет вам участвовать в раздаче и аукционе публичных дропов. Есть шанс получить следующее снаряжение.",
     ["Equip to gain the [Hermit] bond."] = "Экипируйте, чтобы получить резонанс [Школа Тайн].",
     ["Equip to gain the [Berserker] resonance."] = "Экипируйте, чтобы получить резонанс [Берсерк].",
     ["Total Battle Data"] = "Общая статистика боя",

@@ -220,7 +220,7 @@ return {
     ["Day 30"] = "День 30",
     ["What is the secret organization founded by Adam?"] = "Что представляет собой секретная организация, основанная Адамом?",
     ["Requiem Finale"] = "Реквием Финал",
-    ["<P_Heart> 10,000 Gold Pounds?? So cheap, maybe it's a scam, let's do a divination to see. </>"] = "<P_Heart> 10 000 золотых фунтов?? Так дешево, возможно это развод, давайте погадаем, чтобы убедиться. </>",
+    ["<P_Heart> 10,000 Gold Pounds?? So cheap, maybe it's a scam, let's do a divination to see. </>"] = "<P_Heart> 10 000 суле?? Так дешево, возможно это развод, давайте погадаем, чтобы убедиться. </>",
     ["Enzo"] = "Энцо",
     ["Many people are having a hard time, and I want to see if I can fight for some compensation."] = "Многим людям приходится нелегко, и я хочу посмотреть, смогу ли я побороться за какую-то компенсацию.",
     ["Say hello to <h>Azik</>"] = "Передавай привет <h>Азик</>",

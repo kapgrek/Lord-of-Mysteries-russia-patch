@@ -207,7 +207,7 @@ return {
     ["Operation too frequent. Please try again in %s seconds."] = "Слишком частые операции. Пожалуйста, повторите попытку через %s секунд.",
     ["{{ Mr. | Ms. }}, hello."] = "{{ Mr. | Ms. }}, здравствуйте.",
     ["We can go to the Train Station and take a train to leave here."] = "Мы можем пойти на вокзал и сесть на поезд, чтобы уехать отсюда.",
-    ["Blackthorn Deduction 1"] = "Чёрный Чертополох Удержание 1",
+    ["Blackthorn Deduction 1"] = "«Чёрный Терновник» Дедукция 1",
     ["Yes, but this is only my interpretation; divination is often vague."] = "Да, но это только моя интерпретация; гадание часто бывает расплывчатым.",
     ["But it seems very peaceful here, the terrible battle you mentioned doesn't seem to have affected the people in town."] = "Но здесь, кажется, очень мирно, ужасная битва, о которой вы упомянули, похоже, не затронула жителей города.",
     ["Knight standing before me, prove to me that you are qualified to serve as the Cavalry Captain of the Wessel Family's First Legion."] = "Рыцарь, стоящий передо мной, докажи мне, что ты достоин служить капитаном кавалерии Первого легиона семьи Вессель.",

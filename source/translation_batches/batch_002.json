@@ -189,7 +189,7 @@
     "id": "005031",
     "source_cn": "我找到了让他不得不同意的理由，最后只赔偿了3苏勒押金，就顺利退租了。",
     "ref_en": "I found a reason that forced him to agree, and in the end, I only paid a 3 soli deposit penalty to successfully terminate the lease.",
-    "target_ru": "Я нашел довод, с которым он не мог не согласиться, и в итоге заплатил всего 3 соли из залога, чтобы расторгнуть договор аренды."
+    "target_ru": "Я нашел довод, с которым он не мог не согласиться, и в итоге заплатил всего 3 суле из залога, чтобы расторгнуть договор аренды."
   },
   {
     "id": "005032",
@@ -6561,7 +6561,7 @@
     "id": "006093",
     "source_cn": "苏勒/金榜 兑换比例",
     "ref_en": "Sole/Gold Pound Exchange Rate",
-    "target_ru": "Курс обмена соли к золотым фунтам"
+    "target_ru": "Курс обмена суле к золотым фунтам"
   },
   {
     "id": "006094",
@@ -6603,7 +6603,7 @@
     "id": "006100",
     "source_cn": "跟随指引，将魔女带到黑荆棘安保公司！",
     "ref_en": "Follow the guidance and bring the witch to Blackthorn Security Company!",
-    "target_ru": "Следуйте указателю и приведите ведьму в охранную компанию «Чёрный шип»!"
+    "target_ru": "Следуйте указателю и приведите ведьму в охранную компанию «Чёрный Терновник»!"
   },
   {
     "id": "006101",
@@ -7497,7 +7497,7 @@
     "id": "006249",
     "source_cn": "5230276   黑荆棘安保公司   位面",
     "ref_en": "5230276 Blackthorn Security Company Plane",
-    "target_ru": "5230276   Охранная компания «Чёрный шип»   План"
+    "target_ru": "5230276   Охранная компания «Чёрный Терновник»   План"
   },
   {
     "id": "006250",
@@ -8271,7 +8271,7 @@
     "id": "006378",
     "source_cn": "【占】伦纳德高举知识皇冠，大家都成功在廷根瓦解前回到了现实世界。\\n一段时间后，大家的生活似乎都回到了正轨，黑荆棘在紫藤花廊下拍照。",
     "ref_en": "[Placeholder] Leonard holds the Crown of Knowledge high, and everyone successfully returns to the real world before Tingen collapses.\\n After a period of time, everyone's lives seem to have returned to normal, and the Nighthawks are taking photos under the wisteria corridor.",
-    "target_ru": "【Заглушка】Леонард высоко поднимает Корону Знаний, и все успешно возвращаются в реальный мир до разрушения Тингена.\nСпустя некоторое время жизнь, кажется, возвращается в привычное русло, а сотрудники «Чёрного шипа» фотографируются под увитой глициниями галереей."
+    "target_ru": "【Заглушка】Леонард высоко поднимает Корону Знаний, и все успешно возвращаются в реальный мир до разрушения Тингена.\nСпустя некоторое время жизнь, кажется, возвращается в привычное русло, а сотрудники «Чёрного Терновника» фотографируются под увитой глициниями галереей."
   },
   {
     "id": "006379",
@@ -9351,7 +9351,7 @@
     "id": "006558",
     "source_cn": "提取了%s苏勒和%s绑定苏勒到背包。",
     "ref_en": "Extracted %s Sol and %s bound Sol to inventory.",
-    "target_ru": "В сумку получено: %s соли и %s привязанных соли."
+    "target_ru": "В сумку получено: %s суле и %s привязанных суле."
   },
   {
     "id": "006559",
@@ -10527,7 +10527,7 @@
     "id": "006754",
     "source_cn": "“百里挑蛋”挑战赛开启，一万苏勒花落谁家？",
     "ref_en": "'One in a Hundred Eggs' challenge begins, who will win the ten thousand Sol?",
-    "target_ru": "Открыто состязание «Одно яйцо на сотню»! Кому же достанутся десять тысяч соли?"
+    "target_ru": "Открыто состязание «Одно яйцо на сотню»! Кому же достанутся десять тысяч суле?"
   },
   {
     "id": "006755",
@@ -10815,7 +10815,7 @@
     "id": "006802",
     "source_cn": "我们这些人就算从早干到晚，周薪也不过是20苏勒。",
     "ref_en": "Even if we work from morning till night, our weekly wage is only 20 soli.",
-    "target_ru": "Такие, как мы, пашут с утра до ночи, а получают всего 20 соли в неделю."
+    "target_ru": "Такие, как мы, пашут с утра до ночи, а получают всего 20 суле в неделю."
   },
   {
     "id": "006803",
@@ -11085,7 +11085,7 @@
     "id": "006847",
     "source_cn": "这位客人，请您不要质疑我作为通灵者的能力！只是我需要更多的……呃……苏勒，才能继续沟通！",
     "ref_en": "This guest, please do not question my ability as a Spirit Medium! It's just that I need more... uh... Sol, to continue communicating!",
-    "target_ru": "Уважаемый гость, прошу вас не сомневаться в моих способностях Медиума! Просто мне нужно больше... э-э... соли, чтобы продолжить спиритический сеанс!"
+    "target_ru": "Уважаемый гость, прошу вас не сомневаться в моих способностях Медиума! Просто мне нужно больше... э-э... суле, чтобы продолжить спиритический сеанс!"
   },
   {
     "id": "006848",
@@ -13875,7 +13875,7 @@
     "id": "007312",
     "source_cn": "开启可随机获得一件<Highlight>66装等</>或<Highlight>68装等</>的<Highlight>竞技倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。有一定概率可获得1个灰雾晶砾（用于将64装等或以上装等竞技胸针升级至神话品质），每周至多获得3个，未获得的数量可累计至下周。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 66</> or <Highlight>level 68</> <Highlight>Competition-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol. There is a certain chance to obtain 1 Gray Fog Crystal (used to upgrade level 64 or higher competition brooches to Mythical quality). You can obtain at most 3 per week; unobtained amounts can be accumulated to the following week.",
-    "target_ru": "Открыв, можно случайным образом получить оранжевое или золотое снаряжение <Highlight>66-го ур. экипировки</> или <Highlight>68-го ур. экипировки</> <Highlight>соревновательного типа</>, потусторонние материалы, факторы схождения и персональные соли. С некоторой вероятностью можно получить 1 Кристалл Серого Тумана (используется для улучшения соревновательной броши 64-го ур. экипировки или выше до мифического качества). В неделю можно получить не более 3 шт.; неполученное количество переносится на следующую неделю."
+    "target_ru": "Открыв, можно случайным образом получить оранжевое или золотое снаряжение <Highlight>66-го ур. экипировки</> или <Highlight>68-го ур. экипировки</> <Highlight>соревновательного типа</>, потусторонние материалы, факторы схождения и привязанные суле. С некоторой вероятностью можно получить 1 Кристалл Серого Тумана (используется для улучшения соревновательной броши 64-го ур. экипировки или выше до мифического качества). В неделю можно получить не более 3 шт.; неполученное количество переносится на следующую неделю."
   },
   {
     "id": "007313",
@@ -14397,7 +14397,7 @@
     "id": "007399",
     "source_cn": "　　<Letter_Highlight_HW>梅丽莎</>今天从贝克兰德回来，本来该我去接她的。\\n　　但教会临时有点事，辛苦你帮我去黑荆棘接待一下。\\n　　你在“愚者”先生的历史里见过她，虽然过了几年，她可能也长高了，但模样应该变化不大。\\n　　给你个机会，好好表现！",
     "ref_en": "<Letter_Highlight_HW> Melissa </> is coming back from Backlund today, I was supposed to pick her up. \\n But the Church has some urgent matters, so I'd appreciate it if you could help me receive her at Blackthorn. \\n You've seen her in Mr. Fool's history; although it's been a few years and she might have grown taller, her appearance shouldn't have changed much. \\n Here's your chance, make a good impression!",
-    "target_ru": "　　<Letter_Highlight_HW>Мелисса</> сегодня возвращается из Бэкланда, и вообще-то я должен был её встретить.\n　　Но в Церкви возникли неотложные дела, так что выручи меня: сходи в «Чёрный шип» и прими её.\n　　Ты видел её в истории господина Шута. Пусть прошло уже несколько лет и она, должно быть, подросла, но внешне вряд ли сильно изменилась.\n　　Даю тебе шанс, прояви себя как следует!"
+    "target_ru": "　　<Letter_Highlight_HW>Мелисса</> сегодня возвращается из Бэкланда, и вообще-то я должен был её встретить.\n　　Но в Церкви возникли неотложные дела, так что выручи меня: сходи в «Чёрный Терновник» и прими её.\n　　Ты видел её в истории господина Шута. Пусть прошло уже несколько лет и она, должно быть, подросла, но внешне вряд ли сильно изменилась.\n　　Даю тебе шанс, прояви себя как следует!"
   },
   {
     "id": "007400",
@@ -14421,7 +14421,7 @@
     "id": "007403",
     "source_cn": "一枚由欲望组成的齿轮，咬合着贪婪与痴迷。欲念使者乐意将它送给任何人——反正它总会回到自己手上，浸满持有者的祈求和渴念。\\n赌徒输光最后一苏勒时摸到了它，商人签完最后一纸契约时攥住了它，没人记得是怎么接过来的，就像没人记得自己什么时候开始渴望。\\n\"再赌一次！就一次！\"持有者发抖而偏执的声音总是那么悦耳。\\n\"好啊。\"他总是这么回答，微笑着，见证一个又一个人匍匐在他面前，亲吻他的掌心。\\n持有齿轮的人，总会听到内心渴望的回音，总会与他相遇。",
     "ref_en": "A gear made of desire, interlocking with greed and obsession. The Messenger of Desire is happy to give it to anyone—it always finds its way back to them, soaked in the prayers and cravings of its holder. \\n The gambler touched it when he lost his last sou, and the merchant gripped it when he signed his final contract. No one remembers how they received it, just as no one remembers when they began to crave. \\n \"One more bet! Just one more!\" The holder's trembling, paranoid voice is always so pleasant. \\n \"Very well.\" He always replies, smiling, witnessing one person after another crawl before him, kissing his palm. \\n Those who hold the gear will always hear the echo of their inner desires and will always meet him.",
-    "target_ru": "Шестерня, отлитая из желаний, сцепленная с жадностью и одержимостью. Посланник Желаний с радостью отдаст её любому: ведь она всё равно вернётся к нему в руки, пропитанная мольбами и вожделением своего владельца.\nИгрок нащупал её, когда проиграл последний соли; торговец сжал её в кулаке, подписав последний контракт. Никто не помнит, как принял её, точно так же, как никто не помнит, когда зародилась эта жажда.\n«Ещё одну ставку! Всего одну!» — дрожащий, помешанный голос владельца всегда звучит так сладостно.\n«Хорошо», — неизменно отвечает он с улыбкой, наблюдая, как человек за человеком падают ниц и целуют его ладонь.\nВсякий, кто держит эту шестерню, непременно услышит эхо своих сокровенных желаний и однажды встретит его."
+    "target_ru": "Шестерня, отлитая из желаний, сцепленная с жадностью и одержимостью. Посланник Желаний с радостью отдаст её любому: ведь она всё равно вернётся к нему в руки, пропитанная мольбами и вожделением своего владельца.\nИгрок нащупал её, когда проиграл последний суле; торговец сжал её в кулаке, подписав последний контракт. Никто не помнит, как принял её, точно так же, как никто не помнит, когда зародилась эта жажда.\n«Ещё одну ставку! Всего одну!» — дрожащий, помешанный голос владельца всегда звучит так сладостно.\n«Хорошо», — неизменно отвечает он с улыбкой, наблюдая, как человек за человеком падают ниц и целуют его ладонь.\nВсякий, кто держит эту шестерню, непременно услышит эхо своих сокровенных желаний и однажды встретит его."
   },
   {
     "id": "007404",
@@ -14757,7 +14757,7 @@
     "id": "007459",
     "source_cn": "是否开启跨服终末猎杀",
     "ref_en": "Enable cross-server Final Hunt?",
-    "target_ru": "Включить межсерверную Последнюю охоту?"
+    "target_ru": "Включить межсерверную «Финальную охоту»?"
   },
   {
     "id": "007460",
@@ -17019,7 +17019,7 @@
     "id": "007836",
     "source_cn": "汇率（金榜/苏勒）",
     "ref_en": "Exchange Rate (Gold Pound/soli)",
-    "target_ru": "Курс обмена (золотые фунты / соли)"
+    "target_ru": "Курс обмена (золотые фунты / суле)"
   },
   {
     "id": "007837",
@@ -17385,7 +17385,7 @@
     "id": "007897",
     "source_cn": "他们总说我们把钱都花在了酒上，但却不知道那是支撑我们工作的圣水！我们没有办法把苏勒从那些工厂主口袋里抠出来，只能用酒来慰藉自己的灵魂！",
     "ref_en": "They always say we spend all our money on alcohol, but they don't know that it is the holy water that supports our work! We have no way to pry money out of the pockets of those factory owners, so we can only use alcohol to comfort our souls!",
-    "target_ru": "Вечно нас попрекают тем, что мы спускаем все деньги на выпивку, но они и понятия не имеют, что для нас это святая вода, дающая силы батрачить! Нам не вытрясти лишнего соли из карманов этих фабрикантов, так что остаётся лишь топить тоску в стакане, спасая свою душу!"
+    "target_ru": "Вечно нас попрекают тем, что мы спускаем все деньги на выпивку, но они и понятия не имеют, что для нас это святая вода, дающая силы батрачить! Нам не вытрясти лишних суле из карманов этих фабрикантов, так что остаётся лишь топить тоску в стакане, спасая свою душу!"
   },
   {
     "id": "007898",
@@ -18669,7 +18669,7 @@
     "id": "008111",
     "source_cn": "由丝绸制成，样式工整考究，标价6苏勒。",
     "ref_en": "Made of silk, with a neat and refined style, priced at 6 soli.",
-    "target_ru": "Сшито из шелка, фасон аккуратный и изысканный, цена — 6 су."
+    "target_ru": "Сшито из шелка, фасон аккуратный и изысканный, цена — 6 суле."
   },
   {
     "id": "008112",
@@ -18897,7 +18897,7 @@
     "id": "008149",
     "source_cn": "2苏勒",
     "ref_en": "2 soli",
-    "target_ru": "2 су"
+    "target_ru": "2 суле"
   },
   {
     "id": "008150",
@@ -19251,7 +19251,7 @@
     "id": "008208",
     "source_cn": "拨弄时光的指针，遨游命运的影子，欺诈与恶作剧的化身——这些和鸦有什么关系呢？\\n重复获取将自动分解为绑定苏勒×10000。",
     "ref_en": "Fiddling with the hands of time, wandering in the shadows of fate, the avatar of deception and pranks—what does this have to do with a crow? \\nRepeated acquisition will automatically decompose into Bound Sol ×10000.",
-    "target_ru": "Передвигать стрелки времени, странствовать в тенях судьбы, воплощение обмана и озорства — какое все это имеет отношение к ворону?\nПовторное получение автоматически распыляется на персональные су ×10000."
+    "target_ru": "Передвигать стрелки времени, странствовать в тенях судьбы, воплощение обмана и озорства — какое все это имеет отношение к ворону?\nПовторное получение автоматически распыляется на привязанные суле ×10000."
   },
   {
     "id": "008209",
@@ -20505,7 +20505,7 @@
     "id": "008417",
     "source_cn": "一张1苏勒的钞票，色泽墨绿泛白，印着鲁恩国王乔治三世严肃的脸。",
     "ref_en": "A 1-Soli banknote, greenish-white in color, printed with the stern face of Loen King George III.",
-    "target_ru": "Банкнота достоинством в 1 су, зеленовато-белого оттенка, с напечатанным строгим профилем короля Лоэна Георга III."
+    "target_ru": "Банкнота достоинством в 1 суле, зеленовато-белого оттенка, с напечатанным строгим профилем короля Лоэна Георга III."
   },
   {
     "id": "008418",
@@ -21309,7 +21309,7 @@
     "id": "008551",
     "source_cn": "使用后解锁<Highlight>单人社交动作·轻笑</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Chuckle</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "При использовании открывает <Highlight>одиночную эмоцию «Смешок»</>. Повторное получение автоматически распыляется на персональные су."
+    "target_ru": "При использовании открывает <Highlight>одиночную эмоцию «Смешок»</>. Повторное получение автоматически распыляется на привязанные суле."
   },
   {
     "id": "008552",
@@ -22155,7 +22155,7 @@
     "id": "008692",
     "source_cn": "基础工资10000苏勒",
     "ref_en": "Base salary 10,000 Soles",
-    "target_ru": "Базовое жалованье: 10 000 су"
+    "target_ru": "Базовое жалованье: 10 000 суле"
   },
   {
     "id": "008693",
@@ -22245,7 +22245,7 @@
     "id": "008707",
     "source_cn": "开启可随机获得一件<Highlight>66装等</>或<Highlight>68装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Open to randomly obtain one piece of <Highlight>level 66</> or <Highlight>level 68</> <Highlight>Adventure-oriented</> orange or gold-quality equipment, Beyonder materials, Aggregation Factors, or bound Sol.",
-    "target_ru": "Открыв, можно случайным образом получить оранжевое или золотое снаряжение <Highlight>66-го ур. экипировки</> или <Highlight>68-го ур. экипировки</> <Highlight>приключенческого типа</>, потусторонние материалы, факторы схождения и персональные соли."
+    "target_ru": "Открыв, можно случайным образом получить оранжевое или золотое снаряжение <Highlight>66-го ур. экипировки</> или <Highlight>68-го ур. экипировки</> <Highlight>приключенческого типа</>, потусторонние материалы, факторы схождения и привязанные суле."
   },
   {
     "id": "008708",
@@ -22461,7 +22461,7 @@
     "id": "008743",
     "source_cn": "罗塞尔Boss-按等级锁血",
     "ref_en": "Roselle Boss - Health Lock by Level",
-    "target_ru": "Босс Роселл — фиксация здоровья по уровню"
+    "target_ru": "Босс Розель — фиксация здоровья по уровню"
   },
   {
     "id": "008744",
@@ -22635,7 +22635,7 @@
     "id": "008772",
     "source_cn": "5200040   黑荆棘废墟   副本",
     "ref_en": "5200040 Blackthorn Security Company Ruins Instance",
-    "target_ru": "5200040   Руины «Чёрного шипа»   Подземелье"
+    "target_ru": "5200040   Руины «Чёрного Терновника»   Подземелье"
   },
   {
     "id": "008773",
@@ -22707,7 +22707,7 @@
     "id": "008784",
     "source_cn": "一张价值5便士的长途邮票，上面印有罗塞尔大帝的头像。",
     "ref_en": "A long-distance stamp worth 5 pence, featuring the portrait of Emperor Roselle.",
-    "target_ru": "Почтовая марка для писем на дальние расстояния достоинством в 5 пенсов с портретом императора Роселла."
+    "target_ru": "Почтовая марка для писем на дальние расстояния достоинством в 5 пенсов с портретом императора Розеля."
   },
   {
     "id": "008785",
@@ -23079,7 +23079,7 @@
     "id": "008846",
     "source_cn": "是罗塞尔大帝在指引我们！",
     "ref_en": "It's Emperor Roselle guiding us!",
-    "target_ru": "Это император Роселл направляет нас!"
+    "target_ru": "Это император Розель направляет нас!"
   },
   {
     "id": "008847",
@@ -23385,7 +23385,7 @@
     "id": "008897",
     "source_cn": "返回黑荆棘",
     "ref_en": "Return to Blackthorn",
-    "target_ru": "Вернуться в «Чёрный шип»"
+    "target_ru": "Вернуться в «Чёрный Терновник»"
   },
   {
     "id": "008898",
@@ -24129,7 +24129,7 @@
     "id": "009021",
     "source_cn": "进步浪潮第一节-报纸上的罗塞尔",
     "ref_en": "Wave of Progress Section 1 - Roselle in the Newspaper",
-    "target_ru": "Волна прогресса: Раздел 1 — Роселл в газетах"
+    "target_ru": "Волна прогресса: Раздел 1 — Розель в газетах"
   },
   {
     "id": "009022",
@@ -24339,7 +24339,7 @@
     "id": "009056",
     "source_cn": "但加入黑荆棘，意味着你也要和我们一起承担职责。",
     "ref_en": "But joining Blackthorn means you must also shoulder responsibilities with us.",
-    "target_ru": "Но вступление в «Чёрный шип» означает, что тебе придётся разделить с нами эти обязанности."
+    "target_ru": "Но вступление в «Чёрный Терновник» означает, что тебе придётся разделить с нами эти обязанности."
   },
   {
     "id": "009057",
@@ -24357,7 +24357,7 @@
     "id": "009059",
     "source_cn": "使用后解锁<Highlight>单人动作·祈祷</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "After use, unlock <Highlight>Single Action: Prayer</>. If obtained repeatedly, it will automatically be dismantled into bound Sol.",
-    "target_ru": "При использовании разблокирует одиночную эмоцию <Highlight>«Молитва»</>. При повторном получении автоматически распыляется на персональные соли."
+    "target_ru": "При использовании разблокирует одиночную эмоцию <Highlight>«Молитва»</>. При повторном получении автоматически распыляется на привязанные суле."
   },
   {
     "id": "009060",
@@ -24837,7 +24837,7 @@
     "id": "009139",
     "source_cn": "组队模式参加副本<Highlight>罗塞尔大帝（英雄）</>，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。",
     "ref_en": "Participate in the dungeon <Highlight>Emperor Roselle (Hero)</> in team mode to participate in the distribution and auction of public drops. There is a chance to obtain tradable equipment.",
-    "target_ru": "Участвуя в подземелье <Highlight>«Император Роселл (героич.)»</> в составе группы, вы можете участвовать в распределении и аукционе общей добычи. Есть шанс получить передаваемое снаряжение."
+    "target_ru": "Участвуя в подземелье <Highlight>«Император Розель (героич.)»</> в составе группы, вы можете участвовать в распределении и аукционе общей добычи. Есть шанс получить передаваемое снаряжение."
   },
   {
     "id": "009140",
@@ -25005,7 +25005,7 @@
     "id": "009167",
     "source_cn": "……那么比赛正式开始！让我们喊出罗塞尔大帝的名言——",
     "ref_en": "...Then the competition officially begins! Let's shout the famous quote of Emperor Roselle—",
-    "target_ru": "...Итак, состязание официально начинается! Давайте же воскликнем знаменитую фразу императора Роселла: —"
+    "target_ru": "...Итак, состязание официально начинается! Давайте же воскликнем знаменитую фразу императора Розеля: —"
   },
   {
     "id": "009168",
@@ -25113,7 +25113,7 @@
     "id": "009185",
     "source_cn": "使用后解锁<Highlight>单人社交动作·拒绝</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Refuse</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "При использовании разблокирует одиночную эмоцию <Highlight>«Отказ»</>. При повторном получении автоматически распыляется на персональные соли."
+    "target_ru": "При использовании разблокирует одиночную эмоцию <Highlight>«Отказ»</>. При повторном получении автоматически распыляется на привязанные суле."
   },
   {
     "id": "009186",
@@ -25137,7 +25137,7 @@
     "id": "009189",
     "source_cn": "出黑荆棘出生点",
     "ref_en": "Exit Blackthorn Spawn Point",
-    "target_ru": "Точка возрождения у выхода из «Чёрного шипа»"
+    "target_ru": "Точка возрождения у выхода из «Чёрного Терновника»"
   },
   {
     "id": "009190",
@@ -27567,7 +27567,7 @@
     "id": "009594",
     "source_cn": "每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>66装等</>或<Highlight>68装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。",
     "ref_en": "Receive 1 Development Resource Box every <Highlight>20 progress</>. Opening it grants a random piece of <Highlight>Item Level 66</> or <Highlight>Item Level 68</> <Highlight>Adventure-oriented</> orange or gold quality Equipment, Beyonder materials, Aggregation Factors, and Bound Soule.",
-    "target_ru": "За каждые <Highlight>20 ед. прогресса</> даётся 1 сундук ресурсов развития, при открытии которого можно случайно получить предмет экипировки оранжевого или золотого качества <Highlight>66-го ур.</> или <Highlight>68-го ур.</> с <Highlight>уклоном в приключения</>, а также потусторонние материалы, факторы конвергенции и привязанные соли."
+    "target_ru": "За каждые <Highlight>20 ед. прогресса</> даётся 1 сундук ресурсов развития, при открытии которого можно случайно получить предмет экипировки оранжевого или золотого качества <Highlight>66-го ур.</> или <Highlight>68-го ур.</> с <Highlight>уклоном в приключения</>, а также потусторонние материалы, факторы конвергенции и привязанные суле."
   },
   {
     "id": "009595",
@@ -28557,7 +28557,7 @@
     "id": "009759",
     "source_cn": "黑荆棘事件簿3金币+100",
     "ref_en": "Blackthorn Incident Book 3 gold coins +100",
-    "target_ru": "Дело «Тёрна» 3: золотые монеты +100"
+    "target_ru": "Дело «Чёрного Терновника» 3: золотые монеты +100"
   },
   {
     "id": "009760",
@@ -28749,7 +28749,7 @@
     "id": "009791",
     "source_cn": "使用后解锁<Highlight>单人社交动作·掩面哭泣</>，重复获取使用后自动分解为绑定苏勒。",
     "ref_en": "Unlocks <Highlight>Single Social Action: Crying Behind Hands</> upon use; duplicate acquisitions will automatically decompose into bound Soles.",
-    "target_ru": "При использовании открывает <Highlight>одиночное действие: закрыть лицо и плакать</>. При повторном получении автоматически распыляется на привязанные соли."
+    "target_ru": "При использовании открывает <Highlight>одиночное действие: закрыть лицо и плакать</>. При повторном получении автоматически распыляется на привязанные суле."
   },
   {
     "id": "009792",
@@ -29385,7 +29385,7 @@
     "id": "009897",
     "source_cn": "<Assistant_Title1>黑荆棘安保公司</>\\n<Assistant_Title2>成就分类：</>剧情-现实主线\\n<Assistant_Title2>解锁条件：</>在第一章主线中，签署合同并加入黑荆棘安保公司。",
     "ref_en": "<Assistant_Title1>Blackthorn Security Company</>\\n<Assistant_Title2>Achievement Category: </>Plot - Reality Main Story\\n<Assistant_Title2>Unlock Condition: </>In the first chapter main story, sign the contract and join the Blackthorn Security Company.",
-    "target_ru": "<Assistant_Title1>Охранная компания «Тёрн»</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Основная ветка реальности\n<Assistant_Title2>Условие получения: </>В первой главе основного сюжета подписать контракт и вступить в охранную компанию «Тёрн»."
+    "target_ru": "<Assistant_Title1>Охранная компания «Чёрный Терновник»</>\n<Assistant_Title2>Категория достижения: </>Сюжет — Основная ветка реальности\n<Assistant_Title2>Условие получения: </>В первой главе основного сюжета подписать контракт и вступить в охранную компанию «Чёрный Терновник»."
   },
   {
     "id": "009898",
@@ -29565,7 +29565,7 @@
     "id": "009927",
     "source_cn": "去黑荆棘吗？",
     "ref_en": "Going to Blackthorn?",
-    "target_ru": "В «Тёрн»?"
+    "target_ru": "В «Чёрный Терновник»?"
   },
   {
     "id": "009928",

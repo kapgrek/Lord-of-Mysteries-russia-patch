@@ -101,7 +101,7 @@ return {
     ["Rest until the next day"] = "Отдых до следующего дня",
     ["Good luck to you."] = "Удачи вам.",
     ["N-nothing... I'll go make a cup of coffee for the Captain first. If you're looking for him, you can go straight to the sleep room."] = "Н-ничего... Сначала я пойду сварю капитану чашку кофе. Если вы ищете его, можете пойти прямо в спальню.",
-    ["Roselle Boss - Stages 1 & 2 - Mirror Data - Shield Mark"] = "Босс Розеллы — этапы 1 и 2 — зеркальные данные — знак щита",
+    ["Roselle Boss - Stages 1 & 2 - Mirror Data - Shield Mark"] = "Босс Розеля — этапы 1 и 2 — зеркальные данные — знак щита",
     ["Where is the source of corruption this time?"] = "Где на этот раз источник Искажения?",
     ["Drink what and get pissed off?"] = "Что выпить и разозлиться?",
     ["He shouldn't want to add patterns to this kind of photo, right?"] = "Он не должен хотеть добавлять узоры на такую ​​фотографию, верно?",

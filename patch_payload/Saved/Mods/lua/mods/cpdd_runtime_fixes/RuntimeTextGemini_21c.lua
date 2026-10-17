@@ -253,7 +253,7 @@ return {
     ["Unlocks on October 19"] = "Откроется 19 октября",
     ["不止，我开门穿墙，专挑那些克扣工钱的贵族捉弄，偷他们的钱，分给街坊邻居。"] = "Не только это: я открываю двери, прохожу сквозь стены, выбираю знатных скупердяев, которые урезают жалованье, подшучиваю над ними, ворую их деньги и раздаю соседям.",
     ["你要是有空，欢迎去看我的表演。得快点，一小时后开始。"] = "Если у тебя найдётся время, приходи посмотреть моё выступление. Поторопись, оно начнётся через час.",
-    ["Setting that aside, I saw the letter. You're leaving? How will you make a living? On those savings of several dozen soli?"] = "Оставим это. Я видел то письмо. Ты уезжаешь? На что ты будешь жить? На накопления в несколько десятков сулей?",
+    ["Setting that aside, I saw the letter. You're leaving? How will you make a living? On those savings of several dozen soli?"] = "Оставим это. Я видел то письмо. Ты уезжаешь? На что ты будешь жить? На накопления в несколько десятков суле?",
     ["Defeat Fors"] = "Победить Форса",
     ["吸血值"] = "Вампиризм",
     ["如果下一站<LightHighlight>是【商行】</>,当前持有的<HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">【窖藏拉菲干红】</>数量增加<LightHighlight>100%</>，否则，物产出售价格<LightHighlight>-40%</>"] = "Если следующая остановка <LightHighlight>— [Торговый дом]</>, количество имеющегося <HyperLink stylename=\"Underline\" u=\"trainTradeItem=30107\">[Выдержанного красного Лафита]</> увеличивается на <LightHighlight>100%</>, иначе цена продажи товаров <LightHighlight>-40%</>",
