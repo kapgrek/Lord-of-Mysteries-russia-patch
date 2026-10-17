@@ -298,8 +298,9 @@ return {
     ["Gain <HighLight>2 random Resonance Emblems</>, 1 Equipment Reforger, and 2 Gold."] = "Получите <HighLight>2 случайные Эмблемы резонанса</>, 1 Перековщик снаряжения и 2 золота.",
     ["计算成功0/2，全队攻速大幅降低！"] = "Расчёт удался 0/2, скорость атаки всей команды значительно снижена!",
     ["Memories can be stolen, and identities can be forged. In the end, even \"who you are\" becomes a lie."] = "Воспоминания можно украсть, личность можно подделать. В конце концов даже вопрос «кто ты?» становится ложью.",
-    ["领主"] = "Lord",
-    ["弗莱"] = "",
+    ["领主"] = "Лорд",
+    ["Blacklist Skill ID List"] = "Список ID навыков в чёрном списке",
+    ["弗莱"] = "Фрай",
     ["双生余烬镭射判定区域-585"] = "Twin Embers Laser Hitbox-585",
     ["But not all dangers appear in the form of danger; it will disguise itself, disguise itself as a blessing, disguise itself as faith, and even disguise itself as a kind of gift."] = "Но не все опасности проявляются в форме опасности; оно замаскируется, замаскируется под благословение, замаскируется под веру и даже замаскируется под своего рода дар.",
 }

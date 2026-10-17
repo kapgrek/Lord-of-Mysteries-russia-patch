@@ -272,6 +272,7 @@ return {
     ["稀有·隐秘披风每战保护"] = "Редкое·Скрытный плащ: защита за бой",
     ["Restores SAN value in an area, increases Knowledge, Strength, Charisma, and Intuition, and adds <HighLight>Blessing of True Knowledge</>, <HighLight>Where Holy Light Reaches</>, and <HighLight>Benediction of True Knowledge</>."] = "Восстанавливает SAN в области, повышает Знания, Силу, Обаяние и Интуицию, а также накладывает <HighLight>Покров истинного знания</>, <HighLight>Где пал святой свет</> и <HighLight>Благословение истинного знания</>.",
     ["莪恏想念甜豆花。"] = "Я так скучаю по сладкому доуха.",
+    ["Ghost Spawn"] = "Появление призрака",
     ["终末猎杀-草丛20逐簇隐匿08"] = "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 08",
     ["红帽子祭司"] = "Жрец в красном колпаке",
     ["松针大油边😡我去好香啊😍"] = "Сторона масла хвои 😡 Ух ты, оно так вкусно пахнет 😍",

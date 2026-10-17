@@ -295,5 +295,5 @@ return {
     ["End-Times Hunt Daily"] = "Ежедневная охота Конца",
     ["But in the blink of an eye, you were gone. I looked for you for ages, never expecting you to have slept the entire night in this stinking place."] = "А в итоге ты в мгновение ока исчез. Я тебя долго искала, а ты, оказывается, проспал всю ночь в этом вонючем месте.",
     ["请从以下成员中编列本次巡游队列"] = "Составьте очередь шествия из следующих участников",
-    ["飞升"] = "Ascension",
+    ["飞升"] = "Вознесение",
 }

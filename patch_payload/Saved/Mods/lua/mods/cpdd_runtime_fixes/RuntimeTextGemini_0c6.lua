@@ -268,7 +268,9 @@ return {
     ["特别订购"] = "Особый заказ",
     ["Reality Line Chapter 7 - Monocle"] = "Реальная линия, глава 7 - Монокль",
     ["Gain <HighLight>1 Hexcraft Emblem</>. With Hexcraft active, each Hexcraft unit's <HighLight>first skill cast</> each battle refunds <HighLight>20 Mana</>."] = "Получите <HighLight>1 эмблему Заклятия</>. При активном Заклятии каждая фигура Заклятия при <HighLight>первом применении навыка</> за бой возвращает <HighLight>20 ед. маны</>.",
-    ["跪地"] = "Kneel",
-    ["领取6次躺赢奖励"] = "Claim Idle Rewards 6 times",
+    ["跪地"] = "Встать на колени",
+    ["Caravan level reaches 24"] = "Уровень каравана достигает 24",
+    ["Caravan level reaches 36"] = "Уровень каравана достигает 36",
+    ["领取6次躺赢奖励"] = "Получите награду за простой 6 раз",
     ["Control/Damage"] = "Контроль/Урон",
 }

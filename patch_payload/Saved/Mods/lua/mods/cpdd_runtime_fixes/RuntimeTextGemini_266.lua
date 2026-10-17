@@ -264,8 +264,9 @@ return {
     ["看看<h>铁罐</>"] = "Осмотреть <h>жестяную банку</>",
     ["Have an extraordinary day! Tickets this way!"] = "Желаю вам необыкновенного дня! За билетами сюда!",
     ["记录线索"] = "Записать улики",
-    ["这确实太巧了……对了，那你不用送信吗？"] = "That is indeed too much of a coincidence... By the way, don't you need to deliver letters?",
-    ["非凡世界徽章"] = "Extraordinary World Badge",
+    ["这确实太巧了……对了，那你不用送信吗？"] = "Какое совпадение... Кстати, тебе разве не нужно разносить письма?",
+    ["Unleashes a malicious shockwave, dealing <Yellow>327</> Attack damage to enemies ahead at one or two stars. Gains <HighLight>25%</> Attack and <HighLight>30</> Defense for <HighLight>4</> seconds. At three stars, damage increases to <Yellow>705</>."] = "Высвобождает злобный удар: на 1–2 звёздах наносит врагам впереди <Yellow>327</> ед. урона от атаки, повышает собственную атаку на <HighLight>25%</> и защиту на <HighLight>30</> ед. на <HighLight>4</> сек. На 3 звёздах урон повышается до <Yellow>705</> ед.",
+    ["非凡世界徽章"] = "Значок Мира Потусторонних",
     ["完成当前步骤的所有子目标  玩家变身开始"] = "Выполните все подцели текущего шага; начинается трансформация игрока.",
     ["与Npc进行对话  传送回大世界场景"] = "Поговорите с NPC, телепортируйтесь обратно на главную мировую сцену.",
 }

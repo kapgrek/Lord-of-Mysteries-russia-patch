@@ -274,7 +274,7 @@ return {
     ["思绪随旋律飘荡，在回忆与现实间游走。"] = "Мысли плывут вслед за мелодией, блуждая между воспоминаниями и реальностью.",
     ["Rare · Abundance Robe Battle Start Shield"] = "Редкое · Щит начала боя робы изобилия",
     ["Blood Blade 4-player crit attribute"] = "Крит. удар Кровавого клинка (4 игрока)",
-    ["邓恩好感度达到4级解锁"] = "Unlocked when Dunn's favorability reaches level 4.",
+    ["邓恩好感度达到4级解锁"] = "Разблокируется при достижении 4-го уровня расположения Дана",
     ["Tab轮选测试配置-血量优先-仅怪物"] = "Tab Selection Test Config - HP Priority - Monsters Only",
     ["Anti-Invisibility"] = "Анти-невидимость",
     ["采集指定TemplateID的采集物  对象同场景传送"] = "Собрать предмет с указанным TemplateID: объект телепортируется в пределах одной сцены.",

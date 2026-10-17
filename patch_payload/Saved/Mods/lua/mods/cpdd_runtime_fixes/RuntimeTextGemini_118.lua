@@ -282,7 +282,8 @@ return {
     ["Rare Swift Life Plate Attack Speed Layer"] = "Редкое·Проворная жетон-карта жизни: слой скорости атаки",
     ["Let's just say we three brothers have a good relationship!"] = "Считай, мы трое братьев в хороших отношениях!",
     ["Draw Constellation"] = "Начертить созвездие",
-    ["费伊女士，您来了？"] = "Ms. Faye, you've arrived?",
-    ["那边有熟悉的身影"] = "There is a familiar figure over there.",
+    ["费伊女士，您来了？"] = "Госпожа Фэй, вы пришли?",
+    ["那边有熟悉的身影"] = "Там знакомая фигура",
+    ["Evernight Goddess Badge Pursuit"] = "Преследование значка Богини Вечной Ночи",
     ["Grady"] = "Грейди",
 }

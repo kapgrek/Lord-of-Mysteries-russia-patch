@@ -286,6 +286,8 @@ return {
     ["It's alright, Your Excellency. May I ask, you aren't a fan of Pakina, are you? I noticed that you don't seem to have the kind of enthusiasm one should have when meeting their idol."] = "Ничего страшного, ваше превосходительство. Позвольте спросить: вы ведь не поклонник Пакины? Мне кажется, в вас нет того пыла, какой бывает при встрече с кумиром.",
     ["Rare Twilight City Iron Armor Defense Layer"] = "Редкое·Железные доспехи сумеречного города: слой защиты",
     ["累充称号有哪些"] = "Какие есть титулы за накопленное пополнение",
+    ["Identity Swap"] = "Обмен личностями",
+    ["Demoness's Curse"] = "Проклятие Демоницы",
     ["我的诗，好像只肯生在这里的灯光下。换个地方，我怕就写不出来了。"] = "Мои стихи словно рождаются лишь под этим светом. Боюсь, в другом месте я уже не смогу ничего написать.",
     ["别说了，听了那些故事，我一整晚都没睡好。"] = "Хватит болтать, я плохо спал всю ночь после того, как услышал эти истории.",
     ["That damn Pinoia deceived me!\n\n	He took 3 pounds from me, but didn't help me pass the exam!\n\n	Damn rat! Thief! I will never let him go!"] = "Проклятый Пинойя обманул меня!\n\n	Он забрал у меня целых 3 золотых фунта, но так и не помог мне сдать экзамен!\n\n	Чёртова крыса! Вор! Я ни за что его не прощу!",

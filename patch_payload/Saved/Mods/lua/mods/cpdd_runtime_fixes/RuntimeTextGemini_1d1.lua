@@ -294,6 +294,8 @@ return {
     ["每天四种口味任选，好吃到不想回家乡！"] = "Каждый день на выбор четыре вкуса, такие вкусные, что не захочется возвращаться домой!",
     ["Abyssal Master"] = "Владыка Бездны",
     ["Participate in the Dungeon <Highlight>May Manor · Garden (Normal)</> in party mode. After defeating the <Highlight>Alienated Hound</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment."] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Сад (Обычно)</>. После победы над <Highlight>Обращённой гончей</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить обмениваемое снаряжение.",
+    ["That should do it. Just recite the incantation to burn the scroll and release the power within."] = "Вот и всё. Достаточно произнести заклинание, и свиток сгорит, высвободив заключённую в нём силу.",
+    ["Gluttony Growth Stage 19"] = "Рост Обжоры: стадия 19",
     ["Norma"] = "Норма",
     ["灾厄沉寂，时针暂止于此刻"] = "Бедствие замолчало, часовая стрелка в этот момент останавливается",
 }

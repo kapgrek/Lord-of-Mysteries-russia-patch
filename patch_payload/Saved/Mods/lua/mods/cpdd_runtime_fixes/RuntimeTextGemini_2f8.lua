@@ -279,8 +279,8 @@ return {
     ["糟糕！谁把窗户打开了？"] = "Беда! Кто открыл окно?",
     ["The stench must have been caused by those heretics!"] = "Эту вонь наверняка устроили те еретики!",
     ["Average refinement level of Equipment reaches 85%"] = "Средний уровень улучшения экипировки достигает 85%",
-    ["遨游命运的影子。"] = "Shadow of Wandering Fate.",
-    ["那么很幸运，{{先生|小姐}} 。你在很年轻的时候就到过贝克兰德，那么以后不管你到哪里去，它的气质都会跟着你。"] = "Then you are very lucky, {{Mr.|Ms.}}. You arrived in Backlund at a very young age, so no matter where you go in the future, its temperament will follow you.",
-    ["奖励已领取"] = "",
+    ["遨游命运的影子。"] = "Тень блуждающей судьбы.",
+    ["那么很幸运，{{先生|小姐}} 。你在很年轻的时候就到过贝克兰德，那么以后不管你到哪里去，它的气质都会跟着你。"] = "Тогда вам повезло, {{господин|госпожа}}. Вы попали в Бэкланд совсем молодым, и куда бы вы ни отправились, его дух будет с вами.",
+    ["奖励已领取"] = "Награда получена",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Object stops playing 3D sound effect  Object plays specified dialogue content"] = "Собрать элемент коллекции с указанным TemplateID. Проигрыватель создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Объект прекращает воспроизведение трехмерного звукового эффекта. Объект воспроизводит указанное содержимое диалога.",
 }

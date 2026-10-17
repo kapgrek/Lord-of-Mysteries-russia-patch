@@ -273,9 +273,9 @@ return {
     ["Participate in the Dungeon <Highlight>Tree of Abundance (Normal)</> in party mode. After defeating the <Highlight>Misfortune Water Giant Turtle</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Древо изобилия (Обычно)</>. После победы над <Highlight>Гигантской черепахой злых вод</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["罪恶廷根狂热脉冲"] = "Импульс фанатизма Греховного Тингена",
     ["Sylvia post-battle aura cleanup"] = "Очистка ауры Сильвии после боя",
-    ["跟邮差进入大楼"] = "Enter the building with the postman",
-    ["追随被美神眷顾的<P_Yellow>{{CustomText}}</>是我们的荣光，前方已畅通无阻，请。"] = "Following the <P_Yellow>{{CustomText}}</> favored by the Goddess of Beauty is our glory. The path ahead is clear; please proceed.",
-    ["金秋湖东前往廷根东北"] = "From East Golden Autumn Lake to Northeast Tingen",
+    ["跟邮差进入大楼"] = "Войти в здание с почтальоном",
+    ["追随被美神眷顾的<P_Yellow>{{CustomText}}</>是我们的荣光，前方已畅通无阻，请。"] = "Следовать за <P_Yellow>{{CustomText}}</>, удостоенным милости Богини Красоты, — наша честь. Путь впереди свободен, прошу.",
+    ["金秋湖东前往廷根东北"] = "Из Восточного берега Золотого осеннего озера на северо-восток Тингена",
     ["开启灵视  玩家设置任务标记"] = "Активировать духовное зрение; игрок устанавливает квестовую метку.",
     ["August 11th, 8 PM, Mrs. Lawis, who made a living making matchboxes on <Tips id=\"#160\">Iron Cross Street Lower Street</>, died of a sudden illness. Died of a sudden illness. \n     Due to the recent number of <Mark id=\"#159\">abnormal death cases</> exceeding the normal value, it has been handed over to the Loen Kingdom."] = "11 августа в 8 часов вечера на <Tips id=\"#160\">Нижней улице Железного Креста</> миссис Лоуис, зарабатывавшая на жизнь клейкой спичечных коробков, скоропостижно скончалась от болезни. Скоропостижно скончалась от болезни.\n     Поскольку за последнее время число <Mark id=\"#159\">подозрительных смертей</> превысило обычную норму, дело было передано Королевской полиции Лоэна.",
 }

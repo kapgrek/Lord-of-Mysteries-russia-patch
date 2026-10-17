@@ -255,6 +255,7 @@ return {
     ["Slide Rail 3"] = "Направляющая 3",
     ["能看到旗帜之处……皆是被征服之地……"] = "Всюду, где виден флаг... лежат покорённые земли...",
     ["Observe Hicks"] = "Осмотреть Хикса",
+    ["There is a familiar figure over there."] = "Там знакомая фигура",
     ["终末猎杀-草丛13逐簇隐匿09"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 09",
     ["终末猎杀-草丛21合并隐匿04（含2块原范围）"] = "Final Hunt - Bush 21 Merged Concealment 04 (Includes 2 original areas)",
     ["Perhaps before that, I—Roselle Gustav, the Emperor of Intis, will eventually return."] = "Возможно, раньше этого я, Розель Густав, Император Интиса, в конце концов вернусь.",

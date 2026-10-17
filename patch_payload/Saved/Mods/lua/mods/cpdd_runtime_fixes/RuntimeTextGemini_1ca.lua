@@ -285,5 +285,6 @@ return {
     ["等级排序"] = "Сорт. по уровню",
     ["Participate in the Dungeon <Highlight>May Manor · Castle (Hard)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Замок (Сложно)</>. После победы над <Highlight>Стражем потомства</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["终有归途"] = "Путь домой",
+    ["Holy Spirit who pursues knowledge, lighthouse of the mysterious world, eye that peers into fate, king above the seas, the holy Bernadette Gustav."] = "Святой дух, ищущий знания, маяк мира тайн, глаз, вглядывающийся в судьбу, король над морем, священная Бернадетт Густав.",
     ["消耗%d/1000000城堡资产。"] = "Поглотите %d/1 000 000 активов замка.",
 }

@@ -257,7 +257,7 @@ return {
     ["Explosion Apple Head levitation removed."] = "Парение Взрывной яблочной головы закончилось",
     ["Complete 100 Arcane Offerings in total"] = "Совершите 100 тайных подношений в сумме",
     ["Bat Ears"] = "Ушки летучей мыши",
-    ["还是算了，我的份也给你们吧。"] = "Never mind, you can have my share too.",
+    ["还是算了，我的份也给你们吧。"] = "Ладно, пусть и моя доля достанется вам.",
     ["【普通】童话故事-dj搜索出所有的的玩家"] = "[Normal] Fairy Tale-dj search for all players",
     ["在罪恶廷根不超过170秒完成一次挑战“头狼”鲁珀。"] = "Бросьте вызов Люперу, Альфа-Волку в Sinful Тинген, за 170 секунд.",
 }

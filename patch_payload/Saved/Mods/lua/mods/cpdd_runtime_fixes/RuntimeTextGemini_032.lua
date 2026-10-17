@@ -293,7 +293,7 @@ return {
     ["Beyonder attacks on others prohibited"] = "Запрет нападения Потусторонних на других",
     ["Desperate Shield 4-player low HP Shield"] = "Абсолютный щит: щит при низком HP, 4 игрока",
     ["Crimson Believer Badge Casting"] = "Знак Багрового верующего: применение",
-    ["隐秘空间-小丑3-黑桃A"] = "Hidden Space-Clown 3-Ace of Spades",
-    ["隐秘空间-跳跃测试-蓝平台默认状态(缩小)"] = "Hidden Space-Jump Test-Blue Platform Default State (Shrunk)",
+    ["隐秘空间-小丑3-黑桃A"] = "Скрытое пространство - Клоун 3 - Туз пик",
+    ["隐秘空间-跳跃测试-蓝平台默认状态(缩小)"] = "Скрытое пространство — Тест прыжка — синяя платформа по умолчанию (уменьшенная)",
     ["[Evernight Goddess Church]"] = "[Церковь Богини Вечной Ночи]",
 }

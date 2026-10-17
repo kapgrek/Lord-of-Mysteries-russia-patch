@@ -273,8 +273,9 @@ return {
     ["稀有·丰饶护袍开战护盾"] = "Редкое · Щит начала боя робы изобилия",
     ["Assault the farthest enemy. Three attacks deal a total of {*d,F1690001,atkMin,50} Attack damage and leave behind Primal Black Flame that deals {*d,F1690001,atkMin,3.3333} Attack damage per second. A maximum of <HighLight>3</> Black Flames can exist, lasting until self is Dead or the battle ends. If you kill the target selected by this skill, your Mana is restored to its maximum."] = "Внезапно атакует самого дальнего врага. Три удара наносят в сумме {*d,F1690001,atkMin,50} ед. урона атаки и оставляют Изначальное черное пламя, наносящее {*d,F1690001,atkMin,3.3333} ед. урона атаки в секунду. Одновременно может существовать не более <HighLight>3</> очагов черного пламени, они горят до смерти владельца или конца боя. После убийства цели, выбранной этим навыком, мана восстанавливается до максимума.",
     ["组队模式参加副本<Highlight>大帝重临（困难）</>，完成阶段<Highlight>污染意志</>后，可以参与公共掉落的分配与拍卖。有概率获得下列外观。"] = "В групповом режиме пройдите подземелье <Highlight>Возвращение императора (Сложно)</>. После завершения этапа <Highlight>Осквернённая воля</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
-    ["钟声洪亮"] = "The bell rings loudly",
-    ["霜陨领主争夺战获得1次全场最佳"] = "Achieve MVP once in the Frostfall Lord Battle",
+    ["钟声洪亮"] = "Громкий звон колокола",
+    ["From East Snowy Mountain to North Snowy Mountain"] = "Из восточных снежных гор в северные снежные горы",
+    ["霜陨领主争夺战获得1次全场最佳"] = "Станьте лучшим игроком матча в битве за лорда Морозного падения 1 раз",
     ["Chapter Three"] = "Глава Третья",
     ["<P_Heart>（还是及时止损吧……）</>"] = "<P_Heart> (Лучше сократить мои потери сейчас...) </>",
 }

@@ -303,8 +303,8 @@ return {
     ["Camera: Joyce in the sofa area"] = "Камера: Джойс в зоне дивана",
     ["稀有·壁垒战盔开战护盾"] = "Редкое · Щит начала боя шлема-оплота",
     ["Obtain a total of 5000 Invoices"] = "Получите в сумме 5000 счетов-квитанций",
-    ["造成或受到伤害时，攻击提高<HighLight>1.5%</>，最多叠加<HighLight>15</>层。"] = "When dealing or receiving damage, Attack is increased by <HighLight>1.5%</>, stacking up to <HighLight>15</> times.",
-    ["额外获得<HighLight>30</>点防御，前<HighLight>10</>秒再提高<HighLight>10%</>。"] = "Gain an additional <HighLight>30</> points of Defense, with an extra <HighLight>10%</> for the first <HighLight>10</> seconds.",
+    ["造成或受到伤害时，攻击提高<HighLight>1.5%</>，最多叠加<HighLight>15</>层。"] = "При нанесении или получении урона атака повышается на <HighLight>1.5%</>, суммируется до <HighLight>15</> раз.",
+    ["额外获得<HighLight>30</>点防御，前<HighLight>10</>秒再提高<HighLight>10%</>。"] = "Дополнительно получает <HighLight>30</> ед. защиты, в первые <HighLight>10</> сек. ещё на <HighLight>10%</> больше.",
     ["Jani"] = "Яни",
     ["消耗<img id=\"2000529\" width=\"42\" height=\"42\"/>60开启"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>60, чтобы открыть",
 }

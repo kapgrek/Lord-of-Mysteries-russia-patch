@@ -296,8 +296,10 @@ return {
     ["现实线第六章-战斗后安抚芬奇"] = "Реальная линия, глава 6 - Успокоить Финча после боя",
     ["Web Novel"] = "Веб-роман",
     ["Record: Card Rain (Modified)"] = "Запись: Дождь из карт (измен.)",
-    ["返回<h>花海</>"] = "Return to the <h>sea of flowers</>.",
-    ["这一页，该翻过去了！"] = "This page must be turned!",
+    ["Caravan level reaches 23"] = "Уровень каравана достигает 23",
+    ["返回<h>花海</>"] = "Вернуться в <h>море цветов</>",
+    ["这一页，该翻过去了！"] = "Эту страницу пора перевернуть!",
+    ["Hidden Space - Snowy Plains of Eternal Night - Ending Dialogue"] = "Тайное пространство — Снежная равнина вечной ночи — финальный диалог",
     ["Young people!\nDo not let the fire of wisdom be extinguished between your fingers!\n\nAnyone who has received a school admission notice but cannot afford the tuition,\nthe Loen Charity Scholarship Foundation will help you with your studies.\n\nApplication Qualifications:\nMust hold a parish recommendation letter or school admission notice, and family income proof\n\nApplication Method:\nSubmit your self-recommendation letter to the <Highlight>local Evernight Church</>"] = "Юноши и девушки!\nНе дайте пламени мудрости угаснуть в ваших руках!\n\nКаждому, кто получил извещение о зачислении в школу, но не в силах оплатить обучение,\nБлаготворительный стипендиальный фонд Лоэна поможет обрести знания.\n\nТребования к соискателям:\nНеобходимо предоставить рекомендательное письмо прихода или извещение о зачислении в школу, а также справку о доходах семьи.\n\nПодача заявления:\nОпустите рекомендательное письмо в <Highlight>местной церкви Богини Вечной Ночи</>.",
     ["诸位 笑一个吧 感谢你们帮我找到笔记"] = "Все, улыбнитесь. Спасибо, что помогли мне найти записи.",
 }

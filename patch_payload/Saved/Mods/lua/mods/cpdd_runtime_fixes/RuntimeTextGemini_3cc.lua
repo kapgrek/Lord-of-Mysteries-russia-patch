@@ -295,5 +295,6 @@ return {
     ["Besides, that place is exceptionally cold. Even if the snow melts at the foot of the mountain in summer, it's still like winter up there."] = "К тому же там особенно холодно: даже если летом у подножия горы тает снег, наверху всё равно как зимой.",
     ["船员4"] = "Член экипажа 4",
     ["蛋筒"] = "Вафельный рожок",
-    ["顶顶好运"] = "Super Good Luck",
+    ["Azik will take you to his Office. Confirm?"] = "Азик отведёт вас в свой кабинет. Подтвердить переход?",
+    ["顶顶好运"] = "Великая удача",
 }

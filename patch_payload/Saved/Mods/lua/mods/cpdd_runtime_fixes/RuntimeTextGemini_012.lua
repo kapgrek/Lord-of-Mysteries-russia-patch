@@ -276,6 +276,7 @@ return {
     ["Examine <h>recruitment poster</>"] = "Осмотреть <h>плакат набора</>",
     ["Spirit Blessing Crystal Pendant Shield"] = "Щит кулона Духовного покровительства",
     ["The plants nourished by spirituality shimmer, growing quietly in the fog without the need for care."] = "Растения, питаемые Духовностью, слабо мерцают и тихо растут в тумане без всякого ухода.",
+    ["Dylan? What's wrong with you?"] = "Дилан? Что с тобой?",
     ["终末猎杀-草丛01逐簇隐匿07"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 07",
     ["等待时间  玩家播放仅自己可见的说话文本  延迟执行  玩家播放仅自己可见的说话文本"] = "Время ожидания. Игрок воспроизводит речевой текст, видимый только для себя. Отложенное выполнение. Игрок воспроизводит речевой текст, видимый только для себя.",
     ["Play Dialogue  Player plays story dialogue"] = "Воспроизвести диалог Игрок воспроизводит диалог истории",

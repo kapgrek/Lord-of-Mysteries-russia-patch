@@ -285,6 +285,8 @@ return {
     ["称号怎么获得"] = "Как получить титулы",
     ["Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Player Mark Buff 1"] = "Босс Розель (сложный) - 2 фаза - Программа самоочистки - Бафф метки игрока 1",
     ["计算成功2/3，全队攻速小幅提升！"] = "Расчёт удался 2/3, скорость атаки всей команды немного повышена!",
-    ["阿蒙 远古太阳神的次子 出生就是错误途径的天使之王"] = "Amon, the second son of the Ancient Sun God, was a King of Angels of the Error Pathway from birth.",
-    ["集齐15个可以获得秘偶星之虫·变化，也可用于秘偶星之虫·变化的培养。"] = "Collect 15 to obtain the marionette Worm of Star: Change; they can also be used to upgrade the marionette Worm of Star: Change.",
+    ["Spirit of the Iron Guard"] = "Дух Железной стражи",
+    ["阿蒙 远古太阳神的次子 出生就是错误途径的天使之王"] = "Амон, второй сын Древнего бога Солнца, с рождения Ангел-король Пути Ошибки (Мародера).",
+    ["集齐15个可以获得秘偶星之虫·变化，也可用于秘偶星之虫·变化的培养。"] = "Соберите 15 шт., чтобы получить тайную марионетку «Червь Звезды: Перемены». Также используется для её развития.",
+    ["Brass Book Challenge: Progress point item produced from Competition."] = "Испытание Латунной книги: предмет очков прогресса из состязаний",
 }

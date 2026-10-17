@@ -265,6 +265,7 @@ return {
     ["痛痛痛！再使使劲……我可以出来！"] = "Больно, больно, больно! Поднажми ещё... Я смогу выбраться!",
     ["Wait, you aren't an accomplice of those heretics, are you?"] = "Погоди, ты ведь не сообщник этих еретиков?",
     ["Upper skirt section"] = "Юбка, верхняя часть",
+    ["Do you remember the Psychiatrist I know? She might be able to give you an answer."] = "Помнишь психотерапевта, которого я знаю? Возможно, она даст тебе ответ.",
     ["Melvin"] = "Мелвин",
     ["Consume <img id=\"2000529\" width=\"42\" height=\"42\"/>40 to open"] = "Потратьте <img id=\"2000529\" width=\"42\" height=\"42\"/>40, чтобы открыть",
 }

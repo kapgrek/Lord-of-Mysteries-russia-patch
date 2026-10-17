@@ -286,6 +286,8 @@ return {
     ["罗塞尔Boss困难-1&2阶段-目标数字层数"] = "Босс Розель (сложный) - 1 и 2 фазы - Число слоев цели",
     ["老尼爾"] = "Старый Нил",
     ["If a contestant you voted for finishes in the top %s of this server, you will receive the following upon the event's conclusion:"] = "Если выбранный вами участник войдёт в топ-%s этого сервера, по окончании события вы получите",
+    ["Golden Chess Award"] = "Премия «Золотая шахматная фигура»",
+    ["Sharp Blade"] = "Острый клинок",
     ["【普通】童话故事-苹果骑士-Boss筛选"] = "[Normal] Fairy Tale - Apple Knight - Boss selection",
     ["【自走棋内部效果技能】- 丰饶的赐福-敌方全体圣痕"] = "[Auto Chess Internal Effect Skill] - Gift of Abundance - All enemies Stigmata",
     ["我曾经是这片大地的主人，手持火炮、纵横五海。在属于我的年代里，踩在所有国家的头上，何等畅快！"] = "Когда-то я был владыкой этих земель, сжимая пушки и бороздя Пять Морей. В мою эпоху попирать все государства мира — какое же это было упоение!",

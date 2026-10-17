@@ -287,6 +287,8 @@ return {
     ["王庭权杖"] = "Скипетр королевского двора",
     ["Sacred Light of Life"] = "Священное сияние жизни",
     ["Successfully performed Requiem on %d/40 Beyonders in total"] = "Успешно упокоено Потусторонних: %d/40",
-    ["返回<h>猎犬酒馆</>领取酬劳"] = "Return to the <h>Hound Tavern</> to collect your payment.",
+    ["The maximum number of participants in the queue has been exceeded."] = "Превышено максимальное число участников очереди.",
+    ["返回<h>猎犬酒馆</>领取酬劳"] = "Вернуться в <h>таверну «Гончая»</> за наградой",
+    ["This is part of my transaction with The Fool, and the reward (small print: dual-Pathway True God status) is quite reasonable."] = "Это часть моей сделки с «Шутом», и награда (мелким шрифтом: божественный статус Истинного бога двух Путей) вполне разумна.",
     ["终末猎杀-草丛09合并隐匿02（含2块原范围）"] = "Final Hunt - Bush 09 Merged Concealment 02 (Includes 2 original areas)",
 }

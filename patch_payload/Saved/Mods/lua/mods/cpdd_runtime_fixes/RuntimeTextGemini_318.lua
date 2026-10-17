@@ -305,7 +305,7 @@ return {
     ["Immediately gain <HighLight>1 of every 1-cost unit</>."] = "Немедленно получите <HighLight>по 1 фигуре каждого вида стоимостью 1</>.",
     ["Ultimate Ascension Basic Effect"] = "Базовый эффект предельного вознесения",
     ["Finch doesn't want to be a Clown, and Dylan wants to play the lead role. These thoughts are very important to them—enough to change their fate!"] = "Финч не хочет быть Клоуном, а Дилан хочет сыграть главную роль. Эти мысли очень важны для них и способны изменить судьбу!",
-    ["黑夜女神教会，圣赛琳娜教堂，地底查尼斯门，已转移至5号管禁室。"] = "Church of the Evernight Goddess, Saint Selena Cathedral, underground Chanis Gate, transferred to Containment Chamber No. 5.",
+    ["黑夜女神教会，圣赛琳娜教堂，地底查尼斯门，已转移至5号管禁室。"] = "Церковь Богини Вечной Ночи, Собор Святой Селены, подземные Врата Чаниса, перенесено в камеру заключения №5.",
     ["终末猎杀-草丛06合并隐匿05（含2块原范围）"] = "Final Hunt-Bush 06 Merged Concealment 05 (Includes 2 original areas)",
     ["Steal the eighth measure's rest<P_Yellow></>, cut the tail fin into a Tarot card and toss it into the fog<P_Yellow></>."] = "Украсть паузу в восьмом <P_Yellow>такте</>, обрезать хвостовой плавник под карту Таро и бросить в <P_Yellow>туман</>.",
     ["Brooks"] = "Брукс",

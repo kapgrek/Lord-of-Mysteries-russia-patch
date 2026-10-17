@@ -269,6 +269,8 @@ return {
     ["Test Damage"] = "Тест урона",
     ["Gain <HighLight>1 Clown</>. His skill becomes <HighLight>throwing 2 doomsday cards that pierce enemies, followed by a brief increase to Attack Speed and Attack</>."] = "Получите <HighLight>1 Клоуна</>. Его навык усиливается: <HighLight>бросает 2 карты Конца света, пронзающие врагов, затем ненадолго повышает скорость атаки и силу атаки</>.",
     ["Middle pants section"] = "Брюки, средняя часть",
+    ["Restrict Forward Movement (For copywriters, removed upon exiting scene/plane)"] = "Ограничение движения вперёд (для копирайтеров, снимается при выходе из сцены/плана)",
+    ["The Gear Launcher is too close, it will cause Continuous damage to the surroundings!"] = "Шестерёночная пушка слишком близко и будет непрерывно наносить урон окружающим!",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

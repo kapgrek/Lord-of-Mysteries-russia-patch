@@ -294,6 +294,9 @@ return {
     ["The game has only just begun."] = "Игра только начинается.",
     ["狂风暴雨停歇了"] = "Бушующая буря утихла",
     ["Whenever you are ready, come find me, and I will take you to the Spirit World to set the coordinates!"] = "Когда будешь готов, приходи ко мне в любое время, и я отведу тебя в Мир Духов установить координаты!",
-    ["那您撞上大好运了！刚好有个傻瓜，五分钟前退了张包厢票。"] = "Then you're in luck! A fool just happened to return a box ticket five minutes ago.",
+    ["Long-shot lens"] = "Дальний план",
+    ["那您撞上大好运了！刚好有个傻瓜，五分钟前退了张包厢票。"] = "Вам крупно повезло! Какой-то дурак как раз пять минут назад вернул билет в ложу.",
+    ["Stomp forward, dealing <HighLight>3000%</> Attack damage and knocking back enemies. Gain <HighLight>70%</> Damage Reduction for <HighLight>6</> seconds."] = "Тяжело топает вперёд, нанося <HighLight>3000%</> урона от атаки и отбрасывая врагов. Даёт себе <HighLight>70%</> снижения урона на <HighLight>6</> сек.",
+    ["Gluttony Growth Stage 3"] = "Рост Обжоры: стадия 3",
     ["Cullen"] = "Каллен",
 }

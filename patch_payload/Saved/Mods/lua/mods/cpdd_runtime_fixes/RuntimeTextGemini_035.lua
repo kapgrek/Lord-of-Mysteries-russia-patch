@@ -271,6 +271,7 @@ return {
     ["立即获得<HighLight>1个精良装备宝匣</>，<HighLight>10个对弈回合</>后再获得<HighLight>1个封印装备宝匣</>。"] = "Немедленно получите <HighLight>1 ларец отличного снаряжения</>, а через <HighLight>10 раундов партии</> получите еще <HighLight>1 ларец запечатанного снаряжения</>.",
     ["Ruby Emblem Battle Start Mana Recovery"] = "Рубиновая эмблема: восстановление маны в начале боя",
     ["Sinful Tingen Final Tier Starting Pulse"] = "Стартовый импульс финального уровня Греховного Тингена",
-    ["隐秘空间-永夜雪原-结局对话"] = "Hidden Space - Snowy Plains of Eternal Night - Ending Dialogue",
+    ["When casting <HyperLink stylename=\"M_Link\" u=\"86051020\" color=\"#f4a067\">Spirit World Travel</>, gain an additional <HighLight>1</> stack of <HighLight>Footprints</>."] = "При использовании <HyperLink stylename=\"M_Link\" u=\"86051020\" color=\"#f4a067\">Перемещения по Миру Духов</> дополнительно даёт <HighLight>1</> заряд <HighLight>Следов</>.",
+    ["隐秘空间-永夜雪原-结局对话"] = "Тайное пространство — Снежная равнина вечной ночи — финальный диалог",
     ["击败指定InstanceID的怪物  延迟执行  对象播放指定对白内容"] = "Победить монстра с указанным идентификатором экземпляра. Отложенное выполнение. Объект воспроизводит указанный контент диалога.",
 }

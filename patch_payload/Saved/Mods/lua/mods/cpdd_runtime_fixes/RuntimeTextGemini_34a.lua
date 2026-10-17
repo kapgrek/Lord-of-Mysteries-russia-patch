@@ -286,6 +286,8 @@ return {
     ["晋升任务-终有归途-偷取前"] = "Задание на повышение: Путь домой неизбежен — перед кражей",
     ["Rare Traction Spirit Pendant Critical Hit Monitor"] = "Редкое·Духовный кулон притяжения: отслеживание крит. удара",
     ["Give to the plaza"] = "На площадь",
+    ["Hidden Space - Memory Thief - Irene"] = "Тайное пространство — Похититель воспоминаний — Айрин",
+    ["Carriage Maintenance Oil"] = "Масло для ухода за каретой",
     ["【普通】童话故事-多个舞台区域轮询自己的跳舞玩家"] = "[Normal] Fairy Tale-multiple stage areas poll for their own Dance players",
     ["米尔贡根-王庭之螺-代理（TODO）"] = "Milgongen-Conch of the Royal Court-Agent (TODO)",
     ["Saria"] = "Сария",

@@ -280,7 +280,9 @@ return {
     ["知识荒野已触发"] = "Пустошь знаний активирована",
     ["Gain <HighLight>1 Basic Piece Recorder</>. After <HighLight>5 rounds</>, gain another <HighLight>1</>."] = "Получите <HighLight>1 базовый регистратор фигур</>, а через <HighLight>5 раундов партии</> получите ещё <HighLight>1</>.",
     ["行程中...即将到达【%s】"] = "В пути... Скоро прибытие в «%s»",
-    ["贸易货物"] = "Trade goods",
+    ["贸易货物"] = "Торговые товары",
+    ["Bonnie: A version of me like this cannot save anyone. Since that's the case..."] = "Бонни: Такой, как я сейчас, никого не спасёт. А раз так...",
+    ["The sunlight gradually receded, and the room returned to its usual quiet. Azik opened the door for you to leave.\nHis gentle voice fell behind you: \"Remember to write.\""] = "Солнечный свет постепенно отступил, и в комнате вновь воцарилась привычная тишина. Азик открыл вам дверь на выход.\nЕго мягкий голос раздался за вашей спиной: «Не забывайте писать».",
     ["弗莱队长通常在办公室，我可以帮你转交。"] = "Капитан Фрай обычно в офисе, и я могу передать это вам.",
     ["收获%d/200个优质食坊物产。"] = "Собирайте высококачественные продукты из продовольственного магазина %d/200.",
 }

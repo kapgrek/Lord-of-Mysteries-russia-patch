@@ -266,7 +266,9 @@ return {
     ["Roselle Boss-Stages 1&2-Circle 700"] = "Босс Россель, фазы 1 и 2, круг 700",
     ["罗塞尔Boss-3阶段-灼热目光-点名标记"] = "Босс Россель, фаза 3, Жгучий взгляд: метка цели",
     ["蒸汽时代·余热斗篷护盾"] = "Паровая эра: Щит плаща остаточного жара",
-    ["限时射击_华丽宝箱解锁状态_A"] = "Timed Shoot_Ornate Chest Unlocked_A",
-    ["随机获得<HighLight>2件基础装备</>，并获得<HighLight>2个精良装备宝匣</>、<HighLight>1个装备重铸器</>和<HighLight>3金币</>。"] = "Gain <HighLight>2 random pieces of Basic Equipment</>, <HighLight>2 Fine Equipment Chests</>, <HighLight>1 Equipment Reforger</>, and <HighLight>3 Gold</>.",
+    ["Shall we make a bet?"] = "Может, поспорим?",
+    ["Golden Autumn Market Cruise"] = "Рынок Золотой осени: круиз",
+    ["限时射击_华丽宝箱解锁状态_A"] = "Стрельба на время_Роскошный сундук открыт_A",
+    ["随机获得<HighLight>2件基础装备</>，并获得<HighLight>2个精良装备宝匣</>、<HighLight>1个装备重铸器</>和<HighLight>3金币</>。"] = "Вы получаете <HighLight>2 предмета базового снаряжения</>, <HighLight>2 ларца отличного снаряжения</>, <HighLight>1 переплавщик снаряжения</> и <HighLight>3 монеты</>.",
     ["Coraline"] = "Коралина",
 }

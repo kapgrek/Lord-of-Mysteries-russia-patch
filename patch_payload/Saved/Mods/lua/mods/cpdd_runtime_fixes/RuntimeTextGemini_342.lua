@@ -291,7 +291,8 @@ return {
     ["组队模式参加副本<Highlight>五月庄园·花园（普通）</>，击败<Highlight>异化猎犬</>后，可以参与公共掉落的分配与拍卖。有概率获得下列外观。"] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Сад (Обычно)</>. После победы над <Highlight>Обращённой гончей</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["绝盾6人低血护盾"] = "Абсолютный щит: щит при низком HP, 6 игроков",
     ["The police? The police have already been here, and they didn't find anything."] = "Полиция? Полиция уже приезжала, ничего не обнаружила.",
-    ["跟在你身边做恶作剧的邮差，现在更可能是序列3污染分身。"] = "The postman who was playing pranks by your side is now more likely a Sequence 3 corruption clone.",
-    ["还可以，我在贝克兰德技术大学读书，正在做毕业设计。"] = "I'm doing alright. I'm studying at Backlund Technical University and am currently working on my graduation project.",
-    ["还在调查失忆的事吗？对了，您昨天打听过那个钟表匠威廉先生，他以前每天都会来买一份报纸，给<P_Yellow>他母亲</>带回去，他母亲老糊涂了，一直是他在照顾。"] = "Still investigating the memory loss? Oh, right, you were asking about that clockmaker, Mr. William, yesterday. He used to come by every day to buy a newspaper to take back to <P_Yellow>his mother</>. His mother is senile, and he has always been the one taking care of her.",
+    ["跟在你身边做恶作剧的邮差，现在更可能是序列3污染分身。"] = "Почтальон, что шутил рядом с вами, теперь скорее всего скверный двойник Последовательности 3.",
+    ["还可以，我在贝克兰德技术大学读书，正在做毕业设计。"] = "Неплохо. Я учусь в Бэклендском техническом университете и сейчас делаю дипломный проект.",
+    ["还在调查失忆的事吗？对了，您昨天打听过那个钟表匠威廉先生，他以前每天都会来买一份报纸，给<P_Yellow>他母亲</>带回去，他母亲老糊涂了，一直是他在照顾。"] = "Всё ещё расследуете потерю памяти? Кстати, вчера вы расспрашивали о часовщике, господине Уильяме. Раньше он каждый день покупал газету и относил <P_Yellow>матери</>. Мать у него совсем выжила из ума, и он всегда сам за ней ухаживал.",
+    ["Dylan, wake up. Do you still remember who you are?"] = "Дилан, очнись! Ты помнишь, кто ты?",
 }

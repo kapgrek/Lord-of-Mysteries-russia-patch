@@ -290,8 +290,10 @@ return {
     ["有什么事吗，{{PlayerName}}？"] = "Что-то случилось, {{PlayerName}}?",
     ["现在还是不清楚艾玛失忆的原因……"] = "До сих пор неясна причина потери памяти Эммы...",
     ["Hey! You're just going to run off after winning? Are we still going to fight or not?!"] = "Эй! Победил и убегаешь? Так мы будем драться или нет?!",
-    ["里维尔的绝望嘶喊"] = "Riviere's Desperate Scream",
-    ["隐秘空间-昔影重现"] = "Hidden Space-Reappearance of Past Shadows",
+    ["Then you could try the special drink menu on Lonzi's day off."] = "Тогда загляните на особую винную карту в выходной Лонзи.",
+    ["Collect - Suitcase"] = "Сбор · Чемодан",
+    ["里维尔的绝望嘶喊"] = "Отчаянный крик Ривьера",
+    ["隐秘空间-昔影重现"] = "Скрытое пространство - Возвращение теней прошлого",
     ["Peg"] = "Пег",
     ["播放CutScene  NPC停止正在播放的Gossip文本"] = "Поиграйте в КатСцену. NPC перестает проигрывать текст Сплетни.",
 }

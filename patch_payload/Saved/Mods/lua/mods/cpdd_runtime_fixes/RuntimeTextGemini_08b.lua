@@ -294,7 +294,8 @@ return {
     ["The God's transaction"] = "Сделка бога",
     ["From West Flower Sea to South Flower Sea"] = "Запад Цветочного моря — юг Цветочного моря",
     ["获得连射"] = "Получить «Скорострельность»",
-    ["那索尔斯呢？他会拥有什么样的结局？"] = "What about Solus? What kind of fate will he have?",
-    ["限制区域"] = "Restricted Area",
-    ["已领取"] = "",
+    ["And the month after next, and the month after that!"] = "И ещё через месяц, и ещё через один!",
+    ["那索尔斯呢？他会拥有什么样的结局？"] = "А что с Солсом? Какой конец его ждёт?",
+    ["限制区域"] = "Ограниченная зона",
+    ["已领取"] = "Получено",
 }

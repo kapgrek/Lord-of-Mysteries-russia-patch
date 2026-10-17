@@ -275,6 +275,7 @@ return {
     ["Endlands"] = "Конечные земли",
     ["罗塞尔Boss困难-知识抽取-法术书"] = "Босс Росселл (сложн.) - Извлечение знаний - Книга заклинаний",
     ["Backlund Shared Apartment"] = "Съёмный дом в Бэкланде",
+    ["Follow the orchestra members."] = "Следуйте за участниками оркестра",
     ["【普通】童话故事-青蛙王子-舞伴连连看-清除所有人连线"] = "[Normal] Fairy Tale - Frog Prince - Dance Partner Match - Clear all connections",
     ["Tab轮选测试配置-距离优先（退化1）-仅怪物"] = "Tab Selection Test Config - Distance Priority (Degradation 1) - Monsters Only",
     ["罗塞尔Boss困难-3阶段-磁电回收-扇形法术代理"] = "Roselle Boss Hard - Phase 3 - Electromagnetic Recovery - Fan-Shaped Spell Agent",

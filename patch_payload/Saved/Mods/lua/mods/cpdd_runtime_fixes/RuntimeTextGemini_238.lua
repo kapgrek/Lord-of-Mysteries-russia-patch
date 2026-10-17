@@ -292,7 +292,7 @@ return {
     ["聊聊其他见闻"] = "Поговорить о других новостях",
     ["草丛隐匿光环-草丛14"] = "Аура скрытности в кустах - куст 14",
     ["Ask Miss Justice"] = "Спросить госпожу «Справедливость»",
-    ["金秋湖东前往金秋湖北"] = "From East Golden Autumn Lake to North Golden Autumn Lake",
+    ["金秋湖东前往金秋湖北"] = "Из Восточного берега Золотого осеннего озера на Северный берег",
     ["Zola"] = "Золя",
     ["……曾经，他还是个体面的商人。后来，他的工厂开始有工人失踪。"] = "...Когда-то он был приличным бизнесменом. Позже на его фабрике начали пропадать рабочие.",
     ["Refreshments here are provided free of charge by Ms. Cuthbert, please help yourself.\n\nIf the freshness of the lemon cake piques your interest,\n\nmay the sweetness of the chocolate milk shell bring you happiness.\n\nWelcome to the Cuthbert Dessert Club on Zorant Street; we look forward to having someone with your taste join us."] = "Напитки здесь предоставляются бесплатно г-жой Катберт, пожалуйста, не стесняйтесь их брать. \n\nЕсли свежесть лимонного пирога может пробудить у вас интерес, то сладость \n\nшоколадных моллюсков может принести вам счастье. \n\n Добро пожаловать в десертный клуб Cuthbert на улице Золант, мы с нетерпением ждем, когда к нам присоединятся люди с таким вкусом, как вы.",

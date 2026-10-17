@@ -294,5 +294,7 @@ return {
     ["What a pity. I had thought that He wouldn't personally glance at you, but it seems I still underestimated you."] = "Как жаль. Я думал, Он не удостоит тебя и взглядом, но, похоже, я всё же недооценил тебя.",
     ["绯红命运【需要替换CS"] = "Багровая судьба [нужна замена CS",
     ["Tofu pudding should definitely be eaten spicy."] = "Доухуа, конечно, нужно есть острым.",
+    ["Mirror Server 2 Cross-Server Strategy Server"] = "Зеркальный сервер 2, межсерверный стратегический сервер",
+    ["The pure one who drives away Darkness, the priest whose every action is Justice, the Bard who chases the Light, the priest of the King of Space-Time, the warm Sun that forever carries Hope and ideals."] = "Чистый, изгоняющий Тьму, жрец, чьи деяния всегда справедливы, Бард, стремящийся к свету, служитель Короля пространства-времени, тёплое Солнце, несущее надежду и идеалы.",
     ["Ruola"] = "Руола",
 }

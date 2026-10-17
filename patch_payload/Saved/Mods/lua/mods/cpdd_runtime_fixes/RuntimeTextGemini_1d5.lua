@@ -277,7 +277,9 @@ return {
     ["Happy birthday, my little Angel!\nThis music box is for you,\nlet it sing a happy song for you every day."] = "С днём рождения, мой маленький ангел!\nЭта музыкальная шкатулка тебе в подарок,\nпусть она каждый день поёт тебе весёлые песни.",
     ["观战席位已满"] = "Места для зрителей заняты",
     ["詐騙"] = "Мошенничество",
-    ["风尚度最高玩家表现buff"] = "Fashion Rating highest player performance buff",
+    ["Shut up, you stinking bird! I've lost my memory, don't cause trouble!"] = "Замолчи, вонючая птица! Я потерял память, не создавай проблем!",
+    ["风尚度最高玩家表现buff"] = "Бафф игрока с наивысшим стилем",
+    ["Gluttony Growth Stage 18"] = "Рост Обжоры: стадия 18",
     [".p4config and"] = ".p4config и",
     ["Aist"] = "Аист",
 }

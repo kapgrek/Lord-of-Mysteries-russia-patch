@@ -276,7 +276,7 @@ return {
     ["Swift Hunt"] = "Стремительная охота",
     ["线索1"] = "Улика 1",
     ["Although the flower has faded, it still exists in the dreams of everyone who has seen it in full bloom."] = "Хоть цветок и поблёк, он всё ещё живёт в снах каждого, кто видел его в полном цвету.",
-    ["追上了露比的马车"] = "Caught up to Ruby's carriage",
+    ["追上了露比的马车"] = "Догнали карету Руби",
     ["名称："] = "Имя:",
     ["Alena"] = "Алена",
 }

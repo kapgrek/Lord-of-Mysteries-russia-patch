@@ -290,6 +290,8 @@ return {
     ["Gain 1 Development Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>68 Item Level</> orange or golden quality Equipment, as well as a Contract of Trade that can be used in the <Highlight>Trading Bazaar</> to exchange for <Highlight>tradable items</>, including <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder materials, medicine, food, etc."] = "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 ящик ресурсов развития. В нём случайно выпадает снаряжение оранжевого или золотого качества с <Highlight>уровнем 68</>, а также Договор о торговле, который можно обменять на <Highlight>обмениваемые предметы</> на <Highlight>Торговом базаре</>: <Highlight>обмениваемые</> оранжевые ящики потустороннего снаряжения, ларцы серой пыли, ларцы серых кристаллов, золотую нить, потусторонние материалы, лекарства, еду и т. д.",
     ["点击查看全部外观"] = "Нажмите, чтобы посмотреть все облики",
     ["询问<h>威尔</>"] = "Спросить <h>Уилла</>",
+    ["Wrong, I value them very much. Ants trying to carry food heavier than themselves is more spectacular than any drama."] = "Неверно, я очень ценю их. Муравьи, пытающиеся утащить еду тяжелее себя, зрелищнее любой драмы.",
+    ["The carriage has arrived at %s"] = "Карета прибыла в %s",
     ["【自走棋】-\"律令师\"休·迪尔查-囚禁"] = "[Auto Chess] - \"Lawyer\" Xio Derecha - Imprisonment",
     ["Dawson"] = "Доусон",
 }

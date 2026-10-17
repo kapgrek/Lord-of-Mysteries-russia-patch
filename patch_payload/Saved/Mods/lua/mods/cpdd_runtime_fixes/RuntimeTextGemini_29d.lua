@@ -263,7 +263,8 @@ return {
     ["感谢您的配合，我们的演出顺利完成了！"] = "Благодарим за содействие, наше представление прошло успешно!",
     ["Tomorrow (October 12th), I will spark a wave of purchasing for Loen trade goods. Now is the best time to buy them! Let us work together to Make Tingen Great Again!"] = "Завтра (12 октября) я устрою волну закупок торговых товаров Лоэна. Сейчас лучшее время их покупать! Давайте вместе сделаем Тинген снова великим!",
     ["Roselle Boss Hard - Knowledge Extraction - Spellbook - Phase 3"] = "Босс Росселл (сложн.) - Извлечение знаний - Книга заклинаний - 3 фаза",
-    ["跟丽贝卡<h>离开</>"] = "Leave with Rebecca <h>now</>.",
-    ["隐秘空间-跳跃-水晶球默认状态2"] = "Hidden Space-Jump-Crystal Ball Default State 2",
-    ["非凡启程"] = "Beyonder Beginnings",
+    ["跟丽贝卡<h>离开</>"] = "<h>Уйдите</> с Ребеккой",
+    ["Insufficient favor with some contacts; failed to join the display stand."] = "Недостаточно расположения у некоторых связей, не удалось добавить на стенд.",
+    ["隐秘空间-跳跃-水晶球默认状态2"] = "Скрытое пространство — Прыжок — шар по умолчанию 2",
+    ["非凡启程"] = "Начало пути Потустороннего",
 }

@@ -280,7 +280,9 @@ return {
     ["South Flower Sea Small Town"] = "Городок юга Цветочного моря",
     ["获得<HighLight>1个坚壁徽章</>。激活坚壁后，每名坚壁棋子生命值首次低于<HighLight>40%</>时，<HighLight>清除自身控制效果</>并回复<HighLight>15%最大生命值</>。"] = "Получите <HighLight>1 эмблему Оплота</>. При активном Оплоте, когда ОЗ каждой фигуры Оплота впервые опускаются ниже <HighLight>40%</>, она <HighLight>снимает с себя эффекты контроля</> и восстанавливает <HighLight>15% максимальных ОЗ</>.",
     ["评分 %d"] = "Оценка %d",
-    ["隐秘空间破晓之前-丧钟武器神威buff-3级-冰冻"] = "Hidden Space Before Dawn - Death Knell Weapon God Might Buff - Level 3 - Freeze",
+    ["Compensation for Defeat"] = "Компенсация за поражение",
+    ["Bonnie: I will abandon everything! Chase power! Embrace Madness! I will definitely make you pay in blood!"] = "Бонни: Я откажусь от всего! Буду гнаться за силой! Приму безумие! Ты заплатишь кровью за кровь!",
+    ["隐秘空间破晓之前-丧钟武器神威buff-3级-冰冻"] = "Тайное пространство «Перед рассветом» — бафф «Божественная мощь» оружия «Похоронный звон» — ур. 3 — заморозка",
     ["可算活着回来了，今晚得好好找个“安慰”。"] = "Наконец-то вернулся живым, сегодня вечером нужно найти себе «утешение».",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)"] = "Перейти в указанное триггерное место. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

@@ -280,7 +280,7 @@ return {
     ["狮心护戒12%生命护盾"] = "Кольцо львиного сердца: щит 12% здоровья",
     ["神铸之主"] = "Владыка божественной ковки",
     ["Joint Operation 10"] = "Совместная операция 10",
-    ["靴子描边"] = "Boot Outline",
+    ["靴子描边"] = "Контур сапог",
     ["白银城垒甲神话-2格敌人动态计数"] = "City of Silver Bastion Armor Mythical-2 Tile Enemy Dynamic Count",
     ["终末猎杀-草丛01合并隐匿03（含5块原范围）"] = "End-of-Days Hunt - Bush 01 Combined Concealment 03 (includes 5 original areas)",
     ["终末猎杀-草丛18逐簇隐匿07"] = "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 07",

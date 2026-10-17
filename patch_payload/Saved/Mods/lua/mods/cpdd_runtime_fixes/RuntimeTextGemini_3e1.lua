@@ -303,5 +303,5 @@ return {
     ["盟约"] = "Договор",
     ["System Resurrection Invincibility Buff - War Declaration Exclusive"] = "Бафф неуязвимости при системном воскрешении — только для объявления войны",
     ["Ring of Blood Regeneration"] = "Возрождение кольца крови",
-    ["高伤点名"] = "High-Damage Targeted Attack",
+    ["高伤点名"] = "Точечный удар большого урона",
 }

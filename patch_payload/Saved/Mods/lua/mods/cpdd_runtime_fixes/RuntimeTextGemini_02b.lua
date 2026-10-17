@@ -302,6 +302,9 @@ return {
     ["Death Consul Dual Defense Shatter"] = "Консул Смерти: двойной слом защиты",
     ["测试用4"] = "Тест 4",
     ["Rare Blood Hunter Cloak"] = "Редкое·Плащ кровавого охотника",
-    ["阿蒙本体"] = "Amon's Main Body",
+    ["Caravan level reaches 1"] = "Уровень каравана достигает 1",
+    ["Enter the submission range"] = "Войти в зону сдачи",
+    ["阿蒙本体"] = "Истинное тело Амона",
+    ["Swindler, thank you for the seasickness medicine. But... there are still many things I can't remember."] = "Мошенник, спасибо за таблетки от морской болезни. Но... я всё ещё многого не помню.",
     ["终末猎杀-草丛22逐簇隐匿10"] = "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 10",
 }

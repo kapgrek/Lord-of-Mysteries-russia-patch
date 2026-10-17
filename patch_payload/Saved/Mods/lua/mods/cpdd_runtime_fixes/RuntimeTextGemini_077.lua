@@ -268,6 +268,9 @@ return {
     ["晋升任务-光之祭司-灵视找盒子"] = "Задание на повышение: Жрец Света — найти шкатулку духовным зрением",
     ["每日8:00刷新任务"] = "Задания обновляются ежедневно в 8:00",
     ["菲尔尼克"] = "Фелник",
-    ["货物"] = "Cargo",
-    ["那个家伙……总以为自己是非凡的主宰，不知道一次失误就是万丈深渊。"] = "That guy... he always thinks he's the master of the extraordinary, not realizing that a single mistake is an abyss.",
+    ["货物"] = "Груз",
+    ["This is a good opportunity to accumulate merit. Your abilities as a Faceless are also very suitable for this Quest, so I'll leave it to you to handle."] = "Это хорошая возможность накопить заслуги. Способности «Безликого» вам подходят для этого задания, так что поручаю его вам.",
+    ["那个家伙……总以为自己是非凡的主宰，不知道一次失误就是万丈深渊。"] = "Этот тип... всегда считает себя хозяином необыкновенного, не понимая, что одна ошибка — и бездна.",
+    ["Hidden Space-Jump-Crystal Ball Default State 2"] = "Скрытое пространство — Прыжок — шар по умолчанию 2",
+    ["Gluttony Growth Size Stage 8"] = "Рост Обжоры: стадия 8",
 }

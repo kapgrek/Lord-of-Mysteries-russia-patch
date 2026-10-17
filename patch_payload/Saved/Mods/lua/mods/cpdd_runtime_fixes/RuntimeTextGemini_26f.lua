@@ -285,5 +285,8 @@ return {
     ["Life Crystal Pendant Percentage Recovery"] = "Процентное восстановление кристального кулона жизни",
     ["Sort by level"] = "Сорт. по уровню",
     ["Bush Concealment Aura - Bush 02"] = "Аура скрытности в кустах - куст 02",
+    ["Evidence of Golden Wolf's corruption, Kalapon's arms smuggling route, the parliament's voting Record... I have them all in my hands."] = "Доказательства хищений Золотого Волка, оружейный маршрут Калапона, протоколы голосований парламента… всё теперь у меня в руках.",
+    ["Advanced Dye Collection Reward"] = "Награда за коллекцию улучшенных красителей",
+    ["Rye beer is 25 pence a glass, Enmat beer is 50 pence, South Will beer is 100 pence, or would you like a glass of pure malt Lanqi?"] = "Ржаное пиво — 25 пенсов за кружку, энматское — 50, южновильское — 100. Или желаете кружку чистого солодового ланчи?",
     ["还没呢，听说票不太好买。"] = "Пока нет, я слышал, что билеты купить непросто.",
 }

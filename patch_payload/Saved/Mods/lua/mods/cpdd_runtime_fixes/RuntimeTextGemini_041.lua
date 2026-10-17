@@ -284,6 +284,9 @@ return {
     ["永恒皇帝怎么获得"] = "Как получить Вечного Императора",
     ["Float Parade NPC"] = "НПС карнавального парада",
     ["Steam Era: Residual Heat Cloak"] = "Паровая эра: Плащ остаточного жара",
-    ["阿爸远望"] = "Dad Looking into the Distance",
-    ["钟表匠威廉也来过这里，他就坐在椅子上，一声不吭。我问他是否需要帮助，他只是摇头，说有人告诉他，只要到这里来，就可以帮他减轻一些负担。"] = "William the Clockmaker has also been here; he sat on the chair without saying a word. When I asked if he needed help, he simply shook his head, saying that someone told him that as long as he came here, he could have some of his burdens lightened.",
+    ["Caught up to Ruby's carriage"] = "Догнали карету Руби",
+    ["Server Shutdown"] = "Закрытие сервера",
+    ["阿爸远望"] = "Отец смотрит вдаль",
+    ["Shoe Pattern"] = "Узор обуви",
+    ["钟表匠威廉也来过这里，他就坐在椅子上，一声不吭。我问他是否需要帮助，他只是摇头，说有人告诉他，只要到这里来，就可以帮他减轻一些负担。"] = "Часовщик Уильям тоже бывал здесь: сидел на стуле и не проронил ни слова. Я спросил, нужна ли ему помощь, но он лишь качал головой и сказал, что ему обещали: стоит прийти сюда, и бремя станет немного легче.",
 }

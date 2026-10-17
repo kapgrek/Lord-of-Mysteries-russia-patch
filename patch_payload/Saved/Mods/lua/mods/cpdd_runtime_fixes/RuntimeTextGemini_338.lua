@@ -281,7 +281,7 @@ return {
     ["Talk about other topics"] = "Поговорить на другие темы",
     ["Azure Door"] = "Лазурные врата",
     ["警官，又来了？今天要不要带一束花回去？"] = "Офицер, снова вы? Не хотите сегодня взять с собой букет цветов?",
-    ["心锚标记buff"] = "",
+    ["心锚标记buff"] = "Бафф метки якоря сердца",
     ["【自走棋内部效果技能】- 魔女教派6人-敌方全体破防"] = "[Auto Chess Internal Effect Skill] - Demoness Sect 6-Unit - All enemies Armor Break",
     ["终末猎杀-草丛16逐簇隐匿03"] = "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 03",
     ["收获%d/500个优质酒舍物产。"] = "Соберите %d/500 качественных продуктов таверны.",

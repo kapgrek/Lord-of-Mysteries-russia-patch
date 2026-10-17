@@ -268,6 +268,8 @@ return {
     ["神血坚壁"] = "Оплот божественной крови",
     ["Immediately gain <HighLight>16 free refreshes</>, then gain <HighLight>each round</> <HighLight>3 free refreshes</>."] = "Немедленно получите <HighLight>16 бесплатных обновлений</>, затем <HighLight>каждый раунд</> получайте <HighLight>3 бесплатных обновления</>.",
     ["草丛隐匿光环-草丛06"] = "Аура скрытности в кустах - куст 06",
+    ["Tavern Acquires Light Alcohol Ice White"] = "Таверна закупает лёгкий «Ледяной белый»",
+    ["Collect Water Theater"] = "Сбор: водный театр",
     ["战士战略技能本体"] = "Warrior Strategic Skill Base",
     ["收获%d/500个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/500.",
 }

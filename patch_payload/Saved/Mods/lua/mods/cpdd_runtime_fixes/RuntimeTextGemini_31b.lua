@@ -299,5 +299,6 @@ return {
     ["He excels at theft, stealing items, thoughts, and abilities."] = "Он искусен в краже: крадёт предметы, мысли, способности.",
     ["绝盾6人低血监听"] = "Абсолютный щит: монитор низкого ЗДР при 6 игроках",
     ["西尔维娅战后光圈清理"] = "Очистка ауры Сильвии после боя",
+    ["Leaps up and shatters the ground, dealing <Yellow>112</> Attack damage to nearby enemies and stunning them for <HighLight>1</> second."] = "Прыгает и раскалывает землю, нанося окружающим врагам <Yellow>112</> ед. урона атаки и оглушая их на <HighLight>1</> сек.",
     ["Roberto"] = "Роберто",
 }

@@ -269,6 +269,9 @@ return {
     ["疾猎徽章"] = "Значок стремительной охоты",
     ["罗塞尔Boss困难-3阶段-自清洁程序-层数buff"] = "Босс Розель (сложный) - 3 фаза - Программа самоочистки - Бафф слоев",
     ["Rating %d"] = "Оценка %d",
+    ["This term means: hometown, the destination of the soul and spirit. Roselle decided to teach these two Chinese characters to Bernadette as special symbols, telling her that this was a protective incantation from her father, meant for her to remember forever. She didn't need to understand the meaning; she only needed to remember that these two characters meant \"hometown.\""] = "Это слово означает: родной край, пристанище души и духа. Рассел решил преподать Бернадетте эти два иероглифа как особые символы и сказал ей, что это защитное заклинание от отца, которое она должна помнить всегда. Ей не нужно понимать значение, достаточно запомнить, что эти два иероглифа означают «родина».",
+    ["I have held this compass for ten years, never daring to follow where it points. Today is the furthest I have ever traveled in my life. Thank you."] = "Этот компас я сжимал десять лет и ни разу не решился пойти за ним. Сегодня я зашёл дальше, чем когда-либо в жизни. Спасибо.",
+    ["Hidden Space-Clown 3-5 of Spades"] = "Скрытое пространство - Клоун 3 - Пятёрка пик",
     ["终末猎杀-草丛15逐簇隐匿03"] = "Final Hunt - Bush 15 Cluster-by-Cluster Concealment 03",
     ["<P_Heart>（释然）</> ……原来是这样。  我以为我失约了，我以为时间把我丢在了路上。但它没有，它只是替我走完了另一段路。"] = "<P_Heart>(с облегчением)</>...Так вот как оно есть. Я думал, что нарушил свое обещание, я думал, что время оставило меня позади на дороге. Но этого не произошло; для меня это просто пошел другой путь.",
 }

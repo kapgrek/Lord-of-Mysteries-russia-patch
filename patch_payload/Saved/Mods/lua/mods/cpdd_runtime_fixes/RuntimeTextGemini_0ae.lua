@@ -294,7 +294,11 @@ return {
     ["皮带装饰"] = "Украшение ремня",
     ["经济"] = "Экономика",
     ["Roselle Boss Hard - Phase 3 - Self-Cleaning Program - Stack Buff"] = "Босс Розель (сложный) - 3 фаза - Программа самоочистки - Бафф слоев",
-    ["逛逛吧，看看还有什么好吃好喝的。"] = "Take a look around and see what delicious food and drinks are available.",
-    ["阿蒙的礼物"] = "Amon's Gift",
+    ["Complete a commission in the Trade War"] = "Выполнить поручение в торговой войне",
+    ["At the end of the season, Beyonders ranked in the <HighLight>top 100</> with a total Divine Casting Style value of <HighLight>30000</> can obtain the title <HighLight>【Master of Divine Casting】</> (countable)"] = "В конце сезона Потусторонние, вошедшие в <HighLight>топ-100</> и набравшие в сумме <HighLight>30000</> очков стиля божественного литья, получают титул <HighLight>【Владыка божественного литья】</> (с подсчётом)",
+    ["Caravan level reaches 22"] = "Уровень каравана достигает 22",
+    ["Caravan level reaches 38"] = "Уровень каравана достигает 38",
+    ["逛逛吧，看看还有什么好吃好喝的。"] = "Прогуляйтесь и посмотрите, чем ещё тут можно вкусно поесть и попить.",
+    ["阿蒙的礼物"] = "Дар Амона",
     ["Quest Name:"] = "Название квеста:",
 }

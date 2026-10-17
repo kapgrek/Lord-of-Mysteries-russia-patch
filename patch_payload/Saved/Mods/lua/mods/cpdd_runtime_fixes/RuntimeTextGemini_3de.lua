@@ -281,6 +281,7 @@ return {
     ["绯红信徒徽章标记"] = "Знак Багрового верующего: метка",
     ["联合作战2"] = "Совместная операция 2",
     ["Gain Crimson Believer Resonance."] = "Получен резонанс «Багровый последователь».",
+    ["Star-chasing"] = "Погоня за звёздами",
     ["四方联赛-出生点庇护"] = "Four-Way League - Spawn Point Shelter",
     ["In the name of the Goddess, spreading the light of compassion\n\n<Letter_Highlight>Food Supply</>\nBlack bread and pea soup\n\n<Letter_Highlight>Night Shelter</>\nHammocks or floor mats provided\n\n<Letter_Highlight>Job Opportunities</>\nSimple and easy manual labor\n\nBeds are limited, queuing is required, maximum stay of five days"] = "Именем Богини, озаряющей светом милосердия\n\n<Letter_Highlight>Раздача пищи</>\nЧерный хлеб и гороховый суп\n\n<Letter_Highlight>Ночной приют</>\nПредоставляются гамаки или матрасы на полу\n\n<Letter_Highlight>Возможности для работы</>\nПростой ручной труд\n\nКоличество мест ограничено, в порядке живой очереди, проживание не более пяти дней",
     ["如果所有计划都实现了，那才叫意外。"] = "Вот если бы все планы сбывались — это действительно стало бы неожиданностью.",

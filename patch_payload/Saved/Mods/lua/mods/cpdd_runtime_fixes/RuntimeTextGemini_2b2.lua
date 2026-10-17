@@ -305,6 +305,8 @@ return {
     ["Lionheart Ring Shield per battle"] = "Кольцо львиного сердца: щит за бой",
     ["Immediately obtain <HighLight>1 Fine Equipment Chest</>, and obtain <HighLight>1 Sealed Equipment Chest</> after <HighLight>10 Competition rounds</>."] = "Немедленно получите <HighLight>1 ларец отличного снаряжения</>, а через <HighLight>10 раундов партии</> получите еще <HighLight>1 ларец запечатанного снаряжения</>.",
     ["询问“正义”小姐"] = "Спросить госпожу «Справедливость»",
-    ["贸易战升级车辆18次"] = "Upgrade vehicles 18 times in Trade War",
+    ["贸易战升级车辆18次"] = "Улучшить транспорт 18 раз в торговой войне",
+    ["This is a workout for our professional capabilities!"] = "Это тренировка наших профессиональных навыков!",
+    ["This is how everyone dies; is she using a ritual to bring it forward?"] = "Это смерть каждого из них. Она приближает её с помощью ритуала?",
     ["Altaf"] = "Альтаф",
 }

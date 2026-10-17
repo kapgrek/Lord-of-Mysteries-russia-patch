@@ -270,6 +270,8 @@ return {
     ["Auto Chess Skill Effect-85300151"] = "Автобитва: эффект навыка 85300151",
     ["North Flower Sea"] = "Север Цветочного моря",
     ["见到花摊前的梅丽莎班森"] = "Встретить Мелиссу Бенсон у цветочного прилавка",
+    ["Trade goods"] = "Торговые товары",
+    ["Repeat the triggered effect of the last strategy card from the previous stop\n(%s)"] = "Повторяет сработавший эффект последней карты стратегии с предыдущей остановки\n(%s)",
     ["　　Thinking that you are going to such a place alone, I can't help but worry about your safety. But I am as curious as you: Are they really the same as us? Whether it's appearance or heart?\nThis investigation is undoubtedly a daunting task, and the journey is dangerous, so please take care.\n　　If you can receive letters there, I hope you can find time to report that you are safe. Little Martha and I are looking forward to the day we go to Tingen Train Station to pick you up!\n　　May the Goddess bless your return journey to be safe and smooth!"] = "　　При мысли о том, что тебе предстоит отправиться в такое место в одиночку, я не могу не тревожиться о твоей безопасности. Но мне столь же любопытно, как и тебе: правда ли они такие же, как мы? И внешне, и душой?\nЭто расследование, несомненно, трудная задача, и путь полон опасностей, поэтому, пожалуйста, береги себя.\n　　Если туда доходят письма, найди минутку сообщить, что с тобой все в порядке. Мы с маленькой Мартой с нетерпением ждем того дня, когда встретим тебя на вокзале Тингена!\n　　Да благословит Богиня твое безопасное возвращение домой!",
     ["Katrin"] = "Катрин",
     ["Laney"] = "Лэйни",

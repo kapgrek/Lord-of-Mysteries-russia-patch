@@ -310,8 +310,9 @@ return {
     ["烛光回护"] = "Защита свечи",
     ["稀有·守望胸甲"] = "Редкое · Нагрудник стража",
     ["臭水沟才是你的地盘，贝克兰德的臭水沟还不够多吗？"] = "Сточная канава — вот твоё место. Разве в Бэкланде мало канав?",
-    ["重复上一站最后一张策略卡的已触发效果\n(%s)"] = "Repeat the triggered effect of the last strategy card from the previous stop\n(%s)",
-    ["门外的男人"] = "The man outside the Door",
-    ["鹦鹉主人"] = "Parrot Owner",
+    ["Bonnie: You've finally arrived. My dear seed, and the shadow of Tingen."] = "Бонни: Наконец-то ты пришёл. Моё дорогое семя, и тень Тингена.",
+    ["重复上一站最后一张策略卡的已触发效果\n(%s)"] = "Повторяет сработавший эффект последней карты стратегии с предыдущей остановки\n(%s)",
+    ["门外的男人"] = "Мужчина за дверью",
+    ["鹦鹉主人"] = "Хозяин попугая",
     ["终末猎杀-草丛24合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 24 Merged Concealment 01 (Includes 2 original areas)",
 }

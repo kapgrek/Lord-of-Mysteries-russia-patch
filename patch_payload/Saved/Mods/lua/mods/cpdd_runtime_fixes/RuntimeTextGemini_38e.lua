@@ -293,6 +293,8 @@ return {
     ["情绪撕裂蓝"] = "Разрыв эмоций: синий",
     ["Strategic Server Faction Pre-assignment Reminder"] = "Напоминание о предварительном распределении фракций на стратегическом сервере",
     ["Touch of Corruption"] = "Касание порчи",
+    ["Amon spreads his arms, and an avatar of himself appears behind him."] = "Амон раскидывает руки, и позади него появляется его собственный клон.",
+    ["Ghost Self-Destruct"] = "Самоподрыв призрака",
     ["终末猎杀-草丛19逐簇隐匿05"] = "Final Hunt - Bush 19 Cluster-by-Cluster Concealment 05",
     ["<P_Heart>（晕晕乎乎）</>我一直在这儿……是你眼花了……"] = "<P_Heart>(Dizzy)</> Я был здесь все время... твои глаза играют с тобой злую шутку...",
     ["The scent of abundance... perhaps it is also a kind of distortion and corruption, a kind of betrayal and curse..."] = "Аромат изобилия... возможно, это тоже своего рода искажение и порча, своего рода предательство и проклятие...",

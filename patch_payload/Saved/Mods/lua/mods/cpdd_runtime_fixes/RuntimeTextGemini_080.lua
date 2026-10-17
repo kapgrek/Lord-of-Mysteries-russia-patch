@@ -285,7 +285,8 @@ return {
     ["Tactician 2-Person Battle Start Buff"] = "Тактика: 2 чел., бонус начала боя",
     ["It's so nice, I wish I could earn money while lying down too, but unfortunately, I've been pedaling my brand-new bicycle so hard it's almost sparking."] = "Хорошо бы и мне зарабатывать лёжа, а мой новенький велосипед от педалирования уже искрит.",
     ["罗塞尔Boss困难-2阶段-镜像数据-护盾表现"] = "Босс Розель (сложный) - 2 фаза - Зеркальные данные - Вид щита",
-    ["过热1"] = "Overheat 1",
+    ["过热1"] = "Перегрев 1",
+    ["Well... the meaning of \"Returning Home\" is to constantly remind you that returning home is not easy. As a \"Traveler,\" you must keep your starting point in mind so you won't be swallowed by the distance."] = "Ну... «Возвращение на родину» нужно, чтобы постоянно напоминать: вернуться домой непросто. Как «Путешественник», ты должен помнить свою отправную точку, чтобы не быть поглощённым далью.",
     ["与Npc进行对话  玩家播放仅自己可见的说话文本"] = "Поговорите с NPC. Игрок воспроизводит текст диалога, видимый только ему самому.",
     ["俱乐部经验+1500"] = "Клубный опыт +1500",
 }

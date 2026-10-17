@@ -265,6 +265,7 @@ return {
     ["而且，污染分身虽然是序列3，但却拥有更高的位格。"] = "К тому же, хотя загрязнённый двойник имеет Последовательность 3, его позиция выше.",
     ["腦癱"] = "Слабоумный",
     ["血色之戒再生"] = "Возрождение кольца крови",
+    ["Lock onto <HighLight>all</> enemy pieces, deal <HighLight>5000%</> Attack damage to each target, and pull them in front of you."] = "Захватывает <HighLight>всех</> вражеских фигур, наносит каждой цели <HighLight>5000%</> урона от атаки и притягивает их к себе.",
     ["Tab轮选测试配置-镜头优先-仅玩家"] = "Tab Selection Test Config - Camera Priority - Players Only",
     ["终末猎杀-草丛10合并隐匿03（含3块原范围）"] = "Final Hunt - Bush 10 Merged Concealment 03 (Includes 3 original areas)",
     ["终末猎杀-草丛22逐簇隐匿09"] = "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 09",

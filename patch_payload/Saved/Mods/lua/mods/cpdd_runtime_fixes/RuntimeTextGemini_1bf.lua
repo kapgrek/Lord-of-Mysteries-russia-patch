@@ -295,6 +295,8 @@ return {
     ["点击此处或按<img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/>可<Highlight>自动寻路</>。"] = "Нажмите здесь или <img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/> для <Highlight>автопоиска пути</>.",
     ["Ace of Hearts"] = "Туз червей",
     ["贝克兰德最近发生了什么？"] = "Что недавно произошло в Бэкланде?",
-    ["饕餮成长体型19档"] = "Gluttony Growth Stage 19",
+    ["Complete 3 commissions in Trade War"] = "Выполнить 3 поручения в торговой войне",
+    ["Super Super Armor"] = "Сверхсуперброня",
+    ["饕餮成长体型19档"] = "Рост Обжоры: стадия 19",
     ["终末猎杀-草丛04逐簇隐匿04"] = "Final Hunt - Bush 04 Cluster Concealment 04",
 }

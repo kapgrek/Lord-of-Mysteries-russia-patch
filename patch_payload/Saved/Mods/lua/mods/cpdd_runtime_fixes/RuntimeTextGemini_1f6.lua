@@ -283,7 +283,7 @@ return {
     ["罗德·加勒特<Hide stylename=\"Transparent\" id=\"#161\">涂抹</>角色经理\n地址：<Hide stylename=\"Transparent\" id=\"#161\">地址</>"] = "Роде Гарретт <Hide stylename=\"Transparent\" id=\"#161\">Смазать</> Менеджер персонажей\nАдрес: <Hide stylename=\"Transparent\" id=\"#161\">Адрес</>",
     ["Patience decreased"] = "Стойкость снижена",
     ["苍白的死亡阵亡2格爆发"] = "Бледная смерть: взрыв при гибели 2 клеток",
-    ["集齐15个可以获得秘偶厄水巨龟，也可用于秘偶厄水巨龟的培养。"] = "Collect 15 to obtain the marionette Misfortune Water Giant Turtle, which can also be used for the cultivation of the marionette Misfortune Water Giant Turtle.",
+    ["集齐15个可以获得秘偶厄水巨龟，也可用于秘偶厄水巨龟的培养。"] = "Соберите 15 шт., чтобы получить тайную марионетку «Гигантская черепаха Бедственных вод». Также используется для её развития.",
     ["塔罗学院-黑水小怪-黑水点名-任意3人"] = "Tarot Academy - Black Water Minion - Black Water Target - Any 3 people",
     ["Viviana"] = "Вивиана",
     ["我始终不喜欢鲁恩那群家伙装模作样的架子，但在共同的敌人面前，无论是鲁恩、因蒂斯、费内波特还是任何别的国家，都需要站在同一战线上——为了守护我们的家园。"] = "Мне никогда не нравился претенциозный вид этих лоэнов, но перед лицом общего врага, будь то Лоэн, Интис, Фейнапоттер или любая другая страна, мы должны стоять на одном фронте — защищать наш дом.",

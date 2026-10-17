@@ -252,6 +252,6 @@ return {
     ["A seahorse-shaped statue sits here; it is said that its prototype comes from the inhabitants of the deep Spirit World."] = "Здесь возвышается статуя в форме морского конька. Говорят, её прообразом стали обитатели глубин Мира Духов.",
     ["Rare Mechanical Mad Hatter"] = "Редкое·Механический Безумный Шляпник",
     ["累计完成100次秘仪奉献"] = "Совершите 100 тайных подношений в сумме",
-    ["高品质深烘咖啡豆与香甜葡萄味的完美结合，提神却不失口感。"] = "A perfect blend of high-quality dark roast coffee beans and sweet grape flavor—invigorating without sacrificing taste.",
+    ["高品质深烘咖啡豆与香甜葡萄味的完美结合，提神却不失口感。"] = "Идеальное сочетание отборных зёрен глубокой обжарки со сладким виноградным вкусом: бодрит, не теряя во вкусе.",
     ["【自走棋】-月之污染-普攻-斩击"] = "[Auto Chess] - Moon Corruption - Basic Attack - Slash",
 }

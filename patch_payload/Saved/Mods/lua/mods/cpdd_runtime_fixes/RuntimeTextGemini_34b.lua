@@ -270,8 +270,8 @@ return {
     ["希尔宗德"] = "Хилсонд",
     ["Players might want to hoard some Gold Coins—the interest from round settlements adds up over time."] = "Игрокам стоит копить золотые монеты: проценты при подсчёте итогов раунда накапливаются.",
     ["Befriend Azik"] = "Подружиться с Азиком",
-    ["跟随灵性的指引"] = "Follow the guidance of your spirituality",
-    ["还是个侠盗啊……"] = "So you're a chivalrous thief, after all...",
-    ["隐秘空间-昔影重现-检查尸体"] = "Hidden Space - Reenactment of Past Shadows - Examine Corpse",
+    ["跟随灵性的指引"] = "Следуйте указаниям Духовности",
+    ["还是个侠盗啊……"] = "Так ты ещё и благородный разбойник...",
+    ["隐秘空间-昔影重现-检查尸体"] = "Тайное пространство — Возвращение теней прошлого — осмотр тела",
     ["终末猎杀-草丛21逐簇隐匿09"] = "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 09",
 }

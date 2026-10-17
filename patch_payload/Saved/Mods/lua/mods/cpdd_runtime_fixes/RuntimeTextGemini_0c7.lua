@@ -273,9 +273,10 @@ return {
     ["When the Astrolabe User's HP falls below 76%, they enter <Disable>Phase Two</>, and the Astrolabe User continuously attracts Starlight Guards to descend. After killing a Starlight Guard, it will <Disable>drop Starlight</>. <Disable>Upon touching it</>, you can temporarily absorb the Starlight; during this time, you cannot use Skills, but you can transport it to the Starlight Candelabra for <Disable>preservation</>. After completing the transport, you gain a Damage Increase. If the Starlight is not saved by the Starlight Candelabra within the <Disable>time limit</>, it will <Disable>be absorbed by the Astrolabe User</>, increasing their damage."] = "Когда здоровье Звездочёта опускается ниже 76%, он переходит в <Disable>вторую фазу</> и непрерывно призывает Стражей звёздного света. После убийства Стража <Disable>выпадает звёздный свет</>; <Disable>коснувшись его</>, можно временно поглотить звёздный свет, но на это время навыки недоступны. Его можно доставить к Звёздному канделябру для <Disable>сохранения</>, и после доставки вы получаете усиление урона. Если за <Disable>отведённое время</> звёздный свет не будет сохранён в Звёздном канделябре, его <Disable>поглотит Звездочёт</>, усилив свой урон.",
     ["现实线第八章-把信还给{赫莲娜}"] = "Реальная линия, глава 8 - Вернуть письмо {赫莲娜}",
     ["等级达到38级\n完成【第三幕·疯子】"] = "Достигнуть 38 уровня\nЗавершить [Акт III · Безумец]",
-    ["过去……现在……未来，所有战局都在这里展开……"] = "The past... the present... the future, all battlefields unfold here...",
-    ["这是你的生日礼物。你的一切，今后都由我承担。"] = "This is your birthday present. From now on, I will bear everything that concerns you.",
-    ["额带"] = "Headband",
+    ["过去……现在……未来，所有战局都在这里展开……"] = "Прошлое... настоящее... будущее, все сражения раскрываются здесь...",
+    ["这是你的生日礼物。你的一切，今后都由我承担。"] = "Это твой подарок на день рождения. Отныне обо всём, что тебя касается, позабочусь я.",
+    ["Re-Record..."] = "Записать заново…",
+    ["额带"] = "Повязка на лоб",
     ["完成通用条件表  玩家播放仅自己可见的说话文本"] = "Полная таблица общего состояния; игрок воспроизводит текст диалога, видимый только ему самому.",
     ["新来的客人总问我糖里有没有加奇怪的东西，怎么会有呢！那些东西我都只加在高级定制款里～"] = "Новые клиенты всегда спрашивают меня, нет ли в конфетах чего-нибудь странного. Как могло быть! Я добавляю эти вещи только в элитные индивидуальные заказы~",
 }

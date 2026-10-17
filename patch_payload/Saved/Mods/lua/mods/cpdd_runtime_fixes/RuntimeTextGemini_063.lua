@@ -294,6 +294,8 @@ return {
     ["灵界·高塔·四"] = "Мир Духов · Высокая башня · IV",
     ["盾"] = "Щит",
     ["石头烫手，由承伤职业拾取！"] = "Камень обжигает руки, пусть его подберёт танк!",
+    ["Hidden Space-Jump-Crystal Ball Default State 9"] = "Скрытое пространство — Прыжок — шар по умолчанию 9",
+    ["A swindler? A twist with suspense! But stop acting, I need to go put on makeup and prepare for the show."] = "Мошенник? Поворот с интригой! Но хватит играть, мне пора гримироваться и готовиться к выступлению.",
     ["【自走棋】-月之污染-绯红剑气"] = "[Auto Chess] - Moon Corruption - Crimson Sword Qi",
     ["Gustavo"] = "Густаво",
     ["<MT>来防御</>"] = "<MT> для защиты </>",

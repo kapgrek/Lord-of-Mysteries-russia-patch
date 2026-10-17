@@ -283,6 +283,7 @@ return {
     ["Crimson Believer 3-person delay Attack Speed"] = "Багровые верующие: задержка скорости атаки (3 чел.)",
     ["Steam Purge"] = "Паровая очистка",
     ["Please enjoy your special cocktail!"] = "Наслаждайтесь вашим особым коктейлем!",
+    ["That would make it not special anymore!"] = "Тогда в нём не будет ничего особенного!",
     ["Cornelia"] = "Корнелия",
     ["Karixi"] = "Кариши",
     ["Anina"] = "Анина",

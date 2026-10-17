@@ -273,7 +273,8 @@ return {
     ["Bush Concealment Aura - Bush 14"] = "Аура скрытности в кустах - куст 14",
     ["Only the president of the strongest Club of the winning faction is qualified to issue a declaration and distribute seats for the God's Chosen."] = "Только глава сильнейшего клуба победившей фракции вправе объявить манифест и распределить места Избранных богом",
     ["Set as primary microphone"] = "Сделать главным микрофоном",
-    ["跟梅丽莎和班森打招呼"] = "Greet Melissa and Benson",
+    ["跟梅丽莎和班森打招呼"] = "Поздороваться с Мелиссой и Бенсоном",
+    ["Hidden Space Element - Test Brazier"] = "Элемент скрытого пространства - Тестовая жаровня",
     ["Miley"] = "Майли",
     ["Lee"] = "Ли",
 }

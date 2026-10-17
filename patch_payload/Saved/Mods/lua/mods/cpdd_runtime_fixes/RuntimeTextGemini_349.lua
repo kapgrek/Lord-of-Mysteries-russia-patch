@@ -310,6 +310,9 @@ return {
     ["沙发区安娜"] = "Зона дивана, Анна",
     ["From North Flower Sea to Northwest Tingen"] = "Север Цветочного моря — северо-запад Тингена",
     ["Thank you and Miss Susie for helping me recover my memories!"] = "Спасибо вам и госпоже Сьюзи, что помогли мне вернуть память!",
+    ["So you're a chivalrous thief, after all..."] = "Так ты ещё и благородный разбойник...",
+    ["Then how should I apply, Captain?"] = "И как мне подать заявку, капитан?",
+    ["Hidden Space-Exchange Persona-Level 4-Steal Error-Timing 1 Counterattack Object 1"] = "Скрытое пространство - Личность обмена - Уровень 4 - Кража: ошибка - Момент 1, контратака, предмет 1",
     ["Jelu"] = "Джелу",
     ["Warren"] = "Уоррен",
 }

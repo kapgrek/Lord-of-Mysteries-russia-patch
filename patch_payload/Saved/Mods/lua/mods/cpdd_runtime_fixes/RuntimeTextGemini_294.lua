@@ -293,7 +293,7 @@ return {
     ["稀有·蚀命细刃减疗"] = "Редкое·Тонкий клинок, разъедающий жизнь: снижение лечения",
     ["Immediately gain <HighLight>10 XP</>. Upon reaching <HighLight>level 9</>, gain another <HighLight>10 Gold</> and <HighLight>8 free refreshes</>."] = "Немедленно получите <HighLight>10 ед. опыта</>. При достижении <HighLight>9 уровня</> получите еще <HighLight>10 монет</> и <HighLight>8 бесплатных обновлений</>.",
     ["Absolute Shield low Health Mark triggered"] = "Метка срабатывания низкого ЗДР Абсолютного щита",
-    ["超出最大参与队列人数。"] = "The maximum number of participants in the queue has been exceeded.",
+    ["超出最大参与队列人数。"] = "Превышено максимальное число участников очереди.",
     ["Select Style — Choosing different styles will result in completely different shapes, heights, and appearances for the generated building complex. \n \n How to unlock styles — <Highlight> After unlocking all furniture under a style </>, that style is automatically unlocked. \n \n Custom Style — Select custom style to customize the building form you want."] = "Выбор стиля: при выборе различных стилей форма, высота и внешний вид возводимого архитектурного ансамбля будут полностью отличаться.\n\nКак открыть стиль: стиль становится доступен автоматически после того, как вы <Highlight>откроете всю мебель этого стиля</>.\n\nПользовательский стиль: позволяет гибко настроить желаемые архитектурные формы.",
     ["Quest ID:"] = "ID квеста:",
     ["Wesley"] = "Уэсли",

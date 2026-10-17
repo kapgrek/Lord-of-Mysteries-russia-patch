@@ -303,7 +303,10 @@ return {
     ["Derrick - City of Silver"] = "Дерик, Серебряный город",
     ["治疗分支"] = "Ветка исцеления",
     ["纯白之视"] = "Взор чистой белизны",
-    ["达西已经迟到十分钟了……咖啡都凉了。"] = "Darcy is already ten minutes late... The coffee has gone cold.",
+    ["Caravan level reaches 27"] = "Уровень каравана достигает 27",
+    ["Caravan level reaches 37"] = "Уровень каравана достигает 37",
+    ["达西已经迟到十分钟了……咖啡都凉了。"] = "Дарси уже опаздывает на десять минут... Кофе остыл.",
+    ["I have to thank you again this time, {{PlayerName}}. When the vegetables are ripe, you must come and taste Dean's cooking; he is a \"Cook\" after all."] = "Спасибо тебе и в этот раз, {{PlayerName}}. Когда овощи созреют, обязательно приходи попробовать стряпню Дина: он ведь «Повар».",
     ["Mel"] = "Мел",
     ["监听指定场景加载完毕  玩家发送任务道具"] = "Прослушивать завершение загрузки указанной сцены; игрок отправляет квестовый предмет.",
 }

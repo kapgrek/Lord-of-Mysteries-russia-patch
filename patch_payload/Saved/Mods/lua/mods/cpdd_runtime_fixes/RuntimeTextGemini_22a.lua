@@ -269,7 +269,8 @@ return {
     ["Soul Awakening Accumulation"] = "Накопление пробуждения души",
     ["Behind familiar faces hide strange gazes, and suspicion takes root in the heart."] = "За знакомыми лицами скрываются чужие взгляды, и в сердце прорастают подозрения.",
     ["警官{{先生|女士}}，你昨天说要继续调查，后来怎么样了？"] = "Офицер {{господин|госпожа}}, вчера вы сказали, что продолжите расследование. Что получилось?",
-    ["饕餮成长体型3档"] = "Gluttony Growth Stage 3",
+    ["Hidden Space Before Dawn - Death Knell Weapon God Might Buff - Level 2 - Burn"] = "Тайное пространство «Перед рассветом» — бафф «Божественная мощь» оружия «Похоронный звон» — ур. 2 — ожог",
+    ["饕餮成长体型3档"] = "Рост Обжоры: стадия 3",
     ["Go to specified Trigger location  Object plays specified dialogue content  Object plays specified dialogue content"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанное содержимое диалога. Объект воспроизводит указанное содержимое диалога.",
     ["Ievette"] = "Иветт",
 }

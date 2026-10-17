@@ -281,7 +281,7 @@ return {
     ["男榜"] = "Мужской рейтинг",
     ["Introduction/Honorific Name"] = "Описание/Почётное имя",
     ["Joint Operation 13"] = "Совместная операция 13",
-    ["马西莫？那个以嘴毒闻名的美食家？她怎么可能写文章夸别人？"] = "Massimo? That gourmet known for her sharp tongue? How could she possibly write an article praising someone?",
+    ["马西莫？那个以嘴毒闻名的美食家？她怎么可能写文章夸别人？"] = "Массимо? Тот гурман, известный своим ядовитым языком? Да разве она станет писать статью, хваля кого-то?",
     ["米尔贡根-王庭之盾-随机分buff-2个DPS（退化坦克，再退化DPS）：第3层"] = "Milgongen-Shield of the Royal Court-Random buff distribution-2 DPS (Degrade Tank, then degrade DPS): Layer 3",
     ["终末猎杀-草丛18逐簇隐匿06"] = "Final Hunt - Bush 18 Cluster-by-Cluster Concealment 06",
     ["Arjun"] = "Арджун",

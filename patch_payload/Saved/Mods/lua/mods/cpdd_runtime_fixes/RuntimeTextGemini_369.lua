@@ -267,8 +267,8 @@ return {
     ["Arrive in Backlund"] = "Прибыть в Бэкланд",
     ["Double Jump disabled"] = "Двойной прыжок отключён",
     ["North Station Master of the Sea of Flowers"] = "Начальник северной станции Цветочного моря",
-    ["贸易战完成3次委托"] = "Complete 3 commissions in Trade War",
-    ["雪山北部"] = "North Snowy Mountain",
+    ["贸易战完成3次委托"] = "Выполнить 3 поручения в торговой войне",
+    ["雪山北部"] = "Северные снежные горы",
     ["罗塞尔Boss-3阶段-磁电回收-扇形法术代理"] = "Roselle Boss - Phase 3 - Electromagnetic Recovery - Fan-shaped Spell Proxy",
     ["观众：心灵灯塔4筛选"] = "Spectator: Beacon of Destiny 4 Filter",
 }

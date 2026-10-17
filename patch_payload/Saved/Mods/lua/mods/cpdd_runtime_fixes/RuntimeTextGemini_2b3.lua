@@ -258,8 +258,11 @@ return {
     ["6 of Hearts"] = "Шестерка червей",
     ["Coim Corp\r\n<LeonSubTitle size=\"38\">Coim Corp</>"] = "Компания «Коим»\n<LeonSubTitle size=\"38\">Coim Corp</>",
     ["获得踏浪而来解锁"] = "Открывается после получения «Покоряя волны»",
-    ["隐秘空间-昔影重现-净化交互"] = "Hidden Space - Reenactment of Past Shadows - Purification Interaction",
-    ["魔女徽章受治疗成长"] = "Witch Badge Healing Growth",
+    ["Collect Notification"] = "Уведомление о сборе",
+    ["William the Clockmaker has also been here; he sat on the chair without saying a word. When I asked if he needed help, he simply shook his head, saying that someone told him that as long as he came here, he could have some of his burdens lightened."] = "Часовщик Уильям тоже бывал здесь: сидел на стуле и не проронил ни слова. Я спросил, нужна ли ему помощь, но он лишь качал головой и сказал, что ему обещали: стоит прийти сюда, и бремя станет немного легче. ",
+    ["隐秘空间-昔影重现-净化交互"] = "Скрытое пространство - Возвращение теней прошлого - Взаимодействие очищения",
+    ["Gain an additional <HighLight>30</> points of Defense, with an extra <HighLight>10%</> for the first <HighLight>10</> seconds."] = "Дополнительно получает <HighLight>30</> ед. защиты, в первые <HighLight>10</> сек. ещё на <HighLight>10%</> больше.",
+    ["魔女徽章受治疗成长"] = "Рост значка Демоницы от исцеления",
     ["RequestCutsceneActorComposite: 找不到 ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",
     ["现在，确实还不够。但每领悟一条守则，都在让我们之间的差距逐渐缩小——决胜的时刻，终会到来。"] = "Сейчас, конечно, ещё недостаточно. Но с каждым постигнутым правилом разрыв между нами понемногу сокращается — решающий момент рано или поздно настанет.",
 }

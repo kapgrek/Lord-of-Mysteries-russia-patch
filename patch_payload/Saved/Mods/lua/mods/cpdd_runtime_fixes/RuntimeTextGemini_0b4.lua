@@ -287,7 +287,7 @@ return {
     ["It's me. Those were good days... in a way, it was a new beginning for me after leaving the Balam Empire."] = "Это я. То были прекрасные дни... В каком-то смысле это было моё новое рождение после ухода из Империи Балам.",
     ["棋子固有回蓝·绯红意志10人版（用3星的）"] = "Врожд. восст. маны фигуры: Алая воля, версия на 10 игроков (использовать 3 зв.)",
     ["祝你度过非凡的一天！买票这边走！"] = "Желаю вам необыкновенного дня! За билетами сюда!",
-    ["闲庭信步"] = "Stroll Leisurely",
+    ["闲庭信步"] = "Неспешная прогулка",
     ["We are happy to tell everyone that the famous 'Big Eater' Loro has been attracted by the harmonious and peaceful atmosphere of Tingen and has decided to settle here for the time being!\n\nHe once ate 100 Dicy pies in 1 hour! 126 lamb chops!\n\nHe will perform his extraordinary appetite on West Avenue at any time! Everyone is welcome to come and enjoy!"] = "Рады сообщить всем, что знаменитый «Обжора» Лоро, очарованный гармоничной и безмятежной атмосферой Тингена, решил временно обосноваться здесь!\n\nОднажды он всего за 1 час умял 100 дисийских пирогов и 126 бараньих отбивных!\n\nОн в любое время готов продемонстрировать свой сверхчеловеческий аппетит на Западном проспекте! Приглашаем всех полюбоваться этим зрелищем!",
     ["Katalina"] = "Каталина",
 }

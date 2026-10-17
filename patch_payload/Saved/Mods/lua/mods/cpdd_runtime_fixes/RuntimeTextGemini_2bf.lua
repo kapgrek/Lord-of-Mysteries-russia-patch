@@ -293,7 +293,8 @@ return {
     ["罗塞尔Boss困难-灼热目光-点名标记"] = "Босс Росселл (сложн.) - Жгучий взгляд - Метка цели",
     ["裤子中部"] = "Брюки, средняя часть",
     ["诅咒爆发"] = "Взрыв проклятия",
-    ["铁血军令"] = "Ironblood Orders",
-    ["驰骋于时代的前沿，再铸蒸汽的荣光。"] = "Galloping at the forefront of the era, forging the glory of steam once more.",
+    ["Golden Autumn Castle Supplies"] = "Припасы старого замка Золотой осени",
+    ["铁血军令"] = "Железный приказ крови",
+    ["驰骋于时代的前沿，再铸蒸汽的荣光。"] = "Мчаться в авангарде эпохи и вновь выковать славу пара.",
     ["The puzzle of the first crystal ball: \n <InvHighlight> α multiplied by β </> equals <InvHighlight> 12 </>"] = "Загадка первого хрустального шара:\n<InvHighlight>α, умноженное на β</>, равно <InvHighlight>12</>",
 }

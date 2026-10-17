@@ -280,5 +280,7 @@ return {
     ["After watching them have a full meal..."] = "Глядя, как они сытно поели...",
     ["Arcane 6-person additional mana regeneration"] = "Тайное искусство: доп. восстановление маны (6 чел.)",
     ["脑海中"] = "В мыслях",
-    ["限制前行"] = "Restrict Forward Movement",
+    ["Speed line post-processing + disable sprinting"] = "Постобработка линий скорости + запрет спринта",
+    ["限制前行"] = "Ограничение движения вперёд",
+    ["Just a swindler; she claims she can replicate the perfume worn by Miss Naila."] = "Всего лишь мошенница, она утверждает, что может подделать те же духи, что у мисс Наилы.",
 }

@@ -279,6 +279,6 @@ return {
     ["Finch, this isn't your fault. We might have been secretly influenced by some power."] = "Финч, это не твоя вина. Возможно, на нас тайно повлияла какая-то сила.",
     ["Steam Era: Overload Core Hit Counter"] = "Паровая эра: Счётчик попаданий ядра перегрузки",
     ["警官……今早有意识的时候，我就坐在长椅上。"] = "Офицер... Когда я утром пришёл в сознание, я сидел на скамейке.",
-    ["这家伙差点儿把裤衩都输在里面了。"] = "This guy almost lost his very underwear in there.",
-    ["饕餮成长体型20档"] = "Gluttony Growth Stage 20",
+    ["这家伙差点儿把裤衩都输在里面了。"] = "Этот тип чуть не проиграл там даже исподнее.",
+    ["饕餮成长体型20档"] = "Рост Обжоры: стадия 20",
 }

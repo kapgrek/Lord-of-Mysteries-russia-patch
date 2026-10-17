@@ -278,6 +278,7 @@ return {
     ["Test Use 4"] = "Тест 4",
     ["热情的火焰高涨，小心别被灼伤。"] = "Пламя страсти бушует, берегитесь, не обожгитесь.",
     ["疾猎"] = "Стремительная охота",
+    ["Metal and Lace"] = "Металл и кружево",
     ["【普通】童话故事-dj搜索出所有的舞伴机器人"] = "[Normal] Fairy Tale-dj search for all Dance Partner robots",
     ["【自走棋英雄强化】- 亡者之花；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Flower of the Dead; export enabled, pending in-game verification",
     ["看！这就是奶奶种的南瓜！"] = "Смотри! Вот они, тыквы, выращенные бабушкой!",

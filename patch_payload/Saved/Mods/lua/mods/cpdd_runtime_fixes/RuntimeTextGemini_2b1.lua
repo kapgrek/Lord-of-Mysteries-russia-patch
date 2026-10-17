@@ -287,7 +287,8 @@ return {
     ["Monster Wave_4"] = "Волна монстров_4",
     ["There is no Hope left..."] = "Надежды больше нет...",
     ["询问露比"] = "Спросить Руби",
-    ["这是最好的时代，鲁恩大陆的“大陆贸易联盟”，将贸易站点和商机铺开在这片大陆上。\n完成每日、每周与当期贸易任务，解锁阶段宝箱与累计奖励。争夺站点，运送货物；翻开商报，判断瞬息万变的行情，寻找时机，搅动市场的起伏。让贸易再次伟大！"] = "This is the best of times. The Continental Trade Alliance of the Loen continent has spread trade outposts and business opportunities across this land.\nComplete daily, weekly, and current trade Quests to unlock stage chests and cumulative rewards. Compete for outposts, transport goods, flip through the business news, judge the ever-changing market trends, look for opportunities, and stir up the market's fluctuations. Let's make trade great again!",
-    ["金秋湖东"] = "East Golden Autumn Lake",
-    ["隐秘空间-跳跃-水晶球默认状态9"] = "Hidden Space-Jump-Crystal Ball Default State 9",
+    ["这是最好的时代，鲁恩大陆的“大陆贸易联盟”，将贸易站点和商机铺开在这片大陆上。\n完成每日、每周与当期贸易任务，解锁阶段宝箱与累计奖励。争夺站点，运送货物；翻开商报，判断瞬息万变的行情，寻找时机，搅动市场的起伏。让贸易再次伟大！"] = "Это лучшее время! «Континентальный торговый союз» Лоэна раскинул торговые пункты и возможности для бизнеса по всему континенту.\nВыполняйте ежедневные, еженедельные и текущие торговые задания, чтобы открывать этапные сундуки и накопительные награды. Боритесь за пункты, доставляйте грузы; листайте торговую газету, оценивайте стремительно меняющийся рынок, ищите момент и раскачивайте колебания цен. Сделаем торговлю великой снова!",
+    ["金秋湖东"] = "Восточный берег Золотого осеннего озера",
+    ["Hidden Space Before Dawn - Death Knell Weapon Burst 2 Buff"] = "Тайное пространство «Перед рассветом» — бафф «Всплеск 2» оружия «Похоронный звон»",
+    ["隐秘空间-跳跃-水晶球默认状态9"] = "Скрытое пространство — Прыжок — шар по умолчанию 9",
 }

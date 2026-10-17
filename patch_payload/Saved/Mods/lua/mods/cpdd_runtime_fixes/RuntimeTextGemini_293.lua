@@ -265,7 +265,8 @@ return {
     ["现实线第六章-见到花摊前的梅丽莎班森"] = "Реальная линия, глава 6 - Увидеть Мелиссу Бенсон у цветочного прилавка",
     ["罗塞尔Boss-锋利的知识-点名标记"] = "Босс Росселл - Острое знание - Метка цели",
     ["Backlund Avenue\r\n<LeonSubTitle size=\"38\">Backlund Avenue</>"] = "Бэкландская авеню\n<LeonSubTitle size=\"38\">Beckland Avenue</>",
-    ["高价收购金黄枫糖"] = "High-price Acquisition: Golden Maple Syrup",
+    ["Release Soul-Calming Resonance, dealing {*d,F1690001,atkMin,3.78} Attack damage to enemies in the target area and putting them into a Slumber for <HighLight>1</> second. At 3 stars: Damage Increased to {*d,F1690001,atkMin,9.65}."] = "Высвобождает умиротворяющий резонанс душ: наносит врагам в целевой области {*d,F1690001,atkMin,3.78} ед. урона от атаки и усыпляет их на <HighLight>1</> сек. На 3 звёздах: урон повышается до {*d,F1690001,atkMin,9.65} ед.",
+    ["高价收购金黄枫糖"] = "Выкуп по высокой цене: золотистый кленовый сироп",
     ["时机如轮\r\n切记"] = "Время подобно колесу,\nпомни об этом.",
     ["Removed %s listed item(s), quantity: %d. Item(s) returned to player"] = "Снято с продажи предметов (%s): %d шт. Предметы возвращены игроку.",
 }

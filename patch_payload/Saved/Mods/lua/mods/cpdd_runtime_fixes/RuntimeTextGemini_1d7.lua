@@ -277,6 +277,6 @@ return {
     ["The Victor's Declaration assembly is a collective grand event for the strategic server."] = "Собрание объявления победителей — это общий праздник стратегического сервера",
     ["Gain <HighLight>2 random pieces of Basic Equipment</>, 1 Equipment Reforger, and 2 Gold."] = "Получите <HighLight>2 случайных предмета базового снаряжения</>, 1 Перековщик снаряжения и 2 золота.",
     ["Upper Bat Wings"] = "Верх крыльев летучей мыши",
-    ["鼓点与欢笑穿透夜空，生命在死亡面前尽情歌唱。"] = "The drumbeats and laughter pierce the night sky; life sings to its heart's content in the face of death.",
+    ["鼓点与欢笑穿透夜空，生命在死亡面前尽情歌唱。"] = "Бой барабанов и смех пронзают ночное небо: перед лицом смерти жизнь поёт от души.",
     ["关闭时间流逝界面  玩家调用展示时间流逝动画  延迟执行  对象同场景传送"] = "Закрыть интерфейс прохождения времени. Игрок вызывает для отображения анимации хода времени. Отложенное исполнение. Объект телепортируется в пределах одной сцены.",
 }

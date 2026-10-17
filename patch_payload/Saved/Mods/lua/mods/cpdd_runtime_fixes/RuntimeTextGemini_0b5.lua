@@ -286,7 +286,7 @@ return {
     ["I'm still just a child, and organizing my words is exhausting. When we see Leonard, he will explain everything clearly."] = "Я ещё ребёнок, мне тяжело складывать слова. Когда мы встретим Леонарда, он всё объяснит.",
     ["Piece Innate Mana Regen: Swain 3-Star"] = "Врожд. восст. маны фигуры: Свейн, 3 зв.",
     ["而桥的那边，就是东区，被塔索克河隔开，与乔伍德区对面而望。"] = "А по ту сторону моста находится Восточный район, отделённый рекой Тассок и обращённый лицом к району Червуд.",
-    ["邓恩伦纳德谈话"] = "Dunn-Leonard Conversation",
+    ["邓恩伦纳德谈话"] = "Разговор Дана и Леонарда",
     ["【自走棋英雄强化】- 蘑菇农场；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Mushroom Farm; export enabled, pending in-game verification",
     ["窥秘人-岁月的棋局-击飞"] = "Mystery Pryer - Gambit of the Ages - Knockup",
     ["前往指定Trigger位置  玩家变身开始"] = "Перейдите в указанное место триггера; начинается трансформация игрока.",

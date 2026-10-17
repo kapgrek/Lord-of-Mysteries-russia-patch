@@ -284,6 +284,8 @@ return {
     ["滑轨3"] = "Направляющая 3",
     ["祂擅长窃取，窃取物品、念头、能力，甚至时间、天气、身份和命运。"] = "Он искусен в краже: крадёт предметы, мысли, способности, и даже время, погоду, личность и судьбу.",
     ["获得【蒸汽时代】共鸣。"] = "Получен резонанс «Паровая эпоха».",
+    ["This gentleman? Miss Della is asking you to come on stage."] = "Господин? Мисс Делла просит вас подняться на сцену.",
+    ["Camera cannot save social actions"] = "Камера не может сохранять социальные действия",
     ["Tab轮选测试配置-血量优先-仅玩家"] = "Tab Selection Test Config - HP Priority - Players Only",
     ["That existence who seduced me is still circling, that power that corrupted me is still peeking, but I know that someone will protect all of this for me. Because I have already seen it—at some point in the future, when the crisis comes from the starry sky, you are also one of the hopes of this world..."] = "То существование, которое меня соблазнило, все еще кружит, та сила, которая меня развратила, еще выглядывает, но я знаю, что кто-то защитит все это для меня. Потому что я это уже видел — в какой-то момент в будущем, когда кризис придет со звездного неба, вы тоже станете одной из надежд этого мира…",
     ["采集指定TemplateID的采集物  玩家播放指定镜头后效  延迟执行  玩家播放指定镜头后效"] = "Собрать предмет сбора с указанным TemplateID, игрок воспроизводит указанный пост-эффект камеры, отложенное выполнение, игрок воспроизводит указанный пост-эффект камеры",

@@ -295,6 +295,7 @@ return {
     ["Auto Chess Placeholder Title 2"] = "Автобитва: титул-заглушка 2",
     ["Fragrance adorns your frame, yet you adorn my dreams."] = "Аромат украшает твою раму, а ты украшаешь мои сны.",
     ["装备抽取"] = "Розыгрыш экипировки",
+    ["Grants <HighLight>three random items</> of [Age of Steam] equipment."] = "Вы получаете <HighLight>3 случайных предмета</> снаряжения «Века пара».",
     ["【自走棋】-痛苦魔女-第二脉冲"] = "[Auto Chess] - Pain Witch - Second Pulse",
     ["She and he, he and she, <Hide stylename=\"Transparent\" id=\"#161\">she and she, he and he,</>\npassionate love stories, all at the Tingen Grand Theater!\n\n\n<Note_Normal_HW>** of it, whoever scribbled out the words at the back, I love watching this!</>\n\n<Note_Normal_HW>Forget it, buddy, there are kids nearby, and do you really have the money to buy a ticket to the Tingen Grand Theater?</>\n\n<Note_Normal_HW>As if any of the kids nearby know how to read!</>"] = "Она и он, он и она, <Hide stylename=\"Transparent\" id=\"#161\">она и она, он и он...</>\nПылкие истории любви — только в Большом театре Тингена!\n\n\n<Note_Normal_HW>Черт побери, кто замазал вторую строчку?! Я только ради этого и пришел!</>\n\n<Note_Normal_HW>Да брось, дружище, вокруг же дети крутятся! Да и откуда у тебя вообще деньги на билет в Большой театр Тингена?</>\n\n<Note_Normal_HW>Будто здешние сорванцы хоть слово прочесть умеют!</>",
 }

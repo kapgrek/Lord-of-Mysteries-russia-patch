@@ -277,7 +277,8 @@ return {
     ["Give a smile"] = "Улыбнитесь",
     ["而我降临现实后，阿蒙本体与威尔合作，以邮差分身为媒介，暂时窃取我身上邪神子嗣的命运。"] = "А когда я сошёл в реальность, истинное тело Амона вместе с Уиллом, используя двойника-почтальона как посредника, временно украло у меня судьбу отпрыска Внешнего божества.",
     ["记录回响"] = "Эхо записи",
-    ["这回就算是死也值回票价了！"] = "Even if I die this time, it's worth the price of admission!",
+    ["这回就算是死也值回票价了！"] = "Теперь даже смерть будет стоить цены билета!",
+    ["Hidden Space-Jump-Crystal Ball Default State 3"] = "Скрытое пространство — Прыжок — шар по умолчанию 3",
     ["【普通】童话故事-筛选出灰姑娘"] = "[Normal] Fairy Tale - Select Cinderella",
     ["Gather collection item with specified TemplateID  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Собрать элемент коллекции с указанным TemplateID. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире). Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",
 }

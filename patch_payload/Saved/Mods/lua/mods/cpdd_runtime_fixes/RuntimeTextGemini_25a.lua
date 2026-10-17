@@ -306,5 +306,6 @@ return {
     ["棋子固有回蓝·弓箭骑士"] = "Врожд. восст. маны фигуры: Рыцарь-лучник",
     ["It's okay, there will be another time for us to meet."] = "Ничего, мы ещё увидимся.",
     ["获得<HighLight>1个风信子</>。每场战斗中，咒术棋子<HighLight>前2次施法</>后均获得<HighLight>10%攻速</>和<HighLight>8%伤害加深</>，持续<HighLight>4秒</>。"] = "Получите <HighLight>1 Гиацинт</>. В каждом бою после <HighLight>первых 2 применений навыка</> фигуры проклятий получают <HighLight>10% скорости атаки</> и <HighLight>8% усиления урона</> на <HighLight>4 сек.</>.",
-    ["魔毯"] = "Magic Carpet",
+    ["This gentleman has bid 300,000 soli. Are there any higher bids?"] = "Этот джентльмен предлагает триста тысяч сулей. Кто даст больше?",
+    ["魔毯"] = "Волшебный ковёр",
 }

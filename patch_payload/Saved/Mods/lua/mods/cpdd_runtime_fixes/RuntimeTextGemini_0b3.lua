@@ -288,7 +288,7 @@ return {
     ["秘法"] = "Тайное искусство",
     ["组队模式参加副本<Highlight>五月庄园·城堡（困难）</>，击败<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得下列外观。"] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Замок (Сложно)</>. После победы над <Highlight>Стражем потомства</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
     ["藤萝雨"] = "Дождь глицинии",
-    ["金秋小憩"] = "Golden Autumn Respite",
+    ["金秋小憩"] = "Золотой осенний отдых",
     ["歌颂者-勇气之歌2阶"] = "Bard - Song of Courage Tier 2",
     ["Gentlemen! Please do not let the children seeking knowledge be covered in dust!\nWe cordially invite noble gentlemen and ladies to pave the way for education with gold pounds.\n\nAll donors can be entered into the \"Evernight Candlelight\" directory,\nand your kindness will be blessed by the Goddess.\n\nDonation location: <Highlight>Local Evernight Church</>\n\nNote: Our association's accountant is certified by Backlund University,\nand the income and expenditure accounts are published in the third edition of the \"Tingen Daily\" every month."] = "Всем! Не позволяйте детям, которые учатся, покрыты пылью! \n Мы искренне призываем уважаемых господ и дам проложить путь к образованию золотыми фунтами. \n\nЛюбой донор может войти в каталог «Свечи в темноте», \nваша доброта будет благословлена ​​богиней. \n\n Офис пожертвований: <Highlight> Местная ночная церковь </>\n\n Примечание: Наш бухгалтер сертифицирован Беклундским университетом, \n Счета доходов и расходов публикуются ежемесячно на третьей странице «Tingen Daily».",
 }

@@ -284,5 +284,7 @@ return {
     ["Pearlescent Lotus II"] = "Перламутровый лотос II",
     ["Finally, someone who doesn't mind my grating tone and is willing to listen to me ramble."] = "Наконец-то нашёлся тот, кого не смущает мой резкий говор и кто готов выслушать мою болтовню.",
     ["Bush Concealment Aura - Bush 24"] = "Аура скрытности в кустах - куст 24",
-    ["齿轮发射器距离过近，将持续对附近造成伤害！"] = "The Gear Launcher is too close, it will cause Continuous damage to the surroundings!",
+    ["The matter of Tingen in the Mirror hasn't fully concluded yet. We have recently been tracking the traces of a Sequence 3 Amon Avatar and cleaning up corrupted Amon Avatars. And this matter concerns you."] = "Дело Тингена в Зеркале ещё не окончено до конца. Недавно мы выслеживали следы аватара Амона Последовательности 3 и очищали заражённые аватары Амона. И это дело касается вас.",
+    ["Timed Shoot_Normal Chest Unlocked_C"] = "Стрельба на время_Обычный сундук открыт_C",
+    ["齿轮发射器距离过近，将持续对附近造成伤害！"] = "Шестерёночная пушка слишком близко и будет непрерывно наносить урон окружающим!",
 }

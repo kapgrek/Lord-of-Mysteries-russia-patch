@@ -284,8 +284,10 @@ return {
     ["投票评选"] = "Голосование",
     ["Never Alone"] = "Беда не приходит одна",
     ["Gain 1 Growth Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>66 item level</> <Highlight>Competition-oriented</> orange or gold quality Equipment, Beyonder material, Polymerization Factor, or bound soli. There is a chance to additionally obtain a piece of Brand Equipment matching the Secret Treasure's item level; it is guaranteed after opening 20 of these Secret Treasures. There is a chance to obtain 1 Gray Fog Crystal (used to upgrade Competition Brooches of item level 64 or higher to Mythical quality). A maximum of 3 can be obtained per week, and unobtained amounts can be carried over to the following week."] = "За каждые <Highlight>20 прогресса</> вы получаете 1 ящик ресурсов развития. В нём можно получить случайный предмет оранжевого или золотого качества с <Highlight>уровнем предмета 66</> со <Highlight>склонностью к соревнованиям</>, потусторонние материалы, фактор слияния и привязанные соли. С определённым шансом дополнительно выпадает предмет с клеймом, соответствующий уровню предмета тайного сокровища; после 20 открытий этого сокровища он гарантированно выпадет. С определённым шансом можно получить 1 кристальную крупицу серого тумана (для улучшения соревновательной броши с уровнем предмета 64 и выше до мифического качества), не более 3 в неделю; неполученное количество накапливается до следующей недели.",
-    ["车队等级达到26级"] = "Caravan level reaches 26",
-    ["骗子？有悬念的转折！但别演了，我得去化妆准备演出了。"] = "A swindler? A twist with suspense! But stop acting, I need to go put on makeup and prepare for the show.",
+    ["车队等级达到26级"] = "Уровень каравана достигает 26",
+    ["The footsteps of escape and the shadows of Pursuit; life and death hang in the balance in a single instant."] = "Шаги бегства и тени погони: жизнь и смерть решаются в одно мгновение.",
+    ["Hidden Space Before Dawn - Death Knell Weapon Burst 3 Buff"] = "Тайное пространство «Перед рассветом» — бафф «Всплеск 3» оружия «Похоронный звон»",
+    ["骗子？有悬念的转折！但别演了，我得去化妆准备演出了。"] = "Мошенник? Поворот с интригой! Но хватит играть, мне пора гримироваться и готовиться к выступлению.",
     ["米尔贡根-王庭之盾-随机分buff-2个奶妈（退化坦克，再退化DPS）：第1层"] = "Milgongen-Shield of the Royal Court-Random buff distribution-2 Healers (Degrade Tank, then degrade DPS): Layer 1",
     ["城市暗面玩法悬赏值达到%d/2000。"] = "Достигните награды в размере %d/2000 в игровом процессе «Темная сторона города».",
 }

@@ -278,6 +278,8 @@ return {
     ["立即获得<HighLight>6/10金币</>，此后<HighLight>每个阶段开始时</>再获得<HighLight>6金币</>。"] = "Немедленно получите <HighLight>6/10 монет</>, затем <HighLight>в начале каждого этапа</> получайте еще <HighLight>6 монет</>.",
     ["等待午夜降临"] = "Дождаться полуночи",
     ["累计成交战略金镑"] = "Всего продано стратегических золотых фунтов",
+    ["Glittering Fragments"] = "Блёстки",
+    ["Hidden Space - Dawn Defense Line - EXP Buff"] = "Тайное пространство — Рубеж рассвета — бафф опыта",
     ["装备-痛饮之铠神话-2格"] = "Equipment - Armor of Gluttony Mythical - 2 Slots",
     ["Mosh"] = "Мош",
     ["Zamir"] = "Замир",

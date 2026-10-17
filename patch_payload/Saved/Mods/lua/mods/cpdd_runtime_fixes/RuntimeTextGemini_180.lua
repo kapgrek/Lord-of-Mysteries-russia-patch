@@ -296,7 +296,8 @@ return {
     ["Cumulative Recharge"] = "Накопл. пополнение",
     ["Gain 2 one-star Sword Knights. Their skill becomes <HighLight>a multi-hit attack that grants crowd-control immunity and Damage Reduction during the attack, then restores Health when it ends</>. After 5 rounds, gain 2 Basic Piece Recorders."] = "Получите 2 Рыцарей с большим мечом 1 звезды. Навык усиливается: <HighLight>серия ударов, во время которой иммунитет к контролю и снижение урона, а по окончании восстанавливается здоровье</>. Через 5 раундов партии получите 2 Низших регистратора фигур.",
     ["Investigate 1"] = "Расследование 1",
-    ["门内传来了亚多尼斯的声音……"] = "Adonis's voice came from behind the Door...",
-    ["隐秘空间-跳跃测试-红平台默认状态"] = "Hidden Space - Jump Test - Red Platform Default State",
+    ["门内传来了亚多尼斯的声音……"] = "Из-за двери донёсся голос Адониса...",
+    ["Hidden Space-Exchange Persona Space-Not Cleared"] = "Скрытое пространство - Пространство личности обмена - Не пройдено",
+    ["隐秘空间-跳跃测试-红平台默认状态"] = "Скрытое пространство — Тест прыжка — красная платформа по умолчанию",
     ["<P_Heart>（看来队长认识她……对了……）</>"] = "<P_Heart>（Похоже, Капитан её знает... Точно...）</>",
 }

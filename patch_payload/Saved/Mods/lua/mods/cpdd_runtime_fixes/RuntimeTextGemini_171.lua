@@ -260,6 +260,9 @@ return {
     ["Puzzle of the first Crystal ball:\n<InvHighlight>α multiplied by β</> equals <InvHighlight>12</>\n\nPuzzle of the second Crystal ball:\nThe position of the Crystal ball <InvHighlight>(β minus 2, α minus 2)</> is <InvHighlight>(1, 2)</>\n\nPuzzle of the third Crystal ball:\nThe position of the Crystal ball <InvHighlight>(α, ω plus 1)</> is <InvHighlight>(4, 3)</>\n\nFirst Portal:\n<InvHighlight>α plus α</> equals <InvHighlight>8</>"] = "Загадка первого хрустального шара:\n<InvHighlight>α умножить на β</> равно <InvHighlight>12</>\n\nЗагадка второго хрустального шара:\nПозиция хрустального шара <InvHighlight>(β минус 2, α минус 2)</> равна <InvHighlight>(1,2)</>\n\nЗагадка третьего хрустального шара:\nПозиция хрустального шара <InvHighlight>(α, ω плюс 1)</> равна <InvHighlight>(4,3)</>\n\nПервый портал:\n<InvHighlight>α плюс α</> равно <InvHighlight>8</>",
     ["Second time returning to the ship - conversation between Finch and Amon"] = "Второе возвращение на корабль — разговор Финча с Амоном",
     ["自走棋占位称号2"] = "Автобитва: титул-заглушка 2",
-    ["隐秘空间-换物人格-关2-窃取正确B2-占"] = "Hidden Space-Exchange Persona-Level 2-Steal Correct B2-Divination",
+    ["And this—the Sealed Artifact \"Star Curtain.\" It can ward off fatal damage from the starry sky."] = "А вот это — Запечатанный Артефакт «Звёздный занавес». Он защищает от смертельного урона из звёздного неба.",
+    ["Collect Poster"] = "Сбор: плакат",
+    ["Golden mint is commonly used in potions, with a richer flavor than common mint... Let me wake up the mint first, then add crushed ice for you."] = "Золотая мята часто используется в зельях, её вкус насыщеннее обычной мяты… Сперва разомну мяту, потом добавлю для вас колотый лёд.",
+    ["隐秘空间-换物人格-关2-窃取正确B2-占"] = "Скрытое пространство - Личность обмена - Уровень 2 - Кража: верно B2 - Гадание",
     ["如同驯服猛兽一般，你以温柔征服了内心的狂暴。真正的强大不在毁灭对方，而在掌控。"] = "Подобно укрощению дикого зверя, вы мягко победили внутреннее безумие. Истинная сила заключается не в уничтожении противника, а в контроле.",
 }

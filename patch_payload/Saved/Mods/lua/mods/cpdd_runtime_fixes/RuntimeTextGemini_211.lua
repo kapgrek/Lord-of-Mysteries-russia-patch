@@ -257,8 +257,8 @@ return {
     ["终末猎杀草丛隐身;草丛组04"] = "Охота Конца: невидимость в траве; группа травы 04",
     ["终末猎杀草丛隐身;草丛组12"] = "Охота Конца: невидимость в траве; группа травы 12",
     ["Gain <HighLight>10 free refreshes</>. Upon reaching <HighLight>level 9</>, gain another <HighLight>2 free refreshes</> and <HighLight>1 Advanced Piece Recorder</>."] = "Получите <HighLight>10 бесплатных обновлений</>. При достижении <HighLight>9 уровня</> получите ещё <HighLight>2 бесплатных обновления</> и <HighLight>1 продвинутый регистратор фигур</>.",
-    ["逃离现场"] = "Flee the scene",
-    ["集齐15个可以获得秘偶小丑，也可用于秘偶小丑的培养。"] = "Collect 15 to obtain the marionette Clown, which can also be used for the cultivation of the marionette Clown.",
+    ["逃离现场"] = "Покинуть место",
+    ["集齐15个可以获得秘偶小丑，也可用于秘偶小丑的培养。"] = "Соберите 15 шт., чтобы получить тайную марионетку «Клоун». Также используется для её развития.",
     ["监听关闭阅读界面  玩家播放单句黑屏字幕"] = "Дождитесь закрытия интерфейса чтения. Плеер воспроизводит одну строку субтитров на черном экране.",
     ["\"You are Mr. The Fool, from the Tarot cards. Since this is a regular, long-term, and secret 'gathering,' the titles should be consistent. Hmm, I'll pick from the Tarot cards too.\" \n      Her tone gradually became cheerful: \"Decided, my title is 'Justice'!\" This is one of the twenty-two Major Arcana cards. \n      \"And you, sir?\" Audrey looked smilingly at her opposite 'companion.' Alger frowned slightly, then relaxed: \n      \"The Hanged Man.\""] = "«Вы — господин ‘Шут’, из карт Таро. Раз это регулярная, долгосрочная и тайная ‘встреча’, титулы должны быть в одном стиле. Хм, я тоже выберу из карт Таро».\n      Её тон постепенно стал весёлым: «Решено, мой титул — ‘Справедливость’!» Это одна из двадцати двух старших карт Таро.\n      «А вы, сударь?» — Одри с улыбкой посмотрела на сидящего напротив ‘товарища’. Алджер слегка нахмурился, затем разгладил лицо и сказал:\n      «Повешенный».",
 }

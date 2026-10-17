@@ -291,8 +291,9 @@ return {
     ["绝盾徽章护盾"] = "Щит Знака Абсолютного щита",
     ["Self-Service Ticket Purchase"] = "Покупка билета",
     ["Hey! Sir, sir! Madam, don't go! If you go to see this play again next time—"] = "Эй! Сэр, сэр! Госпожа, не уходите! Если в следующий раз вы пойдёте на эту пьесу...",
-    ["这个词语的意思是：家乡，心灵与精神的归宿。罗塞尔决定将两个汉字当成特殊的符号教导贝尔纳黛，告诉她，这是她父亲给她的护身咒文，让她永远铭记。她不需要懂相应的意思，只用记住这两个汉字是“故乡”。"] = "This term means: hometown, the destination of the soul and spirit. Roselle decided to teach these two Chinese characters to Bernadette as special symbols, telling her that this was a protective incantation from her father, meant for her to remember forever. She didn't need to understand the meaning; she only needed to remember that these two characters meant \"hometown.\"",
-    ["防御降低10%，持续10秒。"] = "Defense reduced by 10%, Continuous for 10 seconds.",
-    ["隐秘空间-记忆窃贼-未通关"] = "Hidden Space-Memory Thief-Not Cleared",
+    ["I would like to ask about something else."] = "Хочу спросить ещё кое о чём",
+    ["这个词语的意思是：家乡，心灵与精神的归宿。罗塞尔决定将两个汉字当成特殊的符号教导贝尔纳黛，告诉她，这是她父亲给她的护身咒文，让她永远铭记。她不需要懂相应的意思，只用记住这两个汉字是“故乡”。"] = "Это слово означает: родной край, пристанище души и духа. Рассел решил преподать Бернадетте эти два иероглифа как особые символы и сказал ей, что это защитное заклинание от отца, которое она должна помнить всегда. Ей не нужно понимать значение, достаточно запомнить, что эти два иероглифа означают «родина».",
+    ["防御降低10%，持续10秒。"] = "Защита снижена на 10% на 10 сек.",
+    ["隐秘空间-记忆窃贼-未通关"] = "Тайное пространство — Похититель воспоминаний — не пройдено",
     ["Kais"] = "Кейс",
 }

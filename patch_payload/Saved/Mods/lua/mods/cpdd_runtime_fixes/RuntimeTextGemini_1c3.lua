@@ -283,6 +283,7 @@ return {
     ["相机沙发区克莱恩"] = "Камера: Клейн в зоне дивана",
     ["What an interesting journey, though it's a bit troublesome. All his things are soaked through."] = "Занятное путешествие, только немного хлопотное. Все его вещи промокли насквозь.",
     ["神弃之地徽章"] = "Значок Земли, покинутой богами",
-    ["食材准备好了吗？"] = "Are the ingredients ready?",
+    ["Nearby site acquisition news"] = "Новости о выкупе ближайших станций",
+    ["食材准备好了吗？"] = "Ингредиенты готовы?",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

@@ -294,7 +294,8 @@ return {
     ["Dragon Hunting Faction Auction"] = "Аукцион фракции охотников на драконов",
     ["神血之躯cd"] = "Перезарядка: Тело божественной крови",
     ["Gain <HighLight>1 Rare Equipment Chest</> and 2 Gold."] = "Получите <HighLight>1 Редкий сундук снаряжения</> и 2 золота.",
-    ["附加赛"] = "Playoff",
+    ["附加赛"] = "Дополнительный матч",
+    ["Ghost Summon"] = "Призыв призрака",
     ["Nayeli"] = "Наели",
     ["Marco"] = "Марко",
 }

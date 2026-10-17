@@ -292,6 +292,7 @@ return {
     ["沙发区伦纳德"] = "Зона с диванами, Леонард",
     ["Burning like flame, enduring like stone, a small space between fingers, a promise for eternity. {{player.name}} gifted {{item.count}} {{item.name}} to {{targetPlayer.name}}, an oath carved in time, to be together through every dawn and dusk."] = "Горячая, как пламя, и вечная, как камень, — с ладонь размером, обещание навсегда. {{player.name}} дарит {{targetPlayer.name}}: {{item.name}} ×{{item.count}} — клятву, высеченную в годах, чтобы быть рядом каждое утро и каждый вечер.",
     ["等等，你不会是那些异教徒的同伙吧？"] = "Погоди, ты ведь не сообщник этих еретиков?",
+    ["Hidden Space-Exchange Persona-Level 4-Steal Correct-Counterattack B2-Object on A1"] = "Скрытое пространство - Личность обмена - Уровень 4 - Кража: верно - Контратака B2 - Предмет на A1",
     ["终末猎杀-草丛07合并隐匿04（含2块原范围）"] = "Final Hunt-Bush 07 Merged Concealment 04 (Includes 2 original areas)",
     ["装备-破灭重锤神话-2格"] = "Equipment - Heavy Hammer of Ruin Mythical - 2 Slots",
     ["It is just a piece of distorted remnant thought I left behind, yet it thinks it is the master of the Steam Palace? Heh, but my power is not so easily used. That is only a part of my will, a part that has been distorted and corrupted, not the real me..."] = "Это всего лишь кусок искаженной мысли, которую я оставил, но он думает, что является хозяином Парового Дворца? Хех, но мою силу не так-то легко использовать. Это лишь часть моей воли, часть, которая была искажена и испорчена, а не настоящий я...",

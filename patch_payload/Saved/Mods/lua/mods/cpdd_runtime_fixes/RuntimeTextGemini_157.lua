@@ -283,7 +283,7 @@ return {
     ["Reach level 47\nComplete [Thread of Fanaticism]"] = "Достигните 47 уровня\nЗавершите «Нить фанатизма»",
     ["继续寻找<h>邮差</>"] = "Продолжить поиски <h>почтальона</>",
     ["Roselle Boss Hard - Phase 2 - Sharp Knowledge - Gear Device Passive Buff"] = "Босс Розель (сложный) - 2 фаза - Острое знание - Постоянный бафф механизма-шестерни",
-    ["鄧恩"] = "Dunn",
+    ["鄧恩"] = "Данн",
     ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛任意3人"] = "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter any 3 people",
     ["终末猎杀-草丛08合并隐匿01（含2块原范围）"] = "Final Hunt-Bush 08 Merged Concealment 01 (Includes 2 original areas)",
     ["任务自定义事件  玩家传送到位面"] = "Пользовательское событие задания: Телепортация игрока на план.",

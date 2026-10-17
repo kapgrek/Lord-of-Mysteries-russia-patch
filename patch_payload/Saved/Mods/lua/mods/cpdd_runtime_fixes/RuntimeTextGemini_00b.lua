@@ -302,6 +302,7 @@ return {
     ["本周已获得战略随机礼盒%d/%d"] = "Стратегических случайных подарочных коробок получено на этой неделе: %d/%d",
     ["繁星教堂\r\n<LeonSubTitle size=\"38\">Church of Stars</>"] = "Церковь Звезд\n<LeonSubTitle size=\"38\">Church of Stars</>",
     ["Talk about other experiences"] = "Поговорить о других новостях",
-    ["距离警察赶到现场还有25秒！"] = "25 seconds until the police arrive at the scene!",
-    ["隐秘空间破晓之前-丧钟武器爆发3buff"] = "Hidden Space Before Dawn - Death Knell Weapon Burst 3 Buff",
+    ["距离警察赶到现场还有25秒！"] = "До прибытия полиции на место осталось 25 сек.!",
+    ["Caravan level reaches 9"] = "Уровень каравана достигает 9",
+    ["隐秘空间破晓之前-丧钟武器爆发3buff"] = "Тайное пространство «Перед рассветом» — бафф «Всплеск 3» оружия «Похоронный звон»",
 }

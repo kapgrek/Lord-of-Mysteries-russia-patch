@@ -287,7 +287,7 @@ return {
     ["Joseph? That child used to come here often. He wouldn't buy flowers; he would just stand at the door and watch. Once, I gave him a daisy, and he tucked it behind his ear and left happily."] = "Джозеф? Этот мальчик раньше часто захаживал ко мне. Цветов не покупал, просто стоял у двери и смотрел. Однажды я подарила ему ромашку, он заткнул её за ухо и радостно ушёл.",
     ["获得<HighLight>1个封印装备宝匣</>，并随机获得<HighLight>1个5费棋子</>。"] = "Получите <HighLight>1 запечатанный ларец снаряжения</> и случайно <HighLight>1 фигуру стоимостью 5</>.",
     ["Wisteria Rain"] = "Дождь глицинии",
-    ["霜陨最佳"] = "Frostfall MVP",
+    ["霜陨最佳"] = "Лучший игрок Морозного падения",
     ["美酒、劲舞、无尽的欢愉！\n\n本酒馆开业只做三件事：激情、激情、还是<Hide id=\"#157_R\">***</>激情！\n\n每<Highlight>周四</>更有全场美酒<Highlight>激情半价</>！\n\n爱酒之人，勿失良机！"] = "Изысканное вино, зажигательные танцы, бесконечное наслаждение!\n\nНаша таверна создана лишь ради трёх вещей: страсть, страсть и ещё раз <Hide id=\"#157_R\">***</> страсть!\n\nКаждый <Highlight>четверг</> на всё вино в заведении действует <Highlight>страстная скидка 50%</>!\n\nЦенители доброй выпивки, не упустите свой шанс!",
     ["Annalia"] = "Анналия",
     ["Windows like this,\nif not closed tightly,\nif you crouch under the windowsill,\nit's very easy to hear..."] = "При таком окне \n закрывается неплотно, а \n лежит под подоконником, \n легко слышит...",

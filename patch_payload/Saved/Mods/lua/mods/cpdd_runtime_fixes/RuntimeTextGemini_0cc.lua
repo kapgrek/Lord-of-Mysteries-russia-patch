@@ -279,5 +279,5 @@ return {
     ["Partner of Justice"] = "Соратник справедливости",
     ["Under the Crystal chandelier, amidst the clinking of glasses, you shine like platinum."] = "Под светом хрустальной люстры, среди звона бокалов, ты сияешь, как платина.",
     ["臭味肯定是那群异教徒搞出来的！"] = "Эту вонь наверняка устроили те еретики!",
-    ["迪伦的身体承载了我的命运和身份，他应该去追邮差才对，为什么安心在这儿斗邪恶？"] = "Dylan's body bears my fate and identity. He should be chasing the postman, so why is he contentedly fighting evil here?",
+    ["迪伦的身体承载了我的命运和身份，他应该去追邮差才对，为什么安心在这儿斗邪恶？"] = "Тело Дилана несёт мою судьбу и личность. Ему следовало бы гнаться за почтальоном, так почему он спокойно сражается здесь со злом?",
 }

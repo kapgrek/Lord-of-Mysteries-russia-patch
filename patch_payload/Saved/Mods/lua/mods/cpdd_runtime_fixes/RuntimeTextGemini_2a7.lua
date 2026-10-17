@@ -308,7 +308,9 @@ return {
     ["Final Hunt Bush Invisibility; Bush Group 22"] = "Охота «Конец времён»: невидимость в траве; группа травы 22",
     ["语音房赠礼"] = "Подарок голосовой комнаты",
     ["Please pay more attention to the corpse I am playing. You can offer me any suggestions..."] = "Обратите, пожалуйста, больше внимания на труп, которого я играю. Можете дать мне любые советы...",
-    ["赛季团队副本奖励说明"] = "Seasonal Dungeon reward description",
+    ["赛季团队副本奖励说明"] = "Описание наград сезонного командного подземелья",
+    ["Dean is right. In this world of Madness, at least we still have each other, and a warm meal to make today a happy day."] = "Дин прав: в этом безумном мире у нас по крайней мере есть друг друга и тёплая еда, которая делает этот день счастливым.",
+    ["Hidden Space-Exchange Persona-Level 4-Steal Correct-Counterattack B1"] = "Скрытое пространство - Личность обмена - Уровень 4 - Кража: верно - Контратака B1",
     ["Gather collection item with specified TemplateID  Object sends scene event"] = "Собрать ресурс с указанным TemplateID. Объект отправляет событие сцены",
     ["我明明是一个人！你侮辱我人格！接招！"] = "Я явно всего лишь один человек! Вы оскорбляете мой характер! Возьми это!",
 }

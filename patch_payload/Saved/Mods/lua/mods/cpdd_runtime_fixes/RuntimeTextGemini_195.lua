@@ -306,6 +306,8 @@ return {
     ["疾猎徽章普攻监听"] = "Отслеживание обычной атаки значка стремительной охоты",
     ["西北海港补给"] = "Снабжение северо-западного порта",
     ["Investigate <h>Nervous Youth</>"] = "Расследовать: <h>нервный юноша</>",
+    ["This is the battlefield of the Frost-Fall Lord. As a participant, you can come here during your free time to familiarize yourself with the battlefield environment and practice capturing objectives."] = "Здесь поле битвы Повелителя Падения Инея. Как участник игры, ты можешь приходить сюда в свободное время, чтобы заранее изучить обстановку на поле боя и потренироваться в захвате точек.",
+    ["Iron and Blood Badge Area Damage"] = "Урон по области от Значка железа и крови",
     ["终末猎杀-草丛24逐簇隐匿07"] = "Final Hunt-Bush 24 Cluster Invisibility 07",
     ["哎哟，自己摔的还怪地不平？"] = "Ой, ты упал сам и винишь в этом неровную землю?",
     ["精致黄铜打造，轻巧古典，绝佳的阅读伴侣。"] = "Изготовлен из изысканной латуни, легкий и классический, отличный компаньон для чтения.",

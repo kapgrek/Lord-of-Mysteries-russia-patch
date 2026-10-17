@@ -293,4 +293,6 @@ return {
     ["看看<h>时间</>"] = "Посмотреть <h>время</>",
     ["Participate in the Dungeon <Highlight>May Manor · Castle (Hard)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment."] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Замок (Сложно)</>. После победы над <Highlight>Стражем потомства</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить обмениваемое снаряжение.",
     ["Roselle Boss Hard - Phase 3 - Sharp Knowledge - Gear Device Passive Buff"] = "Босс Розель (сложный) - 3 фаза - Острое знание - Постоянный бафф механизма-шестерни",
+    ["Swing 5 times in succession, dealing damage to the current target."] = "Наносит 5 ударов подряд, нанося урон текущей цели.",
+    ["Golden Rose\r\n<LeonSubTitle size=\"38\">Golden Rose</>"] = "Золотая роза\n<LeonSubTitle size=\"38\">Golden Rose</>",
 }

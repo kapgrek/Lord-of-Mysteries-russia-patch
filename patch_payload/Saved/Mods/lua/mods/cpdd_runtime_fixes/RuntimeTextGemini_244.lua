@@ -268,7 +268,7 @@ return {
     ["获得<HighLight>1个高级棋子记录仪</>，<HighLight>5个对弈回合</>后再获得<HighLight>1个</>。"] = "Получите <HighLight>1 Продвинутый регистратор фигур</>, а через <HighLight>5 раундов партии</> получите ещё <HighLight>1</>.",
     ["Assault a dense area of enemies, dealing {*d,F1690001,atkMin,3.8} points of Attack damage. Upon casting, restore <HighLight>40%</> of your max Health, increase Defense by <HighLight>40</> points, and maintain this effect for <HighLight>4</> seconds."] = "Атакует густо скопившихся врагов, нанося {*d,F1690001,atkMin,3.8} ед. урона атаки. При использовании восстанавливает себе <HighLight>40%</> максимального здоровья и повышает защиту на <HighLight>40</> ед. на <HighLight>4</> сек.",
     ["记忆恢复了……"] = "Память восстановлена…",
-    ["那你要一份今天的报纸做什么？"] = "Then what do you need today's newspaper for?",
+    ["那你要一份今天的报纸做什么？"] = "Зачем тебе сегодняшняя газета?",
     ["播放CutScene  玩家停止自己播放情绪音乐  传送回大世界场景"] = "Проиграть кат-сцену; игрок прекращает воспроизведение музыки настроения; телепортация в открытый мир",
     ["Haley"] = "Хейли",
     ["Adora"] = "Адора",

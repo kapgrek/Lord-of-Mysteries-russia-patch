@@ -281,7 +281,10 @@ return {
     ["时轮星仪成长"] = "Рост звёздного прибора времени",
     ["This will display the supply acquisition status of <Highlight>nearby stations</>."] = "Здесь отображается состояние закупки припасов на <Highlight>ближайших станциях</>.",
     ["每段伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>2500%</> = {*d,F1690001,atkMin,25}点"] = "Урон за каждый удар: <img id=\"03\" width=\"40\" height=\"40\"/>Атака × <HighLight>2500%</> = {*d,F1690001,atkMin,25} ед.",
-    ["饕餮成长体型2档"] = "Gluttony Growth Stage 2",
+    ["Continuously Shock surrounding enemies while gaining a Shield."] = "Непрерывно поражает окружающих врагов ударами и одновременно даёт щит.",
+    ["That guy... he always thinks he's the master of the extraordinary, not realizing that a single mistake is an abyss."] = "Этот тип... всегда считает себя хозяином необыкновенного, не понимая, что одна ошибка — и бездна.",
+    ["Shun🔥nuan"] = "順🔥暖",
+    ["饕餮成长体型2档"] = "Рост Обжоры: стадия 2",
     ["I made some feed for it, mixed with berries and citrus. It is very satisfied; it seems my direction is correct. After it finished eating, I announced its name, and Gemini did not object. This is the beginning of our deepening bond."] = "Я приготовила для него корм, смешанный с ягодами и цитрусовыми. Он очень доволен; кажется, мое направление правильное. После того, как он закончил есть, я назвал его имя, и Близнецы не возражали. Это начало нашей углубляющейся связи.",
     ["许多改变生活的产品，最初只是某个“不对”的瞬间。"] = "Многие продукты, которые меняют жизнь, начинаются с «неправильного» момента.",
 }

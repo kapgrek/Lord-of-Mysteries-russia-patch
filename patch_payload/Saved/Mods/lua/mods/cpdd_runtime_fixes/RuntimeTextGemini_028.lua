@@ -273,6 +273,7 @@ return {
     ["暴风雨是冒险家的勋章！"] = "Буря - награда для искателей приключений!",
     ["王者榮耀"] = "Honor of Kings",
     ["等级达到51级\n完成【第五幕·鼠洞】\n完成【困难·剥面人】"] = "Достигните 51 уровня\nЗавершите «Акт V · Крысиная нора»\nЗавершите «Сложно · Сдиратель лиц»",
-    ["这些钱肯定够了，不信你们数数。"] = "This money is definitely enough. If you don't believe me, count it yourselves.",
+    ["这些钱肯定够了，不信你们数数。"] = "Этих денег точно хватит, не верите — пересчитайте.",
+    ["Deceive? I just gave you a story that is easier to accept."] = "Обман? Я лишь рассказал тебе историю, которую легче принять.",
     ["【普通】童话故事-苹果骑士-筛选最远两名玩家（全选）"] = "[Normal] Fairy Tale - Apple Knight - Select two furthest players (select all)",
 }

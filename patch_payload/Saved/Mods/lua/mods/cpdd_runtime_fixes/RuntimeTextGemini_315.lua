@@ -273,6 +273,8 @@ return {
     ["我明明不认识他……码头人群混杂，下船就遇到骗子？"] = "Я же его не знаю... В порту толпа разношёрстная. Неужели, едва сойдя с корабля, я наткнулся на мошенника?",
     ["Finch, I remember now. We have both forgotten some very important things."] = "Финч, я вспомнил. Мы оба забыли кое-что очень важное.",
     ["谢谢你，这是个……冰淇淋玩具？"] = "Спасибо, это... игрушечное мороженое?",
-    ["身处敌方阵营，自身受到伤害增加"] = "When in the enemy camp, damage taken is increased",
-    ["问问威尔"] = "Ask Will",
+    ["身处敌方阵营，自身受到伤害增加"] = "В стане врага получаемый урон увеличивается",
+    ["问问威尔"] = "Спросить Уилла",
+    ["Collect 15 to obtain the marionette Worm of Star: Secrecy; they can also be used to upgrade the marionette Worm of Star: Secrecy."] = "Соберите 15 шт., чтобы получить тайную марионетку «Червь Звезды: Хранитель тайн». Также используется для её развития.",
+    ["Gluttony Growth Stage 2"] = "Рост Обжоры: стадия 2",
 }

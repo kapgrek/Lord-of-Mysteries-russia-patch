@@ -279,7 +279,8 @@ return {
     ["Let me give you a reminder: you are the real prey..."] = "Дам тебе совет: настоящая добыча — это ты...",
     ["Roselle Boss - Password Phase - Check if 84015115 is present on player"] = "Босс Росселл - Фаза пароля - Проверка наличия 84015115 на игроке",
     ["Blood Hunter Cloak"] = "Плащ кровавого охотника",
-    ["隐秘空间-换物人格-关1-窃取错误测试1"] = "Hidden Space-Exchange Persona-Level 1-Steal Error Test 1",
-    ["馬"] = "Horse",
+    ["隐秘空间-换物人格-关1-窃取错误测试1"] = "Скрытое пространство - Личность обмена - Уровень 1 - Кража: тест ошибки 1",
+    ["Hurricane Admiral Qilangos was ambushed by a mysterious organization!"] = "Ураганный вице-адмирал Цилангос попал в засаду тайной организации!",
+    ["馬"] = "Лошадь",
     ["击败指定InstanceID的怪物  对象发送场景事件"] = "Победите монстра с указанным InstanceID. Объект отправляет событие сцены.",
 }

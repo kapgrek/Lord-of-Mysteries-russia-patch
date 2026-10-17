@@ -305,6 +305,7 @@ return {
     ["Opening this grants 1 random <Highlight>unbound</> <Highlight>Item Level 65 Competition-oriented</> orange piece of equipment."] = "После открытия случайным образом выдаётся 1 <Highlight>непривязанная</> оранжевая экипировка <Highlight>65 ур. предмета с соревновательным уклоном</>.",
     ["Place Bookmark"] = "Поставить закладку",
     ["Moonlight Ribbon"] = "Лунная лента",
+    ["Grants <HighLight>two random items</> of [Age of Steam] equipment."] = "Вы получаете <HighLight>2 случайных предмета</> снаряжения «Века пара».",
     ["Jesson"] = "Джессон",
     ["Zainab"] = "Зайнаб",
     ["施放指定技能  玩家高亮显示技能栏里的指定技能  玩家播放CutScene"] = "Применяет указанный навык, игрок выделяет указанный навык на панели навыков, игрок запускает кат-сцену",

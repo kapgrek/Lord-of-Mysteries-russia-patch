@@ -292,5 +292,7 @@ return {
     ["罗塞尔Boss-3阶段-镜像数据-护盾表现"] = "Босс Розель - 3 фаза - Зеркальные данные - Вид щита",
     ["Tencent Cloud Stress Test Cross-Server Strategic Server 59001"] = "Тест нагрузки Tencent Cloud: межсерверный стратегический сервер 59001",
     ["Proof of Glory Merit Tier"] = "Ярус заслуг Знака славы",
+    ["Luxury Wing Gold Coin"] = "Золотая монета роскошных крыльев",
+    ["Yellow-Black Kitty"] = "Жёлто-чёрный котик",
     ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }

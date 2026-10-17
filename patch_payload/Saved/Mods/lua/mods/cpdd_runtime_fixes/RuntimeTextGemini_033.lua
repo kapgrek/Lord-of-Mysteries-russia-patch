@@ -297,6 +297,8 @@ return {
     ["Open to randomly receive 1 piece of <Highlight>Competition-oriented</> orange Equipment with <Highlight>Item Level 68</>."] = "После открытия случайно выдаёт 1 оранжевую единицу снаряжения с <Highlight>уровнем предмета 68</> и <Highlight>соревновательным уклоном</>.",
     ["Test DPS"] = "Тест DPS",
     ["Rare Sun-Pattern Amulet"] = "Редкое·Оберег солнечного узора",
-    ["追星"] = "Star-chasing",
+    ["Caravan level reaches 3"] = "Уровень каравана достигает 3",
+    ["This is Amon's true body?!"] = "Это истинное тело Амона?!",
+    ["追星"] = "Погоня за звёздами",
     ["Camilo"] = "Камило",
 }

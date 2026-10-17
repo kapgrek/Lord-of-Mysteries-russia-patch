@@ -282,6 +282,8 @@ return {
     ["瞬间回到此前留下的印记"] = "Мгновенное возвращение к оставленной ранее метке",
     ["He used the Sacrifice of Tingen in the Mirror and May Manor as a cover to achieve His true purpose—"] = "Он использовал жертвоприношение в Тингене в зеркале и в Майском поместье как прикрытие для достижения Своей истинной цели...",
     ["花海北部前往花海南部"] = "Север Цветочного моря — юг Цветочного моря",
+    ["Go over and ask <h>Dylan</>"] = "Подойти и спросить <h>Дилана</>",
+    ["Arianna will provide hidden power to the Awakener. If more direct assistance is needed, you may chant the name \"Arianna\" in Ancient Hermes."] = "Арианна дарует пробуждённому скрытую силу. Если нужна более прямая помощь, назовите имя «Арианна» на древнегермесском.",
     ["播放CutScene  延迟执行  玩家停止自己播放情绪音乐"] = "Воспроизвести CutScene, задержать выполнение, плеер перестает воспроизводить эмоциональную музыку",
     ["Abby"] = "Эбби",
 }

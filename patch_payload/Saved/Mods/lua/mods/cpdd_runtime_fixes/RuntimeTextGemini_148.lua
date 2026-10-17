@@ -304,7 +304,8 @@ return {
     ["Rare Scorching Flame Battle Armor"] = "Редкое·Боевые латы пылающего пламени",
     ["Reach level 38\nComplete [Act III · Madman]"] = "Достигнуть 38 уровня\nЗавершить [Акт III · Безумец]",
     ["Vic, how much longer are you going to lie to me?"] = "Вик, до каких пор ты будешь меня обманывать?",
-    ["这，这些老板都没跟我说过……他只叫我送棺材出城，然后对外宣布已经火葬。"] = "Th-these bosses never told me... He only told me to transport the coffin out of the city and then announce that it had been cremated.",
-    ["<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>30</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "",
+    ["这，这些老板都没跟我说过……他只叫我送棺材出城，然后对外宣布已经火葬。"] = "Э-это... Хозяин мне ничего такого не говорил... Он только велел вывезти гроб из города и объявить, что тело кремировано.",
+    ["This bastard must be trying to hog the 20 gold pounds all to himself!"] = "Этот мерзавец наверняка хочет присвоить все двадцать золотых фунтов себе!",
+    ["<CostRed>{1,2,（烙印已失效）}</>技能增强提高<Mark>30</>。\n激活套装<Mark>灵与知回响</>时不生效。"] = "<CostRed>{1,2,（烙印已失效）}</>Усиление навыка повышается на <Mark>30</>.\nНе действует при активации комплекта <Mark>Эхо духа и знания</>.",
     ["【自走棋装备】全场最大生命最高的其他友军"] = "[Auto Chess Equipment] Other ally with the highest Max Health on the field",
 }

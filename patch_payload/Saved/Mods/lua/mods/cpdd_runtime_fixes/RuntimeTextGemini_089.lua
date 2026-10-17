@@ -267,6 +267,7 @@ return {
     ["Cannot trigger the small gun again for a short period"] = "Некоторое время нельзя снова активировать малый пистолет",
     ["Rhode Garrett <Hide stylename=\"Transparent\" id=\"#161\">Smear</> Character Manager\nAddress: <Hide stylename=\"Transparent\" id=\"#161\">Address</>"] = "Роде Гарретт <Hide stylename=\"Transparent\" id=\"#161\">Смазать</> Менеджер персонажей\nАдрес: <Hide stylename=\"Transparent\" id=\"#161\">Адрес</>",
     ["背水一战的决心，每一滴血都为胜利而流。"] = "Решимость стоять насмерть: каждая капля крови пролита ради победы.",
+    ["Hidden Space-Clown 3-6 of Hearts"] = "Скрытое пространство - Клоун 3 - Шестёрка червей",
     ["Justin"] = "Джастин",
     ["与Npc进行对话  对象看向其他对象"] = "Поговорить с NPC; объект смотрит на другие объекты.",
 }

@@ -296,6 +296,8 @@ return {
     ["It seems you still don't know what this name signifies."] = "Похоже, ты ещё не знаешь, что означает это имя.",
     ["Reach level 40\nComplete [Make Tingen Great Again]\nComplete [Night of Roses]"] = "Достигните 40 уровня\nЗавершите «Сделаем Тинген великим снова»\nЗавершите «Ночь роз»",
     ["Northwest Flower Sea trade route"] = "Торговый путь Северо-западного моря цветов",
-    ["驱邪子弹"] = "Exorcise Evil Bullet",
+    ["Pursuit Gauntlets"] = "Наручи охотника",
+    ["Unlocked via Simulation Event - Amon Emoticon"] = "Разблокируется через симуляционное событие — эмодзи Амона",
+    ["驱邪子弹"] = "Пуля изгнания зла",
     ["No update today"] = "Сегодня без обновлений",
 }

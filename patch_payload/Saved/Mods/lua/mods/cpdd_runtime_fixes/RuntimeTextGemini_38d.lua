@@ -258,6 +258,8 @@ return {
     ["很高兴你做出了这个决定，也许这正是改变的契机。"] = "Я рад, что ты принял это решение, возможно, это и есть повод для перемен.",
     ["真的好香啊……"] = "Как же вкусно пахнет...",
     ["精彩，真是精彩……您刚才说的那些诅咒……不会是真的吧？"] = "Блестяще, просто блестяще... Те проклятия, о которых вы только что говорили... Они ведь не настоящие?",
+    ["Follow the guidance to perform the corresponding actions"] = "Следуйте подсказкам и совершите соответствующие действия",
+    ["Gain <HighLight>2 random pieces of Fine Equipment</> and <HighLight>1 Equipment Reforger</>."] = "Вы получаете <HighLight>2 случайных предмета отличного снаряжения</> и <HighLight>1 переплавщик снаряжения</>.",
     ["终末猎杀-草丛04合并隐匿01（含6块原范围）"] = "Final Hunt - Bush 04 Merged Concealment 01 (Includes 6 original areas)",
     ["终末猎杀-草丛05合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 05 Merged Concealment 01 (Includes 2 original areas)",
     ["Ahmer"] = "Ахмер",

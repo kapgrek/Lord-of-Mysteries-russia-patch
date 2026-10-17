@@ -286,6 +286,7 @@ return {
     ["A loud bell tolls over the city. The player stops and looks up to listen:\n\"What a resonant bell; it truly lives up to its reputation as the metropolis of all cities.\"\nAtop The Fool's church, Amon, wearing a Warlock hat, finishes ringing the bell and transforms into a Crow, flying away.\n\"The actors are in position; it's Showtime.\""] = "Над городом разносится гулкий звон колокола. Игрок останавливается и, подняв голову, прислушивается:\n«Какой гулкий звон. Недаром это называют столицей всех столиц».\nНа церкви Шута Амон в шляпе чародея отзвонил, обратился вороном и улетел.\n«Актёры на местах, представление начинается».",
     ["调查2"] = "Расследование 2",
     ["Debug"] = "Отладка",
+    ["Shunhuonuan"] = "順火暖",
     ["Abdir"] = "Абдир",
     ["收获%d/400个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/400.",
     ["RequestCutsceneActorComposite: could not find ModelID ="] = "RequestCutsceneActorComposite: не удалось найти ModelID =",

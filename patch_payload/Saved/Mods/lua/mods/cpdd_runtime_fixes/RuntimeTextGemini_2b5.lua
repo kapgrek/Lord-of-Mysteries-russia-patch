@@ -286,7 +286,8 @@ return {
     ["Confirm Hicks's identity"] = "Подтвердить личность Хикса",
     ["稀有·时轮星仪"] = "Редкое·Астролябия колеса времени",
     ["Roselle Boss - Phases 1 & 2 - Mirror Data - Shield Mark 4 Layers - 24% Damage Reduction per Layer"] = "Босс Россель, фазы 1 и 2, данные зеркала: метка щита, 4 слоя, снижение урона 24% за слой",
-    ["隐秘空间-跳跃-水晶球默认状态8"] = "Hidden Space-Jump-Crystal Ball Default State 8",
-    ["黑麦啤酒25便士一杯，恩马特啤酒50便士，南威尔啤酒100便士，或者你想来一杯纯麦芽酿的朗齐？"] = "Rye beer is 25 pence a glass, Enmat beer is 50 pence, South Will beer is 100 pence, or would you like a glass of pure malt Lanqi?",
+    ["Unlocked when Azik's Favorability reaches Level 4"] = "Открывается при достижении 4 уровня расположения Азика",
+    ["隐秘空间-跳跃-水晶球默认状态8"] = "Скрытое пространство — Прыжок — шар по умолчанию 8",
+    ["黑麦啤酒25便士一杯，恩马特啤酒50便士，南威尔啤酒100便士，或者你想来一杯纯麦芽酿的朗齐？"] = "Ржаное пиво — 25 пенсов за кружку, энматское — 50, южновильское — 100. Или желаете кружку чистого солодового ланчи?",
     ["老人家，你在找什么吗？"] = "Дедушка, вы что-то ищете?",
 }

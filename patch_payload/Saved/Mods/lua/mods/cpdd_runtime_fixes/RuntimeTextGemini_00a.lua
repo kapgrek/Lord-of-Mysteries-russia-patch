@@ -268,8 +268,10 @@ return {
     ["结束当前窃影玩法"] = "Завершить текущую игру «Кража тени»",
     ["I have a strange premonition that the ice cream toy might be able to solve the problem..."] = "Почему-то есть предчувствие, что проблему поможет решить игрушка-мороженое...",
     ["Steam Era: Goggle Top Hat Skill Window"] = "Паровая эра: Окно умения цилиндра с очками",
-    ["这么多年，这顶红帐篷还在这啊……"] = "After all these years, this red tent is still here...",
-    ["这瓶是活尸尸油吧，为什么会在他身上？"] = "This is living corpse oil, isn't it? Why would it be on him?",
+    ["这么多年，这顶红帐篷还在这啊……"] = "Столько лет прошло, а эта красная палатка всё ещё здесь...",
+    ["This was lent to me by Miss Magician, and now you can use it too."] = "Это мне одолжила госпожа «Фокусник», теперь можешь пользоваться и ты.",
+    ["这瓶是活尸尸油吧，为什么会在他身上？"] = "Это же масло живого трупа? Почему оно оказалось у него?",
+    ["Re-Record"] = "Записать заново",
     ["<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">布满污迹的纸条上，只剩几行还能辨认的字：</>\n“我终于明白了……”\n“第一轮是<Letter_Highlight_HW>二号</>！二号是<Letter_Highlight_HW>真的</>！”\n“欲念使者说的都是<Letter_Highlight_HW>实话</>，可我们还是会死——”\n<Hide stylename=\"Transparent\" id=\"#161_R\">字迹断了</>，<Hide id=\"#157\">后面是一道擦过的暗色污痕。</>"] = "<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">На покрытой пятнами записке осталось лишь несколько разборчивых строк:</>\n«Я наконец-то понял...»\n«В первом раунде был <Letter_Highlight_HW>Номер Два</>! Номер Два — <Letter_Highlight_HW>настоящий</>!»\n«Вестник Желаний говорил <Letter_Highlight_HW>правду</>, но мы всё равно погибнем...»\n<Hide stylename=\"Transparent\" id=\"#161_R\">Почерк обрывается</>, <Hide id=\"#157\">следом идёт размазанное тёмное пятно.</>",
     ["夫人过奖了。能为您写几个字，是我的荣幸。"] = "Вы мне льстите, мадам. Для меня большая честь написать вам несколько слов.",
 }

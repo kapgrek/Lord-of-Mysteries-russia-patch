@@ -283,7 +283,7 @@ return {
     ["累计充值"] = "Накопл. пополнение",
     ["联合作战16"] = "Совместная операция 16",
     ["Flower Sea Manager"] = "Хозяин Цветочного моря",
-    ["轮播动作"] = "Carousel Action",
+    ["轮播动作"] = "Циклическое действие",
     ["终末猎杀-草丛09逐簇隐匿06"] = "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 06",
     ["　　I have some urgent business to attend to, I'll be back in a moment.\n\n　　You can look around the Cafe. There is a stone tablet called the <Mark id=\"#159\">\"Travel Obelisk\"</> in the <Letter_Highlight_HW>Central Plaza</> nearby. It was created by Miss \"Magician\" and the Artisan. Once activated, you can travel between various travel points across the land.\n\n　　It's a good item, much faster than walking.\n\n　　Note: Don't wander too far."] = "　　Появились срочные дела, скоро вернусь.\n\n　　Можешь пока осмотреться вокруг кафе. Рядом на <Letter_Highlight_HW>Центральной площади</> стоит каменная стела — <Mark id=\"#159\">«Обелиск странствий»</>. Её создали мисс Маг и Ремесленник. Активировав её, ты сможешь перемещаться между путевыми точками в разных краях.\n\n　　Отличная вещь, куда быстрее, чем пешком.\n\n　　Примечание: не уходи слишком далеко.",
     ["You... have finally arrived, and you have already taken a big step."] = "Вы... наконец-то пришли и уже сделали огромный шаг вперёд.",

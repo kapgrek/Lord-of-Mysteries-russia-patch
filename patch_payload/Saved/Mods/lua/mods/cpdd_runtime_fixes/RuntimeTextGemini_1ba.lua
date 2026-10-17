@@ -272,5 +272,6 @@ return {
     ["称谓"] = "Звание",
     ["Sound of the Listening Sea"] = "Голос слушающего моря",
     ["获取发型织网者解锁"] = "Получить: разблокировка причёски «Ткач»",
+    ["Jin Yuntian - Reappearance of Past Shadows - Hidden Space Entrance"] = "Цзинь Юньтянь: возвращение былых теней, вход в тайное пространство",
     ["<DecH>Craft: </>Antique Brocade & Secret Covenant Patterns\nA cloak weathered by the passage of time, seemingly recording a forgotten covenant."] = "<DecH>Мастерство: </>Старинная парча · Узоры тайного завета\nПлащ, овеянный дыханием веков, словно хранит память о забытом завете.",
 }

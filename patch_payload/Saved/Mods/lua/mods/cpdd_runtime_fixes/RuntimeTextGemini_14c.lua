@@ -286,6 +286,7 @@ return {
     ["Chess Piece Innate Mana Regen: Leonard Mitchell"] = "Врожд. восст. маны фигуры·Леонард Митчелл",
     ["灵性蓝牌"] = "Синяя карта Духовности",
     ["第二次回到船上-芬奇与阿蒙对话"] = "Второе возвращение на корабль — разговор Финча с Амоном",
+    ["Church of the Evernight Goddess, Saint Selena Cathedral, underground Chanis Gate, transferred to Containment Chamber No. 5."] = "Церковь Богини Вечной Ночи, Собор Святой Селены, подземные Врата Чаниса, перенесено в камеру заключения №5.",
     ["终末猎杀-草丛22合并隐匿05（含2块原范围）"] = "Final Hunt - Bush 22 Merged Concealment 05 (Includes 2 original areas)",
     ["Yura"] = "Юра",
     ["任务自定义事件  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Пользовательское событие квеста. Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире).",

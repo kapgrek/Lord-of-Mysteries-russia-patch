@@ -300,8 +300,9 @@ return {
     ["Puzzle of the first Crystal ball:\n<InvHighlight>α multiplied by β</> equals <InvHighlight>12</>\n\nPuzzle of the second Crystal ball:\nThe position of the Crystal ball <InvHighlight>(β minus 2, α minus 2)</> is <InvHighlight>(1, 2)</>"] = "Загадка первого хрустального шара:\n<InvHighlight>α умножить на β</> равно <InvHighlight>12</>\n\nЗагадка второго хрустального шара:\nПозиция хрустального шара <InvHighlight>(β минус 2, α минус 2)</> равна <InvHighlight>(1,2)</>",
     ["First Blood"] = "Первая кровь",
     ["Boss, give him one. I'll pay for both once he's finished."] = "Хозяин, дайте ему одну, я заплачу за обоих, когда он доест.",
-    ["车队等级达到10级"] = "Caravan level reaches 10",
-    ["金秋湖东站长"] = "Golden Autumn Lake East Station Master",
+    ["The things I'm carrying... you mean this amulet? Asta gave this to me; she wouldn't hurt me."] = "То, что при мне... вы про этот амулет? Его подарила мне Аста, она не могла желать мне зла.",
+    ["车队等级达到10级"] = "Уровень каравана достигает 10",
+    ["金秋湖东站长"] = "Начальник станции «Золотое осеннее озеро – Восток»",
     ["【战略技能】学徒-传送之门"] = "[Strategic Skill] Apprentice-Teleport Door",
     ["播放Dialogue  玩家调用展示时间流逝动画"] = "Воспроизведение диалога: игрок запускает анимацию течения времени.",
 }

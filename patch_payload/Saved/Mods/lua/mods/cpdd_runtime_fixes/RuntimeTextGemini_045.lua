@@ -287,5 +287,6 @@ return {
     ["The Strategic Server is a gathering place for the brave and the highest hall of honor."] = "Стратегический сервер — место сбора храбрецов и высший чертог почета",
     ["Sword of the Royal Court"] = "Меч королевского двора",
     ["触碰<h>万都之都</>"] = "Прикоснуться к <h>Городу городов</>",
+    ["Mirror Server Local Server"] = "Зеркальный сервер, основной сервер",
     ["Go to specified Trigger location  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  NPC destroys itself (cannot destroy players or public NPCs in the open world)  Player creates public objects based on InstanceID list (does not take effect in open world)  Player creates public objects based on InstanceID list (does not take effect in open world)"] = "Перейти в указанное триггерное местоположение NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире) Игрок создает общедоступные объекты на основе списка InstanceID (не действует в открытом мире)",
 }

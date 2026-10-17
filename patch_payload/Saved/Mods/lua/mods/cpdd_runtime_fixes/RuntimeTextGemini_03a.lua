@@ -279,7 +279,7 @@ return {
     ["甚至时间 天气 身份和命运"] = "Даже время, погода, личность и судьба",
     ["It hurts, it hurts, it hurts! Push a little harder... I can get out!"] = "Больно, больно, больно! Поднажми ещё... Я смогу выбраться!",
     ["脚踏车・麦金"] = "Велосипед «Маккин»",
-    ["隐秘空间-昔影重现-传送门"] = "Hidden Space - Reenactment of Past Shadows - Portal",
+    ["隐秘空间-昔影重现-传送门"] = "Скрытое пространство - Возвращение теней прошлого - Портал",
     ["【自走棋英雄强化内部子技能】- 瑞尔·比伯 - 地面冲击"] = "[Auto Chess Hero Strengthening Internal Sub-skill] - Ray Bieber - Ground Impact",
     ["<Favorite1>灵性共鸣</>"] = "<Favorite1>Духовный резонанс</>",
     ["Astrid"] = "Астрид",

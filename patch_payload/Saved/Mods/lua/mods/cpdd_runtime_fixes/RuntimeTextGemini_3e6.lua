@@ -271,6 +271,7 @@ return {
     ["Burning like flame, enduring like stone, a small space between fingers, a promise for eternity. %s gifted %s ×%d to %s, an oath carved in time, to be together through every dawn and dusk."] = "Горячая, как пламя, и вечная, как камень, — с ладонь размером, обещание навсегда. %s дарит %s: %s×%d — клятву, высеченную в годах, чтобы быть рядом каждое утро и каждый вечер.",
     ["等等！我的票！"] = "Подождите! Мой билет!",
     ["Thank you, would you like to sit for a while?"] = "Спасибо, не хотите посидеть вместе?",
+    ["The Spirit Medium trio consecutively impacts the target and surrounding enemies."] = "Трио спиритов наносит последовательные удары по цели и окружающим врагам.",
     ["【普通】童话故事-青蛙王子-牵肠挂肚反向点名一次"] = "[Normal] Fairy Tale - Frog Prince - Deep Attachment reverse mark once",
     ["终末猎杀-草丛10逐簇隐匿03"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 03",
 }

@@ -296,7 +296,7 @@ return {
     ["芙兰纳莉"] = "Фланнери",
     ["Unlock Baptism hairstyle"] = "Получить: разблокировка причёски «Крещение»",
     ["Gain Extraordinary World Resonance."] = "Получен резонанс «Необыкновенный мир».",
-    ["随机获得<HighLight>2个1星1费非凡世界棋子</>和<HighLight>1个1星3费非凡世界棋子</>。棋手获得<HighLight>10点生命值</>。"] = "Gain <HighLight>2 random one-star 1-cost Beyonder World units</> and <HighLight>1 random one-star 3-cost Beyonder World unit</>. The player gains <HighLight>10 Health</>.",
-    ["隐秘空间-换物人格-关4-窃取错误-时机1反击物1"] = "Hidden Space-Exchange Persona-Level 4-Steal Error-Timing 1 Counterattack Object 1",
+    ["随机获得<HighLight>2个1星1费非凡世界棋子</>和<HighLight>1个1星3费非凡世界棋子</>。棋手获得<HighLight>10点生命值</>。"] = "Вы получаете <HighLight>2 случайные 1-звёздные фигуры мира необыкновенных стоимостью 1</> и <HighLight>1 1-звёздную фигуру мира необыкновенных стоимостью 3</>. Игрок получает <HighLight>10 ОЗ</>.",
+    ["隐秘空间-换物人格-关4-窃取错误-时机1反击物1"] = "Скрытое пространство - Личность обмена - Уровень 4 - Кража: ошибка - Момент 1, контратака, предмет 1",
     ["This is still a world I am familiar with. The artifacts you use, the paths you walk, the plays you perform... they are all very good, all the way I once envisioned—steam flowing in the alleys, laws maintaining fairness, ironclad ships and airships standing tall... I told you I was the true protagonist of the era. Before me, all living things lived in ignorance; after me, the waves roll forward. And you, you have already been swept into the torrent of the era."] = "Это все еще мир, с которым я знаком. Артефакты, которые вы используете, пути, по которым вы идете, пьесы, которые вы разыгрываете... все они очень хороши, все так, как я когда-то представлял - пар, струящийся по переулкам, законы, поддерживающие справедливость, высокие броненосные корабли и дирижабли... Я же говорил вам, что я был настоящим героем той эпохи. До меня все живое жило в неведении; за мной волны катятся вперед. А ты, ты уже попал в поток эпохи.",
 }

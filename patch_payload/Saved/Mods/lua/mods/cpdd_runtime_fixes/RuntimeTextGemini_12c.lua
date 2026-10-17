@@ -259,6 +259,7 @@ return {
     ["And you know you are going to enter into marriage with him—what immense courage that takes!"] = "А ты знаешь, что выйдешь за него замуж, — сколько же нужно смелости!",
     ["Emma, I think that as a ticket collector, you seem quite extraordinary yourself."] = "Эмма, мне кажется, ты как кондуктор тоже довольно необычная.",
     ["From North Flower Sea to South Flower Sea"] = "Север Цветочного моря — юг Цветочного моря",
+    ["Music Hall"] = "Концертный зал",
     ["【普通】童话故事-苹果骑士-筛所有玩家"] = "[Normal] Fairy Tale - Apple Knight - Select all players",
     ["【自走棋英雄强化】- 怒意侍奉；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Service of Wrath; export enabled, pending in-game verification",
     ["终末猎杀-草丛02合并隐匿02（含6块原范围）"] = "Final Hunt - Bush 02 Merged Concealment 02 (Includes 6 original areas)",

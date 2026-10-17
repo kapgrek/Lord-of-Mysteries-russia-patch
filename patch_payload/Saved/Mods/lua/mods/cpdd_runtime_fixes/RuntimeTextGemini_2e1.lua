@@ -270,6 +270,8 @@ return {
     ["战斗的火花在空中迸发，勇气与力量在此刻交锋。"] = "Искры битвы вспыхивают в воздухе: в этот миг сталкиваются отвага и сила.",
     ["本周期内累计战功值达到5000"] = "Накопите 5000 очков боевых заслуг за этот период",
     ["Without a doubt, he had already intended to end his own Health, and regardless of whether the revenge was successful, he would be Dead."] = "Без сомнения, он уже решил оборвать собственную жизнь: удастся месть или нет, он всё равно умрёт.",
+    ["Kingster Street\r\n<LeonSubTitle size=\"38\">Kingster Street</>"] = "Улица Кингстер\n<LeonSubTitle size=\"38\">Kingster Street</>",
+    ["Lightning Serpent"] = "Молниеносная змея",
     ["罗塞尔Boss-1&2阶段-磁电回收-扇形范围"] = "Roselle Boss - Phases 1 & 2 - Electromagnetic Recovery - Fan-shaped Area",
     ["Westley"] = "Уэстли",
     ["id:000000 This test is a confidential test and does not represent the final quality of the game. Please do not stream, take screenshots, or record the screen."] = "id:000000 Данный тест является закрытым и не отражает финального качества игры. Пожалуйста, не ведите прямых трансляций, не делайте скриншотов и не записывайте видео.",

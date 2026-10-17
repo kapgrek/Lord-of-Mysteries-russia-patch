@@ -302,6 +302,7 @@ return {
     ["稀有·壁垒战盔"] = "Редкое · Шлем-оплот",
     ["Sinful Tingen Infamy Pulse"] = "Импульс дурной славы Греховного Тингена",
     ["诶，你身上好像少了点什么……是不是丢了东西？"] = "Эй, у вас будто чего-то не хватает... Вы что-то потеряли?",
+    ["What a coincidence, someone just returned their ticket?"] = "Какое совпадение, как раз кто-то сдал билет?",
     ["终末猎杀-草丛15合并隐匿01（含2块原范围）"] = "Final Hunt - Bush 15 Merged Concealment 01 (Includes 2 original range blocks)",
     ["Fine wine, hot dancing, endless pleasure! \n \n This tavern only does three things: passion, passion, and still <Hide id=\"#157_R\"> *** </> passion! \n \n Every <Highlight> Thursday </> there is fine wine <Highlight> passion half-price </>! \n \n Wine lovers, don't miss the opportunity!"] = "Изысканное вино, зажигательные танцы, бесконечное наслаждение!\n\nНаша таверна создана лишь ради трёх вещей: страсть, страсть и ещё раз <Hide id=\"#157_R\">***</> страсть!\n\nКаждый <Highlight>четверг</> на всё вино в заведении действует <Highlight>страстная скидка 50%</>!\n\nЦенители доброй выпивки, не упустите свой шанс!",
     ["Thief!"] = "Вор!",

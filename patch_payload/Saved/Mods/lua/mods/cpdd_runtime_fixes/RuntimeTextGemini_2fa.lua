@@ -310,8 +310,9 @@ return {
     ["Add client-side buff"] = "Добавить клиентский бафф",
     ["Old Neil - Mini Doll"] = "Старый Нил - мини-кукла",
     ["Outfit Plaza post published"] = "Публикация на площади нарядов",
-    ["跟上<h>小男孩</>"] = "Follow the <h>little boy</>.",
-    ["车队等级达到19级"] = "Caravan level reaches 19",
-    ["组队跟随中…"] = "",
+    ["跟上<h>小男孩</>"] = "Следуйте за <h>мальчиком</>",
+    ["The car is old; why not ask Rozanne?"] = "Машина старая, может, спросить Розанну?",
+    ["车队等级达到19级"] = "Уровень каравана достигает 19",
+    ["组队跟随中…"] = "Следование за группой...",
     ["<Mark id=\"#159\">Private</> trash can, strictly forbidden to litter!\n\n\n\nThis trash can is for the use of the John family only, outsiders stay away! Violators will bear the consequences!\nSpecial reminder: Those who litter, be careful of being targeted by the <Hide id=\"#157\">\"Trash King\"</>!—You don't want to cause trouble, right?"] = "<Mark id=\"#159\">Частный</> мусорный бак, бросать мусор строго воспрещено!\n\n\n\nЭтот бак предназначен исключительно для семьи Джона, посторонним не прикасаться! Последствия за счёт нарушителя!\nОсобое предупреждение: тех, кто сорит, возьмёт на заметку <Hide id=\"#157\">«Мусорный король»</>! Вы ведь не ищете неприятностей, верно?",
 }

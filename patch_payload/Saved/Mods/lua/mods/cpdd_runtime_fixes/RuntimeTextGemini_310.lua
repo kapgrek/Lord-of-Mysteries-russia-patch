@@ -266,6 +266,7 @@ return {
     ["Advancement Quest - Priest of Light - Find the passerby with clues"] = "Задание на повышение: Жрец Света — найти прохожего с зацепкой",
     ["Until I was caught by a rich man's bodyguard. After I escaped, they issued a wanted warrant. To avoid implicating my family, I left Backlund overnight."] = "Пока меня не схватил охранник богача. После побега они объявили розыск, и чтобы не навлечь беду на семью, я за одну ночь покинул Бэкланд.",
     ["终极飞升"] = "Предельное вознесение",
+    ["Collect 15 to obtain the marionette Alienated Hound; they can also be used to upgrade the marionette Alienated Hound."] = "Соберите 15 шт., чтобы получить тайную марионетку «Обращённая гончая». Также используется для её развития.",
     ["终末猎杀-草丛06合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 06 Merged Concealment 02 (Includes 2 original areas)",
     ["命运选择你，成为它的囚徒。"] = "Судьба избрала тебя своим пленником.",
     ["Iker"] = "Икер",

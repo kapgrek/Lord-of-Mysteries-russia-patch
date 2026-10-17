@@ -282,8 +282,8 @@ return {
     ["破晓治疗"] = "Исцеление рассвета",
     ["被动位移Boss机制封装action"] = "Действие-обёртка механики босса с пассивным смещением",
     ["The comment system is not yet unlocked!"] = "Система комментариев пока не разблокирована!",
-    ["这里就是霜陨领主的战场——作为入局者，平时你也可以来到这里，提前熟悉战场环境，占领演练。"] = "This is the battlefield of the Frost-Fall Lord. As a participant, you can come here during your free time to familiarize yourself with the battlefield environment and practice capturing objectives.",
-    ["鼠标悬停时高亮目标"] = "Highlight target on mouse hover",
+    ["这里就是霜陨领主的战场——作为入局者，平时你也可以来到这里，提前熟悉战场环境，占领演练。"] = "Здесь поле битвы Повелителя Падения Инея. Как участник игры, ты можешь приходить сюда в свободное время, чтобы заранее изучить обстановку на поле боя и потренироваться в захвате точек.",
+    ["鼠标悬停时高亮目标"] = "Подсвечивать цель при наведении мыши",
     ["收获%d/500个优质艺苑物产。"] = "Собирайте высококачественные продукты художественной студии %d/500.",
     ["Everyone is asking: \n%s"] = "Все спрашивают:\n%s",
 }

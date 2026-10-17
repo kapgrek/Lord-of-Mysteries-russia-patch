@@ -280,6 +280,6 @@ return {
     ["Sinful Tingen Base Attributes"] = "Базовые атрибуты Греховного Тингена",
     ["草丛隐匿光环-草丛01"] = "Аура скрытности в кустах - куст 01",
     ["製作"] = "Создать",
-    ["那我是否可以说，劳维斯太太和索尔斯都是注定在近期死亡的人。"] = "Then can I say that Mrs. Lawis and Solis are both people destined to be dead in the near future?",
-    ["铁路大亨每局开始时的商会票券分成两部分：\n1：每个线路初始赠送的票券，根据线路难度，商会会给予一定的额度\n2：工坊物产带来的额外票券，物产的等级越高，能提供的票券数量越多，最多可以携带三类物产，携带的最大总量由火车升级的等级决定"] = "The Chamber of Commerce tickets at the start of each Railway Tycoon game are divided into two parts:\n1: Tickets initially granted for each route, with the amount provided by the Chamber of Commerce based on the route's difficulty.\n2: Additional tickets brought by workshop products. The higher the level of the product, the more tickets it can provide. You can carry up to three types of products, and the maximum total quantity you can carry is determined by the train's upgrade level.",
+    ["那我是否可以说，劳维斯太太和索尔斯都是注定在近期死亡的人。"] = "Тогда можно ли сказать, что госпожа Лавис и Солс оба обречены вскоре умереть?",
+    ["铁路大亨每局开始时的商会票券分成两部分：\n1：每个线路初始赠送的票券，根据线路难度，商会会给予一定的额度\n2：工坊物产带来的额外票券，物产的等级越高，能提供的票券数量越多，最多可以携带三类物产，携带的最大总量由火车升级的等级决定"] = "Билеты торговой палаты в начале каждой партии «Железнодорожного магната» делятся на две части:\n1: Стартовые билеты за каждый маршрут. Торговая палата выдаёт определённый лимит в зависимости от сложности маршрута.\n2: Дополнительные билеты от товаров мастерской. Чем выше уровень товара, тем больше билетов он даёт. Можно взять до трёх видов товаров, а максимальный общий объём определяется уровнем улучшения поезда.",
 }

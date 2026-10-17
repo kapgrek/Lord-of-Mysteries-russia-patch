@@ -310,7 +310,9 @@ return {
     ["Mermaids are spirituality creatures protected by the Church of the Night. Some churches are permitted to keep them."] = "Русалки - существа Духовности, находящиеся под защитой Церкви Ночи. Некоторым церквям разрешено держать их у себя.",
     ["获得<HighLight>2个1星星象仪者</>。技能强化：<HighLight>牵引密集区域的敌人，造成范围伤害并眩晕</>。<HighLight>5个对弈回合</>后，获得<HighLight>2个低级棋子记录仪</>。"] = "Получите <HighLight>2 Астролябистов 1 звезды</>. Навык усиливается: <HighLight>притягивает врагов в плотной области, наносит урон по области и оглушает</>. Через <HighLight>5 раундов партии</> получите <HighLight>2 Низших регистратора фигур</>.",
     ["表现_污秽之河"] = "Визуал: Река Скверны",
-    ["这里有些军官驻扎，你可以向他们了解更多内容。"] = "There are some military officers stationed here; you can learn more from them.",
+    ["Trade War contention has begun"] = "Началась борьба за торговую войну",
+    ["这里有些军官驻扎，你可以向他们了解更多内容。"] = "Здесь расквартированы несколько офицеров. Ты можешь узнать у них больше.",
+    ["Ranged Strike 6-person distance Damage Boost"] = "Дальний удар: усиление урона, 6 чел.",
     ["【自走棋】-痛苦魔女-普攻-哀恸震击"] = "[Auto Chess] - Pain Witch - Basic Attack - Mourning Shock",
     ["Bralin"] = "Бралин",
 }

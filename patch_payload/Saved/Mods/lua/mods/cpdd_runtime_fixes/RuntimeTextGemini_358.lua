@@ -275,6 +275,8 @@ return {
     ["I must flee, leave the Oumai Family, and seek a new life of my own."] = "Я должен бежать, покинуть семью Юмай и найти свою новую жизнь.",
     ["Check Adonis with spirit vision"] = "Проверить Адониса с помощью Истинного Зрения (Духовного)",
     ["Lily: Goodbye, Guardian..."] = "Лили: Прощай, Хранитель...",
-    ["造成伤害后，使目标的防御降低<HighLight>30%</>，持续<HighLight>3</>秒。"] = "After dealing damage, reduces the target's Defense by <HighLight>30%</> for <HighLight>3</> seconds.",
+    ["造成伤害后，使目标的防御降低<HighLight>30%</>，持续<HighLight>3</>秒。"] = "После нанесения урона снижает защиту цели на <HighLight>30%</> на <HighLight>3</> сек.",
+    ["Destroying the avatars at will will expose our actions, making it harder for us to locate the Sequence 3 corruption avatar."] = "Неразборчивое уничтожение клонов выдаст наши действия и затруднит поиск клона Последовательности 3, источника скверны.",
+    ["Collect 15 to obtain the marionette Alienated Selena; they can also be used to upgrade the marionette Alienated Selena."] = "Соберите 15 шт., чтобы получить тайную марионетку «Обращённая Селена». Также используется для её развития.",
     ["Mustafa"] = "Мустафа",
 }

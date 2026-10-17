@@ -265,6 +265,8 @@ return {
     ["死亡短牙"] = "Короткий клык смерти",
     ["Reality Route Chapter 6 - Say Goodbye to Melissa"] = "Реальная линия, глава 6 - Попрощаться с Мелиссой",
     ["Northwest harbor supply"] = "Снабжение северо-западного порта",
-    ["高空俯拍镜头"] = "High-altitude aerial shot",
+    ["Swift Fate Card Attack Speed Layer 21"] = "Карта судьбы «Проворство»: слой скорости атаки 21",
+    ["Dad Looking into the Distance"] = "Отец смотрит вдаль",
+    ["高空俯拍镜头"] = "Съёмка с высоты",
     ["感觉有什么不对……"] = "Что-то кажется неправильным...",
 }

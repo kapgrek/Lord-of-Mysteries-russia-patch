@@ -253,7 +253,7 @@ return {
     ["脱离"] = "Отрыв",
     ["艾玛，我觉得作为售票员的你，好像也挺非凡的。"] = "Эмма, мне кажется, ты как кондуктор тоже довольно необычная.",
     ["花海西部"] = "Запад Цветочного моря",
-    ["连续重击目标<HighLight>4</>次，共造成{*d,F1690001,atkMin,3.28}点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>30%</>伤害减免和<HighLight>40</>点防御，持续<HighLight>5</>秒。"] = "Continuously perform a Heavy blow on the target <HighLight>4</> times, dealing a total of {*d,F1690001,atkMin,3.28} Attack damage, with the final hit causing Stun for <HighLight>1</> second. While casting, gain <HighLight>30%</> Damage Reduction and <HighLight>40</> Defense for <HighLight>5</> seconds.",
+    ["连续重击目标<HighLight>4</>次，共造成{*d,F1690001,atkMin,3.28}点攻击伤害，最后一击使其眩晕<HighLight>1</>秒。施法时获得<HighLight>30%</>伤害减免和<HighLight>40</>点防御，持续<HighLight>5</>秒。"] = "Наносит цели <HighLight>4</> мощных удара подряд, суммарно нанося {*d,F1690001,atkMin,3.28} ед. урона от атаки; последний удар оглушает цель на <HighLight>1</> сек. При произнесении даёт <HighLight>30%</> снижения урона и <HighLight>40</> ед. защиты на <HighLight>5</> сек.",
     ["【自走棋】-全场友军最低生命1名"] = "[Auto Chess] - 1 ally with the lowest Health on the field",
     ["救赎圣典_5200145_萨斯利尔_普通_远距离玩家4名"] = "Code of Redemption_5200145_Sasrir_Normal_4 Long-range Players",
     ["Use specified item  Player plays speech text visible only to self"] = "Используя специальный реквизит, игроки воспроизводят говорящий текст, который виден только им самим.",

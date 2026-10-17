@@ -262,6 +262,9 @@ return {
     ["Feather Cloak"] = "Перьевой плащ",
     ["花海西部站长"] = "Начальник западной станции Цветочного моря",
     ["该特产将在%s后解锁"] = "Этот деликатес откроется через %s",
+    ["In this world, there are only hunters and prey. Which side do you want to be on?"] = "В этом мире есть только охотники и добыча. Кем ты хочешь быть?",
+    ["Mirror Server 2 Cross-Server Central Server"] = "Зеркальный сервер 2, межсерверный центральный сервер",
+    ["The tower rises into the gray mist, with faint light flowing ceaselessly from its body."] = "Высокая башня уходит в серую дымку, и слабый свет непрерывно струится по её стенам.",
     ["将死亡骑士煽动至此，完成一次对“死亡”本身的征服。"] = "Заманите сюда Рыцаря Смерти, совершив победу над самой «Смертью».",
     ["5 At the start of player combat:\nRestore 2 Health to the player."] = "5 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку.",
 }

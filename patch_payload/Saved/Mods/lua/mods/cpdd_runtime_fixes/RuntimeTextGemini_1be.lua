@@ -301,7 +301,7 @@ return {
     ["用灵视调查"] = "Исследовать с помощью Истинного Зрения (Духовного)",
     ["Observe, and then acknowledge your own ignorance."] = "Наблюдай, а затем признай своё невежество.",
     ["Thank you and Miss Susie for helping me recover my memories! I'm full of energy now!"] = "Спасибо вам и госпоже Сьюзи, что помогли мне вернуть память! Теперь я полон сил!",
-    ["铠甲金属"] = "Armor Metal",
-    ["风衣领口"] = "Trench Coat Collar",
-    ["高级种子，使用后召唤命运人偶"] = "Advanced Seed, use to Summon a Fate Marionette",
+    ["铠甲金属"] = "Металл для доспехов",
+    ["风衣领口"] = "Воротник плаща",
+    ["高级种子，使用后召唤命运人偶"] = "Улучшенное семя: после использования призывает Марионетку судьбы",
 }

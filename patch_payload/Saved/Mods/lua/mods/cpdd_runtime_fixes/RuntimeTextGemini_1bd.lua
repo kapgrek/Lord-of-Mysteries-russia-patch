@@ -265,7 +265,8 @@ return {
     ["Rare · Bulwark War Helmet Battle Start Shield"] = "Редкое · Щит начала боя шлема-оплота",
     ["Gain <HighLight>1 Resonance Emblem Selection Chest</>."] = "Получите <HighLight>1 сундук с выбором эмблемы резонанса</>.",
     ["Ask Ruby"] = "Спросить Руби",
-    ["过弯时，按下<Highlight>“漂移”</>（PC端为空格），可使车辆进入漂移状态。\n漂移状态下可以更方便地调整车头方向，随后按下<Highlight>“氮气加速”</>（PC端为Shift），可退出漂移状态并向前加速。"] = "When cornering, press <Highlight>\"Drift\"</> (Space on PC) to enter the drift state.\nIn the drift state, you can adjust the vehicle's heading more easily. Then, press <Highlight>\"Acceleration\"</> (Shift on PC) to exit the drift state and accelerate forward.",
+    ["过弯时，按下<Highlight>“漂移”</>（PC端为空格），可使车辆进入漂移状态。\n漂移状态下可以更方便地调整车头方向，随后按下<Highlight>“氮气加速”</>（PC端为Shift），可退出漂移状态并向前加速。"] = "На повороте нажмите <Highlight>«Дрифт»</> (на ПК — пробел), чтобы машина вошла в состояние дрифта.\nВ дрифте проще корректировать направление носа машины. Затем нажмите <Highlight>«Закись азота»</> (на ПК — Shift), чтобы выйти из дрифта и ускориться вперёд.",
+    ["This avatar was implanted with the thought of self-destruction; it was supposed to be destroyed in the starry sky once my condition stabilized."] = "В этого двойника внедрена мысль о самоуничтожении: после стабилизации моего состояния он должен был быть уничтожен в звёздном небе.",
     ["Sonny"] = "Сонни",
     ["而现在，我只想征服你的心。"] = "И сейчас, я просто хочу покорить твое сердце.",
 }

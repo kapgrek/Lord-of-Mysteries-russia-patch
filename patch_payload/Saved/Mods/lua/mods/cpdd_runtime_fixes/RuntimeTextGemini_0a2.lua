@@ -299,6 +299,8 @@ return {
     ["罗塞尔Boss-1&2阶段-圆形700"] = "Босс Россель, фазы 1 и 2, круг 700",
     ["Miss Emma, would you allow me to try and help you recover your memories? If I fail, I also know a professional Psychiatrist."] = "Госпожа Эмма, позволите мне попробовать помочь вам вернуть память? Если не получится, я знаю одного опытного Психотерапевта.",
     ["Obtained a bicycle. Click here or press <img id=\"KeyPrompt_T\" width=\"33\" height=\"38\"/><Highlight>Board</> to ride."] = "Вы получили велосипед, нажмите здесь или клавишу <img id=\"KeyPrompt_T\" width=\"33\" height=\"38\"/><Highlight>Сесть</>",
+    ["Riviere's Desperate Scream"] = "Отчаянный крик Ривьера",
+    ["The Black Emperor"] = "«Чёрный Император»",
     ["罗塞尔Boss困难-2阶段-磁电回收点名"] = "Roselle Boss Hard - Stage 2 - Electromagnetic Recovery Target",
     ["他的梦境"] = "Его сон",
     ["玩家发送任务道具  玩家移除任务道具（全部删除）"] = "Игрок отправляет предмет задания; игрок удаляет предмет задания (удалить все)",

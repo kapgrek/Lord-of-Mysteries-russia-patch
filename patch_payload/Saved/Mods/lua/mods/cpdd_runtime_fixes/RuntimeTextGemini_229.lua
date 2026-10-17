@@ -270,7 +270,9 @@ return {
     ["艾玛，对不起……我们、我们会回来救你的，一定！"] = "Эмма, прости... Мы, мы вернёмся и спасём тебя, обязательно!",
     ["见鬼的，你难道闻不到？"] = "Чёрт побери, неужели ты не чувствуешь запах?",
     ["调查死者以及周围"] = "Осмотреть погибшего и окрестности",
-    ["饱餐了一顿后……"] = "After a hearty meal...",
+    ["Then listen to this line."] = "Тогда послушайте эту реплику.",
+    ["Use bitmask as follows, e.g.: To listen for both AddBuff (1) and buff ResetTime (64), you can enter 1+64=65\n    AddBuff = 1, -- Add BUFF\n    RemoveBuff = 2, -- Remove BUFF\n    AddLayer = 4, -- Stack BUFF layers\n    RemoveLayer = 8, -- Remove BUFF layers\n    AddLevel = 16, -- Increase BUFF level\n    RemoveLevel = 32, -- Decrease BUFF level\n    ResetTime = 64, -- Reset time\n    ResetMaxLayer = 128, -- Reset max layers\n    ResetInstigatorID = 256, -- Refresh instigator\n    Destroy = 512, -- Destroy BUFF (currently only used for discarding Card in roguelike)"] = "Используется битовая маска, например: чтобы отслеживать и добавление баффа (1), и сброс времени баффа (64), укажите 1+64=65\n    AddBuff = 1, -- Добавление баффа\n    RemoveBuff = 2, -- Снятие баффа\n    AddLayer = 4, -- Наложение слоёв баффа\n    RemoveLayer = 8, -- Снятие слоёв баффа\n    AddLevel = 16, -- Повышение уровня баффа\n    RemoveLevel = 32, -- Понижение уровня баффа\n    ResetTime = 64, -- Сброс времени\n    ResetMaxLayer = 128, -- Сброс максимума слоёв\n    ResetInstigatorID = 256, -- Обновление инициатора\n    Destroy = 512, -- Уничтожение баффа (сейчас только для сброса карт в рогалике)",
+    ["饱餐了一顿后……"] = "Плотно поев...",
     ["【自走棋】-全场友军最低生命2名"] = "[Auto Chess] - 2 allies with the lowest Health on the field",
     ["完成星座解谜  玩家根据InstanceID列表创建公有对象（大世界不生效）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Полная головоломка созвездия, игрок создает общедоступный объект на основе списка InstanceID (не действует в большом мире), NPC уничтожает себя (не может уничтожать игроков и общедоступных NPC большого мира)",
 }

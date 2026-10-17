@@ -275,6 +275,7 @@ return {
     ["Accepted commissions will be displayed here. You can accept up to <Highlight>3</> commissions at the same time."] = "Принятые поручения отображаются здесь. Одновременно можно принять до <Highlight>3</> поручений.",
     ["我感受到了蓬勃的灵性，你很厉害，这么快就晋升了！"] = "Я чувствую твою мощную духовность. Ты молодец, так быстро повысился!",
     ["Is there something you need, {{PlayerName}}?"] = "Что-то случилось, {{PlayerName}}?",
+    ["Besides Carl and Tony, there are also Andy, Bob, Kyle, and <P_Yellow>Dylan</>."] = "Кроме Карла и Тони, есть ещё Энди, Боб, Кайл и <P_Yellow>Дилан</>.",
     ["终末猎杀-草丛06逐簇隐匿04"] = "Final Hunt-Bush 06 Cluster-by-Cluster Concealment 04",
     ["Neria"] = "Нерия",
     ["这黑烟钻肺里比烈酒还烧得慌，上周又抬走两个咳血的可怜虫，大伙们可都看见了。"] = "Этот черный дым обжигает легкие сильнее, чем крепкий алкоголь. На прошлой неделе унесли двух бедняков, кашлявших кровью, все это видели.",

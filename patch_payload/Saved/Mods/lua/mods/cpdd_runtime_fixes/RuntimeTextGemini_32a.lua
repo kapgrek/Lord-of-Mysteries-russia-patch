@@ -282,4 +282,6 @@ return {
     ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Босс Росселл - Фаза пароля - Проверка наличия 84015136 на игроке",
     ["Passive Displacement Boss mechanism encapsulation action"] = "Действие-обёртка механики босса с пассивным смещением",
     ["Backlund, you win!"] = "Бэкланд, ты победил!",
+    ["A gang smuggling mermaids has been passing through Tingen these past few days, and the Church wants to take this opportunity to wipe them out."] = "Эти дни через Тинген проезжает банда, промышляющая контрабандой русалок, и Церковь хочет воспользоваться случаем, чтобы уничтожить их.",
+    ["After a hearty meal..."] = "Плотно поев...",
 }

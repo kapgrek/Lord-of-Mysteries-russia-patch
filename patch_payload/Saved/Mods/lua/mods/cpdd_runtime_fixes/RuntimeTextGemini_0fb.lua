@@ -288,5 +288,7 @@ return {
     ["Rare Traction Spirit Pendant"] = "Редкое·Духовный кулон притяжения",
     ["Combining the information already known..."] = "Сопоставив уже известную информацию...",
     ["要跟我们一起去吗？这可是露丝弄到的内部福利。"] = "Пойдёшь с нами? Это внутренняя льгота, которую раздобыла Рут.",
-    ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Backlund Pleasure Gardens\r\n<LeonSubTitle size=\"38\">Backlund Pleasure Gardens</>",
+    ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Увеселительные сады Бэкланда\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>",
+    ["This shows that a single thought is fate. But having the thought to resist is not enough; not everyone has the ability to resist fate."] = "Это значит, что одна мысль есть судьба. Но желания сопротивляться мало: не у каждого хватает сил противостоять судьбе.",
+    ["The selected marionette does not exist and cannot be used"] = "Выбранной марионетки не существует, использовать её нельзя",
 }

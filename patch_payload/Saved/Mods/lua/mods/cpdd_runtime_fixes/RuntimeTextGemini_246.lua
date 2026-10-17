@@ -306,6 +306,7 @@ return {
     ["注意分摊恐惧，恐惧会让情绪低落"] = "Не забывайте делить страх: страх подавляет настроение",
     ["Explosion Order: Food Shop expired. The next stop is not a [Food Shop]; product selling price -40%."] = "Взрыв заказов · Лавка еды недействительна: следующая станция не [Лавка еды], цена продажи товаров -40%",
     ["Practitioner of the Arcane"] = "Практик тайных ритуалов",
-    ["蒸汽单车·琥珀"] = "",
+    ["Dylan!"] = "Дилан!",
+    ["蒸汽单车·琥珀"] = "Паровой велосипед · Янтарь",
     ["终末猎杀-草丛11逐簇隐匿08"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 08",
 }

@@ -282,7 +282,7 @@ return {
     ["Royal Ceremony"] = "Королевская церемония",
     ["Rare Twilight City Iron Armor Dynamic Range"] = "Редкое·Железные доспехи сумеречного города: динамический диапазон",
     ["Roselle Boss Hard - Phase 3 - Mirror Data - Shield Hit"] = "Босс Розель (сложный) - 3 фаза - Зеркальные данные - Попадание по щиту",
-    ["镜像服本服"] = "Mirror Server Local Server",
-    ["黄金马桶（仿）"] = "Golden Toilet (Replica)",
+    ["镜像服本服"] = "Зеркальный сервер, основной сервер",
+    ["黄金马桶（仿）"] = "Золотой унитаз (копия)",
     ["Tessa"] = "Тесса",
 }

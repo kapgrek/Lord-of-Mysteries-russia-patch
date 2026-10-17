@@ -297,6 +297,8 @@ return {
     ["Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Device Monster Permanent Buff Empty"] = "Босс Розель (сложный) - 2 фаза - Программа самоочистки - Постоянный бафф монстра-механизма (пустой)",
     ["蕾丝领花运输"] = "Перевозка кружевных воротничков",
     ["贝克兰德发生了失忆事件，洗衣妇、裁缝学徒、钟表匠......他们的失忆，恐怕和我失忆有关联。"] = "В Бэкланде произошла потеря памяти: прачка, ученик портного, часовщик... Боюсь, их амнезия связана с моей.",
+    ["Transition Blackout"] = "Затемнение перехода",
+    ["Snowy Mountain Ancient Castle Trade Route"] = "Торговый путь к древнему замку в Снежных горах",
     ["【普通】童话故事-青蛙王子-舞伴连连看-随机连活人"] = "[Normal] Fairy Tale - Frog Prince - Dance Partner Match - Randomly match with a living person",
     ["终末猎杀-草丛17逐簇隐匿02"] = "Final Hunt-Bush 17 Cluster-by-Cluster Concealment 02",
     ["罗塞尔Boss困难-3阶段-磁电回收点名"] = "Roselle Boss Hard - Phase 3 - Electromagnetic Recovery Target Selection",

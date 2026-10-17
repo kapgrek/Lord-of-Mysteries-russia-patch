@@ -305,6 +305,9 @@ return {
     ["Once the weekly reward attempts for a Dungeon boss have been exhausted, you can obtain a Rematch Reward Chest after defeating the boss again. This resets every Sunday at 8:00."] = "Когда все награды за босса подземелья на этой неделе получены, повторная победа над ним даст сундук с наградой за повторный бой. Сброс каждое воскресенье в 8:00.",
     ["I spent all of yesterday assisting the police officer with the investigation; that is likely why I am in possession of the diary and the police badge."] = "Вчера я весь день помогал офицеру в расследовании, вероятно, поэтому у меня оказались дневник и полицейский жетон.",
     ["Obtain 10,000 Alliance Currency"] = "Получить 10000 ед. валюты Альянса",
+    ["That glowing spot... could it be the exit?"] = "То светящееся место... Может, это выход?",
+    ["Gain <HighLight>1 random piece of defensive Fine Equipment</>. After <HighLight>8 seconds</> of combat, allied units gain <HighLight>5% Attack each second</>, stacking up to <HighLight>6 times</>."] = "Вы получаете <HighLight>1 случайный предмет защитного отличного снаряжения</>. Через <HighLight>8 сек.</> после начала боя фигуры союзников <HighLight>каждую секунду получают 5% атаки</>, суммируется до <HighLight>6 раз</>.",
+    ["Parrot Owner"] = "Хозяин попугая",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

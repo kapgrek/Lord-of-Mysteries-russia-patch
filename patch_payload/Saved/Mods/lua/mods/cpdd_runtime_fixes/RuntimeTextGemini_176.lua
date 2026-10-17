@@ -280,8 +280,9 @@ return {
     ["控制命中率改为100%（使得一些技能的命中概率为必中100%，但依然会被霸体抵挡）"] = "Установить шанс попадания контроля на 100% (шанс попадания некоторых навыков становится гарантированным 100%, но суперброня всё равно их блокирует)",
     ["Spirit World · Pool Water Body"] = "Мир Духов · Вода бассейна",
     ["获得【秘法】共鸣。使<HighLight>1</>格内的其他友军获得<HighLight>1</>点法力恢复。"] = "Получен резонанс «Тайное искусство». Другие союзники в радиусе <HighLight>1</> клетки получают <HighLight>1</> ед. восстановления маны.",
-    ["隐藏HUD上Boss大血条"] = "Hide Boss health bar on HUD",
-    ["集齐15个可以获得秘偶星之虫·神秘，也可用于秘偶星之虫·神秘的培养。"] = "Collect 15 to obtain the marionette Worm of Star: Mystery; they can also be used to upgrade the marionette Worm of Star: Mystery.",
+    ["Gain <HighLight>1 random piece of Basic Equipment</> and <HighLight>3 Gold</>. <HighLight>At the start of the next round</>, gain <HighLight>1 random piece of Fine Equipment</> and <HighLight>3 Gold</>."] = "Вы получаете <HighLight>1 случайный предмет базового снаряжения</> и <HighLight>3 монеты</>. <HighLight>В начале следующего раунда</> вы получаете <HighLight>1 случайный предмет отличного снаряжения</> и <HighLight>3 монеты</>.",
+    ["隐藏HUD上Boss大血条"] = "Скрыть полосу здоровья босса на HUD",
+    ["集齐15个可以获得秘偶星之虫·神秘，也可用于秘偶星之虫·神秘的培养。"] = "Соберите 15 шт., чтобы получить тайную марионетку «Червь Звезды: Тайна». Также используется для её развития.",
     ["小麦 | 莓果 | 胡萝卜 | 欧芹碎"] = "Пшеница | Ягоды | Морковь | Петрушка",
     ["Michaela"] = "Микаэла",
 }

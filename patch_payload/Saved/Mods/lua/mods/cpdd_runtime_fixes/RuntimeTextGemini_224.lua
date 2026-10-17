@@ -285,6 +285,7 @@ return {
     ["触碰“万都之都”"] = "Прикоснуться к «Городу городов»",
     ["诗人的秘密"] = "Тайна поэта",
     ["Thank you, but I'm afraid you'll be disappointed; I won't be playing the Clown anymore."] = "Спасибо, но, боюсь, я вас разочарую: я больше не буду играть Клоуна.",
+    ["Sooner or later, I will also perform in a motorcade like this..."] = "Рано или поздно я тоже буду играть в такой процессии...",
     ["But before that, please remember me, a soul from a foreign land like you, a person who once wanted to return to his hometown."] = "Но прежде запомните меня: душу из чужих краев, подобную вам, человека, который когда-то отчаянно стремился вернуться домой.",
     ["顺序\r\n必将失控"] = "Порядок\nНеминуемо приведет к Потере Контроля",
     ["Anjela"] = "Анжела",

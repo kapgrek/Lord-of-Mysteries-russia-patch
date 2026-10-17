@@ -265,6 +265,7 @@ return {
     ["离开<h>命运咖啡厅</>"] = "Покинуть <h>кафе «Судьба»</>",
     ["Leave the viewing area"] = "Покинуть зону просмотра",
     ["Reach level 47\nComplete [Act IV · Homicide]\nComplete [Act V · Rat Hole]"] = "Достигните 47 уровня\nЗавершите «Акт IV · Убийство»\nЗавершите «Акт V · Крысиная нора»",
+    ["Evernight Goddess Church Badge Pursuit"] = "Преследование знака Церкви Богини Вечной Ночи",
     ["终末猎杀-草丛05逐簇隐匿05"] = "Final Hunt - Bush 05 Cluster Concealment 05",
     ["Beller"] = "Беллер",
     ["Dayana"] = "Даяна",

@@ -293,8 +293,8 @@ return {
     ["Your Excellency, Son of God, we pray for your Shelter!"] = "Ваше превосходительство, Сын Бога, молим о вашем покровительстве!",
     ["稀有·战意法杖"] = "Редкое·Посох боевого духа",
     ["询问有新工作与伦纳德"] = "Спросить о новой работе у Леонарда",
-    ["过去问问<h>迪伦</>"] = "Go over and ask <h>Dylan</>",
-    ["隐秘空间-昔影重现-初始化"] = "Hidden Space - Reenactment of Past Shadows - Initialization",
+    ["过去问问<h>迪伦</>"] = "Подойти и спросить <h>Дилана</>",
+    ["隐秘空间-昔影重现-初始化"] = "Скрытое пространство - Возвращение теней прошлого - Инициализация",
     ["终末猎杀-草丛04合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 04 Merged Concealment 03 (Includes 2 original areas)",
     ["<Chat_AT>Sanjiu:</> Zai zai zai zai zai zai zai zai zai zai zai zai zai zai zai <Chat_PosNeed>Tingen</> to <Chat_NPC>Daly</><Chat_PlayerName>Miss Audrey Hall</><Chat_Default>：Placeholder text</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Apply to join group</>"] = "<Chat_AT>Саньцзю: </>За за за за за за за за за за за за за за за <Chat_PosNeed>Тинген</> к <Chat_NPC>Дейли</><Chat_PlayerName>мисс Одри Холл</><Chat_Default>: текст-заполнитель</><HyperLink stylename=\"Chat_Recruit\" u=\"groupRecruit=%s\">Подать заявку</>",
 }

@@ -305,7 +305,7 @@ return {
     ["For every enemy defeated: +<HighLight>15</> Max Health."] = "За каждого погибшего врага: +<HighLight>15</> к макс. ОЗ.",
     ["Glass Cannon I"] = "Стеклянная пушка I",
     ["花朵四"] = "Цветок четыре",
-    ["轻薄的帘幕泛着灰蒙色泽，垂落时便将门外的一切喧嚣都隔开了。"] = "The thin curtain had a grayish hue, and as it fell, it shut out all the noise from outside the Door.",
-    ["集齐15个可以获得秘偶剥面人，也可用于秘偶剥面人的培养。"] = "Collect 15 to obtain the marionette Faceless, which can also be used for the cultivation of the marionette Faceless.",
+    ["轻薄的帘幕泛着灰蒙色泽，垂落时便将门外的一切喧嚣都隔开了。"] = "Тонкая занавесь отливала серой дымкой, и, упав, она отсекла весь шум за дверью.",
+    ["集齐15个可以获得秘偶剥面人，也可用于秘偶剥面人的培养。"] = "Соберите 15 шт., чтобы получить тайную марионетку «Снимающий лица». Также используется для её развития.",
     ["显示层级："] = "Слой отображения:",
 }

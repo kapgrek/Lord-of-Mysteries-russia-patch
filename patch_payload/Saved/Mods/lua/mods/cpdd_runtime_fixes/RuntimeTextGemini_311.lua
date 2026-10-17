@@ -280,6 +280,8 @@ return {
     ["Reality Route Chapter 6 - Go to the Water Theater to Have the Ticket Checked"] = "Реальная линия, глава 6 - Проверить билет у водного театра",
     ["看看邮差的脚踏车"] = "Осмотреть велосипед почтальона",
     ["Unlock 5 relationships with the \"Original Work\" tag"] = "Откройте 5 связей с меткой «Первоисточник»",
-    ["青色鳞片状的瓷砖砌成的水池组件，可自由拼出想要的形状。"] = "Pool components made of cyan scale-shaped tiles that can be freely assembled into the desired shape.",
-    ["黑帮的委托"] = "Gang Commission",
+    ["The stakes inside are too high."] = "Ставки там слишком высоки.",
+    ["青色鳞片状的瓷砖砌成的水池组件，可自由拼出想要的形状。"] = "Элементы бассейна из бирюзовой чешуйчатой плитки, из которых можно свободно собрать нужную форму.",
+    ["Gluttony Growth Stage 1"] = "Рост Обжоры: стадия 1",
+    ["黑帮的委托"] = "Заказ банды",
 }

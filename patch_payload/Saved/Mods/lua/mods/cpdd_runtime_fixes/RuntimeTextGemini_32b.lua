@@ -262,6 +262,7 @@ return {
     ["When wearing True Knowledge of Holy Light, Leap of Spirituality is upgraded to God-given Leap of Spirituality, and the soaring distance will be significantly increased. You can hover in the air in the <HighLight>Open World and GVG battlefields</>.\n\nGuided by the light of dawn, this leap is enough to reach the sky."] = "При ношении Истинного знания Святого света «Скачок духовности» преображается в «Дарованный богом скачок духовности», и дальность полета значительно возрастает. Можно зависать в воздухе в <HighLight>открытом мире и на полях боя GVG</>.\n\nСвет зари ведет за собой: этому скачку под силу достичь небес.",
     ["Runic Slow Mark"] = "Руническая метка замедления",
     ["获得<HighLight>22/30金币</>，利息上限提升至<HighLight>10金币</>。"] = "Получите <HighLight>22/30 золота</>, лимит процентов повышается до <HighLight>10 золота</>.",
+    ["Was that a cry for help... or a warning..."] = "Это была мольба о помощи... или предупреждение...",
     ["终末猎杀-草丛21逐簇隐匿01"] = "Final Hunt - Bush 21 Cluster-by-Cluster Concealment 01",
     ["消失的幸运星-询问弗里尔"] = "Исчезнувшая счастливая звезда: расспросить Фрира",
     ["播放CutScene  玩家播放情绪音乐（仅自己可听）  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）  延迟执行  玩家设置游戏视角"] = "Воспроизвести CutScene, игрок воспроизводит эмоциональную музыку (слышно только самому себе), объект телепортируется в указанную позицию в указанной сцене (игроки поддерживают межсценовую телепортацию, NPC могут телепортироваться только в пределах одной сцены), задержка выполнения, игрок устанавливает игровую камеру",

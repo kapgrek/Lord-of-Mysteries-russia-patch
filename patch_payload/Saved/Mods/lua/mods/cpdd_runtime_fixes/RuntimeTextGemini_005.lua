@@ -262,4 +262,7 @@ return {
     ["爆单·食铺生效，卖价+150%"] = "Взрыв заказов · Лавка еды действует, цена продажи +150%",
     ["累计500个非凡者组队通关大帝重临·困难"] = "Пройдите Возвращение Императора · Сложно с отрядом, в сумме 500 Потусторонних",
     ["该站点将于10月22日8点解锁"] = "Эта станция откроется 22 октября в 8:00",
+    ["This is a sailor's favorite combination; have a cup early in the morning and you'll be full of energy."] = "Любимое сочетание моряков: выпьешь чашку с утра, и сил хоть отбавляй.",
+    ["Gain <HighLight>1 random three-star 1-cost unit</> and <HighLight>7/11 Gold</>."] = "Вы получаете <HighLight>1 случайную 3-звёздную фигуру стоимостью 1</> и <HighLight>7/11 монет</>.",
+    ["Gain random units worth <HighLight>12/18/26 Gold</> in total, including at least <HighLight>1 unit costing 3/4/5 Gold</>."] = "Вы получаете случайные фигуры общей стоимостью <HighLight>12/18/26 монет</>, включая минимум <HighLight>1 фигуру стоимостью 3/4/5</>.",
 }

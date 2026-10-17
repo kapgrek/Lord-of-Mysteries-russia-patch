@@ -238,7 +238,10 @@ return {
     ["Bush Concealment Stable Control"] = "Устойчивый контроль скрытности в кустах",
     ["Legend of the Wilds"] = "Легенда глуши",
     ["蝠翼描边"] = "Контур крыльев летучей мыши",
-    ["阿兹克召唤白骨信使的死亡之爪对锁定目标进行拍击，对锁定目标及其周围最多3个其他目标造成伤害。死亡之爪同时会为锁定目标附加<HighLight>死亡侵蚀</>效果。"] = "Azik summons the Death Claw of the Bone Messenger to slap the locked target, dealing damage to the locked target and up to 3 other targets around it. The Death Claw also applies the <HighLight>Death Erosion</> effect to the locked target.",
+    ["Caravan level reaches 7"] = "Уровень каравана достигает 7",
+    ["Swift Fate Card"] = "Карта судьбы «Проворство»",
+    ["阿兹克召唤白骨信使的死亡之爪对锁定目标进行拍击，对锁定目标及其周围最多3个其他目标造成伤害。死亡之爪同时会为锁定目标附加<HighLight>死亡侵蚀</>效果。"] = "Азик призывает Коготь смерти Костяного вестника и бьёт им по выбранной цели, нанося урон ей и не более чем 3 другим целям вокруг неё. Коготь смерти также накладывает на цель эффект <HighLight>Смертельной эрозии</>.",
+    ["High-price Acquisition: Golden Maple Syrup"] = "Выкуп по высокой цене: золотистый кленовый сироп",
     ["Zarie"] = "Зари",
     ["播放Dialogue  玩家根据InstanceID列表创建公有对象（大世界不生效）  对象同场景传送"] = "Играть в диалог; игрок создает публичный объект на основе списка InstanceID (не действует в открытом мире); объект телепортируется в пределах одной сцены.",
 }

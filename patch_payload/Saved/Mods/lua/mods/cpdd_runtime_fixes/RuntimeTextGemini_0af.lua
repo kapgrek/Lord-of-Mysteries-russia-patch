@@ -266,4 +266,5 @@ return {
     ["灵魂随乐声起舞，死亡是一场欢快的庆典。"] = "Душа пляшет под музыку, смерть — радостный праздник.",
     ["Explosion Order: Food Shop"] = "Взрыв заказов · Лавка еды",
     ["Whispers of the Curse - Thugs threaten Linda"] = "Шёпот проклятия: бандиты угрожают Линде",
+    ["That makes things difficult. You lead the way; we're going to the place where the ritual is being set up!"] = "Это усложняет дело. Веди, пойдём к месту, где готовят ритуал!",
 }

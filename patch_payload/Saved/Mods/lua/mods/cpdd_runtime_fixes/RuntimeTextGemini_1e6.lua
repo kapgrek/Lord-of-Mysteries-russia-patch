@@ -287,6 +287,9 @@ return {
     ["歌唱"] = "Пение",
     ["灰雾长桌"] = "Длинный стол серого тумана",
     ["Reality Line Chapter 6 - First encounter with Finch at the Dock"] = "Реальная линия, глава 6 - Первая встреча с Финчем в порту",
-    ["走吧，和我一起回去，你拿了我的指南针，就陪我把该做的事做完 。"] = "Let's go, come back with me. Since you've taken my compass, you'll have to accompany me to finish what needs to be done.",
+    ["Trade War - Exchange Shop"] = "Торговая война: магазин обмена",
+    ["走吧，和我一起回去，你拿了我的指南针，就陪我把该做的事做完 。"] = "Пойдём, вернись со мной. Раз ты взял мой компас, помоги мне закончить начатое.",
+    ["A song that is nearly Fade, beautiful and alluring."] = "Почти угасшая песня, прекрасная и манящая.",
+    ["Unlocked when Alger's Favorability reaches Level 4"] = "Открывается при достижении 4 уровня расположения Алджера",
     ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

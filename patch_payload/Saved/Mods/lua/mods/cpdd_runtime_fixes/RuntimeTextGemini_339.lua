@@ -283,8 +283,9 @@ return {
     ["No problem. I'll go notify Miss Magician—she mentioned before that you should tell her when you're ready for advancement. She will also be keeping watch outside."] = "Хорошо, тогда я схожу предупрежу госпожу «Фокусник». Она просила сообщить ей, когда ты будешь продвигаться. Она тоже подежурит снаружи.",
     ["芬奇，这不是你的错，我们可能被什么力量暗中影响了。"] = "Финч, это не твоя вина. Возможно, на нас тайно повлияла какая-то сила.",
     ["Unlock Ash Web outfit"] = "Получить: разблокировка наряда «Пепельная сеть»",
-    ["那你呢，你要迎来的是什么样的命运？"] = "What about you? What kind of fate are you about to face?",
-    ["黑夜女神教会6档斩杀"] = "Evernight Goddess Church Tier 6 Execution",
+    ["那你呢，你要迎来的是什么样的命运？"] = "А тебя какая судьба ждёт?",
+    ["Massimo? That gourmet known for her sharp tongue? How could she possibly write an article praising someone?"] = "Массимо? Тот гурман, известный своим ядовитым языком? Да разве она станет писать статью, хваля кого-то?",
+    ["黑夜女神教会6档斩杀"] = "Добивание 6 ур. Церкви Богини Вечной Ночи",
     ["曾有人说，死而复生便是奇迹。你觉得什么才是真正的奇迹？"] = "Кто-то однажды сказал, что воскресение – это чудо. Что вы считаете настоящим чудом?",
     ["Bria"] = "Бриа",
 }

@@ -266,6 +266,8 @@ return {
     ["The performance ends, accompanied once again by fountains, cheers, fireworks, and ribbons—\nLed by Finch, the Clowns stand in a row and bow to the Spectator seating area."] = "Представление окончено, и снова звучат фонтаны, овации, взрываются фейерверки и взлетают ленты...\nКлоуны во главе с Финчем выстраиваются в ряд и кланяются Зрителям.",
     ["Two-person camera shot after standing up"] = "Кадр с двумя героями после вставания",
     ["诡咪之主"] = "Повелитель Кошачьих Тайн",
-    ["青蛙王子-跨技能隐藏模型buff"] = "Frog Prince - Cross-Skill Hidden Model Buff",
+    ["Helena turns to strike up a conversation."] = "Хелена оборачивается и заговаривает",
+    ["青蛙王子-跨技能隐藏模型buff"] = "Принц-лягушка: скрытая модель для всех навыков (бафф)",
+    ["Gluttony Growth Stage 15"] = "Рост Обжоры: стадия 15",
     ["The Roselle Theater Festival is... Heh, I understand. It's hard for her to come up with such an idea; she is worthy of being my daughter. It's a pity that my true body cannot leave this mausoleum, otherwise I would definitely go and join in the fun."] = "Театральный фестиваль Розель - это... Хех, я понимаю. Ей трудно прийти в голову такая идея; она достойна быть моей дочерью. Жаль, что мое настоящее тело не может покинуть этот мавзолей, иначе я бы обязательно пошел и присоединился к веселью.",
 }

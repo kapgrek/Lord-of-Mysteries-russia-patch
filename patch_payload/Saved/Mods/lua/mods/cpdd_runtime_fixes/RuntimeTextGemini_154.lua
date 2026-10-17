@@ -279,6 +279,7 @@ return {
     ["炸弹！我赢了！"] = "Бомба! Я выиграл!",
     ["现实线第八章-命运咖啡厅分店"] = "Реальная линия, глава 8 - Филиал кафе «Судьба»",
     ["Roselle Boss Hard - Phase 2 - Mirror Data - Shield Visual Effect"] = "Босс Розель (сложный) - 2 фаза - Зеркальные данные - Вид щита",
-    ["那您听听这句台词。"] = "Then listen to this line.",
+    ["那您听听这句台词。"] = "Тогда послушайте эту реплику.",
+    ["The Chamber of Commerce tickets at the start of each Railway Tycoon game are divided into two parts:\n1: Tickets initially granted for each route, with the amount provided by the Chamber of Commerce based on the route's difficulty.\n2: Additional tickets brought by workshop products. The higher the level of the product, the more tickets it can provide. You can carry up to three types of products, and the maximum total quantity you can carry is determined by the train's upgrade level."] = "Билеты торговой палаты в начале каждой партии «Железнодорожного магната» делятся на две части:\n1: Стартовые билеты за каждый маршрут. Торговая палата выдаёт определённый лимит в зависимости от сложности маршрута.\n2: Дополнительные билеты от товаров мастерской. Чем выше уровень товара, тем больше билетов он даёт. Можно взять до трёх видов товаров, а максимальный общий объём определяется уровнем улучшения поезда.",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,",
 }

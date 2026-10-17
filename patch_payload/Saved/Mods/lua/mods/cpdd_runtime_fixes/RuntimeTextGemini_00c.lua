@@ -279,7 +279,8 @@ return {
     ["破甲法器"] = "Артефакт пробивания брони",
     ["Gain <HighLight>1 Swain</>. At the start of combat, Bulwark units gain a <HighLight>shield equal to 12% of maximum Health</>, increased with <HighLight>4 Bulwark units</> deployed to <HighLight>20%</>, for <HighLight>8 seconds</>."] = "Получите <HighLight>1 Суэйна</>. В начале боя фигуры Оплота получают <HighLight>щит в размере 12% макс. Очков Здоровья (ОЗ)</>; при <HighLight>4 Оплотах</> на поле он повышается до <HighLight>20%</>, длительность <HighLight>8 сек.</>.",
     ["评论和@"] = "Комментарии и @",
-    ["轻快的节奏如春日微风，快乐在每个音符中跳跃。"] = "The light rhythm is like a spring breeze, with joy jumping in every note.",
+    ["轻快的节奏如春日微风，快乐在每个音符中跳跃。"] = "Лёгкий ритм, как весенний ветерок, и радость, танцующая в каждой ноте.",
+    ["An exquisitely carved vase containing delicate and vibrant pink flowers, quietly emitting a fragrance."] = "Искусно вырезанная ваза с нежными яркими розовыми цветами тихо источает аромат.",
     ["Kingston"] = "Кингстон",
     ["4 [Arcane] All allies recover <HighLight>4</> Mana per second. [Arcane] recovers more."] = "4 [Тайное знание] Все союзники восстанавливают ману каждую секунду. [Тайное знание] восстанавливает больше.",
 }

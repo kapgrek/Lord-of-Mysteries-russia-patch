@@ -295,6 +295,6 @@ return {
     ["索绪尔"] = "Соссюр",
     ["Joint Operation 14"] = "Совместная операция 14",
     ["薇拉怎么还没来？"] = "Почему Вера ещё не пришла?",
-    ["黄铜书挑战·副本产出的进度积分道具"] = "Brass Book Challenge: Progress point item produced from Dungeons.",
+    ["黄铜书挑战·副本产出的进度积分道具"] = "Испытание Латунной книги: предмет очков прогресса из подземелий",
     ["<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">On the stained note, only a few lines remain legible:</>\n\"I finally understand...\"\n\"The first round is <Letter_Highlight_HW>number two</>! Number two is <Letter_Highlight_HW>real</>!\"\n\"What the Desire Messenger said is all <Letter_Highlight_HW>truth</>, but we will still die—\"\n<Hide stylename=\"Transparent\" id=\"#161_R\">The handwriting broke</>, <Hide id=\"#157\">behind it is a dark stain that has been wiped.</>"] = "<Tips stylename=\"Letter_Highlight\" u=\"1\" id=\"#160_R\">На покрытой пятнами записке различимы лишь несколько строк:</>\n«Я наконец-то понял...»\n«В первом раунде был <Letter_Highlight_HW>номер два</>! Номер два был <Letter_Highlight_HW>настоящим</>!»\n«Все, что говорил Посланник Желаний — <Letter_Highlight_HW>чистая правда</>, но мы все равно умрем...»\n<Hide stylename=\"Transparent\" id=\"#161_R\">Почерк обрывается</>, <Hide id=\"#157\">дальше идет смазанное темное пятно.</>",
 }

@@ -309,7 +309,7 @@ return {
     ["Participate in the Dungeon <Highlight>Blackthorn Incident File: Special Duty</> in party mode to join in the distribution and auction of public drops. There is a chance to obtain the following items."] = "В групповом режиме пройдите подземелье <Highlight>Дело Чёрного терновника · Особое дежурство</>, чтобы участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие предметы.",
     ["Obtain Azik *1"] = "Получить Азика *1",
     ["诶！你赢了就跑啊？那我们俩还打不打了？！"] = "Эй! Победил и убегаешь? Так мы будем драться или нет?!",
-    ["身份背景"] = "Identity Background",
+    ["身份背景"] = "Предыстория личности",
     ["Amaris"] = "Амарис",
     ["预存物资领取记录"] = "Предварительно сохраненная запись о сборе расходных материалов",
     ["Melody"] = "Мелодия",

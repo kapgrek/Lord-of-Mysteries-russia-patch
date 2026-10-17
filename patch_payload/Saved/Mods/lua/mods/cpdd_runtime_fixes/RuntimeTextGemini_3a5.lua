@@ -287,6 +287,7 @@ return {
     ["Waiting for you! You idiot!"] = "Жду тебя! Болван!",
     ["罗塞尔Boss困难-2阶段-锋利的知识-齿轮装置常驻buff"] = "Босс Розель (сложный) - 2 фаза - Острое знание - Постоянный бафф механизма-шестерни",
     ["At the very least, without the burden embedded in my soul, falling asleep will be a bit more peaceful."] = "По крайней мере, без бремени, вросшего в душу, засыпать будет спокойнее.",
+    ["Mirror Server Two - Local Server Zone Two"] = "Зеркальный сервер 2, основной сервер, зона 2",
     ["Abraham"] = "Абрахам",
     ["Layton"] = "Лейтон·",
     ["Jamari"] = "Джамари",

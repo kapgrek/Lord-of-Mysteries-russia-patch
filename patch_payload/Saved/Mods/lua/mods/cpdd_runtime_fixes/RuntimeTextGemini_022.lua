@@ -276,6 +276,7 @@ return {
     ["歌剧魅影比赛阶段已经开始，欢迎各位前来观看俱乐部成员的盛装表演，参与比赛或观赛达到足够时长即可领取奖励！"] = "Этап состязания «Призрака оперы» начался. Приглашаем всех посмотреть на роскошные выступления участников клубов. Участвуйте в состязании или смотрите его достаточно долго, чтобы получить награды!",
     ["Gain an additional <HighLight>2 XP</> each round. Allied <HighLight>5-cost units</> gain <HighLight>12% maximum Health</> and <HighLight>12% Attack Speed</>."] = "Каждый раунд партии вы получаете дополнительно <HighLight>2 ед. опыта</>. Союзные <HighLight>фишки стоимостью 5</> получают <HighLight>12% макс. ОЗ</> и <HighLight>12% скорости атаки</>.",
     ["This appearance cannot be purchased directly; please obtain it first before dyeing."] = "Этот облик нельзя купить напрямую. Сначала получите его, затем окрасьте.",
+    ["Bonnie: This is the only promise I can make to the dead."] = "Бонни: Это единственное обещание, которое я могу дать мёртвым.",
     ["终末猎杀-草丛01逐簇隐匿03"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 03",
     ["7 At the start of player combat:\nRestore 2 Health to the player. Gain 50 [Quest Points] upon victory."] = "7 В начале боя с игроком:\nВосстанавливает 2 ед. здоровья игроку. Дает 50 [Очков заданий] при победе.",
 }

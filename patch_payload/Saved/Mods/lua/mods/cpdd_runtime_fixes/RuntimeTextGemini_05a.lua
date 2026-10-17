@@ -307,6 +307,7 @@ return {
     ["The Price of Despair - Trade with the merchant"] = "Цена отчаяния — торговля с торговцем",
     ["Blessing of the Goddess of Beauty"] = "Благословение Богини красоты",
     ["Gain a gift containing <HighLight>1 five-cost unit</>, <HighLight>1 two-star 1-cost unit</>, and <HighLight>7 Gold</>. At the start of each of the next <HighLight>2 stages</>, gain <HighLight>1 identical gift</>."] = "Получите набор с <HighLight>1 фигурой стоимостью 5</>, <HighLight>1 2-звёздочной фигурой стоимостью 1</> и <HighLight>7 золота</>. В начале каждого из следующих <HighLight>2 этапов</> получайте ещё <HighLight>1 такой же набор</>.",
-    ["铁盔"] = "Iron Helmet",
+    ["铁盔"] = "Железный шлем",
+    ["Hidden Space - Memory Thief - Three Projections"] = "Тайное пространство — Похититель воспоминаний — три проекции",
     ["%s太美了！好看！"] = "%s такой красивый! Удивительный!",
 }

@@ -275,8 +275,9 @@ return {
     ["Forged by divine grace, drive famous cars, and race across the vast world."] = "Выкованные божьей милостью, знаменитые автомобили мчатся, и весь огромный мир открыт для твоей скорости.",
     ["Rare Cloak of Concealment Per-Battle Protection"] = "Редкое·Скрытный плащ: защита за бой",
     ["Roselle Boss - Phase 3 - Mirror Data - Shield Hit"] = "Босс Розель - 3 фаза - Зеркальные данные - Попадание по щиту",
-    ["金秋湖北站长"] = "Golden Autumn Lake North Station Master",
-    ["隐秘空间-火把"] = "Hidden Space - Torch",
-    ["秩序世界"] = "",
+    ["Follow <h>Mary</>."] = "Следуйте за <h>Мэри</>",
+    ["金秋湖北站长"] = "Начальник станции «Золотое осеннее озеро – Север»",
+    ["隐秘空间-火把"] = "Тайное пространство — факел",
+    ["秩序世界"] = "Мир порядка",
     ["Play Dialogue  Player plays speech text visible only to self  Delayed execution  Player plays speech text visible only to self  Delayed execution"] = "Игра «Диалог». Игрок воспроизводит говорящий текст, который виден только ему самому. Отложенное исполнение. Игрок воспроизводит говорящий текст, который виден только ему. Отложенное исполнение.",
 }

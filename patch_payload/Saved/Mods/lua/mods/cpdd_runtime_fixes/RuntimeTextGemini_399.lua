@@ -306,9 +306,9 @@ return {
     ["Joyce in the Sofa Area"] = "Джойс в зоне с диванами",
     ["Spirit-Traction Pendant Basic Attack Mana Recovery"] = "Подвеска притяжения духа: восстановление маны от обычной атаки",
     ["Do you want to come with us? This is an internal perk that Ruth managed to get."] = "Пойдёшь с нами? Это внутренняя льгота, которую раздобыла Рут.",
-    ["阿兹克-迷你人偶"] = "Azik - Mini Figurine",
-    ["隐秘空间破晓之前-丧钟武器神威buff-1级-冰冻"] = "Hidden Space Before Dawn - Death Knell Weapon God Might Buff - Level 1 - Freeze",
-    ["使用"] = "",
+    ["阿兹克-迷你人偶"] = "Азик — мини-фигурка",
+    ["隐秘空间破晓之前-丧钟武器神威buff-1级-冰冻"] = "Тайное пространство «Перед рассветом» — бафф «Божественная мощь» оружия «Похоронный звон» — ур. 1 — заморозка",
+    ["使用"] = "Использовать",
     ["McKinley"] = "МакКинли",
     ["知识巨擘"] = "Гигант знаний",
 }

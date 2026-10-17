@@ -302,7 +302,8 @@ return {
     ["Bush Concealment Aura - Bush 05"] = "Аура скрытности в кустах - куст 05",
     ["Bush Concealment Aura - Bush 11"] = "Аура скрытности в кустах - куст 11",
     ["Thank you. This is the first time I've heard such a unique evaluation. Truly, thank you."] = "Спасибо, я впервые слышу такую необычную оценку. Правда, спасибо.",
-    ["采集水上剧场"] = "Collect Water Theater",
+    ["The past... the present... the future, all battles unfold here..."] = "Слишком... сейчас... будущее, все исходы сражений раскрываются здесь...",
+    ["采集水上剧场"] = "Сбор: водный театр",
     ["提交道具（设置提交参数）  玩家移除任务道具（全部删除）"] = "Сдать предмет (настройка параметров сдачи)  Игрок удаляет задание (удалить всё)",
     ["Emil"] = "Эмиль",
 }

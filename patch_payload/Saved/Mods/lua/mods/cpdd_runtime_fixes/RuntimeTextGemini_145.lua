@@ -335,6 +335,6 @@ return {
     ["That's right, you aren't Dylan; I am you."] = "Верно, ты не Дилан. Это я — ты.",
     ["生命高于<HighLight>50%</>时额外获得<HighLight>10%</>伤害减免。"] = "Когда здоровье выше <HighLight>50%</>, вы дополнительно получаете <HighLight>10%</> снижения урона.",
     ["群星闪烁"] = "Мерцание звёзд",
-    ["铁十字街人头攒动，似乎正在举办什么活动。\n欢乐的气氛中，人们排成长队，使用【<g>动作表情-四处观察</>】加入他们吧！"] = "Iron Cross Street is bustling with people, and it seems like some kind of event is being held. In this joyful atmosphere, people are lining up. Use [ <g>Emote-Look Around</> ] to join them!",
+    ["铁十字街人头攒动，似乎正在举办什么活动。\n欢乐的气氛中，人们排成长队，使用【<g>动作表情-四处观察</>】加入他们吧！"] = "На улице Железного Креста многолюдно, похоже, там проходит какое-то событие.\nВ радостной атмосфере люди выстраиваются в длинную очередь. Используйте [<g>Эмоция: осмотреться</>], чтобы присоединиться к ним!",
     ["【自走棋】-绯红信徒羁绊-全屏伤害300"] = "[Auto Chess] - Crimson Believer Bond - 300 Full-screen Damage",
 }

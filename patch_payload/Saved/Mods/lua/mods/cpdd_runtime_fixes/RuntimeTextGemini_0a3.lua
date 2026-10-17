@@ -263,6 +263,8 @@ return {
     ["Roselle detonates the target's Slowness effect, dealing massive damage!"] = "Росселл взрывает эффект замедленного мышления цели, нанося огромный урон!",
     ["花海主理人"] = "Хозяин Цветочного моря",
     ["Connection Backup"] = "Резервное соединение",
+    ["Beyonder Badge Equipment"] = "Экипировка значка сверхъестественного",
+    ["Or do you want to find some fun at the Golden Rose with your meager salary too?"] = "Или ты на свою скромную зарплату тоже хочешь развлечься в «Золотой розе»?",
     ["【自走棋】亚巴顿-三星专属技能"] = "[Auto Chess] Abaddon - 3-Star Exclusive Skill",
     ["【自走棋】-邪神子嗣-瞬身猎杀"] = "[Auto Chess] Offspring of Evil God - Flash Hunt",
     ["终末猎杀-草丛20逐簇隐匿07"] = "Final Hunt - Bush 20 Cluster-by-Cluster Concealment 07",

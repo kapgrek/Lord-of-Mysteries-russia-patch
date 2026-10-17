@@ -282,5 +282,8 @@ return {
     ["Strange... where on earth did I drop it?"] = "Странно... Куда же я это дел?",
     ["Pondering clues about the Amon Avatar"] = "Размышления о следах аватара Амона",
     ["This grand ceremony runs concurrently with the league, consisting of four rounds over eight weeks per season. The first week of each round features one match, while the second week features two matches. Matching for each match opens two days in advance, giving the Club President and Diplomat an opportunity to adjust the battle order before the match begins."] = "Это торжество проходит синхронно с лигой: каждый сезон состоит из четырёх раундов по восемь недель. На первой неделе каждого раунда проходит один матч, на второй неделе проходят два матча. Подбор для каждого матча открывается за два дня, и перед началом матча председатель и дипломат могут изменить порядок выхода бойцов.",
+    ["Partial Ascension effect"] = "Эффект частичного Восхождения",
+    ["Hidden Space-Exchange Persona-Level 3-Steal Correct B2"] = "Скрытое пространство - Личность обмена - Уровень 3 - Кража: верно B2",
+    ["Hidden Space-Exchange Persona-Level 3-Steal Error 2"] = "Скрытое пространство - Личность обмена - Уровень 3 - Кража: ошибка 2",
     ["终末猎杀-草丛11逐簇隐匿06"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 06",
 }

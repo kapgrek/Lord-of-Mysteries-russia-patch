@@ -247,6 +247,6 @@ return {
     ["月光缎带"] = "Лунная лента",
     ["累计500个非凡者组队通关丰饶之树·困难"] = "Пройдите Древо Изобилия · Сложно с отрядом, в сумме 500 Потусторонних",
     ["Roselle Boss - Scorching Gaze - Target Mark"] = "Босс Росселл - Жгучий взгляд - Метка цели",
-    ["高阔的大厅安静得能听见回声，仿佛立于现实与灵界的交界处。"] = "The vast Hall is so quiet that you can hear the echoes, as if standing at the boundary between reality and the Spirit World.",
+    ["高阔的大厅安静得能听见回声，仿佛立于现实与灵界的交界处。"] = "Просторный зал так тих, что слышно эхо, словно стоишь на границе реальности и Мира Духов.",
     ["An old, worn-out mirror.\n The surface is almost entirely obscured by stains, no longer able to reflect the face of the viewer."] = "Старинное зеркало.\nЕго поверхность почти сплошь покрыта въевшимися пятнами и больше не способна отразить лицо смотрящего.",
 }

@@ -282,8 +282,11 @@ return {
     ["泰德"] = "Тед",
     ["Now that you remember, you can definitely become a brand new version of yourself."] = "Теперь ты вспомнил, и ты наверняка сможешь стать совсем другим.",
     ["突进技能"] = "Навык рывка",
-    ["贸易战争规则"] = "Trade War Rules",
-    ["这个分身被植入自毁的念头，他本应在我状态稳定后，在星空中被摧毁。"] = "This avatar was implanted with the thought of self-destruction; it was supposed to be destroyed in the starry sky once my condition stabilized.",
+    ["贸易战争规则"] = "Правила торговой войны",
+    ["这个分身被植入自毁的念头，他本应在我状态稳定后，在星空中被摧毁。"] = "В этого двойника внедрена мысль о самоуничтожении: после стабилизации моего состояния он должен был быть уничтожен в звёздном небе.",
+    ["Suffered a Heavy blow, physical resistance significantly reduced."] = "Получен тяжёлый удар, физическая стойкость сильно снижена.",
+    ["The postman appears suddenly"] = "Внезапно появляется почтальон",
+    ["Long press the Jump button to enter Leap of Spirituality"] = "Удерживайте кнопку прыжка, чтобы войти в Прыжок Духовности",
     ["Josie"] = "Джози",
     ["一家俱乐部亮灯，打开门欢迎贵族入场。\n侍者：希望这场雨没有给您带来不便。\n贵族：当然，我淋不到一滴雨。"] = "Клуб загорается и открывает свои двери, чтобы приветствовать дворян. \nОфициант: Надеюсь, дождь не причинил вам неудобств. \nБлагородный: Конечно, мне не дождётся ни капли дождя.",
 }

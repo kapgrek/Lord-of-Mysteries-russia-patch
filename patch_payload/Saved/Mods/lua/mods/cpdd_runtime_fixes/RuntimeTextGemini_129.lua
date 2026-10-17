@@ -304,7 +304,8 @@ return {
     ["Angel feather is the main ingredient, and the breath of a wind spirit is also needed as a secondary ingredient; all of these must be prepared."] = "Перо ангела — основной материал, также нужно Дыхание ветряного духа как дополнительный материал. Всё это необходимо подготовить.",
     ["Taking this brief, beautiful night,"] = "Эту короткую чудесную ночь",
     ["蒸汽秘囊"] = "Паровой тайный мешочек",
-    ["邦尼：你赢了，小种子。"] = "Bonnie: You win, little seed.",
+    ["This is not the price we agreed upon!"] = "Это не та цена, о которой мы договаривались!",
+    ["邦尼：你赢了，小种子。"] = "Бонни: Ты победил, маленькое семя.",
     ["【五月庄园-困难】召唤管家幻影召唤追人小狗-筛非T3人"] = "[May Manor - Hard] Summon Butler Phantom to summon chaser puppy - Filter non-T3 people",
     ["与Npc进行对话  对象传送到指定场景里的指定位置（玩家支持跨场景传送，Npc只能同场景传送）"] = "Поговорить с NPC. Объект телепортируется в указанную точку указанной сцены (игрок поддерживает межсценарную телепортацию, NPC — только в пределах сцены).",
 }

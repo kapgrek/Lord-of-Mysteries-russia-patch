@@ -260,7 +260,9 @@ return {
     ["Break away"] = "Отрыв",
     ["Restores SAN value in an area, increases Knowledge, Strength, Charisma, and Intuition, and adds <HighLight>Dragon's Physique</> and <HighLight>Dragon's Fury</>."] = "Восстанавливает SAN в области, повышает Знания, Силу, Обаяние и Интуицию, а также накладывает <HighLight>Тело дракона</> и <HighLight>Ярость дракона</>.",
     ["Seeing those who struggle against fate... is that all you have to say about it?!"] = "Видя тех, кто борется с судьбой... это всё, что ты можешь сказать?!",
-    ["迅捷命牌同装分档路由"] = "Swift Fate Card Same-Set Tier Route",
+    ["迅捷命牌同装分档路由"] = "Маршрут уровней комплекта карты судьбы «Проворство»",
+    ["Go over and stop the ritual"] = "Подойти и остановить ритуал",
+    ["Straight🔥Warm"] = "顺🔥暖",
     ["终末猎杀-草丛17合并隐匿02（含2块原范围）"] = "Final Hunt-Bush 17 Merged Concealment 02 (Includes 2 Original Ranges)",
     ["我明明记得许多贵族都常以家族名义开具支票捐款的呀……"] = "Я хорошо помню, что многие дворяне часто выдавали чеки от имени своих семей для пожертвований...",
 }

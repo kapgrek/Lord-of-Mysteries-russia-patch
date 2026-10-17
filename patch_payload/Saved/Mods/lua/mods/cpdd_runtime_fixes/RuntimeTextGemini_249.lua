@@ -270,7 +270,8 @@ return {
     ["Divine Miracle Descent"] = "Нисхождение чуда",
     ["Joint Operation 15"] = "Совместная операция 15",
     ["Why hasn't Vera arrived yet?"] = "Почему Вера ещё не пришла?",
-    ["迷之996"] = "Mysterious 996",
-    ["霜陨领主争夺战参与1次"] = "Participate in the Frost-Fall Lord Battle 1 time",
+    ["迷之996"] = "Загадочное 996",
+    ["Blood Collector"] = "Кровоотборник",
+    ["霜陨领主争夺战参与1次"] = "Примите участие в битве за лорда Морозного падения 1 раз",
     ["Adali"] = "Адали",
 }

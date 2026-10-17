@@ -300,7 +300,8 @@ return {
     ["Sinful Tingen Heal Pulse"] = "Импульс исцеления Греховного Тингена",
     ["Blood Blade Tier 6 crit"] = "Крит. удар Кровавого клинка (ступень 6)",
     ["Visual - Scalding Large Stone"] = "Визуал: раскалённый большой камень",
-    ["非凡战况"] = "Extraordinary Combat Situation",
+    ["This is living corpse oil, isn't it? Why would it be on him?"] = "Это же масло живого трупа? Почему оно оказалось у него?",
+    ["非凡战况"] = "Потусторонние сводки",
     ["终末猎杀-草丛01逐簇隐匿02"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 02",
     ["Sabrina"] = "Сабрина",
 }

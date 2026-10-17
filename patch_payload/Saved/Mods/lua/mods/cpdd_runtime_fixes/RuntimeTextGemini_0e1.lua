@@ -295,4 +295,8 @@ return {
     ["棋子固有回蓝·洛薇雅·蒂芙尼·3星"] = "Врожд. восст. маны фигуры: Ловия Тиффани, 3 зв.",
     ["Good luck, stranger, and happy hunting, if... you still have the guts..."] = "Удачи тебе, незнакомец, и славной охоты, если... у тебя хватит духу...",
     ["Calculation success 0/3, team Attack Speed significantly reduced!"] = "Расчёт удался 0/3, скорость атаки всей команды значительно снижена!",
+    ["Ms. Helena, the equipment check is complete, and the costumes have been organized."] = "Госпожа Хелена, оборудование проверено, костюмы для выступления приведены в порядок.",
+    ["Release Sonic Impact on enemies in front and provide a Shield to nearby allies."] = "Высвобождает звуковую волну по врагам впереди и даёт щит ближайшим союзникам.",
+    ["Hidden Space-Exchange Persona-Level 2-Steal Correct B1"] = "Скрытое пространство - Личность обмена - Уровень 2 - Кража: верно B1",
+    ["Mani"] = "Мэни",
 }

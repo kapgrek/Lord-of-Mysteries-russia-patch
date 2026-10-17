@@ -297,6 +297,8 @@ return {
     ["Beneath the seemingly calm water, undercurrents surge; danger quietly breeds in the silence."] = "Под гладью спокойной воды бушуют подводные течения, и опасность тихо зреет в безмолвии.",
     ["记录再现"] = "Воспроизведение записи",
     ["诵念女神的尊名"] = "Произнести священное имя Богини",
+    ["Ranged Strike Badge"] = "Значок дальнего удара",
+    ["The man outside the Door"] = "Мужчина за дверью",
     ["终末猎杀-草丛17逐簇隐匿08"] = "Final Hunt - Bush 17 Cluster-by-Cluster Concealment 08",
     ["采集指定TemplateID的采集物  玩家播放单句黑屏字幕  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Сбор предмета с указанным TemplateID  Воспроизведение для игрока субтитра на черном экране  Создание общих объектов по списку InstanceID (не действует в открытом мире)",
     ["Imani"] = "Имани ·",

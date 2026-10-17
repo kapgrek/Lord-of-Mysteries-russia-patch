@@ -277,7 +277,8 @@ return {
     ["立即获得<HighLight>4/8点经验</>和<HighLight>2次免费刷新</>，此后<HighLight>每个阶段开始时</>再获得一次。"] = "Немедленно получите <HighLight>4/8 ед. опыта</> и <HighLight>2 бесплатных обновления</>, затем <HighLight>в начале каждого этапа</> получайте их снова.",
     ["获得<HighLight>18次免费刷新</>。"] = "Получите <HighLight>18 бесплатных обновлений</>.",
     ["Bloody satin dances in the shadows, where beauty and pain are woven into destiny."] = "Кровавый атлас танцует в тенях, и красота с болью сплетаются в судьбу.",
-    ["贸易兑换商店"] = "Trade Exchange Shop",
-    ["雪山北部站长"] = "Snowy Mountain Northern Station Master",
+    ["贸易兑换商店"] = "Магазин обмена торговли",
+    ["Apply Freeze"] = "Наложить заморозку",
+    ["雪山北部站长"] = "Начальник станции Северных снежных гор",
     ["米尔贡根-连线-代理"] = "Milgongen-Link-Agent",
 }
