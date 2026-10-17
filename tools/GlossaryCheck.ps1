@@ -4,7 +4,10 @@
 #   -Export   [-Count 50] [-MaxBytes 40000]  корзины B + C чанками в temp/glossary_chunk_NNN.json
 #   -ExportNew -BatchFile <батч> [-Count 50] [-MaxBytes 40000]  строки с пустым target_ru чанками (mode = "new", terms + names), TASK-019
 #                                 Чанк закрывается по -Count строк или когда байты source_cn+ref_en+target_ru превысили бы -MaxBytes (минимум 1 строка)
-#   -Import   <файл>              ответ { "batch_005:020853": "новый target_ru" } с проверкой канона и разметки
+#                                 names: справочники + Пути, составные «A (B)» и «X·Y» делятся на части; термины names_canon, marionettes,
+#                                 autochess_fetters, ui_traintrade с note и cn_exclude (TASK-036)
+#   -Import   <файл> [-BatchFile <полный путь>]  ответ { "batch_005:020853": "новый target_ru" } с проверкой канона и разметки;
+#                                 при любом -Glossary ещё канон имён names_canon.json (TASK-036). Полный -BatchFile — копия батча вне source/
 #   -BuildDoc                     пересобрать docs/GLOSSARY.md из source/glossary/*.json
 #   -Glossary <файл>              глоссарий терминов для -Report/-FixShort/-Export/-ExportNew/-Import (по умолчанию combat_stats.json;
 #                                 имя в source/glossary или путь). Термин с "scan_markup": true ищется и внутри {…}-вставок (TASK-022)
@@ -80,20 +83,29 @@ $glossaryPath = (Resolve-Path $glossaryPath).Path
 $glossaryName = [System.IO.Path]::GetFileName($glossaryPath)
 $glossaryData = (Read-Text $glossaryPath) | ConvertFrom-Json
 if (-not $glossaryData.terms) { throw "В $glossaryName нет массива terms" }
-$entries = @()
-foreach ($t in $glossaryData.terms) {
-    $parent = if ($t.parent) { [string]$t.parent } else { [string]$t.cn }
-    $entries += [PSCustomObject]@{
-        cn = [string]$t.cn; parent = $parent; isBase = -not $t.parent
-        ru = [string]$t.ru; ru_short = if ($t.ru_short) { [string]$t.ru_short } else { [string]$t.ru }
-        match = if ($t.ru_match) { [regex]::new([string]$t.ru_match, $ic) } else { $null }
-        forbidden = @($t.forbidden | Where-Object { $_ } | ForEach-Object { [regex]::new([string]$_, $ic) })
-        forbiddenText = @($t.forbidden | Where-Object { $_ })
-        exclude = @($t.cn_exclude | Where-Object { $_ })
-        note = [string]$t.note
-        scan = [bool]$t.scan_markup
+function ConvertTo-Entries($terms) {
+    foreach ($t in $terms) {
+        $parent = if ($t.parent) { [string]$t.parent } else { [string]$t.cn }
+        [PSCustomObject]@{
+            cn = [string]$t.cn; parent = $parent; isBase = -not $t.parent
+            ru = [string]$t.ru; ru_short = if ($t.ru_short) { [string]$t.ru_short } else { [string]$t.ru }
+            match = if ($t.ru_match) { [regex]::new([string]$t.ru_match, $ic) } else { $null }
+            forbidden = @($t.forbidden | Where-Object { $_ } | ForEach-Object { [regex]::new([string]$_, $ic) })
+            forbiddenText = @($t.forbidden | Where-Object { $_ })
+            exclude = @($t.cn_exclude | Where-Object { $_ })
+            note = [string]$t.note
+            scan = [bool]$t.scan_markup
+        }
     }
 }
+$entries = @(ConvertTo-Entries $glossaryData.terms)
+# Канон имён (names_canon.json, TASK-036): -Import проверяет его в каждой строке при любом -Glossary
+$nameEntries = @()
+$namesCanonPath = Join-Path $glossaryDir 'names_canon.json'
+if ($glossaryPath -ne $namesCanonPath -and (Test-Path $namesCanonPath)) {
+    $nameEntries = @(ConvertTo-Entries ((Read-Text $namesCanonPath) | ConvertFrom-Json).terms | Where-Object { $_.isBase })
+}
+$byName = @{}; foreach ($e in $nameEntries) { $byName[$e.cn] = $e.ru }
 $anyScan = @($entries | Where-Object { $_.scan }).Count -gt 0
 $baseEntries = @($entries | Where-Object { $_.isBase })
 $byCn = @{}; foreach ($e in $entries) { $byCn[$e.cn] = $e }
@@ -103,15 +115,16 @@ if ($Terms.Count) {
 }
 
 # --- Классификация строки ---
-# Возвращает объект: базовые термины строки с корзинами, все найденные записи (для чанка), признак подписи
-function Test-Row([string]$cn, [string]$en, [string]$ru) {
+# Возвращает объект: базовые термины строки с корзинами, все найденные записи (для чанка), признак подписи.
+# $bases — базовые термины для проверки: по умолчанию -Glossary, для канона имён — $nameEntries (TASK-036)
+function Test-Row([string]$cn, [string]$en, [string]$ru, $bases = $baseEntries) {
     $cnPlain = $markupRegex.Replace($cn, '')
     $ruPlain = $markupRegex.Replace($ru, ' ')
     $cnTags = if ($anyScan) { $tagRegex.Replace($cn, '') } else { $cnPlain }
     $ruTags = if ($anyScan) { $tagRegex.Replace($ru, ' ') } else { $ruPlain }
     $isService = $serviceRegex.IsMatch($cnPlain) -or [string]::IsNullOrWhiteSpace($en)
     $found = @{}   # base cn -> cn с вырезанными исключениями
-    foreach ($b in $baseEntries) {
+    foreach ($b in $bases) {
         $cnScan = if ($b.scan) { $cnTags } else { $cnPlain }
         if (-not $cnScan.Contains($b.cn)) { continue }
         $cut = $cnScan
@@ -119,7 +132,7 @@ function Test-Row([string]$cn, [string]$en, [string]$ru) {
         $found[$b.cn] = $cut
     }
     $result = @()
-    foreach ($b in $baseEntries) {
+    foreach ($b in $bases) {
         if (-not $found.ContainsKey($b.cn)) { continue }
         $bucket = $null
         if (-not $found[$b.cn].Contains($b.cn)) { $bucket = 'X' }
@@ -128,7 +141,7 @@ function Test-Row([string]$cn, [string]$en, [string]$ru) {
         # канон других терминов этой строки не должен считаться запрещённым вариантом (破甲 «пробивание брони» в строке с 穿刺)
         $ruMasked = if ($b.scan) { $ruTags } else { $ruPlain }
         $masked = $ruMasked
-        foreach ($o in $baseEntries) {
+        foreach ($o in $bases) {
             if ($o.cn -ne $b.cn -and $found.ContainsKey($o.cn) -and $o.match) { $masked = $o.match.Replace($masked, ' ') }
         }
         $bad = @($b.forbidden | Where-Object { $_.IsMatch($masked) } | ForEach-Object { $_.Match($masked).Value })
@@ -342,24 +355,60 @@ if ($Export) {
 
 # ============ -ExportNew ============
 # Новые строки (пустой target_ru) одного батча: перевод с нуля агентом ru-translator в режиме new.
-# terms — боевые характеристики из строки (как у -Export), names — имена, места, Пути и понятия
-# из остальных глоссариев, чьё cn входит в source_cn ({cn, ru}).
+# terms — термины -Glossary из строки (как у -Export), names — имена, места, Пути и понятия из остальных
+# глоссариев, чьё cn входит в source_cn ({cn, ru}; у терминов names_canon/marionettes/autochess_fetters/ui_traintrade
+# ещё note, их cn_exclude вырезаются до поиска). Составные «A (B)» и «X·Y» делятся на части (TASK-036).
 if ($ExportNew) {
     if (-not $BatchFile) { throw 'Для -ExportNew нужен -BatchFile batch_NNN_*.json' }
     # Полный путь — копия батча вне source/ (проверка инструмента); имя — батч из source/translation_batches.
     $batchPath = if ([System.IO.Path]::IsPathRooted($BatchFile)) { $BatchFile } else { Join-Path $batchesDir $BatchFile }
     if (-not (Test-Path $batchPath)) { throw "Батч $BatchFile не найден" }
-    $names = New-Object System.Collections.Generic.List[object]
+    # Явные записи: глоссарии-справочники и Пути, затем термины из глоссариев со схемой terms (с note и cn_exclude)
+    $explicit = New-Object System.Collections.Generic.List[object]
     foreach ($n in 'characters_and_factions', 'locations_and_geography', 'terms_and_items') {
         $j = (Read-Text (Join-Path $glossaryDir "$n.json")) | ConvertFrom-Json
         foreach ($p in $j.PSObject.Properties) {
-            foreach ($x in @($p.Value)) { if ($x.cn -and $x.ru) { $names.Add([PSCustomObject]@{ cn = [string]$x.cn; ru = [string]$x.ru }) } }
+            foreach ($x in @($p.Value)) { if ($x.cn -and $x.ru) { $explicit.Add([PSCustomObject]@{ cn = [string]$x.cn; ru = [string]$x.ru; note = ''; exclude = @() }) } }
         }
     }
     $pj = (Read-Text (Join-Path $glossaryDir 'pathways_and_sequences.json')) | ConvertFrom-Json
     foreach ($p in $pj.pathways) {
-        if ($p.name_cn -and $p.name_ru) { $names.Add([PSCustomObject]@{ cn = [string]$p.name_cn; ru = [string]$p.name_ru }) }
-        foreach ($s in $p.sequences) { if ($s.name_cn -and $s.name_ru) { $names.Add([PSCustomObject]@{ cn = [string]$s.name_cn; ru = [string]$s.name_ru }) } }
+        if ($p.name_cn -and $p.name_ru) { $explicit.Add([PSCustomObject]@{ cn = [string]$p.name_cn; ru = [string]$p.name_ru; note = ''; exclude = @() }) }
+        foreach ($s in $p.sequences) { if ($s.name_cn -and $s.name_ru) { $explicit.Add([PSCustomObject]@{ cn = [string]$s.name_cn; ru = [string]$s.name_ru; note = ''; exclude = @() }) } }
+    }
+    # Составные записи справочников (TASK-036): «倒吊人 (阿尔杰·威尔逊)» даёт ещё «倒吊人» и «阿尔杰·威尔逊»,
+    # а имя «X·Y» с тем же числом слов в ru — части «X», «Y» (阿尔杰 → Элджер)
+    $derived = New-Object System.Collections.Generic.List[object]
+    $parenRegex = [regex]'^\s*(?<a>.+?)\s*[(（]\s*(?<b>.+?)\s*[)）]\s*$'
+    foreach ($x in $explicit.ToArray()) {
+        $pairs = @(, @($x.cn, $x.ru))
+        $mc = $parenRegex.Match($x.cn); $mr = $parenRegex.Match($x.ru)
+        if ($mc.Success -and $mr.Success) {
+            $pairs += , @($mc.Groups['a'].Value, $mr.Groups['a'].Value)
+            $pairs += , @($mc.Groups['b'].Value, $mr.Groups['b'].Value)
+            foreach ($pr in $pairs[1..2]) { $derived.Add([PSCustomObject]@{ cn = $pr[0]; ru = $pr[1]; note = ''; exclude = @(); from = $x.cn }) }
+        }
+        foreach ($pr in $pairs) {
+            $cnParts = @($pr[0] -split '[·•]' | ForEach-Object { $_.Trim() })
+            $ruParts = @($pr[1].Trim() -split '\s+')
+            if ($cnParts.Count -lt 2 -or $cnParts.Count -ne $ruParts.Count) { continue }
+            for ($i = 0; $i -lt $cnParts.Count; $i++) { $derived.Add([PSCustomObject]@{ cn = $cnParts[$i]; ru = $ruParts[$i]; note = ''; exclude = @(); from = $x.cn }) }
+        }
+    }
+    foreach ($g in 'names_canon', 'marionettes', 'autochess_fetters', 'ui_traintrade') {
+        $gp = Join-Path $glossaryDir "$g.json"
+        if ($gp -eq $glossaryPath -or -not (Test-Path $gp)) { continue }   # термины -Glossary уже идут в terms
+        foreach ($t in ((Read-Text $gp) | ConvertFrom-Json).terms) {
+            if ($t.cn -and $t.ru) { $explicit.Add([PSCustomObject]@{ cn = [string]$t.cn; ru = [string]$t.ru; note = [string]$t.note; exclude = @($t.cn_exclude | Where-Object { $_ }) }) }
+        }
+    }
+    # Дубликаты cn: первой остаётся явная запись; производные с разным ru без явной записи — предупреждение
+    $seen = @{}; $names = New-Object System.Collections.Generic.List[object]
+    foreach ($x in $explicit) { if (-not $seen.ContainsKey($x.cn)) { $seen[$x.cn] = $x; $names.Add($x) } }
+    foreach ($x in $derived) {
+        if (-not $seen.ContainsKey($x.cn)) { $seen[$x.cn] = $x; $names.Add($x); continue }
+        $o = $seen[$x.cn]
+        if ($o.PSObject.Properties['from'] -and $o.ru -ne $x.ru) { Write-Host "  ВНИМАНИЕ: $($x.cn) = «$($o.ru)» ($($o.from)) и «$($x.ru)» ($($x.from)), взято первое" -ForegroundColor Yellow }
     }
     # Длинные имена раньше коротких: «克莱恩·莫雷蒂» не должно дать ещё и отдельное «克莱恩».
     $names = @($names | Where-Object { $_.cn.Length -ge 2 } | Sort-Object { - $_.cn.Length })
@@ -389,7 +438,11 @@ if ($ExportNew) {
             }
             $rowNames = @(); $rest = $cnPlain
             foreach ($x in $names) {
-                if ($rest.Contains($x.cn)) { $rowNames += [ordered]@{ cn = $x.cn; ru = $x.ru }; $rest = $rest.Replace($x.cn, ' ') }
+                if (-not $rest.Contains($x.cn)) { continue }
+                $scan = $rest; foreach ($ex in $x.exclude) { $scan = $scan.Replace($ex, ' ') }
+                if (-not $scan.Contains($x.cn)) { continue }
+                $rowNames += if ($x.note) { [ordered]@{ cn = $x.cn; ru = $x.ru; note = $x.note } } else { [ordered]@{ cn = $x.cn; ru = $x.ru } }
+                $rest = $rest.Replace($x.cn, ' ')
             }
             $items += [ordered]@{ key = $r.key; mode = 'new'; source_cn = $r.cn; ref_en = $r.en; target_ru = ''; terms = $chunkTerms; names = $rowNames }
         }
@@ -410,6 +463,8 @@ if ($Import) {
     $answer = $content | ConvertFrom-Json
     $files = @{}
     foreach ($f in Get-ChildItem $batchesDir -Filter 'batch_*.json') { $files[$f.BaseName.Substring(0, 9)] = $f.FullName }
+    # -BatchFile с полным путём — копия батча вне source/ вместо батча с тем же номером (проверка инструмента, TASK-036)
+    if ($BatchFile -and [System.IO.Path]::IsPathRooted($BatchFile)) { $files[[System.IO.Path]::GetFileName($BatchFile).Substring(0, 9)] = $BatchFile }
     # Текущие строки нужных батчей
     $want = @{}
     foreach ($p in $answer.PSObject.Properties) {
@@ -448,6 +503,11 @@ if ($Import) {
         }
         $bad = @($rowTerms | Where-Object { $_.bucket -notin 'ok', 'S', 'X', 'E' })
         if ($bad.Count) { $rejected += "$key — нет канона: $(($bad | ForEach-Object { "$($_.term) ($($_.bucket)$(if ($_.bad) { ": $($_.bad)" }))" }) -join '; ') → $new"; continue }
+        # Канон имён names_canon.json — при любом -Glossary (TASK-036)
+        if ($nameEntries.Count) {
+            $badNames = @(Test-Row $cn $en $new $nameEntries | Where-Object { $_.bucket -notin 'ok', 'S', 'X', 'E' })
+            if ($badNames.Count) { $rejected += "$key — нет канона имени (names_canon.json): $(($badNames | ForEach-Object { "$($_.term) → $($byName[$_.term])$(if ($_.bad) { " вместо «$($_.bad)»" })" }) -join '; ') → $new"; continue }
+        }
         if (-not $changes.ContainsKey($file)) { $changes[$file] = @{} }
         $changes[$file][$id] = $new
         $accepted++
