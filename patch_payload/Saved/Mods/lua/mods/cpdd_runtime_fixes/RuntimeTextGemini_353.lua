@@ -273,5 +273,6 @@ return {
     ["Best Friend II"] = "Лучший друг II",
     ["The deceased had already suffocated to death before falling; the murderer staged the crime scene."] = "Погибший задохнулся ещё до падения с высоты, убийца подделал место преступления.",
     ["每次普攻后，攻速提高<HighLight>7%</>，最多叠加<HighLight>10</>层。"] = "После каждой обычной атаки скорость атаки повышается на <HighLight>7%</>, суммируется до <HighLight>10</> раз.",
-    ["灵界·窗帘·一"] = "Spirit World · Curtain · I",
+    ["灵界·窗帘·一"] = "Мир Духов · Занавес · I",
+    ["Shopping Frenzy"] = "Бешеные закупки",
 }

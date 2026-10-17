@@ -272,6 +272,8 @@ return {
     ["对不起！对不起！卡尔！我只能当群演！我……我改变不了命运！"] = "Прости! Прости! Карл! Я могу быть только статистом! Я... я не могу изменить судьбу!",
     ["Dealing with this group of <h>\"Amon\"</>"] = "Справиться с этой толпой <h>«Амонов»</>",
     ["思绪随旋律飘荡，在回忆与现实间游走。"] = "Мысли плывут вслед за мелодией, блуждая между воспоминаниями и реальностью.",
+    ["Rare · Abundance Robe Battle Start Shield"] = "Редкое · Щит начала боя робы изобилия",
+    ["Blood Blade 4-player crit attribute"] = "Крит. удар Кровавого клинка (4 игрока)",
     ["邓恩好感度达到4级解锁"] = "Unlocked when Dunn's favorability reaches level 4.",
     ["Tab轮选测试配置-血量优先-仅怪物"] = "Tab Selection Test Config - HP Priority - Monsters Only",
     ["Anti-Invisibility"] = "Анти-невидимость",

@@ -292,7 +292,8 @@ return {
     ["I've sent Miller off in a carriage; there shouldn't be any obstacles before he reaches the port."] = "Я посадил Миллера в карету. До порта ему, наверное, уже ничто не помешает.",
     ["月亮仆从徽章追伤"] = "Добавочный урон значка слуги Луны",
     ["Piece Innate Mana Regen: Giant Corpse 2-Star"] = "Врожд. восст. маны фигуры: Гигантские останки, 2 зв.",
-    ["艾登，看来你已经想明白了。怎么，终于有话想问我了？"] = "Aiden, it seems you've figured it out. What's the matter? Finally have something you want to ask me?",
-    ["要不你也来试试？集中注意力。"] = "Why don't you give it a try? Focus your attention.",
+    ["Test Attribute Buff Strategy 80"] = "Тестовый бафф характеристик, стратегия 80",
+    ["艾登，看来你已经想明白了。怎么，终于有话想问我了？"] = "Эйден, похоже, ты всё понял. Что такое, наконец захотел о чём-то меня спросить?",
+    ["要不你也来试试？集中注意力。"] = "Может, попробуешь и ты? Сосредоточься.",
     ["附近玩家可卸载配料-大石头"] = "Nearby players can unload ingredient - Large Stone",
 }

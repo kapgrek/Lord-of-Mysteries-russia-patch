@@ -296,7 +296,8 @@ return {
     ["Throw two Doomsday Cards to pierce through enemies in front, dealing a total of {*d,F1690001,atkMin,3.5} Attack damage. Subsequently, increase <HighLight>20%</> Attack Speed and <HighLight>15%</> Attack for <HighLight>4</> seconds."] = "Бросает две карты апокалипсиса, пронзая врагов впереди и нанося в сумме {*d,F1690001,atkMin,3.5} ед. урона атаки. Затем повышает скорость атаки на <HighLight>20%</> и атаку на <HighLight>15%</> на <HighLight>4</> сек.",
     ["Puppet connection target"] = "Цель связи кукол",
     ["棋子固有回蓝·奥黛丽·霍尔"] = "Врожд. восст. маны фигуры·Одри Холл",
-    ["绝盾6人低血监听"] = "Desperate Shield 6-player low HP Listen",
-    ["西尔维娅战后光圈清理"] = "Sylvia post-battle aura cleanup",
+    ["He excels at theft, stealing items, thoughts, and abilities."] = "Он искусен в краже: крадёт предметы, мысли, способности.",
+    ["绝盾6人低血监听"] = "Абсолютный щит: монитор низкого ЗДР при 6 игроках",
+    ["西尔维娅战后光圈清理"] = "Очистка ауры Сильвии после боя",
     ["Roberto"] = "Роберто",
 }

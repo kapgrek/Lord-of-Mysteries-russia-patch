@@ -284,6 +284,8 @@ return {
     ["Cult EXP is full"] = "Опыт культа заполнен",
     ["是我。那是一段美好的日子……某种程度上说，是我离开拜朗帝国后的新生。"] = "Это я. То были прекрасные дни... В каком-то смысле это было моё новое рождение после ухода из Империи Балам.",
     ["晋升任务-终有归途-偷取前"] = "Задание на повышение: Путь домой неизбежен — перед кражей",
+    ["Rare Traction Spirit Pendant Critical Hit Monitor"] = "Редкое·Духовный кулон притяжения: отслеживание крит. удара",
+    ["Give to the plaza"] = "На площадь",
     ["【普通】童话故事-多个舞台区域轮询自己的跳舞玩家"] = "[Normal] Fairy Tale-multiple stage areas poll for their own Dance players",
     ["米尔贡根-王庭之螺-代理（TODO）"] = "Milgongen-Conch of the Royal Court-Agent (TODO)",
     ["Saria"] = "Сария",

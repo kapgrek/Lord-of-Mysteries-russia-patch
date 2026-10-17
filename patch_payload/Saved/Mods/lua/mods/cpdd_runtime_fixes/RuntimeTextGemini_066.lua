@@ -304,8 +304,10 @@ return {
     ["Play the piano"] = "Игра на пианино",
     ["怪獵"] = "Охота на монстров",
     ["方形区域限制移动"] = "Квадратная зона ограничивает передвижение",
-    ["现实线第六章-芬奇坐马车离开后"] = "Reality Line Chapter 6 - After Finch leaves by Carriage",
-    ["获得<HighLight>厄水巨龟</>、<HighLight>巨狼</>和<HighLight>魅欲女妖</>。"] = "Gain <HighLight>Misfortune Water Giant Turtle</>, <HighLight>Giant Wolf</>, and <HighLight>Charm Succubus</>.",
-    ["蒸汽时代·过载核心命中计数"] = "Steam Era: Overload Core Hit Counter",
+    ["Ted"] = "Тед",
+    ["The Vain Nighthawk"] = "Любящий красоту Ночной Страж",
+    ["现实线第六章-芬奇坐马车离开后"] = "Реальная линия, глава 6 - После отъезда Финча в карете",
+    ["获得<HighLight>厄水巨龟</>、<HighLight>巨狼</>和<HighLight>魅欲女妖</>。"] = "Получите <HighLight>Гигантскую черепаху бедствий</>, <HighLight>Гигантского волка</> и <HighLight>Очаровательную суккубу</>.",
+    ["蒸汽时代·过载核心命中计数"] = "Паровая эра: Счётчик попаданий ядра перегрузки",
     ["隐秘空间-破晓防线"] = "Hidden Space - Dawn Defense Line",
 }

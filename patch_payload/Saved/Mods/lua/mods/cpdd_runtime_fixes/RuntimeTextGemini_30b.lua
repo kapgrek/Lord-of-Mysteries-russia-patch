@@ -288,7 +288,9 @@ return {
     ["Distant view of the Small Town"] = "Вид на городок издали",
     ["Trevor: There is one left—Carrapone, that parasite of Tingen."] = "Тревор: Остался только Каррапоне, этот червь Тингена.",
     ["Eliminate a total of 888 opponents in your gambit career."] = "За карьеру в Гамбите устраните в сумме 888 противников.",
-    ["神威冰冻3"] = "Divine Might Freeze 3",
-    ["罗塞尔Boss-3阶段-镜像数据-护盾表现"] = "Roselle Boss - Phase 3 - Mirror Data - Shield Visuals",
+    ["神威冰冻3"] = "Божественная мощь: Заморозка 3",
+    ["罗塞尔Boss-3阶段-镜像数据-护盾表现"] = "Босс Розель - 3 фаза - Зеркальные данные - Вид щита",
+    ["Tencent Cloud Stress Test Cross-Server Strategic Server 59001"] = "Тест нагрузки Tencent Cloud: межсерверный стратегический сервер 59001",
+    ["Proof of Glory Merit Tier"] = "Ярус заслуг Знака славы",
     ["采集指定TemplateID的采集物  传送到指定场景内的Trigger位置"] = "Соберите указанный элемент коллекции TemplateID. Телепортируйтесь к месту триггера в указанной сцене.",
 }

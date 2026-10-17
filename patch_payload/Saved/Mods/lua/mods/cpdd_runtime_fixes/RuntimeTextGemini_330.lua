@@ -279,7 +279,8 @@ return {
     ["I don't want to fight evil right now."] = "Сейчас я не хочу сражаться со злом.",
     ["Perhaps asking her might provide more clues."] = "Возможно, расспросив её, удастся узнать больше.",
     ["Justice Wallet Damage Reduction Layer"] = "Слой снижения урона Кошелька справедливости",
-    ["滑轨6"] = "Slide Rail 6",
+    ["滑轨6"] = "Направляющая 6",
+    ["Marionette does not exist, cannot be used"] = "Тайная марионетка не существует, использование невозможно",
     ["终末猎杀-草丛16逐簇隐匿05"] = "Final Hunt-Bush 16 Cluster-by-Cluster Concealment 05",
     ["If you aspire to become a government employee, please choose our night school!\nIf you can read, you can come; graduation guarantees a recommendation for the City Hall exam!\n\n<Highlight>Course Details</>\n◆Classes held at night on Tuesdays, Thursdays, and Saturdays\n◆Tuition 1 pound 12 soli\n\nGet paid in gold pounds on time every month, no layoffs regardless of wind or rain.\nHigh salary, decent and easy, a hundred times better than carrying bags at the dock!\n\nSign up at <Highlight>\"Golden Pen\" Firm, 6 Daffodil Street</>, only <Mark id=\"#159_R\"> 30 spots </> available, if you're slow, you'll be fighting for a spot next year!"] = "Если вы мечтаете стать государственным служащим, выберите наш вечерний курс! \nВы можете прийти сюда, если умеете читать, и после окончания учебы вам порекомендуют сдать экзамен в мэрию! \n\n<Highlight>Подробности курса</>\n◆Обучение в ночное время каждый вторник и субботу \n◆Стоимость обучения составляет 1 фунт 12 солов\n\nЗолотые фунты будут выплачиваться вовремя каждый месяц, и нас не уволят, когда пойдет дождь или ветер. \nВысокая зарплата, достойная и расслабленная, таскать сумки на причале в сто раз лучше! \n\n<Highlight> Торговый дом «Золотая Ручка», ул. Нарциссовая, №6 </> Регистрируйтесь, всего <Mark id=\"#159_R\"> Принимается 30 человек </>, если будете медлительны, то в следующем году вас отожмут!",
 }

@@ -294,9 +294,9 @@ return {
     ["I'm going to the Dock... I want to buy a ticket to Backlund."] = "Я иду на пристань... хочу купить билет на корабль до Бэкланда.",
     ["Tactics Badge Health Switch"] = "Знак тактики: смена ОЗ",
     ["Hug 1_3 adjacent grid"] = "Объятие 1_3, соседние клетки",
-    ["神弃之地6人成长"] = "Forsaken Land of the Gods 6-Player Growth",
-    ["离开观看区"] = "Leave the viewing area",
-    ["艾玛，还记得你是谁吗？"] = "Emma, do you remember who you are?",
+    ["神弃之地6人成长"] = "Земля, покинутая богами: рост для 6 игроков",
+    ["离开观看区"] = "Покинуть зону просмотра",
+    ["艾玛，还记得你是谁吗？"] = "Эмма, ты помнишь, кто ты?",
     ["隐秘空间-换物人格-关2-窃取错误1"] = "Hidden Space-Exchange Persona-Level 2-Steal Error 1",
     ["Adele"] = "Адель",
 }

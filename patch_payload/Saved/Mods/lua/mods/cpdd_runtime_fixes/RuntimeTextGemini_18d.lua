@@ -293,7 +293,7 @@ return {
     ["小孩，你不对劲。冰淇淋是封印物？"] = "Малец, с тобой что-то не так. Мороженое — Запечатанный Артефакт?",
     ["Fortunately, this gentleman helped me save my luggage."] = "К счастью, этот господин помог мне спасти багаж.",
     ["I would like to consult on other matters."] = "Хочу спросить о другом",
-    ["秘法6人全体法力恢复"] = "Arcane 6-Person Party Mana Recovery",
+    ["秘法6人全体法力恢复"] = "Тайное искусство: восстановление маны всей группе (6 чел.)",
     ["遵从指引做出对应的行为"] = "Follow the guidance to perform the corresponding actions",
     ["采集海报"] = "Collect Poster",
     ["随时会有守卫闯进来，我得打起精神，保护好她。"] = "Guards could burst in at any moment; I must stay alert and protect her.",

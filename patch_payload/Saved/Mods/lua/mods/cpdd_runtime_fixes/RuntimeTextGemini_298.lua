@@ -284,8 +284,10 @@ return {
     ["By the way, would you like to buy a bouquet of flowers? They can help refresh your spirits, and they've been selling very well today."] = "Кстати, не хотите купить букетик? Он поднимает настроение, и сегодня цветы расходятся отлично.",
     ["当然，我走之前一定给你做一个新的护身符，这次一定不会出意外，我已经精心挑选了适合的日期和时间……"] = "Конечно, перед отъездом я обязательно сделаю тебе новый амулет. В этот раз никаких неприятностей не будет, я тщательно выбрал подходящие дату и время...",
     ["Entered the top 100 for this class on the War Merit leaderboard"] = "Войти в топ-100 своего класса в рейтинге боевых заслуг",
-    ["血刃3人流血监听"] = "Blood Blade 3-player Bleed monitoring",
-    ["诶，演出快开始了，等结束我们再聊。"] = "Hey, the performance is about to start. Let's talk after it's over.",
+    ["Reality Line Chapter 6 - Check the postman's bicycle"] = "Реальная линия, глава 6 - Осмотреть велосипед почтальона",
+    ["Having seen so much, you must want to become a part of me too, right?"] = "Столько повидав, ты наверняка тоже хочешь стать частью меня?",
+    ["血刃3人流血监听"] = "Отслеживание кровотечения Кровавого клинка (3 игрока)",
+    ["诶，演出快开始了，等结束我们再聊。"] = "Эй, представление скоро начнётся, поговорим после него.",
     ["饕餮成长体型14档"] = "Gluttony Growth Stage 14",
     ["Hershel"] = "Гершель",
 }

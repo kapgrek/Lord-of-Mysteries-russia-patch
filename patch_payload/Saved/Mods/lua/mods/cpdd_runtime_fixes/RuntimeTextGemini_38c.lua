@@ -281,6 +281,8 @@ return {
     ["View rankings"] = "Рейтинг",
     ["Piece Innate Mana Regen: Frank Lee"] = "Врожд. восст. маны фигуры: Фрэнк Ли",
     ["每<Highlight>20进度</>获得1个养成资源箱，开启可随机获得一件<Highlight>65装等</>或<Highlight>66装等</>的<Highlight>冒险倾向</>橙色或金色品质装备，非凡物质、聚合因子、绑定苏勒。"] = "За каждые <Highlight>20 прогресса</> вы получаете 1 ящик ресурсов развития. В нём можно получить случайный предмет оранжевого или золотого качества с <Highlight>уровнем предмета 65</> или <Highlight>66</> с <Highlight>склонностью к приключениям</>, потусторонние материалы, фактор слияния и привязанные соли.",
+    ["Brand/Mythical"] = "Клеймо/Мифическое",
+    ["Selling stats"] = "Продажа характеристик",
     ["隐秘空间元件-测试火盆"] = "Hidden Space Element - Test Brazier",
     ["隐秘空间-换物人格-关1-窃取错误2"] = "Hidden Space-Exchange Persona-Level 1-Steal Error 2",
     ["罗塞尔Boss困难-3阶段-恶意俯冲选最远玩家"] = "Roselle Boss Hard - Phase 3 - Malicious Dive Targets Farthest Player",

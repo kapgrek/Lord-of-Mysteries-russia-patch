@@ -265,6 +265,8 @@ return {
     ["Glory of the Greatsword"] = "Слава Великого меча",
     ["战略服凯旋公会：{{eventMessageParams.guildName}} 已开启花车巡游，<HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[前往庆祝]</>"] = "Стратегический сервер, клуб-триумфатор: {{eventMessageParams.guildName}} начал парад платформ, <HyperLink stylename=\"Chat_Hyperlink\" u=\"floatParadeNavigation={{eventMessageParams.worldID}},{{eventMessageParams.spaceID}},{{eventMessageParams.requestID}},{{eventMessageParams.paradeEntityID}}\">[Присоединиться к празднику]</>",
     ["Arrive in Backlund"] = "Прибыть в Бэкланд",
+    ["Double Jump disabled"] = "Двойной прыжок отключён",
+    ["North Station Master of the Sea of Flowers"] = "Начальник северной станции Цветочного моря",
     ["贸易战完成3次委托"] = "Complete 3 commissions in Trade War",
     ["雪山北部"] = "North Snowy Mountain",
     ["罗塞尔Boss-3阶段-磁电回收-扇形法术代理"] = "Roselle Boss - Phase 3 - Electromagnetic Recovery - Fan-shaped Spell Proxy",

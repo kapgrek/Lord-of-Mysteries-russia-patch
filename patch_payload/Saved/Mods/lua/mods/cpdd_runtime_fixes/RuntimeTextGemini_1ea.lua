@@ -288,6 +288,11 @@ return {
     ["我一定能签下主角合同！"] = "Я обязательно подпишу контракт на главную роль!",
     ["Piece Innate Mana Regen: Great Sword Knight"] = "Врожд. восст. маны фигуры·Рыцарь с огромным мечом",
     ["Everyone wearing a monocle will praise me; they are having a great time, including this avatar."] = "Каждый, кто надел монокль, будет меня хвалить: им очень весело, включая этого двойника.",
-    ["绯红命运【需要替换CS"] = "Crimson fate [Needs CS replacement",
+    ["Souls do not meet by chance; beyond the Law of Beyonder Characteristics Convergence, there is also the mutual attraction of our tacit understanding."] = "Души не встречаются случайно: помимо закона схождения необыкновенных характеристик, нас притягивает и наше негласное взаимопонимание.",
+    ["Used to Switch the display status of the mobile platform."] = "Используется для переключения состояния отображения подвижной платформы.",
+    ["Currently, these Amons treat Backlund as their playground, creating chaos and danger everywhere."] = "Сейчас эти «Амоны» превратили Бэкланд в площадку для развлечений и повсюду сеют хаос и опасность.",
+    ["What a pity. I had thought that He wouldn't personally glance at you, but it seems I still underestimated you."] = "Как жаль. Я думал, Он не удостоит тебя и взглядом, но, похоже, я всё же недооценил тебя.",
+    ["绯红命运【需要替换CS"] = "Багровая судьба [нужна замена CS",
+    ["Tofu pudding should definitely be eaten spicy."] = "Доухуа, конечно, нужно есть острым.",
     ["Ruola"] = "Руола",
 }

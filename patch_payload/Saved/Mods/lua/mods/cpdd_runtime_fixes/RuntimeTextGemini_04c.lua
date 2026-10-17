@@ -274,7 +274,7 @@ return {
     ["塔罗·戴里克·伯格·基础"] = "Таро · Дерик Берг · Основа",
     ["The Beyonder who deals the most damage to guards/buildings"] = "Потусторонний, нанёсший наибольший урон стражам/постройкам",
     ["Handkerchief"] = "Носовой платок",
-    ["神弃之地2人成长"] = "Forsaken Land of the Gods 2-Player Growth",
+    ["神弃之地2人成长"] = "Земля, покинутая богами: рост для 2 игроков",
     ["这不是黑荆棘的标志吗？你怎么有黑荆棘的车？"] = "Isn't this the Blackthorn emblem? How do you have a Blackthorn carriage?",
     ["这就是答案"] = "This is the answer.",
     ["终末猎杀-草丛03逐簇隐匿07"] = "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 07",

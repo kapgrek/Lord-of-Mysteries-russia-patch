@@ -269,6 +269,7 @@ return {
     ["Introduction: Megose"] = "Представление персонажа: Мегос",
     ["希尔宗德"] = "Хилсонд",
     ["Players might want to hoard some Gold Coins—the interest from round settlements adds up over time."] = "Игрокам стоит копить золотые монеты: проценты при подсчёте итогов раунда накапливаются.",
+    ["Befriend Azik"] = "Подружиться с Азиком",
     ["跟随灵性的指引"] = "Follow the guidance of your spirituality",
     ["还是个侠盗啊……"] = "So you're a chivalrous thief, after all...",
     ["隐秘空间-昔影重现-检查尸体"] = "Hidden Space - Reenactment of Past Shadows - Examine Corpse",

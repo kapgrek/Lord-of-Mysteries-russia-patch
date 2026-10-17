@@ -278,7 +278,7 @@ return {
     ["Your current form <HighLight>%s</> does not match your talent <HighLight>%s</>. Would you like to go and check?"] = "Ваша текущая форма <HighLight>%s</> не соответствует таланту <HighLight>%s</>. Перейти к проверке?",
     ["拿起这盏灯，它会给予你正确的指引。"] = "Возьми эту лампу, она даст тебе верное направление.",
     ["The songstress finally finds reconciliation."] = "Певица наконец примирилась",
-    ["谁会轻易去死？"] = "Who would die so easily?",
+    ["谁会轻易去死？"] = "Кто же умрёт так легко?",
     ["这路人叽里咕噜说啥呢？"] = "What is this passerby Gulu-ing about?",
     ["黑漆漆怪吓人的，“星星”先生，这里是？"] = "It's pitch black and quite scary, Mr. \"Star\", where is this?",
     ["Hahaha \r\n Hahahaha... \r\n Hahahahahaha... \r\n Hahahahahahaha...!"] = "Хи-хи-ха-ха\r\nХа-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха...\r\nХа-ха-ха-ха-ха-ха-ха-ха-ха!..",

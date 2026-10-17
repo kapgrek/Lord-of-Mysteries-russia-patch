@@ -278,6 +278,9 @@ return {
     ["您还记得他长什么样吗？"] = "Вы помните, как он выглядел?",
     ["I keep thinking... if only she could remember me once, just once, that would be enough."] = "Я всё думаю... если бы она вспомнила меня хоть раз, всего один раз, этого было бы достаточно.",
     ["Piece Innate Mana Regen: Old Neil"] = "Врожд. восст. маны фигуры: Старый Нил",
+    ["Beautiful Nighthawk"] = "Прекрасный Ночной Ястреб",
+    ["Participate in the Dungeon <Highlight>The Emperor's Return (Hard)</> in party mode. You can participate in the distribution and auction of public drops. There is a chance to obtain the following appearances."] = "В групповом режиме пройдите подземелье <Highlight>Возвращение императора (Сложно)</>, чтобы участвовать в распределении и аукционе общей добычи. Есть шанс получить следующие облики.",
+    ["Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Number Monster Buff"] = "Босс Розель (сложный) - 2 фаза - Программа самоочистки - Бафф числового монстра",
     ["这个点……如果是今天的话，应该要到了吧？"] = "At this hour... if it's today, they should be arriving soon, right?",
     ["参与%d/1次歌剧魅影比赛。(参赛或观战均可）"] = "Примите участие в конкурсе %d/1 «Призрак Оперы». (Участие или наблюдение — это нормально)",
 }

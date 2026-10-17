@@ -293,5 +293,5 @@ return {
     ["总伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>340%</> = {*d,F1690001,atkMin,3.4}点，护盾：<img id=\"01\" width=\"40\" height=\"40\"/>最大生命 × <HighLight>25%</> = {*d,F1690001,maxHp,0.25}点"] = "Общий урон: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>340%</> = {*d,F1690001,atkMin,3.4} ед., щит: <img id=\"01\" width=\"40\" height=\"40\"/>макс. здоровье × <HighLight>25%</> = {*d,F1690001,maxHp,0.25} ед.",
     ["Tactician 6-Person"] = "Тактика: 6 чел.",
     ["Merrill"] = "Мерил",
-    ["污染追踪"] = "Corruption Tracking",
+    ["污染追踪"] = "Отслеживание порчи",
 }

@@ -293,6 +293,8 @@ return {
     ["Acquiring creamy butter"] = "Закупка сливочного масла",
     ["Starry Exploration"] = "Звёздные тайны",
     ["Nothing much going on for now"] = "Пока ничего не происходит",
+    ["Void-Piercing Spear"] = "Воздухорассекающее длинное копьё",
+    ["Sinful Aftermath: Tingen"] = "Греховные отголоски: Тинген",
     ["赫莲娜女士，设备检查完了，演出服也整理好了。"] = "Ms. Helena, the equipment check is complete, and the costumes have been organized.",
     ["阿斯塔？"] = "Asta?",
     ["非常成功。我身后跟着一支浩浩荡荡的小尾巴，太幸福了！"] = "Очень успешно. За мной следует длинный суетливый хвост – это чистое блаженство!",

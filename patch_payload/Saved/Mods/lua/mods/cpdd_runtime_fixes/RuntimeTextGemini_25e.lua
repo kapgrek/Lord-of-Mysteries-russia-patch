@@ -245,7 +245,8 @@ return {
     ["I am a special appraiser for the Backlund firm. I presume many of the ladies and gentlemen present here know me. This vase does not originate from the Fourth Epoch, but is something from the beginning of this century."] = "Я приглашённый оценщик торгового дома Бэкланда, и многие из присутствующих господ и дам наверняка меня знают. Эта ваза не из Четвёртой эпохи, а из начала нынешнего века.",
     ["打开后随机获得1件<Highlight>非绑</>的<Highlight>69装等竞技倾向</>橙色装备。"] = "После открытия случайным образом выдаётся 1 <Highlight>непривязанная</> оранжевая экипировка <Highlight>69 ур. предмета с соревновательным уклоном</>.",
     ["月光缎带"] = "Лунная лента",
-    ["累计500个非凡者组队通关丰饶之树·困难"] = "Clear Tree of Abundance (Hard) in a team with a cumulative total of 500 Beyonders",
+    ["累计500个非凡者组队通关丰饶之树·困难"] = "Пройдите Древо Изобилия · Сложно с отрядом, в сумме 500 Потусторонних",
+    ["Roselle Boss - Scorching Gaze - Target Mark"] = "Босс Росселл - Жгучий взгляд - Метка цели",
     ["高阔的大厅安静得能听见回声，仿佛立于现实与灵界的交界处。"] = "The vast Hall is so quiet that you can hear the echoes, as if standing at the boundary between reality and the Spirit World.",
     ["An old, worn-out mirror.\n The surface is almost entirely obscured by stains, no longer able to reflect the face of the viewer."] = "Старинное зеркало.\nЕго поверхность почти сплошь покрыта въевшимися пятнами и больше не способна отразить лицо смотрящего.",
 }

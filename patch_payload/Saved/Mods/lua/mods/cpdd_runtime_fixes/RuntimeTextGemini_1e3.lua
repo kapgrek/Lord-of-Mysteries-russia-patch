@@ -265,6 +265,10 @@ return {
     ["放缓脚步悠然前行，姿态自然随性，仿佛只是恰好从镜头前经过。  "] = "Замедлите шаг и идите неспешно, держась естественно и непринуждённо, будто просто случайно проходите мимо камеры.  ",
     ["是否包含被屏蔽被动"] = "Включать заблокированные пассивные навыки?",
     ["有人说，“你这牛肉派里面根本没有牛肉，居然敢卖十便士！”"] = "Кто-то сказал: «В вашем пироге с говядиной вообще нет говядины, а вы смеете продавать его за десять пенсов!»",
+    ["Why would I be angry? Seeing you alive and healthy is better than anything else!"] = "Сердиться? Видеть вас живым и здоровым лучше всего на свете!",
+    ["Test Damage"] = "Тест урона",
+    ["Gain <HighLight>1 Clown</>. His skill becomes <HighLight>throwing 2 doomsday cards that pierce enemies, followed by a brief increase to Attack Speed and Attack</>."] = "Получите <HighLight>1 Клоуна</>. Его навык усиливается: <HighLight>бросает 2 карты Конца света, пронзающие врагов, затем ненадолго повышает скорость атаки и силу атаки</>.",
+    ["Middle pants section"] = "Брюки, средняя часть",
     ["Stanley"] = "Стэнли·",
     ["　　<Letter_Highlight_HW>Melissa</> is coming back from Backlund today, and I should have been the one to pick her up.\n　　But the church has something urgent, so please help me go to Blackthorn to receive her.\n　　You have seen her in Mr. Fool's history. Although a few years have passed and she may have grown taller, her appearance shouldn't have changed much.\n　　Giving you a chance, perform well!"] = "　<Letter_Highlight_HW>Мелисса</> вернулась сегодня из Баклунда, и я должен был забрать ее. \n　Но у церкви есть чем заняться временно. Пожалуйста, помогите мне пойти в Блэкторн и получить его. \n Вы видели ее в истории  Шута. Хотя за несколько лет она, возможно, и стала выше, ее внешний вид не должен был сильно измениться. \n　Дайте вам шанс и выступите хорошо!",
 }

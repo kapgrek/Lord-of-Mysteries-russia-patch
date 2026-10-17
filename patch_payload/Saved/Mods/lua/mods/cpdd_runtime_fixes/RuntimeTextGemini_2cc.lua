@@ -277,7 +277,8 @@ return {
     ["投稿失败"] = "Не удалось подать",
     ["暂无申请"] = "Нет заявок",
     ["This event has ended, and statues of the outstanding participants have been erected in Tingen."] = "Мероприятие завершено, в Тингене установлены статуи лучших участников",
-    ["灵界·地饰·二"] = "Spirit World · Floor Ornament 2",
-    ["表现_信徒_仪式"] = "Performance_Believer_Ritual",
+    ["灵界·地饰·二"] = "Мир Духов · Напольный декор 2",
+    ["表现_信徒_仪式"] = "Показ_Верующий_Ритуал",
+    ["West Flower Snowy Mountain trade route"] = "Торговый путь Западных снежных гор цветов",
     ["贤者额饰"] = "Sage's Forehead Ornament",
 }

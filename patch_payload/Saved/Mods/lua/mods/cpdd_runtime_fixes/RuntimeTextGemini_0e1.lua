@@ -293,4 +293,6 @@ return {
     ["Display Stand: Devotee"] = "Подиум: верующий",
     ["战法8人"] = "Тактика: 8 чел.",
     ["棋子固有回蓝·洛薇雅·蒂芙尼·3星"] = "Врожд. восст. маны фигуры: Ловия Тиффани, 3 зв.",
+    ["Good luck, stranger, and happy hunting, if... you still have the guts..."] = "Удачи тебе, незнакомец, и славной охоты, если... у тебя хватит духу...",
+    ["Calculation success 0/3, team Attack Speed significantly reduced!"] = "Расчёт удался 0/3, скорость атаки всей команды значительно снижена!",
 }

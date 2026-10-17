@@ -282,8 +282,11 @@ return {
     ["最后是个年轻人，一直对着水池抛硬币，嘴里反复念着一句话，好像是什么......只要等到那个人，他就能<P_Yellow>离开贝克兰德</>了。"] = "Последним был молодой человек: он всё бросал монеты в фонтан и без конца повторял одну фразу, кажется, что-то вроде... как только он дождётся того человека, то сможет <P_Yellow>покинуть Бэкланд</>.",
     ["欲望在暗夜中滋长，理智与冲动在心中交战。"] = "Желание растёт во тьме ночи, рассудок и порыв сражаются в сердце.",
     ["Residual Knowledge"] = "Остаточные знания",
-    ["点击此处切换到<Orange>展示持武</>效果。"] = "Click here to Switch to the <Orange>weapon display</> effect.",
-    ["王庭权杖"] = "Royal Court Scepter",
+    ["The tide of spirituality washes over the city walls, and the war drums of the <PVPHighlight>City of Dragon Hunting</> sound once more. <PVPHighlight>The Giant Dragon crusade is about to begin</>. The Dragon - Projection will appear in the center of the Royal City of the City of Dragon Hunting in 1 minute. All Beyonders, please assemble and prepare for battle."] = "Прилив Духовности захлестнул городские стены, и боевые барабаны <PVPHighlight>Города охоты на драконов</> зазвучали вновь. <PVPHighlight>Скоро начнётся поход на дракона</>: Дракон (проекция) появится в центре королевского города Охоты на драконов через 1 минуту. Всем Потусторонним собраться и подготовиться к бою.",
+    ["点击此处切换到<Orange>展示持武</>效果。"] = "Нажмите здесь, чтобы переключиться на эффект <Orange>показа оружия в руках</>.",
+    ["王庭权杖"] = "Скипетр королевского двора",
+    ["Sacred Light of Life"] = "Священное сияние жизни",
+    ["Successfully performed Requiem on %d/40 Beyonders in total"] = "Успешно упокоено Потусторонних: %d/40",
     ["返回<h>猎犬酒馆</>领取酬劳"] = "Return to the <h>Hound Tavern</> to collect your payment.",
     ["终末猎杀-草丛09合并隐匿02（含2块原范围）"] = "Final Hunt - Bush 09 Merged Concealment 02 (Includes 2 original areas)",
 }

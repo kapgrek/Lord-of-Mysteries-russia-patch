@@ -268,7 +268,7 @@ return {
     ["Allied units gain <HighLight>8 Defense</>. The first time their Health falls <HighLight>below 50%</>, they gain an additional <HighLight>25 Defense</>."] = "Союзные фигуры получают <HighLight>8 ед. защиты</>. Когда ОЗ впервые опускаются <HighLight>ниже 50%</>, они дополнительно получают <HighLight>25 ед. защиты</>.",
     ["帕金娜，你身上带着的那个东西……有些不对劲。"] = "Пакина, с тем, что ты носишь при себе... что-то не так.",
     ["战斗开始后的<HighLight>20</>秒内，免疫控制效果。"] = "В течение <HighLight>20</> сек. после начала боя — иммунитет к контролю.",
-    ["等等 我好像忽然想起点什么……"] = "Wait, I think I suddenly remembered something...",
+    ["等等 我好像忽然想起点什么……"] = "Постойте, кажется, я что-то вспомнил...",
     ["隐秘空间-昔影重现-传送"] = "Hidden Space-Reappearance of Past Shadows-Teleport",
     ["终末猎杀-草丛10逐簇隐匿07"] = "End Hunt - Bush 10 Cluster-by-Cluster Concealment 07",
     ["Valeria"] = "Валерия",

@@ -265,7 +265,7 @@ return {
     ["The time has come.<P_Heart> (Cunningly) </>May you receive the answer you desire, Mrs. Green."] = "Время пришло.<P_Heart>(Лукаво)</>Пусть вы получите тот ответ, которого желаете, госпожа Грин.",
     ["最后的盛宴"] = "Последний пир",
     ["有的等了，你要是不舒服，就先回座位睡一觉。"] = "Ждать придётся долго. Если тебе нехорошо, возвращайся на место и поспи.",
-    ["编剧、导演、投资人，他们剧本里的每一句词，我都能接上！"] = "Screenwriter, director, investor—I can recite every line from their scripts!",
+    ["编剧、导演、投资人，他们剧本里的每一句词，我都能接上！"] = "Сценаристы, режиссёры, инвесторы — любую реплику из их сценариев я подхвачу!",
     ["车队等级达到38级"] = "Caravan level reaches 38",
     ["这么巧，正好有人退票？"] = "What a coincidence, someone just returned their ticket?",
     ["飞毯"] = "Flying Carpet",

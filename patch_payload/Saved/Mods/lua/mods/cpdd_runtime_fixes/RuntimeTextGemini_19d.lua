@@ -300,6 +300,7 @@ return {
     ["Yes, Blackthorn Security Company. Are you his sister and brother?"] = "Да, охранная компания «Блэкторн». Так вы его сестра и брат?",
     ["The Clown stole my life; apart from the Clown, I am nothing."] = "Клоун украл мою жизнь. Без Клоуна я ничто.",
     ["晋升任务-终有归途-询问老奶奶"] = "Задание на повышение: Путь домой неизбежен — расспросить старушку",
+    ["Theft successful"] = "Кража удалась",
     ["这些都是好几年前的新闻吧？"] = "Aren't these news stories from several years ago?",
     ["隐秘空间-记忆窃贼-结局"] = "Hidden Space - Memory Thief - Ending",
     ["罗塞尔Boss困难-1&2阶段-重力圆点名"] = "Roselle Boss Hard - Stages 1 & 2 - Gravity Point Target",

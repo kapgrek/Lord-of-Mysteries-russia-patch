@@ -284,7 +284,7 @@ return {
     ["My name is {{PlayerName}}! Could you sign this poster for me? Once you become a big star, I can brag about having a celebrity friend."] = "Меня зовут {{PlayerName}}! Можете расписаться на моём постере? Когда вы станете звездой, я смогу хвастаться, что у меня есть знаменитый друг.",
     ["The strangest thing is that the child kept asking me, \"Is this Backlund?\" I thought he was joking at the time, as he clearly grew up on this very street."] = "Страннее всего, что тот ребёнок всё спрашивал меня: «Это Бэкланд?» Я тогда решил, что он шутит, ведь он вырос именно на этой улице.",
     ["查看内页"] = "Осмотреть страницы",
-    ["血战时刻"] = "Moment of Bloody Battle",
+    ["血战时刻"] = "Час кровавой битвы",
     ["超凡徽章装备"] = "Beyonder Badge Equipment",
     ["车队等级达到36级"] = "Caravan level reaches 36",
     ["过去看看<h>他们</>"] = "Go over and look at <h>them</>",

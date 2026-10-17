@@ -303,7 +303,9 @@ return {
     ["Congratulations! Here is your prize money."] = "Поздравляю, поздравляю! Это твоя премия.",
     ["我不是迪伦。我是……我是来找邮差的。他就在楼上，对着我笑。"] = "Я не Дилан. Я... я пришёл искать почтальона. Он наверху и улыбается мне.",
     ["我会的，非常期待。"] = "Обязательно, я очень жду этого.",
-    ["注意分摊恐惧，恐惧会让情绪低落"] = "Be sure to share the Horror, as Horror will lower your mood.",
+    ["注意分摊恐惧，恐惧会让情绪低落"] = "Не забывайте делить страх: страх подавляет настроение",
+    ["Explosion Order: Food Shop expired. The next stop is not a [Food Shop]; product selling price -40%."] = "Взрыв заказов · Лавка еды недействительна: следующая станция не [Лавка еды], цена продажи товаров -40%",
+    ["Practitioner of the Arcane"] = "Практик тайных ритуалов",
     ["蒸汽单车·琥珀"] = "",
     ["终末猎杀-草丛11逐簇隐匿08"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 08",
 }

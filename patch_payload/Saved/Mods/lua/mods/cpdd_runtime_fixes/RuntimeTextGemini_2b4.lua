@@ -291,8 +291,10 @@ return {
     ["Bullet generated"] = "Пуля создана",
     ["尝试在历史投影激活压力板前，前往楼梯中段等待"] = "Успейте подняться на середину лестницы и ждите, пока историческая проекция не активирует нажимную плиту",
     ["When enabled, mouse-hover smart targeting for damage-dealing classes will only take effect on enemies, and mouse-hover smart targeting for Healing classes will only take effect on allies. If disabled, there are no restrictions."] = "Если включено, умное наведение на цель при наведении мыши для боевых классов действует только на врагов, а для классов лекарей — только на союзников. Если выключено, ограничений нет.",
-    ["现实线第八章-向{伦纳德}询问"] = "Reality Line Chapter 8 - Ask {Leonard}",
-    ["理论上，尸体上长的菜和有机肥浇灌的菜没有成分区别，食用安全是可以保障的。"] = "Theoretically, there is no difference in composition between vegetables grown on corpses and those grown with organic fertilizer; food safety can be guaranteed.",
+    ["Spirit Flower Pendant"] = "Цветочный кулон Духовности",
+    ["现实线第八章-向{伦纳德}询问"] = "Реальная линия, глава 8 - Расспросить {伦纳德}",
+    ["理论上，尸体上长的菜和有机肥浇灌的菜没有成分区别，食用安全是可以保障的。"] = "Теоретически, овощи, выросшие на трупах, и овощи, политые органическим удобрением, не отличаются по составу, так что безопасность употребления в пищу гарантирована.",
+    ["Gain <HighLight>2 Basic Piece Recorders</> and 3/7/12 Gold."] = "Получите <HighLight>2 Низших регистратора фигур</> и 3/7/12 золота.",
     ["议事厅等级下降提醒"] = "Напоминание о понижении уровня Зала Совета",
     ["Lorelei"] = "Лорелей",
 }

@@ -272,7 +272,7 @@ return {
     ["What, did the police offend you?"] = "Что, полиция тебя чем-то обидела?",
     ["Open to choose one piece of orange Brand Equipment from the specified <Highlight>Item Level 66</> items."] = "После открытия можно выбрать одну единицу оранжевого клеймёного снаряжения из указанных с <Highlight>уровнем предмета 66</>.",
     ["Chess Piece Innate Mana Regen: Ancestor Armor 2-Star"] = "Врожд. восст. маны фигуры·Доспехи предка·2 зв.",
-    ["稀有·蚀命细刃毒雾侵染"] = "Rare Life-Eroding Thin Blade Poison Mist Infection",
+    ["稀有·蚀命细刃毒雾侵染"] = "Редкое·Тонкий клинок, разъедающий жизнь: заражение ядовитым туманом",
     ["限制移动为只能走，速度25%"] = "Movement restricted to walking only, speed 25%",
     ["隐秘空间-换物人格-关3-窃取正确B2"] = "Hidden Space-Exchange Persona-Level 3-Steal Correct B2",
     ["隐秘空间-跳跃测试-白平台默认状态"] = "Hidden Space - Jump Test - White Platform Default State",

@@ -284,6 +284,8 @@ return {
     ["使用后可获得<Highlight>失落圣坛专用展台场景</>"] = "После использования вы получите <Highlight>сцену витрины для Утраченного алтаря</>",
     ["Alright, I'll go see what's going on."] = "Ладно, пойду посмотрю, что случилось.",
     ["Include blocked Passive skills?"] = "Включать заблокированные пассивные навыки?",
+    ["Mist lightly veils the streets, and mystery quietly awakens in the corners of dark alleys."] = "Лёгкая дымка окутывает улицы, а тайна тихо пробуждается в углах тёмных переулков.",
+    ["Who?!"] = "Кто?!",
     ["递火"] = "Passing the Flame",
     ["重返“万都之都"] = "Return to the \"City of Cities",
     ["官方推荐方案"] = "",

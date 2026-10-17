@@ -271,9 +271,10 @@ return {
     ["Did you ask me to find her to help her resolve her inner conflict?"] = "Вы послали меня к ней, чтобы помочь ей справиться с душевным узлом?",
     ["War Stele - Eternal Sleep"] = "Военная стела: Вечный сон",
     ["正义的伙伴"] = "Соратник справедливости",
-    ["没关系，您想做什么都可以。我只是想说——"] = "It's fine, you can do whatever you want. I just wanted to say—",
-    ["稀有·四叶护瓶"] = "Rare · Four-Leaf Protection Bottle",
-    ["立即获得<HighLight>8点经验</>。此后<HighLight>每回合</>额外获得<HighLight>1点经验</>。"] = "Immediately gain <HighLight>8 XP</>. Thereafter, <HighLight>each round</>, gain an additional <HighLight>1 XP</>.",
+    ["没关系，您想做什么都可以。我只是想说——"] = "Ничего страшного, делайте что угодно. Я лишь хотел сказать...",
+    ["稀有·四叶护瓶"] = "Редкое · Оберегающий флакон с четырёхлистником",
+    ["立即获得<HighLight>8点经验</>。此后<HighLight>每回合</>额外获得<HighLight>1点经验</>。"] = "Немедленно получите <HighLight>8 ед. опыта</>. Затем <HighLight>каждый раунд</> получайте дополнительно <HighLight>1 ед. опыта</>.",
+    ["Performance - Straight Flying Dagger"] = "Визуал: прямой метательный нож",
     ["金狼贪污的证据、卡拉彭的军火路线、议会的投票记录……都在我手里了。"] = "Evidence of Golden Wolf's corruption, Kalapon's arms smuggling route, the parliament's voting Record... I have them all in my hands.",
     ["向日葵追随着光明绽放，你找到了生命的真谛。在这金色的祝福下，一切充满可能。"] = "Подсолнух цветет вслед за светом; вы нашли истинный смысл жизни. Под этим золотым благословением все возможно.",
 }

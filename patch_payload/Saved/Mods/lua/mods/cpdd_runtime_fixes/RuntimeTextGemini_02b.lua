@@ -300,7 +300,8 @@ return {
     ["Good morning! Mr. Aiden!"] = "Доброе утро! Господин Эйден!",
     ["棋子固有回蓝·伦纳德·米切尔"] = "Врожд. восст. маны фигуры·Леонард Митчелл",
     ["Death Consul Dual Defense Shatter"] = "Консул Смерти: двойной слом защиты",
-    ["测试用4"] = "Test Use 4",
+    ["测试用4"] = "Тест 4",
+    ["Rare Blood Hunter Cloak"] = "Редкое·Плащ кровавого охотника",
     ["阿蒙本体"] = "Amon's Main Body",
     ["终末猎杀-草丛22逐簇隐匿10"] = "Final Hunt - Bush 22 Cluster-by-Cluster Concealment 10",
 }

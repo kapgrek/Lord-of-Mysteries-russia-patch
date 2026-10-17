@@ -247,6 +247,9 @@ return {
     ["Look from the bar"] = "Взгляд от стойки",
     ["Hmm, I obtained it by accident when I was young. I was very powerful back then; no Door could stop me."] = "Да, он достался мне случайно в молодости. Тогда я был очень силён, и никакая Дверь меня не останавливала.",
     ["When enabled, candidates for damage-dealing classes will only take effect on enemies, and candidates for Healing classes will only take effect on allies. If disabled, there are no restrictions."] = "Если включено, кандидаты для боевых классов действуют только на врагов, а кандидаты для классов лекарей — только на союзников. Если выключено, ограничений нет.",
+    ["Perform divination using a mirror"] = "Гадание на зеркале",
+    ["Final Hunt Bush Invisibility; Bush Group 16"] = "Охота «Конец времён»: невидимость в траве; группа травы 16",
+    ["Memory has been restored..."] = "Память восстановлена…",
     ["前往指定坐标交互并进入位面  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Перейдите к указанным координатам, чтобы взаимодействовать и войти в самолет. Игроки создают общедоступные объекты на основе списка InstanceID (недопустимо в большом мире).",
     ["Melly"] = "Мелли",
 }

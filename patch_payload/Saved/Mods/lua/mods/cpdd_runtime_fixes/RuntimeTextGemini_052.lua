@@ -237,9 +237,10 @@ return {
     ["是否确认互换 异化赛琳娜 和 星之虫·神秘 的培养度？"] = "Обменять степень развития Искажённой Селины и Звёздного червя·Тайны?",
     ["Advancement Quest - The Long Way Home - Failed to Track Mary"] = "Задание на повышение: Путь домой неизбежен — слежка за Мэри провалена",
     ["The last one was a young man who kept tossing coins into the fountain, repeating a sentence over and over. It sounded like... as long as he waited for that person, he would be able to <P_Yellow>leave Backlund</>."] = "Последним был молодой человек: он всё бросал монеты в фонтан и без конца повторял одну фразу, кажется, что-то вроде... как только он дождётся того человека, то сможет <P_Yellow>покинуть Бэкланд</>.",
-    ["累计充值称号怎么获得"] = "How to obtain the Cumulative Recharge title",
-    ["罗塞尔Boss困难-3阶段-镜像数据-护盾标记4层-每层减伤24%"] = "Roselle Boss Hard - Phase 3 - Mirror Data - Shield Mark 4 Stacks - 24% Damage Reduction per stack",
-    ["记住了吗？记住的话，现在该忘记了。"] = "Did you remember? If you did, it is time to forget now.",
+    ["累计充值称号怎么获得"] = "Как получить титул за накопленное пополнение",
+    ["罗塞尔Boss困难-3阶段-镜像数据-护盾标记4层-每层减伤24%"] = "Босс Розель (сложный) - 3 фаза - Зеркальные данные - Метка щита, 4 слоя - снижение урона 24% за слой",
+    ["记住了吗？记住的话，现在该忘记了。"] = "Запомнил? Если запомнил, то теперь пора забыть.",
+    ["Thank you, is this... an ice cream toy?"] = "Спасибо, это... игрушечное мороженое?",
     ["限时射击_高级宝箱锁定状态_B"] = "Timed Shoot_Advanced Chest Locked_B",
     ["Highest Losing Streak:"] = "Макс. серия поражений:",
 }

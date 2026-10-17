@@ -285,7 +285,7 @@ return {
     ["异教徒？"] = "Еретик?",
     ["I'm still just a child, and organizing my words is exhausting. When we see Leonard, he will explain everything clearly."] = "Я ещё ребёнок, мне тяжело складывать слова. Когда мы встретим Леонарда, он всё объяснит.",
     ["Piece Innate Mana Regen: Swain 3-Star"] = "Врожд. восст. маны фигуры: Свейн, 3 зв.",
-    ["而桥的那边，就是东区，被塔索克河隔开，与乔伍德区对面而望。"] = "And on the other side of the bridge is the East District, separated by the Tussock River and facing the Cherwood District.",
+    ["而桥的那边，就是东区，被塔索克河隔开，与乔伍德区对面而望。"] = "А по ту сторону моста находится Восточный район, отделённый рекой Тассок и обращённый лицом к району Червуд.",
     ["邓恩伦纳德谈话"] = "Dunn-Leonard Conversation",
     ["【自走棋英雄强化】- 蘑菇农场；已启用导出，待实机验收"] = "[Auto Chess Hero Strengthening] - Mushroom Farm; export enabled, pending in-game verification",
     ["窥秘人-岁月的棋局-击飞"] = "Mystery Pryer - Gambit of the Ages - Knockup",

@@ -299,6 +299,9 @@ return {
     ["Hug 2_4 adjacent grid"] = "Объятие 2_4, соседние клетки",
     ["Pick up this lamp; it will provide you with the correct guidance."] = "Возьми эту лампу, она даст тебе верное направление.",
     ["Heading to"] = "Направляетесь в",
-    ["盟约"] = "Covenant",
+    ["Sandbag"] = "Мешок с песком",
+    ["盟约"] = "Договор",
+    ["System Resurrection Invincibility Buff - War Declaration Exclusive"] = "Бафф неуязвимости при системном воскрешении — только для объявления войны",
+    ["Ring of Blood Regeneration"] = "Возрождение кольца крови",
     ["高伤点名"] = "High-Damage Targeted Attack",
 }

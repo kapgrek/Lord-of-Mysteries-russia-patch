@@ -290,8 +290,11 @@ return {
     ["我身上延伸出的支流不断闪烁，就是他们眼中的我，身份不断变化的原因？"] = "Ответвления, отходящие от меня, непрерывно мерцают. Не в этом ли причина, что в их глазах моя личность постоянно меняется?",
     ["技能槽位"] = "Слот навыка",
     ["Arrived at Iron Cross Lower Street..."] = "Прибытие на Нижнюю улицу Железного Креста...",
-    ["治疗法球(2)"] = "Healing Orb (2)",
-    ["装备抽取"] = "Equipment Draw",
+    ["治疗法球(2)"] = "Сфера исцеления (2)",
+    ["Screw it, I'm digging in!"] = "Да ну всё! Я приступаю!",
+    ["Auto Chess Placeholder Title 2"] = "Автобитва: титул-заглушка 2",
+    ["Fragrance adorns your frame, yet you adorn my dreams."] = "Аромат украшает твою раму, а ты украшаешь мои сны.",
+    ["装备抽取"] = "Розыгрыш экипировки",
     ["【自走棋】-痛苦魔女-第二脉冲"] = "[Auto Chess] - Pain Witch - Second Pulse",
     ["She and he, he and she, <Hide stylename=\"Transparent\" id=\"#161\">she and she, he and he,</>\npassionate love stories, all at the Tingen Grand Theater!\n\n\n<Note_Normal_HW>** of it, whoever scribbled out the words at the back, I love watching this!</>\n\n<Note_Normal_HW>Forget it, buddy, there are kids nearby, and do you really have the money to buy a ticket to the Tingen Grand Theater?</>\n\n<Note_Normal_HW>As if any of the kids nearby know how to read!</>"] = "Она и он, он и она, <Hide stylename=\"Transparent\" id=\"#161\">она и она, он и он...</>\nПылкие истории любви — только в Большом театре Тингена!\n\n\n<Note_Normal_HW>Черт побери, кто замазал вторую строчку?! Я только ради этого и пришел!</>\n\n<Note_Normal_HW>Да брось, дружище, вокруг же дети крутятся! Да и откуда у тебя вообще деньги на билет в Большой театр Тингена?</>\n\n<Note_Normal_HW>Будто здешние сорванцы хоть слово прочесть умеют!</>",
 }

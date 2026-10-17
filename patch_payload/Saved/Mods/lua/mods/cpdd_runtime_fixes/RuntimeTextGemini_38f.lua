@@ -254,6 +254,7 @@ return {
     ["Tingen Station"] = "Вокзал Тингена",
     ["Thought pop-up"] = "Всплывающая мысль",
     ["我能做的，是留住眼前的美好，阻止可能的悲剧。"] = "Что я могу, так это сохранить красоту перед глазами и предотвратить возможные трагедии.",
-    ["组队模式参加副本<Highlight>五月庄园·城堡（普通）</>，击败<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "Participate in the Dungeon <Highlight>May Manor · Castle (Normal)</> in party mode. After defeating the <Highlight>Offspring Protection</>, you can participate in the distribution and auction of public drops. There is a chance to obtain tradable Equipment.",
+    ["组队模式参加副本<Highlight>五月庄园·城堡（普通）</>，击败<Highlight>子嗣守护</>后，可以参与公共掉落的分配与拍卖。有概率获得可交易的装备。"] = "В групповом режиме пройдите подземелье <Highlight>Майское поместье · Замок (Обычно)</>. После победы над <Highlight>Стражем потомства</> вы сможете участвовать в распределении и аукционе общей добычи. Есть шанс получить обмениваемое снаряжение.",
+    ["Vic, you said we were drinking together all night. But I have been investigating the case with the police officer, and the newsboy saw me leave with that officer late at night with his own eyes. Where would I have found the time to accompany you?"] = "Вик, ты сказал, что мы всю ночь пили вместе. Но я расследовал дело вместе с полицейским, и разносчик газет своими глазами видел, как мы с ним уходили поздней ночью. Откуда у меня было время составлять тебе компанию?",
     ["收获%d/200个优质纺厂物产。"] = "Собирайте высококачественную текстильную продукцию %d/200.",
 }

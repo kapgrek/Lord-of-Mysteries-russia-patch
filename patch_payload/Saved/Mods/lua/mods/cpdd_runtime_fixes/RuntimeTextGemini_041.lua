@@ -281,7 +281,9 @@ return {
     ["How could I forget, how could I have come here to finish the performance?!"] = "Как я мог забыть, как я оказался здесь, чтобы доиграть спектакль?!",
     ["战争石碑・永眠"] = "Военная стела: Вечный сон",
     ["Spinning Kitchen Knife - Normal"] = "Вращающийся кухонный нож — обычный",
-    ["永恒皇帝怎么获得"] = "How to obtain the Eternal Emperor",
+    ["永恒皇帝怎么获得"] = "Как получить Вечного Императора",
+    ["Float Parade NPC"] = "НПС карнавального парада",
+    ["Steam Era: Residual Heat Cloak"] = "Паровая эра: Плащ остаточного жара",
     ["阿爸远望"] = "Dad Looking into the Distance",
     ["钟表匠威廉也来过这里，他就坐在椅子上，一声不吭。我问他是否需要帮助，他只是摇头，说有人告诉他，只要到这里来，就可以帮他减轻一些负担。"] = "William the Clockmaker has also been here; he sat on the chair without saying a word. When I asked if he needed help, he simply shook his head, saying that someone told him that as long as he came here, he could have some of his burdens lightened.",
 }

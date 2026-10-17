@@ -277,6 +277,7 @@ return {
     ["A New Era Begins"] = "Начало новой эры",
     ["棋局生涯中，完成全部多重共鸣图鉴。"] = "За карьеру в гамбите завершите всю коллекцию множественных резонансов.",
     ["Partner of Justice"] = "Соратник справедливости",
-    ["臭味肯定是那群异教徒搞出来的！"] = "The stench must have been caused by those heretics!",
+    ["Under the Crystal chandelier, amidst the clinking of glasses, you shine like platinum."] = "Под светом хрустальной люстры, среди звона бокалов, ты сияешь, как платина.",
+    ["臭味肯定是那群异教徒搞出来的！"] = "Эту вонь наверняка устроили те еретики!",
     ["迪伦的身体承载了我的命运和身份，他应该去追邮差才对，为什么安心在这儿斗邪恶？"] = "Dylan's body bears my fate and identity. He should be chasing the postman, so why is he contentedly fighting evil here?",
 }

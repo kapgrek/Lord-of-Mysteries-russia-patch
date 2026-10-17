@@ -294,8 +294,9 @@ return {
     ["Deploy a Twilight Domain that follows your movement, causing up to 6 enemy players within range to suffer continuous <HyperLink stylename=\"M_Link\" u=\"9\">Stagnation</>, with the domain lasting <HighLight>6 seconds</>."] = "Разворачивает Сумеречную область, следующую за вами: до 6 вражеских игроков в её пределах постоянно находятся под действием <HyperLink stylename=\"M_Link\" u=\"9\">застоя</>. Область действует <HighLight>6 сек.</>.",
     ["The fates of many people have been thrown into chaos, and the Amon Avatars are parasitizing others at will, spreading corruption..."] = "Судьбы многих людей перепутаны, а аватары Амона паразитируют на других как хотят и распространяют скверну...",
     ["When not in the Order Judgment state, the Unshadowed Spear will also throw small spears at nearby Heresy targets. The small spears' Damage Increase is 100% and they do not trigger an internal Cooldown."] = "Вне состояния Суда порядка Безтеневое копьё также метает малые копья в ближайших еретиков: урон малых копий увеличен на 100%, внутреннее восстановление не срабатывает.",
-    ["测试用2"] = "Test Use 2",
-    ["猩红遗物——那是这片沙盘中最特殊的战利品，只有真正的战场胜者才能获得。"] = "Scarlet Relic—that is the most special trophy in this sandbox, which can only be obtained by the true victors of the battlefield.",
-    ["自助买票"] = "Self-Service Ticket Purchase",
+    ["测试用2"] = "Тест 2",
+    ["猩红遗物——那是这片沙盘中最特殊的战利品，只有真正的战场胜者才能获得。"] = "Алая реликвия — самый особый трофей этой песочницы, его могут получить только истинные победители поля боя.",
+    ["Clear Tree of Abundance (Hard) in a team with a cumulative total of 500 Beyonders"] = "Пройдите Древо Изобилия · Сложно с отрядом, в сумме 500 Потусторонних",
+    ["自助买票"] = "Покупка билета",
     ["这瓶尸油的灵性很活跃，或许他是受到了影响。"] = "The spirituality of this bottle of corpse oil is very active; perhaps he was affected by it.",
 }

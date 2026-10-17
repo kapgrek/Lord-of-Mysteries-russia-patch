@@ -294,6 +294,8 @@ return {
     ["I'm sorry! I'm sorry! Karl! I can only be an extra! I... I cannot change fate!"] = "Прости! Прости! Карл! Я могу быть только статистом! Я... я не могу изменить судьбу!",
     ["展台・审视者"] = "Подиум: наблюдатель",
     ["徽章岔路"] = "Развилка эмблем",
+    ["Wherever the Flag can be seen... is a land that has been under Conquest..."] = "Всюду, где виден флаг... лежат покорённые земли...",
+    ["Compensatory leave?"] = "Отгул?",
     ["集齐15个可以获得秘偶安西娅，也可用于秘偶安西娅的培养。"] = "Collect 15 to obtain the marionette Anthea, which can also be used for the cultivation of the marionette Anthea.",
     ["Addison"] = "Эддисон",
     ["Laven"] = "Лавен",

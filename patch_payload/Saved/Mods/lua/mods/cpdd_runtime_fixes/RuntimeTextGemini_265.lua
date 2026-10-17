@@ -271,7 +271,8 @@ return {
     ["You are a Sequence 1 Angel?!"] = "Вы Ангел Последовательности 1?!",
     ["我也不想停！要不，再来一……"] = "Я тоже не хочу останавливаться! Давай ещё одну...",
     ["Gain 1 Development Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>Adventure-oriented</> orange or gold quality Equipment of <Highlight>Item Level 65</> or <Highlight>Item Level 66</>, Beyonder material, Polymerization Factor, and bound soli."] = "За каждые <Highlight>20 прогресса</> вы получаете 1 ящик ресурсов развития. В нём можно получить случайный предмет оранжевого или золотого качества с <Highlight>уровнем предмета 65</> или <Highlight>66</> с <Highlight>склонностью к приключениям</>, потусторонние материалы, фактор слияния и привязанные соли.",
-    ["获得【魔女教派】共鸣。"] = "Gain Demoness Sect Resonance.",
+    ["Roselle Boss - Phase 3 - Mirror Data - Number Display"] = "Босс Розель - 3 фаза - Зеркальные данные - Отображение чисел",
+    ["获得【魔女教派】共鸣。"] = "Получен резонанс «Секта Демониц».",
     ["塔罗学院-黑水小怪-黑水点名-任意非T3人"] = "Tarot Academy - Blackwater Minion - Blackwater Target - Any non-T3 player",
     ["终末猎杀-草丛24合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 24 Merged Concealment 03 (Includes 2 original areas)",
 }

@@ -249,7 +249,9 @@ return {
     ["星座的选择"] = "Выбор созвездия",
     ["Advancement Quest - Priest of Light - Pray to The Fool"] = "Задание на повышение: Жрец Света — молитва Шуту",
     ["梦境占卜图片2"] = "Изображение гадания по снам 2",
-    ["累计完成100次秘仪奉献"] = "Complete 100 Arcane Offerings in total",
+    ["A seahorse-shaped statue sits here; it is said that its prototype comes from the inhabitants of the deep Spirit World."] = "Здесь возвышается статуя в форме морского конька. Говорят, её прообразом стали обитатели глубин Мира Духов.",
+    ["Rare Mechanical Mad Hatter"] = "Редкое·Механический Безумный Шляпник",
+    ["累计完成100次秘仪奉献"] = "Совершите 100 тайных подношений в сумме",
     ["高品质深烘咖啡豆与香甜葡萄味的完美结合，提神却不失口感。"] = "A perfect blend of high-quality dark roast coffee beans and sweet grape flavor—invigorating without sacrificing taste.",
     ["【自走棋】-月之污染-普攻-斩击"] = "[Auto Chess] - Moon Corruption - Basic Attack - Slash",
 }

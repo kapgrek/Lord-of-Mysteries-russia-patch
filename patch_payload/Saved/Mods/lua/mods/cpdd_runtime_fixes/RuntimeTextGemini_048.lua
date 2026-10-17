@@ -301,6 +301,8 @@ return {
     ["At the start of combat, <HighLight>each adjacent ally</> grants a unit <HighLight>6 Defense</>."] = "В начале боя <HighLight>каждый соседний союзник</> дает фишке <HighLight>6 ед. защиты</>.",
     ["Sorry, but if you treat me to ice cream, you will have good luck."] = "Простите, но угостите меня мороженым, и вам повезёт.",
     ["Chess Piece Innate Mana Regen: Klein Moretti"] = "Врожд. восст. маны фигуры·Клейн Моретти",
+    ["Keep an eye on your emotions; once you lose balance, your companions nearby will also be affected."] = "Следите за своими эмоциями: если вы потеряете равновесие, это затронет и находящихся рядом союзников.",
+    ["Gain Burst."] = "Получить «Всплеск»",
     ["黑夜纹章"] = "Evernight Emblem",
     ["终末猎杀-草丛03逐簇隐匿04"] = "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 04",
     ["完成当前步骤的所有子目标  延迟执行  对象播放指定对白内容  玩家根据InstanceID列表创建公有对象（大世界不生效）"] = "Завершить все подцели текущего шага. Отложенное выполнение. Объект воспроизводит указанную реплику. Игрок создаёт общий объект на основе списка InstanceID (не действует в открытом мире).",

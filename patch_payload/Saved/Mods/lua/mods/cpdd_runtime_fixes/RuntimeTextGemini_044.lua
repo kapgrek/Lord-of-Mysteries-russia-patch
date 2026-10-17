@@ -265,6 +265,7 @@ return {
     ["Rapid attacks like a violent storm; there is no room for a moment of hesitation on the battlefield."] = "Быстрые атаки подобны бурному шторму: на поле боя нет места даже мгновенному промедлению.",
     ["愚者福音到期提醒"] = "Напоминание об истечении Евангелия Шута",
     ["Ace of Clubs"] = "Туз треф",
+    ["Stars Blink"] = "Мерцание звёзд",
     ["邦尼：来吧！向我证明，你有被培育的价值！"] = "Bonnie: Come! Prove to me that you are worth cultivating!",
     ["隐秘空间-换物人格-关4-窃取正确-反击A2"] = "Hidden Space-Exchange Persona-Level 4-Steal Correct-Counterattack A2",
     ["终末猎杀-草丛03逐簇隐匿05"] = "Final Hunt - Bush 03 Cluster-by-Cluster Concealment 05",

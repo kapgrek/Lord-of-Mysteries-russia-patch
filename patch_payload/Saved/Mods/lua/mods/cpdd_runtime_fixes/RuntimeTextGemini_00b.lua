@@ -300,7 +300,8 @@ return {
     ["展台・自信"] = "Подиум: самоуверенность",
     ["I have received the revelation of the Goddess; She will bestow blessings upon you and permit you to use the power She has stored in history."] = "Богиня дала мне откровение: Она благословит тебя и позволит использовать Её силу, хранящуюся в истории.",
     ["本周已获得战略随机礼盒%d/%d"] = "Стратегических случайных подарочных коробок получено на этой неделе: %d/%d",
-    ["繁星教堂\r\n<LeonSubTitle size=\"38\">Church of Stars</>"] = "Church of Stars\r\n<LeonSubTitle size=\"38\">Church of Stars</>",
+    ["繁星教堂\r\n<LeonSubTitle size=\"38\">Church of Stars</>"] = "Церковь Звезд\n<LeonSubTitle size=\"38\">Church of Stars</>",
+    ["Talk about other experiences"] = "Поговорить о других новостях",
     ["距离警察赶到现场还有25秒！"] = "25 seconds until the police arrive at the scene!",
     ["隐秘空间破晓之前-丧钟武器爆发3buff"] = "Hidden Space Before Dawn - Death Knell Weapon Burst 3 Buff",
 }

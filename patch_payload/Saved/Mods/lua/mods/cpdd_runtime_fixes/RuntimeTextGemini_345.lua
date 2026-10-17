@@ -249,6 +249,7 @@ return {
     ["Emotion Value(%s)<30"] = "Эмоции (%s) < 30",
     ["Arrived at the Yellow Crystal Room (Modified"] = "Прибытие в Комнату жёлтого хрусталя (изменено",
     ["The terror from the abyss makes its Descent; despair and Hope intertwine here."] = "Ужас из бездны нисходит, отчаяние и надежда переплетаются здесь.",
+    ["Site Contention Ranking"] = "Рейтинг борьбы за точки",
     ["转动圆环，固定船板，保障露比的安全！"] = "Rotate the ring, secure the deck, and ensure Ruby's safety!",
     ["陪伴的彼此"] = "By Each Other's Side",
     ["順🔥暖"] = "Shun🔥nuan",

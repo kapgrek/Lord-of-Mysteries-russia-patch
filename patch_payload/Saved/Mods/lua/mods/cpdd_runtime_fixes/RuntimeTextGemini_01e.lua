@@ -299,7 +299,10 @@ return {
     ["安东尼&文森特"] = "Антони и Винсент",
     ["Try to reach the moving platform and wait before the projection activates the pressure plate"] = "Успейте добраться до движущейся платформы и ждите, пока историческая проекция не активирует нажимную плиту",
     ["情绪场"] = "Поле эмоций",
-    ["结束窃影玩法"] = "End Shadow Stealing gameplay",
+    ["The gods treat us as pawns and sacrifices in their trades, forcing us to bear corruption and the fate of being offspring of evil gods..."] = "Боги сделали из нас разменные фигуры и плату в своих сделках, заставили нести скверну и судьбу отпрысков злых богов...",
+    ["结束窃影玩法"] = "Завершить игру «Кража тени»",
+    ["Blood Blade 4-player Bleed monitoring"] = "Отслеживание кровотечения Кровавого клинка (4 игрока)",
+    ["Thank you. By the way, Finch and I have both forgotten some memories. Do you know..."] = "Спасибо. Кстати, мы с Финчем оба забыли часть воспоминаний. Вы не знаете...",
     ["非凡！非凡！"] = "Extraordinary! Extraordinary!",
     ["丰饶的气息……或许也是一种扭曲和污染，一种背叛和诅咒……"] = "Аромат изобилия... возможно, это тоже своего рода искажение и порча, своего рода предательство и проклятие...",
 }

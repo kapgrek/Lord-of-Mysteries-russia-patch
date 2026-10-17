@@ -290,6 +290,8 @@ return {
     ["奇迹重启"] = "Перезапуск чуда",
     ["I have already communicated with headquarters; the mermaid needs to recuperate and will stay in Tingen for a few more days."] = "Я уже связался со штаб-квартирой: русалке нужно восстановиться, и она задержится в Тингене ещё на несколько дней.",
     ["我还是个孩子，组织语言很累的。等见到伦纳德，他会说清楚的。"] = "Я ещё ребёнок, мне тяжело складывать слова. Когда мы встретим Леонарда, он всё объяснит.",
+    ["Look at their arms and their legs, they're just like matchsticks."] = "Только посмотрите на их руки и ноги, как спички.",
+    ["Final Hunt Bush Invisibility; Bush Group 14"] = "Охота Конца: невидимость в траве; группа травы 14",
     ["勇气赞歌5阶castattack"] = "Anthem of Courage Tier 5 castattack",
     ["Player removes quest items (delete all)  Player removes quest items (delete all)  Player removes quest items (delete all)  Player removes quest items (delete all)"] = "Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все) Игрок удаляет квестовые предметы (удалить все)",
     ["播放CutScene  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Поиграйте в КатСцену. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире). NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",

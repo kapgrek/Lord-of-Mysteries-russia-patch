@@ -274,7 +274,7 @@ return {
     ["I feel like it's better if I don't know..."] = "Пожалуй, мне лучше этого не знать...",
     ["Drag Equipment to equip it to a piece. Equipment comes in various rarities, and equipment of different rarities provides different levels of buffs to the piece."] = "Перетащите снаряжение, чтобы надеть его на фигуру. Снаряжение делится на несколько уровней редкости, и снаряжение разной редкости даёт фигуре усиления разной силы.",
     ["收购价：%s"] = "Цена закупки: %s",
-    ["班森挑的，绝对是这个价位最好的。"] = "Benson picked this out; it is definitely the best at this price point.",
+    ["班森挑的，绝对是这个价位最好的。"] = "Выбор Бенсона - определённо лучшее за эту цену.",
     ["随机获得<HighLight>2个相同的1星2费棋子</>。此后<HighLight>每回合</>再获得<HighLight>1个相同棋子</>。"] = "Gain <HighLight>2 copies of a random one-star 2-cost unit</>. Thereafter, <HighLight>each round</>, gain <HighLight>1 copy of the same unit</>.",
     ["集齐15个可以获得秘偶星之虫·基石，也可用于秘偶星之虫·基石的培养。"] = "Collect 15 to obtain the marionette Worm of Star: Cornerstone; they can also be used to upgrade the marionette Worm of Star: Cornerstone.",
     ["转化"] = "",

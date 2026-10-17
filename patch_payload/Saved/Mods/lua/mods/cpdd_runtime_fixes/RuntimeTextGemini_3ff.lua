@@ -264,9 +264,9 @@ return {
     ["棋子固有回蓝·\"剥面人\"强尼"] = "Врожд. восст. маны фигуры·«Снимающий лица» Джонни",
     ["Descent of the Chess King"] = "Пришествие Короля Гамбита",
     ["Gain 1 Growth Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>68 item level</> orange or gold quality Equipment, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> in the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder material, medicine, food, etc. There is a chance to additionally obtain a piece of Brand Equipment matching the Secret Treasure's item level."] = "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 ящик ресурсов развития. В нём случайно выпадает снаряжение оранжевого или золотого качества с <Highlight>уровнем 68</>, а также Договор о торговле, который можно обменять на <Highlight>обмениваемые предметы</> на <Highlight>Торговом базаре</>: <Highlight>обмениваемые</> оранжевые ящики потустороннего снаряжения, ларцы серой пыли, ларцы серых кристаллов, золотую нить, потусторонние материалы, лекарства, еду и т. д. С некоторой вероятностью дополнительно выпадает клеймёное снаряжение, соответствующее уровню тайного сокровища.",
-    ["现实线第六章-再次偶遇这位邮差"] = "Reality Route Chapter 6 - Encounter the Postman Again",
-    ["知识荒野施法计数"] = "Knowledge Wilderness spellcasting count",
-    ["离开廷根，得向弗莱队长报备。"] = "To leave Tingen, I must report to Captain Frye.",
-    ["表现动画别名"] = "Visual Animation Alias",
+    ["现实线第六章-再次偶遇这位邮差"] = "Реальная линия, глава 6 - Снова встретить почтальона",
+    ["知识荒野施法计数"] = "Счётчик заклинаний Пустоши знаний",
+    ["离开廷根，得向弗莱队长报备。"] = "Чтобы покинуть Тинген, нужно доложить капитану Фраю.",
+    ["表现动画别名"] = "Псевдоним визуальной анимации",
     ["终末猎杀-草丛14合并隐匿06（含2块原范围）"] = "Final Hunt - Bush 14 Merged Concealment 06 (Includes 2 original range blocks)",
 }

@@ -276,8 +276,9 @@ return {
     ["因为神明的交易，阿蒙分身承担了我本该承受的污染和命运。"] = "Из-за сделки с божеством аватар Амона принял на себя скверну и судьбу, которые должен был вынести я.",
     ["Luckily, Ice Cream has been warning me! Is the displacement of my identity also part of the postman's prank?!"] = "К счастью, Мороженое всё время предупреждало! Подмена моей личности — тоже часть шутки почтальона?!",
     ["I announce—this noble gentleman has won this item with a bid of three hundred thousand gold pounds!"] = "Объявляю: этот благородный господин купил лот за триста тысяч золотых фунтов!",
-    ["炸弹！我赢了！"] = "Bomb! I won!",
-    ["现实线第八章-命运咖啡厅分店"] = "Reality Line Chapter 8 - Fate Café Branch",
+    ["炸弹！我赢了！"] = "Бомба! Я выиграл!",
+    ["现实线第八章-命运咖啡厅分店"] = "Реальная линия, глава 8 - Филиал кафе «Судьба»",
+    ["Roselle Boss Hard - Phase 2 - Mirror Data - Shield Visual Effect"] = "Босс Розель (сложный) - 2 фаза - Зеркальные данные - Вид щита",
     ["那您听听这句台词。"] = "Then listen to this line.",
     ["可以填:LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,"] = "Можно заполнить: LightHit,HitBack,HitDown,HitFloat,HitFly,HitStiff, HitDrag,",
 }

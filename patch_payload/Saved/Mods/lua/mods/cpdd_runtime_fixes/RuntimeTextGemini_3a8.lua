@@ -276,8 +276,8 @@ return {
     ["守护的黎明-找弗莱队长"] = "Рассвет стража — найти капитана Фрая",
     ["您不是俱乐部宣战获胜方，无法领奖。"] = "Вы не на стороне победителя в войне клубов и не можете получить награду.",
     ["The number of members expelled from the Club per week during the Strategic Server period has reached the limit of 10. The quota will refresh on Monday at 8:00."] = "Недельный лимит исключения участников из клуба во время стратегического сервера (10 чел.) исчерпан. Лимит обновится в понедельник в 8:00",
-    ["联合作战15"] = "Joint Operation 15",
-    ["虚饰熔金"] = "Ostentatious Molten Gold",
+    ["联合作战15"] = "Совместная операция 15",
+    ["虚饰熔金"] = "Мнимый расплавленный металл",
     ["终末猎杀-草丛09逐簇隐匿05"] = "Final Hunt - Bush 09 Cluster-by-Cluster Concealment 05",
     ["But when all this really happened, what I felt was only... peace."] = "Но когда все это действительно произошло, я почувствовал только… покой.",
 }

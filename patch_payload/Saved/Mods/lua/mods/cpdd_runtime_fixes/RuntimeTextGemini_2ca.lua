@@ -298,7 +298,12 @@ return {
     ["The seventeenth of the Major Arcana, The Star. The sacred maiden supports the stars of the firmament, hoping the gentle stars will guide the way to survival in desperate straits."] = "Семнадцатая карта Старших арканов — Звезда. Священная дева держит яркую звезду небосвода; пусть нежные звёзды укажут путь к спасению в безвыходном положении.",
     ["Tingen Port to Tingen South"] = "Порт Тингена → юг Тингена",
     ["时间，是最伟大的牢笼。"] = "Время — величайшая темница.",
-    ["称号·庄园谢幕人"] = "Title: Manor Curtain Caller",
+    ["Test Attribute Buff Strategy 84"] = "Тестовый бафф характеристик, стратегия 84",
+    ["Test Use 2"] = "Тест 2",
+    ["I'm so sorry, I was too caught up in my sadness and forgot to host you."] = "Простите, я так погрузился в печаль, что забыл вас принять.",
+    ["Secret Prayer Crystal"] = "Кристалл тайной молитвы",
+    ["称号·庄园谢幕人"] = "Титул: Занавес над поместьем",
+    ["Crew Member"] = "Член экипажа",
     ["里面赌得太大了。"] = "The stakes inside are too high.",
     ["隐秘空间-记忆窃贼-布朗神父"] = "Hidden Space - Memory Thief - Father Brown",
 }

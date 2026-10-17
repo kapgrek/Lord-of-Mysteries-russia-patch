@@ -272,7 +272,7 @@ return {
     ["Completing Family quests grants Rapport, which can be used to increase the Family level."] = "За выполнение заданий семьи начисляются очки согласия, которые можно потратить на повышение уровня семьи.",
     ["序列3分身被锁定了，所以其他分身开始汇集了？"] = "Клон Последовательности 3 заперт, поэтому остальные клоны начали собираться вместе?",
     ["殼"] = "Панцирь",
-    ["胡说八道，闭嘴！"] = "Nonsense, shut up!",
+    ["胡说八道，闭嘴！"] = "Чушь, замолчи!",
     ["邦尼：动手吧，别让我也变成没有意识的怪物。"] = "Bonnie: Do it. Don't let me turn into a mindless monster too.",
     ["铭记起点，终有归途。"] = "Remember the starting point, for there is always a way home.",
     ["隐秘空间-昔影重现-检查尸体周围"] = "Hidden Space - Reenactment of Past Shadows - Examine Surroundings of Corpse",

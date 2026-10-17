@@ -264,6 +264,7 @@ return {
     ["时装搭配评比作品举报"] = "Пожаловаться на работу конкурса образов",
     ["暮紫时刻"] = "Пурпурный час сумерек",
     ["棋局生涯中，连续5场愚者棋局获胜。"] = "За карьеру в Гамбите выиграйте 5 партий Гамбита Шута подряд.",
+    ["Obtain sniper rifle ammunition"] = "Получить боеприпасы для снайперской винтовки",
     ["贸易战争争夺开启"] = "Trade War contention has begun",
     ["那就这么说定了，我等着你们丰收。"] = "Then it's a deal. I'll be waiting for your harvest.",
     ["隐秘空间-记忆窃贼-三人投影"] = "Hidden Space - Memory Thief - Three Projections",

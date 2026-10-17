@@ -306,8 +306,10 @@ return {
     ["I saw the casting poster for this play and was very interested; I didn't expect to actually meet the actors."] = "Я видел афишу с набором актёров на этот спектакль, она меня заинтересовала. Не думал, что встречу самих актёров.",
     ["晋升任务-终有归途-跟踪玛丽失败"] = "Задание на повышение: Путь домой неизбежен — слежка за Мэри провалена",
     ["A certain Hidden Space. A Sealed Artifact capable of \"fooling\" time is temporarily stored here."] = "Тайное пространство. Здесь временно хранится Запечатанный Артефакт, способный «обманывать» время.",
-    ["直到我被富人的保镖抓住，逃走后，他们发布了通缉令，为了不连累家人，我连夜离开了贝克兰德。"] = "Until I was caught by a rich man's bodyguard. After I escaped, they issued a wanted warrant. To avoid implicating my family, I left Backlund overnight.",
-    ["秘法徽章回蓝"] = "Arcane Badge mana regeneration",
+    ["直到我被富人的保镖抓住，逃走后，他们发布了通缉令，为了不连累家人，我连夜离开了贝克兰德。"] = "Пока меня не схватил охранник богача. После побега они объявили розыск, и чтобы не навлечь беду на семью, я за одну ночь покинул Бэкланд.",
+    ["秘法徽章回蓝"] = "Восстановление маны значка тайного искусства",
+    ["Bush Concealment Aura - Bush 04"] = "Аура скрытности в кустах - куст 04",
+    ["Bush Concealment Aura - Bush 12"] = "Аура скрытности в кустах - куст 12",
     ["【自走棋英雄强化】- 狂暴冲击；按冲刺攻击与地面冲击包装，待实机验收"] = "[Auto Chess Hero Strengthening] - Berserk Impact; packaged as dash attack and ground Impact, pending in-game verification",
     ["终末猎杀-草丛17合并隐匿03（含2块原范围）"] = "Final Hunt-Bush 17 Merged Concealment 03 (Includes 2 Original Ranges)",
 }

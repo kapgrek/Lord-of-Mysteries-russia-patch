@@ -322,5 +322,8 @@ return {
     ["廷根南前往廷根东南"] = "Юг Тингена → Юго-восток Тингена",
     ["A powerful alliance"] = "Объединение сильных",
     ["My name is Louis, I am from East Balam, and I am currently studying abroad at <P_Yellow>Backlund University</>. I originally thought Backlund was a suitable place for study, but who knew that only two weeks after arriving, I would run into such bad luck."] = "Меня зовут Луи, я из Восточного Балама и сейчас учусь по обмену в <P_Yellow>Университете Бэкланда</>. Я думал, что Бэкланд — подходящее место для учёбы, но не прошло и двух недель после приезда, как мне так не повезло.",
-    ["生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>12%</>的护盾，持续<HighLight>5</>秒。"] = "When Health first drops below <HighLight>40%</>, gain a Shield equivalent to <HighLight>12%</> of your maximum Health, lasting for <HighLight>5</> seconds.",
+    ["Reality Line Chapter 8 - Orchestra is Writing a Letter"] = "Реальная линия, глава 8 - Оркестр пишет письмо",
+    ["生命值首次低于<HighLight>40%</>时，获得相当于最大生命值<HighLight>12%</>的护盾，持续<HighLight>5</>秒。"] = "Когда Очки Здоровья впервые опускаются ниже <HighLight>40%</>, вы получаете щит, равный <HighLight>12%</> максимальных Очков Здоровья, на <HighLight>5</> сек.",
+    ["Immediately gain <HighLight>7 XP</>. For <HighLight>3 rounds</>, including this round, gain another <HighLight>7 XP</> at the end of each round."] = "Немедленно получите <HighLight>7 ед. опыта</>. В течение <HighLight>3 раундов</>, начиная с текущего, в конце каждого раунда получайте еще <HighLight>7 ед. опыта</>.",
+    ["Thank you, Miss Justice! I'll go take a look right away."] = "Спасибо, мисс «Правосудие»! Я сейчас же схожу посмотрю.",
 }

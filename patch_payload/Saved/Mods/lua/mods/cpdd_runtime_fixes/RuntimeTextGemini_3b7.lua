@@ -283,7 +283,8 @@ return {
     ["棋子固有回蓝·罗塞尔·古斯塔夫"] = "Врожд. восст. маны фигуры: Росель Густав",
     ["正义钱包苦难财富"] = "Богатство страданий Кошелька справедливости",
     ["Each time you refresh the shop, there is a <HighLight>45% chance</> to gain <HighLight>1 free refresh</>."] = "При каждом обновлении магазина с вероятностью <HighLight>45%</> вы получаете <HighLight>1 бесплатное обновление</>.",
-    ["现实线第六章-婉拒邮差的好意"] = "Reality Line Chapter 6 - Politely decline the postman's kindness",
-    ["累计成功安魂%d/40位非凡者"] = "Successfully performed Requiem on %d/40 Beyonders in total",
-    ["试行〈城市废弃物分类投放管理条例〉通告"] = "Notice on the Trial Implementation of the 'Urban Waste Sorting and Disposal Management Regulations'",
+    ["现实线第六章-婉拒邮差的好意"] = "Реальная линия, глава 6 - Вежливо отклонить любезность почтальона",
+    ["累计成功安魂%d/40位非凡者"] = "Успешно упокоено Потусторонних: %d/40",
+    ["See Melissa Benson in front of the flower stall"] = "Встретить Мелиссу Бенсон у цветочного прилавка",
+    ["试行〈城市废弃物分类投放管理条例〉通告"] = "Объявление о пробном введении «Правил управления сортировкой и сбором городских отходов»",
 }

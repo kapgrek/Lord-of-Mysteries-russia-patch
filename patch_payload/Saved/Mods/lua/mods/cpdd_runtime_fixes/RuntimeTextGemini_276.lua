@@ -297,7 +297,7 @@ return {
     ["We simply turn their thoughts into a coin—heads is 'I want to resist,' and tails is 'give up the fantasy.'"] = "Мы лишь превращаем их мысли в монету: на орле — «я хочу сопротивляться», на решке — «оставь иллюзии».",
     ["Is that so? Sometimes when you lose something, you don't realize it right away."] = "Правда? Иногда потеряешь вещь и не сразу это заметишь.",
     ["I've been buying her fried chicken often lately, and over time, I've learned a few things."] = "В последнее время часто покупаю у неё жареную курицу, и со временем кое-что узнал.",
-    ["清醒过来"] = "Wake up",
+    ["清醒过来"] = "Прийти в себя",
     ["车队等级达到18级"] = "Caravan level reaches 18",
     ["逃离的脚步与追击的阴影，生死只在一瞬之间。"] = "The footsteps of escape and the shadows of Pursuit; life and death hang in the balance in a single instant.",
     ["终末猎杀-草丛11逐簇隐匿04"] = "End Hunt - Bush 11 Cluster-by-Cluster Concealment 04",

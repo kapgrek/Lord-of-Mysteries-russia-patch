@@ -248,6 +248,9 @@ return {
     ["Deduce cause of death"] = "Установить причину смерти",
     ["Since the postman is an Amon Avatar, why not capture him?"] = "Раз почтальон — аватар Амона, почему его не поймать?",
     ["本赛季不再提示"] = "Больше не напоминать в этом сезоне",
+    ["Lorga"] = "Лорка",
+    ["Spirit World · Floor 2"] = "Мир Духов · Пол 2",
+    ["Ring of Blood"] = "Кольцо крови",
     ["歌颂者：勇气之歌4筛选"] = "Bard: Song of Courage 4 Filter",
     ["终末猎杀-草丛13逐簇隐匿01"] = "Final Hunt - Bush 13 Cluster-by-Cluster Concealment 01",
 }

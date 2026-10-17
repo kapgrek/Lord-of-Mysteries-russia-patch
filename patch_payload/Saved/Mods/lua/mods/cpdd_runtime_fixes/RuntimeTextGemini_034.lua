@@ -291,7 +291,9 @@ return {
     ["Perhaps you all still need more understanding and tacit agreement."] = "Возможно, вам всем нужно больше понимания и согласованности.",
     ["The player gains <HighLight>30 Health</>."] = "Игрок получает <HighLight>30 ОЗ</>.",
     ["For every <HighLight>1 unit at 3 stars</>, the entire team gains <HighLight>5% increased damage dealt</>, up to <HighLight>15%</>."] = "За каждую <HighLight>3-звёздочную фишку</> вся команда получает <HighLight>5% усиления урона</>, максимум <HighLight>15%</>.",
-    ["特莉丝三星·锁定目标击杀回蓝"] = "Trissy 3-Star: Mana Recovery on Locked Target Kill",
-    ["请从以下成员中编列本次巡游队列"] = "Please organize the patrol queue from the following members",
+    ["特莉丝三星·锁定目标击杀回蓝"] = "Триси, 3 звезды: восстановление маны при убийстве выбранной цели",
+    ["End-Times Hunt Daily"] = "Ежедневная охота Конца",
+    ["But in the blink of an eye, you were gone. I looked for you for ages, never expecting you to have slept the entire night in this stinking place."] = "А в итоге ты в мгновение ока исчез. Я тебя долго искала, а ты, оказывается, проспал всю ночь в этом вонючем месте.",
+    ["请从以下成员中编列本次巡游队列"] = "Составьте очередь шествия из следующих участников",
     ["飞升"] = "Ascension",
 }

@@ -263,7 +263,8 @@ return {
     ["Stop, what exactly are you trying to say?"] = "Стой, что ты на самом деле хочешь сказать?",
     ["Bastion Helmet Gear Score Tier Routing"] = "Бастионный боевой шлем: маршрутизация по ступеням комплекта",
     ["The Book of the Past is recording history"] = "Книга былого записывает историю",
-    ["用灵视检查一下"] = "Check with spirit vision",
+    ["Scarlet Relic—that is the most special trophy in this sandbox, which can only be obtained by the true victors of the battlefield."] = "Алая реликвия — самый особый трофей этой песочницы, его могут получить только истинные победители поля боя.",
+    ["用灵视检查一下"] = "Проверить с помощью Истинного Зрения (Духовного)",
     ["罗塞尔Boss困难-3阶段-镜像数据-脱手子技能"] = "Roselle Boss Hard - Phase 3 - Mirror Data - Released Sub-Skill",
     ["Skyla"] = "Скайла",
 }

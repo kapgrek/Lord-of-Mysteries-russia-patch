@@ -269,7 +269,9 @@ return {
     ["常年往返雪山补货的供货商行"] = "Торговый дом-поставщик, круглый год ходящий к снежным горам за пополнением товара",
     ["Open to randomly receive 1 piece of <Highlight>64 item level</> <Highlight>Competition-oriented</> orange equipment, with a lower probability of additionally receiving 1 unbound piece of <Highlight>64 item level</> <Highlight>Competition-oriented</> equipment."] = "После открытия случайно выдаёт 1 оранжевую единицу снаряжения с <Highlight>уровнем предмета 64</> и <Highlight>соревновательным уклоном</>; с небольшим шансом дополнительно выдаёт 1 непривязанную единицу снаряжения с <Highlight>уровнем предмета 64</> и <Highlight>соревновательным уклоном</>.",
     ["Maximum Teleport Distance"] = "Макс. дистанция телепортации",
-    ["特写_"] = "Close-up_",
-    ["离观察目标太远，请靠近使用灵视"] = "Too far from the observation target, please move closer to use spirit vision",
+    ["特写_"] = "Крупный план_",
+    ["离观察目标太远，请靠近使用灵视"] = "Слишком далеко от цели наблюдения, подойдите ближе, чтобы использовать Духовное зрение",
+    ["Rare Giant's Heart Core"] = "Редкое · Сердцевина сердца великана",
+    ["Please select a marionette of the same quality as Alienated Selena"] = "Выберите марионетку того же качества, что и Отчуждённая Селена",
     ["Back then, I had two choices: become a Beyonder of the Savant pathway, or a Beyonder of the Mystery Pryer pathway. My choice was simple—Savant, a Savant with a complete sequence! To make myself strong and rely on my own power to return to my hometown, rather than pinning my hopes on dangerous external forces. But my choice back then was still too rash. Whether it was Apprentice, Seer, or Marauder, all would have been better. Unfortunately, there is no turning back..."] = "Тогда у меня было два выбора: стать Потусторонним путем Саванта или Потусторонним путем Тайного Прайера. Мой выбор был прост — Савант, Савант с полной последовательностью! Чтобы стать сильным и полагаться на свои силы, чтобы вернуться в свой родной город, а не возлагать надежды на опасные внешние силы. Но мой выбор тогда был еще слишком опрометчивым. Будь то Ученик, Провидец или Мародер, все было бы лучше. К сожалению, пути назад нет...",
 }

@@ -280,8 +280,9 @@ return {
     ["Sustain a cumulative total of 300,000 damage from players during a war declaration."] = "Получите суммарно 300 000 урона от игроков во время объявленной войны",
     ["Pablo"] = "Пабло",
     ["Dropped Shadow Stealing Camera"] = "Выпавшая камера кражи теней",
-    ["相机沙发区克莱恩"] = "Camera: Klein in the sofa area",
-    ["神弃之地徽章"] = "Forsaken Land of the Gods Badge",
+    ["相机沙发区克莱恩"] = "Камера: Клейн в зоне дивана",
+    ["What an interesting journey, though it's a bit troublesome. All his things are soaked through."] = "Занятное путешествие, только немного хлопотное. Все его вещи промокли насквозь.",
+    ["神弃之地徽章"] = "Значок Земли, покинутой богами",
     ["食材准备好了吗？"] = "Are the ingredients ready?",
     ["Both the subconscious and dreams are influenced by music. \n The fierce creatures within <InvHighlight> may also become gentle under the influence of music. </>"] = "И подсознание, и сновидения чутко откликаются на музыку.\nОбитающие там свирепые твари <InvHighlight>тоже могут стать кроткими под воздействием мелодии</>.",
 }

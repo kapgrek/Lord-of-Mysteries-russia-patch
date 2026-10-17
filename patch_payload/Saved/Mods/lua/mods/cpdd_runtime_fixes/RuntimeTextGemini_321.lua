@@ -288,8 +288,8 @@ return {
     ["无暗之枪在非秩序审判状态下也会对附近的异端目标掷出小枪，小枪伤害提升100%且不触发内置冷却。"] = "Вне состояния Суда порядка Безтеневое копьё также метает малые копья в ближайших еретиков: урон малых копий увеличен на 100%, внутреннее восстановление не срабатывает.",
     ["棋子固有回蓝·子爵夫人"] = "Врожд. восст. маны фигуры·Виконтесса",
     ["Gain 1 Development Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>68 Item Level</> orange or golden quality Equipment, as well as a Contract of Trade that can be used in the <Highlight>Trading Bazaar</> to exchange for <Highlight>tradable items</>, including <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder materials, medicine, food, etc."] = "За каждые <Highlight>20 ед. прогресса</> вы получаете 1 ящик ресурсов развития. В нём случайно выпадает снаряжение оранжевого или золотого качества с <Highlight>уровнем 68</>, а также Договор о торговле, который можно обменять на <Highlight>обмениваемые предметы</> на <Highlight>Торговом базаре</>: <Highlight>обмениваемые</> оранжевые ящики потустороннего снаряжения, ларцы серой пыли, ларцы серых кристаллов, золотую нить, потусторонние материалы, лекарства, еду и т. д.",
-    ["点击查看全部外观"] = "Click to view all appearances",
-    ["询问<h>威尔</>"] = "Ask <h>Will</>",
+    ["点击查看全部外观"] = "Нажмите, чтобы посмотреть все облики",
+    ["询问<h>威尔</>"] = "Спросить <h>Уилла</>",
     ["【自走棋】-\"律令师\"休·迪尔查-囚禁"] = "[Auto Chess] - \"Lawyer\" Xio Derecha - Imprisonment",
     ["Dawson"] = "Доусон",
 }

@@ -259,7 +259,7 @@ return {
     ["I brought you a special tranquilizing potion; take a sip first."] = "Я принёс тебе особое успокаивающее зелье. Сначала сделай глоток.",
     ["Someone's emotions were ignored... This trial is not considered passed."] = "Чьи-то чувства были проигнорированы... Это испытание не считается пройденным.",
     ["棋局生涯中，集齐全部三星五费图鉴。"] = "За карьеру в Гамбите соберите все трёхзвёздочные записи стоимости 5.",
-    ["爆单·食铺生效，卖价+150%"] = "Explosion Order: Food Shop active; selling price +150%.",
-    ["累计500个非凡者组队通关大帝重临·困难"] = "Clear Emperor's Return (Hard) in a team with a cumulative total of 500 Beyonders",
-    ["该站点将于10月22日8点解锁"] = "This site will be unlocked at 8:00 AM on October 22nd",
+    ["爆单·食铺生效，卖价+150%"] = "Взрыв заказов · Лавка еды действует, цена продажи +150%",
+    ["累计500个非凡者组队通关大帝重临·困难"] = "Пройдите Возвращение Императора · Сложно с отрядом, в сумме 500 Потусторонних",
+    ["该站点将于10月22日8点解锁"] = "Эта станция откроется 22 октября в 8:00",
 }

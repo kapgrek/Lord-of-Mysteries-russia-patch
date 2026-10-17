@@ -285,6 +285,8 @@ return {
     ["命运沙盘"] = "Песочница судьбы",
     ["Submission successful"] = "Заявка подана",
     ["有鸡尾酒单吗？"] = "У вас есть коктейльная карта?",
+    ["Pain, torment, insults... but you must still smile, you must smile!"] = "Боль, мучения, оскорбления... но ты всё равно должен улыбаться, обязан улыбаться!",
+    ["I really miss sweet tofu pudding."] = "Я так скучаю по сладкому доуха.",
     ["跃起裂地，对周围敌人造成<Yellow>112</>点攻击伤害，并使其眩晕<HighLight>1</>秒。"] = "Leaps up and shatters the ground, dealing <Yellow>112</> Attack damage to nearby enemies and stunning them for <HighLight>1</> second.",
     ["这是总部给的调查报告，你可以先看看。"] = "This is the investigation report from headquarters; you can take a look first.",
     ["在罪恶廷根不超过170秒完成一次挑战“剥面人”强尼。"] = "Бросьте вызов Джонни, Лицечисту в Sinful Тинген, за 170 секунд.",

@@ -282,7 +282,7 @@ return {
     ["Grandpa Thomas... he, he can't hold on much longer! But, but Emma is also..."] = "Дедушка Томас... он, он долго не продержится! Но, но Эмма тоже...",
     ["拥抱2_2邻格"] = "Объятие 2_2, соседние клетки",
     ["每次普攻后，恢复<HighLight>10</>点法力值。"] = "После каждой обычной атаки восстанавливается <HighLight>10</> ед. маны.",
-    ["没别的事情了"] = "There is nothing else.",
+    ["没别的事情了"] = "Больше ничего",
     ["终末猎杀-草丛24逐簇隐匿06"] = "Final Hunt-Bush 24 Cluster Invisibility 06",
     ["Adler"] = "Адлер",
 }

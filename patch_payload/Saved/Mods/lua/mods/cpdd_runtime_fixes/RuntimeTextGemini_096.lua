@@ -287,9 +287,10 @@ return {
     ["You don't need to run around to get the good stuff on the market; just bring the contract to me."] = "Чтобы достать хороший товар с рынка, не нужно бегать повсюду: приходи ко мне с контрактом.",
     ["检查麦特的物品"] = "Осмотреть вещи Мэтта",
     ["Piece Innate Mana Regen: Mr. Barney 2-Star"] = "Врожд. восст. маны фигуры: Мистер Барни, 2 зв.",
-    ["稀有·暮城铁甲防御层"] = "Rare Twilight City Iron Armor Defense Layer",
-    ["获得<HighLight>8/12金币</>和<HighLight>1/3经验</>。"] = "Gain <HighLight>8/12 Gold</> and <HighLight>1/3 XP</>.",
-    ["调查<h>灵性残留的笔记</>"] = "Investigate <h>Note with Residual Spirituality</>",
+    ["Test Level 1"] = "Тестовый уровень 1",
+    ["稀有·暮城铁甲防御层"] = "Редкое·Железные доспехи сумеречного города: слой защиты",
+    ["获得<HighLight>8/12金币</>和<HighLight>1/3经验</>。"] = "Получите <HighLight>8/12 золота</> и <HighLight>1/3 опыта</>.",
+    ["调查<h>灵性残留的笔记</>"] = "Расследовать: <h>записка с остатками духовности</>",
     ["那就分头行动，我和{{他|她}}去排查音乐厅，保护露丝和爱丽丝。"] = "Then let's split up. {{He|She}} and I will go check the music hall and protect Ruth and Alice.",
     ["哎哟——撞到我了！我的腿动不了了！赔钱！五苏勒！"] = "Ой, ты наткнулся на меня! Моя нога не двигается! Плати! Пять соло!",
 }

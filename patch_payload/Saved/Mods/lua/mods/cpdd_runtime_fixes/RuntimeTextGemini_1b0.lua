@@ -287,6 +287,7 @@ return {
     ["弗莱过肩伦纳德镜头"] = "Кадр Фрая через плечо Леонарда",
     ["无归属"] = "Без принадлежности",
     ["每次普攻后，获得<HighLight>7%</>攻速，最多叠加<HighLight>10</>层。"] = "После каждой обычной атаки вы получаете <HighLight>7%</> скорости атаки, суммируется до <HighLight>10</> раз.",
+    ["His calm expression reveals determination. No matter how long the long night may be, she is still searching for a glimmer of hope for the City of Silver."] = "В спокойном облике сквозит твёрдость. Как бы ни была долга Долгая Ночь, она по-прежнему ищет для Серебряного города шанс на проблеск рассвета.",
     ["长按跳跃键进入灵性之跃"] = "Long press the Jump button to enter Leap of Spirituality",
     ["额外效果ID"] = "Additional Effect ID",
     ["终末猎杀-草丛08逐簇隐匿07"] = "Final Hunt - Bush 08 Cluster-by-Cluster Concealment 07",

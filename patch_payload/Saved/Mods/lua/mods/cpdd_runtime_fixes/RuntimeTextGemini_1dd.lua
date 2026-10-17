@@ -297,7 +297,7 @@ return {
     ["Of course it's true. The captain asked me if I had finished the follow-up report on the missing persons case, and I said almost, even though I hadn't even written the title yet."] = "Конечно, это правда. Капитан спросил, написал ли я отчёт по делу о пропавших, я ответил, что почти, а на самом деле даже заголовка не написал.",
     ["挥动藤蔓横扫前方敌人。"] = "Взмахивает лозами и сметает врагов впереди.",
     ["Are you sure you want to swap the cultivation progress of Alienated Selina and Worm of Star·Mysterious?"] = "Обменять степень развития Искажённой Селины и Звёздного червя·Тайны?",
-    ["被动技能列表"] = "Passive Skill List",
+    ["被动技能列表"] = "Список пассивных навыков",
     ["败局补偿"] = "Compensation for Defeat",
     ["钻头守护"] = "",
     ["前往指定Trigger位置  玩家发送任务道具"] = "Перейдите в указанное место триггера; игрок отправляет квестовый предмет.",

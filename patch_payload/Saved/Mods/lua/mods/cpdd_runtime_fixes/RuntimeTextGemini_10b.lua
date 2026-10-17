@@ -304,6 +304,7 @@ return {
     ["The ground is paved with natural stone slabs, simple and durable, serving as the foundation for all construction."] = "Пол выложен натуральными каменными плитами — простыми и прочными. Это основа любого строительства.",
     ["Once the weekly reward attempts for a Dungeon boss have been exhausted, you can obtain a Rematch Reward Chest after defeating the boss again. This resets every Sunday at 8:00."] = "Когда все награды за босса подземелья на этой неделе получены, повторная победа над ним даст сундук с наградой за повторный бой. Сброс каждое воскресенье в 8:00.",
     ["I spent all of yesterday assisting the police officer with the investigation; that is likely why I am in possession of the diary and the police badge."] = "Вчера я весь день помогал офицеру в расследовании, вероятно, поэтому у меня оказались дневник и полицейский жетон.",
+    ["Obtain 10,000 Alliance Currency"] = "Получить 10000 ед. валюты Альянса",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

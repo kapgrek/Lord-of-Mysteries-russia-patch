@@ -295,6 +295,8 @@ return {
     ["廷根西北站长"] = "Начальник станции «Северо-запад Тингена»",
     ["Let's split up to look for him as well; I was just about to give him this bouquet of flowers."] = "Мы тоже пойдем искать его по отдельности, я как раз собиралась подарить ему этот букет.",
     ["Open to randomly receive 1 piece of <Highlight>Competition-oriented</> orange Equipment with <Highlight>Item Level 68</>."] = "После открытия случайно выдаёт 1 оранжевую единицу снаряжения с <Highlight>уровнем предмета 68</> и <Highlight>соревновательным уклоном</>.",
+    ["Test DPS"] = "Тест DPS",
+    ["Rare Sun-Pattern Amulet"] = "Редкое·Оберег солнечного узора",
     ["追星"] = "Star-chasing",
     ["Camilo"] = "Камило",
 }

@@ -301,7 +301,10 @@ return {
     ["巨大的直角五边形挂墙旗帜，其上的金色纹路含义不明。"] = "Огромный настенный флаг в форме прямоугольного пятиугольника с золотыми узорами неизвестного значения.",
     ["情绪值计数30"] = "Счётчик эмоций 30",
     ["我叫迪伦，我兼职了十年群演。"] = "Меня зовут Дилан, я десять лет подрабатываю статистом.",
-    ["询问“正义”小姐"] = "Ask Miss Justice",
+    ["Gilded Merchant Group - Apprentice"] = "Торговый дом «Златой поток»: новичок",
+    ["Lionheart Ring Shield per battle"] = "Кольцо львиного сердца: щит за бой",
+    ["Immediately obtain <HighLight>1 Fine Equipment Chest</>, and obtain <HighLight>1 Sealed Equipment Chest</> after <HighLight>10 Competition rounds</>."] = "Немедленно получите <HighLight>1 ларец отличного снаряжения</>, а через <HighLight>10 раундов партии</> получите еще <HighLight>1 ларец запечатанного снаряжения</>.",
+    ["询问“正义”小姐"] = "Спросить госпожу «Справедливость»",
     ["贸易战升级车辆18次"] = "Upgrade vehicles 18 times in Trade War",
     ["Altaf"] = "Альтаф",
 }

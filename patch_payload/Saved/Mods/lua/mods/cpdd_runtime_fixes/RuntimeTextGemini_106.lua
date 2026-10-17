@@ -277,7 +277,7 @@ return {
     ["I promised to find him a position at the bank, and that's how I managed to get away."] = "Я пообещал найти ему должность в банке, только так и ушёл.",
     ["新骰子，也许能带来新运气！"] = "Новые кости, может, принесут новую удачу!",
     ["本期任务"] = "Задание периода",
-    ["血刃2人流血监听"] = "Blood Blade 2-player Bleed monitoring",
+    ["血刃2人流血监听"] = "Отслеживание кровотечения Кровавого клинка (2 игрока)",
     ["过于……现在……未来，所有战局都在这里展开……"] = "The past... the present... the future, all battles unfold here...",
     ["黑夜尚未退场，天光已悄然探入，此刻你可以亲眼见证黎明的到来。"] = "The darkness has not yet retreated, but the light of day has quietly crept in; at this moment, you can witness the arrival of dawn with your own eyes.",
     ["We are going to Backlund to spend the New Year with our children and will return after the holidays. Wishing everyone a Happy New Year in advance!\n\n\nClosure Dates\nDecember 20, 1349 ~ January 5, 1350"] = "Мы уезжаем в Бэкланд, чтобы встретить Новый год с детьми, и вернемся после праздников. Заранее поздравляем всех с Новым годом!\n\n\nДаты закрытия\n20 декабря 1349 г. – 5 января 1350 г.",

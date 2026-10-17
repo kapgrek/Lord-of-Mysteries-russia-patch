@@ -258,9 +258,11 @@ return {
     ["我不敢离开这里，在这里我是安全的，但只要跨出这个圈一步，那些怪物会活吞了我……"] = "Я не смею отсюда уйти, здесь я в безопасности, но стоит шагнуть за этот круг, и те чудовища сожрут меня живьём...",
     ["I heard a sound and thought it was a haunting, so I didn't dare to get close at all..."] = "Я услышал звук и решил, что это призрак, поэтому вообще не решался подойти...",
     ["星界赐福1溢疗盾"] = "Щит от переисцеления Благословения Астрального Мира 1",
-    ["看来巫师帽分身大概率是幌子。"] = "It seems the Warlock hat clone is most likely a decoy.",
+    ["Never heard of it."] = "Не слышал.",
+    ["看来巫师帽分身大概率是幌子。"] = "Похоже, двойник в шляпе волшебника, скорее всего, лишь обман.",
+    ["Old James is right, {{brother|sister}}, you can tell the tourists and the workers here that the smell will completely Disappear in a few days!"] = "Старина Джеймс прав, {{брат|сестра}}, можешь сказать туристам и местным работникам, что через пару дней запах полностью исчезнет!",
     ["采集指定TemplateID的采集物  玩家发送任务道具  玩家播放主线任务开始展示界面"] = "Соберите указанный элемент TemplateID, игрок отправляет предмет квеста, игрок запускает основной интерфейс начала квеста.",
     ["工坊揭幕，市场开张。\n精心酿造的美酒将获得畅销，看准波动的市价一锤定音！"] = "Мастерская открывает двери, рынок распахивает ворота!\nИзысканное выдержанное вино разлетится как горячие пирожки — следите за колебаниями цен и заключите самую выгодную сделку!",
     ["Your kindness is as always, your behavior confuses me. \n    Are you really just pitying me? Is this your true intention? \n    Can you at least speak to me face-to-face once? \n    ...I suppose this letter won't receive a reply from you either, but I will always be here, waiting for your appearance. \n    I have never seen spring; in my world, only you have arrived."] = "Ваша доброта так же хороша, как и всегда, но ваше поведение меня смущает. \n　Ты правда меня жалеешь? Это то, что вы имеете в виду? \n　Можете ли вы поговорить со мной лицом к лицу хотя бы один раз? \n　…Возможно, я не получу от тебя ответа на это письмо, но я всегда буду здесь, ожидая твоего появления. \n Я никогда не видел весны. В моем мире ты здесь единственный.",
-    ["管他呢，我要开动了！"] = "Screw it, I'm digging in!",
+    ["管他呢，我要开动了！"] = "Да ну всё! Я приступаю!",
 }

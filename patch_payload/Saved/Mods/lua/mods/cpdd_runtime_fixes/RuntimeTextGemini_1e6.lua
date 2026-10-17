@@ -285,7 +285,8 @@ return {
     ["I wake up at eight every morning, ride my bicycle for twenty minutes to get here, stand for eight hours, and sell over two hundred tickets. I have to eat quickly because the children are waiting for me."] = "Каждый день я встаю в восемь, двадцать минут еду сюда на велосипеде, стою восемь часов и продаю больше двухсот билетов. Ем я быстро, ведь дети ждут меня.",
     ["我的所有分身，也就是我的信徒们，也是阿蒙家族的成员们……"] = "Все мои аватары, то есть мои последователи, тоже члены семьи Амона...",
     ["歌唱"] = "Пение",
-    ["灰雾长桌"] = "Gray Fog Long Table",
+    ["灰雾长桌"] = "Длинный стол серого тумана",
+    ["Reality Line Chapter 6 - First encounter with Finch at the Dock"] = "Реальная линия, глава 6 - Первая встреча с Финчем в порту",
     ["走吧，和我一起回去，你拿了我的指南针，就陪我把该做的事做完 。"] = "Let's go, come back with me. Since you've taken my compass, you'll have to accompany me to finish what needs to be done.",
     ["前往指定Trigger位置  玩家跨场景传送到指定Trigger"] = "Перейти к указанному триггеру. Телепортация игрока между сценами к указанному триггеру.",
 }

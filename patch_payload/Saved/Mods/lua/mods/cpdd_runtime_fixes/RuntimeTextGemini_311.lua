@@ -276,8 +276,10 @@ return {
     ["告诉伦纳德准备好了"] = "Сказать Леонарду, что вы готовы",
     ["奧黛麗"] = "Одри",
     ["Complete all trials"] = "Пройти все испытания",
-    ["海纳斯老师那样的资深占卜家，都无法占卜自己的厄运。那占卜的意义是什么？"] = "Even a veteran Seer like Mr. Haines cannot divine his own misfortune. What, then, is the point of divination?",
-    ["看看邮差的脚踏车"] = "Examine the postman's bicycle",
+    ["海纳斯老师那样的资深占卜家，都无法占卜自己的厄运。那占卜的意义是什么？"] = "Даже такой опытный Провидец, как господин Хейнс, не может предсказать собственное несчастье. Так в чём тогда смысл предсказаний?",
+    ["Reality Route Chapter 6 - Go to the Water Theater to Have the Ticket Checked"] = "Реальная линия, глава 6 - Проверить билет у водного театра",
+    ["看看邮差的脚踏车"] = "Осмотреть велосипед почтальона",
+    ["Unlock 5 relationships with the \"Original Work\" tag"] = "Откройте 5 связей с меткой «Первоисточник»",
     ["青色鳞片状的瓷砖砌成的水池组件，可自由拼出想要的形状。"] = "Pool components made of cyan scale-shaped tiles that can be freely assembled into the desired shape.",
     ["黑帮的委托"] = "Gang Commission",
 }

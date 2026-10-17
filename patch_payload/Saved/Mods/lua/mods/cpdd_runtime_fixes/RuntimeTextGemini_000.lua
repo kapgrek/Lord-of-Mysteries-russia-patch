@@ -304,7 +304,7 @@ return {
     ["After consuming a potion, you will begin to roam the Spirit World, and may even become Lost. Without coordinates, you will be trapped in the depths of the Spirit World and lose your sanity."] = "После приёма Зелья вы начнёте странствовать по Миру Духов и можете даже потерять ориентацию. Без координат вы окажетесь в ловушке в глубинах Мира Духов и лишитесь рассудка.",
     ["Slaughter Ritual"] = "Ритуал убийства",
     ["歌女的童年悲惨事"] = "Печальное детство певицы",
-    ["爱丽丝想和乐团主唱琼斯女士合影，跟在露丝身边了。"] = "Alice wants to take a photo with the band's lead singer, Ms. Jones, and has been staying by Ruth's side.",
+    ["爱丽丝想和乐团主唱琼斯女士合影，跟在露丝身边了。"] = "Алиса хочет сфотографироваться с вокалисткой группы, госпожой Джонс, и осталась рядом с Рут.",
     ["釒"] = "Jin",
     ["开启灵视  玩家根据InstanceID列表创建公有对象（大世界不生效）  玩家播放仅自己可见的说话文本"] = "Активировать Духовное Зрение  Игрок создает общий объект по списку InstanceID (не действует в открытом мире)  Игрок воспроизводит текст реплики, видимый только ему самому",
     ["Ainsley"] = "Эйнсли",

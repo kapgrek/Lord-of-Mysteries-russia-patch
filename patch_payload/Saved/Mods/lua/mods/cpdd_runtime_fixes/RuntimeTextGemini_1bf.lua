@@ -291,9 +291,10 @@ return {
     ["Reserved ID range 85012000-85012099"] = "Занят диапазон ID 85012000-85012099",
     ["Where would such a good thing happen? Even if we are heading toward destruction, it shouldn't be boring; it should be full of adventure and excitement."] = "Откуда такое счастье? Даже если идти к гибели, это не должно быть скучно, а должно быть полно приключений и острых ощущений.",
     ["小偷？你这个小孩，说话有点怪怪的？"] = "Вор? Ты, малец, как-то странно говоришь, не так ли?",
-    ["污染……和命运……不可抗拒！"] = "Corruption... and fate... are irresistible!",
-    ["点击此处或按<img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/>可<Highlight>自动寻路</>。"] = "Click here or press <img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/> for <Highlight>Auto-Pathfinding</>.",
-    ["贝克兰德最近发生了什么？"] = "What has happened in Backlund recently?",
+    ["污染……和命运……不可抗拒！"] = "Порча... и судьба... неотвратимы!",
+    ["点击此处或按<img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/>可<Highlight>自动寻路</>。"] = "Нажмите здесь или <img id=\"KeyPrompt_V\" width=\"33\" height=\"38\"/> для <Highlight>автопоиска пути</>.",
+    ["Ace of Hearts"] = "Туз червей",
+    ["贝克兰德最近发生了什么？"] = "Что недавно произошло в Бэкланде?",
     ["饕餮成长体型19档"] = "Gluttony Growth Stage 19",
     ["终末猎杀-草丛04逐簇隐匿04"] = "Final Hunt - Bush 04 Cluster Concealment 04",
 }

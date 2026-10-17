@@ -282,6 +282,11 @@ return {
     ["Angelica Dialogue 1"] = "Диалог с Анжеликой 1",
     ["捡起信件"] = "Подобрать письмо",
     ["In other words, he is on the path to destruction and wouldn't mind dragging everyone down with him."] = "Иными словами, на пути к гибели он не прочь погубить заодно и всех остальных.",
-    ["要跟我们一起去吗？这可是露丝弄到的内部福利。"] = "Do you want to come with us? This is an internal perk that Ruth managed to get.",
+    ["A song dedicated to the ultimate truth"] = "Песнь, посвящённая высшей истине",
+    ["Reality Line Chapter 6 - Second return to the ship - Conversation with Finch"] = "Реальная линия, глава 6 - Второе возвращение на корабль - разговор с Финчем",
+    ["Forsaken Land of the Gods 2-Player Growth"] = "Земля, покинутая богами: рост для 2 игроков",
+    ["Rare Traction Spirit Pendant"] = "Редкое·Духовный кулон притяжения",
+    ["Combining the information already known..."] = "Сопоставив уже известную информацию...",
+    ["要跟我们一起去吗？这可是露丝弄到的内部福利。"] = "Пойдёшь с нами? Это внутренняя льгота, которую раздобыла Рут.",
     ["贝克兰德游乐场\r\n<LeonSubTitle size=\"38\">Beckland Pleasure Gardens</>"] = "Backlund Pleasure Gardens\r\n<LeonSubTitle size=\"38\">Backlund Pleasure Gardens</>",
 }

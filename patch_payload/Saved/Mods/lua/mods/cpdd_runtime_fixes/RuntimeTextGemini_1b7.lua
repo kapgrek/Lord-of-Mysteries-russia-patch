@@ -291,9 +291,11 @@ return {
     ["早上好！艾登先生！"] = "Доброе утро! Господин Эйден!",
     ["晋升任务-终有归途-进入花海前"] = "Задание на повышение: Путь домой неизбежен — перед входом в море цветов",
     ["未收集"] = "Не собрано",
-    ["第二波怪"] = "Second wave of monsters",
+    ["Without a compass, you can take this step."] = "Без компаса вы сможете сделать этот шаг.",
+    ["第二波怪"] = "Вторая волна монстров",
+    ["I'll give it to him; he's impressive."] = "Ну, он молодец.",
     ["近乎消逝的歌声，美丽而诱人。"] = "A song that is nearly Fade, beautiful and alluring.",
     ["风暴收束"] = "Storm Convergence",
     ["Mavis"] = "Мэвис",
-    ["现在又出现了献祭案，背后还有魔女教派的影子……谁能操控这么多事件和势力？"] = "Now there's a Sacrifice case, and the Demoness Sect is behind it... Who could possibly manipulate so many events and factions?",
+    ["现在又出现了献祭案，背后还有魔女教派的影子……谁能操控这么多事件和势力？"] = "Теперь ещё и дело о жертвоприношении, а за ним маячит тень секты Демониц... Кто способен управлять столькими событиями и силами?",
 }

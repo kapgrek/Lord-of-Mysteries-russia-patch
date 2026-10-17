@@ -281,9 +281,10 @@ return {
     ["Display Stand: Arms Crossed"] = "Подиум: руки на груди",
     ["幻海起锚"] = "Снятие с якоря в Призрачном море",
     ["晨星天使是什么"] = "Что такое Ангел Утренней звезды",
-    ["秘法2人全体法力恢复"] = "Arcane 2-Person Party Mana Recovery",
-    ["称号怎么获得"] = "How to obtain titles",
-    ["计算成功2/3，全队攻速小幅提升！"] = "Calculation successful 2/3, team Attack Speed slightly increased!",
+    ["秘法2人全体法力恢复"] = "Тайное искусство: восстановление маны всей группе (2 чел.)",
+    ["称号怎么获得"] = "Как получить титулы",
+    ["Roselle Boss Hard - Stage 2 - Self-Cleaning Program - Player Mark Buff 1"] = "Босс Розель (сложный) - 2 фаза - Программа самоочистки - Бафф метки игрока 1",
+    ["计算成功2/3，全队攻速小幅提升！"] = "Расчёт удался 2/3, скорость атаки всей команды немного повышена!",
     ["阿蒙 远古太阳神的次子 出生就是错误途径的天使之王"] = "Amon, the second son of the Ancient Sun God, was a King of Angels of the Error Pathway from birth.",
     ["集齐15个可以获得秘偶星之虫·变化，也可用于秘偶星之虫·变化的培养。"] = "Collect 15 to obtain the marionette Worm of Star: Change; they can also be used to upgrade the marionette Worm of Star: Change.",
 }

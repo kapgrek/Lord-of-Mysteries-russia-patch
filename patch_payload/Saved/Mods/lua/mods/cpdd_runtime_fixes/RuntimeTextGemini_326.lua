@@ -266,7 +266,7 @@ return {
     ["Hold onto the thigh"] = "Держаться за покровителя",
     ["Challenge the next level"] = "Следующий уровень",
     ["日炎棋盘"] = "Шахматная доска солнечного пламени",
-    ["污染值_数值"] = "Corruption Value_Numerical",
-    ["灰白的余烬中，仍有人在追寻存续，将命运的遗存编织成新的脉络。无论始终，时间仍在生长。"] = "Amidst the gray embers, there are still those seeking survival, weaving the remnants of fate into new threads. Regardless of the beginning or the end, time continues to grow.",
+    ["污染值_数值"] = "Значение порчи (число)",
+    ["灰白的余烬中，仍有人在追寻存续，将命运的遗存编织成新的脉络。无论始终，时间仍在生长。"] = "Среди серых углей всё ещё есть те, кто ищет продолжение и вплетает остатки судьбы в новые нити. Что бы ни было в начале и в конце, время продолжает расти.",
     ["Gia"] = "Джиа",
 }

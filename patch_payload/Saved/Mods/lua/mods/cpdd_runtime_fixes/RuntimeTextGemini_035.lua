@@ -267,7 +267,10 @@ return {
     ["There are many people gathered at the theater entrance; what are they looking at?"] = "У входа в театр столпилось много людей. На что они смотрят?",
     ["我得回家看看，我父母和妹妹不知道过得怎么样，但这都是我需要独自面对的事情了。"] = "Мне нужно домой, проведать родителей и сестру. Не знаю, как они живут, но теперь мне придётся справляться самому.",
     ["Yes, this gentleman is a regular customer of mine. We've traded several times before, and there has never been any trouble."] = "Этот господин — мой старый клиент, мы уже не раз заключали сделки, и всё проходило без накладок.",
-    ["立即获得<HighLight>1个精良装备宝匣</>，<HighLight>10个对弈回合</>后再获得<HighLight>1个封印装备宝匣</>。"] = "Immediately obtain <HighLight>1 Fine Equipment Chest</>, and obtain <HighLight>1 Sealed Equipment Chest</> after <HighLight>10 Competition rounds</>.",
+    ["Monitor player LocomotionAnim state"] = "Отслеживание состояния LocomotionAnim игрока",
+    ["立即获得<HighLight>1个精良装备宝匣</>，<HighLight>10个对弈回合</>后再获得<HighLight>1个封印装备宝匣</>。"] = "Немедленно получите <HighLight>1 ларец отличного снаряжения</>, а через <HighLight>10 раундов партии</> получите еще <HighLight>1 ларец запечатанного снаряжения</>.",
+    ["Ruby Emblem Battle Start Mana Recovery"] = "Рубиновая эмблема: восстановление маны в начале боя",
+    ["Sinful Tingen Final Tier Starting Pulse"] = "Стартовый импульс финального уровня Греховного Тингена",
     ["隐秘空间-永夜雪原-结局对话"] = "Hidden Space - Snowy Plains of Eternal Night - Ending Dialogue",
     ["击败指定InstanceID的怪物  延迟执行  对象播放指定对白内容"] = "Победить монстра с указанным идентификатором экземпляра. Отложенное выполнение. Объект воспроизводит указанный контент диалога.",
 }

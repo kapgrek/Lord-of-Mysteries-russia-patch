@@ -293,6 +293,7 @@ return {
     ["Give me back what you stole."] = "Верни то, что украл.",
     ["Hug 1_7 adjacent grid"] = "Объятие 1_7, соседние клетки",
     ["Obtain Conquest Prestige points for the first time within this cycle."] = "Впервые получите очки престижа завоевания за этот период",
+    ["Oath of the Rose"] = "Клятва розы",
     ["连续震击周围敌人，同时获得护盾。"] = "Continuously Shock surrounding enemies while gaining a Shield.",
     ["镜像服跨服战斗服"] = "Mirror Server Cross-Server Combat Server",
     ["【普通】童话故事-苹果骑士-找飞天的玩家"] = "[Normal] Fairy Tale - Apple Knight - Find airborne players",

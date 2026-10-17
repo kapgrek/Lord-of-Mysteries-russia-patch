@@ -332,8 +332,9 @@ return {
     ["掌控情绪需要一些练习，要再试一次吗？"] = "Управление эмоциями требует практики. Попробовать ещё раз?",
     ["Leaps and spins, striking nearby enemies for <Yellow>58</> Attack damage. Gains a <Yellow>175</> shield and <HighLight>12%</> Damage Reduction for <HighLight>3</> seconds."] = "Прыжок с вращением сотрясает окружающих врагов, нанося <Yellow>58</> ед. урона атакой. Персонаж получает щит на <Yellow>175</> ед. и <HighLight>12%</> снижения урона на <HighLight>3</> сек.",
     ["星界赐福1"] = "Благословение Астрального Мира 1",
-    ["生命高于<HighLight>50%</>时额外获得<HighLight>10%</>伤害减免。"] = "Gain an additional <HighLight>10%</> Damage Reduction when Health is above <HighLight>50%</>.",
-    ["群星闪烁"] = "Stars Blink",
+    ["That's right, you aren't Dylan; I am you."] = "Верно, ты не Дилан. Это я — ты.",
+    ["生命高于<HighLight>50%</>时额外获得<HighLight>10%</>伤害减免。"] = "Когда здоровье выше <HighLight>50%</>, вы дополнительно получаете <HighLight>10%</> снижения урона.",
+    ["群星闪烁"] = "Мерцание звёзд",
     ["铁十字街人头攒动，似乎正在举办什么活动。\n欢乐的气氛中，人们排成长队，使用【<g>动作表情-四处观察</>】加入他们吧！"] = "Iron Cross Street is bustling with people, and it seems like some kind of event is being held. In this joyful atmosphere, people are lining up. Use [ <g>Emote-Look Around</> ] to join them!",
     ["【自走棋】-绯红信徒羁绊-全屏伤害300"] = "[Auto Chess] - Crimson Believer Bond - 300 Full-screen Damage",
 }

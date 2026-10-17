@@ -287,7 +287,7 @@ return {
     ["幸存者"] = "Выживший",
     ["Captain Frye—Mr. Star! You are here too?"] = "Капитан Фрай — господин «Звезда»! Вы тоже здесь?",
     ["普通伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>550%</> = {*d,F1690001,atkMin,5.5}点，低生命目标伤害：<img id=\"03\" width=\"40\" height=\"40\"/>攻击 × <HighLight>680%</> = {*d,F1690001,atkMin,6.8}点"] = "Обычный урон: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>550%</> = {*d,F1690001,atkMin,5.5} ед., урон по цели с низким здоровьем: <img id=\"03\" width=\"40\" height=\"40\"/>атака × <HighLight>680%</> = {*d,F1690001,atkMin,6.8} ед.",
-    ["薄雾轻拢着往来街道，神秘在暗巷角落悄然苏醒。"] = "Mist lightly veils the streets, and mystery quietly awakens in the corners of dark alleys.",
+    ["薄雾轻拢着往来街道，神秘在暗巷角落悄然苏醒。"] = "Лёгкая дымка окутывает улицы, а тайна тихо пробуждается в углах тёмных переулков.",
     ["【自走棋英雄强化内部子技能】- 戴里克·伯格 - 破晓壁垒伤害"] = "[Auto Chess Hero Strengthening Internal Sub-skill] - Derrick Berg - Dawn Barrier Damage",
     ["终末猎杀-草丛10逐簇隐匿05"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 05",
     ["Denver"] = "Денвер",

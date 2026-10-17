@@ -289,7 +289,11 @@ return {
     ["悄悄进入墓园"] = "Тайком войти на кладбище",
     ["拥抱1_1邻格"] = "Объятие 1_1, соседние клетки",
     ["收集到猩红遗物后，前往所属势力的固定提交点，交给猎杀管家，即可获得征服声望。"] = "Собрав Алую реликвию, отнесите её в постоянный пункт сдачи своей фракции и передайте Охотничьему управляющему, чтобы получить репутацию завоевания.",
-    ["狂风暴雨停歇了"] = "The raging storm has ceased.",
+    ["Not wearing the current outfit"] = "Не в наряде текущего сезона",
+    ["Test Attribute Buff 76"] = "Тестовый бафф характеристик 76",
+    ["The game has only just begun."] = "Игра только начинается.",
+    ["狂风暴雨停歇了"] = "Бушующая буря утихла",
+    ["Whenever you are ready, come find me, and I will take you to the Spirit World to set the coordinates!"] = "Когда будешь готов, приходи ко мне в любое время, и я отведу тебя в Мир Духов установить координаты!",
     ["那您撞上大好运了！刚好有个傻瓜，五分钟前退了张包厢票。"] = "Then you're in luck! A fool just happened to return a box ticket five minutes ago.",
     ["Cullen"] = "Каллен",
 }

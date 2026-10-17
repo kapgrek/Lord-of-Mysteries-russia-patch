@@ -269,6 +269,7 @@ return {
     ["我一动也不能动吗？假如，我往左跳一小步呢？"] = "Мне совсем нельзя двигаться? А если я сделаю маленький шаг влево?",
     ["旧日幻影"] = "Призрак Старого Владыки",
     ["When Health first drops below <HighLight>50%</> in each battle, Damage Reduction is increased by an additional <HighLight>10%</> for <HighLight>4</> seconds."] = "Когда ОЗ впервые опускаются ниже <HighLight>50%</> в каждом бою, снижение урона дополнительно повышается на <HighLight>10%</> на <HighLight>4</> сек.",
+    ["Blood Blade 3-player crit attribute"] = "Крит. удар Кровавого клинка (3 игрока)",
     ["阿蒙们喜欢成群出现，当你发现一个时，意味着周围还有一群。"] = "Amons like to appear in groups; when you find one, it means there is a whole group nearby.",
     ["霍纳奇斯的风雪，千年从未停止。当年四皇之战，曾有一位天使在此陨落，祂的力量化作有关战争的记忆碎片，至今散落山脉各处。"] = "The wind and snow of Hornacis have not stopped for a thousand years. During the War of the Four Emperors, an Angel fell here. Their power transformed into memory fragments related to war, which remain scattered throughout the mountain range to this day.",
     ["罗珊"] = "",

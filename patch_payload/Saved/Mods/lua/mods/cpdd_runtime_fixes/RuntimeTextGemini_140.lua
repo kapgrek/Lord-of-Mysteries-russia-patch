@@ -256,6 +256,7 @@ return {
     ["Examine the body of the jar"] = "Осмотреть корпус банки",
     ["Complete the combo according to the button prompts."] = "Выполните комбо по подсказкам кнопок",
     ["死亡之门"] = "Врата смерти",
+    ["Reality Line Chapter 8 - Fate Café Branch"] = "Реальная линия, глава 8 - Филиал кафе «Судьба»",
     ["酒馆收购轻醇冰白"] = "Tavern Acquires Light Alcohol Ice White",
     ["Aurelia"] = "Аурелия",
     ["我感受过太多不同的气息了，异样的、疯狂的、邪恶的、诡异的……"] = "Я ощущал слишком много разных аур — странных, безумных, злых, причудливых…",

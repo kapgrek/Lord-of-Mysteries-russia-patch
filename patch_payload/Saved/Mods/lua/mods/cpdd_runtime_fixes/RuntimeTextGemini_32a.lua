@@ -278,5 +278,8 @@ return {
     ["Inner Veil"] = "Внутренняя вуаль",
     ["Selling price markup in progress - Intensity <HighLight>%s%%</>"] = "Накрутка цены продажи: интенсивность <HighLight>%s%%</>",
     ["机巧疯帽"] = "Механический Безумный Шляпник",
-    ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Roselle Boss - Password Phase - Check if 84015136 is present on player",
+    ["Absolute Shield Badge low Health protection"] = "Защита Знака Абсолютного щита при низком ЗДР",
+    ["罗塞尔Boss-密码阶段判断身上是否有84015136"] = "Босс Росселл - Фаза пароля - Проверка наличия 84015136 на игроке",
+    ["Passive Displacement Boss mechanism encapsulation action"] = "Действие-обёртка механики босса с пассивным смещением",
+    ["Backlund, you win!"] = "Бэкланд, ты победил!",
 }

@@ -256,6 +256,7 @@ return {
     ["Use to obtain <Highlight>Baptism Hairstyle</>\nCan also be exchanged for <Highlight>1</> God's Favored Card"] = "После использования вы получите <Highlight>Причёску Крещения</>\nМожно также обменять на <Highlight>1</> карту Божьей милости",
     ["最高的这一座常年静默，据说曾有净光在塔顶停留过。"] = "Самая высокая из них молчит круглый год. Говорят, когда-то на вершине башни задержался чистый свет.",
     ["本森，收收你那粉丝心态，宣传的时候说得那么夸张，现场她就平平无奇地走下了台阶！"] = "Бенсон, умерь свой фанатизм! В рекламе ты так всё преувеличивал, а вживую она просто обыденно спустилась по ступеням!",
+    ["Roselle Boss - Sharp Knowledge - Target Mark"] = "Босс Росселл - Острое знание - Метка цели",
     ["集齐15个可以获得秘偶舞王狒哥，也可用于秘偶舞王狒哥的培养。"] = "Collect 15 to obtain the marionette Dancing King Baboon Brother; they can also be used to upgrade the marionette Dancing King Baboon Brother.",
     ["收获%d/200个优质工坊物产。"] = "Собирайте высококачественную продукцию мастерской %d/200.",
     ["【铁壁】"] = "【Железная стена】",

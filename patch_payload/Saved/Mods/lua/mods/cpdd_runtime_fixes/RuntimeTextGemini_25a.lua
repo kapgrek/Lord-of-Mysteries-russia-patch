@@ -304,6 +304,7 @@ return {
     ["Open the treasure chest and leave the mental space with the singer."] = "Открыть сундук и покинуть пространство мыслей вместе с певицей",
     ["是你命运中的 可能性"] = "Это возможности в твоей судьбе",
     ["棋子固有回蓝·弓箭骑士"] = "Врожд. восст. маны фигуры: Рыцарь-лучник",
-    ["获得<HighLight>1个风信子</>。每场战斗中，咒术棋子<HighLight>前2次施法</>后均获得<HighLight>10%攻速</>和<HighLight>8%伤害加深</>，持续<HighLight>4秒</>。"] = "Gain <HighLight>1 Hyacinth</>. After each of their <HighLight>first 2 skill casts</> each battle, Hexcraft units gain <HighLight>10% Attack Speed</> and <HighLight>8% increased damage dealt</> for <HighLight>4 seconds</>.",
+    ["It's okay, there will be another time for us to meet."] = "Ничего, мы ещё увидимся.",
+    ["获得<HighLight>1个风信子</>。每场战斗中，咒术棋子<HighLight>前2次施法</>后均获得<HighLight>10%攻速</>和<HighLight>8%伤害加深</>，持续<HighLight>4秒</>。"] = "Получите <HighLight>1 Гиацинт</>. В каждом бою после <HighLight>первых 2 применений навыка</> фигуры проклятий получают <HighLight>10% скорости атаки</> и <HighLight>8% усиления урона</> на <HighLight>4 сек.</>.",
     ["魔毯"] = "Magic Carpet",
 }

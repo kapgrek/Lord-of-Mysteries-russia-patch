@@ -253,8 +253,9 @@ return {
     ["Participate in destroying the Banner once as an attacker."] = "Участвовать в уничтожении знамени 1 раз в роли атакующего",
     ["我即太阳"] = "Я есть Солнце",
     ["Organic fertilizer, like fermented rotting straw, animal remains, and excrement? You don't mean..."] = "Органические удобрения — вроде перебродившей гнилой соломы, останков животных и экскрементов? Вы же не хотите сказать...",
-    ["群鸦，回应我吧！"] = "Crows, answer my call!",
-    ["街景风情"] = "Street Scenery",
-    ["衣摆如烈焰燃烧，每一步踏着生命的节拍，热情在旋转中迸发。"] = "The hem of the garment burns like flames, each step beating to the rhythm of life, passion bursting forth in the rotation.",
+    ["Red Priest Military Order Surveillance"] = "Прослушка военного приказа Красного Жреца",
+    ["群鸦，回应我吧！"] = "Стая воронов, откликнись на мой зов!",
+    ["街景风情"] = "Уличные виды",
+    ["衣摆如烈焰燃烧，每一步踏着生命的节拍，热情在旋转中迸发。"] = "Подол пылает, как пламя, каждый шаг ложится в ритм жизни, и страсть вспыхивает в кружении.",
     ["前往指定Trigger位置  对象播放指定对白内容"] = "Перейти к указанному местоположению триггера. Объект воспроизводит указанный диалог.",
 }

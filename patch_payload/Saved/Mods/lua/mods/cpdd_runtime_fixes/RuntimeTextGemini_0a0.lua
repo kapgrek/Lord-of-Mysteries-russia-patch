@@ -280,8 +280,10 @@ return {
     ["Swing the vines to sweep the area in front, dealing <HighLight>363%</> Attack damage to enemies hit."] = "Взмахивает лозами и сметает всё впереди, нанося пораженным врагам <HighLight>363%</> урона от атаки.",
     ["显示俱乐部车位"] = "Показать парковку клуба",
     ["有什么推荐吗？"] = "Что посоветуете?",
-    ["灰雾归来-隐身不可选中"] = "Return of the Gray Fog - Invisibility and untargetable",
-    ["禁止玩家移动输入"] = "Player movement input disabled",
+    ["灰雾归来-隐身不可选中"] = "Возвращение серого тумана: невидимость, нельзя выбрать целью",
+    ["Player Subjective"] = "Взгляд игрока",
+    ["禁止玩家移动输入"] = "Ввод движения игрока отключён",
+    ["Rare · Four-Leaf Protection Bottle"] = "Редкое · Оберегающий флакон с четырёхлистником",
     ["【自走棋】-黑夜女神教会徽章-当前生命30%追伤"] = "[Auto Chess] Evernight Goddess Church Badge - 30% current Health bonus damage",
     ["等待时间  玩家开始镜头移动  玩家结束镜头移动"] = "Подождите время. Игрок начинает движение камеры. Игрок прекращает движение камеры.",
 }

@@ -273,7 +273,8 @@ return {
     ["A large number of the avatars I stationed on King's Avenue were suddenly destroyed just now."] = "Множество аватаров, которых я расставил на Королевском проспекте, только что были внезапно уничтожены.",
     ["我的兄弟，不过只是每桶酒便宜五苏勒而已。痛快一些，卖给我吧！"] = "Брат мой, это всего лишь пять солов скидки на бочку эля. Будь человеком, продай мне!",
     ["Gain 1 Development Resource Chest every <Highlight>20 progress</>. Opening it grants a random <Highlight>64 Item Level</> or <Highlight>66 Item Level</> orange or golden quality Equipment, as well as a Contract of Trade that can be used in the <Highlight>Trading Bazaar</> to exchange for <Highlight>tradable items</>, including <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder materials, medicine, food, etc."] = "За каждые <Highlight>20 прогресса</> вы получаете 1 ящик ресурсов развития. В нём можно получить случайный предмет оранжевого или золотого качества с <Highlight>уровнем предмета 64</> или <Highlight>66</>, а также торговые договоры для обмена на <Highlight>обменные предметы</> на <Highlight>Торговом рынке</>: <Highlight>обменные</> ящики оранжевого потустороннего снаряжения, ларцы серой пыли, ларцы кристаллов серого тумана, золотую нить, потусторонние материалы, лекарства, еду и т. д.",
-    ["测试属性buff76"] = "Test Attribute Buff 76",
-    ["破甲晶核"] = "Armor Break Crystal Core",
+    ["测试属性buff76"] = "Тестовый бафф характеристик 76",
+    ["破甲晶核"] = "Кристальное ядро пробивания брони",
+    ["Waiting for the parade to start..."] = "Ожидание начала парада...",
     ["隐秘空间-记忆窃贼-追逐战"] = "Hidden Space - Memory Thief - Chase Sequence",
 }

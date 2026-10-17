@@ -257,8 +257,10 @@ return {
     ["战略技能5阶"] = "Стратегическое умение, ур. 5",
     ["Open to randomly receive one piece of orange or gold quality Equipment with <Highlight>Item Level 66</> or <Highlight>Item Level 68</>, as well as a Contract of Trade that can be exchanged for <Highlight>tradable items</> at the <Highlight>Trading Bazaar</>, such as <Highlight>tradable</> Orange Beyonder Equipment Chests, Gray Fog Dust Boxes, Gray Fog Crystal Boxes, Gold Thread, Beyonder material, medicine, food, etc. There is a chance to additionally receive a piece of Brand Equipment matching the treasure's item level."] = "Откройте, чтобы случайно получить одну единицу снаряжения оранжевого или золотого качества с <Highlight>уровнем предмета 66</> или <Highlight>уровнем предмета 68</>, а также Договор торговли, который можно обменять на <Highlight>обмениваемые предметы</> на <Highlight>Торговом базаре</>: <Highlight>обмениваемые</> оранжевые ящики Потустороннего снаряжения, ларцы пыли Серого тумана, ларцы кристальной крошки Серого тумана, Золотую нить, Потусторонние материалы, лекарства, еду и т. д. Есть некоторый шанс дополнительно получить одну единицу клеймёного снаряжения, соответствующего уровню предметов тайного сокровища.",
     ["攻速提升"] = "Скорость атаки повышена",
+    ["Life Renewed"] = "Возрождение жизни",
     ["米哈遊"] = "miHoYo",
-    ["该动态已删除"] = "This post has been deleted",
+    ["Observe the Library structure"] = "Осмотреть структуру Библиотеки",
+    ["该动态已删除"] = "Эта запись удалена",
     ["玩家ID:"] = "Идентификатор игрока:",
     ["采集指定TemplateID的采集物  延迟执行  对象播放指定对白内容  对象播动作（拥有状态记录）"] = "Соберите указанный элемент коллекции TemplateID; отложенное исполнение; объект воспроизводит указанное содержимое диалога; объект выполняет действие (имеет запись состояния).",
 }

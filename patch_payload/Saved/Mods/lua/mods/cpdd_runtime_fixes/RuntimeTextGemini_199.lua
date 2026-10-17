@@ -286,7 +286,7 @@ return {
     ["收藏家求购雕花立式钢琴"] = "Коллекционер ищет резное пианино",
     ["Starlight Flash"] = "Вспышка звёздного света",
     ["棋子固有回蓝·安西娅"] = "Врожд. восст. маны фигуры·Антея",
-    ["目前，这群“阿蒙”把贝克兰德当作游乐场，到处制造混乱和危险。"] = "Currently, these Amons treat Backlund as their playground, creating chaos and danger everywhere.",
+    ["目前，这群“阿蒙”把贝克兰德当作游乐场，到处制造混乱和危险。"] = "Сейчас эти «Амоны» превратили Бэкланд в площадку для развлечений и повсюду сеют хаос и опасность.",
     ["这是阿蒙分身的恶作剧，他窃取了你们的记忆。"] = "This is a prank by an Amon Avatar; he has stolen your memories.",
     ["那我们先走一步……祝您好运！"] = "Then we'll be heading off first... Good luck!",
     ["goulu-新毒雾爆发疫-点4人（不优先筛T）"] = "goulu-New Poison Fog Burst Plague-Target 4 people (do not prioritize filtering T)",

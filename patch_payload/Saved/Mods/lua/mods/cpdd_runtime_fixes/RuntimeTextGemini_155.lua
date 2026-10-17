@@ -321,6 +321,8 @@ return {
     ["Fashion is a cycle; someone must always reminisce about the past... I wish you a pleasant day."] = "Мода циклична, и кто-то всегда будет тосковать по прошлому... Приятного вам дня.",
     ["梦境占卜-糊火柴盒"] = "Гадание по снам: склеивание спичечных коробков",
     ["Unlock all seven exclusive Resonances in your gambit career."] = "За карьеру в гамбите откройте все семь эксклюзивных резонансов.",
+    ["Mythical: Ring of the Wise Mana Echo"] = "Мифическое: Эхо маны Кольца Мудреца Знаний",
+    ["Iris Street\r\n<LeonSubTitle size=\"38\">Iris Street</>"] = "Улица Айрис\n<LeonSubTitle size=\"38\">Iris Street</>",
     ["贸易站错误，请前往指定贸易站提交委托"] = "Trade station Error, please proceed to the designated trade station to submit your commission",
     ["【自走棋】-痛苦魔女-怨念诅咒"] = "[Auto Chess] - Pain Witch - Resentment Curse",
     ["终末猎杀-草丛12合并隐匿02（含3块原范围）"] = "End Hunt - Bush 12 Merged Concealment 02 (Includes 3 Original Areas)",

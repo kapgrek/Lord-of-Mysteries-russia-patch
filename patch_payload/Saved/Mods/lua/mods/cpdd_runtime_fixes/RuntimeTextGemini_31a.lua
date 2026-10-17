@@ -274,7 +274,7 @@ return {
     ["我藏了十年，你们就一点不生气？"] = "Я прятался десять лет, и вы ничуть не злитесь?",
     ["时轮星仪"] = "Звёздный прибор времени",
     ["Mark_Leyline Surge_Wire-Controlled Array 02"] = "Метка_Выброс земной жилы_Проводной магический круг 02",
-    ["蓄力重击，近身攻击当前目标。"] = "Charged Heavy blow, attacking the current target at close range.",
+    ["蓄力重击，近身攻击当前目标。"] = "Заряженный мощный удар: атакует текущую цель в ближнем бою.",
     ["难怪我突然吃起蛋糕，喝起酒，还把自己当成别人……"] = "No wonder I suddenly started eating cake, drinking wine, and treating myself as someone else...",
     ["馈赠·食铺生效，商会票券数量+800"] = "Gift: Eatery Effect, Chamber of Commerce Ticket quantity +800",
     ["身着赏金猎手时装，触发猎龙帮混混请喝酒分支"] = "",

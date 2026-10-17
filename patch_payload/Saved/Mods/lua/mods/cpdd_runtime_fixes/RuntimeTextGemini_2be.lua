@@ -297,7 +297,8 @@ return {
     ["Friends, welcome to the heart of the Loen Kingdom—"] = "Друзья, добро пожаловать в сердце Королевства Лоэн —",
     ["The inspection is over; you may let your tenant in now."] = "Осмотр окончен, можете впускать своего жильца.",
     ["棋子固有回蓝·巨型尸骸·3星"] = "Врожд. восст. маны фигуры: Гигантские останки, 3 зв.",
-    ["草丛隐匿稳定控制"] = "Bush Concealment Stable Control",
+    ["Wait for <h>Angelo</> to move away"] = "Подождать, пока <h>Анджело</> отойдет",
+    ["草丛隐匿稳定控制"] = "Устойчивый контроль скрытности в кустах",
     ["GTA灰雾押运手枪"] = "GTA Gray Fog Escort Pistol",
     ["Jadir"] = "Джадир",
 }

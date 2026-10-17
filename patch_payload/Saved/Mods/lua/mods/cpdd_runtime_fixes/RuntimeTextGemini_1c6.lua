@@ -278,7 +278,7 @@ return {
     ["I need to go home and see how my parents and sister are doing, but these are things I must face on my own now."] = "Мне нужно домой, проведать родителей и сестру. Не знаю, как они живут, но теперь мне придётся справляться самому.",
     ["I understand what I want to Guard, Mr. Star."] = "Я понял, что хочу защищать, господин «Звезда».",
     ["来自知识的力量？有趣。"] = "Сила от знаний? Любопытно.",
-    ["点击武器外观进行切换或预览。"] = "Click on a weapon appearance to Switch or preview it.",
+    ["点击武器外观进行切换或预览。"] = "Нажмите на облик оружия, чтобы переключить или просмотреть его.",
     ["闭嘴，你这臭鸟！我失忆了，不要惹事！"] = "Shut up, you stinking bird! I've lost my memory, don't cause trouble!",
     ["限时射击_普通宝箱解锁状态_C"] = "Timed Shoot_Normal Chest Unlocked_C",
     ["米尔贡根-符文-连线"] = "Milgongen-Rune-Link",

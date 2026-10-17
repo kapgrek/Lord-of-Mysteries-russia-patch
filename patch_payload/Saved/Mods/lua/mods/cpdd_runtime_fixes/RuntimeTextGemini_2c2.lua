@@ -285,8 +285,10 @@ return {
     ["战法4人"] = "Тактика: 4 чел.",
     ["Executing"] = "Выполняется",
     ["For every <HighLight>1</> Resonance activated, all allies gain +<HighLight>0.3%</> Attack, up to a maximum of <HighLight>10</> Resonances."] = "За каждый активированный резонанс (<HighLight>1</>) все союзники получают +<HighLight>0.3%</> к атаке, учитывается не более <HighLight>10</> резонансов.",
-    ["给你提个醒，你才是真正的猎物……"] = "Let me give you a reminder: you are the real prey...",
-    ["芬奇不想做小丑，迪伦想演主角，这些念头对他们来说很重要，足以改变命运！"] = "Finch doesn't want to be a Clown, and Dylan wants to play the lead role. These thoughts are very important to them—enough to change their fate!",
+    ["Ocean-themed street lamp, with the lamp post adorned with patterns of waves and seashells."] = "Уличный фонарь в морском стиле: столб украшен узором из волн и ракушек.",
+    ["Miss Linda, the Fog Champagne you ordered."] = "Госпожа Линда, ваше туманное шампанское.",
+    ["给你提个醒，你才是真正的猎物……"] = "Дам тебе совет: настоящая добыча — это ты...",
+    ["芬奇不想做小丑，迪伦想演主角，这些念头对他们来说很重要，足以改变命运！"] = "Финч не хочет быть Клоуном, а Дилан хочет сыграть главную роль. Эти мысли очень важны для них и способны изменить судьбу!",
     ["这次，我又睡了多久？这股熟悉的气息……外面的世界发生了什么，吵闹到足以将我唤醒。"] = "На этот раз, как долго я снова спал? Этот знакомый запах... То, что произошло во внешнем мире, было достаточно шумным, чтобы разбудить меня.",
     ["与Npc进行对话  NPC销毁自身（无法销毁玩家和大世界的公有NPC）  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Разговор с NPC NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире) NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",
 }

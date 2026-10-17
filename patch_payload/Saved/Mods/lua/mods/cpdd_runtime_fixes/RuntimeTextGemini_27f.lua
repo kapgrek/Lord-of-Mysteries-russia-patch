@@ -256,5 +256,13 @@ return {
     ["Tingen Northeast to Tingen Central"] = "Северо-восток Тингена → Центр Тингена",
     ["拱形的窗格嵌着幽光，透过它望见的，未必是现实的风景。"] = "В арочную раму окна вставлено тусклое сияние. То, что видно сквозь него, не обязательно пейзаж реальности.",
     ["Advancement Quest - Priest of Light - Ask Leonard"] = "Задание на повышение: Жрец Света — спросить Леонарда",
+    ["No, who are you..."] = "Нет, а ты кто?..",
+    ["Reality Line Chapter 6 - Continue asking for details about Amon"] = "Реальная линия, глава 6 - Продолжить расспросы об Амоне",
+    ["The Chief of the City of Silver's Six-Member Council, a powerful Demon Hunter, and a Warrior who has held firm amidst a millennium of Darkness."] = "Глава «Совета шести» Серебряного города, могущественный «Охотник на Демонов», воин, стоящий насмерть в тысячелетней Тьме.",
+    ["Rare Twilight City Iron Armor"] = "Редкое·Железные доспехи сумеречного города",
+    ["If you count its black eyes, then there's more black."] = "Если считать его чёрные глаза, то чёрного ещё больше.",
+    ["Auto Chess Skill Effect-Civilization Genie"] = "Автобитва: эффект навыка — Исполин цивилизации",
+    ["Bush Concealment Aura - Bush 06"] = "Аура скрытности в кустах - куст 06",
+    ["Bush Concealment Aura - Bush 10"] = "Аура скрытности в кустах - куст 10",
     ["这是她卖出的最后一个玩具，她用这个布偶换到了一些毒堇汁，结束了她和她丈夫饥饿超过三天的生命。\n这个布偶似乎不具备活着的特性，没有试图逃脱封印的趋向。\n<Highlight>持有者</>：黑夜教会。\n<Highlight>对应特性</>：\n<Highlight>外形</>：穿着1300年前后流行的宫廷长裙，裙摆存在难以洗去的污秽痕迹。\n<Highlight>能力</>：厄运相关。\n<Highlight>负面效果</>：让身边的人逐渐倒霉，陷入危机，最终一一死去。经过长期的试验，发现只要每天进入它十米范围内累计不超过半个小时，就不会沾染厄运；如果已经厄运缠身，只要将它转移给另外的主人，状况就会好转。\n<Highlight>封印方式</>：与人类隔离。"] = "This was the last toy she sold. She traded this doll for some hemlock juice, ending the lives of her and her husband, who had been starving for over three days.\nThis doll does not appear to possess the characteristics of being alive and shows no tendency to attempt to escape its seal.\n<Highlight>Holder</>: Church of the Evernight.\n<Highlight>Corresponding Characteristics</>:\n<Highlight>Appearance</>: Wearing a court dress popular around the year 1300, with stains on the hem that are difficult to wash off.\n<Highlight>Abilities</>: Related to Beset by Misfortune.\n<Highlight>Negative Effects</>: Causes those around it to gradually become unlucky, fall into crisis, and eventually die one by one. After long-term testing, it was discovered that as long as one does not enter within a ten-meter radius of it for more than half an hour cumulatively each day, one will not be Beset by Misfortune; if one is already Beset by Misfortune, the situation will improve as soon as it is transferred to another owner.\n<Highlight>Sealing Method</>: Isolation from humans.",
 }

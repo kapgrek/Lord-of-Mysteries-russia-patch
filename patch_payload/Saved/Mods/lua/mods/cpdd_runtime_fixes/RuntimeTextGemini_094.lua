@@ -278,7 +278,7 @@ return {
     ["In the sweet fragrance of the Pleasure potion, Madness and Pleasure twist into a Nightmare."] = "В сладком аромате зелья Удовольствия безумие и блаженство сплетаются в кошмар.",
     ["Open the program list"] = "Открыть программу",
     ["Collect all 1-cost 3-star entries in your gambit career."] = "За карьеру в Гамбите соберите все трёхзвёздочные записи стоимости 1.",
-    ["生命高于<HighLight>50%</>时额外获得<HighLight>12%</>伤害减免。"] = "Gain an additional <HighLight>12%</> Damage Reduction when Health is above <HighLight>50%</>.",
+    ["生命高于<HighLight>50%</>时额外获得<HighLight>12%</>伤害减免。"] = "Когда здоровье выше <HighLight>50%</>, вы дополнительно получаете <HighLight>12%</> снижения урона.",
     ["这个世界，只有猎人和猎物，你想成为哪一边？"] = "In this world, there are only hunters and prey. Which side do you want to be on?",
     ["随意消灭分身会暴露行动，让我们更难定位到序列3污染分身。"] = "Destroying the avatars at will will expose our actions, making it harder for us to locate the Sequence 3 corruption avatar.",
     ["征服宣令进攻方安全区"] = "Conquest Decree Attacker Safe Zone",

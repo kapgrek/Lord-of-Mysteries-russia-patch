@@ -275,6 +275,10 @@ return {
     ["是否使得这次修改对整个Combo技能生效"] = "Применить это изменение ко всему комбо-навыку?",
     ["查看<h>敞开的行李箱</>"] = "Осмотреть <h>открытый чемодан</>",
     ["The number of full members has reached the limit. Please perform operations in the member candidate quick adjustment."] = "Число полноправных участников достигло предела, выполните действие в быстрой настройке резерва участников.",
-    ["脑海中"] = "In the mind",
+    ["Candlelight sways beneath the stained-glass windows, and the blessing of Slumber flows with the sound of the pipe organ."] = "Свечи тихо колышутся под витражами, и благословение Сна течёт вместе со звуками органа.",
+    ["Reality Route Chapter 7 - Placeholder"] = "Реальная линия, глава 7 - Заглушка",
+    ["After watching them have a full meal..."] = "Глядя, как они сытно поели...",
+    ["Arcane 6-person additional mana regeneration"] = "Тайное искусство: доп. восстановление маны (6 чел.)",
+    ["脑海中"] = "В мыслях",
     ["限制前行"] = "Restrict Forward Movement",
 }

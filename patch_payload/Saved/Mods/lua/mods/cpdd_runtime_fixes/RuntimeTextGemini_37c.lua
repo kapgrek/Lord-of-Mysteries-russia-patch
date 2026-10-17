@@ -264,6 +264,7 @@ return {
     ["No Bystanders"] = "Без наблюдателей",
     ["Yes, yes! Before you go to see Miss Dorothy, check your pockets. It's best to make your waistband jingle with the sound of Gold Coins."] = "Да-да! Перед встречей с госпожой Дороти проверь карманы, лучше, чтобы пояс звенел золотыми монетами.",
     ["查尼斯门？"] = "Врата Чанис?",
-    ["真实诅咒"] = "True Curse",
+    ["真实诅咒"] = "Истинное проклятие",
+    ["Street Scenery"] = "Уличные виды",
     ["<HighLight>%s秒</>后开始下一局匹配"] = "Следующий подбор начнется через <HighLight>%s сек.</>",
 }

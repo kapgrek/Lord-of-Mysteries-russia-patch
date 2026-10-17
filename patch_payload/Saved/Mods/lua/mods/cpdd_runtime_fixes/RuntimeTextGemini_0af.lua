@@ -262,5 +262,8 @@ return {
     ["I'm leaving, I'm leaving right now. Please, have mercy and give me a few more minutes. I haven't begged for enough money for a meal yet—"] = "Ухожу, сейчас же ухожу. Смилуйтесь, дайте ещё пару минут, я ещё не насобирал на еду…",
     ["The \"Magic Mirror of Despair\" mentioned in the report was destroyed by the Nighthawks during the disaster in Tingen in the Mirror, and its fragments are sealed behind the Chanis Gate."] = "«Зеркало отчаяния», упомянутое в отчёте, было уничтожено Ночными Ястребами во время катастрофы в Тингене в Зазеркалье. Его осколки запечатаны за вратами Чаниса.",
     ["暗影之刃"] = "Теневой клинок",
-    ["灵魂随乐声起舞，死亡是一场欢快的庆典。"] = "The soul dances to the music; death is a joyous celebration.",
+    ["Polling Agency - Exterior 2"] = "Агентство опросов — снаружи 2",
+    ["灵魂随乐声起舞，死亡是一场欢快的庆典。"] = "Душа пляшет под музыку, смерть — радостный праздник.",
+    ["Explosion Order: Food Shop"] = "Взрыв заказов · Лавка еды",
+    ["Whispers of the Curse - Thugs threaten Linda"] = "Шёпот проклятия: бандиты угрожают Линде",
 }

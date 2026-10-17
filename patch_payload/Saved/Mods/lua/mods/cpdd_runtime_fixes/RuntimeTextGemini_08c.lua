@@ -254,5 +254,6 @@ return {
     ["Chronos Crystal · Noon"] = "Кристалл времени · Полдень",
     ["Need for Speed"] = "Жажда скорости",
     ["When Health first drops below <HighLight>50%</> in each battle, damage taken is reduced by <HighLight>20%</> for <HighLight>5</> seconds."] = "Когда ОЗ впервые опускаются ниже <HighLight>50%</> в каждом бою, получаемый урон снижается на <HighLight>20%</> на <HighLight>5</> сек.",
-    ["花海南部补给"] = "South Flower Sea Supplies",
+    ["Rare Battle Intent Staff Attack Layer"] = "Редкое·Посох боевого духа: слой атаки",
+    ["花海南部补给"] = "Припасы юга Цветочного моря",
 }

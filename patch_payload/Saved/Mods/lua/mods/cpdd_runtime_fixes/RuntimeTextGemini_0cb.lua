@@ -262,6 +262,8 @@ return {
     ["Family Profit Ranking"] = "Рейтинг прибыли семей",
     ["Tingen Northeast to Tingen Station"] = "Северо-восток Тингена → Вокзал Тингена",
     ["您是不是早就知道玛丽奶奶的事？"] = "Вы ведь давно знали про бабушку Мэри?",
+    ["Amber Dried Shrimp Transport"] = "Доставка янтарных сушёных креветок",
+    ["Immediately gain <HighLight>7 Gold</>. <HighLight>Each round</>, gain an additional <HighLight>1 Gold</>."] = "Немедленно получите <HighLight>7 монет</>. <HighLight>Каждый раунд</> получайте дополнительно <HighLight>1 монету</>.",
     ["隐秘空间-记忆窃贼-初见维克"] = "Hidden Space - Memory Thief - First Encounter with Vick",
     ["马贼在加班。这不有个现成的路人吗？邀请他打一把人机？"] = "The horse thief is working overtime. Isn't there a passerby right here? Why not invite him to a bot match?",
     ["破妄之眼筛选目标-优先给队伍中无BUFF的-高级可覆盖低级"] = "Eye of Truth target selection - prioritize team members without buffs - high-level can overwrite low-level",

@@ -320,6 +320,8 @@ return {
     ["手臂"] = "Рука",
     ["You came last night at midnight, too, all by yourself."] = "Вчера в полночь ты тоже приходил. Один.",
     ["Determine whether to execute hiding based on the configured hidden conditions, executed once every 1s."] = "Проверяет заданные условия скрытия и решает, выполнять ли скрытие; проверка раз в 1 сек.",
+    ["Sofa area, Joyce writing"] = "Зона с диванами, Джойс крупным планом",
+    ["Slay Immortals"] = "Убийство бессмертных",
     ["雪山东部"] = "East Snowy Mountain",
     ["播放CutScene  传送回大世界场景"] = "Воспроизвести кат-сцену, телепортировать обратно в открытый мир",
     ["Jame"] = "Джеймс",

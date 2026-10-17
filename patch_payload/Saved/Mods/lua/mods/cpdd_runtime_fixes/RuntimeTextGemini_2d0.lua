@@ -267,7 +267,12 @@ return {
     ["战略服势力调整提醒"] = "Напоминание о смене фракции на стратегическом сервере",
     ["找个<h>人少的地方</>"] = "Найти <h>малолюдное место</>",
     ["Successfully land the final blow on the Banner 1 time"] = "Нанести завершающий удар по Знамени 1 раз",
-    ["爆单·酒庄生效，卖价+150%"] = "Explosion Order: Winery active; selling price +150%.",
+    ["What is the Eternal Emperor"] = "Что такое Вечный Император",
+    ["爆单·酒庄生效，卖价+150%"] = "Взрыв заказов · Винодельня действует, цена продажи +150%",
+    ["Star of Wishing"] = "Звезда желаний",
+    ["Continue searching for the <h>Postman</>"] = "Продолжить поиски <h>почтальона</>",
+    ["Gain <HighLight>1 Fine Equipment Chest</>."] = "Получите <HighLight>1 Отборный сундук снаряжения</>.",
+    ["Gain Attack Boost."] = "Получено усиление атаки.",
     ["玩家秘偶-奇迹牌雨 改 测试验证用"] = "Player marionette - Miracle Card Rain (Modified for test verification)",
     ["<Highlight>Craft: </>Flowing Light Silk/Scale Powder Pointing\nAlthough the butterfly has already left at dusk, the phantom of its wings still lingers on the cloak."] = "<Highlight>Мастерство: </>Струящийся шелк · Роспись чешуйчатой пыльцой\nХотя бабочка уже улетела в сумерках, фантом её крыльев всё ещё задерживается на плаще.",
 }
