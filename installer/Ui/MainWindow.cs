@@ -24,7 +24,7 @@ namespace LotmRussianPatcher
             "DpsNative", "DpsAdvanced", "DpsExternal", "DpsOff", "DpsHint", "LaunchMeterButton",
             "ClarityCheck",
             "MainButton", "ApplyButton", "UninstallButton", "ProgressRow", "Progress", "ProgressText", "CancelButton",
-            "LogBox", "TelegramChannelButton", "TelegramAuthorButton", "BoostyButton",
+            "LogBox", "SendLogsButton", "TelegramChannelButton", "TelegramAuthorButton", "BoostyButton",
             "CpddLink", "PayloadText"
         };
 
@@ -39,7 +39,7 @@ namespace LotmRussianPatcher
         private readonly TextBlock statusText, folderCheckText, dpsHint, progressText, payloadText;
         private readonly FrameworkElement folderHowToHint, progressRow;
         private readonly TextBox gamePathBox, logBox;
-        private readonly Button autoDetectButton, browseButton, launchMeterButton, mainButton, applyButton, uninstallButton, cancelButton;
+        private readonly Button autoDetectButton, browseButton, launchMeterButton, mainButton, applyButton, uninstallButton, cancelButton, sendLogsButton;
         private readonly RadioButton dpsNative, dpsAdvanced, dpsExternal, dpsOff;
         private readonly CheckBox clarityCheck;
         private readonly ProgressBar progress;
@@ -114,6 +114,7 @@ namespace LotmRussianPatcher
             progressText = UiKit.Find<TextBlock>(window, "ProgressText");
             cancelButton = UiKit.Find<Button>(window, "CancelButton");
             logBox = UiKit.Find<TextBox>(window, "LogBox");
+            sendLogsButton = UiKit.Find<Button>(window, "SendLogsButton");
             payloadText = UiKit.Find<TextBlock>(window, "PayloadText");
 
             dpsNative.ToolTip = Tip("Простой счётчик: кнопка «Статистика» самой игры доступна во всех режимах.");
@@ -121,6 +122,7 @@ namespace LotmRussianPatcher
             dpsExternal.ToolTip = Tip("Внешний счётчик: данные боя передаются в отдельное окно-оверлей Lord of Mysteries Combat Meter.");
             dpsOff.ToolTip = Tip("Выключает все счётчики урона.");
             clarityCheck.ToolTip = Tip(ClarityTooltip);
+            sendLogsButton.ToolTip = Tip("Копирует 3 последних лога игры в папку рядом с установщиком и подсказывает, куда их отправить.");
             launchMeterButton.ToolTip = Tip("Запускает Saved\\Mods\\ExternalDpsMeter\\Lord of Mysteries Combat Meter.exe. Доступно в режиме «Внешний».");
             UiKit.Find<TextBlock>(window, "CreditsText").ToolTip = Tip("Русификатор использует загрузчик, моды и DPS-метр английского патча CPDD.");
 
@@ -175,6 +177,7 @@ namespace LotmRussianPatcher
             foreach (RadioButton rb in new[] { dpsNative, dpsAdvanced, dpsExternal, dpsOff }) rb.Checked += optionChanged;
             clarityCheck.Checked += optionChanged; clarityCheck.Unchecked += optionChanged;
             launchMeterButton.Click += (s, e) => LaunchMeter();
+            sendLogsButton.Click += (s, e) => SendLogsAsync();
             mainButton.Click += (s, e) => InstallAsync();
             applyButton.Click += (s, e) => ApplyAsync();
             uninstallButton.Click += (s, e) => UninstallAsync();
@@ -409,7 +412,7 @@ namespace LotmRussianPatcher
             applyButton.IsEnabled = ready && installed && writtenOptions != null && !CurrentOptions().SameAs(writtenOptions);
             uninstallButton.IsEnabled = ready && state.HasOwnFiles;
             launchMeterButton.IsEnabled = !busy && gameDir != null && dpsExternal.IsChecked == true && new GameOptions(gameDir, null).CombatMeterExists;
-            foreach (UIElement e in new UIElement[] { gamePathBox, autoDetectButton, browseButton }) e.IsEnabled = !busy;
+            foreach (UIElement e in new UIElement[] { gamePathBox, autoDetectButton, browseButton, sendLogsButton }) e.IsEnabled = !busy;
         }
 
         private void CheckBlocker()
@@ -474,6 +477,36 @@ namespace LotmRussianPatcher
             string error;
             if (PatcherBackend.LaunchCombatMeter(gameDir, out error)) Log("Внешний счётчик запущен.");
             else { Log("ОШИБКА: " + error); UiKit.Message(window, "Внешний счётчик", error, true); }
+        }
+
+        // Available while the game runs or the version is unsupported: that is when logs are needed.
+        private async void SendLogsAsync()
+        {
+            if (gameDir == null)
+            {
+                UiKit.Message(window, "Отправить логи", "Сначала укажите папку игры.", false);
+                return;
+            }
+            string dir = gameDir;
+            BeginOperation(false);
+            LogCollectResult res;
+            try { res = await Task.Run(() => LogCollector.Collect(dir, PayloadSource.ExeDir)); }
+            catch (Exception ex) { res = new LogCollectResult { Error = ex.Message }; }
+            EndOperation();
+            if (res.Error != null)
+            {
+                Log("ОШИБКА сбора логов: " + res.Error);
+                UiKit.Message(window, "Логи не собраны", res.Error, true);
+                return;
+            }
+            Log("Логи скопированы: " + res.Folder + " (" + res.Files.Count + " файла)" + (res.UsedFallback ? " — рядом с установщиком писать нельзя, папка на Рабочем столе" : ""));
+            string dm = Links.Get(Links.TelegramDm);
+            string text = "Логи сохранены в папку:\n" + res.Folder + "\n\nОтправьте файлы из этой папки в личные сообщения Telegram: "
+                + (dm ?? "t.me/KapGrek").Replace("https://", "") + ". Коротко опишите проблему: что делали и что пошло не так.";
+            if (!UiKit.Confirm(window, "Логи собраны", text, "Открыть папку и Telegram", "Закрыть", false)) return;
+            try { System.Diagnostics.Process.Start("explorer.exe", "\"" + res.Folder + "\""); }
+            catch (Exception ex) { Log("Не удалось открыть Проводник: " + ex.Message); }
+            if (dm != null) Links.Open(dm);
         }
 
         // ------------------------------------------------------------ operations

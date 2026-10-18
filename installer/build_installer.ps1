@@ -23,7 +23,7 @@ $refs = @("System.dll", "System.Core.dll", "System.Xml.dll", "System.IO.Compress
     "$fw\System.Xaml.dll", "$fw\WPF\PresentationFramework.dll", "$fw\WPF\PresentationCore.dll", "$fw\WPF\WindowsBase.dll") | ForEach-Object { "/r:`"$_`"" }
 
 # Sources and embedded resources (tools/BuildTools.ps1 builds InstallerCoreTests from the same lists)
-$sources = @('Program.cs', 'AppInfo.cs', 'PatcherBackend.cs', 'PayloadSource.cs', 'GameOptions.cs', 'InstallerCore.cs', 'AssemblyInfo.cs',
+$sources = @('Program.cs', 'AppInfo.cs', 'PatcherBackend.cs', 'PayloadSource.cs', 'GameOptions.cs', 'InstallerCore.cs', 'LogCollector.cs', 'AssemblyInfo.cs',
     'Ui\UiKit.cs', 'Ui\MainWindow.cs', 'Ui\HowToPlayWindow.cs', 'Ui\FolderPicker.cs', 'Ui\Links.cs')
 $resources = [ordered]@{
     'supported_game.json'     = 'LotmRussianPatcher.supported_game.json'   # fallback when the data zip has none

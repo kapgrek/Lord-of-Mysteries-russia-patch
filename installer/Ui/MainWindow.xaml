@@ -149,7 +149,10 @@
 
             <!-- ЖУРНАЛ -->
             <DockPanel Margin="0,16,0,0">
-                <TextBlock DockPanel.Dock="Top" Text="ЖУРНАЛ" Style="{StaticResource Caption}"/>
+                <Grid DockPanel.Dock="Top" Margin="0,0,0,6">
+                    <TextBlock Text="ЖУРНАЛ" Style="{StaticResource Caption}" Margin="0" VerticalAlignment="Bottom"/>
+                    <Button x:Name="SendLogsButton" HorizontalAlignment="Right" Padding="12,4" FontSize="12" Content="Отправить логи"/>
+                </Grid>
                 <TextBox x:Name="LogBox" IsReadOnly="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto"
                          FontFamily="Consolas" FontSize="12" Foreground="#AEB7C6" Padding="8,6" MinHeight="90"/>
             </DockPanel>

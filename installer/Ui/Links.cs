@@ -15,6 +15,7 @@ namespace LotmRussianPatcher
         public const string ResourceName = "LotmRussianPatcher.links.json";
         public const string TelegramChannel = "telegram_channel";
         public const string TelegramAuthor = "telegram_author";
+        public const string TelegramDm = "telegram_dm";   // the author's direct messages: logs go there ("Отправить логи")
         public const string Boosty = "boosty";
         public const string CpddDiscord = "cpdd_discord";
         public const string Github = "github";

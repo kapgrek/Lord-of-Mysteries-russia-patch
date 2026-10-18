@@ -85,6 +85,8 @@ public static class InstallerCoreTests
         Run("payload: --payload folder / zip", PayloadExplicit);
         Run("payload: cache only with matching release.json", PayloadCache);
         Run("versions: installed Init.lua VERSION and comparison", VersionsCompare);
+        Run("logs: 3 newest C7*.log + info.txt, rerun, open file, no logs", LogCollectorCopies);
+        Run("logs: exe folder not writable -> Desktop", LogCollectorFallback);
         Run("markup: MainWindow.xaml / HowToPlayWindow.xaml load, all names found", InSta(MarkupLoads));
         Run("links.json: embedded links valid, bad ones dropped", LinksValidation);
         Run("HowToPlay.md -> FlowDocument: sections, lists, links, image", InSta(HowToPlayParses));
@@ -892,6 +894,68 @@ public static class InstallerCoreTests
         Assert(PatcherBackend.CompareVersions("3.0.0-RU", "v3.0.0-RU") == 0, "tag vs version equal");
     }
 
+    // ------------------------------------------------------------ logs (installer/LogCollector.cs)
+
+    static string LogsGame(string name, int count)
+    {
+        string game = OptionsGame(name);
+        DateTime t = new DateTime(2026, 10, 1, 12, 0, 0, DateTimeKind.Utc);
+        for (int i = 0; i < count; i++)
+        {
+            string p = Path.Combine(game, @"Saved\Logs", i == 0 ? "C7.log" : "C7-backup-2026.10.0" + i + ".log");
+            WriteText(p, "log " + i + "\n");
+            File.SetLastWriteTimeUtc(p, t.AddHours(-i));   // C7.log newest, then backup-1, backup-2...
+        }
+        WriteText(Path.Combine(game, @"Saved\Logs\other.txt"), "x\n");
+        return game;
+    }
+
+    static void LogCollectorCopies()
+    {
+        string game = LogsGame("logs-copy", 5);
+        string exe = Path.Combine(testRoot, "logs-copy", "exe");
+        LogCollector.DesktopDir = Path.Combine(testRoot, "logs-copy", "desktop");
+        string folder = Path.Combine(exe, LogCollector.FolderName);
+        WriteText(Path.Combine(folder, "C7-stale.log"), "old\n");
+        WriteText(Path.Combine(folder, "keep.txt"), "foreign\n");
+
+        LogCollectResult r;
+        // C7.log is held open for writing as the running game does.
+        using (var hold = new FileStream(Path.Combine(game, @"Saved\Logs\C7.log"), FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+        {
+            r = LogCollector.Collect(game, exe);
+        }
+        Assert(r.Error == null && r.Folder == folder && !r.UsedFallback, "collected next to the exe: " + r.Error);
+        var logs = new List<string>(Directory.GetFiles(folder, "*.log"));
+        logs.Sort(StringComparer.OrdinalIgnoreCase);
+        Assert(logs.Count == 3, "exactly 3 logs, stale one removed: " + logs.Count);
+        Assert(File.Exists(Path.Combine(folder, "C7.log")) && File.Exists(Path.Combine(folder, "C7-backup-2026.10.01.log"))
+            && File.Exists(Path.Combine(folder, "C7-backup-2026.10.02.log")), "the 3 newest by LastWriteTime");
+        Assert(File.ReadAllText(Path.Combine(folder, "C7.log")) == "log 0\n", "open C7.log copied");
+        Assert(File.Exists(Path.Combine(folder, "keep.txt")), "foreign file in the folder kept");
+        string info = File.ReadAllText(Path.Combine(folder, LogCollector.InfoName));
+        Assert(info.Contains(AppInfo.Version) && info.Contains("Версия игры") && info.Contains("AssetsVersion.txt: нет файла"), "info.txt with the version section");
+        Assert(info.Contains("Кеш обновления (InspectCache): NoCachePak"), "info.txt has InspectCache");
+
+        r = LogCollector.Collect(game, exe);
+        Assert(r.Error == null && Directory.GetFiles(folder, "*.log").Length == 3, "rerun leaves 3 logs");
+
+        r = LogCollector.Collect(OptionsGame("logs-none"), exe);
+        Assert(r.Error != null && r.Error.Contains("Запустите игру") && r.Folder == null, "no Saved\\Logs -> error, no exception");
+        Assert(LogCollector.MaskUser(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\x") == @"%USERPROFILE%\x", "user profile masked");
+    }
+
+    static void LogCollectorFallback()
+    {
+        string game = LogsGame("logs-fallback", 2);
+        string notADir = Path.Combine(testRoot, "logs-fallback", "exe-is-a-file");
+        WriteText(notADir, "file\n");   // outRoot\AbsoluteRU_logs cannot be created
+        LogCollector.DesktopDir = Path.Combine(testRoot, "logs-fallback", "desktop");
+        LogCollectResult r = LogCollector.Collect(game, notADir);
+        Assert(r.Error == null && r.UsedFallback && r.Folder == Path.Combine(LogCollector.DesktopDir, LogCollector.FolderName), "fallback to the Desktop: " + r.Error);
+        Assert(r.Files.Count == 2 && File.Exists(Path.Combine(r.Folder, "C7.log")), "2 logs on the Desktop");
+    }
+
     // ------------------------------------------------------------ UI: markup, links, "Как играть" (installer/Ui)
 
     // WPF objects need an STA thread; exceptions are rethrown into Run.
@@ -926,9 +990,10 @@ public static class InstallerCoreTests
     static void LinksValidation()
     {
         var links = Links.Load();
-        Assert(links.Count == 5, "5 embedded links: " + links.Count);
+        Assert(links.Count == 6, "6 embedded links: " + links.Count);
         Assert(Links.Get(Links.TelegramChannel) == "https://t.me/LoM_ru_patch", "telegram_channel");
         Assert(Links.Get(Links.TelegramAuthor) == "https://t.me/AbsoluteGrek", "telegram_author");
+        Assert(Links.Get(Links.TelegramDm) == "https://t.me/KapGrek", "telegram_dm");
         Assert(Links.Get(Links.Boosty) == "https://boosty.to/kapgrek", "boosty");
         Assert(Links.Get(Links.CpddDiscord) == "https://discord.gg/yyds", "cpdd_discord");
         Assert(Links.Get(Links.Github) == "https://github.com/" + AppInfo.Repo, "github");
