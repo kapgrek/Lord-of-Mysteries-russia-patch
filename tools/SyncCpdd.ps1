@@ -325,14 +325,18 @@ function Get-SupportedGameJson($release, [string]$tag, [string]$cacheBlockPath) 
   }
 "@
     }
+    # Format 2 (TASK-038): base_launch_block instead of launch_block breaks the parser of installers before 3.1.1,
+    # so they refuse new data instead of installing it without the kscache bridge.
     @"
 {
+  "format": 2,
+  "min_installer_version": "$MinInstallerVersion",
   "source": "CPDD $tag release.json",
   "game_build": "$build",
   "supported_base_paks": [
 $($pakLines -join ",`n")
   ],
-  "launch_block": {
+  "base_launch_block": {
     "pak_relative_path": "$($lb.pak_relative_path)",
     "offset": $($lb.offset),
     "size": $($lb.size),
@@ -345,6 +349,12 @@ $($pakLines -join ",`n")
 "@ -replace "`r`n", "`n"
 }
 $supportedPath = Join-Path $root 'installer\supported_game.json'
+# Kept from the current file: raised by hand when the installer logic changes (docs/LESSONS.md, TASK-038).
+$MinInstallerVersion = '3.1.1-RU'
+if (Test-Path $supportedPath) {
+    $curMin = ([IO.File]::ReadAllText($supportedPath, $utf8) | ConvertFrom-Json).min_installer_version
+    if ($curMin) { $MinInstallerVersion = $curMin }
+}
 $supportedWanted = (Get-SupportedGameJson $theirs.Release $Tag $theirs.CacheBlock) + "`n"
 $supportedCurrent = if (Test-Path $supportedPath) { [IO.File]::ReadAllText($supportedPath, $utf8) } else { '' }
 $gamestateChanged = ($supportedCurrent -replace '"source":[^\n]*', '') -ne ($supportedWanted -replace '"source":[^\n]*', '')

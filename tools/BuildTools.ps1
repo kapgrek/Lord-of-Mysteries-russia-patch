@@ -17,7 +17,7 @@ $tools = @('ShardCompiler', 'FixCapitalization', 'MergeOldTranslation', 'MergeTr
 if ($Only.Count -gt 0) { $tools = $tools | Where-Object { $Only -contains $_ } }
 
 # Extra sources compiled into a tool (paths relative to the repository root)
-$installerSources = @('InstallerCore.cs', 'GameOptions.cs', 'PayloadSource.cs', 'PatcherBackend.cs', 'AppInfo.cs', 'LogCollector.cs', 'InstallerLog.cs',
+$installerSources = @('InstallerCore.cs', 'GameOptions.cs', 'PayloadSource.cs', 'PatcherBackend.cs', 'AppInfo.cs', 'LogCollector.cs', 'InstallerLog.cs', 'KsLocalCache.cs',
     'Ui\UiKit.cs', 'Ui\MainWindow.cs', 'Ui\HowToPlayWindow.cs', 'Ui\FolderPicker.cs', 'Ui\Links.cs') | ForEach-Object { "installer\$_" }
 $extraSources = @{
     'InstallerCoreTests' = $installerSources

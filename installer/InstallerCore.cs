@@ -67,6 +67,7 @@ namespace LotmRussianPatcher
 
         public long Offset;
         public string Kind;
+        public bool? Live;   // by Saved/kscache/local.cache (TASK-038); null when the index was not read
     }
 
     public class CacheInfo
@@ -85,7 +86,13 @@ namespace LotmRussianPatcher
     {
         public const string FileName = "supported_game.json";
         public const string ResourceName = "LotmRussianPatcher.supported_game.json";
+        // Format 2 (TASK-038): "launch_block" renamed to "base_launch_block". Installers before 3.1.1 throw
+        // "launch_block is missing" on it and refuse, instead of installing new data with their old logic
+        // (they take releases/latest and know nothing about the kscache bridge).
+        public const int CurrentFormat = 2;
 
+        public int Format = CurrentFormat;
+        public string MinInstallerVersion;   // "3.1.1-RU": an older installer refuses to install this data
         public string Source;
         public string GameBuild;
         public List<BasePak> BasePaks = new List<BasePak>();
@@ -105,6 +112,8 @@ namespace LotmRussianPatcher
             if (root == null) throw new InvalidDataException("supported_game.json is empty");
 
             var game = new SupportedGame();
+            game.Format = (int)GetLong(root, "format");
+            game.MinInstallerVersion = GetString(root, "min_installer_version");
             game.Source = GetString(root, "source");
             game.GameBuild = GetString(root, "game_build");
 
@@ -119,9 +128,11 @@ namespace LotmRussianPatcher
                 }
             }
 
+            // "launch_block": format 1, still found in Saved/RussianPatchBackups/supported_game.json of older installs.
             object lbObj;
-            var lb = root.TryGetValue("launch_block", out lbObj) ? lbObj as Dictionary<string, object> : null;
-            if (lb == null) throw new InvalidDataException("supported_game.json: launch_block is missing");
+            var lb = root.TryGetValue("base_launch_block", out lbObj) ? lbObj as Dictionary<string, object> : null;
+            if (lb == null && root.TryGetValue("launch_block", out lbObj)) lb = lbObj as Dictionary<string, object>;
+            if (lb == null) throw new InvalidDataException("supported_game.json: base_launch_block is missing");
             string rel = GetString(lb, "pak_relative_path");
             if (!string.IsNullOrEmpty(rel)) game.PakRelativePath = rel;
             game.Offset = GetLong(lb, "offset");
@@ -182,14 +193,16 @@ namespace LotmRussianPatcher
         public string ToJson()
         {
             var sb = new StringBuilder();
-            sb.Append("{\n  \"source\": \"").Append(Escape(Source)).Append("\",\n");
+            sb.Append("{\n  \"format\": ").Append(CurrentFormat).Append(",\n");
+            if (!string.IsNullOrEmpty(MinInstallerVersion)) sb.Append("  \"min_installer_version\": \"").Append(Escape(MinInstallerVersion)).Append("\",\n");
+            sb.Append("  \"source\": \"").Append(Escape(Source)).Append("\",\n");
             sb.Append("  \"game_build\": \"").Append(Escape(GameBuild)).Append("\",\n  \"supported_base_paks\": [\n");
             for (int i = 0; i < BasePaks.Count; i++)
             {
                 sb.AppendFormat("    {{ \"name\": \"{0}\", \"sha256\": \"{1}\", \"size\": {2} }}{3}\n",
                     Escape(BasePaks[i].Name), BasePaks[i].Sha256, BasePaks[i].Size, i + 1 < BasePaks.Count ? "," : "");
             }
-            sb.Append("  ],\n  \"launch_block\": {\n");
+            sb.Append("  ],\n  \"base_launch_block\": {\n");
             sb.Append("    \"pak_relative_path\": \"").Append(Escape(PakRelativePath)).Append("\",\n");
             sb.Append("    \"offset\": ").Append(Offset).Append(",\n");
             sb.Append("    \"size\": ").Append(BlockSize).Append(",\n");
@@ -304,8 +317,16 @@ namespace LotmRussianPatcher
             info.PakPath = pak;
             info.PakSize = new FileInfo(pak).Length;
 
+            // Live chunks of the pak (TASK-038): the launcher appends a re-downloaded pak without truncating it,
+            // so dead copies of the launch block may stay in the file. null = local.cache not read.
+            string relPak = version + "/" + Path.GetFileName(pak);
+            List<long> starts;
+            try { starts = KsLocalCache.ChunkStarts(Path.Combine(gameDir, KsCacheRel, KsLocalCache.FileName), relPak); }
+            catch (IOException) { starts = null; }
+            bool liveKnown = starts != null && starts.Count > 0;
+
             // A bridge we wrote ourselves: the record keeps the offset, so no scan is needed.
-            long recorded = ReadCacheRecordOffset(version, pak);
+            long recorded = ReadCacheRecordOffset(version, pak, liveKnown ? starts : null, info.PakSize);
             if (recorded >= 0) { info.State = CacheState.Installed; info.Offset = recorded; return info; }
 
             CacheLaunch c = game.Cache;
@@ -328,6 +349,7 @@ namespace LotmRussianPatcher
             List<long>[] hits = FindAll(pak, new[] { originalHead, installedHead });
             var clean = new List<long>();
             var installed = new List<long>();
+            int dead = 0;
             using (var fs = new FileStream(pak, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
                 for (int k = 0; k < 2; k++)
@@ -336,22 +358,28 @@ namespace LotmRussianPatcher
                     {
                         byte[] b = ReadAt(fs, at, c.Size);
                         bool match = b != null && Sha256(b) == (k == 0 ? c.CleanSha256 : c.InstalledSha256);
-                        if (match) (k == 0 ? clean : installed).Add(at);
-                        info.Hits.Add(new CacheHit { Offset = at, Kind = match ? (k == 0 ? CacheHit.Clean : CacheHit.Bridge) : CacheHit.HeadOnly });
+                        bool? live = liveKnown ? KsLocalCache.IsLive(starts, at, c.Size, info.PakSize) : (bool?)null;
+                        // Dead copies stay in Hits for the report but are never candidates: the game does not read them.
+                        if (match && live != false) (k == 0 ? clean : installed).Add(at);
+                        else if (match) dead++;
+                        info.Hits.Add(new CacheHit { Offset = at, Kind = match ? (k == 0 ? CacheHit.Clean : CacheHit.Bridge) : CacheHit.HeadOnly, Live = live });
                     }
                 }
             }
             info.Hits.Sort((a, b) => a.Offset.CompareTo(b.Offset));
+            string where = KsCacheRel + "\\" + version + "\\" + c.PakName;
+            string why = starts == null ? "; local.cache не прочитан" : starts.Count == 0 ? "; в local.cache нет записей для " + relPak : "";
             int total = clean.Count + installed.Count;
             if (total == 0)
             {
                 info.State = CacheState.NotFound;
-                info.Detail = "блок запуска не найден в " + KsCacheRel + "\\" + version + "\\" + c.PakName + " " + HitsDetail(info);
+                info.Detail = (liveKnown ? "блок запуска не найден среди живых данных " + where + ", мёртвых копий: " + dead : "блок запуска не найден в " + where)
+                    + " " + HitsDetail(info);
             }
             else if (total > 1)
             {
                 info.State = CacheState.Ambiguous;
-                info.Detail = "найдено " + total + " подходящих блоков запуска в " + KsCacheRel + "\\" + version + "\\" + c.PakName + " " + HitsDetail(info);
+                info.Detail = "найдено " + total + (liveKnown ? " живых" : "") + " подходящих блоков запуска в " + where + why + " " + HitsDetail(info);
             }
             else
             {
@@ -370,16 +398,22 @@ namespace LotmRussianPatcher
         public static string DescribeHits(List<CacheHit> hits, int max)
         {
             var parts = new List<string>();
-            for (int i = 0; i < hits.Count && i < max; i++) parts.Add(hits[i].Offset + " " + hits[i].Kind);
+            for (int i = 0; i < hits.Count && i < max; i++)
+            {
+                parts.Add(hits[i].Offset + " " + hits[i].Kind + (hits[i].Live.HasValue ? (hits[i].Live.Value ? " живой" : " мёртвый") : ""));
+            }
             if (hits.Count > max) parts.Add("… всего " + hits.Count);
             return string.Join(", ", parts.ToArray());
         }
 
         // Offset from Saved/RussianPatchBackups/cache-launch-<ver>.json when the bridge is still there, otherwise -1.
-        private long ReadCacheRecordOffset(string version, string pak)
+        // With local.cache read (liveStarts != null) the recorded copy must also be live: after a re-download our bridge
+        // may be left in the dead part of the file, and "installed" would hide a bridge the game never reads.
+        private long ReadCacheRecordOffset(string version, string pak, List<long> liveStarts, long pakSize)
         {
             CacheRecord r = ReadCacheRecord(CacheRecordPath(version));
             if (r == null || !string.Equals(Game(r.Pak), pak, StringComparison.OrdinalIgnoreCase)) return -1;
+            if (liveStarts != null && !KsLocalCache.IsLive(liveStarts, r.Offset, r.Size, pakSize)) return -1;
             using (var fs = new FileStream(pak, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
                 byte[] b = ReadAt(fs, r.Offset, r.Size);
@@ -472,50 +506,55 @@ namespace LotmRussianPatcher
             bool ok = true;
             foreach (string recordPath in Directory.GetFiles(BackupDir, CacheBackupPrefix + "*.json"))
             {
-                string blockPath = Path.ChangeExtension(recordPath, ".block");
-                CacheRecord r = ReadCacheRecord(recordPath);
-                if (r == null) { log("  -> Повреждена запись " + Path.GetFileName(recordPath) + ": кеш не изменён."); ok = false; continue; }
-                string pak = Game(r.Pak);
-                if (!File.Exists(pak))
-                {
-                    log("  -> Кеш обновления " + r.Version + " удалён игрой: восстанавливать нечего.");
-                    DeleteFile(recordPath);
-                    DeleteFile(blockPath);
-                    continue;
-                }
-                string current = ReadBlockSha256(pak, r.Offset, r.Size);
-                if (current == r.CleanSha256)
-                {
-                    log("  -> Блок запуска в кеше " + r.Version + " уже оригинальный.");
-                    DeleteFile(recordPath);
-                    DeleteFile(blockPath);
-                    continue;
-                }
-                if (current != r.InstalledSha256)
-                {
-                    log("  -> В кеше " + r.Version + " неизвестные данные на месте блока запуска (игра перекачала пак?): кеш не изменён.");
-                    ok = false;
-                    continue;
-                }
-                byte[] original = File.Exists(blockPath) ? File.ReadAllBytes(blockPath) : null;
-                if (original == null || original.Length != r.Size || Sha256(original) != r.CleanSha256)
-                {
-                    log("  -> Нет корректной резервной копии блока кеша " + r.Version + ": кеш не изменён. Для отката используйте «Проверить файлы» в лаунчере.");
-                    ok = false;
-                    continue;
-                }
-                WriteBlock(pak, r.Offset, original);
-                if (ReadBlockSha256(pak, r.Offset, r.Size) != r.CleanSha256)
-                {
-                    log("  -> ОШИБКА: после восстановления блок кеша " + r.Version + " не совпал с оригиналом.");
-                    ok = false;
-                    continue;
-                }
-                log("  -> Оригинальный блок запуска в кеше " + r.Version + " восстановлен.");
-                DeleteFile(recordPath);
-                DeleteFile(blockPath);
+                if (!RestoreCacheRecord(recordPath)) ok = false;
             }
             return ok;
+        }
+
+        // One cache-launch-<ver>.json: the original block goes back to the recorded offset, the record is removed.
+        // Works by offset and sha only, so a bridge left in a dead copy (TASK-038) is restored the same way.
+        private bool RestoreCacheRecord(string recordPath)
+        {
+            string blockPath = Path.ChangeExtension(recordPath, ".block");
+            CacheRecord r = ReadCacheRecord(recordPath);
+            if (r == null) { log("  -> Повреждена запись " + Path.GetFileName(recordPath) + ": кеш не изменён."); return false; }
+            string pak = Game(r.Pak);
+            if (!File.Exists(pak))
+            {
+                log("  -> Кеш обновления " + r.Version + " удалён игрой: восстанавливать нечего.");
+                DeleteFile(recordPath);
+                DeleteFile(blockPath);
+                return true;
+            }
+            string current = ReadBlockSha256(pak, r.Offset, r.Size);
+            if (current == r.CleanSha256)
+            {
+                log("  -> Блок запуска в кеше " + r.Version + " уже оригинальный.");
+                DeleteFile(recordPath);
+                DeleteFile(blockPath);
+                return true;
+            }
+            if (current != r.InstalledSha256)
+            {
+                log("  -> В кеше " + r.Version + " неизвестные данные на месте блока запуска (игра перекачала пак?): кеш не изменён.");
+                return false;
+            }
+            byte[] original = File.Exists(blockPath) ? File.ReadAllBytes(blockPath) : null;
+            if (original == null || original.Length != r.Size || Sha256(original) != r.CleanSha256)
+            {
+                log("  -> Нет корректной резервной копии блока кеша " + r.Version + ": кеш не изменён. Для отката используйте «Проверить файлы» в лаунчере.");
+                return false;
+            }
+            WriteBlock(pak, r.Offset, original);
+            if (ReadBlockSha256(pak, r.Offset, r.Size) != r.CleanSha256)
+            {
+                log("  -> ОШИБКА: после восстановления блок кеша " + r.Version + " не совпал с оригиналом.");
+                return false;
+            }
+            log("  -> Оригинальный блок запуска в кеше " + r.Version + " восстановлен (смещение " + r.Offset + ").");
+            DeleteFile(recordPath);
+            DeleteFile(blockPath);
+            return true;
         }
 
         // Positions of every pattern (all of the same length) in the file, streamed in 1 MB chunks (the cache pak is ~112 MB).
@@ -736,6 +775,15 @@ namespace LotmRussianPatcher
             log("[3/6] Блоки запуска...");
             if (cache.State == CacheState.Clean)
             {
+                // Our bridge from an earlier install may sit in a copy that is dead now (the launcher appended the pak
+                // again): put the original back there first, the record is about to point at the live copy.
+                string oldRecord = CacheRecordPath(cache.Version);
+                CacheRecord r = ReadCacheRecord(oldRecord);
+                if (r != null && r.Offset != cache.Offset)
+                {
+                    log("  -> Прошлая запись моста указывает на неживую копию блока (смещение " + r.Offset + "): она возвращается к оригиналу.");
+                    if (!RestoreCacheRecord(oldRecord)) log("  -> Внимание: прошлую копию не удалось вернуть; игра её не читает.");
+                }
                 if (!WriteCacheBlock(cache, cacheBridge, out failReason)) return false;
             }
             if (state == PakState.CleanSupported)

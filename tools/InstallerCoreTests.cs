@@ -42,6 +42,18 @@ public static class InstallerCoreTests
                 + " bridge=" + (okBridge ? "OK" : "FAIL") + " cache_bridge=" + (okCache ? "OK" : "FAIL") + " payload_root=" + (okRoot ? "OK" : "FAIL"));
             return okOwned && okBridge && okCache && okRoot ? 0 : 1;
         }
+        if (args.Length == 2 && args[0] == "--probe-cache")
+        {
+            // InspectCache on a copy of a real game folder (temp/real-kscache/C7) with installer/supported_game.json.
+            string game = Path.GetFullPath(args[1]);
+            if (!IsUnder(game, tempDir)) { Console.Error.WriteLine("Refusing to read outside " + tempDir); return 2; }
+            var sg = SupportedGame.Parse(File.ReadAllText(Path.Combine(repo, @"installer\supported_game.json")));
+            CacheInfo ci = new InstallerCore(game, sg, null).InspectCache();
+            Console.WriteLine("State: " + ci.State + ", Offset: " + ci.Offset + ", Version: " + ci.Version + ", PakSize: " + ci.PakSize);
+            Console.WriteLine("Hits: " + InstallerCore.DescribeHits(ci.Hits, 50));
+            Console.WriteLine("Detail: " + ci.Detail);
+            return 0;
+        }
         if (args.Length > 0) testRoot = Path.GetFullPath(args[0]);
         if (!IsUnder(testRoot, tempDir))
         {
@@ -79,6 +91,14 @@ public static class InstallerCoreTests
         Run("kscache: no pakchunk0 in the cache -> base pak only", CacheNoPak);
         Run("kscache: base pak write fails -> cache block rolled back", CacheRollback);
         Run("kscache: game re-downloads the cache pak -> status not active, uninstall leaves it", CacheReplacedByGame);
+        Run("local.cache: dead + live copy -> Clean at the live one, dead untouched", CacheDeadAndLive);
+        Run("local.cache: three copies, live last -> Clean at the last", CacheThreeLiveLast);
+        Run("local.cache: the only copy is dead -> NotFound, nothing written", CacheOnlyDead);
+        Run("local.cache: two live copies -> Ambiguous", CacheTwoLive);
+        Run("local.cache: missing / truncated / bad len -> old behaviour", CacheBrokenLocalCache);
+        Run("local.cache: record in a dead copy -> reinstall to the live one, uninstall restores both", CacheRecordInDeadCopy);
+        Run("supported_game.json: old backup with launch_block still works", OldBackupFormat);
+        Run("supported_game.json: format 2, min_installer_version", Format2AndMinInstaller);
         Run("options: cpdd_patcher_settings.lua defaults, CPDD format, round trip", OptionsSettingsRoundTrip);
         Run("options: foreign cpdd_patcher_settings.lua is not overwritten", OptionsForeignSettings);
         Run("options: Visual Clarity block in Engine.ini", OptionsVisualClarity);
@@ -214,6 +234,9 @@ public static class InstallerCoreTests
         Assert(g.Cache.ManifestSha256 == "6d23b1cf198b17efe9e2e132d1f6420d2f6dfdf439ba8d61534901d1f6d00b24", "manifest of build 2218968");
         Assert(SupportedGame.Parse(g.ToJson()).ToJson() == g.ToJson(), "ToJson round trip");
         Assert(SupportedGame.Parse(g.ToJson()).Cache.OriginalHeadHex == g.Cache.OriginalHeadHex, "cache_launch survives the round trip");
+        string raw = File.ReadAllText(Path.Combine(repo, @"installer\supported_game.json"));
+        Assert(g.Format == 2 && raw.Contains("\"base_launch_block\"") && !raw.Contains("\"launch_block\""), "format 2: base_launch_block, no launch_block (installers before 3.1.1 refuse)");
+        Assert(g.MinInstallerVersion == "3.1.1-RU" && PatcherBackend.InstallerTooOld(g) == null, "min_installer_version 3.1.1-RU, this installer passes");
     }
 
     static void InstalledPakNotWritten()
@@ -446,16 +469,25 @@ public static class InstallerCoreTests
     // with the clean launch block at a random offset (copies > 1 puts it there several times).
     static CacheFixture AddCache(Fixture f, int copies)
     {
+        int len = 1200 * 1024 + rng.Next(1, 4096);
+        var offsets = new List<long>();
+        // Just past the first 1 MB read: the 64-byte head is found only through the carried-over tail.
+        offsets.Add((1 << 20) + rng.Next(1, 60));
+        for (int i = 1; i < copies; i++) offsets.Add(len - (CacheBlockSize + 11) * i);
+        return AddCacheAt(f, len, offsets.ToArray());
+    }
+
+    // The clean block at every given offset; c.Offset = the first one.
+    static CacheFixture AddCacheAt(Fixture f, int pakLength, params long[] offsets)
+    {
         var c = new CacheFixture();
         string ks = f.G(InstallerCore.KsCacheRel);
         c.Original = RandomBytes(CacheBlockSize);
         c.Bridge = RandomBytes(CacheBlockSize);
         c.Manifest = RandomBytes(4096);
-        c.CleanPak = RandomBytes(1200 * 1024 + rng.Next(1, 4096));
-        // Just past the first 1 MB read: the 64-byte head is found only through the carried-over tail.
-        c.Offset = (1 << 20) + rng.Next(1, 60);
-        Array.Copy(c.Original, 0, c.CleanPak, c.Offset, CacheBlockSize);
-        for (int i = 1; i < copies; i++) Array.Copy(c.Original, 0, c.CleanPak, c.CleanPak.Length - (CacheBlockSize + 11) * i, CacheBlockSize);
+        c.CleanPak = RandomBytes(pakLength);
+        c.Offset = offsets[0];
+        foreach (long at in offsets) Array.Copy(c.Original, 0, c.CleanPak, at, CacheBlockSize);
         c.PakPath = Path.Combine(ks, CacheVersion, "pakchunk0-Windows.pak");
         c.ManifestPath = Path.Combine(ks, "package_" + ManifestId + ".manifest");
         WriteText(Path.Combine(ks, "AssetsVersion.txt"), "1." + ManifestId + "." + CacheVersion + ".Online_Shipping\n");
@@ -474,6 +506,30 @@ public static class InstallerCoreTests
         };
         WriteBytes(Path.Combine(f.PayloadDir, @"bridge\cache-startup.oodle"), c.Bridge);
         return c;
+    }
+
+    // Saved/kscache/local.cache in the launcher format: [16 key][int64 offset][int32 len][path + NUL].
+    // Chunks of the cache pak cover [liveFrom, end) every `step` bytes, plus a chunk starting at each of `blockStarts`
+    // (as in the real file: the launch block is one chunk). Foreign records around them, as the launcher writes.
+    static void WriteLocalCache(Fixture f, long liveFrom, long end, int step, params long[] blockStarts)
+    {
+        var starts = new SortedSet<long>();
+        for (long s = liveFrom; s < end; s += step) starts.Add(s);
+        foreach (long b in blockStarts) { starts.Add(b); if (b + CacheBlockSize < end) starts.Add(b + CacheBlockSize); }
+        var ms = new MemoryStream();
+        Action<long, string> rec = (off, path) =>
+        {
+            byte[] p = Encoding.UTF8.GetBytes(path + "\0");
+            ms.Write(RandomBytes(16), 0, 16);
+            ms.Write(BitConverter.GetBytes(off), 0, 8);
+            ms.Write(BitConverter.GetBytes(p.Length), 0, 4);
+            ms.Write(p, 0, p.Length);
+        };
+        rec(0, "24/74d9e11cd25d1fb300000008_" + CacheVersion);
+        rec(4096, CacheVersion + "/pakchunk9999-Windows.ucas");
+        foreach (long s in starts) rec(s, CacheVersion + "/pakchunk0-Windows.pak");
+        rec(0, "88/ffd9e11cd25d1fb300000001_" + CacheVersion);
+        WriteBytes(Path.Combine(f.G(InstallerCore.KsCacheRel), KsLocalCache.FileName), ms.ToArray());
     }
 
     static byte[] CacheInstalledPak(CacheFixture c)
@@ -640,6 +696,184 @@ public static class InstallerCoreTests
         Assert(core.Uninstall(f.PayloadDir), "uninstall");
         Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak), "cache pak untouched");
         Assert(InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak), "base pak restored");
+    }
+
+    // ------------------------------------------------------------ kscache: live copy by local.cache (TASK-038)
+
+    const int Half = 600 * 1024;
+    const int ChunkStep = 64 * 1024;
+
+    static void AssertBlock(CacheFixture c, long at, byte[] expected, string what)
+    {
+        byte[] b = new byte[CacheBlockSize];
+        using (var fs = new FileStream(c.PakPath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite)) { fs.Position = at; fs.Read(b, 0, b.Length); }
+        Assert(InstallerCore.Sha256(b) == InstallerCore.Sha256(expected), what);
+    }
+
+    static void CacheDeadAndLive()
+    {
+        var f = NewFixture("cache-dead-live");
+        long dead = 300000 + rng.Next(1, 999), live = Half + 200000 + rng.Next(1, 999);
+        var c = AddCacheAt(f, 2 * Half, dead, live);
+        WriteLocalCache(f, Half, 2 * Half, ChunkStep, live);
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.Clean && info.Offset == live, "Clean at the live copy: " + info.State + " " + info.Offset + " " + info.Detail);
+        Assert(info.Hits.Count == 2 && info.Hits[0].Live == false && info.Hits[1].Live == true, "Hits: dead + live");
+        Assert(InstallerCore.DescribeHits(info.Hits, 10) == dead + " чистый мёртвый, " + live + " чистый живой", "hits text: " + InstallerCore.DescribeHits(info.Hits, 10));
+        string reason;
+        Assert(core.Install(f.PayloadDir, out reason), "install: " + reason);
+        AssertBlock(c, live, c.Bridge, "bridge in the live copy");
+        AssertBlock(c, dead, c.Original, "dead copy untouched");
+        Assert(core.InspectCache().State == CacheState.Installed, "Installed after the install");
+        Assert(core.Uninstall(f.PayloadDir), "uninstall");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak), "cache pak clean again");
+    }
+
+    static void CacheThreeLiveLast()
+    {
+        var f = NewFixture("cache-three");
+        long a = 100000, b = Half + 100000, last = 2 * Half + 100000 + rng.Next(1, 999);
+        var c = AddCacheAt(f, 3 * Half, a, b, last);
+        WriteLocalCache(f, 2 * Half, 3 * Half, ChunkStep, last);
+        CacheInfo info = f.Core().InspectCache();
+        Assert(info.State == CacheState.Clean && info.Offset == last, "Clean at the last copy: " + info.Detail);
+        string reason;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "install: " + reason);
+        AssertBlock(c, last, c.Bridge, "bridge in the last copy");
+        AssertBlock(c, a, c.Original, "first copy untouched");
+        AssertBlock(c, b, c.Original, "second copy untouched");
+    }
+
+    static void CacheOnlyDead()
+    {
+        var f = NewFixture("cache-only-dead");
+        var c = AddCacheAt(f, 2 * Half, 250000);
+        WriteLocalCache(f, Half, 2 * Half, ChunkStep);
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.NotFound && info.Detail.Contains("среди живых данных") && info.Detail.Contains("мёртвых копий: 1"), "NotFound: " + info.Detail);
+        string reason;
+        Assert(!core.Install(f.PayloadDir, out reason), "install refused: " + reason);
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak) && !Directory.Exists(core.BackupDir), "nothing written");
+    }
+
+    static void CacheTwoLive()
+    {
+        var f = NewFixture("cache-two-live");
+        long b1 = Half + 70000, b2 = Half + 400000;
+        var c = AddCacheAt(f, 2 * Half, 100000, b1, b2);
+        WriteLocalCache(f, Half, 2 * Half, ChunkStep, b1, b2);
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.Ambiguous && info.Detail.Contains("найдено 2 живых"), "Ambiguous over two live copies: " + info.Detail);
+        string reason;
+        Assert(!core.Install(f.PayloadDir, out reason), "install refused");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak) && !Directory.Exists(core.BackupDir), "nothing written");
+    }
+
+    static void CacheBrokenLocalCache()
+    {
+        var f = NewFixture("cache-broken-index");
+        long dead = 300000, live = Half + 200000;
+        var c = AddCacheAt(f, 2 * Half, dead, live);
+        string idx = Path.Combine(f.G(InstallerCore.KsCacheRel), KsLocalCache.FileName);
+        WriteLocalCache(f, Half, 2 * Half, ChunkStep, live);
+        byte[] good = File.ReadAllBytes(idx);
+
+        byte[] cut = new byte[good.Length - 3];
+        Array.Copy(good, cut, cut.Length);
+        WriteBytes(idx, cut);
+        Assert(KsLocalCache.ChunkStarts(idx, CacheVersion + "/pakchunk0-Windows.pak") == null, "truncated local.cache -> null");
+        CacheInfo info = f.Core().InspectCache();
+        Assert(info.State == CacheState.Ambiguous && info.Detail.Contains("local.cache не прочитан"), "truncated: Ambiguous as before: " + info.Detail);
+
+        byte[] badLen = (byte[])good.Clone();
+        Array.Copy(BitConverter.GetBytes(100000), 0, badLen, 24, 4);   // first record: path length out of range
+        WriteBytes(idx, badLen);
+        Assert(KsLocalCache.ChunkStarts(idx, CacheVersion + "/pakchunk0-Windows.pak") == null, "bad len -> null");
+        Assert(f.Core().InspectCache().State == CacheState.Ambiguous, "bad len: Ambiguous");
+
+        WriteBytes(idx, good);
+        List<long> starts = KsLocalCache.ChunkStarts(idx, CacheVersion + "/PAKCHUNK0-Windows.pak");
+        Assert(starts != null && starts.Count > 0 && starts[0] == Half, "good index parses (case-insensitive name), sorted");
+        Assert(KsLocalCache.ChunkStarts(idx, "999/pakchunk0-Windows.pak").Count == 0, "no records for another version -> empty list");
+        File.Delete(idx);
+        Assert(f.Core().InspectCache().State == CacheState.Ambiguous, "no local.cache: Ambiguous");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak), "pak untouched");
+    }
+
+    // Our bridge was written, then the launcher appended a fresh pak behind the old data: the record points
+    // into the dead half. Not Installed; reinstall moves the bridge to the live copy; uninstall restores both.
+    static void CacheRecordInDeadCopy()
+    {
+        var f = NewFixture("cache-record-dead");
+        long first = 300000 + rng.Next(1, 999);
+        var c = AddCacheAt(f, Half, first);
+        WriteLocalCache(f, 0, Half, ChunkStep, first);
+        string reason;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "first install: " + reason);
+        AssertBlock(c, first, c.Bridge, "bridge at the first copy");
+
+        long live = Half + 150000 + rng.Next(1, 999);
+        byte[] fresh = RandomBytes(Half);
+        Array.Copy(c.Original, 0, fresh, live - Half, CacheBlockSize);
+        byte[] oldPart = File.ReadAllBytes(c.PakPath);
+        byte[] pak = new byte[2 * Half];
+        Array.Copy(oldPart, pak, Half);
+        Array.Copy(fresh, 0, pak, Half, Half);
+        WriteBytes(c.PakPath, pak);
+        WriteLocalCache(f, Half, 2 * Half, ChunkStep, live);
+
+        var core = f.Core();
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.Clean && info.Offset == live, "record in the dead half -> Clean at the live copy: " + info.State + " " + info.Detail);
+        Assert(info.Hits.Exists(h => h.Offset == first && h.Kind == CacheHit.Bridge && h.Live == false), "dead bridge reported");
+        Assert(core.InspectStatus() == GamePatchStatus.NotInstalled, "status not active");
+        Assert(core.Install(f.PayloadDir, out reason), "reinstall: " + reason);
+        AssertBlock(c, live, c.Bridge, "bridge in the live copy");
+        AssertBlock(c, first, c.Original, "dead copy returned to the original");
+        Assert(core.InspectStatus() == GamePatchStatus.InstalledActive, "status active");
+        Assert(core.Uninstall(f.PayloadDir), "uninstall");
+        AssertBlock(c, live, c.Original, "live copy restored");
+        AssertBlock(c, first, c.Original, "dead copy still original");
+        Assert(!Directory.Exists(core.BackupDir), "backup dir removed");
+    }
+
+    // Saved\RussianPatchBackups\supported_game.json written by 3.1.0 and older (format 1, "launch_block").
+    static void OldBackupFormat()
+    {
+        var f = NewFixture("old-backup-format");
+        var c = AddCache(f, 1);
+        string reason;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "install: " + reason);
+        string backup = Path.Combine(f.Core().BackupDir, SupportedGame.FileName);
+        string v1 = File.ReadAllText(backup).Replace("\"base_launch_block\"", "\"launch_block\"").Replace("  \"format\": 2,\n", "");
+        Assert(!v1.Contains("base_launch_block") && !v1.Contains("\"format\""), "format-1 file prepared");
+        WriteText(backup, v1);
+        SupportedGame old = SupportedGame.Load(f.Core().BackupDir);
+        Assert(old != null && old.Format == 0 && old.Offset == Offset && old.Cache != null, "format 1 parsed");
+        Assert(PatcherBackend.CoreForInstalledGame(f.GameDir, null, null).InspectStatus() == GamePatchStatus.InstalledActive, "status from the old backup file");
+        InstallerCore core = PatcherBackend.CoreForInstalledGame(f.GameDir, f.PayloadDir, null);
+        Assert(core != null && core.Uninstall(f.PayloadDir), "uninstall with the old backup file");
+        Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak) && InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak), "both paks restored");
+    }
+
+    static void Format2AndMinInstaller()
+    {
+        var f = NewFixture("format2");
+        string json = f.Game.ToJson();
+        Assert(json.Contains("\"format\": 2") && json.Contains("\"base_launch_block\"") && !json.Contains("\"launch_block\""), "ToJson: format 2, no launch_block key");
+        Assert(SupportedGame.Parse(json).Format == 2 && SupportedGame.Parse(json).Offset == Offset, "format 2 parses");
+
+        Assert(PatcherBackend.InstallerTooOld(f.Game) == null, "no min_installer_version -> ok");
+        f.Game.MinInstallerVersion = AppInfo.Version;
+        Assert(PatcherBackend.InstallerTooOld(SupportedGame.Parse(f.Game.ToJson())) == null, "min = this version -> ok (round trip)");
+        f.Game.MinInstallerVersion = "3.0.0";
+        Assert(PatcherBackend.InstallerTooOld(f.Game) == null, "older min -> ok");
+        f.Game.MinInstallerVersion = "v99.0.0-RU";
+        string why = PatcherBackend.InstallerTooOld(SupportedGame.Parse(f.Game.ToJson()));
+        Assert(why != null && why.Contains("Нужна новая версия установщика") && why.Contains("releases/latest"), "newer min -> refusal: " + why);
     }
 
     static string Hex(byte[] data, int count)

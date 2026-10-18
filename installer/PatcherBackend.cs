@@ -260,6 +260,15 @@ namespace LotmRussianPatcher
             return null;
         }
 
+        // supported_game.json min_installer_version above this exe: refusal text, otherwise null (TASK-038).
+        public static string InstallerTooOld(SupportedGame game)
+        {
+            if (game == null || string.IsNullOrEmpty(game.MinInstallerVersion)) return null;
+            if (CompareVersions(AppInfo.Version, game.MinInstallerVersion) >= 0) return null;
+            return "Нужна новая версия установщика (" + game.MinInstallerVersion + " или новее, у вас " + AppInfo.Version
+                + "): скачайте Lord-of-Mysteries-Russian-Patch.exe со страницы релиза https://github.com/" + AppInfo.Repo + "/releases/latest. Файлы игры не изменены.";
+        }
+
         // "2.9.10-RU" < "3.0.0-RU"; unknown formats compare as equal.
         public static int CompareVersions(string a, string b)
         {
@@ -317,6 +326,8 @@ namespace LotmRussianPatcher
 
             SupportedGame game = LoadSupportedGame(payload.Dir, log);
             if (game == null) { result.FailReason = "Нет сведений о поддерживаемой версии игры (supported_game.json)."; return result; }
+            string tooOld = InstallerTooOld(game);
+            if (tooOld != null) { result.FailReason = tooOld; return result; }
             if (progress != null) progress(-1, "Установка...");
             var core = new InstallerCore(gameDir, game, log);
             string reason = "";

@@ -1,10 +1,12 @@
 {
+  "format": 2,
+  "min_installer_version": "3.1.1-RU",
   "source": "CPDD v2.7.1 release.json",
   "game_build": "1.2018737.2044036",
   "supported_base_paks": [
     { "name": "BiliBili C7 1.2018737.2044036", "sha256": "abbadeeaec029807c6547d7faa9788f38da0099e8ea05ee20ff0167c0f5686d8", "size": 446910011 }
   ],
-  "launch_block": {
+  "base_launch_block": {
     "pak_relative_path": "Content/Paks/pakchunk0-Windows.pak",
     "offset": 427225161,
     "size": 4660,

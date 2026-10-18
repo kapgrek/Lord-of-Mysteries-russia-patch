@@ -1,5 +1,5 @@
 param (
-    [string]$Version = "v3.1.0-RU",
+    [string]$Version = "v3.1.1-RU",
     [switch]$Publish,          # Upload build artifacts as GitHub Release assets (gh CLI)
     [switch]$WhatIfPublish,    # Only look the release up and print the gh commands -Publish would run (no build, no upload)
     [string]$NotesFile = '',   # Release notes for a newly created release
@@ -84,8 +84,12 @@ if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
 $payloadDir = "$projectRoot\patch_payload"
 $supportedPath = "$projectRoot\installer\supported_game.json"
 $supported = [System.IO.File]::ReadAllText($supportedPath) | ConvertFrom-Json
+# Format 2 (TASK-038): base_launch_block instead of launch_block, so installers before 3.1.1 refuse this data.
+if ($supported.format -ne 2 -or -not $supported.base_launch_block -or $supported.launch_block -or -not $supported.min_installer_version) {
+    throw "installer/supported_game.json must be format 2: base_launch_block (no launch_block) and min_installer_version"
+}
 $bridgeSha = (Get-FileHash "$payloadDir\bridge\LaunchInstance.native-bridge.padded.oodle" -Algorithm SHA256).Hash.ToLower()
-if ($bridgeSha -ne $supported.launch_block.installed_sha256) {
+if ($bridgeSha -ne $supported.base_launch_block.installed_sha256) {
     throw "Bridge block sha256 $bridgeSha does not match installer/supported_game.json installed_sha256"
 }
 if ($supported.cache_launch) {
@@ -152,9 +156,10 @@ $releaseInfo = @{
         sha256 = $zipHash
         size = $zipItem.Length
     }
+    min_installer_version = $supported.min_installer_version
     game_build = $supported.game_build
     supported_base_paks = @($supported.supported_base_paks)
-    launch_block = $supported.launch_block
+    base_launch_block = $supported.base_launch_block
     cache_launch = $supported.cache_launch
     owned_files = @($ownedFiles)
 }
