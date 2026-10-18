@@ -67,6 +67,13 @@ namespace LotmRussianPatcher
                     CopyShared(log.FullName, Path.Combine(folder, log.Name));
                     result.Files.Add(log.Name);
                 }
+                // Installer journal (TASK-037).
+                foreach (string extra in new[] { InstallerLog.LogPath, InstallerLog.OldLogPath })
+                {
+                    if (!File.Exists(extra)) continue;
+                    CopyShared(extra, Path.Combine(folder, Path.GetFileName(extra)));
+                    result.Files.Add(Path.GetFileName(extra));
+                }
                 File.WriteAllText(Path.Combine(folder, InfoName), BuildInfo(gameDir, folder, result.Files), new UTF8Encoding(false));
                 result.Folder = folder;
                 return true;
@@ -164,7 +171,9 @@ namespace LotmRussianPatcher
                 int k = c.PakPath.IndexOf(InstallerCore.KsCacheRel, StringComparison.OrdinalIgnoreCase);
                 sb.Append(", ").Append(k >= 0 ? c.PakPath.Substring(k) : c.PakPath);
             }
+            if (c.PakSize > 0) sb.Append(", размер пака ").Append(c.PakSize);
             if (c.Offset >= 0) sb.Append(", смещение ").Append(c.Offset);
+            if (c.Hits.Count > 0) sb.Append(", кандидаты: ").Append(InstallerCore.DescribeHits(c.Hits, 50));
             if (c.Detail.Length > 0) sb.Append(" (").Append(c.Detail).Append(")");
             return sb.ToString();
         }

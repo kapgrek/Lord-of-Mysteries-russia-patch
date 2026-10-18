@@ -229,6 +229,17 @@ powershell -ExecutionPolicy Bypass -File tools\CollectDiagLogs.ps1
 
 Параметры: `-GameDir <…\C7>` (по умолчанию `D:\Games\GMZZLauncher\Game\C7`), `-Out <папка>`, `-Session latest|all|<sid>` (по умолчанию последняя), `-Aggregate` (все папки `reference\logs\*`; хук мёртвый, только если мёртв во всех сессиях), `-NoCopy` (только отчёты по уже скопированному), `-LogsRoot`.
 
+## Журнал установщика (TASK-037)
+
+Ошибки установщика возникают до запуска игры, поэтому в `C7.log` их нет. Установщик пишет журнал в файл `%LOCALAPPDATA%\AbsoluteRU\installer.log` (`installer/InstallerLog.cs`): в нём те же строки, что в окне «ЖУРНАЛ», и вывод CLI (`--diagnose`, `--install`, `--uninstall`). Формат строки: `yyyy-MM-dd HH:mm:ss <текст>`, UTF-8 без BOM. Каждый запуск начинается строкой `=== AbsoluteRU <версия> запущен ===`. Если при старте файл больше 1 МБ, он переименовывается в `installer.old.log`.
+
+Что искать:
+- `Проверка кеша: <State>, версия <ver>, <Detail>; AssetsVersion.txt: …` — проверка папки нашла проблему с `Saved\kscache` (`UnsupportedBuild`, `NotFound`, `Ambiguous`). Строка пишется один раз на каждый новый текст.
+- В `Detail` для `NotFound` и `Ambiguous` указаны размер пака и до 10 кандидатов: `(размер пака 112028892; кандидаты: 41063360 мост, 98765432 чистый)`. Типы кандидатов: `чистый`, `мост`, `заголовок совпал, sha нет`.
+- `ОТКАЗ:` / `ОШИБКА:` — причина отказа установки.
+
+Кнопка «Отправить логи» (TASK-035, `installer/LogCollector.cs`) копирует `installer.log` и `installer.old.log` в `AbsoluteRU_logs` вместе с логами игры. В `info.txt` (раздел «Версия игры») есть полный список кандидатов и размер пака.
+
 ## Выгрузка ассетов: AssetExport (TASK-018)
 
 Модуль `patch_payload/Saved/Mods/lua/mods/cpdd_runtime_fixes/AbsruAssetExport.lua` (только для разработки) выгружает вкладку «Божий путь» из памяти игры, без AES-ключа: текстура рисуется Canvas в render target, а `KismetRenderingLibrary.ExportRenderTarget` сохраняет её в PNG. `Init.lua` загружает модуль только при непустой таблице `AssetExport` в `absoluteru_dev.lua` и запущенной `AbsruDiagnostics`: модуль берёт у неё JSON (`D.EncodeJson`, `D.JsonArray`) и обход панели (`D.NewPanelWalk`, визитор получает `widget, parent`). Вызывается из хука `UIComponent.Open` рядом с `Diag.OnPanelOpen`. Модуль реагирует только на корневой компонент, у которого `userWidget` называется как uid, а не на дочерний `WBP_ComBackTitle`. План, пробы и выводы: [tasks/TASK-018-godway-export.md](tasks/TASK-018-godway-export.md).

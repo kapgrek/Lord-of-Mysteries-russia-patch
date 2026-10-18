@@ -53,12 +53,14 @@ namespace LotmRussianPatcher
         private GameOptionsState writtenOptions; // what the game files contain now
         private string latestVersion;           // latest GitHub release, if known
         private string blocker;
+        private string lastCacheLog;            // last "Проверка кеша" line written to the journal
 
         private class GameState
         {
             public GamePatchStatus Status;
             public PakState Pak;
             public CacheInfo Cache;
+            public string AssetsVersion;
             public string GameBuild;
             // The update cache (Saved/kscache) holds a pakchunk0 this release does not know.
             public bool GameUpdated { get { return Cache != null && Cache.State == CacheState.UnsupportedBuild; } }
@@ -223,6 +225,7 @@ namespace LotmRussianPatcher
                 window.Dispatcher.BeginInvoke(new Action<string>(Log), message);
                 return;
             }
+            InstallerLog.Append(message);
             logBox.AppendText(DateTime.Now.ToString("HH:mm:ss") + " " + message + Environment.NewLine);
             logBox.ScrollToEnd();
         }
@@ -326,6 +329,7 @@ namespace LotmRussianPatcher
             else
                 SetFolderLine("✓ Сборка игры " + (read.GameBuild ?? "?") + " — поддерживается", "OkBrush");
 
+            LogCacheCheck(read);
             if (read.OptionsError != null) Log("Внимание: " + read.OptionsError);
             ShowOptions(read.Options);
             writtenOptions = read.Options;
@@ -340,6 +344,12 @@ namespace LotmRussianPatcher
             st.Pak = PatcherBackend.InspectPak(dir, out build);
             st.GameBuild = build;
             st.Cache = PatcherBackend.InspectCache(dir);
+            try
+            {
+                string av = System.IO.Path.Combine(dir, InstallerCore.KsCacheRel, InstallerCore.AssetsVersionName);
+                st.AssetsVersion = File.Exists(av) ? File.ReadAllText(av).Trim() : "нет файла";
+            }
+            catch (Exception ex) { st.AssetsVersion = "ошибка чтения: " + ex.Message; }
             st.Status = PatcherBackend.InspectGameStatus(dir);
             st.InstalledVersion = PatcherBackend.InstalledVersion(dir);
             st.BridgeFileMissing = !File.Exists(System.IO.Path.Combine(dir, InstallerCore.BridgeRel));
@@ -348,6 +358,18 @@ namespace LotmRussianPatcher
             st.Options = new GameOptions(dir, null).Read(out error);
             st.OptionsError = error;
             return st;
+        }
+
+        // The red folder line alone does not reach installer.log: problem states of the cache go to the journal,
+        // once per distinct text (pathTimer re-reads the folder on every edit).
+        private void LogCacheCheck(GameState read)
+        {
+            CacheInfo c = read.Cache;
+            if (c == null || (c.State != CacheState.UnsupportedBuild && c.State != CacheState.NotFound && c.State != CacheState.Ambiguous)) return;
+            string line = "Проверка кеша: " + c.State + ", версия " + (c.Version ?? "?") + ", " + c.Detail + "; AssetsVersion.txt: " + read.AssetsVersion;
+            if (line == lastCacheLog) return;
+            lastCacheLog = line;
+            Log(line);
         }
 
         private void SetFolderLine(string text, string brushKey)

@@ -51,6 +51,9 @@ public static class InstallerCoreTests
         if (Directory.Exists(testRoot)) Directory.Delete(testRoot, true);
         Directory.CreateDirectory(testRoot);
         Console.WriteLine("InstallerCoreTests in " + testRoot);
+        // Never the real %LOCALAPPDATA%\AbsoluteRU or Desktop.
+        InstallerLog.Dir = Path.Combine(testRoot, "installer-log");
+        LogCollector.DesktopDir = Path.Combine(testRoot, "desktop");
 
         Run("installer/supported_game.json parses and matches the bridge", RealSupportedGameParses);
         Run("clean pak: installs, pak = installed_pak_sha256, backup = clean", CleanInstall);
@@ -87,6 +90,7 @@ public static class InstallerCoreTests
         Run("versions: installed Init.lua VERSION and comparison", VersionsCompare);
         Run("logs: 3 newest C7*.log + info.txt, rerun, open file, no logs", LogCollectorCopies);
         Run("logs: exe folder not writable -> Desktop", LogCollectorFallback);
+        Run("installer.log: header, lines, rotation over 1 MB", InstallerLogWrites);
         Run("markup: MainWindow.xaml / HowToPlayWindow.xaml load, all names found", InSta(MarkupLoads));
         Run("links.json: embedded links valid, bad ones dropped", LinksValidation);
         Run("HowToPlay.md -> FlowDocument: sections, lists, links, image", InSta(HowToPlayParses));
@@ -557,9 +561,17 @@ public static class InstallerCoreTests
         var f = NewFixture("cache-two");
         var c = AddCache(f, 2);
         var core = f.Core();
-        Assert(core.InspectCache().State == CacheState.Ambiguous, "cache state Ambiguous");
+        CacheInfo info = core.InspectCache();
+        Assert(info.State == CacheState.Ambiguous, "cache state Ambiguous");
+        long second = c.CleanPak.Length - (CacheBlockSize + 11);
+        Assert(info.PakSize == c.CleanPak.Length, "PakSize = cache pak length");
+        Assert(info.Hits.Count == 2 && info.Hits[0].Offset == c.Offset && info.Hits[1].Offset == second
+            && info.Hits.TrueForAll(h => h.Kind == CacheHit.Clean), "Hits: two clean, sorted by offset");
+        Assert(info.Detail.Contains("размер пака " + c.CleanPak.Length) && info.Detail.Contains(c.Offset + " чистый") && info.Detail.Contains(second + " чистый"),
+            "Detail has the pak size and both offsets: " + info.Detail);
         string reason;
         Assert(!core.Install(f.PayloadDir, out reason), "install refused: " + reason);
+        Assert(reason.Contains(c.Offset.ToString()), "refusal names the offsets");
         Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(c.CleanPak), "cache pak unchanged");
         Assert(InstallerCore.FileSha256(f.PakPath) == InstallerCore.Sha256(f.CleanPak), "base pak unchanged");
         Assert(!Directory.Exists(core.BackupDir), "nothing written");
@@ -943,6 +955,40 @@ public static class InstallerCoreTests
         r = LogCollector.Collect(OptionsGame("logs-none"), exe);
         Assert(r.Error != null && r.Error.Contains("Запустите игру") && r.Folder == null, "no Saved\\Logs -> error, no exception");
         Assert(LogCollector.MaskUser(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\x") == @"%USERPROFILE%\x", "user profile masked");
+    }
+
+    static void InstallerLogWrites()
+    {
+        string saved = InstallerLog.Dir;
+        InstallerLog.Dir = Path.Combine(testRoot, "installer-log-test");
+        try
+        {
+            InstallerLog.Start();
+            InstallerLog.Append("строка журнала");
+            string text = File.ReadAllText(InstallerLog.LogPath);
+            Assert(text.Contains("=== AbsoluteRU " + AppInfo.Version + " запущен ===") && text.Contains(" строка журнала\n"), "header and line written");
+            Assert(System.Text.RegularExpressions.Regex.IsMatch(text, @"^\d{4}-\d\d-\d\d \d\d:\d\d:\d\d ="), "yyyy-MM-dd HH:mm:ss prefix");
+            Assert(File.ReadAllBytes(InstallerLog.LogPath)[0] == (byte)'2', "UTF-8 without BOM");
+
+            WriteText(InstallerLog.OldLogPath, "older\n");
+            using (var fs = new FileStream(InstallerLog.LogPath, FileMode.Append)) fs.Write(new byte[InstallerLog.MaxSize], 0, (int)InstallerLog.MaxSize);
+            InstallerLog.Start();
+            Assert(new FileInfo(InstallerLog.OldLogPath).Length > InstallerLog.MaxSize, "big log renamed to installer.old.log (old .old replaced)");
+            Assert(new FileInfo(InstallerLog.LogPath).Length < 200 && File.ReadAllText(InstallerLog.LogPath).Contains("запущен"), "new log starts with the header");
+
+            // LogCollector takes both journals.
+            string game = LogsGame("logs-journal", 1);
+            LogCollectResult r = LogCollector.Collect(game, Path.Combine(testRoot, "logs-journal", "exe"));
+            Assert(r.Error == null && r.Files.Contains(InstallerLog.FileName) && r.Files.Contains(InstallerLog.OldFileName), "installer.log and installer.old.log copied: " + string.Join(",", r.Files.ToArray()));
+
+            Directory.Delete(InstallerLog.Dir, true);
+            WriteText(Path.Combine(testRoot, "installer-log-blocker"), "x");
+            InstallerLog.Dir = Path.Combine(testRoot, "installer-log-blocker");   // a file: every write fails
+            InstallerLog.Start();
+            InstallerLog.Append("no throw");
+            Assert(true, "write errors are swallowed");
+        }
+        finally { InstallerLog.Dir = saved; }
     }
 
     static void LogCollectorFallback()

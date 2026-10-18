@@ -58,13 +58,26 @@ namespace LotmRussianPatcher
         Ambiguous         // more than one candidate block
     }
 
+    // A position in the cache pak where a launch block head was found (TASK-037).
+    public class CacheHit
+    {
+        public const string Clean = "чистый";
+        public const string Bridge = "мост";
+        public const string HeadOnly = "заголовок совпал, sha нет";
+
+        public long Offset;
+        public string Kind;
+    }
+
     public class CacheInfo
     {
         public CacheState State = CacheState.NoCachePak;
         public string Version;
         public string PakPath;
+        public long PakSize;
         public long Offset = -1;
         public string Detail = "";
+        public List<CacheHit> Hits = new List<CacheHit>();
     }
 
     // Supported game state, the same fields as CPDD release.json (supported_base_paks + launch_block + cache_launch).
@@ -289,6 +302,7 @@ namespace LotmRussianPatcher
             info.Version = version;
             if (pak == null) return info;
             info.PakPath = pak;
+            info.PakSize = new FileInfo(pak).Length;
 
             // A bridge we wrote ourselves: the record keeps the offset, so no scan is needed.
             long recorded = ReadCacheRecordOffset(version, pak);
@@ -316,19 +330,28 @@ namespace LotmRussianPatcher
             var installed = new List<long>();
             using (var fs = new FileStream(pak, FileMode.Open, FileAccess.Read, FileShare.ReadWrite))
             {
-                foreach (long at in hits[0]) { byte[] b = ReadAt(fs, at, c.Size); if (b != null && Sha256(b) == c.CleanSha256) clean.Add(at); }
-                foreach (long at in hits[1]) { byte[] b = ReadAt(fs, at, c.Size); if (b != null && Sha256(b) == c.InstalledSha256) installed.Add(at); }
+                for (int k = 0; k < 2; k++)
+                {
+                    foreach (long at in hits[k])
+                    {
+                        byte[] b = ReadAt(fs, at, c.Size);
+                        bool match = b != null && Sha256(b) == (k == 0 ? c.CleanSha256 : c.InstalledSha256);
+                        if (match) (k == 0 ? clean : installed).Add(at);
+                        info.Hits.Add(new CacheHit { Offset = at, Kind = match ? (k == 0 ? CacheHit.Clean : CacheHit.Bridge) : CacheHit.HeadOnly });
+                    }
+                }
             }
+            info.Hits.Sort((a, b) => a.Offset.CompareTo(b.Offset));
             int total = clean.Count + installed.Count;
             if (total == 0)
             {
                 info.State = CacheState.NotFound;
-                info.Detail = "блок запуска не найден в " + KsCacheRel + "\\" + version + "\\" + c.PakName;
+                info.Detail = "блок запуска не найден в " + KsCacheRel + "\\" + version + "\\" + c.PakName + " " + HitsDetail(info);
             }
             else if (total > 1)
             {
                 info.State = CacheState.Ambiguous;
-                info.Detail = "найдено " + total + " подходящих блоков запуска в " + KsCacheRel + "\\" + version + "\\" + c.PakName;
+                info.Detail = "найдено " + total + " подходящих блоков запуска в " + KsCacheRel + "\\" + version + "\\" + c.PakName + " " + HitsDetail(info);
             }
             else
             {
@@ -336,6 +359,20 @@ namespace LotmRussianPatcher
                 info.Offset = clean.Count == 1 ? clean[0] : installed[0];
             }
             return info;
+        }
+
+        // "(размер пака 112028892; кандидаты: 41063360 мост, 98765432 чистый)": one screenshot of the error is enough.
+        private static string HitsDetail(CacheInfo info)
+        {
+            return "(размер пака " + info.PakSize + "; " + (info.Hits.Count == 0 ? "кандидатов нет" : "кандидаты: " + DescribeHits(info.Hits, 10)) + ")";
+        }
+
+        public static string DescribeHits(List<CacheHit> hits, int max)
+        {
+            var parts = new List<string>();
+            for (int i = 0; i < hits.Count && i < max; i++) parts.Add(hits[i].Offset + " " + hits[i].Kind);
+            if (hits.Count > max) parts.Add("… всего " + hits.Count);
+            return string.Join(", ", parts.ToArray());
         }
 
         // Offset from Saved/RussianPatchBackups/cache-launch-<ver>.json when the bridge is still there, otherwise -1.

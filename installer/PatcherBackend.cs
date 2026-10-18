@@ -389,43 +389,42 @@ namespace LotmRussianPatcher
 
         public static bool DiagnosePath(string path)
         {
+            Action<string> output = InstallerLog.Cli;
             string norm = NormalizeGameDir(path);
-            Console.WriteLine("Диагностика папки: " + (string.IsNullOrEmpty(norm) ? "<не указана>" : norm));
+            output("Диагностика папки: " + (string.IsNullOrEmpty(norm) ? "<не указана>" : norm));
             bool ok;
-            Console.WriteLine(DescribeFolder(norm, out ok));
+            output(DescribeFolder(norm, out ok));
             if (!IsValidGameFolder(norm)) return false;
-            InstallerCore core = CoreForInstalledGame(norm, null, Console.WriteLine);
+            InstallerCore core = CoreForInstalledGame(norm, null, output);
             if (core != null)
             {
-                Console.WriteLine("Состояние pakchunk0: " + core.InspectPak() + " (CleanSupported / Installed / Unknown)");
-                CacheInfo cache = InspectCache(norm);
-                Console.WriteLine("Кеш обновления (Saved\\kscache): " + cache.State + (cache.Version != null ? " версия " + cache.Version : "")
-                    + (cache.Offset >= 0 ? " смещение " + cache.Offset : "") + (cache.Detail.Length > 0 ? " (" + cache.Detail + ")" : ""));
-                Console.WriteLine("Статус патча: " + core.InspectStatus());
-                Console.WriteLine("Версия русификатора: " + (InstalledVersion(norm) ?? "-"));
+                output("Состояние pakchunk0: " + core.InspectPak() + " (CleanSupported / Installed / Unknown)");
+                output("Кеш обновления (Saved\\kscache): " + LogCollector.DescribeCache(InspectCache(norm)));
+                output("Статус патча: " + core.InspectStatus());
+                output("Версия русификатора: " + (InstalledVersion(norm) ?? "-"));
             }
             string error;
             GameOptionsState o = new GameOptions(norm, null).Read(out error);
-            Console.WriteLine("Настройки: DPS " + GameOptions.ModeName(o.DpsMode) + ", чистая картинка " + o.VisualClarity + (error != null ? " (" + error + ")" : ""));
+            output("Настройки: DPS " + GameOptions.ModeName(o.DpsMode) + ", чистая картинка " + o.VisualClarity + (error != null ? " (" + error + ")" : ""));
             return true;
         }
 
         public static bool RunCliInstall(string path)
         {
             string norm = NormalizeGameDir(path);
-            if (!IsValidGameFolder(norm)) { Console.WriteLine("ОШИБКА: Неверная папка игры: " + path); return false; }
+            if (!IsValidGameFolder(norm)) { InstallerLog.Cli("ОШИБКА: Неверная папка игры: " + path); return false; }
             InstallResult res;
-            try { res = InstallAsync(norm, null, Console.WriteLine, null, CancellationToken.None).GetAwaiter().GetResult(); }
+            try { res = InstallAsync(norm, null, InstallerLog.Cli, null, CancellationToken.None).GetAwaiter().GetResult(); }
             catch (Exception ex) { res = new InstallResult { FailReason = ex.Message }; }
-            if (!res.Success) Console.WriteLine("ОШИБКА УСТАНОВКИ: " + res.FailReason);
+            if (!res.Success) InstallerLog.Cli("ОШИБКА УСТАНОВКИ: " + res.FailReason);
             return res.Success;
         }
 
         public static bool RunCliUninstall(string path)
         {
             string norm = NormalizeGameDir(path);
-            if (!IsValidGameFolder(norm)) { Console.WriteLine("ОШИБКА: Неверная папка игры: " + path); return false; }
-            return Uninstall(norm, Console.WriteLine);
+            if (!IsValidGameFolder(norm)) { InstallerLog.Cli("ОШИБКА: Неверная папка игры: " + path); return false; }
+            return Uninstall(norm, InstallerLog.Cli);
         }
 
         public static int RunCliVerifyBundle()

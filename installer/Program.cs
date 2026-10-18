@@ -40,6 +40,7 @@ namespace LotmRussianPatcher
                 else rest.Add(args[i]);
             }
 
+            InstallerLog.Start();
             if (rest.Count > 0)
             {
                 try
