@@ -139,10 +139,11 @@ function Test-Row([string]$cn, [string]$en, [string]$ru, $bases = $baseEntries) 
         elseif ($isService) { $bucket = 'S' }
         elseif ([string]::IsNullOrWhiteSpace($ru)) { $bucket = 'E' }
         # канон других терминов этой строки не должен считаться запрещённым вариантом (破甲 «пробивание брони» в строке с 穿刺)
+        # маскируются только термины, которые в строке не X: иначе «розел» 罗塞尔 вырежется из «Грозель» 格罗塞尔 (TASK-036)
         $ruMasked = if ($b.scan) { $ruTags } else { $ruPlain }
         $masked = $ruMasked
         foreach ($o in $bases) {
-            if ($o.cn -ne $b.cn -and $found.ContainsKey($o.cn) -and $o.match) { $masked = $o.match.Replace($masked, ' ') }
+            if ($o.cn -ne $b.cn -and $found.ContainsKey($o.cn) -and $found[$o.cn].Contains($o.cn) -and $o.match) { $masked = $o.match.Replace($masked, ' ') }
         }
         $bad = @($b.forbidden | Where-Object { $_.IsMatch($masked) } | ForEach-Object { $_.Match($masked).Value })
         $hasCanon = $b.match.IsMatch($ruMasked)
