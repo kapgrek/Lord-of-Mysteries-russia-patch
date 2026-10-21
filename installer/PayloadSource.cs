@@ -126,6 +126,7 @@ namespace LotmRussianPatcher
             {
                 if (progress != null) progress(-1, "Получение сведений о последней версии...");
                 manifest = await Task.Run(() => FetchManifest(log));
+                if (manifest != null && !string.IsNullOrEmpty(manifest.Version)) SelfUpdate.LatestVersion = manifest.Version;
             }
 
             // Zip from the release bundle, next to the installer.
@@ -275,6 +276,13 @@ namespace LotmRussianPatcher
         public long PayloadSize;
         public string PayloadSha256;
         public string ReleaseJsonText;   // release.json as downloaded, saved next to the cached zip
+        public string ReleaseTag;        // release_tag of release.json
+        // The installer exe of the same release (patcher_asset), for the self-update (TASK-040).
+        public string PatcherName;
+        public string PatcherDownloadUrl;
+        public string PatcherApiUrl;
+        public long PatcherSize;
+        public string PatcherSha256;
 
         // release.json written by tools/PackageRelease.ps1.
         public static ReleaseManifest FromReleaseJson(string json)
@@ -285,11 +293,19 @@ namespace LotmRussianPatcher
                 if (dict == null) return null;
                 var res = new ReleaseManifest { ReleaseJsonText = json };
                 if (dict.ContainsKey("release_version")) res.Version = Convert.ToString(dict["release_version"]);
+                if (dict.ContainsKey("release_tag")) res.ReleaseTag = Convert.ToString(dict["release_tag"]);
                 var p = dict.ContainsKey("payload") ? dict["payload"] as Dictionary<string, object> : null;
                 if (p != null)
                 {
                     if (p.ContainsKey("size")) res.PayloadSize = Convert.ToInt64(p["size"]);
                     if (p.ContainsKey("sha256")) res.PayloadSha256 = Convert.ToString(p["sha256"]).ToLowerInvariant();
+                }
+                var e = dict.ContainsKey("patcher_asset") ? dict["patcher_asset"] as Dictionary<string, object> : null;
+                if (e != null)
+                {
+                    if (e.ContainsKey("name")) res.PatcherName = Convert.ToString(e["name"]);
+                    if (e.ContainsKey("size")) res.PatcherSize = Convert.ToInt64(e["size"]);
+                    if (e.ContainsKey("sha256")) res.PatcherSha256 = Convert.ToString(e["sha256"]).ToLowerInvariant();
                 }
                 return res;
             }
@@ -325,7 +341,9 @@ namespace LotmRussianPatcher
                 var dict = new JavaScriptSerializer { MaxJsonLength = int.MaxValue }.Deserialize<Dictionary<string, object>>(json);
                 var res = new ReleaseManifest();
                 if (dict.ContainsKey("tag_name")) res.Version = Convert.ToString(dict["tag_name"]);
+                res.ReleaseTag = res.Version;
                 string relJsonUrl = null, relJsonApi = null;
+                var exeAssets = new Dictionary<string, Dictionary<string, object>>(StringComparer.OrdinalIgnoreCase);
                 var assets = dict.ContainsKey("assets") ? dict["assets"] as IEnumerable : null;
                 if (assets != null)
                 {
@@ -345,6 +363,7 @@ namespace LotmRussianPatcher
                             relJsonUrl = Convert.ToString(asset["browser_download_url"]);
                             relJsonApi = Convert.ToString(asset["url"]);
                         }
+                        else if (name.EndsWith(".exe", StringComparison.OrdinalIgnoreCase)) exeAssets[name] = asset;
                     }
                 }
                 if (relJsonUrl != null)
@@ -357,6 +376,9 @@ namespace LotmRussianPatcher
                         {
                             res.PayloadSha256 = rel.PayloadSha256;
                             res.ReleaseJsonText = text;
+                            res.PatcherName = rel.PatcherName;
+                            res.PatcherSize = rel.PatcherSize;
+                            res.PatcherSha256 = rel.PatcherSha256;
                         }
                     }
                     catch (Exception ex)
@@ -366,6 +388,16 @@ namespace LotmRussianPatcher
                 }
                 if (token != null && !string.IsNullOrEmpty(res.PayloadApiUrl)) res.PayloadDownloadUrl = res.PayloadApiUrl;
                 if (string.IsNullOrEmpty(res.PayloadDownloadUrl)) res.PayloadDownloadUrl = latestZip;
+
+                Dictionary<string, object> exe;
+                if (exeAssets.TryGetValue(SelfUpdate.ExeName(res), out exe))
+                {
+                    res.PatcherDownloadUrl = Convert.ToString(exe["browser_download_url"]);
+                    res.PatcherApiUrl = Convert.ToString(exe["url"]);
+                    if (res.PatcherSize <= 0) res.PatcherSize = Convert.ToInt64(exe["size"]);
+                }
+                if (token != null && !string.IsNullOrEmpty(res.PatcherApiUrl)) res.PatcherDownloadUrl = res.PatcherApiUrl;
+                if (string.IsNullOrEmpty(res.PatcherDownloadUrl)) res.PatcherDownloadUrl = TagAssetUrl(repo, res.ReleaseTag, SelfUpdate.ExeName(res));
                 return res;
             }
             catch (Exception ex)
@@ -378,11 +410,26 @@ namespace LotmRussianPatcher
             {
                 string text = DownloadString(latestJson, null, false);
                 ReleaseManifest res = ReleaseManifest.FromReleaseJson(text);
-                if (res != null) res.PayloadDownloadUrl = latestZip;
+                if (res != null)
+                {
+                    res.PayloadDownloadUrl = latestZip;
+                    // By tag, not latest/: the exe must come from the release whose release.json gave its sha256.
+                    res.PatcherDownloadUrl = TagAssetUrl(repo, res.ReleaseTag, SelfUpdate.ExeName(res));
+                }
                 return res;
             }
             catch { return null; }
         }
+
+        // https://github.com/<repo>/releases/download/<tag>/<name>, or null without a tag.
+        private static string TagAssetUrl(string repo, string tag, string name)
+        {
+            if (string.IsNullOrEmpty(tag)) return null;
+            return "https://github.com/" + repo + "/releases/download/" + Uri.EscapeDataString(tag) + "/" + Uri.EscapeDataString(name);
+        }
+
+        // LOTM_PATCH_REPO points the installer at another repository (development): no self-update then.
+        public static bool RepoOverridden { get { return !string.IsNullOrEmpty(Environment.GetEnvironmentVariable("LOTM_PATCH_REPO")); } }
 
         // asset=true: API asset URL with the token; the storage redirect is followed without Authorization.
         private static string DownloadString(string url, string token, bool asset)

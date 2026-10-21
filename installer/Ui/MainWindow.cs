@@ -54,6 +54,7 @@ namespace LotmRussianPatcher
         private string latestVersion;           // latest GitHub release, if known
         private string blocker;
         private string lastCacheLog;            // last "Проверка кеша" line written to the journal
+        private string selfUpdateTarget;        // version the installer is updating itself to, while it does
 
         private class GameState
         {
@@ -144,6 +145,7 @@ namespace LotmRussianPatcher
 
             window.Loaded += (s, e) =>
             {
+                if (!string.IsNullOrEmpty(SelfUpdate.UpdatedFrom)) Log("Установщик обновлён: " + SelfUpdate.UpdatedFrom + " → " + AppInfo.Version);
                 Log("Установщик русской локализации " + AppInfo.Version + ".");
                 if (!string.IsNullOrEmpty(PayloadSource.ExplicitPayload)) Log("Локальный пакет: " + PayloadSource.ExplicitPayload);
                 blocker = PatcherBackend.RunningBlocker();
@@ -320,21 +322,27 @@ namespace LotmRussianPatcher
             gameDir = normalized;
             state = read;
 
-            if (read.GameUpdated)
-                SetFolderLine("✗ Игра обновилась (кеш обновления " + read.Cache.Version + "), нужна новая версия русификатора. Дождитесь обновления русификатора.", "ErrorBrush");
-            else if (read.Unsupported && read.Pak != PakState.Unknown)
-                SetFolderLine("✗ Версия игры не поддерживается: " + read.Cache.Detail + ". Проверьте файлы игры в лаунчере.", "ErrorBrush");
-            else if (read.Pak == PakState.Unknown)
-                SetFolderLine("✗ Версия игры не поддерживается (русификатор рассчитан на сборку " + (read.GameBuild ?? "?") + "). Дождитесь обновления русификатора.", "ErrorBrush");
-            else
-                SetFolderLine("✓ Сборка игры " + (read.GameBuild ?? "?") + " — поддерживается", "OkBrush");
-
+            ShowFolderState(read);
             LogCacheCheck(read);
             if (read.OptionsError != null) Log("Внимание: " + read.OptionsError);
             ShowOptions(read.Options);
             writtenOptions = read.Options;
             UpdateStatus();
             UpdateButtons();
+        }
+
+        // "Дождитесь обновления русификатора" only while no release is newer than this exe (TASK-040).
+        private void ShowFolderState(GameState read)
+        {
+            string wait = SelfUpdate.NewerReleaseText() ?? "Дождитесь обновления русификатора.";
+            if (read.GameUpdated)
+                SetFolderLine("✗ Игра обновилась (кеш обновления " + read.Cache.Version + "), нужна новая версия русификатора. " + wait, "ErrorBrush");
+            else if (read.Unsupported && read.Pak != PakState.Unknown)
+                SetFolderLine("✗ Версия игры не поддерживается: " + read.Cache.Detail + ". Проверьте файлы игры в лаунчере.", "ErrorBrush");
+            else if (read.Pak == PakState.Unknown)
+                SetFolderLine("✗ Версия игры не поддерживается (русификатор рассчитан на сборку " + (read.GameBuild ?? "?") + "). " + wait, "ErrorBrush");
+            else
+                SetFolderLine("✓ Сборка игры " + (read.GameBuild ?? "?") + " — поддерживается", "OkBrush");
         }
 
         private static GameState ReadState(string dir)
@@ -403,7 +411,8 @@ namespace LotmRussianPatcher
         private void UpdateStatus()
         {
             string target = TargetVersion.StartsWith("v") ? TargetVersion : "v" + TargetVersion;
-            if (blocker != null) SetStatus("ИГРА ЗАПУЩЕНА", "ErrorBrush", "ErrorSoftBrush");
+            if (selfUpdateTarget != null) SetStatus("ОБНОВЛЕНИЕ УСТАНОВЩИКА ДО " + selfUpdateTarget, "GoldBrush", "GoldSoftBrush");
+            else if (blocker != null) SetStatus("ИГРА ЗАПУЩЕНА", "ErrorBrush", "ErrorSoftBrush");
             else if (gameDir == null || state == null) SetStatus("ВЫБЕРИТЕ ПАПКУ ИГРЫ", "MutedBrush", "MutedSoftBrush");
             else if (NeedsRepair) SetStatus("НУЖНО ВОССТАНОВИТЬ ЗАПУСК", "WarnBrush", "WarnSoftBrush");
             else if (state.GameUpdated) SetStatus("ИГРА ОБНОВИЛАСЬ — НУЖНА НОВАЯ ВЕРСИЯ", "ErrorBrush", "ErrorSoftBrush");
@@ -453,8 +462,61 @@ namespace LotmRussianPatcher
             ReleaseManifest manifest = await Task.Run(() => { try { return PayloadSource.FetchManifest(null); } catch { return null; } });
             if (manifest == null || string.IsNullOrEmpty(manifest.Version)) return;
             latestVersion = manifest.Version;
+            SelfUpdate.LatestVersion = manifest.Version;
             Log("Последняя версия на GitHub: " + manifest.Version + (manifest.PayloadSize > 0 ? " (" + (manifest.PayloadSize / 1048576) + " МБ)" : ""));
+            if (PatcherBackend.CompareVersions(manifest.Version, AppInfo.Version) > 0) await SelfUpdateAsync(manifest);
+            if (state != null) ShowFolderState(state);
             UpdateStatus();
+        }
+
+        // TASK-040: the release is newer than this exe -> download its exe, swap, restart. Any failure leaves the window as it was.
+        private async Task SelfUpdateAsync(ReleaseManifest manifest)
+        {
+            if (!SelfUpdate.IsNewer(manifest))
+            {
+                SelfUpdate.Failed = true;
+                Log("Установщик " + manifest.Version + " не обновить автоматически: в release.json нет SHA-256 установщика.");
+                return;
+            }
+            string skip = SelfUpdate.SkipReason(manifest);
+            if (skip != null)
+            {
+                SelfUpdate.Failed = true;
+                Log(skip);
+                return;
+            }
+            if (busy)
+            {
+                Log("Найден установщик " + manifest.Version + ": обновление при следующем запуске (идёт другая операция).");
+                return;
+            }
+
+            string current = SelfUpdate.CurrentExe;
+            Log("Найден установщик " + manifest.Version + ", текущий " + AppInfo.Version + ": обновление…");
+            selfUpdateTarget = manifest.Version;
+            BeginOperation(true);
+            UpdateStatus();
+            string exe = null;
+            try { exe = await SelfUpdate.PrepareAsync(manifest, current, Log, ReportProgress, cts.Token); }
+            catch (Exception ex) { Log("ОШИБКА самообновления: " + ex.Message); }
+            if (exe != null)
+            {
+                if (gameDir != null && PatcherBackend.IsValidGameFolder(gameDir)) PatcherBackend.SaveLastGameDir(gameDir);
+                if (SelfUpdate.Restart(exe, Log))
+                {
+                    busy = false;   // no "operation in progress" question on close
+                    Application.Current.Shutdown();
+                    return;
+                }
+                Log("Новый установщик уже на месте (" + exe + "): закройте окно и запустите его заново.");
+            }
+            else
+            {
+                SelfUpdate.Failed = true;
+                Log("Установщик не обновился сам: скачайте " + SelfUpdate.DefaultExeName + " со страницы релиза https://github.com/" + AppInfo.Repo + "/releases/latest.");
+            }
+            selfUpdateTarget = null;
+            EndOperation();
         }
 
         // ------------------------------------------------------------ options

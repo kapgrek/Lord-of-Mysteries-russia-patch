@@ -114,6 +114,12 @@ public static class InstallerCoreTests
         Run("payload: --payload folder / zip", PayloadExplicit);
         Run("payload: cache only with matching release.json", PayloadCache);
         Run("versions: installed Init.lua VERSION and comparison", VersionsCompare);
+        Run("self-update: IsNewer, skip reasons, texts", SelfUpdateIsNewer);
+        Run("self-update: release.json patcher_asset (build/release.json and sample)", SelfUpdateReleaseJson);
+        Run("self-update: wrong SHA-256 / size -> null, .new removed, exe intact", SelfUpdateBadDownload);
+        Run("self-update: swap -> new exe in place, old one is .old, cleanup", SelfUpdateSwap);
+        Run("self-update: exe locked -> rollback, new exe in the AppData fallback", SelfUpdateLockedFallback);
+        Run("self-update: CleanupOld with free and busy files", SelfUpdateCleanup);
         Run("logs: 3 newest C7*.log + info.txt, rerun, open file, no logs", LogCollectorCopies);
         Run("logs: exe folder not writable -> Desktop", LogCollectorFallback);
         Run("installer.log: header, lines, rotation over 1 MB", InstallerLogWrites);
@@ -1359,6 +1365,206 @@ public static class InstallerCoreTests
         r = LogCollector.Collect(OptionsGame("logs-none"), exe);
         Assert(r.Error != null && r.Error.Contains("Запустите игру") && r.Folder == null, "no Saved\\Logs -> error, no exception");
         Assert(LogCollector.MaskUser(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile) + @"\x") == @"%USERPROFILE%\x", "user profile masked");
+    }
+
+    // ------------------------------------------------------------ self-update (installer/SelfUpdate.cs)
+
+    // exe dir and %LOCALAPPDATA% inside the test folder; the "download" copies a local file.
+    static string SelfUpdateSandbox(string name, out string exe)
+    {
+        string root = PayloadSandbox(name, null);
+        exe = Path.Combine(PayloadSource.ExeDir, SelfUpdate.DefaultExeName);
+        WriteText(exe, "old installer\n");
+        SelfUpdate.Download = (url, dest, size, progress, token, log) =>
+        {
+            File.Copy(url, dest, true);
+            return System.Threading.Tasks.Task.FromResult(true);
+        };
+        return root;
+    }
+
+    static ReleaseManifest SelfUpdateRelease(string root, string content)
+    {
+        string file = Path.Combine(root, "release", SelfUpdate.DefaultExeName);
+        WriteText(file, content);
+        return new ReleaseManifest
+        {
+            Version = "v9.0.0-RU", PatcherName = SelfUpdate.DefaultExeName, PatcherDownloadUrl = file,
+            PatcherSize = new FileInfo(file).Length, PatcherSha256 = InstallerCore.FileSha256(file)
+        };
+    }
+
+    static void ResetSelfUpdate()
+    {
+        SelfUpdate.UpdatedFrom = null;
+        SelfUpdate.DisabledByArg = false;
+        SelfUpdate.LatestVersion = null;
+        SelfUpdate.Failed = false;
+        SelfUpdate.Download = GitHubReleaseClient.DownloadFileWithProgressAsync;
+        PayloadSource.ExplicitPayload = null;
+    }
+
+    static string Prepare(ReleaseManifest m, string exe, List<string> log)
+    {
+        return SelfUpdate.PrepareAsync(m, exe, s => log.Add(s), null, System.Threading.CancellationToken.None).GetAwaiter().GetResult();
+    }
+
+    static void SelfUpdateIsNewer()
+    {
+        ResetSelfUpdate();
+        string sha = new string('a', 64);
+        Func<string, ReleaseManifest> rel = v => new ReleaseManifest { Version = v, PatcherSha256 = sha, PatcherDownloadUrl = "https://example.invalid/x.exe" };
+        Assert(SelfUpdate.IsNewer(rel("v9.0.0-RU")), "v9.0.0-RU > " + AppInfo.Version);
+        Assert(SelfUpdate.IsNewer(rel("3.1.3-RU")) == (PatcherBackend.CompareVersions("3.1.3-RU", AppInfo.Version) > 0), "3.1.3-RU against " + AppInfo.Version);
+        Assert(PatcherBackend.CompareVersions("v3.1.3-RU", "3.1.2-RU") > 0, "v-prefixed tag: 3.1.3 > 3.1.2");
+        Assert(!SelfUpdate.IsNewer(rel("v" + AppInfo.Version)), "same version (v-prefixed tag) -> no");
+        Assert(!SelfUpdate.IsNewer(rel("v3.0.0-RU")), "older -> no");
+        Assert(!SelfUpdate.IsNewer(new ReleaseManifest { Version = "v9.0.0-RU", PatcherDownloadUrl = "https://example.invalid/x.exe" }), "no sha256 -> no");
+        Assert(!SelfUpdate.IsNewer(null), "no manifest -> no");
+
+        ReleaseManifest m = rel("v9.0.0-RU");
+        if (!GitHubReleaseClient.RepoOverridden) Assert(SelfUpdate.SkipReason(m) == null, "window, no flags -> update allowed");
+        SelfUpdate.UpdatedFrom = "3.1.2-RU";
+        string loop = SelfUpdate.SkipReason(m);
+        Assert(loop != null && loop.Contains("вручную"), "--updated-from and still newer -> loop guard: " + loop);
+        SelfUpdate.UpdatedFrom = null;
+        SelfUpdate.DisabledByArg = true;
+        Assert(SelfUpdate.SkipReason(m) != null, "--no-self-update -> skipped");
+        SelfUpdate.DisabledByArg = false;
+        PayloadSource.ExplicitPayload = "x";
+        Assert(SelfUpdate.SkipReason(m) != null, "--payload -> skipped");
+        PayloadSource.ExplicitPayload = null;
+
+        Assert(SelfUpdate.NewerReleaseText() == null, "no latest version -> 'Дождитесь' stays");
+        SelfUpdate.LatestVersion = "v" + AppInfo.Version;
+        Assert(SelfUpdate.NewerReleaseText() == null, "latest = this exe -> 'Дождитесь' stays");
+        SelfUpdate.LatestVersion = "v9.0.0-RU";
+        string text = SelfUpdate.NewerReleaseText();
+        Assert(text != null && text.Contains("Вышла версия v9.0.0-RU") && text.Contains("обновится при следующем запуске"), "newer release text: " + text);
+        SelfUpdate.Failed = true;
+        text = SelfUpdate.NewerReleaseText();
+        Assert(text != null && text.Contains("не смог обновиться сам") && text.Contains("releases/latest"), "failed update text: " + text);
+        var g = new SupportedGame { MinInstallerVersion = "99.0.0-RU" };
+        string why = PatcherBackend.InstallerTooOld(g);
+        Assert(why != null && why.Contains("Вышла версия v9.0.0-RU") && why.Contains("Файлы игры не изменены"), "InstallerTooOld with a newer release: " + why);
+        ResetSelfUpdate();
+    }
+
+    static void SelfUpdateReleaseJson()
+    {
+        string repo = Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, ".."));
+        string built = Path.Combine(repo, @"build\release.json");
+        if (File.Exists(built))
+        {
+            ReleaseManifest b = ReleaseManifest.FromReleaseJson(File.ReadAllText(built, Encoding.UTF8));
+            Assert(b != null && b.PatcherName == SelfUpdate.DefaultExeName && b.PatcherSize > 0
+                && b.PatcherSha256 != null && System.Text.RegularExpressions.Regex.IsMatch(b.PatcherSha256, "^[0-9a-f]{64}$"), "build/release.json: patcher_asset name, size, sha256");
+            Assert(b != null && !string.IsNullOrEmpty(b.ReleaseTag), "build/release.json: release_tag");
+        }
+        else Console.WriteLine("  note: build/release.json not found, only the sample is checked");
+
+        string upper = new string('A', 64);
+        ReleaseManifest s = ReleaseManifest.FromReleaseJson("{\"release_version\": \"v3.1.3-RU\", \"release_tag\": \"v3.1.3-RU\", \"format_version\": 2,"
+            + " \"patcher_asset\": {\"name\": \"Lord-of-Mysteries-Russian-Patch.exe\", \"sha256\": \"" + upper + "\", \"size\": 733984},"
+            + " \"payload\": {\"name\": \"lom-russian-patch-data.zip\", \"sha256\": \"" + new string('b', 64) + "\", \"size\": 1}}");
+        Assert(s != null && s.PatcherSha256 == new string('a', 64) && s.PatcherSize == 733984 && s.ReleaseTag == "v3.1.3-RU", "sample: sha256 lower-cased, size, tag");
+        ReleaseManifest old = ReleaseManifest.FromReleaseJson("{\"release_version\": \"v3.0.0-RU\", \"payload\": {\"sha256\": \"" + new string('b', 64) + "\", \"size\": 1}}");
+        Assert(old != null && old.PatcherSha256 == null && !SelfUpdate.IsNewer(old), "release.json without patcher_asset -> no self-update");
+        Assert(SelfUpdate.ExeName(old) == SelfUpdate.DefaultExeName && SelfUpdate.ExeName(new ReleaseManifest { PatcherName = @"..\evil\x.exe" }) == "x.exe", "exe name: default, no path parts");
+    }
+
+    static void SelfUpdateBadDownload()
+    {
+        ResetSelfUpdate();
+        string exe;
+        string root = SelfUpdateSandbox("selfupdate-sha", out exe);
+        ReleaseManifest m = SelfUpdateRelease(root, "new installer\n");
+        var log = new List<string>();
+
+        m.PatcherSha256 = new string('0', 64);
+        Assert(Prepare(m, exe, log) == null, "foreign sha256 -> null");
+        Assert(log.Exists(s => s.Contains("SHA-256 нового установщика не совпадает с release.json")), "log names the sha256 mismatch");
+        Assert(!File.Exists(exe + ".new") && !File.Exists(exe + ".old") && File.ReadAllText(exe) == "old installer\n", ".new removed, exe intact");
+
+        m = SelfUpdateRelease(root, "new installer\n");
+        m.PatcherSize += 1;
+        log.Clear();
+        Assert(Prepare(m, exe, log) == null && log.Exists(s => s.Contains("Размер нового установщика")), "wrong size -> null");
+        Assert(!File.Exists(exe + ".new") && File.ReadAllText(exe) == "old installer\n", "wrong size: .new removed, exe intact");
+
+        SelfUpdate.Download = (url, dest, size, progress, token, l) => System.Threading.Tasks.Task.FromResult(false);
+        m = SelfUpdateRelease(root, "new installer\n");
+        Assert(Prepare(m, exe, log) == null && File.ReadAllText(exe) == "old installer\n" && !File.Exists(exe + ".new"), "download failed -> null, exe intact");
+        ResetSelfUpdate();
+    }
+
+    static void SelfUpdateSwap()
+    {
+        ResetSelfUpdate();
+        string exe;
+        string root = SelfUpdateSandbox("selfupdate-swap", out exe);
+        ReleaseManifest m = SelfUpdateRelease(root, "new installer\n");
+        var log = new List<string>();
+        string started = Prepare(m, exe, log);
+        Assert(started == exe, "the exe to start is the original path: " + started + " / " + string.Join(" | ", log.ToArray()));
+        Assert(File.ReadAllText(exe) == "new installer\n", "new content in place of the exe");
+        Assert(File.Exists(exe + ".old") && File.ReadAllText(exe + ".old") == "old installer\n", "old exe kept as .old");
+        Assert(!File.Exists(exe + ".new"), "no .new left");
+        Assert(!Directory.Exists(SelfUpdate.FallbackDir), "fallback not used");
+
+        // A second update replaces the stale .old.
+        m = SelfUpdateRelease(root, "newer installer\n");
+        Assert(Prepare(m, exe, log) == exe && File.ReadAllText(exe + ".old") == "new installer\n", "second swap: previous exe becomes .old");
+        Assert(SelfUpdate.CleanupOld(exe) && !File.Exists(exe + ".old") && File.ReadAllText(exe) == "newer installer\n", "cleanup removes .old, exe stays");
+        ResetSelfUpdate();
+    }
+
+    static void SelfUpdateLockedFallback()
+    {
+        ResetSelfUpdate();
+        string exe;
+        string root = SelfUpdateSandbox("selfupdate-locked", out exe);
+        ReleaseManifest m = SelfUpdateRelease(root, "new installer\n");
+        var log = new List<string>();
+        string started;
+        using (new FileStream(exe, FileMode.Open, FileAccess.Read, FileShare.None))
+        {
+            started = Prepare(m, exe, log);
+        }
+        string fallback = Path.Combine(SelfUpdate.FallbackDir, SelfUpdate.DefaultExeName);
+        Assert(started == fallback && File.ReadAllText(fallback) == "new installer\n", "new exe in the fallback folder: " + started);
+        Assert(fallback.StartsWith(PayloadSource.AppDataRoot, StringComparison.OrdinalIgnoreCase), "fallback under the (test) AppDataRoot");
+        Assert(File.ReadAllText(exe) == "old installer\n" && !File.Exists(exe + ".old") && !File.Exists(exe + ".new"), "original exe intact, no .old/.new");
+        Assert(log.Exists(s => s.Contains("Новая версия сохранена в") && s.Contains("дальше запускайте её")), "log points to the fallback exe");
+
+        // The new file cannot be moved into place: the original is renamed back.
+        string newFile = exe + ".new";
+        WriteText(newFile, "new installer\n");
+        using (new FileStream(newFile, FileMode.Open, FileAccess.Read, FileShare.None))
+        {
+            Assert(SelfUpdate.Swap(exe, newFile, s => log.Add(s)) == null, "second step fails -> null");
+        }
+        Assert(File.ReadAllText(exe) == "old installer\n" && !File.Exists(exe + ".old"), "rollback: original exe back in place");
+        ResetSelfUpdate();
+    }
+
+    static void SelfUpdateCleanup()
+    {
+        string exe;
+        SelfUpdateSandbox("selfupdate-cleanup", out exe);
+        Assert(SelfUpdate.CleanupOld(exe), "nothing to clean -> true");
+        WriteText(exe + ".old", "old\n");
+        WriteText(exe + ".new", "new\n");
+        Assert(SelfUpdate.CleanupOld(exe) && !File.Exists(exe + ".old") && !File.Exists(exe + ".new"), "free .old/.new removed");
+        WriteText(exe + ".old", "old\n");
+        bool busyResult;
+        using (new FileStream(exe + ".old", FileMode.Open, FileAccess.Read, FileShare.Read))
+        {
+            busyResult = SelfUpdate.CleanupOld(exe);
+        }
+        Assert(!busyResult && File.Exists(exe + ".old"), "busy .old: false, no exception");
+        Assert(SelfUpdate.CleanupOld(exe) && File.Exists(exe), "freed later -> removed, exe stays");
+        ResetSelfUpdate();
     }
 
     static void InstallerLogWrites()

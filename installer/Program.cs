@@ -33,14 +33,19 @@ namespace LotmRussianPatcher
             catch { }
 
             // --payload <folder|zip> may come with any command and with the window.
+            // --updated-from <version> (restart after a self-update) and --no-self-update only matter for the window.
             var rest = new List<string>();
             for (int i = 0; args != null && i < args.Length; i++)
             {
                 if (args[i].Equals("--payload", StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) PayloadSource.ExplicitPayload = args[++i];
+                else if (args[i].Equals(SelfUpdate.UpdatedFromArg, StringComparison.OrdinalIgnoreCase) && i + 1 < args.Length) SelfUpdate.UpdatedFrom = args[++i];
+                else if (args[i].Equals(SelfUpdate.NoSelfUpdateArg, StringComparison.OrdinalIgnoreCase)) SelfUpdate.DisabledByArg = true;
                 else rest.Add(args[i]);
             }
 
             InstallerLog.Start();
+            try { SelfUpdate.CleanupOldInBackground(SelfUpdate.CurrentExe); }
+            catch { }
             if (rest.Count > 0)
             {
                 try
@@ -88,6 +93,7 @@ namespace LotmRussianPatcher
                 Console.WriteLine("  --install <путь_к_игре>      Установка без окна");
                 Console.WriteLine("  --uninstall <путь_к_игре>    Удаление русификатора");
                 Console.WriteLine("  --download-payload           Скачать последний пакет с GitHub в кеш");
+                Console.WriteLine("  --no-self-update             Окно без самообновления установщика");
                 return 0;
             }
 

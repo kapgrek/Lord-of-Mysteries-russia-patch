@@ -265,8 +265,10 @@ namespace LotmRussianPatcher
         {
             if (game == null || string.IsNullOrEmpty(game.MinInstallerVersion)) return null;
             if (CompareVersions(AppInfo.Version, game.MinInstallerVersion) >= 0) return null;
-            return "Нужна новая версия установщика (" + game.MinInstallerVersion + " или новее, у вас " + AppInfo.Version
-                + "): скачайте Lord-of-Mysteries-Russian-Patch.exe со страницы релиза https://github.com/" + AppInfo.Repo + "/releases/latest. Файлы игры не изменены.";
+            string newer = SelfUpdate.NewerReleaseText();
+            return "Нужна новая версия установщика (" + game.MinInstallerVersion + " или новее, у вас " + AppInfo.Version + "). "
+                + (newer ?? "Скачайте " + SelfUpdate.DefaultExeName + " со страницы релиза https://github.com/" + AppInfo.Repo + "/releases/latest.")
+                + " Файлы игры не изменены.";
         }
 
         // "2.9.10-RU" < "3.0.0-RU"; unknown formats compare as equal.
