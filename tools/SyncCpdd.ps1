@@ -311,9 +311,16 @@ function Get-SupportedGameJson($release, [string]$tag, [string]$cacheBlockPath) 
         $inst = [IO.File]::ReadAllBytes($cacheBlockPath)
         if ($inst.Length -ne $cl.block.size -or ([BitConverter]::ToString($sha.ComputeHash($inst)) -replace '-', '').ToLower() -ne $cl.block.installed_sha256) { throw "$cacheBlockPath does not match cache_launch.installed_sha256" }
         $instHead = ([BitConverter]::ToString($inst, 0, 64) -replace '-', '').ToLower()
+        # entry_id = prefix of the local.cache record key of the block (TASK-039): the installer finds the block
+        # by it, wherever the launcher keeps it (an incremental hotpatch leaves it in the older <ver> folder).
+        $entryLine = ''
+        if ($cl.entry_id) {
+            if ($cl.entry_id -notmatch '^([0-9a-fA-F]{2}){1,16}$') { throw "cache_launch.entry_id is not hex: $($cl.entry_id)" }
+            $entryLine = "`n    `"entry_id`": `"$($cl.entry_id.ToLower())`","
+        }
         $cacheJson = @"
 ,
-  "cache_launch": {
+  "cache_launch": {$entryLine
     "manifest_sha256": "$($cl.manifest_sha256)",
     "pak_name": "pakchunk0-Windows.pak",
     "size": $($cl.block.size),

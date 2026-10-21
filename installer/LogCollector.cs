@@ -124,7 +124,9 @@ namespace LotmRussianPatcher
             {
                 SupportedGame g = PatcherBackend.LoadSupportedGame(null, null);
                 if (g == null) return "нет supported_game.json";
-                return "game_build " + g.GameBuild + (g.Cache != null ? ", cache_launch.manifest_sha256 " + g.Cache.ManifestSha256 : ", без cache_launch");
+                if (g.Cache == null) return "game_build " + g.GameBuild + ", без cache_launch";
+                return "game_build " + g.GameBuild + ", cache_launch.entry_id " + (g.Cache.EntryId.Length > 0 ? g.Cache.EntryId : "нет")
+                    + ", cache_launch.manifest_sha256 " + g.Cache.ManifestSha256;
             });
             Line(sb, "  pakchunk0 (InspectPak)", () =>
             {
@@ -166,6 +168,8 @@ namespace LotmRussianPatcher
         {
             var sb = new StringBuilder(c.State.ToString());
             if (c.Version != null) sb.Append(", версия ").Append(c.Version);
+            if (c.AssetsVersion != null && c.AssetsVersion != c.Version) sb.Append(" (AssetsVersion ").Append(c.AssetsVersion).Append(")");
+            if (c.EntryRelPath != null) sb.Append(", запись local.cache по entry_id ").Append(c.EntryRelPath);
             if (c.PakPath != null)
             {
                 int k = c.PakPath.IndexOf(InstallerCore.KsCacheRel, StringComparison.OrdinalIgnoreCase);

@@ -16,6 +16,7 @@
     "installed_pak_size": 446910011
   },
   "cache_launch": {
+    "entry_id": "e5b5a377c686bc9e96abc007",
     "manifest_sha256": "6d23b1cf198b17efe9e2e132d1f6420d2f6dfdf439ba8d61534901d1f6d00b24",
     "pak_name": "pakchunk0-Windows.pak",
     "size": 5258,

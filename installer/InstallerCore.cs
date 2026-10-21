@@ -34,9 +34,11 @@ namespace LotmRussianPatcher
     }
 
     // Launch block of a hotpatch pakchunk0 in Saved/kscache/<ver>/ (CPDD release.json external_bridge.cache_launch).
-    // The offset is not fixed: the block is found by its first 64 bytes and checked by sha256.
+    // The offset is not fixed: the block is found by its local.cache record key (EntryId, TASK-039), otherwise
+    // by its first 64 bytes, and is always checked by sha256.
     public class CacheLaunch
     {
+        public string EntryId = "";   // hex prefix of the local.cache record key of the block; "" = search by head only
         public string ManifestSha256;
         public string PakName = "pakchunk0-Windows.pak";
         public int Size;
@@ -51,10 +53,10 @@ namespace LotmRussianPatcher
     public enum CacheState
     {
         NoCachePak,       // no Saved/kscache/<ver>/pakchunk0: only the base pak counts
-        UnsupportedBuild, // the cache pak exists, but its manifest is not the one cache_launch was made for
+        UnsupportedBuild, // the cache pak exists, no launch block in it and the manifest is not the supported one
         Clean,            // exactly one clean launch block found
         Installed,        // exactly one bridge block found
-        NotFound,         // supported manifest, but no block
+        NotFound,         // supported manifest (or the entry_id record found), but no block
         Ambiguous         // more than one candidate block
     }
 
@@ -73,7 +75,9 @@ namespace LotmRussianPatcher
     public class CacheInfo
     {
         public CacheState State = CacheState.NoCachePak;
-        public string Version;
+        public string Version;         // kscache folder that holds the launch block
+        public string AssetsVersion;   // cache version from AssetsVersion.txt; differs after an incremental hotpatch
+        public string EntryRelPath;    // "<ver>/<pak>" of the local.cache record found by entry_id, null when not used
         public string PakPath;
         public long PakSize;
         public long Offset = -1;
@@ -154,6 +158,7 @@ namespace LotmRussianPatcher
             if (cl != null)
             {
                 var c = new CacheLaunch();
+                c.EntryId = GetString(cl, "entry_id").ToLowerInvariant();
                 c.ManifestSha256 = GetString(cl, "manifest_sha256").ToLowerInvariant();
                 string pakName = GetString(cl, "pak_name");
                 if (!string.IsNullOrEmpty(pakName)) c.PakName = pakName;
@@ -166,7 +171,8 @@ namespace LotmRussianPatcher
                 c.InstalledHeadHex = GetString(cl, "installed_head_hex").ToLowerInvariant();
                 if (c.ManifestSha256.Length != 64 || c.Size < 64 || c.CleanSha256.Length != 64 || c.InstalledSha256.Length != 64
                     || c.OriginalHeadHex.Length != 128 || c.InstalledHeadHex.Length != 128
-                    || c.PakName.IndexOfAny(new[] { '/', '\\', ':' }) >= 0 || c.Payload.Contains(".."))
+                    || c.PakName.IndexOfAny(new[] { '/', '\\', ':' }) >= 0 || c.Payload.Contains("..")
+                    || c.EntryId.Length % 2 != 0 || c.EntryId.Length > 2 * KsLocalCache.KeySize || !IsHex(c.EntryId))
                 {
                     throw new InvalidDataException("supported_game.json: incomplete cache_launch");
                 }
@@ -213,6 +219,7 @@ namespace LotmRussianPatcher
             if (Cache != null)
             {
                 sb.Append(",\n  \"cache_launch\": {\n");
+                if (!string.IsNullOrEmpty(Cache.EntryId)) sb.Append("    \"entry_id\": \"").Append(Cache.EntryId).Append("\",\n");
                 sb.Append("    \"manifest_sha256\": \"").Append(Cache.ManifestSha256).Append("\",\n");
                 sb.Append("    \"pak_name\": \"").Append(Escape(Cache.PakName)).Append("\",\n");
                 sb.Append("    \"size\": ").Append(Cache.Size).Append(",\n");
@@ -229,6 +236,12 @@ namespace LotmRussianPatcher
         private static string Escape(string s)
         {
             return (s ?? "").Replace("\\", "\\\\").Replace("\"", "\\\"");
+        }
+
+        private static bool IsHex(string s)
+        {
+            foreach (char ch in s) if (!((ch >= '0' && ch <= '9') || (ch >= 'a' && ch <= 'f'))) return false;
+            return true;
         }
 
         private static string GetString(Dictionary<string, object> d, string key)
@@ -310,9 +323,35 @@ namespace LotmRussianPatcher
         public CacheInfo InspectCache()
         {
             var info = new CacheInfo();
+            CacheLaunch c = game.Cache;
             string version, manifestId;
-            string pak = FindCachePak(gameDir, game.Cache != null ? game.Cache.PakName : null, out version, out manifestId);
+            string pak = FindCachePak(gameDir, c != null ? c.PakName : null, out version, out manifestId);
             info.Version = version;
+            info.AssetsVersion = version;
+            if (version == null) return info;
+
+            // null = local.cache missing or of an unknown format.
+            List<KsLocalCache.Entry> index;
+            try { index = KsLocalCache.Load(Path.Combine(gameDir, KsCacheRel, KsLocalCache.FileName)); }
+            catch (IOException) { index = null; }
+
+            // 1. By the local.cache record key (TASK-039): an incremental hotpatch puts a small delta pak into
+            // kscache/<new ver>/ and leaves the launch block in the older folder, where the game still reads it.
+            if (c != null && c.EntryId.Length > 0 && index != null)
+            {
+                List<KsLocalCache.Entry> found = KsLocalCache.FindByKeyPrefix(index, FromHex(c.EntryId));
+                if (found.Count > 1)
+                {
+                    var records = new List<string>();
+                    foreach (var e in found) records.Add(e.RelPath + ":" + e.Offset);
+                    info.State = CacheState.Ambiguous;
+                    info.Detail = "в local.cache " + found.Count + " записи с ключом entry_id " + c.EntryId + ": " + string.Join(", ", records.ToArray());
+                    return info;
+                }
+                if (found.Count == 1) return InspectCacheEntry(info, found[0], index, c);
+            }
+
+            // 2. Fallback: the pak of the AssetsVersion.txt folder, the block found by its head.
             if (pak == null) return info;
             info.PakPath = pak;
             info.PakSize = new FileInfo(pak).Length;
@@ -320,29 +359,23 @@ namespace LotmRussianPatcher
             // Live chunks of the pak (TASK-038): the launcher appends a re-downloaded pak without truncating it,
             // so dead copies of the launch block may stay in the file. null = local.cache not read.
             string relPak = version + "/" + Path.GetFileName(pak);
-            List<long> starts;
-            try { starts = KsLocalCache.ChunkStarts(Path.Combine(gameDir, KsCacheRel, KsLocalCache.FileName), relPak); }
-            catch (IOException) { starts = null; }
+            List<long> starts = KsLocalCache.ChunkStarts(index, relPak);
             bool liveKnown = starts != null && starts.Count > 0;
 
             // A bridge we wrote ourselves: the record keeps the offset, so no scan is needed.
             long recorded = ReadCacheRecordOffset(version, pak, liveKnown ? starts : null, info.PakSize);
             if (recorded >= 0) { info.State = CacheState.Installed; info.Offset = recorded; return info; }
 
-            CacheLaunch c = game.Cache;
             if (c == null)
             {
                 info.State = CacheState.UnsupportedBuild;
                 info.Detail = "в сведениях о версии нет блока запуска для кеша обновления";
                 return info;
             }
+            // The manifest changes with every hotpatch while the launch block may stay the same (TASK-039):
+            // a different manifest alone is not a refusal, the sha256 of the whole block decides.
             string manifest = Path.Combine(gameDir, KsCacheRel, "package_" + manifestId + ".manifest");
-            if (!File.Exists(manifest) || FileSha256(manifest) != c.ManifestSha256)
-            {
-                info.State = CacheState.UnsupportedBuild;
-                info.Detail = "манифест package_" + manifestId + ".manifest не совпадает с поддерживаемым";
-                return info;
-            }
+            bool manifestOther = !File.Exists(manifest) || FileSha256(manifest) != c.ManifestSha256;
 
             byte[] originalHead = FromHex(c.OriginalHeadHex);
             byte[] installedHead = FromHex(c.InstalledHeadHex);
@@ -370,7 +403,12 @@ namespace LotmRussianPatcher
             string where = KsCacheRel + "\\" + version + "\\" + c.PakName;
             string why = starts == null ? "; local.cache не прочитан" : starts.Count == 0 ? "; в local.cache нет записей для " + relPak : "";
             int total = clean.Count + installed.Count;
-            if (total == 0)
+            if (total == 0 && manifestOther)
+            {
+                info.State = CacheState.UnsupportedBuild;
+                info.Detail = "манифест package_" + manifestId + ".manifest не совпадает с поддерживаемым, блок запуска не найден в " + where + why + " " + HitsDetail(info);
+            }
+            else if (total == 0)
             {
                 info.State = CacheState.NotFound;
                 info.Detail = (liveKnown ? "блок запуска не найден среди живых данных " + where + ", мёртвых копий: " + dead : "блок запуска не найден в " + where)
@@ -385,8 +423,57 @@ namespace LotmRussianPatcher
             {
                 info.State = clean.Count == 1 ? CacheState.Clean : CacheState.Installed;
                 info.Offset = clean.Count == 1 ? clean[0] : installed[0];
+                if (manifestOther) info.Detail = "манифест package_" + manifestId + ".manifest другой, блок запуска совпал по sha256";
             }
             return info;
+        }
+
+        // The single local.cache record with the entry_id key: its offset is the block, checked by sha256 only.
+        private CacheInfo InspectCacheEntry(CacheInfo info, KsLocalCache.Entry e, List<KsLocalCache.Entry> index, CacheLaunch c)
+        {
+            info.EntryRelPath = e.RelPath;
+            string[] parts = e.RelPath.Split('/');
+            string at = e.RelPath + ":" + e.Offset;
+            if (parts.Length != 2 || !IsDigits(parts[0]) || !string.Equals(parts[1], c.PakName, StringComparison.OrdinalIgnoreCase))
+            {
+                info.State = CacheState.NotFound;
+                info.Detail = "по ключу entry_id в local.cache запись не пака " + c.PakName + ": " + at;
+                return info;
+            }
+            info.Version = parts[0];
+            info.PakPath = Path.Combine(gameDir, KsCacheRel, parts[0], c.PakName);
+            if (!File.Exists(info.PakPath))
+            {
+                info.State = CacheState.NotFound;
+                info.Detail = "по ключу entry_id блок записан в " + at + ", но файла пака нет";
+                return info;
+            }
+            info.PakSize = new FileInfo(info.PakPath).Length;
+            string sha = ReadBlockSha256(info.PakPath, e.Offset, c.Size);
+            string kind = sha == c.InstalledSha256 ? CacheHit.Bridge : sha == c.CleanSha256 ? CacheHit.Clean : CacheHit.HeadOnly;
+            List<long> starts = KsLocalCache.ChunkStarts(index, e.RelPath);
+            info.Hits.Add(new CacheHit { Offset = e.Offset, Kind = kind, Live = KsLocalCache.IsLive(starts, e.Offset, c.Size, info.PakSize) });
+            if (kind == CacheHit.HeadOnly)
+            {
+                info.State = CacheState.NotFound;
+                info.Detail = "по ключу entry_id блок найден в " + at + ", но байты не совпадают (размер пака " + info.PakSize + ")";
+                return info;
+            }
+            info.State = kind == CacheHit.Bridge ? CacheState.Installed : CacheState.Clean;
+            info.Offset = e.Offset;
+            info.Detail = "блок найден по local.cache: " + at
+                + (info.Version != info.AssetsVersion ? ", кеш обновления " + info.AssetsVersion : "");
+            return info;
+        }
+
+        // "Saved\kscache\2218968" plus "(кеш обновления 2228458, блок найден по local.cache)" when the block is not
+        // in the AssetsVersion.txt folder.
+        private static string CacheWhere(CacheInfo cache)
+        {
+            string where = KsCacheRel + "\\" + cache.Version;
+            if (cache.EntryRelPath != null && cache.Version != cache.AssetsVersion) return where + " (кеш обновления " + cache.AssetsVersion + ", блок найден по local.cache)";
+            if (cache.EntryRelPath != null) return where + " (блок найден по local.cache)";
+            return where;
         }
 
         // "(размер пака 112028892; кандидаты: 41063360 мост, 98765432 чистый)": one screenshot of the error is enough.
@@ -762,11 +849,16 @@ namespace LotmRussianPatcher
                     log("ОТКАЗ: " + failReason);
                     return false;
                 case CacheState.Clean:
-                    log("  -> Чистый блок запуска найден в " + KsCacheRel + "\\" + cache.Version + " (смещение " + cache.Offset + ").");
+                    log("  -> Чистый блок запуска найден в " + CacheWhere(cache) + " (смещение " + cache.Offset + ").");
                     break;
                 case CacheState.Installed:
-                    log("  -> Мост уже установлен в " + KsCacheRel + "\\" + cache.Version + ", блок не перезаписывается.");
+                    log("  -> Мост уже установлен в " + CacheWhere(cache) + ", блок не перезаписывается.");
                     break;
+            }
+            // "манифест … другой, блок запуска совпал по sha256" from the fallback search.
+            if ((cache.State == CacheState.Clean || cache.State == CacheState.Installed) && cache.EntryRelPath == null && cache.Detail.Length > 0)
+            {
+                log("  -> " + cache.Detail + ".");
             }
 
             MigrateLegacyBackup();
