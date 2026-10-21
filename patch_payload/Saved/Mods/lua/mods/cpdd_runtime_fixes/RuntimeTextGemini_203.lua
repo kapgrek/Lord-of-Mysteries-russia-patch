@@ -37,7 +37,7 @@ return {
     ["Level 55 Equipment Random Box"] = "Случайный ящик со снаряжением 55-го уровня",
     ["The power of the Holy Emblem is activated, be careful to jump and dodge; being hit will also affect your mind!"] = "Сила Святого Эмблемы активирована, будьте осторожны, прыгайте и уклоняйтесь; удар также повлияет на ваш разум!",
     ["Corrupted Beyonder characteristic"] = "Характеристика испорченного Потустороннего",
-    ["Historical Aura of Groselle's Travels"] = "Историческая аура путешествий Грозель",
+    ["Historical Aura of Groselle's Travels"] = "Историческая аура «Путешествий Гросселля»",
     ["<Highlight>Craft: </>Beyonder Carving · Crystal Inlay\nA ritual bracelet with a touch like ice and snow, seemingly capable of helping to restrain a Beyonder's spirituality."] = "<Highlight>Мастерство: </>Потусторонняя резьба · Инкрустация кристаллами\nРитуальный браслет, холодный, как лед и снег; кажется, он помогает Потустороннему обуздывать духовность.",
     ["Talk to Xiga Tiong"] = "Поговорите с Сигой Тионгом",
     ["<Highlight>Long-press the Jump button</> to enter the Leap of Spirituality state. \nIn this state, you can consume stamina to continue jumping upwards or dashing to quickly reach high places to find targets."] = "<Highlight>Удерживайте кнопку прыжка</>, чтобы войти в состояние духовного прыжка.\nВ этом состоянии можно расходовать выносливость, продолжая прыжки вверх или совершая рывки, чтобы быстро взобраться на возвышенность для поиска цели.",

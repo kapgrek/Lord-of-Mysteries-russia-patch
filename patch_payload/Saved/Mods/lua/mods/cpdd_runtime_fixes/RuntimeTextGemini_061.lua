@@ -160,7 +160,7 @@ return {
     ["Believer (Male) 8"] = "Верующий (муж.) 8",
     ["Passerby Watching Fight 4 (Deprecated)"] = "Зевака, смотрящий драку 4 (устар.)",
     ["Pick up the <h> scented handkerchief </>"] = "Возьмите <h> ароматный носовой платок </>.",
-    ["Groselle's Travels"] = "Путешествия Грозеля",
+    ["Groselle's Travels"] = "Путешествия Гросселля",
     ["Timed Race - Normal"] = "Гонки на время — нормальный",
     ["You two stop arguing; it's rare to return to Tingen once. Please excuse the spectacle."] = "Хватит спорить, вы двое. Редко кто возвращается в Тинген. Заставить тебя смеяться.",
     ["Father... must have gone to the Goddess's Kingdom of God, which is a very far place."] = "Отец Отец... должно быть, отправился в царство богини, которое находится очень далеко.",

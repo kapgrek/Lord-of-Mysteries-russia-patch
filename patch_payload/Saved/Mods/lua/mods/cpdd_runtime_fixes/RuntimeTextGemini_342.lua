@@ -20,7 +20,7 @@ return {
     ["Open Diary"] = "Открыть дневник",
     ["Id (Combat Class)"] = "ID (боевой класс)",
     ["My cake might not be the most exquisite, but it will definitely make you remember it for a lifetime."] = "Мой торт, быть может, и не самый изысканный, но ты точно запомнишь его на всю жизнь.",
-    ["I previously obtained a replica of the Groselle's Travels from the Tarot Club; it should come in handy here."] = "Ранее в Клубе Таро я получил копию «Путешествий Гросселя», здесь она должна пригодиться.",
+    ["I previously obtained a replica of the Groselle's Travels from the Tarot Club; it should come in handy here."] = "Ранее в Клубе Таро я получил копию «Путешествий Гросселля», здесь она должна пригодиться.",
     ["Teleport to Statue Top"] = "Телепортироваться на вершину статуи",
     ["See Flower Stand Position"] = "Посмотреть расположение подставки для цветов",
     ["Scold Jade awake"] = "Просыпайся, Джед",

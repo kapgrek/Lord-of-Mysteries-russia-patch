@@ -73,7 +73,7 @@ return {
     ["Sir said the factory is facing difficulties; have you heard any rumors about that before?"] = "Сэр сказал, что фабрика сталкивается с трудностями; слышали ли вы какие-нибудь слухи об этом раньше?",
     ["Open the dummy settings interface."] = "Откройте интерфейс фиктивных настроек.",
     ["Cape Trim"] = "Мыс Трим",
-    ["Click to view the abilities granted by the Groselle's Travels projection"] = "Нажмите, чтобы просмотреть способности, предоставляемые проекцией «Путешествия Грозель».",
+    ["Click to view the abilities granted by the Groselle's Travels projection"] = "Нажмите, чтобы просмотреть способности, предоставляемые проекцией «Путешествий Гросселля».",
     ["Achieve a 3-win streak"] = "Достичь серии из 3 побед",
     ["Hello everyone~"] = "Привет всем~",
     ["Total completion greater than 1200"] = "Общее завершение более 1200",
