@@ -4,7 +4,8 @@ param (
     [switch]$WhatIfPublish,    # Only look the release up and print the gh commands -Publish would run (no build, no upload)
     [string]$NotesFile = '',   # Release notes for a newly created release
     [switch]$DataOnly,         # Only validate and build lom-russian-patch-data.zip (no installer, no release.json)
-    [string]$BuildDir = ''     # Output folder (default: build/)
+    [string]$BuildDir = '',    # Output folder (default: build/)
+    [switch]$OverwritePublished  # Allow -Publish to replace assets of an already published (non-draft) release
 )
 
 $ErrorActionPreference = "Stop"
@@ -17,16 +18,35 @@ $repo = "kapgrek/Lord-of-Mysteries-russia-patch"
 # Release ids with this tag, drafts included (releases/tags/<tag> does not see drafts).
 # gh writes to stderr for missing objects; under 'Stop' that is a terminating NativeCommandError in PowerShell 5.1.
 # The tag is compared here, not in jq: PowerShell 5.1 drops inner double quotes of native arguments.
-function Find-ReleaseIds([string]$Tag) {
+function Find-Releases([string]$Tag) {
     $ErrorActionPreference = 'Continue'
-    $out = & gh api --paginate "repos/$repo/releases?per_page=100" --jq '.[] | [.id, .tag_name, .draft] | @tsv'
+    $out = & gh api --paginate "repos/$repo/releases?per_page=100" --jq '.[] | [.id, .tag_name, .draft, .published_at] | @tsv'
     if ($LASTEXITCODE -ne 0) { throw "gh api releases failed with exit code $LASTEXITCODE" }
-    $ids = @()
+    $found = @()
     foreach ($line in @($out)) {
         $cols = "$line".Split("`t")
-        if ($cols.Count -ge 2 -and $cols[1] -ceq $Tag) { $ids += $cols[0] }
+        if ($cols.Count -ge 3 -and $cols[1] -ceq $Tag) {
+            $found += [pscustomobject]@{ Id = $cols[0]; Draft = ($cols[2] -eq 'true'); PublishedAt = $(if ($cols.Count -ge 4) { $cols[3] } else { '' }) }
+        }
     }
-    return ,$ids
+    return ,$found
+}
+
+# TASK-041: a published release must not be overwritten silently. Players compare only version numbers
+# (installer/Ui/MainWindow.cs UpdateAvailable, SelfUpdate.IsNewer), so new assets under an old tag never reach
+# those who already installed it, and the tag keeps pointing at the old commit. Bump the version instead.
+function Assert-NotPublished([string]$Tag) {
+    # Assign first: Find-Releases returns ,@() and an empty array piped directly arrives as one object.
+    $all = Find-Releases $Tag
+    $published = @($all | Where-Object { -not $_.Draft })
+    if ($published.Count -eq 0) { return }
+    $when = $published[0].PublishedAt
+    if ($OverwritePublished) {
+        Write-Warning "Release $Tag is already published ($when): its assets will be replaced (-OverwritePublished)."
+        return
+    }
+    throw ("Release $Tag is already published ($when). Its players will not see new assets under the same version. " +
+        "Bump the version (Init.lua VERSION, installer/AppInfo.cs, installer/AssemblyInfo.cs, -Version) or pass -OverwritePublished. Nothing was built or uploaded.")
 }
 
 function Invoke-Gh([string[]]$GhArgs, [switch]$DryRun) {
@@ -40,8 +60,10 @@ function Invoke-Gh([string[]]$GhArgs, [switch]$DryRun) {
 # Draft first, then upload (repeatable: a rerun finds the draft and re-uploads), then publish as latest.
 function Publish-Release([string]$Tag, [string[]]$Assets, [switch]$DryRun) {
     Write-Host "`n[Publish] GitHub Release $Tag$(if ($DryRun) { ' (WhatIf: nothing is changed)' })" -ForegroundColor Cyan
-    $ids = Find-ReleaseIds $Tag
+    $releases = Find-Releases $Tag
+    $ids = @($releases | ForEach-Object { $_.Id })
     if ($ids.Count -gt 1) { throw "Several releases have tag ${Tag}: $($ids -join ', '). Remove the extra drafts manually; nothing was changed." }
+    Assert-NotPublished $Tag
     if ($ids.Count -eq 0) {
         Write-Host "  Release $Tag not found: a draft will be created."
         $createArgs = @('release', 'create', $Tag, '-R', $repo, '--draft', '--target', 'main', '--title', $Tag)
@@ -49,7 +71,7 @@ function Publish-Release([string]$Tag, [string[]]$Assets, [switch]$DryRun) {
         if ($NotesFile) { $createArgs += @('--notes-file', $NotesFile) } else { $createArgs += '--notes=' }
         Invoke-Gh $createArgs -DryRun:$DryRun
     } else {
-        Write-Host "  Release $Tag found: id $($ids[0])."
+        Write-Host "  Release $Tag found: id $($ids[0])$(if ($releases[0].Draft) { ' (draft)' } else { ' (published)' })."
     }
     Invoke-Gh (@('release', 'upload', $Tag, '-R', $repo, '--clobber') + $Assets) -DryRun:$DryRun
     Invoke-Gh @('release', 'edit', $Tag, '-R', $repo, '--draft=false', '--latest') -DryRun:$DryRun
@@ -63,6 +85,9 @@ if ($WhatIfPublish) {
 }
 
 Write-Host "=== Lord of the Mysteries: Package Release ($Version) ===" -ForegroundColor Cyan
+
+# Fail before a long build if -Publish would hit an already published release.
+if ($Publish) { Assert-NotPublished $Version }
 
 # 1. Patch validation
 Write-Host "`n[1/5] Validating patch components..." -ForegroundColor Cyan
