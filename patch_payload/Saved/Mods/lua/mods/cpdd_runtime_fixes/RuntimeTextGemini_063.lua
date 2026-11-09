@@ -297,6 +297,7 @@ return {
     ["Hidden Space-Jump-Crystal Ball Default State 9"] = "Скрытое пространство — Прыжок — шар по умолчанию 9",
     ["A swindler? A twist with suspense! But stop acting, I need to go put on makeup and prepare for the show."] = "Мошенник? Поворот с интригой! Но хватит играть, мне пора гримироваться и готовиться к выступлению.",
     ["【自走棋】-月之污染-绯红剑气"] = "[Auto Chess] - Moon Corruption - Crimson Sword Qi",
+    ["双十一·非凡物质幸运礼"] = "Двойная одиннадцать · Счастливый подарок: потусторонняя материя",
     ["Gustavo"] = "Густаво",
     ["<MT>来防御</>"] = "<MT> для защиты </>",
 }

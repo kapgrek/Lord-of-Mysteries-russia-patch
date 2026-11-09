@@ -301,6 +301,8 @@ return {
     ["Get moving, guys! What's wrong with you today? I've never seen you lose your appetite like this before..."] = "Шевелитесь, ребята! Что с вами сегодня? Раньше у вас никогда не пропадал аппетит...",
     ["Chilling Blade"] = "Леденящий клинок",
     ["终末猎杀-草丛01逐簇隐匿06"] = "End-of-Days Hunt - Bush 01 Cluster-by-Cluster Concealment 06",
+    ["68装等披风非凡装备箱"] = "Сундук экипировки Потустороннего: плащ, 68 ур. снаряжения",
+    ["来自会长的杰出激励宝箱"] = "Выдающийся поощрительный сундук от главы клуба",
     ["Sequence\r\nWill inevitably lead to loss of control"] = "Порядок\nНеминуемо приведет к Потере Контроля",
     ["Azalea"] = "Азалия",
     ["Brock"] = "Брок",

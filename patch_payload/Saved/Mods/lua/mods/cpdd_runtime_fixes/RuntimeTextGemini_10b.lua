@@ -308,6 +308,7 @@ return {
     ["That glowing spot... could it be the exit?"] = "То светящееся место... Может, это выход?",
     ["Gain <HighLight>1 random piece of defensive Fine Equipment</>. After <HighLight>8 seconds</> of combat, allied units gain <HighLight>5% Attack each second</>, stacking up to <HighLight>6 times</>."] = "Вы получаете <HighLight>1 случайный предмет защитного отличного снаряжения</>. Через <HighLight>8 сек.</> после начала боя фигуры союзников <HighLight>каждую секунду получают 5% атаки</>, суммируется до <HighLight>6 раз</>.",
     ["Parrot Owner"] = "Хозяин попугая",
+    ["开启后获得<Highlight>精纯·非凡物质×20</>。"] = "При открытии вы получите <Highlight>очищенная необыкновенная материя ×20</>.",
     ["Alberto"] = "Альберто",
     ["Seize the moment"] = "Поймай миг",
 }

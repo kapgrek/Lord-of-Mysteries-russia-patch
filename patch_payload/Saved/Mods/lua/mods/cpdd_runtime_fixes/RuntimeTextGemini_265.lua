@@ -276,4 +276,5 @@ return {
     ["Playoff"] = "Дополнительный матч",
     ["塔罗学院-黑水小怪-黑水点名-任意非T3人"] = "Tarot Academy - Blackwater Minion - Blackwater Target - Any non-T3 player",
     ["终末猎杀-草丛24合并隐匿03（含2块原范围）"] = "Final Hunt - Bush 24 Merged Concealment 03 (Includes 2 original areas)",
+    ["双十一·圣杯幸运礼"] = "Двойная одиннадцать · Счастливый подарок: Святой Грааль",
 }

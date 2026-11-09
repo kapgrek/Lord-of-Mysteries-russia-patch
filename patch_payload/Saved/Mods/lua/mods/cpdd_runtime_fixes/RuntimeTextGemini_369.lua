@@ -271,4 +271,5 @@ return {
     ["雪山北部"] = "Северные снежные горы",
     ["罗塞尔Boss-3阶段-磁电回收-扇形法术代理"] = "Roselle Boss - Phase 3 - Electromagnetic Recovery - Fan-shaped Spell Proxy",
     ["观众：心灵灯塔4筛选"] = "Spectator: Beacon of Destiny 4 Filter",
+    ["群星渡口"] = "Переправа Звёзд",
 }

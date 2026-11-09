@@ -292,6 +292,7 @@ return {
     ["黑焰绝杀"] = "Смертельный удар Чёрного пламени",
     ["终末猎杀-草丛24逐簇隐匿04"] = "Final Hunt - Bush 24 Cluster-by-Cluster Concealment 04",
     ["罗塞尔Boss困难-1&2阶段-选Boss"] = "Roselle Boss Hard - Stages 1 & 2 - Select Boss",
+    ["66装等护符非凡装备箱"] = "Сундук экипировки Потустороннего: амулет, 66 ур. снаряжения",
     ["Go to Frankie Apartment, find the landlord Mr. Frankie, and inquire about information on Karl's roommate to facilitate subsequent investigations."] = "Отправиться в апартаменты Фрэнки, разыскать домовладельца мистера Фрэнки и расспросить его о соседях Карла по квартире для дальнейшего расследования.",
     ["前往指定Trigger位置  延迟执行  对象发送场景事件"] = "Перейдите в указанное местоположение триггера. Отложенное исполнение. Объект отправляет событие сцены.",
     ["Emeline"] = "Эмелин",

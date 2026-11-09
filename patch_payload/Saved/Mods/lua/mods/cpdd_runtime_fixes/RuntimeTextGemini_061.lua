@@ -294,6 +294,7 @@ return {
     ["Strategic Skill Tier 5"] = "Стратегическое умение, ур. 5",
     ["民调事务所-外1"] = "Агентство опросов — снаружи 1",
     ["稀有·漫游披风限时免控"] = "Редкое·Плащ странника: временный иммунитет к контролю",
+    ["巨像广场"] = "Площадь колоссов",
     ["前往指定Trigger位置  对象发送场景事件"] = "Перейти к указанному триггеру. Объект отправляет событие сцены.",
     ["Lucille"] = "Люсиль",
     ["As you know, Tingen is not exactly peaceful at the moment. Just a few days ago, we received another case report from the County Police Department. After some consideration and evaluation, we unanimously agreed that you are the right person to take on this case.\n	This case has moderate risk and is a good opportunity for practice. While investigating, please also protect yourself—remember, safety first.\n	Attached to this letter is the preliminary investigation file; please read it carefully.\n	Good luck, rookie Nighthawk."] = "　　Как вам известно, сейчас в Тингене далеко не спокойно. Всего пару дней назад мы получили очередное дело из окружного управления полиции. Обсудив ситуацию, мы единогласно решили, что вы — подходящая кандидатура для этого расследования.\n　　Риск здесь умеренный, так что это отличная возможность набраться опыта. Занимаясь расследованием, пожалуйста, берегите себя — помните, безопасность превыше всего.\n　　К письму прилагаются материалы предварительного следствия, ознакомьтесь с ними внимательно.\n　　Удачи, юный Ночной Ястреб.",

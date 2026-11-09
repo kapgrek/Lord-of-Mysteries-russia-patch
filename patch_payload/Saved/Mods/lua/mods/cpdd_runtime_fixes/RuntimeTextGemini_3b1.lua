@@ -283,4 +283,5 @@ return {
     ["Speed line post-processing + disable sprinting"] = "Постобработка линий скорости + запрет спринта",
     ["限制前行"] = "Ограничение движения вперёд",
     ["Just a swindler; she claims she can replicate the perfume worn by Miss Naila."] = "Всего лишь мошенница, она утверждает, что может подделать те же духи, что у мисс Наилы.",
+    ["星辰方舟"] = "Звёздный ковчег",
 }

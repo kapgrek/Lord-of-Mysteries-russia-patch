@@ -276,6 +276,7 @@ return {
     ["That guy is too lazy to even step out of his tent, how would he ever notice the staff in the ticket booth!"] = "Этому типу лень даже выйти из шатра, где ему заметить работника в билетной будке!",
     ["隐秘披风"] = "Скрытый плащ",
     ["【自走棋装备】巨人王庭战斧相邻溅射"] = "[Auto Chess Equipment] Giant King's Court Battle Axe adjacent splash",
+    ["[有人在天上飞]"] = "[Кто-то летит в небе]",
     ["你……全都藏在一条咸鱼里？！"] = "Ты... спрятал все это в соленой рыбе?!",
     ["获得指定道具  玩家播放剧情对话"] = "Получите указанный предмет. Игрок воспроизводит сюжетный диалог.",
 }
