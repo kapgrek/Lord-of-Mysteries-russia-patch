@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Text;
 
 namespace LotmRussianPatcher
@@ -8,22 +9,28 @@ namespace LotmRussianPatcher
     public class LogCollectResult
     {
         public string Folder;
+        public string Archive;        // <folder>.zip with the same files: one file to send (TASK-043)
         public List<string> Files = new List<string>();
         public string Error;          // text for the player, null on success
         public bool UsedFallback;     // the exe folder was not writable: the Desktop was used
     }
 
-    // "Отправить логи" (TASK-035): copies the latest Saved\Logs\C7*.log and info.txt next to the exe.
-    // No upload: the player sends the folder to t.me/KapGrek himself. No WPF here, so tests can call it.
+    // "Отправить логи" (TASK-035): copies the latest Saved\Logs\C7*.log and info.txt next to the exe and packs them
+    // into AbsoluteRU_logs.zip. No upload: the player sends the archive to t.me/KapGrek himself. No WPF here, so tests can call it.
     public static class LogCollector
     {
         // Latin on purpose: the folder is zipped and sent through Telegram, and some archivers mangle Cyrillic names.
         public const string FolderName = "AbsoluteRU_logs";
+        public const string ArchiveName = FolderName + ".zip";
         public const string InfoName = "info.txt";
+        // Bytes of a launch block that did not match (TASK-043): "cache-block-<ver>-<offset>.bin".
+        public const string CacheBlockPrefix = "cache-block-";
+        public const int MaxCacheBlocks = 4;
 
         public static string DesktopDir = Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory);
 
-        public static LogCollectResult Collect(string gameDir, string outRoot, int count = 3)
+        // game == null: supported_game.json built into the installer (tests pass their own).
+        public static LogCollectResult Collect(string gameDir, string outRoot, int count = 3, SupportedGame game = null)
         {
             var result = new LogCollectResult();
             List<FileInfo> logs;
@@ -37,28 +44,37 @@ namespace LotmRussianPatcher
             logs.Sort((a, b) => b.LastWriteTimeUtc.CompareTo(a.LastWriteTimeUtc));
             if (logs.Count > count) logs.RemoveRange(count, logs.Count - count);
 
+            if (game == null) game = PatcherBackend.LoadSupportedGame(null, null);
+            CacheInfo cache;
+            try { cache = game == null ? new CacheInfo() : new InstallerCore(gameDir, game, null).InspectCache(); }
+            catch (Exception) { cache = new CacheInfo(); }
+
             string firstError;
-            if (TryCollect(gameDir, Path.Combine(outRoot, FolderName), logs, result, out firstError)) return result;
+            if (TryCollect(gameDir, outRoot, logs, game, cache, result, out firstError)) return result;
             result.Files.Clear();
             string fallbackError;
-            if (!string.IsNullOrEmpty(DesktopDir) && TryCollect(gameDir, Path.Combine(DesktopDir, FolderName), logs, result, out fallbackError))
+            if (!string.IsNullOrEmpty(DesktopDir) && TryCollect(gameDir, DesktopDir, logs, game, cache, result, out fallbackError))
             {
                 result.UsedFallback = true;
                 return result;
             }
             result.Folder = null;
+            result.Archive = null;
             result.Error = "Нет доступа на запись ни рядом с установщиком, ни на Рабочем столе: " + firstError;
             return result;
         }
 
-        private static bool TryCollect(string gameDir, string folder, List<FileInfo> logs, LogCollectResult result, out string error)
+        private static bool TryCollect(string gameDir, string root, List<FileInfo> logs, SupportedGame game, CacheInfo cache,
+            LogCollectResult result, out string error)
         {
             error = null;
+            string folder = Path.Combine(root, FolderName);
             try
             {
                 Directory.CreateDirectory(folder);
                 // Only our own leftovers: the folder itself and foreign files stay.
                 foreach (string old in Directory.GetFiles(folder, "*.log")) File.Delete(old);
+                foreach (string old in Directory.GetFiles(folder, CacheBlockPrefix + "*.bin")) File.Delete(old);
                 string oldInfo = Path.Combine(folder, InfoName);
                 if (File.Exists(oldInfo)) File.Delete(oldInfo);
 
@@ -74,8 +90,19 @@ namespace LotmRussianPatcher
                     CopyShared(extra, Path.Combine(folder, Path.GetFileName(extra)));
                     result.Files.Add(Path.GetFileName(extra));
                 }
-                File.WriteAllText(Path.Combine(folder, InfoName), BuildInfo(gameDir, folder, result.Files), new UTF8Encoding(false));
+                List<string> blockLines = CopyCacheBlocks(cache, game, folder, result.Files);
+                File.WriteAllText(Path.Combine(folder, InfoName), BuildInfo(gameDir, folder, result.Files, cache, blockLines), new UTF8Encoding(false));
+
+                // Only our files go into the archive, foreign files in the folder stay out.
+                string zip = Path.Combine(root, ArchiveName);
+                if (File.Exists(zip)) File.Delete(zip);
+                using (ZipArchive za = ZipFile.Open(zip, ZipArchiveMode.Create))
+                {
+                    foreach (string name in result.Files) za.CreateEntryFromFile(Path.Combine(folder, name), name);
+                    za.CreateEntryFromFile(Path.Combine(folder, InfoName), InfoName);
+                }
                 result.Folder = folder;
+                result.Archive = zip;
                 return true;
             }
             catch (Exception ex)
@@ -95,7 +122,54 @@ namespace LotmRussianPatcher
             }
         }
 
-        public static string BuildInfo(string gameDir, string folder, List<string> files)
+        // TASK-043: every candidate whose bytes did not match (CacheHit.HeadOnly) is saved as is, cache_launch.size
+        // bytes at its offset, so the author can diff it against the clean block. Read only, the game may hold the pak.
+        // Returns info.txt lines ("<file>: sha256 …" or why it was not saved).
+        public static List<string> CopyCacheBlocks(CacheInfo cache, SupportedGame game, string folder, List<string> files)
+        {
+            var lines = new List<string>();
+            if (cache == null || game == null || game.Cache == null || cache.PakPath == null) return lines;
+            int size = game.Cache.Size;
+            int saved = 0;
+            foreach (CacheHit h in cache.Hits)
+            {
+                if (h.Kind != CacheHit.HeadOnly) continue;
+                string name = CacheBlockPrefix + (cache.Version ?? "unknown") + "-" + h.Offset + ".bin";
+                if (saved >= MaxCacheBlocks) { lines.Add(name + ": не сохранён, уже сохранено " + MaxCacheBlocks); continue; }
+                try
+                {
+                    byte[] b = ReadShared(cache.PakPath, h.Offset, size);
+                    if (b == null) { lines.Add(name + ": не сохранён, пак короче смещения + " + size); continue; }
+                    File.WriteAllBytes(Path.Combine(folder, name), b);
+                    files.Add(name);
+                    saved++;
+                    lines.Add(name + ": " + size + " байт, sha256 " + InstallerCore.Sha256(b) + ", ожидался clean_sha256 " + game.Cache.CleanSha256
+                        + (h.Live.HasValue ? (h.Live.Value ? ", живая копия" : ", мёртвая копия") : ""));
+                }
+                catch (Exception ex) { lines.Add(name + ": ошибка чтения: " + ex.GetType().Name + ": " + ex.Message); }
+            }
+            return lines;
+        }
+
+        private static byte[] ReadShared(string path, long offset, int size)
+        {
+            using (var fs = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.ReadWrite | FileShare.Delete))
+            {
+                if (offset < 0 || size <= 0 || fs.Length < offset + size) return null;
+                fs.Position = offset;
+                byte[] buf = new byte[size];
+                int total = 0;
+                while (total < size)
+                {
+                    int n = fs.Read(buf, total, size - total);
+                    if (n <= 0) return null;
+                    total += n;
+                }
+                return buf;
+            }
+        }
+
+        public static string BuildInfo(string gameDir, string folder, List<string> files, CacheInfo cache, List<string> blockLines)
         {
             var sb = new StringBuilder();
             sb.Append("AbsoluteRU: сведения для автора русификатора\n");
@@ -134,7 +208,12 @@ namespace LotmRussianPatcher
                 PakState st = PatcherBackend.InspectPak(gameDir, out build);
                 return st + ", сборка " + (build ?? "?");
             });
-            Line(sb, "  Кеш обновления (InspectCache)", () => DescribeCache(PatcherBackend.InspectCache(gameDir)));
+            Line(sb, "  Кеш обновления (InspectCache)", () => DescribeCache(cache ?? PatcherBackend.InspectCache(gameDir)));
+            if (blockLines != null && blockLines.Count > 0)
+            {
+                sb.Append("  Несовпавшие блоки запуска (cache-block-*.bin):\n");
+                foreach (string l in blockLines) sb.Append("    ").Append(MaskUser(l)).Append('\n');
+            }
             Line(sb, "  Папки хотпатчей kscache", () =>
             {
                 if (!Directory.Exists(ks)) return "нет папки " + InstallerCore.KsCacheRel;

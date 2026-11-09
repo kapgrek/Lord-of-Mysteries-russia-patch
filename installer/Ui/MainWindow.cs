@@ -334,8 +334,12 @@ namespace LotmRussianPatcher
         // "Дождитесь обновления русификатора" only while no release is newer than this exe (TASK-040).
         private void ShowFolderState(GameState read)
         {
-            string wait = SelfUpdate.NewerReleaseText() ?? "Дождитесь обновления русификатора.";
-            if (read.GameUpdated)
+            string newer = SelfUpdate.NewerReleaseText();
+            string wait = newer ?? "Дождитесь обновления русификатора.";
+            if (read.Cache != null && read.Cache.ForeignBlock)
+                // TASK-043: a newer release may already know this block, so its text goes first.
+                SetFolderLine("✗ " + (newer ?? CacheInfo.ForeignBlockText), "ErrorBrush");
+            else if (read.GameUpdated)
                 SetFolderLine("✗ Игра обновилась (кеш обновления " + read.Cache.Version + "), нужна новая версия русификатора. " + wait, "ErrorBrush");
             else if (read.Unsupported && read.Pak != PakState.Unknown)
                 SetFolderLine("✗ Версия игры не поддерживается: " + read.Cache.Detail + ". Проверьте файлы игры в лаунчере.", "ErrorBrush");
@@ -583,12 +587,12 @@ namespace LotmRussianPatcher
                 UiKit.Message(window, "Логи не собраны", res.Error, true);
                 return;
             }
-            Log("Логи скопированы: " + res.Folder + " (" + res.Files.Count + " файла)" + (res.UsedFallback ? " — рядом с установщиком писать нельзя, папка на Рабочем столе" : ""));
+            Log("Логи собраны: " + res.Archive + " (" + res.Files.Count + " файла + info.txt)" + (res.UsedFallback ? " — рядом с установщиком писать нельзя, архив на Рабочем столе" : ""));
             string dm = Links.Get(Links.TelegramDm);
-            string text = "Логи сохранены в папку:\n" + res.Folder + "\n\nОтправьте файлы из этой папки в личные сообщения Telegram: "
+            string text = "Логи упакованы в архив:\n" + res.Archive + "\n\nОтправьте этот файл в личные сообщения Telegram: "
                 + (dm ?? "t.me/KapGrek").Replace("https://", "") + ". Коротко опишите проблему: что делали и что пошло не так.";
-            if (!UiKit.Confirm(window, "Логи собраны", text, "Открыть папку и Telegram", "Закрыть", false)) return;
-            try { System.Diagnostics.Process.Start("explorer.exe", "\"" + res.Folder + "\""); }
+            if (!UiKit.Confirm(window, "Логи собраны", text, "Показать архив и открыть Telegram", "Закрыть", false)) return;
+            try { System.Diagnostics.Process.Start("explorer.exe", "/select,\"" + res.Archive + "\""); }
             catch (Exception ex) { Log("Не удалось открыть Проводник: " + ex.Message); }
             if (dm != null) Links.Open(dm);
         }

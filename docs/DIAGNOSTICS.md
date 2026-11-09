@@ -238,7 +238,7 @@ powershell -ExecutionPolicy Bypass -File tools\CollectDiagLogs.ps1
 - В `Detail` для `NotFound` и `Ambiguous` указаны размер пака и до 10 кандидатов: `(размер пака 112028892; кандидаты: 41063360 мост, 98765432 чистый)`. Типы кандидатов: `чистый`, `мост`, `заголовок совпал, sha нет`.
 - `ОТКАЗ:` / `ОШИБКА:` — причина отказа установки.
 
-Кнопка «Отправить логи» (TASK-035, `installer/LogCollector.cs`) копирует `installer.log` и `installer.old.log` в `AbsoluteRU_logs` вместе с логами игры. В `info.txt` (раздел «Версия игры») есть полный список кандидатов и размер пака.
+Кнопка «Отправить логи» (TASK-035, `installer/LogCollector.cs`) копирует `installer.log` и `installer.old.log` в `AbsoluteRU_logs` вместе с логами игры и упаковывает их в `AbsoluteRU_logs.zip` рядом с папкой: игрок отправляет один файл. В `info.txt` (раздел «Версия игры») есть полный список кандидатов и размер пака. Для каждого кандидата `HeadOnly` (заголовок совпал, sha256 нет) в архиве лежит `cache-block-<ver>-<offset>.bin`: 5258 байт блока по этому смещению, sha256 записан в `info.txt` (TASK-043). Это материал для диффа с `cache_launch.original` из `reference/cpdd/<tag>/release.json`.
 
 ## Выгрузка ассетов: AssetExport (TASK-018)
 

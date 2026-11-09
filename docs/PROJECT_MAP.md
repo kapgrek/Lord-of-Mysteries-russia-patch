@@ -133,7 +133,7 @@ AbsoluteRU/
 │   ├── InstallerCore.cs       # Установка/обновление/удаление для папки игры
 │   ├── GameOptions.cs         # cpdd_patcher_settings.lua и блок Visual Clarity в Engine.ini
 │   ├── PayloadSource.cs       # Откуда пакет: --payload, zip рядом с exe, GitHub, кеш
-│   ├── LogCollector.cs        # «Отправить логи»: C7*.log + info.txt в AbsoluteRU_logs рядом с exe
+│   ├── LogCollector.cs        # «Отправить логи»: C7*.log + info.txt + cache-block-*.bin в AbsoluteRU_logs и AbsoluteRU_logs.zip рядом с exe
 │   ├── InstallerLog.cs        # Журнал установщика: %LOCALAPPDATA%\AbsoluteRU\installer.log
 │   ├── KsLocalCache.cs        # Разбор Saved/kscache/local.cache: живые куски пака кеша
 │   ├── SelfUpdate.cs          # Самообновление exe до последнего релиза (patcher_asset из release.json)

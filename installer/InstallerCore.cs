@@ -83,6 +83,16 @@ namespace LotmRussianPatcher
         public long Offset = -1;
         public string Detail = "";
         public List<CacheHit> Hits = new List<CacheHit>();
+
+        // TASK-043: the block is where we expect it, but its bytes are another build (the launcher re-downloaded
+        // pakchunk0 whole after skipped hotpatches). Not a broken install: the author needs these bytes.
+        public bool ForeignBlock
+        {
+            get { return State == CacheState.NotFound && Hits.Exists(h => h.Kind == CacheHit.HeadOnly); }
+        }
+
+        public const string ForeignBlockText = "Лаунчер скачал другую сборку блока запуска игры (так бывает после нескольких пропущенных обновлений), "
+            + "моста для неё пока нет. Нажмите «Отправить логи» и пришлите архив " + LogCollector.ArchiveName + " автору русификатора.";
     }
 
     // Supported game state, the same fields as CPDD release.json (supported_base_paks + launch_block + cache_launch).
@@ -845,6 +855,12 @@ namespace LotmRussianPatcher
                     return false;
                 case CacheState.NotFound:
                 case CacheState.Ambiguous:
+                    if (cache.ForeignBlock)
+                    {
+                        failReason = CacheInfo.ForeignBlockText + " Файлы игры не изменены. (" + cache.Detail + ")";
+                        log("ОТКАЗ: " + failReason);
+                        return false;
+                    }
                     failReason = "Версия игры не поддерживается: " + cache.Detail + ". Файлы игры не изменены. Проверьте файлы игры в лаунчере.";
                     log("ОТКАЗ: " + failReason);
                     return false;

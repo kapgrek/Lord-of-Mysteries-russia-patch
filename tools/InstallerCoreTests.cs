@@ -4,6 +4,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.IO.Compression;
 using System.Security.Cryptography;
 using System.Text;
 using LotmRussianPatcher;
@@ -122,6 +123,7 @@ public static class InstallerCoreTests
         Run("self-update: CleanupOld with free and busy files", SelfUpdateCleanup);
         Run("logs: 3 newest C7*.log + info.txt, rerun, open file, no logs", LogCollectorCopies);
         Run("logs: exe folder not writable -> Desktop", LogCollectorFallback);
+        Run("logs: foreign launch block (head ok, tail differs) -> cache-block .bin in the zip, install text", LogCollectorCacheBlock);
         Run("installer.log: header, lines, rotation over 1 MB", InstallerLogWrites);
         Run("markup: MainWindow.xaml / HowToPlayWindow.xaml load, all names found", InSta(MarkupLoads));
         Run("links.json: embedded links valid, bad ones dropped", LinksValidation);
@@ -1358,9 +1360,14 @@ public static class InstallerCoreTests
         string info = File.ReadAllText(Path.Combine(folder, LogCollector.InfoName));
         Assert(info.Contains(AppInfo.Version) && info.Contains("Версия игры") && info.Contains("AssetsVersion.txt: нет файла"), "info.txt with the version section");
         Assert(info.Contains("Кеш обновления (InspectCache): NoCachePak"), "info.txt has InspectCache");
+        Assert(r.Archive == Path.Combine(exe, LogCollector.ArchiveName) && File.Exists(r.Archive), "zip next to the folder");
+        var entries = ZipEntries(r.Archive);
+        Assert(entries.Count == r.Files.Count + 1 && entries.ContainsKey(LogCollector.InfoName) && entries.ContainsKey("C7.log")
+            && !entries.ContainsKey("keep.txt"), "zip = our files + info.txt, no foreign file: " + string.Join(",", new List<string>(entries.Keys).ToArray()));
 
         r = LogCollector.Collect(game, exe);
         Assert(r.Error == null && Directory.GetFiles(folder, "*.log").Length == 3, "rerun leaves 3 logs");
+        Assert(ZipEntries(r.Archive).Count == r.Files.Count + 1, "rerun replaces the zip");
 
         r = LogCollector.Collect(OptionsGame("logs-none"), exe);
         Assert(r.Error != null && r.Error.Contains("Запустите игру") && r.Folder == null, "no Saved\\Logs -> error, no exception");
@@ -1610,6 +1617,86 @@ public static class InstallerCoreTests
         LogCollectResult r = LogCollector.Collect(game, notADir);
         Assert(r.Error == null && r.UsedFallback && r.Folder == Path.Combine(LogCollector.DesktopDir, LogCollector.FolderName), "fallback to the Desktop: " + r.Error);
         Assert(r.Files.Count == 2 && File.Exists(Path.Combine(r.Folder, "C7.log")), "2 logs on the Desktop");
+        Assert(r.Archive == Path.Combine(LogCollector.DesktopDir, LogCollector.ArchiveName) && File.Exists(r.Archive), "zip on the Desktop");
+    }
+
+    // name -> uncompressed bytes
+    static Dictionary<string, byte[]> ZipEntries(string zip)
+    {
+        var d = new Dictionary<string, byte[]>(StringComparer.OrdinalIgnoreCase);
+        using (ZipArchive za = ZipFile.OpenRead(zip))
+        {
+            foreach (ZipArchiveEntry e in za.Entries)
+            {
+                using (Stream s = e.Open())
+                using (var ms = new MemoryStream())
+                {
+                    s.CopyTo(ms);
+                    d[e.FullName] = ms.ToArray();
+                }
+            }
+        }
+        return d;
+    }
+
+    // TASK-043: the block at the expected place keeps the 64-byte head, the rest is another build.
+    // Both lookups: by the local.cache entry_id record (older folder) and by the head in the AssetsVersion folder.
+    static void LogCollectorCacheBlock()
+    {
+        foreach (bool byEntry in new[] { true, false })
+        {
+            string name = byEntry ? "logs-block-entry" : "logs-block-head";
+            var f = NewFixture(name);
+            CacheFixture c;
+            string ver;
+            if (byEntry)
+            {
+                byte[] delta;
+                c = AddIncremental(f, false, out delta);
+                ver = OldCacheVersion;
+            }
+            else
+            {
+                c = AddCache(f, 1);
+                ver = CacheVersion;
+            }
+            byte[] foreign = (byte[])c.Original.Clone();
+            Array.Copy(RandomBytes(CacheBlockSize - 64), 0, foreign, 64, CacheBlockSize - 64);
+            byte[] pak = File.ReadAllBytes(c.PakPath);
+            Array.Copy(foreign, 0, pak, c.Offset, CacheBlockSize);
+            WriteBytes(c.PakPath, pak);
+            WriteText(f.G(@"Saved\Logs\C7.log"), "log\n");
+
+            var core = f.Core();
+            CacheInfo info = core.InspectCache();
+            Assert(info.State == CacheState.NotFound && info.ForeignBlock, name + ": NotFound with a HeadOnly candidate: " + info.State + " " + info.Detail);
+            string reason;
+            Assert(!core.Install(f.PayloadDir, out reason) && reason.Contains("другую сборку блока запуска") && reason.Contains(LogCollector.ArchiveName),
+                name + ": install refused with the foreign-block text: " + reason);
+            Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(pak), name + ": pak not written");
+
+            string exe = Path.Combine(testRoot, name, "exe");
+            LogCollectResult r;
+            // The game holds the pak open as it does while running.
+            using (var hold = new FileStream(c.PakPath, FileMode.Open, FileAccess.ReadWrite, FileShare.ReadWrite))
+            {
+                r = LogCollector.Collect(f.GameDir, exe, 3, f.Game);
+            }
+            string bin = LogCollector.CacheBlockPrefix + ver + "-" + c.Offset + ".bin";
+            Assert(r.Error == null && r.Files.Contains(bin), name + ": " + bin + " collected: " + r.Error + " " + string.Join(",", r.Files.ToArray()));
+            byte[] saved = File.ReadAllBytes(Path.Combine(r.Folder, bin));
+            Assert(saved.Length == CacheBlockSize && InstallerCore.Sha256(saved) == InstallerCore.Sha256(foreign), name + ": .bin = the 5258 bytes at the offset");
+            var entries = ZipEntries(r.Archive);
+            Assert(entries.ContainsKey(bin) && entries[bin].Length == CacheBlockSize, name + ": .bin in the zip");
+            string text = File.ReadAllText(Path.Combine(r.Folder, LogCollector.InfoName));
+            Assert(text.Contains(bin + ": " + CacheBlockSize + " байт, sha256 " + InstallerCore.Sha256(foreign)), name + ": info.txt has the sha256 of the block");
+            Assert(InstallerCore.FileSha256(c.PakPath) == InstallerCore.Sha256(pak), name + ": pak unchanged by the log collector");
+
+            // A clean cache: no .bin, the old one is removed on rerun.
+            WriteBytes(c.PakPath, c.CleanPak);
+            r = LogCollector.Collect(f.GameDir, exe, 3, f.Game);
+            Assert(r.Error == null && Directory.GetFiles(r.Folder, LogCollector.CacheBlockPrefix + "*.bin").Length == 0, name + ": clean block -> no .bin, old one removed");
+        }
     }
 
     // ------------------------------------------------------------ UI: markup, links, "Как играть" (installer/Ui)
