@@ -310,6 +310,7 @@ return {
     ["It is time to say goodbye... but don't worry, we will meet again."] = "Пора прощаться... Но не волнуйтесь, мы ещё встретимся.",
     ["饕餮成长体型10档"] = "Рост Обжоры: стадия 10",
     ["终末猎杀-草丛10逐簇隐匿06"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 06",
+    ["终末猎杀草丛;草丛组19"] = "End-of-Days Hunt Thicket; Thicket Group 19",
     ["Antonine"] = "Антонина",
     ["任务自定义事件  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Пользовательское событие квеста. NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире).",
 }

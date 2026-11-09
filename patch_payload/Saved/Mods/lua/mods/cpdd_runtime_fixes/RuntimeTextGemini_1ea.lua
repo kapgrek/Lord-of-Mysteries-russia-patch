@@ -296,5 +296,6 @@ return {
     ["Tofu pudding should definitely be eaten spicy."] = "Доухуа, конечно, нужно есть острым.",
     ["Mirror Server 2 Cross-Server Strategy Server"] = "Зеркальный сервер 2, межсерверный стратегический сервер",
     ["The pure one who drives away Darkness, the priest whose every action is Justice, the Bard who chases the Light, the priest of the King of Space-Time, the warm Sun that forever carries Hope and ideals."] = "Чистый, изгоняющий Тьму, жрец, чьи деяния всегда справедливы, Бард, стремящийся к свету, служитель Короля пространства-времени, тёплое Солнце, несущее надежду и идеалы.",
+    ["终末猎杀草丛;草丛组01"] = "Final Hunt Thicket; Thicket Group 01",
     ["Ruola"] = "Руола",
 }

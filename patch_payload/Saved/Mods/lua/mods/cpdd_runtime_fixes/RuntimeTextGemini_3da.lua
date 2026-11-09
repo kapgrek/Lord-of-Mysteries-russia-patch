@@ -318,6 +318,7 @@ return {
     ["It's the same this time; many people have volunteered to help with the chores, so you just need to focus on dealing with the enemies."] = "И в этот раз так же: многие сами пришли помочь с мелкими делами, а ты сосредоточься на врагах.",
     ["After landing a critical hit, Damage Increased by <HighLight>8%</>, Continuous for <HighLight>5</> seconds, stacking up to <HighLight>4</> times."] = "После критического удара урон повышается на <HighLight>8%</> на <HighLight>5</> сек., суммируется до <HighLight>4</> раз.",
     ["麦尼"] = "Мэни",
+    ["终末猎杀草丛;草丛组11"] = "End-of-Days Hunt Thicket; Thicket Group 11",
     ["使用指定道具  玩家播放情绪音乐（仅自己可听）  玩家发送任务道具"] = "Использовать указанный предмет, игрок воспроизводит эмоциональную музыку (слышно только себе), игрок отправляет предмет задания",
     ["Valentina"] = "Валентина",
     ["采集指定TemplateID的采集物  NPC销毁自身（无法销毁玩家和大世界的公有NPC）"] = "Собрать предмет коллекции с указанным TemplateID NPC уничтожает себя (не может уничтожать игроков или публичных NPC в открытом мире)",

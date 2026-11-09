@@ -1,6 +1,6 @@
 {
-  "tag": "v2.7.1",
-  "release_json_sha256": "0c596643fbb469148171027d29478ca7a65bf1d5112612a51e6f01eefc169a69",
+  "tag": "v2.7.5",
+  "release_json_sha256": "9e408a93fa6e9ac78483820dc52b410402a871d7d495c506fb6e962f45e67f10",
   "component_bases": {
     "bakedtext": "v2.6.4",
     "Saved/Mods/lua/mods/cpdd_runtime_fixes/Init.lua": "v2.6.4"

@@ -274,4 +274,5 @@ return {
     ["The Spirit Medium trio consecutively impacts the target and surrounding enemies."] = "Трио спиритов наносит последовательные удары по цели и окружающим врагам.",
     ["【普通】童话故事-青蛙王子-牵肠挂肚反向点名一次"] = "[Normal] Fairy Tale - Frog Prince - Deep Attachment reverse mark once",
     ["终末猎杀-草丛10逐簇隐匿03"] = "Final Hunt - Bush 10 Cluster-by-Cluster Concealment 03",
+    ["终末猎杀草丛;草丛组14"] = "End-of-Days Hunt Thicket; Thicket Group 14",
 }
