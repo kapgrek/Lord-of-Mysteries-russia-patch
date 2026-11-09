@@ -2,6 +2,8 @@
 #
 #   tools/SyncCpdd.ps1 -Tag v2.6.4 [-SkipDownload]            # report only (writes only under reference/)
 #   tools/SyncCpdd.ps1 -Tag v2.6.4 -Components stringdb,state,shards -Apply
+#   -AllowRemoval: also delete files that upstream removed (verbatim components). Without it they are
+#   kept and left pending (TASK-042: upstream dropped BakedText in v2.7.0, we still ship it).
 #
 # Base = vendor/cpdd/BASE.json (the CPDD release patch_payload is built on). Releases live in
 # reference/cpdd/<tag>/ (release.json, lom-english-patch-data.zip, unpacked/). Report:
@@ -12,6 +14,7 @@ param(
     [string[]]$Components = @('all'),
     [switch]$Apply,
     [switch]$SkipDownload,
+    [switch]$AllowRemoval,
     [string]$Repo = 'Lani27/lord-of-mysteries-english-patch',
     [string]$BatchName = ''
 )
@@ -424,6 +427,7 @@ if ($Apply) {
         $ours = Get-OursPath $r.Rel
         if ($verbatimComponents -contains $r.Component) {
             if ($r.Note) { Add-Pending $r; Write-Warning "Skipped $($r.Rel): $($r.Note)"; continue }
+            if ($r.Upstream -eq 'removed' -and -not $AllowRemoval) { Add-Pending $r; Write-Warning "Kept $($r.Rel): removed upstream; pass -AllowRemoval to delete"; continue }
             if ($r.Upstream -eq 'removed') { Remove-Item -LiteralPath $ours -Force -ErrorAction SilentlyContinue; Write-Host "  deleted  $($r.Rel)" }
             else {
                 New-Item -ItemType Directory -Path (Split-Path $ours) -Force | Out-Null

@@ -122,7 +122,7 @@ AbsoluteRU/
 │   ├── FixCapitalization.cs/.ps1 # Исправление регистра первой буквы
 │   ├── MergeOldTranslation.cs/.ps1 # Слияние старых переводов
 │   ├── MergeTranslated.cs     # Слияние переведенных чанков
-│   ├── SyncCpdd.ps1           # Сверка с релизом CPDD: отчёт и применение компонентов
+│   ├── SyncCpdd.ps1           # Сверка с релизом CPDD: отчёт и применение компонентов (удалённое upstream — только с -AllowRemoval)
 │   ├── InstallerCoreTests.cs  # Тесты InstallerCore на поддельных папках игры в temp/
 │   ├── LuaDataCheck.cs        # Офлайн-сверка парсера данных Init.lua (parseDataLiteral) с семантикой Lua 5.1 на всех шардах, индексах и пакетах StringDB
 │   └── PackageRelease.ps1     # Сборка релиза в build/ (+ -Publish в GitHub Release, -DataOnly)
