@@ -221,12 +221,22 @@ namespace LotmRussianPatcher
         // Game build check for the folder block (sha256 of the whole pak, 0.5-2 s: call off the UI thread).
         public static PakState InspectPak(string gameDir, out string gameBuild)
         {
-            gameBuild = null;
+            return InspectPak(gameDir, LoadSupportedGame(null, null), out gameBuild);
+        }
+
+        // TASK-046: the data of this installer first. After a game update the backup supported_game.json of the
+        // previous install names the old build, and the clean new pak looked Unknown against it. The backup data
+        // still counts when it recognises the pak (e.g. installed by an older installer for that build).
+        public static PakState InspectPak(string gameDir, SupportedGame current, out string gameBuild)
+        {
+            gameBuild = current != null ? current.GameBuild : null;
+            if (current != null)
+            {
+                PakState state = new InstallerCore(gameDir, current, null).InspectPak();
+                if (state != PakState.Unknown) return state;
+            }
             InstallerCore core = CoreForInstalledGame(gameDir, null, null);
-            if (core == null) return PakState.Unknown;
-            SupportedGame game = LoadSupportedGame(null, null);
-            gameBuild = game != null ? game.GameBuild : null;
-            return core.InspectPak();
+            return core == null ? PakState.Unknown : core.InspectPak();
         }
 
         // Hotpatch pakchunk0 in Saved/kscache against the cache_launch built into this installer (scans ~112 MB: off the UI thread).
@@ -411,7 +421,8 @@ namespace LotmRussianPatcher
             InstallerCore core = CoreForInstalledGame(norm, null, output);
             if (core != null)
             {
-                output("Состояние pakchunk0: " + core.InspectPak() + " (CleanSupported / Installed / Unknown)");
+                string build;
+                output("Состояние pakchunk0: " + InspectPak(norm, out build) + " (CleanSupported / Installed / Unknown)");
                 output("Кеш обновления (Saved\\kscache): " + LogCollector.DescribeCache(InspectCache(norm)));
                 output("Статус патча: " + core.InspectStatus());
                 output("Версия русификатора: " + (InstalledVersion(norm) ?? "-"));

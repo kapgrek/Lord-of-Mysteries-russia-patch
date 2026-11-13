@@ -56,6 +56,23 @@ public static class InstallerCoreTests
             Console.WriteLine("Detail: " + ci.Detail);
             return 0;
         }
+        if (args.Length == 3 && args[0] == "--simulate-install")
+        {
+            // Install into a COPY of a real game folder under temp/ with an extracted data zip (TASK-046).
+            string game = Path.GetFullPath(args[1]);
+            string payload = Path.GetFullPath(args[2]);
+            if (!IsUnder(game, tempDir) || !IsUnder(payload, tempDir)) { Console.Error.WriteLine("Refusing to work outside " + tempDir); return 2; }
+            InstallerLog.Dir = Path.Combine(tempDir, "simulate-install-log");
+            string build;
+            Console.WriteLine("UI pak state: " + PatcherBackend.InspectPak(game, SupportedGame.Load(payload), out build) + " (build " + build + ")");
+            var sg = SupportedGame.Load(payload);
+            var core = new InstallerCore(game, sg, Console.WriteLine);
+            string reason;
+            bool ok = core.Install(payload, out reason);
+            Console.WriteLine("Install: " + ok + " " + reason);
+            Console.WriteLine("pak sha256: " + InstallerCore.FileSha256(core.PakPath) + ", status: " + core.InspectStatus());
+            return ok ? 0 : 1;
+        }
         if (args.Length > 0) testRoot = Path.GetFullPath(args[0]);
         if (!IsUnder(testRoot, tempDir))
         {
@@ -107,6 +124,7 @@ public static class InstallerCoreTests
         Run("build 2307645: cache pak without the launch block and its record -> base pak only", CacheNoLaunchBlock);
         Run("build 2307645: no record, but a block head in the cache -> still refused", CacheNoRecordForeignHead);
         Run("base_launch_block.payload: other bridge file, default omitted in ToJson", BasePayloadField);
+        Run("game updated: old backup supported_game.json, new clean pak -> CleanSupported by this installer's data", PakStateOldBackup);
         Run("supported_game.json: old backup with launch_block still works", OldBackupFormat);
         Run("supported_game.json: format 2, min_installer_version", Format2AndMinInstaller);
         Run("options: cpdd_patcher_settings.lua defaults, CPDD format, round trip", OptionsSettingsRoundTrip);
@@ -761,6 +779,29 @@ public static class InstallerCoreTests
         bool threw = false;
         try { SupportedGame.Parse(bad); } catch (InvalidDataException) { threw = true; }
         Assert(threw, "payload with .. refused");
+    }
+
+    // TASK-046: Saved/RussianPatchBackups/supported_game.json of the previous install (old build) must not make
+    // the clean pak of the new build Unknown: the installer showed "версия игры не поддерживается".
+    static void PakStateOldBackup()
+    {
+        var f = NewFixture("pak-old-backup");
+        var old = NewFixture("pak-old-backup-old");   // other random pak = the previous build
+        Directory.CreateDirectory(f.Core().BackupDir);
+        File.WriteAllText(Path.Combine(f.Core().BackupDir, SupportedGame.FileName), old.Game.ToJson(), new UTF8Encoding(false));
+        Assert(new InstallerCore(f.GameDir, old.Game, null).InspectPak() == PakState.Unknown, "against the old data the pak is Unknown");
+        string build;
+        Assert(PatcherBackend.InspectPak(f.GameDir, f.Game, out build) == PakState.CleanSupported && build == f.Game.GameBuild, "CleanSupported by the current data");
+        string reason;
+        Assert(f.Core().Install(f.PayloadDir, out reason), "install: " + reason);
+        Assert(PatcherBackend.InspectPak(f.GameDir, f.Game, out build) == PakState.Installed, "Installed after the install");
+        // An older installer's data still recognises a pak it installed (current data does not know it).
+        var g = NewFixture("pak-old-backup-installed-by-old");
+        WriteOwnedFiles(old.PayloadDir);
+        File.Copy(old.PakPath, g.PakPath, true);
+        Assert(new InstallerCore(g.GameDir, old.Game, null).Install(old.PayloadDir, out reason), "old install: " + reason);
+        Assert(PatcherBackend.InspectPak(g.GameDir, g.Game, out build) == PakState.Installed, "backup data: Installed");
+        Assert(PatcherBackend.InspectPak(g.GameDir, null, out build) == PakState.Installed && build == null, "no current data: backup only");
     }
 
     static void CacheNoPak()
