@@ -10,7 +10,7 @@ do
     end
 end
 
-local VERSION = "3.1.7-RU"
+local VERSION = "3.1.8-RU"
 
 -- Production performance mode keeps warnings and errors while removing the
 -- release/info traffic emitted from hot gameplay paths. It also disables the
@@ -5071,17 +5071,140 @@ do
         reportVerbose("autochess fetter tree end lines=" .. lines)
     end
 
+    -- TASK-048 B1: the auto-sized RichText_Detailed sits above the Fill
+    -- ScrollBox in a column capped at 900 px (KGSizeBox_0), so the Russian
+    -- description (600 px) leaves the levels 133 px. Move it into that
+    -- ScrollBox as its first child, so it scrolls with the levels. Same
+    -- UObject: view.RichText_Detailed stays valid. Children are rebuilt
+    -- (ScrollBox InsertChildAt appends the Slate slot at the end).
+    TF.FetterMoved = setmetatable({}, { __mode = "k" })
+    TF.FetterSlotFields = { "HorizontalAlignment", "VerticalAlignment" }
+    TF.MarginFields = { "Left", "Top", "Right", "Bottom" }
+
+    local function widgetClassName(widget)
+        local name = nil
+        pcall(function() name = tostring(widget:GetClass():GetName()) end)
+        return name or ""
+    end
+
+    local function readSlot(widget)
+        local saved = {}
+        local slot = nil
+        pcall(function() slot = widget.Slot end)
+        if slot == nil then return saved end
+        for _, field in ipairs(TF.FetterSlotFields) do
+            pcall(function() saved[field] = tonumber(slot[field]) end)
+        end
+        -- Plain numbers: the old slot is destroyed by RemoveFromParent.
+        pcall(function()
+            local padding = slot.Padding
+            local margin = {}
+            for _, side in ipairs(TF.MarginFields) do margin[side] = tonumber(padding[side]) or 0 end
+            saved.margin = margin
+        end)
+        return saved
+    end
+
+    local function applySlot(slot, saved)
+        if slot == nil then return end
+        for _, field in ipairs(TF.FetterSlotFields) do
+            if saved[field] ~= nil then
+                pcall(function() slot["Set" .. field](slot, saved[field]) end)
+            end
+        end
+        if saved.margin ~= nil then
+            pcall(function()
+                local padding = slot.Padding
+                for _, side in ipairs(TF.MarginFields) do padding[side] = saved.margin[side] end
+                slot:SetPadding(padding)
+            end)
+        end
+    end
+
+    -- Returns "moved", "already" or nil plus a skip reason.
+    function TF.MoveFetterDetail(detail)
+        local parent = nil
+        pcall(function() parent = detail:GetParent() end)
+        if parent == nil then return nil, "no-parent" end
+        if widgetClassName(parent):find("ScrollBox", 1, true) then return "already" end
+
+        local count = 0
+        pcall(function() count = tonumber(parent:GetChildrenCount()) or 0 end)
+        local found, scroll = false, nil
+        for index = 0, count - 1 do
+            local child = nil
+            pcall(function() child = parent:GetChildAt(index) end)
+            if child == detail then
+                found = true
+            elseif found and child ~= nil and widgetClassName(child):find("ScrollBox", 1, true) then
+                scroll = child
+                break
+            end
+        end
+        if scroll == nil then return nil, found and "no-scrollbox" or "detail-not-in-parent" end
+
+        local api = false
+        pcall(function()
+            api = scroll.AddChild ~= nil and scroll.GetChildAt ~= nil
+                and detail.RemoveFromParent ~= nil
+        end)
+        if not api then return nil, "api-missing" end
+
+        local others = {}
+        local scrollCount = 0
+        pcall(function() scrollCount = tonumber(scroll:GetChildrenCount()) or 0 end)
+        for index = 0, scrollCount - 1 do
+            local child = nil
+            pcall(function() child = scroll:GetChildAt(index) end)
+            if child ~= nil then others[#others + 1] = { widget = child, slot = readSlot(child) } end
+        end
+        local detailSlot = readSlot(detail)
+
+        if not pcall(function() detail:RemoveFromParent() end) then return nil, "remove-failed" end
+        for _, entry in ipairs(others) do pcall(function() entry.widget:RemoveFromParent() end) end
+
+        local slot = nil
+        local ok = pcall(function() slot = scroll:AddChild(detail) end)
+        if ok then applySlot(slot, detailSlot) end
+        for _, entry in ipairs(others) do
+            local otherSlot = nil
+            if pcall(function() otherSlot = scroll:AddChild(entry.widget) end) then
+                applySlot(otherSlot, entry.slot)
+            end
+        end
+        if not ok then
+            -- Best effort: the description returns to the end of its old column.
+            pcall(function() parent:AddChild(detail) end)
+            return nil, "add-failed"
+        end
+        return "moved"
+    end
+
     function runtimeFixes.fitAutoChessFetterTip(comp)
-        if not (type(Loader.Features) == "table" and Loader.Features.DiagnosticsMode == true) then return end
         if type(comp) ~= "table" or comp.isDestroyed then return end
-        if TF.FetterTreeDone >= TF.FetterTreeMax or TF.FetterTreePending then return end
         local owner = comp.userWidget or comp.widget
+        local detail = getNamedWidget(comp.view, "RichText_Detailed")
+            or (owner ~= nil and getNamedWidget(owner, "RichText_Detailed")) or nil
+        if detail ~= nil and TF.FetterMoved[detail] == nil then
+            local okMove, state, reason = pcall(TF.MoveFetterDetail, detail)
+            if not okMove then state, reason = nil, tostring(state) end
+            if state ~= nil then
+                TF.FetterMoved[detail] = state
+                if state == "moved" then reportVerbose("autochess fetter reparent ok") end
+            else
+                TF.FetterMoved[detail] = "skip"
+                reportVerbose("autochess fetter reparent skip reason=" .. tostring(reason))
+            end
+        elseif detail == nil and not TF.FetterNoDetailNoted then
+            TF.FetterNoDetailNoted = true
+            reportVerbose("autochess fetter reparent skip reason=no-detail")
+        end
+
+        if not (type(Loader.Features) == "table" and Loader.Features.DiagnosticsMode == true) then return end
+        if TF.FetterTreeDone >= TF.FetterTreeMax or TF.FetterTreePending then return end
         if owner == nil then return end
         local text = nil
-        pcall(function()
-            local detail = getNamedWidget(comp.view, "RichText_Detailed") or getNamedWidget(owner, "RichText_Detailed")
-            text = detail and tostring(detail:GetText())
-        end)
+        pcall(function() text = detail and tostring(detail:GetText()) end)
         local key = text or "?"
         if TF.FetterTreeTexts[key] then return end
         local manager, addTimer = nil, nil

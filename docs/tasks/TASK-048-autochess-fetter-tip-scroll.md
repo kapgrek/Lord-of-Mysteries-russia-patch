@@ -2,7 +2,14 @@
 
 Дорожная карта: [ROADMAP.md](ROADMAP.md). Предыдущие: [TASK-016](TASK-016-autochess-tips-fit.md) (подгонка подсказок Автошахмат), [TASK-047](TASK-047-update-2307645-new-strings.md) (перевод абзаца «特选»). Данные: сессия диагностики `20261113-192230` (v3.1.6 локальная сборка, `Saved/Mods/logs/absru-s4-*`), скриншот пользователя 2026-11-13.
 
-Статус: **этап A выполнен (диагностика в коде), ждём лог пользователя для этапа B.**
+Статус: **этап B1 исполнен (v3.1.8-RU), ждёт проверки в игре.**
+
+### Этап B1 — выполнено
+- `TF.MoveFetterDetail` + начало `runtimeFixes.fitAutoChessFetterTip` (`Init.lua`): работает **всегда** (не только в DiagnosticsMode). Ищет у родителя `RichText_Detailed` первый `*ScrollBox*` после него, проверяет API (`AddChild`, `GetChildAt`, `RemoveFromParent`), снимает описание и детей ScrollBox, добавляет описание первым, затем прежних детей. Слоты: `HorizontalAlignment`/`VerticalAlignment` и `Padding` (числами — старый слот уничтожается) переносятся; описание получает отступы своего прежнего `VerticalBoxSlot`.
+- Отступление от плана: `InsertChildAt` не используется — у `UScrollBox` `OnSlotAdded` добавляет Slate-слот в конец, порядок не совпал бы. Всегда пересборка.
+- Повтор: слабая таблица `TF.FetterMoved` + проверка «родитель уже ScrollBox» (на случай нового Lua-прокси). Неудача фиксируется на экземпляр, повторно не пробуется; при сбое `AddChild` описание возвращается в конец старого столбца.
+- Логи только в DiagnosticsMode: `autochess fetter reparent ok` / `autochess fetter reparent skip reason=no-detail|no-parent|no-scrollbox|detail-not-in-parent|api-missing|remove-failed|add-failed`. Снимок дерева (этап A) остаётся и снимается после переноса.
+- Проверки: VerifyPatch OK (182 локальных), LuaJIT компилирует; заглушка `temp/task048/stub_b1.lua` — перенос и порядок, отступы/выравнивание, повторный Refresh, новый прокси, нет ScrollBox, нет описания, уничтоженный компонент, снимок в DiagnosticsMode — PASS.
 
 ### Этап A — выполнено
 - `runtimeFixes.fitAutoChessFetterTip` (после `fitAutoChessPieceSkill`, `Init.lua`) + `TF.FetterTreeLine` / `TF.DumpFetterTree`; подключена в `hookAutoChessClassTable` для `AutoChess_Tips_FetterTips.Refresh/OnRefresh`.
@@ -33,6 +40,19 @@
 1. В `hookAutoChessClassTable` (`Init.lua:12049-12053`) для `AutoChess_Tips_FetterTips` и `Refresh` / `OnRefresh` передать `afterTranslate` = `runtimeFixes.fitAutoChessFetterTip` (новая, рядом с `fitAutoChessPieceSkill`, `Init.lua:4896`).
 2. В `fitAutoChessFetterTip` при `DiagnosticsMode` (через тик, как в `fitAutoChessPieceSkill`, `Init.lua:4945`) — один раз за сессию снять дерево от `userWidget.WidgetTree.RootWidget`: для каждого виджета имя, класс, класс слота, `GetDesiredSize`, `GetLocalSize(GetCachedGeometry())`, для `SizeBox` — `MaxDesiredHeight` / `HeightOverride` / флаги `bOverride_*`, для слота `VerticalBoxSlot` — `Size.SizeRule`, для `ScrollBox` — число детей. Вывод одной строкой на виджет в `C7.log`: `autochess fetter tree depth=<n> name=<…> class=<…> slot=<…> desired=<X>x<Y> local=<X>x<Y> extra=<…>`.
 3. Пользователь (с `absoluteru_dev.lua`) открывает подсказку 2–3 бонусов и приносит `C7.log` в чат анализа. Из снимка определить: родитель `RichText_Detailed`, имя `ScrollBox`, где стоит потолок 900 (SizeBox, слот канваса или размер экрана).
+
+### Результат этапа A (C7.log 2026-11-13 19:42:16, snapshot=1, textLen=626)
+```
+Canvas_Content KGCanvasPanel 532x900
+ HB_Tips KGHorizontalBox → Canvas_Bond KGCanvasPanel 532x900
+  KGSizeBox_0 KGSizeBox MaxDesiredHeight=900 (bOverride=true), slot autoSize
+   VB_Content KGVerticalBox desired 528x1641.7, local 528x900
+    HB_Title        Auto  92
+    RichText_Detailed Auto  local 488x600   ← забирает 600 из 900
+    KGScrollBox_1   Fill  local 488x133.3, desired 875, 1 ребёнок KGVerticalBox_0 (уровни)
+    Text_Mark       Auto  18.7
+```
+Гипотеза подтверждена: потолок 900 задаёт `KGSizeBox_0.MaxDesiredHeight`; описание (600 px) остаётся над `KGScrollBox_1`, которому достаётся 133 px из 875 нужных. Для B1: перенести `RichText_Detailed` в `KGScrollBox_1` (точнее, первым ребёнком `KGVerticalBox_0` внутри него или самого ScrollBox). B2 (поднять 900) даст лишь +~100–150 px при экране 1080 — только как дополнение.
 
 ### Этап B. Правка (выбрать по снимку, отдельным коммитом после этапа A)
 - **B1 (основной).** Перенести `RichText_Detailed` внутрь `ScrollBox` первым ребёнком: описание прокручивается вместе с уровнями. Один раз на экземпляр окна: `RemoveFromParent` → в `ScrollBox` пересобрать детей (снять, `AddChild(описание)`, вернуть остальных в прежнем порядке; `InsertChildAt` пробовать первым через `pcall`). Ссылки игры на виджет (`view.RichText_Detailed`) остаются действительными — тот же объект. Флаг «перенесено» хранить в слабой таблице по виджету. Отступы слота — как у первого элемента уровней. Если `ScrollBox` или нужные методы не найдены — ничего не делать и написать `autochess fetter reparent skip reason=…` (только в `DiagnosticsMode`).
